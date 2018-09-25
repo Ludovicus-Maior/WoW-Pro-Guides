@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2018-09-24 02:46
+-- Who: jovieve
+-- Log: Annoying CN tag changed to CS.
+
+-- URL: http://wow-pro.com/node/3309/revisions/29818/view
+-- Date: 2018-09-24 02:45
+-- Who: jovieve
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3309/revisions/29817/view
+-- Date: 2018-09-24 02:43
+-- Who: jovieve
+-- Log: Annoying CN tag changed to CS.
+
+-- URL: http://wow-pro.com/node/3309/revisions/29814/view
+-- Date: 2018-09-24 01:09
+-- Who: jovieve
+-- Log: Edited confusing note.
+
+-- URL: http://wow-pro.com/node/3309/revisions/29222/view
 -- Date: 2018-03-06 01:30
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -316,7 +336,7 @@ C By the Light of the Stars|QID|27549|M|62.15,32.93|N|Use the glasses then gathe
 T By the Light of the Stars|QID|27549|M|64.48,28.05|N|To Harrison Jones, then sit back and watch the cinematic.\n\n**Remember to put your head gear back on!**|
 
 A Tipping the Balance|QID|27431|M|64.49,27.98|N|From Harrison Jones.|
-C Tipping the Balance|QID|27431|M|64.41,27.32|N|After the first cinematic, talk to Harrison and click 'Ask "What can I do to help?"', then sit back and watch the second cinematic.|CHAT|
+C Tipping the Balance|QID|27431|M|64.41,27.32|N|Talk to Harrison and ask what you can do to help, then sit back and watch the cinematic.|CHAT|
 T Tipping the Balance|QID|27431|M|64.50,27.99|N|To Harrison Jones.|
 
 A After the Fall|QID|27624|PRE|27431|M|64.50,27.99|N|From Harrison Jones.|
@@ -394,7 +414,7 @@ A Trespassers in the Water|QID|27837|PRE|27630|M|54.18,41.83|N|From High Priest 
 A Stopping the Spread|QID|27836|PRE|27630|M|54.18,41.83|N|From High Priest Amet.|US|
 
 C Trespassers in the Water|QID|27837|M|52.81,45.59;56.36,40.16|CN|N|Kill Stillwater Slitherers, they're underwater near the dam.|S|
-C Stopping the Spread|QID|27836|M|52.81,45.59;52.58,43.34|CN|N|Destroy Slitherer Eggs, they're underwater near the dam.|NC|
+C Stopping the Spread|QID|27836|M|52.81,45.59;52.58,43.34|CS|N|Destroy Slitherer Eggs, they're underwater near the dam.|NC|
 C Trespassers in the Water|QID|27837|M|56.36,40.16|CN|N|Kill Stillwater Slitherers, they're underwater near the dam.|US|
 
 T Trespassers in the Water|QID|27837|M|52.81,45.59;54.18,41.83|CS|N|To High Priest Amet.|S|

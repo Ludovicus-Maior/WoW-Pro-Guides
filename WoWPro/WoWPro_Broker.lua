@@ -228,62 +228,117 @@ end
 
 
 WoWPro.ObjectiveOperators = {}
-function WoWPro.ObjectiveOperators.done(qid, objective)
+-- Quest Objective functions
+function WoWPro.ObjectiveOperators.QuestDone(qid, objective)
     local done = WoWPro.QuestLog[qid].ocompleted and WoWPro.QuestLog[qid].ocompleted[objective]
     local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
 
-function WoWPro.ObjectiveOperators.less(qid, objective, target)
+function WoWPro.ObjectiveOperators.QuestLess(qid, objective, target)
     local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective] >= target
     local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
 
-function WoWPro.ObjectiveOperators.equal(qid, objective, target)
+function WoWPro.ObjectiveOperators.QuestEqual(qid, objective, target)
     local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective] == target
     local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
 
-function WoWPro.ObjectiveOperators.greater(qid, objective, target)
+function WoWPro.ObjectiveOperators.QuestGreater(qid, objective, target)
     local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective] <= target
     local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
 
-WoWPro.ObjectiveOperators['<'] = WoWPro.ObjectiveOperators.less
-WoWPro.ObjectiveOperators['='] = WoWPro.ObjectiveOperators.equal
-WoWPro.ObjectiveOperators['>'] = WoWPro.ObjectiveOperators.greater
+-- Scenario Objective functions
+function WoWPro.ObjectiveOperators.ScenarioDone(stage, objective)
+    local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].completed
+    local status = "?"
+    if WoWPro.Scenario.Criteria[objective] then
+    	status = string.format("%s: %d/%d", WoWPro.Scenario.Criteria[objective].criteriaString, WoWPro.Scenario.Criteria[objective].quantity, WoWPro.Scenario.Criteria[objective].totalQuantity)
+    end
+    return done , status
+end
+
+function WoWPro.ObjectiveOperators.ScenarioLess(stage, objective, target)
+    local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity >= target
+    local status = "?"
+    if WoWPro.Scenario.Criteria[objective] then
+    	status = string.format("%s: %d/%d", WoWPro.Scenario.Criteria[objective].criteriaString, WoWPro.Scenario.Criteria[objective].quantity, WoWPro.Scenario.Criteria[objective].totalQuantity)
+    end
+    return done , status
+end
+
+function WoWPro.ObjectiveOperators.ScenarioEqual(stage, objective, target)
+    local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity == target
+    local status = "?"
+    if WoWPro.Scenario.Criteria[objective] then
+    	status = string.format("%s: %d/%d", WoWPro.Scenario.Criteria[objective].criteriaString, WoWPro.Scenario.Criteria[objective].quantity, WoWPro.Scenario.Criteria[objective].totalQuantity)
+    end
+    return done , status
+end
+
+function WoWPro.ObjectiveOperators.ScenarioGreater(qid, objective, target)
+    local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity <= target
+    local status = "?"
+    if WoWPro.Scenario.Criteria[objective] then
+    	status = string.format("%s: %d/%d", WoWPro.Scenario.Criteria[objective].criteriaString, WoWPro.Scenario.Criteria[objective].quantity, WoWPro.Scenario.Criteria[objective].totalQuantity)
+    end
+    return done , status
+end
 
 
-function WoWPro.ParseObjective(questtext)
+WoWPro.ObjectiveOperators['Q<'] = WoWPro.ObjectiveOperators.QuestLess
+WoWPro.ObjectiveOperators['Q='] = WoWPro.ObjectiveOperators.QuestEqual
+WoWPro.ObjectiveOperators['Q>'] = WoWPro.ObjectiveOperators.QuestGreater
+WoWPro.ObjectiveOperators['Q'] = WoWPro.ObjectiveOperators.QuestDone
+WoWPro.ObjectiveOperators['S<'] = WoWPro.ObjectiveOperators.ScenarioLess
+WoWPro.ObjectiveOperators['S='] = WoWPro.ObjectiveOperators.ScenarioEqual
+WoWPro.ObjectiveOperators['S>'] = WoWPro.ObjectiveOperators.ScenarioGreater
+WoWPro.ObjectiveOperators['S'] = WoWPro.ObjectiveOperators.ScenarioDone
+
+
+function WoWPro.ParseObjective(questtext, class)
     local objective, operator, target = string.match(questtext,OBJECTIVE_PATTERN)
-    WoWPro:dbp("ParseObjective(%q): %q %q %q",questtext, objective, operator, target)
+    WoWPro:dbp("ParseObjective(%q,%q): %q %q %q",questtext, class, objective, operator, target)
     if operator == "" then
         WoWPro:dbp("ParseObjective(%q): returning ObjectiveOperators.done", questtext)
-        return tonumber(objective), WoWPro.ObjectiveOperators.done, nil
+        return tonumber(objective), WoWPro.ObjectiveOperators[class], nil
     elseif (operator ~= "") and (target ~= "") then
-        if WoWPro.ObjectiveOperators[operator] then
+        if WoWPro.ObjectiveOperators[class..operator] then
             target = tonumber(target)
             WoWPro:dbp("ParseObjective(%q): returning ObjectiveOperators[%q], %d", questtext, operator, target)
-            return tonumber(objective), WoWPro.ObjectiveOperators[operator], target
+            return tonumber(objective), WoWPro.ObjectiveOperators[class..operator], target
         else
             WoWPro:Warning("ParseObjective(%q): invalid operator. using ObjectiveOperators.done.", questtext)
-            return tonumber(objective), WoWPro.ObjectiveOperators.done, nil
+            return tonumber(objective), WoWPro.ObjectiveOperators[class], nil
         end
     else
          WoWPro:Warning("ParseObjective(%q): invalid objective. using ObjectiveOperators.done.", questtext)
-        return tonumber(objective), WoWPro.ObjectiveOperators.done, nil
+        return tonumber(objective), WoWPro.ObjectiveOperators[class], nil
     end
 end
 
-function WoWPro.ObjectiveStatus(qid, questtext)
+function WoWPro.QuestObjectiveStatus(qid, questtext)
     local done = false
     local status = "¿"
-    local objective, predicate, target = WoWPro.ParseObjective(questtext)
+    local objective, predicate, target = WoWPro.ParseObjective(questtext,"Q")
     if (not WoWPro.QuestLog[qid]) then
         return false, "Unknown qid "..tostring(qid)
+    end
+    done, status = predicate(qid, objective, target)
+    return done, status
+end
+
+function WoWPro.ScenarioObjectiveStatus(stage, objective)
+    local done = false
+    local status = "¿"
+    local objective, predicate, target = WoWPro.ParseObjective(objective,"S")
+    if (not WoWPro.Scenario) or not (WoWPro.Scenario.currentStage == stage) then
+        return false, "Scenario stage "..tostring(stage).." not active"
     end
     done, status = predicate(qid, objective, target)
     return done, status
@@ -533,19 +588,36 @@ function WoWPro.UpdateQuestTrackerRow(row)
 				for l=1,numquesttext do
 					local lquesttext = select(numquesttext-l+1, string.split(";", questtext))
 					if WoWPro.ValidObjective(lquesttext) then
-					    local done, status = WoWPro.ObjectiveStatus(qid, lquesttext)
+					    local done, status = WoWPro.QuestObjectiveStatus(qid, lquesttext)
 					    track = track.."\n- " .. status
 					else
-					    WoWPro:dbp("UQT: Not a valid objective [%s]", qid, questtext)
+					    WoWPro:dbp("UQT: Not a valid quest objective %q [%s]", QID, questtext)
 					    track =  track.." ???"
 					end
 				end
 			elseif  WoWPro.sobjective[index] then
-			    -- Scenario objectives we dont do now.
-			    track = track
+			    -- Scenario objectives we can do now.
+			    local stage, objective = string.split(";",WoWPro.sobjective[index])
+			    stage = tonumber(stage)
+			    if objective and WoWPro.ValidObjective(objective) then
+			        local done, status = WoWPro.ScenarioObjectiveStatus(stage, objective)
+			        track = track.."\n- " .. status
+			    elseif stage then
+			        --- Naked stage
+			        if WoWPro.Scenario and WoWPro.Scenario.currentStage == stage then
+			            track = track.."\n- "..WoWPro.Scenario.stageDescription
+			        else
+					    WoWPro:dbp("UQT: Scenario not active yet %q [%s]", QID, WoWPro.sobjective[index])
+					    track =  track.." ??"
+			        end
+			    else
+				    WoWPro:dbp("UQT: Not a valid scenario objective %q [%s]", QID, WoWPro.sobjective[index])
+				    track =  track.." ??"
+			    end
 			else
 			    --No questtext or leaderboard
 			    WoWPro:dbp("UQT: QID %d active, but no QO or leaderBoard!", qid)
+			    track =  track.." ?"
 			end
 		end
 		if lootitem then
@@ -1157,7 +1229,9 @@ function WoWPro.NextStep(k,i)
 	    
 		-- Checking Prerequisites --
     	if WoWPro.prereq[k] then
-    	    if string.find(WoWPro.prereq[k],"+") then
+    	    if WoWPro.prereq[k] == "" then
+    	        WoWPro.why[k] = "NextStep(): Empty PRE tag!"
+    	    elseif string.find(WoWPro.prereq[k],"+") then
     	        -- Any prereq met is OK, skip only if none are met	
         		local numprereqs = select("#", string.split("+", WoWPro.prereq[k]))
         		local totalFailure = true
@@ -1250,7 +1324,7 @@ function WoWPro.NextStep(k,i)
 		        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[k]))
 		        local lcomplete = false
 		        if WoWPro.ValidObjective(lquesttext) then
-		            lcomplete = WoWPro.ObjectiveStatus(qid, lquesttext)
+		            lcomplete = WoWPro.QuestObjectiveStatus(qid, lquesttext)
     		    end
 		        if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
 	        end
@@ -1303,7 +1377,6 @@ function WoWPro.NextStep(k,i)
                 skip = true
                 break
             end
-            objective = tonumber(objective) or 0
             if not WoWPro.Scenario then
                 WoWPro:dbp("Step %s [%s/%s] skipped as Scenario de-activated (2)",WoWPro.action[k],WoWPro.step[k],tostring(QID))
                 skip = true
@@ -1319,14 +1392,10 @@ function WoWPro.NextStep(k,i)
                skip = true
                break
            end
-           if objective > 0 then
-               if objective > WoWPro.Scenario.numCriteria then
-                   WoWPro:dbp("Big scenario objective [%s] at step %s [%s]. objective=%d, numCriteria=%d", WoWPro.sobjective[k], WoWPro.action[k],WoWPro.step[k], objective, WoWPro.Scenario.numCriteria)
-                   skip = true
-                   break
-               end
-               if WoWPro.Scenario.Criteria[objective].completed then
-                   WoWPro.CompleteStep(k, "Scenario objective completed:"..WoWPro.sobjective[k])
+           if objective and WoWPro.ValidObjective(objective) then
+               local done, status = WoWPro.ScenarioObjectiveStatus(stage, objective)
+               if done then
+                   WoWPro.CompleteStep(k, "Scenario objective completed: "..WoWPro.sobjective[k].." "..status)
                    skip = true
                    break
                end 
@@ -1593,39 +1662,83 @@ function WoWPro.NextStep(k,i)
         
         -- Skipping Achievements if completed  --
     	if WoWPro.ach and WoWPro.ach[k] then
-    		local achnum, achitem, achflip = string.split(";",WoWPro.ach[k])
-    		achflip = WoWPro.toboolean(achflip) 
-    		local count = GetAchievementNumCriteria(achnum)
-    		if achitem == "" then achitem = nil end
-    		if count == 0 or not achitem then
-    			local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(achnum)
-    			WoWPro:dbp("ACH %s wasEarnedByMe=%s, Flip=%s", achnum, tostring(wasEarnedByMe), tostring(achflip))
-    			if achflip then wasEarnedByMe = not wasEarnedByMe end
-                if wasEarnedByMe then
-                    if not achflip then
-				        WoWPro.CompleteStep(k, "NextStep(): Achivement ["..Name.."] Complete.") 
-				    end
-				    skip = true
+			local achtbl = { string.split("+",WoWPro.ach[k]) }
+			for akey, aval in pairs(achtbl) do
+				local achnum, achitem, achflip = string.split(";",aval)
+				achflip = WoWPro.toboolean(achflip) 
+				local count = GetAchievementNumCriteria(achnum)
+				if achitem == "" then achitem = nil end
+				if count == 0 or not achitem then
+					local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(achnum)
+					WoWPro:dbp("ACH %s wasEarnedByMe=%s, Flip=%s", achnum, tostring(wasEarnedByMe), tostring(achflip))
+					if achflip then wasEarnedByMe = not wasEarnedByMe end
+					if wasEarnedByMe then
+						if akey == #achtbl then
+							if not achflip then
+								WoWPro.CompleteStep(k, "NextStep(): Achivement ["..Name.."] Complete.") 
+							end
+							skip = true
+						elseif achflip then
+							skip = true
+							break
+						end
+					else
+						if achflip then
+							WoWPro.why[k] = "NextStep(): Achivement ["..Name.."] complete but flipped."
+						else
+							WoWPro.why[k] = "NextStep(): Achivement ["..Name.."] not complete."
+							break
+						end
+					end 
+				elseif (count > 0) and achitem then
+					local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
+					WoWPro:dbp("ACH %s/%s Completed=%s, Flip=%s", achnum, achitem, tostring(Completed), tostring(achflip))
+					if achflip then completed = not completed end
+					if completed then
+						if akey == #achtbl then
+							if not achflip then
+								WoWPro.CompleteStep(k, "NextStep(): Criteria ["..description.."] Complete.")
+							end
+							skip = true
+						elseif achflip then
+							skip = true
+							break
+						end
+					else
+						if achflip then
+							WoWPro.why[k] = "NextStep(): Criteria ["..description.."] complete but flipped."
+						else
+							WoWPro.why[k] = "NextStep(): Criteria ["..description.."] not complete."
+							break;
+						end
+					end
 				else
-				    WoWPro.why[k] = "NextStep(): Achivement ["..Name.."] not complete."
-			    end 
-    		elseif (count > 0) and achitem then
-    			local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
-    			WoWPro:dbp("ACH %s/%s Completed=%s, Flip=%s", achnum, achitem, tostring(Completed), tostring(achflip))
-    			if achflip then completed = not completed end
-			    if completed then
-			        if not achflip then
-				        WoWPro.CompleteStep(k, "NextStep(): Criteria ["..description.."] Complete.")
-				    end
-				    skip = true
-				else
-				    WoWPro.why[k] = "NextStep(): Criteria ["..description.."] not complete."
-			    end
-			else
-			    WoWPro:Error("Malformed Achievement tag on step %d: Ach [%s] AchCount %d",k,WoWPro.ach[k],count)
-    		end
+					WoWPro:Error("Malformed Achievement tag on step %d: Ach [%s] AchCount %d",k,WoWPro.ach[k],count)
+				end
+			end
     	end
     	
+	if WoWPro.ilvl and WoWPro.ilvl[k] then
+    		local ilvlID,ilvlFlip = string.split(";",WoWPro.ilvl[k])
+    		local avgIlvl = GetAverageItemLevel()
+		local ilvlMatch
+		ilvlFlip = WoWPro.toboolean(ilvlFlip)
+		if tonumber(ilvlID) >= avgIlvl then 
+			ilvlMatch = true
+		end		
+		if ilvlFlip then
+			ilvlMatch = not ilvlMatch
+		end
+		if ilvlMatch then
+			if not ilvlFlip then
+				WoWPro.CompleteStep(k, "NextStep(): Item Level ["..avgIlvl.."] is less than "..ilvlID..".") 
+			end
+			skip = true
+		else
+			WoWPro.why[k] = "NextStep(): Item Level ["..ilvlID.."] not met."
+		end			
+    	end		
+			
     	-- Skipping spells if known.
     	-- Warning: not all spells are detectable by this method.  Blizzard is not consistent!
     	-- This tests for Spells you can put on a button, essentially.
@@ -2222,7 +2335,7 @@ function WoWPro.ProcessScenarioCriteria(punt)
     ScenarioSerial = ScenarioSerial + 1
     WoWPro:print("WoWPro.ProcessScenarioCriteria: Serial %d, found %d criteria",WoWPro.Scenario.Criteria.serial, WoWPro.Scenario.numCriteria)
     for criteriaIndex = 1, WoWPro.Scenario.numCriteria do
-        local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, quantityString, criteriaID, duration, elapsed, _, isWeightedProgress = C_Scenario.GetCriteriaInfo(criteriaIndex);
+        local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, quantityString, criteriaID, duration, elapsed, criteriaFailed, isWeightedProgress = C_Scenario.GetCriteriaInfo(criteriaIndex);
         if (criteriaString) then
             WoWPro.Scenario.Criteria[criteriaIndex] = WoWPro.Scenario.Criteria[criteriaIndex] or {}
             WoWPro.Scenario.Criteria[criteriaIndex].criteriaString = criteriaString

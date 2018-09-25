@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2018-09-24 07:48
+-- Who: elidion
+-- Log: Updated zone tags, skip F tags if you have legion flying.
+
+-- URL: http://wow-pro.com/node/3683/revisions/29737/view
 -- Date: 2018-09-13 00:53
 -- Who: elidion
 -- Log: Changes for skip rares and treasures feature.
@@ -232,11 +237,11 @@ N Rares (Silver Elite)|QID|39735|N|All of the Silver mobs are also included. The
 N Ranks|QID|39735|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest & treasure and rare in the zone.|
 
 ; Greymane's Gambit Leadin
-R The Violet Citadel|QID|39735|M|29.10,46.93|Z|Dalaran@Dalaran70|N|At Sky Admiral Rogers.|
-T Stormheim|QID|39735|M|29.10,46.93|Z|Dalaran@Dalaran70|N|To Sky Admiral Rogers.|
-A A Royal Summons|QID|38035|PRE|39735|M|29.10,46.93|Z|Dalaran@Dalaran70|N|From Sky Admiral Rogers.|
-C A Royal Summons|QID|38035|M|28.86,46.63|Z|Dalaran@Dalaran70|QO|1|N|Read the summons from Anduin Wrynn.|U|128687|
-R Stormwind City|QID|38035|M|26.54,45.23|Z|Dalaran@Dalaran70|QO|2|N|Click on the portal to get to the Skyfire.|
+R The Violet Citadel|QID|39735|M|29.10,46.93|Z|Dalaran!Dalaran!Dungeon|N|At Sky Admiral Rogers.|
+T Stormheim|QID|39735|M|29.10,46.93|Z|Dalaran!Dalaran!Dungeon|N|To Sky Admiral Rogers.|
+A A Royal Summons|QID|38035|PRE|39735|M|29.10,46.93|Z|Dalaran!Dalaran!Dungeon|N|From Sky Admiral Rogers.|
+C A Royal Summons|QID|38035|M|28.86,46.63|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Read the summons from Anduin Wrynn.|U|128687|
+R Stormwind City|QID|38035|M|26.54,45.23|Z|Dalaran!Dalaran!Dungeon|QO|2|N|Click on the portal to get to the Skyfire.|
 T A Royal Summons|QID|38035|M|18.93,42.75|Z|Stormwind City|N|To Sky Admiral Rogers.|
 A Making the Rounds|QID|38206|PRE|38035|M|18.93,42.75|Z|Stormwind City|N|From Sky Admiral Rogers.|
 C Making the Rounds|QID|38206|M|18.56,46.36|Z|Stormwind City|QO|1|NC|N|Inspect Deck Guns.|
@@ -470,7 +475,7 @@ A Dances With Ravenbears|QID|42447|PRE|42445;42446|M|49.79,32.64|N|From Cukkaw.|
 C Dances With Ravenbears|QID|42447|M|53.70,30.20|CHAT|N|Tell him you are ready (multiple times if needed). Mimic their motions 1-raise arms, 2-spin, 3-flap wings.|RANK|2|
 T Dances With Ravenbears|QID|42447|M|54.03,30.23|N|To Cukkaw.|RANK|2|
 f Stormtorn Foothills|QID|42447|M|51.98,34.80|N|At Hillevi the Scalekeeper.|RANK|2|
-F Lorna's Watch|QID|39787|M|51.98,34.81|N|Fly back to Lorna's Watch at Hillevi the Scalekeepter.|RANK|2|
+F Lorna's Watch|QID|39787|M|51.98,34.81|N|Fly back to Lorna's Watch at Hillevi the Scalekeepter.|RANK|2|SPELL|Flying in Legion;233368|
 K Hook & Sinker|QID|38625|M|42.05,57.84|QO|1|RARE|ITEM|129109|T|Hook|N|Silver - Kill and loot for a bit of loot and Treasure.|
 T Rigging the Wager|QID|39787|M|51.33,56.98|N|To Snaggle Sixtrigger.|RANK|2|
 T Only the Finest|QID|39793|M|51.36,57.28|N|To Rax Sixtrigger.|RANK|2|
@@ -653,7 +658,7 @@ C A Stack of Racks|QID|39792|M|51.97,75.72|US|N|Kill the stout higlands runehorn
 $ Small Treasure Chest|QID|38480|M|51.55,76.64;50.63,77.03;52.03,80.56|CS|N|Path Starts beside Hannval's house. Run up to find chest. Loot for a bit of treasure and resources.|
 f Hafr Fjall|QID|39792|M|52.53,80.11;52.95,82.02;53.58,85.33;55.66,87.46|CS|N|Continue up this path to find a flightpath at Fluga the Scalekeeper. This is the flightpath that serves the PvP area in Stormheim and it is down from here.|RANK|3|
 $ Small Treasure Chest|QID|43190|M|59.14,87.18;53.19,93.12|CS|N|This is WAY down the trail. Loot or a bit of treasure and resources. Run back up to the flightpath the way you came.|
-F Greywatch|QID|39792|ACTIVE|39792|M|52.53,80.11|N|Fly to Greywatch then run back to Skold-Ashil, OR Click off this step and just run back down.|RANK|3|
+F Greywatch|QID|39792|ACTIVE|39792|M|52.53,80.11|N|Fly to Greywatch then run back to Skold-Ashil, OR Click off this step and just run back down.|RANK|3|SPELL|Flying in Legion;233368|
 R Skold-Ashil|QID|39792|ACTIVE|39092|M|60.96,73.55;60.19,72.11|CC|N|Run back to Skold-Ashil.|RANK|2|
 T Becoming the Ascendant|QID|39092|M|62.31,68.09|N|To Genn Greymane.|
 A Ending the New Beginning|QID|39122|PRE|39092|M|62.31,68.09|N|From Genn Greymane.|
@@ -771,7 +776,7 @@ A Ready to Work|QID|42399|M|80.13,66.22|C|HUNTER|N|From Huntsman Blake.|PRE|4239
 R Talonrest|QID|42483|M|51.4,57.4|U|6948|N|If you set your hearthstone to Valdisdall, this is where you want to use it!|RANK|2|
 T Put It All on Red|QID|42483|M|51.41,57.35|N|To Snaggle's Note. (Optional) Use your reward (magnifying glass) to determine the true value of the other quest rewards.|RANK|2|
 U Dalaran|QID|43331|U|140192|N|Return to Dalaran (via Hearthstone or however you choose).|RANK|2|
-A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844;44100;43007;44544;42600;42597|Z|Dalaran@Dalaran70|N|Someone will follow you around Dalaran until you accept this quest.|LVL|101|
+A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844;44100;43007;44544;42600;42597|Z|Dalaran!Dalaran!Dungeon|N|Someone will follow you around Dalaran until you accept this quest.|LVL|101|
 ;44550 Death Knight - Called to Acherus
 ;44087/42666 Demon Hunter - Return to the Fel Hammer
 ;42516 Druid - Growing Power
@@ -787,14 +792,14 @@ A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844
 C Halls of Valor: Securing the Aegis|QID|40072|N|If you havent yet done Halls of Valor, its a great time to queue for it and get your ilvl 800 legs (static ilvl even if you are lvl 100). Defeat Odyn (final boss in instance).|
 T Halls of Valor: Securing the Aegis|QID|40072|N|To the Aegis of Aggramar.|
 A The Aegis of Aggramar|QID|43349|N|From the Aegis of Aggramar.|PRE|40072|
-C The Aegis of Aggramar|QID|43349|M|49.36,47.34|Z|Dalaran@Dalaran70|NC|N|Central Dalaran teleport used.|
+C The Aegis of Aggramar|QID|43349|M|49.36,47.34|Z|Dalaran!Dalaran!Dungeon|NC|N|Central Dalaran teleport used.|
 T The Aegis of Aggramar|QID|43349|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Aegis of Aggramar" on the wall.|
 A Pressing the Assault|QID|44545|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|
 A Isle Hopping|QID|44547|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|
 A Scouring What Remains|QID|44548|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|
 
-A Time to Collect|QID|43331|M|50.14,22.64|Z|Dalaran@Dalaran70|N|From Gazrix Gearlock beside the north bank.|RANK|3|LVL|110|
-F Valdisdall|QID|43331|M|69.84,51.17|Z|Dalaran@Dalaran70|N|This is meant to be a group quest so take a friend or two. (if you set your hearth thats an option too.)|RANK|3|LVL|110|
+A Time to Collect|QID|43331|M|50.14,22.64|Z|Dalaran!Dalaran!Dungeon|N|From Gazrix Gearlock beside the north bank.|RANK|3|LVL|110|
+F Valdisdall|QID|43331|M|69.84,51.17|Z|Dalaran!Dalaran!Dungeon|N|This is meant to be a group quest so take a friend or two. (if you set your hearth thats an option too.)|RANK|3|LVL|110|SPELL|Flying in Legion;233368|
 R Loch Varmad|QID|43331|ACTIVE|43331|M|60.52,52.14;67.08,38.84;66.01,25.52|CS|N|Run down this path and across the water to avenge those Tauren and...treasure.|RANK|3|LVL|110|
 C Time to Collect|QID|43331|M|69.97,21.96;69,27.5|CS|N|Look straight up from first coordinate, Use Grappling Hook to get onto Island, continuing grappling upward until you are to the top. Kill them within a minute of each other, or else the first one dead may respawm. (If he does respawn, you can avoid him, but it adds difficulty).|RANK|3|LVL|110|
 $ Treasure Chest|QID|40108|M|68.42,29.60|CS|N|Chest is on the rock, path starts right behind Rax Sixtrigger. Loot for resources and treasure.|LVL|110|;doesnt actually require 110, but this is way too remote to come out if you arent doing the sixtriggers quest.

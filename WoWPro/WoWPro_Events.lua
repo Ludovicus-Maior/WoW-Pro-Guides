@@ -234,7 +234,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 				        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[i]))
 				        local lcomplete = false
 				        if WoWPro.ValidObjective(lquesttext) then
-				            lcomplete = WoWPro.ObjectiveStatus(qid, lquesttext)
+				            lcomplete = WoWPro.QuestObjectiveStatus(qid, lquesttext)
     				    end
 				        if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
 			        end

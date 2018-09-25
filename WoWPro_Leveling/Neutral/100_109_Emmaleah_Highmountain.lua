@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2018-09-24 07:45
+-- Who: elidion
+-- Log: Updated zone tags, skip F tags if you have legion flying.
+
+-- URL: http://wow-pro.com/node/3678/revisions/29739/view
 -- Date: 2018-09-13 00:56
 -- Who: elidion
 -- Log: Changes for skip rares and treasures feature.
@@ -199,9 +204,9 @@ N Starting in Dalaran|QID|39733|U|140192|N|This guide assumes you are starting i
 N Treasure|QID|39733|N|All the treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3.|
 N Rares (Silver Elite)|QID|39733|N|A significant number,(21/25) of the Silver mobs are listed.  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
 N Ranks|QID|39733|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest & treasure in the zone.*no treasures, rares or bonus objectives are included on rank 1*|
-T The Lone Mountain|QID|39733|M|71.13,43.96|Z|Dalaran@Dalaran70|N|To Warbrave Oro.|
-A Keepers of the Hammer|QID|38907|M|71.13,43.96|Z|Dalaran@Dalaran70|N|From Warbrave Oro.|PRE|39733|
-F Thunder Totem|QID|38907|M|69.95,51.20|Z|Dalaran@Dalaran70|QO|1|N|Fly to Thunder Totem in Highmountain at Aludane Whitecloud. (the normal way you use a flight path, not a chat option).|
+T The Lone Mountain|QID|39733|M|71.13,43.96|Z|Dalaran!Dalaran!Dungeon|N|To Warbrave Oro.|
+A Keepers of the Hammer|QID|38907|M|71.13,43.96|Z|Dalaran!Dalaran!Dungeon|N|From Warbrave Oro.|PRE|39733|
+F Thunder Totem|QID|38907|M|69.95,51.20|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Fly to Thunder Totem in Highmountain at Aludane Whitecloud. (the normal way you use a flight path, not a chat option).|SPELL|Flying in Legion;233368|
 C Keepers of the Hammer|QID|38907|M|45.70,38.88|Z|ThunderTotem|QO|2|NC|N|Meet Warbrave Oro at Thunder Totem.|
 T Tauren Tanning|QID|40184|LVL|102|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|N|To Hrul Sharphoof|
 A Drogbar Durability|QID|40186|PRE|40184|LVL|102|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|N|From Hrul Sharphoof.|
@@ -374,7 +379,7 @@ t Echoes of Deathwing-Bonus Objective|QID|39576|M|49.71,86.94|Z|Highmountain/29|
 T The Backdoor|QID|39579|M|47.48,84.74|N|To Mayla Highmountain.|
 A The High Chieftain|QID|39580|M|47.47,84.73|N|From Mayla Highmountain.|PRE|39579|
 f Obsidian Overlook|QID|39579|M|47.26,84.64|N|At Chofa Nighthoof.|
-F Thunder Totem|QID|39580|M|47.26,84.64|N|Fly back to Thunder Totem at Chofa Nighthoof.|
+F Thunder Totem|QID|39580|M|47.26,84.64|N|Fly back to Thunder Totem at Chofa Nighthoof.|SPELL|Flying in Legion;233368|
 T The High Chieftain|QID|39580|M|54.85,63.11|Z|Highmountain/6|N|Take the elevator down to find Mayla Highmountain.|
 T Ceremonial Drums|QID|42622|M|54.86,77.98|Z|Highmountain/6|N|To Torv Dubstomp.|
 
@@ -470,7 +475,7 @@ C Oh, the Clawdacity!|QID|40230|M|49.52,15.58|N|Kill Clawdayshus.|T|Clawdayshus|
 T Murlocs: The Next Generation|QID|40102|M|49.57,15.96|N|To King Mrgl-Mrgl.|RANK|3|
 T Oh, the Clawdacity!|QID|40230|M|49.57,15.96|N|To King Mrgl-Mrgl.|RANK|3|
 
-F Nesingwary|QID|38912|M|41.91,10.40|N|At Steven Nelson. Fly back to Nesingwary to continue on our way to Cliff's Edge.|RANK|3|
+F Nesingwary|QID|38912|M|41.91,10.40|N|At Steven Nelson. Fly back to Nesingwary to continue on our way to Cliff's Edge.|RANK|3|SPELL|Flying in Legion;233368|
 R Mucksnout Den|QID|39764|M|41.48,46.76|N|Run to Mucksnout Den. (you can be mounted in the cave)|RANK|2|
 A Shiny, But Deadly|QID|39764|M|51.86,81.25|Z|Highmountain/16|N|From Apprentice Rosalyn.|RANK|2|
 A The Soulkeeper's Fate|QID|39773|M|51.86,81.25|Z|Highmountain/16|N|From Apprentice Rosalyn.|RANK|2|
@@ -674,7 +679,7 @@ C The Witchqueen|QID|39322|M|46.36,39.97|T|High Crawliac|N|Kill High Crawliac.|
 $ Treasure Chest|QID|40507|M|46.81,40.13|N|Loot for a bit of treasure and resources.|
 T The Witchqueen|QID|39322|M|45.69,39.15|N|To Lasan Skyhorn.|
 A The Skies of Highmountain|QID|39387|M|45.69,39.15|N|From Lasan Skyhorn.|PRE|39322|
-F The Skies of Highmountain|QID|39387|QO|1|M|45.64,39.06|NC|N|Optional-Hop on Aviash for a quick ride back to Thunder Totem. (check this off manually)|
+F The Skies of Highmountain|QID|39387|QO|1|M|45.64,39.06|NC|N|Optional-Hop on Aviash for a quick ride back to Thunder Totem. (check this off manually)|SPELL|Flying in Legion;233368|
 
 C The Skies of Highmountain|QID|39387|QO|1|M|42.17,32.99|Z|ThunderTotem|CHAT|N|Meet Lasan at Thunder Totem. If you didnt come in by Aviash, he is standing in front of the Path of Sky doorway.|
 C Unexpected Allies|QID|39456|M|35.07,43.55|Z|ThunderTotem|QO|1|CHAT|N|Meet Navarrogg just outside the Path of Earth doorway.|
@@ -749,7 +754,7 @@ C Wolf Pack Attack|QID|39656|M|56.14,55.43|US|U|128651|T|Icefang Packleader|N|Sh
 T Wolf Pack Attack|QID|39656|M|57.64,56.61|N|To Razik Gazbolt.|RANK|2|
 
 N End of Highmountain|QID|42454|U|140192|N|Return to your Dalaran and then Class Order Hall to pick your next zone and tend to your missions.|
-C Eye of Azshara: The Hammer of Khaz'goroth|QID|42454|M|49.36,47.34|Z|Dalaran@Dalaran70|NC|N|Central Dalaran teleport used|
+C Eye of Azshara: The Hammer of Khaz'goroth|QID|42454|M|49.36,47.34|Z|Dalaran!Dalaran!Dungeon|NC|N|Central Dalaran teleport used|
 T Eye of Azshara: The Hammer of Khaz'goroth|QID|42454|M|41.17,52.45|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Hammer of Khaz'goroth" on the wall.|
 A Pressing the Assault|QID|44545|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454|
 A Isle Hopping|QID|44547|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454;44545|

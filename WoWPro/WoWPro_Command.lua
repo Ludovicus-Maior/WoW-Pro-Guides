@@ -46,6 +46,15 @@ local function handler(msg, editbox)
         ChatFrame1:AddMessage(msg)
         msg = string.format("Global taint log in: <World\ of\ Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua ")
         ChatFrame1:AddMessage(msg)
+    elseif ltoken == "buffs" then
+        for i=1,40 do
+            local name, icon, count, debuffType, duration, expirationTime, unitCaster, canStealOrPurge, nameplateShowPersonal, spellId, canApplyAura, isBossDebuff, isCastByPlayer, nameplateShowAll, timeMod = UnitAura("player", i, nil)
+            if name then
+                local msg = string.format("|r#%d |cFF0000FFName: |cFFFF0000%q, |cFF0000FFspellId: |cFFFF0000%d", i, name, spellId)
+                ChatFrame1:AddMessage(msg)
+            end
+        end
+        ChatFrame1:AddMessage("|rEnd_of_Buffs")
     elseif ltoken == "api_probe" then
         WoWProDB.global.Blizz = {}
         for key in pairs(_G) do

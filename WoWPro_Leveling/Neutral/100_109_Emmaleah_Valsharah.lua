@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2018-09-24 07:46
+-- Who: elidion
+-- Log: Updated zone tags, skip F tags if you have legion flying.
+
+-- URL: http://wow-pro.com/node/3665/revisions/29740/view
 -- Date: 2018-09-13 00:57
 -- Who: elidion
 -- Log: Changes for skip rares and treasures feature.
@@ -237,9 +242,9 @@ N Treasure|QID|39731|N|Enough treasures necessary for the zone treasure hunting 
 N Rares (Silver Elite)|QID|39731|N|All of the Silver mobs are listed on rank 2 or 3 (none on rank 1).  The item displayed has a high chance to drop but not guaranteed.  Blizzard has marked these mobs on the minimap with a star. |
 N Ranks|QID|39731|N|Setting the guide to Rank 1 will get you the minimum nesessary for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there as well as treasure chests and rares that are in the same areas. Rank 3 gets every quest, rare and nearly every treasure in the zone.|
 
-T The Tranquil Forest|QID|39731|M|70.65,43.80|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A Tying Up Loose Ends|QID|39861|PRE|39731|M|70.65,43.80|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|
-C Tying Up Loose Ends|QID|39861|M|69.83,51.21|Z|Dalaran@Dalaran70|QO|1|NC|N|Free (Chat Option)flight to Val'sharah taken from Aludane Whitecloud.|CHAT|
+T The Tranquil Forest|QID|39731|M|70.65,43.80|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
+A Tying Up Loose Ends|QID|39861|PRE|39731|M|70.65,43.80|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|
+C Tying Up Loose Ends|QID|39861|M|69.83,51.21|Z|Dalaran!Dalaran!Dungeon|QO|1|NC|N|Free (Chat Option)flight to Val'sharah taken from Aludane Whitecloud.|CHAT|
 T Tying Up Loose Ends|QID|39861|M|54.69,72.83|N|To Malfurion Stormrage.|
 A Cenarius, Keeper of the Grove|QID|40122|PRE|39861|M|54.69,72.83|N|From Malfurion Stormrage.|
 C Cenarius, Keeper of the Grove|QID|40122|M|54.69,72.83|N|Speak to Malfurion|CHAT|
@@ -530,7 +535,7 @@ T Lieutenant of the Tower|QID|38721|M|41.97,40.75;38.86,50.91|CS|N|Click on the 
 T Illidari Freedom|QID|38719|M|39.13,51.05|N|To Asha Ravensong.|
 
 R Bradensbrook|QID|38663|M|38.27,54.75;42.23,58.50|CS|N|Ride back to Bradensbrook and there you can catch a flight path to Garden of the Moon or you can just continue on to Grove of Cenarius.|
-F Garden of the Moon|QID|38663|M|42.23,58.50|N|At Douglass Carrington.|
+F Garden of the Moon|QID|38663|M|42.23,58.50|N|At Douglass Carrington.|SPELL|Flying in Legion;233368|
 T The Die is Cast|QID|38663|M|52.46,63.35|N|To Ysera.|
 A Malfurion's Fury|QID|38595|PRE|38663|M|52.45,63.34|N|From Ysera.|
 C Malfurion's Fury|QID|38595|M|52.45,63.34|CHAT|N|Tell Ysera you are ready.|
@@ -614,7 +619,7 @@ A Enter the Nightmare|QID|40567|PRE|38743|M|53.69,55.90|N|From Tyrande Whisperwi
 A The Tears of Elune|QID|40890|PRE|38743|M|53.45,55.96|N|From The Tears of Elune. |
 
 P Dalaran|QID|40890|M|56.74,57.72|N|Use your Dalaran Hearthstone or take the flight master back to Dalaran.|U|140192|
-A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844;44100;43007;44544;42600;42597|Z|Dalaran@Dalaran70|N|Someone will follow you around Dalaran until you accept this quest.|;do not add the pre's grail tells you to. they are DH only!
+A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844;44100;43007;44544;42600;42597|Z|Dalaran!Dalaran!Dungeon|N|Someone will follow you around Dalaran until you accept this quest.|;do not add the pre's grail tells you to. they are DH only!
 ;44550 Death Knight - Called to Acherus
 ;44087/42666 Demon Hunter - Return to the Fel Hammer
 ;42516 Druid - Growing Power
@@ -627,7 +632,7 @@ A Class Specific Quest|QID|44550;44087;42666;42516;42517;42481;42175;42186;42844
 ;44544 Shaman - Call of the Earther Ring
 ;42600 Warlock - Growing Power
 ;42597 Warrior - Odyn's Summons
-C The Tears of Elune|QID|40890|M|49.36,47.34|Z|Dalaran@Dalaran70|NC|N|Central Dalaran teleport used|
+C The Tears of Elune|QID|40890|M|49.36,47.34|Z|Dalaran!Dalaran!Dungeon|NC|N|Central Dalaran teleport used|
 T The Tears of Elune|QID|40890|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Tears of Elune" on the wall.|
 A Pressing the Assault|QID|44545|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|40890|
 A Isle Hopping|QID|44547|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213;44545|

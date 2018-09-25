@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2018-09-24 01:28
+-- Who: elidion
+-- Log: A few tweaks after running through Rank 1, some missing ACTIVE tags.
+
+-- URL: http://wow-pro.com/node/3772/revisions/29755/view
 -- Date: 2018-09-15 20:19
 -- Who: Emmaleah
 -- Log: Restore RANK tags; also changed all C steps that had |T| to K steps; change K steps that do not have RARE tags from QID to ACTIVE
@@ -422,7 +427,7 @@ C Weathered Spyglass|QID|47871|NC|QO|3|M|46.73,87.31|N|Pick up the Weathered Spy
 C If the Key Fits...|QID|47939|M|47.60,86.15|US|N|Finish collecting the keys.|
 T If the Key Fits...|QID|47939|M|47.60,86.15|N|To Keerin.|
 A The Master Key|QID|49227|M|47.60,86.15|N|From Keerin.|RANK|2|PRE|47939|
-K Overseer Morrison|QID|49227|QO|1|T|Overseer Morrison|M|49.65,88.35|N|Into the mine and take the first left, follow it to find Overseer Morrison. Kill and loot for his master key.|
+K Overseer Morrison|ACTIVE|49227|QO|1|T|Overseer Morrison|M|49.65,88.35|N|Into the mine and take the first left, follow it to find Overseer Morrison. Kill and loot for his master key.|
 C The Master Key|QID|49227|QO|2|M|49.65,88.35|S|N|Free Vulpera as you head out.|
 K Azer'tor|QID|49252|QO|1|M|49.08,89.49|T|Azer'tor|RARE|N|Right wall from Overseer Morrison to a small alcove in the mine to find this Silver Elite. Kill and loot for artifact power and resources.|RANK|2|
 C The Master Key|QID|49227|QO|2|M|49.65,88.35|US|N|Finish freeing Vulpera before you leave the mine.|
@@ -703,10 +708,10 @@ C Beaten But Not Broken|QID|48329|M|47.93,39.78|QO|1|NC|N|Click on the cage to f
 C Diplomacy and Dominance|QID|49141|M|47.36,36.55|NC|US|N|Finish draining the Suppression Spires.|
 C Don't Drop It... Yet|QID|50748|M|47.04,37.22|US|N|Finish collecting the Volatile Lightning Bombs.|
 C Beaten But Not Broken|QID|48329|M|47.84,37.64;47.47,38.90|CS|QO|2|NC|N|Head up the hill to take Scion of Rakjan to Rakjan.|
-T Diplomacy and Dominance|QID|49141|M|47.21,39.15|N|To Vorrik.|
-T Don't Drop It... Yet|QID|50748|M|47.21,39.15|N|To Vorrik.|
+T Diplomacy and Dominance|QID|49141|M|47.21,39.15|N|To Vorrik up top of Rakjan's Peak.|
+T Don't Drop It... Yet|QID|50748|M|47.21,39.15|N|To Vorrik up top of Rakjan's Peak.|
 A Vengeance From Above|QID|49003|M|47.21,39.15|N|From Vorrik.|PRE|50748;49141|
-A Forced Grounding|QID|49002|M|47.10,38.71|N|From Faithless Trapper's Spear.|
+A Forced Grounding|QID|49002|M|47.10,38.71|N|From Faithless Trapper's Spear.|RANK|2|
 K Fangcaller Hrillik|ACTIVE|49002|QO|1|M|47.08,38.70|T|Hrillik's Pterrordax|U|154893|N|Click the spear to pull Fangcaller Hrillik down from the sky and kill him.|
 T Forced Grounding|QID|49002|M|47.16,39.36|N|To Rakjan the Unbroken.|
 T Beaten But Not Broken|QID|48329|M|47.19,39.40|N|To Rakjan the Unbroken.|
@@ -773,9 +778,9 @@ T The Abandoned Passage|QID|50904|M|55.64,36.33|Z|Atul'Aman|N|To Warguard Rakera
 A Defeat Jakra'zet|QID|50702|M|55.64,36.33|Z|Atul'Aman|N|From Warguard Rakera.|PRE|50904|
 K General Jakra'zet|ACTIVE|50702|M|64.45,36.91|Z|Atul'Aman|T|General Jakra'zet|QO|1|N|After he becomes attackable, Kill Jakra'zet.|
 T Defeat Jakra'zet|QID|50702|M|27.09,52.64|N|To Warguard Rakera.|
-A Informing the Horde|QID|50703|M|27.09,52.64|N|From Warguard Rakera.|PRE|50702|
+A Informing the Horde|QID|50703|M|27.09,52.64|N|From Warguard Rakera. Not technically part of the zone achievement but may as well get it in case it's tied to a future questline.|PRE|50702|
 A Temple of Sethraliss: Avatar of the Loa|QID|50551|M|27.09,52.56|NA|N|From Vorrik. this is a dungeon quest.|
-H The Great Seal|ACTIVE|49040|M|27.65,50.32|N|Hearth or take a flight to Zuldazar from Vethiss.|RANK|-1|
+H The Great Seal|ACTIVE|50703|M|27.65,50.32|N|Hearth or take a flight to Zuldazar from Vethiss.|RANK|-1|
 
 R The Forgotten Marsh|ACTIVE|51772|M|27.10,50.51|N|If you wanna finish out the rest of the quests / rares/ treasures in the zone Head over to Vorrik's Sanctum for more adventure.|RANK|3|
 $ Abandaned Bobber|QID|53004;53005|M|26.49,45.35|N|Inspect the abandoned bobber, which pulls up the Sandsunken Treasure.|RANK|3|
@@ -869,7 +874,7 @@ A Pick next zone|AVAILABLE|47512;47513;47514|M|41.94,69.67|Z|Hall of Croniclers!
 T Informing the Horde|QID|50703|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 T Fond Farewells|QID|49040|M|40.37,19.08|Z|Dazar'alor|N|To B'wizati who can be found in the Zocalo.|RANK|2|
 
-N Zandalar Forever|N|If you have finished all three zones. This quest is offered by King Rastakhan at the Blood Gate in Zuldazar. The quest is included in the Zuldazar guide.
+N Zandalar Forever|N|If you have finished all three zones. This quest is offered by King Rastakhan at the Blood Gate in Zuldazar. The quest is included in the Endgame Story guide.
 
 D War Campaign|N|When you check off this step the war campaign guide will open.|
 ]]

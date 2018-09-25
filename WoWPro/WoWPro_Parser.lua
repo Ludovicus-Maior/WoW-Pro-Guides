@@ -204,9 +204,9 @@ local function DefineTag(action, key, vtype, validator, setter)
 end
 
 local function validate_list_of_qids(action, step, tag, value)
-    --- Either X;Y;Z or X&Y&Z, or *, no empties
+    --- Either X;Y;Z or X&Y&Z, or *, empty allowed
     if value == "*" then return true; end
-    return WoWPro.QidVerify(value, false,";","+")
+    return WoWPro.QidVerify(value, true,";","+")
 end
 
 local function validate_list_of_ints(action, step, tag, value)
@@ -249,7 +249,7 @@ DefineTag("L","lootitem","string",nil,function (text,i)
     end
 end)
 DefineTag("QO","questtext","string",nil,nil)
-DefineTag("SO","sobjective","string",validate_list_of_ints,nil)
+DefineTag("SO","sobjective","string",nil,nil)
 DefineTag("U","use","number",nil,nil)
 DefineTag("ITEM","item","string",nil,nil)
 DefineTag("NC","noncombat","boolean",nil,nil)
@@ -264,6 +264,7 @@ DefineTag("NOCACHE", "nocache","boolean",nil,nil)
 DefineTag("REP","rep","string",nil,nil)
 DefineTag("P","prof","string",nil,nil)
 DefineTag("SPELL","spell","string",nil,nil)
+DefineTag("ILVL","ilvl","string",nil,nil)
 DefineTag("ACH","ach","string",nil,nil)
 DefineTag("BUFF","buff","string",nil,nil)
 DefineTag("RECIPE","recipe","number",nil,nil)
@@ -376,8 +377,6 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	            value = tags[idx]
 	            if not value then
 	                WoWPro:Warning("%d:Missing value for tag %s in [%s].",i,tag,atext)
-	            elseif string.len(value) == 0 then
-	                WoWPro:Warning("%d:Empty value for tag ¦%s¦ in [%s].",i,tag,atext)
 	            end
 	        elseif tag_spec.vtype == "guide" then
 	            -- pop the next value off the stack

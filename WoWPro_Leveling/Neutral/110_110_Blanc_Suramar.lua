@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2018-09-24 07:47
+-- Who: elidion
+-- Log: Updated zone tags, skip F tags if you have legion flying.
+
+-- URL: http://wow-pro.com/node/3687/revisions/29741/view
 -- Date: 2018-09-13 00:58
 -- Who: elidion
 -- Log: Changes for skip rares and treasures feature.
@@ -249,11 +254,6 @@
 -- Who: Blanckaert
 -- Log: minor adjustments, add floor to a few quests to make arrow behave
 
--- URL: http://wow-pro.com/node/3687/revisions/28135/view
--- Date: 2016-12-10 20:09
--- Who: Blanckaert
--- Log: missed some PREs
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:NewGuideLevels(guide,110,110)
@@ -272,12 +272,12 @@ N Treasures and Rares|QID|39987|N|As with other guides all treasures and rares a
 ; Nightfallen But Not Forgotten - Nightfall
 
 A Khadgar's Discovery|QID|44555;39985|LVL|110|N|Auto Accepted from UI upon entering Dalaran. Or get from your Adventure Guide (Shift - J Default keybinding)|
-T Khadgar's Discovery|QID|44555;39985|M|28.47,48.31|Z|Dalaran@Dalaran70|N|To Archmage Khadgar in the Violet Citadel.|
-A Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|44555;39985|
-C Magic Message|QID|39986|M|29.32,48.80|Z|Dalaran@Dalaran70|NC|N|Click on the Arcane Anomaly and watch the dialog.|
-T Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A Trail of Echoes|QID|39987|M|28.47,48.31|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
-P Suramar|QID|39987|M|29.35,48.83|Z|Dalaran@Dalaran70|N|Click on the portal to be transported to Suramar.|ACTIVE|39987|
+T Khadgar's Discovery|QID|44555;39985|M|28.47,48.31|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar in the Violet Citadel.|
+A Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|44555;39985|
+C Magic Message|QID|39986|M|29.32,48.80|Z|Dalaran!Dalaran!Dungeon|NC|N|Click on the Arcane Anomaly and watch the dialog.|
+T Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
+A Trail of Echoes|QID|39987|M|28.47,48.31|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|39986|
+P Suramar|QID|39987|M|29.35,48.83|Z|Dalaran!Dalaran!Dungeon|N|Click on the portal to be transported to Suramar.|ACTIVE|39987|
 C Trail of Echoes|QID|39987|M|39.67,53.22|QO|1|U|131931|NC|N|Click the wand and then click the purple swirls to reveal Faint Arcane Echo.|
 C Trail of Echoes|QID|39987|M|39.59,55.73|QO|2|U|131931|NC|N|Click the wand and then click the purple swirls to reveal Blinking Arcane Echo.|
 C Trail of Echoes|QID|39987|M|35.87,55.05|QO|3|U|131931|NC|N|Click the wand and then click the purple swirls to reveal Pulsing Arcane Echo.|
@@ -513,8 +513,8 @@ R The Grand Promanade|QID|42147|M|39.26,71.41|CC|N|Reapply your mask via the Ext
 
 ; Adding (some) Tailoring Quest chain here....
 
-t The Path to Suramar City|QID|38962|M|35.02,34.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|To Tanithria|
-A The Nightborne Connection|QID|38967|PRE|38962|LVL|110|M|35.02,34.60|Z|Dalaran@Dalaran70|P|Tailoring;197|N|From Tanithria|
+t The Path to Suramar City|QID|38962|M|35.02,34.60|Z|Dalaran!Dalaran!Dungeon|P|Tailoring;197|N|To Tanithria|
+A The Nightborne Connection|QID|38967|PRE|38962|LVL|110|M|35.02,34.60|Z|Dalaran!Dalaran!Dungeon|P|Tailoring;197|N|From Tanithria|
 t The Nightborne Connection|QID|38967|M|40.64,69.54;40.34,69.47|CS|P|Tailoring;197|N|To Leyweaver Tytallo.|
 A Proof of Loyalty|QID|38968|PRE|38967|M|40.34,69.47|P|Tailoring;197|N|From Leyweaver Tytallo.|
 A Master of Silkweave|QID|38969|PRE|38967|M|40.32,69.73|P|Tailoring;197|N|From Leyweaver Inondra.|
@@ -1569,7 +1569,7 @@ C The Art of Flow|QID|44875|M|60.22,14.43|Z|Azsuna|QO|2|CHAT|N|Tell Valtrois "I 
 C The Art of Flow|QID|44875|M|59.92,14.34|Z|Azsuna|QO|3|CHAT|N|Tell Valtrois "I am ready". 3 Mobs attack.|
 T The Art of Flow|QID|44875|M|59.81,14.05|Z|Azsuna|N|To Arcanist Valtrois.|
 A A Dance With Dragons|QID|44876|PRE|44875|M|59.81,13.98|Z|Azsuna|N|From Stellagosa.|
-F Meredil|QID|44876|ACTIVE|44876|M|59.19,12.92|Z|Azsuna|NC|N|Run up out of cave, and click on Stellagosa, She'll fly you back to Shal'Aran.|
+F Meredil|QID|44876|ACTIVE|44876|M|59.19,12.92|Z|Azsuna|NC|N|Run up out of cave, and click on Stellagosa, She'll fly you back to Shal'Aran.|SPELL|Flying in Legion;233368|
 T A Dance With Dragons|QID|44876|M|36.50,46.72|N|To First Arcanist Thalyssra.|
 R Meredil|QID|44859;44743|ACTIVE|44859;44743|M|34.84,47.97;35.95,51.11|CS|N|Run to Our Forces outside the City.|
 T Liadrin's Command|QID|44859|M|40.49,53.07|N|To Lady Liadrin.|FACTION|HORDE|
@@ -1591,13 +1591,13 @@ T Arming the Rebels|QID|44862;44861|M|39.80,51.18|N|To Victoire.|
 A Citizens' Army|QID|44827|PRE|44862;44861|M|39.80,51.18|N|From Victoire.|
 A We Need Weapons|QID|44829|PRE|44862;44861|M|39.90,51.39|N|From Chief Telemancer Oculeth.|
 A Learning From the Dead|QID|44830|PRE|44862;44861|M|39.93,50.96|N|From Silgryn.|
-F Black Rook Hold|QID|44830|ACTIVE|44830|N|Click on Dusktalon for a ride to Black Rook Hold.|
+F Black Rook Hold|QID|44830|ACTIVE|44830|N|Click on Dusktalon for a ride to Black Rook Hold.|SPELL|Flying in Legion;233368|
 C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|S|N|Slay Black Rook forces.|
 C Learning From the Dead|QID|44830|M|42.04,52.22|Z|Val'sharah|S|NC|N|Loot Books of Tactics that are laying around.|
 C We Need Weapons|QID|44829|M|44.60,49.29;41.57,49.54;40.02,53.92|CS|Z|Val'sharah|NC|N|Click the beacon at each marked location to set it.|
 C Learning From the Dead|QID|44830|M|42.04,52.22|Z|Val'sharah|US|NC|N|Books of Tactics collected|
 C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|US|N|Slay Black Rook forces.|
-F Meredil|QID|44830|ACTIVE|44830|M|39.93,50.96|U|6948|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
+F Meredil|QID|44830|ACTIVE|44830|M|39.93,50.96|U|6948|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|SPELL|Flying in Legion;233368|
 T We Need Weapons|QID|44829|M|39.90,51.36|N|To Chief Telemancer Oculeth.|
 T Citizens' Army|QID|44827|M|39.79,51.21|N|To Victoire.|
 T Learning From the Dead|QID|44830|M|39.93,50.96|N|To Silgryn.|
@@ -1657,7 +1657,7 @@ C Scouting the Breach|QID|44832|M|42.06,60.46;42.93,58.93|CC|QO|3|N|Clear a path
 C Scouting the Breach|QID|44832|M|43.82,59.77|QO|4|NC|N|Wait with Arcanist Valtrois while she examines the barrier.|
 T Scouting the Breach|QID|44832|M|44.02,59.73|N|To Arcanist Valtrois.|
 A The Seal's Power|QID|44833|PRE|44832|M|44.02,59.73|N|From Arcanist Valtrois.|
-F Crimson Thicket|QID|44833|ACTIVE|44833|M|59.21,44.64|N|Run up outside and use Whistle, or Portal to Shal'Aran, then fly.  If you are bored, just run to the Thicket.|
+F Crimson Thicket|QID|44833|ACTIVE|44833|M|59.21,44.64|N|Run up outside and use Whistle, or Portal to Shal'Aran, then fly.  If you are bored, just run to the Thicket.|SPELL|Flying in Legion;233368|
 C The Seal's Power|QID|44833|M|43.22,56.33|Z|Suramar/35|QO|1|NC|N|Meet Arcanist Valtrois in Kel'balor.|
 C The Seal's Power|QID|44833|M|50.40,44.93|Z|Suramar/35|QO|2|N|Protect Arcanist Valtrois while she investigates the ley line device.|
 R Shal'Aran|QID|44833|ACTIVE|44833|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
@@ -1703,7 +1703,7 @@ C Experimental Instability|QID|45066|M|58.49,35.70|NC|QO|2|N|Find Telemancy Note
 P Shal'Aran|QID|45066|ACTIVE|45066|M|59.06,36.15|N|Take portal back to Shal'Aran.|
 T Experimental Instability|QID|45066|M|36.63,45.08|N|To Chief Telemancer Oculeth.|
 A Felborne No More|QID|45064|PRE|45063;45066|M|36.49,45.83|N|From First Arcanist Thalyssra.|
-F Crimson Thicket|QID|45064|ACTIVE|45064|M|34.38,49.43|N|Fly to Crimson Thicket at Ancient Cloudwing.|
+F Crimson Thicket|QID|45064|ACTIVE|45064|M|34.38,49.43|N|Fly to Crimson Thicket at Ancient Cloudwing.|SPELL|Flying in Legion;233368|
 R Felborne Outpost|QID|45064|ACTIVE|45064|M|64.48,46.78;65.06,53.28|CS|N|Run to Felborne Outpost.|
 C Felborne No More|QID|45064|M|65.53,54.42|QO|2|U|142491|S|N|Kill Felborne, Use Orb, or just kill outright.|
 C Felborne No More|QID|45064|M|66.06,56.00|QO|1|U|142491|T|Valthis Ama'ran|N|Kill Valthis Ama'ran|
@@ -1743,7 +1743,7 @@ A Lord of the Shadow Council|QID|45417|PRE|44719|M|44.18,60.12|N|From Archmage K
 T Lord of the Shadow Council|QID|45417|M|44.18,60.12|N|To Archmage Khadgar. *Inside Raid!!!|
 A The Eye of Aman'thul|QID|45420|PRE|45417|N|From Archmage Khadgar. *Inside Raid!!|
 C The Eye of Aman'thul|QID|45420|CHAT|N|Talk to Khadgar.|
-T The Eye of Aman'thul|QID|45420|M|28.48,48.29|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+T The Eye of Aman'thul|QID|45420|M|28.48,48.29|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
 A Fate of the Nightborne|QID|45372|PRE|45420|M|36.62,45.08|N|From Chief Telemancer Oculeth.|
 C Fate of the Nightborne|QID|45372|M|36.62,45.08|CHAT|N|Tell Oculeth, that you are ready.|
 T Fate of the Nightborne|QID|45372|N|To First Arcanist Thalyssra. (Inside Nighthold Raid, make sure your Raid is set for Normal, or you might not see anyone)|

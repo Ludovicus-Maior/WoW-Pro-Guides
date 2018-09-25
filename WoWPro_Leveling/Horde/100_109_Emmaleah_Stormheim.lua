@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3680
+-- Date: 2018-09-24 07:49
+-- Who: elidion
+-- Log: Updated zone tags, skip F tags if you have legion flying.
+
+-- URL: http://wow-pro.com/node/3680/revisions/29738/view
 -- Date: 2018-09-13 00:54
 -- Who: elidion
 -- Log: Changes for skip rares and treasures feature.
@@ -184,10 +189,10 @@ N Treasure|QID|39864|N|All treasures necessary for the zone treasure hunting ach
 N Rares (Silver Elite)|QID|39864|N|All of the Silver mobs are also included. (on rank2/3) The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
 N Ranks|QID|39864|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are nearby. It also adds most of the bonus objectives, treasures and rares. Rank 3 gets every quest, treasure and rare in the zone.|
 
-T Stormheim|QID|39864|M|29.10,46.86|Z|Dalaran@Dalaran70|N|To Nathanos Blightcaller who is in the Violet Citadel.|
-A The Warchief Beckons|QID|38307|PRE|39864|M|29.10,46.86|Z|Dalaran@Dalaran70|N|From Nathanos Blightcaller.|
-C The Warchief Beckons|QID|38307|M|29.10,46.86|Z|Dalaran@Dalaran70|NC|QO|1|U|128692|N|Read the letter from Sylvanas.|
-P Bladefist Bay|QID|38307|M|26.43,45.04|Z|Dalaran@Dalaran70|QO|2|N|Click the portal to travel to Bladefist Bay.|
+T Stormheim|QID|39864|M|29.10,46.86|Z|Dalaran!Dalaran!Dungeon|N|To Nathanos Blightcaller who is in the Violet Citadel.|
+A The Warchief Beckons|QID|38307|PRE|39864|M|29.10,46.86|Z|Dalaran!Dalaran!Dungeon|N|From Nathanos Blightcaller.|
+C The Warchief Beckons|QID|38307|M|29.10,46.86|Z|Dalaran!Dalaran!Dungeon|NC|QO|1|U|128692|N|Read the letter from Sylvanas.|
+P Bladefist Bay|QID|38307|M|26.43,45.04|Z|Dalaran!Dalaran!Dungeon|QO|2|N|Click the portal to travel to Bladefist Bay.|
 T The Warchief Beckons|QID|38307|M|61.34,8.93|Z|Durotar|N|To Nathanos Blightcaller.|
 A Making the Rounds|QID|39698|PRE|38307|M|61.38,8.85|Z|Durotar|N|From Lady Sylvanas Windrunner.|
 C Making the Rounds|QID|39698|M|61.40,9.90|Z|Durotar|QO|1|NC|N|Inspect the Catapult,|
@@ -418,7 +423,7 @@ A Dances With Ravenbears|QID|42447|PRE|42445;42446|M|49.79,32.64|N|From Cukkaw.|
 C Dances With Ravenbears|QID|42447|M|53.70,30.20|CHAT|N|Tell him you are ready (multiple times if needed). Mimic thier motions 1-raise arms, 2-spin, 3-flap wings, |RANK|2|
 T Dances With Ravenbears|QID|42447|M|54.03,30.23|N|To Cukkaw.|RANK|2|
 f Stormtorn Foothills|QID|42447|M|51.98,34.80|N|At Hillevi the Scalekeeper.|RANK|2|
-F Cullen's Post|QID|39787|M|51.98,34.81|N|Fly back to Cullen's Post at Hillevi the Scalekeepter.|RANK|2|
+F Cullen's Post|QID|39787|M|51.98,34.81|N|Fly back to Cullen's Post at Hillevi the Scalekeepter.|RANK|2|SPELL|Flying in Legion;233368|
 T Rigging the Wager|QID|39787|M|51.33,56.98|N|To Snaggle Sixtrigger.|RANK|2|
 T Only the Finest|QID|39793|M|51.36,57.28|N|To Rax Sixtrigger.|RANK|2|
 A A Stack of Racks|QID|39792|PRE|39787;39793|M|51.36,57.28|N|From Rax Sixtrigger.|RANK|2|
@@ -568,7 +573,7 @@ K Kill Hannval the Butcher|QID|42591|M|51.69,74.50|QO|1|T|Hannval the Butcher|N|
 $ Small Treasure Chest|QID|38480|M|51.55,76.64;50.63,77.03;52.03,80.56|CS|N|Path Starts beside Hannval's house. Run up to find chest. Loot for a bit of treasure and resources.|
 f Hafr Fjall|QID|39792|M|52.53,80.11;52.95,82.02;53.58,85.33;55.66,87.46|CS|N|Continue up this path to find a flightpath at Fluga the Scalekeeper. This is the flightpath that serves the PvP area in Stormheim and it is down from here.|RANK|3|
 $ Small Treasure Chest|QID|43190|M|59.14,87.18;53.19,93.12|CS|N|This is WAY down the trail. Loot or a bit of treasure and resources. Run back up to the flightpath the way you came.|
-F Dreadwake's Landing|QID|39153|M|55.66,87.46|N|Fly back to Dreadwake's Landing.|RANK|3|
+F Dreadwake's Landing|QID|39153|M|55.66,87.46|N|Fly back to Dreadwake's Landing.|RANK|3|SPELL|Flying in Legion;233368|
 C Dreadwake's Dilemma|QID|39153|M|57.08,73.64|N|Finish killing the Greywatch worgen.|
 C A Gift for Greymane|QID|39385|M|55.16,73.55|QO|2|U|128287|NC|N|Push the big red button!|
 T Clear the Deck!|QID|38873|M|55.06,72.56|N|To Nathanos Blightcaller.|
@@ -729,14 +734,14 @@ U Dalaran|QID|43331|U|140192|N|Return to Dalaran (via Hearthstone or however you
 C Halls of Valor: Securing the Aegis|QID|40072|N|If you havent yet done Halls of Valor, its a great time to queue for it and get your ilvl 800 legs (static ilvl even if you are lvl 100). Defeat Odyn (final boss in instance).|
 T Halls of Valor: Securing the Aegis|QID|40072|N|To the Aegis of Aggramar.|
 A The Aegis of Aggramar|QID|43349|N|From the Aegis of Aggramar.|PRE|40072|
-C The Aegis of Aggramar|QID|43349|M|49.36,47.34|Z|Dalaran@Dalaran70|NC|N|Central Dalaran teleport used.|
+C The Aegis of Aggramar|QID|43349|M|49.36,47.34|Z|Dalaran!Dalaran!Dungeon|NC|N|Central Dalaran teleport used.|
 T The Aegis of Aggramar|QID|43349|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Aegis of Aggramar" on the wall.|
 A Pressing the Assault|QID|44545|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349|
 A Isle Hopping|QID|44547|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349;44545|
 A Scouring What Remains|QID|44548|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349;44547|
 
-A Time to Collect|QID|43331|M|50.14,22.64|Z|Dalaran@Dalaran70|N|From Gazrix Gearlock beside the north bank.|RANK|3|LVL|110|
-F Valdisdall|QID|43331|M|69.84,51.17|Z|Dalaran@Dalaran70|N|This is meant to be a group quest so take a friend or two. (if you set your hearth thats an option too.)|RANK|3|LVL|110|
+A Time to Collect|QID|43331|M|50.14,22.64|Z|Dalaran!Dalaran!Dungeon|N|From Gazrix Gearlock beside the north bank.|RANK|3|LVL|110|
+F Valdisdall|QID|43331|M|69.84,51.17|Z|Dalaran!Dalaran!Dungeon|N|This is meant to be a group quest so take a friend or two. (if you set your hearth thats an option too.)|RANK|3|LVL|110|SPELL|Flying in Legion;233368|
 R Loch Varmad|QID|43331|M|60.52,52.14;67.08,38.84;68.07,31.11|CS|N|Run down this path and across the water to avenge those Tauren and...treasure.|RANK|3|LVL|110|
 C Time to Collect|QID|43331|M|69.97,21.96;69,27.5|CS|N|Look straight up from first coordinate, Use Grappling Hook to get onto Island, continuing grappling upward until you are to the top. Kill them within a minute of each other, or else the first one dead may respawm. (If he does respawn, you can avoid him, but it adds difficulty).|RANK|3|LVL|110|
 $ Treasure Chest|QID|40108|M|68.42,29.60|CS|N|Chest is on the rock, path starts right behind Rax Sixtrigger. Loot for resources and treasure.|LVL|110|;doesnt actually require 110, but this is way too remote to come out if you arent doing the sixtriggers quest.
