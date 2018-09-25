@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2018-09-24 20:11
+-- Who: Emmaleah
+-- Log: put Jani's quest line in (rank 3 of course)
+
+-- URL: http://wow-pro.com/node/3766/revisions/29756/view
 -- Date: 2018-09-15 21:04
 -- Who: Emmaleah
 -- Log: Add RARE tags; Change C steps with a target, where appropriate, to K steps; Change all K steps without a RARE tag from QID to ACTIVE
@@ -96,9 +101,21 @@ N Rares (aka Silver Elite)|ACH|12942|N|Once you hit 120, the rares reset daily, 
 ;A Nazmir|QID|47512|N|From Scouting map
 T Nazmir|QID|47512|M|41.32,66.49|Z|Dazar'alor|N|To Princess Talanji.|
 A Journey to Nazmir|QID|47103|M|41.32,66.49|Z|Dazar'alor|N|From Princess Talanji.|PRE|47512|
-T Journey to Nazmir|QID|47103|Z|Dazar'alor|M|51.66,41.31|N|To Rokhan.|
+
+;to open up Jani's mysterious trashpiles
+R The Zocalo|AVAILABLE|47441|M|42.58,27.97|N|A bit out of the way, but if you are into Achievements or pets, you want to get this quest done to open up "Get Hek'd". Run down the stairs and down and down, till you get to ground level and cross the bridge to The Zocalo.|RANK|3|
+
+A Pests|QID|47441|M|40.24,19.06|Z|Dazar'alor|N|From Nokano.|RANK|3|
+C Pests|QID|47441|M|40.58,18.88|Z|Dazar'alor|QO|1|N|Kill the little pests.|
+C Pests|QID|47441|M|35.36,7.63|Z|Dazar'alor|QO|2|NC|N|Follow the Big One.|
+T Pests|QID|47441|M|35.36,7.63|Z|Dazar'alor|N|To Jani.|
+A Curse of Jani|QID|47442|M|35.36,7.63|Z|Dazar'alor|N|From Jani.|RANK|3|PRE|47441|
+C Curse of Jani|QID|47442|M|38.57,17.70|Z|Dazar'alor|QO|1|NC|N|Run back to Nokano.|
+C Curse of Jani|QID|47442|M|40.10,19.30|Z|Dazar'alor|QO|2|NC|N|Bite Nokano.|
+T Curse of Jani|QID|47442|M|35.46,7.71|Z|Dazar'alor|N|To Jani. You have now opened up Jani's cursed treasure quests all over Zandalar.|
 
 ;Deep in the Swamp
+T Journey to Nazmir|QID|47103|Z|Dazar'alor|M|51.66,41.31|N|To Rokhan.|
 A Nazmir, the Forbidden Swamp|QID|48535|M|51.66,41.31|Z|Dazar'alor|N|From Rokhan.|PRE|47103|LEAD|47105|
 C Nazmir, the Forbidden Swamp|QID|48535|M|51.94,41.20|Z|Dazar'alor|QO|1|CHAT|N|Ask Paku'ai Rokota for a ride (chat, not flight path)|
 R Nazmir|ACTIVE|48535|M|53.75,19.19|Z|Zuldazar|N|Run down to the waypoint and cross the bridge to enter Nazmir.|
