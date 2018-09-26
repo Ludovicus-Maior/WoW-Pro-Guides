@@ -725,7 +725,7 @@ local function createBlizzOptions()
 					end
 			},
 			doRares = {
-				order = 21,
+				order = 22,
 				type = "toggle",
 				name = L["Enable Rares"],
 				desc = L["Enables/Disables killing optional Rares in guides."],
@@ -739,7 +739,7 @@ local function createBlizzOptions()
 					end
 			},
 			doTreasures = {
-				order = 22,
+				order = 23,
 				type = "toggle",
 				name = L["Enable Treasures"],
 				desc = L["Enables/Disables treasure hunting steps in guides."],
@@ -752,8 +752,22 @@ local function createBlizzOptions()
 						end
 					end
 			},
+			doFlight = {
+				order = 24,
+				type = "toggle",
+				name = L["Detect Flight"],
+				desc = L["Skips most flight and run steps when you have flying in that particular zone."],
+				get = function(info) return WoWProCharDB.EnableFlight end,
+				set = function(info,val)
+						if WoWProCharDB.EnableFlight then
+						    WoWProCharDB.EnableFlight = false
+						else
+						    WoWProCharDB.EnableFlight = true
+						end
+					end
+			},
 			arank = {
-				order = 23,
+				order = 25,
 				type = "range",
 				name = L["Global Rank (Difficulty/Completeness)"],
 				desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
