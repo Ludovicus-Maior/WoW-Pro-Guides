@@ -756,7 +756,7 @@ local function createBlizzOptions()
 				order = 24,
 				type = "toggle",
 				name = L["Skip Flights"],
-				desc = L["Skips most flight steps when you have flying in that particular zone."],
+				desc = L["Skips most flight steps when you have flying in that zone."],
 				get = function(info) return WoWProCharDB.EnableFlight end,
 				set = function(info,val)
 						if WoWProCharDB.EnableFlight then
