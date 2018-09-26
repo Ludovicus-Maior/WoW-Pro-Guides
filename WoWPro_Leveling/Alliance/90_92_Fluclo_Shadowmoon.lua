@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2018-09-26 08:06
+-- Who: jovieve
+-- Log: Changed QID tag to AVAILABLE on F step.
+
+-- URL: http://wow-pro.com/node/3604/revisions/29838/view
+-- Date: 2018-09-26 08:01
+-- Who: jovieve
+-- Log: Changed Kuu'rat to rank 3. Added Artificer Romuul to guide.
+
+-- URL: http://wow-pro.com/node/3604/revisions/29186/view
 -- Date: 2018-02-26 22:59
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -246,15 +256,6 @@
 -- Who: Fluclo
 -- Log: Moved Hexcloth quest to an earlier opportunity to finish it.
 
--- URL: http://wow-pro.com/node/3604/revisions/26709/view
--- Date: 2014-10-09 14:04
--- Who: Fluclo
--- Log: Friendly Competition now lootable without the skinning profession
-
--- URL: http://wow-pro.com/node/3604/revisions/26703/view
--- Date: 2014-10-01 01:29
--- Who: Fluclo
-
 local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley@Draenor', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90,92,91)
 WoWPro:NewGuideLevels(guide,90,100)
@@ -358,16 +359,19 @@ A A Surly Dwarf |QID|36630|N|From Lieutenant Howell|M|38.30,96.88|Z|Ashran|PRE|3
 T A Surly Dwarf |QID|36630|N|To Delvar Ironfist, inside Stormshield Barracks|M|41.05,86.93|Z|Ashran|
 A Delvar Ironfist |QID|36633|N|From Delvar Ironfist|M|41.05,86.93|Z|Ashran|PRE|36630|
 T Delvar Ironfist |QID|36633|N|To Delvar Ironfist|M|41.05,86.93|Z|Ashran|PRE|36630|
-F Lunarfall|QID|33075|N|Fly back to Lunarfall (or hearthstone)|M|37.23,90.88|Z|Ashran|U|110560|PRE|36630|
+F Lunarfall|AVAILABLE|34778|N|Fly back to Lunarfall (or hearthstone)|M|37.23,90.88|Z|Ashran|U|110560|PRE|36630|
 
 A Migrant Workers |QID|34778|N|From Vindicator Maraad|PRE|34692|M|44.10,53.35|Z|Lunarfall|
 C Migrant Workers |QID|34778|N|Speak with Zipfizzle and tell him to Move Out.|CHAT|M|44.2,51.0|Z|Lunarfall|
 
 A A Hero's Welcome |QID|33075|N|From Yrel|PRE|34692|M|47.2,50.9|Z|Lunarfall|
 
-A Wanted: Kuu'rat's Tusks |QID|33833|N|From the notice board in Moonflower Valley. This is a 3-party group quest.|M|33.2,30.7|RANK|2|
+A Wanted: Kuu'rat's Tusks |QID|33833|N|From the notice board in Moonflower Valley. This is a 3-party group quest.|M|33.2,30.7|RANK|3|
 C Wanted: Kuu'rat's Tusks |QID|33833|N|Kill Kuu'rat, and loot the tusks. This is flagged as a 3-party group quest but can be solo'd by many. Don't forget to use your newly acquired Call to Arms to aid you in the battle.|M|34.6,26.9|
 T Wanted: Kuu'rat's Tusks |QID|33833|N|To Eremor in Embaari Village|M|45.5,37.7|
+
+A Artificer Romuul|QID|35614|M|42.86,40.36|N|Speak to Romuul, offer to defend him, defeat three waves of wolves, including an elite at the end, and then accept him as a new follower.|RANK|2|
+T Artificer Romuul|QID|35614|M|42.86,40.36|
 
 f Embaari Village |QID|33075|N|With Eonor|M|45.68,38.86|
 C A Hero's Welcome |QID|33075|N|Find Samaara at Embaari Village|M|46.04,38.92|NC|
