@@ -1758,6 +1758,44 @@ function WoWPro.NextStep(k,i)
 			end
     	end
     	
+	if WoWPro.fly and WoWPro.fly[k] then
+			if WoWProCharDB.EnableFlight or WoWPro.action[k] == "R" then
+				local expansion = WoWPro.fly[k]
+				local spellName
+				local spellKnown
+				if expansion == "BFA" then 
+					spellKnown = false
+				elseif expansion == "LEGION" then 
+					spellName = GetSpellInfo(233368)
+					spellKnown = GetSpellInfo(spellName)
+				elseif expansion == "WOD" then
+					spellName = GetSpellInfo(233368)
+					spellKnown = GetSpellInfo(spellName)
+				elseif expansion == "OLD" then
+					local eSkill = GetSpellInfo(34090)
+					local aSkill = GetSpellInfo(34091)
+					local mSkill = GetSpellInfo(90265)
+					if GetSpellInfo(eSkill) then
+						spellKnown = true
+						spellName = eSkill
+					elseif GetSpellInfo(aSkill) then
+						spellKnown = true
+						spellName = aSkill
+					elseif GetSpellInfo(mSkill) then
+						spellKnown = true
+						spellName = mSkill
+					end
+				end
+				WoWPro:dbp("Checking fly step %s [%s] for %s: Nomen %s, Known %s",WoWPro.action[k],WoWPro.step[k],WoWPro.fly[k],tostring(spellName),tostring(spellKnown))
+				if spellKnown then
+					local why = string.format("Skipping because flight spell [%s] is known=%s",spellName, tostring(not not spellKnown))
+					WoWPro.CompleteStep(k, why)
+					skip = true
+					WoWPro:dbp(why)
+				end
+			end
+		end
+			
     	if WoWPro.recipe and WoWPro.recipe[k] then
     	    WoWPro:dbp("Step %d Recipe %s",k,WoWPro.recipe[k])
     	    if WoWProCharDB.Trades and WoWPro:AllIDsInTable(WoWPro.recipe[k],WoWProCharDB.Trades) then
