@@ -1751,7 +1751,7 @@ function WoWPro.NextStep(k,i)
     	    if spellFlip then spellKnown = not spellKnown end
     	    WoWPro:dbp("Checking spell step %s [%s] for %s: Nomen %s, Known %s",WoWPro.action[k],WoWPro.step[k],WoWPro.spell[k],tostring(spellName),tostring(spellKnown))
     	    if spellKnown then
-    	        local why = string.format("Skipping because spell [%s] is known=%s",spellName, tostring(not spellKnown))
+    	        local why = string.format("Skipping because spell [%s] is known=%s",spellName, tostring(not not spellKnown))
     	        WoWPro.CompleteStep(k, why)
 				skip = true
 				WoWPro:dbp(why)
@@ -1788,7 +1788,7 @@ function WoWPro.NextStep(k,i)
 				end
 				WoWPro:dbp("Checking fly step %s [%s] for %s: Nomen %s, Known %s",WoWPro.action[k],WoWPro.step[k],WoWPro.fly[k],tostring(spellName),tostring(spellKnown))
 				if spellKnown then
-					local why = string.format("Skipping because flight spell [%s] is known=%s",spellName, tostring(not spellKnown))
+					local why = string.format("Skipping because flight spell [%s] is known=%s",spellName, tostring(not not spellKnown))
 					WoWPro.CompleteStep(k, why)
 					skip = true
 					WoWPro:dbp(why)
