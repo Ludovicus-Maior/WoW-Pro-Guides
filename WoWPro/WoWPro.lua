@@ -396,6 +396,9 @@ function WoWPro:OnInitialize()
 	if WoWProCharDB.EnableTreasures == nil then
 	    WoWProCharDB.EnableTreasures = true
 	end
+	if WoWProCharDB.EnableFlight == nil then
+	    WoWProCharDB.EnableFlight = true
+	end
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
     WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
     WoWPro.GossipText = nil
