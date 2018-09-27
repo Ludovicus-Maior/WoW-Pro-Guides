@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-09-27 00:42
+-- Who: elidion
+-- Log: Fixed a few more ACTIVE tag issues
+
+-- URL: http://wow-pro.com/node/3760/revisions/29840/view
+-- Date: 2018-09-27 00:29
+-- Who: elidion
+-- Log: Fixed a double ACTIVE tag on a line in the Zuldazar foothold line.
+
+-- URL: http://wow-pro.com/node/3760/revisions/29830/view
 -- Date: 2018-09-24 19:14
 -- Who: elidion
 -- Log: added LVL tags for some post 120 questlines that were missing.
@@ -353,12 +363,12 @@ A Disarming the Cannons|QID|51544|M|77.54,54.58|Z|Zuldazar|N|From Brigadier Thom
 A A Lack of Surplus|QID|51192|M|77.14,55.58|Z|Zuldazar|N|From Degdod.|PRE|51201|
 A That One's Mine|QID|51193|M|77.14,55.58|Z|Zuldazar|N|From Degdod.|PRE|51201|
 A Save Them All|QID|51191|M|77.13,55.55|Z|Zuldazar|N|From Medic Feorea.|PRE|51201|
-f Castaway Encampment|ACTIVE|51191|M|77.66,54.44|Z|Zuldazar|N|At Kaolin.|ACTIVE|51201|
+f Castaway Encampment|ACTIVE|51191|M|77.66,54.44|Z|Zuldazar|N|At Kaolin.|
 C Granting a Reprieve|QID|51190|M|79.11,53.96|Z|Zuldazar|S|N|Kill the Horde on the beach as you go.|
 C Save Them All|QID|51191|M|79.11,53.96|Z|Zuldazar|S|NC|N|Click on the injured sailors to heal them as you go.|
 C A Lack of Surplus|QID|51192|M|79.11,53.96|Z|Zuldazar|S|NC|N|Pick up bundles of supplies as you go.|
 C Disarming the Cannons|QID|51544|M|83.27,54.64|Z|Zuldazar|NC|N|Click on the rope to board the ship and then destroy the cannons.|
-K Major Hawkins|QID|51193|QO|1|M|81.92,51.18|Z|Zuldazar|N|Kill Major Hawkins and loot his hammer.|T|Major Alan Hawkins|
+K Major Hawkins|QID|51193|ACTIVE|51193|QO|1|M|81.92,51.18|Z|Zuldazar|N|Kill Major Hawkins and loot his hammer.|T|Major Alan Hawkins|
 C A Lack of Surplus|QID|51192|M|79.11,53.96|Z|Zuldazar|US|NC|N|Finish collecting the bundles of supplies.|
 C Save Them All|QID|51191|M|79.11,53.96|Z|Zuldazar|US|NC|N|Finish up healing the injured sailors.|
 C Granting a Reprieve|QID|51190|M|79.11,53.96|Z|Zuldazar|US|N|Finish your quota of killing Horde.|
@@ -522,7 +532,7 @@ A Comb the Desert|QID|52028|M|37.70,35.95|Z|Vol'dun|N|From Halford Wyrmbane.|PRE
 C Comb the Desert|QID|52028|M|40.72,47.79|Z|Vol'dun|QO|1|NC|N|Search for Horde activity.|
 T Comb the Desert|QID|52028|M|40.74,47.83|Z|Vol'dun|N|To Shandris Feathermoon.|
 A Dirty Work|QID|52029|M|40.74,47.83|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52028|
-K Dirty Work|QID|52029|M|40.89,48.91|Z|Vol'dun|T|Nazlara|QO|1|N|Kill Nazlara walking around the desert a few yards away. Loot the Reliquary Orders.|
+K Dirty Work|QID|52029|ACTIVE|52029|M|40.89,48.91|Z|Vol'dun|T|Nazlara|QO|1|N|Kill Nazlara walking around the desert a few yards away. Loot the Reliquary Orders.|
 T Dirty Work|QID|52029|M|40.70,47.84|Z|Vol'dun|N|To Halford Wyrmbane.|
 A Keep Combing|QID|52030|M|40.70,47.84|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52029|
 C Keep Combing|QID|52030|M|44.91,58.83|Z|Vol'dun|NC|N|Search for more Reliquary operatives.|
@@ -550,7 +560,7 @@ T Splitting Up|QID|52038|M|29.93,78.55|Z|Vol'dun|N|To Shandris Feathermoon.|
 A Full of Arrows|QID|52040|M|29.93,78.55|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52038|
 A Delayed Deathification|QID|52039|M|29.93,78.55|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52038|
 C Delayed Deathification|QID|52039|M|29.05,76.64|Z|Vol'dun|NC|S|N|Bury the Remote-Detonation Deathbombs|
-K Full of Arrows|QID|52040|M|28.70,75.65|Z|Vol'dun|T|Arlethal Sunwatcher|QO|1|N|Kill Arlethal Sunwatcher|
+K Full of Arrows|QID|52040|ACTIVE|52040|M|28.70,75.65|Z|Vol'dun|T|Arlethal Sunwatcher|QO|1|N|Kill Arlethal Sunwatcher|
 C Delayed Deathification|QID|52039|M|29.05,76.64|Z|Vol'dun|NC|US|N|Continue to bury the Remote-Detonation Deathbombs|
 T Full of Arrows|QID|52040|M|29.93,78.55|Z|Vol'dun|N|To Shandris Feathermoon.|
 T Delayed Deathification|QID|52039|M|29.93,78.55|Z|Vol'dun|N|To Shandris Feathermoon.|
@@ -772,7 +782,7 @@ T Mission Report: Vulture's Nest|QID|53043|M|69.28,27.00|Z|Boralus|N|To Halford 
 A Vulture's Nest|QID|53044|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|53043|
 R Vol'dun|ACTIVE|53044|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Vol'dun or get there through other means.|
 C Vulture's Nest|QID|53044|M|53.76,37.79|Z|Vol'dun|QO|1|N|Make your way to the outpost and claim it.|
-f Vulture's Nest|QID|53044|M|53.60,37.68|Z|Vol'dun|CHAT|N|Get the flightpoint from Buzz Crankchug.|
+f Vulture's Nest|ACTIVE|53044|M|53.60,37.68|Z|Vol'dun|CHAT|N|Get the flightpoint from Buzz Crankchug.|
 T Vulture's Nest|QID|53044|M|53.71,37.72|Z|Vol'dun|N|To Hilda Hammerfast.|
 A Mission Report: Missing Supplies|QID|53221|M|70.56,27.19|Z|Boralus|O|
 T Mission Report: Missing Supplies|QID|53221|M|69.26,27.00|Z|Boralus|N|To Halford Wyrmbane.|
@@ -786,7 +796,7 @@ T Mission Report: Mugamba Overlook|QID|52851|M|69.27,27.00|Z|Boralus|N|To Halfor
 A Mugamba Overlook|QID|52852|M|69.27,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|52851|
 R Zuldazar|ACTIVE|52852|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
 C Mugamba Overlook|QID|52852|M|44.72,27.47|Z|Zuldazar|QO|1|N|Make your way to the outpost and claim it.|
-f Mugamba Overlook|QID|52963|M|44.84,27.07|Z|Zuldazar|CHAT|N|Get the flightpoint from Drager Smokewing.|
+f Mugamba Overlook|ACTIVE|52963|M|44.84,27.07|Z|Zuldazar|CHAT|N|Get the flightpoint from Drager Smokewing.|
 T Mugamba Overlook|QID|52852|M|44.86,27.40|Z|Zuldazar|N|To Darchelle Hayes.|
 A Mission Report: Spare Parts|QID|53275|M|70.57,27.18|Z|Boralus|O|
 T Mission Report: Spare Parts|QID|53275|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
@@ -800,7 +810,7 @@ T Mission Report: Verdant Hollow|QID|52886|M|69.29,27.02|Z|Boralus|N|To Halford 
 A Verdant Hollow|QID|52888|M|69.29,27.02|Z|Boralus|N|From Halford Wyrmbane.|PRE|52886|
 R Zuldazar|ACTIVE|52888|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
 C Verdant Hollow|QID|52888|M|55.23,25.25|Z|Zuldazar|QO|1|N|Make your way to the outpost and claim it.|
-f Verdant Hollow|QID|52963|M|55.65,24.85|Z|Zuldazar|CHAT|N|Get the flightpoint from Kina Cobbleflame.|
+f Verdant Hollow|ACTIVE|52963|M|55.65,24.85|Z|Zuldazar|CHAT|N|Get the flightpoint from Kina Cobbleflame.|
 T Verdant Hollow|QID|52888|M|54.87,25.55|Z|Zuldazar|N|To Argrim Stonedeep.|
 A Mission Report: Dino Research|QID|53267|M|70.56,27.17|Z|Boralus|O|
 T Mission Report: Dino Research|QID|53267|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
@@ -814,7 +824,7 @@ T Mission Report: Mistvine Ledge|QID|52962|M|69.28,27.00|Z|Boralus|N|To Halford 
 A Mistvine Ledge|QID|52963|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|52962|
 R Zuldazar|ACTIVE|52963|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
 C Mistvine Ledge|QID|52963|M|64.46,47.48|Z|Zuldazar|QO|1|N|Make your way to the outpost and claim it.|
-f Mistvine Ledge|QID|51822|M|64.33,47.33|Z|Zuldazar|N|Get the flightpoint from Sornoth Slagmane.|
+f Mistvine Ledge|ACTIVE|51822|M|64.33,47.33|Z|Zuldazar|N|Get the flightpoint from Sornoth Slagmane.|
 T Mistvine Ledge|QID|52963|M|64.46,47.29|Z|Zuldazar|N|To Neva.|
 A Mission Report: Jungle Escort|QID|53306|M|70.56,27.18|Z|Boralus|O|
 T Mission Report: Jungle Escort|QID|53306|M|69.27,26.99|Z|Boralus|N|To Halford Wyrmbane.|
