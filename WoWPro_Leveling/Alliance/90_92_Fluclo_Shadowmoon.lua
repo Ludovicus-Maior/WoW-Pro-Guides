@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2018-09-27 11:12
+-- Who: jovieve
+-- Log: Added item tags to treasures, and put rank tag back in, only at rank 2 instead of 3.
+
+-- URL: http://wow-pro.com/node/3604/revisions/29843/view
+-- Date: 2018-09-27 05:29
+-- Who: jovieve
+-- Log: Changed l tags to $ tags and removed RANK tags to support new Enable Treasure UI option.
+
+-- URL: http://wow-pro.com/node/3604/revisions/29842/view
+-- Date: 2018-09-27 05:05
+-- Who: jovieve
+-- Log: Changed rank of worthless and annoying side quest to rank 3.
+
+-- URL: http://wow-pro.com/node/3604/revisions/29839/view
 -- Date: 2018-09-26 08:06
 -- Who: jovieve
 -- Log: Changed QID tag to AVAILABLE on F step.
@@ -240,21 +255,6 @@
 -- Date: 2014-11-13 01:56
 -- Who: Fluclo
 -- Log: Added locations of flags as a coordinate note
-
--- URL: http://wow-pro.com/node/3604/revisions/26895/view
--- Date: 2014-11-08 01:22
--- Who: Ludovicus_Maior
--- Log: Corrections
-
--- URL: http://wow-pro.com/node/3604/revisions/26781/view
--- Date: 2014-11-03 05:07
--- Who: Fluclo
--- Log: Added next guide ID, added Shadowmoon Darters to Ship Salvage, added Rank 3 treasures, changed Qiana Moonshadow to CHAT and added coords, removed a PRE step from Shadows Awaken (*BUG*), added extra coords when route not obvious, added missing coords to a few steps, added a run step to help locate Deadwalker Pass, added a Hearth point for Embaari Village, Path of the Light Flightpath not known at that point of guide, so changed to get FP, added garrison quests for mine and small buildings, added LVL 94 tags to the Level 94 quests.
-
--- URL: http://wow-pro.com/node/3604/revisions/26710/view
--- Date: 2014-10-09 15:04
--- Who: Fluclo
--- Log: Moved Hexcloth quest to an earlier opportunity to finish it.
 
 local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley@Draenor', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90,92,91)
@@ -690,7 +690,7 @@ T Loola's Lost Love |QID|34876|N|To Old Loola|M|41.29,55.11|
 
 C Going Undercover |QID|33080|N|Speak to Sylene and ask for a Shadowmoon orc illusion.|QO|1|M|40.65,54.62|CHAT|
 
-A The Dark that Blinds Us |QID|33078|N|From Loreseeker Heidii|M|42.14,57.37|
+A The Dark that Blinds Us |QID|33078|N|From Loreseeker Heidii|M|42.14,57.37|RANK|3|
 C The Dark that Blinds Us |QID|33078|N|Click the Western stone to get a rubbing|QO|3|NC|M|43.62,60.63|
 C The Dark that Blinds Us |QID|33078|N|Click the Northern stone to get a rubbing|QO|2|NC|M|44.41,59.09|
 C The Dark that Blinds Us |QID|33078|N|Click the Eastern stone to get a rubbing|QO|1|NC|M|45.23,60.46|
@@ -763,12 +763,11 @@ C The Great Salvation|QID|33794|N|Rescue the Draenei prisoners by opening the ca
 C Into Anguish|QID|35032|N|Deactivate the Mark of Shadows|QO|3|M|34.5,41.4|NC|
 C Harbingers of the Void |QID|33793|N|Kill the Shadowmoon Prophet surrounding the Essence of Shadow to release it, then kill it.|QO|1|M|34.0,43.3|
 C Harbingers of the Void|QID|33793|N|Kill Essence of Anguish, who is inside Ancestor's Grotto cave.|QO|3|M|35.2,44.5|
-
-l Rovo's Dagger |QID|33573|N|Rovo's Dagger: Lootable object and tidy XP from Cave #2.|M|36.68,44.46|RANK|3|
-l Ashes of A'kumbo |QID|33584|N|Ashes of A'kumbo: Lootable object and tidy XP fropm Cave #3.|M|37.75,44.27|RANK|3|
-l Greka's Urn |QID|33614|N|Greka's Urn: Lootable object and tidy XP from Cave #4.|M|38.5,43.0|RANK|3| ; Added comma to coord
-l Beloved's Offering |QID|33046|N|Beloved's Offering: Lootable object and tidy XP from Cave #5.|M|36.79,41.41|RANK|3|
-l Uzko's Knickknacks |QID|33540|N|Uzko's Knickknacks: Lootable object for an i525 Blue Boots and tidy XP from Cave #6.|M|35.87,40.87|RANK|3|
+$ Rovo's Dagger |QID|33573|N|Rovo's Dagger: Lootable object and tidy XP from Cave #2.|M|36.68,44.46|ITEM|113378|RANK|2|
+$ Ashes of A'kumbo |QID|33584|N|Ashes of A'kumbo: Lootable object and tidy XP fropm Cave #3.|M|37.75,44.27|ITEM|113531|RANK|2|
+$ Greka's Urn |QID|33614|N|Greka's Urn: Lootable object and tidy XP from Cave #4.|M|38.5,43.0|ITEM|113408|RANK|2|
+$ Beloved's Offering |QID|33046|N|Beloved's Offering: Lootable object and tidy XP from Cave #5.|M|36.79,41.41|ITEM|113547|RANK|2|
+$ Uzko's Knickknacks |QID|33540|N|Uzko's Knickknacks: Lootable object for an i525 Blue Boots and tidy XP from Cave #6.|M|35.87,40.87|ITEM|113546|RANK|2|
 C Into Anguish|QID|35032|N|Deactivate the Mark of Anguish|QO|4|M|32.6,38.8|NC|
 C Harbingers of the Void |QID|33793|N|Kill the Shadowmoon Prophet surrounding the Essence of Darkness to release it, then kill it.|QO|2|M|31.2,39.4|
 C Into Anguish|QID|35032|N|Deactivate the Mark of Darkness|QO|2|M|29.5,39.7|NC|
