@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrisson_support
+-- Date: 2018-09-28 02:46
+-- Who: jovieve
+-- Log: Changed end level, too.
+
+-- URL: http://wow-pro.com/node/3649/revisions/29847/view
+-- Date: 2018-09-28 02:06
+-- Who: jovieve
+-- Log: Changed start level.
+
+-- URL: http://wow-pro.com/node/3649/revisions/29478/view
 -- Date: 2018-08-05 21:37
 -- Who: STrek
 -- Log: added item (ww.wowhead.com/item=109224/gulvar-soul-shards) tag to use for quest http://www.wowhead.com/quest=33114/forging-the-soul-trap
