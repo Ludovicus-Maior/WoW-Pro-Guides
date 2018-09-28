@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2018-09-28 06:39
+-- Who: jovieve
+-- Log: Added a treasure and a rare. Changed l steps to $ steps. Removed rank from $ steps. Removed a couple of N steps.
+
+-- URL: http://wow-pro.com/node/3613/revisions/29376/view
 -- Date: 2018-06-29 19:50
 -- Who: Ludovicus_Maior
 -- Log: PRE and ACTIVE review
@@ -156,8 +161,6 @@ A The Secrets of Gorgrond |QID|35556|N|Visit the Hero's Callboard in your Garris
 F Wildwood Wash |QID|35556|N|Fly to Wildwood Wash in Gorgrond.|ACTIVE|35556|M|48.10,49.80|Z|Lunarfall|
 T The Secrets of Gorgrond |QID|35556|N|To Yrel|M|63.99,57.19|ACTIVE|35556|
 
-N Welcome to Gorgrond|QID|35033|ACTIVE|35033|S|N|If you want the garrison supply treasures included in this guide, please set your Rank to 3.|
-
 A Welcome to Gorgrond |QID|35033|N|From Yrel|M|63.99,57.19|
 C Welcome to Gorgrond |QID|35033|N|Ride up the path|QO|1|M|63.50,52.78|NC|
 C Welcome to Gorgrond |QID|35033|N|Head into the cave at Naielle's Watch|QO|2|NC|M|64.19,51.76|
@@ -251,7 +254,7 @@ A Pollen Power |QID|35204|N|From Rangari Kaalya|M|46.12,76.66|PRE|35215;35216|
 
 C Bushwhacker |QID|35206|N|Slay Bloom Weavers|S|
 C Pollen Power |QID|35204|N|Kill and loot the Golden Pollinators and Thicket Ravagers|S|
-l Unknown Petrified Egg|M|45.32,81.93|N|Click on the Hardened Thornvine to reveal the Unknown Petrified Egg.\n\n(Step does not auto-complete).|ACTIVE|35208|
+$ Unknown Petrified Egg|M|45.32,81.93|N|Click on the Hardened Thornvine to reveal the Unknown Petrified Egg.\n\n(Step does not auto-complete).|ACTIVE|35208|
 T Dark Iron Down |QID|35208|N|To Burrian Coalpart|M|42.11,83.45|
 A Burn the Bodies |QID|35205|N|From Burrian Coalpart|M|42.11,83.45|PRE|35208|
 A A Green Ogron? |QID|36523|N|From Burrian Coalpart|M|42.11,83.45|PRE|35208|
@@ -259,7 +262,7 @@ A A Green Ogron? |QID|36523|N|From Burrian Coalpart|M|42.11,83.45|PRE|35208|
 C Burn the Bodies |QID|35205|N|Click on the Mulching Body to burn them.|NC|S|
 C A Green Ogron? |QID|36523|N|Kill Infested Ogron|T|Infested Ogron|M|42.93,80.63|
 T A Green Ogron? |QID|36523|N|To Burrian Coalpart, he's running around with you.|
-l Hardened Millvine Seed|M|41.99,81.55|N|Click on the Hardened Millvine Seed for garrison resources.\n(Step does not auto-complete).|ACTIVE|35205|
+$ Hardened Millvine Seed|M|41.99,81.55|N|Click on the Hardened Millvine Seed for garrison resources.\n(Step does not auto-complete).|ACTIVE|35205|
 C Burn the Bodies |QID|35205|N|Finish clicking on the Mulching Body to burn them.|NC|US|M|43.00,80.50|
 T Burn the Bodies |QID|35205|N|To Burrian Coalpart, he's running around with you.|
 
@@ -344,8 +347,10 @@ C Slave Hunters |QID|34698|N|Head down, kill Slave Hunter Brol, and loot the Pen
 C Krav'ogra |QID|34702|N|Head into the arena, ring the Challenge Gong, slay Kigli'ak.\nRing gong again, slay Stribit\nRing gong again, slay Jabberback\nRing gone one more time, and Slay Slavemaster Ok'mok|M|40.39,67.55|
 C Getting Gladiators |QID|34699|N|Free Y'kish by clicking the shackle on the door.|QO|2|M|39.76,67.81|NC|
 C Getting Gladiators |QID|34699|N|head to the back of the hut, and Free Pitfighter Vaandaam by clicking the shackle on the wall.|QO|1|M|39.16,67.22|NC|
+K Stomper Kreego|QID|35910|M|39.08,65.62;38.19,66.28|CS|N|Head up the hill to a little camp to kill this silver elite.|RARE|ITEM|118224|
 C Slave Hunters |QID|34698|N|Head to the middle level, slay Slave Hunter Mol, and loot the Pendant of Mol|QO|3|T|Slave Hunter Mol|M|38.98,68.77|
-R Kor'gall's Hovel |ACTIVE|34700|N|Head into Kor'gall's Hovel|
+$ Sasha's Secret Stash|QID|36631|M|39.05,68.04|N|Go upstairs to the top of the building, then back carefully off onto a beam to pick this up. Gold and a green item.|
+R Kor'gall's Hovel |ACTIVE|34699|N|Head into Kor'gall's Hovel|
 C Nazgrel |QID|34700|N|Follow the path down, then take the second tunnel to the left, then rescue Nazgrel from the cage.|NC|M|36.84,70.57|
 
 T Getting Gladiators |QID|34699|N|To Bruto|M|36.85,67.91|
@@ -361,6 +366,8 @@ T Nazgrel |QID|34700|N|To Kash'drakor|M|42.75,63.05|
 
 T The Axe of Kor'gall|QID|34703|N|To Gladiator Akaani|M|42.78,62.98|
 A The Sparring Arena |QID|35137|N|From Gladiator Akaani|M|42.78,62.98|PRE|34698;34700;34702;34703|
+A The Fists of Vaandaam|QID|35883|M|42.75,63.01|N|Acquire Pitfighter Vandaam as a follower.|PRE|34698;34700;34702;34703|
+T The Fists of Vaandaam|QID|35883|M|42.75,63.01|
 
 C Basilisk Butcher |QID|35870|N|Kill and loot the Stoneshamble Basilisk or loot the Basilisk Meat from the Decaying Basilisks.|S|M|44.50,59.25|
 C On the Mend |QID|35026|N|Kill and loot the Rippling Steamfury|M|45.25,59.25|S|
@@ -412,7 +419,7 @@ C Fair Warning|QID|35128|N|Kill Ogron Spinecrusher|QO|1|S|
 C Leave Every Soldier Behind |QID|36223|N|Head into the cave, follow the ramp down, speak to Corporal Thukmar and put him out of his misery|QO|1|CHAT|M|45.06,85.73|
 C Leave Every Soldier Behind |QID|36223|N|Pick up Thukmar's Intel.|QO|2|NC|M|45.06,85.73|
 C Fair Warning|QID|35128|N|Kill Borogahn|QO|2|T|Borogahn|M|31.08,74.93|
-l Horned Skull |QID|35056|N|Horned Skull: Lootable object for Garrison Resources|M|47.05,67.03|RANK|3|ACTIVE|35128|
+$ Horned Skull |QID|35056|N|Horned Skull: Lootable object for Garrison Resources|M|47.05,67.03|ACTIVE|35128|
 C Fair Warning|QID|35128|N|Finish killing the Ogron Spinecrusher|QO|1|US|M|47.05,67.03|
 A A Great Escape |QID|35210|N|From Goren Tunnel (near Borogahn's location)|M|41.97,46.81|ACTIVE|35128|
 C A Great Escape |QID|35210|N|Use the Goren Tunnel|M|41.97,46.81|NC|
@@ -448,7 +455,7 @@ F Highpass |N|Fly to Highpass.|M|43.03,20.22|ACTIVE|36575;36576|
 T Strike While the Iron is Hot |QID|36575;36576|N|To Vindicator Maraad|M|52.85,59.68|
 
 A Rangari in the Red |QID|35666|LEAD|35633|PRE|35063|N|From Rangari D'kaan|M|53.32,59.89|
-l Dark Iron Remains |QID|36605|RANK|3|N|Loot the Remains of Balldir Deeprock|M|57.79,55.95|L|118703|ACTIVE|35666|
+$ Dark Iron Remains |QID|36605|N|Loot the Remains of Balldir Deeprock|M|57.79,55.95|L|118703|ACTIVE|35666|
 T Rangari in the Red |QID|35666|N|To Khaano in the Crimson Fen|M|59.33,56.37|
 
 A Scout Forensics |QID|35633|N|From Khaano|M|59.33,56.37|
@@ -464,8 +471,6 @@ C Vengeance for the Fallen|QID|35640|N|Finish killing the Fungal Lurchers|US|M|5
 T Scout Forensics |QID|35633|N|To Khaano, who has moved deeper into the Crimson Fen|M|58.26,59.91|
 T Vengeance for the Fallen|QID|35640|N|To Khaano|M|58.26,59.91|
 T Mysterious Pod |QID|35642|N|To Khaano|M|58.26,59.91|
-
-N Mercy for the Living |QID|35644|N|Click off this step, which allows the next one to show properly.  Maybe needed when servers are overloaded.|
 
 A Mercy for the Living |QID|35644|N|From Khaano|M|58.27,59.89|PRE|35633;35640;35642|
 A The Secret of the Fungus|QID|35645|N|From Khaano|M|58.27,59.89|PRE|35633;35640;35642|
@@ -492,14 +497,14 @@ T Heart of the Fen |QID|35659|N|To Rangari D'kaan|M|53.32,59.89|
 A Seeking the Scout |QID|36432|LEAD|36437|PRE|35063|N|From Rangari D'kaan|M|53.32,59.89|
 A News from Talador |QID|36495|LEAD|37183|PRE|36576|N|From Vindicator Maraad, to get to Talador later.|M|52.85,59.68|
 
-R Cragplume Cauldron|ACTIVE|36432|N|Head up the Cragplume Cauldron|M|50.70,57.02|
+R Cragplume Cauldron|ACTIVE|36432|N|Head up the Cragplume Cauldron|M|50.70,57.02|FLY|WOD|
 f Breaker's Crown |ACTIVE|36432|N|With Nisha|M|45.84,54.95|
-l Unknown Petrified Egg|M|47.23,51.80|N|Click on the Hardened Thornvine to reveal the Unknown Petrified Egg.\n\n(Step does not auto-complete).|ACTIVE|36432|PRE|35212|RANK|3|
+$ Unknown Petrified Egg|M|47.23,51.80|N|Click on the Hardened Thornvine to reveal the Unknown Petrified Egg.\n\n(Step does not auto-complete).|ACTIVE|36432|PRE|35212|
 T Seeking the Scout |QID|36432|N|To Altauur|M|49.39,49.64|
 
 A Plant Pruning |QID|36436|N|From Altauur|M|49.39,49.64|
 A Ambassador to the Ancient |QID|36437|N|From Altauur|M|49.39,49.64|
-l Aged Stone Container|M|49.06,48.42|N|Click on the Hardened Thornvine to reveal the Aged Stone Container.\n\n(Step does not auto-complete).|ACTIVE|36436;36437|PRE|35212|RANK|3|
+$ Aged Stone Container|M|49.06,48.42|N|Click on the Hardened Thornvine to reveal the Aged Stone Container.\n\n(Step does not auto-complete).|ACTIVE|36436;36437|PRE|35212|
 C Plant Pruning |QID|36436|N|Kill the Seedpriests and Primal Growths|S|
 C Ambassador to the Ancient |QID|36437|N|Talk to Birchus at Dionor's Demise in Gorgrond.|CHAT|M|50.28,47.54|
 C Plant Pruning |QID|36436|N|Kill the Seedpriests and Primal Growths|US|
@@ -582,7 +587,7 @@ C Forging the Soul Trap |QID|33114|N|Click on the Gul'var Soul Shards to combine
 T Forging the Soul Trap |QID|33114|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|
 
 A To Catch a Shadow |QID|33116|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33114|Z|Shadowmoon Valley@Draenor|
-l Demonic Cache|QID|33575|N|Demonic Cache: Treasure Loot, found inside the building. Offers an i550 Necklace worth 11 gold and some XP.|RANK|3|M|20.37,30.64|Z|Shadowmoon Valley@Draenor|
+$ Demonic Cache|QID|33575|N|Demonic Cache: Treasure Loot, found inside the building. Offers an i550 Necklace worth 11 gold and some XP.|M|20.37,30.64|Z|Shadowmoon Valley@Draenor|
 C To Catch a Shadow |QID|33116|N|Use Gul'dan's Soul Trap on Gul'dan|QO|1|M|18.00,30.50|NC|Z|Shadowmoon Valley@Draenor|
 C To Catch a Shadow |QID|33116|N|Kill Ruzuun|QO|2|Z|Shadowmoon Valley@Draenor|
 
