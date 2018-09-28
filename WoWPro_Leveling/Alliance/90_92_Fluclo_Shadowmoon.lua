@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2018-09-28 01:50
+-- Who: jovieve
+-- Log: Changed H step "QID" to "AVAILABLE." Also substituted QID for different quest in case other people were like me and didn't want to wait so long to upgrade garrison.
+
+-- URL: http://wow-pro.com/node/3604/revisions/29845/view
+-- Date: 2018-09-28 00:54
+-- Who: jovieve
+-- Log: Increased rank of out-of-the-way sidequests. Added RARE tag. Changed l tag to $.
+
+-- URL: http://wow-pro.com/node/3604/revisions/29844/view
 -- Date: 2018-09-27 11:12
 -- Who: jovieve
 -- Log: Added item tags to treasures, and put rank tag back in, only at rank 2 instead of 3.
@@ -245,16 +255,6 @@
 --	Added The Big Haul quest; 
 --	Moved Draakorium quests to before Twilight; 
 --	Added Level 92 tag to Secrets of Gorgrond; 
-
--- URL: http://wow-pro.com/node/3604/revisions/26969/view
--- Date: 2014-11-13 01:58
--- Who: Fluclo
--- Log: Added |T| for Quakefist
-
--- URL: http://wow-pro.com/node/3604/revisions/26968/view
--- Date: 2014-11-13 01:56
--- Who: Fluclo
--- Log: Added locations of flags as a coordinate note
 
 local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley@Draenor', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90,92,91)
@@ -785,15 +785,15 @@ C Across the Stars|QID|33795|N|Finish picking up the Star Readings from the floo
 C The Clothes on Their Backs|QID|36266|N|Finish killing and loot the Shadowmoon Forces for their Ceremonial Shadowmoon Robes.|US|
 C On the Offensive|QID|33083|N|Finish killing the Shadowmoon Forces|US|
 
-A Wanted: Kliaa's Stinger|QID|33834|N|From the poster in Bloodthorn Hill. This is a 3-party group quest.|M|26.40,32.84|RANK|2|
-C Wanted: Kliaa's Stinger|QID|33834|N|Kill and loot Kliaa for her Massive Stinger|M|24.61,36.34|RANK|2|
+A Wanted: Kliaa's Stinger|QID|33834|N|From the poster in Bloodthorn Hill. This is a 3-party group quest.|M|26.40,32.84|RANK|3|
+C Wanted: Kliaa's Stinger|QID|33834|N|Kill and loot Kliaa for her Massive Stinger|M|24.61,36.34|RANK|3|
 
-R Bloodthorn Cave |QID|33419|N|Head to Bloodthorn Cave.|M|24.03,33.06|
-A A Matter of Life and Death|QID|33419|N|From Roona in the Bloodthorn Cave.|M|60.09,32.01|Z|Bloodthorn Cave|
+R Bloodthorn Cave |QID|33419|N|Head to Bloodthorn Cave.|M|24.03,33.06|RANK|3|
+A A Matter of Life and Death|QID|33419|N|From Roona in the Bloodthorn Cave.|M|60.09,32.01|Z|Bloodthorn Cave|RANK|3|
 C A Matter of Life and Death|QID|33419|N|Save Diaani.|NC|QO|2|M|52.29,54.33|Z|Bloodthorn Cave|
-l Rotting Basket|QID|33572|N|Rotting Baskets: Lootable junk worth 13 gold and some tidy XP.|M|56.28,48.84|RANK|3|Z|Bloodthorn Cave|
+$ Rotting Basket|QID|33572|N|Rotting Baskets: Lootable junk worth 13 gold and some tidy XP.|M|56.28,48.84|RANK|3|Z|Bloodthorn Cave|
 C A Matter of Life and Death|QID|33419|N|Save Arekk, he's in the cave north of Diaani|NC|QO|1|M|32.73,52.84|Z|Bloodthorn Cave|
-K Gorum |QID|33664|M|33.55,27.98|N|*Rare Elite* in Arekk cave.|RANK|3|Z|Bloodthorn Cave|
+K Gorum |QID|33664|M|33.55,27.98|N|*Rare Elite* in Arekk cave.|RANK|3|Z|Bloodthorn Cave|RARE|
 C A Matter of Life and Death|QID|33419|N|Save Zuulo, continue south then east through the tunnel.|NC|QO|3|M|49.89,68.92|Z|Bloodthorn Cave|
 T A Matter of Life and Death|QID|33419|N|To Roona.|M|60.09,32.01|Z|Bloodthorn Cave|
 
@@ -843,7 +843,7 @@ R Tranquil Court|QID|37322|M|70.43,50.42|N|Run east up the stairs to Tranquil Co
 f Tranquil Court|QID|37322|M|70.4,50.4|N|With Itara|ACTIVE|37322|
 T The Prophet's Final Message|QID|37322|N|To Prophet Velen's Memorial|M|73.7,55.8|
 
-H Lunarfall |QID|33814|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|
+H Lunarfall |AVAILABLE|33461|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|
 
 A Lost Lumberjacks|QID|34820|PRE|33059|M|48.92,42.24|Z|Lunarfall|N|From Ken Loggin. \n(if you've already leveled up your garrison, you'll find Ken outside the fort to the west.|
 A Gloomshade Game Hunter |QID|33461|PRE|33059|N|From the list of ingredients attached to the side of the cart.|M|48.44,41.00|Z|Lunarfall|
