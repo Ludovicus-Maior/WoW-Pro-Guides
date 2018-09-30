@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2018-09-30 11:07
+-- Who: elidion
+-- Log: Accuracy Pass, ran the whole thing on RANK 3, just a few minor tweaks.
+
+-- URL: http://wow-pro.com/node/3665/revisions/29853/view
 -- Date: 2018-09-28 20:52
 -- Who: elidion
 -- Log:  f steps.
@@ -263,7 +268,7 @@ $ Treasure|QID|38359|M|54.42,74.20|N|Inside the house behind the dressing screen
 $ Treasure|QID|39093|M|54.19,70.59|N|Up the stream on a rock. Loot for a bit of treasure and resources.|RANK|2|
 
 $ Treasure|QID|38466|M|55.55,77.60|L|130147|N|Open this treasure chest to start a short event where several forest sprites attack.  After they are dead, loot the chest again for your treasure|ITEM|130147|RANK|2|
-U Thistleleaf Branch|AVAILABLE|39383|M|55.55,77.60|U|130147|N|Click to add the toy to your collection.|RANK|2|
+U Thistleleaf Branch|AVAILABLE|39383|M|55.55,77.60|U|130147|N|Click to add the toy to your collection.|RANK|2|PRE|38466|
 l Companion Pet|QID|38468|M|59.54,77.23|L|130154|N|Chat with Lorel Stagfeather to start a fight with Gorebeak.|ITEM|130154|RANK|2|T|Gorebeak|RARE|
 U Pygmy Owl|QID|38468|M|59.54,77.23|U|130154|N|Click to add the Pygmy Owl to your collection.|RANK|2|RARE|
 
@@ -356,7 +361,7 @@ C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|S|N|As you search for T
 C Thieving Thistleleaf|QID|38862|M|53.77,79.87|S|N|As you search for Thorndancers, kill Thistleleaf Ruffians to reclaim the eggs.|RANK|2|
 $ Treasure|QID|38861|M|56.05,83.75|N|In a small cave. Loot for a bit of treasure and resources.|RANK|2|
 K Kill Jinikki The Puncturer|AVAILABLE|38889|M|53,87|T|Jinikki The Puncturer|N|Enter the cave and chat with the little bear to rescue him.|ITEM|128690|RANK|2|RARE|
-A Adopting the Adorable|QID|38889|M|53,87|N|From the Shivering Bear Cub upon killing Jinkiki.|RANK|2|
+A Adopting the Adorable|QID|38889|M|53,87|N|From the Shivering Bear Cub upon killing Jinkiki.|RANK|2|RARE|
 $ Treasure|QID|38864|M|54.00,82.19;54.94,80.56|CS|N|Dive in and swim into an underwater cave.  Loot the treasure chest for a bit of treasure and resources.|RANK|2|;bugged 8/27 and quest doesnt actually loot or go away.
 C Thorny Dancing|QID|40220|M|53.75,79.82|T|Thistleleaf Thorndancer|N|Kill 3 Thorndancers, they are the taller Thistleleaf mobs.|RANK|2|
 C Thieving Thistleleaf|QID|38862|M|53.77,79.87|US|N|Finish collecting the eggs.|RANK|2|
@@ -416,12 +421,12 @@ $ Treasure|QID|38363|M|43.39,75.89|N|Loot for a bit of resources and treasure.|R
 K Kill Seersei|QID|38479|QO|1|M|41.82,78.43|ITEM|130171|T|Seersei|N|Kill and loot for a bit of resources and treasure.|RANK|2|RARE|
 C Death to the Witchmother|QID|38225|M|45.67,77.59|QO|1|N|Kill Magula.|T|Magula|
 C Solid as a Rock|QID|38235|M|46.58,76.53|QO|2|NC|N|Click Erwind to rescue him.|
-C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|S|N|Finish or check this off manually.|RANK|2|
+C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|US|N|Finish or check this off manually.|RANK|2|
 t Wretched Sisters-Bonus Objective|QID|38372|M|45.31,73.90|N|Auto turned in when you complete it.|RANK|2|
 T Solid as a Rock|QID|38235|M|48.89,70.22|N|To Elothir.|
 T Death to the Witchmother|QID|38225|M|48.89,70.22|N|To Elothir.|
 A Return to the Grove|QID|38322|PRE|38147;40573;38235;38225|M|48.89,70.22|N|From Elothir.|
-A Wisp in the Willows|QID|39354|PRE|38384|M|54.28,68.28|N|From Syndrelle.|RANK|2|
+A Wisp in the Willows|QID|39354|PRE|38384|M|54.28,68.28|N|From Syndrelle.|RANK|3|
 C Wisp in the Willows|QID|39354|M|54.31,68.22|QO|1|NC|N|Click on the wisp to bond.|RANK|2|
 C Wisp in the Willows|QID|39354|M|49.28,63.90|QO|2|NC|N|The wisp will go unerringly to the pools, and then try to get eaten by fish, you need to steer it away from the water circles, and stop at each seedling tree.  Press the "1" key to grow the trees.|RANK|2|
 T Wisp in the Willows|QID|39354|M|54.25,68.30|N|To Syndrelle.|RANK|2|
@@ -529,17 +534,17 @@ C Black Rook Hold-Bonus Objective|QID|38716|M|43.35,53.18|US|N|Optional - Comple
 t Black Rook Hold-Bonus Objective|QID|38716|M|43.35,53.18|N|Auto turned in when complete.|RANK|2|
 T Black Rook Prison|QID|38717|M|40.56,44.27|N|Go thru the doorway behind Araxxas and down a long winding staircase to find Commander Shadowsong and turn in your quest.|
 A Brotherly Love|QID|38724;44457|PRE|38717|M|40.56,44.27|N|From Commander Jarod Shadowsong.|
-A Illidari Freedom|QID|38719|PRE|38717|M|40.57,44.34|N|From Arduen Soulblade.|
+A Illidari Freedom|QID|38719;44278|PRE|38717|M|40.57,44.34|N|From Arduen Soulblade.|
 $ Treasure|QID|39085|M|40.51,44.68|N|In the water right beside where Arduen is lying. Loot for a bit of treasure and resources.|RANK|2|
-C Illidari Freedom|QID|38719|M|39.92,43.43|QO|1|CHAT|N|Find (and then fight) Sirius Ebonwing.|
-C Illidari Freedom|QID|38719|M|39.54,42.80|QO|3|CHAT|N|Find Asha Ravensong.|
+C Illidari Freedom|QID|38719;44278|M|39.92,43.43|QO|1|CHAT|N|Find (and then fight) Sirius Ebonwing.|
+C Illidari Freedom|QID|38719;44278|M|39.54,42.80|QO|3|CHAT|N|Find Asha Ravensong.|
 T Brotherly Love|QID|38724;44457|M|39.48,42.10|N|To Maiev Shadowsong.|
 A Lieutenant of the Tower|QID|38721|PRE|38724+44457|M|39.48,42.10|N|From Malev Shadowsong.|
-C Illidari Freedom|QID|38719|M|40.38,42.37;41.56,42.58|CS|QO|2|CHAT|N|Go up the winding staircase and find Cassiel Nightthorn.|
+C Illidari Freedom|QID|38719;44278|M|40.38,42.37;41.56,42.58|CS|QO|2|CHAT|N|Go up the winding staircase and find Cassiel Nightthorn.|
 $ Treasure|QID|39086|M|41.00,42.68|N|Loot for a bit of treasure and resources.|RANK|2|
 C Lieutenant of the Tower|QID|38721|M|41.54,41.16|N|Kill Lieutenant Desdel Stareye.|T|Lieutenant Desdel Stareye|
 T Lieutenant of the Tower|QID|38721|M|41.97,40.75;38.86,50.91|CS|N|Click on the gate to go outside, and then you can turn in the quest to Maiev Shadowsong.|
-T Illidari Freedom|QID|38719|M|39.13,51.05|N|To Asha Ravensong.|
+T Illidari Freedom|QID|38719;44278|M|39.13,51.05|N|To Asha Ravensong.|
 
 R Bradensbrook|QID|38663|M|38.27,54.75;42.23,58.50|CS|N|Ride back to Bradensbrook and there you can catch a flight path to Garden of the Moon or you can just continue on to Grove of Cenarius.|FLY|LEGION|
 F Garden of the Moon|QID|38663|M|42.23,58.50|N|At Douglass Carrington.|FLY|LEGION|
