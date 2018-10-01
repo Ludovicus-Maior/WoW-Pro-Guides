@@ -137,7 +137,7 @@ T The Great Hat Robbery|QID|50381|M|61.93,46.95|Z|Zuldazar|N|To Jani.|
 
 ;the Reward
 F The Sliver|U|141605|FACTION|Horde|
-F Verdant Hollow|U|141605|Faction|Alliance|
+F Verdant Hollow|U|141605|FACTION|Alliance|
 R Hall of Beasts|M|58.76,27.05;58.58,32.16|CS|Z|Dazar'alor|N|Across the bridge up a few staircases, then take this path at first waypoint.|
 R Hall of Beasts|M|58.76,27.05;58.58,32.16|CS|Z|Dazar'alor|N|Alliance, if you can get there alive...the NPCs in the immediate area are not hostile.|FACTION|Alliance|
 B Child of Jani|M|56.0,32.2|Z|Dazar'alor|L|163504|N|Purchase the Pet from Happy Holaua for 100 polished pet charms (must be with same char who earned the achievement).|
