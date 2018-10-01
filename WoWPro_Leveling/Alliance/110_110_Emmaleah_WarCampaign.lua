@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-10-01 07:42
+-- Who: Emmaleah
+-- Log: updated Nazmir foothold. few other minor adjustments.
+
+-- URL: http://wow-pro.com/node/3760/revisions/29857/view
 -- Date: 2018-09-30 07:55
 -- Who: elidion
 -- Log: Added an active tag to initial warfront quests so it won't hijack the guide until you do it (which can be impossible when it's not your turn).
@@ -268,7 +273,7 @@ T The Zandalar Campaign.|QID|51569|M|69.25,27.00|Z|Boralus|N|To Halford Wyrmbane
 A Deeper Into Zandalar|QID|53052|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|LVL|114|O|
 T Deeper Into Zandalar|QID|53052|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A The Ongoing Campaign|QID|51961|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|LVL|114|PRE|51569|
-C The Ongoing Campaign|QID|51961|M|69.28,27.00|Z|Boralus|N|Click on the scouting map and choose your next foothold.|
+C The Ongoing Campaign|QID|51961|M|69.28,27.00|Z|Boralus|NC|N|Click on the scouting map and choose your next foothold.|
 t Foothold: Zuldazar|QID|51570|M|69.25,27.00|Z|Boralus|N|To UI Alert.|
 t Foothold: Nazmir|QID|51571|M|69.25,27.00|Z|Boralus|N|To UI Alert.|
 t Foothold: Vol'dun|QID|51572|M|69.25,27.00|Z|Boralus|N|To UI Alert.|
@@ -293,7 +298,7 @@ T Island Expedition|QID|51904|M|66.83,33.28|Z|Boralus|N|To Flynn Fairwind.|
 A Pushing Our Influence|QID|53055|M|69.27,27.02|Z|Boralus|N|From Halford Wyrmbane.|LVL|118|O|
 T Pushing Our Influence|QID|53055|M|69.27,27.02|Z|Boralus|N|To Halford Wyrmbane.|
 A The Final Foothold|QID|52443|M|69.27,27.02|Z|Boralus|N|From Nathanos Blightcaller.|PRE|51961|LVL|118|
-C Pick last Foothold|QID|52443|M|69.27,27.02|Z|Boralus|N|Choose the last available zone to build a foothold at the Zandalar Campaign Table.|
+C Pick last Foothold|QID|52443|M|69.27,27.02|NC|Z|Boralus|N|Choose the last available zone to build a foothold at the Zandalar Campaign Table.|
 t Foothold: Zuldazar|QID|51570|M|69.25,27.00|Z|Boralus|N|To UI Alert.|
 t Foothold: Nazmir|QID|51571|M|69.25,27.00|Z|Boralus|N|To UI Alert.|
 t Foothold: Vol'dun|QID|51572|M|69.25,27.00|Z|Boralus|N|To UI Alert.|
@@ -405,7 +410,7 @@ T Return to Boralus|QID|51968|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 
 ;Nazmir
 A Heart of Darkness|QID|51088|M|69.25,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|51571|
-C Heart of Darkness|QID|51088|M|67.95,26.72|Z|Boralus|CHAT|N|If you are ready to travel to Nazmir and start the War Campaign, tell Jes-Tereth you are ready.|
+C Heart of Darkness|QID|51088|M|67.95,26.72|QO|1|Z|Boralus|CHAT|N|If you are ready to travel to Nazmir and start the War Campaign, tell Jes-Tereth you are ready.|
 T Heart of Darkness|QID|51088|M|62.03,41.60|Z|Nazmir|N|To Brann Bronzebeard.|
 A Dubious Offering|QID|51129|M|62.03,41.60|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51088|
 f Fort Victory|QID|51129|M|62.35,41.38|Z|Nazmir|N|At Selina Duskraven.|ACTIVE|51129|
@@ -414,7 +419,7 @@ T Dubious Offering|QID|51129|M|31.15,46.70|Z|Nazmir|N|To Brann Bronzebeard.|
 A Blood of Hir'eek|QID|51167|M|31.15,46.70|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51129|
 A Honoring the Fallen|QID|51150|M|31.15,46.70|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51129|
 C Honoring the Fallen|QID|51150|M|31.12,47.11|Z|Nazmir|S|NC|N|Click on the alliance corpses to retrieve their dog tags.|
-C Blood of Hir'eek|QID|51167|M|29.13,46.54|Z|Nazmir|T|Blood Witch Pakkala|N|Kill Blood Witch Pakkala.|
+K Blood Witch Pakkala|ACTIVE|51167|M|29.13,46.54|Z|Nazmir|T|Blood Witch Pakkala|N|Kill Blood Witch Pakkala.|
 C Honoring the Fallen|QID|51150|M|31.12,47.11|Z|Nazmir|S|NC|N|Finish recovering dog tags.|
 T Blood of Hir'eek|QID|51167|M|31.15,46.71|Z|Nazmir|N|To Brann Bronzebeard.|
 T Honoring the Fallen|QID|51150|M|31.15,46.71|Z|Nazmir|N|To Brann Bronzebeard.|
@@ -425,7 +430,8 @@ A Flight from the Fall|QID|51169|M|30.47,47.32|Z|Nazmir|N|From Brann Bronzebeard
 C Flight from the Fall|QID|51169|M|31.11,47.90|Z|Nazmir|NC|N|Hop on a bat to be flown to Fort Victory.|
 T Flight from the Fall|QID|51169|M|62.03,41.60|Z|Nazmir|N|To Brann Bronzebeard.|
 A Zul'Nazman|QID|51281|M|62.03,41.60|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51169|
-R Koramar|QID|51281|M|58.12,45.31;55.01,46.48;53.70,49.79;50.27,49.56|CS|N|Brann could at least run with you and help you find the way, but no.|ACTIVE|51281|
+h Fort Victory|ACTIVE|51281|M|61.96,40.77|N|Unless you like long runs thru troll infested swamps, setting your hearthstone is recomended at Priestess Islara.|
+R Koramar|ACTIVE|51281|M|58.12,45.31;55.01,46.48;53.70,49.79;50.27,49.56|Z|Nazmir|CS|N|Brann could at least run with you and help you find the way, but no.|
 T Zul'Nazman|QID|51281|M|49.97,50.92|Z|Nazmir|N|To Brann Bronzebeard.|
 A Nazmani Cultists|QID|51279|M|49.97,50.92|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51281|
 A Offerings to G'huun|QID|51280|M|49.97,50.92|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51281|
@@ -438,13 +444,14 @@ A Captain Conrad|QID|51282|M|45.70,57.47|Z|Nazmir|N|From Brann Bronzebeard.|PRE|
 T Captain Conrad|QID|51282|M|44.95,58.59;45.00,57.15|CS|Z|Nazmir|N|To Captain Conrad.|
 A Lessons of the Damned|QID|51177|M|45.00,57.15|Z|Nazmir|N|From Captain Conrad.|PRE|51282|
 C Lessons of the Damned|QID|51177|M|45.70,59.72|Z|Nazmir|NC|QO|1|N|Listen to Captain Conrad and then follow her.|
-C Lessons of the Damned|QID|51177|M|45.53,59.83|Z|Nazmir|QO|2|N|Kill Captain Conrad.|
-T Lessons of the Damned|QID|51177|M|62.02,41.61|Z|Nazmir|N|To Brann Bronzebeard. Yes, you have to run back thru (or preferably around) all those trolls.|
+K Captain Conrad|QID|51177|M|45.53,59.83|Z|Nazmir|QO|2|T|Captain Conrad|N|Kill Captain Conrad when she becomes hostile.|
+H Fort Victory|ACTIVE|51177|M|45.53,59.83|Z|Nazmir|N|Return to Fort Victory. May even be easier if your hearthstone is set to Boralus.|
+T Lessons of the Damned|QID|51177|M|62.02,41.61|Z|Nazmir|N|To Brann Bronzebeard. Yes if you didn't set your hearthstone, you have to run back thru (or preferably around) all those trolls.|
 A Champion: John J. Keeshan|QID|52013|M|61.78,41.33|Z|Nazmir|N|From John Keeshan.|PRE|51177|
 T Champion: John J. Keeshan|QID|52013|M|61.78,41.33|Z|Nazmir|N|To John Keeshan.|
 A Return to Boralus|QID|51967|M|62.03,41.59|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51177|
 C Return to Boralus|QID|51967|M|61.40,51.11|Z|Kul Tiras|CHAT|N|Tell Desha you want to return to Boralas.|
-T Return to Boralus|QID|51967|M|69.27,27.02|Z|Boralus|N|To Halford Wyrmbane.|
+T Return to Boralus|QID|51967|M|69.27,27.02|Z|Boralus|N|To Halford Wyrmbane. Don't forget to reset your hearthstone to Boralus.|
 
 ;lvl 120
 A A Mission of Unity|QID|53063|N|Autoaccepted when you hit 120|LVL|120|O|
@@ -525,7 +532,7 @@ T Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|N|To Ral
 C Uniting Kul Tiras|QID|51918;52450|US|N|This requires earning friendly reputation with Proudmoore Admirity (Tiragarde Sound), Order of Embers (Drustvar) and Storm's Wake (Stormsong Valley).|
 T Uniting Kul Tiras|QID|51918;52450|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 
-;First Assult
+;First Assault
 A Overseas Assassination|QID|52026|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|51918+52450|
 C Overseas Assassination|QID|52026|M|67.95,26.72|Z|Boralus|CHAT|N|If you are ready to travel to Vol'dun|
 T Overseas Assassination|QID|52026|M|37.70,35.95|Z|Vol'dun|N|To Halford Wyrmbane.|
@@ -537,7 +544,7 @@ A Comb the Desert|QID|52028|M|37.70,35.95|Z|Vol'dun|N|From Halford Wyrmbane.|PRE
 C Comb the Desert|QID|52028|M|40.72,47.79|Z|Vol'dun|QO|1|NC|N|Search for Horde activity.|
 T Comb the Desert|QID|52028|M|40.74,47.83|Z|Vol'dun|N|To Shandris Feathermoon.|
 A Dirty Work|QID|52029|M|40.74,47.83|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52028|
-K Dirty Work|QID|52029|ACTIVE|52029|M|40.89,48.91|Z|Vol'dun|T|Nazlara|QO|1|N|Kill Nazlara walking around the desert a few yards away. Loot the Reliquary Orders.|
+K Nazlara|ACTIVE|52029|M|40.89,48.91|Z|Vol'dun|T|Nazlara|QO|1|N|Kill Nazlara walking around the desert a few yards away. Loot the Reliquary Orders.|
 T Dirty Work|QID|52029|M|40.70,47.84|Z|Vol'dun|N|To Halford Wyrmbane.|
 A Keep Combing|QID|52030|M|40.70,47.84|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52029|
 C Keep Combing|QID|52030|M|44.91,58.83|Z|Vol'dun|NC|N|Search for more Reliquary operatives.|
@@ -565,7 +572,7 @@ T Splitting Up|QID|52038|M|29.93,78.55|Z|Vol'dun|N|To Shandris Feathermoon.|
 A Full of Arrows|QID|52040|M|29.93,78.55|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52038|
 A Delayed Deathification|QID|52039|M|29.93,78.55|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52038|
 C Delayed Deathification|QID|52039|M|29.05,76.64|Z|Vol'dun|NC|S|N|Bury the Remote-Detonation Deathbombs|
-K Full of Arrows|QID|52040|ACTIVE|52040|M|28.70,75.65|Z|Vol'dun|T|Arlethal Sunwatcher|QO|1|N|Kill Arlethal Sunwatcher|
+K Arlethal Sunwatcher|ACTIVE|52040|M|28.70,75.65|Z|Vol'dun|T|Arlethal Sunwatcher|QO|1|N|Kill Arlethal Sunwatcher|
 C Delayed Deathification|QID|52039|M|29.05,76.64|Z|Vol'dun|NC|US|N|Continue to bury the Remote-Detonation Deathbombs|
 T Full of Arrows|QID|52040|M|29.93,78.55|Z|Vol'dun|N|To Shandris Feathermoon.|
 T Delayed Deathification|QID|52039|M|29.93,78.55|Z|Vol'dun|N|To Shandris Feathermoon.|
