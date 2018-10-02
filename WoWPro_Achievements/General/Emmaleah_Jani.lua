@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/child_jani
+-- Date: 2018-10-02 01:10
+-- Who: Emmaleah
+-- Log: FACTION!
+
+-- URL: http://wow-pro.com/node/3782/revisions/29837/view
 -- Date: 2018-09-25 22:25
 -- Who: Ludovicus_Maior
 
