@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_nagrand_source_code
+-- Date: 2018-10-03 03:55
+-- Who: jovieve
+-- Log: Deleted duplicate, misspelled f step. Added a couple of FLY tags.
+
+-- URL: http://wow-pro.com/node/3618/revisions/29528/view
 -- Date: 2018-08-15 21:46
 -- Who: Ludovicus_Maior
 -- Log: Removed duplicate ACTIVE tag
@@ -181,7 +186,7 @@ T News from Nagrand|QID|36601;36606|M|38.36,36.75|Z|Lunarfall|N|To Bodrick Grey 
 A Taking the Fight to Nagrand|QID|34674;37184|PRE|36601;36606|M|38.36,36.75|Z|Lunarfall|N|From Bodrick Grey at your G arrison.|U|110560|
 
 F Nagrand|ACTIVE|34674;37184|M|47.90,49.72|Z|Lunarfall|CHAT|N|Speak with Dungar Longdrink and tell him you need a flight to the border of Nagrand.|
-K Grizlemaw|AVAILABLE|35784|M|89.46,72.93|N|*Rare Kill*\nOn the path to your left. Drops Grizzled Wolfskin Cloak worth 22g.|RANK|3|
+K Grizlemaw|AVAILABLE|35784|M|89.46,72.93|N|*Rare Kill*\nOn the path to your left. Drops Grizzled Wolfskin Cloak worth 22g.|RARE|
 T Taking the Fight to Nagrand|QID|34674;37184|M|86.40,66.20|N|To Lieutenant Balfor at the Wrecked Caravan.|
 
 A The Might of the Warsong|QID|34675|M|86.40,66.20|N|From Lieutenant Balfor.|PRE|34674|
@@ -192,7 +197,6 @@ T The Might of the Warsong|QID|34675|M|63.52,61.88|N|To Rangari D'kaan at Telaar
 
 A Up and Running |QID|34678|PRE|34675|M|63.52,61.88|N|From Rangari D'kaan.|
 C Up and Running |QID|34678|NC|QO|3|N|Loot the Transmission Flywheel, inside the hut.|M|63.67,62.37|
-f Telari Station|ACTIVE|34678|M|63.62,61.56|N|With John Shelby.|
 C Up and Running |QID|34678|NC|QO|2|N|Loot the Prop Rotor, just behind Gryphon Master.|M|63.75,61.56|
 C Up and Running |QID|34678|QO|1|N|Loot Assorted Engineering Parts on the floor next to Captain Washburn.|M|62.09,62.12|
 T Up and Running |QID|34678|M|63.07,61.96|N|To Thaelin Darkanvil.|
@@ -203,7 +207,7 @@ T Operation: Surprise Party |QID|34682|N|To Rangari Ogir in Rangari Overlook.|M|
 
 A Mo'mor Might Know |QID|34716|PRE|34682|N|From Rangari Ogir.|M|65.88,68.62|
 A Operation: Just Arrowhead |QID|34717|PRE|34682|N|From Rangari Ogir.|M|65.88,68.62|
-R Telaar|ACTIVE|34716;34717|NC|N|Click on the Rappelling Rope to get down to Telaar.|M|65.91,68.56|
+R Telaar|ACTIVE|34716;34717|NC|N|Click on the Rappelling Rope to get down to Telaar.|M|65.91,68.56|FLY|WOD|
 C Operation: Just Arrowhead |QID|34717|N|Kill Warsong forces at Telaar. |S|
 T Mo'mor Might Know |QID|34716|N|To Vindicator Mo'mor, chained up inside the building.|M|66.74,68.64|
 A The Others |QID|34718|N|From Vindicator Mo'mor|M|66.74,68.64|PRE|34716|
