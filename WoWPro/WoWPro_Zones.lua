@@ -324,7 +324,7 @@ function WoWPro.ProcessMapAndKids(id)
         end
     end
 
-    -- First name this map, since we are doing recursive descent, each new node should be unique when we see it first.
+    -- If we have a collision, then try to apply some heuristics.
     if wip_name_info[nomen] then
         if map_info.parentMapID > 0 then
             -- If we collide here, we must have different parents: i.e. Shadowmoon.
@@ -348,8 +348,8 @@ function WoWPro.ProcessMapAndKids(id)
                 return
             end
         elseif map_info.mapType == 6 then
-            -- If we collide here, maybe we can get away with a !Instance suffix
-            nomen = map_info.name .. "!Instance"
+            -- If we collide here, we have the same parent, but not the same map id. Use the map id.
+            nomen = map_info.name .. "!" .. tostring(id)
             if not wip_name_info[nomen] then
                 WoWPro:dbp("ProcessMapAndKids(%d): %q => %q",id, map_info.name, nomen)
                 map_info.nick = nomen
@@ -371,6 +371,7 @@ function WoWPro.ProcessMapAndKids(id)
     if children and #children > 0 then
         for i = 1, #children do
             map_info.children[i] = children[i].mapID
+            wip_name_info[children[i].name] = children[i].mapID  -- Force early collisions
         end
     end
     table.sort(map_info.children)
@@ -406,7 +407,7 @@ function WoWPro.GenerateMapCache()
     wip_map_info[0] = {}
     wip_map_info[0].parentMapID = 0
     wip_map_info[0].name = "Cosmic"
-    
+
     local dirty
     for i = 1, 3 do
         dirty = WoWPro.NameZones()
