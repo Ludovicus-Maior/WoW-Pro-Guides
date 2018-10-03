@@ -366,6 +366,17 @@ function WoWPro:PetOwned(npcID)
     return WoWPro.PetsOwned[tonumber(npcID)] or 0
 end
 
+-- Guide Rank
+function WoWPro.GuideRank(guideID)
+    if WoWProCharDB.Rank[guideID] then
+        return WoWProCharDB.Rank[guideID]
+    end
+    if WoWPro.Guides[guideID] and WoWProCharDB.Rank[WoWPro.Guides[guideID].guidetype] then
+        return WoWProCharDB.Rank[WoWPro.Guides[guideID].guidetype]
+    end
+    return WoWProDB.profile.rank
+end
+
 -- Guide Load --
 function WoWPro:LoadGuide(guideID)
     WoWPro:dbp("Signaled for LoadGuide %s",tostring(guideID))
