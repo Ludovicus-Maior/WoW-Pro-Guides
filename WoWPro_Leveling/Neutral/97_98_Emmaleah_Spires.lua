@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2018-10-03 01:20
+-- Who: jovieve
+-- Log: Fixed some lead-in quest QID logic stuff. Added a couple of FLY tags.
+
+-- URL: http://wow-pro.com/node/3602/revisions/29382/view
 -- Date: 2018-07-01 23:00
 -- Who: Emmaleah
 -- Log: Yet another change regarding not here, not now - splitting to two different lines in guide
@@ -204,16 +209,16 @@ WoWPro:GuideNextGuide(guide, 'LudoNagrand|EmmNagrand')
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Beginnings|QID|34653;36951|N|This guide begins at your garrison to take the free flight to Spires.|
-N Bonus Objectives|QID|34653;36951|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.|
-N Jumping Games|QID|34653;36951|N|This zone has some archeaology rewards that require jumping and rope running (like Timeless Isle). They mostly reward archeology fragments. I leave these to you to figure out if you want to take the time.|
-N Nagrand|QID|34653;36951|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.|
-N Use of Rank Setting|QID|34653;36951|N|Setting the guide to the minimum rank (1) allows you to only do what it takes to get your garrison outpost assemply notes and pinchwistle gearworks for the salvage yard blueprints. Rank 2 includes just about everything else, and rank 3 includes a couple of rather out of the way quests and all the rares and followers that are tucked in out of the way places.|
+N Beginnings|AVAILABLE|34653;36951|N|If you have the quest, News from the Spires of Arak, this guide begins at your garrison to turn that in. You may also want to begin there if you do not have Draenor flying to take the free flight to Spires.|
+N Bonus Objectives|AVAILABLE|34653;36951|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.|
+N Jumping Games|AVAILABLE|34653;36951|N|This zone has some archeaology rewards that require jumping and rope running (like Timeless Isle). They mostly reward archeology fragments. I leave these to you to figure out if you want to take the time.|
+N Nagrand|AVAILABLE|34653;36951|N|The Nagrand quests require level 98 and you are welcome to pick up the leadin at any time after that.  I did not include it in the guide until the very end to be sure that it is not in the guide before it is available to you.|
+N Use of Rank Setting|AVAILABLE|34653;36951|N|Setting the guide to the minimum rank (1) allows you to only do what it takes to get your garrison outpost assemply notes and pinchwistle gearworks for the salvage yard blueprints. Rank 2 includes just about everything else, and rank 3 includes a couple of rather out of the way quests and all the rares and followers that are tucked in out of the way places.|
 
 T News from Spires of Arak|QID|35554|M|37.8,36.8|Z|Lunarfall|FACTION|Alliance|N|To Broderik Grey.|
-A Arakkoa Exodus|QID|34653|PRE|35554|M|37.8,36.8|Z|Lunarfall|FACTION|Alliance|N|To Broderik Grey.|
+A Arakkoa Exodus|QID|34653;36951|PRE||M|37.8,36.8|Z|Lunarfall|FACTION|Alliance|N|From Broderik Grey in your garrison or from the Adventurer's Guide if you did not do the lead-in quest.|;PRE no longer required. Empty tag for Grail integration.
 A Hero's Call: Spires of Arak!|QID|49556|M|43,54|Z|Lunarfall|FACTION|Alliance|N|From Hero's Call board|LEAD|34653|;guess for coordinates - please update
-F Spires of Arak|ACTIVE|34653|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the chat option from Dungar.|FACTION|Alliance|
+F Spires of Arak|ACTIVE|34653;36951|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the chat option from Dungar.|FACTION|Alliance|FLY|WOD|
 
 T News from Spires of Arak|QID|35537|M|45.93,42.86|Z|Frostwall|N|To Rokhan.|FACTION|Horde|
 A Arakkoa Exodus|QID|34653|PRE|35537|M|45.93,42.86|Z|Frostwall|N|From Rokhan.|LEAD|34655|FACTION|Horde|
@@ -238,7 +243,7 @@ A Orders From On High|QID|34658|M|43.66,12.91|N|From Reshad.|PRE|34656;34657|
 C Orders From On High|QID|34658|M|45.80,15.28|T|Sun-Sage Rathyx|N|Kill Sun-Sage Rathyx and loot the orders.|
 T Orders From On High|QID|34658|M|45.38,18.25|N|To Reshad.|
 A The Crone|QID|34659|M|45.38,18.25|N|From Reshad.|PRE|34658|
-R Crow's Crook|ACTIVE|34659|M|50.66,28.59|N|Run South towards Crow's Crook.|
+R Crow's Crook|ACTIVE|34659|M|50.66,28.59|N|Run South towards Crow's Crook.|FLY|WOD|
 f Crow's Crook|ACTIVE|34659|M|51.87,31.06|N|At Darkscreech.|
 
 C The Crone|QID|34659|M|51.62,31.38|CHAT|N|Tell Ornekka the secret word.|
@@ -261,7 +266,7 @@ T Echo Hunters|QID|34805|M|48.59,44.48|N|To Reshad.|
 A A Gathering of Shadows|QID|35671|M|48.59,44.48|N|From Reshad.|PRE|35668;34805;34756|
 C A Gathering of Shadows|QID|35671|M|46.54,45.59|NC|N|Enter Veil Terokk.|
 T A Gathering of Shadows|QID|35671|M|46.51,45.60|N|To Shadow-Sage Iskar.|
-f Veil Terokk|ACTIVE|35272|M|46.18,44.13|N|At Skytalon Meshaal.|
+f Veil Terokk|AVAILABLE|35272;35274|M|46.18,44.13|N|At Skytalon Meshaal.|
 A One of Our Own|QID|35274|PRE|35671|M|45.89,46.36|N|From Jasper Fel.|FACTION|Alliance|
 A One of Our Own|QID|35272|M|45.90,46.35|N|From Shadow Hunter Ukambe.|FACTION|Horde|
 C One of Our Own|QID|35272;35274|CHAT|M|46.52,45.61|N|Talk to Iskar and get him to let your guy free.|
@@ -271,7 +276,7 @@ A Inspecting the Troops|QID|35276|M|45.89,46.37|N|From Jasper Fel.|FACTION|Allia
 A Inspecting the Troops|QID|35275|M|45.90,46.36|N|From Shadow Hunter Ukambe.|FACTION|Horde|PRE|35272|
 
 ;alliance
-R Southport|ACTIVE|35276|M|45.79,47.08;41.79,50.72;40.41,59.78|CS|N|Over to the coast.|FACTION|Alliance|
+R Southport|ACTIVE|35276|M|45.79,47.08;41.79,50.72;40.41,59.78|CS|N|Over to the coast.|FACTION|Alliance|FLY|WOD|
 f Southport|ACTIVE|35276|M|39.08,61.80|N|Ar Firn Swiftbreeze|FACTION|Alliance|
 T Inspecting the Troops|QID|35276|M|40.00,60.47|N|To Jasper Fel.|FACTION|Alliance|
 A Orders, Commander?|QID|35286|M|39.84,60.78|N|From Lieutenant Willem.|FACTION|Alliance|PRE|35276|
@@ -283,7 +288,7 @@ A Outpost specific quest|QID|37327;35699|M|39.84,60.78|N|The quest (and quest gi
 h Southport|ACTIVE|35699|M|40.12,61.49|FACTION|Alliance|N|At Elria Willowfall.\nIf you built the brewery, there is really no reason to bind here as it's ability is a port back here from anywhere in the zone.|
 A Old Friends|QID|35293|M|39.79,60.68|N|From Jasper Fel.|FACTION|Alliance|PRE|35286|RANK|2|
 ;horde
-R Axefall|ACTIVE|35275|M|40.06,44.04|N|On the other side of the mountain.|FACTION|Horde|
+R Axefall|ACTIVE|35275|M|40.06,44.04|N|On the other side of the mountain.|FACTION|Horde|FLY|WOD|
 f Axefall|ACTIVE|35275|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|
 T Inspecting the Troops|QID|35275|M|40.06,44.04|N|To Shadow Hunter Ukambe.|FACTION|Horde|
 A Orders, Commander?|QID|35277|M|40.19,43.46|N|From Taskmaster Gornek.|FACTION|Horde|PRE|35275|

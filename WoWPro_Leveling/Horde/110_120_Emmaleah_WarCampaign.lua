@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-10-02 22:22
+-- Who: elidion
+-- Log: added C step back to warfront quest.
+
+-- URL: http://wow-pro.com/node/3761/revisions/29865/view
+-- Date: 2018-10-02 19:42
+-- Who: Emmaleah
+-- Log: update warfront scenario to use |Z|943 so arrow will show.  Update Warfront Scenario to replace ACTIVE|53416| with PRE|51082 for all but 51082, since the quests remain available after 53416 has been turned in. (left the first one so the guide would flow right, it would technically be PRE or ACTIVE 53416 but I don't think that is an option.
+
+-- URL: http://wow-pro.com/node/3761/revisions/29864/view
+-- Date: 2018-10-02 18:43
+-- Who: Emmaleah
+-- Log: various tweaks, added NCs, moved Lilian Voss as follower to before going to Orgrimmar, added a -120 level tag.
+
+-- URL: http://wow-pro.com/node/3761/revisions/29772/view
 -- Date: 2018-09-20 08:26
 -- Who: elidion
 -- Log: One more typo
@@ -190,7 +205,7 @@ return [[
 ;Starter Notes
 N The Great Sea Scrolls|QID|53476|NA|NOCACHE|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chests on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 t The Great Sea Scrolls|QID|53476|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
-N Treasure Maps|N|There are four treasure maps that will drop randomly when fighting pirates in Tiragarde Sound. *Singed, Soggy, Yellowed and Faded, once you have those, Their related treasure is not visable if you do not have the map, so hold on to them until you have the related treasure.|
+N Treasure Maps|N|There are four treasure maps that will drop randomly when fighting pirates in Kul  Tiras. *Singed, Soggy, Yellowed and Faded, once you have looted them, their related treasure becomes visable. You don't have to save them once you loot them. The treasure is not necesarily close to where you looted the map.|
 N Silver Elites|QID|52451;51916|N|The Silver Elites on Kul Tiras (assuming you are horde) do not scale to your level and are all level 120-122. You may want to avoid them before 120.|
 N The Banshee's Wail|QID|53079|N|All of these quest arcs start on The Banshee's Wail, a ship in Zandalar's harbor. It can be reached by taking the flightpath to the Port of Zandalar.|
 
@@ -378,6 +393,7 @@ A A Mission of Unity|QID|53064|N|Autoaccepted after turning level 120|LVL|120|O|
 T A Mission of Unity|QID|53064|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|LVL|120|
 A Uniting Zandalar|QID|52451;51916|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|LVL|120|
 C Uniting Zandalar|QID|52451;51916|M|58.44,62.67|Z|Zuldazar|S|N|Requires at least honored with Talanji's Expidition (Nazmir); Voldunai (Voldun); and Zandalari Empire (Zuldazar) Accountwide progress counts. |
+
 ;Warfront at lvl 120
 A The Warfront Looms|QID|53207|N|Autoaccepted after turning level 120|LVL|120|O|
 T The Warfront Looms|QID|53207|M|52.93,94.47|Z|Dazar'alor|N|To Throk.|
@@ -415,39 +431,40 @@ T Boulderfist Beatdown|QID|53148|M|27.30,29.79|Z|Arathi Highlands|N|To Druza Net
 T Sins of the Syndicate|QID|53173|M|27.30,29.79|Z|Arathi Highlands|N|To Druza Netherfang.|
 T Wiping Out the Witherbark|QID|53150|M|27.30,29.79|Z|Arathi Highlands|N|To Druza Netherfang.|
 ;End Warfront
+
 ; Warfront Scenerio
 A Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|N|From Throk.|O|
-C Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|QO|1|N|View the War Table in Zuldazar and join the queue to defeat the Alliance at the Battle for Stromgarde|
-A Iron Stores|QID|51082|ACTIVE|53416|M|70.51,36.03|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Foreman Drogg. After taking the mines and killing Overseer Krix.|
-C Iron Stores|QID|51082|M|61.49,25.10|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|Back at the base, access your Iron Stores.|
-T Iron Stores|QID|51082|M|61.48,25.26|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Lug'ruk.|
-A Chop, Chop!|QID|47283|ACTIVE|53416|M|45.98,19.64|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Graul. After taking Hatchet Ridge and killing Lumberjack Leo.|
-C Chop, Chop!|QID|47283|M|46.38,19.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|Grab the Sturdy Axe.|
-C Chop, Chop!|QID|47283|M|46.47,18.16|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|2|NC|N|Chop down the Sapling.|
-C Chop, Chop!|QID|47283|M|46.47,18.16|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|3|NC|N|Pick up the Freshly-Chopped Wood around the tree you just chopped.|
-T Chop, Chop!|QID|47283|M|46.04,19.63|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Graul.|
-A Ready for Battle|QID|53665|ACTIVE|53416|M|60.64,28.10|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Lieutenant Akaro.|
-C Ready for Battle|QID|53665|M|60.77,28.90|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|Recruit a troop from the Barracks, 20 Iron minimum.|
-T Ready for Battle|QID|53665|M|60.64,28.09|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Lieutenant Akaro.|
-A Armor Up!|QID|53666|ACTIVE|53416|M|58.72,25.90|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Drom'kal.|
-C Armor Up!|QID|53666|M|58.60,25.40|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|See what the Armory has to offer.|
-T Armor Up!|QID|53666|M|60.71,25.19|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Wistel Silversnitch.|
-A The Altar's Power|QID|53669|ACTIVE|53416|M|60.71,25.19|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Wistel Silversnitch.|
-C The Altar's Power|QID|53669|M|61.03,22.65|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|See what the Altar has to offer.|
-T The Altar's Power|QID|53669|M|60.70,25.17|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Wistel Silversnitch.|
-A Welcome to the Workshop|QID|53667|ACTIVE|53416|M|58.52,21.47|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Margie Slickwinch.|
-C Welcome to the Workshop|QID|53667|M|57.89,21.81|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|See what the Workshop has to offer.|
-T Welcome to the Workshop|QID|53667|M|58.52,21.47|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Margie Slickwinch.|
-A Flightgineer's Network|QID|53668|ACTIVE|53416|M|51.14,46.94|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Flightgineer Krazzle after capturing High Perch.|
-C Flightgineer's Network|QID|53668|M|51.31,46.85|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|Fly back to Ar'gorok to get your flightmaster whistle upgrade.|
-T Flightgineer's Network|QID|53668|M|61.69,26.19|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Eitrigg.|
-A Beasts of Newstead|QID|53670|ACTIVE|53416|M|42.26,39.56|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Raider Zugg after capturing Newstead.|
-C Beasts of Newstead|QID|53670|M|41.50,40.55|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|See what Kodo Rider Tanauk has to offer.|
-T Beasts of Newstead|QID|53670|M|42.62,41.53|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Raider Zugg.|
-A The Circle's Power|QID|53671|ACTIVE|53416|M|69.62,47.65|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|From Arcanist Ilira after capturing the Circle of Elements.|
-C The Circle's Power|QID|53671|M|68.45,47.51|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|1|NC|N|See what Kraga Tidefury has to offer.|
-T The Circle's Power|QID|53671|M|69.63,47.65|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|N|To Arcanist Ilira.|
-C Warfront: The Battle for Stromgarde|QID|53416|M|49.37,72.95|Z|Arathi Highlands!Instance!Eastern Kingdoms!Azeroth|QO|2|N|Defeat the Alliance at the Battle for Stromgarde.|
+C Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|NC|QO|1|N|View the War Table in Zuldazar and join the queue to defeat the Alliance at the Battle for Stromgarde.|
+A Iron Stores|QID|51082|ACTIVE|53416|M|70.51,36.03|Z|943|N|From Foreman Drogg. After taking the mines and killing Overseer Krix.|
+C Iron Stores|QID|51082|M|61.49,25.10|Z|943|QO|1|NC|N|Back at the base, access your Iron Stores.|
+T Iron Stores|QID|51082|M|61.48,25.26|Z|943|N|To Lug'ruk.|
+A Chop, Chop!|QID|47283|PRE|51082|M|45.98,19.64|Z|943|N|From Graul. After taking Hatchet Ridge and killing Lumberjack Leo.|
+C Chop, Chop!|QID|47283|M|46.38,19.17|Z|943|QO|1|NC|N|Grab the Sturdy Axe.|
+C Chop, Chop!|QID|47283|M|46.47,18.16|Z|943|QO|2|NC|N|Chop down the Sapling.|
+C Chop, Chop!|QID|47283|M|46.47,18.16|Z|943|QO|3|NC|N|Pick up the Freshly-Chopped Wood around the tree you just chopped.|
+T Chop, Chop!|QID|47283|M|46.04,19.63|Z|943|N|To Graul.|
+A Ready for Battle|QID|53665|PRE|51082|M|60.64,28.10|Z|943|N|From Lieutenant Akaro.|
+C Ready for Battle|QID|53665|M|60.77,28.90|Z|943|QO|1|NC|N|Recruit a troop from the Barracks, 20 Iron minimum.|
+T Ready for Battle|QID|53665|M|60.64,28.09|Z|943|N|To Lieutenant Akaro.|
+A Armor Up!|QID|53666|PRE|51082|M|58.72,25.90|Z|943|N|From Drom'kal.|
+C Armor Up!|QID|53666|M|58.60,25.40|Z|943|QO|1|NC|N|See what the Armory has to offer.|
+T Armor Up!|QID|53666|M|60.71,25.19|Z|943|N|To Wistel Silversnitch.|
+A The Altar's Power|QID|53669|PRE|51082|M|60.71,25.19|Z|943|N|From Wistel Silversnitch.|
+C The Altar's Power|QID|53669|M|61.03,22.65|Z|943|QO|1|NC|N|See what the Altar has to offer.|
+T The Altar's Power|QID|53669|M|60.70,25.17|Z|943|N|To Wistel Silversnitch.|
+A Welcome to the Workshop|QID|53667|PRE|51082|M|58.52,21.47|Z|943|N|From Margie Slickwinch.|
+C Welcome to the Workshop|QID|53667|M|57.89,21.81|Z|943|QO|1|NC|N|See what the Workshop has to offer.|
+T Welcome to the Workshop|QID|53667|M|58.52,21.47|Z|943|N|To Margie Slickwinch.|
+A Flightgineer's Network|QID|53668|PRE|51082|M|51.14,46.94|Z|943|N|From Flightgineer Krazzle after capturing High Perch.|
+C Flightgineer's Network|QID|53668|M|51.31,46.85|Z|943|QO|1|NC|N|Fly back to Ar'gorok to get your flightmaster whistle upgrade.|
+T Flightgineer's Network|QID|53668|M|61.69,26.19|Z|943|N|To Eitrigg.|
+A Beasts of Newstead|QID|53670|PRE|51082|M|42.26,39.56|Z|943|N|From Raider Zugg after capturing Newstead.|
+C Beasts of Newstead|QID|53670|M|41.50,40.55|Z|943|QO|1|NC|N|See what Kodo Rider Tanauk has to offer.|
+T Beasts of Newstead|QID|53670|M|42.62,41.53|Z|943|N|To Raider Zugg.|
+A The Circle's Power|QID|53671|PRE|51082|M|69.62,47.65|Z|943|N|From Arcanist Ilira after capturing the Circle of Elements.|
+C The Circle's Power|QID|53671|M|68.45,47.51|Z|943|NC|N|See what Kraga Tidefury has to offer.|
+T The Circle's Power|QID|53671|M|69.63,47.65|Z|943|N|To Arcanist Ilira.|
+C Warfront: The Battle for Stromgarde|QID|53416|M|49.37,72.95|Z|943|QO|2|N|Collect Iron and Wood to continue upgrading your buildings and troops or hire help. Capture the various outposts and defeat the alliance.|
 T Warfront: The Battle for Stromgarde|QID|53416|M|52.92,94.51|Z|Dazar'alor|N|To Throk.|
 ;End Warfront Scenerio
 
@@ -646,7 +663,7 @@ T When a Plan Comes Together|QID|52183|M|86.95,53.08|Z|Tiragarde Sound|N|To Nath
 A The Bulk of the Guard|QID|52186|M|86.95,53.08|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|52183|
 A Old Colleagues|QID|52187|M|86.95,53.08|Z|Tiragarde Sound|N|From Captain Amalia Stone.|PRE|52183|
 C The Bulk of the Guard|QID|52186|M|87.21,52.72|Z|Tiragarde Sound|S|N|Hobart Grapplehammer will fly you out to the larger ship, once you arrive, kill guards as you go.|
-K Guard Commander Trunksal|QID|52187|QO|2|M|92.05,49.67|Z|Tiragarde Sound|T|Guard Commander Trunksal|N|Hobart Grapplehammer will fly you to the Capital Ship. Kill Guard Commander Trunksal stright below you.|ACTIVE|52187|
+K Guard Commander Trunksal|QID|52187|QO|2|M|92.05,49.67|Z|Tiragarde Sound|T|Guard Commander Trunksal|N|Hobart Grapplehammer will fly you to the Flagship. Kill Guard Commander Trunksal directly below you.|ACTIVE|52187|
 K Captain Gastrod|QID|52187|QO|1|M|91.41,48.01|Z|Tiragarde Sound|T|Captain Gastrod|N|Captain Gastrod can be found at the front of the ship in the traditional Captain's room above deck.|ACTIVE|52187|
 K Helmsman Miria|QID|52187|QO|3|M|92.16,79.76;92.38,51.14|CS|Z|Tiragarde Sound|T|Helmsman Miria|N|Ask Hobart for a ride to the other ship. When you arrive, find Helmsan Miria at the helm.|ACTIVE|52187|
 C The Bulk of the Guard|QID|52186|M|91.62,52.14|Z|Tiragarde Sound|US|N|Finish up your quota of guards.|
@@ -685,12 +702,12 @@ A The Aid of the Tides|QID|52192|M|86.95,53.08|Z|Tiragarde Sound|N|From Nathanos
 C The Aid of the Tides|QID|52192|QO|1|M|86.95,53.08|Z|Tiragarde Sound|CHAT|N|Talk with Nathanos and tell him to get out of here.|
 T The Aid of the Tides|QID|52192|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A A Cycle of Hatred|QID|53003|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52192|
-H The Great Seal|ACTIVE|53003|M|49.93,42.01|Z|Dazar'alor|N|Hearth, or otherwise get yourself to a portal to Orgrimmar.|
-P Orgrimmar|ACTIVE|53003|M|51.54,45.89|Z|Dazar'alor|N|Take the portal to Orgrimmar|
-T A Cycle of Hatred|QID|53003|M|48.39,71.16|Z|Orgrimmar|N|To Sylvanas Windrunner.|
-P Dazar'alor|AVAILABLE|52861|M|47.51,60.06|Z|Orgrimmar|N|Use the portal to return to Zandalar|PRE|53003|
 A Champion: Lilian Voss|QID|52861|M|58.40,62.71|Z|Zuldazar|N|From Lilian Voss.|PRE|52192|
 T Champion: Lilian Voss|QID|52861|M|58.40,62.71|Z|Zuldazar|N|To Lilian Voss.|
+H The Great Seal|ACTIVE|53003|M|58.40,62.71|Z|Zuldazar|N|Hearth, or otherwise get yourself to a portal to Orgrimmar.|
+P Orgrimmar|ACTIVE|53003|M|51.54,45.89|Z|Dazar'alor|N|Take the portal to Orgrimmar|
+T A Cycle of Hatred|QID|53003|M|48.39,71.16|Z|Orgrimmar|N|To Sylvanas Windrunner.|
+P Dazar'alor|AVAILABLE|52861|M|47.51,60.06|Z|Orgrimmar|N|Use the portal or otherwise return to Zandalar|PRE|53003|
 
 ; The Revered Repuation Mission Report: Hillcrest Pasture
 A Mission Report: Hillcrest Pasture|QID|52478|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0;false|O|
@@ -698,7 +715,7 @@ T Mission Report: Hillcrest Pasture|QID|52478|M|58.44,62.67|Z|Zuldazar|N|To Nath
 A Hillcrest Pasture|QID|52479|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52478|
 R Stormsong Valley|ACTIVE|52479|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
 F Wolf's Den|ACTIVE|52479|M|51.43,33.74|Z|Stormsong Valley|N|Wolf's Den is the closest flightpoint, if you don't want to run and do WQs on the way.|
-C Hillcrest Pasture|QID|52479|M|53.42,77.66|Z|Stormsong Valley|N|Make your way to the outpost to claim it.|
+C Hillcrest Pasture|QID|52479|M|53.42,77.66|Z|Stormsong Valley|NC|N|Make your way to the outpost to claim it.|
 f Hillcrest Pasture|ACTIVE|52479|M|52.77,80.13|Z|Stormsong Valley|CHAT|N|At Hosan Cloudhoof.|
 T Hillcrest Pasture|QID|52479|M|54.19,78.65|Z|Stormsong Valley|N|To Ruknoz Greyfang.|
 
@@ -707,7 +724,7 @@ A Mission Report: Mudfisher Cove|QID|52313|M|51.51,99.63|Z|Dazar'alor|REP|The Ho
 T Mission Report: Mudfisher Cove|QID|52313|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Mudfisher Cove|QID|52314|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52313|
 R Drustvar|ACTIVE|52314|CHAT|N|Tell Tattersail to take you to Drustvar or get there through other means.|
-C Mudfisher Cove|QID|52314|M|61.83,16.33|Z|Drustvar|QO|1|N|Closest flightpoint is Waning Glacier, make your way to the outpost to claim it.|
+C Mudfisher Cove|QID|52314|M|61.83,16.33|Z|Drustvar|NC|N|Closest flightpoint is Waning Glacier, make your way to the outpost to claim it.|
 f Mudfisher Cove|ACTIVE|52314|M|62.03,16.88|Z|Drustvar|CHAT|N|At Drasha Windspear.|
 T Mudfisher Cove|QID|52314|M|62.43,17.01|Z|Drustvar|N|To Garn Blackwolf.|
 A Mission Report: Into The Wicker|QID|53125|M|51.51,99.63|Z|Dazar'alor|PRE|52314|REP|The Honorbound;2157;revered;0;false|O|
@@ -735,7 +752,7 @@ A Mission Report: Stonefist Watch|QID|52221|M|51.51,99.63|Z|Dazar'alor|REP|The H
 T Mission Report: Stonefist Watch|QID|52221|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Stonefist Watch|QID|52222|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52221|
 R Tiragarde Sound|ACTIVE|52222|CHAT|N|Tell Tattersail to take you to Tiragarde Sound or get there through other means.|
-C Stonefist Watch|QID|52222|M|53.28,63.26|Z|Tiragarde Sound|QO|1|N|Closest flightpoint is Timberfell Outpost, make your way to the outpost to claim it. Road from NW of island is best path there.|
+C Stonefist Watch|QID|52222|M|53.28,63.26|Z|Tiragarde Sound|NC|N|Closest flightpoint is Timberfell Outpost, make your way to the outpost to claim it. Road from NW of island is best path there.|
 f Stonefist Watch|ACTIVE|52222|M|53.14,63.17|Z|Tiragarde Sound|CHAT|N|At Munovuth Boldcleaver.|
 T Stonefist Watch|QID|52222|M|53.63,63.35|Z|Tiragarde Sound|N|To Kora Gorekill.|
 A Mission Report: Spare Parts|QID|53081|M|51.51,99.63|Z|Dazar'alor|PRE|52222|REP|The Honorbound;2157;revered;0;false|O|
@@ -750,13 +767,14 @@ T Mission Report: Windfall Cavern|QID|52319|M|58.44,62.67|Z|Zuldazar|N|To Nathan
 A Windfall Cavern|QID|52320|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52319|
 R Stormsong Valley|ACTIVE|52320|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
 C Windfall Cavern|QID|52320|M|60.70,26.71;60.33,25.28|CS|Z|Stormsong Valley|NC|N|Closest flightpoint is Warfang hold. Follow arrow to cave entrance, enter and claim the outpost.|
-f Windfall Cavern|ACTIVE|52320|M|52.77,80.13|Z|Stormsong Valley|CHAT|N|At Allabas.|
+f Windfall Cavern|ACTIVE|52320|M|52.77,80.13|Z|Stormsong Valley|N|At Allabas.|
 T Windfall Cavern|QID|52320|M|60.21,24.98|Z|Stormsong Valley|N|To Morn Ironhorn.|
 
 ; Rep Gated Notes
 N Come back at level 114|AVAILABLE|51979|LVL|-114|N|Next foothold can be done when you are level 114.|PRE|51803|
-N Come back at level 116|AVAILABLE|53062|LVL|-116|N|Island Adventures can be done when you are level 116. This quest is once per account.|PRE|51979|
+N Come back at level 116|AVAILABLE|53062|LVL|-116|N|Island Adventures can be done when you are level 116. This quest is once per account. Once unlocked on the account, Other toons on the account can do Island Adventures as early as 110.|PRE|51979|
 N Come back at level 118|AVAILABLE|52444|LVL|-118|N|Last foothold can be done when you are level 118.|PRE|51979|
+N Come back at level 120|AVAILABLE|51589|LVL|-120|N|First assault can be done when you are level 120.|PRE|52444|
 N Rep Gated|AVAILABLE|51784|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 4.5K into friendly.|PRE|51601|REP|The Honorbound;2157;friendly;4500;true|
 N Rep Gated|AVAILABLE|51797|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Scouting Report Missions unlock at Honored, and the next segment is available at 3K into it.|PRE|51789|REP|The Honorbound;2157;honored;0;true|
 N Ransa Greyfeather|AVAILABLE|51797|M|58.06,62.65|Z|Zuldazar|N|Now that you're Honored you can purchase 2 Scouting Reports from the Emissary to unlock outposts. Next Campaign segment will be available at 3k into Honored.|PRE|51789|REP|The Honorbound;2157;honored;3000;true|
