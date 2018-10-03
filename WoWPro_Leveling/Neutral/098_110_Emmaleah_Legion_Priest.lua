@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3674
+-- Date: 2018-10-03 06:30
+-- Who: jovieve
+-- Log: Updated bad prereq that caused guide not to work. Removed some steps for artifact empowerment that are no longer available.
+
+-- URL: http://wow-pro.com/node/3674/revisions/29748/view
 -- Date: 2018-09-14 07:42
 -- Who: elidion
 -- Log: Updated the zone errors
@@ -185,7 +190,7 @@ C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take
 C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardian) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
 
-A Priestly Matters|QID|40705|PRE|43635|M|57.57,44.48|Z|Dalaran!Dalaran!Dungeon|N|From Hooded Priestess.| ; Needs PRE of 43635, not sure if still avail
+A Priestly Matters|QID|40705|PRE|44663+44184|M|57.57,44.48|Z|Dalaran!Dalaran!Dungeon|N|Wait a few seconds for Hooded Priestess to show up, then get this quest from her. | ; Does not need PRE of 43635, contrary to what Grail says. Quest
 R Chamber of the Guardian|QID|40705|M|49.44,47.54|CC|Z|Dalaran!Dalaran!Dungeon|N|In the middle of Dalaran.|ACTIVE|40705|
 C Priestly Matters|QID|40705|QO|1|M|28.66,77.50|Z|Aegwynn's Gallery@Dalaran70|NC|N|(Optional) Take the Portal to the Dalaran Crater, be ready with levitate or some other way to mitigate falling damage.|
 C Priestly Matters|QID|40705|QO|2|M|79.09,41.06|Z|Tirisfal Glades|CHAT|N|Meet with the priest at Faol's Rest in Tirisfal Glades.|
@@ -540,7 +545,7 @@ C The Nexus Vault|QID|41631|QO|1|M|59.55,20.28|Z|TheBeyond/1|T|Nexus-Prince Bila
 C A Will of Fire|QID|41631|SO|6|N|Step thru the portal and then go claim Light's Wrath. Heal snd shield yourself while seizing control of Light's Wrath.|;no coordinates. Its not on a map
 C Claim Light's Wrath|QID|41631|SO|7;1|NC|N|Claim Light's Wrath.|;no coordinates. Its not on a map
 C Leave the Nexus Vault|QID|41631|SO|7;2|M|59.22,20.41|Z|TheBeyond/1|NC|N|Leave the Nexus Vault via the Portal Azuregos creates for you.|
-T The Nexus Vault|QID|41631|M|28.60,49.89|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Kalec.|
+T The Nexus Vault|QID|41631|M|28.60,49.89|Z|Dalaran!Dalaran!Dungeon|N|After taking the portal Azuregos creates for you, turn in to Archmage Kalec.|
 A A Gift of Time|QID|41632|M|28.60,49.89|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Kalec.|PRE|41631|
 C A Gift of Time|QID|41632|M|51.61,47.81|CHAT|N|Talk to Alonsus Faol in Netherlight Temple.|LVL|102|
 T A Gift of Time|QID|41632|M|46.37,20.96|Z|Dalaran!Dalaran!Dungeon|N|To Alonsus Faol.|
@@ -598,12 +603,7 @@ C The Light and the Void|QID|40938|QO|3|M|49.66,49.16|NC|N|Listen to Alonsus Fao
 C The Light and the Void|QID|40938|QO|4|M|49.75,47.36|NC|N|Use your extra action button and stand still until the channelling bar finishes and the quest updates.|
 C The Light and the Void|QID|40938|QO|5|M|49.77,31.51|NC|N|Listen to the dialog and wait for the quest to update.|
 T The Light and the Void|QID|40938|M|48.76,48.33|N|To Alonsus Faol.|
-A Artifacts Need Artificers|QID|41015|M|48.76,48.33|N|From Alonsus Faol.|PRE|40938|
-T Artifacts Need Artificers|QID|41015|M|48.73,22.85|N|To Betild Deepanvil.|
-A Empowering Your Artifact|QID|41017|M|48.73,22.85|N|From Betild Deepanvil.|PRE|41015|
-C Empowering Your Artifact|QID|41017|M|49.70,21.44|N|Use the Altar of Light and Shadow to empower your artifact|
-T Empowering Your Artifact|QID|41017|M|48.81,22.92|N|To Betild Deepanvil.|
-A Actions on Azeroth|QID|41019|M|48.78,48.44|N|From Alonsus Faol.|PRE|41017|
+A Actions on Azeroth|QID|41019|M|48.78,48.44|N|From Alonsus Faol.|PRE|40938|
 A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|49.23,48.61|NA|N|From Command Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41019|
 T Actions on Azeroth|QID|41019|M|48.73,48.49|N|To Alonsus Faol.|
 C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|49.77,80.42|N|Take the portal back to Dalaran.|
