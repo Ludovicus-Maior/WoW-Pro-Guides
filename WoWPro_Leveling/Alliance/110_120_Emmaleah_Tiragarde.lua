@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-10-04 03:03
+-- Who: elidion
+-- Log: Fixed a few errors while running through the guide.
+
+-- URL: http://wow-pro.com/node/3769/revisions/29773/view
 -- Date: 2018-09-20 08:48
 -- Who: Emmaleah
 -- Log: Added Coords to Air Raid/Numbing the Pain/Farmers who Fight
@@ -314,7 +319,7 @@ A The Irontide Crew|QID|48558|M|80.19,75.26|N|From Flynn Fairwind.|PRE|48539|
 A The Beatings Will Continue|QID|48774|M|79.19,76.32|N|From Geraldine.|PRE|48539|RANK|2|
 A Rig Robbing|QID|48776|M|79.19,76.32|N|From Geraldine.|PRE|48539|RANK|2|
 C The Beatings Will Continue|QID|48774|M|78.21,76.27|S|N|Kill Irontide Ruffians and Overseers as you go.|
-C The Irontide Crew|QID|48774|M|78.21,76.27|S|N|Kill Irontide crew to collect Cutlasses from Cutthrots and powder horns from Trickshooters.|
+C The Irontide Crew|QID|48558|M|78.21,76.27|S|N|Kill Irontide crew to collect Cutlasses from Cutthrots and powder horns from Trickshooters.|
 K Dockmaster Marl|QID|48773|M|78.99,78.90|L|152722|T|Dockmaster Marl|N|Kill him and loot key.|
 C Papers, Please|QID|48773|M|79.16,78.78|NC|N|Open the chest and get the Dockmaster's Records.|
 A Loaded for Bear|QID|48606|M|78.60,77.85|N|From Azerite Cannonball up on the other platform.|PRE|48539|RANK|2|
@@ -332,7 +337,7 @@ T Papers, Please|QID|48773|M|80.36,81.47|N|To Flynn Fairwind.|
 T The Irontide Crew|QID|48558|M|80.36,81.47|N|To Flynn Fairwind.|
 
 A Dress to Impress|QID|49239|M|80.36,81.47|N|From Flynn Fairwind.|PRE|48558;48773|
-N Put the hat on|ACTIVE|49239|M|80.36,81.47|BUFF|-254873|N|Use your extra action button to wear the hat. Don't forget to reapply the hat if you lose the buff (like dieing).|
+N Put the hat on|ACTIVE|49239|M|80.36,81.47|BUFF|254873|N|Use your extra action button to wear the hat. Don't forget to reapply the hat if you lose the buff (like dieing).|
 A Aged to Perfection|QID|49290|M|79.70,81.86|N|From Roko.|PRE|48558;48773|RANK|2|
 C Dress to Impress|QID|49239|M|79.79,82.62|QO|1|CHAT|N|Speak with the Irontide Recruiter|
 C Dress to Impress|QID|49239|QO|2|M|77.33,84.15|NC|N|Enter the Dead Man's Tale|
