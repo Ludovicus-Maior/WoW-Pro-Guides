@@ -1779,7 +1779,6 @@ function WoWPro.NextStep(k,i)
 					expansion = strsub(expansion, 2)
 					flyFlip = true
 				end
-				print(expansion)
 				if expansion == "BFA" then 
 					spellKnown = false
 				elseif expansion == "LEGION" then 
