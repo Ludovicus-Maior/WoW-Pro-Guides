@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2018-10-04 03:02
+-- Who: elidion
+-- Log: Accuracy pass
+
+-- URL: http://wow-pro.com/node/3683/revisions/29850/view
 -- Date: 2018-09-28 20:44
 -- Who: elidion
 -- Log:  f steps.
@@ -367,7 +372,7 @@ A No Wings Required|QID|38318|PRE|38312|M|42.02,64.48|N|From Commander Lorna Cro
 A To Weather the Storm|QID|38405|PRE|38312|M|42.02,64.48|N|From Commander Lorna Crowley.|
 C No Wings Required|QID|38318|M|42.88,64.85|N|Click on the hook with the big Yellow Arrow and grapple over the wall.|
 A Assault the Drekirjar-Bonus Objective|QID|38374|M|42.88,64.85|N|Auto-accepted when you enter the area.|RANK|2|LVL|-109|
-C Assault the Drekirjar-Bonus Objective|QID|38374|M|42.88,64.85|S|N|Go about your quests to advance this objective.|RANK|2|
+C Assault the Drekirjar-Bonus Objective|QID|38374|M|42.88,64.85|S|NOCACHE|N|Go about your quests to advance this objective.|RANK|2|
 C Stormheim Savagery|QID|40179|M|42.88,64.85|Z|Stormheim|P|Leatherworking;165|S|N|Kill Vrykul to get the Bindings.|
 A Built to Scale|QID|38337|M|42.88,64.85|N|Kill a Stormwing Drake to get this quest from the UI.|
 C Built to Scale|QID|38337|M|42.88,64.85|S|N|Kill drakes and loot the 'Storm Drake Scales'.|
@@ -387,10 +392,10 @@ $ Small Treasure Chest|QID|38475|M|40.56,69.74;40.64,68.52|CS|N|Hook up to the t
 C Impalement Insurance|QID|38410|M|46.09,70.99|US|NC|N|Finish up destroying Harpoon Launchers.|
 C Built to Scale|QID|38337|M|46.25,70.37|US|N|Finish looting the 'Storm Drake Scales'.|
 C Stormheim Savagery|QID|40179|M|46.25,70.37|Z|Stormheim|P|Leatherworking;165|US|QO|1|N|Kill Vrykul to get the Bindings.|
-T Impalement Insurance|QID|38410|M|46.25,70.37|N|To Commander Lorna Crowley.|
 T Built to Scale|QID|38337|M|46.25,70.36|N|To Commander Lorna Crowley.|
+T Impalement Insurance|QID|38410|M|46.25,70.37|N|To Commander Lorna Crowley.|
 A Another Way|QID|38342|PRE|38410|M|46.25,70.37|N|From Commander Lorna Crowley.|
-C Assault the Drekirjar-Bonus Objective|QID|38374|M|46.24,72.39|US|N|Stay and finish if you want, or manually click it off.|RANK|2|
+C Assault the Drekirjar-Bonus Objective|QID|38374|M|46.24,72.39|US|NOCACHE|N|Stay and finish if you want, or manually click it off.|RANK|2|
 t Assault the Drekirjar-Bonus Objective|QID|38374|M|46.24,72.39|N|Auto turned in when complete.|RANK|2|
 K Another Way|ACTIVE|38342|M|46.24,72.39|QO|1|T|Gunnlaug Scaleheart|N|Kill Gunnlaug Scaleheart.|
 C Another Way|QID|38342|M|45.70,73.12|QO|2|N|Climb the Tower. Turn in at Top, BEFORE grappling across.|
@@ -447,7 +452,7 @@ A Only the Finest|QID|39793|PRE|39789|M|51.46,57.06|N|From Rax Sixtrigger.|RANK|
 A Rigging the Wager|QID|39787|PRE|39789|M|51.26,57.21|N|From Snaggle Sixtrigger.|RANK|2|
 R Nastrondir|ACTIVE|39793|M|43.82,53.69;40.81,50.21;42.41,39.01|CS|N|Run thru Stony Highlands, Past Valley of the Sword and into Nastrondir.|RANK|2|FLY|LEGION|
 A The Brood of Nithogg-Bonus Objective|QID|42431|LVL|-109|M|42.65,38.71|N|Auto Accepted upon entering the area.|RANK|2|
-C The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|S|N|Kill the drakes and pick up eggs to advance the objective.|RANK|2|
+C The Brood of Nithogg-Bonus Objective|QID|42431|M|42.65,38.71|S|N|Kill Drakes, crack eggs and the best way to finish this is to pick up rocks you find on the ground and throw them at the whelplings.|RANK|2|
 C Only the Finest|QID|39793|M|44.14,37.51|S|N|Kill goats to collect the patches of goat hair.|RANK|2|
 $ Small Treasure Chest|QID|43238|M|43.14,39.01;43.17,40.49|CS|N|Hook out to find chest, loot for treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|43240|M|44.06,37.88;44.99,38.24|CS|N|Use grapple points to get to this treasure. Loot for a bit of treasure and resources.|RANK|2|
@@ -512,6 +517,7 @@ C The Runewood's Revenge|QID|39788|M|67.68,58.02|QO|1|S|N|The Bonespeaker Runeax
 K Kill Urgev the Flayer|QID|38847|M|64.88,51.82|QO|1|ITEM|129219|T|Urgev the Flayer|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C The Runewood's Revenge|QID|39788|M|67.68,58.02|QO|1|N|Finish killing the Bonespeaker Runeaxe.|
 $ Small Treasure Chest|QID|40083|M|67.99,57.77|N|Loot fora bit of resources and treasure.|RANK|2|
+C Turn the Keys|QID|38778|M|68.53,51.57;65.24,53.32;67.28,56.51|CN|US|N|Click on the three runestones.|
 T Turn the Keys|QID|38778|M|68.48,54.31|N|To Vydhar.|
 T The Runewood's Revenge|QID|39788|M|68.48,54.31|N|To Vydhar.|
 A The Dreaming Fungus|QID|38810|PRE|38778;39788|M|68.48,54.31|N|From Vydhar.|
@@ -560,7 +566,7 @@ C The Final Judgment|QID|38818|M|73.12,40.06|N|Confront Runeseer Faljar.|
 T The Final Judgment|QID|38818|M|65.61,47.17|Z|Helheim|N|To Ashildir.|
 A Raze Hel-Bonus Objective|QID|38343|LVL|-109|M|65.61,47.17|Z|Helheim|N|Auto-accepted when you enter the area.|RANK|2|
 A An Unworthy Task|QID|39837|PRE|38818|M|65.61,47.17|Z|Helheim|N|From Ashildir.|
-C Raze Hel-Bonus Objective|QID|38343|M|65.61,47.17|Z|Helheim|S|N|Freeing captives and killing Kvaldir advance the objective.|
+C Raze Hel-Bonus Objective|QID|38343|M|65.61,47.17|Z|Helheim|S|NOCACHE|N|Freeing captives and killing Kvaldir advance the objective.|
 C An Unworthy Task|QID|39837|M|60.77,43.72|Z|Helheim|NC|N|Find Cooperative spirit.|
 T An Unworthy Task|QID|39837|M|64.56,43.43|Z|Helheim|N|To Colborn the Unworthy. When you open the door, he shows the "?", but it's hard catch him to turn in until he runs to new location.|
 A A Little Kelp From My Foes|QID|38339|PRE|39837|M|64.56,43.43|Z|Helheim|N|From Colborn the Unworthy.|
@@ -600,7 +606,7 @@ T Sundered|QID|39850|M|46.92,48.88|Z|Helheim|N|To Ashildir.|
 T Allies in Death|QID|39851|M|46.92,48.88|Z|Helheim|N|To Ashildir.|
 A Victory is Eternal|QID|39853|PRE|39850;39851|M|46.92,48.88|Z|Helheim|N|From Ashildir.|
 C Victory is Eternal|QID|39853|M|47.04,63.06|Z|Helheim|T|Geir|N|Kill Geir.|
-C Raze Hel-Bonus Objective|QID|38343|M|58.51,66.79|Z|Helheim|US|N|Stay and finish or click off manually.|
+C Raze Hel-Bonus Objective|QID|38343|M|58.51,66.79|Z|Helheim|US|NOCACHE|N|Stay and finish or click off manually.|
 t Raze Hel-Bonus Objective|QID|38343|M|58.51,66.79|Z|Helheim|N|Auto turned in when complete.|
 T Victory is Eternal|QID|39853|M|47.04,63.06|Z|Helheim|N|To Ashildir.|
 A Paid in Lifeblood|QID|39855|PRE|39853|M|47.04,63.06|Z|Helheim|N|From Ashildir.|
@@ -632,7 +638,7 @@ A To Skold-Ashil|QID|39062|PRE|39060;39061;39472|M|71.54,59.82|N|From Genn Greym
 T To Skold-Ashil|QID|39062|M|63.56,61.73|N|To Commander Lorna Crowley.|
 A Shielded Secrets|QID|39063|PRE|39062|M|63.56,61.73|N|From Commander Lorna Crowley.|
 A Assault on Skold-Ashil-Bonus Objective|QID|39119|LVL|-109|M|56.76,66.30|N|Auto-accepted when you enter the area.|
-C Assault on Skold-Ashil-Bonus Objective|QID|39119|M|56.76,66.30|S|N|Kill vrykal and destroy the weapon racks. There are also some shieldmaiden statues, you can click on the for a 10 minute buff Four differant buffs, so click all you see.|
+C Assault on Skold-Ashil-Bonus Objective|QID|39119|M|56.76,66.30|S|NOCACHE|N|Kill vrykal and destroy the weapon racks. There are also some shieldmaiden statues, you can click on the for a 10 minute buff Four differant buffs, so click all you see.|
 C Shielded Secrets|QID|39063|M|63.42,64.64|S|NC|N|Examine Engraved Shields, these are scattered all over the area.|
 A Stories of Battle|QID|39405|PRE|39062|M|58.56,64.21|N|From Verse of Ashilvara lying on the table.|
 C Stories of Battle|QID|39405|M|61.93,61.46|S|N|Kill pristesses of Eyir to loot Verses of Ashilvara.|
@@ -642,8 +648,6 @@ K Kill Isel the Hammer|QID|39120|M|62.02,60.48|QO|1|ITEM|129133|T|Isel the Hamme
 $ Treasure Chest|QID|40088|M|59.31,58.45|N|Loot for a bit of treasure and resources.|RANK|2|
 C Shielded Secrets|QID|39063|M|63.42,64.64|US|NC|N|Finish examining the Engraved Shields.|
 C Stories of Battle|QID|39405|M|61.93,61.46|US|N|Finish collecting the Verses of Ashilvara.|
-C Assault on Skold-Ashil-Bonus Objective|QID|39119|M|61.93,61.46|US|N|Finish this up or click it off manually.|
-t Assault on Skold-Ashil-Bonus Objective|QID|39119|M|61.93,61.46|N|Auto turned in when completed.|
 T Stories of Battle|QID|39405|M|61.93,61.46|N|To UI Alert.|
 T Shielded Secrets|QID|39063|M|60.59,65.08|N|To Commander Lorna Crowley.|
 A Becoming the Ascendant|QID|39092|PRE|39063|M|60.59,65.08|N|From Commander Lorna Crowley.|
@@ -665,6 +669,8 @@ f Hafr Fjall|ACTIVE|39792|M|52.53,80.11;52.95,82.02;53.58,85.33;55.66,87.46|CS|N
 $ Small Treasure Chest|QID|43190|M|59.14,87.18;53.19,93.12|CS|N|This is WAY down the trail. Loot or a bit of treasure and resources. Run back up to the flightpath the way you came.|RANK|3|
 F Greywatch|ACTIVE|39792|M|52.53,80.11|N|Fly to Greywatch then run back to Skold-Ashil, OR Click off this step and just run back down.|RANK|3|FLY|LEGION|
 R Skold-Ashil|ACTIVE|39092|M|60.96,73.55;60.19,72.11|CC|N|Run back to Skold-Ashil.|RANK|2|FLY|LEGION|
+C Assault on Skold-Ashil-Bonus Objective|QID|39119|M|61.93,61.46|US|NOCACHE|N|Finish this up or click it off manually.|
+t Assault on Skold-Ashil-Bonus Objective|QID|39119|M|61.93,61.46|N|Auto turned in when completed.|
 T Becoming the Ascendant|QID|39092|M|62.31,68.09|N|To Genn Greymane.|
 A Ending the New Beginning|QID|39122|PRE|39092|M|62.31,68.09|N|From Genn Greymane.|
 C Banshee Queen|QID|39122|N|Follow Greymane and see what the Banshee Queen is up to.|
