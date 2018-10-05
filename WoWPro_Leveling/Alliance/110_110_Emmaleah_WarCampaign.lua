@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-10-05 08:04
+-- Who: elidion
+-- Log: Accuracy Pass
+
+-- URL: http://wow-pro.com/node/3760/revisions/29860/view
 -- Date: 2018-10-01 07:42
 -- Who: Emmaleah
 -- Log: updated Nazmir foothold. few other minor adjustments.
@@ -252,14 +257,13 @@ t The War Cache|QID|52544|N|Turn in to UI when complete.|
 A Time for War|QID|53332|N|Auto accepted from UI.|PRE|52544|
 t Time for War|QID|53332|M|69.25,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Mission from the King|QID|51714|M|69.73,27.80|Z|Boralus|N|From Falstad Wildhammer.|PRE|53332|
-C Mission from the King|QID|51714|M|69.72,26.81|Z|Boralus|N|Follow him down the stairs.|
-T Mission from the King|QID|51714|M|69.72,26.81|Z|Boralus|N|To Master Mathias Shaw.|
-A War of Shadows|QID|51715|M|69.72,26.81|Z|Boralus|N|From Master Mathias Shaw.|PRE|51714|
-C War of Shadows|QID|51715|M|69.63,27.05|Z|Boralus|NC|N|Send Falstad on a mission, yes, even tho it is a 3 person mission. Check this off manually, to move on before the mission completes in 2 hours.|
-t War of Shadows|QID|51715|M|69.72,26.81|Z|Boralus|N|To Master Mathias Shaw.|
-A Reinforcements|QID|53074|M|69.72,26.81|Z|Boralus|N|From Master Mathias Shaw.|PRE|51715|
-C Reinforcements|QID|53074|M|69.72,26.81|Z|Boralus|N|Place a work order (or 4) for reinforcements with Master Mathias Shaw.|
-T Reinforcements|QID|53074|M|69.72,26.81|Z|Boralus|N|To Master Mathias Shaw.|
+T Mission from the King|QID|51714|M|70.70,27.10|Z|Boralus|N|To Master Mathias Shaw.|
+A War of Shadows|QID|51715|M|70.70,27.10|Z|Boralus|N|From Master Mathias Shaw.|PRE|51714|
+C War of Shadows|QID|51715|M|70.55,27.19|Z|Boralus|NC|N|Send Falstad on "The Shadow War" mission, and come back in 2 hours. Check off this step manually if you want to begin the Zandalar campaign.|
+t War of Shadows|QID|51715|M|70.70,27.10|Z|Boralus|N|To Master Mathias Shaw.|
+A Reinforcements|QID|53074|M|70.70,27.10|Z|Boralus|N|From Master Mathias Shaw.|PRE|51715|
+C Reinforcements|QID|53074|M|70.70,27.10|Z|Boralus|N|Place a work order (or 4) for reinforcements with Master Mathias Shaw.|
+T Reinforcements|QID|53074|M|70.70,27.10|Z|Boralus|N|To Master Mathias Shaw.|
 
 ; Foothold quest intro
 A The Zandalar Campaign.|QID|51569|M|69.25,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|51714|
@@ -270,6 +274,9 @@ t Foothold: Vol'dun|QID|51572|M|69.25,27.00|Z|Boralus|N|To UI Alert.|
 T The Zandalar Campaign.|QID|51569|M|69.25,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 
 ;Level 114 Foothold
+A Adapting Our Tactics|QID|53583|M|70.65,27.39|Z|Boralus|N|From Alleria Windrunner.|
+C Adapting Our Tactics|QID|53583|M|70.65,27.39|Z|Boralus|QO|1|N|Choose an upgrade: 40 percent off your hearthstone cooldown or 20 percent mount speed for 5 minutes after landing.|
+T Adapting Our Tactics|QID|53583|M|70.65,27.39|Z|Boralus|N|To Alleria Windrunner.|
 A Deeper Into Zandalar|QID|53052|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|LVL|114|O|
 T Deeper Into Zandalar|QID|53052|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A The Ongoing Campaign|QID|51961|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|LVL|114|PRE|51569|
@@ -378,7 +385,7 @@ C Granting a Reprieve|QID|51190|M|79.11,53.96|Z|Zuldazar|S|N|Kill the Horde on t
 C Save Them All|QID|51191|M|79.11,53.96|Z|Zuldazar|S|NC|N|Click on the injured sailors to heal them as you go.|
 C A Lack of Surplus|QID|51192|M|79.11,53.96|Z|Zuldazar|S|NC|N|Pick up bundles of supplies as you go.|
 C Disarming the Cannons|QID|51544|M|83.27,54.64|Z|Zuldazar|NC|N|Click on the rope to board the ship and then destroy the cannons.|
-K Major Hawkins|QID|51193|ACTIVE|51193|QO|1|M|81.92,51.18|Z|Zuldazar|N|Kill Major Hawkins and loot his hammer.|T|Major Alan Hawkins|
+K Major Hawkins|ACTIVE|51193|QO|1|M|81.92,51.18|Z|Zuldazar|N|Kill Major Hawkins and loot his hammer.|T|Major Alan Hawkins|
 C A Lack of Surplus|QID|51192|M|79.11,53.96|Z|Zuldazar|US|NC|N|Finish collecting the bundles of supplies.|
 C Save Them All|QID|51191|M|79.11,53.96|Z|Zuldazar|US|NC|N|Finish up healing the injured sailors.|
 C Granting a Reprieve|QID|51190|M|79.11,53.96|Z|Zuldazar|US|N|Finish your quota of killing Horde.|
@@ -419,7 +426,7 @@ T Dubious Offering|QID|51129|M|31.15,46.70|Z|Nazmir|N|To Brann Bronzebeard.|
 A Blood of Hir'eek|QID|51167|M|31.15,46.70|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51129|
 A Honoring the Fallen|QID|51150|M|31.15,46.70|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51129|
 C Honoring the Fallen|QID|51150|M|31.12,47.11|Z|Nazmir|S|NC|N|Click on the alliance corpses to retrieve their dog tags.|
-K Blood Witch Pakkala|ACTIVE|51167|M|29.13,46.54|Z|Nazmir|T|Blood Witch Pakkala|N|Kill Blood Witch Pakkala.|
+K Blood Witch Pakkala|ACTIVE|51167|QO|1|M|29.13,46.54|Z|Nazmir|T|Blood Witch Pakkala|N|Kill Blood Witch Pakkala.|
 C Honoring the Fallen|QID|51150|M|31.12,47.11|Z|Nazmir|S|NC|N|Finish recovering dog tags.|
 T Blood of Hir'eek|QID|51167|M|31.15,46.71|Z|Nazmir|N|To Brann Bronzebeard.|
 T Honoring the Fallen|QID|51150|M|31.15,46.71|Z|Nazmir|N|To Brann Bronzebeard.|
@@ -430,7 +437,7 @@ A Flight from the Fall|QID|51169|M|30.47,47.32|Z|Nazmir|N|From Brann Bronzebeard
 C Flight from the Fall|QID|51169|M|31.11,47.90|Z|Nazmir|NC|N|Hop on a bat to be flown to Fort Victory.|
 T Flight from the Fall|QID|51169|M|62.03,41.60|Z|Nazmir|N|To Brann Bronzebeard.|
 A Zul'Nazman|QID|51281|M|62.03,41.60|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51169|
-h Fort Victory|ACTIVE|51281|M|61.96,40.77|N|Unless you like long runs thru troll infested swamps, setting your hearthstone is recomended at Priestess Islara.|
+h Fort Victory|ACTIVE|51281|M|61.96,40.77|Z|Nazmir|N|Unless you like long runs thru troll infested swamps, setting your hearthstone is recomended at Priestess Islara.|
 R Koramar|ACTIVE|51281|M|58.12,45.31;55.01,46.48;53.70,49.79;50.27,49.56|Z|Nazmir|CS|N|Brann could at least run with you and help you find the way, but no.|
 T Zul'Nazman|QID|51281|M|49.97,50.92|Z|Nazmir|N|To Brann Bronzebeard.|
 A Nazmani Cultists|QID|51279|M|49.97,50.92|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51281|
@@ -444,7 +451,7 @@ A Captain Conrad|QID|51282|M|45.70,57.47|Z|Nazmir|N|From Brann Bronzebeard.|PRE|
 T Captain Conrad|QID|51282|M|44.95,58.59;45.00,57.15|CS|Z|Nazmir|N|To Captain Conrad.|
 A Lessons of the Damned|QID|51177|M|45.00,57.15|Z|Nazmir|N|From Captain Conrad.|PRE|51282|
 C Lessons of the Damned|QID|51177|M|45.70,59.72|Z|Nazmir|NC|QO|1|N|Listen to Captain Conrad and then follow her.|
-K Captain Conrad|QID|51177|M|45.53,59.83|Z|Nazmir|QO|2|T|Captain Conrad|N|Kill Captain Conrad when she becomes hostile.|
+K Captain Conrad|ACTIVE|51177|M|45.53,59.83|Z|Nazmir|QO|2|T|Captain Conrad|N|Kill Captain Conrad when she becomes hostile.|
 H Fort Victory|ACTIVE|51177|M|45.53,59.83|Z|Nazmir|N|Return to Fort Victory. May even be easier if your hearthstone is set to Boralus.|
 T Lessons of the Damned|QID|51177|M|62.02,41.61|Z|Nazmir|N|To Brann Bronzebeard. Yes if you didn't set your hearthstone, you have to run back thru (or preferably around) all those trolls.|
 A Champion: John J. Keeshan|QID|52013|M|61.78,41.33|Z|Nazmir|N|From John Keeshan.|PRE|51177|
