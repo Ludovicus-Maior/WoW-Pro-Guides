@@ -1817,7 +1817,16 @@ function WoWPro.NextStep(k,i)
 				end
 			end
 		end
-			
+	if WoWPro.recipe and WoWPro.recipe[k] then
+    	    WoWPro:dbp("Step %d Recipe %s",k,WoWPro.recipe[k])
+    	    if WoWProCharDB.Trades and WoWPro:AllIDsInTable(WoWPro.recipe[k],WoWProCharDB.Trades) then
+        	    local why = string.format("recipe #%d %s/%d is known: %s",k,WoWPro.step[k],WoWPro.recipe[k],tostring(WoWProCharDB.Trades[WoWPro.recipe[k]]))
+        	    WoWPro.CompleteStep(k, why)
+        		skip = true
+        		WoWPro:dbp(why)
+        		break
+        	end
+        end	
     	-- This tests for spells that are cast on you and show up as buffs
     	if WoWPro.buff and WoWPro.buff[k] then
     	    local buffy = WoWPro:CheckPlayerForBuffs(WoWPro.buff[k])
