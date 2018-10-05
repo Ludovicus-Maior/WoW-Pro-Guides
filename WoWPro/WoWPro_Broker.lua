@@ -1769,11 +1769,16 @@ function WoWPro.NextStep(k,i)
 			end
     	end
     	
-	if WoWPro.fly and WoWPro.fly[k] then
+		if WoWPro.fly and WoWPro.fly[k] then
 			if WoWProCharDB.EnableFlight or WoWPro.action[k] == "R" then
 				local expansion = WoWPro.fly[k]
 				local spellName
 				local spellKnown
+				local flyFlip = false
+				if (strsub(expansion, 1, 1) == "-") then 
+					expansion = strsub(expansion, 2)
+					flyFlip = true
+				end
 				if expansion == "BFA" then 
 					spellKnown = false
 				elseif expansion == "LEGION" then 
@@ -1797,17 +1802,22 @@ function WoWPro.NextStep(k,i)
 						spellName = mSkill
 					end
 				end
+				if flyFlip then spellKnown = not spellKnown end
 				WoWPro:dbp("Checking fly step %s [%s] for %s: Nomen %s, Known %s",WoWPro.action[k],WoWPro.step[k],WoWPro.fly[k],tostring(spellName),tostring(spellKnown))
 				if spellKnown then
-					local why = string.format("Skipping because flight spell [%s] is known=%s",spellName, tostring(not not spellKnown))
+					local why
+					if (flyFlip) then
+						why = string.format("Skipping because flight spell is not known=%s", tostring(not not spellKnown))
+					else
+						why = string.format("Skipping because flight spell [%s] is known=%s",spellName, tostring(not not spellKnown))
+					end
 					WoWPro.CompleteStep(k, why)
 					skip = true
 					WoWPro:dbp(why)
 				end
 			end
 		end
-			
-    	if WoWPro.recipe and WoWPro.recipe[k] then
+	if WoWPro.recipe and WoWPro.recipe[k] then
     	    WoWPro:dbp("Step %d Recipe %s",k,WoWPro.recipe[k])
     	    if WoWProCharDB.Trades and WoWPro:AllIDsInTable(WoWPro.recipe[k],WoWProCharDB.Trades) then
         	    local why = string.format("recipe #%d %s/%d is known: %s",k,WoWPro.step[k],WoWPro.recipe[k],tostring(WoWProCharDB.Trades[WoWPro.recipe[k]]))
@@ -1816,8 +1826,7 @@ function WoWPro.NextStep(k,i)
         		WoWPro:dbp(why)
         		break
         	end
-        end
-        
+        end	
     	-- This tests for spells that are cast on you and show up as buffs
     	if WoWPro.buff and WoWPro.buff[k] then
     	    local buffy = WoWPro:CheckPlayerForBuffs(WoWPro.buff[k])
