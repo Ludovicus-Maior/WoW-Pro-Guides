@@ -180,6 +180,10 @@ local wip_map_info = {}
 local wip_group_info = {}
 local wip_name_info = {}
 
+function WoWPro.DebugZones()
+  return {wip_map_info, wip_group_info, wip_name_info}
+end
+
 function WoWPro.EmitZones()
     local result = ""
     for id, info in pairs(wip_map_info) do
@@ -325,16 +329,16 @@ function WoWPro.ProcessMapAndKids(id)
     end
 
     -- If we have a collision, then try to apply some heuristics.
-    if wip_name_info[nomen] then
-        if map_info.parentMapID > 0 then
-            -- If we collide here, we must have different parents: i.e. Shadowmoon.
-            local daddy = wip_map_info[map_info.parentMapID].name
-            nomen = nomen .. "!" .. daddy
+    if wip_name_info[nomen] and (wip_name_info[nomen] ~= id) then
+        if map_info.parentMapID > 0 and wip_map_info[wip_name_info[nomen]] and (map_info.parentMapID ~= wip_map_info[wip_name_info[nomen]].parentMapID) then
+            -- If we get here, we must have different parents: i.e. Shadowmoon.
+            local daddy = wip_map_info[map_info.parentMapID]
+            nomen = nomen .. "!" .. daddy.name
             if not wip_name_info[nomen] then
                 WoWPro:dbp("ProcessMapAndKids(%d): %s => %s",id, map_info.name, nomen)
                 map_info.nick = nomen
             else
-                WoWPro:Error("ProcessMapAndKids(%d): %s collided.", id, nomen)
+                WoWPro:Error("ProcessMapAndKids(%d): Unwanted step child %s collided with %d.", id, nomen, wip_name_info[nomen])
                 return
             end
         elseif map_info.mapType == 4 then
@@ -344,7 +348,7 @@ function WoWPro.ProcessMapAndKids(id)
                 WoWPro:dbp("ProcessMapAndKids(%d): %q => %q",id, map_info.name, nomen)
                 map_info.nick = nomen
             else
-                WoWPro:Error("ProcessMapAndKids(%d): %q collided.", id, nomen)
+                WoWPro:Error("ProcessMapAndKids(%d): Dungeon %q collided with %d.", id, nomen, wip_name_info[nomen])
                 return
             end
         elseif map_info.mapType == 6 then
@@ -354,7 +358,7 @@ function WoWPro.ProcessMapAndKids(id)
                 WoWPro:dbp("ProcessMapAndKids(%d): %q => %q",id, map_info.name, nomen)
                 map_info.nick = nomen
             else
-                WoWPro:Error("ProcessMapAndKids(%d): %q collided.", id, nomen)
+                WoWPro:Error("ProcessMapAndKids(%d): Instance %q collided with %d.", id, nomen, wip_name_info[nomen])
                 return
             end
         else
@@ -371,7 +375,12 @@ function WoWPro.ProcessMapAndKids(id)
     if children and #children > 0 then
         for i = 1, #children do
             map_info.children[i] = children[i].mapID
-            wip_name_info[children[i].name] = children[i].mapID  -- Force early collisions
+            if wip_name_info[children[i].name] then
+                -- Force early collisions, invalidate for everyone
+                wip_name_info[children[i].name] = -1
+            else
+                wip_name_info[children[i].name] = children[i].mapID
+            end
         end
     end
     table.sort(map_info.children)
@@ -418,7 +427,7 @@ end
 
 function WoWPro.Functionalize()
     WoWPro:Print("WoWPro:Functionalize(): 0")
-    WoWPro.GenerateMapCache()
+    WoWPro.NewGenerateMapCache()
     WoWPro:Print("WoWPro:Functionalize(): 1")
     WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("WoWPro Maps","Hit escape to dismiss")
     local LogBox = WoWPro.LogBox
