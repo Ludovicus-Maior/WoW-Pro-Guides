@@ -1673,59 +1673,115 @@ function WoWPro.NextStep(k,i)
         
         -- Skipping Achievements if completed  --
     	if WoWPro.ach and WoWPro.ach[k] then
-			local achtbl = { string.split("+",WoWPro.ach[k]) }
+			local achtbl
+			local achor = true
+			local andtbl = { string.split("+",WoWPro.ach[k]) }
+			if (#andtbl > 1) then
+				achtbl = andtbl
+				achor = false
+			else
+				achtbl = { string.split("^",WoWPro.ach[k]) }
+			end
+			local achcheck = false
+			local why
 			for akey, aval in pairs(achtbl) do
 				local achnum, achitem, achflip = string.split(";",aval)
 				achflip = WoWPro.toboolean(achflip) 
-				local count = GetAchievementNumCriteria(achnum)
 				if achitem == "" then achitem = nil end
-				if count == 0 or not achitem then
-					local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(achnum)
+				if not achitem then
+					local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch, wasEarnedByMe = GetAchievementInfo(achnum)
 					WoWPro:dbp("ACH %s wasEarnedByMe=%s, Flip=%s", achnum, tostring(wasEarnedByMe), tostring(achflip))
 					if achflip then wasEarnedByMe = not wasEarnedByMe end
-					if wasEarnedByMe then
-						if akey == #achtbl then
-							if not achflip then
-								WoWPro.CompleteStep(k, "NextStep(): Achivement ["..Name.."] Complete.") 
+					if wasEarnedByMe then 
+						if achflip then
+							if achor then -- Achivement not complete. So we should skip, but can't skip right away in case another achievment reaches it
+								why = "NextStep(): Skipping flipped OR Step, Achivement ["..Name.."] Not Complete."
+								achcheck = true
+							else -- Achivement not complete. On a flipped AND, we need to check earlier than the last one because we want it to skip if you haven't completed an achievement.
+								why = "NextStep(): Skipping flipped AND Step, Achivement ["..Name.."] Not Complete."
+								achcheck = true
+								break
 							end
-							skip = true
-						elseif achflip then
-							skip = true
-							break
+						else
+							if achor then -- Achievement complete. OR should skip as soon as it finds a match
+								why = "NextStep(): Skipping OR Step, Achivement ["..Name.."] Complete."
+								achcheck = true
+								break
+							else -- Achievement complete. AND only cares if the last one is good 
+								if akey == #achtbl then
+									why = "NextStep(): Skipping AND Step, Achivement ["..Name.."] Complete."
+									achcheck = true
+									break
+								end
+							end
 						end
 					else
 						if achflip then
-							WoWPro.why[k] = "NextStep(): Achivement ["..Name.."] complete but flipped."
+							if achor then -- Achivement complete. On a flipped OR we want it to display if the achievement is complete so we break the loop here.
+								why = "NextStep(): Displaying flipped OR Step, Achivement ["..Name.."] Complete."
+								achcheck = false
+								break
+							end -- Achivement complete. On a flipped AND we continue to show and process the loop to keep checking others
 						else
-							WoWPro.why[k] = "NextStep(): Achivement ["..Name.."] not complete."
-							break
+							if not achor then -- Achievement not complete. AND steps need to break and display because it found an achievement not complete.
+								why = "NextStep(): Displaying AND Step, Achivement ["..Name.."] Not Complete."
+								break
+							end -- Achievement not complete. OR steps continue to show and process the loop to keep checking others
 						end
 					end 
-				elseif (count > 0) and achitem then
-					local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
-					WoWPro:dbp("ACH %s/%s Completed=%s, Flip=%s", achnum, achitem, tostring(Completed), tostring(achflip))
-					if achflip then completed = not completed end
-					if completed then
-						if akey == #achtbl then
-							if not achflip then
-								WoWPro.CompleteStep(k, "NextStep(): Criteria ["..description.."] Complete.")
-							end
-							skip = true
-						elseif achflip then
-							skip = true
-							break
-						end
-					else
-						if achflip then
-							WoWPro.why[k] = "NextStep(): Criteria ["..description.."] complete but flipped."
-						else
-							WoWPro.why[k] = "NextStep(): Criteria ["..description.."] not complete."
-							break;
-						end
-					end
 				else
-					WoWPro:Error("Malformed Achievement tag on step %d: Ach [%s] AchCount %d",k,WoWPro.ach[k],count)
+					local count = GetAchievementNumCriteria(achnum)
+					if tonumber(achitem) <= count then
+						local description, type, completed = GetAchievementCriteriaInfo(achnum, achitem)
+						WoWPro:dbp("ACH %s/%s Completed=%s, Flip=%s", achnum, achitem, tostring(Completed), tostring(achflip))
+						if achflip then completed = not completed end
+						if completed then
+							if achflip then
+								if achor then
+									why = "NextStep(): Skipping flipped OR Step, Criteria ["..description.."] Not Complete."
+									achcheck = true
+								else
+									why = "NextStep(): Skipping flipped AND Step, Criteria ["..description.."] Not Complete."
+									achcheck = true
+									break
+								end
+							else
+								if achor then
+									why = "NextStep(): Skipping OR Step, Criteria ["..description.."] Complete."
+									achcheck = true
+									break
+								else
+									if akey == #achtbl then
+										why = "NextStep(): Skipping AND Step, Criteria ["..description.."] Complete."
+										achcheck = true
+										break
+									end
+								end
+							end
+						else
+							if achflip then
+								if achor then 
+									why = "NextStep(): Displaying flipped OR Step, Criteria ["..description.."] Complete."
+									achcheck = false
+									break
+								end 
+							else
+								if not achor then
+									why = "NextStep(): Displaying AND Step, Criteria ["..description.."] Not Complete."
+									break
+								end 
+							end
+						end 
+					else
+						WoWPro:Error("Malformed Achievement tag on step %d: Ach [%s] AchCount %d",k,WoWPro.ach[k],count)
+					end
 				end
+			end
+			if achcheck then
+				WoWPro.CompleteStep(k, why)
+				skip = true
+			else
+				WoWPro.why[k] = why
 			end
     	end
     	
