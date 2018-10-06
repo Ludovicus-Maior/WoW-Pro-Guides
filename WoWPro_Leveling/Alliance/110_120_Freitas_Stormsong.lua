@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-10-06 02:53
+-- Who: Emmaleah
+-- Log: Various tweaks to rank 2/3
+
+-- URL: http://wow-pro.com/node/3767/revisions/29829/view
 -- Date: 2018-09-24 18:16
 -- Who: Emmaleah
 -- Log: added QIDs per Ikibewn (from pre 120 rare kills)
@@ -254,11 +259,6 @@
 -- Who: Emmaleah
 -- Log: Correct per error checker 7/31/18
 
--- URL: http://wow-pro.com/node/3767/revisions/29450/view
--- Date: 2018-07-27 18:41
--- Who: Ludovicus_Maior
--- Log: V3 from Lemmer
-
 local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong Valley', 'MateusFreitas', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 111)
 WoWPro:GuideAutoSwitch(guide)
@@ -483,7 +483,7 @@ f Shrine of the Storm|ACTIVE|50733|M|78.32,28.85|N|From Galeheart.|
 F Mildenhall Meadery|ACTIVE|51582|M|78.32,28.85|N|Fly back to Mildenhall.|RANK|2|
 T Make it Mildenhall|QID|51582|M|68.88,65.16|N|To Ancel Mildenhall.|
 A Mayhem at Mildenhall Meadery|QID|50343|M|68.88,65.16|N|From Ancel Mildenhall.|RANK|2|
-C Mayhem at Mildenhall Meadery|QID|50343|M|68.49,67.60|N|Run up the hill.|
+C Mayhem at Mildenhall Meadery|QID|50343|M|68.49,67.60|NC|N|Run up the hill.|
 T Mayhem at Mildenhall Meadery|QID|50343|M|68.49,67.60|N|Ancel will be up beside you.|
 A Detective Mildenhall|QID|50070|M|68.49,67.60|N|From Ancel Mildenhall.|RANK|2|PRE|50343|
 A Cleanup Duty|QID|50359|M|68.49,67.60|N|From Ancel Mildenhall.|RANK|2|PRE|50343|
@@ -492,29 +492,29 @@ C Honey Soaked Boot|QID|50070|QO|1<1|M|68.52,69.00|NC|N|Pick up the boot in the 
 C Misplaced Flask|QID|50070|QO|1<2|M|67.92,70.94|NC|N|Pick up the flask on the barrel.|
 $ Honey Vat|QID|50576|M|66.48,71.17|N|Click the honey vat for zome azerite resources and enjoy the nod to Winnie.|RANK|2|
 C Rough Map|QID|50070|QO|1<3|M|69.22,70.75|NC|N|Pick up the map.|
-C Brewmaster's Treatise Vol. 1|QID|50070|QO|1<4|M|69.15,69.32|N|Pick up the book on the table.|
-C Crystalized Honey Fragment|QID|50070|QO|1<5|M|70.82,69.66|N|Pick up the honey inside the house.|
+C Brewmaster's Treatise Vol. 1|QID|50070|QO|1<4|M|69.15,69.32|NC|N|Pick up the book on the table.|
+C Crystalized Honey Fragment|QID|50070|QO|1<5|M|70.82,69.66|NC|N|Pick up the honey inside the house.|
 C Cleanup Duty|QID|50359|M|68.49,67.60|US|N|Finish up the killing.|
 T Detective Mildenhall|QID|50070|M|70.79,69.61|N|To Ancel Mildenhall.|
 T Cleanup Duty|QID|50359|M|70.79,69.61|N|To Ancel Mildenhall.|
 A Don't Go in the Basement|QID|50064|M|70.79,69.61|N|From Ancel Mildenhall.|RANK|2|PRE|50070;50359|
-C Don't Go in the Basement|QID|50064|M|70.75,69.15;70.81,69.08|CN|QO|1|N|Go down in the basement and click on the barrel.|
-C Don't Go in the Basement|QID|50064|M|70.79,69.61|QO|2|N|Kill the Brue.|
+C Don't Go in the Basement|QID|50064|QO|1|M|70.75,69.15;70.81,69.08|CS|NC|N|Go down in the basement and click on the barrel.|
+K The Brue|QID|50064|M|70.79,69.61|QO|2|T|The Brue|N|Kill the Brue.|
 T Don't Go in the Basement|QID|50064|M|71.04,69.25|N|To Ancel Mildenhall.|
 A Recovering Raimond|QID|50161|M|71.04,69.25|N|From Ancel Mildenhall.|RANK|2|PRE|50064|
-C Recovering Raimond|QID|50161|M|71.63,67.99|QO|1|N|Back outside. Pick up the other boot.|
-C First Journal Page|QID|50161|QO|2<1|M|72.42,68.6|N|Pick up first journal page from the ground.|
-C Second Journal Page|QID|50161|M|72.32,70.56|QO|2<2|N|Pick up the second page.|
-C Last Journal Page|QID|50161|M|73.37,72.27|QO|2<3|N|Pick up the third page.|
+C Recovering Raimond|QID|50161|M|71.63,67.99|QO|1|NC|N|Back outside. Pick up the other boot.|
+C First Journal Page|QID|50161|QO|2<1|M|72.42,68.6|NC|N|Pick up first journal page from the ground.|
+C Second Journal Page|QID|50161|M|72.32,70.56|QO|2<2|NC|N|Pick up the second page.|
+C Last Journal Page|QID|50161|M|73.37,72.27|QO|2<3|NC|N|Pick up the third page.|
 T Recovering Raimond|QID|50161|M|74.12,72.72|N|To Raimond Mildenhall in the cave.|
 A Royal Succession|QID|50168|M|74.12,72.72|N|From Raimond Mildenhall.|RANK|2|PRE|50161|
 A Sticky Situation|QID|50162|M|74.12,72.72|N|From Raimond Mildenhall.|RANK|2|PRE|50161|
 C Sticky Situation|QID|50162|M|73.29,72.30|S|N|Click on the hives and kill bees on your way.|
-C Royal Succession|QID|50168|M|74.77,71.43|N|Kill the Queen inside the cave.|
-C Sticky Situation|QID|50162|M|73.29,72.30|US|N|Finish up with the hives and bees.|
+K Hive Mother|QID|50168|QO|1|M|74.77,71.43|T|Hive Mother|N|Kill the Queen inside the cave.|
+C Sticky Situation|QID|50162|M|73.16,70.23|US|N|Finish up with the hives and bees.|
 T Royal Succession|QID|50168|M|74.12,72.72|N|To Raimond Mildenhall.|
 T Sticky Situation|QID|50162|M|74.12,72.72|N|To Raimond Mildenhall.|
-A Honey Glazed Sam|QID|50504|M|74.13,72.74|N|From Unknown.|RANK|2|PRE|50162;50168|
+A Honey Glazed Sam|QID|50504|M|74.13,72.74|N|From Raimond Mildenhall.|RANK|2|PRE|50162;50168|
 C Honey Glazed Sam|QID|50504|M|72.81,72.25|N|Free Sam from the honey.|
 T Honey Glazed Sam|QID|50504|M|72.81,72.25|N|To Sam.|
 A Free the Farmhands|QID|50264|M|72.81,72.25|N|From Sam Robinson.|RANK|2|PRE|50504|
@@ -522,12 +522,12 @@ A Fetching Wrex|QID|50493|M|72.81,72.25|N|From Sam Robinson.|RANK|2|PRE|50504|
 A The Bee Team|QID|50165|M|72.81,72.24|N|From Raimond Mildenhall.|RANK|2|PRE|50504|
 A Wendigo Away|QID|50534|M|72.81,72.24|N|From Raimond Mildenhall.|RANK|2|PRE|50504|
 C Free the Farmhands|QID|50264|M|71.52,71.80|QO|1|S|NC|N|Rescue farmers from the hives.|
-C The Bee Team|QID|50165|M|71.52,71.80|S|N|Kill Highlands Maulers and Honey-Crazed Maulers.|
+C The Bee Team|QID|50165|M|71.52,71.80|U|157851|S|N|Kill Highlands Maulers and Honey-Crazed Maulers.|
 C Fetching Wrex|QID|50493|M|68.71,72.91|S|NC|N|Stay along the foot of the mountain to the southwest and check inside caves for small honey globs until you find Wrex.|
 K Bonerender|ACTIVE|50534|QO|1|M|65.83,78.70|T|Bonerender|N|Kill Bonerender.|
 C Fetching Wrex|QID|50493|M|66.30,75.89;66.93,77.79;68.04,78.55;69.11,76.53;70.93,75.01|CS|US|NC|N|Continue checking caves for honey globs and Wrex.|
 C Free the Farmhands|QID|50264|M|71.52,71.80|US|NC|N|Finish freeing farmers.|
-C The Bee Team|QID|50165|M|71.52,71.80|US|N|Finish killing Highlands Maulers and Honey-Crazed Maulers.|
+C The Bee Team|QID|50165|M|71.52,71.80|US|U|157851|N|Finish killing Highlands Maulers and Honey-Crazed Maulers.|
 T Free the Farmhands|QID|50264|N|To Raimond Mildenhall, who is beside you.|
 T Fetching Wrex|QID|50493|N|To Raimond Mildenhall.|
 T The Bee Team|QID|50165|N|To Raimond Mildenhall.|
@@ -535,8 +535,6 @@ T Wendigo Away|QID|50534|O|N|To Raimond Mildenhall.|
 A Back to the Lab|QID|50553|N|From Raimond Mildenhall, who should still be next to you.|RANK|2|PRE|50534;50264;50165;50493|
 T Back to the Lab|QID|50553|M|70.75,69.18|N|Back to the basement "lab".|
 H The Golden Flagon|TZ|Brennadam|ACTIVE|51552|M|68.55,65.00|N|Hearth or fly back to Brennadam.\n\nGive Wrex a pat if you want. It doesn't do anything, but it makes you feel good.|
-
-A Ruin Has Come|QID|50417|M|59.50,68.34|LVL|120|N|If you are level 120, you can pick up this quest from A Crumbled Letter inside the house if you want. It starts the Forgotten Cove storyline. This storyline has daily requirements and is not mentioned again in this guide.|RANK|2|
 
 ; Briarback Kraul
 T The Days Are Just Packed|QID|51552|M|57.60,66.38|N|To Sergeant Calvin.|
@@ -572,12 +570,12 @@ A Raiders of the Lost Crop|QID|51310|M|54.95,67.99|N|From Farmer Max.|RANK|2|
 R The Amber Waves|ACTIVE|51310|M|58.16,67.69;52.27,69.64;55.52,68.09|CS|N|Run over to the farmland. (or feel free to take the direct route thru the Horde)|RANK|2|
 A Grain Drain|QID|51314|M|54.95,67.99|N|From Farmer Max.|RANK|2|
 C Raiders of the Lost Crop|QID|51310|M|53.76,68.19|N|Kill the orcs in the fields all around you.|S|
-C Grain Drain|QID|51314|M|53.76,68.19|N|Pick up the grain.|
+C Grain Drain|QID|51314|M|53.76,68.19|NC|N|Pick up the grain.|
 C Raiders of the Lost Crop|QID|51310|M|53.76,68.19|N|Finish killing orcs.|US|
-T Raiders of the Lost Crop|QID|51310|M|54.95,67.99|N|To Farmer Max|
-T Grain Drain|QID|51314|M|57.61,66.41|N|To Farmer Max|
-$ Strange Mushroom Ring|QID|50024|M|53.69,72.00|N|At the very bottom of this cave. When you try to loot the chest, five mushrooms will try to kill you. Kill them first, then loot the chest.|RANK|2|RARE|
-K Jakala the Cruel|QID|52323|QO|1|M|53.41,64.50|T|Jakala the Cruel|N|In the basement. Speak with Doc Marrtens to start the event. Silver Elite to kill for loot and achievement.|RARE|ITEM|159179|RANK|2|
+T Raiders of the Lost Crop|QID|51310|M|54.95,67.99|N|To Farmer Max.|
+T Grain Drain|QID|51314|M|57.61,66.41|N|To Farmer Max.|
+$ Strange Mushroom Ring|QID|50024|M|53.69,72.00;53.07,69.38|CS|N|At the very bottom of this cave. When you go into the circle, five mushrooms will try to kill you. Kill them first, then loot the chest.|RANK|2|RARE|
+K Jakala the Cruel|QID|52323|QO|1|M|53.41,64.50|T|Jakala the Cruel|N|Go into the cellar. Speak with Doc Marrtens to start the event. Silver Elite to kill for loot and achievement.|RARE|ITEM|159179|RANK|2|
 R Burton Farmstead|ACTIVE|50158|M|58.16,67.69;52.27,69.64;51.78,66.25|CS|N|And we are off to check out the collapse.|RANK|-1|
 T Checking Out the Collapse|QID|50158|M|51.59,65.97|N|To Farmer Burton|
 A Weed Whacking|QID|50133|M|51.59,65.97|N|Bonus Objective - Autoaccepted.|LVL|-120|RANK|2|
@@ -654,7 +652,7 @@ C Finish Freeing Farmers|QID|50353|QO|1<7|M|47.00,70.22|NC|N|Final farmers down 
 C Look Out!|QID|50354|M|42.50,67.69|US|N|Finish killing Briarback Lookouts.|
 T Look Out!|QID|50354|M|45.88,70.12;46.01,73.88;46.59,74.04|CS|N|Head up to the top to turn in to Sergeant Calvin.|
 T Boaring Company|QID|50353|M|46.65,73.86|N|To Sergeant Calvin.|
-T Totems, Totems, Totems!|QID|50111|M|46.65,73.86|N|To Calvin.|
+T Totems, Totems, Totems!|QID|50111|M|46.65,73.86|N|To Sergeant Calvin.|AVAILABLE|50365;50363|
 A War Pigs|QID|50363|M|46.65,73.86|N|From Sergeant Calvin.|PRE|50354;50353|
 A Run For the Hills|QID|50365|M|46.65,73.86|N|From Sergeant Calvin.|PRE|50354;50353|
 A Steal Them Back|QID|50340|M|46.31,77.03|N|Grab this one from the crate over to the left.|RANK|2|
@@ -667,7 +665,8 @@ C Run For the Hills|QID|50365|M|44.86,77.33|QO|2|NC|N|The Central Stockpile is i
 C Steal Them Back|QID|50340|QO|1<5|M|42.72,78.85|NC|N|Another crate here if you need one more.|
 C War Pigs|QID|50363|M|46.65,73.86|US|N|Finish collecting pigs.|
 C Anger in a Bottle|QID|50367|M|44.60,73.78|US|N|Keep killing Briarbacks until you have 10 foul-smelling samples.|
-T Steal Them Back|QID|50340|M|46.65,73.82|N|Back to Sergeant Calvin.|
+T Steal Them Back|QID|50340|M|46.65,73.82|N|Back to Sergeant Calvin.|ACTIVE|50363;50365|
+T Totems, Totems, Totems!|QID|50111|M|46.65,73.86|N|To Sergeant Calvin.|ACTIVE|50365;50363|
 T War Pigs|QID|50363|M|46.65,73.86|N|To Sergeant Calvin.|
 T Run For the Hills|QID|50365|M|46.65,73.86|N|To Sergeant Calvin.|
 T Anger in a Bottle|QID|50367|M|46.65,73.82|N|To Sergeant Calvin.|
@@ -733,7 +732,6 @@ A Mighty Grokkfist|QID|51209|M|36.20,74.73|N|From Charles Davenport.|RANK|2|PRE|
 C Wheat A Minute|QID|51208|M|36.16,75.43|S|N|Loot flour from the ground along the way.|
 C Mighty Grokkfist|QID|51209|M|38.77,72.90|U|160063|N|Kill Grokkfist, use the rats to help you.|
 C WANTED: Thundersnout|QID|49730|M|41.06,72.82|N|Head over to this cave to kill Thundersnout.  Solo'able by decently geared toons.|
-K Ragna|QID|51774;50725|QO|1|M|41.50,74.12|T|Ragna|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|160465|RANK|2|
 K Haegol the Hammer|QID|52463;52460|QO|1|M|35.16,77.86|T|Haegol the Hammer|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|154273|RANK|2|
 C Wheat A Minute|QID|51208|M|36.16,75.43|US|N|Finish picking up flour.|
 C Ettin It Done|QID|51207|M|36.16,75.43|US|N|Finish killing ettins.|
@@ -839,9 +837,12 @@ T Deadliest Cache: Carpe Diem|QID|52130|M|25.99,55.21|N|To Hook.|
 ; $ Weathered Treasure Chest|QID|99999|M|65.37,11.74;66.92,12.03|CS|N|Underground cave hidden in trees.|RANK|3|
 
 H The Golden Flagon|TZ|Brennadam|ACTIVE|49908|M|34.26,47.18|N|Hearth to Brennadam or run back to the flight point and fly there.|RANK|2|
+A Ruin Has Come|QID|50417|M|59.50,68.34|LVL|120|N|If you are level 120, you can pick up this quest from A Crumbled Letter inside the house if you want. It starts the Forgotten Cove storyline. This storyline has daily requirements and is not mentioned again in this guide.|RANK|2|ACTIVE|49908|
 T Back to Brennadam|QID|49908|M|59.51,69.94|N|To Squire Augustus III|RANK|2|
 T A Question of Quillpower|QID|50640|M|58.63,70.44|N|To Mayor Roz.|RANK|2|
 t WANTED: Thundersnout|QID|49730|M|58.63,70.43|N|To Mayor Roz.|RANK|2|
+T Totems, Totems, Totems!|QID|50111|M|57.61,66.41|N|To Sergeant Calvin.|
+T Steal Them Back|QID|50340|M|57.61,66.41|N|To Sergeant Calvin.|
 
 ; sidequest Jeweled Coast
 F Fort Daelin|ACTIVE|49832|N|Fly back to Fort Daelin.|RANK|2|
