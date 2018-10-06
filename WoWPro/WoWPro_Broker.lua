@@ -1685,11 +1685,15 @@ function WoWPro.NextStep(k,i)
 			local achcheck = false
 			local why
 			for akey, aval in pairs(achtbl) do
-				local achnum, achitem, achflip = string.split(";",aval)
-				achflip = WoWPro.toboolean(achflip) 
+				local achnum, achitem, achflip, achall = string.split(";",aval)
+				achflip = WoWPro.toboolean(achflip)
+				achall = WoWPro.toboolean(achall) 
 				if achitem == "" then achitem = nil end
 				if not achitem then
 					local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch, wasEarnedByMe = GetAchievementInfo(achnum)
+					if achall then
+						wasEarnedByMe = Completed
+					end
 					WoWPro:dbp("ACH %s wasEarnedByMe=%s, Flip=%s", achnum, tostring(wasEarnedByMe), tostring(achflip))
 					if achflip then wasEarnedByMe = not wasEarnedByMe end
 					if wasEarnedByMe then 
