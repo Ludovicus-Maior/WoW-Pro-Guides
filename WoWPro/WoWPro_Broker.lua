@@ -884,7 +884,7 @@ function WoWPro:RowUpdate(offset)
 		if item then
 		    local nomen = row.lootsbutton:SetItemByID(item)
 		    if note ~= "" then
-		        note = nomen .. ":\n" .. note
+		        note = "Drops " .. nomen .. ":\n" .. note
 		    else
 		        note = nomen
 		    end
