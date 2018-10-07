@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-10-06 23:27
+-- Who: Emmaleah
+-- Log: fix weathered treasure that it appears I had overwritten with my last edit.
+
+-- URL: http://wow-pro.com/node/3767/revisions/29876/view
 -- Date: 2018-10-06 02:53
 -- Who: Emmaleah
 -- Log: Various tweaks to rank 2/3
@@ -253,11 +258,6 @@
 -- Date: 2018-08-11 23:17
 -- Who: Lemmer
 -- Log: Major rewrite for final playtesting
-
--- URL: http://wow-pro.com/node/3767/revisions/29459/view
--- Date: 2018-08-01 07:29
--- Who: Emmaleah
--- Log: Correct per error checker 7/31/18
 
 local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong Valley', 'MateusFreitas', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 111)
@@ -834,10 +834,11 @@ C Deadliest Cache: Carpe Diem|QID|52130|M|26.35,52.83|QO|2|N|Light the Northern 
 C Deadliest Cache: Carpe Diem|QID|52130|M|26.26,54.57|QO|4|N|Use the spyglass on the dock.|
 C Deadliest Cache: Carpe Diem|QID|52130|M|26.26,54.57|QO|5|N|Use your ability when the whale gets to you.|
 T Deadliest Cache: Carpe Diem|QID|52130|M|25.99,55.21|N|To Hook.|
-; $ Weathered Treasure Chest|QID|99999|M|65.37,11.74;66.92,12.03|CS|N|Underground cave hidden in trees.|RANK|3|
 
+$ Weathered Treasure Chest|QID|51499|M|65.37,11.74;66.92,12.03|CS|N|Go in the underground cave hidden in trees on this remote island to find treasure.|RANK|3|
 H The Golden Flagon|TZ|Brennadam|ACTIVE|49908|M|34.26,47.18|N|Hearth to Brennadam or run back to the flight point and fly there.|RANK|2|
 A Ruin Has Come|QID|50417|M|59.50,68.34|LVL|120|N|If you are level 120, you can pick up this quest from A Crumbled Letter inside the house if you want. It starts the Forgotten Cove storyline. This storyline has daily requirements and is not mentioned again in this guide.|RANK|2|ACTIVE|49908|
+
 T Back to Brennadam|QID|49908|M|59.51,69.94|N|To Squire Augustus III|RANK|2|
 T A Question of Quillpower|QID|50640|M|58.63,70.44|N|To Mayor Roz.|RANK|2|
 t WANTED: Thundersnout|QID|49730|M|58.63,70.43|N|To Mayor Roz.|RANK|2|
