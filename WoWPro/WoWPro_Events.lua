@@ -516,10 +516,14 @@ WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
 
 -- Lets see what quests the NPC has:
 WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function (event,...)
-    WoWPro.QuestDialogActive = event
-    WoWPro.RegisterAllEvents()
-    WoWPro.QuestCount = 0
-    C_Timer.After(WoWProDB.global.QuestEngineDelay, function() WoWPro.GOSSIP_SHOW_PUNTED(event.."PUNTED"); end)
+    if not WoWPro.QuestDialogActive then
+        WoWPro.RegisterAllEvents()
+        WoWPro.QuestCount = 0
+        WoWPro.QuestDialogActive = event
+        C_Timer.After(WoWProDB.global.QuestEngineDelay, function() WoWPro.GOSSIP_SHOW_PUNTED(event.."PUNTED"); end)
+    else
+        WoWPro:print("GOSSIP_SHOW while %s was active: suppressed.", WoWPro.QuestDialogActive)
+    end
     end)
 
 function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
@@ -689,7 +693,7 @@ function WoWPro.QUEST_DETAIL_PUNTED(event,...)
         end
     end
 
-	if (WoWPro.action[qidx] == "A" and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*")) or WoWPro:QIDsInTable(WoWPro.QID[qidx],WoWPro.QuestLog) then
+	if (WoWPro.action[qidx] == "A") and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*" or WoWPro:QIDsInTable(WoWPro.QID[qidx],WoWPro.QuestLog)) then
 	    WoWPro:dbp("Accepted %d: %s [%s], QID %s",qidx, event, questtitle,tostring(WoWPro.QID[qidx]))
 	    if  WoWPro.QID[qidx] == "*" then
 	        if WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
@@ -708,6 +712,7 @@ function WoWPro.QUEST_DETAIL_PUNTED(event,...)
 	    end
 	    WoWPro.QuestStep = nil
 	else
+	    DeclineQuest()
 	    WoWPro:dbp("Rejected %d: %s [%s], QID %s",qidx, event, questtitle,tostring(WoWPro.QID[qidx]))
 	end
 end
