@@ -1688,7 +1688,7 @@ function WoWPro.NextStep(k,i)
 				local achnum, achitem, achflip, achall = string.split(";",aval)
 				achflip = WoWPro.toboolean(achflip)
 				achall = WoWPro.toboolean(achall) 
-				if achitem == "" then achitem = nil end
+				if achitem == "" or achitem == "0" then achitem = nil end
 				if not achitem then
 					local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch, wasEarnedByMe = GetAchievementInfo(achnum)
 					if achall then
