@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2018-10-09 04:48
+-- Who: Emmaleah
+-- Log: more rank 2/3 changes to the end of the zone... also fix weathered treasure QID typo :(
+
+-- URL: http://wow-pro.com/node/3767/revisions/29877/view
 -- Date: 2018-10-06 23:27
 -- Who: Emmaleah
 -- Log: fix weathered treasure that it appears I had overwritten with my last edit.
@@ -254,11 +259,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Add missing CS| tag to Step C [Terror of the Kraul:50368]
 
--- URL: http://wow-pro.com/node/3767/revisions/29493/view
--- Date: 2018-08-11 23:17
--- Who: Lemmer
--- Log: Major rewrite for final playtesting
-
 local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong Valley', 'MateusFreitas', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 111)
 WoWPro:GuideAutoSwitch(guide)
@@ -457,6 +457,8 @@ C Eye of the Storm|QID|50784|M|69.91,36.13|CHAT|N|Tell Tideguard Victoria you're
 T Eye of the Storm|QID|50784|M|69.89,36.14|N|To Brother Pike.|
 A A Bridge Too Far|QID|50781|M|69.89,36.14|N|From Brother Pike.|PRE|50784|
 C A Bridge Too Far|QID|50781|M|70.33,36.14|NC|N|Stand on the purple rune and use the extra action button.|
+$ Weathered Treasure Chest|QID|51449|M|65.37,11.74;66.92,12.03|CS|N|Run to a rather remote island and then find an underground cave hidden in trees to find treasure.|RANK|3|
+
 T A Bridge Too Far|QID|50781|M|70.33,36.14|N|To Brother Pike.|
 A Lost and Forgotten|QID|51278|M|70.33,36.14|N|From Brother Pike.|PRE|50781|
 A Sealed Fate|QID|51320|M|73.61,37.70|N|From Brother Pike.|PRE|50781|
@@ -684,26 +686,26 @@ K Poacher Zane|QID|52469|QO|1|M|34.64,67.98|T|Poacher Zane|RARE|ITEM|163036|N|Si
 f Millstone Hamlet|M|30.80,66.60|ACTIVE|51218|N|Pick up the flight point from Alexa Davenport.|
 T Undelivered Package|QID|51218|M|30.34,66.81|N|To Marie Davenport.|
 A Be A Dear|QID|51214|M|30.34,66.81|N|From Marie Davenport.|RANK|2|
-C Be A Dear|QID|51214|M|29.79,67.05|QO|3|N|Grab some logs here.|
-A Gunpowder Plot|QID|51492|M|29.81,67.10|N|From Charles Davenport.|RANK|2|PRE|51476|
-A Aww, Rats|QID|51205|M|29.81,67.10|N|From Charles Davenport.|RANK|2|PRE|51476|
-A Basement Dwellers|QID|51251|M|29.81,67.10|N|From Charles Davenport.|RANK|2|PRE|51476|
+C Be A Dear|QID|51214|M|29.79,67.05|QO|3|NC|N|Grab some logs here.|
+A Gunpowder Plot|QID|51492|M|29.81,67.10|N|From Charles Davenport.|RANK|2|
+A Aww, Rats|QID|51205|M|29.81,67.10|N|From Charles Davenport.|RANK|2|
+A Basement Dwellers|QID|51251|M|29.81,67.10|N|From Charles Davenport.|RANK|2|
 A WANTED: Razorclaw Alpha|QID|51204|M|30.69,68.14|N|From the bulletin board.|RANK|2|
 A WANTED: Thundersnout|QID|49730|M|30.69,68.14|N|From the bulletin board.|RANK|2|
-C Be A Dear|QID|51214|M|30.67,67.60|QO|1|N|Grab the water here.|
-A Cry Wolf|QID|51203|M|31.85,69.52|N|From Shepherd Milbrooke.|RANK|2|PRE|51493|
-A The Black Sheep|QID|51200|M|31.85,69.52|N|From Shepherd Milbrooke.|RANK|2|PRE|51493|
+C Be A Dear|QID|51214|M|30.67,67.60|QO|1|NC|N|Grab the water here.|
+A Cry Wolf|QID|51203|M|31.85,69.52|N|From Shepherd Milbrooke.|RANK|2|PRE|
+A The Black Sheep|QID|51200|M|31.85,69.52|N|From Shepherd Milbrooke.|RANK|2|PRE|
 C Cry Wolf|QID|51203|M|30.20,72.21|S|N|Kill the razorclaws as you go about the area.|
 K Razorclaw Alpha|ACTIVE|51204|QO|1|M|27.30,76.28;28.01,78.07|CS|T|Razorclaw Alpha|N|In the cave up on the hill.|
-C The Black Sheep|QID|51200|M|26.55,75.36|N|Save Millie.|
+C The Black Sheep|QID|51200|M|26.55,75.36|NC|N|Save Millie.|
 C Cry Wolf|QID|51203|M|30.20,72.21|US|N|Finish up.|
 C Basement Dwellers|QID|51251|M|28.64,71.17|S|N|Kill spiders around the area.|
-C Aww, Rats|QID|51205|M|28.37,66.74|U|159882|S|N|Click on the small rats to collect them. You can use the item to stun them.|
+C Aww, Rats|QID|51205|M|28.37,66.74|U|159882|S|NC|N|Click on the small rats to collect them. You can use the item to stun them.|
 C Gunpowder Plot|QID|51492|M|28.37,66.74|S|N|Kill the big rats for gunpowder.|
-C Be A Dear|QID|51214|M|29.27,69.65|QO|2|N|Grab the flour here.|
+C Be A Dear|QID|51214|M|29.27,69.65|QO|2|NC|N|Grab the flour here.|
 K Broodmother|QID|51298|QO|1|M|29.51,69.57|T|Broodmother|N|In the basement. Silver Elite to kill for loot and achievement.|RARE|ITEM|160470|RANK|2|
 C Basement Dwellers|QID|51251|M|28.64,71.17|US|N|Finish with spiders.|
-C Aww, Rats|QID|51205|M|28.37,66.74|U|159882|US|N|Finish collecting small rats.|
+C Aww, Rats|QID|51205|M|28.37,66.74|U|159882|US|NC|N|Finish collecting small rats.|
 C Gunpowder Plot|QID|51492|M|28.37,66.74|US|N|Finish killing Volatile Rats.|
 T The Black Sheep|QID|51200|M|31.85,69.52|N|To Shepherd Milbrooke|
 T Cry Wolf|QID|51203|M|31.85,69.52|N|To Shepherd Milbrooke.|
@@ -711,17 +713,17 @@ t WANTED: Razorclaw Alpha|QID|51204|M|31.85,69.52|N|To Shepherd Milbrooke.|
 T Aww, Rats|QID|51205|M|29.81,67.10|N|To Charles Davenport.|
 T Basement Dwellers|QID|51251|M|29.81,67.10|N|To Charles Davenport.|
 T Be A Dear|QID|51214|M|30.34,66.81|N|To Marie Davenport.|
-T Gunpowder Plot|QID|51492|M|29.81,67.10|N|To Charles Davenport.|
-A Milking Goats|QID|51215|M|30.34,66.80|N|From Marie Davenport.|RANK|2|PRE|51493|
+T Gunpowder Plot|QID|51492|M|30.34,66.81|N|To Marie Davenport.|
+A Milking Goats|QID|51215|M|30.34,66.80|N|From Marie Davenport.|PRE|51214|
 $ Curious Grain Sack|QID|53652|M|32.91,69.66|N|Located on shelves on backside of windmill.|RANK|2|
 $ Curious Grain Sack|QID|53635|M|32.15,66.24|N|Inside the house in a barrel.|RANK|2|
-C Milking Goats|QID|51215|M|33.71,69.95|S|U|159782|N|Milk the Mother Goats around the edges of the ettin camp. Note you can do this while mounted.  If you milk the male goats, they kick you.|
-K Severus the Outcast|QID|52315|QO|1|M|22.15,72.83|RARE|ITEM|163679|T|Severus the Outcast|N|Silver Elite to kill for loot and achievement.|RANK|2|
+C Milking Goats|QID|51215|M|33.71,69.95|S|NC|N|Milk the Mother Goats around the edges of the ettin camp. Note you can do this while mounted.  If you milk the male goats, they kick you.|
+K Severus the Outcast|QID|52315;50938|QO|1|M|22.15,72.83|RARE|ITEM|163679|T|Severus the Outcast|N|Silver Elite to kill for loot and achievement.|RANK|2|
 $ Ancient Tidesage Scroll|ACH|13051;3|M|31.94,72.95|N|Examine the scroll here (for later achieve).|RANK|2|
 C Milking Goats|QID|51215|M|33.71,69.95|US|NC|N|Finish milking Mother Goats.|
 T Milking Goats|QID|51215|M|30.34,66.80|N|To Marie Davenport.|
 A Cookies and Cream|QID|51335|M|30.34,66.80|N|From Marie Davenport.|RANK|2|PRE|51215|
-C Cookies and Cream|QID|51335|M|30.38,66.89|N|Sit in the chair and enjoy.|
+C Cookies and Cream|QID|51335|M|30.38,66.89|NC|N|Sit in the chair, click the cookies and milk. Enjoy!|
 T Cookies and Cream|QID|51335|M|30.34,66.80|N|To Marie Davenport.|
 A Ettin It Done|QID|51207|M|30.33,66.81|N|From Marie Davenport.|RANK|2|PRE|51335|
 A Cookie Delivery|QID|51504|M|30.33,66.81|N|From Marie Davenport.|RANK|2|PRE|51335|
@@ -732,6 +734,7 @@ A Mighty Grokkfist|QID|51209|M|36.20,74.73|N|From Charles Davenport.|RANK|2|PRE|
 C Wheat A Minute|QID|51208|M|36.16,75.43|S|N|Loot flour from the ground along the way.|
 C Mighty Grokkfist|QID|51209|M|38.77,72.90|U|160063|N|Kill Grokkfist, use the rats to help you.|
 C WANTED: Thundersnout|QID|49730|M|41.06,72.82|N|Head over to this cave to kill Thundersnout.  Solo'able by decently geared toons.|
+K Ragna|QID|51774;50725|QO|1|M|41.50,74.12|T|Ragna|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|160465|RANK|2|
 K Haegol the Hammer|QID|52463;52460|QO|1|M|35.16,77.86|T|Haegol the Hammer|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|154273|RANK|2|
 C Wheat A Minute|QID|51208|M|36.16,75.43|US|N|Finish picking up flour.|
 C Ettin It Done|QID|51207|M|36.16,75.43|US|N|Finish killing ettins.|
@@ -803,45 +806,47 @@ C From the Depths|QID|49831|M|34.11,54.88|N|If you are here by yourself, you can
 T From the Depths|QID|49831|M|34.11,54.88|N|To Commander Kellam.|
 A Back to Brennadam|QID|49908|M|34.10,54.87|N|From Commander Kellam.|PRE|49831|
 A Surveying the Wharf|QID|53045|M|34.77,47.47|N|From Lieutenant Harris.|RANK|2|
-A More Fodder|QID|52069|M|33.21,45.59|N|From William.|RANK|2|
+A More Fodder|QID|52069|M|33.21,45.59|N|From William.|LEAD|50810|
 T Surveying the Wharf|QID|53045|M|26.01,55.23|N|To Coxswain all the way at the top of the 'ship' building.|
 
 ; sidequest - Deadliest Cache
 A Deadliest Cache: Reel Big Fish|QID|50376|M|26.01,55.23|N|From Coxswain Hook.|RANK|2|
-C Deadliest Cache: Reel Big Fish|QID|50376|M|26.01,55.23|QO|1|N|Coxswain Hook has a story.|
-C Deadliest Cache: Reel Big Fish|QID|50376|M|26.00,55.22|QO|2|N|Use ability 3 to leap to a group, ability 2 to stun them and ability 1 to finish killing.|
+C Deadliest Cache: Reel Big Fish|QID|50376|M|26.01,55.23|QO|1|CHAT|N|Coxswain Hook has a story.|
+C Deadliest Cache: Reel Big Fish|QID|50376|M|26.00,55.22|QO|2|N|Use abilities:\n(3) to leap to a group.\n(2) to stun them.\n(1) to finish killing.|
 C Deadliest Cache: Reel Big Fish|QID|50376|M|26.28,52.75|QO|3|N|Kill Tidemaw the same way you did the others.|
 T Deadliest Cache: Reel Big Fish|QID|50376|M|26.00,55.22|N|To Hook.|
 A Deadliest Cache: Gun Fishin'|QID|50391|M|25.91,55.17|N|From Master Gunner Line.|RANK|2|
-C Deadliest Cache: Gun Fishin'|QID|50391|M|25.91,55.17|QO|1|N|Talk to Master Gunner.|
-C Deadliest Cache: Gun Fishin'|QID|50391|M|25.91,55.21|QO|2|N|Pick up the 'rod' next to you.|
+C Deadliest Cache: Gun Fishin'|QID|50391|M|25.91,55.17|QO|1|CHAT|N|Talk to Master Gunner.|
+C Deadliest Cache: Gun Fishin'|QID|50391|M|25.91,55.21|QO|2|NC|N|Pick up the 'rod' next to you.|
 C Deadliest Cache: Gun Fishin'|QID|50391|M|25.95,54.55|QO|3|S|N|Along the way, click 3 cannons on the dock.|
-C Deadliest Cache: Gun Fishin'|QID|50391|M|26.46,54.29|QO|4|N|Go do some 'fishing'.  Use ability 1 to pull groups and then ability 2 to blow them up.|
-C Deadliest Cache: Gun Fishin'|QID|50391|M|25.95,54.55|QO|3|US|N|Along the way, click 3 cannons on the dock.|
+C Deadliest Cache: Gun Fishin'|QID|50391|M|26.46,54.29|QO|4|N|Go do some 'fishing'. Abilities:\n(1)pull groups.\n(2)blow them up.|
+C Deadliest Cache: Gun Fishin'|QID|50391|M|25.95,54.55|QO|3|US|N|Finiah up the cannons on the dock.|
 C Deadliest Cache: Gun Fishin'|QID|50391|M|25.03,54.24|QO|5|N|Kill the big tentacles with your ability 1.|
 C Deadliest Cache: Gun Fishin'|QID|50391|M|25.03,54.24|QO|6|N|Big mob, big bullet.|
 T Deadliest Cache: Gun Fishin'|QID|50391|M|25.91,55.17|N|To Master Gunner|
 A Deadliest Cache: Sink and Swim|QID|50418|M|25.84,55.24|N|From "Sinker".|RANK|2|
-C Deadliest Cache: Sink and Swim|QID|50418|M|25.84,55.24|QO|1|N|"Talk" to Sinker.|
-C Deadliest Cache: Sink and Swim|QID|50418|M|25.97,55.13|QO|2|N|Use ability 1 on the blue spot.|
-C Deadliest Cache: Sink and Swim|QID|50418|M|25.84,55.23|QO|3|N|Go mount the laser dolphin.  For the next phase - drop a bomb (ability #2) on the three idols (on minimap).  #1 shoot s a laser - kill 15 fish. #3 is swim speed. |
-C Deadliest Cache: Sink and Swim|QID|50418|M|25.84,55.23|N|Drop a bomb (ability 2) on the three idols, and kill 15 fish (ability 1). |
+C Deadliest Cache: Sink and Swim|QID|50418|M|25.84,55.24|QO|1|CHAT|N|"Talk" to Sinker.|
+C Deadliest Cache: Sink and Swim|QID|50418|M|25.97,55.13|QO|2|NC|N|Use ability 1 on the blue spot.|
+C Deadliest Cache: Sink and Swim|QID|50418|M|25.84,55.23|QO|3|NC|N|Go mount the laser dolphin.
+C Deadliest Cache: Sink and Swim|QID|50418|M|25.84,55.23|QO|4|S|N|For the next phase - your abilities are:\n(1)shoot laser - kill fish.\n(2)drop a bomb.\n(3)Swim faster.|
+C Deadliest Cache: Sink and Swim|QID|50418|M|22.74,50.23|QO|5|N|Drop a bomb (ability 2) on the western idol.|
+C Deadliest Cache: Sink and Swim|QID|50418|M|25.43,48.26|QO|6|N|Drop a bomb (ability 2) on the southern idol.|
+C Deadliest Cache: Sink and Swim|QID|50418|M|23.52,46.29|QO|7|N|Drop a bomb (ability 2) on the eastern idol.|
+C Deadliest Cache: Sink and Swim|QID|50418|M|23.52,46.29|QO|4|US|N|Finish up shooting fish.|
 T Deadliest Cache: Sink and Swim|QID|50418|M|25.84,55.23|N|To "Sinker"|
 A Deadliest Cache: Carpe Diem|QID|52130|M|26.01,55.22|N|From Coxswain Hook.|RANK|2|
-C Deadliest Cache: Carpe Diem|QID|52130|M|26.01,55.22|QO|1|N|Talk to Hook.|
-C Deadliest Cache: Carpe Diem|QID|52130|M|25.03,54.28|QO|3|N|Light the Southern Fire.|
-C Deadliest Cache: Carpe Diem|QID|52130|M|26.35,52.83|QO|2|N|Light the Northern Fire.|
-C Deadliest Cache: Carpe Diem|QID|52130|M|26.26,54.57|QO|4|N|Use the spyglass on the dock.|
-C Deadliest Cache: Carpe Diem|QID|52130|M|26.26,54.57|QO|5|N|Use your ability when the whale gets to you.|
+C Deadliest Cache: Carpe Diem|QID|52130|M|26.01,55.22|QO|1|CHAT|N|Talk to Hook.|
+C Deadliest Cache: Carpe Diem|QID|52130|M|25.03,54.28|QO|3|NC|N|Light the Southern Fire. Stay and kill the attackers or run off as you choose.|
+C Deadliest Cache: Carpe Diem|QID|52130|M|26.35,52.83|QO|2|NC|N|Light the Northern Fire. Stay and kill the attackers or run off as you choose.|
+C Deadliest Cache: Carpe Diem|QID|52130|M|26.26,54.57|QO|4|NC|N|Use the spyglass on the dock. Stay and kill the attackers or run off as you choose.|
+C Deadliest Cache: Carpe Diem|QID|52130|M|26.26,54.57|QO|5|NC|N|Use your ability when the whale gets to you. Let the naga beat on you if necesary, you can no longer damage them.|
 T Deadliest Cache: Carpe Diem|QID|52130|M|25.99,55.21|N|To Hook.|
-
-$ Weathered Treasure Chest|QID|51499|M|65.37,11.74;66.92,12.03|CS|N|Go in the underground cave hidden in trees on this remote island to find treasure.|RANK|3|
 H The Golden Flagon|TZ|Brennadam|ACTIVE|49908|M|34.26,47.18|N|Hearth to Brennadam or run back to the flight point and fly there.|RANK|2|
-A Ruin Has Come|QID|50417|M|59.50,68.34|LVL|120|N|If you are level 120, you can pick up this quest from A Crumbled Letter inside the house if you want. It starts the Forgotten Cove storyline. This storyline has daily requirements and is not mentioned again in this guide.|RANK|2|ACTIVE|49908|
 
+A Ruin Has Come|QID|50417|M|59.50,68.34|LVL|120|N|If you are level 120, you can pick up this quest from A Crumbled Letter inside the house if you want. It starts the Forgotten Cove storyline. This storyline has daily requirements and is not mentioned again in this guide.|RANK|2|ACTIVE|49908|
 T Back to Brennadam|QID|49908|M|59.51,69.94|N|To Squire Augustus III|RANK|2|
 T A Question of Quillpower|QID|50640|M|58.63,70.44|N|To Mayor Roz.|RANK|2|
-t WANTED: Thundersnout|QID|49730|M|58.63,70.43|N|To Mayor Roz.|RANK|2|
+t WANTED: Thundersnout|QID|49730|M|58.63,70.43|N|To Mayor Roz.|
 T Totems, Totems, Totems!|QID|50111|M|57.61,66.41|N|To Sergeant Calvin.|
 T Steal Them Back|QID|50340|M|57.61,66.41|N|To Sergeant Calvin.|
 
@@ -854,58 +859,58 @@ T An Illegible Scroll|QID|49832|M|40.67, 45.61|N|To Scrollsage Nola.|
 A Cleaning Bills|QID|51339|M|40.67,45.61|N|From Scrollsage Nola.|RANK|2|
 A Swimming Lessons|QID|51343|M|40.67,45.61|N|From Scrollsage Nola.|RANK|2|PRE|49832|
 A Don't Play with Matches|QID|51352|M|40.60,45.41|N|From Toki.|RANK|2|
-C Don't Play with Matches|QID|51352|M|39.69,41.30|S|N|Mobs along the beach. Avoid standing near barrels or oily water when fighting them, unless you like burning.|
-C Cleaning Bills|QID|51339|M|39.69,41.30|S|N|Clean the birds up.|
-C Swimming Lessons|QID|51343|M|38.68,44.57|QO|3|N|Next to the ship.|
-C Swimming Lessons|QID|51343|M|38.71,39.34|QO|1|N|Inside the cave.|
+C Don't Play with Matches|QID|51352|M|39.69,41.30|S|N|Mobs are along the beach. Avoid standing near barrels or oily water when fighting them, unless you like burning.|
+C Cleaning Bills|QID|51339|M|39.69,41.30|S|NC|N|Clean the birds up. (preferably after killing the nearby mobs!)|
+C Swimming Lessons|QID|51343|M|38.68,44.57|QO|3|NC|N|Next to the mast of the partially buried ship.|
+C Swimming Lessons|QID|51343|M|38.71,39.34|QO|1|NC|N|Inside the cave.|
 K Seabreaker Skoloth|QID|51759;51757|QO|1|M|33.64,37.93|T|Seabreaker Skoloth|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|160477|RANK|2|;I think there's a time later in the guide when you're standing right next to this guy, anyway. It would be more efficient to kill him then.
-C Swimming Lessons|QID|51343|M|34.35,36.41|QO|2|N|On the island.|
+C Swimming Lessons|QID|51343|M|34.35,36.41|QO|2|NC|N|On the island.|
 K Sabertron|QID|51978;51956|QO|1|M|34.91,32.58|T|Sabertron|N|Inside the cave. Silver Elite to kill for loot and achievement.|RARE|ITEM|154664|RANK|2|
 $ Legends of the Tidesages|ACH|13051;4|M|35.46,32.52;33.81,33.23|CS|N|Run up above Sabertron's cave.|
 C Don't Play with Matches|QID|51352|M|39.69,41.30|US|N|Finish up with mobs.|
-C Cleaning Bills|QID|51339|M|39.69,41.30|US|N|Finish up with the birds.|
+C Cleaning Bills|QID|51339|M|39.69,41.30|US|NC|N|Finish up with the birds.|
 T Don't Play with Matches|QID|51352|M|40.21,37.65|N|To Toki.|
 A Make Loh Go|QID|53369|M|40.21,37.65|N|From Toki.|RANK|2|
 C Make Loh Go|QID|53369|M|40.21,37.65|QO|1|NC|N|After you chat, you will control Toki the turtle.  He moves in the cardinal directions.  Get him to the goal using the 'abilities'.|
 C Make Loh Go|QID|53369|M|40.21,37.65|QO|2|NC|N|Simple.  Up and over - dont hit the boxes on the ground.|
 C Make Loh Go|QID|53369|M|40.21,37.65|N|Top right is the finish line goal. |
 T Make Loh Go|QID|53369|M|40.21,37.65|N|Complete to UI turn in.|
-f Seeker's Vista|M|40.02,37.32|ACTIVE|51339|N|Pick up flight point.|RANK|2|
-t The Great Sea Scrolls|QID|53476|M|40.4,36.4|N|The maximum item level for the quest reward is 295, so if the quest says you will get a headpiece that is that level, there's no need to wait for 120. If you will get something lower, you may want to wait to turn this in.|
+f Seekers' Vista|M|40.02,37.32|ACTIVE|51339|N|Pick up flight point.|RANK|2|
+t The Great Sea Scrolls|QID|53476|M|40.4,36.4|N|To Collector Koja.|
 T Cleaning Bills|QID|51339|M|40.42,36.96|N|To Scrollsage Nola.|
 T Swimming Lessons|QID|51343|M|40.42,36.96|N|To Scrollsage Nola.|
 A Cave of Ai'twen|QID|51353|M|40.42,36.96|N|From Scrollsage Nola.|RANK|2|PRE|51339;51343|
-T Cave of Ai'twen|QID|51353|M|37.20,32.60|N|To Lorja.  Get out your turtle mount, this one is underwater.|
+T Cave of Ai'twen|QID|51353|M|37.14,32.55;35.68,31.24|N|To Lorja. Get out your turtle mount, this one is underwater.|
 A Flavorable Offering|QID|51371|M|35.68,31.23|N|From Loroja.|RANK|2|PRE|51353|
 A Response Required|QID|51221|M|35.68,31.23|N|From Loroja.|RANK|2|PRE|51353|
 C Flavorable Offering|QID|51371|M|38.39,28.21|S|N|Completed by killing and looting underwater mobs and collecting plants.|
-C Response Required|QID|51221|M|36.89,29.29|N|On the island beach.  Make sure you tag her when she jumps out of mech otherwise she will de-spawn.|
+C Response Required|QID|51221|M|36.89,29.29|N|On the island beach. Kill her Mech, and then make sure you tag her when she jumps out of mech (and kill her) otherwise she will de-spawn.|
 A Explosive Situation|QID|51540|M|37.82,28.50|N|From the bomb underwater.|RANK|2|
-C Explosive Situation|QID|51540|M|38.89,27.01|S|N|Collect bombs while you also get seaweed.|
+C Explosive Situation|QID|51540|M|38.89,27.01|S|NC|N|Collect bombs while you also get seaweed.|
 K Slickspill|QID|51921;51958|QO|1|M|41.60,28.60|T|Slickspill|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|158216|RANK|2|
-C Explosive Situation|QID|51540|M|38.89,27.01|US|N|Finish up with the bombs.|
+C Explosive Situation|QID|51540|M|38.89,27.01|US|NC|N|Finish up with the bombs.|
 C Flavorable Offering|QID|51371|M|38.39,28.21|US|N|Finish up with mobs and plants.|
-T Flavorable Offering|QID|51371|M|37.14,32.55|N|Back to the underwater cave.  To Loroja.|
+T Flavorable Offering|QID|51371|M|37.14,32.55;35.68,31.24|N|Back to the underwater cave. To Loroja.|
 T Response Required|QID|51221|M|35.68,31.24|N| To Loroja.|
 T Explosive Situation|QID|51540|M|35.68,31.24|N|To Loroja.|
-A I like Turtles|QID|51427|M|35.68,31.24|N|From Loroja.|RANK|2|PRE|51371;51221|
-A Breaker Bad|QID|51545|M|35.68,31.24|N|From Loroja.|RANK|2|PRE|51540|
-C I like Turtles|QID|51427|M|35.71,31.04|N|Place on the seaweed right next to you.|
+A I like Turtles|QID|51427|M|35.68,31.24|N|From Loroja.|PRE|51371;51221|
+A Breaker Bad|QID|51545|M|35.68,31.24|N|From Loroja.|PRE|51540|
+C I like Turtles|QID|51427|M|35.71,31.04|NC|N|Place on the seaweed right next to you.|
 T I like Turtles|QID|51427|M|35.68,31.23|N|To Loroja.|
-A Deep Sea Venture|QID|51220|M|35.68,31.23|N|From Loroja.|RANK|2|PRE|51427|
-A What's Yours is Mined|QID|51222|M|35.75,31.30|N|From Toki.|RANK|2|PRE|51427|
-C Breaker Bad|QID|51545|M|35.53,27.05|N|Use the bomb ability on the mech.  Note this will kill most of the mobs around it too.|
+A Deep Sea Venture|QID|51220|M|35.68,31.23|N|From Loroja.|PRE|51427|
+A What's Yours is Mined|QID|51222|M|35.75,31.30|N|From Toki.|PRE|51427|
+C Breaker Bad|QID|51545|M|35.53,27.05|N|Use the bomb ability on the mech. Note this will kill most of the mobs around it too.|
 C Deep Sea Venture|QID|51220|M|36.90,25.55|S|N|Kill the goblins.|
 C What's Yours is Mined|QID|51222|M|36.90,25.55|S|NC|N|Grab the underwater mines.|
 $ Venture Co. Supply Chest|QID|52976|M|36.69,23.23|N|Use ladder to get on the ship|RANK|2|
 C What's Yours is Mined|QID|51222|M|36.90,25.55|US|NC|N|Finish grabbing the underwater mines.|
 C Deep Sea Venture|QID|51220|M|36.90,25.55|US|N|Finish killing the goblins.|
+T Breaker Bad|QID|51545|M|35.68,31.25|N|Back to the cave one more time, to Loroja.|
 T What's Yours is Mined|QID|51222|M|34.35, 26.29|N|To Toki.|
-A Battle Victorious|QID|51386|M|34.35,26.29|N|From Toki.|RANK|2|PRE|51220;51222;51545|
+A Battle Victorious|QID|51386|M|34.35,26.29|N|From Toki.|PRE|51222|
+T Deep Sea Venture|QID|51220|M|34.35, 26.29|N|To Toki.|
 C Battle Victorious|QID|51386|M|34.35,26.29|QO|1|N|Hop on the turtle.|
 C Battle Victorious|QID|51386|M|34.35,26.29|QO|2|N|Revenge time. Use ability 1 on the mobs. |
-T Breaker Bad|QID|51545|M|35.68,31.25|N|Back to the cave one more time, to Loroja.|
-T Deep Sea Venture|QID|51220|M|35.68,31.25|N|To Loroja.|;may be incorrect... this Turnin was missed, per wowhead in cave to Loroja
 T Battle Victorious|QID|51386|M|40.19,37.63|N|To Toki.|
 
 H The Golden Flagon|TZ|Brennadam|ACTIVE|49908|M|34.26,47.18|N|Hearth to Brennadam or run back to the flight point and fly there.|RANK|-1|
@@ -963,7 +968,7 @@ T Earl-E Bot Gets the Worm|QID|50753|M|42.54,54.36|N|To Maokka.|
 U Maokka's Box|AVAILABLE|50774|M|42.54,54.36|U|160514|L|158679|N|Open the box for a new trinket.|
 A No Bot Left Behind|QID|50774|M|42.68,54.31|N|From Moxie Lockspinner.|PRE|50753|
 K Mud Burrow Guardian|ACTIVE|50774|M|39.49,51.50|QO|1|T|Mud Burrow Guardian|N|Kill the Guardian.|
-K Pinku'shon|QID|51886|QO|1|M|38.05,51.07|T|Pinku'shon|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|163678|RANK|2|
+K Pinku'shon|QID|51886;51959|QO|1|M|38.05,51.07|T|Pinku'shon|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|163678|RANK|2|
 T No Bot Left Behind|QID|50774|M|42.68,54.31|N|To Moxie Lockspinner.|
 A Cave Commotion|QID|50793|M|42.68,54.31|N|From Moxie Lockspinner.|PRE|50774|
 T Cave Commotion|QID|50793|M|41.13,54.08|N|To Nedly Grinner.|
@@ -984,8 +989,8 @@ C The Proof of Piracy|QID|52132|M|41.13,54.08|US|NC|N|Finish up with barrels.|
 T The Proof of Piracy|QID|52132|M|41.13,54.90|N|To Moxie Lockspinner.|
 T I Want It All Now|QID|50803|M|41.13,54.09|N|To Nedly Grinner.|
 T All Laid Out For Us|QID|50742|M|42.98,56.60|N|To Leo Shealds back in Deadwash.|
-A Walking-Around Money|QID|50956|M|42.98,56.60|N|Right next to Leo.|RANK|2|PRE|50742|
-T Walking-Around Money|QID|50956|M|42.98,56.60|N|Right next to Leo.|
+A Walking-Around Money|QID|50956|M|43.02,56.53|N|From Small Coin Bag, next to Leo.|;not required... but you may as well get the gold.
+T Walking-Around Money|QID|50956|M|43.02,56.53|N|To Small Coin Bag.|
 
 ; Cycle of Hatred
 R Beacon Hill|AVAILABLE|51711|M|43.17,50.56;46.14,47.24|CS|N|Next stop Beacon Hill, you can run a little farther if you prefer roads to cross country, but its an easy hike up the hill.|
@@ -1029,25 +1034,25 @@ H The Golden Flagon|TZ|Brennadam|ACTIVE|50733|M|46.69,47.97|N|Return to Brennada
 F Tidecross|M|59.73,70.57|ACTIVE|49998|N|Fly to Tidecross|RANK|2|
 T Survivors|QID|52067|M|57.86,55.31|N|To Patrick Eckhart in the next area.|
 A Smells like Trouble|QID|50908|M|57.86,55.31|N|From Patrick Eckhart.|RANK|2|
-A Dangerous Game|QID|50910|M|57.86,55.31|N|From Lea Martinel.|RANK|2|PRE|51556|
-A Never Outgunned|QID|50909|M|57.93,55.55|N|From poster on building.|RANK|2|
+A Dangerous Game|QID|50910|M|57.86,55.31|N|From Patrick Eckhart.|RANK|2|
+A Never Outgunned|QID|50909|M|57.95,55.58|N|From Lea Martinel.|RANK|2|
 A WANTED: Yarsel'ghun|QID|51217|M|57.84,55.83|N|From the poster.|RANK|2|
-C Never Outgunned|QID|50909|M|60.67,50.28|S|N|Pick up weapons as you go.|
+C Never Outgunned|QID|50909|M|60.67,50.28|S|NC|N|Pick up weapons as you go.|
 C Dangerous Game|QID|50910|M|60.67,50.28|S|N|Kill the Keenblades.|
-C Smells like Trouble|QID|50908|M|59.09,48.60|QO|2|N|Inside the cave.|
 K Taja the Tidehowler|QID|52123|QO|1|T|Taja the Tidehowler|M|60.00,46.00|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|154449|
-C Smells like Trouble|QID|50908|M|56.60,47.41|QO|1|N|Inside the cave.|
+K Durmok Darkmane|ACTIVE|50908|M|59.76,50.13;59.09,48.60|CS|QO|2|U|159144|T|Durmok Darkmane|N|Up the hill to find Durmok. Toss the scent vile into the cave with Durmok for a little extra help with the fight.|
+K Ogarth Axefall|ACTIVE|50908|M|56.32,48.42;56.60,47.41|CS|QO|1|T|Ogarth Axefall|N|Continue on towards Ogarth and toss the scent vile in his cave too, then kill him.|
 K Yarsel'ghun|ACTIVE|51217|QO|1|M|55.63,39.95|T|Yarsel'ghun|N|Take the road directly above this cave to reach  Yarsel'ghun.|
 $ Ancient Tidesage Scroll|ACH|13051;5|M|56.05,38.48|N|Beside Yarsel'ghun. For the achievement "Legends of the Tidesages"|RANK|2|
 C Dangerous Game|QID|50910|M|60.67,50.28|US|N|Finish with Keenblades.|
 C Never Outgunned|QID|50909|M|60.67,50.28|US|N|Finish up with weapons.|
 A Bring out the Big Gun|QID|51159|M|60.21,54.55|N|From cannon on road.|RANK|2|
-C Bring out the Big Gun|QID|51159|M|57.94,55.43|N|Drag this back to camp.|
+C Bring out the Big Gun|QID|51159|M|57.94,55.43|NC|N|Click on it to drag the cannon back to camp.|
 T Bring out the Big Gun|QID|51159|M|57.94,55.52|N|To Lea Martinel.|
-T Smells like Trouble|QID|50908|M|57.86,55.31|N|To Patrick Eckhart|
-T Dangerous Game|QID|50910|M|57.86,55.31|N|To Patrick Eckhart|
 T Never Outgunned|QID|50909|M|57.95,55.57|N|To Lea Martinel.|
 t WANTED: Yarsel'ghun|QID|51217|M|57.94,54.55|N|To Lea Martinel.|
+T Smells like Trouble|QID|50908|M|57.86,55.31|N|To Patrick Eckhart|
+T Dangerous Game|QID|50910|M|57.86,55.31|N|To Patrick Eckhart|
 F Tradewinds Market|ACTIVE|50733|M|65.57,48.01|TZ|Boralus Harbor|N|Take a flight to Boralas to turn in the final zone quest.|RANK|2|
 
 F Tradewinds Market|ACTIVE|50733|M|59.73,70.57|TZ|Boralus Harbor|N|Take a flight to Boralas to turn in the final zone quest.|RANK|-1|
