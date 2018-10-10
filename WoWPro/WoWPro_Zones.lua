@@ -124,6 +124,10 @@ local function ptable_inner(item)
         table.insert(ptable_buf, tostring(item))
         return
     end
+    if item_type == "boolean" then
+        table.insert(ptable_buf, tostring(item))
+        return
+    end
     if item == nil then
         table.insert(ptable_buf, "nil")
         return
@@ -312,17 +316,23 @@ function WoWPro.ProcessMapAndKids(id)
         if clones then
             WoWPro:dbp("ProcessMapAndKids(%d): group %d are clones",id, map_info.GroupID)
             for index, mapGroupMemberInfo in ipairs(wip_group_info[map_info.GroupID]) do
-                mapGroupMemberInfo.name = mapGroupMemberInfo.name .. tostring(mapGroupMemberInfo.relativeHeightIndex)
-                WoWPro:dbp("ProcessMapAndKids(%d): group %d map %d is now %q", id, map_info.GroupID, mapGroupMemberInfo.mapID, mapGroupMemberInfo.name)
+                if id == mapGroupMemberInfo.mapID then
+                    nomen = mapGroupMemberInfo.name .. tostring(mapGroupMemberInfo.relativeHeightIndex)
+                    WoWPro:dbp("ProcessMapAndKids(%d): clone group %d map %d is now %q", id, map_info.GroupID, mapGroupMemberInfo.mapID, nomen)
+                    map_info.nick = nomen
+                    wip_name_info[map_info.name][id] = nil
+                end
             end
-        end
-        -- Find the matching entry for us in the group member table
-        for index, mapGroupMemberInfo in ipairs(wip_group_info[map_info.GroupID]) do
-            if id == mapGroupMemberInfo.mapID then
-                if mapGroupMemberInfo.name ~= map_info.name then
-                     nomen = mapGroupMemberInfo.name .. "@" .. map_info.name
-                     WoWPro:dbp("ProcessMapAndKids(%d): group %d %q => %q",id, map_info.GroupID, map_info.name, nomen)
-                     map_info.name = nomen
+        else
+            -- Find the matching entry for us in the group member table
+            for index, mapGroupMemberInfo in ipairs(wip_group_info[map_info.GroupID]) do
+                if id == mapGroupMemberInfo.mapID then
+                    if mapGroupMemberInfo.name ~= map_info.name then
+                         nomen = mapGroupMemberInfo.name .. "@" .. map_info.name
+                         WoWPro:dbp("ProcessMapAndKids(%d): group %d %q => %q",id, map_info.GroupID, map_info.name, nomen)
+                         map_info.nick = nomen
+                         wip_name_info[map_info.name][id] = nil
+                    end
                 end
             end
         end
@@ -337,6 +347,7 @@ function WoWPro.ProcessMapAndKids(id)
             if not wip_name_info[nomen] then
                 WoWPro:dbp("ProcessMapAndKids(%d): %s => %s",id, map_info.name, nomen)
                 map_info.nick = nomen
+                wip_name_info[map_info.name][id] = nil
             else
                 WoWPro:Error("ProcessMapAndKids(%d): Unwanted step child %s collided with %d.", id, nomen, wip_name_info[nomen])
                 return
@@ -347,6 +358,7 @@ function WoWPro.ProcessMapAndKids(id)
             if not wip_name_info[nomen] then
                 WoWPro:dbp("ProcessMapAndKids(%d): %q => %q",id, map_info.name, nomen)
                 map_info.nick = nomen
+                wip_name_info[map_info.name][id] = nil
             else
                 WoWPro:Error("ProcessMapAndKids(%d): Dungeon %q collided with %d.", id, nomen, wip_name_info[nomen])
                 return
@@ -357,13 +369,14 @@ function WoWPro.ProcessMapAndKids(id)
             if not wip_name_info[nomen] then
                 WoWPro:dbp("ProcessMapAndKids(%d): %q => %q",id, map_info.name, nomen)
                 map_info.nick = nomen
+                wip_name_info[map_info.name][id] = nil
             else
                 WoWPro:Error("ProcessMapAndKids(%d): Instance %q collided with %d.", id, nomen, wip_name_info[nomen])
                 return
             end
         else
             -- Whine!
-            WoWPro:Error("ProcessMapAndKids(%d): Unable to name %q.", id, nomen)
+            WoWPro:Error("ProcessMapAndKids(%d): Unable to name %q. %s", id, nomen, ptable(wip_name_info[nomen]))
             return
         end
     end
@@ -377,7 +390,12 @@ function WoWPro.ProcessMapAndKids(id)
             map_info.children[i] = children[i].mapID
             if wip_name_info[children[i].name] then
                 -- Force early collisions, invalidate for everyone
-                wip_name_info[children[i].name] = -1
+                if type(wip_name_info[children[i].name]) == "table" then
+                    wip_name_info[children[i].name][children[i].mapID] = true
+                else
+                    local new_table = {[children[i].mapID] = true, [wip_name_info[children[i].name]] = true}
+                    wip_name_info[children[i].name] = new_table
+                end
             else
                 wip_name_info[children[i].name] = children[i].mapID
             end
@@ -400,7 +418,9 @@ function WoWPro.NewGenerateMapCache()
     -- Try to discover disconnected maps
     WoWPro:print("Starting iterative mapping.")
     for i = 0, 2000 do
-        WoWPro.ProcessMapAndKids(i)
+        if not wip_map_info[i] then
+            WoWPro.ProcessMapAndKids(i)
+        end
     end
 end
 
