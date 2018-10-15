@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_talador_source_code
+-- Date: 2018-10-16 00:24
+-- Who: Ludovicus_Maior
+-- Log: Add missing N tag
+
+-- URL: http://wow-pro.com/node/3614/revisions/29867/view
 -- Date: 2018-10-02 22:58
 -- Who: jovieve
 -- Log: Added some FLY tags.
@@ -241,10 +246,6 @@
 -- Log: Added a bunch of C lines.
 
 -- URL: http://wow-pro.com/node/3614/revisions/26990/view
--- Date: 2014-11-14 12:27
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3614/revisions/26989/view
 -- Date: 2014-11-14 12:27
 -- Who: Ludovicus_Maior
 
@@ -491,7 +492,7 @@ C Harmonic Crystal|QID|33761|M|77.74,44.08|QO|3|N|Green Spiky Crystal|
 C Melani's Doll|QID|33734|M|77.91,42.98|QO|2|
 C Polished Crystal|QID|33761|M|76.98,43.08|QO|2|N|Clear Purple Rectangle|
 C Annals of Aruuna|QID|33734|M|75.45,44.13|QO|3|N|Floating Book.|
-$ Relic of Aruuna|QID|34250|M|75.78,44.73|Gold, xp, and trash item.|
+$ Relic of Aruuna|QID|34250|M|75.78,44.73|N|Gold, xp, and trash item.|
 C Honed Crystal|QID|33761|M|76.17,44.26|QO|1|N|Glowing Red Spike|
 C Crystal-Shaper's Tools|QID|33734|M|77.54,41.24|QO|1|
 C Burning Sky|QID|33740|M|75.80,45.20;78.20,45.00;79.80,34.50;75.38,36.52;77.30,41.00;74.89,66.49;73.60,59.25;77.90,38.00;76.81,43.26;78.06,35.61;75.25,39.86;81.62,36.14;77.61,61.06;75.12,62.17|CN|N|Kill Wing-Guards, Squallbringers, and Sun-Callers.|US|
