@@ -27,7 +27,7 @@ local function QidMapReduce(list,default,or_string,and_string,func, why, debug, 
     local split_string
     local do_or
     if or_string and and_string then
-        do_or = string.find(list,or_string)
+        do_or = string.find(list,or_string,1,true)
         if do_or then
             split_string = or_string
         else
@@ -92,7 +92,7 @@ end
 function WoWPro.QidVerify(list,empty_ok,or_string,and_string)
     if not list then return empty_ok end
     if list == "" then return empty_ok end
-    local do_or = string.find(list,or_string)
+    local do_or = string.find(list,or_string,1,true)
     local split_string
     if do_or then
         split_string = or_string
@@ -124,7 +124,7 @@ function WoWPro:QIDsInTable(QIDs,tabla, abs_quid, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
-    local value = QidMapReduce(QIDs,false,";","+",function (qid) return tabla[qid] end, why or "QIDsInTable", debug or quids_debug, abs_quid)
+    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return tabla[qid] end, why or "QIDsInTable", debug or quids_debug, abs_quid)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
@@ -136,7 +136,7 @@ function WoWPro:QIDInTable(QIDs,tabla, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
-    local value = QidMapReduce(QIDs,false,";+",nil,function (qid) return tabla[qid] and qid end, why or "QIDInTable", debug or quids_debug)
+    local value = QidMapReduce(QIDs,false,"^&",nil,function (qid) return tabla[qid] and qid end, why or "QIDInTable", debug or quids_debug)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
@@ -148,7 +148,7 @@ function WoWPro:QIDsInTableKey(QIDs,tabla,key, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTableKey(%s,%s,%s)",tostring(QIDs),tostring(tabla),tostring(key))
     end
-    local value = QidMapReduce(QIDs,false,";+",nil,function (qid) return tabla[qid] and tabla[qid][key] end, why or "QIDsInTableKey", debug or quids_debug)
+    local value = QidMapReduce(QIDs,false,"^&",nil,function (qid) return tabla[qid] and tabla[qid][key] end, why or "QIDsInTableKey", debug or quids_debug)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTableKey(%s) return %s",tostring(QIDs),tostring(value))
     end
@@ -160,7 +160,7 @@ function WoWPro:AllIDsInTable(QIDs,tabla, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:AllIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
-    local value = QidMapReduce(QIDs,false,"+",";",function (qid) return tabla[qid] end, why or "AllIDsInTable", debug or quids_debug)
+    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return tabla[qid] end, why or "AllIDsInTable", debug or quids_debug)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:AllIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
@@ -172,7 +172,7 @@ function WoWPro:WipeQIDsInTable(QIDs,tabla, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:WipeQIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
-    local value = QidMapReduce(QIDs,false,nil,";+",function (qid) tabla[qid] = nil; return true; end, why or "WipeQIDsInTable", debug or quids_debug)
+    local value = QidMapReduce(QIDs,false,nil,"^&",function (qid) tabla[qid] = nil; return true; end, why or "WipeQIDsInTable", debug or quids_debug)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:WipeQIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
@@ -183,7 +183,7 @@ function WoWPro:SetQIDsInTable(QIDs,tabla, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:SetQIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
-    local value = QidMapReduce(QIDs,false,nil,";+",function (qid) tabla[qid] = true; return true; end, why or "SetQIDsInTable", debug or quids_debug)
+    local value = QidMapReduce(QIDs,false,nil,"^&",function (qid) tabla[qid] = true; return true; end, why or "SetQIDsInTable", debug or quids_debug)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:SetQIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
@@ -194,7 +194,7 @@ function WoWPro:QuestAvailible(QIDs, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QuestAvailible(%s)",tostring(QIDs))
     end
-    local value = QidMapReduce(QIDs,false,";","+",function (qid) return (not WoWPro:IsQuestFlaggedCompleted(qid)) and (not WoWPro.QuestLog[qid]); end, why or "QuestAvailible", debug or quids_debug)
+    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return (not WoWPro:IsQuestFlaggedCompleted(qid)) and (not WoWPro.QuestLog[qid]); end, why or "QuestAvailible", debug or quids_debug)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QuestAvailible(%s) return %s",tostring(QIDs),tostring(value))
     end
@@ -219,7 +219,7 @@ function WoWPro.ValidObjectives(objectives, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:ValidObjectives(%s)",tostring(QIDs))
     end
-    local value = QidMapReduce(QIDs,false,";","+",function (objective) return (not WoWPro.ValidObjective(objective)) ; end, why or "ValidObjectives", debug or quids_debug)
+    local value = QidMapReduce(QIDs,false,"^","&",function (objective) return (not WoWPro.ValidObjective(objective)) ; end, why or "ValidObjectives", debug or quids_debug)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:ValidObjectives(%s) return %s",tostring(QIDs),tostring(value))
     end
@@ -1145,9 +1145,9 @@ function WoWPro.NextStep(k,i)
 
         -- Skip Completed Quests
         if QID then
-            local numQID = select("#", string.split(";", QID))
+            local numQID = select("#", string.split("^", QID))
             for j=1,numQID do
-                local jqid = select(numQID-j+1, string.split(";", QID))
+                local jqid = select(numQID-j+1, string.split("^", QID))
                 if WoWPro:IsQuestFlaggedCompleted(jqid, true) then
                     skip = true -- If quest complete, step is skipped.
                     WoWPro.why[k] = "NextStep(): QID is complete: " .. jqid
@@ -1242,7 +1242,7 @@ function WoWPro.NextStep(k,i)
     	if WoWPro.prereq[k] then
     	    if WoWPro.prereq[k] == "" then
     	        WoWPro.why[k] = "NextStep(): Empty PRE tag!"
-    	    elseif string.find(WoWPro.prereq[k],"+") then
+    	    elseif string.find(WoWPro.prereq[k],"^",1,true) then
     	        -- Any prereq met is OK, skip only if none are met	
         		local numprereqs = select("#", string.split("+", WoWPro.prereq[k]))
         		local totalFailure = true
@@ -1258,7 +1258,7 @@ function WoWPro.NextStep(k,i)
         		end
         	else
      	        -- All prereq met must be met	
-        		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
+        		local numprereqs = select("#", string.split("&", WoWPro.prereq[k],1,true))
         		for j=1,numprereqs do
         			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
         			if not WoWPro:IsQuestFlaggedCompleted(jprereq, true) then 
@@ -1271,9 +1271,9 @@ function WoWPro.NextStep(k,i)
 
 		-- Checking off leadin steps --
 		if WoWPro.leadin and WoWPro.leadin[k] then
-		    local numQIDs = select("#", string.split(";", WoWPro.leadin[k]))
+		    local numQIDs = select("#", string.split("^", WoWPro.leadin[k]))
 		    for j=1,numQIDs do
-			    local lQID = select(numQIDs-j+1, string.split(";", WoWPro.leadin[k]))
+			    local lQID = select(numQIDs-j+1, string.split("^", WoWPro.leadin[k]))
 				if WoWPro:IsQuestFlaggedCompleted(lQID, true) then
 			        WoWPro.CompleteStep(k,"NextStep(): The leadin quest is completed.")
 			        skip = true
@@ -1287,9 +1287,9 @@ function WoWPro.NextStep(k,i)
     	if WoWPro.prereq[k] 
     	and not WoWProCharDB.Guide[GID].skipped[k] 
     	and not WoWPro:QIDsInTable(QID,WoWProCharDB.skippedQIDs) then 
-    		local numprereqs = select("#", string.split(";", WoWPro.prereq[k]))
+    		local numprereqs = select("#", string.split("&", WoWPro.prereq[k]))
     		for j=1,numprereqs do
-    			local jprereq = select(numprereqs-j+1, string.split(";", WoWPro.prereq[k]))
+    			local jprereq = select(numprereqs-j+1, string.split("&", WoWPro.prereq[k]))
     			if WoWProCharDB.skippedQIDs[tonumber(jprereq)] then
     				skip = true
     				WoWPro.why[k] = "NextStep(): Skipping step with skipped prerequisite."
@@ -1349,7 +1349,7 @@ function WoWPro.NextStep(k,i)
 
         -- C step implicit completion
         if (WoWPro.action[k] == "C") and WoWPro:QIDsInTable(QID,WoWPro.QuestLog) and (not WoWPro.questtext[k]) then
-            if QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end) then
+            if QidMapReduce(QID,false,"&","^",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end) then
                 WoWPro.CompleteStep(k,"Implicit criteria met")
             end
         end
@@ -1422,9 +1422,9 @@ function WoWPro.NextStep(k,i)
     			WoWPro:dbp("Step %s [%s/%s] skipped as not in QuestLog",WoWPro.action[k],WoWPro.step[k],tostring(QID))
     			WoWPro.why[k] = "NextStep(): Skipping C/T step because quest is not in QuestLog."
     			break
-    		elseif WoWPro.action[k] == "T" and QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].leaderBoard end) then
+    		elseif WoWPro.action[k] == "T" and QidMapReduce(QID,false,"^","&",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].leaderBoard end) then
     		    -- For turnins, make sure we have completed the criteria
-    		    if WoWPro.conditional[k] and not QidMapReduce(QID,false,";","|",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end) then
+    		    if WoWPro.conditional[k] and not QidMapReduce(QID,false,"^","&",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end) then
     		        skip = true
     		        WoWPro.why[k] = "T criteria not met"
     		        break
@@ -2490,14 +2490,14 @@ function WoWPro:IsQuestFlaggedCompleted(qid,force)
     local QID = tonumber(qid)
     if not QID then
         -- is it a QID list?
-        local quids = select("#", string.split(";", qid))
+        local quids = select("#", string.split("^&", qid))
         if (not quids) or quids == 1 then 
             WoWPro:Warning("Guide %s has a bad QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
             return nil;
         else
             -- Yup, return true if any are complete
     		for j=1,quids do
-    			local jquid = select(quids-j+1, string.split(";", qid))
+    			local jquid = select(quids-j+1, string.split("^&", qid))
                 jquid = tonumber(jquid)
                 if not jquid then
                     WoWPro:Warning("Guide %s has a bad sub QID! [%s]",WoWProDB.char.currentguide,tostring(qid))
@@ -2716,7 +2716,7 @@ function WoWPro.GrailQuestPrereqOneQid(qid, out)
     for i,p in ipairs(data) do
         if type(p) ~= "table" then
             if tonumber(p) and tonumber(p) > 1 then
-                out["sep"] = "+"
+                out["sep"] = "&"
                 out[tostring(p)] = true
                 -- WoWPro:dbp("[+%s]=true)",tostring(p))
             end
@@ -2725,7 +2725,7 @@ function WoWPro.GrailQuestPrereqOneQid(qid, out)
             for j,q in ipairs(p) do
                 if type(q) ~= "table" then
                     if tonumber(q) and tonumber(q) > 1 then
-                        out["sep"] = ";"
+                        out["sep"] = "^"
                         out[tostring(q)] = true
                         -- WoWPro:dbp("[;%s]=true)",tostring(q))
                     end
@@ -2743,11 +2743,11 @@ function WoWPro.GrailQuestPrereq(QID)
     if not Grail or not WoWPro.EnableGrail then return nil end
     if QID == "*" then return nil end
     if not QID then return nil end
-    local numQIDs = select("#", string.split(";", QID))
+    local numQIDs = select("#", string.split("^", QID))
     local out = {}
     -- WoWPro:dbp("GrailQuestPrereq(%s)",QID)
     for j=1,numQIDs do
-        local qid = select(numQIDs-j+1, string.split(";", QID))
+        local qid = select(numQIDs-j+1, string.split("^", QID))
         qid = tonumber(qid)
         out = WoWPro.GrailQuestPrereqOneQid(qid, out)
     end
@@ -2779,17 +2779,17 @@ function WoWPro.GrailQuestCheckPrereq(QID, PRE)
     local grail_sep, pre_sep
     grail_sep = "?"
     pre_sep = "?"
-    if grail_pre:find(";") then
-        grail_sep = ';'
+    if grail_pre:find("&") then
+        grail_sep = '&'
     end
-    if grail_pre:find("+") then
-        grail_sep = '+'
+    if grail_pre:find("^") then
+        grail_sep = '^'
     end
-    if PRE:find(";") then
-        pre_sep = ';'
+    if PRE:find("&") then
+        pre_sep = '&'
     end
-    if PRE:find("+") then
-        pre_sep = '+'
+    if PRE:find("^") then
+        pre_sep = '^'
     end
     -- Different separators, not good
     if grail_sep ~= pre_sep then return grail_pre,("DiffSep"..grail_sep..pre_sep) end
@@ -2828,19 +2828,19 @@ function WoWPro.GrailBreadcrumbsFor(QID)
     if not Grail or not WoWPro.EnableGrail then return nil end
     if QID == "*" then return nil end
     if not QID then return nil end
-    local numQIDs = select("#", string.split(";", QID))
+    local numQIDs = select("#", string.split("^", QID))
     local out = {}
     -- WoWPro:dbp("GrailBreadcrumbsFor(%s)",QID)
     local j, lead
     for j=1,numQIDs do
-        local qid = select(numQIDs-j+1, string.split(";", QID))
+        local qid = select(numQIDs-j+1, string.split("^", QID))
         qid = tonumber(qid)
         out = Grail:QuestBreadcrumbsFor(qid)
         if out then
             for _,q in pairs(out) do
                 if tonumber(q) and tonumber(q) > 1 then
                     if lead then
-                        lead = lead .. ";" .. q
+                        lead = lead .. "^" .. q
                     else
                         lead = q
                     end
@@ -2859,11 +2859,11 @@ function WoWPro:GrailCheckQuestName(guide,QID,myname)
         WoWPro:Warning("In guide %s, quest [%s]  does not have a QID",guide,tostring(myname))
         return false
     end
-    local numQIDs = select("#", string.split(";", QID))
+    local numQIDs = select("#", string.split("^", QID))
     myname = myname:trim()
     if numQIDs > 1 then return QID end
     for j=1,numQIDs do
-        local qid = select(numQIDs-j+1, string.split(";", QID))
+        local qid = select(numQIDs-j+1, string.split("^", QID))
         local gName = Grail:QuestName(qid)
 
         if gName then
@@ -2908,9 +2908,9 @@ end
 function WoWPro:GrailIsQuestObsolete(guide, QID, name)
     if not Grail or not WoWPro.EnableGrail then return nil end
     if not QID then return nil end
-    local numQIDs = select("#", string.split(";", QID))
+    local numQIDs = select("#", string.split("^", QID))
     for j=1,numQIDs do
-        local qid = select(numQIDs-j+1, string.split(";", QID))
+        local qid = select(numQIDs-j+1, string.split("^", QID))
         qid = tonumber(qid)
         local obsolete = Grail:IsQuestObsolete(qid)
         if obsolete then

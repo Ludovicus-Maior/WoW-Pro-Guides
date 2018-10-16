@@ -204,9 +204,9 @@ local function DefineTag(action, key, vtype, validator, setter)
 end
 
 local function validate_list_of_qids(action, step, tag, value)
-    --- Either X;Y;Z or X&Y&Z, or *, empty allowed
+    --- Either X^Y^Z or X&Y&Z, or *, empty allowed
     if value == "*" then return true; end
-    return WoWPro.QidVerify(value, true,";","+")
+    return WoWPro.QidVerify(value, true,"^","&")
 end
 
 local function validate_list_of_ints(action, step, tag, value)
