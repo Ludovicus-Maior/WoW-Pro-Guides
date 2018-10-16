@@ -284,6 +284,31 @@ function WoWPro.NameZones()
     return dirty
 end
 
+local function register_name(name, mapID)
+    if wip_name_info[name] then
+        if type(wip_name_info[name]) == "table" then
+            wip_name_info[name][mapID] = true
+        else
+            local new_table = {[mapID] = true, [wip_name_info[name]] = true}
+            wip_name_info[name] = new_table
+        end
+    else
+        wip_name_info[name] = mapID
+    end
+end
+
+local function unregister_name(name, mapID)
+    if wip_name_info[name] then
+        if type(wip_name_info[name]) == "table" then
+            wip_name_info[name][mapID] = nil
+        else
+			if wip_name_info[name] == mapID then
+                wip_name_info[name] = nil
+            end
+        end
+    end
+end
+
 function WoWPro.ProcessMapAndKids(id)
     if wip_map_info[id] then
         WoWPro:Warning("ProcessMapAndKids(%d): map already processed.",id)
@@ -320,7 +345,7 @@ function WoWPro.ProcessMapAndKids(id)
                     nomen = mapGroupMemberInfo.name .. tostring(mapGroupMemberInfo.relativeHeightIndex)
                     WoWPro:dbp("ProcessMapAndKids(%d): clone group %d map %d is now %q", id, map_info.GroupID, mapGroupMemberInfo.mapID, nomen)
                     map_info.nick = nomen
-                    wip_name_info[map_info.name][id] = nil
+                    unregister_name(map_info.name, id)
                 end
             end
         else
@@ -331,7 +356,7 @@ function WoWPro.ProcessMapAndKids(id)
                          nomen = mapGroupMemberInfo.name .. "@" .. map_info.name
                          WoWPro:dbp("ProcessMapAndKids(%d): group %d %q => %q",id, map_info.GroupID, map_info.name, nomen)
                          map_info.nick = nomen
-                         wip_name_info[map_info.name][id] = nil
+                         unregister_name(map_info.name, id)
                     end
                 end
             end
@@ -347,7 +372,7 @@ function WoWPro.ProcessMapAndKids(id)
             if not wip_name_info[nomen] then
                 WoWPro:dbp("ProcessMapAndKids(%d): %s => %s",id, map_info.name, nomen)
                 map_info.nick = nomen
-                wip_name_info[map_info.name][id] = nil
+                unregister_name(map_info.name, id)
             else
                 WoWPro:Error("ProcessMapAndKids(%d): Unwanted step child %s collided with %d.", id, nomen, wip_name_info[nomen])
                 return
@@ -358,7 +383,7 @@ function WoWPro.ProcessMapAndKids(id)
             if not wip_name_info[nomen] then
                 WoWPro:dbp("ProcessMapAndKids(%d): %q => %q",id, map_info.name, nomen)
                 map_info.nick = nomen
-                wip_name_info[map_info.name][id] = nil
+                unregister_name(map_info.name, id)
             else
                 WoWPro:Error("ProcessMapAndKids(%d): Dungeon %q collided with %d.", id, nomen, wip_name_info[nomen])
                 return
@@ -369,7 +394,7 @@ function WoWPro.ProcessMapAndKids(id)
             if not wip_name_info[nomen] then
                 WoWPro:dbp("ProcessMapAndKids(%d): %q => %q",id, map_info.name, nomen)
                 map_info.nick = nomen
-                wip_name_info[map_info.name][id] = nil
+                unregister_name(map_info.name, id)
             else
                 WoWPro:Error("ProcessMapAndKids(%d): Instance %q collided with %d.", id, nomen, wip_name_info[nomen])
                 return
@@ -388,17 +413,7 @@ function WoWPro.ProcessMapAndKids(id)
     if children and #children > 0 then
         for i = 1, #children do
             map_info.children[i] = children[i].mapID
-            if wip_name_info[children[i].name] then
-                -- Force early collisions, invalidate for everyone
-                if type(wip_name_info[children[i].name]) == "table" then
-                    wip_name_info[children[i].name][children[i].mapID] = true
-                else
-                    local new_table = {[children[i].mapID] = true, [wip_name_info[children[i].name]] = true}
-                    wip_name_info[children[i].name] = new_table
-                end
-            else
-                wip_name_info[children[i].name] = children[i].mapID
-            end
+            register_name(children[i].name, children[i].mapID)
         end
     end
     table.sort(map_info.children)
