@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2018-10-17 02:29
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3673/revisions/28747/view
 -- Date: 2017-08-12 21:03
 -- Who: Ludovicus_Maior
 -- Log: Obliterum
@@ -144,26 +149,26 @@ return [[
 
 N Guide Progression|QID|44448|N|There are several quests in the class hall guide that will require time to complete (such as sending your followers on order hall missions, Do 20 world quests, etc). When you come across these steps, after starting the process, manually check it off (right click) so you can progress to other parts of the guide.  Next time you reload the guide it will come back to that step reminding you, continue clicking it off until the time based requirements are completed.|
 
-A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
+A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
-A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
+A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 ;both
-C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
-T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
-A An Urgent Gathering|QID|38710|M|58.68,47.44|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus. Wait a minute or so for him to show up.|PRE|44663;44184|
+C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
+A An Urgent Gathering|QID|38710|M|58.68,47.44|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus. Wait a minute or so for him to show up.|PRE|44663 & 44184|
 C An Urgent Gathering|QID|38710|QO|1|M|58.48,42.14|Z|Dalaran@Dalaran70|N|Travard is just outside 'Magical Menagerie'.|
 C An Urgent Gathering|QID|38710|QO|2|M|41.54,37.34|Z|Dalaran@Dalaran70|N|Orik is just inside 'The Scribe's Sarcellum'.|
 T An Urgent Gathering|QID|38710|M|74.91,48.23|Z|Dalaran@Dalaran70|N|To Lord Maxwell Tyrosus.|
 A Weapons of Legend|QID|40408|M|74.91,48.23|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|PRE|38710|
 C Weapons of Legend|QID|40408|QO|1|M|74.91,48.23|Z|Dalaran@Dalaran70|N|Choose which artifact path you want, the other specs will be available when reach level 102.|
 T Weapons of Legend|QID|40408|M|74.91,48.23|Z|Dalaran@Dalaran70|N|To Lord Maxwell Tyrosus.|
-A Artifact specific quest|QID|42000;42231;42770|M|74.91,48.23|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|PRE|40408|
+A Artifact specific quest|QID|42000^42231^42770|M|74.91,48.23|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|PRE|40408|
 
 ;Paladin class hall
-C We Meet at Light's Hope|QID|38576;42811|QO|2|M|42.91,88.83|Z|Eastern Plaguelands|N|Enter Light's Hope Sanctum by clicking on the gear in the middle of the chapel floor.|PRE|38576;42811|
-T We Meet at Light's Hope|QID|38576;42811|M|63.13,37.18|N|To Lord Maxwell Tyrosus.|
-A A United Force|QID|38566|M|63.13,37.18|N|Lord Maxwell Tyrosus.|PRE|38576;42811|
+C We Meet at Light's Hope|QID|38576^42811|QO|2|M|42.91,88.83|Z|Eastern Plaguelands|N|Enter Light's Hope Sanctum by clicking on the gear in the middle of the chapel floor.|PRE|38576 & 42811|
+T We Meet at Light's Hope|QID|38576^42811|M|63.13,37.18|N|To Lord Maxwell Tyrosus.|
+A A United Force|QID|38566|M|63.13,37.18|N|Lord Maxwell Tyrosus.|PRE|38576 & 42811|
 C A United Force|QID|38566|NC|QO|1|M|74.54,20.33|N|Walk with Lord Maxwell Tyrosus|
 C A United Force|QID|38566|NC|QO|2;3|M|74.54,20.33|N|Inscribe your name in the Libram and then wait a minute for the dialog to finish.|
 T A United Force|QID|38566|M|73.83,19.61|N|To Lord Maxwell Tyrosus.|
@@ -173,13 +178,13 @@ T Forging New Strength|QID|39722|M|73.79,19.70|N|To Lord Maxwell Tyrosus.|
 A Logistical Matters|QID|38933|M|73.79,19.70|N|From Lord Maxwell Tyrosus.|PRE|39722|
 T Logistical Matters|QID|38933|M|52.29,78.17|N|To Lord Grayson Shadowbreaker.|
 A A Sound Plan|QID|39756|M|52.29,78.17|N|From Lord Grayson Shadowbreaker. Choose which zone you want to do first.|PRE|38933|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|52.93,78.75|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|38933|
+A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|52.93,78.75|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|38933|
 T A Sound Plan|QID|39756|M|52.29,78.11|N|To Lord Grayson Shadowbreaker.|
-P Dalaran|QID|39718;39864;39731;39733;39735;42866|M|38.11,63.38|NC|N|Click on the portal to Dalaran.|ACTIVE|39718;39864;39731;39733;39735|
+P Dalaran|QID|39718^39864^39731^39733^39735^42866|M|38.11,63.38|NC|N|Click on the portal to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
 
 ;stuff that happens after you finish first zone here
 
-A Growing Power|QID|42844|M|61.08,44.61|Z|Dalaran@Dalaran70|N|From Justicar Julia Celeste.|PRE|39780;38743;43595;42244;40794|;need to add stormheim alliance ending QID.
+A Growing Power|QID|42844|M|61.08,44.61|Z|Dalaran@Dalaran70|N|From Justicar Julia Celeste.|PRE|39780 & 38743 & 43595 & 42244 & 40794|;need to add stormheim alliance ending QID.
 R Graymane Enclave|QID|42844|M|32.64,69.99|Z|Dalaran@Dalaran70|N|Back to your class hall to continue your progression.|ACTIVE|42844|FACTION|Alliance|
 R Windrunner's Sanctuary|QID|42844|M|61.81,13.70|CC|Z|Dalaran@Dalaran70|N|Back to your class hall to continue your progression.|ACTIVE|42844|FACTION|Horde|
 T Growing Power|QID|42844|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
@@ -190,15 +195,15 @@ A Rise, Champions|QID|39696|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42844
 A Bolstering Your Arsenal|QID|44063|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42844|LVL|102|
 C Bolstering Your Arsenal|QID|44063|M|49.64,72.35|N|Choose which artifact you want to pursue next.|
 T Bolstering Your Arsenal|QID|44063|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
-A Artifact Specific Quest|QID|42000;42231;42770|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063|
-t The Silver Hand|QID|42120|M|49.80,72.36|N|To Lord Maxwell Tyrosus in the class hall.|PRE|42377;44063|;holy turn in loc for 2nd or 3rd artifact
-t Shrine of the Truthguard|QID|42017|M|49.80,72.36|N|To Lord Maxwell Tyrosus in the class hall.|PRE|42005;44063|;prot turn in loc for 2nd or 3rd artifact
+A Artifact Specific Quest|QID|42000^42231^42770|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063|
+t The Silver Hand|QID|42120|M|49.80,72.36|N|To Lord Maxwell Tyrosus in the class hall.|PRE|42377 & 44063|;holy turn in loc for 2nd or 3rd artifact
+t Shrine of the Truthguard|QID|42017|M|49.80,72.36|N|To Lord Maxwell Tyrosus in the class hall.|PRE|42005 & 44063|;prot turn in loc for 2nd or 3rd artifact
 
 ;3rd artifact
 
-A Completing Your Arsenal|QID|44370|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063;42120;42017;-42774|
-A Completing Your Arsenal|QID|44370|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063;42774;42120;-42017|
-A Completing Your Arsenal|QID|44370|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063;42017;42774;-42120|
+A Completing Your Arsenal|QID|44370|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063 & 42120 & 42017 & -42774|
+A Completing Your Arsenal|QID|44370|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063 & 42774 & 42120 & -42017|
+A Completing Your Arsenal|QID|44370|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063 & 42017 & 42774 & -42120|
 C Completing Your Arsenal|QID|44370|M|49.64,72.35|NC|N|Choose the remaining spec.|
 T Completing Your Arsenal|QID|44370|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
 
@@ -306,13 +311,13 @@ C Return to Tirion Fordring|QID|38376|SO|7|M|20.19,61.38|Z|BrokenShorePaladin|N|
 T The Search for Highlord Tirion|QID|38376|M|20.43,61.55|Z|BrokenShorePaladin|
 A We Meet at Light's Hope|QID|42811|M|20.43,61.55|Z|BrokenShorePaladin|PRE|38376|
 C We Meet at Light's Hope|QID|42811|QO|1|M|19.74,60.59|Z|BrokenShorePaladin|N|Click on the Hippogryph for a ride to Light's Hope.|
-F Light's Hope Chapel|QID|99999|M|19.74,60.59|Z|BrokenShorePaladin|N|Click on the Hippogryph for a ride to Light's Hope.|PRE|38376;44063|ACTIVE|42811|
+F Light's Hope Chapel|QID|99999|M|19.74,60.59|Z|BrokenShorePaladin|N|Click on the Hippogryph for a ride to Light's Hope.|PRE|38376 & 44063|ACTIVE|42811|
 ;C We Meet at Light's Hope|QID|42811|QO|2|M|42.91,88.83|Z|Eastern Plaguelands|N|Click on the floor to open the secret door.|
 ;T We Meet at Light's Hope|QID|42811|M|63.13,37.18|Z|Eastern Plaguelands|N|To Lord Maxwell Tyrosus.|
 
 ;Chapter 1
 A The Blood Matriarch|QID|42846|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|39696|LVL|101|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|53.32,78.77|N|From Scouting Map. Note it now has 3 tabs, choose the one called scouting map.|PRE|42844|
+A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|53.32,78.77|N|From Scouting Map. Note it now has 3 tabs, choose the one called scouting map.|PRE|42844|
 t Pressing the Assault|QID|44545|M|53.32,78.77|N|To UI Alert.|
 C The Blood Matriarch|QID|42846|M|38.19,64.62|NC|N|Enlist Lady Liadrin|
 A Champion: Lady Liadrin|QID|42881|M|38.19,64.62|N|From/To Lady Leadrin.|
@@ -326,7 +331,7 @@ C Recruiting the Troops|QID|42848|M|53.24,56.15|NC|N|Go talk with Ansela, the fi
 T Recruiting the Troops|QID|42848|M|52.29,78.22|N|To Lord Grayson Shadowbreaker.|
 A Wrath and Justice|QID|42849|M|52.29,78.22|N|From Lord Grayson Shadowbreaker.|PRE|42848|
 C Wrath and Justice|QID|42849|M|53.01,78.30|NC|N|"Wrath and Justice" is an 8 hour mission. Manually check it off before that and it will be unchecked next time you come to the order hall.|
-R Dalaran Portal|QID|42866|M|37.9,63.73|CC|ACTIVE|39718;39864;39731;39733;39735|
+R Dalaran Portal|QID|42866|M|37.9,63.73|CC|ACTIVE|39718^39864^39731^39733^39735|
 t Wrath and Justice|QID|42849|M|52.32,77.95|N|To Lord Grayson Shadowbreaker.|
 A Tech It Up a Notch|QID|42850|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42849|
 C Tech It Up a Notch|QID|42850|M|39.94,56.52|NC|N|Class hall upgrade chosen.|
@@ -366,7 +371,7 @@ T Bringer of the Light|QID|44004|M|28.48,48.31|Z|Dalaran@Dalaran70|N|To Archmage
 A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran@Dalaran70|N|From Archmage Kadgar.|PRE|44004|
 T Light's Charge|QID|44153|M|52.37,69.37|N|Return to your order hall and return to Light's Heart (table in alcove adjacent scouting map).|
 
-A Meeting of the Silver Hand|QID|42867|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42850;44153|LVL|101|
+A Meeting of the Silver Hand|QID|42867|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42850 & 44153|LVL|101|
 R Light's Hope Chapel|QID|42867|QO|1|M|40.59,73.84;45.79,83.13;41.74,89.66|CS|N|Justicar Julia Celeste is found upstairs, just outside the gates.|ACTIVE|42867|
 C Meeting of the Silver Hand|QID|42867|QO|1|M|72.73,54.61|Z|Eastern Plaguelands|CHAT|N|Justicar Julia Celeste can be found outside the front gate of Light's Hope Chapel.|
 R Sanctum of Light|QID|42867|QO|2|M|75.68,52.24|Z|Eastern Plaguelands|N|Back inside your order hall.|ACTIVE|42867|
@@ -379,10 +384,10 @@ A The Scion's Legacy|QID|42919|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42
 C The Scion's Legacy|QID|42919|M|49.64,72.35|QO|1|NC|N|Listen to the dialog and then pick an option. All options lead to doing a particular mission which has the same rewards as the other three. (so it doesnt matter which you pick).|
 C The Scion's Legacy|QID|42919|M|50.91,70.87|QO|2|CHAT|N|Pick an option. All options lead to doing a particular mission which has the same rewards as the other three. (so it doesnt matter which you pick).|
 T The Scion's Legacy|QID|42919|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
-A The Highlord's Command|QID|42885;42966;42967;42968|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42919|
-C The Highlord's Command|QID|42885;42966;42967;42968|M|53.44,78.63|NC|N|Go to your mission board and choose The Highlords Command mission. This mission takes 1 hour to complete, manually check it off and when you come back to your hall you can complete the mission.|
-t The Highlord's Command|QID|42885;42966;42967;42968|M|52.32,77.95|N|To Lord Grayson Shadowbreaker.|
-A To Faronaar|QID|42886|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42885;42966;42967;42968|LVL|103|
+A The Highlord's Command|QID|42885^42966^42967^42968|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42919|
+C The Highlord's Command|QID|42885^42966^42967^42968|M|53.44,78.63|NC|N|Go to your mission board and choose The Highlords Command mission. This mission takes 1 hour to complete, manually check it off and when you come back to your hall you can complete the mission.|
+t The Highlord's Command|QID|42885^42966^42967^42968|M|52.32,77.95|N|To Lord Grayson Shadowbreaker.|
+A To Faronaar|QID|42886|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42885 & 42966 & 42967 & 42968|LVL|103|
 F Illidari Stand|QID|42886|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|42886|
 T To Faronaar|QID|42886|M|45.91,51.60|Z|Azsuna|N|To Vindicator Boros.|
 A This Is Retribution|QID|42887|M|45.91,51.60|Z|Azsuna|N|From Vindicator Boros.|PRE|42886|
@@ -407,8 +412,8 @@ A Champion: Vindicator Boros|QID|42851|M|49.34,71.59|N|From/To Vindicator Boros.
 A Champion: Justicar Julia Celeste|QID|42852|M|50.44,72.54|N|From/To Justicar Julia Celeste.|PRE|42890|
 
 ;Chapter 2
-A Cracking the Codex|QID|43486|M|48.21,72.71|LVL|103|N|From Aponi Brightmane|PRE|42851+42852|
-A Silver Hand Knights|QID|43494|M|52.35,78.03|N|From Lord Grayson Shadowbreaker.|PRE|42851+42852|
+A Cracking the Codex|QID|43486|M|48.21,72.71|LVL|103|N|From Aponi Brightmane|PRE|42851^42852|
+A Silver Hand Knights|QID|43494|M|52.35,78.03|N|From Lord Grayson Shadowbreaker.|PRE|42851^42852|
 C Silver Hand Knights|QID|43494|M|58.83,38.90|N|You have access to some tougher recruits. Train them. Don't forget to come back and pick them up.|
 T Silver Hand Knights|QID|43494|M|58.83,38.90|N|From Commander Born.|
 R Dalaran|QID|43486|M|37.9,63.73|CC|N|Take the portal to Dalaran|ACTIVE|43486|
@@ -420,7 +425,7 @@ A Blood of Our Enemy|QID|43488|M|44.58,23.09|Z|Dalaran@Dalaran70|N|From Delas Mo
 C Blood of Our Enemy|QID|43488|M|53.49,78.52|N|Use Command Board: "Blood of Our Enemy" Missions.|
 t Blood of Our Enemy|QID|43488|M|44.58,23.09|Z|Dalaran@Dalaran70|N|To Delas Moonfang.|
 
-A Translation: Danger!|QID|43535|M|44.58,23.09|Z|Dalaran@Dalaran70|N|From Delas Moonfang.|PRE|43488+43487|
+A Translation: Danger!|QID|43535|M|44.58,23.09|Z|Dalaran@Dalaran70|N|From Delas Moonfang.|PRE|43488^43487|
 T Translation: Danger!|QID|43535|M|48.37,72.77|N|To Aponi Brightmane back in your order hall.|
 A Lord Ravencrest|QID|43493|M|52.31,78.22|NA|N|From Lord Grayson Shadowbreaker.|PRE|43535|
 C Lord Ravencrest|QID|43493|M|52.31,78.22|N|Run the Black Rook Hold Dungeon.|
@@ -448,7 +453,7 @@ C The Mind of the Enemy|QID|43540|QO|5|M|26.47,40.61|Z|Niskara#1078|NC|N|Click o
 H Dalaran|QID|43540|ACTIVE|43540|U|140192|M|26.47,40.61|Z|Niskara#1078|N|Use your Dalaran Hearthstone and then run back to your order hall to turn in.|
 T Allies of the Light|QID|43491|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
 T The Mind of the Enemy|QID|43540|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
-A United As One|QID|43541|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43540+43491|
+A United As One|QID|43541|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43540^43491|
 C United As One|QID|43541|M|52.31,78.22|QO|1|CHAT|N|Listen to Delas Moonfang's speech and the ensuing discussion.|
 C United As One|QID|43541|M|49.86,72.22|QO|2|CHAT|N|Tell Lord Tyrosus that we will fight.|
 T United As One|QID|43541|M|48.35,72.58|N|To Aponi Brightmane.|
@@ -469,7 +474,7 @@ C Defenders of the World|QID|43699|N|Go do world quests, come back when complete
 C Lumenstone|QID|43698|M|53.51,78.49|US|NC|N|At your command board.Continue going on missions until you have all the needed lumenstones.|
 T Lumenstone|QID|43698|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
 T Defenders of the World|QID|43699|M|52.31,78.22|N|To Lord Grayson Shadowbreaker.|
-A A Light in the Darkness|QID|43700|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43534+43698+43699|
+A A Light in the Darkness|QID|43700|M|52.31,78.22|N|From Lord Grayson Shadowbreaker.|PRE|43534^43698^43699|
 P Dalaran|QID|43700|ACTIVE|43700|M|37.53,64.07|N|Take the portal to Dalaran from your order hall, when in Dalaran, Take the portal to Netherlight Temple to enter a solo scenario (right beside the portal back to Sanctum of Light).|
 C Join the Battle|QID|43700|SO|1|M|49.57,61.41|Z|NetherlightTemple/1|N|Walk forward to start the fighting.|
 C Defeat Balnazzar's Lieutenants|QID|43700|SO|2;1|M|75.91,40.93|Z|NetherlightTemple/1|T|Ogoroth|N|Kill Ogoroth.|
@@ -492,7 +497,7 @@ A Champion: Arator the Redeemer|QID|43785|M|48.81,73.47|N|From/To Arator the Red
 
 ; LVL 110 Quests, Obliterum / Tears to Light's Heart.
 
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337^44338|
 C In the House of Light and Shadow|QID|44448|M|52.37,69.37|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
 A Firing Up the Forge|QID|41778|LVL|110|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
 C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
@@ -545,13 +550,13 @@ R Temple of Zin-Malor - Azshara|QID|44480|ACTIVE|44480|M|35.1,49.9|Z|Azshara|N|M
 C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action button to see Xe'ra's message.|
 H Dalaran|QID|44480|ACTIVE|44480|M|35.13,49.90|Z|Azshara|U|140192|N|Return to your class hall to turn in the quest.|
 T In My Father's House|QID|44480|M|52.46,69.29|N|Return to Light's Heart in your order hall.|
-A Destiny Unfulfilled|QID|44481;44496;44497|M|52.46,69.29|N|From Light's Heart.|PRE|44480|
-P Dalaran|QID|44481;44496;44497|ACTIVE|44481;44496;44497|M|38.11,63.38|N|Click on the portal to Dalaran.|
-P Shattrath|QID|44481;44496;44497|ACTIVE|44481;44496;44497|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|
-R Shadowmoon Valley|QID|44481;44496;44497|ACTIVE|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|
-C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
-H Dalaran|QID|44481;44496;44497|ACTIVE|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|U|140192|N|Return to your class hall to turn in the quest.|
-T Destiny Unfulfilled|QID|44481;44496;44497|M|52.46,69.29|N|Return to Light's Heart in your order hall.|
+A Destiny Unfulfilled|QID|44481^44496^44497|M|52.46,69.29|N|From Light's Heart.|PRE|44480|
+P Dalaran|QID|44481^44496^44497|ACTIVE|44481^44496^44497|M|38.11,63.38|N|Click on the portal to Dalaran.|
+P Shattrath|QID|44481^44496^44497|ACTIVE|44481^44496^44497|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|
+R Shadowmoon Valley|QID|44481^44496^44497|ACTIVE|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|
+C Destiny Unfulfilled|QID|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
+H Dalaran|QID|44481^44496^44497|ACTIVE|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|U|140192|N|Return to your class hall to turn in the quest.|
+T Destiny Unfulfilled|QID|44481^44496^44497|M|52.46,69.29|N|Return to Light's Heart in your order hall.|
 A The Power Within|QID|43496|PRE|44480|M|37.76,54.82|N|From Image of Kalec. prereq either AK>=10 or finishing paladin campaign.|
 P Dalaran|QID|43496|ACTIVE|43496|M|37.53,64.07|N|Take the portal to Dalaran from your order hall.|
 F Azurewing Repose|QID|43496|ACTIVE|43496|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|
@@ -608,7 +613,7 @@ F Vengeance Point|QID|45148|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune White
 T Champions of Legionfall|QID|47137|M|44.53,63.53|Z|Broken Shore|N|To Maiev Shadowsong. You can now train the next order hall advancement.|
 
 ;legionfall mount quest
-B Stonehide Leather Barding|QID|46070|L|131746|N|Acquire from your friendly alt, guildee or auction house.|ITEM|131746|ACTIVE|46070;46069|
+B Stonehide Leather Barding|QID|46070|L|131746|N|Acquire from your friendly alt, guildee or auction house.|ITEM|131746|ACTIVE|46070^46069|
 t Worthy of the Title|QID|46069|M|52.26,78.13|N|To Lord Grayson Shadowbreaker.|
 A Preparations Underway|QID|46070|M|52.26,78.13|N|From Lord Grayson Shadowbreaker.|PRE|46069|
 T Preparations Underway|QID|46070|M|52.26,78.13|N|To Lord Grayson Shadowbreaker. Assuming you picked up the barding before coming to your order hall, you can immediately turn this in.|

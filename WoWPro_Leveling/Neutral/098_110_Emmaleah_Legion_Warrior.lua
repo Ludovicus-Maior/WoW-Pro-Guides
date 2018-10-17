@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3677
+-- Date: 2018-10-17 02:29
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3677/revisions/29805/view
 -- Date: 2018-09-23 09:51
 -- Who: elidion
 -- Log: A few more tweaks to make the flow better for boosted characters. 
@@ -111,14 +116,14 @@ return [[
 
 ;the lines starting with ";*" are copied from a differant class guide and need updated with the correct coordinates and/or NPC names
 
-A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|PRE|44120+44473|
+A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|PRE|44120^44473|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
-A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|PRE|44120+44473|
+A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|PRE|44120^44473|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 ;both
-C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
-T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
+C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
 
 A A Desperate Plea|QID|41052|FACTION|Horde|M|57.47,45.56|Z|Dalaran!Dalaran!Dungeon|N|From Eitrigg.|
 C A Desperate Plea|QID|41052|FACTION|Horde|M|75.04,46.22|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Talk with High Overlord Saurfang.|
@@ -128,15 +133,15 @@ T An Important Mission|QID|42814|FACTION|Alliance|M|74.64,45.01|Z|Dalaran!Dalara
 
 A Return to the Broken Shore|QID|38904|FACTION|Horde|M|75.05,46.18|Z|Dalaran!Dalaran!Dungeon|N|From High Overlord Saurfang.|PRE|41052|
 A Return to the Broken Shore|QID|42815|FACTION|Alliance|M|75.05,46.18|Z|Dalaran!Dalaran!Dungeon|N|From Danath Trollbane.|PRE|42814|
-C Return to the Broken Shore|QID|38904;42815|NC|QO|1|M|75.04,47.17|Z|Dalaran!Dalaran!Dungeon|N|Hop on the extra mount.|
-C Meet up with the vrykul.|SO|1;1|M|50.37,28.28|Z|Broken Shore|N|Meet up with the vrykul.|QID|38904;42815|
-C Legion forces eliminated|SO|2;1|M|51.28,30.71|Z|Broken Shore|N|Aid the vrykul in eliminating the Legion forces.|QID|38904;42815|
-C Approach Danica|SO|3;1|M|50.90,29.94|Z|Broken Shore|N|Approach Danica|QID|38904;42815|
-C Defeat Bezzeredes and his allies.|SO|4;1|M|49.45,32.56|Z|Broken Shore|N|Defeat Bezzeredes and his allies.|QID|38904;42815|
-C Defeat Malgalor|SO|5;1|M|49.64,28.65|Z|Broken Shore|N|Defeat Malgalor.|QID|38904;42815|
-C Return to the Broken Shore|QID|38904;42815|QO|2|M|59.04,27.27|Z|Broken Shore|N|When all looks lost, Malgalor says "Death comes, but I will take you with me" and the fight ends.|
-T Return to the Broken Shore|QID|38904;42815|M|59.00,29.68|Z|Skyhold!Dungeon|N|To Danica the Reclaimer.|
-A Odyn and the Valarjar|QID|39654|M|59.07,29.88|Z|Skyhold!Dungeon|N|From Danica the Reclaimer.|PRE|38904+42815|
+C Return to the Broken Shore|QID|38904^42815|NC|QO|1|M|75.04,47.17|Z|Dalaran!Dalaran!Dungeon|N|Hop on the extra mount.|
+C Meet up with the vrykul.|SO|1;1|M|50.37,28.28|Z|Broken Shore|N|Meet up with the vrykul.|QID|38904^42815|
+C Legion forces eliminated|SO|2;1|M|51.28,30.71|Z|Broken Shore|N|Aid the vrykul in eliminating the Legion forces.|QID|38904^42815|
+C Approach Danica|SO|3;1|M|50.90,29.94|Z|Broken Shore|N|Approach Danica|QID|38904^42815|
+C Defeat Bezzeredes and his allies.|SO|4;1|M|49.45,32.56|Z|Broken Shore|N|Defeat Bezzeredes and his allies.|QID|38904^42815|
+C Defeat Malgalor|SO|5;1|M|49.64,28.65|Z|Broken Shore|N|Defeat Malgalor.|QID|38904^42815|
+C Return to the Broken Shore|QID|38904^42815|QO|2|M|59.04,27.27|Z|Broken Shore|N|When all looks lost, Malgalor says "Death comes, but I will take you with me" and the fight ends.|
+T Return to the Broken Shore|QID|38904^42815|M|59.00,29.68|Z|Skyhold!Dungeon|N|To Danica the Reclaimer.|
+A Odyn and the Valarjar|QID|39654|M|59.07,29.88|Z|Skyhold!Dungeon|N|From Danica the Reclaimer.|PRE|38904^42815|
 C Odyn and the Valarjar|QID|39654|QO|1|M|59.23,45.46|Z|Skyhold!Dungeon|NC|N|Follow Danica|
 C Odyn and the Valarjar|QID|39654|QO|2|M|58.55,68.39|Z|Skyhold!Dungeon|NC|N|Go to the Great Mead Hall|
 C Odyn and the Valarjar|QID|39654|QO|3|M|58.45,76.79|Z|Skyhold!Dungeon|NC|N|Listen to Odyn|
@@ -144,10 +149,10 @@ T Odyn and the Valarjar|QID|39654|M|58.43,85.13|Z|Skyhold!Dungeon|N|To Odyn.|
 A Weapons of Legend|QID|40579|M|58.43,85.13|Z|Skyhold!Dungeon|N|From Odyn.|PRE|39654|
 C Weapons of Legend|QID|40579|M|58.43,85.13|Z|Skyhold!Dungeon|NC|N|Choose which artifact path you want, the next one will be available when you are level 102.|
 T Weapons of Legend|QID|40579|M|58.43,85.13|Z|Skyhold!Dungeon|N|To Odyn.|
-A Artifact Specific Quest|QID|41105;40043;39191|Z|Skyhold!Dungeon|M|58.43,85.13|N|From Odyn.|PRE|40579|
+A Artifact Specific Quest|QID|41105^40043^39191|Z|Skyhold!Dungeon|M|58.43,85.13|N|From Odyn.|PRE|40579|
 
 ;ARMS
-A The Sword of Kings|QID|41105|M|58.43,85.13|Z|Skyhold!Dungeon|N|From Odyn.|PRE|40582;40579|
+A The Sword of Kings|QID|41105|M|58.43,85.13|Z|Skyhold!Dungeon|N|From Odyn.|PRE|40582 & 40579|
 C The Sword of Kings|QID|41105|CHAT|QO|1|M|58.39,24.69|Z|Skyhold!Dungeon|N|(Optional) Speak with Aerylia to go to Dalaran|
 P Chamber of the Guardian|M|49.04,48.03|Z|Dalaran!Dalaran!Dungeon|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|41105|
 C The Sword of Kings|QID|41105|NC|QO|2|M|29.13,77.48|Z|Aegwynn's Gallery@Dalaran70|N|(Optional) Take the Portal to Dalaran Crater. Its a long fall, you probably won't die...|
@@ -168,7 +173,7 @@ C The Sword of Kings|QID|41105|Z|Keeper's Rest|QO|5|NC|N|Step into the glowing c
 T The Sword of Kings|QID|41105|M|58.64,85.92|Z|Skyhold!Dungeon|N|To Odyn.|
 
 ;FURY
-A The Hunter of Heroes|QID|40043|M|58.48,84.54|Z|Dalaran!Dalaran!Dungeon|N|From Odyn.|PRE|40581;40579|
+A The Hunter of Heroes|QID|40043|M|58.48,84.54|Z|Dalaran!Dalaran!Dungeon|N|From Odyn.|PRE|40581 & 40579|
 C The Hunter of Heroes|QID|40043|M|58.43,24.55|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Speak with Aerylia to go to Tideskorn Harbor.|
 C Into the Mists|SO|1|Z|Stormheim|N|The village is shrouded in mists. Light the bonfire to clear it and provoke the Helarjar.|QID|40043|
 C Defeat waves of Enemies|SO|2;2|M|62.47,46.23|Z|Stormheim|N|Defeat waves of Enemies.|QID|40043|
@@ -183,7 +188,7 @@ C The Hunter of Heroes|QID|40043|NC|QO|3|M|55.41,42.94|Z|Stormheim|N|Stand in th
 T The Hunter of Heroes|QID|40043|M|58.58,85.63|N|To Odyn.|
 
 ;PROTECTION
-A Legacy of the Icebreaker|QID|39191|M|58.42,84.89|N|From Odyn.|PRE|40580;40579|
+A Legacy of the Icebreaker|QID|39191|M|58.42,84.89|N|From Odyn.|PRE|40580 & 40579|
 C Legacy of the Icebreaker|QID|39191|M|59.31,26.60|CHAT|N|Talk with Hrithnir.|
 C The Sealed Tomb|QID|39191|SO|1;1|M|84.26,9.55|Z|Stormheim|N|Fight your way down the hill (with Hrithnir) until you get to the entrance of the tomb.|
 C Find Magnar|QID|39191|SO|3;1|M|53.22,57.52|Z|Stormheim/1|N|Heroic Leap to the nearest mob, after he dies, Heroic Leap to the one across.  When those two are dead, the wind on the floor goes away.|
@@ -197,9 +202,9 @@ T Legacy of the Icebreaker|QID|39191|M|58.51,85.77|N|To Odyn.|
 A The Eye of Odyn|QID|39214|M|59.63,83.80|Z|Skyhold!Dungeon|N|From Danica the Reclaimer.|
 T The Eye of Odyn|QID|39214|M|59.78,13.33|N|To Skyseer Ghrent.|
 A Thus Begins the War|QID|40585|M|59.78,13.33|N|From Skyseer Ghrent.|PRE|39214|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|59.45,13.34|N|From the Eye of Odyn. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40585|LEAD|38907|
+A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|59.45,13.34|N|From the Eye of Odyn. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40585|LEAD|38907|
 T Thus Begins the War|QID|40585|M|59.78,13.33|N|To Skyseer Ghrent.|
-C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|58.55,24.00|CHAT|N|Talk to the Val'kyr for transport to Dalaran.|
+C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|58.55,24.00|CHAT|N|Talk to the Val'kyr for transport to Dalaran.|
 
 ;Class hall development lvl 101 to 109
 A Odyn's Summons|QID|42597|M|60.71,45.05|Z|Dalaran!Dalaran!Dungeon|N|From Danica the Reclaimer.|LVL|101|PRE|40585| ; Popup when I came back to Dal after hitting 101
@@ -304,12 +309,12 @@ C The Might of the Val'kyr|QID|44222|M|71.95,31.26|N|Open your World Map, and us
 t The Might of the Val'kyr|QID|44222|M|73.17,30.50|N|To Matilda Skoptidottir.|
 
 C Goddess Watch Over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
-R Dalaran|QID|44337;44338|ACTIVE|44337;44338|M|58.58,25.35|CHAT|N|Ask Aerylia to sent you to Dalaran.|
-t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|LVL|110|
+R Dalaran|QID|44337^44338|ACTIVE|44337^44338|M|58.58,25.35|CHAT|N|Ask Aerylia to sent you to Dalaran.|
+t Goddess Watch over You|QID|44337^44338|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|LVL|110|
 A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|
 C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|S|NC|N|Since this is the first character on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests.|
-t Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
+t Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|PRE|44337^44338|
 R Skyhold|QID|44448|M|75.19,47.20|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Jump to Skyhold|ACTIVE|44448|LVL|110|
 C In the House of Light and Shadow|QID|44448|M|45.40,30.03|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
 
@@ -422,20 +427,20 @@ R Temple of Zin-Malor - Azshara|QID|44480|QO|1|M|35.1,49.9|Z|Azshara|N|Mount up 
 C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action button to see Xe'ra's message.|
 H Dalaran|ACTIVE|44480|Z|Azshara|U|140192|N|Hearth to Dalaran, and return to your Order Hall.|
 T In My Father's House|QID|44480|M|45.31,30.30|N|Return to Light's Heart in your order hall.|
-A Destiny Unfulfilled|QID|44481;44496;44497|M|45.31,30.30|N|From Light's Heart.|PRE|44480|
-P Dalaran|QID|44481;44496;44497|QO|1|M|58.59,24.98|N|Speak with Aerylia to go to Dalaran.|ACTIVE|44481;44496;44497|
-P Terrace of Light|QID|44481;44496;44497|QO|1|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|ACTIVE|44481;44496;44497|
-F Sanctum of the Stars|QID|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|REP|The Scryers;934;Friendly-Exalted|N|Talk to Nutral to take Flight Path|ACTIVE|44481;44496;44497|
-F Altar of Sha'tar|QID|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|REP|The Aldor;932;Friendly-Exalted|N|Talk to Nutral to take Flight Path|ACTIVE|44481;44496;44497|
-F Shadowmoon Village|QID|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum or Altar|ACTIVE|44481;44496;44497|FACTION|HORDE|
-F Wildhammer Stronghold|QID|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum or Altar|ACTIVE|44481;44496;44497|FACTION|ALLIANCE|
-R Shadowmoon Valley|QID|44481;44496;44497|QO|1|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|ACTIVE|44481;44496;44497|
-C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
-H Dalaran|QID|44481;44496;44497|Z|Shadowmoon Valley|U|140192|N|Hearth to Dalaran, and return to your Order Hall.|ACTIVE|44481;44496;44497|
-T Destiny Unfulfilled|QID|44481;44496;44497|M|45.31,30.30|N|Return to Light's Heart in your order hall.|
+A Destiny Unfulfilled|QID|44481^44496^44497|M|45.31,30.30|N|From Light's Heart.|PRE|44480|
+P Dalaran|QID|44481^44496^44497|QO|1|M|58.59,24.98|N|Speak with Aerylia to go to Dalaran.|ACTIVE|44481^44496^44497|
+P Terrace of Light|QID|44481^44496^44497|QO|1|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|ACTIVE|44481^44496^44497|
+F Sanctum of the Stars|QID|44481^44496^44497|QO|1|M|64.07,41.10|Z|Shattrath City|REP|The Scryers;934;Friendly-Exalted|N|Talk to Nutral to take Flight Path|ACTIVE|44481^44496^44497|
+F Altar of Sha'tar|QID|44481^44496^44497|QO|1|M|64.07,41.10|Z|Shattrath City|REP|The Aldor;932;Friendly-Exalted|N|Talk to Nutral to take Flight Path|ACTIVE|44481^44496^44497|
+F Shadowmoon Village|QID|44481^44496^44497|QO|1|M|64.07,41.10|Z|Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum or Altar|ACTIVE|44481^44496^44497|FACTION|HORDE|
+F Wildhammer Stronghold|QID|44481^44496^44497|QO|1|M|64.07,41.10|Z|Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum or Altar|ACTIVE|44481^44496^44497|FACTION|ALLIANCE|
+R Shadowmoon Valley|QID|44481^44496^44497|QO|1|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|ACTIVE|44481^44496^44497|
+C Destiny Unfulfilled|QID|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
+H Dalaran|QID|44481^44496^44497|Z|Shadowmoon Valley|U|140192|N|Hearth to Dalaran, and return to your Order Hall.|ACTIVE|44481^44496^44497|
+T Destiny Unfulfilled|QID|44481^44496^44497|M|45.31,30.30|N|Return to Light's Heart in your order hall.|
 
 ;light's heart, requires AK>=7
-A The Hunt for Illidan Stormrage|QID|45174|M|45.31,30.30|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481;44496;44497|
+A The Hunt for Illidan Stormrage|QID|45174|M|45.31,30.30|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481 & 44496 & 44497|
 P Azurewing Repost|QID|45174|QO|1|M|58.59,24.98|N|Speak with Aerylia to go to Azsuna.|ACTIVE|45174|
 F Illidari Stand|QID|45174|QO|1|M|48.43,28.05|Z|Azsuna|N|At Dagrona.|ACTIVE|45174|
 T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|

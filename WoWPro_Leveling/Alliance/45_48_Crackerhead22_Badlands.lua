@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_badlands_alliance
+-- Date: 2018-10-17 02:24
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3247/revisions/29669/view
 -- Date: 2018-09-04 21:32
 -- Who: Ludovicus
 -- Log: Added missing CN tag on [The Day that Deathwing Came: The Real Story]
@@ -178,7 +183,7 @@ C Second Sample: Whelps|QID|27766|M|70.61,45.08|N|Kill whelps then loot the corp
 C First Sample: Wild Eggs|QID|27765|M|70.61,45.08|N|There at the bottom edges of the surrounding cliffs. You usually will be attacked when you pick up an egg.|US|
 T First Sample: Wild Eggs|QID|27765|M|66.48,55.30|N|To Rhea.|
 T Second Sample: Whelps|QID|27766|M|66.48,55.30|N|To Rhea.|
-A Lifting the Veil|QID|27770|PRE|27765;27766|M|66.48,55.30|N|From Rhea.|
+A Lifting the Veil|QID|27770|PRE|27765 & 27766|M|66.48,55.30|N|From Rhea.|
 C Lifting the Veil|QID|27770|M|66.48,55.30|N|Witness the final piece of Rhea's studies (stay where you are, and wait a few seconds for Nyxondra to appear)|NC|
 T Lifting the Veil|QID|27770|M|66.46,55.38|N|To Rhea.|
 A Third Sample: Implanted Eggs|QID|27771|PRE|27770|M|66.41,55.57|N|From Rhea.|
@@ -224,7 +229,7 @@ T The Warden's Pawn|QID|27796|M|50.21,54.35|N|At the Stone Slab.|
 A The Warden's Game|QID|27693|PRE|27796|M|50.21,54.35|N|From the Stone Slab.|
 C The Warden's Game|QID|27693|M|50.24,54.30|N|Stand in the middle of the pawns and face north. Move the top-left pawn(the one that faces NW) into the middle. Move the rest of the pawns clockwise until they all face inwards, then move the one in the middle to the bottom-right.|
 T The Warden's Game|QID|27693|M|50.24,54.30|N|(UI Alert)|
-A Ancient Protectors|QID|27793|PRE|27693;27709|M|50.24,54.30|N|(UI Alert)|
+A Ancient Protectors|QID|27793|PRE|27693 & 27709|M|50.24,54.30|N|(UI Alert)|
 C Ancient Protectors|QID|27793|M|50.49,50.97|N|The golems attack a few seconds after inserting the corresponding statue.|
 T Ancient Protectors|QID|27793|M|50.39,51.04|N|(UI Alert)|
 A The Titans' Trove|QID|27912|PRE|27793|M|50.39,51.04|N|(UI Alert)|
@@ -265,7 +270,7 @@ T Olaf, the Big Fella'|QID|27835|M|20.53,55.94|N|To Olaf.|
 T Baelog, the Glass Cannon|QID|27834|M|20.53,55.94|N|To Baelog.|
 T Eric, the Utility Dwarf|QID|27828|M|20.53,55.94|N|To Eric "The Swift".|
 
-A The Wrath of a Dragonflight|QID|27829|PRE|27828;27834;27835|M|20.53,55.94|N|From Eric "The Swift".|
+A The Wrath of a Dragonflight|QID|27829|PRE|27828 & 27834 & 27835|M|20.53,55.94|N|From Eric "The Swift".|
 N Note:|QID|27829|N|Abuse the heck out of Eric's, "Eric's Charge" ability as it is a stun. Especially when fighting the elites. Close this step.|
 C The Wrath of a Dragonflight|QID|27829|M|26.38,45.02|N|Kalaran wanders around so look for his boss icon on the minimap.|
 T The Wrath of a Dragonflight|QID|27829|M|26.12,45.32|N|(UI Alert)|
@@ -282,7 +287,7 @@ T The Hidden Clutch|QID|27832|M|16.01,33.31|N|To Rhea.|
 A Rheastrasza's Gift|QID|27858|PRE|27832|M|16.09,33.20|N|From Rhea.|
 C Rheastrasza's Gift|QID|27858|M|15.89,32.95|N|Cutscene: Wait as Rhea retrieves the egg from the Hidden Clutch.|
 T Rheastrasza's Gift|QID|27858|M|17.47,30.64|N|(UI Alert)|
-A Devastation|QID|27930|PRE|27858+27898|M|17.47,30.64|N|(UI Alert)|
+A Devastation|QID|27930|PRE|27858^27898|M|17.47,30.64|N|(UI Alert)|
 T Devastation|QID|27930|M|18.77,30.16|N|Go inside the cave.|
 A The Egg Lives On|QID|27859|PRE|27930|M|17.98,30.55|N|From Dr. Hieronymus Blam.|
 

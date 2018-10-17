@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3584
+-- Date: 2018-10-17 02:31
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3584/revisions/27322/view
 -- Date: 2015-07-05 18:13
 -- Who: Ludovicus_Maior
 -- Log: Icon add
@@ -57,7 +62,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A Iron Horde Invasion|QID|36499|M|49.69,76.43|Z|Orgrimmar@Orgrimmar|
-C The Dark Portal |QID|34398;36881|N|You have accepted quest [The Dark Portal] for the follow-on to this guide. Drop it or you will not be able to complete any quest after [Iron Horde Invasion].|
+C The Dark Portal |QID|34398^36881|N|You have accepted quest [The Dark Portal] for the follow-on to this guide. Drop it or you will not be able to complete any quest after [Iron Horde Invasion].|
 F Shattered Landing|QID|36499|NC|M|47.15,62.02|Z|Cleft of Shadow@Orgrimmar|N|Click on the Portal in the Cleft of Shadow.|
 f Shattered Landing|QID|36499|ACTIVE|36499|M|72.95,48.58|Z|Blasted Lands|N|At Ameri Windblade.|
 A Peeking into the Portal|QID|36382|M|71.88,48.97|Z|Blasted Lands|N|From Rokhan.|

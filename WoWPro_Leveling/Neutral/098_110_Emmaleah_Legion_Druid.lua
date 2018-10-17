@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3669
+-- Date: 2018-10-17 02:29
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3669/revisions/29263/view
 -- Date: 2018-05-07 20:16
 -- Who: Emmaleah
 -- Log: Remove deprecated quest "hitting the books"
@@ -112,14 +117,14 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Druid")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
+A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
-A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
+A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 
-C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
-T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
+C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
 A A Summons From Moonglade|QID|40643|PRE|44663|M|57.77,44.90|Z|Dalaran@Dalaran70|N|From Archdruid Hamuul Runetotem.|
 T A Summons From Moonglade|QID|40643|M|57.77,44.90|Z|Dalaran@Dalaran70|N|Use Teleport Moonglade when you are done in Dalaran. Archdruid Hamuul Runetotem is standing right in front of you when you arrive.|
@@ -143,7 +148,7 @@ T To The Dreamgrove|QID|40645|M|44.55,51.02|N|To Rensar Greathoof.|
 A Weapons of Legend|QID|40646|M|44.55,51.02|N|From Rensar Greathoof.|PRE|40645|
 C Weapons of Legend|QID|40646|NC|QO|1|M|44.55,51.02|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 102).|
 T Weapons of Legend|QID|40646|M|44.55,51.02|N|To Rensar Greathoof.|
-A Artifact Specific Quest|QID|40783;42428;41468;40649|M|44.55,51.02|N|From one of the Druids in the area.|PRE|40646|
+A Artifact Specific Quest|QID|40783^42428^41468^40649|M|44.55,51.02|N|From one of the Druids in the area.|PRE|40646|
 
 ;Class hall development lvl 101 to 109
 T Growing Power|QID|42516|M|44.66,51.95|N|To Rensar Greathoof.|
@@ -250,7 +255,7 @@ T Light's Charge|QID|44153|M|60.23,51.94|NC|N|Return to your order hall and retu
 A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 110.|LVL|110|
 A Uniting the Isles|QID|45727|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|ACTIVE|-43341|
 C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran@Dalaran70|NC|N|Since this is the first character to 110 on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests. Check this off manually until it's complete.|
-t Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+t Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 P Emerald Dreamway|QID|44232|M|28.43,48.38|Z|Dalaran@Dalaran70|N|Use your Dreamwalk Portal|LVL|110|
 A Goddess Watch Over You|QID|44337|M|51.98,32.52|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 110 and will follow you around until you accept this quest.|LVL|110|
 A An Urgent Warning|QID|46026|M|46.40,48.65|N|From an Injured Druid of the Claw.|
@@ -276,7 +281,7 @@ C Cleaning Up|QID|42043|M|35.64,45.71|Z|EmeraldDreamway|US|NC|N|Keep walking on 
 T Teensy Weensies!|QID|42042|M|45.07,32.56|Z|EmeraldDreamway|N|To Mylune.|
 T Cleaning Up|QID|42043|M|43.00,30.25|Z|EmeraldDreamway|N|To Bashana Runetotem.|
 T Enduring the Nightmare|QID|42041|M|43.35,30.73|Z|EmeraldDreamway|N|To Archdruid Hamuul Runetotem.|
-A A Dying Dream|QID|42044|M|43.35,30.73|Z|EmeraldDreamway|N|From Archdruid Hamuul Runetotem.|PRE|42041;42042;42043|
+A A Dying Dream|QID|42044|M|43.35,30.73|Z|EmeraldDreamway|N|From Archdruid Hamuul Runetotem.|PRE|42041 & 42042 & 42043|
 C A Dying Dream|QID|42044|M|66.94,46.42|Z|EmeraldDreamway|N|Kill Witherheart.|T|Witherheart|
 T A Dying Dream|QID|42044|M|43.35,30.73|Z|EmeraldDreamway|N|To Archdruid Hamuul Runetotem.|
 A Communing With Malorne|QID|42045|M|43.35,30.73|Z|EmeraldDreamway|N|From Archdruid Hamuul Runetotem.|PRE|42044|
@@ -286,7 +291,7 @@ C Communing With Malorne|QID|42045|QO|3|M|60.32,23.69|Z|Mount Hyjal|NC|N|Click o
 T Communing With Malorne|QID|42045|M|60.51,23.60|Z|Mount Hyjal|N|To Keeper Remulos.|
 A A New Beginning|QID|42046|M|60.51,23.60|Z|Mount Hyjal|N|From Keeper Remulos.|PRE|42045|
 P Emerald Dreamway|QID|42046|M|59.04,26.21|Z|Mount Hyjal|N|Back to the Emerald Dreamway.|
-A The Cycle Continues|QID|43365|M|29.53,42.40|Z|EmeraldDreamway|N|From Brightwing. who will be fluttering about near the Dreamgrove portal (or if you take too long... most anywhere in the Dreamway). These next three quests and recruiting Brightwing are optional, manually check them off if you want to skip them.||PRE|42045|
+A The Cycle Continues|QID|43365|M|29.53,42.40|Z|EmeraldDreamway|N|From Brightwing. who will be fluttering about near the Dreamgrove portal (or if you take too long... most anywhere in the Dreamway). These next three quests and recruiting Brightwing are optional, manually check them off if you want to skip them.|PRE|42045|
 A Eye of Azshara: Cleansing the Dreamway|QID|42719|M|29.53,42.40|Z|EmeraldDreamway|N|From Brightwing.|PRE|42045|
 A The Pendant of Starlight|QID|42129|M|29.53,42.40|Z|EmeraldDreamway|N|From Brightwing.|PRE|42045|
 C The Cycle Continues|QID|43365|S|N|Either go somewhere where you can slaughter 100 creatures quickly or remember to use the seeds as you go about other tasks. (any level, any body could have killed them, just need 100 reasonably recent corpses).|U|139380|
@@ -295,10 +300,10 @@ P The Dreamgrove|QID|42046|M|45.56,23.60|Z|EmeraldDreamway|N|Return to the Dream
 T A New Beginning|QID|42046|M|44.67,51.97|N|To Rensar Greathoof.|
 A Champion: Hamuul Runetotem|QID|42047|M|47.97,55.50|N|From/To Hamuul Runetotem.|PRE|42046|
 A Champion: Mylune|QID|42048|M|53.86,53.60|N|From/To Mylune.|PRE|42046|
-A Powering the Portal|QID|42049|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047;42048|
-A Defending the Isles|QID|43403|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047;42048|
+A Powering the Portal|QID|42049|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047 & 42048|
+A Defending the Isles|QID|43403|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047 & 42048|
 ;42037;44074;44075;44076;44077|
-A Focusing the Energies|QID|42365|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047;42048|
+A Focusing the Energies|QID|42365|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047 & 42048|
 C Focusing the Energies|QID|42365|M|44.57,50.12|N|Assuming you have the Blood of Sargeras you can immediately turn this in, otherwise you can manually check this off and come turn it in when you have collected it.|
 t Focusing the Energies|QID|42365|M|44.57,50.12|N|To Keeper Remulos.|
 C Powering the Portal|QID|42049|M|46.40,48.65|NA|NC|N|Use scouting map to do the requested missions. Manually check this off to continue thru the guide while the missions are in progress.|
@@ -309,10 +314,10 @@ P Emerald Dreamway|QID|42129|M|32,24|Z|Val'sharah|N|Use Dreamwalk to return to B
 t The Cycle Continues|QID|43365|M|29.53,42.40|Z|EmeraldDreamway|N|To Brightwing.|
 t Eye of Azshara: Cleansing the Dreamway|QID|42719|M|29.53,42.40|Z|EmeraldDreamway|N|To Brightwing.|
 t The Pendant of Starlight|QID|42129|M|29.53,42.40|Z|EmeraldDreamway|N|To Brightwing.|
-A Champion: Brightwing|QID|43368|M|29.53,42.40|Z|EmeraldDreamway|N|From/To Brightwing.|PRE|43365;42719;42129|
+A Champion: Brightwing|QID|43368|M|29.53,42.40|Z|EmeraldDreamway|N|From/To Brightwing.|PRE|43365 & 42719 & 42129|
 t Powering the Portal|QID|42049|M|44.57,50.12|N|To Keeper Remulos.|
 t Focusing the Energies|QID|42365|M|44.57,50.12|N|To Keeper Remulos.|
-A Enter Nightmare|QID|42051|M|44.67,51.97|N|From Rensar Greathoof.|PRE|42049;42365|
+A Enter Nightmare|QID|42051|M|44.67,51.97|N|From Rensar Greathoof.|PRE|42049 & 42365|
 P Emerald Dreamway|QID|42051|M|55.27,22.93|N|Run out to the Emerald Dreamway.|ACTIVE|42051|
 C Enter Nightmare|QID|42051|M|44.56,45.38;81.32,40.02|CS|Z|EmeraldDreamway|N|Go through the Nightmare Portal.|
 T Enter Nightmare|QID|42051|M|61.44,65.67|Z|MalornesNightmare|N|To Keeper Remulos.|
@@ -338,16 +343,16 @@ T A Hero's Weapon|QID|43409|M|32.53,54.01|N|To Rensar Greathoof, Congratulations
 A The Emerald Nightmare|QID|42432|M|32.53,54.01|N|From Rensar Greathoof. This is a raid quest and can be completed on any difficulty.|
 
 P Dalaran|QID|44337|M|56.50,43.14|N|Back to Dalaran for more new 110 quests.|
-t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
+t Goddess Watch over You|QID|44337^44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337^44338|
 C In the House of Light and Shadow|QID|44448|M|60.23,51.94|N|Head back to your order hall, before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
 
 ;obliterum quest, post 7.2
 A Firing Up the Forge|QID|41778|LVL|110|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From Archmage Karlain.|
 C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
 T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
-t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.
-A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
+t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337^44338|
 C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran@Dalaran70|NC|N|Click on the arcane anomoly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
 T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Trail of Echos|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
@@ -403,15 +408,15 @@ R Windrunner's Sanctuary|QID|44480|QO|1|M|55.33,24.04|Z|Dalaran@Dalaran70|N|Take
 R Temple of Zin-Malor - Azshara|QID|44480|QO|1|M|35.1,49.9|Z|Azshara|N|Mount up and fly to Azshara.|ACTIVE|44480|
 C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|NC|N|Use your extra action button to see Xe'ra's message.|
 T In My Father's House|QID|44480|M|49.64,26.41|N|Return to Light's Heart in your order hall.|
-A Destiny Unfulfilled|QID|44481;44496;44497|M|28.43,48.38|N|From Light's Heart.|PRE|44480|
-P Dalaran|QID|44481;44496;44497|QO|1|M|56.51,43.13|N|Click on the portal to Dalaran.|ACTIVE|44481;44496;44497|
-P Shattrath|QID|44481;44496;44497|QO|1|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|ACTIVE|44481;44496;44497|
-R Shadowmoon Valley|QID|44481;44496;44497|QO|1|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|ACTIVE|44481;44496;44497|
-C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
-T Destiny Unfulfilled|QID|44481;44496;44497|M|28.43,48.38|N|Return to Light's Heart in your order hall.|
+A Destiny Unfulfilled|QID|44481^44496^44497|M|28.43,48.38|N|From Light's Heart.|PRE|44480|
+P Dalaran|QID|44481^44496^44497|QO|1|M|56.51,43.13|N|Click on the portal to Dalaran.|ACTIVE|44481^44496^44497|
+P Shattrath|QID|44481^44496^44497|QO|1|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|ACTIVE|44481^44496^44497|
+R Shadowmoon Valley|QID|44481^44496^44497|QO|1|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|ACTIVE|44481^44496^44497|
+C Destiny Unfulfilled|QID|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
+T Destiny Unfulfilled|QID|44481^44496^44497|M|28.43,48.38|N|Return to Light's Heart in your order hall.|
 
 ;light's heart, requires AK>=7
-A The Hunt for Illidan Stormrage|QID|45174|M|28.43,48.38|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481;44496;44497|
+A The Hunt for Illidan Stormrage|QID|45174|M|28.43,48.38|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481 & 44496 & 44497|
 P Dalaran|QID|45174|QO|1|M|56.51,43.13|N|Take the portal to Dalaran.|ACTIVE|45174|
 R Krasus' Landing|QID|45174|QO|1|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|45174|
 F Illidari Stand|QID|45174|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45174|
@@ -551,7 +556,7 @@ P The Dreamway Portal|QID|41689|M|45.31,24.43|Z|EmeraldDreamway|N|Run through th
 T Cleansing the Mother Tree|QID|41689|M|45.18,51.85|N|To Lyessa Bloomwatcher.|
 
 ;Druid Class Hall
-A Sowing The Seed|QID|41255|QO|1|M|44.50,51.10|N|From Rensar Greathoof.|PRE|40900+42430+41918+41689|
+A Sowing The Seed|QID|41255|QO|1|M|44.50,51.10|N|From Rensar Greathoof.|PRE|40900^42430^41918^41689|
 C Sowing The Seed|QID|41255|M|30.89,53.63|N|Run up the hill and plant the Seed of Ages.|
 T Sowing The Seed|QID|41255|M|30.91,54.25|N|To Rensar Greathoof.|
 A The Seed of Ages|QID|40651|M|30.91,54.25|N|From Rensar Greathoof.|PRE|41255|
@@ -564,36 +569,36 @@ T Ascending The Circle|QID|41332|M|46.01,51.03|N|To Malfurion Stormrage.|
 A Word on the Winds|QID|40652|M|46.01,51.03|N|From Malfurion Stormrage.|PRE|41332|
 T Word on the Winds|QID|40652|M|52.57,51.45|N|To Skylord Omnuron.|
 A Making Trails|QID|40653|M|52.57,51.45|N|From Skylord Omnuron. Choose which zone you want to do first. |PRE|40652|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40653|
+A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40653|
 T Making Trails|QID|40653|N|To Skylord Omnuron.|
 f The Dreamgrove|QID|42438|M|61.70,33.74|N|At Danise Stargazer.|
-P Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|56.51,43.07|N|Take the portal to travel to Dalaran.|ACTIVE|39718;39864;39731;39733;39735|
+P Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|56.51,43.07|N|Take the portal to travel to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
 
 ;4th spec
 A Weapons of the Ancient|QID|44443|M|44.55,51.02|N|From Rensar Greathoof.|PRE|44431|ACH|11174;;true|
 C Weapons of the Ancient|QID|44443|M|44.55,51.02|NC|N|Choose the last one.|
 T Weapons of the Ancient|QID|44443|M|44.55,51.02|N|To Rensar Greathoof.|
-A Artifact Specific Quest|QID|40783;42428;41468;40649|M|44.55,51.02|N|From one of the Druids in the area.|PRE|44443|
+A Artifact Specific Quest|QID|40783^42428^41468^40649|M|44.55,51.02|N|From one of the Druids in the area.|PRE|44443|
 
 ;3rd spec artifact
 A More Weapons of Old|QID|44431|M|44.55,51.02|N|From Rensar Greathoof.|PRE|43980|ACH|11174;;true|
 C More Weapons of Old|QID|44431|M|44.55,51.02|NC|N|Choose which artifact path you want, the last one will be available immediately upon finishing this one.|
 T More Weapons of Old|QID|44431|M|44.55,51.02|N|To Rensar Greathoof.|
-A Artifact Specific Quest|QID|40783;42428;41468;40649|M|44.55,51.02|N|From one of the Druids in the area.|PRE|44431|
+A Artifact Specific Quest|QID|40783^42428^41468^40649|M|44.55,51.02|N|From one of the Druids in the area.|PRE|44431|
 
 ;2nd spec artifact
 A Another Weapon of Old|QID|43980|M|44.55,51.02|N|From Rensar Greathoof.|AVAILABLE|42516|
 C Another Weapon of Old|QID|43980|M|44.55,51.02|NC|N|Choose which artifact path you want, the next one will be available immediately upon finishing this one.|
 T Another Weapon of Old|QID|43980|M|44.55,51.02|N|To Rensar Greathoof.|
-A Artifact Specific Quest|QID|40783;42428;41468;40649|M|44.55,51.02|N|From one of the Druids in the area.|PRE|43980|
+A Artifact Specific Quest|QID|40783^42428^41468^40649|M|44.55,51.02|N|From one of the Druids in the area.|PRE|43980|
 
 ; post class campaign
 ;*A The Power Within|QID|43496;43501;43503;43505|M|31.50,63.45|N|From Image of Kalec. This appears up to 48 hours after you finish class order hall campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
 ;*N The Power Within|QID|43496;43501;43503;43505|M|31.50,63.45|N|This chain of quests sends you through many (all?) mythic dungeons and several raids.  The end result is an artifact appearance.|
-F Azurewing Repose|QID|43496;43501;43503;43505|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|43496;43501;43503;43505|
-C The Power Within|QID|43501;43505|N|Switch to the Azsuna guide (or not) and do the quests until you get the achievment "Defending Azurewing Repose". (you dont have to do the quests at the Ilidari camp.)|
-T The Power Within|QID|43496;43501;43503;43505|M|48.12,25.58|Z|Azsuna|N|To Archmage Kalec.|
-A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. This is  a mythic dungeon quest.|PRE|43496;43501;43503;43505|
+F Azurewing Repose|QID|43496^43501^43503^43505|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|43496^43501^43503^43505|
+C The Power Within|QID|43501^43505|N|Switch to the Azsuna guide (or not) and do the quests until you get the achievment "Defending Azurewing Repose". (you dont have to do the quests at the Ilidari camp.)|
+T The Power Within|QID|43496^43501^43503^43505|M|48.12,25.58|Z|Azsuna|N|To Archmage Kalec.|
+A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. This is  a mythic dungeon quest.|PRE|43496 & 43501 & 43503 & 43505|
 
 C Investigate the Broken Shore|QID|45992|M|52.66,51.20|NC|N|Use scouting map to do the requested mission. This mission requires ilvl 830 champions, so it may be awhile before you can complete it.|
 
@@ -601,7 +606,7 @@ J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will 
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
 J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|EmmStormheim|FACTION|Horde|
 J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|EmmValsharah|
-J On to Highmountain|QID|39733;38907|N| This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
+J On to Highmountain|QID|39733^38907|N| This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|
 
 ]]
 end)

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bringing_bass
+-- Date: 2018-10-17 02:19
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3630/revisions/28973/view
 -- Date: 2018-02-19 22:27
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -37,21 +42,21 @@ A Bringing the Bass|QID|38356|M|33.77,36.33|Z|Lunarfall|N|From Fix "Smallie" Big
 
 F Joz's Rylaks|QID|37961|QO|1|M|45.79,51.04|N|Ask Bron to take you to Nagrand to get the blaster.|FACTION|Horde|
 F Joz's Rylaks|QID|38356|QO|1|M|45.79,51.04|N|Ask Bron to take you to Nagrand to get the blaster.|FACTION|Alliance|
-C Bass Blaster|QID|38356;37961|QO|1|M|57.79,10.88|Z|Nagrand@Draenor|N|Take it from the Dancing Ogres, behind the ring of blood.  Take the stairs on the far side to avoid the boss guy. Oh, They will get angry.|
+C Bass Blaster|QID|38356^37961|QO|1|M|57.79,10.88|Z|Nagrand@Draenor|N|Take it from the Dancing Ogres, behind the ring of blood.  Take the stairs on the far side to avoid the boss guy. Oh, They will get angry.|
 
-F Pinchwhistle Gearworks|QID|37961;38356|QO|2|M|62.22,32.89|Z|Nagrand@Draenor|N|Ask Joz to go to the Southern Spires.  This is the long ride.|
-C Laz-Tron Disc Reader|QID|37961;38356|QO|2|M|55.54,90.60|Z|Spires of Arak|N|Upstairs in the inn-like building, in Pinchwhistle Point.|
+F Pinchwhistle Gearworks|QID|37961^38356|QO|2|M|62.22,32.89|Z|Nagrand@Draenor|N|Ask Joz to go to the Southern Spires.  This is the long ride.|
+C Laz-Tron Disc Reader|QID|37961^38356|QO|2|M|55.54,90.60|Z|Spires of Arak|N|Upstairs in the inn-like building, in Pinchwhistle Point.|
 
-F Crow's Crook|QID|37961;38356|QO|3|M|60.88,73.29|Z|Spires of Arak|N|Now head up to the northern Spires.|
-C Phonic Amplifier|QID|37961;38356|QO|3|M|49.80,12.20;51.40,12.40;51.40,10.50|CN|Z|Spires of Arak|N|Kill Glowing Energizers for the amp.  They above the starting area for the zone.|
+F Crow's Crook|QID|37961^38356|QO|3|M|60.88,73.29|Z|Spires of Arak|N|Now head up to the northern Spires.|
+C Phonic Amplifier|QID|37961^38356|QO|3|M|49.80,12.20;51.40,12.40;51.40,10.50|CN|Z|Spires of Arak|N|Kill Glowing Energizers for the amp.  They above the starting area for the zone.|
 
 F Frostwolf Overlook|QID|37961|QO|4|M|51.84,31.05|Z|Spires of Arak|N|Ask Darkscreetch to goto Talador.|FACTION|Horde|
 F Fort Wrynn|QID|38356|QO|4|M|51.84,31.05|Z|Spires of Arak|N|Ask Darkscreetch to goto Talador.|FACTION|Alliance|
-C S.P.R.K. Capacitor|QID|37961;38356|QO|4|M|59.00,28.40;59.80,12.20;67.00,26.00;55.20,20.50;63.50,32.70;68.65,34.48;58.60,17.20;63.45,29.55;55.60,7.00;55.60,18.20;66.15,29.60;66.45,36.95;60.35,25.80;65.68,31.65;64.85,27.45;56.23,15.88;57.27,12.34;59.79,14.79;65.56,34.48;57.95,9.10|CN|Z|Talador|N|Kill Iron Shredders for their caps, on the beach.|
+C S.P.R.K. Capacitor|QID|37961^38356|QO|4|M|59.00,28.40;59.80,12.20;67.00,26.00;55.20,20.50;63.50,32.70;68.65,34.48;58.60,17.20;63.45,29.55;55.60,7.00;55.60,18.20;66.15,29.60;66.45,36.95;60.35,25.80;65.68,31.65;64.85,27.45;56.23,15.88;57.27,12.34;59.79,14.79;65.56,34.48;57.95,9.10|CN|Z|Talador|N|Kill Iron Shredders for their caps, on the beach.|
 
 F Everbloom Wilds|QID|37961|QO|5|M|61.41,10.50|Z|Talador|N|Ask Mok'ra to take you to Gorgrond to get the wood.|FACTION|Horde|
 F Everbloom Wilds|QID|38356|QO|5|M|69.85,21.49|Z|Talador|N|Ask Amelia to take you to Gorgrond to get the wood.|FACTION|Alliance|
-C Cord of Ancient Wood|QID|37961;38356|QO|5|M|56.00,48.40;70.50,43.50;57.60,44.00;57.30,41.60;62.50,36.00;58.00,40.40;56.20,44.60;71.35,33.30;56.85,50.15|CN|Z|Gorgrond|N|Around the Everbloom wilds, kill Lumbering Ancients for their wood.|
+C Cord of Ancient Wood|QID|37961^38356|QO|5|M|56.00,48.40;70.50,43.50;57.60,44.00;57.30,41.60;62.50,36.00;58.00,40.40;56.20,44.60;71.35,33.30;56.85,50.15|CN|Z|Gorgrond|N|Around the Everbloom wilds, kill Lumbering Ancients for their wood.|
 
 ; Add a hearth home step
 H Frostwall |QID|37961|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|FACTION|Horde|

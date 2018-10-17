@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_therazane_reputation_dalies_deepholm
+-- Date: 2018-10-17 02:21
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3419/revisions/29601/view
 -- Date: 2018-08-24 15:49
 -- Who: Ludovicus_Maior
 -- Log: Added QO's for [Underground Economy]
@@ -66,11 +71,11 @@ A Fear of Boring|QID|27046|PRE|26709|M|56.08,14.39|N|From Felsen the Enduring.|
 A Motes|QID|27047|PRE|26709|M|56.08,14.39|N|From Felsen the Enduring.|
 A Beneath the Surface|QID|28488|PRE|26709|M|56.08,14.39|N|From Felsen the Enduring. If he does not have it, right-click this step to skip it. Maybe you will get "Lost" or "Underground"|
 A Lost In The Deeps|QID|26710|PRE|26709|M|55.35,14.17|N|From Pyrite Stonetender. If he does not have it, right-click this step to skip it, and you will get "Underground economy" in the Depths.|
-A The Restless Brood|QID|28391;28390|M|55.07,13.61|REP|Therazane;1171;revered|N|From Terrath the Steady, he patrols around. If he doesn't have a quest for you, you'll get Glop, Son of Glop later on instead - right-click this step to skip it.|
+A The Restless Brood|QID|28391^28390|M|55.07,13.61|REP|Therazane;1171;revered|N|From Terrath the Steady, he patrols around. If he doesn't have a quest for you, you'll get Glop, Son of Glop later on instead - right-click this step to skip it.|
 A Soft Rock|QID|27049|PRE|26709|M|57.40,12.64|N|From Gorsik the Tumultuous. He patrols around.|
 A Fungal Fury|QID|27050|PRE|26709|M|57.40,12.64|N|From Gorsik the Tumultuous. He patrols around.|
 A Through Persistence|QID|27051|PRE|26709|M|59.60,14.05|N|From Ruberick.|
-A Glop, Son of Glop|QID|28391;28390|M|59.60,14.05|REP|Therazane;1171;revered|N|From Ruberick.|
+A Glop, Son of Glop|QID|28391^28390|M|59.60,14.05|REP|Therazane;1171;revered|N|From Ruberick.|
 
 C The Restless Brood|QID|28391|U|60266|M|32.83,24.78|N|Use the mallet on the crystal. Click the rocks above you to hop from rock to rock. Move to a new rock when the Broodmother breathes fire on your rock. If you see a nearby rock with a glowing bubble on it, move there. If you complete this quest in under 90 seconds, you will get an achievement. The timer starts from when you hit the resonating crystal and ends when you actually turn the quest in.|
 T The Restless Brood|QID|28391|M|39.98,19.37|N|To Terrath the Steady. Hurry if you are going for the achievement.|
@@ -78,7 +83,7 @@ T The Restless Brood|QID|28391|M|39.98,19.37|N|To Terrath the Steady. Hurry if y
 F Crumbling Depths|QID|27047|M|58.46,25.57;61.32,29.20|CC|N|Head into the cave.|
 C Fear of Boring|QID|27046|S|M|58.35,25.56|N|Kill gyreworms in and around the Crumbling Depths.|
 C Motes|QID|27047|NC|S|M|66.43,20.61|N|Gather painite motes inside the Crumbling Depths.|
-A Underground Economy|QID|27048;28488;26710|M|61.38,26.16|N|From Ricket.|
+A Underground Economy|QID|27048^28488^26710|M|61.38,26.16|N|From Ricket.|
 C Beneath the Surface|QID|28488|M|58.46,25.57;61.32,29.20;66.07,28.13;59.80,23.63;64.40,15.11;68.23,21.67;67.08,24.65|CN|N|These are found in side tunnels.  Look on your minimap for a skull. When you find one, click it and kill the worm that appears, being sure to dodge it's attacks. Loot it when you are done.|
 C Deep Alabaster Crystal|QID|27048|NC|QO|1|N|Head to the center chamber. Use your bombs on the large square blocks of white stone.|M|63.43,24.83|
 C Deep Celestite Crystal|QID|27048|NC|QO|2|N|Use your bombs on the large square blocks of blue stone.|M|62.16,19.63|

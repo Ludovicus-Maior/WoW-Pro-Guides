@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3675
+-- Date: 2018-10-17 02:29
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3675/revisions/29267/view
 -- Date: 2018-05-07 20:25
 -- Who: Emmaleah
 -- Log: Remove deprecated quest "hitting the books"
@@ -83,14 +88,14 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Rogue")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
+A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
-A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
+A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 ;both
-C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
-T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
+C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
 A Call of The Uncrowned|QID|40832|M|57.06,44.98|Z|Dalaran@Dalaran70|N|From Ravenholdt Courier.|PRE|43635|
 C Call of The Uncrowned|QID|40832|QO|1|M|55.23,55.60|Z|Dalaran@Dalaran70|N|Read the letter.|U|133558|NC|
@@ -108,7 +113,7 @@ C A Worthy Blade|QID|40840|QO|1|M|41.17,74.24|N|Talk to Tethys.|CHAT|
 C A Worthy Blade|QID|40840|QO|2|M|40.91,75.40|N|Talk to Valeera.|CHAT|
 C A Worthy Blade|QID|40840|QO|4|M|41.44,78.08|NC|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
 T A Worthy Blade|QID|40840|M|41.44,78.080|N|To Lord Jorach Ravenholdt.|
-A Artifact Specific Quest|QID|41919;42501;40847|M|41.44,78.08|N|From one of the NPCs in this room.|PRE|40840|
+A Artifact Specific Quest|QID|41919^42501^40847|M|41.44,78.08|N|From one of the NPCs in this room.|PRE|40840|
 
 ;Class hall development lvl 101 to 109
 A Rise, Champions|QID|42139|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|LVL|101|
@@ -147,7 +152,7 @@ C Searching For Clues|QID|44155|M|74,54|Z|Stormheim|N|Kill and loot pirates unti
 C Time Flies When Yer Havin' Rum!|QID|44117|M|74,54|Z|Stormheim|US|NC|N|Finish collecting rum.|
 T Searching For Clues|QID|44155|M|77.25,55.07|Z|Stormheim|N|To Fleet Admiral Tethys.|
 T Time Flies When Yer Havin' Rum!|QID|44117|M|77.25,55.07|Z|Stormheim|N|To Fleet Admiral Tethys.|
-A Dark Secrets and Shady Deals|QID|44177|M|77.25,55.08|Z|Stormheim|N|From Fleet Admiral Tethys.|PRE|44117;44155|
+A Dark Secrets and Shady Deals|QID|44177|M|77.25,55.08|Z|Stormheim|N|From Fleet Admiral Tethys.|PRE|44117 & 44155|
 H Dalaran|QID|44177|M|77.25,55.08|Z|Stormheim|N|Use your Dalaran Hearthstone to return to your order hall.|U|140192|ACTIVE|44177|
 T Dark Secrets and Shady Deals|QID|44177|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
 A Champion: Lord Jorach Ravenholdt|QID|44183|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|44177|
@@ -219,13 +224,13 @@ A A Sheath For Every Blade|QID|44252|M|26.91,36.82|N|From Kelsey Steelspark. You
 T A Sheath For Every Blade|QID|44252|M|26.91,36.82|N|To Kelsey Steelspark.|
 T An Urgent Warning|QID|45991|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|
 A Investigate the Broken Shore|QID|45992|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|45991|
-A Maw of Souls: Ancient Vrykul Legends|QID|43253|M|40.86,75.45|N|From Valeera Sanguinar. This is a dungeon quest. Queue or gather up some friends.|LVL|110|PRE|42684;43468|
+A Maw of Souls: Ancient Vrykul Legends|QID|43253|M|40.86,75.45|N|From Valeera Sanguinar. This is a dungeon quest. Queue or gather up some friends.|LVL|110|PRE|42684 & 43468|
 C Goddess Watch Over You|QID|44338|N|You need to have finished the main Val'sharah quest line to complete this quest. If you haven't and want to go on thru the guide, check this off manually.|
-t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
-A Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar. You may have received this as a pop-up UI Alert upon hitting 110.|LVL|110|
+t Goddess Watch over You|QID|44337^44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
+A Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar. You may have received this as a pop-up UI Alert upon hitting 110.|LVL|110|
 C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran@Dalaran70|S|NC|N|Since this is the first character on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests.|
-t Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
+t Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337^44338|
 R The Hall of Shadows|QID|44448|M|63.09,17.71|Z|Dalaran@Dalaran70|N|Use any of the entrances to the Hall of Shadows|ACTIVE|44448|LVL|110|
 C In the House of Light and Shadow|QID|44448|M|40.85,54.71|NC|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
 
@@ -247,7 +252,7 @@ C Eternal Unrest|QID|43252|M|37.60,51.30|Z|Val'sharah|QO|1|T|Cesta Stargazer|N|C
 C In Search of the Eye|QID|43251|M|44.34,51.67|Z|Val'sharah|QO|1|NC|N|Open (by clicking, not the lockpick ability) Ancient Elven Chests scattered around Ravencourt until you find the ledger.|
 T Eternal Unrest|QID|43252|M|40.41,52.88|Z|Val'sharah|N|To Valeera Sanguinar.|
 T In Search of the Eye|QID|43251|M|40.41,52.87|Z|Val'sharah|N|To Valeera Sanguinar.|
-A Black Rook Hold: Into Black Rook Hold|QID|42678|M|40.41,52.87|Z|Val'sharah|N|From Valeera Sanguinar.|PRE|43251;43252|
+A Black Rook Hold: Into Black Rook Hold|QID|42678|M|40.41,52.87|Z|Val'sharah|N|From Valeera Sanguinar.|PRE|43251 & 43252|
 C Into Black Rook Hold|QID|42678|M|40.41,52.87|Z|Val'sharah|N|This is an instance quest, Queue or gather friends, the item drops off the final fight, so hard to miss. Check off manually if you want to do other stuff first.|
 t Into Black Rook Hold|QID|42678|M|40.86,75.45|N|To Valeera Sanguinar.|
 A Deciphering the Letter|QID|42680|M|40.86,75.45|N|From Valeera Sanguinar.|PRE|42678|
@@ -264,7 +269,7 @@ C The World is Not Enough|QID|43479|N|Go out and do a "Danger" type World Quest.
 C Where In the World is Mathias?|QID|43469|M|37.40,44.20|NC|US|NA|N|Finish up the 5 requested missions at the Scouting Map.|
 t Where In the World is Mathias?|QID|43469|M|40.68,76.78|N|To Taoshi.|
 t The World is not Enough|QID|43479|M|40.68,76.78|N|To Taoshi.|
-A A Burning Distraction|QID|43485|M|40.68,76.78|N|From Taoshi.|PRE|43479;43469|
+A A Burning Distraction|QID|43485|M|40.68,76.78|N|From Taoshi.|PRE|43479 & 43469|
 R Felsoul Hold|QID|43485|M|30.5,61.1|Z|Suramar|N|If your hearthstone is set to Suramar, thats the fastest way, lacking that fly to Meridil, lacking that, fly to Felblaze Ingress.|U|6948|ACTIVE|43485|
 C A Burning Distraction|QID|43485|QO|1|M|30.5,61.1|Z|Suramar|N|Stealth makes this quest go quicker. Click on the first glowing bomb.|
 C A Burning Distraction|QID|43485|QO|2|M|33.5,67.3|Z|Suramar|N|Move on the second glowing bomb.|
@@ -295,7 +300,7 @@ C The Imposter|QID|37689|QO|4|M|81.16,61.34|Z|Stormwind City|CHAT|N|Talk to Math
 T The Imposter|QID|37689|M|40.68,76.78|N|To Taoshi.|
 A Champion: Taoshi|QID|43723|M|40.68,76.78|N|From/To Taoshi.|PRE|37689|
 A Champion: Master Mathias Shaw|QID|43724|M|40.51,77.98|N|From/To Master Mathias Shaw.|PRE|37689|
-A One More Thing...|QID|44215|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|43723;43724|
+A One More Thing...|QID|44215|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|43723 & 43724|
 T One More Thing...|QID|44215|M|38.02,58.26|N|To Lord Jorach Ravenholdt.|
 A A Hero's Weapon|QID|43422|M|38.02,58.26|N|From Lord Jorach Ravenholdt.|PRE|44215|
 C A Hero's Weapon|QID|43422|M|34.25,60.70|N|Stand in the circle of pinkish light and use your special action button to raise your weapon high.|
@@ -307,7 +312,7 @@ C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Han
 T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 
 t In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
+A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337^44338|
 C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran@Dalaran70|N|Click on the arcane anomoly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
 T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Trail of Echoes|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
@@ -359,14 +364,14 @@ R Windrunner's Sanctuary|QID|44480|QO|1|M|55.33,24.04|Z|Dalaran@Dalaran70|N|Take
 R Temple of Zin-Malor - Azshara|QID|44480|QO|1|M|35.1,49.9|Z|Azshara|N|Mount up and fly to Azshara.|ACTIVE|44480|
 C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|NC|N|Use your extra action button to see Xe'ra's message.|
 T In My Father's House|QID|44480|M|49.64,26.41|N|Return to Light's Heart in your order hall.|U|140192|
-A Destiny Unfulfilled|QID|44481;44496;44497|M|40.85,54.71|N|From Light's Heart.|PRE|44480|
-P Shattrath|QID|44481;44496;44497|QO|1|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|ACTIVE|44481;44496;44497|
-R Shadowmoon Valley|QID|44481;44496;44497|QO|1|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|ACTIVE|44481;44496;44497|
-C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
-T Destiny Unfulfilled|QID|44481;44496;44497|M|40.85,54.71|N|Return to Light's Heart in your order hall. If your hearthstone is up, its a faster trip home.|U|140192|
+A Destiny Unfulfilled|QID|44481^44496^44497|M|40.85,54.71|N|From Light's Heart.|PRE|44480|
+P Shattrath|QID|44481^44496^44497|QO|1|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|ACTIVE|44481^44496^44497|
+R Shadowmoon Valley|QID|44481^44496^44497|QO|1|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|ACTIVE|44481^44496^44497|
+C Destiny Unfulfilled|QID|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
+T Destiny Unfulfilled|QID|44481^44496^44497|M|40.85,54.71|N|Return to Light's Heart in your order hall. If your hearthstone is up, its a faster trip home.|U|140192|
 
 ;light's heart, requires AK>=7
-A The Hunt for Illidan Stormrage|QID|45174|M|40.85,54.71|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481;44496;44497|
+A The Hunt for Illidan Stormrage|QID|45174|M|40.85,54.71|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481 & 44496 & 44497|
 R Krasus' Landing|QID|45174|QO|1|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|45174|
 F Illidari Stand|QID|45174|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45174|
 T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|
@@ -380,17 +385,17 @@ T Return to the Chamber of Shadows|QID|43007|M|41.41,78.21|N|To Lord Jorach Rave
 A Another Worthy Blade|QID|44034|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|43007|
 C Another Worthy Blade|QID|44034|M|41.41,78.21|NC|N|Choose your next artifact to pursue. It will confirm you want to change specs after you choose. You can do the 3rd spec immediately after finishing the 2nd.|
 T Another Worthy Blade|QID|44034|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
-A Artifact Specific Quest|QID|41919;42501;40847|M|41.44,78.08|N|From one of the NPCs in this room.|PRE|44034|
+A Artifact Specific Quest|QID|41919^42501^40847|M|41.44,78.08|N|From one of the NPCs in this room.|PRE|44034|
 
 ;3rd spec artifact
 A The Final Blade|QID|44375|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|ACH|11174;;true|
 C The Final Blade|QID|44375|M|41.41,78.21|N|Choose the only one left. It will confirm you want to change specs after you choose.|
 T The Final Blade|QID|44375|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
-A Artifact Specific Quest|QID|41919;42501;40847|M|41.44,78.08|N|From one of the NPCs in this room.|PRE|44375|
+A Artifact Specific Quest|QID|41919^42501^40847|M|41.44,78.08|N|From one of the NPCs in this room.|PRE|44375|
 
 ;ASSASINATION
 ;A Finishing the Job|QID|42501|M|42.40,76.02|N|From Princess Tess Greymane.|PRE|40840|
-A No Sanctuary|QID|42502|M|42.40,76.02|N|From Princess Tess Greymane.|PRE|40840;40842|
+A No Sanctuary|QID|42502|M|42.40,76.02|N|From Princess Tess Greymane.|PRE|40840 & 40842|
 C Finishing the Job|QID|42501|QO|1|M|49.55,82.14|Z|Dalaran@Dalaran70|NC|N|Enter the Chamber of the Guardian.|
 C Finishing the Job|QID|42501|QO|2|M|32.03,71.37|Z|Aegwynn's Gallery@Dalaran70|NC|N|(Optional) Take the Portal to Karazhan.|
 C Finishing the Job|QID|42501|QO|3|M|35.38,25.32|Z|Blasted Lands|NC|N|(Optional) Fly to Blasted Lands.|
@@ -401,7 +406,7 @@ C No Sanctuary|QID|42502|QO|3|M|86.92,73.74|Z|Duskwood|NC|N|(Optional) Fly to Du
 C No Sanctuary|QID|42502|QO|4|M|19.06,53.99|Z|Duskwood|N|Up the stairs, first room on the right.|
 C No Sanctuary|QID|42502|QO|5|M|19.06,53.99|Z|Duskwood|NC|N|Loot the body.|
 T No Sanctuary|QID|42502|M|19.52,54.68|Z|Duskwood|N|To UI Alert.|
-A Codebreaker|QID|42503|M|19.52,54.68|Z|Duskwood|PRE|42502;42501|N|From UI Alert|
+A Codebreaker|QID|42503|M|19.52,54.68|Z|Duskwood|PRE|42502 & 42501|N|From UI Alert|
 C Codebreaker|QID|42503|QO|1|M|19.52,54.68|Z|Duskwood|NC|N|Read the Coded Message.|U|138102|
 T Codebreaker|QID|42503|M|19.52,54.68|Z|Duskwood|N|To UI Alert.|
 A Cloak and Dagger|QID|42539|M|19.52,54.68|Z|Duskwood|PRE|42503|N|From UI Alert.|
@@ -411,20 +416,20 @@ C Cloak and Dagger|QID|42539|NC|QO|2|M|73.62,43.64|Z|Duskwood|N|The blood is in 
 T Cloak and Dagger|QID|42539|M|73.62,43.64|Z|Duskwood|N|To UI Alert.|
 A Preparation|QID|42568|M|73.62,43.64|Z|Duskwood|N|From UI Alert.|PRE|42539|
 T Preparation|QID|42568|M|36.76,52.58|Z|Elwynn Forest|N|To Garona Halforcen.|
-A The Unseen Blade|QID|42627;42504|M|36.76,52.58|Z|Elwynn Forest|N|From Garona Halforcen.|PRE|42568|
-C Confront Mathias Shaw.|QID|42627;42504|SO|1;1|M|32.05,49.24|Z|Elwynn Forest|NC|N|Confront Mathias Shaw.|
-C Live Drop|QID|42627;42504|SO|2|M|66.19,74.39|Z|Stormwind City|N|Use stealth (even if you are alliance), and sap on the guards that see invis (or fight them when they are far enough away from the others).  Elling is upstairs in his family shop (Trias Cheese - the first shop on your right). Pick up the box on the table beside Elling.|NC|
-C Use the smoke bomb in the Trader's Hall|QID|42627;42504|SO|3;1|M|61.39,71.91|Z|Stormwind City|N|Use the smoke bomb in the Trader's Hall.|NC|U|214645|
-C Pickpocket Guards until you find information|QID|42627;42504|SO|4;1|M|64.04,75.52|Z|Stormwind City|N|Pickpocket Guards until you find information|NC|
-C Read the Coded Message|QID|42627;42504|SO|4;2|M|64.04,75.52|Z|Stormwind City|N|Read the Coded Message|NC|U|218893|
-C Meet Garona at the Pig and Whistle Tavern.|QID|42627;42504|SO|5;1|M|74.30,55.57|Z|Stormwind City|N|Meet Garona at the Pig and Whistle Tavern.|NC|
-C Open the tavern door|QID|42627;42504|SO|6;1|M|75.04,55.40|Z|Stormwind City|N|Click to open the tavern door (not use your pick lock ability).|NC|
-C Make Althea Ebonlocke talk|QID|42627;42504|SO|6;2|M|76.11,53.72|Z|Stormwind City|N|Make Althea Ebonlocke talk.|
-C On the Trail|QID|42627;42504|SO|7;1|Z|Stormwind City|N|Sneak into Stormwind Keep, the Herald is in the courtyard to the left of the throneroom.  Use sprint to get through the purple wind trap in the hallway.|
-C Marked for Death|QID|42627;42504|QO|1|M|82.77,27.92|Z|Stormwind City|N|It's up to you to assassinate Melris and put and end to this once and for all.|
-C A Dark Gift|QID|42627;42504|M|82.77,27.92|Z|Stormwind City|NC|N|Take up the Kingslayers as your own.|
-C Take the portal to Dalaran|QID|42627;42504|SO|10;1|M|86.96,37.29|Z|Stormwind City|NC|N|Take the portal to Dalaran.|
-T The Unseen Blade|QID|42627;42504|M|42.48,74.61|N|Enter your order hall from any of the hidden entrances and then return to Garona Halforcen.|
+A The Unseen Blade|QID|42627^42504|M|36.76,52.58|Z|Elwynn Forest|N|From Garona Halforcen.|PRE|42568|
+C Confront Mathias Shaw.|QID|42627^42504|SO|1;1|M|32.05,49.24|Z|Elwynn Forest|NC|N|Confront Mathias Shaw.|
+C Live Drop|QID|42627^42504|SO|2|M|66.19,74.39|Z|Stormwind City|N|Use stealth (even if you are alliance), and sap on the guards that see invis (or fight them when they are far enough away from the others).  Elling is upstairs in his family shop (Trias Cheese - the first shop on your right). Pick up the box on the table beside Elling.|NC|
+C Use the smoke bomb in the Trader's Hall|QID|42627^42504|SO|3;1|M|61.39,71.91|Z|Stormwind City|N|Use the smoke bomb in the Trader's Hall.|NC|U|214645|
+C Pickpocket Guards until you find information|QID|42627^42504|SO|4;1|M|64.04,75.52|Z|Stormwind City|N|Pickpocket Guards until you find information|NC|
+C Read the Coded Message|QID|42627^42504|SO|4;2|M|64.04,75.52|Z|Stormwind City|N|Read the Coded Message|NC|U|218893|
+C Meet Garona at the Pig and Whistle Tavern.|QID|42627^42504|SO|5;1|M|74.30,55.57|Z|Stormwind City|N|Meet Garona at the Pig and Whistle Tavern.|NC|
+C Open the tavern door|QID|42627^42504|SO|6;1|M|75.04,55.40|Z|Stormwind City|N|Click to open the tavern door (not use your pick lock ability).|NC|
+C Make Althea Ebonlocke talk|QID|42627^42504|SO|6;2|M|76.11,53.72|Z|Stormwind City|N|Make Althea Ebonlocke talk.|
+C On the Trail|QID|42627^42504|SO|7;1|Z|Stormwind City|N|Sneak into Stormwind Keep, the Herald is in the courtyard to the left of the throneroom.  Use sprint to get through the purple wind trap in the hallway.|
+C Marked for Death|QID|42627^42504|QO|1|M|82.77,27.92|Z|Stormwind City|N|It's up to you to assassinate Melris and put and end to this once and for all.|
+C A Dark Gift|QID|42627^42504|M|82.77,27.92|Z|Stormwind City|NC|N|Take up the Kingslayers as your own.|
+C Take the portal to Dalaran|QID|42627^42504|SO|10;1|M|86.96,37.29|Z|Stormwind City|NC|N|Take the portal to Dalaran.|
+T The Unseen Blade|QID|42627^42504|M|42.48,74.61|N|Enter your order hall from any of the hidden entrances and then return to Garona Halforcen.|
 
 ;OUTLAW
 ;A A Friendly Accord|QID|40847|M|41.19,74.28|N|From Fleet Admiral Tethys.|PRE|42627|
@@ -475,7 +480,7 @@ R Glorious Goods|QID|41924|M|52.99,70.86|Z|Dalaran@Dalaran70|CN|N|Run into Glori
 T Fangs of the Devourer|QID|41924|M|40.82,75.40|N|To Valeera Sanguinar.|
 
 ;After finishing first artifact-Class Hall
-A Honoring Success|QID|40950|M|41.38,78.22|N|From Lord Jorach Ravenholdt.|PRE|41924;40849;42627|
+A Honoring Success|QID|40950|M|41.38,78.22|N|From Lord Jorach Ravenholdt.|PRE|41924 & 40849 & 42627|
 C Honoring Success|QID|40950|QO|2|M|42.23,77.09|NC|N|Wait a bit for the dialog and then raise your glass (extra action button).|
 C Honoring Success|QID|40950|QO|3|M|43.02,73.73|N|Defeat Vanessa VanCleef.|T|Vanessa VanCleef|
 T Honoring Success|QID|40950|M|41.43,78.10|N|To Lord Jorach Ravenholdt.|
@@ -489,16 +494,16 @@ A Delegation|QID|40996|M|30.44,70.40|N|From Marin Noggenfogger.|PRE|40995|
 T Delegation|QID|40996|M|37.90,45.19|N|To Nikki the Gossip.|
 A Lethal Efficiency|QID|40997|M|37.90,45.19|N|From Nikki the Gossip.|PRE|40996|
 C Lethal Efficiency|QID|40997|M|37.90,45.19|NC|N|Choose which zone you want to do first.|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|37.40,44.20|NA|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40997|
+A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|37.40,44.20|NA|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40997|
 T Lethal Efficiency|QID|40997|M|37.40,44.20|N|To Nikki the Gossip.|
 
 ; post class campaign
-A The Power Within|QID|43496;43501;43503;43505|M|31.50,63.45|N|From Image of Kalec. This appears up to 48 hours after you finish class order hall campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
-N The Power Within|QID|43496;43501;43503;43505|M|31.50,63.45|N|This chain of quests sends you through many (all?) mythic dungeons and several raids.  The end result is an artifact appearance.|
-F Azurewing Repose|QID|43496;43501;43503;43505|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|43496;43501;43503;43505|
-C The Power Within|QID|43501;43505|N|Switch to the Azsuna guide (or not) and do the quests until you get the achievment "Defending Azurewing Repose". (you dont have to do the quests at the Ilidari camp.)|
-T The Power Within|QID|43496;43501;43503;43505|M|48.12,25.58|Z|Azsuna|N|To Archmage Kalec.|
-A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496;43501;43503;43505|
+A The Power Within|QID|43496^43501^43503^43505|M|31.50,63.45|N|From Image of Kalec. This appears up to 48 hours after you finish class order hall campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
+N The Power Within|QID|43496^43501^43503^43505|M|31.50,63.45|N|This chain of quests sends you through many (all?) mythic dungeons and several raids.  The end result is an artifact appearance.|
+F Azurewing Repose|QID|43496^43501^43503^43505|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|43496^43501^43503^43505|
+C The Power Within|QID|43501^43505|N|Switch to the Azsuna guide (or not) and do the quests until you get the achievment "Defending Azurewing Repose". (you dont have to do the quests at the Ilidari camp.)|
+T The Power Within|QID|43496^43501^43503^43505|M|48.12,25.58|Z|Azsuna|N|To Archmage Kalec.|
+A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. This is a mythic dungeon quest.|PRE|43496 & 43501 & 43503 & 43505|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
@@ -510,7 +515,7 @@ J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, yo
 C Investigate the Broken Shore|QID|45992|M|37.92,45.26|NC|N|Use scouting map to do the requested mission. This mission requires ilvl 830 champions, so it may be awhile before you can complete it.|
 
 ;done on alliance char, coords may not be exact but should be close for Horde
-A The Pirate's Bay|QID|45833;46322|M|41.45,77.88|N|From Lord Jorach Ravenholdt.|ACTIVE|47137|
+A The Pirate's Bay|QID|45833^46322|M|41.45,77.88|N|From Lord Jorach Ravenholdt.|ACTIVE|47137|
 R Krasus' Landing|QID|45833|M|65.18,42.73|Z|Dalaran@Dalaran70|N|Run to Krasus' Landing to take a flight (or travel to Black Rook Hold any other way)|ACTIVE|45833|
 F Shackle's Den|QID|45833|M|69.86,51.32|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45833|
 t The Pirate's Bay|QID|45833|M|57.66,63.47|Z|Azsuna|N|To Princess Tess Graymane, who can be found along the road to the Temple of a Thousand Lights.|
@@ -521,9 +526,9 @@ A What's the Cache?|QID|46323|M|57.66,63.47|Z|Azsuna|N|From Lilian Voss.|PRE|463
 A False Orders|QID|46324|M|57.66,63.47|Z|Azsuna|N|From Lilian Voss.|PRE|46322|FACTION|HORDE|
 A Loot and Plunder!|QID|45073|M|57.65,63.56|Z|Azsuna|N|From Fleet Admiral Tethys.|PRE|45833|
 C Loot and Plunder!|QID|45073|M|58.95,66.05|Z|Azsuna|S|N|Burn the pirates booty as you do the other objectives.|
-C False Orders|QID|45835;46324|QO|1|M|61.04,68.26|Z|Azsuna|N|Click on the orders.|
-C False Orders|QID|45835;46324|QO|2|M|59.45,72.57|Z|Azsuna|N|Click on the orders.|
-C What's the Cache?|QID|44758;46323|M|59.59,78.00|Z|Azsuna|N|Kill Master Gunner Prix and loot the Fel-Infused Gunpowder Cache.|
+C False Orders|QID|45835^46324|QO|1|M|61.04,68.26|Z|Azsuna|N|Click on the orders.|
+C False Orders|QID|45835^46324|QO|2|M|59.45,72.57|Z|Azsuna|N|Click on the orders.|
+C What's the Cache?|QID|44758^46323|M|59.59,78.00|Z|Azsuna|N|Kill Master Gunner Prix and loot the Fel-Infused Gunpowder Cache.|
 C Loot and Plunder!|QID|45073|M|58.95,66.05|Z|Azsuna|S|N|Finish burning the chests as you head back to turn in.|
 T Loot and Plunder!|QID|45073|M|57.65,63.56|Z|Azsuna|N|To Fleet Admiral Tethys.|
 T What's the Cache?|QID|44758|M|57.66,63.47|Z|Azsuna|N|To Princess Tess Graymane.|FACTION|ALLIANCE|
@@ -533,29 +538,29 @@ T False Orders|QID|45835|M|57.66,63.47|Z|Azsuna|N|To Lilian Voss.|FACTION|HORDE|
 A Fit For a Pirate|QID|45848|M|57.65,65.53|Z|Azsuna|N|From Crackers.|PRE|45073|
 A Jorach's Calling|QID|45836|M|57.66,63.47|Z|Azsuna|N|From Princess Tess Graymane. You can also add Crackers to you collection if you so choose.|PRE|45848|U|143679|FACTION|ALLIANCE|
 A Jorach's Calling|QID|46326|M|57.66,63.47|Z|Azsuna|N|From Lilian Voss. You can also add Crackers to you collection if you so choose.|PRE|45848|U|143679|FACTION|HORDE|
-P Dalaran|QID|45836;46326|M|57.66,63.47|Z|Azsuna|N|Use your Dalaran Hearthstone and run into the order hall.|U|140192|ACTIVE|45836;46326|
-T Jorach's Calling|QID|45836;46326|M|41.45,77.88|N|To Lord Jorach Ravenholdt.|
+P Dalaran|QID|45836^46326|M|57.66,63.47|Z|Azsuna|N|Use your Dalaran Hearthstone and run into the order hall.|U|140192|ACTIVE|45836^46326|
+T Jorach's Calling|QID|45836^46326|M|41.45,77.88|N|To Lord Jorach Ravenholdt.|
 A A Bit of Espionage|QID|45571|M|41.45,77.88|N|From Lord Jorach Ravenholdt.|PRE|45836|
 R Krasus' Landing|QID|45571|M|65.18,42.73|Z|Dalaran@Dalaran70|N|Run to Krasus' Landing to take a flight (or travel to Black Rook Hold any other way)|ACTIVE|45833|
 C A Bit of Espionage|QID|45571|M|65.18,42.73|Z|Dalaran@Dalaran70|CHAT|N|Choose the chat option for the free flight to Broken Shore.|
 T A Bit of Espionage|QID|45571|M|70.14,47.00|Z|Broken Shore|N|To Lord Jorach Ravenholdt.|
-A Rise Up|QID|45573;45576|M|70.14,47.00|Z|Broken Shore|N|From Lord Jorach Ravenholdt.|PRE|45571|
+A Rise Up|QID|45573^45576|M|70.14,47.00|Z|Broken Shore|N|From Lord Jorach Ravenholdt.|PRE|45571|
 C Rise Up|QID|45573|M|71.61,41.93|Z|Broken Shore|N|Kill demons as you go up the mountain to the top.|
 t Rise Up|QID|45573|M|71.61,41.93|Z|Broken Shore|N|To Princess Tess Graymane.|
 t Rise Up|QID|45576|M|71.61,41.93|Z|Broken Shore|N|To Lilian Voss.|
 A This Time Leave a Trail|QID|45628|M|71.61,41.93|Z|Broken Shore|N|From Princess Tess Graymane.|PRE|45573|FACTION|ALLIANCE|
 A This Time Leave a Trail|QID|45629|M|71.61,41.93|Z|Broken Shore|N|From Princess Tess Graymane.|PRE|45576|FACTION|HORDE|
-C This Time Leave a Trail|QID|45628;45629|QO|1|M|72.00,42.21|Z|Broken Shore|NC|N|The rappel point lights up when you accept the quest, go use it.|
-C This Time Leave a Trail|QID|45628;45629|QO|2|M|72.03,42.08|Z|Broken Shore|NC|N|Pick up the gunpowder beside where you land.|
-C This Time Leave a Trail|QID|45628;45629|QO|3|M|75.34,39.39|Z|Broken Shore|NC|N|Click on the 4 bombs. Last one is at the exit of the cavern. FYI, felhounds can see thru stealth, so unless you want to fight the whole place, you may want to avoid them.|
-C This Time Leave a Trail|QID|45628;45629|QO|4|M|76.62,40.13|Z|Broken Shore|NC|N|Click on the torch to light the gunpowder.|
-T This Time Leave a Trail|QID|45628;45629|M|76.87,39.79|Z|Broken Shore|N|To Lord Jorach Ravenholdt.|
-A Meld Into the Shadows|QID|46260;46827|M|76.87,39.79|Z|Broken Shore|N|From Lord Jorach Ravenholdt.|PRE|45628+46827|
-P Dalaran|QID|46260;46827|M|76.87,39.79|Z|Broken Shore|N|Use your Dalaran Hearthstone and run into the order hall.|U|140192|ACTIVE|46260|
-T Meld Into the Shadows|QID|46260;46827|M|41.45,77.88|N|To Lord Jorach Ravenholdt.|
+C This Time Leave a Trail|QID|45628^45629|QO|1|M|72.00,42.21|Z|Broken Shore|NC|N|The rappel point lights up when you accept the quest, go use it.|
+C This Time Leave a Trail|QID|45628^45629|QO|2|M|72.03,42.08|Z|Broken Shore|NC|N|Pick up the gunpowder beside where you land.|
+C This Time Leave a Trail|QID|45628^45629|QO|3|M|75.34,39.39|Z|Broken Shore|NC|N|Click on the 4 bombs. Last one is at the exit of the cavern. FYI, felhounds can see thru stealth, so unless you want to fight the whole place, you may want to avoid them.|
+C This Time Leave a Trail|QID|45628^45629|QO|4|M|76.62,40.13|Z|Broken Shore|NC|N|Click on the torch to light the gunpowder.|
+T This Time Leave a Trail|QID|45628^45629|M|76.87,39.79|Z|Broken Shore|N|To Lord Jorach Ravenholdt.|
+A Meld Into the Shadows|QID|46260^46827|M|76.87,39.79|Z|Broken Shore|N|From Lord Jorach Ravenholdt.|PRE|45628^46827|
+P Dalaran|QID|46260^46827|M|76.87,39.79|Z|Broken Shore|N|Use your Dalaran Hearthstone and run into the order hall.|U|140192|ACTIVE|46260|
+T Meld Into the Shadows|QID|46260^46827|M|41.45,77.88|N|To Lord Jorach Ravenholdt.|
 A Champion: Tess Graymane|QID|46059|M|42.40,75.77|N|From/To Princess Tess Graymane.|PRE|46260|FACTION|ALLIANCE|
 A Champion: Lilian Voss|QID|46058|M|42.40,75.77|N|From/To Lilian Voss|PRE|46827|FACTION|HORDE|
-A Further Advancement|QID|46779|M|37.89,45.16|N|From Nikki the Gossip.|PRE|46260;46827|
+A Further Advancement|QID|46779|M|37.89,45.16|N|From Nikki the Gossip.|PRE|46260 & 46827|
 C Further Advancement|QID|46779|M|45.89,69.15|N|Go visit Winstone Wolfe(and pick your next order advancement if you have the resources).|
 T Further Advancement|QID|46779|M|37.89,45.16|N|To Nikki the Gossip.|
 T Champions of Legionfall|QID|47137|M|44.54,63.55|Z|Broken Shore|N|To Maiev Shadowsong.(Next time you are in Broken Shore.)|
@@ -598,8 +603,8 @@ C Hiding In Plain Sight|QID|46178|M|42.84,50.11|Z|Ironforge|QO|4|T|Corin Twinbel
 R Deeprun Tram|QID|46178|M|73.06,50.30|Z|Ironforge|N|Take the Deeprun Tram to Stormwind.|FACTION|HORDE|ACTIVE|46178|
 C Hiding In Plain Sight|QID|46178|QO|5|M|61.39,70.44|Z|Stormwind City|T|Auctioneer Jaxon|N|The final Mark, Auctioneer Jaxon can be found inside the auction house on the right side.|FACTION|HORDE|
 
-P P Krasus' Landing|QID|46178;46089|U|140192|N|Hearth to Dalaran and return to your guild hall.|ACTIVE|46178;46089|
-T Hiding In Plain Sight|QID|46178;46089|M|42.01,78.67|N|To Lilian Voss.|
+P P Krasus' Landing|QID|46178^46089|U|140192|N|Hearth to Dalaran and return to your guild hall.|ACTIVE|46178^46089|
+T Hiding In Plain Sight|QID|46178^46089|M|42.01,78.67|N|To Lilian Voss.|
 
 ]]
 end)

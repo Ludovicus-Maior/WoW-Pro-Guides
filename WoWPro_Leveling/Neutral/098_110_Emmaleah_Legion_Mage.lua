@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2018-10-17 02:29
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3671/revisions/29751/view
 -- Date: 2018-09-15 06:10
 -- Who: elidion
 -- Log: Cleaned up bad zone tags, fixed some old bad quests that were removed, PRE and ACTIVE tags, as well as some scenario order that seemed to have changed in the frost artifact.
@@ -136,14 +141,14 @@ return [[
 
 ; For 44663 and 44184, Grail is reporting PRE of 44120+44473 - which are DH Quests
 
-A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
+A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
-A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
+A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|;both
 
-C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
-T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
+C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
 
 A Felstorm's Plea|QID|41035|M|57.57,45.77|Z|Dalaran!Dalaran!Dungeon|N|From Auto Alert.|
 T Felstorm's Plea|QID|41035|M|53.72,47.35|Z|Dalaran!Dalaran!Dungeon|N|To Meryl Felstorm who is in The Violet Gate.|
@@ -161,8 +166,8 @@ T The Dreadlord's Prize|QID|41036|M|59.08,42.86|Z|The Guardian's Library@MageCla
 A A Mage's Weapon|QID|41085|M|59.08,42.86|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|PRE|41036|
 C A Mage's Weapon|QID|41085|M|61.20,25.85|Z|The Guardian's Library@MageClassShrine|N|Click on the book to choose your artifact.|
 T A Mage's Weapon|QID|41085|M|59.08,42.86|Z|The Guardian's Library@MageClassShrine|N|To Meryl Felstorm.|
-A Artifact Specific Quest|QID|42001;40267;42452|M|59.08,42.86|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|PRE|41085|
-R Portal to Dalaran|QID|42001;40267;42452|M|62.57,51.56|Z|The Guardian's Library@MageClassShrine|CC|N|If you chose the frost artifact stay put, otherwise take the portal to Dalaran|ACTIVE|42001+40267+42452|
+A Artifact Specific Quest|QID|42001^40267^42452|M|59.08,42.86|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|PRE|41085|
+R Portal to Dalaran|QID|42001^40267^42452|M|62.57,51.56|Z|The Guardian's Library@MageClassShrine|CC|N|If you chose the frost artifact stay put, otherwise take the portal to Dalaran|ACTIVE|42001 & 40267 & 42452|
 
 T Growing Power|QID|42175|M|60.4,36|N|To Meryl Felstorm|LVL|101|
 A Rise, Champions|QID|42663|LVL|101|M|60.4,36|N|From Meryl Felstorm|PRE|41141|
@@ -221,7 +226,7 @@ C Some Knowledge Shouldn't Be Shared|QID|42149|M|65.9,33.8|Z|Azsuna|N|Pick up sc
 C The Next Level Has Arrived|QID|42206|M|65.9,33.8|Z|Azsuna|US|N|Kill Empyrean Society Members.|
 T The Next Level Has Arrived|QID|42206|N|To Esara Verrinde, who is following you around.|
 T Some Knowledge Shouldn't Be Shared|QID|42149|N|To Esara Verrinde.|
-A Final Exit|QID|42171|PRE|42206+42149|
+A Final Exit|QID|42171|PRE|42206^42149|
 C Final Exit|QID|42171|M|66,32.4|Z|Azsuna|QO|1|N|Use Rune of Opening to unlock the Empyrean Society Building.|
 C Final Exit|QID|42171|M|66.13,32.69|Z|Azsuna|QO|2|N|Kill Nora Blackfire.|
 C Final Exit|QID|42171|M|66.17,32.63|Z|Azsuna|QO|3|N|Loot Missive from Chest.|
@@ -262,7 +267,7 @@ C More Than Just A Food Vendor|QID|42494|M|72.84,55.09|Z|Suramar/24|QO|3|US|N|Ki
 C More Than Just A Food Vendor|QID|42494|M|60.75,60.11|Z|Suramar/24|QO|1|US|U|138115|N|Feed Starving Prisoners.|
 T The Enemy of My Enemy...|QID|42521|M|66.50,66.05|Z|Suramar/24|N|To Image of Kalec.|
 T More Than Just A Food Vendor|QID|42494|M|66.50,66.05|Z|Suramar/24|N|To Image of Kalec.|
-A Impending Dooooooom!|QID|42493|M|66.50,66.05|Z|Suramar/24|N|From Image of Kalec.|PRE|42494+42521|
+A Impending Dooooooom!|QID|42493|M|66.50,66.05|Z|Suramar/24|N|From Image of Kalec.|PRE|42494^42521|
 C Impending Dooooooom!|QID|42493|M|70.72,76.72|Z|Suramar/24|QO|1|N|Find the Nightborn Soulstone.|
 C Impending Dooooooom!|QID|42493|M|61.71,74.57|Z|Suramar/24|QO|2|N|Cross Magic Barrier.|
 C Impending Dooooooom!|QID|42493|M|45.76,66.03|Z|Suramar/24|QO|3|N|Find Archmage Vargoth.|
@@ -326,7 +331,7 @@ C The Final Countdown|Z|Black Temple|SO|4|S|N|Unleash the hatred of ten thousand
 C Enemies Defeated|M|56.03,66.10|Z|70BlackTempleLegion/1|SO|3;1|N|Enemies Defeated|ACTIVE|44496|
 C Use Metamorphosis.|M|56.03,66.10|Z|70BlackTempleLegion/1|SO|4;1|N|Use Metamorphosis.|ACTIVE|44496|
 C The Final Countdown|Z|Black Temple|SO|4|US|N|Unleash the hatred of ten thousand years.|ACTIVE|44496|
-C The Demon Within|Z|Black Temple|SO|5||N|Annihilate your enemies.|ACTIVE|44496|
+C The Demon Within|Z|Black Temple|SO|5|N|Annihilate your enemies.|ACTIVE|44496|
 C The Huntress|Z|Black Temple|SO|6|S|N|Defeat Maiev|ACTIVE|44496|
 C Defeat Maiev|M|60.17,67.61|Z|70BlackTempleLegion/1|SO|6;1|N|Defeat Maiev|ACTIVE|44496|
 C The Huntress|Z|Black Temple|SO|6|US|N|nil|ACTIVE|44496|
@@ -346,12 +351,12 @@ T Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Hal
 A A Second Weapon|QID|43441|LVL|102|M|60.4,36|N|From Meryl Felstorm.|PRE|42175|
 C A Second Weapon|QID|43441|LVL|102|M|60.4,36|N|Pick the artifact you want to pursue next.|
 T A Second Weapon|QID|43441|LVL|102|M|60.4,36|N|From Meryl Felstorm.|
-A Artifact Specific Quest|QID|42001;40267;42452|M|60.4,36|N|From Meryl Felstorm.|PRE|43441|
+A Artifact Specific Quest|QID|42001^40267^42452|M|60.4,36|N|From Meryl Felstorm.|PRE|43441|
 ;3rd artifact
 A Thrice the Power|QID|44310|LVL|102|M|60.4,36|N|From Meryl Felstorm.|ACH|11174;;true|
 C Thrice the Power|QID|44310|LVL|102|M|60.4,36|N|Choose the remaining artifact.|
 T Thrice the Power|QID|44310|LVL|102|M|60.4,36|N|From Meryl Felstorm.|
-A Artifact Specific Quest|QID|42001;40267;42452|M|60.4,36|N|From Meryl Felstorm.|PRE|44310|
+A Artifact Specific Quest|QID|42001^40267^42452|M|60.4,36|N|From Meryl Felstorm.|PRE|44310|
 
 ;ARCANE
 ;A Aluneth, Greatstaff of the Magna|QID|42001|M|59.16,42.16|N|From Meryl Felstorm.|PRE|41085|a
@@ -428,8 +433,8 @@ C Alodi's Gems|QID|42455|M|51.73,19.05|Z|Dalaran!Dalaran!Dungeon|QO|1|NC|N|Go to
 C Alodi's Gems|QID|42455|M|51.49,18.68|Z|Dalaran!Dalaran!Dungeon|QO|2|NC|N|Speak with Glutonia.|
 C Alodi's Gems|QID|42455|M|54.69,16.39|Z|Dalaran!Dalaran!Dungeon|QO|3|NC|N|Enter Alodi's personal vault.|
 C Alodi's Gems|QID|42455|M|53.94,18.83;54.31,14.76;50.78,15.71|CS|Z|Dalaran!Dalaran!Dungeon|QO|4|NC|N|Find the Mana Gems.|
-R Chamber of the Guardian|ACTIVE|42477;42476|M|49.49,47.32|Z|Dalaran!Dalaran!Dungeon|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardians, and step on the teleport pad.|
-C Portal Karazhan|QID|42476;42477|M|32.27,71.76|Z|Aegwynn's Gallery@Dalaran70|QO|1|NC|N|Optional - Use the Dalaran Portal to Karazhan.|
+R Chamber of the Guardian|ACTIVE|42477^42476|M|49.49,47.32|Z|Dalaran!Dalaran!Dungeon|N|Optional - Run to the park in the center of Dalaran, now called Chamber of the Guardians, and step on the teleport pad.|
+C Portal Karazhan|QID|42476^42477|M|32.27,71.76|Z|Aegwynn's Gallery@Dalaran70|QO|1|NC|N|Optional - Use the Dalaran Portal to Karazhan.|
 C The Deadwind Site|QID|42476|M|37.75,67.20|Z|Deadwind Pass|QO|2|NC|N|Fly to the abandoned Kirin Tor camp near Karazhan|
 C The Deadwind Site|QID|42476|M|35.82,64.01|Z|Deadwind Pass|QO|3|NC|N|Find remaining ritual items.|
 C The Deadwind Site|QID|42476|M|34.95,62.51|Z|Deadwind Pass|QO|4|NC|N|Find any text on the ritual.|
@@ -442,7 +447,7 @@ C Daio the Decrepit|QID|42477|M|32.48,45.09|Z|Blasted Lands|QO|5|NC|N|Listen to 
 T Alodi's Gems|QID|42455|M|60.79,43.21|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|Teleport back to the Hall of the Guardian to turn in to Alodi.|
 T The Deadwind Site|QID|42476|M|59.17,42.94|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
 T Daio the Decrepit|QID|42477|M|59.17,42.94|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
-A The Mage Hunter|QID|42479|M|59.17,42.94|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42455;42476;42477|
+A The Mage Hunter|QID|42479|M|59.17,42.94|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42455 & 42476 & 42477|
 P Dalaran|QID|42479|N|Take the portal out to Dalaran.|ACTIVE|42479|
 C The Mage Hunter|QID|42479|M|69.83,51.13|Z|Dalaran!Dalaran!Dungeon|QO|1|CHAT|N|Take the hippogryph in Dalaran to Faronaar.|
 R Faronaar|ACTIVE|42479|M|30.51,44.99|Z|Azsuna|N|Enjoy your flight.|
@@ -457,7 +462,7 @@ C The Mage Hunter|QID|42479|M|67.04,92.73|Z|Azsuna|QO|2|N|Pick up Ebonchill. Use
 T The Mage Hunter|QID|42479|M|56.57,33.95|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
 
 ;Mage Class Hall
-A The Great Akazamzarak|QID|41112|M|56.63,33.82|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42001+40267+42452|
+A The Great Akazamzarak|QID|41112|M|56.63,33.82|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42001^40267^42452|
 C The Great Akazamzarak|QID|41112|M|57.35,90.48|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|QO|1|NC|N|(Optional) Portal to Dalaran Taken|
 C The Great Akazamzarak|QID|41112|M|48.41,63.32|Z|Dalaran!Dalaran!Dungeon|QO|2|NC|N|You can find him by the statue in front of the south bank, click on his bucket to bribe him.|
 T The Great Akazamzarak|QID|41112|M|48.50,63.41|Z|Dalaran!Dalaran!Dungeon|N|To The Great Akazamzarak.|
@@ -467,12 +472,12 @@ A The Tirisgarde Reborn|QID|41124|M|60.51,34.49|Z|The Guardian's Library!Hall of
 C The Tirisgarde Reborn|QID|41124|M|60.51,34.49|Z|The Guardian's Library!Hall of the Guardian!Dungeon|NC|N|Watch and listen, eventually you will receive your new title.|
 T The Tirisgarde Reborn|QID|41124|M|82.61,60.26|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To The Great Akazamzarak, on the first floor.|
 A A Conjuror's Duty|QID|41141|M|81.54,60.35|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From The Great Akazamzarak.|PRE|41124|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|81.61,60.26|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41141|
+A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|81.61,60.26|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41141|
 T A Conjuror's Duty|QID|41141|M|81.66,60.14|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To The Great Akazamzarak.|
-C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|57.37,90.31|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|QO|1|N|Use the portal on the first floor to travel to Dalaran.|ACTIVE|39718;39864;39731;39733;39735|
+C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|57.37,90.31|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|QO|1|N|Use the portal on the first floor to travel to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
 
 ; LVL 110 Quests
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|PRE|44337^44338|
 C In the House of Light and Shadow|QID|44448|M|84.63,46.53|Z|The Guardian's Library@MageClassShrine|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
 A Firing Up the Forge|QID|41778|LVL|110|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Karlain.|
 C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran!Dalaran!Dungeon|QO|1|N|1/1 Handful of Obliterum Ash|
@@ -489,7 +494,7 @@ t Investigate the Broken Shore|QID|45998|M|80.92,63.04|Z|Hall of the Guardian!Ha
 ; more quests, I'm sure.
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
-J On to Stormheim|QID|39864;39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
+J On to Stormheim|QID|39864^39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|
 J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|EmmStormheim|FACTION|Horde|
 J On to Val'sharah|QID|39731|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Val'sharah. That guide will auto load when you close this step.|GUIDE|EmmValsharah|
 J On to Highmountain|QID|39733|N| This temporarily ends the order hall guide, you will be sent back here, when you finish Highmountain. That guide will auto load when you close this step.|GUIDE|EmmHighmountain|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_horde
+-- Date: 2018-10-17 02:28
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3290/revisions/29212/view
 -- Date: 2018-03-06 01:22
 -- Who: Ludovicus_EditBot
 -- Log: LVL Strip
@@ -130,9 +135,9 @@ T Hellscream's Vigil |QID|11585|M|41.3,53.6|N|To Garrosh Hellscream.|
 A The Defense of Warsong Hold |QID|11596|PRE|11585|M|41.3,53.6|N|From High Overlord Saurfang.|
 h Warsong Hold |QID|11598|N|At Williamson.|M|41.9,54.5|
 T The Defense of Warsong Hold |QID|11596|N|To Overlord Razgor.|M|43.2,55.0|
-A Taking Back Mightstone Quarry |QID|11598|PRE|11595+11596+11597|M|43.2,55.0|N|From Overlord Razgor.|
-A Patience is a Virtue that We Don't Need |QID|11606|PRE|11595+11596+11597|M|43.3,55.4|N|From Quartermaster Holgoth.|
-A Taken by the Scourge |QID|11611|PRE|11595+11596+11597|M|42.2,56.2|N|From Foreman Mortuus.|
+A Taking Back Mightstone Quarry |QID|11598|PRE|11595^11596^11597|M|43.2,55.0|N|From Overlord Razgor.|
+A Patience is a Virtue that We Don't Need |QID|11606|PRE|11595^11596^11597|M|43.3,55.4|N|From Quartermaster Holgoth.|
+A Taken by the Scourge |QID|11611|PRE|11595^11596^11597|M|42.2,56.2|N|From Foreman Mortuus.|
 N Scourge attacks |QID|11632|L|34777|N|Every half hour, a scourge attack will take place. The Warsong captain will yell something about Marksmen. 10 minutes later, a boss will spawn and yell, he's called Ith'rix the Harvester. When you see this, go to the front gate of Warsong Hold, and wait till he dies. Then loot the Hardened Carapace that spawns and take the quest.|M|43,57|
 C Patience is a Virtue that We Don't Need |QID|11606|N|Loot Warsong Munition Crates off the ground.|M|43.3,57.9|S|
 C Taken by the Scourge |QID|11611|M|42.8,58.1|N|Free any Nerub'ar victims you see.|S|
@@ -164,7 +169,7 @@ A Message to Hellscream |QID|11616|PRE|11615|M|43.2,55.0|N|From Shadowstalker Ba
 T What the Cold Wind Brings... |QID|11632|O|N|To Overlord Saurfang.|
 T Message to Hellscream |QID|11616|M|41.3,53.6|N|To Garrosh Hellscream.|
 A Reinforcements Incoming... |QID|11618|PRE|11616|M|41.3,53.6|N|From Garrosh Hellscream.|
-A Ride to Taunka'le Village |QID|11888|LEAD|11890|PRE|11595+11596+11597|M|41.7,54.7|N|From Ambassador Talonga.|
+A Ride to Taunka'le Village |QID|11888|LEAD|11890|PRE|11595^11596^11597|M|41.7,54.7|N|From Ambassador Talonga.|
 T Wind Master To'bor |QID|11634|N|Go to the top of Warsong Hold. To Wind Master To'bor.|M|42.3,54.9|
 A Magic Carpet Ride |QID|11636|PRE|11634|M|42.3,54.9|N|From Wind Master To'bor.|
 F Coast of Echoes|QID|11636|N|Go talk to Yanni, he's the only blood elf in sight. Get him to send you to Garrosh's Landing, and enjoy the carpet ride.|M|42.3,55.7|
@@ -188,7 +193,7 @@ A Escaping the Mist|QID|11664|N|From Mootoo the Younger upstairs in the hut. Thi
 T Escaping the Mist |QID|11664|M|31.7,54.4|N|To Elder Mootoo.|
 T Mobu's Pneumatic Tank Transjigamarig |QID|11643|M|32.1,54.3|N|To Mobu.|
 T Super Strong Metal Plates! |QID|11644|M|32.1,54.3|N|To Mobu.|
-A Tanks a lot... |QID|11651|PRE|11643;11644|M|32.1,54.3|N|From Mobu.|
+A Tanks a lot... |QID|11651|PRE|11643 & 11644|M|32.1,54.3|N|From Mobu.|
 T Into the Mist |QID|11655|M|32.3,54.3|N|To Waltor of Pal'ea.|
 A Burn in Effigy |QID|11656|PRE|11655|M|32.3,54.3|N|From Waltor of Pal'ea.|
 T Horn of the Ancient Mariner |QID|11660|M|32.3,54.3|N|To Waltor of Pal'ea.|
@@ -253,8 +258,8 @@ A Foolish Endeavors |QID|11705|PRE|11703|M|34.6,46.4|N|From Shadowstalker Getry.
 C Foolish Endeavors |QID|11705|N|Let Saurfang tank. If you are going to die, back off and let Saurfang finish it. Let Getry engage first, but be right behind him, this quest can bug easily if he aggros before he is supposed to.|
 T Foolish Endeavors |QID|11705|M|41.3,53.6|N|To Garrosh Hellscream.|
 A Nork Bloodfrenzy's Charge |QID|11709|PRE|11705|M|41.3,53.6|N|From Garrosh Hellscream.|
-A To Bor'gorok Outpost, Quickly! |QID|12486|LEAD|11624|PRE|11595+11596+11597|M|41.6,53.5|N|From Saurnak the Mystic.|
-A Too Close For Comfort |QID|11574|LEAD|11587|PRE|11595+11596+11597|LVL|69|M|41.7,54.7|N|From Endorah.|
+A To Bor'gorok Outpost, Quickly! |QID|12486|LEAD|11624|PRE|11595^11596^11597|M|41.6,53.5|N|From Saurnak the Mystic.|
+A Too Close For Comfort |QID|11574|LEAD|11587|PRE|11595^11596^11597|LVL|69|M|41.7,54.7|N|From Endorah.|
 T Nork Bloodfrenzy's Charge |QID|11709|M|43.7,54.5|N|To Warden Nork Bloodfrenzy.|
 A Coward Delivery... Under 30 Minutes or it's Free |QID|11711|PRE|11709|M|43.7,54.5|N|From Warden Nork Bloodfrenzy.|
 C Coward Delivery... Under 30 Minutes or it's Free |QID|11711|N|Follow the path north out of the quarry, then follow the trail east. When you get to the crossroads, use the flaregun. Make sure the prisioner stays with you.|U|34971|M|55,51|
@@ -642,7 +647,7 @@ A Motes of the Enraged |QID|11649|PRE|11627|M|46.6,9.3|N|From Imperean.|
 C Motes of the Enraged |QID|11649|N|Kill and loot Enraged Tempests.|M|45,9|
 T King Mrgl-Mrgl |QID|11702|N|To King Mrgl-Mrgl.|M|43.5,13.95|
 
-A Learning to Communicate |QID|11571|PRE|11702+11704|N|From King Mrgl-Mrgl.|M|43.50,13.97|
+A Learning to Communicate |QID|11571|PRE|11702^11704|N|From King Mrgl-Mrgl.|M|43.50,13.97|
 C Learning to Communicate |QID|11571|U|34598|N|Kill Scalder at the bottom of the sea. Target his corpse and use the conch. Scalder is immune to frost.|M|42.53,15.85|
 T Learning to Communicate |QID|11571|N|To King Mrgl-Mrgl.|M|43.50,13.97|
 A Winterfin Commerce |QID|11559|PRE|11571|N|From King Mrgl-Mrgl.|M|43.50,13.97|

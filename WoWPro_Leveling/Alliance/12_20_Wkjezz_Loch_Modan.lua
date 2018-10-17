@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_loch_modan
+-- Date: 2018-10-17 02:23
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3216/revisions/29161/view
 -- Date: 2018-02-24 20:40
 -- Who: Ludovicus_EditBot
 -- Log: LEVEL
@@ -317,7 +322,7 @@ C Gathering Idols|QID|26961|US|M|68.3,63.2|N|Finish killing and looting the Trog
 
 T Keep Your Hands Off The Goods!|QID|13650|M|65.19,66.07|N|To Prospector Ironband.|
 T Gathering Idols|QID|26961|M|64.94,66.56|N|To Magmar Fellhew.|
-A Joining the Hunt|QID|13647|M|64.93,66.60|N|From Magmar Fellhew.|PRE|13650;26961|
+A Joining the Hunt|QID|13647|M|64.93,66.60|N|From Magmar Fellhew.|PRE|13650 & 26961|
 
 R The Farstrider Lodge |QID|13647|M|82.79,63.42|N|Head to The Farstrider Lodge, you can follow the road north then east around the Excavation Site to reduce the likelyhood of any attacks.|
 A Thistle While You Work|QID|27025|M|82.79,63.42|N|From Safety Warden Pipsy. The entrance to the lodge is north-east of the building.|
@@ -394,7 +399,7 @@ C Servants of Cho'gall|QID|27075|M|70.91,23.24|US|N|Kill 7 Mo'Grosh Ogres.|
 T Servants of Cho'gall|QID|27075|M|64.05,26.83|N|To Ashlan Stonesmirk.|
 T Clutching at Chaos|QID|27077|M|64.05,26.83|N|To Ashlan Stonesmirk.|
 
-A Gor'kresh|QID|27078|M|64.05,26.83|N|From Ashlan Stonesmirk.|PRE|27075;27077|
+A Gor'kresh|QID|27078|M|64.05,26.83|N|From Ashlan Stonesmirk.|PRE|27075 & 27077|
 C Gor'kresh|QID|27078|M|74.82,19.81;79.80,14.90|CS|N|Head to the back of the cave, and kill Gor'kresh.|
 T Gor'kresh|QID|27078|M|64.17,26.83|N|To Ashlan Stonesmirk.|
 

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2018-10-17 02:25
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3604/revisions/29846/view
 -- Date: 2018-09-28 01:50
 -- Who: jovieve
 -- Log: Changed H step "QID" to "AVAILABLE." Also substituted QID for different quest in case other people were like me and didn't want to wait so long to upgrade garrison.
@@ -248,14 +253,6 @@
 -- Who: Fluclo
 -- Log: Fixed wrong ACTIVE tag in Lost in Transition, removed my test code inadvertently left in the guide.
 
--- URL: http://wow-pro.com/node/3604/revisions/26970/view
--- Date: 2014-11-13 05:55
--- Who: Fluclo
--- Log: Moved Gnomish Location Transponder to after Fey Landing; 
---	Added The Big Haul quest; 
---	Moved Draakorium quests to before Twilight; 
---	Added Level 92 tag to Secrets of Gorgrond; 
-
 local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley@Draenor', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90,92,91)
 WoWPro:NewGuideLevels(guide,90,100)
@@ -288,7 +285,7 @@ C Ravenous Ravens |QID|34616|N|Finish killing the Lunarfall Ravens|US|M|29.1,17.
 T Looking for Lumber |QID|34584|N|From Baros Alexston|M|29.0,16.2|
 T Ravenous Ravens |QID|34616|N|From Baros Alexston|M|29.0,16.2|
 
-A Quakefist |QID|34585|N|From Yrel|M|28.9,16.4|PRE|34584;34616|
+A Quakefist |QID|34585|N|From Yrel|M|28.9,16.4|PRE|34584 & 34616|
 C Quakefist |QID|34585|N|Kill Quakefist, who can be found inside the cave.|M|30.1,21.8|T|Quakefist|
 T Quakefist |QID|34585|N|To Yrel|M|28.9,16.4|
 
@@ -324,7 +321,7 @@ T Pale Moonlight |QID|35174|N|To Vindicator Maraad\n\nUse your Garrison Hearthst
 T Keeping it Together |QID|35176|N|To Baros Alexston|M|41.20,49.33|Z|Lunarfall|
 T Ship Salvage|QID|35166|N|To Baros Alexston|M|41.20,49.33|Z|Lunarfall|
 
-A Build Your Barracks |QID|34587|N|From Baros Alexston|PRE|35174;35176;35166|M|41.20,49.33|Z|Lunarfall|
+A Build Your Barracks |QID|34587|N|From Baros Alexston|PRE|35174 & 35176 & 35166|M|41.20,49.33|Z|Lunarfall|
 C Build Your Barracks |QID|34587|N|Loot the Barracks Blueprints from the floor of the construction site.|QO|1|NC|M|45.4,40.2|Z|Lunarfall|
 C Build Your Barracks |QID|34587|N|Click on the Barracks Blueprints to learn it.|QO|2|U|111956|NC|
 C Build Your Barracks |QID|34587|N|Click on the Architect Table, then drag the Barracks icon to the Large Empty Plot.|QO|3|NC|M|41.12,48.93|Z|Lunarfall|
@@ -406,7 +403,7 @@ T Dark Enemies |QID|33765|N|To Prophet Velen.|M|49.12,38.51|
 T Closing the Door |QID|33905|N|To Prophet Velen|M|49.12,38.51|
 
 ;The next quest needs all three of 33765;33070;33905 but when all three are shown, this quest is skipped unless you /reload ui!
-A Shadows Awaken |QID|34019|N|From Prophet Velen|M|49.12,38.51|PRE|33765;33070| ;33905|
+A Shadows Awaken |QID|34019|N|From Prophet Velen|M|49.12,38.51|PRE|33765 & 33070| ;33905|
 C Shadows Awaken |QID|34019|N|Head into the centre of the observatory and wait for Ner'zhul to spawn Karnoth|M|49.3,37.4|NC|QO|1|
 C Shadows Awaken |QID|34019|N|Kill and loot Karnoth.|M|49.4,37.0|
 
@@ -429,7 +426,7 @@ A The Southern Wilds |QID|35444|N|From Farmer Gehaar|CN|M|49.05,38.63;49.1,38.6|
 l Astrologer's Box|QID|33867|N|Astrologer's Box: Star Chart Toy. You will first need to leave Teluuna Observatory (until it shows another zone), then go back to the Observatory so that the fires disappear, then go up the ramp to the top floor. |M|48.50,40.34;49.83,37.01;49.41,37.55|CC|RANK|3|
 
 ; The next 7 blocks of quests are dependant upon which profession item(s) you have looted from Karnoth.
-H Lunarfall |QID|36308;33814;36236|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|ACTIVE|36308;35342;36236|
+H Lunarfall |QID|36308^33814^36236|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|ACTIVE|36308^35342^36236|
 
 T The Mysterious Flask|QID|35342|M|47.69,45.39|Z|Lunarfall|N|To Aenir.|ACTIVE|35342|
 A The Young Alchemist|QID|35343|M|47.69,45.39|Z|Lunarfall|N|From Aenir.|PRE|35342|
@@ -440,7 +437,7 @@ A Ameeka, Master Tailor|QID|36262|M|43.0,54.9|Z|Lunarfall|N|From Aerun.|PRE|3623
 T Enchanted Highmaul Bracer|QID|36308|N|To Eileese Shadowsong|Z|Lunarfall|M|50.07,42.10|
 A The Arakkoan Enchanter|QID|36310|N|From Eileese Shadowsong|Z|Lunarfall|M|50.07,42.10|PRE|36308|
 
-F Embaari Village |QID|35343;36262;36310|N|Fly to Embaari Village|ACTIVE|35343;36262;36310|M|47.99,49.92|
+F Embaari Village |QID|35343^36262^36310|N|Fly to Embaari Village|ACTIVE|35343^36262^36310|M|47.99,49.92|
 
 T The Young Alchemist|QID|35343|M|55.85,41.15|N|To Abatha.|
 A The Missing Father|QID|35344|M|55.85,41.15|N|From Abatha.|PRE|35343|
@@ -533,7 +530,7 @@ C Engorged Goren |QID|34786|N|Finish killing and looting the Crystalmaw Goren an
 
 T Engorged Goren |QID|34786|N|To Apprentice Artificer Andren|M|61.87,29.14|
 T Shut 'er Down |QID|35070|N|To Exarch Hataaru|M|61.91,29.69|
-A Exarch Maladaar |QID|34787|N|From Exarch Akama|M|61.92,29.61|PRE|34784;35070|
+A Exarch Maladaar |QID|34787|N|From Exarch Akama|M|61.92,29.61|PRE|34784 & 35070|
 
 f Elodor |QID|34787|N|With Vamuun.|M|58.7,31.9|
 T Exarch Maladaar |QID|34787|N|To Exarch Maladaar on Fey Landing.|CS|M|59.38,29.15;59.51,30.37|
@@ -607,7 +604,7 @@ C Riot Blossom|QID|33787|N|Finish killing and looting the Riot Blossom|QO|3|US|M
 T Fiona's Solution|QID|33787|M|53.59,57.30|N|To Fiona.|
 T Swamplighter Queen|QID|33808|M|53.59,57.30|N|To Fiona.|
 
-A Cooking With Unstable Herbs|QID|33788|M|53.59,57.30|N|From Fiona.|PRE|33787;33808|
+A Cooking With Unstable Herbs|QID|33788|M|53.59,57.30|N|From Fiona.|PRE|33787 & 33808|
 C Cooking With Unstable Herbs|QID|33788|QO|1|N|Speak with Fiona|CHAT|M|53.59,57.30|
 C Cooking With Unstable Herbs|QID|33788|QO|2|N|Follow Fiona's steps to complete the elixir.\n\nNice Glow = Moonlit Herb\nSomething Meaty = Riverbeast Heart\nWriggle Around = Riotvine\nDangerous and Toxic = Swamplighter Venom|NC|M|53.59,57.30|
 C Cooking With Unstable Herbs|QID|33788|QO|3|N|Click to use the elixir on Gidwin Goldbraids.|NC|
@@ -710,7 +707,7 @@ C Escape From Shaz'gul |QID|33081|N|Speak to Yrel and select any two chat lines 
 C Escape From Shaz'gul |QID|33081|N|Escort Yrel out of Shaz'gul, a number of mobs will spawn at various points.|QO|2|M|39.2,57.5|
 
 T Escape From Shaz'gul |QID|33081|N|To Yrel, now in Twilight Glade.|M|40.60,54.94|
-A Chasing Shadows |QID|33586|N|From Prophet Velen|M|40.53,54.91|PRE|33059;33081|
+A Chasing Shadows |QID|33586|N|From Prophet Velen|M|40.53,54.91|PRE|33059 & 33081|
 A Fast Expansion|QID|33814|M|40.65,54.87|N|From Scout Valdez. If he is not here, he might be in your garrison.|PRE|33059|
 
 F Embaari Village |QID|33586|M|40.7,55.3|N|Fly to Embaari Village, or use your hearthstone if it has cooled down.|
@@ -812,7 +809,7 @@ T On the Offensive|QID|33083|N|To Prophet Velen|M|46.37,38.68|
 T Harbingers of the Void|QID|33793|M|46.37,38.68|N|To Prophet Velen|
 T Across the Stars|QID|33795|M|46.37,38.68|N|To Prophet Velen|
 
-A Darkness Falls|QID|33837|N|From Prophet Velen.|M|46.37,38.68|PRE|34054;33083;33793;33795;33794|
+A Darkness Falls|QID|33837|N|From Prophet Velen.|M|46.37,38.68|PRE|34054 & 33083 & 33793 & 33795 & 33794|
 
 T Wanted: Kliaa's Stinger|QID|33834|N|To Dyuna|ACTIVE|33834|M|44.91,38.50|
 
@@ -907,9 +904,9 @@ J Garrison Buldings|GUIDE|LudoBuildingsAlliance|N|Check in to see if there are a
 A Meet Us at Starfall Outpost|QID|33359|LEAD|33113|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|LVL|90|
 
 ; Having this quest and the [Ashran Appearance] quest causes the Ashran one not to complete.
-A The Secrets of Gorgrond |QID|33533;35556;36632|N|Moving onto Gorgrond next? Accept this quest from your Bulletin Board.|LEAD|35033|LVL|92|M|42.65,44.74|Z|Lunarfall|
+A The Secrets of Gorgrond |QID|33533^35556^36632|N|Moving onto Gorgrond next? Accept this quest from your Bulletin Board.|LEAD|35033|LVL|92|M|42.65,44.74|Z|Lunarfall|
 
-D Zone Finished|QID|33533;35556;36632|N|Zone finished (for now). Feel free to hearth to your garrison for your missions, otherwise move onto the Gorgrond guide.|
+D Zone Finished|QID|33533^35556^36632|N|Zone finished (for now). Feel free to hearth to your garrison for your missions, otherwise move onto the Gorgrond guide.|
 
 ]]
 

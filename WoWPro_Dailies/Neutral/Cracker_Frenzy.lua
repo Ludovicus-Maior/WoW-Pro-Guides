@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_frenzyheart_tribe_reputation_dalies_sholazar_basin
+-- Date: 2018-10-17 02:21
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3417/revisions/29611/view
 -- Date: 2018-08-24 16:46
 -- Who: Ludovicus_Maior
 -- Log: Corrected a few QO's
@@ -45,8 +50,8 @@ return [[
 
 R Frenzyheart Hill|M|55.79,68.18|N|Head to Sholazar Basin and go to Frenzyheart Hill.|
 
-A 1 of 4 Possible Quests|QID|12732;12734;12741;12758|M|55.6,69.4|N|From Rejek. You will get one of the four possible quests, which are "The Heartblood's Strength", "Rejek:First Blood", "Strength of the Tempest" or "A Hero's Headgear."|
-A 1 of 3 Possible Quests|QID|12703;12759;12760|M|55.6,68.6|N|From Vekgar. You will get one of the three possible quests, which are "Kartak's Rampage","Tools of War" or "Secret Strength of the Frenzyheart".|
+A 1 of 4 Possible Quests|QID|12732^12734^12741^12758|M|55.6,69.4|N|From Rejek. You will get one of the four possible quests, which are "The Heartblood's Strength", "Rejek:First Blood", "Strength of the Tempest" or "A Hero's Headgear."|
+A 1 of 3 Possible Quests|QID|12703^12759^12760|M|55.6,68.6|N|From Vekgar. You will get one of the three possible quests, which are "Kartak's Rampage","Tools of War" or "Secret Strength of the Frenzyheart".|
 A Chicken Party!|QID|12702|M|55.4,69.6|N|From Elder Harkek.|
 C Chicken Party!|QID|12702|M|55.4,69.6|U|38689|N|They're quick, but as long as you have them in the target circle when you click, you'll catch them in the net. Pick them up for credit. Turn on the nameplates (V key) to make it easier. You can aslo be mounted when you pick the chickens up.|
 T Chicken Party!|QID|12702|M|55.4,69.6|N|To Elder Harkek.|

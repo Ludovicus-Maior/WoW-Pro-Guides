@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_un039goro_crater_neutral
+-- Date: 2018-10-17 02:30
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3262/revisions/29126/view
 -- Date: 2018-02-22 23:48
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -193,7 +198,7 @@ A The Apes of Un'Goro|QID|24717|PRE|24701|M|43.23,41.68|N|From Gremix.|
 T Super Sticky|QID|24737|M|43.23,41.68|N|To Tara.|
 A Gormashh the Glutinous|QID|24699|PRE|24737|M|43.23,41.68|N|From Tara.|
 T Hard to Harvest|QID|24700|M|43.23,41.68|N|To Tara.|
-A Chasing A-Me 01|QID|24714|PRE|24737;24700;24701|M|43.37,41.00|N|From Karna Remtravel.|
+A Chasing A-Me 01|QID|24714|PRE|24737 & 24700 & 24701|M|43.37,41.00|N|From Karna Remtravel.|
 l Green Crystals|NC|S|QID|24720|M|60.12,31.75|N|Loot 7 green crystals from the big crystal nodes in this part of the zone.|QO|3|; Green Power Crystal: 7/7
 C Gormashh the Glutinous|QID|24699|U|50746|M|60.12,31.75|N|Use the tar scraper on Gormash after you defeat him.|
 C The Apes of Un'Goro|QID|24717|M|67.57,16.84|N|Kill and loot 2 pelts from each gorilla type.|S|
@@ -203,7 +208,7 @@ C Repairing A-Me 01|QID|24715|M|64.08,20.06|N|Pick up a nearby coconut, take it 
 T Repairing A-Me 01|QID|24715|M|63.82,19.77|N|To A-Me 01.|
 
 A Serving A-Me 01|QID|24926|PRE|24715|M|63.82,19.77|N|From A-Me 01.|
-A The Mighty U'cha|QID|24718|PRE|24737;24700;24701|M|63.82,16.48;65.06,16.54|CS|N|This quest should automatically pop up when entering the cave.|
+A The Mighty U'cha|QID|24718|PRE|24737 & 24700 & 24701|M|63.82,16.48;65.06,16.54|CS|N|This quest should automatically pop up when entering the cave.|
 C The Mighty U'cha|QID|24718|M|68.06,15.94|N|U'cha patrols through the cave.|
 C The Apes of Un'Goro|QID|24717|M|67.57,16.84|N|Kill and loot 2 pelts from each gorilla type.|US|
 l Green Crystals|NC|US|QID|24720|M|60.12,31.75|N|Loot 7 green crystals from the big crystal nodes in this part of the zone.|QO|3|; Green Power Crystal: 7/7
@@ -259,7 +264,7 @@ T An Abandoned Research Camp|QID|24866|M|54.99,62.19|N|To Hol'anyee Marshal.|
 T The Western Pylon|QID|24723|M|54.25,62.51|N|To J.D. Collie.|
 T Crystals of Power|QID|24720|M|54.23,62.46|N|To J.D. Collie.|
 
-A The Shaper's Terrace|QID|24694|PRE|24721;24722;24723|M|53.90,62.49|N|From Un'Goro Examinant.|
+A The Shaper's Terrace|QID|24694|PRE|24721 & 24722 & 24723|M|53.90,62.49|N|From Un'Goro Examinant.|
 T The Shaper's Terrace|QID|24694|M|53.90,62.49;83.38,46.01|CS|N|Speak with the Un'Goro Examinant to be teleported to the Shaper's Terrace. Turn-in to Nablya.|
 A Ever Watching From Above|QID|24695|PRE|24694|M|83.38,46.01|N|From Nablya.|
 C Ever Watching From Above|QID|24695|QO|1|M|83.54,45.27|N|Bloodpetal lever. Use your abilities to defeat another Bloodpetal.|; Bloodpetal Observation: 1/1

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_bloodmyst_isle
+-- Date: 2018-10-17 02:23
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3220/revisions/29160/view
 -- Date: 2018-02-24 20:40
 -- Who: Ludovicus_EditBot
 -- Log: LEVEL
@@ -286,7 +291,7 @@ A Deciphering the Book|QID|9557|PRE|9550|N|From the Battered Ancient Book.|M|61.
 H Blood Watch |QID|9643|N|Hearth back to Blood Watch.|U|6948|
 T Constrictor Vines|QID|9643|N|To Tracker Lyceon.|M|55.83,56.93|
 T The Bear Necessities|QID|9580|N|To Tracker Lyceon.|M|55.83,56.93|
-A Culling the Flutterers|QID|9647|PRE|9580+9643|N|From Tracker Lyceon.|M|55.83,56.93|
+A Culling the Flutterers|QID|9647|PRE|9580^9643|N|From Tracker Lyceon.|M|55.83,56.93|
 T I Shoot Magic Into the Darkness|QID|9700|N|To Vindicator Boros.|M|55.42,55.25|
 A The Cryo-Core|QID|9703|PRE|9700|N|From Vindicator Kuros.|M|55.64,55.28|
 T Deciphering the Book|QID|9557|N|To Anchorite Paetheus.|M|54.69,54.01|
@@ -370,7 +375,7 @@ A Ysera's Tears|QID|9649|PRE|9648|M|56.4,56.8|N|From Jessera of Mac'Aree.|
 T Nolkai's Words|QID|9561|N|It's a pile of dirt.|M|61.2,49.7|
 A Restoring Sanctity|QID|9687|M|73.7,33.7|N|From Prince Toreth. He pats around the area.|
 T The Bloodcurse Legacy|QID|9672|N|To Captain Edward Hanes.|M|79.14,22.66|
-A The Bloodcursed Naga|QID|9674|PRE|9672+9751|N|From Captain Edward Hanes.|M|79.14,22.66|
+A The Bloodcursed Naga|QID|9674|PRE|9672^9751|N|From Captain Edward Hanes.|M|79.14,22.66|
 C The Bloodcursed Naga|QID|9674|N|Head into the water and kill Naga.|M|81.33,21.06|
 T The Bloodcursed Naga|QID|9674|N|To Captain Edward Hanes.|M|79.14,22.66|
 A The Hopeless Ones...|QID|9682|PRE|9674|N|From Captain Edward Hanes.|M|79.14,22.66|

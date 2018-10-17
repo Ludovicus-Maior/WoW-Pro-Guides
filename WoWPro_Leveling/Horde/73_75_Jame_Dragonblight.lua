@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
+-- Date: 2018-10-17 02:28
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3292/revisions/29587/view
 -- Date: 2018-08-23 19:42
 -- Who: Emmaleah
 -- Log: update old style QOs
@@ -115,7 +120,7 @@ WoWPro:GuideSteps(guide, function()
 --> Last modified by [Jiyambi] 19/6/2009
 return [[
 
-A Into the Fold |QID|11978|PRE|11977+11979|M|12.8,48.5|N|From Emissary Brighthoof.|
+A Into the Fold |QID|11978|PRE|11977^11979|M|12.8,48.5|N|From Emissary Brighthoof.|
 A Pride of the Horde |QID|11980|M|14.2,49.8|N|From Blood Guard Roh'kill.|
 C Pride of the Horde |QID|11980|N|Kill Anub'ar Ambushers.|S|M|15.5,51.2|
 C Into the Fold |QID|11978|M|15.5,51.2|N|Loot Horde Armaments from the ground.|
@@ -316,7 +321,7 @@ T Speak with your Ambassador |QID|12767|N|Talk to Torastrasza and get sent back 
 A Report to the Ruby Dragonshrine |QID|12461|M|58.0,55.4|PRE|12767|N|From Golluck Rockfist.|
 F Venomspite |QID|12188|M|60.31,51.56|N|Fly to Venomspite.|
 T Imbeciles Abound! |QID|12189|M|77.7,62.8|N|To Chief Plaguebringer Middleton.|
-A The Forsaken Blight and You: How Not to Die |QID|12188|PRE|12182+12189|M|77.7,62.8|N|From Chief Plaguebringer Middleton.|
+A The Forsaken Blight and You: How Not to Die |QID|12188|PRE|12182^12189|M|77.7,62.8|N|From Chief Plaguebringer Middleton.|
 A Blighted Last Rites |QID|12206|M|77.0,62.9|N|From Apothecary Vicky Levine.|
 C Blighted Last Rites |QID|12206|U|37129|N|Go stand next to the Scarlet Onslaught Prisoner, then use the Flask of Blight.|
 T Blighted Last Rites |QID|12206|M|77.0,62.9|N|To Apothecary Vicky Levine.|
@@ -373,7 +378,7 @@ T The Kor'kron Vanguard! |QID|12224|N|To Saurfang the Younger.|M|41,18|
 A Audience With The Dragon Queen |QID|12496|M|40.7,18.1|PRE|12224|N|From Saurfang the Younger.|
 F Wyrmrest Temple |QID|12497|N|Fly to Wyrmrest Temple.|M|44,17|
 T Audience With The Dragon Queen |QID|12496|N|Get Tariolastrasz to send you up. To Alexstrasza the Life-Binder.|M|59.8,54.7|
-A Galakrond and the Scourge |QID|12497|PRE|12495+12496|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
+A Galakrond and the Scourge |QID|12497|PRE|12495^12496|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
 T Galakrond and the Scourge |QID|12497|N|To Torastrasza.|M|59.5,53.3|
 A On Ruby Wings |QID|12498|PRE|12497|M|59.5,53.3|N|From Torastrasza.|
 C On Ruby Wings |QID|12498|N|Use your Beacon and fly north to Galakron's Rest. Ability 1 and 2 are damage abilities. Use ability 3 when near a Wastes Scavenger to regain mana/HP (you eat them). If you have one, equip your PvP trinket once you've killed the 30 Scavengers, the miniboss we're about to kill does a 10 second fear. Kill the giant Thiassi, at the northwestern tip of Galakron's Rest (use the dragon to make it easy), dismount, then kill Grand Necrolord Antiok, and loot the Scythe that appears.|M|56,35|
@@ -390,7 +395,7 @@ A Disturbing Implications |QID|12147|U|36856|M|42.4,38.9|N|From the Emblazoned B
 T Canyon Chase |QID|12145|M|46.7,33.5|N|To Kontokanis.|
 C That Which Creates Can Also Destroy |QID|12459|US|QO|1|U|37887|N|It'll be up in the sky, use the Seeds of Nature's Wrath on it and finish it.|M|55.2,45.7|; Weakened Reanimated Frost Wyrm slain: 1/1
 T Disturbing Implications |QID|12147|N|Turn in to Aurastrasza, who resides at the bottom floor of Wyrmrest Temple.|M|60.0,55.1|
-A One of a Kind |QID|12148|PRE|12146+12147|M|60.0,55.1|N|From Aurastrasza.|
+A One of a Kind |QID|12148|PRE|12146^12147|M|60.0,55.1|N|From Aurastrasza.|
 K Bonesunder |QID|12148|QO|1|M|50.64,58.5|N|Look for Bonesunder near the waypoint. Kill Bonesunder Loot the Emblazoned Battle Horn.|T|Bonesunder|; Emblazoned Battle Horn: 1/1
 T One of a Kind |QID|12148|M|60.0,55.1|N|To Aurastrasza.|
 
@@ -606,7 +611,7 @@ T Mystery of the Infinite |QID|12470|N|To Chromie.|M|60,54.49|
 T The Fate of the Ruby Dragonshrine |QID|12419|M|59.8,54.7|N|To Krasus.|
 T Informing the Queen |QID|12124|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
 
-A Report to Lord Afrasastrasz |QID|12435|PRE|12123+12124|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
+A Report to Lord Afrasastrasz |QID|12435|PRE|12123^12124|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
 T On Ruby Wings |QID|12498|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
 A Return To Angrathar |QID|12500|M|59.8,54.7|PRE|12498|N|From Alexstrasza the Life-Binder.|
 T Report to Lord Afrasastrasz |QID|12435|N|Ask Torastrasza to fly you down to the middle floor. Turn the quest into Lord Afrasastrasz.|M|59.2,54.3|

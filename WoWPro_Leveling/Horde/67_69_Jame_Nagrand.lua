@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2018-10-17 02:27
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3280/revisions/29208/view
 -- Date: 2018-02-27 17:51
 -- Who: Ludovicus_EditBot
 -- Log: Altruis LVL changes
@@ -298,12 +303,12 @@ T Stealing from Thieves |QID|9882|M|31.4,57.8|N|To Gezhe.|REP|The Consortium;933
 
 T Armaments for Deception |QID|9928|M|74.0,62.5|N|To Lantresor of the Blade.|
 T Ruthless Cunning |QID|9927|M|74.0,62.5|N|To Lantresor of the Blade.|
-A Returning the Favor |QID|9931|PRE|9928;9927|M|74.0,62.5|N|From Lantresor of the Blade.|
-A Body of Evidence |QID|9932|PRE|9928;9927|M|74.0,62.5|N|From Lantresor of the Blade.|
+A Returning the Favor |QID|9931|PRE|9928 & 9927|M|74.0,62.5|N|From Lantresor of the Blade.|
+A Body of Evidence |QID|9932|PRE|9928 & 9927|M|74.0,62.5|N|From Lantresor of the Blade.|
 T Windroc Mastery  |QID|9856|N|To Shado 'Fitz' Farstrider.|M|71.57,40.53|
 T Talbuk Mastery  |QID|9859|N|To Harold Lane.|M|71.4,40.63|
 T Clefthoof Mastery  |QID|9851|N|To Hemet Nesingwary.|M|71.52,40.79|
-A The Ultimate Bloodsport |QID|9852|PRE|9856;9859;9851|N|From Hemet Nesingwary.|M|71.52,40.79|
+A The Ultimate Bloodsport |QID|9852|PRE|9856 & 9859 & 9851|N|From Hemet Nesingwary.|M|71.52,40.79|
 T Wanted: Giselda the Crone |QID|9935|M|56.0,38.0|N|To Warden Bullrok.|
 T Murkblood Invaders |QID|9872|N|To Garrosh.|
 
@@ -330,7 +335,7 @@ C Cho'war the Pillager |QID|9946|N|He's in the northern cave on that plateau for
 T Cho'war the Pillager |QID|9946|M|32.5,36.0|N|To Elder Yorley.|
 
 T He Called Himself Altruis...|QID|9983|M|27.29,43.1|N|To Altruis the Sufferer.|
-A Survey the Land |QID|9991|PRE|9982+9983|M|27.29,43.1|N|To Altruis the Sufferer.|
+A Survey the Land |QID|9991|PRE|9982^9983|M|27.29,43.1|N|To Altruis the Sufferer.|
 C Survey the Land |N|Make sure you are not mounted when you accept this quest (or if you are just talk to Altruis and say you're ready to survey).  You should fly around automatically.|QID|9991|M|27.29,43.1|
 T Survey the Land |QID|9991|M|27.29,43.1|N|To Altruis the Sufferer.|
 A Buying Time|QID|9999|PRE|9991|M|27.35,43.06|N|From Altruis the Sufferer.|
@@ -396,9 +401,9 @@ T Forge Camp: Annihilated|QID|10011|M|27.32,43.07|N|To Altruis the Sufferer.|
 
 L Level 67|QID|10641|N|The following quests require level 67.|LVL|67|
 N The rest...|N|The following quests Altruis gives (after this note), require level 67 have pre-reqs that require you to go to Shadowmoon Vally. The quests that need to be done are, "Karabor Training Grounds", "A Necessary Distraction" and "Atruis". Those are not covered in this guide, nor will the be "Fly to" steps.|
-A Against the Legion|QID|10641|PRE|10640+10689|M|27.35,43.06|N|From Altruis the Sufferer.|
-A Against the Illidari|QID|10668|PRE|10640+10689|M|27.35,43.06|N|From Altruis the Sufferer.|
-A Against All Odds|QID|10669|PRE|10640+10689|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Against the Legion|QID|10641|PRE|10640^10689|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Against the Illidari|QID|10668|PRE|10640^10689|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Against All Odds|QID|10669|PRE|10640^10689|M|27.35,43.06|N|From Altruis the Sufferer.|
 C Against All Odds|QID|10669|M|15,41|Z|Zangarmarsh|N|Go the waypoint, find the portal, and use the Imbued Silver Spear, then kill the floating butt, er... I mean Xeleth.|U|30853|
 l Freshly Drawn Blood|QID|10641|Z|Netherstorm|M|40,20|N|Head to Netherstorm then to the waypoint. Kill and loot a Wrath Priestess to get the blood.|L|30850|
 C Against the Legion|QID|10641|M|40,20|Z|Netherstorm|N|Use the Freshly Drawn Blood to lure out the Avatar of Sathal and slay her.|U|30850|
@@ -407,7 +412,7 @@ T Against the Legion|QID|10641|M|27.35,43.06|N|To Altruis the Sufferer.|
 T Against the Illidari|QID|10668|M|27.35,43.06|N|To Altruis the Sufferer.|
 T Against All Odds|QID|10669|M|27.35,43.06|N|To Altruis the Sufferer.|
 
-A Illidan's Pupil|QID|10646|PRE|10641;10668;10669|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Illidan's Pupil|QID|10646|PRE|10641 & 10668 & 10669|M|27.35,43.06|N|From Altruis the Sufferer.|
 C Illidan's Pupil|QID|10646|M|27.35,43.06|N|Talk to Altruis until you get the quest completion.|NC|
 T Illidan's Pupil|QID|10646|M|27.35,43.06|N|To Altruis the Sufferer.|
 A The Book of Fel Names|QID|10649|PRE|10646|M|27.35,46.06|N|From Altruis the Sufferer.|

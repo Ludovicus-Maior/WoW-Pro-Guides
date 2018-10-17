@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_alliance
+-- Date: 2018-10-17 02:31
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3406/revisions/28506/view
 -- Date: 2017-03-17 13:54
 -- Who: Ludovicus_Maior
 -- Log: Just 2 PREs
@@ -154,7 +159,7 @@ T Unusual Activity |N|Use the Totemic Beacon to summon the Guide.|U|35828|QID|11
 A An Innocent Disguise |QID|11891|PRE|11886|N|From the Earthen Ring Guide.|
 C An Innocent Disguise |N|Turn into a crab and wait for the naga to finish speaking. |M|9.5,12.6|U|35237|QID|11891|Z|Ashenvale|
 T An Innocent Disguise |N|Use the Totemic Beacon to summon the Guide.|U|35828|QID|11891|
-A Inform the Elder |QID|12012;29092|N|From the Earthen Ring Guide.|
+A Inform the Elder |QID|12012^29092|N|From the Earthen Ring Guide.|
 
 A Honor the Flame|N|From the Flame Warden. (Stonetalon Mountains)|QID|28928|M|49.2,51.4|Z|Stonetalon Mountains|
 A Desecrate this Fire!|N|At the Horde Bonfire. (Stonetalon Mountains)|QID|11780|M|53,62.3|Z|Stonetalon Mountains|
@@ -232,7 +237,7 @@ T Stealing the Undercity's Flame |QID|9326|N|To the Festival Loremaster.|M|49.6,
 T Stealing Orgrimmar's Flame |QID|9324|N|To the Festival Loremaster.|M|49.6,72|Z|Stormwind City|
 T Stealing Thunder Bluff's Flame |QID|9325|N|To the Festival Loremaster.|M|49.6,72|Z|Stormwind City|
 A A Thief's Reward |QID|9365|N|From the Festival Loremaster.|M|49.6,72|Z|Stormwind City|
-T Inform the Elder |N|To the Earthen Ring Elder. |M|49.32,72.28|QID|12012;29092|Z|Stormwind City|
+T Inform the Elder |N|To the Earthen Ring Elder. |M|49.32,72.28|QID|12012^29092|Z|Stormwind City|
 
 R Deepholm|N|Take the portal to Deepholm.|M|73.2,19.71|Z|Stormwind City|QID|29036|
 A Honor the Flame|N|From the Flame Warden. (Deepholm)|QID|29036|M|49.4,51.4|Z|Deepholm|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_howling_fjord_alliance
+-- Date: 2018-10-17 02:24
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3287/revisions/29726/view
 -- Date: 2018-09-11 00:15
 -- Who: jovieve
 -- Log: Added T and emote to unsticky for Send Them Packing.
@@ -406,7 +411,7 @@ T The Frozen Heart of Isuldof |QID|11512|M|40.3,60.3|N|To Orfus of Kamagua.|
 T The Shield of the Aesirites |QID|11530|M|40.3,60.3|N|To Orfus of Kamagua.|
 T The Staff of Storm's Fury |QID|11511|M|40.3,60.3|N|To Orfus of Kamagua.|
 
-A A Return to Resting |QID|11568|PRE|11530;11567;11512;11511|M|40.3,60.3|N|From Orfus of Kamagua.|
+A A Return to Resting |QID|11568|PRE|11530 & 11567 & 11512 & 11511|M|40.3,60.3|N|From Orfus of Kamagua.|
 N Shield of the Aesirites |QID|11568|QO|1|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|57.67,77.62|
 N Staff of Storm's Fury |QID|11568|QO|2|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|59.27,77.00|
 N Frozen Heart of Isuldof |QID|11568|QO|3|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|59.79,79.39|
@@ -482,8 +487,8 @@ C The Fallen Sisters |QID|11314|U|33606|N|Use Lurielle's Pendant on Chill Nymphs
 C Wild Vines |QID|11315|N|Kill Scarlet Ivy mobs until you complete this quest. |M|51.14,26.57|US|
 T The Fallen Sisters |QID|11314|M|61.5,22.8|N|To Lurielle.|
 T Wild Vines |QID|11315|M|61.5,22.8|N|To Lurielle.|
-A Spawn of the Twisted Glade |QID|11316|PRE|11314;11315|M|61.5,22.8|N|From Lurielle.|
-A Seeds of the Blacksouled Keepers |QID|11319|PRE|11314;11315|M|61.5,22.8|N|From Lurielle.|
+A Spawn of the Twisted Glade |QID|11316|PRE|11314 & 11315|M|61.5,22.8|N|From Lurielle.|
+A Seeds of the Blacksouled Keepers |QID|11319|PRE|11314 & 11315|M|61.5,22.8|N|From Lurielle.|
 C Spawn of the Twisted Glade |QID|11316|N|Kill Thornvine Creepers for this quest. |M|53.71,18.56|S|
 C Seeds of the Blacksouled Keepers |QID|11319|U|33607|N|Kill Spores here and use the Enchanted Ice Core on their remains until you complete this quest.|M|53.71,18.56|
 C Spawn of the Twisted Glade |QID|11316|N|Kill Thornvine Creepers for this quest. |M|53.71,18.56|US|
@@ -552,7 +557,7 @@ T Towers of Certain Doom |QID|11245|U|33311|N|Use the Westguard Command Insignia
 T Gruesome, But Necessary |QID|11246|N|To Westguard Sergeant.|
 T Burn Skorn, Burn! |QID|11247|N|To Westguard Sergeant.|
 
-A All Hail the Conqueror of Skorn! |QID|11250|PRE|11245;11246;11247|N|From Westguard Sergeant.|
+A All Hail the Conqueror of Skorn! |QID|11250|PRE|11245 & 11246 & 11247|N|From Westguard Sergeant.|
 C Eyes of the Eagle |QID|11416|N|Mount up and jump off the southern cliff  into the river, then click on the egg here. Kill Talonshrike and loot his eyes.|M|44.02,38.44;41.43,37.67|CS|
 C Send Them Packing |S|QID|11224|T|Abandoned Pack Mule,raise|N|Target Abandoned Pack Mules, get close to them, and use the raise emote to send them packing. The WoW-Pro button will target them and do the emote for you, but you must be within range.|M|33.53,38.71|
 C Danger! Explosives! |QID|11218|U|33190|N|Use Steelring's Foolproof Dynamite on Whisper Gulch Ore here and collect the fragments that the explosion produces.|M|35.71,36.53|

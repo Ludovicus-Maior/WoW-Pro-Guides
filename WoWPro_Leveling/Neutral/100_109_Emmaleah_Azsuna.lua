@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3657
+-- Date: 2018-10-17 02:30
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3657/revisions/29852/view
 -- Date: 2018-09-28 20:48
 -- Who: elidion
 -- Log:  f steps.
@@ -249,11 +254,6 @@
 -- Who: Emmaleah
 -- Log: Better description |N| for C37857, move A/C37963|S| steps to after picking up all the other quests.
 
--- URL: http://wow-pro.com/node/3657/revisions/27722/view
--- Date: 2016-09-08 02:37
--- Who: Emmaleah
--- Log: Change Olithil and Kallista Starlance's quests to rank 2 as they are not required for the story arc achievement. other minor changes.
-
 local guide = WoWPro:RegisterGuide('EmmAzsuna', 'Leveling', 'Azsuna', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,98, 110, 98.661)
 WoWPro:NewGuideLevels(guide,98,110)
@@ -263,23 +263,23 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Azsuna")
 
 return [[
 
-N Starting in Dalaran|AVAILABLE|38834;44137|U|140192|N|This guide assumes you are starting in Dalaran. |
-N Treasure|AVAILABLE|38834;44137|N|Enough treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3 *some are on rank 2, none are on rank 1*.|
-N Rares (Silver Elite)|AVAILABLE|38834;44137|N|All Rares are included if you do the guide on rank 3, *some are on rank 2, none are on 1*  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
-N Ranks|AVAILABLE|38834;44137|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the most of the rest of the quests in the zone, Rank 3, includes the difficult or out of the way optional quests, rares and treasures.|
+N Starting in Dalaran|AVAILABLE|38834^44137|U|140192|N|This guide assumes you are starting in Dalaran. |
+N Treasure|AVAILABLE|38834^44137|N|Enough treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3 *some are on rank 2, none are on rank 1*.|
+N Rares (Silver Elite)|AVAILABLE|38834^44137|N|All Rares are included if you do the guide on rank 3, *some are on rank 2, none are on 1*  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
+N Ranks|AVAILABLE|38834^44137|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the most of the rest of the quests in the zone, Rank 3, includes the difficult or out of the way optional quests, rares and treasures.|
 
 T Paradise Lost|QID|39718|M|72.51,45.66|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
 A Down to Azsuna|QID|41220|PRE|39718|M|72.51,45.66|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|
 C Down to Azsuna|QID|41220|QO|1|M|72.51,45.66|Z|Dalaran!Dalaran!Dungeon|NC|N|Fly down with Khadgar.|
 T Down to Azsuna|QID|41220|M|45.11,42.92|N|To Archmage Khadgar.|
-A Into the Fray|QID|38834;44137|PRE|41220|M|45.11,42.92|N|From Archmage Khadgar.|
-f Illidari Stand|ACTIVE|38834;44137|M|44.59,43.85|N|At Izal Whitemoon.|
-T Into the Fray|QID|38834;44137|M|43.55,43.45|N|To Kayn Sunfury / Altruis the Sufferer.|
+A Into the Fray|QID|38834^44137|PRE|41220|M|45.11,42.92|N|From Archmage Khadgar.|
+f Illidari Stand|ACTIVE|38834^44137|M|44.59,43.85|N|At Izal Whitemoon.|
+T Into the Fray|QID|38834^44137|M|43.55,43.45|N|To Kayn Sunfury / Altruis the Sufferer.|
 T Our New Allies|QID|39934|M|43.29,43.16|N|To Allari the Souleater.|P|Inscription;773|LVL|102|
 A The Price of Power|QID|39935|M|43.29,43.16|N|From Allari the Souleater.|P|Inscription;773|LVL|102|PRE|39934|
-A Demon Souls|QID|37653|PRE|44137+38834|M|43.29,43.16|N|From Allari the Souleater.|
+A Demon Souls|QID|37653|PRE|44137^38834|M|43.29,43.16|N|From Allari the Souleater.|
 
-A Reignite the Wards|QID|37658|PRE|44137+38834|M|43.15,43.60|N|From Jace Darkweaver.|
+A Reignite the Wards|QID|37658|PRE|44137^38834|M|43.15,43.60|N|From Jace Darkweaver.|
 K Kill Ravyn-Drath|QID|37537|QO|1|M|41.14,41.89|T|Ravyn-Drath|ITEM|129080|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 C Demon Souls|QID|37653|U|122100|QO|1|M|41.58,44.85|S|N|Kill demons as you go and use the gem to trap their souls.|
 C The Price of Power|QID|39935|M|41.58,44.85|S|N|And kill more demons to learn the glyph.|P|Inscription;773|
@@ -305,12 +305,12 @@ C The Scythe of Souls|QID|37660|QO|8|M|44.26,44.14|N|Click on the crystal to lea
 C The Scythe of Souls|QID|37660|QO|9|M|43.38,43.36|N|Meet back up with Allari|NC|
 T The Scythe of Souls|QID|37660|M|43.29,43.16|N|To Allari the Souleater.|
 
-A From Within|QID|36920;44140;40815|PRE|37660+40375+40374+37658|M|43.56,43.46|N|From Kayn Sunfury / Altruis the Sufferer.|
-T From Within|QID|36920;44140;40815|M|41.25,50.51|N|To Kor'vas Bloodthorn.|
+A From Within|QID|36920^44140^40815|PRE|37660^40375^40374^37658|M|43.56,43.46|N|From Kayn Sunfury / Altruis the Sufferer.|
+T From Within|QID|36920^44140^40815|M|41.25,50.51|N|To Kor'vas Bloodthorn.|
 
-A Fel Machinations|QID|37656|PRE|36920+40815+44140|M|41.25,50.51|N|From Kor'vas Bloodthorn who will show up and follow you around.|
-A Saving Stellagosa|QID|37450|PRE|36920+40815+44140|M|41.25,50.51|N|From Kor'vas Bloodthorn.|
-A Retake Faronaar-Bonus Objective|QID|36811|PRE|36920+40815+44140|M|41.24,50.50|N|From Kor'vas Bloodthorn.|RANK|2|LVL|-109|
+A Fel Machinations|QID|37656|PRE|36920^40815^44140|M|41.25,50.51|N|From Kor'vas Bloodthorn who will show up and follow you around.|
+A Saving Stellagosa|QID|37450|PRE|36920^40815^44140|M|41.25,50.51|N|From Kor'vas Bloodthorn.|
+A Retake Faronaar-Bonus Objective|QID|36811|PRE|36920^40815^44140|M|41.24,50.50|N|From Kor'vas Bloodthorn.|RANK|2|LVL|-109|
 C Retake Faronaar-Bonus Objective|QID|36811|M|40.05,48.80|N|Kill demons and click on the glowing items as you accomplish the other objectives.|S|RANK|2|
 C Saving Stellagosa|QID|37450|QO|1|M|38.45,56.65|N|Stellagosa is here.|
 C Saving Stellagosa|QID|37450|QO|2|M|40.48,56.36|N|Kill and Loot Lykill to get the key to Stellagosa's bonds.|T|Overseer Lykill|
@@ -323,7 +323,7 @@ C Retake Faronaar-Bonus Objective|QID|36811|M|36.07,50.12|N|If you havent alread
 t Retake Faronaar-Bonus Objective|QID|36811|M|35.11,52.90|N|Auto turned in upon completion.|RANK|2|
 T Saving Stellagosa|QID|37450|M|36.27,49.03|N|To Kor'vas Bloodthorn following you around.|
 T Fel Machinations|QID|37656|M|36.27,49.03|N|To Kor'vas Bloodthorn.|
-A Dark Revelations|QID|37449|PRE|37656;37450|M|36.27,49.03|N|From Kor'vas Bloodthorn.|
+A Dark Revelations|QID|37449|PRE|37656 & 37450|M|36.27,49.03|N|From Kor'vas Bloodthorn.|
 R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|S|FLY|LEGION|
 K Kill Vorthax|QID|42280|QO|1|M|37.14,43.35|ITEM|141875|T|Vorthax|N|Silver - Kill and loot for some treasure and resources.|RANK|3|RARE|
 R Illidari Perch|QID|42286|M|31.34,46.39|N|Optional Side trip for Silvers and treasure chests. Left click the next few steps or change your guide to Rank 1 if you don't want to see the optional side trips.|RANK|3|US|FLY|LEGION|
@@ -378,7 +378,7 @@ C The Consumed|QID|37859|QO|2|M|44.49,16.50|US|N|Finish reviving the Mana-Draine
 T The Withered|QID|37856|M|48.62,16.48|N|To Agapanthus.|
 T The Consumed|QID|37859|M|49.12,16.54|N|To Projection of Senegos.|
 T Runas the Shamed|QID|37957|M|49.12,16.54|N|To Projection of Senegos.|
-A Runas Knows the Way|QID|37857|PRE|37856;37957;37859|M|49.22,16.08|N|From Runas the Shamed.|
+A Runas Knows the Way|QID|37857|PRE|37856 & 37957 & 37859|M|49.22,16.08|N|From Runas the Shamed.|
 
 R The Lost Orchard|AVAILABLE|38203|M|48.40,14.29;47.62,13.13|CS|N|Slight detour to pick up some optional quests.|RANK|3|FLY|LEGION|
 A A Tainted Vintage-Bonus Objective|QID|37965|M|47.62,13.13|N|Auto accepted when you enter the area.|RANK|3|LVL|-109|
@@ -422,8 +422,8 @@ $ Unbound Rift|QID|37932|M|59.74,12.29|QO|1|N|Silver - This vignette is located 
 C The Hunger Returns|QID|37959|QO|1|M|55.62,17.50|N|Finish up collecting the charged mana jewels.|US|
 T The Hunger Returns|QID|37959|M|53.78,16.80|N|To Runas the Shamed.|
 T Leyline Abuse|QID|37960|M|53.37,16.24|N|To Projection of Senegos.|
-A The Nightborne Prince|QID|37861|PRE|37959;37960|M|53.37,16.24|N|From Projection of Senegos.|
-A You Scratch My Back...|QID|37860|PRE|37959;37960|M|53.77,16.81|N|From Runas the Shamed.|
+A The Nightborne Prince|QID|37861|PRE|37959 & 37960|M|53.37,16.24|N|From Projection of Senegos.|
+A You Scratch My Back...|QID|37860|PRE|37959 & 37960|M|53.77,16.81|N|From Runas the Shamed.|
 C You Scratch My Back...|QID|37860|QO|1|M|56.40,15.22|NC|N|Click on your special action button to send in the whelplings to disable the southern mana pylon.|
 C You Scratch My Back...|QID|37860|QO|2|M|55.93,14.3|NC|N|Click on your special action button to send in the whelplings to disable the central mana pylon.|
 C You Scratch My Back...|QID|37860|QO|4|M|57.17,13.86|NC|N|Click on your special action button to send in the whelplings to disable the eastern mana pylon.|
@@ -456,7 +456,7 @@ C On the Brink|QID|38015|U|138146|QO|4|M|49.65,25.07|NC|N|Use the crystal to hea
 C Feasting on the Dragon|QID|38014|QO|1|M|48.53,27.61|N|Finish killing Withered.|US|
 T Feasting on the Dragon|QID|38014|M|49.65,26.83|N|To Archmage Khadgar.|
 T On the Brink|QID|38015|M|49.94,26.56|N|To Stellagosa.|
-A Cursed to Wither|QID|42567|PRE|38015;38014|M|49.94,26.56|N|From Stellagosa.|
+A Cursed to Wither|QID|42567|PRE|38015 & 38014|M|49.94,26.56|N|From Stellagosa.|
 U Learn the companion|U|129178|AVAILABLE|42567|PRE|38015|N|Click to add Emmigosa to your pet journal.|
 T Cursed to Wither|QID|42567|M|48.26,22.78|N|To Runas the Shamed.|
 A Hunger's End|QID|42756|PRE|42567|M|48.26,22.78|N|From Runas the Shamed.|
@@ -530,7 +530,7 @@ $ Small Treasure Chest|QID|42281|M|52.00,42.10|N|Loot for a bit of treasure and 
 C You Never Know Until You Scry|QID|42693|M|55.62,43.57|US|N|Finish collecting the Glyptics.|RANK|2|
 T Children of Nar'thalas|QID|42692|M|53.27,45.31|N|To Kallistia Starlance.|RANK|2|
 T You Never Know Until You Scry|QID|42693|M|53.37,45.49|N|To Olothil Starlance.|RANK|2|
-A Back from the Dead|QID|42694|PRE|42692;42693|M|53.39,45.45|N|From Olothil Starlance.|RANK|2|
+A Back from the Dead|QID|42694|PRE|42692 & 42693|M|53.39,45.45|N|From Olothil Starlance.|RANK|2|
 C Back from the Dead|QID|42694|QO|1|M|53.39,45.44|NC|N|Use Scrying Orb|RANK|2|
 C Back from the Dead|QID|42694|QO|2|M|55.14,38.57|NC|N|Search near the academy.|RANK|2|
 $ Small Treasure Chest|QID|42287|M|54.40,36.33|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -563,7 +563,7 @@ C Hit the Books|QID|37678|QO|1|M|60.70,86.32|Z|1015/17|N|Finish killing the anci
 C Dressing With Class|QID|37736|QO|1|M|55.61,56.08|Z|1015/17|NC|N|The hat is on the ground.|
 T Hit the Books|QID|37678|M|53.13,47.77|Z|1015/17|N|To Andellis.|
 T Dressing With Class|QID|37736|M|53.33,47.69|Z|1015/17|N|To Thyrillion.|
-A The Haunted Halls|QID|37518|PRE|37678;37736|M|53.33,47.69|Z|1015/17|N|From Thyrillion.|
+A The Haunted Halls|QID|37518|PRE|37678 & 37736|M|53.33,47.69|Z|1015/17|N|From Thyrillion.|
 T The Haunted Halls|QID|37518|M|28.85,42.55|Z|1015/17|N|To Instructor Nidriel.|
 A Wanding 101|QID|42370|PRE|37518|M|28.85,42.55|Z|1015/17|N|From Instructor Nidriel.|
 C Wanding 101|QID|42370|NC|M|30.41,42.99|Z|1015/17|N|Target the "wand targets" and use your special action button.|T|Wand Target|
@@ -641,7 +641,7 @@ T Arkethrax|QID|42367|M|63.88,28.88|N|To Marius Felbane.|RANK|3|
 T They're Doing it Wrong|QID|42369|M|63.86,28.94|N|To Tehd Shoemaker.|RANK|3|
 T Control is Key|QID|39941|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|
 T Runes of Power|QID|39940|M|65.07,25.94|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|
-A The Burdens of Hunting|QID|39943|M|65.07,25.96|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|PRE|39941;39940|
+A The Burdens of Hunting|QID|39943|M|65.07,25.96|N|From Zarla Shadowheart.|P|Inscription;773|LVL|102|PRE|39941 & 39940|
 
 R The Empyrean Society Enclave|QID|38419|M|63.54,33.2|N|Take the road to the left if you want to get through without fighting. Continue on ths road towards Olivian Veil.|RANK|3|FLY|LEGION|
 R The Greenway|QID|38419|M|62.56,34.56|N|Side jaunt for a Silver and 3 chests.|RANK|3|FLY|LEGION|
@@ -667,7 +667,7 @@ K Kill Treacherous Stallions|QID|44081|QO|1|M|60.25,46.14|ITEM|140685|T|Devious 
 $ Marius & Tehd vs a Fel Lord|QID|38212|M|60.50,48.56;59.17,46.44|CS|ITEM|129068|T|Brogozog|N|Follow this path to once again save Thed's hide. Chat with him to start the vignette. Kill and loot the demon for a bit of treasure and resources.|RANK|3|
 C Minion! Kill Them!|QID|38232|M|62.01,50.10|US|N|Finish gathering the things Daglop wants.|RANK|2|
 T Minion! Kill Them!|QID|38232|RANK|2|N|To Daglop, on your shoulders.|
-A This IS In My Contract.|QID|38237|PRE|38232||RANK|2|N|From Daglop, on your shoulders.|
+A This IS In My Contract.|QID|38237|PRE|38232|RANK|2|N|From Daglop, on your shoulders.|
 C This IS In My Contract.|QID|38237|QO|1|M|64.11,52.88|N|Run down to the beach, Daglop is standing in front of a cave, Speak with him to start the ritual|CHAT|RANK|2|
 C This IS In My Contract.|QID|38237|QO|2|M|63.33,53.55|T|Sharazaan|RANK|2|
 $ Small Treasure Chest|QID|42278|M|62.99,54.17|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -680,8 +680,8 @@ K Kill Warbringer Mox'na|QID|37909|ITEM|129069|M|51.34,56.19|T|Warbringer Mox'na
 $ Small Treasure Chest|QID|38370|M|49.41,57.98|N|You always wanted to be a wedding crasher... right? Kill the Bride and Groom as they object to you stealing their gifts. Loot for a bit of treasure and resources.|RANK|3|
 T Best Served Cold|QID|40188|PRE|40187|LVL|102|M|47.52,44.17|P|Leatherworking;165|N|To Celea.|
 T Naga Know-How|QID|40189|PRE|40187|LVL|102|M|47.52,44.17|P|Leatherworking;165|N|To Celea.|
-A A Daring Rescue|QID|40195|PRE|40188;40189|LVL|104|M|47.52,44.17|P|Leatherworking;165|N|To Celea.|
-A Reclaimed Cargo|QID|40194|PRE|40188;40189|LVL|104|M|47.52,44.17|P|Leatherworking;165|N|To Celea.|
+A A Daring Rescue|QID|40195|PRE|40188 & 40189|LVL|104|M|47.52,44.17|P|Leatherworking;165|N|To Celea.|
+A Reclaimed Cargo|QID|40194|PRE|40188 & 40189|LVL|104|M|47.52,44.17|P|Leatherworking;165|N|To Celea.|
 
 R Shipwreck Arena|QID|37496|M|50.64,44.27|N|Run back past Narthalas Academy and to the Shipwreck Arena.|RANK|-1|FLY|LEGION|
 R Shipwreck Arena|QID|37496|M|46.14,45.00;47.99,45.51|CS|N|Run Down the Old Coast Path and to the Shipwreck Arena.|RANK|2|FLY|LEGION|
@@ -696,7 +696,7 @@ $ Small Treasure Chest|QID|37828|M|49.38,45.35|N|Loot for a bit of resources and
 C No Time for Tryouts|QID|37542|QO|1|M|49.31,46.69|N|Give Ooker Dooker a beatdown.|
 T No Time for Tryouts|QID|37542|M|50.01,48.56|N|To Okuna Longtusk.|
 T Let Sleeping Giants Lie|QID|37528|M|50.01,48.56|N|To Okuna Longtusk.|
-A Sternfathom's Champion|QID|37510|PRE|37542;37528|M|50.01,48.56|N|From Okuna Longtusk.|
+A Sternfathom's Champion|QID|37510|PRE|37542 & 37528|M|50.01,48.56|N|From Okuna Longtusk.|
 T Sternfathom's Champion|QID|37510|M|47.94,48.67|N|To Sternfathom.|
 A Morale Booster|QID|37536|PRE|37510|M|47.94,48.67|N|From Sternfathom.|
 $ Small Treasure Chest|QID|42290|M|50.20,50.29|N|Get this treasure BEFORE you talk to Ooka. Loot for a bit of treasure and resources.|RANK|2|
@@ -734,7 +734,7 @@ f Shackle's Den|ACTIVE|38857|M|52.94,61.12;56.19,58.93|CS|N|At Avaya Farwind.|
 T A Favor for Mr. Shackle|QID|38857|M|56.59,59.60|N|To Mr. Shackle.|
 A Maritime Law|QID|37654|M|56.60,59.59|N|From Mr. Shackle.|
 A Making the World Safe for Profit|QID|37657|M|56.60,59.59|N|From Mr. Shackle.|
-A Shipwrecked Sailors|QID|42268;42220|M|57.66,58.07|N|From UI Alert.|
+A Shipwrecked Sailors|QID|42268^42220|M|57.66,58.07|N|From UI Alert.|
 C Making the World Safe for Profit|QID|37657|QO|1|M|60.15,61.97|S|N|Kill Gilblin & Makrura as you go about your other objectives.|
 C Shipwrecked Sailors|QID|42268|M|59.93,58.12|N|Rescue sailors as you go about your other objectives.|S|FACTION|Horde|
 C Shipwrecked Sailors|QID|42220|M|59.93,58.12|N|Kill sailors as you go about your other objectives.|S|FACTION|Alliance|
@@ -746,24 +746,24 @@ T Maritime Law|QID|37654|M|64.25,56.10|N|To Looper Allen.|
 A The Captain's Foot Locker|QID|37659|PRE|37654|M|64.25,56.10|N|From Looper Allen.|
 K Kill Chief Bitterbrine|QID|42221|QO|1|ITEM|129073|T|Chief Bitterbrine|M|65.65,56.81|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 T The Captain's Foot Locker|QID|37659|M|65.67,56.92|N|To the Captain's Foot Locker.|
-A Fate of the Queen's Reprisal|QID|42244;40794|PRE|37659|M|65.67,56.92|N|From the Captain's Foot Locker.|
+A Fate of the Queen's Reprisal|QID|42244^40794|PRE|37659|M|65.67,56.92|N|From the Captain's Foot Locker.|
 C Making the World Safe for Profit|QID|37657|QO|1|M|60.15,61.97|N|Finish killing Gilblin & Makrura.|US|
 $ Disputed Treasure|QID|38365|M|55.87,56.87|N|Kill the npcs argueing over the treasure chest then you can loot it for a bit of treasure and resources.|RANK|2|
-C Shipwrecked Sailors|QID|42268;42220|QO|1|M|59.93,58.12|N|Finish up with the sailors.|US|
-T Shipwrecked Sailors|QID|42268;42220|M|59.93,58.12|N|To UI Alert.|
+C Shipwrecked Sailors|QID|42268^42220|QO|1|M|59.93,58.12|N|Finish up with the sailors.|US|
+T Shipwrecked Sailors|QID|42268^42220|M|59.93,58.12|N|To UI Alert.|
 T Making the World Safe for Profit|QID|37657|M|56.59,59.58|N|To Mr. Shackle.|
 F Illidari Stand|QID|40327|ACTIVE|40327|M|56.20,58.91|N|Fly to Illidari Stand, from Avaya Farwind.|FLY|LEGION|
 T Testing the Metal|QID|40327|M|47.52,44.17|N|To Celea.|
 T Reclaimed Cargo|QID|40194|M|47.52,44.17|N|To Celea.|
 
-U Dalaran Hearthstone|ACTIVE|42244;40794|U|140192|N|Hearth or fly to Dalaran to get the final zone quest completed and receive you zone achievement.|
+U Dalaran Hearthstone|ACTIVE|42244^40794|U|140192|N|Hearth or fly to Dalaran to get the final zone quest completed and receive you zone achievement.|
 T Fate of the Queen's Reprisal|QID|42244|M|61.05,17.23|Z|Dalaran!Dalaran!Dungeon|N|To Advisor Stillwater.|FACTION|Horde|
 T Fate of the Queen's Reprisal|QID|40794|M|28.66,74.87|Z|Dalaran!Dalaran!Dungeon|N|To Lt. Surtees.|FACTION|Alliance|
 C Eye of Azshara: The Tidestone of Golganneth|QID|42213|M|49.07,48.02|Z|Dalaran!Dalaran!Dungeon|NC|N|Assuming you have completed the Eye of Azshara instance, you can run down and do the final turn in.  Into the Guardian's chamber and down to Aegwynn's Gallery.|
 T Eye of Azshara: The Tidestone of Golganneth|QID|42213|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|To Tidestone of Golganneth (glowing blob on the wall in the Portrait Room).|
 A Pressing the Assault|QID|44545|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213|
-A Isle Hopping|QID|44547|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert. This becomes available after turning in your 2nd pillar of creation (which the guide can't actually detect so may direct you to it early. Check off manually if that happens.)|PRE|42213;44545|
-A Scouring What Remains|QID|44548|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert. This becomes available after turning in your 3rd pillar of creation (which the guide can't actually detect so may direct you to it early. Check off manually if that happens.)|PRE|42213;44547|
+A Isle Hopping|QID|44547|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert. This becomes available after turning in your 2nd pillar of creation (which the guide can't actually detect so may direct you to it early. Check off manually if that happens.)|PRE|42213 & 44545|
+A Scouring What Remains|QID|44548|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert. This becomes available after turning in your 3rd pillar of creation (which the guide can't actually detect so may direct you to it early. Check off manually if that happens.)|PRE|42213 & 44547|
 
 D On to Class Halls|N|This ends Azsuna and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends Azsuna and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|EmmLegionDK|

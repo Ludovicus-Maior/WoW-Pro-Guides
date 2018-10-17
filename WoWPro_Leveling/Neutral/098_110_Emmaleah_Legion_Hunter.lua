@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3670
+-- Date: 2018-10-17 02:29
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3670/revisions/29264/view
 -- Date: 2018-05-07 20:17
 -- Who: Emmaleah
 -- Log: Remove deprecated quest "hitting the books"
@@ -102,14 +107,14 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Hunter")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
+A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|35.34,71.34|Z|Cleft of Shadow@Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
-A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
+A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 ;both
-C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
-T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
+C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
 A Needs of the Hunters|QID|40384|PRE|43635|M|57.24,44.84|Z|Dalaran@Dalaran70|N|From Snowfeather. Wait a minute or so for him to fly over.|
 T Needs of the Hunters|QID|40384|M|60.04,53.47|Z|Dalaran@Dalaran70|N|To Emmarel Shadewarden.|
@@ -121,7 +126,7 @@ T The Hunter's Call|QID|41415|M|59.97,53.39|Z|Dalaran@Dalaran70|N|To Emmarel Sha
 A Weapons of Legend|QID|40618|M|59.97,53.39|Z|Dalaran@Dalaran70|N|From Emmarel Shadewarden.|PRE|41415|
 C Weapons of Legend|QID|40618|QO|1|M|59.97,53.39|Z|Dalaran@Dalaran70|NC|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
 T Weapons of Legend|QID|40618|M|59.97,53.39|Z|Dalaran@Dalaran70|N|To Emmarel Shadewarden.|
-A Artifact specific quest|QID|41540;41541;41542|M|60.01,53.44|Z|Dalaran@Dalaran70|N|From Emmarel Shadewarden.|PRE|40618|
+A Artifact specific quest|QID|41540^41541^41542|M|60.01,53.44|Z|Dalaran@Dalaran70|N|From Emmarel Shadewarden.|PRE|40618|
 
 ;Class hall development lvl 101 to 109
 A Pledge of Loyalty|QID|44090|M|40.02,30.16|Z|Dalaran@Dalaran70|N|From Snowfeather. This is a breadcrumb quest to remind you to go to your class hall, if you are already there... skip it.|LEAD|42519|LVL|101|
@@ -219,7 +224,7 @@ T Lion Stalkin'|QID|39123|M|40.03,52.25|Z|Highmountain|N|To Hemet Nesingwary.|
 T A Hunter at Heart|QID|40216|M|40.04,52.25|Z|Highmountain|N|To Hemet Nesingwary.|
 T Moose Shootin'|QID|39124|M|40.03,52.25|Z|Highmountain|N|To Hemet Nesingwary.|
 T Bear Huntin'|QID|39392|M|40.03,52.25|Z|Highmountain|N|To Hemet Nesingwary.|
-A Scout It Out|QID|40228|M|40.04,52.25|Z|Highmountain|N|From Hemet Nesingwary.|PRE|40216+39392|
+A Scout It Out|QID|40228|M|40.04,52.25|Z|Highmountain|N|From Hemet Nesingwary.|PRE|40216^39392|
 A Moose on the Loose|QID|39178|M|40.00,52.30|Z|Highmountain|N|From Laeni Silvershot.|PRE|39124|
 A I'm Not Lion!|QID|39867|M|40.02,52.36|Z|Highmountain|N|From Ellias.|PRE|39123|
 C I'm Not Lion!|QID|39867|M|37.50,49.12|Z|Highmountain|N|Kill and loot the mountain lion.|T|Rashar|
@@ -228,8 +233,8 @@ C Moose on the Loose|QID|39178|M|45.78,42.80|Z|Highmountain|T|Morashu|N|Kill and
 T Moose on the Loose|QID|39178|M|40.00,52.31|Z|Highmountain|N|To Laeni Silvershot.|
 T I'm Not Lion!|QID|39867|M|40.02,52.37|Z|Highmountain|N|To Ellias.|
 T Scout It Out|QID|40228|M|40.04,52.25|Z|Highmountain|N|To Hemet Nesingwary.|
-A Champion: Hemet Nesingwary|QID|42413|M|40.04,52.25|Z|Highmountain|N|From/To Hemet Nesingwary.|PRE|42134+40228|LVL|110|
-A Champion: Addie Fizzlebog|QID|42414|M|39.93,52.23|Z|Highmountain|N|From/To Addie Fizzlebog|PRE|42134+40228|LVL|110|
+A Champion: Hemet Nesingwary|QID|42413|M|40.04,52.25|Z|Highmountain|N|From/To Hemet Nesingwary.|PRE|42134^40228|LVL|110|
+A Champion: Addie Fizzlebog|QID|42414|M|39.93,52.23|Z|Highmountain|N|From/To Addie Fizzlebog|PRE|42134^40228|LVL|110|
 F Trueshot Lodge|QID|42436|M|40.22,52.69|Z|Highmountain|N|At Tamara Sigmund.|ACTIVE|42436|
 C Unseen Protection|QID|42394|M|42.58,46.66|NC|US|N|Finish the 5 "Unseen Protection" missions at the Scouting Map.|
 t Unseen Protection|QID|42394|M|41.59,74.69|N|To Emmarel Shadewarden. She is still at the top of the lookout tower.|
@@ -271,11 +276,11 @@ T Light's Charge|QID|44153|M|47.28,43.46|NC|N|Return to your order hall and retu
 A Khadgar's Discovery|QID|39985|M|60.92,44.73|Z|Dalaran@Dalaran70|N|Upon arriving in Dalaran and being level 110 from a UI Alert.|LVL|110|
 A Goddess Watch Over You|QID|44337|M|36.95,28.21|N|Received from a glowing pink pall containing an image of Khadgar's head that follows you around when you first arrive in your guild hall after reaching lvl 110.|LVL|110|
 A Walk This Way|QID|44233|M|44.60,48.86|N|From/To Outfitter Reynolds inside the lodge.|LVL|110|
-T Goddess Watch Over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
-A Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|
+T Goddess Watch Over You|QID|44337^44338|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|LVL|110|
+A Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|
 C Uniting the Isles|QID|43341|M|28.43,48.38|Z|Dalaran@Dalaran70|S|NC|N|Since this is the first character on this account, you must be friendly with all the Legion Factions (except The Wardens) before you can start world quests.|
-t Uniting the Isles|QID|45727;43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
+t Uniting the Isles|QID|45727^43341|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337^44338|
 B Arkhana|QID|42408|L|124440 20|N|Acquire 20 arkhana from your nearby friendly enchanter, Action House, guild bank... somewhere, you will need it for a quest soon.|
 F Trueshot Lodge|QID|44448|M|72.93,41.13|Z|Dalaran@Dalaran70|N|Talk to Talua for a quick flight to Trueshot Lodge.|
 C In the House of Light and Shadow|QID|44448|M|47.28,43.46|NC|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
@@ -284,18 +289,18 @@ A Firing Up the Forge|QID|41778|LVL|110|M|42.71,28.43|Z|Dalaran@Dalaran70|N|From
 C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran@Dalaran70|QO|1|N|1/1 Handful of Obliterum Ash|
 T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 
-A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
+A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|LVL|110|PRE|44337^44338|
 C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran@Dalaran70|N|Click on the arcane anomoly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
 T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 A Trail of Echoes|QID|39987|M|28.43,48.38|Z|Dalaran@Dalaran70|N|From Archmage Khadgar.|PRE|39986|
 N On to Suramar|QID|39987|N|This temporarily ends the order hall guide, you will want to check back here periodically when you finish dungeons or other errends for you order hall.|ACTIVE|39987|
 
 ;post 110 order hall progression
-A Highmountain Hunters|QID|42403|M|41.59,74.69|N|From Emmarel Shadewarden.|PRE|42394+42436|LEAD|42413|LVL|110|;THIS LINE SHOULDNT SHOW (OR IT SHOULD AUTOCOMPLETE) IF ALREADY COLLECTED HEMET AND ADDIE
-A Baron and the Huntsman|QID|42397|M|41.59,74.69|N|From Emmarel Shadewarden.|PRE|42394+42436|LVL|110|
+A Highmountain Hunters|QID|42403|M|41.59,74.69|N|From Emmarel Shadewarden.|PRE|42394^42436|LEAD|42413|LVL|110|;THIS LINE SHOULDNT SHOW (OR IT SHOULD AUTOCOMPLETE) IF ALREADY COLLECTED HEMET AND ADDIE
+A Baron and the Huntsman|QID|42397|M|41.59,74.69|N|From Emmarel Shadewarden.|PRE|42394^42436|LVL|110|
 F Nesingwary|QID|42413|M|35.86,27.62|N|At Odan Battlebow.|ACTIVE|42403|LVL|110|
-A Champion: Hemet Nesingwary|QID|42413|M|40.04,52.25|Z|Highmountain|N|From/To Hemet Nesingwary.|PRE|42134+40228|LVL|110|
-A Champion: Addie Fizzlebog|QID|42414|M|39.93,52.23|Z|Highmountain|N|From/To Addie Fizzlebog|PRE|42134+40228|LVL|110|
+A Champion: Hemet Nesingwary|QID|42413|M|40.04,52.25|Z|Highmountain|N|From/To Hemet Nesingwary.|PRE|42134^40228|LVL|110|
+A Champion: Addie Fizzlebog|QID|42414|M|39.93,52.23|Z|Highmountain|N|From/To Addie Fizzlebog|PRE|42134^40228|LVL|110|
 F Valdisdall, Stormheim|QID|42397|M|35.86,27.62|N|At Odan Battlebow (or Tamara if you are flying from Nesinwary). The Huntsman is located between Morheim and Bronzeleaf Thickit, which is rather far from a flightpath. If you haven't yet quested in the area, You may want to do this while questing in Stormheim. (these quests are included in Stormheim guide)|ACTIVE|42397|FACTION|HORDE|
 F Greywatch, Stormheim|QID|42397|M|35.86,27.62|N|At Odan Battlebow (or Tamara if you are flying from Nesinwary). The Huntsman is located between Morheim and Bronzeleaf Thickit, which is deep into Stormheim. If you don't yet have the Greywatch flightpath, You may want to do this while questing in Stormheim. (these quests are included in Stormheim guide)|ACTIVE|42397|FACTION|ALLIANCE|
 R Morheim|QID|42397|M|72.49,57.36;78.39,57.11|CS|Z|Stormheim|N|Follow the road along the shoreline thru Morheim and out the other side.|ACTIVE|42397|
@@ -351,13 +356,13 @@ C Ore Under the Sea|QID|42655|M|0,0|Z|Suramar|N|Go to Suramar and "mine" the ore
 C Nightmare Oak|QID|42654|NA|N|Hopefully you have run Darkheart Thicket.|
 T Ore Under the Sea|QID|42655|M|43.18,6.02|N|To Halduron Brightwing.|
 T Nightmare Oak|QID|42654|M|43.18,6.02|N|To Halduron Brightwing.|
-A Azure Weaponry|QID|42656|M|43.18,6.02|N|From Halduron Brightwing.|PRE|42654;42655|
+A Azure Weaponry|QID|42656|M|43.18,6.02|N|From Halduron Brightwing.|PRE|42654 & 42655|
 P Dalaran|QID|42656|M|48.62,43.48|N|Take the Dalaran portal to find Blacksmith Kyriel.|ACTIVE|42656|
 C Azure Weaponry|QID|42656|M|44.40,28.42|Z|Dalaran@Dalaran70|NC|N|Walk into the blacksmithing shop and hang out for a min or so.|
 B Arkhana|QID|42408|L|124440 20|N|Acquire 20 arkhana from your nearby friendly enchanter, Action House, guild bank... somewhere, you will need it for a quest soon.|
 T Required Reagents|QID|42408|M|46.35,34.97|N|Return to your lodge and turn this in to Shandris Feathermoon.|
 T Azure Weaponry|QID|42656|M|46.35,34.97|N|To Shandris Feathermoon.|
-A Meeting in Moonclaw Vale|QID|42657|M|46.35,34.97|N|From Shandris Feathermoon.|PRE|42656;42408|
+A Meeting in Moonclaw Vale|QID|42657|M|46.35,34.97|N|From Shandris Feathermoon.|PRE|42656 & 42408|
 F Lorlathil|QID|42657|QO|1|M|35.86,27.62|N|At Odan Battlebow.|ACTIVE|42657|
 R Moonclaw Vale|QID|42657|QO|1|M|55.04,74.59;59.69,74.83|CS|Z|Val'sharah|N|Follow the road to Moonclaw Vale.|ACTIVE|42657|
 T Meeting in Moonclaw Vale|QID|42657|M|61.30,71.27;60.12,72.22|CS|Z|Val'sharah|N|To Lyana Stardust.|
@@ -369,7 +374,7 @@ C Leading by Example|QID|44680|N|You progress on your order hall is held up unti
 T The Missing Vessel|QID|43182|M|42.85,25.65|N|If you haven't yet, pick up your rewards from the mission and then go to Khadgar to turn in.|
 T Same Day Delivery|QID|42133|M|43.37,26.33|N|To Emmarel Shadewarden.|
 T Leading by Example|QID|44680|M|43.37,26.33|N|To Emmarel Shadewarden.|
-A In Defense of Dalaran|QID|42659|M|43.37,26.33|N|From Emmarel Shadewarden.|PRE|43182;44680|;and maybe pre 42133?
+A In Defense of Dalaran|QID|42659|M|43.37,26.33|N|From Emmarel Shadewarden.|PRE|43182 & 44680|;and maybe pre 42133?
 C In Defense of Dalaran|QID|42659|QO|1|M|42.85,25.65|CHAT|N|Tell Khadgar you are ready to go.|
 C In Defense of Dalaran|QID|42659|QO|2|M|43.10,26.17|NC|N|Take Khadgar's provided portal to enter the scenario.|
 C Arcane Essense|QID|42659|SO|1|M|51.72,69.72|Z|TheVioletHoldAcquisition/1|CHAT|N|Tell Khadgar you are ready.|
@@ -434,15 +439,15 @@ R Windrunner's Sanctuary|QID|44480|QO|1|M|55.33,24.04|Z|Dalaran@Dalaran70|N|Take
 R Temple of Zin-Malor - Azshara|QID|44480|QO|1|M|35.1,49.9|Z|Azshara|N|Mount up and fly to Azshara.|ACTIVE|44480|
 C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action button to see Xe'ra's message.|
 T In My Father's House|QID|44480|M|47.28,43.46|N|Return to Light's Heart in your order hall.|
-A Destiny Unfulfilled|QID|44481;44496;44497|M|47.28,43.46|N|From Light's Heart.|PRE|44480|
-P Dalaran|QID|44481;44496;44497|QO|1|M|48.34,43.49|N|Click on the portal to Dalaran.|ACTIVE|44481;44496;44497|
-P Shattrath|QID|44481;44496;44497|QO|1|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|ACTIVE|44481;44496;44497|
-R Shadowmoon Valley|QID|44481;44496;44497|QO|1|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|ACTIVE|44481;44496;44497|
-C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
-T Destiny Unfulfilled|QID|44481;44496;44497|M|47.28,43.46|N|Return to Light's Heart in your order hall.|
+A Destiny Unfulfilled|QID|44481^44496^44497|M|47.28,43.46|N|From Light's Heart.|PRE|44480|
+P Dalaran|QID|44481^44496^44497|QO|1|M|48.34,43.49|N|Click on the portal to Dalaran.|ACTIVE|44481^44496^44497|
+P Shattrath|QID|44481^44496^44497|QO|1|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|ACTIVE|44481^44496^44497|
+R Shadowmoon Valley|QID|44481^44496^44497|QO|1|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|ACTIVE|44481^44496^44497|
+C Destiny Unfulfilled|QID|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
+T Destiny Unfulfilled|QID|44481^44496^44497|M|47.28,43.46|N|Return to Light's Heart in your order hall.|
 
 ;light's heart, requires AK>=7
-A The Hunt for Illidan Stormrage|QID|45174|M|47.28,43.46|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481+44496+44497|
+A The Hunt for Illidan Stormrage|QID|45174|M|47.28,43.46|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481^44496^44497|
 F Illidari Stand|QID|45174|QO|1|M|35.86,27.62|N|At Odan Battlebow.|ACTIVE|45174|
 T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|
 A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|PRE|45174|
@@ -473,7 +478,7 @@ C Bind Hati's spirit to your own.|QID|42185|SO|4|NC|M|33.37,58.19|Z|The Storm Pe
 C Wield Titanstrike|QID|42185|QO|2|M|33.39,58.32|Z|The Storm Peaks|NC|N|Click on the Gun to pick it up.|
 C Ride Huey to return to Dalaran.|QID|42185|SO|6|M|33.72,58.22|Z|The Storm Peaks|NC|N|Ride Huey to return to Dalaran.|
 T Never Hunt Alone|QID|42185|M|69.68,43.04|Z|Dalaran@Dalaran70|N|To Grif Wildheart.|
-A Hunter to Hunter|QID|40952;40108;40109|M|69.68,43.04|Z|Dalaran@Dalaran70|N|From Grif Wildheart.|PRE|42185|LEAD|44043|
+A Hunter to Hunter|QID|40952^40108^40109|M|69.68,43.04|Z|Dalaran@Dalaran70|N|From Grif Wildheart.|PRE|42185|LEAD|44043|
 
 ;MARKSMANSHIP
 ;A Rendezvous with the Courier|QID|41540|M|60.06,53.47|Z|Dalaran@Dalaran70|N|From Emmarel Shadewarden.|
@@ -483,10 +488,10 @@ A Call of the Marksman|QID|40392|M|71.46,50.04|Z|Dalaran@Dalaran70|N|From Courie
 C Call of the Marksman|QID|40392|QO|1|M|71.75,50.31|Z|Dalaran@Dalaran70|N|(Optional) Take the hippogryph to the Broken Shore.|
 C Call of the Marksman|QID|40392|QO|2|M|32.42,32.58|Z|Broken Shore|N|Speak to Vereesa Windrunner.|CHAT|
 T Call of the Marksman|QID|40392|M|32.27,32.41|Z|Broken Shore|N|To Vereesa Windrunner.|
-A Clandestine Operation|QID|40400;40402;40403|M|32.27,32.41|Z|Broken Shore|N|From Vereesa Windrunner.|PRE|40392|
-C Clandestine Operation|QID|40400;40402;40403|QO|1|M|32.27,32.41|Z|Broken Shore|N|Listen to Vereesa Windrunner.|CHAT|
-T Clandestine Operation|QID|40400;40402;40403|M|32.27,32.41|Z|Broken Shore|N|To Vereesa Windrunner.|
-A Rescue Mission|QID|40419|M|32.27,32.41|Z|Broken Shore|N|From Vereesa Windrunner.|PRE|40400+40402+40403|
+A Clandestine Operation|QID|40400^40402^40403|M|32.27,32.41|Z|Broken Shore|N|From Vereesa Windrunner.|PRE|40392|
+C Clandestine Operation|QID|40400^40402^40403|QO|1|M|32.27,32.41|Z|Broken Shore|N|Listen to Vereesa Windrunner.|CHAT|
+T Clandestine Operation|QID|40400^40402^40403|M|32.27,32.41|Z|Broken Shore|N|To Vereesa Windrunner.|
+A Rescue Mission|QID|40419|M|32.27,32.41|Z|Broken Shore|N|From Vereesa Windrunner.|PRE|40400^40402^40403|
 C Rescue Mission|QID|40419|QO|1|M|32.27,32.41|Z|Broken Shore|N|Speak to Vereesa and begin the mission.|CHAT|
 C Rescue Mission|QID|40419|QO|2|M|16.20,52.47|Z|Broken Shore|N|Travel through the portal to Niskara.|NC|
 C The Rescue|QID|40419|SO|1|Z|Niskara|N|Survey the rise ahead and eliminate Legion patrols.|
@@ -499,7 +504,7 @@ C Where Is She?|QID|40419|SO|7|M|71.51,73.67|Z|Niskara|N|Help Vereesa search the
 C Rescue Mission|QID|40419|QO|4|M|71.38,73.51|Z|Niskara|N|Take Thas'dorah|NC|
 C Rescue Mission|QID|40419|QO|5|M|70.90,72.29|Z|Niskara|N|Talk to Vereesa and leave Niskara|CHAT|
 T Rescue Mission|QID|40419|M|65.95,45.41|Z|Dalaran@Dalaran70|N|To Vereesa Windrunner.|
-A Hunter to Hunter|QID|40952;40108;40109|M|65.95,45.41|Z|Dalaran@Dalaran70|N|From Vereesa Windrunner.|PRE|40419|LEAD|44043|
+A Hunter to Hunter|QID|40952^40108^40109|M|65.95,45.41|Z|Dalaran@Dalaran70|N|From Vereesa Windrunner.|PRE|40419|LEAD|44043|
 
 ;SURVIVAL
 ;A Preparation for the Hunt|QID|41542|M|60.06,53.47|Z|Dalaran@Dalaran70|N|From Emmarel Shadewarden.|
@@ -536,18 +541,18 @@ T The Spear in the Shadow|QID|40385|M|43.31,26.52|N|To Emmarel Shadewarden.|LVL|
 A Continuing the Legend|QID|44043|M|43.37,26.30|N|From Emmarel Shadewarden.|PRE|40959|LVL|102|
 C Continuing the Legend|QID|44043|M|43.37,26.30|NC|N|Choose a second artifact to pursue|
 T Continuing the Legend|QID|44043|M|43.39,26.28|N|To Emmarel Shadewarden.|
-A Artifact specific quest|QID|41540;41541;41542|M|43.39,26.28|N|From Emmarel Shadewarden. This will change your spec if you are not in the spec, don't forget to pick talents and an appropriate weapon.|PRE|44043|LVL|102|
+A Artifact specific quest|QID|41540^41541^41542|M|43.39,26.28|N|From Emmarel Shadewarden. This will change your spec if you are not in the spec, don't forget to pick talents and an appropriate weapon.|PRE|44043|LVL|102|
 
 ;3rd artifact
 A One Last Adventure|QID|44366|M|43.40,26.37|N|Talk to Talua to take the eagle from Krasus Landing or otherwise travel to Trueshot Lodge to get the next quest from Emmarel Shadewarden.|LVL|102|ACH|11174;;true|
 C One Last Adventure|QID|44366|M|43.40,26.37|NC|N|Choose the only one that is left.|
 T One Last Adventure|QID|44366|M|43.40,26.37|N|To Emmarel Shadewarden.|
-A Artifact specific quest|QID|41540;41541;41542|M|43.39,26.28|N|From Emmarel Shadewarden. This will change your spec if you are not in the spec, don't forget to pick talents and an appropriate weapon.|PRE|44366|LVL|101|
+A Artifact specific quest|QID|41540^41541^41542|M|43.39,26.28|N|From Emmarel Shadewarden. This will change your spec if you are not in the spec, don't forget to pick talents and an appropriate weapon.|PRE|44366|LVL|101|
 
 ;Hunter class hall after first artifact
-T Hunter to Hunter|QID|40952;40108;40109|M|60.10,53.39|Z|Dalaran@Dalaran70|N|To Emmarel Shadewarden. You can ask Talua (on the other side of Krasus' landing for a ride back to Trueshot lodge.|PRE|44043|
-T Hunter to Hunter|QID|40952;40108;40109|M|60.06,53.47|Z|Dalaran@Dalaran70|N|To Emmarel Shadewarden.|
-A On Eagle's Wings|QID|40953|M|60.10,53.39|Z|Dalaran@Dalaran70|N|From Emmarel Shadewarden.|PRE|40952+41009+40385|
+T Hunter to Hunter|QID|40952^40108^40109|M|60.10,53.39|Z|Dalaran@Dalaran70|N|To Emmarel Shadewarden. You can ask Talua (on the other side of Krasus' landing for a ride back to Trueshot lodge.|PRE|44043|
+T Hunter to Hunter|QID|40952^40108^40109|M|60.06,53.47|Z|Dalaran@Dalaran70|N|To Emmarel Shadewarden.|
+A On Eagle's Wings|QID|40953|M|60.10,53.39|Z|Dalaran@Dalaran70|N|From Emmarel Shadewarden.|PRE|40952^41009^40385|
 C On Eagle's Wings|QID|40953|QO|1|M|69.87,51.16|Z|Dalaran@Dalaran70|CHAT|N|Speak to the flight master in Krasus' Landing (chat option).|
 C On Eagle's Wings|QID|40953|QO|2|M|36.29,27.92|NC|N|Meet Emmarel Shadewarden at the Trueshot Lodge|
 T On Eagle's Wings|QID|40953|M|36.67,29.03|N|To Emmarel Shadewarden.|
@@ -566,9 +571,9 @@ A Tactical Matters|QID|40958|M|47.32,53.97|N|From Altar Keeper Biehn.|PRE|41047|
 T Tactical Matters|QID|40958|M|42.82,46.95|N|To Tactician Tinderfell.|
 A The Campaign Begins|QID|40959|M|42.82,46.95|N|From Tactician Tinderfell.|PRE|40958|
 C The Campaign Begins|QID|40959|M|42.82,46.95|NC|N|Choose which zone you want to do first.|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|42.62,46.84|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|
+A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|42.62,46.84|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|
 T The Campaign Begins|QID|40959|M|42.62,46.84|N|To Tactician Tinderfell.|
-P Krasus' Landing - Dalaran|QID|39718;39864;39731;39733;39735|M|45.49,45.70;48.63,43.49|CS|N|Up the ramp to take the portal to Dalaran|ACTIVE|39718;39864;39731;39733;39735|
+P Krasus' Landing - Dalaran|QID|39718^39864^39731^39733^39735|M|45.49,45.70;48.63,43.49|CS|N|Up the ramp to take the portal to Dalaran|ACTIVE|39718^39864^39731^39733^39735|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39864|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|EmmStormheim|FACTION|Horde|
@@ -607,7 +612,7 @@ C Unnatural Consequences|QID|45556|M|42.63,36.47;41.83,34.14|CS|Z|Broken Shore|N
 C Salvation|QID|46060|M|50.91,30.64|Z|Broken Shore|US|NC|N|Finish applying the salve as you travel back to Syrenne.|
 T Unnatural Consequences|QID|45556|M|50.91,30.64|Z|Broken Shore|N|To Nighthuntress Syrenne.|
 T Salvation|QID|46060|M|50.91,30.64|Z|Broken Shore|N|To Nighthuntress Syrenne.|
-A Secured Surroundings|QID|46235|M|50.91,30.64|Z|Broken Shore|N|From Nighthuntress Syrenne.|PRE|45557;46060|
+A Secured Surroundings|QID|46235|M|50.91,30.64|Z|Broken Shore|N|From Nighthuntress Syrenne.|PRE|45557 & 46060|
 F Delivererance Point|QID|46235|M|44.77,61.12|Z|Broken Shore|N|Travel to Deliverance Point to meet up with Nighthuntress Syrenne.|ACTIVE|46235|
 T Secured Surroundings|QID|46235|M|44.77,61.12|Z|Broken Shore|N|To Nighthuntress Syrenne.|
 A Champion: Nighthuntress Syrenne|QID|46048|M|44.77,61.12|Z|Broken Shore|N|From/To Nighthuntress Syrenne.|PRE|46235|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
+-- Date: 2018-10-17 02:24
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3277/revisions/29177/view
 -- Date: 2018-02-26 21:43
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -176,8 +181,8 @@ T A'dal|Z|Shattrath City|QID|10210|M|54.0,44.8|N|To A'dal.|
 A City of Light |Z|Shattrath City|QID|10211|PRE|10210|M|54.8,44.3|N|From Khadgar.|
 C City of Light |N|Follow the npc until you get the quest completion.|QID|10211|M|54.8,44.3|Z|Shattrath City|
 T City of Light |Z|Shattrath City|QID|10211|M|54.8,44.3|N|To Kadgar.|
-N At this point you will have to choose either Aldor or Scryers.|N|Right click the box to continue.|Z|Shattrath City|QID|10553;10554|
-N Allegiance to the ...|QID|10553;10554|N|Either turn in the quest "Allegiance to the Aldor" if you want to be with Aldor, or "Allegiance to the Scyers" if you want to be with the Scryers. Then close this step.|Z|Shattrath City|M|55.00,43.98|
+N At this point you will have to choose either Aldor or Scryers.|N|Right click the box to continue.|Z|Shattrath City|QID|10553^10554|
+N Allegiance to the ...|QID|10553^10554|N|Either turn in the quest "Allegiance to the Aldor" if you want to be with Aldor, or "Allegiance to the Scyers" if you want to be with the Scryers. Then close this step.|Z|Shattrath City|M|55.00,43.98|
 
 A Ishanah |Z|Shattrath City|QID|10554|M|54.8,44.3|N|From Khadgar.|REP|Aldor;932|
 T Ishanah |QID|10554|N|To Ishanah. You must take the elevator up to this area.|Z|Shattrath City|M|24.0,29.7|REP|Aldor;932|
@@ -209,7 +214,7 @@ l Vicious Teromoth Sample|QID|9968|US|N|Kill Vicious Teromoths to get 4 Vicious 
 T Clues in the Thicket|QID|9971|M|44.3,26.3|N|To Earthbinder Tavgren.|
 C Strange Energy|N|Kill teromoths until you get the items for this quest.|QID|9968|M|44.00,28.00|QO|1|
 T Strange Energy|QID|9968|M|44.3,26.3|N|To Earthbinder Tavgren.|
-A By Any Means Necessary|QID|9978|PRE|9968+9971|M|44.3,26.3|N|From Earthbinder Tavgren.|
+A By Any Means Necessary|QID|9978|PRE|9968^9971|M|44.3,26.3|N|From Earthbinder Tavgren.|
 T By Any Means Necessary|QID|9978|M|47.1,27.0|N|Find Empoor on the road between Shattrath City and Tuurem. Talk to him and then fight him to low health. Turn this quest in right after this.|
 A Wind Trader Lathrai|QID|9979|PRE|9978|M|47.1,27.0|N|From Empoor.|
 
@@ -293,7 +298,7 @@ T Vengeful Souls|N|To High Priest Orglum.|QID|10842|M|37.4,51.5|
 T Before Darkness Falls |QID|10878|M|37.4,51.2|N|To Mekeda.|
 T Cabal Orders |QID|10880|M|37.4,51.2|N|To Mekeda.|
 A The Shadow Tomb |QID|10881|PRE|10880|M|37.4,51.2|N|From Mekeda.|
-A Recover the Bones |QID|10030|PRE|10840;10842|N|From Soolaveen.|M|37.06,49.62|
+A Recover the Bones |QID|10030|PRE|10840 & 10842|N|From Soolaveen.|M|37.06,49.62|
 
 H Shattrath City|QID|10112|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 r Sell junk, Repair, restock|QID|10112|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|

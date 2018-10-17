@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/anglers_reputation
+-- Date: 2018-10-17 02:21
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3509/revisions/29603/view
 -- Date: 2018-08-24 16:00
 -- Who: Ludovicus_Maior
 -- Log: Converted old style QOs.
@@ -62,13 +67,13 @@ WoWPro.Dailies:GuideFaction(guide,1302) --  "The Anglers Reputation"
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Quest(s) from John "Big Hook" Marsock|QID|30754;30753|M|68.34,43.49|N|From John "Big Hook" Marsock, if he is offering|
-A Quest(s) from Fisherman Haito|QID|30586;30584|M|67.92,45.24|N|From Fisherman Haito, if he is offering|
-A Quest(s) from Fiznix|QID|30678;30698|M|67.49,44.59|N|From Fiznix, if he is offering|
-A Quest(s) from Angler Shen|QID|30588;30700|M|67.56,43.51|N|From Angler Shen, if he is offering|
-A Quest(s) from Trawler Yotimo|QID|30613;30658|M|67.62,42.49|N|From Trawler Yotimo, if he is offering|
-A Quest(s) from Fo Fook|QID|30763;30701|M|67.21,41.14|N|From Fo Fook, if he is offering|
-A Quest(s) from Elder Fisherman Rassan|QID|30585;30598|M|68.34,42.08|N|From Elder Fisherman Rassan, if he is offering|
+A Quest(s) from John "Big Hook" Marsock|QID|30754^30753|M|68.34,43.49|N|From John "Big Hook" Marsock, if he is offering|
+A Quest(s) from Fisherman Haito|QID|30586^30584|M|67.92,45.24|N|From Fisherman Haito, if he is offering|
+A Quest(s) from Fiznix|QID|30678^30698|M|67.49,44.59|N|From Fiznix, if he is offering|
+A Quest(s) from Angler Shen|QID|30588^30700|M|67.56,43.51|N|From Angler Shen, if he is offering|
+A Quest(s) from Trawler Yotimo|QID|30613^30658|M|67.62,42.49|N|From Trawler Yotimo, if he is offering|
+A Quest(s) from Fo Fook|QID|30763^30701|M|67.21,41.14|N|From Fo Fook, if he is offering|
+A Quest(s) from Elder Fisherman Rassan|QID|30585^30598|M|68.34,42.08|N|From Elder Fisherman Rassan, if he is offering|
 
 C Armored Carp|QID|30613|M|68.50,46.10;71.00,49.95;67.07,50.15;69.33,51.12;69.14,48.33|N|Use the spear south of the wharf.|CN|U|80403|L|80437 5|
 C Bright Bait|QID|30754|M|66.50,34.08;59.67,39.42;62.08,37.11;61.45,33.88;59.40,33.70;64.41,36.00;59.51,37.07;64.05,31.48|CN|L|81116 7|N|Go north into the forest and look for them on the roots of trees. Careful with the tigers.|

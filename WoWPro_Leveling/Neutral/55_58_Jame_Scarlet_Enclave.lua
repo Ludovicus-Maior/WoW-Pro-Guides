@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_scarlet_enclave
+-- Date: 2018-10-17 02:30
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3369/revisions/29152/view
 -- Date: 2018-02-24 17:55
 -- Who: Ludovicus_EditBot
 -- Log: King Anduin Wrynn
@@ -158,7 +163,7 @@ C Into the Realm of Shadows |QID|12687|N|Go down back in the fields kill a Dark 
 T Into the Realm of Shadows |QID|12687|M|52.5,34.6|N|To Salanar the Horseman.|
 T If Chaos Drives, Let Suffering Hold The Reins |QID|12678|N|To Prince Valanar.|M|52.3,34.0|
 T Tonight We Dine In Havenshire |QID|12679|N|To Orithos the Sky Darkener.|M|53.2,36.9|
-A Gothik the Harvester |QID|12697|PRE|12678;12679;12687;12733|N|From Prince Valanar.|M|52.3,34.0|
+A Gothik the Harvester |QID|12697|PRE|12678 & 12679 & 12687 & 12733|N|From Prince Valanar.|M|52.3,34.0|
 T Gothik the Harvester |QID|12697|N|To Gothik the Harvester.|M|54.1,35.0|
 A The Gift That Keeps On Giving |QID|12698|PRE|12697|M|54.1,35.0|N|From Gothik the Harvester.|
 
@@ -207,7 +212,7 @@ U Open the Ornately Jeweled Box |QID|12720|U|39418|QO|1|N|There are one or two [
 C How To Win Friends And Influence Enemies |QID|12720|N|Go to the Scarlet Hold on the east side of New Avalon, equip the Persuader(s) and beat on people until they tell you want you want to hear.|M|60,68|
 
 T How To Win Friends And Influence Enemies |QID|12720|N|To Prince Keleseth.|M|54.3,57.3|
-A Behind Scarlet Lines |QID|12723|PRE|12716;12722;12720|M|54.3,57.3|N|From Prince Keleseth.|
+A Behind Scarlet Lines |QID|12723|PRE|12716 & 12722 & 12720|M|54.3,57.3|N|From Prince Keleseth.|
 
 T Behind Scarlet Lines |QID|12723|N|Go far south to the Scarlet Tavern, second floor, turn the quest into Orbaz Bloodbane.|M|56.3,79.8|
 A The Path Of The Righteous Crusader |QID|12724|PRE|12723|M|56.3,79.8|N|From Orbaz Bloodbane.|
@@ -263,10 +268,10 @@ T A Special Surprise |QID|12749|R|Troll|N|To Knight Commander Plaguefist.|M|52.9
 T A Special Surprise |QID|12750|R|Undead|N|To Knight Commander Plaguefist.|M|52.9,81.5|
 T A Special Surprise |QID|28650|R|Goblin|N|To Knight Commander Plaguefist.|M|52.9,81.5|
 
-A A Sort Of Homecoming |QID|12751|PRE|12739+12742+12743+12744+12745+12746+12747+12748+12749+12750+28649+28650|M|52.9,81.5|N|From Knight Commander Plaguefist.|
+A A Sort Of Homecoming |QID|12751|PRE|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|M|52.9,81.5|N|From Knight Commander Plaguefist.|
 
 T A Sort Of Homecoming |QID|12751|N|To Thassarian.|M|56.3,80.2|
-A Ambush At The Overlook |QID|12754|PRE|12751;12724|N|From Orbaz Bloodbane.|M|56.3,79.8|
+A Ambush At The Overlook |QID|12754|PRE|12751 & 12724|N|From Orbaz Bloodbane.|M|56.3,79.8|
 
 C Ambush At The Overlook |QID|12754|U|39645|N|Find a clear spot in the Scarlet Overlook, use the [Makeshift Cover], ambush the Scarlet Courier and loot everthing he has.|M|62,77|
 

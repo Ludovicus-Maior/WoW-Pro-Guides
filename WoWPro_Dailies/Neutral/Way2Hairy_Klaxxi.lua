@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/klaxxi_reputation
+-- Date: 2018-10-17 02:22
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3504/revisions/29610/view
 -- Date: 2018-08-24 16:43
 -- Who: Ludovicus_Maior
 -- Log: Update QOs
@@ -206,7 +211,7 @@ T Dark Wings, Dark Things|QID|31209|N|To Xaril the Poisoned Mind|M|28.67,42.14|
 
 T A Shade of Dread|QID|31210|N|To Xaril the Poisoned Mind|M|28.67,42.14|
 
-A The Poisoned Mind|QID|31211|PRE|31208;31209;31210|N|From Xaril the Poisoned Mind|M|28.67,42.14|
+A The Poisoned Mind|QID|31211|PRE|31208 & 31209 & 31210|N|From Xaril the Poisoned Mind|M|28.67,42.14|
 
 C The Poisoned Mind|QID|31211|N|Talk to Xaril and ride. Paralyze then poison the same mobs for fast kills.|
 
@@ -240,15 +245,15 @@ T Shadow of the Empire|QID|31612|M|55.06,35.84|N|To Kil'ruk the Wind-reaver (bac
 
 ; Accept available dailies
 
-A Korven the Prime's Quests|M|54.31,36.08|N|Grab any and all quests from Korven the Prime. This step will close when you pick up the first quest.|QID|31232;31507;31496;31233;31270;31269|PRE|31019|
+A Korven the Prime's Quests|M|54.31,36.08|N|Grab any and all quests from Korven the Prime. This step will close when you pick up the first quest.|QID|31232^31507^31496^31233^31270^31269|PRE|31019|
 
-A Rik'kal the Dissector's Quests|M|54.37,35.93|N|Grab any and all quests from Rik'kal the Dissector. This step will close when you pick up the first quest.|QID|31271;31509;31234;31503;31508;31502|PRE|31606|
+A Rik'kal the Dissector's Quests|M|54.37,35.93|N|Grab any and all quests from Rik'kal the Dissector. This step will close when you pick up the first quest.|QID|31271^31509^31234^31503^31508^31502|PRE|31606|
 
-A Kaz'tik the Manipulator's Quests|M|54.26,35.78|N|Grab any and all quests from Kaz'tik the Manipulator. This step will close when you pick up the first quest.|QID|31268;31238;31494;31024;31808;31506;31487|PRE|31091|
+A Kaz'tik the Manipulator's Quests|M|54.26,35.78|N|Grab any and all quests from Kaz'tik the Manipulator. This step will close when you pick up the first quest.|QID|31268^31238^31494^31024^31808^31506^31487|PRE|31091|
 
-A Hisek the Swarmkeeper or Xaril the Poisoned Mind's Quests|M|54.82,36.21;54.92,36.17|CN|REP|The Klaxxi;1337;revered|N|Grab a quest from either Hisek the Swarmkeeper or Xaril the Poisoned Mind.|QID|31237;31272;31504;31510;31216|PRE|31441;31018|
+A Hisek the Swarmkeeper or Xaril the Poisoned Mind's Quests|M|54.82,36.21;54.92,36.17|CN|REP|The Klaxxi;1337;revered|N|Grab a quest from either Hisek the Swarmkeeper or Xaril the Poisoned Mind.|QID|31237^31272^31504^31510^31216|PRE|31441 & 31018|
 
-A Kil'ruk the Wind-Reaver's Quests|M|55.06,35.86|N|Any and all quests from Kil'ruk the Wind-Reaver. This step will close when you pick up the first quest.|QID|31109;31231;31111;31267;31235;31505|PRE|31004|
+A Kil'ruk the Wind-Reaver's Quests|M|55.06,35.86|N|Any and all quests from Kil'ruk the Wind-Reaver. This step will close when you pick up the first quest.|QID|31109^31231^31111^31267^31235^31505|PRE|31004|
 
 ; Bombing runs
 
@@ -260,7 +265,7 @@ K Mantids Slaughter|QID|31808|QO|2|M|51.00,43.00|N|Kill Mantids all over the are
 
 ; Lake of Stars
 
-R Kypari Zar|QID|31272;31268;31271;31269;31267;31024;31270|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to Kypari Zar.  Press 1 and choose your landing spot.|CC|
+R Kypari Zar|QID|31272^31268^31271^31269^31267^31024^31270|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to Kypari Zar.  Press 1 and choose your landing spot.|CC|
 
 C Infection|QID|31272|N|Kill 6 infected wildlife which may include Bonedust Moths, Bluehide Mushan, and Mutating Scorpid.|S|
 
@@ -286,7 +291,7 @@ C Kunchong Treats|QID|31024|N|Drop from Chillwater Turtles.|US|M|57.20,54.00|
 
 ; Terrace of Gurthan
 
-R Terrace of Gurthan|QID|31233;31232;31231;31237;31235;31234|M|55.10,35.90|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to The Terrace of Gurthan.  Press 1 and choose your landing spot.|CC|
+R Terrace of Gurthan|QID|31233^31232^31231^31237^31235^31234|M|55.10,35.90|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to The Terrace of Gurthan.  Press 1 and choose your landing spot.|CC|
 
 C Sap Tapping|QID|31233|N|Collect 6 Amber Sap. They are on trees in the area.|S|
 
@@ -302,9 +307,9 @@ C Dreadspinner Extermination|QID|31231|N|Slay 8 Dreadspinner Tenders.|US|M|70.40
 
 C Putting An Eye Out|QID|31234|N|Drops from Mire Beasts.|S|
 
-K Summon and Kill Warlord Gurthan|QID|31233;31232;31231;31237;31235;31234|L|88715|M|66.20,31.80|N|Requires two players; one to /lay on Green Rune and another to /kneel on the Red Rune. Loot his corpse.|
+K Summon and Kill Warlord Gurthan|QID|31233^31232^31231^31237^31235^31234|L|88715|M|66.20,31.80|N|Requires two players; one to /lay on Green Rune and another to /kneel on the Red Rune. Loot his corpse.|
 
-A The Warlord's Ashes|QID|31677|ACTIVE|31233;31232;31231;31237;31235;31234|O|U|88715|N|Accept the quest from the ashes.|
+A The Warlord's Ashes|QID|31677|ACTIVE|31233^31232^31231^31237^31235^31234|O|U|88715|N|Accept the quest from the ashes.|
 
 C Putting An Eye Out|QID|31234|US|M|67.20,36.00|N|Drops from Mire Beasts.|
 
@@ -318,7 +323,7 @@ C Brain Food|QID|31238|M|60.00,23.00|N|They drop off Greatback Mushan.|
 
 ; Clutches of Shek'zeer
 
-R Clutches of Shek'zeer|M|49.20,34.00|QID|31109;31504;31504;31502;31503;31599|N|Get your favorite Klaxxi buff from any of the available Paragons.|
+R Clutches of Shek'zeer|M|49.20,34.00|QID|31109^31504^31504^31502^31503^31599|N|Get your favorite Klaxxi buff from any of the available Paragons.|
 
 C Culling the Swarm|QID|31109|N|Slay 40 Shek'zeer Mantid.|S|
 
@@ -338,9 +343,9 @@ C Shortcut to Ruin|QID|31503|M|39.60,31.60|N|Kill Vess-Guard Na'kal|T|Vess-Guard
 
 C Wing Clip|QID|31502|N|Collect 24 Needler Wings from Shek'zeer Needlers.|US|M|35.60,31.40|
 
-K Karanosh|QID|31109;31504;31502;31503;31599|M|41.80,33.60|L|87878|T|Karanosh|N|Kill Karanosh and Loot the Enormous Kunchong Mandibles.|
+K Karanosh|QID|31109^31504^31502^31503^31599|M|41.80,33.60|L|87878|T|Karanosh|N|Kill Karanosh and Loot the Enormous Kunchong Mandibles.|
 
-A The Matriarch's Maw|QID|31599|ACTIVE|31109;31504;31502;31503;31599|U|87878|N|Accept the quest from the mandibles.|
+A The Matriarch's Maw|QID|31599|ACTIVE|31109^31504^31502^31503^31599|U|87878|N|Accept the quest from the mandibles.|
 
 C Sap Jar filled at North feeder|QID|31496|U|87400|QO|3|M|36.00,32.00|
 
@@ -354,11 +359,11 @@ C Culling the Swarm|QID|31109|N|Slay 40 Shek'zeer Mantid.|US|M|44.60,43.20|
 
 ; Briny Muck
 
-R The Briny Muck|QID|31111;31508;31509;31506;31505;31507;31510|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to Zan'Vess.  Press 1 and choose your landing spot.|CC|
+R The Briny Muck|QID|31111^31508^31509^31506^31505^31507^31510|N|Get your favorite Klaxxi buff from any of the available Paragons then speak to Kil'ruk the Wind-Reaver for a lift to Zan'Vess.  Press 1 and choose your landing spot.|CC|
 
-K Kypa'rak|QID|31111;31508;31509;31506;31505;31507;31510|M|34.20,59.80|T|Kypa'rak|L|87871 |N|Loot the Massive Kyparite Core.|
+K Kypa'rak|QID|31111^31508^31509^31506^31505^31507^31510|M|34.20,59.80|T|Kypa'rak|L|87871 |N|Loot the Massive Kyparite Core.|
 
-A Kypa'rak's Core|QID|31598|ACTIVE|31111;31508;31509;31506;31505;31507;31510|O|U|87871|N|Accept the quest from the kyparite core.|
+A Kypa'rak's Core|QID|31598|ACTIVE|31111^31508^31509^31506^31505^31507^31510|O|U|87871|N|Accept the quest from the kyparite core.|
 
 C Eradicating the Zan'thik|QID|31111|N|Kill 6 Zan'thik Impalers and 6 Zan'thik Manipulators.|S|
 

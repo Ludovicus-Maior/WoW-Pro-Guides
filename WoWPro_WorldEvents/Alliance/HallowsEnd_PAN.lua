@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2018-10-17 01:37
+-- Who: Ludovicus_EditBot
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3440/revisions/29580/view
+-- Date: 2018-08-23 02:16
+-- Who: jovieve
+-- Log: Updated old style QO tag.
+
+-- URL: http://wow-pro.com/node/3440/revisions/29141/view
 -- Date: 2018-02-23 01:40
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags - EK
@@ -243,3 +253,5 @@ N You made it!|N|Done with MoP|
 
 ]]
 end)
+
+

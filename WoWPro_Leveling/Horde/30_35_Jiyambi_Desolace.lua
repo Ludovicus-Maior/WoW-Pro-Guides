@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_horde
+-- Date: 2018-10-17 02:27
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3314/revisions/29088/view
 -- Date: 2018-02-20 21:31
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -119,7 +124,7 @@ return [[
 R Desolace|QID|14184|M|54.7,8.8|N|Run down into Desolace.|
 T Warchief's Command: Desolace!|O|QID|28548|M|54.7,8.8|N|To Furien at Tethris Aran in Desolace.|
 T Nothing Left for You Here|O|QID|26134|M|54.74,8.84|N|To Furien.|
-A My Time Has Passed|QID|14184|PRE|28548+26134|M|54.74,8.84|N|From Furien.| ; Grail PRE|28548;26134 cant be right
+A My Time Has Passed|QID|14184|PRE|28548^26134|M|54.74,8.84|N|From Furien.| ; Grail PRE|28548;26134 cant be right
 
 T My Time Has Passed|QID|14184|M|54.81,8.65;44.63,29.52|CC|N|Talk to the dragonhawk. When it lands, turn-in to Cerelia.|
 A Avenge Furien!|QID|14188|PRE|14184|M|44.63,29.52|N|From Cerelia.|
@@ -264,7 +269,7 @@ T Delivery Device|QID|14339|M|55.29,58.22;52.23,53.48|CC|N|To Maurin Bonesplitte
 A Maurin's Concoction|QID|14343|PRE|14339|M|52.23,53.48|N|From Maurin Bonesplitter.|
 
 T Maurin's Concoction|QID|14343|M|57.41,47.72|N|To Karnum Marshweaver, back at Karnum's Glade.|
-A Cleansing Our Crevasse|QID|14346|PRE|14343+14379|M|57.41,47.72|N|From Karnum Marshweaver.|
+A Cleansing Our Crevasse|QID|14346|PRE|14343^14379|M|57.41,47.72|N|From Karnum Marshweaver.|
 C Cleansing Our Crevasse|QID|14346|M|57.58,47.71|N|Hop onto Grimfeather - he will take you to the naga. Use Ability 1 to bomb the naga. Use Ability 3 when you are done.|
 T Cleansing Our Crevasse|QID|14346|M|57.42,47.72|N|Use Ability 3 to return to Karnum Marshweaver. Congrats on a very nice piece of gear!|
 
@@ -274,7 +279,7 @@ C Cenarion Property|NC|QID|14316|M|74.70,46.94|N|The crates are inside the tents
 H Karnum's Glade|QID|14316|M|57.44,47.71|N|If you didn't set your hearth there, run back.|
 T Cenarion Property|QID|14316|M|58.38,49.83|N|To Garren Darkwind.|
 T Breakout!|QID|14314|M|58.32,50.00|N|To Khan Leh'Prah.|
-A Delicate Negotiations|QID|14318|PRE|14314;14316|M|58.32,50.00|N|From Khan Leh'Prah.|
+A Delicate Negotiations|QID|14318|PRE|14314 & 14316|M|58.32,50.00|N|From Khan Leh'Prah.|
 
 C Delicate Negotiations|QID|14318|M|71.26,45.80|N|Talk to the Khan to mount up. When he slows down next to the Fatherstone in the Magram Territory, use Ability 1. Help the Kolkar defeat the Magram Defenders.|
 T Delicate Negotiations|QID|14318|M|71.69,45.56|N|To Khan Kammah. Congrats on a very nice piece of gear!|
@@ -363,7 +368,7 @@ T Into the Fray!|QID|14393|M|72.26,67.41|N|To Khan Leh'Prah.|
 A Death to Agogridon|QID|14394|PRE|14393|M|72.26,67.41|N|From Khan Leh'Prah.|
 C Death to Agogridon|QID|14394|M|77.45,76.04;79.77,77.76;79.32,82.16;81.71,80.71|CS|N|Make sure you are still on your centaur - talk to the Khan if you need to remount. Follow the arrows to the demon you need to defeat. The Khans will show up, so it's not difficult.|
 T Death to Agogridon|QID|14394|M|82.30,80.85|N|To Khan Leh'Prah. Congrats on a very nice weapon!|
-A The Wilds of Feralas|QID|26589|LEAD|25210|PRE|14346;14394|M|73.2,73|N|From Khan Shodo.|
+A The Wilds of Feralas|QID|26589|LEAD|25210|PRE|14346 & 14394|M|73.2,73|N|From Khan Shodo.|
 C Ghost-o-plasm Round Up|QID|6134|U|15848|M|63.91,91.78|N|Clear the area then use your gizmo. Kill the ghost centaurs. (They turn aggressive when they get to the gizmo so beware.)|
 T Ghost-o-plasm Round Up|QID|6134|N|To Hornizz Brimbuzzle.|M|47.88,61.80|
 

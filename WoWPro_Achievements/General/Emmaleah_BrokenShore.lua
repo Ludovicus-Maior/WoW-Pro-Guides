@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/broken_shore_armies_legionfall_guide
+-- Date: 2018-10-17 02:20
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3724/revisions/28977/view
 -- Date: 2018-02-19 22:38
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -267,7 +272,7 @@ A Begin Construction|QID|46245|M|44.57,63.23|N|From Commander Chambers.|PRE|4628
 C Begin Construction|QID|46245|M|44.56,63.07|N|Click on the construction table to donate Legionfall Supplies to your choice of buildings.|
 T Begin Construction|QID|46245|M|44.56,63.07|N|To Commander Chambers.|
 T Seeking Lost Knowledge|QID|47067|M|44.73,63.29|N|To Archmage Khadgar.|
-A Delivering Lost Knowledge|QID|46809;47069;47070;47071;47072;47073;47074;47075;47076;47077;47078;47079|M|44.73,63.29|N|From Archmage Khadgar.|PRE|47067|
+A Delivering Lost Knowledge|QID|46809^47069^47070^47071^47072^47073^47074^47075^47076^47077^47078^47079|M|44.73,63.29|N|From Archmage Khadgar.|PRE|47067|
 A Altar of the Aegis|QID|46244|M|44.75,63.29|N|From Archmage Khadgar.|PRE|46286|
 t Altar of the Aegis|QID|46244|M|44.75,63.29|N|To Archmage Khadgar.|
 t Defending the Broken Isles|QID|46247|M|44.54,63.55|N|To Maiev Shadowsong.|
@@ -282,7 +287,7 @@ C Take Out the Head|QID|46250|US|N|Be sure and kill some of the rare elite demon
 t Take Out the Head|QID|46250|M|44.54,63.53|N|To Maiev Shadowsong.|
 
 ;each class turn in.
-T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|61.4,74.6|Z|Upper Command Center@DemonHunterOrderHallTerrain|C|Demon Hunter|N|To Vahu the Weathered back in your order hall.|
+T Delivering Lost Knowledge|QID|47070^47072^47073^47074^47076^47078^47079|M|61.4,74.6|Z|Upper Command Center@DemonHunterOrderHallTerrain|C|Demon Hunter|N|To Vahu the Weathered back in your order hall.|
 A Using Lost Knowledge|QID|46940|M|61.4,74.6|Z|Upper Command Center@DemonHunterOrderHallTerrain|C|Demon Hunter|N|From Vahu the Weathered.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|61.4,74.6|Z|Upper Command Center@DemonHunterOrderHallTerrain|C|Demon Hunter|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|61.4,74.6|Z|Upper Command Center@DemonHunterOrderHallTerrain|C|Demon Hunter|N|To Vahu the Weathered.|
@@ -297,12 +302,12 @@ A Using Lost Knowledge|QID|46940|M|33.92,32.51|Z|TheDreamgrove|C|Druid|N|From Ce
 C Using Lost Knowledge|QID|46940|M|33.92,32.51|Z|TheDreamgrove|C|Druid|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|33.92,32.51|Z|TheDreamgrove|C|Druid|N|To Celedine the Fatekeeper.|
 
-T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|52.49,54.52|Z|TrueshotLodge|C|Hunter|N|To Holt Thunderhorn back in your order hall.|
+T Delivering Lost Knowledge|QID|47070^47072^47073^47074^47076^47078^47079|M|52.49,54.52|Z|TrueshotLodge|C|Hunter|N|To Holt Thunderhorn back in your order hall.|
 A Using Lost Knowledge|QID|46940|M|52.49,54.52|Z|TrueshotLodge|C|Hunter|N|From Holt Thunderhorn.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|52.49,54.52|Z|TrueshotLodge|C|Hunter|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|52.49,54.52|Z|TrueshotLodge|C|Hunter|N|To Holt Thunderhorn.|
 
-T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|64,49.4|Z|The Guardian's Library@MageClassShrine|C|Mage|N|To Edirah back in your order hall.|
+T Delivering Lost Knowledge|QID|47070^47072^47073^47074^47076^47078^47079|M|64,49.4|Z|The Guardian's Library@MageClassShrine|C|Mage|N|To Edirah back in your order hall.|
 A Using Lost Knowledge|QID|46940|M|64,49.4|Z|The Guardian's Library@MageClassShrine|C|Mage|N|From Edirah.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|64,49.4|Z|The Guardian's Library@MageClassShrine|C|Mage|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|64,49.4|Z|The Guardian's Library@MageClassShrine|C|Mage|N|To Edirah.|
@@ -322,22 +327,22 @@ A Using Lost Knowledge|QID|46940|M|59.86,28.11|Z|NetherlightTemple/1|C|Priest|N|
 C Using Lost Knowledge|QID|46940|M|59.86,28.11|Z|NetherlightTemple/1|C|Priest|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|59.86,28.11|Z|NetherlightTemple/1|C|Priest|N|To Juvess the Duskwhisperer.|
 
-T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|37.85,70.06|Z|The Hall of Shadows@Dalaran70|C|Rogue|N|To Filius Sparkstache back in your order hall.|
+T Delivering Lost Knowledge|QID|47070^47072^47073^47074^47076^47078^47079|M|37.85,70.06|Z|The Hall of Shadows@Dalaran70|C|Rogue|N|To Filius Sparkstache back in your order hall.|
 A Using Lost Knowledge|QID|46940|M|37.85,70.06|Z|The Hall of Shadows@Dalaran70|C|Rogue|N|From Filius Sparkstache.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|37.85,70.06|Z|The Hall of Shadows@Dalaran70|C|Rogue|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|37.85,70.06|Z|The Hall of Shadows@Dalaran70|C|Rogue|N|To Filius Sparkstache.|
 
-T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|32.4,49.4|Z|MaelstromShaman|C|Shaman|N|To Gorma Windspeaker back in your order hall.|
+T Delivering Lost Knowledge|QID|47070^47072^47073^47074^47076^47078^47079|M|32.4,49.4|Z|MaelstromShaman|C|Shaman|N|To Gorma Windspeaker back in your order hall.|
 A Using Lost Knowledge|QID|46940|M|32.4,49.4|Z|MaelstromShaman|C|Shaman|N|From Gorma Windspeaker.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|32.4,49.4|Z|MaelstromShaman|C|Shaman|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|32.4,49.4|Z|MaelstromShaman|C|Shaman|N|To Gorma Windspeaker.|
 
-T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|57,40|Z|WarlockClassShrine|C|Warlock|N|To Mile Raithebrone back in your order hall.|
+T Delivering Lost Knowledge|QID|47070^47072^47073^47074^47076^47078^47079|M|57,40|Z|WarlockClassShrine|C|Warlock|N|To Mile Raithebrone back in your order hall.|
 A Using Lost Knowledge|QID|46940|M|57,40|Z|WarlockClassShrine|C|Warlock|N|From Mile Raithebrone.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|57,40|Z|WarlockClassShrine|C|Warlock|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|57,40|Z|WarlockClassShrine|C|Warlock|N|To Mile Raithebrone.|
 
-T Delivering Lost Knowledge|QID|47070;47072;47073;47074;47076;47078;47079|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|Warrior|N|To Fjornson Stonecarver back in your order hall.|
+T Delivering Lost Knowledge|QID|47070^47072^47073^47074^47076^47078^47079|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|Warrior|N|To Fjornson Stonecarver back in your order hall.|
 A Using Lost Knowledge|QID|46940|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|Warrior|N|From Fjornson Stonecarver.|PRE|47075|
 C Using Lost Knowledge|QID|46940|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|Warrior|NC|N|Start a Research Work Order|
 T Using Lost Knowledge|QID|46940|M|45.13,28.18|Z|ValhallasWarriorOrderHome|C|Warrior|N|To Fjornson Stonecarver.|
@@ -359,15 +364,15 @@ T Away From Prying Eyes|QID|44782|M|22.08,38.99|Z|Dalaran@Dalaran70|N|To Archmag
 A In Dire Need|QID|44821|M|22.08,38.99|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|44782|
 C In Dire Need|QID|44821|M|22.08,38.99|Z|Dalaran@Dalaran70|NC|N|Listen to the Council's Plea.|
 T In Dire Need|QID|44821|M|22.26,39.65|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
-A Next Step|QID|45412;46314;47022;47023;47024;47025;44914;47046;47043;47048;47047;45482;47049;47050;47051;47052;46078;47003;47004;47005;47006;45560;47018;47019;47020;45123;47055;47056;47057;47058;47059;45182;47037;47039;47041;47042|M|22.47,40.53|Z|Dalaran@Dalaran70|N|The questgiver and quest you receive will vary based on your spec type.  All tanks have one type, all healers (except Disc Priests who are apparently DPS) have one chain and DPS are split among the remaining 5 quest chains.|PRE|44821|
+A Next Step|QID|45412^46314^47022^47023^47024^47025^44914^47046^47043^47048^47047^45482^47049^47050^47051^47052^46078^47003^47004^47005^47006^45560^47018^47019^47020^45123^47055^47056^47057^47058^47059^45182^47037^47039^47041^47042|M|22.47,40.53|Z|Dalaran@Dalaran70|N|The questgiver and quest you receive will vary based on your spec type.  All tanks have one type, all healers (except Disc Priests who are apparently DPS) have one chain and DPS are split among the remaining 5 quest chains.|PRE|44821|
 
 ;The Thieving Apprentice|QID|44914;47046;47043;47048;47047|
-P Stormwind|QID|44914;47046;47043;47048;47047|M|39.60,63.16|Z|Dalaran@Dalaran70|N|Portal to Stormwind.|ACTIVE|44914;47046;47043;47048;47047|FACTION|ALLIANCE|
-P Mt Hyjal|QID|44914;47046;47043;47048;47047|M|76.17,18.67|Z|Stormwind City|N|Portal to Mt Hyjal.|ACTIVE|44914;47046;47043;47048;47047|FACTION|ALLIANCE|
-P Orgrimmar|QID|44914;47046;47043;47048;47047|M|55.29,24.00|Z|Orgrimmar|N|Portal to Orgrimmar.|ACTIVE|44914;47046;47043;47048;47047|FACTION|HORDE|
-C The Thieving Apprentice|QID|44914;47046;47043;47048;47047|M|25.01,38.52|Z|Azshara|NC|N|Fly over and investigate Xylem's tower.|
-T The Thieving Apprentice|QID|44914;47046;47043;47048;47047|M|25.01,38.52|Z|Azshara|N|To Joanna.|
-A Professionally Good Looking|QID|44915|M|25.01,38.52|Z|Azshara|N|From Joanna.|PRE|44914+47046+47043+47048+47047|
+P Stormwind|QID|44914^47046^47043^47048^47047|M|39.60,63.16|Z|Dalaran@Dalaran70|N|Portal to Stormwind.|ACTIVE|44914^47046^47043^47048^47047|FACTION|ALLIANCE|
+P Mt Hyjal|QID|44914^47046^47043^47048^47047|M|76.17,18.67|Z|Stormwind City|N|Portal to Mt Hyjal.|ACTIVE|44914^47046^47043^47048^47047|FACTION|ALLIANCE|
+P Orgrimmar|QID|44914^47046^47043^47048^47047|M|55.29,24.00|Z|Orgrimmar|N|Portal to Orgrimmar.|ACTIVE|44914^47046^47043^47048^47047|FACTION|HORDE|
+C The Thieving Apprentice|QID|44914^47046^47043^47048^47047|M|25.01,38.52|Z|Azshara|NC|N|Fly over and investigate Xylem's tower.|
+T The Thieving Apprentice|QID|44914^47046^47043^47048^47047|M|25.01,38.52|Z|Azshara|N|To Joanna.|
+A Professionally Good Looking|QID|44915|M|25.01,38.52|Z|Azshara|N|From Joanna.|PRE|44914^47046^47043^47048^47047|
 C Professionally Good Looking|QID|44915|M|45.17,18.42|Z|Azshara|QO|3|CHAT|N|Challenge Lobos to obtain the 'Fanciful Hat'.|
 C Professionally Good Looking|QID|44915|M|62.43,16.04|Z|Azshara|QO|2|CHAT|N|Challenge Raethas Dawnseer to obtain the Well-Tailored Robes.|
 C Professionally Good Looking|QID|44915|M|80.85,32.06|Z|Azshara|QO|1|CHAT|N|Challenge Phloem to obtain the Magnificant Mantle.|
@@ -382,9 +387,9 @@ A A Portal Away|QID|46177|M|25.22,37.90|Z|Azshara|N|From Joanna.|PRE|44924|
 P Dalaran|QID|46177|M|25.22,37.90|Z|Azshara|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|46177|
 T A Portal Away|QID|46177|M|28.62,50.01|Z|Dalaran@Dalaran70|N|To Archmage Kalec.|
 ;A Aid of the Illidari|QID|45412;46314;47022;47023;47024;47025|M|22.47,40.53|Z|Dalaran@Dalaran70|N|From Archmage Ansirem Runeweaver.|
-C Aid of the Illidari|QID|45412;46314;47022;47023;47024;47025|M|47.81,29.79|Z|Dalaran@Dalaran70|N|Kor'vas Bloodthorn is just outside the North Bank.|
-T Aid of the Illidari|QID|45412;46314;47022;47023;47024;47025|M|52.06,19.56|Z|Dalaran@Dalaran70|N|To Kor'vas Bloodthorn.|
-A Gathering Information|QID|45413|M|52.06,19.56|Z|Dalaran@Dalaran70|N|From Kor'vas Bloodthorn.|PRE|45412+46314+47022+47023+47024+47025|
+C Aid of the Illidari|QID|45412^46314^47022^47023^47024^47025|M|47.81,29.79|Z|Dalaran@Dalaran70|N|Kor'vas Bloodthorn is just outside the North Bank.|
+T Aid of the Illidari|QID|45412^46314^47022^47023^47024^47025|M|52.06,19.56|Z|Dalaran@Dalaran70|N|To Kor'vas Bloodthorn.|
+A Gathering Information|QID|45413|M|52.06,19.56|Z|Dalaran@Dalaran70|N|From Kor'vas Bloodthorn.|PRE|45412^46314^47022^47023^47024^47025|
 C Gathering Information|QID|45413|M|53.08,15.36|Z|Dalaran@Dalaran70|CHAT|QO|1|N|Bank employees investigated, don't waste your gold on Glutonia.|
 C Gathering Information|QID|45413|M|53.73,20.39|Z|Dalaran@Dalaran70|CHAT|QO|2|N|Randal Goldsprocket is able to identify the stolen item.|
 T Gathering Information|QID|45413|M|52.05,19.60|Z|Dalaran@Dalaran70|N|To Kor'vas Bloodthorn.|
@@ -404,12 +409,12 @@ P Dalaran|QID|45843|M|44.73,63.23|Z|Hellfire Peninsula|N|Return to Dalaran and r
 T Dark Omens|QID|45843|M|28.35,48.93|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
 
 ;Fate of the Tideskorn|QID|45482;47049;47050;47051;47052
-F Crimson Thicket|QID|45482;47049;47050;47051;47052|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45482;47049;47050;47051;47052|
-C Fate of the Tideskorn|QID|45482;47049;47050;47051;47052|QO|1|M|64.4,50.8|Z|Suramar|CHAT|N|Go to the entrance to Jandvik and talk to Huntsman Slodi.|
-C Fate of the Tideskorn|QID|45482;47049;47050;47051;47052|QO|2|M|70.5,50.0|Z|Suramar|CHAT|N|Go to indicated house, near the center of town to find Priestess Brynna.|
-C Fate of the Tideskorn|QID|45482;47049;47050;47051;47052|QO|3|M|71.5,49.6|Z|Suramar|CHAT|N|Go to top of the tower to talk to Yngvild the Watcher.|
-T Fate of the Tideskorn|QID|45482;47049;47050;47051;47052|M|76.3,50.1|Z|Suramar|N|To Sigryn.|
-A The Reluctant Queen|QID|45486|M|76.3,50.1|Z|Suramar|N|From Sigryn.|PRE|45482+47049+47050+47051+47052|
+F Crimson Thicket|QID|45482^47049^47050^47051^47052|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45482^47049^47050^47051^47052|
+C Fate of the Tideskorn|QID|45482^47049^47050^47051^47052|QO|1|M|64.4,50.8|Z|Suramar|CHAT|N|Go to the entrance to Jandvik and talk to Huntsman Slodi.|
+C Fate of the Tideskorn|QID|45482^47049^47050^47051^47052|QO|2|M|70.5,50.0|Z|Suramar|CHAT|N|Go to indicated house, near the center of town to find Priestess Brynna.|
+C Fate of the Tideskorn|QID|45482^47049^47050^47051^47052|QO|3|M|71.5,49.6|Z|Suramar|CHAT|N|Go to top of the tower to talk to Yngvild the Watcher.|
+T Fate of the Tideskorn|QID|45482^47049^47050^47051^47052|M|76.3,50.1|Z|Suramar|N|To Sigryn.|
+A The Reluctant Queen|QID|45486|M|76.3,50.1|Z|Suramar|N|From Sigryn.|PRE|45482^47049^47050^47051^47052|
 U Flight Master's Whistle|QID|45486|M|76.3,50.1|Z|Suramar|N|Whistle up a ride to the nearest flightmaster.|ACTIVE|45486|
 F Valdisdal|QID|45486|M|64.23,41.98|Z|Suramar|N|At Ancient Cloudwing.|ACTIVE|45486|
 C The Reluctant Queen|QID|45486|QO|1|M|59.6,50.8|Z|Stormheim|CHAT|N|Tell Sigryn you are ready.|
@@ -434,9 +439,9 @@ P Dalaran|QID|46340|M|65,68|Z|Stormheim|N|Return to Dalaran and report your find
 T The Gates are Closed|QID|46340|M|22.47,40.53|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 
 ;Bradensbrook Investigation|QID|46078;47003;47004;47005;47006
-F Bradensbrook|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|46078;47003;47004;47005;47006|
-T Bradensbrook Investigation|QID|46078;47003;47004;47005;47006|M|42.4,59|Z|Val'sharah|N|To Mayor Heathrow.|
-A Aid on the Front Lines|QID|46079|M|42.4,59|Z|Val'sharah|N|From Mayor Heathrow.|PRE|46078+47003+47004+47005+47006|
+F Bradensbrook|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|46078^47003^47004^47005^47006|
+T Bradensbrook Investigation|QID|46078^47003^47004^47005^47006|M|42.4,59|Z|Val'sharah|N|To Mayor Heathrow.|
+A Aid on the Front Lines|QID|46079|M|42.4,59|Z|Val'sharah|N|From Mayor Heathrow.|PRE|46078^47003^47004^47005^47006|
 C Aid on the Front Lines|QID|46079|M|42.4,59|Z|Val'sharah|NC|N|Use your healing abilities to heal and/or cure poison to the defenders lying on the ground just outside of Bradensbrook.|
 T Aid on the Front Lines|QID|46079|M|42.4,59|Z|Val'sharah|N|To Mayor Heathrow.|
 A Shadowsong's Return|QID|46082|M|42.4,59|Z|Val'sharah|N|From Mayor Heathrow.|PRE|46079|
@@ -450,7 +455,7 @@ C Cutting off the Heads|QID|46106|M|39.2,61.4|Z|Val'sharah|QO|3|N|Kill Tael'thos
 C Quieting the Spirits|QID|46080|M|39.2,61.4|Z|Val'sharah|US|N|Finish killing the risen spirits.|
 T Cutting off the Heads|QID|46106|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod Shadowsong, who is following your around.|
 T Quieting the Spirits|QID|46080|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
-A Source of the Corruption|QID|46107|M|39.2,61.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46080;46106|
+A Source of the Corruption|QID|46107|M|39.2,61.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46080 & 46106|
 C Source of the Corruption|QID|46107|QO|1|N|Travel to Hero's Rest (outside of Blackrook Hold).|
 C Source of the Corruption|QID|46107|QO|2|N|Jarod tries to reason with them. Kill the ones that can't be released.|
 C Source of the Corruption|QID|46107|QO|3|M|38.8,51.4|Z|Val'sharah|N|Kill Lorgos.|T|Lorgos the Resurrector|
@@ -460,9 +465,9 @@ P Dalaran|QID|46200|M|38.8,51.4|Z|Val'sharah|N|Return to Dalaran and report your
 T The Matter Resolved...For Now...|QID|46200|M|22.47,40.53|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 
 ;Rumblings Near Feltotem|QID|45560;47018;47019;47020
-F Witchwood|QID|45560;47018;47019;470209|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45560;47018;47019;47020|
-T Rumblings Near Feltotem|QID|45560;47018;47019;47020|M|35.73,23.99|Z|Highmountain|N|Run down the path to find Navarrogg on the Misty Coast.|
-A The Burning Birds|QID|45564|M|35.73,23.99|Z|Highmountain|N|From Navarrogg.|PRE|45560+47018+47019+47020|
+F Witchwood|QID|45560^47018^47019^470209|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45560^47018^47019^47020|
+T Rumblings Near Feltotem|QID|45560^47018^47019^47020|M|35.73,23.99|Z|Highmountain|N|Run down the path to find Navarrogg on the Misty Coast.|
+A The Burning Birds|QID|45564|M|35.73,23.99|Z|Highmountain|N|From Navarrogg.|PRE|45560^47018^47019^47020|
 C The Burning Birds|QID|45564|QO|1|M|33.40,23.32|Z|Highmountain|N|Click on the corpses to remove the fel infusing totems. Move quickly away to avoid the debuff. If you are squishy and get hit with the debuff, heal, eat, bandage, something... quickly.|
 T The Burning Birds|QID|45564|M|31.31,25.15|Z|Highmountain|N|To Navarrogg.|
 A The Tainted Marsh|QID|45726|M|31.31,25.15|Z|Highmountain|N|From Navarrogg.|PRE|45564|
@@ -487,12 +492,12 @@ P Dalaran|QID|45841|M|31.4,25|Z|Highmountain|N|Return to Dalaran and report your
 T Triumphant Report|QID|45841|M|28.8,48.8|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
 
 ;Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059
-C Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059|QO|1|M|41.27,37.02|CHAT|N|Ask Professor Pallin if he has seen Levia.|
-C Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059|QO|2|M|49.45,73.10|CHAT|N|Ask Icks if he has seen Levia.|
-C Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059|QO|3|M|49.78,40.15|CHAT|N|Ask Amasi Azuregaze if she has seen Levia.|
-C Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059|QO|4|M|46.34,40.16|NC|N|Go upstairs and investigate her stuff. A skirmish will occur when you exit Levia's room.|
-T Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059|M|28.46,48.92|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
-A Bargaining with Shadows|QID|46327|M|28.46,48.92|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|45123+47055+47056+47057+47058+47059|
+C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|1|M|41.27,37.02|CHAT|N|Ask Professor Pallin if he has seen Levia.|
+C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|2|M|49.45,73.10|CHAT|N|Ask Icks if he has seen Levia.|
+C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|3|M|49.78,40.15|CHAT|N|Ask Amasi Azuregaze if she has seen Levia.|
+C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|4|M|46.34,40.16|NC|N|Go upstairs and investigate her stuff. A skirmish will occur when you exit Levia's room.|
+T Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|M|28.46,48.92|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
+A Bargaining with Shadows|QID|46327|M|28.46,48.92|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|45123^47055^47056^47057^47058^47059|
 R Chamber of the Guardian|QID|46327|M|49.04,48.03|Z|Dalaran@Dalaran70|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|46327|
 T Bargaining with Shadows|QID|46327|M|56.59,37.28;54.62,59.63|CS|Z|Aegwynn's Gallery@Dalaran70|N|Go down the first set of stairs and then to your left to find Ritssyn and turn this quest in.|
 A The Acolyte Imperiled|QID|45916|M|54.62,59.63|Z|Aegwynn's Gallery@Dalaran70|N|From Rittssyn Flamescowl.|PRE|46327|
@@ -514,8 +519,8 @@ P Dalaran|QID|45127|M|25.67,57.74|Z|Azsuna|N|Return to Dalaran and report your f
 T Fel-Crossed Lovers|QID|45127|M|28.46,48.92|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
 
 ;Twisted Twin|QID|45182;47037;47039;47041;47042|
-T Twisted Twin|QID|45182;47037;47039;47041;47042|M|49.40,39.77|Z|Dalaran@Dalaran70|N|To Karam Magespear.|
-A Message from the Shadows|QID|45185|M|49.40,39.77|Z|Dalaran@Dalaran70|N|From Karam Magespear.|PRE|45182+47037+47039+47041+47042|
+T Twisted Twin|QID|45182^47037^47039^47041^47042|M|49.40,39.77|Z|Dalaran@Dalaran70|N|To Karam Magespear.|
+A Message from the Shadows|QID|45185|M|49.40,39.77|Z|Dalaran@Dalaran70|N|From Karam Magespear.|PRE|45182^47037^47039^47041^47042|
 C Message from the Shadows|QID|45185|M|47.06,39.02|Z|Dalaran@Dalaran70|NC|N|Go upstairs and investigate Raest's stuff.|
 T Message from the Shadows|QID|45185|M|49.40,39.77|Z|Dalaran@Dalaran70|N|To Karam Magespear.|
 A Secrets in the Underbelly|QID|45187|M|49.40,39.77|Z|Dalaran@Dalaran70|N|From Karam Magespear.|PRE|45185|
@@ -534,9 +539,9 @@ A One Step Behind|QID|45193|M|59.81,27.45|N|From Karam Magespear.|PRE|45192|
 P Dalaran|QID|45193|M|59.7,27.4|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|45193|
 T One Step Behind|QID|45193|M|28.48,48.30|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 
-A A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|28.35,48.93|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|45843+46177+46340+46200+45841+45127+45193|
-C A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|30.43,48.95|Z|Dalaran@Dalaran70|NC|N|Stand in the center of the rug and use your extra action button to receive the Council's gift.|
-T A Gift From the Six|QID|45842;45861;45862;45863;45864;45865;45866|M|28.45,48.93|Z|Dalaran@Dalaran70|N|To Archmage Modera. After turning in the quest return to your order hall and spend your artifact power in your freshly empowered weapon.|
+A A Gift From the Six|QID|45842^45861^45862^45863^45864^45865^45866|M|28.35,48.93|Z|Dalaran@Dalaran70|N|From Archmage Modera.|PRE|45843^46177^46340^46200^45841^45127^45193|
+C A Gift From the Six|QID|45842^45861^45862^45863^45864^45865^45866|M|30.43,48.95|Z|Dalaran@Dalaran70|NC|N|Stand in the center of the rug and use your extra action button to receive the Council's gift.|
+T A Gift From the Six|QID|45842^45861^45862^45863^45864^45865^45866|M|28.45,48.93|Z|Dalaran@Dalaran70|N|To Archmage Modera. After turning in the quest return to your order hall and spend your artifact power in your freshly empowered weapon.|
 
 F Deliverance Point|QID|47000|N|Now that you have your artifact knowledge research restarted, you can now upgrade your artifact (assuming you have at least 35 ranks).|
 N Finish WQs|QID|99999|N|Look at the map and run around to the various world quests. The guide will show the quest when you are in the area for it (more accurately when it is in your quest log). Check this step off manually.|

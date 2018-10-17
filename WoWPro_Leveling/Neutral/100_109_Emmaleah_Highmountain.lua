@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3678
+-- Date: 2018-10-17 02:30
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3678/revisions/29854/view
 -- Date: 2018-09-28 21:19
 -- Who: elidion
 -- Log:  f steps.
@@ -233,7 +238,7 @@ C Poisoned Crops|QID|39272|M|43.60,58.81|NC|US|N|Finish up any destroying idols.
 T Poisoned Crops|QID|39272|M|43.69,59.91|N|To Farmer Maya.|
 T Infestation|QID|39490|M|43.69,59.91|N|To Farmer Maya.|
 T Ormgul the Pestilent|QID|39491|M|43.64,59.92|N|To Jale Rivermane.|
-A The Flow of the River|QID|39496|M|43.64,59.92|N|From Jale Rivermane.|PRE|39272+39490+39491|
+A The Flow of the River|QID|39496|M|43.64,59.92|N|From Jale Rivermane.|PRE|39272^39490^39491|
 
 T The Flow of the River|QID|39496|M|42.10,59.34;41.13,61.57|CS|N|To Angler Creel.|
 A Defend the Riverlands-Bonus Objective|QID|39274|PRE|39496|M|41.13,61.57|N|Auto Accepted when you enter the area.|LVL|-109|RANK|2|
@@ -243,7 +248,7 @@ A Fish Out of Water|QID|39614|M|41.13,61.57|N|From Angler Creel.|PRE|39496|
 A Spray and Prey|QID|39277|M|41.18,61.48|N|From Jale Rivermane.|PRE|39496|
 C Fish Out of Water|QID|39614|M|39.96,62.63|S|NC|N|Kick the carp towards the river.|
 C Spray and Prey|QID|39277|M|38.39,64.26|S|NC|U|127988|N|Use the sprayer on them before they die.|
-A Moozy's Sojourn|QID|39323|PRE|39491;39490;39272|M|40.25,64.05|N|From Rordan Waterwise.|RANK|2|
+A Moozy's Sojourn|QID|39323|PRE|39491 & 39490 & 39272|M|40.25,64.05|N|From Rordan Waterwise.|RANK|2|
 C Trapped Tauren|QID|39316|M|42.82,63.16|NC|N|Click on the gate to release the tauren.|
 T Moozy's Sojourn|QID|39323|M|37.46,64.29|N|To Moozy.|RANK|2|
 A Moozy's Adventure|QID|39572|PRE|39323|M|37.46,64.29|N|From Moozy.|RANK|2|
@@ -255,7 +260,7 @@ t Defend the Riverlands-Bonus Objective|QID|39274|M|39.38,64.13|N|Auto Turned in
 T Spray and Prey|QID|39277|M|41.17,61.48|N|To Jale Rivermane.|
 T Trapped Tauren|QID|39316|M|41.13,61.56|N|To Angler Creel.|
 T Fish Out of Water|QID|39614|M|41.13,61.56|N|To Angler Creel.|
-A Lifespring Cavern|QID|39661|M|41.18,61.49|N|From Jale Rivermane.|PRE|39277+39316+39614|
+A Lifespring Cavern|QID|39661|M|41.18,61.49|N|From Jale Rivermane.|PRE|39277^39316^39614|
 T Moozy's Adventure|QID|39572|M|40.00,57.93|N|To Sella Waterwise.|RANK|2|
 $ Treasure Chest|QID|39812|M|39.53,57.44|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Flamescale|QID|39963|QO|1|M|40.97,57.72|T|Flamescale|N|Click on the abandoned fishing pole to summon up Flamescale, a rare mob you can kill for treasure and resources.|ITEM|131773|RANK|2|RARE|
@@ -268,7 +273,7 @@ C Balance of Elements|QID|39488|M|49.08,48.14|Z|Highmountain/21|NC|N|Pick up the
 C Invading Spelunkers|QID|39489|M|49.08,48.14|Z|Highmountain/21|US|N|Finish killing Drogbar or Earth Furies.|
 T Invading Spelunkers|QID|39489|M|49.08,48.14|Z|Highmountain/21|N|To Jale Rivermane who is following you around.|
 T Balance of Elements|QID|39488|M|49.08,48.14|Z|Highmountain/21|N|To Jale Rivermane.|
-A Crystal Fury|QID|39487|M|49.08,48.14|Z|Highmountain/21|N|From Jale Rivermane.|PRE|39488+39489|
+A Crystal Fury|QID|39487|M|49.08,48.14|Z|Highmountain/21|N|From Jale Rivermane.|PRE|39488^39489|
 C Crystal Fury|QID|39487|M|43.84,27.29|Z|Highmountain/21|T|Gelmogg|N|Gelmogg slain|
 T Crystal Fury|QID|39487|M|43.84,27.29|Z|Highmountain/21|N|To Jale Rivermane.|
 A High Water|QID|39498|M|43.84,27.29|Z|Highmountain/21|N|From Jale Rivermane.|PRE|39487|
@@ -432,7 +437,7 @@ T Lion Stalkin'|QID|39123|M|40.03,52.25|N|To Hemet Nesingwary.|RANK|2|
 T A Hunter at Heart|QID|40216|M|40.04,52.25|N|To Hemet Nesingwary.|RANK|2|
 T Moose Shootin'|QID|39124|M|40.03,52.25|N|To Hemet Nesingwary.|RANK|2|
 T Bear Huntin'|QID|39392|M|40.03,52.25|N|To Hemet Nesingwary.|RANK|2|
-A Scout It Out|QID|40228|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|2|PRE|40216+39392|
+A Scout It Out|QID|40228|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|2|PRE|40216^39392|
 A Moose on the Loose|QID|39178|M|40.00,52.30|N|From Laeni Silvershot.|RANK|2|PRE|39124|
 A I'm Not Lion!|QID|39867|M|40.02,52.36|N|From Ellias.|RANK|2|PRE|39123|
 C I'm Not Lion!|QID|39867|M|37.50,49.12|N|Kill and loot the mountain lion.|T|Rashar|RANK|2|
@@ -449,7 +454,7 @@ T Moose on the Loose|QID|39178|M|40.00,52.31|N|To Laeni Silvershot.|RANK|2|
 T I'm Not Lion!|QID|39867|M|40.02,52.37|N|To Ellias.|RANK|2|
 T Scout It Out|QID|40228|M|40.04,52.25|N|To Hemet Nesingwary.|RANK|2|
 
-A That Guy in the Costume|QID|40244|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|3|PRE|40228|LEAD|40045;40047;40049|
+A That Guy in the Costume|QID|40244|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|3|PRE|40228|LEAD|40045^40047^40049|
 A Procuring a Prototype|QID|39386|M|40.04,52.25|N|From Hemet Nesingwary.|RANK|3|PRE|40228|LEAD|39386|
 C That Guy in the Costume|QID|40244|M|40.22,52.69|CHAT|N|Ask Tamara for a ride.|RANK|3|
 f Shipwreck Cove|ACTIVE|40244|M|41.91,10.40|N|At Steven Nelson.|RANK|3|
@@ -472,8 +477,8 @@ t Shipwreck Cove-Bonus Objective|QID|40050|M|40.30,12.72|N|Auto Turned in when t
 T Nature vs. Nurture|QID|40045|M|42.73,10.95|N|To King Mrgl-Mrgl.|RANK|3|
 T I'll Huff, I'll Puff...|QID|40047|M|42.73,10.95|N|To King Mrgl-Mrgl.|RANK|3|
 T Slime Time|QID|40049|M|42.73,10.95|N|To King Mrgl-Mrgl.|RANK|3|
-A Murlocs: The Next Generation|QID|40102|M|42.73,10.95|N|From King Mrgl-Mrgl.|RANK|3|PRE|40045+40047+40049|
-A Oh, the Clawdacity!|QID|40230|M|42.73,10.95|N|From King Mrgl-Mrgl.|RANK|3|PRE|40045+40047+40049|
+A Murlocs: The Next Generation|QID|40102|M|42.73,10.95|N|From King Mrgl-Mrgl.|RANK|3|PRE|40045^40047^40049|
+A Oh, the Clawdacity!|QID|40230|M|42.73,10.95|N|From King Mrgl-Mrgl.|RANK|3|PRE|40045^40047^40049|
 C Murlocs: The Next Generation|QID|40102|M|42.77,10.91|QO|1|NC|N|Click on Murky's Egg.|RANK|3|
 C Murlocs: The Next Generation|QID|40102|M|48.86,13.24|QO|2|N|If you go out of the area bounded on your minimap, the bond terminates.  Its ok, you can finish the quest without Murky.  You want to finish this before you go in where Clawdayshus is.|RANK|3|
 C Oh, the Clawdacity!|QID|40230|M|49.52,15.58|N|Kill Clawdayshus.|T|Clawdayshus|RANK|3|
@@ -489,7 +494,7 @@ C The Soulkeeper's Fate|QID|39773|M|30.90,62.25|Z|Highmountain/16|NC|N|Find Soul
 C Shiny, But Deadly|QID|39764|M|51.49,15.02|Z|Highmountain/16|US|N|Kill kobolds to sometimes collect Soul Chambers.|RANK|2|
 T Shiny, But Deadly|QID|39764|M|30.65,62.80|Z|Highmountain/16|N|To Apprentice Rosalyn.|RANK|2|
 T The Soulkeeper's Fate|QID|39773|M|30.65,62.80|Z|Highmountain/16|N|To Apprentice Rosalyn.|RANK|2|
-A Demon Detainment|QID|39774|M|30.65,62.80|Z|Highmountain/16|N|From Apprentice Rosalyn.|RANK|2|PRE|39764+39773|
+A Demon Detainment|QID|39774|M|30.65,62.80|Z|Highmountain/16|N|From Apprentice Rosalyn.|RANK|2|PRE|39764^39773|
 C Demon Detainment|QID|39774|M|42.26,41.24|Z|Highmountain/16|QO|3|T|Xorias|N|Xorias detained.|RANK|2|
 C Demon Detainment|QID|39774|M|55.69,13.48|Z|Highmountain/16|QO|1|T|Ezerak|N|Ezerak detained.|RANK|2|
 $ Treasure Chest|QID|40494|M|60.81,25.14|Z|Highmountain/16|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -517,7 +522,7 @@ T I Have a Bad Feeling About This|QID|39873|M|39.00,37.32|N|To Navarrogg's now e
 T Witch of the Wood|QID|39372|M|39.41,36.96|N|To Oakin Ironbull.|
 T Hags of a Feather|QID|39373|M|39.41,36.96|N|To Oakin Ironbull.|
 
-A An Audience with Torok|QID|39374|M|39.41,36.96|N|From Oakin Ironbull.|PRE|39372+39373|
+A An Audience with Torok|QID|39374|M|39.41,36.96|N|From Oakin Ironbull.|PRE|39372^39373|
 T An Audience with Torok|QID|39374|M|39.18,34.53|N|To Oakin Ironbull.|
 A Cave of the Blood Trial|QID|39455|M|39.18,34.53|N|From Oakin Ironbull.|PRE|39374|
 $ Small Treasure Chest|QID|40477|M|37.35,33.80|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -548,7 +553,7 @@ C Stonedark Crystal|QID|39425|M|44.31,27.89|US|N|If it hasnt dropped, kill a few
 T Pet Rocks|QID|39391|M|45.21,32.51|N|To Navarrogg.|
 T Stonedark Crystal|QID|39425|M|45.21,32.51|N|To Navarrogg.|
 T They Will Pay With Blood|QID|39588|M|45.21,32.51|N|To Navarrogg.|
-A Blood Debt|QID|39426|M|45.21,32.51|N|From Navarrogg.|PRE|39391+39425+39588|
+A Blood Debt|QID|39426|M|45.21,32.51|N|From Navarrogg.|PRE|39391^39425^39588|
 A Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|N|Auto-accepted as you enter the area.|LVL|-109|RANK|2|
 C Vengeance for the Stonedark-Bonus Objective|QID|42373|M|47.40,29.29|S|N|Click on weapon racks and kill Feltotems to advance the objective.|RANK|2|
 $ Glimmering Treasure Chest|QID|40482|M|48.05,27.31;46.67,28.11|CS|N|Up the hill. then walk on top of the building/statue and drop down onto the statue's nose to find a tresure chest.  Loot for a bit of resources and treasure.|RANK|3|
@@ -598,7 +603,7 @@ C Fledgling Worm Guts|QID|40069|M|49.12,42.20|US|N|Finish collecting worm guts.|
 $ Small Treasure Chest|QID|40497|M|49.39,38.02;49.85,40.31;50.25,38.63|CS|N|Run up the ramp (just before the bridge where you turn in the quest) for a small treasure chest.  Loot for a bit of treasure and resources.|RANK|2|
 T Tamer Takedown|QID|40071|M|49.45,39.24|N|To Oren Windstrider.|RANK|2|
 T Fledgling Worm Guts|QID|40069|M|49.45,39.24|N|To Oren Windstrider.|RANK|2|
-A Going Down, Going Up|QID|42425|M|49.45,39.24|N|From Oren Windstrider.|PRE|40071+40069|RANK|2|
+A Going Down, Going Up|QID|42425|M|49.45,39.24|N|From Oren Windstrider.|PRE|40071^40069|RANK|2|
 T Eagle Egg Recovery|QID|40070|M|49.45,39.24|N|To Oren Windstrider.|RANK|2|
 C Going Down, Going Up|QID|42425|M|49.39,39.25|NC|N|Click on the rappel point, click on the prized possesion at the bottom.|RANK|2|
 T Going Down, Going Up|QID|42425|M|49.43,39.28|N|To Oren Windstrider.|RANK|2|
@@ -621,7 +626,7 @@ $ The Beastly Boxer|QID|39872|M|55.48,47.21;53.69,51.30|CS|N|Follow this path to
 C Candle to the Grave|QID|39768|M|56.08,46.40|US|N|Go back and finish killing Bluewax Graverobbers|RANK|2|
 T Candle to the Grave|QID|39768|M|54.69,45.01|N|To Oenia Skyhorn.|RANK|2|
 T Wax On, Wax Off|QID|39765|M|54.69,45.01|N|To Oenia Skyhorn.|RANK|2|
-A The Gates of Wax|QID|39769|M|54.69,45.01|N|From Oenia Skyhorn.|PRE|39768+39765|RANK|2|
+A The Gates of Wax|QID|39769|M|54.69,45.01|N|From Oenia Skyhorn.|PRE|39768^39765|RANK|2|
 T The Gates of Wax|QID|39769|M|55.09,44.20;55.27,41.79|CS|N|To Bluewax Gatekeeper inside Candle Rock.|RANK|2|
 A Candle of Command|QID|40339|M|55.27,41.79|N|From Bluewax Gatekeeper.|PRE|39769|RANK|2|
 C Candle of Command|QID|40339|M|55.30,42.51|QO|1|NC|N|Sit on the Throne of Ordering Around.|RANK|2|
@@ -677,7 +682,7 @@ $ Treasure Chest|QID|39466|M|49.64,37.74|N|Loot for a bit of resources and treas
 C Assaulting the Haglands|QID|39429|M|49.64,35.99|US|N|Finish killing any needed.|
 T The Three|QID|39321|M|49.21,36.61|N|To Lasan Skyhorn.|
 T Assaulting the Haglands|QID|39429|M|49.21,36.61|N|To Lasan Skyhorn.|
-A The Witchqueen|QID|39322|M|49.21,36.61|N|From Lasan Skyhorn.|PRE|39321+39429|
+A The Witchqueen|QID|39322|M|49.21,36.61|N|From Lasan Skyhorn.|PRE|39321^39429|
 K Kill the Exiled Shaman|QID|39782|QO|1|M|41.92,41.61|ITEM|129175|T|Tenpack Flametotem|N|Silver - Run down this path to find kill this shaman and adopt a new pet.|RANK|2|RARE|
 U Learn companion pet|ACTIVE|39322|M|41.92,41.61|U|129175|N|Click to add Crispin to your pet journal. (manually close this step.)|RANK|2|
 C The Witchqueen|QID|39322|M|46.36,39.97|T|High Crawliac|N|Kill High Crawliac.|
@@ -693,7 +698,7 @@ C The Skies of Highmountain|QID|39387|M|54.80,63.04|Z|Highmountain/6|QO|2|NC|N|W
 C Unexpected Allies|QID|39456|M|54.80,63.04|Z|Highmountain/6|QO|2|NC|N|Wait/watch the ritual.|
 T The Skies of Highmountain|QID|39387|M|54.81,63.03|Z|Highmountain/6|N|To Mayla Highmountain.|
 T Unexpected Allies|QID|39456|M|54.80,63.04|Z|Highmountain/6|N|To Mayla Hightmountain.|
-A Battle of Snowblind Mesa|QID|38915|M|54.80,63.04|Z|Highmountain/6|N|From Mayla Hightmountain.|PRE|39387+39456|
+A Battle of Snowblind Mesa|QID|38915|M|54.80,63.04|Z|Highmountain/6|N|From Mayla Hightmountain.|PRE|39387^39456|
 T Ceremonial Drums|QID|42622|M|54.86,77.98|Z|Highmountain/6|N|To Torv Dubstomp.|
 R Thunder Totem (Up the elevator)|ACTIVE|38915|M|58.97,87.46|Z|ThunderTotem|CC|N|Take the elevator above for a few more quests. (manually check this step off)|
 
@@ -719,7 +724,7 @@ C Buy Us Time|QID|39777|M|53.12,62.61|US|N|Finish up any needed drogbar.|
 T The Siegebrul|QID|39862|M|53.38,64.12|N|To Navarrogg.|
 T Buy Us Time|QID|39777|M|53.35,64.00|N|To Jale Rivermane.|
 T Battle Worms|QID|39776|M|53.27,64.05|N|To Mayla Highmountain.|
-A Evacuate Snowmane|QID|42088|M|53.27,64.05|N|From Mayla Highmountain.|PRE|39862+39777+39776|
+A Evacuate Snowmane|QID|42088|M|53.27,64.05|N|From Mayla Highmountain.|PRE|39862^39777^39776|
 C Evacuate Snowmane|QID|42088|M|52.00,66.66|QO|1|CHAT|N|Red Skymane evacuated.|
 C Evacuate Snowmane|QID|42088|M|53.32,67.10|QO|2|CHAT|N|Tarvim Daywalker evacuated.|
 C Evacuate Snowmane|QID|42088|M|53.32,69.49|QO|3|CHAT|N|Old Nefu evacuated.|
@@ -752,7 +757,7 @@ C A True Hunter|QID|40000|M|55.56,61.67|US|N|Finsih killing Bonebeak Hawks.|RANK
 C Critter Scatter Shot|QID|39670|M|57.16,60.61|US|N|Finish catching Rabbits.|RANK|2|
 T A True Hunter|QID|40000|M|57.59,56.41|N|To Lorna Stoutfoot.|RANK|2|
 T Critter Scatter Shot|QID|39670|M|57.63,56.60|N|To Razik Gazbolt.|RANK|2|
-A Wolf Pack Attack|QID|39656|M|57.63,56.60|N|From Razik Gazbolt.|RANK|2|PRE|40000+39670|
+A Wolf Pack Attack|QID|39656|M|57.63,56.60|N|From Razik Gazbolt.|RANK|2|PRE|40000^39670|
 C Wolf Pack Attack|QID|39656|M|56.14,55.43|S|U|128651|T|Icefang Packleader|N|Shoot the hand cannon towards a pack of wolves to distract them, then kill the Packleader.|RANK|2|
 $ Optional-Toy|QID|39824|M|55.7,53.2;53.61,51.04|CS|ITEM|131811|U|131927|N|If you want to have this toy, there is one more treasure to pick up. After you get it click on the feather to combine and glide down from the branch. Then head to Thunder Totem. It's hard to explain and you may want to consult the internet for more info. Run/Fly back to Skyhorn village and then follow the arrow from there. The coordinates points to where the path starts leading to the tree that the chest is balanced on. Check this off manually if you don't want to do this. Check the next step off manually if you do.|RANK|2|
 C Wolf Pack Attack|QID|39656|M|56.14,55.43|US|U|128651|T|Icefang Packleader|N|Shoot the hand cannon towards a pack of wolves to distract them, then kill the Packleader.|RANK|2|
@@ -762,8 +767,8 @@ N End of Highmountain|QID|42454|U|140192|N|Return to your Dalaran and then Class
 C Eye of Azshara: The Hammer of Khaz'goroth|QID|42454|M|49.36,47.34|Z|Dalaran!Dalaran!Dungeon|NC|N|Central Dalaran teleport used|
 T Eye of Azshara: The Hammer of Khaz'goroth|QID|42454|M|41.17,52.45|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Hammer of Khaz'goroth" on the wall.|
 A Pressing the Assault|QID|44545|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454|
-A Isle Hopping|QID|44547|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454;44545|
-A Scouring What Remains|QID|44548|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454;44547|
+A Isle Hopping|QID|44547|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454 & 44545|
+A Scouring What Remains|QID|44548|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454 & 44547|
 C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
 C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
 C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the last strike point at your scouting map.|

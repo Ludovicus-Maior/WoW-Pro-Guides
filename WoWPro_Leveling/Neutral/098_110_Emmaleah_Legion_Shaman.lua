@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3676
+-- Date: 2018-10-17 02:29
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3676/revisions/29835/view
 -- Date: 2018-09-25 05:00
 -- Who: elidion
 -- Log: Accuracy Pass with 100 Shaman
@@ -53,14 +58,14 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Shaman")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
+A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
-A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
+A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 ;both
-C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
-T In the Blink of an Eye|QID|44663;44184|M|57.53,45.85|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
+C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+T In the Blink of an Eye|QID|44663^44184|M|57.53,45.85|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
 
 A A Ring Unbroken|QID|39746|M|47.39,33.35|Z|Dalaran!Dalaran!Dungeon|N|From Thrall.|
 C A Ring Unbroken|QID|39746|NC|QO|1|M|73.89,43.57|Z|Dalaran!Dalaran!Dungeon|N|Fly to the Maelstrom with Mylra|
@@ -75,7 +80,7 @@ T A Ring Unbroken|QID|39746|M|36.21,74.92|Z|MaelstromShaman|N|To Thrall.|
 A The Elements Call...|QID|41335|M|36.21,74.92|Z|MaelstromShaman|N|From Thrall.|PRE|39746|
 C The Elements Call...|QID|41335|QO|1|M|36.21,74.92|NC|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
 T The Elements Call...|QID|41335|M|36.21,74.92|N|To Thrall.|
-A Artifact Specific Quest|QID|43334;42931;43644|M|34.06,74.36|N|From one of the Shamans in this area.|PRE|41335|
+A Artifact Specific Quest|QID|43334^42931^43644|M|34.06,74.36|N|From one of the Shamans in this area.|PRE|41335|
 
 ;ELEMENTAL
 ;A The Coming Storm|QID|43334|M|34.06,74.36|N|From Rehgar Earthfury.|PRE|41335|
@@ -125,7 +130,7 @@ C Clutch Play|QID|42936|QO|2|M|31.28,20.76|Z|Deepholm|NC|N|When you have Guardia
 T The Troggs that Fel to Earth|QID|42933|M|56.35,12.22|Z|Deepholm|N|To Therazane.|
 T Stone Drake Rescue|QID|42935|M|56.35,12.22|Z|Deepholm|N|To Therazane.|
 T Clutch Play|QID|42936|M|56.35,12.22|Z|Deepholm|N|To Therazane.|
-A Needlerock Beatdown|QID|42937|M|56.35,12.22|Z|Deepholm|N|From Therazane.|PRE|42933+42935+42936|
+A Needlerock Beatdown|QID|42937|M|56.35,12.22|Z|Deepholm|N|From Therazane.|PRE|42933^42935^42936|
 C Needlerock Beatdown|QID|42937|QO|1|M|56.73,12.60|Z|Deepholm|NC|N|Fly Aeosera to Needlerock.|
 C Needlerock Beatdown|QID|42937|QO|2|M|31.71,31.29|Z|Deepholm|N|Assault Needlerock with Aeosera.|
 C Needlerock Beatdown|QID|42937|QO|3|M|24.42,29.47|Z|Deepholm|N|Slay Borlock of the Deeps.|
@@ -169,18 +174,18 @@ C Azshara's Power|QID|40341|QO|4|M|50.60,42.92|Z|Throne of Neptulon@AbyssalMawSh
 T Azshara's Power|QID|40341|M|34.05,76.78|Z|The Maelstrom!Instance!Broken Isles|N|To Stormcaller Mylra.|
 
 ;Shaman Class Hall
-A A Ring Reforged|QID|40225|M|34.02,76.78|Z|The Maelstrom!Instance!Broken Isles|N|From Stormcaller Mylra.|PRE|39771+40224+40341|
+A A Ring Reforged|QID|40225|M|34.02,76.78|Z|The Maelstrom!Instance!Broken Isles|N|From Stormcaller Mylra.|PRE|39771^40224^40341|
 C A Ring Reforged|QID|40225|QO|1|M|30.20,77.47|Z|The Maelstrom!Instance!Broken Isles|N|Speak to Nobundo|
 C A Ring Reforged|QID|40225|QO|2|M|29.23,69.57|Z|The Maelstrom!Instance!Broken Isles|N|Unearth the Heart of Azeroth|
 T A Ring Reforged|QID|40225|M|28.98,69.25|Z|The Maelstrom!Instance!Broken Isles|N|To Farseer Nobundo.|
 A Azeroth Needs You|QID|41510|M|28.99,69.17|Z|The Maelstrom!Instance!Broken Isles|N|From Farseer Nobundo.|PRE|40225|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|33.48,59.37|Z|The Maelstrom!Instance!Broken Isles|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40225|
+A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|33.48,59.37|Z|The Maelstrom!Instance!Broken Isles|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40225|
 T Azeroth Needs You|QID|41510|M|30.34,51.57|Z|The Maelstrom!Instance!Broken Isles|N|To Farseer Nobundo.|
-C Travel to Dalaran|QID|39718;39864;39731;39733;39735|M|29.92,52.01|Z|The Maelstrom!Instance!Broken Isles|N|Take the portal to Dalaran.|
+C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|29.92,52.01|Z|The Maelstrom!Instance!Broken Isles|N|Take the portal to Dalaran.|
 
 ; LVL 110 Quest - Obliterum Chain
 
-A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|PRE|44337+44338|
+A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|PRE|44337^44338|
 C In the House of Light and Shadow|QID|44448|N|Location NOT included at this time.\nBefore you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
 A Fire!|QID|39838|M|39.74,30.93|Z|Dalaran!Dalaran!Dungeon|N|From Camille Kleister.|LVL|110|
 C Fire!|QID|39838|M|39.74,30.93|Z|Dalaran!Dalaran!Dungeon|N|Toss water on the fire.|
@@ -213,7 +218,7 @@ C The Muck Stops Here|QID|39843|M|52.26,60.07|Z|The Underbelly@Dalaran70|QO|1|US
 T One Mage's Trash|QID|39842|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
 T The Muck Stops Here|QID|39843|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
 T Cold Hard Coin|QID|39844|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
-A The Obliterum Forge|QID|39845|PRE|39842;39843;39844|M|67.46,18.13|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
+A The Obliterum Forge|QID|39845|PRE|39842 & 39843 & 39844|M|67.46,18.13|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 C The Obliterum Forge|QID|39845|M|42.28,28.92|Z|Dalaran!Dalaran!Dungeon|QO|1|N|1/1 Finalize Obliterum Forge|
 T The Obliterum Forge|QID|39845|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Karlain.|
 A Fire it Up|QID|41778|PRE|39845|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Karlain.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/harrison_jones_treasure_contracts
+-- Date: 2018-10-17 02:21
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3647/revisions/27419/view
 -- Date: 2016-01-08 23:51
 -- Who: Ludovicus_Maior
 -- Log: 3647
@@ -37,8 +42,8 @@ C The Final Key|QID|37851|M|73.4,34.9;71.8,34.6|Z|Spires of Arak|CS|QO|1|N|Enter
 T Amulet of Rukhmar: The Final Key|QID|37851|N|To UI|
 A Amulet of Rukhmar: The Apexis Device|QID|37852|PRE|37851|N|From UI|FACTION|Alliance|
 A Amulet of Rukhmar: The Apexis Device|QID|37993|PRE|37851|N|From UI|FACTION|Horde|
-C Fun with Portals|QID|37852;37993|M|73.5,43.1|Z|Spires of Arak|QO|1|N|There are three statues here.  Click on each until it faces the portal device, then go through.|
-K Aspect of Rukhmar|QID|37852;37993|M|70.2,34.3|Z|Spires of Arak|QO|2|T|Aspect of Rukhmar|N|Kill and loot the [Amulet of Rukhmar].  If he is not there, wait a few minutes or realm hop.|
+C Fun with Portals|QID|37852^37993|M|73.5,43.1|Z|Spires of Arak|QO|1|N|There are three statues here.  Click on each until it faces the portal device, then go through.|
+K Aspect of Rukhmar|QID|37852^37993|M|70.2,34.3|Z|Spires of Arak|QO|2|T|Aspect of Rukhmar|N|Kill and loot the [Amulet of Rukhmar].  If he is not there, wait a few minutes or realm hop.|
 T Amulet of Rukhmar: The Apexis Device|QID|37852|PRE|37851|N|To Bodrick Grey, at your Garrison.|FACTION|Alliance|
 T Amulet of Rukhmar: The Apexis Device|QID|37993|PRE|37851|N|To Rokhan, at your Garrison.|FACTION|Horde|
 
@@ -59,9 +64,9 @@ K Koros Soulsplinter|QID|37978|M|74.4,30.2; 73.9,28.9; 75.0,26.1|CS|Z|Spires of 
 T Dream of Argus: The Final Fragment|QID|37978|N|To UI|
 A Dream of Argus: The Crystal Reborn|QID|37979|PRE|37978|N|From UI|FACTION|Alliance|
 A Dream of Argus: The Crystal Reborn|QID|37997|PRE|37978|N|From UI|FACTION|Horde|
-C Reconstruction Device|QID|37979;37997|M|32.75,45.31|Z|Shadowmoon Valley@Draenor|QO|1|
-C Reconstruction Device|QID|37979;37997|M|32.29,46.58|Z|Shadowmoon Valley@Draenor|QO|2|
-C Reconstruction Device|QID|37979;37997|M|32.34,46.46|Z|Shadowmoon Valley@Draenor|QO|3|N|The symbols on the rings must match the symbols on the pylons.|
+C Reconstruction Device|QID|37979^37997|M|32.75,45.31|Z|Shadowmoon Valley@Draenor|QO|1|
+C Reconstruction Device|QID|37979^37997|M|32.29,46.58|Z|Shadowmoon Valley@Draenor|QO|2|
+C Reconstruction Device|QID|37979^37997|M|32.34,46.46|Z|Shadowmoon Valley@Draenor|QO|3|N|The symbols on the rings must match the symbols on the pylons.|
 T Dream of Argus: The Crystal Reborn|QID|37979|N|To Bodrick Grey, at your Garrison.|FACTION|Alliance|
 T Dream of Argus: The Crystal Reborn|QID|37997|N|To Rokhan, at your Garrison.|FACTION|Horde|
 
@@ -81,7 +86,7 @@ C Demon's Blood|QID|37884|M|49.76,81.82|Z|Shadowmoon Valley@Draenor|QO|1|N|Kill 
 T Dark Grimoire: The Final Ingredient|QID|37884|N|To UI|
 A Dark Grimoire: Breaching the Barrier|QID|37885|PRE|37884|N|From UI|FACTION|Alliance|
 A Dark Grimoire: Breaching the Barrier|QID|37994|PRE|37884|N|From UI|FACTION|Horde|
-C Grimoire of the Nameless Void|QID|37885;37994|M|42.7,74.2|Z|Shadowmoon Valley@Draenor|QO|1|N|Click on the portal on the ground and then walk backwards to the grimorie in the cave, avoiding the round symbols. (Yeah, that simple!!!)|
+C Grimoire of the Nameless Void|QID|37885^37994|M|42.7,74.2|Z|Shadowmoon Valley@Draenor|QO|1|N|Click on the portal on the ground and then walk backwards to the grimorie in the cave, avoiding the round symbols. (Yeah, that simple!!!)|
 T Dark Grimoire: Breaching the Barrier|QID|37885|N|To Bodrick Grey, at your Garrison.|FACTION|Alliance|
 T Dark Grimoire: Breaching the Barrier|QID|37994|N|To Rokhan, at your Garrison.|FACTION|Horde|
 
@@ -105,8 +110,8 @@ C Blessing of Frost|QID|37918|M|49.16,21.36|Z|Frostfire Ridge|QO|1|N|Go to the t
 T Gronnsbane: The Blessing of Frost|QID|37918|N|To UI|
 A Gronnsbane: The Blessing of Beasts|QID|37919|PRE|37918|N|From UI|FACTION|Alliance|
 A Gronnsbane: The Blessing of Beasts|QID|37995|PRE|37918|N|From UI|FACTION|Horde|
-K Gok'tal|QID|37995;37919|M|45.62,28.16|Z|Frostfire Ridge|QO|1|N|Click on the altar and the place the offering. Kill the Rylak. Stay out of the frosted ground ans side step his breath!|
-C Blessing of Beasts|QID|37919;37995|M|45.57,28.15|Z|Frostfire Ridge|QO|2|N|Click on the corpse to bloody the weapon.|
+K Gok'tal|QID|37995^37919|M|45.62,28.16|Z|Frostfire Ridge|QO|1|N|Click on the altar and the place the offering. Kill the Rylak. Stay out of the frosted ground ans side step his breath!|
+C Blessing of Beasts|QID|37919^37995|M|45.57,28.15|Z|Frostfire Ridge|QO|2|N|Click on the corpse to bloody the weapon.|
 T Gronnsbane: The Blessing of Beasts|QID|37919|N|To Bodrick Grey, at your Garrison.|FACTION|Alliance|
 T Gronnsbane: The Blessing of Beasts|QID|37995|N|To Rokhan, at your Garrison.|FACTION|Horde|
 
@@ -127,9 +132,9 @@ C The Final Piece|QID|37799|M|54.99,12.37|Z|Nagrand@Draenor|QO|1|N|On TOP of the
 T Gutrek's Cleaver: The Final Piece|QID|37799|N|To UI|
 A Gutrek's Cleaver: The Spirit Forge|QID|37811|PRE|37799|N|From UI|FACTION|Alliance|
 A Gutrek's Cleaver: The Spirit Forge|QID|37992|PRE|37799|N|From UI|FACTION|Horde|
-C Locate|QID|37811;37992|M|51.6,27.0|Z|Nagrand@Draenor|QO|1|N|Do not attack Gutrek until the last step or you will get bugged. Best to let the other person finish the quest.|
-C Reforge|QID|37811;37992|M|51.76,26.62|Z|Nagrand@Draenor|QO|2|N|Click on the Furnance, then the Anvil, then the trough.|
-K Gutrek|QID|37811;37992|M|52.53,26.67|Z|Nagrand@Draenor|QO|3|N|Click on the column of light and kill Gutrek. Loot the Cleaver.|
+C Locate|QID|37811^37992|M|51.6,27.0|Z|Nagrand@Draenor|QO|1|N|Do not attack Gutrek until the last step or you will get bugged. Best to let the other person finish the quest.|
+C Reforge|QID|37811^37992|M|51.76,26.62|Z|Nagrand@Draenor|QO|2|N|Click on the Furnance, then the Anvil, then the trough.|
+K Gutrek|QID|37811^37992|M|52.53,26.67|Z|Nagrand@Draenor|QO|3|N|Click on the column of light and kill Gutrek. Loot the Cleaver.|
 T Gutrek's Cleaver: The Spirit Forge|QID|37811|N|To Bodrick Grey, at your Garrison.|FACTION|Alliance|
 T Gutrek's Cleaver: The Spirit Forge|QID|37992|N|To Rokhan, at your Garrison.|FACTION|Horde|
 
@@ -149,9 +154,9 @@ C Steamcaps|QID|37944|M|59.63,33.29|Z|Gorgrond|QO|1|N|In an inactive steam vent.
 T The Silent Skull: The Third Reagent|QID|37944|N|To UI|
 A The Silent Skull: Taking from the Taker|QID|37945|PRE|37944|N|From UI|FACTION|Alliance|
 A The Silent Skull: Taking from the Taker|QID|37996|PRE|37944|N|From UI|FACTION|Horde|
-C Brew the Elixir|QID|37945;37996|M|60.0,32.6;59.9,31.6|Z|Gorgrond|CS|QO|1|N|Go to the cave and click on the cauldron to brew.\nUse this command to make the rest of the quest easier: "/console ffxGlow 0"|T|/console ffxGlow 0|
-C Drink the elixir|QID|37945;37996|M|62.0,31.9|Z|Gorgrond|QO|2|N|Click on the cauldron again to drink. Find the Brightscale Ravager by the cave enterance. Avoid floating/moving skulls, as you will lose your buff and need to drink from the cauldron again. Follow him till you see a hovering ravager (Gu'rakh) who will offer to take you to Skulltaker.|T|Brightscale Ravager|
-K Skulltaker|QID|37945;37996|M|57.26,26.82|Z|Gorgrond|QO|3|N|Gu'rakh will drop you in Skulltaker's Crater. Kill and loot the skull.|T|Skulltaker|
+C Brew the Elixir|QID|37945^37996|M|60.0,32.6;59.9,31.6|Z|Gorgrond|CS|QO|1|N|Go to the cave and click on the cauldron to brew.\nUse this command to make the rest of the quest easier: "/console ffxGlow 0"|T|/console ffxGlow 0|
+C Drink the elixir|QID|37945^37996|M|62.0,31.9|Z|Gorgrond|QO|2|N|Click on the cauldron again to drink. Find the Brightscale Ravager by the cave enterance. Avoid floating/moving skulls, as you will lose your buff and need to drink from the cauldron again. Follow him till you see a hovering ravager (Gu'rakh) who will offer to take you to Skulltaker.|T|Brightscale Ravager|
+K Skulltaker|QID|37945^37996|M|57.26,26.82|Z|Gorgrond|QO|3|N|Gu'rakh will drop you in Skulltaker's Crater. Kill and loot the skull.|T|Skulltaker|
 T The Silent Skull: Taking from the Taker|QID|37945|N|To Bodrick Grey, at your Garrison.\nRemember "/console ffxGlow 1"|FACTION|Alliance|
 T The Silent Skull: Taking from the Taker|QID|37996|N|To Rokhan, at your Garrison.\nRemember "/console ffxGlow 1"|FACTION|Horde|
 

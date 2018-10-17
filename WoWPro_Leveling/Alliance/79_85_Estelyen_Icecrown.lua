@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
+-- Date: 2018-10-17 02:25
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3301/revisions/29597/view
 -- Date: 2018-08-24 14:59
 -- Who: Ludovicus_Maior
 -- Log: Add QO's for [Bloodspattered Banners]
@@ -154,11 +159,11 @@ A Once More Unto The Breach, Hero|QID|13105|PRE|13086|C|Death Knight|N|From High
 T Once More Unto The Breach, Hero|QID|13104|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|N|To The Ebon Watcher.|M|83.00,72.80|
 T Once More Unto The Breach, Hero|QID|13105|C|Death Knight|N|To The Ebon Watcher.|M|83.00,72.80|
 
-A The Purging Of Scourgeholme|QID|13118|PRE|13104+13105|N|From The Ebon Watcher.|
-A The Scourgestone|QID|13122|PRE|13104+13105|N|From The Ebon Watcher.|
-A It Could Kill Us All|QID|13135|PRE|13104+13105|N|From Crusade Engineer Spitzpatrick.|M|83.00,73.00|
-A The Stone That Started A Revolution|QID|13130|PRE|13104+13105|N|From Crusade Architect Silas.|
-A The Restless Dead|QID|13110|PRE|13104+13105|N|From Father Gustav, in the shed.|M|82.80,72.80|
+A The Purging Of Scourgeholme|QID|13118|PRE|13104^13105|N|From The Ebon Watcher.|
+A The Scourgestone|QID|13122|PRE|13104^13105|N|From The Ebon Watcher.|
+A It Could Kill Us All|QID|13135|PRE|13104^13105|N|From Crusade Engineer Spitzpatrick.|M|83.00,73.00|
+A The Stone That Started A Revolution|QID|13130|PRE|13104^13105|N|From Crusade Architect Silas.|
+A The Restless Dead|QID|13110|PRE|13104^13105|N|From Father Gustav, in the shed.|M|82.80,72.80|
 C The Scourgestone|QID|13122|N|Kill scourge and collect Scourgestones off them.|S|
 C The Purging Of Scourgeholme|QID|13118|N|Kill the mobs you still need for this quest. The High Priests are inside the ziggurats.|M|79.40,65.20|S|
 C The Restless Dead|QID|13110|U|43153|N|Kill Reanimated Crusaders in Scourgeholme and use the Holy Water on their corpses.|M|79.40,65.20|
@@ -173,12 +178,12 @@ T The Restless Dead|QID|13110|N|To Father Gustav.|M|82.88,72.78|
 T The Purging Of Scourgeholme|QID|13118|N|To The Ebon Watcher.|M|83.00,72.80|
 T The Scourgestone|QID|13122|N|To The Ebon Watcher.|
 
-A The Air Stands Still|QID|13125|PRE|13118;13122|N|From The Ebon Watcher.|
+A The Air Stands Still|QID|13125|PRE|13118 & 13122|N|From The Ebon Watcher.|
 K Salranax the Flesh Render |QID|13125|QO|1|U|43206|N|Use the Horn to call for aid should you need it.|M|77.32,61.90|; Salranax the Flesh Render slain: 1/1
 K High Priest Yath'amon |QID|13125|QO|3|U|43206|N|Use the Horn to call for aid should you need it.|M|80.18,61.22|; High Priest Yath'amon slain: 1/1
 C The Air Stands Still|QID|13125|U|43206|N|Use the Horn to call for aid should you need it.|M|76.40,53.35|
 T The Air Stands Still|QID|13125|N|To The Ebon Watcher. If you called for aid, you can click on the portal he came out of to quickly get back to the Ebon Watcher.|M|83.00,72.80|
-A Into The Frozen Heart Of Northrend|QID|13139|PRE|13110;13124;13130;13135|N|From Father Gustav.|M|82.80,72.80|
+A Into The Frozen Heart Of Northrend|QID|13139|PRE|13110 & 13124 & 13130 & 13135|N|From Father Gustav.|M|82.80,72.80|
 T Into The Frozen Heart Of Northrend|QID|13139|U|43290|N|Read the Report if you like patting yourself on the Shoulder, then deliver it to Highlord Tirion Fordring.|M|86.00,75.80|
 A The Battle For Crusaders' Pinnacle|QID|13141|PRE|13139|N|From Highlord Tirion Fordring.|
 C The Battle For Crusaders' Pinnacle|QID|13141|U|43243|N|Use the Banner near the pile of Skulls and defend it against the Scourge.|M|80.06,71.95|
@@ -344,7 +349,7 @@ T The Guardians of Corp'rethar|QID|13338|N|To Thassarian.|
 A It's All Fun and Games|QID|12887|N|From Thassarian.|
 C It's All Fun and Games|QID|12887|U|41265|N|Get within range of the eye on top of the Shadow Vault and repeatedly use your Eyesore Blaster until it is destroyed.|M|44.31,21.56|
 T It's All Fun and Games|QID|12887|N|Baron Sliver is hiding at the bottom of the Shadow Vault.|M|44.12,24.69|
-A I Have an Idea, But First...|QID|12891|PRE|12887+12892|N|From Baron Sliver.|
+A I Have an Idea, But First...|QID|12891|PRE|12887^12892|N|From Baron Sliver.|
 C I Have an Idea, But First...|QID|12891|N|Kill cultists for the Rod, Abominations for the Hook and Geists for the Rope. The essence drops from most of the mobs in the region.|
 T I Have an Idea, But First...|QID|12891|N|To Baron Sliver.|M|44.12,24.69|
 
@@ -356,9 +361,9 @@ T Free Your Mind|QID|12893|N|To Baron Sliver.|M|44.12,24.69|
 A If He Cannot Be Turned|QID|12896|N|From Baron Sliver.|
 C If He Cannot Be Turned|QID|12896|N|Click on one of the Weapon Racks inside the Shadow Vault and General Lighstbane will appear. Kill him.|M|44.69,19.90|
 T If He Cannot Be Turned|QID|12896|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
-A The Shadow Vault|QID|12898|PRE|12896+12897|N|From Thassarian.|
+A The Shadow Vault|QID|12898|PRE|12896^12897|N|From Thassarian.|
 T The Shadow Vault|QID|12898|N|Back to Baron Sliver, he has moved a little to the west.|M|42.86,25.00|
-A The Duke|QID|12938|PRE|12898+12899|N|From Baron Sliver.|
+A The Duke|QID|12938|PRE|12898^12899|N|From Baron Sliver.|
 A Blackwatch|QID|13106|N|From Baron Sliver.|
 T The Duke|QID|12938|N|To Duke Lankral inside the Shadow Vault.|M|44.66,20.35|
 

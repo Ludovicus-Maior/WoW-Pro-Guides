@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3679
+-- Date: 2018-10-17 02:29
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3679/revisions/29787/view
 -- Date: 2018-09-22 00:24
 -- Who: elidion
 -- Log: Updated Quest errors PRE/ACTIVE tags along with invalid zone tags
@@ -104,14 +109,14 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Warlock")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A In the Blink of an Eye|QID|44663;44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|PRE|44120+44473|
+A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|PRE|44120^44473|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
-A In the Blink of an Eye|QID|44663;44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|PRE|44120+44473|
+A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|PRE|44120^44473|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 ;both
-C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardian) and talk to Archmage Khadgar.|
-T In the Blink of an Eye|QID|44663;44184|M|57.57,45.83|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
+C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardian) and talk to Archmage Khadgar.|
+T In the Blink of an Eye|QID|44663^44184|M|57.57,45.83|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
 
 ;Warlock
 A The Sixth|QID|40716|M|57.47,45.56|Z|Dalaran!Dalaran!Dungeon|N|From Ritssyn Flamescowl. It takes about 20 seconds after the previous quest was turned in, he will pop up wherever you're at.|PRE|44663|
@@ -131,7 +136,7 @@ T The New Blood|QID|40729|M|55.74,65.38|Z|The Underbelly!Dalaran!Dungeon!Broken 
 A The Tome of Blighted Implements|QID|40684|M|55.74,65.38|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|From Calydus.|PRE|40729|
 C The Tome of Blighted Implements|QID|40684|QO|1|M|55.87,65.36|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
 T The Tome of Blighted Implements|QID|40684|M|55.87,65.36|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|To Calydus.|
-A Artifact Specific Quest|QID|43100;40495;42128|M|55.87,65.36|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|From Calydus.|PRE|40684;40686|
+A Artifact Specific Quest|QID|43100^40495^42128|M|55.87,65.36|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|From Calydus.|PRE|40684 & 40686|
 
 ;AFFLICTION
 ;A Ulthalesh, the Deadwind Harvester|QID|40495|M|55.70,65.40|Z|Dalaran!Dalaran!Dungeon|N|From Calydus.|PRE|40684|
@@ -157,17 +162,17 @@ C The Fate of Deadwind|QID|40611|NC|QO|3|M|46.87,62.40|Z|Deadwind Pass|N|Use you
 R Karazhan (Chapel)|ACTIVE|40611|M|40.76,78.29|CC|Z|Deadwind Pass|N|Run (Fly) to the chapel at Karazhan.|
 C The Fate of Deadwind|QID|40611|NC|QO|2|M|40.76,78.29|Z|Deadwind Pass|N|Use your extra action button, wait for the dialog to conclude.|
 T The Fate of Deadwind|QID|40611|M|49.47,74.75|Z|Deadwind Pass|N|To Revil Kost.|
-A The Dark Riders|QID|41155;40623|M|49.47,74.75|Z|Deadwind Pass|N|From Revil Kost.|PRE|40611|
-R Catacombs|QID|41155;40934|M|46.63,69.10|Z|Deadwind Pass|CC|N|Make your way into the Dark Riders' catacombs beneath Karazhan.|ACTIVE|40623|
-C Karazhan Catacombs infiltrated|SO|1;1|M|72.03,75.24|Z|KarazhanScenario|N|Karazhan Catacombs infiltrated|QID|41155;40623|
-C Grasp of the Damned|NC|SO|2;1|M|72.09,70.02|Z|KarazhanScenario|N|Use Demonic Gateway to cross Ariden's spirit barrier.|S|QID|41155;40623|
-C Conservator Defeated|NC|SO|3;1|M|57.03,68.81|Z|KarazhanScenario|N|Defeat the Conservator.|QID|441155;0623|
-C Ulthalesh found|SO|4;1|M|48.47,67.84|Z|KarazhanScenario|NC|N|Attempt to pick up Ulthalesh.|QID|41155;40623|
-C Ariden followed|SO|5;1|M|68.38,37.58|Z|KarazhanScenario|N|Follow Ariden.|QID|41155;40623|
-C Ariden defeated|SO|6;1|M|68.98,27.77|Z|KarazhanScenario|N|Defeat Ariden, don't ignore his imps.|QID|41155;40623|
-C Ulthalesh, the Deadwind Harvester claimed|SO|7;1|M|68.62,26.02|Z|KarazhanScenario|N|Ulthalesh, the Deadwind Harvester claimed|QID|41155;40623|
-C The Dark Riders|QID|41155;40623|NC|QO|2|M|68.62,26.02|Z|KarazhanScenario|N|Pick up Ulthalesh.|
-T The Dark Riders|QID|41155;40623|M|68.21,27.38|Z|KarazhanScenario|N|To Revil Kost.|
+A The Dark Riders|QID|41155^40623|M|49.47,74.75|Z|Deadwind Pass|N|From Revil Kost.|PRE|40611|
+R Catacombs|QID|41155^40934|M|46.63,69.10|Z|Deadwind Pass|CC|N|Make your way into the Dark Riders' catacombs beneath Karazhan.|ACTIVE|40623|
+C Karazhan Catacombs infiltrated|SO|1;1|M|72.03,75.24|Z|KarazhanScenario|N|Karazhan Catacombs infiltrated|QID|41155^40623|
+C Grasp of the Damned|NC|SO|2;1|M|72.09,70.02|Z|KarazhanScenario|N|Use Demonic Gateway to cross Ariden's spirit barrier.|S|QID|41155^40623|
+C Conservator Defeated|NC|SO|3;1|M|57.03,68.81|Z|KarazhanScenario|N|Defeat the Conservator.|QID|441155^0623|
+C Ulthalesh found|SO|4;1|M|48.47,67.84|Z|KarazhanScenario|NC|N|Attempt to pick up Ulthalesh.|QID|41155^40623|
+C Ariden followed|SO|5;1|M|68.38,37.58|Z|KarazhanScenario|N|Follow Ariden.|QID|41155^40623|
+C Ariden defeated|SO|6;1|M|68.98,27.77|Z|KarazhanScenario|N|Defeat Ariden, don't ignore his imps.|QID|41155^40623|
+C Ulthalesh, the Deadwind Harvester claimed|SO|7;1|M|68.62,26.02|Z|KarazhanScenario|N|Ulthalesh, the Deadwind Harvester claimed|QID|41155^40623|
+C The Dark Riders|QID|41155^40623|NC|QO|2|M|68.62,26.02|Z|KarazhanScenario|N|Pick up Ulthalesh.|
+T The Dark Riders|QID|41155^40623|M|68.21,27.38|Z|KarazhanScenario|N|To Revil Kost.|
 A The Power Possessed|QID|40712|M|68.21,27.38|Z|KarazhanScenario|N|From Revil Kost.|PRE|40623|LEAD|43984|;lead is to make this line only show on first artifact turn in. 2nd/3rd Calydus has moved to order hall.
 U Return to Dalaran|QID|40712|M|68.21,27.38|Z|KarazhanScenario|U|140192|N|Use your Dalaran Hearthstone to return.|ACTIVE|40712|
 T The Power Possessed|QID|40712|M|55.85,65.40|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|To Calydus.|
@@ -246,7 +251,7 @@ C Rebuilding the Council|QID|40823|NC|QO|1|M|31.82,56.63|Z|717|N|At least you ca
 T Rebuilding the Council|QID|40823|M|30.92,58.31|Z|717|N|To Ritssyn Flamescowl.|
 A The Path of the Dreadscar|QID|40824|M|30.92,58.31|Z|717|N|From Ritssyn Flamescowl.|PRE|40823|
 C The Path of the Dreadscar|QID|40824|M|66.25,46.99|Z|717|N|Choose which zone you want to quest in first.|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|66.1,47.01|Z|717|N|From Dreadscar Battle Plans. Choose which zone you want to do first. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40824|LEAD|38907|
+A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|66.1,47.01|Z|717|N|From Dreadscar Battle Plans. Choose which zone you want to do first. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40824|LEAD|38907|
 T The Path of the Dreadscar|QID|40824|M|65.69,47.86|Z|717|N|To Ritssyn Flamescowl.|
 
 L Blocked till 101|QID|42608|LVL|101|N|The next quest in the class hall requires level 101.|
@@ -382,7 +387,7 @@ t Vault of the Wardens: Matters of the Heart|QID|42660|M|54.14,34.86|N|To Kira I
 t Unparalleled Power|QID|44682|M|67.00,46.42|N|To Gakin the Darkbinder.|
 t One Who's Worthy|QID|42102|M|55.07,37.38|N|From Ritssyn Flamescowl.|
 
-A Finding Fizzlebang|QID|41785|PRE|42102;44682|LVL|110|M|55.07,37.38|N|From Ritssyn Flamescowl.|
+A Finding Fizzlebang|QID|41785|PRE|42102 & 44682|LVL|110|M|55.07,37.38|N|From Ritssyn Flamescowl.|
 P Dalaran|ACTIVE|41785|M|72.43,37.45|N|Take the portal to Dalaran.|
 R Krasus' Landing|ACTIVE|41785|M|60.36,44.53|Z|Dalaran!Dalaran!Dungeon|N|Run out and up to Krasus' Landing|
 F Forsaken Foothold|ACTIVE|41785|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|N|At Aladune Whitecloud.|FACTION|HORDE|
@@ -390,13 +395,13 @@ F Skyfire Triage Camp|ACTIVE|41785|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|QO|1|
 T Finding Fizzlebang|QID|41785|M|39.37,42.24|Z|Stormheim|N|To Lulubelle Fizzlebang.|
 A Coercing a Confession|QID|41788|PRE|41785|LVL|110|M|39.31,42.20|Z|Stormheim|N|From Lulubelle Fizzlebang.|
 A Someone Else's Mess|QID|41787|PRE|41785|LVL|110|M|39.31,42.20|Z|Stormheim|N|From Lulubelle Fizzlebang.|
-R Felscale Cavern|ACTIVE|41787;41788|M|38.31,37.32|Z|Stormheim|N|Run to Felscale Cavern.|
+R Felscale Cavern|ACTIVE|41787^41788|M|38.31,37.32|Z|Stormheim|N|Run to Felscale Cavern.|
 C Someone Else's Mess|QID|41787|M|37.85,38.80|Z|Stormheim|S|QO|1|U|141865|N|Use Orb to banish demons|
 C Coercing a Confession|QID|41788|M|36.42,38.55|Z|Stormheim|QO|1|CHAT|T|Galius Miremoore|N|Turn Left at the bottom of the ramp (not towards Zoarg). Get Galius to "Confess your crimes!", yes, You'll have to beat him up a bit.|
 C Someone Else's Mess|QID|41787|M|37.85,38.80|Z|Stormheim|US|QO|1|N|Use Orb to banish demons|
 T Coercing a Confession|QID|41788|M|39.37,42.24|Z|Stormheim|N|To Lulubelle Fizzlebang.(who stayed at the Enchantresses hut.|
 T Someone Else's Mess|QID|41787|M|39.37,42.24|Z|Stormheim|N|To Lulubelle Fizzlebang.|
-A Lulubelle on Loan|QID|41793|PRE|41787;41788|LVL|110|M|39.31,42.20|Z|Stormheim|N|From Lulubelle Fizzlebang.|
+A Lulubelle on Loan|QID|41793|PRE|41787 & 41788|LVL|110|M|39.31,42.20|Z|Stormheim|N|From Lulubelle Fizzlebang.|
 H Dalaran|QID|41793|ACTIVE|41793|U|140192|N|Use your Dalaran Hearthstone and then run back to your order hall to turn in.|
 T Lulubelle on Loan|QID|41793|M|55.07,37.38|N|To Ritssyn Flamescowl.|
 A Champion: Lulubelle Fizzlebang|QID|41755|PRE|41793|M|54.42,39.37|N|Recruit Lulubelle Fizzlebang.|
@@ -412,7 +417,7 @@ T Selecting a Sixth|QID|41796|M|55.07,37.38|N|From Ritssyn Flamescowl.|
 A Champion: Eredar Twins|QID|41756|PRE|41795|LVL|110|M|58.31,40.74|N|Talk to Grand Warlock Alythess|
 A A Hero's Weapon|QID|43414|PRE|41796|LVL|110|M|53.06,39.56;51.58,47.46;36.39,30.60|CS|N|From Ritssyn Flamescowl.|
 C A Hero's Weapon|QID|43414|M|35.18,30.07|N|Stand in the center of the green circle and use the special action button.|
-T A Hero's Weapon|QID|43414|M|36.39,30.60||N|To Ritssyn Flamescowl.|
+T A Hero's Weapon|QID|43414|M|36.39,30.60|N|To Ritssyn Flamescowl.|
 
 ; LVL 110 - Obliterum Quest Chain
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|PRE|44337|
@@ -475,18 +480,18 @@ C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|NC|N|Use your extra act
 F Dalaran|ACTIVE|44480|U|140192|N|Return to Dalaran, via your favourite method.|
 T In My Father's House|QID|44480|M|53.53,33.06|N|Return to Light's Heart in your order hall.|
 
-A Destiny Unfulfilled|QID|44481;44496;44497|M|53.53,33.06|N|From Light's Heart.|PRE|44480|
-P Dalaran|ACTIVE|44481;44496;44497|M|72.43,37.45|QO|1|N|Run out the portal to Dalaran.|
-P Shattrath|ACTIVE|44481;44496;44497|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|QO|1|N|Run to the Chamber of the Guardian and then down to the Shattrath Portal.|
-F Sanctum of the Stars|ACTIVE|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|REP|The Scryers;934;Friendly-Exalted|N|Talk to Nutral to take Flight Path|
-F Altar of Sha'tar|ACTIVE|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|REP|The Aldor;932;Friendly-Exalted|N|Talk to Nutral to take Flight Path|
-F Shadowmoon Village|ACTIVE|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum of the Stars or Altar of Sha'tar.|FACTION|HORDE|
-F Wildhammer Stronghold|ACTIVE|44481;44496;44497|QO|1|M|64.07,41.10|Z|Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum of the Stars or Altar of Sha'tar.|FACTION|ALLIANCE|
-R Black Temple|ACTIVE|44481;44496;44497|QO|1|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|
-C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|NC|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
-F Dalaran|ACTIVE|44481;44496;44497|U|140192|N|Return to Dalaran, via your favourite method.|
-T Destiny Unfulfilled|QID|44481;44496;44497|M|53.53,33.06|N|Return to Light's Heart in your order hall.|
-A The Hunt for Illidan Stormrage|QID|45174|M|53.53,33.06|N|From Light's Heart.|PRE|44481;44496;44497|
+A Destiny Unfulfilled|QID|44481^44496^44497|M|53.53,33.06|N|From Light's Heart.|PRE|44480|
+P Dalaran|ACTIVE|44481^44496^44497|M|72.43,37.45|QO|1|N|Run out the portal to Dalaran.|
+P Shattrath|ACTIVE|44481^44496^44497|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|QO|1|N|Run to the Chamber of the Guardian and then down to the Shattrath Portal.|
+F Sanctum of the Stars|ACTIVE|44481^44496^44497|QO|1|M|64.07,41.10|Z|Shattrath City|REP|The Scryers;934;Friendly-Exalted|N|Talk to Nutral to take Flight Path|
+F Altar of Sha'tar|ACTIVE|44481^44496^44497|QO|1|M|64.07,41.10|Z|Shattrath City|REP|The Aldor;932;Friendly-Exalted|N|Talk to Nutral to take Flight Path|
+F Shadowmoon Village|ACTIVE|44481^44496^44497|QO|1|M|64.07,41.10|Z|Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum of the Stars or Altar of Sha'tar.|FACTION|HORDE|
+F Wildhammer Stronghold|ACTIVE|44481^44496^44497|QO|1|M|64.07,41.10|Z|Shattrath City|N|Talk to Nutral to take Flight Path.\n\nSkip this one, if you are already flying to Sanctum of the Stars or Altar of Sha'tar.|FACTION|ALLIANCE|
+R Black Temple|ACTIVE|44481^44496^44497|QO|1|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|
+C Destiny Unfulfilled|QID|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|NC|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
+F Dalaran|ACTIVE|44481^44496^44497|U|140192|N|Return to Dalaran, via your favourite method.|
+T Destiny Unfulfilled|QID|44481^44496^44497|M|53.53,33.06|N|Return to Light's Heart in your order hall.|
+A The Hunt for Illidan Stormrage|QID|45174|M|53.53,33.06|N|From Light's Heart.|PRE|44481 & 44496 & 44497|
 P Dalaran|QID|45174|M|72.43,37.45|N|Take the portal to Dalaran.|ACTIVE|45174|
 R Krasus' Landing|ACTIVE|45174|M|60.36,44.53|Z|Dalaran!Dalaran!Dungeon|N|Run out and up to Krasus' Landing|
 F Illidari Stand|ACTIVE|45174|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|N|At Aladune Whitecloud.|
@@ -613,7 +618,7 @@ C Stealing the Source of Power|QID|45025|Z|Azsuna|US|NC|N|Finish collecting the 
 C Cult Culling|QID|45024|Z|Azsuna|QO|1|US|N|Finish your quota of Devoted Occultist.|
 T Cult Culling|QID|45024|M|30.50,44.56|Z|Azsuna|N|To Jubeka Shadowbreaker.|
 T Stealing the Source of Power|QID|45025|M|30.50,44.56|Z|Azsuna|N|To Jubeka Shadowbreaker.|
-A Expending Fel Energy|QID|45026|M|30.50,44.56|Z|Azsuna|N|From Jubeka Shadowbreaker.|PRE|45024+45025|
+A Expending Fel Energy|QID|45026|M|30.50,44.56|Z|Azsuna|N|From Jubeka Shadowbreaker.|PRE|45024^45025|
 C Expending Fel Energy|QID|45026|M|28.35,45.88|Z|Azsuna|N|The bar depletes based on each enemy you hit (you do not have to kill them) so if the area is busy just hit everyone else's mob once.  By the same token. Imps and other easily killable mobs are worth the same credit as elites.|
 T Expending Fel Energy|QID|45026|M|30.50,44.56|Z|Azsuna|N|To Jubeka Shadowbreaker.|
 H Krasus' Landing|ACTIVE|45026|M|30.50,44.56|Z|Azsuna|U|140192|N|Return to Dalaran however you choose.|
@@ -627,7 +632,7 @@ T The Fate of Kanrethad|QID|45028|M|78.12,39.69|Z|Broken Shore|N|To Jubeka Shado
 A Crystal Containment|QID|46020|M|78.12,39.69|Z|Broken Shore|N|From Jubeka Shadowbreaker.|PRE|45028|
 H Krasus' Landing|ACTIVE|46020|M|78.12,39.69|Z|Broken Shore|U|140192|N|Return to Dalaran however you choose.|
 T Crystal Containment|QID|46020|M|56.69,33.82|N|To Jubeka Shadowbreaker.|
-A Champion: Kanrethad Ebonlocke|QID|46047;46316|M|55.35,34.26|N|From Kanrethad Ebonlocke.|PRE|46020|
+A Champion: Kanrethad Ebonlocke|QID|46047^46316|M|55.35,34.26|N|From Kanrethad Ebonlocke.|PRE|46020|
 A Further Advancement|QID|46784|M|67.02,46.43|N|From Gakin the Darkbinder.|PRE|46020|
 C Further Advancement|QID|46784|M|55.35,41.05|NC|N|Start the newly available Order Hall advancement (or just click on Archivist Melinda.)|
 T Further Advancement|QID|46784|M|67.00,46.43|N|To Gakin the Darkbinder.|
@@ -651,7 +656,7 @@ H Dalaran|ACTIVE|46240|U|140192|N|Now that you have all the components, back to 
 T If You Build It|QID|46238|M|35.23,38.59|N|To Mor'zul Bloodbringer.|
 T Fel to the Core|QID|46239|M|35.23,38.59|N|To Mor'zul Bloodbringer.|
 T Give Me Fuel, Give Me Fire|QID|46240|M|35.23,38.59|N|To Mor'zul Bloodbringer.|
-A The Minions of Hel'nurath|QID|46241|M|35.23,38.59|N|From Mor'zul Bloodbringer.|PRE|46238+46239+46240|
+A The Minions of Hel'nurath|QID|46241|M|35.23,38.59|N|From Mor'zul Bloodbringer.|PRE|46238^46239^46240|
 F Deliverance Point|ACTIVE|46241|M|69.81,51.06|Z|Dalaran!Dalaran!Dungeon|N|Travel to Broken Isles by the method of your choice.|
 C The Minions of Hel'nurath|QID|46241|M|45.47,43.95|Z|Broken Shore|QO|1|N|Summon your succubus and use her seduction ability on Xorathian Cultists until one tells you where the leader is.|
 T The Minions of Hel'nurath|QID|46241|M|45.49,43.89|Z|Broken Shore|N|To UI Alert.|
@@ -672,7 +677,7 @@ N Congrats|N|You have finished the Legionfall questline.|
 A The Tome Opens Again|QID|43984|M|37.47,31.72|N|From Calydus.|PRE|44099|LVL|102|
 C The Tome Opens Again|QID|43984|M|37.47,31.72|NC|N|Choose the artifact quest you want to pursue next.|LVL|102|
 T The Tome Opens Again|QID|43984|M|37.47,31.72|N|To Calydus.|LVL|102|
-A Artifact specific quest|QID|40495;42128;43100|M|37.47,31.72|N|From Calydus.|PRE|43984|LVL|102|
+A Artifact specific quest|QID|40495^42128^43100|M|37.47,31.72|N|From Calydus.|PRE|43984|LVL|102|
 ;A Ulthalesh, the Deadwind Harvester|QID|40495|M|55.70,65.40|Z|Dalaran!Dalaran!Dungeon|N|From Calydus.|PRE|40684|-affliction
 ;A Ritual Reagents|QID|42128|M|55.82,65.24|Z|Dalaran!Dalaran!Dungeon|N|From Calydus.|PRE|40684| -demonology
 ;A Finding the Scepter|QID|43100|M|55.87,65.36|Z|Dalaran!Dalaran!Dungeon|N|From Calydus.|PRE|40684|-destruction
@@ -685,7 +690,7 @@ t Ritual Ruination|QID|43254|M|37.47,31.72|N|To Calydus.|;destruction
 A A Greater Arsenal|QID|44089|M|37.47,31.72|N|From Calydus.|ACH|11174;;true|
 C A Greater Arsenal|QID|44089|M|37.47,31.72|NC|N|Choose the remaining artifact.|
 T A Greater Arsenal|QID|44089|M|37.47,31.72|N|To Calydus.|
-A Artifact specific quest|QID|40495;42128;43100|M|37.47,31.72|N|From Calydus.|PRE|44089|LVL|102|
+A Artifact specific quest|QID|40495^42128^43100|M|37.47,31.72|N|From Calydus.|PRE|44089|LVL|102|
 
 J On to Azsuna|QID|39718|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Azuna. That guide will auto load when you close this step.|GUIDE|EmmAzsuna|
 J On to Stormheim|QID|39735|N|This temporarily ends the order hall guide, you will be sent back here, when you finish Stormheim. That guide will auto load when you close this step.|GUIDE|LudoStormheim|FACTION|ALLIANCE|

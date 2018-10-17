@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_horde
+-- Date: 2018-10-17 02:27
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3236/revisions/29090/view
 -- Date: 2018-02-20 21:35
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -158,7 +163,7 @@ T Biological Intervention|QID|24565|M|50.37,40.69|N|To Naralex.|
 A To Harvest Chaos|QID|24574|PRE|24565|M|50.37,40.61|N|From Naralex.|
 T Adder Subtraction|QID|24570|M|50.36,40.51|N|To Muyoh.|
 T Lashvine Seeds|QID|24571|M|50.36,40.51|N|To Muyoh.|
-A Sowing a Solution|QID|24566|PRE|24570;24571|M|50.36,40.51|N|From Muyoh.|
+A Sowing a Solution|QID|24566|PRE|24570 & 24571|M|50.36,40.51|N|From Muyoh.|
 C Sowing a Solution|QID|24566|U|49882|M|52.66,39.88|S|N|Use the Soothing Seeds on Deviate Terrortooths or Plainstriders. They can become aggressive (or blow up).|
 C To Harvest Chaos|QID|24574|M|49.25,40.07|N|Kill and loot Outgrowths. Make sure you get a Squirming Heart from one.|
 C Sowing a Solution|QID|24566|U|49882|M|52.66,39.88|US|N|Use the Soothing Seeds on Deviate Terrortooths or Plainstriders. They can become aggressive (or blow up).|
@@ -183,7 +188,7 @@ T Lion's Pride|QID|24552|M|41.54,47.16|N|To Jorn Skyseer.|
 T Meet the New Boss|QID|24551|M|41.53,46.82|N|To Warlord Bloodhilt.|
 T A Line in the Dirt|QID|24546|M|41.64,46.59|N|To Kirge Sternhorn.|
 
-A Siegebreaker|QID|24569|PRE|24546;24551|M|41.51,46.75|N|From Warlord Bloodhilt.|
+A Siegebreaker|QID|24569|PRE|24546 & 24551|M|41.51,46.75|N|From Warlord Bloodhilt.|
 C Siegebreaker|QID|24569|NC|M|41.00,53.10|N|Right-click the Siege Engines.|
 T Siegebreaker|QID|24569|M|41.51,46.75|N|To Warlord Bloodhilt.|
 A Taking Back Taurajo|QID|24572|PRE|24569|M|41.51,46.75|N|From Warlord Bloodhilt.|

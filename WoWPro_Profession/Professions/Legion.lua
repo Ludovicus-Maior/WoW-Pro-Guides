@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/legion_profession_quests
+-- Date: 2018-10-17 02:31
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3712/revisions/28727/view
 -- Date: 2017-08-03 21:47
 -- Who: Ludovicus_Maior
 -- Log: Started Enchanting, not done yet.
@@ -194,7 +199,7 @@ C Leystone Mastery|QID|38531|M|54.88,84.38|Z|Highmountain|N|Create all 8 of Leys
 T Leystone Mastery|QID|38531|M|55.16,84.20|Z|Highmountain|N|To Barm Stonebreaker.|
 A Hammered By the Storm|QID|38532|PRE|38531|M|55.16,84.20|Z|Highmountain|LVL|110|P|Blacksmithing;164|N|From Barm Stonebreaker. Dungeon: Maw of Souls.|
 t Hammered By the Storm|QID|38532|M|55.16,84.20|Z|Highmountain|N|To Barm Stonebreaker, Ironhorn Enclave.|
-A Worthy of the Stone|QID|38559|PRE|38531;38532|M|55.16,84.20|Z|Highmountain|LVL|110|P|Blacksmithing;164|N|From Barm Stonebreaker.|
+A Worthy of the Stone|QID|38559|PRE|38531 & 38532|M|55.16,84.20|Z|Highmountain|LVL|110|P|Blacksmithing;164|N|From Barm Stonebreaker.|
 T Worthy of the Stone|QID|38559|M|54.6,84.0|Z|Highmountain|LVL|110|P|Blacksmithing;164|N|To Muirn Ironhorn.|
 A The Art of Demonsteel|QID|38833|PRE|38559|M|54.6,84.0|Z|Highmountain|LVL|110|P|Blacksmithing;164|N|From Muirn Ironhorn.|
 C The Art of Demonsteel|QID|38833|M|54.6,84.0|Z|Highmountain|N|Strike the Metal x3|
@@ -342,7 +347,7 @@ C Runes of Power|QID|39940|M|67.85,28.07|Z|Azsuna|P|Inscription;773|US|NC|N|Fini
 C Control is Key|QID|39941|M|68.46,26.17|Z|Azsuna|P|Inscription;773|T|Overseer Felorax|NC|N|Click on the fel totem to summon Overseer Felorax.|
 T Control is Key|QID|39941|M|65.07,25.94|Z|Azsuna|P|Inscription;773|N|From Zarla Shadowheart.|
 T Runes of Power|QID|39940|M|65.07,25.94|Z|Azsuna|P|Inscription;773|N|From Zarla Shadowheart.|
-A The Burdens of Hunting|QID|39943|PRE|39941;39940|M|65.07,25.96|Z|Azsuna|P|Inscription;773|N|From Zarla Shadowheart.|
+A The Burdens of Hunting|QID|39943|PRE|39941 & 39940|M|65.07,25.96|Z|Azsuna|P|Inscription;773|N|From Zarla Shadowheart.|
 T The Burdens of Hunting|QID|39943|M|41.30,37.06|Z|Dalaran@Dalaran70|P|Inscription;773|N|To Professor Pallin|
 
 A Mysterious Messages|QID|39944|M|41.30,37.06|Z|Dalaran@Dalaran70|LVL|104|P|Inscription;773|N|From Professor Pallin|
@@ -356,7 +361,7 @@ K Bonespeaker Mystic|ACTIVE|39946|QO|1|M|70.17,42.05;71.97,44.45|Z|Stormheim|CN|
 C Ancient Vrykul Rune Tablet|QID|39945|QO|1|M|70.15,42.24;71.82,38.86;70.16,44.61;73.12,42.90|Z|Stormheim|CN|US|N|Get Tablets from Haustvald walls and rooms.|
 T Runes Within the Ruins|QID|39945|M|69.27,40.59|Z|Stormheim|P|Inscription;773|N|To Nicholo Swiftfuse.|
 T Right Tool for the Job|QID|39946|M|69.27,40.59|Z|Stormheim|P|Inscription;773|N|To Nicholo Swiftfuse.|
-A Not So Complex?|QID|39947|PRE|39945;39946|M|69.27,40.59|Z|Stormheim|P|Inscription;773|N|From Nicholo Swiftfuse.|
+A Not So Complex?|QID|39947|PRE|39945 & 39946|M|69.27,40.59|Z|Stormheim|P|Inscription;773|N|From Nicholo Swiftfuse.|
 C Back away|QID|39947|N|Unless you like a fight or are a tank, back off from Nicholo.|
 T Not So Complex?|QID|39947|M|69.27,40.59|Z|Stormheim|P|Inscription;773|N|To Nicholo Swiftfuse.|
 A Ancient Vrykul Mastered|QID|40052|PRE|39947|M|69.27,40.59|Z|Stormheim|P|Inscription;773|N|From Nicholo Swiftfuse.|
@@ -467,9 +472,9 @@ C Dragon Glass|QID|40546|QO|1|M|46.67, 31.18|Z|Stormheim|N|Loot the gem here.|
 C Storm Dragon Charges|QID|40541|QO|1|M|43.20,40.40;44.40,33.90;42.50,28.23;47.47,33.05;44.12,31.73;44.60,29.00;43.10,37.95;45.42,26.21;46.38,36.70|Z|Stormheim|US|CN|N|Use the Jewel on the drake corpses when it flashes on your screen.|T|Adult Squallhunter|
 T The Charge Within|QID|40541|M|42.25,34.99|Z|Stormheim|N|To Jabrul|
 T Mysteries of Nature|QID|40546|M|42.25,34.99|Z|Stormheim|N|To Jabrul|
-A Eyes of Nashal|QID|40542;40543;40544|PRE|40541;40546|M|42.25,34.99|Z|Stormheim|N|From Jabrul|
-C Up to the Head|QID|40542;40543;40544|QO|1|M|42.46,34.05|Z|Stormheim|CS|NC|N|Loot the eyes of the giant statute. Go up the door behind Jabrul.|
-T Eyes of Nashal|QID|40542;40543;40544|M|42.25,34.99|Z|Stormheim|N|To Jabrul|
+A Eyes of Nashal|QID|40542^40543^40544|PRE|40541 & 40546|M|42.25,34.99|Z|Stormheim|N|From Jabrul|
+C Up to the Head|QID|40542^40543^40544|QO|1|M|42.46,34.05|Z|Stormheim|CS|NC|N|Loot the eyes of the giant statute. Go up the door behind Jabrul.|
+T Eyes of Nashal|QID|40542^40543^40544|M|42.25,34.99|Z|Stormheim|N|To Jabrul|
 
 ; Jewelcrafting Level 108
 A Jabrul Needs You|QID|40556|PRE|40542|M|39.97,34.03|Z|Dalaran@Dalaran70|P|Jewelcrafting;755|LVL|108|N|From Letter From Jabrul. If you don't see the quest, leave Dalaran and then come back to the shop.|
@@ -534,8 +539,8 @@ C Naga Know-How|QID|40189|PRE|40187|M|53.86,42.85|Z|Azsuna|P|Leatherworking;165|
 C Best Served Cold|QID|40188|M|57.39,40.47|Z|Azsuna|P|Leatherworking;165|QO|1|N|Kill Ranaris.|
 T Best Served Cold|QID|40188|PRE|40187|LVL|102|M|47.52,44.17|Z|Azsuna|P|Leatherworking;165|N|To Celea.|
 T Naga Know-How|QID|40189|PRE|40187|LVL|102|M|47.52,44.17|Z|Azsuna|P|Leatherworking;165|N|To Celea.|
-A A Daring Rescue|QID|40195|PRE|40188;40189|LVL|104|M|47.52,44.17|Z|Azsuna|P|Leatherworking;165|N|From Celea.|
-A Reclaimed Cargo|QID|40194|PRE|40188;40189|LVL|104|M|47.52,44.17|Z|Azsuna|P|Leatherworking;165|N|From Celea.|
+A A Daring Rescue|QID|40195|PRE|40188 & 40189|LVL|104|M|47.52,44.17|Z|Azsuna|P|Leatherworking;165|N|From Celea.|
+A Reclaimed Cargo|QID|40194|PRE|40188 & 40189|LVL|104|M|47.52,44.17|Z|Azsuna|P|Leatherworking;165|N|From Celea.|
 C Reclaimed Cargo|QID|40194|M|46.48,59.32|Z|Azsuna/18|P|Leatherworking;165|QO|1|S|N|Find Crates scattered throughout.|
 A Testing the Metal|QID|40327|PRE|40195|M|82.66,85.18|Z|Azsuna/18|P|Leatherworking;165|N|From Taldranis.|
 A Claw of the Land|QID|40192|LVL|104|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|N|From Hrul Sharphoof.|
@@ -582,7 +587,7 @@ C Evolution of the Past|QID|40204|M|50.90,57.76;49.71,67.10|Z|Highmountain|CN|P|
 t Strength of the Past|QID|40203|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|LVL|108|N|To Hrul Sharphoof.|
 t Respect for the Past|QID|40205|M|36.65,79.43|Z|ThunderTotem|P|Leatherworking;165|LVL|108|N|To Hrul Sharphoof.|
 t Evolution of the Past|QID|40204|M|36.65,73.43|Z|ThunderTotem|P|Leatherworking;165|LVL|108|N|To Hrul Sharphoof.|
-A Well Spent Time|QID|40415|PRE|40203;40204;40205|M|36.65,73.43|Z|ThunderTotem|P|Leatherworking;165|LVL|108|N|From Hrul Sharphoof.|
+A Well Spent Time|QID|40415|PRE|40203 & 40204 & 40205|M|36.65,73.43|Z|ThunderTotem|P|Leatherworking;165|LVL|108|N|From Hrul Sharphoof.|
 t Well Spent Time|QID|40415|M|35.05,29.25|Z|Dalaran@Dalaran70|LVL|108|P|Leatherworking;165|N|To Namha Moonwater|
 A A Debt Paid|QID|40206|PRE|40199|M|34.45,28.43|Z|Dalaran@Dalaran70|LVL|108|P|Leatherworking;165|N|From Thanid Glowergold.|
 T A Debt Paid|QID|40206|M|47.52,44.17|Z|Azsuna|P|Leatherworking;165|N|To Celea.|
@@ -597,7 +602,7 @@ C Scales of the Earth|QID|40209|M|53.31,29.72;53.29,28.39|Z|Azsuna|CS|T|Axetail 
 T Scales of the Earth|QID|40209|M|47.52,44.17|Z|Azsuna|P|Leatherworking;165|N|To Celea.|
 T Scales of the Sea|QID|40208|M|47.52,44.17|Z|Azsuna|P|Leatherworking;165|N|To Celea.|
 T Scales of the Arcane|QID|40207|M|47.52,44.17|Z|Azsuna|P|Leatherworking;165|N|To Celea.|
-A Time Well Spent|QID|40210|PRE|40207;40208;40209|M|47.52,44.17|Z|Azsuna|P|Leatherworking;165|N|From Celea.|
+A Time Well Spent|QID|40210|PRE|40207 & 40208 & 40209|M|47.52,44.17|Z|Azsuna|P|Leatherworking;165|N|From Celea.|
 T Time Well Spent|QID|40210|M|35.05,29.25|Z|Dalaran@Dalaran70|P|Leatherworking;165|N|To Namha Moonwater|
 A Demon Flesh|QID|40211|PRE|40210|M|35.05,29.25|Z|Dalaran@Dalaran70|LVL|110|P|Leatherworking;165|N|From Namha Moonwater|
 A Mounting Made Easy|QID|40215|PRE|40210|M|35.05,29.25|Z|Dalaran@Dalaran70|LVL|110|P|Leatherworking;165|N|From Namha Moonwater|
@@ -627,7 +632,7 @@ K Kill Tallian|QID|40212|M|47.33,76.33|Z|Suramar|P|Leatherworking;165|T|Tallian|
 K Kill Feorias|QID|40212|M|46.15,77.14|Z|Suramar|P|Leatherworking;165|T|Feorias|QO|1|N|Kill Feorias, in the market, watch out for roving Seeing guards.|
 K Kill Syana|QID|40212|M|50.78,76.78|Z|Suramar|P|Leatherworking;165|T|Syana|QO|3|N|Kill Syana, he's over by Deline.|
 t Wrong End of the Knife|QID|40212|M|26.53,71.61|Z|Suramar|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
-A Fel Tanning|QID|40214|PRE|40212;40213|LVL|110|M|26.53,71.61|Z|Suramar|P|Leatherworking;165|N|From Stalriss Dawnrunner.|
+A Fel Tanning|QID|40214|PRE|40212 & 40213|LVL|110|M|26.53,71.61|Z|Suramar|P|Leatherworking;165|N|From Stalriss Dawnrunner.|
 C Fel Tanning|QID|40214|M|26.54,71.70|Z|Suramar|P|Leatherworking;165|N|Create, at the tanning rack:\nFel Leather Cuff x2\nFel Leather Strap x10 (you make 2 each time).\n Create Felhide Bracers.|
 t Fel Tanning|QID|40214|M|26.53,71.61|Z|Suramar|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
 
@@ -640,7 +645,7 @@ t Felslate Seam Sample|QID|38796|M|46.21,26.63|Z|Dalaran@Dalaran70|P|Mining;186|
 A Living Felslate Sample|QID|38797|ACTIVE|38797|LVL|98|P|Mining;186|N|Auto Accept from UI|
 t Living Felslate Sample|QID|38797|M|46.21,26.63|Z|Dalaran@Dalaran70|P|Mining;186|N|To Mama Diggs|
 
-A The Felsmiths|QID|38901|PRE|38795;38796;38797|M|46.21,26.63|Z|Dalaran@Dalaran70|LVL|98|P|Mining;186|N|From Mama Diggs|
+A The Felsmiths|QID|38901|PRE|38795 & 38796 & 38797|M|46.21,26.63|Z|Dalaran@Dalaran70|LVL|98|P|Mining;186|N|From Mama Diggs|
 F Felblaze Ingress|QID|38901|ACTIVE|38901|M|69.85,51.15|Z|Dalaran@Dalaran70|P|Mining;186|N|Fly to Felblaze Ingress, At Aludane Whitecloud.\n[The Felsmiths]|
 R Nal'ryssa Encampment|QID|38901|ACTIVE|38901|M|21.36,63.70;25.62,55.00|Z|Suramar|CS|P|Mining;186|N|Run towards Suramar|
 T The Felsmiths|QID|38901|M|29.87,53.20|Z|Suramar|P|Mining;186|N|To Felsmith Nal'ryssa. She moves around.|
@@ -657,7 +662,7 @@ A Leystone Seam Sample|QID|38784|ACTIVE|38784|LVL|98|P|Mining;186|N|Auto Accept 
 t Leystone Seam Sample|QID|38784|M|46.21,26.63|Z|Dalaran@Dalaran70|P|Mining;186|N|To Mama Diggs|
 A Living Leystone Sample|QID|38785|ACTIVE|38785|LVL|98|P|Mining;186|N|Auto Accept from UI|
 t Living Leystone Sample|QID|38785|M|46.21,26.63|Z|Dalaran@Dalaran70|P|Mining;186|N|To Mama Diggs|
-A The Highmountain Tauren|QID|38888|PRE|38777;38784;38785|M|46.21,26.63|Z|Dalaran@Dalaran70|P|Mining;186|N|From Mama Diggs|
+A The Highmountain Tauren|QID|38888|PRE|38777 & 38784 & 38785|M|46.21,26.63|Z|Dalaran@Dalaran70|P|Mining;186|N|From Mama Diggs|
 t The Highmountain Tauren|QID|38888|M|48.00,68.10;49.87,79.66;50.35,80.61;55.09,84.06|Z|Highmountain|CS|P|Mining;186|N|To Ronos Ironhorn.\nPath starts near Netharian's Lair.|
 A Where Respect is Due|QID|38786|PRE|38888|M|55.09,84.06|Z|Highmountain|P|Mining;186|N|From Ronos Ironhorn.|
 C Where Respect is Due|QID|38786|M|48.8,54.6|Z|Highmountain|LVL|98|U|128767|P|Mining;186|N|Mine/Kill mobs in this area.|
@@ -766,7 +771,7 @@ B Master of Silkweave|QID|38969|M|40.20,69.55|Z|Suramar|L|127266 1|P|Tailoring;1
 C Master of Silkweave|QID|38969|M|40.20,69.55|Z|Suramar|U|127266|QO|1|P|Tailoring;197|N|Create all 8 pieces of Silkweave Cloth Armor.\nYou will need:\nShal'dorei Silk x151,\nRunic Catgut x10,\nSharp Spritethorn x2.\n\nSilkweave Gloves\nSilkweave Hood\nSilkweave Pantaloons\nSilkweave Slippers\nSilkweave Bracers\nSilkweave Robe\nSilkweave Cinch\nSilkweave Epaulets.\n\n Once you've made them use the Mannequin to create Silkweave Set.|
 T Master of Silkweave|QID|38969|M|40.32,69.73|Z|Suramar|P|Tailoring;197|N|To Leyweaver Inondra.|
 T Proof of Loyalty|QID|38968|M|40.34,69.47|Z|Suramar|P|Tailoring;197|N|To Leyweaver Tytallo.|
-A The Queen's Grace Loom|QID|38970|PRE|38969;38968|M|40.34,69.47|Z|Suramar|P|Tailoring;197|N|From Leyweaver Tytallo.|
+A The Queen's Grace Loom|QID|38970|PRE|38969 & 38968|M|40.34,69.47|Z|Suramar|P|Tailoring;197|N|From Leyweaver Tytallo.|
 C The Queen's Grace Loom|QID|38970|M|40.27,69.69|Z|Suramar|P|Tailoring;197|N|Use Teleportation Crystal|
 C The Queen's Grace Loom|QID|38970|M|40.39,69.61|Z|Suramar|P|Tailoring;197|CHAT|N|Ask Leyweaver Azayna to Tell you about the loom.|
 C The Queen's Grace Loom|QID|38970|M|40.43,69.51|Z|Suramar|P|Tailoring;197|N|Use Teleportation Crystal|
@@ -820,7 +825,7 @@ A Pristine Stonewood Bow|QID|40358|ACTIVE|40358|P|Archaeology;794|N|From UI Aler
 C Pristine Stonewood Bow|QID|40358|ACTIVE|40358|M|40.62,25.98|Z|Dalaran@Dalaran70|QO|1|N|Put Artifact on Display.|
 t Pristine Stonewood Bow|QID|40358|M|40.62,25.98|Z|Dalaran@Dalaran70|N|To UI Alert.|
 
-A Archaeology Bi-Weekly Quests|QID|40857;41167;411711;41192|M|40.62,25.98|Z|Dalaran@Dalaran70|LVL|110|P|Archaeology;794|N|Not sure WHICH bi-weekly Quest will be up, just click this step, and any following ones till you get the one that is up.  NOT all quests are in here yet.|
+A Archaeology Bi-Weekly Quests|QID|40857^41167^411711^41192|M|40.62,25.98|Z|Dalaran@Dalaran70|LVL|110|P|Archaeology;794|N|Not sure WHICH bi-weekly Quest will be up, just click this step, and any following ones till you get the one that is up.  NOT all quests are in here yet.|
 
 ; A Bits and Pieces|QID|40857|AVAILABLE|40857|ACTIVE|-41167;-41171;-41192|M|40.62,25.98|Z|Dalaran@Dalaran70|LVL|110|P|Archaeology;794|N|From Dariness the Learned.|
 F Valdisdall|QID|40857|ACTIVE|40857|M|69.85,51.15|Z|Dalaran@Dalaran70|N|At Aludane Whitecloud.|
@@ -864,11 +869,11 @@ A The Prodigal Sous Chef|QID|40989|PRE|37727|LVL|98|P|Cooking;185|AVAILABLE|3133
 t The Prodigal Sous Chef|QID|40989|M|40.09,65.97|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Alliance|N|To Nomi.|
 t The Prodigal Sous Chef|QID|40989|M|69.90,38.50|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Horde|N|To Nomi.|
 
-A A Good Recipe List|QID|40990|PRE|40988+40989|M|40.09,65.97|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Alliance|N|From Nomi.|
-A A Good Recipe List|QID|40990|PRE|40988+40989|M|69.78,38.78|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Horde|N|From Nomi.|
-A Spicing Things Up|QID|44581|PRE|40988+40989|M|69.78,38.78|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Horde|N|From Nomi.|
+A A Good Recipe List|QID|40990|PRE|40988^40989|M|40.09,65.97|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Alliance|N|From Nomi.|
+A A Good Recipe List|QID|40990|PRE|40988^40989|M|69.78,38.78|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Horde|N|From Nomi.|
+A Spicing Things Up|QID|44581|PRE|40988^40989|M|69.78,38.78|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Horde|N|From Nomi.|
 T Spicing Things Up|QID|44581|M|69.78,38.78|Z|Dalaran@Dalaran70|FACTION|Horde|N|To Nomi.|
-A Spicing Things Up|QID|44581|PRE|40988+40989|M|40.09,65.97|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Alliance|N|From Nomi.|
+A Spicing Things Up|QID|44581|PRE|40988^40989|M|40.09,65.97|Z|Dalaran@Dalaran70|LVL|98|P|Cooking;185|FACTION|Alliance|N|From Nomi.|
 T Spicing Things Up|QID|44581|M|40.09,65.97|Z|Dalaran@Dalaran70|FACTION|Alliance|N|To Nomi.|
 
 C A Good Recipe List|QID|40990|N|Recipes are quest rewards for some kills, Unfortunately some of the Quests to get the ones you need have Pre-requirements that are covered with the Individual Zone Guides.|
@@ -900,8 +905,8 @@ A Bloody Plea|QID|42308|ACTIVE|42308|LVL|98|P|First Aid;129|N|Auto Accept from U
 A Bloody Request|QID|42309|ACTIVE|42309|LVL|98|P|First Aid;129|N|Auto Accept from UI|
 A Bloody Letter|QID|42350|ACTIVE|42350|LVL|98|P|First Aid;129|N|Auto Accept from UI|
 A Bloody Prayer|QID|42351|ACTIVE|42351|LVL|98|P|First Aid;129|N|Auto Accept from UI|
-C Bloody First Aid|QID|42255;42308;42309;42350;42351|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129|L|136654 3|N|Buy one (or more) Field Pack from Angelique Butler.|
-C Bloody First Aid|QID|42255;42308;42309;42350;42351|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129|L|133940 3|N|Create (at least) 3 Silkweave Bandages.|
+C Bloody First Aid|QID|42255^42308^42309^42350^42351|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129|L|136654 3|N|Buy one (or more) Field Pack from Angelique Butler.|
+C Bloody First Aid|QID|42255^42308^42309^42350^42351|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129|L|133940 3|N|Create (at least) 3 Silkweave Bandages.|
 
 C Bloody Note|QID|42255|M|42.6,20.6|Z|Azsuna|P|First Aid;129|CHAT|N|Stablize the patient.|
 t Bloody Note|QID|42255|M|42.6,20.6|Z|Azsuna|P|First Aid;129|N|Auto Turn-in to UI|
@@ -919,9 +924,9 @@ t Bloody Prayer|QID|42351|M|37.30,20.41|Z|Suramar|P|First Aid;129|N|Auto Turn-in
 A Crumpled Request|QID|42058|ACTIVE|42058|LVL|98|P|First Aid;129|N|Auto Accept from UI|
 A Crumpled Letter|QID|42333|ACTIVE|42333|LVL|98|P|First Aid;129|N|Auto Accept from UI|
 A Crumpled Note|QID|42334|ACTIVE|42334|LVL|98|P|First Aid;129|N|Auto Accept from UI|
-C Crumpled First Aid|QID|42058;42333|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129|L|136654 1|N|Buy one (or more) Field Pack from Angelique Butler.|
+C Crumpled First Aid|QID|42058^42333|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129|L|136654 1|N|Buy one (or more) Field Pack from Angelique Butler.|
 C Crumpled First Aid|QID|42334|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129|L|136654 5|N|Buy five (or more) Field Pack from Angelique Butler.|
-C Crumpled First Aid|QID|42058;42333|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129;760|L|133942 2|N|Create (at least) 2 Silkweave Splints.|
+C Crumpled First Aid|QID|42058^42333|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129;760|L|133942 2|N|Create (at least) 2 Silkweave Splints.|
 C Crumpled First Aid|QID|42334|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129;760|L|133942 10|N|Create (at least) 10 Silkweave Splints.|
 C Crumpled Request|QID|42058|M|50,21.8|Z|Stormheim|P|First Aid;129|CHAT|N|Set the Adventurer's Limb.|
 t Crumpled Request|QID|42058|M|50,21.8|Z|Stormheim|P|First Aid;129|N|Auto Turn-in to UI|
@@ -937,7 +942,7 @@ A Fevered Plea|QID|42250|ACTIVE|42250|LVL|98|P|First Aid;129|N|Auto Accept from 
 A Fevered Note|QID|42303|ACTIVE|42303|LVL|98|P|First Aid;129|N|Auto Accept from UI|
 A Fevered Letter|QID|42323|ACTIVE|42323|LVL|98|P|First Aid;129|N|Auto Accept from UI|
 A Fevered Prayer|QID|42345|ACTIVE|42345|LVL|98|P|First Aid;129|N|Auto Accept from UI|
-C Fevered First Aid|QID|41985;42250;42303;42323;42345|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129|L|136654 3|N|Buy at least 3 (or more) Field Packs from Angelique Butler.|
+C Fevered First Aid|QID|41985^42250^42303^42323^42345|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129|L|136654 3|N|Buy at least 3 (or more) Field Packs from Angelique Butler.|
 F Forsaken Foothold|QID|41985|ACTIVE|41985|M|69.83,50.65|Z|Dalaran@Dalaran70|N|At your closest, Flight Master, Fly to Forsaken Foothold. This step is mapped to Aludane Whitecloud, in Dalaran.|
 C Fevered Request|QID|41985|M|38.72,30.59|Z|Stormheim|P|First Aid;129|N|Treat Fevered Explorer.|
 t Fevered Request|QID|41985|M|38.72,30.59|Z|Stormheim|P|First Aid;129|N|Auto Turn-in to UI.|
@@ -960,9 +965,9 @@ t Fevered Prayer|QID|42345|M|16.31,25.32|Z|Suramar|P|First Aid;129|N|Auto Turn-i
 A Singed Letter|QID|42215|ACTIVE|42215|LVL|98|P|First Aid;129|N|Auto Accept from UI|
 A Singed Note|QID|42245|ACTIVE|42245|LVL|98|P|First Aid;129|N|Auto Accept from UI|
 A Singed Plea|QID|42340|ACTIVE|42340|LVL|98|P|First Aid;129|N|Auto Accept from UI|
-C Singed First Aid|QID|42215;42245|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129|L|136654 1|N|Buy one (or more) Field Packs from Angelique Butler.|
+C Singed First Aid|QID|42215^42245|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129|L|136654 1|N|Buy one (or more) Field Packs from Angelique Butler.|
 C Singed First Aid|QID|42340|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129|L|136654 3|N|Buy three (or more) Field Packs from Angelique Butler.|
-C Singed First Aid|QID|42215;42245|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129|L|136653 3|N|Create (at least) three Silvery Salves.|
+C Singed First Aid|QID|42215^42245|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129|L|136653 3|N|Create (at least) three Silvery Salves.|
 C Singed First Aid|QID|42340|M|36.53,37.67|Z|Dalaran@Dalaran70|P|First Aid;129|L|136653 3|N|Create (at least) nine Silvery Salves.|
 C Singed Letter|QID|42215|M|48.42,73.60|Z|Stormheim|P|First Aid;129|CHAT|N|Treat the Scout's Felburns.|
 t Singed Letter|QID|42215|M|48.42,73.60|Z|Stormheim|P|First Aid;129|N|Auto Turn-in to UI.|

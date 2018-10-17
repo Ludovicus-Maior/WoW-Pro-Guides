@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mount_hyjal_neutral
+-- Date: 2018-10-17 02:30
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3303/revisions/29253/view
 -- Date: 2018-05-02 00:49
 -- Who: Ludovicus_Maior
 -- Log: Fix QIDs for [Into the Maw!] mess.  Thanks NZALL.
@@ -259,8 +264,8 @@ A Warchief's Command: Mount Hyjal!|QID|27721|M|49.7,76.7|Z|Orgrimmar|N|Get the q
 C Warchief's Command: Mount Hyjal!|QID|27721|M|40.0,50.5|CHAT|Z|Orgrimmar|N|Speak to Cenarion Emissary Blackhoof in the Valley of Wisdom and ask "Could you please send me to Moonglade Emissary?".|FACTION|Horde|
 T Warchief's Command: Mount Hyjal!|QID|27721|M|45.5,44.7|Z|Moonglade|N|At Emissary Windsong.|FACTION|Horde|
 
-A As Hyjal Burns|QID|25316|LEAD|25317|PRE|27721+27726|M|45.3,44.8|Z|Moonglade|N|From Emissary Windsong.|FACTION|Alliance|
-A As Hyjal Burns|QID|25316|LEAD|25317|PRE|27721+27726|M|45.3,44.8|Z|Moonglade|N|From Emissary Windsong.|FACTION|Horde|
+A As Hyjal Burns|QID|25316|LEAD|25317|PRE|27721^27726|M|45.3,44.8|Z|Moonglade|N|From Emissary Windsong.|FACTION|Alliance|
+A As Hyjal Burns|QID|25316|LEAD|25317|PRE|27721^27726|M|45.3,44.8|Z|Moonglade|N|From Emissary Windsong.|FACTION|Horde|
 
 F Nordrassil|QID|25316|M|46.1,45.51|Z|Moonglade|N|Jump on Aronus to fly to Nordrassil.|
 T As Hyjal Burns|QID|25316|M|62.08,24.89|N|To Ysera.|
@@ -392,21 +397,21 @@ T Free Your Mind, the Rest Follows|QID|25298|RANK|2|M|28.21,29.90|N|To Rio Duran
 
 C Lightning in a Bottle|QID|25353|U|52834|M|22.85,31.90|N|Use the Condenser Jar.|FACTION|Alliance|
 T Lightning in a Bottle|QID|25353|U|52853|M|22.85,31.93|N|Use the Totem, then turn the quest into the Spirit of Goldrinn.|FACTION|Alliance|
-A Into the Maw!|QID|25618;25623|PRE|25353|M|22.87,31.93|N|From the summoned Spirit of Goldrinn. If the spirit despawned on you, complete this step and pick the quest up from Ian Duran.|FACTION|Alliance|
-A Into the Maw!|QID|25623;25618|M|28.2,29.8|N|From Ian Duran.|FACTION|Alliance|
+A Into the Maw!|QID|25618^25623|PRE|25353|M|22.87,31.93|N|From the summoned Spirit of Goldrinn. If the spirit despawned on you, complete this step and pick the quest up from Ian Duran.|FACTION|Alliance|
+A Into the Maw!|QID|25623^25618|M|28.2,29.8|N|From Ian Duran.|FACTION|Alliance|
 
 l Lightning in a Bottle|QID|25355|L|52834|M|22.85,31.90|N|Loot a Charged Condenser Jar from the lightning rods scattered around the area.|FACTION|Horde|
 T Lightning in a Bottle|QID|25355|U|52854|N|Use the Totem of Lo'Gosh to summon the wolf spirit.|FACTION|Horde|
-A Into the Maw!|QID|25617;25624|PRE|25355|N|From the summoned Spirit of Lo'Gosh. If the spirit despawned on you, complete this step and pick the quest up from Takrik Ragehowl.|FACTION|Horde|
-A Into the Maw!|QID|25624;25617|M|28.4,29.8|N|From Takrik Ragehowl.|FACTION|Horde|
+A Into the Maw!|QID|25617^25624|PRE|25355|N|From the summoned Spirit of Lo'Gosh. If the spirit despawned on you, complete this step and pick the quest up from Takrik Ragehowl.|FACTION|Horde|
+A Into the Maw!|QID|25624^25617|M|28.4,29.8|N|From Takrik Ragehowl.|FACTION|Horde|
 
-C Sweeping the Shelf|QID|25352;25354|M|26.76,40.87|N|Kill Twilight Stormcallers and Howling Riftdwellers.|
-T Into the Maw!|QID|25618;25623;25617;25617|M|26.1,41.1|N|Enter the portal in the center of the Twilight Cultists camp, and turn in at Jordan Olafson.|
+C Sweeping the Shelf|QID|25352^25354|M|26.76,40.87|N|Kill Twilight Stormcallers and Howling Riftdwellers.|
+T Into the Maw!|QID|25618^25623^25617^25617|M|26.1,41.1|N|Enter the portal in the center of the Twilight Cultists camp, and turn in at Jordan Olafson.|
 
 ;There are four possible PRE quests, two Horde, two Alliance, depending on where it is picked up from.
-A Crushing the Cores|QID|25577|PRE|25618+25623+25617+25617|M|26.24,41.89|N|From Jordan Olafson.|
-A Forged of Shadow and Flame|QID|25575|PRE|25618+25623+25617+25617|M|26.27,41.93|N|From Yargra Blackscar.|
-A Rage of the Wolf Ancient|QID|25576|PRE|25618+25623+25617+25617|M|26.29,41.94|N|From Yargra Blackscar.|
+A Crushing the Cores|QID|25577|PRE|25618^25623^25617^25617|M|26.24,41.89|N|From Jordan Olafson.|
+A Forged of Shadow and Flame|QID|25575|PRE|25618^25623^25617^25617|M|26.27,41.93|N|From Yargra Blackscar.|
+A Rage of the Wolf Ancient|QID|25576|PRE|25618^25623^25617^25617|M|26.29,41.94|N|From Yargra Blackscar.|
 C Forged of Shadow and Flame|QID|25575|S|M|30.11,39.21|N|Destroy Twilight Arms Crates as you come across them.|
 l Crushing the Cores|QID|25577|S|L|55123 8|N|Kill Searing Guardians and loot Smoldering Cores.|
 C Rage of the Wolf Ancient|QID|25576|M|28.51,40.57|N|Kill Dark Iron Laborers.|
@@ -416,7 +421,7 @@ C Crushing the Cores|QID|25577|U|55123|N|Find a Twilight Anvil, which is usually
 T Rage of the Wolf Ancient|QID|25576|M|26.34,41.95|N|To Yargra Blackscar.|
 T Forged of Shadow and Flame|QID|25575|M|26.30,41.91|N|To Jordan Olafson.|
 T Crushing the Cores|QID|25577|M|26.30,41.91|N|To Jordan Olafson.|
-A Cindermaul, the Portal Master|QID|25599|PRE|25575;25576;25577|M|26.34,41.88|N|From Jordan Olafson.|
+A Cindermaul, the Portal Master|QID|25599|PRE|25575 & 25576 & 25577|M|26.34,41.88|N|From Jordan Olafson.|
 C Cindermaul, the Portal Master|QID|25599|M|30.75,41.61|N|Head west back to the center of the cavern. From the center, follow the path down to the right. In the first cavern to the left, you will find Cindermaul. Kill him, then loot the chest he leaves behind.|
 T Cindermaul, the Portal Master|QID|25599|M|26.30,41.87|N|To Jordan Olafson.|
 A Forgemaster Pyrendius|QID|25600|PRE|25599|M|26.33,41.88|N|From Jordan Olafson.|
@@ -449,14 +454,14 @@ C The Wormwing Problem|QID|25655|US|M|39.08,41.53|N|Finish killing any harpy.|
 
 T The Wormwing Problem|QID|25655|M|42.18,45.40|N|To Thisalee Crow.|
 T Scrambling for Eggs|QID|25656|M|42.18,45.40|N|To Thisalee Crow.|
-A A Bird in Hand|QID|25731|PRE|25655;25656|M|42.18,45.40|N|From Thisalee Crow.|
+A A Bird in Hand|QID|25731|PRE|25655 & 25656|M|42.18,45.40|N|From Thisalee Crow.|
 T A Plea From Beyond|QID|25665|M|44.38,46.20|N|To Choluna.|
 A A Prayer and a Wing|QID|25664|PRE|25665|M|44.38,46.20|N|From Choluna.|
 C A Bird in Hand|QID|25731|M|38.50,44.04|N|Find the signal fire just west of the shrine. Use it to summon Marion Wormwing. Fight her until Thisalee Crow sneaks up behind her and captures her. Once she is captured, talk to Marion Wormwing. Go through the dialogue options until you get the quest complete message for A Bird in Hand (you can choose to kill or let her go, they will both finish the quest.|
 C A Prayer and a Wing|QID|25664|U|55211|M|35.67,42.30|N|Get on your flying mount and fly up to the top of the ridge to the north. You will see several nests. Land in one and use the Enormous Bird Call to summon Blaithe.|
 T A Bird in Hand|QID|25731|M|42.20,45.37|N|To Thisalee Crow.|
 T A Prayer and a Wing|QID|25664|M|44.38,46.21|N|To Choluna.|
-A Fact-Finding Mission|QID|25740|PRE|25664;25731|M|43.55,45.82|N|From Skylord Omnuron. We will be doing this quest later.|
+A Fact-Finding Mission|QID|25740|PRE|25664 & 25731|M|43.55,45.82|N|From Skylord Omnuron. We will be doing this quest later.|
 A Save the Wee Animals|QID|25385|PRE|25584|M|19.25,37.96|N|Mount up and head west, past the Shrine of Goldrinn and the Twilight Cultists camp. Follow the road until you reach the Grove of Aessina. From Mylune.|
 A If You're Not Against Us...|QID|25404|PRE|25584|M|19.04,36.98|N|From Matoclaw.|
 f Grove of Aessina|QID|25404|M|19.58,36.42|N|At Elizil Wintermoth.|
@@ -493,9 +498,9 @@ T Oh, Deer!|QID|25392|M|19.24,37.81|N|To Mylune.|
 T Black Heart of Flame|QID|25428|M|22.18,44.93|N|To Tyrus Blackhorn.|
 A Good News... and Bad News|QID|29066|PRE|25428|M|19.08,37.03|N|Auto-accepted after turning in "Black Heart of Flame".|
 T Good News... and Bad News|QID|29066|M|19.08,37.03|N|To Matoclaw.|
-A Last Stand at Whistling Grove|QID|25940|LEAD|25462|PRE|25428;25382;25392|M|19.10,40.98|N|From Laina Nightsky.|
+A Last Stand at Whistling Grove|QID|25940|LEAD|25462|PRE|25428 & 25382 & 25392|M|19.10,40.98|N|From Laina Nightsky.|
 T Last Stand at Whistling Grove|QID|25940|M|13.68,32.88|N|To Keeper Taldros.|
-A The Bears Up There|QID|25462|PRE|25428;25382;25392|M|13.68,32.88|N|From Keeper Taldros.|
+A The Bears Up There|QID|25462|PRE|25428 & 25382 & 25392|M|13.68,32.88|N|From Keeper Taldros.|
 C The Bears Up There|QID|25462|M|13.93,34.22|N|Find one of the trees nearby that has small ladders around its base. Click on one of the ladders to climb into the tree. In the tree, Click on one of the bear cubs you are near to grab it. Then use the vehicle controls on your action bar to climb to the top of the tree. Once you are at the top of the tree, you will get a new control: Chuck-a-Bear. Aim for the trampoline in front of Keeper Taldros and toss the bear cub onto it. Then climb to a lower part of the tree to get another bear cub. Repeat 6 times.|
 T The Bears Up There|QID|25462|M|13.66,32.89|N|To Keeper Taldros.|
 A Smashing Through Ashes|QID|25490|PRE|25462|M|13.71,32.87|N|From Keeper Taldros.|
@@ -538,7 +543,7 @@ C Disassembly|QID|25761|U|55883|US|M|30.70,80.05|N|Find a Twilight Juggernaut. U
 T Disassembly|QID|25761|M|32.78,70.74|N|To Thisalee Crow.|
 T Egg Hunt|QID|25764|M|32.78,70.74|N|To Thisalee Crow.|
 
-A Sethria's Demise|QID|25776|PRE|25746;25761;25764|M|32.78,70.74|N|From Thisalee Crow.|
+A Sethria's Demise|QID|25776|PRE|25746 & 25761 & 25764|M|32.78,70.74|N|From Thisalee Crow.|
 C Sethria's Demise|QID|25776|U|56003|M|35.46,97.83|N|Attack her until she changes into her dragon form. When she does, use Thisalee's Signal Rocket to summon the Druids of the Talon to help you defeat her. She will occasionally place a shadow fissure on the ground around. Move out of it as soon as you see it to avoid massive damage.|
 T Sethria's Demise|QID|25776|M|32.78,70.77|N|To Thisalee Crow.|
 A Return to the Shrine|QID|25795|PRE|25776|M|32.78,70.77|N|From Thisalee Crow.|
@@ -555,7 +560,7 @@ C Second Rod of Subjugation|QID|25514|M|24.00,59.93|N|There is another Rod of Su
 T Children of Tortolla|QID|25519|M|24.49,55.81|N|To Tortolla.|
 T Breaking the Bonds|QID|25514|M|24.45,55.85|N|To Tortolla.|
 
-A An Ancient Awakens|QID|25520|PRE|25514;25519|M|24.49,55.81|N|From Tortolla.|
+A An Ancient Awakens|QID|25520|PRE|25514 & 25519|M|24.49,55.81|N|From Tortolla.|
 T An Ancient Awakens|QID|25520|M|27.10,62.57|N|To Arch Druid Hamuul Runetotem.|
 
 F Shrine of Aviana|QID|25795|M|41.74,44.74|CC|N|Fly to the Shrine of Aviana. Either take the flight point, or fly there on your mount.|
@@ -653,7 +658,7 @@ T Waste of Flesh|QID|25330|M|77.09,62.23|N|To Instructor Cargall.|
 T Trial By Fire|QID|25223|M|76.95,62.15|N|To Condenna the Pitiless.|
 T In Bloom|QID|25224|M|76.95,62.15|N|To Condenna the Pitiless.|
 
-A Twilight Training|QID|25291|PRE|25223;25224;25330|M|76.95,62.15|N|From Condenna the Pitiless.|
+A Twilight Training|QID|25291|PRE|25223 & 25224 & 25330|M|76.95,62.15|N|From Condenna the Pitiless.|
 T Twilight Training|QID|25291|M|89.54,59.05|N|To Instructor Mylva.|
 A Physical Training: Forced Labor|QID|25509|PRE|25291|M|89.54,59.05|N|From Instructor Mylva.|
 A Walking the Dog|QID|25294|PRE|25291|M|90.08,56.48|N|From Instructor Devoran.|
@@ -692,14 +697,14 @@ T Grudge Match|QID|25496|M|90.12,56.45|N|To Instructor Devoran.|
 T Seeds of Discord|QID|25308|M|88.28,58.51|N|To the Outhouse Hideout.|
 T Spiritual Training: Mercy is for the Weak|QID|25309|M|89.56,59.04|N|To Instructor Mylva.|
 
-A The Greater of Two Evils|QID|25310|PRE|25309;25496|M|89.59,58.98|N|From Instructor Mylva.|
-A Twilight Territory|QID|25311|PRE|25309;25496|M|89.59,58.98|N|From Instructor Mylva.|
+A The Greater of Two Evils|QID|25310|PRE|25309 & 25496|M|89.59,58.98|N|From Instructor Mylva.|
+A Twilight Territory|QID|25311|PRE|25309 & 25496|M|89.59,58.98|N|From Instructor Mylva.|
 C Twilight Territory|QID|25311|M|67.00,67.06|N|Kill Horrorguards.|S|
 C The Greater of Two Evils|QID|25310|U|54814|M|64.91,64.82|N|Use the Talisman of Flame Ascendancy and use the abilities you now have to kill Garnoth. Start off the fight by using Flame Shield to protect yourself, the use Ascendant Strike 3 times to attack Garnoth. Repeat this rotation until he is dead.|
 C Twilight Territory|QID|25311|M|67.00,67.06|N|Finish killing Horrorguards.|US|
 T The Greater of Two Evils|QID|25310|M|89.56,59.04|N|To Instructor Mylva.|
 T Twilight Territory|QID|25311|M|89.56,59.04|N|To Instructor Mylva.|
-A Speech Writing for Dummies|QID|25314|PRE|25308;25310;25311|M|88.31,58.53|N|From the Outhouse Hideout.|
+A Speech Writing for Dummies|QID|25314|PRE|25308 & 25310 & 25311|M|88.31,58.53|N|From the Outhouse Hideout.|
 C Speech Writing for Dummies|QID|25314|M|78.87,56.40|N|Kill Okrog, he can be found wandering along a small stretch of road in Darkwhisper Gorge.|T|Okrog|
 T Speech Writing for Dummies|QID|25314|M|88.23,58.48|N|To the Outhouse Hideout.|
 A Head of the Class|QID|25601|PRE|25314|M|88.23,58.48|N|From the Outhouse Hideout.|
@@ -742,7 +747,7 @@ C Death to the Broodmother|QID|25553|U|55173|M|54.78,85.27|N|Use the Young Twili
 C Magma Monarch|QID|25550|U|55179|M|43.89,82.83|N|Fly to the charred area southwest of Sulferon Spire. Find King Moltron. Land near him and use the Drums of the Turtle God to summon Tortolla. Kill King Moltron.|
 T Death to the Broodmother|QID|25553|M|72.24,73.91|N|To Aronus.|
 T Magma Monarch|QID|25550|M|72.07,74.00|N|To Commander Jarod Shadowsong.|
-A The Firelord|QID|25551|PRE|25550;25553;25555|M|71.95,73.96|N|From Cenarius.|
+A The Firelord|QID|25551|PRE|25550 & 25553 & 25555|M|71.95,73.96|N|From Cenarius.|
 C The Firelord|QID|25551|M|55.45,66.91|N|It's finally time to fight Ragnaros. Fly to the flamegate just past where you fought Azralon. Enter the portal and speak to Cenarius to start the battle. Malfurion Stormrage and Arch Druid Hamuul some to help out as well. Once the battle starts, Cenarius will hold threat on Ragnaros, while Hamuul and Malfurion cast spells on him that cause Ragnaros to take 2000% increased magic and physical damage. Every 30 secods or so, Ragnaros will submerge and summon a flame wave. Once the flame wave passes, Ragnaros will summon adds that attack Malfurion and Hamuul. Alternate between keeping the adds clear and DPS'ing Ragnaros until he dies.|
 T The Firelord|QID|25551|M|72.09,74.07|N|To Commander Jarod Shadowsong.|
 

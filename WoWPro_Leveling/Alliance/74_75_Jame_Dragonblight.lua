@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2018-10-17 02:24
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3291/revisions/29573/view
 -- Date: 2018-08-22 23:41
 -- Who: jovieve
 -- Log: Updated old style QO.
@@ -155,7 +160,7 @@ N Note |QID|12298|N|If you followed my previous guides, you should be in Winterg
 f Wintergarde Keep |QID|12298|N|Get the new flight path at Rodney Wells. |M|77.0,49.8|
 N Warning! |QID|12298|N|Throughout this whole chapter, do NOT get the quest [The Hills Have Us]. If you take it, this will fly you to Grizzly Hills and will make you waste a lot of time.|
 T High Commander Halford Wyrmbane |QID|12298|N|To High Commander Halford Wyrmbane.|M|78.60,48.20|
-A Naxxramas and the Fall of Wintergarde |QID|12235|PRE|12174+12298|M|78.6,48.2|N|From High Commander Halfor Wyrmbane.|
+A Naxxramas and the Fall of Wintergarde |QID|12235|PRE|12174^12298|M|78.6,48.2|N|From High Commander Halfor Wyrmbane.|
 
 T Naxxramas and the Fall of Wintergarde |QID|12235|N|Go back towards the gryphon master. To Gryphon Commander Urik.|M|77.1,50.1|
 A Flight of the Wintergarde Defender |QID|12237|PRE|12235|M|77.1,50.1|N|From Gryphon Commander Urik.|
@@ -330,7 +335,7 @@ T Elder Mana'loa |QID|12030|N|You should see a statue (looks more like a rock ac
 A Freedom for the Lingering |QID|12031|PRE|12030|M|36.62,64.98|N|From the statue that is Elder Mana'loa.|
 C Freedom for the Lingering |QID|12031|S|N|Kill Indu'le Fishermen/Warriors/Mystics until you finish this quest.|M|37.2,65.5|
 T Search Indu'le Village |QID|12098|N|Clear the way to the middle of Lake Indu'le where you should see the corpse of Mage-Commander Evenstar.|M|40.0,67.00|
-A The End of the Line |QID|12107|PRE|12098+12106|M|40.3,66.9|N|From the corpse of Mage-Commander Evenstar.|
+A The End of the Line |QID|12107|PRE|12098^12106|M|40.3,66.9|N|From the corpse of Mage-Commander Evenstar.|
 C Ley Line Focus information retrieved|QID|12107|U|36815|QO|1|N|Get close to the Ley Line Focus and right-click the Ley Line Focus Control Talisman, then wait until you get the quest completion.|NC|
 C Freedom for the Lingering |QID|12031|US|N|Get out of the lake, and finish kill Indu'le Fishermen/Warriors/Mystics until you finish up.|M|37.2,65.5|
 T Freedom for the Lingering |QID|12031|N|To Elder Mana'loa.|M|36.62,64.98|
@@ -476,11 +481,11 @@ A Audience With The Dragon Queen |QID|12495|PRE|12474|M|37.8,23.4|N|From Highlor
 F Wyrmrest Temple |QID|12146|M|39.5,25.9|N|Get the flight point and fly to Wyrmrest Temple.|
 
 T Disturbing Implications |QID|12146|N|Turn in to Aurastrasza, who resides at the bottom floor of Wyrmrest Temple.|M|60.0,55.1|
-A One of a Kind |QID|12148|PRE|12146+12147|M|60.0,55.1|N|From Aurastrasza.|
+A One of a Kind |QID|12148|PRE|12146^12147|M|60.0,55.1|N|From Aurastrasza.|
 
 T Mystery of the Infinite |QID|12470|N|Go to Tariolastrasz and ask him to fly you to the top floor. Turn the quest into Chromie.|M|60,54.49|
 T Audience With The Dragon Queen |QID|12495|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
-A Galakrond and the Scourge |QID|12497|PRE|12495+12496|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
+A Galakrond and the Scourge |QID|12497|PRE|12495^12496|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
 
 T Galakrond and the Scourge |QID|12497|N|To Torastrasza.|M|59.5,53.3|
 A On Ruby Wings |QID|12498|PRE|12497|M|59.5,53.3|N|From Torastrasza.|
@@ -659,7 +664,7 @@ T That Which Creates Can Also Destroy |QID|12459|N|Ask Tariolstrasz to take you 
 T Tales of Destruction |QID|12266|M|60.1,54.2|N|To Nalice.|
 T The Fate of the Ruby Dragonshrine |QID|12419|M|59.8,54.7|N|To Krasus.|
 T Informing the Queen |QID|12123|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
-A Report to Lord Afrasastrasz |QID|12435|PRE|12123+12124|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
+A Report to Lord Afrasastrasz |QID|12435|PRE|12123^12124|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
 T On Ruby Wings |QID|12498|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
 A Return To Angrathar |QID|12499|PRE|12498|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
 T Report to Lord Afrasastrasz |QID|12435|N|Ask Torastrasza to fly you down to the middle floor. Turn the quest into Lord Afrasastrasz.|M|59.2,54.3|

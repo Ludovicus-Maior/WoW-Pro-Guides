@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_neutral
+-- Date: 2018-10-17 02:30
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3255/revisions/29219/view
 -- Date: 2018-03-06 01:28
 -- Who: Ludovicus_EditBot
 -- Log: Level and LVL strip
@@ -204,7 +209,7 @@ r Sell junk, repair/restock.|QID|27964|M|68.41,53.43|N|At Burian Coalpart.|
 R The Cauldron|QID|27964|M|70.11,39.80;65.53,38.36;62.84,38.85|CC|N|Head to The Cauldron.|
 C Dig-Boss Dinwhisker|QID|27964|M|54.93,45.64|N|Kill Dark Iron Excavators and Footmen until Dig-Boss Dinwhisker appears. After you kill him, loot the "Dark Ember" off the ground.|
 T Dig-Boss Dinwhisker|QID|27964|M|68.52,53.68|N|To Jack Rockleg.|
-A Thorium Point: The Seat of the Brotherhood|QID|27965|PRE|27957;27958;27961;27962;27964|M|68.52,53.68|N|From Jack Rockleg.|
+A Thorium Point: The Seat of the Brotherhood|QID|27965|PRE|27957 & 27958 & 27961 & 27962 & 27964|M|68.52,53.68|N|From Jack Rockleg.|
 R Thorium Point|QID|27965|M|70.11,39.80;66.61,34.57;41.25,34.23|CC|N|Head to Thorium Point.|
 f Thorium Point|QID|27965|M|38.01,30.67|N|At Lanie Reed.|FACTION|Alliance|
 f Thorium Point|QID|27965|M|34.8,30.8|N|At Grisha.|FACTION|Horde|
@@ -233,7 +238,7 @@ T Rasha'krak|QID|28099|M|38.09,26.66|N|To Overseer Oilfist.|
 T The Spiders Have to Go|QID|27980|M|37.64,26.73|N|To Lookout Captain Lolo Longstriker.|
 T Recon Essentials|QID|27977|M|36.65,28.25|N|To Taskmaster Scrange.|
 A Twilight Collars|QID|27982|PRE|27977|M|36.75,28.25|N|From Taskmaster Scrange.|
-A Dark Ministry|QID|27979|PRE|27976;27977;27982|M|38.33,27.99|N|From Hansel Heavyhands.|
+A Dark Ministry|QID|27979|PRE|27976 & 27977 & 27982|M|38.33,27.99|N|From Hansel Heavyhands.|
 C Twilight Collars|QID|27982|S|M|38.68,28.71|N|Kill any Twilight mobs as you go along.|
 l Finister's Spherule|QID|27979|L|62824|M|24.68,26.29|N|Kill and loot Finister to get "Finister's Spherule".|
 
@@ -248,7 +253,7 @@ l Letherio's Spherule|QID|27979|L|62823|M|14.49,37.25|N|Kill Letherio and loot t
 C Dark Ministry|QID|27979|U|62824|M|14.49,37.25|N|Use one of the Spherules to combine them.|
 C Twilight Collars|QID|27982|US|M|13.44,42.20|N|Kill Twilight mobs to get the rest of the "Twilight Necklace"s you need.|
 T Dark Ministry|QID|27979|M|38.25,28.00|N|To Hansel Heavyhands.|
-A In the Hall of the Mountain-Lord|QID|27986|PRE|27979;28099|M|38.28,28.04|N|From Hansel Heavyhands.|
+A In the Hall of the Mountain-Lord|QID|27986|PRE|27979 & 28099|M|38.28,28.04|N|From Hansel Heavyhands.|
 T Twilight Collars|QID|27982|M|38.48,28.65|N|To Master Smith Burninate.|
 
 r Sell junk, repair/restock.|QID|27986|M|38.48,28.65|N|At Master Smith Burninate.|
@@ -277,7 +282,7 @@ T Siege!|QID|28028|M|39.32,67.71|N|To Mountain-Lord Rendan.|
 T Set Them Ablaze!|QID|28029|M|39.32,67.71|N|To Mountain-Lord Rendan.|
 T They Build a Better Bullet|QID|28030|M|39.32,67.71|N|To Mountain-Lord Rendan.|
 
-A Deceit|QID|28033|PRE|28028;28029;28030|M|39.32,67.71|N|From Mountain-Lord Rendan.|
+A Deceit|QID|28033|PRE|28028 & 28029 & 28030|M|39.32,67.71|N|From Mountain-Lord Rendan.|
 T Deceit|QID|28033|M|39.74,67.93|N|Find Lunk at the base of the tower.|
 A Lunk's Adventure: Rendan's Weakness|QID|28034|PRE|28033|M|39.74,67.93|N|Get from Lunk.|
 C Lunk's Adventure: Rendan's Weakness|QID|28034|M|39.74,67.93|N|Speak with three Iron Summit Guards and ask them to join your dance. |
@@ -302,7 +307,7 @@ C Slavery is Bad|QID|28054|US|M|39.19,34.30|N|Finish killing any Dark Iron Taskm
 T Slavery is Bad|QID|28054|M|43.72,28.46|N|Run up the ramp to Evonice Sootsmoker.|
 T Sweet, Horrible Freedom|QID|28055|M|43.72,28.46|N|To Evonice Sootsmoker.|
 T Rise, Obsidion|QID|28056|M|43.72,28.46|N|To Evonice Sootsmoker.|
-A Kill 'em With Sleep Deprivation|QID|28057|PRE|28054;28055;28056|M|43.66,28.46|N|From Evonice Sootsmoker.|
+A Kill 'em With Sleep Deprivation|QID|28057|PRE|28054 & 28055 & 28056|M|43.66,28.46|N|From Evonice Sootsmoker.|
 
 N Warning: Wall of text on next step.|QID|28057|N|Close this step.|
 ;change this a bit.
@@ -324,7 +329,7 @@ t Minions of Calcinder|QID|28061|M|46.77,27.06|N|(UI Alert)|
 C From Whence He Came|QID|28062|U|62925|M|42.83,29.81|N|Take Archduke Calcinder down in health, once you see the UI Alert, use the Consecrated Tripetricine.|
 C Minions of Calcinder|QID|28061|M|43.78,27.65|N|Kill 6 Searing Flamewraiths.|US|
 T From Whence He Came|QID|28062|M|43.78,27.65|N|(UI Alert)|
-A Welcome to the Brotherhood|QID|28064|PRE|28061;28062|M|43.78,27.65|N|(UI Alert)|
+A Welcome to the Brotherhood|QID|28064|PRE|28061 & 28062|M|43.78,27.65|N|(UI Alert)|
 H Iron Summit|QID|28053|N|Hearth back to Iron Summit.|
 F Thorium Point|QID|28053|M|40.89,68.91|N|Fly to Thorium Point.|
 

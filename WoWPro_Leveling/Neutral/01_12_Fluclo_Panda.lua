@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/floating_isle_padaren_neutral
+-- Date: 2018-10-17 02:29
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3483/revisions/29151/view
 -- Date: 2018-02-24 17:54
 -- Who: Ludovicus_EditBot
 -- Log: King Anduin Wrynn does NOT fight, and the fight  by Garrosh Hellscream is gone too.
@@ -317,7 +322,7 @@ T Stronger Than Reeds|QID|29662|M|63.47,41.97|N|To Jojo Ironbrow|
 T The Lesson of the Balanced Rock|QID|29663|M|65.59,42.59|N|To Aysa Cloudsinger|
 T The Lesson of Dry Fur|QID|29661|M|65.59,42.59|N|To Aysa Cloudsinger|
 
-A Finding an Old Friend|QID|29676|PRE|29661;29662;29663|M|65.59,42.59|N|From Aysa Cloudsinger|
+A Finding an Old Friend|QID|29676|PRE|29661 & 29662 & 29663|M|65.59,42.59|N|From Aysa Cloudsinger|
 T Finding an Old Friend|QID|29676|M|70.61,38.75|N|To Old Man Liang in Liang's Retreat|
 
 A The Sun Pearl|QID|29677|PRE|29676|M|70.61,38.75|N|From Old Man Liang|
@@ -330,7 +335,7 @@ C The Sting of Learning|QID|29666|M|72.20,42.00|N|Kill the Water Pincers. If the
 T The Sun Pearl|QID|29677|M|78.50,42.85|N|To Old Man Liang (he's moved to the Gazebo)|
 T The Sting of Learning|QID|29666|M|78.50,42.85|N|To Old Man Liang|
 
-A Shu, the Spirit of Water|QID|29678|PRE|29666;29677|M|78.50,42.85|N|From Old Man Liang|
+A Shu, the Spirit of Water|QID|29678|PRE|29666 & 29677|M|78.50,42.85|N|From Old Man Liang|
 C Shu, the Spirit of Water|QID|29678|M|79.65,41.90;79.64,38.62|CS|N|Head to the glowing rocks, and it will jump you to the edge of the Pool of Reflection, then walk forward to the pool.|QO|1|NC|
 C Shu, the Spirit of Water|QID|29678|M|79.64,38.62|N|Use the Sun Pearl to coax out Shu.|NC|
 T Shu, the Spirit of Water|QID|29678|N|(UI Alert)|
@@ -354,8 +359,8 @@ C Rascals|QID|29769|M|68.40,72.10|N|Finish Killing Plump Virmen|US|
 T Still Good!|QID|29770|M|68.13,66.40|N|To Gao Summerdraft|
 T Rascals|QID|29769|M|68.89,65.00|N|To Ji Firepaw|
 
-A Missing Mallet|QID|29768|PRE|29769;29770|M|68.89,65.00|N|From Ji Firepaw|
-A Stronger Than Wood|QID|29771|PRE|29769;29770|M|69.13,66.62|N|From Jojo Ironbrow|
+A Missing Mallet|QID|29768|PRE|29769 & 29770|M|68.89,65.00|N|From Ji Firepaw|
+A Stronger Than Wood|QID|29771|PRE|29769 & 29770|M|69.13,66.62|N|From Jojo Ironbrow|
 
 C Stronger Than Wood|QID|29771|M|69.13,66.62|N|Collect the Discarded Wood Planks from the floor.|S|NC|
 C Missing Mallet|QID|29768|M|62.53,76.68|N|Loot the Mallet from next to Raggis.  You can tag him and drag him over to the guards on the path nearby, they will keep him busy while you loot the mallet. (kill him for easy access)|NC|
@@ -368,7 +373,7 @@ A Raucous Rousing|QID|29772|PRE|29768|M|68.89,65.00|N|From Ji Firepaw|
 C Raucous Rousing|QID|29772|N|Ring the gong next to Ji Firepaw.|NC|
 T Raucous Rousing|QID|29772|M|68.89,65.00|N|To Ji Firepaw|
 
-A Not In the Face!|QID|29774|PRE|29771;29772|M|68.89,65.00|N|From Ji Firepaw|
+A Not In the Face!|QID|29774|PRE|29771 & 29772|M|68.89,65.00|N|From Ji Firepaw|
 C Not In the Face!|QID|29774|M|69.00,62.95|N|Head to Shu, and ask him for help|CHAT|QO|1|
 C Not In the Face!|QID|29774|M|68.89,65.00|N|Head back to Wugou and wait for Shu to wake him.|NC|
 T Not In the Face!|QID|29774|M|68.89,65.00|N|To Ji Firepaw|
@@ -398,9 +403,9 @@ T Tools of the Enemy|QID|29777|M|31.83,39.71|N|To Elder Shaopai|
 T Stronger Than Stone|QID|29783|M|29.92,39.77|N|From Jojo Ironbrow|
 T Rewritten Wisdoms|QID|29778|M|30.97,36.74|N|To Ji Firepaw|
 
-A Monkey Advisory Warning|QID|29781|PRE|29777;29778;29783|M|30.97,36.74|N|From Ji Firepaw|
-A Do No Evil|QID|29780|PRE|29777;29778;29783|M|30.97,36.74|N|From Ji Firepaw|
-A The Direct Solution|QID|29779|PRE|29777;29778;29783|M|30.97,36.74|N|From Ji Firepaw|
+A Monkey Advisory Warning|QID|29781|PRE|29777 & 29778 & 29783|M|30.97,36.74|N|From Ji Firepaw|
+A Do No Evil|QID|29780|PRE|29777 & 29778 & 29783|M|30.97,36.74|N|From Ji Firepaw|
+A The Direct Solution|QID|29779|PRE|29777 & 29778 & 29783|M|30.97,36.74|N|From Ji Firepaw|
 
 ; [aldavor] *** check these M coords at some later stage ***
 C The Direct Solution|QID|29779|M|24.44,30.62|N|Kill Fe-Fang Hozen|S|
@@ -417,7 +422,7 @@ T The Direct Solution|QID|29779|N|To Ji Firepaw, you may want to wait until you 
 T Stronger Than Bone|QID|29782|M|29.92,39.77|N|To Jojo Ironbrow|
 
 T The Direct Solution|QID|29779|N|To Ji Firepaw, you may want to wait until you are out of the monkey village to turn this in as Ji stops helping you and runs off when you turn in the last quest|US|
-A Balanced Perspective|QID|29784|PRE|29779;29780;29781;29782|M|30.97,36.74|N|From Ji Firepaw|
+A Balanced Perspective|QID|29784|PRE|29779 & 29780 & 29781 & 29782|M|30.97,36.74|N|From Ji Firepaw|
 T Balanced Perspective|QID|29784|M|32.94,35.60|N|Cross the ropes, to Aysa Cloudsinger\n\nIf you have difficulty with the ropes, go into your Game Menu, click Interface and select the Mouse option. Check "Click-to-Move" and "Okay". This means that you will move wherever you right-click your mouse, and makes it easier.\n\nDon't forget to uncheck this after you've finished the quest.|
 
 A Dafeng, the Spirit of Air|QID|29785|PRE|29784|M|32.94,35.60|N|From Aysa Cloudsinger|
@@ -443,7 +448,7 @@ C Unwelcome Nature|QID|29788|N|Finish killing the Thornbranch Scamp|US|
 T Unwelcome Nature|QID|29788|M|19.33,50.67|N|To Master Shang Xi|
 T Small, But Significant|QID|29789|M|19.33,50.67|N|To Master Shang Xi|
 
-A Passing Wisdom|QID|29790|PRE|29788;29789|M|19.33,50.67|N|From Master Shang Xi|
+A Passing Wisdom|QID|29790|PRE|29788 & 29789|M|19.33,50.67|N|From Master Shang Xi|
 C Passing Wisdom|QID|29790|M|19.33,50.67|N|Wait while Master Shang Xi tells you the story.|NC|
 T Passing Wisdom|QID|29790|M|15.79,49.11|N|To Aysa Cloudsinger|
 
@@ -469,7 +474,7 @@ C Preying on the Predators|QID|30591|N|Finish killing the Pei-Wu Tigers|US|
 T Preying on the Predators|QID|30591|M|50.08,76.62|N|To Wei Palerage|
 T Stocking Stalks|QID|29795|M|50.23,76.64|N|To Korga Strongmane|
 
-A Wrecking the Wreck|QID|30589|PRE|29795;30591|M|50.23,76.64|N|From Korga Strongmane|
+A Wrecking the Wreck|QID|30589|PRE|29795 & 30591|M|50.23,76.64|N|From Korga Strongmane|
 T Wrecking the Wreck|QID|30589|M|36.40,72.36|N|To Makael Bay|
 
 A Handle With Care|QID|30590|PRE|30589|M|36.40,72.36|N|From Makael Bay|
@@ -482,7 +487,7 @@ C Evil from the Seas|QID|29793|M|38.20,73.80|N|Finish killing the Darkened Horro
 T Handle With Care|QID|30590|M|36.40,72.36|N|To Makael Bay|
 T Evil from the Seas|QID|29793|M|36.38,72.52|N|To Ji Firepaw|
 
-A Urgent News|QID|29796|PRE|29793;30590|M|36.38,72.52|N|From Ji Firepaw|
+A Urgent News|QID|29796|PRE|29793 & 30590|M|36.38,72.52|N|From Ji Firepaw|
 T Urgent News|QID|29796|M|42.20,86.55|N|To Delora Lionheart|
 
 A None Left Behind|QID|29794|PRE|29796|M|42.20,86.55|N|From Delora Lionheart|
@@ -501,7 +506,7 @@ T Medical Supplies|QID|29797|M|42.20,86.55|N|From Delora Lionheart|
 
 T From Bad to Worse|QID|29665|M|42.30,86.35|N|To Jojo Ironbrow|
 
-A An Ancient Evil|QID|29798|PRE|29665;29794;29797|M|42.30,86.35|N|From Jojo Ironbrow|
+A An Ancient Evil|QID|29798|PRE|29665 & 29794 & 29797|M|42.30,86.35|N|From Jojo Ironbrow|
 C An Ancient Evil|QID|29798|M|37.04,84.30|N|Head back to the crash site, and help fight Vordraka, the Deep Sea Nightmare.|
 T An Ancient Evil|QID|29798|M|36.53,84.24|N|To Aysa Cloudsinger|
 
@@ -524,7 +529,7 @@ C A New Fate|QID|31450|N|Speak to Spirit of Master Shang Xi, and choose your des
 ; The cinematic triggers a reload, which re-evaluates all the following steps in the new faction.
 T A New Fate|QID|31450|N|Straight in front of you, and welcome to the mainland.|
 
-N Destiny Chosen|QID|30987;31012|N|The next faction specific quest should be automatically chosen for you. If not, report the bug!\n\nClick to continue.|
+N Destiny Chosen|QID|30987^31012|N|The next faction specific quest should be automatically chosen for you. If not, report the bug!\n\nClick to continue.|
 A Joining the Horde|QID|31012|PRE|31450|M|45.58,12.61|N|From Ji Firepaw|Z|Durotar|FACTION|Horde|
 A Joining the Alliance|QID|30987|PRE|31450|M|32.90,50.95|N|From Aysa Cloudsinger|Z|Elwynn Forest|FACTION|Alliance|
 

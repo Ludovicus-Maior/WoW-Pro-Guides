@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3776
+-- Date: 2018-10-17 02:22
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3776/revisions/29736/view
 -- Date: 2018-09-12 04:11
 -- Who: Emmaleah
 -- Log: Added note about starting in Stormwind.
@@ -182,7 +187,7 @@ return [[
 
 N Stormwind|N|This guide is intended that you start in Stormwind. Directions are from that point of origin.|
 A Hour of Reckoning|QID|53370|N|Autoaccepted upon loggin in. Target buttons are included to assist with the crowds, then if you have "Interact with target keybound you will find it easier in the press of people.|LEAD|51795|;or perhaps upon logging in anywhere?
-T Hour of Reckoning|QID|53370|M|22.37,32.42|Z|Stormwind City|N|To Master Mathias Shaw.|T|Master Mathias Shaw
+T Hour of Reckoning|QID|53370|M|22.37,32.42|Z|Stormwind City|N|To Master Mathias Shaw.|T|Master Mathias Shaw|
 A The Battle for Lordaeron|QID|51795|M|22.37,32.42|Z|Stormwind City|N|From Master Mathias Shaw.|
 C The Battle for Lordaeron|QID|51795|M|22.22,32.53|Z|Stormwind City|QO|1|CHAT|N|Tell Captain Angelica, at the Stormwind docks you are ready to sail and start the scenario or to skip it.|T|Captain Angelica|
 
@@ -214,19 +219,19 @@ T The Battle for Lordaeron|QID|51795|M|27.64,21.29|Z|Stormwind City|N|To Halford
 A A Dying World|QID|52946|M|27.70,21.34|Z|Stormwind City|N|A request from your Magni Bronzebeard will come automatically from UI after you turned in "The Battle for Lordaeron" at Halford Wyrmbane.|
 C A Dying World|QID|52946|M|75.25,20.49|Z|Stormwind City|QO|1|N|Go to the Eastern Earthsrine.|
 T A Dying World|QID|52946|M|42.26,44.26|Z|Silithus|N|To Magni Bronzebeard.|
-A The Heart of Azeroth|QID|51211|M|42.26,44.26|Z|Silithus|N|From Magni Bronzebeard.|PRE|52946+46931|
+A The Heart of Azeroth|QID|51211|M|42.26,44.26|Z|Silithus|N|From Magni Bronzebeard.|PRE|52946^46931|
 C The Heart of Azeroth|QID|51211|QO|1|M|43.19,44.49|Z|Silithus|NC|N|Click on the Titan Translocator to teleport to the Chamber of the Heart.|
 C The Heart of Azeroth|QID|51211|M|50.30,54.05|Z|Chamber of Heart!Dungeon|QO|2|N|Use titan console (Video can be skipped [ESC])|
 C The Heart of Azeroth|QID|51211|QO|3|M|50.17,53.60|Z|Chamber of Heart!Dungeon|CHAT|N|Ask Magni what Azeroth wants.|
 T The Heart of Azeroth|QID|51211|M|50.17,53.60|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
-A Infusing the Heart|QID|52428|M|50.05,55.15|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|51211+51400|
+A Infusing the Heart|QID|52428|M|50.05,55.15|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|51211^51400|
 C Infusing the Heart|QID|52428|QO|1|M|52.32,58.14;55.48,60.73;54.70,69.61;48.32,73.66;45.13,62.64|CN|Z|Chamber of Heart!Dungeon|NC|N|Go to several of the Azerite Cracks around the room and use your special action button.|
 C Infusing the Heart|QID|52428|QO|3|M|49.98,64.74|Z|Chamber of Heart!Dungeon|NC|N|Move to the center of the room and use your special action button, wait until the bar fills.|
 T Infusing the Heart|QID|52428|M|50.23,53.83|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
 A The Speakers Imperative|QID|51403|M|50.23,53.83|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|52428|
 C The Speakers Imperative|QID|51403|M|50.10,30.39|Z|Chamber of Heart!Dungeon|NC|N|Use the provided portal to return to Stormwind.|
 T The Speakers Imperative|QID|51403|M|27.64,21.29|Z|Stormwind City|N|To Halford Wyrmbane.|
-A Tides of War|QID|46727|M|27.64,21.29|Z|Stormwind City|N|From Halford Wyrmbane.|PRE|51403;51795|
+A Tides of War|QID|46727|M|27.64,21.29|Z|Stormwind City|N|From Halford Wyrmbane.|PRE|51403 & 51795|
 C Tides of War|QID|46727|QO|1|M|83.47,29.62;85.14,32.52|CS|Z|Stormwind City|NC|N|Fly to Stormwind Keep and go to the Throneroom and listen to the council.|
 C Tides of War|QID|46727|QO|2|M|85.03,32.64|NC|Z|Stormwind City|N|Click on the 'survivor's memories' hovering over his head.|
 T Tides of War|QID|46727|M|85.28,32.26|Z|Stormwind City|N|To Anduin Wrynn.|
@@ -270,7 +275,7 @@ T Sanctum of the Sages|QID|47186|M|68.17,21.99|Z|Boralus|N|To Taelia, who appare
 
 A A Nation Divided|QID|47189|M|68.17,21.99|Z|Boralus|N|From Taelia.|PRE|47186|
 C A Nation Divided|QID|47189|M|68.38,22.07|Z|Boralus|NC|N|Click on the scouting map, chose your first adventure.|
-A Choose next adventure|QID|47962;47961;47960|M|68.38,22.07|Z|Boralus|N|From the Scouting Map on the wall.|PRE|47189|
+A Choose next adventure|QID|47962^47961^47960|M|68.38,22.07|Z|Boralus|N|From the Scouting Map on the wall.|PRE|47189|
 ;A Tiragarde Sound|QID|47960|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 ;A Drustvar|QID|47961|M|70.52,27.15|Z|Boralus|N|From Halford Wyrmbane.|
 ;A Stormsong Valley|QID|47962|M|68.17,21.99|Z|Boralus|N|To Taelia.|

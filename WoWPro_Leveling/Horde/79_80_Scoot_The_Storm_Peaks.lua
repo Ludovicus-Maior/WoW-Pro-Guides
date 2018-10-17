@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_horde
+-- Date: 2018-10-17 02:28
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3300/revisions/29113/view
 -- Date: 2018-02-22 23:09
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -112,11 +117,11 @@ T Expression of Gratitude |QID|12836|M|40.9,85.3|N|To Ricket|
 T Slightly Unstable |QID|12826|M|40.9,85.3|N|To Ricket|
 
 A A Delicate Touch |QID|12820|PRE|12826|M|40.9,85.3|N|From Ricket|
-A Ample Inspiration |QID|12828|PRE|12827;12836|M|40.9,85.3|N|From Ricket|
+A Ample Inspiration |QID|12828|PRE|12827 & 12836|M|40.9,85.3|N|From Ricket|
 C A Delicate Touch |QID|12820|N|Head to Garm's Bane.  There are 2 spots to do this quest  and (43.57,82.29).  Seed the narrow areas with mines.  Put them close together because the mobs take 2 or more to kill them.  Replace them as they blow up. You will not be injured by the explosions.|U|40676|M|43.69,81.38|
 
-A Moving In |QID|12829|PRE|12827;12836|M|41.7,80.0|N|From Tore Rumblewrench|
-A Ore Repossession |QID|12830|PRE|12827;12836|M|41.7,80.0|N|From Tore Rumblewrench|
+A Moving In |QID|12829|PRE|12827 & 12836|M|41.7,80.0|N|From Tore Rumblewrench|
+A Ore Repossession |QID|12830|PRE|12827 & 12836|M|41.7,80.0|N|From Tore Rumblewrench|
 N STOP! |QID|12831|N|Don't get a bomb from the U.D.E.D. dispenser yet.|
 
 C Moving In |QID|12829|N|Kill Crystalweb Spiders|S|
@@ -147,7 +152,7 @@ T Ample Inspiration |QID|12828|M|40.9,85.3|N|To Ricket|
 T Bitter Departure |QID|12832|M|40.9,85.3|N|To Ricket|
 T A Delicate Touch |QID|12820|M|40.9,85.3|N|To Ricket|
 
-A Opening the Backdoor |QID|12821|PRE|12820;12832|M|40.9,85.3|N|From Ricket|
+A Opening the Backdoor |QID|12821|PRE|12820 & 12832|M|40.9,85.3|N|From Ricket|
 l Transporter Power Cell |QID|12821|N|Pick up the power cell.|L|40731|M|45.11,82.38|
 C Opening the Backdoor |QID|12821|N|Transporter. Use the Transporter Power Cell at the Transporter.|U|40731|M|50.66,81.95|
 T Opening the Backdoor |QID|12821|M|40.9,85.3|N|To Ricket|
@@ -294,7 +299,7 @@ K Stormforged Iron Giants |N|Kill Giants using the boulder until you have 5.|QID
 T Mending Fences |QID|12915|M|33.4,58.0|N|To Thorim up at the Temple of Storms.|
 T A Spark of Hope |QID|12956|M|33.4,58.0|N|To Thorim|
 
-A Forging an Alliance |QID|12924|PRE|12915;12956|M|33.4,58.0|N|From Thorim|
+A Forging an Alliance |QID|12924|PRE|12915 & 12956|M|33.4,58.0|N|From Thorim|
 
 A You Can't Miss Him |QID|12966|M|65.4,60.2|N|From King Jokkum at Dun Niffelem. You're neutral with the Giants now.|
 T You Can't Miss Him |QID|12966|M|75.4,63.6|N|To Njormeld. at Fjorn's Anvil|
@@ -504,8 +509,8 @@ C Fighting Back |QID|12931|N|Kill anything with Stormforged in it's name.|US|
 T Fighting Back |QID|12931|N|To Bouldercrag the Rockshaper|M|31.3,38.03|
 T Relief for the Fallen |QID|12937|N|To Bouldercrag the Rockshaper|M|31.3,38.03|
 
-A Slaves of the Stormforged |QID|12957|PRE|12931;12937|N|To Bouldercrag the Rockshaper|M|31.3,38.03|
-A The Dark Ore |QID|12964|PRE|12931;12937|N|To Bouldercrag the Rockshaper|M|31.3,38.03|
+A Slaves of the Stormforged |QID|12957|PRE|12931 & 12937|N|To Bouldercrag the Rockshaper|M|31.3,38.03|
+A The Dark Ore |QID|12964|PRE|12931 & 12937|N|To Bouldercrag the Rockshaper|M|31.3,38.03|
 C Slaves of the Stormforged |QID|12957|QO|1|S|CHAT|
 K Slaves of the Stormforged |QID|12957|QO|2|S|
 C The Dark Ore |QID|12964|N|Gather the ore from the carts in the mine.|M|27.29,49.59|
@@ -514,9 +519,9 @@ C Slaves of the Stormforged |QID|12957|QO|1|US|CHAT|
 T The Dark Ore |QID|12964|N|To Bouldercrag the Rockshaper|M|31.3,38.03|
 T Slaves of the Stormforged |QID|12957|N|To Bouldercrag the Rockshaper|M|31.3,38.03|
 
-A The Gifts of Loken |QID|12965|PRE|12957;12964|N|From Bouldercrag the Rockshaper|M|31.3,38.03|
+A The Gifts of Loken |QID|12965|PRE|12957 & 12964|N|From Bouldercrag the Rockshaper|M|31.3,38.03|
 
-A Facing the Storm |QID|12978|PRE|12957;12964|N|From Bruor Ironbane|M|31.3,38.13|
+A Facing the Storm |QID|12978|PRE|12957 & 12964|N|From Bruor Ironbane|M|31.3,38.13|
 A Armor of Darkness |QID|12979|O|N|(UI Alert)|
 K Stormforged War Golem |QID|12979|N|Kill Golems until you get Dark Armor Plate.|L|42204|M|24.88,42.16|
 
@@ -550,7 +555,7 @@ K Hit Them Where it Hurts |QID|12991|QO|1|US|
 T Hit Them Where it Hurts |QID|12991|N|To Bruor Ironbane|M|31.3,38.13|
 T Destroy the Forges! |QID|12988|N|To Bouldercrag the Rockshaper|M|31.3,38.03|
 
-A A Colossal Threat |QID|12993|PRE|12988;12991|N|From Bouldercrag the Rockshaper|M|31.3,38.03|
+A A Colossal Threat |QID|12993|PRE|12988 & 12991|N|From Bouldercrag the Rockshaper|M|31.3,38.03|
 l A Colossal Threat |QID|12993|QO|1|M|28.89,44.00|
 l A Colossal Threat |QID|12993|QO|2|M|30.00,45.70|
 T A Colossal Threat |QID|12993|N|To Bouldercrag the Rockshaper|M|31.3,38.03|

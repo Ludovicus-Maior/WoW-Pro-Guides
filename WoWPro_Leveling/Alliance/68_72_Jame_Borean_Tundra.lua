@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2018-10-17 02:24
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3289/revisions/29372/view
 -- Date: 2018-06-26 13:37
 -- Who: Ludovicus_Maior
 -- Log: Fat fingered the loot of [Prison Casing]
@@ -624,7 +629,7 @@ C Cracking the Code |QID|11931|N|Kill Inquisitor Caleras to the north and loot t
 T Cracking the Code |QID|11931|N|To Raelorasz.|M|33.31,34.53|
 
 T King Mrgl-Mrgl |QID|11704|N|Go north to the road, then follow it east to Winterfin Retreat.|M|43.50,13.97|
-A Learning to Communicate |QID|11571|PRE|11702+11704|N|From King Mrgl-Mrgl.|M|43.50,13.97|
+A Learning to Communicate |QID|11571|PRE|11702^11704|N|From King Mrgl-Mrgl.|M|43.50,13.97|
 C Learning to Communicate |QID|11571|U|34598|N|Kill Scalder at the bottom of the sea. Target his corpse and use the conch. Scalder is immune to frost.|M|42.53,15.85|
 T Learning to Communicate |QID|11571|N|To King Mrgl-Mrgl.|M|43.50,13.97|
 A Winterfin Commerce |QID|11559|PRE|11571|N|From King Mrgl-Mrgl.|M|43.50,13.97|

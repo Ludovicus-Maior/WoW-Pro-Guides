@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_storm_peaks_alliance
+-- Date: 2018-10-17 02:25
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3299/revisions/29181/view
 -- Date: 2018-02-26 22:50
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -138,15 +143,15 @@ T Clean Up|QID|12818|N|To Jeer Sparksocket.|M|41.0,86.4|
 A Just Around the Corner|QID|12819|PRE|12818|N|From Jeer Sparksocket.|M|41.0,86.4|
 T Expression of Gratitude|QID|12836|N|To Ricket.|M|40.9,85.3|
 T Reclaimed Rations|QID|12827|N|To Ricket.|M|40.9,85.3|
-A Ample Inspiration|QID|12828|PRE|12827;12836|N|From Ricket.|M|40.9,85.3|
+A Ample Inspiration|QID|12828|PRE|12827 & 12836|N|From Ricket.|M|40.9,85.3|
 T Equipment Recovery|QID|12844|N|To Gretchen Fizzlespark.|M|41.1,86.1|
 T They Took Our Men!|QID|12843|N|To Gretchen Fizzlespark.|M|41.1,86.1|
 A Leave No Goblin Behind|QID|12846|PRE|12843|N|From Gretchen Fizzlespark.|M|41.1,86.1|
 
 C Just Around the Corner|QID|12819|N|Enter the minefield and work your way to the center to collect Sparksocket's Tools.\n\nNote:- Do not fly into the minefield, you will be knocked off your mount.|M|34.3,86.7|L|40642|NC|
 
-A Moving In|QID|12829|PRE|12827;12836|N|From Tore Rumblewrench.|M|41.6,80|
-A Ore Repossession|QID|12830|PRE|12827;12836|N|From Tore Rumblewrench.|M|41.6,80|
+A Moving In|QID|12829|PRE|12827 & 12836|N|From Tore Rumblewrench.|M|41.6,80|
+A Ore Repossession|QID|12830|PRE|12827 & 12836|N|From Tore Rumblewrench.|M|41.6,80|
 l Grab a U.D.E.D.|QID|12828|N|Use the U.D.E.D. Dispenser and get a bomb.\n\nOn collecting the bomb you will have 48 seconds to complete the next step.|M|41.6,80|L|40686|
 C Ample Inspiration|QID|12828|N|Target an Ice Mammoth and throw the bomb at it. Note you will have just 48 seconds from collecting the bomb to use the bomb.\n\nWait a few seconds after blowing up the mammoth for the meat to appear on the ground. Once they appear, loot them until you have 8 Hearty Mammoth Meat. The "big piece" in the middle will give you multiple quantities.|M|43.7,78.8|U|40686|NC|
 T Just Around the Corner|QID|12819|N|To Jeer Sparksocket.|M|41.0,86.4|
@@ -173,7 +178,7 @@ T Moving In|QID|12829|N|To Tore Rumblewrench.|M|41.6,80|
 T A Delicate Touch|QID|12820|N|To Ricket.|M|40.9,85.3|
 T Bitter Departure|QID|12832|N|To Ricket.|M|40.9,85.3|
 
-A Opening the Backdoor|QID|12821|PRE|12820;12832|N|From Ricket.|M|40.9,85.3|
+A Opening the Backdoor|QID|12821|PRE|12820 & 12832|N|From Ricket.|M|40.9,85.3|
 l Transporter Power Cell|QID|12821|N|Click on the Transporter Power Cell.|M|45.1,82.3|L|40731|
 C Opening the Backdoor|QID|12821|N|Enter the teleportation pad and use the Transporter Power Cell.|M|50.7,81.9|U|40731|NC|
 T Opening the Backdoor|QID|12821|N|To Ricket.|M|40.9,85.3|
@@ -186,7 +191,7 @@ T A Flawless Plan|QID|12823|N|To Gino.|M|50,82|
 A Demolitionist Extraordinaire|QID|12824|PRE|12823|N|From Gino.|M|50,82|
 T Know No Fear|QID|12822|N|To Ricket.|M|40.9,85.3|
 T Demolitionist Extraordinaire|QID|12824|N|To Ricket.|M|40.9,85.3|
-A When All Else Fails|QID|12862|PRE|12822;12824|N|From Ricket.|M|40.9,85.3|
+A When All Else Fails|QID|12862|PRE|12822 & 12824|N|From Ricket.|M|40.9,85.3|
 F Frosthold|QID|12862|N|Talk to Ricket and take a ride.|M|40.9,85.3|
 f Frosthold|QID|12863|N|At Faldorf Bitterchill.|M|29.5,74.33|
 A On Brann's Trail|QID|12854|N|From Archeologist Andorin.|M|29.6,74.0|
@@ -311,7 +316,7 @@ T The Refiner's Fire|QID|12922|N|At Fjorn's Anvil.|M|77.1,62.8|
 A A Spark of Hope|QID|12956|PRE|12922|N|From Fjorn's Anvil.|M|77.1,62.8|
 T Mending Fences|QID|12915|N|To Thorim.|M|33.42,57.93|
 T A Spark of Hope|QID|12956|N|To Thorim.|M|33.42,57.93|
-A Forging an Alliance|QID|12924|PRE|12915;12956|N|From Thorim.|M|33.42,57.93|
+A Forging an Alliance|QID|12924|PRE|12915 & 12956|N|From Thorim.|M|33.42,57.93|
 l Inventor's Disk Fragment|QID|12858|N|Kill Library Guardians and loot 6 Inventor's Disk Fragments.|L|41130 6|M|38.0,40.0|
 C Pieces to the Puzzle|QID|12858|N|Combine the Inventor's Disk Fragments to create The Inventor's Disk.|U|41130|M|38.0,40.0|
 T Pieces to the Puzzle|QID|12858|N|Use Brann's Communicator to turn in this quest.|U|40971|
@@ -429,15 +434,15 @@ C Relief for the Fallen|QID|12937|N|Use the Telluric Poultice and aid 8 Fallen E
 C Fighting Back|QID|12931|N|Kill 10 Stormforged Raiders.|M|27,38|US|
 T Fighting Back|QID|12931|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
 T Relief for the Fallen|QID|12937|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
-A Slaves of the Stormforged|QID|12957|PRE|12931;12937|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
-A The Dark Ore|QID|12964|PRE|12931;12937|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
+A Slaves of the Stormforged|QID|12957|PRE|12931 & 12937|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
+A The Dark Ore|QID|12964|PRE|12931 & 12937|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
 C The Dark Ore|QID|12964|N|Loot 5 Dark Ore Samples in this mine.|L|42109 5|S|
 C Slaves of the Stormforged|QID|12957|N|Free 6 Captive Mechagnomes and kill 3 Stormforged Taskmasters in the Frozen Mine.|M|27.4,49.6|
 C The Dark Ore|QID|12964|N|Loot 5 Dark Ore Samples in this mine.|L|42109 5|M|27.4,49.6|US|
 T Slaves of the Stormforged|QID|12957|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
 T The Dark Ore|QID|12964|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
-A The Gifts of Loken|QID|12965|PRE|12957;12964|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
-A Facing the Storm|QID|12978|PRE|12957;12964|N|From Bruor Ironbane.|M|31.2,38.1|
+A The Gifts of Loken|QID|12965|PRE|12957 & 12964|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
+A Facing the Storm|QID|12978|PRE|12957 & 12964|N|From Bruor Ironbane.|M|31.2,38.1|
 A Armor of Darkness|QID|12979|N|Dark Armor Plate.|U|42203|O|
 C Facing the Storm|QID|12978|S|N|Kill 10 Nidavelir Stormforged Champions, Stormforged Magi, or Stormforged War Golems.|M|25,46|
 N Destroy Loken's Fury|QID|12965|QO|1|N|Destroy Loken's Fury, right-click on it.|M|24,42.7|
@@ -465,7 +470,7 @@ C Hit Them Where it Hurts|QID|12991|N|Kill 10 Stormforged Artificers in this are
 T Hit Them Where it Hurts|QID|12991|N|To Bruor Ironbane.|M|31.2,38.1|
 T Destroy the Forges!|QID|12988|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
 
-A A Colossal Threat|QID|12993|PRE|12988;12991|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
+A A Colossal Threat|QID|12993|PRE|12988 & 12991|N|From Bouldercrag the Rockshaper.|M|31.4,38.0|
 C Attack Specs|QID|12993|QO|1|N|Loot the Colossus Attack Specs.|M|28.9,44.1|
 C A Colossal Threat - Defense Specs|QID|12993|QO|2|N|Loot the Colossus Defense Specs.|M|29.9,45.8|
 T A Colossal Threat|QID|12993|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|

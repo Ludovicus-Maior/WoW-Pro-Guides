@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tanaris_alliance
+-- Date: 2018-10-17 02:24
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3259/revisions/29173/view
 -- Date: 2018-02-26 21:40
 -- Who: Ludovicus_EditBot
 -- Log: LVL strip and added back a PRE *I* know is there!
@@ -152,7 +157,7 @@ C Seaside Salvage|QID|25048|US|M|54.88,36.83|N|Pick up Steamwheedle Supplies.|
 C Butcherbot|QID|25112|U|52715|M|49.73,39.34|N|Progress to this location killing Basalisks as you go. Once dead use the Butcherbot Control when targeting the Basilisks.|
 T Seaside Salvage|QID|25048|M|51.27,29.98|N|To Kelsey Steelspark.|
 T Puddle Stomping|QID|25049|M|51.25,29.94|N|To Kelsey Steelspark.|
-A Rocket Rescue|QID|25050|PRE|25048;25049|M|51.25,29.94|N|From Kelsey Steelspark.|
+A Rocket Rescue|QID|25050|PRE|25048 & 25049|M|51.25,29.94|N|From Kelsey Steelspark.|
 T Butcherbot|QID|25112|M|52.26,28.07|N|To Driz Plunkbow.|
 A Scavengers Scavenged|QID|25111|PRE|25112|M|52.26,28.07|N|From Driz Plunkbow.|
 R Rocket Rescue|QID|25050|CC|M|53.27,27.43|N|Get in the balloon here, and fingers crossed they it stays in the air better than the Zeps!|
@@ -182,7 +187,7 @@ C Going Off-Task|QID|26886|M|74.60,45.18|N|Getting on this boat is a tricky affa
 C Filling Our Pockets|QID|26887|M|69.94,53.44|N|Beware the Strongarms; They will pull you to them and possibly cause mass mob aggro; if in packs CC the Stongram, and kill the other first.|
 T Going Off-Task|QID|26886|M|72.17,45.23|N|To Kelsey Steelspark.|
 T Filling Our Pockets|QID|26887|M|72.17,45.23|N|To Kelsey Steelspark.|
-A Captain Dreadbeard|QID|25166|PRE|25053;26886;26887|M|72.17,45.23|N|From Kelsey Steelspark.|
+A Captain Dreadbeard|QID|25166|PRE|25053 & 26886 & 26887|M|72.17,45.23|N|From Kelsey Steelspark.|
 C Captain Dreadbeard|QID|25166|M|71.04,55.62|N|If you're quick you can get here through the path you cleared from the last quest.|
 T Captain Dreadbeard|QID|25166|M|72.17,45.19|N|To Kelsey Steelspark.|
 A All Cheered Out|QID|26889|PRE|25166|M|72.17,45.19|N|From Kelsey Steelspark.|
@@ -218,8 +223,8 @@ T Secrets in the Oasis|QID|25032|M|42.44,24.02|N|To Trenton Lighthammer.|
 A Into Zul'Farrak|QID|25556|LEAD|27068|PRE|25032|M|42.44,24.02|N|From Trenton Lighthammer. If you do not wish to run the Zul'farrak dungeon; abandon this quest; but it is good XP and rewards if you do.|
 f Bootlegger Outpost|QID|26889|M|55.84,60.63|N|At Slick Dropdip.|
 T All Cheered Out|QID|26889|M|55.65,60.82|N|To Zeke Bootscuff.|
-A Cutting Losses|QID|24932|PRE|26889+25103|M|55.65,60.82|N|From Zeke Bootscuff.|
-A A Few Good Goblins|QID|25072|PRE|26889+25103|M|55.65,60.82|N|From Zeke Bootscuff.|
+A Cutting Losses|QID|24932|PRE|26889^25103|M|55.65,60.82|N|From Zeke Bootscuff.|
+A A Few Good Goblins|QID|25072|PRE|26889^25103|M|55.65,60.82|N|From Zeke Bootscuff.|
 C Cutting Losses|QID|24932|S|M|56.70,61.92|N|Kill any type of bug.|
 C A Few Good Goblins|QID|25072|M|56.75,63.46|N|The goblins are in Purple cocoons. Make sure you get the killing blow if you are a pet class.|
 C Cutting Losses|QID|24932|US|M|56.70,61.92|N|Finish killing Silithids.|
@@ -259,7 +264,7 @@ C What We Came For|QID|25062|M|50.76,90.75|N|Loot a Bilgewater Footlocker.|
 C Define "Crazy"|QID|25060|M|51.68,91.20|N|Kill Crazed Bilgewater Survivers.|US|
 T Define "Crazy"|QID|25060|CS|M|49.13,87.50;49.99,82.91|N|To Kelsey Steelspark.|
 T What We Came For|QID|25062|M|49.99,82.91|N|To Kelsey Steelspark.|
-A Terrapination|QID|25063|PRE|25060;25062|M|49.92,82.95|N|From Kelsey Steelspark.|
+A Terrapination|QID|25063|PRE|25060 & 25062|M|49.92,82.95|N|From Kelsey Steelspark.|
 r Sell Junk|QID|25063|M|49.99,82.77|N|At Rations Officer Flexgear.|
 C Terrapination|QID|25063|M|49.98,90.47|N|Turtles are in the sea.|
 T Terrapination|QID|25063|M|49.99,82.90|N|To Kelsey Steelspark.|
@@ -285,7 +290,7 @@ T Fragments of Language|QID|25565|M|40.13,76.93|N|To Prospector Gunstan.|
 A The Secrets of Uldum|QID|25566|PRE|25420|M|40.10,76.86|N|From Prospector Gunstan. |
 R Ruins of Uldum|QID|25566|M|37.74,80.61|N|Head into the Ruins of Uldum.|
 T The Secrets of Uldum|QID|25566|M|84.48,43.21|N|To the Antediluvean Chest.|Z|Uldum|
-A What Lies Within|QID|25070|PRE|25069+25566|M|84.48,43.21|N|From the Antediluvean Chest.|Z|Uldum|
+A What Lies Within|QID|25070|PRE|25069^25566|M|84.48,43.21|N|From the Antediluvean Chest.|Z|Uldum|
 C What Lies Within|QID|25070|M|84.48,43.21|N|The Antechamber Guardian spawns behind you, kill it.|Z|Uldum|
 T What Lies Within|QID|25070|M|84.48,43.21|N|To the Antediluvean Chest.|Z|Uldum|
 A The Grand Tablet|QID|25421|M|84.48,43.21|N|From the Antediluvean Chest.|Z|Uldum|

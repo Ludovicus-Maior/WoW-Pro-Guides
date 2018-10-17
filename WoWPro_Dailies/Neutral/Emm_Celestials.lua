@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/august_celestials_reputation
+-- Date: 2018-10-17 02:21
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3503/revisions/26851/view
 -- Date: 2014-11-07 20:37
 -- Who: Fluclo
 -- Log: Removed 4x duplicate NC tags
@@ -122,16 +127,16 @@ N Temple of the White Tiger|QID|31395|FACTION|Horde|N|If you haven't done the qu
 N Niuzao's Temple Quests|QID|30925|N|If you haven't done the questlines in Niuzao's Temple (Townlong Steppes) you probably want to, since those quest chains each offer August Celestials rep.  It is not required to have done them before doing the dailies.|
 
 ;pointer quests - alliance
-A Random August Celestial Temple Quest|QID|31376;31378;31380;31382|FACTION|Alliance|M|84.6,63.6|N|From Sage Whiteheart.|
+A Random August Celestial Temple Quest|QID|31376^31378^31380^31382|FACTION|Alliance|M|84.6,63.6|N|From Sage Whiteheart.|
 
 ;pointer quests - horde
-A Random August Celestial Temple Quest|QID|31377;31379;31381;31383|FACTION|Horde|M|62.80,23.38|N|To Sage Lotusbloom.|
+A Random August Celestial Temple Quest|QID|31377^31379^31381^31383|FACTION|Horde|M|62.80,23.38|N|To Sage Lotusbloom.|
 
 ;jade serpent temple
 T Attack At The Temple of the Jade Serpent|QID|31376|M|53.91,61.94|Z|The Jade Forest|FACTION|Alliance|N|To Elder Sage Tai-Feng.|
 T Attack At The Temple of the Jade Serpent|QID|31377|M|53.91,61.94|Z|The Jade Forest|FACTION|Horde|N|To Elder Sage Tai-Feng.|
-A Random daily quest(s) from Elder Sage Tai-Feng|QID|30065;30066;30006|PRE|31376+31377|M|53.91,61.94|Z|The Jade Forest|N|From Elder Sage Tai-Feng. You will get a total of three quests from these two questgivers. This step will close when you pick up the first quest.|
-A Random daily quest(s) from Elder Sage Storm Sing|QID|30063;30064|PRE|31376+31377|M|53.88,61.91|Z|The Jade Forest|N|From Elder Sage Storm Sing. You will get a total of three quests from these two questgivers. Check this step off manually if he has no quest for you.|
+A Random daily quest(s) from Elder Sage Tai-Feng|QID|30065^30066^30006|PRE|31376^31377|M|53.91,61.94|Z|The Jade Forest|N|From Elder Sage Tai-Feng. You will get a total of three quests from these two questgivers. This step will close when you pick up the first quest.|
+A Random daily quest(s) from Elder Sage Storm Sing|QID|30063^30064|PRE|31376^31377|M|53.88,61.91|Z|The Jade Forest|N|From Elder Sage Storm Sing. You will get a total of three quests from these two questgivers. Check this step off manually if he has no quest for you.|
 C The Darkness Around Us|QID|30006|S|M|54,54|Z|The Jade Forest|N|Kill sha creatures in the area.|
 C Behind the Masks|QID|30063|M|54,54|S|Z|The Jade Forest|N|The masks drop from the sha creatures in the area.|
 C Saving the Sutras|QID|30064|M|54,54|S|Z|The Jade Forest|N|These are sparkly books scattered around on the ground (often under bushes.)|
@@ -147,7 +152,7 @@ T Behind the Masks|QID|30063|M|53.8,61.8|Z|The Jade Forest|N|To Elder Sage Storm
 T Saving the Sutras|QID|30064|M|53.8,61.8|Z|The Jade Forest|N|To Elder Sage Storm Sing.|
 T Arrows of Fortune|QID|30065|M|53.89,61.94|Z|The Jade Forest|N|To Elder Sage Tai-Feng.|
 T Hidden Power|QID|30066|M|53.89,61.94|Z|The Jade Forest|N|To Elder Sage Tai-Feng.|
-A Random mini-boss quest|QID|30067;30068|PRE|30066|M|53.89,61.94|Z|The Jade Forest|N|From Elder Sage Tai-Feng.|
+A Random mini-boss quest|QID|30067^30068|PRE|30066|M|53.89,61.94|Z|The Jade Forest|N|From Elder Sage Tai-Feng.|
 C The Shadow of Doubt|QID|30067|M|57.4,62.2|Z|The Jade Forest|N|Clicking the bell will greatly assist you in killing this guy.|
 C Flames of the Void|QID|30068|NC|M|54.13,60.91;54.31,59.11|CS|Z|The Jade Forest|N|Hop on the war serpent (1st coord), fly over the blue/white blobs of water in the river (2nd coord) to "charge" your war serpent's water cannon ability, Use 1+Click target on the Void Flames(located all over the temple grounds). If you target and start the next cast before the last one finishes you can hit a 2nd target without refreshing the water supply.|
 T The Shadow of Doubt|QID|30067|M|53.89,61.94|Z|The Jade Forest|N|To Elder Sage Tai-Feng.|
@@ -156,10 +161,10 @@ T Flames of the Void|QID|30068|M|53.89,61.94|Z|The Jade Forest|N|To Elder Sage T
 ;red crane temple
 T Challenge At The Temple of the Red Crane|QID|31378|M|31.34,63.44|Z|Krasarang Wilds|FACTION|Alliance|N|To Thelonius.|
 T Challenge At The Temple of the Red Crane|QID|31379|M|31.2,63.4|Z|Krasarang Wilds|FACTION|Horde|N|To Thelonius.|
-N Achievement Opportunity - Champion of Chi-Ji|ACH|7287|PRE|31378+31379|N|This will take a while to earn as you have to complete 15 trips to the Temple of the Red Crane. Some people choose to skip the August Celestials dailies unless it is the Red Crane Temple just to earn this achievement.|
-A Chasing Hope|QID|30716|PRE|31378+31379|M|31.35,63.62|Z|Krasarang Wilds|N|From Kuo-Na Quillpaw.|
-A Gifts of the Great Crane|QID|30717|PRE|31378+31379|M|31.4,63.6|Z|Krasarang Wilds|N|From Yan Quillpaw.|
-A Students of Chi-Ji|QID|30718|PRE|31378+31379|M|31.2,63.4|Z|Krasarang Wilds|N|From Thelonius.|
+N Achievement Opportunity - Champion of Chi-Ji|ACH|7287|PRE|31378^31379|N|This will take a while to earn as you have to complete 15 trips to the Temple of the Red Crane. Some people choose to skip the August Celestials dailies unless it is the Red Crane Temple just to earn this achievement.|
+A Chasing Hope|QID|30716|PRE|31378^31379|M|31.35,63.62|Z|Krasarang Wilds|N|From Kuo-Na Quillpaw.|
+A Gifts of the Great Crane|QID|30717|PRE|31378^31379|M|31.4,63.6|Z|Krasarang Wilds|N|From Yan Quillpaw.|
+A Students of Chi-Ji|QID|30718|PRE|31378^31379|M|31.2,63.4|Z|Krasarang Wilds|N|From Thelonius.|
 C Chasing Hope|QID|30716|NC|S|M|35.5,78.1|Z|Krasarang Wilds|N|Most likely these ghostly cranes will find you while you do the other two quests, if you don't, the spot marked is a great place to wait for them to run by.|
 C Gifts of the Great Crane|QID|30717|NC|S|M|32,67|Z|Krasarang Wilds|N|The crane feathers are found all over the island.|
 C Students of Chi-Ji|QID|30718|M|32,67|Z|Krasarang Wilds|N|The students are found all over the island.|
@@ -169,7 +174,7 @@ T Chasing Hope|QID|30716|M|31.2,63.4|Z|Krasarang Wilds|N|To Kuo-Na Quillpaw.|
 T Gifts of the Great Crane|QID|30717|M|31.4,63.6|Z|Krasarang Wilds|N|From Yan Quillpaw.|
 T Students of Chi-Ji|QID|30718|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
 ; The Match list
-A The Champion of Chi-Ji Quest|QID|30725;30726;30727;30728;30729;30730;30731;30732;30733;30734;30735|PRE|30718;30736;30737;30737;30738;30739;30740|M|31.2,63.4|Z|Krasarang Wilds|N|From Thelonius.|
+A The Champion of Chi-Ji Quest|QID|30725^30726^30727^30728^30729^30730^30731^30732^30733^30734^30735|PRE|30718 & 30736 & 30737 & 30737 & 30738 & 30739 & 30740|M|31.2,63.4|Z|Krasarang Wilds|N|From Thelonius.|
 C Ellia Ravenmane|QID|30725|M|31.8,71.0|Z|Krasarang Wilds|
 T Ellia Ravenmane|QID|30725|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
 C Minh Do-Tan|QID|30726|M|32.0,76.4|Z|Krasarang Wilds|
@@ -206,10 +211,10 @@ T Champion of Chi-Ji|QID|30740|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius. Con
 ;white tiger temple
 T Trial At The Temple of the White Tiger|QID|31380|M|66.4,46.4|Z|Kun-Lai Summit|FACTION|Alliance|N|To Xuen who moves around his temple depending on which quests he is going to give that day, if he is not here look for the ?.|
 T Trial At The Temple of the White Tiger|QID|31381|M|66.4,46.4|Z|Kun-Lai Summit|FACTION|Horde|N|To Xuen who moves around his temple depending on which quests he is going to give that day. if he is not here look for the ?.|
-N Achievement Opportunity - Finish Them!|ACH|7286|PRE|31381+31380|N|This one will take a minimum of two trips to the Temple of the White Tiger. It requires you to face all the champions. It is random which set of champions you face. You do not have to get the Tag credit for these, only the kill credit.|
-A Contending With Bullies|QID|31517|PRE|31380+31381|M|66.4,46.4|Z|Kun-Lai Summit|N|From Xuen, if he isn't here, check this off manually and then find Lin Tenderpaw after accepting the challenge quest.(next line of guide).|
-A Random Round 1|QID|30879;30880|PRE|31380+31381|M|66.4,46.4|Z|Kun-Lai Summit|N|From Xuen who wanders a bit and may be in a differant spot in the temple.|
-A The Torch of Strength|QID|31492|PRE|31380+31381|LEAD|31517|M|68.4,56.4|Z|Kun-Lai Summit|N|From Lin Tenderpaw.|
+N Achievement Opportunity - Finish Them!|ACH|7286|PRE|31381^31380|N|This one will take a minimum of two trips to the Temple of the White Tiger. It requires you to face all the champions. It is random which set of champions you face. You do not have to get the Tag credit for these, only the kill credit.|
+A Contending With Bullies|QID|31517|PRE|31380^31381|M|66.4,46.4|Z|Kun-Lai Summit|N|From Xuen, if he isn't here, check this off manually and then find Lin Tenderpaw after accepting the challenge quest.(next line of guide).|
+A Random Round 1|QID|30879^30880|PRE|31380^31381|M|66.4,46.4|Z|Kun-Lai Summit|N|From Xuen who wanders a bit and may be in a differant spot in the temple.|
+A The Torch of Strength|QID|31492|PRE|31380^31381|LEAD|31517|M|68.4,56.4|Z|Kun-Lai Summit|N|From Lin Tenderpaw.|
 C Contending With Bullies|QID|31517|M|71,55.8|Z|Kun-Lai Summit|N|Shonuf is located in the village of Yinying to the SE. Clear the area around him or the other mobs will assist.|
 C The Torch of Strength|QID|31492|N|If a whirlwind gets close, your torch goes out, if you still have the debuff, you can relight your torch by standing next to another player with a lit torch for a second or so, or go talk to the quest giver to get a new torch. Remember there is no time limit on this quest.|
 T The Torch of Strength|QID|31492|M|68.4,56.4|Z|Kun-Lai Summit|N|To Lin Tenderpaw.|
@@ -242,9 +247,9 @@ N Pro Tip|ACTIVE|31382|M|48,70|Z|Townlong Steppes|FACTION|Alliance|N|If you are 
 T Defense At Niuzao Temple|QID|31382|M|39.35,62.30|Z|Townlong Steppes|FACTION|Alliance|N|To Ogo the Elder.|
 N Pro Tip|ACTIVE|31383|M|48,70|Z|Townlong Steppes|FACTION|Horde|N|If you are solo and undergeared you may want to pick up one of the Shado-pan companions to help you while you do these quests.|
 T Defense At Niuzao Temple|QID|31383|M|39.35,62.30|Z|Townlong Steppes|FACTION|Horde|N|To Ogo the Elder.|
-A Random daily from Ogo the Elder|QID|30952;30956|PRE|31382+31383|M|39.35,62.30|Z|Townlong Steppes|N|From Ogo the Elder.|
-A Three other random dailies|QID|30953;30954;30955;30957;30958;30959|PRE|31382+31383|M|39.2,62|Z|Townlong Steppes|N|From other NPCs on the Temple Steps.  This step will close when you pick up the first quest.|
-N Achievement Opportunity - Yak Attack|ACH|7288|ACTIVE|30956;30952|N|While you can technically do this any time you are at the Yak's temple, it is easiest when you are on the Siege quests, since in that phase, Niuzao is running around killing everything and there are more attackers available to be killed.  What you need to do is tag 15 mobs and kill them in 5 seconds.  Unless you are in a full group or really well geared, this is best accomplished by tagging them and positioning them in front of a charging Niuzao.|
+A Random daily from Ogo the Elder|QID|30952^30956|PRE|31382^31383|M|39.35,62.30|Z|Townlong Steppes|N|From Ogo the Elder.|
+A Three other random dailies|QID|30953^30954^30955^30957^30958^30959|PRE|31382^31383|M|39.2,62|Z|Townlong Steppes|N|From other NPCs on the Temple Steps.  This step will close when you pick up the first quest.|
+N Achievement Opportunity - Yak Attack|ACH|7288|ACTIVE|30956^30952|N|While you can technically do this any time you are at the Yak's temple, it is easiest when you are on the Siege quests, since in that phase, Niuzao is running around killing everything and there are more attackers available to be killed.  What you need to do is tag 15 mobs and kill them in 5 seconds.  Unless you are in a full group or really well geared, this is best accomplished by tagging them and positioning them in front of a charging Niuzao.|
 C The Unending Siege|QID|30952|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|S|N|These are the non-elite mantid in the area.|
 C The Siege Swells|QID|30956|M|42,62|Z|Townlong Steppes|S|N|These are the non-elite mantid in the area.|
 C Fallen Sentinels|QID|30953|U|82381|M|44.23,63.97;43.17,60.73;41.38,57.03;38.52,59.98|CN|Z|Townlong Steppes|S|N|You can use your own healing spells too.  If you are having trouble with adds, you can stand on the wall and heal the sentinals below you on the ground.|

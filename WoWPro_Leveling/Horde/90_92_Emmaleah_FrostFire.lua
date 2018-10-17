@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2018-10-17 02:28
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3587/revisions/29873/view
 -- Date: 2018-10-04 05:44
 -- Who: elidion
 -- Log: Cleaned up guides N,H,h,R,P,F and f steps, added FLY tags.
@@ -245,11 +250,6 @@
 -- Who: Emmaleah
 -- Log: Some changes for live. some more clean up
 
--- URL: http://wow-pro.com/node/3587/revisions/26974/view
--- Date: 2014-11-13 13:12
--- Who: Emmaleah
--- Log: changed cords T Build your barracks, apparently Gazlowe needed new scenery, deleted all the @Frostfire Ridge (because I was confused). Haven't finished the pass thru the zone on live. more to come tomarrow.
-
 local guide = WoWPro:RegisterGuide('EmmFrostfire', 'Leveling', 'Frostfire Ridge', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,91, 92, 90.7)
 WoWPro:NewGuideLevels(guide,90,100)
@@ -282,7 +282,7 @@ C Back to Work|QID|34375|M|47.28,62.68|NC|N|Click on the flags in front of the t
 C A Gronnling Problem|QID|34592|M|47.42,66.34|US|N|Find the rest of the gronns you need to kill.|
 T Back to Work|QID|34375|M|48.76,64.91|N|To Gazlowe.|
 T A Gronnling Problem|QID|34592|M|48.76,64.91|N|To Gazlowe.|
-A The Den of Skog|QID|34765|PRE|34375;34592|M|48.76,64.91|N|From Gazlowe.|
+A The Den of Skog|QID|34765|PRE|34375 & 34592|M|48.76,64.91|N|From Gazlowe.|
 C The Den of Skog|QID|34765|M|48.47,70.25|T|Skog|
 T The Den of Skog|QID|34765|M|48.75,64.90|N|To Gazlowe.|
 A Establish Your Garrison|QID|34378|PRE|34765|M|48.75,64.90|N|From Gazlowe.|
@@ -305,7 +305,7 @@ C What We Got|QID|34824|M|55.02,52.79|NC|QO|2|N|Open the crate next to Lady Sena
 T The Ogron Live?|QID|34823|M|51.49,51.38|N|To Rokhan.|Z|Frostwall|
 T What We Got|QID|34824|M|52.47,53.43|N|To Gazlowe.|Z|Frostwall|
 T What We Need|QID|34822|M|52.47,53.43|N|To Gazlowe.|Z|Frostwall|
-A Build Your Barracks|QID|34461|PRE|34822;34823;34824|M|52.47,53.43|N|From Gazlowe.|Z|Frostwall|
+A Build Your Barracks|QID|34461|PRE|34822 & 34823 & 34824|M|52.47,53.43|N|From Gazlowe.|Z|Frostwall|
 C Build Your Barracks|QID|34461|M|59.82,50.08|U|111956|NC|QO|1;2|N|Pick up the blueprints off the table and learn them.|Z|Frostwall|
 C Build Your Barracks|QID|34461|M|52.31,53.57|NC|QO|3|N|Click on the table beside Gazlowe, pick one of the two possible sites on the map that appears, then follow Gazlowe over to that spot.|Z|Frostwall|
 C Build Your Barracks|QID|34461|M|58.02,49.34|NC|QO|5|N|Follow Gazlowe over to the spot, and click on the scroll in front of the door to finalize your plot.|Z|Frostwall|
@@ -363,7 +363,7 @@ C To the Slaughter|QID|33622|M|52.47,21.00|Z|Bladespire Courtyard@FrostfireRidge
 C Armed and Dangerous|QID|33344|M|52.07,21.83|NC|US|N|Finish up giving the slaves weapons.|Z|Bladespire Courtyard@FrostfireRidge|
 T To the Slaughter|QID|33622|M|50.30,32.59|N|To Durotan.|Z|Bladespire Courtyard@FrostfireRidge|
 T Armed and Dangerous|QID|33344|M|50.30,32.59|N|To Durotan.|Z|Bladespire Courtyard@FrostfireRidge|
-A Last Steps|QID|33527|PRE|33344;33622|M|50.30,32.59|N|From Durotan.|Z|Bladespire Courtyard@FrostfireRidge|
+A Last Steps|QID|33527|PRE|33344 & 33622|M|50.30,32.59|N|From Durotan.|Z|Bladespire Courtyard@FrostfireRidge|
 C Last Steps|QID|33527|M|50.3,31.8|T|Gorr'thog|N|Click on the ladder beside you to climb the chain. At the top you will find Gorr'thog. Kill him.|Z|Bladespire Throne@FrostfireRidge|
 T Last Steps|QID|33527|M|66.52,56.51|N|To Durotan.|Z|Bladespire Courtyard@FrostfireRidge|
 A Moving In|QID|33657|PRE|33527|M|66.52,56.51|N|From Durotan.|Z|Bladespire Throne@FrostfireRidge|
@@ -387,7 +387,7 @@ C Free Our Brothers and Sisters|QID|33807|M|19.03,57.36|US|N|Finish up freeing t
 C Save Wolf Home|QID|33468|M|20.8,57.9|US|N|Finish up anyremaining invaders you need.|
 T Save Wolf Home|QID|33468|M|20.80,57.93|N|To Draka.|
 T Free Our Brothers and Sisters|QID|33807|M|20.80,57.93|N|To Draka.|
-A The Farseer|QID|33469|PRE|33468;33807|M|20.80,57.93|N|From Draka.|
+A The Farseer|QID|33469|PRE|33468 & 33807|M|20.80,57.93|N|From Draka.|
 C The Farseer|QID|33469|M|16.71,57.71|T|Warleader Gargrak|N|Run into the cave and kill Gargrak.|
 T The Farseer|QID|33469|M|16.79,57.83|N|To Farseer Drek'Thar.|
 A Pool of Visions|QID|33470|PRE|33469|M|16.79,57.83|N|From Farseer Drek'Thar.|
@@ -434,7 +434,7 @@ K Splorg|ACTIVE|33450|M|28.51,26.18|QO|3|N|Inside the building up the hill.|T|Sp
 C The Cure|QID|33454|M|27.17,26.98|US|N|Finish curing the gladiators.|RANK|2|
 T The Warlord's Guard|QID|33450|M|24.30,28.30|N|To Igrimar the Resolute.|RANK|2|
 T The Cure|QID|33454|M|24.30,28.30|N|To Igrimar the Resolute.|RANK|2|
-A The Fall of the Warlord|QID|33467|PRE|33450;33454|M|24.30,28.30|N|From Igrimar the Resolute.|RANK|2|
+A The Fall of the Warlord|QID|33467|PRE|33450 & 33454|M|24.30,28.30|N|From Igrimar the Resolute.|RANK|2|
 C The Fall of the Warlord|QID|33467|M|23.2,26.6|N|Click on the weapon stand to summon Bult.|T|Warlord Bult|RANK|2|
 
 A Slaying Slavers|QID|33898|PRE|33657|M|24.14,39.30|N|From Gol'kosh the Axe.|RANK|2|
@@ -501,7 +501,7 @@ C They Rely on Numbers|QID|32929|M|35.10,29.72|US|
 T They Rely on Numbers|QID|32929|M|46.39,32.05|N|To Kal'gor the Honorable.|
 A Articles of the Fallen|QID|32804|PRE|32792|M|46.39,32.05|N|From Kal'gor the Honorable.|
 T Leave Nothing Behind!|QID|32792|M|46.40,32.15|N|To Ga'nar.|
-A Wrath of Gronn|QID|32794|PRE|32792;32929|M|46.40,32.15|N|From Ga'nar.|
+A Wrath of Gronn|QID|32794|PRE|32792 & 32929|M|46.40,32.15|N|From Ga'nar.|
 C Articles of the Fallen|QID|32804|M|46.59,33.46|NC|N|Pick up the items off of the ground in this open area.|
 T Articles of the Fallen|QID|32804|M|46.38,32.04|N|To Kal'gor the Honorable.|
 C Wrath of Gronn|QID|32794|M|39.88,72.16|N|Head down the cave and fight the gronn's captors.|
@@ -633,7 +633,7 @@ T Frosted Fury|QID|34346|M|52.51,40.42|N|To Shadow Hunter Mala.|RANK|2|
 T Lurkers|QID|34344|M|52.63,40.41|N|To Shadow Hunter Rala.|RANK|2|
 T Poulticide|QID|34345|M|52.63,40.41|N|To Shadow Hunter Rala.|RANK|2|
 
-A The Real Prey|QID|34348|M|52.63,40.45|N|From Shadow Hunter Rala.|PRE|34344;34345;34346|RANK|2|
+A The Real Prey|QID|34348|M|52.63,40.45|N|From Shadow Hunter Rala.|PRE|34344 & 34345 & 34346|RANK|2|
 C The Real Prey|QID|34348|M|53.4,29.4;52.13,29.42|CS|T|Grosh the Mighty|RANK|2|
 f Bloodmaul Slag Mines|ACTIVE|34348|M|51.44,21.47|N|At Brenna Skymoor.As long as you are in the neighborhood, you can run up and get this explore and flight path, totally optional, for level 100 content. |RANK|3|
 $ Treasure-Clumsy Cragmaul Brute|QID|33531|M|50.1,18.7|N|More treasure just lying around to be claimed.|RANK|3|
@@ -816,7 +816,7 @@ C Thunderlord Invasion!|QID|37291|M|43.61,47.91|CHAT|N|Chat with Sargeant Grimja
 t Thunderlord Invasion|QID|37291|M|43.61,47.91|N|To Sargeant Grimjaw.|RANK|2|Z|Frostwall|
 A The Iron Wolf|QID|33010|PRE|37291|M|50.17,37.82|N|From Durotan.|RANK|2|Z|Frostwall|
 
-A Services of Dagg|QID|34733|M|48.23,17.32|N|If you found Dagg while out and about questing (in daggermaw ravine and in grom'gar) he has come to pledge his service.|PRE|34654;34651|RANK|2|Z|Frostwall|
+A Services of Dagg|QID|34733|M|48.23,17.32|N|If you found Dagg while out and about questing (in daggermaw ravine and in grom'gar) he has come to pledge his service.|PRE|34654 & 34651|RANK|2|Z|Frostwall|
 R Grimfrost Hill|ACTIVE|33010|M|65.14,49.45|RANK|3|FLY|WOD|
 A A Proper Parting|QID|33125|M|66.03,49.09|N|From Outrider Urukag.|RANK|3|
 A Gut Guttra|QID|33132|M|66.03,49.09|N|From Outrider Urukag.|RANK|3|
@@ -859,15 +859,15 @@ C Savage Vengeance|QID|34066|M|83.50,65.90|US|RANK|3|
 T Savage Vengeance|QID|34066|M|82.62,69.77|N|To Scout Ruk'Gan.|RANK|3|
 T Getting the Points|QID|34069|M|82.62,69.77|N|To Scout Ruk'Gan.|RANK|3|
 T A Collection of Coils|QID|34067|M|82.62,69.77|N|To Scout Ruk'Gan.|RANK|3|
-A At the End of Your Rope|QID|34070|PRE|34067;34069|M|82.62,69.77|N|From Scout Ruk'Gan.|RANK|3|
-A Tar Get of Opportunity|QID|34072|PRE|34067;34069|M|82.62,69.77|N|From Scout Ruk'Gan.|RANK|3|
+A At the End of Your Rope|QID|34070|PRE|34067 & 34069|M|82.62,69.77|N|From Scout Ruk'Gan.|RANK|3|
+A Tar Get of Opportunity|QID|34072|PRE|34067 & 34069|M|82.62,69.77|N|From Scout Ruk'Gan.|RANK|3|
 C At the End of Your Rope|QID|34070|M|84.5,71.3|U|109082|S|N|Look up. Target the flyers and use your harpoon.|T|Thunderlord War Rylak|RANK|3|
 C Tar Get of Opportunity|QID|34072|M|84.5,71.3|N|From the Black Tar (slimes).|RANK|3|
 C At the End of Your Rope|QID|34070|M|84.5,71.3|U|109082|US|N|Look up. Target the flyers and use your harpoon.|T|Thunderlord War Rylak|RANK|3|
 T At the End of Your Rope|QID|34070|M|82.62,69.77|N|To Scout Ruk'Gan.|RANK|3|
 T Tar Get of Opportunity|QID|34072|M|82.62,69.77|N|To Scout Ruk'Gan.|RANK|3|
 A Burn Them Down|QID|34073|PRE|34072|M|82.62,69.77|N|From Scout Ruk'Gan.|RANK|3|
-A The Mark of Defiance|QID|34102|PRE|34070;34072|M|82.6,69.8|N|From Battle Worn Frostwolf Banner.|RANK|3|
+A The Mark of Defiance|QID|34102|PRE|34070 & 34072|M|82.6,69.8|N|From Battle Worn Frostwolf Banner.|RANK|3|
 C The Mark of Defiance|QID|34102|U|109196|M|83.23,74.49|S|N|Use the banner on the corpses you kill.|RANK|3|
 C Burn Them Down|QID|34073|NC|U|109164|QO|1|M|81.86,71.69|RANK|3|
 C Burn Them Down|QID|34073|NC|U|109164|QO|2|M|81.99,73.91|RANK|3|
@@ -875,7 +875,7 @@ C Burn Them Down|QID|34073|NC|U|109164|QO|3|M|83.37,75.13|RANK|3|
 C The Mark of Defiance|QID|34102|U|109196|M|83.23,74.49|US|N|Use the banner on the corpses you kill.|RANK|3|
 T Burn Them Down|QID|34073|M|82.83,76.34|N|To Scout Ruk'Gan.|RANK|3|
 T The Mark of Defiance|QID|34102|M|82.83,76.34|N|To Scout Ruk'Gan.|RANK|3|
-A Vul'gath's End|QID|34075|PRE|34073;34102|M|82.83,76.34|N|From Scout Ruk'Gan.|RANK|3|
+A Vul'gath's End|QID|34075|PRE|34073 & 34102|M|82.83,76.34|N|From Scout Ruk'Gan.|RANK|3|
 C Vul'gath's End|QID|34075|M|83.83,74.96|T|General Vul'gath|N|Just across the rock bridge here.|RANK|3|
 T Vul'gath's End|QID|34075|M|82.82,76.33|N|To Scout Ruk'Gan.|RANK|3|
 

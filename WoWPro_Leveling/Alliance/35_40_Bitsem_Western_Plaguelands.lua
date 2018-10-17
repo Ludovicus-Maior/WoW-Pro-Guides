@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2018-10-17 02:23
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3244/revisions/29589/view
 -- Date: 2018-08-23 23:43
 -- Who: jovieve
 -- Log: Removed old style QO since step has a CS tag.
@@ -225,7 +230,7 @@ T Scholomancer|QID|27162|M|41.13,70.48|N|To Thassarian.|
 T Brute Strength|QID|27163|M|41.13,70.48|N|To Thassarian.|US|
 T Araj the Summoner|QID|27164|M|41.13,70.48|N|To Thassarian.|US|
 
-A Victory, For Now|QID|27165|PRE|27162;27163;27164|M|41.13,70.48|N|From Thassarian.|
+A Victory, For Now|QID|27165|PRE|27162 & 27163 & 27164|M|41.13,70.48|N|From Thassarian.|
 f Andorhal|QID|27165|M|39.44,69.55|N|Get flightpoint from Ginny Goodwin.|
 F Chillwind Camp |QID|27165|M|39.44,69.55|N|Speak to Ginny Goodwin for a free-flight to Chillwind Camp.|
 f Chillwind Camp|QID|27165|M|42.95,84.95|N|Get flightpoint from Bibilfaz Featherwhistle.|
@@ -390,7 +395,7 @@ A Desperate Acts|QID|27054|PRE|27057|M|49.32,54.76|N|From Field Agent Kaartish.|
 A Zen'Kiki and the Cultists|QID|26955|PRE|27057|M|48.93,54.76|N|From Adrine Towhide.|
 T Memories from a Lost Past|QID|27017|M|50.60,52.60|N|To Del Gahrron.|
 
-A The Battle Resumes!|QID|27197|PRE|27175+27233|M|50.39,52.70|N|From Durnt Brightfalcon.|
+A The Battle Resumes!|QID|27197|PRE|27175^27233|M|50.39,52.70|N|From Durnt Brightfalcon.|
 
 C Zen'Kiki and the Cultists|QID|26955|NC|M|66.78,47.12|N|Take Zen'Kiki to the cages. Open them, let him heal.|S|
 C Desperate Acts|QID|27054|M|66.04,47.75|N|Kill Instructor Malicia and loot the orders.|
@@ -413,7 +418,7 @@ C Supporting the Troops|QID|27198|US|M|44.45,65.66|N|Finish killing Deathguards.
 
 T Supporting the Troops|QID|27198|M|39.94,69.42|N|To Lang Loosegrip.|
 T Ashes to Ashes|QID|27199|M|39.94,69.42|N|To Thassarian.|
-A The Depravity of the Forsaken|QID|27205|PRE|27198;27199|M|39.74,69.52|N|From Thassarian.|
+A The Depravity of the Forsaken|QID|27205|PRE|27198 & 27199|M|39.74,69.52|N|From Thassarian.|
 
 T The Depravity of the Forsaken|QID|27205|M|39.84,69.51|N|To Thassarian.|
 A Val'kyr Incursion|QID|27201|PRE|27205|M|39.84,69.51|N|From Thassarian.|
@@ -426,7 +431,7 @@ C Val'kyr Incursion|QID|27201|US|M|41.80,70.42|N|Finish killing those Lesser Val
 T Brother Against Brother|QID|27202|M|39.90,69.65|N|To Thurman Grant.|
 T Val'kyr Incursion|QID|27201|M|39.89,69.55|N|To Thassarian.|
 
-A Aradne|QID|27204|PRE|27201;27202|M|39.89,69.55|N|From Thassarian.|
+A Aradne|QID|27204|PRE|27201 & 27202|M|39.89,69.55|N|From Thassarian.|
 C Aradne|QID|27204|M|40.37,72.24|N|Head up the tower and kill the elite Aradne.  Your companions will be there to help you.|
 T Aradne|QID|27204|M|39.97,69.58|N|To Thassarian.|
 

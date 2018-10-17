@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2018-10-17 02:32
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3407/revisions/29440/view
 -- Date: 2018-07-19 15:32
 -- Who: Ludovicus_Maior
 -- Log:  Durotar
@@ -178,7 +183,7 @@ T Stealing the Exodar's Flame|RANK|3|QID|11933|M|47.72,38.17|N|To the Festival T
 T Playing with Fire|RANK|2|QID|11915|M|47.6,38.2|N|To the Master Flame Eater.|PRE|600002|
 T Inform the Elder|RANK|2|QID|12012|M|47.6,38.2|N|To the Earthen Ring Elder.|
 
-A Striking Back|RANK|2|QID|11917;11947;11948;11952;11953;11954|M|47.6,38.2|N|From the Earthern Rint Elder. This is a daily ... if you need more flowers.|PRE|29092+12012|
+A Striking Back|RANK|2|QID|11917^11947^11948^11952^11953^11954|M|47.6,38.2|N|From the Earthern Rint Elder. This is a daily ... if you need more flowers.|PRE|29092^12012|
 F Zoram'gar Strand|ACTIVE|11917|RANK|2|M|49.5,59.1|N|Fly to Zoram'gar Strand.|
 C Striking Back|ACTIVE|11917|RANK|2|M|9,12|Z|Ashenvale|N|Click on the Ice Stone to summon the Frostweave Lieutenant.|
 H Orgrimmar|ACTIVE|11917|RANK|2|N|Back to Orgimmar to continue thru the guide.|Z|Ashenvale|
@@ -363,9 +368,9 @@ T Stealing Ironforge's Flame|RANK|3|QID|9331|M|47.8,37.8|N|To the Festival Tales
 T Stealing Stormwind's Flame|RANK|3|QID|9330|M|47.8,37.8|N|To the Festival Talespinner.|
 A A Thief's Reward|RANK|3|QID|9339|M|47.8,37.8|N|From the Festival Talespinner. You can do this every year, but there is no particular reason to do it more than once.|
 N Eastern Kingdoms Complete!|RANK|2|QID|910250014|N|You should now have completed both Flame Keeper of Eastern Kingdoms and Extinguish Eastern Kingdoms achievements completed. Check this step off to move on to Outland!|
-H Orgrimmar|U|6948|RANK|2|N|Return to Orgimmar using your choice of methods.|QID|11917;11947;11948;11952;11953;11954|
+H Orgrimmar|U|6948|RANK|2|N|Return to Orgimmar using your choice of methods.|QID|11917^11947^11948^11952^11953^11954|
 
-T Striking Back|RANK|2|QID|11917;11947;11948;11952;11953;11954|M|47.6,38.2|N|To the Earthen Ring Elder.|
+T Striking Back|RANK|2|QID|11917^11947^11948^11952^11953^11954|M|47.6,38.2|N|To the Earthen Ring Elder.|
 B Buy 15 Juggling Torches from Midsummer Merchant.|RANK|2|QID|902720001|ACH|272;1|M|47.6,38.6|L|34599 15|N|These aren't soulbound, check with your friends if you want to save the flowers.|
 
 R Borean Tundra|RANK|2|QID|13493|N|Run to the Northrend Zeppelin to go to Borean Tundra.|M|44.6,62.6|
@@ -421,13 +426,13 @@ T Honor the Flame|QID|44573|Z|Gorgrond|M|43.92,93.79|N|To Midsummer Bonfire.|
 F Exile's Rise|QID|44582|Z|Gorgrond|M|47.45,90.78|N|At Windscreamer.|
 A Desecrate This Fire!|QID|44582|Z|Shadowmoon Valley@Draenor|M|42.65,35.96|N|From Midsummer Bonfire (Shadowmoon Valley).|
 T Desecrate This Fire!|QID|44582|Z|Shadowmoon Valley@Draenor|M|42.65,35.96|N|To Midsummer Bonfire (Shadowmoon Valley).|
-F Veil Terokk|QID|44570||Z|Shadowmoon Valley@Draenor|M|45.57,25.40|N|At Wargra.|
+F Veil Terokk|QID|44570|Z|Shadowmoon Valley@Draenor|M|45.57,25.40|N|At Wargra.|
 A Honor the Flame|QID|44570|Z|Spires of Arak|M|48.01,44.72|N|Spires of Arak Flame Guardian.|
 T Honor the Flame|QID|44570|Z|Spires of Arak|M|48.01,44.72|N|To Midsummer Bonfire.|
 F Retribution Point|QID|44571|Z|Talador|M|46.17,44.12|N|At Skytalon Meshaal.|
 A Honor the Flame|QID|44571|Z|Talador|M|43.50,71.81|N|Talador Flame Guardian.|
 T Honor the Flame|QID|44571|Z|Talador|M|43.50,71.81|N|To Midsummer Bonfire.|
-F The Ring of Trials|QID|44572||Z|Talador|M|42.10,76.79|N|At Beldos.|
+F The Ring of Trials|QID|44572|Z|Talador|M|42.10,76.79|N|At Beldos.|
 A Honor the Flame|QID|44572|Z|Nagrand@Draenor|M|80.57,47.68|N|Nagrand Flame Guardian.|
 T Honor the Flame|QID|44572|Z|Nagrand@Draenor|M|80.57,47.68|N|To Midsummer Bonfire.|
 N Draenor Done|QID|44574|N|Congratulations, Flamekeeper and Extinguisher of Draenor are now done.|ACH|11284|

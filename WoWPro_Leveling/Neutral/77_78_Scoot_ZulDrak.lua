@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
+-- Date: 2018-10-17 02:30
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3295/revisions/29130/view
 -- Date: 2018-02-23 00:13
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -226,7 +231,7 @@ C Feedin' Da Goolz |QID|12652|N|Use the bowl near the ghouls. Be careful of the 
 T Feedin' Da Goolz |QID|12652|N|Back to Gristlegut.|M|19.9,75.5|U|38699|
 T Dressing Down |QID|12648|O|N|Back to Ebon Watch.|M|14.12,73.79|
 T Suit Up! |QID|12649|O|N|Back to Ebon Watch.|M|14.12,73.79|
-A Infiltrating Voltarus |QID|12661|PRE|12648+12649|M|14.1,73.8|N|From Stefan Vadu.|
+A Infiltrating Voltarus |QID|12661|PRE|12648^12649|M|14.1,73.8|N|From Stefan Vadu.|
 T Gymer's Salvation |QID|12914|N|Back to Crusader Forward Camp.|M|25.34,63.97|
 A Our Only Hope |QID|12916|PRE|12914|M|25.3,64.0|N|From Engineer Reed.|
 C Our Only Hope |QID|12916|N|Use the Jumbo Seaforium Charge on the cage. |M|19.65,56.47|
@@ -496,14 +501,14 @@ C You Reap What You Sow |QID|12685|N|Complete the Ritual (you can't be stealthed
 T You Reap What You Sow |QID|12685|N|To Witch Doctor Khufu.|M|59.51,57.99|
 T Bringing Down Heb'Jin |QID|12662|M|59.4,56.4|N|To Element-Tamer Dagoda.|
 
-A Enchanted Tiki Warriors |QID|12708|PRE|12662;12685|M|59.4,56.4|N|From Element-Tamer Dagoda.|
+A Enchanted Tiki Warriors |QID|12708|PRE|12662 & 12685|M|59.4,56.4|N|From Element-Tamer Dagoda.|
 T Scalps! |QID|12659|M|59.2,56.2|N|To Scalper Ahunae.|
 
 A Wooly Justice |QID|12707|PRE|12685|M|59.2,56.2|N|From Scalper Ahunae.|
 A The Key of Warlord Zol'Maz |QID|12712|PRE|12685|M|60.3,57.8|N|From Har'koa.|
 
 T Tails Up |QID|13549|M|60.0,57.9|N|From Chronicler To'kini.|
-A Hexed Caches |QID|12709|PRE|12685;13549|M|60.0,57.9|N|From Chronicler To'kini.|
+A Hexed Caches |QID|12709|PRE|12685 & 13549|M|60.0,57.9|N|From Chronicler To'kini.|
 C Hexed Caches |QID|12709|N|Loot the Hexed Caches you see. There is a good chance you will get cursed, the Tiki Warriors can drop items that cure the curses if you aren't a class that can do that.|U|39305|M|69.2,35.9|S|
 C Enchanted Tiki Warriors |QID|12708|N|Kill 12 Enchanted Tiki Warriors.|M|69.2,35.9|S|
 K Tiri |QID|12712|N|In the buliding, kill and loot Tiri for her Incantation.|M|63.75,37.11|L|39316|
@@ -542,10 +547,10 @@ A Unfinished Business |QID|29833|N|From Har'koa. This quest is optional as it le
 N Amphitheater of Anguish |QID|12948|N|If you haven't gotten the achievement yet (and you know you want it), get a group up for the Amphitheater of Anguish. |
 
 t The Champion's Call! |QID|12974|N|To Gurgthock.|M|48.43,56.35|
-A The Amphitheater of Anguish: Yggdras!|QID|12932;12954|M|48.43,56.35|N|Welcome Champion of The Ring of Blood. From Gurgthock|
-C The Amphitheater of Anguish: Yggdras!|QID|12932;12954|M|48.00,57.00|N|L75 Worm.|
-T The Amphitheater of Anguish: Yggdras!|QID|12954;12932|M|48.48,56.42|N|To Wodin the Troll-Servant.|
-A The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.43,56.35|N|From Gurgthock.|PRE|12932+12954|
+A The Amphitheater of Anguish: Yggdras!|QID|12932^12954|M|48.43,56.35|N|Welcome Champion of The Ring of Blood. From Gurgthock|
+C The Amphitheater of Anguish: Yggdras!|QID|12932^12954|M|48.00,57.00|N|L75 Worm.|
+T The Amphitheater of Anguish: Yggdras!|QID|12954^12932|M|48.48,56.42|N|To Wodin the Troll-Servant.|
+A The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.43,56.35|N|From Gurgthock.|PRE|12932^12954|
 C The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.00,57.00|N|L75 Stinky Magnataur.|
 T The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.48,56.42|N|To Wodin the Troll-Servant.|
 A The Amphitheater of Anguish: From Beyond!|QID|12934|M|48.43,56.35|N|From Gurgthock.|PRE|12933|

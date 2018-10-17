@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/demon_hunter_artifact_and_class_hall
+-- Date: 2018-10-17 02:29
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3685/revisions/29856/view
 -- Date: 2018-09-30 07:36
 -- Who: elidion
 -- Log: Went through guide, cleaned up a lot of QID/ACTIVE tags, fixed some PREs, added scenario objectives for Havoc and fixed an invalid A quest ID.
@@ -116,7 +121,7 @@ C Demons Among Them|QID|40983|QO|2|M|45.59,15.93|Z|Durotar|N|Slay Demons|FACTION
 T Demons Among Them|QID|40983|M|45.68,15.94|Z|Durotar|N|To Lady Sylvanas Windrunner.|FACTION|Horde|
 A A Weapon of the Horde|QID|41002|PRE|40983|M|45.68,15.94|Z|Durotar|N|From Lady Sylvanas Windrunner.|FACTION|Horde|
 T A Weapon of the Horde|QID|41002|M|52.63,56.06|Z|Orgrimmar|N|To Elthyn Da'rai.|FACTION|Horde|
-A In the Blink of an Eye|QID|44663|PRE|44120+44473|M|53.06,57.84|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|Horde|
+A In the Blink of an Eye|QID|44663|PRE|44120^44473|M|53.06,57.84|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|Horde|
 C In the Blink of an Eye|QID|44663|QO|1|M|0.00,0.00|Z|Orgrimmar|N|1/1 Take the Portal to Dalaran|FACTION|Horde|
 
 A The Call of War|QID|39691|PRE|39689|M|72.56,47.02|Z|Stormwind City|N|From Archmage Khadgar.|FACTION|Alliance|
@@ -131,46 +136,46 @@ C Demons Among Them|QID|44463|M|84.14,33.68|Z|Stormwind City|QO|2|N|Slay Demons|
 T Demons Among Them|QID|44463|M|85.89,31.59|Z|Stormwind City|N|To Anduin Wrynn.|FACTION|Alliance|
 A A Weapon of the Alliance|QID|44473|PRE|44463|M|85.89,31.59|Z|Stormwind City|N|From Anduin Wrynn.|FACTION|Alliance|
 T A Weapon of the Alliance|QID|44473|M|40.30,77.74|Z|Stormwind City|N|To Elerion Bladedancer.|FACTION|Alliance|
-A In the Blink of an Eye|QID|44663|PRE|44120+44473|M|53.06,57.84|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|Alliance|
+A In the Blink of an Eye|QID|44663|PRE|44120^44473|M|53.06,57.84|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|Alliance|
 C In the Blink of an Eye|QID|44663|QO|1|M|80.26,34.84|Z|Stormwind City|N|Take the Portal to Dalaran|FACTION|Alliance|
 
 ; Dalaran at Deadwind Pass
-C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663|M|57.63,45.77|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
 
 ; Dalaran in
-A Call of the Illidari|QID|39047;39261|M|57.99,44.59|Z|Dalaran!Dalaran!Dungeon|N|From Kor'vas Bloodthorn, wait around for a minute and she will pop up next to you.|
-T Call of the Illidari|QID|39047;39261|M|74.98,49.02|Z|Dalaran!Dalaran!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
-A The Power to Survive|QID|40816;40814|PRE|39047|M|74.98,49.02|Z|Dalaran!Dalaran!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|
-C The Power to Survive|QID|40816;40814|QO|1|M|74.98,49.02|Z|Dalaran!Dalaran!Dungeon|N|Choose your artifact weapon.|
-T The Power to Survive|QID|40814;40816|M|74.98,49.02|Z|Dalaran!Dalaran!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
-A Artifact Specific Quest|QID|41120;40819;40247;41803|M|55.87,65.36|Z|Dalaran!Dalaran!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|40816|
+A Call of the Illidari|QID|39047^39261|M|57.99,44.59|Z|Dalaran!Dalaran!Dungeon|N|From Kor'vas Bloodthorn, wait around for a minute and she will pop up next to you.|
+T Call of the Illidari|QID|39047^39261|M|74.98,49.02|Z|Dalaran!Dalaran!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
+A The Power to Survive|QID|40816^40814|PRE|39047|M|74.98,49.02|Z|Dalaran!Dalaran!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|
+C The Power to Survive|QID|40816^40814|QO|1|M|74.98,49.02|Z|Dalaran!Dalaran!Dungeon|N|Choose your artifact weapon.|
+T The Power to Survive|QID|40814^40816|M|74.98,49.02|Z|Dalaran!Dalaran!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
+A Artifact Specific Quest|QID|41120^40819^40247^41803|M|55.87,65.36|Z|Dalaran!Dalaran!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|40816|
 
 ;Havoc
 ; A Making Arrangements|QID|41120;40819|M|74.98,49.02|Z|Dalaran!Dalaran!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|
 T Making Arrangements|QID|41120|M|65.64,67.26|Z|Dalaran!Dalaran!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury or.|
-A By Any Means|QID|41121;39051|PRE|41120|M|65.64,67.26|Z|Dalaran!Dalaran!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|
-C By Any Means|QID|41121;39051|QO|1|M|66.08,68.11|Z|Dalaran!Dalaran!Dungeon|N|1/1 Convince Warden Alturas|
-C By Any Means|QID|41121;39051|QO|2|M|67.75,69.66|Z|Dalaran!Dalaran!Dungeon|N|1/1 Enter the Violet Hold|
-C By Any Means|QID|41121;39051|QO|3|M|52.13,47.80|Z|The Violet Hold|N|1/1 Taldath interrogated|
-T By Any Means|QID|41121;39051|M|50.29,70.94|Z|The Violet Hold|N|To Altruis the Sufferer or Kayn Sunfury.|
-A The Hunt|QID|41119;39247|PRE|41121+39051|M|50.29,70.94|Z|The Violet Hold|N|From Kayn Sunfury or Altruis the Sufferer.|
-R Dalaran|ACTIVE|41119;39247|M|50.29,70.94|Z|The Violet Hold|N|Run out of the dungeon|
-C The Hunt|QID|41119;39247|QO|1|M|75.13,47.54|Z|Dalaran!Dalaran!Dungeon|N|Fly to Felsoul Hold.|
-C Stalking Your Prey|ACTIVE|41119;39247|Z|Suramar|M|28.21,61.09|SO|1;1|N|Fly into Felsoul Hold.|
-C Dive into the fray.|ACTIVE|41119;39247|M|25.62,58.94|Z|Suramar|SO|2;1|N|Dive into the fray.|
-C Absorb demon souls|ACTIVE|41119;39247|M|27.50,64.98|Z|Suramar|SO|3;2|S|N|Absorb demon souls by killing everything you see. Seriously don't skip anything.|
-C Ward 1 destroyed|ACTIVE|41119;39247|M|28.13,64.52|Z|Suramar|SO|3;1<1|N|Destroy the first ward.|
-C Ward 2 destroyed|ACTIVE|41119;39247|M|29.28,60.40|Z|Suramar|SO|3;1<2|N|Destroy the second ward.|
-C Ward 3 destroyed|ACTIVE|41119;39247|M|31.50,66.77|Z|Suramar|SO|3;1<3|N|Destroy the third ward after killing The Fist of the Deceiver.|
-C Absorb demon souls|ACTIVE|41119;39247|M|28.13,64.52|Z|Suramar|SO|3;2|US|N|Finish Absorb demon souls|
+A By Any Means|QID|41121^39051|PRE|41120|M|65.64,67.26|Z|Dalaran!Dalaran!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|
+C By Any Means|QID|41121^39051|QO|1|M|66.08,68.11|Z|Dalaran!Dalaran!Dungeon|N|1/1 Convince Warden Alturas|
+C By Any Means|QID|41121^39051|QO|2|M|67.75,69.66|Z|Dalaran!Dalaran!Dungeon|N|1/1 Enter the Violet Hold|
+C By Any Means|QID|41121^39051|QO|3|M|52.13,47.80|Z|The Violet Hold|N|1/1 Taldath interrogated|
+T By Any Means|QID|41121^39051|M|50.29,70.94|Z|The Violet Hold|N|To Altruis the Sufferer or Kayn Sunfury.|
+A The Hunt|QID|41119^39247|PRE|41121^39051|M|50.29,70.94|Z|The Violet Hold|N|From Kayn Sunfury or Altruis the Sufferer.|
+R Dalaran|ACTIVE|41119^39247|M|50.29,70.94|Z|The Violet Hold|N|Run out of the dungeon|
+C The Hunt|QID|41119^39247|QO|1|M|75.13,47.54|Z|Dalaran!Dalaran!Dungeon|N|Fly to Felsoul Hold.|
+C Stalking Your Prey|ACTIVE|41119^39247|Z|Suramar|M|28.21,61.09|SO|1;1|N|Fly into Felsoul Hold.|
+C Dive into the fray.|ACTIVE|41119^39247|M|25.62,58.94|Z|Suramar|SO|2;1|N|Dive into the fray.|
+C Absorb demon souls|ACTIVE|41119^39247|M|27.50,64.98|Z|Suramar|SO|3;2|S|N|Absorb demon souls by killing everything you see. Seriously don't skip anything.|
+C Ward 1 destroyed|ACTIVE|41119^39247|M|28.13,64.52|Z|Suramar|SO|3;1<1|N|Destroy the first ward.|
+C Ward 2 destroyed|ACTIVE|41119^39247|M|29.28,60.40|Z|Suramar|SO|3;1<2|N|Destroy the second ward.|
+C Ward 3 destroyed|ACTIVE|41119^39247|M|31.50,66.77|Z|Suramar|SO|3;1<3|N|Destroy the third ward after killing The Fist of the Deceiver.|
+C Absorb demon souls|ACTIVE|41119^39247|M|28.13,64.52|Z|Suramar|SO|3;2|US|N|Finish Absorb demon souls|
 C Varedis Felsoul slain|M|33.04,66.57|Z|Suramar|SO|4;1|N|Varedis Felsoul slain|
 C The Twinblades of the Deceiver|M|32.99,66.97|Z|Suramar|SO|5;1|N|Pick up the twinblades.|
-T The Hunt|QID|41119;39247|M|73.84,46.03|Z|Dalaran!Dalaran!Dungeon|N|Hop on the Fel Bat back to Dalaran to turn in to Kor'vas Bloodthorn.|
+T The Hunt|QID|41119^39247|M|73.84,46.03|Z|Dalaran!Dalaran!Dungeon|N|Hop on the Fel Bat back to Dalaran to turn in to Kor'vas Bloodthorn.|
 
 ; Vengeance
 ; A Asking a Favor|QID|40247;41803|M|74.98,49.02|Z|Dalaran!Dalaran!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|
-T Asking a Favor|QID|40247;41803|M|28.47,48.33|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
+T Asking a Favor|QID|40247^41803|M|28.47,48.33|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
 A Ask and You Shall Receive|QID|41804|PRE|40247|M|28.47,48.33|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|
 C Crystallized Soul|QID|41804|M|26.54,44.78|Z|Dalaran!Dalaran!Dungeon|N|Follow Khadgar around.|
 T Ask and You Shall Receive|QID|41804|M|28.47,48.33|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
@@ -180,58 +185,58 @@ A Establishing a Connection|QID|41807|PRE|41806|M|74.44,51.29|Z|Dalaran!Dalaran!
 C Activate the Legion Communicator|QID|41807|M|74.35,51.84|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Click on it.|NC|
 C Receive the Souleater's report|QID|41807|QO|2|N|Listen to the blather!|NC|
 T Establishing a Connection|QID|41807|M|74.44,51.29|Z|Dalaran!Dalaran!Dungeon|N|From Jace Darkweaver.|
-A Vengeance Will Be Ours|QID|40249;41863|PRE|41807|M|75.00,49.03|Z|Dalaran!Dalaran!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|
-C Fel Bat Flight|QID|40249;41863|M|75.26,47.63|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Jump on the Illidari Fel Bat and fly to the Broken Shore.|
-C Picking Up the Pieces|QID|40249;41863|M|15.09,51.78|Z|BrokenShorePaladin|SO|1;1|N|Free Allari from her chains.|
-C Their Blood Will Flow|QID|40249;41863|M|17.56,57.32|Z|BrokenShorePaladin|SO|2;1|N|Destroy the Legion Portal.|
-C A River of Souls|QID|40249;41863|M|20.18,61.38|Z|BrokenShorePaladin|SO|3;1|N|Two of Caria's lieutenants are performing a dark ritual. They must be stopped.|
-K Gorgonnash.|QID|40249;41863|M|20.42,62.22|Z|BrokenShorePaladin|SO|4;1|N|Destroy Gorgonnash.|
-C Nowhere to Hide|QID|40249;41863|M|21.90,61.05|Z|BrokenShorePaladin|SO|5;1|N|Use your demonic senses to pickup Caria's trail. The click on the wall.|
-C Destroy Caria Felsoul.|QID|40249;41863|M|26.44,60.64|Z|BrokenShorePaladin|SO|6;1|N|Destroy Caria Felsoul.|
-C Vengeance Will Be Ours|QID|40249;41863|M|26.75,61.49|Z|BrokenShorePaladin|QO|2|N|Claim the Aldrachi Warblades as your own.|
-C Vengeance Will Be Ours|QID|40249;41863|M|26.13,61.18|Z|BrokenShorePaladin|QO|3|N|Hop on the bat to return to Dalaran|
-T Vengeance Will Be Ours|QID|40249;41863|M|59.35,57.64|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Kor'vas Bloodthorn back on the Fel Hammer.|
+A Vengeance Will Be Ours|QID|40249^41863|PRE|41807|M|75.00,49.03|Z|Dalaran!Dalaran!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|
+C Fel Bat Flight|QID|40249^41863|M|75.26,47.63|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Jump on the Illidari Fel Bat and fly to the Broken Shore.|
+C Picking Up the Pieces|QID|40249^41863|M|15.09,51.78|Z|BrokenShorePaladin|SO|1;1|N|Free Allari from her chains.|
+C Their Blood Will Flow|QID|40249^41863|M|17.56,57.32|Z|BrokenShorePaladin|SO|2;1|N|Destroy the Legion Portal.|
+C A River of Souls|QID|40249^41863|M|20.18,61.38|Z|BrokenShorePaladin|SO|3;1|N|Two of Caria's lieutenants are performing a dark ritual. They must be stopped.|
+K Gorgonnash.|QID|40249^41863|M|20.42,62.22|Z|BrokenShorePaladin|SO|4;1|N|Destroy Gorgonnash.|
+C Nowhere to Hide|QID|40249^41863|M|21.90,61.05|Z|BrokenShorePaladin|SO|5;1|N|Use your demonic senses to pickup Caria's trail. The click on the wall.|
+C Destroy Caria Felsoul.|QID|40249^41863|M|26.44,60.64|Z|BrokenShorePaladin|SO|6;1|N|Destroy Caria Felsoul.|
+C Vengeance Will Be Ours|QID|40249^41863|M|26.75,61.49|Z|BrokenShorePaladin|QO|2|N|Claim the Aldrachi Warblades as your own.|
+C Vengeance Will Be Ours|QID|40249^41863|M|26.13,61.18|Z|BrokenShorePaladin|QO|3|N|Hop on the bat to return to Dalaran|
+T Vengeance Will Be Ours|QID|40249^41863|M|59.35,57.64|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Kor'vas Bloodthorn back on the Fel Hammer.|
 
 ; Common Section
-A Eternal Vigil|QID|42869|M|73.84,46.03|Z|Dalaran!Dalaran!Dungeon|N|From Kor'vas Bloodthorn.|PRE|41119+39247+40249+41863|
+A Eternal Vigil|QID|42869|M|73.84,46.03|Z|Dalaran!Dalaran!Dungeon|N|From Kor'vas Bloodthorn.|PRE|41119^39247^40249^41863|
 C Eternal Vigil|QID|42869|QO|1|M|94.25,63.07|Z|Dalaran!Dalaran!Dungeon|N|Glide to Illidari Redoubt|
 T Eternal Vigil|QID|42869|M|95.15,66.03|Z|Dalaran!Dalaran!Dungeon|N|To Jace Darkweaver.|
 A Securing the Way|QID|42872|M|95.15,66.03|Z|Dalaran!Dalaran!Dungeon|N|From Jace Darkweaver.|PRE|42869|
 C Securing the Way|QID|42872|QO|1|M|96.47,66.29|Z|Dalaran!Dalaran!Dungeon|N|Click the extra action button to remove the souls of the captives.|
 C Securing the Way|QID|42872|QO|2|M|97.72,68.79|Z|Dalaran!Dalaran!Dungeon|N|Click on the Illidary Gateway.|
 T Securing the Way|QID|42872|M|95.17,66.00|Z|Dalaran!Dalaran!Dungeon|N|To Jace Darkweaver.|
-A Return to Mardum|QID|41033;41221|M|95.02,66.10|Z|Dalaran!Dalaran!Dungeon|N|From Matron Mother Malevolence.|PRE|42872|
-R The Fel Hammer|ACTIVE|41033;41221|M|97.72,68.79|Z|Dalaran!Dalaran!Dungeon|N|Run and click into the Gateway.|
-T Return to Mardum|QID|41033;41221|M|57.63,67.36|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
-A Unbridled Power|QID|41060;41037|M|57.63,67.36|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|41033+41221|
-C Unbridled Power|QID|41060;41037|QO|1|M|58.95,65.97|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Click on the Control Console.|NC|
-T Unbridled Power|QID|41060;41037|M|58.64,57.75|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
-A Spoils of Victory|QID|41070;41062|M|58.64,57.75|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|41060+41037|
-C Spoils of Victory|QID|41070;41062|QO|1|M|55.88,54.11|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Speak to Battlelord Gaardoun. He should spawn near you, re-log if he doesn't appear.|CHAT|
-C Spoils of Victory|QID|41070;41062|QO|2|M|58.82,48.00|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Follow Battlelord Gaardoun|NC|
-T Spoils of Victory|QID|41070;41062|M|59.79,45.67|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Battlelord Gaardoun.|
-A The Hunter's Gaze|QID|41066|M|59.38,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Allari the Souleater.|PRE|41070+41062|
+A Return to Mardum|QID|41033^41221|M|95.02,66.10|Z|Dalaran!Dalaran!Dungeon|N|From Matron Mother Malevolence.|PRE|42872|
+R The Fel Hammer|ACTIVE|41033^41221|M|97.72,68.79|Z|Dalaran!Dalaran!Dungeon|N|Run and click into the Gateway.|
+T Return to Mardum|QID|41033^41221|M|57.63,67.36|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
+A Unbridled Power|QID|41060^41037|M|57.63,67.36|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|41033^41221|
+C Unbridled Power|QID|41060^41037|QO|1|M|58.95,65.97|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Click on the Control Console.|NC|
+T Unbridled Power|QID|41060^41037|M|58.64,57.75|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
+A Spoils of Victory|QID|41070^41062|M|58.64,57.75|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|41060^41037|
+C Spoils of Victory|QID|41070^41062|QO|1|M|55.88,54.11|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Speak to Battlelord Gaardoun. He should spawn near you, re-log if he doesn't appear.|CHAT|
+C Spoils of Victory|QID|41070^41062|QO|2|M|58.82,48.00|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Follow Battlelord Gaardoun|NC|
+T Spoils of Victory|QID|41070^41062|M|59.79,45.67|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Battlelord Gaardoun.|
+A The Hunter's Gaze|QID|41066|M|59.38,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Allari the Souleater.|PRE|41070^41062|
 C The Hunter's Gaze|QID|41066|QO|1|M|58.77,54.29|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Gaze upon the Burning Legion|NC|
 T The Hunter's Gaze|QID|41066|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Allari the Souleater.|
-A Time is of the Essence|QID|41096;41067|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Allari the Souleater.|PRE|41066|
-T Time is of the Essence|QID|41096;41067|M|58.65,57.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury back up top.|
-A Direct Our Wrath|QID|41099;41069|M|58.65,57.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|41096+41067|
-C Direct Our Wrath|QID|41099;41069|QO|1|N|Select the first questing zone. Val'sharah is highly recommmended|
-T Direct Our Wrath|QID|41099;41069|M|58.65,57.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
+A Time is of the Essence|QID|41096^41067|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Allari the Souleater.|PRE|41066|
+T Time is of the Essence|QID|41096^41067|M|58.65,57.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury back up top.|
+A Direct Our Wrath|QID|41099^41069|M|58.65,57.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|41096^41067|
+C Direct Our Wrath|QID|41099^41069|QO|1|N|Select the first questing zone. Val'sharah is highly recommmended|
+T Direct Our Wrath|QID|41099^41069|M|58.65,57.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
 
 ;Next Artifact quest
-A Rise, Champions|QID|42671|PRE|41069;40374|LVL|101|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
-A Rise, Champions|QID|42670|PRE|41099;40375|LVL|101|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
-A Champion: Asha Ravensong|QID|42697|PRE|41099+41069|LVL|101|M|56.15,38.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Asha Ravensong.|
-A Champion: Altruis the Sufferer|QID|42690|PRE|41099;40375|LVL|101|M|58.63,57.75|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer.|
-A Champion: Kayn Sunfury|QID|42695|PRE|41069;40374|LVL|101|M|58.63,57.75|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kayn Sunfury.|
+A Rise, Champions|QID|42671|PRE|41069 & 40374|LVL|101|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
+A Rise, Champions|QID|42670|PRE|41099 & 40375|LVL|101|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
+A Champion: Asha Ravensong|QID|42697|PRE|41099^41069|LVL|101|M|56.15,38.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Asha Ravensong.|
+A Champion: Altruis the Sufferer|QID|42690|PRE|41099 & 40375|LVL|101|M|58.63,57.75|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer.|
+A Champion: Kayn Sunfury|QID|42695|PRE|41069 & 40374|LVL|101|M|58.63,57.75|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kayn Sunfury.|
 T Rise, Champions|QID|42671|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Kor'vas Bloodthorn.|
 T Rise, Champions|QID|42670|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Kor'vas Bloodthorn.|
 
-A Things Gaardoun Needs|QID|44161;42677|PRE|42670;42671|LVL|101|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
-C Things Gaardoun Needs|QID|44161;42677|M|58.12,54.02|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|1|N|Use Scouting Map to complete Mission 'Thing Gaardoun Needs'|
-T Things Gaardoun Needs|QID|44161;42677|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Kor'vas Bloodthorn.|
-A Broken Warriors|QID|42679|PRE|44161+42677|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
+A Things Gaardoun Needs|QID|44161^42677|PRE|42670 & 42671|LVL|101|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
+C Things Gaardoun Needs|QID|44161^42677|M|58.12,54.02|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|1|N|Use Scouting Map to complete Mission 'Thing Gaardoun Needs'|
+T Things Gaardoun Needs|QID|44161^42677|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Kor'vas Bloodthorn.|
+A Broken Warriors|QID|42679|PRE|44161^42677|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
 C Train Ashtongue Warriors|QID|42679|M|56.11,54.06|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|NC|CHAT|N|Talk to Battlelord Gaardoun and train the Warriors|
 T Broken Warriors|QID|42679|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Kor'vas Bloodthorn.|
 A Loramus, Is That You?|QID|42681|PRE|42679|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
@@ -244,12 +249,12 @@ T Demonic Improvements|QID|42683|M|59.93,48.92|Z|Upper Command Center!Mardum, th
 A Additional Accoutrements|QID|42682|LVL|101|PRE|42683|M|59.93,48.92|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Matron Mother Malevolence.|
 C Additional Accoutrements|QID|42682|M|58.12,54.02|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|1|N|Use Scouting Map to complete the 1 hour Mission 'Additional Accoutrements'|
 T Additional Accoutrements|QID|42682|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Kor'vas Bloodthorn.|
-A In Pursuit of Power|QID|44379;44383|LVL|102|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.\nTo get the second artifact weapon.|
-T In Pursuit of Power|QID|44379;44383|LVL|102|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
-A Artifact specific quest|QID|41120;40819;40247;41803|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer or Kayn Sunfury.|
+A In Pursuit of Power|QID|44379^44383|LVL|102|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.\nTo get the second artifact weapon.|
+T In Pursuit of Power|QID|44379^44383|LVL|102|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
+A Artifact specific quest|QID|41120^40819^40247^41803|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer or Kayn Sunfury.|
 
 ;light's heart intro questline
-A A Falling Star|QID|44009|LVL|98|M|28.44,48.35|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar in The Violet Citadel.|PRE|44379+44383|
+A A Falling Star|QID|44009|LVL|98|M|28.44,48.35|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar in The Violet Citadel.|PRE|44379^44383|
 C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
 C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to sea and then straight down to invistigate the site on the ocean floor.|
 C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
@@ -308,27 +313,27 @@ A Back in Black|QID|42801|PRE|42594|LVL|103|M|57.59,52.31|Z|Upper Command Center
 C Back in Black|QID|42801|M|58.12,54.02|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|1|N|Use Scouting Map to complete Mission 'Back in Black'|
 t Back in Black|QID|42801|M|59.93,48.92|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Matron Mother Malevolence.|
 
-A Confrontation at the Black Temple|QID|42634;42921|PRE|42801|LVL|103|M|59.93,48.92|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Matron Mother Malevolence.|
-C Confrontation at the Black Temple|QID|42634;42921|M|62.46,50.04|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|1|N|Gateway Summoned.|
-P Confrontation at the Black Temple|ACTIVE|42634;42921|M|62.46,50.04|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|2|N|Click on Gateway.|
-C You CAN Go Home|QID|42634;42921|Z|BlackTemple|SO|1|CHAT|N|You have successfully pierced the holy barriers protecting the Black Temple. Confer with Altruis the Sufferer / Kayn Sunfury and prepare to confront Akama.|
-C Nothing Will Bar Our Way|QID|42634;42921|Z|BlackTemple|SO|2|N|The gates to the Temple Summit proper are closed. Akama is on the other side. Have your Illidari force a way in.|
-C Ascend the steps and await the opening of the gate|QID|42634;42921|M|71.12,35.88|Z|70BlackTempleLegion/1|SO|2;1|N|Ascend the steps and await the opening of the gate|
-C Confronting an Old Foe|QID|42634;42921|Z|Black Temple|SO|3|CHAT|N|Talk to Altruis / Kayn to Enter the Temple Summit and confront Akama. Convince him to join you in taking the fight to the Burning Legion's worlds.|
-C Speak with Altruis and then confront Akama|QID|42634;42921|M|55.45,57.91|Z|70BlackTempleLegion/1|SO|3;1|N|Speak with Altruis and then confront Akama|
-C If He Will Not Listen to Reason...|QID|42634;42921|Z|Black Temple|SO|4|N|Akama will not be persuaded by words. Perhaps force will do the trick. But, how to win and not lose in doing so?|
-C Defeat Akama|QID|42634;42921|M|51.02,83.66|Z|70BlackTempleLegion/1|SO|4;1|N|Defeat Akama|
-C A Final Attempt at Diplomacy|QID|42634;42921|Z|Black Temple|SO|5|N|Akama is defeated. Speak with him and convince him to join you.|
-C Speak with Akama|QID|42634;42921|M|51.02,83.66|Z|70BlackTempleLegion/1|SO|5;1|CHAT|N|Speak with Akama|
-C Confrontation at the Black Temple|QID|42634;42921|M|51.02,83.66|Z|70BlackTempleLegion/1|QO|3|N|1/1 Akama confronted|
-P Confrontation at the Black Temple|ACTIVE|42634;42921|M|33.94,69.73|Z|70BlackTempleLegion/1|N|Click the Portal back to the Fel Hammer.|
-T Confrontation at the Black Temple|QID|42634;42921|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis te Sufferer / Kayn Sunfury|
-A Into Our Ranks|QID|39741;42665|PRE|42634+42921|M|58.57,57.63|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer / Kayn Sunfury.|
-C Into Our Ranks|QID|39741;42665|M|59.29,57.58|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|2|N|Kor'vas recruited|
-C Into Our Ranks|QID|39741;42665|M|57.88,57.78|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|1|N|Akama recruited / Akama's Shade recruited.|
-T Into Our Ranks|QID|39741;42665|M|59.93,48.92|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Matron Mother Malevolence.|
-A Securing Mardum|QID|42802|PRE|39741+42665|M|59.90,48.92|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Matron Mother Malevolence.|
-A Unexpected Visitors|QID|42131|PRE|39741+42665|M|59.90,48.92|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Matron Mother Malevolence.|
+A Confrontation at the Black Temple|QID|42634^42921|PRE|42801|LVL|103|M|59.93,48.92|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Matron Mother Malevolence.|
+C Confrontation at the Black Temple|QID|42634^42921|M|62.46,50.04|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|1|N|Gateway Summoned.|
+P Confrontation at the Black Temple|ACTIVE|42634^42921|M|62.46,50.04|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|2|N|Click on Gateway.|
+C You CAN Go Home|QID|42634^42921|Z|BlackTemple|SO|1|CHAT|N|You have successfully pierced the holy barriers protecting the Black Temple. Confer with Altruis the Sufferer / Kayn Sunfury and prepare to confront Akama.|
+C Nothing Will Bar Our Way|QID|42634^42921|Z|BlackTemple|SO|2|N|The gates to the Temple Summit proper are closed. Akama is on the other side. Have your Illidari force a way in.|
+C Ascend the steps and await the opening of the gate|QID|42634^42921|M|71.12,35.88|Z|70BlackTempleLegion/1|SO|2;1|N|Ascend the steps and await the opening of the gate|
+C Confronting an Old Foe|QID|42634^42921|Z|Black Temple|SO|3|CHAT|N|Talk to Altruis / Kayn to Enter the Temple Summit and confront Akama. Convince him to join you in taking the fight to the Burning Legion's worlds.|
+C Speak with Altruis and then confront Akama|QID|42634^42921|M|55.45,57.91|Z|70BlackTempleLegion/1|SO|3;1|N|Speak with Altruis and then confront Akama|
+C If He Will Not Listen to Reason...|QID|42634^42921|Z|Black Temple|SO|4|N|Akama will not be persuaded by words. Perhaps force will do the trick. But, how to win and not lose in doing so?|
+C Defeat Akama|QID|42634^42921|M|51.02,83.66|Z|70BlackTempleLegion/1|SO|4;1|N|Defeat Akama|
+C A Final Attempt at Diplomacy|QID|42634^42921|Z|Black Temple|SO|5|N|Akama is defeated. Speak with him and convince him to join you.|
+C Speak with Akama|QID|42634^42921|M|51.02,83.66|Z|70BlackTempleLegion/1|SO|5;1|CHAT|N|Speak with Akama|
+C Confrontation at the Black Temple|QID|42634^42921|M|51.02,83.66|Z|70BlackTempleLegion/1|QO|3|N|1/1 Akama confronted|
+P Confrontation at the Black Temple|ACTIVE|42634^42921|M|33.94,69.73|Z|70BlackTempleLegion/1|N|Click the Portal back to the Fel Hammer.|
+T Confrontation at the Black Temple|QID|42634^42921|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis te Sufferer / Kayn Sunfury|
+A Into Our Ranks|QID|39741^42665|PRE|42634^42921|M|58.57,57.63|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer / Kayn Sunfury.|
+C Into Our Ranks|QID|39741^42665|M|59.29,57.58|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|2|N|Kor'vas recruited|
+C Into Our Ranks|QID|39741^42665|M|57.88,57.78|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|1|N|Akama recruited / Akama's Shade recruited.|
+T Into Our Ranks|QID|39741^42665|M|59.93,48.92|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Matron Mother Malevolence.|
+A Securing Mardum|QID|42802|PRE|39741^42665|M|59.90,48.92|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Matron Mother Malevolence.|
+A Unexpected Visitors|QID|42131|PRE|39741^42665|M|59.90,48.92|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Matron Mother Malevolence.|
 C Unexpected Visitors|QID|42131|M|56.85,49.09|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|1|N|Unexpected visitors heard|
 T Unexpected Visitors|QID|42131|M|57.59,52.31|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Belath Dawnblade.|
 A Working With the Wardens|QID|42731|PRE|42131|M|57.52,52.08|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Belath Dawnblade.|
@@ -342,9 +347,9 @@ T Green Adepts|QID|42808|M|57.59,52.31|Z|Upper Command Center!Mardum, the Shatte
 
 ; LVL 110 Quests, or part thereof...
 
-A Goddess Watch Over You|QID|44337;44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|LVL|110|
-C Goddess Watch Over You|QID|44338;44338|N|You need to do the main Val'sharah quest line to complete this quest.|
-t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|LVL|110|
+A Goddess Watch Over You|QID|44337^44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|LVL|110|
+C Goddess Watch Over You|QID|44338^44338|N|You need to do the main Val'sharah quest line to complete this quest.|
+t Goddess Watch over You|QID|44337^44338|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|LVL|110|
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|PRE|40890|
 R Death Gate|QID|44448|M|28.43,40.38|Z|Dalaran!Dalaran!Dungeon|N|Return to your order hall.|ACTIVE|44448|LVL|110|
 C In the House of Light and Shadow|QID|44448|M|54.22,74.67|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
@@ -379,10 +384,10 @@ A Strange Bedfellows|QID|42749|PRE|42736|M|64.8,59.0|Z|Stormheim|N|From Malace S
 C Malace Shade|QID|42749|QO|1|M|66.4,63.7|Z|Stormheim|NC|CHAT|N|Meet Malace at the end of the bridge to the Halls of Valor.\nAsk her to Taunt Lochaber|
 K Lochaber|ACTIVE|42749|QO|2|M|66.4,63.8|Z|Stormheim|N|Slay Lochaber|
 T Strange Bedfellows|QID|42749|N|Turn in quest to UI|
-A Vault of the Wardens: Vault Break-In|QID|42752;42753|PRE|42749|N|From the UI.|
-C Sargerite Keystone|QID|42752;42753|N|This is a Dungeon Quest in "Vault of the Wardens".\nThe drop is from the last boss.|
-T Vault of the Wardens: Vault Break-In|QID|42752;42753|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Belath Dawnblade.|
-A The Crux of the Plan|QID|42775|PRE|42752+42753|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Belath Dawnblade.|
+A Vault of the Wardens: Vault Break-In|QID|42752^42753|PRE|42749|N|From the UI.|
+C Sargerite Keystone|QID|42752^42753|N|This is a Dungeon Quest in "Vault of the Wardens".\nThe drop is from the last boss.|
+T Vault of the Wardens: Vault Break-In|QID|42752^42753|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Belath Dawnblade.|
+A The Crux of the Plan|QID|42775|PRE|42752^42753|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Belath Dawnblade.|
 C Sargerite Keystone|QID|42775|QO|1|M|58.12,54.02|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Go the command table and click on the key above.|
 T The Crux of the Plan|QID|42775|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer / Kayn Sunfury.\nUse Spectal Sight if they are hiding.|
 A Two Worthies|QID|42776|PRE|42775|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer / Kayn Sunfury.\nUse Spectal Sight if they are hiding.|
@@ -396,15 +401,15 @@ C Missions|QID|42669|M|58.12,54.02|Z|Upper Command Center!Mardum, the Shattered 
 C World Quests|QID|44694|QO|1|N|Go out into the world and do 10 World Quests. Be sure to return command table when missions are ready.|US|
 T Preparations for Invasion|QID|42669|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Allari the Souleater, downstairs.|
 T One Battle at a Time|QID|44694|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Allari the Souleater, downstairs.|
-A Deadlier Warglaives|QID|42732|PRE|42669;44694|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Allari the Souleater, downstairs.|
-A A Very Special Kind of Fuel|QID|42733|PRE|42669;44694|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Allari the Souleater, downstairs.|
+A Deadlier Warglaives|QID|42732|PRE|42669 & 44694|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Allari the Souleater, downstairs.|
+A A Very Special Kind of Fuel|QID|42733|PRE|42669 & 44694|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Allari the Souleater, downstairs.|
 C Sovereign Souls|QID|42733|QO|1|N|Do some Legion Dungeons and collect Souls.\nVault of the Wardens, Halls of Valor, Eye of Azshara have 5 bosses each.|S|
 C Obliterum|QID|42732|QO|1|N|Collect 1 Obliterum, which can be obtained either the Forge of Fate in Dalaran or from the Auction House.|
 C Sovereign Souls|QID|42733|QO|1|N|Do some Legion Dungeons and collect Souls.\nVault of the Wardens, Halls of Valor, Eye of Azshara have 5 bosses each.|US|
 T Deadlier Warglaives|QID|42732|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Jace Darkweaver, downstairs.|
 T A Very Special Kind of Fuel|QID|42733|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Jace Darkweaver, downstairs.|
 
-A Jump-Capable|QID|42754|PRE|42732;42733|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Jace Darkweaver, downstairs.|
+A Jump-Capable|QID|42754|PRE|42732 & 42733|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Jace Darkweaver, downstairs.|
 P Portal in Felsoul Hold|ACTIVE|42754|QO|1|M|31.4,83.6;26.8,49.1|Z|Azsuna|CS|N|Head to this building in Felsoul Hold and take the portal inside.|
 C Fel Engine Ignition|QID|42754|QO|2|M|28.5,52.2|Z|Azsuna|N|Run downstairs and find Inquisitor Tivos. The item is behind his altar.|
 C Vile Spirit Converter|QID|42754|QO|3|M|32.5,53.8|Z|Azsuna|N|Head outside and to the "Soul Engine: Apocalypse" building.  The item is near the central reactor.|
@@ -417,7 +422,7 @@ C Fel Hammer Balcony|QID|42810|QO|1|M|59.20,83.21|Z|Upper Command Center!Mardum,
 C The Offer|QID|42810|QO|2|M|59.20,83.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Click on the extra action button to reject his offer.|
 T A Final Offer|QID|42810|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Jace Darkweaver, downstairs.|
 
-A The Invasion of Niskara|QID|42809;42920|PRE|42810|M|59.00,72.10|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Jace Darkweaver, downstairs.|
+A The Invasion of Niskara|QID|42809^42920|PRE|42810|M|59.00,72.10|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Jace Darkweaver, downstairs.|
 C The Invasion of Niskara|QID|42920|M|58.96,66.12|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|1|N|Go upstairs to activate the control console|
 C The Invasion of Niskara|QID|42920|M|27.41,41.79|Z|Niskara|QO|2|N|1/1 Jump to Niskara|
 C Commence Bombardment!|M|33.30,40.00|Z|Niskara|SO|1|N|Man the artillery console and use the Fel Hammer's batteries to lay waste to the Legion forces below.|
@@ -439,9 +444,9 @@ C Regroup In Front of the Command Center|M|69.20,67.50|Z|Niskara|SO|4|N|Speak wi
 C Fel Hammer, Fire!|Z|Niskara|SO|5|N|Order the Fel Hammer to move into position and fire upon the other command center. This will bring down the Fel Barrier and allow entry.|
 C Caria and Varedis At Last|M|73.14,77.07|Z|Niskara|SO|6|N|Kill Caria and Varedis Felsoul.|
 C Malevolence, Get Us Out of Here!|M|73.03,77.86|Z|Niskara|SO|7|N|Speak with Kayn Sunfury|
-T The Invasion of Niskara|QID|42809;42920|M|58.00,58.70|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer / Kayn Sunfury.|
+T The Invasion of Niskara|QID|42809^42920|M|58.00,58.70|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer / Kayn Sunfury.|
 
-A Last, But Not Least|QID|42132|PRE|42809;42920|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer / Kayn Sunfury.|
+A Last, But Not Least|QID|42132|PRE|42809 & 42920|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer / Kayn Sunfury.|
 C Allari the Souleater|QID|42132|QO|1|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|CHAT|N|Recruit Allari the Souleater, downstairs.|
 C Jace Darkweaver|QID|42132|QO|2|M|59.00,72.10|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|CHAT|N|Recruit Jace Darkweaver, downstairs.|
 T Last, But Not Least|QID|42132|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer / Kayn Sunfury.|

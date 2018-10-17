@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_netherstorm_neutral
+-- Date: 2018-10-17 02:30
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3284/revisions/29246/view
 -- Date: 2018-04-30 01:37
 -- Who: Emmaleah
 -- Log: updated l and N steps so they would (hopefully) autocomplete.
@@ -235,7 +240,7 @@ T Recharging the Batteries|QID|10190|M|31.53,56.66|N|To Bot-Specialist Alley.|
 T Essence for the Engines|QID|10224|M|32.43,66.67|N|To Chief Engineer Trep.|
 
 A Elemental Power Extraction|QID|10226|PRE|10224|M|32.42,66.66|N|From Chief Engineer Trep.|
-l B'naar Access Crystal|QID|10299;10329|M|23.81,70.47|N|Loot the B'naar Access Crystal off of Overseer Theredis' corpse.|L|29366|
+l B'naar Access Crystal|QID|10299^10329|M|23.81,70.47|N|Loot the B'naar Access Crystal off of Overseer Theredis' corpse.|L|29366|
 C Shutting Down Manaforge B'naar|QID|10329|QO|2|ACTIVE|10329|M|23.19,68.16|N|Even though the quest comes up complete on the UI, you need to defend the Manaforge while it shuts down. To finish it, click on the B'naar Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears.|
 C Elemental Power Extraction|QID|10226|U|28547|M|21.24,78.04|N|Use the Elemental Power Extractor on a living Sundered Rumbler or Warp Aberration. Kill it then loot the blue crystal floating above the corpse.|
 C Warp-Raider Nesaad|QID|10205|M|27.98,78.96|N|Kill Warp-Raider Nesaad.|
@@ -418,8 +423,8 @@ C Sunfury Briefings|QID|10328|S|M|59.76,67.11|N|Kill magic using mobs to get the
 C Kick Them While They're Down|QID|10341|S|M|56.31,66.34|N|Sunfury Conjurers and Bowmen can be found outside around the Manaforge. The Centurions are inside the Manaforge.|REP|Scryers;934|
 C Rightful Repossession|QID|10267|S|M|58.70,66.86|N|Loot Boxes of Surveying Equipment inside and outside of Manaforge Duro. Tends to be quite a few boxes inside the Manaforge.|
 C Down With Daellis|QID|10223|T|Master Daellis Dawnstrider|M|56.35,66.69|N|Find and kill Master Daellis Dawnstrider. He tends to roam around where the Sunfury Bowman are.|
-l Duro Access Crystal|QID|10322;10338|M|59.94,68.32|N|Head inside Manaforge Duro, kill then loot Oversee Athanel.|QO|1|
-C Shutting Down Manaforge Duro|QID|10332;10338|M|59.11,66.77|N|The quest doesn't actually complete until you defend the manaforge while it shuts down. To finish it, click on the Duro Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears..|
+l Duro Access Crystal|QID|10322^10338|M|59.94,68.32|N|Head inside Manaforge Duro, kill then loot Oversee Athanel.|QO|1|
+C Shutting Down Manaforge Duro|QID|10332^10338|M|59.11,66.77|N|The quest doesn't actually complete until you defend the manaforge while it shuts down. To finish it, click on the Duro Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears..|
 C Kick Them While They're Down|QID|10341|US|M|56.31,66.34|N|Sunfury Conjurers and Bowmen can be found outside around the Manaforge. The Centurions are inside the Manaforge.|REP|Scryers;934|
 C Sunfury Briefings|QID|10328|US|M|59.76,67.11|N|Kill magic using mobs to get the Sunfury Arcane Briefing, and kill melee-type mobs to get the Sunfury Military Briefing.|REP|Aldor;932|
 C Summoner Kanthin's Prize|QID|10209|T|Summoner Kanthin|M|59.42,63.03;57.52,63.71;57.14,66.48|CN|N|Summoner Kanthin wander between the locations of the large red floating gems.|
@@ -536,7 +541,7 @@ T A Defector|QID|10202|M|26.16,41.59|N|To Magister Theledorn.|REP|Scryers;934|
 
 A Damning Evidence|QID|10432|PRE|10202|M|26.16,41.59|N|From Magister Theledorn.|REP|Scryers;934|
 C Damning Evidence|QID|10432|S|M|26.87,38.52|N|Kill and loot demons until you get 8 Orders From Kael'thas.|REP|Scryers;934|
-l Ara Access Crystal|QID|10365||QO|1|M|26.58,37.64|N|Loot the Ara Access Crystal from Overseer Azarad inside the Manaforge Ara, he wanders around inside of it.|REP|Scryers;934|
+l Ara Access Crystal|QID|10365|QO|1|M|26.58,37.64|N|Loot the Ara Access Crystal from Overseer Azarad inside the Manaforge Ara, he wanders around inside of it.|REP|Scryers;934|
 C Shutting Down Manaforge Ara|QID|10365|M|26,38.76|N|The quest doesn't complete until you defend the manaforge during shut-down. To finish it, click on the Ara Control Console and Begin emergency shutdown. Then wait two minutes and kill any Engineer or Technician that appears. Once it is shutdown, close this step.|REP|Scryers;934|
 C Damning Evidence|QID|10432|US|M|26.87,38.52|N|Kill and loot demons until you get 8 Orders From Kael'thas.|REP|Scryers;934|
 C Neutralizing the Nethermancers|QID|10315|US|M|29.12,43.99|N|Kill any Sunfury Nethermancer you see. They are mostly around the large red floating crystals.|

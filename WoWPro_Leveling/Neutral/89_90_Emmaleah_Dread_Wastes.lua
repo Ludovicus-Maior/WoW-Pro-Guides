@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dread_wastes_neutral
+-- Date: 2018-10-17 02:31
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3493/revisions/29137/view
 -- Date: 2018-02-23 01:31
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -117,13 +122,13 @@ WoWPro:GuideIcon(guide,"ACH",6978)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-N Dread Wastes|QID|31847;31895;31000;31886;31390;31391;31656|N|There are many lead in quests, when you pick any of them up (except The Threat in the South) it also gives you the flightpath to Serpent's Spine in Vale of Eternal Blossoms (where Bowmistress Li is). This guide starts there.|
-N The Klaxxi Dailies/Rep|QID|31847;31895;31000;31886;31390;31391;31656|N|This zone is focused on the Klaxxi with thier quartermaster located at Klaxxi'vess who sells BS patters and VP gear.  By the time you get there you will probably be lvl 90 and so some of the dailies have been included in the guide.  Since it is random which ones you recieve, the guide doesn't tell you to pick them up, but if you do, the details and turn in will show for the ones you accept.|
+N Dread Wastes|QID|31847^31895^31000^31886^31390^31391^31656|N|There are many lead in quests, when you pick any of them up (except The Threat in the South) it also gives you the flightpath to Serpent's Spine in Vale of Eternal Blossoms (where Bowmistress Li is). This guide starts there.|
+N The Klaxxi Dailies/Rep|QID|31847^31895^31000^31886^31390^31391^31656|N|This zone is focused on the Klaxxi with thier quartermaster located at Klaxxi'vess who sells BS patters and VP gear.  By the time you get there you will probably be lvl 90 and so some of the dailies have been included in the guide.  Since it is random which ones you recieve, the guide doesn't tell you to pick them up, but if you do, the details and turn in will show for the ones you accept.|
 N The Klaxxi Reputation - Honored|QID|31175|REP|The Klaxxi;1337;honored|N|If you have reached honored while doing this guide, please switch to the dailies guide and do all the dalies to unlock things|
 N The Klaxxi Reputation - Revered|QID|31439|REP|The Klaxxi;1337;revered|N|If you have reached revered while doing this guide, please switch to the dailies guide and do all the dalies to unlock things|
 
-F Serpent's Spine|QID|31847;31895;31000;31886;31390;31391;31656|N|From whatever flightmaster you are near, fly to Serpent's Spine in Vale of Eternal Blossoms.|
-T Whichever Lead In Quest|QID|31847;31895;31000;31886;31390;31391;31656|M|13.99,76.95|Z|Vale of Eternal Blossoms|N|To Bowmistress Li.|
+F Serpent's Spine|QID|31847^31895^31000^31886^31390^31391^31656|N|From whatever flightmaster you are near, fly to Serpent's Spine in Vale of Eternal Blossoms.|
+T Whichever Lead In Quest|QID|31847^31895^31000^31886^31390^31391^31656|M|13.99,76.95|Z|Vale of Eternal Blossoms|N|To Bowmistress Li.|
 
 A Falling Down|QID|31001|M|13.99,76.95|Z|Vale of Eternal Blossoms|N|From Bowmistress Li.|
 A Nope|QID|31002|M|13.99,76.95|Z|Vale of Eternal Blossoms|N|From Bowmistress Li.|
@@ -132,7 +137,7 @@ C Nope|QID|31002|U|82807|M|71.68,27.38|N|Kill spiders and use the gun to burn th
 C Falling Down|QID|31001|M|72.56,28.70|NC|US|
 T Falling Down|QID|31001|M|72.56,28.70|N|To Marksman Lann.|
 T Nope|QID|31002|M|72.55,28.62|N|To Marksman Lann.|
-A Psycho Mantid|QID|31003|PRE|31001;31002|M|72.55,28.62|N|From Marksman Lann.|
+A Psycho Mantid|QID|31003|PRE|31001 & 31002|M|72.55,28.62|N|From Marksman Lann.|
 C Psycho Mantid|QID|31003|M|73.56,27.50|N|Inside a smallish cave.|
 T Psycho Mantid|QID|31003|M|73.60,27.49|N|To Klaxxi'va Tik.|
 A Preserved in Amber|QID|31004|PRE|31003|M|73.60,27.49|N|From Klaxxi'va Tik.|
@@ -147,7 +152,7 @@ C Ancient Vengeance|QID|31676|US|M|70.58,36.61|
 C Wakening Sickness|QID|31005|US|M|71.18,38.43|N|The flies he wants are in groups and can be easily AE'd|
 T Wakening Sickness|QID|31005|M|70.16,25.63|N|To Kil'ruk the Wind-Reaver.|
 T Ancient Vengeance|QID|31676|M|70.16,25.63|N|To Kil'ruk the Wind-Reaver.|
-A The Klaxxi Council|QID|31006|PRE|31005;31676|M|70.24,25.75|N|From Kil'ruk the Wind-Reaver.|
+A The Klaxxi Council|QID|31006|PRE|31005 & 31676|M|70.24,25.75|N|From Kil'ruk the Wind-Reaver.|
 
 C The Klaxxi Council|QID|31006|M|54.09,34.78|NC|N|Talk to him for a ride.|
 T The Klaxxi Council|QID|31006|M|55.01,33.99|N|To Kil'ruk the Wind-Reaver.|
@@ -177,9 +182,9 @@ T In Her Clutch |QID|31010|M|54.9,34.1|N|To Malik the Unscathed|
 T Amber Arms|QID|31008|M|55.05,35.49|N|To Ambersmith Zikk.|
 T A Source of Terrifying Power|QID|31661|M|55.00,35.59|N|To Ambersmith Zikk.|
 A Concentrated Fear|QID|31108|PRE|31661|M|55.00,35.59|N|From Ambersmith Zikk.|
-A A Cry From Darkness|QID|31066|PRE|31007;31010;31660|M|54.77,34.11|N|From Kor'ik.|
+A A Cry From Darkness|QID|31066|PRE|31007 & 31010 & 31660|M|54.77,34.11|N|From Kor'ik.|
 A The Dreadsworn|QID|31689|PRE|31661|M|55.10,35.45|N|From Malik the Unscathed.|
-A Citizens of a New Empire|QID|31107|PRE|31007;31010;31660|M|55.10,35.45|N|From Malik the Unscathed.|
+A Citizens of a New Empire|QID|31107|PRE|31007 & 31010 & 31660|M|55.10,35.45|N|From Malik the Unscathed.|
 C Concentrated Fear|QID|31108|S|NC|M|56.75,18.22|
 C The Dreadsworn|QID|31689|S|M|58.99,14.65|
 C Citizens of a New Empire|QID|31107|S|M|59.74,19.78|
@@ -214,7 +219,7 @@ C Feeding the Beast|QID|31020|US|M|64.91,58.09|N|In the lake.|
 C Relics of the Swarm|QID|31023|US|NC|M|65.65,64.13|
 T Feeding the Beast|QID|31020|M|64.91,58.09|N|To Korven the Prime.|
 T Living Amber|QID|31021|M|64.91,58.09|N|To Korven the Prime.|
-A Kypari Zar|QID|31022|PRE|31020;31021|M|64.91,58.09|N|From Korven the Prime.|
+A Kypari Zar|QID|31022|PRE|31020 & 31021|M|64.91,58.09|N|From Korven the Prime.|
 C Kypari Zar|QID|31022|M|59.90,59.38|N|Click on the Sonar Tower, and then defend Korven against 3 waves of mobs.|
 T Kypari Zar|QID|31022|M|60.00,59.29|N|To Korven the Prime.|
 A The Root of the Problem|QID|31026|PRE|31022|M|60.00,59.29|N|From Korven the Prime.|
@@ -235,7 +240,7 @@ C You Otter Know|QID|31182|NC|U|85231|M|59.31,80.58|
 C Fresh Pots|QID|31181|US|U|85230|M|58.93,82.22|N|Kill the fish to collect meat to bait the traps.|
 T Fresh Pots|QID|31181|M|54.79,72.25|N|To Deck Boss Arie.|
 T You Otter Know|QID|31182|M|54.76,72.24|N|To Deck Boss Arie.|
-A Meet the Cap'n|QID|31183|PRE|31181;31182|M|54.79,72.25|N|From Deck Boss Arie.|
+A Meet the Cap'n|QID|31183|PRE|31181 & 31182|M|54.79,72.25|N|From Deck Boss Arie.|
 T Meet the Cap'n|QID|31183|M|55.66,72.49|N|To Captain "Soggy" Su-Dao.|
 A Walking Dog|QID|31185|PRE|31183|M|55.66,72.49|N|From Captain "Soggy" Su-Dao.|
 A Old Age and Treachery|QID|31184|PRE|31183|M|55.66,72.49|N|From Captain "Soggy" Su-Dao.|
@@ -257,7 +262,7 @@ T On the Crab|QID|31187|M|54.78,72.21|N|To Deck Boss Arie.|
 T Shark Week|QID|31188|M|54.78,72.21|N|To Deck Boss Arie.|
 T Old Age and Treachery|QID|31184|M|55.69,72.47|N|To Captain "Soggy" Su-Dao.|
 T Walking Dog|QID|31185|M|55.69,72.47|N|To Captain "Soggy" Su-Dao.|
-A Reeltime Strategy|QID|31189|PRE|31184;31187|M|54.76,72.22|N|From Deck Boss Arie.|
+A Reeltime Strategy|QID|31189|PRE|31184 & 31187|M|54.76,72.22|N|From Deck Boss Arie.|
 C Reeltime Strategy|QID|31189|NC|M|53.65,75.84|N|Grab a fishing pole and give him a hand.|
 T Reeltime Strategy|QID|31189|M|54.73,72.24|N|To Deck Boss Arie.|
 A The Mariner's Revenge|QID|31190|PRE|31189|M|54.78,72.18|N|From Captain "Soggy" Su-Dao.|
@@ -276,10 +281,10 @@ C Better With Age|QID|31090|NC|M|45.01,56.83|N|These are sparklies on the tree t
 C Crime and Punishment|QID|31088|US|M|49.75,65.9|
 T Crime and Punishment|QID|31088|M|45.9,53.6;48.1,49.6|CC|N|To Kor'kk.|
 T Better With Age|QID|31090|M|48.1,49.6|N|To Kor'ik|
-A By the Sea, Nevermore|QID|31089|PRE|31088;31090|M|48.1,49.6|N|From Kor'ik|
+A By the Sea, Nevermore|QID|31089|PRE|31088 & 31090|M|48.1,49.6|N|From Kor'ik|
 C By the Sea, Nevermore|QID|31089|NC|U|84119|M|43.4,63.5|
 T By the Sea, Nevermore|QID|31089|M|43.3,63.5|N|To Kaz'tik the Manipulator.|
-A Reunited|QID|31091|PRE|31089+31682|M|43.30,63.44|N|From Kaz'tik the Manipulator.|
+A Reunited|QID|31091|PRE|31089^31682|M|43.30,63.44|N|From Kaz'tik the Manipulator.|
 C Reunited|QID|31091|M|41.68,71.90|N|Talk to Kaz'tik to start the escort quest.|
 T Reunited|QID|31091|M|41.8,72.0|N|To Kaz'tik the Manipulator.|
 A The Kunchong Whisperer|QID|31359|PRE|31091|M|41.69,71.94|N|From Kaz'tik the Manipulator.|
@@ -300,7 +305,7 @@ T Falling to Pieces|QID|31398|M|54.24,35.75|N|To Kaz'tik the Manipulator.|
 
 T Mistblade Destruction|QID|31267|M|55.1,35.9|N|To Kil'ruk the Wind-Reaver|
 A Skeer the Bloodseeker|QID|31175|REP|The Klaxxi;1337;Honored-Exalted|M|55.04,35.86|N|From Kil'ruk the Wind-Reaver.|
-A A Not So Friendly Request|QID|31730|LEAD|31067|PRE|31026;31398|M|55.04,35.86|N|From Kil'ruk the Wind-Reaver.|
+A A Not So Friendly Request|QID|31730|LEAD|31067|PRE|31026 & 31398|M|55.04,35.86|N|From Kil'ruk the Wind-Reaver.|
 A The Zan'thik Dig|QID|31605|M|54.72,34.08|N|From Kor'ik.|
 
 ;N Dailies|QID|31270|N|The next quests are dailies that require level 90. Skip them if you are not interested or if you are not level 90 yet(this applies to all dailies you come across in Dread Waste, not just these here/now). The guide will include the Completion and Turn in steps, BUT NOT the accept steps for whatever quests you accept.|
@@ -318,8 +323,8 @@ C An Ancient Empire|QID|31232|N|Collect 8 Gurthani Tablets off the ground.|S|; T
 C Dreadspinner Extermination|QID|31231|N|Slay 8 Dreadspinner Tenders.|S|; Terrace of Gurthan
 C Nope Nope Nope|QID|31235|U|82807|M|70.40,27.80|N|Destroy 20 Dreadspinner Eggs.|; Terrace of Gurthan
 C Dreadspinner Extermination|QID|31231|N|Slay 8 Dreadspinner Tenders.|US|M|70.40,27.80|; Terrace of Gurthan
-K Summon and Kill Warlord Gurthan|QID|31677|ACTIVE|31233;31232;31231;31235;31234|M|66.20,31.80|N|Stand on the green rune and emote /lay and then quickly (or a 2nd person) /kneel on the Red Rune. Green first then Red. Kill him and loot his corpse. (This wasn't available to me the first time I did dailies in the area, maybe faction... 2nd time it was.)|L|88715|; Terrace of Gurthan
-A The Warlord's Ashes|QID|31677|U|88715|ACTIVE|31233;31232;31231;31235;31234|N|From the ashes.|; Terrace of Gurthan
+K Summon and Kill Warlord Gurthan|QID|31677|ACTIVE|31233^31232^31231^31235^31234|M|66.20,31.80|N|Stand on the green rune and emote /lay and then quickly (or a 2nd person) /kneel on the Red Rune. Green first then Red. Kill him and loot his corpse. (This wasn't available to me the first time I did dailies in the area, maybe faction... 2nd time it was.)|L|88715|; Terrace of Gurthan
+A The Warlord's Ashes|QID|31677|U|88715|ACTIVE|31233^31232^31231^31235^31234|N|From the ashes.|; Terrace of Gurthan
 C An Ancient Empire|QID|31232|N|Collect 8 Gurthani Tablets off the ground.|US|M|69.40,32.40|; Terrace of Gurthan
 C Sap Tapping|QID|31233|N|Collect 6 Amber Sap. They are on trees in the area.|US|M|69.40,32.40|; Terrace of Gurthan
 C Brain Food|QID|31238|M|60.00,23.00|N|They drop off Greatback Mushan.|; Terrace of Gurthan
@@ -329,16 +334,16 @@ C Sonic Disruption|QID|31487|U|87394|S|N|Kill 4 Dread Kunchong and 6 Shek'zeer M
 C Free From Her Clutches|QID|31494|M|49.20,34.00|N|Open Kunchong Cages to release 8 Kunchong Hatchlings.|; Heart of Fear
 C Sonic Disruption|QID|31487|U|87394|US|M|45,35|N|Kill 4 Dread Kunchong and 6 Shek'zeer Manipulators in the Clutches of Shek'zeer. The Sonic Disruption Fork will weaken and confuse the kunchong.|; Heart of Fear
 C Shortcut to Ruin|QID|31503|M|39.60,31.60|N|Kill Vess-Guard Na'kal|; Heart of Fear
-K Karanosh|QID|31599|M|48.90,34.40;44.00,35.30;48.35,32.24;48.11,36.46;39.44,30.88;43.09,37.48;41.22,34.93;44.04,32.81;46.47,29.84;41.72,30.77|CN|ACTIVE|31109;31487;31494;31487;31502;31503;31496|L|87878|T|Karanosh|N|Loot the Enormous Kunchong Mandibles.|; Heart of Fear
-A The Matriarch's Maw|QID|31599|U|87878|ACTIVE|31109;31487;31494;31487;31502;31503;31496|N|From Enormous Kunchong Mandibles.|; Heart of Fear
+K Karanosh|QID|31599|M|48.90,34.40;44.00,35.30;48.35,32.24;48.11,36.46;39.44,30.88;43.09,37.48;41.22,34.93;44.04,32.81;46.47,29.84;41.72,30.77|CN|ACTIVE|31109^31487^31494^31487^31502^31503^31496|L|87878|T|Karanosh|N|Loot the Enormous Kunchong Mandibles.|; Heart of Fear
+A The Matriarch's Maw|QID|31599|U|87878|ACTIVE|31109^31487^31494^31487^31502^31503^31496|N|From Enormous Kunchong Mandibles.|; Heart of Fear
 C Sap Jar filled at north feeder|QID|31496|U|87400|QO|3|M|36.2,32.2|; North Feeder: 1/1
 C Sap Jar filled at central feeder|QID|31496|U|87400|QO|1|M|37.00,28.00|; Central Feeder: 1/1
 C Sap Jar filled at east feeder|QID|31496|U|87400|QO|2|M|38.3,31.9|; East Feeder: 1/1
 C Sap Jar filled at northeast feeder|QID|31496|U|87400|QO|4|M|39.3,29.20|; Northeast Feeder: 1/1
 C Culling the Swarm|QID|31109|N|Slay 40 Shek'zeer Mantid.|US|M|44.60,43.20|; Heart of Fear
 ; Briny Muck - 7 - Specimen Request|QID|31508| and Fear Takes Root|QID|31509| - not yet available as we haven't awakened the questgiver yet
-K Kypa'rak|M|34.20,59.80|L|87871|ACTIVE|31111;31508;31509;31506;31505;31507|N|Loot the Massive Kyparite Core. This wasn't available to me the first time I had dailies in the area, maybe faction?|; Briny Muck
-A Kypa'rak's Core|QID|31598|ACTIVE|31111;31508;31509;31506;31505;31507|U|87871|N|From Kyparite core.|; Briny Muck
+K Kypa'rak|M|34.20,59.80|L|87871|ACTIVE|31111^31508^31509^31506^31505^31507|N|Loot the Massive Kyparite Core. This wasn't available to me the first time I had dailies in the area, maybe faction?|; Briny Muck
+A Kypa'rak's Core|QID|31598|ACTIVE|31111^31508^31509^31506^31505^31507|U|87871|N|From Kyparite core.|; Briny Muck
 C Eradicating the Zan'thik|QID|31111|N|Kill 6 Zan'thik Impalers and 6 Zan'thik Manipulators.|O|; Briny Muck
 C Shackles of Manipulation|QID|31506|N|Drop from Thought-Bound Miners and Thought-Bound Brutes.|S|; Briny Muck
 K Vess-Guard Vik'az|QID|31505|ACTIVE|31505|M|29.00,75.60|QO|1|; Vess-Guard Vik'az slain: 1/1
@@ -375,7 +380,7 @@ C A Bloody Delight|QID|31178|US|M|23.8,61.2|
 T A Strange Appetite|QID|31176|M|25.64,53.93|N|To Skeer the Bloodseeker.|
 T Fine Dining|QID|31177|M|25.64,50.64|N|To Skeer the Bloodseeker.|
 T A Bloody Delight|QID|31178|M|25.64,50.64|N|To Skeer the Bloodseeker.|
-A The Scent of Blood|QID|31179|PRE|31176;31177;31178|M|25.64,50.64|N|From Skeer the Bloodseeker.|
+A The Scent of Blood|QID|31179|PRE|31176 & 31177 & 31178|M|25.64,50.64|N|From Skeer the Bloodseeker.|
 C The Scent of Blood|QID|31179|M|25.69,50.69|
 H Klaxxi'vess|QID|31179|M|55,34|
 T The Scent of Blood|QID|31179|M|55.03,35.82|N|To Kil'ruk the Wind-Reaver.|
@@ -419,16 +424,16 @@ A Sacred Recipe|QID|31068|PRE|31066|M|53.8,16.5;53.07,12.40|CC|N|Go around the t
 K Kill Azzix K'tai|QID|31067|T|Azzix K'tai|QO|1|M|53.69,16.08;53.20,10.14|CS|N|Go to the entrance of the barrow and slay inside!|; Azzix K'tai slain: 1/1
 T Sacred Recipe|QID|31068|M|50.73,11.70|N|To Lya of Ten Songs.|
 T The Heavens Hum With War|QID|31067|M|51.21,11.39|N|To Sapmaster Vu.|
-A Bound With Shade|QID|31069|PRE|31067;31068|M|51.21,11.39|N|From Sapmaster Vu.|
+A Bound With Shade|QID|31069|PRE|31067 & 31068|M|51.21,11.39|N|From Sapmaster Vu.|
 A Daggers of the Great Ones|QID|31070|PRE|31068|M|51.17,11.21|N|From Olon.|
 A I Bring Us Great Shame|QID|31071|PRE|31068|M|51.14,11.11|N|From Thirsty Missho.|
 A Rending Daggers|QID|31072|PRE|31068|M|50.73,11.70|N|From Lya of Ten Songs.|
-A Fate of the Stormstouts|QID|31129|PRE|29907;31068|M|50.47,11.99|N|From Chen Stormstout.|
+A Fate of the Stormstouts|QID|31129|PRE|29907 & 31068|M|50.47,11.99|N|From Chen Stormstout.|
 C Fate of the Stormstouts|QID|31129|M|50.96,11.48|NC|N|The people you need to talk to are here in the brewgarden.|
 T Fate of the Stormstouts|QID|31129|M|50.43,11.95|N|To Chen Stormstout.|
 C Daggers of the Great Ones|QID|31070|S|M|49.69,17.64|N|The Mushan near the brewgarden are the ones you want, not the ones on the far side of the sha's dread scar.|
 C Bound With Shade|QID|31069|S|M|57.56,15.98|N|You are after the little packs of Dreadlings.|
-A Evie Stormstout|QID|31077|PRE|31076+31129|M|54.08,20.52|N|From Chen Stormstout.|
+A Evie Stormstout|QID|31077|PRE|31076^31129|M|54.08,20.52|N|From Chen Stormstout.|
 C Get the Lost Keg|QID|31071|NC|L|83781|M|54.5,20.3|N|Sparkly barrel under a tree branch, a bit hard to see in the dark area.|
 K Kill Kz'Kzik|QID|31072|T|Kz'Kzik|L|84111|M|53.2,20.2|N|He wanders around in front of the place where you found Evie and the lost keg.|
 C Get the Lost Picnic Supplies|QID|31071|NC|L|83783|M|56.00,19.56|N|Who picnics here...It's a smallish blanket with a picnic for two laid out.|
@@ -441,8 +446,8 @@ A Wood and Shade|QID|31074|PRE|31072|M|50.73,11.70|N|From Lya of Ten Songs.|
 T I Bring Us Great Shame|QID|31071|M|51.14,11.11|N|To Thirsty Missho|
 T Daggers of the Great Ones|QID|31070|M|51.17,11.21|N|To Olon.|
 T Bound With Shade|QID|31069|M|51.21,11.39|N|To Sapmaster Vu.|
-A Bound With Wood|QID|31073|PRE|31069;31070|M|51.21,11.39|N|From Sapmaster Vu.|
-A Kor'thik Aggression|QID|31133|PRE|31069;31070|M|50.18,12.44|N|From Defender Azzo.|
+A Bound With Wood|QID|31073|PRE|31069 & 31070|M|51.21,11.39|N|From Sapmaster Vu.|
+A Kor'thik Aggression|QID|31133|PRE|31069 & 31070|M|50.18,12.44|N|From Defender Azzo.|
 C Evie Stormstout|QID|31077|M|50.19,10.20|
 T Evie Stormstout|QID|31077|M|50.11,10.27|N|To Chen Stormstout.|
 A Han Stormstout|QID|31078|PRE|31077|M|50.11,10.27|N|From Chen Stormstout.|
@@ -457,7 +462,7 @@ C Kor'thik Aggression|QID|31133|US|M|44.62,16.96|
 T Kor'thik Aggression|QID|31133|M|50.18,12.44|N|To Defender Azzo.|
 T Wood and Shade|QID|31074|M|50.73,11.70|N|To Lya of Ten Songs.|
 T Bound With Wood|QID|31073|M|51.21,11.39|N|To Sapmaster Vu.|
-A Sunset Kings|QID|31075|PRE|31071;31073;31074;31078|M|51.21,11.39|N|From Sapmaster Vu.|
+A Sunset Kings|QID|31075|PRE|31071 & 31073 & 31074 & 31078|M|51.21,11.39|N|From Sapmaster Vu.|
 
 R Rikkitun Village|QID|31075|M|38.21,17.28|
 T Sunset Kings|QID|31075|M|38.18,17.17|N|To Sapmaster Vu.|
@@ -476,7 +481,7 @@ T Great Vessel of Salvation|QID|31082|M|38.65,17.24|N|To Chief Rikkitun.|
 T Incantations Fae and Primal|QID|31081|M|38.31,17.14|N|To Lya of Ten Songs.|
 T Fiery Wings|QID|31080|M|38.19,17.12|N|To Olon.|
 T The Horror Comes A-Rising|QID|31079|M|38.16,17.33|N|To Boggeo.|
-A Bind the Glamour|QID|31084|PRE|31079;31080;31081;31082|M|38.65,17.24|N|From Chief Rikkitun.|
+A Bind the Glamour|QID|31084|PRE|31079 & 31080 & 31081 & 31082|M|38.65,17.24|N|From Chief Rikkitun.|
 C Bind the Glamour|QID|31084|NC|M|39.55,22.88|N|Follow Chief Rikkitun and watch him.|
 T Bind the Glamour|QID|31084|M|38.65,17.24|N|To Chief Rikkitun.|
 A Fires and Fears of Old|QID|31085|PRE|31084|M|38.31,17.14|N|From Lya of Ten Songs.|
@@ -486,7 +491,7 @@ C Blood of Ancients|QID|31086|NC|M|30.22,30.58|
 C Fires and Fears of Old|QID|31085|U|84771|M|30.23,31.71;33.68,33.86|CS|N|Click on the rocks, and the sprites will move them for you.|
 R The Sunset Brewgarden|QID|31085|M|50.27,12.21|
 T Fires and Fears of Old|QID|31085|M|50.28,12.06|N|To Lya of Ten Songs.|
-A Once in a Hundred Lifetimes|QID|32030|PRE|31026;31085;31354;31398|M|50.28,12.06|N|From Lya of Ten Songs.|
+A Once in a Hundred Lifetimes|QID|32030|PRE|31026 & 31085 & 31354 & 31398|M|50.28,12.06|N|From Lya of Ten Songs.|
 T Blood of Ancients|QID|31086|M|50.21,12.11|N|To Sapmaster Vu.|
 
 H Klaxxi'vess|QID|32030|M|55.82,34.83|

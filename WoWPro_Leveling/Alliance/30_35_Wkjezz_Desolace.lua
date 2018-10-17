@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
+-- Date: 2018-10-17 02:23
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3313/revisions/29170/view
 -- Date: 2018-02-26 21:37
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -174,11 +179,11 @@ WoWPro:GuideIcon(guide,"ACH",4930)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Farwatcher's Glen|QID|25938;28531|N|This zone's quests start from Hierophant Malyk in Farwatcher's Glen, Stonetalon Mountains. It is a Direct continuation from the Stonetalon Mountains guide, or use the Hero's Call: Desolace! quest and take that that to Officer Jankie.|Z|Stonetalon Mountains|
+R Farwatcher's Glen|QID|25938^28531|N|This zone's quests start from Hierophant Malyk in Farwatcher's Glen, Stonetalon Mountains. It is a Direct continuation from the Stonetalon Mountains guide, or use the Hero's Call: Desolace! quest and take that that to Officer Jankie.|Z|Stonetalon Mountains|
 
-A Help for Desolace|QID|25938;28531|LEAD|14384|M|33.09,59.63|N|From Hierophant Malyk. Alternatively, accept Hero's Call: Desolace! quest from Darnassus or The Exodar.|Z|Stonetalon Mountains|
-R The Charred Vale|QID|25938;28531|M|30.95,62.20;30.23,63.15;30.06,64.98|CS|N|Follow the waypoints to help you safely down the mountains.|Z|Stonetalon Mountains|
-T Help for Desolace|QID|25938;28531|M|54.18,9.41|N|To Officer Jankie.|
+A Help for Desolace|QID|25938^28531|LEAD|14384|M|33.09,59.63|N|From Hierophant Malyk. Alternatively, accept Hero's Call: Desolace! quest from Darnassus or The Exodar.|Z|Stonetalon Mountains|
+R The Charred Vale|QID|25938^28531|M|30.95,62.20;30.23,63.15;30.06,64.98|CS|N|Follow the waypoints to help you safely down the mountains.|Z|Stonetalon Mountains|
+T Help for Desolace|QID|25938^28531|M|54.18,9.41|N|To Officer Jankie.|
 A Rerouted!|QID|14384|M|54.18,9.41|N|From Officer Jankie.|
 R Nijel's Point|QID|14384|M|54.18,9.41|N|Mount Jankie's Mount for a ride to Nijel's Point.|
 f Nijel's Point|QID|14384|M|64.72,10.39|N|At Baritanas Skyriver.|
@@ -341,7 +346,7 @@ T Early Adoption|QID|14246|M|70.49,32.98|N|To Cenarion Embassador Thunk.|
 T Cenarion Property|QID|14316|M|58.38,49.89|N|To Garren Darkwind.|
 T Breakout!|QID|14314|M|58.30,50.02|N|To Khan Leh'Prah.|
 
-A Delicate Negotiations|QID|14318|PRE|14314;14316|M|58.30,50.02|N|From Khan Leh'Prah.|
+A Delicate Negotiations|QID|14318|PRE|14314 & 14316|M|58.30,50.02|N|From Khan Leh'Prah.|
 C Delicate Negotiations|QID|14318|N|Speak to the centaur in the camp, and you will be on your way. Once there, Place the spear, and defend it.|
 T Delicate Negotiations|QID|14318|M|71.65,45.42|N|To Khan Kammah.|
 A Will Work For Food|QID|14325|PRE|14318|M|71.65,45.42|N|From Khan Kammah.|
@@ -401,8 +406,8 @@ T Ghost-o-plasm Round Up|QID|6134|N|To Hornizz Brimbuzzle.|M|47.88,61.80|
 F Thargad's Camp|QID|14373|M|57.71,49.75|N|Ask Lastrea Greengale for a flight.|
 T Infernal Encroachment|QID|14373|M|36.65,71.29|N|To Thargad.|
 T Portals of the Legion|QID|14374|M|36.65,71.29|N|To Thargad.|
-A Hunting Brendol|QID|14378|PRE|14373;14374|M|36.65,71.29|N|From Thargad.|
-A Rock Lobstrock!|QID|14379|PRE|14373;14374|M|36.52,71.36|N|From Dumti.|
+A Hunting Brendol|QID|14378|PRE|14373 & 14374|M|36.65,71.29|N|From Thargad.|
+A Rock Lobstrock!|QID|14379|PRE|14373 & 14374|M|36.52,71.36|N|From Dumti.|
 C Rock Lobstrock!|QID|14379|M|22,75;28,78|CN|S|N|Low drop rate, you may need to kill in the ocean too. Be aware of the Horde camp also.|
 C Hunting Brendol|QID|14378|M|29.2,83.6|N|Find, kill and loot Brendol. He is in stealth and roams around so he may be a little hard to find.|T|Brendol|
 C Rock Lobstrock!|QID|14379|M|22,75;28,78|CN|US|N|Low drop rate, you may need to kill in the ocean too. Be aware of the Horde camp also.|
@@ -415,7 +420,7 @@ T An Impactful Discovery|QID|14380|M|57.50,47.76|N|To Karnum Marshweaver.|
 A Cleansing Our Crevasse|QID|14381|PRE|14380|M|57.50,47.76|N|From Karnum Marshweaver.|
 C Cleansing Our Crevasse|QID|14381|M|37.66,45.65|N|Jump on the Hippogryph directly behind the quest giver when you are ready. Drop lots of bombs, then fly home.|
 T Cleansing Our Crevasse|QID|14381|M|57.42,47.73|N|To Karnum Marshweaver.|
-A The Wilds of Feralas|QID|14410|LEAD|25447|PRE|14381;14394|M|73.2,73|N|From Khan Shodo.|
+A The Wilds of Feralas|QID|14410|LEAD|25447|PRE|14381 & 14394|M|73.2,73|N|From Khan Shodo.|
 
 N The end.|N|Thanks for doing Desolace with me and congrats on your zone achievement. We will be going to Ferelas next, so when you're ready click off of this step to continue. If you wish to quest somewhere else now, you can manually select a new guide by right clicking on the Addon frame. WKjezz|
 ]]

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2018-10-17 02:26
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3221/revisions/29586/view
 -- Date: 2018-08-23 19:35
 -- Who: Emmaleah
 -- Log: Update old style QOs
@@ -166,7 +171,7 @@ A The Forsaken |QID|9327|R|BloodElf|N|From Vandril.|M|46.35,28.39|
 A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|N|From Vandril.|
 T The Forsaken |QID|9327|M|44.84,32.43|R|BloodElf|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
 T The Forsaken |QID|9329|M|44.84,32.43|R|Orc,Troll,Tauren,Undead,Goblin|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
-A Return to Arcanist Vandril|QID|9758|PRE|9327+9329|M|44.84,32.43|N|From High Executor Mavren.|
+A Return to Arcanist Vandril|QID|9758|PRE|9327^9329|M|44.84,32.43|N|From High Executor Mavren.|
 T Return to Arcanist Vandril|QID|9758|M|46.33,28.45|N|To Arcanist Vandril.|
 A Suncrown Village|QID|9138|PRE|9758|M|46.33,28.45|N|From Arcanist Vandril.|
 
@@ -174,7 +179,7 @@ A Wanted: Knucklerot and Luzran|QID|9156|M|48.30,31.64|N|From the Wanted Poster.
 h Tranquillien|QID|9157|M|48.87,32.38|N|At Innkeeper Kalarin.|
 r Training/Repair/Sell Junk|QID|9157|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n\nClick this step to continue.|
 
-A Anok'suten|QID|9315|PRE|9327+9329|M|57.53,14.94|N|From Dying Blood Elf near Suncrown Village.|
+A Anok'suten|QID|9315|PRE|9327^9329|M|57.53,14.94|N|From Dying Blood Elf near Suncrown Village.|
 C Suncrown Village|QID|9138|S|M|57.51,11.39|N|Kill 10 Nerubis Guards.|
 C Anok'suten|QID|9315|M|61.59,12|N|Anok'suten is a Level 11 elite with 624 HP. He wanders counter-clockwise around the circle path.|T|Anok'suten|
 C Suncrown Village|QID|9138|US|M|57.51,11.39|N|Kill 10 Nerubis Guards.|
@@ -207,8 +212,8 @@ T Spirits of the Drowned|QID|9274|M|72.21,29.76|N|To Ranger Krenn'an.|
 T Report to Captain Helios|QID|9146|M|72.37,29.63|N|To Captain Helios.|
 
 H Tranquillien|QID|9152|N|Hearth back to Tranquillien.|
-A The Plagued Coast|QID|9149|PRE|9327+9329|M|47.66,34.86|N|From Apothecary Renzithen.|
-A Tomber's Supplies|QID|9152|PRE|9327+9329|M|47.01,28.38|N|From Rathis Tomber.|
+A The Plagued Coast|QID|9149|PRE|9327^9329|M|47.66,34.86|N|From Apothecary Renzithen.|
+A Tomber's Supplies|QID|9152|PRE|9327^9329|M|47.01,28.38|N|From Rathis Tomber.|
 A Goldenmist Village|QID|9139|PRE|9138|M|46.24,28.35|N|From Arcanist Vandril.|
 A Culinary Crunch|QID|9171|M|48.43,30.93|N|From Master Chef Mouldier.|
 ;r Repair/Restock|QID|9171|M|49.08,30.31|N|At Blacksmith Frances.|
