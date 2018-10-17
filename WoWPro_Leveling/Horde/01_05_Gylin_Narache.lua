@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2018-10-17 22:53
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3203/revisions/29719/view
 -- Date: 2018-09-10 21:58
 -- Who: Ludovicus_Maior
 -- Log: Level Tweaks
@@ -234,14 +239,14 @@ C Rite of Courage|US|QID|14456|M|34.67,61.32|N|Kill Britlebark Gun Thiefs and lo
 
 T Rite of Courage|QID|14456|M|30.92,50.59|N|To Adana Thunderhorn.|
 T Stop the Thorncallers|QID|14455|M|30.92,50.59|N|To Adana Thunderhorn.|
-A The Battleboars|QID|14459|PRE|14455;14456|M|30.92,50.59|N|From Adana Thunderhorn.|
-A Feed of Evil|QID|14461|PRE|14455;14456|M|30.92,50.59|N|From Adana Thunderhorn.|
+A The Battleboars|QID|14459|PRE|14455 & 14456|M|30.92,50.59|N|From Adana Thunderhorn.|
+A Feed of Evil|QID|14461|PRE|14455 & 14456|M|30.92,50.59|N|From Adana Thunderhorn.|
 C Feed of Evil|NC|QID|14461|M|26.38,66.35;25.15,69.15;28.22,70.45|CS|N|Use Adona's Torch on the Troughs|U|49539|
 C The Battleboars|QID|14459|M|26.68,68.39|N|Kill any Battleboars you still need|
 T The Battleboars|QID|14459|M|30.92,50.597|N|To Adana Thunderhorn.|
 
 T Feed of Evil|QID|14461|M|30.92,50.59|N|To Adana Thunderhorn.|
-A Rite of Honor|QID|14460|PRE|14459;14461|M|30.92,50.59|N|From Adana Thunderhorn.|
+A Rite of Honor|QID|14460|PRE|14459 & 14461|M|30.92,50.59|N|From Adana Thunderhorn.|
 C Rite of Honor|QID|14460|M|15.32,46.69|N|Kill and loot Chief Squealer Thornmantle, who is hanging out in this small cave.|
 
 H Camp Narache|QID|14460|M|27.76,28.29|U|6948|N|Use your hearthstone to return to Camp Narache (or run there).|

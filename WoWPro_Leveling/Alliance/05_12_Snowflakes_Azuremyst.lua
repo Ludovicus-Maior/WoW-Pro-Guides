@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2018-10-17 22:45
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3206/revisions/29722/view
 -- Date: 2018-09-10 22:05
 -- Who: Ludovicus_Maior
 -- Log: Level tweaks
@@ -246,10 +251,6 @@
 -- Who: Crackerhead22
 -- Log: Added missing class quests, added spacing for easier editing.
 
--- URL: http://wow-pro.com/node/3206/revisions/23320/view
--- Date: 2010-12-03 07:57
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("SnoAzu0512", "Leveling", "Azuremyst Isle", "Snowflake", "Alliance")
 WoWPro:GuideLevels(guide,5,10,6.17886)
 WoWPro:NewGuideLevels(guide,5,20)
@@ -276,10 +277,10 @@ A Medicinal Purpose|QID|9463|M|48.4,51.8|N|From Anchorite Fateema.|R|Draenei|
 N Professions|O|ACTIVE|9463|M|48.68,52.34|N|Now's the time to learn your professions.  Valn will give you the information needed, and ability to learn your chosen professions.  Click to continue.|
 N Note!|O|ACTIVE|9463|N|From now on if you see a Blood Elf Bandit on the way, kill it for an item that gives an extra exp quest, if you don't find him though don't worry, the quest has no follow ups.|
 
-C The Great Moongraze Hunt|QID|9454|N|Kill and loot Moongraze Stags for the Tenderloin.|S|QO|1||M|54,61|T|Moongraze Stag|
+C The Great Moongraze Hunt|QID|9454|N|Kill and loot Moongraze Stags for the Tenderloin.|S|QO|1|M|54,61|T|Moongraze Stag|
 C Medicinal Purpose|QID|9463|N|Kill and loot Root Trappers for the Vines.|S|R|Draenei|QO|1|M|54,61|T|Root Trapper|
 C Medicinal Purpose|QID|9463|N|Kill and loot Root Trappers for the Vines.|US|R|Draenei|QO|1|M|54,61|T|Root Trapper|
-C The Great Moongraze Hunt|QID|9454|N|Kill and loot Moongraze Stags for the Tenderloin.|S|QO|1||M|54,61|T|Moongraze Stag|
+C The Great Moongraze Hunt|QID|9454|N|Kill and loot Moongraze Stags for the Tenderloin.|S|QO|1|M|54,61|T|Moongraze Stag|
 
 T Medicinal Purpose|QID|9463|M|48.4,51.8|N|To Anchorite Fateema.|R|Draenei|
 A An Alternative Alternative|QID|9473|PRE|9463|M|48.4,51.8|N|From Daedal.|R|Draenei|
@@ -310,8 +311,8 @@ C A Small Start|QID|9506|M|59.55,67.66|N|Now find and right click the Nautical C
 C Cookie's Jumbo Gumbo|QID|9512|US|N|Follow the shore back eastwards while killing crawlers for Skittering Crawler Meat.|M|58,67|
 T A Small Start|QID|9506|N|To Admiral Odesyus.|M|47.04,70.22|
 A I've Got a Plant|QID|9530|PRE|9506|M|47.04,70.22|N|From Admiral Odesyus.|
-A Reclaiming the Ruins|QID|9513|PRE|9506+9512|M|47.13,70.27|N|From Priestess Kyleen Il'dinare.|
-A Precious and Fragile Things Need Special Handling|QID|9523|PRE|9506+9512|M|47.2,70.0|N|From Archaeologist Adamant Ironheart.|
+A Reclaiming the Ruins|QID|9513|PRE|9506^9512|M|47.13,70.27|N|From Priestess Kyleen Il'dinare.|
+A Precious and Fragile Things Need Special Handling|QID|9523|PRE|9506^9512|M|47.2,70.0|N|From Archaeologist Adamant Ironheart.|
 T Cookie's Jumbo Gumbo|QID|9512|M|46.7,70.5|N|To "Cookie" McWeaksauce.|
 
 r Sell junk and repair (click to close)|QID|9530|N|At Blacksmith Calypso|M|46.4,71.1|
@@ -397,8 +398,8 @@ C Murlocs... Why Here? Why Now?|QID|9562|N|Kill murlocs around until you have 5 
 T Murlocs... Why Here? Why Now?|QID|9562|N|To Gurf.|M|44.63,23.48|
 T Gurf's Dignity|QID|9564|M|44.63,23.48|N|To Gurf.|
 
-A Search Stillpine Hold|QID|9565|PRE|9560;9562|M|46.68,20.63|N|From High Chief Stillpine.|
-A Chieftain Oomooroo|QID|9573|PRE|9560;9562|M|46.90,21.16|N|From Stillpine the Younger.|
+A Search Stillpine Hold|QID|9565|PRE|9560 & 9562|M|46.68,20.63|N|From High Chief Stillpine.|
+A Chieftain Oomooroo|QID|9573|PRE|9560 & 9562|M|46.90,21.16|N|From Stillpine the Younger.|
 C Chieftain Oomooroo|QID|9573|N|Go into Stillpine Hold and up the path on the right. Kill Crazed Wildkin and Chieftain Oomooroo|M|45.39,18.06;47.43,14.18|CS|
 T Chieftain Oomooroo|QID|9573|M|46.9,21.2|N|To Stillpine the Younger.|
 A The Kurken is Lurkin'|QID|9570|M|46.97,22.26|N|From Kurz the Revelator.|
@@ -408,7 +409,7 @@ A Blood Crystals|QID|9566|PRE|9565|M|50.5,11.5|N|From the Blood Crystal. Be at f
 T Blood Crystals|QID|9566|N|Get out of the cave. Turn the quest into High Chief Stillpine.|M|46.7,20.6|
 T The Kurken is Lurkin'|QID|9570|M|46.97,22.26|N|To Kurz the Revelator.|
 A The Kurken's Hide|QID|9571|PRE|9570|M|46.97,22.26|N|From Kurz the Revelator.|
-A Warn Your People|QID|9622|PRE|9566;9570;9573|N|From High Chief Stillpine.|M|46.68,20.63|
+A Warn Your People|QID|9622|PRE|9566 & 9570 & 9573|N|From High Chief Stillpine.|M|46.68,20.63|
 T The Kurken's Hide|QID|9571|M|44.77,23.90|N|To Moordo.|
 
 T Warn Your People|QID|9622|M|47.13,50.61|N|Run (or hearth if available) back to Azure Watch and turn this in to Exarch Menelaous.|U|6948|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-10-17 22:38
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3200/revisions/29716/view
 -- Date: 2018-09-10 21:51
 -- Who: Ludovicus_Maior
 
@@ -244,11 +249,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Changed "Lambs on the Lam" to use special target macro!
 
--- URL: http://wow-pro.com/node/3200/revisions/25412/view
--- Date: 2013-01-13 14:33
--- Who: Ludovicus_Maior
--- Log: Added a CS tag
-
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,4,1.81013)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
@@ -311,7 +311,7 @@ T Meet the High Tinker|QID|26425|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|W
 T Meet the High Tinker|QID|31137|M|38.72,32.74|N|To High Tinker Mekkatorque.|C|Monk|
 T Meet the High Tinker|QID|41218|M|38.68,32.94|N|To High Tinker Mekkatorque.|C|Hunter|
 
-A The Fight Continues|QID|26208|M|38.72,32.74|N|From High Tinker Mekkatorque.|PRE|26421+26422+26423+26424+26425+31137+41218|
+A The Fight Continues|QID|26208|M|38.72,32.74|N|From High Tinker Mekkatorque.|PRE|26421^26422^26423^26424^26425^31137^41218|
 C The Fight Continues|QID|26208|M|38.72,32.74|N|Wait for High Tinker Mekkatorque to start the holo-table.|NC|
 T The Fight Continues|QID|26208|M|38.72,32.74|N|To High Tinker Mekkatorque.|
 
@@ -349,7 +349,7 @@ C Get Me Explosives Back!|QID|26285|M|37.75,73.50|N|Kill and loot the Rockjaw Bo
 T Get Me Explosives Back!|QID|26285|M|37.28,65.20|N|To Jessup McCree|
 T Missing in Action|QID|26284|M|37.28,65.20|N|To Jessup McCree|
 
-A Finishin' the Job|QID|26318|N|From Jessup McCree.|M|37.28,65.20|PRE|26285;26284|
+A Finishin' the Job|QID|26318|N|From Jessup McCree.|M|37.28,65.20|PRE|26285 & 26284|
 C Finishin' the Job - Boss Bruggor|QID|26318|N|Kill Boss Bruggor|QO|2|M|29.15,48.45|T|Boss Bruggor|S|
 C Finishin' the Job - Detonator|QID|26318|N|Enter the cavern to the west, then go through the cave to the detonator, then use the detonator.|QO|1|M|29.15,48.45|NC|
 C Finishin' the Job - Boss Bruggor|QID|26318|N|Kill Boss Bruggor|QO|2|M|29.15,48.45|T|Boss Bruggor|US|
@@ -366,7 +366,7 @@ C Crushcog's Minions|QID|26331|M|57.20,19.37|N|Kill  Crushcog's Minions (Irradia
 T Crushcog's Minions|QID|26331|M|38.72,32.74|N|To High Tinker Mekkatorque.|NC|
 T No Tanks!|QID|26333|M|38.19,33.68|N|To Hinkles Fastblast.|
 
-A Staging in Brewnall|QID|26339|N|From Kelsey Steelspark.|M|38.03,33.56|PRE|26331;26333|
+A Staging in Brewnall|QID|26339|N|From Kelsey Steelspark.|M|38.03,33.56|PRE|26331 & 26333|
 T Staging in Brewnall|QID|26339|M|48.75,52.90|N|Follow the road southeast to Jarvi Shadowstep.|
 
 A Paint it Black|PRE|26339|QID|26342|M|48.75,52.90|N|From Jarvi Shadowstep.|

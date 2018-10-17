@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_baradin_wardens_reputation_dailies
+-- Date: 2018-10-17 22:24
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3414/revisions/28553/view
 -- Date: 2017-03-23 17:40
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -89,10 +94,10 @@ return [[
 
 R Tol Barad Peninsula|M|73.21,18.37|Z|Stormwind City|N|Click on the Portal to Tol Barad in Stormwind.|
 
-A Sergeant Gray's Quests|M|73.07,60.92|N|Grab any and all quests from Sergeant Gray. This step will close when you pick up the first quest.|QID|28275;27987;27978;27991;27975;27973|
-A Commander Marcus Johnsons's Quests|M|73.34,59.34|N|Grab any and all quests from Commander Marcus Johnson. This step will close when you pick up the first quest.|QID|28059;28063;28130;28137;28065|
-A Camp Coordinator Brack's Quests|M|73.71,57.69|N|Grab any and all quests from Camp Coordinator Brack. This step will close when you pick up the first quest.|QID|27948;27972;27970;27971;28050;27944|
-A Lieutenant Farnsworth's Quests|M|74.7,59.56|N|Grab any and all quests from Lieutenant Farnsworth. This step will close when you pick up the first quest.|QID|28046;27967;27992;27966;27949|
+A Sergeant Gray's Quests|M|73.07,60.92|N|Grab any and all quests from Sergeant Gray. This step will close when you pick up the first quest.|QID|28275^27987^27978^27991^27975^27973|
+A Commander Marcus Johnsons's Quests|M|73.34,59.34|N|Grab any and all quests from Commander Marcus Johnson. This step will close when you pick up the first quest.|QID|28059^28063^28130^28137^28065|
+A Camp Coordinator Brack's Quests|M|73.71,57.69|N|Grab any and all quests from Camp Coordinator Brack. This step will close when you pick up the first quest.|QID|27948^27972^27970^27971^28050^27944|
+A Lieutenant Farnsworth's Quests|M|74.7,59.56|N|Grab any and all quests from Lieutenant Farnsworth. This step will close when you pick up the first quest.|QID|28046^27967^27992^27966^27949|
 
 C Ghostbuster|QID|27978|M|79,50|N|Kill 14 ghosts of any type.|
 C Cannonball!|QID|27987|M|79,50|N|Loot the piles of cannonballs on the ground.|

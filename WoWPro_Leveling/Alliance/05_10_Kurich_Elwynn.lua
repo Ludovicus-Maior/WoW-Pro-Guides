@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2018-10-17 22:42
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3197/revisions/29237/view
 -- Date: 2018-04-22 18:42
 -- Who: Ludovicus_Maior
 -- Log: Change H [Lion's Pride Inn] to use ACTIVE tag
@@ -244,11 +249,6 @@
 -- Date: 2011-05-28 17:40
 -- Who: Crackerhead22
 -- Log: Added missing notes, added sticky steps, added quests (and steps) with race tags for Worgen, Dwarves, Night Elves, Gnomes and Draenei.
-
--- URL: http://wow-pro.com/node/3197/revisions/24289/view
--- Date: 2011-04-29 14:05
--- Who: Ludovicus_Maior
--- Log: Line 203 for step T has unknown tag [T Blackrock Invasion]: [T Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|T Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|]
 
 local guide = WoWPro:RegisterGuide("KurElw0511", "Leveling", "Elwynn Forest", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,4,9,5.79167)

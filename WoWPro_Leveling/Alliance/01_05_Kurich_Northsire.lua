@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2018-10-17 22:42
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3197/revisions/29237/view
 -- Date: 2018-04-22 18:42
 -- Who: Ludovicus_Maior
 -- Log: Change H [Lion's Pride Inn] to use ACTIVE tag
@@ -245,11 +250,6 @@
 -- Who: Crackerhead22
 -- Log: Added missing notes, added sticky steps, added quests (and steps) with race tags for Worgen, Dwarves, Night Elves, Gnomes and Draenei.
 
--- URL: http://wow-pro.com/node/3197/revisions/24289/view
--- Date: 2011-04-29 14:05
--- Who: Ludovicus_Maior
--- Log: Line 203 for step T has unknown tag [T Blackrock Invasion]: [T Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|T Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|]
-
 local guide = WoWPro:RegisterGuide("KurNShire0105", "Leveling", "Northshire (Human)", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,1,4,1.55556)
 WoWPro:GuideNextGuide(guide, "KurElw0511")
@@ -420,8 +420,8 @@ T The Rear is Clear|QID|31145|C|Monk|R|Human|M|33.55,53.00|N|To Marshal McBride.
 A The Rear is Clear|QID|29083|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|35.74,39.81|N|From Sergeant Willem.|PRE|29081|
 T The Rear is Clear|QID|29083|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|33.55,53.00|N|To Marshal McBride.|
 
-A Blackrock Invasion|QID|26389|M|33.55,53.00|N|From Marshal McBride.|PRE|28817+28818+28819+28820+28821+28822+28823+29083+31145|
-A Extinguishing Hope|QID|26391|M|33.37,54.64|N|From Milly Osworth.|PRE|28817+28818+28819+28820+28821+28822+28823+29083+31145|RANK|2|
+A Blackrock Invasion|QID|26389|M|33.55,53.00|N|From Marshal McBride.|PRE|28817^28818^28819^28820^28821^28822^28823^29083^31145|
+A Extinguishing Hope|QID|26391|M|33.37,54.64|N|From Milly Osworth.|PRE|28817^28818^28819^28820^28821^28822^28823^29083^31145|RANK|2|
 C Extinguishing Hope|N|Extinguish the fires.|S|U|58362|QID|26391|M|54.40,76.15|NC|
 C Blackrock Invasion|N|Kill and loot Orcs until you have 8 Blackrock Weapons.|QID|26389|M|52.00,68.73|
 C Extinguishing Hope|N|Extinguish the fires.|US|U|58362|QID|26391|M|54.40,76.15|NC|

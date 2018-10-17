@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2018-10-17 22:26
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3416/revisions/28554/view
 -- Date: 2017-03-23 17:41
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -90,7 +95,7 @@ A A Huge Problem|QID|28657|M|51,49.4|N|From Commander Zanoth.|
 A Swamp Bait|QID|28658|M|51,49.4|N|From Commander Zanoth.|
 A The Leftovers|QID|28659|M|51,49.4|N|From Commander Zanoth.|
 
-A Accept all quests|M|51.8,49.6|N|From either Private Garnoth, Staff Sergeant Lazgar or Drillmaster Razgoth.|QID|28661;28662;28660;28669;28668;28670;28664;28663;28665|
+A Accept all quests|M|51.8,49.6|N|From either Private Garnoth, Staff Sergeant Lazgar or Drillmaster Razgoth.|QID|28661^28662^28660^28669^28668^28670^28664^28663^28665|
 
 C A Huge Problem|QID|28657|M|30.9,45.2;38.4,61.7;50.6,58.2;61.7,57.8;62,43.8;57.6,35.3;41,33.9|CN|N|Find and kill Problim. If someone else is attacking him, help out as you will get the completion as well.|T|Problim|
 

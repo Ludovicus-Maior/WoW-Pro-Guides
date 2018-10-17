@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2018-10-17 22:55
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3212/revisions/29251/view
 -- Date: 2018-05-02 00:46
 -- Who: Ludovicus_Maior
 -- Log: Goodbye Vol'jin
@@ -238,13 +243,13 @@ N Finish Kezan First|QID|14126|N|You will need to finish the Kezan zone before y
 A Don't Go Into the Light!|QID|14239|PRE|14126|N|Wait for the cinematic to finish, then get this quest from Doc Zapnozzle.|
 ;T Don't Go Into The Light |QID|14239|N|To Doc Zapnozzle.|
 
-A Goblin Escape Pods|QID|14001;14474|M|24.63,77.96|N|From Geargrinder Gizmo.|PRE|14239|
-C Goblin Escape Pods|QID|14001;14474|M|27.47,81.78|N|Click on the escape pods to recue the goblins.|NC|
-T Goblin Escape Pods|QID|14001;14474|M|27.86,75.58|N|To Sassy Hardwrench.|
+A Goblin Escape Pods|QID|14001^14474|M|24.63,77.96|N|From Geargrinder Gizmo.|PRE|14239|
+C Goblin Escape Pods|QID|14001^14474|M|27.47,81.78|N|Click on the escape pods to recue the goblins.|NC|
+T Goblin Escape Pods|QID|14001^14474|M|27.86,75.58|N|To Sassy Hardwrench.|
 
-A Get Our Stuff Back!|QID|14014|M|27.86,75.58|N|From Sassy Hardwrench.|PRE|14001+14474|
-A Monkey Business|QID|14019|M|27.89,74.43|N|From Bamm Megabomb.|PRE|14001+14474|
-A It's Our Problem Now|QID|14473|M|27.89,74.40|N|From Maxx Avalanche.|PRE|14001+14474|
+A Get Our Stuff Back!|QID|14014|M|27.86,75.58|N|From Sassy Hardwrench.|PRE|14001^14474|
+A Monkey Business|QID|14019|M|27.89,74.43|N|From Bamm Megabomb.|PRE|14001^14474|
+A It's Our Problem Now|QID|14473|M|27.89,74.40|N|From Maxx Avalanche.|PRE|14001^14474|
 C It's Our Problem Now|QID|14473|M|29.24,69.93|S|N|Kill 6 Teraptor Hatchlings.|
 C Get Our Stuff Back!|QID|14014|M|29.13,70.04|S|N|Pick up any Crate of Tools you see.|NC|
 C Monkey Business|QID|14019|U|49028|M|28.20,72.30|N|Feed Monkeys the banana bombs, the bananas have about a 30 yard range.|NC|T|Bomb-Throwing Monkey|
@@ -254,7 +259,7 @@ T It's Our Problem Now|QID|14473|M|27.88,74.30|N|To Maxx Avalanche.|
 T Monkey Business|QID|14019|M|27.92,74.38|N|To Bamm Megabomb.|
 T Get Our Stuff Back!|QID|14014|M|27.87,75.53|N|To Sassy Hardwrench.|
 
-A Help Wanted|QID|14248|M|27.87,75.53|N|From Sassy Hardwrench.|PRE|14014;14019;14473|
+A Help Wanted|QID|14248|M|27.87,75.53|N|From Sassy Hardwrench.|PRE|14014 & 14019 & 14473|
 T Help Wanted|QID|14248|M|31.20,79.30|N|To Foreman Dampwick.|
 
 A Miner Troubles|QID|14021|M|31.20,79.30|N|From Foreman Dampwick.|PRE|14248|
@@ -270,7 +275,7 @@ T Miner Troubles|QID|14021|M|31.26,79.22|N|Jump down and to your left, right at 
 T Capturing the Unknown|QID|14031|M|27.86,75.55|N|To Sassy Hardwrench.|
 T Orcs Can Write?|QID|14233|M|27.86,75.55|N|To Sassy Hardwrench.|
 
-A The Enemy of My Enemy|QID|14234|M|27.86,75.55|N|From Sassy Hardwrench.|PRE|14021;14031;14233|
+A The Enemy of My Enemy|QID|14234|M|27.86,75.55|N|From Sassy Hardwrench.|PRE|14021 & 14031 & 14233|
 R Horde Base Camp|QID|14234|M|31.09,80.61;34.36,80.86;37.60,78.00|CS|N|Head south following the beach, then follow the path to the Horde Base Camp.|ACTIVE|14234|
 T The Enemy of My Enemy|QID|14234|M|37.60,78.00|N|To Aggra.|
 
@@ -357,7 +362,7 @@ C Naga Hide|QID|24859|M|54.18,76.66|US|N|Kill and loot Nagas.|
 T Naga Hide|QID|24859|M|52.22,73.21|N|To Brett "Coins" McQuid.|
 T Bilgewater Cartel Represent|QID|24858|M|52.20,73.19|N|To Megs Dreadshredder.|
 
-A Irresistible Pool Pony|QID|24864|M|52.20,73.19|N|From Megs Dreadshredder.|PRE|24859;24858|
+A Irresistible Pool Pony|QID|24864|M|52.20,73.19|N|From Megs Dreadshredder.|PRE|24859 & 24858|
 C Irresistible Pool Pony|QID|24864|U|50602|M|58.18,84.52|N|Head to the Spawning Pool and use the Pool Pony. Kill the Vashj'elan Siren, then talk to the Naga Hatchlings to get them.|
 T Irresistible Pool Pony|QID|24864|M|52.19,73.17|N|To Megs Dreadshredder.|
 
@@ -384,7 +389,7 @@ C Free the Captives|QID|24925|M|60.00,70.20|US|N|Kill Oomlet Shamans that are ch
 T Free the Captives|QID|24925|M|56.55,71.94|N|To Izzy.|
 T Send a Message|QID|24929|M|56.55,71.94|N|To Izzy.|
 
-A Oomlot Dealt With|QID|24937|M|56.55,71.94|N|From Izzy.|PRE|24925;24929|
+A Oomlot Dealt With|QID|24937|M|56.55,71.94|N|From Izzy.|PRE|24925 & 24929|
 T Oomlot Dealt With|QID|24937|M|45.21,64.93|N|To Sassy Hardwrench.|
 
 A Up the Volcano|QID|24940|M|45.21,64.93|N|From Sassy Hardwrench.|PRE|24937|
@@ -409,7 +414,7 @@ T Zombies vs. Super Booster Rocket Boots|QID|24942|M|51.83,47.16|N|Use the Rocke
 T Three Little Pygmies|QID|24945|M|51.83,47.16|N|To Foreman Dampwick.|
 T Rockin' Powder|QID|24946|M|51.72,47.38|N|To Assistant Greely.|
 
-A Rocket Boot Boost|QID|24952|M|51.83,47.16|N|From Coach Crosscheck.|PRE|24942;24945;24946|
+A Rocket Boot Boost|QID|24952|M|51.83,47.16|N|From Coach Crosscheck.|PRE|24942 & 24945 & 24946|
 C Rocket Boot Boost|QID|24952|U|52032|M|52.58,47.14|N|Use the Rockin' Powder Infused Rocket Boots.|NC|
 T Rocket Boot Boost|QID|24952|M|68.97,46.45|N|To Hobart Grapplehammer, who is now at the Lost Caldera.|
 
@@ -441,7 +446,7 @@ T Repel the Paratroopers|QID|25024|M|36.80,43.09|N|To Thrall.|
 T The Heads of the SI:7|QID|25093|M|36.30,43.35|N|To Aggra.|
 T Mine Disposal, the Goblin Way|QID|25058|M|37.37,41.88|N|To Sassy Hardwrench.|
 
-A The Pride of Kezan|QID|25066|M|37.37,41.88|N|From Sassy Hardwrench.|PRE|25024;25093;25058|
+A The Pride of Kezan|QID|25066|M|37.37,41.88|N|From Sassy Hardwrench.|PRE|25024 & 25093 & 25058|
 C The Pride of Kezan|QID|25066|N|Speak to Sassy Hardwrench and tell her to get you up into the skies.|BUFF|73427|ACTIVE|25066|CHAT|
 C The Pride of Kezan|QID|25066|M|32.03,31.46|N|Fly around using ability 1 & 2 and shoot down 10 Gnome planes.|
 T The Pride of Kezan|QID|25066|M|37.33,41.90|N|To Sassy Hardwrench.|
@@ -477,7 +482,7 @@ C Ace|QID|25122|M|56.99,37.15|QO|1|N|Throw a Kaja'Cola at Ace to free his mind. 
 C Morale Boost|QID|25122|M|56.86,36.79|US|N|Throw a Kaja'Cola at the Goblin Survivors and Kezan Citizens to free their minds. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|QO|4|
 T Morale Boost|QID|25122|N|To Assistant Greely.|
 
-A Light at the End of the Tunnel|QID|25125|N|From Assistant Greely.|PRE|25122;25123|
+A Light at the End of the Tunnel|QID|25125|N|From Assistant Greely.|PRE|25122 & 25123|
 T Light at the End of the Tunnel|QID|25125|M|56.30,27.36|N|To Mine Cart.|
 
 A Wild Mine Cart Ride|QID|25184|M|56.30,27.36|N|From Mine Cart. On accepting quest, you will be transproted to the Bilgewater Lumber Yard.|PRE|25125|
@@ -492,9 +497,9 @@ C Shredder Shutdown|QID|25200|M|55.99,23.51|US|N|Finish killing the Steamwheedle
 T The Ultimate Footbomb Uniform|QID|25201|M|54.41,16.97|N|To Coach Crosscheck.|
 T Shredder Shutdown|QID|25200|M|54.41,16.97|N|To Assistant Greely.|
 
-A Release the Valves|QID|25204|M|54.41,16.97|N|From Assistant Greely.|PRE|25201;25200|
-A What Kind of Name is Chip, Anyway?|QID|25203|M|54.18,17.15|N|From Ace.|GEN|MALE|PRE|25201;25200|
-A The Fastest Way to His Heart|QID|25202|M|54.01,16.97|N|From Izzy.|GEN|FEMALE|PRE|25201;25200|
+A Release the Valves|QID|25204|M|54.41,16.97|N|From Assistant Greely.|PRE|25201 & 25200|
+A What Kind of Name is Chip, Anyway?|QID|25203|M|54.18,17.15|N|From Ace.|GEN|MALE|PRE|25201 & 25200|
+A The Fastest Way to His Heart|QID|25202|M|54.01,16.97|N|From Izzy.|GEN|FEMALE|PRE|25201 & 25200|
 C Valve #1|QID|25204|M|50.73,13.81|QO|1|N|Head to the KTC Oil Platform, and Release Valve #1.|NC|
 C Valve #3|QID|25204|M|50.54,13.11|QO|3|N|Release Valve #3.|NC|
 C What Kind of Name is Chip, Anyway?|QID|25203|M|49.86,13.89|N|Kill Chip.|GEN|MALE|

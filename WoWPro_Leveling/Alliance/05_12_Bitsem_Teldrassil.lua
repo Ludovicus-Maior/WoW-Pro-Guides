@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2018-10-17 22:46
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3204/revisions/29717/view
 -- Date: 2018-09-10 21:55
 -- Who: Ludovicus_Maior
 -- Log: Level Tweaks
@@ -331,7 +336,7 @@ T The Moss-twined Heart|QID|927|M|59.89,59.72|N|To Denalan.|
 A Planting the Heart|QID|941|PRE|927|M|59.89,59.72|N|From Denalan.|
 T Planting the Heart|QID|941|M|59.89,59.72|N|To Denalan's Planter.|
 
-A Teldrassil: The Burden of the Kaldorei|QID|7383|PRE|918;919|M|55.83,53.90|N|From Corithras Moonrage.|
+A Teldrassil: The Burden of the Kaldorei|QID|7383|PRE|918 & 919|M|55.83,53.90|N|From Corithras Moonrage.|
 T Rellian Greenspyre|QID|922|M|44.00,44.18|N|To Rellian Greenspyre.|
 
 A Mossy Tumors|QID|923|PRE|922|M|44.00,44.18|N|From Rellian Greenspyre.|

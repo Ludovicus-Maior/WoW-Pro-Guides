@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2018-10-17 22:33
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3458/revisions/29549/view
 -- Date: 2018-08-18 21:03
 -- Who: Ludovicus_Maior
 -- Log: Fix L steps that should be l steps.
@@ -82,8 +87,8 @@ K Small Eggs: Mulgore|QID|6962|M|48.2,50.2;52.2,35.2;57.2,48.0|Z|Mulgore|CN|L|68
 K Small Eggs: Mulgore|QID|6962|M|43.4,21.8;48.8,9.6;59.0,21.4|Z|Mulgore|CN|L|6889 20|N|Kill Taloned Swoops; Use the back lift from Thunder Bluffs.|
 
 N On the first day of Winter Veil ...|QID|6961|N|Now wait till the first day ..|
-A Great-father Winter is Here!|QID|6961;7021;7024|M|52.54,77.03|Z|Orgrimmar|N|From Kaymard Copperpinch.|
-T Great-father Winter is Here!|QID|6961;7021;7024|M|49.62,78.00|Z|Orgrimmar|N|To Great-father Winter.|
+A Great-father Winter is Here!|QID|6961^7021^7024|M|52.54,77.03|Z|Orgrimmar|N|From Kaymard Copperpinch.|
+T Great-father Winter is Here!|QID|6961^7021^7024|M|49.62,78.00|Z|Orgrimmar|N|To Great-father Winter.|
 A Treats for Great-father Winter|QID|6962|M|49.62,78.00|Z|Orgrimmar|N|From Great-father Winter.|
 B Recipe: Gingerbread Cookie|QID|6962|M|52.68,77.28|Z|Orgrimmar|L|17200|N|From Penney Copperpinch.|
 B Holiday Spices|QID|6962|M|52.68,77.28|Z|Orgrimmar|L|17194 5|N|From Penney Copperpinch.|
@@ -111,10 +116,10 @@ b Orgrimmar|QID|8744|N|Go see Great-father Winter in Orgrimmar|
 A Winter's Presents|QID|8828|M|50.0,61.6|Z|Orgrimmar|N|From Wonderform Operator.|
 
 T Winter's Presents|QID|8828|M|49.62,78.00|Z|Orgrimmar|N|To Great-father Winter.|
-A A Gently Shaken Gift|QID|8767;8788|M|49.15,78.07|Z|Orgrimmar|N|Your first gift!|
+A A Gently Shaken Gift|QID|8767^8788|M|49.15,78.07|Z|Orgrimmar|N|Your first gift!|
 A A Carefully Wrapped Present|QID|8744|M|49.29,78.27|Z|Orgrimmar|N|Your second gift!|
 A A Festive Gift|QID|8803|LVL|10|M|49.55,77.79|Z|Orgrimmar|N|Your third gift!|
-A A Winter Veil Gift|QID|11528;13203;13966;28878;29385;32106|LVL|10|M|49.40,77.60|Z|Orgrimmar|N|Your fourth gift!|
+A A Winter Veil Gift|QID|11528^13203^13966^28878^29385^32106|LVL|10|M|49.40,77.60|Z|Orgrimmar|N|Your fourth gift!|
 A A Gaily Wrapped Present|QID|8768|LVL|20|M|49.6,78.2|Z|Orgrimmar|N|Your fifth gift!|
 A A Ticking Present|QID|8769|LVL|40|M|49.19,77.76|Z|Orgrimmar|N|Your sixth gift!|
 

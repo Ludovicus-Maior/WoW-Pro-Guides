@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/dalaran_cooking_and_fishing_dalies
+-- Date: 2018-10-17 22:30
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3477/revisions/29546/view
 -- Date: 2018-08-18 20:59
 -- Who: Ludovicus_Maior
 -- Log: Change L to l for fishing quests
@@ -69,7 +74,7 @@ WoWPro.Dailies:GuideNameAndCategory(guide,"Dalaran Fishing")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A One of Five|QID|13832;13833;13834;13836|M|52.6,64.8|N|From Marcia Chase|
+A One of Five|QID|13832^13833^13834^13836|M|52.6,64.8|N|From Marcia Chase|
 
 C Jewel Of The Sewers|QID|13832|M|40.60,57.10;43.80,67.80;61.10,12.40;37.40,51.70;36.95,47.60;32.85,47.30;44.44,65.18|Z|The Underbelly@DalaranCity|CN|N|Go to the sewers and fish away.|L|45903|
 T Jewel Of The Sewers|QID|13832|M|52.6,64.8|N|To Marcia Chase|

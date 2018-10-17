@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2018-10-17 22:46
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3204/revisions/29717/view
 -- Date: 2018-09-10 21:55
 -- Who: Ludovicus_Maior
 -- Log: Level Tweaks

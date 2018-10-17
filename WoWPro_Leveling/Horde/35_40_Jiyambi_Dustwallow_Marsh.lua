@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_horde
+-- Date: 2018-10-17 22:59
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3242/revisions/29092/view
 -- Date: 2018-02-20 21:41
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -167,7 +172,7 @@ A The Black Shield|RANK|1|QID|27257|PRE|27256|M|36.50,30.85|N|From Do'gol.|
 T The Black Shield|RANK|1|QID|27257|M|36.42,31.78|N|To Krog.|
 T Darkmist Extermination|RANK|1|QID|25051|M|36.42,31.78|N|To Krog.|
 T SMASH BROODQUEEN|RANK|1|QID|27229|M|36.42,31.78|N|To Krog.|
-A The Black Shield|RANK|2|QID|27258|PRE|27257;27253;27259;27260;27306;27261|M|36.42,31.78|N|From Krog.|
+A The Black Shield|RANK|2|QID|27258|PRE|27257 & 27253 & 27259 & 27260 & 27306 & 27261|M|36.42,31.78|N|From Krog.|
 
 T Jarl Needs Eyes|RANK|1|QID|27184|M|55.43,26.26|N|To "Swamp Eye" Jarl.|
 A Hungry as an Ogre!|RANK|1|QID|27191|PRE|27184|M|55.43,26.26|N|From "Swamp Eye" Jarl.|
@@ -193,7 +198,7 @@ C More than Coincidence|RANK|2|QID|27294|NC|M|41.68,13.16|US|N|Right-click the w
 H Brackenwall Village|RANK|1|QID|27294|M|35.27,30.75|N|Hearth if you set your hearth there, otherwise ride back.|
 T More than Coincidence|RANK|2|QID|27294|M|36.44,31.84|N|To Krog.|
 T The Grimtotem Plot|RANK|2|QID|27293|M|36.44,31.84|N|To Krog.|
-A Seek Out Tabetha|RANK|2|QID|27295|PRE|27293;27294|M|36.44,31.84|N|From Krog.|
+A Seek Out Tabetha|RANK|2|QID|27295|PRE|27293 & 27294|M|36.44,31.84|N|From Krog.|
 A Identifying the Brood|RANK|1|QID|27414|M|37.11,33.01|N|From Draz'Zilb.|
 A Army of the Black Dragon|RANK|1|QID|1168|M|37.30,31.43|N|From Tharg.|
 A Overlord Mok'Morokk's Concern|RANK|1|QID|27424|M|36.34,31.36|N|From Overlord Mok'Morokk.|
@@ -264,7 +269,7 @@ C The Essence of Enmity|RANK|1|QID|27409|U|33088|M|39.98,65.31|US|N|Use the tote
 
 T Banner of the Stonemaul|RANK|1|QID|27408|M|41.87,73.96|N|To Brogg, back in Mudsprocket.|
 T The Essence of Enmity|RANK|1|QID|27409|M|41.87,73.96|N|To Brogg.|
-A Spirits of Stonemaul Hold|RANK|1|QID|27410|PRE|27408;27409|M|41.87,73.96|N|From Brogg.|
+A Spirits of Stonemaul Hold|RANK|1|QID|27410|PRE|27408 & 27409|M|41.87,73.96|N|From Brogg.|
 
 C Spirits of Stonemaul Hold|RANK|1|QID|27410|U|33091|M|44.78,66.17|N|Right-click the giatn rib cages scattered about the ruins, and kill the ogre spirits that appear.|
 T Spirits of Stonemaul Hold|RANK|1|QID|27410|M|41.86,73.94|N|To Brogg, back in Mudsprocket.|

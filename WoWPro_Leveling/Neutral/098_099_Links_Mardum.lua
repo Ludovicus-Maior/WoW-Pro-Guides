@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/demon_hunter_starter_source_code
+-- Date: 2018-10-17 23:04
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3656/revisions/28500/view
 -- Date: 2017-03-17 01:23
 -- Who: Ludovicus_Maior
 -- Log: Added missing MardumtheShatteredAbyss
@@ -122,7 +127,7 @@ T Eye On the Prize|QID|39049|M|38.80,60.63|N|To Jace Darkweaver.|
 T Set Them Free|QID|38759|M|38.80,60.63|N|To Jace Darkweaver.|
 ; T Assault on Mardum|QID|39279|M|39.43,70.47|N|To Foul Felstalker.| automatically turned in when done.
 h Mardum, the Shattered Abyss|QID|40379|M|38.80,60.64|N|At Jace Darkweaver.|
-A Meeting With the Queen|QID|39050|PRE|40379;39049;38759|M|38.80,60.64|N|From Jace Darkweaver.|
+A Meeting With the Queen|QID|39050|PRE|40379 & 39049 & 38759|M|38.80,60.64|N|From Jace Darkweaver.|
 C Meeting With the Queen|QID|39050|QO|1|M|38.80,60.64|NC|N|Click on the kettle.|
 T Meeting With the Queen|QID|39050|M|38.80,60.64|N|To Jace Darkweaver.|
 A Enter the Illidari: Shivarra|QID|38765|PRE|39050|M|38.80,60.64|N|From Jace Darkweaver.|
@@ -133,7 +138,7 @@ C Enter the Illidari: Shivarra|QID|38765|QO|2|M|40.35,38.41|NC|N|Click on the Le
 T Enter the Illidari: Shivarra|QID|38765|M|60.52,44.75|N|To Kayn Sunfury.|
 T Before We're Overrun|QID|38766|M|60.52,44.75|N|To Kayn Sunfury.|
 h Illidari Foothold|QID|38766|M|60.52,44.75|N|At Kayn Sunfury. On overloaded servers, there may be a delay before you can do this. Be patient or you will be returned waaay back.|
-A Orders for Your Captains|QID|38813|PRE|38765;38766|M|60.52,44.75|N|From Kayn Sunfury.|
+A Orders for Your Captains|QID|38813|PRE|38765 & 38766|M|60.52,44.75|N|From Kayn Sunfury.|
 C Orders for Your Captains|QID|38813|QO|2|M|59.24,46.15|N|Find Lady S'theno, brief her.|CHAT|
 C Orders for Your Captains|QID|38813|QO|3|M|60.98,46.99|N|Find Matron Mother Malevolence, brief her.|CHAT|
 C Orders for Your Captains|QID|38813|QO|1|M|62.18,46.29|N|Find Battlelord Gaardoun, brief him.|CHAT|
@@ -167,12 +172,12 @@ T Their Numbers Are Legion|QID|38819|M|60.51,44.75|N|To Kayn Sunfury.|
 A Fel Secrets|QID|40051|PRE|40222|M|60.51,44.82|N|From Kor'vas Bloodthorn.|
 C Fel Secrets|QID|40051|QO|1|M|60.56,44.76|NC|N|Click on the floating Book and choose between Havoc (DPS) & Vengeance (Tank)|
 T Fel Secrets|QID|40051|M|60.51,44.75|N|To Kayn Sunfury.|
-A Cry Havoc or Vengeance Will Be Mine!|QID|39516;39515|M|60.51,44.75|N|From Kayn Sunfury.|
-C Cry Havoc or Vengeance Will Be Mine!|QID|39516;39515|QO|2|M|60.55,44.86|N|Teach Cyana|CHAT|
-C Cry Havoc or Vengeance Will Be Mine!|QID|39516;39515|QO|4|M|60.52,44.82|N|Teach Kor'vas|CHAT|
-C Cry Havoc or Vengeance Will Be Mine!|QID|39516;39515|QO|3|M|60.51,44.75|N|Teach Kayn|CHAT|
-C Cry Havoc or Vengeance Will Be Mine!|QID|39516;39515|QO|1|M|60.53,44.66|N|Teach Allari|CHAT|
-C Cry Havoc or Vengeance Will Be Mine!|QID|39516;39515|QO|5|M|60.25,44.58|N|Teach Mannethrel|CHAT|
+A Cry Havoc or Vengeance Will Be Mine!|QID|39516^39515|M|60.51,44.75|N|From Kayn Sunfury.|
+C Cry Havoc or Vengeance Will Be Mine!|QID|39516^39515|QO|2|M|60.55,44.86|N|Teach Cyana|CHAT|
+C Cry Havoc or Vengeance Will Be Mine!|QID|39516^39515|QO|4|M|60.52,44.82|N|Teach Kor'vas|CHAT|
+C Cry Havoc or Vengeance Will Be Mine!|QID|39516^39515|QO|3|M|60.51,44.75|N|Teach Kayn|CHAT|
+C Cry Havoc or Vengeance Will Be Mine!|QID|39516^39515|QO|1|M|60.53,44.66|N|Teach Allari|CHAT|
+C Cry Havoc or Vengeance Will Be Mine!|QID|39516^39515|QO|5|M|60.25,44.58|N|Teach Mannethrel|CHAT|
 t Cry Havoc and Let Slip the Illidari!|QID|39516|M|60.51,44.75|N|To Kayn Sunfury.|
 t Vengeance Will Be Mine!|QID|39515|M|60.51,44.75|N|To Kayn Sunfury.|
 A On Felbat Wings|QID|39663|M|60.51,44.75|N|From Kayn Sunfury.|
