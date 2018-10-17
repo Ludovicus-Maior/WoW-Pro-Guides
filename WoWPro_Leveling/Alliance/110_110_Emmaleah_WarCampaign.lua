@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-10-17 08:32
+-- Who: Emmaleah
+-- Log: delete extranious (and erroneous) line :jani intro
+--	take CHAT| out of f steps
+
+-- URL: http://wow-pro.com/node/3760/revisions/29881/view
 -- Date: 2018-10-14 23:38
 -- Who: Emmaleah
 -- Log: change warfront to |Z|1044| so arrow works again. many minor tweaks such as adding K's with |T|s rewording a few steps to make clearer.
@@ -557,7 +563,6 @@ C The Vol'dun Plan|QID|52027|M|37.75,35.92|Z|Vol'dun|QO|2|CHAT|N|Discuss Shandri
 T The Vol'dun Plan|QID|52027|M|37.70,35.95|Z|Vol'dun|N|To Halford Wyrmbane.|
 A Comb the Desert|QID|52028|M|37.70,35.95|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52027|
 
-:jani intro
 ; Jani starting questline.
 A Pests|QID|51142|M|36.57,32.30|Z|Vol'dun|LVL|120|N|From Quartermaster Alfin in Vol'dun. This will open up 'Jani' opportunities which give you will find around the Zandalar.|PRE|51969|
 C Pests|QID|51142|M|36.90,32.24|Z|Vol'dun|QO|1|N|Thieving Snapper spawn all over the place, hunt them down and kill them.|
@@ -661,7 +666,7 @@ T Mission Report: Veiled Grotto|QID|52801|M|69.28,26.99|Z|Boralus|N|To Halford W
 A Veiled Grotto|QID|52802|M|69.28,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|52801|
 R Zuldazar|ACTIVE|52802|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
 C Veiled Grotto|QID|52802|M|44.48,36.69|Z|Zuldazar|QO|1|NC|N|Make your way to the outpost and claim it.|
-f Veiled Grotto|ACTIVE|52802|M|44.43,36.84|Z|Zuldazar|CHAT|N|Get the flightpoint from Isaac "Lefteye" Bentham.|
+f Veiled Grotto|ACTIVE|52802|M|44.43,36.84|Z|Zuldazar|N|Get the flightpoint from Isaac "Lefteye" Bentham.|
 T Veiled Grotto|QID|52802|M|44.25,36.49|Z|Zuldazar|N|To Kolton Garrick.|
 
 ; The Honored Repuation Mission Report: Grimwatt's Crash
@@ -670,7 +675,7 @@ T Mission Report: Grimwatt's Crash|QID|53006|M|69.28,27.00|Z|Boralus|N|To Halfor
 A Grimwatt's Crash|QID|53007|M|69.28,27.00|Z|Boralus|PRE|53006|N|From Halford Wyrmbane.|
 R Nazmir|ACTIVE|53007|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Nazmir or get there through other means.|
 C Grimwatt's Crash|QID|53007|M|34.16,63.42|Z|Nazmir|QO|1|NC|N|Make your way to the outpost and claim it.|
-f Grimwatt's Crash|ACTIVE|53007|M|34.31,63.20|Z|Nazmir|CHAT|N|Get the flightpoint from Noella Davenport.|
+f Grimwatt's Crash|ACTIVE|53007|M|34.31,63.20|Z|Nazmir|N|Get the flightpoint from Noella Davenport.|
 T Grimwatt's Crash|QID|53007|M|33.88,63.22|Z|Nazmir|N|To Fellyia Wildsong.|
 A Mission Report: Ambush at Grimwatt's Crash|QID|53186|M|70.42,27.19|Z|Boralus|PRE|53007|O|
 T Mission Report: Ambush at Grimwatt's Crash|QID|53186|M|69.28,27.01|Z|Boralus|N|To Halford Wyrmbane.|
@@ -821,7 +826,7 @@ T Mission Report: Vulture's Nest|QID|53043|M|69.28,27.00|Z|Boralus|N|To Halford 
 A Vulture's Nest|QID|53044|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|53043|
 R Vol'dun|ACTIVE|53044|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Vol'dun or get there through other means.|
 C Vulture's Nest|QID|53044|M|53.76,37.79|Z|Vol'dun|QO|1|N|Make your way to the outpost and claim it.|
-f Vulture's Nest|ACTIVE|53044|M|53.60,37.68|Z|Vol'dun|CHAT|N|Get the flightpoint from Buzz Crankchug.|
+f Vulture's Nest|ACTIVE|53044|M|53.60,37.68|Z|Vol'dun|N|Get the flightpoint from Buzz Crankchug.|
 T Vulture's Nest|QID|53044|M|53.71,37.72|Z|Vol'dun|N|To Hilda Hammerfast.|
 A Mission Report: Missing Supplies|QID|53221|M|70.56,27.19|Z|Boralus|O|
 T Mission Report: Missing Supplies|QID|53221|M|69.26,27.00|Z|Boralus|N|To Halford Wyrmbane.|
@@ -835,7 +840,7 @@ T Mission Report: Mugamba Overlook|QID|52851|M|69.27,27.00|Z|Boralus|N|To Halfor
 A Mugamba Overlook|QID|52852|M|69.27,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|52851|
 R Zuldazar|ACTIVE|52852|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
 C Mugamba Overlook|QID|52852|M|44.72,27.47|Z|Zuldazar|QO|1|N|Make your way to the outpost and claim it.|
-f Mugamba Overlook|ACTIVE|52963|M|44.84,27.07|Z|Zuldazar|CHAT|N|Get the flightpoint from Drager Smokewing.|
+f Mugamba Overlook|ACTIVE|52963|M|44.84,27.07|Z|Zuldazar|N|Get the flightpoint from Drager Smokewing.|
 T Mugamba Overlook|QID|52852|M|44.86,27.40|Z|Zuldazar|N|To Darchelle Hayes.|
 A Mission Report: Spare Parts|QID|53275|M|70.57,27.18|Z|Boralus|O|
 T Mission Report: Spare Parts|QID|53275|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
@@ -849,7 +854,7 @@ T Mission Report: Verdant Hollow|QID|52886|M|69.29,27.02|Z|Boralus|N|To Halford 
 A Verdant Hollow|QID|52888|M|69.29,27.02|Z|Boralus|N|From Halford Wyrmbane.|PRE|52886|
 R Zuldazar|ACTIVE|52888|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
 C Verdant Hollow|QID|52888|M|55.23,25.25|Z|Zuldazar|QO|1|N|Make your way to the outpost and claim it.|
-f Verdant Hollow|ACTIVE|52963|M|55.65,24.85|Z|Zuldazar|CHAT|N|Get the flightpoint from Kina Cobbleflame.|
+f Verdant Hollow|ACTIVE|52963|M|55.65,24.85|Z|Zuldazar|N|Get the flightpoint from Kina Cobbleflame.|
 T Verdant Hollow|QID|52888|M|54.87,25.55|Z|Zuldazar|N|To Argrim Stonedeep.|
 A Mission Report: Dino Research|QID|53267|M|70.56,27.17|Z|Boralus|O|
 T Mission Report: Dino Research|QID|53267|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
