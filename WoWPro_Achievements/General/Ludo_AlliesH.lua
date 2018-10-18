@@ -20,7 +20,7 @@ C A Choice of Allies|QID|50242|M|37.97,80.58|Z|Orgrimmar@Orgrimmar|QO|2|N|Speak 
 C A Choice of Allies|QID|50242|M|37.78,81.13|Z|Orgrimmar@Orgrimmar|QO|3|N|Choose an ally to pursue|
 T A Choice of Allies|QID|50242|M|37.78,81.13|Z|Orgrimmar@Orgrimmar|N|To Lady Sylvanas Windrunner.|
 
-N You have chosen|AVAILABLE|49787^49698|N|Get the next quest from Lady Liadrin or Blaine|
+N You have chosen|AVAILABLE|49787;49698|N|Get the next quest from Lady Liadrin or Blaine|
 
 ;https://www.wowhead.com/highmountain-tauren-allied-race
 A A Feast for Our Kin|QID|48066|M|38.17,81.10|Z|Orgrimmar@Orgrimmar|N|From Baine Bloodhoof.|
@@ -80,7 +80,7 @@ C Highmountain Protectors|QID|41882|M|57.50,88.99|Z|Highmountain|QO|1|N|Click on
 C Shadowice Shards|QID|41840|M|57.55,89.83|Z|Highmountain|QO|1|N|These drop from killing any mobs in the area.|US|
 T Ice and Shadow|QID|41840|M|57.56,92.32|Z|Highmountain|N|To Spiritwalker Ebonhorn, down by a cave.|
 T Whispers of the Darkness|QID|41882|M|57.56,92.32|Z|Highmountain|N|To Spiritwalker Ebonhorn, down by a cave.|
-A The Final Ward|QID|41841|PRE|41840&41882|M|57.56,92.32|Z|Highmountain|N|From Spiritwalker Ebonhorn.|
+A The Final Ward|QID|41841|PRE|41840;41882|M|57.56,92.32|Z|Highmountain|N|From Spiritwalker Ebonhorn.|
 C Summit Ward|QID|41841|M|56.52,91.45|Z|Highmountain|QO|1|N|Place the Summit Ward.  Fight your way back to the cave and click on the ward.|
 T The Final Ward|QID|41841|M|56.81,92.03|Z|Highmountain|N|To Spiritwalker Ebonhorn.|
 A The Darkness|QID|48403|PRE|41841|M|56.81,92.03|Z|Highmountain|N|From Spiritwalker Ebonhorn.|
