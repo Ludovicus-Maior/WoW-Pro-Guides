@@ -303,12 +303,12 @@ T Stealing from Thieves |QID|9882|M|31.4,57.8|N|To Gezhe.|REP|The Consortium;933
 
 T Armaments for Deception |QID|9928|M|74.0,62.5|N|To Lantresor of the Blade.|
 T Ruthless Cunning |QID|9927|M|74.0,62.5|N|To Lantresor of the Blade.|
-A Returning the Favor |QID|9931|PRE|9928 & 9927|M|74.0,62.5|N|From Lantresor of the Blade.|
-A Body of Evidence |QID|9932|PRE|9928 & 9927|M|74.0,62.5|N|From Lantresor of the Blade.|
+A Returning the Favor |QID|9931|PRE|9928&9927|M|74.0,62.5|N|From Lantresor of the Blade.|
+A Body of Evidence |QID|9932|PRE|9928&9927|M|74.0,62.5|N|From Lantresor of the Blade.|
 T Windroc Mastery  |QID|9856|N|To Shado 'Fitz' Farstrider.|M|71.57,40.53|
 T Talbuk Mastery  |QID|9859|N|To Harold Lane.|M|71.4,40.63|
 T Clefthoof Mastery  |QID|9851|N|To Hemet Nesingwary.|M|71.52,40.79|
-A The Ultimate Bloodsport |QID|9852|PRE|9856 & 9859 & 9851|N|From Hemet Nesingwary.|M|71.52,40.79|
+A The Ultimate Bloodsport |QID|9852|PRE|9856&9859&9851|N|From Hemet Nesingwary.|M|71.52,40.79|
 T Wanted: Giselda the Crone |QID|9935|M|56.0,38.0|N|To Warden Bullrok.|
 T Murkblood Invaders |QID|9872|N|To Garrosh.|
 
@@ -412,7 +412,7 @@ T Against the Legion|QID|10641|M|27.35,43.06|N|To Altruis the Sufferer.|
 T Against the Illidari|QID|10668|M|27.35,43.06|N|To Altruis the Sufferer.|
 T Against All Odds|QID|10669|M|27.35,43.06|N|To Altruis the Sufferer.|
 
-A Illidan's Pupil|QID|10646|PRE|10641 & 10668 & 10669|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Illidan's Pupil|QID|10646|PRE|10641&10668&10669|M|27.35,43.06|N|From Altruis the Sufferer.|
 C Illidan's Pupil|QID|10646|M|27.35,43.06|N|Talk to Altruis until you get the quest completion.|NC|
 T Illidan's Pupil|QID|10646|M|27.35,43.06|N|To Altruis the Sufferer.|
 A The Book of Fel Names|QID|10649|PRE|10646|M|27.35,46.06|N|From Altruis the Sufferer.|

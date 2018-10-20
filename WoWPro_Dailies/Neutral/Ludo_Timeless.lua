@@ -278,7 +278,7 @@ C Empowering the Hourglass|QID|33338|N|Kill and loot till you get 50 Epoch Stone
 C Strong Enough To Survive|QID|33334|N|Kill 5 Rares or Rare Elites on the island. The addon NPCScan works great for spotting them.|US|
 
 ; Cooking Quests
-A Noodle Secrets Long Forgotten|QID|33018|M|52.08,46.13|PRE|31467 & 31471 & 31474 & 31476 & 31477 & 31480|N|From Old Sign Fragment, for those that are not Masters of the Way. You need to have started each of the ways at the Tillers.|
+A Noodle Secrets Long Forgotten|QID|33018|M|52.08,46.13|PRE|31467&31471&31474&31476&31477&31480|N|From Old Sign Fragment, for those that are not Masters of the Way. You need to have started each of the ways at the Tillers.|
 T Noodle Secrets Long Forgotten|QID|33018|M|40.93,73.45|N|To Lin Chao-Wei.|
 A The Lost Secret of the Secret Ingredient|QID|33020|M|40.93,73.45|PRE|33018|N|From Lin Chao-Wei, you will get this directly if you are a Master of the Way|
 T The Lost Secret of the Secret Ingredient|QID|33020|M|69.09,58.08|N|To Lin Family Scroll.|

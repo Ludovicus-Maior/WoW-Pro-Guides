@@ -178,12 +178,12 @@ T The Restless Dead|QID|13110|N|To Father Gustav.|M|82.88,72.78|
 T The Purging Of Scourgeholme|QID|13118|N|To The Ebon Watcher.|M|83.00,72.80|
 T The Scourgestone|QID|13122|N|To The Ebon Watcher.|
 
-A The Air Stands Still|QID|13125|PRE|13118 & 13122|N|From The Ebon Watcher.|
+A The Air Stands Still|QID|13125|PRE|13118&13122|N|From The Ebon Watcher.|
 K Salranax the Flesh Render |QID|13125|QO|1|U|43206|N|Use the Horn to call for aid should you need it.|M|77.32,61.90|; Salranax the Flesh Render slain: 1/1
 K High Priest Yath'amon |QID|13125|QO|3|U|43206|N|Use the Horn to call for aid should you need it.|M|80.18,61.22|; High Priest Yath'amon slain: 1/1
 C The Air Stands Still|QID|13125|U|43206|N|Use the Horn to call for aid should you need it.|M|76.40,53.35|
 T The Air Stands Still|QID|13125|N|To The Ebon Watcher. If you called for aid, you can click on the portal he came out of to quickly get back to the Ebon Watcher.|M|83.00,72.80|
-A Into The Frozen Heart Of Northrend|QID|13139|PRE|13110 & 13124 & 13130 & 13135|N|From Father Gustav.|M|82.80,72.80|
+A Into The Frozen Heart Of Northrend|QID|13139|PRE|13110&13124&13130&13135|N|From Father Gustav.|M|82.80,72.80|
 T Into The Frozen Heart Of Northrend|QID|13139|U|43290|N|Read the Report if you like patting yourself on the Shoulder, then deliver it to Highlord Tirion Fordring.|M|86.00,75.80|
 A The Battle For Crusaders' Pinnacle|QID|13141|PRE|13139|N|From Highlord Tirion Fordring.|
 C The Battle For Crusaders' Pinnacle|QID|13141|U|43243|N|Use the Banner near the pile of Skulls and defend it against the Scourge.|M|80.06,71.95|

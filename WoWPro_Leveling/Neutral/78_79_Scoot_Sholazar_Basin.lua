@@ -187,14 +187,14 @@ A Aerial Surveillance |QID|12696|PRE|12523|N|From Professor Calvert.|M|25.4,58.5
 C Wipe That Grin Off His Face |QID|12525|N|Go to the platform in the dig site.|M|35.72,50.24|
 T Wipe That Grin Off His Face |QID|12525|N|To Debaar, Nesingwary Base Camp.|M|27.21,59.86|
 
-A Kick, What Kick? |QID|12589|PRE|12525 & 12523|N|From Drostan, in the base camp.|M|27.07,59.82|
+A Kick, What Kick? |QID|12589|PRE|12525&12523|N|From Drostan, in the base camp.|M|27.07,59.82|
 C Kick, What Kick? |QID|12589|T|Lucky Wilhelm|N|Target Lucky Wilhelm and use the gun until you hit the apple.|U|38573|
 T Kick, What Kick? |QID|12589|M|27.1,59.9|N|To Drostan.|
 A The Great Hunter's Challenge |QID|12592|PRE|12589|N|From Drostan.|M|27.1,59.9|
 
-A Dreadsaber Mastery: Becoming a Predator |QID|12549|PRE|12525 & 12523|N|From Buck Cantwell. He's under the tent.|M|26.7,59.0|
+A Dreadsaber Mastery: Becoming a Predator |QID|12549|PRE|12525&12523|N|From Buck Cantwell. He's under the tent.|M|26.7,59.0|
 
-A Rhino Mastery: The Test |QID|12520|PRE|12525 & 12523|N|From Hemet Nesingwary.|M|27.09,58.72|
+A Rhino Mastery: The Test |QID|12520|PRE|12525&12523|N|From Hemet Nesingwary.|M|27.09,58.72|
 C Dreadsaber Mastery: Becoming a Predator |QID|12549|N|Kill Dreadsabers.|S|
 C Rhino Mastery: The Test |QID|12520|N|Head North and NW. You'll see Rhinos all around.|M|29.0,57.0|
 C Dreadsaber Mastery: Becoming a Predator |QID|12549|N|Kill any more Dreadsabers you need.|US|M|29.0,57.0|
@@ -207,9 +207,9 @@ A Rhino Mastery: The Chase |QID|12526|PRE|12520|N|From Hemet Nesingwary.|M|27.1,
 
 A A Steak Fit for a Hunter |QID|12804|PRE|12520|N|From Korg the Cleaver.|M|26.73,59.59|
 
-A Some Make Lemonade, Some Make Liquor |QID|12634|PRE|12520 & 12549|N|From Grimbooze Thunderbrew.|M|26.86,60.01|
+A Some Make Lemonade, Some Make Liquor |QID|12634|PRE|12520&12549|N|From Grimbooze Thunderbrew.|M|26.86,60.01|
 
-A Crocolisk Mastery: The Trial |QID|12551|PRE|12520 & 12549|N|From Debaar.|M|27.21,59.86|
+A Crocolisk Mastery: The Trial |QID|12551|PRE|12520&12549|N|From Debaar.|M|27.21,59.86|
 
 C A Steak Fit for a Hunter |QID|12804|N|Kill and loot Longneck Grazers. The Dreadsabers will kill them, so kill them as well.|M|29.5,66.4|S|
 T Rhino Mastery: The Chase |QID|12526|N|To Oracle Soo-rahm, in a camp to the south, by the Bones of Nozronn.|M|25.55,66.45|
@@ -255,7 +255,7 @@ C Dreadsaber Mastery: Ready to Pounce |QID|12558|N|At the top of Bittertide Lake
 T Rhino Mastery: The Kill |QID|12556|N|To Hemet Nesingwary, in Nesingwary Base Camp.|M|27.09,58.72|
 T Dreadsaber Mastery: Ready to Pounce |QID|12558|N|To Buck Cantwell.|M|26.7,59.0|
 
-A Lakeside Landing |QID|12651|LEAD|12654|PRE|12560 & 12526 & 12550|N|From Hemet Nesingwary.|
+A Lakeside Landing |QID|12651|LEAD|12654|PRE|12560&12526&12550|N|From Hemet Nesingwary.|
 C Tamara's taste test |QID|12645|N|Give a sample to Tamara at Lakeside Landing.|U|38697|M|50.44,62.10|QO|3|
 T Lakeside Landing |QID|12651|N|To Tamara Wobblesprocket.|
 
@@ -285,15 +285,15 @@ C The Ape Hunter's Slave |QID|12529|N|Kill the Foragers and Chargers until you'r
 T The Ape Hunter's Slave |QID|12529|N|To High-Shaman Rakjak, on Frenzyheart Hill.|M|55.00,69.16|
 T Tormenting the Softknuckles |QID|12530|N|To High-Shaman Rakjak.|M|55.0,69.1|
 
-A The Wasp Hunter's Apprentice |QID|12533|PRE|12529 & 12530|N|From High-Shaman Rakjak.|M|55.0,69.1|
-A The Sapphire Queen |QID|12534|PRE|12529 & 12530|N|From Elder Harkek.|M|55.5,69.7|
+A The Wasp Hunter's Apprentice |QID|12533|PRE|12529&12530|N|From High-Shaman Rakjak.|M|55.0,69.1|
+A The Sapphire Queen |QID|12534|PRE|12529&12530|N|From Elder Harkek.|M|55.5,69.7|
 C The Wasp Hunter's Apprentice |QID|12533|U|38621|N|Kill Sapphire Hive Wasps and Drones.|S|
 C The Sapphire Queen |QID|12534|N|Inside the Sapphire Hive at the end.|U|38621|M|57.37,79.51|
 C The Wasp Hunter's Apprentice |QID|12533|U|38621|N|Kill Sapphire Hive Wasps and Drones.|US|
 T The Wasp Hunter's Apprentice |QID|12533|N|To High-Shaman Rakjak, on Frenzyheart Hill.|M|55.00,69.16|
 T The Sapphire Queen |QID|12534|N|To High-Shaman Rakjak.|M|55.0,69.1|
 
-A Flown the Coop! |QID|12532|PRE|12533 & 12534|N|From Elder Harkek.|M|55.5,69.7|
+A Flown the Coop! |QID|12532|PRE|12533&12534|N|From Elder Harkek.|M|55.5,69.7|
 C Flown the Coop! |QID|12532|U|38689|N|They're quick, but as long as you have them in the target circle when you click, you'll catch them. Pick them up for credit. Turn on the nameplates (V key) to make it easier.|
 T Flown the Coop! |QID|12532|N|To Elder Harkek.|M|55.5,69.7|
 
@@ -305,7 +305,7 @@ C Mischief in the Making |QID|12535|N|Get the rest of the crystals.|U|38621|M|56
 T The Underground Menace |QID|12531|N|To High-Shaman Rakjak, on Frenzyheart Hill.|M|55.00,69.16|
 T Mischief in the Making |QID|12535|N|To High-Shaman Rakjak.|M|55.0,69.1|
 
-A A Rough Ride |QID|12536|PRE|12531 & 12535|N|From High-Shaman Rakjak.|M|55.0,69.1|
+A A Rough Ride |QID|12536|PRE|12531&12535|N|From High-Shaman Rakjak.|M|55.0,69.1|
 C A Rough Ride |QID|12536|N|The croc is tied to a tree to the North. Surf's up, Dude!|M|57.26,68.34|
 T A Rough Ride |QID|12536|N|To Zepik the Gorloc Hunter.|U|38512|
 
@@ -317,12 +317,12 @@ C The Mist Isn't Listening |QID|12538|N|Kill any more you need.|M|45.5,39.8|US|
 T Lightning Definitely Strikes Twice |QID|12537|N|To Zepik the Gorloc Hunter.|U|38512|
 T The Mist Isn't Listening |QID|12538|N|To Zepik the Gorloc Hunter.|U|38512|
 
-A Hoofing It |QID|12539|PRE|12537 & 12538|N|From Zepik the Gorloc Hunter.|U|38512|
+A Hoofing It |QID|12539|PRE|12537&12538|N|From Zepik the Gorloc Hunter.|U|38512|
 
 T Crocolisk Mastery: The Ambush |QID|12569|N|To Debaar.|M|27.2,59.9|
 T The Taste Test |QID|12645|N|To Grimbooze Thunderbre.|M|26.8,60.1|
 
-A In Search of Bigger Game |QID|12595|PRE|12569 & 12556 & 12558|N|From Hemet Nesingwary.|M|27.1,58.6|
+A In Search of Bigger Game |QID|12595|PRE|12569&12556&12558|N|From Hemet Nesingwary.|M|27.1,58.6|
 T Hoofing It |QID|12539|N|To High-Shaman Rakjak, on Frenzyheart Hill.|M|55.00,69.16|
 
 A Just Following Orders |QID|12540|PRE|12539|N|From High-Shaman Rakjak.|M|55.0,69.1|
@@ -348,15 +348,15 @@ C Making Peace |QID|12573|N|Talk to the guy overlooking River's Heart.|M|51.32,6
 T The Part-time Hunter |QID|12654|N|To Tamara Wobblesprocket, at Lakeside Landing.|M|50.44,62.10|
 T Making Peace |QID|12573|N|To High-Oracle Soo-say, at Rainspeaker Canopy.|M|54.53,56.36|
 
-A Back So Soon? |QID|12574|PRE|12573 & 12572|N|From High-Oracle Soo-say.|M|54.6,56.3|
+A Back So Soon? |QID|12574|PRE|12573&12572|N|From High-Oracle Soo-say.|M|54.6,56.3|
 T Back So Soon? |QID|12574|N|To Mistcaller Soo-gan, at Mistwhisper Refuge, the place where you messed with the shrine. He's on the beach by the lake.|M|42.16,38.52|
 
 A The Lost Mistwhisper Treasure |QID|12575|PRE|12574|N|From Mistcaller Soo-gan.|M|42.1,38.6|
 A Forced Hand |QID|12576|PRE|12574|N|From Mistcaller Soo-gan.|M|42.1,38.6|
 T In Search of Bigger Game |QID|12595|N|To Dorian Drakestalker, at Dorian's Outpost.|M|42.42,28.68|
 
-A Sharpening Your Talons |QID|12603|PRE|12569 & 12556 & 12558|N|From Dorian Drakestalker.|M|42.3,28.7|
-A Securing the Bait |QID|12605|PRE|12569 & 12556 & 12558|N|From Dorian Drakestalker.|M|42.3,28.7|
+A Sharpening Your Talons |QID|12603|PRE|12569&12556&12558|N|From Dorian Drakestalker.|M|42.3,28.7|
+A Securing the Bait |QID|12605|PRE|12569&12556&12558|N|From Dorian Drakestalker.|M|42.3,28.7|
 A Burning to Help |QID|12683|N|From Colvin Norrington.|M|42.1,28.7|
 C Forced Hand |QID|12576|N|Kill Frenzyhearts in the area.|U|38623|S|
 C The Lost Mistwhisper Treasure |QID|12575|N|On the top level of the Spearborn Encampment. When you get near the treasure, Warlord Tartek will show up and attack you.|U|38623|M|41.61,19.60|
@@ -365,7 +365,7 @@ C Burning to Help |QID|12683|N|Dive into the lake; attack a Hyrda then use the s
 T The Lost Mistwhisper Treasure |QID|12575|N|To Mistcaller Soo-gan, at Mistwhisper Refuge.|M|42.16,38.52|
 T Forced Hand |QID|12576|N|To Mistcaller Soo-gan.|M|42.1,38.6|
 
-A Home Time! |QID|12577|PRE|12575 & 12576|N|From Mistcaller Soo-gan.|M|42.1,38.6|
+A Home Time! |QID|12577|PRE|12575&12576|N|From Mistcaller Soo-gan.|M|42.1,38.6|
 C Sharpening Your Talons |QID|12603|N|Kill Primordial Drakes.|S|
 C Securing the Bait |QID|12605|N|Collect 6 Primordial Hatchlings. Attack the eggs to spawn them.|M|44.7,27.4|
 C Sharpening Your Talons |QID|12603|N|Kill Primordial Drakes.|US|
@@ -373,10 +373,10 @@ T Sharpening Your Talons |QID|12603|N|To Dorian Drakestalker, at Dorian's Outpos
 T Securing the Bait |QID|12605|N|To Dorian Drakestalker.|M|42.3,28.7|
 T Burning to Help |QID|12683|N|To Colvin Norrington.|M|42.1,28.7|
 
-A Reagent Agent |QID|12681|PRE|12603 & 12605|N|From Colvin Norrington.|M|42.1,28.7|
+A Reagent Agent |QID|12681|PRE|12603&12605|N|From Colvin Norrington.|M|42.1,28.7|
 
-A A Mammoth Undertaking |QID|12607|PRE|12603 & 12605|M|42.1,28.9|N|From Zootfizzle.|
-A My Pet Roc |QID|12658|PRE|12603 & 12605|N|From Zootfizzle.|M|42.1,28.9|
+A A Mammoth Undertaking |QID|12607|PRE|12603&12605|M|42.1,28.9|N|From Zootfizzle.|
+A My Pet Roc |QID|12658|PRE|12603&12605|N|From Zootfizzle.|M|42.1,28.9|
 C Use the Harness |N|Pick a neutral Mammoth. Take it back to Zootfizzle and use Ability #1.|QID|12607|U|38627|
 T A Mammoth Undertaking |QID|12607|N|To Zootfizzle.|M|42.1,28.9|
 
@@ -420,7 +420,7 @@ C Salvaging Life's Strength |QID|12805|N|Kill the Lifeblood Elementals, then use
 C Lifeblood of the Mosswalker Shrine |QID|12579|N|Loot more shards.|M|68.9,54.6|US|
 T Lifeblood of the Mosswalker Shrine |QID|12579|N|Summon Moodle using Stress Ball.|U|38624|
 
-A A Hero's Burden |QID|12581|PRE|12579 & 12580|N|From Moodle.|U|38624|
+A A Hero's Burden |QID|12581|PRE|12579&12580|N|From Moodle.|U|38624|
 N A Hero's Burden |QID|12581|N|You may be able to solo this quest. If you want to do it now, go to the Sundered Shard and kill Artruis the Heartless at the end of the cave. This quest is used to choose a faction, Frenzyheart or Oracles. You have to save either the Gorlock or the Tanuki. You can redo this quest at any time, to switch back and forth between factions.|M|72.27,57.39|
 A Return of the Friendly Dryskin |QID|12695|PRE|12689|M|72.4,57.4|O|N|From Jaloot.|
 T Return of the Friendly Dryskin |QID|12695|M|54.4,56.4|O|N|To High-Oracle Soo-say. Unlocks Dailies for an acheivement.|
@@ -437,7 +437,7 @@ C Exterminate the Intruders |QID|12617|US|N|Finish killing Cultists.|M|56.21,41.
 T Exterminate the Intruders |QID|12617|N|To Avatar of Freya, at Rainspeaker Rapids |M|64.59,48.52|
 T Weapons of Destruction |QID|12660|N|To Avatar of Freya.|M|64.5,48.7|
 
-A The Lifewarden's Wrath |QID|12620|PRE|12617 & 12660|N|From Avatar of Freya.|M|64.5,48.7|
+A The Lifewarden's Wrath |QID|12620|PRE|12617&12660|N|From Avatar of Freya.|M|64.5,48.7|
 C The Lifewarden's Wrath |QID|12620|N|Top of the Glimmering Pillar; blow the horn.|U|38684|M|49.67,37.44|
 T The Lifewarden's Wrath |QID|12620|N|To Avatar of Freya, at Rainspeaker Rapids.|M|64.59,48.52|
 

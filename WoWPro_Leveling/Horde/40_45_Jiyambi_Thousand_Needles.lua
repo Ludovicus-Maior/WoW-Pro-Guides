@@ -119,7 +119,7 @@ T The Grimtotem are Coming|QID|25487|M|10.56,8.51|N|To Motega Firemane.|
 A Two If By Boat|QID|25489|PRE|25487|M|10.56,8.51|N|From Motega Firemane.|
 
 ;insert flight point get
-f Fizzle & Pozzik's Speedbarge|QID|25489|M|79.13,71.9|N|Get the flight point at Zazzik Boomride.|
+f Fizzle&Pozzik's Speedbarge|QID|25489|M|79.13,71.9|N|Get the flight point at Zazzik Boomride.|
 T Two If By Boat|QID|25489|M|75.94,74.68|N|To Pozzik. He can be found at the very top front room of the barge.|
 A Do Me a Favor?|QID|25505|PRE|25489|M|75.94,74.68|N|From Pozzik.|
 T Do Me a Favor?|QID|25505|M|77.16,74.47|N|To Razzeric.|
@@ -139,7 +139,7 @@ C In the Outhouse|QID|25526|U|54821|M|79.58,75.03|N|Use the crowbar on the outho
 T In the Outhouse|QID|25526|M|79.58,75.03|N|At the outhouse.|
 
 T Down in the Deeps|QID|25516|M|77.10,74.45|N|To Razzeric.|
-A Pirate Accuracy Increasing|QID|25533|PRE|25516 & 25518 & 25526|M|77.10,74.45|N|From Razzeric.|
+A Pirate Accuracy Increasing|QID|25533|PRE|25516&25518&25526|M|77.10,74.45|N|From Razzeric.|
 C Pirate Accuracy Increasing|QID|25533|M|79.18,76.61|N|Head to the dock and talk to the goblin there. He'll give you a boat that will act as a pet. Use the main ability to extinguish the fires - it's pretty difficult, just pe patient and aim for the base of the fires.|
 T Pirate Accuracy Increasing|QID|25533|N|(UI Alert)|
 A Circle the Wagons... er, Boats|QID|25543|PRE|25533|N|(UI Alert)|
@@ -188,8 +188,8 @@ C The Greatest Flavor in the World!|RANK|2|QID|28045|M|69.42,80.11|N|Swim down t
 C We All Scream for Ice Cream... and then Die!|RANK|2|NC|QID|28051|M|71.10,81.79|US|N|Right-click the dead employees to attach the rope to them.|
 T The Greatest Flavor in the World!|RANK|2|QID|28045|M|69.86,85.09|N|To Brivelthwerp, back on the surface.|
 T We All Scream for Ice Cream... and then Die!|RANK|2|QID|28051|M|69.89,85.11|N|To Brivelthwerp.|
-A Freezing the Pipes|RANK|2|QID|28047|PRE|28045 & 28051|M|69.89,85.11|N|From Brivelthwerp.|
-A That Smart One's Gotta Go|RANK|2|QID|28048|PRE|28045 & 28051|M|69.89,85.11|N|From Brivelthwerp.|
+A Freezing the Pipes|RANK|2|QID|28047|PRE|28045&28051|M|69.89,85.11|N|From Brivelthwerp.|
+A That Smart One's Gotta Go|RANK|2|QID|28048|PRE|28045&28051|M|69.89,85.11|N|From Brivelthwerp.|
 N First pipe|QID|28047|NC|U|62912|QO|1|M|65.95,86.41|N|Go to the bug tunnel under water to the east. First Pipe is here.|
 N Second pipe|QID|28047|NC|U|62912|QO|2|M|65.28,86.93|N|Second Pipe is here.|
 N Third pipe|QID|28047|NC|U|62912|QO|3|M|64.94,84.52|N|Third Pipe is here.|
@@ -224,7 +224,7 @@ C Defend the Drill|QID|25799|U|56011|M|90.16,51.56|N|Clear the area, then use th
 C Eminent Domain|QID|25797|M|87.43,50.48|US|N|Kill any remaining centaurs you need.|
 T Eminent Domain|QID|25797|M|88.61,54.92|N|To Riznek.|
 T Defend the Drill|QID|25799|M|88.61,54.92|N|To Riznek.|
-A Go Blow that Horn|QID|25814|PRE|25799 & 25797|M|88.61,54.92|N|From Riznek.|
+A Go Blow that Horn|QID|25814|PRE|25799&25797|M|88.61,54.92|N|From Riznek.|
 C Go Blow that Horn|QID|25814|M|89.44,46.97|N|Right-click the horn to summon the elemental, then kill him.|
 T Go Blow that Horn|QID|25814|M|88.58,54.94|N|To Riznek.|
 A Deliver the Goods|QID|25826|PRE|25814|M|88.58,54.94|N|From Riznek.|
@@ -232,7 +232,7 @@ A Deliver the Goods|QID|25826|PRE|25814|M|88.58,54.94|N|From Riznek.|
 T A Little Payback|RANK|2|QID|25589|M|78.23,73.60|N|To Rugfizzle, back on the barge.|
 T Quiet the Cannons|RANK|2|QID|25586|M|77.16,74.46|N|To Razzeric.|
 T Deliver the Goods|QID|25826|M|75.94,74.69|N|To Pozzik.|
-A Free Freewind Post|QID|25836|PRE|25704 & 25826|M|75.94,74.69|N|From Pozzik.|
+A Free Freewind Post|QID|25836|PRE|25704&25826|M|75.94,74.69|N|From Pozzik.|
 
 T Free Freewind Post|QID|25836|M|46.42,57.77|N|Get on your boat and head to Freewind Post. Turn in the quest to Thalia Amberhide.|
 A Grimtotem in the Post|QID|25870|PRE|25836|M|46.42,57.77|N|From Thalia Amberhide.|
@@ -282,7 +282,7 @@ T Darkcloud Grimtotem|QID|27313|N|To the Freewind Brave.|
 
 C Grimtotem Chiefs: The Chief of Chiefs|QID|27328|M|37.88,26.66|N|Kill Arnak Grimtotem.|
 T Grimtotem Chiefs: The Chief of Chiefs|QID|27328|M|37.88,26.60|N|To the Freewind Brave.|
-A The Captive Bride|QID|27358|PRE|27328 & 27321 & 27326|M|37.88,26.60|N|From the Freewind Brave.|
+A The Captive Bride|QID|27358|PRE|27328&27321&27326|M|37.88,26.60|N|From the Freewind Brave.|
 T The Captive Bride|QID|27358|M|39.12,25.84|N|To Lakota Windsong.|
 A Invoking the Serpent|QID|27330|PRE|27358|M|39.12,25.84|N|From Lakota Windsong.|
 
@@ -298,7 +298,7 @@ C Death to all Trappers!|QID|28087|M|10.38,33.91|N|Kill and loot the trappers, c
 C Free the Pridelings|QID|28086|NC|M|11.00,36.76|US|N|Right-click the baby wyverns to free them.|
 T Free the Pridelings|QID|28086|M|12.74,34.02|N|To Pao'ka Swiftmountain.|
 T Death to all Trappers!|QID|28087|M|12.76,34.00|N|To Pao'ka Swiftmountain.|
-A Release Heartrazor|QID|28088|PRE|28086 & 28087|M|12.76,34.00|N|From Pao'ka Swiftmountain.|
+A Release Heartrazor|QID|28088|PRE|28086&28087|M|12.76,34.00|N|From Pao'ka Swiftmountain.|
 C Release Heartrazor|QID|28088|M|17.93,41.00|N|Kill the Twilight's Hammer NPCs around Heartrazor to free him.|
 T Release Heartrazor|QID|28088|M|12.76,33.98|N|To Pao'ka Swiftmountain. You can jump off the cliff here again and use your riverboat as a shortcut.|
 A The Twilight Skymaster|QID|28098|PRE|28088|M|12.76,33.98|N|From Pao'ka Swiftmountain.|
@@ -314,8 +314,8 @@ C Break Them Out|QID|28127|M|30.17,57.63|N|Kill the jailors next to the cages to
 C Something to Wear|QID|28125|M|29.56,58.32|US|N|Keep killing and looting until you complete the quest.|
 T Something to Wear|QID|28125|M|30.46,49.31|N|To Lakota Windsong.|
 T Break Them Out|QID|28127|M|30.46,49.31|N|To Lakota Windsong.|
-A Codemaster's Code|QID|28139|PRE|28125 & 28127|M|30.46,49.31|N|From Lakota Windsong.|
-A Behind You!|QID|28136|PRE|28125 & 28127|M|30.43,49.31|N|From Lakota Windsong.|
+A Codemaster's Code|QID|28139|PRE|28125&28127|M|30.46,49.31|N|From Lakota Windsong.|
+A Behind You!|QID|28136|PRE|28125&28127|M|30.43,49.31|N|From Lakota Windsong.|
 ;fix QO
 K Fastfuse|QID|28136|U|63071|QO|2|M|30.13,54.17|N|Wear the Bulwark Disguise, then head up the tower at this location to assassinate Commander Fastfuse (talk to him).|
 K Elementalist Starion|QID|28136|U|63071|QO|3|M|28.02,57.11|N|Run over here and do the deed (talk to him).|
@@ -323,7 +323,7 @@ C Behind You!|QID|28136|QO|1|U|63071|M|31.22,59.61|N|Assassinate Codemaster Deet
 C Codemaster's Code|QID|28139|M|31.09,59.78|NC|N|Loot the code from the spinning device.|
 T Codemaster's Code|QID|28139|M|30.43,49.31|N|To Lakota Windsong.|
 T Behind You!|QID|28136|M|30.42,49.22|N|To Lakota Windsong.|
-A The Elder Crone|QID|28140|PRE|28139 & 28136|M|30.42,49.22|N|From Lakota Windsong.|
+A The Elder Crone|QID|28140|PRE|28139&28136|M|30.42,49.22|N|From Lakota Windsong.|
 C The Elder Crone|QID|28140|M|35.95,60.68|NC|N|Just click on the device in front of Magatha.|
 T The Elder Crone|QID|28140|N|(UI ALert)  Note: You will lose your disguise on turning this quest in.|
 A To the Withering|QID|28142|PRE|28140|N|(UI Alert)|
@@ -340,7 +340,7 @@ l Four Twilight Elements|QID|28157|QO|1|M|57.53,60.00|N|Up this tower you will f
 C Four Twilight Elements|QID|28157|QO|3|M|60.44,64.39|N|Finally get the Fire here.|
 T Four Twilight Elements|QID|28157|M|50.15,62.51|N|To Magatha Grimtotem.|
 T Unbound|QID|28158|M|50.15,62.51|N|To Magatha Grimtotem.|
-A The Doomstone|QID|28159|PRE|28157 & 28158|M|50.15,62.51|N|From Magatha Grimtotem.|
+A The Doomstone|QID|28159|PRE|28157&28158|M|50.15,62.51|N|From Magatha Grimtotem.|
 C The Doomstone|QID|28159|U|63104|M|54.60,62.69|N|Use the nullifier on Animus, then kill him and loot. Don't let him explode!|
 T The Doomstone|QID|28159|M|50.22,62.57|N|To Magatha Grimtotem.|
 A Spread the Word|QID|28161|PRE|28159|M|50.22,62.57|N|From Magatha Grimtotem.|

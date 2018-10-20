@@ -274,7 +274,7 @@ T At Your Command|QID|34558|M|69.88,20.81|N|To Foreman Eksos|
 
 ;Wrynn Arsenal: quest is The Quarry Quandary [QID 34563]
 ;Arcane Sanctum: quest is An Audience With The Archmage [QID 34631]
-A Next Quest |QID|34563^34631|PRE|34561 & 34560 & 34558|N|From Foreman Eksos.\n\nIf you built Wrynn Arsenal, accept The Quarry Quandary.\nIf you built Arcane Sanctum, accept An Audience With The Archmage.|M|69.88,20.81|
+A Next Quest |QID|34563^34631|PRE|34561&34560&34558|N|From Foreman Eksos.\n\nIf you built Wrynn Arsenal, accept The Quarry Quandary.\nIf you built Arcane Sanctum, accept An Audience With The Archmage.|M|69.88,20.81|
 h Fort Wrynn|QID|34563^34631|M|69.73,21.77|Z|Talador|N|With Olivia Abbington.|
 
 ; Artillery Tower
@@ -307,7 +307,7 @@ C Gas Guzzlers|QID|34624|M|75.4,22|N|Kill the Glowgullets, then use your 'Goren 
 T Iridium Recovery|QID|34573|M|70.15,20.11|N|To Miall|
 T Out of Jovite|QID|34571|N|To Mial.|M|70.90,30.49|
 T Gas Guzzlers|QID|34624|M|70.15,20.11|N|To Miall|
-A Going to the Gordunni|QID|34578|M|70.15,20.11|N|From Miall|PRE|34573 & 34571 & 34624|
+A Going to the Gordunni|QID|34578|M|70.15,20.11|N|From Miall|PRE|34573&34571&34624|
 
 ; [aldavor] moved arcane sanctum quests to here.
 ; Mage Tower
@@ -330,7 +330,7 @@ T Creating the Ink|QID|34609|M|0,0|N|To Magister Serena|
 T Forming the Scroll|QID|34612|M|0,0|N|To Magister Serena|
 T Gathering the Spark|QID|34619|M|0,0|N|To Magister Serena|
 
-A Next Steps|QID|34875|PRE|34609 & 34612 & 34619|M|0,0|N|From Magister Serena|
+A Next Steps|QID|34875|PRE|34609&34612&34619|M|0,0|N|From Magister Serena|
 H Fort Wrynn|QID|34875|M|69.73,21.77|N|Hearth back to Fort Wrynn|ACTIVE|34875|
 T Next Steps|QID|34875|M|69.6,21.1|N|To Magister Serena|
 A The Foot of the Fortress|QID|34908|PRE|34875|M|69.6,21.1|N|From Magister Serena|
@@ -362,7 +362,7 @@ C Dust of the Dead|QID|33872|M|65.52,51.95;70.81,55.13|CN|N|Kill the moths and l
 C Cure of Aruunem|QID|33873|M|65.52,51.95;70.81,55.13|CN|NC|US|N|These are growing in the area.|
 T Dust of the Dead|QID|33872|M|65.43,50.73|N|To Seer Malune.|
 T Cure of Aruunem|QID|33873|M|65.43,50.73|N|To Seer Malune.|
-A Aruumel's Rest|QID|33874|M|65.43,50.73|N|From Seer Malune.|PRE|33872 & 33873|
+A Aruumel's Rest|QID|33874|M|65.43,50.73|N|From Seer Malune.|PRE|33872&33873|
 C Aruumel's Rest|QID|33874|M|69.03,55.28|T|Aruumel|U|108749|N|Unless you want to fight your way there, wait to use the elixer until you arrive at the green dot.  Use it and then kill Aruumel.|
 f Terokkar Refuge|QID|33874|M|70.34,57.10|N|At Skytalon Inuz, just up the hill.|
 T Aruumel's Rest|QID|33874|M|65.43,50.73|N|To Seer Malune.|
@@ -375,7 +375,7 @@ C Clear!|QID|34761|M|61.39,44.41;72.54,53.57;66.89,59.55|CN|N|Kill and loot the 
 T Clear!|QID|34761|M|62.86,50.32|N|To Torben Zapblast|
 
 ; quest requires garrison (flag qid 36797)
-A New Owner|QID|35239|PRE|34761 & 36797|M|62.89,50.46|N|From Pleasure-Bot 8000. This will appear about 15 seconds after a little dialog from Torben Zapblast.|
+A New Owner|QID|35239|PRE|34761&36797|M|62.89,50.46|N|From Pleasure-Bot 8000. This will appear about 15 seconds after a little dialog from Torben Zapblast.|
 T New Owner|QID|35239|M|62.89,50.46|N|To Pleasure-Bot 8000|
 
 A A Pilgrimage Gone Awry|QID|34802|M|61.4,54.3|N|From Nadur|RANK|2|
@@ -420,7 +420,7 @@ C While We're in the Neighborhood|QID|34909|PRE|34908|M|66.10,80.70|N|From Gordu
 T While We're in the Neighborhood|QID|34909|M|0,0|N|To Magister Serena who is with you.|
 T Orbs of Power|QID|34911|M|0,0|N|To Magister Serena who is with you.|
 
-A The Final Step|QID|34912|PRE|34909 & 34910 & 34911|M|0,0|N|From Magister Serena who stands by your side whilst in Gordal Fortress.|
+A The Final Step|QID|34912|PRE|34909&34910&34911|M|0,0|N|From Magister Serena who stands by your side whilst in Gordal Fortress.|
 $ Iron Box |QID|34251|ACTIVE|34912|M|64.58,79.20|N|**Rare Loot**\nLoot the Iron Box inside the hut to the right of the final steps|
 C The Final Step|QID|34912|QO|1|M|64.00,81.75|N|Run to the top of the stairs, then attack Witch Lord Morkurk. Pay attention to the HUD alerts to use the Mass Teleportation scroll and to get into the dome shield.|
 C The Final Step|QID|34912|QO|2|M|64.25,81.79|N|Loot the Arcane Nexus|NC|
@@ -430,7 +430,7 @@ A Due Cause to Celebrate|QID|34711|PRE|34912|M|0,0|N|From Magister Serena|
 T Due Cause to Celebrate|QID|34711|M|69.74,20.78|N|Wait to be teleported back to Fort Wrynn. To Magister Serena|
 
 ; [aldavor] this is to add her as a follower. Garrison required to get the follower (36797)
-A Joining the Ranks|QID|34993|PRE|34711 & 36797|M|9.74,20.78|N|From Magister Serena|RANK|2|
+A Joining the Ranks|QID|34993|PRE|34711&36797|M|9.74,20.78|N|From Magister Serena|RANK|2|
 T Joining the Ranks|QID|34993|M|9.74,20.78|N|To Magister Serena|
 
 ; These quests NOT part of having the Arcane Sanctum.
@@ -460,13 +460,13 @@ t Punching Through|QID|34979|N|To Miall, who is next to you|PRE|34578|
 t Prized Repossessions|QID|34978|N|To Miall, who is next to you|PRE|34578|
 t Supply Recovery|QID|34977|N|To Miall, who is next to you|PRE|34578|
 
-A The Lord of the Gordunni|QID|34980|N|To Miall, who is next to you|PRE|34979 & 34978 & 34977|
+A The Lord of the Gordunni|QID|34980|N|To Miall, who is next to you|PRE|34979&34978&34977|
 K Witch Lord Morkurk|ACTIVE|34980|M|64.0,81.8|QO|1|T|Witch Lord Morkurk|U|112307|PRE|34578|
 T The Lord of the Gordunni|QID|34980|N|To Miall, who is next to you|PRE|34578|
 A The Only Way to Travel|QID|34981|N|To Miall, who is next to you|PRE|34980|
 T The Only Way to Travel|QID|34981|M|69.78,20.74|N|To Miall|PRE|34578|
 ; Next quest requires garrison (36797)
-A Armor Up|QID|34982|M|69.8,20.8|N|From Miall|RANK|2|PRE|34981 & 36797|
+A Armor Up|QID|34982|M|69.8,20.8|N|From Miall|RANK|2|PRE|34981&36797|
 T Armor Up|QID|34982|M|69.8,20.8|N|To Miall|PRE|34578|
 ; [aldavor] Above Block for other comment to here are NOT part of Arcane Sanctum.
 
@@ -550,7 +550,7 @@ A Iron Them Out|QID|34095|PRE|34089|M|63.06,25.84|N|From Yrel|
 T Thaelin's Quick Fix|QID|34090|M|63.08,26.12|N|To Thaelin Darkanvil|
 T Decommissioned Mission|QID|34091|M|63.08,26.12|N|To Thaelin Darkanvil|
 N Vol. X Pages ?|QID|34094|N|Click off this step.  This is a pause to allow the next quest to load.|
-A Vol. X Pages ?|QID|34094|PRE|34090 & 34091|M|63.08,26.12|N|From Thaelin Darkanvil|
+A Vol. X Pages ?|QID|34094|PRE|34090&34091|M|63.08,26.12|N|From Thaelin Darkanvil|
 
 C Vol. X Pages ?|QID|34094|M|54.2,22.2|N|Kill orcs at the Archenon Siegeyard to get the pages.|S|
 C Iron Them Out|QID|34095|M|57.05,29.30|N|Click on glowing tanks to destroy.|
@@ -572,7 +572,7 @@ T Iron Them Out|QID|34095|M|63.06,25.84|N|To Yrel|
 T Dreadpiston|QID|34959|M|63.04,25.89|N|To Vindicator Maraad|
 T Vol. X Pages ?|QID|34094|M|63.08,26.12|N|To Thaelin Darkanvil|
 
-A An Eye for a Spy|QID|34096|PRE|34094 & 34095 & 34959|M|63.08,26.12|N|From Thaelin Darkanvil|
+A An Eye for a Spy|QID|34096|PRE|34094&34095&34959|M|63.08,26.12|N|From Thaelin Darkanvil|
 C An Eye for a Spy|QID|34096|M|63.08,26.12|QO|1|N|Take a peek|
 T An Eye for a Spy|QID|34096|M|63.08,26.12|N|To Thaelin Darkanvil|
 A Born to Shred|QID|34097|PRE|34096|M|63.08,26.12|N|From Thaelin Darkanvil|
@@ -622,7 +622,7 @@ T Disrupting the Flow|QID|33917|M|56.7,66.0|N|To Vindicator Nobundo|
 T The Heart of Auchindoun|QID|33920|M|56.51,67.13|N|To Soulbinder Nyami|
 T Holding the Line|QID|34407|M|55.64,67.70|N|To Exarch Maladaar|
 
-A Light's Rest|QID|34452|PRE|33530 & 34351|M|55.64,67.70|N|From Exarch Maladaar|
+A Light's Rest|QID|34452|PRE|33530&34351|M|55.64,67.70|N|From Exarch Maladaar|
 R Light's Rest|ACTIVE|34452|M|57.23,77.05|N|Get on your hog and ride out.|
 T Light's Rest|QID|34452|M|57.23,77.05|N|To Exarch Maladaar|
 
@@ -639,7 +639,7 @@ T Antivenin|QID|33967|M|57.23,76.91|N|To Soulbinder Tuulani|
 T Into the Hollow|QID|33958|M|57.18,76.94|N|To Soulbinder Nyami|
 T Vile Defilers|QID|33969|M|57.56,76.69|N|To Vindicator Namuun|
 
-A Scheduled Pickup|QID|34240|PRE|33969 & 33958 & 33967|M|57.23,77.05|N|From Exarch Maladaar|
+A Scheduled Pickup|QID|34240|PRE|33969&33958&33967|M|57.23,77.05|N|From Exarch Maladaar|
 T Scheduled Pickup|QID|34240|M|50.42,87.51|N|To Soulbinder Tuulani|
 A Restalaan, Captain of the Guard|QID|34508|PRE|34240^34242|M|50.4,87.5|N|From Soulbinder Tuulani|
 A Never Forget|QID|34013|M|50.52,87.55|PRE|34240^34242|N|From Defender Artaal|
@@ -681,14 +681,14 @@ T Desperate Measures|QID|34092|M|43.43,75.95|N|To Restalaan|
 
 T Ogre Diplomacy|QID|35227|M|42.91,76.11|N|To Exarch Maladaar|
 A Into the Heart of Madness|QID|34157|PRE|34092|M|42.91,76.11|N|From Exarch Maladaar|
-A Retribution for the Light|QID|35254|PRE|34092 & 35227|M|42.91,76.11|N|From Exarch Maladaar|
+A Retribution for the Light|QID|35254|PRE|34092&35227|M|42.91,76.11|N|From Exarch Maladaar|
 A Hiding in the Shadows|QID|34163|M|37.25,79.39|N|From Shadow Council Communicator| ; PRE [34092;35227A+34122H] and first of pre chain are [34561+34560;34558]
 
 C Gul'rok Demons|QID|35254|M|33.6,74.4|S|QO|1|N|Kill demons in the area.|
 C Eastern Shadow Orb|QID|34163|M|37.78,77.32|QO|1|N|Up the orge tower.|
 C Southern Shadow Orb|QID|34163|M|35.62,79.84|QO|2|
 
-A Book Burning|QID|34164|PRE|34092 & 35227|M|34.01,73.97|N|From Kor'thos Dawnfury|
+A Book Burning|QID|34164|PRE|34092&35227|M|34.01,73.97|N|From Kor'thos Dawnfury|
 C Book Burning|QID|34164|S|QO|1|T|Shadowborne Dementor|N|Kill Dementors and loot their books.  Then burn them by Kor'thos.  They hide in the buildings and on the 2nd level.|
 C Northern Shadow Orb|QID|34163|M|34.46,70.39|QO|3|
 T Hiding in the Shadows|QID|34163|M|0,0|N|To UI|
@@ -721,7 +721,7 @@ K Vindicator Dalu|ACTIVE|34777|QO|1|CHAT|N|Challenge him alone or with the other
 K Soulbinder Halaari|ACTIVE|34777|QO|2|CHAT|N|Challenge him alone or with the other if you have artilletry strike.|
 T Gatekeepers of Auchindoun|QID|34777|M|57.42,51.12|N|To Defender Illona|
 ; Requires Garrison
-A The True Path|QID|36519|PRE|34777 & 36797|M|57.42,51.12|N|From Defender Illona (to get her as a follower)|
+A The True Path|QID|36519|PRE|34777&36797|M|57.42,51.12|N|From Defender Illona (to get her as a follower)|
 T The True Path|QID|36519|M|57.42,51.12|N|To Defender Illona|
 
 T Every Bit Counts|QID|34709|M|49.89,56.16|N|To Ageilaa|
@@ -737,7 +737,7 @@ C Arcane Essence|QID|34403|M|53.31,50.31|N|Kill Crystal Ragers and Arcane Wraith
 C Caught In The Chaos|QID|34406|M|52.34,47.89|US|NC|N|The miners are everywhere.|
 T Arcane Essence|QID|34403|M|51.65,50.51|N|From Archmage Elandra.|
 T Caught In The Chaos|QID|34406|M|51.65,50.51|N|From Archmage Elandra.|
-A An'dure The Giant|QID|34415|PRE|34403 & 34406|M|51.65,50.51|N|From Archmage Elandra.|
+A An'dure The Giant|QID|34415|PRE|34403&34406|M|51.65,50.51|N|From Archmage Elandra.|
 C An'dure The Giant|QID|34415|M|54.31,49.90|T|An'dure the Awakened|
 T An'dure The Giant|QID|34415|M|51.65,50.51|N|From Archmage Elandra.|
 A Kaelynara Sunchaser|QID|34448|PRE|34415|M|51.65,50.51|N|From Archmage Elandra.|

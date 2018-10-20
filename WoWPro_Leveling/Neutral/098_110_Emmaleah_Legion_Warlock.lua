@@ -136,7 +136,7 @@ T The New Blood|QID|40729|M|55.74,65.38|Z|The Underbelly!Dalaran!Dungeon!Broken 
 A The Tome of Blighted Implements|QID|40684|M|55.74,65.38|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|From Calydus.|PRE|40729|
 C The Tome of Blighted Implements|QID|40684|QO|1|M|55.87,65.36|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
 T The Tome of Blighted Implements|QID|40684|M|55.87,65.36|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|To Calydus.|
-A Artifact Specific Quest|QID|43100^40495^42128|M|55.87,65.36|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|From Calydus.|PRE|40684 & 40686|
+A Artifact Specific Quest|QID|43100^40495^42128|M|55.87,65.36|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|From Calydus.|PRE|40684&40686|
 
 ;AFFLICTION
 ;A Ulthalesh, the Deadwind Harvester|QID|40495|M|55.70,65.40|Z|Dalaran!Dalaran!Dungeon|N|From Calydus.|PRE|40684|
@@ -387,7 +387,7 @@ t Vault of the Wardens: Matters of the Heart|QID|42660|M|54.14,34.86|N|To Kira I
 t Unparalleled Power|QID|44682|M|67.00,46.42|N|To Gakin the Darkbinder.|
 t One Who's Worthy|QID|42102|M|55.07,37.38|N|From Ritssyn Flamescowl.|
 
-A Finding Fizzlebang|QID|41785|PRE|42102 & 44682|LVL|110|M|55.07,37.38|N|From Ritssyn Flamescowl.|
+A Finding Fizzlebang|QID|41785|PRE|42102&44682|LVL|110|M|55.07,37.38|N|From Ritssyn Flamescowl.|
 P Dalaran|ACTIVE|41785|M|72.43,37.45|N|Take the portal to Dalaran.|
 R Krasus' Landing|ACTIVE|41785|M|60.36,44.53|Z|Dalaran!Dalaran!Dungeon|N|Run out and up to Krasus' Landing|
 F Forsaken Foothold|ACTIVE|41785|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|N|At Aladune Whitecloud.|FACTION|HORDE|
@@ -401,7 +401,7 @@ C Coercing a Confession|QID|41788|M|36.42,38.55|Z|Stormheim|QO|1|CHAT|T|Galius M
 C Someone Else's Mess|QID|41787|M|37.85,38.80|Z|Stormheim|US|QO|1|N|Use Orb to banish demons|
 T Coercing a Confession|QID|41788|M|39.37,42.24|Z|Stormheim|N|To Lulubelle Fizzlebang.(who stayed at the Enchantresses hut.|
 T Someone Else's Mess|QID|41787|M|39.37,42.24|Z|Stormheim|N|To Lulubelle Fizzlebang.|
-A Lulubelle on Loan|QID|41793|PRE|41787 & 41788|LVL|110|M|39.31,42.20|Z|Stormheim|N|From Lulubelle Fizzlebang.|
+A Lulubelle on Loan|QID|41793|PRE|41787&41788|LVL|110|M|39.31,42.20|Z|Stormheim|N|From Lulubelle Fizzlebang.|
 H Dalaran|QID|41793|ACTIVE|41793|U|140192|N|Use your Dalaran Hearthstone and then run back to your order hall to turn in.|
 T Lulubelle on Loan|QID|41793|M|55.07,37.38|N|To Ritssyn Flamescowl.|
 A Champion: Lulubelle Fizzlebang|QID|41755|PRE|41793|M|54.42,39.37|N|Recruit Lulubelle Fizzlebang.|
@@ -491,7 +491,7 @@ R Black Temple|ACTIVE|44481^44496^44497|QO|1|M|72.93,44.11|Z|Shadowmoon Valley|N
 C Destiny Unfulfilled|QID|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|NC|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
 F Dalaran|ACTIVE|44481^44496^44497|U|140192|N|Return to Dalaran, via your favourite method.|
 T Destiny Unfulfilled|QID|44481^44496^44497|M|53.53,33.06|N|Return to Light's Heart in your order hall.|
-A The Hunt for Illidan Stormrage|QID|45174|M|53.53,33.06|N|From Light's Heart.|PRE|44481 & 44496 & 44497|
+A The Hunt for Illidan Stormrage|QID|45174|M|53.53,33.06|N|From Light's Heart.|PRE|44481&44496&44497|
 P Dalaran|QID|45174|M|72.43,37.45|N|Take the portal to Dalaran.|ACTIVE|45174|
 R Krasus' Landing|ACTIVE|45174|M|60.36,44.53|Z|Dalaran!Dalaran!Dungeon|N|Run out and up to Krasus' Landing|
 F Illidari Stand|ACTIVE|45174|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|N|At Aladune Whitecloud.|

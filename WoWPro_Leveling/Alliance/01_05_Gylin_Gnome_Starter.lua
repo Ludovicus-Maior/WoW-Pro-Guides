@@ -349,7 +349,7 @@ C Get Me Explosives Back!|QID|26285|M|37.75,73.50|N|Kill and loot the Rockjaw Bo
 T Get Me Explosives Back!|QID|26285|M|37.28,65.20|N|To Jessup McCree|
 T Missing in Action|QID|26284|M|37.28,65.20|N|To Jessup McCree|
 
-A Finishin' the Job|QID|26318|N|From Jessup McCree.|M|37.28,65.20|PRE|26285 & 26284|
+A Finishin' the Job|QID|26318|N|From Jessup McCree.|M|37.28,65.20|PRE|26285&26284|
 C Finishin' the Job - Boss Bruggor|QID|26318|N|Kill Boss Bruggor|QO|2|M|29.15,48.45|T|Boss Bruggor|S|
 C Finishin' the Job - Detonator|QID|26318|N|Enter the cavern to the west, then go through the cave to the detonator, then use the detonator.|QO|1|M|29.15,48.45|NC|
 C Finishin' the Job - Boss Bruggor|QID|26318|N|Kill Boss Bruggor|QO|2|M|29.15,48.45|T|Boss Bruggor|US|
@@ -366,7 +366,7 @@ C Crushcog's Minions|QID|26331|M|57.20,19.37|N|Kill  Crushcog's Minions (Irradia
 T Crushcog's Minions|QID|26331|M|38.72,32.74|N|To High Tinker Mekkatorque.|NC|
 T No Tanks!|QID|26333|M|38.19,33.68|N|To Hinkles Fastblast.|
 
-A Staging in Brewnall|QID|26339|N|From Kelsey Steelspark.|M|38.03,33.56|PRE|26331 & 26333|
+A Staging in Brewnall|QID|26339|N|From Kelsey Steelspark.|M|38.03,33.56|PRE|26331&26333|
 T Staging in Brewnall|QID|26339|M|48.75,52.90|N|Follow the road southeast to Jarvi Shadowstep.|
 
 A Paint it Black|PRE|26339|QID|26342|M|48.75,52.90|N|From Jarvi Shadowstep.|

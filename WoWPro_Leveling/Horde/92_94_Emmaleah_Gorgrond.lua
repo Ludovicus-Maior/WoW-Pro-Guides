@@ -231,7 +231,7 @@ C Goren, Goren, Gone!|QID|33544|M|40.96,73.87|US|
 T Goren, Goren, Gone!|QID|33544|M|40.96,73.87|N|To UI Alert.|
 T We Die Laughing!|QID|33548|M|41.45,74.10|N|To Kaz the Shrieker.|
 T Eye Candy|QID|33563|M|41.48,74.14|N|To Limbflayer.|
-A A Flare for the Dramatic|QID|33593|PRE|33548 & 33544 & 33563|M|41.49,74.08|N|From Durotan.|
+A A Flare for the Dramatic|QID|33593|PRE|33548&33544&33563|M|41.49,74.08|N|From Durotan.|
 C A Flare for the Dramatic|QID|33593|M|41.48,74.09|NC|N|Use the flare gun.|U|115534| ;add U tag
 T A Flare for the Dramatic|QID|33593|M|41.49,74.07|N|To Durotan.|
 A Penny From Heaven|QID|36434|PRE|33593|M|41.49,74.07|N|From Durotan.|
@@ -268,7 +268,7 @@ C A Harsh Reminder|QID|35248|M|44.49,64.66|N|Finish with the mobs if you havent 
 C Seedbearers of Bad News|QID|35035|NC|U|114967|M|45.53,64.80|N|Click on the ground spawn 'ancient seedbearers'.|US|
 T A Harsh Reminder|QID|35248|M|43.56,65.02|N|To Bony Xuk.|
 T Seedbearers of Bad News|QID|35035|M|43.56,65.02|N|To Bony Xuk.|
-A We Have Company|QID|35025|M|43.56,65.02|N|From Bony Xuk.|PRE|35248 & 35035|
+A We Have Company|QID|35025|M|43.56,65.02|N|From Bony Xuk.|PRE|35248&35035|
 C We Have Company|QID|35025|M|44.18,61.70|QO|1|CHAT|N|Click on 'Nisha', the big blue bird by the fire.|
 C We Have Company|QID|35025|M|44.18,61.70|N|Fight the goren that appear, then watch a short scripted event.|
 T We Have Company|QID|35025|M|44.28,61.64|N|To Rexxar.|
@@ -300,7 +300,7 @@ $ Odd Boulder|QID|36730|M|48.11,55.16|N|Call Beatface (click on the rock) to exp
 C Xuk Me, Right?|QID|35202|M|45.34,52.26|S|N|Kill and loot the Goren running amok.|
 C What the Bony Xuk?|QID|35038|NC|M|44.03,53.02|S|N|From the Longtooth Gorger corpses lying around.|
 K Gronnslaver Raz|QID|35037|M|47.7,52|QO|2|T|Gronnslaver Raz|ACTIVE|35037|
-A The Gronn Strategy|QID|35925|PRE|35026 & 35870|M|47.73,52.07|N|From Weaponization Orders.|ACTIVE|35934|
+A The Gronn Strategy|QID|35925|PRE|35026&35870|M|47.73,52.07|N|From Weaponization Orders.|ACTIVE|35934|
 $ Suntouched Spear|QID|36610|PRE|35880|M|45.7,49.7|QO|1|N|Run out of Raz's camp and towards the waypoint, then drop down to the ledge about 15 feet below, Wait here for Charl Doomwing to fly overhead to get that one.|ITEM|118718|RANK|3|
 K Charl Doomwing|QID|35815|M|46.0,46.8|PRE|35880|T|Charl Doomwing|L|113456|N|This is an elite mob, it is meant to be killed in a group. Kill and loot item for a bonus quest.|RANK|3|
 A Trophy of Glory: Charl Doomwing|QID|35815|M|46.0,46.8|O|U|113456|N|From 'Fang of the Doomwing' you just looted.|PRE|35151|
@@ -313,7 +313,7 @@ T Xuk Me, Right?|QID|35202|M|46.20,55.09|N|To Bony Xuk.|
 T The Gronn Strategy|QID|35925|M|46.04,54.74|N|To Rexxar.|
 T Bad at Breaking|QID|35037|M|46.04,54.74|N|To Rexxar.|
 T Nisha's Vengeance|QID|35934|M|46.04,54.74|N|To Rexxar.|
-A Xuk It!|QID|35041|M|46.20,55.09|N|From Bony Xuk.|PRE|35038 & 35202|
+A Xuk It!|QID|35041|M|46.20,55.09|N|From Bony Xuk.|PRE|35038&35202|
 C Xuk It!|QID|35041|NC|U|112958|QO|1|M|46.9,55.4|N|Use goran disguise, and then click the mound of dirt.|
 C Xuk It!|QID|35041|NC|QO|2;3|M|45.8,50.4|N|Click on the dead rylak, and then the mound of dirt under him.|
 C Xuk It!|QID|35041|NC|QO|4|N|This one is automatic, I guess you didn't like the looks of this spot.|
@@ -379,10 +379,10 @@ C The Infested|QID|35400|M|47.35,73.38|US|
 T Mossy Fate|QID|35399|M|46.59,71.52|N|To Kaz the Shrieker.|
 T The Voice of Iyu|QID|35402|M|46.59,71.52|N|To Kaz the Shrieker.|
 T Super Seeds|QID|35406|M|46.59,71.52|N|To Kaz the Shrieker.|
-A Cutter|QID|35430|M|46.59,71.52|N|From Kaz the Shrieker.|PRE|35406 & 35400 & 35402 & 35399|
-A Pollen Power|QID|35429|M|46.58,71.52|N|From Kaz the Shrieker.|PRE|35406 & 35402|
+A Cutter|QID|35430|M|46.59,71.52|N|From Kaz the Shrieker.|PRE|35406&35400&35402&35399|
+A Pollen Power|QID|35429|M|46.58,71.52|N|From Kaz the Shrieker.|PRE|35406&35402|
 T The Infested|QID|35400|M|46.58,71.47|N|To Draka.|
-A Bushwhacker|QID|35432|M|46.58,71.47|N|From Draka.|PRE|35402 & 35406|
+A Bushwhacker|QID|35432|M|46.58,71.47|N|From Draka.|PRE|35402&35406|
 $ Hardened Thornvine|QID|36714|ACTIVE|35707|M|47.66,76.78|N|Use Shredder (click on the vines) to expose the Mysterious Petrified Pod|RANK|3|;21 - Deeproot
 C Pollen Power|QID|35429|M|44.94,81.70|N|These drop from the wasps (Golden Pollinators) and the Ravagers just outside of Evermorn Springs. Collect as you travel along the road outside of Evermorn on the way to Cutter.|S|
 R Evermorn Springs|QID|35430^36037|M|44.95,79.09|
@@ -403,13 +403,13 @@ K Berthora|QID|36597|M|39.74,76.31|L|118232|N|Kill and loot for an ilvl 532 Mail
 C We Burn the Dead|QID|35487|M|43.84,81.04|US|N|Go back to Evermorn and finish up burning the bodies.|
 T A Green Ogron?|QID|36482|M|0,0|N|To Cutter who is following you around.|
 T We Burn the Dead|QID|35487|M|0,0|N|To Cutter.|
-A Secrets of the Botani|QID|35536|M|0,0|N|From Cutter.|PRE|35487 & 36482|
+A Secrets of the Botani|QID|35536|M|0,0|N|From Cutter.|PRE|35487&36482|
 C Bushwhacker|QID|35432|M|41.87,82.98|US|
 T Secrets of the Botani|QID|35536|M|42.05,85.89|N|To Kaz the Shrieker.|
 T Pollen Power|QID|35429|M|42.05,85.89|N|To Kaz the Shrieker.|
 T Bushwhacker|QID|35432|M|42.05,85.85|N|To Draka.|
-A Cut Them Down|QID|35433|M|42.05,85.85|N|From Draka.|PRE|35536 & 35429 & 35432|
-A The Life Spring|QID|35434|M|42.06,85.90|N|From Kaz the Shrieker.|PRE|35536 & 35429 & 35432|
+A Cut Them Down|QID|35433|M|42.05,85.85|N|From Draka.|PRE|35536&35429&35432|
+A The Life Spring|QID|35434|M|42.06,85.90|N|From Kaz the Shrieker.|PRE|35536&35429&35432|
 
 R Evermorn Rise|QID|35434^36037|M|40.06,83.27|
 C Cut Them Down|QID|35433|M|39.81,80.80|S|
@@ -419,7 +419,7 @@ K Riptar|QID|36600|L|118231|M|37.57,81.4|T|Riptar|N|Kill and loot for an ilvl 53
 C Cut Them Down|QID|35433|M|39.81,80.80|US|
 T Cut Them Down|QID|35433|M|42.06,85.83|N|To Draka.|
 T The Life Spring|QID|35434|M|42.06,85.93|N|To Kaz the Shrieker.|
-A Thieving Dwarves|QID|36488|M|42.06,85.91|N|From Kaz the Shrieker.|PRE|35434 & 35433|
+A Thieving Dwarves|QID|36488|M|42.06,85.91|N|From Kaz the Shrieker.|PRE|35434&35433|
 f Evermorn Springs|QID|35468^36037|M|41.32,87.16|N|At Chucklespine.|
 R The Destroyed Expedition|QID|36037|M|44.86,86.72|N|This is to pick up a follower, if followers don't interest you following the road east to Bastion Rise is more direct.|RANK|2|
 A A Centurion Without a Cause|QID|36037|M|44.86,86.72|RANK|2|N|Assist Centurian Tormark with the waves of mobs. The final mob is Woodfist.  When they are defeated, wait a few seconds and he will offer to be your follower. Its safer to run back to Evermorn Rise (where you just got the flight path) and run on to Bastion Rise from there, but you can go from here, just more mobs in the way.|
@@ -450,7 +450,7 @@ C Will of the Genesaur|QID|35509|M|48.31,94.25|N|Loot the chest.|
 T Doomshot|QID|35501|M|47.90,94.25|N|To Weapon Loader.|
 T Will of the Genesaur|QID|35509|M|48.05,94.16|N|To Cutter. Appears behind you.|
 T Down the Goren Hole|QID|35507|M|48.05,94.163|N|To Cutter.|
-A Iyu|QID|35510|M|48.05,94.16|N|From Cutter.|PRE|35507 & 35509 & 35501|
+A Iyu|QID|35510|M|48.05,94.16|N|From Cutter.|PRE|35507&35509&35501|
 C Iyu|QID|35510|M|47.41,92.35|N|Run back outside of the Bastion and defeat Iyu.|T|Iyu|
 T Iyu|QID|35510|M|47.71,93.31|N|To Draka.|
 A Power of the Genesaur|QID|35416|M|47.71,93.31|N|From Draka.|PRE|35510|
@@ -501,15 +501,15 @@ C Basic Skulltaking|QID|35016|US|NC|M|56.69,62.32|N|Finish up scavenging skulls.
 T Basic Skulltaking|QID|35016|M|57.20,61.95|N|To Grulkor.|
 T Skulltaker's Revenge|QID|35017|M|57.20,61.95|N|To Grulkor.|
 T Mysterious Pod|QID|35021|M|57.2,61.95|N|To Grulkor.|
-A Clearing the Way|QID|35027|M|57.20,61.95|N|From Grulkor.|PRE|35016 & 35017 & 35021|RANK|2|
-A The Secret of the Fungus|QID|35029|M|57.20,61.95|N|From Grulkor.|PRE|35016 & 35017 & 35021|RANK|2|
+A Clearing the Way|QID|35027|M|57.20,61.95|N|From Grulkor.|PRE|35016&35017&35021|RANK|2|
+A The Secret of the Fungus|QID|35029|M|57.20,61.95|N|From Grulkor.|PRE|35016&35017&35021|RANK|2|
 C The Secret of the Fungus|QID|35029|M|56.30,59.27|S|NC|N|Click on the mushrooms to pick them up.|
 C Clearing the Way|QID|35027|M|56.60,59.42|N|Kill Fungus Covered Shamblers.|
 C The Secret of the Fungus|QID|35029|M|56.30,59.27|US|NC|N|Finish picking up mushrooms.|
 T Clearing the Way|QID|35027|M|57.21,61.95|N|To Grulkor.|
 T The Secret of the Fungus|QID|35029|M|57.21,61.95|N|To Grulkor.|
-A A Grim Harvest|QID|35030|M|57.21,61.95|N|From Grulkor.|PRE|35027 & 35029|RANK|2|
-A A Heartfelt Search|QID|35031|M|57.21,61.95|N|From Grulkor.|PRE|35027 & 35029|RANK|2|
+A A Grim Harvest|QID|35030|M|57.21,61.95|N|From Grulkor.|PRE|35027&35029|RANK|2|
+A A Heartfelt Search|QID|35031|M|57.21,61.95|N|From Grulkor.|PRE|35027&35029|RANK|2|
 C A Grim Harvest|QID|35030|M|59.81,63.17|S|N|These are dropped by the Fungal Stompers. Kill them on the way to the strange fungus.|
 C A Heartfelt Search|QID|35031|M|58.93,62.57|NC|N|Inspect the Drained Fungal Heart.|
 K Fungal Praetorian|QID|35814|M|58.0,63.6|T|Fungal Praetorian|L|113454|N|This is an elite mob, it is meant to be killed in a group. Kill and loot item for a bonus quest.|RANK|3|
@@ -517,7 +517,7 @@ A Trophy of Glory: Fungal Praetorian|QID|35814|PRE|35151|M|58.0,63.6|O|U|113454|
 C A Grim Harvest|QID|35030|M|59.81,63.17|US|N|These are dropped by the Fungal Stompers, finish gathering them.|
 T A Grim Harvest|QID|35030|M|58.91,62.53|N|To Grulkor. Wait a few seconds and he shows up for you to turn the quest in.|
 T A Heartfelt Search|QID|35031|M|58.91,62.53|N|To Grulkor.|
-A Heart of the Fen|QID|35040|M|58.91,62.53|N|From Grulkor.|PRE|35030 & 35031|RANK|2|
+A Heart of the Fen|QID|35040|M|58.91,62.53|N|From Grulkor.|PRE|35030&35031|RANK|2|
 C Heart of the Fen|QID|35040|M|61.14,62.04|T|Grulkor|N|Kill Grulkor.|
 K Sylldross|QID|36794|M|63.56,61.32|L|118213|T|Sylldross|N|In the water, kill and loot for ilvl540 leather boots.|RANK|3|ITEM|118213|
 ;B Sunken Treasure|QID|?|M|71.9,66.6|QO|1|N|On the map this looks like fatigue territory, but it isn't.  This is a long swim for a minor amount of treaure.|RANK|3|-bugged? to be released with Tanaan Jungle? there is a treasure chest there, but it is unlootable  seems to be removed
@@ -561,7 +561,7 @@ T Chapter I: Plant Food|QID|35508|M|60.71,64.77|N|To Penny Clobberbottom.|
 T Chapter II: The Harvest|QID|35527|M|60.71,64.77|N|To Penny Clobberbottom.|
 T Chapter III: Ritual of the Charred|QID|35524|M|60.71,64.77|N|To Penny Clobberbottom.|
 N Optional: Use the Mole Machine|QID|36812|M|60.71,64.77|N|If you need a trip back to Beastwatch you can use the mole machine, if you prefer you can run to Dionar's demise from here.|PRE|35524|
-A Penny For Your Thoughts|QID|36812|M|46.36,69.68|N|From Penny Clobberbottom. Pick up Penny as a follower next time you are in Beastwatch.|PRE|35506 & 35524 & 35527 & 35508|
+A Penny For Your Thoughts|QID|36812|M|46.36,69.68|N|From Penny Clobberbottom. Pick up Penny as a follower next time you are in Beastwatch.|PRE|35506&35524&35527&35508|
 
 ;for all
 R Highpass|QID|33694|M|52.39,62.58|CC|N|You don't actually want to run IN TO Highpass as it is an alliance quest hub, but you are going very near it.|RANK|2|
@@ -759,11 +759,11 @@ K Mother of Wolves|QID|34228|M|28.1,15.1|Z|Frostfire Ridge|T|Mother of Wolves|L|
 C A Clew of Worms|QID|34228|M|29.6,9.5|Z|Frostfire Ridge|US|N|Find and finish off any worms you still need.|
 C What Must Be Done|QID|34227|M|30.1,8.7|Z|Frostfire Ridge|NC|N|Use the shovel stuck in the snow to put the Wolf Mother to her final rest.|
 T What Must Be Done|QID|34227|M|31.7,11.9|Z|Frostfire Ridge|N|To Archmage Khadgar.|
-A Eye Need That|QID|34230|M|31.7,11.9|Z|Frostfire Ridge|N|From Archmage Khadgar.|PRE|34227 & 34228|RANK|3|
+A Eye Need That|QID|34230|M|31.7,11.9|Z|Frostfire Ridge|N|From Archmage Khadgar.|PRE|34227&34228|RANK|3|
 T A Clew of Worms|QID|34228|M|31.8,11.8|Z|Frostfire Ridge|N|To Farseer Urquan.|
 A The Sleeper Has Awakened|QID|34229|M|31.8,11.8|Z|Frostfire Ridge|N|From Farseer Urquan.|PRE|34228|RANK|3|
-A Desecration of the Dead|QID|34278|M|31.8,11.8|Z|Frostfire Ridge|N|From Farseer Urquan.|PRE|34227 & 34228|RANK|3|
-A Stop the Flow|QID|34277|M|31.8,11.8|Z|Frostfire Ridge|N|From Cordana Felsong.|PRE|34227 & 34228|RANK|3|
+A Desecration of the Dead|QID|34278|M|31.8,11.8|Z|Frostfire Ridge|N|From Farseer Urquan.|PRE|34227&34228|RANK|3|
+A Stop the Flow|QID|34277|M|31.8,11.8|Z|Frostfire Ridge|N|From Cordana Felsong.|PRE|34227&34228|RANK|3|
 R Icescar Boneyard|QID|34277|M|27.30,12.01|Z|Frostfire Ridge|RANK|3|ACTIVE|34277|
 C Desecration of the Dead|QID|34278|M|23.2,6.9|Z|Frostfire Ridge|S|N|Kill these as you approach the alter on the far side of the Icescar Boneyard.|
 C Stop the Flow|QID|34277|M|23.2,6.9|Z|Frostfire Ridge|S|NC|N|Click on the green rune under the feet of the necrophytes and thier fel wolves you just killed.|
@@ -775,7 +775,7 @@ T The Sleeper Has Awakened|QID|34229|M|31.8,11.8|Z|Frostfire Ridge|N|To Farseer 
 T Desecration of the Dead|QID|34278|M|31.8,11.8|Z|Frostfire Ridge|N|To Farseer Urquan.|
 T Stop the Flow|QID|34277|M|31.8,11.8|Z|Frostfire Ridge|N|To Cordana Felsong.|
 T Eye Need That|QID|34230|M|31.7,11.9|Z|Frostfire Ridge|N|To Archmage Khadgar.|
-A All is Revealed|QID|34280|M|31.7,11.9|Z|Frostfire Ridge|N|From Archmage Khadgar.|PRE|34230 & 34277 & 34278 & 34229|RANK|3|
+A All is Revealed|QID|34280|M|31.7,11.9|Z|Frostfire Ridge|N|From Archmage Khadgar.|PRE|34230&34277&34278&34229|RANK|3|
 C All is Revealed|QID|34280|M|31.7,11.9|Z|Frostfire Ridge|CHAT|N|Talk to Khadgar.|
 T All is Revealed|QID|34280|M|31.7,11.9|Z|Frostfire Ridge|N|To Archmage Khadgar.|
 A Have a Heart|QID|34291|M|31.7,11.9|Z|Frostfire Ridge|N|From Archmage Khadgar.|PRE|34280|RANK|3|

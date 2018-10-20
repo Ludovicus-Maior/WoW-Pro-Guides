@@ -372,7 +372,7 @@ T Cannonball Swim|QID|26635|M|44.62,93.47|N|To "Pretty Boy" Duncan.|
 C The Bane of Many A Pirate|QID|26634|M|45.97,80.36|N|Look for crates near trees and rowboats. Kill the theives that appear.|
 T The Bane of Many A Pirate|QID|26634|M|44.51,91.89|N|To Garr Salthoof.|
 
-A Attracting Attention|QID|26644|PRE|26633 & 26634 & 26635|M|44.43,91.69|N|From Captain Keelhaul.|
+A Attracting Attention|QID|26644|PRE|26633&26634&26635|M|44.43,91.69|N|From Captain Keelhaul.|
 T Attracting Attention|QID|26644|M|46.68,95.26|N|To Fleet Master Firallon.|
 
 A Ol' Blasty|QID|26647|PRE|26644|M|46.68,94.97|N|From Ironpatch.|
@@ -408,11 +408,11 @@ T The Brashtide Crew|QID|26662|M|44.52,93.15|N|(UI Alert)|
 T Making Mutiny|QID|26664|M|44.71,92.59|N|(UI Alert)|
 T Sinking From Within|QID|26663|M|44.71,92.78|N|(UI Alert)|
 
-A Call of Booty|QID|26665|PRE|26663 & 26664 & 26662|M|44.71,92.78|N|(UI Alert)|
+A Call of Booty|QID|26665|PRE|26663&26664&26662|M|44.71,92.78|N|(UI Alert)|
 
 H The Salty Sailor Tavern |QID|26665|N|Hearthstone to The Salty Sailor Tavern in Booty Bay, or if it has not cooled down, run back.|
 
-T Call of Booty|QID|26665|PRE|26662 & 26664 & 26663|M|41.13,73.17|N|To Baron Revilgaz.|
+T Call of Booty|QID|26665|PRE|26662&26664&26663|M|41.13,73.17|N|To Baron Revilgaz.|
 A Doublerum|QID|26678|PRE|26665|M|41.13,73.17|N|From Baron Revilgaz.|
 T Doublerum|QID|26678|M|40.69,73.27|N|Go down three flights of stairs and into the room on the right.|
 
@@ -439,7 +439,7 @@ T Turning the Brashtide|QID|26699|M|41.12,73.09|N|To Baron Revilgaz.|
 C The Final Voyage of the Brashtide|QID|26697|M|40.47,73.38;34.06,53.27|CN|N|Speak to Kebok for a ride. Use Action 1 to bomb the ships and rowboats. Don't forget you need to get 6 of them too. Use Action 3 to return when finished.|
 T The Final Voyage of the Brashtide|QID|26697|M|41.12,73.12|N|To Baron Revilgaz.|
 
-A Bloodsail's End|QID|26703|PRE|26697 & 26699 & 26700|M|41.12,73.12|N|From Baron Revilgaz.|
+A Bloodsail's End|QID|26703|PRE|26697&26699&26700|M|41.12,73.12|N|From Baron Revilgaz.|
 C Bloodsail's End|QID|26703|M|40.47,73.38;36.05,66.51|CS|N|Speak to Kebok again. Once on the ship, go down to the Captain's room and kill him and his little parrot too.|
 T Bloodsail's End|QID|26703|M|41.17,73.15|N|To Baron Revilgaz.|
 

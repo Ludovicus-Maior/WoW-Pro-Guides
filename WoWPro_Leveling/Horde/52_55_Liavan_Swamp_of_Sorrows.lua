@@ -128,7 +128,7 @@ C Tastes Like Strider|QID|27663|US|M|83.15,28.46|N|Kill Swampstrider.|
 C Croc-Out|QID|27656|US|M|82.31,38.23|N|Kill Sawtooth Crocolisk|
 T Mostly Harmless|QID|27536|M|73.04,14.91|N|To Trade Baron Silversnap.|
 T Croc-Out|QID|27656|M|73.04,14.91|N|To Trade Baron Silversnap.|
-A Crazy Larry|QID|27597|PRE|27536 & 27656|M|73.04,14.91|N|From Trade Baron Silversnap.|
+A Crazy Larry|QID|27597|PRE|27536&27656|M|73.04,14.91|N|From Trade Baron Silversnap.|
 T Tastes Like Strider|QID|27663|M|74.22,12.41|N|To Pierre Fishflay.|
 T Crazy Larry|QID|27597|M|83.89,40.00|N|To Crazy Larry.|
 A Kill Gil|QID|27598|PRE|27597|M|83.89,40.00|N|From Crazy Larry.|
@@ -137,7 +137,7 @@ C Kill Gil|QID|27598|U|62795|M|87.06,30.53|
 C Can't Take It With Them|QID|27599|U|62795|M|90.25,24.92|
 T Kill Gil|QID|27598|M|83.88,40.02|N|To Crazy Larry.|
 T Can't Take It With Them|QID|27599|M|83.88,40.02|N|To Crazy Larry.|
-A In With a Bang|QID|27600|PRE|27598 & 27599|M|83.88,40.02|N|From Crazy Larry.|
+A In With a Bang|QID|27600|PRE|27598&27599|M|83.88,40.02|N|From Crazy Larry.|
 
 C In With a Bang|QID|27600|M|83.82,37.62;98.75,26.96|CC|N|Talk to Lil'Crazy jerry, and use the cannon to launch you to the ship.|
 T In With a Bang|QID|27600|M|84.00,40.11|N|Use the cannon on the top deck to launch you back to the shore.|

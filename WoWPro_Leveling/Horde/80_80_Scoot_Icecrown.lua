@@ -414,14 +414,14 @@ T It Could Kill Us All|QID|13135|N|To Crusade Engineer Spitzpatrick in the Valle
 T The Stone That Started A Revolution|QID|13130|N|To Crusade Architect Silas|M|83.02,73.05|
 T The Purging Of Scourgeholme|QID|13118|N|To The Ebon Watcher.|M|83.06,72.91|
 T The Scourgestone|QID|13122|N|To The Ebon Watcher.|M|83.06,72.91|
-A The Air Stands Still|QID|13125|PRE|13118 & 13122|N|From The Ebon Watcher.|M|83.06,72.91|
+A The Air Stands Still|QID|13125|PRE|13118&13122|N|From The Ebon Watcher.|M|83.06,72.91|
 T The Restless Dead|QID|13110|N|From Father Gustav.|M|82.89,72.79|
 K High Priest Yath'amon|N|He's in the building. Get close (10-15 yards) and blow the horn. The DK you summon will get aggro in a few seconds. Make sure you hit him first to get kill credit.  There are 4 mobs in the room with him, you may want to clear them, he casts fear.|QID|13125|QO|3|U|43206|M|80.07,61.16|
 K Salranax the Flesh Render|N|He's in the building. There is 1 mob with him that patrols in a circle. Same plan as before.|QID|13125|QO|1|U|43206|M|77.35,61.87|
 C The Air Stands Still|QID|13125|QO|2|N|Kill Underking Talonox.|U|43206|M|76.46,53.24|
 T The Air Stands Still|QID|13125|N|Use the gate to port back to the Valley of Echoes. To The Ebon Watcher.|
 
-A Into The Frozen Heart Of Northrend|QID|13139|PRE|13110 & 13124 & 13130 & 13135|N|From Father Gustav.|M|82.89,72.79|
+A Into The Frozen Heart Of Northrend|QID|13139|PRE|13110&13124&13130&13135|N|From Father Gustav.|M|82.89,72.79|
 T Into The Frozen Heart Of Northrend|QID|13139|N|From Highlord Tirion Fordring.|M|86.08,75.77|
 
 A The Battle For Crusaders' Pinnacle|QID|13141|PRE|13139|N|To Highlord Tirion Fordring.|M|86.08,75.77|

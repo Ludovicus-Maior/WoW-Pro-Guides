@@ -126,7 +126,7 @@ C It's All Mine|QID|25677|U|55238|M|58.26,3.60|N|Right-click the Ore Piles to di
 C Pick Your Fate|QID|25678|M|58.26,3.60|US|N|Finish killing Nethergarde Miners, Engineers and Foremen.|
 T It's All Mine|QID|25677|M|59.53,3.61|N|To Rofilian Dane.|
 T Pick Your Fate|QID|25678|M|59.53,3.61|N|To Rofilian Dane.|
-A Into the Mountain|QID|25679|PRE|25677 & 25678|M|59.53,3.61|N|From Rofilian Dane.|
+A Into the Mountain|QID|25679|PRE|25677&25678|M|59.53,3.61|N|From Rofilian Dane.|
 
 T Into the Mountain|QID|25679|M|62.17,1.43|N|To Tak'arili.|
 A That's Not Us|QID|25680|PRE|25679|M|62.17,1.43|N|From Tak'arili.|
@@ -159,7 +159,7 @@ C A Bloodmage's Gotta Eat Too|QID|25690|M|54.89,37.68|N|Kill boars for their mea
 
 T A Bloodmage's Gotta Eat Too|QID|25690|M|41.52,31.91;39.28,36.18|CS|N|To Bloodmage Drazial. Remember to use the blood stone to get to them easily.|
 T The First Step|QID|25685|M|39.25,36.22|N|To Bloodmage Lynnore.|
-A Blood Ritual|QID|25686|PRE|25685 & 25690|M|39.25,36.22|N|From Bloodmage Lynnore.|
+A Blood Ritual|QID|25686|PRE|25685&25690|M|39.25,36.22|N|From Bloodmage Lynnore.|
 C Blood Ritual|NC|QID|25686|M|39.20,36.28|N|Talk to the bloodmage.|
 T Blood Ritual|QID|25686|M|39.18,36.28|N|To Bloodmage Lynnore.|
 A Not Just Any Body|QID|25687|PRE|25686|M|39.18,36.28|N|From Bloodmage Lynnore.|
@@ -187,7 +187,7 @@ C The Vile Blood of Demons|QID|25692|M|51.14,46.42|US|N|Kill and loot demons.|
 
 T The Charred Granite of the Dark Portal|QID|25691|M|54.33,50.05|N|To Watcher Wazzik.|
 T The Vile Blood of Demons|QID|25692|M|54.33,50.05|N|To Watcher Wazzik.|
-A Enhancing the Stone|QID|25693|PRE|25692 & 25691|M|54.33,50.05|N|From Watcher Wazzik.|
+A Enhancing the Stone|QID|25693|PRE|25692&25691|M|54.33,50.05|N|From Watcher Wazzik.|
 T Protecting Our Rear|QID|25694|M|54.42,50.52|N|To Warlord Dar'toon.|
 A Watching Our Back|QID|25695|PRE|25694|M|54.42,50.52|N|From Warlord Dar'toon.|
 C Watching Our Back|NC|QID|25695|M|55.59,50.23|N|Right-click the plans when the sentries are walking away.|
@@ -257,7 +257,7 @@ T Ogre Combat|QID|25675|M|42.72,13.90|N|To Master Aitokk.|
 T The Amulet of Allistarj|QID|25697|M|41.56,31.95;39.22,36.19|CS|N|To Bloodmage Lynnore. Use the bloodstone to get in.|
 T The Amulet of Sevine|QID|25698|M|39.22,36.19|N|To Bloodmage Lynnore.|
 T The Amulet of Grol|QID|25699|M|39.22,36.19|N|To Bloodmage Lynnore.|
-A Loramus Thalipedes Awaits|QID|25700|PRE|25697 & 25698 & 25699|M|39.22,36.19|N|From Bloodmage Lynnore.|
+A Loramus Thalipedes Awaits|QID|25700|PRE|25697&25698&25699|M|39.22,36.19|N|From Bloodmage Lynnore.|
 C Loramus Thalipedes Awaits|QID|25700|NC|M|39.20,36.24|N|Speak to the bloodmage.|
 T Loramus Thalipedes Awaits|QID|25700|M|39.33,35.81|N|To Loramus Thalipedes.|
 A You Are Rakh'likh, Demon|QID|25701|PRE|25700|M|39.33,35.81|N|From Loramus Thalipedes.|

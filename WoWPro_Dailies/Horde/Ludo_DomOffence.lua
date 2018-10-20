@@ -66,7 +66,7 @@ f Domination Point|M|9.69,52.51|N|Get your new flight point from Kromthar.|
 ; Daily Quest Hub selection
 A Gro'tash's Quests|QID|*|NPC|67880|M|10.07,53.86|N|From Blood Guard Gro'tash. He gives Domination Point, Ruins of Ogudei, or Lion's Landing. Skip if none.|
 A Wanted: ???|QID|32222^32223|M|12.74,56.70|N|From Bounty Board for quests at Bilgewater Operations? Skip if none.|
-; ACTIVE|-32235 & -32449 & -32450
+; ACTIVE|-32235&-32449&-32450
 
 ; ;;;;;;;;;;;;;;;;;;;;;;
 ; Daily Quests - Domination Point
@@ -80,8 +80,8 @@ C Alliance slain|QID|32123|M|11.40,59.00;16.40,67.20;16.60,69.40;11.30,67.65;7.3
 T Death on Two Legs|QID|32123|M|10.32,55.69|N|To Shokia|
 T Flash! Aaaaaahhhh!|QID|32235|M|10.07,53.86|N|To Blood Guard Gro'tash|
 T Tear It Up|QID|32126|M|10.2,53.8|N|To Brolic|
-A Another One Bites the Dust|QID|32128|PRE|32126 & 32235|M|10,53.8|N|From Blood Guard Gro'tash|
-A All Dead, All Dead|QID|32127|PRE|32126 & 32235|M|10.2,53.8|N|From Brolic|
+A Another One Bites the Dust|QID|32128|PRE|32126&32235|M|10,53.8|N|From Blood Guard Gro'tash|
+A All Dead, All Dead|QID|32127|PRE|32126&32235|M|10.2,53.8|N|From Brolic|
 C Captain Brent the Black|QID|32127|M|12.80,75.75|QO|1|T|Captain Brent the Black|N|Kill!|
 C The Defiant|QID|32128|M|12.33,75.58|QO|1|N|Click on the glittering barrel on the lower level and rear of the ship.|NC|
 C Captain Mulkey|QID|32127|M|15.22,75.46|QO|2|T|Captain Mulkey|N|Kill!|
@@ -320,7 +320,7 @@ C Stormwind Troops|QID|32409|QO|2|US|
 C Sunreaver Dragonhawks|QID|32410|M|74.50,40.65;73.50,45.35;74.30,51.05;72.18,49.24;70.70,51.08;68.83,40.90;69.25,49.08;76.05,48.98;76.51,44.38;72.42,39.48;70.99,44.74;67.51,44.71|Z|Dalaran City@DalaranCity|CN|N|Rescue the poor Dragonhawks.|
 T The Kirin Tor's True Colors|QID|32409|M|51.4,49.4|Z|Dalaran City@DalaranCity|N|To Grand Magister Rommath|
 T Krasus' Landing|QID|32410|M|51.4,49.4|Z|Dalaran City@DalaranCity|N|To Grand Magister Rommath|
-A The Remaining Sunreavers|QID|32411|PRE|32408 & 32409 & 32410|M|51.4,49.4|Z|Dalaran City@DalaranCity|N|From Grand Magister Rommath|
+A The Remaining Sunreavers|QID|32411|PRE|32408&32409&32410|M|51.4,49.4|Z|Dalaran City@DalaranCity|N|From Grand Magister Rommath|
 U Magister Hathorel|QID|32411|M|67.2,35|Z|Dalaran City@DalaranCity|U|93124|QO|3|N|Rescue by using the Tear of the Sin'dorei.|
 U Uda the Beast|QID|32411|M|71,33.2|Z|Dalaran City@DalaranCity|U|93124|QO|1|N|Rescue by using the Tear of the Sin'dorei.|
 U High Arcanist Savor|QID|32411|M|61,14.4|Z|Dalaran City@DalaranCity|U|93124|QO|2|N|Rescue by using the Tear of the Sin'dorei.|

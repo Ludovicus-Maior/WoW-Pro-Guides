@@ -236,7 +236,7 @@ A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. T
 ;fresh lvl 110 quests
 A Khadgar's Discovery|QID|39985|M|60.92,44.73|N|From UI Alert the first time you enter Dalaran after reaching level 110.|LVL|110|
 A Goddess Watch Over You|QID|44337|M|51.50,48.41|N|From a floating pink ball which is apparently Archmage Khadgar and appears when you enter your class hall for the first time after reaching level 110.|LVL|110|
-A The Iron Fist|QID|41849|M|51.41,48.39|NA|N|From Iron-Body Ponshu. This is a dungeon quest you will need to complete it before you can go much farther.|LVL|110|PRE|43054 & 43062|
+A The Iron Fist|QID|41849|M|51.41,48.39|NA|N|From Iron-Body Ponshu. This is a dungeon quest you will need to complete it before you can go much farther.|LVL|110|PRE|43054&43062|
 N Artifact Knowledge Catch-Up 7.1.5|QID|44249|ITEM|144435|N|Assuming you have the resources available, you should have sent an 'Artifact Research Compendium' (BOA item purchased in order hall) from one of you other characters (with max or at least highest AK) on the account.  This will allow you to jumpstart your artifact research by as much as 20 levels. This is also the lowest resource cost option.|LVL|110|
 A Knowledge is Power|QID|46129|M|46.71,46.69|ITEM|144395|N|From Lorewalker Cho. Assuming you were unable to send a AK15 or 20 item, you can buy immediately up to AK 15 for 500 resources each (same cost as research).|LVL|110|ACH|10852|
 T Knowledge is Power|QID|46129|M|46.71,46.69|ITEM|144395|N|To Lorewalker Cho.|
@@ -279,13 +279,13 @@ C No Monk Left Behind|QID|41852|M|68.56,69.32|Z|Stormheim|NC|US|N|Free Prisoners
 T No Monk Left Behind|QID|41852|M|68.56,69.32|Z|Stormheim|N|To Angus Ironfist.|
 T Quelling the Tide|QID|41851|M|68.56,69.32|Z|Stormheim|N|To Sylara Steelsong.|
 T Zero to Hiro|QID|41853|M|68.56,69.32|Z|Stormheim|N|To Hiro.|
-A Brick By Brick|QID|41854|M|68.56,69.32|Z|Stormheim|N|From Hiro.|PRE|41851 & 41852 & 41853|
+A Brick By Brick|QID|41854|M|68.56,69.32|Z|Stormheim|N|From Hiro.|PRE|41851&41852&41853|
 P Hall of the Seasons|QID|41854|M|68.56,69.32|Z|Stormheim|U|141605|N|Use your flight master's whistle and then Zen Pilgrimage to return to Iron-Body Ponshu. Use the whistle for the covenience of the followup quest.|
 T Brick By Brick|QID|41854|M|51.40,48.39|N|To Iron-Body Ponshu.|
 A Champion: Hiro|QID|41737|M|51.90,49.50|N|From/To Hiro.|PRE|41854|
 A Champion: Sylara Steelsong|QID|41738|M|51.97,49.66|N|From/To Sylara Steelsong.|PRE|41854|
 A Champion: Angus Ironfist|QID|41736|M|51.88,49.71|N|From/To Angus Ironfist.|PRE|41854|
-A The Mead Master|QID|41038|M|51.40,48.39|N|From Iron-Body Ponshu.|PRE|41736 & 41737 & 41738|
+A The Mead Master|QID|41038|M|51.40,48.39|N|From Iron-Body Ponshu.|PRE|41736&41737&41738|
 P Stormheim|QID|41038|M|51.40,48.39|N|Assuming you used Zen Pilgrimage last from Stormheim to come to turn in these quests, you can use it again to return and finish this chain. (If not, go to Dalaran and fly to Valdisdal.)|
 R Aegira's Meadery|QID|41038|M|61.29,52.57;66.79,39.04;63.22,30.24;64.15,23.99|Z|Stormheim|CS|N|Run thru the Runewood, Field of Fallen Kings, Straits of Hydrannon (water), up the hill and thru the edge of Storm's Reach (pvp area) and finally down the path to Aegira's Meadery.|
 C The Mead Master|QID|41038|M|63.12,21.20|Z|Stormheim|CHAT|N|Talk to Aegira, then she walks away, follow her down the hill.|
@@ -389,7 +389,7 @@ C Freya's Spring|QID|41910|M|52.95,60.43|NC|US|N|Finish up those 5 Freya's Sprin
 C A Peaceful World|QID|41086|US|N|Time to finish up all those World Quests.|
 t Freya's Spring|QID|41910|M|51.40,48.39|N|To Iron-Body Ponshu.|
 t A Peaceful World|QID|41086|M|51.40,48.39|N|To Iron-Body Ponshu.|
-A Impending Danger|QID|32442|M|51.40,48.39|N|From Iron-Body Ponshu.|PRE|41910 & 41086|
+A Impending Danger|QID|32442|M|51.40,48.39|N|From Iron-Body Ponshu.|PRE|41910&41086|
 C Impending Danger|QID|32442|M|52.95,60.43|NA|N|Go to your scouting table and do the Impending Danger mission.|
 t Impending Danger|QID|32442|M|51.40,48.39|N|To Iron-Body Ponshu.|
 A Storm Brew|QID|41087|M|51.40,48.39|N|From Iron-Body Ponshu.|PRE|32442|
@@ -431,7 +431,7 @@ C The Riddle of the Land|QID|42767|M|51.3,61.17|Z|Valley of the Four Winds|N|Pic
 T The Riddle of Purity|QID|42768|M|52.26,62.74|Z|Valley of the Four Winds|N|To The Monkey King who appears beside you when you pick up the last sack of grai/8n.|
 T The Riddle of the Barrel|QID|42766|M|52.26,62.74|Z|Valley of the Four Winds|N|To The Monkey King.|
 T The Riddle of the Land|QID|42767|M|52.26,62.74|Z|Valley of the Four Winds|N|To The Monkey King.|
-A Journey to the East|QID|42957|M|52.26,62.74|Z|Valley of the Four Winds|N|From The Monkey King.|PRE|42766 & 42767 & 42768|
+A Journey to the East|QID|42957|M|52.26,62.74|Z|Valley of the Four Winds|N|From The Monkey King.|PRE|42766&42767&42768|
 R Jade Temple Grounds|QID|42957|M|55.42,58.12|Z|The Jade Forest|N|Fly to the Temple of the Jade Serpent|ACTIVE|42957|CN|
 T Journey to the East|QID|42957|M|55.42,58.12|Z|The Jade Forest|N|To The Monkey King.|
 A The Monkey King's Challenge|QID|42868|M|55.42,58.12|Z|The Jade Forest|N|From The Monkey King.|PRE|42957|
@@ -537,7 +537,7 @@ C Fel Ingredients|QID|45574|M|54.53,48.16|Z|Broken Shore|S|N|Finish collecting t
 T Fel Ingredients|QID|45574|M|53.59,53.46|Z|Broken Shore|N|To Brewer Almai.|
 T Alchemist Korlya|QID|45449|M|53.59,53.46|Z|Broken Shore|N|To Brewer Almai.|
 T Barrel Toss|QID|45545|M|53.59,53.46|Z|Broken Shore|N|To Brewer Almai.|
-A Hope For a Cure|QID|46320|M|53.59,53.46|Z|Broken Shore|N|From Brewer Almai.|PRE|45574 & 45449 & 45545|
+A Hope For a Cure|QID|46320|M|53.59,53.46|Z|Broken Shore|N|From Brewer Almai.|PRE|45574&45449&45545|
 T Hope For a Cure|QID|46320|M|50.49,57.89|N|To Spirit of Brewmaster Blanche.|
 A Not Felling Well|QID|45442|M|50.49,57.89|N|From Spirit of Brewmaster Blanche.|PRE|46320|
 C Not Felling Well|QID|45442|M|50.44,57.91|QO|1|NC|N|Click on the still to produce the Curative Brew.|

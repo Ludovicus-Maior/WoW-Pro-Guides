@@ -179,7 +179,7 @@ H Vol'jin's Pride|QID|34576|M|75.4,22|N|Save your self a minute or two and heart
 T Out of Jovite|QID|34577|M|70.90,30.49|N|To Morketh Bladehowl.|
 T Iridium Recovery|QID|34576|M|70.90,30.49|N|To Morketh Bladehowl.|
 T Gas Guzzlers|QID|34579|M|70.90,30.49|N|To Morketh Bladehowl.|
-A Going to the Gordunni|QID|34837|PRE|34576 & 34577 & 34579|M|70.89,30.50|N|From Morketh Bladehowl.|
+A Going to the Gordunni|QID|34837|PRE|34576&34577&34579|M|70.89,30.50|N|From Morketh Bladehowl.|
 
 ;choose arcane sanctum
 t An Audience With the Archmage|QID|34632|M|75,31.2|N|To Archmage Khadgar.|
@@ -200,7 +200,7 @@ C Creating the Ink|QID|34634|M|81,29|US|N|Kill the giants and the sporebats for 
 T Creating the Ink|QID|34634|M|81.74,27.27|N|To Magister Krelas.|
 T Forming the Scroll|QID|34635|M|81.74,27.27|N|To Magister Krelas.|
 T Gathering the Spark|QID|34636|M|81.74,27.27|N|To Magister Krelas.|
-A Next Steps|QID|34874|PRE|34634 & 34635 & 34636|M|81.74,27.27|N|From Magister Krelas.|
+A Next Steps|QID|34874|PRE|34634&34635&34636|M|81.74,27.27|N|From Magister Krelas.|
 R Khadgar's Tower|QID|34874|M|83.59,30.91|N|Run to the portal at Khadgar's Tower... or... you can just hearth back to Vol'jin's pride from here.|ACTIVE|34874|U|110560|
 R Zangarra|QID|34874|M|80.42,25.32|CC|N|Take the portal (which flys you across the gorge) to Zangarra.|ACTIVE|34874|
 F Vol'jin's Pride|QID|34874|ACTIVE|34874|M|80.42,25.32|N|Fly back to Vol'jin's Pride at Dominic Arlington.|
@@ -208,11 +208,11 @@ T Next Steps|QID|34874|M|71.34,29.60|N|To Magister Krelas.|
 A The Foot of the Fortress|QID|34878|PRE|34874|M|71.34,29.60|N|From Magister Krelas.|
 
 ;for both
-A One Step Ahead|QID|34683|PRE|34576 & 34577 & 34579|M|71.24,29.95|N|From Shadow Hunter Kajassa.|RANK|2|
-A Logistical Nightmare|QID|34766|PRE|34576 & 34577 & 34579|M|71.19,29.42|N|From Provisioner Naya.|RANK|2|
-A Wanted: Kil'uun|QID|34108|PRE|34576 & 34577 & 34579|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
-A Wanted: Hilaani|QID|34107|PRE|34576 & 34577 & 34579|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
-A Wanted: Ra'tok the Hammer|QID|34106|PRE|34576 & 34577 & 34579|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
+A One Step Ahead|QID|34683|PRE|34576&34577&34579|M|71.24,29.95|N|From Shadow Hunter Kajassa.|RANK|2|
+A Logistical Nightmare|QID|34766|PRE|34576&34577&34579|M|71.19,29.42|N|From Provisioner Naya.|RANK|2|
+A Wanted: Kil'uun|QID|34108|PRE|34576&34577&34579|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
+A Wanted: Hilaani|QID|34107|PRE|34576&34577&34579|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
+A Wanted: Ra'tok the Hammer|QID|34106|PRE|34576&34577&34579|M|70.82,29.63|N|From Beastmaster Tagh.|RANK|2|
 K Kil'uun|QID|34108|M|67.18,28.74|QO|1|S|T|Kil'uun|N|He flys all over this area, keep looking up, and/or hitting the target button.|RANK|2|
 C Logistical Nightmare|QID|34766|M|68.06,31.38|RANK|2|
 K Kil'uun|QID|34108|M|67.18,28.74|QO|1|US|T|Kil'uun|N|He flys all over this area, keep looking up, and/or hitting the target button.|RANK|2|
@@ -246,13 +246,13 @@ C Too Many Irons in the Fire|QID|33722|M|62.73,13.94|US|N|Finish this up before 
 C Decommissioned Mission|QID|33720|T|Engineer Draxen|QO|1|M|61.59,14.46;63.22,14.47|CS|N|Go into Draxxen's Workshop and kill him so you can take his shredder.|RANK|2|
 C Decommissioned Mission|QID|33720|QO|2|NC|M|60.07,20.15;59.22,20.35|CS|N|Hop in the shredder and return to Draka's Den.|RANK|2|
 T In Short Supply|QID|33735|M|58.92,20.15|N|To Draka.|RANK|2|
-A Iron Them Out|QID|33736|PRE|33735 & 33720 & 33721|M|58.92,20.15|N|From Draka.|RANK|2|
+A Iron Them Out|QID|33736|PRE|33735&33720&33721|M|58.92,20.15|N|From Draka.|RANK|2|
 T Too Many Irons in the Fire|QID|33722|M|58.92,20.19|N|To Durotan.|RANK|2|
 T Old Friends, New Enemies|QID|35226|M|58.92,20.18|N|To Durotan.|RANK|2|
-A Dreadpiston|QID|34950|PRE|33722 & 35226|M|58.92,20.18|N|From Durotan.|RANK|2|
+A Dreadpiston|QID|34950|PRE|33722&35226|M|58.92,20.18|N|From Durotan.|RANK|2|
 T Decommissioned Mission|QID|33720|M|58.95,20.71|N|To Gazlowe.|RANK|2|
 T Gazlowe's Solution|QID|33721|M|58.95,20.71|N|To Gazlowe.|RANK|2|
-A Vol. X Pages ?|QID|33724|PRE|33720 & 33721|M|58.95,20.71|N|From Gazlowe.|RANK|2|
+A Vol. X Pages ?|QID|33724|PRE|33720&33721|M|58.95,20.71|N|From Gazlowe.|RANK|2|
 
 C Vol. X Pages ?|QID|33724|M|56.74,24.51|S|N|Drops from the Iron Horde mobs.|RANK|2|
 C Wanted: Ra'tok the Hammer|QID|34106|T|Ra'tok the Hammer|M|54.36,22.29|RANK|2|
@@ -273,7 +273,7 @@ f Durotan's Grasp|QID|34950|M|55.43,40.83|N|At Tega Skyblade.|RANK|2|
 T Dreadpiston|QID|34950|M|55.60,40.94|N|To Durotan.|RANK|2|
 T Iron Them Out|QID|33736|M|58.56,40.98|N|To Draka.|RANK|2|
 T Vol. X Pages ?|QID|33724|M|55.68,41.16|N|To Gazlowe.|RANK|2|
-A An Eye for a Spy|QID|33728|PRE|33724 & 33736 & 34950|M|55.68,41.16|N|From Gazlowe.|RANK|2|
+A An Eye for a Spy|QID|33728|PRE|33724&33736&34950|M|55.68,41.16|N|From Gazlowe.|RANK|2|
 C An Eye for a Spy|QID|33728|NC|M|55.76,41.07|N|Use Gazlowe's contraption again.|RANK|2|
 T An Eye for a Spy|QID|33728|M|55.68,41.16|N|To Gazlowe.|RANK|2|
 A Born to Shred|QID|33729|PRE|33728|M|55.68,41.16|N|From Gazlowe.|RANK|2|
@@ -377,7 +377,7 @@ C Prized Repossessions|QID|34858|US|M|69.04,82.47|N|Finish looting Gordunni "Too
 T Punching Through|QID|34855|M|69.04,82.47|N|To Morketh Bladehowl (who is following you around).|
 T Prized Repossessions|QID|34858|M|69.04,82.47|N|To Morketh Bladehowl.|
 T Supply Recovery|QID|34860|M|69.04,82.47|N|To Morketh Bladehowl.|
-A The Lord of the Gordunni|QID|34870|M|69.04,82.47|PRE|34855 & 34858 & 34860|N|From Morketh Bladehowl.|
+A The Lord of the Gordunni|QID|34870|M|69.04,82.47|PRE|34855&34858&34860|N|From Morketh Bladehowl.|
 C The Lord of the Gordunni|QID|34870|U|112307|M|64.49,81.75|N|Every so often a message will appear on your screen telling you to use your 'emergency rocket pack' to avoid the Witch Lord's nasty purple ground goo.|T|Witch Lord Morkurk|
 T The Lord of the Gordunni|QID|34870|M|64.48,81.64|N|To Morketh Bladehowl.|
 A The Only Way to Travel|QID|34971|M|64.48,81.64|PRE|34870|N|From Morketh Bladehowl.|
@@ -406,7 +406,7 @@ C Orbs of Power|QID|34889|M|66.51,80.21|NC|US|N|Click on the Orbs to destroy the
 T Vicious Viziers|QID|34888|M|66.23,81.04|N|To Magister Krelas.|
 T While We're in the Neighborhood|QID|34887|M|66.23,81.04|N|To Magister Krelas.|
 T Orbs of Power|QID|34889|M|66.23,81.04|N|To Magister Krelas.|
-A The Final Step|QID|34890|PRE|34887 & 34888 & 34889|M|66.23,81.04|N|From Magister Krelas.|
+A The Final Step|QID|34890|PRE|34887&34888&34889|M|66.23,81.04|N|From Magister Krelas.|
 C The Final Step|QID|34890|M|64.25,81.63|T|Witch Lord Morkurk|U|112542|N|Use the scroll to summon reinforcements and then engage Morkurk.|
 T The Final Step|QID|34890|M|64.25,81.63|N|To Magister Krelas.|
 A Due Cause to Celebrate|QID|34712|M|64.25,81.63|N|From Magister Krelas.|PRE|34890|
@@ -424,7 +424,7 @@ K Hammertooth|QID|34185|M|64.6,45.4|L|116124|T|Hammertooth|ITEM|116124|N|Hammert
 R Duskfall Island|QID|33872|M|65.41,50.20|RANK|2|
 T Dust of the Dead|QID|33872|M|65.41,50.20|N|To Seer Malune.|RANK|2|
 T Cure of Aruunem|QID|33873|M|65.41,50.20|N|To Seer Malune.|RANK|2|
-A Aruumel's Rest|QID|33874|PRE|33872 & 33873|M|65.41,50.20|N|From Seer Malune.|RANK|2|
+A Aruumel's Rest|QID|33874|PRE|33872&33873|M|65.41,50.20|N|From Seer Malune.|RANK|2|
 C Aruumel's Rest|QID|33874|M|69.03,55.28|T|Aruumel|U|108749|N|Unless you want to fight your way there, wait to use the elixer until you arrive at the green dot.  Use it and then kill Aruumel.|RANK|2|
 T Aruumel's Rest|QID|33874|M|65.43,50.74|N|To Seer Malune.|RANK|2|
 T Clear!|QID|34751|M|64.20,47.72|N|To Ziz Fizziks.|RANK|2|
@@ -471,7 +471,7 @@ T The Heart of Auchindoun|QID|33920|M|56.51,67.12|N|To Soulbinder Nyami.|RANK|2|
 T We Must Construct Additional Pylons|QID|34351|M|55.11,67.40|N|To Soulbinder Tuulani.|RANK|2|
 T Holding the Line|QID|34418|M|55.47,67.68|N|To Lady Liadrin.|RANK|2|
 T Nightmare in the Tomb|QID|33530|M|55.47,67.68|N|To Lady Liadrin.|RANK|2|
-A Sunsworn Camp|QID|34451|PRE|33917 & 33920 & 34418|M|55.50,67.68|N|From Lady Liadrin.|RANK|2|
+A Sunsworn Camp|QID|34451|PRE|33917&33920&34418|M|55.50,67.68|N|From Lady Liadrin.|RANK|2|
 
 R Sunsworn Camp|QID|34451|M|61.00,72.54|RANK|2|N|Run to the Sunsworn Camp.|
 T Sunsworn Camp|QID|34451|M|61.00,72.54|N|To Lady Liadrin.|RANK|2|
@@ -494,7 +494,7 @@ l Norana's Cache|QID|34128|M|61,71.8|L|117563|ITEM|117563|N|If you found all the
 T Vile Defilers|QID|33972|M|60.52,72.40|N|To Mehlar Dawnblade.|RANK|2|
 T Antivenin|QID|33971|M|60.91,72.54|N|To Soulbinder Tuulani.|RANK|2|
 T Into the Hollow|QID|33970|M|60.92,72.45|N|To Soulbinder Nyami.|RANK|2|
-A Scheduled Pickup|QID|34242|PRE|33970 & 33971 & 33972|M|61.01,72.54|N|From Lady Liadrin.|RANK|2|
+A Scheduled Pickup|QID|34242|PRE|33970&33971&33972|M|61.01,72.54|N|From Lady Liadrin.|RANK|2|
 
 R Telmor|QID|34242|M|50.42,87.50|RANK|2|N|Head over to Telmor.|
 K Felbark|QID|35018|M|50.8,83.8|L|112373|T|Felbark|ITEM|112373|N|Right behind you, Kill and loot for a bit of treasure.|RANK|2|
@@ -551,7 +551,7 @@ C Retribution for the Light|QID|34144|M|35,79|S|N|Kill these as you accomplish t
 A Hiding in the Shadows|QID|34163|N|From Shadow Council Communicator. (The communicators are at several locations in Gul'rok.  Head for the nearest yellow '!')|RANK|2|
 C Hiding in the Shadows|QID|34163|M|37.78,77.34|QO|1|NC|N|The orb is at the top of the watchtower.|RANK|2|
 K Viperlash|QID|34148|M|37.6,74.9|L|112371|T|Viperlash|ITEM|112371|N|Viperlash is in a shallow cavern. Kill him and remove the spear from his side to retrieve someone's lost gloves.|RANK|2|
-A Book Burning|QID|34164|PRE|34092 & 35227|M|34.01,73.96|N|From Kor'thos Dawnfury.|RANK|2|
+A Book Burning|QID|34164|PRE|34092&35227|M|34.01,73.96|N|From Kor'thos Dawnfury.|RANK|2|
 C Loot 3 books|QID|34164|M|34,74|S|L|109259 3|N|From the caster type demons.|RANK|2|
 C Hiding in the Shadows|QID|34163|M|34.46,70.37|QO|3|NC|N|The orb is at the top of the watchtower.|RANK|2|
 C Hiding in the Shadows|QID|34163|M|35.62,79.83|QO|2|NC|N|The orb is at the top of the watchtower.|RANK|2|

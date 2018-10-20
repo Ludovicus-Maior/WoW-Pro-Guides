@@ -145,7 +145,7 @@ K Fangcaller Sraka|ACTIVE|49677|QO|1|M|61.14,32.89|N|Kill Fangcaller Sraka and l
 T Plans for Attack|QID|49677|M|60.87,32.60|N|To Nisha.|
 C Answering Their Attacks|QID|47327|M|60.87,32.60|US|N|Finish up the Sethrak.|
 T Answering Their Attacks|QID|47327|M|60.87,32.60|N|To Nisha.|
-A An Explosive Exit|QID|51364|M|60.87,32.60|N|From Nisha.|PRE|49677 & 47327|
+A An Explosive Exit|QID|51364|M|60.87,32.60|N|From Nisha.|PRE|49677&47327|
 C An Explosive Exit|QID|51364|M|60.04,34.60|QO|2|NC|N|Hop on Nisha's wagon.|
 C An Explosive Exit|QID|51364|M|59.15,37.06|QO|3|NC|N|Use Special action button to throw fire flasks and Defend Nisha's wagon.|
 T An Explosive Exit|QID|51364|M|56.79,50.53|N|To Kiro.|
@@ -168,7 +168,7 @@ C Missing Business|QID|50739|M|53.57,51.57|US|NC|N|Revive the Sable Polecats.|
 T Missing Business|QID|50739|M|55.20,48.38|N|To Vivi.|
 T Freshly Squeezed|QID|51574|M|56.76,50.53|N|To Meerah.|
 T Restorative Venom|QID|47319|M|56.79,50.54|N|To Kiro.|
-A A Balm to Calm|QID|47320|M|56.79,50.54|N|From Kiro.|PRE|47319 & 51574|
+A A Balm to Calm|QID|47320|M|56.79,50.54|N|From Kiro.|PRE|47319&51574|
 C A Balm to Calm|QID|47320|M|56.84,50.52|U|150759|T|Bladeguard Kaja|NC|N|Target Kaja and click on the potion to give Kaja the restorative balm.|
 T A Balm to Calm|QID|47320|M|56.84,50.52|N|To Bladeguard Kaja.|
 
@@ -196,7 +196,7 @@ T Knickknack Takeback|QID|47321|M|56.79,50.54|N|To Kiro.|
 T Searching for Survivors|QID|47317|M|56.83,50.52|N|To Bladeguard Kaja.|
 T Secrets in the Sand|QID|47316|M|56.83,50.52|N|To Bladeguard Kaja.|
 
-A The Warguard's Trail|QID|47959|M|56.83,50.52|N|From Bladeguard Kaja.|PRE|47316 & 47317 & 47321|
+A The Warguard's Trail|QID|47959|M|56.83,50.52|N|From Bladeguard Kaja.|PRE|47316&47317&47321|
 C The Warguard's Trail|QID|47959|M|56.76,50.53|CHAT|N|Tell Meerah you are ready to go.|
 T The Warguard's Trail|QID|47959|M|52.97,66.54|N|To Jorak.|
 A Grozztok the Blackheart|QID|48549|M|52.97,66.54|N|From Jorak.|PRE|47959|
@@ -220,7 +220,7 @@ C We Can Salvage the Seeds|QID|48555|M|52.72,69.00|NC|US|N|Finish planting Thist
 T We Can Salvage the Seeds|QID|48555|M|53.88,69.39|N|To Ranah.|
 T Wither Without Water|QID|48551|M|53.88,69.39|N|To Ranah.|
 T Let it Flow|QID|48553|M|53.88,69.39|N|To Ranah.|
-A The Source of the Problem|QID|48554|M|53.88,69.39|N|From Ranah.|RANK|2|PRE|48555 & 48551 & 48553|
+A The Source of the Problem|QID|48554|M|53.88,69.39|N|From Ranah.|RANK|2|PRE|48555&48551&48553|
 C The Source of the Problem|QID|48554|M|53.70,68.96;54.35,66.87;55.39,69.41|CS|QO|1|NC|N|Click on the big rock to inspect the reservoir.|
 C The Source of the Problem|QID|48554|M|55.39,69.41|QO|2|N|Kill the Colossal Water Cobra.|
 K Vathikur|QID|49674|QO|1|M|55.38,71.11;57.28,73.29|CS|RARE|ITEM|161097|T|Vathikur|N|Stand in the rumbling earth and Vathikur will emerge. Silver Elite to kill and loot for artifact power and resources.|RANK|2|
@@ -230,7 +230,7 @@ T Stolen Satchels|QID|48550|M|53.34,65.99|N|To Jorak.|
 T Grozztok the Blackheart|QID|48549|M|53.19,66.05|N|To Bladeguard Kaja.|
 
 ;The Warguard's Fate
-A On the Move|QID|48684|M|53.18,66.05|N|From Bladeguard Kaja.|PRE|48550 & 48549|
+A On the Move|QID|48684|M|53.18,66.05|N|From Bladeguard Kaja.|PRE|48550&48549|
 $ Excavator's Greed|QID|51136|M|57.73,64.63|N|A short backtrack for some treasure, Inside the ruins you can find this item to loot for artifact power and resources.|RANK|3|
 C On the Move|QID|48684|M|53.22,66.03|CHAT|N|Tell Meerah you are ready to go.|
 T On the Move|QID|48684|M|52.82,89.23|N|To Jorak.|
@@ -249,15 +249,15 @@ C Sacred Remains|QID|48992|M|53.93,88.01|NC|US|N|Finish collecting the sacred re
 T Vile Infestation|QID|48991|M|53.18,90.30|N|To Akunda the Exalted.|
 T Sacred Remains|QID|48992|M|53.18,90.30|N|To Akunda the Exalted.|
 T Powerful Conductors|QID|48993|M|53.18,90.30|N|To Akunda the Exalted.|
-A Cleanse the Mind|QID|48887|M|53.18,90.30|N|From Akunda the Exalted.|PRE|48991 & 48992 & 48993|
-A It Springs Eternal|QID|48888|M|53.18,90.30|N|From Akunda the Exalted.|PRE|48991 & 48992 & 48993|
+A Cleanse the Mind|QID|48887|M|53.18,90.30|N|From Akunda the Exalted.|PRE|48991&48992&48993|
+A It Springs Eternal|QID|48888|M|53.18,90.30|N|From Akunda the Exalted.|PRE|48991&48992&48993|
 C It Springs Eternal|QID|48888|M|51.26,85.00|S|N|Kill Scavengers or Howlers as you go.|
 C Cleanse the Mind|QID|48887|M|52.85,88.32;52.16,83.85;52.17,83.34|CS|NC|QO|1|N|Go inside the small cave and click the shrine to Meditate.|
 C Cleanse the Mind|QID|48887|M|52.17,83.36|QO|2|N|Kill your Inner Demon.|
 C It Springs Eternal|QID|48888|M|51.26,85.00|US|N|Finish killing Scavengers or Howlers as you go back to turn in.|
 T Cleanse the Mind|QID|48887|M|53.18,90.30|N|To Akunda the Exalted.|
 T It Springs Eternal|QID|48888|M|53.18,90.30|N|To Akunda the Exalted.|
-A Trial of Truth|QID|48894|M|53.18,90.30|N|From Akunda the Exalted.|PRE|48887 & 48888|
+A Trial of Truth|QID|48894|M|53.18,90.30|N|From Akunda the Exalted.|PRE|48887&48888|
 C Trial of Truth|QID|48894|M|53.18,90.30|CHAT|N|Speak your true name to Akunda the Exalted. (I think any of the options work)|
 T Trial of Truth|QID|48894|M|53.18,90.30|N|To Akunda the Exalted.|
 A Akunda Awaits|QID|48715|M|53.15,90.19|N|From Bladeguard Kaja.|PRE|48894|
@@ -276,7 +276,7 @@ C Memory Breach|QID|48988|M|54.56,75.46|NC|N|Click on the Jars to search Unwante
 C Shattered and Broken|QID|49005|M|54.56,75.46|US|N|Finish killing the Distorted and Fractured Memories.|
 T Memory Breach|QID|48988|M|53.02,78.76|N|To Meijani.|
 T Shattered and Broken|QID|49005|M|53.02,78.76|N|To Meijani.|
-A Repairing the Past|QID|48889|M|53.02,78.76|N|From Meijani.|PRE|48988 & 49005|
+A Repairing the Past|QID|48889|M|53.02,78.76|N|From Meijani.|PRE|48988&49005|
 C Repairing the Past|QID|48889|M|52.20,79.91|N|Follow Meijani thru the narrow cave entrance and then fight the memories that appear.|
 T Repairing the Past|QID|48889|M|52.20,79.91|N|To Akunda.|
 A Ending the Madness|QID|48996|M|52.20,79.91|N|From Akunda.|PRE|48889|
@@ -306,7 +306,7 @@ C Nature's Remedy|QID|48313|M|47.29,71.39|US|NC|N|Finish collecting the Prickly 
 C Creeping Death|QID|48314|M|47.29,71.39|US|N|Finish collecting Scorpashi Stingers.|
 T Nature's Remedy|QID|48313|M|47.05,75.60|N|To Kiro.|
 T Creeping Death|QID|48314|M|47.05,75.60|N|To Kiro.|
-A Effective Antivenom|QID|50770|M|47.05,75.60|N|From Kiro.|PRE|48313 & 48314|
+A Effective Antivenom|QID|50770|M|47.05,75.60|N|From Kiro.|PRE|48313&48314|
 C Effective Antivenom|QID|50770|M|47.06,75.72|NC|U|158678|N|Target Serrik and use the restorative balm.|
 T Effective Antivenom|QID|50770|M|47.06,75.72|N|To Serrik.|
 A The Secrets of Zul'Ahjin|QID|50539|M|47.06,75.72|N|From Serrik.|PRE|50770|
@@ -334,7 +334,7 @@ C Expedite the Excavation|QID|48872|M|49.89,76.20|N|Kill the Sethrak.|
 C Rescue the Relics|QID|48871|M|48.25,75.17|NC|US|N|Finish collecting the Relics.|
 T Expedite the Excavation|QID|48872|M|47.41,72.72|N|To Amre.|
 T Rescue the Relics|QID|48871|M|47.31,72.73|N|To Maaz.|
-A Power of the Overseer|QID|50535|M|47.31,72.73|N|From Maaz.|RANK|2|PRE|48871 & 48872|
+A Power of the Overseer|QID|50535|M|47.31,72.73|N|From Maaz.|RANK|2|PRE|48871&48872|
 K Overseer Nerzet|ACTIVE|50535|QO|1|M|48.89,76.67|T|Overseer Nerzet|N|Kill Overseer Nerzet to obtain the Azerite Shard.|
 T Power of the Overseer|QID|50535|M|47.32,72.72|N|To Maaz.|
 T Sulthis' Stone|QID|50561|M|47.06,75.72|N|To Serrik.|
@@ -369,10 +369,10 @@ t WANTED: Taz'raka the Traitor|QID|51162|M|38.88,77.32|N|To Norah.|
 T Alpacas Gone Wild|QID|48532|M|42.13,76.17|N|To Mugjabu.|
 C Vol'duni Fried Chicken|QID|48533|M|42.64,73.81|US|U|152572|N|Finish shooting down the Buzzards.|
 T Wasteland Survivor|QID|48585|M|43.40,75.36|N|To Razgaji.|
-A Snarltooth's Last Laugh|QID|48534|M|42.13,76.17|N|From Mugjabu.|RANK|2|PRE|48532 & 48533 & 48531|
+A Snarltooth's Last Laugh|QID|48534|M|42.13,76.17|N|From Mugjabu.|RANK|2|PRE|48532&48533&48531|
 T Mystery Meat|QID|48531|M|43.70,76.80|N|To Sezahjin.|
 T Vol'duni Fried Chicken|QID|48533|M|43.71,76.80|N|To Sezahjin.|
-A The Chef's Apprentice|QID|48655|M|43.71,76.80|N|From Sezahjin.|RANK|2|PRE|48532 & 48533 & 48531|
+A The Chef's Apprentice|QID|48655|M|43.71,76.80|N|From Sezahjin.|RANK|2|PRE|48532&48533&48531|
 T The Chef's Apprentice|QID|48655|M|43.39,78.63|N|To Junji (inside the crate).|
 A Savage Saurolisks|QID|48656|M|43.39,78.63|N|From Junji (inside the crate).|RANK|2|PRE|48655|
 A They Might Be Delicious|QID|48657|M|43.39,78.63|N|From Junji (inside the crate).|RANK|2|PRE|48655|
@@ -385,7 +385,7 @@ C Savage Saurolisks|QID|48656|M|42.12,80.19|US|N|Finish up with the Scaleclaw Sa
 T Savage Saurolisks|QID|48656|M|43.39,78.63|N|To Junji (inside the crate).|
 T They Might Be Delicious|QID|48657|M|43.39,78.63|N|To Junji (inside the crate).|
 T Snarltooth's Last Laugh|QID|48534|M|42.13,76.17|N|To Mugjabu.|
-A Liquid Motivation|QID|48846|M|43.23,76.96|N|From Taz'jin.|RANK|2|PRE|48657 & 48656 & 48534|
+A Liquid Motivation|QID|48846|M|43.23,76.96|N|From Taz'jin.|RANK|2|PRE|48657&48656&48534|
 B Zanchuli Reserve|ACTIVE|48846|M|42.87,76.31|L|160499|N|Buy a bottle of Zanchuli Reserve from  Taz'gin for the drunk around the corner.|RANK|2|
 C Liquid Motivation|QID|48846|M|43.23,76.96|CHAT|N|Give the bottle to Zauljin.|
 T Liquid Motivation|QID|48846|M|43.39,75.36|N|To Razgari.|
@@ -401,7 +401,7 @@ C Bandit Blades|QID|51602|M|40.79,76.04|S|N|Finish collecting the blades.|
 T Tongo|QID|48850|M|43.39,75.36|N|To Razgari.|
 T Stolen Goods|QID|48790|M|43.39,75.36|N|To Razgari.|
 T Bandit Blades|QID|51602|M|43.39,75.36|N|To Razgari.|
-A Arming the Tribe|QID|48847|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48850 & 51602 & 48790|
+A Arming the Tribe|QID|48847|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48850&51602&48790|
 C Arming the Tribe|QID|48847|M|42.40,76.26|CHAT|N|Run around the outpost arming villagers.|
 T Arming the Tribe|QID|48847|M|43.39,75.36|N|To Razgari.|
 A Mojambo|QID|51668|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48847|
@@ -446,13 +446,13 @@ K Commodore Calhoun|QID|50905|M|43.47,91.65;42.56,92.14|CS|QO|1|RARE|ITEM|162615
 T Dead Men Tell No Tales|QID|47870|M|44.66,86.98|N|To Randall Redmond.|
 T Seafaring Necessities|QID|47871|M|44.66,86.98|N|To Randall Redmond.|
 A Captain Hartford|QID|51810|M|44.66,86.98|N|From First Mate Redmond.|RANK|2|
-A Gang Bustin'|QID|49262|M|44.79,87.57;44.61,88.24|CS|U|160735|N|From Dockmaster Herrington. Must be in Ashvane disguise.|RANK|2|PRE|47871 & 47870|
-A Crabby Crab Stew|QID|49261|M|44.61,88.24|N|From Dockmaster Herrington.|RANK|2|PRE|47871 & 47870|
+A Gang Bustin'|QID|49262|M|44.79,87.57;44.61,88.24|CS|U|160735|N|From Dockmaster Herrington. Must be in Ashvane disguise.|RANK|2|PRE|47871&47870|
+A Crabby Crab Stew|QID|49261|M|44.61,88.24|N|From Dockmaster Herrington.|RANK|2|PRE|47871&47870|
 C Crabby Crab Stew|QID|49261|M|44.61,88.24|S|N|Kill Crabs and loot their meet as you travel towards the Siren's Call (ship at docks).|
 C Gang Bustin'|QID|49262|M|44.61,88.24|S|U|160735|NC|N|Question the Shady Dockhands as you travel towards and while on the ship. Sometimes they become hostile. Must be in Ashvane disguise.|
 K Captain Hartford|ACTIVE|51810|QO|1|M|43.13,90.85|T|Captain Hartford|N|Captain Hartford can be found on The Siren's Call.|RANK|2|
 T Captain Hartford|QID|51810|M|43.20,90.90|N|To Captain Redmond who can be found one deck above you.|
-A The Captain's Lockbox|QID|47873|M|43.20,90.90|N|From Captain Redmond.|RANK|2|PRE|47939 & 47871 & 49227 & 47870|
+A The Captain's Lockbox|QID|47873|M|43.20,90.90|N|From Captain Redmond.|RANK|2|PRE|47939&47871&49227&47870|
 T The Captain's Lockbox|QID|47873|M|43.20,90.77|N|To Captain Hartford's Lockbox.|
 C Gang Bustin'|QID|49262|M|44.61,88.24|U|160735|US|NC|N|Finish questioning the Shady Dockhands as you return to Dockmaster Herrington. Must be in Ashvane disguise.|
 C Crabby Crab Stew|QID|49261|M|44.61,88.24|US|N|Finish Collecting the crab meat as you travel back towards Dockmaster Herrington.|
@@ -479,8 +479,8 @@ C The Yard Arm of the Law|QID|51055|M|34.66,77.11|NC|QO|3|N|Free Jukanga the Sni
 C My Last Day Alive|QID|51056|M|35.83,75.26|NC|QO|2|U|159757|N|Use the medallion here to witness his battlefield memory.|
 T The Yard Arm of the Law|QID|51055|M|35.30,83.21|N|To First Mate Jamboya.|
 T My Last Day Alive|QID|51056|M|35.30,83.21|N|To First Mate Jamboya.|
-A The Grinning Idols|QID|47499|M|35.30,83.21|N|From First Mate Jamboya.|RANK|2|PRE|51055 & 51056|
-A Maroon 'em with Fire|QID|51057|M|35.30,83.21|N|From First Mate Jamboya.|RANK|2|PRE|51055 & 51056|
+A The Grinning Idols|QID|47499|M|35.30,83.21|N|From First Mate Jamboya.|RANK|2|PRE|51055&51056|
+A Maroon 'em with Fire|QID|51057|M|35.30,83.21|N|From First Mate Jamboya.|RANK|2|PRE|51055&51056|
 C Maroon'em with Fire|QID|51057|NC|S|U|159774|N|Put the canoes to the torch.|
 A Captain Gulnaku's Treasure|QID|49138|M|35.04,80.41|N|From Captain Gulnaku's Treasure Map.|RANK|2|
 K Quartermaster Boonzali|ACTIVE|47499|M|33.89,81.30|QO|1|N|Kill and loot Quartermaster Boonzali for the Idol of Binding|T|Quartermaster Boonzali|RANK|2|
@@ -495,7 +495,7 @@ C Monsters of Zem'lan|QID|47647|M|33.28,81.75|US|N|Bonus Objective|
 T Monsters of Zem'lan|QID|47647|M|33.28,81.75|N|Bonus Objective - Autocompleted.|
 T The Grinning Idols|QID|47499|M|33.28,81.75|N|To First Mate Jamboya.|
 T Maroon 'em with Fire|QID|51057|M|33.28,81.75|N|To First Mate Jamboya.|
-A The Golden Isle|QID|51059|M|33.28,81.75|N|From First Mate Jamboya.|RANK|2|PRE|51057 & 47499|
+A The Golden Isle|QID|51059|M|33.28,81.75|N|From First Mate Jamboya.|RANK|2|PRE|51057&47499|
 C The Golden Isle|QID|51059|M|33.28,81.75|NC|N|Hop in his boat.|
 T The Golden Isle|QID|51059|M|30.23,86.51|N|To First Mate Jamboya.|
 A Our Share of the Plunder|QID|51060|M|30.23,86.51|N|From First Mate Jamboya.|RANK|2|PRE|51059|
@@ -507,7 +507,7 @@ T The First Time I Died|QID|51061|M|29.85,87.99|N|To First Mate Jamboya.|
 $ Zem'lan's Buried Treasure|QID|51137|M|29.37,87.45|N|Click on the Disturbed Sand to expose Zem'lan's Buried Treasure. loot for artifact power and resources.|RANK|2|
 C Our Share of the Plunder|QID|51060|M|29.57,87.95|NC|US|N|Finish collecting Cursed Treasure of Zem'lan.|
 T Our Share of the Plunder|QID|51060|M|29.57,87.95|N|To First Mate Jamboya.|
-A This Be Mutiny|QID|48326|M|29.57,87.95|N|From First Mate Jamboya.|RANK|2|PRE|51061 & 51060|
+A This Be Mutiny|QID|48326|M|29.57,87.95|N|From First Mate Jamboya.|RANK|2|PRE|51061&51060|
 C This Be Mutiny|QID|48326|M|28.59,88.67|QO|1|NC|N|Ring the Gong of Zem'lan.|
 C This Be Mutiny|QID|48326|M|28.69,88.56|QO|2|N|Kill Pirate-King Zem'lan.|
 T This Be Mutiny|QID|48326|M|30.24,86.51|N|To First Mate Jamboya.|
@@ -542,7 +542,7 @@ f Terrace of the Devoted|ACTIVE|50641|M|27.65,50.33|N|At Vethiss.|
 T Break Their Ranks|QID|50641|M|27.20,53.85|N|To Zissiah.|
 T Push Them Back!|QID|49327|M|27.20,53.85|N|To Zissiah.|
 T A Powerful Prisoner|QID|49334|M|27.61,52.57|N|To Vorrik.|
-A The Keepers' Keys|QID|49340|M|27.62,52.57|N|From Vorrik.|PRE|49334 & 49327 & 50641|
+A The Keepers' Keys|QID|49340|M|27.62,52.57|N|From Vorrik.|PRE|49334&49327&50641|
 C The Keepers' Keys|QID|49340|M|27.62,52.57|CHAT|N|Give Vorrik Sulthis' stone.|
 T The Keepers' Keys|QID|49340|M|27.12,52.57|N|To Vorrik.|
 A The Missing Key|QID|49662|M|27.12,52.57|N|From Vorrik.|PRE|49340|
@@ -556,7 +556,7 @@ C A Charming Tail|QID|50817|M|29.40,62.47|NC|U|158883|N|Use the provided flute w
 C Just a Nip|QID|50979|M|29.41,62.31|US|N|Finish collecting the Atrivax Gel Samples.|
 T A Charming Tail|QID|50817|M|29.52,59.34|N|To Jenoh.|
 T Just a Nip|QID|50979|M|29.52,59.34|N|To Jenoh.|
-A My Hungry Neighbor|QID|50980|M|29.52,59.34|N|From Jenoh.|RANK|2|PRE|50979 & 50817|
+A My Hungry Neighbor|QID|50980|M|29.52,59.34|N|From Jenoh.|RANK|2|PRE|50979&50817|
 C My Hungry Neighbor|QID|50980|M|27.92,61.07|N|Kill the Territorial Hydra.|
 T My Hungry Neighbor|QID|50980|M|29.51,59.36|N|To Jenoh.|
 A Keep It Down!|QID|50834|M|29.51,59.36|N|From Jenoh.|RANK|2|PRE|50980|
@@ -579,7 +579,7 @@ C Get Us Some Beach|QID|50775|M|27.12,71.35|US|N|Finish collecting the Piles of 
 C Calldown: Cleaner|QID|50771|M|27.12,71.35|US|NC|N|Finish marking the targets.|U|158725|
 T Get Us Some Beach|QID|50775|M|26.21,73.67|N|To Merd Archfeld.|
 T Calldown: Cleaner|QID|50771|M|26.21,73.67|N|To Merd Archfeld.|
-A Awakened Elements|QID|50812|M|26.20,73.70|N|From Nerin Solvis.|RANK|2|PRE|50775 & 51991 & 50771|
+A Awakened Elements|QID|50812|M|26.20,73.70|N|From Nerin Solvis.|RANK|2|PRE|50775&51991&50771|
 K Enraged Azermental|ACTIVE|50812|QO|1|M|25.87,64.77|T|Enraged Azermental|N|Kill the Enraged Azermental.|RANK|2|
 T Awakened Elements|QID|50812|M|26.20,73.70|N|To Nerin Solvis.|RANK|2|
 
@@ -603,9 +603,9 @@ C Rhan'ka's Lost Friend|QID|47498|M|36.92,50.45|QO|1|NC|N|Pick up Zulsan's Crack
 C Dirty Work for Dirty Drinks|QID|47501|M|35.90,50.25|QO|1|US|N|Finish collecting the Caustic Scorpid Blood|
 T Rhan'ka's Lost Friend|QID|47498|M|37.41,51.10|N|To Rhan'ka.|
 T Dirty Work for Dirty Drinks|QID|47501|M|37.41,51.10|N|To Rhan'ka.|
-A The Great Cranium Caper|QID|47502|M|37.41,51.10|N|From Rhan'ka.|RANK|2|PRE|47501 & 47498|
-A Gozda'kun the Slaver|QID|47503|M|37.41,51.10|N|From Rhan'ka.|RANK|2|PRE|47501 & 47498|
-A The Best Honey In Vol'dun|QID|51717|M|37.41,51.10|N|From Rhan'ka.|RANK|2|PRE|47501 & 47498|
+A The Great Cranium Caper|QID|47502|M|37.41,51.10|N|From Rhan'ka.|RANK|2|PRE|47501&47498|
+A Gozda'kun the Slaver|QID|47503|M|37.41,51.10|N|From Rhan'ka.|RANK|2|PRE|47501&47498|
+A The Best Honey In Vol'dun|QID|51717|M|37.41,51.10|N|From Rhan'ka.|RANK|2|PRE|47501&47498|
 T The Best Honey In Vol'dun|QID|51717|M|40.45,55.36|N|To Rikati.|
 A Harvesting "Honey"|QID|51718|M|40.45,55.36|N|From Rikati.|RANK|2|PRE|51717|
 K Sevriss|ACTIVE|51164|QO|1|T|Sevriss|S|M|40.76,59.34|CS|N|This is a group quest, so keep an eye out for someone while in the area.|
@@ -622,7 +622,7 @@ T The Great Cranium Caper|QID|47502|M|43.70,60.25|N|To Rhan'ka.|
 T Unconventional Aromatics|QID|50328|M|43.70,60.25|N|To Rhan'ka.|
 T Gozda'kun the Slaver|QID|47503|M|43.70,60.25|N|To Rhan'ka.|
 t WANTED: Cobra Excursion Participants|QID|51164|M|43.51,60.22|N|To Rhan'ka.|
-A Powerful Spirits|QID|47638|M|43.53,60.39|N|From Rhan'ka.|RANK|2|PRE|47503 & 50328 & 47502|
+A Powerful Spirits|QID|47638|M|43.53,60.39|N|From Rhan'ka.|RANK|2|PRE|47503&50328&47502|
 C Powerful Spirits|QID|47638|M|43.51,60.43|QO|1|NC|N|Drink the Boiled Scorpid Blood.|
 T Powerful Spirits|QID|47638|M|43.51,60.21|N|To Rhan'ka.|
 A Creative Marketing|QID|48321|M|43.58,59.89|N|From Man'zul.|RANK|2|PRE|47638|
@@ -637,7 +637,7 @@ T The Best Kill is Overkill|QID|48320|M|42.75,61.07|N|To Volni.|
 f Whistlebloom Oasis|ACTIVE|47564|M|42.75,61.06|N|At Volni.|RANK|2|
 T Restocking the Buffet|QID|47564|M|43.71,60.22|N|To Zulsan.|
 T Creative Marketing|QID|48321|M|43.58,59.88|N|To Man'zul.|
-A A Goldtusk Greeting|QID|48322|M|43.51,60.20|N|From Rhan'ka.|RANK|2|PRE|48320 & 47564 & 48321|
+A A Goldtusk Greeting|QID|48322|M|43.51,60.20|N|From Rhan'ka.|RANK|2|PRE|48320&47564&48321|
 C A Goldtusk Greeting|QID|48322|M|43.18,61.51|QO|1|NC|N|Go outside and find Bladeguard Tarkaj. Click to resuscitate.|
 C A Goldtusk Greeting|QID|48322|M|43.49,60.43|QO|2|NC|N|Lead Bladeguard Tarkaj inside and click on the water.|
 C A Goldtusk Greeting|QID|48322|M|43.67,60.09|QO|3|NC|N|Use the (only) slightly used bandages on him.|
@@ -663,9 +663,9 @@ C Inconvenient Spirits|QID|49001|M|48.42,50.12|N|Finish releasing the Tortured S
 T Inconvenient Spirits|QID|49001|M|45.39,46.19|N|To Kenzou.|
 T They've Got Golems|QID|48334|M|45.39,46.15|N|To Tacha.|
 T Ranishu Are Resources|QID|48332|M|45.36,46.15|N|To Omi.|
-A An Army's Arsenal|QID|49139|M|45.36,46.15|N|From Omi.|RANK|2|PRE|48334 & 49001 & 48332|
-A Siphoning Souls|QID|48331|M|45.39,46.14|N|From Tacha.|RANK|2|PRE|48334 & 49001 & 48332|
-A The Strongest Rope in Vol'dun|QID|48335|M|45.39,46.19|N|From Kenzou.|RANK|2|PRE|48334 & 49001 & 48332|
+A An Army's Arsenal|QID|49139|M|45.36,46.15|N|From Omi.|RANK|2|PRE|48334&49001&48332|
+A Siphoning Souls|QID|48331|M|45.39,46.14|N|From Tacha.|RANK|2|PRE|48334&49001&48332|
+A The Strongest Rope in Vol'dun|QID|48335|M|45.39,46.19|N|From Kenzou.|RANK|2|PRE|48334&49001&48332|
 C The Strongest Rope in Vol'dun|QID|48335|M|47.03,43.81|S|N|Kill and loot the spiders to get Sandspinner Silk.|
 C Siphoning Souls|QID|48331|M|47.54,42.33|U|154051|S|N|Use the Salvaged Soulcatcher Totem before the golem's die to siphen off their souls.|
 K Specter of Mugabu|ACTIVE|49139|M|46.08,42.79|QO|2|T|Specter of Mugabu|N|Kill Specter of Mugabu.|
@@ -675,7 +675,7 @@ C The Strongest Rope in Vol'dun|QID|48335|M|47.03,43.81|US|N|Kill and loot the s
 T The Strongest Rope in Vol'dun|QID|48335|M|45.40,46.17|N|To Kenzou.|
 T Siphoning Souls|QID|48331|M|45.40,46.14|N|To Tacha.|
 T An Army's Arsenal|QID|49139|M|45.36,46.15|N|To Omi.|
-A Zandalari Treasure Trove|QID|48330|M|45.36,46.15|N|From Omi.|RANK|2|PRE|48335 & 48331 & 49139|
+A Zandalari Treasure Trove|QID|48330|M|45.36,46.15|N|From Omi.|RANK|2|PRE|48335&48331&49139|
 K Zak'rajan the Undying|ACTIVE|48330|QO|1|M|47.28,41.63|T|Zak'rajan the Undying|N|Kill Zak'rajan the Undying.|
 K Ranishu Ravager|QID|50883|M|45.90,47.68|L|158910|N|Kill the Ranishu mobs in the area to get a "Charged Ranishu Antennae."|PRE|47442|RANK|3|
 $ Mysterious Trashpile|QID|50883|M|46.98,46.55|ITEM|158910|N|Click on the mysterious trashpile to summon Jani, give Jani the shiny and he will give you treasure.|PRE|47442|
@@ -702,8 +702,8 @@ C Ready to Riot|QID|49665|M|49.10,33.11|QO|1|NC|US|N|Finish freeing and arming t
 C Make Them Fear Us|QID|49666|M|48.27,33.03|U|158884|NC|US|N|Finish planting the banners.|
 T Ready to Riot|QID|49665|M|46.14,33.23|N|To Nisha.|
 T Make Them Fear Us|QID|49666|M|46.14,33.23|N|To Nisha.|
-A Crater Conquered|QID|50746|M|46.14,33.23|N|From Nisha.|PRE|49665 & 49666|
-A Light Up the Gulch|QID|49668|M|46.09,33.27|N|From Kiro.|RANK|2|PRE|49665 & 49666|
+A Crater Conquered|QID|50746|M|46.14,33.23|N|From Nisha.|PRE|49665&49666|
+A Light Up the Gulch|QID|49668|M|46.09,33.27|N|From Kiro.|RANK|2|PRE|49665&49666|
 T The Little Ones|QID|49667|M|47.98,36.50|N|To Meerah.|
 T Crater Conquered|QID|50746|M|47.96,36.39|N|To Vorrik.|
 A Diplomacy and Dominance|QID|49141|M|47.96,36.39|N|From Vorrik.|PRE|50746|;grail is confused 50749 comes much later
@@ -718,7 +718,7 @@ C Don't Drop It... Yet|QID|50748|M|47.04,37.22|US|N|Finish collecting the Volati
 C Beaten But Not Broken|QID|48329|M|47.84,37.64;47.47,38.90|CS|QO|2|NC|N|Head up the hill to take Scion of Rakjan to Rakjan.|
 T Diplomacy and Dominance|QID|49141|M|47.21,39.15|N|To Vorrik up top of Rakjan's Peak.|
 T Don't Drop It... Yet|QID|50748|M|47.21,39.15|N|To Vorrik up top of Rakjan's Peak.|
-A Vengeance From Above|QID|49003|M|47.21,39.15|N|From Vorrik.|PRE|50748 & 49141|
+A Vengeance From Above|QID|49003|M|47.21,39.15|N|From Vorrik.|PRE|50748&49141|
 A Forced Grounding|QID|49002|M|47.10,38.71|N|From Faithless Trapper's Spear.|RANK|2|
 K Fangcaller Hrillik|ACTIVE|49002|QO|1|M|47.08,38.70|T|Hrillik's Pterrordax|U|154893|N|Click the spear to pull Fangcaller Hrillik down from the sky and kill him.|
 T Forced Grounding|QID|49002|M|47.16,39.36|N|To Rakjan the Unbroken.|
@@ -737,7 +737,7 @@ C Relics of Sethraliss|QID|50752|M|49.57,24.35|QO|4|NC|N|Pick up Blood of the Fa
 C Infuriating the Emperor|QID|50750|M|50.23,26.70|NC|US|N|If you still need to purge more, now is the time to finish.|
 T Infuriating the Emperor|QID|50750|M|51.95,28.68|N|To Vorrik.|
 T Relics of Sethraliss|QID|50752|M|51.95,28.68|N|To Vorrik.|
-A The Fall of Emperor Korthek|QID|50550|M|51.95,28.68|N|From Vorrik.|PRE|50750 & 50752|
+A The Fall of Emperor Korthek|QID|50550|M|51.95,28.68|N|From Vorrik.|PRE|50750&50752|
 C The Fall of Emperor Korthek|QID|50550|M|51.95,28.68|QO|1|CHAT|N|Tell Vorrik you are ready.|
 K Emperor Korthek|ACTIVE|50550|M|52.04,27.33|QO|2|T|Emperor Korthek|N|Kill Emperor Korthek.|
 T The Fall of Emperor Korthek|QID|50550|M|51.99,27.72|N|To Vorrik.|
@@ -763,7 +763,7 @@ K Crawg Tamer Traskniss|ACTIVE|49669|QO|1|T|Crawg Tamer Traskniss|M|55.94,32.26;
 C Untame Slaughter|QID|50757|M|56.58,30.62|US|N|Finish off this set of Faithless.|
 T Untame Slaughter|QID|50757|M|55.43,35.01|N|To Kiro.|
 T Unleash the Beasts|QID|49669|M|55.45,35.03|N|To Kiro.|
-A Free Ride|QID|50749|M|55.45,35.03|N|From Kiro.|RANK|2|PRE|50757 & 49669|
+A Free Ride|QID|50749|M|55.45,35.03|N|From Kiro.|RANK|2|PRE|50757&49669|
 C Free Ride|QID|50749|M|55.24,35.22|QO|1|N|Hop on the Battle Krolusk and guide him back to Vorrik's Sanctum.|
 R Vorrik's Sanctum|ACTIVE|50749|M|47.98,36.51|N|Path would probably be useful here.|
 T Tattered Note|QID|49437|M|47.98,36.51|N|To Meerah.|
@@ -830,7 +830,7 @@ C They Came From The Sea|QID|47577|M|63.97,22.71|U|160585|US|N|After you kill th
 T Crab Trapping|QID|47943|M|61.98,22.14|N|To Churka.|
 T They Came From The Sea|QID|47577|M|62.03,22.33|N|To Torka.|
 T Hidden Motives|QID|47570|M|62.03,22.33|N|To Torka.|
-A The Elder's Wisdom|QID|47571|M|62.03,22.34|N|From Torka.|RANK|3|PRE|47577 & 47570 & 47943|
+A The Elder's Wisdom|QID|47571|M|62.03,22.34|N|From Torka.|RANK|3|PRE|47577&47570&47943|
 C The Elder's Wisdom|QID|47571|M|61.60,20.52|CHAT|N|Deliver the Plans to Elder Kuppaka.|
 T The Elder's Wisdom|QID|47571|M|61.60,20.52|N|To Elder Kuppaka.|
 A The Ruined Temple|QID|47965|M|61.60,20.52|N|From Elder Kuppaka.|RANK|3|PRE|47571|
@@ -857,7 +857,7 @@ C Jungleweb Infestation|QID|47573|M|60.85,16.18|QO|1|N|Finish killing the Jungle
 T Jungleweb Infestation|QID|47573|M|58.51,11.71|N|To Tulu.|
 T All Webbed Up|QID|47574|M|58.51,11.71|N|To Tulu.|
 T Blessing of Kimbul|QID|47581|M|58.56,11.83|N|To Teekcha.|
-A Offering for the Loa|QID|47928|M|58.56,11.83|N|From Teekcha.|RANK|3|PRE|47573 & 47581 & 47574|
+A Offering for the Loa|QID|47928|M|58.56,11.83|N|From Teekcha.|RANK|3|PRE|47573&47581&47574|
 C Offering for the Loa|QID|47928|M|56.56,10.24|QO|1|CHAT|N|Deliver the Offering.|
 T Offering for the Loa|QID|47928|M|56.56,10.24|N|To Kimbul.|
 A The Curse of Mepjila|QID|47580|M|56.56,10.24|N|From Kimbul.|RANK|3|PRE|47928|

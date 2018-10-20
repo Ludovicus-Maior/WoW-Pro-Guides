@@ -185,7 +185,7 @@ C Finish Them!|QID|31767|US|M|33.03,8.07|N|Finish killing the Thunder Hold troop
 T Finish Them!|QID|31767|M|33.67,10.61;34.79,10.61|CC|N|To General Nazgrim, who has moved into the Thunder Hold (run up the steps).|
 T Fire Is Always the Answer|QID|31768|M|34.79,10.61|N|To General Nazgrim.|
 
-A The Final Blow!|QID|31769|PRE|31767 & 31768|M|34.79,10.61|N|From General Nazgrim.|
+A The Final Blow!|QID|31769|PRE|31767&31768|M|34.79,10.61|N|From General Nazgrim.|
 C The Final Blow!|QID|31769|U|89769|QO|1|M|34.01,9.84|NC|N|Head to the first barricade and use Nazgrim's Flage Gun to destroy it.|
 C The Final Blow!|QID|31769|U|89769|QO|2|M|34.65,9.8|NC|N|Head up the stairs to the second barricade and use Nazgrim's Flage Gun to destroy it.|
 C The Final Blow!|QID|31769|U|89769|QO|3|M|34.92,10.67|NC|N|Head along the corridor to the third barricade and use Nazgrim's Flage Gun to destroy it.|
@@ -212,7 +212,7 @@ C Face to Face With Consequence|QID|31771|M|34.32,10.60|N|Kill these guys as you
 T Face to Face With Consequence|QID|31771|M|29.15,13.82|N|To Taran Zhu.|
 T Prowler Problems|QID|31773|M|29.15, 13.82|N|To Taran Zhu.|
 T Regroup!|QID|29694|M|29.16,13.70|N|To Sergeant Gorrok.|
-A Seeking Zin'jun|QID|31774|PRE|29694 & 31771 & 31773|M|29.13,13.76|N|From Sergeant Gorrok.|
+A Seeking Zin'jun|QID|31774|PRE|29694&31771&31773|M|29.13,13.76|N|From Sergeant Gorrok.|
 T Priorities!|QID|31978|M|29.37,13.57|N|To Ellie Honeypaw.|
 h Honeydew Village|QID|31774|M|28.53,13.33|N|Talk to Brewmother Kiki if you want to make Pandaria you new home. This as a good place to set your hearthstone, as there is a portal to Orgrimar right outside the door.|
 f Honeydew Village|QID|31774|M|28.1,15.57|N|At Wing Hya.|
@@ -249,7 +249,7 @@ T Choppertunity|QID|31777|M|31.12,21.68|N|To Rivett Clutchpop.|
 T Unreliable Allies|QID|31778|M|31.45,21.72|N|To Merchant Zin.|
 T Assault on the Airstrip|QID|31775|M|31.65,21.97|N|To General Nazgrim.|
 T Strongarm Tactics|QID|31776|M|31.65,21.97|N|To General Nazgrim.|
-A The Darkness Within|QID|31779|PRE|31775 & 31776 & 31777 & 31778|M|31.65,21.97|N|From General Nazgrim.|
+A The Darkness Within|QID|31779|PRE|31775&31776&31777&31778|M|31.65,21.97|N|From General Nazgrim.|
 C The Darkness Within|QID|31779|T|Captain Doren|M|27.38,25.14;26.13,24.89;25.84,23.96|CS|N|He is hiding in a cave across the bridge.|
 T The Darkness Within|QID|31779|M|27.52,24.15|N|To the flagpole.|
 A Nazgrim's Command|QID|31999|PRE|31779|M|27.52,24.15|
@@ -268,7 +268,7 @@ T Forensic Science|QID|29815|M|28.15,24.87|N|To Shademaster Kiryn.|
 A Acid Rain|QID|29827|PRE|29815|M|28.21,24.91|N|From Shademaster Kiryn.|
 C Acid Rain|QID|29827|M|28.08,24.79|NC|N|Hop on the chopper, bombing mission.|
 T Acid Rain|QID|29827|M|28.20,24.86|N|To Shademaster Kiryn.|
-A Lay of the Land|QID|29822|PRE|29827 & 31112|M|28.42,24.93|N|From General Nazgrim.|
+A Lay of the Land|QID|29822|PRE|29827&31112|M|28.42,24.93|N|From General Nazgrim.|
 
 C Lay of the Land|QID|29822|NC|QO|1|M|32.01,27.96|
 $ Lucky Pandaren Coin|QID|31401|NC|M|32.01,27.96|N|There is a coin in the fountain worth 95g, you may want to pick it up. (once per char).|
@@ -335,7 +335,7 @@ $ Box of Supplies|QID|31864|M|24.63,53.27|N|Chest of supplies just accross the r
 C Silly Wikket, Slickies are for Hozen|QID|29942|M|27.29,55.08|N|Kill and loot turtles.|US|
 T Silly Wikket, Slickies are for Hozen|QID|29942|M|27.06,50.77|N|To Eekle Eekle.|
 T Boom Bait|QID|29939|M|27.21,50.78|N|To Rivett Clutchpop.|
-A The Scouts Return|QID|29971|LEAD|29730|PRE|29939 & 29942 & 31239|M|27.21,50.78|N|From Rivett Clutchpop.|
+A The Scouts Return|QID|29971|LEAD|29730|PRE|29939&29942&31239|M|27.21,50.78|N|From Rivett Clutchpop.|
 T The Scouts Return|QID|29971|M|28.63,47.40|N|To Shokia.|
 A Scouting Report: Hostile Natives|QID|29730|PRE|31239|M|37.72,45.31|N|From Riko.|
 C Scouting Report: Hostile Natives|QID|29730|NC|QO|1|M|38.84, 45.47|
@@ -454,7 +454,7 @@ C Simulacrumble|QID|29748|NC|M|47.82,16.45|
 C Break the Cycle|QID|29747|US|M|48.34,16.61|
 T Break the Cycle|QID|29747|M|48.34,16.61|N|To UI Alert.|
 T Simulacrumble|QID|29748|N|To UI Alert.|
-A An Urgent Plea|QID|29749|PRE|29747 & 29748|N|From UI Alert.|
+A An Urgent Plea|QID|29749|PRE|29747&29748|N|From UI Alert.|
 C An Urgent Plea|QID|29749|M|44.24,14.91|N|Get the staff|QO|1|
 C An Urgent Plea|QID|29749|M|44.36,15.89|N|Kill Ancient Spirits drifting towards the center to destroy the ritual.|QO|2|
 T An Urgent Plea|QID|29749|M|44.22,15.01|N|To Pei-Zhi. Wait for him to come down.|
@@ -473,14 +473,14 @@ T Ritual Artifacts|QID|29751|M|44.21,15.01|N|To Pei-Zhi.|
 T Vessels of the Spirit|QID|29750|M|44.21,15.01|N|To Pei-Zhi.|
 T The Wayward Dead|QID|29752|M|44.21,15.01|N|To Pei-Zhi.|
 A Back to Nature|QID|29753|PRE|29750|M|44.21,15.01|N|From Pei-Zhi.|
-A A Humble Offering|QID|29756|PRE|29750 & 29751 & 29752|M|44.21,15.01|N|From Pei-Zhi.|
+A A Humble Offering|QID|29756|PRE|29750&29751&29752|M|44.21,15.01|N|From Pei-Zhi.|
 C A Humble Offering|QID|29756|NC|S|M|39.71,10.98|N|Pick the mushrooms sparkling in this area.|
 $ Wodin's Mantid Shanker|QID|31397|M|39.4,7.3|N|Inside Owen's wishing well a BoA lost treasure item 'Wodin's Mantid Shanker' can be rarely found. Click this off when it's not there. Click the Lucky Golden Coin for a 10 minute luck buff|RANK|3|
 C Back to Nature|QID|29753|U|74808|M|39.88,10.43|N|Throw the jar to release the spirit.  The spirit may be hostile.|
 C A Humble Offering|QID|29756|NC|US|M|39.71,10.98|N|Finish picking the mushrooms you need.|
 T Back to Nature|QID|29753|M|44.26,15.04|N|To Pei-Zhi.|
 T A Humble Offering|QID|29756|M|44.26,15.04|N|To Pei-Zhi.|
-A To Bridge Earth and Sky|QID|29754|PRE|29753 & 29756|M|44.26,15.04|N|From Pei-Zhi.|
+A To Bridge Earth and Sky|QID|29754|PRE|29753&29756|M|44.26,15.04|N|From Pei-Zhi.|
 C To Bridge Earth and Sky|QID|29754|M|43.74,12.70|
 T To Bridge Earth and Sky|QID|29754|M|43.74,12.70|N|To UI Alert.|
 A Pei-Back|QID|29755|PRE|29754|M|43.74,12.70|N|From UI Alert.|
@@ -541,7 +541,7 @@ T Attention|QID|29624|M|41.59,28.35|N|To Instructor Xann.|
 C Husshun, the Wizened|QID|29634|CHAT|M|44.54,24.08|T|Husshun|N|Chat with him to challenge him to a match.|
 T Zhi-Zhi, the Dextrous|QID|29633|M|43.27,24.75|N|To Master Stone Fist.|
 T Husshun, the Wizened|QID|29634|M|43.27,24.75|N|To Master Stone Fist.|
-A Xiao, the Eater|QID|29635|PRE|29633 & 29634|M|43.27,24.75|N|From Master Stone Fist.|
+A Xiao, the Eater|QID|29635|PRE|29633&29634|M|43.27,24.75|N|From Master Stone Fist.|
 C Xiao, the Eater|QID|29635|CHAT|T|Xiao|M|43.12, 23.64|N|Chat with him to challenge him to a match.|
 T Xiao, the Eater|QID|29635|M|43.27,24.75|N|To Master Stone Fist.|
 A A Test of Endurance|QID|29636|PRE|29635|M|43.27,24.75|N|From Master Stone Fist.|
@@ -550,7 +550,7 @@ T A Test of Endurance|QID|29636|M|38.99,24.06|N|To Instructor Myang.|
 A The Rumpus|QID|29637|PRE|29636|M|38.99,24.06|N|From Instructor Myang.|
 C The Rumpus|QID|29637|M|38.98,23.23|N|Set off your fireworks to signal that you are ready to begin and then stay alive for 2 minutes.|U|73369|
 T The Rumpus|QID|29637|M|38.99,24.06|N|To Instructor Myang.|
-A Flying Colors|QID|29647|PRE|29624 & 29628 & 29629 & 29630 & 29637|M|43.27,24.75|N|From Instructor Myang.|
+A Flying Colors|QID|29647|PRE|29624&29628&29629&29630&29637|M|43.27,24.75|N|From Instructor Myang.|
 T Flying Colors|QID|29647|M|42.71,23.23|N|To High Elder Cloudfall.|
 
 F Dawn's Blossom|QID|29931|M|43.52,24.55|N|At Studious Chu.(or you can just ride straight to Nectarbreeze)|
@@ -571,7 +571,7 @@ T Rally the Survivors|QID|29579|M|43.48,75.96|N|To Shao the Defiant.|
 T Defiance|QID|29578|M|43.48,75.96|N|To Shao the Defiant.|
 T Spitfire|QID|29585|M|43.27,75.97|N|To Gentle Mother Hanae.|
 T Orchard-Supplied Hardware|QID|29580|M|43.27,75.97|N|To Gentle Mother Hanae.|
-A The Splintered Path|QID|29586|PRE|29578 & 29579 & 29580 & 29585|M|43.27,75.97|N|From Traumatized Nectarbreeze Farmer.|
+A The Splintered Path|QID|29586|PRE|29578&29579&29580&29585|M|43.27,75.97|N|From Traumatized Nectarbreeze Farmer.|
 
 C The Splintered Path|QID|29586|NC|M|40.71,73.87|N|There is an ambush along the way, you can outrun it if you choose.|
 T The Splintered Path|QID|29586|M|40.96,73.97|N|To Shao the Defiant.|
@@ -612,7 +612,7 @@ C Pages of History|QID|30002|S|M|55.70,59.95|N|Stomp(click) on the bookworms (or
 C Moth-Ridden|QID|30001|M|56.39,60.43|
 C Pages of History|QID|30002|US|M|55.70,59.95|N|Stomp(click) on the bookworms (or just kill them the normal way).|
 T Moth-Ridden|QID|30001|M|56.29,60.40|N|To Lorewalker Stonestep.|
-A Everything In Its Place|QID|30004|PRE|30001 & 30002|M|56.29,60.40|N|From Lorewalker Stonestep.|
+A Everything In Its Place|QID|30004|PRE|30001&30002|M|56.29,60.40|N|From Lorewalker Stonestep.|
 T Pages of History|QID|30002|M|55.70,59.95|N|To Lorewalker Stonestep.|
 C Emerald Serpent|QID|29999|NC|QO|3|M|56.51,58.44|N|Click on the cog to pick up the serpant.|
 C The Scryer's Dilemma|QID|29997|M|56.79,55.84|N|Kill the water elementals until the staff drops.|
@@ -624,7 +624,7 @@ T A New Vision|QID|30011|M|58.16,58.64|N|To Elder Sage Rain-Zhu.|
 T Everything In Its Place|QID|30004|M|58.16,58.64|N|To Elder Sage Rain-Zhu.|
 T Lighting Up the Sky|QID|30005|M|58.05,59.02|N|To Fei.|
 T The Rider's Bind|QID|29999|M|58.05,59.02|N|To Fei.|
-A The Jade Serpent|QID|30000|PRE|29999 & 30004 & 30005 & 30011|M|58.05,59.02|N|From Fei.|
+A The Jade Serpent|QID|30000|PRE|29999&30004&30005&30011|M|58.05,59.02|N|From Fei.|
 C The Jade Serpent|QID|30000|M|53.49,58.02|N|Cutscene and a cloadserpant ride.|
 T The Jade Serpent|QID|30000|M|55.83,57.05|N|To Elder Sage Wind-Yi.|
 
@@ -643,7 +643,7 @@ C Gauging Our Progress|QID|30484|QO|4|CHAT|M|27.03,55.00|
 C Sufficient Motivation|QID|30466|U|79884|US|NC|QO|1|M|27.14,46.70|
 T Sufficient Motivation|QID|30466|M|28.07,47.15|N|To General Nazgrim.|
 T Gauging Our Progress|QID|30484|M|28.07,47.15|N|To General Nazgrim.|
-A Last Piece of the Puzzle|QID|30485|PRE|30466 & 30484|M|28.21,46.68|N|From Lorewalker Cho.|
+A Last Piece of the Puzzle|QID|30485|PRE|30466&30484|M|28.21,46.68|N|From Lorewalker Cho.|
 C Last Piece of the Puzzle|QID|30485|M|28.19,46.71;44.53,66.99|N|Talk to Mishi for a ride. *this step will not autocomplete until you finish the next step*|CN|U|80071|
 
 C Last Piece of the Puzzle|QID|30485|U|80071|M|44.51,66.97|

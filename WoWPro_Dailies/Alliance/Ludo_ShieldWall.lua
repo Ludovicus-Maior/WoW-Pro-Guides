@@ -292,7 +292,7 @@ T Unfair Trade|QID|32418|M|34.29,48.69|Z|Dalaran City@DalaranCity|N|To Vereesa W
 T Nowhere to Hide|QID|32419|M|34.29,48.69|Z|Dalaran City@DalaranCity|N|To Vereesa Windrunner.|
 T Cashing Out|QID|32420|M|34.29,48.69|Z|Dalaran City@DalaranCity|N|To Vereesa Windrunner.|
 T Nowhere to Run|QID|32421|M|34.29,48.69|Z|Dalaran City@DalaranCity|N|To Vereesa Windrunner.|
-A What Had To Be Done|QID|32423|PRE|32417 & 32418 & 32419 & 32420 & 32421|M|34.29,48.69|Z|Dalaran City@DalaranCity|N|From Vereesa Windrunner.|
+A What Had To Be Done|QID|32423|PRE|32417&32418&32419&32420&32421|M|34.29,48.69|Z|Dalaran City@DalaranCity|N|From Vereesa Windrunner.|
 R Lion's Landing|QID|32423|M|34.29,48.69|Z|Dalaran City@DalaranCity|N|Ask Vereesa to send you back.|
 T What Had To Be Done|QID|32423|M|87.91,33.10|N|To King Varian Wrynn.|
 
@@ -319,7 +319,7 @@ C The Second Riddle: Fellowship|QID|32333|M|33.43,34.23|Z|The Jade Forest|N|Clic
 T The First Riddle: Mercy|QID|32332|M|88.89,31.75|N|To The Monkey King, at Lion's Landing|
 T The Second Riddle: Fellowship|QID|32333|M|88.89,31.75|N|To The Monkey King, at Lion's Landing|
 T The Third Riddle: Strength|QID|32334|M|88.89,31.75|N|To The Monkey King, at Lion's Landing|
-A The Greatest Prank|QID|32335|PRE|32332 & 32333 & 32334|M|88.89,31.75|N|From The Monkey King, at Lion's Landing|
+A The Greatest Prank|QID|32335|PRE|32332&32333&32334|M|88.89,31.75|N|From The Monkey King, at Lion's Landing|
 C The Greatest Prank|QID|32335|N|Listen to the story now...|
 T The Greatest Prank|QID|32335|M|88.98,31.72|N|To Anduin Wrynn|
 

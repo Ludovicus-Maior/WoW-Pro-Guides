@@ -125,7 +125,7 @@ C Second Sample: Whelps|QID|27766|US|M|66.55,51.98|N|Finish getting any corpses 
 
 T First Sample: Wild Eggs|QID|27765|M|66.39,55.29|N|To Rhea.|
 T Second Sample: Whelps|QID|27766|M|66.39,55.29|N|To Rhea.|
-A Lifting the Veil|QID|27770|PRE|27765 & 27766|M|66.39,55.29|N|From Rhea.|
+A Lifting the Veil|QID|27770|PRE|27765&27766|M|66.39,55.29|N|From Rhea.|
 C Lifting the Veil|QID|27770|M|66.45,55.04|N|Witness the final piece of Rhea's studies. Basically waiting untill Nyxondra appears.|
 T Lifting the Veil|QID|27770|M|66.43,55.33|N|To Rhea.|
 A Third Sample: Implanted Eggs|QID|27771|PRE|27770|M|66.43,55.33|N|From Rhea.|
@@ -171,7 +171,7 @@ N 5th Statue|QID|27886|M|48.77,52.82|N|Turn statue twice. Close this step when d
 C The Sentinel's Game|QID|27886|M|48.04,53.1|N|6th statue: Turn statue twice.|
 
 T The Sentinel's Game|QID|27886|M|48.64,51.55|N|(UI Alert)|
-A Ancient Protectors|QID|27887|PRE|27885 & 27886|M|48.64,51.55|N|(UI Alert)|
+A Ancient Protectors|QID|27887|PRE|27885&27886|M|48.64,51.55|N|(UI Alert)|
 C Ancient Protectors|QID|27887|M|50.18,51.69|N|In the center room talk to and defeat both large statues.|
 T Ancient Protectors|QID|27887|M|50.18,51.69|N|(UI Alert)|
 A The Titans' Trove|QID|27913|PRE|27887|M|50.18,51.69|N|(UI Alert)|
@@ -207,7 +207,7 @@ C Gargal, the Behemoth|QID|27893|M|20.94,42.89|N|Test out both abilities on any 
 T Jurrix the Striker|QID|27892|M|20.94,42.89|N|To Jurrix Whitemane.|
 T Amakkar, Jack of All Trades|QID|27891|M|20.94,42.89|N|To Amakkar.|
 T Gargal, the Behemoth|QID|27893|M|20.94,42.89|N|To Gargal.|
-A The Wrath of a Dragonflight|QID|27894|PRE|27891 & 27892 & 27893|M|20.94,42.89|N|From Amakkar.|
+A The Wrath of a Dragonflight|QID|27894|PRE|27891&27892&27893|M|20.94,42.89|N|From Amakkar.|
 A Survival of the Fattest|QID|27879|M|18.43,41.55|N|From Aidan Summerwind.|RANK|3|
 
 f New Kargath|QID|27892|M|17.19,40.05|N|From Gorrik.|

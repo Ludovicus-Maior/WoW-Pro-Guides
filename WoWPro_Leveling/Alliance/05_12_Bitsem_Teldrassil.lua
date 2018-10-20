@@ -336,7 +336,7 @@ T The Moss-twined Heart|QID|927|M|59.89,59.72|N|To Denalan.|
 A Planting the Heart|QID|941|PRE|927|M|59.89,59.72|N|From Denalan.|
 T Planting the Heart|QID|941|M|59.89,59.72|N|To Denalan's Planter.|
 
-A Teldrassil: The Burden of the Kaldorei|QID|7383|PRE|918 & 919|M|55.83,53.90|N|From Corithras Moonrage.|
+A Teldrassil: The Burden of the Kaldorei|QID|7383|PRE|918&919|M|55.83,53.90|N|From Corithras Moonrage.|
 T Rellian Greenspyre|QID|922|M|44.00,44.18|N|To Rellian Greenspyre.|
 
 A Mossy Tumors|QID|923|PRE|922|M|44.00,44.18|N|From Rellian Greenspyre.|

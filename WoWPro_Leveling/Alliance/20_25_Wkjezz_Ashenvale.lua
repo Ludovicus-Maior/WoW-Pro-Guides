@@ -371,7 +371,7 @@ C Put Out The Fire|QID|13884|M|49.78,47.06|N|Kill 10 Lava Ragers.|
 C Hot Lava|QID|13880|US|U|46352|M|49.78,47.06|N|Finish filling Lava Fissures.|
 T Hot Lava|QID|13880|M|52.22,56.47|N|To Core.|
 T Put Out The Fire|QID|13884|M|52.19,56.76|N|To Arctanus.|
-A Vortex|QID|13886|PRE|13880 & 13884|M|52.33,56.89|N|From The Vortex.|
+A Vortex|QID|13886|PRE|13880&13884|M|52.33,56.89|N|From The Vortex.|
 C Vortex|QID|13886|M|48.85,40.13|N|Use abilities 1 and 2 every time they are available. When you are on fire use ability 3.|
 T Vortex|QID|13886|M|52.06,56.46|N|To Sabina Pilgrim.|
 
@@ -475,7 +475,7 @@ T Ze Gnomecorder|QID|25607|M|35.37,71.24|N|To Professor Xakxak Gyromate.|
 T Retaking Mystral Lake|QID|26470|M|35.60,71.48|N|To Sentinel Velene Starstrike.|
 
 A Rebels Without a Clue|QID|26838|LEAD|26735|M|35.60,71.48|N|From Sentinel Velene Starstrike. If you do not plan on going to Stranglethorn, abandon this quest/skip this step.|
-A Do Yourself a Favor|QID|25613|PRE|13913 & 25607 & 13979|M|35.27,71.22|N|From Gnombus the X-Terminator.|
+A Do Yourself a Favor|QID|25613|PRE|13913&25607&13979|M|35.27,71.22|N|From Gnombus the X-Terminator.|
 
 N The End|N|This is the end of Ashenvale. The next guide is Stonetalon Mountains, which this guide leades directly into. Close this step, and it should load right up. I've been WKjezz, thanks for using our Addon!|
 

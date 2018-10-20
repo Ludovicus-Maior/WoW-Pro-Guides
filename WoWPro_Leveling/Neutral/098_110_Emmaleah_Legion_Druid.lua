@@ -281,7 +281,7 @@ C Cleaning Up|QID|42043|M|35.64,45.71|Z|EmeraldDreamway|US|NC|N|Keep walking on 
 T Teensy Weensies!|QID|42042|M|45.07,32.56|Z|EmeraldDreamway|N|To Mylune.|
 T Cleaning Up|QID|42043|M|43.00,30.25|Z|EmeraldDreamway|N|To Bashana Runetotem.|
 T Enduring the Nightmare|QID|42041|M|43.35,30.73|Z|EmeraldDreamway|N|To Archdruid Hamuul Runetotem.|
-A A Dying Dream|QID|42044|M|43.35,30.73|Z|EmeraldDreamway|N|From Archdruid Hamuul Runetotem.|PRE|42041 & 42042 & 42043|
+A A Dying Dream|QID|42044|M|43.35,30.73|Z|EmeraldDreamway|N|From Archdruid Hamuul Runetotem.|PRE|42041&42042&42043|
 C A Dying Dream|QID|42044|M|66.94,46.42|Z|EmeraldDreamway|N|Kill Witherheart.|T|Witherheart|
 T A Dying Dream|QID|42044|M|43.35,30.73|Z|EmeraldDreamway|N|To Archdruid Hamuul Runetotem.|
 A Communing With Malorne|QID|42045|M|43.35,30.73|Z|EmeraldDreamway|N|From Archdruid Hamuul Runetotem.|PRE|42044|
@@ -300,10 +300,10 @@ P The Dreamgrove|QID|42046|M|45.56,23.60|Z|EmeraldDreamway|N|Return to the Dream
 T A New Beginning|QID|42046|M|44.67,51.97|N|To Rensar Greathoof.|
 A Champion: Hamuul Runetotem|QID|42047|M|47.97,55.50|N|From/To Hamuul Runetotem.|PRE|42046|
 A Champion: Mylune|QID|42048|M|53.86,53.60|N|From/To Mylune.|PRE|42046|
-A Powering the Portal|QID|42049|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047 & 42048|
-A Defending the Isles|QID|43403|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047 & 42048|
+A Powering the Portal|QID|42049|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047&42048|
+A Defending the Isles|QID|43403|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047&42048|
 ;42037;44074;44075;44076;44077|
-A Focusing the Energies|QID|42365|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047 & 42048|
+A Focusing the Energies|QID|42365|M|44.57,50.12|N|From Keeper Remulos.|PRE|42047&42048|
 C Focusing the Energies|QID|42365|M|44.57,50.12|N|Assuming you have the Blood of Sargeras you can immediately turn this in, otherwise you can manually check this off and come turn it in when you have collected it.|
 t Focusing the Energies|QID|42365|M|44.57,50.12|N|To Keeper Remulos.|
 C Powering the Portal|QID|42049|M|46.40,48.65|NA|NC|N|Use scouting map to do the requested missions. Manually check this off to continue thru the guide while the missions are in progress.|
@@ -314,10 +314,10 @@ P Emerald Dreamway|QID|42129|M|32,24|Z|Val'sharah|N|Use Dreamwalk to return to B
 t The Cycle Continues|QID|43365|M|29.53,42.40|Z|EmeraldDreamway|N|To Brightwing.|
 t Eye of Azshara: Cleansing the Dreamway|QID|42719|M|29.53,42.40|Z|EmeraldDreamway|N|To Brightwing.|
 t The Pendant of Starlight|QID|42129|M|29.53,42.40|Z|EmeraldDreamway|N|To Brightwing.|
-A Champion: Brightwing|QID|43368|M|29.53,42.40|Z|EmeraldDreamway|N|From/To Brightwing.|PRE|43365 & 42719 & 42129|
+A Champion: Brightwing|QID|43368|M|29.53,42.40|Z|EmeraldDreamway|N|From/To Brightwing.|PRE|43365&42719&42129|
 t Powering the Portal|QID|42049|M|44.57,50.12|N|To Keeper Remulos.|
 t Focusing the Energies|QID|42365|M|44.57,50.12|N|To Keeper Remulos.|
-A Enter Nightmare|QID|42051|M|44.67,51.97|N|From Rensar Greathoof.|PRE|42049 & 42365|
+A Enter Nightmare|QID|42051|M|44.67,51.97|N|From Rensar Greathoof.|PRE|42049&42365|
 P Emerald Dreamway|QID|42051|M|55.27,22.93|N|Run out to the Emerald Dreamway.|ACTIVE|42051|
 C Enter Nightmare|QID|42051|M|44.56,45.38;81.32,40.02|CS|Z|EmeraldDreamway|N|Go through the Nightmare Portal.|
 T Enter Nightmare|QID|42051|M|61.44,65.67|Z|MalornesNightmare|N|To Keeper Remulos.|
@@ -416,7 +416,7 @@ C Destiny Unfulfilled|QID|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|N|
 T Destiny Unfulfilled|QID|44481^44496^44497|M|28.43,48.38|N|Return to Light's Heart in your order hall.|
 
 ;light's heart, requires AK>=7
-A The Hunt for Illidan Stormrage|QID|45174|M|28.43,48.38|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481 & 44496 & 44497|
+A The Hunt for Illidan Stormrage|QID|45174|M|28.43,48.38|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481&44496&44497|
 P Dalaran|QID|45174|QO|1|M|56.51,43.13|N|Take the portal to Dalaran.|ACTIVE|45174|
 R Krasus' Landing|QID|45174|QO|1|M|60.36,44.53|Z|Dalaran@Dalaran70|N|Run out and up to Krasus' Landing|ACTIVE|45174|
 F Illidari Stand|QID|45174|QO|1|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45174|
@@ -598,7 +598,7 @@ A Artifact Specific Quest|QID|40783^42428^41468^40649|M|44.55,51.02|N|From one o
 F Azurewing Repose|QID|43496^43501^43503^43505|M|46.72,64.70|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|43496^43501^43503^43505|
 C The Power Within|QID|43501^43505|N|Switch to the Azsuna guide (or not) and do the quests until you get the achievment "Defending Azurewing Repose". (you dont have to do the quests at the Ilidari camp.)|
 T The Power Within|QID|43496^43501^43503^43505|M|48.12,25.58|Z|Azsuna|N|To Archmage Kalec.|
-A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. This is  a mythic dungeon quest.|PRE|43496 & 43501 & 43503 & 43505|
+A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. This is  a mythic dungeon quest.|PRE|43496&43501&43503&43505|
 
 C Investigate the Broken Shore|QID|45992|M|52.66,51.20|NC|N|Use scouting map to do the requested mission. This mission requires ilvl 830 champions, so it may be awhile before you can complete it.|
 

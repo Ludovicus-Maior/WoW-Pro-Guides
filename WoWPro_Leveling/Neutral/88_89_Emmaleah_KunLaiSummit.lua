@@ -328,7 +328,7 @@ T Repossession|QID|30469|M|74.96,88.86|N|To Merchant Shi.|
 T Father and Child Reunion|QID|30834|M|74.96,88.86|N|To Merchant Shi, it will take a few seconds for the quest turn-in to show.|
 T Enraged Vengeance|QID|30468|M|74.80,88.68|N|To Swordmistress Mei.|
 
-A The Ritual|QID|30480|PRE|30468 & 30496 & 30967|M|75.20,88.25|N|From Waterspeaker Gorai.|
+A The Ritual|QID|30480|PRE|30468&30496&30967|M|75.20,88.25|N|From Waterspeaker Gorai.|
 C The Ritual|QID|30480|CHAT|QO|1|M|74.92,88.52|N|Talk to Waterspeaker Gorai and tell him you are ready to start the ritual.|
 C The Ritual|QID|30480|QO|2|M|74.92,88.52|N|Wait for Waterspeaker to lay Inkgill to rest. Once complete, a Sha will spawn. Kill it.|
 C The Ritual|QID|30480|QO|3|M|74.92,88.52|N|Kill the Sha that spawns.|
@@ -378,8 +378,8 @@ C Root Vegetables|QID|30581|US|M|60.03,88.43|N|The vegetables can be looted from
 C Farmhand Freedom|QID|30571|M|58.77,89.23;61.88,87.04|CN|US|N|Kill the Orco Overseers near the slaves to free them.|
 T ... and the Pot, Too!|QID|30581|M|60.17,85.92|N|To Uyen Chow.|
 T Farmhand Freedom|QID|30571|M|60.24,85.79|N|To Farmer Chow.|
-A Back to Westwind Rest|QID|31252|PRE|30571 & 30581|FACTION|Alliance|M|60.24,85.79|N|From Farmer Chow.|
-A Back to Eastwind Rest|QID|31253|PRE|30571 & 30581|FACTION|Horde|M|60.24,85.79|N|From Farmer Chow.|
+A Back to Westwind Rest|QID|31252|PRE|30571&30581|FACTION|Alliance|M|60.24,85.79|N|From Farmer Chow.|
+A Back to Eastwind Rest|QID|31253|PRE|30571&30581|FACTION|Horde|M|60.24,85.79|N|From Farmer Chow.|
 
 R Mogujia|QID|30595|M|59.55,78.27|N|Head to Mogujia, which is north of Chow Farmstead.|
 
@@ -400,21 +400,21 @@ C Round 'Em Up|QID|31256|FACTION|Horde|US|NC|M|59.99,80.46|N|Locate and click on
 
 T Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|M|54.17,83.27|N|To Sully "The Pickle" McLeary.|
 T Mogu?! Oh No-gu!|QID|30619|FACTION|Alliance|M|54.17,83.42|N|To Elder Tsulan.|
-A Pandaren Prisoners|QID|30650|PRE|30619 & 31252|FACTION|Alliance|M|54.17,83.42|N|From Elder Tsulan.|
-A Barrels of Fun|QID|30651|PRE|30619 & 31252|FACTION|Alliance|M|54.17,83.27|N|From Sully "The Pickle" McLeary.|
+A Pandaren Prisoners|QID|30650|PRE|30619&31252|FACTION|Alliance|M|54.17,83.42|N|From Elder Tsulan.|
+A Barrels of Fun|QID|30651|PRE|30619&31252|FACTION|Alliance|M|54.17,83.27|N|From Sully "The Pickle" McLeary.|
 T Back to Westwind Rest|QID|31252|FACTION|Alliance|M|53.79,84.11|N|To Farmhand Bo.|
 T Deanimate the Reanimated|QID|30593|FACTION|Alliance|M|53.49,83.38|N|To Mishka.|
 T Round 'Em Up|QID|30575|FACTION|Alliance|M|53.77,82.67|N|To Admiral Taylor.|
-A In Tents Channeling|QID|30652|PRE|30619 & 31252|FACTION|Alliance|M|53.80,82.74|N|From Admiral Taylor.|
+A In Tents Channeling|QID|30652|PRE|30619&31252|FACTION|Alliance|M|53.80,82.74|N|From Admiral Taylor.|
 
 T Mogu?! Oh No-gu!|QID|30620|FACTION|Horde|M|62.32,79.69|N|To Elder Shiao.|
 T Back to Eastwind Rest|QID|31253|FACTION|Horde|M|62.54,79.50|N|To Farmhand Ko.|
 T Best Meals Anywhere!|QID|31251|FACTION|Horde|M|62.76,79.85|N|To Rivett Clutchpop.|
-A Barrels of Fun|QID|30656|PRE|30620 & 31253|FACTION|Horde|M|62.76,79.85|N|From Rivett Clutchpop.|
+A Barrels of Fun|QID|30656|PRE|30620&31253|FACTION|Horde|M|62.76,79.85|N|From Rivett Clutchpop.|
 T Deanimate the Reanimated|QID|30594|FACTION|Horde|M|62.69,80.63|N|To Shademaster Kiryn.|
 T Round 'Em Up|QID|31256|FACTION|Horde|M|62.92,80.22|N|To General Nazgrim.|
-A In Tents Channeling|QID|30657|PRE|30620 & 31253|FACTION|Horde|M|62.92,80.22|N|From General Nazgrim.|
-A Pandaren Prisoners|QID|30655|PRE|30620 & 31253|FACTION|Horde|M|62.36,79.64|N|From Elder Shiao.|
+A In Tents Channeling|QID|30657|PRE|30620&31253|FACTION|Horde|M|62.92,80.22|N|From General Nazgrim.|
+A Pandaren Prisoners|QID|30655|PRE|30620&31253|FACTION|Horde|M|62.36,79.64|N|From Elder Shiao.|
 
 R Fire Camp Ordo |QID|30657^30652|M|50.50,78.59|
 C Pandaren Prisoners|QID|30655^30650|NC|S|M|49.67,80.36|N|Free the Pandaren Prisoners, they are located throughout Fire Camp Ordo.|
@@ -452,7 +452,7 @@ A Cho's Missive|QID|31459|FACTION|Horde|M|62.67,80.65|N|From Shademaster Kiryn.|
 A Muskpaw Ranch|QID|31457|LEAD|30488|PRE|30661^30663|FACTION|Horde|M|62.55,79.53|N|From Farmhand Ko.|
 A Temple of the White Tiger|QID|31393|LEAD|31395|FACTION|Horde|M|2.55,79.53|N|From Farmhand Ko.|
 
-R Lao & Son's Yakwash|QID|31456^31457|M|70.13,70.24|N|Head to Lao & Son's Yakwash, located north-east.|
+R Lao&Son's Yakwash|QID|31456^31457|M|70.13,70.24|N|Head to Lao&Son's Yakwash, located north-east.|
 T Muskpaw Ranch|QID|31456^31457|M|71.50,70.04|N|To Lao Muskpaw, he walkes back and forth between the two buildings.|
 A The Missing Muskpaw|QID|30488|M|71.50,70.04|N|From Lao Muskpaw.|
 A Fresh Needle Scent|QID|30489|M|71.50,70.04|N|From Lao Muskpaw.|
@@ -463,8 +463,8 @@ T The Missing Muskpaw|QID|30488|M|74.96,74.52|N|To Muskpaw Jr. He is in the back
 A At the Yak Wash|QID|30491|PRE|30488|M|74.96,74.52|N|From Muskpaw Jr. \nYou can ride Jr's Yak out of the cave and leave vehicle when you are out.|
 C Fresh Needle Scent|QID|30489|US|M|71.50,70.04|N|Finish killing and looting the Needle Sprite's|
 
-R Lao & Son's Yakwash|QID|30491|M|75.00,74.53|N|Head back to Lao & Son's Yakwash, you can jump onto Tuffi and have him ride you there if you're still at the back of the cave.|
-C At the Yak Wash|QID|30491|S|N|Locate an Escaped Yak, jump on, then ride it to Lao & Son's Yakwash. Repeat until all six are done.|
+R Lao&Son's Yakwash|QID|30491|M|75.00,74.53|N|Head back to Lao&Son's Yakwash, you can jump onto Tuffi and have him ride you there if you're still at the back of the cave.|
+C At the Yak Wash|QID|30491|S|N|Locate an Escaped Yak, jump on, then ride it to Lao&Son's Yakwash. Repeat until all six are done.|
 K Burilgi Despoiler|QID|30587|N|Kill and loot a Burilgi Despoiler to obtain a quest.|
 A Yakity Yak|QID|30587|PRE|30488|M|71.67,73.56|N|This quest is auto-accepted|
 A The Late Mrs. Muskpaw|QID|30582|U|80241|N|Click the bracelet to obtain this quest.|
@@ -473,13 +473,13 @@ A The Fearmaster|QID|30804|PRE|30582|M|71.30,69.68|N|From Lao Muskpaw.|
 T Fresh Needle Scent|QID|30489|M|71.42,69.75|N|To Lao Muskpaw.|
 C Yakity Yak|QID|30587|S|M|69.94,72.81|N|Kill the Burilgi Despoiler's|
 K The Fearmaster|T|The Fearmaster|QO|1|QID|30804|M|68.20,74.70|N|Kill The Fearmaster|
-C At the Yak Wash|QID|30491|US|M|71.39,69.05|N|Finish bringing the Escaped Yak to Lao & Son's Yakwash.|
+C At the Yak Wash|QID|30491|US|M|71.39,69.05|N|Finish bringing the Escaped Yak to Lao&Son's Yakwash.|
 C Yakity Yak|QID|30587|US|M|69.94,72.81|N|Finish killing the Burilgi Despoiler's|
 
 T Yakity Yak|QID|30587|M|71.42,69.75|N|To Lao Muskpaw.|
 T The Fearmaster|QID|30804|M|71.37,69.64|N|To Lao Muskpaw.|
 T At the Yak Wash|QID|30491|M|71.34,69.31|N|To Muskpaw Jr..|
-A Back in Yak|QID|30492|PRE|30491 & 30587|M|71.33,69.28|N|From Muskpaw Jr..|
+A Back in Yak|QID|30492|PRE|30491&30587|M|71.33,69.28|N|From Muskpaw Jr..|
 
 R The Grummle Bazaar|QID|30492|CS|M|69.47,68.93;66.49,66.62;61.6,62.03;65.51,61.26|
 C Back in Yak|QID|30492|M|65.51,61.26|
@@ -498,7 +498,7 @@ C Traffic Issues|QID|30616|US|M|63.53,66.80|N|Finish killing the Ruqin Yaungols 
 T A Grummle's Luck|QID|30808|M|64.71,61.76|N|To Lucky Eightcoins.|
 T Oil Stop|QID|30614|M|65.49,60.82|N|To Slimy Inkstain.|
 T Traffic Issues|QID|30616|M|64.88,60.49|N|To Smokey Sootassle.|
-A Roadside Assistance|QID|30617|PRE|30614 & 30616 & 30808|M|64.88,60.49|N|From Smokey Sootassle.|
+A Roadside Assistance|QID|30617|PRE|30614&30616&30808|M|64.88,60.49|N|From Smokey Sootassle.|
 
 R Temple of the White Tiger|QID|31392^31393|M|66.8,59.29|N|Head to the Temple of the White Tiger, then run up the path.|
 f Temple of the White Tiger|QID|31392^31393|M|66.31,50.67|N|At Big Greenfeather. Just follow the path up the hill.|
@@ -546,7 +546,7 @@ T They Stole My Luck!|QID|30621|M|57.32,60.19|N|To Ji-Lu the Lucky.|
 T Resupplying One Keg|QID|30618|M|57.72,61.76|N|To Big Sal.|
 T Instant Courage|QID|30601|M|57.22,61.21|N|To Uncle Cloverleaf.|
 
-A Comin' Round the Mountain|QID|30487|PRE|30601 & 30618 & 30621|M|57.22,61.21|N|From Uncle Cloverleaf.|
+A Comin' Round the Mountain|QID|30487|PRE|30601&30618&30621|M|57.22,61.21|N|From Uncle Cloverleaf.|
 C Comin' Round the Mountain|QID|30487|M|57.33,61.55|N|Board Ji-Lu's Cart|NC|QO|1|
 C Comin' Round the Mountain|QID|30487|M|57.33,61.55|N|Ride through the mountains. If any Knucklethump Attackers jump onto your cart, select them then use action 1 to get rid of them.|QO|2|
 T Comin' Round the Mountain|QID|30487|M|48.14,49.04|N|To Lucky Bluestring.|
@@ -639,7 +639,7 @@ C The Scent of Life|QID|30806|US|M|59.61,22.26|N|Kill all the crabs you see, the
 T Justice|QID|30805|M|60.60,21.36|N|To Sage Liao.|
 T The Scent of Life|QID|30806|M|60.60,21.36|N|To Sage Liao.|
 T By the Falls, For the Fallen|QID|30807|M|60.60,21.36|N|To Sage Liao.|
-A Preparing the Remains|QID|30819|PRE|30805 & 30806 & 30807|M|60.60,21.36|N|From Sage Liao.|
+A Preparing the Remains|QID|30819|PRE|30805&30806&30807|M|60.60,21.36|N|From Sage Liao.|
 
 C Make A Fighter Out of Me|QID|30942|M|62.43,28.30|S|QO|1|N|Kill the trolls next to the village, with Shomi tagging along.|
 C It Takes A Village|QID|30944|M|62.43,28.30|N|Talk to the Exhauted Defenders and tell them to relieve themselves.|CHAT|
@@ -662,7 +662,7 @@ r Repair/Restock|QID|30943|M|63.38,30.69|N|You want to repair now, as he is bugg
 T Handle With Care|QID|30943|M|63.23,28.68|N|To Elder Shu. He is upstairs on the balcony.|
 T It Takes A Village|QID|30944|M|62.33,29.06|N|To Lorewalker Cho.|
 
-A Enemies At Our Door|QID|31011|PRE|30942 & 30943 & 30944 & 30945|M|62.33,29.06|N|From Lorewalker Cho.|
+A Enemies At Our Door|QID|31011|PRE|30942&30943&30944&30945|M|62.33,29.06|N|From Lorewalker Cho.|
 C Enemies At Our Door|QID|31011|M|64.49,28.84|S|QO|1|N|Kill Amani Berserkers.|
 C Enemies At Our Door|QID|31011|M|61.24,29.27|QO|2|NC|N|Roll the barrels down the hill.|
 C Enemies At Our Door|QID|31011|M|64.49,28.84|QO|3|N|Kill the Gurubashi Bloodriders. If you wait till the riders are at the gate, the defenders will assist.|
@@ -692,7 +692,7 @@ K Mo Mo|QID|30603|T|Mo Mo|L|81137|M|48.2,72.8|N|Up the hill, in the cave, there 
 T The Rabbitsfoot|QID|30602|M|51.97,67.21|N|To Brother Rabbitsfoot, who is now located in The Burlap Waystation.|
 T The Broketooth Ravage|QID|30603|M|51.97,67.21|N|To Brother Rabbitsfoot.|
 
-A A Monkey Idol|QID|30599|PRE|30602 & 30603|M|51.97,67.21|N|From Brother Rabbitsfoot.|
+A A Monkey Idol|QID|30599|PRE|30602&30603|M|51.97,67.21|N|From Brother Rabbitsfoot.|
 A No Pack Left Behind|QID|30600|PRE|30603|M|51.97,67.21|N|From Brother Rabbitsfoot.|
 A Breaking Broketooth|QID|30604|PRE|30603|M|51.97,67.21|N|From Brother Rabbitsfoot.|
 C Breaking Broketooth|QID|30604|S|M|55.44,70.84|
@@ -708,7 +708,7 @@ C Breaking Broketooth|QID|30604|US|M|55.44,70.84|
 T A Monkey Idol|QID|30599|M|51.97,67.21|N|To Brother Rabbitsfoot.|
 T No Pack Left Behind|QID|30600|M|51.97,67.21|N|To Brother Rabbitsfoot.|
 
-A Bros Before Hozen|QID|30605|PRE|30599 & 30600|M|51.97,67.21|N|From Brother Rabbitsfoot.|
+A Bros Before Hozen|QID|30605|PRE|30599&30600|M|51.97,67.21|N|From Brother Rabbitsfoot.|
 T Breaking Broketooth|QID|30604|M|51.97,67.21|N|To Brother Rabbitsfoot.|
 C Bros Before Hozen|QID|30605|NC|M|50.53,64.21|N|Brother Yakshoe is on top of a little hill on the edge of Knucklethump Hole.Path up the hill can be found to the east.|
 T Bros Before Hozen|QID|30605|M|50.60,64.08|N|To Brother Yakshoe.|
@@ -725,9 +725,9 @@ K Cho Cho the Wicked|QID|30607|US|T|Cho Cho the Wicked|L|80535|M|48.82,59.66|N|I
 C Hozen Love Their Keys|QID|30607|M|49.00,59.28|NC|N|Click on the lock to release Poot Poot. Poot Poot will give you a ride back to The Burlap Waystation.|QO|2|
 T Hozen Love Their Keys|QID|30607|M|52.02,67.18|N|To Brother Yakshoe.|
 T The Snackrifice|QID|30608|M|52.02,67.18|N|To Brother Yakshoe.|
-A Grummle! Grummle! Grummle!|QID|30610|PRE|30607 & 30608|M|52.02,67.18|N|From Brother Yakshoe.|
+A Grummle! Grummle! Grummle!|QID|30610|PRE|30607&30608|M|52.02,67.18|N|From Brother Yakshoe.|
 T Thumping Knucklethump|QID|30606|M|51.98,67.21|N|To Brother Rabbitsfoot.|
-A Unleash The Yeti!|QID|30611|PRE|30607 & 30608|M|51.98,67.21|N|From Brother Rabbitsfoot.|
+A Unleash The Yeti!|QID|30611|PRE|30607&30608|M|51.98,67.21|N|From Brother Rabbitsfoot.|
 
 R The Dooker Dome|QID|30611|M|46.56,62.95|
 C Unleash The Yeti!|QID|30611|M|46.56,62.95|S|N|Kill the Cagemasters. Beware the wandering elite hozen, you can fight in the little caves to stay out of his way.|
@@ -735,7 +735,7 @@ C Grummle! Grummle! Grummle!|QID|30610|M|44.84,63.64|NC|N|Click on the Grummle G
 C Unleash The Yeti!|QID|30611|M|46.56,62.95|US|N|Finish killing the Cagemasters. Beware the wandering elite hozen, you can fight in the little caves to stay out of his way.|
 T Grummle! Grummle! Grummle!|QID|30610|M|45.94,64.05|N|To Brother Yakshoe, who is now at The Dooker Dome..|
 T Unleash The Yeti!|QID|30611|M|45.91,64.06|N|To Brother Rabbitsfoot, who is now at The Dooker Dome.|
-A The Leader Hozen|QID|30612|PRE|30607 & 30608|M|45.91,64.06|N|From Brother Rabbitsfoot.|
+A The Leader Hozen|QID|30612|PRE|30607&30608|M|45.91,64.06|N|From Brother Rabbitsfoot.|
 C The Leader Hozen|QID|30612|M|46.15,63.24|N|Enter into the ring, and engage Chomp Chomp.|QO|1|
 C The Leader Hozen|QID|30612|QO|2|M|46.15,63.24|N|Kill The Ook of Dook. Watch for the lightning bolts. |
 T The Leader Hozen|QID|30612|M|51.97,67.21|N|To Brother Rabbitsfoot, who has moved back to the Burlap Waystation.|
@@ -814,7 +814,7 @@ C A Line Unbroken|QID|30715|M|29.97,64.44|QO|3|NC|N|Click on the hero.|
 C Honor, Even in Death|QID|30723|US|M|30.22,62.06|
 T A Line Unbroken|QID|30715|M|35.12,59.66|N|To Ban Bearheart.|
 T Honor, Even in Death|QID|30723|M|34.95,59.31|N|To Lin Silentstrike.|
-A To the Wall!|QID|30724|PRE|30715 & 30723|M|34.95,59.31|N|From Lin Silentstrike.|
+A To the Wall!|QID|30724|PRE|30715&30723|M|34.95,59.31|N|From Lin Silentstrike.|
 C To the Wall!|QID|30724|M|34.55,59.05|N|Talk to Lin for a ride to the wall.|
 T To the Wall!|QID|30724|M|29.31,62.29|N|To Suna Silentstrike.|
 A Off the Wall!|QID|30750|PRE|30724|M|29.31,62.29|N|From Suna Silentstrike.|
@@ -825,7 +825,7 @@ C A Terrible Sacrifice|QID|30751|US|M|26.27,59.10|
 C Off the Wall!|QID|30750|M|26.98,59.95|N|Right-click to boot them off the wall (at low health) or just kill them.|
 T Off the Wall!|QID|30750|M|29.31,62.29|N|To Suna Silentstrike.|
 T A Terrible Sacrifice|QID|30751|M|29.24,62.30|N|To Lao-Chin the Iron Belly.|
-A Lao-Chin's Gambit|QID|30994|PRE|30750 & 30751|M|29.31,62.29|N|From Suna Silentstrike.|
+A Lao-Chin's Gambit|QID|30994|PRE|30750&30751|M|29.31,62.29|N|From Suna Silentstrike.|
 C Lao-Chin's Gambit|QID|30994|M|29.31,62.25|N|Talk to Suna for a ride back.|
 T Lao-Chin's Gambit|QID|30994|M|31.82,60.10|N|To Lao-Chin the Iron Belly.|
 A Do a Barrel Roll!|QID|30991|PRE|30994|M|31.82,60.10|N|From Lao-Chin the Iron Belly.|

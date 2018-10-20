@@ -265,7 +265,7 @@ T Salvage the Supplies |QID|14094|Z|GilneasCity|M|59.58,26.77|N|Back to Gwen Arm
 T All Hell Breaks Loose |QID|14093|Z|GilneasCity|M|59.80,22.23|N|To Prince Liam Greymane.|
 T Evacuate the Merchant Square |QID|14098|Z|GilneasCity|M|59.80,22.23|N|To Prince Liam Greymane.|
 
-A Royal Orders |QID|14099|Z|GilneasCity|M|59.80,22.23|N|From Prince Liam Greymane.|PRE|14093 & 14098 & 14094|
+A Royal Orders |QID|14099|Z|GilneasCity|M|59.80,22.23|N|From Prince Liam Greymane.|PRE|14093&14098&14094|
 T Royal Orders |QID|14099|Z|GilneasCity|M|70.76,55.03|CC|N|To Gwen Armstead, who has now moved into the Military District.|
 
 A Your Instructor |QID|14265|PRE|14099|Z|GilneasCity|M|70.7,54.7|C|Warrior|N|From Gwen Armstead.|
@@ -318,7 +318,7 @@ C While You're At It |QID|24930|Z|GilneasCity|M|58.0,72.0|N|Go back down to the 
 T While You're At It |QID|24930|Z|GilneasCity|M|65.5,77.4|N|To Lord Godfrey.|
 T Brothers In Arms |QID|26129|Z|GilneasCity|M|65.9,77.4|N|To King Genn Greymane.|
 
-A The Rebel Lord's Arsenal |QID|14159|Z|GilneasCity|M|65.9,77.4|N|From King Genn Greymane.|PRE|26129 & 24930|
+A The Rebel Lord's Arsenal |QID|14159|Z|GilneasCity|M|65.9,77.4|N|From King Genn Greymane.|PRE|26129&24930|
 T The Rebel Lord's Arsenal |QID|14159|Z|GilneasCity|M|55.61,81.55|N|Follow the path around to the break in the houses, and you'll find a cellar door. Click it and it will open, revealing a staircase. Go down the stairs to Josiah Avery.|
 
 A From the Shadows |QID|14204|Z|GilneasCity|M|56.9,81.7|N|Turn around and get this quest from Lorna Crowley.|PRE|14159|
@@ -377,7 +377,7 @@ C Hold the Line|QID|14347|Z|Gilneas|M|35.40,66.40|N|Kill Forsaken Invaders.|US|
 T Hold the Line|QID|14347|Z|Gilneas|M|35.30,66.50|N|To Prince Liam Greymane.|
 T You Can't Take 'Em Alone|QID|14348|Z|Gilneas|M|35.30,66.50|N|To Prince Liam Greymane.|
 
-A Holding Steady|QID|14366|Z|Gilneas|M|35.92,66.25|N|From Prince Liam Greymane.|PRE|14347 & 14348|
+A Holding Steady|QID|14366|Z|Gilneas|M|35.92,66.25|N|From Prince Liam Greymane.|PRE|14347&14348|
 T Holding Steady|QID|14366|Z|Gilneas|M|37.36,63.29|N|To Gwen Armstead.|
 
 A The Allens' Storm Cellar|QID|14367|Z|Gilneas|M|37.36,63.29|N|From Gwen Armstead.|PRE|14366|
@@ -401,7 +401,7 @@ T Save the Children!|QID|14368|Z|Gilneas|M|28.89,63.97|N|To Melinda Hammond.|
 T Unleash the Beast|QID|14369|Z|Gilneas|M|28.89,63.97|N|To Lord Godfrey.|
 T Two By Sea|QID|14382|Z|Gilneas|M|28.89,63.97|N|To Lord Godfrey.|
 
-A Leader of the Pack|QID|14386|Z|Gilneas|M|28.89,63.97|N|From Lord Godfrey.|PRE|14368 & 14369 & 14382|
+A Leader of the Pack|QID|14386|Z|Gilneas|M|28.89,63.97|N|From Lord Godfrey.|PRE|14368&14369&14382|
 C Leader of the Pack|QID|14386|Z|Gilneas|M|24.30,67.70|N|Target Dark Ranger Thyala and use your Mastiff Whistle. The dogs will tank her nicely, so you can kill her easily.|U|49240|T|Dark Ranger Thyala|
 T Leader of the Pack|QID|14386|Z|Gilneas|M|28.89,63.87|N|To Lord Godfrey.|
 
@@ -450,7 +450,7 @@ C Washed Up|QID|14412|Z|Gilneas|M|36.83,85.06|N|Kill the Forsaken Castaways.|US|
 T Not Quite Shipshape|QID|14404|Z|Gilneas|M|36.88,84.20|N|To Sebastian Hayward.|
 T Washed Up|QID|14412|Z|Gilneas|M|36.88,84.20|N|To Sebastian Hayward.|
 
-A Escape By Sea|QID|14405|Z|Gilneas|M|36.88,84.20|N|From Sebastian Hayward.|PRE|14401 & 14404 & 14412 & 14416|
+A Escape By Sea|QID|14405|Z|Gilneas|M|36.88,84.20|N|From Sebastian Hayward.|PRE|14401&14404&14412&14416|
 T Escape By Sea|QID|14405|Z|Gilneas|M|37.61,65.25|N|To Gwen Armstead.|
 
 A To Greymane Manor|QID|14465|Z|Gilneas|M|37.61,65.25|N|From Gwen Armstead.  On accepting this quest, you will be taken half way to Greymane Manor.|PRE|14402^14405^14463|
@@ -491,7 +491,7 @@ T Pieces of the Past|QID|24495|Z|Gilneas|M|60.25,91.78|N|To Lorna Crowley.|
 C Queen-Sized Troubles|QID|24501|Z|Gilneas|M|67.95,81.90|N|Kill Rygna.|
 T Queen-Sized Troubles|QID|24501|Z|Gilneas|M|59.87,91.76|N|To Gwen Armstead.|
 
-A The Blackwald|QID|24578|Z|Gilneas|M|60.27,91.78|N|From Lorna Crowley.|PRE|24495 & 24501|
+A The Blackwald|QID|24578|Z|Gilneas|M|60.27,91.78|N|From Lorna Crowley.|PRE|24495&24501|
 T The Blackwald|QID|24578|Z|Gilneas|M|63.36,82.92|N|To Belrysa Starbreeze.|
 
 A Losing Your Tail|QID|24616|Z|Gilneas|M|63.36,82.92|N|From Belrysa Starbreeze.|PRE|24578|
@@ -515,7 +515,7 @@ T Preparations|QID|24628|Z|Gilneas|M|69.25,72.99|N|To Vassandra Stormclaw.|
 C Take Back What's Ours|QID|24646|Z|Gilneas|M|58.96,75.25;57.55,75.64|CS|N|Go west to the Woods'End Cabin and use the Horn of Tal'doren. While the rangers are busy fighting the worgens, run into the house and loot the Mysterious Artifact.|U|50134|
 T Take Back What's Ours|QID|24646|Z|Gilneas|M|68.87,73.23|N|To Lord Darius Crowley.|
 
-A Neither Human Nor Beast|QID|24593|Z|Gilneas|M|68.70,73.24|N|From Lord Darius Crowley.|PRE|24628 & 24646|
+A Neither Human Nor Beast|QID|24593|Z|Gilneas|M|68.70,73.24|N|From Lord Darius Crowley.|PRE|24628&24646|
 C Neither Human Nor Beast|QID|24593|Z|Gilneas|M|69.16,73.46|N|Click on the 3 wells behind Lord Darius Crowley.|NC|
 T Neither Human Nor Beast|QID|24593|Z|Gilneas|M|68.77,73.28|N|To Lord Darius Crowley.|
 
@@ -548,7 +548,7 @@ A Last Meal|QID|24675|Z|Gilneas|M|70.76,39.82|N|From Magda Whitewall.|PRE|24438|
 C Last Meal|QID|24675|Z|Gilneas|M|78.11,43.57|N|Kill and loot Brown Stags for the Side of Stag Meat.|
 T Last Meal|QID|24675|Z|Gilneas|M|70.69,39.74|N|To Magda Whitewall.|
 
-A Push Them Out|QID|24676|Z|Gilneas|M|70.88,39.77|N|From Lorna Crowley.|PRE|24674 & 24575 & 24675|
+A Push Them Out|QID|24676|Z|Gilneas|M|70.88,39.77|N|From Lorna Crowley.|PRE|24674&24575&24675|
 C Push Them Out - Forsaken Infantry|QID|24676|Z|Gilneas|M|72.61,30.79|QO|1|N|Go northeast to Emberstone Village and kill 4 Forsaken Infantry.|S|
 K Executor Cornell|QID|24676|Z|Gilneas|M|72.85,28.49|QO|2|N|Kill Executor Cornell (western part of the village, standing under a tent).|ACTIVE|24676|
 K Valnov the Mad|QID|24676|QO|3|Z|Gilneas|M|74.14,27.45|N|Kill Valnov the Mad (northern part of the village, standing in front of a lab table).|ACTIVE|24676|

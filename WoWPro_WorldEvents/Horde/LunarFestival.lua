@@ -184,7 +184,7 @@ F Gadgetzan|N|Fly to Gadgetzan in Tanaris.|QID|8684|M|33.2,77.2|Z|Tanaris|
 A Dreamseer the Elder|N|From Elder Dreamseer.|QID|8684|M|51.40,28.80|Z|Tanaris|
 R Zul'Farrak|N|Run into Zul'Farrak.|QID|8676|M|39.23,21.21|CC|Z|Tanaris|RANK|2|
 A Wildmane the Elder|N|From Elder Wildmane.|QID|8676|M|57.14,55.20;46.65,49.33;34.49,39.36|CS|Z|ZulFarrak|RANK|2|
-F Fizzle & Pozzik's Speedbarge|N|Fly to Fizzle & Pozzik's Speedbarge in Thousand Needles.|QID|8724|M|52.0,27.6|Z|Tanaris|
+F Fizzle&Pozzik's Speedbarge|N|Fly to Fizzle&Pozzik's Speedbarge in Thousand Needles.|QID|8724|M|52.0,27.6|Z|Tanaris|
 A Morningdew the Elder|N|From Elder Morningdew.|QID|8724|M|77.08,75.61|Z|Thousand Needles|
 A Skyseer the Elder|N|From Elder Skyseer, Thousand Needles. If you hover in the air beside the tower you are less likely to get agro.|QID|8682|M|46.34,51.01|Z|Thousand Needles|
 F Ratchet|N|Fly to Ratchet in Northern Barrens.|QID|8680|M|79.15,71.93|Z|Thousand Needles|

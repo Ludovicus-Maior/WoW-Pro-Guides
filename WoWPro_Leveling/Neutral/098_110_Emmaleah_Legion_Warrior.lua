@@ -152,7 +152,7 @@ T Weapons of Legend|QID|40579|M|58.43,85.13|Z|Skyhold!Dungeon|N|To Odyn.|
 A Artifact Specific Quest|QID|41105^40043^39191|Z|Skyhold!Dungeon|M|58.43,85.13|N|From Odyn.|PRE|40579|
 
 ;ARMS
-A The Sword of Kings|QID|41105|M|58.43,85.13|Z|Skyhold!Dungeon|N|From Odyn.|PRE|40582 & 40579|
+A The Sword of Kings|QID|41105|M|58.43,85.13|Z|Skyhold!Dungeon|N|From Odyn.|PRE|40582&40579|
 C The Sword of Kings|QID|41105|CHAT|QO|1|M|58.39,24.69|Z|Skyhold!Dungeon|N|(Optional) Speak with Aerylia to go to Dalaran|
 P Chamber of the Guardian|M|49.04,48.03|Z|Dalaran!Dalaran!Dungeon|N|Run to the Chamber of the Guardians and step on the portal to Aegwenn's Gallery below.|ACTIVE|41105|
 C The Sword of Kings|QID|41105|NC|QO|2|M|29.13,77.48|Z|Aegwynn's Gallery@Dalaran70|N|(Optional) Take the Portal to Dalaran Crater. Its a long fall, you probably won't die...|
@@ -173,7 +173,7 @@ C The Sword of Kings|QID|41105|Z|Keeper's Rest|QO|5|NC|N|Step into the glowing c
 T The Sword of Kings|QID|41105|M|58.64,85.92|Z|Skyhold!Dungeon|N|To Odyn.|
 
 ;FURY
-A The Hunter of Heroes|QID|40043|M|58.48,84.54|Z|Dalaran!Dalaran!Dungeon|N|From Odyn.|PRE|40581 & 40579|
+A The Hunter of Heroes|QID|40043|M|58.48,84.54|Z|Dalaran!Dalaran!Dungeon|N|From Odyn.|PRE|40581&40579|
 C The Hunter of Heroes|QID|40043|M|58.43,24.55|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Speak with Aerylia to go to Tideskorn Harbor.|
 C Into the Mists|SO|1|Z|Stormheim|N|The village is shrouded in mists. Light the bonfire to clear it and provoke the Helarjar.|QID|40043|
 C Defeat waves of Enemies|SO|2;2|M|62.47,46.23|Z|Stormheim|N|Defeat waves of Enemies.|QID|40043|
@@ -188,7 +188,7 @@ C The Hunter of Heroes|QID|40043|NC|QO|3|M|55.41,42.94|Z|Stormheim|N|Stand in th
 T The Hunter of Heroes|QID|40043|M|58.58,85.63|N|To Odyn.|
 
 ;PROTECTION
-A Legacy of the Icebreaker|QID|39191|M|58.42,84.89|N|From Odyn.|PRE|40580 & 40579|
+A Legacy of the Icebreaker|QID|39191|M|58.42,84.89|N|From Odyn.|PRE|40580&40579|
 C Legacy of the Icebreaker|QID|39191|M|59.31,26.60|CHAT|N|Talk with Hrithnir.|
 C The Sealed Tomb|QID|39191|SO|1;1|M|84.26,9.55|Z|Stormheim|N|Fight your way down the hill (with Hrithnir) until you get to the entrance of the tomb.|
 C Find Magnar|QID|39191|SO|3;1|M|53.22,57.52|Z|Stormheim/1|N|Heroic Leap to the nearest mob, after he dies, Heroic Leap to the one across.  When those two are dead, the wind on the floor goes away.|
@@ -440,7 +440,7 @@ H Dalaran|QID|44481^44496^44497|Z|Shadowmoon Valley|U|140192|N|Hearth to Dalaran
 T Destiny Unfulfilled|QID|44481^44496^44497|M|45.31,30.30|N|Return to Light's Heart in your order hall.|
 
 ;light's heart, requires AK>=7
-A The Hunt for Illidan Stormrage|QID|45174|M|45.31,30.30|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481 & 44496 & 44497|
+A The Hunt for Illidan Stormrage|QID|45174|M|45.31,30.30|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481&44496&44497|
 P Azurewing Repost|QID|45174|QO|1|M|58.59,24.98|N|Speak with Aerylia to go to Azsuna.|ACTIVE|45174|
 F Illidari Stand|QID|45174|QO|1|M|48.43,28.05|Z|Azsuna|N|At Dagrona.|ACTIVE|45174|
 T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|

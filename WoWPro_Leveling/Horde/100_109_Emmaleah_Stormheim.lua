@@ -240,7 +240,7 @@ A Stormforged Grapple Launcher|QID|39775|M|44.28,17.64|N|You will need this for 
 $ Treasure Chest|QID|43195|M|50.00,18.10|N|Loot for a bit of treasure and resources.|RANK|3|
 T The Windrunner's Fate|QID|38360|M|44.12,18.20|N|To Nathanos Blightcaller.|
 T Wrath of the Blightcaller|QID|38361|M|44.12,18.20|N|To Nathanos Blightcaller.|
-A A Grim Trophy|QID|38362|PRE|38360 & 38361|M|44.12,18.20|N|From Nathanos Blightcaller.|
+A A Grim Trophy|QID|38362|PRE|38360&38361|M|44.12,18.20|N|From Nathanos Blightcaller.|
 C A Grim Trophy|QID|38362|M|42.14,21.34|T|Thane Wildsky|N|Loot his Head.|
 K Worgen Stalkers|QID|38627|M|44.32,22.91|QO|1|N|Help your forsaken buddies defeat the Worgen Stalkers.|RANK|2|RARE|;no item listed as dropping on WoWhead, I didnt get one either
 T Side Effects May Include Mild Undeath|QID|38357|M|36.10,27.35|N|To Apothecary Withers.|
@@ -302,7 +302,7 @@ $ Treasure Chest|QID|43246|M|48.48,41.28;48.89,40.92;49.52,40.96;50.14,40.77|CS|
 T A Trial of Valor|QID|39591|M|46.75,44.42|N|To Yotnar's Head.|
 T A Trial of Will|QID|39592|M|46.75,44.42|N|To Yotnar's Head.|
 T The Shattered Watcher|QID|39593|M|46.75,44.42|N|To Yotnar's Head.|
-A A Trial of Might|QID|39594|PRE|39591 & 39592 & 39593|M|46.75,44.42|N|From Yotnar.|
+A A Trial of Might|QID|39594|PRE|39591&39592&39593|M|46.75,44.42|N|From Yotnar.|
 C A Trial of Might|QID|39594|M|54.59,20.15|Z|AggramarsVault|QO|1|NC|N|Go into the Vault and learn about the Trial of Might. Click on the console to start the trial.|
 C A Trial of Might|QID|39594|M|49.45,43.25|Z|AggramarsVault|QO|2|N|Now fight Yotnar.|
 T A Trial of Might|QID|39594|M|46.33,44.79|N|To Yotnar, Outside.|
@@ -336,7 +336,7 @@ C To Weather the Storm|QID|38614|M|41.91,68.34|QO|2|NC|N|Pick up the Climbing Tr
 C To Weather the Storm|QID|38614|M|43.99,66.97|QO|1|T|Stormbreaker Reykir|N|Kill Stormbreaker Reykir and loot the Enchanted Lodestone.|
 T No Wings Required|QID|38613|M|43.70,67.86|N|To Dread-Rider Cullen.|
 T To Weather the Storm|QID|38614|M|43.71,67.89|N|To Dread-Rider Cullen.|
-A Impalement Insurance|QID|38615|PRE|38613 & 38614|M|43.71,67.89|N|From Dread-Rider Cullen.|
+A Impalement Insurance|QID|38615|PRE|38613&38614|M|43.71,67.89|N|From Dread-Rider Cullen.|
 C Impalement Insurance|QID|38615|M|46.09,70.99|S|NC|N|Use your grapple launcher to get up on the walls and destroy Harpoon Launchers.|
 $ Treasure Chest|QID|38486|M|39.58,65.18|N|While you are on the wall, hop down and get this chest. Loot for a bit of treasure and resorces.|RANK|2|
 K Kill Jann Harnelor|QID|40178|QO|1|M|45.6,67.2|Z|Stormheim|P|Leatherworking;165|T|Jann Harnelor|N|Kill Jann to loot the Vestment.|
@@ -381,7 +381,7 @@ C Fury of the Storm|QID|40568|M|44.07,82.69|US|N|finish killing the vrykul.|
 T Heart of a Dragon|QID|38414|M|42.75,82.73|N|To Vethir.|
 T Wings of Liberty|QID|38413|M|42.81,82.69|N|To Vethir.|
 T Fury of the Storm|QID|40568|M|42.75,82.73|N|To Vethir.|
-A Where Dragons Rule|QID|39652|PRE|38414 & 38413 & 40568|M|42.75,82.73|N|From Vethir.|
+A Where Dragons Rule|QID|39652|PRE|38414&38413&40568|M|42.75,82.73|N|From Vethir.|
 C Where Dragons Rule|QID|39652|M|41.27,80.05|QO|1|CHAT|N|Hop on the dragon for a flight to the top of Thorim's Peak.|
 C Where Dragons Rule|QID|39652|M|40.87,80.94|QO|2|CHAT|N|Speak to Thrymjaris.|
 T Where Dragons Rule|QID|39652|M|40.87,80.94|N|To Thrymjaris.|
@@ -429,15 +429,15 @@ C Nithogg's Tribute|QID|42445|M|50.32,33.21|US|N|Finish collecting feathers and 
 C Singed Feathers|QID|42446|M|49.68,29.95|US|N|Finish killing Rampaging Squallhunters.|RANK|2|
 T Singed Feathers|QID|42446|M|50.79,30.91;49.79,32.63|CS|N|To Cukkaw.|RANK|2|
 T Nithogg's Tribute|QID|42445|M|49.79,32.64|N|To Cukkaw.|RANK|2|
-A Dances With Ravenbears|QID|42447|PRE|42445 & 42446|M|49.79,32.64|N|From Cukkaw.|RANK|2|
+A Dances With Ravenbears|QID|42447|PRE|42445&42446|M|49.79,32.64|N|From Cukkaw.|RANK|2|
 C Dances With Ravenbears|QID|42447|M|53.70,30.20|CHAT|N|Tell him you are ready (multiple times if needed). Mimic thier motions 1-raise arms, 2-spin, 3-flap wings, |RANK|2|
 T Dances With Ravenbears|QID|42447|M|54.03,30.23|N|To Cukkaw.|RANK|2|
 f Stormtorn Foothills|ACTIVE|39787|M|51.98,34.80|N|At Hillevi the Scalekeeper.|RANK|2|
 F Cullen's Post|ACTIVE|39787|M|51.98,34.81|N|Fly back to Cullen's Post at Hillevi the Scalekeepter.|RANK|2|FLY|LEGION|
 T Rigging the Wager|QID|39787|M|51.33,56.98|N|To Snaggle Sixtrigger.|RANK|2|
 T Only the Finest|QID|39793|M|51.36,57.28|N|To Rax Sixtrigger.|RANK|2|
-A A Stack of Racks|QID|39792|PRE|39787 & 39793|M|51.36,57.28|N|From Rax Sixtrigger.|RANK|2|
-A A Stone Cold Gamble|QID|39786|PRE|39787 & 39793|M|51.32,56.95|N|From Snaggle Sixtrigger.|RANK|2|
+A A Stack of Racks|QID|39792|PRE|39787&39793|M|51.36,57.28|N|From Rax Sixtrigger.|RANK|2|
+A A Stone Cold Gamble|QID|39786|PRE|39787&39793|M|51.32,56.95|N|From Snaggle Sixtrigger.|RANK|2|
 $ Small Treasure Chest|QID|38477|M|42.33,61.12|N|If you are careful, you can get without waking the Basilisk. Otherwise kill the basilisk curled around the treasure and then its yours. Kite him around to escape his AOE and interrupt his glare. Loot for treasure and resources.|RANK|2|
 C A Stone Cold Gamble|QID|39786|M|46.66,61.04|T|Stonefang|N|Keep moving around, the groundspikes put out serious damage. Loot Stonefang's Jaw.|RANK|2|
 $ Small Treasure Chest|QID|38681|M|48.18,65.20;46.60,64.96|CS|N|Inside the cave.  Loot for a bit of treasure and resources.|RANK|2|
@@ -467,8 +467,8 @@ $ Small Treasure Chest|QID|40083|M|67.99,57.77|N|Loot fora bit of resources and 
 C Turn the Keys|QID|38778|PRE|39796|M|68.53,51.57;65.24,53.32;67.28,56.51|CN|US|N|Finish turning the three runestones.|;I realize green dots don't show for sticky steps, but the other steps send you to the correct spots and this catches it if you miss one (at the US step).
 T Turn the Keys|QID|38778|M|68.47,54.28|N|To Vydhar.|
 T The Runewood's Revenge|QID|39788|M|68.47,54.28|N|To Vydhar.|
-A The Dreaming Fungus|QID|38810|PRE|38778 & 39788|M|68.47,54.28|N|From Vydhar.|
-A Bjornharta|QID|38808|PRE|38778 & 39788|M|68.47,54.28|N|From Vydhar.|
+A The Dreaming Fungus|QID|38810|PRE|38778&39788|M|68.47,54.28|N|From Vydhar.|
+A Bjornharta|QID|38808|PRE|38778&39788|M|68.47,54.28|N|From Vydhar.|
 C Bjornharta|QID|38808|M|70.39,53.00|S|N|Kill bears and loot the Engorged Bear Hearts.|
 C The Dreaming Fungus|QID|38810|M|69.93,52.64|S|NC|N|Gather Soulcaps|
 K Kill Mordvigbjorn|QID|38837|M|72.60,49.99|QO|1|ITEM|129035|T|Mordvigbjorn|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
@@ -476,8 +476,8 @@ C The Dreaming Fungus|QID|38810|US|M|69.93,52.64|NC|N|Finish gathering Soulcaps|
 C Bjornharta|QID|38808|M|70.39,53.00|US|N|Finish collecting the Engorged Bear Hearts.|
 T The Dreaming Fungus|QID|38810|M|68.51,54.27|N|To Vydhar.|
 T Bjornharta|QID|38808|M|68.51,54.27|N|To Vydhar.|
-A Judgment Day|QID|38811|PRE|38808 & 38810|M|68.51,54.27|N|From Vydhar.|
-A Lay Them to Rest|QID|39791|PRE|38808 & 38810|M|68.51,54.27|N|From Vydhar.|
+A Judgment Day|QID|38811|PRE|38808&38810|M|68.51,54.27|N|From Vydhar.|
+A Lay Them to Rest|QID|39791|PRE|38808&38810|M|68.51,54.27|N|From Vydhar.|
 C Lay Them to Rest|QID|39791|M|64.71,45.39|U|128772|S|N|Weaken them, below 75% and then use Runewood Branch to return the Restless Ancestors to the earth.|
 C Judgment Day|QID|38811|M|64.81,46.56|QO|2|N|Click on the offering bowl and be ready to fight.|T|Rythas the Oracle|
 $ Small Treasure Chest|QID|43205|M|65.37,43.12|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -503,7 +503,7 @@ C Regal Remains|QID|38817|M|72.97,43.89|US|NC|N|Finish collecting Ashildir's Bon
 T Regal Remains|QID|38817|M|69.89,45.52|N|To Shieldmaiden Iounn.|
 T Breaking the Bonespeakers|QID|38816|M|69.89,45.52|N|To Shieldmaiden Iounn.|
 T The Runes that Bind|QID|38823|M|69.89,45.52|N|To Shieldmaiden Iounn.|
-A Waking the Shieldmaiden|QID|38815|PRE|38817 & 38816 & 38823|M|69.89,45.52|N|From Shieldmaiden Iounn.|
+A Waking the Shieldmaiden|QID|38815|PRE|38817&38816&38823|M|69.89,45.52|N|From Shieldmaiden Iounn.|
 $ Small Treasure Chest|QID|43306|M|73.25,42.68;74.41,41.84|CS|N|Get this before you complete the next quest or you will have to run a long ways back to get it.  Use Hook to get up to alcove above. Loot for a bit of treasure and resources.|RANK|3|
 C Waking the Shieldmaiden|QID|38815|M|71.42,42.49|NC|N|Click on the Rune of Reformation to activate.|
 T Waking the Shieldmaiden|QID|38815|M|71.45,42.50|N|To Ashildir.|
@@ -528,7 +528,7 @@ C A Little Kelp From My Foes|QID|38339|M|67.35,39.19|Z|Helheim|US|N|Finish colle
 C Accessories of the Cursed|QID|38324|M|78.26,23.13|Z|Helheim|US|NC|N|Finish collecting the bones.|
 T A Little Kelp From My Foes|QID|38339|M|64.58,43.40|Z|Helheim|N|To Colborn the Unworthy.|
 T Accessories of the Cursed|QID|38324|M|64.58,43.40|Z|Helheim|N|To Colborn the Unworthy.|
-A Stealth by Seaweed|QID|38347|PRE|38339 & 38324|M|64.58,43.40|Z|Helheim|N|From Colborn the Unworthy.|
+A Stealth by Seaweed|QID|38347|PRE|38339&38324|M|64.58,43.40|Z|Helheim|N|From Colborn the Unworthy.|
 C Stealth by Seaweed|QID|38347|M|47.62,33.47|Z|Helheim|NC|N|Sneak past Guarm|
 T Stealth by Seaweed|QID|38347|M|47.24,35.09|Z|Helheim|N|To Ashildir.|
 A A Desperate Bargain|QID|39848|PRE|38347|M|47.24,35.09|Z|Helheim|N|From Ashildir.|
@@ -552,7 +552,7 @@ C Sundered|QID|39850|M|35.29,76.16|Z|Helheim|QO|3|NC|N|Release Fragment of Valor
 C Allies in Death|QID|39851|M|52.29,70.86|Z|Helheim|NC|US|N|Finish releasing the Bound Valkyra.|
 T Sundered|QID|39850|M|46.92,48.88|Z|Helheim|N|To Ashildir.|
 T Allies in Death|QID|39851|M|46.92,48.88|Z|Helheim|N|To Ashildir.|
-A Victory is Eternal|QID|39853|PRE|39850 & 39851|M|46.92,48.88|Z|Helheim|N|From Ashildir.|
+A Victory is Eternal|QID|39853|PRE|39850&39851|M|46.92,48.88|Z|Helheim|N|From Ashildir.|
 C Victory is Eternal|QID|39853|M|47.04,63.06|Z|Helheim|T|Geir|N|Kill Geir.|
 C Raze Hel-Bonus Objective|QID|38343|M|58.51,66.79|Z|Helheim|US|N|Stay and finish or click off manually.|
 t Raze Hel-Bonus Objective|QID|38343|M|58.51,66.79|Z|Helheim|N|Auto turned in when complete.|
@@ -589,7 +589,7 @@ C A Gift for Greymane|QID|39385|M|55.16,73.55|QO|2|U|128287|NC|N|Push the big re
 T Clear the Deck!|QID|38873|M|55.06,72.56|N|To Nathanos Blightcaller.|
 T Dreadwake's Dilemma|QID|39153|M|55.06,72.56|N|To Nathanos Blightcaller.|
 T A Gift for Greymane|QID|39385|M|55.06,72.56|N|To Nathanos Blightcaller.|
-A To Skold-Ashil|QID|39154|PRE|38873 & 39153|M|55.06,72.56|N|From Nathanos Blightcaller.|
+A To Skold-Ashil|QID|39154|PRE|38873&39153|M|55.06,72.56|N|From Nathanos Blightcaller.|
 
 R Ranger's Foothold|ACTIVE|39154|M|55.23,68.86;56.76,66.30|CC|N|Mount up (or swim) over to meet up with Sylvanas. There is a slow rowboat also if you want to go that route (at the green dot on this side of the river).|FLY|LEGION|
 T To Skold-Ashil|QID|39154|M|56.76,66.30|N|To Lady Sylvanas Windrunner.|
@@ -646,7 +646,7 @@ C Drive Back the Tideskorn-Bonus Objective|QID|39998|M|64.53,60.47|US|N|Finish t
 t Drive Back the Tideskorn-Bonus Objective|QID|39998|M|68.41,68.00|N|Auto turned in when complete.|RANK|2|
 T Stem the Tide|QID|40003|M|70.22,69.50|N|To Vethir.|
 T Break the Spine|QID|40004|M|70.22,69.50|N|To Vethir.|
-A Stormheim's Salvation|QID|40005|PRE|40003 & 40004|M|70.22,69.50|N|From Vethir.|
+A Stormheim's Salvation|QID|40005|PRE|40003&40004|M|70.22,69.50|N|From Vethir.|
 C Stormheim's Salvation|QID|40005|M|70.22,69.50|CHAT|N|Ask Vethir for a ride to where Skovald is.|
 C Stormheim's Salvation|QID|40005|M|70.94,70.16|N|God-King Skovald defeated.|
 T Stormheim's Salvation|QID|40005|M|70.25,69.24|N|Ask Vethir for a ride back down so you can turn the quest in to Havi.|
@@ -687,7 +687,7 @@ A Piercing the Mists|QID|43596|PRE|40046|M|58.94,42.81|N|From Havi. This is a du
 
 R Talonrest|ACTIVE|39792|M|53.30,48.30;51.37,57.15|CS|U|6948|N|Headed back to see those shady goblins.|RANK|2|FLY|LEGION|
 T A Stack of Racks|QID|39792|M|51.36,57.13|N|To Rax Sixtrigger.|RANK|2|
-A Put It All on Red|QID|42483|PRE|39786 & 39792|M|51.37,57.32|N|From Snaggle Sixtrigger.|RANK|2|
+A Put It All on Red|QID|42483|PRE|39786&39792|M|51.37,57.32|N|From Snaggle Sixtrigger.|RANK|2|
 R Inkbinder's Rise|ACTIVE|42483|M|51.85,54.48;61.93,55.03;70.55,47.98;70.73,47.56|CS|N|Run past Valdisdall, through Runewood and Field of the Fallen Kings and finally into Inkbinder's Rise.|RANK|2|FLY|LEGION|
 K Kill Kottr Vondyr|QID|40109|M|73.46,47.68|QO|1|ITEM|138419|T|Kottr Vondyr|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Small Treasure Chest|QID|43194|M|73.10,45.72|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -705,8 +705,8 @@ C The Mystery of Dreyrgrot|QID|42635|M|75.44,48.96|S|NC|N|One Dreyrgrot Tablet o
 T The Value of Knowledge|QID|42640|M|74.91,55.58|N|To Sir Finley Mrrgglton.|RANK|2|
 T The Mystery of Dreyrgrot|QID|42635|M|74.91,55.58|N|To Sir Finley Mrrgglton.|RANK|2|
 T A Stone of Blood|QID|42639|M|74.91,55.58|N|To Sir Finley Mrrgglton.|RANK|2|
-A What the Bonespeakers Buried|QID|42641|PRE|42635 & 42639|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
-A Spilling Bad Blood|QID|42645|PRE|42635 & 42639|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
+A What the Bonespeakers Buried|QID|42641|PRE|42635&42639|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
+A Spilling Bad Blood|QID|42645|PRE|42635&42639|M|74.91,55.58|N|From Sir Finley Mrrgglton.|RANK|2|
 C Spilling Bad Blood|QID|42645|M|72.98,55.60|N|Kill Blood-Crazed Swashbuckler as you go.|RANK|2|
 $ Small Treasure Chest|QID|42632|M|73.9,52.2|N|Loot for a bit of treasure and resources.|RANK|2|
 C What the Bonespeakers Buried|QID|42641|M|72.31,51.59|N|You have to click on him to start the fight. Kill Blood-Thane Lucard.|RANK|2|
@@ -747,8 +747,8 @@ A The Aegis of Aggramar|QID|43349|N|From the Aegis of Aggramar.|PRE|40072|
 C The Aegis of Aggramar|QID|43349|M|49.36,47.34|Z|Dalaran!Dalaran!Dungeon|NC|N|Central Dalaran teleport used.|
 T The Aegis of Aggramar|QID|43349|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Aegis of Aggramar" on the wall.|
 A Pressing the Assault|QID|44545|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349|
-A Isle Hopping|QID|44547|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349 & 44545|
-A Scouring What Remains|QID|44548|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349 & 44547|
+A Isle Hopping|QID|44547|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349&44545|
+A Scouring What Remains|QID|44548|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|43349&44547|
 
 A Time to Collect|QID|43331|M|50.14,22.64|Z|Dalaran!Dalaran!Dungeon|N|From Gazrix Gearlock beside the north bank.|RANK|3|LVL|110|
 F Valdisdall|ACTIVE|43331|M|69.84,51.17|Z|Dalaran!Dalaran!Dungeon|N|This is meant to be a group quest so take a friend or two. (if you set your hearth thats an option too.)|RANK|3|LVL|110|FLY|LEGION|

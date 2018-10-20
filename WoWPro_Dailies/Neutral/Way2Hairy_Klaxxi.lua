@@ -211,7 +211,7 @@ T Dark Wings, Dark Things|QID|31209|N|To Xaril the Poisoned Mind|M|28.67,42.14|
 
 T A Shade of Dread|QID|31210|N|To Xaril the Poisoned Mind|M|28.67,42.14|
 
-A The Poisoned Mind|QID|31211|PRE|31208 & 31209 & 31210|N|From Xaril the Poisoned Mind|M|28.67,42.14|
+A The Poisoned Mind|QID|31211|PRE|31208&31209&31210|N|From Xaril the Poisoned Mind|M|28.67,42.14|
 
 C The Poisoned Mind|QID|31211|N|Talk to Xaril and ride. Paralyze then poison the same mobs for fast kills.|
 
@@ -251,7 +251,7 @@ A Rik'kal the Dissector's Quests|M|54.37,35.93|N|Grab any and all quests from Ri
 
 A Kaz'tik the Manipulator's Quests|M|54.26,35.78|N|Grab any and all quests from Kaz'tik the Manipulator. This step will close when you pick up the first quest.|QID|31268^31238^31494^31024^31808^31506^31487|PRE|31091|
 
-A Hisek the Swarmkeeper or Xaril the Poisoned Mind's Quests|M|54.82,36.21;54.92,36.17|CN|REP|The Klaxxi;1337;revered|N|Grab a quest from either Hisek the Swarmkeeper or Xaril the Poisoned Mind.|QID|31237^31272^31504^31510^31216|PRE|31441 & 31018|
+A Hisek the Swarmkeeper or Xaril the Poisoned Mind's Quests|M|54.82,36.21;54.92,36.17|CN|REP|The Klaxxi;1337;revered|N|Grab a quest from either Hisek the Swarmkeeper or Xaril the Poisoned Mind.|QID|31237^31272^31504^31510^31216|PRE|31441&31018|
 
 A Kil'ruk the Wind-Reaver's Quests|M|55.06,35.86|N|Any and all quests from Kil'ruk the Wind-Reaver. This step will close when you pick up the first quest.|QID|31109^31231^31111^31267^31235^31505|PRE|31004|
 

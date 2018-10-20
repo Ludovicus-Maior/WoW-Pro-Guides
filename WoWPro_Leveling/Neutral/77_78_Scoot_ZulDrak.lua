@@ -501,14 +501,14 @@ C You Reap What You Sow |QID|12685|N|Complete the Ritual (you can't be stealthed
 T You Reap What You Sow |QID|12685|N|To Witch Doctor Khufu.|M|59.51,57.99|
 T Bringing Down Heb'Jin |QID|12662|M|59.4,56.4|N|To Element-Tamer Dagoda.|
 
-A Enchanted Tiki Warriors |QID|12708|PRE|12662 & 12685|M|59.4,56.4|N|From Element-Tamer Dagoda.|
+A Enchanted Tiki Warriors |QID|12708|PRE|12662&12685|M|59.4,56.4|N|From Element-Tamer Dagoda.|
 T Scalps! |QID|12659|M|59.2,56.2|N|To Scalper Ahunae.|
 
 A Wooly Justice |QID|12707|PRE|12685|M|59.2,56.2|N|From Scalper Ahunae.|
 A The Key of Warlord Zol'Maz |QID|12712|PRE|12685|M|60.3,57.8|N|From Har'koa.|
 
 T Tails Up |QID|13549|M|60.0,57.9|N|From Chronicler To'kini.|
-A Hexed Caches |QID|12709|PRE|12685 & 13549|M|60.0,57.9|N|From Chronicler To'kini.|
+A Hexed Caches |QID|12709|PRE|12685&13549|M|60.0,57.9|N|From Chronicler To'kini.|
 C Hexed Caches |QID|12709|N|Loot the Hexed Caches you see. There is a good chance you will get cursed, the Tiki Warriors can drop items that cure the curses if you aren't a class that can do that.|U|39305|M|69.2,35.9|S|
 C Enchanted Tiki Warriors |QID|12708|N|Kill 12 Enchanted Tiki Warriors.|M|69.2,35.9|S|
 K Tiri |QID|12712|N|In the buliding, kill and loot Tiri for her Incantation.|M|63.75,37.11|L|39316|

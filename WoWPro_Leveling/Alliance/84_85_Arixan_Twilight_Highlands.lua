@@ -286,7 +286,7 @@ T Welcome Relief|QID|27803|M|60.08,58.00|N|To Keegan Firebeard.|S|
 T The Only Homes We Have|QID|27804|M|60.08,58.00|N|To Keegan Firebeard.|
 T Welcome Relief|QID|27803|M|60.08,58.00|N|To Keegan Firebeard.|US|
 
-A Honorable Bearing|QID|27806|PRE|27803 & 27804|M|60.08,58.00|N|From Keegan Firebeard.|
+A Honorable Bearing|QID|27806|PRE|27803&27804|M|60.08,58.00|N|From Keegan Firebeard.|
 
 A Small Comforts|QID|27805|PRE|27803|M|60.39,58.25|N|From Cailin Longfellow inside the building.|
 C Meara's Dried Roses|QID|27805|QO|1|M|59.85,56.20|N|Up the stone to enter the house, then left and left.|NC|; Meara's Dried Roses: 1/1
@@ -316,7 +316,7 @@ A The Fate of the Doyles|QID|27999|PRE|27808|M|61.48,67.49|N|From Keeland Doyle.
 C The Scent of Battle|QID|27811|US|M|56.95,63.99|N|Locate the Mullan Gryphons and help them.\n\nSome will be tied down - kill the Twilight Trapper Bindings around them\nSome will appear almost dead - heal them or use first aid on them\nOthers will just be looking at you intently - select the chat option 'smell charred branch'.|NC|
 
 T The Scent of Battle|QID|27811|M|50.88,60.30|N|To Edana Mullan.|
-A The Loyalty of Clan Mullan|QID|27812|PRE|27810 & 27811|M|50.88,60.30|N|From Duglas Mullan.|
+A The Loyalty of Clan Mullan|QID|27812|PRE|27810&27811|M|50.88,60.30|N|From Duglas Mullan.|
 
 T The Fate of the Doyles|QID|27999|M|57.42,58.17|N|To Iain Firebeard.|S|
 T The Loyalty of Clan Mullan|QID|27812|M|57.42,58.17|N|To Iain Firebeard.|
@@ -339,11 +339,11 @@ C Anything We Can Get|QID|27814|US|M|62.58,46.71|N|Found in various ways:\n\nHan
 T They Took Me Pants!|QID|28234|M|63.20,47.65|N|To Bahrum Forgehammer.|
 T Anything We Can Get|QID|27814|M|62.57,48.74|N|To Brom Forgehammer.|
 T Death Worthy of a Dragonmaw|QID|27813|M|62.47,48.49|N|To Mackay Firebeard.|
-A Somethin' for the Boys|QID|27815|PRE|27813 & 28234|M|62.41,48.56|N|From Mackay Firebeard.|
+A Somethin' for the Boys|QID|27815|PRE|27813&28234|M|62.41,48.56|N|From Mackay Firebeard.|
 
 T Somethin' for the Boys|QID|27815|M|57.42,58.15|N|To Iain Firebeard.|
 
-A Personal Request|QID|27816|PRE|27812 & 27815|M|57.42,58.15|N|From Iain Firebeard.|
+A Personal Request|QID|27816|PRE|27812&27815|M|57.42,58.15|N|From Iain Firebeard.|
 T Personal Request|QID|27816|M|60.13,57.84|N|To Keegan Firebeard.|
 
 A Dropping the Hammer|QID|27817|PRE|27816|M|60.13,57.84|N|From Keegan Firebeard.|
@@ -423,7 +423,7 @@ T Dragonmaw Takedown|QID|27754|M|49.03,29.69|N|To Colin Thundermar.|
 T Fight Like a Wildhammer|QID|27752|M|49.77,29.20|N|To Low Shaman Blundy.|
 T Never Leave a Dinner Behind|QID|27753|M|49.79,29.23|N|To Fanny Thundermar.|
 
-A A Vision of Twilight|QID|28241|PRE|27752 & 27753|M|49.75,29.18|N|From Low Shaman Blundy.|
+A A Vision of Twilight|QID|28241|PRE|27752&27753|M|49.75,29.18|N|From Low Shaman Blundy.|
 A Tempered in Elemental Flame|QID|28211|M|49.14,29.38|N|From Nivvet Channelock.|
 A Hot Stuff|QID|28212|M|49.14,29.38|N|From Nivvet Channelock.|
 A Potential Energy|QID|28215|M|49.14,29.38|N|From Nivvet Channelock.|
@@ -487,7 +487,7 @@ C Ogre Bashin'|QID|28379|M|39.67,31.02|N|Finish killing Glopgut Ogres.|US|
 T Find Fanny|QID|28378|M|38.17,34.43|N|To Colin Thundermar.|
 T Ogre Bashin'|QID|28379|M|38.17,34.43|N|To Colin Thundermar.|
 
-A The Bachelorette|QID|28407|PRE|28378 & 28379|M|38.16,34.40|N|From Colin Thundermar.|
+A The Bachelorette|QID|28407|PRE|28378&28379|M|38.16,34.40|N|From Colin Thundermar.|
 T The Bachelorette|QID|28407|M|54.69,17.91|N|To Fanny Thundermar.|
 
 A Something Bold|QID|28408|PRE|28407|M|54.36,16.79|N|From Lachlan MacGraff.|
@@ -510,7 +510,7 @@ T Something Brewed|QID|28409|M|54.35,16.74|N|To Lachlan MacGraff.|
 T Something Stolen|QID|28410|M|54.35,16.74|N|To Lachlan MacGraff.|
 T Something Stewed|QID|28411|M|54.35,16.74|N|To Lachlan MacGraff.|
 
-A Wild, Wild, Wildhammer Wedding|QID|28655|PRE|28408 & 28409 & 28410 & 28411|M|54.35,16.74|N|From Grundy MacGraff.|
+A Wild, Wild, Wildhammer Wedding|QID|28655|PRE|28408&28409&28410&28411|M|54.35,16.74|N|From Grundy MacGraff.|
 C Wild, Wild, Wildhammer Wedding|QID|28655|M|55.30,17.78|N|Talk to Grundy MacGraff to start the wedding. Kill "The Beast Unleashed" when it appears, it appears right near the Bride and Groom.|
 T Wild, Wild, Wildhammer Wedding|QID|28655|M|55.21,17.25|N|To Kurdran Wildhammer.|
 
@@ -538,7 +538,7 @@ T Pushing Back|QID|27300|M|44.03,10.66|N|To Earthcaller Torunscar.|
 T Simple Solutions|QID|27302|M|44.39,11.46|N|To Initiate Goldmine.|
 T Mercy for the Bound|QID|27303|M|43.85,11.42|N|To Earthcaller Yevaa.|
 
-A The Maw of Iso'rath|QID|27376|PRE|27300 & 27302 & 27303|M|44.02,10.67|N|From Earthcaller Torunscar.|
+A The Maw of Iso'rath|QID|27376|PRE|27300&27302&27303|M|44.02,10.67|N|From Earthcaller Torunscar.|
 C The Maw of Iso'rath|QID|27376|M|44.46,10.48|N|Hop on a gryphon.|
 T The Maw of Iso'rath|QID|27376|M|48.36,14.53|N|To Earthcaller Yevaa.|
 
@@ -579,7 +579,7 @@ C Life from Death|QID|27506|US|U|61323|M|27.95,31.49|
 T Life from Death|QID|27506|M|29.80,31.28|N|To Baleflame.|
 T Draconic Mending|QID|27505|M|29.80,31.28|N|To Velastrasza.|
 
-A In Defense of the Redoubt|QID|27564|PRE|27505 & 27506|M|29.80,31.28|N|From Velastrasza.|
+A In Defense of the Redoubt|QID|27564|PRE|27505&27506|M|29.80,31.28|N|From Velastrasza.|
 T In Defense of the Redoubt|QID|27564|M|29.34,25.94|N|To Calen.|
 
 A Far from the Nest|QID|27508|PRE|27564|M|29.34,25.94|N|From Lirastrasza.|
@@ -596,7 +596,7 @@ T Encroaching Twilight|QID|27507|M|29.29,26.05|N|To Calen.|
 T Far from the Nest|QID|27508|M|29.29,26.05|N|To Lirastrasza.|
 T Breach in the Defenses|QID|27509|M|29.29,26.05|N|To Calen.|
 
-A Mathias' Command|QID|28101|PRE|27507 & 27508 & 27509|M|29.34,25.94|N|From Calen.|
+A Mathias' Command|QID|28101|PRE|27507&27508&27509|M|29.34,25.94|N|From Calen.|
 T Mathias' Command|QID|28101|M|26.02,38.92|N|To Master Mathias Shaw.|
 
 A Easy Pickings|QID|28103|PRE|28101|M|26.02,38.92|N|From Master Mathias Shaw.|
@@ -610,7 +610,7 @@ C Easy Pickings|QID|28103|M|25.21,36.76|N|Kill 8 Twilight Spearwardens.|US|
 T Easy Pickings|QID|28103|M|25.97,38.74|N|To Master Mathias Shaw.|
 T Precious Goods|QID|28104|M|25.98,38.80|N|To Master Mathias Shaw.|
 
-A If The Key Fits|QID|28108|PRE|28103 & 28104|M|25.98,38.80|N|From Master Mathias Shaw.|
+A If The Key Fits|QID|28108|PRE|28103&28104|M|25.98,38.80|N|From Master Mathias Shaw.|
 
 A Paving the Way|QID|28107|M|26.01,38.94|N|From Highbank Lieutenant.|
 C Paving the Way|QID|28107|M|29.45,50.17|N|Speak to Master Mathia Shaw to gather the troops. Then head out towards the waypoint killing any Twilight mob.|
@@ -649,7 +649,7 @@ T A Fitting End|QID|28191|M|59.07,69.87|N|To Lirastrasza.|
 T Blackout|QID|28173|M|59.07,69.87|N|To Lirastrasza.|
 T Shining Through the Dark|QID|28175|M|59.07,69.87|N|To Velastrasza.|
 
-A Following the Young Home|QID|28176|PRE|28173 & 28175 & 28191|M|59.07,69.87|N|From Lirastrasza.|
+A Following the Young Home|QID|28176|PRE|28173&28175&28191|M|59.07,69.87|N|From Lirastrasza.|
 C Following the Young Home|QID|28176|QO|1|U|63126|M|57.97,80.33|N|Use Mother's Flame on the Obsidian Eggs.|; Obsidian Whelps hatched: 1/1
 C Following the Young Home|QID|28176|M|55.63,83.74|N|Just follow the tunnel downward.|
 T Following the Young Home|QID|28176|M|44.92,91.02|N|To Baleflame.|
@@ -661,7 +661,7 @@ T Last of Her Kind|QID|28247|M|59.12,69.91|N|To Lirastrasza.|
 A Victors' Point|QID|28248|PRE|28247|M|59.12,69.91|N|From Lirastrasza.|
 T Victors' Point|QID|28248|M|43.39,57.48|N|To Kurdran Wildhammer.|
 
-A Ogres & Ettins|QID|27492|PRE|28248|M|43.39,57.48|N|From Kurdran Wildhammer.|
+A Ogres&Ettins|QID|27492|PRE|28248|M|43.39,57.48|N|From Kurdran Wildhammer.|
 A Call in the Artillery|QID|27496|PRE|28248|M|43.39,57.48|N|From Cassius the White.|
 A SI:7 Drop|QID|27490|PRE|28248|M|43.39,57.48|N|From Cassius the White.|
 
@@ -670,18 +670,18 @@ r Sell junk, Repair/Restock|QID|27499|M|43.81,57.74|
 
 C SI:7 Drop|QID|27490|QO|1|M|43.82,57.31|N|Talk to Angus, just left of the flight master, to pick up your squad.|; Get Wildhammer squad: 1/1
 C SI:7 Drop|QID|27490|M|39.24,64.58|N|Head to the waypoint and land on the blue X that is on the ground.|
-C Ogres & Ettins|QID|27492|M|43.03,63.11|S|N|Kill Twilight Ogres and Ettins.|
+C Ogres&Ettins|QID|27492|M|43.03,63.11|S|N|Kill Twilight Ogres and Ettins.|
 N Southwestern building targeted|QID|27496|QO|3|U|61363|M|39.66,69.23|N|Southwestern building targeted.|; Southwestern building targeted: 1/1
 N Southern building targeted|QID|27496|QO|1|U|61363|M|41.36,73.73|N|Southern building targeted.|; Southern building targeted: 1/1
 N Northeastern building targeted|QID|27496|QO|1|U|61363|M|41.02,64.30|N|Northeasterb building targeted.|; Northeastern building targeted: 1/1
 C Call in the Artillery|QID|27496|U|61363|M|38.87,61.16|N|Northern building targeted.|
-C Ogres & Ettins|QID|27492|M|43.03,63.11|US|N|Finish killing Twilight Ogres and Ettins.|
+C Ogres&Ettins|QID|27492|M|43.03,63.11|US|N|Finish killing Twilight Ogres and Ettins.|
 
 T SI:7 Drop|QID|27490|M|43.41,57.48|N|To Cassius the White.|
 T Call in the Artillery|QID|27496|M|43.41,57.48|N|To Cassius the White.|
-T Ogres & Ettins|QID|27492|M|43.41,57.48|N|To Kurdran Wildhammer.|
+T Ogres&Ettins|QID|27492|M|43.41,57.48|N|To Kurdran Wildhammer.|
 
-A Move the Mountain|QID|27494|PRE|27490 & 27492 & 27496|M|43.41,57.48|N|From Kurdran Wildhammer.|
+A Move the Mountain|QID|27494|PRE|27490&27492&27496|M|43.41,57.48|N|From Kurdran Wildhammer.|
 C Move the Mountain|QID|27494|M|38.05,66.08|N|Click on the Hidden Explosives to detonate them.|
 T Move the Mountain|QID|27494|M|38.05,66.08|N|(UI Alert)|
 
@@ -729,8 +729,8 @@ A Fire the Cannon|QID|27661|PRE|27660|M|27.62,63.93|N|From Countess Verrall.|
 T Dark Assassins|QID|27652|M|36.34,66.10|N|To Master Mathias Shaw.|
 T Bring the Hammer Down|QID|27654|M|36.34,66.10|N|To Master Mathias Shaw.|
 
-A Distract Them for Me|QID|27688|PRE|27652 & 27654|M|36.34,66.10|N|From Master Mathias Shaw.|
-A The Elementium Axe|QID|27695|PRE|27652 & 27654|M|36.34,66.10|N|From Master Mathias Shaw.|
+A Distract Them for Me|QID|27688|PRE|27652&27654|M|36.34,66.10|N|From Master Mathias Shaw.|
+A The Elementium Axe|QID|27695|PRE|27652&27654|M|36.34,66.10|N|From Master Mathias Shaw.|
 K Master Klem|QID|27688|M|36.14,70.84|QO|2|N|Head down into the pit and attack Master Klem. Get him down in health, then Mathias will help kill him.|; Master Klem slain: 1/1
 
 C Fire the Cannon|QID|27661|M|40.88,78.89|N|Kill Lord Cannon.|
@@ -748,7 +748,7 @@ T Distract Them for Me|QID|27688|M|36.37,66.02|N|To Master Mathias Shaw.|
 
 T The Elementium Axe|QID|27695|M|36.37,66.02|N|To Master Mathias Shaw.|
 
-A Dragon, Unchained|QID|27700|PRE|27688 & 27695|M|36.37,66.02|N|From Master Mathias Shaw.|
+A Dragon, Unchained|QID|27700|PRE|27688&27695|M|36.37,66.02|N|From Master Mathias Shaw.|
 T Water of Life|QID|27719|M|36.37,66.02|N|To Master Mathias Shaw.|
 C Dragon, Unchained|QID|27700|U|62248|M|32.49,68.50|N|Head towards Lirastraza and use the Elementium Axe to free her.|
 T Dragon, Unchained|QID|27700|M|36.34,66.10|N|To Master Mathias Shaw.|
@@ -757,10 +757,10 @@ A Coup de Grace|QID|27702|PRE|27700|M|36.34,66.10|N|From Master Mathias Shaw.|
 C Coup de Grace|QID|27702|M|35.62,73.86|N|Find a downed Twilight Skyterror and attack it to kill it.|
 T Coup de Grace|QID|27702|M|36.33,66.09|N|To Master Mathias Shaw.|
 
-A Back to the Elementium Depths|QID|27711|LEAD|27720|PRE|27702 & 27719 & 27659 & 27662|M|36.33,66.09|N|From Master Mathias Shaw.|
+A Back to the Elementium Depths|QID|27711|LEAD|27720|PRE|27702&27719&27659&27662|M|36.33,66.09|N|From Master Mathias Shaw.|
 T Back to the Elementium Depths|QID|27711|M|37.51,88.63|N|To Initiate Goldmine.|
 
-A Mr. Goldmine's Wild Ride|QID|27720|PRE|27659 & 27662|M|37.51,88.63|N|From Initiate Goldmine.|
+A Mr. Goldmine's Wild Ride|QID|27720|PRE|27659&27662|M|37.51,88.63|N|From Initiate Goldmine.|
 C Mr. Goldmine's Wild Ride|QID|27720|M|38.29,93.90|N|Talk to Initiate Goldmine when you're ready. Enjoy the ride!|
 T Mr. Goldmine's Wild Ride|QID|27720|M|38.29,93.90|N|To Initiate Goldmine.|
 
@@ -781,7 +781,7 @@ T While We're Here|QID|27743|M|37.11,95.46|N|To Initiate Goldmine.|
 T A Little on the Side|QID|27742|M|38.96,94.10|N|To Initiate Goldmine.|
 T Rune Ruination|QID|27744|M|34.91,85.75|N|To Initiate Goldmine.|
 
-A A Fiery Reunion|QID|27745|PRE|27742 & 27743 & 27744|M|34.91,85.75|N|From Initiate Goldmine.|
+A A Fiery Reunion|QID|27745|PRE|27742&27743&27744|M|34.91,85.75|N|From Initiate Goldmine.|
 C A Fiery Reunion|QID|27745|QO|2|M|36.4,83.77|N|Kill the fire elemental and retrieve the controller.|; Fire Portal Controller: 1/1
 C A Fiery Reunion|QID|27745|M|36.4,83.77|U|62394|N|Use the controller from within the circle.|
 T A Fiery Reunion|QID|27745|M|37.58,88.69|N|To Initiate Goldmine.|

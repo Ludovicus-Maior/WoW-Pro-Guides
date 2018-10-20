@@ -349,8 +349,8 @@ C Ruthless Cunning |N|Plant the rest of the banners on the mob corpses for this 
 C Armaments for Deception |N|Loot the rest of the boxes for this quest.|QID|9928|M|71.4,79.4|US|
 T Armaments for Deception |QID|9928|M|73.8,62.6|N|To Lantressor of the Blade.|
 T Ruthless Cunning |QID|9927|M|73.8,62.6|N|To Lantressor of the Blade.|
-A Body of Evidence |QID|9932|PRE|9928 & 9927|M|73.8,62.6|N|From Lantressor of the Blade.|
-A Returning the Favor |QID|9931|PRE|9928 & 9927|M|73.8,62.6|N|From Lantressor of the Blade.|
+A Body of Evidence |QID|9932|PRE|9928&9927|M|73.8,62.6|N|From Lantressor of the Blade.|
+A Returning the Favor |QID|9931|PRE|9928&9927|M|73.8,62.6|N|From Lantressor of the Blade.|
 T Shattering the Veil |QID|9849|M|61.8,24.4|N|To Gordawg.|
 A Gurok the Usurper |QID|9853|PRE|9849|N|From Gordawg.|M|61.8,24.4|
 T The Spirit Polluted |QID|9810|M|60.5,22.4|N|To Ementalist Lo'ap.|
@@ -390,18 +390,18 @@ A Levixus the Soul Caller |QID|10253|PRE|10252|M|51.74,56.9|N|From Nitrin the Le
 T The Ravaged Caravan |QID|9956|M|54.2,70.0|N|To Huntress Kima, find her wandering around Telaar.|
 T Wanted: Giselda the Crone |QID|9936|M|54.8,71.0|N|To Waden Moi'bff Jill.|
 T Wanted: Zorbo the Advisor|QID|9940|M|54.8,71.0|N|To Waden Moi'bff Jill.|
-A Wanted: Durn the Hungerer |QID|9938|PRE|9936 & 9940|N|From Waden Moi'bff Jill.|M|54.8,71.0|
+A Wanted: Durn the Hungerer |QID|9938|PRE|9936&9940|N|From Waden Moi'bff Jill.|M|54.8,71.0|
 T Cho'war the Pillager |QID|9955|N|To Arechron.|M|55.44,68.78|
 T Ortor My Old Friend... |QID|9873|N|To Arechron.|M|55.44,68.78|
 A Visions of Destruction|QID|11044|M|55.36,68.74|N|From Seer Jovar. This quest takes you into Shadowmoon Valley if you wish to do that zone.|
 
 T Body of Evidence |QID|9932|M|73.8,62.6|N|To Lantresor of the Blade.|
 T Returning the Favor |QID|9931|M|73.8,62.6|N|To Lantresor of the Blade.|
-A Message to Telaar |QID|9933|PRE|9932 & 9931|M|73.8,62.6|N|From Lantresor of the Blade.|
+A Message to Telaar |QID|9933|PRE|9932&9931|M|73.8,62.6|N|From Lantresor of the Blade.|
 T Windroc Mastery |QID|9856|N|To Shado 'Fitz' Farstrider.|M|71.57,40.53|
 T Clefthoof Mastery |QID|9851|N|To Hemet Nesingwary.|M|71.52,40.79|
 T Talbuk Mastery |QID|9859|N|To Harold Lane.|M|71.4,40.63|
-A The Ultimate Bloodsport |QID|9852|PRE|9856 & 9859 & 9851|N|From Hemet Nesingwary.|M|71.52,40.79|
+A The Ultimate Bloodsport |QID|9852|PRE|9856&9859&9851|N|From Hemet Nesingwary.|M|71.52,40.79|
 T Gurok the Usurper |QID|9853|N|To Gordawg.|M|61.8,24.4|
 
 C The Ultimate Bloodsport |N|Kill and loot Tusker.|QID|9852|M|44.28,65.6|
@@ -440,7 +440,7 @@ T Against the Legion|QID|10641|M|27.35,43.06|N|To Altruis the Sufferer.|
 T Against the Illidari|QID|10668|M|27.35,43.06|N|To Altruis the Sufferer.|
 T Against All Odds|QID|10669|M|27.35,43.06|N|To Altruis the Sufferer.|
 
-A Illidan's Pupil|QID|10646|PRE|10641 & 10668 & 10669|M|27.35,43.06|N|From Altruis the Sufferer.|
+A Illidan's Pupil|QID|10646|PRE|10641&10668&10669|M|27.35,43.06|N|From Altruis the Sufferer.|
 C Illidan's Pupil|QID|10646|M|27.35,43.06|N|Talk to Altruis until you get the quest completion.|NC|
 T Illidan's Pupil|QID|10646|M|27.35,43.06|N|To Altruis the Sufferer.|
 A The Book of Fel Names|QID|10649|PRE|10646|M|27.35,46.06|N|From Altruis the Sufferer.|

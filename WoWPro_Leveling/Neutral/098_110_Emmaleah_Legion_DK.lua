@@ -310,7 +310,7 @@ C Our Oldest Enemies|QID|42534|QO|2|M|17.57,68.01|Z|Arathi Highlands|US|N|Finish
 C Death... and Decay|QID|42535|M|17.57,68.01|Z|Arathi Highlands|US|NC|N|Finish defiling the Witherbark Supplies.|
 T Our Oldest Enemies|QID|42534|M|19.45,67.33|Z|Arathi Highlands|N|To Prince Galen Trollbane.|
 T Death... and Decay|QID|42535|M|19.45,67.33|Z|Arathi Highlands|N|To Prince Galen Trollbane.|
-A Regicide|QID|42536|M|19.53,67.10|Z|Arathi Highlands|N|From Thassarian.|PRE|42534 & 42535|
+A Regicide|QID|42536|M|19.53,67.10|Z|Arathi Highlands|N|From Thassarian.|PRE|42534&42535|
 C Regicide|QID|42536|M|21.95,59.79|Z|Arathi Highlands|T|Prince Galen Trollbane|N|He decided to double cross us, Kill him.|
 T Regicide|QID|42536|M|23.4,61.39|Z|Arathi Highlands|N|To Thassarian, who is now down in the crypt.|
 A The King Rises|QID|42537|M|23.4,61.39|Z|Arathi Highlands|N|From Thassarian.|PRE|42536|
@@ -490,7 +490,7 @@ T Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N
 A Artifact specific quest|QID|40740^38990^40935|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|PRE|43935|LVL|102|
 
 ;3rd spec artifact
-A A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|ACH|11174;;true|ACTIVE|-38990 & -40935 & -40987|
+A A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|ACH|11174;;true|ACTIVE|-38990&-40935&-40987|
 C A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|Choose the remaining artifact.|
 T A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|
 
@@ -552,7 +552,7 @@ C Ariden followed|SO|5|M|55.31,55.90;68.17,43.97|CS|Z|Karazhan Catacombs|N|Follo
 C Ariden defeated|SO|6|M|68.47,31.56|Z|Karazhan Catacombs|N|Defeat Ariden, (quickly as he summons adds.)|QID|40934^40986|
 C The Dark Riders|QID|40934^40986|QO|2|M|68.16,24.72|Z|Karazhan Catacombs|NC|N|Pick up Apocalypse.|
 T The Dark Riders|QID|40934^40986|M|68.24,27.11|Z|Karazhan Catacombs|N|To Revil Kost.|
-A The Call of Vengeance|QID|40935^40987|M|68.24,27.11|Z|Karazhan Catacombs|N|From Revil Kost.|PRE|40934 & 40986|
+A The Call of Vengeance|QID|40935^40987|M|68.24,27.11|Z|Karazhan Catacombs|N|From Revil Kost.|PRE|40934&40986|
 C The Call of Vengeance|QID|40935^40987|QO|1|M|69.56,26.63|Z|Karazhan Catacombs|NC|N|Take the Death Gate provided.|
 C The Call of Vengeance|QID|40935^40987|QO|2|M|49.08,90.73|Z|The Frozen Throne@IcecrownCitadelDeathKnight|NC|N|Stand by the throne a minute or so to obtain the Mark of the Lich King.|
 C The Call of Vengeance|QID|40935^40987|QO|3|M|63.38,69.31|Z|Dalaran!Dalaran!Dungeon|NC|N|Take the Death Gate to Acherus|
@@ -601,7 +601,7 @@ C Harnessing Power|QID|45398|M|34.29,9.42|Z|PitofSaronDK|N|Kill the Sveldrek Bro
 C Severing the Sveldrek|QID|45399|M|43.62,21.96|Z|PitofSaronDK|US|N|Finish raising the Sveldrek.|
 T Harnessing Power|QID|45398|M|47.80,19.23|Z|PitofSaronDK|N|To Minerva Ravensorrow.|
 T Severing the Sveldrek|QID|45399|M|47.80,19.23|Z|PitofSaronDK|N|To Minerva Ravensorrow.|
-A Return to Acherus|QID|45331|M|47.80,19.23|Z|PitofSaronDK|N|From Minerva Ravensorrow.|PRE|45398 & 45399|
+A Return to Acherus|QID|45331|M|47.80,19.23|Z|PitofSaronDK|N|From Minerva Ravensorrow.|PRE|45398&45399|
 P Death-gate|QID|45331|M|48.22,18.93|Z|PitofSaronDK|N|Take the provided Deathgate back to Acherus.|ACTIVE|45331|
 T Return to Acherus|QID|45331|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|To Highlord Darion Mograine.|
 A The Peak of Bones|QID|44775|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Mograine.|PRE|45331|
@@ -614,7 +614,7 @@ C Thorim's Flame|QID|46305|QO|1|M|47.88,82.99|Z|Stormheim|CHAT|N|You can find th
 C Thorim's Flame|QID|46305|QO|2|M|47.99,83.08|Z|Stormheim|NC|N|Click on the flame to collect it.|
 T From Bones They Rise|QID|44783|M|47.99,83.08|Z|Stormheim|N|To Minerva Ravensorrow.|
 T Thorim's Flame|QID|46305|M|47.99,83.08|Z|Stormheim|N|To Minerva Ravensorrow.|
-A The Bonemother|QID|44787|M|47.99,83.08|Z|Stormheim|N|From Minerva Ravensorrow.|PRE|44783 & 46305|
+A The Bonemother|QID|44787|M|47.99,83.08|Z|Stormheim|N|From Minerva Ravensorrow.|PRE|44783&46305|
 C The Bonemother|QID|44787|QO|1|M|51.26,84.38|Z|Stormheim|N|Back down the mountain to where you met Minerva. Click on Thorim's Beacon to light it.|
 C The Bonemother|QID|44787|QO|2|M|51.26,84.38|Z|Stormheim|N|Kill Daumyr.|
 C The Bonemother|QID|44787|QO|3|M|51.26,84.38|Z|Stormheim|N|Use your extra action button to raise Daumyr.|

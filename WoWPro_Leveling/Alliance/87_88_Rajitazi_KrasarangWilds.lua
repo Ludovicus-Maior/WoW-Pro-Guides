@@ -183,7 +183,7 @@ C Cheer Up, Yi-Mo|QID|30082|M|77.02,7.70|
 T Cheer Up, Yi-Mo|QID|30082|M|75.90,7.61|N|To Mei Barrelbottom.|
 A Tears of Pandaria|QID|30091|PRE|30082|M|75.87,7.63|N|From Mei Barrelbottom.|
 T What's Eating Zhu's Watch?|QID|30079|M|76.22,7.06|N|To Ken-Ken.|
-A Materia Medica|QID|30081|PRE|30079 & 30082|M|76.22,7.06|N|From Ken-Ken.|
+A Materia Medica|QID|30081|PRE|30079&30082|M|76.22,7.06|N|From Ken-Ken.|
 C Materia Medica|QID|30081|S|M|72.19,10.68;75.41,10.87|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
 C Tears of Pandaria|QID|30091|M|71.99,11.45;75.41,10.87|CN|
 C Materia Medica|QID|30081|US|M|72.19,10.68;75.41,10.87|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
@@ -247,9 +247,9 @@ T Profit Mastery: Chasheen|QID|31260|M|67.61,25.68|N|To Daggle Bombstrider.|
 T Blind Them!|QID|30384|M|67.45,32.70|N|To Lyalia.|
 T Squirmy Delight|QID|30350|M|67.36,32.75|N|To Kang Bramblestaff.|
 T The Lost Dynasty|QID|30344|M|67.45,32.64|N|To Lorekeeper Vaeldrin|
-A Where are the Pools|QID|30346|PRE|30344 & 30350 & 30384|M|67.45,32.64|N|From Lorekeeper Vaeldrin.|
-A Threat from Dojan|QID|30349|PRE|30344 & 30350 & 30384|M|67.45,32.70|N|From Lyalia.|
-A Lotus Tea|QID|30351|PRE|30344 & 30350 & 30384|M|67.36,32.75|N|From Kang Bramblestaff.|
+A Where are the Pools|QID|30346|PRE|30344&30350&30384|M|67.45,32.64|N|From Lorekeeper Vaeldrin.|
+A Threat from Dojan|QID|30349|PRE|30344&30350&30384|M|67.45,32.70|N|From Lyalia.|
+A Lotus Tea|QID|30351|PRE|30344&30350&30384|M|67.36,32.75|N|From Kang Bramblestaff.|
 C Lotus Tea|QID|30351|S|NC|M|55,35|N|Keep an eye out for the flowers as you work you way up the terraces.|
 C Threat from Dojan|QID|30349|S|M|55,35|N|Kill these guys as you go up the terraces to where the boss is.|
 K Kill Dojani Dominator|QID|30346|T|Dojani Dominator|M|55.51,35.48|L|78917|N|Kill him and loot the orders.|
@@ -265,7 +265,7 @@ R While traveling|QID|31409|M|50.8,49.4|CC|N|You can optionally go along the coa
 T Threat from Dojan|QID|30349|M|67.45,32.70|N|To Lyalia.|
 T The Pools of Youth|QID|30347|M|67.45,32.64|N|To Lorekeeper Vaeldrin.|
 T Lotus Tea|QID|30351|M|67.36,32.75|N|To Kang Bramblestaff. |
-A Immortality?|QID|30348|PRE|30347 & 30349 & 30351|M|67.45,32.64|N|From Lorekeeper Vaeldrin.|
+A Immortality?|QID|30348|PRE|30347&30349&30351|M|67.45,32.64|N|From Lorekeeper Vaeldrin.|
 C Immortality?|QID|30348|M|67.45,32.64|N|Watch and wait.|
 T Immortality?|QID|30348|M|67.45,32.64|N|To Lorekeeper Vaeldrin.|
 A Going on the Offensive|QID|30363|PRE|30348|M|67.45,32.70|N|From Lyalia.|
@@ -285,9 +285,9 @@ C The Murksweats|QID|30268|M|37.33,41.13|N|These are swimming in the water.|
 T The Murksweats|QID|30268|M|40.48,34.66|N|To Anduin Wrynn.|
 T Blinding the Riverblades|QID|30270|M|40.59,33.69|N|To Koro Mistwalker.|
 T Tread Lightly|QID|30694|M|40.62,33.69|N|To Koro Mistwalker.|
-A Ahead on the Way|QID|30695|PRE|30268 & 30270 & 30694|M|40.68,33.68|N|From Koro Mistwalker.|
-A Striking the Rain |QID|30272|PRE|30268 & 30270 & 30694|M|40.6,33.7|N|From Koro Mistwalker|
-A Sha Can Awe|QID|30271|PRE|30268 & 30270 & 30694|M|40.67,33.88|N|From Anduin Wrynn, who is now following you and who may be duplicated!|
+A Ahead on the Way|QID|30695|PRE|30268&30270&30694|M|40.68,33.68|N|From Koro Mistwalker.|
+A Striking the Rain |QID|30272|PRE|30268&30270&30694|M|40.6,33.7|N|From Koro Mistwalker|
+A Sha Can Awe|QID|30271|PRE|30268&30270&30694|M|40.67,33.88|N|From Anduin Wrynn, who is now following you and who may be duplicated!|
 
 C Sha Can Awe|QID|30271|S|M|41.9,50.1|N|Kill Hunts and Incarnations of Despair near the Hopeless Monks|
 C Striking the Rain|QID|30272|S|M|40,45|
@@ -298,7 +298,7 @@ C Sha Can Awe|QID|30271|US|M|41.9,50.1|N|Kill Hunts and Incarnations of Despair 
 T Ahead on the Way|QID|30695|M|43.00,53.11|N|To Anduin Wrynn.|
 T Striking the Rain|QID|30272|M|38.01,50.89|N|To Anduin Wrynn.|
 T Sha Can Awe|QID|30271|M|38.01,50.89|N|To Anduin Wrynn.|
-A In the House of the Red Crane|QID|30273|PRE|30271 & 30272 & 30695|M|38.01,50.89|N|From Anduin Wrynn.|
+A In the House of the Red Crane|QID|30273|PRE|30271&30272&30695|M|38.01,50.89|N|From Anduin Wrynn.|
 C In the House of the Red Crane|QID|30273|M|40.46,54.65|N|Go up the center stairs then run straight back to the stairs into the basement. Talk to Chi-Ji to start the fight. He will float up and a large sha will appear, defeat it and you win. When the adds show up, you probably want to focus on them, since deaths cause Anduin to heal you.|
 T In the House of the Red Crane|QID|30273|M|40.43,49.18|N|To Chi-Ji (back outside).|
 
@@ -372,21 +372,21 @@ C No Sister Left Behind|QID|30354|US|NC|M|23.49,45.07|N|Click on the sentinals t
 T Re-Reclaim|QID|30355|M|25.20,34.53|N|To Kang Bramblestaff.|
 T No Sister Left Behind|QID|30354|M|24.70,34.04|N|To Lyalia.|
 T Sever Their Supply Line|QID|30356|M|24.70,34.04|N|To Lyalia.|
-A The Mantid|QID|30361|PRE|30354 & 30355 & 30356|M|24.88,34.37|N|From Ambassador Han.|
+A The Mantid|QID|30361|PRE|30354&30355&30356|M|24.88,34.37|N|From Ambassador Han.|
 
 C The Mantid|QID|30361|S|M|14.44,35.46|
-A The Stoneplow Convoy|QID|30357|PRE|30354 & 30355 & 30356|M|15.09,39.42|N|From Lorekeeper Vaeldrin.|
+A The Stoneplow Convoy|QID|30357|PRE|30354&30355&30356|M|15.09,39.42|N|From Lorekeeper Vaeldrin.|
 C The Stoneplow Convoy|QID|30357|NC|U|79163|M|15.62,34.96|N|Use the poultices to heal the envoys.|
 C The Mantid|QID|30361|S|M|14.44,35.46|
 T The Mantid|QID|30361|M|15.69,39.71|N|To Ambassador Len.|
 T The Stoneplow Convoy|QID|30357|M|15.09,39.42|N|To Lorekeeper Vaeldrin.|
-A The Lord Reclaimer|QID|30359|PRE|30357 & 30361|M|15.09,39.42|N|From Lorekeeper Vaeldrin.|
+A The Lord Reclaimer|QID|30359|PRE|30357&30361|M|15.09,39.42|N|From Lorekeeper Vaeldrin.|
 K Kill Groundbreaker Brojai|QID|30359|T|Groundbreaker Brojai|QO|1|M|23.58,48.85|N|Talk to Lyelia to start a scripted event which ends with you killing Brojai.|; Groundbreaker Brojai slain: 1/1
 T The Lord Reclaimer|QID|30359|M|24.70,33.98|N|To Lorekeeper Vaeldrin.|
 A The Waters of Youth|QID|30445|PRE|30359|M|24.70,33.98|N|From Lorekeeper Vaeldrin.|
 C The Waters of Youth|QID|30445|M|24.70,33.98|
 T The Waters of Youth|QID|30445|M|24.70,33.98|N|To Lyalia.|
-A Warn Stoneplow|QID|30360|PRE|29990 & 30117 & 30273 & 30445|M|24.74,34.04|N|From Lyalia.|
+A Warn Stoneplow|QID|30360|PRE|29990&30117&30273&30445|M|24.74,34.04|N|From Lyalia.|
 
 F Stoneplow|QID|30360|M|25.13,33.53|N|At Maylen Moonfeather.|
 T Warn Stoneplow|QID|30360|M|19.54,56.92|Z|Valley of the Four Winds|N|To Loon Mai.  Cinematic Follows.|

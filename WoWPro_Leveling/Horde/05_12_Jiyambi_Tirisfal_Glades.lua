@@ -361,7 +361,7 @@ T Maggot Eye|QID|24998|M|61.57,34.42|N|To Apprentice Crispin.|
 T Planting the Seed of Fear|QID|24999|M|61.57,34.42|N|To Apprentice Crispin.|
 T Off the Scales|QID|24995|M|61.61,34.55|N|To Apothecary Jerrod.|
 
-A Head for the Mills|QID|25031|LEAD|25003|M|61.61,34.55|N|From Apothecary Jerrod.|PRE|24995 & 24998 & 24999|
+A Head for the Mills|QID|25031|LEAD|25003|M|61.61,34.55|N|From Apothecary Jerrod.|PRE|24995&24998&24999|
 R Agamand Mills|ACTIVE|25031|M|54.61,29.82|N|Follow the road past Maggot Eye's house, up the hill to the mills.|
 T Head for the Mills|QID|25031|M|54.61,29.82|N|To Coleman Farthing.|
 
@@ -382,7 +382,7 @@ C The Mills Overrun|QID|25004|US|M|46.69,31.46|N|Kill and loot both types of ske
 T The Mills Overrun|QID|25004|M|54.55,29.85|N|To Coleman Farthing.|
 T Deaths in the Family|QID|25029|M|54.55,29.85|N|To Coleman Farthing.|
 
-A Speak with Sevren|QID|25005|M|54.55,29.85|N|From Coleman Farthing.|PRE|25004 & 25029|
+A Speak with Sevren|QID|25005|M|54.55,29.85|N|From Coleman Farthing.|PRE|25004&25029|
 H Brill|ACTIVE|25005|M|54.55,29.85|N|Run back if your hearth is down.|
 r Eliza Callen |ACTIVE|25005|M|60.76,50.97|N|Take this opportunity to sell and repair with Eliza Callen, who is at the foot of the stairs towards Magistrate Sevren.|T|Eliza Callen|
 T Speak with Sevren|QID|25005|M|60.93,50.59|N|To Magistrate Sevren, upstairs in the inn.|

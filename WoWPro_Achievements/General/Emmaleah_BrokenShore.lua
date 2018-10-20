@@ -455,7 +455,7 @@ C Cutting off the Heads|QID|46106|M|39.2,61.4|Z|Val'sharah|QO|3|N|Kill Tael'thos
 C Quieting the Spirits|QID|46080|M|39.2,61.4|Z|Val'sharah|US|N|Finish killing the risen spirits.|
 T Cutting off the Heads|QID|46106|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod Shadowsong, who is following your around.|
 T Quieting the Spirits|QID|46080|M|39.2,61.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
-A Source of the Corruption|QID|46107|M|39.2,61.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46080 & 46106|
+A Source of the Corruption|QID|46107|M|39.2,61.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46080&46106|
 C Source of the Corruption|QID|46107|QO|1|N|Travel to Hero's Rest (outside of Blackrook Hold).|
 C Source of the Corruption|QID|46107|QO|2|N|Jarod tries to reason with them. Kill the ones that can't be released.|
 C Source of the Corruption|QID|46107|QO|3|M|38.8,51.4|Z|Val'sharah|N|Kill Lorgos.|T|Lorgos the Resurrector|

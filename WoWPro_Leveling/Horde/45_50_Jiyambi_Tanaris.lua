@@ -87,12 +87,12 @@ C Butcherbot|QID|25112|RANK|2|U|52715|US|M|48.78,34.15|N|Use the butcherbot on c
 T Puddle Stomping|QID|24907|M|51.26,29.89|N|To Megs Dreadshredder.|
 T Seaside Salvage|QID|24906|M|51.23,29.94|N|To Megs Dreadshredder.|
 
-A Rocket Rescue|QID|24910|PRE|24906 & 24907|M|51.23,29.94|N|From Megs Dreadshredder.|
+A Rocket Rescue|QID|24910|PRE|24906&24907|M|51.23,29.94|N|From Megs Dreadshredder.|
 T Butcherbot|QID|25112|RANK|2|M|52.23,28.09|N|To Driz Plunkbow.|
 A Scavengers Scavenged|QID|25111|RANK|2|PRE|25112|M|52.23,28.09|N|From Driz Plunkbow.|
 C Rocket Rescue|QID|24910|M|53.34,27.44|N|Hop into the balloon just out of town. Use ability 1 to deliver rockets to the goblins, and use ability 2 on the pirates. When you complete the quest, use the last ability to return to Gadgetzan.|
 T Rocket Rescue|QID|24910|M|51.26,29.91|N|To Megs Dreadshredder.|
-A Momentum|QID|24947|PRE|24910 & 24907|M|51.26,29.91|N|From Megs Dreadshredder.|
+A Momentum|QID|24947|PRE|24910&24907|M|51.26,29.91|N|From Megs Dreadshredder.|
 C Scavengers Scavenged|QID|25111|RANK|2|M|49.43,36.07;44.19,40.97|CN|N|On the way to Megs, stop at the skeletons just outside of town and kill and use the butcherbot on Fire Rocs.|
 T Momentum|QID|24947|M|67.89,41.85;71.84,45.39|CC|N|To Megs Dreadshredder.|
 
@@ -111,12 +111,12 @@ T Dead Man's Chest|QID|24927|M|71.86,45.41|N|To Megs Dreadshredder.|
 A Going Off-Task|QID|25534|PRE|24927|M|71.86,45.41|N|From Megs Dreadshredder.|
 T To The Ground!|QID|24928|M|71.86,45.41|N|To Megs Dreadshredder.|
 T Booty Duty|QID|24949|M|71.86,45.41|N|To Megs Dreadshredder.|
-A Filling Our Pockets|QID|25541|PRE|24927 & 24949|M|71.86,45.41|N|From Megs Dreadshredder.|
+A Filling Our Pockets|QID|25541|PRE|24927&24949|M|71.86,45.41|N|From Megs Dreadshredder.|
 C Going Off-Task|QID|25534|M|74.60,45.49|N|Head to the ship, go below-decks, and kill the Taskmaster there.|
 C Filling Our Pockets|QID|25541|M|69.70,53.46|N|Kill Southsea Strongarms and Musketeers south of the main embattled camp, and loot them for their teeth.|
 T Going Off-Task|QID|25534|M|71.88,45.43|N|Back to Megs Dreadshredder.|
 T Filling Our Pockets|QID|25541|M|71.85,45.38|N|To Megs Dreadshredder.|
-A Captain Dreadbeard|QID|24950|PRE|24928 & 25534 & 25541|M|71.85,45.38|N|From Megs Dreadshredder.|
+A Captain Dreadbeard|QID|24950|PRE|24928&25534&25541|M|71.85,45.38|N|From Megs Dreadshredder.|
 C Captain Dreadbeard|QID|24950|M|70.97,55.60|N|The captain will summon a giant to help him fight, so be ready!|
 T Captain Dreadbeard|QID|24950|M|71.85,45.39|N|Back to Megs Dreadshredder.|
 
@@ -204,7 +204,7 @@ C Laying Claim|QID|25019|US|M|41.41,69.61|N|Kill dwarves in the area.|
 T Fragments of Language|QID|25020|M|33.30,76.99|N|Back to Examiner Andoren Dawnrise.|
 T Laying Claim|QID|25019|M|33.30,76.99|N|To Examiner Andoren Dawnrise.|
 
-A Ancient Obstacles|QID|25017|PRE|25019 & 25020|M|33.30,76.99|N|From Examiner Andoren Dawnrise.|
+A Ancient Obstacles|QID|25017|PRE|25019&25020|M|33.30,76.99|N|From Examiner Andoren Dawnrise.|
 C Ancient Obstacles|QID|25017|M|37.24,75.11|N|Kill golems outside of Uldum.|
 T Ancient Obstacles|QID|25017|M|33.29,77.01|N|To Examiner Andoren Dawnrise.|
 A The Crumbling Past|QID|25068|PRE|25017|M|33.29,77.01|N|From Examiner Andoren Dawnrise.|

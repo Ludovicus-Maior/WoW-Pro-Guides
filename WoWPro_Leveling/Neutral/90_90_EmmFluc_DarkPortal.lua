@@ -228,8 +228,8 @@ T Blaze of Glory |QID|34422|N|To Archmage Khadgar|M|71.55,62.37|Z|TanaanJungleIn
 T Bled Dry |QID|35240^34421|N|To Archmage Khadgar|M|71.55,62.37|Z|TanaanJungleIntro|
 
 ;N Altar Altercation |QID|34423|N|This quest sometimes does not show in the guide. If it does not, /reloadui should make it appear. It is a Blizzard bug.|
-A Altar Altercation |QID|34423|N|From Archmage Khadgar|PRE|35242 & 34422 & 35240|FACTION|Alliance|M|71.61,62.43|Z|TanaanJungleIntro|
-A Altar Altercation |QID|34423|N|From Archmage Khadgar|PRE|35241 & 34422 & 34421|FACTION|Horde|M|71.61,62.43|Z|TanaanJungleIntro|
+A Altar Altercation |QID|34423|N|From Archmage Khadgar|PRE|35242&34422&35240|FACTION|Alliance|M|71.61,62.43|Z|TanaanJungleIntro|
+A Altar Altercation |QID|34423|N|From Archmage Khadgar|PRE|35241&34422&34421|FACTION|Horde|M|71.61,62.43|Z|TanaanJungleIntro|
 C Altar Altercation |QID|34423|N|Speak with Ariok and tell him "Khadgar has asked us to go distract the Eye of Kilrogg".|QO|1|CHAT|M|72.0,62.2|Z|TanaanJungleIntro|
 C Altar Altercation |QID|34423|N|Head to the Bleeding Altar.|QO|2|NC|M|76.4,54.8|Z|TanaanJungleIntro|
 C Altar Altercation |QID|34423|N|Destroy the three ritual orbs (the third is up the stairs on the side). You may need to manually complete this step.|QO|3|NC|M|78.7,53.3|Z|TanaanJungleIntro|
@@ -267,8 +267,8 @@ T Yrel|QID|34434^34740|N|To Yrel|M|50.60,48.40|Z|Umbral Halls|
 T Masters of Shadow|QID|34431|N|To Exarch Maladaar|FACTION|Alliance|M|50.27,48.20|Z|Umbral Halls|
 T Masters of Shadow|QID|34737|N|To Lady Liadrin|FACTION|Horde|M|50.19,48.52|Z|Umbral Halls|
 
-A Keli'dan the Breaker|QID|34436|N|From Exarch Maladaar|FACTION|Alliance|M|50.27,48.20|PRE|34431 & 34434 & 34432|Z|Umbral Halls|
-A Keli'dan the Breaker|QID|34741|N|From Lady Liadrin|FACTION|Horde|M|50.7,48.5|PRE|34739 & 34740 & 34737|Z|Umbral Halls|
+A Keli'dan the Breaker|QID|34436|N|From Exarch Maladaar|FACTION|Alliance|M|50.27,48.20|PRE|34431&34434&34432|Z|Umbral Halls|
+A Keli'dan the Breaker|QID|34741|N|From Lady Liadrin|FACTION|Horde|M|50.7,48.5|PRE|34739&34740&34737|Z|Umbral Halls|
 C Keli'dan the Breaker|QID|34436^34741|N|Go towards the gate, it will open. Go in and kill Keli'dan.|M|35.47,51.26|T|Keli'dan the Breaker|Z|Umbral Halls|
 T Keli'dan the Breaker |QID|34436^34741|N|To Archmage Khadgar|M|49.50,14.39|Z|TanaanJungleIntro|
 
@@ -302,7 +302,7 @@ T The Gunpowder Plot |QID|34987|N|To Hansel Heavyhands|M|44.09,29.56|Z|TanaanJun
 T The Shadow of the Worldbreaker |QID|34958|N|To Thaelin Darkanvil|M|44.06,29.67|Z|TanaanJungleIntro|
 
 T The Prodigal Frostwolf |QID|34437|N|To Farseer Drek'Thar|M|43.04,26.37|Z|TanaanJungleIntro|
-A Taking a Trip to the Top of the Tank |QID|35747|N|From Archmage Khadgar|PRE|34958 & 34437 & 34987|M|43.13,28.73|Z|TanaanJungleIntro|
+A Taking a Trip to the Top of the Tank |QID|35747|N|From Archmage Khadgar|PRE|34958&34437&34987|M|43.13,28.73|Z|TanaanJungleIntro|
 C Taking a Trip to the Top of the Tank |QID|35747|N|Speak with Thaelin Darkanvil and say "Yes. I need you to help me operate that enormous tank".|QO|1|CHAT|M|44.06,29.56|Z|TanaanJungleIntro|
 C Taking a Trip to the Top of the Tank |QID|35747|N|Head to The Path of Glory and kill Gogluk. Dont hang around; he respawns quickly.|QO|2|M|39.90,48.23|Z|TanaanJungleIntro|T|Gogluk|
 C Taking a Trip to the Top of the Tank |QID|35747|N|Run up one of the two chains to the top of the tank then wait for Thaelin Darkanvil to catch up.|NC|QO|3|M|40.1,48.4|Z|TanaanJungleIntro|

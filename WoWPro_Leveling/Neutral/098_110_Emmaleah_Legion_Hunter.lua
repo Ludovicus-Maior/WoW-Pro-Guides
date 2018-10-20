@@ -356,13 +356,13 @@ C Ore Under the Sea|QID|42655|M|0,0|Z|Suramar|N|Go to Suramar and "mine" the ore
 C Nightmare Oak|QID|42654|NA|N|Hopefully you have run Darkheart Thicket.|
 T Ore Under the Sea|QID|42655|M|43.18,6.02|N|To Halduron Brightwing.|
 T Nightmare Oak|QID|42654|M|43.18,6.02|N|To Halduron Brightwing.|
-A Azure Weaponry|QID|42656|M|43.18,6.02|N|From Halduron Brightwing.|PRE|42654 & 42655|
+A Azure Weaponry|QID|42656|M|43.18,6.02|N|From Halduron Brightwing.|PRE|42654&42655|
 P Dalaran|QID|42656|M|48.62,43.48|N|Take the Dalaran portal to find Blacksmith Kyriel.|ACTIVE|42656|
 C Azure Weaponry|QID|42656|M|44.40,28.42|Z|Dalaran@Dalaran70|NC|N|Walk into the blacksmithing shop and hang out for a min or so.|
 B Arkhana|QID|42408|L|124440 20|N|Acquire 20 arkhana from your nearby friendly enchanter, Action House, guild bank... somewhere, you will need it for a quest soon.|
 T Required Reagents|QID|42408|M|46.35,34.97|N|Return to your lodge and turn this in to Shandris Feathermoon.|
 T Azure Weaponry|QID|42656|M|46.35,34.97|N|To Shandris Feathermoon.|
-A Meeting in Moonclaw Vale|QID|42657|M|46.35,34.97|N|From Shandris Feathermoon.|PRE|42656 & 42408|
+A Meeting in Moonclaw Vale|QID|42657|M|46.35,34.97|N|From Shandris Feathermoon.|PRE|42656&42408|
 F Lorlathil|QID|42657|QO|1|M|35.86,27.62|N|At Odan Battlebow.|ACTIVE|42657|
 R Moonclaw Vale|QID|42657|QO|1|M|55.04,74.59;59.69,74.83|CS|Z|Val'sharah|N|Follow the road to Moonclaw Vale.|ACTIVE|42657|
 T Meeting in Moonclaw Vale|QID|42657|M|61.30,71.27;60.12,72.22|CS|Z|Val'sharah|N|To Lyana Stardust.|
@@ -374,7 +374,7 @@ C Leading by Example|QID|44680|N|You progress on your order hall is held up unti
 T The Missing Vessel|QID|43182|M|42.85,25.65|N|If you haven't yet, pick up your rewards from the mission and then go to Khadgar to turn in.|
 T Same Day Delivery|QID|42133|M|43.37,26.33|N|To Emmarel Shadewarden.|
 T Leading by Example|QID|44680|M|43.37,26.33|N|To Emmarel Shadewarden.|
-A In Defense of Dalaran|QID|42659|M|43.37,26.33|N|From Emmarel Shadewarden.|PRE|43182 & 44680|;and maybe pre 42133?
+A In Defense of Dalaran|QID|42659|M|43.37,26.33|N|From Emmarel Shadewarden.|PRE|43182&44680|;and maybe pre 42133?
 C In Defense of Dalaran|QID|42659|QO|1|M|42.85,25.65|CHAT|N|Tell Khadgar you are ready to go.|
 C In Defense of Dalaran|QID|42659|QO|2|M|43.10,26.17|NC|N|Take Khadgar's provided portal to enter the scenario.|
 C Arcane Essense|QID|42659|SO|1|M|51.72,69.72|Z|TheVioletHoldAcquisition/1|CHAT|N|Tell Khadgar you are ready.|
@@ -612,7 +612,7 @@ C Unnatural Consequences|QID|45556|M|42.63,36.47;41.83,34.14|CS|Z|Broken Shore|N
 C Salvation|QID|46060|M|50.91,30.64|Z|Broken Shore|US|NC|N|Finish applying the salve as you travel back to Syrenne.|
 T Unnatural Consequences|QID|45556|M|50.91,30.64|Z|Broken Shore|N|To Nighthuntress Syrenne.|
 T Salvation|QID|46060|M|50.91,30.64|Z|Broken Shore|N|To Nighthuntress Syrenne.|
-A Secured Surroundings|QID|46235|M|50.91,30.64|Z|Broken Shore|N|From Nighthuntress Syrenne.|PRE|45557 & 46060|
+A Secured Surroundings|QID|46235|M|50.91,30.64|Z|Broken Shore|N|From Nighthuntress Syrenne.|PRE|45557&46060|
 F Delivererance Point|QID|46235|M|44.77,61.12|Z|Broken Shore|N|Travel to Deliverance Point to meet up with Nighthuntress Syrenne.|ACTIVE|46235|
 T Secured Surroundings|QID|46235|M|44.77,61.12|Z|Broken Shore|N|To Nighthuntress Syrenne.|
 A Champion: Nighthuntress Syrenne|QID|46048|M|44.77,61.12|Z|Broken Shore|N|From/To Nighthuntress Syrenne.|PRE|46235|

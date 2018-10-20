@@ -285,7 +285,7 @@ C Ravenous Ravens |QID|34616|N|Finish killing the Lunarfall Ravens|US|M|29.1,17.
 T Looking for Lumber |QID|34584|N|From Baros Alexston|M|29.0,16.2|
 T Ravenous Ravens |QID|34616|N|From Baros Alexston|M|29.0,16.2|
 
-A Quakefist |QID|34585|N|From Yrel|M|28.9,16.4|PRE|34584 & 34616|
+A Quakefist |QID|34585|N|From Yrel|M|28.9,16.4|PRE|34584&34616|
 C Quakefist |QID|34585|N|Kill Quakefist, who can be found inside the cave.|M|30.1,21.8|T|Quakefist|
 T Quakefist |QID|34585|N|To Yrel|M|28.9,16.4|
 
@@ -321,7 +321,7 @@ T Pale Moonlight |QID|35174|N|To Vindicator Maraad\n\nUse your Garrison Hearthst
 T Keeping it Together |QID|35176|N|To Baros Alexston|M|41.20,49.33|Z|Lunarfall|
 T Ship Salvage|QID|35166|N|To Baros Alexston|M|41.20,49.33|Z|Lunarfall|
 
-A Build Your Barracks |QID|34587|N|From Baros Alexston|PRE|35174 & 35176 & 35166|M|41.20,49.33|Z|Lunarfall|
+A Build Your Barracks |QID|34587|N|From Baros Alexston|PRE|35174&35176&35166|M|41.20,49.33|Z|Lunarfall|
 C Build Your Barracks |QID|34587|N|Loot the Barracks Blueprints from the floor of the construction site.|QO|1|NC|M|45.4,40.2|Z|Lunarfall|
 C Build Your Barracks |QID|34587|N|Click on the Barracks Blueprints to learn it.|QO|2|U|111956|NC|
 C Build Your Barracks |QID|34587|N|Click on the Architect Table, then drag the Barracks icon to the Large Empty Plot.|QO|3|NC|M|41.12,48.93|Z|Lunarfall|
@@ -403,7 +403,7 @@ T Dark Enemies |QID|33765|N|To Prophet Velen.|M|49.12,38.51|
 T Closing the Door |QID|33905|N|To Prophet Velen|M|49.12,38.51|
 
 ;The next quest needs all three of 33765;33070;33905 but when all three are shown, this quest is skipped unless you /reload ui!
-A Shadows Awaken |QID|34019|N|From Prophet Velen|M|49.12,38.51|PRE|33765 & 33070| ;33905|
+A Shadows Awaken |QID|34019|N|From Prophet Velen|M|49.12,38.51|PRE|33765&33070| ;33905|
 C Shadows Awaken |QID|34019|N|Head into the centre of the observatory and wait for Ner'zhul to spawn Karnoth|M|49.3,37.4|NC|QO|1|
 C Shadows Awaken |QID|34019|N|Kill and loot Karnoth.|M|49.4,37.0|
 
@@ -530,7 +530,7 @@ C Engorged Goren |QID|34786|N|Finish killing and looting the Crystalmaw Goren an
 
 T Engorged Goren |QID|34786|N|To Apprentice Artificer Andren|M|61.87,29.14|
 T Shut 'er Down |QID|35070|N|To Exarch Hataaru|M|61.91,29.69|
-A Exarch Maladaar |QID|34787|N|From Exarch Akama|M|61.92,29.61|PRE|34784 & 35070|
+A Exarch Maladaar |QID|34787|N|From Exarch Akama|M|61.92,29.61|PRE|34784&35070|
 
 f Elodor |QID|34787|N|With Vamuun.|M|58.7,31.9|
 T Exarch Maladaar |QID|34787|N|To Exarch Maladaar on Fey Landing.|CS|M|59.38,29.15;59.51,30.37|
@@ -604,7 +604,7 @@ C Riot Blossom|QID|33787|N|Finish killing and looting the Riot Blossom|QO|3|US|M
 T Fiona's Solution|QID|33787|M|53.59,57.30|N|To Fiona.|
 T Swamplighter Queen|QID|33808|M|53.59,57.30|N|To Fiona.|
 
-A Cooking With Unstable Herbs|QID|33788|M|53.59,57.30|N|From Fiona.|PRE|33787 & 33808|
+A Cooking With Unstable Herbs|QID|33788|M|53.59,57.30|N|From Fiona.|PRE|33787&33808|
 C Cooking With Unstable Herbs|QID|33788|QO|1|N|Speak with Fiona|CHAT|M|53.59,57.30|
 C Cooking With Unstable Herbs|QID|33788|QO|2|N|Follow Fiona's steps to complete the elixir.\n\nNice Glow = Moonlit Herb\nSomething Meaty = Riverbeast Heart\nWriggle Around = Riotvine\nDangerous and Toxic = Swamplighter Venom|NC|M|53.59,57.30|
 C Cooking With Unstable Herbs|QID|33788|QO|3|N|Click to use the elixir on Gidwin Goldbraids.|NC|
@@ -707,7 +707,7 @@ C Escape From Shaz'gul |QID|33081|N|Speak to Yrel and select any two chat lines 
 C Escape From Shaz'gul |QID|33081|N|Escort Yrel out of Shaz'gul, a number of mobs will spawn at various points.|QO|2|M|39.2,57.5|
 
 T Escape From Shaz'gul |QID|33081|N|To Yrel, now in Twilight Glade.|M|40.60,54.94|
-A Chasing Shadows |QID|33586|N|From Prophet Velen|M|40.53,54.91|PRE|33059 & 33081|
+A Chasing Shadows |QID|33586|N|From Prophet Velen|M|40.53,54.91|PRE|33059&33081|
 A Fast Expansion|QID|33814|M|40.65,54.87|N|From Scout Valdez. If he is not here, he might be in your garrison.|PRE|33059|
 
 F Embaari Village |QID|33586|M|40.7,55.3|N|Fly to Embaari Village, or use your hearthstone if it has cooled down.|
@@ -809,7 +809,7 @@ T On the Offensive|QID|33083|N|To Prophet Velen|M|46.37,38.68|
 T Harbingers of the Void|QID|33793|M|46.37,38.68|N|To Prophet Velen|
 T Across the Stars|QID|33795|M|46.37,38.68|N|To Prophet Velen|
 
-A Darkness Falls|QID|33837|N|From Prophet Velen.|M|46.37,38.68|PRE|34054 & 33083 & 33793 & 33795 & 33794|
+A Darkness Falls|QID|33837|N|From Prophet Velen.|M|46.37,38.68|PRE|34054&33083&33793&33795&33794|
 
 T Wanted: Kliaa's Stinger|QID|33834|N|To Dyuna|ACTIVE|33834|M|44.91,38.50|
 

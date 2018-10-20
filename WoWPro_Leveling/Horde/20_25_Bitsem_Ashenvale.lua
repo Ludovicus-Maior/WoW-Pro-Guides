@@ -269,7 +269,7 @@ C Making Stumps|QID|13815|U|45807|US|M|86.51,54.67|N|Finish chopping the needed 
 
 T Making Stumps|QID|13815|U|45710|M|82.52,53.78|N|Use the Signal Powder again to summon Krokk. Turn in your quest.|
 T Wet Work|QID|13865|M|82.52,53.78|N|To Krokk.|
-A As Good as it Gets|QID|13870|PRE|13815 & 13865|RANK|2|M|82.52,53.78|N|From Krokk.|
+A As Good as it Gets|QID|13870|PRE|13815&13865|RANK|2|M|82.52,53.78|N|From Krokk.|
 
 T As Good as it Gets|QID|13870|M|90.93,58.29|N|To Overseer Gorthak.|
 A Security!|QID|13871|PRE|13870|RANK|1|M|90.93,58.29|N|From Overseer Gorthak.|
@@ -426,7 +426,7 @@ C Put Out The Fire|QID|13884|US|M|52.16,49.41|N|Freezing Surger will help you. I
 
 T Hot Lava|QID|13880|M|52.38,56.63|N|To Core.|
 T Put Out The Fire|QID|13884|M|52.15,56.72|N|To Arctanus.|
-A Vortex|QID|13888|PRE|13880 & 13884|RANK|2|M|52.36,56.84|N|From The Vortex.|
+A Vortex|QID|13888|PRE|13880&13884|RANK|2|M|52.36,56.84|N|From The Vortex.|
 
 C Vortex|QID|13888|M|47.05,39.08|N|Speak to Vortex when ready to go. Use his attacks to defeat Lord Magmathar.|
 T Vortex|QID|13888|M|52.06,56.46|N|To Stikwad.|

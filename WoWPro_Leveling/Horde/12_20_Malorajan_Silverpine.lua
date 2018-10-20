@@ -107,11 +107,11 @@ C Agony Abounds|QID|26992|M|61.55,9.91|N|Loot any Doomweed you come acros.|US|
 T The Gilneas Liberation Front|QID|26989|M|57.42,10.14|N|To Grand Executor Mortuus.|
 T Agony Abounds|QID|26992|M|56.74,9.12|N|To Apothecary Witherbloom.|
 T Guts and Gore|QID|26995|M|56.29,8.41|N|To High Apothecary Shana T'veen.|
-A Iterating Upon Success|QID|26998|PRE|26992 & 26995|M|56.28,8.45|N|From High Apothecary Shana T'veen.|
+A Iterating Upon Success|QID|26998|PRE|26992&26995|M|56.28,8.45|N|From High Apothecary Shana T'veen.|
 C Iterating Upon Success|QID|26998|M|57.91,8.69|N|Ask Maggotbreath for bat|QO|1|; Bat requisitioned from Bat Handler Maggotbreath: 1/1
 C Iterating Upon Success|QID|26998|M|79.69,28.63|N|Use Ability #1, aim, then click the mouse to kill Murlocs.|
 T Iterating Upon Success|QID|26998|M|56.34,8.38|N|To High Apothecary Shana T'veen.|
-A Dangerous Intentions|QID|27039|PRE|26989 & 26998|M|58.09,8.99|N|From Deathstalker Commander Belmont.|
+A Dangerous Intentions|QID|27039|PRE|26989&26998|M|58.09,8.99|N|From Deathstalker Commander Belmont.|
 
 T Dangerous Intentions|QID|27039|M|53.94,12.96|N|To Abandoned Outhouse (Deathstalker Yorick).|
 A Waiting to Exsanguinate|QID|27045|PRE|27039|M|53.94,12.96|N|From Abandoned Outhouse (Deathstalker Yorick).|
@@ -136,8 +136,8 @@ C Playing Dirty|QID|27082|M|40.45,23.09|US|N|Kill any diseased bears and worgs y
 C Steel Thunder|QID|27069|M|37.46,28.68|US|N|Click on a Sea Dog Crate to have your Sea Pup pick it up.|
 T Steel Thunder|QID|27069|M|44.01,21.36|N|To Admiral Hatchet.|
 T Give 'em Hell!|QID|27073|M|44.00,21.29|N|To Warlord Torok.|
-A Skitterweb Menace|QID|27095|PRE|27069 & 27073|M|44.00,21.29|N|From Warlord Torok.|
-A Lost in the Darkness|QID|27093|PRE|27069 & 27073|M|44.01,21.36|N|From Admiral Hatchet.|
+A Skitterweb Menace|QID|27095|PRE|27069&27073|M|44.00,21.29|N|From Warlord Torok.|
+A Lost in the Darkness|QID|27093|PRE|27069&27073|M|44.01,21.36|N|From Admiral Hatchet.|
 T Playing Dirty|QID|27082|M|44.80,20.91|N|To Apothecary Wormcrud.|
 A It's Only Poisonous if You Ingest It|QID|27088|PRE|27082|M|44.80,20.91|N|From Apothecary Wormcrud.|
 C It's Only Poisonous if You Ingest It|QID|27088|U|60808|M|41.69,28.02|N|Find a Forest Ettin (look for the boss icon on the mini map to help you), use the chicken then kill it.|T|Forest Ettin|
@@ -151,7 +151,7 @@ H Forsaken Rear Guard|QID|27094|M|44.36,20.41|N|Hearth back to Forsaken Rear Gua
 T Deeper into Darkness|QID|27094|M|44.00,21.29|N|To Warlord Torok.|
 T Lost in the Darkness|QID|27093|M|44.01,21.36|N|To Admiral Hatchet.|
 T It's Only Poisonous if You Ingest It|QID|27088|M|44.80,20.91|N|To Apothecary Wormcrud.|
-A Orcs are in Order|QID|27096|PRE|27088 & 27093 & 27094|M|44.01,21.36|N|From Admiral Hatchet.|
+A Orcs are in Order|QID|27096|PRE|27088&27093&27094|M|44.01,21.36|N|From Admiral Hatchet.|
 
 F Forsaken High Command|QID|27096|M|45.93,21.83|N|Fly to the Forsaken High Command.|
 T Orcs are in Order|QID|27096|M|57.37,10.18|N|To Lady Sylvanas Windrunner.|
@@ -197,7 +197,7 @@ T The Waters Run Red...|QID|27232|M|45.81,41.94|N|To Admiral Hatchet.|
 T Hair of the Dog|QID|27226|M|45.75,41.92|N|To Warlord Torok.|
 T Honor the Dead|QID|27180|M|44.90,41.65|N|To Lady Sylvanas Windrunner.|
 T Nowhere to Run|QID|27195|M|44.90,41.65|N|To Lady Sylvanas Windrunner.|
-A To Forsaken Forward Command|QID|27290|PRE|27232 & 27180 & 27195 & 27226|M|44.90,41.65|N|From Lady Sylvanas Windrunner.|
+A To Forsaken Forward Command|QID|27290|PRE|27232&27180&27195&27226|M|44.90,41.65|N|From Lady Sylvanas Windrunner.|
 T To Forsaken Forward Command|QID|27290|M|57.40,18.91|Z|Ruins of Gilneas|N|To Deathstalker Commander Belmont.|
 A In Time, All Will Be Revealed|QID|27342|PRE|27290|M|57.40,18.91|Z|Ruins of Gilneas|N|From Deathstalker Commander Belmont.|
 A Losing Ground|QID|27333|PRE|27290|M|57.53,18.24|Z|Ruins of Gilneas|N|From Forward Commander Onslaught.|
@@ -213,7 +213,7 @@ T Losing Ground|QID|27333|M|57.53,18.24|Z|Ruins of Gilneas|N|To Forward Commande
 T Korok the Colossus|QID|27322|M|57.53,18.24|Z|Ruins of Gilneas|N|To Forward Commander Onslaught.|
 T The F.C.D.|QID|27345|M|57.53,18.24|Z|Ruins of Gilneas|N|To Forward Commander Onslaught.|
 T In Time, All Will Be Revealed|QID|27342|M|57.44,18.68|Z|Ruins of Gilneas|N|To Deathstalker Commander Belmont.|
-A Break in Communications: Dreadwatch Outpost|QID|27349|PRE|27333 & 27342 & 27345|M|57.53,18.24|Z|Ruins of Gilneas|N|From Forward Commander Onslaught.|
+A Break in Communications: Dreadwatch Outpost|QID|27349|PRE|27333&27342&27345|M|57.53,18.24|Z|Ruins of Gilneas|N|From Forward Commander Onslaught.|
 
 C Break in Communications: Dreadwatch Outpost|QID|27349|NC|M|51.77,32.08|Z|Ruins of Gilneas|N|Head to Dreadwatch Post.|
 T Break in Communications: Dreadwatch Outpost|QID|27349|M|51.83,32.24|Z|Ruins of Gilneas|N|(UI Alert)|
@@ -254,7 +254,7 @@ C Breaking the Barrier|QID|27474|M|63.48,64.20|N|Head inside the Town Hall and c
 C Unyielding Servitors|QID|27475|M|60.52,63.75|N|Kill and loot Elemental Servitors.|US|
 T Unyielding Servitors|QID|27475|M|51.93,64.72|N|To Daschla.|
 T Breaking the Barrier|QID|27474|M|51.90,65.02|N|To Lady Sylvanas Windrunner.|
-A Dalar Dawnweaver|QID|27476|PRE|27474 & 27475|M|51.90,65.02|N|From Lady Sylvanas Windrunner.|
+A Dalar Dawnweaver|QID|27476|PRE|27474&27475|M|51.90,65.02|N|From Lady Sylvanas Windrunner.|
 A Warchief's Command: Hillsbrad Foothills!|QID|28089|LEAD|28096|M|51.36,66.80|N|From High Warlord Cromush.|
 H The Sepulcher|QID|27476|M|46.40,42.68|N|Hearth back to The Sepulcher, or fly there if your hearth is not up.|
 
@@ -307,16 +307,16 @@ T Lessons in Fear|QID|27548|N|To Lord Walden, who is following you.|
 T Of No Consequence|QID|27547|N|To Baron Ashbury, who is following you.|
 T Pyrewood's Fall|QID|27550|N|To Lord Godfrey, who is following you.|
 
-A Sowing Discord|QID|27580|PRE|27547 & 27548 & 27550|N|From Lord Godfrey, who is following you.|
-A 7th Legion Battle Plans|QID|27577|PRE|27547 & 27548 & 27550|N|From Lord Walden, who is following you.|
+A Sowing Discord|QID|27580|PRE|27547&27548&27550|N|From Lord Godfrey, who is following you.|
+A 7th Legion Battle Plans|QID|27577|PRE|27547&27548&27550|N|From Lord Walden, who is following you.|
 C 7th Legion Battle Plans|QID|27577|N|Kill Infantry until the 7th Legion Battle Plans.|S|
 C Sowing Discord|QID|27580|M|41.77,77.67|N|Kill General Marstone.|
 C 7th Legion Battle Plans|QID|27577|M|44.67,81.01|N|Search Infantry until 7th Legion Battle Plans.|US|
 T 7th Legion Battle Plans|QID|27577|M|44.67,81.01|N|To Lord Walden.|
 T Sowing Discord|QID|27580|M|41.87,78.04|N|To Lord Godfrey.|
-A On Her Majesty's Secret Service|QID|27594|PRE|27577 & 27580|M|41.87,78.04|N|From Lord Godfrey.|
+A On Her Majesty's Secret Service|QID|27594|PRE|27577&27580|M|41.87,78.04|N|From Lord Godfrey.|
 l Partially Digested Head|ACTIVE|27594|M|46.9,84|N|Kill Marsh Crocolisks until this item drops.|L|61505|
-A I Never Forget a Face|QID|27574|PRE|27547 & 27548 & 27550|M|46.9,84|N|Accept the quest from the head.|U|61505|
+A I Never Forget a Face|QID|27574|PRE|27547&27548&27550|M|46.9,84|N|Accept the quest from the head.|U|61505|
 T I Never Forget a Face|QID|27574|M|46.9,84|N|To Lord Godfrey.|
 A From the Belly of the Beast|QID|27575|PRE|27574|M|46.9,84|N|From Lord Godfrey.|
 C From the Belly of the Beast|QID|27575|M|46.9,84|N|Kill Crocolisks until you get all 3 body parts.|

@@ -350,7 +350,7 @@ C Poisoned Barbs|QID|51351|M|39.73,41.46|Z|Vol'dun|N|Kill the Saltspine scorpian
 C Unexpected Aid|QID|51350|M|42.68,39.67|Z|Vol'dun|NC|US|N|Finish collecting Prickly Pear Root.|
 T Unexpected Aid|QID|51350|M|38.95,42.92|Z|Vol'dun|N|To Sergeant Ermey.|
 T Poisoned Barbs|QID|51351|M|38.95,42.92|Z|Vol'dun|N|To Sergeant Ermey.|
-A Antidote Application|QID|51366|M|38.95,42.92|Z|Vol'dun|N|From Sergeant Ermey.|PRE|51350 & 51351|
+A Antidote Application|QID|51366|M|38.95,42.92|Z|Vol'dun|N|From Sergeant Ermey.|PRE|51350&51351|
 C Antidote Application|QID|51366|M|38.95,42.92|Z|Vol'dun|NC|U|160045|T|Vorrik|N|Apply antidote salve to Vorrik.|
 T Antidote Application|QID|51366|M|38.95,42.96|Z|Vol'dun|N|To Vorrik.|
 A Friends in Strange Places|QID|51369|M|38.95,42.96|Z|Vol'dun|N|From Vorrik.|PRE|51366|
@@ -372,7 +372,7 @@ f Terrace of the Devoted|QID|51389|M|27.66,50.34|Z|Vol'dun|N|At Vethiss.|ACTIVE|
 T Breaking Free|QID|51389|M|27.56,52.62|Z|Vol'dun|N|To Private James.|
 T Defang the Faithless|QID|51391|M|27.62,52.57|Z|Vol'dun|N|To Vorrik.|
 T Break the Siege|QID|51394|M|27.62,52.57|Z|Vol'dun|N|To Vorrik.|
-A The Keepers' Keys|QID|51395|M|27.62,52.57|Z|Vol'dun|N|From Vorrik.|PRE|51389 & 51391 & 51394|
+A The Keepers' Keys|QID|51395|M|27.62,52.57|Z|Vol'dun|N|From Vorrik.|PRE|51389&51391&51394|
 C The Keepers' Keys|QID|51395|M|27.57,52.62|Z|Vol'dun|QO|1|CHAT|N|Speak to Private James|
 C The Keepers' Keys|QID|51395|M|27.12,52.54|Z|Vol'dun|QO|2|NC|N|Follow Vorrik|
 T The Keepers' Keys|QID|51395|M|27.11,52.58|Z|Vol'dun|N|To Vorrik.|
@@ -412,7 +412,7 @@ T That One's Mine|QID|51193|M|77.13,55.59|Z|Zuldazar|N|To Degdod.|
 T Save Them All|QID|51191|M|77.13,55.54|Z|Zuldazar|N|To Medic Feorea.|
 T Granting a Reprieve|QID|51190|M|77.54,54.58|Z|Zuldazar|N|To Brigadier Thom.|
 T Disarming the Cannons|QID|51544|M|77.54,54.58|Z|Zuldazar|N|To Brigadier Thom.|
-A Xibala|QID|51418|M|77.50,55.21|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|51190 & 51191 & 51192 & 51193 & 51544|
+A Xibala|QID|51418|M|77.50,55.21|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|51190&51191&51192&51193&51544|
 C Xibala|QID|51418|M|80.35,55.45|Z|Zuldazar|NC|N|Hop in the rowboat and enjoy the ride.|
 f Xibala|ACTIVE|51418|M|40.59,71.46|Z|Zuldazar|N|At Paula Waverunner.|
 T Xibala|QID|51418|M|40.75,70.84|Z|Zuldazar|N|To Anvil-Thane Thurgaden.|
@@ -423,7 +423,7 @@ C Mole Machinations|QID|51331|M|39.17,73.04|Z|Zuldazar|NC|N|Click on the Dark Ir
 C Rocks of Ragnaros|QID|51309|M|39.34,72.48|Z|Zuldazar|NC|US|N|Finish collecting Firelands Slag.|
 T Rocks of Ragnaros|QID|51309|M|40.75,70.83|Z|Zuldazar|N|To Anvil-Thane Thurgaden.|
 T Mole Machinations|QID|51331|M|40.75,70.83|Z|Zuldazar|N|To Anvil-Thane Thurgaden.|
-A Fragment of the Firelands|QID|51359|M|40.75,70.83|Z|Zuldazar|N|From Anvil-Thane Thurgaden.|PRE|51309 & 51331|
+A Fragment of the Firelands|QID|51359|M|40.75,70.83|Z|Zuldazar|N|From Anvil-Thane Thurgaden.|PRE|51309&51331|
 C Fragment of the Firelands|QID|51359|M|40.70,70.87|Z|Zuldazar|QO|1|NC|U|160058|N|Click the provided stabilizer to be transferred into a vehicle ui - style elemental.|
 C Fragment of the Firelands|QID|51359|M|40.70,70.87|Z|Zuldazar||QO|2|N|Go forth and kill goblins.|
 T Fragment of the Firelands|QID|51359|M|40.75,70.84|Z|Zuldazar|N|To Anvil-Thane Thurgaden.|
@@ -448,7 +448,7 @@ K Blood Witch Pakkala|ACTIVE|51167|QO|1|M|29.13,46.54|Z|Nazmir|T|Blood Witch Pak
 C Honoring the Fallen|QID|51150|M|31.12,47.11|Z|Nazmir|S|NC|N|Finish recovering dog tags.|
 T Blood of Hir'eek|QID|51167|M|31.15,46.71|Z|Nazmir|N|To Brann Bronzebeard.|
 T Honoring the Fallen|QID|51150|M|31.15,46.71|Z|Nazmir|N|To Brann Bronzebeard.|
-A Zealots of Zala'mar|QID|51168|M|31.15,46.71|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51167 & 51150|
+A Zealots of Zala'mar|QID|51168|M|31.15,46.71|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51167&51150|
 C Zealots of Zala'mar|QID|51168|M|30.47,47.32|Z|Nazmir|N|Kill Zalamar Zealot as you run up the spiral.|
 T Zealots of Zala'mar|QID|51168|M|30.47,47.32|Z|Nazmir|N|To Brann Bronzebeard who is right beside you.|
 A Flight from the Fall|QID|51169|M|30.47,47.32|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51168|
@@ -465,7 +465,7 @@ C Offerings to G'huun|QID|51280|M|48.67,54.32|Z|Nazmir|NC|N|Click on the urns to
 C Nazmani Cultists|QID|51279|M|46.00,56.02|Z|Nazmir|US|N|Finish killing Nazmani trolls.|
 T Nazmani Cultists|QID|51279|M|45.70,57.47|Z|Nazmir|N|To Brann Bronzebeard.|
 T Offerings to G'huun|QID|51280|M|45.70,57.47|Z|Nazmir|N|To Brann Bronzebeard.|
-A Captain Conrad|QID|51282|M|45.70,57.47|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51279 & 51280|
+A Captain Conrad|QID|51282|M|45.70,57.47|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51279&51280|
 T Captain Conrad|QID|51282|M|44.95,58.59;45.00,57.15|CS|Z|Nazmir|N|To Captain Conrad.|
 A Lessons of the Damned|QID|51177|M|45.00,57.15|Z|Nazmir|N|From Captain Conrad.|PRE|51282|
 C Lessons of the Damned|QID|51177|M|45.70,59.72|Z|Nazmir|NC|QO|1|N|Listen to Captain Conrad and then follow her.|
@@ -603,7 +603,7 @@ C They Have Alpacas Here|QID|52036|M|38.65,70.99|Z|Vol'dun|US|N|Find an Alpaca, 
 T Improvised Survival|QID|52035|M|41.08,72.61|Z|Vol'dun|N|To Halford Wyrmbane.|
 T A Message to the Zandalari|QID|52034|M|41.11,72.57|Z|Vol'dun|N|To Shandris Feathermoon.|
 T They Have Alpacas Here|QID|52036|M|41.14,72.40|Z|Vol'dun|N|To Explosioneer Zoidfuse.|
-A Splitting Up|QID|52038|M|41.09,72.61|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52034 & 52035 & 52036|
+A Splitting Up|QID|52038|M|41.09,72.61|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52034&52035&52036|
 C Splitting Up|QID|52038|M|29.93,78.55|Z|Vol'dun|N|Continue traveling southwest across the desert|
 T Splitting Up|QID|52038|M|29.93,78.55|Z|Vol'dun|N|To Shandris Feathermoon.|
 A Full of Arrows|QID|52040|M|29.93,78.55|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52038|
@@ -613,7 +613,7 @@ K Arlethal Sunwatcher|ACTIVE|52040|M|28.70,75.65|Z|Vol'dun|T|Arlethal Sunwatcher
 C Delayed Deathification|QID|52039|M|29.05,76.64|Z|Vol'dun|NC|US|N|Continue to bury the Remote-Detonation Deathbombs|
 T Full of Arrows|QID|52040|M|29.93,78.55|Z|Vol'dun|N|To Shandris Feathermoon.|
 T Delayed Deathification|QID|52039|M|29.93,78.55|Z|Vol'dun|N|To Shandris Feathermoon.|
-A Report to Wyrmbane|QID|52041|M|29.93,78.55|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52040 & 52039|
+A Report to Wyrmbane|QID|52041|M|29.93,78.55|Z|Vol'dun|N|From Shandris Feathermoon.|PRE|52040&52039|
 f Deadwood Cove|ACTIVE|52041|M|39.79,83.81|Z|Vol'dun|N|Run to Explosioneer Zoidfuse to grab flightpoint.|
 T Report to Wyrmbane|QID|52041|M|39.65,83.91|Z|Vol'dun|N|Run to Halford Wyrmbane in new camp.|
 A The Big Boom|QID|52042|M|39.65,83.91|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52041|
@@ -641,9 +641,9 @@ C The Savage Hunt|QID|52158|M|61.84,24.26|Z|Nazmir|US|N|Continue killing Blood T
 C Tortollans in Distress|QID|52156|M|51.25,21.82|CHAT|Z|Nazmir|QO|2|N|Speak with the Rescued Tortollan.|
 T Tortollans in Distress|QID|52156|M|51.33,21.87|Z|Nazmir|N|To Shandris Feathermoon.|
 T The Savage Hunt|QID|52158|M|51.27,21.88|Z|Nazmir|N|To John J. Keeshan.|
-A One Option: Fire|QID|52171|M|51.27,21.88|Z|Nazmir|N|From John J. Keeshan.|PRE|52156 & 52158|
-A They Can't Stay Here|QID|52172|M|51.27,21.88|Z|Nazmir|N|John J. Keeshan.|PRE|52156 & 52158|
-A Ending Areiel|QID|52170|M|51.33,21.87|Z|Nazmir|N|From Shandris Feathermoon.|PRE|52156 & 52158|
+A One Option: Fire|QID|52171|M|51.27,21.88|Z|Nazmir|N|From John J. Keeshan.|PRE|52156&52158|
+A They Can't Stay Here|QID|52172|M|51.27,21.88|Z|Nazmir|N|John J. Keeshan.|PRE|52156&52158|
+A Ending Areiel|QID|52170|M|51.33,21.87|Z|Nazmir|N|From Shandris Feathermoon.|PRE|52156&52158|
 f Redfield's Watch|ACTIVE|52170|M|50.81,20.78|Z|Nazmir|N|Run to Joseph Redfield to grab flightpoint.|
 C Ending Areiel|QID|52170|M|35.87,29.32|Z|Nazmir|S|N|Kill Ranger Captain Areiel and loot the Horde Missive.|
 C They Can't Stay Here|QID|52172|M|41.15,30.02|Z|Nazmir|S|N|Kill 12 Horde Soldiers.|
@@ -656,7 +656,7 @@ C They Can't Stay Here|QID|52172|M|41.15,30.02|Z|Nazmir|US|N|Finish killing Hord
 T One Option: Fire|QID|52171|M|51.27,21.88|Z|Nazmir|N|To John J. Keeshan.|
 T They Can't Stay Here|QID|52172|M|51.27,21.88|Z|Nazmir|N|To John J. Keeshan.|
 T Ending Areiel|QID|52170|M|51.33,21.87|Z|Nazmir|N|To Shandris Feathermoon.|
-A Meeting of the Minds|QID|52208|M|51.33,21.87|Z|Nazmir|N|From Shandris Feathermoon.|PRE|52170 & 52171 & 52172|
+A Meeting of the Minds|QID|52208|M|51.33,21.87|Z|Nazmir|N|From Shandris Feathermoon.|PRE|52170&52171&52172|
 C Meeting of the Minds|QID|52208|M|42.13,39.74|CHAT|Z|Nazmir|QO|1|N|Run to new location to talk with Shandris and take the flask of invisibility.|
 C Meeting of the Minds|QID|52208|M|39.80,41.99;40.05,43.94|CS|Z|Nazmir|QO|2|NC|N|Use the flask and run to the location to eavesdrop.|U|163196|
 T Meeting of the Minds|QID|52208|M|42.13,39.74|Z|Nazmir|N|To Shandris Feathermoon.|
@@ -709,7 +709,7 @@ C Bilgewater Bonanza Go Boom|QID|52205|M|40.59,70.68|Z|Zuldazar|US|N|Kill 12 gob
 T Bilgewater Bonanza Go Boom|QID|52205|M|40.59,70.68|Z|Zuldazar|N|To Magister Umbric.|
 T The Void Solution|QID|52204|M|40.59,70.68|Z|Zuldazar|N|To Magister Umbric.|
 T Find the Paper Trail|QID|52203|M|40.59,70.68|Z|Zuldazar|N|To Magister Umbric.|
-A A Greedy Goblin's Paradise|QID|52241|M|40.59,70.68|Z|Zuldazar|N|From Magister Umbric.|PRE|52203 & 52204 & 52205|
+A A Greedy Goblin's Paradise|QID|52241|M|40.59,70.68|Z|Zuldazar|N|From Magister Umbric.|PRE|52203&52204&52205|
 C A Greedy Goblin's Paradise|QID|52241|M|40.55,70.63|Z|Zuldazar|QO|1|NC|N|Use the void portal in front of you.|
 C A Greedy Goblin's Paradise|QID|52241|M|40.33,39.71|Z|Zuldazar|QO|2|NC|N|Meet Umbric at Atal'Dazar.|
 T A Greedy Goblin's Paradise|QID|52241|M|40.33,39.71|Z|Zuldazar|N|To Magister Umbric.|
@@ -749,7 +749,7 @@ C Kill the Sailors|QID|52490|M|36.59,53.08|Z|1156|QO|2|US|N|Finish killing your 
 C Behind Enemy Boats|QID|52490|M|36.59,53.08|Z|1156|QO|3|NC|N|Open the Battlechest of the Horde.|
 T Behind Enemy Boats|QID|52490|M|40.89,47.68|Z|1156|N|Turn in to Falstad Wildhammer on the Griffin with you.|
 T Broadside Bedlam|QID|52491|M|40.89,47.68|Z|1156|N|Turn in to Falstad Wildhammer on the Griffin with you.|
-A The Wildhammer Specialty|QID|52492|M|40.89,47.68|Z|1156|N|From Falstad Wildhammer.|PRE|52490 & 52491|
+A The Wildhammer Specialty|QID|52492|M|40.89,47.68|Z|1156|N|From Falstad Wildhammer.|PRE|52490&52491|
 C The Wildhammer Specialty|QID|52492|M|40.67,49.81|Z|1156|QO|1|NC|N|Order Falstad to start the attack.|
 C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|2|N|Use the special action bar to destroy rowbots and kill sailors.|
 C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|3|N|Use the special action bar to burn the deck of The Crimson Squall.|
@@ -762,7 +762,7 @@ C Foul Crystals for Foul People|QID|52494|M|41.66,55.77|Z|1156||NC|N|Destroy 5 S
 C An Unnatural Crew|QID|52493|M|41.66,55.77|Z|1156|US|N|Continue to kill Horde on the ship.|
 T An Unnatural Crew|QID|52493|M|41.67,55.38|Z|1156|N|To Shandris Feathermoon below deck.|
 T Foul Crystals for Foul People|QID|52494|M|41.67,55.38|Z|1156|N|To Shandris Feathermoon below deck.|
-A Ending the San'layn Threat|QID|52495|M|41.67,55.38|Z|1156|N|From Shandris Feathermoon.|PRE|52493 & 52494|
+A Ending the San'layn Threat|QID|52495|M|41.67,55.38|Z|1156|N|From Shandris Feathermoon.|PRE|52493&52494|
 C Ending the San'layn Threat|QID|52495|M|41.62,56.79|Z|1156|QO|1|NC|N|destroy the door.|
 C Ending the San'layn Threat|QID|52495|M|41.53,55.66|Z|1156|QO|2|N|Kill Blood Prince Dreven.|
 C Ending the San'layn Threat|QID|52495|M|42.40,55.90|Z|1156|QO|3|NC|N|Escape the ship and signal Falstad.|
@@ -789,7 +789,7 @@ C Ship Logs|QID|52284|M|49.25,37.72|Z|Lower Deck!Breath Of Pa'ku!Dungeon|QO|1|N|
 C Sabotaging the Pa'ku|QID|52283|M|51.88,87.43|Z|Zuldazar|QO|1|N|Jump off the boat and swim around the hull to plant the deathbombs.|
 T Sabotaging the Pa'ku|QID|52283|M|57.66,87.60|Z|Zuldazar|N|To John J. Keeshan.|
 T Ship Logs|QID|52284|M|57.66,87.60|Z|Zuldazar|N|To Kelsey Steelspark.|
-A The Enlarged Miniaturized Submarine|QID|52285|M|57.66,87.60|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|52283 & 52284|
+A The Enlarged Miniaturized Submarine|QID|52285|M|57.66,87.60|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|52283&52284|
 C The Enlarged Miniaturized Submarine|QID|52285|M|49.51,70.46|Z|Zuldazar|QO|1|NC|N|Hop in the Enlarged Miniaturized Submarine for another ride.|
 T The Enlarged Miniaturized Submarine|QID|52285|M|48.88,68.51|Z|Zuldazar|N|To Shandris Feathermoon.|
 A My Enemy's Enemy is My Disguise|QID|52290|M|48.88,68.51|Z|Zuldazar|N|From Shandris Feathermoon.|PRE|52285|
@@ -807,7 +807,7 @@ C Right Beneath Their Nose|QID|52286|M|50.34,65.80|Z|Zuldazar|QO|1|N|Back into t
 T Void Vacation|QID|52288|M|48.88,68.58|Z|Zuldazar|N|To Magister Umbric.|
 T Right Beneath Their Nose|QID|52286|M|48.88,68.58|Z|Zuldazar|N|To Shandris Feathermoon.|
 T Intelligence Denial|QID|52287|M|48.88,68.58|Z|Zuldazar|N|To Shandris Feathermoon.|
-A Victory is Assured|QID|52289|M|48.88,68.58|Z|Zuldazar|N|From Shandris Feathermoon.|PRE|52288 & 52286 & 52287|
+A Victory is Assured|QID|52289|M|48.88,68.58|Z|Zuldazar|N|From Shandris Feathermoon.|PRE|52288&52286&52287|
 T Victory is Assured|QID|52289|M|40.48,71.49|Z|Zuldazar|N|To Halford Wyrmbane. Your flight whistle will take you right to him.|U|141605|
 A Victory Was Assured|QID|52291|M|40.48,71.49|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52289|
 C Victory Was Assured|QID|52291|M|40.52,71.34|Z|Zuldazar|QO|1|NC|N|Ride Swiftwing to Gral's Call.|
@@ -904,7 +904,7 @@ C Xibalan Ecology|QID|49060|M|42.51,73.13|Z|Zuldazar|QO|1|US|N|Finish killing th
 T Archaeological Efficiency|QID|50044|M|41.33,71.42|Z|Zuldazar|N|To Acadia Chistlestone.|
 T Xibalan Ecology|QID|49060|M|41.33,71.42|Z|Zuldazar|N|To Acadia Chistlestone.|
 T Morgrum's Survey|QID|49274|M|41.35,71.44|Z|Zuldazar|N|To Excavator Morgrum Emberflint.|
-A Morgrum's Extended Survey|QID|49282|M|41.35,71.44|Z|Zuldazar|PRE|49274 & 49060 & 50044|N|From Excavator Morgrum Emberflint.|
+A Morgrum's Extended Survey|QID|49282|M|41.35,71.44|Z|Zuldazar|PRE|49274&49060&50044|N|From Excavator Morgrum Emberflint.|
 T WANTED: Dark Chronicler|QID|51085|M|40.79,71.13|Z|Zuldazar|N|Return to the Wanted Board.|
 C Morgrum's Extended Survey|QID|49282|M|43.10,75.03|Z|Zuldazar|QO|1|NC|CHAT|N|Speak to Excavator Emberflint in the ruins.|
 C Morgrum's Extended Survey|QID|49282|M|43.31,74.79|Z|Zuldazar|QO|2|NC|N|First survey started|

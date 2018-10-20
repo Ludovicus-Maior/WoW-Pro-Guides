@@ -169,7 +169,7 @@ A Pre-Flight Checklist|QID|26372|PRE|26361|M|54.57,51.27|Z|Azshara|N|From Fleep.
 T Beating the Market|QID|26337|M|60.14,50.40|Z|Azshara|N|To Warlord Krogg.|
 T Ready the Ground Troops|QID|26374|M|60.14,50.40|Z|Azshara|N|To Warlord Krogg.|
 T Pre-Flight Checklist|QID|26372|M|60.14,50.40|Z|Azshara|N|To Captain Krazz.|
-A Twilight Skies|QID|28849|PRE|26337 & 26372 & 26374|M|60.14,50.40|Z|Azshara|N|From Captain Krazz.|
+A Twilight Skies|QID|28849|PRE|26337&26372&26374|M|60.14,50.40|Z|Azshara|N|From Captain Krazz.|
 
 T Twilight Skies|QID|28849|M|50.69,73.97|Z|Azshara|N|To Friz Groundspin. Top of the tower.|
 A Twilight Skies|QID|26388|PRE|28849|M|50.69,73.97|Z|Azshara|N|From Friz Groundspin.|
@@ -192,7 +192,7 @@ A Dangerous Compassion|QID|26540|PRE|26538|M|76.53,49.49|N|From Gregor.|
 T Negotiations Terminated|QID|26608|M|82.42,49.79|N|To Admiral Stonefist, back on the boat.|
 T Dangerous Compassion|QID|26540|M|82.58,49.91|N|To Warlord Krogg.|
 
-A You Say You Want a Revolution|QID|26619|PRE|26540 & 26608|M|82.58,49.91|N|From Warlord Krogg.|
+A You Say You Want a Revolution|QID|26619|PRE|26540&26608|M|82.58,49.91|N|From Warlord Krogg.|
 T You Say You Want a Revolution|QID|26619|M|76.59,49.55|N|To Zaela, back in the small hut.|
 
 A Insurrection|QID|26621|PRE|26619|M|76.59,49.55|N|From Zaela.|
@@ -212,7 +212,7 @@ C Muddied Waters|QID|26784|M|65.01,41.58|
 T Cementing Our Victory|QID|26788|M|74.23,53.25|N|To Ornak.|
 T Muddied Waters|QID|26784|M|73.82,53.89|N|To Artesh.|
 
-A The Warchief Will be Pleased|QID|26798|PRE|26784 & 26788|M|73.82,53.89|N|From Artesh.|
+A The Warchief Will be Pleased|QID|26798|PRE|26784&26788|M|73.82,53.89|N|From Artesh.|
 T The Warchief Will be Pleased|QID|26798|M|48.26,70.93|Z|Orgrimmar|N|To Eitrigg. Go through the portal.|
 
 A Traitor's Bait|QID|26830|PRE|26798|M|48.26,70.93|Z|Orgrimmar|N|From Eitrigg.|
@@ -235,7 +235,7 @@ C Blood on the Sand|QID|27611|M|77.42,66.74|
 
 T Blood on the Sand|QID|27611|M|78.24,62.63|N|To Rok'tar.|
 T Scouting the Shore|QID|27610|M|78.24,62.63|N|To Rok'tar.|
-A Mo' Better Shredder|QID|27622|PRE|27610 & 27611|M|78.40,62.59|N|From Juice Gnugat.|
+A Mo' Better Shredder|QID|27622|PRE|27610&27611|M|78.40,62.59|N|From Juice Gnugat.|
 
 C Mo' Better Shredder|QID|27622|M|69.17,63.25|
 T Mo' Better Shredder|QID|27622|M|78.41,62.63|N|To Juice Gnugat.|
@@ -250,7 +250,7 @@ C Blood in the Surf|QID|27584|M|70.11,38.77|
 
 T Blood in the Surf|QID|27584|M|70.25,43.27|N|To Gralok.|
 T Shells on the Sea Shore|QID|27586|M|70.30,43.39|N|To Fergus Gearchum.|
-A Blast Him!|QID|27606|PRE|27584 & 27586|M|70.30,43.39|N|From Fergus Gearchum.|
+A Blast Him!|QID|27606|PRE|27584&27586|M|70.30,43.39|N|From Fergus Gearchum.|
 
 C Blast Him!|QID|27606|U|61928|M|72.10,41.42|
 T Blast Him!|QID|27606|M|70.32,43.32|N|To Fergus Gearchum.|
@@ -272,7 +272,7 @@ T Wildhammer Infestation|QID|28588|M|77.60,16.72|N|To Captain Krazz.|
 T Quality Construction|QID|28584|M|77.60,16.72|N|To Brett the Bomber.|
 T Pool Pony Rescue|QID|28586|M|77.60,16.72|N|To Flashbang Rothman.|
 
-A Everything But the Kitchen Sink|QID|28589|PRE|28584 & 28586 & 28588|M|77.60,16.72|N|From Captain Krazz.|
+A Everything But the Kitchen Sink|QID|28589|PRE|28584&28586&28588|M|77.60,16.72|N|From Captain Krazz.|
 C Everything But the Kitchen Sink|QID|28589|M|77.43,15.91|N|Fly up to one of the cannons.|
 T Everything But the Kitchen Sink|QID|28589|M|77.66,16.63|N|To Captain Krazz.|
 
@@ -296,7 +296,7 @@ T Parting Packages|QID|28592|M|81.86,80.31|N|To Ticker.|
 T Of Utmost Importance|QID|28593|M|82.08,80.05|N|To Patch.|
 T Highbank, Crybank|QID|28594|M|82.08,80.05|N|To Patch.|
 
-A Krazz Works!|QID|28595|PRE|28592 & 28593 & 28594|M|82.08,80.05|N|From Patch.|
+A Krazz Works!|QID|28595|PRE|28592&28593&28594|M|82.08,80.05|N|From Patch.|
 T Krazz Works!|QID|28595|M|77.72,16.62|N|Go to the top of the tower and take the Krazzworks Gyrocopter. Be careful though, it may drop you in a group of hostile mobs. Then go to Captain Krazz.|
 
 T Narkrall, the Drake-Tamer|QID|27690|M|54.81,44.14|N|To Narkrall Rakeclaw.|
@@ -381,7 +381,7 @@ C Simple Solutions|QID|27302|M|42.61,18.50|US|
 T Mercy for the Bound|QID|27303|M|43.90,11.23|N|To Earthcaller Yevaa.|
 T Simple Solutions|QID|27302|M|44.37,11.49|N|To Initiate Goldmine.|
 T Pushing Back|QID|27300|M|44.07,10.56|N|To Earthcaller Torunscar.|
-A The Maw of Iso'rath|QID|27376|PRE|27300 & 27302 & 27303|M|44.07,10.56|N|From Earthcaller Torunscar.|
+A The Maw of Iso'rath|QID|27376|PRE|27300&27302&27303|M|44.07,10.56|N|From Earthcaller Torunscar.|
 
 C The Maw of Iso'rath|QID|27376|M|44.41,10.72|N|Hop on a Earthen Ring Gryphon.|
 
@@ -431,7 +431,7 @@ C Draconic Mending|QID|27505|M|29.87,33.36|US|
 
 T Life from Death|QID|27506|M|29.85,31.41|N|To Baleflame.|
 T Draconic Mending|QID|27505|M|29.82,31.26|N|To Velastrasza.|
-A In Defense of the Redoubt|QID|27564|PRE|27505 & 27506|M|29.82,31.26|N|From Velastrasza.|
+A In Defense of the Redoubt|QID|27564|PRE|27505&27506|M|29.82,31.26|N|From Velastrasza.|
 
 T In Defense of the Redoubt|QID|27564|M|29.33,26.04|N|To Calen. Back at the tree.|
 A Breach in the Defenses|QID|27509|PRE|27564|M|29.33,26.04|N|From Calen.|
@@ -447,7 +447,7 @@ C Far from the Nest|QID|27508|M|21.90,19.18|US|
 T Far from the Nest|QID|27508|M|29.35,26.03|N|To Lirastrasza.|
 T Encroaching Twilight|QID|27507|M|29.35,26.03|N|To Calen.|
 T Breach in the Defenses|QID|27509|M|29.35,26.03|N|To Calen.|
-A Patchwork Command|QID|27576|PRE|27507 & 27508 & 27509|M|29.40,26.07|N|From Calen.|
+A Patchwork Command|QID|27576|PRE|27507&27508&27509|M|29.40,26.07|N|From Calen.|
 
 T Patchwork Command|QID|27576|M|27.31,36.76|N|To Patch.|
 A Easy Pickings|QID|28091|PRE|27576|M|27.31,36.76|N|From Patch.|
@@ -524,7 +524,7 @@ C A Fitting End|QID|28191|M|60.69,83.65|US|
 T Blackout|QID|28173|M|59.06,69.79|N|To Lirastrasza.|
 T A Fitting End|QID|28191|M|59.06,69.79|N|To Lirastrasza.|
 T Shining Through the Dark|QID|28175|M|59.06,69.79|N|To Velastrasza.|
-A Following the Young Home|QID|28176|PRE|28173 & 28175 & 28191|M|59.06,69.79|N|From Lirastrasza.|
+A Following the Young Home|QID|28176|PRE|28173&28175&28191|M|59.06,69.79|N|From Lirastrasza.|
 C Following the Young Home|QID|28176|U|63126|M|58.09,80.24;49.88,85.69|CN|QO|1|N|Use Mother's flame to hatch the eggs outside the cave. There are several clumps of eggs in this area.|
 C Following the Young Home|QID|28176|M|49.88,85.69|N|Follow the whelps into the cave.|
 T Following the Young Home|QID|28176|M|44.99,90.95|N|To Baleflame. Deeper inside the cave.|
@@ -536,24 +536,24 @@ T Last of Her Kind|QID|28247|M|59.06,69.78|N|To Lirastrasza.|
 A Crushblow|QID|28249|PRE|28247|M|59.06,69.78|N|From Lirastrasza.|
 
 T Crushblow|QID|28249|M|45.32,75.42|N|To Warlord Zaela.|
-A Ogres & Ettins|QID|27493|PRE|28249|M|45.32,75.42|N|From Warlord Zaela.|
+A Ogres&Ettins|QID|27493|PRE|28249|M|45.32,75.42|N|From Warlord Zaela.|
 A Kor'kron Drop|QID|27491|PRE|28249|M|45.32,75.42|N|From Lady Cozwynn.|
 A Call in the Artillery|QID|27497|PRE|28249|M|45.32,75.42|N|From Lady Cozwynn.|
 f Crushblow|QID|27497|M|45.68,76.25|N|At Tokrog.|
 
 C Kor'kron Drop|QID|27491|M|45.72,76.02|QO|1|N|Talk to Jon-Jon right next to flight master.|
 C Kor'kron Drop|QID|27491|M|39.17,64.57|QO|2|N|Fly northwest. X on ground marks the spot.|
-C Ogres & Ettins|QID|27493|M|42.47,71.21|S|
+C Ogres&Ettins|QID|27493|M|42.47,71.21|S|
 C Northern building|QID|27497|U|61367|M|39.10,62.51|QO|1|; Northern building targeted: 1/1
 C Northeastern building|QID|27497|U|61367|M|40.93,64.18|QO|2|; Northeastern building targeted: 1/1
 C Southwestern building|QID|27497|U|61367|M|39.88,69.25|QO|3|; Southwestern building targeted: 1/1
 C Southern building|QID|27497|U|61367|M|41.25,72.70|QO|4|
-C Ogres & Ettins|QID|27493|M|42.47,71.21|US|
+C Ogres&Ettins|QID|27493|M|42.47,71.21|US|
 
-T Ogres & Ettins|QID|27493|M|45.26,75.42|N|To Warlord Zaela.|
+T Ogres&Ettins|QID|27493|M|45.26,75.42|N|To Warlord Zaela.|
 T Kor'kron Drop|QID|27491|M|45.26,75.42|N|To Lady Cozwynn.|
 T Call in the Artillery|QID|27497|M|45.26,75.42|N|To Lady Cozwynn.|
-A Move the Mountain|QID|27495|PRE|27491 & 27493 & 27497|M|45.26,75.42|N|From Warlord Zaela.|
+A Move the Mountain|QID|27495|PRE|27491&27493&27497|M|45.26,75.42|N|From Warlord Zaela.|
 
 C Move the Mountain|QID|27495|M|38.10,66.24|N|Back to the northwest half way up the path going up the MT.|
 
@@ -587,8 +587,8 @@ C Dark Assassins|QID|27653|M|36.46,73.71|US|
 
 T Dark Assassins|QID|27653|M|36.34,65.97|N|To Garona Halforcen.|
 T Bring the Hammer Down|QID|27655|M|36.34,65.97|N|To Garona Halforcen.|
-A Distract Them for Me|QID|27689|PRE|27653 & 27655|M|36.34,65.97|N|From Garona Halforcen.|
-A The Elementium Axe|QID|27696|PRE|27653 & 27655|M|36.34,65.97|N|From Garona Halforcen.|
+A Distract Them for Me|QID|27689|PRE|27653&27655|M|36.34,65.97|N|From Garona Halforcen.|
+A The Elementium Axe|QID|27696|PRE|27653&27655|M|36.34,65.97|N|From Garona Halforcen.|
 
 C The Elementium Axe|QID|27696|M|40.20,84.02|S|
 C Distract Them for Me|QID|27689|M|36.28,70.29|QO|2|N|Down in the pit.|; Master Klem slain: 1/1
@@ -607,7 +607,7 @@ C Portal Overload|QID|27659|M|38.29,79.99|QO|1|N|Click the Earth Portal Controll
 C Unbinding|QID|27662|M|40.12,77.88|US|
 T The Elementium Axe|QID|27696|M|36.39,66.01|N|To Garona Halforcen.|
 T Distract Them for Me|QID|27689|M|36.39,66.01|N|To Garona Halforcen.|
-A Dragon, Unchained|QID|27701|PRE|27689 & 27696|M|36.36,66.02|N|From Garona Halforcen.|
+A Dragon, Unchained|QID|27701|PRE|27689&27696|M|36.36,66.02|N|From Garona Halforcen.|
 
 C Portal Overload|QID|27659|M|32.71,62.41|QO|3|N|Remember to click the Water Portal Controller.|; Debilitated Edemantus slain: 1/1
 
@@ -631,7 +631,7 @@ C Water of Life|QID|27798|U|62503|M|35.07,61.04|N|The corpse is under the water.
 T Water of Life|QID|27798|M|36.34,65.97|N|To Garona Halforcen.|
 T Portal Overload|QID|27659|M|37.50,88.50|N|To Earthcaller Yevaa.|
 T Unbinding|QID|27662|M|37.52,88.65|N|To Initiate Goldmine.|
-A Mr. Goldmine's Wild Ride|QID|28885|PRE|27659 & 27662|M|37.60,88.67|N|From Initiate Goldmine.|
+A Mr. Goldmine's Wild Ride|QID|28885|PRE|27659&27662|M|37.60,88.67|N|From Initiate Goldmine.|
 
 C Mr. Goldmine's Wild Ride|QID|28885|M|37.60,88.67|N|Speak to Goldmine and say that you're ready.|
 
@@ -652,7 +652,7 @@ C While We're Here|QID|27743|M|36.97,93.06|N|Kill the remaining cultists you nee
 T A Little on the Side|QID|27742|N|To Initiate Goldmine running after you.|
 T While We're Here|QID|27743|N|To Initiate Goldmine running after you.|
 T Rune Ruination|QID|27744|N|To Initiate Goldmine running after you.|
-A A Fiery Reunion|QID|27745|PRE|27742 & 27743 & 27744|N|From Initiate Goldmine.|
+A A Fiery Reunion|QID|27745|PRE|27742&27743&27744|N|From Initiate Goldmine.|
 
 C A Fiery Reunion|QID|27745|U|62394|M|36.36,83.85|N|Take the bridge to your left to get to the other side. Kill the Magmatooth, loot the Fire Portal Controller and use it where Magmatooth stood.|
 

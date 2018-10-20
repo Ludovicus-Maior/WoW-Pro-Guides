@@ -210,7 +210,7 @@ T The Word of Socrethar|QID|35189|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|To
 T An Ancient Threat|QID|35190|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|N|To Soulbinder Zamaya|
 T Pesky Podlings|QID|35188|M|49.80,81.50|Z|Shadowmoon Valley@Draenor|N|To Soulbinder Zamaya|
 ; Final quests
-A Facing Demons|QID|35194|PRE|35188 & 35189 & 35190 & 35191|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|From Anchorite Laanda|; Neutral
+A Facing Demons|QID|35194|PRE|35188&35189&35190&35191|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|From Anchorite Laanda|; Neutral
 K Invokaz|QID|35194|M|45.94,80.54|Z|Shadowmoon Valley@Draenor|QO|1|N|Ride up the rise to find Invokaz|
 C Shut the Daemon Gate|QID|35194|M|46.29,80.58|Z|Shadowmoon Valley@Draenor|QO|2|
 T Facing Demons|QID|35194|M|50.01,81.22|Z|Shadowmoon Valley@Draenor|N|To Laanda's Scroll|
@@ -254,7 +254,7 @@ U Free their minds|ACTIVE|34455|M|59.33,95.69|N|Use the Rylak Mind controller on
 C Free Rylaks|QID|34365|M|58.90,94.85; 59.57,95.68; 61.60,95.62|CS|QO|1|N|They look like barn traps.|US|
 T Releasing Rylak|QID|34365|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
 T Downsizing the Darktide|QID|34397|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|To Rexxar|
-A Rylak Rescue|QID|34450|PRE|34365 & 34397|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
+A Rylak Rescue|QID|34450|PRE|34365&34397|M|58.14,93.89|Z|Shadowmoon Valley@Draenor|N|From Rexxar|
 C Ride Nisha|QID|34450|QO|1|N|Click on Nisha to get a flight to the top of the mountain.|
 K Razz Ricketroz|QID|34450|ACTIVE|34450|M|60.4,90.2|Z|Shadowmoon Valley@Draenor|QO|2|
 T Rylak Rescue|QID|34450|M|67.97,90.12|Z|Shadowmoon Valley@Draenor|N|Click on Nisha to get a ride to Rexxar|
@@ -285,7 +285,7 @@ C "Mole Machine, Go Home"|QID|34048|M|85.3,58.0|Z|Frostfire Ridge|CS|N|Iron Hord
 C Something to Remember Me By|QID|34031|M|85.80,49.50;88.20,51.40;86.00,54.15;86.97,57.02|Z|Frostfire Ridge|CS|N|Plant Dark Iron Mine|US|FACTION|Alliance|
 T "Mole Machine, Go Home"|QID|34048|N|To Thaelin Darkanvil, who is following you.|FACTION|Alliance|
 T Something to Remember Me By|QID|34031|N|To Thaelin Darkanvil, who is following you.|FACTION|Alliance|
-A Privileged Information|QID|34032|PRE|34031 & 34048|N|From Thaelin Darkanvil, who is following you.|FACTION|Alliance|
+A Privileged Information|QID|34032|PRE|34031&34048|N|From Thaelin Darkanvil, who is following you.|FACTION|Alliance|
 C Privileged Information|QID|34032|M|86.6,45.8|Z|Frostfire Ridge|N|Overlord Blackhammer|FACTION|Alliance|
 T Privileged Information|QID|34032|N|To Thaelin Darkanvil, who is following you.|FACTION|Alliance|
 A And The Mole You Rode In On|QID|34033|PRE|34032|N|From Dark Iron Golem, who is following you.|FACTION|Alliance|
@@ -341,7 +341,7 @@ A Bladefury's Orders|QID|34347|PRE|34409^34335|M|40.4,40.3|Z|Gorgrond|N|From Bla
 C Caravan Shipment|QID|34336|M|42.5,39.4|Z|Gorgrond|N|Caravan Shipment|QO|1|US|
 T Ambushing the Enemy|QID|34336|M|39.8,37.0|Z|Gorgrond|N|To Thisalee Crow|
 T Bladefury's Orders|QID|34347|M|39.8,37.0|Z|Gorgrond|N|To Thisalee Crow|
-A The Giant Cauldron|QID|34337|PRE|34336 & 34347|M|39.8,37.0|Z|Gorgrond|N|From Thisalee Crow|
+A The Giant Cauldron|QID|34337|PRE|34336&34347|M|39.8,37.0|Z|Gorgrond|N|From Thisalee Crow|
 C Chat with Choluna|QID|34337|N|Dismount before chatting or this quest can bug out.|CHAT|QO|1|
 T The Giant Cauldron|QID|34337|M|54.2,56.0|Z|Gorgrond|N|To Thisalee Crow|
 A The Descent|QID|34338|PRE|34337|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|
@@ -356,9 +356,9 @@ C Stomachs|QID|34339|QO|1|N|Kill Goren for their tummies.|US|Z|Gorgrond|
 T The Descent|QID|34338|M|54.2,56.0|Z|Gorgrond|N|Go to the central chamber and watch the cutscene, step into the sparkly geyser to be thrown up. Hand in to Thisalee Crow|
 T A Goren's Feast|QID|34339|M|39.8,37.0|Z|Gorgrond|N|To Choluna|
 T Heating Up|QID|34340|M|40.0,37.0|Z|Gorgrond|N|To Aren Mistshade|
-A The Beating Heart|QID|34410|PRE|34338 & 34339 & 34340|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|FACTION|Alliance|
+A The Beating Heart|QID|34410|PRE|34338&34339&34340|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|FACTION|Alliance|
 T The Beating Heart|QID|34410|M|47.0,88.4|N|To Morthis Whisperwing|FACTION|Alliance|Z|Lunarfall|
-A The Beating Heart|QID|34341|PRE|34338 & 34339 & 34340|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|FACTION|Horde|
+A The Beating Heart|QID|34341|PRE|34338&34339&34340|M|54.2,56.0|Z|Gorgrond|N|From Thisalee Crow|FACTION|Horde|
 T The Beating Heart|QID|34341|M|47.0,88.4|N|To Warmaster Zog|FACTION|Horde|Z|Frostwall|
 
 ; A Strike at the Heart -- Faction Specific
@@ -429,7 +429,7 @@ A The Totems That Bind|QID|34288|PRE|34362|M|39.4,23.4|Z|Frostfire Ridge|N|From 
 C The Totems That Bind|QID|34288|M|40.3,17.8|Z|Frostfire Ridge|N|Borgal's Totem|FACTION|Alliance|
 T Cleansing the Souls|QID|34287|M|39.4,23.4|Z|Frostfire Ridge|N|To Orlana Strongbrow|FACTION|Alliance|
 T The Totems That Bind|QID|34288|M|39.4,23.4|Z|Frostfire Ridge|N|To Orlana Strongbrow|FACTION|Alliance|
-A Soulgrinder Survivor|QID|34289|PRE|34287 & 34288|M|39.4,23.4|Z|Frostfire Ridge|N|From Orlana Strongbrow|FACTION|Alliance|
+A Soulgrinder Survivor|QID|34289|PRE|34287&34288|M|39.4,23.4|Z|Frostfire Ridge|N|From Orlana Strongbrow|FACTION|Alliance|
 C Soulgrinder Survivor|QID|34289|M|38.0,13.8|Z|Frostfire Ridge|N|Borgal Doomfist|FACTION|Alliance|
 T Soulgrinder Survivor|QID|34289|M|38.0,14.6|Z|Frostfire Ridge|N|To Owynn Graddock|FACTION|Alliance|
 
@@ -457,7 +457,7 @@ C The Totems That Bind|QID|34318|M|40.3,17.8|Z|Frostfire Ridge|N|Borgal's Totem'
 C Cleansing the Souls|QID|34469|M|40.12,22.41|U|110394|US|N|Kill crazed souls and cleanse them with the soul shard|
 T Cleansing the Souls|QID|34469|M|39.4,23.4|Z|Frostfire Ridge|N|To Orlana Strongbrow|FACTION|Horde|
 T The Totems That Bind|QID|34318|M|39.4,23.4|Z|Frostfire Ridge|N|To Orlana Strongbrow|FACTION|Horde|
-A Soulgrinder Survivor|QID|34319|PRE|34318 & 34469|M|39.4,23.4|Z|Frostfire Ridge|N|From Orlana Strongbrow|FACTION|Horde|
+A Soulgrinder Survivor|QID|34319|PRE|34318&34469|M|39.4,23.4|Z|Frostfire Ridge|N|From Orlana Strongbrow|FACTION|Horde|
 C Soulgrinder Survivor|QID|34319|M|38.0,13.8|Z|Frostfire Ridge|N|Borgal Doomfist|FACTION|Horde|
 T Soulgrinder Survivor|QID|34319|M|37.6,14.0|Z|Frostfire Ridge|N|To Shadow Hunter Bwu'ja|FACTION|Horde|
 
@@ -481,7 +481,7 @@ C Preservation Capitalization|QID|35970|M|35.7,18.9|Z|Nagrand@Draenor|N|Purpleto
 C Ogre Onslaught|QID|35972|M|36.4,20.8|Z|Nagrand@Draenor|N|Finish killing Ogres and Ogron|US|
 T Preservation Capitalization|QID|35970|M|39.6,24.4|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|
 T Ogre Onslaught|QID|35972|M|39.6,24.4|Z|Nagrand@Draenor|N|To Greblin Fastfizzle|
-A Dizzy Sparkshift|QID|37511|PRE|35972 & 35970|M|39.6,24.4|Z|Nagrand@Draenor|N|From Greblin Fastfizzle|; Neutral
+A Dizzy Sparkshift|QID|37511|PRE|35972&35970|M|39.6,24.4|Z|Nagrand@Draenor|N|From Greblin Fastfizzle|; Neutral
 T Dizzy Sparkshift|QID|37511|M|40.75,12.96|Z|Nagrand@Draenor|N|To Dizzy Sparkshift|
 A Brokyo Beatdown|QID|35973|PRE|37511|M|40.75,12.96|Z|Nagrand@Draenor|N|From Dizzy Sparkshift|; Neutral
 C Brokyo Beatdown|QID|35973|M|41.8,14.4|Z|Nagrand@Draenor|N|Brokyo|QO|1|
@@ -519,7 +519,7 @@ F Tranquil Court|QID|36168|M|48.00,49.83|N|Fly to Tranquil Court on Air Longdrin
 T The Trial of Heart|QID|36167|M|75.20,57.53|Z|Shadowmoon Valley@Draenor|N|To Exarch Naielle|
 T The Trial of Courage|QID|36164|M|74.90,57.99|Z|Shadowmoon Valley@Draenor|N|To Exarch Akama|
 T The Trial of Faith|QID|36168|M|75.14,57.89|Z|Shadowmoon Valley@Draenor|N|To Exarch Maladaar|
-A The Trial of Champions|QID|36169|PRE|36168 & 36164 & 36167|M|75.14,57.89|Z|Shadowmoon Valley@Draenor|N|From Exarch Maladaar|
+A The Trial of Champions|QID|36169|PRE|36168&36164&36167|M|75.14,57.89|Z|Shadowmoon Valley@Draenor|N|From Exarch Maladaar|
 C The Trial of Champions|QID|36169|M|75.14,57.89|Z|Shadowmoon Valley@Draenor|CHAT|N|Tell Exarch Maladaar you are ready to bash the Exarch Council.  Do not MC Exarch Maladaar or it is auto-fail! Be sure to use Yrel's buff on the ground.|
 K Exarch Council|ACTIVE|36169|QO|1|N|They dont hit hard.  Use your "Call to Arms"|
 T The Trial of Champions|QID|36169|M|75.14,57.89|Z|Shadowmoon Valley@Draenor|N|To Exarch Maladaar|
@@ -539,7 +539,7 @@ C In the Shadow of Giants|QID|32983|M|70.8,23.6|N|Flamrog|Z|Frostfire Ridge|QO|1
 C Eatercology|QID|33444|M|66.6,25.4|N|Kill and loot Goren|Z|Frostfire Ridge|US|FACTION|Horde|
 T Eatercology|QID|33444|M|74.0,29.6|N|To Draka|Z|Frostfire Ridge|FACTION|Horde|
 T In the Shadow of Giants|QID|32983|M|74.0,29.6|N|To Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde|
-A The Ascent|QID|32984|PRE|32983 & 33444|M|74.0,29.6|N|From Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde|
+A The Ascent|QID|32984|PRE|32983&33444|M|74.0,29.6|N|From Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde|
 T The Ascent|QID|32984|M|70.0,38.2|N|To Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde|
 A Fury of Frostfire|QID|32985|PRE|32984|M|70.0,38.2|N|From Farseer Drek'Thar|Z|Frostfire Ridge|FACTION|Horde|
 C Fury of Frostfire|QID|32985|M|70.2,38.2|N|Kron|Z|Frostfire Ridge|FACTION|Horde|
@@ -576,7 +576,7 @@ C Primal Fury|QID|36341|M|69.4,9.0|N|Bodrick Grey|
 T Primal Fury|QID|36341|M|29.2,34.6|N|To Lieutenant Thorn|
 
 ; Warlord's Council -- Alliance
-A Garrison Campaign: Deep Recon|QID|35837|PRE|34289 & 37517 & 34450 & 35685 & 34033 & 36290 & 35196 & 36169|M|37.8,36.8|N|From Bodrick Grey|
+A Garrison Campaign: Deep Recon|QID|35837|PRE|34289&37517&34450&35685&34033&36290&35196&36169|M|37.8,36.8|N|From Bodrick Grey|
 T Garrison Campaign: Deep Recon|QID|35837|M|49.8,37.0|N|To Jeanine Amrell|
 A The Warlord's Council|QID|35838|PRE|35837|M|49.8,37.0|N|From Jeanine Amrell|
 T The Warlord's Council|QID|35838|M|41.8,37.0|N|To Flint Shadowmore|

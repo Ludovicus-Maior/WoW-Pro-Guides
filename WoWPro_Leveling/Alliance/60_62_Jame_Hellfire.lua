@@ -320,7 +320,7 @@ H Honor Hold |QID|10916|N|Hearth to Honor Hold.|U|6948|M|55.00,86.80|
 
 T Fel Spirits |QID|10909|M|54.3,63.6|N|To Assistant Klatu.|
 T Digging for Prayer Beads|QID|10916|M|54.3,63.6|N|To Assistant Klatu.|
-A The Exorcism of Colonel Jules|QID|10935|PRE|10909 & 10916|M|54.3,63.6|N|From Assistant Klatu.|
+A The Exorcism of Colonel Jules|QID|10935|PRE|10909&10916|M|54.3,63.6|N|From Assistant Klatu.|
 C The Exorcism of Colonel Jules|N|Talk to Anchorite Barada and start the ritual. Kill the mobs that spawn. When there are too many mobs in the room, use the Prayer Beads to kill them. Talk to Colonel Jules afterwards to finish it.|QID|10935|M|53.90,63.55|
 T The Exorcism of Colonel Jules|QID|10935|M|54.3,63.6|N|To Assistant Klatu.|
 A Trollbane is Looking for You|QID|10936|PRE|10935|M|54.3,63.6|N|From Assistant Klatu.|

@@ -174,7 +174,7 @@ T Chasing Hope|QID|30716|M|31.2,63.4|Z|Krasarang Wilds|N|To Kuo-Na Quillpaw.|
 T Gifts of the Great Crane|QID|30717|M|31.4,63.6|Z|Krasarang Wilds|N|From Yan Quillpaw.|
 T Students of Chi-Ji|QID|30718|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
 ; The Match list
-A The Champion of Chi-Ji Quest|QID|30725^30726^30727^30728^30729^30730^30731^30732^30733^30734^30735|PRE|30718 & 30736 & 30737 & 30737 & 30738 & 30739 & 30740|M|31.2,63.4|Z|Krasarang Wilds|N|From Thelonius.|
+A The Champion of Chi-Ji Quest|QID|30725^30726^30727^30728^30729^30730^30731^30732^30733^30734^30735|PRE|30718&30736&30737&30737&30738&30739&30740|M|31.2,63.4|Z|Krasarang Wilds|N|From Thelonius.|
 C Ellia Ravenmane|QID|30725|M|31.8,71.0|Z|Krasarang Wilds|
 T Ellia Ravenmane|QID|30725|M|31.2,63.4|Z|Krasarang Wilds|N|To Thelonius.|
 C Minh Do-Tan|QID|30726|M|32.0,76.4|Z|Krasarang Wilds|
@@ -221,9 +221,9 @@ T The Torch of Strength|QID|31492|M|68.4,56.4|Z|Kun-Lai Summit|N|To Lin Tenderpa
 T Contending With Bullies|QID|31517|M|70.8,51.8|Z|Kun-Lai Summit|N|To Xuen.|
 C Round 1: Brewmaster Chani|QID|30879|M|70.8,51.8|Z|Kun-Lai Summit|N|Challenge Chani to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
 T Round 1: Brewmaster Chani|QID|30879|M|70.8,51.8|Z|Kun-Lai Summit|N|To Xuen.|
-A Round 2: Clever Ashyo & Ken-Ken|QID|30881|PRE|30879|M|70.8,51.8|Z|Kun-Lai Summit|N|From Xuen.|
-C Round 2: Clever Ashyo & Ken-Ken|QID|30881|M|71.6,45.2|Z|Kun-Lai Summit|N|Challenge Ashyo or Ken-Ken to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
-T Round 2: Clever Ashyo & Ken-Ken|QID|30881|M|71.6,45.0|Z|Kun-Lai Summit|N|To Xuen.|
+A Round 2: Clever Ashyo&Ken-Ken|QID|30881|PRE|30879|M|70.8,51.8|Z|Kun-Lai Summit|N|From Xuen.|
+C Round 2: Clever Ashyo&Ken-Ken|QID|30881|M|71.6,45.2|Z|Kun-Lai Summit|N|Challenge Ashyo or Ken-Ken to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
+T Round 2: Clever Ashyo&Ken-Ken|QID|30881|M|71.6,45.0|Z|Kun-Lai Summit|N|To Xuen.|
 A Round 3: The Wrestler|QID|30883|PRE|30881|M|71.6,45.0|Z|Kun-Lai Summit|N|From Xuen.|
 C Round 3: The Wrestler|QID|30883|M|66.71,46.53|Z|Kun-Lai Summit|N|Challenge The Wrestler to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
 T Round 3: The Wrestler|QID|30883|M|66.42,46.34|Z|Kun-Lai Summit|N|To Xuen.|

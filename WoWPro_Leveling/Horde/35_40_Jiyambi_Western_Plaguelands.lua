@@ -110,13 +110,13 @@ T Scourge First... Alliance Later|QID|26921|M|47.71,65.13|N|To Koltira Deathweav
 T War Machines|QID|26923|M|47.62,65.47|N|To Lindsay Ravensun.|
 C Araj the Summoner|QID|26925|U|60678|M|45.25,69.12|N|Aral is at the center of Andohal. Use the grenade on the skeletons he summons.|
 T Araj the Summoner|QID|26925|M|47.83,65.14|N|To Koltira Deathweaver.|
-A Scholomancer|QID|26924|PRE|26922 & 26923 & 26921|M|47.73,65.17|N|From Koltira Deathweaver.|
+A Scholomancer|QID|26924|PRE|26922&26923&26921|M|47.73,65.17|N|From Koltira Deathweaver.|
 A Brute Strength|QID|27117|PRE|26922|M|47.73,65.17|N|From Koltira Deathweaver.|
 C Brute Strength|QID|27117|M|46.64,71.53|N|He's inside the broken tower. He's elite, so be careful!|
 C Scholomancer|QID|26924|M|45.23,72.98|N|Your commander will come to help you when you get the Scholomancer to half health.|
 T Scholomancer|QID|26924|M|47.80,65.24|N|To Koltira Deathweaver, back at the Horde camp.|
 T Brute Strength|QID|27117|M|47.80,65.24|N|To Koltira Deathweaver.|
-A Victory, For Now|QID|26926|PRE|26924 & 26925 & 27117|M|47.80,65.24|N|From Koltira Deathweaver.|
+A Victory, For Now|QID|26926|PRE|26924&26925&27117|M|47.80,65.24|N|From Koltira Deathweaver.|
 R The Bulwark|QID|26926|M|83.56,69.99|Z|Tirisfal Glades|N|For now, this quest is broken and you'll have to run to the Bulwark manually.|
 f The Bulwark|QID|26926|M|83.56,69.99|Z|Tirisfal Glades|N|At Timothy Cunningham.|
 A Foxes and Hounds|QID|26931|M|83.42,69.91|Z|Tirisfal Glades|N|From Shadow Priestess Vandis.|
@@ -141,8 +141,8 @@ C Leave Drum near Grain Silos|QID|26978|U|60753|QO|2|M|36.89,54.59|N|Use the dru
 C Foes Before Hoes|QID|26933|US|M|36.79,57.70|N|Kill laborers around the Felstone Field.|
 T Foes Before Hoes|QID|26933|M|83.41,69.96|Z|Tirisfal Glades|N|To Shadow Priestess Vandis, back at the Bulwark.|
 T Who Needs Cauldrons?|QID|26978|M|83.21,69.30|Z|Tirisfal Glades|N|To Apothecary Dithers.|
-A Lower the Boom|QID|26936|PRE|26930 & 26978|M|83.19,69.01|Z|Tirisfal Glades|N|From High Executor Derrington. If this step does not auto-complete, check it off manually.|
-A Strange New Faces|QID|26979|PRE|26936 & 26978|M|83.19,69.01|Z|Tirisfal Glades|N|From High Executor Derrington.|
+A Lower the Boom|QID|26936|PRE|26930&26978|M|83.19,69.01|Z|Tirisfal Glades|N|From High Executor Derrington. If this step does not auto-complete, check it off manually.|
+A Strange New Faces|QID|26979|PRE|26936&26978|M|83.19,69.01|Z|Tirisfal Glades|N|From High Executor Derrington.|
 A The Menders' Stead|QID|26952|LEAD|26999|PRE|26933|M|83.19,68.62|Z|Tirisfal Glades|N|From Argent Officer Garush.|
 R Charred Outpost|QID|26979|M|40.66,52.08|N|Northeast of Felstone Field.|
 T Strange New Faces|QID|26979|M|40.66,52.08|N|To Lindsay Ravensun.|

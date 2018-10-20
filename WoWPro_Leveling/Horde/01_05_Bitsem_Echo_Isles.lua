@@ -473,7 +473,7 @@ C Mercy for the Lost|QID|24624|US|M|34.59,66.26|N|Finish killing the Corrupted B
 T Saving the Young|QID|24623|M|45.58,85.11|N|To Kijara.|
 T Mercy for the Lost|QID|24624|M|45.72,85.00|N|To Tegashi.|
 T Consort of the Sea Witch|QID|24625|M|45.72,85.00|N|To Tegashi.|
-A Young and Vicious|QID|24626|PRE|24623 & 24624 & 24625|M|45.58,85.11|N|From Kijara.|
+A Young and Vicious|QID|24626|PRE|24623&24624&24625|M|45.58,85.11|N|From Kijara.|
 
 C Young and Vicious|QID|24626|T|Swiftclaw|U|50053|M|48.32,62.22|N|Use the Bloodtalon Lasso to capture Swiftclaw. If he does not immediately spawn after you take the quest, abandon it and re-acquire it from Kijara.|QO|1|NC|
 C Young and Vicious|QID|24626|T|Swiftclaw|U|50053|M|53.18,64.74|N|Ride him to the raptor pens near Darkspear Hold.|QO|2|NC|
@@ -493,7 +493,7 @@ C No More Mercy|QID|24812|M|63.49,11.38|N|Finish killing the Spitescale Naga.|US
 
 T No More Mercy|QID|24812|M|58.90,23.08|N|To Morakki.|
 T Territorial Fetish|QID|24813|PRE|24812|M|58.90,23.08|N|To Morakki.|
-A An Ancient Enemy|QID|24814|PRE|24812 & 24813|M|58.90,23.08|N|From Morakki.|
+A An Ancient Enemy|QID|24814|PRE|24812&24813|M|58.90,23.08|N|From Morakki.|
 
 ; The waypoint arrow points towards the cave. A new player may not know that this is on top of the cave and not inside.
 C An Ancient Enemy|QID|24814|M|62.85,23.92;62.23,18.00|CC|N|Follow the waypoints to Vol'jin, who is on top of the cave, then tell him you're ready.|CHAT|QO|1|

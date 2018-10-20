@@ -193,7 +193,7 @@ A Escaping the Mist|QID|11664|N|From Mootoo the Younger upstairs in the hut. Thi
 T Escaping the Mist |QID|11664|M|31.7,54.4|N|To Elder Mootoo.|
 T Mobu's Pneumatic Tank Transjigamarig |QID|11643|M|32.1,54.3|N|To Mobu.|
 T Super Strong Metal Plates! |QID|11644|M|32.1,54.3|N|To Mobu.|
-A Tanks a lot... |QID|11651|PRE|11643 & 11644|M|32.1,54.3|N|From Mobu.|
+A Tanks a lot... |QID|11651|PRE|11643&11644|M|32.1,54.3|N|From Mobu.|
 T Into the Mist |QID|11655|M|32.3,54.3|N|To Waltor of Pal'ea.|
 A Burn in Effigy |QID|11656|PRE|11655|M|32.3,54.3|N|From Waltor of Pal'ea.|
 T Horn of the Ancient Mariner |QID|11660|M|32.3,54.3|N|To Waltor of Pal'ea.|

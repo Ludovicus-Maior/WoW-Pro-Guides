@@ -132,7 +132,7 @@ C Mostly Harmless|QID|27536|US|M|81.72,24.60|N|They are all over the area, they 
 T Tastes Like Strider|QID|27663|M|74.20,12.46|N|To Pierre Fishflay.|
 T Mostly Harmless|QID|27536|M|73.02,14.67|N|To Trade Baron Silversnap.|
 T Croc-Out|QID|27656|M|73.02,14.67|N|To Trade Baron Silversnap.|
-A Crazy Larry|QID|27597|PRE|27536 & 27656|M|73.02,14.67|N|From Trade Baron Silversnap.|
+A Crazy Larry|QID|27597|PRE|27536&27656|M|73.02,14.67|N|From Trade Baron Silversnap.|
 
 R Sorrowmurk|QID|27597|M|72.02,19.39;76.69,31.8;82.99,39.25|CC|N|Grab some more "Silversnap Swim Potions" from Trade Baron Silversnap, then run to Sorrowmurk.|
 T Crazy Larry|QID|27597|M|83.86,39.98|N|To Crazy Larry.|
@@ -146,7 +146,7 @@ C Kill Gil|QID|27598|US|M|90.56,30.70|N|Kill 7 Gilblin Stalkers.|
 T Kill Gil|QID|27598|M|83.86,40.04|N|To Crazy Larry.|
 T Can't Take It With Them|QID|27599|M|83.86,40.04|N|To Crazy Larry.|
 
-A In With a Bang|QID|27600|PRE|27598 & 27599|M|83.86,40.04|N|From Crazy Larry.|
+A In With a Bang|QID|27600|PRE|27598&27599|M|83.86,40.04|N|From Crazy Larry.|
 F Fortune's Fist|QID|27600|M|83.59,37.85|N|Talk to Lil' Crazy Jerry just north of the camp where the waypoint is, and choose to go into the cannon.|CHAT|
 C In With a Bang|QID|27600|QO|1|M|97.99,24.96|N|Fuse is by the mast.|
 C In With a Bang|QID|27600|QO|2|M|98.58,27.93|N|Powder is in the captain's cabin.|
@@ -208,13 +208,13 @@ C Lumbering Oafs|QID|27822|M|52.65,51.56|N|Kill 5 Stonard Peons. Be careful not 
 C Orcs and Humans|QID|27821|M|58.87,44.51|N|Kill Stonard Warriors.|US|
 T Orcs and Humans|QID|27821|M|68.09,36.23|N|To Joanna Blueheart.|
 T Lumbering Oafs|QID|27822|M|68.09,36.23|N|To Joanna Blueheart.|
-A Tides of Darkness|QID|27795|PRE|27821 & 27822|M|68.09,36.23|N|From Joanna Blueheart.|
-A Reinforcements Denied|QID|27843|PRE|27821 & 27822|M|68.09,36.23|N|From Joanna Blueheart.|
-A Marking the Fallen|QID|27845|PRE|27821 & 27822|M|68.09,36.23|N|From Joanna Blueheart.|
+A Tides of Darkness|QID|27795|PRE|27821&27822|M|68.09,36.23|N|From Joanna Blueheart.|
+A Reinforcements Denied|QID|27843|PRE|27821&27822|M|68.09,36.23|N|From Joanna Blueheart.|
+A Marking the Fallen|QID|27845|PRE|27821&27822|M|68.09,36.23|N|From Joanna Blueheart.|
 T The Lost Ones|QID|27860|M|69.77,36.56|N|To Holaaru.|
 T Draenethyst Crystals|QID|27840|M|69.77,36.56|N|To Holaaru.|
 
-A The Harborage|QID|27918|PRE|27840 & 27860|M|69.77,36.56|N|From Holaaru.|
+A The Harborage|QID|27918|PRE|27840&27860|M|69.77,36.56|N|From Holaaru.|
 C Marking the Fallen|QID|27845|S|U|62517|M|56.80,46.96|N|Plant the banner at the Fallen Footmen.|
 C Tides of Darkness|QID|27795|M|56.80,46.96|N|Kill any Stonard Ogre you see.|S|
 C Reinforcements Denied|QID|27843|M|56.05,49.94|N|Kill 3 Stonard Warlocks.|
@@ -223,8 +223,8 @@ C Marking the Fallen|QID|27845|U|62517|M|56.80,46.96|N|Mark any footman you have
 T Tides of Darkness|QID|27795|M|68.08,36.27|N|To Joanna Blueheart.|
 T Reinforcements Denied|QID|27843|M|68.08,36.27|N|To Joanna Blueheart.|
 T Marking the Fallen|QID|27845|M|68.08,36.27|N|To Joanna Blueheart.|
-A Assault on Stonard|QID|27849|PRE|27795 & 27843 & 27845|M|68.08,36.27|N|From Joanna Blueheart.|
-A Cutting Supply|QID|27851|PRE|27795 & 27843 & 27845|M|68.08,36.27|N|From Joanna Blueheart.|
+A Assault on Stonard|QID|27849|PRE|27795&27843&27845|M|68.08,36.27|N|From Joanna Blueheart.|
+A Cutting Supply|QID|27851|PRE|27795&27843&27845|M|68.08,36.27|N|From Joanna Blueheart.|
 R Stonard|QID|27849|M|49.74,51.08|N|Run to Stonard.|
 C Cutting Supply|QID|27851|S|M|47.54,53.72|N|Pick up any sparkling crates you see.|
 C Assault on Stonard|QID|27849|M|47.56,53.90|N|Kill 6 Stonard Defenders.|
@@ -245,7 +245,7 @@ C Secrets of the Mire|QID|27876|M|36.43,42.55|N|Go around this point killing the
 C Prayerblossom|QID|27875|US|M|36.05,38.39|N|Collect however many Prayerblossoms you have left to gather.|
 T Prayerblossom|QID|27875|M|26.97,33.78|N|To Anchorite Avuun.|
 T Secrets of the Mire|QID|27876|M|26.97,33.78|N|To Anchorite Avuun.|
-A The Purespring|QID|27902|PRE|27875 & 27876|M|26.97,33.78|N|From Anchorite Avuun.|
+A The Purespring|QID|27902|PRE|27875&27876|M|26.97,33.78|N|From Anchorite Avuun.|
 A Breath of Mist|QID|27904|PRE|27875|M|26.97,33.78|N|From Anchorite Avuun.|
 
 R Misty Valley|QID|27904|M|23.65,45.3;21.32,42.58|CC|N|Run to Misty Valley.|

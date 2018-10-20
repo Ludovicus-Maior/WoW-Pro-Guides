@@ -130,7 +130,7 @@ T Sigil of Strom|QID|26030|M|13.04,36.10|N|To Galen Trollbane, back at Galen's F
 A Sigil of Thoradin|QID|26031|PRE|26030|M|13.04,36.10|N|From Galen Trollbane.|
 T Call to Arms|QID|26027|M|13.27,35.92|N|To Dark Ranger Alina.|
 T The Traitor Orc|QID|26025|M|13.27,35.92|N|To Dark Ranger Alina.|
-A The Real Threat|QID|26029|PRE|26025 & 26027|M|13.39,34.29|N|From Deathstalker Maudria.|
+A The Real Threat|QID|26029|PRE|26025&26027|M|13.39,34.29|N|From Deathstalker Maudria.|
 
 C Sigil of Thoradin|QID|26031|M|16.59,60.88|N|Head back to Stromgarde. Turn  right to the western portion of the keep, kill and loot humans.|
 C The Real Threat|QID|26029|N|Kill and loot Or'Kalar, in the ogre section of Stromgarde.|M|17.75,62.70;17.40,67.90;14.69,67.44|CC|

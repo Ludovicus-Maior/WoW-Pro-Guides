@@ -137,8 +137,8 @@ WoWPro:GuideIcon(guide,"ACH",4935)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Thousand Needles |QID|27446|M|75.95,74.58|N|This quest starts with a single lead-in quest from Fizzle & Pozzik's Speedbarge in Thousand Needles.  \n\nIf you have not quested in Thousand Needles before this point, you should fly to Shadebough, Feralas or Mudsprocket, Dustwallow Marsh.  From there, get the quest To New Thalanaar, fly to New Thalanaar, do the quest The Grimtotem are Coming, then the quest Two If By Boat.|Z|Thousand Needles|
-R Fizzle & Pozzik's Speedbarge |QID|27446|N|This guide starts with a single lead-in quest from Fizzle & Pozzik's Speedbarge in Thousand Needles, so head there first.|
+R Thousand Needles |QID|27446|M|75.95,74.58|N|This quest starts with a single lead-in quest from Fizzle&Pozzik's Speedbarge in Thousand Needles.  \n\nIf you have not quested in Thousand Needles before this point, you should fly to Shadebough, Feralas or Mudsprocket, Dustwallow Marsh.  From there, get the quest To New Thalanaar, fly to New Thalanaar, do the quest The Grimtotem are Coming, then the quest Two If By Boat.|Z|Thousand Needles|
+R Fizzle&Pozzik's Speedbarge |QID|27446|N|This guide starts with a single lead-in quest from Fizzle&Pozzik's Speedbarge in Thousand Needles, so head there first.|
 
 A Tanaris is Calling|QID|27446|LEAD|25048|M|75.95,74.58|Z|Thousand Needles|N|From Fizzle Brassbolts.|
 F Gadgetzan|QID|27446|M|79.11,71.85|Z|Thousand Needles|N|Fly to Gadgetzan from Tilly Topspin.|
@@ -157,7 +157,7 @@ C Seaside Salvage|QID|25048|US|M|54.88,36.83|N|Pick up Steamwheedle Supplies.|
 C Butcherbot|QID|25112|U|52715|M|49.73,39.34|N|Progress to this location killing Basalisks as you go. Once dead use the Butcherbot Control when targeting the Basilisks.|
 T Seaside Salvage|QID|25048|M|51.27,29.98|N|To Kelsey Steelspark.|
 T Puddle Stomping|QID|25049|M|51.25,29.94|N|To Kelsey Steelspark.|
-A Rocket Rescue|QID|25050|PRE|25048 & 25049|M|51.25,29.94|N|From Kelsey Steelspark.|
+A Rocket Rescue|QID|25050|PRE|25048&25049|M|51.25,29.94|N|From Kelsey Steelspark.|
 T Butcherbot|QID|25112|M|52.26,28.07|N|To Driz Plunkbow.|
 A Scavengers Scavenged|QID|25111|PRE|25112|M|52.26,28.07|N|From Driz Plunkbow.|
 R Rocket Rescue|QID|25050|CC|M|53.27,27.43|N|Get in the balloon here, and fingers crossed they it stays in the air better than the Zeps!|
@@ -187,7 +187,7 @@ C Going Off-Task|QID|26886|M|74.60,45.18|N|Getting on this boat is a tricky affa
 C Filling Our Pockets|QID|26887|M|69.94,53.44|N|Beware the Strongarms; They will pull you to them and possibly cause mass mob aggro; if in packs CC the Stongram, and kill the other first.|
 T Going Off-Task|QID|26886|M|72.17,45.23|N|To Kelsey Steelspark.|
 T Filling Our Pockets|QID|26887|M|72.17,45.23|N|To Kelsey Steelspark.|
-A Captain Dreadbeard|QID|25166|PRE|25053 & 26886 & 26887|M|72.17,45.23|N|From Kelsey Steelspark.|
+A Captain Dreadbeard|QID|25166|PRE|25053&26886&26887|M|72.17,45.23|N|From Kelsey Steelspark.|
 C Captain Dreadbeard|QID|25166|M|71.04,55.62|N|If you're quick you can get here through the path you cleared from the last quest.|
 T Captain Dreadbeard|QID|25166|M|72.17,45.19|N|To Kelsey Steelspark.|
 A All Cheered Out|QID|26889|PRE|25166|M|72.17,45.19|N|From Kelsey Steelspark.|
@@ -264,7 +264,7 @@ C What We Came For|QID|25062|M|50.76,90.75|N|Loot a Bilgewater Footlocker.|
 C Define "Crazy"|QID|25060|M|51.68,91.20|N|Kill Crazed Bilgewater Survivers.|US|
 T Define "Crazy"|QID|25060|CS|M|49.13,87.50;49.99,82.91|N|To Kelsey Steelspark.|
 T What We Came For|QID|25062|M|49.99,82.91|N|To Kelsey Steelspark.|
-A Terrapination|QID|25063|PRE|25060 & 25062|M|49.92,82.95|N|From Kelsey Steelspark.|
+A Terrapination|QID|25063|PRE|25060&25062|M|49.92,82.95|N|From Kelsey Steelspark.|
 r Sell Junk|QID|25063|M|49.99,82.77|N|At Rations Officer Flexgear.|
 C Terrapination|QID|25063|M|49.98,90.47|N|Turtles are in the sea.|
 T Terrapination|QID|25063|M|49.99,82.90|N|To Kelsey Steelspark.|

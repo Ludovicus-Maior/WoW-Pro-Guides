@@ -279,7 +279,7 @@ C Cenarion Property|NC|QID|14316|M|74.70,46.94|N|The crates are inside the tents
 H Karnum's Glade|QID|14316|M|57.44,47.71|N|If you didn't set your hearth there, run back.|
 T Cenarion Property|QID|14316|M|58.38,49.83|N|To Garren Darkwind.|
 T Breakout!|QID|14314|M|58.32,50.00|N|To Khan Leh'Prah.|
-A Delicate Negotiations|QID|14318|PRE|14314 & 14316|M|58.32,50.00|N|From Khan Leh'Prah.|
+A Delicate Negotiations|QID|14318|PRE|14314&14316|M|58.32,50.00|N|From Khan Leh'Prah.|
 
 C Delicate Negotiations|QID|14318|M|71.26,45.80|N|Talk to the Khan to mount up. When he slows down next to the Fatherstone in the Magram Territory, use Ability 1. Help the Kolkar defeat the Magram Defenders.|
 T Delicate Negotiations|QID|14318|M|71.69,45.56|N|To Khan Kammah. Congrats on a very nice piece of gear!|
@@ -368,7 +368,7 @@ T Into the Fray!|QID|14393|M|72.26,67.41|N|To Khan Leh'Prah.|
 A Death to Agogridon|QID|14394|PRE|14393|M|72.26,67.41|N|From Khan Leh'Prah.|
 C Death to Agogridon|QID|14394|M|77.45,76.04;79.77,77.76;79.32,82.16;81.71,80.71|CS|N|Make sure you are still on your centaur - talk to the Khan if you need to remount. Follow the arrows to the demon you need to defeat. The Khans will show up, so it's not difficult.|
 T Death to Agogridon|QID|14394|M|82.30,80.85|N|To Khan Leh'Prah. Congrats on a very nice weapon!|
-A The Wilds of Feralas|QID|26589|LEAD|25210|PRE|14346 & 14394|M|73.2,73|N|From Khan Shodo.|
+A The Wilds of Feralas|QID|26589|LEAD|25210|PRE|14346&14394|M|73.2,73|N|From Khan Shodo.|
 C Ghost-o-plasm Round Up|QID|6134|U|15848|M|63.91,91.78|N|Clear the area then use your gizmo. Kill the ghost centaurs. (They turn aggressive when they get to the gizmo so beware.)|
 T Ghost-o-plasm Round Up|QID|6134|N|To Hornizz Brimbuzzle.|M|47.88,61.80|
 

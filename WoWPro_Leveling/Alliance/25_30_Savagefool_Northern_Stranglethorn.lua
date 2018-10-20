@@ -201,7 +201,7 @@ C Raptor Hunting|QID|194|M|29.98,30.99|N|Kill 10 Stranglethorn Raptors.|
 T Raptor Hunting|QID|194|M|30.43,31.52|N|(UI Alert)|
 A Raptor Stalking|QID|195|PRE|194|M|30.43,31.52|N|(UI Alert)|O|
 C Deep Roots|QID|26744|M|33.61,36.74|U|58165|N|Pickup the Bloodscalp Lore Tablet. Make sure you have your baby raptor out (She will start another quest).|
-A Favored Skull|QID|26745|PRE|26736 & 26739|M|33.61,36.74|N|From Lashtail Hatchling.|
+A Favored Skull|QID|26745|PRE|26736&26739|M|33.61,36.74|N|From Lashtail Hatchling.|
 C Raptor Stalking|QID|195|M|38.44,43.24|N|Kill Lashtail Raptors until you are done this quest.|
 T Raptor Stalking|QID|195|M|38.46,43.58|N|(UI Alert)|
 A Raptor Prowess|QID|196|PRE|195|M|38.46,43.58|N|(UI Alert)|O|
@@ -258,7 +258,7 @@ A Population Con-Troll|QID|26751|PRE|26746|M|47.46,10.69|N|From Sergeant Yohwa.|
 R Nesingwary's Expedition|QID|197|M|44.16,22.61|N|Head to Nesinwary's Expedition.|
 T Panther Mastery|QID|193|M|43.76,22.42|N|To Sir S. J. Erlgadin.|
 T Raptor Mastery|QID|197|M|44.05,22.94|N|To Hemet Nesingwary Jr..|
-A Big Game Hunter|QID|208|PRE|188 & 193 & 197|M|44.05,22.94|N|From Hemet Nesingwary Jr..|
+A Big Game Hunter|QID|208|PRE|188&193&197|M|44.05,22.94|N|From Hemet Nesingwary Jr..|
 T Excelsior|QID|26345|M|43.78,23.42|N|To Drizzlik.|
 r Sell, Repair|QID|26743|M|43.68,23.24|N|To Jaquilina Dramet. Close this step when done.|
 

@@ -231,7 +231,7 @@ T Infusing the Heart|QID|52428|M|50.23,53.83|Z|Chamber of Heart!Dungeon|N|To Mag
 A The Speakers Imperative|QID|51403|M|50.23,53.83|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|52428|
 C The Speakers Imperative|QID|51403|M|50.10,30.39|Z|Chamber of Heart!Dungeon|NC|N|Use the provided portal to return to Stormwind.|
 T The Speakers Imperative|QID|51403|M|27.64,21.29|Z|Stormwind City|N|To Halford Wyrmbane.|
-A Tides of War|QID|46727|M|27.64,21.29|Z|Stormwind City|N|From Halford Wyrmbane.|PRE|51403 & 51795|
+A Tides of War|QID|46727|M|27.64,21.29|Z|Stormwind City|N|From Halford Wyrmbane.|PRE|51403&51795|
 C Tides of War|QID|46727|QO|1|M|83.47,29.62;85.14,32.52|CS|Z|Stormwind City|NC|N|Fly to Stormwind Keep and go to the Throneroom and listen to the council.|
 C Tides of War|QID|46727|QO|2|M|85.03,32.64|NC|Z|Stormwind City|N|Click on the 'survivor's memories' hovering over his head.|
 T Tides of War|QID|46727|M|85.28,32.26|Z|Stormwind City|N|To Anduin Wrynn.|

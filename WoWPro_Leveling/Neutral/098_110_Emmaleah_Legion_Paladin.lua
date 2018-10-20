@@ -156,7 +156,7 @@ C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take
 ;both
 C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
-A An Urgent Gathering|QID|38710|M|58.68,47.44|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus. Wait a minute or so for him to show up.|PRE|44663 & 44184|
+A An Urgent Gathering|QID|38710|M|58.68,47.44|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus. Wait a minute or so for him to show up.|PRE|44663&44184|
 C An Urgent Gathering|QID|38710|QO|1|M|58.48,42.14|Z|Dalaran@Dalaran70|N|Travard is just outside 'Magical Menagerie'.|
 C An Urgent Gathering|QID|38710|QO|2|M|41.54,37.34|Z|Dalaran@Dalaran70|N|Orik is just inside 'The Scribe's Sarcellum'.|
 T An Urgent Gathering|QID|38710|M|74.91,48.23|Z|Dalaran@Dalaran70|N|To Lord Maxwell Tyrosus.|
@@ -166,9 +166,9 @@ T Weapons of Legend|QID|40408|M|74.91,48.23|Z|Dalaran@Dalaran70|N|To Lord Maxwel
 A Artifact specific quest|QID|42000^42231^42770|M|74.91,48.23|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|PRE|40408|
 
 ;Paladin class hall
-C We Meet at Light's Hope|QID|38576^42811|QO|2|M|42.91,88.83|Z|Eastern Plaguelands|N|Enter Light's Hope Sanctum by clicking on the gear in the middle of the chapel floor.|PRE|38576 & 42811|
+C We Meet at Light's Hope|QID|38576^42811|QO|2|M|42.91,88.83|Z|Eastern Plaguelands|N|Enter Light's Hope Sanctum by clicking on the gear in the middle of the chapel floor.|PRE|38576&42811|
 T We Meet at Light's Hope|QID|38576^42811|M|63.13,37.18|N|To Lord Maxwell Tyrosus.|
-A A United Force|QID|38566|M|63.13,37.18|N|Lord Maxwell Tyrosus.|PRE|38576 & 42811|
+A A United Force|QID|38566|M|63.13,37.18|N|Lord Maxwell Tyrosus.|PRE|38576&42811|
 C A United Force|QID|38566|NC|QO|1|M|74.54,20.33|N|Walk with Lord Maxwell Tyrosus|
 C A United Force|QID|38566|NC|QO|2;3|M|74.54,20.33|N|Inscribe your name in the Libram and then wait a minute for the dialog to finish.|
 T A United Force|QID|38566|M|73.83,19.61|N|To Lord Maxwell Tyrosus.|
@@ -184,7 +184,7 @@ P Dalaran|QID|39718^39864^39731^39733^39735^42866|M|38.11,63.38|NC|N|Click on th
 
 ;stuff that happens after you finish first zone here
 
-A Growing Power|QID|42844|M|61.08,44.61|Z|Dalaran@Dalaran70|N|From Justicar Julia Celeste.|PRE|39780 & 38743 & 43595 & 42244 & 40794|;need to add stormheim alliance ending QID.
+A Growing Power|QID|42844|M|61.08,44.61|Z|Dalaran@Dalaran70|N|From Justicar Julia Celeste.|PRE|39780&38743&43595&42244&40794|;need to add stormheim alliance ending QID.
 R Graymane Enclave|QID|42844|M|32.64,69.99|Z|Dalaran@Dalaran70|N|Back to your class hall to continue your progression.|ACTIVE|42844|FACTION|Alliance|
 R Windrunner's Sanctuary|QID|42844|M|61.81,13.70|CC|Z|Dalaran@Dalaran70|N|Back to your class hall to continue your progression.|ACTIVE|42844|FACTION|Horde|
 T Growing Power|QID|42844|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
@@ -196,14 +196,14 @@ A Bolstering Your Arsenal|QID|44063|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|P
 C Bolstering Your Arsenal|QID|44063|M|49.64,72.35|N|Choose which artifact you want to pursue next.|
 T Bolstering Your Arsenal|QID|44063|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
 A Artifact Specific Quest|QID|42000^42231^42770|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063|
-t The Silver Hand|QID|42120|M|49.80,72.36|N|To Lord Maxwell Tyrosus in the class hall.|PRE|42377 & 44063|;holy turn in loc for 2nd or 3rd artifact
-t Shrine of the Truthguard|QID|42017|M|49.80,72.36|N|To Lord Maxwell Tyrosus in the class hall.|PRE|42005 & 44063|;prot turn in loc for 2nd or 3rd artifact
+t The Silver Hand|QID|42120|M|49.80,72.36|N|To Lord Maxwell Tyrosus in the class hall.|PRE|42377&44063|;holy turn in loc for 2nd or 3rd artifact
+t Shrine of the Truthguard|QID|42017|M|49.80,72.36|N|To Lord Maxwell Tyrosus in the class hall.|PRE|42005&44063|;prot turn in loc for 2nd or 3rd artifact
 
 ;3rd artifact
 
-A Completing Your Arsenal|QID|44370|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063 & 42120 & 42017 & -42774|
-A Completing Your Arsenal|QID|44370|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063 & 42774 & 42120 & -42017|
-A Completing Your Arsenal|QID|44370|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063 & 42017 & 42774 & -42120|
+A Completing Your Arsenal|QID|44370|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063&42120&42017&-42774|
+A Completing Your Arsenal|QID|44370|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063&42774&42120&-42017|
+A Completing Your Arsenal|QID|44370|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|44063&42017&42774&-42120|
 C Completing Your Arsenal|QID|44370|M|49.64,72.35|NC|N|Choose the remaining spec.|
 T Completing Your Arsenal|QID|44370|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
 
@@ -311,7 +311,7 @@ C Return to Tirion Fordring|QID|38376|SO|7|M|20.19,61.38|Z|BrokenShorePaladin|N|
 T The Search for Highlord Tirion|QID|38376|M|20.43,61.55|Z|BrokenShorePaladin|
 A We Meet at Light's Hope|QID|42811|M|20.43,61.55|Z|BrokenShorePaladin|PRE|38376|
 C We Meet at Light's Hope|QID|42811|QO|1|M|19.74,60.59|Z|BrokenShorePaladin|N|Click on the Hippogryph for a ride to Light's Hope.|
-F Light's Hope Chapel|QID|99999|M|19.74,60.59|Z|BrokenShorePaladin|N|Click on the Hippogryph for a ride to Light's Hope.|PRE|38376 & 44063|ACTIVE|42811|
+F Light's Hope Chapel|QID|99999|M|19.74,60.59|Z|BrokenShorePaladin|N|Click on the Hippogryph for a ride to Light's Hope.|PRE|38376&44063|ACTIVE|42811|
 ;C We Meet at Light's Hope|QID|42811|QO|2|M|42.91,88.83|Z|Eastern Plaguelands|N|Click on the floor to open the secret door.|
 ;T We Meet at Light's Hope|QID|42811|M|63.13,37.18|Z|Eastern Plaguelands|N|To Lord Maxwell Tyrosus.|
 
@@ -371,7 +371,7 @@ T Bringer of the Light|QID|44004|M|28.48,48.31|Z|Dalaran@Dalaran70|N|To Archmage
 A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran@Dalaran70|N|From Archmage Kadgar.|PRE|44004|
 T Light's Charge|QID|44153|M|52.37,69.37|N|Return to your order hall and return to Light's Heart (table in alcove adjacent scouting map).|
 
-A Meeting of the Silver Hand|QID|42867|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42850 & 44153|LVL|101|
+A Meeting of the Silver Hand|QID|42867|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42850&44153|LVL|101|
 R Light's Hope Chapel|QID|42867|QO|1|M|40.59,73.84;45.79,83.13;41.74,89.66|CS|N|Justicar Julia Celeste is found upstairs, just outside the gates.|ACTIVE|42867|
 C Meeting of the Silver Hand|QID|42867|QO|1|M|72.73,54.61|Z|Eastern Plaguelands|CHAT|N|Justicar Julia Celeste can be found outside the front gate of Light's Hope Chapel.|
 R Sanctum of Light|QID|42867|QO|2|M|75.68,52.24|Z|Eastern Plaguelands|N|Back inside your order hall.|ACTIVE|42867|
@@ -387,7 +387,7 @@ T The Scion's Legacy|QID|42919|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
 A The Highlord's Command|QID|42885^42966^42967^42968|M|49.64,72.35|N|From Lord Maxwell Tyrosus.|PRE|42919|
 C The Highlord's Command|QID|42885^42966^42967^42968|M|53.44,78.63|NC|N|Go to your mission board and choose The Highlords Command mission. This mission takes 1 hour to complete, manually check it off and when you come back to your hall you can complete the mission.|
 t The Highlord's Command|QID|42885^42966^42967^42968|M|52.32,77.95|N|To Lord Grayson Shadowbreaker.|
-A To Faronaar|QID|42886|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42885 & 42966 & 42967 & 42968|LVL|103|
+A To Faronaar|QID|42886|M|52.32,77.95|N|From Lord Grayson Shadowbreaker.|PRE|42885&42966&42967&42968|LVL|103|
 F Illidari Stand|QID|42886|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|42886|
 T To Faronaar|QID|42886|M|45.91,51.60|Z|Azsuna|N|To Vindicator Boros.|
 A This Is Retribution|QID|42887|M|45.91,51.60|Z|Azsuna|N|From Vindicator Boros.|PRE|42886|

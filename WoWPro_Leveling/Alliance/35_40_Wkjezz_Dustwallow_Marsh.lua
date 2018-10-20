@@ -304,7 +304,7 @@ H Theramore Isle|QID|1222|N|Hearth back to Theramore Isle, or run if your hearth
 T Stinky's Escape|QID|1222|M|68.21,48.66|N|To Morgan Stern.|
 T The Deserters|QID|27288|M|68.20,48.53|N|To Captain Garran Vimes.|
 
-A A Grim Connection|QID|27425|PRE|27262 & 27285 & 27288|M|68.20,48.53|N|From Captain Garran Vimes.|
+A A Grim Connection|QID|27425|PRE|27262&27285&27288|M|68.20,48.53|N|From Captain Garran Vimes.|
 r Repair/Sell Junk|QID|27425|M|67.39,47.88|N|at Piter Verance.|
 T A Grim Connection|QID|27425|M|46.63,24.63|N|To Captain Darill.|
 A Confirming the Suspicion|QID|27426|PRE|27425|M|46.63,24.63|N|From Captain Darill.|
@@ -322,7 +322,7 @@ T Unleash the Raptors|QID|27243|M|46.60,23.13|N|To Sergeant Lukas.|
 T Confirming the Suspicion|QID|27426|M|46.63,24.66|N|To Captain Darill.|
 T Arms of the Grimtotems|QID|27427|M|46.63,24.66|N|To Captain Darill.|
 
-A Tabetha's Assistance|QID|27428|PRE|27426 & 27427|M|46.63,24.63|N|From Captain Darill.|
+A Tabetha's Assistance|QID|27428|PRE|27426&27427|M|46.63,24.63|N|From Captain Darill.|
 C The Reagent Thief|QID|27339|US|M|43.88,38.39|N|"Finally, He tells us to complete this quest"|
 A Direhorn Raiders|QID|27340|M|46.15,57.41|N|From Apprentice Morlann.|
 A The Zeppelin Crash|QID|27346|M|46.06,57.51|N|From Apprentice Morlann.|
@@ -375,7 +375,7 @@ T Catch a Dragon by the Tail|QID|27413|M|41.59,72.98|N|To Gizzix Grimegurgle.|
 T Banner of the Stonemaul|QID|27408|M|41.88,73.95|N|To Brogg.|
 T The Essence of Enmity|QID|27409|M|41.87,73.89|N|To Brogg.|
 
-A Spirits of Stonemaul Hold|QID|27410|PRE|27408 & 27409|M|41.86,73.81|N|From Brogg.|
+A Spirits of Stonemaul Hold|QID|27410|PRE|27408&27409|M|41.86,73.81|N|From Brogg.|
 C Spirits of Stonemaul Hold|QID|27410|U|33091|M|42.32,65.76|N|Right click on piles of bones and kill the orge ghosts.|
 T Spirits of Stonemaul Hold|QID|27410|M|41.87,73.91|N|To Brogg.|
 A Challenge to the Black Flight|QID|27411|PRE|27410|M|41.87,73.91|N|From Brogg.|

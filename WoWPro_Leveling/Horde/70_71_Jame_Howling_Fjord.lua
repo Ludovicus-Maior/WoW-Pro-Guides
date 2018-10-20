@@ -182,7 +182,7 @@ C Baleheim Bodycount |QID|11283|N|Make sure you're in Baleheim when you kill the
 T Baleheim Bodycount |QID|11283|M|71.1,39.1|N|To Sergeant Gorth.|
 T Baleheim Must Burn! |QID|11285|N|To Sergeant Gorth.|M|71.1,39.1|
 
-A The Ambush |QID|11303|PRE|11283 & 11285|N|From Sergeant Gorth.|M|71.1,39.1|
+A The Ambush |QID|11303|PRE|11283&11285|N|From Sergeant Gorth.|M|71.1,39.1|
 T The Ambush |QID|11303|M|65.9,36.8|N|To Lydell.|
 A Adding Injury to Insult |QID|12481|PRE|11303|N|From Lydell.|M|65.9,36.8|
 C Adding Injury to Insult |QID|12481|U|33581|N|Bjorn Halgurdsson is southwest, fight your way to him and make sure you have a clear path back. Use the Vrykul Insult on him and run like hell back to Lydell. Let Lydell tank and you'll be fine.|M|64,39|
@@ -243,15 +243,15 @@ C Gruesome, But Necessary |QID|11257|U|33342|US|N|When you kill a Vrykul, use Th
 T Gruesome, But Necessary |QID|11257|U|33340|N|Summon the Brave if he's died or disappeared, then turn it in.|
 T Burn Skorn, Burn! |QID|11258|N|To the Winterhoof Brave.|
 T Towers of Certain Doom |QID|11259|N|To the Winterhoof Brave.|
-A The Conqueror of Skorn! |QID|11261|PRE|11257 & 11258 & 11259|N|From the Winterhoof Brave.|
+A The Conqueror of Skorn! |QID|11261|PRE|11257&11258&11259|N|From the Winterhoof Brave.|
 C Wild Vines |QID|11315|N|Kill Scarlet Ivy mobs until you complete this quest. |M|51.14,26.57|S|
 C The Fallen Sisters |QID|11314|U|33606|N|Use Lurielle's Pendant on Chill Nymphs until you complete the quest.|M|51.14,26.57|
 C Wild Vines |QID|11315|N|Kill Scarlet Ivy mobs until you complete this quest. |M|51.14,26.57|US|
 T The Fallen Sisters |QID|11314|M|61.5,22.8|N|To Lurielle.|
 T Wild Vines |QID|11315|M|61.5,22.8|N|To Lurielle.|
 
-A Spawn of the Twisted Glade |QID|11316|PRE|11314 & 11315|M|61.5,22.8|N|From Lurielle.|
-A Seeds of the Blacksouled Keepers |QID|11319|PRE|11314 & 11315|M|61.5,22.8|N|From Lurielle.|
+A Spawn of the Twisted Glade |QID|11316|PRE|11314&11315|M|61.5,22.8|N|From Lurielle.|
+A Seeds of the Blacksouled Keepers |QID|11319|PRE|11314&11315|M|61.5,22.8|N|From Lurielle.|
 C The Lodestone |QID|11366|U|33819|N|Head to the Broken Tablet, use the Rune Sample while standing near it.|M|72,17|
 C Mastering the Runes |QID|11351|N|Look for a little box called Iron Rune Carving Tools, they spawn under one of the 5 'tent' canopies.|
 C Spawn of the Twisted Glade |QID|11316|N|Kill Thornvine Creepers for this quest. |M|53.71,18.56|S|
@@ -506,7 +506,7 @@ T The Ancient Armor of the Kvaldir |QID|11567|N|To Orfus of Kamagua. Swim northe
 T The Frozen Heart of Isuldof |QID|11512|M|40.3,60.3|N|To Orfus of Kamagua.|
 T The Shield of the Aesirites |QID|11530|M|40.3,60.3|N|To Orfus of Kamagua.|
 T The Staff of Storm's Fury |QID|11511|M|40.3,60.3|N|To Orfus of Kamagua.|
-A A Return to Resting |QID|11568|PRE|11530 & 11567 & 11512 & 11511|M|40.3,60.3|N|From Orfus of Kamagua.|
+A A Return to Resting |QID|11568|PRE|11530&11567&11512&11511|M|40.3,60.3|N|From Orfus of Kamagua.|
 
 R Ember Clutch |QID|11280|N|Head to Ember Clutch to the north.|M|41.39,55.18|
 C Draconis Gastritis |QID|11280|U|33441|N|Use Tillinghast's Plagued Meat near a Proto-Drake, wait till you get the complete message. You will probably have to kill the drake.|M|41.39,55.18|

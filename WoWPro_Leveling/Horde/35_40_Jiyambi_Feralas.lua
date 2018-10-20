@@ -99,8 +99,8 @@ WoWPro:GuideIcon(guide,"ACH",4932)
 WoWPro:GuideSteps(guide, function()
 return [[
 A Warchief's Command: Feralas!|QID|28510|N|From Warchief's Command Board|
-;add zone & pre
-A The Wilds of Feralas|QID|26589|LEAD|25210|PRE|14346 & 14394|M|73.2,73.0|N|From Khan Shodo.|Z|Desolace|
+;add zone&pre
+A The Wilds of Feralas|QID|26589|LEAD|25210|PRE|14346&14394|M|73.2,73.0|N|From Khan Shodo.|Z|Desolace|
 
 F Camp Ataya|QID|25339|M|57.71,49.74|N|Fly to Camp Ataya in Feralas.|Z|Desolace|
 h Camp Ataya|QID|25339|US|M|41.40,15.73|N|At Adene Treetotem.|
@@ -250,7 +250,7 @@ C Ancient Suffering|QID|25423|US|M|64.77,62.72|N|Kill the spirits in the area.|
 T The Darkmist Legacy|QID|25422|M|65.93,62.79|N|To Sensiria.|
 T Ancient Suffering|QID|25423|M|65.93,62.79|N|To Sensiria.|
 
-A Verinias the Twisted|QID|25368|PRE|25422 & 25423|M|65.93,62.79|N|From Sensiria.|
+A Verinias the Twisted|QID|25368|PRE|25422&25423|M|65.93,62.79|N|From Sensiria.|
 C Verinias the Twisted|QID|25368|U|54456|M|64.33,55.84|N|The tree is located to the north.|
 T Verinias the Twisted|QID|25368|M|65.92,62.81|N|To Sensiria.|
 A Return to Sage Palerunner|QID|25645|PRE|25368|M|65.92,62.84|N|From the pool of light next to you.|
@@ -263,8 +263,8 @@ A Mountain Giant Muisek|QID|25346|PRE|25345|M|74.44,43.38|N|From Witch Doctor Uz
 T Alpha Strike|QID|25364|M|74.92,42.51|N|To Hadoken Swiftstrider.|
 T The Battle Plans|QID|25366|M|74.92,42.51|N|To Hadoken Swiftstrider.|
 
-A Zukk'ash Infestation|QID|25367|PRE|25364 & 25365|M|74.92,42.51|N|From Hadoken Swiftstrider.|
-A Stinglasher|QID|25369|PRE|25364 & 25365|M|74.92,42.51|N|From Hadoken Swiftstrider.|
+A Zukk'ash Infestation|QID|25367|PRE|25364&25365|M|74.92,42.51|N|From Hadoken Swiftstrider.|
+A Stinglasher|QID|25369|PRE|25364&25365|M|74.92,42.51|N|From Hadoken Swiftstrider.|
 T A New Cloak's Sheen|QID|25361|M|75.03,42.95|N|To Krueg Skullsplitter.|
 A A Grim Discovery|QID|25362|RANK|2|PRE|25361|M|75.03,42.95|N|From Krueg Skullsplitter.|
 T Return to Sage Palerunner|QID|25645|M|75.07,42.77|N|To Sage Palerunner.|

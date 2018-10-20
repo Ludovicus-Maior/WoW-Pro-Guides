@@ -78,7 +78,7 @@ A Quest(s) from Elder Fisherman Rassan|QID|30585^30598|M|68.34,42.08|N|From Elde
 C Armored Carp|QID|30613|M|68.50,46.10;71.00,49.95;67.07,50.15;69.33,51.12;69.14,48.33|N|Use the spear south of the wharf.|CN|U|80403|L|80437 5|
 C Bright Bait|QID|30754|M|66.50,34.08;59.67,39.42;62.08,37.11;61.45,33.88;59.40,33.70;64.41,36.00;59.51,37.07;64.05,31.48|CN|L|81116 7|N|Go north into the forest and look for them on the roots of trees. Careful with the tigers.|
 C Riverblade Raider slain|QID|30588|M|63.25,38.85;62.04,40.82|CN|QO|1|T|Riverblade Raider|N|Slay Riverblade Raiders. Only they count.|
-C Huff & Puff|QID|30658|M|50.50,58.65;53.20,64.70;50.50,60.95;52.24,62.58|CN|T|Prickly Puffer|U|80403|L|80529 5|N|Face the fish and click the button.  No aiming required.  Put pets on passive or you may lose the loot.|
+C Huff&Puff|QID|30658|M|50.50,58.65;53.20,64.70;50.50,60.95;52.24,62.58|CN|T|Prickly Puffer|U|80403|L|80529 5|N|Face the fish and click the button.  No aiming required.  Put pets on passive or you may lose the loot.|
 C Jagged Abalone|QID|30586|M|68.70,39.80;73.83,38.45;71.00,40.46;70.47,37.59|CN|L|80277 9|T|Jagged Abalone|N|Watch for sharks and stay torwards the top of the trench.|
 C Frenzied Reef Shark|QID|30753|M|68.2,42.2|QO|1|N|Jump on the shark. Hit all three buttons on cooldown, 123. If you get thrown, ask John for another shark.|
 C Like Bombing Fish In A Barrel|QID|30678|M|60.80,46.60;61.50,44.70;60.05,50.10;59.20,44.40|CN|T|Sting Ray|U|80599|L|80600 3|N|Use the raft and the end of the dock.  Target a Ray on the surface close by and throw the bomb. Get off your raft to loot.|
@@ -106,7 +106,7 @@ T Fishing for a Bruising|QID|30588|M|67.56,43.51|N|From Angler Shen|
 T Snapclaw|QID|30700|M|67.56,43.51|N|From Angler Shen|
 
 T Armored Carp|QID|30613|M|67.62,42.49|N|To Trawler Yotimo|
-T Huff & Puff|QID|30658|M|67.62,42.49|N|To Trawler Yotimo|
+T Huff&Puff|QID|30658|M|67.62,42.49|N|To Trawler Yotimo|
 
 T Piranha!|QID|30763|M|67.21,41.14|N|From Fo Fook|
 T Viseclaw Soup|QID|30701|M|67.21,41.14|N|From Fo Fook|

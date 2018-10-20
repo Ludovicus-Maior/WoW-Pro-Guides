@@ -86,7 +86,7 @@ C Mastery Of The Shield-Breaker|QID|13835|M|73.20,19.24|PRE|13667|N|From Scout S
 T Mastery Of The Charge|QID|13837|M|76.4,19.4|PRE|13667|N|From Avareth Swiftstrike.|
 T Mastery Of The Shield-Breaker|QID|13835|M|76.4,19.4|PRE|13667|N|From Scout Shalyndria.|
 T Mastery Of Melee|QID|13828|M|76.4,19.4|PRE|13667|N|From Arcanist Taelis.|
-A Up To The Challenge|QID|13672|M|76.4,19.4|PRE|13828 & 13835 & 13837|N|From Arcanist Taelis.|
+A Up To The Challenge|QID|13672|M|76.4,19.4|PRE|13828&13835&13837|N|From Arcanist Taelis.|
 
 ; Black Knight Quests
 A The Black Knight of Westfall?|QID|13633|M|69.43,23.02|FACTION|Alliance|N|Crusader Rhydalla|
@@ -217,11 +217,11 @@ A Savinia gives 1 of 3|QID|14076^14090^14112|REP|The Silver Covenant;1094;exalte
 ; Bizarely, both QID 13794 and 13795 show as complete.  Blizzard Bonus Bug!
 
 A Battle Before The Citadel|QID|13861|PRE|13794|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|M|69.96,23.44|N|From Eadric the Pure.|
-A Threat From Above|QID|13682|PRE|13794 & 14017|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|M|69.96,23.44|N|From Eadric the Pure.|
+A Threat From Above|QID|13682|PRE|13794&14017|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|M|69.96,23.44|N|From Eadric the Pure.|
 A Among the Champions|QID|13790|PRE|13794|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|M|69.93,23.33|N|From Luuri.|
 A Taking Battle To The Enemy|QID|13789|PRE|13794|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|M|69.92,23.53|N|From Cellian Daybreak|
 
-A Threat From Above|QID|13788|PRE|13795 & 14017|C|Death Knight|M|73.80,20.06|N|From Crok Scourgebane.|
+A Threat From Above|QID|13788|PRE|13795&14017|C|Death Knight|M|73.80,20.06|N|From Crok Scourgebane.|
 A Battle Before The Citadel|QID|13864|PRE|13795|C|Death Knight|M|73.80,20.06|N|From Crok Scourgebane.|
 A Among the Champions|QID|13793|PRE|13795|C|Death Knight|M|73.59,20.09|N|From Illyrie Nightfall.|
 A Taking Battle To The Enemy|QID|13791|PRE|13795|C|Death Knight|M|73.80,19.45|N|From Zor'be the Bloodletter.|

@@ -139,7 +139,7 @@ WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Beyond Durotar|QID|25648|PRE|25206 & 25236|M|45.0,14.6|Z|Durotar|N|From Gor the Enforcer, just outside Orgrimmar's Southern Gates|
+A Beyond Durotar|QID|25648|PRE|25206&25236|M|45.0,14.6|Z|Durotar|N|From Gor the Enforcer, just outside Orgrimmar's Southern Gates|
 T Beyond Durotar|QID|25648|M|26.84,77.00|N|To Ag'tor Bloodfist.|LEAD|25275^28496|
 
 A Warchief's Command: Azshara!|QID|28496|M|26.84,77.00|N|From the Warchief's Command Board.|LEAD|14129|
@@ -201,7 +201,7 @@ C Refleshification|QID|14194|U|48104|M|24.56,72.63|N|Use The Refleshifier to de-
 T A Quota to Meet|QID|14197|M|29.15,66.27|N|To Foreman Fisk, who wanders.|
 T Refleshification|QID|14194|M|29.15,66.24|N|To Horzak Zignibble.|
 
-A Another Warm Body|QID|14468|PRE|14194 & 14197 & 14161|M|29.52,66.84|RANK|2|N|From Private Worcester.|
+A Another Warm Body|QID|14468|PRE|14194&14197&14161|M|29.52,66.84|RANK|2|N|From Private Worcester.|
 T Another Warm Body|QID|14468|M|29.43,57.68|N|To Commander Molotov.|
 A Hand-me-downs|QID|14469|PRE|14468|RANK|2|M|29.43,57.68|N|From Commander Molotov.|
 A Military Breakthrough|QID|14470|PRE|14468|RANK|2|M|29.38,57.61|N|From Glix Grindlock.|
@@ -214,7 +214,7 @@ T First Degree Mortar|QID|14471|M|29.10,57.94|N|To Xiz "The Eye" Salvoblast.|
 T Military Breakthrough|QID|14470|M|29.38,57.61|N|To Glix Grindlock.|
 T Hand-me-downs|QID|14469|M|29.46,57.67|N|To Commander Molotov.|
 
-A In The Face!|QID|14472|PRE|14469 & 14470 & 14471|RANK|2|M|29.38,57.61|N|From Glix Grindlock.|
+A In The Face!|QID|14472|PRE|14469&14470&14471|RANK|2|M|29.38,57.61|N|From Glix Grindlock.|
 C In The Face!|QID|14472|M|31.44,60.75|N|Use an SFG to kill an Enslaved Son of Arkkoroc in the southern minefield.|
 T In The Face!|QID|14472|M|29.38,57.61|N|To Glix Grindlock.|
 A Profitability Scouting|QID|24452|PRE|14472|RANK|2|M|29.46,57.67|N|From Commander Molotov.|
@@ -291,7 +291,7 @@ T Report to Twocrush|QID|14271|M|50.68,75.30|N|To Torg Twocrush.|
 A Sisters of the Sea|QID|14295|PRE|14271|RANK|3|M|50.68,75.30|N|From Torg Twocrush.|
 T Mysterious Azsharite|QID|14370|M|50.45,74.37|N|To Assistant Greely.|
 T A Gigantic Snack|QID|14371|M|50.45,74.37|N|To Assistant Greely.|
-A Befriending Giants|QID|14377|PRE|14370 & 14371|M|50.45,74.37|N|From Assistant Greely.|
+A Befriending Giants|QID|14377|PRE|14370&14371|M|50.45,74.37|N|From Assistant Greely.|
 K Lady Silisthra|QID|14295|M|62.81,76.32|QO|1|N|Kill Lady Silisthra, disable the Power Stone behind her to make it easier to kill her.|
 C Sisters of the Sea|QID|14295|M|63.13,79.38|N|Kill Lady Vesthra, disable the Power Stone behind her to make it easier to kill her.|QO|2|
 T Sisters of the Sea|QID|14295|M|50.68,75.30|N|To Torg Twocrush.|
@@ -310,7 +310,7 @@ T The Terrible Tinkers of the Ruined Reaches|QID|14383|M|50.51,74.74|N|To Hobart
 C Azsharite Experiment Number Two|QID|14388|M|50.38,74.29;47.71,75.51|CS|N|Talk to Assistant Greely when you're ready to shrink. Hop on a rat and run to Gormungan.|
 T Azsharite Experiment Number Two|QID|14388|M|50.41,74.29|N|To Assistant Greely.|
 
-A A Hello to Arms|QID|24458|PRE|14383 & 14388|M|50.53,74.77;51.48,74.32|CS|N|From Hobart Grapplehammer.|
+A A Hello to Arms|QID|24458|PRE|14383&14388|M|50.53,74.77;51.48,74.32|CS|N|From Hobart Grapplehammer.|
 F Bilgewater Harbor|QID|24458|M|51.48,74.3|N|Speak with Friz Groundspin for a free airlift.|
 f Bilgewater Harbor|QID|24458|M|52.92,49.85|N|Head down to the docks to get the flight point.|
 A Operation Fishgut|QID|14478|PRE|24452|M|52.31,50.30|N|From the Wrenchmen Recruitment Poster on the column.|
@@ -337,7 +337,7 @@ T First Come, First Served|QID|24437|M|39.14,51.77|N|To Ruckus.|
 T Mop Up|QID|24435|M|41.50,53.63|N|To Lieutenant Drex.|
 T Halo Drops|QID|24436|M|41.41,53.92|N|To Sergeant Hort.|
 
-A Field Promotion|QID|24448|PRE|24435 & 24436|M|41.50,53.63|N|From Lieutenant Drex.|
+A Field Promotion|QID|24448|PRE|24435&24436|M|41.50,53.63|N|From Lieutenant Drex.|
 T Field Promotion|QID|24448|M|34.34,44.89|N|To Captain Tork.|
 A Still Beating Heart|QID|14487|PRE|24448|M|34.34,44.89|N|From Captain Tork.|
 A Extermination|QID|14480|PRE|24448|M|34.44,44.77|N|From Sergeant Zelks.|
@@ -357,7 +357,7 @@ T Ticker Required|QID|14485|M|34.44,44.77|N|To Sergeant Zelks.|
 T Extermination|QID|14480|M|34.44,44.77|N|From Sergeant Zelks.|
 T Handling the Goods|QID|14486|M|34.52,44.71|N|To Tora Halotrix.|
 
-A Shore Leave|QID|24449|PRE|14480 & 14484 & 14485 & 14486 & 14487|M|34.33,44.88;34.48,44.59|CS|N|From Captain Tork.|
+A Shore Leave|QID|24449|PRE|14480&14484&14485&14486&14487|M|34.33,44.88;34.48,44.59|CS|N|From Captain Tork.|
 T Shore Leave|QID|24449|M|60.59,50.57|N|To Uncle Bedlam. Hop on the Military Gyrocopter when ready to leave.|
 A Azshara Blues|QID|14407|M|59.38,50.68|N|From Teemo.|
 T Azshara Blues|QID|14407|M|55.47,52.16|N|To Kalec.|
@@ -379,7 +379,7 @@ C That's Just Rude!|QID|14132|US|M|71.58,36.23|N|Kill 10 Makrinni in the Ruins o
 T A Little Pick-me-up|QID|14131|M|70.36,36.25|N|To Ergll.|
 T That's Just Rude!|QID|14132|M|70.36,36.25|N|To Ergll.|
 T Full of Hot Water|QID|14324|M|70.36,36.25|N|To Ergll.|
-A Wash Out|QID|14345|PRE|14131 & 14132 & 14324|M|70.36,36.25|N|From Ergll.|
+A Wash Out|QID|14345|PRE|14131&14132&14324|M|70.36,36.25|N|From Ergll.|
 T Wash Out|QID|14345|M|42.73,25.20|N|To Sorata Firespinner.|
 A Dressed to Impress|QID|14340|PRE|14345|M|42.73,25.20|N|From Sorata Firespinner.|
 A The Blackmaw Scar|QID|14431|M|42.40,23.62|N|From Haggrum Bloodfist.|
@@ -393,7 +393,7 @@ C Diplomacy by Another Means|QID|14433|M|29.83,38.58|N|Gather a Blackmaw Meeting
 C A Pale Brew|QID|14432|US|M|30.27,39.35|N|Gather up 10 samples of Briaroot Brew from Blackmaw furbolgs.|
 T A Pale Brew|QID|14432|M|42.43,23.61|N|To Haggrum Bloodfist.|
 T Diplomacy by Another Means|QID|14433|M|42.43,23.61|N|To Haggrum Bloodfist.|
-A The Blackmaw Doublecross|QID|14435|PRE|14442 & 14433|M|42.43,23.61|N|From Haggrum Bloodfist.|
+A The Blackmaw Doublecross|QID|14435|PRE|14442&14433|M|42.43,23.61|N|From Haggrum Bloodfist.|
 C The Blackmaw Doublecross|QID|14435|U|49368|M|42.65,23.71;32.13,30.41|CS|N|Use Ambassador Disguise, talk to Andorel when you're ready. Speak with Ungarl to wreck the negotiations, then kill 4 Blackmaw Warriors and 4 Blackmaw Shaman on your way out. |
 T The Blackmaw Doublecross|QID|14435|M|42.39,23.62|N|To Haggrum Bloodfist.|
 A Amberwind's Journal|QID|14428|M|42.59,23.72|N|From Andorel Sunsworn.|
@@ -419,15 +419,15 @@ C Waste of Thyme|QID|14263|US|M|49.27,18.71|N|Collect 8 bundles of Living Ire Th
 T Waste of Thyme|QID|14263|M|47.04,21.02|N|To Quarla Whistlebreak.|
 T Shear Will|QID|14249|M|47.11,21.04|N|To Will Robotronic.|
 T Renewable Resource|QID|14250|M|47.28,21.19|N|To Tharkul Ironskull.|
-A Manual Labor|QID|14230|PRE|14249 & 14250 & 14263|M|47.22,21.24|N|From Teresa Spireleaf.|
-A Trouble Under Foot|QID|14226|PRE|14249 & 14250 & 14263|M|47.23,20.83|N|From the Image of Archmage Xylem.|
+A Manual Labor|QID|14230|PRE|14249&14250&14263|M|47.22,21.24|N|From Teresa Spireleaf.|
+A Trouble Under Foot|QID|14226|PRE|14249&14250&14263|M|47.23,20.83|N|From the Image of Archmage Xylem.|
 C Trouble Under Foot|QID|14226|S|M|54.17,23.96|N|Use your Personal Arcane Assistant to turn 12 Legash demons into insects and then squash them.|
 C Manual Labor|QID|14230|M|55.23,25.07|N|Retrieve the Abjurer's Manual from the Lagash Encampment. It is at the waypoint and the tooltip will say it is the Manual.|
 C Trouble Under Foot|QID|14226|US|M|54.17,23.96|N|Use your Personal Arcane Assistant to turn 12 Legash demons into insects and then squash them.|
 T Trouble Under Foot|QID|14226|M|47.18,20.83|N|To the Image of Archmage Xylem. Use your personal Arcane Assistant to port you back.|
 T Manual Labor|QID|14230|M|47.28,21.20|N|To Teresa Spireleaf.|
 
-A The Pinnacle of Learning|QID|14413|PRE|14226 & 14230|M|47.28,20.80|N|From the Image of Archmage Xylem. I found the next quest incredibly annoying, but there are quite a few after it, so it's your call.|
+A The Pinnacle of Learning|QID|14413|PRE|14226&14230|M|47.28,20.80|N|From the Image of Archmage Xylem. I found the next quest incredibly annoying, but there are quite a few after it, so it's your call.|
 T The Pinnacle of Learning|QID|14413|M|55.67,14.66|N|To the Image of Archmage Xylem.|
 A Watch Your Step|QID|14296|PRE|14413|M|55.67,14.66|N|From the Image of Archmage Xylem.|
 C Watch Your Step|QID|14296|M|55.95,11.89|N|Click on every conduit and run to the glowing circles to jump. Don't get hit by energy charges or you start over.|
@@ -442,7 +442,7 @@ T The Trial of Fire|QID|14300|M|32.98,23.59|N|To the Image of Archmage Xylem.|
 C The Trial of Frost|QID|24478|M|61.98,21.02|N|Go through the Waning Sanity Portal. Click on the Frost Portal Stone, then enter the portal. Collect 20 small ice orbs. Getting hit by Frostburns will lose some. Can use runes to jump straight up.|
 T The Trial of Frost|QID|24478|M|62.16,21.16|N|Go through the Waning Sanity Portal. To the Image of Archmage Xylem.|
 
-A Xylem's Asylum|QID|14299|PRE|14300 & 24478 & 24479|M|55.92,12.17|N|From the Image of Archmage Xylem.|
+A Xylem's Asylum|QID|14299|PRE|14300&24478&24479|M|55.92,12.17|N|From the Image of Archmage Xylem.|
 T Xylem's Asylum|QID|14299|M|56.17,12.11;25.54,38.01|CS|N|To Joanna. Take the portal.|
 A Wasn't It Obvious?|QID|14389|PRE|14299|M|25.54,38.01|N|From Joanna.|
 C Wasn't It Obvious?|QID|14389|NC|M|27.75,40.81|N|Take the portal behind her. Don't panic.|
@@ -466,7 +466,7 @@ C Ice Cold|QID|14261|U|49596|US|M|69.59,19.40|N|Use the Cryomatic 16 to freeze a
 T Ice Cold|QID|14261|M|66.57,19.63|N|To Blastnoggin.|
 T Pro-liberation|QID|14297|M|66.42,20.29|N|To Jellix Fuselighter.|
 
-A Farewell, Minnow|QID|14392|PRE|14261 & 14297 & 24467|M|67,20.4|N|From Azuregos.|
+A Farewell, Minnow|QID|14392|PRE|14261&14297&24467|M|67,20.4|N|From Azuregos.|
 H Bilgewater Harbor|QID|14392|U|6948|M|67.07,21.15|N|Hearth to Bilgewater Harbor, or fly back.|
 T Farewell, Minnow|QID|14392|M|53.25,49.96|N|Speak to Sorata Firespinner in Bilgewater Harbor.|
 A Airborne Again|QID|24497|PRE|14392|M|52.98,49.78|N|Secure a ride to Valermok with the Airborne Priests in the eastern portion of Bilgewater Harbor.|
@@ -496,7 +496,7 @@ T Lightning Strike Assassination|QID|14464|M|13.95,64.79|N|To Chawg.|
 T Let Them Feast on Fear|QID|24433|M|13.95,64.79|N|To Chawg.|
 T Push the Button!|QID|14477|M|14.30,64.99|N|To Kroum.|
 
-A Blacken the Skies|QID|24430|PRE|14477 & 24433|M|14.45,65.64|N|From Jr. Bombardier Hacke.|
+A Blacken the Skies|QID|24430|PRE|14477&24433|M|14.45,65.64|N|From Jr. Bombardier Hacke.|
 C Blacken the Skies|QID|24430|M|9.28,72.53|N|Mount a Grounded Wind Rider. Destroy 6 Talrendis Glaive Throwers and bomb the Command Center. Don't fly too low.|
 T Blacken the Skies|QID|24430|M|14.44,65.74|N|To Jr. Bombardier Hackel.|
 A The Conquest of Azshara|QID|24439|PRE|24430|M|14.05,64.86|N|From Chawg.|

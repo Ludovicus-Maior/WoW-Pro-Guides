@@ -250,7 +250,7 @@ C Good Help is Hard to Find|QID|14069|M|70.29,82.50|N|Finishing right-clicking t
 T Trouble in the Mines|QID|14075|M|60.35,74.64|N|To Foreman Dampwick.|
 T Good Help is Hard to Find|QID|14069|M|60.35,74.64|N|To Foreman Dampwick.|
 
-A Kaja'Cola|QID|25473|M|60.35,74.64|N|From Foreman Dampwick.|PRE|14069 & 14075|
+A Kaja'Cola|QID|25473|M|60.35,74.64|N|From Foreman Dampwick.|PRE|14069&14075|
 T Kaja'Cola|QID|25473|M|56.53,76.97|N|To Sassy Hardwrench.|
 
 A Megs in Marketing|QID|28349|M|56.53,76.97|N|From Sassy Hardwrench.|PRE|25473|
@@ -304,8 +304,8 @@ T The New You|QID|14110|M|56.42,76.97|N|To Chip Endale, back at KTC Headquarters
 T Give Sassy the News|QID|24520|M|56.42,76.97|N|To Sassy Hardwrench.|
 T Do it Yourself|QID|14070|M|56.42,76.97|N|To Sassy Hardwrench.|
 
-A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane.|GEN|MALE|PRE|24520 & 14070 & 14109|
-A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale.|GEN|FEMALE|PRE|24520 & 14070 & 14110|
+A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane.|GEN|MALE|PRE|24520&14070&14109|
+A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale.|GEN|FEMALE|PRE|24520&14070&14110|
 C Life of the Party|QID|14113^14153|M|60.21,85.76|N|Entertain 10 Partygoers. \nUse Key 1 (Bubbly) for those holding a drink glass\nUse Key 2 (Bucket) if they have blue swirls over their head.\nUse Key 3 (Dance) if they are dancing\nUse Key 4 (Fireworks) if they are holding a red sparkler\nUse Key 5 (Hors D'oeuvres) if they are holding a chicken drumstick.\nIf you give them the wrong one, they'll tell you what they want. Move on from any that are all partied-out.|NC|
 T Life of the Party|QID|14113^14153|M|56.52,76.95|N|To Sassy Hardwrench.|
 
@@ -342,7 +342,7 @@ A Liberate the Kaja'mite|QID|14124|U|46856|M|62.85,77.76|N|From Foreman Dampwick
 C Liberate the Kaja'mite|QID|14124|U|48768|M|71.19,77.39|NC|N|Use the bombs on the sparkling green ore spots, then pick up the Kaja'mite Chunks.|
 T Liberate the Kaja'mite|QID|14124|U|46856|M|62.92,77.54|N|To Foreman Dampwick.|
 
-A 447|QID|14125|M|59.78,77.13|N|From Sassy Hardwrench.|PRE|14121 & 14122 & 14123 & 14124|
+A 447|QID|14125|M|59.78,77.13|N|From Sassy Hardwrench.|PRE|14121&14122&14123&14124|
 C Overload the Defective Generator|QID|14125|QO|1|N|Head inside the building and click on the Defective Generator.|M|56.13,76.6|NC|
 C Activate the Leaky Stove|QID|14125|QO|2|N|Head over to the corner and click on the Leaky Stove.|M|56.05,74.7|NC|
 C Drop a Cigar on the Flammable Bed|QID|14125|QO|3|N|Head upstairs and click on the Flammable Bed.|M|56.61,75.15|NC|

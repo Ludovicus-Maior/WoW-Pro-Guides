@@ -398,8 +398,8 @@ C Murlocs... Why Here? Why Now?|QID|9562|N|Kill murlocs around until you have 5 
 T Murlocs... Why Here? Why Now?|QID|9562|N|To Gurf.|M|44.63,23.48|
 T Gurf's Dignity|QID|9564|M|44.63,23.48|N|To Gurf.|
 
-A Search Stillpine Hold|QID|9565|PRE|9560 & 9562|M|46.68,20.63|N|From High Chief Stillpine.|
-A Chieftain Oomooroo|QID|9573|PRE|9560 & 9562|M|46.90,21.16|N|From Stillpine the Younger.|
+A Search Stillpine Hold|QID|9565|PRE|9560&9562|M|46.68,20.63|N|From High Chief Stillpine.|
+A Chieftain Oomooroo|QID|9573|PRE|9560&9562|M|46.90,21.16|N|From Stillpine the Younger.|
 C Chieftain Oomooroo|QID|9573|N|Go into Stillpine Hold and up the path on the right. Kill Crazed Wildkin and Chieftain Oomooroo|M|45.39,18.06;47.43,14.18|CS|
 T Chieftain Oomooroo|QID|9573|M|46.9,21.2|N|To Stillpine the Younger.|
 A The Kurken is Lurkin'|QID|9570|M|46.97,22.26|N|From Kurz the Revelator.|
@@ -409,7 +409,7 @@ A Blood Crystals|QID|9566|PRE|9565|M|50.5,11.5|N|From the Blood Crystal. Be at f
 T Blood Crystals|QID|9566|N|Get out of the cave. Turn the quest into High Chief Stillpine.|M|46.7,20.6|
 T The Kurken is Lurkin'|QID|9570|M|46.97,22.26|N|To Kurz the Revelator.|
 A The Kurken's Hide|QID|9571|PRE|9570|M|46.97,22.26|N|From Kurz the Revelator.|
-A Warn Your People|QID|9622|PRE|9566 & 9570 & 9573|N|From High Chief Stillpine.|M|46.68,20.63|
+A Warn Your People|QID|9622|PRE|9566&9570&9573|N|From High Chief Stillpine.|M|46.68,20.63|
 T The Kurken's Hide|QID|9571|M|44.77,23.90|N|To Moordo.|
 
 T Warn Your People|QID|9622|M|47.13,50.61|N|Run (or hearth if available) back to Azure Watch and turn this in to Exarch Menelaous.|U|6948|

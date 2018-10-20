@@ -125,7 +125,7 @@ C Stocking Up|QID|28419|M|25.70,50.26|N|Finish getting barbs from scorpions.|US|
 T Stocking Up|QID|28419|M|17.36,51.65|N|To Ariok.|
 T A Future Project|QID|28420|M|17.36,51.65|N|To Ariok.|
 T Mud Hunter|QID|28421|M|17.36,51.65|N|To Ariok.|
-A The Sand, the Cider, and the Orb|QID|28422|PRE|28419 & 28420 & 28421|M|17.36,51.65|N|From Ariok.|
+A The Sand, the Cider, and the Orb|QID|28422|PRE|28419&28420&28421|M|17.36,51.65|N|From Ariok.|
 T The Sand, the Cider, and the Orb|QID|28422|M|8.27,35.88|N|To Gorzeeki Wildeyes.|
 A Shadow Boxing|QID|28424|PRE|28423|M|8.27,35.88|N|From Gorzeeki Wildeyes.|
 A Warlocks Have the Neatest Stuff|QID|28423|M|8.27,35.88|N|From Gorzeeki Wildeyes.|
@@ -177,7 +177,7 @@ C Prove Yer Allegiance|QID|28225|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|They
 C Scrapped Golems|QID|28226|US|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
 T Prove Yer Allegiance|QID|28225|M|46.72,44.25|N|To Stebben Oreknuckle.|
 T Scrapped Golems|QID|28226|M|46.72,44.25|N|To Stebben Oreknuckle.|
-A Golem Training|QID|28227|PRE|28225 & 28226|M|46.72,44.25|N|From Stebben Oreknuckle.|
+A Golem Training|QID|28227|PRE|28225&28226|M|46.72,44.25|N|From Stebben Oreknuckle.|
 C Golem Training|QID|28227|M|44.72,43.79;76.75,46.6|CN|N|Go into either tower. Be warned, do not try more than 1 at a time, and they will do knockback.|
 T Golem Training|QID|28227|M|46.72,44.23|N|To Stebben Oreknuckle.|
 A General Thorg'izog|QID|28437|PRE|28436|M|44.59,44.45|N|From Eitrigg.|

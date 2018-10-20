@@ -319,7 +319,7 @@ T The War of Northwatch Aggression|QID|25169|M|55.35,75.17|N|To Lar Prowltusk.|
 T Never Trust a Big Barb and a Smile|QID|25165|M|55.71,75.39|N|To Bom'bay.|RANK|2|
 
 T Purge the Valley|QID|25168|M|55.94,74.79|N|To Master Gadrin.|
-A Riding On|QID|25171|PRE|25168 & 25169|M|55.94,74.79|N|From Master Gadrin.|
+A Riding On|QID|25171|PRE|25168&25169|M|55.94,74.79|N|From Master Gadrin.|
 f Sen'jin Village|ACTIVE|25171|M|55.38,73.31|N|Grab the flight point from Handler Marnlek in case you need to get back.|
 R Razor Hill|QID|25171|M|55.18,74.59|N|Talk to Raider Jhash for ride to Razor Hill.|CHAT|ACTIVE|25171|
 N Profession Trainers|QID|25171|M|52.96,41.90|N|When you arrive in Razor Hill, Runda the Profession Trainer, just outside the Barracks can teach you most professions, whilst Rawrk inside the barracks will teach you First Aid.|S|ACTIVE|25171|T|Runda|
@@ -357,7 +357,7 @@ T From Bad to Worse|QID|25173|M|51.89,43.52|N|To Gar'Thok.|
 A Storming the Beaches|QID|25177|PRE|25173|M|51.89,43.52|N|From Gar'Thok.|
 T Exploiting the Situation|QID|25176|M|53.06,43.12|N|To Gail Nozzywig.|
 
-A Shipwreck Searching|QID|25178|PRE|25173 & 25176|M|53.06,43.12|N|From Gail Nozzywig.|
+A Shipwreck Searching|QID|25178|PRE|25173&25176|M|53.06,43.12|N|From Gail Nozzywig.|
 C Storming the Beaches|QID|25177|S|M|58.96,49.79|N|Kill Foaming Sea Elementals. |
 C Shipwreck Searching|QID|25178|S|M|57.35,44.65|N|Obtain 4 sets of Gnomish Tools.|NC|
 A Loss Reduction|QID|25179|M|57.90,45.10|N|Speak to an Injured Razor Hill Grunt.|CHAT|PRE|25173|
@@ -438,7 +438,7 @@ A Margoz|QID|25261|PRE|25260|M|44.98,14.76|N|From Gor the Enforcer.|
 T Thunder Down Under|QID|25236|M|44.98,14.76|N|To Gor the Enforcer.|
 T Ignoring the Warnings|QID|25206|M|44.98,14.76|N|To Gor the Enforcer.|
 
-A Beyond Durotar|QID|25648|PRE|25206 & 25236|M|44.98,14.76|N|*Azshara Quest*\n\nFrom Gor the Enforcer.\nAccept this quest if you plan on going to Azshara next. |ACTIVE|25261|
+A Beyond Durotar|QID|25648|PRE|25206&25236|M|44.98,14.76|N|*Azshara Quest*\n\nFrom Gor the Enforcer.\nAccept this quest if you plan on going to Azshara next. |ACTIVE|25261|
 T Margoz|QID|25261|M|56.39,20.17|N|To Margoz.|
 
 A Skull Rock|QID|25262|PRE|25261|M|56.39,20.17|N|From Margoz.|

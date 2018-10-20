@@ -212,8 +212,8 @@ T Yetiphobia|QID|28722|M|59.30,49.81|N|To Umi Rumplesnicker.|
 T Fresh From The Hills|QID|28632|M|59.79,49.62|N|To Deez Rocksnitch.|
 A Ice Delivery|QID|28628|PRE|28632|M|59.79,49.62|N|From Deez Rocksnitch.|
 T Ice Delivery|QID|28628|M|59.76,49.18|N|To Seril Scourgebane.|
-A Starfall Village|QID|28674|LEAD|28676|PRE|28722 & 28628|M|59.78,49.65|N|From Deez Rocksnitch.|
-A The Pursuit of Umbranse|QID|28847|LEAD|28837|PRE|28537 & 28722|M|59.66,50.45|N|From Nymn.|
+A Starfall Village|QID|28674|LEAD|28676|PRE|28722&28628|M|59.78,49.65|N|From Deez Rocksnitch.|
+A The Pursuit of Umbranse|QID|28847|LEAD|28837|PRE|28537&28722|M|59.66,50.45|N|From Nymn.|
 R Starfall Village|QID|28674|M|48.65,41.03|N|Follow the road to Starfall Village.|
 T Starfall Village|QID|28674|M|48.65,41.03|N|To Wynd Nightchaser.|
 A Exterminators at Work|QID|28676|M|48.65,41.03|N|From Wynd Nightchaser.|

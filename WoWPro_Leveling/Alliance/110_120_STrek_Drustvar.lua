@@ -265,7 +265,7 @@ T Furious Familiars|QID|47980|M|56.18,29.13|N|To UI Alert.|
 C Fallhaven's Curse|QID|47969|M|56.82,34.46|US|N|Finish this bonus objective before you turn in next quest.|
 T Fallhaven's Curse|QID|47969|M|57.24,35.34|N|Bonus Objective - autocompleted.|
 T Cracking the Curse|QID|47981|M|55.93,35.11|N|To Cursed Effigy.|
-A The Final Effigy|QID|47982|M|55.93,35.11|N|From Cursed Effigy.|PRE|47980 & 47981|
+A The Final Effigy|QID|47982|M|55.93,35.11|N|From Cursed Effigy.|PRE|47980&47981|
 C The Final Effigy|QID|47982|QO|1|M|55.93,35.11|N|Break Cursed Effigy.|
 K Deathcursed Terror|ACTIVE|47982|QO|2|M|55.93,35.11|N|Kill Deathcursed Terror.|T|Deathcursed Terror|
 T The Final Effigy|QID|47982|M|55.95,35.14|N|To Cyril White.|
@@ -302,7 +302,7 @@ l "Relic of the Makers"|QID|48805|QO|1|M|50.75,20.22|L|152704|N|On higher ground
 K Grozgore|QID|49388|QO|1|M|50.29,20.74|N|Silver Elite to loot for azerite power and resources.|RARE|ITEM|160457|RANK|2|T|Grozgore|
 T Mistakes Were Made|QID|48804|M|50.63,24.31|N|To Marcus Howlingdale acrros the bridge.|
 T Research Recovery|QID|48805|M|50.63,24.31|N|To Marcus Howlingdale.|
-A Terminal Degree|QID|48853|M|50.63,24.31|N|From Marcus Howlingdale.|PRE|48792 & 48804|RANK|2|
+A Terminal Degree|QID|48853|M|50.63,24.31|N|From Marcus Howlingdale.|PRE|48792&48804|RANK|2|
 K Kill Cragg the Stoneshaker|ACTIVE|48853|QO|1|M|49.70,23.49|N|He is in the cave behind you.|T|Cragg the Stoneshaker|RANK|2|
 C Terminal Degree|QID|48853|QO|2|M|49.40,23.37|NC|N|Help Nigel Rifthold from above the fire, little bit further in the cave.|
 T Terminal Degree|QID|48853|M|50.59,24.43|N|To Thaddeus "Gramps" Rifthold who is with the rest of the children now.|
@@ -327,7 +327,7 @@ T Save Their Bacon|QID|47946|M|63.24,27.04|N|To Thomas Staughton.|
 T Big Bad Wolves|QID|47947|M|63.24,27.04|N|To Thomas Staughton.|
 T Pork Chop|QID|47948|M|63.24,27.04|N|To Thomas Staughton.|
 T That's Not My Fetish|QID|47949|M|63.24,27.04|N|To Thomas Staughton.|
-A Cured Ham|QID|47950|M|63.24,27.04|N|From Thomas Staughton.|PRE|47946 & 47947 & 47948 & 47949|RANK|2|
+A Cured Ham|QID|47950|M|63.24,27.04|N|From Thomas Staughton.|PRE|47946&47947&47948&47949|RANK|2|
 C Use Pig Effigy|U|153432|QID|47950|M|63.29,27.02|N|Use the item to toss it in the campfire near Thomas Staughton|
 T Cured Ham|QID|47950|M|63.24,27.04|N|To Thomas Staughton.|
 
@@ -422,7 +422,7 @@ C In Case of Ambush|QID|48110|M|67.32,44.02|NC|N|Click on the glowing traps on t
 C The Woods Have Eyes|QID|48109|M|69.00,43.94|US|N|Finish killing the wildlife.|
 T The Woods Have Eyes|QID|48109|M|69.66,43.18|N|To Marshal Everit Reade.|
 T In Case of Ambush|QID|48110|M|69.66,43.18|N|To Marshal Everit Reade.|
-A Trial by Superstition|QID|48111|M|70.07,42.83|N|From Lucille Waycrest.|PRE|48109 & 48110|
+A Trial by Superstition|QID|48111|M|70.07,42.83|N|From Lucille Waycrest.|PRE|48109&48110|
 C Trial by Superstition|QID|48111|M|70.05,43.14|CHAT|N|Question villagers.|
 T Trial by Superstition|QID|48111|M|70.07,42.84|N|To Lucille Waycrest.|
 A A Pungent Solution|QID|48113|M|70.10,42.84|N|From Lucille Waycrest.|PRE|48111|
@@ -443,7 +443,7 @@ C Once Bitten, Twice Shy|QID|48170|QO|2|US|NC|N|Finish capturing the needed Bloo
 T A Pungent Solution|QID|48113|M|70.07,42.81|N|To Lucille Waycrest.|
 T Once Bitten, Twice Shy|QID|48170|M|70.07,42.81|N|To Lucille Waycrest.|
 T Harmful If Swallowed|QID|48165|M|70.07,42.81|N|To Lucille Waycrest.|
-A The Burden of Proof|QID|48198|M|70.10,42.81|N|From Lucille Waycrest.|PRE|48113 & 48170 & 48165|
+A The Burden of Proof|QID|48198|M|70.10,42.81|N|From Lucille Waycrest.|PRE|48113&48170&48165|
 C The Burden of Proof|QID|48198|QO|1|M|70.09,42.94|CHAT|N|Tell Constable Framer you are ready to begin the trial.|
 C The Burden of Proof|QID|48198|QO|2|M|70.10,42.81|NC|N|Click on Lucille to administer the first test.|
 C The Burden of Proof|QID|48198|QO|3|M|70.10,42.81|NC|N|Click on Lucille to administer the first test.|
@@ -468,7 +468,7 @@ C Take the Bait|QID|48904|M|71.10,51.52|US|N|Finish collecting the Snapclaw Meat
 T Mean Gulls|QID|48880|M|71.76,50.46|N|To Art Hughie.|
 T Take the Bait|QID|48904|M|71.76,50.46|N|To Art Hughie.|
 T I Like Fish Guts and I Cannot Lie|QID|48882|M|71.76,50.46|N|To Art Hughie.|
-A Big Gulls Won't Die|QID|48883|M|71.76,50.46|N|From Art Hughie.|PRE|48880 & 48904|RANK|3|;not spurious
+A Big Gulls Won't Die|QID|48883|M|71.76,50.46|N|From Art Hughie.|PRE|48880&48904|RANK|3|;not spurious
 K Brinebeak|ACTIVE|48883|QO|1|M|71.48,49.10|N|Kill Brinebeak.|T|Brinebeak|
 T Big Gulls Won't Die|QID|48883|M|71.77,50.41|N|To Art Hughie.|
 
@@ -485,7 +485,7 @@ C Save Who We Can|QID|48518|US|NC|N|Finish rallying the Frightened Woodsmen.|
 C Clear-Cutting|QID|49295|US|N|Finish killing the Curseformed Familiars.|
 T Save Who We Can|QID|48518|M|70.07,60.27|N|To Evelyn Pare.|
 T Clear-Cutting|QID|49295|M|70.07,60.27|N|To Evelyn Pare.|
-A Hope They Can't Swim|QID|48519|M|70.07,60.27|N|From Evelyn Pare.|PRE|48518 & 49295|
+A Hope They Can't Swim|QID|48519|M|70.07,60.27|N|From Evelyn Pare.|PRE|48518&49295|
 C Hope They Can't Swim|QID|48519|M|69.41,60.35|N|Hold the beach so the villagers can escape in the rowboat. Kill the Grotesque Butcher to complete the quest.|
 T Hope They Can't Swim|QID|48519|M|70.07,60.27|N|To Evelyn Pare.|
 A Break Them to Splinters|QID|48525|M|70.07,60.27|N|Bonus Objective - Autoaccepted.|PRE|48519|LVL|-120|
@@ -504,9 +504,9 @@ C Charming the Lifeless|QID|48521|M|68.55,63.29|N|Keep trying until you have con
 T The Three Sisters|QID|48520|M|70.07,60.27|N|To Evelyn Pare.|
 T Charming the Lifeless|QID|48521|M|70.07,60.27|N|To Evelyn Pare.|
 T A Revealing Missive|QID|48522|M|70.07,60.27|N|To Evelyn Pare.|
-A The Murderous Matron|QID|48523|M|70.07,60.27|N|From Evelyn Pare.|PRE|48520 & 48521 & 48522|
-A Culling the Coven|QID|48524|M|70.07,60.27|RANK|-1|N|From Evelyn Pare. Technically this isn't part of zone achievement but it's nearly impossible to NOT complete while doing the other quests.|PRE|48520 & 48521 & 48522|
-A Culling the Coven|QID|48524|M|70.07,60.27|N|From Evelyn Pare.|PRE|48520 & 48521 & 48522|
+A The Murderous Matron|QID|48523|M|70.07,60.27|N|From Evelyn Pare.|PRE|48520&48521&48522|
+A Culling the Coven|QID|48524|M|70.07,60.27|RANK|-1|N|From Evelyn Pare. Technically this isn't part of zone achievement but it's nearly impossible to NOT complete while doing the other quests.|PRE|48520&48521&48522|
+A Culling the Coven|QID|48524|M|70.07,60.27|N|From Evelyn Pare.|PRE|48520&48521&48522|
 C The Murderous Matron|QID|48523|NC|QO|1|N|Click the Dormant Ravager to take control of it.|
 C Culling the Coven|QID|48524|S|N|While controlling the Dormant Ravager, If you haven't finished the bonus objective, kill grotesque thralls. Run up to the Elderstone Mine and use the ravagers abilities to slay Heartsbane minions while traveling towards Matron Levae.|
 C Break Them to Splinters|QID|48525|M|69.75,64.09|US|N|Finish up the bonus objective.|
@@ -560,7 +560,7 @@ T Boned|QID|52075|M|61.89,59.37|N|To Ranger Wons.|
 T Total Cairnage|QID|48182|M|61.89,59.37|N|To Thornspeaker Birchgrove.|
 T The Hills Are Alive|QID|48183|M|61.89,59.37|N|To Thornspeaker Birchgrove.|
 T Really Big Problem|QID|48180|M|61.89,59.37|N|To Thornspeaker Birchgrove.|
-A The High Thornspeaker|QID|53110|M|61.89,59.37|N|From Thornspeaker Birchgrove.|PRE|48183 & 52075 & 48179 & 48182 & 48180|RANK|3|
+A The High Thornspeaker|QID|53110|M|61.89,59.37|N|From Thornspeaker Birchgrove.|PRE|48183&52075&48179&48182&48180|RANK|3|
 
 H The Swine's Larder|ACTIVE|48941|TZ|Fallhaven|N|Use your heartstone to go back to Fallhaven, lacking that its a short run down the river to Flether's Hollow and a flight to Fallhaven.|
 
@@ -583,7 +583,7 @@ $ Runebound Chest|QID|53386|M|44.22,27.72|N|Click the runes in this order *LEFT,
 T Yeti to Rumble|QID|48942|M|44.74,28.48|N|To Lucille Waycrest.|
 T Salvage Rights|QID|48943|M|44.74,28.48|N|To Lucille Waycrest.|
 T If Bones Could Talk|QID|51134|M|44.74,28.48|N|To Lucille Waycrest.|
-A Diversionary Tactics|QID|48963|M|44.74,28.48|N|From Lucille Waycrest.|PRE|48942 & 48943|
+A Diversionary Tactics|QID|48963|M|44.74,28.48|N|From Lucille Waycrest.|PRE|48942&48943|
 K Frostmange|ACTIVE|48963|QO|1|M|45.22,28.57|N|Slay Frostmange|T|Frostmange|
 T Diversionary Tactics|QID|48963|M|45.01,27.76|N|To Lucille Waycrest.|
 A Unlocking History|QID|48944|M|45.01,27.76|N|From Lucille Waycrest.|PRE|48963|
@@ -637,7 +637,7 @@ T Changing of the Guard|QID|49803|M|36.93,50.14|N|To Marshal Everit Reade.|
 T Sharp Thinking|QID|49804|M|36.93,50.14|N|To Lucille Waycrest.|
 T Implements of Ill Intent|QID|49805|M|36.93,50.14|N|To Lucille Waycrest.|
 T Hidden Dealings|QID|49806|M|36.93,50.14|N|To Lucille Waycrest.|
-A A New Order|QID|49807|M|36.93,50.14|N|From Lucille Waycrest.|PRE|49803 & 49804|;not spurious
+A A New Order|QID|49807|M|36.93,50.14|N|From Lucille Waycrest.|PRE|49803&49804|;not spurious
 C A New Order|QID|49807|M|36.93,50.14|NC|U|156532|N|Give each of the recruits thier new regalia and then wait for Lucille to give her orders.|
 T A New Order|QID|49807|M|36.89,50.08|N|To Lucille Waycrest.|
 A The Road to Corlain|QID|49926|M|36.96,50.09|N|From Marshal Everit Reade.|
@@ -765,7 +765,7 @@ K Timber Mongrels|ACTIVE|50306|US|QO|1|M|21.76,56.99|N|Finish collecting the Org
 K Hexwood Seers|ACTIVE|50306|US|QO|2|M|21.76,56.99|N|Finish collecting the Bags of Reagents.|
 T Saving Master Ashton|QID|50265|M|20.64,57.47|N|To Inquisitor Cleardawn.|
 T Odds and Ends|QID|50306|M|20.63,57.51|N|To Marten Webb.|
-A A Little 'Pick Me Up'|QID|50327|M|20.63,57.51|N|From Marten Webb.|PRE|50265 & 50306|;not spurious
+A A Little 'Pick Me Up'|QID|50327|M|20.63,57.51|N|From Marten Webb.|PRE|50265&50306|;not spurious
 C A Little 'Pick Me Up'|QID|50327|M|20.60,57.55|CHAT|N|Give Master Ashton the potion and wait for it to take effect.|
 T A Little 'Pick Me Up'|QID|50327|M|20.60,57.55|N|To Warren Ashton.|
 A Deeper into the Woods|QID|50370|M|20.64,57.47|N|From Inquisitor Cleardawn.|PRE|50327|;not spurious
@@ -794,7 +794,7 @@ C She's Got it Where it Counts|QID|51019|M|20.61,43.55|NC|N|Click on the Ball an
 C Cutthroat Business Practices|QID|51020|M|21.52,43.57|N|Slay Gary Cofferdam in a cave at the bottom of the hill.|
 T She's Got it Where it Counts|QID|51019|M|19.85,44.26|N|To Klause Fairwind.|
 T Cutthroat Business Practices|QID|51020|M|20.86,46.18|N|To Fixi Slyshiv.|
-A Out With the Old Boss|QID|50978|M|20.62,46.19|N|From Cesi Loosecannon.|PRE|51020 & 51019|RANK|2|
+A Out With the Old Boss|QID|50978|M|20.62,46.19|N|From Cesi Loosecannon.|PRE|51020&51019|RANK|2|
 K Richard Tornsail|ACTIVE|50978|QO|1|T|Richard Tornsail|N|Slay Richard Tornsail out on the boat at the dock.|
 T Out With the Old Boss|QID|50978|M|19.20,43.51|N|To Cesi Loosecannon who has moved upstairs on the ship.|
 f Anyport|AVAILABLE|51001|M|19.19,43.30|N|At Tan Lotuswind, up above Cesi's new office.|PRE|50978|
@@ -819,7 +819,7 @@ T Controlling the Situation|QID|50445|M|24.58,56.72|N|To Warren Ashton.|
 T Matrons of the Crimsonwood|QID|50329|M|24.58,56.72|N|To Warren Ashton.|
 T Stopping the Grand Rite|QID|50325|M|24.57,56.65|N|To Inquisitor Cleardawn.|
 T Witch Way Out?|QID|50530|M|24.57,56.65|N|To Inquisitor Cleardawn.|
-A In the Hall of the Drust King|QID|50481|M|24.57,56.65|N|From Inquisitor Cleardawn.|PRE|50445 & 50329 & 50325 & 50530|;not spurious
+A In the Hall of the Drust King|QID|50481|M|24.57,56.65|N|From Inquisitor Cleardawn.|PRE|50445&50329&50325&50530|;not spurious
 C In the Hall of the Drust King|QID|50481|M|27.01,58.43;27.50,59.46|CS|QO|1|N|Attack Gorak Tul.|
 C In the Hall of the Drust King|QID|50481|M|27.50,59.46|QO|2|NC|N|Once you are unstunned, survive the run back out.|
 T In the Hall of the Drust King|QID|50481|M|27.04,58.50|N|To Inquisitor Cleardawn.|
@@ -883,7 +883,7 @@ C Digging for Scraps|QID|50152|M|25.79,36.46|US|N|Finish collecting the needed Q
 T A Steady Ballast|QID|50151|M|31.35,30.29|N|To Marshal Everit Reade.|
 T Digging for Scraps|QID|50152|M|31.35,30.29|N|To Marshal Everit Reade.|
 T Precious Metals|QID|50173|M|31.41,30.36|N|To Lucille Waycrest.|
-A An Improvised Arsenal|QID|50253|M|31.41,30.36|N|From Lucille Waycrest.|PRE|50173 & 50151|;not spurious
+A An Improvised Arsenal|QID|50253|M|31.41,30.36|N|From Lucille Waycrest.|PRE|50173&50151|;not spurious
 C An Improvised Arsenal|QID|50253|M|31.72,29.55|QO|1|CHAT|N|Speak with Angus Ballaster|
 C An Improvised Arsenal|QID|50253|M|31.90,29.72|QO|2|NC|N|Click on the scrapheap to search for the Battered Hand Cannon.|
 C An Improvised Arsenal|QID|50253|M|31.64,29.53|QO|3|NC|N|Place Hand cannon on the anvil and then wait a bit for Angus to be done.|
@@ -996,7 +996,7 @@ T Hexecutioner|QID|50585|M|31.04,20.18|N|To Marshal Everit Reade.|
 T Ruinous Rituals|QID|50584|M|31.04,20.18|N|To Marshal Everit Reade.|
 T To the Other Side|QID|50583|M|31.04,20.18|N|To Lucille Waycrest.|
 T The Fall of Corlain|QID|50586|M|31.04,20.18|N|To Lucille Waycrest.|
-A Storming the Manor|QID|50588^51852^51851|M|31.04,20.18|N|From Lucille Waycrest.|PRE|50586 & 50585 & 50584|;not spurious
+A Storming the Manor|QID|50588^51852^51851|M|31.04,20.18|N|From Lucille Waycrest.|PRE|50586&50585&50584|;not spurious
 C Storming the Manor|QID|50588^51852^51851|M|32.67,15.35|QO|1|NC|N|Follow Lucille followed - enjoy ingame event.|
 K Marshal Everit Reade|ACTIVE|50588^51852^51851|M|32.58,15.34|QO|2|T|Marshal Everit Reade|N|Slay Marshal Everit Reade.|
 T Storming the Manor|QID|50588^51852^51851|M|32.76,15.35|N|To Lucille Waycrest.|

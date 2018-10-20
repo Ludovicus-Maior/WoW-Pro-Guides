@@ -343,7 +343,7 @@ C Almost Worth Saving|QID|51691|M|51.80,32.43|Z|Stormsong Valley|QO|1|US|NC|N|Fi
 T Hunt Them Down|QID|51675|M|49.18,34.22|Z|Stormsong Valley|N|To Centurion Kaga Warmstone.|
 T Almost Worth Saving|QID|51691|M|49.18,34.22|Z|Stormsong Valley|N|To Centurion Kaga Warmstone.|
 T Douse the Flames|QID|51674|M|49.26,34.29|Z|Stormsong Valley|N|To Rexxar.|
-A Reclaiming What's Ours|QID|51696|M|49.26,34.29|Z|Stormsong Valley|N|From Rexxar.|PRE|51675 & 51691 & 51674|
+A Reclaiming What's Ours|QID|51696|M|49.26,34.29|Z|Stormsong Valley|N|From Rexxar.|PRE|51675&51691&51674|
 C Reclaiming What's Ours|QID|51696|M|49.58,34.77|Z|Stormsong Valley|NC|N|Go up to the top of the tower and sound the Warhorn.|
 T Reclaiming What's Ours|QID|51696|M|52.13,33.66|Z|Stormsong Valley|N|To Rexxar.|
 A Champion: Rexxar|QID|51753|M|52.13,53.66|Z|Stormsong Valley|N|From Rexxar.|PRE|51696|
@@ -371,8 +371,8 @@ C Cannonball Collection|QID|51439|M|87.85,50.96|Z|Tiragarde Sound|N|Kill Cannone
 C Spike the Punch|QID|51437|M|87.77,50.56|Z|Tiragarde Sound|NC|US|N|Finish spiking the kegs.|
 T Cannonball Collection|QID|51439|M|87.28,50.01|Z|Tiragarde Sound|N|To Shadow Hunter Ty'jin.|
 T Spike the Punch|QID|51437|M|87.31,49.98|Z|Tiragarde Sound|N|To First Mate Owings.|
-A A Change in Direction|QID|51440|M|87.31,49.98|Z|Tiragarde Sound|N|From First Mate Owings.|PRE|51439 & 51437|
-A Thar She Blows!|QID|51441|M|87.28,50.01|Z|Tiragarde Sound|N|From Shadow Hunter Ty'jin.|PRE|51439 & 51437|
+A A Change in Direction|QID|51440|M|87.31,49.98|Z|Tiragarde Sound|N|From First Mate Owings.|PRE|51439&51437|
+A Thar She Blows!|QID|51441|M|87.28,50.01|Z|Tiragarde Sound|N|From Shadow Hunter Ty'jin.|PRE|51439&51437|
 C Thar She Blows!|QID|51441|M|88.25,50.73|Z|Tiragarde Sound|U|160405|NC|S|N|Use the Hand Cannon to sink Fogsail Rowboats.|
 C A Change in Direction|QID|51440|M|87.02,51.94|Z|Tiragarde Sound|QO|2|CHAT|N|Give the letter to Quartermaster Killian.|
 C A Change in Direction|QID|51440|M|87.87,50.25|Z|Tiragarde Sound|QO|1|CHAT|N|Give the letter to Boatswain Taryn. She doesnt fall for it and you need to defend yourself.|
@@ -380,7 +380,7 @@ C A Change in Direction|QID|51440|M|87.28,49.57|Z|Tiragarde Sound|QO|3|CHAT|N|Na
 C Thar She Blows!|QID|51441|M|88.25,50.73|Z|Tiragarde Sound|U|160405|NC|US|N|Finish sinking Fogsail Rowboats|
 T Thar She Blows!|QID|51441|M|87.28,50.00|Z|Tiragarde Sound|N|To Shadow Hunter Ty'jin.|
 T A Change in Direction|QID|51440|M|87.31,49.98|Z|Tiragarde Sound|N|To First Mate Owings.|
-A I'm the Captain Now|QID|51442|M|87.31,49.98|Z|Tiragarde Sound|N|From First Mate Owings.|PRE|51440 & 51441|
+A I'm the Captain Now|QID|51442|M|87.31,49.98|Z|Tiragarde Sound|N|From First Mate Owings.|PRE|51440&51441|
 C I'm the Captain Now|QID|51442|M|86.93,53.13|Z|Tiragarde Sound|N|Kill Captain Rhenik.|
 T I'm the Captain Now|QID|51442|M|87.31,49.98|Z|Tiragarde Sound|N|To First Mate Owings.|
 A Marking Our Territory|QID|51438|M|87.28,50.01|Z|Tiragarde Sound|N|From Shadow Hunter Ty'jin.|PRE|51442|
@@ -496,7 +496,7 @@ C Bridgeport Investigation|QID|51593|M|75.32,51.12|Z|Tiragarde Sound|QO|3|NC|N|S
 C Making Ourselves at Home|QID|51592|M|75.08,51.11|Z|Tiragarde Sound|NC|US|N|Finish collecting the canvas and chain.|
 T Making Ourselves at Home|QID|51592|M|72.02,51.84|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
 T Bridgeport Investigation|QID|51593|M|72.05,51.77|Z|Tiragarde Sound|N|To Lilian Voss.|
-A Explosives in the Foundry|QID|51594|M|72.05,51.77|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51592 & 51593|
+A Explosives in the Foundry|QID|51594|M|72.05,51.77|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51592&51593|
 T Explosives in the Foundry|QID|51594|M|77.51,49.93|Z|Tiragarde Sound|N|To Lilian Voss.|
 A Explosivity|QID|51595|M|77.51,49.93|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51594|
 C Explosivity|QID|51595|M|77.56,49.80|Z|Tiragarde Sound|N|Face the banner at the foundry entrance and use your special action button to test bomb explosiveness.|
@@ -513,7 +513,7 @@ C A Bit of Chaos|QID|51598|M|82.16,48.61|Z|Tiragarde Sound|US|N|Finish killing t
 T Ammunition Acquisition|QID|51596|M|77.50,49.93|Z|Tiragarde Sound|N|To Lilian Voss.|
 T Gunpowder Research|QID|51597|M|77.50,49.93|Z|Tiragarde Sound|N|To Lilian Voss.|
 T A Bit of Chaos|QID|51598|M|77.50,49.93|Z|Tiragarde Sound|N|To Lilian Voss.|
-A Death Trap|QID|51599|M|77.50,49.93|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51596 & 51597 & 51598|
+A Death Trap|QID|51599|M|77.50,49.93|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51596&51597&51598|
 C Death Trap|QID|51599|M|74.24,52.88|Z|Tiragarde Sound|NC|N|Click on all the crates here.|
 T Death Trap|QID|51599|M|77.01,49.19|Z|Tiragarde Sound|N|To Lilian Voss.|
 A The Bridgeport Ride|QID|51601|M|77.01,49.19|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51599|
@@ -541,7 +541,7 @@ C State of Unrest|QID|51786|M|61.20,47.28|Z|Drustvar|US|N|Finish killing your qu
 T Our Lot in Life|QID|51787|M|61.32,51.11|Z|Drustvar|N|To Lilian Voss.|
 T Examining the Epitaphs|QID|51785|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
 T State of Unrest|QID|51786|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
-A The Crypt Keeper|QID|51788|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51785 & 51786 & 51787|
+A The Crypt Keeper|QID|51788|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51785&51786&51787|
 C The Crypt Keeper|QID|51788|M|59.38,49.12|Z|Drustvar|T|Brutus Thornton|N|Find Brutus and kill him to collect the key.|
 T The Crypt Keeper|QID|51788|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
 A What Remains of Marshal M. Valentine|QID|51789|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51788|
@@ -604,7 +604,7 @@ C They Will Know Fear|QID|51805|M|62.62,39.89|Z|Stormsong Valley|US|N|Finish ter
 T They Will Know Fear|QID|51805|M|62.64,31.87|Z|Stormsong Valley|N|To Lilian Voss.|
 T Commander and Captain|QID|51818|M|62.62,31.83|Z|Stormsong Valley|N|To Thomas Zelling.|
 T Scattering Our Enemies|QID|51819|M|62.62,31.82|Z|Stormsong Valley|N|To Rexxar.|
-A Zelling's Potential|QID|51830|M|62.62,31.83|Z|Stormsong Valley|N|From Thomas Zelling.|PRE|51805 & 51818 & 51819|
+A Zelling's Potential|QID|51830|M|62.62,31.83|Z|Stormsong Valley|N|From Thomas Zelling.|PRE|51805&51818&51819|
 C Zelling's Potential|QID|51830|QO|1|M|66.80,42.31|Z|Stormsong Valley|N|Go to Port Fogtide and kill enemies to fill the void font.|
 C Zelling's Potential|QID|51830|QO|2|M|66.80,42.31|Z|Stormsong Valley|NC|N|Use Special Action Button to release Zellings' wind spell and get a ride out of town.|
 T Zelling's Potential|QID|51830|M|62.62,31.83|Z|Stormsong Valley|N|To Thomas Zelling.|
@@ -642,7 +642,7 @@ C Captain By Captain|QID|52769|QO|3|M|66.51,42.33|Z|The Great Sea!Instance!Azero
 C Biolumi-Nuisance|QID|52770|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|US|NC|N|Finish off the quota of Bioluminescent creatures.|
 T Captain By Captain|QID|52769|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|N|Autocompleted|
 T Biolumi-Nuisance|QID|52770|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|N|Autocompleted|
-A The Undersea Ledge|QID|52772|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52769 & 52770|
+A The Undersea Ledge|QID|52772|M|66.51,42.33|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52769&52770|
 T The Undersea Ledge|QID|52772|M|67.77,55.40|Z|The Great Sea!Instance!Azeroth|N|Swim to the next waypoint and the quest will autocomplete.|
 A Water-Breathing Dragon|QID|52773|M|67.77,55.40|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52772|
 K Daenistrasz|QID|52773|QO|1|M|68.33,54.76|Z|The Great Sea!Instance!Azeroth|T|Daenistrasz|N|Kill the water breathing dragon.|ACTIVE|52773|
@@ -674,7 +674,7 @@ K Helmsman Miria|QID|52187|QO|3|M|92.16,79.76;92.38,51.14|CS|Z|Tiragarde Sound|T
 C The Bulk of the Guard|QID|52186|M|91.62,52.14|Z|Tiragarde Sound|US|N|Finish up your quota of guards.|
 T Old Colleagues|QID|52187|M|91.62,52.14;86.95,53.08|CS|Z|Tiragarde Sound|N|Ask Hobart for a ride back to the Harbor, where you will find and turn in quest to Captain Amalia Stone.|
 T The Bulk of the Guard|QID|52186|M|86.92,53.12|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
-A A Well Placed Portal|QID|52185|M|86.92,53.12|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|52187 & 52186|
+A A Well Placed Portal|QID|52185|M|86.92,53.12|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|52187&52186|
 C A Well Placed Portal|QID|52185|M|86.98,52.51|Z|Tiragarde Sound|N|Take the portal, located just in a small shed, just outside and to your left.|
 T A Well Placed Portal|QID|52185|M|71.19,84.76|Z|Boralus|N|To Thomas Zelling.|
 A Relics of Ritual|QID|52184|M|71.19,84.76|Z|Boralus|N|From Thomas Zelling.|PRE|52185|
@@ -690,7 +690,7 @@ C Forfeit Souls|QID|52189|M|65.06,81.19|Z|Boralus|US|N|Finish up your quota of T
 T Relics of Ritual|QID|52184|M|71.13,84.88|Z|Boralus|N|To Thomas Zelling.|
 T Forfeit Souls|QID|52189|M|71.13,84.88|Z|Boralus|N|To Thomas Zelling.|
 T Tidesage Teachings|QID|52188|M|71.13,84.88|Z|Tiragarde Sound|N|To Thomas Zelling.|
-A Gaining the Upper Hand|QID|52190|M|71.19,84.76|Z|Boralus|N|From Thomas Zelling.|PRE|52184 & 52188 & 52189|
+A Gaining the Upper Hand|QID|52190|M|71.19,84.76|Z|Boralus|N|From Thomas Zelling.|PRE|52184&52188&52189|
 C Gaining the Upper Hand|QID|52190|QO|1|M|71.19,84.76|Z|Boralus|CHAT|N|Tell Zelling you are ready|
 C Gaining the Upper Hand|QID|52190|QO|2|M|71.12,82.54|Z|Boralus|NC|N|Go up the stairs to get outside and find the building next to you. Go DOWN into its basement and click on the Key of the Sea, in the scrying dish, to begin the ritual.|
 C Gaining the Upper Hand|QID|52190|QO|3|M|71.12,82.54|Z|Boralus|N|Kill the things that attack to protect Zelling while he performs the ritual.|

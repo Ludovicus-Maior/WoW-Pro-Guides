@@ -400,7 +400,7 @@ C Frenzied Furbolgs|QID|38455|M|46.95,84.40|US|N|Finish killing the Smolderhide 
 T Totemic Call|QID|38246|M|48.39,84.63|N|To Elder Sookh.|
 T The Chieftain's Beads|QID|38146|M|48.39,84.63|N|To Elder Sookh.|
 T Frenzied Furbolgs|QID|38455|M|49.09,82.36|N|To Rylissa Bearsong.|
-A Awakening the Archdruid|QID|38143|PRE|38146 & 38246 & 38455|M|49.09,82.36|N|From Rylissa Bearsong.|
+A Awakening the Archdruid|QID|38143|PRE|38146&38246&38455|M|49.09,82.36|N|From Rylissa Bearsong.|
 $ Treasure|QID|38886|M|49.44,85.21;48.99,86.14|CS|N|Loot for treasure and resources.|RANK|2|
 T Awakening the Archdruid|QID|38143|M|63.00,48.24;60.50,17.55|CS|Z|1018/14|N|To Koda Steelclaw.|
 A Out of the Dream|QID|38145|PRE|38143|M|60.50,17.55|Z|1018/14|N|From Koda Steelclaw.|
@@ -410,7 +410,7 @@ C Out of the Dream|QID|38145|M|48.99,69.91|Z|1018/14|NC|N|Wake up the Druids.|
 C The Demons Below|QID|38144|M|48.99,69.91|Z|1018/14|US|N|Finish your demon quota.|
 T The Demons Below|QID|38144|M|62.53,48.82|Z|1018/14|N|To Koda Steelclaw.|
 T Out of the Dream|QID|38145|M|62.53,48.82|Z|1018/14|N|To Koda Steelclaw.|
-A Entangled Dreams|QID|38147|PRE|38145 & 38144|M|62.53,48.82|Z|1018/14|N|From Koda Steelclaw.|
+A Entangled Dreams|QID|38147|PRE|38145&38144|M|62.53,48.82|Z|1018/14|N|From Koda Steelclaw.|
 C Entangled Dreams|QID|38147|M|59.84,83.58|Z|1018/14|T|Morphael|N|Kill Morphael|
 T Entangled Dreams|QID|38147|M|48.85,81.52|N|To Koda Steelclaw.|
 
@@ -430,7 +430,7 @@ C Wretched Sisters-Bonus Objective|QID|38372|M|47.25,69.79|US|N|Finish or check 
 t Wretched Sisters-Bonus Objective|QID|38372|M|45.31,73.90|N|Auto turned in when you complete it.|RANK|2|
 T Solid as a Rock|QID|38235|M|48.89,70.22|N|To Elothir.|
 T Death to the Witchmother|QID|38225|M|48.89,70.22|N|To Elothir.|
-A Return to the Grove|QID|38322|PRE|38147 & 40573 & 38235 & 38225|M|48.89,70.22|N|From Elothir.|
+A Return to the Grove|QID|38322|PRE|38147&40573&38235&38225|M|48.89,70.22|N|From Elothir.|
 A Wisp in the Willows|QID|39354|PRE|38384|M|54.28,68.28|N|From Syndrelle.|RANK|3|
 C Wisp in the Willows|QID|39354|M|54.31,68.22|QO|1|NC|N|Click on the wisp to bond.|RANK|2|
 C Wisp in the Willows|QID|39354|M|49.28,63.90|QO|2|NC|N|The wisp will go unerringly to the pools, and then try to get eaten by fish, you need to steer it away from the water circles, and stop at each seedling tree.  Press the "1" key to grow the trees.|RANK|2|
@@ -509,7 +509,7 @@ T The Farmsteads|QID|38644|M|42.36,59.02|N|To Mayor Heathrow.|
 T Children of the Night|QID|38645|M|42.47,58.99|N|To Commander Jarod Shadowsong.|
 T The Warden's Signet|QID|38711|M|42.47,58.99|N|To Commander Jarod Shadowsong.|
 
-A Jarod's Mission|QID|38691|PRE|38647 & 38646 & 38644 & 38645 & 38711 & 39117|M|42.48,58.96|N|From Commander Jarod Shadowsong.|
+A Jarod's Mission|QID|38691|PRE|38647&38646&38644&38645&38711&39117|M|42.48,58.96|N|From Commander Jarod Shadowsong.|
 C Jarod's Mission|QID|38691|M|42.47,58.93|N|Tell Jarod Shadowsong you are ready to ride.|CHAT|
 T Jarod's Mission|QID|38691|M|40.85,53.01|N|To Commander Jarod Shadowsong.|
 A Kur'talos Ravencrest|QID|38718|PRE|38691|M|40.85,53.01|N|From Commander Jarod Shadowsong.|
@@ -532,7 +532,7 @@ K Kill Darkshade|QID|38767|L|130166|M|43.30,53.88|T|Darkshade|N|Kill and loot fo
 U Risen Saber Kitten|QID|38767|U|130166|M|43.30,53.88|N|Click the kitten to add to your pet journal.|RARE|;unable to find correct QID
 T Maiev's Trail|QID|38714|M|43.82,50.29|N|To Commander Jarod Shadowsong.|
 T The Rook's Guard|QID|38715|M|43.82,50.29|N|To Commander Jarod Shadowsong.|
-A Black Rook Prison|QID|38717|PRE|38714 & 38715|M|43.82,50.29|N|From Commander Jarod Shadowsong.|
+A Black Rook Prison|QID|38717|PRE|38714&38715|M|43.82,50.29|N|From Commander Jarod Shadowsong.|
 $ Treasure|QID|39084|M|43.22,54.87|N|Slight detour while you are following Commander Shadowsong to loot this chest for a bit of treasure and resources.|RANK|2|
 C Black Rook Prison|QID|38717|M|42.22,46.43|N|Kill Araxxas and loot the Prison Keys.|T|Araxxas|
 C Black Rook Hold-Bonus Objective|QID|38716|M|43.35,53.18|US|N|Optional - Complete before you leave the area.|
@@ -578,7 +578,7 @@ C Wormtalon Wreckage|QID|41707|M|66.86,50.18|S|N|As you go about your other task
 C Dark Side of the Moon|QID|41890^41708|M|67.14,50.45|QO|1|N|Meet Tyrande in Shadowfen.|
 C Dark Side of the Moon|QID|41890^41708|M|66.87,50.12|QO|2|CHAT|N|Tell Tyrande that you are ready to guard her during her vigil, then kill the harpys that show up.|
 T Dark Side of the Moon|QID|41890^41708|M|66.93,50.14|N|To Tyrande Whisperwind.|
-A Regroup at the Refuge|QID|43576|PRE|41890 & 41708|M|66.93,50.14|N|From Tyrande Whisperwind.|
+A Regroup at the Refuge|QID|43576|PRE|41890&41708|M|66.93,50.14|N|From Tyrande Whisperwind.|
 C Lost in Retreat|QID|38671|M|65.12,51.22|NC|S|N|Pick up the Shadowfen Heirlooms|
 $ Treasure|QID|38355|M|64.70,51.25|N|Loot for a bit of treasure and resources.|RANK|2|
 K Kill Grelda the Hag|QID|40126|QO|1|M|65.8,53.45|ITEM|130122|T|Grelda the Hag|N|Kill and loot for a bit of treasure and resources|RANK|2|RARE|
@@ -588,11 +588,11 @@ C Wormtalon Wreckage|QID|41707|M|66.86,50.18|US|N|Finish up killing Wormtalons.|
 T Lost in Retreat|QID|38671|M|69.44,49.38|N|To Mender Onelle.|
 T Wormtalon Wreckage|QID|41707|M|69.47,49.33|N|To Aldos Duskwing.|
 T Regroup at the Refuge|QID|43576|M|69.55,49.53|N|To Tyrande Whisperwind.|
-A Heart of the Nightmare|QID|38675^41724|PRE|41708 & 41890|M|69.55,49.53|N|From Tyrande Whisperwind.|
+A Heart of the Nightmare|QID|38675^41724|PRE|41708&41890|M|69.55,49.53|N|From Tyrande Whisperwind.|
 C Heart of the Nightmare|QID|38675^41724|M|68.49,49.68;69.57,49.46|CS|NC|N|Splashes of Blood mark Malfurion's Trail.|
 T Heart of the Nightmare|QID|38675^41724|M|66.22,44.79|N|To Tyrande Whisperwind.|
-A Reading the Leaves|QID|38684|PRE|38675 & 41724|M|66.21,44.53|N|From Elothir.|
-A Given to Corruption|QID|41893^41749|PRE|38675 & 41724|M|66.21,44.53|N|From Elothir.|
+A Reading the Leaves|QID|38684|PRE|38675&41724|M|66.21,44.53|N|From Elothir.|
+A Given to Corruption|QID|41893^41749|PRE|38675&41724|M|66.21,44.53|N|From Elothir.|
 $ Purging the River|QID|39130|M|67.50,45.07|T|Pollous the Fetid|N|Kill the elemental for treasure and resources.|RANK|2|;on beta (when it wasnt broken) Talk to Flandras Mistcaller to start the vignette. Flandras now MIA
 C Reading the Leaves|QID|38684|M|68.10,35.48|S|N|Kill 'Twisted' mobs to collect corrupted petals|
 $ Treasure|QID|39108|M|66.60,42.77;66.56,40.91|CS|N|Follow the path up to an outcropping overlooking the waterfall. Loot for a bit of treasure and resources.|RANK|2|
@@ -610,7 +610,7 @@ t Flow of the Nightmare-Bonus Objective|QID|43241|M|66.86,46.11|N|Auto-turned in
 T Reading the Leaves|QID|38684|M|66.20,44.52|N|To Elothir.|
 T Given to Corruption|QID|41749^41893|M|66.20,44.52|N|To Elothir.|
 
-A Softening the Target|QID|43702|PRE|38684 & 41893|M|66.20,44.76|N|From Tyrande Whisperwind.|
+A Softening the Target|QID|43702|PRE|38684&41893|M|66.20,44.76|N|From Tyrande Whisperwind.|
 C Softening the Target|QID|43702|M|66.34,44.85|N|Hop on the bat for a bombing run.|
 A Ruins of Shala'nir-Bonus Objective|QID|38748|PRE|43702|M|63.28,42.07|N|Auto Accepted upon entering the area.|RANK|2|LVL|-109|
 C Ruins of Shala'nir-Bonus Objective|QID|38748|M|63.28,42.07|S|N|Kill mobs and destroy nightmare totems to complete the objective.|RANK|2|
@@ -628,7 +628,7 @@ C Close Enough to Touch|QID|38687^41763|M|58.47,37.71|NC|QO|5|N|Find Malfurion|
 C Ruins of Shala'nir-Bonus Objective|QID|38748|M|61.52,35.71|US|N|Stay and finish if you want to.|RANK|2|
 t Ruins of Shala'nir-Bonus Objective|QID|38748|M|61.52,35.71|N|Auto Turned in when completed.|RANK|2|
 T Close Enough to Touch|QID|38687^41763|M|57.81,38.58|N|To Tyrande Whisperwind.|
-A The Fate of Val'sharah|QID|38743|PRE|38687 & 41763|M|57.81,38.58|N|From Tyrande Whisperwind.|
+A The Fate of Val'sharah|QID|38743|PRE|38687&41763|M|57.81,38.58|N|From Tyrande Whisperwind.|
 C The Fate of Val'sharah|QID|38743|M|57.81,38.58|QO|1|N|Speak to Tyrande|CHAT|
 C The Fate of Val'sharah|QID|38743|M|53.67,55.90|QO|2|N|Fight Ysera to wake her from the nightmare.|
 T The Fate of Val'sharah|QID|38743|M|53.69,55.90|N|To Tyrande Whisperwind.|
@@ -652,8 +652,8 @@ A Class Specific Quest|QID|44550^44087^42666^42516^42517^42481^42175^42186^42844
 C The Tears of Elune|QID|40890|M|49.36,47.34|Z|Dalaran!Dalaran!Dungeon|NC|N|Central Dalaran teleport used|
 T The Tears of Elune|QID|40890|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Tears of Elune" on the wall.|
 A Pressing the Assault|QID|44545|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|40890|
-A Isle Hopping|QID|44547|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213 & 44545|
-A Scouring What Remains|QID|44548|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213 & 44547|
+A Isle Hopping|QID|44547|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213&44545|
+A Scouring What Remains|QID|44548|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213&44547|
 C Pressing the Assault|QID|44545|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
 C Isle Hopping|QID|44547|NC|N|Go to your order hall and choose the next strike point at your scouting map.|
 C Scouring What Remains|QID|44548|NC|N|Go to your order hall and choose the last strike point at your scouting map.|

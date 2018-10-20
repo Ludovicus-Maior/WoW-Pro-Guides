@@ -218,7 +218,7 @@ C The Muck Stops Here|QID|39843|M|52.26,60.07|Z|The Underbelly@Dalaran70|QO|1|US
 T One Mage's Trash|QID|39842|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
 T The Muck Stops Here|QID|39843|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
 T Cold Hard Coin|QID|39844|M|66.85,17.49|Z|The Underbelly@Dalaran70|N|To Oxana Demonslay.|
-A The Obliterum Forge|QID|39845|PRE|39842 & 39843 & 39844|M|67.46,18.13|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
+A The Obliterum Forge|QID|39845|PRE|39842&39843&39844|M|67.46,18.13|Z|The Underbelly@Dalaran70|N|From Oxana Demonslay.|
 C The Obliterum Forge|QID|39845|M|42.28,28.92|Z|Dalaran!Dalaran!Dungeon|QO|1|N|1/1 Finalize Obliterum Forge|
 T The Obliterum Forge|QID|39845|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Karlain.|
 A Fire it Up|QID|41778|PRE|39845|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Karlain.|

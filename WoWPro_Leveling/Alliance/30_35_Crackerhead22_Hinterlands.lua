@@ -147,7 +147,7 @@ C Razorbeak Friends|QID|26546|U|58935|M|15.43,52.23;23.26,54.02|CN|N|Target a Tr
 C A Mangy Threat|QID|26547|M|21.00,53.91|N|Finish killing the wolves as you make your way back to Aerie Peak.|US|
 T Razorbeak Friends|QID|26546|M|9.97,44.27|N|To Gryphon Master Talonaxe.|
 T A Mangy Threat|QID|26547|M|9.97,44.27|N|To Gryphon Master Talonaxe.|
-A Out to the Front|QID|26548|PRE|26546 & 26547|M|9.97,44.27|N|From Gryphon Master Talonaxe.|
+A Out to the Front|QID|26548|PRE|26546&26547|M|9.97,44.27|N|From Gryphon Master Talonaxe.|
 
 F Stormfeather Outpost|QID|26548|M|11.11,46.09|N|Talk to Guthrum Thunderfist, and choose to go to Stormfeather Outpost.|
 f Stormfeather Outpost|QID|26548|M|65.74,44.94|N|At Brock Rockbeard.|
@@ -169,12 +169,12 @@ C Snapjaws, Lad!|QID|26485|US|M|77.34,70.34|N|Finish killing and looting the Sal
 H Stormfeather Outpost|QID|26485|M|76.56,60.89;72.46,66.43;66.28,45.13|CC|N|Hearthstone back to Stormfeather Outpost, or follow the waypoints to get back to Stormfeather Outpost.|
 T The Wicked Revantusk|QID|26462|M|66.30,44.36|N|To Kerr Ironsight.|
 T Gan'dranda|QID|26483|M|66.30,44.36|N|To Kerr Ironsight.|
-A Skulk Rock Clean-Up|QID|26491|PRE|26462 & 26483|M|66.30,44.36|N|From Kerr Ironsight.|
-A Skulk Rock Supplies|QID|26492|PRE|26462 & 26483|M|66.30,44.36|N|From Kerr Ironsight.|
+A Skulk Rock Clean-Up|QID|26491|PRE|26462&26483|M|66.30,44.36|N|From Kerr Ironsight.|
+A Skulk Rock Supplies|QID|26492|PRE|26462&26483|M|66.30,44.36|N|From Kerr Ironsight.|
 r Repair and Sell Junk|QID|26485|N|Excellent opportunity to repair and sell your junk with Brannik Ironbelly|M|66.61,44.16|
 T Snapjaws, Lad!|QID|26485|M|66.27,44.36|N|To Dron Blastbrew.|
 T 99 Bottles of Booze on the Beach|QID|26486|M|66.27,44.36|N|To Dron Blastbrew.|
-A Prime Slime|QID|26490|PRE|26462 & 26483|M|66.27,44.36|N|From Dron Blastbrew.|
+A Prime Slime|QID|26490|PRE|26462&26483|M|66.27,44.36|N|From Dron Blastbrew.|
 
 R Skulk Rock |QID|26490|M|57.42,38.67|N|Head to Skulk Rock, then to the cave entrance near the river.|
 C Skulk Rock Supplies|QID|26492|M|57.80,41.44|N|Look around inside the cave to find the Ooze-Coated Supply Crates.|S|NC|
@@ -185,7 +185,7 @@ C Skulk Rock Clean-Up|QID|26491|M|58.29,40.76|N|Head back outside to finish kill
 T Skulk Rock Clean-Up|QID|26491|M|66.31,44.39|N|To Kerr Ironsight.|
 T Skulk Rock Supplies|QID|26492|M|66.31,44.39|N|To Kerr Ironsight.|
 
-A Down with the Vilebranch|QID|26496|LEAD|26497|PRE|26491 & 26492|M|66.31,44.39|N|From Kerr Ironsight.|
+A Down with the Vilebranch|QID|26496|LEAD|26497|PRE|26491&26492|M|66.31,44.39|N|From Kerr Ironsight.|
 r Repair and Sell Junk|QID|26490|N|Excellent opportunity to repair and sell your junk with Brannik Ironbelly|M|66.61,44.16|
 T Prime Slime|QID|26490|M|66.31,44.39|N|To Dron Blastbrew.|
 T Down with the Vilebranch|QID|26496|M|63.90,59.72|N|To Doran Steelwing.|
@@ -221,7 +221,7 @@ T Ongo'longo's Revenge|QID|26515|M|63.89,59.97|N|To Doran Steelwing.|
 T Death to the Vilebranch|QID|26498|M|63.87,59.99|N|To Doran Steelwing.|
 T Dark Vessels|QID|26524|M|63.83,60.02|N|To Fraggar Thundermantle.|
 A It's Ours Now|QID|26516|PRE|26498|M|63.87,59.99|N|From Doran Steelwing.|
-A Summit of Fate|QID|26517|PRE|26515 & 26524|M|63.83,59.97|N|From Fraggar Thundermantle.|
+A Summit of Fate|QID|26517|PRE|26515&26524|M|63.83,59.97|N|From Fraggar Thundermantle.|
 
 F Jintha'Alor |QID|26517|M|63.90,60.04|N|For the second time, speak to Doran Steelwing and ask for a ride to the top of Jintha'Alor.|
 
@@ -260,8 +260,8 @@ C In Defense of Quel'Danil|QID|27625|US|M|30.74,47.33|N|Kill the Deathstalker In
 T In Defense of Quel'Danil|QID|27625|M|32.19,42.62|N|To Anchorite Traska.|
 T The Highvale Documents|QID|27626|M|32.19,42.62|N|To Anchorite Traska.|
 
-A The Eye of Shadra|QID|26528|PRE|27625 & 27626|M|30.74,47.18|N|From Gilda Cloudcaller inside the lodge.|
-A Can't Make An Omelette Without...|QID|26641|PRE|27625 & 27626|M|30.74,47.18|N|From Gilda Cloudcaller.|
+A The Eye of Shadra|QID|26528|PRE|27625&27626|M|30.74,47.18|N|From Gilda Cloudcaller inside the lodge.|
+A Can't Make An Omelette Without...|QID|26641|PRE|27625&27626|M|30.74,47.18|N|From Gilda Cloudcaller.|
 R Agol'watha|QID|26528|M|47.56,41.83|N|Run to Agol'watha.|
 C Can't Make An Omelette Without...|QID|26641|S|M|46.13,40.36|N|Loot the Shadraspawn Eggs.|NC|
 C The Eye of Shadra|QID|26528|L|58282|M|45.53,38.92|N|Loot The Eye of Shadra.|NC|

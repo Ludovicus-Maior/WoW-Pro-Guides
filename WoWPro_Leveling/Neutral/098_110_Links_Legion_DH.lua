@@ -225,15 +225,15 @@ C Direct Our Wrath|QID|41099^41069|QO|1|N|Select the first questing zone. Val'sh
 T Direct Our Wrath|QID|41099^41069|M|58.65,57.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
 
 ;Next Artifact quest
-A Rise, Champions|QID|42671|PRE|41069 & 40374|LVL|101|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
-A Rise, Champions|QID|42670|PRE|41099 & 40375|LVL|101|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
+A Rise, Champions|QID|42671|PRE|41069&40374|LVL|101|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
+A Rise, Champions|QID|42670|PRE|41099&40375|LVL|101|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
 A Champion: Asha Ravensong|QID|42697|PRE|41099^41069|LVL|101|M|56.15,38.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Asha Ravensong.|
-A Champion: Altruis the Sufferer|QID|42690|PRE|41099 & 40375|LVL|101|M|58.63,57.75|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer.|
-A Champion: Kayn Sunfury|QID|42695|PRE|41069 & 40374|LVL|101|M|58.63,57.75|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kayn Sunfury.|
+A Champion: Altruis the Sufferer|QID|42690|PRE|41099&40375|LVL|101|M|58.63,57.75|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer.|
+A Champion: Kayn Sunfury|QID|42695|PRE|41069&40374|LVL|101|M|58.63,57.75|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kayn Sunfury.|
 T Rise, Champions|QID|42671|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Kor'vas Bloodthorn.|
 T Rise, Champions|QID|42670|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Kor'vas Bloodthorn.|
 
-A Things Gaardoun Needs|QID|44161^42677|PRE|42670 & 42671|LVL|101|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
+A Things Gaardoun Needs|QID|44161^42677|PRE|42670&42671|LVL|101|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
 C Things Gaardoun Needs|QID|44161^42677|M|58.12,54.02|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|QO|1|N|Use Scouting Map to complete Mission 'Thing Gaardoun Needs'|
 T Things Gaardoun Needs|QID|44161^42677|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Kor'vas Bloodthorn.|
 A Broken Warriors|QID|42679|PRE|44161^42677|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
@@ -401,15 +401,15 @@ C Missions|QID|42669|M|58.12,54.02|Z|Upper Command Center!Mardum, the Shattered 
 C World Quests|QID|44694|QO|1|N|Go out into the world and do 10 World Quests. Be sure to return command table when missions are ready.|US|
 T Preparations for Invasion|QID|42669|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Allari the Souleater, downstairs.|
 T One Battle at a Time|QID|44694|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Allari the Souleater, downstairs.|
-A Deadlier Warglaives|QID|42732|PRE|42669 & 44694|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Allari the Souleater, downstairs.|
-A A Very Special Kind of Fuel|QID|42733|PRE|42669 & 44694|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Allari the Souleater, downstairs.|
+A Deadlier Warglaives|QID|42732|PRE|42669&44694|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Allari the Souleater, downstairs.|
+A A Very Special Kind of Fuel|QID|42733|PRE|42669&44694|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Allari the Souleater, downstairs.|
 C Sovereign Souls|QID|42733|QO|1|N|Do some Legion Dungeons and collect Souls.\nVault of the Wardens, Halls of Valor, Eye of Azshara have 5 bosses each.|S|
 C Obliterum|QID|42732|QO|1|N|Collect 1 Obliterum, which can be obtained either the Forge of Fate in Dalaran or from the Auction House.|
 C Sovereign Souls|QID|42733|QO|1|N|Do some Legion Dungeons and collect Souls.\nVault of the Wardens, Halls of Valor, Eye of Azshara have 5 bosses each.|US|
 T Deadlier Warglaives|QID|42732|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Jace Darkweaver, downstairs.|
 T A Very Special Kind of Fuel|QID|42733|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Jace Darkweaver, downstairs.|
 
-A Jump-Capable|QID|42754|PRE|42732 & 42733|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Jace Darkweaver, downstairs.|
+A Jump-Capable|QID|42754|PRE|42732&42733|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Jace Darkweaver, downstairs.|
 P Portal in Felsoul Hold|ACTIVE|42754|QO|1|M|31.4,83.6;26.8,49.1|Z|Azsuna|CS|N|Head to this building in Felsoul Hold and take the portal inside.|
 C Fel Engine Ignition|QID|42754|QO|2|M|28.5,52.2|Z|Azsuna|N|Run downstairs and find Inquisitor Tivos. The item is behind his altar.|
 C Vile Spirit Converter|QID|42754|QO|3|M|32.5,53.8|Z|Azsuna|N|Head outside and to the "Soul Engine: Apocalypse" building.  The item is near the central reactor.|
@@ -446,7 +446,7 @@ C Caria and Varedis At Last|M|73.14,77.07|Z|Niskara|SO|6|N|Kill Caria and Varedi
 C Malevolence, Get Us Out of Here!|M|73.03,77.86|Z|Niskara|SO|7|N|Speak with Kayn Sunfury|
 T The Invasion of Niskara|QID|42809^42920|M|58.00,58.70|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer / Kayn Sunfury.|
 
-A Last, But Not Least|QID|42132|PRE|42809 & 42920|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer / Kayn Sunfury.|
+A Last, But Not Least|QID|42132|PRE|42809&42920|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer / Kayn Sunfury.|
 C Allari the Souleater|QID|42132|QO|1|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|CHAT|N|Recruit Allari the Souleater, downstairs.|
 C Jace Darkweaver|QID|42132|QO|2|M|59.00,72.10|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|CHAT|N|Recruit Jace Darkweaver, downstairs.|
 T Last, But Not Least|QID|42132|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer / Kayn Sunfury.|

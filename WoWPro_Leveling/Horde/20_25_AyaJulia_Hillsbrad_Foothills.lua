@@ -170,7 +170,7 @@ T For Science!|QID|28199|M|36.34,60.25|N|To Flesh-Shaper Arnauld.|
 T Discretion is Key|QID|28197|M|36.18,61.14|N|To Warden Stillwater.|
 T The Battle for Hillsbrad|QID|28196|M|36.18,61.14|N|To Warden Stillwater.|
 
-A Little Girl Lost|QID|28206|M|36.18,61.14|N|From Warden Stillwater.|PRE|28196 & 28197 & 28199|
+A Little Girl Lost|QID|28206|M|36.18,61.14|N|From Warden Stillwater.|PRE|28196&28197&28199|
 T Little Girl Lost|QID|28206|M|40.32,59.40|N|To Johnny Awesome.|
 A Freedom for Lydon|QID|28209|M|40.31,59.30|N|From Master Apothecary Lydon.|PRE|28206|
 C Freedom for Lydon|QID|28209|M|39.13,60.07|N|Kill and loot the Infected Sludge Guards until Lydon's Cage Key drops.|
@@ -183,7 +183,7 @@ T Protocol|QID|28230|N|To Master Apothecary Lydon who is with you.|
 C Do it for Twinkles|QID|28231|M|38.15,56.46|N|Kill the Blacksmith Verringtain.|
 T Do it for Twinkles|QID|28231|N|To Johnny Awesome.|
 
-A Burnside Must Fall|QID|28235|N|From Master Apothecary Lydon who is with you.|PRE|28231 & 28230|
+A Burnside Must Fall|QID|28235|N|From Master Apothecary Lydon who is with you.|PRE|28231&28230|
 C Burnside Must Fall|QID|28235|M|36.52,58.04|N|Head to Magristrate Burnside, he will come down from his bubble. Kill him.|
 T Burnside Must Fall|QID|28235|N|To Master Apothecary Lydon who is with you.|
 
@@ -225,7 +225,7 @@ T Preemptive Strike|QID|28356|M|49.15,66.34|N|To Helcular.|
 
 T Helcular's Rod Giveth...|QID|28331|M|49.15,66.34|N|To Helcular.|
 T Helcular's Command|QID|28332|M|49.15,66.34|N|To Helcular.|
-A Can You Smell What the Lok'tar is Cooking?|QID|28344|LEAD|28345|M|49.15,66.34|N|From Helcular.|PRE|28331 & 28332 & 28096|
+A Can You Smell What the Lok'tar is Cooking?|QID|28344|LEAD|28345|M|49.15,66.34|N|From Helcular.|PRE|28331&28332&28096|
 T Can You Smell What the Lok'tar is Cooking?|QID|28344|M|49.56,74.37|N|To Kingslayer Orkus.|
 
 A *Gurgle* HELP! *Gurgle*|QID|28345|M|49.56,74.37|N|From Kingslayer Orkus.|PRE|28096|
@@ -312,7 +312,7 @@ C Captain Crudbeard|QID|28603|M|44.08,50.47|QO|3|; Captain Crudbeard slain: 1/1
 C Deception and Trickery|QID|28604|US|N|Use the barrel whenever you're near a group of trainees.|U|64583|
 T Infiltration|QID|28603|N|To Lilith.|
 T Deception and Trickery|QID|28604|N|To Lilith.|
-A Domination|QID|28605|N|From Lilith.|PRE|28603 & 28604|
+A Domination|QID|28605|N|From Lilith.|PRE|28603&28604|
 R Gavin's Naze|QID|28605|M|41.62,47.34|
 C Domination|QID|28605|M|39.44,48.93|S|
 C Pocket-Nuke Armed at Gavin's Naze|QID|28556|M|39.44,48.93|QO|1|U|64471|; Pocket-Nuke Armed at Gavin's Naze: 1/1
@@ -335,7 +335,7 @@ T Lawn of the Dead|QID|28748|M|33.53,49.35|N|To Brazie the Botanist.|O|
 H Tarren Mill|QID|28616|N|If your hearthstone is down, run to Southpoint Gate and fly.|
 T Domination|QID|28605|M|57.26,46.34|N|To Melisara.|
 T Breaking the Hand|QID|28556|M|57.08,46.24|N|To High Warlord Cromush.|
-A Stormpike Apocalypse|QID|28616|M|57.08,46.24|N|From High Warlord Cromush.|PRE|28605 & 28556|
+A Stormpike Apocalypse|QID|28616|M|57.08,46.24|N|From High Warlord Cromush.|PRE|28605&28556|
 T Stormpike Apocalypse|QID|28616|M|57.03,46.26|N|To High Warlord Cromush.|
 f Eastpoint Tower|QID|28635|M|59.61,63.24|N|At Darren Longfellow.|
 A A Haunting in Hillsbrad|QID|28635|M|59.99,63.34|N|From Captain Jekyll.|

@@ -188,7 +188,7 @@ return [[
 N Welcome to Nagrand|QID|36601^36606|N|If you want the rare elite and treasures included in this guide, please set your Rank to 3.|
 
 T News from Nagrand|QID|36601^36606|M|38.36,36.75|Z|Lunarfall|N|To Bodrick Grey at your Garrison.|U|110560|
-A Taking the Fight to Nagrand|QID|34674^37184|PRE|36601 & 36606|M|38.36,36.75|Z|Lunarfall|N|From Bodrick Grey at your G arrison.|U|110560|
+A Taking the Fight to Nagrand|QID|34674^37184|PRE|36601&36606|M|38.36,36.75|Z|Lunarfall|N|From Bodrick Grey at your G arrison.|U|110560|
 
 F Nagrand|ACTIVE|34674^37184|M|47.90,49.72|Z|Lunarfall|CHAT|N|Speak with Dungar Longdrink and tell him you need a flight to the border of Nagrand.|
 K Grizlemaw|AVAILABLE|35784|M|89.46,72.93|N|*Rare Kill*\nOn the path to your left. Drops Grizzled Wolfskin Cloak worth 22g.|RARE|
@@ -226,7 +226,7 @@ C The Others |QID|34718|M|65.27,65.05|N|Speak to Arbiter Khan to check for a pul
 
 T The Others |QID|34718|N|To Vindicator Mo'mor|M|66.74,68.64|
 T ... and My Hammer |QID|34719|N|To Vindicator Mo'mor|M|66.74,68.64|
-A Shields Down! |QID|34746|N|From Vindicator Mo'mor|M|66.74,68.64|PRE|34718 & 34719|
+A Shields Down! |QID|34746|N|From Vindicator Mo'mor|M|66.74,68.64|PRE|34718&34719|
 C Shields Down! |QID|34746|N|Click on the Arkonite Crystal to destroy it|QO|1|NC|M|66.80,65.50|
 C Shields Down! |QID|34746|N|Wait a moment for Packleader Karagora to spawn, then kill and loot him for the Garrison Blueprints|QO|2|
 
@@ -376,7 +376,7 @@ C Not Without My Honor|QID|34955|US|NC|M|84.88,55.33;84.88,55.32;85.83,57.14;87.
 T The Blade Itself|QID|34954|M|85.44,54.60|N|To Lantresor of the Blade.|
 T Not Without My Honor|QID|34955|M|85.44,54.60|N|To Lantresor of the Blade.|
 
-A Meet Me in the Cavern|QID|34956|PRE|34954 & 34955|M|85.44,54.60|N|From Lantresor of the Blade.|
+A Meet Me in the Cavern|QID|34956|PRE|34954&34955|M|85.44,54.60|N|From Lantresor of the Blade.|
 C The Friend o' My Enemy|QID|34952|M|85.42,55.30|N|Finish this up before you go in the Cavern as the ones inside don't count and when you come out you will be neutral to them.|US|
 T Meet Me in the Cavern|QID|34956|M|89.99,55.94|N|To Lantresor of the Blade.|Z|The Master's Cavern@NagrandDraenor|
 
@@ -411,8 +411,8 @@ C A Lesson in Mineralogy|QID|34809|N|Kill and loot the Raging Crusher for the Ea
 T A Lesson in Mineralogy|QID|34809|N|To Gold-O-Matiuc 9000|M|71.05,52.32|
 T Good Help is Hard to Find |QID|34811|N|To Trixi Leroux|M|71.11,52.42|
 
-A A Lesson in Teamwork |QID|35663|N|From Gazmolf Futzwangler|M|71.13,52.35|PRE|34809 & 34811|
-A A Lesson in Archaeology |QID|35632|N|From Gazmolf Futzwangler|M|71.13,52.35|PRE|34809 & 34811|
+A A Lesson in Teamwork |QID|35663|N|From Gazmolf Futzwangler|M|71.13,52.35|PRE|34809&34811|
+A A Lesson in Archaeology |QID|35632|N|From Gazmolf Futzwangler|M|71.13,52.35|PRE|34809&34811|
 
 R Vault of the Titan |ACTIVE|35663|N|Head to the Vault of the Titan.|M|73.39,49.62;68.62,45.01;66.80,49.69;67.20,49.55|CS|
 l Highmaul Sledge |QID|36039|M|67.39,49.09|N|Up on the side under the flag. Gives a 605 Str/Stam ring.|RANK|3|
@@ -459,7 +459,7 @@ C A Fascinating Fungus |QID|36284|N|Finish looting from the ground, or killing a
 
 T The Search For Research |QID|36275|N|To Dr. Hadley Ricard|M|86.64,28.33|
 T A Fascinating Fungus |QID|36284|N|To Dr. Hadley Ricard|M|86.64,28.33|
-A Dirgemire |QID|36285|N|From Dr. Hadley Ricard|M|86.64,28.33|PRE|36275 & 36284|
+A Dirgemire |QID|36285|N|From Dr. Hadley Ricard|M|86.64,28.33|PRE|36275&36284|
 
 R Decaying Grotto|M|86.41,16.19|ACTIVE|36285|N|Head to the Decaying Grotto, this is an underwater cavern.|
 C Dirgemire |QID|36285|N|Kill and loot Dirgemire for the Fungal Brain.|M|84.34,17.23|
@@ -507,9 +507,9 @@ T Silence the War Machines |QID|35067|N|To Captain "Victorious" Chong|M|62.13,40
 T If They Won't Surrender... |QID|35068|N|To Captain "Victorious" Chong|M|62.13,40.43|
 
 T The Pride of Lok-rath |QID|35061|N|To Yrel at Yrel's Watch.|M|61.98,40.54|
-A Lok-rath is Secured |QID|35062|N|From Yrel.|M|61.98,40.54|PRE|35061 & 35067 & 35068|
+A Lok-rath is Secured |QID|35062|N|From Yrel.|M|61.98,40.54|PRE|35061&35067&35068|
 
-A THAELIN! |QID|35140|N|From Yrel.|M|61.98,40.54|PRE|35061 & 35067 & 35068|
+A THAELIN! |QID|35140|N|From Yrel.|M|61.98,40.54|PRE|35061&35067&35068|
 C THAELIN! |QID|35140|N|Click on the Baby Goren to capture them.  Or use the target button and your interact button (";" for me).|NC|M|62.00,40.50|T|Baby Goren|
 T THAELIN! |QID|35140|N|To Yrel.|M|61.98,40.54|
 
@@ -574,7 +574,7 @@ T Earth, Wind and Fire...and Water|QID|34881|M|71.34,17.86|N|To Incineratus|
 T A Wrong of Earth and Fire|QID|33928|M|71.34,17.86|N|To Incineratus|
 T Guardians of the Plateau|QID|34893|M|71.34,17.86|N|To Incineratus|
 
-A The Ritual of Binding|QID|35330|PRE|34941 & 35333 & 34881 & 34893|M|71.72,19.65|N|From Vindicator Nobundo|
+A The Ritual of Binding|QID|35330|PRE|34941&35333&34881&34893|M|71.72,19.65|N|From Vindicator Nobundo|
 C The Ritual of Binding|QID|35330|M|72.6,19.6|CHAT|N|Chat with Kalandrios to start the ritual.|
 T The Ritual of Binding|QID|35330|M|71.72,19.65|N|To Vindicator Nobundo|
 
@@ -594,8 +594,8 @@ K Greyseer|QID|35397|M|66.30,18.00|QO|1|Z|The Underpale@NagrandDraenor|N|Head to
 
 T The Pale Threat|QID|35397|M|46.12,32.83|Z|The Underpale@NagrandDraenor|N|To Vindicator Nobundo, in the cave.|
 T Dark Binding |QID|35398|M|46.12,32.83|Z|The Underpale@NagrandDraenor|N|To Vindicator Nobundo, in the cave.|
-A The Fate of Gordawg|QID|35395|PRE|35397 & 35398|M|46.12,32.83|Z|The Underpale@NagrandDraenor|N|To Vindicator Nobundo, in the cave.|
-A The Dark Heart of Oshu'gun|QID|35396|PRE|35397 & 35398|M|46.12,32.83|Z|The Underpale@NagrandDraenor|N|To Vindicator Nobundo, in the cave.|
+A The Fate of Gordawg|QID|35395|PRE|35397&35398|M|46.12,32.83|Z|The Underpale@NagrandDraenor|N|To Vindicator Nobundo, in the cave.|
+A The Dark Heart of Oshu'gun|QID|35396|PRE|35397&35398|M|46.12,32.83|Z|The Underpale@NagrandDraenor|N|To Vindicator Nobundo, in the cave.|
 l Heart of the Fury|QID|35395|M|41.0,40.5|Z|The Underpale@NagrandDraenor|QO|1|N|Kill Gordawg and loot the heart.|
 
 C The Dark Heart of Oshu'gun|QID|35396|M|17.50,64.50|Z|The Underpale@NagrandDraenor|QO|1|N|Head into the opening behind Gordawg and keep on going till you see Cho'gall.|
@@ -630,7 +630,7 @@ C Echoes of the Past|QID|35023|M|37.8,56.2|QO|1|N|Tormented Echos's and Void-Cra
 
 T Lighting The Darkness|QID|35022|M|40.43,56.79|N|To Gar'rok|
 T Echoes of the Past|QID|35023|M|40.4,56.6|N|To Dahaka|
-A Golmash Hellscream|QID|35024|PRE|35022 & 35023|M|40.43,56.79|N|From Gar'rok|
+A Golmash Hellscream|QID|35024|PRE|35022&35023|M|40.43,56.79|N|From Gar'rok|
 
 C Golmash Hellscream|QID|35024|M|37.4,55.6|N|Golmash Hellscream, on the third tier.|
 
@@ -639,7 +639,7 @@ T Golmash Hellscream|QID|35024|M|40.4,56.8|N|To Gar'rok|
 C Silence the Call|QID|35084|M|54.2,67.6|QO|2|N|Finish killing Warsong shamans|US|
 T Silence the Call|QID|35084|M|46.73,57.52|N|To Shamanstone|
 T Disrupt the Rituals|QID|35083|M|46.73,57.52|N|To Shamanstone|
-A Through the Nether|QID|35085|PRE|35084 & 35083|M|46.73,57.52|N|To Shamanstone|
+A Through the Nether|QID|35085|PRE|35084&35083|M|46.73,57.52|N|To Shamanstone|
 
 C Nether Beacon|QID|35085|M|48.07,59.05|QO|1|N|Near each set of totems you destroyed, there is a nether beacon.  Click on it.|
 
@@ -656,7 +656,7 @@ K Void Terror|QID|35086|M|51.6,64.8|QO|1|US|
 
 T The Nether Approaches|QID|35087|M|46.81,57.51|N|From Shamanstone|
 T The Void March|QID|35086|M|46.81,57.51|N|From Shamanstone|
-A The Shadow of the Void|QID|35088|PRE|35087 & 35086|M|46.81,57.51|N|From Shamanstone, or the closest one.|
+A The Shadow of the Void|QID|35088|PRE|35087&35086|M|46.81,57.51|N|From Shamanstone, or the closest one.|
 
 C The Shadow of the Void|QID|35088|M|48.09,58.56|QO|1|N|Click on the void crystal at the altar and kill Invalidus|
 

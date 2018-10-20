@@ -249,7 +249,7 @@ C Adherents of the Sun God|QID|34657|M|42.77,14.32|US|N|Finish killing the Adher
 
 T Hidden in Plain Sight|QID|34656|M|43.66,12.91|N|To Reshad.|
 T Adherents of the Sun God|QID|34657|M|43.66,12.91|N|To Reshad.|
-A Orders From On High|QID|34658|M|43.66,12.91|N|From Reshad.|PRE|34656 & 34657|
+A Orders From On High|QID|34658|M|43.66,12.91|N|From Reshad.|PRE|34656&34657|
 C Orders From On High|QID|34658|M|45.80,15.28|T|Sun-Sage Rathyx|N|Kill Sun-Sage Rathyx and loot the orders.|
 T Orders From On High|QID|34658|M|45.38,18.25|N|To Reshad.|
 A The Crone|QID|34659|M|45.38,18.25|N|From Reshad.|PRE|34658|
@@ -273,7 +273,7 @@ C Echo Hunters|QID|34805|M|50.23,39.80|US|N|These are bats, (up in the air), you
 T A Charming Deception|QID|34756|M|48.59,44.48|N|To Reshad.|
 T Syth's Secret|QID|35668|M|48.59,44.48|N|To Reshad.|
 T Echo Hunters|QID|34805|M|48.59,44.48|N|To Reshad.|
-A A Gathering of Shadows|QID|35671|M|48.59,44.48|N|From Reshad.|PRE|35668 & 34805 & 34756|
+A A Gathering of Shadows|QID|35671|M|48.59,44.48|N|From Reshad.|PRE|35668&34805&34756|
 C A Gathering of Shadows|QID|35671|M|46.54,45.59|NC|N|Enter Veil Terokk.|
 T A Gathering of Shadows|QID|35671|M|46.51,45.60|N|To Shadow-Sage Iskar.|
 f Veil Terokk|AVAILABLE|35272^35274|M|46.18,44.13|N|At Skytalon Meshaal.|
@@ -341,7 +341,7 @@ C Prime the Cannons|QID|35408|NC|QO|1|M|37.01,52.45|US|RANK|2|N|Finish picking u
 C Punishable by Death|QID|35407|M|35.58,52.84|US|RANK|2|N|Finish killing Traitors.|
 T Punishable by Death|QID|35407|M|37.70,53.81|N|To Sir Harris.|RANK|2|
 T Prime the Cannons|QID|35408|M|37.65,53.87|N|To Lady Claudia.|RANK|2|
-A Admiral Taylor|QID|35482^36183|M|37.65,53.89|N|From Lady Claudia.|PRE|35407 & 35408|RANK|2|
+A Admiral Taylor|QID|35482^36183|M|37.65,53.89|N|From Lady Claudia.|PRE|35407&35408|RANK|2|
 C Admiral Taylor|QID|35482^36183|M|36.83,57.30|N|Wait for a short scene, then kill the bad guys.|RANK|2|
 T Admiral Taylor|QID|35482^36183|M|36.82,56.92|N|To Admiral Taylor.|RANK|2|
 A Honoring a Hero|QID|35549|M|36.8,56.8|N|From Jasper Fel.|FACTION|Alliance|PRE|35482|RANK|2|
@@ -407,7 +407,7 @@ C Blades in the Dark|QID|34882|T|Malrok Thornscar|M|42.73,26.53|RANK|2|N|Run ove
 C A Feast of Shadows|QID|34883|M|43.46,23.37|US|RANK|2|N|Finish looting Shadow Dust.|
 T Blades in the Dark|QID|34882|M|44.48,24.01|N|To Talonpriest Zellek.|RANK|2|
 T A Feast of Shadows|QID|34883|M|44.48,24.01|N|To Talonpriest Zellek.|RANK|2|
-A Back from Beyond|QID|34942|M|44.48,24.01|N|From Talonpriest Zellek.|PRE|34882 & 34883|RANK|2|
+A Back from Beyond|QID|34942|M|44.48,24.01|N|From Talonpriest Zellek.|PRE|34882&34883|RANK|2|
 A Power Unearthed|QID|35257|M|44.40,23.99|N|From Darkscryer Raastok.|RANK|2|LEAD|35260|
 
 R Apexis Excavation|ACTIVE|35257|M|36.99,24.63|RANK|2|
@@ -430,7 +430,7 @@ C Hot Seat|QID|35273|NC|M|35.48,32.03|N|Hop in the chair and use the abilities t
 C Hardly Working|QID|35260|U|113084|NC|US|M|33.51,25.39|N|The outcasts you are freeing and the apexis guardians exist on all three levels. Visit the cave at ground level first!|RANK|2|
 T Hot Seat|QID|35273|M|36.95,24.44|N|To Kura the Blind.|RANK|2|
 T Legacy of the Apexis|QID|35258|M|36.85,24.52|N|To Darkscryer Raastok.|RANK|2|
-A Control is King|QID|35634|M|36.83,24.53|N|From Darkscryer Raastok.|PRE|35273 & 35258|RANK|2|
+A Control is King|QID|35634|M|36.83,24.53|N|From Darkscryer Raastok.|PRE|35273&35258|RANK|2|
 T Hardly Working|QID|35260|M|36.85,24.52|N|To Darkscryer Raastok.|RANK|2|
 H Southport|ACTIVE|37329^37331|M|36.99,24.63|N|If you hearthstone isnt up or you didn't choose to set it to Southport, you can fly at Skytalon Kuris.|FACTION|Alliance|RANK|2|
 H Axefall|ACTIVE|37328^37330|M|36.99,24.63|N|If you hearthstone isnt up or you didn't choose to set it to Axefall, you can fly at Skytalon Kuris.|FACTION|Horde|RANK|2|
@@ -449,7 +449,7 @@ T Not Here, Not Now|QID|37328^37330|M|40.18,43.50|N|To Taskmaster Gornek.|FACTIO
 ; 37328 leads Velonara/Attempted Murder (Brewery)
 ; 37330 leads Galgar/Best Deals(Smugglers)
 A Attempted Murder|QID|35907|M|40.09,43.28|N|From Dark Ranger Velonara.|PRE|37328|FACTION|Horde|
-A Best Deals Anywhere|QID|35705|M|40.06,43.19|N|From Provisioner Galgar.|PRE|37330 & 35550|FACTION|Horde|
+A Best Deals Anywhere|QID|35705|M|40.06,43.19|N|From Provisioner Galgar.|PRE|37330&35550|FACTION|Horde|
 A Wanted: Keeho's Severed Paw|QID|35669|M|40.11,43.05|N|From Wanted Poster inside the building.|FACTION|Horde|PRE|35277|RANK|3|
 A Wanted: Spineslicer's Husk|QID|35670|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|RANK|3|
 F Veil Terokk|QID|35634|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|RANK|2|
@@ -484,9 +484,9 @@ C Gaze of the Raven God|QID|35001|U|117396|NC|US|M|65.78,43.67|RANK|2|N|Finish d
 T Sons of Sethe|QID|35002|M|66.81,51.39|N|To the Offering Bowl.|RANK|2|
 T Gaze of the Raven God|QID|35001|M|66.59,51.69|N|To the stand to Place Eye of Anzu.|RANK|2|
 
-A The False Talon King|QID|35011|M|66.77,51.58|N|From Talon Guard Kurekk.|PRE|35001 & 35002|RANK|2|
-A Servants of a Dead God|QID|35004|M|66.83,51.72|N|From Anzu, (who is perched on a broken piller beside/above the alter).|PRE|35001 & 35002|RANK|2|
-A Ritual Severance|QID|35003|M|66.83,51.72|N|From Anzu.|PRE|35001 & 35002|RANK|2|
+A The False Talon King|QID|35011|M|66.77,51.58|N|From Talon Guard Kurekk.|PRE|35001&35002|RANK|2|
+A Servants of a Dead God|QID|35004|M|66.83,51.72|N|From Anzu, (who is perched on a broken piller beside/above the alter).|PRE|35001&35002|RANK|2|
+A Ritual Severance|QID|35003|M|66.83,51.72|N|From Anzu.|PRE|35001&35002|RANK|2|
 C Servants of a Dead God|QID|35004|S|M|67.46,38.17|RANK|2|N|Kill Prophets and Chosen.|
 C Southern Ritual|QID|35003|QO|1|NC|M|68.96,41.76|N|Run all over the circle until you stomp it out.|RANK|2|
 C The False Talon King|QID|35011|M|70.05,40.91|RANK|2|N|Kill and loot Talon King Ikiss.|
@@ -520,7 +520,7 @@ T A Worthy Vessel|QID|36059|M|46.62,46.75|N|To Shade of Terokk.|RANK|2|
 A The Avatar of Terokk|QID|35896|M|46.62,46.75|PRE|36059|N|From Shade of Terokk.|RANK|2|
 C The Avatar of Terokk|QID|35896|M|30.40,27.07|CHAT|N|Tell Terokk you are ready to start. Use the "1" ability and everything in front of you dies, until you meet Kargath (who is a bit more of a challenge).|RANK|2|
 T The Avatar of Terokk|QID|35896|M|46.49,46.66|N|To Reshad.|RANK|2|
-A Cult of the Ravenspeakers|QID|34921|PRE|35634 & 35012|M|46.93,46.11|RANK|2|N|From Anzu.|
+A Cult of the Ravenspeakers|QID|34921|PRE|35634&35012|M|46.93,46.11|RANK|2|N|From Anzu.|
 
 C Cult of the Ravenspeakers|QID|34921|NC|M|48.93,48.90|RANK|2|N|Place the feather Anzu gave you in the 'Offering Basket'.|
 T Cult of the Ravenspeakers|QID|34921|M|48.97,48.97|N|To Iktis of the Flock.|RANK|2|
@@ -541,10 +541,10 @@ C The Bloodmane|QID|34923|QO|1|US|M|55.77,54.55|RANK|2|N|Finish killing Bloodman
 C Words of the Raven Mother|QID|34922|US|NC|M|56.39,57.39|RANK|2|N|Finish looting Scroll Fragments.|
 T The Bloodmane|QID|34923|M|54.87,54.25|N|To Ravenspeaker Sekara.|RANK|2|
 T Words of the Raven Mother|QID|34922|M|54.87,54.25|N|To Ravenspeaker Sekara.|RANK|2|
-A Ralshiara's Demise|QID|34938|M|54.87,54.25|N|From Ravenspeaker Sekara.|PRE|34923 & 34922|RANK|2|
-A Declawing The Bloodmane|QID|34939|M|54.86,54.33|N|From High Ravenspeaker Krikka.|PRE|34923 & 34922|RANK|2|
-A The Egg Thieves|QID|34924|M|54.84,54.14|N|From Vakora of the Flock.|PRE|34923 & 34922|RANK|2|
-A The Initiate's Revenge|QID|36790|M|51.00,55.97|N|From Mortally Wounded Initiate.|PRE|34923 & 34922|RANK|2|
+A Ralshiara's Demise|QID|34938|M|54.87,54.25|N|From Ravenspeaker Sekara.|PRE|34923&34922|RANK|2|
+A Declawing The Bloodmane|QID|34939|M|54.86,54.33|N|From High Ravenspeaker Krikka.|PRE|34923&34922|RANK|2|
+A The Egg Thieves|QID|34924|M|54.84,54.14|N|From Vakora of the Flock.|PRE|34923&34922|RANK|2|
+A The Initiate's Revenge|QID|36790|M|51.00,55.97|N|From Mortally Wounded Initiate.|PRE|34923&34922|RANK|2|
 C The Egg Thieves|QID|34924|NC|S|M|50.00,63.06|RANK|2|N|Pick up the Dread Raven Eggs.|
 C Declawing The Bloodmane|QID|34939|S|M|51.44,58.14|RANK|2|N|Kill and loot Bloodmane Earthbinders for their paws.|
 C The Initiate's Revenge|QID|36790|S|M|43.16,50.83|RANK|2|N|Kill Bloodmane Saberons.|
@@ -561,7 +561,7 @@ T The Egg Thieves|QID|34924|M|52.09,49.41|N|To Vakora of the Flock.|RANK|2|
 T The Initiate's Revenge|QID|36790|M|52.09,49.41|N|To Vakora of the Flock.|RANK|2|
 T Ralshiara's Demise|QID|34938|M|52.12,49.91|N|To High Ravenspeaker Krikka.|RANK|2|
 T Declawing The Bloodmane|QID|34939|M|52.12,49.91|N|To High Ravenspeaker Krikka.|RANK|2|
-A Call of the Raven Mother|QID|35009|M|52.11,49.91|N|From High Ravenspeaker Krikka.|PRE|34939 & 34938 & 36790 & 34924|RANK|2|
+A Call of the Raven Mother|QID|35009|M|52.11,49.91|N|From High Ravenspeaker Krikka.|PRE|34939&34938&36790&34924|RANK|2|
 C Call of the Raven Mother|QID|35009|QO|1|M|52.11,49.91|CHAT|RANK|2|
 C Call of the Raven Mother|QID|35009|NC|QO|2|M|51.60,50.41|N|Position yourself where your cursor becomes a gold hand when mousing over the 4 items: aromatic herbs, blessed water, sacred feathers and the Scroll of the Ravens.  Krikka will tell you (in your general chat box) which item to add to the fire. Follow the instructions and eventually the ritual will be complete.|RANK|2|
 T Call of the Raven Mother|QID|35009|M|51.14,50.52|N|To Ka'alu.|RANK|2|
@@ -592,7 +592,7 @@ C The Power of Poison|QID|35959|M|53.57,27.51|U|113587|FACTION|Alliance|N|Use th
 C Extrinsic Motivation|QID|36023|M|56,33|FACTION|Alliance|
 T The Power of Poison|QID|35959|M|53.57,27.51|N|To (the stealthed) Hulda Shadowblade.|FACTION|Alliance|
 T Extrinsic Motivation|QID|36023|M|53.57,27.51|N|To (the stealthed) Hulda Shadowblade.|FACTION|Alliance|
-A Gardul Venomshiv|QID|36029|PRE|36023 & 35959|M|53.57,27.51|N|From (the stealthed) Hulda Shadowblade.|FACTION|Alliance|
+A Gardul Venomshiv|QID|36029|PRE|36023&35959|M|53.57,27.51|N|From (the stealthed) Hulda Shadowblade.|FACTION|Alliance|
 C Gardul Venomshiv|QID|36029|T|Gardul Venomshiv|M|56.09,33.93|FACTION|Alliance|
 T Gardul Venomshiv|QID|36029|M|57.14,34.49|N|To Hulda Shadowblade.|FACTION|Alliance|
 A We Have Him Now|QID|36048|M|57.14,34.49|PRE|36029|N|From Hulda Shadowblade.|FACTION|Alliance|
@@ -617,7 +617,7 @@ C The Power of Poison|QID|35947|M|53.57,27.51|U|113587|N|Use the poison Velonara
 C Extrinsic Motivation|QID|36022|M|56,33|FACTION|Horde|N|Finish killing whatever mobs you need.|
 T The Power of Poison|QID|35947|M|53.57,27.51|N|To (the stealthed) Dark Ranger Velonara.|FACTION|Horde|
 T Extrinsic Motivation|QID|36022|M|53.57,27.51|N|To (the stealthed) Dark Ranger Velonara.|FACTION|Horde|
-A Gardul Venomshiv|QID|36028|PRE|36022 & 35947|M|53.57,27.51|N|From (the stealthed) Dark Ranger Velonara.|FACTION|Horde|
+A Gardul Venomshiv|QID|36028|PRE|36022&35947|M|53.57,27.51|N|From (the stealthed) Dark Ranger Velonara.|FACTION|Horde|
 C Gardul Venomshiv|QID|36028|T|Gardul Venomshiv|M|56.09,33.93|FACTION|Horde|N|Head over and attack Gardul.|
 T Gardul Venomshiv|QID|36028|M|57.14,34.49|N|To Dark Ranger Velonara.|FACTION|Horde|
 A We Have Him Now|QID|36047|M|57.14,34.49|PRE|36028|N|From Dark Ranger Velonara.|FACTION|Horde|
@@ -637,7 +637,7 @@ C Sticky Situation|QID|35716|NC|M|55.32,36.85|FACTION|Alliance|
 C Safety Measures|QID|35878|M|56.50,48.04|US|FACTION|Alliance|
 T Sticky Situation|QID|35716|M|56.21,42.49|N|To Filbert Tinkertoss.|FACTION|Alliance|
 T Safety Measures|QID|35878|M|56.21,42.49|N|To Filbert Tinkertoss.|FACTION|Alliance|
-A Back on Track|QID|35719|M|56.21,42.49|PRE|35716 & 35878|N|From Filbert Tinkertoss.|FACTION|Alliance|
+A Back on Track|QID|35719|M|56.21,42.49|PRE|35716&35878|N|From Filbert Tinkertoss.|FACTION|Alliance|
 T Back on Track|QID|35719|M|60.18,53.15|N|To Dilbert Tinkertoss.|FACTION|Alliance|
 A All Natural|QID|35739|M|60.18,53.15|PRE|35719|N|From Dilbert Tinkertoss.|FACTION|Alliance|
 A I See Dead Arakkoa|QID|35782|M|60.18,53.15|PRE|35719|N|From Dilbert Tinkertoss.|FACTION|Alliance|
@@ -646,7 +646,7 @@ C I See Dead Arakkoa|QID|35782|U|113438|M|61.03,57.71|N|Use your ghostogrifier t
 C All Natural|QID|35739|US|M|61.00,57.12|N|Kill the ancient trees for thier charcoal.|FACTION|Alliance|
 T All Natural|QID|35739|M|60.19,53.15|N|To Dilbert Tinkertoss.|FACTION|Alliance|
 T I See Dead Arakkoa|QID|35782|M|60.19,53.15|N|To Dilbert Tinkertoss.|FACTION|Alliance|
-A The Ebon Hunter|QID|35835|M|60.20,53.15|PRE|35739 & 35782|N|From Dilbert Tinkertoss.|FACTION|Alliance|
+A The Ebon Hunter|QID|35835|M|60.20,53.15|PRE|35739&35782|N|From Dilbert Tinkertoss.|FACTION|Alliance|
 C The Ebon Hunter|QID|35835|M|65.09,61.46|T|The Ebon Hunter|FACTION|Alliance|
 T The Ebon Hunter|QID|35835|M|60.08,53.64|N|To Dilbert Tinkertoss.|FACTION|Alliance|
 ;horde-smugglers building
@@ -668,12 +668,12 @@ C I See Dead Arakkoa|QID|35766|U|113438|M|61.03,57.71|N|Use your ghostogrifier t
 C All Natural|QID|35738|US|M|61.00,57.12|N|Kill the ancient trees for thier charcoal.|FACTION|Horde|
 T All Natural|QID|35738|M|60.19,53.15|N|To Trixxy Weldblast.|FACTION|Horde|
 T I See Dead Arakkoa|QID|35766|M|60.19,53.15|N|To Trixxy Weldblast.|FACTION|Horde|
-A The Ebon Hunter|QID|35797|M|60.20,53.15|PRE|35738 & 35766|N|From Trixxy Weldblast.|FACTION|Horde|
+A The Ebon Hunter|QID|35797|M|60.20,53.15|PRE|35738&35766|N|From Trixxy Weldblast.|FACTION|Horde|
 C The Ebon Hunter|QID|35797|M|65.09,61.46|T|The Ebon Hunter|FACTION|Horde|
 T The Ebon Hunter|QID|35797|M|60.08,53.64|N|To Trixxy Weldblast.|FACTION|Horde|
 
 R The Howling Crag|RANK|3|M|61,18|N|Despite being in a hurry to revive our poisoned barkeep, we are NOT taking the provided ride and instead we are going to take a side trip for our traveling convenience. Go North and somewhat east.|ACTIVE|36165^36166|
-R The Howling Crag|ACTIVE|35676^35672|RANK|3|M|61,18|N|Its a bit of a run but this is as close as we get to this area in the guide, Go North and somewhat east.|PRE|35835 & 35797|;not actually a prereq, but I only want the step to show if you finished one of those quests
+R The Howling Crag|ACTIVE|35676^35672|RANK|3|M|61,18|N|Its a bit of a run but this is as close as we get to this area in the guide, Go North and somewhat east.|PRE|35835&35797|;not actually a prereq, but I only want the step to show if you finished one of those quests
 C Wanted: Venombarb|QID|35676^35672|M|61.11,19.05|RANK|3|N|Kill and loot Venombarb.|
 
 ;alliance
@@ -691,7 +691,7 @@ C Pinchwhistle Gearworks|QID|35619|M|39.09, 61.81|CHAT|N|Talk to Firn Swiftbreez
 H Axefall|AVAILABLE|35620|ACTIVE|35672^36166|FACTION|Horde|
 C No Time to Waste|QID|36166|M|40.11,43.28|CHAT|FACTION|Horde|
 T No Time to Waste|QID|36166|M|40.11,43.28|N|To Lunzul.|FACTION|Horde|
-A Standing United|QID|37276|M|40.04,43.33|PRE|36166 & 36793|N|To/From Dark Ranger Velonara to accept her as a follower.|FACTION|Horde|
+A Standing United|QID|37276|M|40.04,43.33|PRE|36166&36793|N|To/From Dark Ranger Velonara to accept her as a follower.|FACTION|Horde|
 A Not In Your Army|QID|37292|M|40.08,42.66|PRE|36166|N|From Lunzul.|FACTION|Horde|
 C Not In Your Army|QID|37292|M|39.45,41.72|CHAT|N|After you talk to her, she becomes hostile and you must kill her.|FACTION|Horde|
 T Not In Your Army|QID|37292|M|40.08,42.66|N|To Lunzul.|FACTION|Horde|
@@ -713,7 +713,7 @@ C Unwanted Pests|QID|36179|NC|M|63.14,75.02|US|
 T Spore-be-Gone|QID|35079|M|61.44,72.95|N|To Engineer Gazwitz.|
 T Unwanted Pests|QID|36179|M|61.44,72.95|N|To Engineer Gazwitz.|
 T Defungination|QID|35077|M|61.47,72.92|N|To Kimzee Pinchwhistle.|
-A The Mother Lode|QID|35080|M|61.47,72.94|N|From Kimzee Pinchwhistle.|PRE|35079 & 36179 & 35077|
+A The Mother Lode|QID|35080|M|61.47,72.94|N|From Kimzee Pinchwhistle.|PRE|35079&36179&35077|
 
 C The Mother Lode|QID|35080|M|59.06,79.09|NC|N|Ride to Pinchwhistle Point.|
 T The Mother Lode|QID|35080|M|59.12,79.19|N|To Kimzee Pinchwhistle.|
@@ -724,7 +724,7 @@ C Getting the Crew Back Together|QID|35082|M|60.93,81.98|NC|
 C Clearing Out Before Cleaning Up|QID|35081|M|60.90,81.86|US|
 T Getting the Crew Back Together|QID|35082|M|59.12,79.18|N|To Kimzee Pinchwhistle.|
 T Clearing Out Before Cleaning Up|QID|35081|M|59.09,79.23|N|To Engineer Gazwitz.|
-A Follow that Hotrod!|QID|35285|M|59.09,79.21|N|From Engineer Gazwitz.|PRE|35081 & 35082|
+A Follow that Hotrod!|QID|35285|M|59.09,79.21|N|From Engineer Gazwitz.|PRE|35081&35082|
 T Follow that Hotrod!|QID|35285|M|58.49,92.33|N|To Kimzee Pinchwhistle.|
 A The Right Parts for the Job|QID|35090|M|58.49,92.33|N|From Kimzee Pinchwhistle.|PRE|35285|
 A Skimming Off the Top|QID|35089|M|58.49,92.33|N|From Kimzee Pinchwhistle.|PRE|35285|
@@ -736,10 +736,10 @@ C The Right Parts for the Job|QID|35090|U|112698|M|59.81,88.34|NC|US|N|Use your 
 C Skimming Off the Top|QID|35089|M|59.18,88.12|US|N|Kill the oily slimes in the area.|
 T The Right Parts for the Job|QID|35090|M|58.83,92.84|N|To Kimzee Pinchwhistle.|
 T Skimming Off the Top|QID|35089|M|58.83,92.84|N|To Kimzee Pinchwhistle.|
-A Sporicide|QID|35091|M|58.83,92.84|N|From Kimzee Pinchwhistle.|PRE|35089 & 35090 & 36384|
+A Sporicide|QID|35091|M|58.83,92.84|N|From Kimzee Pinchwhistle.|PRE|35089&35090&36384|
 T Field Trial|QID|36384|M|58.46,92.22|N|To Krixel Pinchwhistle.|
-A Preventing the Worst|QID|35211|M|58.46,92.22|N|From Krixel Pinchwhistle.|PRE|35089 & 35090 & 36384|
-A Curing With Force|QID|36428|M|58.46,92.22|N|From Krixel Pinchwhistle.|PRE|35089 & 35090 & 36384|
+A Preventing the Worst|QID|35211|M|58.46,92.22|N|From Krixel Pinchwhistle.|PRE|35089&35090&36384|
+A Curing With Force|QID|36428|M|58.46,92.22|N|From Krixel Pinchwhistle.|PRE|35089&35090&36384|
 C Curing With Force|QID|36428|M|58,92|U|115533|S|N|You have to beat them up before they will accept the potion, don't forget to give it to them (instead of killing them). Again, a garrison follower will kill them.  Send them home for a bit.|
 C Sporicide|QID|35091|M|58,92|S|N|There are a few of these wandering in the village but most are behind it.|
 C Preventing the Worst|QID|35211|M|58,92|NC|N|There is a translucent bomb inside of each of the buildings, click on it to activate. It is upstairs on the balcony of the 2 story building.|
@@ -748,7 +748,7 @@ C Sporicide|QID|35091|M|56.2,90.4|US|N|There are a few of these wandering in the
 T Sporicide|QID|35091|M|58.49,92.33|N|To Kimzee Pinchwhistle.|
 T Preventing the Worst|QID|35211|M|58.46,92.22|N|To Krixel Pinchwhistle.|
 T Curing With Force|QID|36428|M|58.46,92.22|N|To Krixel Pinchwhistle.|
-A Flame On|QID|35298|M|58.46,92.22|N|From Krixel Pinchwhistle.|PRE|35091 & 35211 & 36428|
+A Flame On|QID|35298|M|58.46,92.22|N|From Krixel Pinchwhistle.|PRE|35091&35211&36428|
 C Flame On|QID|35298|M|58.44,92.24|QO|1|NC|N|Click on the Plunger to set off the bombs.|
 C Flame On|QID|35298|M|58.88,92.84|QO|2|NC|N|Hop in Kimzee's flying machine.|
 T Flame On|QID|35298|M|61.47,72.94|N|To Kimzee Pinchwhistle.|
@@ -762,7 +762,7 @@ H Axefall|AVAILABLE|36607^36602|M|61.47,72.94|N|Back to Axefall.|FACTION|Horde|
 A News from Nagrand|QID|36607^36602|M|40.18,43.51|N|From Taskmaster Gornek.|LVL|96|FACTION|Horde|
 F Veil Terokk|AVAILABLE|37141|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|RANK|2|
 
-A Talonpriest Ishaal|QID|37141|M|46.53,46.80|N|To Talonpriest Ishaal, yet another follower for you. If you make him your bodyguard you will have access to mail wherever you are in Draenor.|RANK|2|PRE|36793 & 36797|
+A Talonpriest Ishaal|QID|37141|M|46.53,46.80|N|To Talonpriest Ishaal, yet another follower for you. If you make him your bodyguard you will have access to mail wherever you are in Draenor.|RANK|2|PRE|36793&36797|
 D Your Garrison|QID|36606^36607|U|110560|M|40.18,43.5|N|This ends Spires of Arak.  Nagrand is the final leveling zone quide and it should load after you check off this step.|
 
 ]]

@@ -236,7 +236,7 @@ T Vengeful Souls|N|To High Priest Orglum.|QID|10842|M|37.45,50.77|
 T Before Darkness Falls |QID|10878|M|37.4,51.2|N|To Mekeda.|
 T Cabal Orders |QID|10880|M|37.4,51.2|N|To Mekeda.|
 A The Shadow Tomb |QID|10881|PRE|10880|M|37.4,51.2|N|From Mekeda.|
-A Recover the Bones |QID|10030|PRE|10840 & 10842|N|From Soolaveen.|M|37.05,49.52|
+A Recover the Bones |QID|10030|PRE|10840&10842|N|From Soolaveen.|M|37.05,49.52|
 
 H Shattrath City|QID|10112|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 r Sell junk, Repair, restock|QID|10112|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|

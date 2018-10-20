@@ -135,7 +135,7 @@ C Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead,Pandaren|US
 t It's You!!|QID|26489|R|Goblin|M|34.76,29.54|N|To Sassy Hardwrench.|
 t Akiris by the Bundle|QID|26487|M|34.65,29.48|N|To Sassy Hardwrench.|
 T If They're Just Going to Leave Them Lying Around...|QID|26450|M|34.65,29.48|N|To Sassy Hardwrench.|
-A There's Somebody Out There Who Wants It|QID|26493|PRE|26450 & 26487|M|34.70,29.33|N|From Sassy Hardwrench.|
+A There's Somebody Out There Who Wants It|QID|26493|PRE|26450&26487|M|34.70,29.33|N|From Sassy Hardwrench.|
 T The Holy Water of Clarity|QID|26433|M|33.78,29.16|N|To Flem Gizzix.|
 T The Holy Water of Clarity|QID|26590|M|33.78,29.16|N|To Flem Gizzix.|
 A Primal Reagents of Power|QID|26434|PRE|26433^26590|M|33.78,29.16|N|From Flem Gizzix.|
@@ -270,7 +270,7 @@ C Cannonball Swim|QID|26635|M|50.39,95.08|N|Dive deep in the nearby waters  to l
 C The Bane of Many A Pirate|QID|26634|M|56.53,80.90|N|Crates on the land near trees.|
 T Cannonball Swim|QID|26635|M|44.55,93.55|N|To "Pretty Boy" Duncan.|
 T The Bane of Many A Pirate|QID|26634|M|44.46,91.92|N|To Garr Salthoof.|
-A Attracting Attention|QID|26644|PRE|26633 & 26634 & 26635|M|44.40,91.68|N|From Captain Keelhaul.|
+A Attracting Attention|QID|26644|PRE|26633&26634&26635|M|44.40,91.68|N|From Captain Keelhaul.|
 T Attracting Attention|QID|26644|M|46.71,95.28|N|To Fleet Master Firallon on the next ship in the lower captains cabin.|
 A Ol' Blasty|QID|26647|PRE|26644|M|46.71,94.95|N|From Ironpatch left of the captain's cabin as you head out.|
 A Our Mortal Enemies|QID|26648|PRE|26644|M|46.81,93.89|N|From "Dead-Eye" Drederick McGumm.|
@@ -298,7 +298,7 @@ C Sinking From Within|QID|26663|M|44.72,92.74|N|Lower deck in a box.|
 T Sinking From Within|QID|26663|M|44.72,92.74|N|UI Alert.|
 C Making Mutiny|QID|26664|M|44.43,92.17|
 T Making Mutiny|QID|26664|US|M|44.43,92.20|N|UI Alert.|
-A Call of Booty|QID|26665|PRE|26662 & 26663 & 26664|M|44.43,92.20|
+A Call of Booty|QID|26665|PRE|26662&26663&26664|M|44.43,92.20|
 H Booty Bay|QID|26665|N|Hearth back me hearthies! (yes, the pun was intended)|
 T Call of Booty|QID|26665|M|41.13,73.12|N|To Baron Revilgaz.|
 A Doublerum|QID|26678|PRE|26665|M|41.13,73.12|N|From Baron Revilgaz.|
@@ -321,7 +321,7 @@ C The Final Voyage of the Brashtide|QID|26697|M|31.93,58.35|N|Drop lots of bombs
 T Turning the Brashtide|QID|26699|M|41.18,73.09|N|To Baron Revilgaz.|
 T The Damsel's (Bad) Luck|QID|26700|M|41.18,73.09|N|To Baron Revilgaz.|
 T The Final Voyage of the Brashtide|QID|26697|M|41.18,73.09|N|To Baron Revilgaz.|
-A Bloodsail's End|QID|26703|PRE|26697 & 26699 & 26700|M|41.18,73.09|N|From Baron Revilgaz.|
+A Bloodsail's End|QID|26703|PRE|26697&26699&26700|M|41.18,73.09|N|From Baron Revilgaz.|
 R Bloodsail's End.|QID|26703|CC|N|Talk to Keebok right behind you near the horde flightpath.|
 C Bloodsail's End|QID|26703|M|36.08,66.52|
 T Bloodsail's End|QID|26703|M|41.13,73.12|N|To Baron Revilgaz.|

@@ -167,7 +167,7 @@ A A Mage's Weapon|QID|41085|M|59.08,42.86|Z|The Guardian's Library@MageClassShri
 C A Mage's Weapon|QID|41085|M|61.20,25.85|Z|The Guardian's Library@MageClassShrine|N|Click on the book to choose your artifact.|
 T A Mage's Weapon|QID|41085|M|59.08,42.86|Z|The Guardian's Library@MageClassShrine|N|To Meryl Felstorm.|
 A Artifact Specific Quest|QID|42001^40267^42452|M|59.08,42.86|Z|The Guardian's Library@MageClassShrine|N|From Meryl Felstorm.|PRE|41085|
-R Portal to Dalaran|QID|42001^40267^42452|M|62.57,51.56|Z|The Guardian's Library@MageClassShrine|CC|N|If you chose the frost artifact stay put, otherwise take the portal to Dalaran|ACTIVE|42001 & 40267 & 42452|
+R Portal to Dalaran|QID|42001^40267^42452|M|62.57,51.56|Z|The Guardian's Library@MageClassShrine|CC|N|If you chose the frost artifact stay put, otherwise take the portal to Dalaran|ACTIVE|42001&40267&42452|
 
 T Growing Power|QID|42175|M|60.4,36|N|To Meryl Felstorm|LVL|101|
 A Rise, Champions|QID|42663|LVL|101|M|60.4,36|N|From Meryl Felstorm|PRE|41141|
@@ -447,7 +447,7 @@ C Daio the Decrepit|QID|42477|M|32.48,45.09|Z|Blasted Lands|QO|5|NC|N|Listen to 
 T Alodi's Gems|QID|42455|M|60.79,43.21|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|Teleport back to the Hall of the Guardian to turn in to Alodi.|
 T The Deadwind Site|QID|42476|M|59.17,42.94|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
 T Daio the Decrepit|QID|42477|M|59.17,42.94|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
-A The Mage Hunter|QID|42479|M|59.17,42.94|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42455 & 42476 & 42477|
+A The Mage Hunter|QID|42479|M|59.17,42.94|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42455&42476&42477|
 P Dalaran|QID|42479|N|Take the portal out to Dalaran.|ACTIVE|42479|
 C The Mage Hunter|QID|42479|M|69.83,51.13|Z|Dalaran!Dalaran!Dungeon|QO|1|CHAT|N|Take the hippogryph in Dalaran to Faronaar.|
 R Faronaar|ACTIVE|42479|M|30.51,44.99|Z|Azsuna|N|Enjoy your flight.|

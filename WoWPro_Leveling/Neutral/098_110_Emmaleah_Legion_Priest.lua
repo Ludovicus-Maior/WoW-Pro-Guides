@@ -283,7 +283,7 @@ C Murloc Mind Control|QID|43374|M|50.52,36.18|Z|Azsuna|N|Use mind control on a n
 C An Ample Supply|QID|43375|M|58.53,37.16|US|NC|Z|Azsuna|N|Finish collecting the salve.|LVL|103|
 T Murloc Mind Control|QID|43374|M|58.87,37.08|Z|Azsuna|N|To Yalia Sagewhisper.|LVL|103|
 T An Ample Supply|QID|43375|M|58.52,37.19|Z|Azsuna|N|To Zabra Hexx.|LVL|103|
-A Problem Salver|QID|43376|M|58.87,37.08|Z|Azsuna|N|To Yalia Sagewhisper.|LVL|103|PRE|43375 & 43374|
+A Problem Salver|QID|43376|M|58.87,37.08|Z|Azsuna|N|To Yalia Sagewhisper.|LVL|103|PRE|43375&43374|
 R Illidari Stand|QID|43376|M|43.18,43.51|Z|Azsuna|N|Run back to Illidari Stand to find and then cure the Demon Hunters.|ACTIVE|43376|LVL|103|
 C Problem Salver|QID|43376|M|42.34,44.19|Z|Azsuna|N|Apply salve to the demon hunters lying on the ground in this area.|LVL|103|
 T Problem Salver|QID|43376|M|47.11,43.98|Z|Azsuna|N|To Yalia Sagewhisper.|LVL|103|
@@ -324,7 +324,7 @@ C Scarlet Redemption|QID|43387|M|71.43,71.80|Z|Dragonblight|QO|1|US|N|Finish up 
 C Apostate Liberation|QID|43388|M|71.43,71.80|Z|Dragonblight|US|NC|N|Click on the cages to finish releasing the prisoners.|
 T Scarlet Redemption|QID|43387|M|53.82,65.00|Z|Dragonblight|N|To Mariella the Heretic who is following you around.|
 T Apostate Liberation|QID|43388|M|53.82,65.00|Z|Dragonblight|N|To Mariella the Heretic.|
-A Unexpected Guests|QID|43389|M|53.82,65.00|Z|Dragonblight|N|From Mariella the Heretic.|PRE|43387 & 43388|
+A Unexpected Guests|QID|43389|M|53.82,65.00|Z|Dragonblight|N|From Mariella the Heretic.|PRE|43387&43388|
 T Unexpected Guests|QID|43389|M|51.58,47.77|N|To Alonsus Faol back in your order hall.|
 A Champion: Mariella Ward|QID|43381|M|51.17,49.47|N|From/To Mariella Ward.|PRE|43389|
 A Forgotten Shadows|QID|43390|M|51.58,47.77|N|From Alonsus Faol.|PRE|43381|
@@ -382,7 +382,7 @@ C Lumenstone|QID|43400|M|50.63,46.93|NC|US|N|Do Lumenstone Missions at your Comm
 t Elixirs of Aid|QID|43832|M|51.58,47.77|N|To Alonsus Faol.|
 t Fortfying the Temple|QID|43399|M|51.58,47.77|N|To Alonsus Faol.|
 t Lumenstone|QID|43400|M|54.46,45.84|N|To Moira Thaurissan.|
-A A Light in the Darkness|QID|43401|M|51.58,47.77|N|From Alonsus Faol.|PRE|43832 & 43399 & 43400|
+A A Light in the Darkness|QID|43401|M|51.58,47.77|N|From Alonsus Faol.|PRE|43832&43399&43400|
 P Dalaran|QID|43401|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|43401|
 C A Light in the Darkness|QID|43401|QO|1|M|72.82,43.17|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Talk to Lord Maxwell Tyrosus at Krasus' Landing.|
 C A Light in the Darkness|QID|43401|QO|2|M|49.92,46.36|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Talk to Prophet Velen in the Chamber of the Guardian.|
@@ -420,7 +420,7 @@ A Firing Up the Forge|QID|41778|LVL|110|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|
 C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran!Dalaran!Dungeon|QO|1|N|1/1 Handful of Obliterum Ash|
 T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Karlain.|
 
-A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|PRE|44337 & 44338|
+A Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|PRE|44337&44338|
 C Magic Message|QID|39986|M|29.28,48.75|Z|Dalaran!Dalaran!Dungeon|N|Click on the arcane anomoly (pink floating ball). This is the leadin to the Suramar questline and you should load that guide now if you are headed there, otherwise a couple of more tasks in your class hall first.|
 T Magic Message|QID|39986|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
 A Trail of Echoes|QID|39987|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|39986|
@@ -486,7 +486,7 @@ C Destiny Unfulfilled|QID|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|N|
 T Destiny Unfulfilled|QID|44481^44496^44497|M|49.64,26.41|N|Return to Light's Heart in your order hall.|
 
 ;light's heart, requires AK>=7
-A The Hunt for Illidan Stormrage|QID|45174|M|49.64,26.41|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481 & 44496 & 44497|
+A The Hunt for Illidan Stormrage|QID|45174|M|49.64,26.41|N|From Light's Heart. Requires Artifact Knowledge >=7.|PRE|44481&44496&44497|
 P Dalaran|QID|45174|M|49.72,80.67|N|Take the portal to Dalaran.|ACTIVE|45174|
 R Krasus' Landing|QID|45174|M|60.36,44.53|Z|Dalaran!Dalaran!Dungeon|N|Run out and up to Krasus' Landing|ACTIVE|45174|
 F Illidari Stand|QID|45174|M|69.85,51.16|Z|Dalaran!Dalaran!Dungeon|N|At Aladune Whitecloud.|ACTIVE|45174|
@@ -642,7 +642,7 @@ C Sampling the Source|QID|45344|M|25.17,37.18|Z|Highmountain|NC|N|Click on a ser
 T Sampling the Source|QID|45344|M|29.96,55.88|Z|Highmountain|N|To Aelthalyste.|
 T Shambling Specimens|QID|45346|M|29.96,55.88|Z|Highmountain|N|To Aelthalyste.|
 T Mischievous Sprites|QID|45345|M|29.96,55.88|Z|Highmountain|N|To Aelthalyste.|
-A Crafting a Cure|QID|45347|M|29.96,55.88|Z|Highmountain|N|From Aelthalyste.|PRE|45344 & 45345 & 45346|
+A Crafting a Cure|QID|45347|M|29.96,55.88|Z|Highmountain|N|From Aelthalyste.|PRE|45344&45345&45346|
 C Crafting a Cure|QID|45347|QO|1|NC|M|29.99,55.86|Z|Highmountain|N|Click on the potion (sitting on the table).|
 C Crafting a Cure|QID|45347|QO|2|NC|M|29.99,55.86|Z|Highmountain|N|Click on the potion (sitting on the table) and then target Roland Abernathy and use the extra action button.|
 C Crafting a Cure|QID|45347|QO|3|NC|M|29.99,55.86|Z|Highmountain|N|Click on the potion again(still sitting on the table).|
@@ -666,7 +666,7 @@ C Countering the Contagion|QID|45350|QO|1|NC|M|33.65,49.68|Z|Broken Shore|US|N|F
 C Administering Aid|QID|45342|M|33.65,49.68|Z|Broken Shore|NC|US|U|143773|N|Finish giving antidotes to the people lying on the ground.|
 T Administering Aid|QID|45342|M|33.65,49.68|Z|Broken Shore|N|To Aelthalyste.|
 T Countering the Contagion|QID|45350|M|33.65,49.68|Z|Broken Shore|N|To Aelthalyste.|
-A Sterile Surroundings|QID|46145|M|33.65,49.68|Z|Broken Shore|N|From Aelthalyste.|PRE|45342 & 45350|
+A Sterile Surroundings|QID|46145|M|33.65,49.68|Z|Broken Shore|N|From Aelthalyste.|PRE|45342&45350|
 H Dalaran|QID|46145|U|140192|N|Use your Dalaran Hearthstone and return to your order hall.|ACTIVE|46145|
 T Sterile Surroundings|QID|46145|M|24.25,43.64|N|To Aelthalyste.|
 A Champion: Aelthalyste|QID|46034|M|24.25,43.64|N|From/To Aelthalyste.|PRE|46145|

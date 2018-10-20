@@ -32,7 +32,7 @@ C They Want Us Alive|QID|47198|M|59.66,19.00|Z|Zuldazar|NC|N|Click on the Wounde
 C Ticks|QID|47200|M|59.58,19.46|Z|Zuldazar|US|N|Finish up your quota of Bloodbelly Flyers.|
 T Ticks|QID|47200|M|60.39,22.03|Z|Zuldazar|N|To King Rastakhan.|
 T They Want Us Alive|QID|47198|Z|Zuldazar|M|60.39,22.03|N|To King Rastakhan.|
-A Rokhan|QID|47201|M|60.39,22.03|Z|Zuldazar|N|From King Rastakhan.|PRE|47200 & 47198|
+A Rokhan|QID|47201|M|60.39,22.03|Z|Zuldazar|N|From King Rastakhan.|PRE|47200&47198|
 C Rokhan|QID|47201|M|60.99,20.53|Z|Zuldazar|QO|1|NC|N|Click on Old Rotana to go for a short ride.|
 T Rokhan|QID|47201|M|56.92,19.10|Z|Zuldazar|N|To Rokhan.|
 A Warmother|QID|47205|M|56.92,19.10|Z|Zuldazar|N|From Rokhan.|PRE|47201|
@@ -42,7 +42,7 @@ K Warmother Shazraka|QID|47205|M|58.02,18.19|Z|Zuldazar|QO|1|T|Warmother Shazrak
 C The New Frontline|QID|47204|M|57.08,20.68|Z|Zuldazar|US|N|Finish your share of the Blood Troll forces.|
 T Warmother|QID|47205|M|56.92,19.11|Z|Zuldazar|N|To Rokhan.|
 T The New Frontline|QID|47204|M|56.92,19.11|Z|Zuldazar|N|To Rokhan.|
-A Bulwark of Torcali|QID|47229|M|56.92,19.11|Z|Zuldazar|N|From Rokhan.|PRE|47204 & 47205|
+A Bulwark of Torcali|QID|47229|M|56.92,19.11|Z|Zuldazar|N|From Rokhan.|PRE|47204&47205|
 C Bulwark of Torcali|QID|47229|M|56.90,19.73|Z|Zuldazar|NC|QO|1|N|Hop back onto Old Rotana.|
 C Bulwark of Torcali|QID|47229|M|58.07,20.39|Z|Zuldazar|NC|QO|2|N|Destroy Blood Troll forces.\n1 is Cone AE\n2 is ligtning bolt, multi target\n3 is charge, must not be moving to use.|
 T Bulwark of Torcali|QID|47229|M|57.98,17.83|Z|Zuldazar|N|Make your way to Princess Talanji and eject from Old Rotana.|
@@ -74,7 +74,7 @@ C The Glaive of Vol'jin|QID|51533|M|62.01,66.46|Z|Echo Isles|QO|1|NC|N|Pick up T
 C Broken Bargain|QID|51514|M|61.21,55.55|Z|Echo Isles|QO|1|US|N|Continue killing the rest of the Mindless Trolls.|
 T The Glaive of Vol'jin|QID|51533|M|59.22,51.98|Z|Echo Isles|N|To Zen'tabra.|
 T Broken Bargain|QID|51514|M|59.47,51.50|Z|Echo Isles|N|To Master Gadrin.|
-A Vengeance for Vol'jin|QID|51515|M|59.47,51.50|Z|Echo Isles|N|From Master Gadrin.|PRE|51514 & 51533|
+A Vengeance for Vol'jin|QID|51515|M|59.47,51.50|Z|Echo Isles|N|From Master Gadrin.|PRE|51514&51533|
 C Vengeance for Vol'jin|QID|51515|M|36.74,68.97|Z|Echo Isles|QO|1|N|Kill Zalazane.|T|Zalazane|
 C Vengeance for Vol'jin|QID|51515|M|36.74,68.97|Z|Echo Isles|QO|2|N|Target Zalazane's Spirit use the Glaive of Vol'jin.|U|160443|
 T Vengeance for Vol'jin|QID|51515|M|59.44,51.49|Z|Echo Isles|N|To Master Gadrin.|
