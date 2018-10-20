@@ -191,8 +191,6 @@ class FindSource(HTMLParser):
             else:
                 return
         if self._inGuide:
-            if data == "&":
-                data = " & "
 #            print "{{"+data+"}}",
             if data == "":
                 Guides[self._guideID].append(data)
