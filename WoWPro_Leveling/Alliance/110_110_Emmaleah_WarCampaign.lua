@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-10-20 23:38
+-- Who: Emmaleah
+-- Log: Delete duplicated first line of guide registration.
+--	clarification of step text and other minor tweaks on Operation Cutpurse (7.5k honored questline)
+
+-- URL: http://wow-pro.com/node/3760/revisions/30059/view
 -- Date: 2018-10-20 09:18
 -- Who: elidion
 -- Log: AND/OR edits, put CHAT back into f steps.
@@ -251,12 +257,6 @@
 -- Who: Emmaleah
 -- Log: To correct syntax and the node #
 
--- URL: http://wow-pro.com/node/3760/revisions/29258/view
--- Date: 2018-05-06 21:52
--- Who: Emmaleah
--- Log: Draft 1 - Opening Scenario/quests for Alliance.  The zone numbers will need replaced with names when they are available.
-
-local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
 WoWPro:GuideName(guide,'War Campaign')
@@ -737,8 +737,8 @@ A Intercepted Orders|QID|52489|M|69.28,27.00|Z|Boralus|N|From Shandris Feathermo
 C Intercepted Orders|QID|52489|M|69.28,27.00|Z|Boralus|QO|1|NC|N|Mount Swiftwing.|
 C Intercepted Orders|QID|52489|M|37.42,43.30|Z|1156|QO|2|NC|N|Locate Horde ships.|
 T Intercepted Orders|QID|52489|M|37.42,43.30|Z|1156|N|Turn in Shandris Feathermoon on the Griffin next to you.|
-A Behind Enemy Boats|QID|52490|M|37.42,43.30|Z|1156|N|From Shandris Feathermoon on the Griffin next to you.|PRE|52489|
-C Behind Enemy Boats|QID|52490|M|36.57,52.15|Z|1156|QO|1|NC|N|Climb in the Banshee's Wail gunport.|
+A Behind Enemy Boats|QID|52490|M|37.42,43.30|Z|1156|N|From Shandris Feathermoon.|PRE|52489|
+C Behind Enemy Boats|QID|52490|M|36.57,52.15|Z|1156|QO|1|NC|N|Use the "1" key to signal Halford to drop you off and then, climb in the Banshee's Wail gunport.|
 C Kill the Sailors|QID|52490|M|36.59,53.08|Z|1156|QO|2|S|N|Kill 10 sailors.|
 A Broadside Bedlam|QID|52491|M|36.93,52.42|Z|1156|N|From a cannon across from you.|PRE|52489|
 C Broadside Bedlam|QID|52491|M|36.96,52.04|Z|1156|QO|1|NC|N|Collect the Cannonballs.|
@@ -746,14 +746,15 @@ C Broadside Bedlam|QID|52491|M|36.79,52.78|Z|1156|QO|2|NC|N|Collect the Gunpowde
 C Broadside Bedlam|QID|52491|M|36.62,53.31|Z|1156|QO|3|NC|N|Collect the torch.|
 C Broadside Bedlam|QID|52491|M|36.62,53.31|Z|1156|QO|4|NC|N|Fire the 3 cannons.|
 C Kill the Sailors|QID|52490|M|36.59,53.08|Z|1156|QO|2|US|N|Finish killing your 10 sailors.|
-C Behind Enemy Boats|QID|52490|M|36.59,53.08|Z|1156|QO|3|NC|N|Open the Battlechest of the Horde.|
-T Behind Enemy Boats|QID|52490|M|40.89,47.68|Z|1156|N|Turn in to Falstad Wildhammer on the Griffin with you.|
-T Broadside Bedlam|QID|52491|M|40.89,47.68|Z|1156|N|Turn in to Falstad Wildhammer on the Griffin with you.|
+C Behind Enemy Boats|QID|52490|M|36.59,53.08|Z|1156|QO|3|NC|N|Open the Battlechest of the Horde located on the main deck.|
+T Behind Enemy Boats|QID|52490|M|40.89,47.68|Z|1156|N|Wait a bit for Falstad to pick you up and then when available, turn in to Falstad Wildhammer on the Griffin with you.|
+T Broadside Bedlam|QID|52491|M|40.89,47.68|Z|1156|N|To Falstad Wildhammer.|
 A The Wildhammer Specialty|QID|52492|M|40.89,47.68|Z|1156|N|From Falstad Wildhammer.|PRE|52490&52491|
-C The Wildhammer Specialty|QID|52492|M|40.67,49.81|Z|1156|QO|1|NC|N|Order Falstad to start the attack.|
-C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|2|N|Use the special action bar to destroy rowbots and kill sailors.|
-C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|3|N|Use the special action bar to burn the deck of The Crimson Squall.|
-C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|4|N|Use the special action bar to burn the sails of The Crimson Squall.|
+C The Wildhammer Specialty|QID|52492|M|40.67,49.81|Z|1156|QO|1|NC|N|Use "1" key to order Falstad to start the attack.|
+C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|S|QO|2|N|Use the "1" key to bomb rowboats and kill sailors, "2" key is a heal.|
+C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|3|N|Use the "1" key to burn the deck of The Banshee's Wail.|
+C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|4|N|Use the "1" key to burn the sails of The Crimson Squall.|
+C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|US|QO|2|N|Finish up the bombing run.|
 T The Wildhammer Specialty|QID|52492|M|41.72,57.01|Z|1156|N|Turn in to Shandris Feathermoon.|
 A An Unnatural Crew|QID|52493|M|41.72,57.01|Z|1156|N|From Shandris Feathermoon.|PRE|52492|
 A Foul Crystals for Foul People|QID|52494|M|41.72,57.01|Z|1156|N|From Shandris Feathermoon.|PRE|52492|
@@ -763,11 +764,10 @@ C An Unnatural Crew|QID|52493|M|41.66,55.77|Z|1156|US|N|Continue to kill Horde o
 T An Unnatural Crew|QID|52493|M|41.67,55.38|Z|1156|N|To Shandris Feathermoon below deck.|
 T Foul Crystals for Foul People|QID|52494|M|41.67,55.38|Z|1156|N|To Shandris Feathermoon below deck.|
 A Ending the San'layn Threat|QID|52495|M|41.67,55.38|Z|1156|N|From Shandris Feathermoon.|PRE|52493&52494|
-C Ending the San'layn Threat|QID|52495|M|41.62,56.79|Z|1156|QO|1|NC|N|destroy the door.|
-C Ending the San'layn Threat|QID|52495|M|41.53,55.66|Z|1156|QO|2|N|Kill Blood Prince Dreven.|
-C Ending the San'layn Threat|QID|52495|M|42.40,55.90|Z|1156|QO|3|NC|N|Escape the ship and signal Falstad.|
-T Ending the San'layn Threat|QID|52495|M|41.44,48.20|Z|1156|N|To Shandris Feathermoon on a Griffin next to you.|
-A A Clean Escape|QID|52496|M|41.44,48.20|Z|1156|N|From Shandris Feathermoon on a Griffin next to you.|PRE|52495|
+C Ending the San'layn Threat|QID|52495|M|41.53,55.66|Z|1156|QO|1|N|Destroy the door and then kill Blood Prince Dreven.|
+C Ending the San'layn Threat|QID|52495|M|42.40,55.90|Z|1156|QO|2|NC|N|Escape the ship and when a bit away from the ship, the special action button will appear. Use it to signal Falstad.|
+T Ending the San'layn Threat|QID|52495|M|41.44,48.20|Z|1156|N|To Shandris Feathermoon, when she appears on a Griffin next to you.|
+A A Clean Escape|QID|52496|M|41.44,48.20|Z|1156|N|From Shandris Feathermoon.|PRE|52495|
 P Wind's Redemption|ACTIVE|52496|M|40.57,41.06|Z|1156|N|Let griffin portal you at edge of zone.|
 T A Clean Escape|QID|52496|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 
