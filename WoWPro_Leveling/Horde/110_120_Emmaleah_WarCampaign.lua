@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-10-20 21:17
+-- Who: elidion
+-- Log: s
+
+-- URL: http://wow-pro.com/node/3761/revisions/29961/view
 -- Date: 2018-10-17 02:26
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -712,7 +717,17 @@ T Champion: Lilian Voss|QID|52861|M|58.40,62.71|Z|Zuldazar|N|To Lilian Voss.|
 H The Great Seal|ACTIVE|53003|M|58.40,62.71|Z|Zuldazar|N|Hearth, or otherwise get yourself to a portal to Orgrimmar.|
 P Orgrimmar|ACTIVE|53003|M|51.54,45.89|Z|Dazar'alor|N|Take the portal to Orgrimmar|
 T A Cycle of Hatred|QID|53003|M|48.39,71.16|Z|Orgrimmar|N|To Sylvanas Windrunner.|
-P Dazar'alor|AVAILABLE|52861|M|47.51,60.06|Z|Orgrimmar|N|Use the portal or otherwise return to Zandalar|PRE|53003|
+P Dazar'alor|AVAILABLE|54097|M|47.51,60.06|Z|Orgrimmar|N|Use the portal or otherwise return to Zandalar|PRE|53003|
+
+; 8.1 quests
+A The Dark Lady Calls|QID|54097|M|58.40,62.73|Z|Zuldazar|N|From Dark Ranger Alina.|PRE|53003|O|
+P Orgrimmar|ACTIVE|54097|M|51.54,45.89|Z|Dazar'alor|N|Take the portal to Orgrimmar or get there by other means.|
+C The Dark Lady Calls|QID|54097|M|48.30,71.06|Z|Orgrimmar|N|Meet Sylvanas in Grommash Hold.|
+T The Dark Lady Calls|QID|54097|M|48.30,71.06|Z|Orgrimmar|N|To Sylvanas Windrunner.|
+A The High Overlord|QID|54099|M|48.30,71.06|Z|Orgrimmar|N|From Sylvanas Windrunner.|PRE|54097|
+C The High Overlord|QID|54099|M|48.30,71.06|Z|Orgrimmar|CHAT|N|Talk with Sylvanas Windrunner.|
+T The High Overlord|QID|54099|M|48.30,71.06|Z|Orgrimmar|N|To Sylvanas Windrunner.|
+A A Way Out|QID|54100|M|48.30,71.06|Z|Orgrimmar|N|From Sylvanas Windrunner.|PRE|54099|
 
 ; The Revered Repuation Mission Report: Hillcrest Pasture
 A Mission Report: Hillcrest Pasture|QID|52478|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0;false|O|
