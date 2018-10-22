@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_zuldazar
+-- Date: 2018-10-20 21:24
+-- Who: elidion
+-- Log: reworded a line so it wouldn't end with "end"
+
+-- URL: http://wow-pro.com/node/3762/revisions/30062/view
+-- Date: 2018-10-20 21:10
+-- Who: elidion
+-- Log: removed spaces between 
+
+-- URL: http://wow-pro.com/node/3762/revisions/30060/view
+-- Date: 2018-10-20 20:48
+-- Who: elidion
+-- Log: Fixed a few AND/OR errors and rogue line error.
+
+-- URL: http://wow-pro.com/node/3762/revisions/29962/view
 -- Date: 2018-10-17 02:26
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -837,8 +852,7 @@ A Hunting Zul|QID|49421|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|From Bai
 R The Zocalo|ACTIVE|49421|M|42.58,27.97|N|Run down the stairs and down and down, till you get to ground level and cross the bridge to The Zocalo.|
 A The Warpack|QID|49965|M|38.93,27.13|Z|Dazar'alor|N|From King Rastakhan.|PRE|49421&51111|
 T Hunting Zul|QID|49421|M|38.93,27.13|Z|Dazar'alor|N|To King Rastakhan.|
-C The Warpack|QID|49965|M|38.82,27.04;49.19,44.79|CS|NC|N|Hop on the Saurid with Wardruid Loti (and wait for the King's speech to end) then ride with the Warpack|
-then ride with the Warpack|
+C The Warpack|QID|49965|M|38.82,27.04;49.19,44.79|CS|NC|N|Hop on the Saurid with Wardruid Loti (and wait for the King to finish his speech) then ride with the Warpack|
 T The Warpack|QID|49965|M|49.28,44.32|N|To Gonk.|
 A Heretics|QID|49422|M|49.28,44.32|N|From Gonk.|PRE|49965|
 A The Full Prophecy|QID|49424|M|49.34,44.34|N|From Wardruid Loti.|PRE|49965|
@@ -850,7 +864,7 @@ C The Full Prophecy|QID|49424|M|48.75,39.42|QO|1|NC|N|Read The Word of Zul I.|
 C Heretics|QID|49422|M|48.75,39.42|N|Ruin wrought.|US|
 T The Full Prophecy|QID|49424|M|48.79,39.38|N|To Wardruid Loti.|
 T Heretics|QID|49422|M|49.65,37.97|N|To Hexlord Raal.|
-A City of Gold|QID|49425|M|49.65,37.97|N|From Hexlord Raal.|PRE|49422;49424|
+A City of Gold|QID|49425|M|49.65,37.97|N|From Hexlord Raal.|PRE|49422&49424|
 C City of Gold|QID|49425|M|49.64,37.91|NC|N|Hop on Ata the Winglord. Use "1" key to bomb the forces below.|
 T City of Gold|QID|49425|M|43.75,39.45|N|To Rezan.|
 A The King's Gambit|QID|49426|M|43.75,39.45|N|From Rezan.|PRE|49425|
@@ -868,7 +882,7 @@ f Atal'Dazar|ACTIVE|50963|M|46.16,35.82|N|At Loz the Paku'ai.|
 H The Great Seal|ACTIVE|50963|M|46.16,35.82|N|Hearth (or fly) back to the Great Seal.|
 T Of Dark Deeds and Dark Days|QID|50963|M|41.22,66.92|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
 t Atal'Dazar: Yazma the Fallen Priestess|QID|49901|M|41.22,66.92|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
-A The Blood Gate|QID|47199|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|Baine Bloodhoof. This quest requires you have completed the zone achievement for Nazmir as well as Zandalar.|PRE|50963;50808|;not spurious - necesary for guide flow
+A The Blood Gate|QID|47199|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|Baine Bloodhoof. This quest requires you have completed the zone achievement for Nazmir as well as Zandalar.|PRE|50963&50808|;not spurious - necesary for guide flow
 A Sandscar Breach|QID|49940|M|67.00,71.58|Z|Hall of Croniclers!Dazar'alor|N|From Natal'hakata.|RANK|2|
 A The Bones of Xibala|QID|47257|M|69.89,47.50|Z|Hall of Croniclers!Dazar'alor|N|From Chronicler To'kini.|RANK|3|
 
@@ -893,7 +907,7 @@ C Xibalan Ecology|QID|47228|M|42.99,74.43|US|N|Finish killing the Xibalan predat
 T Xibalan Ecology|QID|47228|M|43.91,72.11|N|To Examiner Tae'shara Bloodwatcher.|
 T Scrying for the Eye|QID|47235|M|43.89,72.14|N|To Apprentice Telemancer Astrandis.|
 T Archaeological Efficiency|QID|50043|M|43.89,72.14|N|To Apprentice Telemancer Astrandis.|
-A A Nose for Magic|QID|48317|M|43.91,72.11|N|From Apprentice Telemancer Astrandis.|RANK|3|PRE|47228;50043;47235|
+A A Nose for Magic|QID|48317|M|43.91,72.11|N|From Apprentice Telemancer Astrandis.|RANK|3|PRE|47228&50043&47235|
 K Dark Chronicler|QID|51087|M|42.00,76.12;42.35,77.34;43.29,76.38;44.16,76.53|CS|QO|1|T|Dark Chronicler|N|Kill the Dark Chronicler.|RANK|3|
 C A Nose for Magic|QID|48317|M|41.04,77.15|QO|1|CHAT|N|Speak to Astrandis in the western ruins.|
 C A Nose for Magic|QID|48317|M|40.70,76.87|QO|2|NC|N|Click on the essence collector.|
@@ -946,7 +960,7 @@ C They Want Us Alive|QID|47198|M|59.66,19.00|US|NC|N|Finish rescuing the Wounded
 C Ticks|QID|47200|M|59.58,19.46|US|N|Finish up your quota of Bloodbelly Flyers.|
 T Ticks|QID|47200|M|60.39,22.03|N|To King Rastakhan.|
 T They Want Us Alive|QID|47198|M|60.39,22.03|N|To King Rastakhan.|
-A Rokhan|QID|47201|M|60.39,22.03|N|From King Rastakhan.|PRE|47200;47198|
+A Rokhan|QID|47201|M|60.39,22.03|N|From King Rastakhan.|PRE|47200&47198|
 C Rokhan|QID|47201|M|60.99,20.53|QO|1|NC|N|Ride the Old Rotana|
 T Rokhan|QID|47201|M|56.92,19.10|N|To Rokhan.|
 A Warmother|QID|47205|M|56.92,19.10|N|From Rokhan.|PRE|47201|
@@ -956,12 +970,12 @@ K Warmother Shazraka|QID|47205|M|58.02,18.19|QO|1|T|Warmother Shazraka|N|Kill Wa
 C The New Frontline|QID|47204|M|57.08,20.68|US|N|Finish your share of the Blood Troll forces.|
 T Warmother|QID|47205|M|56.92,19.11|N|To Rokhan.|
 T The New Frontline|QID|47204|M|56.92,19.11|N|To Rokhan.|
-A Bulwark of Torcali|QID|47229|M|56.92,19.11|N|From Rokhan.|PRE|47204;47205|
+A Bulwark of Torcali|QID|47229|M|56.92,19.11|N|From Rokhan.|PRE|47204&47205|
 C Bulwark of Torcali|QID|47229|M|56.90,19.73|NC|QO|1|N|Ride Old Rotana.|
 C Bulwark of Torcali|QID|47229|M|58.07,20.39|NC|QO|2|N|Destroy Blood Troll forces.\n1 is Cone AE\n2 is ligtning bolt, multi target\n3 is charge, must not be moving to use.|
 T Bulwark of Torcali|QID|47229|M|57.98,17.83|N|To Princess Talanji.|
 A Prepare for a Siege|QID|47258|M|60.05,22.23|N|From King Rastakhan.|PRE|47229|
-A Zandalar Forever!|QID|50954|M|60.05,22.23|N|From King Rastakhan.(requires all 3 zone achievements)|PRE|47229;50703|;not spurious -- prolly an ach instead of the quests, but the quests works.
+A Zandalar Forever!|QID|50954|M|60.05,22.23|N|From King Rastakhan.(requires all 3 zone achievements)|PRE|47229&50703|;not spurious -- prolly an ach instead of the quests, but the quests works.
 R Zandalar Forever!|QID|50954|M|60.05,22.23|TZ|The Sliver|CHAT|N|Talk to the King to start the scenario.|
 
 H The Great Seal|ACTIVE|-50954|N|Final Scenario requires you to have finished all three zone achievements, so if you don't, now is the time to hearth and go finish Voldun.|
