@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_alliance
+-- Date: 2018-10-23 22:25
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3243/revisions/29030/view
 -- Date: 2018-02-19 23:39
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -118,7 +123,7 @@ C Tears of Stone|QID|25396|US|M|40.70,24.16|N|Finish gathering Stonetears.|
 T Tears of Stone|QID|25396|M|50.66,17.09|N|To Telaron Windflight.|
 T The Land, Corrupted|QID|25397|M|50.66,17.09|N|To Telaron Windflight.|
 
-A Sealing the Dream|QID|25398|PRE|25396;25397|M|50.66,17.09|N|From Telaron Windflight.|
+A Sealing the Dream|QID|25398|PRE|25396&25397|M|50.66,17.09|N|From Telaron Windflight.|
 C Sealing the Dream|QID|25398|U|52576|M|51.26,10.87|N|Head up to the portal and use Ysondre's Tear.|
 T Sealing the Dream|QID|25398|M|50.66,17.20|N|To Telaron Windflight.|
 A General Shandris Feathermoon|QID|26402|LEAD|25304|PRE|25398|M|50.66,17.20|N|From Telaron Windflight.|
@@ -185,15 +190,15 @@ C The Gordunni Threat|QID|25400|US|M|61.28,71.58|N|Finish killing Gordunni ogres
 
 R Darkmist Ruins|QID|25350|CC|M|62.11,64.06;63.27,62.26;63.91,62.19|N|Head to the Darkmist Ruins.|
 T The Lost Apprentice|QID|25350|M|65.91,62.84|N|To Lost Apprentice.|
-A The Darkmist Legacy|QID|25422|PRE|25350+25643|M|65.89,62.82|N|From Sensiria.|
-A Ancient Suffering|QID|25423|PRE|25350+25643|M|65.85,62.78|N|From Sensiria.|
+A The Darkmist Legacy|QID|25422|PRE|25350^25643|M|65.89,62.82|N|From Sensiria.|
+A Ancient Suffering|QID|25423|PRE|25350^25643|M|65.85,62.78|N|From Sensiria.|
 C Ancient Suffering|QID|25423|M|64.29,58.91|N|Kill and loot Highborn ghosts for the Soul Essences.|S|
 C The Darkmist Legacy|QID|25422|M|63.93,59.85|N|Loot the Glowing Soil from around Darkmist Ruins.|
 C Ancient Suffering|QID|25423|M|64.29,58.91|N|Finish gathering Soul Essences.|US|
 T The Darkmist Legacy|QID|25422|M|65.90,62.81|N|To Sensiria.|
 T Ancient Suffering|QID|25423|M|65.90,62.81|N|To Sensiria.|
 
-A Verinias the Twisted|QID|25368|PRE|25422;25423|M|65.90,62.81|N|From Sensiria.|
+A Verinias the Twisted|QID|25368|PRE|25422&25423|M|65.90,62.81|N|From Sensiria.|
 C Verinias the Twisted|QID|25368|U|54456|M|64.33,56.02|N|Head to the waypoint, use the Mournful Essence and kill Verinias the Twisted.|
 T Verinias the Twisted|QID|25368|M|65.90,62.79|N|To Sensiria.|
 A Return to Vestia|QID|26401|PRE|25368|M|65.90,62.79|N|From the Empty Pedestal.|
@@ -218,7 +223,7 @@ T Ogre Abduction|QID|25403|M|56.95,55.41|N|To Estulan.|
 
 A Tell Silvia|QID|25208|PRE|25403|M|56.95,55.41|N|From Estulan.|
 T Tell Silvia|QID|25208|M|56.85,54.93|N|To Silvia.|
-A Might of the Sentinels|QID|25333|PRE|25208;25406|M|56.85,54.93|N|From Silvia.|
+A Might of the Sentinels|QID|25333|PRE|25208&25406|M|56.85,54.93|N|From Silvia.|
 C Might of the Sentinels|QID|25333|M|62.68,28.97|N|Head into Dire Maul. Go North every chance you can. You will come across an Arena. Drop into it and walk all the way to the north end of the Arena and wait. Kill the 2 Ogres that drop down, then stay alive once Cho'gall decends.|
 H Feathermoon Stronghold|QID|25333|N|Hearth back to Feathermoon.|
 F Tower of Estulan|QID|25333|N|Catch a flight path to the Tower.|
@@ -266,7 +271,7 @@ A Ysondre's Call|QID|25437|PRE|25436|M|77.23,56.51|N|From Adella.|
 
 R The Emerald Summit|QID|25437|M|80.25,42.81|N|Run to the Emerald Summit.|
 T Ysondre's Call|QID|25437|M|81.53,42.37|N|To Ysondre at the top of the Emerald Summit.|
-A Taerar's Fall|QID|25379|PRE|25378+25437|M|81.53,42.37|N|From Ysondre.|
+A Taerar's Fall|QID|25379|PRE|25378^25437|M|81.53,42.37|N|From Ysondre.|
 C Taerar's Fall|QID|25379|M|81.48,42.46|N|Help Ysondre kill Taerar.|
 T Taerar's Fall|QID|25379|M|81.50,42.47|N|To Ysondre.|
 A Ysondre's Farewell|QID|25438|PRE|25379|M|81.50,42.47|N|From Ysondre.|
