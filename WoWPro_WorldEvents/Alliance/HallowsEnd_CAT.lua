@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2018-10-23 22:09
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3440/revisions/29883/view
 -- Date: 2018-10-17 01:37
 -- Who: Ludovicus_EditBot
 -- Log: .
@@ -181,8 +186,8 @@ return [[
 F Stormwind City|QID|29020|N|This starts in Stormwind.|Z|Stormwind City|
 R Temple of Earth|QID|29020|M|48.77,53.51|N|Take the Stormwind portal to Deepholm.|Z|Deepholm|
 A Candy Bucket |QID|29020|M|47.3,51.7|Z|Deepholm|N|Temple of Earth|
-R Stormwind City|QID|28999;29001;29000|Z|Stormwind City|U|37586|
-R Nordrassil|QID|28999;29001;29000|N|Take the portal to Mount Hyjal.|Z|Mount Hyjal|
+R Stormwind City|QID|28999^29001^29000|Z|Stormwind City|U|37586|
+R Nordrassil|QID|28999^29001^29000|N|Take the portal to Mount Hyjal.|Z|Mount Hyjal|
 A Candy Bucket |QID|28999|M|63.02,24.04|Z|Mount Hyjal|N|Nordrassil|
 F Shrine of Aviana|QID|29001|M|41.15,42.67|Z|Mount Hyjal|U|37586|
 A Candy Bucket |QID|29001|M|42.64,45.58|Z|Mount Hyjal|N|Shrine of Aviana|
@@ -211,7 +216,7 @@ F Highbank|QID|28980|M|81.64,77.02|Z|Twilight Highlands|U|37586|
 A Candy Bucket |QID|28980|M|79.54,78.50|Z|Twilight Highlands|N|Highbank|
 R Stormwind City|N|Take the portal back to Stormwind.|Z|Stormwind City|U|37586|
 
-R Ramkahen|QID|29017;29016|N|Take the portal to Uldum.|Z|Uldum|
+R Ramkahen|QID|29017^29016|N|Take the portal to Uldum.|Z|Uldum|
 A Candy Bucket |QID|29017|M|54.72,33.04|Z|Uldum|N|Ramkahen|
 F Oasis of Vir'sar|QID|29016|M|26.62,8.34|Z|Uldum|U|37586|
 A Candy Bucket |QID|29016|M|26.58,7.33|Z|Uldum|N|Oasis of Vir'sar|
