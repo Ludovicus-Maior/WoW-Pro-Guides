@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_horde
+-- Date: 2018-10-23 22:02
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3467/revisions/29594/view
 -- Date: 2018-08-24 08:42
 -- Who: Emmaleah
 -- Log: update old style QOs
@@ -114,7 +119,7 @@ T A Friendly Chat...|QID|24576|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Sna
 
 l Lovely Charm Collector's Kit|L|49661|M|52.99,76.81|Z|Orgrimmar|N|Ask Kwee Q. Peddlefeet for a Kit.|
 
-A Public Relations Daily|QID|24635;24629;24636|M|53.05,77.15|Z|Orgrimmar|N|From Public Relations Agent|
+A Public Relations Daily|QID|24635^24629^24636|M|53.05,77.15|Z|Orgrimmar|N|From Public Relations Agent|
 C A Cloudlet of Classy Cologne|QID|24635|Z|Orgrimmar|N|Spray everyone and any NPC in sight.|U|49669|
 C A Perfect Puff of Perfume|QID|24629|Z|Orgrimmar|N|Spray everyone and any NPC in sight.|U|49668|
 C Bonbon Blitz|QID|24636|Z|Orgrimmar|N|Force feed candy to everyone and any NPC in sight.|U|49670|
@@ -122,7 +127,7 @@ T A Cloudlet of Classy Cologne|QID|24635|Z|Orgrimmar|M|53.05,77.15|N|To Public R
 T A Perfect Puff of Perfume|QID|24629|Z|Orgrimmar|M|53.05,77.15|N|To Public Relations Agent|
 T Bonbon Blitz|QID|24636|M|53.05,77.15|Z|Orgrimmar|N|To Public Relations Agent|
 
-A Crushing the Crown|QID|24638;24645;24647;24648;24649;24650;24651;24652;28935|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt|
+A Crushing the Crown|QID|24638^24645^24647^24648^24649^24650^24651^24652^28935|M|50.79,75.29|Z|Orgrimmar|N|From Detective Snap Snagglebolt|
 
 C Crushing the Crown|QID|24638|M|40.30,13.45|Z|Durotar|N|Kill Crown Lackeys near Orgrimmar's gates and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24645|M|55.28,61.60|Z|Silverpine Forest|N|Kill Crown Thugs near The Forsaken Front and blow up a a wagon.|U|50130|
@@ -133,8 +138,8 @@ C Crushing the Crown|QID|24650|M|63.53,49.29|Z|Winterspring|N|Kill Crown Sprinkl
 C Crushing the Crown|QID|24651|M|41.48,22.46|Z|Terokkar Forest|N|Kill Crown Underlings near Shattrath City and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24652|M|46,40|Z|Crystalsong Forest|N|Kill Crown Sprayers near Dalaran and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|28935|M|66.58,19.65|Z|Uldum|N|Kill Crown Technician near the Tomb of Khartut and blow up a a wagon.|U|50130|
-l Gifts for the Horde|QID|24638;24645;24647;24648;24649;24650;24651;24652;24638;28935|L|49655 40|N|If you are going to present gifts to all the leaders of the Horde, you need 40 lovely charms.  Mobs that are closer in level to you drop more frequently.  If people get annoyed at you farming the Crown NPCs, just kill anything that spawns fast and is close to your level.|
-T Crushing the Crown|QID|24638;24645;24647;24648;24649;24650;24651;24652;24638;28935|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Snagglebolt|
+l Gifts for the Horde|QID|24638^24645^24647^24648^24649^24650^24651^24652^24638^28935|L|49655 40|N|If you are going to present gifts to all the leaders of the Horde, you need 40 lovely charms.  Mobs that are closer in level to you drop more frequently.  If people get annoyed at you farming the Crown NPCs, just kill anything that spawns fast and is close to your level.|
+T Crushing the Crown|QID|24638^24645^24647^24648^24649^24650^24651^24652^24638^28935|M|50.79,75.29|Z|Orgrimmar|N|To Detective Snap Snagglebolt|
 
 A A Gift for the Warchief|QID|24612|M|52.99,76.81|Z|Orgrimmar|N|From Kwee Q. Peddlefeet, between the AH and Inn.|
 l Lovely Charm Bracelet|QID|24612|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the Warchief.|
