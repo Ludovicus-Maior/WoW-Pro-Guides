@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2018-10-23 23:53
+-- Who: Ludovicus_Maior
+-- Log: Add [Refuge Point] and [Stonetalon Peak].
+--	Fix QID on [Northwatch Expedition Base Camp] bucket.
+
+-- URL: http://wow-pro.com/node/3440/revisions/30076/view
 -- Date: 2018-10-23 22:09
 -- Who: Ludovicus_Maior
 -- Log: And/Or
