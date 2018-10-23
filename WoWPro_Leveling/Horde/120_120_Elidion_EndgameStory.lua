@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_endgame_storylines
+-- Date: 2018-10-23 22:18
+-- Who: Ludovicus_Maior
+-- Log: Removed empty tag.
+
+-- URL: http://wow-pro.com/node/3783/revisions/30058/view
 -- Date: 2018-10-20 09:14
 -- Who: elidion
 -- Log: Added the spirits be with you questline.
@@ -82,7 +87,7 @@ A Honoring a True Leader|QID|52114|M|59.44,51.49|Z|Echo Isles|N|From Master Gadr
 b Zuldazar|ACTIVE|52114|M|70.91,38.21|Z|Echo Isles|N|You can go back to the boat or use your hearthstone here if it's more convenient.|
 F Atal'dazar|ACTIVE|52114|Z|Zuldazar|TZ|The Golden Road|N|Goto your nearest flightmaster and fly to the Atal'Dazar flight point near the dungeon entrance.|
 T Honoring a True Leader|QID|52114|M|45.52,35.81|Z|Zuldazar|N|To Master Gadrin.|
-A Vol'jin, Son of Sen'jin|QID|52113|M|45.52,35.81|Z|Zuldazar|N|From Master Gadrin.||PRE|52114|
+A Vol'jin, Son of Sen'jin|QID|52113|M|45.52,35.81|Z|Zuldazar|N|From Master Gadrin.|PRE|52114|
 C Vol'jin, Son of Sen'jin|QID|52113|M|45.78,36.17|Z|Zuldazar|QO|1|NC|N|Vision of the Bargain witnessed.|
 C Vol'jin, Son of Sen'jin|QID|52113|M|45.46,37.79|Z|Zuldazar|QO|2|NC|N|Vision of the Horde witnessed.|
 C Vol'jin, Son of Sen'jin|QID|52113|M|44.29,38.43|Z|Zuldazar|QO|3|NC|N|Vision of the Warchief witnessed. You will be attacked on your way to this final torch, don't expect any help.|
