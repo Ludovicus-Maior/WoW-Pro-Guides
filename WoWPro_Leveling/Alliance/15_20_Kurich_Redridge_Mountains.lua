@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
+-- Date: 2018-10-23 22:22
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3215/revisions/29667/view
 -- Date: 2018-09-04 20:28
 -- Who: Ludovicus
 -- Log: Fixed WANTED caps error
@@ -247,7 +252,7 @@ A This Ain't My War|QID|26568|M|26.20,39.90|N|From John J. Keeshan.|PRE|26567|
 T This Ain't My War|QID|26568|M|28.57,40.84|N|To Colonel Troteman in the town hall.|
 A Weapons of War|QID|26571|M|28.57,40.84|N|From Colonel Troteman.|PRE|26568|
 A In Search of Bravo Company|QID|26586|PRE|26568|M|28.58,40.90|N|From Colonel Troteman.|
-A Surveying Equipment|QID|26569|PRE|26520;26568|M|29.63,44.41|N|From Foreman Oslow outside towards the bridge.|RANK|2|
+A Surveying Equipment|QID|26569|PRE|26520&26568|M|29.63,44.41|N|From Foreman Oslow outside towards the bridge.|RANK|2|
 A Render's Army|QID|26570|PRE|26568|M|29.63,44.41|N|From Marshal Marris.|RANK|2|
 
 R Alther's Mill|QID|26586|M|41.25,35.60|N|Head along the road north-east to Alther's Mill.|
@@ -278,7 +283,7 @@ C Render's Army|QID|26570|US|M|29.35,10.76|N|Finish killing any and all orcs for
 H Lakeshire Inn|QID|26563|N|Hearth back to Lakeshire or run if it is on cooldown.|ACTIVE|26563|
 T His Heart Must Be In It|QID|26573|M|28.51,40.85|N|To Colonel Troteman in the town hall.|
 T Return of the Bravo Company|QID|26563|M|28.51,40.85|N|To Colonel Troteman.|
-A They Drew First Blood|QID|26607|M|28.51,40.85|N|From Colonel Troteman.|PRE|26573;26563|
+A They Drew First Blood|QID|26607|M|28.51,40.85|N|From Colonel Troteman.|PRE|26573&26563|
 T Surveying Equipment|QID|26569|M|29.65,44.38|N|To Foreman Oslow.|
 T Render's Army|QID|26570|M|29.65,44.38|N|To Marshal Marris.|
 r Repair, Sell Junk|QID|26607|S|ACTIVE|26607|N|Take this opportunity to sell unwanted junk and to repair with Kimberly Hiett just inside the Inn as you head to John J. Keeshan|T|Kimberly Hiett|
@@ -304,7 +309,7 @@ T Bravo Company Field Kit: Chloroform|QID|26637|M|52.47,55.45|N|To Messner.|
 T Hunting the Hunters|QID|26638|M|52.47,55.45|N|To Danforth.|
 T Unspeakable Atrocities|QID|26640|M|52.47,55.45|N|To John J. Keeshan.|
 
-A Prisoners of War|QID|26646|M|52.50,55.48|N|From John J. Keeshan.|PRE|26636;26637;26638;26640|
+A Prisoners of War|QID|26646|M|52.50,55.48|N|From John J. Keeshan.|PRE|26636&26637&26638&26640|
 C Blackrock Holding Pen Key|QID|26646|NC|U|60384|M|69.4,76.53|N|Use the field kit. Then use ability #1 (Camoflauge) when you get near the camp. Use #2 (Distraction) to get past guards (can backfire somewhat). Use #3 (Chloroform) on the orc where the key is.|L|59261|
 C Prisoners of War|QID|26646|U|60384|M|69.40,58.59|N|If the orc is about to wake up, use ability #3 again. Use #2 to get out of the cave. Then head to the waypoint, click on one of the cages to free the people.|
 T Prisoners of War|QID|26646|M|69.46,58.62|N|(UI Alert)|
