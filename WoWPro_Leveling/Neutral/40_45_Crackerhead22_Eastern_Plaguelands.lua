@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2018-10-23 22:14
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3251/revisions/29218/view
 -- Date: 2018-03-06 01:27
 -- Who: Ludovicus_EditBot
 -- Log: LVL strip
@@ -192,15 +197,15 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ;Option 1 - Already got the Hero's Call/Warchief's Command in log
-F Thondroril River |QID|27367|M|9.02,66.52|N|Head to Fiona at the western part of Eastern Plaguelands.\n\nIf you've never been to Eastern Plaguelands and don't have a flying mount, head to Menders Stead in Western Plaguelands, and run east.|ACTIVE|28577;28578|
-T Hero's Call: Eastern Plaguelands!|QID|28578|M|9.02,66.52|N|To Fiona.|ACTIVE|28577;28578|
-T Warchief's Command: Eastern Plaguelands!|QID|28577|M|9.02,66.52|N|To Fiona.|ACTIVE|28577;28578|
+F Thondroril River |QID|27367|M|9.02,66.52|N|Head to Fiona at the western part of Eastern Plaguelands.\n\nIf you've never been to Eastern Plaguelands and don't have a flying mount, head to Menders Stead in Western Plaguelands, and run east.|ACTIVE|28577^28578|
+T Hero's Call: Eastern Plaguelands!|QID|28578|M|9.02,66.52|N|To Fiona.|ACTIVE|28577^28578|
+T Warchief's Command: Eastern Plaguelands!|QID|28577|M|9.02,66.52|N|To Fiona.|ACTIVE|28577^28578|
 ;You can do both Hero's Call/Warchief's Command AND Into the Woods! so this allows that combination.
-f Thondroril River|QID|27367|M|10.02,65.70|N|Get flightpoint with Frax Bucketdrop.|PRE|28577+28578+27684|RANK|3|
-F The Menders' Stead|QID|27683|M|42.8,85|N|Fly to The Menders' Stead in Western Plaguelands.\n\nThis is a Rank 3 step for an extra quest that involves a flight to The Mender's Stead, pick up a quest, then fly back here to Thondroril River. If you don't want the achievement Loremaster, or the extra 435 XP and 5 silver, then skip this and the Accept In the Woods quest.|PRE|28577+28578+27684|RANK|3|
+f Thondroril River|QID|27367|M|10.02,65.70|N|Get flightpoint with Frax Bucketdrop.|PRE|28577^28578^27684|RANK|3|
+F The Menders' Stead|QID|27683|M|42.8,85|N|Fly to The Menders' Stead in Western Plaguelands.\n\nThis is a Rank 3 step for an extra quest that involves a flight to The Mender's Stead, pick up a quest, then fly back here to Thondroril River. If you don't want the achievement Loremaster, or the extra 435 XP and 5 silver, then skip this and the Accept In the Woods quest.|PRE|28577^28578^27684|RANK|3|
 A Into the Woods|QID|27683|LEAD|27367|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.\n\nIf you skipped the flying to The Menders' Stead, then skip this step as well.|RANK|3|
-F Thondroril River |QID|27683|M|50.5,52.2|Z|Western Plaguelands|N|Fly back to Thondroril River.|ACTIVE|27683|PRE|28577+28578+27684|RANK|3|
-T Into the Woods|QID|27683|M|9.02,66.52|N|To Fiona.|ACTIVE|27683|PRE|28577+28578+27684|RANK|3|
+F Thondroril River |QID|27683|M|50.5,52.2|Z|Western Plaguelands|N|Fly back to Thondroril River.|ACTIVE|27683|PRE|28577^28578^27684|RANK|3|
+T Into the Woods|QID|27683|M|9.02,66.52|N|To Fiona.|ACTIVE|27683|PRE|28577^28578^27684|RANK|3|
 
 ;Option 2 - Already got Visitors from Lights Hope Chapel in log
 F Thondroril River |QID|27684|M|9.02,66.52|N|Head to Fiona at the western part of Eastern Plaguelands by flying to Thondroril River. If for some reason you can't fly there, take the road west to Light's Shield Tower, then keep following the road south-west, then west again.|ACTIVE|27684|
@@ -210,9 +215,9 @@ T Visitors|QID|27684|M|9.02,66.52|N|To Fiona.|ACTIVE|27684|
 F The Menders' Stead|QID|27683|M|42.8,85|Z|Western Plaguelands|N|Head to The Mender's Stead in Western Plaguelands.|ACTIVE|27683|
 
 ;Option 4 - Nothing pre-obtained, so give The Into the Woods questline
-F The Menders' Stead|QID|27683|M|42.8,85|Z|Western Plaguelands|N|Head to The Mender's Stead in Western Plaguelands.|LEAD|28577;28578;27684|
+F The Menders' Stead|QID|27683|M|42.8,85|Z|Western Plaguelands|N|Head to The Mender's Stead in Western Plaguelands.|LEAD|28577^28578^27684|
 A Into the Woods|QID|27683|M|48.93,54.73|Z|Western Plaguelands|N|From Adrine Towhide.|LEAD|27367|
-R Thondroril River |QID|27683|M|9.02,66.52|N|Run east along the road to Thondroril River, then cross the bridge and into Eastern Plaguelands.\n\nIf you have previously been to Eastern Plaguelands and obtained the flightpoint, or if you have a flying mount, you can fly there instead of running.|ACTIVE|27683|LEAD|28577;28578;27684|
+R Thondroril River |QID|27683|M|9.02,66.52|N|Run east along the road to Thondroril River, then cross the bridge and into Eastern Plaguelands.\n\nIf you have previously been to Eastern Plaguelands and obtained the flightpoint, or if you have a flying mount, you can fly there instead of running.|ACTIVE|27683|LEAD|28577^28578^27684|
 T Into the Woods|QID|27683|M|9.02,66.52|N|To Fiona.|ACTIVE|27683|
 
 A Tarenar Sunstrike|QID|27370|M|9.02,66.52|N|From Fiona.|S|
@@ -237,7 +242,7 @@ T What I Do Best|QID|27371|M|18.35,77.66|N|(UI Alert)|
 A A Gift For Fiona|QID|27372|PRE|27371|M|18.35,77.66|N|(UI Alert)|
 C Plaguehounds|QID|27372|M|18.07,71.42|N|Kill Plaguehounds until you get 10 blood.|
 T A Gift For Fiona|QID|27372|M|9.02,66.40|N|To Fiona.|
-A Onward, to Light's Hope Chapel|QID|27373|PRE|27369;27372|M|9.02,66.40|N|From Fiona.|
+A Onward, to Light's Hope Chapel|QID|27373|PRE|27369&27372|M|9.02,66.40|N|From Fiona.|
 
 N Missing Caravan Buff|QID|27373|BUFF|85612;85613;85614|N|Click on Fiona's Caravan to pick one of three buffs.\n\nFiona's Lucky Charm: Allows the looting of Hidden Stash which contains money and a chance of a companion pet.\nGidwin's Weapon Oil: Provides extra Holy damage on melee and ranged attacks.\nTarenar's Talisman: Provides extra Holy damage on successful spell attacks.|
 C Onward, to Light's Hope Chapel|QID|27373|CHAT|M|9.00,66.40|N|Click on Fiona's Caravan and select Ride Fiona's Caravan to its next destination. Sit back and relax, and watch the dialog as the caravan makes it's way to Crown Guard Tower.|
@@ -272,7 +277,7 @@ C I'm Not Supposed to Tell You This|QID|27392|M|40.14,83.75|N|Kill and loot "The
 T I'm Not Supposed to Tell You This|QID|27392|M|32.53,83.80|N|To Pamela Redpath.|S|
 T Pamela's Doll|QID|27384|M|32.47,83.76|N|To Pamela Redpath.|
 T I'm Not Supposed to Tell You This|QID|27392|M|32.53,83.80|N|To Pamela Redpath.|US|
-A Uncle Carlin|QID|27385|PRE|27384;27392|M|32.53,83.80|N|From Pamela Redpath.|
+A Uncle Carlin|QID|27385|PRE|27384&27392|M|32.53,83.80|N|From Pamela Redpath.|
 
 T Zaeldarr the Outcast|QID|27432|M|34.92,68.28|N|To Urk Gagbaz.|
 T Uncle Carlin|QID|27385|M|35.51,68.81|N|To Carlin Redpath.|
@@ -313,7 +318,7 @@ C Villains of Darrowshire - Skull of Horgus|QID|27387|M|37.32,60.24|N|Pick of th
 T Villains of Darrowshire|QID|27387|M|35.15,68.05|N|To Chromie.|RANK|2|
 T Heroes of Darrowshire|QID|27388|M|35.15,68.05|N|To Chromie.|RANK|2|
 T Marauders of Darrowshire|QID|27389|M|35.15,68.05|N|To Chromie.|RANK|2|
-A The Battle of Darrowshire|QID|27390|PRE|27387;27388;27389|M|35.15,68.05|N|From Chromie.|RANK|2|
+A The Battle of Darrowshire|QID|27390|PRE|27387&27388&27389|M|35.15,68.05|N|From Chromie.|RANK|2|
 r Sell Junk. Repair/restock.|QID|27390|NC|M|35.74,68.99|RANK|2|
 
 R Darrowshire|ACTIVE|27390|M|34.92,83.84|N|Go to the middle of Darrowshire, near the well.|RANK|2|
@@ -321,7 +326,7 @@ C The Battle of Darrowshire|QID|27390|U|15209|N|Defend Davil Lightfire and Capta
 T The Battle of Darrowshire|QID|27390|M|32.52,83.78|N|To Pamela Redpath.\n\nOn completion of this quest, a new buff will be available at the caravan. Pamela's Doll: Summon the spirit of Pamela Redpath to accompany you through Eastern Plaguelands.|RANK|2|
 A Hidden Treasures|QID|27391|PRE|27390|M|32.19,83.41|N|From Pamela Redpath.|RANK|2|
 T Hidden Treasures|QID|27391|M|32.19,83.41|N|Right behind the house, next to the chimney.|RANK|2|
-A The Trek Continues|QID|27448|PRE|27381;27382|M|34.84,69.27|N|From Fiona.|
+A The Trek Continues|QID|27448|PRE|27381&27382|M|34.84,69.27|N|From Fiona.|
 C The Trek Continues|QID|27448|M|52.67,53.73|N|Click on Fiona's Caravan and click on the option to continue the trek.|
 
 f Light's Shield Tower|QID|27455|M|52.83,53.48|N|At Devon Manning.|
@@ -343,7 +348,7 @@ l Living Rot|QID|27451|N|Gather 7 pieces of "Living Rot" from the undead.|L|1544
 C To Kill With Purpose|QID|27451|M|55,64|N|Use the "Mortar and Pestle" once you have 7 "Living Rot".|U|15454|
 t Dark Garb|QID|27452|M|54.28,63.03|N|(UI Alert)|
 T To Kill With Purpose|QID|27451|M|55,64|N|(UI Alert)|
-A Catalysm|QID|27453|PRE|27451;27452|M|54.28,63.03|N|(UI Alert)|
+A Catalysm|QID|27453|PRE|27451&27452|M|54.28,63.03|N|(UI Alert)|
 C Catalysm|QID|27453|U|61284|M|58.44,75.55|N|Use the flask on Plague Ravager and Blighted Surge in Lake Meledar. They have to be alive, and you need to be right next to them when you use the flask. This may need some creative thinking ranged classes.|
 T Catalysm|QID|27453|M|58.48,74.34|N|(UI Alert)|
 A Just a Drop in the Bucket|QID|27454|PRE|27453|M|58.48,74.34|N|(UI Alert)|
@@ -395,7 +400,7 @@ T Scarlet Salvage|QID|27614|M|75.29,76.15|N|To Crusade Commander Korfax.|
 T The Wrathcaster|QID|27615|M|75.29,76.15|N|To Crusade Commander Korfax.|
 T The Huntsman|QID|27616|M|75.29,76.15|N|To Crusade Commander Korfax.|
 T The Commander|QID|27619|M|75.29,76.15|N|To Crusade Commander Korfax.|
-A Argent Upheaval|QID|27618|PRE|27614;27615;27616;27619|M|75.32,76.15|N|From Crusade Commander Korfax.|
+A Argent Upheaval|QID|27618|PRE|27614&27615&27616&27619|M|75.32,76.15|N|From Crusade Commander Korfax.|
 T Argent Upheaval|QID|27618|M|76.02,75.35|N|To Archmage Angela Dosantos.|
 T To Take the Abbey|QID|27461|M|76.70,73.26|N|To Crusade Commander Eligor Dawnbringer.|
 A Victory From Within|QID|27612|PRE|27461|M|76.70,73.26|N|From Crusade Commander Eligor Dawnbringer.|
@@ -404,9 +409,9 @@ C Victory From Within|QID|27612|M|78.48,72.92;77.84,70.99|CS|N|Click on the port
 C The Assassin|QID|27613|M|77.85,72.71|N|Go all the way up. He is in stealth.|
 T Victory From Within|QID|27612|M|76.69,73.19|N|To Crusade Commander Eligor Dawnbringer.|
 T The Assassin|QID|27613|M|76.69,73.19|N|To Crusade Commander Eligor Dawnbringer.|
-A Befouled No More|QID|27617|PRE|27612;27613|M|76.69,73.19|N|From Crusade Commander Eligor Dawnbringer.|
+A Befouled No More|QID|27617|PRE|27612&27613|M|76.69,73.19|N|From Crusade Commander Eligor Dawnbringer.|
 T Befouled No More|QID|27617|M|76.09,75.29|N|To Archmage Angela Dosantos.|
-A Like Rats|QID|27620|PRE|27617;27618|M|76.08,75.31|N|From Archmage Angela Dosantos.|
+A Like Rats|QID|27620|PRE|27617&27618|M|76.08,75.31|N|From Archmage Angela Dosantos.|
 C Like Rats|QID|27620|M|81.45,78.75|N|Work your way inside the cathedral and kill Crusader Lord Valdelmar.|
 
 H Light's Hope Chapel|QID|27620|N|Hearth to Light's Hope Chapel, or run if your hearth is not up.|
@@ -421,7 +426,7 @@ C Buried Blades|QID|27467|US|M|76.20,39.41|N|Poke the Slain Scourge Troopers wit
 T Smokey and the Bandage|QID|27458|M|74.94,53.36|N|To Smokey LaRue.|
 T Buried Blades|QID|27467|US|M|75.67,52.21|N|To Master Craftsman Omarion.|
 T Argent Call: The Noxious Glade|QID|27465|M|75.80,52.07|N|To Lord Maxwell Tyrosus.|
-A An Opportune Alliance|QID|27457|PRE|27456;27465|M|73.85,52.01|N|From Rimblat Earthshatter.|
+A An Opportune Alliance|QID|27457|PRE|27456&27465|M|73.85,52.01|N|From Rimblat Earthshatter.|
 R Eastwall Tower|QID|27457|M|62,42|N|Run to Eastwall Tower.|
 f Eastwall Tower|QID|27457|M|61.62,43.81|N|At Richard Trueflight.|
 A Argent Call: Northdale|QID|27466|PRE|27465|M|61.56,43.23|N|From Tarenar Sunstrike.|
@@ -439,7 +444,7 @@ R Zul'Mashar|ACTIVE|27479|M|59.53,22.35|N|Mount up and go to Zul'Mashar|
 C Righteous Indignation|QID|27479|M|65.50,12.34|N|Kill Mossflayers as you go for their eyes, be careful not to step on the graves.|S|
 C Out of the Ziggurat|QID|27481|M|66.45,10.53|N|Take the trail up to the top of the ziggurat and kill Warlord Thresh'jin and loot his corpse.|
 T Out of the Ziggurat|QID|27481|M|66.58,9.17|N|(UI Alert)|
-A Into the Flames|QID|27482|PRE|27465;27481|M|66.58,9.17|N|(UI Alert)|
+A Into the Flames|QID|27482|PRE|27465&27481|M|66.58,9.17|N|(UI Alert)|
 C Into the Flames|QID|27482|U|61316|M|67.29,9.11|N|Throw the corpse into the flame.|
 T Into the Flames|QID|27482|M|67.29,9.11|N|(UI Alert)|
 C Righteous Indignation|QID|27479|M|65.50,12.34|N|Get the rest of the eyes you need.|US|
@@ -493,7 +498,7 @@ C Add 'em to the Pile|QID|27539|M|38.38,30.46|N|Kill Cursed Mages and Scourge So
 T Scourged Mass|QID|27528|M|27.71,20.98|N|To Crusader Kevin Frost.|
 T Defenders of Darrowshire|QID|27529|M|27.71,20.98|N|To Crusader Kevin Frost.|
 T Add 'em to the Pile|QID|27539|M|27.71,20.98|N|To Crusader Kevin Frost.|
-A The Corpsebeasts|QID|27530|PRE|27528;27529;27539|M|27.71,20.98|N|From Crusader Kevin Frost.|
+A The Corpsebeasts|QID|27530|PRE|27528&27529&27539|M|27.71,20.98|N|From Crusader Kevin Frost.|
 C The Corpsebeasts|QID|27530|U|61375|M|28.95,35.02|N|The beacons need to be put near the body so you will have to kill the enemies around it. Also the 3 beacons can not be within 10 yards of each other.|
 T The Corpsebeasts|QID|27530|M|27.63,21.00|N|To Crusader Kevin Frost.|
 
