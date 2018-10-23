@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_uldum_neutral
+-- Date: 2018-10-23 22:13
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3309/revisions/29819/view
 -- Date: 2018-09-24 02:46
 -- Who: jovieve
 -- Log: Annoying CN tag changed to CS.
@@ -223,7 +228,7 @@ R Thistleshrub Valley |QID|27003|N|Welcome to Uldum. To start this guide, you ne
 
 T Hero's Call: Uldum! |QID|28558|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
 T Warchief's Command: Uldum! |QID|28557|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
-T Meetup with the Caravan |QID|28295;28296|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
+T Meetup with the Caravan |QID|28295^28296|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
 
 A Easy Money|QID|27003|M|30.52,65.58|Z|Tanaris|N|From Adarrah.|
 C Easy Money|QID|27003|N|Click on the camel, Lady Humps, then sit back and watch the cinematic.|Z|Tanaris|NC|
@@ -249,7 +254,7 @@ T Smoke in Their Eyes|QID|27923|M|59.65,72.05|N|To Prince Nadun.|S|
 T Kavem the Callous|QID|28105|M|59.65,72.05|N|To Prince Nadun.|
 T Smoke in Their Eyes|QID|27923|M|59.65,72.05|N|To Prince Nadun.|US|
 
-A Escape From the Lost City|QID|28112|PRE|27923;27924;28105|M|59.69,72.02|N|From Prince Nadun, then sit back and watch the cinematic.|
+A Escape From the Lost City|QID|28112|PRE|27923&27924&28105|M|59.69,72.02|N|From Prince Nadun, then sit back and watch the cinematic.|
 T Escape From the Lost City|QID|28112|M|54.90,32.84|N|To King Phaoris. Don't be silly, do not take the money unless you REALLY need it.|
 
 A Impending Retribution|QID|28134|PRE|28112|M|54.90,32.84|N|From King Phaoris.|
@@ -310,7 +315,7 @@ T Field Work|QID|27179|M|64.60,28.65|N|To Harrison Jones.|S|
 T Just the Tip|QID|27176|M|64.60,28.65|N|To Harrison Jones.|
 T Field Work|QID|27179|M|64.60,28.65|N|To Harrison Jones.|US|
 
-A On to Something|QID|27196|PRE|27176;27179|M|64.60,28.65|N|From Harrison Jones.|
+A On to Something|QID|27196|PRE|27176&27179|M|64.60,28.65|N|From Harrison Jones.|
 C On to Something|QID|27196|M|64.25,27.01|N|Speak to Harrison Jones and tell him "I'm ready, Doctor Jones!", the quest completion will follow a few seconds later when he reaches the edge of the Chamber of the Stars.|CHAT|
 T On to Something|QID|27196|M|64.55,27.97|N|To Harrison Jones, he'll jump into the Chamber of Stars, so mount up and head to him inside the Chamber.|
 
@@ -398,7 +403,7 @@ T Under the Choking Sands|QID|27519|M|45.27,37.84|N|To General Ammantep.|US|
 A Send Word to Phaoris|QID|27628|PRE|27706|M|45.23,37.95|N|From Prince Nadun.|
 T Minions of Al'Akir|QID|27520|M|45.23,37.95|N|To Prince Nadun.|RANK|2|
 
-A The Vortex Pinnacle|QID|28845|LEAD|28779|PRE|27520;27706;27519|M|45.25,37.79|N|Inside the Instance, if you wish to do it. From General Ammantep.|RANK|2|
+A The Vortex Pinnacle|QID|28845|LEAD|28779|PRE|27520&27706&27519|M|45.25,37.79|N|Inside the Instance, if you wish to do it. From General Ammantep.|RANK|2|
 T Send Word to Phaoris|QID|27628|M|54.79,32.72|N|To King Phaoris, then sit back and watch the cinematic.|
 
 A The High Priest's Vote|QID|27630|PRE|27628|M|54.97,34.01|N|From Prince Nadun, outside the throne room.|S|
@@ -421,7 +426,7 @@ T Trespassers in the Water|QID|27837|M|52.81,45.59;54.18,41.83|CS|N|To High Prie
 T Stopping the Spread|QID|27836|M|54.18,41.83|CS|N|To High Priest Amet.|
 T Trespassers in the Water|QID|27837|M|52.81,45.59;54.18,41.83|CS|N|To High Priest Amet.|US|
 
-A The Defilers' Ritual|QID|28611|PRE|27836;27837|M|54.16,41.93|N|From High Priest Amet.|
+A The Defilers' Ritual|QID|28611|PRE|27836&27837|M|54.16,41.93|N|From High Priest Amet.|
 C The Defilers' Ritual|QID|28611|M|52.81,45.59;52.18,40.18;49.89,40.11|CS|N|At the 2nd arrow, dive underwater, swim to the Murkdeep Cavern and kill Dark Ritualist Zakahn. Pull his assistants first.|
 T The Defilers' Ritual|QID|28611|M|52.81,45.59;54.18,41.83|CS|N|To High Priest Amet.|
 
@@ -472,7 +477,7 @@ A Ancient Weapons|QID|27839|PRE|28201|M|58.94,46.10|N|From High Commander Kamses
 T Return to Camp|QID|28291|M|58.94,46.10|N|To High Commander Kamses.|
 T The Pit of Scales|QID|27738|M|56.70,54.65|N|To Vizier Tanotep.|
 
-A The High Council's Decision|QID|28533|PRE|27738;27838;28291|M|56.70,54.65|N|From Vizier Tanotep.|
+A The High Council's Decision|QID|28533|PRE|27738&27838&28291|M|56.70,54.65|N|From Vizier Tanotep.|
 C Ancient Weapons|QID|27839|U|62534|M|60.43,58.56|N|Use the Horn of Ramkahen to call some laborors to join you.  These laborers will charge into the smugglers and distract them.  Whilst the smugglers are distracted by the laborers, run in and right-click one of the white chests to loot the Ancient Tol'vir Armaments.|NC|
 T Ancient Weapons|QID|27839|M|58.86,46.16|N|To High Commander Kamses.|
 T The High Council's Decision|QID|28533|M|55.03,32.76|N|To King Phaoris.|
@@ -490,7 +495,7 @@ C Punish the Trespassers|QID|28499|M|72.88,48.16|N|Kill Neferset Looters, Raider
 T The Secret of Nahom|QID|28498|M|67.25,42.81|N|To Salhet.|
 T Punish the Trespassers|QID|28499|M|67.28,42.79|N|To Sun Prophet Tumet.|
 
-A The Cypher of Keset|QID|28500|PRE|28498;28499|M|67.26,42.79|N|From Salhet.|
+A The Cypher of Keset|QID|28500|PRE|28498&28499|M|67.26,42.79|N|From Salhet.|
 C The Cypher of Keset|QID|28500|M|78.23,45.77|N|Kill Raider Lord Havat and loot the Cypher of Keset.|
 T The Cypher of Keset|QID|28500|M|67.25,42.82|N|To Salhet.|
 
@@ -523,7 +528,7 @@ T A Disarming Distraction|QID|27761|M|74.08,64.44|N|To the A.I.D.A. Terminal.|S|
 T Core Access Codes|QID|27777|M|74.08,64.44|N|To the A.I.D.A. Terminal.|
 T A Disarming Distraction|QID|27761|M|74.08,64.44|N|To the A.I.D.A. Terminal.|US|
 
-A Hacking the Wibson|QID|27778|PRE|27761+27777|M|74.08,64.44|N|From the A.I.D.A. Terminal.|
+A Hacking the Wibson|QID|27778|PRE|27761^27777|M|74.08,64.44|N|From the A.I.D.A. Terminal.|
 C Hacking the Wibson|QID|27778|M|76.94,62.96|N|Fly to the top of the M.A.C Diver (That big fish looking vehicule). Right-click the maintenance tools, loot the Maintenance Axe. Right-click the Wibson Mainframe.|NC|
 T Hacking the Wibson|QID|27778|M|77.24,63.23|N|To the Fusion Core.|
 
@@ -553,7 +558,7 @@ T Lieutenants of Darkness|QID|28480|M|52.07,65.43|N|To King Phaoris.|S|
 T Bleeding the Enemy|QID|28483|M|52.07,65.43|N|To King Phaoris.|
 T Lieutenants of Darkness|QID|28480|M|52.07,65.43|N|To King Phaoris.|US|
 
-A The Fall of Neferset City|QID|28520|PRE|28480;28483;28486|M|52.07,65.43|N|From King Phaoris.|
+A The Fall of Neferset City|QID|28520|PRE|28480&28483&28486|M|52.07,65.43|N|From King Phaoris.|
 C The Fall of Neferset City|QID|28520|M|52.04,82.29|N|Defeat Dark Pharaoh Tekahn. NPCs will come to your aid, just make sure you avoid the laser beams from the Colossi.|
 T The Fall of Neferset City|QID|28520|M|54.89,32.82|U|6948|N|Use your Hearthstone. To King Phaoris.|
 
@@ -578,7 +583,7 @@ A Ignition|QID|27903|PRE|27901|M|44.02,57.05|N|From Harrison Jones.|
 C Ignition|QID|27903|U|62611|M|45.34,59.06|N|Fly down inside the Chamber of the Sun. Go to the Titanic Guardian statue and use the Titan Activation Device. Use meteors thrown at you to hit the Guardian, you need to right-click them to launch them. Kill the Guardian and loot the Lens of the Sun.|
 T Ignition|QID|27903|M|45.57,57.76|N|On the circle platform inside the Chamber of the Sun.|
 
-A Tailgunner!|QID|27905|PRE|27903;27900|M|43.96,57.10|N|From Harrison Jones.|
+A Tailgunner!|QID|27905|PRE|27903&27900|M|43.96,57.10|N|From Harrison Jones.|
 C Tailgunner!|QID|27905|M|54.54,42.07|N|Spam ability #1 and #2 while aiming. Easy quest!|
 
 T Tailgunner!|QID|27905|M|54.65,41.85|N|Turnin to Harrison Jones.|
@@ -624,7 +629,7 @@ T Idolatry|QID|27942|M|24.45,64.11|N|To Commander Schnottz.|S|
 T Angered Spirits|QID|27943|M|24.45,64.11|N|From Commander Schnottz.|
 T Idolatry|QID|27942|M|24.45,64.11|N|To Commander Schnottz.|US|
 
-A Gobbles!|QID|27950|PRE|27941;27942;27943|M|24.45,64.11|N|From Commander Schnottz.|
+A Gobbles!|QID|27950|PRE|27941&27942&27943|M|24.45,64.11|N|From Commander Schnottz.|
 C Gobbles!|QID|27950|M|24.43,64.15|N|Speak with Commander Schnottz and just watch the ritual.|NC|
 T Gobbles!|QID|27950|M|24.43,64.15|N|(UI Alert)|
 
@@ -661,7 +666,7 @@ C The Great Escape|QID|28194|M|25.13,68.24|US|N|Kill Schnottz Sea Troopers until
 T The Great Escape|QID|28194|M|21.87,64.05|N|To the Prolific Writer.|
 T Sending a Message|QID|28195|M|22.48,63.21|N|To Commander Schnottz.|
 
-A Firing Squad|QID|28267|PRE|28194;28195|M|22.48,63.21|N|From Commander Schnottz.|
+A Firing Squad|QID|28267|PRE|28194&28195|M|22.48,63.21|N|From Commander Schnottz.|
 C Firing Squad|QID|28267|M|22.48,63.15;23.52,60.25|N|Speak with Commander Schnottz.|CC|
 T Firing Squad|QID|28267|M|23.52,60.25|N|To Harrison Jones.|
 
@@ -713,7 +718,7 @@ T Missing Pieces|QID|28272|M|27.02,7.61|N|To Harrison Jones.|S|
 T Reduced Productivity|QID|28271|M|27.02,7.61|N|To Harrison Jones.|
 T Missing Pieces|QID|28272|M|27.02,7.61|N|To Harrison Jones.|US|
 
-A Stirred the Hornet's Nest|QID|28363|PRE|28271;28272|M|27.02,7.61|N|From Harrison Jones.|
+A Stirred the Hornet's Nest|QID|28363|PRE|28271&28272|M|27.02,7.61|N|From Harrison Jones.|
 T Stirred the Hornet's Nest|QID|28363|M|29.55,21.92|N|To Sullah.|
 
 A Shroud of the Makers|QID|28367|PRE|28363|M|29.55,21.92|N|From Sullah.|
