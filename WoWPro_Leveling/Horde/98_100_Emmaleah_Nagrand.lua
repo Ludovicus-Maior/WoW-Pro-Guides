@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
+-- Date: 2018-10-23 22:16
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3605/revisions/29122/view
 -- Date: 2018-02-22 23:36
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -155,11 +160,11 @@ return [[
 N Beginnings|QID|34794|N|This guide begins at your garrison to take the free flight to Nagrand.|
 N Bonus Objectives|QID|34794|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.|
 
-T News from Nagrand|QID|36607;36602|M|45.82,42.96|Z|Frostwall|N|To Rokhan.|
+T News from Nagrand|QID|36607^36602|M|45.82,42.96|Z|Frostwall|N|To Rokhan.|
 A Taking the Fight to Nagrand|QID|34794|LEAD|34795|M|45.82,42.96|Z|Frostwall|N|From Rokhan.|
-C Taking the Fight to Nagrand|QID|34794;36952|M|45.91,51.14|Z|Frostwall|CHAT|N|Take the chat flight option (not the flightpath) at Bron Skyhorn.|
-C Taking the Fight to Nagrand|QID|34794;36952|M|86.37,66.18|CHAT|
-T Taking the Fight to Nagrand|QID|34794;36952|M|86.37,66.18|N|To Stone Guard Brox.|
+C Taking the Fight to Nagrand|QID|34794^36952|M|45.91,51.14|Z|Frostwall|CHAT|N|Take the chat flight option (not the flightpath) at Bron Skyhorn.|
+C Taking the Fight to Nagrand|QID|34794^36952|M|86.37,66.18|CHAT|
+T Taking the Fight to Nagrand|QID|34794^36952|M|86.37,66.18|N|To Stone Guard Brox.|
 A The Might of the Warsong|QID|34795|M|86.37,66.18|N|From Stone Guard Brox.|
 R Wor'var|QID|34795|M|81.86,49.82|N|Eventually this road takes you there.|
 T The Might of the Warsong|QID|34795|M|82.83,45.06|N|To Thrall.|
@@ -180,7 +185,7 @@ C The Blade Itself|QID|34849|M|85.97,53.89|T|Instructor Luhk|
 C Not Without My Honor|QID|34850|US|NC|M|84.88,55.33|N|These treasure boxes are located inside many of the buildings. One of them will have his banner.|
 T The Blade Itself|QID|34849|M|85.44,54.60|N|To Lantresor of the Blade.|
 T Not Without My Honor|QID|34850|M|85.44,54.60|N|To Lantresor of the Blade.|
-A Meet Me in the Cavern|QID|34866|PRE|34849;34850|M|85.44,54.60|N|From Lantresor of the Blade.|
+A Meet Me in the Cavern|QID|34866|PRE|34849&34850|M|85.44,54.60|N|From Lantresor of the Blade.|
 C The Friend of My Enemy|QID|34826|US|M|85.42,55.30|N|Finish this up before you go in the Cavern as the ones inside don't count and when you come out you will be neutral to them.|
 T Meet Me in the Cavern|QID|34866|M|44.93,19.88|N|To Lantresor of the Blade.|Z|The Master's Cavern@NagrandDraenor|
 A Challenge of the Masters|QID|34868|PRE|34866|M|44.93,19.88|N|From Lantresor of the Blade.|Z|The Master's Cavern@NagrandDraenor|
@@ -233,8 +238,8 @@ C A Lesson in Mineralogy|QID|34809|M|64.35,52.31|N|Kill the earth elementals and
 C Good Help is Hard to Find|QID|34811|US|NC|M|63.54,52.83|N|These are shovels sticking out of dirt piles with goblins standing beside them.|RANK|2|
 T A Lesson in Mineralogy|QID|34809|M|71.06,52.32|N|To the Gold-O-Matic 9000.|RANK|2|
 T Good Help is Hard to Find|QID|34811|M|71.12,52.43|N|To Trixi Leroux.|RANK|2|
-A A Lesson in Teamwork|QID|35663|PRE|34809;34811|M|71.13,52.35|N|From Gazmolf Futzwangler.|RANK|2|
-A A Lesson in Archaeology|QID|35632|PRE|34809;34811|M|71.13,52.35|N|From Gazmolf Futzwangler.|RANK|2|
+A A Lesson in Teamwork|QID|35663|PRE|34809&34811|M|71.13,52.35|N|From Gazmolf Futzwangler.|RANK|2|
+A A Lesson in Archaeology|QID|35632|PRE|34809&34811|M|71.13,52.35|N|From Gazmolf Futzwangler.|RANK|2|
 C A Lesson in Teamwork|QID|35663|M|66.91,50.19|QO|1|S|N|These drop off of the ogres and exist as groundspawn.|RANK|2|
 C A Lesson in Archaeology|QID|35632|U|113217|M|12.21,49.66;69.33,40.19|CS|NC|N|Inside the cave is a disk in the middle of a fireball, The goblins do all the work, all you have to do is place the teleportation device near the fireball so they can.|Z|Stonecrag Gorge@NagrandDraenor|RANK|2|
 C A Lesson in Teamwork|QID|35663|M|66.91,50.19|QO|1|US|N|These drop off of the ogres and exist as groundspawn.|RANK|2|
@@ -288,7 +293,7 @@ C I Help Ya Kill Dem|QID|34915|M|66.50,62.89|US|N|You should have finished killi
 T I Help Ya Kill Dem|QID|34915|M|68.54,64.52|N|To Shadow Hunter Kajassa.|RANK|2|
 T The Blessing of Samedi|QID|34916|M|68.54,64.52|N|To Shadow Hunter Kajassa.|RANK|2|
 T Shields Up!|QID|34917|M|68.54,64.52|N|To Shadow Hunter Kajassa.|RANK|2|
-A Shields Down!|QID|34918|PRE|34915;34916;34917|M|68.54,64.52|N|From Shadow Hunter Kajassa.|RANK|2|
+A Shields Down!|QID|34918|PRE|34915&34916&34917|M|68.54,64.52|N|From Shadow Hunter Kajassa.|RANK|2|
 C Shields Down!|QID|34918|T|Packleader Kargora|M|66.67,66.06|RANK|2|
 l Abu'gar's Vitality|QID|36711|L|114242|M|65.83,61.51;65.82,61.14|CS|N|Mouseover to find Abu'gar's fishing pole on the ledge below you.  Once you find it step off (dismounted so you don't go out too far).|RANK|3|
 C King of the Breezestriders|QID|35378|M|57.83,69.78|RANK|2|
@@ -321,7 +326,7 @@ C Reglakk's Research|QID|35158|T|Bulgorg the Wind Slayer|M|81.51,76.63|N|Attack 
 H Wor'var|QID|35159|M|81.07,77.89|N|Hearth Back to your outpost if you can or run from here, this portal will take you to the base of the overlook so you don't have to fight your way back down.|RANK|2|
 T Reglakk's Research|QID|35158|M|82.83,45.06|N|To Thrall.|RANK|2|
 A Along the Riverside|QID|35095|PRE|34899|M|82.83,45.06|N|From Thrall.|RANK|2|
-A The Farseer Awaits|QID|34964|LEAD|34965|PRE|34918;35158|M|82.83,45.06|N|From Thrall.|RANK|2|
+A The Farseer Awaits|QID|34964|LEAD|34965|PRE|34918&35158|M|82.83,45.06|N|From Thrall.|RANK|2|
 T Removing the Reinforcements|QID|35159|M|82.93,44.13|N|To Foreman Thazz'ril.|RANK|2|
 
 R Spriteleaf Thicket|QID|35146|M|84.2,28.4|RANK|2|
@@ -337,7 +342,7 @@ C The Search For Research|QID|36275|QO|3|M|91.79,21.79|NC|N|The boots are sittin
 C A Fascinating Fungus|QID|36284|M|86.75,17.21|US|N|These are small glowing pods. They also drop rarely from the giants.|RANK|2|
 T The Search For Research|QID|36275|M|86.66,28.31|N|To Dr. Hadley Ricard.|RANK|2|
 T A Fascinating Fungus|QID|36284|M|86.66,28.31|N|To Dr. Hadley Ricard.|RANK|2|
-A Dirgemire|QID|36285|PRE|36275;36284|M|86.66,28.31|N|From Dr. Hadley Ricard.|RANK|2|
+A Dirgemire|QID|36285|PRE|36275&36284|M|86.66,28.31|N|From Dr. Hadley Ricard.|RANK|2|
 C Dirgemire|QID|36285|CS|M|86.85,16.25;84.66,17.50|N|The entrance to the underwater cave is straight down from the first waymark.|T|Dirgemire|RANK|2|
 T Dirgemire|QID|36285|M|86.68,28.30|N|To Dr. Hadley Ricard.|RANK|2|
 C Whacking Weeds|QID|36273|M|84.27,28.31|US|RANK|2|
@@ -382,7 +387,7 @@ T A Wrong of Earth and Fire|QID|33928|M|71.34,17.89|N|To Incineratus.|RANK|2|
 T Earth, Wind and Fire...and Water|QID|34881|M|71.34,17.89|N|To Incineratus.|RANK|2|
 T Guardians of the Plateau|QID|34893|M|71.37,17.99|N|To Incineratus.|RANK|2|
 T Elemental Attunement|QID|34891|M|71.71,19.68|N|To Farseer Drek'Thar.|RANK|2|
-A The Ritual of Binding|QID|35265|PRE|34941;33928;34893|M|71.72,19.64|N|From Farseer Drek'Thar.|RANK|2|
+A The Ritual of Binding|QID|35265|PRE|34941&33928&34893|M|71.72,19.64|N|From Farseer Drek'Thar.|RANK|2|
 C The Ritual of Binding|QID|35265|CHAT|M|72.68,19.70|RANK|2|
 T The Ritual of Binding|QID|35265|M|71.70,19.65|N|To Farseer Drek'Thar.|RANK|2|
 A The Call of Oshu'gun|QID|35232|M|71.70,19.65|N|From Farseer Drek'Thar.|RANK|2|
@@ -403,8 +408,8 @@ C Dark Binding|QID|35144|US|M|66.31,17.68|Z|The Underpale@NagrandDraenor|RANK|2|
 C The Pale Threat|QID|35145|US|QO|2|M|66.31,17.68|Z|The Underpale@NagrandDraenor|RANK|2|
 T Dark Binding|QID|35144|M|46.02,32.72|N|To Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
 T The Pale Threat|QID|35145|M|46.02,32.72|N|To Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
-A The Fate of Gordawg|QID|34271|PRE|35144;35145|M|46.02,32.72|N|From Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
-A The Dark Heart of Oshu'gun|QID|35317|PRE|35144;35145|M|46.02,32.72|N|From Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
+A The Fate of Gordawg|QID|34271|PRE|35144&35145|M|46.02,32.72|N|From Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
+A The Dark Heart of Oshu'gun|QID|35317|PRE|35144&35145|M|46.02,32.72|N|From Farseer Drek'Thar.|Z|The Underpale@NagrandDraenor|RANK|2|
 C The Fate of Gordawg|QID|34271|M|41.21,40.82|T|Gordawg|N|Kill Gordawg|Z|The Underpale@NagrandDraenor|RANK|2|
 C The Dark Heart of Oshu'gun|QID|35317|M|17.1,66.23|T|Decimatus|N|Listen to Chogall and Gul'dan and then kill Decimatus.|Z|The Underpale@NagrandDraenor|RANK|2|
 R Spirit Woods|QID|35084|M|22.76,65.79;9.95,61.41|CS|Z|The Underpale@NagrandDraenor|N|Follow Farseer Drek'Thar out for a shortcut.|RANK|2|
@@ -421,7 +426,7 @@ f Nivek's Overlook|QID|35084|M|49.38,75.91|N|At Nivek Lee. Its a bit of a run ov
 C Silence the Call|QID|35084|QO|2|M|55.45,55.92|US|N|If somehow you avoided killing enough, now is the time to finish it.|RANK|2|
 T Disrupt the Rituals|QID|35083|M|46.77,57.46;40.43,56.80|CN|N|To the Shamanstone.|RANK|2|
 T Silence the Call|QID|35084|M|46.77,57.46|N|To the Shamanstone. (any of the 3 shamanstones work, you dont have to run to the one marked in the guide.)|RANK|2|
-A Through the Nether|QID|35085|PRE|35083;35084|M|46.77,57.46|N|From the Shamanstone.|RANK|2|
+A Through the Nether|QID|35085|PRE|35083&35084|M|46.77,57.46|N|From the Shamanstone.|RANK|2|
 
 C Through the Nether|QID|35085|NC|M|48.09,59.03|N|Click on the totem to enter the spirit world.|RANK|2|
 T Through the Nether|QID|35085|M|46.75,57.57|N|To the Shamanstone. (any of the 3 shamanstones work, you dont have to run to the one marked in the guide.)|RANK|2|
@@ -435,7 +440,7 @@ C The Nether Approaches|QID|35087|M|50.14,61.12|NC|US|N|These are marked on your
 C The Void March|QID|35086|US|M|47.77,57.76|N|Kill these whilie collapsing portals.|RANK|2|
 T The Nether Approaches|QID|35087|M|46.81,57.53|N|To the Shamanstone. (any of the 3 shamanstones work, you dont have to run to the one marked in the guide.)|RANK|2|
 T The Void March|QID|35086|M|46.81,57.53|N|To the Shamanstone.|RANK|2|
-A The Shadow of the Void|QID|35088|PRE|35086;35087|M|46.81,57.53|N|From the Shamanstone.|RANK|2|
+A The Shadow of the Void|QID|35088|PRE|35086&35087|M|46.81,57.53|N|From the Shamanstone.|RANK|2|
 C The Shadow of the Void|QID|35088|M|48.09,58.59|T|Invalidus|N|Click on the crystal to summon Invalidus.|RANK|2|
 T The Shadow of the Void|QID|35088|M|46.81,57.54|N|To the Shamanstone. (any of the 3 shamanstones work, you dont have to run to the one marked in the guide.)|RANK|2|
 
@@ -454,7 +459,7 @@ C Lighting The Darkness|QID|35022|NC|U|112396|M|39.50,53.26|US|N|Finish lighting
 C Echoes of the Past|QID|35023|M|39.44,54.39|US|N|If you don't have all you need, hunt down the last few.|RANK|2|
 T Echoes of the Past|QID|35023|M|40.39,56.75|N|To Dahaka.|RANK|2|
 T Lighting The Darkness|QID|35022|M|40.43,56.80|N|To Gar'rok.|RANK|2|
-A Golmash Hellscream|QID|35024|PRE|35022;35023|M|40.42,56.80|N|From Gar'rok.|RANK|2|
+A Golmash Hellscream|QID|35024|PRE|35022&35023|M|40.42,56.80|N|From Gar'rok.|RANK|2|
 C Golmash Hellscream|QID|35024|M|37.25,56.69|T|Golmash Hellscream|RANK|2|
 T Golmash Hellscream|QID|35024|M|40.43,56.80|N|To Gar'rok.|RANK|2|
 
