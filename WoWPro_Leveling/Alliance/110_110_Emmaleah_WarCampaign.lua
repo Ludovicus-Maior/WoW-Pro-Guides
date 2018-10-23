@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-10-23 22:21
+-- Who: Ludovicus_Maior
+-- Log: Empty tag removal
+
+-- URL: http://wow-pro.com/node/3760/revisions/30068/view
 -- Date: 2018-10-20 23:38
 -- Who: Emmaleah
 -- Log: Delete duplicated first line of guide registration.
@@ -252,11 +257,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Fix [The Dark Lady] coordinate error.
 
--- URL: http://wow-pro.com/node/3760/revisions/29259/view
--- Date: 2018-05-06 22:13
--- Who: Emmaleah
--- Log: To correct syntax and the node #
-
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
 WoWPro:GuideName(guide,'War Campaign')
@@ -425,7 +425,7 @@ T Rocks of Ragnaros|QID|51309|M|40.75,70.83|Z|Zuldazar|N|To Anvil-Thane Thurgade
 T Mole Machinations|QID|51331|M|40.75,70.83|Z|Zuldazar|N|To Anvil-Thane Thurgaden.|
 A Fragment of the Firelands|QID|51359|M|40.75,70.83|Z|Zuldazar|N|From Anvil-Thane Thurgaden.|PRE|51309&51331|
 C Fragment of the Firelands|QID|51359|M|40.70,70.87|Z|Zuldazar|QO|1|NC|U|160058|N|Click the provided stabilizer to be transferred into a vehicle ui - style elemental.|
-C Fragment of the Firelands|QID|51359|M|40.70,70.87|Z|Zuldazar||QO|2|N|Go forth and kill goblins.|
+C Fragment of the Firelands|QID|51359|M|40.70,70.87|Z|Zuldazar|QO|2|N|Go forth and kill goblins.|
 T Fragment of the Firelands|QID|51359|M|40.75,70.84|Z|Zuldazar|N|To Anvil-Thane Thurgaden.|
 A Champion: Kelsey Steelspark|QID|52003|M|41.76,70.68|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|51359|
 T Champion: Kelsey Steelspark|QID|52003|M|41.76,70.68|Z|Zuldazar|N|To Kelsey Steelspark.|
@@ -759,7 +759,7 @@ T The Wildhammer Specialty|QID|52492|M|41.72,57.01|Z|1156|N|Turn in to Shandris 
 A An Unnatural Crew|QID|52493|M|41.72,57.01|Z|1156|N|From Shandris Feathermoon.|PRE|52492|
 A Foul Crystals for Foul People|QID|52494|M|41.72,57.01|Z|1156|N|From Shandris Feathermoon.|PRE|52492|
 C An Unnatural Crew|QID|52493|M|41.66,55.77|Z|1156|S|N|Kill 12 Horde on the ship.|
-C Foul Crystals for Foul People|QID|52494|M|41.66,55.77|Z|1156||NC|N|Destroy 5 San'layn Crystals |
+C Foul Crystals for Foul People|QID|52494|M|41.66,55.77|Z|1156|NC|N|Destroy 5 San'layn Crystals |
 C An Unnatural Crew|QID|52493|M|41.66,55.77|Z|1156|US|N|Continue to kill Horde on the ship.|
 T An Unnatural Crew|QID|52493|M|41.67,55.38|Z|1156|N|To Shandris Feathermoon below deck.|
 T Foul Crystals for Foul People|QID|52494|M|41.67,55.38|Z|1156|N|To Shandris Feathermoon below deck.|
