@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2018-10-23 23:53
+-- Who: Ludovicus_Maior
+-- Log: Add [Refuge Point] and [Stonetalon Peak].
+--	Fix QID on [Northwatch Expedition Base Camp] bucket.
+
+-- URL: http://wow-pro.com/node/3440/revisions/30076/view
 -- Date: 2018-10-23 22:09
 -- Who: Ludovicus_Maior
 -- Log: And/Or
@@ -286,7 +292,9 @@ A Candy Bucket |QID|28990|M|26.11,25.93|Z|Wetlands|N|Swiftgear Station|
 
 R Greenwarden's Grove|QID|28991|M|56.32,42.04|Z|Wetlands|U|37586|
 A Candy Bucket |QID|28991|M|58.15,39.23|Z|Wetlands|N|Greenwarden's Grove|
-F Stormfeather Outpost|QID|28970|M|65.72,44.97|Z|The Hinterlands|U|37586|
+F Refuge Point |QID|28954|M|65.72,44.97|Z|Wetlands|U|37586|
+A Candy Bucket |QID|28954|M|40.1,49.0|Z|Arathi Highlands|
+F Stormfeather Outpost|QID|28970|M|39.6,47|Z|Arathi Highlands|U|37586|
 A Candy Bucket |QID|28970|M|66.23,44.44|Z|The Hinterlands|N|Stormfeather Outpost|
 F Aerie Peak|QID|12351|M|11.11,46.09|Z|The Hinterlands|U|37586|
 A Candy Bucket |QID|12351|M|14.17,44.71|Z|The Hinterlands|N|Aerie Peak|
