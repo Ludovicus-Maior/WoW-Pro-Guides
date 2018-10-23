@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2018-10-23 01:50
+-- Who: Emmaleah
+-- Log: Moved a few pick up / turn ins at suncrown village/amani catacombs, but I suspect more is needed.
+
+-- URL: http://wow-pro.com/node/3221/revisions/29966/view
 -- Date: 2018-10-17 02:26
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -263,7 +268,7 @@ T Windrunner Village|QID|9140|M|46.39,28.44|N|To Arcanist Vandril.|
 T Into Occupied Territory|QID|9163|M|44.88,32.51|N|To Dame Auriferous.|
 A Deliver the Plans to An'telas|QID|9166|PRE|9163|M|44.88,32.51|N|From Dame Auriferous.|
 T Trouble at the Underlight Mines|QID|9192|M|44.74,32.29|N|To Deathstalker Maltendis.|
-A Troll Juju|QID|9199|M|44.81,32.33|N|From High Executor Mavren.|
+A Troll Juju|QID|9199|M|44.81,32.33|N|From Deathstalker Maltendis.|
 T Retaking Windrunner Spire|QID|9173|M|44.82,32.37|N|To High Executor Mavren.|
 T The Lady's Necklace|QID|9175|M|44.82,32.37|N|To High Executor Mavren.|
 A Journey to Undercity|QID|9180|PRE|9175|M|44.82,32.37|R|BloodElf|N|From High Executor Mavren.|
@@ -292,6 +297,8 @@ C Escape from the Catacombs|QID|9212|NC|M|72.36,30.09|N|She is slow inside the c
 C Investigate the Amani Catacombs|QID|9193|NC|U|22755|M|62.92,32.46|N|Finish burning any Troll remains you need.|US|
 C Troll Juju|QID|9199|M|66,28|N|Kill any Troll you come across to get 8 Troll Juju.|US|
 T Escape from the Catacombs|QID|9212|M|72.37,29.72|N|To Captain Helios.|
+T Troll Juju|QID|9199|M|71.6,31.6|N|To Apothecary Venustus.|
+T Investigate the Amani Catacombs|QID|9193|M|71.89,32.63|N|To Ranger Vynna.|
 r Repair/Restock|QID|9212|M|72.13,31.97|N|At Narina.|
 T The Traitor's Shadow|QID|9161|M|79.63,17.72|N|Fight your way in, and click on the book that is at the end of the ramp. Kill Vamperic Mistbats as you go.|
 A Hints of the Past|QID|9162|PRE|9161|M|79.63,17.72|N|From the book.|
@@ -316,8 +323,6 @@ C Shadowpine Weaponry|QID|9214|M|63.86,66.49|US|N|Kill Catlords and Hexxers till
 
 H Tranquillien|QID|9193|U|6948|N|Hearth back to Tranquillien or fly there if you want to save your hearth.|
 A The Sanctum of the Sun|QID|9151|LEAD|9220|M|46.01,31.95|N|From Magister Darenis.|
-T Troll Juju|QID|9199|M|44.74,32.29|N|To Deathstalker Maltendis.|
-T Investigate the Amani Catacombs|QID|9193|M|44.85,32.65|N|To Advisor Valwyn.|
 r Repair/Restock|M|49.07,30.33|N|At Blacksmith Frances.|
 F Hatchet Hills|QID|9169|M|45.5,30.55|N|Fly to Hatchet Hills (Zul'Aman).|
 l Crystal Controlling Orb|QID|9169|L|23191 |M|58.20,64.72|N|Kill Sentinel Infiltrators until you get a Crystal Controlling Orb.|
