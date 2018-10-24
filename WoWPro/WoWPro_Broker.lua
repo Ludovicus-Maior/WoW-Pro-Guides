@@ -2716,7 +2716,7 @@ function WoWPro.GrailQuestPrereqOneQid(qid, out)
     for i,p in ipairs(data) do
         if type(p) ~= "table" then
             if tonumber(p) and tonumber(p) > 1 then
-                out["sep"] = "&"
+                out["sep"] = "^"
                 out[tostring(p)] = true
                 -- WoWPro:dbp("[+%s]=true)",tostring(p))
             end
@@ -2725,7 +2725,7 @@ function WoWPro.GrailQuestPrereqOneQid(qid, out)
             for j,q in ipairs(p) do
                 if type(q) ~= "table" then
                     if tonumber(q) and tonumber(q) > 1 then
-                        out["sep"] = "^"
+                        out["sep"] = "&"
                         out[tostring(q)] = true
                         -- WoWPro:dbp("[;%s]=true)",tostring(q))
                     end
@@ -2743,11 +2743,11 @@ function WoWPro.GrailQuestPrereq(QID)
     if not Grail or not WoWPro.EnableGrail then return nil end
     if QID == "*" then return nil end
     if not QID then return nil end
-    local numQIDs = select("#", string.split("^", QID))
+    local numQIDs = select("#", string.split("^&", QID))
     local out = {}
     -- WoWPro:dbp("GrailQuestPrereq(%s)",QID)
     for j=1,numQIDs do
-        local qid = select(numQIDs-j+1, string.split("^", QID))
+        local qid = select(numQIDs-j+1, string.split("^&", QID))
         qid = tonumber(qid)
         out = WoWPro.GrailQuestPrereqOneQid(qid, out)
     end
@@ -2779,16 +2779,16 @@ function WoWPro.GrailQuestCheckPrereq(QID, PRE)
     local grail_sep, pre_sep
     grail_sep = "?"
     pre_sep = "?"
-    if grail_pre:find("&") then
+    if grail_pre:find("&",1,true) then
         grail_sep = '&'
     end
-    if grail_pre:find("^") then
+    if grail_pre:find("^",1,true) then
         grail_sep = '^'
     end
-    if PRE:find("&") then
+    if PRE:find("&",1,true) then
         pre_sep = '&'
     end
-    if PRE:find("^") then
+    if PRE:find("^",1,true) then
         pre_sep = '^'
     end
     -- Different separators, not good
