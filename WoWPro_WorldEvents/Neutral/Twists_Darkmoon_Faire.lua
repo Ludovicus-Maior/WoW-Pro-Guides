@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2018-10-24 19:24
+-- Who: Ludovicus_Maior
+-- Log: Fix some bad ACH tags
+
+-- URL: http://wow-pro.com/node/3459/revisions/28837/view
 -- Date: 2018-01-15 19:07
 -- Who: Ludovicus
 -- Log: Update Cannon-Blast for new falling dynamics.
@@ -246,8 +251,8 @@ C It's Hammer Time|QID|29463|NC|N|Talk to Mola again picking Ready to whack! Go 
 T It's Hammer Time|QID|29463|N|To Mola.|RANK|2|
 
 A The Humanoid Cannonball|QID|29436|M|52.67,56.09|N|From Maxima Blastenheimer.|RANK|2|
-N Achievement|QID|29436|ACH|6021;0|N|Talk to Teleportologist Fozlebub for a return trip.|M|57.25,89.85|S|RANK|2|
-C The Humanoid Cannonball|QID|29436|M|55.6, 83.3|NC|N|Talk to Maxima again picking Launch me!. Change your view till you are looking down, then try to release (key 1) right when you are about to go past the waypoint.|RANK|2|
+N Achievement|QID|29436|ACH|6021|N|Talk to Teleportologist Fozlebub for a return trip.|M|57.25,89.85|S|RANK|2|
+C The Humanoid Cannonball|QID|29436|M|55.80, 80.26|NC|N|Talk to Maxima again picking Launch me!. Change your view till you are looking down, then try to release (key 1) right when you are about to go past the waypoint.|RANK|2|
 T The Humanoid Cannonball|QID|29436|N|To Maxima Blastenheimer.|RANK|2|
 
 T The Enemy's Insignia|QID|29457|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
@@ -268,7 +273,7 @@ A Eyes on the Prizes|QID|29517|M|49.41,60.83|N|From Rinling.|P|Leatherworking;16
 C Eyes on the Prizes|QID|29517|NC|N|Use your Darkmoon Craftsman's Kit.|U|71977|
 T Eyes on the Prizes|QID|29517|M|49.41,60.83|N|From Rinling.|
 
-N Achievement|QID|29438|ACH|6022;1|N|Pick one target and fire when it lights up.|S|
+N Achievement|QID|29438|ACH|6022|N|Pick one target and fire when it lights up.|S|
 C He Shoots, He Scores!|QID|29438|NC|N|Talk to Rinling again picking Let's shoot! Aim at a target and press 1 to fire. You can get 2 shots in per target.|RANK|2|
 T He Shoots, He Scores!|QID|29438|N|To Rinling.|RANK|2|
 
