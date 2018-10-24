@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2018-10-24 20:02
+-- Who: Ludovicus_Maior
+-- Log: Update default zone
+
+-- URL: http://wow-pro.com/node/3673/revisions/30006/view
 -- Date: 2018-10-17 02:29
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -137,7 +142,7 @@
 -- Date: 2016-08-30 18:22
 -- Who: Emmaleah
 
-local guide = WoWPro:RegisterGuide('EmmLegionPaladin', 'Leveling', '23/20', 'Emmaleah', 'Neutral')
+local guide = WoWPro:RegisterGuide('EmmLegionPaladin', 'Leveling', "Light's Hope Chapel", 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Paladin Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 98.0)
 WoWPro:GuideNextGuide(guide, nil)
