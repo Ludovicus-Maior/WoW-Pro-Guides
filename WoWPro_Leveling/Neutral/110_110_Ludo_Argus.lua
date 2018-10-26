@@ -104,7 +104,7 @@
 -- Date: 2017-08-30 21:39
 -- Who: Ludovicus_Maior
 
-local guide = WoWPro:RegisterGuide('Ludo_Argus', 'Achievements', 'ArgusSurface', 'Ludo', 'Neutral')
+local guide = WoWPro:RegisterGuide('Ludo_Argus', 'Leveling', 'ArgusSurface', 'Ludo', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro.Achievements:GuideMisc(guide, "Shadows of Argus", "Reputation", "Legion")
 WoWPro:GuideQuestTriggers(guide, 47221, 47835)

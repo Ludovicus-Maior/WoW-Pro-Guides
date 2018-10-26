@@ -93,7 +93,7 @@
 -- Who: Ludovicus_Maior
 -- Log: Initial
 
-local guide = WoWPro:RegisterGuide('Emm_BrokenShore', 'Achievements', 'Broken Shore', 'Emmaleah', 'Neutral')
+local guide = WoWPro:RegisterGuide('Emm_BrokenShore', 'Leveing', 'Broken Shore', 'Emmaleah', 'Neutral')
 WoWPro:GuideIcon(guide,"ACH",11796)
 WoWPro.Achievements:GuideMisc(guide, "Armies of Legionfall", "Reputation", "Legion")
 WoWPro:GuideLevels(guide,110, 110)
