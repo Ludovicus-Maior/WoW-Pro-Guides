@@ -396,13 +396,17 @@ function WoWPro:MapPoint(row)
 		i = WoWPro.NextStepNotSticky(WoWPro.ActiveStep)
 	end
 
-
 	-- Removing old map point --
-	if LastMapPoint and LastMapPoint == i and #cache > 0 and cache[1].index == i then
+	if LastMapPoint and LastMapPoint == i and #cache > 0 and cache[i] and cache[1].index == i then
 	    WoWPro:print("MapPoint: LastMapPoint=%d [%.2f,%.2f@%d] in %s. No update needed.", LastMapPoint, cache[1].x, cache[1].y, cache[1].map, cache[1].zone)
 	    return
 	else
-        WoWPro:dbp("MapPoint: LastMapPoint=%s, #cache=%d, cache[1].index=%s, i=%d", tostring(LastMapPoint),  #cache, tostring(#cache > 0 and cache[1].index), i)
+		-- Because cached Carbonite mappoint is only a number - currently
+		if #cache > 0  and cache[1] and type(cache[1]) == "table" then
+			WoWPro:dbp("MapPoint: LastMapPoint=%s, #cache=%d, cache[1].index=%s, i=%d", tostring(LastMapPoint),  #cache, tostring(cache[1].index), i)
+		else
+			WoWPro:dbp("MapPoint: LastMapPoint=%s, #cache=%d, cache[1].index=%s, i=%d", tostring(LastMapPoint),  #cache, tostring(#cache > 0  and cache[1]), i)
+		end
 	end
 	WoWPro:RemoveMapPoint()
 
@@ -474,7 +478,9 @@ function WoWPro:MapPoint(row)
 	    WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id ["..zone.."] "..tostring(zm))
 	end
 
-	if TomTom and TomTom.AddWaypoint and TomTom.db then
+	-- Note: Carbonite emulate ToTom, so we need to check Nx for Carbonite presence
+	-- Because Carbonite not emulate TomTom AddWaypoint very well - so there is an else brach.. 
+	if TomTom and TomTom.AddWaypoint and TomTom.db and not Nx then
 		    TomTom.db.profile.arrow.setclosest = true
     		OldCleardistance = TomTom.db.profile.persistence.cleardistance
 
@@ -543,9 +549,9 @@ function WoWPro:MapPoint(row)
 		end
 		LastMapPoint = i
 
-		if Nx then
-		    return
-		end
+		--if Nx then // NOT NEEDED ANYMORE
+		--    return
+		--end
 		
 		if autoarrival and #cache > 0 then
 			if autoarrival == 1 then
@@ -573,8 +579,8 @@ function WoWPro:MapPoint(row)
 			-- autoarrival == 0 is a no-op
 		end
 		TomTom.db.profile.persistence.cleardistance = OldCleardistance
-	elseif TomTom then
-		WoWPro:print("WoWPro:MapPoint2(%s@%s/%s)",coords,tostring(zone),tostring(zm))
+	elseif Nx then
+		WoWPro:print("Carbonite WoWPro:MapPoint2(%s@%s/%s)",coords,tostring(zone),tostring(zm))
 		-- Legacy Parsing and mapping coordinates for Carbonite --
 		local numcoords = select("#", string.split(";", coords))
 	    FinalCoord = nil
@@ -596,9 +602,12 @@ function WoWPro:RemoveMapPoint()
     LastMapPoint = nil
 	if TomTom and TomTom.db then
 		for i=1,#cache,1 do
-		    if cache[i].uid ~= nil then
+		    if type(cache[i]) == "table" and cache[i].uid ~= nil then
 		        WoWPro:print("WoWPro:RemoveMapPoint(%d:%.2f,%.2f@%s=%s)",i,cache[i].x,cache[i].y,tostring(cache[i].zone),tostring(cache[i].map))
 			    TomTom:RemoveWaypoint(cache[i].uid)
+			elseif type(cache[i]) == "number" then
+		        WoWPro:print("WoWPro:RemoveMapPoint(%d)",cache[i])
+			    TomTom:RemoveWaypoint(cache[i])
 			end
 		end
 		wipe(cache)
