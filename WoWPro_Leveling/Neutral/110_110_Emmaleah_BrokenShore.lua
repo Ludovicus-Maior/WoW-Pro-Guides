@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/broken_shore_armies_legionfall_guide
+-- Date: 2018-10-26 21:42
+-- Who: Ludovicus_Maior
+-- Log: Change to leveling
+
+-- URL: http://wow-pro.com/node/3724/revisions/29890/view
 -- Date: 2018-10-17 02:20
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -93,7 +98,7 @@
 -- Who: Ludovicus_Maior
 -- Log: Initial
 
-local guide = WoWPro:RegisterGuide('Emm_BrokenShore', 'Leveing', 'Broken Shore', 'Emmaleah', 'Neutral')
+local guide = WoWPro:RegisterGuide('Emm_BrokenShore', 'Leveling', 'Broken Shore', 'Emmaleah', 'Neutral')
 WoWPro:GuideIcon(guide,"ACH",11796)
 WoWPro.Achievements:GuideMisc(guide, "Armies of Legionfall", "Reputation", "Legion")
 WoWPro:GuideLevels(guide,110, 110)
