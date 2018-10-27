@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadows_argus
+-- Date: 2018-10-26 21:43
+-- Who: Ludovicus_Maior
+-- Log: Convert to Leveling guide
+
+-- URL: http://wow-pro.com/node/3741/revisions/29892/view
 -- Date: 2018-10-17 02:20
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
