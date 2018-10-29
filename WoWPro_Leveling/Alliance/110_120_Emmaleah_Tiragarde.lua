@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-10-28 11:45
+-- Who: Emmaleah
+-- Log: Moved K Teres/K Maison the Portable and $ Hay Covered Chest for hopefully better flow. Added Active Tag to Treasure for Yellowed Map, so it won't pop up when you find it, but only while you are in the area.
+
+-- URL: http://wow-pro.com/node/3769/revisions/29917/view
 -- Date: 2018-10-17 02:22
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -176,12 +181,15 @@ T Sampling the Goods|QID|53041|M|75.85,49.14|N|To Flynn Fairwind.|
 A Stow and Go|QID|47489|M|75.85,49.14|N|From Flynn Fairwind.|PRE|50531|
 
 R Old Drust Road|ACTIVE|51149|M|76.52,48.97;77.27,49.52;76.02,50.02;73.60,48.91|CS|N|Back up to get to the overhead road to Old Drust Road.|RANK|2|
-$ Hay Covered Chest|QID|49963|M|61.51,52.33; 67.37,51.68|Z|Tiragarde Sound|CS|N|Hop of the Guardian of the Spring and then you have 40 seconds to ride him to Roan Berthold at Southwind Station. If you arrive in time, treasure will be waiting.|RANK|2|
 R Southwind Station|ACTIVE|51149|M|66.58,51.26|N|Continue down the road until you see Southwind Station on your right.|RANK|2|
 A An Explosive Opportunity|QID|50542|M|66.69,50.03|N|From Lead Guide Zipwrench.|RANK|2|
 T Left at the Port|QID|51149|M|65.84,50.10|N|To Dockmaster Tyndall.|
 A A Letter to the League|QID|51151|M|65.84,50.10|N|From Dockmaster Tyndall.|RANK|2|
 A The Norwington Festival|QID|48070|M|66.08,50.40|N|Formal Invitation|LEAD|48616^48077^48080|RANK|2|
+K Teres|QID|49942|QO|1|M|63.55,50.44|Z|Tiragarde Sound|T|Teres|N|Kill this Silver Elite near the waterfall for Azerite Power and resources.|RARE|ITEM|158556|RANK|3|;Wanderer's Cove
+K Maison the Portable|QID|51880|QO|1|M|58.09,48.70|Z|Tiragarde Sound|T|Maison the Portable|N|Kill this Silver Elite and loot for Azerite Power and resources.|RARE|ITEM|154458|RANK|3|
+$ Hay Covered Chest|QID|49963|M|61.51,52.33; 67.37,51.68|Z|Tiragarde Sound|CS|N|Hop of the Guardian of the Spring and then you have 40 seconds to ride him to Roan Berthold at Southwind Station. If you arrive in time, treasure will be waiting.|RANK|3|
+
 A Making Mysteries|QID|49897|M|67.50,55.81|N|From Wulferd Fizzbracket.|RANK|2|
 A Spring Cleaning|QID|49529|M|67.50,55.81|N|From Wulferd Fizzbracket.|RANK|2|
 T An Explosive Opportunity|QID|50542|M|67.50,55.81|N|To Wulferd Fizzbracket.|
@@ -297,7 +305,7 @@ K Nolpe|QID|49226|M|86.51,72.88|QO|2|T|Nolpe|
 C My Favorite Things|QID|49178|M|88.28,72.90|QO|4|NC|N|Pick up the Steel Lunchbox.|
 C Lured and Allured|QID|48419|QO|3|M|90.06,74.48|N|Kill the siren to set Flynn free.|T|Lugeia|
 K Fowlmouth|QID|50155|M|90.45,77.11|QO|1|T|Fowlmouth|RARE|ITEM|154467|N|Silver elite mob to kill for Azerite Power and resources.|RANK|2|
-$ Buried Treasure-Yellowed Treasure Map|QID|52836|M|90.50,75.51|Z|Tiragarde Sound|N|If you have looted the Yellowed Treasure Map, this treasure can be found here. You probably don't have the treasure map and will need to check back later, but you may as well check since you are here.|RANK|3|PRE|52859|
+$ Buried Treasure-Yellowed Treasure Map|QID|52836|M|90.50,75.51|Z|Tiragarde Sound|N|If you have looted the Yellowed Treasure Map, this treasure can be found here.|RANK|3|PRE|52859|ACTIVE|49230|
 C Blood in the Tides|QID|48421|M|87.26,79.96|US|N|Finish killing the Wailing Sirens.|
 C Local Flavor|QID|49230|M|85.47,80.82|US|N|Finish collecting the Juicy Lurker Tails.|
 T Glimmering Locket|QID|49181|M|85.47,80.73|N|To Stabby Jane.|
@@ -416,8 +424,6 @@ C Air Raid|QID|49737|M|57.16,59.47|S|N|Kill Irontide Skyriders.|
 C Farmers Who Fight|QID|52750|M|56.79,59.81|NC|S|N|Clear the area around them, and then recruit the Vigil Hill Farmers.|
 C Numbing the Pain|QID|52787|M|56.79,59.81|S|NC|N|Click on the Evermoss Clumps to pick them up.|
 K Gulliver|QID|53373|QO|1|M|57.79,55.93|T|Gulliver|RARE|ITEM|158338|N|Kill and loot this Silver Elite for Artifact Power and resources.|RANK|3|
-K Maison the Portable|QID|51880|QO|1|M|58.09,48.70|Z|Tiragarde Sound|T|Maison the Portable|N|Kill this Silver Elite and loot for Azerite Power and resources.|RARE|ITEM|154458|RANK|3|;in cave NE of Vigil Hill
-K Teres|QID|49942|QO|1|M|63.55,50.44|Z|Tiragarde Sound|T|Teres|N|Kill this Silver Elite near the waterfall for Azerite Power and resources.|RARE|ITEM|158556|RANK|3|;Wanderer's Cove
 K Tentulos the Drifter|QID|51879|QO|1|M|55.06,51.91|T|Tentulos the Drifter|RARE|ITEM|154448|N|Silver elite to kill for some Azerite Power and resources.|RANK|3|
 C Numbing the Pain|QID|52787|M|56.79,59.81|US|NC|N|Finish collecting the Evermoss Clumps.|
 C Farmers Who Fight|QID|52750|M|56.79,59.81|NC|US|N|Finish recruiting the Vigil Hill Farmers.|
