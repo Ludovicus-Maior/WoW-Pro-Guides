@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-10-28 11:29
+-- Who: Emmaleah
+-- Log:  ACTIVE on K Dark Chronicler and K Third Telemancer Syranel
+
+-- URL: http://wow-pro.com/node/3760/revisions/30081/view
 -- Date: 2018-10-23 22:21
 -- Who: Ludovicus_Maior
 -- Log: Empty tag removal
@@ -251,11 +256,6 @@
 --	C Infusing the Heart|QID|52428|Z|ChamberOfHeart|QO|1|N|Azerite wounds absorbed|
 --	
 --	Seems they added a step more to compelte the quest "Infusing the heart
-
--- URL: http://wow-pro.com/node/3760/revisions/29276/view
--- Date: 2018-05-09 22:35
--- Who: Ludovicus_Maior
--- Log: Fix [The Dark Lady] coordinate error.
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -899,7 +899,7 @@ C Morgrum's Survey|QID|49274|M|42.48,72.25|Z|Zuldazar|QO|1|NC|N|1/1 Outer ruins 
 C Morgrum's Survey|QID|49274|M|42.78,73.86|Z|Zuldazar|QO|2|NC|N|1/1 Inner ruins survey completed|
 C Morgrum's Survey|QID|49274|M|41.36,75.40|Z|Zuldazar|QO|3|NC|N|1/1 "The Foot" survey completed|
 C Archaeological Efficiency|QID|50044|M|42.13,75.02|Z|Zuldazar|QO|1|US|NC|N|Click on the Elemental Summoning Stone to have the elemental uncover the glowing dirt piles, and then loot the bones.|U|159640|
-K Dark Chronicler|QID|51085|M|43.25,76.42;43.82,76.48|CS|Z|Zuldazar|QO|1|T|Dark Chronicler|N|Go up to about the middle of the hill to find a tunneled hole entrance. Run down to the Dark Chronicler and kill it. Can be tough without a group, skip the step if you want to do it later.|
+K Dark Chronicler|active|51085|M|43.25,76.42;43.82,76.48|CS|Z|Zuldazar|QO|1|T|Dark Chronicler|N|Go up to about the middle of the hill to find a tunneled hole entrance. Run down to the Dark Chronicler and kill it. Can be tough without a group, skip the step if you want to do it later.|
 C Xibalan Ecology|QID|49060|M|42.51,73.13|Z|Zuldazar|QO|1|US|N|Finish killing the Xibalan predators in the area.|
 T Archaeological Efficiency|QID|50044|M|41.33,71.42|Z|Zuldazar|N|To Acadia Chistlestone.|
 T Xibalan Ecology|QID|49060|M|41.33,71.42|Z|Zuldazar|N|To Acadia Chistlestone.|
@@ -917,7 +917,7 @@ T Morgrum's Extended Survey|QID|49282|M|44.46,73.45|Z|Zuldazar|N|To Excavator Mo
 A Grand Theft Telemancy|QID|49428|M|44.46,73.45|Z|Zuldazar|PRE|49282|N|From Excavator Morgrum Emberflint.|
 A Not Our Purple Elves|QID|49427|M|44.46,73.45|Z|Zuldazar|PRE|49282|N|From Excavator Morgrum Emberflint.|
 C Not Our Purple Elves|QID|49427|M|46.57,72.13|Z|Zuldazar|QO|1|S|N|Kill Horde forces.|
-K Third Telemancer Syranel|QID|49428|M|47.38,72.11|QO|1|Z|Zuldazar|T|Third Telemancer Syranel|N|Kill Third Telemancer Syranel.|
+K Third Telemancer Syranel|ACTIVE|49428|M|47.38,72.11|QO|1|Z|Zuldazar|T|Third Telemancer Syranel|N|Kill Third Telemancer Syranel.|
 C Grand Theft Telemancy|QID|49428|M|47.42,72.18|QO|2|Z|Zuldazar|NC|N|Click on the Breath of Xibala to take it.|
 C Not Our Purple Elves|QID|49427|M|46.57,72.13|Z|Zuldazar|QO|1|US|N|Finish killing Horde forces.|
 T Grand Theft Telemancy|QID|49428|M|44.46,73.45|Z|Zuldazar|N|To Excavator Morgrum Emberflint.|
