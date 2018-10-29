@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-10-29 01:25
+-- Who: Emmaleah
+-- Log: Deleted travel steps after First Assault, edited note for 4.5 Friendly to include travel steps. Adjusted Rep tag on N Ransa at Honored so wouldnt show until honored and put in front of 3K into honored N Rep Gated. Added N Ransa at revered.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30097/view
+-- Date: 2018-10-28 23:33
+-- Who: Emmaleah
+-- Log: t on same quest.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30096/view
+-- Date: 2018-10-28 22:38
+-- Who: Emmaleah
+-- Log: Add ILVL|320 to C Warfront: Battle... and A Iron Stores
+
+-- URL: http://wow-pro.com/node/3761/revisions/30063/view
 -- Date: 2018-10-20 21:17
 -- Who: elidion
 -- Log: s
@@ -444,8 +459,8 @@ T Wiping Out the Witherbark|QID|53150|M|27.30,29.79|Z|Arathi Highlands|N|To Druz
 
 ; Warfront Scenerio
 A Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|N|From Throk.|O|
-C Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|NC|QO|1|N|View the War Table in Zuldazar and join the queue to defeat the Alliance at the Battle for Stromgarde.|
-A Iron Stores|QID|51082|ACTIVE|53416|M|70.51,36.03|Z|943|N|From Foreman Drogg. After taking the mines and killing Overseer Krix.|
+C Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|NC|QO|1|N|View the War Table in Zuldazar and join the queue to defeat the Alliance at the Battle for Stromgarde.|ILVL|320|
+A Iron Stores|QID|51082|ACTIVE|53416|M|70.51,36.03|Z|943|N|From Foreman Drogg. After taking the mines and killing Overseer Krix.|ILVL|320|
 C Iron Stores|QID|51082|M|61.49,25.10|Z|943|QO|1|NC|N|Back at the base, access your Iron Stores.|
 T Iron Stores|QID|51082|M|61.48,25.26|Z|943|N|To Lug'ruk.|
 A Chop, Chop!|QID|47283|PRE|51082|M|45.98,19.64|Z|943|N|From Graul. After taking Hatchet Ridge and killing Lumberjack Leo.|
@@ -474,8 +489,8 @@ T Beasts of Newstead|QID|53670|M|42.62,41.53|Z|943|N|To Raider Zugg.|
 A The Circle's Power|QID|53671|PRE|51082|M|69.62,47.65|Z|943|N|From Arcanist Ilira after capturing the Circle of Elements.|
 C The Circle's Power|QID|53671|M|68.45,47.51|Z|943|NC|N|See what Kraga Tidefury has to offer.|
 T The Circle's Power|QID|53671|M|69.63,47.65|Z|943|N|To Arcanist Ilira.|
-C Warfront: The Battle for Stromgarde|QID|53416|M|49.37,72.95|Z|943|QO|2|N|Collect Iron and Wood to continue upgrading your buildings and troops or hire help. Capture the various outposts and defeat the alliance.|
-T Warfront: The Battle for Stromgarde|QID|53416|M|52.92,94.51|Z|Dazar'alor|N|To Throk.|
+C Warfront: The Battle for Stromgarde|QID|53416|M|49.37,72.95|Z|943|QO|2|N|Collect Iron and Wood to continue upgrading your buildings and troops or hire help. Capture the various outposts and defeat the alliance.|ILVL|320|
+t Warfront: The Battle for Stromgarde|QID|53416|M|52.92,94.51|Z|Dazar'alor|N|To Throk.|
 ;End Warfront Scenerio
 
 C Uniting Zandalar|QID|52451^51916|M|58.44,62.67|Z|Zuldazar|US|N|Requires at least honored with Talanji's Expidition (Nazmir); Voldunai (Voldun); and Zandalari Empire (Zuldazar) Accountwide progress counts. |
@@ -524,8 +539,6 @@ T Death Trap|QID|51599|M|77.01,49.19|Z|Tiragarde Sound|N|To Lilian Voss.|
 A The Bridgeport Ride|QID|51601|M|77.01,49.19|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51599|
 C The Bridgeport Ride|QID|51601|M|75.49,49.86;75.55,51.96;74.22,52.88|QO|1;2|Z|Tiragarde Sound|CS|NC|N|Hop on the horse, make a circle thru town, be sure you ran past the Captain, and then ride out across the low bridge to where you set the bombs.|
 T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|NC|N|To Nathanos Blightcaller.|
-F Plunder Harbor|AVAILABLE|53065|M|72.18,51.92|Z|Tiragarde Sound|N|At Michaela Reed.|PRE|51601|
-b Port of Zandalar|AVAILABLE|53065|M|87.84,51.19|Z|Tiragarde Sound|N|Ask Erul Dawnbrook for a ride back to Zuldazar.|PRE|51601|
 
 ; The Marshal's Grave - 4.5k Friendly with The Honorbound
 A Operation: Grave Digger|QID|53065|N|Autoaccepted|PRE|51601|REP|The Honorbound;2157;friendly;4500;false|O|
@@ -795,10 +808,11 @@ N Come back at level 114|AVAILABLE|51979|LVL|-114|N|Next foothold can be done wh
 N Come back at level 116|AVAILABLE|53062|LVL|-116|N|Island Adventures can be done when you are level 116. This quest is once per account. Once unlocked on the account, Other toons on the account can do Island Adventures as early as 110.|PRE|51979|
 N Come back at level 118|AVAILABLE|52444|LVL|-118|N|Last foothold can be done when you are level 118.|PRE|51979|
 N Come back at level 120|AVAILABLE|51589|LVL|-120|N|First assault can be done when you are level 120.|PRE|52444|
-N Rep Gated|AVAILABLE|51784|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 4.5K into friendly.|PRE|51601|REP|The Honorbound;2157;friendly;4500;true|
+N Rep Gated|AVAILABLE|51784|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 4.5K into friendly. IF you are sitting in Bridgeport wondering how to get home, fly to Plunder Harbor and ask Erul Dawnbrook, on the dock for a ride back to Zuldazar.|PRE|51601|REP|The Honorbound;2157;friendly;4500;true|
+N Ransa Greyfeather|AVAILABLE|53739^53744|M|58.06,62.65|Z|Zuldazar|N|Now that you're Honored you can purchase 2 Scouting Reports from the Emissary to unlock outposts (additional flight paths!). Next Campaign segment will be available at 3k into Honored.|REP|The Honorbound;2157;honored-exalted|
 N Rep Gated|AVAILABLE|51797|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Scouting Report Missions unlock at Honored, and the next segment is available at 3K into it.|PRE|51789|REP|The Honorbound;2157;honored;0;true|
-N Ransa Greyfeather|AVAILABLE|51797|M|58.06,62.65|Z|Zuldazar|N|Now that you're Honored you can purchase 2 Scouting Reports from the Emissary to unlock outposts. Next Campaign segment will be available at 3k into Honored.|PRE|51789|REP|The Honorbound;2157;honored;3000;true|
 N Rep Gated|AVAILABLE|52764|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 7.5k into honored.|PRE|52122|REP|The Honorbound;2157;honored;7500;true|
+N Ransa Greyfeather|AVAILABLE|53740^53741^53742^53743^53745|M|58.06,62.65|Z|Zuldazar|N|Now that you're Revered you can purchase 5 more Scouting Reports from the Emissary to unlock outposts (additional flight paths!). Next Campaign segment is also available.|REP|The Honorbound;2157;revered-exalted|
 N Rep Gated|AVAILABLE|52183|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at revered.|PRE|52978|REP|The Honorbound;2157;revered;0;true|
 N Outposts and Rep|AVAILABLE|53103^53152^53126^52320^52479^53101^53082|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Mag'har Orc Allied Race|PRE|53003|
 ]]
