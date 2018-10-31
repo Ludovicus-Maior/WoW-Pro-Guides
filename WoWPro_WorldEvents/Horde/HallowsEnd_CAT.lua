@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2018-10-31 17:04
+-- Who: Emmaleah
+-- Log: fixed my error of deleting end of file markers on EK and Cata.
+
+-- URL: http://wow-pro.com/node/3441/revisions/30106/view
 -- Date: 2018-10-31 11:01
 -- Who: Emmaleah
 -- Log: corrections to MoP and Outlands 
@@ -271,7 +276,7 @@ F Oasis of Vir'sar|QID|29016|M|56.20,33.62|Z|Uldam|U|37586|N|Fly to Oasis of Vir
 A Candy Bucket|QID|29016|M|26.58,7.25|Z|Uldum|N|Yasmin, Oasis of Vir'sar|
 N End of Cataclysm Guide|N|Choose next continent you want to do or ... or course, choose to be done.|
 
-
 ]]
 end)
+
 
