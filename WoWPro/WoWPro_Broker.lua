@@ -1135,7 +1135,7 @@ function WoWPro.NextStep(k,i)
 			WoWPro.why[k] = "NextStep(): SkippedStep."
 			skip = true
 			break
-		elseif WoWPro:QIDsInTable(QID,WoWProCharDB.skippedQIDs) then
+		elseif WoWPro:QIDsInTable(QID,WoWProCharDB.skippedQIDs, true) then
 			WoWProCharDB.Guide[GID].skipped[k] = true
 			WoWPro.why[k] = "NextStep(): SkippedQID."
 			WoWPro:dbp("SkippedQID(%d, qid=%s, %s [%s])",k, QID, tostring(WoWPro.action[k]), tostring(WoWPro.step[k]))
