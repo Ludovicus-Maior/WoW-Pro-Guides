@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2018-10-31 17:04
+-- Who: Emmaleah
+-- Log: fixed my error of deleting end of file markers on EK and Cata.
+
+-- URL: http://wow-pro.com/node/3441/revisions/30106/view
+-- Date: 2018-10-31 11:01
+-- Who: Emmaleah
+-- Log: corrections to MoP and Outlands 
+
+-- URL: http://wow-pro.com/node/3441/revisions/30103/view
+-- Date: 2018-10-30 20:13
+-- Who: Emmaleah
+-- Log: updated cata guide.
+
+-- URL: http://wow-pro.com/node/3441/revisions/30102/view
+-- Date: 2018-10-30 18:24
+-- Who: Emmaleah
+-- Log: Changes for BFA to Kalimdor and EK guides.
+
+-- URL: http://wow-pro.com/node/3441/revisions/28513/view
 -- Date: 2017-03-17 14:09
 -- Who: Ludovicus_Maior
 -- Log: Syntax and PRE for LudoHallowPanH
@@ -241,20 +261,19 @@ A Candy Bucket|QID|12393|M|53.43,55.54|Z|Blade's Edge Mountains|N|Gholah, Thunde
 F Zabra'jin|M|52.06,54.12|QID|12390|Z|Blade's Edge Mountains|U|37586|N|Fly to Zabra'jin, Zangarmarsh.|
 A Candy Bucket|QID|12390|M|30.63,50.87|Z|Zangarmarsh|N|Merajit, Zabra'jin|
 F Garadar|M|33.07,51.07|QID|12392|Z|Zangarmarsh|U|37586|N|Fly to Garadar, Nagrand.|
-A Candy Bucket|QID|12392|M|56.68,34.49|Z|Nagrand|N|Mataron Tikkit, Garadar|
-F Shattrath City|M|57.19,35.25|QID|12404|Z|Nagrand|U|37586|N|Fly to Shattrath City, Nagrand.|
+A Candy Bucket|QID|12392|M|56.68,34.49|Z|Nagrand|N|Matron Tikkit, Garadar|
+F Shattrath|M|57.19,35.25|QID|12404|Z|Nagrand|U|37586|N|Fly to Shattrath City, Nagrand.|
 A Candy Bucket|QID|12404|M|56.31,81.93|Z|Shattrath City|REP|Scryers;934;Neutral-Exalted|N|From the Candy Bucket. (Shattrath City, Scryer's Tier)|
 A Candy Bucket|QID|12404|M|28.22,49.06|Z|Shattrath City|REP|Aldor;932;Neutral-Exalted|N|From the Candy Bucket. (Shattrath City, Aldor Rise)|
 F Stonebreaker Hold|M|64.06,41.13|QID|12391|Z|Shattrath City|U|37586|N|Fly to Stonebreaker Hold, Terokkar Forest.|
 A Candy Bucket|QID|12391|M|48.73,45.18|Z|Terokkar Forest|N|Innkeeper Grilka, Stonebreaker Hold|
 F Shadowmoon Village|M|49.19,43.42|QID|12395|Z|Terokkar Forest|U|37586|N|Fly to Shadowmoon Village, Shadowmoon Valley.|
 A Candy Bucket|QID|12395|M|30.27,27.70|Z|Shadowmoon Valley|N|Innkeeper Darg Bloodclaw, Shadowmoon Village|
-F Altar of Sha'tar|N|Fly to Altar of Sha'tar.|M|30.34,29.19|QID|12409|Z|Shadowmoon Valley|U|37586|REP|Aldor;932;Neutral-Exalted|
+F Altar of Sha'tar|N|Fly to Altar of Sha'tar. If you never picked a faction with Aldor or Scryers this flight path wont be available and you will need to fly on your own.|M|30.34,29.19|QID|12409|Z|Shadowmoon Valley|U|37586|REP|Aldor;932;Neutral-Exalted|
 A Candy Bucket|N|From the Candy Bucket. (Shadowmoon Valley, Altar of Sha'tar)|QID|12409|M|61,28.17|Z|Shadowmoon Valley|REP|Aldor;932;Neutral-Exalted|
 F Sanctum of the Stars|N|Fly to Sanctum of the Stars.|M|30.34,29.19|QID|12409|Z|Shadowmoon Valley|U|37586|REP|Scryers;934;Neutral-Exalted|
 A Candy Bucket|N|From the Candy Bucket. (Shadowmoon Valley, Sanctum of the Stars)|QID|12409|M|56.37,59.81|Z|Shadowmoon Valley|REP|Scryers;934;Neutral-Exalted|
-R Orgrimmar|M|57.17,48.28|Z|Shattrath City|QID|13468|N|Fly back to Shattrath and take the portal back to Orgrimmar or just hearth back.|U|37586|
-
+H End of Outlands Candy Buckets|N|Hearth, Fly back to Shattrath and take the portal back to Orgrimmar or otherwise be done.|U|37586|
 ]]
 end)
 

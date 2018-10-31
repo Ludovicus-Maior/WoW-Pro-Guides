@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-10-29 18:27
+-- Who: elidion
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3761/revisions/30098/view
+-- Date: 2018-10-29 01:25
+-- Who: Emmaleah
+-- Log: Deleted travel steps after First Assault, edited note for 4.5 Friendly to include travel steps. Adjusted Rep tag on N Ransa at Honored so wouldnt show until honored and put in front of 3K into honored N Rep Gated. Added N Ransa at revered.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30097/view
+-- Date: 2018-10-28 23:33
+-- Who: Emmaleah
+-- Log: t on same quest.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30096/view
+-- Date: 2018-10-28 22:38
+-- Who: Emmaleah
+-- Log: Add ILVL|320 to C Warfront: Battle... and A Iron Stores
+
+-- URL: http://wow-pro.com/node/3761/revisions/30063/view
 -- Date: 2018-10-20 21:17
 -- Who: elidion
 -- Log: s
@@ -444,8 +464,8 @@ T Wiping Out the Witherbark|QID|53150|M|27.30,29.79|Z|Arathi Highlands|N|To Druz
 
 ; Warfront Scenerio
 A Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|N|From Throk.|O|
-C Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|NC|QO|1|N|View the War Table in Zuldazar and join the queue to defeat the Alliance at the Battle for Stromgarde.|
-A Iron Stores|QID|51082|ACTIVE|53416|M|70.51,36.03|Z|943|N|From Foreman Drogg. After taking the mines and killing Overseer Krix.|
+C Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|NC|QO|1|N|View the War Table in Zuldazar and join the queue to defeat the Alliance at the Battle for Stromgarde.|ILVL|320|
+A Iron Stores|QID|51082|ACTIVE|53416|M|70.51,36.03|Z|943|N|From Foreman Drogg. After taking the mines and killing Overseer Krix.|ILVL|320|
 C Iron Stores|QID|51082|M|61.49,25.10|Z|943|QO|1|NC|N|Back at the base, access your Iron Stores.|
 T Iron Stores|QID|51082|M|61.48,25.26|Z|943|N|To Lug'ruk.|
 A Chop, Chop!|QID|47283|PRE|51082|M|45.98,19.64|Z|943|N|From Graul. After taking Hatchet Ridge and killing Lumberjack Leo.|
@@ -474,8 +494,8 @@ T Beasts of Newstead|QID|53670|M|42.62,41.53|Z|943|N|To Raider Zugg.|
 A The Circle's Power|QID|53671|PRE|51082|M|69.62,47.65|Z|943|N|From Arcanist Ilira after capturing the Circle of Elements.|
 C The Circle's Power|QID|53671|M|68.45,47.51|Z|943|NC|N|See what Kraga Tidefury has to offer.|
 T The Circle's Power|QID|53671|M|69.63,47.65|Z|943|N|To Arcanist Ilira.|
-C Warfront: The Battle for Stromgarde|QID|53416|M|49.37,72.95|Z|943|QO|2|N|Collect Iron and Wood to continue upgrading your buildings and troops or hire help. Capture the various outposts and defeat the alliance.|
-T Warfront: The Battle for Stromgarde|QID|53416|M|52.92,94.51|Z|Dazar'alor|N|To Throk.|
+C Warfront: The Battle for Stromgarde|QID|53416|M|49.37,72.95|Z|943|QO|2|N|Collect Iron and Wood to continue upgrading your buildings and troops or hire help. Capture the various outposts and defeat the alliance.|ILVL|320|
+t Warfront: The Battle for Stromgarde|QID|53416|M|52.92,94.51|Z|Dazar'alor|N|To Throk.|
 ;End Warfront Scenerio
 
 C Uniting Zandalar|QID|52451^51916|M|58.44,62.67|Z|Zuldazar|US|N|Requires at least honored with Talanji's Expidition (Nazmir); Voldunai (Voldun); and Zandalari Empire (Zuldazar) Accountwide progress counts. |
@@ -524,8 +544,8 @@ T Death Trap|QID|51599|M|77.01,49.19|Z|Tiragarde Sound|N|To Lilian Voss.|
 A The Bridgeport Ride|QID|51601|M|77.01,49.19|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51599|
 C The Bridgeport Ride|QID|51601|M|75.49,49.86;75.55,51.96;74.22,52.88|QO|1;2|Z|Tiragarde Sound|CS|NC|N|Hop on the horse, make a circle thru town, be sure you ran past the Captain, and then ride out across the low bridge to where you set the bombs.|
 T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|NC|N|To Nathanos Blightcaller.|
-F Plunder Harbor|AVAILABLE|53065|M|72.18,51.92|Z|Tiragarde Sound|N|At Michaela Reed.|PRE|51601|
-b Port of Zandalar|AVAILABLE|53065|M|87.84,51.19|Z|Tiragarde Sound|N|Ask Erul Dawnbrook for a ride back to Zuldazar.|PRE|51601|
+F Plunder Harbor|AVAILABLE|51784|M|72.18,51.92|Z|Tiragarde Sound|N|At Michaela Reed.(If you did not just finish "The Bridgeport Ride", manually check this step off.)|PRE|51601|
+b Port of Zandalar|AVAILABLE|51784|M|87.84,51.19|Z|Tiragarde Sound|N|Ask Erul Dawnbrook for a ride back to Zuldazar.(If you did not just finish "The Bridgeport Ride", manually check this step off.)|PRE|51601|
 
 ; The Marshal's Grave - 4.5k Friendly with The Honorbound
 A Operation: Grave Digger|QID|53065|N|Autoaccepted|PRE|51601|REP|The Honorbound;2157;friendly;4500;false|O|

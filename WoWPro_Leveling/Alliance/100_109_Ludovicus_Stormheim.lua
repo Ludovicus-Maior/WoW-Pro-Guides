@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormheim_alliance
+-- Date: 2018-10-30 07:28
+-- Who: jovieve
+-- Log: Added missing T step
+
+-- URL: http://wow-pro.com/node/3683/revisions/29915/view
 -- Date: 2018-10-17 02:22
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -249,7 +254,7 @@ return [[
 N Starting in Dalaran|QID|39735|U|140192|N|This guide assumes you are starting in Dalaran. |
 N Treasure|QID|39735|N|All treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 1. If you are using handy notes treasures, there treasure symbol will show over the tomtom green dot, obscuring it, the arrow will still work fine.|
 N Rares (Silver Elite)|QID|39735|N|All of the Silver mobs are also included. The item displayed has a high chance to drop but not guarenteed. Blizzard has marked these mobs on the minimap with a star.|
-N Ranks|QID|39735|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest&treasure and rare in the zone.|
+N Ranks|QID|39735|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every questand rare in the zone.|
 
 ; Greymane's Gambit Leadin
 R The Violet Citadel|QID|39735|M|29.10,46.93|Z|Dalaran!Dalaran!Dungeon|N|At Sky Admiral Rogers.|FLY|LEGION|
@@ -329,7 +334,7 @@ T Havi's Test|QID|38331|M|43.14,49.21|N|To Havi.|
 A Ahead of the Game|QID|39590|PRE|38331|M|43.14,49.21|N|From Havi.|
 A A Worthy Challenger-Bonus Objective|QID|38442|PRE|38331|LVL|-109|M|41.83,43.06|N|Auto Accepted upon entering the area.|RANK|2|
 C A Worthy Challenger-Bonus Objective|QID|38442|M|41.83,43.06|S|N|Kill Bloodtotems, Mightstones and Felskorn and destroy totems and banners to advance the objective.|
-A Blood and Gold|QID|39595|M|42.54,43.08|N|From Challengers Tribute, you just looted.|
+A Blood and Gold|QID|39595|M|42.54,43.08|N|Kill a mob in this area to get a Challengers Tribute and get this quest.|
 C Blood and Gold|QID|39595|M|42.54,43.08|S|N|Kill the champion types to get the tributes.|
 C Ahead of the Game|QID|39590|M|42.07,45.97|T|Gro Rumblehoof|QO|2|N|Kill the Rumblehoof Champion and loot his Head.|
 $ Small Treasure Chest|QID|38488|M|41.75,46.03|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -491,7 +496,7 @@ C Dances With Ravenbears|QID|42447|M|53.70,30.20|CHAT|N|Tell him you are ready (
 T Dances With Ravenbears|QID|42447|M|54.03,30.23|N|To Cukkaw.|RANK|2|
 f Stormtorn Foothills|ACTIVE|39787|M|51.98,34.80|N|At Hillevi the Scalekeeper.|RANK|2|
 F Lorna's Watch|ACTIVE|39787|M|51.98,34.81|N|Fly back to Lorna's Watch at Hillevi the Scalekeepter.|RANK|2|FLY|LEGION|
-K Hook&Sinker|QID|38625|M|42.05,57.84|QO|1|ITEM|129109|T|Hook|N|Silver - Kill and loot for a bit of loot and Treasure.|RANK|2|RARE|
+K Hook|QID|38625|M|42.05,57.84|QO|1|ITEM|129109|T|Hook|N|Silver - Kill and loot for a bit of loot and Treasure.|RANK|2|RARE|
 T Rigging the Wager|QID|39787|M|51.33,56.98|N|To Snaggle Sixtrigger.|RANK|2|
 T Only the Finest|QID|39793|M|51.36,57.28|N|To Rax Sixtrigger.|RANK|2|
 A A Stack of Racks|QID|39792|PRE|39787&39793|M|51.36,57.28|N|From Rax Sixtrigger.|RANK|2|
@@ -616,6 +621,7 @@ t Raze Hel-Bonus Objective|QID|38343|M|58.51,66.79|Z|Helheim|N|Auto turned in wh
 T Victory is Eternal|QID|39853|M|47.04,63.06|Z|Helheim|N|To Ashildir.|
 A Paid in Lifeblood|QID|39855|PRE|39853|M|47.04,63.06|Z|Helheim|N|From Ashildir.|
 C Paid in Lifeblood|QID|39855|M|34.15,28.07|Z|Helheim|CHAT|N|Click on the altar, select the chat option and wait for the scene to unfold.|
+T Paid in Lifeblood|QID|39855|M|60.14,50.76|N|To Havi.|
 A A Heavy Burden|QID|40078|PRE|39855|M|60.14,50.74|N|From Havi.|
 C A Heavy Burden|QID|40078|M|59.97,50.62;60.53,51.22|CS|NC|N|Carry Havi's fish to the fire.|
 T A Heavy Burden|QID|40078|M|60.13,50.72|N|To Havi.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2018-10-30 18:11
+-- Who: Emmaleah
+-- Log: Added N Fair Warning|N|This guide is out of date with current changes in Ghostlands and needs serious work. Use at your own risk.| at beginning of guide due to the multitude of comments about it's shortcomings. 
+
+-- URL: http://wow-pro.com/node/3221/revisions/30070/view
 -- Date: 2018-10-23 01:50
 -- Who: Emmaleah
 -- Log: Moved a few pick up / turn ins at suncrown village/amani catacombs, but I suspect more is needed.
@@ -156,6 +161,9 @@ return [[
 
 ;This step will not show if you have completed A Somber Task as part of the Eversong Woods guide
 ;as you'll be closer to quest ender, and will already be carrying the two quests.
+
+N Fair Warning|N|This guide is out of date with current changes in Ghostlands and needs serious work. Use at your own risk.|
+
 R Fairbreeze Village |QID|9144|M|44.06,70.73|N|This guide begins at Fairbreeze Village, which is south-west of Silvermoon City in Eversong Woods.\n\nThere will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|Z|Eversong Woods|
 
 A Missing in the Ghostlands |QID|9144|LEAD|9329|M|44.06,70.73|N|From Magistrix Landra Dawnstrider.|Z|Eversong Woods|
