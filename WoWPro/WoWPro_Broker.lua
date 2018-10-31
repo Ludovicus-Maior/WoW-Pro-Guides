@@ -2607,12 +2607,12 @@ end
 function WoWPro.OrderSteps(update)
     -- Put the stuff we did or dont want at the end
     local limit = WoWPro:CompleteAtEnd()
-    WoWPro:Print("Limit at %d instead of %d",limit,WoWPro.stepcount)
+    WoWPro:dbp("Limit at %d instead of %d",limit,WoWPro.stepcount)
     -- Put the first step closest to us
     local sidx,d = WoWPro.FindClosestStep(limit)
     WoWPro.SwapSteps(1,sidx)
     WoWPro.why[1] = string.format("selected step as the closest at a distance of %g",d)
-    WoWPro:Print("First step %d at distance of %g",sidx,d)
+    WoWPro:dbp("First step %d at distance of %g",sidx,d)
     -- Now achor at each step and find the following step that is closer
     for anchor = 1, limit do
        local distance, closest 
