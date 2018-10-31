@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2018-10-31 17:04
+-- Who: Emmaleah
+-- Log: fixed my error of deleting end of file markers on EK and Cata.
+
+-- URL: http://wow-pro.com/node/3441/revisions/30106/view
 -- Date: 2018-10-31 11:01
 -- Who: Emmaleah
 -- Log: corrections to MoP and Outlands 
@@ -301,8 +306,7 @@ F Booty Bay|M|35.14,29.39|QID|12397|Z|The Cape of Stranglethorn|U|37586|N|Fly to
 A Candy Bucket|QID|12397|M|40.91,73.73|Z|The Cape of Stranglethorn|N|Innkeeper Skindle, Booty Bay|
 
 N Breaktime|N|OK, Time to take a break and pick the next guide to do.|U|37586|
-
-
 ]]
 end)
+
 
