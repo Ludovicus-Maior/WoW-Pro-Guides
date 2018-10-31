@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2018-10-31 11:01
+-- Who: Emmaleah
+-- Log: corrections to MoP and Outlands 
+
+-- URL: http://wow-pro.com/node/3441/revisions/30103/view
+-- Date: 2018-10-30 20:13
+-- Who: Emmaleah
+-- Log: updated cata guide.
+
+-- URL: http://wow-pro.com/node/3441/revisions/30102/view
+-- Date: 2018-10-30 18:24
+-- Who: Emmaleah
+-- Log: Changes for BFA to Kalimdor and EK guides.
+
+-- URL: http://wow-pro.com/node/3441/revisions/28513/view
 -- Date: 2017-03-17 14:09
 -- Who: Ludovicus_Maior
 -- Log: Syntax and PRE for LudoHallowPanH
@@ -214,30 +229,33 @@ WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Cataclysm")
 WoWPro:GuideSteps(guide, function()
 return [[
 
-F Orgrimmar|QID|208181|N|Get thee to Orgrimmar to take the portals.|
+P Orgrimmar|QID|29019|N|Get thee to Orgrimmar to take the portals.|
 
-R Deepholm portal|M|50.6,37|Z|Orgrimmar|N|Take the portal to Deepholm.|
-A Candy Bucket|QID|208181|M|51.2,50.0|Z|Deepholm|N|Caretaker Nuunwa, Temple of Earth|
-R Orgrimmar|M|50.9,53.1|Z|Deepholm|N|Take the portal back to Orgrimmar.|
+P Deepholm|QID|29019|M|50.6,37|Z|Orgrimmar|N|Take the portal to Deepholm.|
+A Candy Bucket|QID|29019|M|51.2,50.0|Z|Deepholm|N|Caretaker Nuunwa, Temple of Earth|
+P Orgrimmar|QID|28999|M|50.9,53.1|Z|Deepholm|N|Take the portal back to Orgrimmar.|U|37586|
 
-R Nordrassil|QID|28999|M|50.97,38.13|Z|Orgrimmar|N|Take the portal to Mt. Hyjal.|
+P Nordrassil|QID|28999|M|50.97,38.13|Z|Orgrimmar|N|Take the portal to Mt. Hyjal.|
 A Candy Bucket|QID|28999|M|63.05,24.14|Z|Mount Hyjal|N|Sebelia, Nordrassil)|
 F Shrine of Aviana|QID|29001|M|62.14,21.58|Z|Mount Hyjal|U|37586|N|Fly to the Shrine of Aviana, Mt. Hyjal.|
 A Candy Bucket|QID|29001|M|42.67,45.70|Z|Mount Hyjal|N|Isara Riverstride, Shrine of Aviana|
 F Grove of Aessina|QID|29000|M|41.18,42.59|Z|Mount Hyjal|U|37586|N|Fly to the Shrine/Grove of Aessina, Mt. Hyjal.|
 A Candy Bucket|QID|29000|M|18.63,37.31|Z|Mount Hyjal|N|Salim Moonbear, Grove of Aessina|
 F Nordrassil|QID|28986|M|19.60,36.38|Z|Mount Hyjal|U|37586|N|Fly back to Nordrassil to the portal.|
-R Orgrimmar|QID|28986|M|62.66,22.98|N|Take the portal back to Orgrimmar.|Z|Mount Hyjal|
+P Orgrimmar|QID|28986|M|62.66,22.98|N|Take the portal back to Orgrimmar.|Z|Mount Hyjal|
 
-R Darkbreak Cove|QID|28986|M|49.36,36.65|Z|Orgrimmar|N|Take the portal to Vashj'ir.|
-A Candy Bucket|QID|28986|M|51.3,60.6|Z|Abyssal Depths|N|Innkeeper Nerius, Tenebrous Cavern|
-A Candy Bucket|QID|28984|M|53.8,67.0|Z|Shimmering Expanse|N|Fiasco Sizzlegrin, Legion's Rest|
+P Darkbreak Cove|QID|28986|M|49.36,36.65|Z|Orgrimmar|N|Take the portal to Vashj'ir. Where you arrive depends on your progress in the zone.|
+A Candy Bucket|QID|28986|M|57.68,58.36;51.3,60.6|CS|Z|Abyssal Depths|N|Innkeeper Nerius, Tenebrous Cavern|
+b Legion's Rest|QID|28984|M|53.85,59.62|Z|Abyssal Depths|N|Take the Swift Seahorse to Legion's Rest.|U|37586|
+A Candy Bucket|QID|28984|M|51.48,62.39|Z|Shimmering Expanse|N|Zun'ja, Legion's Rest|
+b Silver Tide Hollow|QID|28984|M|50.74,63.47|Z|Shimmering Expanse|N|Take the Swift Seahorse to Silver Tide Hollow.|U|37586|
 A Candy Bucket|QID|28982|M|49.2,41.9|Z|Shimmering Expanse|N|Caretaker Movra, Silver Tide Hollow|
-A Candy Bucket|QID|28981|M|63.4,60.2|Z|Kelp'thar Forest|N|Erunak Stonespeaker, Deepmist Grotto|
+b Smuggler's Scar|QID|28984|M|49.51,41.23|Z|Shimmering Expanse|N|Take the Swift Seahorse to Smuggler's Scar.|U|37586|
+A Candy Bucket|QID|28981|M|61.07;64.56;63.45,60.2|CS|Z|Kelp'thar Forest|N|Erunak Stonespeaker, Deepmist Grotto|
+H Orgrimmar|QID|28976|M|63.45,60.2|CS|Z|Kelp'thar Forest|N|Hearth out and then return to Orgrimmar by the method of your choice. If you don't want to hearth, you can swim back to Smuggler's scar and fly out.|
 
-R Twilight Highlands|QID|28976|M|50.23,39.26|Z|Orgrimmar|N|Take the portal to Twilight Highlands|
-F The Krazzworks|M|68.17,33.40|QID|28976|Z|Arathi Highlands|U|37586|N|Fly to The Krazzworks, Twilight Highlands.|
-
+P Twilight Highlands|QID|28976|M|50.18,39.43|Z|Orgrimmar|N|Take the portal to Twilight Highlands. If you havent quested in the zone, there will be no return portal, no candy bucket in Dragonmaw Port and Flighmaster won't be usable.|
+F The Krazzworks|M|73.59,52.91|QID|28976|Z|Arathi Highlands|U|37586|N|Fly to The Krazzworks, Twilight Highlands.|
 A Candy Bucket|QID|28976|M|75.41,16.53|Z|Twilight Highlands|N|Inkeeper Geno, The Krazzworks|
 F Dragonmaw Port|M|75.33,17.79|QID|28975|Z|Twilight Highlands|U|37586|N|Fly to Dragonmaw Port, Twilight Highlands.|
 A Candy Bucket|QID|28975|PRE|26830|M|75.4,54.9|Z|Twilight Highlands|N|Innkeeper Lutz, Dragonmaw Port. Not here if you have not done the quests.|
@@ -245,12 +263,100 @@ F Bloodgulch|M|73.59,52.92|QID|28973|Z|Twilight Highlands|U|37586|N|Fly to Blood
 A Candy Bucket|QID|28973|M|53.40,42.85|Z|Twilight Highlands|N|Inkeeper Turk, Bloodgulch|
 F Crushblow|M|54.15,42.23|QID|28974|Z|Twilight Highlands|U|37586|N|Fly to Crushblow, Twilight Highlands.|
 A Candy Bucket|QID|28974|M|45.11,76.80|Z|Twilight Highlands|N|Inkeeper Krum, Crushblow|
+P Orgrimmar|QID|29016|N|Return to Orgrimmar by your choice of means. There is no portal if you haven't quested in the zone.|
 
-R Uldum|QID|29016|M|28.98,38.49|Z|Orgrimmar|N|Take the portal to Uldum|
-F Oasis of Vir'sar|QID|29016|M|55.98,64.17|Z|Un'Goro Crater|U|37586|N|Fly to Oasis of Vir'sar, Uldum.|
+P Uldum|QID|29016|M|48.84,38.49|Z|Orgrimmar|N|Take the portal to Uldum.|
+A Candy Bucket|QID|29017|M|54.68,33.01|Z|Uldum|N|Kazemde, Ramkahen|
+F Oasis of Vir'sar|QID|29016|M|56.20,33.62|Z|Uldam|U|37586|N|Fly to Oasis of Vir'sar, Uldum.|
 A Candy Bucket|QID|29016|M|26.58,7.25|Z|Uldum|N|Yasmin, Oasis of Vir'sar|
-F Ramkahen|QID|29017|M|26.61,8.35|Z|Uldum|U|37586|N|Fly to Ramkahen, Uldum.|
-A Candy Bucket|QID|29017|M|54.68,33.01|Z|Uldum|N| Kazemde, Ramkahen|
+N End of Cataclysm Guide|N|Choose next continent you want to do or ... or course, choose to be done.|
+
+br]Pandaria
+
+local guide = WoWPro:RegisterGuide("LudoHallowPanH",'WorldEvents',"Pandaria", "Ludovicus", "Horde")
+WoWPro:GuideLevels(guide,1,90,45.000000)
+WoWPro.WorldEvents:GuideHoliday(guide,"HallowsEnd", "Hallow's End - Pandaria")
+WoWPro:GuideSteps(guide, function()
+return [[
+
+N Wall of Text Part 1 of 2|QID|32050|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hollows End achievments "Tricks and Treats of...".|
+N Wall of Text Part 2 of 2|QID|32050|N|Also to note, you can get multiples of things like the Hallowed Helm (Unique) and Sinister Squashling(not unique). So be prepared do delete a lot treat bags, keep one Hallowed Helm in your inventory and that's it. It's easier to delete the bag, than it is to delete the helm.|
+
+R The Jade Forest|QID|32050|M|68.82,40.24|Z|Orgrimmar|N|Take your portal to The Jade Forest.|
+
+A Candy Bucket|QID|32050|M|28.45,13.27|Z|The Jade Forest|N|Brewmother Kiki, Honeydew Village.|FACTION|Horde|
+F Grookin Hill|QID|32028|M|28.1,15.6|Z|The Jade Forest|N|Ask Wing Hya to go to Grookin Hill|
+
+A Candy Bucket|QID|32028|M|28.00,47.40|Z|The Jade Forest|N|Grookin Bed-Haver, Grookin Hill|FACTION|Horde|
+F Jade Temple Grounds|QID|32032|M|28.00,47.40|Z|The Jade Forest|N|Ask Grookin Flapmaster to go to Jade Temple Grounds|U|37586|PRE|29936|
+R Jade Temple Grounds|QID|32032|M|54.61,63.33|Z|The Jade Forest|N|Mount up and fly, no flightmaster for you since you haven't quested here.|AVAILABLE|29936|
+
+A Candy Bucket|QID|32032|M|54.61,63.33|Z|The Jade Forest|N|Fela Woodear, Jade Temple Grounds.|
+F Dawn's Blossom|QID|32027|M|54.57,61.76|Z|The Jade Forest|N|Ask Ginsa Arroweye to go to  Dawn's Blossom|U|37586|
+
+A Candy Bucket|QID|32027|M|45.77,43.60|Z|The Jade Forest|N|Peiji Goldendraft, Dawn's Blossom|
+F Emperor's Omen|QID|32029|M|47.05,46.24|Z|The Jade Forest|N|Ask Keg Runner Lee to go to Emperor's Omen|U|37586|
+
+A Candy Bucket|QID|32029|M|48.09,34.62|Z|The Jade Forest|N|Graceful Swan, Greenstone Village.|
+F Sri-La Village|QID|32031|M|50.82,26.80|Z|The Jade Forest|N|Ask Suppiler Towsa to send you to Sri-La Village|U|37586|
+
+A Candy Bucket|QID|32031|M|55.72,24.40|Z|The Jade Forest|N|Lana the Sea Breeze, Sri-La Village|
+F Tian Monastery|QID|32021|M|55.38,23.73|Z|The Jade Forest|N|Ask Gingo Alebottom to go to Tian Monastery|U|37586|
+
+A Candy Bucket|QID|32021|M|41.68,23.14|Z|The Jade Forest|N|Bolo the Elder, Tian Monastery.|
+F Pang's Stead|QID|32048|M|43.58,24.53|Z|The Jade Forest|N|Ask Studious Chu to go to Pang's Stead|U|37586|
+
+A Candy Bucket|QID|32048|M|83.64,20.14|Z|Valley of the Four Winds|N|Nan Thunderfoot, Pang's Stead|
+F Stoneplow|QID|32046|M|84.50,21.06|Z|Valley of the Four Winds|N|Ask Princeton to go to Stoneplow|U|37586|
+
+A Candy Bucket|QID|32046|M|19.87,55.79|Z|Valley of the Four Winds|N|Nan the Mason Mug, Stoneplow (Phasing Issues?)|
+F Marista|QID|32034|M|20.31,58.67|Z|Valley of the Four Winds|N|Ask "Dragonwing Dan" to go to Marista|U|37586|
+
+A Candy Bucket|QID|32034|M|51.42,77.25|Z|Krasarang Wilds|N|Cranfur the Noodler, Marista|
+F Dawnchaser Retreat|QID|32020|M|52.48,76.60|Z|Krasarang Wilds|N|Ask Nan-Po to go to Dawnchaser Retreat.|U|37586|
+
+A Candy Bucket|QID|32020|M|28.25,50.74|Z|Krasarang Wilds|N|Aizra Dawnchaser, Dawnchaser Retreat|
+F Thunder Cleft|QID|32047|M|28.99,50.32|Z|Krasarang Wilds|N|Ask Munch Windhoof to go to Thunder Cleft.|U|37586|
+
+A Candy Bucket|QID|32047|M|61.01,25.15|Z|Krasarang Wilds|N|Kosta Dawnchaser, Thunder Cleft|
+F Zhu's Watch|QID|32036|M|59.18,24.71|Z|Krasarang Wilds|N|Ask Lira Skysplitter to go to Zhu's Watch.|U|37586|
+
+A Candy Bucket|QID|32036|M|75.93,6.87|Z|Krasarang Wilds|N|Rude Sho, Zhu's Watch|
+F Tavern in the Mists|QID|32026|M|76.75,8.37|Z|Krasarang Wilds|N|Ask Gee Hung to go to Tavern in the Mists|U|37586|
+
+A Candy Bucket|QID|32026|M|55.09,72.25|Z|The Veiled Stair|N|Tong the Fixer, Tavern in the Mists|
+F Binan Village|QID|32039|M|56.74,75.75|Z|The Veiled Stair|N|Ask Shin the Weightless to go to Binan Village|U|37586|
+
+A Candy Bucket|QID|32039|M|72.73,92.28|Z|Kun-Lai Summit|N|Puli the Even Handed, Binan Village|
+F Eastwind Rest|QID|32040|M|72.54,94.18|Z|Kun-Lai Summit|N|Ask Jo the Wind Watcher to go to Eastwind Rest|U|37586|PRE|30513|
+
+A Candy Bucket|QID|32040|M|62.77,80.50|Z|Kun-Lai Summit|N|Mai the Sleepy, Eastwind Rest|FACTION|Horde|PRE|30513|
+F Temple of the White Tiger|QID|32041|M|62.4,80.6|Z|Kun-Lai Summit|N|Ask Soaring Paw to go to Temple of the White Tiger|U|37586|PRE|30513|
+F Temple of the White Tiger|QID|32041|M|72.54,94.18|Z|Kun-Lai Summit|N|Ask Jo the Wind Watcher to go to Temple of the White Tiger|U|37586|AVAILABLE|30513|
+
+A Candy Bucket|QID|32041|M|64.21,61.28|Z|Kun-Lai Summit|N|Li Goldendraft, The Grummle Bazaar|
+F One Keg|QID|32037|M|66.31,50.67|Z|Kun-Lai Summit|N|Ask Gig Greenfeather to go to One Keg|U|37586|
+
+A Candy Bucket|QID|32037|M|57.45,59.94|Z|Kun-Lai Summit|N|Chiyo Mistpaw, One Keg|
+F Zouchin Village|QID|32051|M|57.73,59.69|Z|Kun-Lai Summit|N|Ask Little Cleankite to go to Zouchin Village|U|37586|
+
+A Candy Bucket|QID|32051|M|62.50,28.91|Z|Kun-Lai Summit|N|Liu Ze, Zouchin Village |
+F Longying Outpost|QID|32043|M|62.42,30.12|Z|Kun-Lai Summit|N|Ask Bo the Wind Claimer to go to Longying Outpost in Townlong Steppes|U|37586|
+
+A Candy Bucket|QID|32043|M|71.13,57.80|Z|Townlong Steppes|N|Saito the Sleeping Shadow, Longying Outpost|
+F Klaxxi'vess|QID|32024|M|71.08,57.31|Z|Townlong Steppes|N|Ask Kit Master Wong to go to Klaxxi'vess in Dread Wastes|U|37586|
+
+A Candy Bucket|QID|32024|M|55.93,32.27|Z|Dread Wastes|N|Zit'tix, Klaxxi'vess|
+F Soggy's Gamble|QID|32023|M|55.83,34.87|Z|Dread Wastes|N|Ask Kik'Tik to go to Soggy's Gamble|U|37586|
+
+A Candy Bucket|QID|32023|M|55.21,71.20|Z|Dread Wastes|N|San the Sea Calmer, Soggy's Gamble |
+F Shrine of Two Moons|QID|32022|M|56.10,70.18|Z|Dread Wastes|N|Ask Min the Breeze Rider to go to Shrine of Two Moons|U|37586|
+
+A Candy Bucket|QID|32022|M|58.22,77.68|Z|Vale of Eternal Blossoms|N|Brewmaster Skye, Shrine of Two Moons.|
+F Serpent's Spine|QID|32044|M|84.62,62.42|Z|Vale of Eternal Blossoms|N|Ask Sharinga Springrunner to go to Serpent's Spine|U|37586|
+
+A Candy Bucket|QID|32044|M|35.15,77.75|Z|Vale of Eternal Blossoms|N|Bartender Tomro, Mistfall Village|
+N You made it!|N|Done with MoP|
 
 ]]
 end)
