@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3776
+-- Date: 2018-10-31 08:26
+-- Who: jovieve
+-- Log: Added T and A step to prevent unnecessary jumping to War Campaign guide for just two steps.
+
+-- URL: http://wow-pro.com/node/3776/revisions/29916/view
 -- Date: 2018-10-17 02:22
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -295,6 +300,9 @@ A The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|From Flynn Fairwin
 C The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|Orient yourself towards the barrel (north) and use the special action button.|
 T The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|To Flynn Fairwind.|
 A The Ashvane Trading Company|QID|47485|M|73.80,25.07|Z|Tiragarde Sound|N|From Cyrus Crestfall.|PRE|47181|
+
+T The War Campaign|QID|52654|M|69.27,26.97|Z|Boralus|N|To Halford Wyrmbane.|
+A The War Cache|QID|52544|M|69.27,26.97|Z|Boralus|N|From Halford Wyrmbane.|NA|
 
 J On to Tiragarde Sound|QID|47485|N|This ends the Battle for Azeroth opening guide. The Tiragarde Sound guide will auto load when you close this step.|GUIDE|EmmTiragarde|
 J On to Drustvar|QID|48622|N|This ends the Battle for Azeroth opening guide. The Drustvar guide will auto load when you close this step.|GUIDE|STrekDrustvar|
