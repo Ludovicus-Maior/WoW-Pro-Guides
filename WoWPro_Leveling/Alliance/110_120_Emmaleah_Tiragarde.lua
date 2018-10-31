@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-10-31 08:42
+-- Who: jovieve
+-- Log: Changed intro notes to reflect new options to enable rares and treasures.
+
+-- URL: http://wow-pro.com/node/3769/revisions/30095/view
 -- Date: 2018-10-28 11:45
 -- Who: Emmaleah
 -- Log: Moved K Teres/K Maison the Portable and $ Hay Covered Chest for hopefully better flow. Added Active Tag to Treasure for Yellowed Map, so it won't pop up when you find it, but only while you are in the area.
@@ -134,8 +139,8 @@ t The War Cache|QID|52544|N|To UI Alert.|
 A Time for War|QID|53332|PRE|52544|N|From UI Alert.|
 N The Great Sea Scrolls|ACTIVE|53476|U|163852|NOCACHE|NA|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 t The Great Sea Scrolls|QID|53476|M|40.4,36.4|Z|Stormsong Valley|N|To Collector Kojo. This results in a ilvl295 helm from at least lvl 113 and on, so go turn it in.|
-N Small Treasure Chests|QID|47485|N|In this expansion, small treasure chests are found in differant places each time rather than fixed spawn points. Blizzard puts a treasure map symbol on your minimap automatically. The fixed treasures are named in this guide.|
-N Use of Ranks|QID|47485|N|Set guide to rank 1 if you want to do the minimum to get the zone achievement. Set guide to Rank 2 to also do the quests, treasures and rares that are conveniently located to the places you travel for Rank 1 steps. Set the guide to Rank 3 to get all the quests, rares and named treasures in the zone.|
+N Small Treasure Chests|QID|47485|N|In this expansion, small treasure chests are found in different places each time rather than fixed spawn points. To get these, watch for the symbols on your minimap. Fixed treasures are named in this guide if you have treasures enabled.|
+N Use of Ranks|QID|47485|N|Set guide to rank 1 if you want to do the minimum to get the zone achievement. Set guide to Rank 2 to also do the quests, treasures, and rares that are conveniently located. Set the guide to Rank 3 to get all the quests, rares, and named treasures in the zone. To get rares and treasures, you need to enable those options.|
 N Treasure Maps|N|There are four treasure maps that will drop randomly when fighting pirates in Tiragarde Sound and a few other places. *Singed, Soggy, Yellowed and Fading.  Once you have those, their related treasure becomes lootable.|AVAILABLE|52854^52859^52860|;missing QID for Soggy
 
 A Tiragarde Sound|QID|47960|M|68.17,21.99|Z|Boralus|N|To Taelia.|
