@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2018-11-04 11:14
+-- Who: Emmaleah
+-- Log: ACTIVE and commented out Mala'kili cuz that was a terrible place for her. What silly person did that .. Hopefully I will find a better place soon.
+
+-- URL: http://wow-pro.com/node/3766/revisions/29959/view
 -- Date: 2018-10-17 02:26
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -224,15 +229,15 @@ C Bones for Protection|QID|48479|M|39.92,53.98|US|N|Finish up collecting the Cur
 T Bones for Protection|QID|48479|M|38.99,59.92|N|To Kol'jun Deathwalker.|
 T Kel'vax's Home|QID|48478|M|38.94,59.94|N|To Shinga Deathwalker.|
 A The Fall of Kel'vax|QID|48480|M|38.94,59.94|N|From Shinga Deathwalker.|RANK|2|PRE|48479&48478|
-C The Fall of Kel'vax|QID|48480|M|41.75,57.49|N|Kill Kel'vax Deathwalker.|
+K Kel'vax Deathwalker|ACTIVE|48480|M|41.75,57.49|T|Kel'vax Deathwalker|N|Kill Kel'vax Deathwalker.|
 K Bajiatha|QID|48439|M|42.70,60.47|QO|1|RARE|ITEM|161093|T|Bajiatha|N|Silver Elite to kill for resources and artifact power.|RANK|2|
-K Mala'kili|QID|50040|M|53.06,54.30|QO|1|RARE|ITEM|163703|T|Mala'kili|N|Run down the hill for this Silver Elite. Mala'kili's pet Crawg Rohn'kor, will come join in the fight. Kill and loot for artifact power and resources.|RANK|3|
+;K Mala'kili|QID|50040|M|53.06,54.30|QO|1|RARE|ITEM|163703|T|Mala'kili|N|Run down the hill for this Silver Elite. Mala'kili's pet crawg, Rohn'kor, will come join in the fight. Kill and loot for artifact power and resources.|RANK|3|
 T The Fall of Kel'vax|QID|48480|M|38.93,59.92|N|To Shinga Deathwalker.|
 T The Shadow of Death|QID|47241|M|36.64,53.91|N|To Hanzabu.|
 A A Culling of Souls|QID|47244|M|36.64,53.91|N|From Hanzabu.|PRE|47241|
 $ Wunja's Trove|QID|49313|M|34.67,54.98;35.41,54.97|CS|N|Stealing from the Blind, For Shame! Treasure to loot and Wunja is a vendor if you want to sell some junk.|RANK|2|
 K Xu'ba|QID|50348|M|36.72,50.81|QO|1|RARE|ITEM|162619|T|Xu'ba|N|Silver Elite for resources and artifact power.|RANK|2|
-C A Culling of Souls|QID|47244|M|38.46,50.12|N|Kill Blood Witch Najima.|
+K Blood Witch Najima|ACTIVE|47244|M|38.46,50.12|T|Blood Witch Najima|N|Kill Blood Witch Najima.|
 T A Culling of Souls|QID|47244|M|39.52,43.87|N|To Hanzabu.|
 
 A Spiritual Restoration|QID|49278|M|39.52,43.87|N|From Hanzabu.|PRE|47244|
