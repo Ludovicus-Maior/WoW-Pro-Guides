@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-11-03 12:37
+-- Who: jovieve
+-- Log: Added description in note that describes what to do during a delay in game play.
+
+-- URL: http://wow-pro.com/node/3769/revisions/30105/view
 -- Date: 2018-10-31 08:42
 -- Who: jovieve
 -- Log: Changed intro notes to reflect new options to enable rares and treasures.
@@ -409,7 +414,7 @@ K Auditor Dolp|QID|50156|M|75.56,82.69;74.91,78.96|CS|QO|1|RARE|T|Auditor Dolp|N
 C Fairwind's "Friends"|QID|49404|QO|1|M|73.86,83.44|N|Enter the Ring of Booty. Unless your AE Damage is strong, you probably want to clear the ring before you untie Flynn.|
 C Fairwind's "Friends"|QID|49404|QO|2|NC|N|Heal up and be ready for a fight after untieing Flynn.|
 C Fairwind's "Friends"|QID|49404|QO|3|N|Survive Harlan's game.|
-T Fairwind's "Friends"|QID|49404|M|77.14,82.91|N|To Taelia.|
+T Fairwind's "Friends"|QID|49404|M|77.14,82.91|N|Wait near Flynn for a bird to fly you back and then turn in to Taelia.|
 A Defenders of Daelin's Gate|QID|49405|M|77.14,82.91|N|From Taelia.|PRE|49404|
 
 ; Defenders of Daelin's Gate
