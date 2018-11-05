@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-11-06 00:11
+-- Who: elidion
+-- Log: Comment out PTR quests
+
+-- URL: http://wow-pro.com/node/3761/revisions/30114/view
+-- Date: 2018-11-05 22:35
+-- Who: Emmaleah
+-- Log: turns out those |O|s were important, a fact i would have realized if I had just thought about it for 2 more minutes...
+
+-- URL: http://wow-pro.com/node/3761/revisions/30113/view
+-- Date: 2018-11-05 20:21
+-- Who: Emmaleah
+-- Log: Deleting the stray -- that snuck in.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30110/view
 -- Date: 2018-11-05 09:18
 -- Who: Emmaleah
 -- Log: removed False from Rep tags, reworded many notes. Added some R and F steps, corrected QIDs as needed, added coordinates that were missing in several talk to Tattersail steps, moved other quests to rank 2. (debated much about where that distinction should be.)
@@ -582,12 +597,12 @@ C What Remains of Marshal M. Valentine|QID|51789|QO|5|M|61.11,48.99|Z|Drustvar|N
 T What Remains of Marshal M. Valentine|QID|51789|M|61.17,48.73|Z|Drustvar|N|To Nathanos Blightcaller, who is with you at the crypt.|
 
 ; The Honored Repuation Mission Report: Swiftwind Post
-A Mission Report: Swiftwind Post|QID|52275|M|51.56,99.77|Z|Dazar'alor|REP|The Honorbound;2157;honored;0|PRE|53744|
+A Mission Report: Swiftwind Post|QID|52275|M|51.56,99.77|Z|Dazar'alor|REP|The Honorbound;2157;honored;0|PRE|53744|O|
 T Mission Report: Swiftwind Post|QID|52275|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Swiftwind Post|QID|52276|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52275|
 
 ; The Honored Repuation Mission Report: The Wolf's Den
-A Mission Report: The Wolf's Den|QID|52005|M|51.56,99.77|Z|Dazar'alor|REP|The Honorbound;2157;honored;0|PRE|53739|
+A Mission Report: The Wolf's Den|QID|52005|M|51.56,99.77|Z|Dazar'alor|REP|The Honorbound;2157;honored;0|PRE|53739|O|
 T Mission Report: The Wolf's Den|QID|52005|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A The Wolf's Den|QID|52127|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52005|
 
@@ -755,14 +770,14 @@ T A Cycle of Hatred|QID|53003|M|48.39,71.16|Z|Orgrimmar|N|To Sylvanas Windrunner
 P Dazar'alor|AVAILABLE|54097|M|47.51,60.06|Z|Orgrimmar|N|Use the portal or otherwise return to Zandalar|PRE|53003|
 
 ; 8.1 quests
-A The Dark Lady Calls|QID|54097|M|58.40,62.73|Z|Zuldazar|N|From Dark Ranger Alina.|PRE|53003|O|
-P Orgrimmar|ACTIVE|54097|M|51.54,45.89|Z|Dazar'alor|N|Take the portal to Orgrimmar or get there by other means.|
-C The Dark Lady Calls|QID|54097|M|48.30,71.06|Z|Orgrimmar|N|Meet Sylvanas in Grommash Hold.|
-T The Dark Lady Calls|QID|54097|M|48.30,71.06|Z|Orgrimmar|N|To Sylvanas Windrunner.|
-A The High Overlord|QID|54099|M|48.30,71.06|Z|Orgrimmar|N|From Sylvanas Windrunner.|PRE|54097|
-C The High Overlord|QID|54099|M|48.30,71.06|Z|Orgrimmar|CHAT|N|Talk with Sylvanas Windrunner.|
-T The High Overlord|QID|54099|M|48.30,71.06|Z|Orgrimmar|N|To Sylvanas Windrunner.|
-A A Way Out|QID|54100|M|48.30,71.06|Z|Orgrimmar|N|From Sylvanas Windrunner.|PRE|54099|
+; A The Dark Lady Calls|QID|54097|M|58.40,62.73|Z|Zuldazar|N|From Dark Ranger Alina.|PRE|53003|O|
+; P Orgrimmar|ACTIVE|54097|M|51.54,45.89|Z|Dazar'alor|N|Take the portal to Orgrimmar or get there by other means.|
+; C The Dark Lady Calls|QID|54097|M|48.30,71.06|Z|Orgrimmar|N|Meet Sylvanas in Grommash Hold.|
+; T The Dark Lady Calls|QID|54097|M|48.30,71.06|Z|Orgrimmar|N|To Sylvanas Windrunner.|
+; A The High Overlord|QID|54099|M|48.30,71.06|Z|Orgrimmar|N|From Sylvanas Windrunner.|PRE|54097|
+; C The High Overlord|QID|54099|M|48.30,71.06|Z|Orgrimmar|CHAT|N|Talk with Sylvanas Windrunner.|
+; T The High Overlord|QID|54099|M|48.30,71.06|Z|Orgrimmar|N|To Sylvanas Windrunner.|
+; A A Way Out|QID|54100|M|48.30,71.06|Z|Orgrimmar|N|From Sylvanas Windrunner.|PRE|54099|
 
 ; The Revered Repuation Mission Report: Hillcrest Pasture
 A Mission Report: Hillcrest Pasture|QID|52478|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
@@ -836,7 +851,7 @@ f Windfall Cavern|ACTIVE|52320|M|52.77,80.13|Z|Stormsong Valley|N|At Allabas.|
 T Windfall Cavern|QID|52320|M|60.21,24.98|Z|Stormsong Valley|N|To Morn Ironhorn.|
 
 ; Rep Gated Notes
--- N Come back at level 114|QID|51979|LVL|-114|N|Next foothold can be done when you are level 114.|PRE|51803|
+N Come back at level 114|QID|51979|LVL|-114|N|Next foothold can be done when you are level 114.|PRE|51803|
 N Come back at level 116|QID|53062|LVL|-116|N|Island Adventures can be done when you are level 116. This quest is once per account. Once unlocked on the account, Other toons on the account can do Island Adventures as early as 110.|PRE|51979|
 N Come back at level 118|QID|52444|LVL|-118|N|Last foothold can be done when you are level 118.|PRE|51979|
 N Come back at level 120|QID|51589|LVL|-120|N|First assault can be done when you are level 120.|PRE|52444|
