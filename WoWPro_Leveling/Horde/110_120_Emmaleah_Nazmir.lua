@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2018-11-05 09:17
+-- Who: Emmaleah
+-- Log: K Matron Shaazula
+
+-- URL: http://wow-pro.com/node/3766/revisions/30109/view
 -- Date: 2018-11-04 11:14
 -- Who: Emmaleah
 -- Log: ACTIVE and commented out Mala'kili cuz that was a terrible place for her. What silly person did that .. Hopefully I will find a better place soon.
@@ -308,7 +313,7 @@ C That Which Haunts the Dead|QID|47247|M|36.12,29.87|QO|2|N|Kill Hex Priestess T
 K Azerite-Infused Slag|QID|50563|M|37.30,26.24;33.34,27.53|CS|QO|1|T|Azerite-Infused Slag|N|Silver Elite to kill for resources and artifact power.|RANK|2|RARE|;item unknown
 C Remnants of the Damned|QID|47491|M|40.46,30.25|S|N|Decaying Bloodstones drop from the skeletal Reanimated and Bound Horrors. Kill them as you go.|
 C The Forlorn Soul|QID|49432|M|39.58,31.56;39.58,34.95|CS|QO|1|NC|N|Head down into the catacombs to find Keula's mother. Click on the sarcophagus lid.|
-C The Forlorn Soul|QID|49432|M|39.65,34.94|QO|2|N|Subdue Matron Shaazula.|
+K The Matron Shaazula|ACTIVE|49432|M|39.65,34.94|QO|2|T|The Matron Shaazula|N|Subdue Matron Shaazula.|
 K Za'amar the Queen's Blade|QID|49469|M|38.77,28.76;38.84,26.72|CS|RARE|ITEM|161095|QO|1|T|Za'amar the Queen's Blade|N|In the Necropolis Catacombs you can find this Silver Elite to kill and loot for a bit of resources and artifact power.|RANK|2|
 C 'Til Death Do Us Part|QID|47248|M|40.37,26.52|QO|1|NC|N|Into the last catacomb you will find a box with Valjabu's Tusk Ring, Kill Gee'dee the Cursed if he is in the way.|
 C Remnants of the Damned|QID|47491|M|40.46,30.25|US|N|Finish collecting the Decaying Bloodstones.|
