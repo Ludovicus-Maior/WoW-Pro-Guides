@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-11-05 22:38
+-- Who: Emmaleah
+-- Log: turns out those pesky |O|s and |M|s are important, a fact i would have realized if I had just thought about it for 2 more minutes...
+
+-- URL: http://wow-pro.com/node/3760/revisions/30111/view
 -- Date: 2018-11-05 01:35
 -- Who: Emmaleah
 -- Log: removed False from Rep tags, reworded many notes. Added some R and F steps, corrected QIDs as needed, added coordinates that were missing in several talk to Jes-Therah steps, moved other quests to rank 2. (debated much about where that distinction should be.)
@@ -248,11 +253,6 @@
 -- Date: 2018-05-13 02:18
 -- Who: Emmaleah
 -- Log: changed guide icon, changed zone name to Kul Tiras, added coords for infusing the heart, changed next guide to TBD
-
--- URL: http://wow-pro.com/node/3760/revisions/29292/view
--- Date: 2018-05-11 08:37
--- Who: STrek
--- Log: added quest "the war campaign" and The Warcache at the end. Quest log says 'before you leave.." so best do this before we go to our first zone of choose.
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -672,12 +672,12 @@ K Blood Prince Dreven|ACTIVE|52219|M|20.18,60.76|Z|Nazmir|QO|2|T|Blood Prince Dr
 T Target: Blood Prince Dreven|QID|52219|M|61.97,41.24|Z|Nazmir|N|To Shandris Feathermoon - Flightmaster Whistle can be useful here if you don't want to run back.|U|141605|
 
 ; The Honored Repuation Mission Report: Veiled Grotto
-A Mission Report: Veiled Grotto|QID|52801|M|70.46,27.13|Z|Boralus|PRE|53747|
+A Mission Report: Veiled Grotto|QID|52801|M|70.46,27.13|Z|Boralus|PRE|53747|O|
 T Mission Report: Veiled Grotto|QID|52801|M|69.28,26.99|Z|Boralus|N|To Halford Wyrmbane.|
 A Veiled Grotto|QID|52802|M|69.28,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|52801|
 
 ; The Honored Repuation Mission Report: Grimwatt's Crash
-A Mission Report: Grimwatt's Crash|QID|53006|M|70.45,27.18|Z|Boralus|PRE|53751|
+A Mission Report: Grimwatt's Crash|QID|53006|M|70.45,27.18|Z|Boralus|PRE|53751|O|
 T Mission Report: Grimwatt's Crash|QID|53006|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Grimwatt's Crash|QID|53007|M|69.28,27.00|Z|Boralus|PRE|53006|N|From Halford Wyrmbane.|
 
@@ -698,7 +698,7 @@ T Grimwatt's Crash|QID|53007|M|33.88,63.22|Z|Nazmir|N|To Fellyia Wildsong.|
 A Mission Report: Ambush at Grimwatt's Crash|QID|53186|M|70.42,27.19|Z|Boralus|PRE|53007|O|
 T Mission Report: Ambush at Grimwatt's Crash|QID|53186|M|69.28,27.01|Z|Boralus|N|To Halford Wyrmbane.|
 A An Unexpected Guest|QID|53187|M|69.28,27.01|Z|Boralus|PRE|53186|N|From Halford Wyrmbane.|
-R Nazmir|ACTIVE|53187|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Nazmir or get there through other means.|
+R Nazmir|ACTIVE|53187|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Nazmir or get there through other means.|
 T An Unexpected Guest|QID|53187|M|34.31,63.20|Z|Nazmir|N|Fly to Grimwatt's Crash and turn in to Noella Davenport.|
 
 ; 3k Honored with The 7th Legion
@@ -842,22 +842,22 @@ A Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Spea
 T Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|
 
 ; The Revered Reputation Mission Report: Vulture's Nest
-A Mission Report: Vulture's Nest|QID|53043|M|70.56,27.20|Z|Boralus|PRE|53750|
+A Mission Report: Vulture's Nest|QID|53043|M|70.56,27.20|Z|Boralus|PRE|53750|O|
 T Mission Report: Vulture's Nest|QID|53043|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Vulture's Nest|QID|53044|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|53043|
 
 ; The Revered Reputation Mission Report: Mugamba Overlook
-A Mission Report: Mugamba Overlook|QID|52851|M|70.57,27.17|Z|Boralus|PRE|53748|
+A Mission Report: Mugamba Overlook|QID|52851|M|70.57,27.17|Z|Boralus|PRE|53748|O|
 T Mission Report: Mugamba Overlook|QID|52851|M|69.27,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Mugamba Overlook|QID|52852|M|69.27,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|52851|
 
 ; The Revered Reputation Mission Report: Verdant Hollow
-A Mission Report: Verdant Hollow|QID|52886|M|70.52,27.19|Z|Boralus|PRE|53746|
+A Mission Report: Verdant Hollow|QID|52886|M|70.52,27.19|Z|Boralus|PRE|53746|O|
 T Mission Report: Verdant Hollow|QID|52886|M|69.29,27.02|Z|Boralus|N|To Halford Wyrmbane.|
 A Verdant Hollow|QID|52888|M|69.29,27.02|Z|Boralus|N|From Halford Wyrmbane.|PRE|52886|
 
 ; The Revered Reputation Mission Report: Mistvine Ledge
-A Mission Report: Mistvine Ledge|QID|52962|M|70.55,27.17|Z|Boralus|PRE|53749|
+A Mission Report: Mistvine Ledge|QID|52962|M|70.55,27.17|Z|Boralus|PRE|53749|O|
 T Mission Report: Mistvine Ledge|QID|52962|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Mistvine Ledge|QID|52963|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|52962|
 
@@ -868,7 +868,7 @@ T Vulture's Nest|QID|53044|M|53.71,37.72|Z|Vol'dun|N|To Hilda Hammerfast.|
 A Mission Report: Missing Supplies|QID|53221|M|70.56,27.19|Z|Boralus|O|
 T Mission Report: Missing Supplies|QID|53221|M|69.26,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Necessary Supplies|QID|53222|M|69.26,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|53221|
-R Vol'dun|ACTIVE|53222|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Vol'dun or get there through other means.|
+R Vol'dun|ACTIVE|53222|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Vol'dun or get there through other means.|
 T Necessary Supplies|QID|53222|M|53.60,37.67|Z|Vol'dun|N|Fly to Vulture's Nest and turn in to Buzz Crankchug.|
 
 P Zuldazar|ACTIVE|52852^52888^52963|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|;not sure this is needed... not sure it hurts anything either.
@@ -881,7 +881,7 @@ T Mugamba Overlook|QID|52852|M|44.86,27.40|Z|Zuldazar|N|To Darchelle Hayes.|
 A Mission Report: Spare Parts|QID|53275|M|70.57,27.18|Z|Boralus|O|
 T Mission Report: Spare Parts|QID|53275|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Spare Parts|QID|53276|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|53275|
-R Zuldazar|ACTIVE|53276|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
+R Zuldazar|ACTIVE|53276|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
 T Spare Parts|QID|53276|M|44.94,27.25|Z|Zuldazar|N|Fly to Mugamba Overlook and turn in to Giblin Clockspark.|
 
 P Zuldazar|ACTIVE|52888|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
@@ -892,7 +892,7 @@ T Verdant Hollow|QID|52888|M|54.87,25.55|Z|Zuldazar|N|To Argrim Stonedeep.|
 A Mission Report: Dino Research|QID|53267|M|70.56,27.17|Z|Boralus|O|
 T Mission Report: Dino Research|QID|53267|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Dino Research|QID|53268|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|53267|
-R Zuldazar|ACTIVE|53268|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
+R Zuldazar|ACTIVE|53268|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
 T Dino Research|QID|53268|M|54.87,25.55|Z|Zuldazar|N|Fly to Verdant Hollow and turn in to Argrim Stonedeep.|
 
 P Zuldazar|ACTIVE|52963|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
@@ -904,7 +904,7 @@ T Mistvine Ledge|QID|52963|M|64.46,47.29|Z|Zuldazar|N|To Neva.|
 A Mission Report: Jungle Escort|QID|53306|M|70.56,27.18|Z|Boralus|O|
 T Mission Report: Jungle Escort|QID|53306|M|69.27,26.99|Z|Boralus|N|To Halford Wyrmbane.|
 A Jungle Escort|QID|53307|M|69.27,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|53306|
-R Zuldazar|ACTIVE|53307|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
+R Zuldazar|ACTIVE|53307|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
 T Jungle Escort|QID|53307|M|64.46,47.29|Z|Zuldazar|N|Fly to Mistvine Ledge and turn in to Neva.|
 
 ;Vol'dun quests
@@ -922,9 +922,9 @@ A Archaeological Efficiency|QID|50044|M|41.35,71.45|Z|Zuldazar|PRE|49276|N|From 
 A Xibalan Ecology|QID|49060|M|41.33,71.43|Z|Zuldazar|PRE|49276|N|From Acadia Chistlestone.|
 C Xibalan Ecology|QID|49060|M|42.11,75.04|Z|Zuldazar|QO|1|S|N|Kill the Xibalan predators in the area.|
 C Archaeological Efficiency|QID|50044|M|42.13,75.02|Z|Zuldazar|QO|1|S|NC|N|Click on the Elemental Summoning Stone to have the elemental uncover the glowing dirt piles, and then loot the bones.|U|159640|
-C Morgrum's Survey|QID|49274|M|42.48,72.25|Z|Zuldazar|QO|1|NC|N|1/1 Outer ruins survey completed|
-C Morgrum's Survey|QID|49274|M|42.78,73.86|Z|Zuldazar|QO|2|NC|N|1/1 Inner ruins survey completed|
-C Morgrum's Survey|QID|49274|M|41.36,75.40|Z|Zuldazar|QO|3|NC|N|1/1 "The Foot" survey completed|
+C Morgrum's Survey|QID|49274|M|42.48,72.25|Z|Zuldazar|QO|1|NC|N|Survey the outer ruins.|
+C Morgrum's Survey|QID|49274|M|42.78,73.86|Z|Zuldazar|QO|2|NC|N|Survey the ruins.|
+C Morgrum's Survey|QID|49274|M|41.36,75.40|Z|Zuldazar|QO|3|NC|N|Survey "The Foot".|
 C Archaeological Efficiency|QID|50044|M|42.13,75.02|Z|Zuldazar|QO|1|US|NC|N|Click on the Elemental Summoning Stone to have the elemental uncover the glowing dirt piles, and then loot the bones.|U|159640|
 K Dark Chronicler|ACTIVE|51085|M|43.25,76.42;43.82,76.48|CS|Z|Zuldazar|QO|1|T|Dark Chronicler|N|Go up to about the middle of the hill to find a tunneled hole entrance. Run down to the Dark Chronicler and kill it. Can be tough without a group, skip the step if you want to do it later.|
 C Xibalan Ecology|QID|49060|M|42.51,73.13|Z|Zuldazar|QO|1|US|N|Finish killing the Xibalan predators in the area.|
