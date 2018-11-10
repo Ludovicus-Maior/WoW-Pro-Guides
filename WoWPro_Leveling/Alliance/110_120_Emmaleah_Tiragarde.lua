@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-11-10 03:33
+-- Who: Emmaleah
+-- Log: add correct QID for Broodmother Razora, the WQ one was in the guide instead.
+
+-- URL: http://wow-pro.com/node/3769/revisions/30108/view
 -- Date: 2018-11-03 12:37
 -- Who: jovieve
 -- Log: Added description in note that describes what to do during a delay in game play.
@@ -515,7 +520,7 @@ A Patching Up the Rear|QID|49733|M|81.10,42.48|N|From Tallis Skyheart.|RANK|3|
 A Death from Two Sides|QID|51226|M|80.63,42.09|N|From Hawkmaster Lloyd.|RANK|3|
 C Death from Two Sides|QID|51226|M|82.24,43.87|S|N|Kill the Brinefang Saurolisk's as you go.|
 C Patching Up the Rear|QID|49733|M|82.82,44.10|S|NC|N|Click on the Injured Marines to bandage them.|
-K Broodmother Razora|QID|51665|QO|1|M|82.82,44.10|T|Broodmther Razora|N|Silver Elite to loot for a bit of Azerite Power and resources.|RARE|ITEM|160460|RANK|3|
+K Broodmother Razora|QID|49999^51665|QO|1|M|82.82,44.10|T|Broodmther Razora|N|Silver Elite to loot for a bit of Azerite Power and resources.|RARE|ITEM|160460|RANK|3|
 C Patching Up the Rear|QID|49733|M|82.82,44.10|US|NC|N|Click on the Injured Marines to bandage them.|
 C Death from Two Sides|QID|51226|M|82.24,43.87|US|N|Kill the Brinefang Saurolisk's as you go.|
 T Death from Two Sides|QID|51226|M|80.63,42.09|N|To Hawkmaster Lloyd.|
