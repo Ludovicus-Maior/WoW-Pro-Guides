@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-11-11 12:12
+-- Who: Emmaleah
+-- Log: Tirasgard !=Tiragarde
+
+-- URL: http://wow-pro.com/node/3769/revisions/30119/view
 -- Date: 2018-11-10 03:33
 -- Who: Emmaleah
 -- Log: add correct QID for Broodmother Razora, the WQ one was in the guide instead.
@@ -550,7 +555,7 @@ $ Secret of the Depths-Scroll 4|QID|52137|M|70.21,85.60;71.01,84.41|CS|Z|Boralus
 $ Secret of the Depths-Scroll 3|QID|52136|M|63.07,81.49;63.13,81.87|CS|Z|Boralus|N|Pick up the Damp Scroll located upstairs in this building.|RANK|3|
 $ Secret of the Depths-Scroll 1|QID|52134|M|61.51,83.82;55.97,91.32|CS|Z|Boralus|N|Jump in the water and swim down towards an underwater cave. Pick up the Damp Scroll located inside an underwater cave.|RANK|3|
 $ Secret of the Depths-Alter|QID|52195|M|55.70,91.09|Z|Boralus|N|In the same underground room, click on the Ominous Altar and follow thru the chat prompts to receive your reward.|RANK|3|ITEM|161342|
-R Tirasgard Sound|ACTIVE|51151|M|76.25,95.88|N|Hearth, or run a few feet then you can use your flightmaster's whistle or lacking those options, run all the way back to Freeport and fly.|
+R Tiragarde Sound|ACTIVE|51151|M|76.25,95.88|N|Hearth, or run a few feet then you can use your flightmaster's whistle or lacking those options, run all the way back to Freeport and fly.|
 b Firebreaker Expedition|ACTIVE|51151|M|75.28,25.75|N|Take the ferry to Thovas Base-Camp/Firebreaker Expidition.|RANK|2|
 A A Marine Out of Water|QID|49234|M|62.94,29.90|N|From Recruit Brutis.|RANK|2|
 A The Ruins Fought Back|QID|49229|M|62.73,29.95|N|From Drogrin Alewhisker.|RANK|2|
@@ -566,7 +571,7 @@ T Chasing the Leader|QID|49225|M|58.66,37.76|Z|1171|N|To Hilde Firebreaker.|
 A Backup While I Pack Up|QID|49260|M|58.66,37.76|Z|1171|N|From Hilde Firebreaker.|PRE|49225|RANK|2|
 C Backup While I Pack Up|QID|49260|M|59.00,37.07|Z|1171|N|Defend Firebreaker against three waves of attackers.|
 T Backup While I Pack Up|QID|49260|M|58.80,37.36|Z|1171|N|To Hilde Firebreaker.|
-C A Marine Out of Water|QID|49234|M|55.00,44.06|Z|1171|N|Head up the circular ramp to find and kill the Awakened Guardian.|T|Awakened Guardian|
+K Awakened Guardian|ACTIVE|49234|QO|1|M|55.00,44.06|Z|1171|N|Head up the circular ramp to find and kill the Awakened Guardian.|T|Awakened Guardian|
 C I'm a Druid, Not a Priest|QID|49233|M|29.78,54.56|Z|1171|U|153350|US|N|Finish freeing the Cursed Raiders.|
 C Salvaging a Disaster|QID|49232|M|56.95,65.82|Z|1171|US|NC|N|Finish collecting Relics.|
 T Salvaging a Disaster|QID|49232|M|51.27,70.47|Z|1171|N|To Pendi Cranklefuse.|
@@ -622,7 +627,7 @@ T Required Webinar|QID|49468|M|70.16,18.62|N|To Benjamin Algerson.|
 T Pest Prevention|QID|49454|M|70.16,18.62|N|To Benjamin Algerson.|
 T Incident Reports|QID|49450|M|70.16,18.62|N|To Benjamin Algerson.|
 A Witch of the Woods|QID|49467|M|70.16,18.62|N|From Benjamin Algerson.|PRE|49450&49454&49468|RANK|3|
-C Witch of the Woods|QID|49467|M|70.86,18.19;71.04,16.44;70.50,14.12|CS|N|Kill the witch and loot her locket.|
+K Witch of the Woods|ACTIVE|49467|QO|1|M|70.86,18.19;71.04,16.44;70.50,14.12|CS|N|Kill the witch and loot her locket.|
 $ Ritual Effigy|QID|50073|M|70.34,12.47|QO|1|T|Twin-hearted Contruct|RARE|ITEM|160473|N|Click on the Ritual Effigy to start a Vignette and then kill the Twin-hearted Contruct - Silver Elite drops a bit of Azerite Power and resources.|RANK|3|
 T Witch of the Woods|QID|49467|M|68.85,13.16|N|To Maynard Algerson.|
 $ Imperiled Merchants|QID|51321|M|64.31,19.23|RARE|ITEM|160472|N|Talk to Walter Ferrell to start, Defeat 2 waves and the boss - Honey-Coated Slitherer - Silver Elite to kill for Azerite Power and resources.|RANK|3|;Appears to currently be broken.
