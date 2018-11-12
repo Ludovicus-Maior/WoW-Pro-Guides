@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3669
+-- Date: 2018-11-12 01:56
+-- Who: Emmaleah
+-- Log: add PREs to dungeon quests.
+
+-- URL: http://wow-pro.com/node/3669/revisions/30002/view
 -- Date: 2018-10-17 02:29
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -202,13 +207,13 @@ A Gathering the Dreamweavers|QID|42037|M|52.52,51.50|N|From Skylord Omnuron.|PRE
 C Gathering the Dreamweavers|QID|42037|M|52.66,51.20|S|NC|N|Use your scouting map to send your followers on the 5 sequential 'Gathering the Dreamweavers' missions.|
 P Emerald Dreamway|QID|43991|M|55.27,22.93|N|Run thru the Emerald Dreamway portal.|
 C The Protectors|QID|43991|QO|1|M|30.61,37.17|Z|EmeraldDreamway|NC|N|Use prowl by the Feral stone.(between Grizzly Hills and Feralas portals)|
-A Halls of Valor: Essence of Ferocity|QID|44075|M|31.06,36.76|Z|EmeraldDreamway|NA|N|From Echo of Ashamane. This is an instance quest, finish it sometime before 110 so you can progress your hall then.|AVAILABLE|43991|
+A Halls of Valor: Essence of Ferocity|QID|44075|M|31.06,36.76|Z|EmeraldDreamway|NA|N|From Echo of Ashamane. This is an instance quest, finish it sometime before 110 so you can progress your hall then.|PRE|42036|
 C The Protectors|QID|43991|QO|3|M|30.08,51.30|Z|EmeraldDreamway|NC|N|Cast Moonfire on small Ritual Candle near the Balance stone (in any form you can cast it). (Southeast of Feralas portal)|T|Ritual Candle|
-A Eye of Azshara: Essence of Balance|QID|44077|M|30.71,50.81|Z|EmeraldDreamway|NA|N|From Avatar of Aviana. This is an instance quest, finish it sometime before 110 so you can progress your hall then.|AVAILABLE|43991|
+A Eye of Azshara: Essence of Balance|QID|44077|M|30.71,50.81|Z|EmeraldDreamway|NA|N|From Avatar of Aviana. This is an instance quest, finish it sometime before 110 so you can progress your hall then.|PRE|42036|
 C The Protectors|QID|43991|QO|2|M|34.98,62.84|Z|EmeraldDreamway|NC|N|Shift into Bear form near the Guardian stone.(between Duskwood and Moonglade portals)|
-A Neltharion's Lair: Essence of Tenacity|QID|44074|M|34.69,62.19|Z|EmeraldDreamway|NA|N|From Son of Ursoc. This is an instance quest, finish it sometime before 110 so you can progress your hall then.|AVAILABLE|43991|
+A Neltharion's Lair: Essence of Tenacity|QID|44074|M|34.69,62.19|Z|EmeraldDreamway|NA|N|From Son of Ursoc. This is an instance quest, finish it sometime before 110 so you can progress your hall then.|PRE|42036|
 C The Protectors|QID|43991|QO|4|M|41.54,58.93|Z|EmeraldDreamway|NC|N|Heal the Sapling near the Restoration Stone.(between Hinterlands and Duskwood portals)|T|Sapling|
-A Darkheart Thicket: Essence of Regrowth|QID|44076|M|40.95,59.04|Z|EmeraldDreamway|NA|N|From Glimmer of Aessina. This is an instance quest, finish it sometime before 110 so you can progress your hall then.|AVAILABLE|43991|
+A Darkheart Thicket: Essence of Regrowth|QID|44076|M|40.95,59.04|Z|EmeraldDreamway|NA|N|From Glimmer of Aessina. This is an instance quest, finish it sometime before 110 so you can progress your hall then.|PRE|42036|
 P The Dreamgrove|QID|43991|M|45.56,23.60|Z|EmeraldDreamway|N|Return to the Dreamgrove to turn in.|ACTIVE|43991|
 T The Protectors|QID|43991|M|44.57,50.12|N|To Keeper Remulos.|
 C Gathering the Dreamweavers|QID|42037|M|52.66,51.20|US|NC|N|As you approach 110, you want to be sure you have finished the 5 sequential 'Gathering the Dreamweavers' missions. Check this off manually until then. The instances do not have to be done to progress, but they do need to be done before you can complete the campaign.|
