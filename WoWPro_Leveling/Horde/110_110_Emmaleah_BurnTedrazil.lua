@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_prepatch_horde
+-- Date: 2018-11-12 10:03
+-- Who: Emmaleah
+-- Log: added directions to profession trainers. missing correct spell id for archeology and fishing, so they currently require manual check offs. (please add if you find!)
+
+-- URL: http://wow-pro.com/node/3770/revisions/29958/view
 -- Date: 2018-10-17 02:26
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -350,8 +355,27 @@ A Trust of a King|QID|49615|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From
 A The War Campaign|QID|52749|M|40.67,72.08|Z|Hall of Croniclers!Dazar'alor|N|From Nathanos Blightcaller.|
 N About the War Campaign|ACTIVE|52749|N|There are quests offered at 110,114,118 on The Banshee's Wail, a ship in Zuldazar's harbor. The guide for those quests will offer to load when you accept one of those quests. As the 2nd quest requires you to gather 100 war resources before you progress, no reason to go down there until you have the first 100 resources. Also, no particular rush to get them done as long as you do it by 120.|
 
+; professions
+N Cooking|ACTIVE|52749|M|28.44,50.42|Z|Hall of Croniclers!Dazar'alor|N|Train BfA Cooking at T'sarah the Royal Chef.|P|Cooking;185|RECIPE|259430|;
+N Archaeology|ACTIVE|52749|M|36.17,46.42|Z|Hall of Croniclers!Dazar'alor|N|Train BfA Archaeology at Examiner Alerinda who wanders around in the Vault of Kings. Check off manually when done.|P|Archaeology;794|RECIPE|278910|;need to determine correct spell ID to autocomplete
+R Terrace of Crafters|AVAILABLE|51465|M|43.15,35.51|Z|Dazar'alor|N|Run down to Terrace of the Crafters to train you various professions.|
+N Skinning|ACTIVE|52749|M|43.76,34.67|Z|Dazar'alor|N|Train BfA skinning at Ranna the Cutta.|P|Skinning;393|RECIPE|257152|;
+N Leatherworking|ACTIVE|52749|M|44.07,34.65|Z|Dazar'alor|N|Train BfA Leatherworking at Xanjo.|P|Leatherworking;165|RECIPE|256756|;265813
+N Tailoring|ACTIVE|52749|M|44.49,33.90|Z|Dazar'alor|N|Train BfA Tailoring at Pin'jin the Patient.|P|Tailoring;197|RECIPE|257103|;265815
+N Herbalism|ACTIVE|52749|M|42.11,35.61|Z|Dazar'alor|N|Train BfA Herbalism at Jahden Fla.|P|Herbalism;182|RECIPE|252411|;267458
+N Alchemy|ACTIVE|52749|M|42.23,37.96|Z|Dazar'alor|N|Train BfA Alchemy at Clever Kumali.|P|Alchemy;171|RECIPE|252382|;
+N Inscription|ACTIVE|52749|M|42.33,39.72|Z|Dazar'alor|N|Train BfA Inscription at Chronicler Grazzul.|P|Inscription;773|RECIPE|264777|;265809
+N Engineering|ACTIVE|52749|M|45.13,40.58|Z|Dazar'alor|N|Train BfA Engineering at Shuga Blastcaps.|P|Engineering;202|RECIPE|255392|;265807
+A A Load of Scrap|QID|51465|M|45.03,39.61|Z|Dazar'alor|N|From Myxle "The Searat" Gutwrench.|
+C A Load of Scrap|QID|51465|M|44.96,39.97|Z|Dazar'alor|NC|N|Find the Tattered pants in your bags and put them in the Shred-Master MkI. You can now destroy crafted and dropped gear to get tradeskill mats based on the type of item being scrapped. (much like disenchanting, but for other mats.)|
+T A Load of Scrap|QID|51465|M|45.03,39.61|Z|Dazar'alor|N|To Myxle "The Searat" Gutwrench.|
+N Mining|ACTIVE|52749|M|44.13,38.97|Z|Dazar'alor|N|Train BfA Mining at Secott the Goldsmith.|P|Mining;186|RECIPE|253333|;267482
+N Blacksmithing|ACTIVE|52749|M|43.65,38.30|Z|Dazar'alor|N|Train BfA Blacksmithing at Forgemaster Zak'aal.|P|Blacksmithing;164|RECIPE|253183|;
+N Jewelcrafting|ACTIVE|52749|M|47.05,37.94|Z|Dazar'alor|N|Train BfA Jewelcrafting at Seshuli.|P|Jewelcrafting;755|RECIPE|256689|;265811
+N Enchanting|ACTIVE|52749|M|47.08,35.68|Z|Dazar'alor|N|Train BfA Enchanting at Enchantress Quinni.|P|Enchanting;333|RECIPE|255074|;
+
 ;to open up Jani's mysterious trashpiles
-N Jani's Mysterious Trashpiles|ACH|12482|N|These are scattered around Zandalar. To open up interaction with them, you need to do the following two quests. Once you have completed them, when you are near one of the trashpiles, you will either see a quest "!" or see/hear a message saying "hey richmon…". Interact with the trashpile for your reward.|RANK|3|
+N Jani's Mysterious Trashpiles|QID|47441|N|These are scattered around Zandalar. To open up interaction with them, you need to do the following two quests. Once you have completed them, when you are near one of the trashpiles, you will either see a quest "!" or see/hear a message saying "hey richmon…". Interact with the trashpile for your reward.|RANK|3|
 R The Zocalo|QID|47441|M|42.22,25.82|Z|Dazar'alor|N|Run down, down, down in the general direction of the waypoint.|RANK|3|;cant be ACTIVE as you don't have the quest yet
 A Pests|QID|47441|M|40.24,19.06|Z|Dazar'alor|N|From Nokano.|RANK|3|
 C Pests|QID|47441|Z|Dazar'alor|M|41.80,25.00;38.90,20.30;36.30,11.10;37.35,16.10;36.45,13.70;39.25,18.32;40.90,22.90|CN|QO|1|N|Kill the little pests.|T|Thieving Snappers|
@@ -361,7 +385,11 @@ A Curse of Jani|QID|47442|M|35.36,7.63|Z|Dazar'alor|N|From Jani.|RANK|3|
 C Curse of Jani|QID|47442|M|38.57,17.70|Z|Dazar'alor|QO|1|NC|N|Run back to Nokano. Save sprint for just before the guard in the middle of the road. If you get caught, ask Jani for new disguise.|
 C Curse of Jani|QID|47442|M|40.10,19.30|Z|Dazar'alor|QO|2|NC|N|Right click on Nokano to bite him.|
 T Curse of Jani|QID|47442|M|35.46,7.71|Z|Dazar'alor|N|To Jani. You have now opened up Jani's cursed treasure quests all over Zandalar.|
-H The Great Seal|ACTIVE|52479|N|Hearth or run back to the flightmaster, just outside The Great Seal to continue in the guide of your choice.|RANK|3|
+
+R The Sliver|ACTIVE|52749|M|45.35,23.86;50.29,21.22|Z|Dazar'alor|CS|N|Run down serveral sets of stairs to the Sliver to find the fishing trainer.|P|Fishing;356|RECIPE|271677|
+f The Sliver|ACTIVE|52749|M|53.16,19.35|Z|Dazar'alor|N|As long as you are here, grab the flight path from Zena the Feeder.|P|Fishing;356|RECIPE|271677|
+N Fishing|ACTIVE|52749|M|50.52,23.35|Z|Dazar'alor|N|Train BfA Fishing at Silent Tali. Check off manually when done.|P|Fishing;356|RECIPE|271677|;need to find correct spell id to autocomplete
+H The Great Seal|ACTIVE|52749|N|Hearth, fly or run back to the flightmaster, just outside The Great Seal to continue in the guide of your choice.|RANK|3|
 
 J On to Nazmir|QID|47103|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmNazmir|
 J On to Vol'Dun|QID|47313|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmVoldun|
