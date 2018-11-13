@@ -514,6 +514,14 @@ WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function (event,...)
 WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
 -- WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
 
+-- Merchant?
+WoWPro.RegisterEventHandler("MERCHANT_SHOW" , function (event,...)
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    if CanMerchantRepair() and WoWPro.action[qidx] == "r" then
+        WoWPro.CompleteStep(qidx,"Talked to Repairing Merchant")
+    end
+    end)
+
 -- Lets see what quests the NPC has:
 WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function (event,...)
     if not WoWPro.QuestDialogActive then
