@@ -218,7 +218,7 @@ end
 -- QID Tags first
 DefineTag("QID","QID","string",validate_list_of_qids,nil)
 DefineTag("PRE","prereq","string",validate_list_of_qids,nil)
-DefineTag("AVAILABLE","available","string",validate_list_of_qids,function (value, i) WoWPro.available[i] = value; end)
+DefineTag("AVAILABLE","available","string",validate_list_of_qids,function (value, i) WoWPro.available[i] = value; WoWPro.QID[i] = WoWPro.QID[i] or value; end)
 DefineTag("O","optional","boolean",nil,function (text,i)
     WoWPro.optional[i] = true;
     WoWPro.optionalcount = WoWPro.optionalcount + 1;
@@ -290,6 +290,7 @@ DefineTag("S","sticky","boolean",nil, function (text,i)
     WoWPro.sticky[i] = true;
     WoWPro.stickycount = WoWPro.stickycount + 1;
 end)
+DefineTag("S!US","sticky","boolean",nil,function (value,i) WoWPro.sticky[i] = 42 end)
 DefineTag("N","note","string",nil,nil)
 DefineTag("FACTION","faction","string",nil,nil)
 DefineTag("R",nil,"string",nil,function (value,i) end)  -- Swallow R Tags
