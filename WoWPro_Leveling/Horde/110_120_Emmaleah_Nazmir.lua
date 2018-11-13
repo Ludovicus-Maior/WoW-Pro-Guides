@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2018-11-13 10:16
+-- Who: Emmaleah
+-- Log: corrected coords for tainted guardian; fixed missing US on Conduit Interruption;  fixed corpse maker yon'gi s/b QO|2 
+
+-- URL: http://wow-pro.com/node/3766/revisions/30112/view
 -- Date: 2018-11-05 09:17
 -- Who: Emmaleah
 -- Log: K Matron Shaazula
@@ -337,7 +342,7 @@ T Catching Up|QID|49185|M|39.39,44.02|N|To Princess Talanji.|
 A Torga, the Turtle Loa|QID|49064|M|39.45,44.01|N|From Lashk.|PRE|49185|
 
 A Surprise Backup|QID|49477|M|33.97,39.62|N|From Torn Horde Missive.|RANK|3|
-K Tainted Guardian|QID|48508|QO|1|M|28.63,43.74|T|Tainted Guardian|N|Silver Elite to kill for resources and artifact power.|RANK|3|RARE|;item unknown
+K Tainted Guardian|QID|48508|QO|1|M|31.40,38.15|T|Tainted Guardian|N|Silver Elite to kill for resources and artifact power.|RANK|3|RARE|;item unknown
 T Surprise Backup|QID|49477|M|28.63,43.74|N|To Chadwick Paxton.|
 A Getting a Leg Up|QID|48492|M|28.63,43.74|N|From Chadwick Paxton.|RANK|3|PRE|49477|
 C Getting a Leg Up|QID|48492|M|28.63,43.74|QO|1|NC|N|Click on his legs to pick them up.|
@@ -371,8 +376,8 @@ C Offer of Power|QID|48854|M|30.97,52.18|QO|1|CHAT|N|Wait and listen to Zardrax.
 C Offer of Power|QID|48854|M|30.97,52.18|QO|2|NC|N|Click on the bubble to break free of Zardrax's control.|
 T Offer of Power|QID|48854|M|31.05,52.08|N|To Shadow Hunter Da'jul.|
 A Projection Destruction|QID|48823|M|31.05,52.08|N|From Shadow Hunter Da'jul.|RANK|2|PRE|48854|
-A Stopping Zardrax|QID|48852|M|31.05,52.08|LVL|-120|N|Bonus Objective.|RANK|2|
 C Projection Destruction|QID|48823|QO|1|CHAT|M|31.05,52.08|N|Tell Da'jul you are ready to gain the Fire mojo.|
+A Stopping Zardrax|QID|48852|M|31.05,52.08|LVL|-120|N|Bonus Objective.|RANK|2|
 A Power Denied|QID|48825|M|30.91,52.02|N|From Kal'dran.|RANK|2|PRE|48854|
 C Stopping Zardrax|QID|48852|M|31.05,52.08|S|N|Bonus Objective. - Most things in the area will help in finishing the bonus objective.|
 C Projection Destruction|QID|48823|M|30.91,55.19;32.20,55.45;32.91,56.76|CN|NC|QO|2|U|152727|N|Use the burning mojo to destroy the Skeletal Mounds.|
@@ -388,7 +393,7 @@ C Humbling the Terrors|QID|48855|M|29.97,60.15|U|153483|S|N|Use the fetish to we
 $ Abandoned Treasure|QID|47878|M|29.18,55.83|T|Shambling Ambusher|N|Click on the Abandoned Treasure to wake up the Silver Elite Shambling Ambusher. Kill him for resources and artifact power.|RANK|2|;ITEM unknown
 C All Hope is Lost|QID|48857|M|29.08,56.79|QO|2|N|Empowered Kal'dran can be found under the tree roots in a small cave.|
 C Humbling the Terrors|QID|48855|M|29.97,60.15|U|153483|US|N|Finish of the Reconstructed Terrors.|
-C Conduit Interruption|QID|48856|M|29.68,59.50|QO|1|S|N|Finish off the Zardrax Conduits.|
+C Conduit Interruption|QID|48856|M|29.68,59.50|QO|1|US|N|Finish off the Zardrax Conduits.|
 C Stopping Zardrax|QID|48852|M|32.41,56.13|US|N|Finish up the Bonus objective before you leave the area.|
 T Stopping Zardrax|QID|48852|M|32.41,56.13|N|Bonus Objective - Autocompleted.|
 T Humbling the Terrors|QID|48855|M|30.95,52.13|N|To Shadow Hunter Da'jul.|
@@ -445,7 +450,7 @@ K Corpse Monger Nog'shra|ACTIVE|47919|M|49.27,33.08|QO|1|T|Corpse Monger Nog'shr
 K Totem Maker Jash'ga|QID|48406|M|49.43,37.44|QO|1|RARE|ITEM|162618|T|Totem Maker Jash'ga|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 K Corpse Monger Jal'aka|ACTIVE|47919|M|49.49,38.35|QO|3|T|Corpse Monger Jal'aka|N|Corpse Monger Jal'aka's hut is around behind Totem Maker Jash'ga.|RANK|2|
 C Shoak's on the Menu|QID|47925|M|49.51,39.27|CHAT|N|Talk to Shoak to start. Several small mawfiends will swarm you and then Poz'ga the Butcher Queen must be killed to recue Shoak.|
-K Corpse Monger Yon'gi|ACTIVE|47919|M|50.60,35.56|QO|3|T|Corpse Monger Yon'gi|N|Corpse Monger Yon'gi's hut is by itself just east of the village.|RANK|2|
+K Corpse Monger Yon'gi|ACTIVE|47919|M|50.60,35.56|QO|2|T|Corpse Monger Yon'gi|N|Corpse Monger Yon'gi's hut is by itself just east of the village.|RANK|2|
 C Killing Cannibals|QID|47998|M|49.82,34.68|US|N|Finish your quota of Natha'vor Cannibals.|
 C Mawfiend Extermination|QID|47996|M|52.44,31.49|US|N|Bonus Objective - Finish eliminating the Mawfiend threat.|
 T Mawfiend Extermination|QID|47996|M|52.44,31.49|N|Bonus Objective - Autocompleted.|
