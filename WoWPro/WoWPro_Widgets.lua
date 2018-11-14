@@ -67,7 +67,7 @@ function WoWPro:CreateItemButton(parent, id)
 	itembutton:SetHeight(32)
 	itembutton:SetWidth(32)
 	if WoWProDB.profile.leftside then
-	    itembutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 10, 7)
+	    itembutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 10, -7)
 	else
 	    itembutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -10, -7)
 	end	    
@@ -76,7 +76,8 @@ function WoWPro:CreateItemButton(parent, id)
 	cooldown:SetAllPoints(itembutton)
 
 	local itemicon = itembutton:CreateTexture(nil, "ARTWORK")
-	itemicon:SetWidth(36) itemicon:SetHeight(36)
+	itemicon:SetWidth(36)
+	itemicon:SetHeight(36)
 	itemicon:SetTexture("Interface\\Icons\\INV_Misc_Bag_08")
 	itemicon:SetAllPoints(itembutton)
 
@@ -92,14 +93,27 @@ function WoWPro:CreateTargetButton(parent, id)
 	targetbutton:SetFrameStrata("LOW")
 	targetbutton:SetHeight(32)
 	targetbutton:SetWidth(32)
-	if WoWProDB.profile.leftside then
-	    targetbutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 35, 7)
-    else
-	    targetbutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -35, -7)
+	targetbutton.Position = function (use_active)
+	    if use_active then
+        	if WoWProDB.profile.leftside then
+        	    targetbutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 46, -7)
+            else
+        	    targetbutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -35, -7)
+        	end	    
+	    else
+        	if WoWProDB.profile.leftside then
+        	    targetbutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 10, -7)
+        	else
+        	    targetbutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -10, -7)
+        	end	    
+	    end
 	end
+	targetbutton.Position(true)
+	
     	
 	local targeticon = targetbutton:CreateTexture(nil, "ARTWORK")
-	targeticon:SetWidth(36) targeticon:SetHeight(36)
+	targeticon:SetWidth(36)
+	targeticon:SetHeight(36)
 	targeticon:SetTexture("Interface\\Icons\\Ability_Marksmanship")
 	targeticon:SetAllPoints(targetbutton)
 

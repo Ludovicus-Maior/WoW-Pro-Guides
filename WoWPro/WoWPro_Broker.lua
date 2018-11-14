@@ -913,11 +913,9 @@ function WoWPro:RowUpdate(offset)
 
     		-- WoWPro:dbp("Target text set to: %s",row.targetbutton:GetAttribute("macrotext"))
 
-			if use then
-				row.targetbutton:SetPoint("TOPRIGHT", row.itembutton, "TOPLEFT", -5, 0)
-			else
-				row.targetbutton:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, -7)
-			end
+            -- Ask the target button to place itself
+            row.targetbutton.Position(use)
+
 			if not targetkb and row.targetbutton:IsVisible() then
 				local key1, key2 = GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
 				if key1 then
@@ -1806,6 +1804,7 @@ function WoWPro.NextStep(k,i)
 				WoWPro.CompleteStep(k, why)
 				skip = true
 			else
+			    why = why or " ?"
 			    WoWPro:dbp("FinalAch:"..why)
 				WoWPro.why[k] = why
 			end
