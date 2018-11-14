@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2018-11-14 10:40
+-- Who: Emmaleah
+-- Log: more minor adjustments up to gloom hollow arrival.
+
+-- URL: http://wow-pro.com/node/3766/revisions/30124/view
 -- Date: 2018-11-13 10:16
 -- Who: Emmaleah
 -- Log: corrected coords for tainted guardian; fixed missing US on Conduit Interruption;  fixed corpse maker yon'gi s/b QO|2 
@@ -480,8 +485,8 @@ T Speaking with the Dead|QID|49120|M|56.56,26.68|N|To Princess Talanji.|
 A Negative Blood|QID|49125|M|56.59,26.76|N|From Kisha.|PRE|49120|
 A Tortollan Rescue|QID|51689|M|56.59,26.76|LVL|-120|N|Bonus Objective - Autoaccepted.|
 C Tortollan Rescue|QID|51689|M|56.59,26.76|S|N|Bonus Objective - Free the Tortollan's and kill the guards as you go.|
-C Negative Blood|QID|49125|M|62.82,23.14|QO|1|U|160559|NC|S|N|Target the Corrupted Loa Blood and use the scroll to destroy it/.|
-C Negative Blood|QID|49125|M|62.27,24.56|QO|2|N|Pick up Scroll of Fate's Hand lying on the ground.|
+C Negative Blood|QID|49125|M|62.82,23.14|QO|1|U|160559|NC|S|N|Target the Corrupted Loa Blood and use the scroll to destroy it.|
+C Negative Blood|QID|49125|M|62.27,24.56|QO|2|NC|N|Pick up Scroll of Fate's Hand lying on the ground.|
 C Negative Blood|QID|49125|M|62.82,23.14|QO|1|U|160559|NC|US|N|Finish destroying the Corrupted Loa Blood.|
 C Tortollan Rescue|QID|51689|M|64.91,20.93|US|N|Bonus Objective - Finish up rescuing Tortollans.|
 T Tortollan Rescue|QID|51689|M|64.91,20.93|N|Bonus Objective - Autocompleted.|
@@ -507,7 +512,7 @@ T Crushing the Skullcrushers|QID|49132|M|56.51,26.67|N|To Lashk.|
 T Loa-Free Diet|QID|49130|M|56.60,26.78|N|To Kisha.|
 T Sanctifying Ground|QID|49131|M|56.56,26.66|N|To Princess Talanji.|
 A Jungo, Herald of G'huun|QID|49136|M|56.56,26.66|N|From Princess Talanji.|PRE|49131&49130&49132|
-C Jungo, Herald of G'huun|QID|49136|M|60.93,17.92|N|Hit him once with anything, then wait for the Princess to cancel his invulnerability and then kill Jungo, Herald of G'huun.|
+K Jungo, Herald of G'huun|ACTIVE|49136|M|60.93,17.92|T|Jungo, Herald of G'huun|N|Hit him once with anything, then wait for the Princess to cancel his invulnerability and finally kill Jungo, Herald of G'huun.|
 T Jungo, Herald of G'huun|QID|49136|M|56.57,26.68|N|To Princess Talanji.|
 A Torga's Eternal Return|QID|49160|M|56.51,26.64|N|From Lashk.|PRE|49136|
 C Torga's Eternal Return|QID|49160|M|56.51,26.64|U|153131|NC|N|Use the scroll to put Torga's spirit to rest.|
