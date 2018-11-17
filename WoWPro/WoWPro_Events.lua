@@ -720,7 +720,7 @@ function WoWPro.QUEST_DETAIL_PUNTED(event,...)
 	    end
 	    WoWPro.QuestStep = nil
 	else
-	    DeclineQuest()
+	    -- DeclineQuest()
 	    WoWPro:dbp("Rejected %d: %s [%s], QID %s",qidx, event, questtitle,tostring(WoWPro.QID[qidx]))
 	end
 end
