@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-11-17 23:46
+-- Who: Emmaleah
+-- Log: moved Squirgle to after rescuing Penny, changed Penny's note,  Changed Marianae's, Totes' and the Hornet's notes to clarify locations.
+
+-- URL: http://wow-pro.com/node/3769/revisions/30120/view
 -- Date: 2018-11-11 12:12
 -- Who: Emmaleah
 -- Log: Tirasgard !=Tiragarde
@@ -753,8 +758,6 @@ A Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|N|Bonus Objective - Autoaccept
 C Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|S|N|Bonus Objective - Pick up shipwrecked supplies, kill sirens and saurolisks, you know the drill.|
 C Captured and Enraptured|QID|47755|M|54.13,35.01|U|151135|S|NC|N|Target an Entralled Sailer and use the Grog to break the enchantment - can be done at ranged distances.|
 A Can't Hear A Thing|QID|50059|M|51.08,35.79|N|From Earless Joe.|PRE|50026|RANK|2|
-K Squirgle of the Depths|QID|51807|QO|1|M|48.89,36.94|T|Squirgle of the Depths|RARE|ITEM|155551|N|Silver Elite - loot for Azerite Power and resources.|RANK|2|
-$ Buried Treasure-Singed Treasure Map|QID|52845|M|48.98,37.59|Z|Tiragarde Sound|N|If you have looted the Singed Treasure Map, this treasure can be found here.|RANK|3|PRE|52860|
 C Can't Hear A Thing|QID|50059|M|53.65,32.89|N|Kill Anthemusa slain.|T|Anthemusa|
 K Shiverscale the Toxic|QID|51876|QO|1|M|55.18,32.51|T|Shiverscale the Toxic|RARE|ITEM|155278|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
 A She Sells Seashells|QID|52258|M|60.99,30.83|N|From Jenny Swiftbrook.|RANK|3|
@@ -763,7 +766,7 @@ T She Sells Seashells|QID|52258|M|61.00,30.85|N|To Jenny Swiftbrook.|
 C A Very Precious Cargo|QID|50002|M|55.44,35.59|CHAT|N|Find the Precious Cargo.|
 T A Very Precious Cargo|QID|50002|M|55.49,35.92|N|To Penny "Precious" Hardwick.|
 A Hold My Hand|QID|50005|M|55.49,35.92|N|From Penny "Precious" Hardwick.|PRE|50002|RANK|2|
-C Hold My Hand|QID|50005|M|50.30,37.24|NC|N|Escort Penny to her father. I found it useful to put a target marker on her to keep track as she SLOWLY walks back to the shipm, agroing everything within 30 yards.|S|
+C Hold My Hand|QID|50005|M|50.30,37.24|NC|N|Escort Penny to her father. I found it useful to put a target marker on her to keep track as she SLOWLY walks back to the ship, agroing everything within 30 yards. You must stay close or she will wait for you to come back.|S|
 C Captured and Enraptured|QID|47755|M|54.13,35.01|U|151135|NC|US|N|Finish giving the Enthralled Sailors their grog.|
 T Can't Hear A Thing|QID|50059|M|51.10,35.78|N|To Earless Joe.|
 T Captured and Enraptured|QID|47755|M|50.30,37.24|N|To Henry Hardwick.|
@@ -771,6 +774,8 @@ C Hold My Hand|QID|50005|M|50.30,37.24|US|NC|N|Escort Penny to her father|
 T Hold My Hand|QID|50005|M|50.30,37.24|N|To Henry Hardwick.|
 C Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|US|N|Bonus Objective - Stick around and finish if you haven't yet.|
 T Shipwreck Recovery Crew|QID|50009|M|54.58,32.99|N|Bonus Objective - Autocompleted.|
+K Squirgle of the Depths|QID|51807|QO|1|M|48.89,36.94|T|Squirgle of the Depths|RARE|ITEM|155551|N|Silver Elite - loot for Azerite Power and resources. To avoid his lightning nova, jump in the water bubbles.|RANK|2|
+$ Buried Treasure-Singed Treasure Map|QID|52845|M|48.98,37.59|Z|Tiragarde Sound|N|If you have looted the Singed Treasure Map, this treasure can be found here.|RANK|3|PRE|52860|
 
 R Westwind Weald|ACTIVE|49393|M|45.94,27.77;44.20,25.05|CS|N|Run Northwest along the road to Westwind Weald.|RANK|2|
 T The Roughnecks|QID|49393|M|42.36,22.27|N|To Tagart.|
@@ -781,8 +786,8 @@ A WANTED: The Hornet|QID|51368|M|42.15,22.99|N|From Wanted Poster.|RANK|3|
 C The Bears and the Bees|QID|49395|M|48.73,17.44|QO|1|NC|S|N|Pick up the Honeycombs.|
 C The Bears and the Bees|QID|49395|M|47.36,19.39|QO|2|S|N|Kill Scruffhide Bears.|
 C Hold Still|QID|49394|M|48.19,19.79|U|153596|S|N|Use the shears to collect Goat Fur, they don't like it much, must be done before killing them.|
-K Totes|QID|50095|QO|1|M|46.87,20.60|T|Totes|RARE|ITEM|160452|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
-K The Hornet|QID|51368|M|47.37,18.18;47.48,18.01|CS|QO|1|T|The Hornet|N|Kill The Hornet.|RANK|3|
+K Totes|QID|50095|QO|1|M|46.87,20.60|T|Totes|RARE|ITEM|160452|N|Silver Elite inside small cave to kill for Azerite Power and resources.|RANK|2|
+K The Hornet|QID|51368|M|47.37,18.18;47.48,18.01|CS|QO|1|T|The Hornet|N|Kill The Hornet in this small cave.|RANK|3|
 A Helping Henry|QID|49412|M|47.71,17.63|N|From "Helpless" Henry.|RANK|2|
 C Helping Henry|QID|49412|M|48.71,18.01|N|Kill Brawr.|
 T Helping Henry|QID|49412|M|47.75,17.61|N|To "Helpless" Henry.|
@@ -797,7 +802,7 @@ A An Offering of Eggs|QID|49710|M|42.48,22.71|N|From Rulf.|PRE|49395&49394|RANK|
 C Protect the Nests|QID|49735|M|43.65,17.00|S|N|Kill the Hungry Dewscales as you go.|
 C An Offering of Eggs|QID|49710|M|44.71,20.19|S|NC|N|Collect some Spotted Gryphon Eggs.|
 
-K Merianae|QID|49921|QO|1|M|44.27,20.24;42.97,16.82|CS|T|Merianae|RARE|ITEM|160461|N|Silver Elite - Kill for Azerite Power and resources.|RANK|2|
+K Merianae|QID|49921|QO|1|M|44.27,20.24;42.97,16.82|CS|T|Merianae|RARE|ITEM|160461|N|Silver Elite - In cave behind waterfall, kill for Azerite Power and resources.|RANK|2|
 C An Offering of Eggs|QID|49710|M|44.71,20.19|NC|US|N|Finish collecting the Spotted Gryphon Eggs.|
 C Protect the Nests|QID|49735|M|43.65,17.00|US|N|Finish killing the Hungry Dewscales.|
 T Protect the Nests|QID|49735|M|47.88,16.39|N|To Shawn McClinter.|
