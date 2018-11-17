@@ -703,15 +703,6 @@ function WoWPro.ParseSteps(steps)
     	WoWPro.ParseQuestLine(faction, zone, 1, init)
 	end
 
-	-- OK, now add a standard L step just before the end of the guide, if we have an end-level
-	if not WoWPro.Recorder and WoWPro.Guides[GID].endlevel then
-	    local halt
-	    local endlevel = WoWPro.Guides[GID].endlevel
-	    halt =  string.format("L Level %d|LVL|%d|N|You need to be level %d to finish this guide.|",endlevel,endlevel,endlevel)
-	    WoWPro.ParseQuestLine(faction, zone, i, halt)
-	    i = i + 1
-	end
-
 	-- OK, now add a standard D step at the end of every guide, if there is none there
 	local fini, nguide
     if not  WoWPro.Recorder and WoWPro.action[last_i] ~= "D" then
