@@ -847,6 +847,10 @@ function WoWPro.GuideAutoSwitchReset()
     WoWProCharDB.QID2Guide ={}
 end
 
+function WoWPro:NoCache(guide)
+    guide['nocache'] = true
+end
+
 function WoWPro:GuideSteps(guide,steps)
     guide['sequence'] = steps
 end
