@@ -831,6 +831,7 @@ end
 function WoWPro.SetupGuideReal()
     local GID = WoWProDB.char.currentguide
     local guideType = WoWPro.Guides[GID].guidetype
+    local guide_nocache = WoWPro.Guides[GID].nocache
     local guideClass = WoWPro[guideType]
 
     WoWPro:dbp("SetupGuideReal(%s): Type: %s",GID,guideType)
@@ -849,7 +850,7 @@ function WoWPro.SetupGuideReal()
             WoWPro.why[i] = action .. " step completed by WoWPro.SetupGuideReal() as processed by default."
             WoWProCharDB.Guide[GID].completion[i] = WoWPro.why[i]
         end
-        local nocache = WoWPro.nocache[i]
+        local nocache = WoWPro.nocache[i] or guide_nocache
         if nocache then
              WoWProCharDB.Guide[GID].completion[i] = false
              WoWPro.why[i] = "Uncompleted because NOCACHE was specified."
