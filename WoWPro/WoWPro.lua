@@ -36,7 +36,7 @@ function WoWPro:Add2Log(level,msg)
         DEFAULT_CHAT_FRAME:AddMessage( msg )
     end
 	WoWPro.Serial = WoWPro.Serial + 1
-	if WoWPro.Serial > 9999 then
+	if WoWPro.Serial > 4500 then
 	    WoWPro.Serial = 1
 	end
 	if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
