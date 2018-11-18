@@ -1161,7 +1161,7 @@ function WoWPro.NextStep(k,i)
             WoWPro.CompleteStep(k,"NPC Mapping completed")
             skip = true
             break
-        end
+       C end
 		if WoWPro.action[k] == ";" then
 		    -- These have no effect
             WoWPro.CompleteStep(k,"Comment")
@@ -2198,7 +2198,7 @@ function WoWPro.CompleteStep(step, why)
 	
 	local Delta = WoWPro:MapPointDelta()
 	if Delta then
-	    local qid=-99
+	    local qid="nil"
 	    if WoWPro.QID[step] then
 	        qid = WoWPro.QID[step]
 	    end
