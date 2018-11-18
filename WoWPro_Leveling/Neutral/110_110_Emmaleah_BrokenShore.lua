@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/broken_shore_armies_legionfall_guide
+-- Date: 2018-11-18 17:00
+-- Who: Ludovicus_Maior
+-- Log: Removed WoWPro.Achievements:GuideMisc()
+
+-- URL: http://wow-pro.com/node/3724/revisions/30092/view
 -- Date: 2018-10-26 21:42
 -- Who: Ludovicus_Maior
 -- Log: Change to leveling
@@ -100,7 +105,6 @@
 
 local guide = WoWPro:RegisterGuide('Emm_BrokenShore', 'Leveling', 'Broken Shore', 'Emmaleah', 'Neutral')
 WoWPro:GuideIcon(guide,"ACH",11796)
-WoWPro.Achievements:GuideMisc(guide, "Armies of Legionfall", "Reputation", "Legion")
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:GuideSteps(guide, function()
 return [[

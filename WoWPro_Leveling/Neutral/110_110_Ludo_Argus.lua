@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadows_argus
+-- Date: 2018-11-18 17:01
+-- Who: Ludovicus_Maior
+-- Log: Removed WoWPro.Achievements:GuideMisc()
+
+-- URL: http://wow-pro.com/node/3741/revisions/30093/view
 -- Date: 2018-10-26 21:43
 -- Who: Ludovicus_Maior
 -- Log: Convert to Leveling guide
@@ -111,7 +116,6 @@
 
 local guide = WoWPro:RegisterGuide('Ludo_Argus', 'Leveling', 'ArgusSurface', 'Ludo', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
-WoWPro.Achievements:GuideMisc(guide, "Shadows of Argus", "Reputation", "Legion")
 WoWPro:GuideQuestTriggers(guide, 47221, 47835)
 WoWPro:GuideSteps(guide, function()
 return [[
