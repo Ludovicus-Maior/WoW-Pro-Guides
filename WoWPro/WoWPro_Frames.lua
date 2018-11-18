@@ -277,7 +277,7 @@ end
 function WoWPro.AnchorSet()
 	local w = WoWPro.Titlebar:GetWidth()
 	local h = WoWPro.Titlebar:GetHeight()
-	WoWPro:dbp("WoWPro.AnchorSet()")
+	WoWPro:dbp("WoWPro.AnchorSet(): Titlebar w=%d, h=%d", w, h)
 	for i,row in ipairs(WoWPro.rows) do
 		if WoWPro.GetSide(WoWPro.MainFrame) == "RIGHT" then
 			WoWPro.mousenotes[i]:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, 10)
@@ -304,26 +304,29 @@ function WoWPro.AnchorSet()
 			if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
 
 			WoWPro.MainFrame:ClearAllPoints()
-
+            local anchor
 			if anchorpoint == "TOPLEFT" then
-				WoWPro.MainFrame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", left, top)
+				anchor = {"TOPLEFT", UIParent, "TOPLEFT", left, top}
 			elseif anchorpoint == "TOP" then
-				WoWPro.MainFrame:SetPoint("TOP", UIParent, "BOTTOMLEFT", hcenter, top)
+				anchor = {"TOP", UIParent, "TOP", hcenter, top}
 			elseif anchorpoint == "TOPRIGHT" then
-				WoWPro.MainFrame:SetPoint("TOPRIGHT", UIParent, "BOTTOMLEFT", right, top)
+				anchor = {"TOPRIGHT", UIParent, "TOPRIGHT", right, top}
 			elseif anchorpoint == "LEFT" then
-				WoWPro.MainFrame:SetPoint("LEFT", UIParent, "BOTTOMLEFT", left, vcenter)
+				anchor = {"LEFT", UIParent, "LEFT", left, vcenter}
 			elseif anchorpoint == "CENTER" then
-				WoWPro.MainFrame:SetPoint("CENTER", UIParent, "BOTTOMLEFT", hcenter, vcenter)
+				anchor = {"CENTER", UIParent, "CENTER", hcenter, vcenter}
 			elseif anchorpoint == "RIGHT" then
-				WoWPro.MainFrame:SetPoint("RIGHT", UIParent, "BOTTOMLEFT", right, vcenter)
+				anchor = {"RIGHT", UIParent, "RIGHT", right, vcenter}
 			elseif anchorpoint == "BOTTOMLEFT" then
-				WoWPro.MainFrame:SetPoint("BOTTOMLEFT", UIParent, "BOTTOMLEFT", left, bottom)
+				anchor = {"BOTTOMLEFT", UIParent, "BOTTOMLEFT", left, bottom}
 			elseif anchorpoint == "BOTTOM" then
-				WoWPro.MainFrame:SetPoint("BOTTOM", UIParent, "BOTTOMLEFT", hcenter, bottom)
+				anchor = {"BOTTOM", UIParent, "BOTTOM", hcenter, bottom}
 			elseif anchorpoint == "BOTTOMRIGHT" then
-				WoWPro.MainFrame:SetPoint("BOTTOMRIGHT", UIParent, "BOTTOMLEFT", right, bottom)
+				anchor = {"BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", right, bottom}
 			end
+			WoWPro:dbp("SetPoint:OnUpdate() point=%q, UIParent, relativePoint=%q, ofsx=%s, ofsy=%s",
+			           anchor[1], anchor[3], tostring(anchor[4]), tostring(anchor[5]))
+			WoWPro.MainFrame:SetPoint(unpack(anchor))
 
 			WoWPro.MainFrame:SetScript("OnUpdate", function()
 			end)
