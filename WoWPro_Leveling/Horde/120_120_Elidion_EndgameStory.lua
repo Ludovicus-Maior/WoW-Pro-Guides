@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_endgame_storylines
+-- Date: 2018-11-18 14:05
+-- Who: jovieve
+-- Log: Added REP tag on Zalazane returns and accompanying note. Combined C steps on Vengeance for Vol'jin. Added travel steps.
+
+-- URL: http://wow-pro.com/node/3783/revisions/30080/view
 -- Date: 2018-10-23 22:18
 -- Who: Ludovicus_Maior
 -- Log: Removed empty tag.
@@ -69,7 +74,7 @@ C Reach Dazar'alor|ACTIVE|50954|M|54.75,35.98|Z|Zuldazar!Instance|SO|6;1|NC|N|Jo
 C Find King Rastakhan at the entrance to Dazar'alor.|ACTIVE|50954|M|55.27,38.09|Z|Zuldazar!Instance|SO|7;1|NC|N| Find King Rastakhan at the entrance to Dazar'alor.|
 C Reach Zul|ACTIVE|50954|M|56.40,39.67;56.43,41.52;57.03,41.48;57.90,40.60|Z|Zuldazar!Instance|SO|8;1|CS|N|Keep going up stairs, until you find one blocked by the bluish flames. Go left and Wait for King Rastakhan before you fight Ma'da Renkala.  The scenario ends with a cutscene as you finish off Ma'da.|
 T Zandalar Forever!|QID|50954|M|49.94,46.63|Z|Dazar'alor|N|To King Rastakhan.|
-A Zalazane Returns|QID|51513|M|39.44,72.50|Z|Hall of Croniclers!Dazar'alor|N|From Rokhan.|PRE|50954|
+A Zalazane Returns|QID|51513|M|39.44,72.50|Z|Hall of Croniclers!Dazar'alor|N|From Rokhan.|PRE|50954|REP|Zandalari Empire;2103;revered;0|
 b Darkspear Isle|ACTIVE|51513|M|57.98,64.96|Z|Zuldazar|N|Get down to the docks and wait for the boat to arrive and step on once it does.|
 T Zalazane Returns|QID|51513|M|59.46,51.50|Z|Echo Isles|N|To Master Gadrin.|
 A Broken Bargain|QID|51514|M|59.46,51.50|Z|Echo Isles|N|From Master Gadrin.|PRE|51513|
@@ -80,11 +85,10 @@ C Broken Bargain|QID|51514|M|61.21,55.55|Z|Echo Isles|QO|1|US|N|Continue killing
 T The Glaive of Vol'jin|QID|51533|M|59.22,51.98|Z|Echo Isles|N|To Zen'tabra.|
 T Broken Bargain|QID|51514|M|59.47,51.50|Z|Echo Isles|N|To Master Gadrin.|
 A Vengeance for Vol'jin|QID|51515|M|59.47,51.50|Z|Echo Isles|N|From Master Gadrin.|PRE|51514&51533|
-C Vengeance for Vol'jin|QID|51515|M|36.74,68.97|Z|Echo Isles|QO|1|N|Kill Zalazane.|T|Zalazane|
-C Vengeance for Vol'jin|QID|51515|M|36.74,68.97|Z|Echo Isles|QO|2|N|Target Zalazane's Spirit use the Glaive of Vol'jin.|U|160443|
+C Vengeance for Vol'jin|QID|51515|M|36.74,68.97|Z|Echo Isles|N|Kill Zalazane, then target Zalazane's Spirit and use the Glaive of Vol'jin..|T|Zalazane|U|160443|
 T Vengeance for Vol'jin|QID|51515|M|59.44,51.49|Z|Echo Isles|N|To Master Gadrin.|
 A Honoring a True Leader|QID|52114|M|59.44,51.49|Z|Echo Isles|N|From Master Gadrin.|PRE|51515|
-b Zuldazar|ACTIVE|52114|M|70.91,38.21|Z|Echo Isles|N|You can go back to the boat or use your hearthstone here if it's more convenient.|
+b Zuldazar|ACTIVE|52114|M|70.91,38.21|Z|Echo Isles|TZ|The Great Seal|N|You can go back to the boat or use your hearthstone here if it's up and your hearth is set at The Great Seal.|
 F Atal'dazar|ACTIVE|52114|Z|Zuldazar|TZ|The Golden Road|N|Goto your nearest flightmaster and fly to the Atal'Dazar flight point near the dungeon entrance.|
 T Honoring a True Leader|QID|52114|M|45.52,35.81|Z|Zuldazar|N|To Master Gadrin.|
 A Vol'jin, Son of Sen'jin|QID|52113|M|45.52,35.81|Z|Zuldazar|N|From Master Gadrin.|PRE|52114|
@@ -93,14 +97,16 @@ C Vol'jin, Son of Sen'jin|QID|52113|M|45.46,37.79|Z|Zuldazar|QO|2|NC|N|Vision of
 C Vol'jin, Son of Sen'jin|QID|52113|M|44.29,38.43|Z|Zuldazar|QO|3|NC|N|Vision of the Warchief witnessed. You will be attacked on your way to this final torch, don't expect any help.|
 T Vol'jin, Son of Sen'jin|QID|52113|M|43.77,39.54|Z|Zuldazar|N|To Princess Talanji.|
 A Atal'Dazar: Ashes of a Warchief|QID|51516|M|43.77,39.54|Z|Zuldazar|N|From Princess Talanji.|PRE|52113|
-C Atal'Dazar: Ashes of a Warchief|QID|51516|Z|Atal'Dazar|QO|1|N|Kill Yazma, the final boss in Atal'Dazar, can be completed on any difficulty but Mythic plus.|
-C Atal'Dazar: Ashes of a Warchief|QID|51516|Z|Atal'Dazar|QO|2|NC|N|Place the Urn of Vol'jin in the North-West Corner of the zone near a little pond.|
+C Atal'Dazar: Ashes of a Warchief|QID|51516|Z|Atal'Dazar|QO|1|N|Do the Atal'Dazar dungeon and kill the final boss, Yazma, on any difficulty but Mythic plus. DON'T LEAVE the instance before completing the next step.|
+C Atal'Dazar: Ashes of a Warchief|QID|51516|Z|Atal'Dazar|QO|2|NC|N|In the Atal'Dazar dungeon, place the Urn of Vol'jin in the North-West Corner near a little pond.|
 T Atal'Dazar: Ashes of a Warchief|QID|51516|Z|Atal'Dazar|N|To Bwonsamdi.|
 A You Owe Me a Spirit|QID|51517|Z|Atal'Dazar|N|From Bwonsamdi.|PRE|51516|
 T You Owe Me a Spirit|QID|51517|M|39.57,24.54|Z|Nazmir|N|Bring the urn back to Bwonsamdi at his temple in Northern Nazmir.|
+H The Great Seal|AVAILABLE|51518|TZ|Dazar'alor|N|Hearth to The Great Seal and then fly to The Sliver, or go back to a flight point and then fly to The Sliver.|
 A The Lost Spirit|QID|51518|M|45.12,19.98|Z|Dazar'alor|N|From Bwonsamdi a couple levels up the Zanchul.|PRE|51517|
+F Port of Zandalar|ACTIVE|51518|M|52.99,19.37|Z|Dazar'alor|N|Fly to Port of Zandalar|
 T The Lost Spirit|QID|51518|M|57.62,62.58|Z|Zuldazar|N|To Princess Talanji down by the docks.|
-A Spirit Call|QID|51519|M|57.62,62.58|Z|Zuldazar|N|From Princess Talanji.|
+A Spirit Call|QID|51519|M|57.62,62.58|Z|Zuldazar|N|From Princess Talanji.|PRE|51518|
 C Spirit Call|QID|51519|M|57.59,62.91|Z|Zuldazar|QO|1|NC|N|Wait while Talanji performs her ritual.|
 T Spirit Call|QID|51519|M|57.59,62.97|Z|Zuldazar|N|To Spirit of Vol'jin.|
 A Justice for the Fallen|QID|51520|M|57.59,62.97|Z|Zuldazar|N|From Spirit of Vol'jin.|PRE|51519|
@@ -109,6 +115,7 @@ T Justice for the Fallen|QID|51520|M|49.92,39.42|Z|Dazar'alor|N|To Spirit of Vol
 A The True Leader of Zandalar|QID|51521|M|49.92,39.42|Z|Dazar'alor|N|From Spirit of Vol'jin.|PRE|51520|
 C The True Leader of Zandalar|QID|51521|M|49.92,39.42|Z|Dazar'alor|QO|1|NC|N|Give Vol'jin's Glaive to Talanji and watch the cinematic.|
 T The True Leader of Zandalar|QID|51521|M|49.92,39.42|Z|Dazar'alor|N|To Spirit of Vol'jin.|
+N Zandalari Empire Rep Gate|QID|51513|N|Do WQs that give Zandalari Empire faction. Next segment is available at revered.|PRE|50954|REP|Zandalari Empire;2103;revered;0;true|
 N Not the end|AVAILABLE|-51521|N|That's it for patch 8.0. Come back in 8.1 when the story continues.|ACH|12719;;true|
 ]]
 end)
