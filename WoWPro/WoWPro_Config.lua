@@ -201,7 +201,7 @@ local function CreateDisplayConfig()
 						order = 24,
 						type = "toggle",
 						name = L["Left Handed"],
-						desc = L["Put Use and Target Icons on the left side of the guide window."],
+						desc = L["Put Use and Target Icons on the right side of the guide window."],
 						get = function(info) return WoWProDB.profile.leftside end,
 						set = function(info,val) WoWProDB.profile.leftside = val end
 					},
