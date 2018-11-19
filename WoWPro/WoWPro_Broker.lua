@@ -1161,7 +1161,7 @@ function WoWPro.NextStep(k,i)
             WoWPro.CompleteStep(k,"NPC Mapping completed")
             skip = true
             break
-       C end
+        end
 		if WoWPro.action[k] == ";" then
 		    -- These have no effect
             WoWPro.CompleteStep(k,"Comment")
