@@ -657,14 +657,17 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction)
 		GID = GIDvalue
 	}
 
+    if 'Dailies' == gtype then
+        WoWPro:NoCache(guide)
+    end
 
-	if faction and faction ~= UnitFactionGroup("player") and faction ~= "Neutral" then
-	    -- If the guide is not of the correct side, don't register it
-	    return guide
-	end
+    if faction and faction ~= UnitFactionGroup("player") and faction ~= "Neutral" then
+        -- If the guide is not of the correct side, don't register it
+        return guide
+    end
 
-	WoWPro.Guides[GIDvalue] = guide
-	return guide
+    WoWPro.Guides[GIDvalue] = guide
+    return guide
 end
 
 function WoWPro:UnRegisterGuide(guide,why)
