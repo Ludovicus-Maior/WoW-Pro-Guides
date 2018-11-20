@@ -277,7 +277,7 @@ end
 function WoWPro.AnchorSet()
 	local w = WoWPro.Titlebar:GetWidth()
 	local h = WoWPro.Titlebar:GetHeight()
-	WoWPro:dbp("WoWPro.AnchorSet(): Titlebar w=%d, h=%d", w, h)
+
 	for i,row in ipairs(WoWPro.rows) do
 		if WoWPro.GetSide(WoWPro.MainFrame) == "RIGHT" then
 			WoWPro.mousenotes[i]:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, 10)
@@ -299,7 +299,10 @@ function WoWPro.AnchorSet()
 			local hcenter = (left + right) / 2
 			local anchorpoint = WoWProDB.profile.anchorpoint
 			local hquadrant, vquadrant = WoWPro.GetSide(WoWPro.MainFrame)
+			local width = UIParent:GetWidth()
+			local height = UIParent:GetHeight()
 
+            WoWPro:dbp("SetPoint:OnUpdate(): top=%.2f bottom=%.2f left=%.2f right=%.2f width=%.2f height=%.2f", top, bottom, left, right, width, height)
 			-- Setting anchor point based on the quadrant if it's set to auto --
 			if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
 
@@ -310,7 +313,7 @@ function WoWPro.AnchorSet()
 			elseif anchorpoint == "TOP" then
 				anchor = {"TOP", UIParent, "TOP", hcenter, top}
 			elseif anchorpoint == "TOPRIGHT" then
-				anchor = {"TOPRIGHT", UIParent, "TOPRIGHT", right, top}
+				anchor = {"TOPRIGHT", UIParent, "TOPRIGHT",right-width,  top-height}
 			elseif anchorpoint == "LEFT" then
 				anchor = {"LEFT", UIParent, "LEFT", left, vcenter}
 			elseif anchorpoint == "CENTER" then
@@ -324,8 +327,8 @@ function WoWPro.AnchorSet()
 			elseif anchorpoint == "BOTTOMRIGHT" then
 				anchor = {"BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", right, bottom}
 			end
-			WoWPro:dbp("SetPoint:OnUpdate() point=%q, UIParent, relativePoint=%q, ofsx=%s, ofsy=%s",
-			           anchor[1], anchor[3], tostring(anchor[4]), tostring(anchor[5]))
+			WoWPro:dbp("SetPoint:OnUpdate() point=%q, UIParent, relativePoint=%q, ofsx=%.2f, ofsy=%.2f",
+			           anchor[1], anchor[3], anchor[4], anchor[5])
 			WoWPro.MainFrame:SetPoint(unpack(anchor))
 
 			WoWPro.MainFrame:SetScript("OnUpdate", function()
