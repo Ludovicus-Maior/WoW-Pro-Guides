@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2018-11-19 06:12
+-- Who: jovieve
+-- Log: Made turn-in steps for bonus objectives into t steps so people who choose to skip them won't have to manually skip both the C and the T steps.
+
+-- URL: http://wow-pro.com/node/3769/revisions/30127/view
 -- Date: 2018-11-17 23:46
 -- Who: Emmaleah
 -- Log: moved Squirgle to after rescuing Penny, changed Penny's note,  Changed Marianae's, Totes' and the Hornet's notes to clarify locations.
@@ -479,7 +484,7 @@ K Black-Eyed Bart|QID|50096|QO|1|T|Black-Eyed Bart|RARE|ITEM|158650|N|Silver Eli
 C Cease Fire!|QID|49740|US|N|Finish destroying the Captured Cannons.|
 C For Kul Tiras!|QID|49736|U|156520|US|N|Finish inspriring the Vigil Hill defenders.|
 C Enemies at the Gate|QID|49739|M|57.22,67.36|US|N|Bonus Objective - Stick around and finish this up.|
-T Enemies at the Gate|QID|49739|M|57.22,67.36|N|Bonus Objective - Autocompleted.|
+t Enemies at the Gate|QID|49739|M|57.22,67.36|N|Bonus Objective - Autocompleted.|
 l Soggy Treasure Map|QID|52853|M|74.03,84.16|Z|Tiragarde Sound|L|162571|N|Keep killing pirates until you loot the Soggy Treasure Map, or give up, check this off and move on.|RANK|3|;need QID
 l Yellowed Treasure Map|QID|52859|M|74.03,84.16|Z|Tiragarde Sound|L|162581|N|Keep killing pirates until you loot  the Yellowed Treasure Map, or give up, check this off and move on.|RANK|3|
 l Fading Treasure Map|QID|52854|M|74.03,84.16|Z|Tiragarde Sound|L|162580|N|Keep killing pirates until you loot the Fading Treasure Map, or give up, check this off and move on.|RANK|3|
@@ -773,7 +778,7 @@ T Captured and Enraptured|QID|47755|M|50.30,37.24|N|To Henry Hardwick.|
 C Hold My Hand|QID|50005|M|50.30,37.24|US|NC|N|Escort Penny to her father|
 T Hold My Hand|QID|50005|M|50.30,37.24|N|To Henry Hardwick.|
 C Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|US|N|Bonus Objective - Stick around and finish if you haven't yet.|
-T Shipwreck Recovery Crew|QID|50009|M|54.58,32.99|N|Bonus Objective - Autocompleted.|
+t Shipwreck Recovery Crew|QID|50009|M|54.58,32.99|N|Bonus Objective - Autocompleted.|
 K Squirgle of the Depths|QID|51807|QO|1|M|48.89,36.94|T|Squirgle of the Depths|RARE|ITEM|155551|N|Silver Elite - loot for Azerite Power and resources. To avoid his lightning nova, jump in the water bubbles.|RANK|2|
 $ Buried Treasure-Singed Treasure Map|QID|52845|M|48.98,37.59|Z|Tiragarde Sound|N|If you have looted the Singed Treasure Map, this treasure can be found here.|RANK|3|PRE|52860|
 
@@ -916,7 +921,7 @@ C Death in the Depths|QID|48370|M|33.01,26.19|US|N|Finish killing Deepwarden Fol
 C Those Aren't Fish Eggs|QID|48367|M|32.25,27.34|US|N|Finish destroying Corrupted Eggs.|
 $ Buried Treasure-Fading Treasure Map|QID|52833|M|29.22,25.34|Z|Tiragarde Sound|N|If you have looted the Fading Treasure Map, this treasure can be found here.|PRE|52854|RANK|3|;Krakenbane Cove-past angerpoint wharf
 C Creature Corruption|QID|49300|M|31.37,23.67|N|Stay and finish the Bonus Objective.|
-T Creature Corruption|QID|49300|M|31.37,23.67|N|Bonus Objective - Autocompleted.|
+t Creature Corruption|QID|49300|M|31.37,23.67|N|Bonus Objective - Autocompleted.|
 T Those Aren't Fish Eggs|QID|48367|M|34.95,24.21|N|To Rosaline Madison, back up on the shore.|
 T Eldritch Invocations|QID|48372|M|35.21,24.19|N|To Brannon Stormsong.|
 T Death in the Depths|QID|48370|M|35.21,24.19|N|To Brannon Stormsong.|
