@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3763
+-- Date: 2018-11-20 12:25
+-- Who: jovieve
+-- Log: Changed all T steps on bonus objectives to t, for easier skipping for people who hate them like me.
+
+-- URL: http://wow-pro.com/node/3763/revisions/30134/view
+-- Date: 2018-11-20 12:10
+-- Who: jovieve
+-- Log: Fixed typo in PRE step.
+
+-- URL: http://wow-pro.com/node/3763/revisions/29919/view
 -- Date: 2018-10-17 02:22
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -248,7 +258,7 @@ K Betsy|QID|47884|QO|1|M|58.46,33.16|N|Silver Elite to kill and loot for azerite
 C Signs and Portents|QID|47968|QO|3|M|55.21,35.98|NC|N|Ava's Note is inside, lying on a little ton.|
 C Signs and Portents|QID|47968|QO|1|M|53.22,35.13|NC|N|Find Farmer's Journal.|
 T Signs and Portents|QID|47968|M|55.73,35.66|N|To Fallhaven Ledger on the table.|
-A The Wayward Crone|QID|47978|M|55.73,35.66|N|From Fallhaven Ledger.|PRE|47978|
+A The Wayward Crone|QID|47978|M|55.73,35.66|N|From Fallhaven Ledger.|PRE|47968|
 T The Wayward Crone|QID|47978|M|60.54,31.60|N|To Helena Gentle.|
 A Witch Hunt|QID|47979|M|60.54,31.60|N|From Helena Gentle.|PRE|47978|
 C Witch Hunt|QID|47979|QO|1|M|60.48,31.59|NC|N|Take a seat.|
@@ -263,7 +273,7 @@ C Cracking the Curse|QID|47981|M|59.57,28.29;57.62,27.80;57.54,30.06;56.18,29.13
 C Furious Familiars|QID|47980|M|56.18,29.13|US|N|Finish killing the needed Enthralled Wildlife.|
 T Furious Familiars|QID|47980|M|56.18,29.13|N|To UI Alert.|
 C Fallhaven's Curse|QID|47969|M|56.82,34.46|US|N|Finish this bonus objective before you turn in next quest.|
-T Fallhaven's Curse|QID|47969|M|57.24,35.34|N|Bonus Objective - autocompleted.|
+t Fallhaven's Curse|QID|47969|M|57.24,35.34|N|Bonus Objective - autocompleted.|
 T Cracking the Curse|QID|47981|M|55.93,35.11|N|To Cursed Effigy.|
 A The Final Effigy|QID|47982|M|55.93,35.11|N|From Cursed Effigy.|PRE|47980&47981|
 C The Final Effigy|QID|47982|QO|1|M|55.93,35.11|N|Break Cursed Effigy.|
@@ -347,7 +357,7 @@ C Not the Bees!|QID|48680|M|59.44,21.96|S|N|Bonus Objective - Knock down the hiv
 K Barbthorn Queen|QID|48842|QO|1|M|58.89,18.62|T|Barbthorn Queen|N|Silver Elite to kill and loot for azerite power and resources.|RARE|ITEM|155425|RANK|2|
 C Mind the Hives|QID|48679|M|60.60,17.43|N|Find Edwin in the back of the cave then drive back the Barbthorn Swarm.|
 C Not the Bees!|QID|48680|M|60.57,17.45|US|N|Finish this bonus objective before leaving the area.|
-T Not the Bees!|QID|48680|M|60.57,17.45|N|Bonus Objective - Autocompleted.|
+t Not the Bees!|QID|48680|M|60.57,17.45|N|Bonus Objective - Autocompleted.|
 T Mind the Hives|QID|48679|M|59.03,22.38|N|To Initiate Peony back at the wicker man.|
 A A Simple Sacrifice|QID|48682|M|59.10,22.40|N|From Initiate Peony.|PRE|48679|RANK|2|
 C A Simple Sacrifice|QID|48682|M|56.54,24.06|N|Go forward to another cave. Listen in and the kill Lord Autumnvale (when he becomes hostile) to Save Edwin, again|
@@ -383,7 +393,7 @@ K The Conjured Horror|ACTIVE|44785|QO|3|M|58.18,47.91|N|Kill Conjured Horror|T|C
 T Tea Party|QID|44785|M|57.76,47.76|N|To Annie Warren.|
 $ Bespelled Chest|QID|53472|M|55.60,51.83|N|Click on any of the Witch Torches to enable looting the chest.|RANK|2|
 C The Accursed Thicket|QID|45972|QO|1|M|58.18,47.91|US|N|Finish purging the woods for this bonus objective.|
-T The Accursed Thicket|QID|45972|M|58.18,47.91|N|Bonus Objective - Autocompleted.|
+t The Accursed Thicket|QID|45972|M|58.18,47.91|N|Bonus Objective - Autocompleted.|
 
 K Longfang/Henry Breakwater|QID|48981|QO|1|M|56.5,50.5;59.36,55.40|CS|RARE|ITEM|160468|N|Decide which of them to help and talk to them to offer your help. Silver Elite to kill for azerite power and resources.|RANK|3|
 
@@ -404,7 +414,7 @@ A Looking For One More|QID|48477|M|59.80,48.93|N|From Bridget Fairwater.|RANK|3|
 C Looking For One More|QID|48477|M|58.84,50.70|N|Kill Sister Westwood.|
 T Looking For One More|QID|48477|M|59.50,51.22|N|To Mercy Fairwater.|
 C Crypt Keepers|QID|48474|M|61.70,44.16|US|N|Finish up the bonus objective before leaving the area.|
-T Crypt Keepers|QID|48474|M|61.70,44.16|N|Bonus Objective - Autocompleted.|
+t Crypt Keepers|QID|48474|M|61.70,44.16|N|Bonus Objective - Autocompleted.|
 $ Emily Mayville|QID|49530|M|63.41,40.18|T|Emily Mayville|CHAT|N|Ask her why she is crying, ends with killing her - Silver Elite to loot for azerite power and resources.|RARE|ITEM|160447|RANK|3|
 
 ; The Witch Trial
@@ -510,7 +520,7 @@ A Culling the Coven|QID|48524|M|70.07,60.27|N|From Evelyn Pare.|PRE|48520&48521&
 C The Murderous Matron|QID|48523|NC|QO|1|N|Click the Dormant Ravager to take control of it.|
 C Culling the Coven|QID|48524|S|N|While controlling the Dormant Ravager, If you haven't finished the bonus objective, kill grotesque thralls. Run up to the Elderstone Mine and use the ravagers abilities to slay Heartsbane minions while traveling towards Matron Levae.|
 C Break Them to Splinters|QID|48525|M|69.75,64.09|US|N|Finish up the bonus objective.|
-T Break Them to Splinters|QID|48525|M|69.75,64.09|N|Bonus Objective - Autocompleted.|
+t Break Them to Splinters|QID|48525|M|69.75,64.09|N|Bonus Objective - Autocompleted.|
 K Matron Levae|ACTIVE|48523|QO|2|T|Matron Levae|M|69.85,66.87;68.67,67.25|CS|N|Slay Matron Levae.|
 C Culling the Coven|QID|48524|US|N|Finish killing Heartsbane minions while running out of the mine.|
 T The Murderous Matron|QID|48523|M|70.07,60.27|N|To Evelyn Pare.|
@@ -535,7 +545,7 @@ K Bonesquall|QID|48978|QO|1|M|66.72,51.10|T|Bonesquall|N|Silver Elite to kill an
 T Gol Koval|QID|48947|M|64.66,54.77|N|To Rebecca Hale.|
 A Deliverance|QID|52074|M|64.66,54.77|N|From Rebecca Hale.|RANK|2|
 C Nooooope|QID|48181|M|63.43,58.08|US|N|Finish up the bonus objective now if you plan to..|
-T Nooooope|QID|48181|M|63.43,58.08|US|N|Bonus Objective - Autocompleted.|
+t Nooooope|QID|48181|M|63.43,58.08|US|N|Bonus Objective - Autocompleted.|
 T Deliverance|QID|52074|M|61.91,59.30|N|To Ranger Wons.|
 A Rescue Rangers|QID|48179|M|61.91,59.30|N|From Ranger Wons.|PRE|52074|RANK|2|
 A Boned|QID|52075|M|61.91,59.30|N|From Ranger Wons.|PRE|52074|RANK|2|
@@ -736,7 +746,7 @@ C A Weapon of Old|QID|50036|QO|2|M|25.17,67.18|NC|N|Help create a Liquid Fire po
 T A Weapon of Old|QID|50036|M|25.24,67.16|N|To Warren Ashton.|
 A Fighting With Fire|QID|50063|M|25.24,67.16|N|From Warren Ashton.|PRE|50036|;not spurious
 C Village Repair|QID|50091|M|26.92,66.96|US|N|Stay and finish repairing the village to complete this bonus objective.|
-T Village Repair|QID|50091|M|26.92,66.96|N|Bonus Objective - Autocompleted.|
+t Village Repair|QID|50091|M|26.92,66.96|N|Bonus Objective - Autocompleted.|
 C Fighting With Fire|QID|50063|U|156710|S|N|Slay Briarwood Bulwarks.|
 K Braedan Whitewall|QID|51922|M|27.63,59.57|QO|1|T|Braedan Whitewall|N|Silver Elite to kill and loot for azerite power and resources.|RARE|ITEM|154500|RANK|3|
 C Fighting With Fire|QID|50063|U|156710|US|N|Slay Briarwood Bulwarks.|
@@ -913,7 +923,7 @@ K Haywire Golem|QID|51698|QO|1|M|24.13,30.33|RARE|ITEM|155362|T|Haywire Golem|N|
 K Matron Letitia|ACTIVE|50446|M|27.51,29.56|QO|3|T|Matron Letitia|N|Slay Matron Letitia.|
 C Remembering the Fallen|QID|50447|M|26.71,31.51|US|NC|N|Finish collecting Personal Keepsakes.|
 C Reclaiming Corlain|QID|50448|M|31.25,29.88|US|N|Time to complete bonus objective.|
-T Reclaiming Corlain|QID|50448|M|31.25,29.88|N|Bonus Objective - Autocompleted.|
+t Reclaiming Corlain|QID|50448|M|31.25,29.88|N|Bonus Objective - Autocompleted.|
 T Potent Protection|QID|50452|M|31.46,30.31|N|To Lucille Waycrest.|
 T Witchrending|QID|50446|M|31.46,30.31|N|To Lucille Waycrest.|
 T Remembering the Fallen|QID|50447|M|31.46,30.31|N|To Lucille Waycrest.|
