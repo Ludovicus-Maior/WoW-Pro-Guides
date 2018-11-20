@@ -309,9 +309,9 @@ function WoWPro.AnchorSet()
 			WoWPro.MainFrame:ClearAllPoints()
             local anchor
 			if anchorpoint == "TOPLEFT" then
-				anchor = {"TOPLEFT", UIParent, "TOPLEFT", left, top}
+				anchor = {"TOPLEFT", UIParent, "TOPLEFT", left, top-height}
 			elseif anchorpoint == "TOP" then
-				anchor = {"TOP", UIParent, "TOP", hcenter, top}
+				anchor = {"TOP", UIParent, "TOP", hcenter, top-height}
 			elseif anchorpoint == "TOPRIGHT" then
 				anchor = {"TOPRIGHT", UIParent, "TOPRIGHT",right-width,  top-height}
 			elseif anchorpoint == "LEFT" then
@@ -319,13 +319,13 @@ function WoWPro.AnchorSet()
 			elseif anchorpoint == "CENTER" then
 				anchor = {"CENTER", UIParent, "CENTER", hcenter, vcenter}
 			elseif anchorpoint == "RIGHT" then
-				anchor = {"RIGHT", UIParent, "RIGHT", right, vcenter}
+				anchor = {"RIGHT", UIParent, "RIGHT", right-width, vcenter}
 			elseif anchorpoint == "BOTTOMLEFT" then
 				anchor = {"BOTTOMLEFT", UIParent, "BOTTOMLEFT", left, bottom}
 			elseif anchorpoint == "BOTTOM" then
 				anchor = {"BOTTOM", UIParent, "BOTTOM", hcenter, bottom}
 			elseif anchorpoint == "BOTTOMRIGHT" then
-				anchor = {"BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", right, bottom}
+				anchor = {"BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", right-width, bottom}
 			end
 			WoWPro:dbp("SetPoint:OnUpdate() point=%q, UIParent, relativePoint=%q, ofsx=%.2f, ofsy=%.2f",
 			           anchor[1], anchor[3], anchor[4], anchor[5])
