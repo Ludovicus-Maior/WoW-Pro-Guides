@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3763
+-- Date: 2018-11-20 14:34
+-- Who: jovieve
+-- Log: For people running guide on rank 1, added note to unsticky about skipping rank 2 quest [If Bones Could  Talk]. It's likely to become active on rank 1, because it's a drop quest. Made associated turn-in step a t instead of T.
+
+-- URL: http://wow-pro.com/node/3763/revisions/30137/view
+-- Date: 2018-11-20 14:08
+-- Who: jovieve
+-- Log: Based h step on active rank 1 quest instead of rank 2, because H step comes up later on rank 1.
+
+-- URL: http://wow-pro.com/node/3763/revisions/30136/view
+-- Date: 2018-11-20 13:50
+-- Who: jovieve
+-- Log: Fixed PRE that seemed to be another typo.
+
+-- URL: http://wow-pro.com/node/3763/revisions/30135/view
 -- Date: 2018-11-20 12:25
 -- Who: jovieve
 -- Log: Changed all T steps on bonus objectives to t, for easier skipping for people who hate them like me.
@@ -285,7 +300,7 @@ A To Market, To Market|QID|47945|M|55.57,34.80|N|From Elijah Eggleton.|PRE|47982
 A WANTED: Rindlewoe|QID|51547|M|55.74,34.99|N|From wanted poster.|PRE|47982|RANK|2|
 f Fallhaven|ACTIVE|48108|M|55.13,34.69|N|At Clarence Page.|
 A The North Pass Caverns|QID|48948|M|55.15,35.17|N|From Maude Rifthold.|PRE|47982|LEAD|48792^48793|RANK|2|
-h The Swine's Larder|ACTIVE|48948|M|55.50,34.26|N|At Dinah Wellard.|
+h The Swine's Larder|ACTIVE|48108|M|55.50,34.26|N|At Dinah Wellard.|
 
 ; Adventurer's Society
 $ Obviously Safe Chest|QID|49481|M|50.57,30.06|T|Beshol|N|This obviously safe chest isn't quite as unprotected as it looks, kill the giant Silver Elite spider and it is yours.|RARE|ITEM|158363|RANK|3|
@@ -534,7 +549,7 @@ A And Justice For All|QID|49259|M|70.08,42.86|N|From Lucille Waycrest.|PRE|48538
 C And Justice For All|QID|49259|QO|1|M|70.08,42.86|NC|N|Click on Lucille to untie her.|
 C And Justice For All|QID|49259|QO|2|M|69.26,43.59|N|Defeat 3 waves then the leader of the Heartsbane ambush|
 T And Justice For All|QID|49259|M|69.67,43.27|N|To Lucille Waycrest.|
-A A Slight Detour|QID|48941|M|69.67,43.27|N|From Lucille Waycrest.|PRE|49529|
+A A Slight Detour|QID|48941|M|69.67,43.27|N|From Lucille Waycrest.|PRE|49259|
 
 ; Gol Koval
 A Gol Koval|QID|48947|M|69.52,43.71|N|From Auntie Amanda Hale.|PRE|59259|LEAD|52074|RANK|2|
@@ -588,11 +603,11 @@ C Salvage Rights|QID|48943|QO|2|M|45.05,32.49|NC|N|Pick up Cask of Salted Fish.|
 C Salvage Rights|QID|48943|QO|3|M|43.54,30.80|NC|N|Pick up the Hardened Lockbox.|
 C Salvage Rights|QID|48943|QO|4|M|45.53,30.08|NC|N|Pick up the Bucket of Grain.|
 C Yeti to Rumble|QID|48942|M|44.22,27.72|US|N|Finish slaying Chillfur Yetis.|
-C If Bones Could Talk|QID|51134|M|44.22,27.72|US|N|Keep at it until you find a Pristine Rune-Etched Bone.|
+C If Bones Could Talk|QID|51134|M|44.22,27.72|US|N|Keep at it until you find a Pristine Rune-Etched Bone. Skip this if you want to; it's not part of the zone achievement.|
 $ Runebound Chest|QID|53386|M|44.22,27.72|N|Click the runes in this order *LEFT, RIGHT, BOTTOM, TOP* to open the cache and loot the treasure.|ITEM|163742|RANK|2|
 T Yeti to Rumble|QID|48942|M|44.74,28.48|N|To Lucille Waycrest.|
 T Salvage Rights|QID|48943|M|44.74,28.48|N|To Lucille Waycrest.|
-T If Bones Could Talk|QID|51134|M|44.74,28.48|N|To Lucille Waycrest.|
+t If Bones Could Talk|QID|51134|M|44.74,28.48|N|To Lucille Waycrest.|
 A Diversionary Tactics|QID|48963|M|44.74,28.48|N|From Lucille Waycrest.|PRE|48942&48943|
 K Frostmange|ACTIVE|48963|QO|1|M|45.22,28.57|N|Slay Frostmange|T|Frostmange|
 T Diversionary Tactics|QID|48963|M|45.01,27.76|N|To Lucille Waycrest.|
