@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-11-26 08:54
+-- Who: jovieve
+-- Log: Changed Nathanos Blightcaller to Halford Wyrmbane.
+
+-- URL: http://wow-pro.com/node/3760/revisions/30115/view
 -- Date: 2018-11-05 22:38
 -- Who: Emmaleah
 -- Log: turns out those pesky |O|s and |M|s are important, a fact i would have realized if I had just thought about it for 2 more minutes...
@@ -249,11 +254,6 @@
 -- Who: Emmaleah
 -- Log: Updated for changes in June 1 build (8.0.1.26766)
 
--- URL: http://wow-pro.com/node/3760/revisions/29301/view
--- Date: 2018-05-13 02:18
--- Who: Emmaleah
--- Log: changed guide icon, changed zone name to Kul Tiras, added coords for infusing the heart, changed next guide to TBD
-
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
 WoWPro:GuideName(guide,'War Campaign')
@@ -326,7 +326,7 @@ T Island Expedition|QID|51904|M|66.83,33.28|Z|Boralus|N|To Flynn Fairwind.|
 ;Level 118 Foothold
 A Pushing Our Influence|QID|53055|M|69.27,27.02|Z|Boralus|N|From Halford Wyrmbane.|LVL|118|O|
 T Pushing Our Influence|QID|53055|M|69.27,27.02|Z|Boralus|N|To Halford Wyrmbane.|
-A The Final Foothold|QID|52443|M|69.27,27.02|Z|Boralus|N|From Nathanos Blightcaller.|PRE|51961|LVL|118|
+A The Final Foothold|QID|52443|M|69.27,27.02|Z|Boralus|N|From Halford Wyrmbane.|PRE|51961|LVL|118|
 C Pick last Foothold|QID|52443|M|69.27,27.02|NC|Z|Boralus|N|Choose the last available zone to build a foothold at the Zandalar Campaign Table.|
 t Foothold: Zuldazar|QID|51570|M|69.25,27.00|Z|Boralus|N|To UI Alert.|
 t Foothold: Nazmir|QID|51571|M|69.25,27.00|Z|Boralus|N|To UI Alert.|
