@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2018-11-28 19:19
+-- Who: Emmaleah
+-- Log: moved quests to kill crawg mada and burn huts to before grand mada ateena, (I could swear that Rokhan didn't offer the quest then, in my previous trips...) few other changes, finished this run thru the zone.
+
+-- URL: http://wow-pro.com/node/3766/revisions/30125/view
 -- Date: 2018-11-14 10:40
 -- Who: Emmaleah
 -- Log: more minor adjustments up to gloom hollow arrival.
@@ -120,6 +125,7 @@ WoWPro:GuideSteps(guide, function()
 
 return [[
 N The Great Sea Scrolls|QID|53476|NA|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
+t The Great Sea Scrolls|QID|53476|M|71.50,30.36|S!US|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
 N Use of Ranks|N|Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done with the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
 N Rares (aka Silver Elite)|ACH|12942|N|Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to.|
 
@@ -246,7 +252,6 @@ T Kel'vax's Home|QID|48478|M|38.94,59.94|N|To Shinga Deathwalker.|
 A The Fall of Kel'vax|QID|48480|M|38.94,59.94|N|From Shinga Deathwalker.|RANK|2|PRE|48479&48478|
 K Kel'vax Deathwalker|ACTIVE|48480|M|41.75,57.49|T|Kel'vax Deathwalker|N|Kill Kel'vax Deathwalker.|
 K Bajiatha|QID|48439|M|42.70,60.47|QO|1|RARE|ITEM|161093|T|Bajiatha|N|Silver Elite to kill for resources and artifact power.|RANK|2|
-;K Mala'kili|QID|50040|M|53.06,54.30|QO|1|RARE|ITEM|163703|T|Mala'kili|N|Run down the hill for this Silver Elite. Mala'kili's pet crawg, Rohn'kor, will come join in the fight. Kill and loot for artifact power and resources.|RANK|3|
 T The Fall of Kel'vax|QID|48480|M|38.93,59.92|N|To Shinga Deathwalker.|
 T The Shadow of Death|QID|47241|M|36.64,53.91|N|To Hanzabu.|
 A A Culling of Souls|QID|47244|M|36.64,53.91|N|From Hanzabu.|PRE|47241|
@@ -577,8 +582,8 @@ A Vengeance of the Frogs|QID|48092|M|77.78,53.18|N|From Shadow Hunter Narez.|RAN
 C Nagating the Threat|QID|48093|M|77.78,53.18|S|N|Bonus Objective - Kill Naga, release frogs from the cages, etc to complete the bonus objective.|
 C Krag'wa's Chosen|QID|48090|M|79.38,53.84|QO|3|U|158071|NC|N|Throw the potion at Wok'grug the Clever.|
 C Krag'wa's Chosen|QID|48090|M|82.35,55.68|QO|1|U|158071|NC|N|Throw the potion on Wag'shash the Bold.|
-$ Lost Scroll|QID|50565|M|81.68,61.08|QO|1|T|Enraged Water Elemental|N|Click on the Lost Scroll lying on this island to summon a Silver Elite to kill and loot for resources and artifact power.|RANK|2|RARE|;ITEM unknown
-C Vengeance of the Frogs|QID|48092|M|85.11,54.95|QO|1|N|Kill Priestess Zaldraxia.|
+$ Lost Scroll|QID|50565|M|81.68,61.08|QO|1|T|Enraged Water Elemental|N|Click on the nearly invisible Lost Scroll lying on this island to summon a Silver Elite to kill and loot for resources and artifact power.|RANK|2|RARE|;ITEM unknown
+K Priestess Zaldraxia|ACTIVE|48092|M|85.11,54.95|QO|1|T|Priestess Zaldraxia|N|Kill Priestess Zaldraxia.|
 C Krag'wa's Chosen|QID|48090|M|80.37,50.27|QO|2|U|158071|NC|N|Throw the potion on Krol'dra the Wise.|
 K Naga|QID|50435|M|80.91,46.77|L|157797|N|Kill the Vilescale Naga in the area until you get a Vilescale Pearl.|RANK|3|PRE|47442|
 $ Mysterious Trash Pile|QID|50435|M|80.91,46.77|ITEM|157797|N|If you heard Jani's guttural voice (which means you found the Vilescale Pearl here), Jani wants the shiny.|RANK|2|PRE|47442|
@@ -737,7 +742,7 @@ C The Battle of Bloodfire Ravine|QID|50138|M|43.18,72.56|QO|2|S|N|Kill Blood Tro
 C Undying Totems|QID|50078|M|43.99,69.77|N|Destroy the Reanimating Totems.|
 T Undying Totems|QID|50078|M|44.03,70.02|N|To Princess Talanji.|
 C The Battle of Bloodfire Ravine|QID|50138|M|43.18,72.56|QO|2|US|N|Finish your quota of Blood Trolls.|
-C The Battle of Bloodfire Ravine|QID|50138|M|44.80,68.91|QO|3|N|Kill Warmother Molaka.|
+K Warmother Molaka|ACTIVE|50138|M|44.80,68.91|QO|3|T|Warmother Molaka|N|Kill Warmother Molaka.|
 T The Battle of Bloodfire Ravine|QID|50138|M|44.96,68.60|N|To Princess Talanji.|
 A The Road of Pain|QID|50081|M|44.96,68.60|N|From Princess Talanji.|PRE|50138&50078|
 A Boom goes the Bomb|QID|50079|M|44.98,68.34|N|From Patch.|PRE|50138&50078|
@@ -753,15 +758,6 @@ C Target of Opportunity|QID|50082|M|44.98,60.97|QO|1|CHAT|N|Tell Talanji you are
 C Target of Opportunity|QID|50082|M|45.47,60.24|QO|2|N|Confront Grand Ma'da Ateena. You kill the adds while Talanji duels with Ateena.|
 T Target of Opportunity|QID|50082|M|45.21,60.54|N|To Princess Talanji.|
 A Petitioning Krag'wa|QID|52073|M|45.21,60.54|N|From Princess Talanji.|
-C Petitioning Krag'wa|QID|52073|M|45.18,60.70|CHAT|N|Petition Krag'wa for aid.|
-T Petitioning Krag'wa|QID|52073|M|49.39,57.19|N|To Princess Talanji.|
-A Ateena's Fall|QID|50087|M|49.39,57.19|N|From Princess Talanji.|PRE|50084&50085&50086|
-K Grand Ma'da Ateena|QID|50087|M|51.88,60.59|QO|1|N|Chase Grand Ma'da Ateena around the top of the building avoiding the pools of corruption and damaging her.|
-T Ateena's Fall|QID|50087|M|50.60,58.46|N|To Princess Talanji.|
-A What Rots Beneath|QID|51244|M|50.51,58.34|N|From Rokhan.|PRE|50087|
-C What Rots Beneath|QID|51244|M|50.45,58.33|QO|1|NC|N|Fly down to the Altar of Rot (Optional)|RANK|-1|
-
-R Tul'vor|AVAILABLE|50083|M|45.45,53.51;45.21,60.54|CS|N|Run accross the bridge and back to where Talanji dueled Grand Ma'da Ateena to find another quest.|RANK|3|
 A The Crawg Ma'da|QID|50083|M|45.34,58.59|N|From Rokhan.|RANK|3|PRE|50323|
 K Amaka the Crawg Ma'da|ACTIVE|50083|QO|2|M|46.99,54.11|U|156868|T|Amaka the Crawg Ma'da|N|Optionally, if you have one, you can use the poison gland to weaken and do additional damage to Amaka.|
 T The Crawg Ma'da|QID|50083|M|48.53,53.54|N|To Rokhan.|
@@ -769,36 +765,46 @@ A A Message of Blood and Fire|QID|50085|M|48.53,53.54|N|From Rokhan.|PRE|50083|R
 A Raiding the Raiders|QID|50080|M|48.46,52.69|N|Bonus Objective - Autoaccepted.|LVL|-120|RANK|3|PRE|50079&50081|
 C Raiding the Raiders|QID|50080|M|48.46,52.69|S|N|Bonus Objective - Kill blood trolls, rescue captives and pick up the crates to complete.|
 C A Message of Blood and Fire|QID|50085|M|48.85,52.58|U|156931|S|NC|N|Use the wand to set huts on fire, some will take more than one torching to find the right spot.|
-K Wardrummer Zurula|QID|48623|M|48.14,58.04;48.91,51.19;48.96,50.83|CS|QO|1|T|Wardrummer Zurula|N|And back up taking the path at the first waypoint to find yet another Silver Elite at the top of the tower to kill for artifact power and resources.|RANK|3|RARE|;item unknown
-K Jax'teb the Reanimated|QID|50307|M|45.17,51.79|QO|1|RARE|ITEM|160969|T|Jax'teb the Reanimated|N|One more Silver Elite to kill and loot for artifact power and resources.|RANK|3|
+K Wardrummer Zurula|QID|48623|M|48.96,50.83|QO|1|T|Wardrummer Zurula|N|Up this tower to find yet another Silver Elite to kill for artifact power and resources.|RANK|3|RARE|;item unknown
 C A Message of Blood and Fire|QID|50085|M|48.85,52.58|U|156931|US|NC|N|Use the wand to set huts on fire, some will take more than one torching to find the right spot.|
 C Raiding the Raiders|QID|50080|M|45.34,58.59|US|N|Bonus Objective - Finish this up before you leave (or not as you choose).|
-T Raiding the Raiders|QID|50080|M|45.34,58.59|S|N|Bonus Objective - Autocompleted.|
-T A Message of Blood and Fire|QID|50085|M|44.28,54.06|N|To Rokhan. Even though he has the message to fly you to Zulajin, he won't from up here. You must run down the hill to the entrance to the Underrot.|
+T Raiding the Raiders|QID|50080|M|45.34,58.59|N|Bonus Objective - Autocompleted.|
+K Jax'teb the Reanimated|QID|50307|M|45.17,51.79|QO|1|RARE|ITEM|160969|T|Jax'teb the Reanimated|N|One more Silver Elite to kill and loot for artifact power and resources.|RANK|3|
+T A Message of Blood and Fire|QID|50085|M|44.28,54.06|N|To Rokhan. The path up from Jax'teb takes you to Rokhan.|
 
-R Alter of Rot|ACTIVE|51244|M|52.76,66.47|CC|N|Path to Underrot starts here and continues downward, if you were off killing the rares, this is where you go to get back to Hezrel and your flight out.|RANK|3|
+K Mala'kili|QID|50040|M|45.67,56.83;50.17,53.91;53.06,54.30|CS|QO|1|RARE|ITEM|163703|T|Mala'kili|N|Run down the hill for this Silver Elite. Mala'kili's pet crawg, Rohn'kor, will come join in the fight. Kill and loot for artifact power and resources. After you kill it, back up the hill to find Krag'wa.|RANK|3|;there is not any very good place for this. I think this is the closest. ... Although perhaps after picking up the dungeon quest is better.
+
+C Petitioning Krag'wa|QID|52073|M|45.18,60.70|CHAT|N|Petition Krag'wa for aid. (you need to be dismounted)|
+T Petitioning Krag'wa|QID|52073|M|49.39,57.19|N|To Princess Talanji.|
+A Ateena's Fall|QID|50087|M|49.39,57.19|N|From Princess Talanji.|;pres per Grail not correct
+K Grand Ma'da Ateena|ACTIVE|50087|M|51.88,60.59|QO|1|T|Grand Ma'da Ateena|N|Chase Grand Ma'da Ateena around the top of the building avoiding the pools of corruption and damaging her.|
+T Ateena's Fall|QID|50087|M|50.60,58.46|N|To Princess Talanji.|
+A What Rots Beneath|QID|51244|M|50.51,58.34|N|From Rokhan.|PRE|50087|
+C What Rots Beneath|QID|51244|M|50.51,58.34|QO|1|NC|N|Ask Rokhan for a ride down to the Altar of Rot.|
 C What Rots Beneath|QID|51244|M|51.73,65.69|QO|2|NC|N|Run down the hill to find Titan Keeper Hezrel and speak to him.|
 T What Rots Beneath|QID|51244|M|51.73,65.69|N|To Titan Keeper Hezrel.|
 A The Underrot: Sealing G'huun's Corruption|QID|51302|M|51.73,65.69|NA|N|From Titan Keeper Hezrel. This is a dungeon quest.|RANK|2|PRE|51244|
+A Halting the Empire's Fall|QID|50808|M|51.91,65.56|N|From Rokhan. If you are sticking around for the remainder of the quests and rares, don't take Rokhan's offered flight.|PRE|51244|RANK|3|
 A Halting the Empire's Fall|QID|50808|M|51.91,65.56|N|From Rokhan.|PRE|51244|
 F Zul'jan Ruins|ACTIVE|50808|M|51.91,65.56|N|Queue if you want to do the dugeon now or ask Rokhan for a ride back to Zul'jan. Alternatively check this off manually and hearth to The Great Seal.|RANK|-1|
+
 K Queen Tzxi'kik|QID|49312|M|53.07,65.50;55.60,65.91;55.84,70.15;55.77,69.23;57.69,67.67|CS|QO|1|T|Queen Tzxi'kik|RARE|ITEM|160963|N|Run up the hill to find this Silver Elite and kill for artifact power and resources.|RANK|3|
-K Overstuffed Saurolisk|QID|47827|M|62.47,64.67|QO|1|RARE|ITEM|160987|T|Overstuffed Saurolisk|N|Silver Elite, not part of the achievement, but hey, we were in the area.|
+K Overstuffed Saurolisk|QID|47827|M|62.47,64.67|QO|1|RARE|ITEM|160987|T|Overstuffed Saurolisk|N|Silver Elite, not part of the achievement, but hey, we were in the area.|RANK|3|
 A Taking the Loa Road|QID|50444|M|53.99,74.09|N|Click on the mysterious trashpile, to Summon Jani who will offer this quest.|PRE|47442|RANK|3|;not spurious
 C Taking the Loa Road|QID|50444|QO|1|M|53.99,74.09;59.60,68.91|CS|N|Ask Jani for a disguise then run down the road (or just off the road to avoid mobs) till you see a glowing spot on the road.|
-C Taking the Loa Road|QID|50444|QO|2|M|59.71,68.64|N|Click on the glowing coin in the middle of the road.|
+C Taking the Loa Road|QID|50444|QO|2|M|59.71,68.64|NC|N|Click on the glowing coin in the middle of the road.|
 C Taking the Loa Road|QID|50444|QO|3|M|59.30,68.65|N|Back off a little ways and watch, then you will be automatically sent back to Jani.|
 T Taking the Loa Road|QID|50444|M|53.99,74.09|N|To Jani.|
-A An Ancient Curse|QID|50976|M|52.92,72.06|N|From an Ancient Tablet.|RANK|3|
-C An Ancient Curse|QID|50976|QO|1|M|52.48,73.87;51.72,71.83;54.06,72.10;54.41,70.79;54.54,69.26|CS|N|Click to light the braziers, which summons Aiji.|
-K Aiji the Accursed|ACTIVE|50976|QO|2|M|52.99,72.06|T|Aiji the Accursed.|N|Kill Aiji the Accursed.|RANK|3|
+A An Ancient Curse|QID|50976|M|52.88,75.99|N|From an Ancient Tablet.|RANK|3|
+C An Ancient Curse|QID|50976|QO|1|M|52.48,73.87;51.72,71.83;54.06,72.10;54.41,70.79;54.54,69.26|CS|NC|N|Click to light the braziers, which summons Aiji. (optional if they are already lit.)|
+K Aiji the Accursed|ACTIVE|50976|QO|2|M|52.99,72.06|T|Aiji the Accursed.|N|Kill Aiji the Accursed.|
 T An Ancient Curse|QID|50976|M|52.99,72.06|N|To UI Alert.|
 K Azerite-Infused Elemental|QID|50569|M|54.01,81.15|QO|1|T|Azerite-Infused Elemental|N|Silver Elite for artifact power and resources.|RARE|RANK|3|;item unknown
 
 H The Great Seal|ACTIVE|50808|M|51.91,65.56|N|To The Great Seal to turn in the final quest.|
 T Halting the Empire's Fall|QID|50808|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 A The Blood Gate|QID|47199|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof. This quest requires you have completed the zone achievement for Nazmir as well as Zandalar.|PRE|50963&50808|;prolly spurious as its prolly an ach it depends on instead, but...quest not avail until you turn in those 2 quests.
-A Pick next zone|AVAILABLE|47512^47513^47514|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.|
+A Pick next zone|QID|47512^47513^47514|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.|
 
 J Back to Zuldazar|QID|47199|N|This ends the Nazmir guide, The Blood Gate (required for Pathfinder I) is completed in the Zuldazar guide, which will open when you check off this step.|GUIDE|EmmZuldazar|
 
