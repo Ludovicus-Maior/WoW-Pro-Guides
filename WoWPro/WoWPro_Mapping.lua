@@ -7,6 +7,20 @@ local cache = {}
 local HBD = LibStub("HereBeDragons-2.0")
 WoWPro.HBD = HBD
 
+
+-- Local HBD:GetPlayerZonePosition() substitute
+function WoWPro:GetPlayerZonePosition()
+    local mapID = C_Map.GetBestMapForUnit("player")
+    if not mapID then
+        return nil, nil, nil
+    end
+    local x, y = C_Map.GetPlayerMapPosition(mapID, "player"):GetXY()
+    if x and y then
+        return x , y , mapID
+    end
+end
+
+
 -- placeholder flags in case you want to implement options to disable
 -- later on TomTom tooltips and right-clicking drop-down menus
 local SHOW_MINIMAP_MENU = true
@@ -299,7 +313,7 @@ end
 
 local FinalCoord
 function WoWPro:MapPointDelta()
-    local x, y = WoWPro.HBD:GetPlayerZonePosition()
+    local x, y = WoWPro:GetPlayerZonePosition()
     if FinalCoord and x and y then
         local X,Y
         X=FinalCoord[1]
@@ -349,7 +363,7 @@ function WoWPro.DistanceToStep(i)
     iy = tonumber(iy) / 100
     im = WoWPro:ValidZone(WoWPro.zone[i])
 --    WoWPro:Print("Zone %s mapped to %d",WoWPro.zone[i],im)
-    local x, y, m = WoWPro.HBD:GetPlayerZonePosition()
+    local x, y, m = WoWPro:GetPlayerZonePosition()
     if (not x) or (not y) then
         return 1e99
     end
@@ -609,7 +623,7 @@ function WoWPro:RemoveMapPoint()
 end
 
 function  WoWPro.CheckHBDData(force)
-    local x, y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition()
+    local x, y, mapId = WoWPro:GetPlayerZonePosition()
     if not (x and y) then
         WoWPro:dbp("CheckHBDData(): No player position yet!")
         -- We are not mapped yet.
@@ -626,12 +640,12 @@ function  WoWPro.CheckHBDData(force)
 end
 
 function WoWPro:LogLocation()
-    local x, y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition()
+    local x, y, mapId = WoWPro:GetPlayerZonePosition()
 
     if not (x and y) then
-        WoWPro:print("Player [?,?@%d/%d] WPZone=%q, Zone=%q, SubZone=%q", mapId, mapType, WoWPro.GetZoneText(), GetZoneText(), GetSubZoneText() )
+        WoWPro:print("Player [?,?@%d] WPZone=%q, Zone=%q, SubZone=%q", mapId, WoWPro.GetZoneText(), GetZoneText(), GetSubZoneText() )
     else
-        WoWPro:print("Player [%.2f,%.2f@%d/%d] WPZone=%q, Zone=%q, SubZone=%q", x*100 , y*100, mapId, mapType, WoWPro.GetZoneText(), GetZoneText(), GetSubZoneText() )
+        WoWPro:print("Player [%.2f,%.2f@%d] WPZone=%q, Zone=%q, SubZone=%q", x*100 , y*100, mapId, WoWPro.GetZoneText(), GetZoneText(), GetSubZoneText() )
     end
 end
 

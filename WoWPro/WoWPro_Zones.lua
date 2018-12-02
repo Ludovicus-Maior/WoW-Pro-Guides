@@ -28,7 +28,7 @@ function WoWPro.DefineZone(zone, mapId, mapType, parent_map, group_id, ... )
 end
 
 function WoWPro.GetZoneText()
-    local x, y, mapId, mapType = WoWPro.HBD:GetPlayerZonePosition(false)
+    local x, y, mapId = WoWPro:GetPlayerZonePosition()
     if WoWPro.MapInfo[mapId] then
         return string.format("%s",  WoWPro.MapInfo[mapId].name), mapId
     else
