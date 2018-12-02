@@ -354,7 +354,7 @@ function WoWPro:PetOwned(npcID)
         WoWPro:dbp("WoWPro:PetOwned() Polling for %d pets.",C_PetJournal.GetNumPets())
         for i = 1,C_PetJournal.GetNumPets() do
             local petID, speciesID, isOwned, customName, level, favorite, isRevoked, name, icon, petType, creatureID, sourceText, description, isWildPet, canBattle = C_PetJournal.GetPetInfoByIndex(i);
-                WoWPro:dbp("%s: %d@%d",name,creatureID,i)
+                -- WoWPro:dbp("%s: %d@%d",name,creatureID,i)
                 if WoWPro.PetsOwned[creatureID] then
                     WoWPro.PetsOwned[creatureID] = WoWPro.PetsOwned[creatureID] + 1
                 else
