@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2018-12-02 01:30
+-- Who: Ludovicus_Maior
+-- Log: Move the /p up
+
+-- URL: http://wow-pro.com/node/3772/revisions/30142/view
 -- Date: 2018-11-28 19:25
 -- Who: Emmaleah
 -- Log: add t The Great Sea Scrolls
