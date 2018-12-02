@@ -573,7 +573,7 @@ function WoWPro.UpdateQuestTrackerRow(row)
 		    local qid = WoWPro:QIDInTable(QID,WoWPro.QuestLog)
 			local j = WoWPro.QuestLog[qid].index
 			row.trackcheck = true
-			if not questtext and action == "C" and WoWPro.QuestLog[qid].leaderBoard and not (WoWPro.sobjective[index] or WoWPro.strategy[index]) then
+			if not questtext and action == "C" and WoWPro.QuestLog[qid].leaderBoard and not WoWPro.sobjective[index] then
 			    -- no QO tag specified, lets set something up
 			    WoWPro:dbp("UQT: QID %d active, but no QO tag, just check for generic completion.", qid)
 				if WoWPro.QuestLog[qid].leaderBoard[1] then
@@ -619,11 +619,11 @@ function WoWPro.UpdateQuestTrackerRow(row)
 			            track = track.."\n- "..WoWPro.Scenario.stageDescription
 			        else
 					    WoWPro:dbp("UQT: Scenario not active yet %q [%s]", QID, WoWPro.sobjective[index])
-					    track =  track.." ??"
+					    track =  track.." ?: Scenario not active yet."
 			        end
 			    else
 				    WoWPro:dbp("UQT: Not a valid scenario objective %q [%s]", QID, WoWPro.sobjective[index])
-				    track =  track.." ??"
+				    track =  track.." ?: Invalid scenario objective"
 			    end
 			else
 			    --No questtext or leaderboard
