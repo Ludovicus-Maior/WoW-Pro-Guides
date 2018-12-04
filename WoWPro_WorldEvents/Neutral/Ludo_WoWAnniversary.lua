@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3748
+-- Date: 2018-12-03 23:07
+-- Who: Ludovicus_Maior
+-- Log: Updated
+
+-- URL: http://wow-pro.com/node/3748/revisions/30126/view
 -- Date: 2018-11-17 23:17
 -- Who: Ludovicus_Maior
 -- Log: Minor corrections and cleanups.
@@ -32,6 +37,7 @@ local guide = WoWPro:RegisterGuide("LudoWowAnniversary",'WorldEvents',"Azeroth",
 WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"WOW Anniversary")
 WoWPro:GuideQuestTriggers(guide, 43471,43472,47251,47252,43323,43461,47253,47254)
+WoWPro:NoCache(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -45,12 +51,13 @@ T Interesting Times|QID|47251|M|36.36,74.25|Z|Orgrimmar@Orgrimmar|N|To Ju'Pa, in
 ;A Interesting Times|QID|47252|N|UI From WoW Anniversary Token|FACTION|Alliance|
 T Interesting Times|QID|47252|M|84.65,24.88|Z|Stormwind City|N|To Llore, in the library in Stormwind Keep|FACTION|Alliance|
 
-A A Time to Reflect|QID|43461|M|36.36,74.25|NOCACHE|Z|Orgrimmar@Orgrimmar|N|From Ju'Pa|FACTION|Horde|
-A A Time to Reflect|QID|43323|M|84.65,24.88|NOCACHE|Z|Stormwind City|N|From Llore|FACTION|Alliance|
+U Celebration Package|U|162636|BUFF|277952|N|Hey, use your Celebration Package!|
+A A Time to Reflect|QID|43461|M|36.36,74.25|Z|Orgrimmar@Orgrimmar|N|From Ju'Pa|FACTION|Horde|
+A A Time to Reflect|QID|43323|M|84.65,24.88|Z|Stormwind City|N|From Llore|FACTION|Alliance|
 
 C A Time to Reflect|QID|43323^43461|CHAT|QG|The Historian|N|Chat with the Historian to get your question. The question will change each time you chat with him, but we have a cheat sheet.|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|the jailor of Illidan Stormrage|N|Maiev Shadowsong|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Mankrik's Wife be found|N|Barrens|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Mankrik's Wife be found|N|The Barrens|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Bloodfeather, Windfury|N|Harpy|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|King Krush, King Mosh, and King Dred|N|Devilsaur|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|"atal'ai" mean|N|Devoted Ones|
@@ -66,7 +73,7 @@ C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|kept Thrall as a slave in Durnhol
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|mate of Har'koa|N|Loque'nahak|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|son of an Alliance traitor|N|Aliden|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Safe Journey|N|Dioniss aca|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|the Wretched were once members of which race|N|Blood elves|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|the Wretched were once members of which race|N|Blood Elves|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|connects the Arathi Highlands and the Wetlands|N|Thandol Span|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|who helped Thrall escape his imprisonment in Durnholde Keep|N|Taretha Foxton|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|opening numerous portals on Draenor and shattering the Orc homeworld|N|Ner'zhul|
@@ -77,16 +84,16 @@ C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Which apothecary cannot be found 
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What Goblin trading company is known for plundering the natural resources of Azeroth|N|Venture Company|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|protecting the entrance of Sulfuron Keep|N|Majordomo Staghelm|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|cult was affiliated with the orcish Shadow Council|N|Argus Wake|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Grummle's most prized personal possession|N|Luckydo|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Grummle's most prized personal possession|N|A Luckydo|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|the following is not an orc clan|N|Bloodfang|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|final words from this Headless Horseman quote|N|The righteous one!|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|spontaneous dancing in others against their will|N|Piccolo of the flaming Fire|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|final words from this Headless Horseman quote|N|the righteous one!|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|spontaneous dancing in others against their will|N|Piccolo of the Flaming Fire|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Jaina Proudmoore's mentor in the Kirin Tor|N|Archmage Antonidas|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|What dragon appears in the human guise of Lord victor Nefarius|N|Nefarian|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|embodiments of negative emotions|N|Sha|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|leave pandaria on the back of the sea turtle, Shen-zin Su|N|Liu Lang|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|the red dragon whose skull is on display|N|Tyranastrasz|
-C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|against the armies of the Qiraji in what war|N|War of the shifting sands|
+C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|against the armies of the Qiraji in what war|N|War of the Shifting Sands|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Dalaran originally located in the Eastern Kingdoms|N|Hillsbrad Foothills|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|is not a possible result from drinking a Noggenfogger|N|You breathe fire|
 C A Time to Reflect|QID|43323^43461|NC|QO|1|QG|Cro Threadstrong continually threatened|N|Fruit Vendor|
