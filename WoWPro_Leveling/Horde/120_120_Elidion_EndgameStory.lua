@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_endgame_storylines
+-- Date: 2018-12-05 06:05
+-- Who: elidion
+-- Log: 8.1 Questline
+
+-- URL: http://wow-pro.com/node/3783/revisions/30128/view
 -- Date: 2018-11-18 14:05
 -- Who: jovieve
 -- Log: Added REP tag on Zalazane returns and accompanying note. Combined C steps on Vengeance for Vol'jin. Added travel steps.
@@ -116,7 +121,59 @@ A The True Leader of Zandalar|QID|51521|M|49.92,39.42|Z|Dazar'alor|N|From Spirit
 C The True Leader of Zandalar|QID|51521|M|49.92,39.42|Z|Dazar'alor|QO|1|NC|N|Give Vol'jin's Glaive to Talanji and watch the cinematic.|
 T The True Leader of Zandalar|QID|51521|M|49.92,39.42|Z|Dazar'alor|N|To Spirit of Vol'jin.|
 N Zandalari Empire Rep Gate|QID|51513|N|Do WQs that give Zandalari Empire faction. Next segment is available at revered.|PRE|50954|REP|Zandalari Empire;2103;revered;0;true|
-N Not the end|AVAILABLE|-51521|N|That's it for patch 8.0. Come back in 8.1 when the story continues.|ACH|12719;;true|
+
+; 8.1 quests
+A The Dark Lady Calls|QID|54097|M|58.40,62.73|Z|Zuldazar|N|From Dark Ranger Alina.|PRE|53003|O|
+P Orgrimmar|ACTIVE|54097|M|51.54,45.89|Z|Dazar'alor|N|Take the portal to Orgrimmar or get there by other means.|
+C The Dark Lady Calls|QID|54097|M|48.30,71.06|Z|Orgrimmar|N|Meet Sylvanas in Grommash Hold.|
+T The Dark Lady Calls|QID|54097|M|48.30,71.06|Z|Orgrimmar|N|To Sylvanas Windrunner.|
+A The High Overlord|QID|54099|M|48.30,71.06|Z|Orgrimmar|N|From Sylvanas Windrunner.|PRE|54097|
+C The High Overlord|QID|54099|M|48.30,71.06|Z|Orgrimmar|CHAT|N|Talk with Sylvanas Windrunner.|
+T The High Overlord|QID|54099|M|48.30,71.06|Z|Orgrimmar|N|To Sylvanas Windrunner.|
+A A Way Out|QID|54100|M|48.30,71.06|Z|Orgrimmar|N|From Sylvanas Windrunner.|PRE|54099|
+T A Way Out|QID|54100|M|30.54,57.66|Z|Elwynn Forest|N|Travel to Elwynn forest to meet Dark Ranger Lyana. Fastest way there is via the Stranglethron Zeppelin.|
+A On Track|QID|54101|M|30.54,57.66|Z|Elwynn Forest|N|From Dark Ranger Lyana.|PRE|54100|
+C On Track|QID|54101|M|28.78,61.51|Z|Elwynn Forest|QO|1|N|Investigate the area.|
+C On Track|QID|54101|M|28.63,61.32|Z|Elwynn Forest|QO|2|N|Inspect the Lock.|
+C On Track|QID|54101|M|33.06,64.18|Z|Elwynn Forest|QO|3|N|Click on tracks in the weeds.|
+C On Track|QID|54101|M|34.57,63.28|Z|Elwynn Forest|QO|4|N|Click on more muddy tracks.|
+C On Track|QID|54101|M|34.66,63.29|Z|Elwynn Forest|QO|5|N|Kill the 3 SI:7 Agents.|
+T On Track|QID|54101|M|34.57,63.33|Z|Elwynn Forest|N|To Dark Ranger Lyana.|
+A Eastern Escape|QID|54102|M|34.57,63.33|Z|Elwynn Forest|N|From Dark Ranger Lyana.|PRE|54101|
+T Eastern Escape|QID|54102|M|11.35,66.82|Z|Redridge Mountains|N|To Dark Ranger Lyana.|
+A Corner Crossing|QID|54103|M|11.35,66.82|Z|Redridge Mountains|N|From Dark Ranger Lyana.|PRE|54102|
+C Corner Crossing|QID|54103|M|11.35,66.82|Z|Redridge Mountains|NC|QO|1|N|Drink the Humanizing Potion|U|165638|
+C Corner Crossing|QID|54103|M|14.14,64.21|Z|Redridge Mountains|NC|QO|2|N|Talk with the Guards by approaching them.|U|165638|
+C Corner Crossing|QID|54103|M|15.63,65.33|Z|Redridge Mountains|CHAT|QO|3|N|Talk with Darcy Parker.|U|165638|
+C Corner Crossing|QID|54103|M|26.40,41.44|Z|Redridge Mountains|CHAT|QO|4|N|Talk with Innkeeper Brianna. Warning: She is quite a bit away on the other side of the river, mounting will drop your disguise so do so in a safe place.|U|165638|
+C Corner Crossing|QID|54103|M|25.86,39.73|Z|Redridge Mountains|NC|QO|5|N|Click on the paper in the room.|U|165638|
+T Corner Crossing|QID|54103|M|25.86,40.01|Z|Redridge Mountains|N|To Marion Sutton.|
+A Signs of Saurfang|QID|54104|M|25.86,40.01|Z|Redridge Mountains|N|From Marion Sutton.|PRE|54103|
+C Signs of Saurfang|QID|54104|M|24.01,68.12|Z|Redridge Mountains|NC|QO|1|N|Approach the area to investigate.|
+C Signs of Saurfang|QID|54104|M|26.36,65.72|Z|Redridge Mountains|NC|QO|2|N|Click on the Ripped webbing.|
+C Signs of Saurfang|QID|54104|M|27.98,67.50|Z|Redridge Mountains|NC|QO|3|N|Click on the Dead tarantula.|
+C Signs of Saurfang|QID|54104|M|29.10,68.29|Z|Redridge Mountains|NC|QO|4|N|Click on the Ichor.|
+C Signs of Saurfang|QID|54104|M|28.91,68.27|Z|Redridge Mountains|QO|5|N|Kill the Injured Bristlequeen.|
+T Signs of Saurfang|QID|54104|M|28.92,68.20|Z|Redridge Mountains|N|To Dark Ranger Lyana.|
+A Ever Eastward|QID|54105|M|28.92,68.20|Z|Redridge Mountains|N|From Dark Ranger Lyana.|PRE|54104|
+T Ever Eastward|QID|54105|M|80.66,47.01|Z|Redridge Mountains|N|To Dark Ranger Lyana.|
+A Tracking Tipoff|QID|54106|M|80.66,47.01|Z|Redridge Mountains|N|From Dark Ranger Lyana.|PRE|54105|
+C Tracking Tipoff|QID|54106|M|80.76,46.41|Z|Redridge Mountains|NC|QO|1|N|Drink the Humanizing Potion.|U|165638|
+C Tracking Tipoff|QID|54106|M|81.52,51.91|Z|Redridge Mountains|NC|QO|2|N|Approach Hunter McAlister to start the dialog.|
+C Tracking Tipoff|QID|54106|M|81.37,52.68|Z|Redridge Mountains|QO|3|N|Kill Hunter McAlister, dogs vanish when he dies.|
+T Tracking Tipoff|QID|54106|M|81.50,52.54|Z|Redridge Mountains|N|To Dark Ranger Lyana.|
+
+;Help Saurfang
+A Grim Tidings|QID|54107|M|81.52,52.78|Z|Redridge Mountains|N|From Zekhan if you decide to ignore your orders and help Saurfang.|PRE|54106|
+T Grim Tidings|QID|54107|M|79.78,74.73|Z|Swamp of Sorrows|N|To Zekhan.|
+A A Warrior's Death|QID|54108|M|79.78,74.73|Z|Swamp of Sorrows|N|From Zekhan.|PRE|54107|
+C A Warrior's Death|QID|54108|M|80.85,78.34|Z|Swamp of Sorrows|QO|1|N|Chat with Saurfang to let him know you stand by his side. Kill Lyana and her companions.|
+T A Warrior's Death|QID|54108|M|80.80,78.74|Z|Swamp of Sorrows|N|To Varok Saurfang.|
+A Queen's Favor|QID|54109|M|80.80,78.71|Z|Swamp of Sorrows|N|From Varok Saurfang.|PRE|54108|
+C Queen's Favor|QID|54109|M|80.80,78.68|Z|Swamp of Sorrows|CHAT|QO|1|N|Tell Saurfang you are ready to take the hit.|
+T Queen's Favor|QID|54109|M|48.34,71.14|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
+
+N Not the end|AVAILABLE|-54109|N|That's it for patch 8.1. Come back in 8.2 when the story continues.|
 ]]
 end)
 
