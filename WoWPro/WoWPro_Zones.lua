@@ -513,6 +513,8 @@ function WoWPro.ProcessMapAndKids(id, root)
     
     -- <zone>!Dungeon or <zone>!Dungeon<mapid> might work
     if map_info.mapType == Enum.UIMapType.Dungeon then
+        -- Give up the name sans Dungeon
+        unregister_name(map_info.name, id)
         nomen = map_info.name .. "!Dungeon"
         WoWPro:dbp("ProcessMapAndKids(%04d): %q => %q",id, map_info.name, nomen)
         register_name(nomen, id)
@@ -524,6 +526,8 @@ function WoWPro.ProcessMapAndKids(id, root)
 
     -- <zone>!Instance or <zone>!Instance<mapid> might work
     if map_info.mapType == Enum.UIMapType.Orphan then
+        -- Give up the name sans Instance
+        unregister_name(map_info.name, id)
         nomen = map_info.name .. "!Instance"
         WoWPro:dbp("ProcessMapAndKids(%04d): %q => %q",id, map_info.name, nomen)
         register_name(nomen, id)
