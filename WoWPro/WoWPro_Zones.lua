@@ -60,6 +60,14 @@ function WoWPro:ValidZone(zone)
 	    elseif WoWPro.LegacyZone2MapID[zone] then
 	        -- Zone is a legacy zone sans floor
 	        local mapId = WoWPro.LegacyZone2MapID[zone]["default"]
+	        if not WoWPro.MapInfo[mapId] then
+	            WoWPro:print("ValidZone: Legacy Zone [%s] with default floor is not registered.", zone)
+	            return nil
+	        end
+	        if not WoWPro.MapInfo[mapId].name then
+	            WoWPro:print("ValidZone: Legacy Zone [%s]/%d with default floor has no name!.", zone, mapId)
+	            return nil
+	        end
 	        return WoWPro.MapInfo[mapId].name, mapId
 	    elseif zone:match("/") then
 	        -- Zone is a legacy zone avec floor
