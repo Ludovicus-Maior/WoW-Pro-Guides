@@ -14,7 +14,11 @@ function WoWPro:GetPlayerZonePosition()
     if not mapID then
         return nil, nil, nil
     end
-    local x, y = C_Map.GetPlayerMapPosition(mapID, "player"):GetXY()
+    local pmp = C_Map.GetPlayerMapPosition(mapID, "player")
+    if not pmp then
+        return nil, nil, nil
+    end
+    local x, y = pmp:GetXY()
     if x and y then
         return x , y , mapID
     end
