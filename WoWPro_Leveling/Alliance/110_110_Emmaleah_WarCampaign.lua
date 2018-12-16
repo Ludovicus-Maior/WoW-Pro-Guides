@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-12-16 05:58
+-- Who: Emmaleah
+-- Log: added travel steps, minor wording changes, and moved "Outrigger Outfitters" slightly.
+
+-- URL: http://wow-pro.com/node/3760/revisions/30159/view
+-- Date: 2018-12-16 05:22
+-- Who: elidion
+-- Log: Added 8.1 Exalted rep Mission Reports (outpost upgrades)
+
+-- URL: http://wow-pro.com/node/3760/revisions/30158/view
 -- Date: 2018-12-15 09:10
 -- Who: elidion
 -- Log: Patch 8.1 questlines.
@@ -243,16 +253,6 @@
 -- Date: 2018-07-03 02:51
 -- Who: Emmaleah
 -- Log: changed guide registration to reflect this is the War Campaign Guide.
-
--- URL: http://wow-pro.com/node/3760/revisions/29359/view
--- Date: 2018-06-18 22:29
--- Who: Emmaleah
--- Log: More war campaign quests added. NOT FINISHED
-
--- URL: http://wow-pro.com/node/3760/revisions/29349/view
--- Date: 2018-06-07 18:14
--- Who: Emmaleah
--- Log: Fix J steps now that the names of the other guides are known.
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -845,15 +845,16 @@ T Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Spea
 A Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|From Vindicator Jaelaana.|
 t Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|To Vindicator Jaelaana.|
 A The Calm Before|QID|53986|M|70.71,27.07|Z|Boralus|N|From Master Mathias Shaw.|
+F Proudmoore Keep|ACTIVE|53986|M|67.0,15.0|Z|Boralus|N|At Joan Weber. Take a flight or run over to Proudmoore Keep to meet up with Jaina.|
 C The Calm Before|QID|53986|M|67.26,36.23|Z|Tiragarde Sound|CHAT|QO|1|N|Take the report to Jaina.|
 C The Calm Before|QID|53986|M|67.04,36.22|Z|Tiragarde Sound|NC|QO|2|N|Wait for the conversation to finish.|
 T The Calm Before|QID|53986|M|66.99,36.23|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
 A To Anglepoint|QID|53888|M|66.99,36.23|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|53986|
 C To Anglepoint|QID|53888|M|63.91,54.18|Z|Boralus|NC|QO|1|N|Meet Jaina at the canal by Crosswind Commons.|
-C To Anglepoint|QID|53888|M|42.14,30.35|Z|Tiragarde Sound|NC|QO|2|N|Click on the Boat, it will take you to Anglepoint Wharf.|
+C To Anglepoint|QID|53888|M|42.14,30.35|Z|Tiragarde Sound|NC|QO|2|N|Click on the Boat, it will take you to Anglepoint Wharf. It takes a few seconds after you land to complete.|
 T To Anglepoint|QID|53888|M|42.16,29.85|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
 A Stand Fast|QID|53896|M|42.16,29.85|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|53888|
-C Stand Fast|QID|53896|M|42.16,29.85|Z|Tiragarde Sound|CHAT|QO|1|N|Speak with Jaina Proudmoore|
+C Stand Fast|QID|53896|M|42.16,29.85|Z|Tiragarde Sound|CHAT|QO|1|N|Speak with Jaina Proudmoore. This step often bugs out if someone has started it just before you. Run out of the area or relog and then try again.|
 C Stand Fast|QID|53896|M|42.25,29.90|Z|Tiragarde Sound|QO|2|N|Protect Jaina Proudmoore from 3 waves of Horde.|
 T Stand Fast|QID|53896|M|42.13,29.81|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
 A Besieged Allies|QID|53909|M|42.13,29.82|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|53896|
@@ -862,27 +863,26 @@ A Squad Goals|QID|54519|M|42.13,29.88|Z|Tiragarde Sound|N|From Taelia Fordragon.
 A Zero Zeppelins|QID|54518|M|42.16,29.78|Z|Tiragarde Sound|N|From Okri Putterwrench.|PRE|53896|
 C Zero Zeppelins|QID|54518|M|41.69,29.79|Z|Tiragarde Sound|CHAT|QO|1|N|Talk with Okri to get a Jury-Rigged Hand Cannon.|
 C Zero Zeppelins|QID|54518|M|41.69,29.80|Z|Tiragarde Sound|NC|QO|2|N|Use the special action button and target the frozen Horde Bombardier.|
-C Zero Zeppelins|QID|54518|M|42.83,26.54|Z|Tiragarde Sound|NC|S|QO|3|N|Use the special action button to destroy 4 Horde Bombardiers.|
+C Zero Zeppelins|QID|54518|M|42.83,26.54|Z|Tiragarde Sound|NC|QO|3|S|N|Use the special action button to destroy 4 Horde Bombardiers.|
 C Repel the Horde!|QID|53910|M|41.83,27.38|Z|Tiragarde Sound|S|QO|1|N|Defeat Axe Throwers and Berserkers.|
-C Squad Goals|QID|54519|M|43.40,27.88|Z|Tiragarde Sound|NC|QO|1|N|Carter Riptide found.|
+C Squad Goals|QID|54519|M|43.40,27.88|Z|Tiragarde Sound|NC|QO|1|N|Click on Carter Riptide (lying on the ground).|
 C Squad Goals|QID|54519|M|43.00,27.01|Z|Tiragarde Sound|NC|QO|3|N|Tamara Barrie found.|
 C Squad Goals|QID|54519|M|42.35,26.56|Z|Tiragarde Sound|NC|QO|4|N|Edward Nash found.|
 C Squad Goals|QID|54519|M|41.84,27.37|Z|Tiragarde Sound|NC|QO|2|N|Emma Swiftwind found.|
+T Besieged Allies|QID|53909|M|41.52,27.02|Z|Tiragarde Sound|N|To Rosaline Madison.|
+A Outrigger Outfitters|QID|53916|M|41.52,27.02|Z|Tiragarde Sound|N|From Rosaline Madison.|PRE|53909|
+C Outrigger Outfitters|QID|53916|M|43.27,26.66|Z|Tiragarde Sound|NC|QO|1|N|Collect 10 Outrigger Weapons laying around the area.|
 C Repel the Horde!|QID|53910|M|41.83,27.38|Z|Tiragarde Sound|US|QO|1|N|Defeat Axe Throwers and Berserkers.|
 C Zero Zeppelins|QID|54518|M|42.83,26.54|Z|Tiragarde Sound|NC|US|QO|3|N|Use the special action button to destroy 4 Horde Bombardiers.|
-T Besieged Allies|QID|53909|M|41.52,27.02|Z|Tiragarde Sound|N|To Rosaline Madison.|
 T Repel the Horde!|QID|53910|M|41.52,27.02|Z|Tiragarde Sound|N|To Rosaline Madison.|
 T Squad Goals|QID|54519|M|41.52,27.02|Z|Tiragarde Sound|N|To Rosaline Madison.|
-A Outrigger Outfitters|QID|53916|M|41.52,27.02|Z|Tiragarde Sound|N|From Rosaline Madison.|PRE|53909|
 T Zero Zeppelins|QID|54518|M|41.53,27.08|Z|Tiragarde Sound|N|To Okri Putterwrench.|
-C Outrigger Outfitters|QID|53916|M|43.27,26.66|Z|Tiragarde Sound|NC|QO|1|N|Collect 10 Outrigger Weapons laying around the area.|
-T Outrigger Outfitters|QID|53916|M|41.52,27.03|Z|Tiragarde Sound|N|To Rosaline Madison.|
 A Gunpowder Plots|QID|53978|M|41.52,27.03|Z|Tiragarde Sound|N|From Rosaline Madison.|PRE|53916|
 A Masking For a Friend|QID|54787|M|41.52,27.03|Z|Tiragarde Sound|N|From Rosaline Madison.|PRE|53916|
 A Free Plumeria!|QID|54559|M|41.53,27.08|Z|Tiragarde Sound|N|From Okri Putterwrench.|PRE|53916&54518|
 C Gunpowder Plots|QID|53978|M|38.46,25.68|Z|Tiragarde Sound|NC|S|QO|1|N|Collect 6 Gunpowder Kegs.|
 C Masking For a Friend|QID|54787|M|38.78,25.38|Z|Tiragarde Sound|S|QO|1|N|Kill Invading Blight Specialists to collect 4 of their masks.|
-C Free Plumeria!|QID|54559|M|40.11,26.38|Z|Tiragarde Sound|QO|1|N|1/1 Maurizio Deaththrill slain|
+K Maurizio Deaththrill|ACTIVE|54559|M|40.11,26.38|Z|Tiragarde Sound|QO|1|T|Maurizio Deaththrill|N|Kill Maurizio Deaththrill.|
 C Free Plumeria!|QID|54559|M|40.22,26.15|Z|Tiragarde Sound|QO|2|N|2/2 Plumeria's Chains released|
 C Masking For a Friend|QID|54787|M|38.78,25.38|Z|Tiragarde Sound|US|QO|1|N|Kill Invading Blight Specialists to collect 4 of their masks.|
 C Gunpowder Plots|QID|53978|M|38.46,25.68|Z|Tiragarde Sound|NC|US|QO|1|N|Collect 6 Gunpowder Kegs.|
@@ -897,12 +897,13 @@ A Stopping the Sappers|QID|53936|M|37.40,24.93|Z|Tiragarde Sound|PRE|53919|
 C Stopping the Sappers|QID|53936|M|36.43,28.42|Z|Tiragarde Sound|NC|S|QO|2|N|Collect 40 Large Azerite Bombs placed around the seagate walls.|
 C Stopping the Sappers|QID|53936|M|34.45,29.89|Z|Tiragarde Sound|QO|1|N|Kill Nebbik Megafuel.|
 C Stopping the Sappers|QID|53936|M|36.43,28.42|Z|Tiragarde Sound|NC|US|QO|2|N|Collect 40 Large Azerite Bombs placed around the seagate walls.|
-C Stopping the Sappers|QID|53936|M|35.81,28.06|Z|Tiragarde Sound|NC|QO|3|N|Use Arcane Teleport Beacon|
+C Stopping the Sappers|QID|53936|M|35.81,28.06|Z|Tiragarde Sound|NC|QO|3|N|Use Arcane Teleport Beacon.|
 T Stopping the Sappers|QID|53936|M|36.26,29.81|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
 A Express Delivery|QID|54703|M|36.26,29.81|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|53936|
 C Express Delivery|QID|54703|M|36.31,29.78|Z|Tiragarde Sound|NC|QO|1|N|Click the harpoon gun and fire at the 3 Ships to mark them.|
 T Express Delivery|QID|54703|M|36.42,30.78|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
 A War Marches On|QID|53887|M|36.42,30.78|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|54703|
+H Boralus|ACTIVE|53887|M|36.42,30.78|Z|Tiragarde Sound|N|Hearth or otherwise return to Boralus and Halford Wyrmband.|
 T War Marches On|QID|53887|M|69.29,26.97|Z|Boralus|N|To Halford Wyrmbane.|
 A Sensitive Intel|QID|54192|M|69.29,27.01|Z|Boralus|N|From Halford Wyrmbane.|PRE|53887|
 C Sensitive Intel|QID|54192|M|67.94,26.70|Z|Boralus|CHAT|QO|1|N|Speak to Grand Admiral Jes-Tereth to sail to Zuldazar.|
@@ -1073,6 +1074,22 @@ A Verdant Hollow|QID|52888|M|69.29,27.02|Z|Boralus|N|From Halford Wyrmbane.|PRE|
 A Mission Report: Mistvine Ledge|QID|52962|M|70.55,27.17|Z|Boralus|PRE|53749|O|
 T Mission Report: Mistvine Ledge|QID|52962|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Mistvine Ledge|QID|52963|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|52962|
+
+; Exalted Mission Reports
+A Mission Report: Brennadam|QID|54262|M|70.51,27.20|Z|Boralus|O|
+T Mission Report: Brennadam|QID|54262|M|69.27,26.99|Z|Boralus|N|To Halford Wyrmbane.|
+A Outpost Upgrade: Brennadam|QID|54263|M|69.27,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54262|
+T Outpost Upgrade: Brennadam|QID|54263|M|58.73,69.40|Z|Stormsong Valley|N|To Hank Harrison.|
+
+A Mission Report: Arom's Stand|QID|54306|M|70.52,27.18|Z|Boralus|O|
+T Mission Report: Arom's Stand|QID|54306|M|69.26,26.99|Z|Boralus|N|To Halford Wyrmbane.|
+A Outpost Upgrade: Arom's Stand|QID|54307|M|69.26,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54306|
+T Outpost Upgrade: Arom's Stand|QID|54307|M|37.92,49.27|Z|Drustvar|N|To Cleric Loriette.|
+
+A Mission Report: Castaway Point|QID|54284|M|70.42,27.12|Z|Boralus|O|
+T Mission Report: Castaway Point|QID|54284|M|69.27,27.00|Z|Boralus|N|To Halford Wyrmbane.|
+A Outpost Upgrade: Castaway Point|QID|54288|M|69.27,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|54284|
+T Outpost Upgrade: Castaway Point|QID|54288|M|86.31,81.29|Z|Tiragarde Sound|N|To Dynamite Jack.|
 
 R Vol'dun|ACTIVE|53044|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Vol'dun or get there through other means.|
 R Vulture's Nest|ACTIVE|53044|M|53.76,37.79|Z|Vol'dun|N|Make your way to the outpost and claim it for the Alliance.|
