@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-12-16 13:38
+-- Who: Emmaleah
+-- Log: rest of the way thru the 8.1 quests
+
+-- URL: http://wow-pro.com/node/3760/revisions/30160/view
 -- Date: 2018-12-16 05:58
 -- Who: Emmaleah
 -- Log: added travel steps, minor wording changes, and moved "Outrigger Outfitters" slightly.
@@ -248,11 +253,6 @@
 -- Date: 2018-07-08 15:16
 -- Who: STrek
 -- Log: comment battle for Lordaeron out (it has been copied to Pre-patch guide)
-
--- URL: http://wow-pro.com/node/3760/revisions/29384/view
--- Date: 2018-07-03 02:51
--- Who: Emmaleah
--- Log: changed guide registration to reflect this is the War Campaign Guide.
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -905,6 +905,7 @@ T Express Delivery|QID|54703|M|36.42,30.78|Z|Tiragarde Sound|N|To Lady Jaina Pro
 A War Marches On|QID|53887|M|36.42,30.78|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|54703|
 H Boralus|ACTIVE|53887|M|36.42,30.78|Z|Tiragarde Sound|N|Hearth or otherwise return to Boralus and Halford Wyrmband.|
 T War Marches On|QID|53887|M|69.29,26.97|Z|Boralus|N|To Halford Wyrmbane.|
+
 A Sensitive Intel|QID|54192|M|69.29,27.01|Z|Boralus|N|From Halford Wyrmbane.|PRE|53887|
 C Sensitive Intel|QID|54192|M|67.94,26.70|Z|Boralus|CHAT|QO|1|N|Speak to Grand Admiral Jes-Tereth to sail to Zuldazar.|
 T Sensitive Intel|QID|54192|M|41.08,70.66|Z|Zuldazar|N|To Kelsey Steelspark.|
@@ -912,7 +913,7 @@ A This is Huge!|QID|54193|M|41.08,70.66|Z|Zuldazar|N|From Kelsey Steelspark.|PRE
 C This is Huge!|QID|54193|M|41.10,70.61|Z|Zuldazar|CHAT|QO|1|N|Listen to Megs and Morton's plan.|
 T This is Huge!|QID|54193|M|41.08,70.66|Z|Zuldazar|N|To Kelsey Steelspark.|
 A Real Big Power|QID|54194|M|41.10,70.60|Z|Zuldazar|N|From Megs.|PRE|54193|
-C Real Big Power|QID|54194|M|41.19,70.58|Z|Zuldazar|QO|1|N|Click on a nearby chicken and use the special action button to test the Embiggifier.|
+C Real Big Power|QID|54194|M|41.19,70.58|Z|Zuldazar|QO|1|NC|N|Click on a nearby chicken and use the special action button to test the Embiggifier.|
 C Real Big Power|QID|54194|M|41.19,70.58|Z|Zuldazar|QO|2|N|Kill the Kul Tiran Clucker.|
 T Real Big Power|QID|54194|M|41.10,70.60|Z|Zuldazar|N|To Megs.|
 A A Beast with Brains|QID|54195|M|41.10,70.60|Z|Zuldazar|N|From Megs.|PRE|54194|
@@ -931,9 +932,9 @@ C The Needs of the Many|QID|54199|M|41.20,70.54|Z|Zuldazar|NC|QO|1|N|Click on Gr
 T The Needs of the Many|QID|54199|M|41.07,70.61|Z|Zuldazar|N|To Morton Cogswald.|
 A Bring the Base|QID|54200|M|41.07,70.61|Z|Zuldazar|N|From Morton Cogswald.|
 C Bring the Base|QID|54200|M|41.21,70.54|Z|Zuldazar|CHAT|QO|1|N|Speak to Morton Cogswalt to let him know you're ready.|
-C Bring the Base|QID|54200|M|41.88,73.64|Z|Zuldazar|QO|2|N|Run to the marker.|
-C Bring the Base|QID|54200|M|41.88,73.64|Z|Zuldazar|QO|3|N|Speak to Grong.|
-C Bring the Base|QID|54200|M|42.54,73.82|Z|Zuldazar|QO|4|N|Kill a nearby Xibalan Ravasaur.|
+C Bring the Base|QID|54200|M|41.88,73.64|Z|Zuldazar|NC|QO|2|N|Run to the marker.|
+C Bring the Base|QID|54200|M|41.88,73.64|Z|Zuldazar|NC|QO|3|N|Use the "4" key to speak to Grong.|
+C Bring the Base|QID|54200|M|42.54,73.82|Z|Zuldazar|QO|4|N|Use the "1" key to jump to, and then "2" and "3" to kill a nearby Xibalan Ravasaur.|
 T Bring the Base|QID|54200|M|41.07,70.61|Z|Zuldazar|N|To Morton Cogswald.|
 A Fit for Grong|QID|54201|M|41.07,70.61|Z|Zuldazar|N|From Morton Cogswald.|PRE|54200|
 A Calibrate the Core|QID|54202|M|41.10,70.60|Z|Zuldazar|N|From Megs.|PRE|54200|
@@ -944,38 +945,43 @@ T Fit for Grong|QID|54201|M|41.07,70.62|Z|Zuldazar|N|To Morton Cogswald.|
 T Calibrate the Core|QID|54202|M|41.10,70.61|Z|Zuldazar|N|To Megs.|
 A The Embiggining|QID|54203|M|41.10,70.61|Z|Zuldazar|N|From Megs.|PRE|54201&54202|
 C The Embiggining|QID|54203|M|41.21,70.53|Z|Zuldazar|CHAT|QO|1|N|Speak to Megs.|
-C The Embiggining|QID|54203|M|41.21,70.53|Z|Zuldazar|NC|QO|2|N|Embiggify Grong.|
+C The Embiggining|QID|54203|M|41.21,70.53|Z|Zuldazar|NC|QO|2|N|Use the "5" key to embiggify Grong.|
 C The Embiggining|QID|54203|M|41.88,73.57|Z|Zuldazar|NC|QO|3|N|Reach the marker.|
-C The Embiggining|QID|54203|M|41.88,73.57|Z|Zuldazar|NC|QO|4|N|Speak to Grong.|
-C The Embiggining|QID|54203|M|41.91,73.60|Z|Zuldazar|NC|QO|5|N|Embiggify Grong.|
+C The Embiggining|QID|54203|M|41.88,73.57|Z|Zuldazar|NC|QO|4|N|Use the "4" key to speak to Grong.|
+C The Embiggining|QID|54203|M|41.91,73.60|Z|Zuldazar|NC|QO|5|N|Use the "5" key to embiggify Grong more.|
 T The Embiggining|QID|54203|M|41.10,70.60|Z|Zuldazar|N|To Megs.|
 A Total Temple Destruction|QID|54204|M|41.10,70.60|Z|Zuldazar|N|From Megs.|PRE|54203|
-C Total Temple Destruction|QID|54204|M|49.13,41.74|Z|Zuldazar|QO|1|N|Click on Umbric's portal.|
-C Total Temple Destruction|QID|54204|M|49.67,38.81|Z|Zuldazar|QO|2|N|Use the special action bar to destroy the Temple forces.|
+C Total Temple Destruction|QID|54204|M|49.13,41.74|Z|Zuldazar|NC|QO|1|N|Click on Umbric's portal.|
+C Total Temple Destruction|QID|54204|M|49.67,38.81|Z|Zuldazar|QO|2|N|Use the vehicle UI buttons to destroy the Temple forces.|
 T Total Temple Destruction|QID|54204|M|41.15,70.68|Z|Zuldazar|N|To Kelsey Steelspark.|
 A A Nice Nap|QID|54205|M|41.15,70.68|Z|Zuldazar|N|From Kelsey Steelspark.|
-C A Nice Nap|QID|54205|M|41.15,70.68|Z|Zuldazar|QO|1|N|Use special action button to shoot the tranquilizer dart at Grong.|
+C A Nice Nap|QID|54205|M|41.15,70.68|Z|Zuldazar|NC|T|Grong|N|Use special action button to shoot the tranquilizer dart at Grong.|
 T A Nice Nap|QID|54205|M|41.15,70.68|Z|Zuldazar|N|To Kelsey Steelspark.|
 A The Sleeper Agent|QID|54206|M|41.15,70.68|Z|Zuldazar|N|From Kelsey Steelspark.|
-T The Sleeper Agent|QID|54206|M|69.29,26.99|Z|Boralus|N|To Halford Wyrmbane.
-A The Abyssal Scepter|QID|54171|M|69.29,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54206|
+H Boralus|ACTIVE|54206|M|41.15,70.68|Z|Zuldazar|N|Use your hearthstone or otherwise return to Boralus and Halford Wyrmbane.|
+T The Sleeper Agent|QID|54206|M|69.29,26.99|Z|Boralus|N|To Halford Wyrmbane.|
+
+A The Abyssal Scepter|QID|54171|M|69.29,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54206|REP|7th Legion;2159;revered;14000|
 T The Abyssal Scepter|QID|54171|M|40.60,70.70|Z|Zuldazar|N|To Lady Jaina Proudmoore.|
 A The Treasury Heist|QID|54169|M|40.60,70.70|Z|Zuldazar|N|From Lady Jaina Proudmoore.|PRE|54171|
-C The Treasury Heist|QID|54169|M|40.60,70.70|Z|Zuldazar|CHAT|QO|1|N|1/1 Speak with Jaina Proudmoore|
-C A Simple Plan|Z|Zandalari Treasury|SO|1;1|US|N|Destroy the Golem.|
-C Traps disabled|M|37.41,80.02|Z|Zandalari Treasury!Dungeon|SO|2;1|N|Make your way through each trap and disable it at the end with the control switch to the side. Click the security door to open the next trap.|
-C Traps disabled|M|37.41,80.02|Z|Zandalari Treasury!Dungeon|SO|2;2|N|Make your way to the end of the hall.|
-C Take the Shortcut.|M|42.17,66.09|Z|Zandalari Treasury!Dungeon|SO|3;1|N|Head towards the central chamber.|
-C Nevermind|M|42.14,76.11|Z|Zandalari Treasury!Dungeon|SO|4;1|N|Return to outer hallway.|
-C The Bigger They Are...|M|41.62,85.87|Z|Zandalari Treasury!Dungeon|SO|5;1|N|Treasury Sentinel defeated.|
-C The Search Continues|M|59.59,82.00|Z|Zandalari Treasury!Dungeon|SO|6;1|N|Traps again, slightly more difficult this time.|
-C Masking For Trouble|M|62.56,81.05|Z|Zandalari Treasury!Dungeon|SO|7;1|N|Kill the 5 spirits in the next room.|
-C More Traps? Seriously?|M|61.27,58.59|Z|Zandalari Treasury!Dungeon|SO|8;1|N|Disable the gauntlet.|
-C Protection Detail|M|63.45,53.32|Z|Zandalari Treasury!Dungeon|SO|9;1|N|Chat with Shaw and defeat 3 waves of enemies.|
-C Make the Swap|M|61.99,52.32|Z|Zandalari Treasury!Dungeon|CHAT|SO|10;1|N|Speak with Mathias Shaw|
+C The Treasury Heist|QID|54169|M|40.60,70.70|Z|Zuldazar|CHAT|QO|1|N|Speak with Jaina Proudmoore and then click on the void portal when it appears to enter the scenario.|
+C A Simple Plan|ACTIVE|54169|Z|Zandalari Treasury|SO|1;1|US|N|Destroy the Golem.|
+C Traps disabled|ACTIVE|54169|M|37.41,80.02|Z|Zandalari Treasury!Dungeon|SO|2;1|N|Make your way through each trap and disable it at the end with the control switch (highlighted) to the side. Click the security gate to open the next trap.|
+C Traps disabled|ACTIVE|54169|M|37.41,80.02|Z|Zandalari Treasury!Dungeon|SO|2;2|N|Make your way to the end of the hall.|
+C Take the Shortcut|ACTIVE|54169|M|42.17,66.09|Z|Zandalari Treasury!Dungeon|SO|3;1|N|Head towards the central chamber.|
+C Nevermind|ACTIVE|54169|M|42.14,76.11|Z|Zandalari Treasury!Dungeon|SO|4;1|N|Return to outer hallway.|
+C The Bigger They Are...|ACTIVE|54169|M|41.62,85.87|Z|Zandalari Treasury!Dungeon|SO|5;1|N|Treasury Sentinel defeated.|
+C The Search Continues|ACTIVE|54169|M|59.59,82.00|Z|Zandalari Treasury!Dungeon|SO|6;1|N|Traps again, slightly more difficult this time.|
+C Masking For Trouble|ACTIVE|54169|M|62.56,81.05|Z|Zandalari Treasury!Dungeon|ACTIVE|54169|SO|7;1|N|Kill the 5 spirits in the next room.|
+C More Traps? Seriously?|ACTIVE|54169|M|61.27,58.59|Z|Zandalari Treasury!Dungeon|SO|8;1|N|Disable the gauntlet.|
+C Protection Detail|ACTIVE|54169|M|63.45,53.32|Z|Zandalari Treasury!Dungeon|SO|9;1|N|Chat with Shaw and then defeat 3 waves of enemies.|
+C Make the Swap|ACTIVE|54169|M|61.99,52.32|Z|Zandalari Treasury!Dungeon|CHAT|SO|10;1|N|Speak with Mathias Shaw.|
 T The Treasury Heist|QID|54169|M|40.56,70.70|Z|Zuldazar|N|To Lady Jaina Proudmoore.|
 A Mischief Managed|QID|54510|M|40.56,70.70|Z|Zuldazar|N|From Lady Jaina Proudmoore.|PRE|54169|
+H Boralus|ACTIVE|54510|M|40.56,70.70|Z|Zuldazar|N|Hearth or otherwise make your way back to Boralus and Halford Wyrmbane.|
 T Mischief Managed|QID|54510|M|69.30,27.00|Z|Boralus|N|To Halford Wyrmbane.|
+
+N That's all for now|QID|54459|N|He Who Walks the Night quest arc will reportedly become available 1/22/19. Check this off manually.|
 
 ; Darkshore pre-warfront questline.
 A On Whispered Winds|QID|53847|M|70.12,16.79|Z|Boralus|N|From Dori'thur.|
@@ -984,46 +990,46 @@ A Waning Hope|QID|53849|M|86.63,35.73|Z|Stormwind City|N|From Maiev Shadowsong.|
 C Waning Hope|QID|53849|M|86.54,36.49|Z|Stormwind City|CHAT|QO|1|N|Speak to Prophet Velen.|
 T Waning Hope|QID|53849|M|86.63,35.74|Z|Stormwind City|N|To Maiev Shadowsong.|
 A Shores of Fate|QID|53988|M|86.63,35.74|Z|Stormwind City|N|From Maiev Shadowsong.|PRE|53849|
-C Shores of Fate|QID|53988|M|12.53,17.76|Z|Ashenvale|QO|1|N|Travel to Zoram Strand.|
+C Shores of Fate|QID|53988|M|12.53,17.76|Z|Ashenvale|QO|1|NC|N|Travel to Zoram Strand.|
 T Shores of Fate|QID|53988|M|11.50,17.72|Z|Ashenvale|N|To Maiev Shadowsong.|
 A Hope|QID|53989|M|11.55,17.68|Z|Ashenvale|N|From Shandris Feathermoon.|PRE|53988|
 A No Survivors|QID|54041|M|11.47,17.80|Z|Ashenvale|N|From Sira Moonwarden.|PRE|53988|
 C No Survivors|QID|54041|M|10.05,15.81|Z|Ashenvale|S|QO|1|N|Kill 8 Veiled Deathstalker slain. Use special action  button to help reveal them and gain crit bonuses.|
-C Hope|QID|53989|M|12.06,15.38|Z|Ashenvale|QO|1|N|Pick up Elun'tara, Bow of the High Priestess.|
-C Hope|QID|53989|M|11.26,13.61|Z|Ashenvale|QO|2|N|Grab the Discarded Nightsaber Bridle.|
-C Hope|QID|53989|M|9.87,13.92|Z|Ashenvale|QO|3|N|Collect the Ancient Kaldorei Tome.|
+C Hope|QID|53989|M|12.06,15.38|Z|Ashenvale|NC|QO|1|N|Pick up Elun'tara, Bow of the High Priestess.|
+C Hope|QID|53989|M|11.26,13.61|Z|Ashenvale|NC|QO|2|N|Grab the Discarded Nightsaber Bridle.|
+C Hope|QID|53989|M|9.87,13.92|Z|Ashenvale|NC|QO|3|N|Collect the Ancient Kaldorei Tome.|
 C No Survivors|QID|54041|M|10.05,15.81|Z|Ashenvale|US|QO|1|N|Kill 8 Veiled Deathstalker slain. Use special action  button to help reveal them and gain crit bonuses.|
 T No Survivors|QID|54041|M|11.47,17.81|Z|Ashenvale|N|To Sira Moonwarden.|
 T Hope|QID|53989|M|11.55,17.69|Z|Ashenvale|N|To Shandris Feathermoon.|
 A In Darkest Night|QID|53990|M|11.50,17.73|Z|Ashenvale|N|From Maiev Shadowsong.|PRE|54041&53989|
 C In Darkest Night|QID|53990|M|11.50,17.74|Z|Ashenvale|CHAT|QO|1|N|Talk with Maiev to travel to Darkshore and begin a scenerio.|
-C In Teldrassil's Wake|Z|Darkshore|SO|1;1|N|Click on the rope on the side of the ship to take the rowboat.|
-C Elune's Gaze|M|38.04,71.16|Z|Darkshore!Instance1338|SO|2;1|N|Search the town square.|
-C Elune's Gaze|M|35.18,66.04|Z|Darkshore!Instance1338|SO|2;2|N|Search the hunter's hall.|
-C Cornered!|M|35.51,66.72|Z|Darkshore!Instance1338|SO|3;1|N|Defeat Bilegut.|
-C Cornered!|M|34.88,66.06|Z|Darkshore!Instance1338|SO|3;2|N|Stand back and stay out of the blight.|
-C A Cry for Help|M|38.13,66.05|Z|Darkshore!Instance1338|SO|4;1|N|Run to the fallen night elf.|
-C Rescue the prisoners|M|41.76,68.79|Z|Darkshore!Instance1338|S|SO|5;1|N|Rescue the prisoners|
-C No Elf Left Behind|M|42.91,66.98|Z|Darkshore!Instance1338|SO|5;2|N|Save Ash'alah.|
-C Rescue the prisoners|M|41.76,68.79|Z|Darkshore!Instance1338|US|SO|5;1|N|Rescue the prisoners.|
-C Closing in|M|42.89,66.88|Z|Darkshore!Instance1338|US|SO|6;1|N|Click on Ash'alah to get a ride.|
-C Defend Bashal'Aran|M|52.81,56.03|Z|Darkshore!Instance1338|SO|7;2|N|Defeat 3 waves of horde from the west, north and east.|
-C Return to Tyrande|M|51.58,57.91|Z|Darkshore!Instance1338|SO|8;1|N|Return to Tyrande.|
-C Return to Tyrande|M|51.58,57.91|Z|Darkshore!Instance1338|NC|SO|8;2|N|Click on the eye of Elune.|
-C Speak to Tyrande|M|51.62,58.03|Z|Darkshore!Instance1338|SO|9;1|N|Speak to Tyrande|
-C Hunt down Nathanos Blightcaller|M|49.39,34.99|Z|Darkshore!Instance1338|SO|9;2|N|Hunt down Nathanos Blightcaller|
-C Nowhere to Hide|M|47.97,24.23|Z|Darkshore!Instance1338|SO|10;1|N|Find Nathanos Blightcaller|
-C The Queen's Pawn|M|47.98,24.18|Z|Darkshore!Instance1338|SO|11;1|N|Speak to Tyrande|
-C The Queen's Pawn|M|48.31,21.23|Z|Darkshore!Instance1338|SO|11;2|N|Confront Nathanos and defeat his party, then take out Brynja.|
-C Eyes of the Forest|M|47.21,21.60|Z|Darkshore!Instance1338|SO|12;1|N|Click on the Skytalon to fly back to the ship.|
-C Eyes of the Forest|M|19.47,73.26|Z|Darkshore!Instance1338|CHAT|SO|12;2|N|Scout the Horde army with Dori'thur.|
+C In Teldrassil's Wake|ACTIVE|53990|M|19.41,71.29|Z|Darkshore|SO|1|NC|N|Click on the rope on the side of the ship to take the rowboat.|
+C Elune's Gaze|ACTIVE|53990|M|38.04,71.16|Z|Darkshore!Instance1338|SO|2;1|NC|N|Find and destroy the Horde Blight Thrower (click on it).|
+C Elune's Gaze|ACTIVE|53990|M|35.18,66.04|Z|Darkshore!Instance1338|SO|2;2|NC|N|Click on the Seat of the Goddess in what's left of the Hunters Hall.|
+C Cornered!|ACTIVE|53990|M|35.51,66.72|Z|Darkshore!Instance1338|SO|3;1|N|Defeat Bilegut.|
+C Cornered!|ACTIVE|53990|M|34.88,66.06|Z|Darkshore!Instance1338|SO|3;2|NC|N|Stand back and stay out of the blight.|
+C A Cry for Help|ACTIVE|53990|M|38.13,66.05|Z|Darkshore!Instance1338|SO|4;1|NC|N|Run to the fallen night elf.|
+C Rescue the prisoners|ACTIVE|53990|M|41.76,68.79|Z|Darkshore!Instance1338|S|SO|5;1|NC|N|Rescue the prisoners|
+C No Elf Left Behind|ACTIVE|53990|M|42.91,66.98|Z|Darkshore!Instance1338|SO|5;2|N|Kill the Mag'har Beastlord's surrounding her, then click on Ash'alah.|
+C Rescue the prisoners|ACTIVE|53990|M|41.76,68.79|Z|Darkshore!Instance1338|US|SO|5;1|NC|N|Finish rescuing the prisoners.|
+C Closing in|ACTIVE|53990|M|42.89,66.88|Z|Darkshore!Instance1338|US|SO|6;1|NC|N|Click on Ash'alah to get a ride.|
+C Defend Bashal'Aran|ACTIVE|53990|M|52.81,56.03|Z|Darkshore!Instance1338|SO|7;2|N|Defeat 3 waves of horde from the west, north and east.|
+C Return to Tyrande|ACTIVE|53990|M|51.58,57.91|Z|Darkshore!Instance1338|SO|8;1|NC|N|Return to Tyrande.|
+C Return to Tyrande|ACTIVE|53990|M|51.58,57.91|Z|Darkshore!Instance1338|NC|SO|8;2|NC|N|Click on the eye of Elune.|
+C Speak to Tyrande|ACTIVE|53990|M|51.62,58.03|Z|Darkshore!Instance1338|SO|9;1|CHAT|N|Speak to Tyrande.|
+C Hunt down Nathanos Blightcaller|ACTIVE|53990|M|49.39,34.99|Z|Darkshore!Instance1338|SO|9;2|NC|N|Follow Tyrande.|
+C Nowhere to Hide|ACTIVE|53990|M|47.97,24.23|Z|Darkshore!Instance1338|SO|10;1|NC|N|After the talking ends, follow Tyrande further to actually find Nathanos Blightcaller.|
+C The Queen's Pawn|ACTIVE|53990|M|47.98,24.18|Z|Darkshore!Instance1338|SO|11;1|CHAT|N|Speak to Tyrande|
+C The Queen's Pawn|ACTIVE|53990|M|48.31,21.23|Z|Darkshore!Instance1338|SO|11;2|N|Confront Nathanos and defeat his party, then take out Brynja.|
+C Eyes of the Forest|ACTIVE|53990|M|47.21,21.60|Z|Darkshore!Instance1338|SO|12;1|NC|N|Click on the Skytalon to fly back to the ship.|
+C Eyes of the Forest|ACTIVE|53990|M|19.47,73.26|Z|Darkshore!Instance1338|CHAT|SO|12;2|N|Scout the Horde army with Dori'thur.|
 T In Darkest Night|QID|53990|M|69.54,26.84|Z|Boralus|N|To Shandris Feathermoon.|
 A We Are Coming|QID|54871|M|69.54,26.84|Z|Boralus|N|From Shandris Feathermoon.|PRE|53990|
 T We Are Coming|QID|54871|M|65.89,26.05|Z|Boralus|N|To Ralston Karn.|
 ; Darkshore Warfront
 A Warfront: The Battle for Darkshore|QID|53992|M|65.89,26.05|Z|Boralus|N|From Ralston Karn.|
 C Warfront: The Battle for Darkshore|QID|53992|M|66.05,25.99|Z|Boralus|NC|QO|1|N|View the War Table in Boralus|
-A The War Chest|QID|53977|M|51.05,56.75|Z|Darkshore!Instance1203|N|From Thisalee Crow.|
+A The War Chest|QID|53977|M|51.05,56.75|Z|Darkshore!Instance1203|N|From Thisalee Crow.|ILVL|320|
 C The War Chest|QID|53977|M|51.40,57.90|Z|Darkshore!Instance1203|NC|QO|1|N|Goto the War Chest and collect resources.|
 T The War Chest|QID|53977|M|51.06,56.75|Z|Darkshore!Instance1203|N|To Thisalee Crow.|
 A Iron in Hand|QID|53976|M|51.06,56.75|Z|Darkshore!Instance1203|N|From Thisalee Crow.|PRE|53977|
