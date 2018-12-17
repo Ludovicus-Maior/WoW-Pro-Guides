@@ -4,6 +4,7 @@
 	<Script file="Emmaleah_LostFound.lua"/>
 	<Script file="Emmaleah_Lorewalkers.lua"/>
 	<Script file="Emmaleah_Hippogryph.lua"/>
+	<Script file="Elidion_Hivemind.lua"/>
 	<Script file="Est_Glorious.lua"/>
 	<Script file="Est_HigherLearning.lua"/>
 	<Script file="Est_UnbornValkyr.lua"/>
