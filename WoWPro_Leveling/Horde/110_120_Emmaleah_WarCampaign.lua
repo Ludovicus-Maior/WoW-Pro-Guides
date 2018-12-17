@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-12-17 10:51
+-- Who: Emmaleah
+-- Log: The rest of the 8.1 quest lines, except for the new missions are still needed.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30162/view
+-- Date: 2018-12-17 01:46
+-- Who: Emmaleah
+-- Log: Darkshore and first part of tides of vengeance
+
+-- URL: http://wow-pro.com/node/3761/revisions/30154/view
 -- Date: 2018-12-05 06:06
 -- Who: elidion
 -- Log: Added first couple lines of 8.1 War campaign.
@@ -241,11 +251,6 @@
 -- Date: 2018-05-12 17:55
 -- Who: Ludovicus_Maior
 -- Log: Use a real nil in GuideNextGuide()
-
--- URL: http://wow-pro.com/node/3761/revisions/29274/view
--- Date: 2018-05-08 21:54
--- Who: Emmaleah
--- Log: First Draft.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -775,10 +780,168 @@ T A Cycle of Hatred|QID|53003|M|48.39,71.16|Z|Orgrimmar|N|To Sylvanas Windrunner
 P Dazar'alor|AVAILABLE|54097|M|47.51,60.06|Z|Orgrimmar|N|Use the portal or otherwise return to Zandalar|PRE|53003|
 
 ; 8.1 Quests
-A Our War Continues|QID|53850|M|48.34,71.13|Z|Orgrimmar|N|From Lady Sylvanas Windrunner.|
-C Our War Continues|QID|53850|M|58.44,62.55|Z|Zuldazar|QO|1|N|Speak with Sylvanas Windrunner in Zuldazar|
-T Our War Continues|QID|53850|M|58.44,62.68|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Azerite Denied|QID|53852|M|58.44,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53850|
+
+A Trouble in Darkshore|QID|54042|M|52.98,94.33|Z|Dazar'alor|LVL|120|N|From Dark Ranger Velonara.|PRE|53003|
+A Our War Continues|QID|53851|M|58.44,62.67|Z|Zuldazar|LVL|120|N|From Nathanos Blightcaller.|PRE|53003|
+C Our War Continues|QID|53851|M|58.44,62.45|Z|Zuldazar|QO|1|CHAT|N|Speak with Sylvanas Windrunner|
+T Our War Continues|QID|53851|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Azerite Denied|QID|53852|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53851|
+C Talk to Dread-Admiral Tattersail|QID|53852^54042|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound or Darkshore, which ever quesst you want to do first.|
+
+; Darkshore
+T Trouble in Darkshore|QID|54042|M|53.62,20.41|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
+A Black Moon Rising|QID|54044|M|53.62,20.41|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54042|
+A Dark Ranger Round-Up|QID|54043|M|53.62,20.41|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54042|
+A Quit Vining!|QID|54045|M|54.70,21.99|Z|Darkshore#1333|N|From Shredmaster Blix.|PRE|54042|
+C Dark Ranger Round-Up|QID|54043|M|53.69,29.69|Z|Darkshore#1333|S|NC|N|Use your extra action button to target a night elf corpse.|
+C Quit Vining!|QID|54045|M|53.69,29.69|Z|Darkshore#1333|S|NC|N|Free Goblin Harvesters.|
+K Lieutenant Golras|ACTIVE|54044|M|56.42,35.21|Z|Darkshore#1333|QO|1|T|Lieutenant Golras|N|Kill Lieutenant Golras.|
+K Lieutenant Maliyra|ACTIVE|54044|M|47.00,42.21|Z|Darkshore#1333|QO|3|T|Lieutenant Maliyra|N|Kill Lieutenant Maliyra.|
+K Lieutenant Ivyth|ACTIVE|54044|M|46.06,27.38|Z|Darkshore#1333|QO|2|T|Lieutenant Ivyth|N|Kill Lieutenant Ivyth.|
+T Black Moon Rising|QID|54044|M|46.06,27.38|Z|Darkshore#1333|N|To Lost Wisp.|
+A We're Not Out of the Woods Yet|QID|54046|M|46.06,27.38|Z|Darkshore#1333|N|From Lost Wisp.|PRE|54044|
+C Quit Vining!|QID|54045|M|48.57,27.65|Z|Darkshore#1333|US|NC|N|Finish freeing Goblin Harvesters.|
+C Dark Ranger Round-Up|QID|54043|M|48.57,27.65|Z|Darkshore#1333|US|NC|N|Finish raising the Dark Rangers.|
+T Quit Vining!|QID|54045|M|54.70,21.99|Z|Darkshore#1333|N|To Shredmaster Blix.|
+C We're Not Out of the Woods Yet|QID|54046|M|53.62,20.41|Z|Darkshore#1333|NC|N|Bring Lost Wisp to Nathanos.|
+T We're Not Out of the Woods Yet|QID|54046|M|53.62,20.41|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
+T Dark Ranger Round-Up|QID|54043|M|53.62,20.41|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
+A The Night Warrior|QID|54059|M|53.62,20.41|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54043&54045&54046|
+C The Night Warrior|QID|54059|M|53.50,21.33|Z|Darkshore#1333|QO|1|CHAT|T|Lost Wisp|N|Click on the Lost Wisp to see it's memory.|
+T The Night Warrior|QID|54059|M|53.62,20.41|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
+A Where Hope Dies|QID|54047|M|53.63,20.40|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54059|
+C Where Hope Dies|QID|54047|M|47.48,20.59|Z|Darkshore#1333|QO|1|NC|N|Use your extra action button to signal Nathanos at Delaryn's Corpse.|
+C Where Hope Dies|QID|54047|M|47.75,21.04|Z|Darkshore#1333|QO|2|T|Sira Moonwarden|N|Defeat Sira Moonwarden.|
+C Where Hope Dies|QID|54047|M|47.75,21.04|Z|Darkshore#1333|QO|3|CHAT|N|Click on Sira and decide her fate.|
+T Where Hope Dies|QID|54047|M|47.87,21.24|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
+A The Dead of Night|QID|54049|M|47.87,21.24|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54047|
+C The Dead of Night|QID|54049|M|47.87,21.24|Z|Darkshore#1333|QO|1|CHAT|N|Speak to Nathanos when ready.|
+C The Dead of Night|QID|54049|M|47.91,21.55|Z|Darkshore#1333|QO|2|N|Val'kyr Ritual survived.|
+T The Dead of Night|QID|54049|M|54.63,20.83|Z|Darkshore#1333|N|To Sira Moonwarden.|
+A Aftermath|QID|54050|M|54.63,20.83|Z|Darkshore#1333|N|From Sira Moonwarden.|PRE|54049|
+C Aftermath|QID|54050|M|51.74,21.63|Z|Darkshore#1333|QO|1|CHAT|N|Speak to Nathanos.|
+T Aftermath|QID|54050|M|51.74,21.64|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
+A Warfront Preparations|QID|54416|M|51.74,21.64|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54050|
+P Warfront Preparations|ACTIVE|54416|M|52.71,21.26|QO|1|N|Take the portal provided or otherwise return to the Port of Zandalar.|
+T Warfront Preparations|QID|54416|M|52.92,94.52|Z|Dazar'alor|N|To Throk.|
+N War Table|M|52.92,94.52|Z|Dazar'alor|N|Check the table beside Throk to determine if Horde is on Patrol Status or Siege Status and then if siege, queue for the warfront if available, if patrol status you can click on the nearby portal to go kill Darkshore rares if desired.|
+
+; The Day is Won
+C Talk to Dread-Admiral Tattersail|QID|53852&54042|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound or Darkshore, which ever quesst you want to do first.|
+F Mudfisher Cove|ACTIVE|53852|M|87.27,50.66|Z|Tiragarde Sound|N|Nearest flight point to Rexxar's location is Mudfisher Cove.|FLY|BFA|
+R Westwind Weald|ACTIVE|53852|M|45.34,30.71;45.92,27.89;43.88,23.65|CS|N|Cross the river and run up the hill to find Rexxar overlooking a waterfall.|FLY|BFA|
+T Azerite Denied|QID|53852|M|47.51,21.79|Z|Tiragarde Sound|N|To Rexxar.|
+A The Fury of the Horde|QID|53856|M|47.51,21.79|Z|Tiragarde Sound|N|From Rexxar.|PRE|53852|
+C The Fury of the Horde|QID|53856|M|47.51,21.79|Z|Tiragarde Sound|CHAT|N|Tell Rexxar to deploy the Horde army.|
+T The Fury of the Horde|QID|53856|M|48.93,25.01|Z|Tiragarde Sound|N|To Rexxar.|
+A Cleaning Out the Estate|QID|53879|M|48.93,25.01|Z|Tiragarde Sound|N|From Rexxar.|PRE|53856|
+A Machines of War and Azerite|QID|53880|M|48.88,25.03|Z|Tiragarde Sound|N|From Thomas Zelling.|PRE|53856|
+C Cleaning Out the Estate|QID|53879|M|51.32,28.41|Z|Tiragarde Sound|S|N|Disrupt the Estate defenders.|
+C Machines of War and Azerite|QID|53880|M|51.16,27.91|Z|Tiragarde Sound|NC|N|Pick up the boxes and chests as you disrupt the defenders.|
+C Cleaning Out the Estate|QID|53879|M|51.32,28.41|Z|Tiragarde Sound|N|Finish causing disruption.|
+T Machines of War and Azerite|QID|53880|M|51.32,28.43|Z|Tiragarde Sound|N|To Thomas Zelling.|
+T Cleaning Out the Estate|QID|53879|M|51.32,28.43|Z|Tiragarde Sound|N|To Rexxar.|
+A With Honor|QID|53913|M|51.32,28.43|Z|Tiragarde Sound|N|From Rexxar.|PRE|53879&53880|
+C With Honor|QID|53913|M|51.32,28.43|Z|Tiragarde Sound|QO|1|CHAT|N|Speak with Rexxar to face Lieutenant Cole|
+C With Honor|QID|53913|M|50.86,26.60|Z|Tiragarde Sound|QO|2|N|Defeat the Azerite War Machine and then Lieutenant Cole.|
+T With Honor|QID|53913|M|50.83,26.55|Z|Tiragarde Sound|N|To Rexxar.|
+A The Hunt Never Ends|QID|53912|M|50.83,26.55|Z|Tiragarde Sound|N|From Rexxar.|PRE|53913|
+C The Hunt Never Ends|QID|53912|M|52.99,30.46|Z|Tiragarde Sound|NC|N|Approach Norwington manor|
+T The Hunt Never Ends|QID|53912|M|53.04,30.51|Z|Tiragarde Sound|N|To Rexxar.|
+A Ride Out to Meet Them|QID|53973|M|53.04,30.51|Z|Tiragarde Sound|N|From Rexxar.|PRE|53912|
+C Ride Out to Meet Them|QID|53973|M|53.04,30.32|Z|Tiragarde Sound|QO|1|NC|N|Hop on the Goblin gyrocopter.|
+C Ride Out to Meet Them|QID|53973|M|50.22,27.05|Z|Tiragarde Sound|QO|2|N|Use the Gyrocopter's UI Abilities to defeat the Alliance army.|
+T Ride Out to Meet Them|QID|53973|M|47.41,21.82|Z|Tiragarde Sound|N|To Rexxar.|
+A The Day is Won|QID|53981|M|47.41,21.82|Z|Tiragarde Sound|N|From Rexxar.|PRE|53973|
+H Zuldazar|ACTIVE|53981|M|47.41,21.82|Z|Tiragarde Sound|N|Hearth or otherwise return to The Banshee's Wail in the Port of Zandalar.|
+T The Day is Won|QID|53981|Z|Zuldazar|N|To Nathanos Blightcaller.|
+
+; mekkatorque's battle plans
+A A Mech for a Goblin|QID|53941|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53981|
+F Xibala|ACTIVE|53941|M|52.10,90.16|Z|Dazar'alor|N|Xibala is as close as you can fly, then you have to run the rest of the way.|
+T A Mech for a Goblin|QID|53941|M|36.30,72.02|Z|Zuldazar|N|To Trade Prince Gallywix.|
+A It Belongs in My Mech!|QID|54123|M|36.30,72.02|Z|Zuldazar|N|From Trade Prince Gallywix.|PRE|53941|
+A Avoiding Lawsuits 101|QID|54124|M|36.25,72.03|Z|Zuldazar|N|From Patch.|PRE|53941|
+C It Belongs in My Mech!|QID|54123|M|35.63,69.54|Z|Zuldazar|S|U|166309|NC|N|Target the mucks and use the vacuumizer on living mobs.|
+C Avoiding Lawsuits 101|QID|54124|M|34.13,69.77|Z|Zuldazar|NC|N|Uninsured Goblin Worker healed.|
+C It Belongs in My Mech!|QID|54123|M|35.63,69.54|Z|Zuldazar|US|U|166309|NC|N|Finish fueling up the azerite pack by using the vacuumizer on the groups of azerite mucks.|
+T Avoiding Lawsuits 101|QID|54124|M|36.25,72.02|Z|Zuldazar|N|To Patch.|
+T It Belongs in My Mech!|QID|54123|M|36.31,72.02|Z|Zuldazar|N|To Trade Prince Gallywix.|
+A The Right Mech for the Job|QID|53942|M|36.31,72.02|Z|Zuldazar|N|From Trade Prince Gallywix.|PRE|54123&53124|
+C The Right Mech for the Job|QID|53942|M|36.30,72.13|Z|Zuldazar|QO|1|NC|N|Hop in the G.M.O.D for a ride to Drustvar.|
+C The Right Mech for the Job|QID|53942|M|37.61,25.04|Z|Drustvar|QO|2|N|Use the G.M.O.D.'s abilities to eliminate mechs within Krazzlefrazz Outpost. When you kill the required number, move out of Krazzlefraz for the next stage.|
+C The Right Mech for the Job|QID|53942|M|40.38,37.81|Z|Drustvar|QO|3|N|Use the G.M.O.D.'s abilities to repel mech army within Arom's Crossing.|
+T The Right Mech for the Job|QID|53942|M|37.16,25.86|Z|Drustvar|N|To Professor Krazzlefrazz.|
+A Necessary Precautions|QID|54128|M|37.32,25.99|Z|Drustvar|N|From G.M.O.D.|PRE|53942|
+C Necessary Precautions|QID|54128|M|37.32,25.99|Z|Drustvar|NC|N|G.M.O.D reviewed.|
+T Necessary Precautions|QID|54128|M|37.32,25.99|Z|Drustvar|N|To G.M.O.D.|
+A Test Case #1; Mech vs. Mekkatorque|QID|54004|M|37.32,25.99|Z|Drustvar|N|From G.M.O.D.|PRE|54128|
+C Test Case #1; Mech vs. Mekkatorque|QID|54004|M|75.99,55.99|Z|Drustvar|NC|N|Ride G.M.O.D to face Mekkatorque.|
+T Test Case #1; Mech vs. Mekkatorque|QID|54004|M|54.60,64.58|Z|Tiragarde Sound|N|To Trade Prince Gallywix.|
+A Insurance Policy|QID|54007|M|54.60,64.58|Z|Tiragarde Sound|N|From Trade Prince Gallywix.|PRE|54004|
+C Insurance Policy|QID|54007|M|54.62,64.47|Z|Tiragarde Sound|NC|QO|1|N|Click on the G.M.O.D to call for roadside assistance.|
+C Insurance Policy|QID|54007|M|54.62,64.45|Z|Tiragarde Sound|NC|QO|2|N|Click on the G.M.O.D to calli for roadside assistance again.|
+C Insurance Policy|QID|54007|M|54.65,64.41|Z|Tiragarde Sound|NC|QO|3|N|Keep pushing buttons until something happens.|
+T Insurance Policy|QID|54007|M|54.60,64.59|Z|Tiragarde Sound|N|To Trade Prince Gallywix.|
+A Insurance Renewal|QID|54008|M|54.60,64.59|Z|Tiragarde Sound|N|From Trade Prince Gallywix.|PRE|54007|
+A Killing on the Side|QID|54009|M|54.60,64.59|Z|Tiragarde Sound|N|From Trade Prince Gallywix.|PRE|54007|
+C Killing on the Side|QID|54009|M|59.04,61.76|Z|Tiragarde Sound|S|N|Kill Alliance and Kul Tiran forces as you find the team to rescue.|
+C Insurance Renewal|QID|54008|M|56.18,64.49|Z|Tiragarde Sound|QO|1|N|Rescue Fizzle.|
+C Insurance Renewal|QID|54008|M|57.07,62.88|Z|Tiragarde Sound|QO|3|N|Rescue Scowler Scampy.|
+C Insurance Renewal|QID|54008|M|58.27,60.63|Z|Tiragarde Sound|QO|2|N|Rescue Puggi Blasthops.|
+A Mekkatorque's Battle Plans|QID|54022|M|56.99,62.92|Z|Tiragarde Sound|N|From Alliance battle plans dropped somewhere along the way.|PRE|54007|
+C Killing on the Side|QID|54009|M|59.04,61.76|Z|Tiragarde Sound|US|N|Finish up the needed Alliance and Kul Tiran forces.|
+C Mekkatorque's Battle Plans|QID|54022|M|59.12,61.80|Z|Tiragarde Sound|NC|N|Pick up Mekkatorque's Battle Plans from inside his tent.|
+T Insurance Renewal|QID|54008|M|54.60,64.59|Z|Tiragarde Sound|N|To Trade Prince Gallywix.|
+T Killing on the Side|QID|54009|M|54.60,64.59|Z|Tiragarde Sound|N|To Trade Prince Gallywix.|
+T Mekkatorque's Battle Plans|QID|54022|M|54.60,64.59|Z|Tiragarde Sound|N|To Trade Prince Gallywix.|
+A Mech versus Airship|QID|54028|M|54.60,64.59|Z|Tiragarde Sound|N|From Trade Prince Gallywix.|PRE|54008&54009&54022|
+C Mech versus Airship|QID|54028|M|54.60,64.59|Z|Tiragarde Sound|QO|1|NC|N|Board G.M.O.D.|
+C Mech versus Airship|QID|54028|M|54.54,64.58|Z|Tiragarde Sound|QO|2|N|Use the "1" key to wreck the Alliance Airship.|
+C Mech versus Airship|QID|54028|M|68.04,84.09|Z|Tiragarde Sound|QO|3|CHAT|N|Speak with Gallywix to sound the SOS.|
+C Mech versus Airship|QID|54028|M|67.91,84.21|Z|Tiragarde Sound|QO|4|N|Confront Mekkatorque.|
+T Mech versus Airship|QID|54028|M|87.65,53.48|Z|Tiragarde Sound|N|To G.M.O.D.|
+A A Goblin's Definition of Success|QID|54094|M|87.65,53.48|Z|Tiragarde Sound|N|From G.M.O.D.|PRE|54028|
+R Port of Zuldazar|ACTIVE|54094|M|87.85,51.17|Z|Tiragarde Sound|CHAT|N|Ask Erul Dawnbrook for a ride or otherwise return to Zuldazar and the Banshee's Wail.|
+T Horde War Effort|QID|50606|Z|Zuldazar|N|To Nathanos Blightcaller.|
+
+; Through the front door
+A Breaking Out Ashvane|QID|54121|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|50606|REP|The Honorbound;2157;revered;14000|
+C Breaking Out Ashvane|QID|54121|Z|Zuldazar|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound (Optional).|
+R Ashvane Foundry|QID|54121|M|54.78,50.75;86.93,51.72;83.25,49.74|Z|Tiragarde Sound|CS|N|Up the hill and over to the Ashvane Foundry to meet up with Arcanist Valtrois.|
+T Breaking Out Ashvane|QID|54121|M|82.94,49.54|Z|Tiragarde Sound|N|To Arcanist Valtrois.|
+A Face Your Enemy|QID|54175|M|82.94,49.54|Z|Tiragarde Sound|N|From Arcanist Valtrois.|PRE|54121|
+A Be More Uniform|QID|54176|M|82.94,49.54|Z|Tiragarde Sound|N|From Arcanist Valtrois.|PRE|54121|
+A A Brilliant Distraction|QID|54177|M|83.00,49.66|Z|Tiragarde Sound|N|From Rexxar.|PRE|54121|
+C Be More Uniform|QID|54176|M|79.40,46.96|Z|Tiragarde Sound|QO|1|S|N|Kill the Proudmore souldiers and loot to collect their Equipment.|
+C A Brilliant Distraction|QID|54177|M|79.92,47.96|Z|Tiragarde Sound|N|Pick up the Volatile Azerite scattered around the area. It's bluish glow will help you spot it.|
+C Face Your Enemy|QID|54175|M|81.62,48.44|Z|Tiragarde Sound|QO|3|T|Ollie Oakman|U|165702|NC|N|Use the provided Shard of Vesara to send Ollie Oakman back to Valtrois.|
+C Face Your Enemy|QID|54175|M|80.78,46.06|Z|Tiragarde Sound|QO|2|T|Rosie Walker|U|165702|NC|N|Use the provided Shard of Vesara to send Rosie Walker back to Valtrois.|
+K Captain Sarefina|QID|54176|M|79.10,46.96|Z|Tiragarde Sound|QO|2|T|Captain Serafina|N|Kill Captain Sarafina and loot her Overcoat.|
+C Face Your Enemy|QID|54175|M|79.50,49.68|Z|Tiragarde Sound|QO|1|T|Drusilla Whiteblade|NC|N|Use the provided Shard of Vesara to send Drusilla Whiteblade back to Valtrois.|
+C A Brilliant Distraction|QID|54177|M|79.92,47.96|Z|Tiragarde Sound|US|N|Finish collecting the Volatile Azerite.|
+C Be More Uniform|QID|54176|M|79.40,46.96|Z|Tiragarde Sound|QO|1|US|N|Finish collecting the needed Proudmoore Equipment.|
+T A Brilliant Distraction|QID|54177|M|83.00,49.64|Z|Tiragarde Sound|N|To Rexxar.|
+T Face Your Enemy|QID|54175|M|82.94,49.55|Z|Tiragarde Sound|N|To Arcanist Valtrois.|
+T Be More Uniform|QID|54176|M|82.94,49.55|Z|Tiragarde Sound|N|To Arcanist Valtrois.|
+A Catching a Ride|QID|54178|M|82.94,49.55|Z|Tiragarde Sound|N|From Arcanist Valtrois.|PRE|54175&54176&54177|
+T Catching a Ride|QID|54178|M|88.19,50.75|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
+A Through the Front Door|QID|54179|M|88.19,50.75|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|
+P Tol Dagor|ACTIVE|54179|M|88.19,50.75|Z|Tiragarde Sound|CHAT|N|Tell Nathanos Blightcaller you are ready to begin the scenario.|
+C Speak to Warden Amical|ACTIVE|54179|M|38.95,70.57|Z|Tol Dagor!Instance1349|SO|1|CHAT|N|Speak to Warden Amical.|
+C Send the guards away|ACTIVE|54179|M|43.53,53.87|Z|The Brig@Tol Dagor!Dungeon1351|SO|2;1|CHAT|N|Send the guards away.|
+C Take the Master Key|ACTIVE|54179|M|43.53,53.87|Z|The Brig@Tol Dagor!Dungeon1351|SO|2;2|NC|N|Take the Master Key.|
+C Release Lady Ashvane|ACTIVE|54179|M|46.94,46.03|Z|Tol Dagor!Instance1349|SO|3|NC|N|Release Lady Ashvane.|
+C Ashvane Prisoners freed|ACTIVE|54179|M|52.15,69.71|Z|The Brig@Tol Dagor!Dungeon1351|SO|4|NC|N|Click on the other cell doors to release the Ashvane Prisoners.|
+C Set explosives in the drain|ACTIVE|54179|M|49.25,20.88;36.24,65.47;64.27,46.41|CS|Z|The Drain@Tol Dagor!Dungeon1350|SO|5;1|NC|N|Head down the stairs and across the lower level to the drain and then set explosives as you run out the drain.|
+C Escape through the drain|ACTIVE|54179|M|51.60,47.73|Z|Tol Dagor!Instance1349|SO|5;2|NC|N|Escape through the drain.|
+C Kill Warden Amical|ACTIVE|54179|M|53.86,52.42|Z|Tol Dagor!Instance1349|SO|6|N|Kill Warden Amical and his soldiers.|
+C Get to the Ship|ACTIVE|54179|M|50.71,72.80|Z|Tol Dagor!Instance1349|SO|7|NC|N|The Dark Lady awaits her prize.|
+C Through the Front Door|QID|54179|M|69.24,64.90|Z|Kul Tiras|NC|N|Wait a moment for the Scenario "Escape from Tol Dagor" to complete.|
+R Port of Zuldazar|ACTIVE|54179|M|87.85,51.17|Z|Tiragarde Sound|CHAT|N|Ask Erul Dawnbrook for a ride or otherwise return to Zuldazar and the Banshee's Wail.|
+T Through the Front Door|QID|54179|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+
+N Fly Out to Meet Them|QID|54280|N|The final segment of Tides of Vengeance is scheduled to be available 1/22/19. Check this off manually to do other parts of the guide.|PRE|54179|
 
 ; The Revered Repuation Mission Report: Hillcrest Pasture
 A Mission Report: Hillcrest Pasture|QID|52478|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
