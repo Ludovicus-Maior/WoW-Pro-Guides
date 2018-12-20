@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-12-20 11:39
+-- Who: Emmaleah
+-- Log: added the purchased at exalted - missions and the finding saurfang quest line in 8.1
+
+-- URL: http://wow-pro.com/node/3761/revisions/30166/view
 -- Date: 2018-12-17 10:51
 -- Who: Emmaleah
 -- Log: The rest of the 8.1 quest lines, except for the new missions are still needed.
@@ -246,11 +251,6 @@
 -- Date: 2018-05-13 05:51
 -- Who: Emmaleah
 -- Log: Many note updates, add more guide registration icon, and autoswitch, fixed up J steps to reflect correct guide. Note that coords in Orgrimmar need updated as they changed with the last patch.
-
--- URL: http://wow-pro.com/node/3761/revisions/29300/view
--- Date: 2018-05-12 17:55
--- Who: Ludovicus_Maior
--- Log: Use a real nil in GuideNextGuide()
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -1013,6 +1013,83 @@ R Stormsong Valley|ACTIVE|52320|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail 
 C Windfall Cavern|QID|52320|M|60.70,26.71;60.33,25.28|CS|Z|Stormsong Valley|NC|N|Closest flightpoint is Warfang hold. Follow arrow to cave entrance, enter and claim the outpost.|
 f Windfall Cavern|ACTIVE|52320|M|52.77,80.13|Z|Stormsong Valley|N|At Allabas.|
 T Windfall Cavern|QID|52320|M|60.21,24.98|Z|Stormsong Valley|N|To Morn Ironhorn.|
+; Exalted Mission Report: Vulpara Hideaway
+A Mission Report: Vulpera Hideaway|QID|54258|M|51.55,99.60|Z|Dazar'alor|PRE|54296|
+T Mission Report: Vulpera Hideaway|QID|54258|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Outpost Upgrade: Vulpera Hideaway|QID|54260|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|54260|
+F Vulpera Hideaway|ACTIVE|54260|M|52.09,90.11|Z|Zuldazar|N|at Ripa the Wind Ripper.|FLY|BFA|
+C Outpost Upgrade: Vulpera Hideaway|QID|54260|M|56.93,50.51|Z|Vol'dun|CHAT|N|Talk to the Caravan Master|
+T Outpost Upgrade: Vulpera Hideaway|QID|54260|M|56.93,50.51|Z|Vol'dun|N|To Dust. Turning in the quest will put you in the "caravan" mount, so don't turn in until you are ready to go somewhere. Can be clicked off immediately if desired.|
+
+; Exalted Mission Report: The Great Seal
+A Mission Report: The Great Seal|QID|54225|M|51.50,99.65|Z|Dazar'alor|PRE|54294|
+T Mission Report: The Great Seal|QID|54225|M|58.44,62.68|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Outpost Upgrade: The Great Seal|QID|54231|M|58.44,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|54225|
+F The Great Seal|ACTIVE|54231|M|52.10,90.13|Z|Dazar'alor|N|N|Fly or otherwise travel up to the Great Seal.|FLY|BFA|
+C Outpost Upgrade: The Great Seal|QID|54231|M|58.89,70.50|Z|Hall of Croniclers!Dazar'alor|QO|1|NC|N|Inspect the Mission Command Table at The Great Seal.|
+T Outpost Upgrade: The Great Seal|QID|54231|M|58.89,70.50|Z|Hall of Croniclers!Dazar'alor|N|To UI Alert.|
+
+; Exalted Mission Report: Zul'jan Ruins
+A Mission Report: Zul'jan Ruins|QID|54239|M|51.43,85.44|Z|Dazar'alor|PRE|54297|
+T Mission Report: Zul'jan Ruins|QID|54239|M|58.44,62.68|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Outpost Upgrade: Zul'jan Ruins|QID|54240|M|58.44,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|54239|
+F Zul'jan Ruins|ACTIVE|54240|M|52.10,90.13|Z|Dazar'alor|N|At Ripa the Wind Ripper. (or otherwise travel to Zul'jan Ruins-Nazmir)|FLY|BFA|
+C Outpost Upgrade: Zul'jan Ruins|QID|54240|M|39.15,77.64|Z|Nazmir|QO|1|NC|N|Honor either of the Altars at Zul'jan Ruins.|
+T Outpost Upgrade: Zul'jan Ruins|QID|54240|M|39.15,77.64|Z|Nazmir|N|To UI Alert.|
+
+; Saurfang found
+A The Dark Lady Calls|QID|54097|Z|Zuldazar|N|From Dark Ranger Alina.|PRE|50606|
+F The Great Seal|ACTIVE|54097|M|52.10,90.13|Z|Dazar'alor|N|N|Fly or otherwise travel up to the Great Seal.|FLY|BFA|
+P Orgrimmar|ACTIVE|54097|M|74,69.83|Z|The Great Seal!Dazar'alor|N|Take the portal or otherwise travel to Orgrimmar.|
+T The Dark Lady Calls|QID|54097|M|48.31,71.08|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
+A The High Overlord|QID|54099|M|48.31,71.08|Z|Orgrimmar|N|From Lady Sylvanas Windrunner.|PRE|54097|
+C The High Overlord|QID|54099|M|48.31,71.08|Z|Orgrimmar|CHAT|N|Listen to Sylvanas|
+T The High Overlord|QID|54099|M|48.31,71.08|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
+A A Way Out|QID|54100|M|48.31,71.08|Z|Orgrimmar|N|From Lady Sylvanas Windrunner.|PRE|54099|
+b Zep to Grom'gol|ACTIVE|54100|M|52.90,52.78|Z|Orgrimmar|N|Take the zep to Grom'gol or otherwise travel to the Eastern Kingdom.|
+R Elwynn Forest|ACTIVE|54100|M|30.66,89.57|Z|Elwynn Forest|N|Travel to Elwynn Forest.|
+T A Way Out|QID|54100|M|30.54,57.67|Z|Elwynn Forest|N|To Dark Ranger Lyana.|
+A On Track|QID|54101|M|30.54,57.67|Z|Elwynn Forest|N|From Dark Ranger Lyana.|PRE|54100|
+C On Track|QID|54101|M|29.02,61.29|Z|Elwynn Forest|NC|QO|1|N|Investigate the area.|
+C On Track|QID|54101|M|28.62,61.32|Z|Elwynn Forest|NC|QO|2|N|Click on the Lock to inspect.|
+C On Track|QID|54101|M|33.08,64.19|Z|Elwynn Forest|NC|QO|3|N|Click on the footprint.|
+C On Track|QID|54101|M|34.56,63.28|Z|Elwynn Forest|NC|QO|4|N|And click on the next footprint.|
+C On Track|QID|54101|M|34.62,63.15|Z|Elwynn Forest|QO|5|N|After a bit of chatter, kill the SI:7 Agents.|
+T On Track|QID|54101|M|34.55,63.07|Z|Elwynn Forest|N|To Dark Ranger Lyana.|
+A Eastern Escape|QID|54102|M|34.55,63.07|Z|Elwynn Forest|N|From Dark Ranger Lyana.|PRE|54101|
+T Eastern Escape|QID|54102|M|11.34,66.84|Z|Redridge Mountains|N|To Dark Ranger Lyana.|
+A Corner Crossing|QID|54103|M|11.34,66.84|Z|Redridge Mountains|N|From Dark Ranger Lyana.|PRE|54102|
+C Corner Crossing|QID|54103|M|11.34,66.84|Z|Redridge Mountains|QO|1|U|165638|NC|N|Drink the Humanizing Potion|
+C Corner Crossing|QID|54103|M|14.14,64.30|Z|Redridge Mountains|QO|2|CHAT|N|Question the Guards questioned.|
+C Corner Crossing|QID|54103|M|15.62,65.31|Z|Redridge Mountains|QO|3|CHAT|N|Ask Darcy Parker about last night.|
+C Corner Crossing|QID|54103|M|26.40,41.42|Z|Redridge Mountains|QO|4|U|165638|CHAT|N|Fly across the lake, don't forget to reapply the potion and then go inside the in and question Innkeeper Brianna.|
+C Corner Crossing|QID|54103|M|25.88,39.71|Z|Redridge Mountains|QO|5|NC|N|Search rooms for clues.|
+T Corner Crossing|QID|54103|M|25.87,39.92|Z|Redridge Mountains|N|To Marion Sutton.|
+A Signs of Saurfang|QID|54104|M|25.87,39.92|Z|Redridge Mountains|N|From Marion Sutton.|PRE|54103|
+C Signs of Saurfang|QID|54104|M|24.21,67.05|Z|Redridge Mountains|QO|1|NC|N|Run over to the marked area.|
+C Signs of Saurfang|QID|54104|M|26.42,65.75|Z|Redridge Mountains|QO|2|NC|N|Click on the Ripped webbing.|
+C Signs of Saurfang|QID|54104|M|28.34,66.74|Z|Redridge Mountains|QO|3|NC|N|Inspect the dead tarantula.|
+C Signs of Saurfang|QID|54104|M|29.12,68.32|Z|Redridge Mountains|QO|4|NC|N|Inspect the spidor Ichor.|
+C Signs of Saurfang|QID|54104|M|29.00,68.22|Z|Redridge Mountains|QO|5|N|Kill the Injured Bristlequeen.|
+T Signs of Saurfang|QID|54104|M|29.00,68.22|Z|Redridge Mountains|N|To Dark Ranger Lyana.|
+A Ever Eastward|QID|54105|M|29.00,68.22|Z|Redridge Mountains|N|From Dark Ranger Lyana.|PRE|54104|
+T Ever Eastward|QID|54105|M|80.65,47.00|Z|Redridge Mountains|N|To Dark Ranger Lyana.|
+A Tracking Tipoff|QID|54106|M|80.65,47.00|Z|Redridge Mountains|N|From Dark Ranger Lyana.|PRE|54105|
+C Tracking Tipoff|QID|54106|M|80.65,47.00|Z|Redridge Mountains|QO|1|U|165638|NC|N|Drink the Humanizing Potion.|
+C Tracking Tipoff|QID|54106|M|81.49,51.90|Z|Redridge Mountains|QO|2|NC|N|Wait by Hunter McAlister for the conversation to end.|
+C Tracking Tipoff|QID|54106|M|81.34,52.56|Z|Redridge Mountains|QO|3|N|After he gets suspecious, kill Hunter McAlister.|
+T Tracking Tipoff|QID|54106|M|81.43,52.49|Z|Redridge Mountains|N|To Dark Ranger Lyana.|
+A Grim Tidings|QID|54107|M|82.12,52.70|Z|Redridge Mountains|N|From Zekhan. At this point you have a choice, either accept the quest, or choose the chat option.|PRE|54106|
+t Grim Tidings|QID|54107|M|79.79,74.75|Z|Swamp of Sorrows|N|To Zekhan.|
+A A Warrior's Death|QID|54108|M|79.79,74.75|Z|Swamp of Sorrows|N|From Zekhan.|PRE|54107|
+C A Warrior's Death|QID|54108|M|80.68,77.62|Z|Swamp of Sorrows|N|Talk to Saurfang, the patrol will become hostile and you need to kill them.|
+T A Warrior's Death|QID|54108|M|80.79,78.73|Z|Swamp of Sorrows|N|To Varok Saurfang.|
+A Queen's Favor|QID|54109|M|80.79,78.73|Z|Swamp of Sorrows|N|From Varok Saurfang.|PRE|54108|
+C Queen's Favor|QID|54109|M|80.79,78.73|Z|Swamp of Sorrows|CHAT|N|Tell Saurfang you are ready to take the hit.|
+R Grom'gol Base Camp|ACTIVE|54109|M|37.19,52.28|Z|Northern Stranglethorn|N|Head to the zep tower in Grom'gol or otherwise travel to Orgrimmar.|
+b Orgrimmar|ACTIVE|54109|M|37.19,52.28|Z|Northern Stranglethorn|N|Return to Orgrimmar.|
+T Queen's Favor|QID|54109|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
+A For the Queen|QID|54754|ACTIVE|-54107|PRE|54106|M|82.12,52.70|Z|Redridge Mountains|N|From UI Alert, if you do not to betray your warchief.|
 
 ; Rep Gated Notes
 N Come back at level 114|QID|51979|LVL|-114|N|Next foothold can be done when you are level 114.|PRE|51803|
@@ -1025,7 +1102,7 @@ N Rep Gated until 3K into Honored|QID|51797|N|So, go out Contribute to the Warfr
 N Rep Gated until 7.5K into Honored|QID|52764|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 7.5k into honored.|PRE|52122|REP|The Honorbound;2157;honored;7500;true|
 N More Scouting Missions|QID|53739^53740^53741^53742^53743^53744^53745|M|58.06,62.65|Z|Zuldazar|US|N|Get those scouting missions (from the table) done so you can open up more flightpaths.|REP|The Honorbound;2157;revered-exalted|
 N Rep Gated until Revered|QID|52183|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at revered.|PRE|52978|REP|The Honorbound;2157;revered;0;true|
-N Outposts and Rep|QID|53103^53152^53126^52320^52479^53101^53082|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Mag'har Orc Allied Race|PRE|53003|
+N Outposts and Rep|QID|53103^53152^53126^52320^52479^53101^53082^54297^54296^54294|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Mag'har Orc Allied Race|PRE|53003|
 ]]
 end)
 
