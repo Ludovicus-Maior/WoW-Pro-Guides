@@ -46,7 +46,14 @@ end
 
 -- Auto-Complete: Use flight point --
 function WoWPro.TakeTaxi(index,destination)
-    local taxiNodes = C_TaxiMap.GetAllTaxiNodes()
+    -- As of 8.1.0.28833, we need to know where we are to know where we can go.
+    local x,y,mapId = WoWPro:GetPlayerZonePosition()
+    if not mapId then
+        WoWPro:Warning("Unable to find flight point to: [%s]. Where am I?",destination)
+        return
+    end
+
+    local taxiNodes = C_TaxiMap.GetAllTaxiNodes(mapId)
     for i, taxiNodeData in ipairs(taxiNodes) do
         -- nodeID=1613, slotIndex=1, type=3, x=0.34, y=0.53, name="Azurewing Repose, Azuna"
         local location,zone = string.split(",", taxiNodeData.name)
