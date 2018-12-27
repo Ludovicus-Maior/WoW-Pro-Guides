@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-12-27 01:50
+-- Who: Ludovicus_Maior
+-- Log:  Frostmane Hovel
+
+-- URL: http://wow-pro.com/node/3200/revisions/30046/view
 -- Date: 2018-10-17 22:38
 -- Who: Ludovicus_Maior
 -- Log: And/Or
@@ -244,11 +249,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Name tweaks
 
--- URL: http://wow-pro.com/node/3200/revisions/25496/view
--- Date: 2013-01-22 17:53
--- Who: Ludovicus_Maior
--- Log: Changed "Lambs on the Lam" to use special target macro!
-
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Coldridge Valley (Dwarf)", "Gylin - Dwarf", "Alliance")
 WoWPro:GuideLevels(guide,1,4,1.1)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
@@ -322,8 +322,8 @@ T The Troll Menace |QID|182|M|42.74,62.22|N|To Grelin Whitebeard.|
 A Ice and Fire |PRE|24489|QID|218|M|42.74,62.22|N|From Grelin Whitebeard.|
 T A Refugee's Quandary |QID|3361|M|42.04,63.34|N|To Felix Whindlebolt.|
 C Ice and Fire |S|QID|218|M|51.17,82.44;37.17,78.31|N|Enter the cave, keeping to the left as you go throught it, killing Frostmane Novices and Blades as you go.|CC|
-K Wayward Fire Elemental |QID|218|M|12.61,36.80;34.15,35.67;66.63,29.93|Z|Coldridge Valley/9|CS|T|Wayward Fire Elemental|QO|2|N|Kill the Wayward Fire Elemental|ACTIVE|218|
-K Grik'nir the Cold |QID|218|M|76.24,32.00|Z|Coldridge Valley/9|T|Grik'nir the Cold|QO|1|N|Kill Grik'nir the Cold.|ACTIVE|218|
+K Wayward Fire Elemental |QID|218|M|12.61,36.80;34.15,35.67;66.63,29.93|Z|Frostmane Hovel|CS|T|Wayward Fire Elemental|QO|2|N|Kill the Wayward Fire Elemental|ACTIVE|218|
+K Grik'nir the Cold |QID|218|M|76.24,32.00|Z|Frostmane Hovel|T|Grik'nir the Cold|QO|1|N|Kill Grik'nir the Cold.|ACTIVE|218|
 C Ice and Fire |US|QID|218|M|33.31,77.83|N|Finish killing the Frostmane Novice and Blades in the cavern, then make your way out of the cave.|
 
 T Ice and Fire |QID|218|M|42.74,62.22|N|To Grelin Whitebeard.|
