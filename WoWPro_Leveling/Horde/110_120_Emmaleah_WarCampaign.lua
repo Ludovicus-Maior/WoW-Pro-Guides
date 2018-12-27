@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2018-12-27 01:48
+-- Who: Ludovicus_Maior
+-- Log: Removed some naughty |N|N| tags.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30167/view
 -- Date: 2018-12-20 11:39
 -- Who: Emmaleah
 -- Log: added the purchased at exalted - missions and the finding saurfang quest line in 8.1
@@ -246,11 +251,6 @@
 -- Date: 2018-07-03 02:48
 -- Who: Emmaleah
 -- Log: changed guide registration to be war campaign
-
--- URL: http://wow-pro.com/node/3761/revisions/29302/view
--- Date: 2018-05-13 05:51
--- Who: Emmaleah
--- Log: Many note updates, add more guide registration icon, and autoswitch, fixed up J steps to reflect correct guide. Note that coords in Orgrimmar need updated as they changed with the last patch.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -1025,7 +1025,7 @@ T Outpost Upgrade: Vulpera Hideaway|QID|54260|M|56.93,50.51|Z|Vol'dun|N|To Dust.
 A Mission Report: The Great Seal|QID|54225|M|51.50,99.65|Z|Dazar'alor|PRE|54294|
 T Mission Report: The Great Seal|QID|54225|M|58.44,62.68|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Outpost Upgrade: The Great Seal|QID|54231|M|58.44,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|54225|
-F The Great Seal|ACTIVE|54231|M|52.10,90.13|Z|Dazar'alor|N|N|Fly or otherwise travel up to the Great Seal.|FLY|BFA|
+F The Great Seal|ACTIVE|54231|M|52.10,90.13|Z|Dazar'alor|N|Fly or otherwise travel up to the Great Seal.|FLY|BFA|
 C Outpost Upgrade: The Great Seal|QID|54231|M|58.89,70.50|Z|Hall of Croniclers!Dazar'alor|QO|1|NC|N|Inspect the Mission Command Table at The Great Seal.|
 T Outpost Upgrade: The Great Seal|QID|54231|M|58.89,70.50|Z|Hall of Croniclers!Dazar'alor|N|To UI Alert.|
 
@@ -1039,7 +1039,7 @@ T Outpost Upgrade: Zul'jan Ruins|QID|54240|M|39.15,77.64|Z|Nazmir|N|To UI Alert.
 
 ; Saurfang found
 A The Dark Lady Calls|QID|54097|Z|Zuldazar|N|From Dark Ranger Alina.|PRE|50606|
-F The Great Seal|ACTIVE|54097|M|52.10,90.13|Z|Dazar'alor|N|N|Fly or otherwise travel up to the Great Seal.|FLY|BFA|
+F The Great Seal|ACTIVE|54097|M|52.10,90.13|Z|Dazar'alor|N|Fly or otherwise travel up to the Great Seal.|FLY|BFA|
 P Orgrimmar|ACTIVE|54097|M|74,69.83|Z|The Great Seal!Dazar'alor|N|Take the portal or otherwise travel to Orgrimmar.|
 T The Dark Lady Calls|QID|54097|M|48.31,71.08|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
 A The High Overlord|QID|54099|M|48.31,71.08|Z|Orgrimmar|N|From Lady Sylvanas Windrunner.|PRE|54097|
