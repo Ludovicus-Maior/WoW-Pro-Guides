@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2018-12-27 01:50
+-- Who: Ludovicus_Maior
+-- Log:  Frostmane Hovel
+
+-- URL: http://wow-pro.com/node/3200/revisions/30046/view
 -- Date: 2018-10-17 22:38
 -- Who: Ludovicus_Maior
 -- Log: And/Or
@@ -243,11 +248,6 @@
 -- Date: 2013-03-23 20:23
 -- Who: Ludovicus_Maior
 -- Log: Name tweaks
-
--- URL: http://wow-pro.com/node/3200/revisions/25496/view
--- Date: 2013-01-22 17:53
--- Who: Ludovicus_Maior
--- Log: Changed "Lambs on the Lam" to use special target macro!
 
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,4,1.81013)
