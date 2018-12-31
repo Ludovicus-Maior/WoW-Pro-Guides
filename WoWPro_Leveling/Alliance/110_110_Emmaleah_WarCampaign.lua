@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2018-12-31 19:34
+-- Who: Ludovicus_Maior
+-- Log: Remove extra ACTIVE|54169| and NC|
+
+-- URL: http://wow-pro.com/node/3760/revisions/30161/view
 -- Date: 2018-12-16 13:38
 -- Who: Emmaleah
 -- Log: rest of the way thru the 8.1 quests
@@ -248,11 +253,6 @@
 -- Date: 2018-07-14 23:05
 -- Who: Emmaleah
 -- Log: change zone name from ChamberOfHeart to Chamber Of Heart
-
--- URL: http://wow-pro.com/node/3760/revisions/29413/view
--- Date: 2018-07-08 15:16
--- Who: STrek
--- Log: comment battle for Lordaeron out (it has been copied to Pre-patch guide)
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -972,7 +972,7 @@ C Take the Shortcut|ACTIVE|54169|M|42.17,66.09|Z|Zandalari Treasury!Dungeon|SO|3
 C Nevermind|ACTIVE|54169|M|42.14,76.11|Z|Zandalari Treasury!Dungeon|SO|4;1|N|Return to outer hallway.|
 C The Bigger They Are...|ACTIVE|54169|M|41.62,85.87|Z|Zandalari Treasury!Dungeon|SO|5;1|N|Treasury Sentinel defeated.|
 C The Search Continues|ACTIVE|54169|M|59.59,82.00|Z|Zandalari Treasury!Dungeon|SO|6;1|N|Traps again, slightly more difficult this time.|
-C Masking For Trouble|ACTIVE|54169|M|62.56,81.05|Z|Zandalari Treasury!Dungeon|ACTIVE|54169|SO|7;1|N|Kill the 5 spirits in the next room.|
+C Masking For Trouble|ACTIVE|54169|M|62.56,81.05|Z|Zandalari Treasury!Dungeon|SO|7;1|N|Kill the 5 spirits in the next room.|
 C More Traps? Seriously?|ACTIVE|54169|M|61.27,58.59|Z|Zandalari Treasury!Dungeon|SO|8;1|N|Disable the gauntlet.|
 C Protection Detail|ACTIVE|54169|M|63.45,53.32|Z|Zandalari Treasury!Dungeon|SO|9;1|N|Chat with Shaw and then defeat 3 waves of enemies.|
 C Make the Swap|ACTIVE|54169|M|61.99,52.32|Z|Zandalari Treasury!Dungeon|CHAT|SO|10;1|N|Speak with Mathias Shaw.|
@@ -1015,7 +1015,7 @@ C Rescue the prisoners|ACTIVE|53990|M|41.76,68.79|Z|Darkshore!Instance1338|US|SO
 C Closing in|ACTIVE|53990|M|42.89,66.88|Z|Darkshore!Instance1338|US|SO|6;1|NC|N|Click on Ash'alah to get a ride.|
 C Defend Bashal'Aran|ACTIVE|53990|M|52.81,56.03|Z|Darkshore!Instance1338|SO|7;2|N|Defeat 3 waves of horde from the west, north and east.|
 C Return to Tyrande|ACTIVE|53990|M|51.58,57.91|Z|Darkshore!Instance1338|SO|8;1|NC|N|Return to Tyrande.|
-C Return to Tyrande|ACTIVE|53990|M|51.58,57.91|Z|Darkshore!Instance1338|NC|SO|8;2|NC|N|Click on the eye of Elune.|
+C Return to Tyrande|ACTIVE|53990|M|51.58,57.91|Z|Darkshore!Instance1338|NC|SO|8;2|N|Click on the eye of Elune.|
 C Speak to Tyrande|ACTIVE|53990|M|51.62,58.03|Z|Darkshore!Instance1338|SO|9;1|CHAT|N|Speak to Tyrande.|
 C Hunt down Nathanos Blightcaller|ACTIVE|53990|M|49.39,34.99|Z|Darkshore!Instance1338|SO|9;2|NC|N|Follow Tyrande.|
 C Nowhere to Hide|ACTIVE|53990|M|47.97,24.23|Z|Darkshore!Instance1338|SO|10;1|NC|N|After the talking ends, follow Tyrande further to actually find Nathanos Blightcaller.|
