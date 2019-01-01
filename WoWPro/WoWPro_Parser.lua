@@ -101,9 +101,9 @@ function WoWPro.SkipStep(index, list_only)
 
 	if WoWPro.action[index] == "D" then return "" end -- No skipping this type
 	if WoWPro.QID[index] then
-	    local numqids = select("#", string.split(";", WoWPro.QID[index]))
+	    local numqids = select("#", string.split("^&", WoWPro.QID[index]))
 	    for k=1,numqids do
-	        local kqid = select(numqids-k+1, string.split(";", WoWPro.QID[index]))
+	        local kqid = select(numqids-k+1, string.split("^&", WoWPro.QID[index]))
 	        if tonumber(kqid) then
 	            if list_only then
 	                skippedQIDs[tonumber(kqid)] = true
@@ -155,9 +155,9 @@ function WoWPro.UnSkipStep(index)
 	local GID = WoWProDB.char.currentguide
 	WoWProCharDB.Guide[GID].completion[index] = nil
 	if WoWPro.QID[index] then
-		local numqids = select("#", string.split(";", WoWPro.QID[index]))
+		local numqids = select("#", string.split("^&", WoWPro.QID[index]))
 	    for k=1,numqids do
-	        local kqid = select(numqids-k+1, string.split(";", WoWPro.QID[index]))
+	        local kqid = select(numqids-k+1, string.split("^&", WoWPro.QID[index]))
 	        if tonumber(kqid) then
 	            WoWProCharDB.skippedQIDs[tonumber(kqid)] = nil
 	            WoWPro:dbp("UnSkipStep(): unskipping QID %s",kqid)
@@ -171,9 +171,9 @@ function WoWPro.UnSkipStep(index)
 	
 	local function unskipstep(currentstep)
 		for j = 1,WoWPro.stepcount do if WoWPro.prereq[j] then
-			local numprereqs = select("#", string.split(";", WoWPro.prereq[j]))
+			local numprereqs = select("#", string.split("^&", WoWPro.prereq[j]))
 			for k=1,numprereqs do
-				local kprereq = select(numprereqs-k+1, string.split(";", WoWPro.prereq[j]))
+				local kprereq = select(numprereqs-k+1, string.split("^&", WoWPro.prereq[j]))
 				if tonumber(kprereq) and tonumber(kprereq) == WoWPro.QID[currentstep] then
 					if WoWPro.action[j] == "A" 
 					or WoWPro.action[j] == "C" 
@@ -596,10 +596,10 @@ function WoWPro.RecordStuff(i)
         end
     else
         -- Regular quest declaration
-        local numQIDs = select("#", string.split(";", QIDs))
+        local numQIDs = select("#", string.split("^&", QIDs))
         if WoWPro.action[i] == "A" or WoWPro.action[i] == "C" or WoWPro.action[i] == "T" then
     	    for j=1,numQIDs do
-    		    local qid = select(numQIDs-j+1, string.split(";", QIDs))
+    		    local qid = select(numQIDs-j+1, string.split("^&", QIDs))
     		    local QID = tonumber(qid)
     		    if QID then
 --    		       WoWPro:Print("Recorded QID %s to GID %s",qid,GID)

@@ -195,9 +195,13 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 		local completion = WoWProCharDB.Guide[GID].completion[i]
 	    
 		if WoWPro.QID[i] then
-			local numQIDs = select("#", string.split(";", WoWPro.QID[i]))
+			local numQIDs = select("#", string.split("^&", WoWPro.QID[i]))
 			for j=1,numQIDs do
-				local QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
+				local QID = select(numQIDs-j+1, string.split("^&", WoWPro.QID[i]))
+				if not tonumber(QID) then
+				    WoWPro:Error("Bad QID [%s] in Guide %s", WoWPro.QID[i], GID)
+				    return
+				end
 				QID = tonumber(QID)
 
 		        -- Quest Turn-Ins --
