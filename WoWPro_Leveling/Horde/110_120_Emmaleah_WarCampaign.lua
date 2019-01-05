@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-01-05 06:04
+-- Who: Emmaleah
+-- Log: It appears despite updating my personal copy weeks ago... I never put the darkshore quests here :(
+
+-- URL: http://wow-pro.com/node/3761/revisions/30169/view
 -- Date: 2018-12-27 01:48
 -- Who: Ludovicus_Maior
 -- Log: Removed some naughty |N|N| tags.
@@ -246,11 +251,6 @@
 -- Date: 2018-07-03 02:49
 -- Who: Emmaleah
 -- Log: Oops, missed editting title
-
--- URL: http://wow-pro.com/node/3761/revisions/29385/view
--- Date: 2018-07-03 02:48
--- Who: Emmaleah
--- Log: changed guide registration to be war campaign
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -788,7 +788,7 @@ T Our War Continues|QID|53851|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcalle
 A Azerite Denied|QID|53852|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53851|
 C Talk to Dread-Admiral Tattersail|QID|53852^54042|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound or Darkshore, which ever quesst you want to do first.|
 
-; Darkshore
+; Darkshore opening
 T Trouble in Darkshore|QID|54042|M|53.62,20.41|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
 A Black Moon Rising|QID|54044|M|53.62,20.41|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54042|
 A Dark Ranger Round-Up|QID|54043|M|53.62,20.41|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54042|
@@ -824,7 +824,31 @@ T Aftermath|QID|54050|M|51.74,21.64|Z|Darkshore#1333|N|To Nathanos Blightcaller.
 A Warfront Preparations|QID|54416|M|51.74,21.64|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54050|
 P Warfront Preparations|ACTIVE|54416|M|52.71,21.26|QO|1|N|Take the portal provided or otherwise return to the Port of Zandalar.|
 T Warfront Preparations|QID|54416|M|52.92,94.52|Z|Dazar'alor|N|To Throk.|
-N War Table|M|52.92,94.52|Z|Dazar'alor|N|Check the table beside Throk to determine if Horde is on Patrol Status or Siege Status and then if siege, queue for the warfront if available, if patrol status you can click on the nearby portal to go kill Darkshore rares if desired.|
+N War Table|M|52.92,94.52|Z|Dazar'alor|N|Check the table beside Throk to determine if Horde is on Patrol Status or Siege Status and then if siege, queue for the warfront if available, if patrol status you can click on the nearby portal to go kill Darkshore rares if desired.|PRE|54416|
+
+; darkshore quests
+A Buzzkill|QID|54845|M|46.40,35.11|Z|Darkshore!Kalimdor|N|From Zarvik Blastwix.|PRE|54416|
+A Remaining Threats|QID|54843|M|47.00,35.53|Z|Darkshore!Kalimdor|N|From Deathstalker Commander Belmont.|PRE|54416|
+A Tapping the Breach|QID|54844|M|47.93,36.20|Z|Darkshore!Kalimdor|N|From Dark Ranger Velonara.|PRE|54416|
+C Ivus the Forest Lord|QID|54896|M|42.44,35.16|Z|Darkshore!Kalimdor|N|This is a raid, so you will want to Queue for it. Since the other quests are group quests, be sure to not stay in the raid after.|
+C Remaining Threats|QID|54843|M|39.14,61.88|Z|Darkshore!Kalimdor|S|N|Queue for a group doing Darkshore rares for an easier time.  If no group, you can do it by soloing the lvl 121 mobs.|
+C Tapping the Breach|QID|54844|M|39.36,61.24|Z|Darkshore!Kalimdor|S|N|Easiest done in a group.|
+C Buzzkill|QID|54845|M|55.57,23.89|Z|Darkshore!Kalimdor|QO|1<4|N|Destroy the Buzzbox, kill the 3 robots that appear.|
+C Athrikus Narassin|QID|54793|M|58.76,24.46|Z|Darkshore!Kalimdor|;WQ
+C Thelar Moonstrike|QID|54808|M|62.12,16.49|Z|Darkshore!Kalimdor|QO|1|N|Kill Thelar Moonstrike slain|T|Thelar Moonstrike|;WQ
+C Buzzkill|QID|54845|M|41.25,47.68|Z|Darkshore!Kalimdor|QO|1=1|N|Destroy the Buzzbox, kill the 3 robots that appear.|
+C Prisoners of the Darkscale|QID|54514|M|43.77,61.19|Z|Darkshore!Kalimdor|QO|1|N|Kill naga to collect keys and rescue Forsaken Harvester.|;wq
+C Turning the Tides|QID|54722|M|38.94,41.12|Z|Darkshore!Kalimdor|QO|1|N|Man the Dread Ballista|;WQ
+C Turning the Tides|QID|54722|M|38.20,44.96|Z|Darkshore!Kalimdor|QO|2|N|Use the one key to shoot down the keldori flying towards you.|
+C Buzzkill|QID|54845|M|55.57,23.89|Z|Darkshore!Kalimdor|QO|1<4|N|Destroy the Buzzbox, kill the 3 robots that appear.|
+C Twilight Prophet Graeme|QID|54800|M|40.67,82.25|Z|Darkshore!Kalimdor|N|Kill Twilight Prophet Greame.|T|Twilight Prophet Graeme|;WQ
+C Buzzkill|QID|54845|M|36.93,65.51|Z|Darkshore!Kalimdor|QO|1<4||N|Destroy the Buzzbox, kill the 3 robots that appear.|
+C Buzzkill|QID|54845|M|40.82,81.16|Z|Darkshore!Kalimdor|QO|1<4||N|Destroy the Buzzbox, kill the 3 robots that appear.|
+C Tapping the Breach|QID|54844|M|39.36,61.24|Z|Darkshore!Kalimdor|US|N|Looks like you are just about done here, finish up killing any needed elementals.|
+C Remaining Threats|QID|54843|M|39.14,61.88|Z|Darkshore!Kalimdor|US|N|Finish up the rares you choose to do.|
+T Remaining Threats|QID|54843|M|46.97,35.51|Z|Darkshore!Kalimdor|N|To Deathstalker Commander Belmont.|
+T Buzzkill|QID|54845|M|46.42,35.02|Z|Darkshore!Kalimdor|N|To Zarvik Blastwix.|
+T Tapping the Breach|QID|54844|M|47.91,36.21|Z|Darkshore!Kalimdor|N|To Dark Ranger Velonara.|
 
 ; The Day is Won
 C Talk to Dread-Admiral Tattersail|QID|53852&54042|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound or Darkshore, which ever quesst you want to do first.|
@@ -908,7 +932,7 @@ T Horde War Effort|QID|50606|Z|Zuldazar|N|To Nathanos Blightcaller.|
 ; Through the front door
 A Breaking Out Ashvane|QID|54121|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|50606|REP|The Honorbound;2157;revered;14000|
 C Breaking Out Ashvane|QID|54121|Z|Zuldazar|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound (Optional).|
-R Ashvane Foundry|QID|54121|M|54.78,50.75;86.93,51.72;83.25,49.74|Z|Tiragarde Sound|CS|N|Up the hill and over to the Ashvane Foundry to meet up with Arcanist Valtrois.|
+R Ashvane Foundry|ACTIVE|54121|M|54.78,50.75;86.93,51.72;83.25,49.74|Z|Tiragarde Sound|CS|N|Up the hill and over to the Ashvane Foundry to meet up with Arcanist Valtrois.|
 T Breaking Out Ashvane|QID|54121|M|82.94,49.54|Z|Tiragarde Sound|N|To Arcanist Valtrois.|
 A Face Your Enemy|QID|54175|M|82.94,49.54|Z|Tiragarde Sound|N|From Arcanist Valtrois.|PRE|54121|
 A Be More Uniform|QID|54176|M|82.94,49.54|Z|Tiragarde Sound|N|From Arcanist Valtrois.|PRE|54121|
@@ -917,7 +941,7 @@ C Be More Uniform|QID|54176|M|79.40,46.96|Z|Tiragarde Sound|QO|1|S|N|Kill the Pr
 C A Brilliant Distraction|QID|54177|M|79.92,47.96|Z|Tiragarde Sound|N|Pick up the Volatile Azerite scattered around the area. It's bluish glow will help you spot it.|
 C Face Your Enemy|QID|54175|M|81.62,48.44|Z|Tiragarde Sound|QO|3|T|Ollie Oakman|U|165702|NC|N|Use the provided Shard of Vesara to send Ollie Oakman back to Valtrois.|
 C Face Your Enemy|QID|54175|M|80.78,46.06|Z|Tiragarde Sound|QO|2|T|Rosie Walker|U|165702|NC|N|Use the provided Shard of Vesara to send Rosie Walker back to Valtrois.|
-K Captain Sarefina|QID|54176|M|79.10,46.96|Z|Tiragarde Sound|QO|2|T|Captain Serafina|N|Kill Captain Sarafina and loot her Overcoat.|
+K Captain Sarefina|ACTIVE|54176|M|79.10,46.96|Z|Tiragarde Sound|QO|2|T|Captain Serafina|N|Kill Captain Sarafina and loot her Overcoat.|
 C Face Your Enemy|QID|54175|M|79.50,49.68|Z|Tiragarde Sound|QO|1|T|Drusilla Whiteblade|NC|N|Use the provided Shard of Vesara to send Drusilla Whiteblade back to Valtrois.|
 C A Brilliant Distraction|QID|54177|M|79.92,47.96|Z|Tiragarde Sound|US|N|Finish collecting the Volatile Azerite.|
 C Be More Uniform|QID|54176|M|79.40,46.96|Z|Tiragarde Sound|QO|1|US|N|Finish collecting the needed Proudmoore Equipment.|
@@ -926,7 +950,7 @@ T Face Your Enemy|QID|54175|M|82.94,49.55|Z|Tiragarde Sound|N|To Arcanist Valtro
 T Be More Uniform|QID|54176|M|82.94,49.55|Z|Tiragarde Sound|N|To Arcanist Valtrois.|
 A Catching a Ride|QID|54178|M|82.94,49.55|Z|Tiragarde Sound|N|From Arcanist Valtrois.|PRE|54175&54176&54177|
 T Catching a Ride|QID|54178|M|88.19,50.75|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
-A Through the Front Door|QID|54179|M|88.19,50.75|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|
+A Through the Front Door|QID|54179|M|88.19,50.75|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|54178|
 P Tol Dagor|ACTIVE|54179|M|88.19,50.75|Z|Tiragarde Sound|CHAT|N|Tell Nathanos Blightcaller you are ready to begin the scenario.|
 C Speak to Warden Amical|ACTIVE|54179|M|38.95,70.57|Z|Tol Dagor!Instance1349|SO|1|CHAT|N|Speak to Warden Amical.|
 C Send the guards away|ACTIVE|54179|M|43.53,53.87|Z|The Brig@Tol Dagor!Dungeon1351|SO|2;1|CHAT|N|Send the guards away.|
@@ -1013,6 +1037,7 @@ R Stormsong Valley|ACTIVE|52320|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail 
 C Windfall Cavern|QID|52320|M|60.70,26.71;60.33,25.28|CS|Z|Stormsong Valley|NC|N|Closest flightpoint is Warfang hold. Follow arrow to cave entrance, enter and claim the outpost.|
 f Windfall Cavern|ACTIVE|52320|M|52.77,80.13|Z|Stormsong Valley|N|At Allabas.|
 T Windfall Cavern|QID|52320|M|60.21,24.98|Z|Stormsong Valley|N|To Morn Ironhorn.|
+
 ; Exalted Mission Report: Vulpara Hideaway
 A Mission Report: Vulpera Hideaway|QID|54258|M|51.55,99.60|Z|Dazar'alor|PRE|54296|
 T Mission Report: Vulpera Hideaway|QID|54258|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
@@ -1102,7 +1127,7 @@ N Rep Gated until 3K into Honored|QID|51797|N|So, go out Contribute to the Warfr
 N Rep Gated until 7.5K into Honored|QID|52764|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 7.5k into honored.|PRE|52122|REP|The Honorbound;2157;honored;7500;true|
 N More Scouting Missions|QID|53739^53740^53741^53742^53743^53744^53745|M|58.06,62.65|Z|Zuldazar|US|N|Get those scouting missions (from the table) done so you can open up more flightpaths.|REP|The Honorbound;2157;revered-exalted|
 N Rep Gated until Revered|QID|52183|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at revered.|PRE|52978|REP|The Honorbound;2157;revered;0;true|
-N Outposts and Rep|QID|53103^53152^53126^52320^52479^53101^53082^54297^54296^54294|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Mag'har Orc Allied Race|PRE|53003|
+N Outposts and Rep|QID|53103^53152^53126^52320^52479^53101^53082^54260|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Mag'har Orc Allied Race|PRE|53003|
 ]]
 end)
 
