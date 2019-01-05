@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_zuldazar
+-- Date: 2019-01-05 09:12
+-- Who: Emmaleah
+-- Log: correct invalid PRE tag. Add Mugambala flight point.
+
+-- URL: http://wow-pro.com/node/3762/revisions/30141/view
 -- Date: 2018-11-28 19:21
 -- Who: Emmaleah
 -- Log: added S!US|M|71.50,30.36| to t The Great Sea Scrolls
@@ -528,6 +533,7 @@ A A Port in Peril|QID|49122|M|49.92,46.66|Z|Dazar'alor|N|From King Rastakhan.|PR
 
 F Port of Zandalar|ACTIVE|49122|M|51.92,41.20|Z|Dazar'alor|N|At Paku'ai Rokota.|TZ|Grand Bazaar|
 R The Mugambala|ACTIVE|49122|M|53.73,56.29|N|Run thru Mugambala and continue on the path to find Habutu and Zolani at Warport Rastari.|
+f The Mugambala|ACTIVE|49122|M|53.34,57.33|N|At Paku'ai Chal.|
 K Avatar of Xolotal|QID|49410|M|50.90,56.46;49.80,59.22;49.85,57.40|CS|QO|1|RARE|ITEM|161034|T|Avatar of Xolotal|N|This Silver Elite can be found in his den just off the path here.  Kill and loot for azerite power and resources.|RANK|2|
 f Warport Rastari|ACTIVE|49122|M|49.14,57.73;48.23,60.37|CS|N|At Paku'ai Ja'nessa.|
 T A Port in Peril|QID|49122|M|47.90,60.44|N|To Zolani.|
@@ -549,7 +555,7 @@ A Crumbling Apart|QID|49148|M|47.92,60.45|N|From Zolani.|PRE|49144&49146&49145|
 A Show of Strength|QID|49147|M|47.86,60.44|N|From Habutu.|PRE|49144&49146&49145|
 C Crumbling Apart|QID|49148|M|45.98,64.94|S|N|Kill Stormbound Conquerors as you go.|
 C Embrace the Voodoo|QID|49149|M|49.46,66.55|S|NC|N|Click on the Spirit Obelisk to activate as you go.|
-C Show of Strength|QID|49147|M|48.08,64.55|QO|1|N|Kill Jao-Ti the Thunderous.|
+K Jao-Ti the Thunderous|ACTIVE|49147|M|48.08,64.55|QO|1|N|Kill Jao-Ti the Thunderous.|
 K Torraske the Eternal|QID|49004|M|46.68,65.30|QO|1|RARE|ITEM|161029|T|Torraske the Eternal|N|Silver Elite to loot for azerite power and resources.|RANK|2|
 C Show of Strength|QID|49147|M|45.88,66.52|QO|2|N|Kill Zheng up one level of the terraces.|
 C Embrace the Voodoo|QID|49149|M|49.46,66.55|US|NC|N|Finish activating the Spirit Obelisks.|
@@ -558,15 +564,15 @@ T Embrace the Voodoo|QID|49149|M|49.59,64.48|N|To Kaza'jin the Wavebinder.|
 T Crumbling Apart|QID|49148|M|49.59,64.48|N|To Kaza'jin the Wavebinder.|
 T Show of Strength|QID|49147|M|49.59,64.48|N|To Kaza'jin the Wavebinder.|
 A Thunder's Fall|QID|49309|M|49.59,64.48|N|From Kaza'jin the Wavebinder.|PRE|49147&49149&49148|
-K Warlord Kao|QID|49309|M|50.19,65.40|QO|1|T|Warlord Kao|N|Kill Warlord Kao.|
+K Warlord Kao|ACTIVE|49309|M|50.19,65.40|QO|1|T|Warlord Kao|N|Kill Warlord Kao.|
 $ Warlord's Cache|QID|49257|M|49.49,65.27|N|Run up the stairs to the top of the ship to find the Warlord's Cache to loot for azerite power and resources.|RANK|2|
 T Thunder's Fall|QID|49309|M|49.59,64.48|N|To Kaza'jin the Wavebinder.|
 A The Prophet's Ploy|QID|49310|M|49.59,64.48|N|From Kaza'jin the Wavebinder.|PRE|49309|
 C The Prophet's Ploy|QID|49310|M|49.50,64.34|NC|N|Hop on Scarbeak to ride to King Rastakhan's throne and watch the scene play out.|
 T The Prophet's Ploy|QID|49310|M|41.28,72.33|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
-A Terrace of the Chosen|QID|47509|M|41.28,72.33|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|PRE|47879|
-A The Wounded King|QID|51101|M|41.28,72.33|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|PRE|47879|
-A Kaja'mite? Kaja'must!|QID|49917|M|67.28,83.58|Z|Hall of Croniclers!Dazar'alor|N|From Nok'tal.|RANK|2|
+A Terrace of the Chosen|QID|47509|M|41.28,72.33|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|PRE|49310|
+A The Wounded King|QID|51101|M|41.28,72.33|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|PRE|49310|
+A Kaja'mite? Kaja'must!|QID|49917|M|67.28,83.58|Z|Hall of Croniclers!Dazar'alor|N|From Nok'tal.|RANK|2|PRE|49310|
 
 ;Web of Lies
 R Terrace of Crafters|ACTIVE|47509|M|43.09,34.59|Z|Dazar'alor|N|Run down many sets of stairs until you come to the Terrace of the Crafters.|
