@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-01-06 10:14
+-- Who: Emmaleah
+-- Log: add missing Z tag for Portal to return to Port of Zandalar
+
+-- URL: http://wow-pro.com/node/3761/revisions/30178/view
 -- Date: 2019-01-05 06:04
 -- Who: Emmaleah
 -- Log: It appears despite updating my personal copy weeks ago... I never put the darkshore quests here :(
@@ -246,11 +251,6 @@
 -- Date: 2018-07-10 10:35
 -- Who: Emmaleah
 -- Log: war campaign - first 2 footholds. still need Tiragarde. Took all the stuff that was here and moved to Intro guide for prepatch.
-
--- URL: http://wow-pro.com/node/3761/revisions/29389/view
--- Date: 2018-07-03 02:49
--- Who: Emmaleah
--- Log: Oops, missed editting title
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -786,7 +786,7 @@ A Our War Continues|QID|53851|M|58.44,62.67|Z|Zuldazar|LVL|120|N|From Nathanos B
 C Our War Continues|QID|53851|M|58.44,62.45|Z|Zuldazar|QO|1|CHAT|N|Speak with Sylvanas Windrunner|
 T Our War Continues|QID|53851|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Azerite Denied|QID|53852|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53851|
-C Talk to Dread-Admiral Tattersail|QID|53852^54042|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound or Darkshore, which ever quesst you want to do first.|
+C Talk to Dread-Admiral Tattersail|ACTIVE|53852^54042|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound or Darkshore, which ever quesst you want to do first.|
 
 ; Darkshore opening
 T Trouble in Darkshore|QID|54042|M|53.62,20.41|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
@@ -822,7 +822,7 @@ A Aftermath|QID|54050|M|54.63,20.83|Z|Darkshore#1333|N|From Sira Moonwarden.|PRE
 C Aftermath|QID|54050|M|51.74,21.63|Z|Darkshore#1333|QO|1|CHAT|N|Speak to Nathanos.|
 T Aftermath|QID|54050|M|51.74,21.64|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
 A Warfront Preparations|QID|54416|M|51.74,21.64|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54050|
-P Warfront Preparations|ACTIVE|54416|M|52.71,21.26|QO|1|N|Take the portal provided or otherwise return to the Port of Zandalar.|
+P Warfront Preparations|ACTIVE|54416|M|52.71,21.26|Z|Darkshore#1333|QO|1|N|Take the portal provided or otherwise return to the Port of Zandalar.|
 T Warfront Preparations|QID|54416|M|52.92,94.52|Z|Dazar'alor|N|To Throk.|
 N War Table|M|52.92,94.52|Z|Dazar'alor|N|Check the table beside Throk to determine if Horde is on Patrol Status or Siege Status and then if siege, queue for the warfront if available, if patrol status you can click on the nearby portal to go kill Darkshore rares if desired.|PRE|54416|
 
@@ -851,7 +851,7 @@ T Buzzkill|QID|54845|M|46.42,35.02|Z|Darkshore!Kalimdor|N|To Zarvik Blastwix.|
 T Tapping the Breach|QID|54844|M|47.91,36.21|Z|Darkshore!Kalimdor|N|To Dark Ranger Velonara.|
 
 ; The Day is Won
-C Talk to Dread-Admiral Tattersail|QID|53852&54042|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound or Darkshore, which ever quesst you want to do first.|
+C Talk to Dread-Admiral Tattersail|QID|53852&54042|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound or Darkshore, which ever quest you want to do first.|
 F Mudfisher Cove|ACTIVE|53852|M|87.27,50.66|Z|Tiragarde Sound|N|Nearest flight point to Rexxar's location is Mudfisher Cove.|FLY|BFA|
 R Westwind Weald|ACTIVE|53852|M|45.34,30.71;45.92,27.89;43.88,23.65|CS|N|Cross the river and run up the hill to find Rexxar overlooking a waterfall.|FLY|BFA|
 T Azerite Denied|QID|53852|M|47.51,21.79|Z|Tiragarde Sound|N|To Rexxar.|
