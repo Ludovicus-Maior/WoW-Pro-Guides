@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-01-06 10:20
+-- Who: Emmaleah
+-- Log: Add Rep to Expanding our Influence (guessing its honored since that is when the first missions come available) Add PRE to The Calm before (also a guess of correct pre)
+
+-- URL: http://wow-pro.com/node/3760/revisions/30173/view
 -- Date: 2018-12-31 19:34
 -- Who: Ludovicus_Maior
 -- Log: Remove extra ACTIVE|54169| and NC|
@@ -248,11 +253,6 @@
 -- Date: 2018-07-15 04:43
 -- Who: Emmaleah
 -- Log: change sort level
-
--- URL: http://wow-pro.com/node/3760/revisions/29423/view
--- Date: 2018-07-14 23:05
--- Who: Emmaleah
--- Log: change zone name from ChamberOfHeart to Chamber Of Heart
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -842,9 +842,9 @@ A Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Spea
 T Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|
 
 ; Patch 8.1 quests
-A Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|From Vindicator Jaelaana.|
+A Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|From Vindicator Jaelaana.|REP|7th Legion;2159;honored-exalted|
 t Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|To Vindicator Jaelaana.|
-A The Calm Before|QID|53986|M|70.71,27.07|Z|Boralus|N|From Master Mathias Shaw.|
+A The Calm Before|QID|53986|M|70.71,27.07|Z|Boralus|N|From Master Mathias Shaw.|PRE|52790|
 F Proudmoore Keep|ACTIVE|53986|M|67.0,15.0|Z|Boralus|N|At Joan Weber. Take a flight or run over to Proudmoore Keep to meet up with Jaina.|
 C The Calm Before|QID|53986|M|67.26,36.23|Z|Tiragarde Sound|CHAT|QO|1|N|Take the report to Jaina.|
 C The Calm Before|QID|53986|M|67.04,36.22|Z|Tiragarde Sound|NC|QO|2|N|Wait for the conversation to finish.|
