@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2019-01-07 00:00
+-- Who: Emmaleah
+-- Log: missing QO|1 on Mojambo
+
+-- URL: http://wow-pro.com/node/3772/revisions/30143/view
 -- Date: 2018-12-02 01:30
 -- Who: Ludovicus_Maior
 -- Log: Move the /p up
@@ -417,7 +422,7 @@ A Arming the Tribe|QID|48847|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48850&5160
 C Arming the Tribe|QID|48847|M|42.40,76.26|CHAT|N|Run around the outpost arming villagers.|
 T Arming the Tribe|QID|48847|M|43.39,75.36|N|To Razgari.|
 A Mojambo|QID|51668|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48847|
-K Mojambo|ACTIVE|51668|M|43.39,73.84|U|160525|T|Mojambo|N|Target Mojambo and throw down Tongo's head to start fight with Mojambo. You do not need to worry about the rest of the NPCs in the arena.|
+K Mojambo|ACTIVE|51668|M|43.39,73.84|QO|1|U|160525|T|Mojambo|N|Target Mojambo and throw down Tongo's head to start fight with Mojambo. You do not need to worry about the rest of the NPCs in the arena.|
 
 A Saurid Surprise|QID|50901|M|42.19,72.06|N|From Jani, after rummaging in her mysterious trash pile.|PRE|47442|RANK|3|
 C Saurid Surprise|QID|50901|M|42.19,72.06|QO|1|CHAT|N|Ask Jani for the disguise.|
