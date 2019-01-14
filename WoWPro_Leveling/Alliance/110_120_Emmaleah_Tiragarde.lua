@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2019-01-13 21:57
+-- Who: Emmaleah
+-- Log: |US| to 2 steps in [the bears and the bees]
+
+-- URL: http://wow-pro.com/node/3769/revisions/30133/view
 -- Date: 2018-11-19 06:12
 -- Who: jovieve
 -- Log: Made turn-in steps for bonus objectives into t steps so people who choose to skip them won't have to manually skip both the C and the T steps.
@@ -797,8 +802,8 @@ A Helping Henry|QID|49412|M|47.71,17.63|N|From "Helpless" Henry.|RANK|2|
 C Helping Henry|QID|49412|M|48.71,18.01|N|Kill Brawr.|
 T Helping Henry|QID|49412|M|47.75,17.61|N|To "Helpless" Henry.|
 C Hold Still|QID|49394|M|48.19,19.79|US|U|153596|N|Finish collecting the Goat Fur.|
-C The Bears and the Bees|QID|49395|M|47.36,19.39|S|QO|2|N|Finish killing the Scruffhide Bears.|
-C The Bears and the Bees|QID|49395|M|47.36,19.39|S|QO|1|N|Finish collecting the honeycombs.|
+C The Bears and the Bees|QID|49395|M|47.36,19.39|US|QO|2|N|Finish killing the Scruffhide Bears.|
+C The Bears and the Bees|QID|49395|M|47.36,19.39|US|QO|1|N|Finish collecting the honeycombs.|
 T Hold Still|QID|49394|M|42.36,22.28|N|To Tagart.|
 T The Bears and the Bees|QID|49395|M|42.36,22.28|N|To Tagart.|
 t WANTED: The Hornet|QID|51368|M|42.36,22.28|N|To Tagart.|
