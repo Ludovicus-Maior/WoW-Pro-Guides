@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-01-15 02:52
+-- Who: Emmaleah
+-- Log: reworking choice around sylvanus vs saurfang
+
+-- URL: http://wow-pro.com/node/3761/revisions/30186/view
+-- Date: 2019-01-14 23:59
+-- Who: Emmaleah
+-- Log: Add rep gate to A Mech for a Goblin and other misc adj.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30185/view
+-- Date: 2019-01-14 13:16
+-- Who: Emmaleah
+-- Log: various updates since 8.1
+
+-- URL: http://wow-pro.com/node/3761/revisions/30180/view
 -- Date: 2019-01-06 10:14
 -- Who: Emmaleah
 -- Log: add missing Z tag for Portal to return to Port of Zandalar
@@ -236,21 +251,6 @@
 -- Date: 2018-08-14 07:20
 -- Who: Emmaleah
 -- Log: removed lvl 112 from first foothold
-
--- URL: http://wow-pro.com/node/3761/revisions/29504/view
--- Date: 2018-08-13 16:46
--- Who: Emmaleah
--- Log: played thru 2nd lvl 120 quest arc
-
--- URL: http://wow-pro.com/node/3761/revisions/29492/view
--- Date: 2018-08-11 00:50
--- Who: Emmaleah
--- Log: War Campaign thru the end, but untested, last 4 steps from You Tube/Wowhead. (thanks to Varenne for her excellent posts and videos.) Ultimately I would like this guide to contain all Kul Tiras quests, rares, treasure and probably explore points. But that is a longer term goal than release of BfA
-
--- URL: http://wow-pro.com/node/3761/revisions/29417/view
--- Date: 2018-07-10 10:35
--- Who: Emmaleah
--- Log: war campaign - first 2 footholds. still need Tiragarde. Took all the stuff that was here and moved to Intro guide for prepatch.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -740,13 +740,13 @@ C The Bulk of the Guard|QID|52186|M|91.62,52.14|Z|Tiragarde Sound|US|N|Finish up
 T Old Colleagues|QID|52187|M|91.62,52.14;86.95,53.08|CS|Z|Tiragarde Sound|N|Ask Hobart for a ride back to the Harbor, where you will find and turn in quest to Captain Amalia Stone.|
 T The Bulk of the Guard|QID|52186|M|86.92,53.12|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
 A A Well Placed Portal|QID|52185|M|86.92,53.12|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|52187&52186|
-C A Well Placed Portal|QID|52185|M|86.98,52.51|Z|Tiragarde Sound|N|Take the portal, located just in a small shed, just outside and to your left.|
+C A Well Placed Portal|QID|52185|M|86.98,52.51|Z|Tiragarde Sound|NC|N|Take the portal, located just in a small shed, just outside and to your left.|
 T A Well Placed Portal|QID|52185|M|71.19,84.76|Z|Boralus|N|To Thomas Zelling.|
 A Relics of Ritual|QID|52184|M|71.19,84.76|Z|Boralus|N|From Thomas Zelling.|PRE|52185|
 A Forfeit Souls|QID|52189|M|71.19,84.76|Z|Boralus|N|From Thomas Zelling.|PRE|52185|
 A Tidesage Teachings|QID|52188|M|71.19,84.76|Z|Boralus|N|From Thomas Zelling.|PRE|52185|
 C Forfeit Souls|QID|52189|M|65.06,81.19|Z|Boralus|S|N|Kill Tidesages as you go.|
-C Tidesage Teachings|QID|52188|M|65.06,81.19|Z|Boralus|S|N|The Tomes drop off of the tidesages you are killing.|
+C Tidesage Teachings|QID|52188|M|65.06,81.19|Z|Boralus|S|NC|N|The Tomes are scattered around near the tidesages you are killing.|
 K Archivist Medira|QID|52184|QO|1|M|67.41,82.06|Z|Boralus|T|Archivist Medira|N|Kill Archivist Medira to loot the Compass of Clarity|ACTIVE|52184|
 K Brother Marrin|QID|52184|QO|2|M|63.97,80.76|Z|Boralus|T|Brother Marrin|N|Kill Brother Marrin to loot the Curio of the Depths.|ACTIVE|52184|
 K Unleashed Tidebreaker|QID|52184|QO|3|M|59.64,86.41|Z|Boralus|T|Unleashed Tidebreaker|N|Kill Unleashed Tidebreaker to loot Key of the Sea.|ACTIVE|52184|
@@ -757,7 +757,7 @@ T Forfeit Souls|QID|52189|M|71.13,84.88|Z|Boralus|N|To Thomas Zelling.|
 T Tidesage Teachings|QID|52188|M|71.13,84.88|Z|Tiragarde Sound|N|To Thomas Zelling.|
 A Gaining the Upper Hand|QID|52190|M|71.19,84.76|Z|Boralus|N|From Thomas Zelling.|PRE|52184&52188&52189|
 C Gaining the Upper Hand|QID|52190|QO|1|M|71.19,84.76|Z|Boralus|CHAT|N|Tell Zelling you are ready|
-C Gaining the Upper Hand|QID|52190|QO|2|M|71.12,82.54|Z|Boralus|NC|N|Go up the stairs to get outside and find the building next to you. Go DOWN into its basement and click on the Key of the Sea, in the scrying dish, to begin the ritual.|
+C Gaining the Upper Hand|QID|52190|QO|2|M|71.12,82.54|Z|Boralus|NC|N|Go up the stairs to get outside and find the building next to you. Go DOWN into its' basement and click on the Key of the Sea, in the scrying dish, to begin the ritual.|
 C Gaining the Upper Hand|QID|52190|QO|3|M|71.12,82.54|Z|Boralus|N|Kill the things that attack to protect Zelling while he performs the ritual.|
 C Gaining the Upper Hand|QID|52190|QO|4|M|71.12,82.54|Z|Boralus|NC|N|Grab the Abyssal Scepter.|
 T Gaining the Upper Hand|QID|52190|M|71.12,82.54|Z|Boralus|N|To Thomas Zelling.|
@@ -776,17 +776,18 @@ A Champion: Lilian Voss|QID|52861|M|58.40,62.71|Z|Zuldazar|N|From Lilian Voss.|P
 T Champion: Lilian Voss|QID|52861|M|58.40,62.71|Z|Zuldazar|N|To Lilian Voss.|
 H The Great Seal|ACTIVE|53003|M|58.40,62.71|Z|Zuldazar|N|Hearth, or otherwise get yourself to a portal to Orgrimmar.|
 P Orgrimmar|ACTIVE|53003|M|51.54,45.89|Z|Dazar'alor|N|Take the portal to Orgrimmar|
-T A Cycle of Hatred|QID|53003|M|48.39,71.16|Z|Orgrimmar|N|To Sylvanas Windrunner.|
-P Dazar'alor|AVAILABLE|54097|M|47.51,60.06|Z|Orgrimmar|N|Use the portal or otherwise return to Zandalar|PRE|53003|
+T A Cycle of Hatred|QID|53003|M|48.39,71.16|Z|Orgrimmar|N|To Sylvanas Windrunner. If you just finished A Way Out, you will need to exit Grommash Hold, then return to turn this one in.|
+A Our War Continues|QID|53850|M|48.39,71.16|Z|Orgrimmar|N|From Sylvanas Windrunner.|PRE|53003|
+P Dazar'alor|ACTIVE|53850|M|47.51,60.06|Z|Orgrimmar|N|Use the portal or otherwise return to Zandalar|PRE|53003|
 
 ; 8.1 Quests
 
 A Trouble in Darkshore|QID|54042|M|52.98,94.33|Z|Dazar'alor|LVL|120|N|From Dark Ranger Velonara.|PRE|53003|
-A Our War Continues|QID|53851|M|58.44,62.67|Z|Zuldazar|LVL|120|N|From Nathanos Blightcaller.|PRE|53003|
-C Our War Continues|QID|53851|M|58.44,62.45|Z|Zuldazar|QO|1|CHAT|N|Speak with Sylvanas Windrunner|
+A Our War Continues|QID|53851|M|58.44,62.67|Z|Zuldazar|LVL|120|N|From Nathanos Blightcaller.|PRE|53003|LEAD|53850|
+C Our War Continues|QID|53851|M|58.44,62.45|Z|Zuldazar|QO|1|CHAT|N|Speak with Sylvanas Windrunner on the Banshee's Wail.|
 T Our War Continues|QID|53851|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Azerite Denied|QID|53852|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53851|
-C Talk to Dread-Admiral Tattersail|ACTIVE|53852^54042|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound or Darkshore, which ever quesst you want to do first.|
+A Azerite Denied|QID|53852|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53850^53851|
+C Talk to Dread-Admiral Tattersail|ACTIVE|53852^54042|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound or Darkshore, which ever quest you want to do first.|
 
 ; Darkshore opening
 T Trouble in Darkshore|QID|54042|M|53.62,20.41|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
@@ -824,7 +825,7 @@ T Aftermath|QID|54050|M|51.74,21.64|Z|Darkshore#1333|N|To Nathanos Blightcaller.
 A Warfront Preparations|QID|54416|M|51.74,21.64|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54050|
 P Warfront Preparations|ACTIVE|54416|M|52.71,21.26|Z|Darkshore#1333|QO|1|N|Take the portal provided or otherwise return to the Port of Zandalar.|
 T Warfront Preparations|QID|54416|M|52.92,94.52|Z|Dazar'alor|N|To Throk.|
-N War Table|M|52.92,94.52|Z|Dazar'alor|N|Check the table beside Throk to determine if Horde is on Patrol Status or Siege Status and then if siege, queue for the warfront if available, if patrol status you can click on the nearby portal to go kill Darkshore rares if desired.|PRE|54416|
+N War Table|AVAILABLE|53955^53416|M|52.92,94.52|Z|Dazar'alor|N|Check the table beside Throk to determine if Horde is on Patrol Status or Siege Status and then if siege, queue for the warfront if available, if patrol status you can click on the nearby portal to go kill Darkshore rares if desired.|PRE|54416|
 
 ; darkshore quests
 A Buzzkill|QID|54845|M|46.40,35.11|Z|Darkshore!Kalimdor|N|From Zarvik Blastwix.|PRE|54416|
@@ -851,9 +852,9 @@ T Buzzkill|QID|54845|M|46.42,35.02|Z|Darkshore!Kalimdor|N|To Zarvik Blastwix.|
 T Tapping the Breach|QID|54844|M|47.91,36.21|Z|Darkshore!Kalimdor|N|To Dark Ranger Velonara.|
 
 ; The Day is Won
-C Talk to Dread-Admiral Tattersail|QID|53852&54042|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound or Darkshore, which ever quest you want to do first.|
+C Talk to Dread-Admiral Tattersail|QID|53852|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound.|
 F Mudfisher Cove|ACTIVE|53852|M|87.27,50.66|Z|Tiragarde Sound|N|Nearest flight point to Rexxar's location is Mudfisher Cove.|FLY|BFA|
-R Westwind Weald|ACTIVE|53852|M|45.34,30.71;45.92,27.89;43.88,23.65|CS|N|Cross the river and run up the hill to find Rexxar overlooking a waterfall.|FLY|BFA|
+R Westwind Weald|ACTIVE|53852|M|45.34,30.71;45.92,27.89;43.88,23.65|CS|Z|Tiragarde Sound|N|Cross the river and run up the hill to find Rexxar overlooking a waterfall.|FLY|BFA|
 T Azerite Denied|QID|53852|M|47.51,21.79|Z|Tiragarde Sound|N|To Rexxar.|
 A The Fury of the Horde|QID|53856|M|47.51,21.79|Z|Tiragarde Sound|N|From Rexxar.|PRE|53852|
 C The Fury of the Horde|QID|53856|M|47.51,21.79|Z|Tiragarde Sound|CHAT|N|Tell Rexxar to deploy the Horde army.|
@@ -877,11 +878,11 @@ C Ride Out to Meet Them|QID|53973|M|53.04,30.32|Z|Tiragarde Sound|QO|1|NC|N|Hop 
 C Ride Out to Meet Them|QID|53973|M|50.22,27.05|Z|Tiragarde Sound|QO|2|N|Use the Gyrocopter's UI Abilities to defeat the Alliance army.|
 T Ride Out to Meet Them|QID|53973|M|47.41,21.82|Z|Tiragarde Sound|N|To Rexxar.|
 A The Day is Won|QID|53981|M|47.41,21.82|Z|Tiragarde Sound|N|From Rexxar.|PRE|53973|
-H Zuldazar|ACTIVE|53981|M|47.41,21.82|Z|Tiragarde Sound|N|Hearth or otherwise return to The Banshee's Wail in the Port of Zandalar.|
+H Zuldazar|ACTIVE|53981|M|47.41,21.82|Z|Tiragarde Sound|TZ|The Great Seal|N|Hearth or otherwise return to The Banshee's Wail in the Port of Zandalar.|
 T The Day is Won|QID|53981|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
 ; mekkatorque's battle plans
-A A Mech for a Goblin|QID|53941|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53981|
+A A Mech for a Goblin|QID|53941|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53981|REP|The Honorbound;2157;revered;7000|
 F Xibala|ACTIVE|53941|M|52.10,90.16|Z|Dazar'alor|N|Xibala is as close as you can fly, then you have to run the rest of the way.|
 T A Mech for a Goblin|QID|53941|M|36.30,72.02|Z|Zuldazar|N|To Trade Prince Gallywix.|
 A It Belongs in My Mech!|QID|54123|M|36.30,72.02|Z|Zuldazar|N|From Trade Prince Gallywix.|PRE|53941|
@@ -1071,7 +1072,7 @@ A The High Overlord|QID|54099|M|48.31,71.08|Z|Orgrimmar|N|From Lady Sylvanas Win
 C The High Overlord|QID|54099|M|48.31,71.08|Z|Orgrimmar|CHAT|N|Listen to Sylvanas|
 T The High Overlord|QID|54099|M|48.31,71.08|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
 A A Way Out|QID|54100|M|48.31,71.08|Z|Orgrimmar|N|From Lady Sylvanas Windrunner.|PRE|54099|
-b Zep to Grom'gol|ACTIVE|54100|M|52.90,52.78|Z|Orgrimmar|N|Take the zep to Grom'gol or otherwise travel to the Eastern Kingdom.|
+b Grom'gol Base Camp (via zep)|ACTIVE|54100|M|52.90,52.78|Z|Orgrimmar|TZ|Northern Stranglethorn|N|Take the zep to Grom'gol or otherwise travel to the Eastern Kingdom.|
 R Elwynn Forest|ACTIVE|54100|M|30.66,89.57|Z|Elwynn Forest|N|Travel to Elwynn Forest.|
 T A Way Out|QID|54100|M|30.54,57.67|Z|Elwynn Forest|N|To Dark Ranger Lyana.|
 A On Track|QID|54101|M|30.54,57.67|Z|Elwynn Forest|N|From Dark Ranger Lyana.|PRE|54100|
@@ -1104,7 +1105,8 @@ C Tracking Tipoff|QID|54106|M|80.65,47.00|Z|Redridge Mountains|QO|1|U|165638|NC|
 C Tracking Tipoff|QID|54106|M|81.49,51.90|Z|Redridge Mountains|QO|2|NC|N|Wait by Hunter McAlister for the conversation to end.|
 C Tracking Tipoff|QID|54106|M|81.34,52.56|Z|Redridge Mountains|QO|3|N|After he gets suspecious, kill Hunter McAlister.|
 T Tracking Tipoff|QID|54106|M|81.43,52.49|Z|Redridge Mountains|N|To Dark Ranger Lyana.|
-A Grim Tidings|QID|54107|M|82.12,52.70|Z|Redridge Mountains|N|From Zekhan. At this point you have a choice, either accept the quest, or choose the chat option.|PRE|54106|
+A Zekhan has some Grim Tidings for you!|QID|54107^54754|M|82.12,52.70|Z|Redridge Mountains|N|Choose to support the Queen or Saurfang. To support the Queen, choose the chat option. To choose to Support Saurfang, accept the quest.|PRE|54106|;step test not quest name to force notice of choice.
+;A For the Queen|QID|54754|AVAILABLE|54107|PRE|54106|M|82.12,52.70|Z|Redridge Mountains|N|From UI Alert, if you do not to betray your warchief.|--commented out in case above line change doesnt work the way I expect-- this line can be deleted after it is testing.
 t Grim Tidings|QID|54107|M|79.79,74.75|Z|Swamp of Sorrows|N|To Zekhan.|
 A A Warrior's Death|QID|54108|M|79.79,74.75|Z|Swamp of Sorrows|N|From Zekhan.|PRE|54107|
 C A Warrior's Death|QID|54108|M|80.68,77.62|Z|Swamp of Sorrows|N|Talk to Saurfang, the patrol will become hostile and you need to kill them.|
@@ -1112,10 +1114,9 @@ T A Warrior's Death|QID|54108|M|80.79,78.73|Z|Swamp of Sorrows|N|To Varok Saurfa
 A Queen's Favor|QID|54109|M|80.79,78.73|Z|Swamp of Sorrows|N|From Varok Saurfang.|PRE|54108|
 C Queen's Favor|QID|54109|M|80.79,78.73|Z|Swamp of Sorrows|CHAT|N|Tell Saurfang you are ready to take the hit.|
 R Grom'gol Base Camp|ACTIVE|54109|M|37.19,52.28|Z|Northern Stranglethorn|N|Head to the zep tower in Grom'gol or otherwise travel to Orgrimmar.|
-b Orgrimmar|ACTIVE|54109|M|37.19,52.28|Z|Northern Stranglethorn|N|Return to Orgrimmar.|
+b Orgrimmar|ACTIVE|54109^54754|M|37.19,52.28|Z|Northern Stranglethorn|N|Return to Orgrimmar.|
 T Queen's Favor|QID|54109|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
-A For the Queen|QID|54754|ACTIVE|-54107|PRE|54106|M|82.12,52.70|Z|Redridge Mountains|N|From UI Alert, if you do not to betray your warchief.|
-
+T For the Queen|QID|54754|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
 ; Rep Gated Notes
 N Come back at level 114|QID|51979|LVL|-114|N|Next foothold can be done when you are level 114.|PRE|51803|
 N Come back at level 116|QID|53062|LVL|-116|N|Island Adventures can be done when you are level 116. This quest is once per account. Once unlocked on the account, Other toons on the account can do Island Adventures as early as 110.|PRE|51979|
@@ -1128,6 +1129,9 @@ N Rep Gated until 7.5K into Honored|QID|52764|N|So, go out Contribute to the War
 N More Scouting Missions|QID|53739^53740^53741^53742^53743^53744^53745|M|58.06,62.65|Z|Zuldazar|US|N|Get those scouting missions (from the table) done so you can open up more flightpaths.|REP|The Honorbound;2157;revered-exalted|
 N Rep Gated until Revered|QID|52183|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at revered.|PRE|52978|REP|The Honorbound;2157;revered;0;true|
 N Outposts and Rep|QID|53103^53152^53126^52320^52479^53101^53082^54260|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Mag'har Orc Allied Race|PRE|53003|
+N Rep Gated until 7K into Revered|QID|53941|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 7K into revered.|PRE|53981|REP|The Honorbound;2157;revered;7000;true|
+N Rep Gated until 14K into Revered|QID|54121|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 14K into revered.|PRE|50606|REP|The Honorbound;2157;revered;14000;true|
+
 ]]
 end)
 
