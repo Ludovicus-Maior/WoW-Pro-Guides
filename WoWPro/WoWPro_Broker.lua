@@ -1520,13 +1520,15 @@ function WoWPro.NextStep(k,i)
 				for p=1,6 do
 					if profs[p] then
 						local skillName, _, skillRank, maxskill, _, _, skillnum, rankModifier = GetProfessionInfo(profs[p])
+-- 02003 ~ 082959 WoWPro: Prof prof=Tailoring,197 level=75, max_level=0, max_skill=0
+-- 02004 ~ 082959 WoWPro: GetProfessionInfo() = Tailoring, skillRank=1, maxskill=100, skillnum=197
 						if (tonumber(skillnum) == tonumber(profnum)) then
 							hasProf = true
 							if WoWPro.action[k] == "M" then
 							    proflvl = math.max(proflvl-rankModifier,1)
 							    profmaxlvl = math.max(profmaxlvl-rankModifier,1)
 							end
-							WoWPro:dbp("Prof prof=%s,%d level=%d, max_level=%d, max_skill=%d",  prof, profnum, proflvl, profmaxlvl, profmaxskill)
+							WoWPro:dbp("Prof prof=%s,%d proflvl=%d, profmaxlvl=%d, profmaxskill=%d",  prof, profnum, proflvl, profmaxlvl, profmaxskill)
 							WoWPro:dbp("GetProfessionInfo() = %s, skillRank=%d, maxskill=%d, skillnum=%d", skillName, skillRank, maxskill, skillnum)
 							if (profmaxlvl == 0) and (skillRank >= proflvl) then
 							    WoWPro.why[k] = "NextStep(): profmaxlvl == 0 and skillRank >= proflvl"
@@ -2943,8 +2945,23 @@ end
 -- /run WoWPro:Questline("14282")
 -- /run WoWPro:Questline("10006")
 
+function WoWPro.Cannonball()
+    WoWPro:LogClear("Cannonball")
+    SelectGossipOption(2)
+    WoWPro.TrackerTimer = 14
+end
 
 function WoWPro.LockdownHandler(self, elapsed)
+    if WoWPro.TrackerTimer ~= nil then
+        WoWPro.TrackerTimer = WoWPro.TrackerTimer - elapsed
+        if WoWPro.TrackerTimer < 0 then
+            WoWPro.TrackerTimer = nil
+            return
+        end
+        local x,y,m = WoWPro:GetPlayerZonePosition()
+        WoWPro:dbp("TrackerTimer: %03.3f, Position %02.2f %02.2f", WoWPro.TrackerTimer, x*100, y*100)
+        return
+    end
 	if WoWPro.LockdownTimer ~= nil then
 		WoWPro.LockdownTimer = WoWPro.LockdownTimer - elapsed
 		if WoWPro.LockdownTimer < 0 then
