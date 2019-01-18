@@ -58,12 +58,16 @@ function WoWPro.TakeTaxi(index,destination)
         -- nodeID=1613, slotIndex=1, type=3, x=0.34, y=0.53, name="Azurewing Repose, Azuna"
         local location,zone = string.split(",", taxiNodeData.name)
         if strfind(location, destination,1,true) or (taxiNodeData.name == destination) then
+            if taxiNodeData.state ~= Enum.FlightPathState.Reachable then
+                WoWPro:Warning("Flight point [%s] is not reachable (%d)", location, taxiNodeData.state)
+                return
+            end
             WoWPro:Print("Taking flight to: [%s]",location)
             if IsMounted() then
                 Dismount()
             end
             TakeTaxiNode(taxiNodeData.slotIndex)
-            WoWPro.CompleteStep(index,"Took known new flight point")
+            -- wait till we see PLAYER_CONTROL_LOST and UnitOnTaxi("player") to complete this step.
             return
         end
     end
@@ -807,6 +811,24 @@ WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function (event,...)
         WoWPro.TakeTaxi(qidx,WoWPro.step[qidx])
 	end
     end)
+
+WoWPro.RegisterEventHandler("PLAYER_CONTROL_LOST", function (event,...)
+    C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
+        WoWPro.PLAYER_CONTROL_LOST_PUNTED(event)
+        end)
+    end)
+
+function WoWPro.PLAYER_CONTROL_LOST_PUNTED(event,...)
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    if (WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b") then
+        if UnitOnTaxi("player") then
+            WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: UnitOnTaxi! calling CompleteStep")
+            WoWPro.CompleteStep(qidx,"Took a taxi")
+        else
+            WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: not on taxi!")
+        end
+    end
+end
 
 WoWPro.RegisterEventHandler("CHAT_MSG_SYSTEM", function (event,...)
 	WoWPro:AutoCompleteSetHearth(...)
