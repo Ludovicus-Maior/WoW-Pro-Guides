@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-01-18 04:50
+-- Who: Emmaleah
+-- Log: final segment of tides of vengeance to become available 22 Jan 2019.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30188/view
 -- Date: 2019-01-15 02:52
 -- Who: Emmaleah
 -- Log: reworking choice around sylvanus vs saurfang
@@ -246,11 +251,6 @@
 -- Date: 2018-08-17 18:44
 -- Who: Emmaleah
 -- Log: added A War Campaign, edited T War Campaign to mention the 100 resources needed, edited note about treasure for better grammer.
-
--- URL: http://wow-pro.com/node/3761/revisions/29514/view
--- Date: 2018-08-14 07:20
--- Who: Emmaleah
--- Log: removed lvl 112 from first foothold
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -720,7 +720,77 @@ A With Prince in Tow|QID|52978|M|40.10,67.99|Z|The Great Sea!Instance!Azeroth|N|
 C With Prince in Tow|ACTIVE|52978|M|39.90,68.31|Z|The Great Sea!Instance!Azeroth|CHAT|N|Tell Tattersail you want to return to Zandalar.|
 T With Prince in Tow|QID|52978|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
-B More Scouting Missions|QID|53739^53740^53741^53742^53743^53744^53745|M|58.06,62.65|Z|Zuldazar|S|N|Now that you're Revered you can purchase 5 more Scouting Reports from the Emissary to unlock outposts (additional flight paths!).The sooner you start those missions, the sooner you will have more flightpoints in Kul Tiras.|REP|The Honorbound;2157;revered-exalted|AVAILABLE|53739^53740^53741^53742^53743^53744^53745|
+B More Scouting Missions|QID|53739^53740^53741^53742^53743^53744^53745|M|58.06,62.65|Z|Zuldazar|S!US|N|Now that you're Revered you can purchase 5 more Scouting Reports from the Emissary to unlock outposts (additional flight paths!).The sooner you start those missions, the sooner you will have more flightpoints in Kul Tiras.|REP|The Honorbound;2157;revered-exalted|AVAILABLE|53739^53740^53741^53742^53743^53744^53745|
+; The Revered Repuation Mission Report: Hillcrest Pasture
+A Mission Report: Hillcrest Pasture|QID|52478|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
+T Mission Report: Hillcrest Pasture|QID|52478|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Hillcrest Pasture|QID|52479|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52478|
+
+; The Revered Repuation Mission Report: Mudfisher Cove
+A Mission Report: Mudfisher Cove|QID|52313|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
+T Mission Report: Mudfisher Cove|QID|52313|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Mudfisher Cove|QID|52314|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52313|
+
+; The Revered Repuation Mission Report: Stonetusk Watch
+A Mission Report: Stonetusk Watch|QID|52776|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
+T Mission Report: Stonetusk Watch|QID|52776|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Stonetusk Watch|QID|52777|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52776|
+
+; The Revered Repuation Mission Report: Stonefist Watch
+A Mission Report: Stonefist Watch|QID|52221|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
+T Mission Report: Stonefist Watch|QID|52221|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Stonefist Watch|QID|52222|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52221|
+
+; The Revered Repuation Mission Report: Windfall Cavern
+A Mission Report: Windfall Cavern|QID|52319|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
+T Mission Report: Windfall Cavern|QID|52319|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Windfall Cavern|QID|52320|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52319|
+
+; The Revered Repuation Mission Report: Hillcrest Pasture;part2
+R Stormsong Valley|ACTIVE|52479|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
+F Wolf's Den|ACTIVE|52479|M|51.43,33.74|Z|Stormsong Valley|N|Wolf's Den is the closest flightpoint, if you don't want to run and do WQs on the way.|
+C Hillcrest Pasture|QID|52479|M|53.42,77.66|Z|Stormsong Valley|NC|N|Make your way to the outpost to claim it.|
+f Hillcrest Pasture|ACTIVE|52479|M|52.77,80.13|Z|Stormsong Valley|N|At Hosan Cloudhoof.|
+T Hillcrest Pasture|QID|52479|M|54.19,78.65|Z|Stormsong Valley|N|To Ruknoz Greyfang.|
+
+; The Revered Repuation Mission Report: Mudfisher Cove-part2
+R Drustvar|ACTIVE|52314|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Drustvar or get there through other means.|
+C Mudfisher Cove|QID|52314|M|61.83,16.33|Z|Drustvar|NC|N|Closest flightpoint is Waning Glacier, make your way to the outpost to claim it.|
+f Mudfisher Cove|ACTIVE|52314|M|62.03,16.88|Z|Drustvar|N|At Drasha Windspear.|
+T Mudfisher Cove|QID|52314|M|62.43,17.01|Z|Drustvar|N|To Garn Blackwolf.|
+A Mission Report: Into The Wicker|QID|53125|M|51.51,99.63|Z|Dazar'alor|PRE|52314|REP|The Honorbound;2157;revered;0|O|
+T Mission Report: Into The Wicker|QID|53125|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A The Wicker Totem|QID|53126|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53125|
+R Drustvar|ACTIVE|53126|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Drustvar or get there through other means.|
+T Mudfisher Cove|QID|53126|M|62.43,17.01|Z|Drustvar|N|Fly to Mudfisher Cove, turn in to Garn Blackwolf.|
+
+; The Revered Repuation Mission Report: Stonetusk Watch;part2
+R Stormsong Valley|ACTIVE|52777|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
+C Stonetusk Watch|QID|52777|M|39.07,64.94;39.09,66.98;39.38,68.34|CS|Z|Stormsong Valley|NC|N|Closest flightpoint is Diretusk Hollow. Follow the arrows to the cave entrance, enter and claim the outpost.|
+f Stonetusk Watch|ACTIVE|52777|M|38.84,66.64|Z|Stormsong Valley|N|At Wyna Breezehorn.|
+T Stonetusk Watch|QID|52777|M|39.41,68.59|Z|Stormsong Valley|N|To Garn Blackwolf.|
+A Mission Report: Giant Slaying|QID|53100|M|51.51,99.63|Z|Dazar'alor|PRE|52777|REP|The Honorbound;2157;revered;0|O|
+T Mission Report: Giant Slaying|QID|53100|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Nettin' Ettin|QID|53101|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53100|
+R Stormsong Valley|ACTIVE|53101|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
+T Nettin' Ettin|QID|53101|M|38.84,66.63|Z|Stormsong Valley|N|Fly to Stonetusk Watch, turn in to Wyna Breezehorn.|
+
+; The Revered Repuation Mission Report: Stonefist Watch-part2
+R Tiragarde Sound|ACTIVE|52222|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Tiragarde Sound or get there through other means.|
+C Stonefist Watch|QID|52222|M|53.28,63.26|Z|Tiragarde Sound|NC|N|Closest flightpoint is Timberfell Outpost, make your way to the outpost to claim it. Road from NW of island is best path there.|
+f Stonefist Watch|ACTIVE|52222|M|53.14,63.17|Z|Tiragarde Sound|N|At Munovuth Boldcleaver.|
+T Stonefist Watch|QID|52222|M|53.63,63.35|Z|Tiragarde Sound|N|To Kora Gorekill.|
+A Mission Report: Spare Parts|QID|53081|M|51.51,99.63|Z|Dazar'alor|PRE|52222|REP|The Honorbound;2157;revered;0|O|
+T Mission Report: Spare Parts|QID|53081|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Spare Parts|QID|53082|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53081|
+R Tiragarde Sound|ACTIVE|53082|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Tiragarde Sound or get there through other means.|
+T Spare Parts|QID|53082|M|52.86,62.25|Z|Tiragarde Sound|N|Fly to Stonefist Watch, turn in to Grizvek Gearsnap.|
+
+; The Revered Repuation Mission Report: Windfall Cavern-part2
+R Stormsong Valley|ACTIVE|52320|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
+C Windfall Cavern|QID|52320|M|60.70,26.71;60.33,25.28|CS|Z|Stormsong Valley|NC|N|Closest flightpoint is Warfang hold. Follow arrow to cave entrance, enter and claim the outpost.|
+f Windfall Cavern|ACTIVE|52320|M|52.77,80.13|Z|Stormsong Valley|N|At Allabas.|
+T Windfall Cavern|QID|52320|M|60.21,24.98|Z|Stormsong Valley|N|To Morn Ironhorn.|
 
 ; The Strike on Boralus - Revered with The Honorbound
 A Operation: Hook and Line|QID|53068|N|Autoaccepted|PRE|52978|REP|The Honorbound;2157;revered;0|O|
@@ -776,15 +846,15 @@ A Champion: Lilian Voss|QID|52861|M|58.40,62.71|Z|Zuldazar|N|From Lilian Voss.|P
 T Champion: Lilian Voss|QID|52861|M|58.40,62.71|Z|Zuldazar|N|To Lilian Voss.|
 H The Great Seal|ACTIVE|53003|M|58.40,62.71|Z|Zuldazar|N|Hearth, or otherwise get yourself to a portal to Orgrimmar.|
 P Orgrimmar|ACTIVE|53003|M|51.54,45.89|Z|Dazar'alor|N|Take the portal to Orgrimmar|
-T A Cycle of Hatred|QID|53003|M|48.39,71.16|Z|Orgrimmar|N|To Sylvanas Windrunner. If you just finished A Way Out, you will need to exit Grommash Hold, then return to turn this one in.|
+T A Cycle of Hatred|QID|53003|M|48.39,71.16|Z|Orgrimmar|N|To Sylvanas Windrunner. If you just received the quest, A Way Out from Sylvanas, you will need to exit Grommash Hold, then return to turn this one in.|
 A Our War Continues|QID|53850|M|48.39,71.16|Z|Orgrimmar|N|From Sylvanas Windrunner.|PRE|53003|
 P Dazar'alor|ACTIVE|53850|M|47.51,60.06|Z|Orgrimmar|N|Use the portal or otherwise return to Zandalar|PRE|53003|
 
 ; 8.1 Quests
 
 A Trouble in Darkshore|QID|54042|M|52.98,94.33|Z|Dazar'alor|LVL|120|N|From Dark Ranger Velonara.|PRE|53003|
-A Our War Continues|QID|53851|M|58.44,62.67|Z|Zuldazar|LVL|120|N|From Nathanos Blightcaller.|PRE|53003|LEAD|53850|
-C Our War Continues|QID|53851|M|58.44,62.45|Z|Zuldazar|QO|1|CHAT|N|Speak with Sylvanas Windrunner on the Banshee's Wail.|
+A Our War Continues|QID|53851|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53003|LEAD|53850|;may have a rep requirement beyond revered, but I don't think so ... so no tag as 53003 also required revered.
+C Our War Continues|QID|53851|M|58.44,62.45|Z|Zuldazar|CHAT|N|Speak with Sylvanas Windrunner on the Banshee's Wail.|
 T Our War Continues|QID|53851|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Azerite Denied|QID|53852|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53850^53851|
 C Talk to Dread-Admiral Tattersail|ACTIVE|53852^54042|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound or Darkshore, which ever quest you want to do first.|
@@ -966,79 +1036,7 @@ C Through the Front Door|QID|54179|M|69.24,64.90|Z|Kul Tiras|NC|N|Wait a moment 
 R Port of Zuldazar|ACTIVE|54179|M|87.85,51.17|Z|Tiragarde Sound|CHAT|N|Ask Erul Dawnbrook for a ride or otherwise return to Zuldazar and the Banshee's Wail.|
 T Through the Front Door|QID|54179|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
-N Fly Out to Meet Them|QID|54280|N|The final segment of Tides of Vengeance is scheduled to be available 1/22/19. Check this off manually to do other parts of the guide.|PRE|54179|
-
-; The Revered Repuation Mission Report: Hillcrest Pasture
-A Mission Report: Hillcrest Pasture|QID|52478|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
-T Mission Report: Hillcrest Pasture|QID|52478|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Hillcrest Pasture|QID|52479|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52478|
-
-; The Revered Repuation Mission Report: Mudfisher Cove
-A Mission Report: Mudfisher Cove|QID|52313|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
-T Mission Report: Mudfisher Cove|QID|52313|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Mudfisher Cove|QID|52314|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52313|
-
-; The Revered Repuation Mission Report: Stonetusk Watch
-A Mission Report: Stonetusk Watch|QID|52776|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
-T Mission Report: Stonetusk Watch|QID|52776|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Stonetusk Watch|QID|52777|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52776|
-
-; The Revered Repuation Mission Report: Stonefist Watch
-A Mission Report: Stonefist Watch|QID|52221|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
-T Mission Report: Stonefist Watch|QID|52221|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Stonefist Watch|QID|52222|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52221|
-
-; The Revered Repuation Mission Report: Windfall Cavern
-A Mission Report: Windfall Cavern|QID|52319|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
-T Mission Report: Windfall Cavern|QID|52319|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Windfall Cavern|QID|52320|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52319|
-
-; The Revered Repuation Mission Report: Hillcrest Pasture;part2
-R Stormsong Valley|ACTIVE|52479|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
-F Wolf's Den|ACTIVE|52479|M|51.43,33.74|Z|Stormsong Valley|N|Wolf's Den is the closest flightpoint, if you don't want to run and do WQs on the way.|
-C Hillcrest Pasture|QID|52479|M|53.42,77.66|Z|Stormsong Valley|NC|N|Make your way to the outpost to claim it.|
-f Hillcrest Pasture|ACTIVE|52479|M|52.77,80.13|Z|Stormsong Valley|N|At Hosan Cloudhoof.|
-T Hillcrest Pasture|QID|52479|M|54.19,78.65|Z|Stormsong Valley|N|To Ruknoz Greyfang.|
-
-; The Revered Repuation Mission Report: Mudfisher Cove-part2
-R Drustvar|ACTIVE|52314|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Drustvar or get there through other means.|
-C Mudfisher Cove|QID|52314|M|61.83,16.33|Z|Drustvar|NC|N|Closest flightpoint is Waning Glacier, make your way to the outpost to claim it.|
-f Mudfisher Cove|ACTIVE|52314|M|62.03,16.88|Z|Drustvar|N|At Drasha Windspear.|
-T Mudfisher Cove|QID|52314|M|62.43,17.01|Z|Drustvar|N|To Garn Blackwolf.|
-A Mission Report: Into The Wicker|QID|53125|M|51.51,99.63|Z|Dazar'alor|PRE|52314|REP|The Honorbound;2157;revered;0|O|
-T Mission Report: Into The Wicker|QID|53125|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A The Wicker Totem|QID|53126|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53125|
-R Drustvar|ACTIVE|53126|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Drustvar or get there through other means.|
-T Mudfisher Cove|QID|53126|M|62.43,17.01|Z|Drustvar|N|Fly to Mudfisher Cove, turn in to Garn Blackwolf.|
-
-; The Revered Repuation Mission Report: Stonetusk Watch;part2
-R Stormsong Valley|ACTIVE|52777|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
-C Stonetusk Watch|QID|52777|M|39.07,64.94;39.09,66.98;39.38,68.34|CS|Z|Stormsong Valley|NC|N|Closest flightpoint is Diretusk Hollow. Follow the arrows to the cave entrance, enter and claim the outpost.|
-f Stonetusk Watch|ACTIVE|52777|M|38.84,66.64|Z|Stormsong Valley|N|At Wyna Breezehorn.|
-T Stonetusk Watch|QID|52777|M|39.41,68.59|Z|Stormsong Valley|N|To Garn Blackwolf.|
-A Mission Report: Giant Slaying|QID|53100|M|51.51,99.63|Z|Dazar'alor|PRE|52777|REP|The Honorbound;2157;revered;0|O|
-T Mission Report: Giant Slaying|QID|53100|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Nettin' Ettin|QID|53101|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53100|
-R Stormsong Valley|ACTIVE|53101|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
-T Nettin' Ettin|QID|53101|M|38.84,66.63|Z|Stormsong Valley|N|Fly to Stonetusk Watch, turn in to Wyna Breezehorn.|
-
-; The Revered Repuation Mission Report: Stonefist Watch-part2
-R Tiragarde Sound|ACTIVE|52222|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Tiragarde Sound or get there through other means.|
-C Stonefist Watch|QID|52222|M|53.28,63.26|Z|Tiragarde Sound|NC|N|Closest flightpoint is Timberfell Outpost, make your way to the outpost to claim it. Road from NW of island is best path there.|
-f Stonefist Watch|ACTIVE|52222|M|53.14,63.17|Z|Tiragarde Sound|N|At Munovuth Boldcleaver.|
-T Stonefist Watch|QID|52222|M|53.63,63.35|Z|Tiragarde Sound|N|To Kora Gorekill.|
-A Mission Report: Spare Parts|QID|53081|M|51.51,99.63|Z|Dazar'alor|PRE|52222|REP|The Honorbound;2157;revered;0|O|
-T Mission Report: Spare Parts|QID|53081|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Spare Parts|QID|53082|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53081|
-R Tiragarde Sound|ACTIVE|53082|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Tiragarde Sound or get there through other means.|
-T Spare Parts|QID|53082|M|52.86,62.25|Z|Tiragarde Sound|N|Fly to Stonefist Watch, turn in to Grizvek Gearsnap.|
-
-; The Revered Repuation Mission Report: Windfall Cavern-part2
-R Stormsong Valley|ACTIVE|52320|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
-C Windfall Cavern|QID|52320|M|60.70,26.71;60.33,25.28|CS|Z|Stormsong Valley|NC|N|Closest flightpoint is Warfang hold. Follow arrow to cave entrance, enter and claim the outpost.|
-f Windfall Cavern|ACTIVE|52320|M|52.77,80.13|Z|Stormsong Valley|N|At Allabas.|
-T Windfall Cavern|QID|52320|M|60.21,24.98|Z|Stormsong Valley|N|To Morn Ironhorn.|
-
+B More upgrade missions.|QID|54294&54296&54297|M|58.06,62.65|Z|Zuldazar|S!US|N|3 More missions to upgrade your outposts purchased from the Emissary. Unlike the previous missions, these need purchased by each character who wants the upgrade.|
 ; Exalted Mission Report: Vulpara Hideaway
 A Mission Report: Vulpera Hideaway|QID|54258|M|51.55,99.60|Z|Dazar'alor|PRE|54296|
 T Mission Report: Vulpera Hideaway|QID|54258|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
@@ -1062,6 +1060,77 @@ A Outpost Upgrade: Zul'jan Ruins|QID|54240|M|58.44,62.68|Z|Zuldazar|N|From Natha
 F Zul'jan Ruins|ACTIVE|54240|M|52.10,90.13|Z|Dazar'alor|N|At Ripa the Wind Ripper. (or otherwise travel to Zul'jan Ruins-Nazmir)|FLY|BFA|
 C Outpost Upgrade: Zul'jan Ruins|QID|54240|M|39.15,77.64|Z|Nazmir|QO|1|NC|N|Honor either of the Altars at Zul'jan Ruins.|
 T Outpost Upgrade: Zul'jan Ruins|QID|54240|M|39.15,77.64|Z|Nazmir|N|To UI Alert.|
+
+; Fly out to Meet Them
+A War Is Here|QID|54139|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|REP|The Honorbound;2157;exalted;0|PRE|54179|
+F The Great Seal|ACTIVE|54139|N|Hearth, Fly or otherwise return to the Great Seal. The King is near the scouting map, not up at his throne.|
+C War Is Here|QID|54139|M|40.07,70.27|Z|Hall of Croniclers!Dazar'alor|QO|1|CHAT|N|Speak with King Rastakhan.|
+T War Is Here|QID|54139|M|41.24,66.68|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
+A Ride of the Zandalari|QID|54140|M|41.24,66.68|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|54139|
+C Ride of the Zandalari|QID|54140|M|49.08,41.28|Z|Dazar'alor|QO|1|CHAT|N|Speak with Captain Rez'okun to mobilize the fleet.|
+R The Zocalo|ACTIVE|54140|M|41.98,26.99|Z|Dazar'alor|N|Head down the stairs, through the Terrace of Crafters and The Zocalo to the bridge where Rakera awaits.|
+C Ride of the Zandalari|QID|54140|M|52.94,40.16|Z|Zuldazar|QO|2|CHAT|N|Speak with General Rakera to mobilize the army.|
+R House of Pa'ku|ACTIVE|54140|M|43.52,24.16;51.35,12.53|Z|Dazar'alor|CS|N|Run back thru The Zacolo and Terrace of the Chosen to directly above The Sliver to find Hexloar Raal.|
+C Ride of the Zandalari|QID|54140|M|52.82,11.90|Z|Dazar'alor|QO|3|CHAT|N|Speak with Hexlord Raal to mobilize the aerial forces.|
+F Blood Gate|ACTIVE|54140|M|52.94,11.69|Z|Dazar'alor|N|Hop on Ata the Winglord for a ride to Talanji and the Blood Gate.|
+T Ride of the Zandalari|QID|54140|M|57.95,21.26|Z|Zuldazar|N|To Princess Talanji.|
+A No One Left Behind|QID|54157|M|57.95,21.26|Z|Zuldazar|N|From Princess Talanji.|PRE|54140|
+A A Path of Blood|QID|54156|M|57.96,21.30|Z|Zuldazar|N|From General Rakera.|PRE|54140|
+C A Path of Blood|QID|54156|M|58.72,20.65|Z|Zuldazar|QO|1|S|S!US|N|Kill alliance forces on your way to rescue Rokhan.|
+C No One Left Behind|QID|54157|M|59.01,18.49|Z|Zuldazar|QO|1|T|Blademaster Telaamon|N|Attack Blademaster Telaamon and take below 50% to recue Rokhan.|
+C A Path of Blood|QID|54156|M|58.72,20.65|Z|Zuldazar|QO|1|US|N|Finish off the alliance forces on the way back to turn in.|
+T No One Left Behind|QID|54157|M|57.95,21.25|Z|Zuldazar|T|Blademaster Telaamon|N|To Princess Talanji.|
+T A Path of Blood|QID|54156|M|58.96,21.31|Z|Zuldazar|N|To General Rakera.|
+A Retaking the Outpost|QID|54207|M|57.96,21.31|Z|Zuldazar|N|From General Rakera.|PRE|54156&54157|
+R The Fallen Outpost|ACTIVE|54207|M|50.34,88.94|Z|Nazmir|
+T Retaking the Outpost|QID|54207|M|50.27,78.47|Z|Nazmir|N|To Hexlord Raal.|
+A Putting the Gob in Gob Squad|QID|54211|M|50.30,78.41|Z|Nazmir|N|From Patch.|PRE|54207|
+A Re-rebuilding the A.F.M.O.D.|QID|54212|M|50.30,78.41|Z|Nazmir|N|From Patch.|PRE|54207|
+C Re-rebuilding the A.F.M.O.D.|QID|54212|M|49.47,79.76|Z|Nazmir|S|N|Kill and loot the alliance forces in the area to reaquire the parts of the A.F.M.O.D. Also, avoid the spiky shield looking things on the ground as they are land mines and will slow you down and cause a small amount of falling damage.|
+C Putting the Gob in Gob Squad|QID|54211|M|49.47,79.76|Z|Nazmir|QO|1|NC|N|Follow the doppler effect to find Ticker.|
+C Putting the Gob in Gob Squad|QID|54211|M|48.25,78.99|Z|Nazmir|QO|2|NC|N|Continue following the doppler waves deeper into the swamp to find Newt.|
+C Putting the Gob in Gob Squad|QID|54211|M|47.17,77.64|Z|Nazmir|QO|3|NC|N|Farther yet and you find Grit.|
+C Putting the Gob in Gob Squad|QID|54211|M|47.93,76.92|Z|Nazmir|QO|4|NC|N|and finally you find Volt by this chunk of ruined wall.|
+C Re-rebuilding the A.F.M.O.D.|QID|54212|M|49.23,77.06|Z|Nazmir|US|N|Finish collecting the  A.F.M.O.D. parts.|
+T Putting the Gob in Gob Squad|QID|54211|M|50.30,78.41|Z|Nazmir|N|To Patch.|
+T Re-rebuilding the A.F.M.O.D.|QID|54212|M|50.30,78.41|Z|Nazmir|N|To Patch.|
+A It's Alive!|QID|54213|M|50.30,78.41|Z|Nazmir|N|From Patch.|PRE|54211&54212|
+C It's Alive!|QID|54213|M|50.36,78.46|Z|Nazmir|QO|1|CHAT|N|Speak with Talanji to power up the A.F.M.O.D.|
+T It's Alive!|QID|54213|M|50.30,78.41|Z|Nazmir|N|To Patch.|
+A The Battle of Zul'jan Ruins|QID|54224|M|50.37,78.46|Z|Nazmir|N|From Princess Talanji.|PRE|54213|
+C The Battle of Zul'jan Ruins|QID|54224|M|50.21,78.21;47.35,80.05|Z|Nazmir|CS|QO|1|NC|N|Hop is the A.F.M.O.D and go slay alliance defenders.  /n2 is a short charge, followed by AE and a heal for the mech.  /n1 is a cone shaped AE.|
+C The Battle of Zul'jan Ruins|QID|54224|M|41.32,78.43|Z|Nazmir|QO|2|NC|N|Go out and slay even more.|
+T The Battle of Zul'jan Ruins|QID|54224|M|39.27,78.20|Z|Nazmir|N|To Princess Talanji.|
+A We Have Them Cornered|QID|54244|M|39.27,78.20|Z|Nazmir|N|From Princess Talanji.|PRE|54224|
+C We Have Them Cornered|QID|54244|M|39.19,78.00|Z|Nazmir|NC|N|Hop on the Riding Raptor for a ride to Zalamar.|
+T We Have Them Cornered|QID|54244|M|30.90,51.87|Z|Nazmir|N|To Princess Talanji.|
+A Zandalari Justice|QID|54249|M|30.90,51.87|Z|Nazmir|N|From Princess Talanji.|PRE|54244|
+A None Shall Escape|QID|54269|M|30.82,51.81|Z|Nazmir|N|From General Rakera.|PRE|54244|
+A Breaking Mirrors|QID|54270|M|30.82,51.81|Z|Nazmir|N|From General Rakera.|PRE|54244|
+C Zandalari Justice|QID|54249|M|30.27,46.48|Z|Nazmir|S|N|Kill the alliance forces as you go about the other objectives.|
+C None Shall Escape|QID|54269|M|32.13,48.24|Z|Nazmir|QO|1<1|NC|N|Click on the Mole Machine to destroy it.|
+C None Shall Escape|QID|54269|M|32.91,47.32|Z|Nazmir|QO|1<2|NC|N|Click on the Mole Machine to destroy it.|
+C Breaking Mirrors|QID|54270|M|33.38,45.96|Z|Nazmir|QO|2|T|Telaamon's Mirror Image|N|Kill Talaamon's Mirror Image to aid Jo'chunga.|
+C None Shall Escape|QID|54269|M|32.58,44.51|Z|Nazmir|QO|1<3|T|Telaamon's Mirror Image|N|Click on the Mole Machine to destroy it.|
+C Breaking Mirrors|QID|54270|QO|1|M|31.40,45.54;30.98,45.09|CS|Z|Nazmir|T|Telaamon's Mirror Image|N|Kill Telaamon's Mirror Image to aid Witch Doctor Kejabu.|
+C None Shall Escape|QID|54269|M|30.78,48.32|Z|Nazmir|QO|1|NC|N|Destroy the last mole machine.|
+C Zandalari Justice|QID|54249|M|30.61,47.84|Z|Nazmir|US|N|Finish your quota of alliance.|
+R The Fall|QID|54269|M|31.61,46.51;31.25,46.83|CS|N|Run down into Hir'eek's lair to turn in.|
+T Zandalari Justice|QID|54249|M|31.25,46.83|Z|Nazmir|N|To Rokhan.|
+T None Shall Escape|QID|54269|M|31.25,46.83|Z|Nazmir|N|To Rokhan.|
+T Breaking Mirrors|QID|54270|M|31.25,46.83|Z|Nazmir|N|To Rokhan.|
+A Telaamon's Purge|QID|54271|M|31.25,46.83|Z|Nazmir|N|From Rokhan.|PRE|54249&54269&54270|
+K Blademaster Telaamon|ACTIVE|54271|M|29.29,46.57|Z|Nazmir|QO|1|T|Blademaster Telaamon|N|Kill Blademaster Telaamon.|
+T Telaamon's Purge|QID|54271|M|31.25,46.82|Z|Nazmir|N|To Rokhan.|
+A Parting Mists|QID|54275|M|31.25,46.82|Z|Nazmir|N|From Rokhan.|PRE|54271|
+C Parting Mists|QID|54275|M|31.44,46.94|Z|Nazmir|QO|1|NC|N|Walk forward into the whirlwind to fly out of Hir'eek's lair (Optional-or you can just run up.)|
+C Parting Mists|QID|54275|M|31.78,45.45|Z|Nazmir|QO|2|NC|N|Hop on the Riding Raptor to ride out and dispel the fog voodoo.|
+C Parting Mists|QID|54275|M|31.62,31.78|Z|Nazmir|QO|3|CHAT|N|Tell Talanji that you are ready.|
+T Parting Mists|QID|54275|M|31.62,31.78|Z|Nazmir|NC|N|To Princess Talanji.|
+A Fly Out to Meet Them|QID|54280|M|31.35,31.97|Z|Nazmir|N|From General Rakera.|
+C Fly Out to Meet Them|QID|54280|M|31.47,32.06|Z|Nazmir|NC|N|Hop on for a ride back to Zuldazar with Hexlord Raal|
+T Fly Out to Meet Them|QID|54280|M|37.04,5.23|Z|Dazar'alor|N|To Princess Talanji.|
+A Battle of Dazar'alor|QID|54282|M|37.04,5.23|Z|Dazar'alor|N|From Princess Talanji. This is a raid quest. Accept or not as you choose.|
 
 ; Saurfang found
 A The Dark Lady Calls|QID|54097|Z|Zuldazar|N|From Dark Ranger Alina.|PRE|50606|
@@ -1105,8 +1174,8 @@ C Tracking Tipoff|QID|54106|M|80.65,47.00|Z|Redridge Mountains|QO|1|U|165638|NC|
 C Tracking Tipoff|QID|54106|M|81.49,51.90|Z|Redridge Mountains|QO|2|NC|N|Wait by Hunter McAlister for the conversation to end.|
 C Tracking Tipoff|QID|54106|M|81.34,52.56|Z|Redridge Mountains|QO|3|N|After he gets suspecious, kill Hunter McAlister.|
 T Tracking Tipoff|QID|54106|M|81.43,52.49|Z|Redridge Mountains|N|To Dark Ranger Lyana.|
-A Zekhan has some Grim Tidings for you!|QID|54107^54754|M|82.12,52.70|Z|Redridge Mountains|N|Choose to support the Queen or Saurfang. To support the Queen, choose the chat option. To choose to Support Saurfang, accept the quest.|PRE|54106|;step test not quest name to force notice of choice.
-;A For the Queen|QID|54754|AVAILABLE|54107|PRE|54106|M|82.12,52.70|Z|Redridge Mountains|N|From UI Alert, if you do not to betray your warchief.|--commented out in case above line change doesnt work the way I expect-- this line can be deleted after it is testing.
+A Zekhan has some Grim Tidings for you!|QID|54107^54754|M|82.12,52.70|Z|Redridge Mountains|N|Choose to support the Queen or Saurfang. To support the Queen, choose the chat option. To choose to Support Saurfang, accept the quest.|PRE|54106|
+;A For the Queen|QID|54754|AVAILABLE|54107|PRE|54106|M|82.12,52.70|Z|Redridge Mountains|N|From UI Alert, if you do not to betray your warchief.|
 t Grim Tidings|QID|54107|M|79.79,74.75|Z|Swamp of Sorrows|N|To Zekhan.|
 A A Warrior's Death|QID|54108|M|79.79,74.75|Z|Swamp of Sorrows|N|From Zekhan.|PRE|54107|
 C A Warrior's Death|QID|54108|M|80.68,77.62|Z|Swamp of Sorrows|N|Talk to Saurfang, the patrol will become hostile and you need to kill them.|
@@ -1131,7 +1200,7 @@ N Rep Gated until Revered|QID|52183|N|So, go out Contribute to the Warfront (whe
 N Outposts and Rep|QID|53103^53152^53126^52320^52479^53101^53082^54260|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Mag'har Orc Allied Race|PRE|53003|
 N Rep Gated until 7K into Revered|QID|53941|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 7K into revered.|PRE|53981|REP|The Honorbound;2157;revered;7000;true|
 N Rep Gated until 14K into Revered|QID|54121|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 14K into revered.|PRE|50606|REP|The Honorbound;2157;revered;14000;true|
-
+N Rep Gated until Exalted|QID|54121|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at exalted and not before 22 January 2019.|PRE|50606|REP|The Honorbound;2157;exalted;0;true|
 ]]
 end)
 
