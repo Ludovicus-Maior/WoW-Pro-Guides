@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-01-19 03:10
+-- Who: Emmaleah
+-- Log: Few more tweaks and corrections.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30189/view
 -- Date: 2019-01-18 04:50
 -- Who: Emmaleah
 -- Log: final segment of tides of vengeance to become available 22 Jan 2019.
@@ -247,11 +252,6 @@
 -- Who: elidion
 -- Log: Fixed a lot of issues with the Honored 3k portion. Waypoints, Typos, note wording, quest givers, clickable quest items.
 
--- URL: http://wow-pro.com/node/3761/revisions/29538/view
--- Date: 2018-08-17 18:44
--- Who: Emmaleah
--- Log: added A War Campaign, edited T War Campaign to mention the 100 resources needed, edited note about treasure for better grammer.
-
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
 WoWPro:GuideName(guide,'War Campaign')
@@ -265,8 +265,8 @@ return [[
 ;Starter Notes
 N The Great Sea Scrolls|QID|53476|NA|NOCACHE|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chests on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 t The Great Sea Scrolls|QID|53476|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
-N Treasure Maps|N|There are four treasure maps that will drop randomly when fighting pirates in Kul  Tiras. *Singed, Soggy, Yellowed and Faded, once you have looted them, their related treasure becomes visable. You don't have to save them once you loot them. The treasure is not necesarily close to where you looted the map.|
-N Ranks.|N|Rank 1 includes the steps needed for the War Campaign Achievement required for Pathfinder It also includes Warfronts and the quests that follow the purchased Table Missions to open up more outposts.  Currently, there is no rank 2/3 content in this guide, but when it is added in, Rank 2 adds the Wanted Posters on Zandalar which are worth 250 faction each. Rank 3 adds other quests on Zandalar. If you want to change ranks mid-guide. You should also reset the guide (from guide title bar) or else you may miss things.|
+N Treasure Maps|N|There are four treasure maps that will drop randomly when fighting pirates in Kul Tiras. *Singed, Soggy, Yellowed and Faded, once you have looted them, their related treasure becomes visable. You don't have to save them once you loot them. The treasure is not necesarily close to where you looted the map.|
+N Ranks.|N|Rank 1 includes the steps needed for the War Campaign Achievement required for Pathfinder It also includes Warfronts and the quests that follow the purchased Table Missions to open up more outposts. Currently, there is no rank 2/3 content in this guide, but when it is added in, Rank 2 adds the Wanted Posters on Zandalar which are worth 250 faction each. Rank 3 adds other quests on Zandalar. If you want to change ranks mid-guide. You should also reset the guide (from guide title bar) or else you may miss things.|
 N Silver Elites|QID|52451^51916|N|The Silver Elites on Kul Tiras (assuming you are horde) do not scale to your level and are all level 120-122. You may want to avoid them before 120.|
 N The Banshee's Wail|QID|53079|N|All of these quest arcs start on The Banshee's Wail, a ship in Zandalar's harbor. It can be reached by taking the flightpath to the Port of Zandalar.|
 
@@ -902,7 +902,7 @@ A Buzzkill|QID|54845|M|46.40,35.11|Z|Darkshore!Kalimdor|N|From Zarvik Blastwix.|
 A Remaining Threats|QID|54843|M|47.00,35.53|Z|Darkshore!Kalimdor|N|From Deathstalker Commander Belmont.|PRE|54416|
 A Tapping the Breach|QID|54844|M|47.93,36.20|Z|Darkshore!Kalimdor|N|From Dark Ranger Velonara.|PRE|54416|
 C Ivus the Forest Lord|QID|54896|M|42.44,35.16|Z|Darkshore!Kalimdor|N|This is a raid, so you will want to Queue for it. Since the other quests are group quests, be sure to not stay in the raid after.|
-C Remaining Threats|QID|54843|M|39.14,61.88|Z|Darkshore!Kalimdor|S|N|Queue for a group doing Darkshore rares for an easier time.  If no group, you can do it by soloing the lvl 121 mobs.|
+C Remaining Threats|QID|54843|M|39.14,61.88|Z|Darkshore!Kalimdor|S|N|Queue for a group doing Darkshore rares for an easier time. If no group, you can do it by soloing the lvl 121 mobs.|
 C Tapping the Breach|QID|54844|M|39.36,61.24|Z|Darkshore!Kalimdor|S|N|Easiest done in a group.|
 C Buzzkill|QID|54845|M|55.57,23.89|Z|Darkshore!Kalimdor|QO|1<4|N|Destroy the Buzzbox, kill the 3 robots that appear.|
 C Athrikus Narassin|QID|54793|M|58.76,24.46|Z|Darkshore!Kalimdor|;WQ
@@ -949,29 +949,30 @@ C Ride Out to Meet Them|QID|53973|M|50.22,27.05|Z|Tiragarde Sound|QO|2|N|Use the
 T Ride Out to Meet Them|QID|53973|M|47.41,21.82|Z|Tiragarde Sound|N|To Rexxar.|
 A The Day is Won|QID|53981|M|47.41,21.82|Z|Tiragarde Sound|N|From Rexxar.|PRE|53973|
 H Zuldazar|ACTIVE|53981|M|47.41,21.82|Z|Tiragarde Sound|TZ|The Great Seal|N|Hearth or otherwise return to The Banshee's Wail in the Port of Zandalar.|
-T The Day is Won|QID|53981|Z|Zuldazar|N|To Nathanos Blightcaller.|
+T The Day is Won|QID|53981|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
 ; mekkatorque's battle plans
-A A Mech for a Goblin|QID|53941|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53981|REP|The Honorbound;2157;revered;7000|
+A A Mech for a Goblin|QID|53941|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53981|REP|The Honorbound;2157;revered;7000|
 F Xibala|ACTIVE|53941|M|52.10,90.16|Z|Dazar'alor|N|Xibala is as close as you can fly, then you have to run the rest of the way.|
 T A Mech for a Goblin|QID|53941|M|36.30,72.02|Z|Zuldazar|N|To Trade Prince Gallywix.|
 A It Belongs in My Mech!|QID|54123|M|36.30,72.02|Z|Zuldazar|N|From Trade Prince Gallywix.|PRE|53941|
 A Avoiding Lawsuits 101|QID|54124|M|36.25,72.03|Z|Zuldazar|N|From Patch.|PRE|53941|
-C It Belongs in My Mech!|QID|54123|M|35.63,69.54|Z|Zuldazar|S|U|166309|NC|N|Target the mucks and use the vacuumizer on living mobs.|
+C It Belongs in My Mech!|QID|54123|M|35.63,69.54|Z|Zuldazar|S|U|166309|T|Azerite Muck|NC|N|Target the mucks and use the vacuumizer on living mobs.|
 C Avoiding Lawsuits 101|QID|54124|M|34.13,69.77|Z|Zuldazar|NC|N|Uninsured Goblin Worker healed.|
-C It Belongs in My Mech!|QID|54123|M|35.63,69.54|Z|Zuldazar|US|U|166309|NC|N|Finish fueling up the azerite pack by using the vacuumizer on the groups of azerite mucks.|
+C It Belongs in My Mech!|QID|54123|M|35.63,69.54|Z|Zuldazar|US|U|166309|T|Azerite Muck|NC|N|Finish fueling up the azerite pack by using the vacuumizer on the groups of azerite mucks.|
 T Avoiding Lawsuits 101|QID|54124|M|36.25,72.02|Z|Zuldazar|N|To Patch.|
 T It Belongs in My Mech!|QID|54123|M|36.31,72.02|Z|Zuldazar|N|To Trade Prince Gallywix.|
 A The Right Mech for the Job|QID|53942|M|36.31,72.02|Z|Zuldazar|N|From Trade Prince Gallywix.|PRE|54123&53124|
 C The Right Mech for the Job|QID|53942|M|36.30,72.13|Z|Zuldazar|QO|1|NC|N|Hop in the G.M.O.D for a ride to Drustvar.|
-C The Right Mech for the Job|QID|53942|M|37.61,25.04|Z|Drustvar|QO|2|N|Use the G.M.O.D.'s abilities to eliminate mechs within Krazzlefrazz Outpost. When you kill the required number, move out of Krazzlefraz for the next stage.|
+C The Right Mech for the Job|QID|53942|M|37.61,25.04|Z|Drustvar|QO|2|N|Use the G.M.O.D.'s abilities to eliminate mechs within Krazzlefrazz Outpost. When you kill the required number, move out of Krazzlefraz for the next stage. When that is done, use the big red button.|
 C The Right Mech for the Job|QID|53942|M|40.38,37.81|Z|Drustvar|QO|3|N|Use the G.M.O.D.'s abilities to repel mech army within Arom's Crossing.|
+C The Right Mech for the Job|QID|53942|M|40.38,37.81|Z|Drustvar|QO|4|N|Now it's time to push the big red button.|
 T The Right Mech for the Job|QID|53942|M|37.16,25.86|Z|Drustvar|N|To Professor Krazzlefrazz.|
 A Necessary Precautions|QID|54128|M|37.32,25.99|Z|Drustvar|N|From G.M.O.D.|PRE|53942|
 C Necessary Precautions|QID|54128|M|37.32,25.99|Z|Drustvar|NC|N|G.M.O.D reviewed.|
 T Necessary Precautions|QID|54128|M|37.32,25.99|Z|Drustvar|N|To G.M.O.D.|
 A Test Case #1; Mech vs. Mekkatorque|QID|54004|M|37.32,25.99|Z|Drustvar|N|From G.M.O.D.|PRE|54128|
-C Test Case #1; Mech vs. Mekkatorque|QID|54004|M|75.99,55.99|Z|Drustvar|NC|N|Ride G.M.O.D to face Mekkatorque.|
+C Test Case #1; Mech vs. Mekkatorque|QID|54004|M|75.99,55.99|Z|Drustvar|NC|N|Ride G.M.O.D to face Mekkatorque. When directed, use the Big Red Button.|
 T Test Case #1; Mech vs. Mekkatorque|QID|54004|M|54.60,64.58|Z|Tiragarde Sound|N|To Trade Prince Gallywix.|
 A Insurance Policy|QID|54007|M|54.60,64.58|Z|Tiragarde Sound|N|From Trade Prince Gallywix.|PRE|54004|
 C Insurance Policy|QID|54007|M|54.62,64.47|Z|Tiragarde Sound|NC|QO|1|N|Click on the G.M.O.D to call for roadside assistance.|
@@ -998,22 +999,22 @@ C Mech versus Airship|QID|54028|M|67.91,84.21|Z|Tiragarde Sound|QO|4|N|Confront 
 T Mech versus Airship|QID|54028|M|87.65,53.48|Z|Tiragarde Sound|N|To G.M.O.D.|
 A A Goblin's Definition of Success|QID|54094|M|87.65,53.48|Z|Tiragarde Sound|N|From G.M.O.D.|PRE|54028|
 R Port of Zuldazar|ACTIVE|54094|M|87.85,51.17|Z|Tiragarde Sound|CHAT|N|Ask Erul Dawnbrook for a ride or otherwise return to Zuldazar and the Banshee's Wail.|
-T Horde War Effort|QID|50606|Z|Zuldazar|N|To Nathanos Blightcaller.|
+T A Goblin's Definition of Success|QID|54094|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
 ; Through the front door
-A Breaking Out Ashvane|QID|54121|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|50606|REP|The Honorbound;2157;revered;14000|
-C Breaking Out Ashvane|QID|54121|Z|Zuldazar|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound (Optional).|
-R Ashvane Foundry|ACTIVE|54121|M|54.78,50.75;86.93,51.72;83.25,49.74|Z|Tiragarde Sound|CS|N|Up the hill and over to the Ashvane Foundry to meet up with Arcanist Valtrois.|
+A Breaking Out Ashvane|QID|54121|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|54094|REP|The Honorbound;2157;revered;14000|
+P Tiragarde Sound|ACTIVE|54121|Z|Zuldazar|TZ|Plunder Harbor|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound (Optional).|
+R Ashvane Foundry|ACTIVE|54121|M|86.93,51.72;83.25,49.74|Z|Tiragarde Sound|CS|N|Up the hill and over to the Ashvane Foundry to meet up with Arcanist Valtrois.|
 T Breaking Out Ashvane|QID|54121|M|82.94,49.54|Z|Tiragarde Sound|N|To Arcanist Valtrois.|
 A Face Your Enemy|QID|54175|M|82.94,49.54|Z|Tiragarde Sound|N|From Arcanist Valtrois.|PRE|54121|
 A Be More Uniform|QID|54176|M|82.94,49.54|Z|Tiragarde Sound|N|From Arcanist Valtrois.|PRE|54121|
 A A Brilliant Distraction|QID|54177|M|83.00,49.66|Z|Tiragarde Sound|N|From Rexxar.|PRE|54121|
 C Be More Uniform|QID|54176|M|79.40,46.96|Z|Tiragarde Sound|QO|1|S|N|Kill the Proudmore souldiers and loot to collect their Equipment.|
-C A Brilliant Distraction|QID|54177|M|79.92,47.96|Z|Tiragarde Sound|N|Pick up the Volatile Azerite scattered around the area. It's bluish glow will help you spot it.|
+C A Brilliant Distraction|QID|54177|M|79.92,47.96|Z|Tiragarde Sound|S|NC|N|Pick up the Volatile Azerite scattered around the area. It's bluish glow will help you spot it.|
 C Face Your Enemy|QID|54175|M|81.62,48.44|Z|Tiragarde Sound|QO|3|T|Ollie Oakman|U|165702|NC|N|Use the provided Shard of Vesara to send Ollie Oakman back to Valtrois.|
 C Face Your Enemy|QID|54175|M|80.78,46.06|Z|Tiragarde Sound|QO|2|T|Rosie Walker|U|165702|NC|N|Use the provided Shard of Vesara to send Rosie Walker back to Valtrois.|
 K Captain Sarefina|ACTIVE|54176|M|79.10,46.96|Z|Tiragarde Sound|QO|2|T|Captain Serafina|N|Kill Captain Sarafina and loot her Overcoat.|
-C Face Your Enemy|QID|54175|M|79.50,49.68|Z|Tiragarde Sound|QO|1|T|Drusilla Whiteblade|NC|N|Use the provided Shard of Vesara to send Drusilla Whiteblade back to Valtrois.|
+C Face Your Enemy|QID|54175|M|79.50,49.68|Z|Tiragarde Sound|QO|1|T|Drusilla Whiteblade|U|165702|NC|N|Use the provided Shard of Vesara to send Drusilla Whiteblade back to Valtrois.|
 C A Brilliant Distraction|QID|54177|M|79.92,47.96|Z|Tiragarde Sound|US|N|Finish collecting the Volatile Azerite.|
 C Be More Uniform|QID|54176|M|79.40,46.96|Z|Tiragarde Sound|QO|1|US|N|Finish collecting the needed Proudmoore Equipment.|
 T A Brilliant Distraction|QID|54177|M|83.00,49.64|Z|Tiragarde Sound|N|To Rexxar.|
@@ -1024,19 +1025,90 @@ T Catching a Ride|QID|54178|M|88.19,50.75|Z|Tiragarde Sound|N|To Nathanos Blight
 A Through the Front Door|QID|54179|M|88.19,50.75|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|54178|
 P Tol Dagor|ACTIVE|54179|M|88.19,50.75|Z|Tiragarde Sound|CHAT|N|Tell Nathanos Blightcaller you are ready to begin the scenario.|
 C Speak to Warden Amical|ACTIVE|54179|M|38.95,70.57|Z|Tol Dagor!Instance1349|SO|1|CHAT|N|Speak to Warden Amical.|
-C Send the guards away|ACTIVE|54179|M|43.53,53.87|Z|The Brig@Tol Dagor!Dungeon1351|SO|2;1|CHAT|N|Send the guards away.|
-C Take the Master Key|ACTIVE|54179|M|43.53,53.87|Z|The Brig@Tol Dagor!Dungeon1351|SO|2;2|NC|N|Take the Master Key.|
+C Send the guards away|ACTIVE|54179|M|50.17,83.44|Z|The Brig@Tol Dagor!Dungeon1351|SO|2;1|CHAT|N|Send the guards away.|
+C Take the Master Key|ACTIVE|54179|M|50.59,83.20|Z|The Brig@Tol Dagor!Dungeon1351|SO|2;2|NC|N|Take the Master Key.|
 C Release Lady Ashvane|ACTIVE|54179|M|46.94,46.03|Z|Tol Dagor!Instance1349|SO|3|NC|N|Release Lady Ashvane.|
 C Ashvane Prisoners freed|ACTIVE|54179|M|52.15,69.71|Z|The Brig@Tol Dagor!Dungeon1351|SO|4|NC|N|Click on the other cell doors to release the Ashvane Prisoners.|
 C Set explosives in the drain|ACTIVE|54179|M|49.25,20.88;36.24,65.47;64.27,46.41|CS|Z|The Drain@Tol Dagor!Dungeon1350|SO|5;1|NC|N|Head down the stairs and across the lower level to the drain and then set explosives as you run out the drain.|
 C Escape through the drain|ACTIVE|54179|M|51.60,47.73|Z|Tol Dagor!Instance1349|SO|5;2|NC|N|Escape through the drain.|
-C Kill Warden Amical|ACTIVE|54179|M|53.86,52.42|Z|Tol Dagor!Instance1349|SO|6|N|Kill Warden Amical and his soldiers.|
+K Warden Amical|ACTIVE|54179|M|53.86,52.42|Z|Tol Dagor!Instance1349|SO|6|T|Warden Amical|N|Kill Warden Amical and his soldiers.|
 C Get to the Ship|ACTIVE|54179|M|50.71,72.80|Z|Tol Dagor!Instance1349|SO|7|NC|N|The Dark Lady awaits her prize.|
 C Through the Front Door|QID|54179|M|69.24,64.90|Z|Kul Tiras|NC|N|Wait a moment for the Scenario "Escape from Tol Dagor" to complete.|
-R Port of Zuldazar|ACTIVE|54179|M|87.85,51.17|Z|Tiragarde Sound|CHAT|N|Ask Erul Dawnbrook for a ride or otherwise return to Zuldazar and the Banshee's Wail.|
+R Port of Zuldazar|ACTIVE|54179|M|87.85,51.17|Z|Tiragarde Sound|TZ|The Banshee's Wail|CHAT|N|Ask Erul Dawnbrook for a ride or otherwise return to Zuldazar and the Banshee's Wail.|
 T Through the Front Door|QID|54179|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
-B More upgrade missions.|QID|54294&54296&54297|M|58.06,62.65|Z|Zuldazar|S!US|N|3 More missions to upgrade your outposts purchased from the Emissary. Unlike the previous missions, these need purchased by each character who wants the upgrade.|
+; Fly out to Meet Them
+A War Is Here|QID|54139|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller. Not available until 22 January 2019.|REP|The Honorbound;2157;revered;17000|PRE|54179|;guessing... it is somewhere between 14K and 17.1K
+F The Great Seal|ACTIVE|54139|N|Hearth, Fly or otherwise return to the Great Seal. The King is near the scouting map, not up at his throne.|
+C War Is Here|QID|54139|M|40.07,70.27|Z|Hall of Croniclers!Dazar'alor|QO|1|CHAT|N|Speak with King Rastakhan.|
+T War Is Here|QID|54139|M|41.24,66.68|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
+A Ride of the Zandalari|QID|54140|M|41.24,66.68|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|54139|
+C Ride of the Zandalari|QID|54140|M|49.08,41.28|Z|Dazar'alor|QO|1|CHAT|N|Speak with Captain Rez'okun to mobilize the fleet.|
+R The Zocalo|ACTIVE|54140|M|41.98,26.99|Z|Dazar'alor|N|Head down the stairs, through the Terrace of Crafters and The Zocalo to the bridge where Rakera awaits.|
+C Ride of the Zandalari|QID|54140|M|52.94,40.16|Z|Zuldazar|QO|2|CHAT|N|Speak with General Rakera to mobilize the army.|
+R House of Pa'ku|ACTIVE|54140|M|43.52,24.16;51.35,12.53|Z|Dazar'alor|CS|N|Run back thru The Zacolo and Terrace of the Chosen to directly above The Sliver to find Hexloar Raal.|
+C Ride of the Zandalari|QID|54140|M|52.82,11.90|Z|Dazar'alor|QO|3|CHAT|N|Speak with Hexlord Raal to mobilize the aerial forces.|
+F Blood Gate|ACTIVE|54140|M|52.94,11.69|Z|Dazar'alor|N|Hop on Ata the Winglord for a ride to Talanji and the Blood Gate.|
+T Ride of the Zandalari|QID|54140|M|57.95,21.26|Z|Zuldazar|N|To Princess Talanji.|
+A No One Left Behind|QID|54157|M|57.95,21.26|Z|Zuldazar|N|From Princess Talanji.|PRE|54140|
+A A Path of Blood|QID|54156|M|57.96,21.30|Z|Zuldazar|N|From General Rakera.|PRE|54140|
+C A Path of Blood|QID|54156|M|58.72,20.65|Z|Zuldazar|QO|1|S|N|Kill alliance forces on your way to rescue Rokhan.|
+C No One Left Behind|QID|54157|M|59.01,18.49|Z|Zuldazar|QO|1|T|Blademaster Telaamon|N|Attack Blademaster Telaamon and take below 50% to recue Rokhan.|
+C A Path of Blood|QID|54156|M|58.72,20.65|Z|Zuldazar|QO|1|US|N|Finish off the alliance forces on the way back to turn in.|
+T No One Left Behind|QID|54157|M|57.95,21.25|Z|Zuldazar|T|Blademaster Telaamon|N|To Princess Talanji.|
+T A Path of Blood|QID|54156|M|58.96,21.31|Z|Zuldazar|N|To General Rakera.|
+A Retaking the Outpost|QID|54207|M|57.96,21.31|Z|Zuldazar|N|From General Rakera.|PRE|54156&54157|
+R The Fallen Outpost|ACTIVE|54207|M|50.34,88.94|Z|Nazmir|
+T Retaking the Outpost|QID|54207|M|50.27,78.47|Z|Nazmir|N|To Hexlord Raal.|
+A Putting the Gob in Gob Squad|QID|54211|M|50.30,78.41|Z|Nazmir|N|From Patch.|PRE|54207|
+A Re-rebuilding the A.F.M.O.D.|QID|54212|M|50.30,78.41|Z|Nazmir|N|From Patch.|PRE|54207|
+C Re-rebuilding the A.F.M.O.D.|QID|54212|M|49.47,79.76|Z|Nazmir|S|N|Kill and loot the alliance forces in the area to reaquire the parts of the A.F.M.O.D. Also, avoid the spiky shield looking things on the ground as they are land mines and will slow you down and cause a small amount of falling damage.|
+C Putting the Gob in Gob Squad|QID|54211|M|49.47,79.76|Z|Nazmir|QO|1|NC|N|Follow the doppler effect to find Ticker.|
+C Putting the Gob in Gob Squad|QID|54211|M|48.25,78.99|Z|Nazmir|QO|2|NC|N|Continue following the doppler waves deeper into the swamp to find Newt.|
+C Putting the Gob in Gob Squad|QID|54211|M|47.17,77.64|Z|Nazmir|QO|3|NC|N|Farther yet and you find Grit.|
+C Putting the Gob in Gob Squad|QID|54211|M|47.93,76.92|Z|Nazmir|QO|4|NC|N|and finally you find Volt by this chunk of ruined wall.|
+C Re-rebuilding the A.F.M.O.D.|QID|54212|M|49.23,77.06|Z|Nazmir|US|N|Finish collecting the A.F.M.O.D. parts.|
+T Putting the Gob in Gob Squad|QID|54211|M|50.30,78.41|Z|Nazmir|N|To Patch.|
+T Re-rebuilding the A.F.M.O.D.|QID|54212|M|50.30,78.41|Z|Nazmir|N|To Patch.|
+A It's Alive!|QID|54213|M|50.30,78.41|Z|Nazmir|N|From Patch.|PRE|54211&54212|
+C It's Alive!|QID|54213|M|50.36,78.46|Z|Nazmir|QO|1|CHAT|N|Speak with Talanji to power up the A.F.M.O.D.|
+T It's Alive!|QID|54213|M|50.30,78.41|Z|Nazmir|N|To Patch.|
+A The Battle of Zul'jan Ruins|QID|54224|M|50.37,78.46|Z|Nazmir|N|From Princess Talanji.|PRE|54213|
+C The Battle of Zul'jan Ruins|QID|54224|M|50.21,78.21;47.35,80.05|Z|Nazmir|CS|QO|1|NC|N|Hop is the A.F.M.O.D and go slay alliance defenders.\n>1 is a cone shaped AE.\n>2 is a short charge, followed by AE and a heal for the mech. |
+C The Battle of Zul'jan Ruins|QID|54224|M|41.32,78.43|Z|Nazmir|QO|2|NC|N|Go out and slay even more.|
+T The Battle of Zul'jan Ruins|QID|54224|M|39.27,78.20|Z|Nazmir|N|To Princess Talanji.|
+A We Have Them Cornered|QID|54244|M|39.27,78.20|Z|Nazmir|N|From Princess Talanji.|PRE|54224|
+C We Have Them Cornered|QID|54244|M|39.19,78.00|Z|Nazmir|NC|N|Hop on the Riding Raptor for a ride to Zalamar.|
+T We Have Them Cornered|QID|54244|M|30.90,51.87|Z|Nazmir|N|To Princess Talanji.|
+A Zandalari Justice|QID|54249|M|30.90,51.87|Z|Nazmir|N|From Princess Talanji.|PRE|54244|
+A None Shall Escape|QID|54269|M|30.82,51.81|Z|Nazmir|N|From General Rakera.|PRE|54244|
+A Breaking Mirrors|QID|54270|M|30.82,51.81|Z|Nazmir|N|From General Rakera.|PRE|54244|
+C Zandalari Justice|QID|54249|M|30.27,46.48|Z|Nazmir|S|N|Kill the alliance forces as you go about the other objectives.|
+C None Shall Escape|QID|54269|M|32.13,48.24|Z|Nazmir|QO|1<1|NC|N|Click on the Mole Machine to destroy it.|
+C None Shall Escape|QID|54269|M|32.91,47.32|Z|Nazmir|QO|1<2|NC|N|Click on the Mole Machine to destroy it.|
+C Breaking Mirrors|QID|54270|M|33.38,45.96|Z|Nazmir|QO|2|T|Telaamon's Mirror Image|N|Kill Talaamon's Mirror Image to aid Jo'chunga.|
+C None Shall Escape|QID|54269|M|32.58,44.51|Z|Nazmir|QO|1<3|T|Telaamon's Mirror Image|N|Click on the Mole Machine to destroy it.|
+C Breaking Mirrors|QID|54270|QO|1|M|31.40,45.54;30.98,45.09|CS|Z|Nazmir|T|Telaamon's Mirror Image|N|Kill Telaamon's Mirror Image to aid Witch Doctor Kejabu.|
+C None Shall Escape|QID|54269|M|30.78,48.32|Z|Nazmir|QO|1|NC|N|Destroy the last mole machine.|
+C Zandalari Justice|QID|54249|M|30.61,47.84|Z|Nazmir|US|N|Finish your quota of alliance.|
+R The Fall|ACTIVE|54269|M|31.61,46.51;31.25,46.83|CS|N|Run down into Hir'eek's lair to turn in.|
+T Zandalari Justice|QID|54249|M|31.25,46.83|Z|Nazmir|N|To Rokhan.|
+T None Shall Escape|QID|54269|M|31.25,46.83|Z|Nazmir|N|To Rokhan.|
+T Breaking Mirrors|QID|54270|M|31.25,46.83|Z|Nazmir|N|To Rokhan.|
+A Telaamon's Purge|QID|54271|M|31.25,46.83|Z|Nazmir|N|From Rokhan.|PRE|54249&54269&54270|
+K Blademaster Telaamon|ACTIVE|54271|M|29.29,46.57|Z|Nazmir|QO|1|T|Blademaster Telaamon|N|Kill Blademaster Telaamon.|
+T Telaamon's Purge|QID|54271|M|31.25,46.82|Z|Nazmir|N|To Rokhan.|
+A Parting Mists|QID|54275|M|31.25,46.82|Z|Nazmir|N|From Rokhan.|PRE|54271|
+C Parting Mists|QID|54275|M|31.44,46.94|Z|Nazmir|QO|1|NC|N|Walk forward into the whirlwind to fly out of Hir'eek's lair (Optional-or you can just run up.)|
+C Parting Mists|QID|54275|M|31.78,45.45|Z|Nazmir|QO|2|NC|N|Hop on the Riding Raptor to ride out and dispel the fog voodoo.|
+C Parting Mists|QID|54275|M|31.62,31.78|Z|Nazmir|QO|3|CHAT|N|Tell Talanji that you are ready.|
+T Parting Mists|QID|54275|M|31.62,31.78|Z|Nazmir|NC|N|To Princess Talanji.|
+A Fly Out to Meet Them|QID|54280|M|31.35,31.97|Z|Nazmir|N|From General Rakera.|PRE|54275|
+C Fly Out to Meet Them|QID|54280|M|31.47,32.06|Z|Nazmir|NC|N|Hop on for a ride back to Zuldazar with Hexlord Raal|
+T Fly Out to Meet Them|QID|54280|M|37.04,5.23|Z|Dazar'alor|N|To Princess Talanji.|
+A Battle of Dazar'alor|QID|54282|M|37.04,5.23|Z|Dazar'alor|N|From Princess Talanji. This is a raid quest. Accept or not as you choose.|PRE|54280|
+
+B More upgrade missions.|QID|54294&54296&54297|M|58.06,62.65|Z|Zuldazar|S!US|N|Three more missions to upgrade your outposts purchased from the Emissary. Unlike the previous missions, these need purchased by each character who wants the upgrade.|REP|The Honorbound;2157;Exalted;0|
 ; Exalted Mission Report: Vulpara Hideaway
 A Mission Report: Vulpera Hideaway|QID|54258|M|51.55,99.60|Z|Dazar'alor|PRE|54296|
 T Mission Report: Vulpera Hideaway|QID|54258|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
@@ -1060,77 +1132,6 @@ A Outpost Upgrade: Zul'jan Ruins|QID|54240|M|58.44,62.68|Z|Zuldazar|N|From Natha
 F Zul'jan Ruins|ACTIVE|54240|M|52.10,90.13|Z|Dazar'alor|N|At Ripa the Wind Ripper. (or otherwise travel to Zul'jan Ruins-Nazmir)|FLY|BFA|
 C Outpost Upgrade: Zul'jan Ruins|QID|54240|M|39.15,77.64|Z|Nazmir|QO|1|NC|N|Honor either of the Altars at Zul'jan Ruins.|
 T Outpost Upgrade: Zul'jan Ruins|QID|54240|M|39.15,77.64|Z|Nazmir|N|To UI Alert.|
-
-; Fly out to Meet Them
-A War Is Here|QID|54139|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|REP|The Honorbound;2157;exalted;0|PRE|54179|
-F The Great Seal|ACTIVE|54139|N|Hearth, Fly or otherwise return to the Great Seal. The King is near the scouting map, not up at his throne.|
-C War Is Here|QID|54139|M|40.07,70.27|Z|Hall of Croniclers!Dazar'alor|QO|1|CHAT|N|Speak with King Rastakhan.|
-T War Is Here|QID|54139|M|41.24,66.68|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
-A Ride of the Zandalari|QID|54140|M|41.24,66.68|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|54139|
-C Ride of the Zandalari|QID|54140|M|49.08,41.28|Z|Dazar'alor|QO|1|CHAT|N|Speak with Captain Rez'okun to mobilize the fleet.|
-R The Zocalo|ACTIVE|54140|M|41.98,26.99|Z|Dazar'alor|N|Head down the stairs, through the Terrace of Crafters and The Zocalo to the bridge where Rakera awaits.|
-C Ride of the Zandalari|QID|54140|M|52.94,40.16|Z|Zuldazar|QO|2|CHAT|N|Speak with General Rakera to mobilize the army.|
-R House of Pa'ku|ACTIVE|54140|M|43.52,24.16;51.35,12.53|Z|Dazar'alor|CS|N|Run back thru The Zacolo and Terrace of the Chosen to directly above The Sliver to find Hexloar Raal.|
-C Ride of the Zandalari|QID|54140|M|52.82,11.90|Z|Dazar'alor|QO|3|CHAT|N|Speak with Hexlord Raal to mobilize the aerial forces.|
-F Blood Gate|ACTIVE|54140|M|52.94,11.69|Z|Dazar'alor|N|Hop on Ata the Winglord for a ride to Talanji and the Blood Gate.|
-T Ride of the Zandalari|QID|54140|M|57.95,21.26|Z|Zuldazar|N|To Princess Talanji.|
-A No One Left Behind|QID|54157|M|57.95,21.26|Z|Zuldazar|N|From Princess Talanji.|PRE|54140|
-A A Path of Blood|QID|54156|M|57.96,21.30|Z|Zuldazar|N|From General Rakera.|PRE|54140|
-C A Path of Blood|QID|54156|M|58.72,20.65|Z|Zuldazar|QO|1|S|S!US|N|Kill alliance forces on your way to rescue Rokhan.|
-C No One Left Behind|QID|54157|M|59.01,18.49|Z|Zuldazar|QO|1|T|Blademaster Telaamon|N|Attack Blademaster Telaamon and take below 50% to recue Rokhan.|
-C A Path of Blood|QID|54156|M|58.72,20.65|Z|Zuldazar|QO|1|US|N|Finish off the alliance forces on the way back to turn in.|
-T No One Left Behind|QID|54157|M|57.95,21.25|Z|Zuldazar|T|Blademaster Telaamon|N|To Princess Talanji.|
-T A Path of Blood|QID|54156|M|58.96,21.31|Z|Zuldazar|N|To General Rakera.|
-A Retaking the Outpost|QID|54207|M|57.96,21.31|Z|Zuldazar|N|From General Rakera.|PRE|54156&54157|
-R The Fallen Outpost|ACTIVE|54207|M|50.34,88.94|Z|Nazmir|
-T Retaking the Outpost|QID|54207|M|50.27,78.47|Z|Nazmir|N|To Hexlord Raal.|
-A Putting the Gob in Gob Squad|QID|54211|M|50.30,78.41|Z|Nazmir|N|From Patch.|PRE|54207|
-A Re-rebuilding the A.F.M.O.D.|QID|54212|M|50.30,78.41|Z|Nazmir|N|From Patch.|PRE|54207|
-C Re-rebuilding the A.F.M.O.D.|QID|54212|M|49.47,79.76|Z|Nazmir|S|N|Kill and loot the alliance forces in the area to reaquire the parts of the A.F.M.O.D. Also, avoid the spiky shield looking things on the ground as they are land mines and will slow you down and cause a small amount of falling damage.|
-C Putting the Gob in Gob Squad|QID|54211|M|49.47,79.76|Z|Nazmir|QO|1|NC|N|Follow the doppler effect to find Ticker.|
-C Putting the Gob in Gob Squad|QID|54211|M|48.25,78.99|Z|Nazmir|QO|2|NC|N|Continue following the doppler waves deeper into the swamp to find Newt.|
-C Putting the Gob in Gob Squad|QID|54211|M|47.17,77.64|Z|Nazmir|QO|3|NC|N|Farther yet and you find Grit.|
-C Putting the Gob in Gob Squad|QID|54211|M|47.93,76.92|Z|Nazmir|QO|4|NC|N|and finally you find Volt by this chunk of ruined wall.|
-C Re-rebuilding the A.F.M.O.D.|QID|54212|M|49.23,77.06|Z|Nazmir|US|N|Finish collecting the  A.F.M.O.D. parts.|
-T Putting the Gob in Gob Squad|QID|54211|M|50.30,78.41|Z|Nazmir|N|To Patch.|
-T Re-rebuilding the A.F.M.O.D.|QID|54212|M|50.30,78.41|Z|Nazmir|N|To Patch.|
-A It's Alive!|QID|54213|M|50.30,78.41|Z|Nazmir|N|From Patch.|PRE|54211&54212|
-C It's Alive!|QID|54213|M|50.36,78.46|Z|Nazmir|QO|1|CHAT|N|Speak with Talanji to power up the A.F.M.O.D.|
-T It's Alive!|QID|54213|M|50.30,78.41|Z|Nazmir|N|To Patch.|
-A The Battle of Zul'jan Ruins|QID|54224|M|50.37,78.46|Z|Nazmir|N|From Princess Talanji.|PRE|54213|
-C The Battle of Zul'jan Ruins|QID|54224|M|50.21,78.21;47.35,80.05|Z|Nazmir|CS|QO|1|NC|N|Hop is the A.F.M.O.D and go slay alliance defenders.  /n2 is a short charge, followed by AE and a heal for the mech.  /n1 is a cone shaped AE.|
-C The Battle of Zul'jan Ruins|QID|54224|M|41.32,78.43|Z|Nazmir|QO|2|NC|N|Go out and slay even more.|
-T The Battle of Zul'jan Ruins|QID|54224|M|39.27,78.20|Z|Nazmir|N|To Princess Talanji.|
-A We Have Them Cornered|QID|54244|M|39.27,78.20|Z|Nazmir|N|From Princess Talanji.|PRE|54224|
-C We Have Them Cornered|QID|54244|M|39.19,78.00|Z|Nazmir|NC|N|Hop on the Riding Raptor for a ride to Zalamar.|
-T We Have Them Cornered|QID|54244|M|30.90,51.87|Z|Nazmir|N|To Princess Talanji.|
-A Zandalari Justice|QID|54249|M|30.90,51.87|Z|Nazmir|N|From Princess Talanji.|PRE|54244|
-A None Shall Escape|QID|54269|M|30.82,51.81|Z|Nazmir|N|From General Rakera.|PRE|54244|
-A Breaking Mirrors|QID|54270|M|30.82,51.81|Z|Nazmir|N|From General Rakera.|PRE|54244|
-C Zandalari Justice|QID|54249|M|30.27,46.48|Z|Nazmir|S|N|Kill the alliance forces as you go about the other objectives.|
-C None Shall Escape|QID|54269|M|32.13,48.24|Z|Nazmir|QO|1<1|NC|N|Click on the Mole Machine to destroy it.|
-C None Shall Escape|QID|54269|M|32.91,47.32|Z|Nazmir|QO|1<2|NC|N|Click on the Mole Machine to destroy it.|
-C Breaking Mirrors|QID|54270|M|33.38,45.96|Z|Nazmir|QO|2|T|Telaamon's Mirror Image|N|Kill Talaamon's Mirror Image to aid Jo'chunga.|
-C None Shall Escape|QID|54269|M|32.58,44.51|Z|Nazmir|QO|1<3|T|Telaamon's Mirror Image|N|Click on the Mole Machine to destroy it.|
-C Breaking Mirrors|QID|54270|QO|1|M|31.40,45.54;30.98,45.09|CS|Z|Nazmir|T|Telaamon's Mirror Image|N|Kill Telaamon's Mirror Image to aid Witch Doctor Kejabu.|
-C None Shall Escape|QID|54269|M|30.78,48.32|Z|Nazmir|QO|1|NC|N|Destroy the last mole machine.|
-C Zandalari Justice|QID|54249|M|30.61,47.84|Z|Nazmir|US|N|Finish your quota of alliance.|
-R The Fall|QID|54269|M|31.61,46.51;31.25,46.83|CS|N|Run down into Hir'eek's lair to turn in.|
-T Zandalari Justice|QID|54249|M|31.25,46.83|Z|Nazmir|N|To Rokhan.|
-T None Shall Escape|QID|54269|M|31.25,46.83|Z|Nazmir|N|To Rokhan.|
-T Breaking Mirrors|QID|54270|M|31.25,46.83|Z|Nazmir|N|To Rokhan.|
-A Telaamon's Purge|QID|54271|M|31.25,46.83|Z|Nazmir|N|From Rokhan.|PRE|54249&54269&54270|
-K Blademaster Telaamon|ACTIVE|54271|M|29.29,46.57|Z|Nazmir|QO|1|T|Blademaster Telaamon|N|Kill Blademaster Telaamon.|
-T Telaamon's Purge|QID|54271|M|31.25,46.82|Z|Nazmir|N|To Rokhan.|
-A Parting Mists|QID|54275|M|31.25,46.82|Z|Nazmir|N|From Rokhan.|PRE|54271|
-C Parting Mists|QID|54275|M|31.44,46.94|Z|Nazmir|QO|1|NC|N|Walk forward into the whirlwind to fly out of Hir'eek's lair (Optional-or you can just run up.)|
-C Parting Mists|QID|54275|M|31.78,45.45|Z|Nazmir|QO|2|NC|N|Hop on the Riding Raptor to ride out and dispel the fog voodoo.|
-C Parting Mists|QID|54275|M|31.62,31.78|Z|Nazmir|QO|3|CHAT|N|Tell Talanji that you are ready.|
-T Parting Mists|QID|54275|M|31.62,31.78|Z|Nazmir|NC|N|To Princess Talanji.|
-A Fly Out to Meet Them|QID|54280|M|31.35,31.97|Z|Nazmir|N|From General Rakera.|
-C Fly Out to Meet Them|QID|54280|M|31.47,32.06|Z|Nazmir|NC|N|Hop on for a ride back to Zuldazar with Hexlord Raal|
-T Fly Out to Meet Them|QID|54280|M|37.04,5.23|Z|Dazar'alor|N|To Princess Talanji.|
-A Battle of Dazar'alor|QID|54282|M|37.04,5.23|Z|Dazar'alor|N|From Princess Talanji. This is a raid quest. Accept or not as you choose.|
 
 ; Saurfang found
 A The Dark Lady Calls|QID|54097|Z|Zuldazar|N|From Dark Ranger Alina.|PRE|50606|
@@ -1199,8 +1200,9 @@ N More Scouting Missions|QID|53739^53740^53741^53742^53743^53744^53745|M|58.06,6
 N Rep Gated until Revered|QID|52183|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at revered.|PRE|52978|REP|The Honorbound;2157;revered;0;true|
 N Outposts and Rep|QID|53103^53152^53126^52320^52479^53101^53082^54260|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Mag'har Orc Allied Race|PRE|53003|
 N Rep Gated until 7K into Revered|QID|53941|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 7K into revered.|PRE|53981|REP|The Honorbound;2157;revered;7000;true|
-N Rep Gated until 14K into Revered|QID|54121|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 14K into revered.|PRE|50606|REP|The Honorbound;2157;revered;14000;true|
-N Rep Gated until Exalted|QID|54121|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at exalted and not before 22 January 2019.|PRE|50606|REP|The Honorbound;2157;exalted;0;true|
+N Rep Gated until 14K into Revered|QID|54121|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 14K into revered.|PRE|54094|REP|The Honorbound;2157;revered;14000;true|
+N Rep Gated until 17K into Revered|QID|54139|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 17K into revered, but also not until 22 January 2019.|PRE|54179|REP|The Honorbound;2157;revered;17000;true|;rep may be lower, i tested avaialable at 17100 - hard to get a char lower as previous arc requires 14K
+
 ]]
 end)
 
