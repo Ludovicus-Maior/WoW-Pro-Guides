@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-01-19 03:16
+-- Who: Emmaleah
+-- Log: turns out the final segment is available at lower faction than I originally thought. Guessing at 17k into revered as it was available to char at 17172, may be lower and I will update when it is known. 
+
+-- URL: http://wow-pro.com/node/3760/revisions/30191/view
+-- Date: 2019-01-19 00:20
+-- Who: Emmaleah
+-- Log: added final arc of Tides of Vengeance and REP tags to other parts of Tides of Vengeance plus other tweaks.
+
+-- URL: http://wow-pro.com/node/3760/revisions/30181/view
 -- Date: 2019-01-06 10:20
 -- Who: Emmaleah
 -- Log: Add Rep to Expanding our Influence (guessing its honored since that is when the first missions come available) Add PRE to The Calm before (also a guess of correct pre)
@@ -243,16 +253,6 @@
 -- Date: 2018-08-12 20:18
 -- Who: Emmaleah
 -- Log: deleted part that is in the BFA intro
-
--- URL: http://wow-pro.com/node/3760/revisions/29495/view
--- Date: 2018-08-12 18:59
--- Who: Ludovicus_Maior
--- Log:  "Chamber of Heart"
-
--- URL: http://wow-pro.com/node/3760/revisions/29424/view
--- Date: 2018-07-15 04:43
--- Who: Emmaleah
--- Log: change sort level
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -842,9 +842,10 @@ A Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Spea
 T Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|
 
 ; Patch 8.1 quests
-A Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|From Vindicator Jaelaana.|REP|7th Legion;2159;honored-exalted|
+; War Marches On
+A Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|From Vindicator Jaelaana.|REP|7th Legion;2159;revered-exalted|PRE|52790|
 t Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|To Vindicator Jaelaana.|
-A The Calm Before|QID|53986|M|70.71,27.07|Z|Boralus|N|From Master Mathias Shaw.|PRE|52790|
+A The Calm Before|QID|53986|M|70.71,27.07|Z|Boralus|N|From Master Mathias Shaw.|PRE|53098|
 F Proudmoore Keep|ACTIVE|53986|M|67.0,15.0|Z|Boralus|N|At Joan Weber. Take a flight or run over to Proudmoore Keep to meet up with Jaina.|
 C The Calm Before|QID|53986|M|67.26,36.23|Z|Tiragarde Sound|CHAT|QO|1|N|Take the report to Jaina.|
 C The Calm Before|QID|53986|M|67.04,36.22|Z|Tiragarde Sound|NC|QO|2|N|Wait for the conversation to finish.|
@@ -863,7 +864,7 @@ A Squad Goals|QID|54519|M|42.13,29.88|Z|Tiragarde Sound|N|From Taelia Fordragon.
 A Zero Zeppelins|QID|54518|M|42.16,29.78|Z|Tiragarde Sound|N|From Okri Putterwrench.|PRE|53896|
 C Zero Zeppelins|QID|54518|M|41.69,29.79|Z|Tiragarde Sound|CHAT|QO|1|N|Talk with Okri to get a Jury-Rigged Hand Cannon.|
 C Zero Zeppelins|QID|54518|M|41.69,29.80|Z|Tiragarde Sound|NC|QO|2|N|Use the special action button and target the frozen Horde Bombardier.|
-C Zero Zeppelins|QID|54518|M|42.83,26.54|Z|Tiragarde Sound|NC|QO|3|S|N|Use the special action button to destroy 4 Horde Bombardiers.|
+C Zero Zeppelins|QID|54518|M|42.83,26.54|Z|Tiragarde Sound|NC|S|QO|3|N|Use the special action button to destroy 4 Horde Bombardiers.|
 C Repel the Horde!|QID|53910|M|41.83,27.38|Z|Tiragarde Sound|S|QO|1|N|Defeat Axe Throwers and Berserkers.|
 C Squad Goals|QID|54519|M|43.40,27.88|Z|Tiragarde Sound|NC|QO|1|N|Click on Carter Riptide (lying on the ground).|
 C Squad Goals|QID|54519|M|43.00,27.01|Z|Tiragarde Sound|NC|QO|3|N|Tamara Barrie found.|
@@ -876,6 +877,7 @@ C Repel the Horde!|QID|53910|M|41.83,27.38|Z|Tiragarde Sound|US|QO|1|N|Defeat Ax
 C Zero Zeppelins|QID|54518|M|42.83,26.54|Z|Tiragarde Sound|NC|US|QO|3|N|Use the special action button to destroy 4 Horde Bombardiers.|
 T Repel the Horde!|QID|53910|M|41.52,27.02|Z|Tiragarde Sound|N|To Rosaline Madison.|
 T Squad Goals|QID|54519|M|41.52,27.02|Z|Tiragarde Sound|N|To Rosaline Madison.|
+T Outrigger Outfitters|QID|53916|M|41.52,27.03|Z|Tiragarde Sound|N|To Rosaline Madison.|
 T Zero Zeppelins|QID|54518|M|41.53,27.08|Z|Tiragarde Sound|N|To Okri Putterwrench.|
 A Gunpowder Plots|QID|53978|M|41.52,27.03|Z|Tiragarde Sound|N|From Rosaline Madison.|PRE|53916|
 A Masking For a Friend|QID|54787|M|41.52,27.03|Z|Tiragarde Sound|N|From Rosaline Madison.|PRE|53916|
@@ -906,7 +908,8 @@ A War Marches On|QID|53887|M|36.42,30.78|Z|Tiragarde Sound|N|From Lady Jaina Pro
 H Boralus|ACTIVE|53887|M|36.42,30.78|Z|Tiragarde Sound|N|Hearth or otherwise return to Boralus and Halford Wyrmband.|
 T War Marches On|QID|53887|M|69.29,26.97|Z|Boralus|N|To Halford Wyrmbane.|
 
-A Sensitive Intel|QID|54192|M|69.29,27.01|Z|Boralus|N|From Halford Wyrmbane.|PRE|53887|
+; The Sleeper Agent
+A Sensitive Intel|QID|54192|M|69.29,27.01|Z|Boralus|N|From Halford Wyrmbane.|PRE|53887|REP|7th Legion;2159;revered;7000|
 C Sensitive Intel|QID|54192|M|67.94,26.70|Z|Boralus|CHAT|QO|1|N|Speak to Grand Admiral Jes-Tereth to sail to Zuldazar.|
 T Sensitive Intel|QID|54192|M|41.08,70.66|Z|Zuldazar|N|To Kelsey Steelspark.|
 A This is Huge!|QID|54193|M|41.08,70.66|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|54192|
@@ -961,6 +964,7 @@ A The Sleeper Agent|QID|54206|M|41.15,70.68|Z|Zuldazar|N|From Kelsey Steelspark.
 H Boralus|ACTIVE|54206|M|41.15,70.68|Z|Zuldazar|N|Use your hearthstone or otherwise return to Boralus and Halford Wyrmbane.|
 T The Sleeper Agent|QID|54206|M|69.29,26.99|Z|Boralus|N|To Halford Wyrmbane.|
 
+; Mischief Managed
 A The Abyssal Scepter|QID|54171|M|69.29,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54206|REP|7th Legion;2159;revered;14000|
 T The Abyssal Scepter|QID|54171|M|40.60,70.70|Z|Zuldazar|N|To Lady Jaina Proudmoore.|
 A The Treasury Heist|QID|54169|M|40.60,70.70|Z|Zuldazar|N|From Lady Jaina Proudmoore.|PRE|54171|
@@ -981,7 +985,76 @@ A Mischief Managed|QID|54510|M|40.56,70.70|Z|Zuldazar|N|From Lady Jaina Proudmoo
 H Boralus|ACTIVE|54510|M|40.56,70.70|Z|Zuldazar|N|Hearth or otherwise make your way back to Boralus and Halford Wyrmbane.|
 T Mischief Managed|QID|54510|M|69.30,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 
-N That's all for now|QID|54459|N|He Who Walks the Night quest arc will reportedly become available 1/22/19. Check this off manually.|
+; He who walks in the Light
+A The Fall of Zuldazar|QID|54302|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane. Not available until 22 January 2019.|PRE|54510|REP|7th Legion;2159;revered;17000|
+F Proudmoore Keep|ACTIVE|54302|M|66.98,15.02|Z|Boralus|N|Fly or Run over to Proudmoore Keep.|
+C The Fall of Zuldazar|QID|54302|M|39.16,77.38|Z|Boralus|CHAT|N|Discuss the plans to attack Zuldazar with Mathias Shaw in the center of the garden maze near Proudmoore Keep.|
+T The Fall of Zuldazar|QID|54302|M|38.99,77.17|Z|Boralus|N|To Halford Wyrmbane.|
+A The March to Nazmir|QID|54303|M|38.97,76.92|Z|Boralus|N|From Blademaster Telaamon.|PRE|54302|
+F Tradewinds Market|ACTIVE|54303|M|47.75,65.43|Z|Boralus|TZ|Boralus Harbor|N|Fly back to Tradewinds Market at Jessica Clarke.|
+P Nazmir|ACTIVE|54303|M|67.95,26.70|Z|Boralus|CHAT|N|Ask Grand Admiral Jes-Tereth for a ride to Nazmir (Optional)|
+R The Far Reach|ACTIVE|54303|M|36.15,43.04;34.11,37.01|Z|Nazmir|CS|
+T The March to Nazmir|QID|54303|M|31.04,29.48|Z|Nazmir|N|To Lady Jaina Proudmoore.|
+A Repurposing Their Village|QID|54310|M|31.04,29.48|Z|Nazmir|N|From Lady Jaina Proudmoore.|PRE|54303|
+A Dark Iron Machinations|QID|54404|M|30.96,29.44|Z|Nazmir|N|From Master Mathias Shaw.|PRE|54303|
+R Zalamar|ACTIVE|54310|M|31.64,42.29|Z|Nazmir|
+C Repurposing Their Village|QID|54310|M|32.89,47.52|Z|Nazmir|S|N|Defeat blood trolls within Zalamar.|
+C Dark Iron Machinations|QID|52785|M|32.58,44.50|Z|Nazmir|QO|1<1|NC|N|Click on the translucent mole machine.|
+C Dark Iron Machinations|QID|52785|M|32.89,47.52|Z|Nazmir|QO|1<2|NC|N|Click on the translucent mole machine.|
+C Dark Iron Machinations|QID|54404|M|30.78,48.33|Z|Nazmir|QO|1|NC|N|Mole machines signalled.|
+C Repurposing Their Village|QID|54310|M|33.18,46.97|Z|Nazmir|US|N|Defeat blood trolls within Zalamar.|
+T Repurposing Their Village|QID|54310|M|33.35,45.92|Z|Nazmir|N|To Blademaster Telaamon.|
+T Dark Iron Machinations|QID|54404|M|33.35,45.92|Z|Nazmir|N|To Blademaster Telaamon.|
+A Fog of War|QID|54312|M|33.35,45.92|Z|Nazmir|N|From Blademaster Telaamon.|PRE|54310&54404|
+C Fog of War|QID|54312|M|33.67,47.70|Z|Nazmir|CHAT|N|Ask Brother Pike use the Abyssal Scepter.|
+T Fog of War|QID|54312|M|33.67,47.70|Z|Nazmir|N|To Lady Jaina Proudmoore.|
+A Lurking in the Swamp|QID|54407|M|33.64,47.65|Z|Nazmir|N|From Lady Jaina Proudmoore.|PRE|54312|
+R Grimwatt's Crash|ACTIVE|54407|M|34.22,63.18|Z|Nazmir|U|141605|N|You can use your flightmaster's whistle for a small shortcut.|
+T Lurking in the Swamp|QID|54407|M|35.78,68.25|Z|Nazmir|N|To Lady Jaina Proudmoore.|
+A Zul'jan Deluge|QID|54412|M|35.78,68.25|Z|Nazmir|N|From Lady Jaina Proudmoore.|PRE|54407|
+C Zul'jan Deluge|QID|54412|M|35.77,68.07|Z|Nazmir|QO|1|NC|N|Hop on Jaina's Water Elemental.|
+C Zul'jan Deluge|QID|54412|M|40.34,77.63|Z|Nazmir|QO|2|NC|N|Use the Water Elemental's abilites to slay Enemies in Zul'jan ruins.|
+T Zul'jan Deluge|QID|54412|M|44.25,78.88|Z|Nazmir|N|To Lady Jaina Proudmoore.|
+A Showing Our Might|QID|54417|M|44.25,78.88|Z|Nazmir|N|From Lady Jaina Proudmoore.|PRE|54412|
+A Taming their Beasts|QID|54421|M|44.21,78.64|Z|Nazmir|N|From Master Mathias Shaw.|PRE|54412|
+A The Mech of Death|QID|54418|M|44.27,78.54|Z|Nazmir|N|From Blademaster Telaamon.|PRE|54412|
+C Showing Our Might|QID|54417|M|48.65,76.56|Z|Nazmir|S|N|Slay Zandalari as you accomplish the otther objectives.|
+C Taming their Beasts|QID|54421|M|48.85,76.52|Z|Nazmir|S|U|166230|NC|T|Resting Battlebeast|N|Target the Resting Battlebeast and use the discombobulator.|
+C The Mech of Death|QID|54418|M|45.50,72.72|Z|Nazmir|N|Slay A.M.O.D.|
+C Taming their Beasts|QID|54421|M|48.85,76.52|Z|Nazmir|US|U|166230|NC|T|Resting Battlebeast|N|Finish taming the Resting Battlebeasts.|
+C Showing Our Might|QID|54417|M|48.65,76.56|Z|Nazmir|US|N|Finish up your quota of Zandalari.|
+T Taming their Beasts|QID|54421|M|50.45,84.23|Z|Nazmir|N|To Master Mathias Shaw.|
+T The Mech of Death|QID|54418|M|50.43,84.08|Z|Nazmir|N|To Blademaster Telaamon.|
+T Showing Our Might|QID|54417|M|50.36,84.18|Z|Nazmir|N|To Lady Jaina Proudmoore.|
+A Taking the Blood Gate|QID|54441|M|50.36,84.18|Z|Nazmir|N|From Lady Jaina Proudmoore.|PRE|54417&54418&54421|
+C Taking the Blood Gate|QID|54441|M|50.44,84.87|Z|Nazmir|QO|1|NC|N|Hop on and ride controlled battlebeast.|
+C Taking the Blood Gate|QID|54441|M|57.75,19.43|Z|Zuldazar|QO|2|NC|N|Use the Battlebeasts abilities to clear the Blood Gates.|
+T Taking the Blood Gate|QID|54441|M|50.44,84.23|Z|Nazmir|N|To Master Mathias Shaw.|
+A He Who Walks in the Light|QID|54459|M|50.36,84.17|Z|Nazmir|N|From Lady Jaina Proudmoore.|PRE|54441|
+P Sanctum of the Sages|ACTIVE|54459|M|50.37,84.08|Z|Nazmir|N|Use the portal that Jaina has provided you.|
+T He Who Walks in the Light|QID|54459|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
+A Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane. This is a raid quest.|NA|PRE|54459|
+
+B More upgrade missions|QID|54295&54298&54299|M|68.97,24.73|Z|Boralus|S!US|N|Three more missions to upgrade your outposts purchased from the Vindicator Jaelaana. Unlike the previous missions, these need purchased (and done) by each character who wants the upgrade.|REP|7th Legion;2159;Exalted;0|
+;^above probably not correct QIDs - will get in next day or 2 when I finish and add as PREs for the mission quests
+
+;exalted upgrade mission Brennadan
+A Mission Report: Brennadam|QID|54262|M|70.51,27.20|Z|Boralus|O|
+T Mission Report: Brennadam|QID|54262|M|69.27,26.99|Z|Boralus|N|To Halford Wyrmbane.|
+A Outpost Upgrade: Brennadam|QID|54263|M|69.27,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54262|
+T Outpost Upgrade: Brennadam|QID|54263|M|58.73,69.40|Z|Stormsong Valley|N|To Hank Harrison.|
+
+;exalted upgrade mission Arom's Stand
+A Mission Report: Arom's Stand|QID|54306|M|70.52,27.18|Z|Boralus|O|
+T Mission Report: Arom's Stand|QID|54306|M|69.26,26.99|Z|Boralus|N|To Halford Wyrmbane.|
+A Outpost Upgrade: Arom's Stand|QID|54307|M|69.26,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54306|
+T Outpost Upgrade: Arom's Stand|QID|54307|M|37.92,49.27|Z|Drustvar|N|To Cleric Loriette.|
+
+;exalted upgrade mission Castaway Point
+A Mission Report: Castaway Point|QID|54284|M|70.42,27.12|Z|Boralus|O|
+T Mission Report: Castaway Point|QID|54284|M|69.27,27.00|Z|Boralus|N|To Halford Wyrmbane.|
+A Outpost Upgrade: Castaway Point|QID|54288|M|69.27,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|54284|
+T Outpost Upgrade: Castaway Point|QID|54288|M|86.31,81.29|Z|Tiragarde Sound|N|To Dynamite Jack.|
 
 ; Darkshore pre-warfront questline.
 A On Whispered Winds|QID|53847|M|70.12,16.79|Z|Boralus|N|From Dori'thur.|
@@ -994,11 +1067,11 @@ C Shores of Fate|QID|53988|M|12.53,17.76|Z|Ashenvale|QO|1|NC|N|Travel to Zoram S
 T Shores of Fate|QID|53988|M|11.50,17.72|Z|Ashenvale|N|To Maiev Shadowsong.|
 A Hope|QID|53989|M|11.55,17.68|Z|Ashenvale|N|From Shandris Feathermoon.|PRE|53988|
 A No Survivors|QID|54041|M|11.47,17.80|Z|Ashenvale|N|From Sira Moonwarden.|PRE|53988|
-C No Survivors|QID|54041|M|10.05,15.81|Z|Ashenvale|S|QO|1|N|Kill 8 Veiled Deathstalker slain. Use special action  button to help reveal them and gain crit bonuses.|
+C No Survivors|QID|54041|M|10.05,15.81|Z|Ashenvale|S|N|Kill 8 Veiled Deathstalkers. Use special action button to help reveal them and gain crit bonuses.|
 C Hope|QID|53989|M|12.06,15.38|Z|Ashenvale|NC|QO|1|N|Pick up Elun'tara, Bow of the High Priestess.|
 C Hope|QID|53989|M|11.26,13.61|Z|Ashenvale|NC|QO|2|N|Grab the Discarded Nightsaber Bridle.|
 C Hope|QID|53989|M|9.87,13.92|Z|Ashenvale|NC|QO|3|N|Collect the Ancient Kaldorei Tome.|
-C No Survivors|QID|54041|M|10.05,15.81|Z|Ashenvale|US|QO|1|N|Kill 8 Veiled Deathstalker slain. Use special action  button to help reveal them and gain crit bonuses.|
+C No Survivors|QID|54041|M|10.05,15.81|Z|Ashenvale|US|QO|1|N|Finish your quota of Deathstalkers slain. Use special action button to help reveal them and gain crit bonuses.|
 T No Survivors|QID|54041|M|11.47,17.81|Z|Ashenvale|N|To Sira Moonwarden.|
 T Hope|QID|53989|M|11.55,17.69|Z|Ashenvale|N|To Shandris Feathermoon.|
 A In Darkest Night|QID|53990|M|11.50,17.73|Z|Ashenvale|N|From Maiev Shadowsong.|PRE|54041&53989|
@@ -1026,13 +1099,14 @@ C Eyes of the Forest|ACTIVE|53990|M|19.47,73.26|Z|Darkshore!Instance1338|CHAT|SO
 T In Darkest Night|QID|53990|M|69.54,26.84|Z|Boralus|N|To Shandris Feathermoon.|
 A We Are Coming|QID|54871|M|69.54,26.84|Z|Boralus|N|From Shandris Feathermoon.|PRE|53990|
 T We Are Coming|QID|54871|M|65.89,26.05|Z|Boralus|N|To Ralston Karn.|
+
 ; Darkshore Warfront
 A Warfront: The Battle for Darkshore|QID|53992|M|65.89,26.05|Z|Boralus|N|From Ralston Karn.|
 C Warfront: The Battle for Darkshore|QID|53992|M|66.05,25.99|Z|Boralus|NC|QO|1|N|View the War Table in Boralus|
 A The War Chest|QID|53977|M|51.05,56.75|Z|Darkshore!Instance1203|N|From Thisalee Crow.|ILVL|320|
 C The War Chest|QID|53977|M|51.40,57.90|Z|Darkshore!Instance1203|NC|QO|1|N|Goto the War Chest and collect resources.|
 T The War Chest|QID|53977|M|51.06,56.75|Z|Darkshore!Instance1203|N|To Thisalee Crow.|
-A Iron in Hand|QID|53976|M|51.06,56.75|Z|Darkshore!Instance1203|N|From Thisalee Crow.|PRE|53977|
+A Iron in Hand|QID|53976|M|51.06,56.75|Z|Darkshore!Instance1203|N|From Thisalee Crow.|PRE|53977|ILVL|320|
 A Wisp'd Into Shape|QID|54436|M|51.06,56.75|Z|Darkshore!Instance1203|N|From Thisalee Crow.|PRE|53977|
 C Iron in Hand|QID|53976|M|56.47,65.17|Z|Darkshore!Instance1203|NC|QO|1|N|Capture the Lornesta Mine.|
 C Iron in Hand|QID|53976|M|57.22,66.19|Z|Darkshore!Instance1203|NC|QO|2|N|Collect 3 Freshly-Dug Ore.|
@@ -1080,22 +1154,6 @@ A Verdant Hollow|QID|52888|M|69.29,27.02|Z|Boralus|N|From Halford Wyrmbane.|PRE|
 A Mission Report: Mistvine Ledge|QID|52962|M|70.55,27.17|Z|Boralus|PRE|53749|O|
 T Mission Report: Mistvine Ledge|QID|52962|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Mistvine Ledge|QID|52963|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|52962|
-
-; Exalted Mission Reports
-A Mission Report: Brennadam|QID|54262|M|70.51,27.20|Z|Boralus|O|
-T Mission Report: Brennadam|QID|54262|M|69.27,26.99|Z|Boralus|N|To Halford Wyrmbane.|
-A Outpost Upgrade: Brennadam|QID|54263|M|69.27,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54262|
-T Outpost Upgrade: Brennadam|QID|54263|M|58.73,69.40|Z|Stormsong Valley|N|To Hank Harrison.|
-
-A Mission Report: Arom's Stand|QID|54306|M|70.52,27.18|Z|Boralus|O|
-T Mission Report: Arom's Stand|QID|54306|M|69.26,26.99|Z|Boralus|N|To Halford Wyrmbane.|
-A Outpost Upgrade: Arom's Stand|QID|54307|M|69.26,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54306|
-T Outpost Upgrade: Arom's Stand|QID|54307|M|37.92,49.27|Z|Drustvar|N|To Cleric Loriette.|
-
-A Mission Report: Castaway Point|QID|54284|M|70.42,27.12|Z|Boralus|O|
-T Mission Report: Castaway Point|QID|54284|M|69.27,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-A Outpost Upgrade: Castaway Point|QID|54288|M|69.27,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|54284|
-T Outpost Upgrade: Castaway Point|QID|54288|M|86.31,81.29|Z|Tiragarde Sound|N|To Dynamite Jack.|
 
 R Vol'dun|ACTIVE|53044|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Vol'dun or get there through other means.|
 R Vulture's Nest|ACTIVE|53044|M|53.76,37.79|Z|Vol'dun|N|Make your way to the outpost and claim it for the Alliance.|
@@ -1214,6 +1272,9 @@ N Rep Gated until 7.5K into Honored|QID|52308|N|So, go out Contribute to the War
 N Rep Gated until Revered|QID|52473|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Faction. Next segment is available at revered.|PRE|52496|REP|7th Legion;2159;revered-exalted;0;true|
 B More Scouting Missions|QID|53746^53747^53748^53749^53750^53751|M|69.33,24.96|Z|Boralus|US|N|Go do those scouting missions and earn the outpost/flight poiints.|REP|7th Legion;2159;revered-exalted|AVAILABLE|53746^53748^53749^53751|
 N Outposts and Rep|QID|52802^53187^53222^53276^53268^53307|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Dark Iron Dwarves Allied Race|PRE|52790|
+N Rep Gated until 7K into Revered|QID|54495|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Faction. Next segment is available at 7K into revered.|PRE|52790|REP|7th Legion;2159;revered;7000;true|
+N Rep Gated until 14K into Revered|QID|54469|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Faction. Next segment is available at 14K into revered.|PRE|53887|REP|7th Legion;2159;revered;14000;true|
+N Rep Gated until 17K into Revered|QID|54302|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Faction. Next segment is available at 17K into revered, but not until 22 January 2019.|PRE|52496|REP|7th Legion;2159;revered;17000;true|
 
 ]]
 end)
