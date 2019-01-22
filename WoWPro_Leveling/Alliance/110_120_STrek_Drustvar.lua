@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3763
+-- Date: 2019-01-22 09:55
+-- Who: Emmaleah
+-- Log: spelling errors, change a couple of C steps to K. and adjust coords for R Wayward Thicket.
+
+-- URL: http://wow-pro.com/node/3763/revisions/30138/view
 -- Date: 2018-11-20 14:34
 -- Who: jovieve
 -- Log: For people running guide on rank 1, added note to unsticky about skipping rank 2 quest [If Bones Could  Talk]. It's likely to become active on rank 1, because it's a drop quest. Made associated turn-in step a t instead of T.
@@ -423,10 +428,10 @@ C Seeing Spirits|QID|48475|QO|2|M|59.99,45.85|NC|N|Click on the pot to create th
 C Seeing Spirits|QID|48475|QO|3|M|60.76,46.63|NC|N|Click on Aaron Cresterly to free him|
 T Seeing Spirits|QID|48475|M|60.76,46.63|N|To Aaron Cresterly.|
 A Split Party|QID|48476|M|60.76,46.63|N|From Aaron Cresterly.|RANK|3|PRE|48475|
-C Split Party|QID|48476|QO|1|M|60.32,48.46|N|Kill the Wicker Bound Hunter to free Bridget.|
+K Wicker Bound Hunter|ACTIVE|48476|QO|1|T|Wicker Bound Hunter|M|60.32,48.46|N|Kill the Wicker Bound Hunter to free Bridget.|
 T Split Party|QID|48476|M|59.80,48.93|N|To Bridget Fairwater.|
 A Looking For One More|QID|48477|M|59.80,48.93|N|From Bridget Fairwater.|RANK|3|PRE|48476|
-C Looking For One More|QID|48477|M|58.84,50.70|N|Kill Sister Westwood.|
+K Sister Westwood|ACTIVE|48477|QO|1|T|Sister Westwood|M|58.84,50.70|N|Kill Sister Westwood.|
 T Looking For One More|QID|48477|M|59.50,51.22|N|To Mercy Fairwater.|
 C Crypt Keepers|QID|48474|M|61.70,44.16|US|N|Finish up the bonus objective before leaving the area.|
 t Crypt Keepers|QID|48474|M|61.70,44.16|N|Bonus Objective - Autocompleted.|
@@ -553,7 +558,7 @@ A A Slight Detour|QID|48941|M|69.67,43.27|N|From Lucille Waycrest.|PRE|49259|
 
 ; Gol Koval
 A Gol Koval|QID|48947|M|69.52,43.71|N|From Auntie Amanda Hale.|PRE|59259|LEAD|52074|RANK|2|
-R Wayward Thicket|ACTIVE|48947|M|47.93,48.96|N|Take this smaal path to the right afther you cross the bridge|RANK|2|FLY|BFA|
+R Wayward Thicket|ACTIVE|48947|M|68.01,48.88|N|Take this small path to the right after you cross the bridge|RANK|2|FLY|BFA|
 A Nooooope|QID|48181|M|68.01,48.88|N|Bonus Objective - Autoaccepted.|LVL|-120|RANK|2|
 C Nooooope|QID|48181|M|68.01,48.88|S|N|Trample spiderlings, break open egg sacs and kill the bigger spiders to clean up the thicket.|
 K Bonesquall|QID|48978|QO|1|M|66.72,51.10|T|Bonesquall|N|Silver Elite to kill and loot for azerite power and resources.|RARE|ITEM|154376|RANK|2|
@@ -587,7 +592,7 @@ T The Hills Are Alive|QID|48183|M|61.89,59.37|N|To Thornspeaker Birchgrove.|
 T Really Big Problem|QID|48180|M|61.89,59.37|N|To Thornspeaker Birchgrove.|
 A The High Thornspeaker|QID|53110|M|61.89,59.37|N|From Thornspeaker Birchgrove.|PRE|48183&52075&48179&48182&48180|RANK|3|
 
-H The Swine's Larder|ACTIVE|48941|TZ|Fallhaven|N|Use your heartstone to go back to Fallhaven, lacking that its a short run down the river to Flether's Hollow and a flight to Fallhaven.|
+H The Swine's Larder|ACTIVE|48941|TZ|Fallhaven|N|Use your heartstone to go back to Fallhaven, lacking that its a short run down the river to Fletcher's Hollow and a flight to Fallhaven.|
 
 ; Order of Embers
 R Highroad Pass|ACTIVE|48941|M|52.09,38.35;48.87,32.02|CS|N|Follow the road west out of town to Highroad Pass.|FLY|BFA|
