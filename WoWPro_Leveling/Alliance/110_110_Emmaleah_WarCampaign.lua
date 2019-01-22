@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-01-21 22:26
+-- Who: Emmaleah
+-- Log: update QIDs on exalted upgrade missions, remove faction requirement on final arc. (most probable it is 14K; same as previous arc)
+
+-- URL: http://wow-pro.com/node/3760/revisions/30192/view
 -- Date: 2019-01-19 03:16
 -- Who: Emmaleah
 -- Log: turns out the final segment is available at lower faction than I originally thought. Guessing at 17k into revered as it was available to char at 17172, may be lower and I will update when it is known. 
@@ -248,11 +253,6 @@
 -- Date: 2018-08-12 23:57
 -- Who: Emmaleah
 -- Log: change end level to 120
-
--- URL: http://wow-pro.com/node/3760/revisions/29497/view
--- Date: 2018-08-12 20:18
--- Who: Emmaleah
--- Log: deleted part that is in the BFA intro
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -986,7 +986,7 @@ H Boralus|ACTIVE|54510|M|40.56,70.70|Z|Zuldazar|N|Hearth or otherwise make your 
 T Mischief Managed|QID|54510|M|69.30,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 
 ; He who walks in the Light
-A The Fall of Zuldazar|QID|54302|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane. Not available until 22 January 2019.|PRE|54510|REP|7th Legion;2159;revered;17000|
+A The Fall of Zuldazar|QID|54302|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane. Not available until 22 January 2019.|PRE|54510|
 F Proudmoore Keep|ACTIVE|54302|M|66.98,15.02|Z|Boralus|N|Fly or Run over to Proudmoore Keep.|
 C The Fall of Zuldazar|QID|54302|M|39.16,77.38|Z|Boralus|CHAT|N|Discuss the plans to attack Zuldazar with Mathias Shaw in the center of the garden maze near Proudmoore Keep.|
 T The Fall of Zuldazar|QID|54302|M|38.99,77.17|Z|Boralus|N|To Halford Wyrmbane.|
@@ -1035,23 +1035,22 @@ P Sanctum of the Sages|ACTIVE|54459|M|50.37,84.08|Z|Nazmir|N|Use the portal that
 T He Who Walks in the Light|QID|54459|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
 A Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane. This is a raid quest.|NA|PRE|54459|
 
-B More upgrade missions|QID|54295&54298&54299|M|68.97,24.73|Z|Boralus|S!US|N|Three more missions to upgrade your outposts purchased from the Vindicator Jaelaana. Unlike the previous missions, these need purchased (and done) by each character who wants the upgrade.|REP|7th Legion;2159;Exalted;0|
-;^above probably not correct QIDs - will get in next day or 2 when I finish and add as PREs for the mission quests
+B More upgrade missions|QID|54292&54293&543305|M|68.97,24.73|Z|Boralus|S!US|N|Three more missions to upgrade your outposts purchased from the Vindicator Jaelaana. Unlike the previous missions, these need purchased (and done) by each character who wants the upgrade.|REP|7th Legion;2159;Exalted;0|
 
 ;exalted upgrade mission Brennadan
-A Mission Report: Brennadam|QID|54262|M|70.51,27.20|Z|Boralus|O|
+A Mission Report: Brennadam|QID|54262|M|70.51,27.20|Z|Boralus|N|From UI Alert.|PRE|5429
 T Mission Report: Brennadam|QID|54262|M|69.27,26.99|Z|Boralus|N|To Halford Wyrmbane.|
 A Outpost Upgrade: Brennadam|QID|54263|M|69.27,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54262|
 T Outpost Upgrade: Brennadam|QID|54263|M|58.73,69.40|Z|Stormsong Valley|N|To Hank Harrison.|
 
 ;exalted upgrade mission Arom's Stand
-A Mission Report: Arom's Stand|QID|54306|M|70.52,27.18|Z|Boralus|O|
+A Mission Report: Arom's Stand|QID|54306|M|70.52,27.18|Z|Boralus|N|From UI Alert.|PRE|54305|
 T Mission Report: Arom's Stand|QID|54306|M|69.26,26.99|Z|Boralus|N|To Halford Wyrmbane.|
 A Outpost Upgrade: Arom's Stand|QID|54307|M|69.26,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54306|
 T Outpost Upgrade: Arom's Stand|QID|54307|M|37.92,49.27|Z|Drustvar|N|To Cleric Loriette.|
 
 ;exalted upgrade mission Castaway Point
-A Mission Report: Castaway Point|QID|54284|M|70.42,27.12|Z|Boralus|O|
+A Mission Report: Castaway Point|QID|54284|M|70.42,27.12|Z|Boralus|N|From UI Alert.|PRE|54293|
 T Mission Report: Castaway Point|QID|54284|M|69.27,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Outpost Upgrade: Castaway Point|QID|54288|M|69.27,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|54284|
 T Outpost Upgrade: Castaway Point|QID|54288|M|86.31,81.29|Z|Tiragarde Sound|N|To Dynamite Jack.|
@@ -1274,7 +1273,6 @@ B More Scouting Missions|QID|53746^53747^53748^53749^53750^53751|M|69.33,24.96|Z
 N Outposts and Rep|QID|52802^53187^53222^53276^53268^53307|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Dark Iron Dwarves Allied Race|PRE|52790|
 N Rep Gated until 7K into Revered|QID|54495|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Faction. Next segment is available at 7K into revered.|PRE|52790|REP|7th Legion;2159;revered;7000;true|
 N Rep Gated until 14K into Revered|QID|54469|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Faction. Next segment is available at 14K into revered.|PRE|53887|REP|7th Legion;2159;revered;14000;true|
-N Rep Gated until 17K into Revered|QID|54302|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Faction. Next segment is available at 17K into revered, but not until 22 January 2019.|PRE|52496|REP|7th Legion;2159;revered;17000;true|
 
 ]]
 end)
