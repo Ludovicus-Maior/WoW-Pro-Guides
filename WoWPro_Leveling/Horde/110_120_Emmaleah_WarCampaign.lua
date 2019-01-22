@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-01-21 22:31
+-- Who: Emmaleah
+-- Log: remove rep tag on final arc of tides of vengeance as it not needed (same or less than previous arc + faction from previous arc)
+
+-- URL: http://wow-pro.com/node/3761/revisions/30190/view
 -- Date: 2019-01-19 03:10
 -- Who: Emmaleah
 -- Log: Few more tweaks and corrections.
@@ -246,11 +251,6 @@
 -- Date: 2018-08-30 04:02
 -- Who: elidion
 -- Log: Fixed a mystery character that appeared in a tag messing a line up.
-
--- URL: http://wow-pro.com/node/3761/revisions/29622/view
--- Date: 2018-08-29 07:52
--- Who: elidion
--- Log: Fixed a lot of issues with the Honored 3k portion. Waypoints, Typos, note wording, quest givers, clickable quest items.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -1038,7 +1038,7 @@ R Port of Zuldazar|ACTIVE|54179|M|87.85,51.17|Z|Tiragarde Sound|TZ|The Banshee's
 T Through the Front Door|QID|54179|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
 ; Fly out to Meet Them
-A War Is Here|QID|54139|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller. Not available until 22 January 2019.|REP|The Honorbound;2157;revered;17000|PRE|54179|;guessing... it is somewhere between 14K and 17.1K
+A War Is Here|QID|54139|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller. Not available until 22 January 2019.|
 F The Great Seal|ACTIVE|54139|N|Hearth, Fly or otherwise return to the Great Seal. The King is near the scouting map, not up at his throne.|
 C War Is Here|QID|54139|M|40.07,70.27|Z|Hall of Croniclers!Dazar'alor|QO|1|CHAT|N|Speak with King Rastakhan.|
 T War Is Here|QID|54139|M|41.24,66.68|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
@@ -1201,7 +1201,6 @@ N Rep Gated until Revered|QID|52183|N|So, go out Contribute to the Warfront (whe
 N Outposts and Rep|QID|53103^53152^53126^52320^52479^53101^53082^54260|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Mag'har Orc Allied Race|PRE|53003|
 N Rep Gated until 7K into Revered|QID|53941|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 7K into revered.|PRE|53981|REP|The Honorbound;2157;revered;7000;true|
 N Rep Gated until 14K into Revered|QID|54121|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 14K into revered.|PRE|54094|REP|The Honorbound;2157;revered;14000;true|
-N Rep Gated until 17K into Revered|QID|54139|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 17K into revered, but also not until 22 January 2019.|PRE|54179|REP|The Honorbound;2157;revered;17000;true|;rep may be lower, i tested avaialable at 17100 - hard to get a char lower as previous arc requires 14K
 
 ]]
 end)
