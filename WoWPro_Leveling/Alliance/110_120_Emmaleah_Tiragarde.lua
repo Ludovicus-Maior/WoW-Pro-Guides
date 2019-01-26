@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2019-01-26 03:36
+-- Who: Emmaleah
+-- Log: Mark Spring Cleaning as a bonus objective
+
+-- URL: http://wow-pro.com/node/3769/revisions/30183/view
 -- Date: 2019-01-13 21:57
 -- Who: Emmaleah
 -- Log: |US| to 2 steps in [the bears and the bees]
@@ -226,7 +231,7 @@ K Maison the Portable|QID|51880|QO|1|M|58.09,48.70|Z|Tiragarde Sound|T|Maison th
 $ Hay Covered Chest|QID|49963|M|61.51,52.33; 67.37,51.68|Z|Tiragarde Sound|CS|N|Hop of the Guardian of the Spring and then you have 40 seconds to ride him to Roan Berthold at Southwind Station. If you arrive in time, treasure will be waiting.|RANK|3|
 
 A Making Mysteries|QID|49897|M|67.50,55.81|N|From Wulferd Fizzbracket.|RANK|2|
-A Spring Cleaning|QID|49529|M|67.50,55.81|N|From Wulferd Fizzbracket.|RANK|2|
+A Spring Cleaning|QID|49529|M|67.50,55.81|N|Bonus Objective - Autoaccepted.|RANK|2|LVL|-120|
 T An Explosive Opportunity|QID|50542|M|67.50,55.81|N|To Wulferd Fizzbracket.|
 A The Beauty of Marketing|QID|49531|M|67.50,55.81|N|From Wulferd Fizzbracket.|RANK|2|
 C Spring Cleaning|QID|49529|M|67.5,55.81|S|N|Pop bubbles, pick up debris and kill random stuff you can't avoid. This should get finished (or nearly so) as you go about the other objectives.|
@@ -249,7 +254,7 @@ T Inspection Gadget|QID|51426|M|64.98,60.62|N|To Parin Tinklocket.|
 T Reverse Tinkering|QID|51430|M|64.98,60.62|N|To Parin Tinklocket.|
 C Making Mysteries|QID|49897|M|68.39,59.74|NC|US|N|Finish collecting the chickens.|
 C Spring Cleaning|QID|49529|M|66.85,56.96|US|N|Stick around to finish up the cleaning.|
-T Spring Cleaning|QID|49529|M|66.85,56.96|N|To UI Alert.|
+T Spring Cleaning|QID|49529|M|66.85,56.96|N|Bonus Objective - Autocompleted.|
 T Making Mysteries|QID|49897|M|67.50,55.81|N|To Wulferd Fizzbracket.|
 T The Beauty of Marketing|QID|49531|M|67.50,55.81|N|To Wulferd Fizzbracket.|
 R Winterdeep Basin|ACTIVE|50349|M|69.78,53.18;71.78,53.75;73.09,55.49|CS|N|Avoid Timberfell Outpost because the Horde guards don't like you much.|RANK|2|
