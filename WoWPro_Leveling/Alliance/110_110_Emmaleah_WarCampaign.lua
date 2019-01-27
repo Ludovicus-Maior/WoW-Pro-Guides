@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-01-27 03:00
+-- Who: Emmaleah
+-- Log: remove deprecated warfront quests.
+
+-- URL: http://wow-pro.com/node/3760/revisions/30193/view
 -- Date: 2019-01-21 22:26
 -- Who: Emmaleah
 -- Log: update QIDs on exalted upgrade missions, remove faction requirement on final arc. (most probable it is 14K; same as previous arc)
@@ -248,11 +253,6 @@
 -- Date: 2018-08-14 05:52
 -- Who: Emmaleah
 -- Log: add guide name registration and delete ref to first foothold at 112, (changed to 110)
-
--- URL: http://wow-pro.com/node/3760/revisions/29498/view
--- Date: 2018-08-12 23:57
--- Who: Emmaleah
--- Log: change end level to 120
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -505,26 +505,6 @@ P Boralus Harbor|ACTIVE|53198|M|21.71,64.88|Z|Arathi Highlands|CHAT|N|Talk to Yv
 T Back to Boralus|QID|53198|M|65.90,26.10|Z|Boralus|N|To Ralston Karn.|
 C Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|QO|1|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g.|
 T Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|N|To Ralston Karn and enjoy Warfronts!|
-A Death to The Defilers|QID|53153|ACTIVE|5315353192^53179^53146^53162^53149|M|21.71,64.88|Z|Arathi Highlands|N|From Yvera Dawnwing.|
-A Twice-Exiled|QID|53192|ACTIVE|53153^53192^53179^53146^53162^53149|M|21.71,64.88|Z|Arathi Highlands|N|From Yvera Dawnwing.|
-A Executing Exorcisms|QID|53179|ACTIVE|53153^53192^53179^53146^53162^53149|M|21.71,64.88|Z|Arathi Highlands|N|From Yvera Dawnwing.|
-A Boulderfist Beatdown|QID|53146|ACTIVE|53153^53192^53179^53146^53162^53149|M|21.71,64.88|Z|Arathi Highlands|N|From Yvera Dawnwing.|
-A Sins of the Syndicate|QID|53162|ACTIVE|53153^53192^53179^53146^53162^53149|M|21.71,64.88|Z|Arathi Highlands|N|From Yvera Dawnwing.|
-A Wiping Out the Witherbark|QID|53149|ACTIVE|53153^53192^53179^53146^53162^53149|M|21.71,64.88|Z|Arathi Highlands|N|From Yvera Dawnwing.|
-C Twice-Exiled|QID|53192|M|29.76,59.85|Z|Arathi Highlands|S|N|Kill elementals, they have spawn areas all over the map.|
-C Boulderfist Beatdown|QID|53146|M|28.75,45.55|Z|Arathi Highlands|N|Cave entrance at waypoint, kill the Boulderfist inside.|
-C Executing Exorcisms|QID|53179|M|27.01,30.60|Z|Arathi Highlands|N|Kill Ghosts in the area.|
-C Sins of the Syndicate|QID|53162|M|49.81,39.77|Z|Arathi Highlands|N|Kill Syndicate in the area.|
-C Death to The Defilers|QID|53153|M|53.14,60.05|Z|Arathi Highlands|N|Kill defilers in the area.|
-C Wiping Out the Witherbark|QID|53149|M|63.75,72.54|Z|Arathi Highlands|N|Kill trolls in the area.|
-C Twice-Exiled|QID|53192|M|29.76,59.85|Z|Arathi Highlands|US|N|Finish killing elementals in this area. There is also the Rumbling Goliath rare here.|
-T Death to The Defilers|QID|53153|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Dawnwing.|
-T Twice-Exiled|QID|53192|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Dawnwing.|
-T Executing Exorcisms|QID|53179|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Dawnwing.|
-T Boulderfist Beatdown|QID|53146|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Dawnwing.|
-T Sins of the Syndicate|QID|53162|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Dawnwing.|
-T Wiping Out the Witherbark|QID|53149|M|21.71,64.88|Z|Arathi Highlands|N|To Yvera Dawnwing.|
-;End Warfront
 
 ; Warfront Scenerio
 A Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|N|From Ralston Karn.|ILVL|320|O|
