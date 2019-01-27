@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-01-27 03:12
+-- Who: Emmaleah
+-- Log: remove deprecated warfront quests
+
+-- URL: http://wow-pro.com/node/3761/revisions/30202/view
+-- Date: 2019-01-27 03:10
+-- Who: Emmaleah
+-- Log: remove stray T|Blademaster Telaamon|
+
+-- URL: http://wow-pro.com/node/3761/revisions/30194/view
 -- Date: 2019-01-21 22:31
 -- Who: Emmaleah
 -- Log: remove rep tag on final arc of tides of vengeance as it not needed (same or less than previous arc + faction from previous arc)
@@ -242,16 +252,6 @@
 -- Who: elidion
 -- Log: The revered rep gate setting was set to blank and wowpro throws warnings about it, put a 0 to stop it from complaining.
 
--- URL: http://wow-pro.com/node/3761/revisions/29624/view
--- Date: 2018-08-30 07:34
--- Who: elidion
--- Log: Updated a few errors with waypoints, questIDs and text for the 7.5k Honored questline.
-
--- URL: http://wow-pro.com/node/3761/revisions/29623/view
--- Date: 2018-08-30 04:02
--- Who: elidion
--- Log: Fixed a mystery character that appeared in a tag messing a line up.
-
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
 WoWPro:GuideName(guide,'War Campaign')
@@ -391,7 +391,7 @@ A Douse the Flames|QID|51674|M|51.67,29.94|Z|Stormsong Valley|N|From Rexxar.|PRE
 C Almost Worth Saving|QID|51691|M|51.80,32.43|Z|Stormsong Valley|QO|1|S|NC|N|Rescue Frightened Peons as you go.|
 C Hunt Them Down|QID|51675|M|51.80,32.43|Z|Stormsong Valley|S|QO|2|N|Kill footman as you go.|
 C Douse the Flames|QID|51674|M|51.04,33.06|Z|Stormsong Valley|S|N|The mages drop the wands you need to douse the flames.|U|160565|
-C Hunt Them Down|QID|51675|M|51.85,33.63|Z|Stormsong Valley|QO|1|N|Kill Captain Ara.|T|Captain Ara.|
+K Captain Ara|ACTIVE|51675|M|51.85,33.63|Z|Stormsong Valley|QO|1|N|Kill Captain Ara.|T|Captain Ara.|
 C Almost Worth Saving|QID|51691|M|51.85,32.63|Z|Stormsong Valley|QO|2|NC|N|Click on the barricade behind Captain Ara.|
 C Douse the Flames|QID|51674|M|51.04,33.06|Z|Stormsong Valley|US|N|Finish putting out the fires.|U|160565|
 C Hunt Them Down|QID|51675|M|49.29,32.84|Z|Stormsong Valley|US|QO|2|N|Finish your quota of footman.|
@@ -472,25 +472,6 @@ P Zuldazar|ACTIVE|53212|M|26.68,35.80|Z|Arathi Highlands|CHAT|N|Talk to Druza Ne
 T Back to Zuldazar|QID|53212|M|52.93,94.47|Z|Dazar'alor|N|To Throk.|
 C Warfront Contribution|QID|53209|M|51.74,95.44|Z|Dazar'alor|QO|1|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g at Paymaster Grintooth|
 T Warfront Contribution|QID|53209|M|52.93,94.47|Z|Dazar'alor|N|To Throk and enjoy Warfronts!|
-A The League Will Lose|QID|53154|ACTIVE|53154^53193^53190^53148^53173^53150|M|27.30,29.79|Z|Arathi Highlands|N|From Druza Netherfang.|
-A Twice-Exiled|QID|53193|ACTIVE|53154^53193^53190^53148^53173^53150|M|27.30,29.79|Z|Arathi Highlands|N|From Druza Netherfang.|
-A Executing Exorcisms|QID|53190|ACTIVE|53154^53193^53190^53148^53173^53150|M|27.30,29.79|Z|Arathi Highlands|N|From Druza Netherfang.|
-A Boulderfist Beatdown|QID|53148|ACTIVE|53154^53193^53190^53148^53173^53150|M|27.30,29.79|Z|Arathi Highlands|N|From Druza Netherfang.|
-A Sins of the Syndicate|QID|53173|ACTIVE|53154^53193^53190^53148^53173^53150|M|27.30,29.79|Z|Arathi Highlands|N|From Druza Netherfang.|
-A Wiping Out the Witherbark|QID|53150|ACTIVE|53154^53193^53190^53148^53173^53150|M|27.30,29.79|Z|Arathi Highlands|N|From Druza Netherfang.|
-C Twice-Exiled|QID|53193|M|29.76,59.85|Z|Arathi Highlands|S|N|Kill elementals, they have spawn areas all over the map.|
-C Boulderfist Beatdown|QID|53148|M|28.75,45.55|Z|Arathi Highlands|N|Cave entrance at waypoint, kill the Boulderfist inside.|
-C Executing Exorcisms|QID|53190|M|21.71,64.88|Z|Arathi Highlands|N|Kill Ghosts in the area.|
-C Sins of the Syndicate|QID|53173|M|53.14,60.05|Z|Arathi Highlands|N|Kill Syndicate in the area.|
-C Wiping Out the Witherbark|QID|53150|M|63.75,72.54|Z|Arathi Highlands|N|Kill trolls in the area.|
-C The League Will Lose|QID|53154|M|49.81,39.77|Z|Arathi Highlands|N|Kill defilers in the area.|
-C Twice-Exiled|QID|53193|M|29.76,59.85|Z|Arathi Highlands|US|N|Finish killing elementals in this area. There is also the Rumbling Goliath rare here.|
-T The League Will Lose|QID|53154|M|27.30,29.79|Z|Arathi Highlands|N|To Druza Netherfang.|
-T Twice-Exiled|QID|53193|M|27.30,29.79|Z|Arathi Highlands|N|To Druza Netherfang.|
-T Executing Exorcisms|QID|53190|M|27.30,29.79|Z|Arathi Highlands|N|To Druza Netherfang.|
-T Boulderfist Beatdown|QID|53148|M|27.30,29.79|Z|Arathi Highlands|N|To Druza Netherfang.|
-T Sins of the Syndicate|QID|53173|M|27.30,29.79|Z|Arathi Highlands|N|To Druza Netherfang.|
-T Wiping Out the Witherbark|QID|53150|M|27.30,29.79|Z|Arathi Highlands|N|To Druza Netherfang.|
 ;End Warfront
 
 ; Warfront Scenerio
@@ -596,7 +577,7 @@ T Our Lot in Life|QID|51787|M|61.32,51.11|Z|Drustvar|N|To Lilian Voss.|
 T Examining the Epitaphs|QID|51785|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
 T State of Unrest|QID|51786|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
 A The Crypt Keeper|QID|51788|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51785&51786&51787|
-C The Crypt Keeper|QID|51788|M|59.38,49.12|Z|Drustvar|T|Brutus Thornton|N|Find Brutus and kill him to collect the key.|
+K Brutus Thornton|ACTIVE|51788|M|59.38,49.12|Z|Drustvar|Q)|1|T|Brutus Thornton|N|Find Brutus and kill him to collect the key.|
 T The Crypt Keeper|QID|51788|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
 A What Remains of Marshal M. Valentine|QID|51789|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51788|
 C What Remains of Marshal M. Valentine|QID|51789|QO|1|M|61.12,48.87|Z|Drustvar|NC|N|Click on the door to open.|
@@ -1055,7 +1036,7 @@ A A Path of Blood|QID|54156|M|57.96,21.30|Z|Zuldazar|N|From General Rakera.|PRE|
 C A Path of Blood|QID|54156|M|58.72,20.65|Z|Zuldazar|QO|1|S|N|Kill alliance forces on your way to rescue Rokhan.|
 C No One Left Behind|QID|54157|M|59.01,18.49|Z|Zuldazar|QO|1|T|Blademaster Telaamon|N|Attack Blademaster Telaamon and take below 50% to recue Rokhan.|
 C A Path of Blood|QID|54156|M|58.72,20.65|Z|Zuldazar|QO|1|US|N|Finish off the alliance forces on the way back to turn in.|
-T No One Left Behind|QID|54157|M|57.95,21.25|Z|Zuldazar|T|Blademaster Telaamon|N|To Princess Talanji.|
+T No One Left Behind|QID|54157|M|57.95,21.25|Z|Zuldazar|N|To Princess Talanji.|
 T A Path of Blood|QID|54156|M|58.96,21.31|Z|Zuldazar|N|To General Rakera.|
 A Retaking the Outpost|QID|54207|M|57.96,21.31|Z|Zuldazar|N|From General Rakera.|PRE|54156&54157|
 R The Fallen Outpost|ACTIVE|54207|M|50.34,88.94|Z|Nazmir|
