@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-01-28 06:23
+-- Who: Emmaleah
+-- Log: Change QO for The Wildhammer Specialty
+
+-- URL: http://wow-pro.com/node/3760/revisions/30205/view
+-- Date: 2019-01-27 22:41
+-- Who: Emmaleah
+-- Log: Add PRE to adapting our tactics.
+
+-- URL: http://wow-pro.com/node/3760/revisions/30203/view
 -- Date: 2019-01-27 03:00
 -- Who: Emmaleah
 -- Log: remove deprecated warfront quests.
@@ -244,16 +254,6 @@
 -- Who: elidion
 -- Log: Near complete re-write of the guide copying most of the Horde side features/changes
 
--- URL: http://wow-pro.com/node/3760/revisions/29621/view
--- Date: 2018-08-29 02:16
--- Who: elidion
--- Log: Fixed some Zuldazar Campaign issues, such as incorrect waypoints and mistyped PRE questIDs
-
--- URL: http://wow-pro.com/node/3760/revisions/29513/view
--- Date: 2018-08-14 05:52
--- Who: Emmaleah
--- Log: add guide name registration and delete ref to first foothold at 112, (changed to 110)
-
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
 WoWPro:GuideName(guide,'War Campaign')
@@ -286,7 +286,7 @@ t War of Shadows|QID|51715|M|70.70,27.10|Z|Boralus|N|To Master Mathias Shaw.|
 A Reinforcements|QID|53074|M|70.70,27.10|Z|Boralus|N|From Master Mathias Shaw.|PRE|51715|
 C Reinforcements|QID|53074|M|70.70,27.10|Z|Boralus|N|Place a work order (or 4) for reinforcements with Master Mathias Shaw.|
 T Reinforcements|QID|53074|M|70.70,27.10|Z|Boralus|N|To Master Mathias Shaw.|
-A Adapting Our Tactics|QID|53583|M|70.65,27.39|Z|Boralus|N|From Alleria Windrunner.|LVL|114|
+A Adapting Our Tactics|QID|53583|M|70.65,27.39|Z|Boralus|N|From Alleria Windrunner.|LVL|114|PRE|51967^51968^51969|
 C Adapting Our Tactics|QID|53583|M|70.65,27.39|Z|Boralus|QO|1|N|Choose an upgrade: 40 percent off your hearthstone cooldown or 20 percent mount speed for 5 minutes after landing.|
 T Adapting Our Tactics|QID|53583|M|70.65,27.39|Z|Boralus|N|To Alleria Windrunner.|
 
@@ -696,7 +696,7 @@ A The Void Solution|QID|52204|M|40.59,70.68|Z|Zuldazar|N|From Magister Umbric.|P
 A Find the Paper Trail|QID|52203|M|40.59,70.68|Z|Zuldazar|N|From Magister Umbric.|PRE|52173|
 C Bilgewater Bonanza Go Boom|QID|52205|M|40.59,70.68|Z|Zuldazar|S|N|Kill 12 goblins and open void tears if you need extra assistance.|
 C The Void Solution|QID|52204|M|35.48,68.42|Z|Zuldazar|S|N|Destroy 4 Bilgewater Frackers using the Void Shard.|U|161422|
-K Boss Blastmouth|ACTIVE|52203|M|38.62,72.24;35.28,66.66|CS|Z|Zuldazar|T|Boss Blastmouth|N|Kill Boss Blastmouth to loot the Orders from Gallywix.|
+K Boss Blastmouth|ACTIVE|52203|QO|1|M|38.62,72.24;35.28,66.66|CS|Z|Zuldazar|T|Boss Blastmouth|N|Kill Boss Blastmouth to loot the Orders from Gallywix.|
 C The Void Solution|QID|52204|M|35.48,68.42|Z|Zuldazar|US|N|Destroy 4 Bilgewater Frackers using the Void Shard.|U|161422|
 C Bilgewater Bonanza Go Boom|QID|52205|M|40.59,70.68|Z|Zuldazar|US|N|Kill 12 goblins and open void tears if you need extra assistance.|
 T Bilgewater Bonanza Go Boom|QID|52205|M|40.59,70.68|Z|Zuldazar|N|To Magister Umbric.|
@@ -745,8 +745,8 @@ T Broadside Bedlam|QID|52491|M|40.89,47.68|Z|1156|N|To Falstad Wildhammer.|
 A The Wildhammer Specialty|QID|52492|M|40.89,47.68|Z|1156|N|From Falstad Wildhammer.|PRE|52490&52491|
 C The Wildhammer Specialty|QID|52492|M|40.67,49.81|Z|1156|QO|1|NC|N|Use "1" key to order Falstad to start the attack.|
 C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|S|QO|2|N|Use the "1" key to bomb rowboats and kill sailors, "2" key is a heal.|
-C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|3|N|Use the "1" key to burn the deck of The Banshee's Wail.|
-C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|4|N|Use the "1" key to burn the sails of The Crimson Squall.|
+C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|4|N|Use the "1" key to burn the deck of The Banshee's Wail.|
+C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|5|N|Use the "1" key to burn the sails of The Crimson Squall.|
 C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|US|QO|2|N|Finish up the bombing run.|
 T The Wildhammer Specialty|QID|52492|M|41.72,57.01|Z|1156|N|Turn in to Shandris Feathermoon.|
 A An Unnatural Crew|QID|52493|M|41.72,57.01|Z|1156|N|From Shandris Feathermoon.|PRE|52492|
@@ -908,12 +908,12 @@ C Freedom for the Da'kani|QID|54197|M|48.93,53.30|Z|Zuldazar|NC|QO|1|N|8 Da'kani
 C Out of Options|QID|54196|M|48.53,53.19|Z|Zuldazar|US|QO|1|N|Kill Bilgewater Poachers.|
 T Out of Options|QID|54196|M|46.80,50.50|Z|Zuldazar|N|To Grong.|
 T Freedom for the Da'kani|QID|54197|M|46.80,50.50|Z|Zuldazar|N|To Grong.|
-A Bittersweet Goodbyes|QID|54198|M|46.80,50.50|Z|Zuldazar|N|From Grong.|
+A Bittersweet Goodbyes|QID|54198|M|46.80,50.50|Z|Zuldazar|N|From Grong.|PRE|54197|
 T Bittersweet Goodbyes|QID|54198|M|46.80,50.50|Z|Zuldazar|N|To Grong.|
 A The Needs of the Many|QID|54199|M|46.80,50.50|Z|Zuldazar|N|From Grong.|PRE|54198|
 C The Needs of the Many|QID|54199|M|41.20,70.54|Z|Zuldazar|NC|QO|1|N|Click on Grong to ride him back to Xibala.|
 T The Needs of the Many|QID|54199|M|41.07,70.61|Z|Zuldazar|N|To Morton Cogswald.|
-A Bring the Base|QID|54200|M|41.07,70.61|Z|Zuldazar|N|From Morton Cogswald.|
+A Bring the Base|QID|54200|M|41.07,70.61|Z|Zuldazar|N|From Morton Cogswald.|PRE|54199|
 C Bring the Base|QID|54200|M|41.21,70.54|Z|Zuldazar|CHAT|QO|1|N|Speak to Morton Cogswalt to let him know you're ready.|
 C Bring the Base|QID|54200|M|41.88,73.64|Z|Zuldazar|NC|QO|2|N|Run to the marker.|
 C Bring the Base|QID|54200|M|41.88,73.64|Z|Zuldazar|NC|QO|3|N|Use the "4" key to speak to Grong.|
@@ -937,10 +937,10 @@ A Total Temple Destruction|QID|54204|M|41.10,70.60|Z|Zuldazar|N|From Megs.|PRE|5
 C Total Temple Destruction|QID|54204|M|49.13,41.74|Z|Zuldazar|NC|QO|1|N|Click on Umbric's portal.|
 C Total Temple Destruction|QID|54204|M|49.67,38.81|Z|Zuldazar|QO|2|N|Use the vehicle UI buttons to destroy the Temple forces.|
 T Total Temple Destruction|QID|54204|M|41.15,70.68|Z|Zuldazar|N|To Kelsey Steelspark.|
-A A Nice Nap|QID|54205|M|41.15,70.68|Z|Zuldazar|N|From Kelsey Steelspark.|
+A A Nice Nap|QID|54205|M|41.15,70.68|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|54204|
 C A Nice Nap|QID|54205|M|41.15,70.68|Z|Zuldazar|NC|T|Grong|N|Use special action button to shoot the tranquilizer dart at Grong.|
 T A Nice Nap|QID|54205|M|41.15,70.68|Z|Zuldazar|N|To Kelsey Steelspark.|
-A The Sleeper Agent|QID|54206|M|41.15,70.68|Z|Zuldazar|N|From Kelsey Steelspark.|
+A The Sleeper Agent|QID|54206|M|41.15,70.68|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|54205|
 H Boralus|ACTIVE|54206|M|41.15,70.68|Z|Zuldazar|N|Use your hearthstone or otherwise return to Boralus and Halford Wyrmbane.|
 T The Sleeper Agent|QID|54206|M|69.29,26.99|Z|Boralus|N|To Halford Wyrmbane.|
 
