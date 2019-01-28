@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2019-01-28 06:21
+-- Who: Emmaleah
+-- Log: Fix Carenton's location.
+
+-- URL: http://wow-pro.com/node/3769/revisions/30201/view
 -- Date: 2019-01-26 03:36
 -- Who: Emmaleah
 -- Log: Mark Spring Cleaning as a bonus objective
@@ -947,10 +952,7 @@ T The Deadliest Catch|QID|49302|M|42.46,29.34|N|To Brannon Stormsong.|
 t WANTED: Quartermaster Ssylis|QID|51384|M|42.43,29.31|N|To Keegan Alby.|
 H Tradewinds Market|TZ|Snug Harbor Inn|N|Hearth or take the nearby ferry back to Boralus.|
 A The Long Con|QID|49223|LVL|120|M|75.47,22.18|N|From Roko.|RANK|3|PRE|49523|
-F Freehold|ACTIVE|49223|LVL|120|M|66.96,14.99|Z|Boralus|N|Take a flight to Freehold.|RANK|3|
-K Carentan|QID|49223|LVL|120|M|76.90,85.98|T|Carentan|N|Kill Carentan.|RANK|3|
-$ Buried Treasure-Yellowed Treasure Map|QID|52836|M|90.50,75.51|Z|Tiragarde Sound|N|If you have looted the Yellowed Treasure Map, this treasure can be found here. You probably don't have the treasure map and will need to check back later, but you may as well check since you are here.|RANK|3|PRE|52859|
-F Tradewinds Market|M|77.04,82.89|N|Hearth or Fly back to Boralus with Rodrigo.|RANK|3|
+K Carentan|ACTIVE|49223|QO|1|LVL|120|M|61.3,41.7|T|Carentan|N|Kill Carentan.|RANK|3|
 T The Long Con|QID|49223|LVL|120|M|75.47,22.18|N|To Roko.|RANK|3|
 
 D This ends the Tiragarde Sound Guide.|
