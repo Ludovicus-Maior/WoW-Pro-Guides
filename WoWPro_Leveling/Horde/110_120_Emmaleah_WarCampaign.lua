@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-01-27 22:45
+-- Who: Emmaleah
+-- Log: Change PRE on Adapting our Tactics
+
+-- URL: http://wow-pro.com/node/3761/revisions/30204/view
 -- Date: 2019-01-27 03:12
 -- Who: Emmaleah
 -- Log: remove deprecated warfront quests
@@ -247,11 +252,6 @@
 -- Who: elidion
 -- Log: Updated the Revered and friendly 4.5k questlines, also added 4 of the 7 outpost questlines as well as re-structuring the guide layout to not harass players with stuff when they don't have the appropriate rep levels. 
 
--- URL: http://wow-pro.com/node/3761/revisions/29625/view
--- Date: 2018-08-30 07:50
--- Who: elidion
--- Log: The revered rep gate setting was set to blank and wowpro throws warnings about it, put a 0 to stop it from complaining.
-
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
 WoWPro:GuideName(guide,'War Campaign')
@@ -285,7 +285,7 @@ t War of Shadows|QID|51771|M|58.54,62.26|Z|Zuldazar|N|To Garona Halforcen.|
 A Reinforcements|QID|53079|M|58.54,62.26|Z|Zuldazar|N|From Garona Halforcen.|PRE|51771|
 C Reinforcements|QID|53079|M|58.54,62.26|Z|Zuldazar|NC|N|Requistion some troops from Garona.|
 T Reinforcements|QID|53079|M|58.54,62.26|Z|Zuldazar|N|To Garona Halforcen.|
-A Adapting Our Tactics|QID|53602|M|58.56,62.73|Z|Zuldazar|N|From Eitrigg. Requires completing the first foothold.|PRE|53079|LVL|114|
+A Adapting Our Tactics|QID|53602|M|58.56,62.73|Z|Zuldazar|N|From Eitrigg.|PRE|51984^51985^51986|LVL|114|
 C Adapting Our Tactics|QID|53602|M|58.56,62.72|Z|Zuldazar|CHAT|N|Ask Eitrigg about available upgrades and then choose between the two on the first tier.|
 T Adapting Our Tactics|QID|53602|M|58.56,62.72|Z|Zuldazar|N|To Eitrigg.|
 A The MOTHERLODE!!: Raw Deal|QID|53437|M|58.45,62.64|Z|Zuldazar|NA|LVL|115|N|From Trade Prince Gallywix who is 1 level directly below Nathanos.|PRE|53602|
