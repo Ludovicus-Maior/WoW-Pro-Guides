@@ -255,6 +255,7 @@ DefineTag("ITEM","item","string",nil,nil)
 DefineTag("NC","noncombat","boolean",nil,nil)
 DefineTag("NA","noauto","boolean",nil,nil)
 DefineTag("CHAT","chat","boolean",nil,nil)
+DefineTag("V","vehichle","boolean",nil,nil) -- Yeah, that is how blizzard spelled it!
 DefineTag("LVL","level","number",nil,nil)
 DefineTag("T","target","string",nil,nil)
 DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(value) end)

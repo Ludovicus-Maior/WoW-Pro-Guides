@@ -783,7 +783,10 @@ function WoWPro:RowUpdate(offset)
 		if WoWPro.noncombat[k] and WoWPro.action[k] == "C" then
 			row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
 		elseif WoWPro.chat[k] then
-		    row.action:SetTexture("Interface\\GossipFrame\\Gossipgossipicon")
+			row.action:SetTexture("Interface\\GossipFrame\\Gossipgossipicon")
+		elseif WoWPro.vehichle[k] then
+			-- Yeah, that is how blizzard spelled it!
+			row.action:SetTexture("Interface\\CURSOR\\vehichleCursor")
 		end
 
 		row.check:SetScript("OnClick", function(self, button, down)
@@ -1519,7 +1522,7 @@ function WoWPro.NextStep(k,i)
 				profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
 				for p=1,6 do
 					if profs[p] then
-						local skillName, _, skillRank, maxskill, _, _, skillnum, rankModifier = GetProfessionInfo(profs[p])
+						local skillName, texture, skillRank, maxskill, numSpells, spellOffset, skillnum, rankModifier, specializationIndex, specializationOffset, skillLineName = GetProfessionInfo(profs[p])
 -- 02003 ~ 082959 WoWPro: Prof prof=Tailoring,197 level=75, max_level=0, max_skill=0
 -- 02004 ~ 082959 WoWPro: GetProfessionInfo() = Tailoring, skillRank=1, maxskill=100, skillnum=197
 						if (tonumber(skillnum) == tonumber(profnum)) then
