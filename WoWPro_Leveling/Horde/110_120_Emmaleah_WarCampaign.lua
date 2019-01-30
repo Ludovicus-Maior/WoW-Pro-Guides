@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-01-30 07:46
+-- Who: Emmaleah
+-- Log: Add new |V| (vehicle) tag
+
+-- URL: http://wow-pro.com/node/3761/revisions/30206/view
 -- Date: 2019-01-27 22:45
 -- Who: Emmaleah
 -- Log: Change PRE on Adapting our Tactics
@@ -247,11 +252,6 @@
 -- Who: Emmaleah
 -- Log: merged my changes to early part of guide with Elodian's changes to later part of guide.
 
--- URL: http://wow-pro.com/node/3761/revisions/29649/view
--- Date: 2018-09-03 05:57
--- Who: elidion
--- Log: Updated the Revered and friendly 4.5k questlines, also added 4 of the 7 outpost questlines as well as re-structuring the guide layout to not harass players with stuff when they don't have the appropriate rep levels. 
-
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
 WoWPro:GuideName(guide,'War Campaign')
@@ -342,10 +342,10 @@ C Drustvar Ho!|QID|51340|M|58.46,62.99|Z|Zuldazar|QO|2|CHAT|N|Tail Tattersail yo
 T Drustvar Ho!|QID|51340|M|20.79,43.85|Z|Drustvar|N|To Eitrigg.|
 A Profit and Reconnaissance|QID|51224|M|20.79,43.85|Z|Drustvar|N|From Eitrigg.|PRE|51340|
 f Anyport|ACTIVE|51224|M|19.12,43.32|Z|Drustvar|N|At Tan Lotuswind.|
-C Profit and Reconnaissance|QID|51224|M|20.71,43.73;20.40,47.37;22.30,46.37|Z|Drustvar|CS|QO|1|NC|N|Hop on the trike and drive up the hill. Inspect the scout when you arrive.|
-C Profit and Reconnaissance|QID|51224|M|25.47,46.40|Z|Drustvar|QO|2|NC|N|Hop back on the trike and head for the next Drudge a little further into the woods. Kill the Wildwood Slaverer which will appear shortly.|
-C Profit and Reconnaissance|QID|51224|M|29.47,54.90|Z|Drustvar|QO|3|NC|N|Hop back on and find yet another goblin scout. Inspect him.|
-C Profit and Reconnaissance|QID|51224|M|32.11,54.43|Z|Drustvar|QO|4|NC|N|Hop back on to Find the final goblin scout.|
+C Profit and Reconnaissance|QID|51224|M|20.71,43.73;20.40,47.37;22.30,46.37|Z|Drustvar|CS|QO|1|V|N|Hop on the trike and drive up the hill. Inspect the scout when you arrive.|
+C Profit and Reconnaissance|QID|51224|M|25.47,46.40|Z|Drustvar|QO|2|V|N|Hop back on the trike and head for the next Drudge a little further into the woods. Kill the Wildwood Slaverer which will appear shortly.|
+C Profit and Reconnaissance|QID|51224|M|29.47,54.90|Z|Drustvar|QO|3|V|N|Hop back on and find yet another goblin scout. Inspect him.|
+C Profit and Reconnaissance|QID|51224|M|32.11,54.43|Z|Drustvar|QO|4|V|N|Hop back on to Find the final goblin scout.|
 T Profit and Reconnaissance|QID|51224|M|32.33,54.55|Z|Drustvar|N|To Eitrigg.|
 A Wiccaphobia|QID|51231|M|32.33,54.55|Z|Drustvar|N|From Eitrigg.|PRE|51224|
 C Wiccaphobia|QID|51231|M|32.26,54.89|Z|Drustvar|QO|1|N|Protect Eitrigg and Gallywix|
@@ -472,7 +472,6 @@ P Zuldazar|ACTIVE|53212|M|26.68,35.80|Z|Arathi Highlands|CHAT|N|Talk to Druza Ne
 T Back to Zuldazar|QID|53212|M|52.93,94.47|Z|Dazar'alor|N|To Throk.|
 C Warfront Contribution|QID|53209|M|51.74,95.44|Z|Dazar'alor|QO|1|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g at Paymaster Grintooth|
 T Warfront Contribution|QID|53209|M|52.93,94.47|Z|Dazar'alor|N|To Throk and enjoy Warfronts!|
-;End Warfront
 
 ; Warfront Scenerio
 A Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|N|From Throk.|O|
@@ -554,7 +553,7 @@ A Death Trap|QID|51599|M|77.50,49.93|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|5
 C Death Trap|QID|51599|M|74.24,52.88|Z|Tiragarde Sound|NC|N|Click on all the crates here.|
 T Death Trap|QID|51599|M|77.01,49.19|Z|Tiragarde Sound|N|To Lilian Voss.|
 A The Bridgeport Ride|QID|51601|M|77.01,49.19|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51599|
-C The Bridgeport Ride|QID|51601|M|75.49,49.86;75.55,51.96;74.22,52.88|QO|1;2|Z|Tiragarde Sound|CS|NC|N|Hop on the horse, make a circle thru town, be sure you ran past the Captain, and then ride out across the low bridge to where you set the bombs.|
+C The Bridgeport Ride|QID|51601|M|75.49,49.86;75.55,51.96;74.22,52.88|QO|1;2|Z|Tiragarde Sound|CS|V|N|Hop on the horse, make a circle thru town, be sure you ran past the Captain, and then ride out across the low bridge to where you set the bombs.|
 T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|NC|N|To Nathanos Blightcaller.|
 
 ; The Marshal's Grave - 4.5k Friendly with The Honorbound
@@ -577,7 +576,7 @@ T Our Lot in Life|QID|51787|M|61.32,51.11|Z|Drustvar|N|To Lilian Voss.|
 T Examining the Epitaphs|QID|51785|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
 T State of Unrest|QID|51786|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
 A The Crypt Keeper|QID|51788|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51785&51786&51787|
-K Brutus Thornton|ACTIVE|51788|M|59.38,49.12|Z|Drustvar|Q)|1|T|Brutus Thornton|N|Find Brutus and kill him to collect the key.|
+K Brutus Thornton|ACTIVE|51788|M|59.38,49.12|Z|Drustvar|QO|1|T|Brutus Thornton|N|Find Brutus and kill him to collect the key.|
 T The Crypt Keeper|QID|51788|M|61.37,51.09|Z|Drustvar|N|To Nathanos Blightcaller.|
 A What Remains of Marshal M. Valentine|QID|51789|M|61.37,51.09|Z|Drustvar|N|From Nathanos Blightcaller.|PRE|51788|
 C What Remains of Marshal M. Valentine|QID|51789|QO|1|M|61.12,48.87|Z|Drustvar|NC|N|Click on the door to open.|
@@ -925,7 +924,7 @@ A The Hunt Never Ends|QID|53912|M|50.83,26.55|Z|Tiragarde Sound|N|From Rexxar.|P
 C The Hunt Never Ends|QID|53912|M|52.99,30.46|Z|Tiragarde Sound|NC|N|Approach Norwington manor|
 T The Hunt Never Ends|QID|53912|M|53.04,30.51|Z|Tiragarde Sound|N|To Rexxar.|
 A Ride Out to Meet Them|QID|53973|M|53.04,30.51|Z|Tiragarde Sound|N|From Rexxar.|PRE|53912|
-C Ride Out to Meet Them|QID|53973|M|53.04,30.32|Z|Tiragarde Sound|QO|1|NC|N|Hop on the Goblin gyrocopter.|
+C Ride Out to Meet Them|QID|53973|M|53.04,30.32|Z|Tiragarde Sound|QO|1|V|N|Hop on the Goblin gyrocopter.|
 C Ride Out to Meet Them|QID|53973|M|50.22,27.05|Z|Tiragarde Sound|QO|2|N|Use the Gyrocopter's UI Abilities to defeat the Alliance army.|
 T Ride Out to Meet Them|QID|53973|M|47.41,21.82|Z|Tiragarde Sound|N|To Rexxar.|
 A The Day is Won|QID|53981|M|47.41,21.82|Z|Tiragarde Sound|N|From Rexxar.|PRE|53973|
@@ -944,7 +943,7 @@ C It Belongs in My Mech!|QID|54123|M|35.63,69.54|Z|Zuldazar|US|U|166309|T|Azerit
 T Avoiding Lawsuits 101|QID|54124|M|36.25,72.02|Z|Zuldazar|N|To Patch.|
 T It Belongs in My Mech!|QID|54123|M|36.31,72.02|Z|Zuldazar|N|To Trade Prince Gallywix.|
 A The Right Mech for the Job|QID|53942|M|36.31,72.02|Z|Zuldazar|N|From Trade Prince Gallywix.|PRE|54123&53124|
-C The Right Mech for the Job|QID|53942|M|36.30,72.13|Z|Zuldazar|QO|1|NC|N|Hop in the G.M.O.D for a ride to Drustvar.|
+C The Right Mech for the Job|QID|53942|M|36.30,72.13|Z|Zuldazar|QO|1|V|N|Hop in the G.M.O.D for a ride to Drustvar.|
 C The Right Mech for the Job|QID|53942|M|37.61,25.04|Z|Drustvar|QO|2|N|Use the G.M.O.D.'s abilities to eliminate mechs within Krazzlefrazz Outpost. When you kill the required number, move out of Krazzlefraz for the next stage. When that is done, use the big red button.|
 C The Right Mech for the Job|QID|53942|M|40.38,37.81|Z|Drustvar|QO|3|N|Use the G.M.O.D.'s abilities to repel mech army within Arom's Crossing.|
 C The Right Mech for the Job|QID|53942|M|40.38,37.81|Z|Drustvar|QO|4|N|Now it's time to push the big red button.|
@@ -953,7 +952,7 @@ A Necessary Precautions|QID|54128|M|37.32,25.99|Z|Drustvar|N|From G.M.O.D.|PRE|5
 C Necessary Precautions|QID|54128|M|37.32,25.99|Z|Drustvar|NC|N|G.M.O.D reviewed.|
 T Necessary Precautions|QID|54128|M|37.32,25.99|Z|Drustvar|N|To G.M.O.D.|
 A Test Case #1; Mech vs. Mekkatorque|QID|54004|M|37.32,25.99|Z|Drustvar|N|From G.M.O.D.|PRE|54128|
-C Test Case #1; Mech vs. Mekkatorque|QID|54004|M|75.99,55.99|Z|Drustvar|NC|N|Ride G.M.O.D to face Mekkatorque. When directed, use the Big Red Button.|
+C Test Case #1; Mech vs. Mekkatorque|QID|54004|M|75.99,55.99|Z|Drustvar|V|N|Ride G.M.O.D to face Mekkatorque. When directed, use the Big Red Button.|
 T Test Case #1; Mech vs. Mekkatorque|QID|54004|M|54.60,64.58|Z|Tiragarde Sound|N|To Trade Prince Gallywix.|
 A Insurance Policy|QID|54007|M|54.60,64.58|Z|Tiragarde Sound|N|From Trade Prince Gallywix.|PRE|54004|
 C Insurance Policy|QID|54007|M|54.62,64.47|Z|Tiragarde Sound|NC|QO|1|N|Click on the G.M.O.D to call for roadside assistance.|
@@ -1029,7 +1028,7 @@ R The Zocalo|ACTIVE|54140|M|41.98,26.99|Z|Dazar'alor|N|Head down the stairs, thr
 C Ride of the Zandalari|QID|54140|M|52.94,40.16|Z|Zuldazar|QO|2|CHAT|N|Speak with General Rakera to mobilize the army.|
 R House of Pa'ku|ACTIVE|54140|M|43.52,24.16;51.35,12.53|Z|Dazar'alor|CS|N|Run back thru The Zacolo and Terrace of the Chosen to directly above The Sliver to find Hexloar Raal.|
 C Ride of the Zandalari|QID|54140|M|52.82,11.90|Z|Dazar'alor|QO|3|CHAT|N|Speak with Hexlord Raal to mobilize the aerial forces.|
-F Blood Gate|ACTIVE|54140|M|52.94,11.69|Z|Dazar'alor|N|Hop on Ata the Winglord for a ride to Talanji and the Blood Gate.|
+F Blood Gate|ACTIVE|54140|M|52.94,11.69|Z|Dazar'alor|V|N|Hop on Ata the Winglord for a ride to Talanji and the Blood Gate.|
 T Ride of the Zandalari|QID|54140|M|57.95,21.26|Z|Zuldazar|N|To Princess Talanji.|
 A No One Left Behind|QID|54157|M|57.95,21.26|Z|Zuldazar|N|From Princess Talanji.|PRE|54140|
 A A Path of Blood|QID|54156|M|57.96,21.30|Z|Zuldazar|N|From General Rakera.|PRE|54140|
@@ -1055,11 +1054,11 @@ A It's Alive!|QID|54213|M|50.30,78.41|Z|Nazmir|N|From Patch.|PRE|54211&54212|
 C It's Alive!|QID|54213|M|50.36,78.46|Z|Nazmir|QO|1|CHAT|N|Speak with Talanji to power up the A.F.M.O.D.|
 T It's Alive!|QID|54213|M|50.30,78.41|Z|Nazmir|N|To Patch.|
 A The Battle of Zul'jan Ruins|QID|54224|M|50.37,78.46|Z|Nazmir|N|From Princess Talanji.|PRE|54213|
-C The Battle of Zul'jan Ruins|QID|54224|M|50.21,78.21;47.35,80.05|Z|Nazmir|CS|QO|1|NC|N|Hop is the A.F.M.O.D and go slay alliance defenders.\n>1 is a cone shaped AE.\n>2 is a short charge, followed by AE and a heal for the mech. |
+C The Battle of Zul'jan Ruins|QID|54224|M|50.21,78.21;47.35,80.05|Z|Nazmir|CS|QO|1|V|N|Hop in the A.F.M.O.D and go slay alliance defenders.\n>1 is a cone shaped AE.\n>2 is a short charge, followed by AE and a heal for the mech. |
 C The Battle of Zul'jan Ruins|QID|54224|M|41.32,78.43|Z|Nazmir|QO|2|NC|N|Go out and slay even more.|
 T The Battle of Zul'jan Ruins|QID|54224|M|39.27,78.20|Z|Nazmir|N|To Princess Talanji.|
 A We Have Them Cornered|QID|54244|M|39.27,78.20|Z|Nazmir|N|From Princess Talanji.|PRE|54224|
-C We Have Them Cornered|QID|54244|M|39.19,78.00|Z|Nazmir|NC|N|Hop on the Riding Raptor for a ride to Zalamar.|
+C We Have Them Cornered|QID|54244|M|39.19,78.00|Z|Nazmir|V|N|Hop on the Riding Raptor for a ride to Zalamar.|
 T We Have Them Cornered|QID|54244|M|30.90,51.87|Z|Nazmir|N|To Princess Talanji.|
 A Zandalari Justice|QID|54249|M|30.90,51.87|Z|Nazmir|N|From Princess Talanji.|PRE|54244|
 A None Shall Escape|QID|54269|M|30.82,51.81|Z|Nazmir|N|From General Rakera.|PRE|54244|
@@ -1081,11 +1080,11 @@ K Blademaster Telaamon|ACTIVE|54271|M|29.29,46.57|Z|Nazmir|QO|1|T|Blademaster Te
 T Telaamon's Purge|QID|54271|M|31.25,46.82|Z|Nazmir|N|To Rokhan.|
 A Parting Mists|QID|54275|M|31.25,46.82|Z|Nazmir|N|From Rokhan.|PRE|54271|
 C Parting Mists|QID|54275|M|31.44,46.94|Z|Nazmir|QO|1|NC|N|Walk forward into the whirlwind to fly out of Hir'eek's lair (Optional-or you can just run up.)|
-C Parting Mists|QID|54275|M|31.78,45.45|Z|Nazmir|QO|2|NC|N|Hop on the Riding Raptor to ride out and dispel the fog voodoo.|
+C Parting Mists|QID|54275|M|31.78,45.45|Z|Nazmir|QO|2|V|N|Hop on the Riding Raptor to ride out and dispel the fog voodoo.|
 C Parting Mists|QID|54275|M|31.62,31.78|Z|Nazmir|QO|3|CHAT|N|Tell Talanji that you are ready.|
 T Parting Mists|QID|54275|M|31.62,31.78|Z|Nazmir|NC|N|To Princess Talanji.|
 A Fly Out to Meet Them|QID|54280|M|31.35,31.97|Z|Nazmir|N|From General Rakera.|PRE|54275|
-C Fly Out to Meet Them|QID|54280|M|31.47,32.06|Z|Nazmir|NC|N|Hop on for a ride back to Zuldazar with Hexlord Raal|
+C Fly Out to Meet Them|QID|54280|M|31.47,32.06|Z|Nazmir|V|N|Hop on for a ride back to Zuldazar with Hexlord Raal|
 T Fly Out to Meet Them|QID|54280|M|37.04,5.23|Z|Dazar'alor|N|To Princess Talanji.|
 A Battle of Dazar'alor|QID|54282|M|37.04,5.23|Z|Dazar'alor|N|From Princess Talanji. This is a raid quest. Accept or not as you choose.|PRE|54280|
 
