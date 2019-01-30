@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-01-30 08:00
+-- Who: Emmaleah
+-- Log: Add new |V|(vehicle) tag
+
+-- URL: http://wow-pro.com/node/3760/revisions/30207/view
 -- Date: 2019-01-28 06:23
 -- Who: Emmaleah
 -- Log: Change QO for The Wildhammer Specialty
@@ -249,11 +254,6 @@
 -- Date: 2018-09-07 04:00
 -- Who: elidion
 
--- URL: http://wow-pro.com/node/3760/revisions/29688/view
--- Date: 2018-09-07 00:57
--- Who: elidion
--- Log: Near complete re-write of the guide copying most of the Horde side features/changes
-
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
 WoWPro:GuideName(guide,'War Campaign')
@@ -358,7 +358,7 @@ A Antidote Application|QID|51366|M|38.95,42.92|Z|Vol'dun|N|From Sergeant Ermey.|
 C Antidote Application|QID|51366|M|38.95,42.92|Z|Vol'dun|NC|U|160045|T|Vorrik|N|Apply antidote salve to Vorrik.|
 T Antidote Application|QID|51366|M|38.95,42.96|Z|Vol'dun|N|To Vorrik.|
 A Friends in Strange Places|QID|51369|M|38.95,42.96|Z|Vol'dun|N|From Vorrik.|PRE|51366|
-C Friends in Strange Places|QID|51369|M|39.08,43.06|Z|Vol'dun|QO|1|NC|N|Hop on the Pterrordax, enjoy the ride.|
+C Friends in Strange Places|QID|51369|M|39.08,43.06|Z|Vol'dun|QO|1|V|N|Hop on the Pterrordax, enjoy the ride.|
 T Friends in Strange Places|QID|51369|M|27.22,53.92|Z|Vol'dun|N|To Vorrik.|
 A Defang the Faithless|QID|51391|M|27.22,53.92|Z|Vol'dun|N|From Vorrik.|PRE|51369|
 A Break the Siege|QID|51394|M|27.22,53.92|Z|Vol'dun|N|From Vorrik.|PRE|51369|
@@ -417,7 +417,7 @@ T Save Them All|QID|51191|M|77.13,55.54|Z|Zuldazar|N|To Medic Feorea.|
 T Granting a Reprieve|QID|51190|M|77.54,54.58|Z|Zuldazar|N|To Brigadier Thom.|
 T Disarming the Cannons|QID|51544|M|77.54,54.58|Z|Zuldazar|N|To Brigadier Thom.|
 A Xibala|QID|51418|M|77.50,55.21|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|51190&51191&51192&51193&51544|
-C Xibala|QID|51418|M|80.35,55.45|Z|Zuldazar|NC|N|Hop in the rowboat and enjoy the ride.|
+C Xibala|QID|51418|M|80.35,55.45|Z|Zuldazar|V|N|Hop in the rowboat and enjoy the ride.|
 f Xibala|ACTIVE|51418|M|40.59,71.46|Z|Zuldazar|N|At Paula Waverunner.|
 T Xibala|QID|51418|M|40.75,70.84|Z|Zuldazar|N|To Anvil-Thane Thurgaden.|
 A Mole Machinations|QID|51331|M|40.75,70.84|Z|Zuldazar|N|From Anvil-Thane Thurgaden.|PRE|51418|
@@ -443,7 +443,7 @@ C Heart of Darkness|QID|51088|M|67.95,26.72|QO|1|Z|Boralus|CHAT|N|If you are rea
 T Heart of Darkness|QID|51088|M|62.03,41.60|Z|Nazmir|N|To Brann Bronzebeard.|
 A Dubious Offering|QID|51129|M|62.03,41.60|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51088|
 f Fort Victory|QID|51129|M|62.35,41.38|Z|Nazmir|N|At Selina Duskraven.|ACTIVE|51129|
-C Dubious Offering|QID|51129|M|62.12,42.53|Z|Nazmir|NC|N|Hop on the bat to be flown to Zalamar.|
+C Dubious Offering|QID|51129|M|62.12,42.53|Z|Nazmir|V|N|Hop on the bat to be flown to Zalamar.|
 T Dubious Offering|QID|51129|M|31.15,46.70|Z|Nazmir|N|To Brann Bronzebeard.|
 A Blood of Hir'eek|QID|51167|M|31.15,46.70|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51129|
 A Honoring the Fallen|QID|51150|M|31.15,46.70|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51129|
@@ -456,7 +456,7 @@ A Zealots of Zala'mar|QID|51168|M|31.15,46.71|Z|Nazmir|N|From Brann Bronzebeard.
 C Zealots of Zala'mar|QID|51168|M|30.47,47.32|Z|Nazmir|N|Kill Zalamar Zealot as you run up the spiral.|
 T Zealots of Zala'mar|QID|51168|M|30.47,47.32|Z|Nazmir|N|To Brann Bronzebeard who is right beside you.|
 A Flight from the Fall|QID|51169|M|30.47,47.32|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51168|
-C Flight from the Fall|QID|51169|M|31.11,47.90|Z|Nazmir|NC|N|Hop on a bat to be flown to Fort Victory.|
+C Flight from the Fall|QID|51169|M|31.11,47.90|Z|Nazmir|V|N|Hop on a bat to be flown to Fort Victory.|
 T Flight from the Fall|QID|51169|M|62.03,41.60|Z|Nazmir|N|To Brann Bronzebeard.|
 A Zul'Nazman|QID|51281|M|62.03,41.60|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51169|
 h Fort Victory|ACTIVE|51281|M|61.96,40.77|Z|Nazmir|N|Unless you like long runs thru troll infested swamps, setting your hearthstone is recomended at Priestess Islara.|
@@ -604,7 +604,7 @@ A Report to Wyrmbane|QID|52041|M|29.93,78.55|Z|Vol'dun|N|From Shandris Feathermo
 f Deadwood Cove|ACTIVE|52041|M|39.79,83.81|Z|Vol'dun|N|Run to Explosioneer Zoidfuse to grab flightpoint.|
 T Report to Wyrmbane|QID|52041|M|39.65,83.91|Z|Vol'dun|N|Run to Halford Wyrmbane in new camp.|
 A The Big Boom|QID|52042|M|39.65,83.91|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52041|
-C The Big Boom|QID|52042|M|39.79,83.81|Z|Vol'dun|NC|N|Talk with Explosioneer Zoidfuse and get on the chopper. Test each ability as they come available, Big Red Button is last|
+C The Big Boom|QID|52042|M|39.79,83.81|Z|Vol'dun|V|N|Talk with Explosioneer Zoidfuse and get on the chopper. Test each ability as they come available, Big Red Button is last|
 T The Big Boom|QID|52042|M|39.65,83.91|Z|Vol'dun|N|To Halford Wyrmbane.|
 A Blood on the Sand|QID|52146|M|39.65,83.91|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52042|
 C Blood on the Sand|QID|52146|M|39.65,83.91|Z|Vol'dun|QO|2|NC|N|Wait for Kelsey Steelspark to return.|
@@ -744,10 +744,12 @@ T Behind Enemy Boats|QID|52490|M|40.89,47.68|Z|1156|N|Wait a bit for Falstad to 
 T Broadside Bedlam|QID|52491|M|40.89,47.68|Z|1156|N|To Falstad Wildhammer.|
 A The Wildhammer Specialty|QID|52492|M|40.89,47.68|Z|1156|N|From Falstad Wildhammer.|PRE|52490&52491|
 C The Wildhammer Specialty|QID|52492|M|40.67,49.81|Z|1156|QO|1|NC|N|Use "1" key to order Falstad to start the attack.|
-C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|S|QO|2|N|Use the "1" key to bomb rowboats and kill sailors, "2" key is a heal.|
+C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|S|QO|2|N|Use the "1" key to bomb sailors, "2" key is a heal.|
+C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|S|QO|3|N|Use the "1" key to bomb rowboats, "2" key is a heal.|
 C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|4|N|Use the "1" key to burn the deck of The Banshee's Wail.|
 C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|5|N|Use the "1" key to burn the sails of The Crimson Squall.|
-C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|US|QO|2|N|Finish up the bombing run.|
+C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|US|QO|3|N|Finish up bombing the rowboats.|
+C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|US|QO|2|N|Finish up killing the sailors.|
 T The Wildhammer Specialty|QID|52492|M|41.72,57.01|Z|1156|N|Turn in to Shandris Feathermoon.|
 A An Unnatural Crew|QID|52493|M|41.72,57.01|Z|1156|N|From Shandris Feathermoon.|PRE|52492|
 A Foul Crystals for Foul People|QID|52494|M|41.72,57.01|Z|1156|N|From Shandris Feathermoon.|PRE|52492|
@@ -776,7 +778,7 @@ A How to Sink a Zandalari Battleship|QID|52282|M|40.76,70.85|Z|Zuldazar|N|From H
 C How to Sink a Zandalari Battleship|QID|52282|M|40.76,70.85|Z|Zuldazar|QO|1|CHAT|N|Tell Halford you want to discuss the plan.|
 T How to Sink a Zandalari Battleship|QID|52282|M|40.76,70.85|Z|Zuldazar|N|To Halford Wyrmbane.|
 A Under the Cover of Swiftwing|QID|52281|M|40.80,70.90|Z|Zuldazar|N|From Falstad Wildhammer.|PRE|52282|
-C Under the Cover of Swiftwing|QID|52281|M|40.83,70.92|Z|Zuldazar|QO|1|NC|N|Jump on Swiftwing to take a ride.|
+C Under the Cover of Swiftwing|QID|52281|M|40.83,70.92|Z|Zuldazar|QO|1|V|N|Jump on Swiftwing to take a ride.|
 T Under the Cover of Swiftwing|QID|52281|M|57.64,87.59|Z|Zuldazar|N|To Kelsey Steelspark.|
 A Ship Logs|QID|52284|M|57.64,87.59|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|52281|
 A Sabotaging the Pa'ku|QID|52283|M|57.64,87.55|Z|Zuldazar|N|From John J. Keeshan.|PRE|52281|
@@ -786,7 +788,7 @@ C Ship Logs|QID|52284|M|49.25,37.72|Z|Lower Deck!Breath Of Pa'ku!Dungeon|US|N|Fi
 T Sabotaging the Pa'ku|QID|52283|M|57.64,87.55|Z|Zuldazar|N|To John J. Keeshan.|
 T Ship Logs|QID|52284|M|57.64,87.59|Z|Zuldazar|N|To Kelsey Steelspark.|
 A The Enlarged Miniaturized Submarine|QID|52285|M|57.64,87.59|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|52283&52284|
-C The Enlarged Miniaturized Submarine|QID|52285|M|57.41,85.89|Z|Zuldazar|NC|N|Hop in the Enlarged Miniaturized Submarine for another ride.|
+C The Enlarged Miniaturized Submarine|QID|52285|M|57.41,85.89|Z|Zuldazar|V|N|Hop in the Enlarged Miniaturized Submarine for another ride.|
 T The Enlarged Miniaturized Submarine|QID|52285|M|48.89,68.56|Z|Zuldazar|N|To Shandris Feathermoon.|
 A My Enemy's Enemy is My Disguise|QID|52290|M|48.89,68.56|Z|Zuldazar|N|From Shandris Feathermoon.|PRE|52285|
 C My Enemy's Enemy is My Disguise|QID|52290|M|48.90,68.58|Z|Zuldazar|N|Tell Umbric you are ready to become a blood troll.|CHAT|
@@ -806,7 +808,7 @@ T Intelligence Denial|QID|52287|M|48.89,68.56|Z|Zuldazar|N|To Shandris Feathermo
 A Victory is Assured|QID|52289|M|48.89,68.56|Z|Zuldazar|N|From Shandris Feathermoon.|PRE|52288&52286&52287|
 T Victory is Assured|QID|52289|M|40.47,71.49|Z|Zuldazar|N|To Halford Wyrmbane. Your flight whistle will take you right to him.|U|141605|
 A Victory Was Assured|QID|52291|M|40.47,71.49|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52289|
-C Victory Was Assured|QID|52291|M|40.52,71.34|Z|Zuldazar|QO|1|NC|N|Ride Swiftwing to Gral's Call.|
+C Victory Was Assured|QID|52291|M|40.52,71.34|Z|Zuldazar|QO|1|V|N|Ride Swiftwing to Gral's Call.|
 T Victory Was Assured|QID|52291|M|35.13,77.32|Z|Zuldazar|N|To Halford Wyrmbane.|
 A Leave None Alive|QID|52788|M|35.13,77.32|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52291|
 C Leave None Alive|QID|52788|M|34.65,76.42|Z|Zuldazar|N|Kill the Zandalari as you head below decks.|
@@ -911,7 +913,7 @@ T Freedom for the Da'kani|QID|54197|M|46.80,50.50|Z|Zuldazar|N|To Grong.|
 A Bittersweet Goodbyes|QID|54198|M|46.80,50.50|Z|Zuldazar|N|From Grong.|PRE|54197|
 T Bittersweet Goodbyes|QID|54198|M|46.80,50.50|Z|Zuldazar|N|To Grong.|
 A The Needs of the Many|QID|54199|M|46.80,50.50|Z|Zuldazar|N|From Grong.|PRE|54198|
-C The Needs of the Many|QID|54199|M|41.20,70.54|Z|Zuldazar|NC|QO|1|N|Click on Grong to ride him back to Xibala.|
+C The Needs of the Many|QID|54199|M|41.20,70.54|Z|Zuldazar|V|QO|1|N|Click on Grong to ride him back to Xibala.|
 T The Needs of the Many|QID|54199|M|41.07,70.61|Z|Zuldazar|N|To Morton Cogswald.|
 A Bring the Base|QID|54200|M|41.07,70.61|Z|Zuldazar|N|From Morton Cogswald.|PRE|54199|
 C Bring the Base|QID|54200|M|41.21,70.54|Z|Zuldazar|CHAT|QO|1|N|Speak to Morton Cogswalt to let him know you're ready.|
@@ -992,7 +994,7 @@ A Lurking in the Swamp|QID|54407|M|33.64,47.65|Z|Nazmir|N|From Lady Jaina Proudm
 R Grimwatt's Crash|ACTIVE|54407|M|34.22,63.18|Z|Nazmir|U|141605|N|You can use your flightmaster's whistle for a small shortcut.|
 T Lurking in the Swamp|QID|54407|M|35.78,68.25|Z|Nazmir|N|To Lady Jaina Proudmoore.|
 A Zul'jan Deluge|QID|54412|M|35.78,68.25|Z|Nazmir|N|From Lady Jaina Proudmoore.|PRE|54407|
-C Zul'jan Deluge|QID|54412|M|35.77,68.07|Z|Nazmir|QO|1|NC|N|Hop on Jaina's Water Elemental.|
+C Zul'jan Deluge|QID|54412|M|35.77,68.07|Z|Nazmir|QO|1|V|N|Hop on Jaina's Water Elemental.|
 C Zul'jan Deluge|QID|54412|M|40.34,77.63|Z|Nazmir|QO|2|NC|N|Use the Water Elemental's abilites to slay Enemies in Zul'jan ruins.|
 T Zul'jan Deluge|QID|54412|M|44.25,78.88|Z|Nazmir|N|To Lady Jaina Proudmoore.|
 A Showing Our Might|QID|54417|M|44.25,78.88|Z|Nazmir|N|From Lady Jaina Proudmoore.|PRE|54412|
@@ -1007,7 +1009,7 @@ T Taming their Beasts|QID|54421|M|50.45,84.23|Z|Nazmir|N|To Master Mathias Shaw.
 T The Mech of Death|QID|54418|M|50.43,84.08|Z|Nazmir|N|To Blademaster Telaamon.|
 T Showing Our Might|QID|54417|M|50.36,84.18|Z|Nazmir|N|To Lady Jaina Proudmoore.|
 A Taking the Blood Gate|QID|54441|M|50.36,84.18|Z|Nazmir|N|From Lady Jaina Proudmoore.|PRE|54417&54418&54421|
-C Taking the Blood Gate|QID|54441|M|50.44,84.87|Z|Nazmir|QO|1|NC|N|Hop on and ride controlled battlebeast.|
+C Taking the Blood Gate|QID|54441|M|50.44,84.87|Z|Nazmir|QO|1|V|N|Hop on and ride controlled battlebeast.|
 C Taking the Blood Gate|QID|54441|M|57.75,19.43|Z|Zuldazar|QO|2|NC|N|Use the Battlebeasts abilities to clear the Blood Gates.|
 T Taking the Blood Gate|QID|54441|M|50.44,84.23|Z|Nazmir|N|To Master Mathias Shaw.|
 A He Who Walks in the Light|QID|54459|M|50.36,84.17|Z|Nazmir|N|From Lady Jaina Proudmoore.|PRE|54441|
@@ -1064,7 +1066,7 @@ C A Cry for Help|ACTIVE|53990|M|38.13,66.05|Z|Darkshore!Instance1338|SO|4;1|NC|N
 C Rescue the prisoners|ACTIVE|53990|M|41.76,68.79|Z|Darkshore!Instance1338|S|SO|5;1|NC|N|Rescue the prisoners|
 C No Elf Left Behind|ACTIVE|53990|M|42.91,66.98|Z|Darkshore!Instance1338|SO|5;2|N|Kill the Mag'har Beastlord's surrounding her, then click on Ash'alah.|
 C Rescue the prisoners|ACTIVE|53990|M|41.76,68.79|Z|Darkshore!Instance1338|US|SO|5;1|NC|N|Finish rescuing the prisoners.|
-C Closing in|ACTIVE|53990|M|42.89,66.88|Z|Darkshore!Instance1338|US|SO|6;1|NC|N|Click on Ash'alah to get a ride.|
+C Closing in|ACTIVE|53990|M|42.89,66.88|Z|Darkshore!Instance1338|US|SO|6;1|V|N|Click on Ash'alah to get a ride.|
 C Defend Bashal'Aran|ACTIVE|53990|M|52.81,56.03|Z|Darkshore!Instance1338|SO|7;2|N|Defeat 3 waves of horde from the west, north and east.|
 C Return to Tyrande|ACTIVE|53990|M|51.58,57.91|Z|Darkshore!Instance1338|SO|8;1|NC|N|Return to Tyrande.|
 C Return to Tyrande|ACTIVE|53990|M|51.58,57.91|Z|Darkshore!Instance1338|NC|SO|8;2|N|Click on the eye of Elune.|
@@ -1082,15 +1084,15 @@ T We Are Coming|QID|54871|M|65.89,26.05|Z|Boralus|N|To Ralston Karn.|
 ; Darkshore Warfront
 A Warfront: The Battle for Darkshore|QID|53992|M|65.89,26.05|Z|Boralus|N|From Ralston Karn.|
 C Warfront: The Battle for Darkshore|QID|53992|M|66.05,25.99|Z|Boralus|NC|QO|1|N|View the War Table in Boralus|
-A The War Chest|QID|53977|M|51.05,56.75|Z|Darkshore!Instance1203|N|From Thisalee Crow.|ILVL|320|
+A The War Chest|QID|53977|M|51.05,56.75|Z|Darkshore!Instance1203|N|From Thisalee Crow.|ILVL|335|
 C The War Chest|QID|53977|M|51.40,57.90|Z|Darkshore!Instance1203|NC|QO|1|N|Goto the War Chest and collect resources.|
 T The War Chest|QID|53977|M|51.06,56.75|Z|Darkshore!Instance1203|N|To Thisalee Crow.|
-A Iron in Hand|QID|53976|M|51.06,56.75|Z|Darkshore!Instance1203|N|From Thisalee Crow.|PRE|53977|ILVL|320|
+A Iron in Hand|QID|53976|M|51.06,56.75|Z|Darkshore!Instance1203|N|From Thisalee Crow.|PRE|53977|
 A Wisp'd Into Shape|QID|54436|M|51.06,56.75|Z|Darkshore!Instance1203|N|From Thisalee Crow.|PRE|53977|
 C Iron in Hand|QID|53976|M|56.47,65.17|Z|Darkshore!Instance1203|NC|QO|1|N|Capture the Lornesta Mine.|
 C Iron in Hand|QID|53976|M|57.22,66.19|Z|Darkshore!Instance1203|NC|QO|2|N|Collect 3 Freshly-Dug Ore.|
 T Iron in Hand|QID|53976|M|56.42,65.36|Z|Darkshore!Instance1203|N|To Daeth Moonshade.|
-C Wisp'd Into Shape|QID|54436|M|56.49,65.29|Z|Darkshore!Instance1203|NC|QO|1|N|Capture Cinderfall Grove.|
+C Wisp'd Into Shape|QID|54436|M|56.49,44.29|Z|Darkshore!Instance1203|NC|QO|1|N|Capture Cinderfall Grove.|
 C Wisp'd Into Shape|QID|54436|M|58.60,46.91|Z|Darkshore!Instance1203|NC|QO|2|N|Inspire 3 Wisps.|
 T Wisp'd Into Shape|QID|54436|M|55.96,44.50|Z|Darkshore!Instance1203|N|To Keeper Dagda.|
 A Darkshore Recruits|QID|53957|M|51.06,56.77|Z|Darkshore!Instance1203|N|From Thisalee Crow.|PRE|53976|
