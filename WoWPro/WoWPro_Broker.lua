@@ -124,7 +124,7 @@ function WoWPro:QIDsInTable(QIDs,tabla, abs_quid, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
     end
-    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return tabla[qid] end, why or "QIDsInTable", debug or quids_debug, abs_quid)
+    local value = QidMapReduce(QIDs,false,"^&",nil,function (qid) return tabla[qid] end, why or "QIDsInTable", debug or quids_debug, abs_quid)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTable(%s) return %s",tostring(QIDs),tostring(value))
     end
