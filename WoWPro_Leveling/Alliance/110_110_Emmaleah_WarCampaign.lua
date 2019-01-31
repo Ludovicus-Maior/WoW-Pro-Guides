@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-01-31 09:18
+-- Who: Emmaleah
+-- Log: more |V|s
+
+-- URL: http://wow-pro.com/node/3760/revisions/30210/view
 -- Date: 2019-01-30 08:00
 -- Who: Emmaleah
 -- Log: Add new |V|(vehicle) tag
@@ -249,10 +254,6 @@
 -- Date: 2018-09-07 04:02
 -- Who: elidion
 -- Log: Accidentally copied the wrong guide...
-
--- URL: http://wow-pro.com/node/3760/revisions/29690/view
--- Date: 2018-09-07 04:00
--- Who: elidion
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -834,7 +835,7 @@ C The Calm Before|QID|53986|M|67.04,36.22|Z|Tiragarde Sound|NC|QO|2|N|Wait for t
 T The Calm Before|QID|53986|M|66.99,36.23|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
 A To Anglepoint|QID|53888|M|66.99,36.23|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|53986|
 C To Anglepoint|QID|53888|M|63.91,54.18|Z|Boralus|NC|QO|1|N|Meet Jaina at the canal by Crosswind Commons.|
-C To Anglepoint|QID|53888|M|42.14,30.35|Z|Tiragarde Sound|NC|QO|2|N|Click on the Boat, it will take you to Anglepoint Wharf. It takes a few seconds after you land to complete.|
+C To Anglepoint|QID|53888|M|42.14,30.35|Z|Tiragarde Sound|V|QO|2|N|Click on the Boat, it will take you to Anglepoint Wharf. It takes a few seconds after you land to complete.|
 T To Anglepoint|QID|53888|M|42.16,29.85|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
 A Stand Fast|QID|53896|M|42.16,29.85|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|53888|
 C Stand Fast|QID|53896|M|42.16,29.85|Z|Tiragarde Sound|CHAT|QO|1|N|Speak with Jaina Proudmoore. This step often bugs out if someone has started it just before you. Run out of the area or relog and then try again.|
@@ -874,20 +875,20 @@ T Free Plumeria!|QID|54559|M|37.47,24.98|Z|Tiragarde Sound|N|To Okri Putterwrenc
 T Gunpowder Plots|QID|53978|M|37.50,24.90|Z|Tiragarde Sound|N|To Invading Blight Specialist.|
 T Masking For a Friend|QID|54787|M|37.50,24.90|Z|Tiragarde Sound|N|To Rosaline Madison.|
 A Shots Fired|QID|53919|M|37.50,24.90|Z|Tiragarde Sound|N|From Rosaline Madison.|PRE|54559&53978&54787|
-C Shots Fired|QID|53919|M|37.45,24.87|Z|Tiragarde Sound|QO|1|N|Click on the cannon and sink 10 Horde Motorboats.|
+C Shots Fired|QID|53919|M|37.45,24.87|Z|Tiragarde Sound|QO|1|V|N|Click on the cannon and sink 10 Horde Motorboats.|
 C Shots Fired|QID|53919|M|37.40,24.93|Z|Tiragarde Sound|CHAT|QO|2|N|Speak with Jaina.|
 T Shots Fired|QID|53919|M|37.40,24.93|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
 A Stopping the Sappers|QID|53936|M|37.40,24.93|Z|Tiragarde Sound|PRE|53919|
 C Stopping the Sappers|QID|53936|M|36.43,28.42|Z|Tiragarde Sound|NC|S|QO|2|N|Collect 40 Large Azerite Bombs placed around the seagate walls.|
-C Stopping the Sappers|QID|53936|M|34.45,29.89|Z|Tiragarde Sound|QO|1|N|Kill Nebbik Megafuel.|
+K Nebbik Megafuel|ACTIVE|53936|M|34.45,29.89|Z|Tiragarde Sound|QO|1|N|Kill Nebbik Megafuel.|T|Nebbik Megafuel|
 C Stopping the Sappers|QID|53936|M|36.43,28.42|Z|Tiragarde Sound|NC|US|QO|2|N|Collect 40 Large Azerite Bombs placed around the seagate walls.|
 C Stopping the Sappers|QID|53936|M|35.81,28.06|Z|Tiragarde Sound|NC|QO|3|N|Use Arcane Teleport Beacon.|
 T Stopping the Sappers|QID|53936|M|36.26,29.81|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
 A Express Delivery|QID|54703|M|36.26,29.81|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|53936|
-C Express Delivery|QID|54703|M|36.31,29.78|Z|Tiragarde Sound|NC|QO|1|N|Click the harpoon gun and fire at the 3 Ships to mark them.|
+C Express Delivery|QID|54703|M|36.31,29.78|Z|Tiragarde Sound|NC|QO|1|V|N|Click the harpoon gun and fire at the 3 Ships to mark them.|
 T Express Delivery|QID|54703|M|36.42,30.78|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
 A War Marches On|QID|53887|M|36.42,30.78|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|54703|
-H Boralus|ACTIVE|53887|M|36.42,30.78|Z|Tiragarde Sound|N|Hearth or otherwise return to Boralus and Halford Wyrmband.|
+H Boralus|ACTIVE|53887|M|36.42,30.78|Z|Tiragarde Sound|TZ|Snug Harbor Inn|N|Hearth or otherwise return to Boralus and Halford Wyrmband.|
 T War Marches On|QID|53887|M|69.29,26.97|Z|Boralus|N|To Halford Wyrmbane.|
 
 ; The Sleeper Agent
