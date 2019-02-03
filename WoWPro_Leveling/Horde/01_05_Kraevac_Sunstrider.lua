@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2019-02-02 21:57
+-- Who: Emmaleah
+-- Log: minor changes - first half of eversong woods. Moved fetch due to it is available earlier and the ! drives me nuts to run past :)
+
+-- URL: http://wow-pro.com/node/3207/revisions/30216/view
+-- Date: 2019-02-02 20:51
+-- Who: Emmaleah
+-- Log: monor tweaks
+
+-- URL: http://wow-pro.com/node/3207/revisions/29723/view
 -- Date: 2018-09-10 22:13
 -- Who: Ludovicus_Maior
 -- Log: Level tweaks and new Eversong guide.
@@ -246,20 +256,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Line 148 for step L has unknown tag [If not level 6 yet, kill stuffs.], Line 202 for step T has unknown tag [9130], Line 281 for step C has 1 M coords, Line 299 for step T has unknown tag [To Larianna Riverwind.]
 
--- URL: http://wow-pro.com/node/3207/revisions/24100/view
--- Date: 2011-02-05 14:18
--- Who: Ludovicus_Maior
--- Log: Submitted by zoefed on Thu, 2011-01-20 09:13.
---	
---	Bug Report: Guide: Eversong Woods Bloodelf - Step: (89/157) Turning in the quest: The Ring Of Mmmrrrggglll. The waypoint arrow shows somewhere in the sea. The  quest NPC is located at these CORRECT coordinates: 30.2,58.5.
-
--- URL: http://wow-pro.com/node/3207/revisions/24099/view
--- Date: 2011-02-05 14:12
--- Who: Ludovicus_Maior
--- Log: Submitted by Grramps on Sat, 2011-02-05 05:34.
---	
---	Step 26 in Eversong Woods lists Jainthess Thelryn as the turn in for the quest Thirst Unending, but it is Arcanist Helion you talk to to complete it. (Using version 2.1.2)
-
 local guide = WoWPro:RegisterGuide('KraSunIsle', 'Leveling', 'Sunstrider Isle (Blood Elf)', 'Kraevac', 'Horde')
 WoWPro:GuideRaceSpecific(guide,"BloodElf")
 WoWPro:GuideLevels(guide,1, 4)
@@ -288,8 +284,9 @@ C The Shrine of Dath'Remar|QID|37442|M|35.31,40.27|QO|1|N|Click on the glowing p
 C Solanian's Belongings|QID|37443|M|40.42,50.27|QO|2|
 T Report to Lanthan Perilon|QID|8327|M|52.75,49.81|N|To Lanthan Perilon.|
 A Aggression|QID|8334|PRE|8326|M|52.75,49.81|N|From Lanthan Perilon.|
-C Aggression|QID|8334|M|51.07,70.48|
+C Aggression|QID|8334|M|51.07,70.48|S|
 C Solanian's Belongings|QID|37443|M|52.15,69.59|QO|1|
+C Aggression|QID|8334|M|51.07,70.48|US|
 C Solanian's Belongings|QID|37443|M|59.88,57.05|QO|3|
 T The Shrine of Dath'Remar|QID|37442|M|63.94,42.69|N|To Well Watcher Solanian.|
 T Solanian's Belongings|QID|37443|M|63.94,42.69|N|To Well Watcher Solanian.|
@@ -301,7 +298,7 @@ T Aggression|QID|8334|PRE|8326|M|52.75,49.81|N|To Lanthan Perilon.|
 A Felendren the Banished|QID|8335|PRE|8334|M|52.95,49.59|N|From Lanthan Perilon.|
 A Tainted Arcane Sliver|QID|8338|M|41.81,71.03|N|From Tainted Arcane Wraith.Go up the ramp and kill the Tainted Arcane Wraith to receive this quest. Kill Arcane Wraiths as you progress.|
 C Felendren the Banished|QID|8335|M|38.27,73.41|N|Slay Arcane and Tainted Arcane Wraiths as you head up the ramps to slay Felendren.|S|
-C Kill Felendren|QID|8335|QO|3|M|38.87,64.08|
+K Felendren|ACTIVE|8335|QO|3|M|38.87,64.08|T|Felendren the Banished|
 C Felendren the Banished|QID|8335|M|38.27,73.41|N|Finish killing Arcane and Tainted Arcane Wraiths.|US|
 T Felendren the Banished|QID|8335|M|52.77,49.63|N|To Lanthan Perilon.|
 A Aiding the Outrunners|QID|8347|PRE|8335|LEAD|9704|M|52.77,49.63|N|From Lanthan Perilon.|
