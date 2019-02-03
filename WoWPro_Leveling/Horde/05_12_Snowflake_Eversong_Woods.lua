@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eversong_woods
+-- Date: 2019-02-02 21:57
+-- Who: Emmaleah
+-- Log: minor changes - first half of eversong woods. Moved fetch due to it is available earlier and the ! drives me nuts to run past :)
+
+-- URL: http://wow-pro.com/node/3207/revisions/30216/view
+-- Date: 2019-02-02 20:51
+-- Who: Emmaleah
+-- Log: monor tweaks
+
+-- URL: http://wow-pro.com/node/3207/revisions/29723/view
 -- Date: 2018-09-10 22:13
 -- Who: Ludovicus_Maior
 -- Log: Level tweaks and new Eversong guide.
@@ -246,20 +256,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Line 148 for step L has unknown tag [If not level 6 yet, kill stuffs.], Line 202 for step T has unknown tag [9130], Line 281 for step C has 1 M coords, Line 299 for step T has unknown tag [To Larianna Riverwind.]
 
--- URL: http://wow-pro.com/node/3207/revisions/24100/view
--- Date: 2011-02-05 14:18
--- Who: Ludovicus_Maior
--- Log: Submitted by zoefed on Thu, 2011-01-20 09:13.
---	
---	Bug Report: Guide: Eversong Woods Bloodelf - Step: (89/157) Turning in the quest: The Ring Of Mmmrrrggglll. The waypoint arrow shows somewhere in the sea. The  quest NPC is located at these CORRECT coordinates: 30.2,58.5.
-
--- URL: http://wow-pro.com/node/3207/revisions/24099/view
--- Date: 2011-02-05 14:12
--- Who: Ludovicus_Maior
--- Log: Submitted by Grramps on Sat, 2011-02-05 05:34.
---	
---	Step 26 in Eversong Woods lists Jainthess Thelryn as the turn in for the quest Thirst Unending, but it is Arcanist Helion you talk to to complete it. (Using version 2.1.2)
-
 local guide = WoWPro:RegisterGuide("SnoEve0512", "Leveling", "Eversong Woods", "Snowflake", "Horde")
 WoWPro:GuideLevels(guide,5,10, 5.78882)
 WoWPro:NewGuideLevels(guide,5,20)
@@ -273,22 +269,22 @@ A Slain by the Wretched |QID|9704|M|40.4,32.2|N|First quest after Sunstrider Isl
 
 ;The guide continues at this point for all races
 F Falconwing Square|QID|9704|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
-f Falconwing Square|QID|9704|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles|
 T Slain by the Wretched |QID|9704|N|To Slain Outrunner.|M|42.0,35.7|
 A Package Recovery |QID|9705|PRE|9704|N|From Slain Outrunner.|M|42.0,35.7|
 T Package Recovery |QID|9705|N|To Outrunner Alarion.|M|40.4,32.2|
 
 A Completing the Delivery |QID|8350|PRE|9705|N|From Outrunner Alarion.|M|40.4,32.2|
+f Falconwing Square|QID|9704|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles.|
 T Completing the Delivery |QID|8350|N|To Innkeeper Delaniel.|M|48.1,47.7|
 h Falconwing Inn |QID|8472|N|Set your hearthstone to Falconwing Square with Innkeeper Delaniel.|M|48.1,47.7|
-N Professions |QID|8472|N|If you plan on learning any professions, now's the time to learn it. Saren will teach all Primary and Secondary professions, he can be found on the first floor. You can also learn Cooking and First Aid on the first floor too.  \n\nClick this step to continue.|M|48.93,46.86|
+N Professions |QID|8472|N|If you plan on learning any professions, now's the time. Saren will teach all Primary and Secondary professions, he can be found upstairs. You can also learn Cooking from Quarelestra nearby.  \n\nClick this step to continue.|M|48.93,46.86|
 A Unstable Mana Crystals |QID|8463|N|From Aeldon Sunbrand, back outside of the inn.|M|48.2,46.0|
 A WANTED: Thaelis the Hungerer |QID|8468|N|From 'Wanted: Thaelis the Hungerer' signpost.|M|48.2,46.3|
 A Major Malfunction |QID|8472|N|From Magister Jaronis.|M|47.3,46.3|
-C Major Malfunction |QID|8472|N|Kill and loot Arcane Patrollers for the Arcane Cores.|M|45,40.5|S|
-C Unstable Mana Crystals |QID|8463|S|N|Look for light beams that come out of the boxes.|M|46,42|NC|
-C WANTED: Thaelis the Hungerer |QID|8468|N|Kill and loot Thaelis the Hungerer.\n\nBe careful to pull all the Wretched Urchins around him first before attacking. |M|45.00,38.40|
-C Unstable Mana Crystals |QID|8463|M|48.2,46.0|US|N|Look for light beams that come out of the boxes.|NC|
+C Major Malfunction |QID|8472|N|Kill and loot Arcane Patrollers for the Arcane Cores.|M|45.,40.5|S|
+C Unstable Mana Crystals |QID|8463|S|N|Look for light beams that come out of the boxes.|M|45.386,42|NC|
+K Thaelis the Hungerer|ACTIVE|8468|T|Thaelis the Hungerer|N|Kill and loot Thaelis the Hungerer.\n\nBe careful to pull all the Wretched Urchins around him first before attacking. |M|45.00,38.40|
+C Unstable Mana Crystals |QID|8463|M|45.38,40.85|US|N|Look for light beams that come out of the boxes.|NC|
 C Major Malfunction |QID|8472|N|Finish killing and looting Arcane Patrollers for the Arcane Cores.|M|45,40.5|US|
 T Major Malfunction |QID|8472|N|To Magister Jaronis.|M|47.3,46.3|
 
@@ -317,7 +313,7 @@ H Falconwing Square|QID|8482|U|6948|N|Hearth to Falconwing Square.|
 T Incriminating Documents |QID|8482|N|To Aeldon Sunbrand.|M|48.2,46.0|
 
 A The Dwarven Spy |QID|8483|PRE|8482|N|From Aeldon Sunbrand.|M|48.2,46.0|
-C The Dwarven Spy |QID|8483|L|20764|N|Speak to Prospector Anvilward. He will walk into the North Sanctum, when he is at the top, he will attack you. Be sure to be full health and buffed before you talk to him. Once you kill him, loot his head.|M|44.60,53.30|
+C The Dwarven Spy |QID|8483|L|20764|CHAT|N|Speak to Prospector Anvilward. He will walk into the North Sanctum, when he is at the top, he will attack you. Be sure to be full health and buffed before you talk to him. Once you kill him, loot his head.|M|44.60,53.30|
 A Roadside Ambush |QID|9035|LEAD|9062|N|From Apprentice Ralen.|M|45.2,56.4|
 T Roadside Ambush |QID|9035|N|To Apprentice Meledor.|M|44.9,61.0|
 A Soaked Pages |QID|9062|N|From Apprentice Meledor.|M|44.9,61.0|
@@ -327,9 +323,12 @@ A Taking the Fall |QID|9064|PRE|9062|N|From Apprentice Meledor.|M|44.9,61.0|
 T Taking the Fall |QID|9064|N|To Instructor Antheol.|M|55.7,54.5|
 
 A Swift Discipline |QID|9066|PRE|9064|N|From Instructor Antheol.|M|55.7,54.5|
+A Fetch!|QID|9402|N|From Instructor Antheol.|R|BloodElf|C|Mage|M|55.7,54.5|
+C Fetch!|QID|9402|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|M|54.87,56.38|
+T Fetch!|QID|9402|N|To Instructor Antheol.|R|BloodElf|C|Mage|M|55.7,54.5|
 A The Dead Scar |QID|8475|N|From Ranger Jaela.|M|50.3,50.8|
-C Swift Discipline - Apprentice Ralen |QID|9066|U|22473|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|M|45.20,56.40|QO|2|T|Apprentice Ralen|
-C Swift Discipline - Apprentice Meledor|QID|9066|U|22473|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|M|44.9,61.0|QO|1|T|Apprentice Meledor|
+C Swift Discipline - Apprentice Ralen |QID|9066|U|22473|NC|N|Target Apprentice Ralen and use the rod that Anetheol gave you.|M|45.20,56.40|QO|2|T|Apprentice Ralen|
+C Swift Discipline - Apprentice Meledor|QID|9066|U|22473|NC|N|Target Apprentice Meledor and use the rod that Anetheol gave you.|M|44.9,61.0|QO|1|T|Apprentice Meledor|
 C The Dead Scar |QID|8475|N|Go through the Dead Scar and kill 8 Plaguebone Pillagers. \n\nBe careful of the pack of Rotlimb Cannibals and also avoid the center of the Dead Scar as both can be difficult for an in-level player to survive. |M|51.2,56.3|
 T The Dead Scar |QID|8475|N|To Ranger Jaela.|M|50.3,50.8|
 T Swift Discipline |QID|9066|N|To Instructor Antheol.|M|55.7,54.5|
@@ -403,9 +402,6 @@ B Buy Springpaw Appetizers |QID|9067|QO|2|N|Buy Springpaw Appetizers from Zalene
 
 A The Spearcrafter's Hammer |QID|8477|N|From Arathel Sunforge.|M|59.5,62.6|
 A The Magister's Apprentice |QID|8888|LEAD|8889|N|From Magister Duskwither. Up the right ramp.|M|60.3,61.4|
-A Fetch!|QID|9402|N|From Instructor Antheol.|R|BloodElf|C|Mage|M|55.7,54.5|
-C Fetch!|QID|9402|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|M|54.87,56.38|
-T Fetch!|QID|9402|N|To Instructor Antheol.|R|BloodElf|C|Mage|M|55.7,54.5|
 A The Purest Water|QID|9403|PRE|9402|N|From Instructor Antheol.|R|BloodElf|C|Mage|M|55.7,54.5|
 R Thuron's Livery |QID|8888|N|If you want the explorer achievement, head to Thuron's Livery.\n\nIf you don't, just click this step.|M|62.00,53.00|
 T The Magister's Apprentice |QID|8888|N|To Apprentice Loralthalis. Head out of the city and follow the road east.|M|67.8,56.5|Z|Eversong Woods|
