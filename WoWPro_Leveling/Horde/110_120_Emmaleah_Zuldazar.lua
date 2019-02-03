@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_zuldazar
+-- Date: 2019-02-02 19:55
+-- Who: Emmaleah
+-- Log: added |V| tag (replacing NC in most cases)
+
+-- URL: http://wow-pro.com/node/3762/revisions/30179/view
 -- Date: 2019-01-05 09:12
 -- Who: Emmaleah
 -- Log: correct invalid PRE tag. Add Mugambala flight point.
@@ -263,7 +268,7 @@ C Forbidden Practices|QID|47423|M|51.25,14.07|Z|Dazar'alor|U|152627|N|Use the to
 T Forbidden Practices|QID|47423|M|51.90,11.86|Z|Dazar'alor|N|To Hexlord Raal.|
 A Offensively Defensive|QID|47433|M|51.90,11.86|Z|Dazar'alor|N|From Hexlord Raal.|PRE|47423|
 C Offensively Defensive|QID|47433|M|51.90,11.86|Z|Dazar'alor|QO|1|CHAT|N|Speak with Hexlord Raal (Optional).|
-C Offensively Defensive|QID|47433|M|53.20,11.62|Z|Dazar'alor|QO|2|NC|N|Hop on to Fly the Skies with Hexlord Raal.|
+C Offensively Defensive|QID|47433|M|53.20,11.62|Z|Dazar'alor|QO|2|V|N|Hop on to Fly the Skies with Hexlord Raal.|
 C Offensively Defensive|QID|47433|M|59.66,23.77|QO|3|NC|N|Use the "1" key and place Farseer Totems in the yellow glowing circles as you fly around.|
 T Offensively Defensive|QID|47433|M|46.20,19.29|Z|Dazar'alor|N|To Wardruid Loti.|
 A Pterrortorial Dispute|QID|47435|M|46.20,19.29|Z|Dazar'alor|N|From Wardruid Loti.|PRE|47433|
@@ -287,7 +292,7 @@ C Picking a Side|QID|47438|M|42.63,9.26|Z|Dazar'alor|NC|N|Gonk has totems that (
 T Picking a Side|QID|47438|M|42.31,9.09|Z|Dazar'alor|N|To Wardruid Loti.|
 A Pa'ku, Master of Winds|QID|47440|PRE|47436&47438|M|42.56,9.49|Z|Dazar'alor|N|From Hexlord Raal.|
 A Gonk, Lord of the Pack|QID|47439|PRE|47443&47438|M|42.31,9.09|Z|Dazar'alor|N|From Wardruid Loti.|
-C Pa'ku, Master of Winds|QID|47440|M|70.45,49.07|QO|1|NC|N|Ride Ata the Winglord.|
+C Pa'ku, Master of Winds|QID|47440|M|70.45,49.07|QO|1|V|N|Ride Ata the Winglord.|
 C Pa'ku, Master of Winds|QID|47440|M|71.48,49.34|QO|2|CHAT|N|Attempt to bargain with Pa'ku.|
 C Pa'ku, Master of Winds|QID|47440|M|71.06,49.16|QO|3|NC|N|Jump off the cliff.|
 T Pa'ku, Master of Winds|QID|47440|M|49.92,33.38|Z|Dazar'alor|N|To Hexlord Raal.|
@@ -568,7 +573,7 @@ K Warlord Kao|ACTIVE|49309|M|50.19,65.40|QO|1|T|Warlord Kao|N|Kill Warlord Kao.|
 $ Warlord's Cache|QID|49257|M|49.49,65.27|N|Run up the stairs to the top of the ship to find the Warlord's Cache to loot for azerite power and resources.|RANK|2|
 T Thunder's Fall|QID|49309|M|49.59,64.48|N|To Kaza'jin the Wavebinder.|
 A The Prophet's Ploy|QID|49310|M|49.59,64.48|N|From Kaza'jin the Wavebinder.|PRE|49309|
-C The Prophet's Ploy|QID|49310|M|49.50,64.34|NC|N|Hop on Scarbeak to ride to King Rastakhan's throne and watch the scene play out.|
+C The Prophet's Ploy|QID|49310|M|49.50,64.34|V|N|Hop on Scarbeak to ride to King Rastakhan's throne and watch the scene play out.|
 T The Prophet's Ploy|QID|49310|M|41.28,72.33|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 A Terrace of the Chosen|QID|47509|M|41.28,72.33|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|PRE|49310|
 A The Wounded King|QID|51101|M|41.28,72.33|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|PRE|49310|
@@ -591,7 +596,7 @@ T Walls Have Ears|QID|47520|M|43.74,7.43|Z|Dazar'alor|N|To Wardruid Loti.|
 C Raal|QID|47518|M|44.12,8.33|Z|Dazar'alor|N|Kill Crazzak the Heretic.|
 T Raal|QID|47518|M|43.63,7.34|Z|Dazar'alor|N|To Hexlord Raal.|
 A Midnight in the Garden of the Loa|QID|47521|M|42.52,9.51|Z|Dazar'alor|N|From Hexlord Raal.|PRE|47520&47518|
-C Midnight in the Garden of the Loa|QID|47521|M|42.51,10.04|NC|N|Ride Ata the Winglord|
+C Midnight in the Garden of the Loa|QID|47521|M|42.51,10.04|V|N|Ride Ata the Winglord|
 T Midnight in the Garden of the Loa|QID|47521|M|50.70,29.66|N|To Wardruid Loti.|
 A Rituals of Heresy|QID|47527|M|50.70,29.66|N|Bonus Objective. Autoaccepted.|LVL|-120|PRE|47521|
 A The Hunter|QID|47522|M|50.70,29.66|N|From Wardruid Loti.|PRE|47521|
@@ -672,7 +677,7 @@ K Reo'kah|QID|49785|M|57.28,75.65|QO|2|T|Reo'kah|N|Kill Reo'kah.|
 K Lei-zhi|QID|49911|M|58.77,74.07|QO|1|RARE|ITEM|161033|T|Lei-zhi|N|Stand almost underneath him or dodge the lightning balls to avoid being stunned. Silver Elite to kill and loot for azerite power and resources.|RANK|2|
 T Destroy the Weapon|QID|49785|M|57.80,76.68|N|To Captain Grez'ko.|
 A Hope's Blue Light|QID|49884|M|57.80,76.68|N|From Captain Grez'ko.|RANK|2|
-C Hope's Blue Light|QID|49884|M|57.78,76.68;60.84,75.27|CS|NC|N|Hop on the Captain's mount and fly up to light the Signal Fire. Press the "1" key when you are close to the top of the tower.|
+C Hope's Blue Light|QID|49884|M|57.78,76.68;60.84,75.27|CS|V|N|Hop on the Captain's mount and fly up to light the Signal Fire. Press the "1" key when you are close to the top of the tower.|
 T Hope's Blue Light|QID|49884|M|44.49,95.43|Z|Dazar'alor|N|To Captain Rez'okun.|
 
 F Port of Zandalar|ACTIVE|51101|M|51.91,41.20|Z|Dazar'alor|N|At Paku'ai the Ro'kata.|TZ|Grand Bazaar|RANK|-1|
@@ -863,7 +868,7 @@ A Hunting Zul|QID|49421|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|From Bai
 R The Zocalo|ACTIVE|49421|M|42.58,27.97|N|Run down the stairs and down and down, till you get to ground level and cross the bridge to The Zocalo.|
 A The Warpack|QID|49965|M|38.93,27.13|Z|Dazar'alor|N|From King Rastakhan.|PRE|49421&51111|
 T Hunting Zul|QID|49421|M|38.93,27.13|Z|Dazar'alor|N|To King Rastakhan.|
-C The Warpack|QID|49965|M|38.82,27.04;49.19,44.79|CS|NC|N|Hop on the Saurid with Wardruid Loti (and wait for the King to finish his speech) then ride with the Warpack|
+C The Warpack|QID|49965|M|38.82,27.04;49.19,44.79|CS|V|N|Hop on the Saurid with Wardruid Loti (and wait for the King to finish his speech) then ride with the Warpack|
 T The Warpack|QID|49965|M|49.28,44.32|N|To Gonk.|
 A Heretics|QID|49422|M|49.28,44.32|N|From Gonk.|PRE|49965|
 A The Full Prophecy|QID|49424|M|49.34,44.34|N|From Wardruid Loti.|PRE|49965|
@@ -876,7 +881,7 @@ C Heretics|QID|49422|M|48.75,39.42|N|Ruin wrought.|US|
 T The Full Prophecy|QID|49424|M|48.79,39.38|N|To Wardruid Loti.|
 T Heretics|QID|49422|M|49.65,37.97|N|To Hexlord Raal.|
 A City of Gold|QID|49425|M|49.65,37.97|N|From Hexlord Raal.|PRE|49422&49424|
-C City of Gold|QID|49425|M|49.64,37.91|NC|N|Hop on Ata the Winglord. Use "1" key to bomb the forces below.|
+C City of Gold|QID|49425|M|49.64,37.91|V|N|Hop on Ata the Winglord. Use "1" key to bomb the forces below.|
 T City of Gold|QID|49425|M|43.75,39.45|N|To Rezan.|
 A The King's Gambit|QID|49426|M|43.75,39.45|N|From Rezan.|PRE|49425|
 C The King's Gambit|QID|49426|M|42.16,39.26|QO|1|NC|N|Follow Rezan into Atal'Dazar.|
@@ -972,7 +977,7 @@ C Ticks|QID|47200|M|59.58,19.46|US|N|Finish up your quota of Bloodbelly Flyers.|
 T Ticks|QID|47200|M|60.39,22.03|N|To King Rastakhan.|
 T They Want Us Alive|QID|47198|M|60.39,22.03|N|To King Rastakhan.|
 A Rokhan|QID|47201|M|60.39,22.03|N|From King Rastakhan.|PRE|47200&47198|
-C Rokhan|QID|47201|M|60.99,20.53|QO|1|NC|N|Ride the Old Rotana|
+C Rokhan|QID|47201|M|60.99,20.53|QO|1|V|N|Ride the Old Rotana|
 T Rokhan|QID|47201|M|56.92,19.10|N|To Rokhan.|
 A Warmother|QID|47205|M|56.92,19.10|N|From Rokhan.|PRE|47201|
 A The New Frontline|QID|47204|M|56.92,19.10|N|From Rokhan.|PRE|47201|
@@ -990,10 +995,10 @@ A Zandalar Forever!|QID|50954|M|60.05,22.23|N|From King Rastakhan.(requires all 
 R Zandalar Forever!|QID|50954|M|60.05,22.23|TZ|The Sliver|CHAT|N|Talk to the King to start the scenario.|
 
 H The Great Seal|ACTIVE|-50954|N|Final Scenario requires you to have finished all three zone achievements, so if you don't, now is the time to hearth and go finish Voldun.|
-C Prepare the Assault|ACTIVE|50954|SO|1:1|NC|N|Gather your forces and mount Old K'zlotec.|
+C Prepare the Assault|ACTIVE|50954|SO|1:1|V|N|Gather your forces and mount Old K'zlotec.|
 C Blood Troll Army slain|ACTIVE|50954|M|60.96,22.17|Z|Zuldazar!Instance|SO|2:1|N|Destroy the Nazmani invaders in the Sliver.\nAll three buttons are AE attacks.\n#3 requires a target.|
 C Secure the bridge to Dazar'alor|ACTIVE|50954|M|60.62,31.86|Z|Zuldazar!Instance|SO|3:1|NC|N|Secure the bridge to Dazar'alor.|
-C Reach the Zocalo|ACTIVE|50954|M|53.41,31.66|Z|Zuldazar!Instance|SO|4:1|NC|N|Ride Pa'ku to the Zocalo.|
+C Reach the Zocalo|ACTIVE|50954|M|53.41,31.66|Z|Zuldazar!Instance|SO|4:1|V|N|Ride Pa'ku to the Zocalo.|
 C Liberate the Zocalo|ACTIVE|50954|M|54.75,35.43|Z|Zuldazar!Instance|SO|5:1|N|Rescue the civilians of the Zocalo and slay the sethrak army there.|
 C Reach Dazar'alor|ACTIVE|50954|M|54.75,35.98|Z|Zuldazar!Instance|SO|6:1|NC|N|Join Gonk and his pack at the bridge to Dazar'alor.|
 C Find King Rastakhan at the entrance to Dazar'alor.|ACTIVE|50954|M|55.27,38.09|Z|Zuldazar!Instance|SO|7:1|NC|N| Find King Rastakhan at the entrance to Dazar'alor.|
