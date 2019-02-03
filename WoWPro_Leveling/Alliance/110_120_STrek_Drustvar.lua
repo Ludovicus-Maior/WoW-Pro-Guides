@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3763
+-- Date: 2019-02-02 20:12
+-- Who: Emmaleah
+-- Log: Add |V| where appropriate and some other minor note changes.
+
+-- URL: http://wow-pro.com/node/3763/revisions/30195/view
 -- Date: 2019-01-22 09:55
 -- Who: Emmaleah
 -- Log: spelling errors, change a couple of C steps to K. and adjust coords for R Wayward Thicket.
@@ -251,7 +256,7 @@ WoWPro:GuideIcon(guide,"ACH",12941)
 WoWPro:GuideSteps(guide, function()
 return [[
 t The War Cache|QID|52544|N|To UI Alert.|
-A Time for War|QID|53332|N|From UI Alert.|
+A Time for War|QID|53332|N|From UI Alert.|PRE|52544|
 
 N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 N Small Treasure Chests|QID|48622|N|In this expansion, small treasure chests are found in differant places each time rather than fixed spawn points. Blizzard puts a treasure map symbol on your minimap automatically. The fixed treasures are named in this guide.|
@@ -334,7 +339,7 @@ T Mistakes Were Made|QID|48804|M|50.63,24.31|N|To Marcus Howlingdale acrros the 
 T Research Recovery|QID|48805|M|50.63,24.31|N|To Marcus Howlingdale.|
 A Terminal Degree|QID|48853|M|50.63,24.31|N|From Marcus Howlingdale.|PRE|48792&48804|RANK|2|
 K Kill Cragg the Stoneshaker|ACTIVE|48853|QO|1|M|49.70,23.49|N|He is in the cave behind you.|T|Cragg the Stoneshaker|RANK|2|
-C Terminal Degree|QID|48853|QO|2|M|49.40,23.37|NC|N|Help Nigel Rifthold from above the fire, little bit further in the cave.|
+C Terminal Degree|QID|48853|QO|2|M|49.40,23.37|NC|N|Free Nigel Rifthold from above the fire, little bit further in the cave.|
 T Terminal Degree|QID|48853|M|50.59,24.43|N|To Thaddeus "Gramps" Rifthold who is with the rest of the children now.|
 H The Swine's Larder|ACTIVE|51547|M|55.50,34.26|U|6948|N|Use your hearthstone to go back to Fallhaven.|
 t WANTED: Rindlewoe|QID|51547|M|55.87,35.13|N|To Mayor Cyril White.|
@@ -408,7 +413,7 @@ $ Beastly Ritual Skull|QID|49216|QO|1|M|52.07,46.97|N|Click on the skull to star
 T The Village of Glenbrook|QID|45079|M|54.74,49.13|N|To Annie Warren in yet a other cave.|
 A Tea Party|QID|44785|M|54.74,49.13|N|From Annie Warren.|PRE|45079|RANK|2|
 C Tea Party|QID|44785|QO|1|M|56.35,49.15|NC|N|Follow Abby Lewis.|
-C Tea Party|QID|44785|QO|2|M|58.18,47.91|NC|N|So sit down and drink tea.|
+C Tea Party|QID|44785|QO|2|M|58.18,47.91|NC|N|Sit down and drink tea.|
 K The Conjured Horror|ACTIVE|44785|QO|3|M|58.18,47.91|N|Kill Conjured Horror|T|Conjured Horror|RANK|2|
 T Tea Party|QID|44785|M|57.76,47.76|N|To Annie Warren.|
 $ Bespelled Chest|QID|53472|M|55.60,51.83|N|Click on any of the Witch Torches to enable looting the chest.|RANK|2|
@@ -476,8 +481,8 @@ T Harmful If Swallowed|QID|48165|M|70.07,42.81|N|To Lucille Waycrest.|
 A The Burden of Proof|QID|48198|M|70.10,42.81|N|From Lucille Waycrest.|PRE|48113&48170&48165|
 C The Burden of Proof|QID|48198|QO|1|M|70.09,42.94|CHAT|N|Tell Constable Framer you are ready to begin the trial.|
 C The Burden of Proof|QID|48198|QO|2|M|70.10,42.81|NC|N|Click on Lucille to administer the first test.|
-C The Burden of Proof|QID|48198|QO|3|M|70.10,42.81|NC|N|Click on Lucille to administer the first test.|
-C The Burden of Proof|QID|48198|QO|4|M|70.10,42.81|NC|N|Click on Lucille to administer the first test.|
+C The Burden of Proof|QID|48198|QO|3|M|70.10,42.81|NC|N|Click on Lucille to administer the second test.|
+C The Burden of Proof|QID|48198|QO|4|M|70.10,42.81|NC|N|Click on Lucille to administer the third test.|
 T The Burden of Proof|QID|48198|M|70.10,42.81|N|To Lucille Waycrest.|
 
 A The Curse of Fletcher's Hollow|QID|48171|M|70.08,42.90|N|From Lucille Waycrest.|PRE|48198|
@@ -578,7 +583,7 @@ C Total Cairnage|QID|48182|QO|1|S|NC|N|Destroy the Minor Ancient Cairns as you g
 A Really Big Problem|QID|48180|M|58.50,63.25|N|From Arthur Tradewind, stealthed druid.|PRE|52074|
 K Ancient Sentinel|ACTIVE|48180|QO|1|M|58.57,64.41|T|Ancient Sentinel|N|Slay the Ancient Sentinel.|
 $ Runebound Cache|QID|53385|M|63.30,65.85|N|Click the runes in this order *LEFT, BOTTOM, TOP, RIGHT* to open the cache and loot the treasure.|ITEM|163743|RANK|2|
-C Total Cairnage|QID|48182|QO|1|M|62.20,64.03|US|NC|N|Destroy the Minor Ancient Cairns as you go.|
+C Total Cairnage|QID|48182|QO|1|M|62.20,64.03|US|NC|N|Finish destroying the Minor Ancient Cairns.|
 C Total Cairnage|QID|48182|QO|2|M|59.10,67.99|NC|N|Destroy the Major Ancient Cairn.|
 K Rimestone|QID|49269|QO|1|M|59.77,70.02;59.8,70.02|CS|T|Rimestone|N|Silver Elite to kill for azerite power and resources.|RARE|ITEM|158345|RANK|2|
 $ Gluttonous Yeti|QID|48979|M|63.03,69.51|T|Gluttonous Yeti|N|Talk to the Lost Goat, either option causes a Silver - Elite Yeti to appear. Kill and loot for azerite power and resources.|RARE|ITEM|158683|RANK|2|
@@ -629,7 +634,7 @@ A Take the High Road|QID|48986|M|42.59,25.23|N|From Lucille Waycrest.|PRE|48946|
 
 R Highroad Pass|ACTIVE|48986|M|43.62,39.15|N|Run out of the cavern and across the valley to Highroad Pass.|FLY|BFA|
 C The High Thornspeaker|QID|53110|QO|1|M|43.62,39.15|CHAT|N|Tell Arthur you are ready to go.|
-C The High Thornspeaker|QID|53110|QO|2|M|43.62,39.15|NC|N|Hop on Arthur's back for a ride up to Ulfar's Den.|
+C The High Thornspeaker|QID|53110|QO|2|M|43.62,39.15|V|N|Hop on Arthur's back for a ride up to Ulfar's Den.|
 T The High Thornspeaker|QID|53110|M|45.30,45.75|N|To Ulfar.--currently no follow up... seems odd--|
 
 A WANTED: The Rime Huntress|QID|52033|M|41.24,40.98|N|group quest - optional|RANK|2|
@@ -711,7 +716,7 @@ A Greenstalker|QID|50953|M|33.45,65.09|N|From Adalyn Forestwatcher.|PRE|51543|RA
 K Greenstalker|ACTIVE|50953|QO|1|M|33.75,62.31;34.24,61.89|CS|U|159143|T|Greenstalker|N|Use the charm (at range) then slay Greenstalker.|
 T Greenstalker|QID|50953|M|33.44,65.09|N|To Adalyn Forestwatcher.|
 A Life Preserver|QID|51472|M|33.52,65.13|N|From Zallestrasza.|PRE|50953|RANK|3|;not spurious
-C Life Preserver|QID|51472|QO|1|M|33.63,65.10|NC|N|Hop on Zallestrasza's back.|
+C Life Preserver|QID|51472|QO|1|M|33.63,65.10|V|N|Hop on Zallestrasza's back.|
 C Life Preserver|QID|51472|QO|2|M|42.05,81.98|CHAT|N|Tell her you are ready.|
 K Danir Emberlight|ACTIVE|51472|QO|3|M|41.88,81.97|T|Danir Emberlight|N|Kill Danir Emberlight, who seems to want to disrupt her ritual.|
 T Life Preserver|QID|51472|M|41.88,81.97|N|To Zallestrasza.|
@@ -750,7 +755,7 @@ A Curiously Strong|QID|50092|M|25.29,67.89|N|From Warren Ashton.|
 C Curiously Strong|QID|50092|M|25.91,39.19|S|U|156828|N|Use the Frost Potion to put out fires as you go.|
 A Building Defenses|QID|50090|M|25.54,70.06|N|From Leandro Royston. Technically not needed for zone achievement, skip if you want but easy to get while doing the rest. |RANK|-1|
 A Building Defenses|QID|50090|M|25.54,70.06|N|From Leandro Royston.|
-C Building Defenses|QID|50090|QO|1|M|26.67,67.91|NC|N|Collect Lumber as travel out of town.|
+C Building Defenses|QID|50090|QO|1|M|26.67,67.91|NC|N|Collect lumber as travel out of town.|
 C Building Defenses|QID|50090|QO|2|M|26.49,66.74|NC|N|Click on the defenses to place them.|
 K Whitney "Steelclaw" Ramsey|QID|51923|QO|1|M|28.29,66.55;27.92,66.32;28.03,65.28;29.46,64.18|CS|T|Whitney "Steelclaw" Ramsey|N|Silver Elite to kill for azerite power and resources.|RARE|ITEM|154315|RANK|2|
 C The Crimson Cutthroats|QID|51390|M|27.69,67.21;29.70,65.50|CS|N|They are all together in a cave.|RANK|3|
@@ -885,7 +890,7 @@ T The First Watch|QID|50003|M|31.29,29.86|N|To Marshal Everit Reade.|
 A A Weather Eye|QID|50149|M|31.29,29.86|N|From Marshal Everit Reade.|PRE|50003|;not spurious
 f Watchman's Rise|ACTIVE|50149|M|31.84,30.45|N|At Ensign Wallace.|
 C A Weather Eye|QID|50149|M|30.94,29.47|QO|1|CHAT|N|Speak to Inquisitor Notley. He is around behind the tower.|
-C A Weather Eye|QID|50149|M|29.88,28.50|QO|2|NC|N|Click on the falcon (behind you) to bind sight. When you see the message to Evade, press the "1" key.|
+C A Weather Eye|QID|50149|M|29.88,28.50|QO|2|V|N|Click on the falcon (behind you) to bind sight. When you see the message to Evade, press the "1" key.|
 C A Weather Eye|QID|50149|M|30.94,20.85|QO|3|NC|N|Fly thru the golden globe to scout Upper Corlain Gate. When you see the message to Evade, press the "1" key.|
 C A Weather Eye|QID|50149|M|29.06,27.57|QO|4|NC|N|Fly thru the golden globe to scout Corlain Town. When you see the message to Evade, press the "1" key.|
 C A Weather Eye|QID|50149|M|24.97,36.11|QO|5|NC|N|Fly thru the golden globe to scout Armory. When you see the message to Evade, press the "1" key.|
@@ -1027,7 +1032,7 @@ T Ruinous Rituals|QID|50584|M|31.04,20.18|N|To Marshal Everit Reade.|
 T To the Other Side|QID|50583|M|31.04,20.18|N|To Lucille Waycrest.|
 T The Fall of Corlain|QID|50586|M|31.04,20.18|N|To Lucille Waycrest.|
 A Storming the Manor|QID|50588^51852^51851|M|31.04,20.18|N|From Lucille Waycrest.|PRE|50586&50585&50584|;not spurious
-C Storming the Manor|QID|50588^51852^51851|M|32.67,15.35|QO|1|NC|N|Follow Lucille followed - enjoy ingame event.|
+C Storming the Manor|QID|50588^51852^51851|M|32.67,15.35|QO|1|NC|N|Follow Lucille - enjoy ingame event.|
 K Marshal Everit Reade|ACTIVE|50588^51852^51851|M|32.58,15.34|QO|2|T|Marshal Everit Reade|N|Slay Marshal Everit Reade.|
 T Storming the Manor|QID|50588^51852^51851|M|32.76,15.35|N|To Lucille Waycrest.|
 
