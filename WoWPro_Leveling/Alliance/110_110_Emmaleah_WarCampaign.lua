@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-02-04 00:48
+-- Who: elidion
+-- Log: Finished war campaign quest for 8.1.5, few minor edits.
+
+-- URL: http://wow-pro.com/node/3760/revisions/30212/view
 -- Date: 2019-01-31 09:18
 -- Who: Emmaleah
 -- Log: more |V|s
@@ -250,11 +255,6 @@
 -- Who: elidion
 -- Log: Updated the Vol'dun questline to use the new objective type.
 
--- URL: http://wow-pro.com/node/3760/revisions/29691/view
--- Date: 2018-09-07 04:02
--- Who: elidion
--- Log: Accidentally copied the wrong guide...
-
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
 WoWPro:GuideName(guide,'War Campaign')
@@ -267,7 +267,7 @@ return [[
 
 ;starter notes
 
-N Ranks.|N|Rank 1 includes the steps needed for the War Campaign Achievement required for Pathfinder It also includes Warfronts and the quests that follow the purchased Table Missions to open up more outposts.  Rank 2 adds the Wanted Posters on Zandalar which are worth 250 faction each. Rank 3 adds other quests on Zandalar. If you want to change ranks mid-guide. You should also reset the guide (from guide title bar) or else you may miss things.|
+N Ranks.|N|Rank 1 includes the steps needed for the War Campaign Achievement required for Pathfinder It also includes Warfronts and the quests that follow the purchased Table Missions to open up more outposts. Rank 2 adds the Wanted Posters on Zandalar which are worth 250 faction each. Rank 3 adds other quests on Zandalar. If you want to change ranks mid-guide. You should also reset the guide (from guide title bar) or else you may miss things.|
 N Silver Elites|QID|51918^52450|N|The Silver Elites on Zandalar (assuming you are alliance) do not scale to your level and are all level 120-122. You may want to avoid them before 120.|
 N Wind's Redemption|QID|53074|N|All of these quest arcs start on Wind's Redemption, a ship in Boralus' harbor. It can be reached going thru the Harbormaster's office or just jumping the railing at the south end of Tradewinds Market.|
 
@@ -1017,8 +1017,14 @@ A He Who Walks in the Light|QID|54459|M|50.36,84.17|Z|Nazmir|N|From Lady Jaina P
 P Sanctum of the Sages|ACTIVE|54459|M|50.37,84.08|Z|Nazmir|N|Use the portal that Jaina has provided you.|
 T He Who Walks in the Light|QID|54459|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
 A Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane. This is a raid quest.|NA|PRE|54459|
+t Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
+A As the Dust Settles|QID|54163|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane. This is a raid quest.|PRE|54485|
+T As the Dust Settles|QID|54163|M|49.32,85.51|Z|Boralus|N|Fly to Proudmoore Keep and meet Anduin in Unity Square.|
+A Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|N|From Anduin in Unity Square.|PRE|54163|
+C Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|CHAT|N|Talk with Anduin and attend the meeting.|
+T Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|N|To Anduin.|
 
-B More upgrade missions|QID|54292&54293&543305|M|68.97,24.73|Z|Boralus|S!US|N|Three more missions to upgrade your outposts purchased from the Vindicator Jaelaana. Unlike the previous missions, these need purchased (and done) by each character who wants the upgrade.|REP|7th Legion;2159;Exalted;0|
+B More upgrade missions|QID|54292&54293&543305|M|68.97,24.73|Z|Boralus|S!US|N|Three more missions to upgrade your outposts purchased from the Vindicator Jaelaana. Unlike the previous missions, these need to be purchased (and done) by each character who wants the upgrade.|REP|7th Legion;2159;Exalted;0|
 
 ;exalted upgrade mission Brennadan
 A Mission Report: Brennadam|QID|54262|M|70.51,27.20|Z|Boralus|N|From UI Alert.|PRE|5429
@@ -1083,7 +1089,7 @@ A We Are Coming|QID|54871|M|69.54,26.84|Z|Boralus|N|From Shandris Feathermoon.|P
 T We Are Coming|QID|54871|M|65.89,26.05|Z|Boralus|N|To Ralston Karn.|
 
 ; Darkshore Warfront
-A Warfront: The Battle for Darkshore|QID|53992|M|65.89,26.05|Z|Boralus|N|From Ralston Karn.|
+A Warfront: The Battle for Darkshore|QID|53992|M|65.89,26.05|Z|Boralus|N|From Ralston Karn.|ILVL|320|O|
 C Warfront: The Battle for Darkshore|QID|53992|M|66.05,25.99|Z|Boralus|NC|QO|1|N|View the War Table in Boralus|
 A The War Chest|QID|53977|M|51.05,56.75|Z|Darkshore!Instance1203|N|From Thisalee Crow.|ILVL|335|
 C The War Chest|QID|53977|M|51.40,57.90|Z|Darkshore!Instance1203|NC|QO|1|N|Goto the War Chest and collect resources.|
@@ -1255,7 +1261,7 @@ N Rep Gated until Revered|QID|52473|N|So, go out Contribute to the Warfront and 
 B More Scouting Missions|QID|53746^53747^53748^53749^53750^53751|M|69.33,24.96|Z|Boralus|US|N|Go do those scouting missions and earn the outpost/flight poiints.|REP|7th Legion;2159;revered-exalted|AVAILABLE|53746^53748^53749^53751|
 N Outposts and Rep|QID|52802^53187^53222^53276^53268^53307|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Dark Iron Dwarves Allied Race|PRE|52790|
 N Rep Gated until 7K into Revered|QID|54495|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Faction. Next segment is available at 7K into revered.|PRE|52790|REP|7th Legion;2159;revered;7000;true|
-N Rep Gated until 14K into Revered|QID|54469|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Faction. Next segment is available at 14K into revered.|PRE|53887|REP|7th Legion;2159;revered;14000;true|
+N Rep Gated until 14K into Revered|QID|54171|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Faction. Next segment is available at 14K into revered.|PRE|53887|REP|7th Legion;2159;revered;14000;true|
 
 ]]
 end)
