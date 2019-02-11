@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2019-02-12 00:00
+-- Who: Ludovicus_Maior
+-- Log: Correcting sexism in [Fourth and Goal] and bad coords for [Necessary Roughness].
+
+-- URL: http://wow-pro.com/node/3212/revisions/30052/view
 -- Date: 2018-10-17 22:55
 -- Who: Ludovicus_Maior
 -- Log: And/Or
@@ -290,11 +295,11 @@ T The Replacements|QID|24488|M|48.73,57.42|N|To Coach Crosscheck.|U|46856|
 A Necessary Roughness|QID|24502|M|48.73,57.42|N|From Coach Crosscheck.|PRE|24488|
 C Necessary Roughness|QID|24502|M|47.70,57.75|N|Head to the Bilgewater Buccaneer, then hop onto the Bilgewater Buccaneer.|QO|1|NC|
 C Necessary Roughness|QID|24502|M|47.70,57.75|N|Use Key 1 to take out the Steamwheedle Shark shredders until you have footbombed eight of them.|QO|2|NC|
-T Necessary Roughness|QID|24502|M|47.70,57.75|N|(UI Alert)|
+T Necessary Roughness|QID|24502|M|48.73,57.42|N|(UI Alert)|
 
-A Fourth and Goal|QID|24503|M|47.70,57.75|N|(UI Alert)|
-C Fourth and Goal|QID|24503|M|47.70,57.75|N|Use Key 1 to kick a footbomb between the smoke stacks.|NC|
-T Fourth and Goal|QID|24503|M|48.62,57.74|N|Wait until the dragon finishes his attack, then To Coach Crosscheck.|U|46856|
+A Fourth and Goal|QID|24503^28414|M|48.73,57.42|N|From Coach Crosscheck.|PRE|24502|
+C Fourth and Goal|QID|24503^28414|M|47.70,57.75|N|Use Key 1 to kick a footbomb between the smoke stacks.|NC|
+T Fourth and Goal|QID|24503^28414|M|48.62,57.74|N|Wait until the dragon finishes his attack, then To Coach Crosscheck.|U|46856|
 
 A Give Sassy the News|QID|24520|M|48.62,57.74|N|From Coach Crosscheck.|PRE|24503^28414|
 
