@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2019-02-12 00:00
+-- Who: Ludovicus_Maior
+-- Log: Correcting sexism in [Fourth and Goal] and bad coords for [Necessary Roughness].
+
+-- URL: http://wow-pro.com/node/3212/revisions/30052/view
 -- Date: 2018-10-17 22:55
 -- Who: Ludovicus_Maior
 -- Log: And/Or
