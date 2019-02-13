@@ -695,6 +695,7 @@ function WoWPro:RowUpdate(offset)
 
 	local step_limit = WoWProDB.profile.numsteps + 5
 	for i=1,15 do
+	    -- WoWPro:dbp("WoWPro:RowUpdate(i=%d)", i)
 		-- Skipping any skipped steps, unsticky steps, and optional steps unless it's time for them to display --
 		if not WoWProDB.profile.guidescroll then
 			k = WoWPro.NextStep(k, i)
@@ -848,13 +849,15 @@ function WoWPro:RowUpdate(offset)
 			row.itemicon:SetTexture(GetItemIcon(use))
 			row.itembutton:SetAttribute("type1", "item")
 			row.itembutton:SetAttribute("item1", "item:"..use)
-			row.cooldown:RegisterEvent("ACTIONBAR_UPDATE_COOLDOWN")
-			row.cooldown:SetScript("OnEvent", function()
+			WoWPro:dbp("RowUpdate: enabled use: %s", use)
+			row.cooldown:SetScript("OnUpdate", function()
 					local start, duration, enabled = GetItemCooldown(use)
 					if enabled then
 						row.cooldown:Show()
 						row.cooldown:SetCooldown(start, duration)
-					else row.cooldown:Hide() end
+					else
+					    row.cooldown:Hide()
+					end
 				end)
 			local start, duration, enabled = GetItemCooldown(use)
 			if enabled then

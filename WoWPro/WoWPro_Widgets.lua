@@ -72,7 +72,7 @@ function WoWPro:CreateItemButton(parent, id)
 	    itembutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -10, -7)
 	end	    
 
-	local cooldown = CreateFrame("Cooldown", nil, itembutton)
+	local cooldown = CreateFrame("Cooldown", nil, itembutton, "CooldownFrameTemplate")
 	cooldown:SetAllPoints(itembutton)
 
 	local itemicon = itembutton:CreateTexture(nil, "ARTWORK")
@@ -95,16 +95,21 @@ function WoWPro:CreateTargetButton(parent, id)
 	targetbutton:SetWidth(32)
 	targetbutton.Position = function (use_active)
 	    if use_active then
+--	         WoWPro:dbp("CTBλPosition: use_active=%s, leftside=%s", tostring(use_active), tostring(leftside))
         	if WoWProDB.profile.leftside then
         	    targetbutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 46, -7)
+--        	    WoWPro:dbp("CTBλPosition:A")
             else
-        	    targetbutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -35, -7)
+                targetbutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -46, -7)
+--        	    WoWPro:dbp("CTBλPosition:B")
         	end	    
 	    else
         	if WoWProDB.profile.leftside then
         	    targetbutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 10, -7)
+---        	    WoWPro:dbp("CTBλPosition:C")
         	else
         	    targetbutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -10, -7)
+--        	    WoWPro:dbp("CTBλPosition:D")
         	end	    
 	    end
 	end
