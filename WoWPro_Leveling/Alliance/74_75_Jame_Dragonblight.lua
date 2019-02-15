@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_alliance
+-- Date: 2019-02-15 02:39
+-- Who: Ludovicus_Maior
+-- Log: Clean up the start of the guide.
+
+-- URL: http://wow-pro.com/node/3291/revisions/29946/view
 -- Date: 2018-10-17 02:24
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -156,25 +161,21 @@ return [[
 ; Missing Level 80 Quest
 ; Mystery of the Infinite, Redux
 
-N Note |QID|12298|N|If you followed my previous guides, you should be in Wintergarde Keep, Dragonblight and have the following quest: High Commander Halford Wyrmbane If you don't have it, just ignore this quest, it's not a big deal, you can get the follow up anyway. Let's get started!|
-f Wintergarde Keep |QID|12298|N|Get the new flight path at Rodney Wells. |M|77.0,49.8|
-N Warning! |QID|12298|N|Throughout this whole chapter, do NOT get the quest [The Hills Have Us]. If you take it, this will fly you to Grizzly Hills and will make you waste a lot of time.|
-T High Commander Halford Wyrmbane |QID|12298|N|To High Commander Halford Wyrmbane.|M|78.60,48.20|
-A Naxxramas and the Fall of Wintergarde |QID|12235|PRE|12174^12298|M|78.6,48.2|N|From High Commander Halfor Wyrmbane.|
+N Note |QID|12174^12298|N|If you followed my previous guides, you should be in Wintergarde Keep, Dragonblight and have the following quest: High Commander Halford Wyrmbane If you don't have it, just ignore this quest, it's not a big deal, you can get the follow up anyway. Let's get started!|
+N Warning! |QID|12174^12298|N|Throughout this whole chapter, do NOT get the quest [The Hills Have Us]. If you take it, this will fly you to Grizzly Hills and will make you waste a lot of time.|
+T High Commander Halford Wyrmbane |QID|12174^12298|LEAD|12235|N|To High Commander Halford Wyrmbane.|M|78.58,48.26|
+A Naxxramas and the Fall of Wintergarde |QID|12235|M|78.52,48.28|N|From High Commander Halfor Wyrmbane.|
+f Wintergarde Keep |ACTIVE|12235|N|Get the new flight path at Rodney Wells. |M|77.0,49.8|
+T Naxxramas and the Fall of Wintergarde |QID|12235|N|Go back towards the gryphon master. To Gryphon Commander Urik.|M|77.10,50.11|
+A Flight of the Wintergarde Defender |QID|12237|PRE|12235|M|77.10,50.11|N|From Gryphon Commander Urik.|
+C Flight of the Wintergarde Defender |QID|12237|U|37287|N|Use the Wintergarde Gryphon Whistle. Fly southeast to the Carrion Fields. While on the Gryphon, use Ability #3 whenever it's up for extra speed. Look for a Helpless Wintergarde Villager (Must have a fear icon overhead). Land close to a villager and use Ability #1. You must stand still while you use it. If you succeed, you'll carry the villager on your gryphon. Ride northwest back to the gryphon master and use Ability #2. |M|77.10,50.10;85.00,50.00|CN|
+T Flight of the Wintergarde Defender |QID|12237|N|Click the Leave Vehicle button, then turn the quest into Gryphon Commander Urik.. |M|77.10,50.11|
+A Return to the High Commander |QID|12251|PRE|12237|M|77.10,50.11|N|Fom Gryphon Commander Urik.|
+T Return to the High Commander |QID|12251|N|Go southeast to High Commander Halford Wyrmban.|M|78.58,48.26|
 
-T Naxxramas and the Fall of Wintergarde |QID|12235|N|Go back towards the gryphon master. To Gryphon Commander Urik.|M|77.1,50.1|
-A Flight of the Wintergarde Defender |QID|12237|PRE|12235|M|77.1,50.1|N|From Gryphon Commander Urik.|
-
-N Instructions for next quest |QID|12237|N|Use the Wintergarde Gryphon Whistle. Fly southeast to the Carrion Fields . While on the Gryphon, use Ability #3 whenever it's up for extra speed. Look for a Helpless Wintergarde Villager (Must have a fear icon overhead). Land close to a villager and use Ability #1. You must stand still while you use it. If you succeed, you'll carry the villager on your gryphon. Ride northwest back to the gryphon master and use Ability #2. |
-C Flight of the Wintergarde Defender |QID|12237|U|37287|N|Carry a villager on your gryphon back to near Gryphon Commander Urik.|M|77.10,50.10;85.00,50.00|CN|
-
-T Flight of the Wintergarde Defender |QID|12237|N|Click the Leave Vehicle button, then turn the quest into Gryphon Commander Urik.. |M|77.1,50.1|
-A Return to the High Commander |QID|12251|PRE|12237|M|77.1,50.1|N|Fom Gryphon Commander Urik.|
-T Return to the High Commander |QID|12251|N|Go southeast to High Commander Halford Wyrmban.|M|78.60,48.20|
-
-A Rescue from Town Square |QID|12253|PRE|12251|N|From High Commander Halfor Wyrmbane.|M|78.6,48.2|
-A The Demo-gnome |QID|12275|PRE|12251|M|78.6,48.2|N|From High Commander Halfor Wyrmbane.|
-A The Fate of the Dead |QID|12258|PRE|12251|N|From Commander Lynore Windstryke.|M|78.60,48.20|
+A Rescue from Town Square |QID|12253|PRE|12251|N|From High Commander Halfor Wyrmbane.|M|78.52,48.28|
+A The Demo-gnome |QID|12275|PRE|12251|M|78.52,48.28|N|From High Commander Halfor Wyrmbane.|
+A The Fate of the Dead |QID|12258|PRE|12251|N|From Commander Lynore Windstryke.|M|78.58,48.26|
 A Imprints on the Past |QID|12282|PRE|12251|N|From Zelig the Visionary.|M|79.10,47.20|
 
 T The Demo-gnome |QID|12275|N|Go south to Siege Engineer Quarterflash.|M|77.84,50.28|
@@ -182,20 +183,20 @@ A The Search for Slinkin |QID|12276|PRE|12275|M|77.84,50.28|N|From Siege Enginee
 A The Bleeding Ore |QID|12272|PRE|12275|M|77.84,50.28|N|From Siege Engineer Quarterflash.|
 A Not In Our Mine |QID|12269|PRE|12275|N|From Highlord Leoric Von Zeldig.|M|77.80,50.30|
 
-A Wanted: Kreug Oathbreaker |QID|12438|N|From the Wanted Poster inside the Inn. |M|77.30,51.40|
-A Wanted: High Shaman Bloodpaw |QID|12441|N|From the Wanted Poster inside the Inn. |M|77.30,51.40|
-A Wanted: Onslaught Commander Iustus |QID|12442|N|From the Wanted Poster inside the Inn. |M|77.30,51.40|
+A WANTED: Kreug Oathbreaker |QID|12438|PRE|12251|N|From the Wanted Poster inside the Inn. |M|77.34,51.43|
+A WANTED: High Shaman Bloodpaw |QID|12441|PRE|12251|N|From the Wanted Poster inside the Inn. |M|77.34,51.43|
+A WANTED: Onslaught Commander Iustus |QID|12442|PRE|12251|N|From the Wanted Poster inside the Inn. |M|77.34,51.43|
 
 h Wintergarde Keep |QID|12253|N|Make this inn your home location with Illusia Lune. |M|77.50,51.50|
-K Vengeful Geists |QID|12258|QO|1|M|79.9,49.7|S|N|Kill any Vengeful Geist you see.|
+K Vengeful Geists |ACTIVE|12258|QO|1|M|79.9,49.7|S|N|Kill any Vengeful Geist you see.|
 C Rescue from Town Square|QID|12253|S|N|Kill Vengeful Geists to free the Trapped Wintergarde Villagers.|
 C Imprints on the Past |QID|12282|N|Go back to the gate and take the path going down south. Go to the first building on your right-hand side. Go to the upper floor and find the Scrying Orb. |M|78.90,50.90|
 C Rescue from Town Square|QID|12253|US|N|Now just go from one building to another, killing Vengeful Geists to free the Trapped Wintergarde Villagers.|
-K Vengeful Geists |QID|12258|QO|1|M|79.9,49.7|US|N|Finish killing Vengeful Geists.|
+K Vengeful Geists |ACTIVE|12258|QO|1|M|79.9,49.7|US|N|Finish killing Vengeful Geists.|
 
-T Rescue from Town Square |QID|12253|N|To High Commander Halford Wyrmbane.|M|78.60,48.20|
-A Find Durkon! |QID|12309|PRE|12253|M|78.6,48.2|N|From High Commander Halford Wyrmbane.|
-T The Fate of the Dead |QID|12258|N|To Commander Lynore Windstryke. |M|78.60,48.20|
+T Rescue from Town Square |QID|12253|N|To High Commander Halford Wyrmbane.|M|78.58,48.26|
+A Find Durkon! |QID|12309|PRE|12253|M|78.52,48.28|N|From High Commander Halford Wyrmbane.|
+T The Fate of the Dead |QID|12258|N|To Commander Lynore Windstryke. |M|78.58,48.26|
 T Imprints on the Past |QID|12282|N|To Zelig the Visionary. |M|79.10,47.20|
 A Orik Trueheart and the Forgotten Shore |QID|12287|PRE|12282|M|79.1,47.2|N|From Zelig the Visionary.|
 
@@ -219,7 +220,7 @@ T Leave Nothing to Chance |QID|12277|M|77.84,50.28|N|To Siege Engineer Quarterfl
 A Understanding the Scourge War Machine |QID|12281|PRE|12277|M|77.84,50.28|N|From Siege Engineer Quarterflash.|
 T Not In Our Mine |QID|12269|M|77.8,50.3|N|From Highlord Leoric Von Zeldig.|
 
-T Understanding the Scourge War Machine |QID|12281|N|To High Commander Halford Wyrmbane.|M|78.60,48.20|
+T Understanding the Scourge War Machine |QID|12281|N|To High Commander Halford Wyrmbane.|M|78.58,48.26|
 T Find Durkon! |QID|12309|N|From the gate, go down, take a right-turn, past the tall building we went in earlier for the Scrying Orb. A little further south you'll find Cavalier Durkon.|M|79.00,53.00|
 A The Noble's Crypt |QID|12311|PRE|12309|M|79.1,53.2|N|From Cavalier Durkon.|
 
@@ -231,8 +232,8 @@ T The Noble's Crypt |QID|12311|M|79.1,53.2|N|To Cavalier Durkon.|
 T Secrets of the Scourge |QID|12312|M|79.1,53.2|N|To Cavalier Durkon.|
 A Mystery of the Tome |QID|12319|PRE|12312|M|79.1,53.2|N|From Cavalier Durkon.|
 
-T Mystery of the Tome |QID|12319|N|To High Commander Halford Wyrmbane.|M|78.60,48.20|
-A Understanding the Language of Death |QID|12320|PRE|12319|M|78.6,48.2|N|From High Commander Halford Wyrmbane.|
+T Mystery of the Tome |QID|12319|N|To High Commander Halford Wyrmbane.|M|78.58,48.26|
+A Understanding the Language of Death |QID|12320|PRE|12319|M|78.52,48.28|N|From High Commander Halford Wyrmbane.|
 
 A My Old Enemy |QID|12464|PRE|12237|N|Take the path up north and turn left to go to the Wintergarde Prison, where you'll find Commander Eligor Dawnbringer.|M|77.00,47.00|
 
@@ -240,8 +241,8 @@ T Understanding the Language of Death  |QID|12320|N|Go downstairs to Inquisitor 
 A A Righteous Sermon |QID|12321|PRE|12320|M|76.8,47.4|N|From Inquisitor Hallard.|
 C A Righteous Sermon |QID|12321|N|Watch the script until you get the complete message.|M|76.8,47.4|
 A A Disturbance In The West |QID|12439|LEAD|12000|N|Get out of this building. Go a little east to Vas the Unstable.  ==Note== This quest won't appear if you took [Your Presence Is Required at Star's Rest] Abandon it.|M|78.90,45.30|
-T A Righteous Sermon |QID|12321|N|Go back to High Commander Halford Wyrmbane.|M|78.60,48.20|
-A Into Hostile Territory |QID|12325|PRE|12281|M|78.6,48.2|N|From High Commander Halford Wyrmbane.|
+T A Righteous Sermon |QID|12321|N|Go back to High Commander Halford Wyrmbane.|M|78.58,48.26|
+A Into Hostile Territory |QID|12325|PRE|12281|M|78.52,48.28|N|From High Commander Halford Wyrmbane.|
 
 T A Disturbance In The West |QID|12439|N|To Rodney Wells.|M|77.00,49.80|
 A To Stars' Rest! |QID|12440|LEAD|12000|PRE|12439|N|Dismount, then accept this quest from Rodney Wells. This will fly you to Stars' Rest.|M|77,49.8|
@@ -455,16 +456,16 @@ A Disturbing Implications |QID|12146|U|36855|N|From UI Alert.|M|72.5,29.2|O|
 C Canyon Chase |QID|12143|N|Go north to the canyon entrance. Follow those running snobolds east and they'll lead you to their boss, Chilltusk. Kill him and loot the Emblazoned Battle Horn.|M|67.00,24.00;72.00,28.00|CN|
 
 H Wintergarde Keep |QID|12467|M|77.31,51.18|N|Hearthstone to Wintergarde Keep. If your stone is not up, just go to the other end of the canyon and then ride south/southeast back to Wintergarde Keep.|
-T Chasing Icestorm: Thel'zan's Phylactery |QID|12467|N|To High Commander Halford Wyrmbane.|M|78.6,48.2|
-A Finality |QID|12472|PRE|12467|M|78.6,48.2|N|From High Commander Halford Wyrmbane.|
+T Chasing Icestorm: Thel'zan's Phylactery |QID|12467|N|To High Commander Halford Wyrmbane.|M|78.52,48.28|
+A Finality |QID|12472|PRE|12467|M|78.52,48.28|N|From High Commander Halford Wyrmbane.|
 
 R Wintergarde Mausoleum |QID|12472|N|Go southeast to the Wintergarde Mausoleum. Please note that this is not the same mausoleum as the one we went in earlier.|M|82.00,51.00|
 T Finality |QID|12472|M|81.2,50.7|N|To Legion Commander Yorik.|
 N Before you get the follow up |QID|12473|N|Read the following lines: The next quest will trigger an event. All you have to do is stay behind the guards when the fight begins, and then help them kill the minions of Thel'zan, and after that help them kill Thel'zan himself. Once you're ready, get [An End And A Beginning].|
 A An End And A Beginning |QID|12473|PRE|12472|N|From Legion Commander Yorik.|M|81.2,50.7|
 C An End And A Beginning|QID|12473|N|Stay behind the guards when the fight begins, and then help them kill the minions of Thel'zan, and after that help them kill Thel'zan himself.|M|81.2,50.7|
-T An End And A Beginning |QID|12473|M|78.6,48.2|N|To High Commander Halford Wyrmbane.|
-A To Fordragon Hold! |QID|12474|PRE|12473|M|78.6,48.2|N|From High Commander Halford Wyrmbane.|
+T An End And A Beginning |QID|12473|M|78.52,48.28|N|To High Commander Halford Wyrmbane.|
+A To Fordragon Hold! |QID|12474|PRE|12473|M|78.52,48.28|N|From High Commander Halford Wyrmbane.|
 
 F Wyrmrest Temple |QID|12469|M|77,49.79|N|Fly to Wyrmrest Temple.|
 A Return to Sender |QID|12469|LEAD|12044|N|Go to the waypoint. There you should find a Nozzlerust Supply Runner.|M|48.45,24.15|
@@ -624,8 +625,8 @@ A Parting Thoughts |QID|12305|PRE|12301|M|87.2,57.4|N|From Orik Trueheart.|
 R Wintergarde Keep |QID|12305|N|Ride to Wintergarde Keep.|M|79.1,47.2|
 T Parting Thoughts |QID|12305|N|To Zelig the Visionary.|M|79.1,47.2|
 A What Secrets Men Hide |QID|12475|PRE|12305|M|79.1,47.2|N|From Zelig the Visionary.|
-A The Return of the Crusade? |QID|12476|PRE|12305|M|78.6,48.2|N|From Commander Lynore Windstryke.|
-A The Path of Redemption |QID|12477|PRE|12305|M|78.6,48.2|N|From High Commander Halford Wyrmbane.|
+A The Return of the Crusade? |QID|12476|PRE|12305|M|78.52,48.28|N|From Commander Lynore Windstryke.|
+A The Path of Redemption |QID|12477|PRE|12305|M|78.52,48.28|N|From High Commander Halford Wyrmbane.|
 
 r Sell junk, repair, restock. |QID|12542|N|Sell junk, repair, restock.|M|77.82,50.73|
 
@@ -647,8 +648,8 @@ C Wanted: Onslaught Commander Iustus |QID|12442|N|Kill Onslaught Commander Iustu
 C The Path of Redemption |QID|12477|N|Kill Scarlet NPCs until you loot The Path of Redemption.|M|84.9,35.5|
 C The Return of the Crusade? |QID|12476|US|N|Finish killing Scarlet NPCs until you have 20 kills.|
 
-T The Return of the Crusade? |QID|12476|M|78.6,48.2|N|To Commander Lynore Windstryke.|
-T The Path of Redemption |QID|12477|M|78.6,48.2|N|To High Commander Halford Wyrmbane.|
+T The Return of the Crusade? |QID|12476|M|78.52,48.28|N|To Commander Lynore Windstryke.|
+T The Path of Redemption |QID|12477|M|78.52,48.28|N|To High Commander Halford Wyrmbane.|
 T What Secrets Men Hide |QID|12475|M|79.1,47.2|N|To Zelig the Visionary.|
 A Frostmourne Cavern |QID|12478|PRE|12475|M|79.1,47.2|N|From Zelig the Visionary.|
 T Wanted: High Shaman Bloodpaw |QID|12441|N|To Highlord Leoric Von Zeldig.|M|77.8,50.2|
@@ -677,7 +678,7 @@ T Defending Wyrmrest Temple |QID|12372|N|Go back to Lord Afrasastrasz.|M|59.2,54
 F Fordragon Hold |QID|12499|N|Ask Lord Afrasastrasz to send you to the bottom floor, then fly to Fordragon Hold.|M|60.32,51.55|
 T Return To Angrathar |QID|12499|N|Go to Highlord Bolvar Fordragon. Enjoy the super cool cinematic.|M|37.8,23.4|
 
-A  The Hills Have Us |QID|12511|N|In Wintergarde Keep, go to the gryphon landing site, this will send you to Grizzly Hills.|M|77.1,50.1|
+A  The Hills Have Us |QID|12511|N|In Wintergarde Keep, go to the gryphon landing site, this will send you to Grizzly Hills.|M|77.10,50.11|
 N End |QID|12511|N|The chapter ends here, move on to my next chapter: Grizzly Hills. I hope you enjoyed this guide. If you want to return the favor, please try to contribute!|
 
 ]]
