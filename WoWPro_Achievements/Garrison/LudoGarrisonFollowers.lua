@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/dozen_garrison_followers
+-- Date: 2019-02-14 18:27
+-- Who: Ludovicus_Maior
+-- Log: Add secret QIDs for [Services of Dagg]
+
+-- URL: http://wow-pro.com/node/3720/revisions/29885/view
 -- Date: 2018-10-17 02:19
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -41,7 +46,8 @@ A Mysterious Ring|QID|34463|M|39.70,39.90|Z|Gorgrond|N|In the middle of a crater
 
 A Mysterious Boots|QID|34464|M|68.00,18.92|Z|Frostfire Ridge|N|Out in the open.|
 
-N Services of Dagg|QID|34733|AVAILABLE|34733|M|65.90, 60.81; 39.58, 28.10|Z|Frostfire Ridge|CS|N|Go to the indicated spots and free Dagg. Click as done.|
+A Services of Dagg: Grom'Gar|QID|34651|M|65.90, 60.81|Z|Frostfire Ridge|N|Go to the indicated spots and free Dagg.|
+A Services of Dagg: Daggermaw Ravine|QID|34654|M|39.58, 28.10|Z|Frostfire Ridge|N|Go to the indicated spots and free Dagg.|
 
 A Mysterious Staff|QID|34466|M|46.37, 16.03|Z|Nagrand@Draenor|N|On the beach.|
 
@@ -151,9 +157,9 @@ T Temporal Juxtaposition|QID|34472|M|84.55, 31.69|Z|Talador|N|To Image of Archma
 A The Staff of Archmage Vargoth|QID|36027|PRE|34472|M|84.55, 31.69|Z|Talador|N|From Image of Archmage Vargoth|
 
 ;
-A Services of Dagg|QID|34733|M|61.4, 74.8|Z|Lunarfall|N|After releasing him, Dagg shows up outside your Garrison.|FACTION|Alliance|
+A Services of Dagg|QID|34733|PRE|34651&34654|M|61.4, 74.8|Z|Lunarfall|N|After releasing him, Dagg shows up outside your Garrison.|FACTION|Alliance|
 T Services of Dagg|QID|34733|M|61.4, 74.8|Z|Lunarfall|N|After releasing him, Dagg shows up outside your Garrison.|FACTION|Alliance|
-A Services of Dagg|QID|34733|M|57.28,15.63|Z|Frostwall|N|After releasing him, Dagg shows up outside your Garrison.|FACTION|Horde|
+A Services of Dagg|QID|34733|PRE|34651&34654|M|57.28,15.63|Z|Frostwall|N|After releasing him, Dagg shows up outside your Garrison.|FACTION|Horde|
 T Services of Dagg|QID|34733|M|57.28,15.63|Z|Frostwall|N|After releasing him, Dagg shows up outside your Garrison.|FACTION|Horde|
 A Solidarity in Death|QID|36522|PRE|33973|M|52.8, 69|Z|Lunarfall|N|Ahm is waiting.|FACTION|Alliance|
 T Solidarity in Death|QID|36522|M|52.8, 69|Z|Lunarfall|N|To Ahm.|FACTION|Alliance|
