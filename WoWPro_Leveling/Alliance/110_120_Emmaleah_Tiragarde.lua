@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2019-02-15 22:28
+-- Who: Ludovicus_Maior
+-- Log: [Hold My Hand] comment revision
+
+-- URL: http://wow-pro.com/node/3769/revisions/30208/view
 -- Date: 2019-01-28 06:21
 -- Who: Emmaleah
 -- Log: Fix Carenton's location.
@@ -786,7 +791,7 @@ T She Sells Seashells|QID|52258|M|61.00,30.85|N|To Jenny Swiftbrook.|
 C A Very Precious Cargo|QID|50002|M|55.44,35.59|CHAT|N|Find the Precious Cargo.|
 T A Very Precious Cargo|QID|50002|M|55.49,35.92|N|To Penny "Precious" Hardwick.|
 A Hold My Hand|QID|50005|M|55.49,35.92|N|From Penny "Precious" Hardwick.|PRE|50002|RANK|2|
-C Hold My Hand|QID|50005|M|50.30,37.24|NC|N|Escort Penny to her father. I found it useful to put a target marker on her to keep track as she SLOWLY walks back to the ship, agroing everything within 30 yards. You must stay close or she will wait for you to come back.|S|
+C Hold My Hand|QID|50005|M|50.30,37.24|NC|N|Escort Penny as she SLOWLY walks back to her father on the ship. I found it useful to put a target marker on her. She will wait for you to come back if you stray too far. Your aggro radius will increase for this quest.  Rogues, use your stealth!|S|
 C Captured and Enraptured|QID|47755|M|54.13,35.01|U|151135|NC|US|N|Finish giving the Enthralled Sailors their grog.|
 T Can't Hear A Thing|QID|50059|M|51.10,35.78|N|To Earless Joe.|
 T Captured and Enraptured|QID|47755|M|50.30,37.24|N|To Henry Hardwick.|
