@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2019-02-19 23:15
+-- Who: Ludovicus_Maior
+-- Log: Minor zone and coord tweaks in CAT
+
+-- URL: http://wow-pro.com/node/3441/revisions/30107/view
 -- Date: 2018-10-31 17:04
 -- Who: Emmaleah
 -- Log: fixed my error of deleting end of file markers on EK and Cata.
