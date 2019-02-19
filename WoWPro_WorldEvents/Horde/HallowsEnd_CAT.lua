@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2019-02-19 23:15
+-- Who: Ludovicus_Maior
+-- Log: Minor zone and coord tweaks in CAT
+
+-- URL: http://wow-pro.com/node/3441/revisions/30107/view
 -- Date: 2018-10-31 17:04
 -- Who: Emmaleah
 -- Log: fixed my error of deleting end of file markers on EK and Cata.
@@ -256,7 +261,7 @@ A Candy Bucket|QID|28984|M|51.48,62.39|Z|Shimmering Expanse|N|Zun'ja, Legion's R
 b Silver Tide Hollow|QID|28984|M|50.74,63.47|Z|Shimmering Expanse|N|Take the Swift Seahorse to Silver Tide Hollow.|U|37586|
 A Candy Bucket|QID|28982|M|49.2,41.9|Z|Shimmering Expanse|N|Caretaker Movra, Silver Tide Hollow|
 b Smuggler's Scar|QID|28984|M|49.51,41.23|Z|Shimmering Expanse|N|Take the Swift Seahorse to Smuggler's Scar.|U|37586|
-A Candy Bucket|QID|28981|M|61.07;64.56;63.45,60.2|CS|Z|Kelp'thar Forest|N|Erunak Stonespeaker, Deepmist Grotto|
+A Candy Bucket|QID|28981|M|61.07,64.56;63.45,60.2|CS|Z|Kelp'thar Forest|N|Erunak Stonespeaker, Deepmist Grotto|
 H Orgrimmar|QID|28976|M|63.45,60.2|CS|Z|Kelp'thar Forest|N|Hearth out and then return to Orgrimmar by the method of your choice. If you don't want to hearth, you can swim back to Smuggler's scar and fly out.|
 
 P Twilight Highlands|QID|28976|M|50.18,39.43|Z|Orgrimmar|N|Take the portal to Twilight Highlands. If you havent quested in the zone, there will be no return portal, no candy bucket in Dragonmaw Port and Flighmaster won't be usable.|
@@ -272,7 +277,7 @@ P Orgrimmar|QID|29016|N|Return to Orgrimmar by your choice of means. There is no
 
 P Uldum|QID|29016|M|48.84,38.49|Z|Orgrimmar|N|Take the portal to Uldum.|
 A Candy Bucket|QID|29017|M|54.68,33.01|Z|Uldum|N|Kazemde, Ramkahen|
-F Oasis of Vir'sar|QID|29016|M|56.20,33.62|Z|Uldam|U|37586|N|Fly to Oasis of Vir'sar, Uldum.|
+F Oasis of Vir'sar|QID|29016|M|56.20,33.62|Z|Uldum|U|37586|N|Fly to Oasis of Vir'sar, Uldum.|
 A Candy Bucket|QID|29016|M|26.58,7.25|Z|Uldum|N|Yasmin, Oasis of Vir'sar|
 N End of Cataclysm Guide|N|Choose next continent you want to do or ... or course, choose to be done.|
 
