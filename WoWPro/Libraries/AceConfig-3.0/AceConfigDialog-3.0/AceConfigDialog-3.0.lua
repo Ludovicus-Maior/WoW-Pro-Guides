@@ -1,13 +1,13 @@
 --- AceConfigDialog-3.0 generates AceGUI-3.0 based windows based on option tables.
 -- @class file
 -- @name AceConfigDialog-3.0
--- @release $Id: AceConfigDialog-3.0.lua 1169 2018-02-27 16:18:28Z nevcairiel $
+-- @release $Id: AceConfigDialog-3.0.lua 1197 2019-01-21 23:41:10Z nevcairiel $
 
 local LibStub = LibStub
 local gui = LibStub("AceGUI-3.0")
 local reg = LibStub("AceConfigRegistry-3.0")
 
-local MAJOR, MINOR = "AceConfigDialog-3.0", 66
+local MAJOR, MINOR = "AceConfigDialog-3.0", 69
 local AceConfigDialog, oldminor = LibStub:NewLibrary(MAJOR, MINOR)
 
 if not AceConfigDialog then return end
@@ -21,11 +21,11 @@ AceConfigDialog.frame.closing = AceConfigDialog.frame.closing or {}
 AceConfigDialog.frame.closeAllOverride = AceConfigDialog.frame.closeAllOverride or {}
 
 -- Lua APIs
-local tconcat, tinsert, tsort, tremove, tsort = table.concat, table.insert, table.sort, table.remove, table.sort
+local tinsert, tsort, tremove = table.insert, table.sort, table.remove
 local strmatch, format = string.match, string.format
-local assert, loadstring, error = assert, loadstring, error
+local error = error
 local pairs, next, select, type, unpack, wipe, ipairs = pairs, next, select, type, unpack, wipe, ipairs
-local rawset, tostring, tonumber = rawset, tostring, tonumber
+local tostring, tonumber = tostring, tonumber
 local math_min, math_max, math_floor = math.min, math.max, math.floor
 
 -- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
@@ -45,39 +45,10 @@ local function errorhandler(err)
 	return geterrorhandler()(err)
 end
 
-local function CreateDispatcher(argCount)
-	local code = [[
-		local xpcall, eh = ...
-		local method, ARGS
-		local function call() return method(ARGS) end
-	
-		local function dispatch(func, ...)
-			 method = func
-			 if not method then return end
-			 ARGS = ...
-			 return xpcall(call, eh)
-		end
-	
-		return dispatch
-	]]
-	
-	local ARGS = {}
-	for i = 1, argCount do ARGS[i] = "arg"..i end
-	code = code:gsub("ARGS", tconcat(ARGS, ", "))
-	return assert(loadstring(code, "safecall Dispatcher["..argCount.."]"))(xpcall, errorhandler)
-end
-
-local Dispatchers = setmetatable({}, {__index=function(self, argCount)
-	local dispatcher = CreateDispatcher(argCount)
-	rawset(self, argCount, dispatcher)
-	return dispatcher
-end})
-Dispatchers[0] = function(func)
-	return xpcall(func, errorhandler)
-end
- 
 local function safecall(func, ...)
-	return Dispatchers[select("#", ...)](func, ...)
+	if func then
+		return xpcall(func, errorhandler, ...)
+	end
 end
 
 local width_multiplier = 170
@@ -1064,6 +1035,19 @@ local function InjectInfo(control, options, option, path, rootframe, appName)
 	control:SetCallback("OnEnter", OptionOnMouseOver)
 end
 
+local function CreateControl(userControlType, fallbackControlType)
+	local control
+	if userControlType then
+		control = gui:Create(userControlType)
+		if not control then
+			geterrorhandler()(("Invalid Custom Control Type - %s"):format(tostring(userControlType)))
+		end
+	end
+	if not control then
+		control = gui:Create(fallbackControlType)
+	end
+	return control
+end
 
 --[[
 	options - root of the options table being fed
@@ -1112,8 +1096,9 @@ local function FeedOptions(appName, options,container,rootframe,path,group,inlin
 					local imageCoords = GetOptionsMemberValue("imageCoords",v, options, path, appName)
 					local image, width, height = GetOptionsMemberValue("image",v, options, path, appName)
 					
-					if type(image) == "string" or type(image) == "number" then
-						control = gui:Create("Icon")
+					local iconControl = type(image) == "string" or type(image) == "number"
+					control = CreateControl(v.dialogControl or v.control, iconControl and "Icon" or "Button")
+					if iconControl then
 						if not width then
 							width = GetOptionsMemberValue("imageWidth",v, options, path, appName)
 						end
@@ -1134,18 +1119,12 @@ local function FeedOptions(appName, options,container,rootframe,path,group,inlin
 						control:SetImageSize(width, height)
 						control:SetLabel(name)
 					else
-						control = gui:Create("Button")
 						control:SetText(name)
 					end
 					control:SetCallback("OnClick",ActivateControl)
 
 				elseif v.type == "input" then
-					local controlType = v.dialogControl or v.control or (v.multiline and "MultiLineEditBox") or "EditBox"
-					control = gui:Create(controlType)
-					if not control then
-						geterrorhandler()(("Invalid Custom Control Type - %s"):format(tostring(controlType)))
-						control = gui:Create(v.multiline and "MultiLineEditBox" or "EditBox")
-					end
+					control = CreateControl(v.dialogControl or v.control, v.multiline and "MultiLineEditBox" or "EditBox")
 					
 					if v.multiline and control.SetNumLines then
 						control:SetNumLines(tonumber(v.multiline) or 4)
@@ -1159,7 +1138,7 @@ local function FeedOptions(appName, options,container,rootframe,path,group,inlin
 					control:SetText(text)
 
 				elseif v.type == "toggle" then
-					control = gui:Create("CheckBox")
+					control = CreateControl(v.dialogControl or v.control, "CheckBox")
 					control:SetLabel(name)
 					control:SetTriState(v.tristate)
 					local value = GetOptionsMemberValue("get",v, options, path, appName)
@@ -1182,7 +1161,7 @@ local function FeedOptions(appName, options,container,rootframe,path,group,inlin
 						end
 					end
 				elseif v.type == "range" then
-					control = gui:Create("Slider")
+					control = CreateControl(v.dialogControl or v.control, "Slider")
 					control:SetLabel(name)
 					control:SetSliderValues(v.softMin or v.min or 0, v.softMax or v.max or 100, v.bigStep or v.step or 0)
 					control:SetIsPercent(v.isPercent)
@@ -1238,12 +1217,7 @@ local function FeedOptions(appName, options,container,rootframe,path,group,inlin
 						control:ResumeLayout()
 						control:DoLayout()
 					else
-						local controlType = v.dialogControl or v.control or "Dropdown"
-						control = gui:Create(controlType)
-						if not control then
-							geterrorhandler()(("Invalid Custom Control Type - %s"):format(tostring(controlType)))
-							control = gui:Create("Dropdown")
-						end
+						control = CreateControl(v.dialogControl or v.control, "Dropdown")
 						local itemType = v.itemControl
 						if itemType and not gui:GetWidgetVersion(itemType) then
 							geterrorhandler()(("Invalid Custom Item Type - %s"):format(tostring(itemType)))
@@ -1263,8 +1237,6 @@ local function FeedOptions(appName, options,container,rootframe,path,group,inlin
 					local values = GetOptionsMemberValue("values", v, options, path, appName)
 					local disabled = CheckOptionDisabled(v, options, path, appName)
 					
-					local controlType = v.dialogControl or v.control
-					
 					local valuesort = new()
 					if values then
 						for value, text in pairs(values) do
@@ -1273,6 +1245,7 @@ local function FeedOptions(appName, options,container,rootframe,path,group,inlin
 					end
 					tsort(valuesort)
 					
+					local controlType = v.dialogControl or v.control
 					if controlType then
 						control = gui:Create(controlType)
 						if not control then
@@ -1346,7 +1319,7 @@ local function FeedOptions(appName, options,container,rootframe,path,group,inlin
 					del(valuesort)
 
 				elseif v.type == "color" then
-					control = gui:Create("ColorPicker")
+					control = CreateControl(v.dialogControl or v.control, "ColorPicker")
 					control:SetLabel(name)
 					control:SetHasAlpha(GetOptionsMemberValue("hasAlpha",v, options, path, appName))
 					control:SetColor(GetOptionsMemberValue("get",v, options, path, appName))
@@ -1354,18 +1327,18 @@ local function FeedOptions(appName, options,container,rootframe,path,group,inlin
 					control:SetCallback("OnValueConfirmed",ActivateControl)
 
 				elseif v.type == "keybinding" then
-					control = gui:Create("Keybinding")
+					control = CreateControl(v.dialogControl or v.control, "Keybinding")
 					control:SetLabel(name)
 					control:SetKey(GetOptionsMemberValue("get",v, options, path, appName))
 					control:SetCallback("OnKeyChanged",ActivateControl)
 
 				elseif v.type == "header" then
-					control = gui:Create("Heading")
+					control = CreateControl(v.dialogControl or v.control, "Heading")
 					control:SetText(name)
 					control.width = "fill"
 
 				elseif v.type == "description" then
-					control = gui:Create("Label")
+					control = CreateControl(v.dialogControl or v.control, "Label")
 					control:SetText(name)
 					
 					local fontSize = GetOptionsMemberValue("fontSize",v, options, path, appName)
@@ -1533,10 +1506,6 @@ local function GroupSelected(widget, event, uniquevalue)
 	end
 
 	BuildPath(feedpath, ("\001"):split(uniquevalue))
-	local group = options
-	for i = 1, #feedpath do
-		group = GetSubOption(group, feedpath[i])
-	end
 	widget:ReleaseChildren()
 	AceConfigDialog:FeedGroup(user.appName,options,widget,rootframe,feedpath)
 

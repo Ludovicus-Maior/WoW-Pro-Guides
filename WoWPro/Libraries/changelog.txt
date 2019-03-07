@@ -1,3 +1,10 @@
+Ace3 Release - Revision r1200 (January 24th, 2019)
+--------------------------------------------------
+- Cleanup for WoW 8.0 improvements
+- AceGUI-3.0: Worked around various quirks in the WoW 8.0/8.1 API
+- AceGUI-3.0: ColorPicker: Store references to the background/checkers textures (Ticket #473)
+- AceConfigDialog-3.0: Allow custom controls for almost all option types (Ticket #475)
+
 Ace3 Release - Revision r1182 (July 17th, 2018)
 -----------------------------------------------
 - AceComm-3.0: Support numeric targets for custom channels (Ticket #419)

@@ -1,111 +1,128 @@
 ------------------------------------------------------------------------
-r1181 | nevcairiel | 2018-07-17 12:42:59 +0000 (Tue, 17 Jul 2018) | 1 line
+r1199 | nevcairiel | 2019-01-24 08:55:21 +0000 (Thu, 24 Jan 2019) | 1 line
 Changed paths:
    M /trunk/changelog.txt
 
 Update changelog
 ------------------------------------------------------------------------
-r1180 | nevcairiel | 2018-07-17 12:42:35 +0000 (Tue, 17 Jul 2018) | 1 line
+r1198 | nevcairiel | 2019-01-21 23:46:52 +0000 (Mon, 21 Jan 2019) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
+
+AceGUI-3.0: ColorPicker: Store references to the background/checkers textures (Ticket #473)
+------------------------------------------------------------------------
+r1197 | nevcairiel | 2019-01-21 23:41:10 +0000 (Mon, 21 Jan 2019) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+
+AceConfigDialog-3.0: Allow custom controls for almost all option types (Ticket #475)
+------------------------------------------------------------------------
+r1196 | nevcairiel | 2019-01-21 23:35:45 +0000 (Mon, 21 Jan 2019) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+
+AceConfigDialog-3.0: Factor custom control creation into its own function (part of #475)
+------------------------------------------------------------------------
+r1195 | nevcairiel | 2019-01-21 23:24:17 +0000 (Mon, 21 Jan 2019) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
-Update TOC for 8.0
+Update TOC
 ------------------------------------------------------------------------
-r1179 | nevcairiel | 2018-07-15 09:03:08 +0000 (Sun, 15 Jul 2018) | 1 line
+r1194 | nevcairiel | 2018-08-25 07:59:05 +0000 (Sat, 25 Aug 2018) | 1 line
 Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 
-AceGUI-3.0: Checkbox: Restore previous width setting, or wrap doesn't work properly
+AceConfigDialog-3.0: Remove unused GetSubOptions loop
 ------------------------------------------------------------------------
-r1178 | nevcairiel | 2018-07-15 08:56:23 +0000 (Sun, 15 Jul 2018) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
-
-AceGUI-3.0: Checkbox: Change internal anchoring to work around a layout issue in WoW 8.0/BfA
-------------------------------------------------------------------------
-r1177 | nevcairiel | 2018-06-25 12:12:48 +0000 (Mon, 25 Jun 2018) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
-
-Update TableLayout to a version with less memory requirements
-------------------------------------------------------------------------
-r1176 | nevcairiel | 2018-06-23 08:36:22 +0000 (Sat, 23 Jun 2018) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
-
-AceGUI-3.0: Implement a Table Layout (#442)
-------------------------------------------------------------------------
-r1175 | h.leppkes@gmail.com | 2018-05-15 01:21:47 +0000 (Tue, 15 May 2018) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua
-
-AceGUI-3.0: EditBox: Only try to handle dragging if a valid object is being dragged into the text box
-------------------------------------------------------------------------
-r1174 | h.leppkes@gmail.com | 2018-05-14 17:29:49 +0000 (Mon, 14 May 2018) | 1 line
-Changed paths:
-   M /trunk/AceComm-3.0/AceComm-3.0.lua
-
-AceComm-3.0: Support numeric targets for custom channels (Ticket #419)
-------------------------------------------------------------------------
-r1173 | nevcairiel | 2018-04-20 21:27:55 +0000 (Fri, 20 Apr 2018) | 4 lines
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
-
-AceGUI-3.0: TreeGroup: Work around a lag issue related to TreeGroups in WoW 8.0
-
-Basically, TreeGroups cause a hefty lag spike in RefreshTree if they are a child of UIParent (ie. not in a layout yet), and are not anchored to anything.
-To avoid this spike, skip a refresh in this situation and schedule a new one on the next frame.
-------------------------------------------------------------------------
-r1172 | nevcairiel | 2018-04-20 10:57:25 +0000 (Fri, 20 Apr 2018) | 1 line
-Changed paths:
-   M /trunk/AceComm-3.0/ChatThrottleLib.lua
-
-Missed one spot in ChatThrottleLib
-------------------------------------------------------------------------
-r1171 | nevcairiel | 2018-04-20 07:33:22 +0000 (Fri, 20 Apr 2018) | 1 line
-Changed paths:
-   M /trunk/AceComm-3.0/AceComm-3.0.lua
-   M /trunk/AceComm-3.0/ChatThrottleLib.lua
-
-Update AceComm and CTL for WoW 8.0
-------------------------------------------------------------------------
-r1170 | funkydude | 2018-03-29 17:38:58 +0000 (Thu, 29 Mar 2018) | 1 line
-Changed paths:
-   M /trunk/AceTimer-3.0/AceTimer-3.0.lua
-
-AceTimer: Initialize the timer table with the majority of values already set, replace some pairs calls with next calls.
-------------------------------------------------------------------------
-r1169 | nevcairiel | 2018-02-27 16:18:28 +0000 (Tue, 27 Feb 2018) | 6 lines
+r1193 | funkydude | 2018-08-02 12:24:37 +0000 (Thu, 02 Aug 2018) | 1 line
 Changed paths:
    M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
    M /trunk/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
-
-AceConfig-3.0: Allow number values for the "width" parameter, which acts as a multiplier of the default width
-
-A multiplier is used instead of a fixed width in pixels to allow more flexible handling in various AceConfig containers, where default widget width may vary.
-In this design, a numeric value of 0.5 would equal "half", and 2.0 would equal "double", but allowing finer granularity in between as well.
-
-Patch provided by Infus.
-------------------------------------------------------------------------
-r1168 | nevcairiel | 2017-10-01 08:05:04 +0000 (Sun, 01 Oct 2017) | 1 line
-Changed paths:
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-
-AceConfigDialog-3.0: Enable iconCoords for the main level of a tree group (Ticket #417)
-------------------------------------------------------------------------
-r1167 | funkydude | 2017-08-29 22:08:48 +0000 (Tue, 29 Aug 2017) | 1 line
-Changed paths:
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
+   M /trunk/AceDB-3.0/AceDB-3.0.lua
+   M /trunk/AceDBOptions-3.0/AceDBOptions-3.0.lua
+   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-ScrollFrame.lua
    M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Window.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Button.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
    M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-InteractiveLabel.lua
+
+Remove some local references we don't use.
+------------------------------------------------------------------------
+r1192 | funkydude | 2018-07-30 18:03:51 +0000 (Mon, 30 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Window.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
    M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown-Items.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Heading.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Icon.lua
+   M /trunk/tests/AceGUITest/test.lua
+
+AceGUI-3.0: Convert various texture paths to texture ids.
+------------------------------------------------------------------------
+r1191 | funkydude | 2018-07-27 13:29:50 +0000 (Fri, 27 Jul 2018) | 1 line
+Changed paths:
    M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
 
-Remove PlaySound compat code.
+AceGUI-3.0/widgets/AceGUIWidget-Slider: Use the value passed to the OnValueChanged script, saves a call to frame:GetValue()
+------------------------------------------------------------------------
+r1190 | nevcairiel | 2018-07-27 07:46:34 +0000 (Fri, 27 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
+
+AceGUI-3.0: Label: Avoid zero-height labels more directly
+------------------------------------------------------------------------
+r1189 | nevcairiel | 2018-07-27 07:33:48 +0000 (Fri, 27 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
+
+AceGUI-3.0: Label: Fix computing a label height on empty labels
+------------------------------------------------------------------------
+r1188 | nevcairiel | 2018-07-25 20:26:35 +0000 (Wed, 25 Jul 2018) | 3 lines
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
+
+AceGUI-3.0: Prefer GetStringHeight over GetHeight for FontStrings, as this alleviates pressure on the anchor system and avoids glitches
+
+Recommended by TheDanW to help work-around anchoring issues.
+------------------------------------------------------------------------
+r1187 | nevcairiel | 2018-07-25 00:06:26 +0000 (Wed, 25 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-ScrollFrame.lua
+
+AceGUI-3.0: ScrollFrame: Adjust content.width based on scroll bar visibility
+------------------------------------------------------------------------
+r1186 | nevcairiel | 2018-07-21 14:19:18 +0000 (Sat, 21 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/CallbackHandler-1.0/CallbackHandler-1.0.lua
+
+Update CallbackHandler to the latest version
+------------------------------------------------------------------------
+r1185 | nevcairiel | 2018-07-21 14:15:16 +0000 (Sat, 21 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/AceBucket-3.0/AceBucket-3.0.lua
+
+AceBucket-3.0: Fix bucket firing with events that use "false" as arg1
+------------------------------------------------------------------------
+r1184 | nevcairiel | 2018-07-21 14:13:14 +0000 (Sat, 21 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/AceAddon-3.0/AceAddon-3.0.lua
+   M /trunk/AceBucket-3.0/AceBucket-3.0.lua
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
+
+Remove self-generating Dispatchers, and use xpcall, which now supports arguments
+------------------------------------------------------------------------
+r1183 | nevcairiel | 2018-07-18 23:21:04 +0000 (Wed, 18 Jul 2018) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-ScrollFrame.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+
+AceGUI-3.0: Replace layout workaround with another one that hopefully works better
 ------------------------------------------------------------------------
 
