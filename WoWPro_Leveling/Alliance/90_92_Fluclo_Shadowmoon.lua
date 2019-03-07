@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2019-03-06 18:42
+-- Who: Emmaleah
+-- Log: updated comments for Escape from Shaz'gul
+
+-- URL: http://wow-pro.com/node/3604/revisions/29953/view
 -- Date: 2018-10-17 02:25
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -247,11 +252,6 @@
 -- Date: 2014-11-13 10:25
 -- Who: Fluclo
 -- Log: Added Bloodthorn Hill quest and lootable; added PRE tag to F Lunarfall after visit to Ashran; Added more Level 94 quests; Added placeholder for Level 100 quests.
-
--- URL: http://wow-pro.com/node/3604/revisions/26971/view
--- Date: 2014-11-13 06:08
--- Who: Fluclo
--- Log: Fixed wrong ACTIVE tag in Lost in Transition, removed my test code inadvertently left in the guide.
 
 local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley@Draenor', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90,92,91)
@@ -702,10 +702,8 @@ C Going Undercover |QID|33080|N|Click the explosives at the training pit|QO|5|M|
 
 T Going Undercover |QID|33080|N|To Yrel. Just keep running to avoid the Void creatures.|M|34.2,63.2|
 A Escape From Shaz'gul |QID|33081|N|From Yrel|M|34.2,63.2|PRE|33080|
-
 C Escape From Shaz'gul |QID|33081|N|Speak to Yrel and select any two chat lines to inspire her.|QO|1|CHAT|M|34.2,63.2|
-C Escape From Shaz'gul |QID|33081|N|Escort Yrel out of Shaz'gul, a number of mobs will spawn at various points.|QO|2|M|39.2,57.5|
-
+C Escape From Shaz'gul |QID|33081|N|Escort Yrel out of Shaz'gul, a number of mobs will spawn at various points. This quest is bugged and very difficult to solo, when you get to the large mob (third group) leave Yrel and proceed to waypoint to kill Terrorfang. Yrel will die but you can finish the quest (recommend using Call to Arms during Terrorfang). Alternatively, you can stand at extreme range and pick them off one at a time, but it will take FOREVER.|QO|2|M|39.2,57.5|
 T Escape From Shaz'gul |QID|33081|N|To Yrel, now in Twilight Glade.|M|40.60,54.94|
 A Chasing Shadows |QID|33586|N|From Prophet Velen|M|40.53,54.91|PRE|33059&33081|
 A Fast Expansion|QID|33814|M|40.65,54.87|N|From Scout Valdez. If he is not here, he might be in your garrison.|PRE|33059|
