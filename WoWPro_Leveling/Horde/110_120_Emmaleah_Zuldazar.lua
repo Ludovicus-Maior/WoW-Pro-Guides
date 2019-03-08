@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_zuldazar
+-- Date: 2019-03-08 19:29
+-- Who: Emmaleah
+-- Log: Fixed some errors Essence noted on Discord (coordinates for Wavesinger Dezan, The Zocolo, and K Warmother and R Zandalar forever being visable when they shouldn't be)
+
+-- URL: http://wow-pro.com/node/3762/revisions/30214/view
 -- Date: 2019-02-02 19:55
 -- Who: Emmaleah
 -- Log: added |V| tag (replacing NC in most cases)
@@ -682,7 +687,7 @@ T Hope's Blue Light|QID|49884|M|44.49,95.43|Z|Dazar'alor|N|To Captain Rez'okun.|
 
 F Port of Zandalar|ACTIVE|51101|M|51.91,41.20|Z|Dazar'alor|N|At Paku'ai the Ro'kata.|TZ|Grand Bazaar|RANK|-1|
 A Who Seeks the Seeker|QID|49283|M|57.76,92.28|Z|Dazar'alor|N|From Sholo.|RANK|2|
-b Seekers' Outpost|ACTIVE|51101|M|58.92,60.96|Z|Dazar'alor|N|Ask Wavesinger De'zan for a ride in his boat.|
+b Seekers' Outpost|ACTIVE|51101|M|52.79,95.77|Z|Dazar'alor|N|Ask Wavesinger De'zan for a ride in his boat.|
 f Seekers' Outpost|ACTIVE|49283|M|70.42,65.32|N|At Scroll of Flight.|RANK|2|
 T Who Seeks the Seeker|QID|49283|M|70.49,65.21|N|To Batu.|
 A Perfect Tidings|QID|49284|M|70.49,65.21|N|From Batu.|RANK|2|PRE|49283|
@@ -865,8 +870,8 @@ H The Great Seal|ACTIVE|51111|M|70.77,29.59|N|Use your hearthstone or take the f
 T Inform the Horde|QID|51539|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|RANK|2|
 T King or Prey|QID|51111|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 A Hunting Zul|QID|49421|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|
-R The Zocalo|ACTIVE|49421|M|42.58,27.97|N|Run down the stairs and down and down, till you get to ground level and cross the bridge to The Zocalo.|
-A The Warpack|QID|49965|M|38.93,27.13|Z|Dazar'alor|N|From King Rastakhan.|PRE|49421&51111|
+R The Zocalo|ACTIVE|49421|M|42.58,27.97|Z|Dazar'alor|N|Run down the stairs and down and down, till you get to ground level and cross the bridge to The Zocalo.|
+A The Warpack|QID|49965|M|38.93,27.13|Z|Dazar'alor|N|From King Rastakhan.|PRE|51111|
 T Hunting Zul|QID|49421|M|38.93,27.13|Z|Dazar'alor|N|To King Rastakhan.|
 C The Warpack|QID|49965|M|38.82,27.04;49.19,44.79|CS|V|N|Hop on the Saurid with Wardruid Loti (and wait for the King to finish his speech) then ride with the Warpack|
 T The Warpack|QID|49965|M|49.28,44.32|N|To Gonk.|
@@ -982,7 +987,7 @@ T Rokhan|QID|47201|M|56.92,19.10|N|To Rokhan.|
 A Warmother|QID|47205|M|56.92,19.10|N|From Rokhan.|PRE|47201|
 A The New Frontline|QID|47204|M|56.92,19.10|N|From Rokhan.|PRE|47201|
 C The New Frontline|QID|47204|M|57.08,20.68|S|N|Kill Blood Troll forces.|
-K Warmother Shazraka|QID|47205|M|58.02,18.19|QO|1|T|Warmother Shazraka|N|Kill Warmother Shazraka.|
+K Warmother Shazraka|ACTIVE|47205|M|58.02,18.19|QO|1|T|Warmother Shazraka|N|Kill Warmother Shazraka.|
 C The New Frontline|QID|47204|M|57.08,20.68|US|N|Finish your share of the Blood Troll forces.|
 T Warmother|QID|47205|M|56.92,19.11|N|To Rokhan.|
 T The New Frontline|QID|47204|M|56.92,19.11|N|To Rokhan.|
@@ -992,7 +997,7 @@ C Bulwark of Torcali|QID|47229|M|58.07,20.39|NC|QO|2|N|Destroy Blood Troll force
 T Bulwark of Torcali|QID|47229|M|57.98,17.83|N|To Princess Talanji.|
 A Prepare for a Siege|QID|47258|M|60.05,22.23|N|From King Rastakhan.|PRE|47229|
 A Zandalar Forever!|QID|50954|M|60.05,22.23|N|From King Rastakhan.(requires all 3 zone achievements)|PRE|47229&50703|;not spurious -- prolly an ach instead of the quests, but the quests works.
-R Zandalar Forever!|QID|50954|M|60.05,22.23|TZ|The Sliver|CHAT|N|Talk to the King to start the scenario.|
+R Zandalar Forever!|ACTIVE|50954|M|60.05,22.23|TZ|The Sliver|CHAT|N|Talk to the King to start the scenario.|
 
 H The Great Seal|ACTIVE|-50954|N|Final Scenario requires you to have finished all three zone achievements, so if you don't, now is the time to hearth and go finish Voldun.|
 C Prepare the Assault|ACTIVE|50954|SO|1:1|V|N|Gather your forces and mount Old K'zlotec.|
