@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2019-03-18 21:09
+-- Who: Emmaleah
+-- Log: Add |V| tags, reword rares and treasures intro steps
+
+-- URL: http://wow-pro.com/node/3772/revisions/30182/view
 -- Date: 2019-01-07 00:00
 -- Who: Emmaleah
 -- Log: missing QO|1 on Mojambo
@@ -120,7 +125,8 @@ N The Great Sea Scrolls|QID|53476|NA|U|163852|N|From Ancient Pilgrimage Scrollca
 t The Great Sea Scrolls|QID|53476|S!US|M|71.50,30.36|Z|Zuldazar|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
 
 N Use of Ranks|N|Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done alongside the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
-N Rares (aka Silver Elite)|ACH|12943|N|Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it will direct you to kill them again. Check off manually if you choose not to.|
+N Rares (aka Silver Elite)|ACH|12943|N|Rares are not truely rare, they will respawn within a few minutes of being killed, so if it isn't there, stick around a minute or two and it will be. Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to. If you want the guide to not tell you about rares at all, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable rares box). |
+N Traesure|ACH|12849|N|The majority of the treasure chests in Vol'dun are first come, respawning randomly.  There are a few one time treasures, If you want the guide to skip treasures, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable treasures box).
 
 A Vol'dun|QID|47513|M|41.77,69.35|Z|Hall of Croniclers!Dazar'alor|N|Pick Vol'dun from Scouting Map.|PRE|52131|
 t Vol'dun|QID|47513|M|57.81,44.34|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
@@ -145,7 +151,7 @@ T Discreet Discussions|QID|47313|M|51.57,31.82|Z|Dazar'alor|N|To Bladeguard Kaja
 A Rumors of Exile|QID|47314|M|51.57,31.82|Z|Dazar'alor|N|From Bladeguard Kaja.|PRE|47313|
 T Rumors of Exile|QID|47314|M|51.17,29.59;49.90,31.63|CS|Z|Dazar'alor|N|To Bladeguard Kaja who went down the stairs and around the corner to your left.|
 A Into the Dunes|QID|47315|M|49.90,31.63|Z|Dazar'alor|N|From Bladeguard Kaja.|PRE|47314|
-C Into the Dunes|QID|47315|M|50.04,31.69|Z|Dazar'alor|QO|1|NC|N|Hop on the Pterrordax.|
+C Into the Dunes|QID|47315|M|50.04,31.69|Z|Dazar'alor|QO|1|V|N|Hop on the Pterrordax.|
 T Into the Dunes|QID|47315|M|65.98,36.65|N|To Nisha.|
 A Armed and Ready|QID|51357|M|65.98,36.65|N|From Nisha.|PRE|47315|
 C Armed and Ready|QID|51357|M|65.95,36.64|NC|N|Select a Weapon.|
@@ -163,7 +169,7 @@ T Plans for Attack|QID|49677|M|60.87,32.60|N|To Nisha.|
 C Answering Their Attacks|QID|47327|M|60.87,32.60|US|N|Finish up the Sethrak.|
 T Answering Their Attacks|QID|47327|M|60.87,32.60|N|To Nisha.|
 A An Explosive Exit|QID|51364|M|60.87,32.60|N|From Nisha.|PRE|49677&47327|
-C An Explosive Exit|QID|51364|M|60.04,34.60|QO|2|NC|N|Hop on Nisha's wagon.|
+C An Explosive Exit|QID|51364|M|60.04,34.60|QO|2|V|N|Hop on Nisha's wagon.|
 C An Explosive Exit|QID|51364|M|59.15,37.06|QO|3|NC|N|Use Special action button to throw fire flasks and Defend Nisha's wagon.|
 T An Explosive Exit|QID|51364|M|56.79,50.53|N|To Kiro.|
 A Restorative Venom|QID|47319|M|56.79,50.53|N|From Kiro.|PRE|51364|
@@ -457,7 +463,7 @@ C The Master Key|QID|49227|QO|2|M|49.65,88.35|S|N|Free Vulpera as you head out.|
 K Azer'tor|QID|49252|QO|1|M|49.08,89.49|T|Azer'tor|RARE|N|Right wall from Overseer Morrison to a small alcove in the mine to find this Silver Elite. Kill and loot for artifact power and resources.|RANK|2|
 C The Master Key|QID|49227|QO|2|M|49.65,88.35|US|N|Finish freeing Vulpera before you leave the mine.|
 T The Master Key|QID|49227|M|47.60,86.15|N|To Keerin.|
-$ Mine Cart/Ashvane Spoils|QID|50237|M|46.60,88.03;44.67,91.51|CS|N|Hop in this mine cart for a ride down to some treasure. Loot the Ashvane Spoils for artifact power and resources.|RANK|2|
+$ Mine Cart/Ashvane Spoils|QID|50237|M|46.60,88.03;44.67,91.51|CS|V|N|Hop in this mine cart for a ride down to some treasure. Loot the Ashvane Spoils for artifact power and resources.|RANK|2|
 N Ashvane Garb|ACTIVE|47870|M|44.67,91.51|U|160735|N|Now might be an excellent time to disguise yourself to pass thru the camp. (or you can just fight through.) Interestly, fighting does not destroy your disguise. But the Overseer's see thru it and it will be no longer valid.|RANK|2|
 K Commodore Calhoun|QID|50905|M|43.47,91.65;42.56,92.14|CS|QO|1|RARE|ITEM|162615|T|Commodore Calhoun|N|This silver elite can be found up above overlooking the harbor. Kill and loot for artifact power and resources.|RANK|2|
 T Dead Men Tell No Tales|QID|47870|M|44.66,86.98|N|To Randall Redmond.|
@@ -513,7 +519,7 @@ T Monsters of Zem'lan|QID|47647|M|33.28,81.75|N|Bonus Objective - Autocompleted.
 T The Grinning Idols|QID|47499|M|33.28,81.75|N|To First Mate Jamboya.|
 T Maroon 'em with Fire|QID|51057|M|33.28,81.75|N|To First Mate Jamboya.|
 A The Golden Isle|QID|51059|M|33.28,81.75|N|From First Mate Jamboya.|RANK|2|PRE|51057&47499|
-C The Golden Isle|QID|51059|M|33.28,81.75|NC|N|Hop in his boat.|
+C The Golden Isle|QID|51059|M|33.28,81.75|V|N|Hop in his boat.|
 T The Golden Isle|QID|51059|M|30.23,86.51|N|To First Mate Jamboya.|
 A Our Share of the Plunder|QID|51060|M|30.23,86.51|N|From First Mate Jamboya.|RANK|2|PRE|51059|
 A The First Time I Died|QID|51061|M|30.23,86.51|N|From First Mate Jamboya.|RANK|2|PRE|51059|
@@ -529,7 +535,7 @@ C This Be Mutiny|QID|48326|M|28.59,88.67|QO|1|NC|N|Ring the Gong of Zem'lan.|
 C This Be Mutiny|QID|48326|M|28.69,88.56|QO|2|N|Kill Pirate-King Zem'lan.|
 T This Be Mutiny|QID|48326|M|30.24,86.51|N|To First Mate Jamboya.|
 A Escaping Zem'lan|QID|51062|M|30.24,86.51|N|From First Mate Jamboya.|RANK|2|PRE|48326|
-C Escaping Zem'lan|QID|51062|M|30.26,86.36|NC|N|Ride Jamboya's boat.|
+C Escaping Zem'lan|QID|51062|M|30.26,86.36|V|N|Ride Jamboya's boat.|
 K Jumbo Sandsnapper|QID|49392|QO|1|RARE|ITEM|161107|T|Jumbo Sandsnapper|M|37.38,84.60|N|Silver Elite to kill and loot for artifact power and resources.|RANK|2|
 $ Deadwood Chest|QID|52994|M|38.84,82.90;40.57,85.74|CS|N|Follow this path to find the chest. Loot for artifact power and resources.|RANK|2|
 T WANTED: Taz'raka the Traitor|QID|51162|M|38.88,77.32|N|To Norah.|
@@ -539,7 +545,7 @@ T Za'roco|QID|51161|M|43.41,75.36|N|To Razgari.|
 R Zul'Ahjin|ACTIVE|47324|M|46.73,71.85|N|Run back to Zul'Ahjin to take a ride to your next area.|RANK|2|
 
 ;The Three Keepers
-C Unlikely Allies|QID|47324|M|46.79,75.45|NC|N|Hop on the Pterrordax and take a ride.|
+C Unlikely Allies|QID|47324|M|46.79,75.45|V|N|Hop on the Pterrordax and take a ride.|
 T Unlikely Allies|QID|47324|M|27.22,53.94|N|To Serrik.|
 A A Powerful Prisoner|QID|49334|M|27.22,53.94|N|From Serrik.|PRE|47324|
 A Break Their Ranks|QID|50641|M|27.20,53.85|N|From Zissiah.|PRE|47324|
@@ -781,8 +787,8 @@ C Untame Slaughter|QID|50757|M|56.58,30.62|US|N|Finish off this set of Faithless
 T Untame Slaughter|QID|50757|M|55.43,35.01|N|To Kiro.|
 T Unleash the Beasts|QID|49669|M|55.45,35.03|N|To Kiro.|
 A Free Ride|QID|50749|M|55.45,35.03|N|From Kiro.|RANK|2|PRE|50757&49669|
-C Free Ride|QID|50749|M|55.24,35.22|QO|1|N|Hop on the Battle Krolusk and guide him back to Vorrik's Sanctum.|
-R Vorrik's Sanctum|ACTIVE|50749|M|47.98,36.51|N|Path would probably be useful here.|
+C Free Ride|QID|50749|M|55.24,35.22|QO|1|V|N|Hop on the Battle Krolusk and guide him back to Vorrik's Sanctum.|
+R Vorrik's Sanctum|ACTIVE|50749|M|47.98,36.51|;adding a Path would probably be useful here
 T Tattered Note|QID|49437|M|47.98,36.51|N|To Meerah.|
 T Free Ride|QID|50749|M|48.02,36.44|N|To Kiro.|
 
