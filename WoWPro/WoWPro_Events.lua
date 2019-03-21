@@ -493,9 +493,9 @@ WoWPro.RegisterEventHandler("PET_BATTLE_CLOSE", function (event,...)
     if WoWPro.Hidden then
 		WoWPro.MainFrame:Show()
 		WoWPro.Titlebar:Show()
+		WoWPro.Hidden = nil
 	end
 
-	WoWPro.Hidden = nil
 	if not C_PetBattles.IsInBattle() then
 	    WoWPro.PetBattleActive = false
 	    WoWPro:dbp("C_PetBattles.IsInBattle() = false")
@@ -520,10 +520,27 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_BATTLEGROUND", function (event,...)
     WoWPro.Hidden = event
     end)
 
-WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function (event,...)
+WoWPro.RegisterEventHandler("PLAYER_REGEN_DISABLED", function (event,...)
+    -- Combat lockdown begins after this event
+    if WoWProCharDB.AutoHideInCombat then
+        WoWPro.MainFrame:Hide()
+        WoWPro.Titlebar:Hide()
+        WoWPro.Hidden = event
+    end
+    -- Last ditch update!
 	if not WoWPro.MaybeCombatLockdown() then
 		WoWPro:UpdateGuide(event)
 	end
+    end)
+
+WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function (event,...)
+    -- Combat lockdown ends before this event fires
+    if WoWPro.Hidden then
+		WoWPro.MainFrame:Show()
+		WoWPro.Titlebar:Show()
+	end
+
+	WoWPro:UpdateGuide(event)
     end)
 
 WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
