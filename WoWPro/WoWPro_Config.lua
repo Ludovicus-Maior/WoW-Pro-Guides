@@ -47,12 +47,12 @@ local function CreateDisplayConfig()
 						order = 0,
 						type = "description",
 						name = L["On this page you can edit the way the guide frame looks."],
-					},  
+					},
 					blank1 = {
 						order = 1,
 						type = "description",
 						name = " ",
-					}, 
+					},
 					drag = {
 						order = 2,
 						type = "toggle",
@@ -82,7 +82,7 @@ local function CreateDisplayConfig()
 						get = function(info) return WoWProDB.profile.anchorpoint end,
 						set = function(info,val) WoWProDB.profile.anchorpoint = val 
 							WoWPro.AnchorSet() end
-					},  
+					},
 					padding = {
 						order = 4,
 						type = "range",
@@ -106,16 +106,25 @@ local function CreateDisplayConfig()
 					hide = {
         				order = 6,
         				type = "toggle",
-        				name = L["Enable Hiding"],
+        				name = L["Enable Instance Hiding"],
         				desc = L["Enables/Disables hiding the active module when inside an instance (Dungeon, Arena ...), unless the guide wants you there!"],
-        				width = "full",
         				get = function(info) return WoWProCharDB.AutoHideInsideInstances ; end,
-        				set = function(info,val)  
+        				set = function(info,val)
         						if WoWProCharDB.AutoHideInsideInstances == true then WoWProCharDB.AutoHideInsideInstances=false; else WoWProCharDB.AutoHideInsideInstances=true; end
         					end
-        			}, 
+        			},
+					combathide = {
+        				order = 7,
+        				type = "toggle",
+        				name = L["Enable Combat Hiding"],
+        				desc = L["Enables/Disables hiding the active module when you are in combat."],
+        				get = function(info) return WoWProCharDB.AutoHideInCombat ; end,
+        				set = function(info,val)
+        						if WoWProCharDB.AutoHideInCombat == true then WoWProCharDB.AutoHideInCombat=false; else WoWProCharDB.AutoHideInCombat=true; end
+        					end
+        			},
 					noteshow = {
-						order = 7,
+						order = 8,
 						type = "toggle",
 						name = L["Mouseover Notes"],
 						desc = L["Show notes on mouseover instead of always displaying them."],
@@ -124,40 +133,40 @@ local function CreateDisplayConfig()
 							WoWPro.RowSizeSet() end
 					},
 					minimap = {
-						order = 8,
+						order = 9,
 						type = "toggle",
 						name = L["Minimap Button"],
 						desc = L["Show/hide WoW-Pro mini map button."],
 						get = function(info) return not WoWProDB.profile.minimap.hide end,
 						set = function(info,val) WoWProDB.profile.minimap.hide = not val 
 							 WoWPro.MinimapSet() end
-					}, 
+					},
 					track = {
-						order = 9,
+						order = 10,
 						type = "toggle",
 						name = L["Quest Tracking"],
 						desc = L["Allows tracking of quests in the guide frame"],
 						get = function(info) return WoWProDB.profile.track end,
 						set = function(info,val) WoWProDB.profile.track = val 
 							WoWPro:UpdateGuide("Config: Quest Tracking") end
-					},    
+					},
 					showcoords = {
-						order = 10,
+						order = 11,
 						type = "toggle",
 						name = L["Show Coordinates"],
 						desc = L["Shows the coordinates in the note text."],
 						get = function(info) return WoWProDB.profile.showcoords end,
 						set = function(info,val) WoWProDB.profile.showcoords = val 
 							WoWPro:UpdateGuide("Config: Show Coordinates") end
-					},     
+					},
 					autoload = {
-						order = 11,
+						order = 12,
 						type = "toggle",
 						name = L["Auto-Load Guide"],
 						desc = L["Will automatically load the next guide when you complete one."],
 						get = function(info) return WoWProDB.profile.autoload end,
 						set = function(info,val) WoWProDB.profile.autoload = val end
-					},    
+					},
 					blank2 = {
 						order = 20,
 						type = "description",
