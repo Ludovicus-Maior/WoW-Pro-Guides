@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2019-03-15 23:28
+-- Who: Ludovicus_Maior
+-- Log: Added coords for [Black-Eyed Bart] and corrected [A Bundle of Furs]
+
+-- URL: http://wow-pro.com/node/3769/revisions/30225/view
 -- Date: 2019-02-15 22:28
 -- Who: Ludovicus_Maior
 -- Log: [Hold My Hand] comment revision
@@ -500,7 +505,7 @@ C Righteous Retribution|QID|49741|M|59.03,66.60|QO|3|NC|N|Board the Landing Boat
 C Righteous Retribution|QID|49741|M|59.34,68.26|QO|4|NC|N|Use your special action button to bomb The Bloodwake.|;coords a little off, do it when the boat stops.
 C Righteous Retribution|QID|49741|M|57.57,71.54|QO|5|NC|N|Hop on Galeheart's back for a mini bombing run.|
 C Righteous Retribution|QID|49741|M|56.84,74.30|QO|6|NC|N|Drop bombs on the Powder Barrels.|
-K Black-Eyed Bart|QID|50096|QO|1|T|Black-Eyed Bart|RARE|ITEM|158650|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
+K Black-Eyed Bart|QID|50096|M|56.34,69.92|QO|1|T|Black-Eyed Bart|RARE|ITEM|158650|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
 C Cease Fire!|QID|49740|US|N|Finish destroying the Captured Cannons.|
 C For Kul Tiras!|QID|49736|U|156520|US|N|Finish inspriring the Vigil Hill defenders.|
 C Enemies at the Gate|QID|49739|M|57.22,67.36|US|N|Bonus Objective - Stick around and finish this up.|
@@ -539,7 +544,7 @@ A Proudmoore's Parley|QID|50972|M|48.44,80.93|Z|1161|N|From Katherine Proudmoore
 f Proudmoore Keep|ACTIVE|50972|M|47.65,65.42|Z|1161|N|At Jessica Clarke.|
 F Tradewinds Market|ACTIVE|50972|M|47.70,65.40|Z|1161|N|At Jessica Clarke.|
 $ Scrimshaw Cache|QID|52870|Z|Boralus|M|64.79,12.39;62.85,11.84;61.72,10.61|CS|N|Down the stairs and over the wall into a little cave for some Azerite Power and resources. You can return the same way you came.|RANK|2|
-A Bundle of Furs|QID|51144|M|74.81,23.65|N|From "Risky" Liz Seminario.|RANK|2|
+A A Bundle of Furs|QID|51144|M|74.81,23.65|N|From "Risky" Liz Seminario.|RANK|2|
 A Trouble at Greystone Keep|QID|49715|M|74.12,22.55|N|From Courier Gerald.|LEAD|49733^51226|RANK|3|
 T A Bad Deal|QID|49523|M|75.47,22.18|N|To Roko. This has a followup to come back for at 120.|
 A The Long Con|QID|49223|LVL|120|M|75.47,22.18|N|From Roko.|RANK|3|PRE|49523|

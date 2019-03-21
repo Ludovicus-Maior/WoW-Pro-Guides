@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-03-18 06:37
+-- Who: Emmaleah
+-- Log: added heart of azeroth quest chain. (still need C steps on first 3 as I did them along time ago and don't recall exactly what they were.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30209/view
 -- Date: 2019-01-30 07:46
 -- Who: Emmaleah
 -- Log: Add new |V| (vehicle) tag
@@ -246,11 +251,6 @@
 -- Date: 2018-09-03 21:49
 -- Who: elidion
 -- Log: Updated the outpost guides, to fix waypoint and flightpath grabbing issues
-
--- URL: http://wow-pro.com/node/3761/revisions/29657/view
--- Date: 2018-09-03 11:00
--- Who: Emmaleah
--- Log: merged my changes to early part of guide with Elodian's changes to later part of guide.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -555,6 +555,30 @@ T Death Trap|QID|51599|M|77.01,49.19|Z|Tiragarde Sound|N|To Lilian Voss.|
 A The Bridgeport Ride|QID|51601|M|77.01,49.19|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51599|
 C The Bridgeport Ride|QID|51601|M|75.49,49.86;75.55,51.96;74.22,52.88|QO|1;2|Z|Tiragarde Sound|CS|V|N|Hop on the horse, make a circle thru town, be sure you ran past the Captain, and then ride out across the low bridge to where you set the bombs.|
 T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|NC|N|To Nathanos Blightcaller.|
+
+;Heart of Azeroth questline
+P Silithis|QID|50973|M|73.97,85.62|Z|The Great Seal!Dazar'alor|N|Travel to Silithis to upgrade your Necklace' ilevel. One character on your account must have at least friendly rep for this quest to be available.|ACH|12947;5;;true|PRE|52451^51916|
+A The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|REP|Champions of Azeroth;2164;Friendly-Exalted|PRE|52451^51916|
+T The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+A Unlocking the Heart|QID|53405|PRE|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
+T Unlocking the Heart|QID|53405|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+A The Chamber of Heart|QID|53406|PRE|53405|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
+T The Chamber of Heart|QID|53406|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+A A Brother's Help|QID|54938|N|Autoaccepted when entering Dazar'alor.|PRE|53406|ACH|12955;;;true|
+F Gloom Hollow|ACTIVE|54938|M|51.93,41.21|Z|Dazar'alor|N|at Paku'ai Rokota, or otherwise travel to Nazmir.|
+R Zul'Nazman|ACTIVE|54938|M|57.89,50.48|CC|Z|Nazmir|N|Magni is actually just in generic Nazmir between Zul'Nazman and Zal'amak.|
+T A Brother's Help|QID|54938|M|57.88,50.46|Z|Nazmir|N|To Magni Bronzebeard.|
+A Stubborn as a Bronzebeard|QID|54939|M|57.89,50.48|Z|Nazmir|N|From Magni Bronzebeard.|
+C Stubborn as a Bronzebeard|QID|54939|M|58.07,50.70|Z|Nazmir|QO|1|V|N|Hop on Brann's Flying Machine.This will fly you into an Uldir instance.|
+T Stubborn as a Bronzebeard|QID|54939|M|47.69,16.33|Z|Ring of Containment@Uldir!Dungeon|N|To Magni Bronzebeard.|
+A Necessity is the MOTHER|QID|54940|M|47.69,16.33|Z|Ring of Containment@Uldir!Dungeon|N|From Magni Bronzebeard.|
+C Necessity is the MOTHER|QID|54940|M|60.96,53.58|Z|The Oblivion Door@Uldir!Dungeon|QO|1|NC|N|Activate the East Console. You don't have to stay and fight the blood globules if you can take the damage and run to the other console.|
+C Necessity is the MOTHER|QID|54940|M|41.09,53.12|Z|The Oblivion Door@Uldir!Dungeon|QO|2|NC|N|Activate the West Console. If its survivable, you can continue to ignore the blood globules and go turn in the quest.|
+T Necessity is the MOTHER|QID|54940|M|52.32,68.79|Z|The Oblivion Door@Uldir!Dungeon|N|To Magni Bronzebeard.|
+A A One-Way Ticket to the Heart|QID|54964|M|52.32,68.79|Z|The Oblivion Door@Uldir!Dungeon|N|From Magni Bronzebeard.|
+C A One-Way Ticket to the Heart|QID|54964|M|49.91,58.21|Z|The Oblivion Door@Uldir!Dungeon|QO|1|N|Fight the creatures from the void, culminating with K'thxx the Void Hunter to open the waygate.|
+C A One-Way Ticket to the Heart|QID|54964|M|50.76,53.72|Z|The Oblivion Door@Uldir!Dungeon|QO|2|NC|N|Click on MOTHER to Activate the Waygate and teleport to the Chamber of Heart.|
+T A One-Way Ticket to the Heart|QID|54964|M|50.19,53.72|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard. That's all of this quest line for now. I'm sure there is more to come in a future patch. Hearth or take the portal out.|
 
 ; The Marshal's Grave - 4.5k Friendly with The Honorbound
 A Operation: Grave Digger|QID|53065|N|Autoaccepted|PRE|51601|REP|The Honorbound;2157;friendly;4500|O|

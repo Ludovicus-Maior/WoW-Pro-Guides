@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2019-03-18 21:15
+-- Who: Emmaleah
+-- Log: add |V| tags, update wording on rares and treasures intro steps  ... to make them even more wordy. /sigh.
+
+-- URL: http://wow-pro.com/node/3766/revisions/30140/view
 -- Date: 2018-11-28 19:19
 -- Who: Emmaleah
 -- Log: moved quests to kill crawg mada and burn huts to before grand mada ateena, (I could swear that Rokhan didn't offer the quest then, in my previous trips...) few other changes, finished this run thru the zone.
@@ -127,7 +132,8 @@ return [[
 N The Great Sea Scrolls|QID|53476|NA|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 t The Great Sea Scrolls|QID|53476|M|71.50,30.36|S!US|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
 N Use of Ranks|N|Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done with the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
-N Rares (aka Silver Elite)|ACH|12942|N|Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to.|
+N Rares (aka Silver Elite)|ACH|12942|N|Rares are not truely rare, they will respawn within a few minutes of being killed, so if it isn't there, stick around a minute or two and it will be. Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to. If you want the guide to not tell you about rares at all, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable rares box). |
+N Traesure|ACH|12771|N|The majority of the treasure chests in Nazmir are first come, respawning randomly.  There are a few one time treasures, If you want the guide to skip treasures, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable treasures box).
 
 ;A Nazmir|QID|47512|N|From Scouting map
 T Nazmir|QID|47512|M|41.32,66.49|Z|Dazar'alor|N|To Princess Talanji.|
@@ -438,7 +444,7 @@ C Bad To The Bone|QID|49779|M|24.70,45.35|N|Finish off the quota of Bone Raptors
 T Recovering Ancient Fire|QID|49780|M|24.11,53.15|N|To Jin'Tiki.|
 T Bad To The Bone|QID|49779|M|24.13,53.23|N|To Zaluto.|
 A Catch Me if You Can|QID|49781|M|24.13,53.21|N|From Zaluto.|RANK|2|PRE|49780&49779|
-C Catch Me if You Can|QID|49781|M|28.18,53.39|NC|N|Hop on Zaluto's raptor. After a bit he stops -- facing Zulajin -- use the 1 key. the rapter will run towards the puddle of tar, in a little while 2 key becomes available, use it. Run away some more and then when the 3 key becomes avaiable -- use it repeatedly until Zulajin is dead.|T|Zulajin|
+C Catch Me if You Can|QID|49781|M|28.18,53.39|V|N|Hop on Zaluto's raptor. After a bit he stops -- facing Zulajin -- use the "1" key. the rapter will run towards the puddle of tar, in a little while 2 key becomes available, use it. Run away some more and then when the 3 key becomes avaiable -- use it repeatedly until Zulajin is dead.|T|Zulajin|
 T Catch Me if You Can|QID|49781|M|28.36,52.03|N|To Jin'Tiki.|
 
 K King Kooba|QID|49317|M|53.63,42.64|QO|1|RARE|ITEM|161221|T|King Kooba|N|Silver Elite to kill for resources and artifact power.|RANK|2|
@@ -569,7 +575,7 @@ C Totemic Restoration|QID|47540|M|75.17,56.68;75.32,56.37;75.66,56.36|CC|QO|1|NC
 T Totemic Restoration|QID|47540|M|75.52,56.74|N|To Krag'wa the Huge.|
 A Krag'wa the Terrible|QID|47696|M|75.52,56.74|N|From Krag'wa the Huge.|PRE|47540|
 R The Frogmarsh|ACTIVE|47696|M|67.40,55.90|N|Run out of Krag'wa's pond and catch up to him in the Frogmarsh.|
-C Krag'wa the Terrible|QID|47696|M|67.40,55.90|QO|1|CHAT|N|Tell Krag'wa that you are ready to help his wreak vengeance.|
+C Krag'wa the Terrible|QID|47696|M|67.40,55.90|QO|1|CHAT|N|Tell Krag'wa that you are ready to help him wreak vengeance.|
 C Krag'wa the Terrible|QID|47696|M|64.28,58.57|QO|2|NC|N|"1" lets you jump forward causing AE damage where you land. \n"2" does AE damage in a cone in front of you.|
 C Krag'wa the Terrible|QID|47696|M|59.88,53.34|QO|3|NC|N|One final target.|
 T Krag'wa the Terrible|QID|47696|M|75.45,56.73|N|To Krag'wa the Huge.|
@@ -661,11 +667,11 @@ T Pilfering and Fencing|QID|47598|M|82.28,27.41|N|To Newt.|
 T There Is No Plan "B"|QID|47596|M|82.40,27.22|N|To Ticker.|
 T Head of the Viper|QID|47711|M|82.37,27.32|N|To Patch.|
 A Field Evaluation|QID|47601|M|82.37,27.32|N|From Patch.|PRE|47711&47598&47596|
-C Field Evaluation|QID|47601|M|81.45,26.02|QO|1|NC|N|Hop on the A.M.O.D.|
+C Field Evaluation|QID|47601|M|81.45,26.02|QO|1|V|N|Hop on the A.M.O.D.|
 C Field Evaluation|QID|47601|M|81.45,26.02|NC|N|Target groups of Naga and use the "1" key until it quits being active, then use the "2" key. Once Grobathan appears. Target him and use the 3 key.|
 T Field Evaluation|QID|47601|M|81.35,26.09|N|To Patch.|
 A Ready For Action|QID|47602|M|81.35,26.09|N|From Patch.|PRE|47601|
-C Ready For Action|QID|47602|M|81.27,26.28|QO|1|NC|N|Obtain ride from Newt's Emergency Rocket (Optional)|
+C Ready For Action|QID|47602|M|81.27,26.28|QO|1|V|N|Obtain ride from Newt's Emergency Rocket (Optional)|
 C Ready For Action|QID|47602|M|67.27,42.78|QO|2|NC|N|Return to Talanji|
 T Ready For Action|QID|47602|M|67.42,42.24|N|To Princess Talanji.|
 
@@ -720,7 +726,7 @@ C Containment Procedure|QID|49980|M|72.47,29.38|QO|1|CHAT|N|Tell Titan Keeper He
 K Grand Ma'da Ateena|ACTIVE|49980|M|72.85,28.99|QO|2|T|Grand Ma'da Ateena|N|Attempt to defeat Grand Ma'da Ateena.|
 T Containment Procedure|QID|49980|M|72.47,29.37|N|To Titan Keeper Hezrel.|
 A Return to Gloom Hollow|QID|49985|M|72.47,29.37|N|From Titan Keeper Hezrel.|PRE|49980|
-C Return to Gloom Hollow|QID|49985|M|66.01,39.13|QO|1|NC|N|Hop on Titan Keeper Hezrel for a ride back to Gloom Hollow.|
+C Return to Gloom Hollow|QID|49985|M|66.01,39.13|QO|1|V|N|Hop on Titan Keeper Hezrel for a ride back to Gloom Hollow.|
 T Return to Gloom Hollow|QID|49985|M|67.43,42.23|N|To Princess Talanji.|
 A Down by the Riverside|QID|49569|M|67.43,42.23|N|From Princess Talanji.|PRE|49985|
 t WANTED: Ayame|QID|52477|M|67.76,41.85|N|To Korkush.|
@@ -780,7 +786,7 @@ A Ateena's Fall|QID|50087|M|49.39,57.19|N|From Princess Talanji.|;pres per Grail
 K Grand Ma'da Ateena|ACTIVE|50087|M|51.88,60.59|QO|1|T|Grand Ma'da Ateena|N|Chase Grand Ma'da Ateena around the top of the building avoiding the pools of corruption and damaging her.|
 T Ateena's Fall|QID|50087|M|50.60,58.46|N|To Princess Talanji.|
 A What Rots Beneath|QID|51244|M|50.51,58.34|N|From Rokhan.|PRE|50087|
-C What Rots Beneath|QID|51244|M|50.51,58.34|QO|1|NC|N|Ask Rokhan for a ride down to the Altar of Rot.|
+C What Rots Beneath|QID|51244|M|50.51,58.34|QO|1|CHAT|N|Ask Rokhan for a ride down to the Altar of Rot.|
 C What Rots Beneath|QID|51244|M|51.73,65.69|QO|2|NC|N|Run down the hill to find Titan Keeper Hezrel and speak to him.|
 T What Rots Beneath|QID|51244|M|51.73,65.69|N|To Titan Keeper Hezrel.|
 A The Underrot: Sealing G'huun's Corruption|QID|51302|M|51.73,65.69|NA|N|From Titan Keeper Hezrel. This is a dungeon quest.|RANK|2|PRE|51244|

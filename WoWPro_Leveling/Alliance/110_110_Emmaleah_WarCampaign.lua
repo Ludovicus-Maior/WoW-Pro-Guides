@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-03-18 06:40
+-- Who: Emmaleah
+-- Log: Add Heart of Azeroth Quest line
+
+-- URL: http://wow-pro.com/node/3760/revisions/30218/view
 -- Date: 2019-02-04 00:48
 -- Who: elidion
 -- Log: Finished war campaign quest for 8.1.5, few minor edits.
@@ -249,11 +254,6 @@
 -- Date: 2018-09-08 09:57
 -- Who: elidion
 -- Log: Updated Warfront waypoints, Portal step and arrangement to be more friendly for new players.
-
--- URL: http://wow-pro.com/node/3760/revisions/29692/view
--- Date: 2018-09-07 06:00
--- Who: elidion
--- Log: Updated the Vol'dun questline to use the new objective type.
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -612,11 +612,35 @@ C Blood on the Sand|QID|52146|M|39.65,83.91|Z|Vol'dun|QO|2|NC|N|Wait for Kelsey 
 C Blood on the Sand|QID|52146|M|38.68,83.02|Z|Vol'dun|QO|1|NC|N|Click on 7th Legion Spyglass and watch cinematic.|
 T Blood on the Sand|QID|52146|M|39.65,83.91|Z|Vol'dun|N|To Halford Wyrmbane.|
 
+;Heart of Azeroth questline
+P Silithis|QID|50973|M|69.75,15.66|Z|Boralus|N|Travel to Silithis to upgrade your Necklace' ilevel. One character on your account must have at least friendly rep for this quest to be available.|ACH|12947;5;;true|PRE|52451^51916|
+A The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|REP|Champions of Azeroth;2164;Friendly-Exalted|PRE|52451^51916|
+T The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+A Unlocking the Heart|QID|53405|PRE|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
+T Unlocking the Heart|QID|53405|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+A The Chamber of Heart|QID|53406|PRE|53405|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
+T The Chamber of Heart|QID|53406|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+A A Brother's Help|QID|54938|N|Autoaccepted when entering Boralus.|PRE|53406|ACH|12955;;;true|
+F Fort Victory|ACTIVE|54938|M|67.94,26.70|Z|Boralus|CHAT|N|Speak with Grand Admiral Jes-Tereth or otherwise travel to Nazmir.|
+R Zul'Nazman|ACTIVE|54938|M|57.89,50.48|CC|Z|Nazmir|N|Magni is actually just in generic Nazmir between Zul'Nazman and Zal'amak.|
+T A Brother's Help|QID|54938|M|57.88,50.46|Z|Nazmir|N|To Magni Bronzebeard.|
+A Stubborn as a Bronzebeard|QID|54939|M|57.89,50.48|Z|Nazmir|N|From Magni Bronzebeard.|
+C Stubborn as a Bronzebeard|QID|54939|M|58.07,50.70|Z|Nazmir|QO|1|V|N|Hop on Brann's Flying Machine.This will fly you into an Uldir instance.|
+T Stubborn as a Bronzebeard|QID|54939|M|47.69,16.33|Z|Ring of Containment@Uldir!Dungeon|N|To Magni Bronzebeard.|
+A Necessity is the MOTHER|QID|54940|M|47.69,16.33|Z|Ring of Containment@Uldir!Dungeon|N|From Magni Bronzebeard.|
+C Necessity is the MOTHER|QID|54940|M|60.96,53.58|Z|The Oblivion Door@Uldir!Dungeon|QO|1|NC|N|Activate the East Console. You don't have to stay and fight the blood globules if you can take the damage and run to the other console.|
+C Necessity is the MOTHER|QID|54940|M|41.09,53.12|Z|The Oblivion Door@Uldir!Dungeon|QO|2|NC|N|Activate the West Console. If its survivable, you can continue to ignore the blood globules and go turn in the quest.|
+T Necessity is the MOTHER|QID|54940|M|52.32,68.79|Z|The Oblivion Door@Uldir!Dungeon|N|To Magni Bronzebeard.|
+A A One-Way Ticket to the Heart|QID|54964|M|52.32,68.79|Z|The Oblivion Door@Uldir!Dungeon|N|From Magni Bronzebeard.|
+C A One-Way Ticket to the Heart|QID|54964|M|49.91,58.21|Z|The Oblivion Door@Uldir!Dungeon|QO|1|N|Fight the creatures from the void, culminating with K'thxx the Void Hunter to open the waygate.|
+C A One-Way Ticket to the Heart|QID|54964|M|50.76,53.72|Z|The Oblivion Door@Uldir!Dungeon|QO|2|NC|N|Click on MOTHER to Activate the Waygate and teleport to the Chamber of Heart.|
+T A One-Way Ticket to the Heart|QID|54964|M|50.19,53.72|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard. Thats all of this quest line for now. I'm sure there is more to come in a future patch. Hearth or take the portal out.|
+
 ; 4.5k Friendly with The 7th Legion
 A Operation: Blood Arrow|QID|53069|M|69.28,27.00|Z|Boralus|N|Autoaccepted.|O|REP|7th Legion;2159;friendly;4500|PRE|52146|
 T Operation: Blood Arrow|QID|53069|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Crippling the Horde|QID|52147|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|REP|7th Legion;2159;friendly;4500|PRE|52146|
-C Crippling the Horde|QID|52147|M|67.94,26.70|Z|Boralus|CHAT|N|Speak with Grand Admiral Jes-Tereth to said for Nazmir.|
+C Crippling the Horde|QID|52147|M|67.94,26.70|Z|Boralus|CHAT|N|Speak with Grand Admiral Jes-Tereth to sail for Nazmir.|
 T Crippling the Horde|QID|52147|M|61.96,41.22|Z|Nazmir|N|To Shandris Feathermoon.|
 A How to Kill a Dark Ranger|QID|52150|M|61.96,41.22|Z|Nazmir|N|From Shandris Feathermoon.|PRE|52147|
 C How to Kill a Dark Ranger|QID|52150|M|61.96,41.22|CHAT|Z|Nazmir|N|Talk with Shandris Feathermoon.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_zuldazar
+-- Date: 2019-03-18 20:52
+-- Who: Emmaleah
+-- Log: deleted out sections covered by Endgame Guide added J to same. Reworked Rares and Treasures Notes.
+
+-- URL: http://wow-pro.com/node/3762/revisions/30232/view
 -- Date: 2019-03-08 19:29
 -- Who: Emmaleah
 -- Log: Fixed some errors Essence noted on Discord (coordinates for Wavesinger Dezan, The Zocolo, and K Warmother and R Zandalar forever being visable when they shouldn't be)
@@ -196,7 +201,8 @@ N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasin
 t The Great Sea Scrolls|QID|53476|S!US|M|71.50,30.36|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
 N Use of Ranks|N|Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done with the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
 ;also most don't have thier QID for both QIDs. going to need to kill with a 120 and a non 120 to get that. (or wait for wowhead to have it - but it's not there now 8/12/18)
-N Rares (aka Silver Elite)|ACH|12944|N|Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it will direct you to kill them again. Check off manually if you choose not to.|
+N Rares (aka Silver Elite)|ACH|12944|N|Rares are not truely rare, they will respawn within a few minutes of being killed, so if it isn't there, stick around a minute or two and it will be. Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to. If you want the guide to not tell you about rares at all, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable rares box). |
+N Traesure|ACH|12851|N|The majority of the treasure chests in Zuldazar are first come, respawning randomly.  There are a few one time treasures, If you want the guide to skip treasures, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable treasures box).
 
 T Zuldazar|QID|47514|M|57.80,44.31|N|To Princess Talanji.|
 A Trust of a King|QID|49615|M|57.80,44.31|N|From Princess Talanji.|PRE|47514|
@@ -903,7 +909,7 @@ f Atal'Dazar|ACTIVE|50963|M|46.16,35.82|N|At Loz the Paku'ai.|
 H The Great Seal|ACTIVE|50963|M|46.16,35.82|N|Hearth (or fly) back to the Great Seal.|
 T Of Dark Deeds and Dark Days|QID|50963|M|41.22,66.92|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
 t Atal'Dazar: Yazma the Fallen Priestess|QID|49901|M|41.22,66.92|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
-A The Blood Gate|QID|47199|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|Baine Bloodhoof. This quest requires you have completed the zone achievement for Nazmir as well as Zandalar.|PRE|50963&50808|;not spurious - necesary for guide flow
+A The Blood Gate|QID|47199|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|Baine Bloodhoof. This quest requires you have completed the zone achievement for Nazmir as well as Zandalar. The completion of this quest is included in the end game storyline guide.|PRE|50963&50808|;not spurious - necesary for guide flow
 A Sandscar Breach|QID|49940|M|67.00,71.58|Z|Hall of Croniclers!Dazar'alor|N|From Natal'hakata.|RANK|2|
 A The Bones of Xibala|QID|47257|M|69.89,47.50|Z|Hall of Croniclers!Dazar'alor|N|From Chronicler To'kini.|RANK|3|
 
@@ -970,51 +976,10 @@ T Lil' Tika|QID|49681|M|47.33,25.14|N|To Beastmother Jabati.|
 
 ;A Bargain of Blood
 F The Sliver|ACTIVE|47199|M|49.74,26.27|N|At Paku'ai Rip'nata.|
-R Blood Gate|ACTIVE|47199|M|60.44,23.45|
-T The Blood Gate|QID|47199|M|60.38,22.02|N|To King Rastakhan.|
-A Ticks|QID|47200|M|60.38,22.02|N|From King Rastakhan.|PRE|47199|
-A They Want Us Alive|QID|47198|M|60.38,22.02|N|From King Rastakhan.|PRE|47199|
-C Ticks|QID|47200|M|59.58,19.46|S|N|Kill Bloodbelly Flyers as you look for captives to assist.|
-C They Want Us Alive|QID|47198|M|59.66,19.00|S|NC|N|Click on the Wounded Captives.|
-K Bloodbulge|QID|49267|M|59.99,18.16|QO|1|RARE|ITEM|161104|T|Bloodbulge|N|Silver Elite to kill for azerite power and resources.|RANK|2|
-C They Want Us Alive|QID|47198|M|59.66,19.00|US|NC|N|Finish rescuing the Wounded Captives.|
-C Ticks|QID|47200|M|59.58,19.46|US|N|Finish up your quota of Bloodbelly Flyers.|
-T Ticks|QID|47200|M|60.39,22.03|N|To King Rastakhan.|
-T They Want Us Alive|QID|47198|M|60.39,22.03|N|To King Rastakhan.|
-A Rokhan|QID|47201|M|60.39,22.03|N|From King Rastakhan.|PRE|47200&47198|
-C Rokhan|QID|47201|M|60.99,20.53|QO|1|V|N|Ride the Old Rotana|
-T Rokhan|QID|47201|M|56.92,19.10|N|To Rokhan.|
-A Warmother|QID|47205|M|56.92,19.10|N|From Rokhan.|PRE|47201|
-A The New Frontline|QID|47204|M|56.92,19.10|N|From Rokhan.|PRE|47201|
-C The New Frontline|QID|47204|M|57.08,20.68|S|N|Kill Blood Troll forces.|
-K Warmother Shazraka|ACTIVE|47205|M|58.02,18.19|QO|1|T|Warmother Shazraka|N|Kill Warmother Shazraka.|
-C The New Frontline|QID|47204|M|57.08,20.68|US|N|Finish your share of the Blood Troll forces.|
-T Warmother|QID|47205|M|56.92,19.11|N|To Rokhan.|
-T The New Frontline|QID|47204|M|56.92,19.11|N|To Rokhan.|
-A Bulwark of Torcali|QID|47229|M|56.92,19.11|N|From Rokhan.|PRE|47204&47205|
-C Bulwark of Torcali|QID|47229|M|56.90,19.73|NC|QO|1|N|Ride Old Rotana.|
-C Bulwark of Torcali|QID|47229|M|58.07,20.39|NC|QO|2|N|Destroy Blood Troll forces.\n1 is Cone AE\n2 is ligtning bolt, multi target\n3 is charge, must not be moving to use.|
-T Bulwark of Torcali|QID|47229|M|57.98,17.83|N|To Princess Talanji.|
-A Prepare for a Siege|QID|47258|M|60.05,22.23|N|From King Rastakhan.|PRE|47229|
-A Zandalar Forever!|QID|50954|M|60.05,22.23|N|From King Rastakhan.(requires all 3 zone achievements)|PRE|47229&50703|;not spurious -- prolly an ach instead of the quests, but the quests works.
-R Zandalar Forever!|ACTIVE|50954|M|60.05,22.23|TZ|The Sliver|CHAT|N|Talk to the King to start the scenario.|
-
-H The Great Seal|ACTIVE|-50954|N|Final Scenario requires you to have finished all three zone achievements, so if you don't, now is the time to hearth and go finish Voldun.|
-C Prepare the Assault|ACTIVE|50954|SO|1:1|V|N|Gather your forces and mount Old K'zlotec.|
-C Blood Troll Army slain|ACTIVE|50954|M|60.96,22.17|Z|Zuldazar!Instance|SO|2:1|N|Destroy the Nazmani invaders in the Sliver.\nAll three buttons are AE attacks.\n#3 requires a target.|
-C Secure the bridge to Dazar'alor|ACTIVE|50954|M|60.62,31.86|Z|Zuldazar!Instance|SO|3:1|NC|N|Secure the bridge to Dazar'alor.|
-C Reach the Zocalo|ACTIVE|50954|M|53.41,31.66|Z|Zuldazar!Instance|SO|4:1|V|N|Ride Pa'ku to the Zocalo.|
-C Liberate the Zocalo|ACTIVE|50954|M|54.75,35.43|Z|Zuldazar!Instance|SO|5:1|N|Rescue the civilians of the Zocalo and slay the sethrak army there.|
-C Reach Dazar'alor|ACTIVE|50954|M|54.75,35.98|Z|Zuldazar!Instance|SO|6:1|NC|N|Join Gonk and his pack at the bridge to Dazar'alor.|
-C Find King Rastakhan at the entrance to Dazar'alor.|ACTIVE|50954|M|55.27,38.09|Z|Zuldazar!Instance|SO|7:1|NC|N| Find King Rastakhan at the entrance to Dazar'alor.|
-C Reach Zul|ACTIVE|50954|M|57.90,40.60|Z|Zuldazar!Instance|SO|8:1|N|Keep going up stairs, until you find one blocked by the bluish flames. Go left and Wait for King Rastakhan before you fight Ma'da Renkala.  The scenario ends with a cutscene as you finish off Ma'da.|
-T Zandalar Forever!|QID|50954|M|49.94,46.63|Z|Dazar'alor|N|To King Rastakhan.|
-T Prepare for a Siege|QID|47258|M|41.33,72.50|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
-
-D The End.|N|This Concludes Zuldazar. The war campaign guide will automatically load when you check this step off. If instead you want to go elsewhere, select the next area and let that guide autoload.|
+J End Game Storyline Guide|QID|47199|N|To continue the storyline, click here to jump to the next guide.|GUIDE|EliEndgame|
+D The End.|N|This Concludes Zuldazar. The war campaign guide will automatically load when you check this step off. If instead you want to go elsewhere, select the next area and let that guide autoload.|GUIDE|EmmHWarCampaign|
 
 ]]
-
 end)
 
 
