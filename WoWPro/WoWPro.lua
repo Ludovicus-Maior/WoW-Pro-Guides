@@ -387,6 +387,9 @@ function WoWPro:OnInitialize()
 	if WoWProCharDB.AutoHideInsideInstances == nil then
 	    WoWProCharDB.AutoHideInsideInstances = true
 	end
+	if WoWProCharDB.AutoHideInCombat == nil then
+	    WoWProCharDB.AutoHideInCombat = false
+	end
 	if WoWProCharDB.EnablePetBattles == nil then
 	    WoWProCharDB.EnablePetBattles = true
 	end
