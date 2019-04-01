@@ -167,6 +167,7 @@ end
 -- Save Garrison Building Locations for the BUILDING tag
 function WoWPro.SaveGarrisonBuildings()
     local zone, mapId = WoWPro.GetZoneText()
+    -- NOTE:  This wont work right on non EnUS clients!  Use mapIds.
     if (zone == 'Lunarfall') or (zone == 'Frostwall') then
         WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
         -- We just moved into the zone
@@ -190,14 +191,15 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
 	if not WoWProCharDB.Guide then return end
-	
+	if not WoWProCharDB.Guide[GID] then return end
+	if not WoWProCharDB.Guide[GID].completion then return end
+
     WoWPro:dbp("Running: AutoCompleteQuestUpdate(questComplete=%s)",tostring(questComplete))
 
 	for i=1,#WoWPro.action do
-	
 		local action = WoWPro.action[i]
 		local completion = WoWProCharDB.Guide[GID].completion[i]
-	    
+
 		if WoWPro.QID[i] then
 			local numQIDs = select("#", string.split("^&", WoWPro.QID[i]))
 			for j=1,numQIDs do
