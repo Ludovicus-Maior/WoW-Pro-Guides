@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2019-05-14 21:38
+-- Who: Ludovicus_Maior
+-- Log: Remove broken copy/paste line.
+
+-- URL: http://wow-pro.com/node/3668/revisions/30001/view
 -- Date: 2018-10-17 02:29
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -641,7 +646,6 @@ A Frozen Memories|QID|46720|M|58.25,31.11|Z|Hall of Command@BrokenShore|N|From A
 C Frozen Memories|QID|46720|M|55.54,27.75|Z|Hall of Command@BrokenShore|QO|1|NC|N|Step onto the portal to Amal'thazod's right.|
 C Frozen Memories|QID|46720|M|47.58,52.03|Z|The Heart of Acherus@BrokenShore|QO|2|NC|N|Wait for the Lich King to tell his plan.|
 R Icecrown|QID|46720|N|Travel by your choice of methods to Northern Icecrown. Easiest is the Argent Tournament Tabard if you have it.  Lacking that, Go to Dalaran (Broken Shore) use the portal in Chamber of the Guardians to Wrymrest Temple. A third travel alternative is using the portal in your faction area of Dalaran(Broken Shore) to Pandaria where there is a portal to Dalaran(Northrend). Bribing a friendly mage is of course an option.|ACTIVE|46720|
-. Bribing a friendly mage is of course an option.|ACTIVE|46720|
 C Frozen Memories|QID|46720|M|44.70,4.40|Z|Icecrown|QO|3|NC|N|Land on an iceburg, north of The Shadow Vault and witness the Lich King's vision.|
 T Frozen Memories|QID|46720|M|44.70,4.40|Z|Icecrown|N|To UI Alert|
 A Draconic Secrets|QID|46812|M|44.70,4.40|Z|Icecrown|N|From UI Alert.|PRE|46720|
