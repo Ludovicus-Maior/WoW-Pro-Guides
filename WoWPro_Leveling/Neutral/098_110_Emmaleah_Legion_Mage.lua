@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3671
+-- Date: 2019-05-15 19:27
+-- Who: Ludovicus_Maior
+-- Log: Z tag updates
+
+-- URL: http://wow-pro.com/node/3671/revisions/30004/view
 -- Date: 2018-10-17 02:29
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -179,28 +184,28 @@ A Champion: Archmage Kalec|QID|42662|M|55.8,38.8|LVL|101|ACTIVE|42663|US|N|From/
 T Rise, Champions|QID|42663|LVL|101|M|60.4,36|N|To Meryl Felstorm.|
 
 A Technical Wizardry|QID|42703|PRE|41141|LVL|101|M|60.4,36.00|N|From Meryl Felstorm.|
-T Technical Wizardry|QID|42703|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-A Archmage Omniara|QID|42126|PRE|42703|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-C Archmage Omniara|QID|42126|LVL|101|M|81.37,60.86|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|Use the Scouting Map to complete the mission "Archmage Omniara".|
-T Archmage Omniara|QID|42126|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-A Building Our Troops|QID|42127|PRE|42126|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-C Building Our Troops|QID|42127|LVL|101|M|87.88,47.50|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|Recruit a water elemental from Archmage Omniara, Click on water banner to pick up. (The first one is nearly instant).  Remaining water elementals will take 30 minutes each to train (recruit.) Recruit the other two that are available.|
-T Building Our Troops|QID|42127|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-A Troops in the Field|QID|42687|PRE|42127|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-C Troops in the Field|QID|42687|LVL|101|M|81.37,60.86|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|Use the scouting map to send your followers on the "Troops in the Field" mission.|
-t Troops in the Field|QID|42687|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-A Tech It Up A Notch|QID|42696|PRE|42687|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-C Tech It Up A Notch|QID|42696|LVL|101|M|74.88,28.88|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|Talk to Chronicler Elrianne and pick an order hall upgrade.|
-t Tech It Up A Notch|QID|42696|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-A Ancient Magic|QID|42433|PRE|42696|M|83.44,55.01|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Archmage Vargoth, who paces.|LVL|101|
-C Ancient Magic|QID|42433|M|81.37,60.86|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|NC|
-t Ancient Magic|QID|42433|M|80.92,63.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+T Technical Wizardry|QID|42703|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+A Archmage Omniara|QID|42126|PRE|42703|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+C Archmage Omniara|QID|42126|LVL|101|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Use the Scouting Map to complete the mission "Archmage Omniara".|
+T Archmage Omniara|QID|42126|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+A Building Our Troops|QID|42127|PRE|42126|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+C Building Our Troops|QID|42127|LVL|101|M|87.88,47.50|Z|Hall of the Guardian!Dungeon|N|Recruit a water elemental from Archmage Omniara, Click on water banner to pick up. (The first one is nearly instant).  Remaining water elementals will take 30 minutes each to train (recruit.) Recruit the other two that are available.|
+T Building Our Troops|QID|42127|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+A Troops in the Field|QID|42687|PRE|42127|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+C Troops in the Field|QID|42687|LVL|101|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Use the scouting map to send your followers on the "Troops in the Field" mission.|
+t Troops in the Field|QID|42687|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+A Tech It Up A Notch|QID|42696|PRE|42687|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+C Tech It Up A Notch|QID|42696|LVL|101|M|74.88,28.88|Z|Hall of the Guardian!Dungeon|N|Talk to Chronicler Elrianne and pick an order hall upgrade.|
+t Tech It Up A Notch|QID|42696|LVL|101|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+A Ancient Magic|QID|42433|PRE|42696|M|83.44,55.01|Z|Hall of the Guardian!Dungeon|N|From Archmage Vargoth, who paces.|LVL|101|
+C Ancient Magic|QID|42433|M|81.37,60.86|Z|Hall of the Guardian!Dungeon|N|Send your followers on the mission "Ancient Magic". This is a very short mission.|NC|
+t Ancient Magic|QID|42433|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
 
-A Recruiting Apprentices|QID|44098|PRE|42433|LVL|103|M|80.92,63.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-C Recruiting Apprentices|QID|44098|LVL|103|M|47.77,32.02|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
-T Recruiting Apprentices|QID|44098|LVL|103|M|47.77,32.02|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Grand Conjurer Mimic.|
+A Recruiting Apprentices|QID|44098|PRE|42433|LVL|103|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+C Recruiting Apprentices|QID|44098|LVL|103|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|Go talk to Grand Conjurer Mimic to recuit better followers.|
+T Recruiting Apprentices|QID|44098|LVL|103|M|47.77,32.02|Z|Hall of the Guardian!Dungeon|N|To Grand Conjurer Mimic.|
 
-A An Unexpected Visitor|QID|42418|M|80.92,63.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Archmage Melis.|PRE|42433|LVL|103|
+A An Unexpected Visitor|QID|42418|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|PRE|42433|LVL|103|
 T An Unexpected Visitor|QID|42418|M|61.82,60.00|Z|The Guardian's Library@MageClassShrine|N|To Ravandwyr.|
 A A Covert Operation|QID|42434|M|61.82,60.00|Z|The Guardian's Library@MageClassShrine|N|From Ravandwyr.|PRE|42418|
 C A Covert Operation|QID|42434|M|64.9,37.8|Z|Azsuna|N|Go to Azsuna and find him at the Empyrean Society. (nearest flightpath is Felblaze Ingress)|
@@ -248,9 +253,9 @@ C Archmage Vargoth's Retreat|QID|42423|M|21.68,56.84|Z|Dalaran!Dalaran!Dungeon|Q
 C Archmage Vargoth's Retreat|QID|42423|M|22.70,57.50|Z|Dalaran!Dalaran!Dungeon|QO|4|N|Examine the crystal ball.|
 T Archmage Vargoth's Retreat|QID|42423|M|22.21,55.11|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Kalec.|
 A Following In His Footsteps|QID|42424|M|22.21,55.11|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Kalec.|PRE|42423|
-C Following In His Footsteps|QID|42424|M|80.82,60.64|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|"Archmage Vargoth's Travels" missions Completed. Manually check this off to move thru the guide before the missions are complete.|
-t Following In His Footsteps|QID|42424|M|80.89,62.80|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-A Kalec's Plan|QID|42451|M|80.89,62.80|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Archmage Melis.|LVL|110|PRE|42424|
+C Following In His Footsteps|QID|42424|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|N|"Archmage Vargoth's Travels" missions Completed. Manually check this off to move thru the guide before the missions are complete.|
+t Following In His Footsteps|QID|42424|M|80.89,62.80|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+A Kalec's Plan|QID|42451|M|80.89,62.80|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|LVL|110|PRE|42424|
 T Kalec's Plan|QID|42451|M|29.26,87.96|Z|Suramar|N|To Kalecgos.|
 A Not A Toothless Dragon|QID|42508|M|29.26,87.96|Z|Suramar|N|From Kalecgos.|PRE|42451|
 C Not A Toothless Dragon|QID|42508|M|34.16,83.46|Z|Suramar|N|Ride Kalecgos.|
@@ -278,27 +283,27 @@ $ Treasure Chest|QID|99999|M|38.65,43.42|Z|Suramar/24|N|Loot Protected Treasure|
 T A Terrible Loss|QID|42520|M|70.89,55.31|Z|The Guardian's Library@MageClassShrine|N|To Archmage Khadgar.|
 A A Magical Affliction|QID|42707|M|73.41,56.15|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42520|
 A When There's a Will, There's a Way|QID|42940|M|73.41,56.15|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar.  (Champion Missions)|PRE|42520|
-C When There's a Will, There's a Way|QID|42940|M|80.82,60.64|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|NC|N|Send your followers on "Oculus" missions. Check this off manualy to progress your guide before all 5 missions are completed.|
-t When There's a Will, There's a Way|QID|42940|M|71.63,55.72|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Archamge Khadgar|
+C When There's a Will, There's a Way|QID|42940|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|NC|N|Send your followers on "Oculus" missions. Check this off manualy to progress your guide before all 5 missions are completed.|
+t When There's a Will, There's a Way|QID|42940|M|71.63,55.72|Z|Hall of the Guardian!Dungeon|N|To Archamge Khadgar|
 A Into the Oculus|QID|42734|LVL|110|M|71,55.4|N|From Archmage Khadgar.|PRE|42940|
 R Into the Oculus|QID|42734|LVL|110|M|71,55.4|N|Talk to Khadgar to start the scenario.|ACTIVE|42734|
 t Into the Oculus|QID|42734|LVL|110|M|71,55.4|N|To Archmage Khadgar.|
 A Champion: Meryl Felstorm|QID|42914|M|71.4,61.8|N|From/To Meryl Felstorm|LVL|110|PRE|42734|
 
-A A Small Favor|QID|42954|PRE|42734|M|37.8,49.8|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Archmage Khadgar.|LVL|110|
-T A Small Favor|QID|42954|M|37.8,49.8|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Ari.|
-A The Proper Way of Things|QID|42955|M|37.8,49.8|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Ari.|PRE|42954|
+A A Small Favor|QID|42954|PRE|42734|M|37.8,49.8|Z|Hall of the Guardian!Dungeon|N|From Archmage Khadgar.|LVL|110|
+T A Small Favor|QID|42954|M|37.8,49.8|Z|Hall of the Guardian!Dungeon|N|To Ari.|
+A The Proper Way of Things|QID|42955|M|37.8,49.8|Z|Hall of the Guardian!Dungeon|N|From Ari.|PRE|42954|
 C The Proper Way of Things|QID|42955|M|46.11,73.75|Z|Suramar|U|138965|N|Collect Phials of Nightwell Energy.|
-T The Proper Way of Things|QID|42955|M|37.64,48.00|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Ari.|
-A Ari's Package|QID|42956|M|37.64,48.00|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Ari.|PRE|42955|
+T The Proper Way of Things|QID|42955|M|37.64,48.00|Z|Hall of the Guardian!Dungeon|N|To Ari.|
+A Ari's Package|QID|42956|M|37.64,48.00|Z|Hall of the Guardian!Dungeon|N|From Ari.|PRE|42955|
 T Ari's Package|QID|42956|M|73.05,56.76|Z|The Guardian's Library@MageClassShrine|N|To Archmage Khadgar.|
 A Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@MageClassShrine|N|From Archmage Khadgar. (Dungeon Quest)|PRE|42956|
 t Three Is a Lucky Number|QID|42959|M|73.05,56.76|Z|The Guardian's Library@MageClassShrine|N|To Ari. (Dungeon Quest)|PRE|42956|
 
 A An Unclear Path|QID|44466|M|84.63,46.53|Z|The Guardian's Library@MageClassShrine|N|From Light's Heart {Xe'ra}.|PRE|42940|
 C An Unclear Path|QID|44466|M|45.35,34.15|Z|Val'sharah|N|Witness Illidan's Resilience.|
-T An Unclear Path|QID|44466|M|83.40,32.72|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Light's Heart {Xe'ra}|
-A Ravencrest's Legacy|QID|44479|M|83.40,32.72|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Light's Heart {Xe'ra}|PRE|44466|
+T An Unclear Path|QID|44466|M|83.40,32.72|Z|Hall of the Guardian!Dungeon|N|To Light's Heart {Xe'ra}|
+A Ravencrest's Legacy|QID|44479|M|83.40,32.72|Z|Hall of the Guardian!Dungeon|N|From Light's Heart {Xe'ra}|PRE|44466|
 F Ravencrest's Legacy|QID|44479|ACTIVE|44479|M|66.87,45.53|N|Experience Ravencrest's Legacy, Fly to Bradensbrook, or use your Teleportation Nexus: Val'sharah|
 R Ravencrest's Legacy|QID|44479|ACTIVE|44479|M|41.79,46.84|Z|Val'sharah|N|Upper level, of Ravencourt, Right side after you cross bridge.|
 C Surrounded by Darkness|QID|44479|Z|BlackRookHoldScenario|SO|1|N|Report to Kur'talos Ravencrest.|
@@ -310,12 +315,12 @@ C True Sacrifice|Z|Black Rook Hold|QID|44479|SO|6|N|Destroy the Nihilam Portal a
 C When Good Men Do Nothing|QID|44479|M|42.31,48.84|Z|BlackRookHoldScenario|SO|7;1|N|Enter Raven's Glory and destroy the Colossal Siegebreaker.|
 C Ravencrest's Legacy|QID|44479|M|42.31,48.84|Z|BlackRookHoldScenario|QO|1|N|Experience Ravencrest's Legacy|
 C A Personal Touch|QID|40562|QO|2|N|Port back to your Hall.|
-T Ravencrest's Legacy|QID|44479|M|83.63,33.20|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Light's Heart {Xe'ra}.|
+T Ravencrest's Legacy|QID|44479|M|83.63,33.20|Z|Hall of the Guardian!Dungeon|N|To Light's Heart {Xe'ra}.|
 
-A In My Father's House|QID|44480|PRE|44479|M|83.24,32.91|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Light's Heart.|
+A In My Father's House|QID|44480|PRE|44479|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|N|From Light's Heart.|
 C In My Father's House|QID|44480|M|32.78,49.97|Z|Azshara|QO|1|N|Witness Illidan's Resilience|U|226968| ; will U accept a spellid?
-T In My Father's House|QID|44480|M|83.24,32.91|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Light's Heart|
-A Destiny Unfulfilled|QID|44496|PRE|44479|M|83.24,32.91|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Light's Heart|
+T In My Father's House|QID|44480|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|N|To Light's Heart|
+A Destiny Unfulfilled|QID|44496|PRE|44479|M|83.24,32.91|Z|Hall of the Guardian!Dungeon|N|From Light's Heart|
 C Destiny Unfulfilled|QID|44496|QO|Experience True Betrayal|U|226973|N|Use the call button|
 C His Duplicity is Hardly Surprising|Z|Black Temple|SO|1|S|N|Confront Akama.|ACTIVE|44496|
 C Confront Akama.|M|52.70,71.26|Z|70BlackTempleLegion/1|SO|1;2|N|Confront Akama.|ACTIVE|44496|
@@ -336,17 +341,17 @@ C The Huntress|Z|Black Temple|SO|6|S|N|Defeat Maiev|ACTIVE|44496|
 C Defeat Maiev|M|60.17,67.61|Z|70BlackTempleLegion/1|SO|6;1|N|Defeat Maiev|ACTIVE|44496|
 C The Huntress|Z|Black Temple|SO|6|US|N|nil|ACTIVE|44496|
 C Destiny Unfulfilled|QID|44496|M|59.82,67.25|Z|70BlackTempleLegion/1|QO|1|N|Experience True Betrayal|
-T Destiny Unfulfilled|QID|44496|M|83.62,32.71|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Light's Heart|
+T Destiny Unfulfilled|QID|44496|M|83.62,32.71|Z|Hall of the Guardian!Dungeon|N|To Light's Heart|
 ;these need put in proper place
 A Orange is the New Purple|QID|44240|PRE|44496|LVL|110|M|45.4,57.2|N|From Jackson Watkins.|
 A Champion: Millhouse Manastorm|QID|42702|PRE|44240|LVL|110|M|56.2,57.8|N|From/To Millhouse Manastorm.|
 A Champion: Archmage Vargoth|QID|42917|PRE|44240|LVL|110|M|70.2,60.4|N|From/To Archmage Vargoth.|
-A Champion: Arcane Destroyer|QID|42704|PRE|44240|LVL|110|M|38.4,48.4|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From/To Arcane Destroyer.|
+A Champion: Arcane Destroyer|QID|42704|PRE|44240|LVL|110|M|38.4,48.4|Z|Hall of the Guardian!Dungeon|N|From/To Arcane Destroyer.|
 
 ; if you pick the talent for Arcane Armements you get this one....
-A Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Minuette.|O|
-C Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|Place a work order for Champion armaments.|
-T Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Minuette.|
+A Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Dungeon|N|From Minuette.|O|
+C Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Dungeon|N|Place a work order for Champion armaments.|
+T Portal Full of Shiny Things|QID|44207|M|82.32,57.04|Z|Hall of the Guardian!Dungeon|N|To Minuette.|
 ;2nd artifact
 A A Second Weapon|QID|43441|LVL|102|M|60.4,36|N|From Meryl Felstorm.|PRE|42175|
 C A Second Weapon|QID|43441|LVL|102|M|60.4,36|N|Pick the artifact you want to pursue next.|
@@ -422,13 +427,13 @@ T The Frozen Flame|QID|11997|M|28.45,48.97|Z|Dalaran!Dalaran!Dungeon|N|To Archma
 
 ;FROST
 ;A Finding Ebonchill|QID|42452|M|59.19,42.95|N|From Meryl Felstorm.|PRE|41085|
-C Finding Ebonchill|QID|42452|M|52.67,41.83;59.25,34.69;66.52,40.47|Z|The Guardian's Library!Hall of the Guardian!Dungeon|CS|QO|1|NC|N|Find information on Arrexis|
-C Finding Ebonchill|QID|42452|M|59.17,42.94|Z|The Guardian's Library!Hall of the Guardian!Dungeon|QO|2|N|Speak with Meryl|CHAT|
-T Finding Ebonchill|QID|42452|M|59.16,43.05|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
-A The Deadwind Site|QID|42476|M|59.17,42.94|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42452|
-A Daio the Decrepit|QID|42477|M|59.17,42.94|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42452|
-A Alodi's Gems|QID|42455|M|60.79,43.21|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|From Alodi.|PRE|42452|
-R Portal to Dalaran|QID|42455|M|62.63,51.62|Z|The Guardian's Library!Hall of the Guardian!Dungeon|CC|N|Use the portal to get back to Dalaran.|ACTIVE|42455|
+C Finding Ebonchill|QID|42452|M|52.67,41.83;59.25,34.69;66.52,40.47|Z|The Guardian's Library@Hall of the Guardian!Dungeon|CS|QO|1|NC|N|Find information on Arrexis|
+C Finding Ebonchill|QID|42452|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|QO|2|N|Speak with Meryl|CHAT|
+T Finding Ebonchill|QID|42452|M|59.16,43.05|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
+A The Deadwind Site|QID|42476|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42452|
+A Daio the Decrepit|QID|42477|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42452|
+A Alodi's Gems|QID|42455|M|60.79,43.21|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Alodi.|PRE|42452|
+R Portal to Dalaran|QID|42455|M|62.63,51.62|Z|The Guardian's Library@Hall of the Guardian!Dungeon|CC|N|Use the portal to get back to Dalaran.|ACTIVE|42455|
 C Alodi's Gems|QID|42455|M|51.73,19.05|Z|Dalaran!Dalaran!Dungeon|QO|1|NC|N|Go to the Bank of Dalaran.|
 C Alodi's Gems|QID|42455|M|51.49,18.68|Z|Dalaran!Dalaran!Dungeon|QO|2|NC|N|Speak with Glutonia.|
 C Alodi's Gems|QID|42455|M|54.69,16.39|Z|Dalaran!Dalaran!Dungeon|QO|3|NC|N|Enter Alodi's personal vault.|
@@ -444,10 +449,10 @@ C Daio the Decrepit|QID|42477|M|32.27,44.57|Z|Blasted Lands|QO|2|NC|N|Fly to the
 C Daio the Decrepit|QID|42477|M|32.45,45.10|Z|Blasted Lands|QO|3|CHAT|N|Speak with Daio|
 C Daio the Decrepit|QID|42477|M|32.48,45.09|Z|Blasted Lands|QO|4|N|Daio summons some demons as a challenge. Kill them.|
 C Daio the Decrepit|QID|42477|M|32.48,45.09|Z|Blasted Lands|QO|5|NC|N|Listen to him talk, eventually he gives you the Demon Stone.|
-T Alodi's Gems|QID|42455|M|60.79,43.21|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|Teleport back to the Hall of the Guardian to turn in to Alodi.|
-T The Deadwind Site|QID|42476|M|59.17,42.94|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
-T Daio the Decrepit|QID|42477|M|59.17,42.94|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
-A The Mage Hunter|QID|42479|M|59.17,42.94|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42455&42476&42477|
+T Alodi's Gems|QID|42455|M|60.79,43.21|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|Teleport back to the Hall of the Guardian to turn in to Alodi.|
+T The Deadwind Site|QID|42476|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
+T Daio the Decrepit|QID|42477|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
+A The Mage Hunter|QID|42479|M|59.17,42.94|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42455&42476&42477|
 P Dalaran|QID|42479|N|Take the portal out to Dalaran.|ACTIVE|42479|
 C The Mage Hunter|QID|42479|M|69.83,51.13|Z|Dalaran!Dalaran!Dungeon|QO|1|CHAT|N|Take the hippogryph in Dalaran to Faronaar.|
 R Faronaar|ACTIVE|42479|M|30.51,44.99|Z|Azsuna|N|Enjoy your flight.|
@@ -459,22 +464,22 @@ C "Complete" the ritual.|QID|42479|M|27.66,50.63|Z|Azsuna|SO|4;1|N|Use the Ritua
 C Wait for Balaadur's ambush.|QID|42479|M|27.60,50.93|Z|Azsuna|SO|4;2|N|Use the Ritual Focus whenever possible to complete the ritual and wait for Balaadur's ambush.|
 C Slay Balaadur.|QID|42479|M|67.15,92.89|Z|Azsuna|SO|5;1|N|Slay Balaadur.|
 C The Mage Hunter|QID|42479|M|67.04,92.73|Z|Azsuna|QO|2|N|Pick up Ebonchill. Use the portals to go back home.|
-T The Mage Hunter|QID|42479|M|56.57,33.95|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
+T The Mage Hunter|QID|42479|M|56.57,33.95|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|To Meryl Felstorm.|
 
 ;Mage Class Hall
-A The Great Akazamzarak|QID|41112|M|56.63,33.82|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42001^40267^42452|
-C The Great Akazamzarak|QID|41112|M|57.35,90.48|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|QO|1|NC|N|(Optional) Portal to Dalaran Taken|
+A The Great Akazamzarak|QID|41112|M|56.63,33.82|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|42001^40267^42452|
+C The Great Akazamzarak|QID|41112|M|57.35,90.48|Z|Hall of the Guardian!Dungeon|QO|1|NC|N|(Optional) Portal to Dalaran Taken|
 C The Great Akazamzarak|QID|41112|M|48.41,63.32|Z|Dalaran!Dalaran!Dungeon|QO|2|NC|N|You can find him by the statue in front of the south bank, click on his bucket to bribe him.|
 T The Great Akazamzarak|QID|41112|M|48.50,63.41|Z|Dalaran!Dalaran!Dungeon|N|To The Great Akazamzarak.|
 A The Only Way to Travel|QID|41113|M|48.50,63.41|Z|Dalaran!Dalaran!Dungeon|N|From The Great Akazamzarak.|PRE|41112|
-T The Only Way to Travel|QID|41113|M|56.63,33.82|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|Take the portal he created and then turn in to Meryl Felstorm.|
-A The Tirisgarde Reborn|QID|41124|M|60.51,34.49|Z|The Guardian's Library!Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|41113|
-C The Tirisgarde Reborn|QID|41124|M|60.51,34.49|Z|The Guardian's Library!Hall of the Guardian!Dungeon|NC|N|Watch and listen, eventually you will receive your new title.|
-T The Tirisgarde Reborn|QID|41124|M|82.61,60.26|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To The Great Akazamzarak, on the first floor.|
-A A Conjuror's Duty|QID|41141|M|81.54,60.35|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From The Great Akazamzarak.|PRE|41124|
-A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|81.61,60.26|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41141|
-T A Conjuror's Duty|QID|41141|M|81.66,60.14|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To The Great Akazamzarak.|
-C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|57.37,90.31|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|QO|1|N|Use the portal on the first floor to travel to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
+T The Only Way to Travel|QID|41113|M|56.63,33.82|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|Take the portal he created and then turn in to Meryl Felstorm.|
+A The Tirisgarde Reborn|QID|41124|M|60.51,34.49|Z|The Guardian's Library@Hall of the Guardian!Dungeon|N|From Meryl Felstorm.|PRE|41113|
+C The Tirisgarde Reborn|QID|41124|M|60.51,34.49|Z|The Guardian's Library@Hall of the Guardian!Dungeon|NC|N|Watch and listen, eventually you will receive your new title.|
+T The Tirisgarde Reborn|QID|41124|M|82.61,60.26|Z|Hall of the Guardian!Dungeon|N|To The Great Akazamzarak, on the first floor.|
+A A Conjuror's Duty|QID|41141|M|81.54,60.35|Z|Hall of the Guardian!Dungeon|N|From The Great Akazamzarak.|PRE|41124|
+A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|81.61,60.26|Z|Hall of the Guardian!Dungeon|N|From Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|41141|
+T A Conjuror's Duty|QID|41141|M|81.66,60.14|Z|Hall of the Guardian!Dungeon|N|To The Great Akazamzarak.|
+C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|57.37,90.31|Z|Hall of the Guardian!Dungeon|QO|1|N|Use the portal on the first floor to travel to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
 
 ; LVL 110 Quests
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|PRE|44337^44338|
@@ -486,10 +491,10 @@ T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran!Dalaran!Dungeon|N|To Arc
 ; Added on 3/14/2017
 
 A An Urgent Warning|QID|45997|LVL|110|M|61.61,27.94|N|From Injured Conjuror.|
-T An Urgent Warning|QID|45997|M|80.92,63.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Archmage Melis.|
-A Investigate the Broken Shore|QID|45998|PRE|45997|M|80.92,63.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|From Archmage Melis.|
-C Menace on the Broken Shore|QID|45998|M|80.82,60.64|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|Use Command Board to send on Mission.|
-t Investigate the Broken Shore|QID|45998|M|80.92,63.04|Z|Hall of the Guardian!Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+T An Urgent Warning|QID|45997|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
+A Investigate the Broken Shore|QID|45998|PRE|45997|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|From Archmage Melis.|
+C Menace on the Broken Shore|QID|45998|M|80.82,60.64|Z|Hall of the Guardian!Dungeon|N|Use Command Board to send on Mission.|
+t Investigate the Broken Shore|QID|45998|M|80.92,63.04|Z|Hall of the Guardian!Dungeon|N|To Archmage Melis.|
 
 ; more quests, I'm sure.
 
