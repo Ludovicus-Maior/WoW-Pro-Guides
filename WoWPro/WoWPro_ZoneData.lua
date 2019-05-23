@@ -3,7 +3,7 @@
 ----------------------------------
 
 local DefineZone = WoWPro.DefineZone  -- While we patch up the guides for 8.0
-local DefineZone1 = WoWPro.DefineZone1 -- New 8.1 style names
+local DefineZone1 = WoWPro.DefineZone1 -- New Classic style names
 local DefineZone8 = WoWPro.DefineZone8 -- New 8.1 style names
 
 
