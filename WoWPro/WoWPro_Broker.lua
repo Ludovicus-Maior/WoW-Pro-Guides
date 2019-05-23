@@ -801,8 +801,11 @@ function WoWPro:RowUpdate(offset)
 			table.insert(dropdown,
 				{text = step.." Options", isTitle = true}
 			)
-			QuestMapUpdateAllQuests()
-			QuestPOIUpdateIcons()
+			if not WoWPro.CLASSIC then
+			    -- TODO: Is this needed at all?
+			    QuestMapUpdateAllQuests()
+			    QuestPOIUpdateIcons()
+			end
 			local _, x, y, obj
 			if QID and tonumber(QID) then
 			    _, x, y, obj = QuestPOIGetIconInfo(tonumber(QID))

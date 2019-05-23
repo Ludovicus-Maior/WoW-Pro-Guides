@@ -438,7 +438,7 @@ function WoWPro:MapPoint(row)
 
 	-- Loading Blizzard Coordinates for this objective, if coordinates aren't provided --
 	if (WoWPro.action[i]=="T" or WoWPro.action[i]=="C") and WoWPro.QID and WoWPro.QID[i] and not coords then
-	    if not WoWPro.CLASSIC
+	    if not WoWPro.CLASSIC then
 	        -- TODO: Is this needed at all?
 		    QuestMapUpdateAllQuests()
 		    QuestPOIUpdateIcons()
