@@ -468,7 +468,9 @@ function WoWPro:OnEnable()
 	WoWPro:dbp("Registering Events: Core Addon")
 	WoWPro:RegisterEvents(nil)
 	WoWPro:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
-	WoWPro:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
+	if not WoWPro.CLASSIC then
+	    WoWPro:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
+	end
 	WoWPro:RegisterBucketEvent({"LOOT_CLOSED"}, 0.250, WoWPro.AutoCompleteChest)
 	WoWPro:RegisterBucketEvent({"TRADE_SKILL_LIST_UPDATE"}, 0.250, WoWPro.ScanTrade)
 	WoWPro:RegisterBucketMessage("WoWPro_LoadGuide",0.25,WoWPro.LoadGuideReal)
@@ -647,7 +649,7 @@ function WoWPro:Timeless()
 end
 
 
-function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction)
+function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, release)
     if not WoWPro[gtype] then
         WoWPro:Error("WoWPro:RegisterGuide(%s,%s,...) has bad gtype",GIDvalue,tostring(gtype))
     end
@@ -666,6 +668,11 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction)
 
     if faction and faction ~= UnitFactionGroup("player") and faction ~= "Neutral" then
         -- If the guide is not of the correct side, don't register it
+        return guide
+    end
+
+    if (release == 1 and (not WoWPro.CLASSIC)) or (WoWPro.CLASSIC and ( release ~= 1)) then
+        -- Classic (i.e. release 1) guide selection
         return guide
     end
 
@@ -1052,7 +1059,7 @@ function WoWPro:ResolveIcon(guide)
     if guide['icon'] then
         return
     end
-    if guide['ach'] then
+    if guide['ach'] and not WoWPro.CLASSIC then
         local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(guide.ach)
         guide.icon = icon
         return
@@ -1225,12 +1232,13 @@ end
 
 --- Release Function Compatability Section
 local wversion, wbuild, wdata, winterface = GetBuildInfo()
+WoWPro.CLASSIC = (winterface < 20000 and winterface > 11300)
 WoWPro.MOP = (winterface >= 50000)
 WoWPro.WOD = (winterface >= 60000)
 WoWPro.WOL = (winterface >= 70000)
 WoWPro.NewLevels = (wversion == "7.3.5" or (winterface > 70300))
 
-if WoWPro.MOP then
+if WoWPro.MOP or WoWPro.CLASSIC then
     WoWPro.GetNumPartyMembers = GetNumGroupMembers
 else
     WoWPro.GetNumPartyMembers = GetNumPartyMembers
