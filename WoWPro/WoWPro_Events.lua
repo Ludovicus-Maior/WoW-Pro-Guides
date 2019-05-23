@@ -366,6 +366,13 @@ WoWPro.RegisterEventHandler("UNIT_AURA", function (event, ...)
     end
     end)
 
+WoWPro.RegisterModernEventHandler("UNIT_AURA", function (event, ...)
+    if WoWPro.CLASSIC then return end
+    if not WoWPro.MaybeCombatLockdown() then
+        WoWPro.AutoCompleteBuff(...)
+    end
+    end)
+
 -- Naughty People!
 WoWPro.RegisterEventHandler("ADDON_ACTION_FORBIDDEN", function (event,...)
     -- Its has been logged by LogEvent, so just return
@@ -437,21 +444,21 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED_INDOORS", WoWPro.ZONE_CHANGED)
 WoWPro.RegisterEventHandler("ZONE_CHANGED_NEW_AREA", WoWPro.ZONE_CHANGED)
 
 -- Scenario Tracking
-WoWPro.RegisterEventHandler("SCENARIO_UPDATE", function (event,...)
+WoWPro.RegisterModernEventHandler("SCENARIO_UPDATE", function (event,...)
     WoWPro.ProcessScenarioStage(...)
     WoWPro:UpdateGuide(event)
     end)
 
-WoWPro.RegisterEventHandler("SCENARIO_CRITERIA_UPDATE", function (event,...)
+WoWPro.RegisterModernEventHandler("SCENARIO_CRITERIA_UPDATE", function (event,...)
     WoWPro.ProcessScenarioCriteria(false)
     WoWPro:UpdateGuide(event)
     end)
 
-WoWPro.RegisterEventHandler("CRITERIA_COMPLETE",WoWPro.SCENARIO_CRITERIA_UPDATE)
+WoWPro.RegisterModernEventHandler("CRITERIA_COMPLETE",WoWPro.SCENARIO_CRITERIA_UPDATE)
 
 
 -- Noticing if we are doing a pet battle!
-WoWPro.RegisterEventHandler("PET_BATTLE_OPENING_START", function (event,...)
+WoWPro.RegisterModernEventHandler("PET_BATTLE_OPENING_START", function (event,...)
 	local guidetype = "WoWPro"
 	local battleHide = false
 
@@ -470,11 +477,11 @@ WoWPro.RegisterEventHandler("PET_BATTLE_OPENING_START", function (event,...)
 --	WoWPro.RegisterAllEvents()
     end)
 
-WoWPro.RegisterEventHandler("PET_BATTLE_PET_ROUND_RESULTS", function (event,...)
+WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_ROUND_RESULTS", function (event,...)
     WoWPro:UpdateGuide(event)
     end)
 
-WoWPro.RegisterEventHandler("PET_BATTLE_PET_CHANGED", function (event,team)
+WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_CHANGED", function (event,team)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
     if team == 1 and WoWPro.switch and WoWPro.switch[qidx] == 0 then
         -- Waiting for forced swap.
@@ -483,15 +490,15 @@ WoWPro.RegisterEventHandler("PET_BATTLE_PET_CHANGED", function (event,team)
     end)
 
 
-WoWPro.RegisterEventHandler("PET_BATTLE_FINAL_ROUND", function (event,...)
+WoWPro.RegisterModernEventHandler("PET_BATTLE_FINAL_ROUND", function (event,...)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
     local winner = ...
     WoWPro.ProcessFinalRound(winner, qidx)
     end)
 
-WoWPro.RegisterEventHandler("PET_BATTLE_OVER", function (event,...) return; end)
+WoWPro.RegisterModernEventHandler("PET_BATTLE_OVER", function (event,...) return; end)
 
-WoWPro.RegisterEventHandler("PET_BATTLE_CLOSE", function (event,...)
+WoWPro.RegisterModernEventHandler("PET_BATTLE_CLOSE", function (event,...)
     if WoWPro.Hidden then
 		WoWPro.MainFrame:Show()
 		WoWPro.Titlebar:Show()
