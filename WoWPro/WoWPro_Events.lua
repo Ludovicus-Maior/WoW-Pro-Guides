@@ -359,6 +359,12 @@ function WoWPro.RegisterEventHandler(event, handler)
 	WoWPro[event] = handler
 end
 
+function WoWPro.RegisterModernEventHandler(event, handler)
+    if WoWPro.CLASSIC then return end
+	WoWPro.EventTable[event] = true
+	WoWPro[event] = handler
+end
+
 
 WoWPro.RegisterEventHandler("UNIT_AURA", function (event, ...)
     if not WoWPro.MaybeCombatLockdown() then
@@ -367,7 +373,6 @@ WoWPro.RegisterEventHandler("UNIT_AURA", function (event, ...)
     end)
 
 WoWPro.RegisterModernEventHandler("UNIT_AURA", function (event, ...)
-    if WoWPro.CLASSIC then return end
     if not WoWPro.MaybeCombatLockdown() then
         WoWPro.AutoCompleteBuff(...)
     end
