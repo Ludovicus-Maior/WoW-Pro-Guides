@@ -486,7 +486,11 @@ function WoWPro:MapPoint(row)
 	local zm = nil
 	if zone then
 	    zone, zm = WoWPro:ValidZone(zone)
-	    WoWPro:dbp("MapPoint: zone [%s] mapped to %d", zone, zm)
+	    if zone and zm then
+            WoWPro:dbp("MapPoint: zone [%s] mapped to %d", zone, zm)
+        else
+            WoWPro:dbp("MapPoint: could not map zone [%s]", zone)
+        end
     end
 
     if not zm then
