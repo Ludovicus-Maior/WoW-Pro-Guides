@@ -654,7 +654,7 @@ function WoWPro:CreateMiniMapButton()
 
 	WoWPro.MinimapButton = ldb:NewDataObject("WoW-Pro", {
 		type = "launcher",
-		icon = "Interface\\Icons\\Achievement_WorldEvent_Brewmaster",
+		icon = "Interface\\Addons\\WoWPro\\Textures\\Brewmaster",
 		OnClick = function(clickedframe, button)
 			if button == "LeftButton" then
 				if WoWProCharDB.Enabled then
