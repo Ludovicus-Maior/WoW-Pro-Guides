@@ -37,7 +37,7 @@ A The Woodland Protector|QID|459|M|57.75,45.02|N|From Tarindrella.|
 C The Woodland Protector|QID|459|M|55.91,45.79|N|There is a second camp further north, however the Grellkin are up to level 4.|
 T The Woodland Protector|QID|459|M|57.75,45.02|N|To Tarindrella.|
 
-A Webwood Venom|QID|916|M|57.81,40.45|N|From Gilshalan Windwalker.|
+A Webwood Venom|QID|916|M|57.81,41.65|N|From Gilshalan Windwalker.|
 
 ]]
 end)
