@@ -1527,9 +1527,40 @@ function WoWPro.NextStep(k,i)
                     proflvl = 1
                 end	    
 			end
+
+            -- scan skill lines for profession information in Classic
             if WoWPro.CLASSIC then
-                -- we have no way to detect professions in classic
-                skip = false
+                local hasProf = false
+                skip = true
+                for idx = 1, GetNumSkillLines() do
+                    -- check if the skill line has the profession name we are looking for
+                    -- FIXME: check if this is localized
+                    local slName, _, _, slRank, _, sltmpPoints, slModifier, slMaxRank = GetSkillLineInfo(idx)
+                    local skillRank = slRank + sltmpPoints + slModifier
+                    if prof == slName then
+                        hasProf = true
+                        if WoWPro.action[k] == "M" then
+                            proflvl = math.max(proflvl - rankModifier, 1)
+                            profmaxlvl = math.max(profmaxlvl - rankModifier, 1)
+                        end
+                        WoWPro:dbp("Prof prof=%s,%d proflvl=%d, profmaxlvl=%d, profmaxskill=%d", prof, profnum, proflvl, profmaxlvl, profmaxskill)
+                        WoWPro:dbp("GetSkillLineInfo(): skillName=%s, skillRank=%d, slMaxRank=%d", slName, slRank, slMaxRank)
+                        if (profmaxlvl == 0) and (skillRank >= proflvl) then
+                            WoWPro.why[k] = "NextStep(): profmaxlvl == 0 and skillRank >= proflvl"
+                            WoWPro:dbp(WoWPro.why[k])
+                            skip = false
+                        elseif (profmaxlevel > 0) and (skillRank < profmaxlevel) then
+                            WoWPro.why[k] = "NextStep(): profmaxlvl > 0 and skillRank < profmaxlvl"
+                            WoWPro:dbp(WoWPro.why[k])
+                            skip = false
+                        elseif (profmaxlevel > 0) and (skillRank < slMaxRank) then
+                            WoWPro.why[k] = "NextStep(): profmaxlvl > 0 and profmaxskill < maxskill"
+                            WoWPro:dbp( WoWPro.why[k])
+                            skip = true
+                        end
+                        WoWPro:dbp("prof skip = %s", tostring(skip))
+                    end
+                end
 			elseif type(prof) == "string" and type(proflvl) == "number" then
 				local hasProf = false
 				skip = true --Profession steps skipped by default
