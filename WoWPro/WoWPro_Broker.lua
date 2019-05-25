@@ -1521,7 +1521,10 @@ function WoWPro.NextStep(k,i)
                     proflvl = 1
                 end	    
 			end
-			if type(prof) == "string" and type(proflvl) == "number" and not WoWPro.CLASSIC then
+            if WoWPro.CLASSIC then
+                -- we have no way to detect professions in classic
+                skip = false
+			elseif type(prof) == "string" and type(proflvl) == "number" then
 				local hasProf = false
 				skip = true --Profession steps skipped by default
 				local profs = {}
@@ -1569,7 +1572,7 @@ function WoWPro.NextStep(k,i)
 				    WoWProCharDB.Guide[GID].skipped[k] = true
 				    WoWPro:SetQIDsInTable(QID,WoWProCharDB.skippedQIDs)
 				    WoWPro:dbp("Prof permaskip qid %s for no %s",WoWPro.QID[k],prof)
-				    skip = true 
+				    skip = true
 				    break
 				end
 			else
