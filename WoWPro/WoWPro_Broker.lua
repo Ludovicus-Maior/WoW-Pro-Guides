@@ -807,7 +807,7 @@ function WoWPro:RowUpdate(offset)
 			    QuestPOIUpdateIcons()
 			end
 			local _, x, y, obj
-			if QID and tonumber(QID) then
+			if QID and tonumber(QID) and not WoWPro.CLASSIC then
 			    _, x, y, obj = QuestPOIGetIconInfo(tonumber(QID))
 			end
 			if coord or x then
