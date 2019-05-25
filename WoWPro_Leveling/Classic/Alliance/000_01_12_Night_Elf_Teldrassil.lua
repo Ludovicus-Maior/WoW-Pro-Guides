@@ -81,7 +81,16 @@ N First Aid|QID|928|M|55.29,56.82|N|You can learn first aid from the trainer Bya
 A The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|N|At the top of the building from Tallonkai Swiftroot.|
 A Twisted Hatred|QID|932|M|55.58,56.95|N|From Tallonkai Swiftroot.|
 T Dolanaar Delivery|QID|2159|M|55.70,59.80|N|To the innkeeper.|
-h Dolanaar |QID|932|N|Set your Hearthstone to Dolanaar.|
+h Dolanaar |QID|928|N|Set your Hearthstone to Dolanaar.|
+N Cooking|QID|928|M|57.11,61.28|N|Learn cooking from Zarrin to unlock a quest.|RECIPE|8604|
+A Recipe of the Kaldorei|QID|4161|M|57.11,61.28|N|From Zarrin.|
+C Recipe of the Kaldorei|QID|4161|S|N|Kill spiders until you have 7 Small Spider Legs.|
+T Crown of the Earth|QID|928|M|59.15,61.71|N|To Corithras Moonrage.|
+A Crown of the Earth|QID|929|M|59.15,61.71|N|From Corithras Moonrage.|
+C Garments of the Moon|QID|5621|C|Priest|M|57.24,63.50|N|Heal Sentinel Shaya with Lesser Heal, then use Power Word: Fortitude.|
+T Garments of the Moon|QID|5621|C|Priest|M|55.56,56.75|To Laurana Morninglight.|
+N Sell junk, repair and restock.|QID|929|M|56.21,59.56|
+N Professions|QID|929|N|This is a good time to consider your professions. If this is your first character you may want two gathering professions to make more money. The Herbalist and Alchemist Trainers are on the southern side of town. If you want Skinning, Leather Working or Mining, I highly recommend that you wait until after the next circuit (or you will have one hell of a detour to take). Others are in Darnassus.|QID|929|
 
 ]]
 end)
