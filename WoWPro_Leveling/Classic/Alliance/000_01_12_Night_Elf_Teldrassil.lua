@@ -73,8 +73,8 @@ A Crown of the Earth|QID|928|M|59.06,39.44|N|From Tenaron Stormgrip.|
 A In Favor of Elune|QID|5622|C|Priest|M|59.96,41.95;59.18,40.45|N|Revisit your class trainer before you go.|CC|
 A Dolanaar Delivery|QID|2159|M|61.16,47.64|N|From Porthannius on the way out|
 
-A Zenn's Bidding|QID|488|M|60.43,56.25|N|From Zenn Foulhoof. If he is currently a frog you can wait or pick this up later.|
-C Zenn's Bidding|QID|488|S|N|Kill Webwood Lurkers, Nightsabers and Strigid Owls along the way.|
+A Zenn's Bidding|AVAILABLE|488|M|60.43,56.25|N|From Zenn Foulhoof. If he is currently a frog you can wait or pick this up later.|
+C Zenn's Bidding|ACTIVE|488|S|N|Kill Webwood Lurkers, Nightsabers and Strigid Owls along the way.|
 A A Troubling Breeze|QID|475|M|55.96,57.28|N|From Athridas Bearmantle.|
 T In Favor of Elune|QID|5622|C|Priest|M|55.56,56.75|To Laurna Morninglight.|
 T Garments of the Moon|QID|5622|C|Priest|M|55.56,56.75|From Laurna Morninglight.|
@@ -84,27 +84,25 @@ A Twisted Hatred|QID|932|M|55.58,56.95|N|From Tallonkai Swiftroot.|
 T Dolanaar Delivery|QID|2159|M|55.70,59.80|N|To the innkeeper.|
 h Dolanaar |QID|928|N|Set your Hearthstone to Dolanaar.|
 r Sell junk, repair and restock.|QID|928|M|56.21,59.56|
-N Cooking|QID|928|M|57.11,61.28|N|Learn cooking from Zarrin to unlock a quest.|RECIPE|8604|
+N Cooking|QID|928|M|57.11,61.28|N|Learn cooking from Zarrin to unlock a quest.|P|Cooking;185|
 A Recipe of the Kaldorei|QID|4161|M|57.11,61.28|N|From Zarrin. If you want to further train cooking get 9 eggs from owls to bring your cooking skill to 10.|
 C Recipe of the Kaldorei|QID|4161|S|N|Kill spiders along the way until you have 7 Small Spider Legs.|
 T Crown of the Earth|QID|928|M|56.15,61.71|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|929|M|56.15,61.71|N|From Corithras Moonrage.|
 C Garments of the Moon|QID|5621|C|Priest|M|57.24,63.50|N|Heal Sentinel Shaya with Lesser Heal, then use Power Word: Fortitude.|
 T Garments of the Moon|QID|5621|C|Priest|M|55.56,56.75|To Laurana Morninglight.|
-N Professions|QID|929|M|57.47,60.60|N|This is a good time to consider your professions. If this is your first character you may want two gathering professions to make more money. The Herbalist and Alchemist Trainers are on the southern side of town. If you want Skinning, Leather Working or Mining, I highly recommend that you wait until after the next circuit (or you will have one hell of a detour to take). Others are in Darnassus.|
+N Professions|QID|475|M|57.47,60.60|N|This is a good time to consider your professions. If this is your first character you may want two gathering professions to make more money. The Herbalist and Alchemist Trainers are on the southern side of town. If you want Skinning, Leather Working or Mining, I highly recommend that you wait until after the next circuit (or you will have one hell of a detour to take). Others are in Darnassus.|
 
-A Zenn's Bidding|QID|488|M|60.43,56.25|N|From Zenn Foulhoof. If he is currently a frog you can wait or pick this up later.|
-C Zenn's Bidding|QID|488|S|N|Kill Webwood Lurkers, Nightsabers and Strigid Owls along the way.|
 C Crown of the Earth|QID|929|M|63.35,58.11|N|At the moonwell to the east.|U|5619|
 T A Troubling Breeze|QID|475|M|66.26,58.55|N|Second floor of the first building to your right.|
 A Gnarlpine Corruption |QID|476|M|66.26,58.55|
 C The Emerald Dreamcatcher|QID|2438|M|68.00,59.61|L|8048|N|Inside the small house in the dresser to the right from the entrance.|
 
-T A Troubling Breeze|QID|475|M|55.96,57.28|N|To Athridas Bearmantle.|
+T Gnarlpine Corruption|QID|476|M|55.96,57.28|N|To Athridas Bearmantle.|
 A The Relics of Wakening|QID|483|M|55.96,57.28|N|From Athridas Bearmantle.|
 T The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|N|At the top of the building to Tallonkai Swiftroot.|
 A Ferocitas the Dream Eater|QID|2459|M|55.58,56.95|N|From Tallonkai Swiftroot.|
-A The Road to Darnassus|QID|487|M|55.74,58.34|N|If Moon Priestess Amara is currently here pick up her questr. If not she is currently patrolling and we will pick it up later, so right click it off.|
+A The Road to Darnassus|AVAILABLE|487|M|55.74,58.34|N|If Moon Priestess Amara is currently here pick up her questr. If not she is currently patrolling and we will pick it up later, so right click it off.|
 T Crown of the Earth|QID|929|M|56.15,61.71|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|933|M|56.15,61.71|N|From Corithras Moonrage.|
 
@@ -113,9 +111,9 @@ C Zenn's Bidding|QID|488|M|62.43,59.89|US|N|Kill Webwood Lurkers, Nightsabers an
 T Zenn's Bidding|QID|488|M|60.43,56.25|T|To Zenn Foulhoof. If he is currently a frog you should wait.|
 C Recipe of the Kaldorei|QID|4161|US|N|Kill spiders until you have 7 Small Spider Legs.|
 
+A Seek Redemption!|AVAILABLE|489|PRE|488|M|56.10,57.73|N|From Syral Bladeleaf or Moon Priestess Amara.|
 A Denalan's Earth|QID|997|M|56.09,57.72|N|From Syral Bladeleaf.|
-A Seek Redemption!|QID|489|M|56.10,57.73|N|From Syral Bladeleaf or Moon Priestess Amara.|
-C Seek Redemption!|QID|489|S|N|Look out for Fel Cones below trees. Green smoke comes out of them.|L|3418 3|
+C Seek Redemption!|ACTIVE|489|S|N|Look out for Fel Cones below trees. Green smoke comes out of them.|L|3418 3|
 A The Road to Darnassus|QID|487|M|55.74,58.34|N|If Moon Priestess Amara is currently here pick up her quest. If not she is currently patrolling and we will pick it up later, so right click it off.|
 T Ferocitas the Dream Eater |QID|2459| |M|55,56|
 r Sell junk, repair and restock.|QID|928|M|56.21,59.56|
@@ -131,12 +129,12 @@ C Timberling Sprpots|QID|919|US|N|Loot Sprouts from the ground around the area.|
 T Timberling Seeds|QID|918|M|60.90,68.50|N|To Denalan.|
 T Timberling Sprouts|QID|919|M|60.90,68.50|N|To Denalan.|
 A Rellian Greenspyre|QID|922|M|60.90,68.50|N|From Denalan.|
-T Seek Redemption!|QID|489|M|60.43,56.25|T|To Zenn Foulhoof. If he is currently a frog you should wait.|
+T Seek Redemption!|ACTIVE|489|M|60.43,56.25|T|To Zenn Foulhoof. He may be already a frog.|
 
 L Level 8|LVL|8|N|If you are not level 8 yet grind on mobs.|
-r Sell + Train|QID|922|M|56.21,59.56|N|Sell junk, repair and restock. Visit your trainer.|
+r Sell + Train|QID|932|M|56.21,59.56|N|Sell junk, repair and restock. Visit your trainer.|
 A Elixirs for the Bladeleafs|QID|1581|M|56.09,57.72|N|Only available for Alchemists with a skill of at least 20. You will not be told when to turn this in. Do it at your own speed and turn it in whenever you can.|P|Alchemy;171|
-A The Road to Darnassus|QID|487|M|55.74,58.34|N|If Moon Priestess Amara is currently here pick up her quest. If not she is currently patrolling and we will pick it up later, so right click it off.|
+A The Road to Darnassus|AVAILABLE|487|M|55.74,58.34|N|If Moon Priestess Amara is currently here pick up her quest. If not she is currently patrolling and we will pick it up later, so right click it off.|
 
 R Twisted Hatred|QID|932|M|53.94,58.13;53.65,55.86;54.65,52.65|CC|N|The cave for this quest is behind the tree building.|
 R Twisted Hatred|QID|932|M|54.59,51.33;53.75,50.59;52.45,49.17;51.57,49.01|CC|N|Inside the cave keep right.|
@@ -144,15 +142,15 @@ C Twisted Hatred|QID|932|M|55,53||N|If he is not on the ledge he is down below. 
 T Twisted Hatred|QID|932|M|55.58,56.95|N|To Tallonkai Swiftroot.|
 
 R Darnassus|QID|922|M|54.90,58.46|CC|N|Run to Darnassus along the road.|
-A The Road to Darnassus|QID|487|M|55.74,58.34|N|Look for Moon Priestess Amara on the road. Sometimes she fights a furbolg ambush.|
+A The Road to Darnassus|AVAILABLE|487|M|55.74,58.34|N|Look for Moon Priestess Amara on the road. Sometimes she fights a furbolg ambush.|
 R Darnassus|QID|922|M|54.85,58.47;51.47,56.54;47.25,49.62;44.33,50.71|CC|N|Run to Darnassus along the road.|
-N Skinning and Leatherorking|QID|922|M|42.09,49.97|N|Stop by the Leatherworking and Skinning Trainers if you are interested in those professions.|
-R Darnassus|QID|922|M|39.99,53.28;36.28,54.37|CC|N|Run to Darnassus along the road.|
+N Skinning and Leatherorking|QID|922|M|42.09,49.97|N|Stop by the Leatherworking and Skinning Trainers if you are interested in those professions. Right click this off.|
+R Darnassus|QID|922|M|39.02,53.24;36.28,54.37|CC|N|Run to Darnassus along the road.|
 
 B Skinning|QID|922|P|Skinning;393|L|7005|N|Buy a Skinning Knife from Mytrhin'dir if you just learned Skinning.|
 T Rellian Greenspyre|QID|922|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
 A Tumors|QID|923|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
-R Visit the Bank|QID|2519|M|40.02,42.28|Z|Darnassus|N|When in Darnassus take a minute and visit the bank to offload items. You can also visit the Auction House.|
+R Visit the Bank|QID|2519|M|40.02,42.28|Z|Darnassus|CC|N|When in Darnassus take a minute and visit the bank to offload items. You can also visit the Auction House.|
 R Leave Darnassus|QID|933|M|88.39,35.55|Z|Darnassus|CC|N|Leave Darnassus.|
 
 C Crown of the Earth|QID|933|M|42.40,67.08|U|5621|N|Fill the Tourmaline Phial at the moonwell.|
@@ -213,7 +211,6 @@ A Vorlus Vilehoof|QID|1683|C|Warrior|M|57.34,34.66|Z|Darnassus|From Elanaria.|
 
 T Tumors|QID|923|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
 A Return to Denalan|QID|2498|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
-
 
 R Enter the Rogue's Den|QID|2241|C|Rogue|M|33.64,15.89|Z|Darnassus|
 T The Apple Falls|QID|2241|C|Rogue|M|36.99,21.92|Z|Darnassus|N|To Syurna.|
