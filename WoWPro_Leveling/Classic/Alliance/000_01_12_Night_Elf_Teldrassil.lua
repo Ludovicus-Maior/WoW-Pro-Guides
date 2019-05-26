@@ -23,14 +23,14 @@ A A Good Friend|QID|4495|M|60.90,41.97|N|From Dirania Silvershine.|
 r Sell junk, you will need money for your first training.|QID|458|M|59.31,41.09|
 
 T Simple Sigil|QID|3116|C|Warrior|M|59.63,38.45|N|Further inside the building and to the right.|
-R Etched Sigil|QID|3117|C|Hunter|M|57.64,41.70;58.78,38.72|CC|N|Walk up the ramp outside to get to your trainer.|
+R Etched Sigil|QID|3117|C|Hunter|M|57.64,41.70|C|N|Walk up the ramp outside to get to your trainer.|
 T Etched Sigil|QID|3117|C|Hunter|M|58.66,40.45|N|To Ayanna Everstride.|
 T Encrypted Sigil|QID|3118|C|Rogue|M|59.64,38.67|N|Further inside the building and to the right.|
 R Hallowed Sigil|QID|3119|M|59.96,41.95|C|Priest|CC|N|Walk up the ramp inside the building.|
 T Hallowed Sigil|QID|3119|M|59.18,40.45|C|Priest|N|To Shanda.|
-R Verdant Sigil|QID|3120|C|Druid|M|57.64,41.70;58.78,38.72|CC|N|Walk up the ramp outside to get to your trainer.|
+R Verdant Sigil|QID|3120|C|Druid|M|57.64,41.70|CC|N|Walk up the ramp outside to get to your trainer.|
 T Verdant Sigil|QID|3120|C|Druid|M|58.62,40.29|N|To Mardant Strongoak.|
-N Train your level 2 skills with your trainer.|QID|458|
+N Train your level 2 skills with your trainer. Right click to continue.|QID|458|
 
 T The Woodland Protector|QID|458|M|57.75,45.02|N|To Tarindrella.|
 A The Woodland Protector|QID|459|M|57.75,45.02|N|From Tarindrella.|
@@ -48,13 +48,14 @@ r Sell junk while you are near.|QID|916|M|59.31,41.09|N|You will need the bag sp
 C Iverron's Antidote|QID|3521|S|L|10639 7|N|Pick up Hyacinth Mushrooms along the way. They are brown and grow next to the trees.|
 C The Balanche of Nature|QID|457|M|62.38,38.36|US|N|Kill Mangy Nightsabers and Thistle Boars.|
 C Webwood Venom|QID|916|US|M|57.91,33.36|N|Kill Spiders for the Webwood Venom Sacs and Webwood Ichor.|
-C Iverron's Antidote|QID|3521|M|57.91,33.36|N|Kill Spiders until you get the Webwood Ichor.|
-C Moonpetal Lilies|QID|3521|M|57.69,37.59|L|10641 4|N|You should find plenty of Moonpetal Lilies at the lake.|
+C Iverron's Antidote|QID|3521|QO|3|M|57.91,33.36|N|Kill Spiders until you get the Webwood Ichor.|
+C Moonpetal Lilies|QID|3521|QO|2|M|57.69,37.59|L|10641 4|N|You should find plenty of Moonpetal Lilies at the lake.|
 C Iverron's Antidote|QID|3521|US|L|10639 7|N|Finish picking up Hyacinth Mushrooms.|
 T Webwood Venom|QID|916|M|57.81,41.65|N|To Gilshalan Windwalker.|
 A Webwood Egg|QID|917|M|57.81,41.65|N|From Gilshalan Windwalker.|
 T The Balance of Nature|QID|457|M|58.69,44.27|N|To Conservator Ilthalaine.|
-r Sell junk while you are near.|QID|3521|M|59.31,41.09|N|Also visit your class trainer while you are here.|
+r Sell junk, restock and train.|QID|3521|M|59.31,41.09|N|You should be level 4 by now.|
+
 T Iverron's Antidote|QID|3521|M|60.90,41.96|N|To Dirania Silvershine.|
 A Iverron's Antidote|QID|3522|M|60.90,41.96|N|This quest is on a 5 minite timer.|
 T Iverron's Antidite|QID|3522|M|54.60,32.99|N|To Iverron.|
@@ -67,7 +68,7 @@ T Tenaron's Summons|QID|920|M|59.10,39.44|N|Run up the ramp outside the tree.|
 A Crown of the Earth|QID|921|M|59.06,39.44|N|From Tenaron Stormgrip.|
 r Sell junk, repair, restock if needed.|QID|921|M|59.31,41.09|N|You can jump over the fence and drop down from the roof.|CC|
 C Crown of the Earth|QID|921|M|59.94,33.07|U|5185|N|Use the crystal phial at the moonwell.|
-T Crown of the Earth|QID|921|M|57.53,41.64;59.06,39.44|N|To Tenaron Stormgrip.|CC|
+T Crown of the Earth|QID|921|M|57.53,41.64;59.06,39.44|N|To Tenaron Stormgrip.|CS|
 A Crown of the Earth|QID|928|M|59.06,39.44|N|From Tenaron Stormgrip.|
 A In Favor of Elune|QID|5622|C|Priest|M|59.96,41.95;59.18,40.45|N|Revisit your class trainer before you go.|CC|
 A Dolanaar Delivery|QID|2159|M|61.16,47.64|N|From Porthannius on the way out|
