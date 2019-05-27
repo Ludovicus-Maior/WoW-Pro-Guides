@@ -203,9 +203,9 @@ C Taming the Beast|QID|6102|M|44.01,51.12|C|Hunter|U|15923|N|Tame a Strigid Scre
 T Taming the Beast|QID|6102|M|56.68,59.50|C|Hunter|N|To Dazalar.|
 A Taming the Beast|QID|6103|M|56.68,59.50|C|Hunter|N|From Dazalar. You can tame your first pet now, but can't feed it yet. We have to go to Darnassus for that.|
 
-R Darnassus|QID|923|M|45.26,49.40|CC|N|Run west to Darnassus. We make a detour to pick up the Mossy Tumors on the way.|
+R Darnassus|QID|923|M|47.27,49.59|CC|N|Run west to Darnassus. We make a detour to pick up the Mossy Tumors on the way.|
 C Tumors|QID|923|M|43.67,42.85|N|Go north and kill Timberlings around the lake until you have 5 Mossy Tumors.|
-R Darnassus|QID|923|M|88.70,35.67|Z|Darnassus|CC|N|Continue west to Darnassus.|
+R Darnassus|QID|923|M|36.24,54.32|CC|N|Continue west to Darnassus.|
 A Nessa Shadowsong|QID|6344|M|70.65,45.33|Z|Darnassus|N|From Mydrannul.|
 
 T Elanaria |QID|1684|C|Warrior|M|57.34,34.66|Z|Darnassus|To Elanaria.|
