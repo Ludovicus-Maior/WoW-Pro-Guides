@@ -218,37 +218,42 @@ R Enter the Rogue's Den|QID|2241|C|Rogue|M|33.64,15.89|Z|Darnassus|
 T The Apple Falls|QID|2241|C|Rogue|M|36.99,21.92|Z|Darnassus|N|To Syurna.|
 A Destiny Calls|QID|2242|C|Rogue|M|36.99,21.92|Z|Darnassus|From Syurna.|
 
-R Heeding the Call|QID|5923|C|Druid|M|34.34,08.80|Z|Darnassus|CC|N|Go one floor up inside this building.|
+R Heeding the Call|QID|5923|C|Druid|M|35.56,10.74|Z|Darnassus|CC|N|Go one floor up inside this building.|
 T Heeding the Call|QID|5923|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
 A Moonglade|QID|5921|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|
-T Moonglade|QID|5921|C|Druid|M|56,30|N|Use the teleport spell you learned from Mathrengyl Bearwalker.|
-A Great Bear Spirit|QID|11956|C|Druid|
-C Great Bear Spirit|QID|11956|C|Druid|M|39,28|N|Talk to the bear spirit until quest is complete.|
-T Great Bear Spirit|QID|11956|C|Druid|M|56,30|
-A Back to Darnassus|QID|5931|C|Druid|
-f Rut'theran Village|QID|5931|C|Druid|M|44,45|
-T Back to Darnassus|QID|5931|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
-A Body and Heart|QID|6001|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|
 
 T Taming the Beast|QID|6103|C|Hunter|M|40.36,08.59|Z|Darnassus|N|To Jocaste.|
 R Learn Pet Skills|QID|6344|C|Hunter|M|62.83,05.88|Z|Darnassus|N|Go up the tree keeping to the left and learn at least Growl from Silvaria.|
 
 A The Temple of the Moon|QID|2519|M|28.99,45.73|Z|Darnassus|N|From Sister Aquinne.|
-R Portal to Rut'theran|QID|6344|M|28.92,41.02|Z|Darnassus|N|Walk into the portal down to Rut'theran.|
-T Nessa Shadowsong|QID|6344|M|56.25,92.44|N|To Nessa Shadowsong.|
+R Portal to Rut'theran|QID|6344|M|28.82,41.50|Z|Darnassus|CC|N|Walk into the portal down to Rut'theran.|
+T Nessa Shadowsong|QID|6344|M|56.25,92.44|Z|Teldrassil|N|To Nessa Shadowsong.|
 A The Bounty of Teldrassil|QID|6341|M|56.25,92.44|N|From Nessa Shadowsong.|
 T The Bounty of Teldrassil|QID|6341|M|58.40,94.01|N|To Vesprystus.|
 A Flight to Auberdine|QID|6342|M|58.40,94.01|N|From Vesprystus.|
-F Auberdine|QID|6342|
+
+T Moonglade|QID|5921|C|Druid|M|56.21,30.62|Z|Moonglade|N|Use the teleport spell you learned from Mathrengyl Bearwalker. To Dendrite Starblaze.|
+A Great Bear Spirit|QID|5929|C|Druid||M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
+R Great Bear Spirit|QID|5929|C|Druid|M|53.39,31.16;45.03,26.67|Z|Moonglade|CS|
+C Great Bear Spirit|QID|5929|C|Druid|QO|1|M|39.31,27.44|Z|Moonglade|N|Talk to the bear spirit until quest is complete.|
+T Great Bear Spirit|QID|5929|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze. Use Teleport: Moonglade again instead of running back.|
+A Back to Darnassus|QID|5931|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
+F Darnassus|QID|5931|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
+R Darnassus|QID|5931|C|Druid|M|55.86,89.45|N|Walk into the portal back to Darnassus.|
+T Back to Darnassus|QID|5931|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
+A Body and Heart|QID|6001|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|
+R Portal to Rut'theran|QID|6001|C|Druid|M|29.02,40.38|Z|Darnassus|CC|N|Walk into the portal down to Rut'theran.|
+
+F Flight to Auberdine|QID|6342|M|58.40,94.01|N|At Vesprystus.|
 T Flight to Auberdine|QID|6342|M|36.77,44.29|Z|Darkshore|N|To Laird.|
 A Return to Nessa|QID|6343|M|36.77,44.29|Z|Darkshore|N|From Laird.|
-C Body and Heart|QID|6001|C|Druid|M|43,46|U|15208|N|Use the Cenarion Moondust on the Moonkin Stone in the cave and summon Lunaclaw. Defeat him.|
-F Rut'theran|QID|6343|M|36.34,45.57|Z|Darkshore|N|At flight master Caylais Moonfeather.|
+C Body and Heart|QID|6001|C|Druid|QO|1|M|43.22,45.70|Z|Darkshore|U|15208|N|Use the Cenarion Moondust on the Moonkin Stone in the cave and summon Lunaclaw. Defeat him, then talk to his ghost.|
+F Rut'theran|QID|633|M|36.34,45.57|Z|Darkshore|N|At flight master Caylais Moonfeather.|
 T Return to Nessa|QID|6343|M|56.25,92.44|N|To Nessa Shadowsong.|
 
-R Darnassus|QID|2519|M|55.75,89.08|N|Walk into the portal back to Darnassus.|
+R Darnassus|QID|2519|M|55.86,89.45|N|Walk into the portal back to Darnassus.|
 T Body and Heart|QID|6001|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
-R The Temple of the Moon|QID|2519|M|38.53,49.50;39.01,77.50;40.50,91.48|Z|Darnassus|CC|
+R The Temple of the Moon|QID|2519|M|38.53,49.50;39.01,77.50;40.50,91.48|Z|Darnassus|CS|
 T The Temple of the Moon|QID|2519|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora up the ramp.|
 A Tears of the Moon|QID|2518|M|36.63,85.94|Z|Darnassus|N|From Priestess A'moora.|
 R Leave Darnassus|QID|937|M|39.04,77.18;80.04,40.40;88.39,35.55|Z|Darnassus|CC|N|Exit the temple and leave Darnassus.|
@@ -312,6 +317,9 @@ A Sathrah's Sacrifice|QID|2520|M|36.63,85.94|Z|Darnassus|N|From Priestess A'moor
 C Sathrah's Sacrifice|QID|2520|M|38.24,85.73|Z|Darnassus|U|8155|N|Use Sathra's Sacrifice in the fountain down below.|
 T Sathrah's Sacrifice|QID|2520|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora.|
 
-N Level 13|LVL|13|N|You should be level 13 now or close.|
+; --- warrior quest ---
+; C Shade of Elura|C|Warrior|M|31.61,44.92|Z|Darkshore|N|Shade of Elure wanders around the sunken ship.|
+
+; N Level 13|LVL|13|N|You should be level 13 now or close.|
 ]]
 end)
