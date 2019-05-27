@@ -175,14 +175,15 @@ T Druid of the Claw|QID|2561|M|44.95,61.59|N|To Oben Rageclaw.|
 L Level 10|LVL|10|QID|933|N|Grind if you are not yet level 10. The three quests you are about to turn in will give you 2250 XP, so you can click this off if you have more than 4250 XP.|
 H Dolanaar|QID|933|N|Hearthstone back to Dolanaar.|
 
+; --- level 10 class quests start from here ---
 T Crown of the Earth|QID|933|M|56.15,61.71|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|7383|M|56.15,61.71|N|From Corithras Moonrage.|
+A Heeding the Call|AVAILABLE|5925|C|Druid|M|55.95,61.65|N|From Kal.|
 T The Relics of Wakening|QID|483|M|55.96,57.28|N|To Athridas Bearmantle.|
 A Ursal the Mauler|QID|486|M|55.96,57.28|N|From Athridas Bearmantle.
 T The Road to Darnassus|QID|487|N|Find Moon Priestess Amara again.|
 r Sell + Restock|QID|923|M|56.21,59.56|N|Sell junk, repair and restock. We are visiting your trainer next.|
 
-; --- level 10 class quests ---
 A Elanaria|QID|1684|M|C|Warrior|M|56.21,59.19|N|From Kyra Windblade.|
 A The Apple Falls|QID|2241|C|Rogue|M|56.37,60.13|From Jannok Breezesong.|
 
