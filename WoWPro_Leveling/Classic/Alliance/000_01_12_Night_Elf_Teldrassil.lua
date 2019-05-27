@@ -150,11 +150,11 @@ R Darnassus|QID|922|M|39.02,53.24;36.28,54.37|CC|N|Run to Darnassus along the ro
 B Skinning|QID|922|P|Skinning;393|L|7005|N|Buy a Skinning Knife from Mytrhin'dir if you just learned Skinning.|
 T Rellian Greenspyre|QID|922|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
 A Tumors|QID|923|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
-R Visit the Bank|QID|2519|M|40.02,42.28|Z|Darnassus|CC|N|When in Darnassus take a minute and visit the bank to offload items. You can also visit the Auction House.|
+R Visit the Bank|QID|933|M|40.02,42.28|Z|Darnassus|CC|N|When in Darnassus take a minute and visit the bank to offload items. You can also visit the Auction House.|
 R Leave Darnassus|QID|933|M|88.39,35.55|Z|Darnassus|CC|N|Leave Darnassus.|
 
 C Crown of the Earth|QID|933|M|42.40,67.08|U|5621|N|Fill the Tourmaline Phial at the moonwell.|
-R Run back north|QID|933|M|40.35,54.03|
+R Run back north|QID|933|M|40.35,54.03|CC|
 C The Road to Darnassus|QID|487|M|46,52|N|Kill the Gnarlpine Ambushers.|
 
 R The Relics of Wakening|QID|483|M|44.71,56.15;45.19,58.16;44.09,58.58;43.61,58.54|CC|L|3408|N|Enter Ban'ethil Barrow Den.|
@@ -189,7 +189,6 @@ A The Apple Falls|QID|2241|C|Rogue|M|56.37,60.13|From Jannok Breezesong.|
 R Train your skills|QID|7383|C|Priest|M|55.56,56.75|At Laurna Morninglight.|
 A Desperate Prayer|QID|5636|C|Priest|M|55.56,56.75|From Laurna Morninglight.|
 
-A Heeding the Call|QID|5923|C|Druid|M|55.95,61.65|N|From Kal.|
 A Taming the Beast|QID|6063|M|56.68,59.50|C|Hunter|N|From Dazalar.|
 C Taming the Beast|QID|6063|M|58.85,59.87|C|Hunter|U|15921|N|Tame a Webwood Lurker by using the rod.|
 T Taming the Beast|QID|6063|M|56.68,59.50|C|Hunter|N|To Dazalar.|
