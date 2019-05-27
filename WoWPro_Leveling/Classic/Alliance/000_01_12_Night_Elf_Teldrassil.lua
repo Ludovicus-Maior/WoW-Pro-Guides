@@ -160,8 +160,9 @@ C The Road to Darnassus|QID|487|M|46,52|N|Kill the Gnarlpine Ambushers.|
 R The Relics of Wakening|QID|483|M|44.71,56.15;45.19,58.16;44.09,58.58;43.61,58.54|CC|L|3408|N|Enter Ban'ethil Barrow Den.|
 C Rune of Nesting|QID|483|QO|4|M|44.4,60.7|L|3408|N|Across the left bridge in the first chamber.|
 C Black Feather Quill|QID|483|QO|2|M|43.73,61.23|L|3406|N|Across the right bridge in the first chamber.|
+; ---FIXME: coordinates for next step trigger automatically---
 R Further down|QID|483|M|43.49,60.54|L|3406|N|To the lower floor and take the right tunnel to the second chamber.|
-A The Sleeping Druid|QID|2541|M|44.95,61.59|N|From Oben Rageclaw across the bridge.|
+A The Sleeping Druid|QID|2541|M|44.95,61.59|N|To the lower floor and take the right tunnel to the second chamber. From Oben Rageclaw across the bridge.|
 C The Sleeping Druid|QID|2541|L|8363|S|N|Kill Gnarlpine Shamans until one of them drops a Shaman Voodoo Charm. This may take a long time.|
 C Sapphire of Sky|QID|483|M|44.69,62.45|QO|3|N|In a room at the bottom of the chamber. Greenpaw is 10 and hits hard.|
 R Up the ramp|QID|483|M|45.39,58.00;46.15,58.37|CC|L|3405|N|On the opposite side of the second chamber. Watch out for Ravenclaw who patrols around the lower level.|
