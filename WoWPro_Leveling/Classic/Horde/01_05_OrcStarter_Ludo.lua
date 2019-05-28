@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Orc', 'Leveling', 'Durotar', 'Ludo', 'Horde', 1)
+local guide = WoWPro:RegisterGuide('ClassicDurotar0112', 'Leveling', 'Durotar', 'Ludo', 'Horde', 1)
 WoWPro:GuideLevels(guide,1, 5)
 WoWPro:GuideNextGuide(guide, 'Next')
 WoWPro:GuideSteps(guide, function()

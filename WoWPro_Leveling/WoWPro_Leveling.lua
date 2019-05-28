@@ -29,9 +29,11 @@ WoWPro.Leveling.AlliedStartGuides = {
 		}
 WoWPro.Leveling.ClassicStartGuides = {
 	Dwarf = 'ClassicDunMorogh0112',
+	Gnome = 'ClassicDunMorogh0112',
 	Human = 'ClassicElwynn0112',
 	NightElf = "ClassicTeldrassil0112",
-	Gnome = 'ClassicDunMorogh0112'
+    Orc = 'ClassicDurotar0112',
+	Troll = 'ClassicDurotar0112'
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
