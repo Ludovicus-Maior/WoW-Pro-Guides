@@ -10,11 +10,11 @@ WoWPro:GuideLevels(guide,1,12, 2)
 --        "Interface\\Icons\\Achievement_Character_Undead_Male",
 --        "Interface\\Icons\\Achievement_Character_Undead_Female"))
 WoWPro:GuideSteps(guide, function() return [[
-A Rude Awakening |QID|363|R|Undead|N|From Undertaker Mordo outside. Go upstairs. |M|30.21,71.64|
-T Rude Awakening |QID|363|R|Undead|N|At Shadow Priest Sarvis in the chapel to the north.|M|30.8,66.2|
-A The Mindless Ones |QID|364|M|30.8,66.2|
-
-C The Mindless Ones |QID|364|N|Kill Mindless Zombies and Wretched Zombies outside.|
+R Go upstairs|QID|363|M|30.00,72.84|R|Undead|CC|N|Leave the crypt and go upstairs to your first quest.|
+A Rude Awakening|QID|363|R|Undead|N|From Undertaker Mordo outside.|M|30.21,71.64|
+T Rude Awakening|QID|363|R|Undead|N|At Shadow Priest Sarvis in the chapel to the north.|M|30.84,66.20|
+A The Mindless Ones|QID|364|M|30.84,66.20|
+C The Mindless Ones|QID|364|M|32.22,63.16|N|Kill Mindless Zombies and Wretched Zombies outside.|
 
 T The Mindless Ones |QID|364|N|At Shadow Priest Sarvis in the chapel.|M|30.8,66.2|
 A Encrypted Scroll |QID|3096|C|Rogue,Schurke,Schurkin|M|30.8,66.2|
