@@ -1,15 +1,6 @@
 --[[
   WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
   Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
-FIXME:
-Bad X coordinate 38.2,83,6, 1/1 in guide ClassicElwynn0112, line [C Gold Dust Exchange].
-58:Unknown tag ¦.¦ in [C Kobold Candles¦QID¦60¦M¦38.2,83.6¦.¦Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.¦S¦].
-58:Unknown tag ¦Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.¦ in [C Kobold Candles¦QID¦60¦M¦38.2,83.6¦.¦Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.¦S¦].
-111:Validation failed for tag ¦QID¦239M¦ in [N Sell junk and repair¦QID¦239M¦41.5,65.8¦N¦Sell junk and repair at Andrew Krighton. Close this step when you're done.¦].
-111:Unknown tag ¦41.5,65.8¦ in [N Sell junk and repair¦QID¦239M¦41.5,65.8¦N¦Sell junk and repair at Andrew Krighton. Close this step when you're done.¦].
-137:Unknown tag ¦Fly to Stormwind.¦ in [F Trade District¦QID¦6281¦Fly to Stormwind.¦].
-138:Unknown tag ¦N]When you're done, close this step.¦ in [N Train new skills¦QID¦6281¦N]When you're done, close this step.¦].
 --]]
 
 local guide = WoWPro:RegisterGuide('ClassicElwynn0112', "Leveling", 'Elwynn Forest', 'Maw', 'Alliance', 1)
@@ -84,8 +75,8 @@ A Back to Billy|QID|84|M|34.5,84.2|
 A Young Lovers|QID|106|M|43.2,89.6|N|Watch out for the bear that likes to hang around this house.|
 T Back to Billy|QID|84|M|43.1,85.7|
 A Goldtooth|QID|87|M|43.1,85.7|
-C Gold Dust Exchange|QID|47|M|38.2,83,6|N|Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.|S|
-C Kobold Candles|QID|60|M|38.2,83.6|.|Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.|S|
+C Gold Dust Exchange|QID|47|M|38.2,83.6|N|Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.|S|
+C Kobold Candles|QID|60|M|38.2,83.6|N|Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.|S|
 N Grind to level 7|QID|87|N|Grind on Kobolds until you ding level 7.|
 C Goldtooth|N|Kill Goldtooth. Enter the cave via the lower entrance and stick to the left. Tip: Kill the Kobold Tunneler next to him first, and then run out of combat. Return to Goldtooth and kill him while he's alone. Loot Bernice's Necklace.| |QID|87|M|41.60,78.80|
 T Goldtooth|QID|87|M|34.5,84.2|
@@ -138,7 +129,7 @@ T Deliver Thomas' Report|QID|39|M|42.1,65.9|
 T The Jasperlode Mine|QID|76|M|42.1,65.9|
 A Westbrook Garrison Needs Help!|QID|239|M|42.1,65.9|
 A Elmore's Task|QID|1097|M|41.70,65.5|N|At Smith Argus.|
-N Sell junk and repair|QID|239M|41.5,65.8|N|Sell junk and repair at Andrew Krighton. Close this step when you're done.|
+N Sell junk and repair|QID|239|M|41.5,65.8|N|Sell junk and repair at Andrew Krighton. Close this step when you're done.|
 T The Escape|QID|114|M|43.2,89.6|
 T Princess Must Die!|QID|88|M|34.6,84.5|
 T Westbrook Garrison Needs Help!|QID|239|M|24.3,74.8|
@@ -166,8 +157,8 @@ f Sentinel Hill|QID|353|N|Get the flight point.|
 T A Swift Message|QID|6181|R|Human|Z|Westfall|M|56.5,52.6|
 A Continue to Stormwind|QID|6281|
 
-F Trade District|QID|6281|Fly to Stormwind.|
-N Train new skills|QID|6281|N]When you're done, close this step.|
+F Trade District|QID|6281|N|Fly to Stormwind.|
+N Train new skills|QID|6281|N|When you're done, close this step.|
 T Shipment to Stormwind|QID|61|R|Human|Z|Stormwind City|M|63.2,74.4|
 T Continue to Stormwind|QID|6281|R|Human|Z|Stormwind City|M|77.1,61.2|
 A Dungar Longdrink|QID|6261|R|Human|Z|Stormwind City|M|77.1,61.2|
