@@ -1,7 +1,7 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('ClassicTel0112', "Leveling", 'Teldrassil', 'Shururu', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicTeldrassil0112', "Leveling", 'Teldrassil', 'Shururu', 'Alliance', 1)
 WoWPro:GuideLevels(guide,1,12, 2)
 -- FIXME: WoW Classic does not have a Achievement_Character_Nightelf_Male icon
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender(

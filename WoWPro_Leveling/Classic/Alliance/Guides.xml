@@ -1,3 +1,4 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-    <Script file="000_01_12_Night_Elf_Teldrassil.lua"/>
+    <Script file="000_01_12_Elwynn_Human.lua"/>
+    <Script file="000_01_12_Teldrassil_Night_Elf.lua"/>
 </Ui>

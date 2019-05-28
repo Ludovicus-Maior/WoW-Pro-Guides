@@ -28,7 +28,9 @@ WoWPro.Leveling.AlliedStartGuides = {
 			Nightborne = "LudoNightborne"
 		}
 WoWPro.Leveling.ClassicStartGuides = {
-	NightElf = "ClassicTel0112"
+	Human = 'ClassicElwynn0112',
+	NightElf = "ClassicTeldrassil0112"
+
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
