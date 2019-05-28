@@ -1,15 +1,6 @@
 --[[
   WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
   Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
-FIXME:
-24:Duplicate tag ¦L¦ in [N Go to the cave ¦QID¦781¦L¦4851¦N¦On the inside is a Dirt-stained Map. Loot it. (63,82)¦L¦Dirt-stained Map¦M¦63.2,82.7¦].
-ValidZone: Zone [The Barrens ] is unknown.
-Step R [Camp Taurajo] has a bad ¦Z¦The Barrens ¦ tag.
-ValidZone: Zone [The Barrens ] is unknown.
-Step f [Camp Taurajo] has a bad ¦Z¦The Barrens ¦ tag.
-118:Validation failed for tag ¦PRE¦The Hunter's Way¦ in [A Sergra Darkthorn¦QID¦860¦O¦PRE¦The Hunter's Way¦].
-Bad X coordinate (51.1,28.1, 1/1 in guide ClassicMulgore0112, line [R The Crossroads].
 --]]
 
 local guide = WoWPro:RegisterGuide('ClassicMulgore0112', "Leveling", 'Mulgore', 'Shinke', 'Horde', 1)
@@ -53,7 +44,7 @@ N Sell junk, repair, and train.
 
 C The Battleboars |QID|780|N|Kill the Battleboars until you complete the Quest, while running to Brambleblade Ravine. (58,85) |M|58,85|
 C Break Sharptusk! |QID|3376|N|Kill the Quilboars on your way to Sharptusks tent. Kill him. (64,77)|M|64,77|
-N Go to the cave |QID|781|L|4851|N|On the inside is a Dirt-stained Map. Loot it. (63,82)|L|Dirt-stained Map|M|63.2,82.7|
+l Loot the Dirt-stained Map inside the cave|QID|781|M|63.2,82.7|L|4851|N|On the inside is a Dirt-stained Map. Loot it.|
 A Attack on Camp Narache |QID|781|U|4851|N|Right-click the Dirt-stained Map.|
 C Rite of Strength |QID|757|N|Make sure you have 12 Bristleback Belts.|
 C Call of Earth (Part 1) |QID|1519|C|Shaman,Schamane,Schamanin|R|Tauren|N|Make sure you also have 2 Ritual Salves. If you don't have, there's a bunch of Shamans around (64.8,79.2).|M|64.8,79.2|
@@ -130,8 +121,8 @@ T The Venture Co. |QID|764|
 T Supervisor Fizsprocket |QID|765|N|Turn it in if you have done it already. Close this step to continue.|
 C Dangers of the Windfury |QID|743|N|Move towards (67.4,72.4) while killing every Prairie Wolf Alpha you come across. Kill the Harpies until you finish the quest. |M|67.4,72.4|
 C Wildmane Totem |QID|759|N|Work your way towards (66.5,64.5) and kill every Prairie Wolf alpha you see. If you haven't finished by arriving there, go north to the other side of the road and go on killing. Just repeat until you finish the Quest.|R|Tauren |M|66.5,64.5|
-R Camp Taurajo |QID|861|N|Go towards the east until you reach Camp Taurajo in the Barrens (44.5,59.1)|Z|The Barrens |M|44.5,59.1|
-f Camp Taurajo |QID|861|N|Get the flightpath at (44.5,59.1).|Z|The Barrens |M|44.5,59.1|
+R Camp Taurajo |QID|861|N|Go towards the east until you reach Camp Taurajo in the Barrens (44.5,59.1)|Z|The Barrens|M|44.5,59.1|
+f Camp Taurajo |QID|861|N|Get the flightpath at (44.5,59.1).|Z|The Barrens|M|44.5,59.1|
 H Bloodhoof Village |QID|861|
 A The Hunter's Way |QID|861|
 T Dangers of the Windfury |QID|743|
@@ -179,7 +170,7 @@ C Body and Heart |QID|6002|U|15710|N|The stone can be found at (42.0,60.9). Use 
 F Thunder Bluff |QID|861|N|The Wind Rider Master is at (44.5,59.1).|C|Druid,Druide,Druidin|R|Tauren|Z|The Barrens|M|44.5,59.1|
 T Body and Heart |QID|6002|
 T The Hunter's Way |QID|861|N|If you've already done Plainstrider Menace this quest won't be available so just skip it.|
-A Sergra Darkthorn|QID|860|O|PRE|The Hunter's Way|
+A Sergra Darkthorn|QID|860|O|PRE|861|
 T Training the Beast |QID|6089|C|Hunter,Jäger,Jägerin|R|Tauren|
 h Thunder Bluff |QID|746|N|Innkeeper Pala (45.8,64.5).|Z|Thunder Bluff|M|45.8,64.5|
 A Preparation for Ceremony |QID|744|
@@ -200,7 +191,7 @@ F Camp Taurajo |QID|886|N|Tal (46.8,50.2)|Z|Thunder Bluff|M|46.8,50.2|
 
 A Journey to the Crossroads|QID|854|R|Tauren|
 
-R The Crossroads|QID|886|N|You'll be heading to the Crossroads now. Be sure to stay on the road and avoid the monsters you encounter, since they will be much higher level than you. (51.1,28.1)|Z|The Barrens|M|(51.1,28.1|
+R The Crossroads|QID|886|N|You'll be heading to the Crossroads now. Be sure to stay on the road and avoid the monsters you encounter, since they will be much higher level than you. (51.1,28.1)|Z|The Barrens|M|51.1,28.1|
 T The Barrens Oases|QID|886|Z|The Barrens|
 T Journey to the Crossroads|QID|854|R|Tauren|Z|The Barrens|
 A Bundle of Hides|QID|6361|R|Tauren|Z|The Barrens|
