@@ -5,7 +5,6 @@
 FIXME:
 Step R [The Grizzled Den:313] in ClassicDunMorogh0112 is missing a CS¦CC¦CN tag.
 Step R [Brewnall Village:318] in ClassicDunMorogh0112 is missing a CS¦CC¦CN tag.
-89:Unknown tag ¦Buy this from the innkeeper.¦ in [B [Thunder Ale] ¦QID¦310¦ ¦L¦2686¦ Buy this from the innkeeper.¦].
 Step R [North Gate Outpost:417] in ClassicDunMorogh0112 is missing a CS¦CC¦CN tag
 --]]
 
@@ -111,7 +110,7 @@ C Stocking Jetsteam |QID|317| |US|
 N Beer Basted Boar Ribs |QID|384|QO|Crag Boar Rib 6/6| |L|2886 6|US|
 N Level 7 |N|You should be level 7 by now. Grind in The Grizzled Den until you are 4 bars into Level 7. Close this step when done.|
 
-N Rhapsody Malt |QID|384| |N|Buy this from the Innkeeper at Kharanos.| |M|47.2,52.5| |L|2894|
+B Rhapsody Malt |QID|384|N|Buy this from the Innkeeper at Kharanos.|M|47.2,52.5|L|2894|
 T Beer Basted Boar Ribs |QID|384| |M|46.82,52.36|
 T Stocking Jetsteam |QID|317| |M|49.43,48.41|
 A Evershine |QID|318| |M|49.43,48.41|
