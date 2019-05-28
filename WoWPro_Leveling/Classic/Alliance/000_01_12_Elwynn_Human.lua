@@ -4,12 +4,12 @@
 
 FIXME:
 Bad X coordinate 38.2,83,6, 1/1 in guide ClassicElwynn0112, line [C Gold Dust Exchange].
-58:Unknown tag ¦.¦ in C Kobold Candles¦QID¦60¦M¦38.2,83.6¦.¦Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.¦S¦.
-58:Unknown tag ¦Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.¦ in C Kobold Candles¦QID¦60¦M¦38.2,83.6¦.¦Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.¦S¦.
-111:Validation failed for tag ¦QID¦239M¦ in N Sell junk and repair¦QID¦239M¦41.5,65.8¦N¦Sell junk and repair at Andrew Krighton. Close this step when you're done.¦.
-111:Unknown tag ¦41.5,65.8¦ in N Sell junk and repair¦QID¦239M¦41.5,65.8¦N¦Sell junk and repair at Andrew Krighton. Close this step when you're done.¦.
-137:Unknown tag ¦Fly to Stormwind.¦ in F Trade District¦QID¦6281¦Fly to Stormwind.¦.
-138:Unknown tag ¦NWhen you're done, close this step.¦ in N Train new skills¦QID¦6281¦NWhen you're done, close this step.¦
+58:Unknown tag ¦.¦ in [C Kobold Candles¦QID¦60¦M¦38.2,83.6¦.¦Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.¦S¦].
+58:Unknown tag ¦Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.¦ in [C Kobold Candles¦QID¦60¦M¦38.2,83.6¦.¦Kill Kobolds until you've looted 10 Gold Dust and 8 Large Candles.¦S¦].
+111:Validation failed for tag ¦QID¦239M¦ in [N Sell junk and repair¦QID¦239M¦41.5,65.8¦N¦Sell junk and repair at Andrew Krighton. Close this step when you're done.¦].
+111:Unknown tag ¦41.5,65.8¦ in [N Sell junk and repair¦QID¦239M¦41.5,65.8¦N¦Sell junk and repair at Andrew Krighton. Close this step when you're done.¦].
+137:Unknown tag ¦Fly to Stormwind.¦ in [F Trade District¦QID¦6281¦Fly to Stormwind.¦].
+138:Unknown tag ¦N]When you're done, close this step.¦ in [N Train new skills¦QID¦6281¦N]When you're done, close this step.¦].
 --]]
 
 local guide = WoWPro:RegisterGuide('ClassicElwynn0112', "Leveling", 'Elwynn Forest', 'Maw', 'Alliance', 1)
