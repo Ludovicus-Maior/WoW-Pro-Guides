@@ -33,6 +33,7 @@ WoWPro.Leveling.ClassicStartGuides = {
 	Human = 'ClassicElwynn0112',
 	NightElf = "ClassicTeldrassil0112",
     Orc = 'ClassicDurotar0112',
+	Tauren = 'ClassicMulgore0112',
 	Troll = 'ClassicDurotar0112'
 }
 
