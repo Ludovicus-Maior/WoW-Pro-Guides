@@ -6,16 +6,6 @@ FIXME:
 Step R [The Grizzled Den:313] in ClassicDunMorogh0112 is missing a CS¦CC¦CN tag.
 Step R [Brewnall Village:318] in ClassicDunMorogh0112 is missing a CS¦CC¦CN tag.
 89:Unknown tag ¦Buy this from the innkeeper.¦ in [B [Thunder Ale] ¦QID¦310¦ ¦L¦2686¦ Buy this from the innkeeper.¦].
-ValidZone: Zone [Stormwind] is unknown.
-Step T [The Slaughtered Lamb] has a bad ¦Z¦Stormwind¦ tag.
-ValidZone: Zone [Stormwind] is unknown.
-Step A [Surena Caledon] has a bad ¦Z¦Stormwind¦ tag.
-ValidZone: Zone [Stormwind] is unknown.
-Step T [Surena Caledon] has a bad ¦Z¦Stormwind¦ tag.
-ValidZone: Zone [Stormwind] is unknown.
-Step A [The Binding] has a bad ¦Z¦Stormwind¦ tag.
-ValidZone: Zone [Stormwind] is unknown.
-Step T [The Binding] has a bad ¦Z¦Stormwind¦ tag.
 Step R [North Gate Outpost:417] in ClassicDunMorogh0112 is missing a CS¦CC¦CN tag
 --]]
 
@@ -26,27 +16,26 @@ WoWPro:GuideLevels(guide,1,12, 2)
 --        "Interface\\Icons\\Achievement_Character_Dwarf_Male",
 --        "Interface\\Icons\\Achievement_Character_Dwarf_Female"))
 WoWPro:GuideSteps(guide, function() return [[
-K Kill Wolves and Troggs |QID|179|  |M|29.80,74.30| |N| Kill these until you are level 2. Close this step when done.|
-A Dwarven Outfitters |QID|179| |M|29.87,71.88|
-C Dwarven Outfitters |QID|179| |M|29.80,74.30| |N|Go kill Ragged Young Wolves until you get 8 Tough Wolf Meat.|
-T Dwarven Outfitters |QID|179| |M|29.87,71.88|
+A Dwarven Outfitters|QID|179|M|29.92,71.21|
+L Kill Wolves and Troggs|QID|179|LVL|2|M|29.80,74.30|N|Kill these until you are level 2. Close this step when done.|
+C Dwarven Outfitters|QID|179|M|29.80,74.30|N|Go kill Ragged Young Wolves until you get 8 Tough Wolf Meat.|
+T Dwarven Outfitters|QID|179|M|29.92,71.21|
 
-A Encrypted Rune |C|Rogue| |R|Dwarf| |QID|3109| |M|29.87,71.88|
-A Etched Rune |C|Hunter| |R|Dwarf| |QID|3108| |M|29.87,71.88|
-A Hallowed Rune |C|Priest| |R|Dwarf| |QID|3110| |M|29.87,71.88|
-A Simple Rune |C|Warrior| |R|Dwarf| |QID|3106| |M|29.87,71.88|
-A Consecrated Rune |C|Paladin| |R|Dwarf| |QID|3107| |M|29.87,71.88|
-A Tainted Memorandum |C|Warlock| |R|Gnome| |QID|3115| |M|29.87,71.88|
-A Glyphic Memorandum |C|Mage| |R|Gnome| |QID|3114| |M|29.87,71.88|
-A Encrypted Memorandum |C|Rogue| |R|Gnome| |QID|3113| |M|29.87,71.88|
-A Simple Memorandum |C|Warrior| |R|Gnome| |QID|3112| |M|29.87,71.88|
+A Encrypted Rune|C|Rogue|R|Dwarf|QID|3109|M|29.92,71.21|
+A Etched Rune|C|Hunter|R|Dwarf|QID|3108|M|29.92,71.21|
+A Hallowed Rune|C|Priest|R|Dwarf|QID|3110|M|29.92,71.21|
+A Simple Rune|C|Warrior|R|Dwarf|QID|3106|M|29.92,71.21|
+A Consecrated Rune|C|Paladin|R|Dwarf|QID|3107|M|29.92,71.21|
+A Tainted Memorandum|C|Warlock|R|Gnome|QID|3115|M|29.92,71.21|
+A Glyphic Memorandum|C|Mage|R|Gnome|QID|3114|M|29.92,71.21|
+A Encrypted Memorandum|C|Rogue|R|Gnome|QID|3113|M|29.92,71.21|
+A Simple Memorandum|C|Warrior|R|Gnome|QID|3112|M|29.92,71.21|
 
-A Coldridge Valley Mail Delivery |QID|233| |M|29.87,71.88|
-A A New Threat |QID|170| |M|29.71,71.25|
-N Sell |M|30.09,71.52| |N|Sell your junk. Close this step when done.|
-C A New Threat |N|The troggs are to the south.| |M|31.30,76.10| |QID|170|
-T A New Threat |QID|170| |M|29.71,71.25|
-N Sell |M|28.66,67.74| |N|Sell your junk. Close this step when done.|
+A Coldridge Valley Mail Delivery |QID|233| |M|29.92,71.21|
+A A New Threat|QID|170|M|29.71,71.25|
+r Sell Junk|QID|233|M|30.08,71.56|N|Sell your junk. Right-click this step when done.|
+C A New Threat|N|The troggs are to the south.|M|31.30,76.10|QID|170|
+T A New Threat|QID|170| |M|29.71,71.25|
 
 T Encrypted Rune |C|Rogue| |R|Dwarf| |QID|3109|
 T Etched Rune |C|Hunter| |R|Dwarf| |QID|3108|
@@ -198,13 +187,13 @@ T Onin's Report |QID|2239| |C|Rogue| |R|Dwarf, Gnome| |M|51.90,14.89|Z|Ironforge
 
 R Ironforge |QID|1715| |C|Warlock| |M|53.31,35.09| |N|Class quest for your Voidwalker starts here.|
 A The Slaughtered Lamb |QID|1715| |C|Warlock| |N|This starts in Ironforge.| |M|47.63,9.29|Z|Ironforge|
-T The Slaughtered Lamb |QID|1715| |C|Warlock| |N|To continue with this quest, you'll need to take the Deeprum Tram at the East end of Ironforge to Stormwind, then go to the Mage Quarter and down the stairs inside the bar.| |M|39.23,85.27|Z|Stormwind|
-A Surena Caledon |QID|1688| |C|Warlock| |M|39.23,85.27|Z|Stormwind|
+T The Slaughtered Lamb |QID|1715| |C|Warlock| |N|To continue with this quest, you'll need to take the Deeprum Tram at the East end of Ironforge to Stormwind, then go to the Mage Quarter and down the stairs inside the bar.| |M|39.23,85.27|Z|Stormwind City|
+A Surena Caledon |QID|1688| |C|Warlock| |M|39.23,85.27|Z|Stormwind City|
 C Surena Caledon |QID|1688| |C|Warlock| |N|Surena can be found in a house at (71.0, 80.6) in Elwynn Forest.| |M|71.0,80.6|Z|Elwynn Forest|
-T Surena Caledon |QID|1688| |C|Warlock| |M|39.23,85.27|Z|Stormwind|
-A The Binding |QID|1689| |C|Warlock| |M|39.23,85.27|Z|Stormwind|
+T Surena Caledon |QID|1688| |C|Warlock| |M|39.23,85.27|Z|Stormwind City|
+A The Binding |QID|1689| |C|Warlock| |M|39.23,85.27|Z|Stormwind City|
 C The Binding |QID|1689| |C|Warlock| |N|The Summoning Circle is farther underneath the trainers.|
-T The Binding |QID|1689| |C|Warlock| |M|39.23,85.27|Z|Stormwind| |N|Congrats! You now can use a Voidwalker.|
+T The Binding |QID|1689| |C|Warlock| |M|39.23,85.27|Z|Stormwind City|N|Congrats! You now can use a Voidwalker.|
 H Thunderbrew Distillery |C|Warlock| |U|6948|
 
 A Muren Stormpike |QID|1679| |C|Warrior| |R|Gnome, Dwarf|
