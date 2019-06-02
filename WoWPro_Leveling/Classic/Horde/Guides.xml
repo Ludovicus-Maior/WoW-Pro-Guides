@@ -1,5 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Script file="01_12_Durotar_Orc_Troll.lua"/>
   <Script file="01_12_Mulgore_Tauren.lua"/>
-  <Script file="01_05_OrcStarter_Ludo.lua"/>
   <Script file="01_12_Tirisfal_Undead.lua"/>
 </Ui>
