@@ -237,36 +237,36 @@ C Creature of the Void|QID|1501|C|Warlock|R|Orc,Troll|M|51.6,9.7|N|The tablet is
 K Gazz'uz|QID|832|M|51.5,9.7|U|4945|L|4903|N|Find Gazz'uz at either (52.6,8.8) or (51.5,9.7). Use your glowing skull if you need to.|
 A Burning Shadows|QID|832|U|4903|N|Click on the item that drops from Gazz'uz to start this quest.|
 
-T Skull Rock|QID|827|M|56.4,20.1|N|Go back to Margoz.|
+T Skull Rock|QID|827|N|Go back to Margoz.|M|56.4,20.1|
 A Neeru Fireblade|QID|829|M|56.4,20.1|
 
-T Hidden Enemies|QID|5730|M|31.9,37.8|Z|Orgrimmar|
-A Hidden Enemies|QID|5727|M|31.9,37.8|Z|Orgrimmar|
-T Neeru Fireblade|QID|829|M|49.6,50.5|Z|Orgrimmar|N|Go to The Cleft of Shadow and find Neeru Fireblade outside the entrance to Ragefire Chasm.|
-T Burning Shadows|QID|832|M|49.6,50.5|Z|Orgrimmar|
-C Hidden Enemies|QID|5727|M|49.6,50.5|Z|Orgrimmar|N|Keep talking to Neeru Fireblade to complete Hidden Enemies.|
-T Creature of the Void|QID|1501|C|Warlock|R|Orc,Troll|M|48.2,45.7|Z|Orgrimmar|
-A The Binding|QID|1504|C|Warlock|R|Orc,Troll|M|48.2,45.7|Z|Orgrimmar|
-C The Binding|QID|1504|C|Warlock|R|Orc,Troll|M|49.7,50.5|Z|Orgrimmar|U|7464|N|Go to the summoning circle and use the Glyph of Summoning.|
-T The Binding|QID|1504|C|Warlock|R|Orc,Troll|M|48.2,45.7|Z|Orgrimmar|
-N Summon Voidwalker|QID|5727|C|Warlock|R|Orc,Troll|N|You can now summon a voidwalker! This will be your tanking pet, and should make leveling your warlock significantly easier. Congrats!|
-T Hidden Enemies|QID|5727|M|31.9,37.8|Z|Orgrimmar|N|Go back to Thrall and turn in Hidden Enemies. (You may consider taking the followup if you want to run Ragefire Chasm, if not, do not take it.)|
+T Hidden Enemies|QID|5730|Z|Orgrimmar|M|31.9,37.8|
+A Hidden Enemies|QID|5727|Z|Orgrimmar|M|31.9,37.8|
+T Neeru Fireblade|QID|829|N|Go to The Cleft of Shadow and find Neeru Fireblade outside the entrance to Ragefire Chasm.|Z|Orgrimmar|M|49.6,50.5|
+T Burning Shadows|QID|832|Z|Orgrimmar|M|49.6,50.5|
+C Hidden Enemies|QID|5727|N|Keep talking to Neeru Fireblade to complete Hidden Enemies.|Z|Orgrimmar|M|49.6,50.5|
+T Creature of the Void|QID|1501|C|Warlock|R|Orc, Troll|Z|Orgrimmar|M|48.2,45.7|
+A The Binding|QID|1504|C|Warlock|R|Orc, Troll|Z|Orgrimmar|M|48.2,45.7|
+C The Binding|QID|1504|C|Warlock|N|Go to the summoning circle and use the Glyph of Summoning.|U|7464|R|Orc, Troll|Z|Orgrimmar|M|49.7,50.5|
+T The Binding|QID|1504|C|Warlock|R|Orc, Troll|Z|Orgrimmar|M|48.2,45.7|
+N Summon Voidwalker|QID|5727|N|You can now summon a voidwalker! This will be your tanking pet, and should make leveling your warlock significantly easier. Congrats!|C|Warlock|R|Orc, Troll|
+T Hidden Enemies|QID|5727|N|Go back to Thrall and turn in Hidden Enemies. (You may consider taking the followup if you want to run Ragefire Chasm, if not, do not take it.)|Z|Orgrimmar|M|31.9,37.8|
 N Ragefire Chasm|QID|5728|N|Now you can start looking for a group for the Ragefire Chasm instance. You already have the quest Hidden Enemies and you can pick up Slaying the Beast from Neeru Fireblade outside of the instance. This instance gives alot of XP points if you need them, and it may drop some nice Blue Items you may find of use.|
 
-A Conscript of the Horde|QID|840|M|50.9,43.6|N|Go to Razor Hill. At the western gates, you'll find Takrin Pathseeker. Talk to him.|
-T Conscript of the Horde|QID|840|M|62.3,19.4|Z|The Barrens|N|Head west, following the road, until you meet a bridge. Cross the bridge, find the guard tower nearby, and talk to Kargal Battlescar.|
-A Crossroads Conscription|QID|842|M|62.3,19.4|Z|The Barrens|
-R The Crossroads|QID|842|M|51.1,28.1|Z|The Barrens|N|Your next order of business is to get to the Crossroads. Follow the road west until you meet a junction, then turn south. The crossroads is a short walk ahead of you.|
-T Crossroads Conscription|QID|842|M|52.2,31|Z|The Barrens|
-A Meats to Orgrimmar|QID|6365|R|Orc,Troll|M|52.6,29.9|Z|The Barrens|
-T Meats to Orgrimmar|QID|6365|R|Orc,Troll|M|51.5,30.3|Z|The Barrens|
-A Ride to Orgrimmar|QID|6384|R|Orc,Troll|M|51.5,30.3|Z|The Barrens|
-F Orgrimmar|QID|6384|R|Orc,Troll|M|51.1,28.1|Z|The Barrens|
-T Ride to Orgrimmar|QID|6384|R|Orc,Troll|M|54.1,68.6|Z|Orgrimmar|
-A Doras the Wind Rider Master|QID|6385|R|Orc,Troll|M|54.1,68.6|Z|Orgrimmar|
-T Doras the Wind Rider Master|QID|6385|R|Orc,Troll|M|45.3,64|Z|Orgrimmar|
-A Return to the Crossroads|QID|6386|R|Orc,Troll|M|45.3,64|Z|Orgrimmar|
-F The Crossroads|QID|6386|R|Orc,Troll|Z|Orgrimmar|N|Fly back to Crossroads.|
-T Return to the Crossroads|QID|6386|R|Orc,Troll|M|52.6,29.9|Z|The Barrens|
+A Conscript of the Horde|QID|840|N|Go to Razor Hill. At the western gates, you'll find Takrin Pathseeker. Talk to him.|M|50.9,43.6|
+T Conscript of the Horde|QID|840|N|Head west, following the road, until you meet a bridge. Cross the bridge, find the guard tower nearby, and talk to Kargal Battlescar.|Z|The Barrens|M|62.3,19.4|
+A Crossroads Conscription|QID|842|Z|The Barrens|M|62.3,19.4|
+R The Crossroads|QID|842|N|Your next order of business is to get to the Crossroads. Follow the road west until you meet a junction, then turn south. The crossroads is a short walk ahead of you.|Z|The Barrens|M|51.1,28.1|
+T Crossroads Conscription|QID|842|Z|The Barrens|M|52.2,31|
+A Meats to Orgrimmar|QID|6365|Z|The Barrens|R|Orc, Troll|M|52.6,29.9|
+T Meats to Orgrimmar|QID|6365|Z|The Barrens|R|Orc, Troll|M|51.5,30.3|
+A Ride to Orgrimmar|QID|6384|Z|The Barrens|R|Orc, Troll|M|51.5,30.3|
+F Orgrimmar|QID|6384|Z|The Barrens|R|Orc, Troll|M|51.1,28.1|
+T Ride to Orgrimmar|QID|6384|Z|Orgrimmar|R|Orc, Troll|M|54.1,68.6|
+A Doras the Wind Rider Master|QID|6385|Z|Orgrimmar|R|Orc, Troll|M|54.1,68.6|
+T Doras the Wind Rider Master|QID|6385|Z|Orgrimmar|R|Orc, Troll|M|45.3,64|
+A Return to the Crossroads|QID|6386|Z|Orgrimmar|R|Orc, Troll|M|45.3,64|
+F The Crossroads|QID|6386|N|Fly back to Crossroads.|Z|Orgrimmar|R|Orc, Troll|
+T Return to the Crossroads|QID|6386|Z|The Barrens|R|Orc, Troll|M|52.6,29.9|
 ]]
 end)
