@@ -1244,3 +1244,16 @@ else
     WoWPro.GetNumPartyMembers = GetNumPartyMembers
 end
 
+
+-- TourGuide for CLASSIC
+TourGuide = TourGuide or {}
+
+if not TourGuide['RegisterGuide'] then
+    function TourGuide:RegisterGuide(GIDvalue, zonename, authorname, lowerLevel, upperLevel, nextGID, faction, steps)
+        guide = WoWPro:RegisterGuide(GIDvalue, "Leveling", zonename, authorname, faction, 1)
+        WoWPro:GuideLevels(guide, tonumber(lowerLevel), tonumber(upperLevel))
+        WoWPro:GuideNextGuide(guide, nextGID)
+        WoWPro:GuideName(guide, zonename)
+        WoWPro:GuideSteps(guide, steps)
+    end
+end
