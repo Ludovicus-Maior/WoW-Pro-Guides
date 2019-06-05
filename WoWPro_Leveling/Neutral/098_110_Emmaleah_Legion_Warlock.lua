@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3679
+-- Date: 2019-06-05 19:55
+-- Who: Ludovicus_Maior
+-- Log: Updated Z tags
+
+-- URL: http://wow-pro.com/node/3679/revisions/30010/view
 -- Date: 2018-10-17 02:29
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -120,9 +125,9 @@ T In the Blink of an Eye|QID|44663^44184|M|57.57,45.83|Z|Dalaran!Dalaran!Dungeon
 
 ;Warlock
 A The Sixth|QID|40716|M|57.47,45.56|Z|Dalaran!Dalaran!Dungeon|N|From Ritssyn Flamescowl. It takes about 20 seconds after the previous quest was turned in, he will pop up wherever you're at.|PRE|44663|
-T The Sixth|QID|40716|M|57.89,59.96|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|Turn in to Ritssyn Flamescowl after following him into the portal.|
-A The New Blood|QID|40729|M|57.88,59.99|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|From Ritssyn Flamescowl.|PRE|40716|
-C The New Blood|QID|40729|NC|QO|1|M|58.36,68.06|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|Wait a minute or so until the gate is fully formed and then click on the gate to perform the ritual and then wait until you are transported to a solo scenario.|
+T The Sixth|QID|40716|M|57.89,59.96|Z|The Underbelly@Dalaran!Broken Isles|N|Turn in to Ritssyn Flamescowl after following him into the portal.|
+A The New Blood|QID|40729|M|57.88,59.99|Z|The Underbelly@Dalaran!Broken Isles|N|From Ritssyn Flamescowl.|PRE|40716|
+C The New Blood|QID|40729|NC|QO|1|M|58.36,68.06|Z|The Underbelly@Dalaran!Broken Isles|N|Wait a minute or so until the gate is fully formed and then click on the gate to perform the ritual and then wait until you are transported to a solo scenario.|
 C Far From Home|NC|SO|1|Z|DreadscarRift|N|Listen to Ritssyn.|QID|40729|
 C The Dread Warden|SO|2;1|M|33.80,57.27|Z|DreadscarRift|N|Use the extra action button to Enslave the jailer Beshtal thus freeing yourself from his cage, then defeat him with Ritssyn's aid.|QID|40729|
 C Escape the Jailer|SO|2;2|M|34.38,60.16|Z|DreadscarRift|N|Now you fight him.|QID|40729|
@@ -132,11 +137,11 @@ C Shinfel Blightsworn freed|SO|3;3|M|42.81,61.87|Z|DreadscarRift|N|Shinfel Bligh
 C Meet with Calydus|SO|4;1|M|42.27,40.16|Z|DreadscarRift|N|Follow Calydus, click on the crystals to lower the barrior (after killing the jailers guarding them).|QID|40729|
 C Tome of Blighted Implements|SO|5;1|M|56.21,36.34|Z|DreadscarRift|N|Follow Calydus to the archives, pick up the 'felbound tome' after killing Nelach, the All-Seeing.|QID|40729|
 C The New Blood|QID|40729|QO|2|M|45.93,64.68|Z|DreadscarRift|N|Jagganoth appears and throws you out of the area, follow Calydus to escape from Dreadscar Rift.|
-T The New Blood|QID|40729|M|55.74,65.38|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|To Calydus.|
-A The Tome of Blighted Implements|QID|40684|M|55.74,65.38|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|From Calydus.|PRE|40729|
-C The Tome of Blighted Implements|QID|40684|QO|1|M|55.87,65.36|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
-T The Tome of Blighted Implements|QID|40684|M|55.87,65.36|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|To Calydus.|
-A Artifact Specific Quest|QID|43100^40495^42128|M|55.87,65.36|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|From Calydus.|PRE|40684&40686|
+T The New Blood|QID|40729|M|55.74,65.38|Z|The Underbelly@Dalaran!Broken Isles|N|To Calydus.|
+A The Tome of Blighted Implements|QID|40684|M|55.74,65.38|Z|The Underbelly@Dalaran!Broken Isles|N|From Calydus.|PRE|40729|
+C The Tome of Blighted Implements|QID|40684|QO|1|M|55.87,65.36|Z|The Underbelly@Dalaran!Broken Isles|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
+T The Tome of Blighted Implements|QID|40684|M|55.87,65.36|Z|The Underbelly@Dalaran!Broken Isles|N|To Calydus.|
+A Artifact Specific Quest|QID|43100^40495^42128|M|55.87,65.36|Z|The Underbelly@Dalaran!Broken Isles|N|From Calydus.|PRE|40684&40686|
 
 ;AFFLICTION
 ;A Ulthalesh, the Deadwind Harvester|QID|40495|M|55.70,65.40|Z|Dalaran!Dalaran!Dungeon|N|From Calydus.|PRE|40684|
@@ -175,7 +180,7 @@ C The Dark Riders|QID|41155^40623|NC|QO|2|M|68.62,26.02|Z|KarazhanScenario|N|Pic
 T The Dark Riders|QID|41155^40623|M|68.21,27.38|Z|KarazhanScenario|N|To Revil Kost.|
 A The Power Possessed|QID|40712|M|68.21,27.38|Z|KarazhanScenario|N|From Revil Kost.|PRE|40623|LEAD|43984|;lead is to make this line only show on first artifact turn in. 2nd/3rd Calydus has moved to order hall.
 U Return to Dalaran|QID|40712|M|68.21,27.38|Z|KarazhanScenario|U|140192|N|Use your Dalaran Hearthstone to return.|ACTIVE|40712|
-T The Power Possessed|QID|40712|M|55.85,65.40|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|To Calydus.|
+T The Power Possessed|QID|40712|M|55.85,65.40|Z|The Underbelly@Dalaran!Broken Isles|N|To Calydus.|
 
 ;DEMONOLOGY
 ; A Ritual Reagents|QID|42128|M|55.82,65.24|Z|Dalaran!Dalaran!Dungeon|N|From Calydus.|PRE|40684|
@@ -200,7 +205,7 @@ C Mephistroth Defeated|SO|5;2|M|31.21,65.62|Z|Suramar|N|Defeat Mephistroth|QID|4
 C Retrieve the skull|SO|6;1|M|31.10,65.92|Z|Suramar|N|Retrieve the skull|QID|42125|
 C Dark Whispers|QID|42125|QO|2|M|31.10,65.92|Z|Suramar|N|Pick up the Skull of the Man'ari|
 C Portal of Thal'kiel used|SO|7;1|M|31.33,65.88|Z|Suramar|N|Portal of Thal'kiel used|QID|42125|
-T Dark Whispers|QID|42125|M|55.66,65.30|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|To Calydus, in the Underbelly.|LEAD|43984|;lead is to make this line only show on first artifact turn in. 2nd/3rd Calydus has moved to order hall.
+T Dark Whispers|QID|42125|M|55.66,65.30|Z|The Underbelly@Dalaran!Broken Isles|N|To Calydus, in the Underbelly.|LEAD|43984|;lead is to make this line only show on first artifact turn in. 2nd/3rd Calydus has moved to order hall.
 
 ;DESTRUCTION
 ;A Finding the Scepter|QID|43100|M|55.87,65.36|Z|Dalaran!Dalaran!Dungeon|N|From Calydus.|PRE|40684|
@@ -235,11 +240,11 @@ C Ritual Ruination|QID|43254|QO|3|M|59.72,25.71|Z|Broken Shore|N|Slay Allaris Na
 C Ritual Ruination|QID|43254|NC|QO|4|M|60.16,25.41|Z|Broken Shore|N|Take the Scepter of Sargeras.|
 C Ritual Ruination|QID|43254|NC|QO|5|M|60.16,25.41|Z|Broken Shore|N|Click on the Legion Alter to ruin the ritual.|
 C Ritual Ruination|QID|43254|QO|6|M|58.95,26.81|Z|Broken Shore|N|Escape to Dalaran and meet Calydus.|
-T Ritual Ruination|QID|43254|M|55.86,64.99|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|To Calydus.|LEAD|43984|;lead is to make this line only show on first artifact turn in. 2nd/3rd Calydus has moved to order hall.
+T Ritual Ruination|QID|43254|M|55.86,64.99|Z|The Underbelly@Dalaran!Broken Isles|N|To Calydus.|LEAD|43984|;lead is to make this line only show on first artifact turn in. 2nd/3rd Calydus has moved to order hall.
 
 ;Warlock class hall
-A The Heart of the Dreadscar|QID|40731|M|55.86,64.99|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|From Calydus.|PRE|40712|
-R Dreadscar Rift|QID|40731|M|61.42,72.76|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|CC|N|Run into the portal to enter the solo scenario.|ACTIVE|40731|
+A The Heart of the Dreadscar|QID|40731|M|55.86,64.99|Z|The Underbelly@Dalaran!Broken Isles|N|From Calydus.|PRE|40712|
+R Dreadscar Rift|QID|40731|M|61.42,72.76|Z|The Underbelly@Dalaran!Broken Isles|CC|N|Run into the portal to enter the solo scenario.|ACTIVE|40731|
 C The Council's Vengeance|SO|1;1|M|56.18,36.02|Z|DreadscarRift|N|Run forward to find and defeat Jagganoth.|QID|40731|
 C Heart of the Overlord|NC|SO|2;1|M|56.18,36.02|Z|DreadscarRift|N|Click twice to pick up the Heart of the Overlord.|QID|40731|
 C Heart placed above the altar|SO|3;1|M|32.25,25.30|Z|DreadscarRift|N|Run to the altar and place the Heart of the Overlord above it.|QID|40731|
@@ -256,7 +261,7 @@ T The Path of the Dreadscar|QID|40824|M|65.69,47.86|Z|717|N|To Ritssyn Flamescow
 
 L Blocked till 101|QID|42608|LVL|101|N|The next quest in the class hall requires level 101.|
 A A Mutual Friend|QID|44099|LVL|101|N|From Black Harvest Acolyte.|
-T A Mutual Friend|QID|44099|M|56.4,64.6|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|To Calydus.|
+T A Mutual Friend|QID|44099|M|56.4,64.6|Z|The Underbelly@Dalaran!Broken Isles|N|To Calydus.|
 A Rise, Champions|QID|42608|LVL|101|M|37.47,31.72|N|From Calydus.|
 C Rise, Champions|QID|42608|M|65.66,47.46|N|Recruit Ritssyn Flamescowl.|
 T Rise, Champions|QID|42608|M|66.82,45.95|N|To Gakin the Darkbinder.|
