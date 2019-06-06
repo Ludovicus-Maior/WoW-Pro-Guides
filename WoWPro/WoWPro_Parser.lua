@@ -27,7 +27,7 @@ WoWPro.actiontypes = {
 	["!"] = "Interface\\GossipFrame\\DailyQuestIcon",
 	["$"] = "Interface\\Worldmap\\TreasureChest_64",
 	["="] = "Interface\\Icons\\Spell_lightning_lightningbolt01",
-	[";"] = "Interface\\Icons\\INV_Scroll_11",
+	[";"] = "Interface\\AddOns\\WoWPro\\Textures\\INV_Scroll_11",
 }
 if UnitFactionGroup("player") == 'Alliance' then
     WoWPro.actiontypes['P'] = "Interface\\MINIMAP\\Vehicle-AllianceMagePortal"
