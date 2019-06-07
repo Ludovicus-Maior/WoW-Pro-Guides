@@ -959,7 +959,7 @@ end
 -- Left-Click Row Function --
 function WoWPro:RowLeftClick(i)
     local QID = tonumber(WoWPro.QID[WoWPro.rows[i].index])
-	if  QID and WoWPro.QuestLog[QID] and not WoWPro.CLASSIC then
+	if  QID and WoWPro.QuestLog[QID] then
 	    QuestMapFrame_OpenToQuestDetails(QID)
 	end
 	WoWPro.rows[i]:SetChecked(nil)
@@ -1512,13 +1512,7 @@ function WoWPro.NextStep(k,i)
 		-- Skipping profession quests if their requirements aren't met --
 		if WoWPro.prof[k] and not skip then
 			local prof, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
-			if proflvl == '*' then
-                -- Set to the maximum level obtainable in the expansion plus 1
-                proflvl = 801
-                if WoWPro.CLASSIC then
-                    proflvl = 301
-                end
-            end
+			if proflvl == '*' then proflvl = 801 end -- Set to the maximum level obtainable in the expansion plus 1
 			proflvl = tonumber(proflvl) or 1
 			profmaxlvl = tonumber(profmaxlvl) or 0
 			profmaxskill = tonumber(profmaxskill) or 0
@@ -1528,41 +1522,7 @@ function WoWPro.NextStep(k,i)
                     proflvl = 1
                 end	    
 			end
-
-            -- scan skill lines for profession information in Classic
-            if WoWPro.CLASSIC then
-                local hasProf = false
-                skip = true
-                for idx = 1, GetNumSkillLines() do
-                    -- check if the skill line has the profession name we are looking for
-                    -- FIXME: check if this is localized
-                    local slName, _, _, slRank, _, sltmpPoints, slModifier, slMaxRank = GetSkillLineInfo(idx)
-                    local skillRank = slRank + sltmpPoints + slModifier
-                    if prof == slName then
-                        hasProf = true
-                        if WoWPro.action[k] == "M" then
-                            proflvl = math.max(proflvl - rankModifier, 1)
-                            profmaxlvl = math.max(profmaxlvl - rankModifier, 1)
-                        end
-                        WoWPro:dbp("Prof prof=%s,%d proflvl=%d, profmaxlvl=%d, profmaxskill=%d", prof, profnum, proflvl, profmaxlvl, profmaxskill)
-                        WoWPro:dbp("GetSkillLineInfo(): skillName=%s, skillRank=%d, slMaxRank=%d", slName, slRank, slMaxRank)
-                        if (profmaxlvl == 0) and (skillRank >= proflvl) then
-                            WoWPro.why[k] = "NextStep(): profmaxlvl == 0 and skillRank >= proflvl"
-                            WoWPro:dbp(WoWPro.why[k])
-                            skip = false
-                        elseif (profmaxlevel > 0) and (skillRank < profmaxlevel) then
-                            WoWPro.why[k] = "NextStep(): profmaxlvl > 0 and skillRank < profmaxlvl"
-                            WoWPro:dbp(WoWPro.why[k])
-                            skip = false
-                        elseif (profmaxlevel > 0) and (skillRank < slMaxRank) then
-                            WoWPro.why[k] = "NextStep(): profmaxlvl > 0 and profmaxskill < maxskill"
-                            WoWPro:dbp( WoWPro.why[k])
-                            skip = true
-                        end
-                        WoWPro:dbp("prof skip = %s", tostring(skip))
-                    end
-                end
-			elseif type(prof) == "string" and type(proflvl) == "number" then
+			if type(prof) == "string" and type(proflvl) == "number" then
 				local hasProf = false
 				skip = true --Profession steps skipped by default
 				local profs = {}
@@ -1610,7 +1570,7 @@ function WoWPro.NextStep(k,i)
 				    WoWProCharDB.Guide[GID].skipped[k] = true
 				    WoWPro:SetQIDsInTable(QID,WoWProCharDB.skippedQIDs)
 				    WoWPro:dbp("Prof permaskip qid %s for no %s",WoWPro.QID[k],prof)
-				    skip = true
+				    skip = true 
 				    break
 				end
 			else
