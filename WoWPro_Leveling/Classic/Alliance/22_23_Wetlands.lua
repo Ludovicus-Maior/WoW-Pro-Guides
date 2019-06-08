@@ -13,6 +13,7 @@
 local guide = WoWPro:RegisterGuide('ClassicWetlands2223', 'Leveling', 'Wetlands', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Wetlands 22-23')
 WoWPro:GuideLevels(guide, 22, 23, 22)
+WoWPro:GuideNextGuide(guide, 'ClassicAshenvale2324')
 WoWPro:GuideSteps(guide, function() return [[
 F Trade District|QID|1078|N|Fly to Stormwind|M|77.50, 44.30|Z|Duskwood|
 A The Corruption Abroad|QID|3765|M|36.4,67.5|Z|Stormwind City|

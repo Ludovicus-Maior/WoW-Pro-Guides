@@ -1,6 +1,14 @@
-TourGuide:RegisterGuide("Ashenvale (23-24)", "Stonetallon (24-24)", "Alliance", function()
-return [[
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- FIXME:
+-- Step T [The Zoram Strand:nil] in ClassicAshenvale2324 is missing a CS¦CC¦CN tag.
+-- Step R [Stonetalon Mountains:1070] in ClassicAshenvale2324 is missing a CS¦CC¦CN tag.
+
+local guide = WoWPro:RegisterGuide('ClassicAshenvale2324', 'Leveling', 'Ashenvale', 'Boston', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Ashenvale 23-24')
+WoWPro:GuideLevels(guide, 23, 24, 23)
+WoWPro:GuideSteps(guide, function() return [[
 R Ashenvale|QID|1133|N|Run south to Ashenvale.|Z|Darkshore|M|44.25,96.17|
 A Bathran's Hair|QID|1010|M|26.4,38.6|
 R Astranaar|QID|1133|M|34.39,48.03|
