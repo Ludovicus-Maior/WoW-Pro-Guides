@@ -1,9 +1,10 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('ClassicLochModan1213', 'Leveling', 'Loch Modan', 'Maw', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicLochModan1213', 'Leveling', 'Loch Modan', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Loch Modan 12-13')
-WoWPro:GuideLevels(guide, 12, 13, 12)
+WoWPro:GuideLevels(guide, 12, 14, 13)
+WoWPro:GuideNextGuide(guide, 'ClassicWestfall1415')
 WoWPro:GuideSteps(guide, function () return [[
 R Stormwind City|QID|1339|N|Go to Stormwind City.|
 F Ironforge|QID|1339|N|Fly to Ironforge|
