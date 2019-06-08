@@ -13,7 +13,7 @@ C The Stave of Equinex |N|Right-click Troyas' Stave in your inventory to charge 
 T The Stave of Equinex |N| | |QID|2879|M|38.85,13.30|
 A The Morrow Stone |QID|2942|M|38.8,13.2|
 N READ |QID|2844||M|38.2,10.2|
-T The Giant Guardian|M|38.2,10.2| |QID|2844|M|38.20,10.20|
+T The Giant Guardian|M|38.20,10.20|QID|2844|
 A Wandering Shay |QID|2845|M|38.20,10.30|
 C Wandering Shay |N|Run to this location and use the bell in your inventory to have the NPC run to you to make her follow you to this location.  The bell has a cooldown, but the NPC will continue to run to you until actually reaching you (and then you will have to ring the bell again), so keep running towards the arrow. (42.00, 21.00)| |QID|2845|M|38.2,10.3|
 T Wandering Shay |QID|2845|M|42.4,22.0|
