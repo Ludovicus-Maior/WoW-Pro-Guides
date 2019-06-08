@@ -1522,7 +1522,7 @@ function WoWPro.NextStep(k,i)
                     proflvl = 1
                 end	    
 			end
-			if type(prof) == "string" and type(proflvl) == "number" then
+			if type(prof) == "string" and type(proflvl) == "number" and not WoWPro.CLASSIC then
 				local hasProf = false
 				skip = true --Profession steps skipped by default
 				local profs = {}
