@@ -1,3 +1,13 @@
+-- FIXME:
+-- Unknown tag ¦Q¦ in [N Extinguish the Brazier of Pain ¦QID¦5165¦ ¦N¦Extinguish the Brazier of Pain (checkbox objective when done) (36.25, 56.25)¦ ¦Q¦Dousing the Flames of Protection¦QO¦Extinguish the Brazier of Pain: 1/1¦].
+-- Unknown tag ¦Dousing the Flames of Protection¦ in [N Extinguish the Brazier of Pain ¦QID¦5165¦ ¦N¦Extinguish the Brazier of Pain (checkbox objective when done) (36.25, 56.25)¦ ¦Q¦Dousing the Flames of Protection¦QO¦Extinguish the Brazier of Pain: 1/1¦].
+-- Unknown tag ¦Q¦ in [N Extinguish the Brazier of Hatred ¦QID¦5165¦ ¦N¦Extinguish the Brazier of Hatred ¦ ¦Q¦Dousing the Flames of Protection¦QO¦Extinguish the Brazier of Hatred: 1/1¦M¦36.50,55.20¦].
+-- Unknown tag ¦Dousing the Flames of Protection¦ in [N Extinguish the Brazier of Hatred ¦QID¦5165¦ ¦N¦Extinguish the Brazier of Hatred ¦ ¦Q¦Dousing the Flames of Protection¦QO¦Extinguish the Brazier of Hatred: 1/1¦M¦36.50,55.20¦].
+-- Unknown tag ¦Q¦ in [N Extinguish the Brazier of Suffering ¦QID¦5165¦ ¦N¦Extinguish the Brazier of Suffering ¦ ¦Q¦Dousing the Flames of Protection¦QO¦Extinguish the Brazier of Suffering: 1/1¦M¦36.75,53.30¦].
+-- Unknown tag ¦Dousing the Flames of Protection¦ in [N Extinguish the Brazier of Suffering ¦QID¦5165¦ ¦N¦Extinguish the Brazier of Suffering ¦ ¦Q¦Dousing the Flames of Protection¦QO¦Extinguish the Brazier of Suffering: 1/1¦M¦36.75,53.30¦].
+-- Unknown tag ¦Q¦ in [N Extinguish the Brazier of Malice ¦QID¦5165¦ ¦N¦Extinguish the Brazier of Malice ¦ ¦Q¦Dousing the Flames of Protection¦QO¦Extinguish the Brazier of Malice: 1/1¦M¦37.70,52.70¦].
+-- Unknown tag ¦Dousing the Flames of Protection¦ in [N Extinguish the Brazier of Malice ¦QID¦5165¦ ¦N¦Extinguish the Brazier of Malice ¦ ¦Q¦Dousing the Flames of Protection¦QO¦Extinguish the Brazier of Malice: 1/1¦M¦37.70,52.70¦].
+
 TourGuide:RegisterGuide("JamFel5354", "Felwood", "Jame", "53", "54", "JamUng5456", "Alliance", function() return [[
 R Emerald Sanctuary |QID|5159|
 T Cleansed Water Returns to Felwood |QID|5159|M|51.2,82.3|
@@ -28,7 +38,7 @@ T The Videre Elixir |QID|3909|Z|Winterspring|M|31.3,45.2|
 A Meet at the Grave |QID|3912|Z|Winterspring|M|31.3,45.2|
 R Felwood |QID|4512| |N|Go back to Felwood. | |Z|Winterspring|M|27.90,34.45|
 F Rut'theran Village |QID|4512| |N|Fly to Rut'theran Village. |M|62.50,24.20|
-A Moontouched Wildkin |QID|978|Z|Tedrassil|M|55.5,92.0|
+A Moontouched Wildkin |QID|978|Z|Teldrassil|M|55.5,92.0|
 A Starfall |QID|5250|
 R Darnassus |QID|4512| |N|Go to Darnassus. | |Z|Teldrassil|M|55.90,89.80|
 C Felbound Ancients |N|Fill up Eridan's Vial here. | |QID|4441| |Z|Darnassus|M|39.50,85.30|
