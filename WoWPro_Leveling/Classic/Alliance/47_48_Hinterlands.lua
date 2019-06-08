@@ -48,7 +48,7 @@ C Preying on the Predators |N|Finish killing the mobs needed for this quest. | |
 T Preying on the Predators |QID|9471|M|15.1,47.2|
 T The Altar of Zul |QID|2989|M|9.8,44.5|
 A Thadius Grimshade |QID|2990|M|9.8,44.5|
-N Turn in Troll Necklaces |QID|2944| |N|Turn in any extra Troll Necklaces you have at the inn . |M|5 at a ti,|
+N Turn in Troll Necklaces |QID|2944| |N|Turn in any extra Troll Necklaces you have at the inn.|
 F Ironforge |QID|2944| |N|Fly to Ironforge. |M|11.10,46.20|
 N Make sure you have two Elixirs of Fortitude. |QID|3842| |N|Make sure you have two Elixirs of Fortitude. |
 N Sell junk, repair, restock, train skills. |QID|2944| |N|Sell junk, repair, restock, train skills. |
