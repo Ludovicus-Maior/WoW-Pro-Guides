@@ -1,7 +1,7 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('ClassicRedridge1518', 'Leveling', 'Redridge', 'Boston', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicRedridge1518', 'Leveling', 'Redridge Mountains', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Redridge 15-18')
 WoWPro:GuideLevels(guide, 15, 18, 16)
 WoWPro:GuideNextGuide(guide, 'ClassicWestfall1820')
