@@ -3,68 +3,16 @@
   Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 --]]
 
-local guide = WoWPro:RegisterGuide('ClassicMulgore0112', "Leveling", 'Mulgore', 'Shinke', 'Horde', 1)
-WoWPro:GuideLevels(guide,1,12, 2)
+local guide = WoWPro:RegisterGuide('ClassicMulgore0612', "Leveling", 'Mulgore', 'Shinke', 'Horde', 1)
+WoWPro:GuideLevels(guide, 6, 12, 7)
 -- FIXME: WoW Classic does not have a Achievement_Charachter_Tauren_* icons
 -- WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender(
 --        "Interface\\Icons\\Achievement_Character_Tauren_Male",
 --        "Interface\\Icons\\Achievement_Character_Tauren_Female"))
 WoWPro:GuideSteps(guide, function() return [[
-A The Hunt Begins|QID|747|M|45,77|N|Grull Hawkwind.|
-C The Hunt Begins|QID|747|M|49,76|N|Just kill Plainstriders around the camp.|
-T The Hunt Begins|QID|747|M|45,77|N|Grull Hawkwind.|
-A The Hunt Continues|QID|750|M|45,77|N|Grull Hawkwind.|
-
-A Etched Note|QID|3092|C|Hunter|R|Tauren|
-A Rune-Inscribed Note|QID|3093|C|Shaman|R|Tauren|
-A Simple Note|QID|3091|C|Warrior|R|Tauren|
-A Verdant Note|QID|3094|C|Druid|R|Tauren|
-
-T Etched Note|QID|3092|C|Hunter|R|Tauren|
-T Rune-Inscribed Note|QID|3093|C|Shaman|R|Tauren|
-T Simple Note|QID|3091|C|Warrior|R|Tauren|
-T Verdant Note|QID|3094|C|Druid|R|Tauren|
-
-A A Humble Task (Part 1)|QID|752|M|44,76|N|Chief Hawkwind.|
-T A Humble Task (Part 1)|QID|752|M|50,81|N|Greatmother Hawkwind.|
-A A Humble Task (Part 2)|QID|753|
-N Water Pitcher|QID|753|L|4755|N|Click the Water Pitcher on the fountain.|
-T A Humble Task (Part 2)|QID|753|M|44,76|N|Chief Hawkwind.|
-A Rites of the Earthmother (Part 1)|QID|755|
-A Break Sharptusk!|QID|3376|N|Brave Windfeather|
-
-C The Hunt Continues|QID|750|M|44,88|N|Kill Mountain Cougars until you loot 10 Mountain Cougar Pelts.|
-
-T Rites of the Earthmother (Part 1)|QID|755|
-A Rite of Strength|QID|757|
-T The Hunt Continues|QID|750|
-A The Battleboars|QID|780|
-A Call of Earth (Part 1)|QID|1519|C|Shaman|R|Tauren|
-N Sell junk, repair, and train.|
-
-C The Battleboars|QID|780|M|58,85|N|Kill the Battleboars until you complete the Quest, while running to Brambleblade Ravine.|
-C Break Sharptusk!|QID|3376|M|64,77|N|Kill the Quilboars on your way to Sharptusks tent. Kill him.|
-l Loot the Dirt-stained Map inside the cave|QID|781|M|63.2,82.7|L|4851|N|On the inside is a Dirt-stained Map. Loot it.|
-A Attack on Camp Narache|QID|781|U|4851|N|Right-click the Dirt-stained Map.|
-C Rite of Strength|QID|757|N|Make sure you have 12 Bristleback Belts.|
-C Call of Earth (Part 1)|QID|1519|C|Shaman|R|Tauren|M|64.8,79.2|N|Make sure you also have 2 Ritual Salves. If you don't have, there's a bunch of Shamans around (64.8,79.2).|
-H Camp Narache|QID|763|U|6948|
-
-T The Battleboars|QID|780|
-T Break Sharptusk!|QID|3376|
-T Attack on Camp Narache|QID|781|
-T Rite of Strength|QID|757|
-A Rites of the Earthmother (Part 2)|QID|763|
-T Call of Earth (Part 1)|QID|1519|C|Shaman|R|Tauren|
-A Call of Earth (Part 2)|QID|1520|C|Shaman|R|Tauren|
-R Kodo Rock|QID|1521|C|Shaman|R|Tauren|M|53.81,80.46|U|6635|N|Run to Kodo Rock and drink the Earth Sapta. (53.81,80.46)|
-T Call of Earth (Part 2)|QID|1520|C|Shaman|R|Tauren|
-A Call of Earth (Part 3)|QID|1521|C|Shaman|R|Tauren|
-T Call of Earth (Part 3)|QID|1521|C|Shaman|R|Tauren|
-A A Task Unfinished|QID|1656|
-
 T A Task Unfinished|QID|1656|
-h Bloodhoof Village|QID|745|M|46.7,61.0|N|Innkeeper Kauth. (46.7,61.0)|
+h Bloodhoof Village|QID|1656|M|46.7,61.0|N|Innkeeper Kauth. (46.7,61.0)|
+
 T Rites of the Earthmother (Part 2)|QID|763|
 A Sharing the Land|QID|745|
 A Rite of Vision (Part 1)|QID|767|
