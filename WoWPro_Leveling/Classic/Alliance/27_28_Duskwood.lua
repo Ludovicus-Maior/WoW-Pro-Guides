@@ -1,9 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- FIXME:
--- Unknown tag ¦74.05,44.75¦ in [T Zombie Juice¦QID¦158¦N¦M¦74.05,44.75¦].
-
 local guide = WoWPro:RegisterGuide('ClassicDuskwood2728', 'Leveling', 'Duskwood', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Duskwood 27-28')
 WoWPro:GuideLevels(guide, 27, 28, 27)
@@ -60,7 +57,7 @@ A The Tome of Valor (Part 5)|QID|1652|C|Paladin|
 H Darkshire|QID|90| 
 A Seasoned Wolf Kabobs|N|(Must have 50 cooking skill/journeyman cooking)|QID|90|
 T Seasoned Wolf Kabobs|QID|90|
-T Zombie Juice|QID|158|N|M|74.05,44.75|
+T Zombie Juice|QID|158|M|74.05,44.75|
 A Gather Rot Blossoms|QID|156|M|74.1,44.7|
 T The Night Watch (Part 2)|QID|57|M|73.5,46.8|
 A The Night Watch (Part 3)|QID|58|M|73.5,46.8|
