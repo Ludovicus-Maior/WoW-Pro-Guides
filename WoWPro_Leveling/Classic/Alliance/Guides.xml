@@ -28,4 +28,11 @@
 	<Script file="40_41_Dustwallow.lua"/>
 	<Script file="41_42_Badlands.lua"/>
 	<Script file="42_44_Stranglethorn.lua"/>
+	<Script file="44_45_Swamp_of_Sorrows.lua"/>
+	<Script file="45_45_Tanaris.lua"/>
+	<Script file="45_47_Feralas.lua"/>
+	<Script file="47_47_Tanaris.lua"/>
+	<Script file="47_48_Hinterlands.lua"/>
+	<Script file="48_50_Tanaris.lua"/>
+	<Script file="50_50_Hinterlands.lua"/>
 </Ui>
