@@ -50,7 +50,7 @@ C Centaur Bounty|N|Get 15 Centaur Ears if you haven't already for the quest.|QID
 C Down the Scarlet Path|N|Kill 30 Undead Ravagers near this location.|QID|261|M|63.40,91.40|
 T Strange Alliance|QID|1382|
 T Bone Collector|QID|5501|M|62.3,39.0|
-R Nijel's Point|QID|261|N|M|66.70,11.00|
+R Nijel's Point|QID|261|M|66.70,11.00|
 T Centaur Bounty|QID|1387|
 T The Karnitol Shipwreck|QID|1456|
 A The Karnitol Shipwreck (follow-up)|QID|1457|
