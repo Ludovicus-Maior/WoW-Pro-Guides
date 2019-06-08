@@ -3,10 +3,7 @@
 
 local guide = WoWPro:RegisterGuide('ClassicTeldrassil0612', "Leveling", 'Teldrassil', 'Shururu', 'Alliance', 1)
 WoWPro:GuideLevels(guide, 6, 12, 7)
--- FIXME: WoW Classic does not have a Achievement_Character_Nightelf_Male icon
--- WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender(
---        "Interface\\Icons\\Achievement_Character_Nightelf_Male",
---        "Interface\\Icons\\Achievement_Character_Nightelf_Female"))
+WoWPro:GuideNextGuide(guide, 'ClassicDarkshore1220')
 WoWPro:GuideSteps(guide, function() return [[
 h Dolanaar|QID|928|N|Set your Hearthstone to Dolanaar.|
 r Sell junk, repair and restock.|QID|928|M|56.21,59.56|
