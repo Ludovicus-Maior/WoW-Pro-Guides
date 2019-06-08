@@ -126,9 +126,9 @@ T Survey Alcaz Island|N|Turn your quest in at Jaina when you get back to Theramo
 N Sell junk, repair, restock|QID|1177|N|Sell junk, repair, restock|
 T Hungry!|QID|1177|
 C The Deserters|N|Fight Balos Jacken at this location.|QID|1286|M|36.10,54.30|
-T The Deserters|QID|1286|A The Deserters (part 2)|QID|1287|M|36.1,54.3|
+T The Deserters|QID|1286|M|36.1,54.3|
+A The Deserters (part 2)|QID|1287|
 T Tabetha's Farm|QID|11212|M|46.1,57.2|
 N Grind if needed|QID|11214|N|Grind if needed to become 3000 xp away from level 40.|
-
 ]]
 end)
