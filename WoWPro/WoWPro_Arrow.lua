@@ -26,7 +26,7 @@ WoWPro.SimpleArrowRefreshDelay = 0.1
 ------------------------------------------------------------------------------
 
 function WoWPro:SimpleArrowMapPoint(zone, zm, coords)
-
+	
 	-- Create navigational arrow and map icons
 	if not self.SimpleArrowFrame then
 		WoWPro:CreateSimpleArrowFrame()
@@ -54,7 +54,6 @@ function WoWPro:SimpleArrowMapPoint(zone, zm, coords)
 
 		-- Add icon to world- and minimap if valid mapID and coordinates are available
 		if (type(zm) == "number") and (type(x) == "number") and (type(y) == "number") then
-			-- print("zone="..zm.." coords="..coords.." x="..tostring(x).." y="..tostring(y))
 			HBDPins:AddWorldMapIconMap("WoWProSimpleArrow", WoWPro.SimpleArrowWorldMapIconFrame, zm, x / 100, y / 100, 2)
 			HBDPins:AddMinimapIconMap("WoWProSimpleArrow", WoWPro.SimpleArrowMiniMapIconFrame, zm, x / 100, y / 100, true, true)
 		end
@@ -65,7 +64,7 @@ end
 -- WoWPro:CreateSimpleArrowIconFrames() - Create icons for world and minimap
 ------------------------------------------------------------------------------
 
-function WoWPro:CreateSimpleArrowIconFrame(name,wh, texture)
+function WoWPro:CreateSimpleArrowIconFrame(name, wh, texture)
 	local f = CreateFrame("Button", name, nil)
 	f:SetFrameStrata("TOOLTIP")
 	f:SetWidth(wh)
@@ -85,10 +84,9 @@ function WoWPro:CreateSimpleArrowIconFrame(name,wh, texture)
 end
 
 function WoWPro:CreateSimpleArrowIconFrames()
-	self.SimpleArrowMiniMapIconFrame = WoWPro:CreateSimpleArrowIconFrame("WoWProSimpleArrowMiniMapIconFrame", 16, "Interface\\AddOns\\WoWPro\\Textures\\wow.blp")
-	self.SimpleArrowWorldMapIconFrame = WoWPro:CreateSimpleArrowIconFrame("WoWProSimpleArrowWorldMapIconFrame", 16, "Interface\\AddOns\\WoWPro\\Textures\\wow.blp")
+	self.SimpleArrowMiniMapIconFrame =	WoWPro:CreateSimpleArrowIconFrame("WoWProSimpleArrowMiniMapIconFrame", 16, "Interface\\AddOns\\WoWPro\\Textures\\wow.blp")
+	self.SimpleArrowWorldMapIconFrame =	WoWPro:CreateSimpleArrowIconFrame("WoWProSimpleArrowWorldMapIconFrame",	16,	"Interface\\AddOns\\WoWPro\\Textures\\wow.blp")
 end
-
 
 ------------------------------------------------------------------------------
 -- WoWPro:SimpleArrowRotation
@@ -139,14 +137,31 @@ function WoWPro:CreateSimpleArrowFrame()
 	self.SimpleArrowFrame:SetFrameStrata("TOOLTIP")
 	self.SimpleArrowFrame:SetWidth(32)
 	self.SimpleArrowFrame:SetHeight(32)
+	self.SimpleArrowFrame:SetPoint(
+		WoWProDB.profile.nativearrowpos.rel,
+		WoWProDB.profile.nativearrowpos.dx,
+		WoWProDB.profile.nativearrowpos.dy
+	)
+	self.SimpleArrowFrame:EnableMouse(true)
+
 	self.SimpleArrowTexture = self.SimpleArrowFrame:CreateTexture(nil, "OVERLAY")
 	self.SimpleArrowTexture:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\256px-Arrow_Blue_Up_001.svg.blp")
 	self.SimpleArrowTexture:SetWidth(32)
 	self.SimpleArrowTexture:SetHeight(32)
 	self.SimpleArrowTexture:SetAllPoints(self.SimpleArrowFrame)
-
 	self.SimpleArrowFrame.texture = self.SimpleArrowTexture
-	self.SimpleArrowFrame:SetPoint("TOP", 0, 0)
-	self.SimpleArrowFrame:EnableMouse(true)
+
+	self.SimpleArrowFrame:SetMovable(true)
+	self.SimpleArrowFrame:RegisterForDrag("LeftButton")
+	self.SimpleArrowFrame:SetScript("OnDragStart", self.SimpleArrowFrame.StartMoving)
+	self.SimpleArrowFrame:SetScript("OnDragStop", function(self)
+			local point, relativeTo, relativePoint, xOfs, yOfs = self:GetPoint(1)
+			WoWProDB.profile.nativearrowpos.rel = relativePoint
+			WoWProDB.profile.nativearrowpos.dx = xOfs
+			WoWProDB.profile.nativearrowpos.dy = yOfs
+			self:StopMovingOrSizing()
+		end
+	)
+
 	self.SimpleArrowFrame:SetScript("OnUpdate", SimpleArrowEventHandler)
 end
