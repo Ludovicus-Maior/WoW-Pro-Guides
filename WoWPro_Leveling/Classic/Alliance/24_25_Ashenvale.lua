@@ -4,6 +4,7 @@
 local guide = WoWPro:RegisterGuide('ClassicAshenvale2425', 'Leveling', 'Ashenvale', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Ashenvale 24-25')
 WoWPro:GuideLevels(guide, 24, 25, 25)
+WoWPro:GuideNextGuide(guide, 'ClassicWetlands2526')
 WoWPro:GuideSteps(guide, function() return [[
 N Keep an eye out for groups to Blackfathom Depths
 T Pridewings of Stonetalon|QID|1134|M|34.7,48.8|
