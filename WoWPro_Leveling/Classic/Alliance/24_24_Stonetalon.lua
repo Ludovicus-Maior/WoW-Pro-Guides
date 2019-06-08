@@ -4,6 +4,7 @@
 local guide = WoWPro:RegisterGuide('ClassicStonetalon2424', 'Leveling', 'Stonetalon Mountains', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Stonetalon 24-24')
 WoWPro:GuideLevels(guide, 24, 24, 24)
+WoWPro:GuideNextGuide(guide, 'ClassicAshenvale2425')
 WoWPro:GuideSteps(guide, function() return [[
 A Super Reaper 6000|QID|1093|M|59.0,62.6|
 T On Guard in Stonetalon (Part 1)|N|(59.38,69.39)(59.9,66.9)|QID|1070|M|60.45,69.78|
