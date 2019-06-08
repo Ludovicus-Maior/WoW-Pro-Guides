@@ -69,7 +69,7 @@ A Rise of the Silithid |QID|162|M|50.2,27.5|
 F Thalanaar |QID|7733| |N|Fly to Thalanaar. |M|51.00,29.30|
 A An Orphan Looking For a Home |QID|3841|Z|Feralas|M|65.9,45.6|
 N From now on... |QID|1452| |N|From now on, kill Ironfur Bears and Groddoc Thunderers until you get the items needed for Rhapsody's Kalimdor Kocktail. |
-N Pristine Yeti Hide |QID|7735| |N|Kill Yetis at this location until you get a Pristine Yeti Hide (follow the road there).  Kill bears and apes nearby as well to get the items needed for Rhapsody's Kalimdor Kocktail.| |L|18969 1|Z|Feralas|52,32|
+N Pristine Yeti Hide |QID|7735| |N|Kill Yetis at this location until you get a Pristine Yeti Hide (follow the road there).  Kill bears and apes nearby as well to get the items needed for Rhapsody's Kalimdor Kocktail.| |L|18969 1|Z|Feralas|M|52,32|
 C Improved Quality |N|Kill Yetis until you get the hides for this quest. | |QID|7733|Z|Feralas|M|52.2,31.6|
 A Pristine Yeti Hide |N|Right-click the hide to start the quest. | |QID|7735|U|18969|
 C Rhapsody's Kalimdor Kocktail |N|Kill Groddoc Thunderers and Ironfur Bears until you finish this quest. | |QID|1452|
