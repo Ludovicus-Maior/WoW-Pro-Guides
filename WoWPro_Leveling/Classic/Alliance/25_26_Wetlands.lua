@@ -7,6 +7,7 @@
 local guide = WoWPro:RegisterGuide('ClassicWetlands2526', 'Leveling', 'Wetlands', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Wetlands 25-26')
 WoWPro:GuideLevels(guide, 25, 26, 25.5)
+WoWPro:GuideNextGuide(guide, 'ClassicRedridge2627')
 WoWPro:GuideSteps(guide, function() return [[
 F Auberdine|QID|1275|N|Fly to Auberdine.|Z|Ashenvale|M|34.43,48.05|
 T Researching the Corruption|QID|1275|

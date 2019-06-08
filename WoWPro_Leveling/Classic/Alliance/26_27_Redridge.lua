@@ -1,7 +1,10 @@
-TourGuide:RegisterGuide("Redridge Mountains (26-27)", "Duskwood (27-28)", "Alliance", function()
-return [[
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-
+local guide = WoWPro:RegisterGuide('ClassicRedridge2627', 'Leveling', 'Redridge Mountains', 'Boston', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Redridge 26-27')
+WoWPro:GuideLevels(guide, 26, 27, 26)
+WoWPro:GuideSteps(guide, function() return [[
 B Bronze Tube |QID|174| |N|Buy a Bronze Tube from the Auction House or find somebody to craft it. | |L|4371 1|
 T Retrieval for Mauren |QID|1078|
 B Stormwind Seasoning Herbs |QID|90| |N|Buy Stormwind Seasoning Herbs from Felicia Gum (69.35, 71.20)| |L|2665 1| |Z|Stormwind City|M|66.15,64.2|
