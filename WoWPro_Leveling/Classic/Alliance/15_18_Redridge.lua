@@ -4,6 +4,7 @@
 local guide = WoWPro:RegisterGuide('ClassicRedridge1518', 'Leveling', 'Redridge', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Redridge 15-18')
 WoWPro:GuideLevels(guide, 15, 18, 16)
+WoWPro:GuideNextGuide(guide, 'ClassicWestfall1820')
 WoWPro:GuideSteps(guide, function () return [[
 R Elwynn Forest|QID|244|N|Go to Elwynn Forest|Z|Stormwind City|M|76.00,94.00|
 R Redridge Mountains|QID|244|N|Go to Redridge Mountains|Z|Elwynn Forest|M|93.00,72.00|

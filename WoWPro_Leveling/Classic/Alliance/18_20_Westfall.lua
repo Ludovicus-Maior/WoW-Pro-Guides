@@ -1,5 +1,14 @@
-TourGuide:RegisterGuide("Westfall (18-20)", "Redridge (20-21)", "Alliance", function()
-return [[
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- FIXME:
+-- Bad X coordinate Harvest W,, 1/1 in guide ClassicWestfall1820, line [N Flask of Oil].
+-- Bad X coordinate Harvest W,, 1/1 in guide ClassicWestfall1820, line [N Hops].
+
+local guide = WoWPro:RegisterGuide('ClassicWestfall1820', "Leveling", 'Westfall', 'Boston', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Westfall 18-20')
+WoWPro:GuideLevels(guide, 18, 20, 19)
+WoWPro:GuideSteps(guide, function() return [[
 T The Defias Brotherhood (part 2)|QID|132|M|56.3,47.5|
 A The Defias Brotherhood (part 3)|QID|135|M|56.3,47.5|
 N Flask of Oil|QID|103|N|Make sure you have 5 Flask of Oil  (38.00, 51.00)|L|814 5|M|Harvest W,|
