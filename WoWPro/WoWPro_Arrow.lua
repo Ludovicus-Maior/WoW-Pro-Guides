@@ -26,7 +26,7 @@ WoWPro.SimpleArrowRefreshDelay = 0.1
 ------------------------------------------------------------------------------
 
 function WoWPro:SimpleArrowMapPoint(zone, zm, coords)
-	
+
 	-- Create navigational arrow and map icons
 	if not self.SimpleArrowFrame then
 		WoWPro:CreateSimpleArrowFrame()
@@ -162,6 +162,16 @@ function WoWPro:CreateSimpleArrowFrame()
 			self:StopMovingOrSizing()
 		end
 	)
+
+	local arrows = {"Interface\\AddOns\\WoWPro\\Textures\\256px-Arrow_Blue_Up_001.svg.blp", "Interface\\AddOns\\WoWPro\\Textures\\256px-Green_Arrow_Up_Darker.svg.blp", "Interface\\AddOns\\WoWPro\\Textures\\up-arrow-arrows-svgrepo-com.blp"}
+	local i = 1
+	self.SimpleArrowFrame:SetScript("OnMouseDown", function(self, button)
+		if button == "RightButton" then
+			i = i + 1
+			if i > #arrows then i = 1 end
+			WoWPro.SimpleArrowTexture:SetTexture(arrows[i])
+		end
+	end)
 
 	self.SimpleArrowFrame:SetScript("OnUpdate", SimpleArrowEventHandler)
 end
