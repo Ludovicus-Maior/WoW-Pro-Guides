@@ -4,9 +4,9 @@
 local guide = WoWPro:RegisterGuide('ClassicTeldrassil0112', "Leveling", 'Teldrassil', 'Shururu', 'Alliance', 1)
 WoWPro:GuideLevels(guide,1,12, 2)
 -- FIXME: WoW Classic does not have a Achievement_Character_Nightelf_Male icon
-WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender(
-        "Interface\\Icons\\Achievement_Character_Nightelf_Male",
-        "Interface\\Icons\\Achievement_Character_Nightelf_Female"))
+-- WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender(
+--        "Interface\\Icons\\Achievement_Character_Nightelf_Male",
+--        "Interface\\Icons\\Achievement_Character_Nightelf_Female"))
 WoWPro:GuideSteps(guide, function() return [[
 A The Balance of Nature|QID|456|M|58.69,44.27|N|From Conservator Ilthalaine in front of you.|
 C The Balance of Nature|QID|456|N|Kill Young Nightsabers and Young Thistle Boars.|
