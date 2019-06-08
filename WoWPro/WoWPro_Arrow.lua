@@ -1,6 +1,7 @@
-----------------------------------
---      WoWPro_Arrow.lua      --
-----------------------------------
+------------------------------------------------------------------------------
+-- WoWPro_Arrow.lua - Simple Native Arrow to remove 3rd party addon dependency
+-- Inspired by TomTom - https://www.curseforge.com/wow/addons/tomtom
+------------------------------------------------------------------------------
 
 local L = WoWPro_Locale
 local cache = {}
@@ -19,46 +20,78 @@ WoWPro.SimpleArrowIconTexture2 = {}
 WoWPro.SimpleArrowTimeElapsedSinceLastUpdate = 0
 WoWPro.SimpleArrowRefreshDelay = 0.1
 
-function WoWPro:CreateSimpleArrowIconFrames()
-	self.SimpleArrowMiniMapIconFrame = CreateFrame("Button", "WoWProSimpleArrowMiniMapIconFrame", nil)
-	self.SimpleArrowMiniMapIconFrame:SetFrameStrata("HIGH")
-	self.SimpleArrowMiniMapIconFrame:SetWidth(16)
-	self.SimpleArrowMiniMapIconFrame:SetHeight(16)
+------------------------------------------------------------------------------
+-- WoWPro:SimpleArrowMapPoint - Handles placing waypoints on map
+-- Called from WoWPro_Mapping.lua/WoWPro:MapPoint()
+------------------------------------------------------------------------------
 
-	self.SimpleArrowIconTexture1 = self.SimpleArrowMiniMapIconFrame:CreateTexture(nil, "OVERLAY")
-	self.SimpleArrowIconTexture1:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\wow.blp")
-	self.SimpleArrowIconTexture1:SetWidth(16)
-	self.SimpleArrowIconTexture1:SetHeight(16)
-	self.SimpleArrowIconTexture1:SetAllPoints(self.SimpleArrowMiniMapIconFrame)
+function WoWPro:SimpleArrowMapPoint(zone, zm, coords)
 
-	self.SimpleArrowMiniMapIconFrame.texture = self.SimpleArrowIconTexture1
-	self.SimpleArrowMiniMapIconFrame:SetPoint("CENTER", 0, 0)
-	self.SimpleArrowMiniMapIconFrame:EnableMouse(true)
-	self.SimpleArrowMiniMapIconFrame:Hide()
+	-- Create navigational arrow and map icons
+	if not self.SimpleArrowFrame then
+		WoWPro:CreateSimpleArrowFrame()
+	end
+	if not self.SimpleArrowIconFrame then
+		WoWPro:CreateSimpleArrowIconFrames()
+	end
 
-	--
-	
-	self.SimpleArrowWorldMapIconFrame = CreateFrame("Button", "WoWProSimpleArrowWorldMapIconFrame", nil)
-	self.SimpleArrowWorldMapIconFrame:SetFrameStrata("HIGH")
-	self.SimpleArrowWorldMapIconFrame:SetWidth(16)
-	self.SimpleArrowWorldMapIconFrame:SetHeight(16)
+	-- Clear any icons from maps
+	HBDPins:RemoveAllWorldMapIcons("WoWProSimpleArrow")
+	HBDPins:RemoveAllMinimapIcons("WoWProSimpleArrow")
 
-	self.SimpleArrowIconTexture2 = self.SimpleArrowWorldMapIconFrame:CreateTexture(nil, "OVERLAY")
-	self.SimpleArrowIconTexture2:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\wow.blp")
-	self.SimpleArrowIconTexture2:SetWidth(16)
-	self.SimpleArrowIconTexture2:SetHeight(16)
-	self.SimpleArrowIconTexture2:SetAllPoints(self.SimpleArrowWorldMapIconFrame)
+	-- Logic duplicated from WoWPro:MapPoint() to extract x, y from coords
+	local numcoords = select("#", string.split(";", coords))
+	FinalCoord = nil
+	for j = 1, numcoords do
+		local waypoint = {}
+		local jcoord = select(numcoords - j + 1, string.split(";", coords))
+		local x = tonumber(jcoord:match("([^|]*),"))
+		local y = tonumber(jcoord:match(",([^|]*)"))
+		if not x or x > 100 or not y or y > 100 then
+			WoWPro:Error("Bad coordinate %s, %d out of %d. Please file a bug with the faction, guide and step description",	jcoord,	numcoords - j + 1, numcoords)
+			return
+		end
 
-	self.SimpleArrowWorldMapIconFrame.texture = self.SimpleArrowIconTexture2
-	self.SimpleArrowWorldMapIconFrame:SetPoint("CENTER", 0, 0)
-	self.SimpleArrowWorldMapIconFrame:EnableMouse(true)
-	self.SimpleArrowWorldMapIconFrame:Hide()
+		-- Add icon to world- and minimap if valid mapID and coordinates are available
+		if (type(zm) == "number") and (type(x) == "number") and (type(y) == "number") then
+			-- print("zone="..zm.." coords="..coords.." x="..tostring(x).." y="..tostring(y))
+			HBDPins:AddWorldMapIconMap("WoWProSimpleArrow", WoWPro.SimpleArrowWorldMapIconFrame, zm, x / 100, y / 100, 2)
+			HBDPins:AddMinimapIconMap("WoWProSimpleArrow", WoWPro.SimpleArrowMiniMapIconFrame, zm, x / 100, y / 100, true, true)
+		end
+	end
 end
 
 ------------------------------------------------------------------------------
+-- WoWPro:CreateSimpleArrowIconFrames() - Create icons for world and minimap
+------------------------------------------------------------------------------
+
+function WoWPro:CreateSimpleArrowIconFrame(name,wh, texture)
+	local f = CreateFrame("Button", name, nil)
+	f:SetFrameStrata("TOOLTIP")
+	f:SetWidth(wh)
+	f:SetHeight(wh)
+	f:SetPoint("CENTER", 0, 0)
+	f:EnableMouse(true)
+
+	local t = f:CreateTexture(nil, "OVERLAY")
+	t:SetTexture(texture)
+	t:SetWidth(wh)
+	t:SetHeight(wh)
+	t:SetAllPoints(f)
+
+	f.texture = t
+	f:Hide()
+	return f
+end
+
+function WoWPro:CreateSimpleArrowIconFrames()
+	self.SimpleArrowMiniMapIconFrame = WoWPro:CreateSimpleArrowIconFrame("WoWProSimpleArrowMiniMapIconFrame", 16, "Interface\\AddOns\\WoWPro\\Textures\\wow.blp")
+	self.SimpleArrowWorldMapIconFrame = WoWPro:CreateSimpleArrowIconFrame("WoWProSimpleArrowWorldMapIconFrame", 16, "Interface\\AddOns\\WoWPro\\Textures\\wow.blp")
+end
+
+
+------------------------------------------------------------------------------
 -- WoWPro:SimpleArrowRotation
--- Inspired by TomTom - https://www.curseforge.com/wow/addons/tomtom
--- TomTom_Waypoints.lua rotateArrow()
 ------------------------------------------------------------------------------
 
 local square_half = math.sqrt(0.5)
@@ -85,6 +118,10 @@ function WoWPro:SimpleArrowRotate()
 	end
 end
 
+------------------------------------------------------------------------------
+-- SimpleArrowEventHandler - refresh waypoint arrow
+------------------------------------------------------------------------------
+
 local function SimpleArrowEventHandler(self, elapsed, ...)
 	WoWPro.SimpleArrowTimeElapsedSinceLastUpdate = WoWPro.SimpleArrowTimeElapsedSinceLastUpdate + elapsed
 	if (WoWPro.SimpleArrowTimeElapsedSinceLastUpdate > WoWPro.SimpleArrowRefreshDelay) then
@@ -92,6 +129,10 @@ local function SimpleArrowEventHandler(self, elapsed, ...)
 		WoWPro.SimpleArrowTimeElapsedSinceLastUpdate = 0
 	end
 end
+
+------------------------------------------------------------------------------
+-- WoWPro:CreateSimpleWaypointArrowFrame - create waypoint arrow
+------------------------------------------------------------------------------
 
 function WoWPro:CreateSimpleArrowFrame()
 	self.SimpleArrowFrame = CreateFrame("Button", "WoWProSimpleArrowFrame", nil)
