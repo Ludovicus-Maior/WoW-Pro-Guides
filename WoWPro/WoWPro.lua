@@ -1069,7 +1069,7 @@ function WoWPro:ResolveIcon(guide)
         guide.icon = icon
         return
     end
-    if guide['mount'] then
+    if guide['mount'] and not WoWPro.CLASSIC then
         local mountIDs = C_MountJournal.GetMountIDs()
         for i, mountID in ipairs(mountIDs) do
             local creatureName, spellID, icon, active, isUsable, sourceType = C_MountJournal.GetMountInfoByID(mountID)
