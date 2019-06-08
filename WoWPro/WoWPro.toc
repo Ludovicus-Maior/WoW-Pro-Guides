@@ -49,5 +49,4 @@ WoWPro_Trade.lua
 WoWPro_Selector.lua
 WoWPro_Selector.xml
 WoWPro_Command.lua
-
-
+WoWPro_Arrow.lua
