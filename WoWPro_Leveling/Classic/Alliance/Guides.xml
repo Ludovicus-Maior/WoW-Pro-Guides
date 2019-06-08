@@ -3,7 +3,7 @@
 	<Script file="01_12_Dun_Morogh.lua"/>
 	<Script file="01_12_Elwynn.lua"/>
 	<Script file="06_12_Teldrassil.lua"/>
-	<Script file="12_14_LochModan.lua"/>
+	<Script file="12_13_LochModan.lua"/>
 	<Script file="12_20_Darkshore.lua"/>
 	<Script file="14_15_Westfall.lua"/>
 	<Script file="15_18_Redridge.lua"/>

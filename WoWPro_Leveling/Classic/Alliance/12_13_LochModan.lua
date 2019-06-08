@@ -1,10 +1,14 @@
-TourGuide:RegisterGuide("Loch Modan (12-14)", "Westfall (14-15)", "Alliance", function()
-return [[
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+local guide = WoWPro:RegisterGuide('ClassicLochModan1213', 'Leveling', 'Loch Modan', 'Maw', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Loch Modan 12-13')
+WoWPro:GuideLevels(guide, 12, 13, 12)
+WoWPro:GuideSteps(guide, function () return [[
 R Stormwind City|QID|1339|N|Go to Stormwind City.|
 F Ironforge|QID|1339|N|Fly to Ironforge|
 R Dun Morogh|QID|1339|N|Go to Dun Morogh by exiting Ironforge. If you have flight path to Loch Modan, go straight there instead and skip this.|Z|Ironforge|M|14.00,86.00|
-R Loch Modan|QID|1339|N|Go to Loch Modan  (86.25, 51.25)|Z|Dun Morogh|M|from Dun ,|
+R Loch Modan|QID|1339|N|Go to Loch Modan|Z|Dun Morogh|M|86.25,51.25|
 f Thelsamar|QID|1339|N|Get the flight path.|M|33.90,51.00|
 h Stoutlager Inn|QID|1339|N|Set your hearthstone to Thelsamar|M|35.55,48.40|
 A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|
@@ -30,7 +34,7 @@ R Deeprun Tram|QID|6661|N|Go to the Deeprun Tram|Z|Ironforge|M|76.50,51.10|
 A Deeprun Rat Roundup|N|Get this quest from Monty in the Tram.|QID|6661|
 C Deeprun Rat Roundup|N|Use the flute to catch five Deeprun Rats|QID|6661|U|17117|
 T Deeprun Rat Roundup|QID|6661|
-A Me Brother, Nipsy|N|Get the next quest from Monty .|QID|6662|M|small del,|
+A Me Brother, Nipsy|N|Get the next quest from Monty.|QID|6662|
 T Me Brother, Nipsy|N|Get on the tram and turn this quest in at the other end.|QID|6662|
 R Stormwind City|QID|1338|N|Exit the Tram to Stormwind City|
 T Stormpike's Order|QID|1338|Z|Stormwind City|M|64.6,37.2|
