@@ -8,6 +8,7 @@
 local guide = WoWPro:RegisterGuide('ClassicAshenvale2324', 'Leveling', 'Ashenvale', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Ashenvale 23-24')
 WoWPro:GuideLevels(guide, 23, 24, 23)
+WoWPro:GuideNextGuide(guide, 'ClassicStonetalon2424')
 WoWPro:GuideSteps(guide, function() return [[
 R Ashenvale|QID|1133|N|Run south to Ashenvale.|Z|Darkshore|M|44.25,96.17|
 A Bathran's Hair|QID|1010|M|26.4,38.6|
