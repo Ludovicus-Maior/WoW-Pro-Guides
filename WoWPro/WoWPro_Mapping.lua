@@ -406,7 +406,6 @@ function WoWPro:MapPoint(row)
 	if not WoWPro.GuideLoaded then return end
 	if WoWPro.InitLockdown then return end
 
-	print("1")
 	-- Loading Variables for this step --
 	local i
 	if row then
@@ -425,7 +424,7 @@ function WoWPro:MapPoint(row)
 	end
 	WoWPro:RemoveMapPoint()
 
-	print("2")
+	
 	local coords
 	if WoWPro.map then
 	    coords = WoWPro.map[i]
@@ -455,7 +454,7 @@ function WoWPro:MapPoint(row)
                 SetSuperTrackedQuestID(qid)
 	    end
 	end
-	print("3")
+	
 	-- Using LightHeaded if the user has it and if there aren't coords from anything else --
 	if LightHeaded and WoWPro.QID and WoWPro.QID[i] and not coords then
 		if type(WoWPro.QID[i]) ~= "number" then return end
@@ -482,7 +481,7 @@ function WoWPro:MapPoint(row)
         WoWPro:dbp("MapPoint: No coords for step %d",i)
 	    return
 	end
-	print("4")
+	
 	-- Finding the zone --
 	local zm = nil
 	if zone then
@@ -498,10 +497,9 @@ function WoWPro:MapPoint(row)
 	    zone, zm = WoWPro.GetZoneText()
 	    WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id ["..zone.."] "..tostring(zm))
 	end
-	print("5 - zone="..zone.."/"..tostring(zm))
-	if TomTom or Nx or WoWPro.SimpleArrow then
-			print("6")
-		    TomTom.db.profile.arrow.setclosest = true
+	
+	if TomTom or Nx then
+			TomTom.db.profile.arrow.setclosest = true
     		OldCleardistance = TomTom.db.profile.persistence.cleardistance
 
     		-- arrival distance, so TomTom can call our customized distance function when player
@@ -532,7 +530,6 @@ function WoWPro:MapPoint(row)
 			    WoWPro:Error("Bad coordinate %s, %d out of %d. Please file a bug with the faction, guide and step description",jcoord,numcoords-j+1,numcoords)
 			    return
 			end
-			print("6b")
 			if TomTom and not Nx then
 				local uid
 				local title
@@ -595,27 +592,6 @@ function WoWPro:MapPoint(row)
 				table.insert(cache, waypoint)
 				FinalCoord = { x , y }
 			end
-			
-			print("Checkpoint")
-			--- Fall back to SimpleArrow (WoWPro_Arrow.lua)
-			if not self.SimpleArrowFrame then
-				print("creating arrow frame")
-				WoWPro:CreateSimpleArrowFrame()
-			end
-			if not self.SimpleArrowIconFrame then
-				print("creating icon frame")
-				WoWPro:CreateSimpleArrowIconFrame()
-			end
-			-- Clear any Icons
-			HBDPins:RemoveAllWorldMapIcons("WoWProSimpleArrow")
-			HBDPins:RemoveAllMinimapIcons("WoWProSimpleArrow")
-			-- Set Icons
-			print("*** MAPID=" .. tostring(zm) .. " coords=(" .. coords .. ") x=" .. x .. " y=" .. y)
-			if (type(zm) == "number") and (type(x) == "number") and (type(y) == "number") then
-				print("Adding icons")
-				HBDPins:AddWorldMapIconMap("WoWProSimpleArrow", WoWPro.SimpleArrowIconFrame, zm, x, y, true)
-				HBDPins:AddMinimapIconMap("WoWProSimpleArrow", WoWPro.SimpleArrowIconFrame, zm, x, y, true)
-			end
 		end
 		LastMapPoint = i
 
@@ -650,7 +626,44 @@ function WoWPro:MapPoint(row)
 		end
 		TomTom.db.profile.persistence.cleardistance = OldCleardistance
 	end
-	print("XXX")
+
+	--------------------------------------------------------------------------
+	-- Native Simple Arrow Support for Classic
+	--------------------------------------------------------------------------
+
+	if WoWPro.SimpleArrow and (not TomTom) and (not Nx) and (math.floor(select(4, GetBuildInfo() ) / 100) == 113) then
+		
+		if not self.SimpleArrowFrame then
+			WoWPro:CreateSimpleArrowFrame()
+		end
+		if not self.SimpleArrowIconFrame then
+			WoWPro:CreateSimpleArrowIconFrames()
+		end
+
+		-- Clear any Icons
+		HBDPins:RemoveAllWorldMapIcons("WoWProSimpleArrow")
+		HBDPins:RemoveAllMinimapIcons("WoWProSimpleArrow")
+
+		local numcoords = select("#", string.split(";", coords))
+        FinalCoord = nil
+		for j=1,numcoords do
+			local waypoint = {}
+			local jcoord = select(numcoords-j+1, string.split(";", coords))
+			local x = tonumber(jcoord:match("([^|]*),"))
+			local y = tonumber(jcoord:match(",([^|]*)"))
+			if not x or x > 100 or not y or y > 100 then
+			    WoWPro:Error("Bad coordinate %s, %d out of %d. Please file a bug with the faction, guide and step description",jcoord,numcoords-j+1,numcoords)
+			    return
+			end
+			if (type(zm) == "number") and (type(x) == "number") and (type(y) == "number") then
+				HBDPins:AddWorldMapIconMap("WoWProSimpleArrow", WoWPro.SimpleArrowWorldMapIconFrame, zm, x/100, y/100, 1)
+				HBDPins:AddMinimapIconMap("WoWProSimpleArrow", WoWPro.SimpleArrowMiniMapIconFrame, zm, x/100, y/100, true,true)
+			end
+
+
+
+		end
+	end
 end
 
 function WoWPro:RemoveMapPoint()
