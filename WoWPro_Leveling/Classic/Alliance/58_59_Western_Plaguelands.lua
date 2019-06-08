@@ -1,6 +1,6 @@
 TourGuide:RegisterGuide("JamWes5859", "Western Plaguelands", "Jame", "58", "59", "JamEas5960", "Alliance", function() return [[
 R Stormwind City |QID|6184|
-F Aerie Peak |QID|6184| |N|Fly to Aerie Peak. | |Z|Stormind City|M|66.30,62.00|
+F Aerie Peak |QID|6184| |N|Fly to Aerie Peak.|Z|Stormwind City|M|66.30,62.00|
 R Hillsbrad Foothills |QID|6184| |N|Run to Hillsbrad Foothills. | |Z|The Hinterlands|M|6.00,62.00|
 R Alterac Mountains |QID|6184| |N|Follow the mountain to the right to get to Alterac Mountains. | |Z|Hillsbrad Foothills|M|72.00,9.50|
 R Western Plaguelands |QID|6184| |N|Go north to Western Plaguelands. | |Z|Alterac Mountains|M|80.70,34.00|
