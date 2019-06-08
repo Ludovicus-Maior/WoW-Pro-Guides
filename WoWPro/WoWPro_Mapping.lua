@@ -454,7 +454,7 @@ function WoWPro:MapPoint(row)
                 SetSuperTrackedQuestID(qid)
 	    end
 	end
-	
+
 	-- Using LightHeaded if the user has it and if there aren't coords from anything else --
 	if LightHeaded and WoWPro.QID and WoWPro.QID[i] and not coords then
 		if type(WoWPro.QID[i]) ~= "number" then return end
@@ -481,7 +481,7 @@ function WoWPro:MapPoint(row)
         WoWPro:dbp("MapPoint: No coords for step %d",i)
 	    return
 	end
-	
+
 	-- Finding the zone --
 	local zm = nil
 	if zone then
@@ -497,9 +497,9 @@ function WoWPro:MapPoint(row)
 	    zone, zm = WoWPro.GetZoneText()
 	    WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id ["..zone.."] "..tostring(zm))
 	end
-	
+
 	if TomTom or Nx then
-			TomTom.db.profile.arrow.setclosest = true
+		TomTom.db.profile.arrow.setclosest = true
     		OldCleardistance = TomTom.db.profile.persistence.cleardistance
 
     		-- arrival distance, so TomTom can call our customized distance function when player
