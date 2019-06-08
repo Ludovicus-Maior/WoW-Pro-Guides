@@ -4,6 +4,7 @@
 local guide = WoWPro:RegisterGuide('ClassicDuskwood2728', 'Leveling', 'Duskwood', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Duskwood 27-28')
 WoWPro:GuideLevels(guide, 27, 28, 27)
+WoWPro:GuideNextGuide(guide, 'ClassicWetlands2829')
 WoWPro:GuideSteps(guide, function() return [[
 A Look To The Stars (Part 1)|QID|174|M|79.8,48.1|
 T Look To The Stars (Part 1)|QID|174|M|79.8,48.1|
