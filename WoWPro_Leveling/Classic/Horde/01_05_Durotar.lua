@@ -1,9 +1,8 @@
---[[
-  WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
-  Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
---]]
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 local guide = WoWPro:RegisterGuide('ClassicDurotar0105', 'Leveling', 'Durotar', 'Zerinj', 'Horde', 1)
+WoWPro:GuideName(guide, 'Durotar 01-05')
 WoWPro:GuideLevels(guide, 1, 5, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicDurotar0612')
 WoWPro:GuideSteps(guide, function() return [[

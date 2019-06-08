@@ -1,15 +1,10 @@
---[[
-  WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
-  Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
---]]
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 local guide = WoWPro:RegisterGuide('ClassicMulgore0105', "Leveling", 'Mulgore', 'Shururu', 'Horde', 1)
+WoWPro:GuideName(guide, 'Mulgore 01-05')
 WoWPro:GuideLevels(guide, 1, 5, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicMulgore0612')
--- FIXME: WoW Classic does not have a Achievement_Charachter_Tauren_* icons
--- WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender(
---        "Interface\\Icons\\Achievement_Character_Tauren_Male",
---        "Interface\\Icons\\Achievement_Character_Tauren_Female"))
 WoWPro:GuideSteps(guide, function() return [[
 A The Hunt Begins|QID|747|M|44.87,77.08|N|From Grull Hawkwind.|
 A A Humble Task|QID|752|M|44.19,76.06|N|From Chief Hawkwind.|

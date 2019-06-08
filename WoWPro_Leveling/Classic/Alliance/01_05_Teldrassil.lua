@@ -2,6 +2,7 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 local guide = WoWPro:RegisterGuide('ClassicTeldrassil0105', "Leveling", 'Teldrassil', 'Shururu', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Teldrassil 01-05')
 WoWPro:GuideLevels(guide, 1, 5, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicTeldrassil0612')
 WoWPro:GuideSteps(guide, function() return [[

@@ -1,9 +1,8 @@
---[[
-  WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
-  Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
---]]
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 local guide = WoWPro:RegisterGuide('ClassicDurotar0612', 'Leveling', 'Durotar', 'Zerinj', 'Horde', 1)
+WoWPro:GuideName(guide, 'Durotar 06-12')
 WoWPro:GuideLevels(guide, 6, 12, 7)
 WoWPro:GuideSteps(guide, function() return [[
 ; --- carry over quests from last guide ---------------------------------------
