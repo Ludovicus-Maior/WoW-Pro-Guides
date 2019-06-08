@@ -4,6 +4,7 @@
 local guide = WoWPro:RegisterGuide('ClassicWetlands2829', 'Leveling', 'Wetlands', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Wetlands 28-29')
 WoWPro:GuideLevels(guide, 28, 29, 28)
+WoWPro:GuideNextGuide(guide, 'ClassicAshenvale2930')
 WoWPro:GuideSteps(guide, function() return [[
 R Deeprun Tram|QID|270|N|Run to the Deeprun Tram.|Z|Stormwind City|M|68.50,31.50|
 R Tinker Town|QID|270|N| Go to Ironforge.|
