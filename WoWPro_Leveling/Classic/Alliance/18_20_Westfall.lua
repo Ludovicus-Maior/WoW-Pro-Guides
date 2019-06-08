@@ -8,6 +8,7 @@
 local guide = WoWPro:RegisterGuide('ClassicWestfall1820', "Leveling", 'Westfall', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Westfall 18-20')
 WoWPro:GuideLevels(guide, 18, 20, 19)
+WoWPro:GuideNextGuide(guide, 'ClassicRedridge2021')
 WoWPro:GuideSteps(guide, function() return [[
 T The Defias Brotherhood (part 2)|QID|132|M|56.3,47.5|
 A The Defias Brotherhood (part 3)|QID|135|M|56.3,47.5|
