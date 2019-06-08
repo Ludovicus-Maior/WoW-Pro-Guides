@@ -4,6 +4,7 @@
 local guide = WoWPro:RegisterGuide('ClassicRedridge2627', 'Leveling', 'Redridge Mountains', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Redridge 26-27')
 WoWPro:GuideLevels(guide, 26, 27, 26)
+WoWPro:GuideNextGuide(guide, 'ClassicDuskwood2728')
 WoWPro:GuideSteps(guide, function() return [[
 B Bronze Tube |QID|174| |N|Buy a Bronze Tube from the Auction House or find somebody to craft it. | |L|4371 1|
 T Retrieval for Mauren |QID|1078|
