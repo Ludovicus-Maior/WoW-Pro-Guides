@@ -3,107 +3,18 @@
   Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 --]]
 
-local guide = WoWPro:RegisterGuide('ClassicDurotar0112', "Leveling", 'Durotar', 'Zerinj', 'Horde', 1)
-WoWPro:GuideLevels(guide,1,12, 2)
--- FIXME: WoW Classic does not have a Achievement_Charachter_Tauren_* icons
--- WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender(
---        "Interface\\Icons\\Achievement_Character_Orc_Male",
---        "Interface\\Icons\\Achievement_Character_Orc_Female"))
+local guide = WoWPro:RegisterGuide('ClassicDurotar0612', 'Leveling', 'Durotar', 'Zerinj', 'Horde', 1)
+WoWPro:GuideLevels(guide, 6, 12, 7)
 WoWPro:GuideSteps(guide, function() return [[
-A Your Place In The World|QID|4641|M|43.3,68.6|N|From the NPC in front of you.|
-T Your Place In The World|QID|4641|M|42.1,68.4|
+; --- carry over quests from last guide ---------------------------------------
+A Dark Storms|AVAILABLE|806|M|52.25,43.15|N|From Orgnil Soulscar.|
+A Thwarting Kolkar Aggression|AVAILABLE|786|M|54.50,74.97|N|From Lar Prowltusk.|
+A Minshina's Skull|AVAILABLE|808|M|55.95,74.72|N|From Master Gadrin.|
+A Zalazane|AVAILABLE|826|M|55.95,74.72|N|From Master Gadrin.|
+A A Solvent Spirit|AVAILABLE|818|M|55.95,74.40|N|From Master Vornal.|
+A Practical Prey|AVAILABLE|817|M|55.95,73.93|N|From Vel'rin Fang inside a small hut.|
+; -----------------------------------------------------------------------------
 
-A Cutting Teeth|QID|788|M|42.1,68.4|
-C Cutting Teeth|QID|788|M|40.6,62.7|N|Kill boars while heading northwest.|
-
-A Sarkoth|QID|790|M|40.6,62.7|N|Talk to the dying troll.|
-C Sarkoth|QID|790|M|40.4,66.7|N|Go up the hill south of the quest-giver and kill Sarkoth.|
-T Sarkoth|QID|790|M|40.6,62.7|N|Go back to the quest-giver.|
-A Sarkoth|QID|804|M|40.6,62.7|
-T Sarkoth|QID|804|M|42.1,68.4|N|Go back to the Den.|
-T Cutting Teeth|QID|788|M|42.1,68.4|
-
-A Etched Parchment|QID|3087|C|Hunter|R|Orc|M|42.1,68.4|
-A Encrypted Parchment|QID|3088|C|Rogue|R|Orc|M|42.1,68.4|
-A Rune-Inscribed Parchment|QID|3089|C|Shaman|R|Orc|M|42.1,68.4|
-A Tainted Parchment|QID|3090|C|Warlock|M|42.1,68.4|
-A Simple Parchment|QID|2383|C|Warrior|R|Orc|M|42.1,68.4|
-A Etched Tablet|QID|3082|C|Hunter|R|Troll|M|42.1,68.4|
-A Glyphic Tablet|QID|3086|C|Mage|M|42.1,68.4|
-A Hallowed Tablet|QID|3085|C|Priest|M|42.1,68.4|
-A Encrypted Tablet|QID|3083|C|Rogue|R|Troll|M|42.1,68.4|
-A Rune-Inscribed Tablet|QID|3084|C|Shaman|R|Troll|M|42.1,68.4|
-A Simple Tablet|QID|3065|C|Warrior|R|Troll|M|42.1,68.4|
-A Sting of the Scorpid|QID|789|M|42.1,68.4|
-
-T Etched Parchment|QID|3087|C|Hunter|R|Orc|M|42.8,69.3|N|Also train your new skills.|
-T Etched Tablet|QID|3082|C|Hunter|R|Troll|M|42.8,69.3|N|Also train your new skills.|
-T Glyphic Tablet|QID|3086|C|Mage|M|42.5,69|N|Also train your new skills.|
-T Hallowed Tablet|QID|3085|C|Priest|M|42.4,68.8|N|Also train your new skills.|
-T Encrypted Parchment|QID|3088|C|Rogue|R|Orc|M|41.3,68.0|N|Also train your new skills.|
-T Encrypted Tablet|QID|3083|C|Rogue|R|Troll|M|41.3,68.0|N|Also train your new skills.|
-T Rune-Inscribed Parchment|QID|3089|C|Shaman|R|Orc|M|42.4,68.9|N|Also train your new skills.|
-T Rune-Inscribed Tablet|QID|3084|C|Shaman|R|Troll|M|42.4,68.9|N|Also train your new skills.|
-T Tainted Parchment|QID|3090|C|Warlock|R|Orc|M|40.6,68.4|N|Also train your new skills.|
-T Simple Parchment|QID|2383|C|Warrior|R|Orc|M|42.9,69.4|N|Also train your new skills.|
-T Simple Tablet|QID|3065|C|Warrior|R|Troll|M|42.9,69.4|N|Also train your new skills.|
-
-A Vile Familiars|QID|792|M|42.9,69.1|
-A Vile Familiars|QID|1485|C|Warlock|R|Orc,Troll|M|42.6,68.9|
-A Galgar's Cactus Apple Surprise|QID|4402|M|42.7,67.3|
-A Lazy Peons|QID|5441|M|44.6,68.6|
-
-C Galgar's Cactus Apple Surprise|QID|4402|S|NC|N|Loot Cactus Apples from Cactuses|
-C Sting of the Scorpid|QID|789|S|N|Kill Scorpid Workers and loot their Scorpid Worker Tails|
-C Lazy Peons|QID|5441|S|NC|U|16114|N|Hit Lazy Peons with the Foreman's Blackjack. You'll find them near the walls.|
-C Vile Familiars|QID|792|M|44.7,57.7|N|Work on your other objectives on the way to the Vile Familiars in the north.|
-C Vile Familiars|QID|1485|C|Warlock|R|Orc,Troll|
-C Galgar's Cactus Apple Surprise|QID|4402|US|NC|M|44.7,57.7|N|Loot Cactus Apples from Cactuses|
-C Sting of the Scorpid|QID|789|US|N|Kill Scorpid Workers and loot their Scorpid Worker Tails|
-C Lazy Peons|QID|5441|US|NC|U|16114|N|Hit Lazy Peons with the Foreman's Blackjack. You'll find them near the walls.|
-
-T Lazy Peons|QID|5441|M|44.6,68.7|U|6948|N|Go back to The Den.|
-A Thazz'ril's Pick|QID|6394|PRE|5441|M|44.6,68.7|
-T Vile Familiars|QID|792|M|42.9,69.1|
-A Burning Blade Medallion|QID|794|M|42.9,69.1|
-T Sting of the Scorpid|QID|789|M|42.1,68.4|
-T Galgar's Cactus Apple Surprise|QID|4402|M|42.7,67.2|
-T Vile Familiars|QID|1485|C|Warlock|R|Orc,Troll|M|42.6,68.9|
-A Vile Familiars|QID|1499|C|Warlock|R|Orc,Troll|M|42.6,68.9|
-T Vile Familiars|QID|1499|C|Warlock|R|Orc,Troll|M|42.9,69.1|
-A Call of Earth|QID|1516|C|Shaman|R|Orc,Troll|M|42.4,69.1|
-
-C Thazz'ril's Pick|QID|6394|M|43.75,53.82|N|We are going back to the cave we were at earlier, except now we are going inside. Right infront of you as you enter should be a room. At the far end should be a shining mining pick.|
-C Burning Blade Medallion|QID|794|M|42.7,52.9|N|Exit the room and take a left and follow the path you should see Yarrog Baneshadow.|
-C Call of Earth|QID|1516|C|Shaman|R|Orc,Troll|
-N Grind mobs|QID|6394|N|Kill mobs around here until you are at least 1000 xp into level 5.|
-H Valley of Trials|QID|6394|M|44.6,68.7|U|6948|
-
-T Thazz'ril's Pick|QID|6394|M|44.6,68.7|
-T Burning Blade Medallion|QID|794|M|42.9,69.1|
-A Report to Sen'jin Village|QID|805|M|42.9,69.1|
-A In Favor of Spirituality|QID|5649|C|Priest|R|Orc,Troll|M|42.4,68.8|
-
-T Call of Earth|QID|1516|C|Shaman|R|Orc,Troll|M|42.4,69.1|
-A Call of Earth|QID|1517|C|Shaman|R|Orc,Troll|M|42.4,69.1|
-T Call of Earth|QID|1517|C|Shaman|R|Orc,Troll|M|41.47,73.41|U|6635|N|The path up to the elemental starts at (41.47,73.41). Drink the sapta to be able to see the quest turn-in NPC (43.99,76.15).|
-A Call of Earth|QID|1518|C|Shaman|R|Orc,Troll|M|44,76.1|
-T Call of Earth|QID|1518|C|Shaman|R|Orc,Troll|M|42.4,69.1|
-
-A A Peon's Burden|QID|2161|M|52.0,68.3|
-
-A Thwarting Kolkar Aggression|QID|786|M|54.5,74.7|N|Run west to Sen'jin Village|
-A Practical Prey|QID|817|M|55.9,74.0|
-A A Solvent Spirit|QID|818|M|55.9,74.4|
-T Report to Sen'jin Village|QID|805|M|55.9,74.7|
-A Minshina's Skull|QID|808|M|55.9,74.7|
-A Report to Orgnil|QID|823|M|55.9,74.7|
-A Zalazane|QID|826|M|55.9,74.7|
-
-T Report to Orgnil|QID|823|M|52.3,43.2|N|Go north to Razor Hill.|
-A Dark Storms|QID|806|M|52.3,43.2|
-T A Peon's Burden|QID|2161|M|51.5,41.7|N|Go inside the inn.|
-h Razor Hill|QID|784|M|51.5,41.7|N|Set your hearthstone here.|
 A Vanquish the Betrayers|QID|784|M|51.9,43.5|
 A Encroachment|QID|837|M|51.9,43.5|
 A Break a Few Eggs|QID|815|M|51.2,42.5|
