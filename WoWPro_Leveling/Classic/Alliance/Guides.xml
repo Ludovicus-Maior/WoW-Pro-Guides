@@ -35,4 +35,13 @@
 	<Script file="47_48_Hinterlands.lua"/>
 	<Script file="48_50_Tanaris.lua"/>
 	<Script file="50_50_Hinterlands.lua"/>
+	<Script file="50_51_Searing_Gorge.lua"/>
+	<Script file="51_52_Azshara.lua"/>
+	<Script file="52_53_Felwood.lua"/>
+	<Script file="53_53_Feralas.lua"/>
+	<Script file="53_54_Felwood.lua"/>
+	<Script file="54_56_Ungoro_Crater.lua"/>
+	<Script file="56_56_Winterspring.lua"/>
+	<Script file="58_59_Western_Plaguelands.lua"/>
+	<Script file="59_60_Eastern_Plaguelands.lua"/>
 </Ui>
