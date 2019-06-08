@@ -16,6 +16,7 @@
 local guide = WoWPro:RegisterGuide('ClassicRedridge2021', 'Leveling', 'Redridge Mountains', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Redridge 20-21')
 WoWPro:GuideLevels(guide, 20, 21, 20)
+WoWPro:GuideNextGuide(guide, 'ClassicDuskwood2122')
 WoWPro:GuideSteps(guide, function() return [[
 N Rogue Poisons|QID|126|N|Don't forget that rogue can now buy poisons from the shady dealer at level 20. You don't need to do any quest to unlock them now! They are a big help so don't forget them. Close this step when you're done.|C|Rogue|Z|Stormwind City|M|80.2,70.1|
 A Speaking of Fortitude M|45.7,38.4|

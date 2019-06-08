@@ -1,7 +1,10 @@
-TourGuide:RegisterGuide("Duskwood (21-22)", "Wetlands (22-23)", "Alliance", function()
-return [[
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-
+local guide = WoWPro:RegisterGuide('ClassicDuskwood2122', 'Leveling', 'Duskwood', 'Boston', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Duskwood 21-22')
+WoWPro:GuideLevels(guide, 21, 22, 21)
+WoWPro:GuideSteps(guide, function() return [[
 h Darkshire|QID|154|N|Set your home location to Darkshire.|M|73.90,44.40|
 
 A Raven Hill|QID|163|M|75.3,48.6|
@@ -54,4 +57,5 @@ T Return the Comb|QID|154|M|75.7,45.3|
 
 
 N Now is Likely a good time to do stockades, Make sure you have the Quest from Lakeshire Town hall, and the Quest from redridge Town hall. The other three can all be found in stormwind.
-]]end)
+]]
+end)
