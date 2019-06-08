@@ -167,6 +167,14 @@ local function CreateDisplayConfig()
 						get = function(info) return WoWProDB.profile.autoload end,
 						set = function(info,val) WoWProDB.profile.autoload = val end
 					},
+					nativearrow = {
+						order = 13,
+						type = "toggle",
+						name = L["Use Native Arrow"],
+						desc = L["Will use a simple, native arrow if other addons not available. /reload after changing value."],
+						get = function(info) return WoWProDB.profile.nativearrow end,
+						set = function(info,val) WoWProDB.profile.nativearrow = val end
+					},
 					blank2 = {
 						order = 20,
 						type = "description",

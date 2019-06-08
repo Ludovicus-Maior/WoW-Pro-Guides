@@ -309,6 +309,7 @@ local defaults = { profile = {
 	track = true,
 	showcoords = false,
 	autoload = true,
+	nativearrow = false,
 	guidescroll = false,
 	checksound = true,
 	checksoundfile = [[Sound\Interface\MapPing.wav]],
@@ -515,7 +516,7 @@ function WoWPro:OnDisable()
 	WoWPro.EventFrame:UnregisterAllEvents()	-- Unregisters all events
 	local bucket = LibStub("AceBucket-3.0")
 	WoWPro:UnregisterAllBuckets()
-	WoWPro:RemoveMapPoint()							-- Removes any active map points
+    WoWPro:RemoveMapPoint()							-- Removes any active map points
 	WoWPro:Print("|cffff3333Disabled|r: Version %s", WoWPro.Version)
 end
 

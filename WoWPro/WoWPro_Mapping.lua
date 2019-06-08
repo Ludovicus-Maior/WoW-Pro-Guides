@@ -628,7 +628,7 @@ function WoWPro:MapPoint(row)
 	end
 
 	-- Native Simple Arrow Support for Classic
-	if WoWPro.SimpleArrow and (not TomTom) and (not Nx) and (math.floor(select(4, GetBuildInfo() ) / 100) == 113) then
+	if WoWPro.SimpleArrow and WoWProDB.profile.nativearrow and (not TomTom) and (not Nx) and (math.floor(select(4, GetBuildInfo() ) / 100) == 113) then
 		WoWPro:SimpleArrowMapPoint(zone, zm, coords)
 	end
 end

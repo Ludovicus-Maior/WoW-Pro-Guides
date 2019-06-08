@@ -2983,15 +2983,19 @@ function WoWPro.LockdownHandler(self, elapsed)
 					WoWPro.LockdownCounter = WoWPro.LockdownCounter - 1
 					WoWPro.LockdownTimer = 0.33
 				else
-					-- Warning if the user is missing TomTom --
-					WoWPro:Warning("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
-						.."WoW-Pro's guides won't have their full functionality without it! "
-						.."Download it for free from www.wowinterface.com or www.curse.com .")
+					if (not WoWPro.SimpleArrow) or (not WoWProDB.profile.nativearrow)  then
+						-- Warning if the user is missing TomTom --
+						WoWPro:Warning("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
+							.."WoW-Pro's guides won't have their full functionality without it! "
+							.."Download it for free from www.wowinterface.com or www.curse.com or activate WoWPro native arrow.")
 
-					if TomTom then -- Fix when Carbonite`s TomTom emulation is OFF
-						TomTom = nil
-						WoWPro:Warning("If you have |cff33ff33Carbonite|r installed, "
-							.."do not forget to enable Carbonite\'s TomTom emulation! (Tracking HUD section)")
+						if TomTom then -- Fix when Carbonite`s TomTom emulation is OFF
+							TomTom = nil
+							WoWPro:Warning("If you have |cff33ff33Carbonite|r installed, "
+								.."do not forget to enable Carbonite\'s TomTom emulation! (Tracking HUD section)")
+						end
+					else
+						WoWPro:Warning("Did not find |cff33ff33TomTom|r or |cff33ff33Carbonite|r. Using WoWPro native arrow.")
 					end
 				end
 			end
