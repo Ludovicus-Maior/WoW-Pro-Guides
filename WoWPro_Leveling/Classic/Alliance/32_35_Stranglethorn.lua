@@ -1,6 +1,6 @@
 TourGuide:RegisterGuide("JamStr3235", "Stranglethorn Vale", "Jame", "32", "35", "JamHil3536", "Alliance", function()
 return [[
-R|QID|1181| Booty Bay
+R Booty Bay|QID|1181|
 T Goblin Sponsorship (part 1)|QID|1180|M|26.3,73.6|
 A Goblin Sponsorship (part 2)|QID|1181|M|26.3,73.6|
 h Booty Bay|QID|1181|N|Make Booty Bay your home location.|M|27.00,77.30|
