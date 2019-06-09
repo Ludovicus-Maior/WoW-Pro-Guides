@@ -3,7 +3,7 @@
 
 local guide = WoWPro:RegisterGuide('ClassicTheBarrens1221', "Leveling", 'The Barrens', 'Hosho', 'Horde', 1)
 WoWPro:GuideName(guide, 'The Barrens 12-21')
-WoWPro:GuideLevels(guide, 6, 12, 7)
+WoWPro:GuideLevels(guide, 12, 21, 13)
 WoWPro:GuideSteps(guide, function() return [[
 h The Crossroads|QID|844|M|52.0,29.9|
 A Raptor Thieves|QID|869|M|51.9,30.3|
