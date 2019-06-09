@@ -56,7 +56,7 @@ A The Rescue |QID|498|
 A Dangerous! |QID|567|
 A Elixir of Suffering (Part 1) |QID|496|
 A Elixir of Pain (Part 1) |QID|501|M|61.4,19.1|
-C Call of Water (Part 4)|QID|1536|C|Shaman|U|7768|Use the Empty Red Waterskin at the well (62,20)|M|62.2,20.8|
+C Call of Water (Part 4)|QID|1536|C|Shaman|U|7768|N|Use the Empty Red Waterskin at the well.|M|62.2,20.8|
 
 N Things to do... |QID|496|N|From now on kill every bear and spider you encounter.|
 
