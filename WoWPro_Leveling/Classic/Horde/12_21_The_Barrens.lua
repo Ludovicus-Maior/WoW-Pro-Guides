@@ -66,7 +66,7 @@ A The Guns of Northwatch|QID|891|M|62.3,39.0|
 C The Shattered Hand|QID|1963|C|Rogue|Tazan patrolls to the south. Kill him and loot his satchel.|M|63.8,44.5|
 
 C Southsea Freebooters|QID|887|N|Head south along the coast and kill pirates. Avoid Baron Longshore if you see him.|
-T Southsea Freebooters|QID|887|Head back to Gazlowe.|M|62.7,36.3|
+T Southsea Freebooters|QID|887|N|Head back to Gazlowe.|M|62.7,36.3|
 A The Missing Shipment (Part 1)|QID|890|M|62.7,36.3|
 T The Missing Shipment (Part 1)|QID|890|M|63.3,38.4|
 A The Missing Shipment (Part 2)|QID|892|M|63.3,38.4|
@@ -157,7 +157,7 @@ F Camp Taurajo|QID|852|N|(51.1,28.1)|
 h Camp Taurajo|QID|852|N|(45.6,59.0)|
 
 C Stolen Silver|QID|3281|N|Head to the Raptor Grounds, avoiding the Bristleback Quillboar camps. Clear your way through the grounds, picking off raptors one by one. The stolen silver is in a chest at the back of the grounds, guarded by three raptors (58.0,53.9). One of these can be pulled solo.|
-C Raptor Horns|QID|865|N|Stay at the Raptor Grounds, killing any loose raptors you find until you have 5 Intact Raptor Horns and at least 3 Sunscale Feathers.|L|5165|3|
+C Raptor Horns|QID|865|N|Stay at the Raptor Grounds, killing any loose raptors you find until you have 5 Intact Raptor Horns and at least 3 Sunscale Feathers.|L|5165 3|
 C The Angry Scytheclaws|QID|905|N|Go to the raptor nests at (52,46). Clear the area, then right-click each of the nests.|
 
 C Altered Beings|QID|880|N|Go to the Lushwater Oasis (46,39). Kill Oasis Snapjaws and loot their shells.|
@@ -253,7 +253,7 @@ T Jorn Skyseer|QID|3261|
 A Ishamuhale|QID|882|
 A Tribes at War|QID|878|
 
-C Tribes at War|QID|878|N|Move north. Move back and forth between this camp and the other until you have killed the necessary number of Bristlebacks of each type.|M|43,51;42,48|
+C Tribes at War|QID|878|N|Move north. Move back and forth between this camp and the other until you have killed the necessary number of Bristlebacks of each type.|M|43,51;42,48|CS|
 C Consumed by Hatred|QID|899|N|Keep killing Bristlebacks until you have enough tusks.|
 N Blood Shards|QID|5052|L|5075 11|N|Continue to kill until you have at least 11 Blood Shards.|
 
