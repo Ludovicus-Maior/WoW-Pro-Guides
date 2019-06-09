@@ -41,7 +41,7 @@ T Worth Its Weight in Gold|N|Turn in your quest at Refuge Pointe.|QID|691|Z|Arat
 H Southshore|QID|661|N|Hearth to Southshore.|
 T Hints of a New Plague? (part 5)|QID|661|M|50.3,59.0|
 N Sell junk, repair, restock|QID|564|N|Sell junk, repair, restock|
-R Alterac Mountains|QID|564|N|M|54.60,8.00|
+R Alterac Mountains|QID|564|M|54.60,8.00|
 R Sofera's Naze|QID|564|N||Z|Alterac Mountains|M|58.00,67.00|
 A Encrypted Letter|N||QID|511|Z|Alterac Mountains|M|58.35,67.90|
 A Foreboding Plans|N||QID|510|Z|Alterac Mountains|M|58.35,67.90|
