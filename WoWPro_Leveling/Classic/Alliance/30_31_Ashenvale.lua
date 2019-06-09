@@ -48,7 +48,7 @@ R Run to a path.|QID|1039|N|Run to a path.|M|67.00,71.00|
 R The Barrens|QID|1039|N|Run south to the border of the barrens without being seen.  There is a spot you can run past that does not have any horde guards.  It is to the left of the border.|M|70.00,90.00|
 R Ratchet|QID|1039|N|Run to Ratchet.|Z|The Barrens|M|61.00,37.00|
 f Ratchet|QID|1039|N|Get the flight path.|Z|The Barrens|M|63.10,37.15|
-T The Barrens Port|QID|1039|Z|The Barrens|Z|The Barrens|M|63.4,38.5|
+T The Barrens Port|QID|1039|Z|The Barrens|M|63.4,38.5|
 A Passage to Booty Bay|QID|1040|Z|The Barrens|M|63.4,38.5|
 b Booty Bay|QID|1040|N|Take the boat to Booty Bay.|Z|The Barrens|M|63.65,38.65|
 T Passage to Booty Bay|QID|1040|Z|Stranglethorn Vale|M|27.4,74.1|
