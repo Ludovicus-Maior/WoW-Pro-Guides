@@ -299,10 +299,5 @@ T Cry of the Thunderhawk |QID|913|
 A The Ashenvale Hunt |QID|6382|
 F Orgrimmar|QID|3924|N|(44.5,59.1)|
 T Samophlange Manual|QID|3924|N|Head back to Rilli Greasygob and give the Samophlange manual to him.|
-N Mount|QID|1483|R|Tauren|N|Since you are level 20 now, you can buy your first mount! I highly suggest doing this, since it will save you a ton of time. Fly to Thunder Bluff and head to Bloodhoof Village to train riding and purchase your new Kodo. You will need 4 gold for training and 1 gold for a mount. (47.5,58.5)|Z|Mulgore|
-N Mount|QID|1483|R|Orc|N|Since you are level 20 now, you can buy your first mount! I highly suggest doing this, since it will save you a ton of time. Head to the Valley of Honor to train riding and purchase your new Wolf. You will need 4 gold for training and 1 gold for a mount. (69.3,12.7)|Z|Orgrimmar|
-N Mount|QID|1483|R|Troll|N|Since you are level 20 now, you can buy your first mount! I highly suggest doing this, since it will save you a ton of time. Get out of Orgrimmar and head south to Sen'Jin Village to train riding and purchase your new Raptor. You will need 4 gold for training and 1 gold for a mount. (55.2,75.6)|Z|Durotar|
-N Mount|QID|1483|R|Undead|N|Since you are level 20 now, you can buy your first mount! I highly suggest doing this, since it will save you a ton of time. Get out of Orgrimmar and take the zeppelin to Tirisfal Glades, then head to Brill to train riding and purchase your new Skeletal Horse. You will need 4 gold for training and 1 gold for a mount. (59.9,52.6)|Z|Tirisfal Glades|
-N Mount|QID|1483|R|Blood Elf|N|Since you are level 20 now, you can buy your first mount! I highly suggest doing this, since it will save you a ton of time. Get out of Orgrimmar and take the zeppelin to Tirisfal Glades, then take the Orb of Translocation to Silvermoon. Head outside of the city to train riding and purchase your new Hawkstrider. You will need 4 gold for training and 1 gold for a mount. (61.0,54.7)|Z|Eversong Woods|
 ]]
 end)
