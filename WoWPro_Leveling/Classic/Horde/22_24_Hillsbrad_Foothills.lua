@@ -2,7 +2,7 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 local guide = WoWPro:RegisterGuide('ClassicHillsbrad2224', 'Leveling', 'Hillsbrad Foothills', 'Jame', 'Horde', 1)
-WoWPro:GuideName(guide, 'Stonetalon Mountains 22-24')
+WoWPro:GuideName(guide, 'Hillsbrad Foothills 22-24')
 WoWPro:GuideLevels(guide, 22, 24, 22)
 WoWPro:GuideNextGuide(guide, 'ClassicAshenvale2425')
 WoWPro:GuideSteps(guide, function() return [[
