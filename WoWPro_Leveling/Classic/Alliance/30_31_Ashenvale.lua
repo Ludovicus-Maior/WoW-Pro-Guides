@@ -59,7 +59,7 @@ T The Caravan Road|QID|1041|Z|Duskwood|M|72.52,46.86|
 A The Carevin Family|QID|1042|Z|Duskwood|M|72.52,46.86|
 T The Carevin Family|N|Turn in your quest to Jonathan Carevin.|QID|1042|Z|Duskwood|M|75.32,49.03|
 A The Scythe of Elune|QID|1043|Z|Duskwood|M|75.32,49.03|
-A Worgen in the Woods (part 3)|PRE|221|N|Get [31] Worgen in the Woods from Calor if you do not have it already (Requires killing 8 Nightbane Vile Fang and 8 Nightbane Tainted One).  If you cannot get this quest, skip it.|QID|222|Z|Duskwood|M|75.7,47.6|PRE|221|
+A Worgen in the Woods (part 3)|PRE|221|N|Get [31] Worgen in the Woods from Calor if you do not have it already (Requires killing 8 Nightbane Vile Fang and 8 Nightbane Tainted One).  If you cannot get this quest, skip it.|QID|222|Z|Duskwood|M|75.7,47.6|
 R Run to the Worgen cave.|N|Head to a cave.|Z|Duskwood|M|73.00,75.00|
 C The Scythe of Elune|N|Go inside the cave, killing everything on your way until you find a mound.  Loot the mound. Be careful of the mob named Gutspill, he is tough.|QID|1043|Z|Duskwood|M|73.50,79.10|
 C Worgen in the Woods (part 3)|PRE|221|N|Finish Worgen in the Woods if you have it.|QID|222|
