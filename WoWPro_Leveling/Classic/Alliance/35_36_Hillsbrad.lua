@@ -73,7 +73,7 @@ A Magical Analysis|QID|602|
 H Southshore|QID|525|N|Hearth to Southshore.|
 T Further Mysteries|QID|525|M|48.1,59.1|
 A Noble Deaths|QID|512|M|48.1,59.1|
-R Alterac Mountains|QID|602|N|M|54.00,7.00|
+R Alterac Mountains|QID|602|M|54.00,7.00|
 R Strahnbrad|QID|602|N|Follow the path to Strahnbrad.|Z|Alterac Mountains|M|57.00,47.00|
 C Noble Deaths|N|Kill mobs here to get the Alterac Signets needed for the quest.|QID|512|Z|Alterac Mountains|M|62.3,45.4|
 T Magical Analysis|N|Turn your quest in.|QID|602|Z|Alterac Mountains|M|18.00,75.00|
