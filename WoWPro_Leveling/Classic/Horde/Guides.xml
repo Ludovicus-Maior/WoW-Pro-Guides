@@ -6,4 +6,6 @@
   <Script file="06_12_Mulgore.lua"/>
   <Script file="12_21_The_Barrens.lua"/>
   <Script file="21_22_Stonetalon_Mountains.lua"/>
+  <Script file="22_24_Hillsbrad_Foothills.lua"/>
+  <Script file="24_25_Ashenvale.lua"/>
 </Ui>
