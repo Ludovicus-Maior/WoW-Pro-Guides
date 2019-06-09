@@ -58,7 +58,7 @@ T Costly Menace|QID|564|M|52.4,56.0|
 
 F Ironforge|QID|514|N|Fly to Ironforge.|M|49.30,52.30|
 A Reclaimers' Business in Desolace|QID|1453|Z|Ironforge|M|69.9,21.2|
-T Letter to Stormpike|QID|514|Z|Ironforg4|M|74.7,11.7|
+T Letter to Stormpike|QID|514|Z|Ironforge|M|74.7,11.7|
 A Further Mysteries|N|Get the follow-up.|QID|525|M|74.7,11.7|
 R Stormwind City|QID|563|N|Take the Deeprun Tram in Tinker Town.|
 N Sell junk, repair, restock, train new skills.|QID|563|N|Sell junk, repair, restock, train new skills.|
