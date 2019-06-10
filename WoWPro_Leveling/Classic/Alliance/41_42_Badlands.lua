@@ -46,7 +46,7 @@ T Scrounging|QID|733|M|53.6,43.3|
 T Study of the Elements: Rock (part 2)|QID|711|M|25.9,44.6|
 A Study of the Elements: Rock (part 3)|QID|712|M|25.9,44.6|
 N Level Check: 42|QID|2500|N|Grind if you aren't 42 already.|
-H|QID|2500| Ironforge
+H Ironforge|QID|2500|
 
 N Train|QID|2500|N|Grab your new skills, visit the AH, vendor junk, repair, restock, etc.|
 F Thelsamar|QID|2500|N|Fly to Thelsamar, Loch Modan|Z|Ironforge|M|55.50,47.80|

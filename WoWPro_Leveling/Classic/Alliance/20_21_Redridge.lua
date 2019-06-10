@@ -1,7 +1,23 @@
-TourGuide:RegisterGuide("Redridge Mountains (20-21)", "Duskwood (21-22)", "Alliance", function()
-return [[
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- FIXME:
+-- Unknown tag ¦45.7,38.4¦ in [A Speaking of Fortitude M¦45.7,38.4¦].
+-- Unknown tag ¦74.2,7.5¦ in [T Speaking of Fortitude M¦74.2,7.5¦].
+-- Unknown tag ¦74.2,7.5¦ in [A Brother Paxton M¦74.2,7.5¦].
+-- Step R [Elwynn Forest:126] in ClassicRedridge2021 is missing a CS¦CC¦CN tag.
+-- Unknown tag ¦49.6,40.3¦ in [T Brother Paxton M¦49.6,40.3¦].
+-- Step C [Selling Fish:127] in ClassicRedridge2021 is missing a CS¦CC¦CN tag.
+-- Step C [The Everstill Bridge:89] in ClassicRedridge2021 is missing a CS¦CC¦CN tag.
+-- Step C [Blackrock Menace:20] in ClassicRedridge2021 is missing a CS¦CC¦CN tag.
+-- Step C [Underbelly Scales:122] in ClassicRedridge2021 is missing a CS¦CC¦CN tag.
+-- Step C [Howling in the Hills:126] in ClassicRedridge2021 is missing a CS¦CC¦CN tag.
 
+local guide = WoWPro:RegisterGuide('ClassicRedridge2021', 'Leveling', 'Redridge Mountains', 'Boston', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Redridge 20-21')
+WoWPro:GuideLevels(guide, 20, 21, 20)
+WoWPro:GuideNextGuide(guide, 'ClassicDuskwood2122')
+WoWPro:GuideSteps(guide, function() return [[
 N Rogue Poisons|QID|126|N|Don't forget that rogue can now buy poisons from the shady dealer at level 20. You don't need to do any quest to unlock them now! They are a big help so don't forget them. Close this step when you're done.|C|Rogue|Z|Stormwind City|M|80.2,70.1|
 A Speaking of Fortitude M|45.7,38.4|
 T Speaking of Fortitude M|74.2,7.5|

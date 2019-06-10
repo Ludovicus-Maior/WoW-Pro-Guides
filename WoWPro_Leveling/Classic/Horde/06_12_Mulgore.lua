@@ -1,14 +1,10 @@
---[[
-  WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
-  Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
---]]
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 local guide = WoWPro:RegisterGuide('ClassicMulgore0612', "Leveling", 'Mulgore', 'Shinke', 'Horde', 1)
+WoWPro:GuideName(guide, 'Mulgore 06-12')
 WoWPro:GuideLevels(guide, 6, 12, 7)
--- FIXME: WoW Classic does not have a Achievement_Charachter_Tauren_* icons
--- WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender(
---        "Interface\\Icons\\Achievement_Character_Tauren_Male",
---        "Interface\\Icons\\Achievement_Character_Tauren_Female"))
+WoWPro:GuideNextGuide(guide, 'ClassicTheBarrens1221')
 WoWPro:GuideSteps(guide, function() return [[
 T A Task Unfinished|QID|1656|
 h Bloodhoof Village|QID|1656|M|46.7,61.0|N|Innkeeper Kauth. (46.7,61.0)|

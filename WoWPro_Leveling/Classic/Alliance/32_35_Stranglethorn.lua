@@ -1,6 +1,6 @@
 TourGuide:RegisterGuide("JamStr3235", "Stranglethorn Vale", "Jame", "32", "35", "JamHil3536", "Alliance", function()
 return [[
-R|QID|1181| Booty Bay
+R Booty Bay|QID|1181|
 T Goblin Sponsorship (part 1)|QID|1180|M|26.3,73.6|
 A Goblin Sponsorship (part 2)|QID|1181|M|26.3,73.6|
 h Booty Bay|QID|1181|N|Make Booty Bay your home location.|M|27.00,77.30|
@@ -95,11 +95,11 @@ R Southshore|QID|9435|N|Run to Southshore.|Z|Hillsbrad Foothills|M|50.30,51.90|
 f Southshore|QID|9435|N|Get the flight-path.|Z|Hillsbrad Foothills|M|49.40,52.30|
 T Southshore|O|QID|538|
 A Missing Crystals|QID|9435|Z|Hillsbrad Foothills|M|51.0,58.7|
-A Down the Coast|QID|536|Z|Hillsbrad Foothill|M|51.5,58.4|
+A Down the Coast|QID|536|Z|Hillsbrad Foothills|M|51.5,58.4|
 C Down the Coast|N|Kill the murlocs needed for Down the Coast.  It on the shore south/west of Southshore.|QID|536|Z|Hillsbrad Foothills|M|49.10,63.40|
 C Missing Crystals|N|Loot the crate at this location.|QID|9435|Z|Hillsbrad Foothills|M|55.50,35.20|
-T Missing Crystals|QID|9435|Z|Hillsbrad Foothill|M|51.0,58.7|
-T Down the Coast|QID|536|Z|Hillsbrad Foothill|M|51.5,58.4|
+T Missing Crystals|QID|9435|Z|Hillsbrad Foothills|M|51.0,58.7|
+T Down the Coast|QID|536|Z|Hillsbrad Foothills|M|51.5,58.4|
 T Southshore|QID|538|
 N Level check: 34|QID|187|LVL|34|
 H The Salty Sailor Tavern|QID|187|N|Hearth to Booty Bay.|

@@ -1,7 +1,11 @@
-TourGuide:RegisterGuide("Redridge Mountains (26-27)", "Duskwood (27-28)", "Alliance", function()
-return [[
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-
+local guide = WoWPro:RegisterGuide('ClassicRedridge2627', 'Leveling', 'Redridge Mountains', 'Boston', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Redridge 26-27')
+WoWPro:GuideLevels(guide, 26, 27, 26)
+WoWPro:GuideNextGuide(guide, 'ClassicDuskwood2728')
+WoWPro:GuideSteps(guide, function() return [[
 B Bronze Tube |QID|174| |N|Buy a Bronze Tube from the Auction House or find somebody to craft it. | |L|4371 1|
 T Retrieval for Mauren |QID|1078|
 B Stormwind Seasoning Herbs |QID|90| |N|Buy Stormwind Seasoning Herbs from Felicia Gum (69.35, 71.20)| |L|2665 1| |Z|Stormwind City|M|66.15,64.2|
@@ -37,13 +41,13 @@ C Wanted: Gath'Ilzogg |N|Some classes can solo this quest, but it's much easier 
 C Solomon's Law |N|Kill gnolls until you get the items for this quest. (77.2,40.1)| |QID|91|M|73.21,41.98|
 A Morganth |N|This quest is a little difficult to solo, so it's optional. Close this step if you want to skip it. | |QID|249|M|84.20,46.59|
 C Morganth |N|Make your way to the top of this tower. Kill Morganth and loot his Pendant of Shadow.  | |QID|249|M|80.3,48.75|
-C Tharil’zun |N|Last chance to do this quest. Close this step and abandon this quest if you can't find a group and can't solo it. (69.4,59.3d)||QID|19|M|67.4,58.9|
+C Tharil'zun |N|Last chance to do this quest. Close this step and abandon this quest if you can't find a group and can't solo it. (69.4,59.3d)||QID|19|M|67.4,58.9|
 C Wanted: Gath'Ilzogg |N|Last chance to do this quest. Gath llzogg is at the top of the keep, guarded by 2 other mobs and an elite dragon whelp. The 2 guards can be pulled solo. Close this step and abandon this quest if you can't find a group and can't solo it. (69.9,55.95)| |QID|169|M|68.1,56|
 H Lakeshire |QID|128|
 T Solomon's Law |QID|91|M|30.0,44.4|
 T Wanted: Lieutenant Fangore |QID|180|M|30.0,44.4|
 T Wanted: Gath'Ilzogg |QID|169| |O|
-T Tharil’zun |QID|19| |O|
+T Tharil'zun |QID|19| |O|
 T Shadow Magic |QID|115|M|33.5,49.0|
 T Blackrock Bounty |QID|128|M|31.5,57.9|
 

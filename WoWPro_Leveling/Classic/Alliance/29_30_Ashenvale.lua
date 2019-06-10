@@ -1,6 +1,10 @@
-TourGuide:RegisterGuide("BosAsh2930", "Ashenvale", "Boston", "29", "30", "JamAsh3031", "Alliance", function()
-return [[
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+local guide = WoWPro:RegisterGuide('ClassicAshenvale2930', 'Leveling', 'Ashenvale', 'Boston', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Ashenvale 29-30')
+WoWPro:GuideLevels(guide, 29, 30, 29)
+WoWPro:GuideSteps(guide, function() return [[
 b Darkshore|QID|9526|N|Take the boat to Auberdine.|Z|Stormwind City|M|23,55.5|
 F Forest Song|QID|9526|N|Fly to Forest Song.|Z|Darkshore|M|36.30,45.60|
 A Forsaken Diseases|QID|1011|M|85.2,44.7|

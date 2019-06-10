@@ -1,7 +1,11 @@
-TourGuide:RegisterGuide( "Stonetalon Mountains (24-24)", "Ashenvale (24-25)", "Alliance", function()
-return [[
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-
+local guide = WoWPro:RegisterGuide('ClassicStonetalon2424', 'Leveling', 'Stonetalon Mountains', 'Boston', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Stonetalon 24-24')
+WoWPro:GuideLevels(guide, 24, 24, 24)
+WoWPro:GuideNextGuide(guide, 'ClassicAshenvale2425')
+WoWPro:GuideSteps(guide, function() return [[
 A Super Reaper 6000|QID|1093|M|59.0,62.6|
 T On Guard in Stonetalon (Part 1)|N|(59.38,69.39)(59.9,66.9)|QID|1070|M|60.45,69.78|
 A On Guard in Stonetalon (Part 2)|QID|1085|M|59.7,67.0|

@@ -1,6 +1,14 @@
-TourGuide:RegisterGuide( "Wetlands (25-26)", "Redridge (26-27)", "Alliance", function()
-return [[
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- FIXME:
+-- Unknown tag ¦38.83,52.4¦ in [T Uncovering the Past¦N¦M¦38.83,52.4¦].
+
+local guide = WoWPro:RegisterGuide('ClassicWetlands2526', 'Leveling', 'Wetlands', 'Boston', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Wetlands 25-26')
+WoWPro:GuideLevels(guide, 25, 26, 25.5)
+WoWPro:GuideNextGuide(guide, 'ClassicRedridge2627')
+WoWPro:GuideSteps(guide, function() return [[
 F Auberdine|QID|1275|N|Fly to Auberdine.|Z|Ashenvale|M|34.43,48.05|
 T Researching the Corruption|QID|1275|
 b Menethil Harbour|QID|473|N|Take the boat to Menethil Harmour|Z|Darkshore|M|32.40,43.75|

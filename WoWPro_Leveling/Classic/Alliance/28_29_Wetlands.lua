@@ -1,6 +1,11 @@
-TourGuide:RegisterGuide("Wetlands (28-29)", "Ashenvale (29-30)", "Alliance", function()
-return [[
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+local guide = WoWPro:RegisterGuide('ClassicWetlands2829', 'Leveling', 'Wetlands', 'Boston', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Wetlands 28-29')
+WoWPro:GuideLevels(guide, 28, 29, 28)
+WoWPro:GuideNextGuide(guide, 'ClassicAshenvale2930')
+WoWPro:GuideSteps(guide, function() return [[
 R Deeprun Tram|QID|270|N|Run to the Deeprun Tram.|Z|Stormwind City|M|68.50,31.50|
 R Tinker Town|QID|270|N| Go to Ironforge.|
 T The Test of Righteousness (Part 1)|N|Don't get the follow up, it requires a lot of traveling and it's pretty much a big waste of time, despite the nice reward at the end of the chain.|QID|1653|C|Paladin|

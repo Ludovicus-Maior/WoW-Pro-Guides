@@ -1,6 +1,11 @@
-TourGuide:RegisterGuide("Redridge (15-18)", "Westfall (18-20)", "Alliance", function()
-return [[
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+local guide = WoWPro:RegisterGuide('ClassicRedridge1518', 'Leveling', 'Redridge Mountains', 'Boston', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Redridge 15-18')
+WoWPro:GuideLevels(guide, 15, 18, 16)
+WoWPro:GuideNextGuide(guide, 'ClassicWestfall1820')
+WoWPro:GuideSteps(guide, function () return [[
 R Elwynn Forest|QID|244|N|Go to Elwynn Forest|Z|Stormwind City|M|76.00,94.00|
 R Redridge Mountains|QID|244|N|Go to Redridge Mountains|Z|Elwynn Forest|M|93.00,72.00|
 A Encroaching Gnolls|QID|244|M|15.3,71.5|

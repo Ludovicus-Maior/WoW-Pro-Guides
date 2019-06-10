@@ -1,5 +1,20 @@
-TourGuide:RegisterGuide( "Wetlands (22-23)", "Ashenvale (23-24)", "Alliance", function()
-return [[
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- FIXME:
+-- Step C [The Algaz Gauntlet:455] in ClassicWetlands2223 is missing a CS¦CC¦CN tag.
+-- Step N [Gobbler's Head:279] in ClassicWetlands2223 is missing a CS¦CC¦CN tag.
+-- Step C [Claws from the Deep:279] in ClassicWetlands2223 is missing a CS¦CC¦CN tag.
+-- Step A [Ormer's Revenge:294] in ClassicWetlands2223 is missing a CS¦CC¦CN tag.
+-- Step T [The Greenwarden:463] in ClassicWetlands2223 is missing a CS¦CC¦CN tag.
+-- Step C [Fire Taboo:277] in ClassicWetlands2223 is missing a CS¦CC¦CN tag.
+-- Step C [Ormer's Revenge:294] in ClassicWetlands2223 is missing a CS¦CC¦CN tag.
+
+local guide = WoWPro:RegisterGuide('ClassicWetlands2223', 'Leveling', 'Wetlands', 'Boston', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Wetlands 22-23')
+WoWPro:GuideLevels(guide, 22, 23, 22)
+WoWPro:GuideNextGuide(guide, 'ClassicAshenvale2324')
+WoWPro:GuideSteps(guide, function() return [[
 F Trade District|QID|1078|N|Fly to Stormwind|M|77.50, 44.30|Z|Duskwood|
 A The Corruption Abroad|QID|3765|M|36.4,67.5|Z|Stormwind City|
 A Mathias and the Defias|N|This is a rogue only quest chain and it's totally optional, but it nets you some extra XP and helps you level your Lockpicking skill. Please note that you'll need at least 70 in Lockpicking to complete this quest. You don't HAVE to do this quest, it's optional.|QID|2360|C|Rogue|M|78.4,70.7|Z|Stormwind City|

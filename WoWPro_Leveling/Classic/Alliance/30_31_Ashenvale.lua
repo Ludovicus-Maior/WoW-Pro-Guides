@@ -48,7 +48,7 @@ R Run to a path.|QID|1039|N|Run to a path.|M|67.00,71.00|
 R The Barrens|QID|1039|N|Run south to the border of the barrens without being seen.  There is a spot you can run past that does not have any horde guards.  It is to the left of the border.|M|70.00,90.00|
 R Ratchet|QID|1039|N|Run to Ratchet.|Z|The Barrens|M|61.00,37.00|
 f Ratchet|QID|1039|N|Get the flight path.|Z|The Barrens|M|63.10,37.15|
-T The Barrens Port|QID|1039|Z|The Barrens|Z|The Barrens|M|63.4,38.5|
+T The Barrens Port|QID|1039|Z|The Barrens|M|63.4,38.5|
 A Passage to Booty Bay|QID|1040|Z|The Barrens|M|63.4,38.5|
 b Booty Bay|QID|1040|N|Take the boat to Booty Bay.|Z|The Barrens|M|63.65,38.65|
 T Passage to Booty Bay|QID|1040|Z|Stranglethorn Vale|M|27.4,74.1|
@@ -59,7 +59,7 @@ T The Caravan Road|QID|1041|Z|Duskwood|M|72.52,46.86|
 A The Carevin Family|QID|1042|Z|Duskwood|M|72.52,46.86|
 T The Carevin Family|N|Turn in your quest to Jonathan Carevin.|QID|1042|Z|Duskwood|M|75.32,49.03|
 A The Scythe of Elune|QID|1043|Z|Duskwood|M|75.32,49.03|
-A Worgen in the Woods (part 3)|PRE|221|N|Get [31] Worgen in the Woods from Calor if you do not have it already (Requires killing 8 Nightbane Vile Fang and 8 Nightbane Tainted One).  If you cannot get this quest, skip it.|QID|222|Z|Duskwood|M|75.7,47.6|PRE|221|
+A Worgen in the Woods (part 3)|PRE|221|N|Get [31] Worgen in the Woods from Calor if you do not have it already (Requires killing 8 Nightbane Vile Fang and 8 Nightbane Tainted One).  If you cannot get this quest, skip it.|QID|222|Z|Duskwood|M|75.7,47.6|
 R Run to the Worgen cave.|N|Head to a cave.|Z|Duskwood|M|73.00,75.00|
 C The Scythe of Elune|N|Go inside the cave, killing everything on your way until you find a mound.  Loot the mound. Be careful of the mob named Gutspill, he is tough.|QID|1043|Z|Duskwood|M|73.50,79.10|
 C Worgen in the Woods (part 3)|PRE|221|N|Finish Worgen in the Woods if you have it.|QID|222|

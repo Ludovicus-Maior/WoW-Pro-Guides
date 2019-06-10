@@ -1,6 +1,15 @@
-TourGuide:RegisterGuide("Westfall (14-15)", "Redridge (15-18)", "Alliance", function()
-return [[
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- FIXME:
+-- Unknown tag ¦A Poor Old Blanchy¦ in [A The Forgotten Heirloom¦QID¦64¦A Poor Old Blanchy¦QID¦151¦ M¦60.0,19.4¦].
+-- Duplicate tag ¦QID¦ in [A The Forgotten Heirloom¦QID¦64¦A Poor Old Blanchy¦QID¦151¦ M¦60.0,19.4¦].
+
+local guide = WoWPro:RegisterGuide('ClassicWestfall1415', 'Leveling', 'Westfall', 'Boston', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Westfall 14-15')
+WoWPro:GuideLevels(guide, 14, 15, 14)
+WoWPro:GuideNextGuide(guide, 'ClassicRedridge1518')
+WoWPro:GuideSteps(guide, function () return [[
 A Westfall Stew (part 1)|QID|36| M|60.0,19.4|
 
 A The Forgotten Heirloom|QID|64|A Poor Old Blanchy|QID|151| M|60.0,19.4|
@@ -78,6 +87,5 @@ F Stormwind City|N|Fly to Stormwind City|M|56.55,52.65|
 N Sell junk, repair, restock, train skills|N|Sell junk, repair, restock, train skills| 
 
 A Humble Beginnings|N||QID|399|Z|Stormwind City|M|57.70,47.90|
-
 ]]
 end)

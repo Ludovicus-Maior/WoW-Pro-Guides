@@ -1,7 +1,11 @@
-TourGuide:RegisterGuide("Ashenvale (24-25)", "Wetlands (25-26)", "Alliance" , function()
-return [[
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-
+local guide = WoWPro:RegisterGuide('ClassicAshenvale2425', 'Leveling', 'Ashenvale', 'Boston', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Ashenvale 24-25')
+WoWPro:GuideLevels(guide, 24, 25, 25)
+WoWPro:GuideNextGuide(guide, 'ClassicWetlands2526')
+WoWPro:GuideSteps(guide, function() return [[
 N Keep an eye out for groups to Blackfathom Depths
 T Pridewings of Stonetalon|QID|1134|M|34.7,48.8|
 N Sell junk and repair|QID|1033|N|Close this step when you're done.|M|34.45,49.55|
