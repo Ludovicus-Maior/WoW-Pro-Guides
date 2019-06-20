@@ -807,7 +807,8 @@ function WoWPro:RowUpdate(offset)
 			    QuestPOIUpdateIcons()
 			end
 			local _, x, y, obj
-			if QID and tonumber(QID) then
+			-- TODO: Is this needed at all?
+			if QID and tonumber(QID) and (not WoWPro.CLASSIC) then
 			    _, x, y, obj = QuestPOIGetIconInfo(tonumber(QID))
 			end
 			if coord or x then
@@ -1521,7 +1522,7 @@ function WoWPro.NextStep(k,i)
                     proflvl = 1
                 end	    
 			end
-			if type(prof) == "string" and type(proflvl) == "number" then
+			if type(prof) == "string" and type(proflvl) == "number" and not WoWPro.CLASSIC then
 				local hasProf = false
 				skip = true --Profession steps skipped by default
 				local profs = {}

@@ -12,7 +12,7 @@ WoWPro.actiontypes = {
 	R = "Interface\\Icons\\Ability_Tracking",
 	H = "Interface\\Icons\\INV_Misc_Rune_01",
 	h = "Interface\\AddOns\\WoWPro\\Textures\\resting.tga",
-	F = "Interface\\Icons\\Ability_Druid_FlightForm",
+	F = "Interface\\AddOns\\WoWPro\\Textures\\Ability_Druid_FlightForm",
 	f = "Interface\\Icons\\Ability_Hunter_EagleEye",
 	M = "Interface\\Icons\\Trade_engineering",
 	N = "Interface\\Icons\\INV_Misc_Note_01",
@@ -27,7 +27,7 @@ WoWPro.actiontypes = {
 	["!"] = "Interface\\GossipFrame\\DailyQuestIcon",
 	["$"] = "Interface\\Worldmap\\TreasureChest_64",
 	["="] = "Interface\\Icons\\Spell_lightning_lightningbolt01",
-	[";"] = "Interface\\Icons\\INV_Scroll_11",
+	[";"] = "Interface\\AddOns\\WoWPro\\Textures\\INV_Scroll_11",
 }
 if UnitFactionGroup("player") == 'Alliance' then
     WoWPro.actiontypes['P'] = "Interface\\MINIMAP\\Vehicle-AllianceMagePortal"

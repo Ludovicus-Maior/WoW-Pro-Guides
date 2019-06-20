@@ -1069,7 +1069,7 @@ function WoWPro:ResolveIcon(guide)
         guide.icon = icon
         return
     end
-    if guide['mount'] then
+    if guide['mount'] and not WoWPro.CLASSIC then
         local mountIDs = C_MountJournal.GetMountIDs()
         for i, mountID in ipairs(mountIDs) do
             local creatureName, spellID, icon, active, isUsable, sourceType = C_MountJournal.GetMountInfoByID(mountID)
@@ -1244,3 +1244,16 @@ else
     WoWPro.GetNumPartyMembers = GetNumPartyMembers
 end
 
+
+-- TourGuide for CLASSIC
+TourGuide = TourGuide or {}
+
+if not TourGuide['RegisterGuide'] then
+    function TourGuide:RegisterGuide(GIDvalue, zonename, authorname, lowerLevel, upperLevel, nextGID, faction, steps)
+        guide = WoWPro:RegisterGuide(GIDvalue, "Leveling", zonename, authorname, faction, 1)
+        WoWPro:GuideLevels(guide, tonumber(lowerLevel), tonumber(upperLevel))
+        WoWPro:GuideNextGuide(guide, nextGID)
+        WoWPro:GuideName(guide, zonename)
+        WoWPro:GuideSteps(guide, steps)
+    end
+end

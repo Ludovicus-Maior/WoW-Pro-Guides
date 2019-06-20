@@ -1,3 +1,11 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-  <Script file="01_05_OrcStarter_Ludo.lua"/>
+  <Script file="01_05_Durotar.lua"/>
+  <Script file="01_05_Mulgore.lua"/>
+  <Script file="01_12_Tirisfal_Undead.lua"/>
+  <Script file="06_12_Durotar.lua"/>
+  <Script file="06_12_Mulgore.lua"/>
+  <Script file="12_21_The_Barrens.lua"/>
+  <Script file="21_22_Stonetalon_Mountains.lua"/>
+  <Script file="22_24_Hillsbrad_Foothills.lua"/>
+  <Script file="24_25_Ashenvale.lua"/>
 </Ui>

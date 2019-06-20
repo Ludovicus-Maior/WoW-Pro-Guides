@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2019-06-05 20:02
+-- Who: Ludovicus_Maior
+-- Log: Use [At Your Command] for the QID doe the D step
+
+-- URL: http://wow-pro.com/node/3613/revisions/30087/view
 -- Date: 2018-10-23 22:31
 -- Who: Ludovicus_Maior
 -- Log: And/Or
@@ -608,7 +613,8 @@ F Stormshield |QID|37288|N|Fly to Stromshield using Dungar Longrink.|M|48.01,49.
 N Resources in Ashran|QID|37288|N|Kinkade Jakobs will sell you an upgrade to ANY building.  Be careful to pick one you have!|M|29.65,52.89|Z|Stormshield|
 T Resources in Ashran|QID|37288|N|To Kinkade Jakobs|M|29.65,52.89|Z|Stormshield|
 
-D Zone Finished|QID|0|N|Zone finished (for now). Feel free to go shopping at your favorite auction house. Otherwise move onto the Talador guide.|
+; use [At Your Command] for the QID
+D Zone Finished|QID|34558|N|Zone finished (for now). Feel free to go shopping at your favorite auction house. Otherwise move onto the Talador guide.|
 
 ]]
 

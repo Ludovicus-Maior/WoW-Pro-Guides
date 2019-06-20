@@ -812,7 +812,7 @@ local function createBlizzOptions()
 			    type = "execute",
 			    name = L["Reset WoWPro Addons"],
 			    desc = L["If a WoWPro addon is behaving oddly, this wipes all saved state across all characters. Log out and back in again to complete the reset."],
-			    image = "Interface\\Icons\\INV_Misc_EngGizmos_27",
+			    image = "Interface\\Addons\\WoWPro\\Textures\\inv_misc_enggizmos_27",
 			    func =  function (info)
 			                WoWProDB = nil
 			                WoWProCharDB = nil
