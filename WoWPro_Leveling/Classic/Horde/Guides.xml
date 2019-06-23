@@ -6,9 +6,5 @@
   <Script file="06_12_Zerinj_Durotar.lua"/>
   <Script file="12_14_SilverKnight_Silverpine_Forest.lua"/>
   <Script file="12_21_Hosho_The_Barrens.lua"/>
-  <Script file="21_22_Jame_Stonetalon_Mountains.lua"/>
-  <Script file="22_24_Jame_Hillsbrad_Foothills.lua"/>
-  <Script file="24_25_Jame_Ashenvale.lua"/>
-  <Script file="25_26_Jame_The_Barrens.lua"/>
-  <Script file="26_27_Jame_Ashenvale.lua"/>
+  <Script file="21_30_Jame_Horde.lua"/>
 </Ui>
