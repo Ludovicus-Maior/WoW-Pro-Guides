@@ -1,10 +1,10 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('ClassicStonetalon2122', 'Leveling', 'Stonetalon Mountains', 'Jame', 'Horde', 1)
-WoWPro:GuideName(guide, 'Stonetalon Mountains 21-22')
+local guide = WoWPro:RegisterGuide('Classic-21-22-Jame-StonetalonMountains', 'Leveling', 'Stonetalon Mountains', 'Jame', 'Horde', 1)
+WoWPro:GuideName(guide, 'Stonetalon Mountains')
 WoWPro:GuideLevels(guide, 21, 22, 21)
-WoWPro:GuideNextGuide(guide, 'ClassicHillsbrad2224')
+WoWPro:GuideNextGuide(guide, 'Classic-22-24-Jame-HillsbradFoothills')
 WoWPro:GuideSteps(guide, function() return [[
 h Orgrimmar |QID|6284|N||Z|Orgrimmar|M|54.1,68.5|
 f Orgrimmar |QID|1492|N|If you don't have this flight path get it. |Z|Orgrimmar|M|45.3,63.9|

@@ -1,9 +1,10 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('ClassicAshenvale2425', 'Leveling', 'Ashenvale', 'Jame', 'Horde', 1)
-WoWPro:GuideName(guide, 'Ashenvale 24-25')
+local guide = WoWPro:RegisterGuide('Classic-24-25-Jame-Ashenvale', 'Leveling', 'Ashenvale', 'Jame', 'Horde', 1)
+WoWPro:GuideName(guide, 'Ashenvale')
 WoWPro:GuideLevels(guide, 24, 25, 24)
+WoWPro:GuideNextGuide(guide, 'Classic-25-26-Jame-TheBarrens')
 WoWPro:GuideSteps(guide, function() return [[
 T Trial of the Sea Lion|QID|30|O|N|Use Teleport:Moonglade and turn in your quest.|C|Druid|M|56.4,30.5|
 A Aquatic Form|QID|31|O|PRE|Trial of the Sea Lion|C|Druid|M|56.4,30.5|

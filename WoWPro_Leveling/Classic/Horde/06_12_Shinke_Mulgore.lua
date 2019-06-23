@@ -1,10 +1,10 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('ClassicMulgore0612', "Leveling", 'Mulgore', 'Shinke', 'Horde', 1)
-WoWPro:GuideName(guide, 'Mulgore 06-12')
+local guide = WoWPro:RegisterGuide('Classic-06-12-Shinke-Mulgore', "Leveling", 'Mulgore', 'Shinke', 'Horde', 1)
+WoWPro:GuideName(guide, 'Mulgore')
 WoWPro:GuideLevels(guide, 6, 12, 7)
-WoWPro:GuideNextGuide(guide, 'ClassicTheBarrens1221')
+WoWPro:GuideNextGuide(guide, 'Classic-12-21-Hosho-TheBarrens')
 WoWPro:GuideSteps(guide, function() return [[
 T A Task Unfinished|QID|1656|
 h Bloodhoof Village|QID|1656|M|46.7,61.0|N|Innkeeper Kauth. (46.7,61.0)|

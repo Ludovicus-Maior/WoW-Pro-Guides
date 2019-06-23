@@ -1,10 +1,10 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('ClassicTheBarrens1221', 'Leveling', 'The Barrens', 'Hosho', 'Horde', 1)
-WoWPro:GuideName(guide, 'The Barrens 12-21')
+local guide = WoWPro:RegisterGuide('Classic-12-21-Hosho-TheBarrens', 'Leveling', 'The Barrens', 'Hosho', 'Horde', 1)
+WoWPro:GuideName(guide, 'The Barrens')
 WoWPro:GuideLevels(guide, 12, 21, 13)
-WoWPro:GuideNextGuide(guide, 'ClassicStonetalon2122')
+WoWPro:GuideNextGuide(guide, 'Classic-21-22-Jame-StonetalonMountains')
 WoWPro:GuideSteps(guide, function() return [[
 h The Crossroads|QID|844|M|52.0,29.9|
 A Raptor Thieves|QID|869|M|51.9,30.3|
