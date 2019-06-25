@@ -224,7 +224,7 @@ local MapType2Name = {
     [Enum.UIMapType.Orphan] = "Enum.UIMapType.Orphan",
 }
 
-function WoWPro.EmitZones()
+function WoWPro.EmitZones(release)
     local result = ""
     for id, info in pairs(wip_map_info) do
         local temp
@@ -232,7 +232,7 @@ function WoWPro.EmitZones()
             WoWPro:Print("%s",ptable(info))
             local nomen = info.nick or info.name
             local mapType = MapType2Name[info.mapType] or tostring(info.mapType)
-            temp = string.format("DefineZone1(%04d, %q, %s, %04d, %s", info.mapID, nomen, mapType, info.parentMapID, tostring(info.GroupID))
+            temp = string.format("DefineZone%d(%04d, %q, %s, %04d, %s", release, info.mapID, nomen, mapType, info.parentMapID, tostring(info.GroupID))
             if info.children and #(info.children) > 0 then
                 for i = 1, #(info.children) do
                     temp = temp .. string.format(", %04d",info.children[i])
@@ -619,13 +619,13 @@ function WoWPro.GenerateMapCache()
     WoWPro:Print("Failed to converge on names")
 end
 
-function WoWPro.Functionalize()
+function WoWPro.Functionalize(release)
     WoWPro:Print("WoWPro:Functionalize(): 0")
     WoWPro.NewGenerateMapCache()
     WoWPro:Print("WoWPro:Functionalize(): 1")
     WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("WoWPro Maps","Hit escape to dismiss")
     local LogBox = WoWPro.LogBox
-    LogBox.Box:SetText( WoWPro.EmitZones() )
+    LogBox.Box:SetText( WoWPro.EmitZones(release) )
     LogBox.Scroll:UpdateScrollChildRect()
     LogBox:Show()
     WoWPro:Print("WoWPro:Functionalize(): 2")
