@@ -1,9 +1,10 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('ClassicTirisfal0112', "Leveling", 'Tirisfal Glades', 'Manovan', 'Horde', 1)
-WoWPro:GuideName(guide, 'Tirisfal Glades 01-12')
+local guide = WoWPro:RegisterGuide('Classic-01-12-Manovan-TirisfalGlades', "Leveling", 'Tirisfal Glades', 'Manovan', 'Horde', 1)
+WoWPro:GuideName(guide, 'Tirisfal Glades')
 WoWPro:GuideLevels(guide, 1, 12, 2)
+WoWPro:GuideNextGuide(guide, 'Classic-12-14-SilverKnight-SilverpineForest')
 WoWPro:GuideSteps(guide, function() return [[
 R Go upstairs|QID|363|R|Undead|M|30.00,72.84|CC|N|Leave the crypt and go upstairs to your first quest.|
 A Rude Awakening|QID|363|R|Undead|M|30.21,71.64|N|From Undertaker Mordo outside.|
@@ -11,23 +12,23 @@ T Rude Awakening|QID|363|R|Undead|M|30.84,66.20|N|At Shadow Priest Sarvis in the
 A The Mindless Ones|QID|364|M|30.84,66.20|
 C The Mindless Ones|QID|364|M|32.22,63.16|N|Kill Mindless Zombies and Wretched Zombies outside.|
 
-T The Mindless Ones|QID|364|M|30.8,66.2|N|At Shadow Priest Sarvis in the chapel.|
-A Encrypted Scroll|QID|3096|C|Rogue|M|30.8,66.2|
-A Glyphic Scroll|QID|3098|C|Mage|M|30.8,66.2|
-A Hallowed Scroll|QID|3097|C|Priest|M|30.8,66.2|
-A Simple Scroll|QID|3095|C|Warrior|M|30.8,66.2|
-A Tainted Scroll|QID|3099|C|Warlock|M|30.8,66.2|
-A Rattling the Rattlecages|QID|3901|M|30.8,66.2|
+T The Mindless Ones|QID|364|M|30.80,66.20|N|At Shadow Priest Sarvis in the chapel.|
+A Encrypted Scroll|QID|3096|C|Rogue|M|30.80,66.20|
+A Glyphic Scroll|QID|3098|C|Mage|M|30.80,66.20|
+A Hallowed Scroll|QID|3097|C|Priest|M|30.80,66.20|
+A Simple Scroll|QID|3095|C|Warrior|M|30.80,66.20|
+A Tainted Scroll|QID|3099|C|Warlock|M|30.80,66.20|
+A Rattling the Rattlecages|QID|3901|M|30.80,66.20|
 A The Damned|QID|376|M|30.85,66.05|N|From Novice Elreth.|
 
-T Encrypted Scroll|QID|3096|C|Rogue|M|32.5,65.7|N|Turn in your class quest in the bigger house across the chapel at David Trias.|
-T Glyphic Scroll|QID|3098|C|Mage|M|30.9,66.1|N|Turn in your class quest in the chapel at Isabella.|
-T Hallowed Scroll|QID|3097|C|Priest|M|31.1,66.0|N|Turn in your class quest in the chapel at Dark Cleric Duesten.|
-T Simple Scroll|QID|3095|C|Warrior|M|32.7,65.6|N|Go to the bigger house across the chapel at Dannal Stern.|
-T Tainted Scroll|QID|3099|C|Warlock|M|30.9,66.3|N|Turn in your class quest in the chapel at Maximillion.|
+T Encrypted Scroll|QID|3096|C|Rogue|M|32.50,65.70|N|Turn in your class quest in the bigger house across the chapel at David Trias.|
+T Glyphic Scroll|QID|3098|C|Mage|M|30.90,66.10|N|Turn in your class quest in the chapel at Isabella.|
+T Hallowed Scroll|QID|3097|C|Priest|M|31.10,66.00|N|Turn in your class quest in the chapel at Dark Cleric Duesten.|
+T Simple Scroll|QID|3095|C|Warrior|M|32.70,65.60|N|Go to the bigger house across the chapel at Dannal Stern.|
+T Tainted Scroll|QID|3099|C|Warlock|M|30.90,66.30|N|Turn in your class quest in the chapel at Maximillion.|
 A Piercing the Veil|QID|1470|C|Warlock|M|30.98,66.41|N|From Venya Marthand in the chapel.|
 
-C The Damned|QID|376|M|31.7,58.7|N|Kill Young Scavengers for Scavenger Paws and Duskbats for Duskbat Wings. If you run out of mobs to kill, go kill Rattlecage Skeletons to the east and wait for respawn.|
+C The Damned|QID|376|M|31.70,58.70|N|Kill Young Scavengers for Scavenger Paws and Duskbats for Duskbat Wings. If you run out of mobs to kill, go kill Rattlecage Skeletons to the east and wait for respawn.|
 C Rattling the Rattlecages|QID|3901|N|Kill Rattlecage Skeletons to the east.|
 C Piercing the Veil|QID|1470|C|Warlock|
 

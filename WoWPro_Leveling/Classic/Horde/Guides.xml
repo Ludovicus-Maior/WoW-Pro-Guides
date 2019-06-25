@@ -1,11 +1,14 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-  <Script file="01_05_Durotar.lua"/>
-  <Script file="01_05_Mulgore.lua"/>
-  <Script file="01_12_Tirisfal_Undead.lua"/>
-  <Script file="06_12_Durotar.lua"/>
-  <Script file="06_12_Mulgore.lua"/>
-  <Script file="12_21_The_Barrens.lua"/>
-  <Script file="21_22_Stonetalon_Mountains.lua"/>
-  <Script file="22_24_Hillsbrad_Foothills.lua"/>
-  <Script file="24_25_Ashenvale.lua"/>
+  <Script file="01_05_Shururu_Mulgore.lua"/>
+  <Script file="01_05_Zerinj_Durotar.lua"/>
+  <Script file="01_12_Manovan_Tirisfal_Glades.lua"/>
+  <Script file="06_12_Shinke_Mulgore.lua"/>
+  <Script file="06_12_Zerinj_Durotar.lua"/>
+  <Script file="12_14_SilverKnight_Silverpine_Forest.lua"/>
+  <Script file="12_21_Hosho_The_Barrens.lua"/>
+  <Script file="21_22_Jame_Stonetalon_Mountains.lua"/>
+  <Script file="22_24_Jame_Hillsbrad_Foothills.lua"/>
+  <Script file="24_25_Jame_Ashenvale.lua"/>
+  <Script file="25_26_Jame_The_Barrens.lua"/>
+  <Script file="26_27_Jame_Ashenvale.lua"/>
 </Ui>

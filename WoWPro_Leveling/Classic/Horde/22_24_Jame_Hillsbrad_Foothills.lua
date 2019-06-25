@@ -1,10 +1,10 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('ClassicHillsbrad2224', 'Leveling', 'Hillsbrad Foothills', 'Jame', 'Horde', 1)
-WoWPro:GuideName(guide, 'Hillsbrad Foothills 22-24')
+local guide = WoWPro:RegisterGuide('Classic-22-24-Jame-HillsbradFoothills', 'Leveling', 'Hillsbrad Foothills', 'Jame', 'Horde', 1)
+WoWPro:GuideName(guide, 'Hillsbrad Foothills')
 WoWPro:GuideLevels(guide, 22, 24, 22)
-WoWPro:GuideNextGuide(guide, 'ClassicAshenvale2425')
+WoWPro:GuideNextGuide(guide, 'Classic-24-25-Jame-Ashenvale')
 WoWPro:GuideSteps(guide, function() return [[
 F Splintertree Post |QID|6383|N| If you don't have the Flight Path, fly to The Crossroads and follow the path north until you reach Ashenvale Forest. Go further north until the path forks, there go east until you reach Splintertree Post. Once there take the flight path||Z|The Barrens|M|45.2,59.8|
 f Splintertree Post |QID|6383|N||Z|Ashenvale|M|73.2,61.6|
