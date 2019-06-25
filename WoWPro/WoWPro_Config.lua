@@ -23,12 +23,13 @@ function WoWPro:SetDefaults()
 	WoWPro:RefreshConfig()
 end
 
+-- Sounds looked up from https://wow.tools/files/#search=BoatDockedWarning&page=1&sort=0&desc=asc
 local soundfiles = {
-			["Window Close"] = [[Sound\Interface\AuctionWindowClose.ogg]],
-			["Window Open"] = [[Sound\Interface\AuctionWindowOpen.ogg]],
-			["Level Up"] = [[Sound\Interface\LevelUp.ogg]],
-			["Map Ping"] = [[Sound\Interface\MapPing.ogg]],
-			["Boat Docked"] = [[Sound\Doodad\BoatDockedWarning.ogg]],
+			["Window Close"] = 567499,
+			["Window Open"] = 567482,
+			["Level Up"] = 567431,
+			["Map Ping"] = 567416,
+			["Boat Docked"] = 566652,
 }
 
 

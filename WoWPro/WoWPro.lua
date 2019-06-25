@@ -311,7 +311,7 @@ local defaults = { profile = {
 	autoload = true,
 	guidescroll = false,
 	checksound = true,
-	checksoundfile = [[Sound\Interface\MapPing.wav]],
+	checksoundfile = 567416, -- MapPing
 	rank = 2,
 	resize = false,
 	autoresize = true,
@@ -409,6 +409,9 @@ function WoWPro:OnInitialize()
     WoWPro.EnableGrail = WoWProCharDB.EnableGrail or True
     WoWProDB.profile.Selector = WoWProDB.profile.Selector or {}
     WoWProDB.profile.Selector.QuestHard = WoWProDB.profile.Selector.QuestHard or 0
+    if type(WoWProDB.profile.checksoundfile) == "string" then
+        WoWProDB.profile.checksoundfile = 567416 -- MapPing
+    end
     WoWPro.inhibit_oldQuests_update = false
 end
 
