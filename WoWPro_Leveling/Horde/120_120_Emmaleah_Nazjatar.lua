@@ -1,4 +1,21 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/nazjatar_horde
+-- Date: 2019-06-26 14:32
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3789/revisions/30252/view
+-- Date: 2019-06-26 12:33
+-- Who: Emmaleah
+
+-- URL: http://wow-pro.com/node/3789/revisions/30251/view
+-- Date: 2019-06-26 12:32
+-- Who: Emmaleah
+-- Log: draft 1 Horde Nazjatar
+
 local guide = WoWPro:RegisterGuide('EmmNazj', 'Leveling', 'Nazjatar', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,120, 120)
 WoWPro:GuideNextGuide(guide, 'TBD')
@@ -88,7 +105,7 @@ A Scouting the Palace|QID|55481|M|48.51,62.18|Z|1355|N|From Lor'themar Theron.|
 C Scouting the Palace|QID|55481|M|48.36,62.15|Z|1355|QO|1|CHAT|N|Ask Spiritwalker Ussoh to show you vision.|
 T Scouting the Palace|QID|55481|M|48.51,62.18|Z|1355|N|To Lor'themar Theron. The reward will be immediately upped to ilvl 400 in the next step, if that makes a diff to which you choose.|
 A Create Your Own Strength|QID|57003|M|48.51,62.18|Z|1355|N|From Lor'themar Theron.|
-C Create Your Own Strength|QID|57003|M|49.10,61.95|Z|1355|QO|1|NC|N|Click on the piece of Benthic armor you just got to make it usable.|
+C Create Your Own Strength|QID|57003|M|49.10,61.95|Z|1355|QO|1|NC|N|Click on the piece of Benthic armor you just  got to make it usable.|
 C Create Your Own Strength|QID|57003|M|49.10,61.95|Z|1355|QO|2|NC|N|Upgrade a piece of Benthic Armor|
 A Settling In|QID|55384|M|49.74,64.65|Z|1355|N|From Neri Sharpfin.|
 C Settling In|QID|55384|M|49.20,63.01|Z|1355|QO|1|CHAT|N|Ask Telur to move the Calling Conch.|
