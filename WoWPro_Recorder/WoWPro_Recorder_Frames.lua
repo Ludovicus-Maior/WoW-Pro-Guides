@@ -718,7 +718,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					fontSize = "medium",
 					name = function() return WoWPro.step[WoWPro.Recorder.SelectedStep].."\n"
 					end,
-					image = function() return WoWPro.Leveling.actiontypes[WoWPro.action[WoWPro.Recorder.SelectedStep]]
+					image = function() return WoWPro.actiontypes[WoWPro.action[WoWPro.Recorder.SelectedStep]]
 					end,
 					imageWidth = 15,
 					imageHeight = 15
