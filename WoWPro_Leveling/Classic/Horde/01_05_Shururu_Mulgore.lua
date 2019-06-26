@@ -4,7 +4,7 @@
 local guide = WoWPro:RegisterGuide('Classic-01-05-Shururu-Mulgore', "Leveling", 'Mulgore', 'Shururu', 'Horde', 1)
 WoWPro:GuideName(guide, 'Mulgore')
 WoWPro:GuideLevels(guide, 1, 5, 2)
-WoWPro:GuideNextGuide(guide, 'Classic-06-12-Shinke-Mulgore')
+WoWPro:GuideNextGuide(guide, 'Classic-06-12-Shururu-Mulgore')
 WoWPro:GuideSteps(guide, function() return [[
 A The Hunt Begins|QID|747|M|44.87,77.08|N|From Grull Hawkwind.|
 A A Humble Task|QID|752|M|44.19,76.06|N|From Chief Hawkwind.|
@@ -65,6 +65,20 @@ T Call of Earth|QID|1521|C|Shaman|R|Tauren|M|44.73,76.19|N|To Seer Ravenfeather.
 N Train other skills|QID|1521|C|Shaman|R|Tauren|N|You can train the remaining skills.|
 
 A A Task Unfinished|QID|1656|M|41.46,81.86;38.52,81.56|CC|N|From Antur Fallow.|
+
+A Dangers of the Windfury|QID|743|M|47.35,62.01|N|From Ruul Eagletalon.|
+
+A Poison Water|QID|748|R|Tauren|M|48.53,60.39|N|From Mull Thunderhorn.|
+A Swoop Hunting|QID|761|M|48.71,59.32|N|From Harken Windtotem inside the building.|
+
+T Rites of the Earthmother|QID|763|M|47.51,60.17|N|To Baine Bloodhoof.|
+A Sharing the Land|QID|745|M|47.51,60.17|N|From Baine Bloodhoof.|
+A Rite of Vision|QID|767|PRE|763|M|47.51,60.17|N|From Baine Bloodhoof.|
+A Dwarven Digging|QID|746|M|47.51,60.17|N|From Baine Bloodhoof.|
+
+T Rite of Vision|QID|767|M|47.76,57.54|N|To Zarlman Two-Moons.|
+A Rite of Vision|QID|771|PRE|767|M|47.76,57.54|N|From Zarlman Two-Moons.|
+A Mazzranache|QID|766|M|46.99,57.07|N|From Maur Raincaller.|
 
 T A Task Unfinished|QID|1656|M|46.62,61.09|N|To Innkeeper Kauth.|
 h Bloodhoof Village|QID|745|M|46.70,61.00|N|At Innkeeper Kauth.|

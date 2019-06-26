@@ -222,7 +222,9 @@ C The Demon Seed|QID|924|M|47.98,19.07|Z|The Barrens|N|Work your way into the ca
 R The Crossroads|QID|842|M|52.34,29.34|Z|The Barrens|CC|N|Go to the Crossroads. Follow the road south.|
 A Meats to Orgrimmar|QID|6365|R|Orc,Troll|M|52.62,29.84|Z|The Barrens|N|From Zargh.|
 T Crossroads Conscription|QID|842|M|52.23,31.01|Z|The Barrens|N|To Sergra Darkthorn.|
+A Plainstrider Menace|QID|844|M|52.23,31.01|Z|The Barrens|N|From Sergra Darkthorn.|
 
+f The Crossroads|QID|6361|M|51.50,30.33|Z|The Barrens|
 T Meats to Orgrimmar|QID|6365|R|Orc,Troll|M|51.50,30.33|Z|The Barrens|N|To Devrak.|
 A Ride to Orgrimmar|QID|6384|PRE|6365|R|Orc,Troll|M|51.50,30.33|Z|The Barrens|N|From Devrak.|
 F Orgrimmar|QID|6384|R|Orc,Troll|M|51.50,30.33|Z|The Barrens|N|Fly to Orgrimmar.|
@@ -234,6 +236,6 @@ A Return to the Crossroads|QID|6386|PRE|6385|R|Orc,Troll|M|45.12,63.89|Z|Orgrimm
 F Crossroads|QID|6386|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|Fly back to Crossroads.|
 
 T Return to the Crossroads|QID|6386|R|Orc,Troll|M|52.62,29.84|Z|The Barrens|N|To Zargh.|
-h The Crossroads|QID|844|M|51.99,29.90|N|Set your Hearthstone at Innkeeper Boorand.|
+h The Crossroads|QID|844|M|51.99,29.90|N|Set your Hearthstone at Innkeeper Boorand Plainswind.|
 ]]
 end)
