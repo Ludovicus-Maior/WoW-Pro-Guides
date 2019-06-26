@@ -14,4 +14,4 @@ crelease=`awk -F: '$1 == "## Version" {print $2}' < WoWPro/WoWPro.toc | tr -d ' 
 echo "# OK, the current version numbers are:"
 fgrep -H Version: */*.toc
 
-zip -r --include '*.lua' '*.toc' '*.tga' '*.xml' '*.html' @ "WoWPro L${crelease}.zip" ${MODULES}
+zip -r --include '*.lua' '*.toc' '*.tga' '*.blp' '*.xml' '*.html' @ "WoWPro L${crelease}.zip" ${MODULES}
