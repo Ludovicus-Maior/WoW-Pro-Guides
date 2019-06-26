@@ -1,128 +1,143 @@
 ------------------------------------------------------------------------
-r1199 | nevcairiel | 2019-01-24 08:55:21 +0000 (Thu, 24 Jan 2019) | 1 line
+r1213 | nevcairiel | 2019-06-26 06:00:41 +0000 (Wed, 26 Jun 2019) | 1 line
 Changed paths:
    M /trunk/changelog.txt
 
 Update changelog
 ------------------------------------------------------------------------
-r1198 | nevcairiel | 2019-01-21 23:46:52 +0000 (Mon, 21 Jan 2019) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
-
-AceGUI-3.0: ColorPicker: Store references to the background/checkers textures (Ticket #473)
-------------------------------------------------------------------------
-r1197 | nevcairiel | 2019-01-21 23:41:10 +0000 (Mon, 21 Jan 2019) | 1 line
+r1212 | nevcairiel | 2019-06-26 05:53:51 +0000 (Wed, 26 Jun 2019) | 1 line
 Changed paths:
    M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 
-AceConfigDialog-3.0: Allow custom controls for almost all option types (Ticket #475)
+AceConfigDialog-3.0: Ensure a stable sort order when mixing negative and zero order values (Ticket #501)
 ------------------------------------------------------------------------
-r1196 | nevcairiel | 2019-01-21 23:35:45 +0000 (Mon, 21 Jan 2019) | 1 line
-Changed paths:
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-
-AceConfigDialog-3.0: Factor custom control creation into its own function (part of #475)
-------------------------------------------------------------------------
-r1195 | nevcairiel | 2019-01-21 23:24:17 +0000 (Mon, 21 Jan 2019) | 1 line
+r1211 | funkydude | 2019-06-26 03:24:16 +0000 (Wed, 26 Jun 2019) | 1 line
 Changed paths:
    M /trunk/Ace3.toc
 
-Update TOC
+bump toc
 ------------------------------------------------------------------------
-r1194 | nevcairiel | 2018-08-25 07:59:05 +0000 (Sat, 25 Aug 2018) | 1 line
+r1210 | nevcairiel | 2019-06-25 23:45:43 +0000 (Tue, 25 Jun 2019) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
+
+Clear existing GameTooltip anchors before re-anchoring it, to avoid issues with protected frame anchors in 8.2
+------------------------------------------------------------------------
+r1209 | nevcairiel | 2019-06-24 21:01:01 +0000 (Mon, 24 Jun 2019) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
+
+AceGUI-3.0: DropDown: Use a number-aware table sorting algorithm (Fixes #502)
+------------------------------------------------------------------------
+r1208 | nevcairiel | 2019-06-23 12:23:47 +0000 (Sun, 23 Jun 2019) | 1 line
 Changed paths:
    M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 
-AceConfigDialog-3.0: Remove unused GetSubOptions loop
+AceConfigDialog-3.0: Support the "sorting" table member in "radio" style as well
 ------------------------------------------------------------------------
-r1193 | funkydude | 2018-08-02 12:24:37 +0000 (Thu, 02 Aug 2018) | 1 line
+r1207 | nevcairiel | 2019-06-23 12:08:33 +0000 (Sun, 23 Jun 2019) | 1 line
 Changed paths:
    M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
    M /trunk/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
-   M /trunk/AceDB-3.0/AceDB-3.0.lua
+
+AceConfigDialog-3.0: Add support for a "sorting" member in select types to indicate the order of the options
+------------------------------------------------------------------------
+r1206 | nevcairiel | 2019-06-22 09:13:51 +0000 (Sat, 22 Jun 2019) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
+
+Remove left-over table from previous change
+------------------------------------------------------------------------
+r1205 | funkydude | 2019-06-20 20:54:05 +0000 (Thu, 20 Jun 2019) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
+
+AceGUIWidget-DropDown: revert change to sorting.
+------------------------------------------------------------------------
+r1204 | funkydude | 2019-06-19 23:46:00 +0000 (Wed, 19 Jun 2019) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
+
+AceGUIWidget-DropDown: Dropdowns are now actually alphabetical and you can use numbers as table keys.
+------------------------------------------------------------------------
+r1203 | nevcairiel | 2019-06-12 09:04:53 +0000 (Wed, 12 Jun 2019) | 3 lines
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
+
+AceGUI-3.0: ColorPicker: Don't use Show/HideUIPanel for the ColorPickerFrame
+
+The ColorPickerFrame is not actually a UI Panel, and ShowUIPanel is locked in combat in 8.2
+------------------------------------------------------------------------
+r1202 | nevcairiel | 2019-05-15 23:11:22 +0000 (Wed, 15 May 2019) | 3 lines
+Changed paths:
+   A /trunk/.editorconfig
+   M /trunk/Ace3.lua
+   M /trunk/AceAddon-3.0/AceAddon-3.0.lua
+   M /trunk/AceBucket-3.0/AceBucket-3.0.lua
+   M /trunk/AceComm-3.0/AceComm-3.0.lua
+   M /trunk/AceComm-3.0/ChatThrottleLib.lua
+   M /trunk/AceConfig-3.0/AceConfig-3.0.lua
+   M /trunk/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.lua
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   M /trunk/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
+   M /trunk/AceConsole-3.0/AceConsole-3.0.lua
    M /trunk/AceDBOptions-3.0/AceDBOptions-3.0.lua
+   M /trunk/AceEvent-3.0/AceEvent-3.0.lua
    M /trunk/AceGUI-3.0/AceGUI-3.0.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-DropDownGroup.lua
    M /trunk/AceGUI-3.0/widgets/AceGUIContainer-ScrollFrame.lua
    M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua
    M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-InteractiveLabel.lua
-
-Remove some local references we don't use.
-------------------------------------------------------------------------
-r1192 | funkydude | 2018-07-30 18:03:51 +0000 (Mon, 30 Jul 2018) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
    M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Window.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Button.lua
    M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
    M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown-Items.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Heading.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
    M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Icon.lua
-   M /trunk/tests/AceGUITest/test.lua
-
-AceGUI-3.0: Convert various texture paths to texture ids.
-------------------------------------------------------------------------
-r1191 | funkydude | 2018-07-27 13:29:50 +0000 (Fri, 27 Jul 2018) | 1 line
-Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
    M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
+   M /trunk/AceHook-3.0/AceHook-3.0.lua
+   M /trunk/AceSerializer-3.0/AceSerializer-3.0.lua
+   M /trunk/AceTab-3.0/AceTab-3.0.lua
+   M /trunk/AceTimer-3.0/AceTimer-3.0.lua
+   M /trunk/tests/AceAddon-3.0.lua
+   M /trunk/tests/AceComm-3.0-callbacks.lua
+   M /trunk/tests/AceComm-3.0-pre-4.1.lua
+   M /trunk/tests/AceComm-3.0.lua
+   M /trunk/tests/AceConfigCmd-3.0-ordering.lua
+   M /trunk/tests/AceConfigCmd-3.0.lua
+   M /trunk/tests/AceConfigRegisty-3.0-errors.lua
+   M /trunk/tests/AceConsole-3.0-GetArgs.lua
+   M /trunk/tests/AceDB-3.0-callbacks.lua
+   M /trunk/tests/AceDB-3.0-defaults.lua
+   M /trunk/tests/AceDB-3.0-namespaces.lua
+   M /trunk/tests/AceDB-3.0.lua
+   M /trunk/tests/AceEvent-3.0.lua
+   M /trunk/tests/AceGUI-3.0-recycle.lua
+   M /trunk/tests/AceGUITest/test.lua
+   M /trunk/tests/AceLocale-3.0.lua
+   M /trunk/tests/AceSerializer-3.0.lua
+   M /trunk/tests/AceTimer-3.0-ACE94.lua
+   M /trunk/tests/AceTimer-3.0-test1.lua
+   M /trunk/tests/AceTimer-3.0-test2.lua
+   M /trunk/tests/CallbackHandler-1.0.lua
+   M /trunk/tests/ChatThrottleLib-callbackerrors.lua
+   M /trunk/tests/ChatThrottleLib-upgrade-14-20-current.lua
+   M /trunk/tests/ChatThrottleLibs/ChatThrottleLib-v14.lua
+   M /trunk/tests/ChatThrottleLibs/ChatThrottleLib-v20.lua
+   M /trunk/tests/LibStub.lua
+   M /trunk/tests/wow_api.lua
 
-AceGUI-3.0/widgets/AceGUIWidget-Slider: Use the value passed to the OnValueChanged script, saves a call to frame:GetValue()
+Cleanup whitespace and add EditorConfig configuration
+
+Patch contributed by Stanzilla
 ------------------------------------------------------------------------
-r1190 | nevcairiel | 2018-07-27 07:46:34 +0000 (Fri, 27 Jul 2018) | 1 line
+r1201 | nevcairiel | 2019-05-15 23:07:16 +0000 (Wed, 15 May 2019) | 1 line
 Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
+   M /trunk/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
 
-AceGUI-3.0: Label: Avoid zero-height labels more directly
-------------------------------------------------------------------------
-r1189 | nevcairiel | 2018-07-27 07:33:48 +0000 (Fri, 27 Jul 2018) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
-
-AceGUI-3.0: Label: Fix computing a label height on empty labels
-------------------------------------------------------------------------
-r1188 | nevcairiel | 2018-07-25 20:26:35 +0000 (Wed, 25 Jul 2018) | 3 lines
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
-
-AceGUI-3.0: Prefer GetStringHeight over GetHeight for FontStrings, as this alleviates pressure on the anchor system and avoids glitches
-
-Recommended by TheDanW to help work-around anchoring issues.
-------------------------------------------------------------------------
-r1187 | nevcairiel | 2018-07-25 00:06:26 +0000 (Wed, 25 Jul 2018) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-ScrollFrame.lua
-
-AceGUI-3.0: ScrollFrame: Adjust content.width based on scroll bar visibility
-------------------------------------------------------------------------
-r1186 | nevcairiel | 2018-07-21 14:19:18 +0000 (Sat, 21 Jul 2018) | 1 line
-Changed paths:
-   M /trunk/CallbackHandler-1.0/CallbackHandler-1.0.lua
-
-Update CallbackHandler to the latest version
-------------------------------------------------------------------------
-r1185 | nevcairiel | 2018-07-21 14:15:16 +0000 (Sat, 21 Jul 2018) | 1 line
-Changed paths:
-   M /trunk/AceBucket-3.0/AceBucket-3.0.lua
-
-AceBucket-3.0: Fix bucket firing with events that use "false" as arg1
-------------------------------------------------------------------------
-r1184 | nevcairiel | 2018-07-21 14:13:14 +0000 (Sat, 21 Jul 2018) | 1 line
-Changed paths:
-   M /trunk/AceAddon-3.0/AceAddon-3.0.lua
-   M /trunk/AceBucket-3.0/AceBucket-3.0.lua
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
-
-Remove self-generating Dispatchers, and use xpcall, which now supports arguments
-------------------------------------------------------------------------
-r1183 | nevcairiel | 2018-07-18 23:21:04 +0000 (Wed, 18 Jul 2018) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-ScrollFrame.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
-
-AceGUI-3.0: Replace layout workaround with another one that hopefully works better
+AceConfigRegistry-3.0: Add missing entries for allowed settings (Ticket #494)
 ------------------------------------------------------------------------
 

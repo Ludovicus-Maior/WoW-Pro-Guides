@@ -1,3 +1,12 @@
+Ace3 Release - Revision r1214 (June 26th, 2019)
+-----------------------------------------------
+- AceConfigDialog-3.0: Exposed "select" type sorting control through a new "sorting" config table member
+- AceConfigDialog-3.0: Clear existing anchors on the GameTooltip before re-anchoring it for 8.2 compatibility
+- AceConfigDialog-3.0: Improved options table sorting algorithm to produce a stable result in certain edge cases (Ticket #501)
+- AceConfigRegistry-3.0: Added missing custom controls entries for all types added in the last release (Ticket  #494)
+- AceGUI-3.0: ColorPicker: Removed usage of Show/HideUIPanel for WoW 8.2 compatibiliy
+- AceGUI-3.0: DropDown: Improved dropdown sorting algorithm to support tables with mixed string and numeric keys
+
 Ace3 Release - Revision r1200 (January 24th, 2019)
 --------------------------------------------------
 - Cleanup for WoW 8.0 improvements
