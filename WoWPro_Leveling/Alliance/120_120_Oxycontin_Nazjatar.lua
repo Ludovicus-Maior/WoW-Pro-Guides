@@ -1,4 +1,24 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/nazjatar_alliance
+-- Date: 2019-06-26 14:34
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3790/revisions/30257/view
+-- Date: 2019-06-26 14:33
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3790/revisions/30255/view
+-- Date: 2019-06-26 14:29
+-- Who: spoony
+
+-- URL: http://wow-pro.com/node/3790/revisions/30254/view
+-- Date: 2019-06-26 14:20
+-- Who: Ludovicus_Maior
+
 local guide = WoWPro:RegisterGuide('OxyNazj', 'Leveling', 'Nazjatar', 'Oxycontin', 'Alliance')
 WoWPro:GuideLevels(guide,120, 120)
 WoWPro:GuideNextGuide(guide, 'TBD')
