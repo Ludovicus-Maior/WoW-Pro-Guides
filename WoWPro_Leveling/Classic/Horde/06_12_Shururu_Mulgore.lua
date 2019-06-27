@@ -49,7 +49,7 @@ T The Ravaged Caravan|QID|749|M|53.74,48.17|N|Work your way into the camp and ri
 A The Ravaged Caravan|QID|751|PRE|749|M|53.74,48.17|N|From the Sealed Supply Crate.|
 T The Ravaged Caravan|QID|751|M|55.17,60.66|N|To Morin Cloudstalker, who patrols the road.|
 A The Venture Co.|QID|764|PRE|751|M|55.17,60.66|N|To Morin Cloudstalker, who patrols the road.|
-A Supervisor Fitzsprocket|QID|765|PRE|751|M|55.17,60.66|N|To Morin Cloudstalker, who patrols the road.|
+A Supervisor Fizsprocket|QID|765|PRE|751|M|55.17,60.66|N|To Morin Cloudstalker, who patrols the road.|
 
 C Mazzranache|QID|766|QO|2|US|N|Kill Flatland Cougars one drops a Femur.|
 
