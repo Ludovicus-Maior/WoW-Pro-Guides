@@ -60,9 +60,9 @@ N Collect: Resonite Crystals|QID|6421|QO|Resonite Crystal: 10/10|M|61.50,93.20|N
 N Explore cave at Boulderslide Ravine|QID|6421|QO|Investigate Cave in Boulderslide Ravine|M|58.90,90.30|N|Go deeper into the cave until you get complete message.|
 C Boulderslide Ravine|QID|6421|M|61.30,92.40|
 
-T Goblin Invaders|QID|1062|M|35.20,27.80|
-
 R The Barrens|QID|1094|M|34.10,27.60|N|Ride to the Stonetalon Mountains and Barrens border, enroute to The Crossroads.|
+T Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|
+
 R The Crossroads|QID|1094|M|52.00,30.60|Z|The Barrens|
 
 F Ratchet|QID|1094|M|51.50,30.30|Z|The Barrens|
