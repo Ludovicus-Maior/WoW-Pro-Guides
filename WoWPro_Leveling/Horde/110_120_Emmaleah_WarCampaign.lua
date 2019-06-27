@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-06-27 21:49
+-- Who: Ludovicus_Maior
+-- Log: 8.2 Z updates
+
+-- URL: http://wow-pro.com/node/3761/revisions/30237/view
 -- Date: 2019-03-18 06:37
 -- Who: Emmaleah
 -- Log: added heart of azeroth quest chain. (still need C steps on first 3 as I did them along time ago and don't recall exactly what they were.
@@ -246,11 +251,6 @@
 -- Date: 2018-09-04 00:30
 -- Who: elidion
 -- Log: Fixed the R steps on the outpost missions to ACTIVE so they only display while on the outpost mission.
-
--- URL: http://wow-pro.com/node/3761/revisions/29661/view
--- Date: 2018-09-03 21:49
--- Who: elidion
--- Log: Updated the outpost guides, to fix waypoint and flightpath grabbing issues
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -564,21 +564,24 @@ A Unlocking the Heart|QID|53405|PRE|50973|M|42.22,44.27|Z|Silithus|N|From Magni 
 T Unlocking the Heart|QID|53405|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
 A The Chamber of Heart|QID|53406|PRE|53405|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
 T The Chamber of Heart|QID|53406|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+; This may be obsolete:https://www.wowhead.com/quest=54938/a-brothers-help
 A A Brother's Help|QID|54938|N|Autoaccepted when entering Dazar'alor.|PRE|53406|ACH|12955;;;true|
 F Gloom Hollow|ACTIVE|54938|M|51.93,41.21|Z|Dazar'alor|N|at Paku'ai Rokota, or otherwise travel to Nazmir.|
 R Zul'Nazman|ACTIVE|54938|M|57.89,50.48|CC|Z|Nazmir|N|Magni is actually just in generic Nazmir between Zul'Nazman and Zal'amak.|
 T A Brother's Help|QID|54938|M|57.88,50.46|Z|Nazmir|N|To Magni Bronzebeard.|
 A Stubborn as a Bronzebeard|QID|54939|M|57.89,50.48|Z|Nazmir|N|From Magni Bronzebeard.|
 C Stubborn as a Bronzebeard|QID|54939|M|58.07,50.70|Z|Nazmir|QO|1|V|N|Hop on Brann's Flying Machine.This will fly you into an Uldir instance.|
-T Stubborn as a Bronzebeard|QID|54939|M|47.69,16.33|Z|Ring of Containment@Uldir!Dungeon|N|To Magni Bronzebeard.|
-A Necessity is the MOTHER|QID|54940|M|47.69,16.33|Z|Ring of Containment@Uldir!Dungeon|N|From Magni Bronzebeard.|
-C Necessity is the MOTHER|QID|54940|M|60.96,53.58|Z|The Oblivion Door@Uldir!Dungeon|QO|1|NC|N|Activate the East Console. You don't have to stay and fight the blood globules if you can take the damage and run to the other console.|
-C Necessity is the MOTHER|QID|54940|M|41.09,53.12|Z|The Oblivion Door@Uldir!Dungeon|QO|2|NC|N|Activate the West Console. If its survivable, you can continue to ignore the blood globules and go turn in the quest.|
-T Necessity is the MOTHER|QID|54940|M|52.32,68.79|Z|The Oblivion Door@Uldir!Dungeon|N|To Magni Bronzebeard.|
-A A One-Way Ticket to the Heart|QID|54964|M|52.32,68.79|Z|The Oblivion Door@Uldir!Dungeon|N|From Magni Bronzebeard.|
-C A One-Way Ticket to the Heart|QID|54964|M|49.91,58.21|Z|The Oblivion Door@Uldir!Dungeon|QO|1|N|Fight the creatures from the void, culminating with K'thxx the Void Hunter to open the waygate.|
-C A One-Way Ticket to the Heart|QID|54964|M|50.76,53.72|Z|The Oblivion Door@Uldir!Dungeon|QO|2|NC|N|Click on MOTHER to Activate the Waygate and teleport to the Chamber of Heart.|
-T A One-Way Ticket to the Heart|QID|54964|M|50.19,53.72|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard. That's all of this quest line for now. I'm sure there is more to come in a future patch. Hearth or take the portal out.|
+; Using the old map floors
+T Stubborn as a Bronzebeard|QID|54939|M|47.69,16.33|Z|Ring of Containment@Uldir!Dungeon1150|N|To Magni Bronzebeard.|
+A Necessity is the MOTHER|QID|54940|M|47.69,16.33|Z|Ring of Containment@Uldir!Dungeon1150|N|From Magni Bronzebeard.|
+C Necessity is the MOTHER|QID|54940|M|60.96,53.58|Z|The Oblivion Door@Uldir!Dungeon1154|QO|1|NC|N|Activate the East Console. You don't have to stay and fight the blood globules if you can take the damage and run to the other console.|
+C Necessity is the MOTHER|QID|54940|M|41.09,53.12|Z|The Oblivion Door@Uldir!Dungeon1154|QO|2|NC|N|Activate the West Console. If its survivable, you can continue to ignore the blood globules and go turn in the quest.|
+T Necessity is the MOTHER|QID|54940|M|52.32,68.79|Z|The Oblivion Door@Uldir!Dungeon1154|N|To Magni Bronzebeard.|
+A A One-Way Ticket to the Heart|QID|54964|M|52.32,68.79|Z|The Oblivion Door@Uldir!Dungeon1154|N|From Magni Bronzebeard.|
+C A One-Way Ticket to the Heart|QID|54964|M|49.91,58.21|Z|The Oblivion Door@Uldir!Dungeon1154|QO|1|N|Fight the creatures from the void, culminating with K'thxx the Void Hunter to open the waygate.|
+C A One-Way Ticket to the Heart|QID|54964|M|50.76,53.72|Z|The Oblivion Door@Uldir!Dungeon1154|QO|2|NC|N|Click on MOTHER to Activate the Waygate and teleport to the Chamber of Heart.|
+; Dungeon1021 or Dungeon1473
+T A One-Way Ticket to the Heart|QID|54964|M|50.19,53.72|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard. That's all of this quest line for now. I'm sure there is more to come in a future patch. Hearth or take the portal out.|
 
 ; The Marshal's Grave - 4.5k Friendly with The Honorbound
 A Operation: Grave Digger|QID|53065|N|Autoaccepted|PRE|51601|REP|The Honorbound;2157;friendly;4500|O|
@@ -864,40 +867,40 @@ A Azerite Denied|QID|53852|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller
 C Talk to Dread-Admiral Tattersail|ACTIVE|53852^54042|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound or Darkshore, which ever quest you want to do first.|
 
 ; Darkshore opening
-T Trouble in Darkshore|QID|54042|M|53.62,20.41|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
-A Black Moon Rising|QID|54044|M|53.62,20.41|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54042|
-A Dark Ranger Round-Up|QID|54043|M|53.62,20.41|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54042|
-A Quit Vining!|QID|54045|M|54.70,21.99|Z|Darkshore#1333|N|From Shredmaster Blix.|PRE|54042|
-C Dark Ranger Round-Up|QID|54043|M|53.69,29.69|Z|Darkshore#1333|S|NC|N|Use your extra action button to target a night elf corpse.|
-C Quit Vining!|QID|54045|M|53.69,29.69|Z|Darkshore#1333|S|NC|N|Free Goblin Harvesters.|
-K Lieutenant Golras|ACTIVE|54044|M|56.42,35.21|Z|Darkshore#1333|QO|1|T|Lieutenant Golras|N|Kill Lieutenant Golras.|
-K Lieutenant Maliyra|ACTIVE|54044|M|47.00,42.21|Z|Darkshore#1333|QO|3|T|Lieutenant Maliyra|N|Kill Lieutenant Maliyra.|
-K Lieutenant Ivyth|ACTIVE|54044|M|46.06,27.38|Z|Darkshore#1333|QO|2|T|Lieutenant Ivyth|N|Kill Lieutenant Ivyth.|
-T Black Moon Rising|QID|54044|M|46.06,27.38|Z|Darkshore#1333|N|To Lost Wisp.|
-A We're Not Out of the Woods Yet|QID|54046|M|46.06,27.38|Z|Darkshore#1333|N|From Lost Wisp.|PRE|54044|
-C Quit Vining!|QID|54045|M|48.57,27.65|Z|Darkshore#1333|US|NC|N|Finish freeing Goblin Harvesters.|
-C Dark Ranger Round-Up|QID|54043|M|48.57,27.65|Z|Darkshore#1333|US|NC|N|Finish raising the Dark Rangers.|
-T Quit Vining!|QID|54045|M|54.70,21.99|Z|Darkshore#1333|N|To Shredmaster Blix.|
-C We're Not Out of the Woods Yet|QID|54046|M|53.62,20.41|Z|Darkshore#1333|NC|N|Bring Lost Wisp to Nathanos.|
-T We're Not Out of the Woods Yet|QID|54046|M|53.62,20.41|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
-T Dark Ranger Round-Up|QID|54043|M|53.62,20.41|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
-A The Night Warrior|QID|54059|M|53.62,20.41|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54043&54045&54046|
-C The Night Warrior|QID|54059|M|53.50,21.33|Z|Darkshore#1333|QO|1|CHAT|T|Lost Wisp|N|Click on the Lost Wisp to see it's memory.|
-T The Night Warrior|QID|54059|M|53.62,20.41|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
-A Where Hope Dies|QID|54047|M|53.63,20.40|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54059|
-C Where Hope Dies|QID|54047|M|47.48,20.59|Z|Darkshore#1333|QO|1|NC|N|Use your extra action button to signal Nathanos at Delaryn's Corpse.|
-C Where Hope Dies|QID|54047|M|47.75,21.04|Z|Darkshore#1333|QO|2|T|Sira Moonwarden|N|Defeat Sira Moonwarden.|
-C Where Hope Dies|QID|54047|M|47.75,21.04|Z|Darkshore#1333|QO|3|CHAT|N|Click on Sira and decide her fate.|
-T Where Hope Dies|QID|54047|M|47.87,21.24|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
-A The Dead of Night|QID|54049|M|47.87,21.24|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54047|
-C The Dead of Night|QID|54049|M|47.87,21.24|Z|Darkshore#1333|QO|1|CHAT|N|Speak to Nathanos when ready.|
-C The Dead of Night|QID|54049|M|47.91,21.55|Z|Darkshore#1333|QO|2|N|Val'kyr Ritual survived.|
-T The Dead of Night|QID|54049|M|54.63,20.83|Z|Darkshore#1333|N|To Sira Moonwarden.|
-A Aftermath|QID|54050|M|54.63,20.83|Z|Darkshore#1333|N|From Sira Moonwarden.|PRE|54049|
-C Aftermath|QID|54050|M|51.74,21.63|Z|Darkshore#1333|QO|1|CHAT|N|Speak to Nathanos.|
-T Aftermath|QID|54050|M|51.74,21.64|Z|Darkshore#1333|N|To Nathanos Blightcaller.|
-A Warfront Preparations|QID|54416|M|51.74,21.64|Z|Darkshore#1333|N|From Nathanos Blightcaller.|PRE|54050|
-P Warfront Preparations|ACTIVE|54416|M|52.71,21.26|Z|Darkshore#1333|QO|1|N|Take the portal provided or otherwise return to the Port of Zandalar.|
+T Trouble in Darkshore|QID|54042|M|53.62,20.41|Z|Darkshore!Instance1333|N|To Nathanos Blightcaller.|
+A Black Moon Rising|QID|54044|M|53.62,20.41|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|PRE|54042|
+A Dark Ranger Round-Up|QID|54043|M|53.62,20.41|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|PRE|54042|
+A Quit Vining!|QID|54045|M|54.70,21.99|Z|Darkshore!Instance1333|N|From Shredmaster Blix.|PRE|54042|
+C Dark Ranger Round-Up|QID|54043|M|53.69,29.69|Z|Darkshore!Instance1333|S|NC|N|Use your extra action button to target a night elf corpse.|
+C Quit Vining!|QID|54045|M|53.69,29.69|Z|Darkshore!Instance1333|S|NC|N|Free Goblin Harvesters.|
+K Lieutenant Golras|ACTIVE|54044|M|56.42,35.21|Z|Darkshore!Instance1333|QO|1|T|Lieutenant Golras|N|Kill Lieutenant Golras.|
+K Lieutenant Maliyra|ACTIVE|54044|M|47.00,42.21|Z|Darkshore!Instance1333|QO|3|T|Lieutenant Maliyra|N|Kill Lieutenant Maliyra.|
+K Lieutenant Ivyth|ACTIVE|54044|M|46.06,27.38|Z|Darkshore!Instance1333|QO|2|T|Lieutenant Ivyth|N|Kill Lieutenant Ivyth.|
+T Black Moon Rising|QID|54044|M|46.06,27.38|Z|Darkshore!Instance1333|N|To Lost Wisp.|
+A We're Not Out of the Woods Yet|QID|54046|M|46.06,27.38|Z|Darkshore!Instance1333|N|From Lost Wisp.|PRE|54044|
+C Quit Vining!|QID|54045|M|48.57,27.65|Z|Darkshore!Instance1333|US|NC|N|Finish freeing Goblin Harvesters.|
+C Dark Ranger Round-Up|QID|54043|M|48.57,27.65|Z|Darkshore!Instance1333|US|NC|N|Finish raising the Dark Rangers.|
+T Quit Vining!|QID|54045|M|54.70,21.99|Z|Darkshore!Instance1333|N|To Shredmaster Blix.|
+C We're Not Out of the Woods Yet|QID|54046|M|53.62,20.41|Z|Darkshore!Instance1333|NC|N|Bring Lost Wisp to Nathanos.|
+T We're Not Out of the Woods Yet|QID|54046|M|53.62,20.41|Z|Darkshore!Instance1333|N|To Nathanos Blightcaller.|
+T Dark Ranger Round-Up|QID|54043|M|53.62,20.41|Z|Darkshore!Instance1333|N|To Nathanos Blightcaller.|
+A The Night Warrior|QID|54059|M|53.62,20.41|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|PRE|54043&54045&54046|
+C The Night Warrior|QID|54059|M|53.50,21.33|Z|Darkshore!Instance1333|QO|1|CHAT|T|Lost Wisp|N|Click on the Lost Wisp to see it's memory.|
+T The Night Warrior|QID|54059|M|53.62,20.41|Z|Darkshore!Instance1333|N|To Nathanos Blightcaller.|
+A Where Hope Dies|QID|54047|M|53.63,20.40|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|PRE|54059|
+C Where Hope Dies|QID|54047|M|47.48,20.59|Z|Darkshore!Instance1333|QO|1|NC|N|Use your extra action button to signal Nathanos at Delaryn's Corpse.|
+C Where Hope Dies|QID|54047|M|47.75,21.04|Z|Darkshore!Instance1333|QO|2|T|Sira Moonwarden|N|Defeat Sira Moonwarden.|
+C Where Hope Dies|QID|54047|M|47.75,21.04|Z|Darkshore!Instance1333|QO|3|CHAT|N|Click on Sira and decide her fate.|
+T Where Hope Dies|QID|54047|M|47.87,21.24|Z|Darkshore!Instance1333|N|To Nathanos Blightcaller.|
+A The Dead of Night|QID|54049|M|47.87,21.24|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|PRE|54047|
+C The Dead of Night|QID|54049|M|47.87,21.24|Z|Darkshore!Instance1333|QO|1|CHAT|N|Speak to Nathanos when ready.|
+C The Dead of Night|QID|54049|M|47.91,21.55|Z|Darkshore!Instance1333|QO|2|N|Val'kyr Ritual survived.|
+T The Dead of Night|QID|54049|M|54.63,20.83|Z|Darkshore!Instance1333|N|To Sira Moonwarden.|
+A Aftermath|QID|54050|M|54.63,20.83|Z|Darkshore!Instance1333|N|From Sira Moonwarden.|PRE|54049|
+C Aftermath|QID|54050|M|51.74,21.63|Z|Darkshore!Instance1333|QO|1|CHAT|N|Speak to Nathanos.|
+T Aftermath|QID|54050|M|51.74,21.64|Z|Darkshore!Instance1333|N|To Nathanos Blightcaller.|
+A Warfront Preparations|QID|54416|M|51.74,21.64|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|PRE|54050|
+P Warfront Preparations|ACTIVE|54416|M|52.71,21.26|Z|Darkshore!Instance1333|QO|1|N|Take the portal provided or otherwise return to the Port of Zandalar.|
 T Warfront Preparations|QID|54416|M|52.92,94.52|Z|Dazar'alor|N|To Throk.|
 N War Table|AVAILABLE|53955^53416|M|52.92,94.52|Z|Dazar'alor|N|Check the table beside Throk to determine if Horde is on Patrol Status or Siege Status and then if siege, queue for the warfront if available, if patrol status you can click on the nearby portal to go kill Darkshore rares if desired.|PRE|54416|
 
