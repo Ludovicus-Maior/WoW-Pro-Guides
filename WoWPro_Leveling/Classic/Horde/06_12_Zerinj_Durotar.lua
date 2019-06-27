@@ -139,7 +139,7 @@ C The Shattered Hand|QID|1963|C|Rogue|R|Orc,Troll|L|7209|M|63.10,44.30|Z|The Bar
 
 T Call of Fire|QID|2983|C|Shaman|R|Orc,Troll|M|55.86,19.94|Z|The Barrens|N|To Kranal Fiss. He wanders around a bit.|
 A Call of Fire|QID|1524|PRE|2983|C|Shaman|R|Orc,Troll|M|55.86,19.94|Z|The Barrens|N|From Kranal Fiss.|
-R Shrine of the Dormant Flame|QID|1524|C|Shaman|R|Orc,Troll|M|36.00,57.00|CC|N|Follow the hidden path here upwards.|
+R Shrine of the Dormant Flame|QID|1524|C|Shaman|R|Orc,Troll|M|36.69,57.43|CC|N|Follow the hidden path here upwards.|
 T Call of Fire|QID|1524|C|Shaman|R|Orc,Troll|M|38.52,58.92|N|To Telf Joolam.|
 A Call of Fire|QID|1525|PRE|1524|C|Shaman|R|Orc,Troll|M|38.52,58.92|N|From Telf Joolam.|
 
@@ -174,7 +174,7 @@ T Margoz|QID|828|M|56.41,20.03|N|To Margoz.|
 A Skull Rock|QID|827|PRE|828|M|56.41,20.03|N|From Margoz.|
 
 R Skull Rock|QID|827|M|55.00,9.74|CC|N|Run north to the cave entrance of Skull Rock.|
-C Call of Fire|QID|1525|C|Shaman|QO|2|S|N|Kill Burning Blade Cultists for the Reagent Pouch.|
+C Call of Fire|QID|1525|C|Shaman|R|Orc,Troll|QO|2|S|N|Kill Burning Blade Cultists for the Reagent Pouch.|
 C Skull Rock|QID|827|S|N|Kill Burning Blade for the Searing Collars.|
 C Hidden Enemies|QID|5730|S|N|Kill Burning Blade Apprentices and Fanatics for the Lieutenants Insignia.|
 K Gazz'uz|QID|832|L|4903|U|4945|M|51.62,9.76|N|Keep right in the cave and kill Gazz'uz. If he isn't at the top of the ledge he may be below. Use your glowing skull if you need to.|
