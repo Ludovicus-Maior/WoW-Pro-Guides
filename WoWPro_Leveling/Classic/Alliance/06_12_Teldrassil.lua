@@ -168,7 +168,7 @@ A Flight to Auberdine|QID|6342|M|58.40,94.01|N|From Vesprystus.|
 T Moonglade|QID|5921|C|Druid|M|56.21,30.62|Z|Moonglade|N|Use the teleport spell you learned from Mathrengyl Bearwalker. To Dendrite Starblaze.|
 A Great Bear Spirit|QID|5929|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
 R Great Bear Spirit|QID|5929|C|Druid|M|53.39,31.16;45.03,26.67|Z|Moonglade|CS|
-C Great Bear Spirit|QID|5929|C|Druid|M|39.31,27.44|Z|Moonglade|QO|1|N|Talk to the bear spirit until quest is complete.|
+C Great Bear Spirit|QID|5929|C|Druid|M|39.31,27.44|Z|Moonglade|N|Talk to the bear spirit until quest is complete.|
 T Great Bear Spirit|QID|5929|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze. Use Teleport: Moonglade again instead of running back.|
 A Back to Darnassus|QID|5931|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
 F Darnassus|QID|5931|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
