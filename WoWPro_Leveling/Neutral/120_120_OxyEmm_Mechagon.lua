@@ -1,4 +1,18 @@
 
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Based on a work at github.com.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
+-- URL: http://wow-pro.com/wiki/mechagon_neutral
+-- Date: 2019-06-27 22:43
+-- Who: Ludovicus_Maior
+-- Log: Harzard
+
+-- URL: http://wow-pro.com/node/3791/revisions/30266/view
+-- Date: 2019-06-27 12:53
+-- Who: Emmaleah
+-- Log: Draft 1 Mechagon. needs horde bits added/alliance bits identified with faction tag among other things.
+
 local guide = WoWPro:RegisterGuide('Mechagon', 'Leveling', 'Mechagon', 'Oxycontin+Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,120, 120)
 WoWPro:GuideNextGuide(guide, '')
@@ -108,6 +122,5 @@ T Blueprint: Experimental Adventurer Augment|QID|56087|M|71.33,32.28|Z|Mechagon 
 ]]
 
 end)
-
 
 
