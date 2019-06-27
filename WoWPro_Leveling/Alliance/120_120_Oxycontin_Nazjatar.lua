@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_alliance
+-- Date: 2019-06-27 22:40
+-- Who: Ludovicus_Maior
+-- Log: Hazard!
+
+-- URL: http://wow-pro.com/node/3790/revisions/30262/view
 -- Date: 2019-06-27 06:44
 -- Who: Emmaleah
 -- Log: deleted some extraneous lines and added header to page
@@ -37,6 +42,7 @@ WoWPro:GuideLevels(guide,120, 120)
 WoWPro:GuideNextGuide(guide, '')
 WoWPro:GuideSteps(guide, function()
 return [[
+N Draft!|ACTIVE|55851|N|This guide is under construction.  We apologize for any missing quests, fires, or other hazards.|
 T Essential Empowerment|QID|55851|M|50.20,58.53|N|To Magni Bronzebeard.|
 A MOTHER Knows Best|QID|55533|M|50.20,58.53|N|From Magni Bronzebeard.|
 C MOTHER Knows Best|QID|55533|M|47.97,70.83|QO|1|N|1/1 Speak to MOTHER|
