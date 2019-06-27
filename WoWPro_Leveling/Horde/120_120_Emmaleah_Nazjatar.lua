@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_horde
+-- Date: 2019-06-27 22:41
+-- Who: Ludovicus_Maior
+-- Log: Hazard
+
+-- URL: http://wow-pro.com/node/3789/revisions/30263/view
 -- Date: 2019-06-27 12:18
 -- Who: Emmaleah
 -- Log: a lot of general cleanup. no play testing yet.
@@ -26,6 +31,8 @@ WoWPro:GuideLevels(guide,120, 120)
 WoWPro:GuideNextGuide(guide, 'TBD')
 WoWPro:GuideSteps(guide, function()
 return [[
+
+N Draft!|AVAILABLE| 56030 |N|This guide is under construction.  We apologize for any missing quests, fires, or other hazards.|
 
 A The Warcheif's Order|QID|56030|M|52.51,84.97|Z|Dazar'alor|N|Auto accepted when logging in after 6/25/19 and able to do WQs.|
 T The Warchief's Order|QID|56030|M|58.44,62.66|Z|Zuldazar|N|To Nathanos Blightcaller.|
