@@ -38,4 +38,5 @@
   <Script file="110_110_Blanc_Suramar.lua"/>
   <Script file="110_110_Emmaleah_BrokenShore.lua"/>
   <Script file="110_110_Ludo_Argus.lua"/>
+  <Script file="120_120_OxyEmm_Mechagon.lua" />
 </Ui>
