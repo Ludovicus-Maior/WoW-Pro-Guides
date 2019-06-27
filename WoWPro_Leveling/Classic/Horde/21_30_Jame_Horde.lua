@@ -96,9 +96,8 @@ F Tirisfal Glades|QID|493|M|50.80,13.80|Z|Durotar|N|via Zeppelin|
 R Undercity|QID|493|M|61.00,69.00|Z|Tirisfal Glades|
 
 ; --- FIXME: PRE tag expects quest id numbers: 'Meeting the Warchief'
-; --- FIXME: Ignoring unknown R tag parameter 'Blutelf'
 ; --- FIXME: QID '9627' not found in list of valid QIDs
-T Allegiance to the Horde|QID|9627|PRE|Meeting the Warchief|R|Blood Elf|M|55.00,11.00|Z|Undercity|O|N|Use the Translocation Orb in Undercity to transport back to Silvermoon City.|
+; T Allegiance to the Horde|QID|9627|R|Blood Elf|M|55.00,11.00|Z|Undercity|O|N|Use the Translocation Orb in Undercity to transport back to Silvermoon City.|
 
 f Undercity|QID|493|M|63.30,48.40|Z|Undercity|
 R Tirisfal Glades|QID|493|M|65.90,0.00|Z|Undercity|
@@ -141,15 +140,10 @@ C WANTED: Syndicate Personnel|QID|549|M|76.70,42.80|Z|Hillsbrad Foothills|N|If y
 
 C Elixir of Suffering (Part 1)|QID|496|M|54.80,8.90|Z|Hillsbrad Foothills|N|Kill gray bears and forest moss creepers around , looting tonuges and looking for a creeper ichor.|
 
-; --- FIXME: Empty T tag removed, check
 T The Rescue|QID|498|Z|Hillsbrad Foothills|
-; --- FIXME: Empty T tag removed, check
 T WANTED: Syndicate Personnel|QID|549|Z|Hillsbrad Foothills|
-; --- FIXME: Empty T tag removed, check
 T Elixir of Suffering (Part 1)|QID|496|Z|Hillsbrad Foothills|
-; --- FIXME: Empty T tag removed, check
 A Elixir of Suffering (Part 2)|QID|499|Z|Hillsbrad Foothills|
-; --- FIXME: Empty T tag removed, check
 T Elixir of Suffering (Part 2)|QID|499|Z|Hillsbrad Foothills|
 
 N Things to do...|QID|501|Z|Hillsbrad Foothills|N|Kill every Starving Mountain Lion you find on your way to Hillsbrad Fields.|
@@ -182,12 +176,9 @@ T Beren's Peril|QID|516|Z|Hillsbrad Foothills|
 
 ; === 24_25_Jame_Ashenvale.lua ===
 T Trial of the Sea Lion|QID|30|C|Druid|M|56.40,30.50|Z|Ashenvale|O|N|Use Teleport:Moonglade and turn in your quest.|
-; --- FIXME: PRE tag expects quest id numbers: 'Trial of the Sea Lion'
-A Aquatic Form|QID|31|PRE|Trial of the Sea Lion|C|Druid|M|56.40,30.50|Z|Ashenvale|O|
-; --- FIXME: PRE tag expects quest id numbers: 'Trial of the Sea Lion'
-F Thunder Bluff|QID|31|PRE|Trial of the Sea Lion|C|Druid|M|44.40,45.70|Z|Moonglade|O|
-; --- FIXME: PRE tag expects quest id numbers: 'Trial of the Sea Lion'
-T Aquatic Form|QID|31|PRE|Trial of the Sea Lion|C|Druid|M|76.00,27.00|Z|Ashenvale|O|
+A Aquatic Form|QID|31|PRE|30|C|Druid|M|56.40,30.50|Z|Ashenvale|O|
+F Thunder Bluff|QID|31|C|Druid|M|44.40,45.70|Z|Moonglade|O|
+T Aquatic Form|QID|31|C|Druid|M|76.00,27.00|Z|Ashenvale|O|
 
 H Orgrimmar|QID|6641|U|6948|Z|Ashenvale|
 N Auction House|QID|6581|M|53.70,64.60|Z|Orgrimmar|N|Check the AH for: Deadly Blunderbuss|
@@ -273,15 +264,12 @@ A Egg Hunt|QID|868|M|51.10,29.60|Z|The Barrens|
 T Deep Cover|QID|2458|C|Rogue|U|8051|Z|The Barrens|O|N|Head north of the Sludge Fen. When the tower is in sight, use the Flare Gun to signal your arrival to Taskmaster Fizzule. Fire off TWO flares, then approach Taskmaster Fizzule and perform the Shattered /Salute.|
 A Mission: Possible But Not Probable|QID|2478|PRE|2458|C|Rogue|Z|The Barrens|O|
 N Pickpocket Silixiz|QID|2478|C|Rogue|L|8072|M|54.80,6.10|Z|The Barrens|O|N|Pickpocket Foreman Silixiz|
-; --- FIXME: Tag Q unsupported but copied
 ; --- FIXME: Convert QO tag 'Mutated Venture Co. Drone slain: 2/2' to number
-K Mutated Venture Co. Drones|QID|2478|C|Rogue|QO|Mutated Venture Co. Drone slain: 2/2|Z|The Barrens|O|Q|Mission: Possible But Not Probable|N|Go inside the tower and kill 2 drones on the first floor. They are weak to Ambush.|
-; --- FIXME: Tag Q unsupported but copied
+K Mutated Venture Co. Drones|QID|2478|C|Rogue|QO|Mutated Venture Co. Drone slain: 2/2|Z|The Barrens|O|N|Go inside the tower and kill 2 drones on the first floor. They are weak to Ambush.|
 ; --- FIXME: Convert QO tag 'Venture Co. Patroller slain: 2/2' to number
-K Mutated Venture Co. Patrollers|QID|2478|C|Rogue|QO|Venture Co. Patroller slain: 2/2|Z|The Barrens|O|Q|Mission: Possible But Not Probable|N|Go up the stairs to the second floor and kill 2 patrollers. They are weak to Rupture.|
-; --- FIXME: Tag Q unsupported but copied
+K Mutated Venture Co. Patrollers|QID|2478|C|Rogue|QO|Venture Co. Patroller slain: 2/2|Z|The Barrens|O|N|Go up the stairs to the second floor and kill 2 patrollers. They are weak to Rupture.|
 ; --- FIXME: Convert QO tag 'Venture Co. Lookout slain: 2/2' to number
-K Mutated Venture Co. Lookouts|QID|2478|C|Rogue|QO|Venture Co. Lookout slain: 2/2|Z|The Barrens|O|Q|Mission: Possible But Not Probable|N|Go up the stairs to the third floor and kill 2 lookouts. They are weak to Eviscerate.|
+K Mutated Venture Co. Lookouts|QID|2478|C|Rogue|QO|Venture Co. Lookout slain: 2/2|Z|The Barrens|O|N|Go up the stairs to the third floor and kill 2 lookouts. They are weak to Eviscerate.|
 C Mission: Possible But Not Probable|QID|2478|C|Rogue|Z|The Barrens|O|N|Stealth up to the fourth floor. Use Ambush on Gallywix, then kill him. Loot his head, and pick the lock on the footlocker. Loot the mixture inside.|
 T Mission: Possible But Not Probable|QID|2478|C|Rogue|U|8066|Z|The Barrens|O|N|Out of the tower and back to Fizzule. Use the whistle to call him.|
 
@@ -339,8 +327,7 @@ C Trial at the Field of Giants|QID|1823|C|Warrior|M|44.50,59.10|Z|The Barrens|N|
 A The Harvester|QID|897|U|5138|Z|The Barrens|O|N|Click the head to start the quest.|
 
 T Trial at the Field of Giants|QID|1823|C|Warrior|Z|The Barrens|
-; --- FIXME: Unknown tag 'If you are interested in the Brutal Armor quest chain, you can pick it up at this point. This quest requires running Razorfen Kraul, and will not be covered in this guide. It does provide some decent armor, but if you are leveling quickly it may not be worth it.'
-N Brutal Armor Quest Chain|QID|1838|C|Warrior|Z|The Barrens|
+N Brutal Armor Quest Chain|QID|1838|C|Warrior|Z|The Barrens|N|If you are interested in the Brutal Armor quest chain, you can pick it up at this point. This quest requires running Razorfen Kraul, and will not be covered in this guide. It does provide some decent armor, but if you are leveling quickly it may not be worth it.|
 A Speak with Thun'grim|QID|1825|C|Warrior|Z|The Barrens|O|
 
 T Weapons of Choice|QID|893|M|45.10,57.70|Z|The Barrens|
@@ -370,8 +357,7 @@ f Booty Bay|QID|6571|M|26.90,77.10|Z|Stranglethorn Vale|N|The flight point can b
 
 ; === 26_27_Jame_Ashenvale.lua ===
 H Orgrimmar|QID|6581|U|6948|Z|Ashenvale|
-; --- FIXME: Coords found in N tag, using: 53.70,64.60
-N Auction House - LAST CHANCE|QID|6504|M|53.70,64.60|Z|Orgrimmar|N|Check the AH for: Shredder Operating Manual pages (LAST CHANCE), Deadly Blunderbuss (LAST CHANCE) (53.7,64.6)|
+N Auction House - LAST CHANCE|QID|6504|M|53.70,64.60|Z|Orgrimmar|N|Check the AH for: Shredder Operating Manual pages (LAST CHANCE), Deadly Blunderbuss (LAST CHANCE)|
 N Bank Out|QID|6581|M|49.90,70.40|Z|Orgrimmar|N|Withdraw from the bank: Deadly Blunderbuss, Shredder Operating Manual pages|
 
 N Nether-lace Garment|QID|1944|C|Mage|M|38.50,36.00|Z|Orgrimmar|N|You have the option to do a series of class quests to get your choice of two chest items. These don't take you too far out of your way, but they are very optional, so it's up to you if you want to do them. The starting quest can be picked up from Deino  and is called Waters of Xavian.|
@@ -381,16 +367,15 @@ F Splintertree Post|QID|6581|M|45.30,63.90|Z|Orgrimmar|
 A Warsong Saw Blades|QID|6581|Z|Ashenvale|
 T Warsong Saw Blades|QID|6581|Z|Ashenvale|
 
-; --- FIXME: Differing Coords found in N tag: 53.00,55.00
-K Kill Shadumbra for Shadumbra's Head|QID|24|L|16304|M|62.00,50.00|Z|Ashenvale|N|Follow the road west. Shadumbra patrols between  and (53,55), kill him and loot Shadumbra's Head|
+; --- FIXME: Check coordinates
+K Kill Shadumbra for Shadumbra's Head|QID|24|L|16304|M|62.00,50.00;53.00,55.00|CN|Z|Ashenvale|N|Follow the road west. Shadumbra patrols between those points. Kill him and loot Shadumbra's Head.|
 A Shadumbra's Head|QID|24|U|16304|M|58.70,56.10|Z|Ashenvale|N|Click Shadumbra's Head to start the quest.|
 
 C Satyr Horns|QID|6441|M|66.60,56.30|Z|Ashenvale|N|Kill all Satyrs for Satyr Horns . Look for pitchers containing Warsong Oil.  Loot one for [27]Warsong Supplies.|
 ; --- FIXME: Convert QO tag 'Warsong Oil: 1/1' to number
 N Collect: Warsong Oil for Warsong Supplies|QID|6571|QO|Warsong Oil: 1/1|M|66.00,55.00|Z|Ashenvale|N|Look for pitchers containing Warsong Oil.  Loot one for [27]Warsong Supplies.|
 
-; --- FIXME: Malformed M entry '76.41,'
-C Waters of Xavian|QID|1944|C|Mage|U|7269|Z|Ashenvale|O|N|Head east to the river, and go north to the waterfall there. Use Deino's Flask at the waterfall.|
+C Waters of Xavian|QID|1944|C|Mage|U|7269|M|76.0,41.0|Z|Ashenvale|O|N|Head east to the river, and go north to the waterfall there. Use Deino's Flask at the waterfall.|
 
 K Kill Sharptalon for Sharptalon's Claw|QID|2|L|16305|M|75.00,71.00|Z|Ashenvale|N|Sharptalon: It is unlikely you will be able to kill Sharptalon at your present level. Once you spot Sharptalon, keep him in sight and wait till he is close enough to the Forsaken Camp. Next, pull him with the lowest aggro spell/shot you have (a simple bow shoot, or rank 1 nuke).  Bring him to the Forsaken Camp. DO NOTHING.  Let the NPCs aggro it and take it off you. Once they have Sharptalon down to 90%, start attacking again, you must do as much damage as possible, but don't use high aggro spells.  Help them finish it off, then loot Sharptalon's Claw|
 A Sharptalon's Claw|QID|2|U|16305|M|74.00,70.00|Z|Ashenvale|N|Click Sharptalon's Claw to start the quest.|
@@ -437,7 +422,7 @@ T Souvenirs of Death|QID|546|Z|Hillsbrad Foothills|
 R Azurelode Mine|QID|539|M|26.00,58.00|Z|Hillsbrad Foothills|
 ; --- FIXME: Convert QO tag 'Miner Hackett slain: 1/1' to number
 ; --- FIXME: Differing Coords found in N tag: 31.00,53.00
-K Kill Miner Hackett|QID|567|QO|Miner Hackett slain: 1/1|M|27.30,58.70|Z|Hillsbrad Foothills|N|Enter the mine , killing miners as you go.  After awhile, you will come to a fork.  To the left are Foreman Bonds and Miner Hackett. (31,53)|
+K Kill Miner Hackett|QID|567|QO|Miner Hackett slain: 1/1|M|27.30,58.70|Z|Hillsbrad Foothills|N|Enter the mine, killing miners as you go. After awhile, you will come to a fork. To the left are Foreman Bonds and Miner Hackett. (31,53)|
 ; --- FIXME: Convert QO tag 'Foreman Bonds slain: 1/1' to number
 K Kill Foreman Bonds|QID|539|QO|Foreman Bonds slain: 1/1|M|30.00,55.00|Z|Hillsbrad Foothills|N|At 20% health he summons 2 dwarves to guard him.  Those dwarves can stun, so it is unlikely, at this level, you can kill all 3. If you are a rogue, kill Foreman Bonds, then vanish. For other classes, clear the way behind you towards the exit.  Next, engage and finish Foreman Bonds fast, then run for the exit, the 2 dwarves will follow, but eventually give up and return. If you are about to die, be sure you get the kill on Foreman Bonds first.|
 C Battle of Hillsbrad (Part 5)|QID|539|Z|Hillsbrad Foothills|N|Stay in the mine and kill any miners you still need.|
@@ -472,7 +457,7 @@ T Message to Freewind Post|QID|4542|M|45.60,50.80|Z|Thousand Needles|
 A Pacify the Centaur|QID|4841|M|45.60,50.80|Z|Thousand Needles|
 A Wanted - Arnak Grimtotem|QID|5147|M|46.00,50.80|Z|Thousand Needles|
 ; --- FIXME: QID '9431' not found in list of valid QIDs
-A A Different Approach|QID|9431|M|46.20,50.40|Z|Thousand Needles|
+; A A Different Approach|QID|9431|M|46.20,50.40|Z|Thousand Needles|
 
 C Pacify the Centaur|QID|4841|M|45.00,36.00|Z|Thousand Needles|N|Kill scouts, wranglers,and windchasers around|
 
@@ -482,9 +467,9 @@ T Test of Faith|QID|1149|M|53.90,41.50|Z|Thousand Needles|
 A Test of Endurance|QID|1150|M|53.90,41.50|Z|Thousand Needles|
 
 ; --- FIXME: Differing Coords found in N tag: 52.50,55.20
-C Alien Egg|QID|4821|M|56.50,50.30|Z|Thousand Needles|N|Check the three locations for the Alien Egg and kill Thundering Boulderkins until you have 2 Purifying Earth: , (52.5,55.2), (37.7,56.1)|
+C Alien Egg|QID|4821|M|56.50,50.30;52.5,55.2;37.7,56.1|CN|Z|Thousand Needles|N|Check the three locations for the Alien Egg and kill Thundering Boulderkins until you have 2 Purifying Earth.|
 ; --- FIXME: QID '9431' not found in list of valid QIDs
-C A Different Approach|QID|9431|M|64.50,61.60|Z|Thousand Needles|N|Kill Thundering Boulderkins until you have 2 Purifying Earth.|
+; C A Different Approach|QID|9431|M|64.50,61.60|Z|Thousand Needles|N|Kill Thundering Boulderkins until you have 2 Purifying Earth.|
 
 T Pacify the Centaur|QID|4841|M|45.60,50.80|Z|Thousand Needles|
 A Grimtotem Spying|QID|5064|M|45.60,50.80|Z|Thousand Needles|
@@ -502,18 +487,18 @@ T Homeward Bound|QID|4770|M|21.50,32.40|Z|Thousand Needles|
 T Serpent Wild|QID|4865|M|21.50,32.40|Z|Thousand Needles|
 A Sacred Fire|QID|5062|M|21.50,32.40|Z|Thousand Needles|
 ; --- FIXME: QID '9431' not found in list of valid QIDs
-T A Different Approach|QID|9431|M|21.50,32.40|Z|Thousand Needles|
+; T A Different Approach|QID|9431|M|21.50,32.40|Z|Thousand Needles|
 ; --- FIXME: QID '9433' not found in list of valid QIDs
-A A Dip in the Moonwell|QID|9433|M|21.50,32.40|Z|Thousand Needles|
+; A A Dip in the Moonwell|QID|9433|M|21.50,32.40|Z|Thousand Needles|
 A Hypercapacitor Gizmo|QID|5151|Z|Thousand Needles|
 
 ; --- FIXME: QID '9433' not found in list of valid QIDs
-C A Dip in the Moonwell|QID|9433|U|23675|M|9.50,18.70|Z|Thousand Needles|N|Looking west, you will see a slope going up one of the needles.  Climb it.  Continue around the needle until you reach a Concealed Operating Panel. Dismiss your current pet and use the Robotron Control Unit. You will take control of a little robot.  Direct it into the moonwell just ahead of you.  Click pet's ability called "Gather Water".  You will get a quest completed message. You now may click off the buff icon to give up control of the robot.|
+; C A Dip in the Moonwell|QID|9433|U|23675|M|9.50,18.70|Z|Thousand Needles|N|Looking west, you will see a slope going up one of the needles.  Climb it.  Continue around the needle until you reach a Concealed Operating Panel. Dismiss your current pet and use the Robotron Control Unit. You will take control of a little robot.  Direct it into the moonwell just ahead of you.  Click pet's ability called "Gather Water".  You will get a quest completed message. You now may click off the buff icon to give up control of the robot.|
 
 ; --- FIXME: QID '9433' not found in list of valid QIDs
-T A Dip in the Moonwell|QID|9433|M|21.50,32.40|Z|Thousand Needles|N|Right-click the robot's portrait and select "dismiss", then run back to the goblin.|
+; T A Dip in the Moonwell|QID|9433|M|21.50,32.40|Z|Thousand Needles|N|Right-click the robot's portrait and select "dismiss", then run back to the goblin.|
 ; --- FIXME: QID '9434' not found in list of valid QIDs
-A Testing the Tonic|QID|9434|M|21.50,32.40|Z|Thousand Needles|
+; A Testing the Tonic|QID|9434|M|21.50,32.40|Z|Thousand Needles|
 
 C Sacred Fire|QID|5062|M|37.80,38.10|Z|Thousand Needles|N|Head to the area below Darkcloud Pinnacle and collect Incendia Agave, they look like spiky little plants and can often be found underwhater.|
 
@@ -535,7 +520,7 @@ C Free at Last|QID|4904|M|37.70,26.70|Z|Thousand Needles|
 
 T Free at Last|QID|4904|M|46.10,51.70|Z|Thousand Needles|
 ; --- FIXME: QID '9434' not found in list of valid QIDs
-T Testing the Tonic|QID|9434|M|46.20,50.40|Z|Thousand Needles|
+; T Testing the Tonic|QID|9434|M|46.20,50.40|Z|Thousand Needles|
 T Grimtotem Spying|QID|5064|M|45.60,50.80|Z|Thousand Needles|
 T Wanted - Arnak Grimtotem|QID|5147|M|45.60,50.80|Z|Thousand Needles|
 T Wind Rider|QID|4767|M|44.80,49.00|Z|Thousand Needles|
@@ -564,52 +549,48 @@ A Arikara|QID|5088|M|69.90,30.90|Z|Thousand Needles|
 ; --- FIXME: QID '9534' not found in list of valid QIDs
 H Orgrimmar|QID|9534|U|6948|Z|Ashenvale|
 
-T Waters of Xavian|QID|1944|C|Mage|Z|Ashenvale|O|
-; --- FIXME: PRE tag expects quest id numbers: 'Waters of Xavian'
-A Laughing Sisters|QID|1945|PRE|Waters of Xavian|C|Mage|Z|Ashenvale|O|
+T Waters of Xavian|QID|1944|C|Mage|Z|Orgrimmar|M|38.5,86.1|
+A Laughing Sisters|QID|1945|PRE|1944|C|Mage|Z|Orgrimmar|M|38.5,86.1|
+
+F Splintertree Post|QID|1945|C|Mage|M|45.30,63.90|Z|Orgrimmar|
+; --- FIXME: QID '9534' not found in list of valid QIDs
+; h Splintertree Post|QID|9534|M|74.00,60.70|Z|Ashenvale|
+; --- FIXME: QID '9534' not found in list of valid QIDs
+; A Destroy the Legion|QID|9534|M|73.20,60.40|Z|Ashenvale|
+
+C Laughing Sisters|QID|1945|C|Mage|M|60.00,53.00|Z|Ashenvale|N|Head to Raynewood Retreat, west of Splintertree Post, and kill Laughing Sisters for their hair.|
 
 ; --- FIXME: QID '9534' not found in list of valid QIDs
-F Splintertree Post|QID|9534|M|45.30,63.90|Z|Orgrimmar|
-; --- FIXME: QID '9534' not found in list of valid QIDs
-h Splintertree Post|QID|9534|M|74.00,60.70|Z|Ashenvale|
-; --- FIXME: QID '9534' not found in list of valid QIDs
-A Destroy the Legion|QID|9534|M|73.20,60.40|Z|Ashenvale|
-
-; --- FIXME: PRE tag expects quest id numbers: 'Waters of Xavian'
-C Laughing Sisters|QID|1945|PRE|Waters of Xavian|C|Mage|M|60.00,53.00|Z|Ashenvale|O|N|Head to Raynewood Retreat, west of Splintertree Post, and kill Laughing Sisters for their hair.|
-
-; --- FIXME: QID '9534' not found in list of valid QIDs
-C Destroy the Legion|QID|9534|M|79.90,68.40|Z|Ashenvale|N|Kill everything in this area until Destroy the Legion is complete.|
+; C Destroy the Legion|QID|9534|M|79.90,68.40|Z|Ashenvale|N|Kill everything in this area until Destroy the Legion is complete.|
 ; --- FIXME: QID '9535' not found in list of valid QIDs
-K Kill Demons|QID|9535|L|23797|M|84.60,74.90|Z|Ashenvale|N|Kill demons until Diabolic Plans drops.|
+; K Kill Demons|QID|9535|L|23797|M|84.60,74.90|Z|Ashenvale|N|Kill demons until Diabolic Plans drops.|
 ; --- FIXME: QID '9535' not found in list of valid QIDs
-A Diabolical Plans|QID|9535|U|23797|M|80.00,68.00|Z|Ashenvale|N|Click the Diabolical Plans to start the quest.|
+; A Diabolical Plans|QID|9535|U|23797|M|80.00,68.00|Z|Ashenvale|N|Click the Diabolical Plans to start the quest.|
 
 ; --- FIXME: QID '9534' not found in list of valid QIDs
-T Destroy the Legion|QID|9534|M|73.20,60.40|Z|Ashenvale|
+; T Destroy the Legion|QID|9534|M|73.20,60.40|Z|Ashenvale|
 ; --- FIXME: QID '9535' not found in list of valid QIDs
-T Diabolical Plans|QID|9535|M|73.20,60.40|Z|Ashenvale|
+; T Diabolical Plans|QID|9535|M|73.20,60.40|Z|Ashenvale|
 ; --- FIXME: QID '9536' not found in list of valid QIDs
-A Never Again!|QID|9536|Z|Ashenvale|
+; A Never Again!|QID|9536|Z|Ashenvale|
 
 ; --- FIXME: Convert QO tag 'Gorgannon slain: 1/1' to number
 ; --- FIXME: QID '9536' not found in list of valid QIDs
 ; --- FIXME: Differing Coords found in N tag: 88.50,77.10
-K Kill Gorgannon|QID|9536|QO|Gorgannon slain: 1/1|M|84.30,77.60|Z|Ashenvale|N|He's in Demon Fall Canyon, up a slope to the left shortly after you enter . First, pull all surrounding mobs solo.  Once that is done, get full mana and health.  Take him down. (88.5,77.1)|
+; K Kill Gorgannon|QID|9536|QO|Gorgannon slain: 1/1|M|84.30,77.60|Z|Ashenvale|N|He's in Demon Fall Canyon, up a slope to the left shortly after you enter . First, pull all surrounding mobs solo.  Once that is done, get full mana and health.  Take him down. (88.5,77.1)|
 ; --- FIXME: Convert QO tag 'Diathorus the Seeker slain: 1/1' to number
 ; --- FIXME: QID '9536' not found in list of valid QIDs
 ; --- FIXME: Differing Coords found in N tag: 78.30,81.70
-K Kill Diathorus the Seeker|QID|9536|QO|Diathorus the Seeker slain: 1/1|M|82.80,78.00|Z|Ashenvale|N|This mob is found deep inside the shrine at the end of Demon Fall Canyon. You'll need to go up the cliff near Grom's monument to find the shrine. (78.3,81.7)(78.4,85.5)|
+; K Kill Diathorus the Seeker|QID|9536|QO|Diathorus the Seeker slain: 1/1|M|82.80,78.00|Z|Ashenvale|N|This mob is found deep inside the shrine at the end of Demon Fall Canyon. You'll need to go up the cliff near Grom's monument to find the shrine. (78.3,81.7)(78.4,85.5)|
 
 ; --- FIXME: QID '9536' not found in list of valid QIDs
-H Splintertree Post|QID|9536|U|6948|Z|Ashenvale|
+; H Splintertree Post|QID|9536|U|6948|Z|Ashenvale|
 ; --- FIXME: QID '9536' not found in list of valid QIDs
-T Never Again!|QID|9536|Z|Ashenvale|
+; T Never Again!|QID|9536|Z|Ashenvale|
 
 F The Crossroads|QID|1945|C|Mage|M|73.20,61.60|Z|Ashenvale|
-; --- FIXME: PRE tag expects quest id numbers: 'Waters of Xavian'
-T Laughing Sisters|QID|1945|PRE|Waters of Xavian|C|Mage|Z|Ashenvale|O|
-; --- FIXME: PRE tag expects quest id numbers: 'Laughing Sisters'
-T Nether-lace Garment|QID|1946|PRE|Laughing Sisters|C|Mage|Z|Ashenvale|N|Accept/Complete the next quest to receive your new robe or tunic.|
+T Laughing Sisters|QID|1945|C|Mage|Z|The Barrens|M|52.2,73.1|
+A Nether-lace Garment|QID|1946|PRE|1945|C|Mage|Z|Ashenvale|N|Accept/Complete the next quest to receive your new robe or tunic.|
+T Nether-lace Garment|QID|1946|C|Mage|Z|The Barrens|N|Accept/Complete the next quest to receive your new robe or tunic.|
 ]]
 end)
