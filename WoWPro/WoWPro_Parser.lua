@@ -199,7 +199,7 @@ WoWPro.TagList = {}  -- In order of definition
 local function DefineTag(action, key, vtype, validator, setter)
     WoWPro.TagTable[action] = {key=key, vtype=vtype, validator=validator, setter=setter}
     if key then
-        WoWPro.Tags[key]=true
+        WoWPro.Tags[key]=action
         WoWPro[key] = {}
         table.insert(WoWPro.TagList, action)
     end
@@ -276,6 +276,7 @@ DefineTag("PET","pet","string",nil,nil)
 DefineTag("BUILDING","building","string",nil,nil)
 DefineTag("GUIDE","guide","string",nil,nil)
 DefineTag("RARE","rare","boolean",nil,nil)
+DefineTag("EX","expansion","string",validate_list_of_ints,nil)
 
 -- Pet Stuff
 DefineTag("PET1","pet1","string",nil,nil)
