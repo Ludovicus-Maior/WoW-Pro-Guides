@@ -184,8 +184,8 @@ H Orgrimmar|QID|6641|U|6948|Z|Ashenvale|
 N Auction House|QID|6581|M|53.70,64.60|Z|Orgrimmar|N|Check the AH for: Deadly Blunderbuss|
 
 F Camp Taurajo|QID|1536|C|Shaman|M|45.30,63.90|Z|Orgrimmar|
-T Call of Water (Part 4)|QID|1536|C|Shaman|M|43.40,77.40|Z|Ashenvale|
-A Call of Water (Part 5)|QID|1534|C|Shaman|M|43.40,77.40|Z|Ashenvale|
+T Call of Water (Part 4)|QID|1536|C|Shaman|M|43.40,77.40|Z|The Barrens|
+A Call of Water (Part 5)|QID|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
 R Camp Taurajo|QID|1534|C|Shaman|M|44.50,59.10|Z|The Barrens|
 F Splintertree Post|QID|1534|C|Shaman|M|44.50,59.10|Z|The Barrens|
 
