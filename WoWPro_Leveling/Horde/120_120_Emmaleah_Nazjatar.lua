@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_horde
+-- Date: 2019-06-29 04:52
+-- Who: Emmaleah
+-- Log: Add Footer
+
+-- URL: http://wow-pro.com/node/3789/revisions/30272/view
 -- Date: 2019-06-27 22:41
 -- Who: Ludovicus_Maior
 -- Log: Hazard
