@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_alliance
+-- Date: 2019-06-29 14:37
+-- Who: Emmaleah
+-- Log: Play thru. Added some, but many dailies/WQs not there.
+--	Found correct zone name for Chamber of Heart
+
+-- URL: http://wow-pro.com/node/3790/revisions/30282/view
 -- Date: 2019-06-29 12:26
 -- Who: Ludovicus_Maior
 -- Log: Z update for Chamber of Heart!Dungeon1021|
@@ -56,7 +62,7 @@ local guide = WoWPro:RegisterGuide('OxyNazj', 'Leveling', 'Nazjatar', 'Oxycontin
 WoWPro:GuideLevels(guide,120, 120)
 WoWPro:GuideNextGuide(guide, 'Mechagon')
 WoWPro:GuideAutoSwitch(guide)
-WoWPro:GuideIcon(guide,"ACH",13709)
+WoWPro:GuideIcon(guide,"ACH",13553)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -103,12 +109,12 @@ A Essential Empowerment|QID|55851|M|40.02,55.13|N|From Magni Bronzebeard.|
 P Boralus|QID|55851|Z|Boralus|M|40.02,55.13|N|Take the portal to Boralus (or otherwise travel to Silithus).|
 P Silithus|QID|55851|ACTIVE|55851|M|69.63,15.92|Z|Boralus|N|Take the portal to Silithus.|
 P Chamber of Heart|QID|55851|ACTIVE|55851|M|43.20,44.54|Z|Silithus|N|Take the portal to Chamber of Heart.|
-T Essential Empowerment|QID|55851|M|50.13,59.19|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
-A MOTHER Knows Best|QID|55533|M|50.13,59.19|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|
-C MOTHER Knows Best|QID|55533|M|47.97,70.83|Z|Chamber of Heart!Dungeon1021|CHAT|N|Speak to MOTHER.|
-T MOTHER Knows Best|QID|55533|M|47.97,70.83|Z|Chamber of Heart!Dungeon1021|N|To MOTHER.|
-A A Disturbance Beneath the Earth|QID|55374|M|47.97,70.83|Z|Chamber of Heart!Dungeon1021|N|From MOTHER.|
-C A Disturbance Beneath the Earth|QID|55374|M|48.09,71.32|Z|Chamber of Heart!Dungeon1021|QO|1|CHAT|N|Speak to MOTHER to travel to Highmountain (Optional).|
+T Essential Empowerment|QID|55851|M|50.13,59.19|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
+A MOTHER Knows Best|QID|55533|M|50.13,59.19|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|
+C MOTHER Knows Best|QID|55533|M|47.97,70.83|Z|Chamber of Heart!Dungeon1473|CHAT|N|Speak to MOTHER.|
+T MOTHER Knows Best|QID|55533|M|47.97,70.83|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
+A A Disturbance Beneath the Earth|QID|55374|M|47.97,70.83|Z|Chamber of Heart!Dungeon1473|N|From MOTHER.|
+C A Disturbance Beneath the Earth|QID|55374|M|48.09,71.32|Z|Chamber of Heart!Dungeon1473|QO|1|CHAT|N|Speak to MOTHER to travel to Highmountain (Optional).|
 C A Disturbance Beneath the Earth|QID|55374|M|49.54,68.35|Z|Highmountain|QO|2|CHAT|N|Talk to Spiritwalker Ebenhorn to investigate the location.|
 T A Disturbance Beneath the Earth|QID|55374|M|49.54,68.35|Z|Highmountain|N|To Spiritwalker Ebonhorn.|
 A Take My Hand|QID|55400|M|49.54,68.35|Z|Highmountain|N|From Spiritwalker Ebonhorn.|
@@ -124,17 +130,17 @@ C Dominating the Indomitable|QID|55425|M|18.76,57.70|Z|The Dragon's Spine!Instan
 T Dominating the Indomitable|QID|55425|M|18.76,57.70|Z|The Dragon's Spine!Instance|N|To Spiritwalker Ebonhorn.|
 A A Friendly Face|QID|55497|M|18.76,57.70|Z|The Dragon's Spine!Instance|N|From Spiritwalker Ebonhorn.|
 H A Friendly Face|QID|55497|ACTIVE|55497|N|Assuming your hearthstone is set to Boralus, you can take a shortcut back, then the portal to Silithus.|
-C A Friendly Face|QID|55497|M|48.17,38.97|Z|Chamber of Heart!Dungeon1021|QO|2|CHAT|N|Say hi to Spiritwalker Ebonhorn.|
-T A Friendly Face|QID|55497|M|50.13,59.15|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
-A The Heart Forge|QID|55618|M|48.12,71.14|Z|Chamber of Heart!Dungeon1021|N|From MOTHER.|
-C The Heart Forge|QID|55618|M|47.93,72.49|Z|Chamber of Heart!Dungeon1021|QO|1|CHAT|N|Speak with MOTHER.|
-C The Heart Forge|QID|55618|M|50.28,65.43|Z|Chamber of Heart!Dungeon1021|QO|2|NC|N|Wait while Mother activates the  Heart Forge.|
-T The Heart Forge|QID|55618|M|48.39,71.26|Z|Chamber of Heart!Dungeon1021|N|To MOTHER.|
-A Harnessing the Power|QID|57010|M|48.39,71.26|Z|Chamber of Heart!Dungeon1021|N|From MOTHER.|
-C Harnessing the Power|QID|57010|M|50.24,65.43|Z|Chamber of Heart!Dungeon1021|QO|1|U|168611|NC|N|Activate the Petrified Ebony Scale.|
-C Harnessing the Power|QID|57010|M|50.24,65.43|Z|Chamber of Heart!Dungeon1021|QO|2|NC|N|Click on the top item in the UI to infuse the Essence into Heart of Azeroth.|
-T Harnessing the Power|QID|57010|M|50.10,59.30|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
-A Back Out to Sea|QID|56162|M|50.10,50.30|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|
+C A Friendly Face|QID|55497|M|48.17,38.97|Z|Chamber of Heart!Dungeon1473|QO|2|CHAT|N|Say hi to Spiritwalker Ebonhorn.|
+T A Friendly Face|QID|55497|M|50.13,59.15|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
+A The Heart Forge|QID|55618|M|48.12,71.14|Z|Chamber of Heart!Dungeon1473|N|From MOTHER.|
+C The Heart Forge|QID|55618|M|47.93,72.49|Z|Chamber of Heart!Dungeon1473|QO|1|CHAT|N|Speak with MOTHER.|
+C The Heart Forge|QID|55618|M|50.28,65.43|Z|Chamber of Heart!Dungeon1473|QO|2|NC|N|Wait while Mother activates the  Heart Forge.|
+T The Heart Forge|QID|55618|M|48.39,71.26|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
+A Harnessing the Power|QID|57010|M|48.39,71.26|Z|Chamber of Heart!Dungeon1473|N|From MOTHER.|
+C Harnessing the Power|QID|57010|M|50.24,65.43|Z|Chamber of Heart!Dungeon1473|QO|1|U|168611|NC|N|Activate the Petrified Ebony Scale.|
+C Harnessing the Power|QID|57010|M|50.24,65.43|Z|Chamber of Heart!Dungeon1473|QO|2|NC|N|Click on the top item in the UI to infuse the Essence into Heart of Azeroth.|
+T Harnessing the Power|QID|57010|M|50.10,59.30|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
+A Back Out to Sea|QID|56162|M|50.10,50.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|
 T Back Out to Sea|QID|56162|M|40.29,55.22|N|To Lady Jaina Proudmoore. You know have a Nazjatar portal in the Boralus portal room.|
 A Scouting the Palace|QID|56350|M|40.29,55.22|N|From Lady Jaina Proudmoore.|
 C Scouting the Palace|QID|56350|M|40.26,55.23|CHAT|N|Ask Jaina to show you the area.|
@@ -156,75 +162,140 @@ C Elemental Fury|QID|39335|M|48.51,52.85|US|N|Finish pacifying the Tide Surgers.
 T Elemental Fury|QID|55362|M|43.54,49.72|N|To Farseer Ori.|
 T Rescue The Farseer|QID|55363|M|39.67,46.55;39.37,53.46|CC|N|To Bladesman Inowari.|;WQs Unlocked
 A A Tempered Blade|QID|56156|M|39.37,53.46|N|From Bladesman Inowari.|
-C A Tempered Blade|QID|56156|M|39.37,53.46|QO|1|S!US|Kill Naga forces.|; (no fair, Horde has to kill 25...)
-; editted thru here - Emmaleah
+C A Tempered Blade|QID|56156|M|39.37,53.46|QO|2|S!US|N|Kill Naga forces.|; (no fair, Horde has to kill 25...)
 C A Tempered Blade|QID|56156|M|37.64,36.02|QO|2|N|Return to Mezzamere|
 T A Tempered Blade|QID|56156|M|39.51,53.38|N|To Bladesman Inowari.|
-A WANTED: Braxicus|QID|55777|M|39.13,54.20|N|From Bladesman Inowari.|
+
+A A Worthy Ally|QID|57040|M|39.43,35.53|N|From Deepflame Campfire.|
+C A Worthy Ally|QID|57040|M|39.43,35.53|N|Pick an ally.|
+A WANTED: Braxicus|QID|55777|M|39.13,54.20|N|From Bladesman Inowari.|O|;daily
 A Fame Waits for Gnome One|QID|57009|M|39.34,54.43|N|From Gila Crosswires.|
 A A Brief Respite|QID|54975|M|40.27,55.22|N|From Lady Jaina Proudmoore.|
+A Bounty: A Few Makrura|QID|55822|M|39.61,55.55|N|From Tamer Orami.|O|;daily
+A Bounty: Dangerous Creatures|QID|55837|M|39.61,55.55|N|From Tamer Orami.|O|;daily
 A Scrying Stones|QID|56211|M|37.92,55.81|N|From Artisan Okata.|
-A A Worthy Ally|QID|57006|M|37.92,55.81|N|From Artisan Okata.|
-A Requisition: A Few Flotsam|QID|55727|M|37.92,55.81|N|From Artisan Okata.|
-A Bounty: Elite Naga Forces|QID|55836|M|40.07,55.49|N|From Lieutenant Hawkins.|
-A Bounty: More Murlocs|QID|55828|M|39.58,55.52|N|From Tamer Orami.|
-C Scrying Stones|QID|56211|M|37.98,55.59|QO|1|N|1/1 Scrying Stone used|
+C Scrying Stones|QID|56211|M|37.98,55.59|QO|1|N|Use the Scrying Stone|U|169817|
+A Requisition: A Few Flotsam|QID|55727|M|37.92,55.81|N|From Artisan Okata.|O|;daily
+A Requisition: More Starfish|QID|55875|M|37.92,55.81|N|From Artisan Okata.|O|;daily
+A Bounty: Elite Naga Forces|QID|55836|M|40.07,55.49|N|From Lieutenant Hawkins.|O|;daily
+A Bounty: More Murlocs|QID|55828|M|39.58,55.52|N|From Tamer Orami.|O|;daily
+
+C Bounty: Dangerous Creatures|QID|55837|S!US|N|Today you have a quest for killing Rares, so keep an eye out for those stars on the minimap.|
 A Strange Silver Knife|QID|56239|M|39.78,49.28|
-C Scrying Stones|QID|56211|M|43.66,53.51|QO|2|N|3/3 Hidden Treasure discovered|
-C WANTED: Braxicus|QID|55777|M|43.63,54.03|QO|1|N|1/1 Braxicus' Giant Claw|
+C Scrying Stones|QID|56211|M|40.26,49.02;43.66,53.51;56.81,56.02|CS|QO|2|N|Use special action button at each of the marked locations to reveal another hidden treasure.|
+K Braxicus|ACTIVE|55777|M|43.63,54.03|QO|1|T|Braxicus|N|Kill Braxicus and loot his Giant Claw.|
+T Strange Silver Knife|QID|56239|M|37.85,55.71|N|To Artisan Itanu.|
+A Preserved Clues|QID|56241|M|37.85,55.71|N|From Artisan Itanu.|;MOVE THIS EARLIER
 T WANTED: Braxicus|QID|55777|M|40.08,55.49|N|To Lieutenant Hawkins.|
-T Strange Silver Knife|QID|56239|M|37.87,55.72|N|To Artisan Itanu.|
-A Preserved Clues|QID|56241|M|37.87,55.72|N|From Artisan Itanu.|
-T Scrying Stones|QID|56211|M|37.88,55.80|N|To Artisan Okata.|
-A The Lords of Water|QID|55982|M|37.73,70.05|
-C The Lords of Water|QID|55982|M|36.11,72.01|QO|1|N|1/1 Choose a Water Lord|
+
+f Wreck of the Old Blanchy|M|44.48,85.53|N|At Mandos Fogwing.|
+A The Lords of Water|QID|55982|M|37.73,70.05|O|
+C The Lords of Water|QID|55982|M|36.11,72.01|QO|1|N|Choose a Water Lord|
 C The Lords of Water|QID|55982|M|42.99,65.66|QO|2|N|Naga forces broken|
 T The Lords of Water|QID|55982|M|36.26,72.01|N|To Harpoon Cannon.|
+
 A Legacy of Nar'anan|QID|56095|M|66.41,47.42|N|From Collector Kojo.|
 A Snap Back|QID|56118|M|66.41,47.42|N|From Collector Kojo.|
-A Chomp|QID|56382|M|71.14,50.50|N|From Savage Snapdragon.|
-C Legacy of Nar'anan|QID|56095|M|71.79,50.38|QO|1|N|3/3 Memories witnessed|
-A Bert's Bots|QID|47895|M|73.64,47.86|
-T Preserved Clues|QID|56241|M|81.44,45.44|
-A Diaries of the Dead|QID|56243|M|81.44,45.44|
-C Diaries of the Dead|QID|56243|M|83.27,32.95|QO|1|N|1/1 Find another journal in the city ruins.|
-C Diaries of the Dead|QID|56243|M|81.25,40.06|QO|2|N|1/1 Continue searching the city ruins.|
-T Diaries of the Dead|QID|56243|M|78.88,41.19|
-A Enchanted Lock|QID|56246|M|78.88,41.19|
-C Enchanted Lock|QID|56246|M|78.90,41.24|QO|1|N|1/1 Match 3 purple runes to unlock the lock|
-T Enchanted Lock|QID|56246|M|78.90,41.24|
-A Treasure Tale|QID|56247|M|78.90,41.24|
-A Proudmoore Admiralty|QID|50599|M|78.62,41.26|
-T Legacy of Nar'anan|QID|56095|M|66.43,47.23|N|To Collector Kojo.|
-C Snap Back|QID|56118|M|69.88,49.97|QO|2|N|10/10 Snapdragons slain|
-C Snap Back|QID|56118|M|69.57,49.73|QO|1|N|3/3 Scroll of Bursting Power tested|
+A Chomp|QID|56382|M|71.14,50.50|N|From Savage Snapdragon.|O|
+C Snap Back|QID|56118|M|69.57,49.73|S|U|168947|N|Kill snapdragons. use the Scroll of Bursting Power on the Elite Terrormay Snapdragons before you agro them.|
+C Legacy of Nar'anan|QID|56095|M|67.45,47.14;70.66,50.85;71.87,50.47|CS|N|Click on the pylons to witness the memories.|
+C Snap Back|QID|56118|M|69.57,49.73|US|U|168947|N|Finish killing snapdragons.|
 T Snap Back|QID|56118|M|66.50,47.46|N|To Collector Kojo.|
+T Legacy of Nar'anan|QID|56095|M|66.50,47.46|N|To Collector Kojo.|
 A The Fate of Professor Elryna|QID|56143|M|66.50,47.46|N|From Collector Kojo.|
-C The Fate of Professor Elryna|QID|56143|M|68.72,50.26|QO|1|N|1/1 Snapdragon Matriarch slain|
-C The Fate of Professor Elryna|QID|56143|M|68.32,50.65|QO|2|N|1/1 Memory Core|
-C The Fate of Professor Elryna|QID|56143|M|66.46,47.40|QO|3|N|1/1 Fate of Professor Elryna witnessed|
+C The Fate of Professor Elryna|QID|56143|M|68.72,50.26|QO|1|N|Kill the Snapdragon Matriarch.|
+C The Fate of Professor Elryna|QID|56143|M|68.32,50.65|QO|2|NC|N|Pick up the Memory Core.|
+C The Fate of Professor Elryna|QID|56143|M|66.46,47.40|QO|3|NC|N|Witness the fate of Professor Elryna.|
 T The Fate of Professor Elryna|QID|56143|M|66.46,47.40|N|To Collector Kojo.|
-A The High Life|QID|56304|M|74.14,24.96|N|From Kelya Moonfall.|
-C The High Life|QID|56304|M|77.97,26.35|QO|1|N|1/1 Bakery investigated|
-C The High Life|QID|56304|M|77.29,30.03|QO|2|N|1/1 Inn investigated|
-C The High Life|QID|56304|M|79.46,30.65|QO|3|N|1/1 Gardens investigated|
-T The High Life|QID|56304|M|80.12,31.48|N|To Kelya Moonfall.|
-A Saving Corin|QID|56321|M|80.12,31.48|N|From Kelya Moonfall.|
-C Saving Corin|QID|56321|M|80.73,32.09|QO|1|N|1/1 Corin Moonfall rescued|
-T Saving Corin|QID|56321|M|80.25,31.88|N|To Kelya Moonfall.|
-A On Ghostly Wings|QID|56422|M|80.25,31.88|N|From Kelya Moonfall.|
-T On Ghostly Wings|QID|56422|M|74.16,25.02|N|To Kelya Moonfall.|
-f Zin-Azshari|QID|56422|M|74.16,25.02|N|At Kelya Moonfall.|
-T Treasure Tale|QID|56247|M|37.86,55.69|N|To Artisan Itanu.|
-A Leylocked Chest|QID|56024|M|75.74,24.41|N|From Vengeful Highborne.|
-C Leylocked Chest|QID|56024|M|75.32,24.53|QO|1|N|1/1 Uncross the ley lines to unlock the chest|
-T Leylocked Chest|QID|56024|M|75.32,24.53|
-A Jumping Jellies|QID|56121|M|65.03,29.78|N|From Hunter Akana.|
+f Orise's Vigil|ACTIVE|56241|M|74.08,40.03|N|From Orise.|
+
+A Relics of the Sundering|QID|55659|M|78.84,42.44|N|From Shirelle McFadden.|PRE|55404|;follower quest
+C Relics of the Sundering|QID|55659|M|78.84,42.44|NC|N|Pick up the relics in the area.|
+
+A City of the Drowned Friends|QID|56309|M|76.26,45.56|N|From Shandris Feathermoon.|
+C City of the Drowned Friends|QID|56309|M|75.93,48.33|N|Weeping Sanya inside op the stairs.|
+C City of the Drowned Friends|QID|56309|M|73.67,43.77|NC|N|Swiftfinger Tynala.|
+C City of the Drowned Friends|QID|56309|M|71.57,41.91|NC|N|Merchant Renrotta.|
+T City of the Drowned Friends|QID|56309|M|73.98,41.76|N|To Shandris Feathermoon.|
+A The Ever Drowning|QID|56311|M|73.98,41.76|N|From Shandris Feathermoon.|
+C The Ever Drowning|QID|56311|M|73.98,41.76|QO|1|CHAT|N|Mount up and tell her you are ready. Stay with her as she runs.|
+C The Ever Drowning|QID|56311|M|79.78,44.94|QO|2|NC|N|Stay right beside her so you are in her bubble when she casts it (3 times).|
+T The Ever Drowning|QID|56311|M|79.78,44.94|N|To Shandris Feathermoon.|
+A The Warbringer|QID|56313|M|79.78,44.94|N|From Shandris Feathermoon.|
+C The Warbringer|QID|56313|M|80.39,45.10|CHAT|N|Click on Shandris.|
+T The Warbringer|QID|56313|M|79.78,44.94|N|To Shandris Feathermoon.|
+A They Made Their Choice|QID|56315|M|79.78,44.94|N|To Shandris Feathermoon.|
+C They Made Their Choice|QID|56315|M|79.78,44.94|QO|1|N|Attack Shivana.|
+C They Made Their Choice|QID|56315|M|80.39,45.10|QO|2|CHAT|N|Talk to Janius.|
+T They Made Their Choice|QID|56315|M|79.78,44.94|N|To Shandris Feathermoon.|
+A A Curious Discovery|QID|56561|M|32.72,39.62|N|Strange Crystal.|
+
+A A Safer Place|QID|55983|M|48.23,45.29|N|From Mrrl.|
+A Bert's Bots|QID|47895|M|73.64,47.86|O|
+T Preserved Clues|QID|56241|M|81.44,45.44|N|To Journal on the ground.|
+A Diaries of the Dead|QID|56243|M|81.44,45.44|N|From same journal.|
+C Diaries of the Dead|QID|56243|M|83.27,32.95|QO|1|NC|N|Find another journal in the city ruins.|
+C Diaries of the Dead|QID|56243|M|81.25,40.06|QO|2|NC|N|Continue searching the city ruins. This one is upstairs in a long hallway.|
+T Diaries of the Dead|QID|56243|M|78.88,41.19|N|To backpack.|
+A Enchanted Lock|QID|56246|M|78.88,41.19|N|From Backpack.|
+C Enchanted Lock|QID|56246|M|78.90,41.24|QO|1|N|Click on the item to open a puzzle and then Match 3 purple runes to unlock the lock.|
+T Enchanted Lock|QID|56246|M|78.90,41.24|N|To Backpack.|
+A Treasure Tale|QID|56247|M|78.90,41.24|N|From Backpack.|
+
+A Jumping Jellies|QID|56121|M|65.03,29.78|N|From Hunter Akana.|O|
 T Jumping Jellies|QID|56121|M|61.29,28.72|
-A Runelocked Chest|QID|56013|M|45.18,29.84|
+C Legacy of the Mad Mage|QID|57086|M|60.31,33.60|NC|N|Arcano Crystal placed.|
+C Legacy of the Mad Mage|QID|57086|M|59.84,33.91|NC|N|press button.|
+K Watery Amalgamation|ACTIVE|57086|QO|3|M|59.73,34.52|T|Watery Amalgamation.|N|Kill Watery Amalgamation.|
+T Legacy of the Mad Mage|QID|57086|M|60.49,33.56|N|To Arcane Chest.|
+A The Laboratory of Mardivas|QID|55121|M|60.63,33.29|N|From Mardiva's Tome.|
+C The Laboratory of Mardivas|QID|55121|M|59.84,33.91|QO|1|N|Press button.|
+K Arcane Amalgamation|ACTIVE|55121|QO|2|M|59.73,34.52|T|Arcane Amalgamation|N|Kill arcane amalgamation.|
+T The Laboratory of Mardivas|QID|55121|M|60.63,33.29|N|From Mardiva's Tome.|
+f Utama's Stand|ACTIVE|56561|M|61.67,36.50|N|At Hiramo.|
+C Bounty: A Few Makrura|QID|55822|M|62.46,38.97|N|Kill Makrura in the area.|
+
+C Leylocked Chest|QID|56023|M|67.05,35.71|NC|N|Click on the Arcane Devide to open a puzzle. Uncross the ley lines (they will turn lighter color when uncrossed) to unlock the chest.|;WQ
+C Leylocked Chest|QID|56024|M|75.32,24.53|NC|N|Click on the Arcane Devide to open a puzzle. Uncross the ley lines (they will turn lighter color when uncrossed) to unlock the chest.|;WQ
+
+A The High Life|QID|56304|M|74.16,24.91|N|From Kelya Moonfall.|
+C The High Life|QID|56304|M|77.94,26.36|QO|1|N|Click on the Ruined Mixing Stand to spawn Varal Pansong and kill him to investigate the bakery.|
+C The High Life|QID|56304|M|77.29,30.02|QO|2|N|Click on Corin's mug to spawn Eranor Birtris and kill to investigate the inn.|
+C The High Life|QID|56304|M|79.47,30.15|QO|3|N|Stand in the Garden to get credit for investigating.|
+T The High Life|QID|56304|M|79.47,30.15|N|To Kelya Moonfall.|
+A Saving Corin|QID|56321|M|80.09,31.44|N|From Kelya Moonfall.|
+C Saving Corin|QID|56321|M|80.73,32.09|T|Shadowcaster Vixtris|N|Kill Shadowcaster Vixtris.|
+T Saving Corin|QID|56321|M|80.22,31.88|N|To Kelya Moonfall.|
+A On Ghostly Wings|QID|56422|M|80.22,31.88|N|From Kelya Moonfall.|
+T On Ghostly Wings|QID|56422|M|74.16,24.91|N|To Kelya Moonfall.|
+f Zin-Azshari|QID|56422|M|74.16,25.02|N|At Kelya Moonfall.|
+
 f Ashen Strand|QID|56013|M|31.92,38.13|N|At Azuku.|
-A A Curious Discovery|QID|56561|M|32.72,39.62|N|From Azuku.|
+A Turn the Scale|QID|56152|M|31.28,37.56|N|From Tracker Akatani.|PRE|55404|
+C Turn the Scale|QID|56152|M|31.42,40.92|N|Kill Hydras in the area to loot their scales.|
+T Turn the Scale|QID|56152|M|31.28,37.56|N|To Tracker Akatani.|
+A We've Got Crabs!|QID|56000|M|27.04,30.33;25.47,26.39|CS|N|From King Mrgl-Mrgl in an underwater cave.|PRE|55404|
+C We've Got Crabs!|QID|56000|M|28.32,31.81|NC|N|Pick up the crabs.|
+T We've Got Crabs!|QID|56000|M|27.04,30.33;25.47,26.39|CS|N|To King Mrgl-Mrgl back in the same underwater cave.|
+A Gift From The Clan|QID|56777|M|25.44,26.32|N|From Hunter Akana.|
+
+T Giant Crab Leg|QID|56273|M|39.47,53.40|N|To Bladesman Inowari.|
 T A Curious Discovery|QID|56561|M|37.94,53.21|N|To Instructor Okanu.|
+T A Safer Place|QID|55983|M|39.08,54.38|N|To Mrrl.|
+A No Backs|QID|55529|M|39.08,54.38|N|From Mrrl.|
+B Sweet Sea Vegetable|QID|55529|M|38.68,54.48|QO|1|N|Buy Sweet Sea Vegetable from Hurlgrl.|
+B Slimy Naga Eyeball|QID|55529|M|38.51,53.90|QO|4|N|Buy the Slimy Naga Eyeball from Mrrglrrl who is running around in circles past this spot.|
+B Flatulent Fish|QID|55529|M|37.49,53.44|QO|3|N|Buy the Flatulent Fish from Grrrmrlg.|
+T A Gift From The Clan|QID|56777|M|38.00,55.75|N|To Speaker Utia.|
+T Bounty: Dangerous Creatures|QID|55837|M|38.00,55.75|N|To Speaker Utia.|
+T Bounty: A Few Makrura|QID|55822|M|38.00,55.75|N|To Speaker Utia.|
+T Requisition: More Starfish|QID|55785|M|38.00,55.75|N|To Speaker Utia.|
+T Scrying Stones|QID|56211|M|37.89,55.84|N|To Artisan Okata.|
+T A Worthy Ally|QID|57006|M|37.89,55.84|N|To Artisan Okata.|
+T What Will It Mine|QID|55531|M|37.89,55.84|N|To Artisan Okata.|
+T Treasure Tale|QID|56247|M|37.86,55.69|N|To Artisan Itanu.|
+B Unidentified Mass|QID|55529|M|39.97,53.42|QO|2|N|Buy an Unidentified Mass from Flgrrl.|
+T No Backs|QID|55529|M|39.10,54.32|N|To Mrrl.|
 
 ]]
 
