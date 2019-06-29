@@ -631,17 +631,21 @@ end
 
 function WoWPro:RemoveMapPoint()
     LastMapPoint = nil
-	if TomTom and TomTom.db then
+	if TomTom and not Nx then
 		for i=1,#cache,1 do
 		    if cache[i].uid ~= nil then
-		        WoWPro:print("WoWPro:RemoveMapPoint(%d:%.2f,%.2f@%s=%s)",i,cache[i].x,cache[i].y,tostring(cache[i].zone),tostring(cache[i].map))
+		        WoWPro:print("WoWPro:RemoveMapPoint TomTom(%d:%.2f,%.2f@%s=%s)",i,cache[i].x,cache[i].y,tostring(cache[i].zone),tostring(cache[i].map))
 			    TomTom:RemoveWaypoint(cache[i].uid)
 			end
 		end
 		wipe(cache)
 		wipe(WoWProMapping_callbacks_tomtom.distance)
-	elseif TomTom then
-		while cache[1] do TomTom:RemoveWaypoint(table.remove(cache)) end
+	elseif Nx then
+		while cache[1] do
+		    local catch = table.remove(cache)
+		    WoWPro:print("WoWPro:RemoveMapPoint Nx(%d:%.2f,%.2f@%s=%s)",i,catch.x,catch.y,tostring(catch.zone),tostring(catch.map))
+		    Nx:TTRemoveWaypoint(catch.uid)
+		end
 	end
 end
 
