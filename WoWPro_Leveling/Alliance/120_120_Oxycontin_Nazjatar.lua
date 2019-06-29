@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_alliance
+-- Date: 2019-06-29 12:26
+-- Who: Ludovicus_Maior
+-- Log: Z update for Chamber of Heart!Dungeon1021|
+
+-- URL: http://wow-pro.com/node/3790/revisions/30279/view
 -- Date: 2019-06-29 04:52
 -- Who: Emmaleah
 -- Log: Add Footer
@@ -98,12 +103,12 @@ A Essential Empowerment|QID|55851|M|40.02,55.13|N|From Magni Bronzebeard.|
 P Boralus|QID|55851|Z|Boralus|M|40.02,55.13|N|Take the portal to Boralus (or otherwise travel to Silithus).|
 P Silithus|QID|55851|ACTIVE|55851|M|69.63,15.92|Z|Boralus|N|Take the portal to Silithus.|
 P Chamber of Heart|QID|55851|ACTIVE|55851|M|43.20,44.54|Z|Silithus|N|Take the portal to Chamber of Heart.|
-T Essential Empowerment|QID|55851|M|50.13,59.19|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
-A MOTHER Knows Best|QID|55533|M|50.13,59.19|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|
-C MOTHER Knows Best|QID|55533|M|47.97,70.83|Z|Chamber of Heart!Dungeon|CHAT|N|Speak to MOTHER.|
-T MOTHER Knows Best|QID|55533|M|47.97,70.83|Z|Chamber of Heart!Dungeon|N|To MOTHER.|
-A A Disturbance Beneath the Earth|QID|55374|M|47.97,70.83|Z|Chamber of Heart!Dungeon|N|From MOTHER.|
-C A Disturbance Beneath the Earth|QID|55374|M|48.09,71.32|Z|Chamber of Heart!Dungeon|QO|1|CHAT|N|Speak to MOTHER to travel to Highmountain (Optional).|
+T Essential Empowerment|QID|55851|M|50.13,59.19|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
+A MOTHER Knows Best|QID|55533|M|50.13,59.19|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|
+C MOTHER Knows Best|QID|55533|M|47.97,70.83|Z|Chamber of Heart!Dungeon1021|CHAT|N|Speak to MOTHER.|
+T MOTHER Knows Best|QID|55533|M|47.97,70.83|Z|Chamber of Heart!Dungeon1021|N|To MOTHER.|
+A A Disturbance Beneath the Earth|QID|55374|M|47.97,70.83|Z|Chamber of Heart!Dungeon1021|N|From MOTHER.|
+C A Disturbance Beneath the Earth|QID|55374|M|48.09,71.32|Z|Chamber of Heart!Dungeon1021|QO|1|CHAT|N|Speak to MOTHER to travel to Highmountain (Optional).|
 C A Disturbance Beneath the Earth|QID|55374|M|49.54,68.35|Z|Highmountain|QO|2|CHAT|N|Talk to Spiritwalker Ebenhorn to investigate the location.|
 T A Disturbance Beneath the Earth|QID|55374|M|49.54,68.35|Z|Highmountain|N|To Spiritwalker Ebonhorn.|
 A Take My Hand|QID|55400|M|49.54,68.35|Z|Highmountain|N|From Spiritwalker Ebonhorn.|
@@ -119,17 +124,17 @@ C Dominating the Indomitable|QID|55425|M|18.76,57.70|Z|The Dragon's Spine!Instan
 T Dominating the Indomitable|QID|55425|M|18.76,57.70|Z|The Dragon's Spine!Instance|N|To Spiritwalker Ebonhorn.|
 A A Friendly Face|QID|55497|M|18.76,57.70|Z|The Dragon's Spine!Instance|N|From Spiritwalker Ebonhorn.|
 H A Friendly Face|QID|55497|ACTIVE|55497|N|Assuming your hearthstone is set to Boralus, you can take a shortcut back, then the portal to Silithus.|
-C A Friendly Face|QID|55497|M|48.17,38.97|Z|Chamber of Heart!Dungeon|QO|2|CHAT|N|Say hi to Spiritwalker Ebonhorn.|
-T A Friendly Face|QID|55497|M|50.13,59.15|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
-A The Heart Forge|QID|55618|M|48.12,71.14|Z|Chamber of Heart!Dungeon|N|From MOTHER.|
-C The Heart Forge|QID|55618|M|47.93,72.49|Z|Chamber of Heart!Dungeon|QO|1|CHAT|N|Speak with MOTHER.|
-C The Heart Forge|QID|55618|M|50.28,65.43|Z|Chamber of Heart!Dungeon|QO|2|NC|N|Wait while Mother activates the  Heart Forge.|
-T The Heart Forge|QID|55618|M|48.39,71.26|Z|Chamber of Heart!Dungeon|N|To MOTHER.|
-A Harnessing the Power|QID|57010|M|48.39,71.26|Z|Chamber of Heart!Dungeon|N|From MOTHER.|
-C Harnessing the Power|QID|57010|M|50.24,65.43|Z|Chamber of Heart!Dungeon|QO|1|U|168611|NC|N|Activate the Petrified Ebony Scale.|
-C Harnessing the Power|QID|57010|M|50.24,65.43|Z|Chamber of Heart!Dungeon|QO|2|NC|N|Click on the top item in the UI to infuse the Essence into Heart of Azeroth.|
-T Harnessing the Power|QID|57010|M|50.10,59.30|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
-A Back Out to Sea|QID|56162|M|50.10,50.30|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|
+C A Friendly Face|QID|55497|M|48.17,38.97|Z|Chamber of Heart!Dungeon1021|QO|2|CHAT|N|Say hi to Spiritwalker Ebonhorn.|
+T A Friendly Face|QID|55497|M|50.13,59.15|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
+A The Heart Forge|QID|55618|M|48.12,71.14|Z|Chamber of Heart!Dungeon1021|N|From MOTHER.|
+C The Heart Forge|QID|55618|M|47.93,72.49|Z|Chamber of Heart!Dungeon1021|QO|1|CHAT|N|Speak with MOTHER.|
+C The Heart Forge|QID|55618|M|50.28,65.43|Z|Chamber of Heart!Dungeon1021|QO|2|NC|N|Wait while Mother activates the  Heart Forge.|
+T The Heart Forge|QID|55618|M|48.39,71.26|Z|Chamber of Heart!Dungeon1021|N|To MOTHER.|
+A Harnessing the Power|QID|57010|M|48.39,71.26|Z|Chamber of Heart!Dungeon1021|N|From MOTHER.|
+C Harnessing the Power|QID|57010|M|50.24,65.43|Z|Chamber of Heart!Dungeon1021|QO|1|U|168611|NC|N|Activate the Petrified Ebony Scale.|
+C Harnessing the Power|QID|57010|M|50.24,65.43|Z|Chamber of Heart!Dungeon1021|QO|2|NC|N|Click on the top item in the UI to infuse the Essence into Heart of Azeroth.|
+T Harnessing the Power|QID|57010|M|50.10,59.30|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
+A Back Out to Sea|QID|56162|M|50.10,50.30|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|
 T Back Out to Sea|QID|56162|M|40.29,55.22|N|To Lady Jaina Proudmoore. You know have a Nazjatar portal in the Boralus portal room.|
 A Scouting the Palace|QID|56350|M|40.29,55.22|N|From Lady Jaina Proudmoore.|
 C Scouting the Palace|QID|56350|M|40.26,55.23|CHAT|N|Ask Jaina to show you the area.|
