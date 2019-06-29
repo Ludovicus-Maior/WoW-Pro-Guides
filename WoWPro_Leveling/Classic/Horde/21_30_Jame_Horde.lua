@@ -393,11 +393,11 @@ T Satyr Horns|QID|6441|M|73.10,61.50|Z|Ashenvale|
 R Undercity|QID|529|Z|Hillsbrad Foothills|N|Take the Zepplin to Tirisfal then run to Undercity|
 
 F Sepulchur|QID|63|C|Shaman|M|63.30,48.40|Z|Undercity|
-C Call of Water (Part 7)|QID|63|C|Shaman|U|7811|M|38.80,44.20|Z|Hillsbrad Foothills|N|Run here to 38,44 - its on the coast behind the Sepulchur. Use the water sapta. Kill the attackable elemental, then turn in the quest to the brazier.|
-T Call of Water (Part 7)|QID|63|C|Shaman|M|38.30,44.60|Z|Hillsbrad Foothills|
-A Call of Water (Part 8)|QID|100|C|Shaman|M|38.30,44.60|Z|Hillsbrad Foothills|
-T Call of Water (Part 8)|QID|100|C|Shaman|M|38.80,44.60|Z|Hillsbrad Foothills|
-A Call of Water (Part 9)|QID|96|C|Shaman|M|38.80,44.60|Z|Hillsbrad Foothills|
+C Call of Water (Part 7)|QID|63|C|Shaman|U|7811|M|38.80,44.20|Z|Silverpine Forest|N|Run here to 38,44 - its on the coast behind the Sepulchur. Use the water sapta. Kill the attackable elemental, then turn in the quest to the brazier.|
+T Call of Water (Part 7)|QID|63|C|Shaman|M|38.30,44.60|Z|Silverpine Forest|
+A Call of Water (Part 8)|QID|100|C|Shaman|M|38.30,44.60|Z|Silverpine Forest|
+T Call of Water (Part 8)|QID|100|C|Shaman|M|38.80,44.60|Z|Silverpine Forest|
+A Call of Water (Part 9)|QID|96|C|Shaman|M|38.80,44.60|Z|Silverpine Forest|
 R Sepulchur|QID|96|C|Shaman|M|45.60,42.50|Z|Silverpine Forest|
 F Tarren Mill|QID|96|C|Shaman|M|45.60,42.50|Z|Silverpine Forest|
 
