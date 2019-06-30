@@ -489,7 +489,7 @@ function WoWPro:MapPoint(row)
 	    if zone and zm then
             WoWPro:dbp("MapPoint: zone [%s] mapped to %d", zone, zm)
         else
-            WoWPro:dbp("MapPoint: could not map zone [%s]", zone)
+            WoWPro:dbp("MapPoint: could not map zone [%s]", tostring(zone))
         end
     end
 
