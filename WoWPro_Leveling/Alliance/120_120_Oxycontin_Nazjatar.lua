@@ -4,6 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_alliance
+-- Date: 2019-06-30 11:04
+-- Who: Emmaleah
+-- Log: Fixes per today's bug reports on Discord. 
+
+-- URL: http://wow-pro.com/node/3790/revisions/30292/view
+-- Date: 2019-06-29 21:40
+-- Who: spoony
+-- Log: Moved a quest up a step as closer to previous step
+
+-- URL: http://wow-pro.com/node/3790/revisions/30291/view
+-- Date: 2019-06-29 20:18
+-- Who: spoony
+
+-- URL: http://wow-pro.com/node/3790/revisions/30286/view
 -- Date: 2019-06-29 14:37
 -- Who: Emmaleah
 -- Log: Play thru. Added some, but many dailies/WQs not there.
@@ -65,7 +79,6 @@ WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ACH",13553)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 N Draft!|ACTIVE|55851|N|This guide is under construction.  We apologize for any missing quests, fires, or other hazards.|
 
 A The Wolf's Offensive|QID|56031|N|Auto accept on login after 8.2|
@@ -166,8 +179,8 @@ C A Tempered Blade|QID|56156|M|39.37,53.46|QO|2|S!US|N|Kill Naga forces.|; (no f
 C A Tempered Blade|QID|56156|M|37.64,36.02|QO|2|N|Return to Mezzamere|
 T A Tempered Blade|QID|56156|M|39.51,53.38|N|To Bladesman Inowari.|
 
-A A Worthy Ally|QID|57040|M|39.43,35.53|N|From Deepflame Campfire.|
-C A Worthy Ally|QID|57040|M|39.43,35.53|N|Pick an ally.|
+A A Worthy Ally|QID|57006|M|39.43,35.53|N|From Deepflame Campfire.|
+C A Worthy Ally|QID|57006|M|39.43,35.53|N|Pick an ally.|
 A WANTED: Braxicus|QID|55777|M|39.13,54.20|N|From Bladesman Inowari.|O|;daily
 A Fame Waits for Gnome One|QID|57009|M|39.34,54.43|N|From Gila Crosswires.|
 A A Brief Respite|QID|54975|M|40.27,55.22|N|From Lady Jaina Proudmoore.|
@@ -185,7 +198,7 @@ A Strange Silver Knife|QID|56239|M|39.78,49.28|
 C Scrying Stones|QID|56211|M|40.26,49.02;43.66,53.51;56.81,56.02|CS|QO|2|N|Use special action button at each of the marked locations to reveal another hidden treasure.|
 K Braxicus|ACTIVE|55777|M|43.63,54.03|QO|1|T|Braxicus|N|Kill Braxicus and loot his Giant Claw.|
 T Strange Silver Knife|QID|56239|M|37.85,55.71|N|To Artisan Itanu.|
-A Preserved Clues|QID|56241|M|37.85,55.71|N|From Artisan Itanu.|;MOVE THIS EARLIER
+A Preserved Clues|QID|56241|M|37.85,55.71|N|From Artisan Itanu.|PRE|56239|
 T WANTED: Braxicus|QID|55777|M|40.08,55.49|N|To Lieutenant Hawkins.|
 
 f Wreck of the Old Blanchy|M|44.48,85.53|N|At Mandos Fogwing.|
@@ -209,13 +222,13 @@ C The Fate of Professor Elryna|QID|56143|M|66.46,47.40|QO|3|NC|N|Witness the fat
 T The Fate of Professor Elryna|QID|56143|M|66.46,47.40|N|To Collector Kojo.|
 f Orise's Vigil|ACTIVE|56241|M|74.08,40.03|N|From Orise.|
 
-A Relics of the Sundering|QID|55659|M|78.84,42.44|N|From Shirelle McFadden.|PRE|55404|;follower quest
+A Relics of the Sundering|QID|55659|M|78.84,42.44|N|From Shirelle McFadden.|PRE|57040|;follower quest
 C Relics of the Sundering|QID|55659|M|78.84,42.44|NC|N|Pick up the relics in the area.|
 
 A City of the Drowned Friends|QID|56309|M|76.26,45.56|N|From Shandris Feathermoon.|
-C City of the Drowned Friends|QID|56309|M|75.93,48.33|N|Weeping Sanya inside op the stairs.|
-C City of the Drowned Friends|QID|56309|M|73.67,43.77|NC|N|Swiftfinger Tynala.|
-C City of the Drowned Friends|QID|56309|M|71.57,41.91|NC|N|Merchant Renrotta.|
+C City of the Drowned Friends|QID|56309|M|75.93,48.33|QO|1|T|Weeping Sanya|N|Weeping Sanya inside op the stairs.|
+C City of the Drowned Friends|QID|56309|M|73.67,43.77|Q0|2|NC|N|Swiftfinger Tynala.|
+C City of the Drowned Friends|QID|56309|M|71.57,41.91|QO|3|T|Merchant Renrotta|N|Find and Kill Merchant Renrotta.|
 T City of the Drowned Friends|QID|56309|M|73.98,41.76|N|To Shandris Feathermoon.|
 A The Ever Drowning|QID|56311|M|73.98,41.76|N|From Shandris Feathermoon.|
 C The Ever Drowning|QID|56311|M|73.98,41.76|QO|1|CHAT|N|Mount up and tell her you are ready. Stay with her as she runs.|
@@ -227,28 +240,40 @@ T The Warbringer|QID|56313|M|79.78,44.94|N|To Shandris Feathermoon.|
 A They Made Their Choice|QID|56315|M|79.78,44.94|N|To Shandris Feathermoon.|
 C They Made Their Choice|QID|56315|M|79.78,44.94|QO|1|N|Attack Shivana.|
 C They Made Their Choice|QID|56315|M|80.39,45.10|QO|2|CHAT|N|Talk to Janius.|
-T They Made Their Choice|QID|56315|M|79.78,44.94|N|To Shandris Feathermoon.|
+T They Made Their Choice|QID|56315|M|79.78,44.94|N|To Shandris Feathermoon.|;unlocks flightmaster's whistle
 A A Curious Discovery|QID|56561|M|32.72,39.62|N|Strange Crystal.|
 
 A A Safer Place|QID|55983|M|48.23,45.29|N|From Mrrl.|
 A Bert's Bots|QID|47895|M|73.64,47.86|O|
-T Preserved Clues|QID|56241|M|81.44,45.44|N|To Journal on the ground.|
-A Diaries of the Dead|QID|56243|M|81.44,45.44|N|From same journal.|
+T Preserved Clues|QID|56241|M|81.44,45.44|N|To Preserved Journal on the ground.|
+A Diaries of the Dead|QID|56243|M|81.44,45.44|N|From same journal.|PRE|56241|
 C Diaries of the Dead|QID|56243|M|83.27,32.95|QO|1|NC|N|Find another journal in the city ruins.|
 C Diaries of the Dead|QID|56243|M|81.25,40.06|QO|2|NC|N|Continue searching the city ruins. This one is upstairs in a long hallway.|
-T Diaries of the Dead|QID|56243|M|78.88,41.19|N|To backpack.|
-A Enchanted Lock|QID|56246|M|78.88,41.19|N|From Backpack.|
-C Enchanted Lock|QID|56246|M|78.90,41.24|QO|1|N|Click on the item to open a puzzle and then Match 3 purple runes to unlock the lock.|
-T Enchanted Lock|QID|56246|M|78.90,41.24|N|To Backpack.|
-A Treasure Tale|QID|56247|M|78.90,41.24|N|From Backpack.|
+T Diaries of the Dead|QID|56243|M|78.88,41.19|N|To Enchanted Lock.|
+A Enchanted Lock|QID|56246|M|78.88,41.19|N|From Enchanted Lock.|PRE|56243|
+C Enchanted Lock|QID|56246|M|78.90,41.24|QO|1|N|Click on the Arcane Device to open a puzzle and then Match 3 purple runes to unlock the lock.|
+T Enchanted Lock|QID|56246|M|78.90,41.24|N|To Enchanted Lock.|
+A Treasure Tale|QID|56247|M|78.90,41.24|N|From Enchanted Lock.|PRE|56246|
+F Mezzamere|ACTIVE|56247|M|78.90,41.24|N|Step out side and use your newly activated Flightmaster's Whistle and then fly back to Mezzamere.|
+T A Curious Discovery|QID|56561|M|37.94,53.21|N|To Instructor Okanu.|
+T A Safer Place|QID|55983|M|39.08,54.38|N|To Mrrl.|
+A No Backs|QID|55529|M|39.08,54.38|N|From Mrrl.|
+B Sweet Sea Vegetable|QID|55529|M|38.68,54.48|QO|1|N|Buy Sweet Sea Vegetable from Hurlgrl.|
+B Slimy Naga Eyeball|QID|55529|M|38.51,53.90|QO|4|N|Buy the Slimy Naga Eyeball from Mrrglrrl who is running around in circles past this spot.|
+B Flatulent Fish|QID|55529|M|37.49,53.44|QO|3|N|Buy the Flatulent Fish from Grrrmrlg.|
+T Treasure Tale|QID|56247|M|37.86,55.69|N|To Artisan Itanu.|
+B Unidentified Mass|QID|55529|M|39.97,53.42|QO|2|N|Buy an Unidentified Mass from Flgrrl.|
+T No Backs|QID|55529|M|39.10,54.32|N|To Mrrl.|
+F Elun'alor Temple|M|39.93,54.12|N|At Ray Tamer Enaka.|
 
 A Jumping Jellies|QID|56121|M|65.03,29.78|N|From Hunter Akana.|O|
 T Jumping Jellies|QID|56121|M|61.29,28.72|
+A Legacy of the Mad Mage|QID|57086|N|From Dropped Lesser Benthic Arcanocrystal.|O|PRE|56247|
 C Legacy of the Mad Mage|QID|57086|M|60.31,33.60|NC|N|Arcano Crystal placed.|
 C Legacy of the Mad Mage|QID|57086|M|59.84,33.91|NC|N|press button.|
 K Watery Amalgamation|ACTIVE|57086|QO|3|M|59.73,34.52|T|Watery Amalgamation.|N|Kill Watery Amalgamation.|
-T Legacy of the Mad Mage|QID|57086|M|60.49,33.56|N|To Arcane Chest.|
-A The Laboratory of Mardivas|QID|55121|M|60.63,33.29|N|From Mardiva's Tome.|
+T Legacy of the Mad Mage|QID|57086|M|60.49,33.56|N|To Arcane Cache.|
+A The Laboratory of Mardivas|QID|55121|M|60.63,33.29|N|From Mardiva's Tome.|PRE|57086|
 C The Laboratory of Mardivas|QID|55121|M|59.84,33.91|QO|1|N|Press button.|
 K Arcane Amalgamation|ACTIVE|55121|QO|2|M|59.73,34.52|T|Arcane Amalgamation|N|Kill arcane amalgamation.|
 T The Laboratory of Mardivas|QID|55121|M|60.63,33.29|N|From Mardiva's Tome.|
@@ -257,6 +282,7 @@ C Bounty: A Few Makrura|QID|55822|M|62.46,38.97|N|Kill Makrura in the area.|
 
 C Leylocked Chest|QID|56023|M|67.05,35.71|NC|N|Click on the Arcane Devide to open a puzzle. Uncross the ley lines (they will turn lighter color when uncrossed) to unlock the chest.|;WQ
 C Leylocked Chest|QID|56024|M|75.32,24.53|NC|N|Click on the Arcane Devide to open a puzzle. Uncross the ley lines (they will turn lighter color when uncrossed) to unlock the chest.|;WQ
+R Shirakess Repository|ACH|13712;12|M|59.33,14.48|N|Run out to Shirakess Repository to get the explore credit.|
 
 A The High Life|QID|56304|M|74.16,24.91|N|From Kelya Moonfall.|
 C The High Life|QID|56304|M|77.94,26.36|QO|1|N|Click on the Ruined Mixing Stand to spawn Varal Pansong and kill him to investigate the bakery.|
@@ -271,21 +297,15 @@ T On Ghostly Wings|QID|56422|M|74.16,24.91|N|To Kelya Moonfall.|
 f Zin-Azshari|QID|56422|M|74.16,25.02|N|At Kelya Moonfall.|
 
 f Ashen Strand|QID|56013|M|31.92,38.13|N|At Azuku.|
-A Turn the Scale|QID|56152|M|31.28,37.56|N|From Tracker Akatani.|PRE|55404|
+A Turn the Scale|QID|56152|M|31.28,37.56|N|From Tracker Akatani.|PRE|57040|
 C Turn the Scale|QID|56152|M|31.42,40.92|N|Kill Hydras in the area to loot their scales.|
 T Turn the Scale|QID|56152|M|31.28,37.56|N|To Tracker Akatani.|
-A We've Got Crabs!|QID|56000|M|27.04,30.33;25.47,26.39|CS|N|From King Mrgl-Mrgl in an underwater cave.|PRE|55404|
+A We've Got Crabs!|QID|56000|M|27.04,30.33;25.47,26.39|CS|N|From King Mrgl-Mrgl in an underwater cave.|PRE|57040|
 C We've Got Crabs!|QID|56000|M|28.32,31.81|NC|N|Pick up the crabs.|
 T We've Got Crabs!|QID|56000|M|27.04,30.33;25.47,26.39|CS|N|To King Mrgl-Mrgl back in the same underwater cave.|
 A Gift From The Clan|QID|56777|M|25.44,26.32|N|From Hunter Akana.|
 
 T Giant Crab Leg|QID|56273|M|39.47,53.40|N|To Bladesman Inowari.|
-T A Curious Discovery|QID|56561|M|37.94,53.21|N|To Instructor Okanu.|
-T A Safer Place|QID|55983|M|39.08,54.38|N|To Mrrl.|
-A No Backs|QID|55529|M|39.08,54.38|N|From Mrrl.|
-B Sweet Sea Vegetable|QID|55529|M|38.68,54.48|QO|1|N|Buy Sweet Sea Vegetable from Hurlgrl.|
-B Slimy Naga Eyeball|QID|55529|M|38.51,53.90|QO|4|N|Buy the Slimy Naga Eyeball from Mrrglrrl who is running around in circles past this spot.|
-B Flatulent Fish|QID|55529|M|37.49,53.44|QO|3|N|Buy the Flatulent Fish from Grrrmrlg.|
 T A Gift From The Clan|QID|56777|M|38.00,55.75|N|To Speaker Utia.|
 T Bounty: Dangerous Creatures|QID|55837|M|38.00,55.75|N|To Speaker Utia.|
 T Bounty: A Few Makrura|QID|55822|M|38.00,55.75|N|To Speaker Utia.|
@@ -293,9 +313,6 @@ T Requisition: More Starfish|QID|55785|M|38.00,55.75|N|To Speaker Utia.|
 T Scrying Stones|QID|56211|M|37.89,55.84|N|To Artisan Okata.|
 T A Worthy Ally|QID|57006|M|37.89,55.84|N|To Artisan Okata.|
 T What Will It Mine|QID|55531|M|37.89,55.84|N|To Artisan Okata.|
-T Treasure Tale|QID|56247|M|37.86,55.69|N|To Artisan Itanu.|
-B Unidentified Mass|QID|55529|M|39.97,53.42|QO|2|N|Buy an Unidentified Mass from Flgrrl.|
-T No Backs|QID|55529|M|39.10,54.32|N|To Mrrl.|
 
 ]]
 
