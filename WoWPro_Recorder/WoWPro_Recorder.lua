@@ -558,6 +558,16 @@ function WoWPro.Recorder.EmitStep(i)
             else
                 line = addTagValue(line, tag, WoWPro.lootitem[i])
             end
+        elseif key == "sticky" then
+            if WoWPro.sticky[i] and WoWPro.unsticky[i] then
+                line = addTag(line, "S!US")
+            elseif  WoWPro.sticky[i] and not WoWPro.unsticky[i] then
+                line = addTag(line, "S")
+            elseif  WoWPro.unsticky[i] and not WoWPro.sticky[i] then
+                line = addTag(line, "US")
+            end
+        elseif key == "unsticky" then
+            line = line
         elseif tag == "CC" then
             if WoWPro.waypcomplete[i] == 1 then
                 line = addTag(line, "CC")
@@ -573,12 +583,12 @@ function WoWPro.Recorder.EmitStep(i)
             if WoWPro.zone[i] and WoWPro.zone[i] ~= WoWPro.Guides[GID].zone then
                 line = addTagValue(line, tag, WoWPro.zone[i])
             end
-        elseif WoWPro.TagTable[tag].vtype == "boolean" then
+        elseif tag and WoWPro.TagTable[tag].vtype == "boolean" then
             -- No value
             if WoWPro[key][i] then
                 line = addTag(line, tag)
             end
-        else
+        elseif key then
             -- Everything else is a value
             if WoWPro[key][i] then
                 line = addTagValue(line, tag, WoWPro[key][i])
