@@ -294,7 +294,11 @@ DefineTag("S","sticky","boolean",nil, function (text,i)
     WoWPro.sticky[i] = true;
     WoWPro.stickycount = WoWPro.stickycount + 1;
 end)
-DefineTag("S!US","sticky","boolean",nil,function (value,i) WoWPro.sticky[i] = 42 end)
+DefineTag("S!US",nil,"boolean",nil, function (value,i)
+    WoWPro.sticky[i] = true
+    WoWPro.unsticky[i] = true;
+    WoWPro.stickycount = WoWPro.stickycount + 1;
+end)
 DefineTag("N","note","string",nil,nil)
 DefineTag("FACTION","faction","string",nil,nil)
 DefineTag("R",nil,"string",nil,function (value,i) end)  -- Swallow R Tags
