@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/anglers_reputation
+-- Date: 2019-07-03 07:12
+-- Who: Hendo72
+-- Log: More coordinate adjustments and fine tuning of path coordinates. Added coordinates for the raft for "Like Bombing Fish in a Barrel" quest. Current path doesn't set the raft as your starting point.
+
+-- URL: http://wow-pro.com/node/3509/revisions/30302/view
 -- Date: 2019-07-02 05:15
 -- Who: Hendo72
 -- Log: Updated NPC coordinates. They were pointing to the wrong location. Quest coordinates have not been changed yet. Waiting to confirm if they need to be changed as well.
@@ -91,12 +96,12 @@ C Riverblade Raider slain|QID|30588|M|63.25,38.85;62.04,40.82|CN|QO|1|T|Riverbla
 C Huff&Puff|QID|30658|M|50.50,58.65;53.20,64.70;50.50,60.95;52.24,62.58|CN|T|Prickly Puffer|U|80403|L|80529 5|N|Face the fish and click the button.  No aiming required.  Put pets on passive or you may lose the loot.|
 C Jagged Abalone|QID|30586|M|68.70,39.80;73.83,38.45;71.00,40.46;70.47,37.59|CN|L|80277 9|T|Jagged Abalone|N|Watch for sharks and stay torwards the top of the trench.|
 C Frenzied Reef Shark|QID|30753|M|68.2,42.2|QO|1|N|Jump on the shark. Hit all three buttons on cooldown, 123. If you get thrown, ask John for another shark.|
-C Like Bombing Fish In A Barrel|QID|30678|M|60.80,46.60;61.50,44.70;60.05,50.10;59.20,44.40|CN|T|Sting Ray|U|80599|L|80600 3|N|Use the raft and the end of the dock.  Target a Ray on the surface close by and throw the bomb. Get off your raft to loot.|
+C Like Bombing Fish In A Barrel|QID|30678|M|70.7,41.5;64.3,41.4;61.1,44.5;61.4,48,0|CN|T|Sting Ray|U|80599|L|80600 3|N|Use the raft and the end of the dock. Target a Ray on the surface close by and throw the bomb. Get off your raft to loot.|
 C What Lurks Below|QID|30585|M|34.2,31.4|L|80262|N|Fish in the mysterious whirlpool.  When Narjon appears, re-equip your weapon and kill him.  Loot the ring.|
 C Piranha!|QID|30763|M|32.33,46.38|L|81122 5|N|Head out to the river and fish! Stay away from Dawnchaser Retreat or the Temple of the Red Crane.|
 C Scavenger Hunt|QID|30698|M|56.96,54.51;64.23,50.31|CC|L|80830 15|N|Get on the raft next to Fiznix and go fishing for Debris.|
 C Shocking!|QID|30584|M|63.38,36.02|L|80260 7|N|Head up to the Dojani River and fish! Stay away from Thunder Cleft.|
-R Snapclaw|QID|30700|M|74.5,34.5|CC|N|Go to the entrance of Snapclaw's cave.|
+R Snapclaw|QID|30700|M|74.5,34.5|CC|N|Go to the underwater entrance of Snapclaw's cave.|
 C Snapclaw|QID|30700|M|77.0,34.5|L|80831|N|Kill Snapclaw and loot his claw.|
 C Viseclaw Soup|QID|30701|M|51.20,48.80;53.20,52.60;56.60,52.80;59.00,48.80;61.80,48.00;70.20,35.00;84.60,26.00;87.60,21.40;72.00,29.50;57.73,43.57;66.08,41.62;63.85,38.50;56.70,47.30;47.30,55.15;48.10,52.15;74.35,33.25;76.60,36.28;52.89,47.30;53.40,44.25;55.75,44.30;71.80,33.00;61.25,39.25;55.83,49.68;59.70,41.97|L|80832 16|CN|T|Viseclaw Fisher|N|Kill and loot eyeballs!|
 
