@@ -7,17 +7,60 @@ WoWPro:GuideLevels(guide, 12, 21, 13)
 WoWPro:GuideNextGuide(guide, 'Classic-21-30-Jame-Horde-1')
 WoWPro:GuideSteps(guide, function() return [[
 h The Crossroads|QID|844|M|52.0,29.9|
-A Raptor Thieves|QID|869|M|51.9,30.3|
-A Wharfmaster Dizzywig|QID|1492|M|51.5,30.2|
-A Fungal Spores|QID|848|M|51.5,30.2|
-A Disrupt the Attacks|QID|871|M|51.5,30.9|
-A Supplies for The Crossroads|QID|5041|M|51.5,30.9|
-A Plainstrider Menace|QID|844|M|52.2,31.0|
-A The Forgotten Pools|QID|870|M|52.2,31.9|
+; --- carry over quests from last guide ---------------------------------------
+A Plainstrider Menace|AVAILABLE|844|M|52.23,31.01|N|From Sergra Darkthorn.|
+; -----------------------------------------------------------------------------
 
-C Raptor Thieves|QID|869|N|Kill raptors as you see them and loot their heads.|S|
+A Raptor Thieves|QID|869|M|51.93,30.32|N|From Gazrog.|
+A Wharfmaster Dizzywig|QID|1492|M|51.45,30.15|N|From Apothecary Helbrim.|
+A Fungal Spores|QID|848|M|51.45,30.15|N|From Apothecary Helbrim.|
+A Disrupt the Attacks|QID|871|M|51.50,30.87|N|From Thork.|
+A Supplies for The Crossroads|QID|5041|M|51.50,30.87|N|From Thork.|
+A Harpy Raiders|QID|867|M|51.62,30.90|N|From Darsok Swiftdagger at the top of the tower.|
+A The Forgotten Pools|QID|870|M|52.26,31.93|N|From Tonga Runetotem.|
 
-C Plainstrider Menace|QID|844|N|Circle the town, killing Plainstriders as you go and looting their beaks.|
+C Raptor Thieves|QID|869|S|N|Kill Raptors you encounter for their heads.|
+
+; --- Tauren catchup chain ----------------------------------------------------
+C Plainstrider Menace|QID|844|C|Shaman|S|N|Kill Plainstriders on the way for their beaks.|
+C Plainstrider Menace|QID|844|C|Warrior|R|Tauren|S|N|Kill Plainstriders on the way for their beaks.|
+
+T Veteran Uzzek|QID|1505|C|Warrior|R|Tauren|M|61.38,21.11|Z|The Barrens|N|To Veteran Uzzek.|
+A Path of Defense|QID|1498|PRE|1505|C|Warrior|R|Tauren|M|61.38,21.11|N|From Veteran Uzzek.|
+R Thunder Ridge|QID|806||N|Run to the entrance of Thunder Ridge.|
+C Path of Defense|QID|1498|C|Warrior|R|Tauren|M|39.18,32.29|Z|Durotar|N|To to the entrance of Thunder Ridge and kill Thunder Lizards for their scales.|
+
+T Call of Fire|QID|2984|C|Shaman|R|Tauren|M|55.86,19.94|N|To Kranal Fiss. He wanders around a bit.|
+A Call of Fire|QID|1524|PRE|2984|C|Shaman|R|Tauren|M|55.86,19.94|Z|The Barrens|N|From Kranal Fiss.|
+R Shrine of the Dormant Flame|QID|1524|C|Shaman|R|Tauren|M|36.69,57.43|Z|Durotar|CC|N|Follow the hidden path here upwards.|
+T Call of Fire|QID|1524|C|Shaman|R|Tauren|M|38.52,58.92|Z|Durotar|N|To Telf Joolam.|
+A Call of Fire|QID|1525|PRE|1524|C|Shaman|R|Tauren|M|38.52,58.92|Z|Durotar|N|From Telf Joolam.|
+
+A Conscript of the Horde|QID|840|C|Shaman|R|Tauren|M|50.84,43.59|Z|Durotar|N|From Takrin Pathseeker. We pick this up because its on the way and free XP.|
+R Call of Fire|QID|1525|C|Shaman|R|Tauren|M|54.29,39.54|CC|Z|Durotar|N|Walk northeast of Razor Hill up the hill to the Burning Blade Cave.|
+C Call of Fire|QID|1525|C|Shaman|R|Tauren|M|52.84,28.82|QO|2|N|Kill Burning Blade Cultists inside the cave for the Reagent Pouch.|
+
+R The Barrens|QID|840|C|Shaman;Warrior|R|Tauren|M|63.02,19.20|CC|
+
+T Path of Defense|QID|1498|C|Warrior|R|Tauren|M|61.38,21.11|Z|The Barrens|N|To Veteran Uzzek.|
+A Thun'grim Firegaze|QID|1502|C|Warrior|R|Tauren|M|61.38,21.11|Z|The Barrens|N|From Veteran Uzzek.|
+T Conscript of the Horde|QID|840|C|Shaman|R|Tauren|M|62.26,19.37|N|To Kargal Battlescar.|
+A Crossroads Conscription|QID|842|C|Shaman|R|Tauren|M|62.26,19.37|N|From Kargal Battlescar.|
+; --- End of Tauren catchup ---------------------------------------------------
+
+; --- Shaman class quest ------------------------------------------------------
+C Call of Fire|QID|1525|C|Shaman|QO|1|M|55.02,24.98|N|Kill any Razormane Caster for the Fire Tar.|
+R Durotar|QID|1525|C|Shaman|R|Tauren|M|36.69,57.43|Z|Durotar|CC|
+R Shrine of the Dormant Flame|QID|1525|C|Shaman|M|36.69,57.43|Z|Durotar|CC|N|Follow the hidden path here upwards.|
+T Call of Fire|QID|1525|C|Shaman|M|38.52,58.92|Z|Durotar|N|To Telf Joolam.|
+A Call of Fire|QID|1526|PRE|1525|C|Shaman|M|38.52,58.92|Z|Durotar|N|From Telf Joolam.|
+C Call of Fire|QID|1526|C|Shaman|M|38.89,58.21|Z|Durotar|U|6636|N|Use the Fire Sapta at the Stone, go up the trail and kill the fire elemental. Loot him.|
+T Call of Fire|QID|1526|C|Shaman|M|38.96,58.22|Z|Durotar|N|Right-click the Brazier of the Dormant Flame.|
+A Call of Fire|QID|1527|PRE|1526|C|Shaman|M|38.96,58.22|Z|Durotar|N|From the Brazier of the Dormant Flame.|
+T Call of Fire|QID|1527|C|Shaman|M|55.86,19.94|Z|The Barrens|N|To Kranal Fiss.|
+; --- End of Shaman class quest -----------------------------------------------
+
+C Plainstrider Menace|QID|844|US|N|Kill Plainstriders around Crossroads for their beaks.|
 T Plainstrider Menace|QID|844|N|Get back into town, talk to Sergena Darkthorn.|M|52.2,31.0|
 A The Zhevra|QID|845|M|52.2,31.0|
 

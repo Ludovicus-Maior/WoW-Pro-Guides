@@ -79,10 +79,10 @@ T The Ashenvale Hunt|QID|6383|Z|Hillsbrad Foothills|
 
 F Zoram'gar Outpost|QID|6442|M|12.20,33.80|Z|Ashenvale|N|If you don't have the Flight Path: Ride to . Warning: be sure to go AROUND Astranaar.  There will be a little path leading off the mainroad, going west. Follow it until you see a beach. Follow the beach southeast until you see a little camp.|
 f Zoram'gar Outpost|QID|6442|M|12.20,33.80|Z|Ashenvale|
-A Naga at the Zoram Strand|QID|6442|M|11.70,34.90|Z|Hillsbrad Foothills|
-N Things to do...|QID|6504|Z|Hillsbrad Foothills|N|From now on, keep any Shredder Operating Manual pages you find.|
-C Naga at the Zoram Strand|QID|6442|M|14.80,23.70|Z|Ashenvale|N|Kill Nagas for Wrathtail Heads|
-T Naga at the Zoram Strand|QID|6442|M|11.70,34.90|Z|Hillsbrad Foothills|
+A Naga at the Zoram Strand|QID|6442|M|11.69,34.90|Z|Ashenvale|N|From Marukai.|
+N Things to do...|QID|6504|N|Keep any Shredder Operating Manual pages you find from now on.\nRight-click this step to continue.|
+C Naga at the Zoram Strand|QID|6442|M|13.49,25.82|Z|Ashenvale|N|Kill Nagas for their Wrathtail Heads.|
+T Naga at the Zoram Strand|QID|6442|M|11.69,34.90|Z|Ashenvale|N|To Marukai.|
 
 H Orgrimmar|QID|493|U|6948|Z|Hillsbrad Foothills|
 N Bank In|QID|6504|M|49.90,70.40|Z|Orgrimmar|N|Deposit into the bank: Shredder Operating Manual pages|
@@ -184,8 +184,8 @@ H Orgrimmar|QID|6641|U|6948|Z|Ashenvale|
 N Auction House|QID|6581|M|53.70,64.60|Z|Orgrimmar|N|Check the AH for: Deadly Blunderbuss|
 
 F Camp Taurajo|QID|1536|C|Shaman|M|45.30,63.90|Z|Orgrimmar|
-T Call of Water (Part 4)|QID|1536|C|Shaman|M|43.40,77.40|Z|Ashenvale|
-A Call of Water (Part 5)|QID|1534|C|Shaman|M|43.40,77.40|Z|Ashenvale|
+T Call of Water (Part 4)|QID|1536|C|Shaman|M|43.40,77.40|Z|The Barrens|
+A Call of Water (Part 5)|QID|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
 R Camp Taurajo|QID|1534|C|Shaman|M|44.50,59.10|Z|The Barrens|
 F Splintertree Post|QID|1534|C|Shaman|M|44.50,59.10|Z|The Barrens|
 
@@ -393,11 +393,11 @@ T Satyr Horns|QID|6441|M|73.10,61.50|Z|Ashenvale|
 R Undercity|QID|529|Z|Hillsbrad Foothills|N|Take the Zepplin to Tirisfal then run to Undercity|
 
 F Sepulchur|QID|63|C|Shaman|M|63.30,48.40|Z|Undercity|
-C Call of Water (Part 7)|QID|63|C|Shaman|U|7811|M|38.80,44.20|Z|Hillsbrad Foothills|N|Run here to 38,44 - its on the coast behind the Sepulchur. Use the water sapta. Kill the attackable elemental, then turn in the quest to the brazier.|
-T Call of Water (Part 7)|QID|63|C|Shaman|M|38.30,44.60|Z|Hillsbrad Foothills|
-A Call of Water (Part 8)|QID|100|C|Shaman|M|38.30,44.60|Z|Hillsbrad Foothills|
-T Call of Water (Part 8)|QID|100|C|Shaman|M|38.80,44.60|Z|Hillsbrad Foothills|
-A Call of Water (Part 9)|QID|96|C|Shaman|M|38.80,44.60|Z|Hillsbrad Foothills|
+C Call of Water (Part 7)|QID|63|C|Shaman|U|7811|M|38.80,44.20|Z|Silverpine Forest|N|Run here to 38,44 - its on the coast behind the Sepulchur. Use the water sapta. Kill the attackable elemental, then turn in the quest to the brazier.|
+T Call of Water (Part 7)|QID|63|C|Shaman|M|38.30,44.60|Z|Silverpine Forest|
+A Call of Water (Part 8)|QID|100|C|Shaman|M|38.30,44.60|Z|Silverpine Forest|
+T Call of Water (Part 8)|QID|100|C|Shaman|M|38.80,44.60|Z|Silverpine Forest|
+A Call of Water (Part 9)|QID|96|C|Shaman|M|38.80,44.60|Z|Silverpine Forest|
 R Sepulchur|QID|96|C|Shaman|M|45.60,42.50|Z|Silverpine Forest|
 F Tarren Mill|QID|96|C|Shaman|M|45.60,42.50|Z|Silverpine Forest|
 

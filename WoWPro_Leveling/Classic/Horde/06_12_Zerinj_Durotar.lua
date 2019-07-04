@@ -84,7 +84,7 @@ A Securing The Lines|QID|835|PRE|834|M|46.37,22.94|N|From Rezlak.|
 L Level 10|QID|837|LVL|10|N|If you are not yet level 10 grind a bit on harpies. The quest Encroachment is worth 625 XP, so you need 5875 XP in Level 9.|
 T Encroachment|QID|837|M|51.95,43.50|N|To Gar'Thok.|
 
-A Therzok|QID|1859|C|Rogue|R|Orc|M|51.98,43.69|N|From Kaplak.|
+A Therzok|QID|1859|C|Rogue|R|Orc,Troll|M|51.98,43.69|N|From Kaplak.|
 A Taming the Beast|QID|6062|C|Hunter|R|Orc,Troll|M|51.85,43.49|N|From Thotar.|
 A Gan'rul's Summons|QID|1506|C|Warlock|R|Orc,Troll|M|54.37,41.29|N|From Ophek.|
 A Veteran Uzzek|QID|1505|C|Warrior|R|Orc,Troll|M|54.19,42.47|N|From Tarshaw Jaggedscar.|
@@ -112,7 +112,7 @@ A Hidden Enemies|QID|5726|M|31.75,37.82|Z|Orgrimmar|N|From Thrall.|
 A Speak with Un'thuwa|QID|1883|C|Mage|R|Orc,Troll|N|You should get this quest from your trainer. If the Razor Hill trainer does not give it, speak to the Orgrimmar mage trainer.|
 T Training the Beast|QID|6081|C|Hunter|R|Orc,Troll|M|66.06,18.52|Z|Orgrimmar|N|To Ormak Grimshot.|
 
-T Therzok|QID|1859|C|Rogue|R|Orc|M|42.74,53.55|Z|Orgrimmar|N|To Therzok.|
+T Therzok|QID|1859|C|Rogue|M|42.74,53.55|Z|Orgrimmar|N|To Therzok.|
 A The Shattered Hand|QID|1963|PRE|1859|C|Rogue|R|Orc,Troll|M|42.73,53.44|Z|Orgrimmar|N|From Therzok.|
 
 T Gan'rul's Summons|QID|1506|C|Warlock|R|Orc,Troll|M|48.25,45.29|Z|Orgrimmar|N|To Gan'rul Bloodeye.|
@@ -135,11 +135,9 @@ A Crossroads Conscription|QID|842|M|62.26,19.37|Z|The Barrens|N|From Kargal Batt
 T Veteran Uzzek|QID|1505|C|Warrior|R|Orc,Troll|M|61.38,21.11|Z|The Barrens|N|To Veteran Uzzek.|
 A Path of Defense|QID|1498|PRE|1505|C|Warrior|R|Orc,Troll|M|61.38,21.11|Z|The Barrens|N|From Veteran Uzzek.|
 
-C The Shattered Hand|QID|1963|C|Rogue|R|Orc,Troll|L|7209|M|63.10,44.30|Z|The Barrens|N|Kill Tazan for his Satchel.|
-
 T Call of Fire|QID|2983|C|Shaman|R|Orc,Troll|M|55.86,19.94|Z|The Barrens|N|To Kranal Fiss. He wanders around a bit.|
 A Call of Fire|QID|1524|PRE|2983|C|Shaman|R|Orc,Troll|M|55.86,19.94|Z|The Barrens|N|From Kranal Fiss.|
-R Shrine of the Dormant Flame|QID|1524|C|Shaman|R|Orc,Troll|M|36.00,57.00|CC|N|Follow the hidden path here upwards.|
+R Shrine of the Dormant Flame|QID|1524|C|Shaman|R|Orc,Troll|M|36.69,57.43|CC|N|Follow the hidden path here upwards.|
 T Call of Fire|QID|1524|C|Shaman|R|Orc,Troll|M|38.52,58.92|N|To Telf Joolam.|
 A Call of Fire|QID|1525|PRE|1524|C|Shaman|R|Orc,Troll|M|38.52,58.92|N|From Telf Joolam.|
 
@@ -174,7 +172,7 @@ T Margoz|QID|828|M|56.41,20.03|N|To Margoz.|
 A Skull Rock|QID|827|PRE|828|M|56.41,20.03|N|From Margoz.|
 
 R Skull Rock|QID|827|M|55.00,9.74|CC|N|Run north to the cave entrance of Skull Rock.|
-C Call of Fire|QID|1525|C|Shaman|QO|2|S|N|Kill Burning Blade Cultists for the Reagent Pouch.|
+C Call of Fire|QID|1525|C|Shaman|R|Orc,Troll|QO|2|S|N|Kill Burning Blade Cultists for the Reagent Pouch.|
 C Skull Rock|QID|827|S|N|Kill Burning Blade for the Searing Collars.|
 C Hidden Enemies|QID|5730|S|N|Kill Burning Blade Apprentices and Fanatics for the Lieutenants Insignia.|
 K Gazz'uz|QID|832|L|4903|U|4945|M|51.62,9.76|N|Keep right in the cave and kill Gazz'uz. If he isn't at the top of the ledge he may be below. Use your glowing skull if you need to.|
@@ -202,15 +200,9 @@ A The Binding|QID|1504|PRE|1501|C|Warlock|R|Orc,Troll|M|48.20,45.70|Z|Orgrimmar|
 C The Binding|QID|1504|C|Warlock|R|Orc,Troll|U|7464|M|49.47,50.02|Z|Orgrimmar|N|Go to the summoning circle next Neeru Fireblade and use the Glyph of Summoning.|
 T The Binding|QID|1504|C|Warlock|R|Orc,Troll|M|48.20,45.70|Z|Orgrimmar|N|To Gan'rul Bloodeye.|
 
-T The Shattered Hand|QID|1963|C|Rogue|R|Orc,Troll|M|42.73,53.44|Z|Orgrimmar|N|To Therzok.|
-A The Shattered Hand|QID|1858|PRE|1963|C|Rogue|R|Orc,Troll|M|42.73,53.44|Z|Orgrimmar|N|From Therzok.|
-
 T Hidden Enemies|QID|5727|M|31.75,37.82|Z|Orgrimmar|N|To Thrall.|
 A Hidden Enemies|QID|5728|PRE|5727|M|31.75,37.82|Z|Orgrimmar|O|N|From Thrall. This quest is for the Ragefire Chasm dungeon.|
 N Lieutenants Insignia|QID|842|N|You can destroy the Lieutenants Insignia now. Right-click this step off.|
-
-C The Shattered Hand|QID|1858|C|Rogue|R|Orc,Troll|L|7208|M|54.01,68.04|Z|Orgrimmar|N|Stealth up and pickpocket the key from Gamon, then open the Tazan's Satchel.|
-T The Shattered Hand|QID|1858|C|Rogue|R|Orc,Troll|M|42.73,53.44|Z|Orgrimmar|N|To Therzok.|
 
 R Leave Orgrimmar|QID|809|M|52.55,85.45|Z|Orgrimmar|CC|
 T Ak'Zeloth|QID|809|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth.|
