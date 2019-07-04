@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/anglers_reputation
+-- Date: 2019-07-04 10:47
+-- Who: Hendo72
+-- Log: Combined the 2 Snapclaw steps into 1. Originally, the Run step was showing up whether you had the quest or not. My change fixes that.
+
+-- URL: http://wow-pro.com/node/3509/revisions/30305/view
 -- Date: 2019-07-03 07:12
 -- Who: Hendo72
 -- Log: More coordinate adjustments and fine tuning of path coordinates. Added coordinates for the raft for "Like Bombing Fish in a Barrel" quest. Current path doesn't set the raft as your starting point.
@@ -101,8 +106,7 @@ C What Lurks Below|QID|30585|M|34.2,31.4|L|80262|N|Fish in the mysterious whirlp
 C Piranha!|QID|30763|M|32.33,46.38|L|81122 5|N|Head out to the river and fish! Stay away from Dawnchaser Retreat or the Temple of the Red Crane.|
 C Scavenger Hunt|QID|30698|M|56.96,54.51;64.23,50.31|CC|L|80830 15|N|Get on the raft next to Fiznix and go fishing for Debris.|
 C Shocking!|QID|30584|M|63.38,36.02|L|80260 7|N|Head up to the Dojani River and fish! Stay away from Thunder Cleft.|
-R Snapclaw|QID|30700|M|74.5,34.5|CC|N|Go to the underwater entrance of Snapclaw's cave.|
-C Snapclaw|QID|30700|M|77.0,34.5|L|80831|N|Kill Snapclaw and loot his claw.|
+C Snapclaw|QID|30700|M|74.5,34.5;77.0,34.5|CS|L|80831|N|Go to the underwater entrance to Snapclaw's cave and enter. Find and kill Snapclaw to loot his claw.|
 C Viseclaw Soup|QID|30701|M|51.20,48.80;53.20,52.60;56.60,52.80;59.00,48.80;61.80,48.00;70.20,35.00;84.60,26.00;87.60,21.40;72.00,29.50;57.73,43.57;66.08,41.62;63.85,38.50;56.70,47.30;47.30,55.15;48.10,52.15;74.35,33.25;76.60,36.28;52.89,47.30;53.40,44.25;55.75,44.30;71.80,33.00;61.25,39.25;55.83,49.68;59.70,41.97|L|80832 16|CN|T|Viseclaw Fisher|N|Kill and loot eyeballs!|
 
 C Who Knew Fish Liked Eggs?|QID|30598|M|65.47,47.90;63.48,47.97;72.83,45.19|CN|QO|1|N|Get your egg from a nest.|
