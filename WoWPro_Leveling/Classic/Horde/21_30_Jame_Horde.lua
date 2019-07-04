@@ -79,10 +79,10 @@ T The Ashenvale Hunt|QID|6383|Z|Hillsbrad Foothills|
 
 F Zoram'gar Outpost|QID|6442|M|12.20,33.80|Z|Ashenvale|N|If you don't have the Flight Path: Ride to . Warning: be sure to go AROUND Astranaar.  There will be a little path leading off the mainroad, going west. Follow it until you see a beach. Follow the beach southeast until you see a little camp.|
 f Zoram'gar Outpost|QID|6442|M|12.20,33.80|Z|Ashenvale|
-A Naga at the Zoram Strand|QID|6442|M|11.70,34.90|Z|Hillsbrad Foothills|
-N Things to do...|QID|6504|Z|Hillsbrad Foothills|N|From now on, keep any Shredder Operating Manual pages you find.|
-C Naga at the Zoram Strand|QID|6442|M|14.80,23.70|Z|Ashenvale|N|Kill Nagas for Wrathtail Heads|
-T Naga at the Zoram Strand|QID|6442|M|11.70,34.90|Z|Hillsbrad Foothills|
+A Naga at the Zoram Strand|QID|6442|M|11.69,34.90|Z|Ashenvale|N|From Marukai.|
+N Things to do...|QID|6504|N|Keep any Shredder Operating Manual pages you find from now on.\nRight-click this step to continue.|
+C Naga at the Zoram Strand|QID|6442|M|13.49,25.82|Z|Ashenvale|N|Kill Nagas for their Wrathtail Heads.|
+T Naga at the Zoram Strand|QID|6442|M|11.69,34.90|Z|Ashenvale|N|To Marukai.|
 
 H Orgrimmar|QID|493|U|6948|Z|Hillsbrad Foothills|
 N Bank In|QID|6504|M|49.90,70.40|Z|Orgrimmar|N|Deposit into the bank: Shredder Operating Manual pages|
