@@ -11,7 +11,7 @@ F Orgrimmar|QID|5088|
 
 N Shopping List|QID|5088|N|1x Strong Troll's Blood Elixir - Needed at level 31 (almost right away), 3 Stacks of Silk Cloth, OPTIONAL: 9 more stacks of Silk Cloth. This is for the cloth donation quests. When you get to one of the big cities, you can turn in 3 stacks for some exp.|
 h Orgrimmar|QID|5088|
-A Call of Air|QID|1531|C|Shaman|M|38.00,38.00|
+A Call of Air|QID|1531|C|Shaman|M|38.00,38.00|Z|Orgrimmar|N|From Searn Firewarder.|
 
 F Freewind Post|QID|5088|
 T Call of Air|QID|1531|C|Shaman|M|53.60,42.70|N|Turning this in will give you a really nice buff for one hour, so don't waste it!|
@@ -31,18 +31,17 @@ C Test of Strength|QID|1151|M|17.00,37.00|N|Go to the northwestern part of the z
 T Test of Strength|QID|1151|M|54.00,41.00|N|Go back to the Weathered Nook.|
 R Freewind Post|QID|1131|
 F Thunderbluff|QID|1131|
-T Steelsnap|QID|1131|M|61.50,80.90|N|Go south to the Hunter Rise.|
-A Frostmaw|QID|1136|M|61.50,80.90|N|You can destroy the Kodo Skin Parchment you just got from this quest.|
+T Steelsnap|QID|1131|M|61.50,80.90|Z|Thunder Bluff|N|To Melor Stonehoof. Go south to the Hunter Rise.|
+A Frostmaw|QID|1136|M|61.50,80.90|Z|Thunder Bluff|N|From Melor Stonehoof. You can destroy the Kodo Skin Parchment you just got from this quest.|
 
 ; === 002_31_32_Jame_Hillsbrad_Foothills.lua ===
-
 H Orgrimmar|QID|513|Z|Hillsbrad Foothills|
 R Undercity|QID|513|Z|Hillsbrad Foothills|N|Take the Zeppelin to the Undercity|
-A To Steal from Thieves|QID|1164|M|63.80,49.50|Z|Hillsbrad Foothills|N|In the Undercity, next to the Bat Handler.|
-T Elixir of Agony (Part 2)|QID|513|Z|Hillsbrad Foothills|N|Then go to the Apothecarium, find Master Apothecary Farell.|
-A Elixir of Agony (Part 3)|QID|515|Z|Hillsbrad Foothills|
-F Tarren Mill|QID|552|Z|Hillsbrad Foothills|
-A Helcular's Revenge (Part 1)|QID|552|M|63.90,19.70|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
+A To Steal from Thieves|QID|1164|M|63.80,49.50|Z|Undercity|N|From Genavie Callow, next to the Bat Handler.|
+T Elixir of Agony (Part 2)|QID|513|M|48.8,69.3|Z|Undercity|N|To Master Apothecary Faranell inside the Apothecarium.|
+A Elixir of Agony (Part 3)|QID|515|M|48.8,69.3|Z|Undercity|
+F Tarren Mill|QID|552|M|63.3,48.6|Z|Undercity|
+A Helcular's Revenge (Part 1)|QID|552|M|63.88,19.66|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
 
 ; --- FIXME: Convert QO tag 'Torn Fin Eye: 5/5' to number
 N Torn Fin Eyes|QID|515|QO|Torn Fin Eye: 5/5|M|36.00,66.00|Z|Hillsbrad Foothills|N|Head southwest until you hit the Western Strand  with the Murloc Camps. Kill murlocs until you get 5 Torn Fin Eyes.|
