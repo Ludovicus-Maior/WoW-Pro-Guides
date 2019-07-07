@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-07-06 20:56
+-- Who: spoony
+
+-- URL: http://wow-pro.com/node/3760/revisions/30270/view
 -- Date: 2019-06-27 21:59
 -- Who: Ludovicus_Maior
 -- Log: 8.2 Z updates
@@ -250,11 +254,6 @@
 -- Who: elidion
 -- Log: Added the Warfront missions when you own Arathi.
 
--- URL: http://wow-pro.com/node/3760/revisions/29699/view
--- Date: 2018-09-08 09:58
--- Who: elidion
--- Log: Removed the bbcode-code tag
-
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
 WoWPro:GuideName(guide,'War Campaign')
@@ -432,9 +431,9 @@ A Fragment of the Firelands|QID|51359|M|40.75,70.83|Z|Zuldazar|N|From Anvil-Than
 C Fragment of the Firelands|QID|51359|M|40.70,70.87|Z|Zuldazar|QO|1|NC|U|160058|N|Click the provided stabilizer to be transferred into a vehicle ui - style elemental.|
 C Fragment of the Firelands|QID|51359|M|40.70,70.87|Z|Zuldazar|QO|2|N|Go forth and kill goblins.|
 T Fragment of the Firelands|QID|51359|M|40.75,70.84|Z|Zuldazar|N|To Anvil-Thane Thurgaden.|
-A Champion: Kelsey Steelspark|QID|52003|M|41.76,70.68|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|51359|
-T Champion: Kelsey Steelspark|QID|52003|M|41.76,70.68|Z|Zuldazar|N|To Kelsey Steelspark.|
-A Return to Boralus|QID|51968|M|40.75,70.68|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|52003|
+A Champion: Kelsey Steelspark|QID|52003|M|40.76,70.67|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|51359|
+T Champion: Kelsey Steelspark|QID|52003|M|40.76,70.67|Z|Zuldazar|N|To Kelsey Steelspark.|
+A Return to Boralus|QID|51968|M|40.76,70.67|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|52003|
 C Return to Boralus|QID|51968|M|40.47,71.05|Z|Zuldazar|CHAT|N|Tell Daria you are ready to return to Boralus.|
 T Return to Boralus|QID|51968|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 
