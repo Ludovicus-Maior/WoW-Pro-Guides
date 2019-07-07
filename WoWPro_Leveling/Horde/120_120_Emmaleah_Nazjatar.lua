@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_horde
+-- Date: 2019-07-06 12:15
+-- Who: Emmaleah
+-- Log: added the weeks WQs and Dailies. various other fixes.
+
+-- URL: http://wow-pro.com/node/3789/revisions/30297/view
 -- Date: 2019-07-01 00:55
 -- Who: Emmaleah
 -- Log: Added PREs, refined some text, added dropped item quests
@@ -55,7 +60,7 @@ N Dailies|N|Since there is no way to predict which dailies and follower quests w
 A The Warcheif's Order|QID|56030|N|Auto accepted when logging in after 6/25/19 and able to do WQs.|
 T The Warchief's Order|QID|56030|M|58.44,62.66|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Send the Fleet|QID|56044|M|58.44,62.66|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|56030|
-C Send the Fleet|QID|56044|M|44.49,95.42|Z|Dazar'alor|CHAT|N|Speak to Captain Rez'okun to set sail. This starts a cut scene that ends with you in Nazjatar|
+C Send the Fleet|QID|56044|M|44.49,95.42|Z|Dazar'alor|CHAT|N|Speak to Captain Rez'okun to set sail. This starts a cut scene that ends with you in Nazjatar.|
 T Send the Fleet|QID|56044|M|36.80,93.50|N|To Nathanos Blightcaller.|
 A Upheaval|QID|55054|M|36.80,93.50|N|From Nathanos Blightcaller.|PRE|56044|
 T Upheaval|QID|55054|M|36.69,86.94|N|To Chief Telemancer Oculeth.|
@@ -84,7 +89,7 @@ T Up Against It|QID|56429|M|36.25,68.04|N|To First Arcanist Thalyssra.|
 A Stay Low, Stay Fast!|QID|55094|M|37.29,67.36|N|From Neri Sharpfin.|PRE|55094|
 C Stay Low, Stay Fast!|QID|55094|M|41.77,61.72|QO|1|NC|N|Move out and Neri will follow.|
 C Stay Low, Stay Fast!|QID|55094|M|42.14,62.58|QO|2|NC|N|Continue up this little hill.|
-C Stay Low, Stay Fast!|QID|55094|M|45.70,67.19;44.13,60.54;47.85,62.02|CS|QO|3|NC|N|Go to Newhome|
+C Stay Low, Stay Fast!|QID|55094|M|45.70,67.19;44.13,60.54;47.85,62.02|CS|QO|3|NC|N|Go to Newhome.|
 T Stay Low, Stay Fast!|QID|55094|M|48.54,62.30|N|To First Arcanist Thalyssra.|
 A A Way Home|QID|55053|M|48.50,62.37|N|From Chief Telemancer Oculeth.|PRE|55094
 C A Way Home|QID|55053|M|47.26,62.81|NC|N|Stand on the defunct portal and use your special action button to assist Occuleth.|
@@ -97,14 +102,13 @@ P Silithus|ACTIVE|55851|M|73.72,85.37|N|Take the portal or otherwise travel to S
 P Chamber of Heart|ACTIVE|55851|M|43.19,44.48|Z|Silithus|N|Take the portal or otherwise travel to Silithus.|
 T Essential Empowerment|QID|55851|M|50.12,59.06|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A MOTHER Knows Best|QID|55533|M|50.12,59.06|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|55851|
-C MOTHER Knows Best|QID|55533|M|48.41,72.06|Z|Chamber of Heart!Dungeon1473|CHAT|N|Speak to MOTHER|
+C MOTHER Knows Best|QID|55533|M|48.41,72.06|Z|Chamber of Heart!Dungeon1473|CHAT|N|Speak to MOTHER.|
 T MOTHER Knows Best|QID|55533|M|48.41,72.06|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
 A A Disturbance Beneath the Earth|QID|55374|M|48.41,72.06|Z|Chamber of Heart!Dungeon1473|N|From MOTHER.|PRE|55533|
 C A Disturbance Beneath the Earth|QID|55374|M|48.41,72.06|Z|Chamber of Heart!Dungeon1473|QO|1|CHAT|N|Speak to MOTHER to travel to Highmountain (Optional).|
 C A Disturbance Beneath the Earth|QID|55374|M|49.54,68.37|Z|Highmountain|QO|2|CHAT|N|Ask Spiritwalker Ebonhorn to help you investigate.|
 T A Disturbance Beneath the Earth|QID|55374|M|49.54,68.37|Z|Highmountain|N|To Spiritwalker Ebonhorn.|
 A Take My Hand|QID|55400|M|49.54,68.37|Z|Highmountain|N|From Spiritwalker Ebonhorn.|PRE|53374|
-A Take My Hand|QID|55400|M|49.54,68.37|Z|Highmountain|N|From Spiritwalker Ebonhorn.|
 C Take My Hand|QID|55400|M|49.63,68.41|Z|Highmountain|CHAT|N|Speak to Navarrogg|
 T Take My Hand|QID|55400|M|26.72,46.20|Z|The Dragon's Spine!Instance|N|To Spiritwalker Ebonhorn.|
 A Calming the Spine|QID|55407|M|26.72,46.20|Z|The Dragon's Spine!Instance|N|From Spiritwalker Ebonhorn.|PRE|55400|
@@ -117,7 +121,7 @@ C Dominating the Indomitable|QID|55425|M|18.95,58.08|Z|The Dragon's Spine!Instan
 T Dominating the Indomitable|QID|55425|M|18.95,58.08|Z|The Dragon's Spine!Instance|N|To Spiritwalker Ebonhorn.|
 A A Friendly Face|QID|55497|M|18.95,58.08|Z|The Dragon's Spine!Instance|N|From Spiritwalker Ebonhorn.|PRE|55425|
 H The Great Seal|ACTIVE|55497|N|Hearth or otherwise return to The Great Seal, Silithus and The Chamber of Heart.|
-C A Friendly Face|QID|55497|M|48.17,39.03|Z|Chamber of Heart!Dungeon1473|QO|2|CHAT|N|Meet Spiritwalker Ebonhorn in Chamber of Heart|
+C A Friendly Face|QID|55497|M|48.17,39.03|Z|Chamber of Heart!Dungeon1473|QO|2|CHAT|N|Meet Spiritwalker Ebonhorn in Chamber of Heart.|
 T A Friendly Face|QID|55497|M|50.24,59.14|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A The Heart Forge|QID|55618|M|48.21,72.50|Z|Chamber of Heart!Dungeon1473|N|From MOTHER.|PRE|55497|
 C The Heart Forge|QID|55618|M|48.21,72.50|Z|Chamber of Heart!Dungeon1473|QO|1|CHAT|N|Speak with MOTHER.|
@@ -133,7 +137,7 @@ P Newhome|QID|51041|M|62.83,85.67|Z|The Great Seal!Dazar'alor|N|Return to the Gr
 T Back Out to Sea|QID|56161|M|48.51,62.18|N|To Lor'themar Theron.|
 A Scouting the Palace|QID|55481|M|48.51,62.18|N|From Lor'themar Theron.|PRE|56161|
 C Scouting the Palace|QID|55481|M|48.36,62.15|CHAT|N|Ask Spiritwalker Ussoh to show you vision.|
-T Scouting the Palace|QID|55481|M|48.51,62.18|N|To Lor'themar Theron. The reward will be immediately upped to ilvl 400 in the next step, if that makes a diff to which you choose.|
+T Scouting the Palace|QID|55481|M|48.51,62.18|N|To Lor'themar Theron. The reward will be immediately upped to ilvl 400 in the next step, if that makes a diff to your choice.|
 A Create Your Own Strength|QID|57003|M|48.51,62.18|N|From Lor'themar Theron.|PRE|57003|
 C Create Your Own Strength|QID|57003|M|49.10,61.95|QO|1|NC|N|Click on the piece of Benthic armor you just received to make it usable.|
 C Create Your Own Strength|QID|57003|M|49.10,61.95|QO|2|NC|N|Click on the Voidbinder to use his UI to Upgrade a piece of Benthic Armor.|
@@ -150,33 +154,81 @@ C Scouting the Pens|QID|55385|M|39.05,43.16|QO|3|NC|N|Find Poen Gillbrack.|
 C Scouting the Pens|QID|55385|M|41.41,45.52|QO|2|NC|N|Sandel Fin found.|
 T Scouting the Pens|QID|55385|M|39.14,43.50|N|To Neri Sharpfin.|
 A Save A Friend|QID|55500|M|38.88,42.43|N|From Poen Gillbrack.|PRE|55385|
-K Herald of the Queen|ACTIVE|55500|M|35.70,42.98|QO|1|N|Kill Herald of the Queen.|
+K Herald of the Queen|ACTIVE|55500|M|35.70,42.98|QO|1|T|Herald of the Queen|N|Kill Herald of the Queen.|
 C Save A Friend|QID|55500|M|35.54,43.46|QO|2|NC|N|Click on Mak to heal.|
 T Save A Friend|QID|55500|M|50.11,65.27|N|To Poen Gillbrack.|
 
+U Calling Conch|QID|57040^57041^57042|M|49.81,64.59|N|Be sure and stop by the Calling Conch to pick up your companion.|
+
 A Becoming a Friend|QID|57005|M|50.97,65.22|N|From Atolia Seapearl.|PRE|55000|
 A Requisition: We Need It All|QID|55801|M|50.97,65.30|N|From Asme Seapearl.|O|
+A Requisition: A Few Kelp Buds|QID|55721|M|50.86,64.77|N|From Slen Darkroe.|O|
+A Requisition: More Seaweed|QID|55786|M|50.02,66.42|N|From Nevin Tideheart.|O|
+A Requisition: More Spiral Leaf|QID|55791|M|50.44,66.22|N|From Nevin Tideheart.|O|
+A Requisition: A Few Spiral Leaf|QID|55725|M|50.21,66.41|N|From Nevin Tideheart.|O|
+A Bounty: Elite Naga Forces|QID|55836|M|50.02,66.42|N|From Nevin Tideheart.|O|
+A Bounty: A Few Naga|QID|55818|M|50.21,66.38|N|From Nevin Tideheart.|O|
 A Bounty: More Naga|QID|55827|M|50.13,66.36|N|From Nevin Tideheart.|O|
+A Bounty: More Hydras|QID|55829|M|50.21,66.41|N|From Nevin Tideheart.|O|
 A Down Into Nazjatar|QID|56235|M|48.51,62.18|N|From Lor'themar Theron.|PRE|55000|
 A Scrying Stones|QID|56210|M|49.06,62.21|N|From Finder Pruc.|PRE|55000|
-A Rumors of Mechagon|QID|57024|M|48.41,60.63|N|From Disgruntled Laborer.|PRE|55000|
-A WANTED: Inquisitor Ithriza|QID|56227|M|48.00,61.38|N|From Disgruntled Laborer.|O|
+A Requisition: More Flotsam|QID|55793|M|49.09,62.18|N|From Finder Pruc.|O|
+A Rumors of Mechagon|QID|57024|M|48.41,60.63|PRE|55000|
+A WANTED: Inquisitor Ithriza|QID|56227|M|48.00,61.38|N|From Wanted Poster.|O|
+A WANTED: Commander Sarj'eth|QID|56223|M|47.98,61.39|N|From Wanted Poster.|O|
+A WANTED: Lady Naz'jess|QID|56222|O|M|47.97,61.41|N|From Bounty Board.|
 A Requisition: A Few Carp|QID|55723|M|47.39,62.01|N|From Lily Bopip.|O|
+A Bounty: Dangerous Creatures|QID|55837|M|47.39,61.97|N|From Lily Bopip.|O|
+A Bounty: A Few Coral Ancients|QID|55821|M|49.20,62.26|N|From Finder Pruc.|O|
+A Requisition: More Deepcoral Buds|QID|55790|O|M|47.48,63.25|N|From Iina Blue.|
+
 C Scrying Stones|QID|56210|M|49.23,62.06|QO|1|N|Use the Scrying Stone.|
 A Strange Silver Knife|QID|56240|M|39.71,49.16|N|From knife looted in treasure chest you just found.|
 C Scrying Stones|QID|56210|M|40.06,49.31|S!US|QO|2|N|Keep using the scrying stone until you find 3 Hidden Treasures.|
+
+N Curse of Tides|BUFF|-304611^304612;^304614;^304619|M|39.02,57.99|N|If you are affected by the Curse of tides, go to Gloomseeker Yarga to have it removed. He can be found in an underwater cave, located under the shortest waterfall. He trades your cursed item for a bag of gold.|
+C The Unshackled|QID|56120|S!US|N|The Unshackled emisary is up, so Complete 4 world quests in Nazjatar.|
+C Bounty: A Few Naga|QID|55818|S!US|N|Today you have a bounty for killing Naga, so don't avoid them in your travels.|
 C Bounty: More Naga|QID|55827|S!US|N|Today you have a bounty for killing Naga, so don't avoid them in your travels.|
+C Bounty: A Few Coral Ancients|QID|55821|S!US|N|Today you have a bounty for killing Coral Ancients, these are mostly non agro (yellow) and often stationary.|
+C Bounty: Dangerous Creatures|QID|55837|S!US|N|Today you have a bounty for killing Rares, so don't avoid them in your travels.|
+C Bounty: Elite Naga Forces|QID|55836|S!US|N|Today you have a bounty for Elite Naga, so don't avoid them in your travels.|
+C Bounty: More Hydras|QID|55829|M|50.21,66.41|S!US|N|Keep an eye out for today's bounty quest to kill hydras.|
+C Requisition: A Few Carp|QID|55723|M|44.54,53.50|QO|1|NC|S!US|N|Struggling Carp can rarely be found along almost all waterways all over Nazjatar. Click to returned to water.|
+
+C Requisition: More Deepcoral Buds|QID|55790|M|59.48,46.01|S!US|N|Deepcoral Bud's can be found in the Coral Forest. (they must be attacked, not a ground spawn.)|
+A Where They Hide|QID|55872|M|45.62,58.49|N|From Scout Marlin.|O|
+C Where They Hide|QID|55872|M|43.56,60.10|U|168432|N|Use the provided sponge to detect the Assasins, then kill them.|
+T Where They Hide|QID|55872|M|45.63,58.50|N|To Scout Marlin.|
+
+A Feed Them All|QID|55715|M|57.46,45.54|N|From Oben Sandfin.|O|
+C Feed Them All|QID|55715|M|58.61,52.17|N|Kill and loot Fathom Rays.|
+T Feed Them All|QID|55715|M|57.47,45.54|N|To Oben Sandfin.|
+
 A A Safer Place|QID|55530|M|48.11,45.44|N|From Mrrl.|PRE|55000|
 C A Safer Place|QID|55530|M|47.41,61.61|S!US|QO|1|N|Escort Mrrl to Newhome. Note you can mount or use a flight path without losing Mrrl.|
-K Inquisitor Ithriza|ACTIVE|56227|M|48.37,47.56|QO|1|N|Loot Inquisitor Ithriza's Head.|
+K Inquisitor Ithriza|ACTIVE|56227|M|48.37,47.56|QO|1|T|Inquisitor Ithriza|N|Loot Inquisitor Ithriza's Head.|
+A Plug the Geysers|QID|55877|M|47.98,46.47|N|From Scout Tuli.|O|
+C Plug the Geysers|QID|55877|M|47.27,49.30|N|Use the sealent provided and target the unstable Geysers.|
+T Plug the Geysers|QID|55877|M|48.00,46.48|N|To Scout Tuli.|
+
+A A Steamy Situation|QID|56036|M|42.03,46.59|N|From Finder Palta.|O|
+C A Steamy Situation|QID|56036|M|46.27,49.55|N|Kill Glimmershell Crabs and loot their shells to plug the Steam Fissures.|
+T A Steamy Situation|QID|56036|M|46.27,49.55|N|To Finder Palta.|
+C A Steamy Situation|QID|56036|M|45.02,48.20|QO|1|N|Kill Glimmershell crabs for thier shells, use the shells to plug the Steam Fissures.|
+
 A Legacy of the Mad Mage|QID|57086|M|49.29,48.69|N|From Lesser Benthic Crystal - dropped item randomly from rares, chests, etc.|O|
-C Requisition: We Need It All|QID|55801|M|59.66,47.05|QO|6|N|Pick up a Deepcoral Bud many spawn spots in the area.|
+C Requisition: We Need It All|QID|55801|M|59.66,47.05|QO|6|S!US|N|Pick up a Deepcoral Bud, many spawn spots in the area.|
 A Making Kelpberry Wine|QID|55638|M|59.58,41.94|O|
-A Infestation of Madness|QID|55884|M|61.47,43.05|O|
-C Requisition: We Need It All|QID|55801|M|62.66,42.08|QO|2|N|Pick up a Fallen Kelp Bud, many spawn spots in the area.|
+C Requisition: We Need It All|QID|55801|M|62.66,42.08|QO|2|S!US|N|Pick up a Fallen Kelp Bud, many spawn spots in the area.|
 C Making Kelpberry Wine|QID|55638|M|63.74,42.78|S!US|NC|QO|1|N|Pick up Kelpberries.|
-C Requisition: We Need It All|QID|55801|M|65.70,44.79|QO|4|N|Click on the Impregnable Cone Shell, many spans spots all over the zone, note it gives a stacking buff, so feel free to click often.|
-A What will it Grow?|QID|55426|N|From Germinating Seed, often contained in a Waterlogged Toolbox.|O|
+C Requisition: We Need It All|QID|55801|M|65.70,44.79|QO|4|S!US|N|Click on the Impregnable Cone Shell, many spawn spots all over the zone, note it gives a stacking buff, so feel free to click often.|
+C Infestation of Madness|QID|55884|M|64.59,39.09|QO|1|N|Kill Kil'karrok makrura.|;WQ
+C Infestation of Madness|QID|55884|M|64.96,34.19|QO|2|N|Use special action button to teleport to the Infestation of Madness and kill it. There is a thing that will give you a levitating buff to get down afterwards.|
+A Kill the Kritch|QID|55873|M|44.93,76.84|QO|1|N|From Rlgmrr.|O|;follower q
+K Kill the Kritch|ACTIVE|55873|M|36.32,79.94|T|Kritch|QO|1|N|Kill Kritch.|
+T Kill the Kritch|QID|55873|M|44.91,76.86|N|To Rlgmrr.|
+A What will it Grow?|QID|55426|N|From Germinating Seed, often contained in a Waterlogged Toolbox.|O|;drop
 C What will it Grow?|QID|55426|M|54.70,41.71|QO|1|U|167786|NC|N|Plant the seed in fertile soil.|
 C What will it Grow?|QID|55426|M|54.70,41.71|QO|2|NC|N|Click on the Bloated Seaflies to capture one.|
 C What will it Grow?|QID|55426|M|54.70,41.71|QO|3|NC|N|Use special action button to feed the Carniverous Lasher.|
@@ -194,19 +246,20 @@ T Strange Silver Knife|QID|56240|M|49.22,62.08|N|To Finder Palta.|
 A Preserved Clues|QID|56242|M|49.22,62.08|N|From Finder Palta.|PRE|56240|
 T A Safer Place|QID|55530|M|46.94,61.45|N|To Mrrl.|
 A No Backs|QID|55529|M|46.94,61.45|N|From Mrrl.|PRE|55530|
-B No Backs|QID|55529|M|46.97,62.38|QO|2|N|Purchased the Unidentified Mass from Flrgrrl who is swimming in the pond nearby.|
-B No Backs|QID|55529|M|47.72,61.44|QO|3|N|Purchase the Flatulent Fish from a Grrmrlg nearby.|
-B No Backs|QID|55529|M|47.78,63.12|QO|1|N|Purchase a Sweet Sea Vegetable from Hurlgrl nearby.|
-B No Backs|QID|55529|M|48.28,62.58|QO|4|N|Purchase Slimy Naga Eyeball from Mrrglrlr nearby.|
+B No Backs|QID|55529|M|46.97,62.38|QO|2|T|Flrgrrl|N|Purchase the Unidentified Mass from Flrgrrl who is swimming in the pond nearby.|
+B No Backs|QID|55529|M|47.72,61.44|QO|3|T|Grrmrlg|N|Purchase the Flatulent Fish from Grrmrlg nearby.|
+B No Backs|QID|55529|M|47.78,63.12|QO|1|T|Hurlgrl|N|Purchase a Sweet Sea Vegetable from Hurlgrl nearby.|
+B No Backs|QID|55529|M|48.28,62.58|QO|4|T|Mrrglrlr|N|Purchase Slimy Naga Eyeball from Mrrglrlr nearby.|
 T No Backs|QID|55529|M|46.95,61.44|N|To Mrrl.|
 
 F Ekka's Hideaway|QID|56118|M|47.48,63.24|N|At Iina Bluegill.|
-A The Zanj'ir Brutalizer|QID|55886|M|62.49,58.65|N|From Shirakess Subjugator.|O|
-K The Zanj'ir Brutalizer|ACTIVE|55886|M|64.12,57.02|QO|1|N|Kill the Zanj'ir Brutalizer.|
-T The Zanj'ir Brutalizer|QID|55886|M|64.12,57.02|
+K The Zanj'ir Brutalizer|ACTIVE|55886|M|64.12,57.02|QO|1|T|Zanj'ir Brutalizer|N|Kill the Zanj'ir Brutalizer.|
+C Time to Krill|QID|56078|M|63.70,50.41|N|Click Murky's Egg tp enter.|
+C Time to Krill|QID|56078|M|63.70,50.41|N|Use Murky's abilities to kill snapdragons.|
+
 A Snap Back|QID|56118|M|66.43,47.24|N|From Collector Kojo.|PRE|55000|
 A Legacy of Nar'anan|QID|56095|M|66.43,47.24|N|From Collector Kojo.|PRE|55000|
-C Snap Back|QID|56118|M|69.57,49.73|S|U|168947|N|Kill snapdragons. use the Scroll of Bursting Power on the Elite Terrormay Snapdragons before you agro them.|
+C Snap Back|QID|56118|M|69.57,49.73|S|U|168947|N|Kill snapdragons. use the Scroll of Bursting Power on the Elite Terrormaw Snapdragons before you agro them.|
 C Legacy of Nar'anan|QID|56095|M|67.45,47.14;70.66,50.85;71.87,50.47|CS|N|Click on the pylons to witness the memories.|
 C Snap Back|QID|56118|M|69.57,49.73|US|U|168947|N|Finish killing snapdragons.|
 T Snap Back|QID|56118|M|66.50,47.46|N|To Collector Kojo.|
@@ -227,10 +280,10 @@ C The Ever Drowning|QID|56312|M|73.97,41.80|CHAT|QO|1|N|Speak with First Arcanis
 C The Ever Drowning|QID|56312|M|79.83,44.90|QO|2|NC|N|Escort First Arcanist Thalyssra. Stay close to be in her bubble.|
 T The Ever Drowning|QID|56312|M|79.83,44.90|N|To First Arcanist Thalyssra.|
 A The Warbringer|QID|56314|M|79.83,44.90|N|From First Arcanist Thalyssra.|PRE|56312|
-C The Warbringer|QID|56314|M|80.35,45.05|NC|QO|1|N|Witness the Vision.|
+C The Warbringer|QID|56314|M|80.35,45.05|NC|N|Witness the Vision.|
 T The Warbringer|QID|56314|M|79.76,44.93|N|To First Arcanist Thalyssra.|
 A They Made Their Choice|QID|56316|M|79.76,44.93|N|From First Arcanist Thalyssra.|PRE|56316|
-C They Made Their Choice|QID|56316|M|80.43,44.85|N|Confront Abyssal Commander Sivara confronted|
+C They Made Their Choice|QID|56316|M|80.43,44.85|N|Confront Abyssal Commander Sivara.|
 T They Made Their Choice|QID|56316|M|79.77,44.93|N|To First Arcanist Thalyssra.|;unlocks flightmaster's whistle
 
 T Preserved Clues|QID|56242|M|81.45,45.50|N|To Preserved Journal on the ground.|
@@ -242,7 +295,8 @@ T Diaries of the Dead|QID|56244|M|78.88,41.19|N|To Enchanted Lock.|
 A Enchanted Lock|QID|56245|M|78.88,41.19|N|From Enchanted Lock.|PRE|56244|
 C Enchanted Lock|QID|56245|M|78.90,41.24|QO|1|N|Click on the Arcane Device to open a puzzle and then Match 3 purple runes to unlock the lock.|
 T Enchanted Lock|QID|56245|M|78.90,41.24|N|To Enchanted Lock.|
-A Treasure Tale|QID|5624|M|78.90,41.24|N|From Enchanted Lock.|PRE|56245|
+A Treasure Tale|QID|56248|M|78.90,41.24|N|From Enchanted Lock.|PRE|56245|
+C Leylocked Chest|QID|56025|M|75.81,48.44|NC|N|Click on the Arcane Device to open a puzzle-game. Uncross the ley lines (they will turn lighter color when uncrossed) to unlock the chest.|;WQ
 
 A The High Life|QID|56304|M|74.16,24.91|N|From Kelya Moonfall.|
 C The High Life|QID|56304|M|77.94,26.36|QO|1|N|Click on the Ruined Mixing Stand to spawn Varal Pansong and kill him to investigate the bakery.|
@@ -256,16 +310,32 @@ A On Ghostly Wings|QID|56422|M|80.22,31.88|N|From Kelya Moonfall.|PRE|56321|
 T On Ghostly Wings|QID|56422|M|74.16,24.91|N|To Kelya Moonfall.|
 f Zin-Azshari|QID|56813|M|74.16,25.02|N|At Kelya Moonfall.|
 
-A A Curious Discovery|QID|56560|M|71.79,25.81|N|From a Strange Crystal on the ground.|
-C Infestation of Madness|QID|55884|M|64.59,39.09|QO|1|N|Kill Kil'karrok makrura.|;WQ
-C Infestation of Madness|QID|55884|M|64.96,34.19|QO|2|N|Kill the Infestation of Madness.|
+C Broken Controller|QID|55663|M|59.40,57.10|QO|1|N|Free Slaves.|
+C Broken Controller|QID|55663|M|59.78,57.96|QO|2|N|Merciless Controller spawns when you have collected 8 freed slaves. Kill it.|
+C Requisition: A Few Spiral Leaf|QID|55725|M|50.21,66.41|S|N|Keep an eye out for today's requisiton quest to collect Spiral Leaves.|
+C Requisition: More Spiral Leaf|QID|55791|M|62.06,29.01|S!US|N|Poisonous Spiral Leaf can be found in this area.|
+C Requisition: We Need It All|QID|55801|M|51.96,29.70|QO|3|S!US|N|Pick up the Poisonous Spiral Leaf. Many spawn points in the area.|
+A Break a Few Eggs|QID|55986|M|70.81,23.20|N|From Caitfin Gills.|O|;Follower Q
+C Break a Few Eggs|QID|55986|M|69.42,20.24|N|Destroy Deepcoil Eggs.|
+T Break a Few Eggs|QID|55986|M|70.80,23.23|N|To Caitfin Gills.|
+C Dirty Dozen|QID|56032|M|64.94,13.44|N|Zoatroid Harvester float down from the "sky" and then travel up the hill, kill them before they get to the top of the hill.|
+C Jumping Jellies|QID|56121|M|61.20,28.72|NC|N|Walk into the purple tornado. Aim for the leftmost jelly, use spacebar to bouce your way spirling up to Tickles.|
+A Extra Shiny|QID|55985|M|60.83,30.92|N|From Mari Lazarfin.|O|
+C Extra Shiny|QID|55985|M|61.15,28.44|QO|1|N|Pick up the very small hard to see (but luckily stationary) Imbued Pearls in the pools of water.|
+T Extra Shiny|QID|55985|M|60.84,30.95|N|To Mari Lazarfin.|
+C Runelocked Chest|QID|56008|M|59.67,24.25|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 3 yellow runes.|
+C Runelocked Chest|QID|56007|M|59.14,24.28|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can destroy 17 red runes.|
+K Champion Alzana, Arrow of Thunder|ACTIVE|55887|M|53.04,24.25|T|Champion Alzana|N|Kill Alzana, Arrow of Thunder.|
+C Requisition: A Few Spiral Leaf|QID|55725|M|61.39,28.09|US|N|Poisonous Spiral plants can be found in this area.|
 
-C Leylocked Chest|QID|56023|M|67.05,35.71|NC|N|Click on the Arcane Devide to open a puzzle. Uncross the ley lines (they will turn lighter color when uncrossed) to unlock the chest.|;WQ
-C Leylocked Chest|QID|56024|M|75.32,24.53|NC|N|Click on the Arcane Devide to open a puzzle. Uncross the ley lines (they will turn lighter color when uncrossed) to unlock the chest.|;WQ
-R Shirakess Repository|ACH|13712;12|M|59.33,14.48|N|Run out to Shirakess Repository to get the explore credit.|
+A A Curious Discovery|QID|56560|M|71.79,25.81|N|From a Strange Crystal on the ground.|
+K Kassar, Wielder of Dark Blades|ACTIVE|55900|M|68.09,33.69|QO|1|T|Voidblade Kassar|N|Kill Voidblade Kassar.|
+C Leylocked Chest|QID|56023|M|67.05,35.71|NC|N|Click on the Arcane Device to open a puzzle-game. Uncross the ley lines (they will turn lighter color when uncrossed) to unlock the chest.|;WQ
+C Leylocked Chest|QID|56024|M|75.32,24.53|NC|N|Click on the Arcane Device to open a puzzle-game. Uncross the ley lines (they will turn lighter color when uncrossed) to unlock the chest.|;WQ
+C The Drowned Oracles|QID|56048|M|78.01,33.60|QO|1|NC|N|Kill Drowned Oracles.|
 
 A Legacy of the Mad Mage|QID|57086|N|From Dropped Lesser Benthic Arcanocrystal.|O|
-C Legacy of the Mad Mage|QID|57086|M|60.60,33.02|QO|1|N|Locate Mardivas's Laboratory|
+C Legacy of the Mad Mage|QID|57086|M|60.60,33.02|QO|1|N|Locate Mardivas's Laboratory.|
 C Legacy of the Mad Mage|QID|57086|M|60.27,33.62|QO|2|N|Place the Arcanocrystal.|
 C Legacy of the Mad Mage|QID|57086|M|59.89,33.88|QO|3|N|Activate the Amalgamator.|
 C Legacy of the Mad Mage|QID|57086|M|59.79,34.19|QO|4|N|Kill the amalgamation and pick up Mardivas's Arcane Cache Key.|
@@ -273,22 +343,19 @@ T Legacy of the Mad Mage|QID|57086|M|60.46,33.55|N|To Mardiva's Arcane Cache.|
 A The Laboratory of Mardivas|QID|55121|M|60.65,33.26|PRE|57086|N|From Mardiva's Tome.|
 C The Laboratory of Mardivas|QID|55121|M|59.88,33.96|QO|1|N|Activate the Elemental Essence Amalgamator.|
 C The Laboratory of Mardivas|QID|55121|M|59.74,34.21|QO|2|N|Kill the Elemental Creation .|
-T The Laboratory of Mardivas|QID|55121|M|60.62,33.24|N|To Arcane Amalgamation.|
-A Champion Qalina, Spear of Ice|QID|55888|M|60.25,28.69|O|
-A What Will It Lure?|QID|55602|M|61.68,25.12|N|From Dropped item.|O|
-C Requisition: We Need It All|QID|55801|M|51.96,29.70|QO|3|N|Pick up the Poisonous Spiral Leaf. Many spawn points in the area.|
-A What Will It Lure?|QID|55602|N|From Chum, often contained in a Waterlogged Toolbox.|O|
-C What Will It Lure?|QID|55602|M|48.20,24.12|QO|1|NC|U|168159|N|Stand in the water (or else it often bugs out) and toss the Chum into Eel Infested Waters.|
-C What Will It Lure?|QID|55602|M|48.20,24.12|QO|2|N|Kill the eel that spawns and collect more Chum.|
-C What Will It Lure?|QID|55602|M|48.20,24.12|QO|3|NC|U|168159|N|Toss more Chum (kill eel, collect next chum, toss, repeat).|
-C What Will It Lure?|QID|55602|M|48.20,24.12|QO|4|N|Kill the Shimmering Eel and loot his Skin.|
-C Requisition: We Need It All|QID|55801|M|35.44,35.27|QO|5|N|Pick up the Pile of Flotsam. Many spawn points in the area.|
-f Ashen Strand|QID|55602|M|34.44,37.43|N|At Dren Nautilin.|
+T The Laboratory of Mardivas|QID|55121|M|60.62,33.24|N|To Mardiva's Tome. This becomes a weekly quest worth 500 faction and with a related achievement that rewards a mount.|
+K Champion Qalina, Spear of Ice|ACTIVE|55888|M|60.25,28.69|T|Champion Qalina|N|Kill Champion Qalina.|
+K Zoko, Her Iron Defender|ACTIVE|55894|M|77.44,43.07|QO|1|T|Iron Zoko|N|Kill Iron Zoko.|
 
-C Requisition: A Few Carp|QID|55723|M|30.43,36.58|QO|1|N|Keep an eye out for Struggling Carp and punt them towards the water.|
-A A Little Edge|QID|55993|M|26.16,42.52|N|From Kade Makreef.|O|
-C Requisition: We Need It All|QID|55801|M|38.19,14.34|QO|1|N|Pick up an Angel Scale Starfish. Many spawn points in the area.|
-C A Little Edge|QID|55993|M|39.48,12.59|QO|1|N|Kill Chitterspines and loot their Spines.|
+C Requisition: We Need It All|QID|55801|M|38.19,14.34|QO|1|S!US|N|Pick up an Angel Scale Starfish. Many spawn points in the area.|
+C Runelocked Chest|QID|56022|M|37.31,15.90|QO|1|N|Keep matching with the goal of destroying yellow runes.|
+R Shirakess Repository|ACH|13712;12|M|59.33,14.48|N|Run out to Shirakess Repository to get the explore credit.|
+A The Dark Garden|QID|55665|M|56.06,18.47|N|From Moris Criz.|O|
+C The Dark Garden|QID|55665|M|53.91,19.75|N|Clean up the Imperial Gardens.|
+T The Dark Garden|QID|55665|M|56.05,18.46|N|To Moris Criz.|
+K Champion Aldrantiss, Defender of Her Kingdom|ACTIVE|55891|M|60.59,13.71|QO|1|T|Aldrantiss|N|Kill Aldrantiss.|
+C Mindshackle|QID|56388|M|56.44,8.13|N|Defeat Mindshackle|
+A Strange Organ|QID|56464|M|56.44,8.13|
 
 A What Will It Mine?|QID|55531|N|From Brimstone Pickaxe, often contained in a Waterlogged Toolbox.|O|
 C What Will It Mine?|QID|55531|M|37.08,14.53|QO|1|NC|N|The shards are found in the cavern, click to mine.|
@@ -296,21 +363,138 @@ C What Will It Mine?|QID|55531|M|36.86,11.35|QO|2|NC|N|Place shards on the pedas
 C What Will It Mine?|QID|55531|M|36.86,11.35|QO|3|N|Kill and loot the elemental that spawns, May also spawn rare elite Avarius. (but he doesn't drop the item you need.)|
 C Hungry Hungry Hydras|QID|55997|M|35.77,12.12|QO|1|N|Keep giving Theronar chitterspine meat until fed (100%).|;wq
 C Hungry Hungry Hydras|QID|55997|M|35.60,12.43|QO|2|N|Ride Theronar.|
-T A Little Edge|QID|55993|M|25.79,41.87|N|To Kade Makreef.|
-A An Unexpected Friend|QID|56813|M|25.79,41.87|N|From Neri Sharpfin.|O|
-C Requisition: We Need It All|QID|55801|M|38.08,66.74|QO|7|N|Pick up the Sticky Seaweed that spawns multiple places in the area.|
-C Bounty: More Naga|QID|55827|M|56.72,28.97|QO|1|N|Finish your bounty quest before heading back to Newhome.|
+A An Unexpected Friend|QID|56813|N|From Neri Sharpfin, who is following you.|O|
+K Commander Sarj'eth|ACTIVE|56223|M|44.17,20.26|QO|1|T|Commander Sar'jeth|N|Kill Commander Sarj'eth and take his Head.|
+A Wiggletail's Poking Fork|QID|56445|M|36.87,27.75|N|From item dropped upon defeating Prince Wiggletail in a pet battle.|
 
+C Requisition: A Few Carp|QID|55723|M|30.43,36.58|QO|1|S!US|N|Keep an eye out for Struggling Carp and punt them towards the water.|
+A Most Delicious Clams|QID|56035|M|48.75,22.74|N|From Sardina Lauray. Abandon [What will it Lure, if you are having phasing issues and not being able to interact with the clams.|O|
+C Most Delicious Clams|QID|56035|M|47.50,22.34|NC|N|Gather Neptulian Clams. (beware the hungry fish.)|
+T Most Delicious Clams|QID|56035|M|48.84,22.55|N|From Sardina Lauray.|
+C Kelpstone|QID|56389|M|46.57,27.81|N|Defeat Kelpstone in a pet battle. If it is phased out, and you have [what will it lure], abandon the quest and then reaquire it from the item, after the pet battle.|
+A Overgrown Stone|QID|56465|M|46.57,27.81|N|From item dropped when defeating Kelpstone for the first time.|
+
+A What Will It Lure?|QID|55602|N|From Chum, often contained in a Waterlogged Toolbox.|O|;drop
+C What Will It Lure?|QID|55602|M|48.20,24.12|QO|1|NC|U|168159|N|Stand in the water (or else it often bugs out) and toss the Chum into Eel Infested Waters.|
+C What Will It Lure?|QID|55602|M|48.20,24.12|QO|2|N|Kill the eel that spawns and collect more Chum.|
+C What Will It Lure?|QID|55602|M|48.20,24.12|QO|3|NC|U|168159|N|Toss more Chum (kill eel, collect next chum, toss, repeat).|
+C What Will It Lure?|QID|55602|M|48.20,24.12|QO|4|N|Kill the Shimmering Eel and loot his Skin.|
+
+K Lady Naz'jess|ACTIVE|56222|M|36.50,17.75|QO|1|T|Lady Naz'jess|N|Kill Lady Naz'jess and claim her Head as proof.|
+C Frenzied Knifefang|QID|56391|M|58.30,26.79;59.06,26.59|CS|N|Frenzied Knifefang can be found in an underwater cave. Defeat Frenzied Knifefang in a pet battle.|
+A Frenzy Fang|QID|56467|M|59.06,26.59|NC|N|From item dropped when defeating Frenzied Knifefang in a pet battle for the first time.|O|
+
+C Requisition: More Flotsam|QID|55793|S!US|N|Pick up Piles of Flotsam, mostly found in the Ashen Strand subzone.|
+C Requisition: We Need It All|QID|55801|M|35.44,35.27|QO|5|S!US|N|Pick up the Pile of Flotsam. Many spawn points in the area.|
+f Ashen Strand|QID|55602|M|34.44,37.43|N|At Dren Nautilin.|
+A She Sells These Shells|QID|55766|M|37.94,48.71|N|From Bren Inkfin.|O|
+C She Sells These Shells|QID|55766|M|37.73,41.16|NC|N|Pick up Seashells.|
+K Undana, Chilling Assassin|ACTIVE|55896|M|34.87,33.04|QO|1|T|Udana Frostbarb|N|Kill Udana Frostbarb.|
+
+A A Little Edge|QID|55993|M|26.16,42.52|N|From Kade Makreef.|O|
+C A Little Edge|QID|55993|M|39.48,12.59|N|Run back to Chitterspine Caverns and kill Chitterspines and loot their Spines.|
+T A Little Edge|QID|55993|M|25.79,41.87|N|To Kade Makreef.|
+C Ravenous Scalespawn|QID|56387|M|29.60,49.64|N|Defeat Ravenous Scalespawn in a pet batle.|
+A Mottled Hydra Scale|QID|56463|M|29.60,49.64|N|From item dropped when defeating pet battle Ravenous Scalespawn.|
+K Frozen Winds of Zhiela|ACTIVE|55895|M|33.30,39.84|T|Glacier Mage Zhiela|N|Kill Glacier Mage Zhiela.|
+
+A Drunk Angry Murlocs|QID|56265|M|25.47,26.40|N|From King Mrgl-Mrgl in an underwater cave.|O|
+C Drunk Angry Murlocs|QID|56265|M|27.27,32.63|NC|N|Pick up the casks of Ocean "Infused" Lager scattered around the murloc camp.|
+T Drunk Angry Murlocs|QID|56265|M|25.47,26.38|N|To King Mrgl-Mrgl.|
+A We're Going To Be Friends|QID|56808|M|25.39,26.37|N|From Poen Gillbrack.|O|
+C Attrition|QID|55970|M|27.25,31.25|QO|1|
+C Attrition|QID|55970|M|26.15,29.43|QO|2|
+
+C Requisition: A Few Kelp Buds|QID|55721|M|36.51,76.50|S!US|N|Pick up the Fallen Kelp Buds in the area.|
+C Requisition: More Seaweed|QID|55786|M|37.64,82.89|QO|S!US|N|Pick up the Sticky Seaweed in the area.|
+C Requisition: We Need It All|QID|55801|M|38.08,66.74|QO|7|S!US|N|Pick up the Sticky Seaweed that spawns multiple places in the area.|
+C The Lords of Water|QID|55982|M|36.11,72.01|QO|1|N|Choose a Water Lord.|
+C The Lords of Water|QID|55982|M|36.26,72.01|QO|2|N|Using the Water Lord's abilities, slay Naga.|
+K Starseeker of the Shirakess|ACTIVE|55899|M|42.18,67.03|T|Starseeker of the Shirakess|N|Kill Starseeker of the Shirakess.|
+
+f Wreck of the Hungry Riverbeast|QID|55864|M|36.13,82.31|QO|3|N|At Markona.|
+
+C The Price is Death|QID|55864|M|42.57,49.79|S|N|Kill Naga forces.|
+C Deteriorating Knowledge|QID|55863|M|60.02,46.29|QO|3|N|Attack the mind-shackled kelfin to rescue Esma.|
+C Deteriorating Knowledge|QID|55863|M|42.41,68.11|QO|1|N|Attack the mind-shackled kelfin to rescue Fenn.|
+C Deteriorating Knowledge|QID|55863|M|48.29,16.11|QO|2|N|Attack the mind-shackled kelfin to rescue Kono.|
+C The Price is Death|QID|55864|M|42.57,49.79|US|N|Finish killing the needed Naga forces.|
+T The Price is Death|QID|55864|M|39.01,30.42|N|To Dash.|
+T Deteriorating Knowledge|QID|55863|M|38.98,30.38|N|To Fenn.|
+A What We Know of the Naga|QID|55865|M|38.97,30.38|N|From Fenn.|PRE|55863&55864|
+C What We Know of the Naga|QID|55865|M|38.96,30.35|QO|1|NC|N|Click on Esma to bandage.|
+C What We Know of the Naga|QID|55865|M|39.00,30.47|QO|2|NC|N|Click on Kono to bandage.|
+T What We Know of the Naga|QID|55865|M|38.98,30.39|N|To Fenn.|
+A Scouting Undercover|QID|55866|M|38.98,30.39|N|From Fenn.|PRE|55865|
+C Scouting Undercover|QID|55866|M|38.92,30.28|NC|N|Click on the Zoatroid Disguise.|
+T Scouting Undercover|QID|55866|M|36.98,27.03|N|To Overseer Hajeer.|
+A Sating Snapdragons|QID|55967|M|36.98,27.03|N|From Overseer Hajeer.|PRE|55866|
+A Working with Purpose|QID|56046|M|36.98,27.03|N|From Overseer Hajeer.|PRE|55866|
+C Working with Purpose|QID|56046|M|39.66,14.63|S|NC|N|Pick up Iridescent Pearls.|
+K Chitterspine Crabs|QID|55967|L|168753 10|N|You will need the Roe for feeding the snapdragons in a moment.|
+C Working with Purpose|QID|56046|M|39.66,14.63|US|NC|N|Finish collecting the Iridescent Pearls|
+C Sating Snapdragons|QID|55967|M|35.94,21.48|U|168753|NC|N|Kill Chitterspines(north of here) to collect Roe and throw it on the Savage Snapdragons.|
+T Sating Snapdragons|QID|55967|M|36.94,27.05|N|To Overseer Hajeer.|
+T Working with Purpose|QID|56046|M|36.94,27.05|N|To Overseer Hajeer.|
+A We Can't Have Dull Weapons|QID|56047|M|36.94,27.05|N|From Overseer Hajeer.|PRE|55967&56046|
+T We Can't Have Dull Weapons|QID|56047|M|34.68,21.11|N|To Weapons Chest.|
+A Stealing the Naga's Secrets|QID|56045|M|34.68,21.11|N|From Weapons Chest.|
+C Stealing the Naga's Secrets|QID|56045|M|34.68,21.11|QO|1|NC|N|Pick up the Azerite Trident.|
+C Stealing the Naga's Secrets|QID|56045|M|38.67,26.40|QO|2|N|Advance forward and kill Zanj'ir.|
+T Stealing the Naga's Secrets|QID|56045|M|38.91,30.53|N|To Lor'themar Theron.|
+A Sea Slug Liquidation|QID|55870|M|38.86,30.42|N|From Chief Telemancer Oculeth.|PRE|56045|
+A Coveted Crystals|QID|55867|M|38.86,30.42|QO|1|N|From Chief Telemancer Oculeth.|PRE|56045|
+C Sea Slug Liquidation|QID|55870|M|26.91,28.71|S|NC|N|Collect slugs for their bioluminescent ooze.|
+K Hoarder Moarrgl|ACTIVE|55867|M|26.97,26.86|QO|1|T|Hoarder Moarrgl|N|Kill Hoarder Moarrgl and loot the Deepsea Crystal.|
+C Sea Slug Liquidation|QID|55870|M|26.91,28.71|US|NC|N|Finish Picking up the Bioluminescent Oozes.|
+T Sea Slug Liquidation|QID|55870|M|38.86,30.42|N|To Chief Telemancer Oculeth.|
+T Coveted Crystals|QID|55867|M|38.86,30.42|N|To Chief Telemancer Oculeth.|
+A Let the Residue Lead You|QID|55868|M|38.86,30.42|N|From Chief Telemancer Oculeth.|PRE|55870&55867|
+C Let the Residue Lead You|QID|55868|M|46.24,51.39|U|168541|NC|N|Follow the glowing blue trail to locate the Azerite Weapons Cache.|
+T Let the Residue Lead You|QID|55868|M|46.11,52.04|N|To Azerite Weapons Cache.|
+A Clearing Out the Cache|QID|55869|M|46.11,52.04|N|From Azerite Weapons Cache.|PRE|55869|
+C Clearing Out the Cache|QID|55869|M|44.52,53.17|N|Defeat 3 waves of Ashvane's forces.|
+T Clearing Out the Cache|QID|55869|M|48.51,62.19|N|To Lor'themar Theron.|
+A Down But Not Out|QID|56236|M|48.51,62.19|N|From Lor'themar Theron.|PRE|55869|
+
+T WANTED: Commander Sarj'eth|QID|56223|M|48.06,61.33|N|To Seacaller Unow.|
+T WANTED: Lady Naz'jess|QID|56222|M|48.06,61.34|N|To Seacaller Unow.|
+A Just A Friend|QID|56803|M|48.02,61.26|N|From Vim Brineheart.|
 T A Curious Discovery|QID|56560|M|49.14,61.46|N|To Narv.|
 T Treasure Tale|QID|56248|M|49.18,62.08|N|To Finder Palta.|
 T What Will It Lure?|QID|55602|M|49.16,62.21|N|To Finder Pruc.|
+T Overgrown Stone|QID|56465|M|49.23,62.08|N|To Finder Palta.|
+T Strange Organ|QID|56464|M|49.24,62.07|N|To Finder Palta.|
+T Wiggletail's Poking Fork|QID|56445|M|49.23,62.09|N|To Finder Palta.|
+T Mottled Hydra Scale|QID|56463|M|49.23,62.09|N|To Finder Palta.|
+T Frenzy Fang|QID|56467|M|49.24,62.09|N|To Finder Palta.|
 T What Will It Mine?|QID|55531|M|49.16,62.21|N|To Finder Pruc.|
 T What Will It Grow?|QID|55426|M|49.16,62.21|N|To Finder Pruc.|
+T Down Into Nazjatar|QID|56235|M|48.50,62.17|N|To Lor'themar Theron.|
+A Insight into Our Enemies|QID|55862|M|48.50,62.17|N|From Lor'themar Theron.|PRE|56235|
+T Insight into Our Enemies|QID|55862|M|48.52,62.26|N|To Neri Sharpfin.|
+A Deteriorating Knowledge|QID|55863|M|48.52,62.26|N|From Neri Sharpfin.|PRE|55862|
+A The Price is Death|QID|55864|M|48.52,62.26|N|From Neri Sharpfin.|PRE|55862|
+T She Sells These Shells|QID|55766|M|50.29,63.96|N|To Suva.|
+T Broken Controller|QID|55663|M|50.43,66.23|N|To Atolia Seapearl.|
 T The Unshackled|QID|56120|M|50.99,65.25|N|To Atolia Seapearl.|
+T An Unexpected Friend|QID|56813|M|50.97,65.28|N|To Atolia Seapearl.|
+T We're Going To Be Friends|QID|56808|M|51.00,65.27|N|To Atolia Seapearl.|
+T Just A Friend|QID|56803|M|50.98,65.26|N|To Atolia Seapearl.|
+T Bounty: More Hydras|QID|55829|M|50.97,65.27|N|To Atolia Seapearl.|
+T Bounty: A Few Naga|QID|55818|M|51.00,65.27|N|To Atolia Seapearl.|
 T Bounty: More Naga|QID|55827|M|50.99,65.25|N|To Atolia Seapearl.|
+T Bounty: Elite Naga Forces|QID|55836|M|50.99,65.25|N|To Atolia Seapearl.|
+T Bounty: Dangerous Creatures|QID|55837|M|51.00,65.27|N|To Atolia Seapearl.|
+T Bounty: A Few Coral Ancients|QID|55821|M|50.97,65.24|N|To Atolia Seapearl.|
 T Requisition: A Few Carp|QID|55723|M|50.99,65.25|N|To Atolia Seapearl.|
 T Requisition: We Need It All|QID|55801|M|50.97,65.28|N|To Atolia Seapearl.|
-T An Unexpected Friend|QID|56813|M|50.97,65.28|N|To Atolia Seapearl.|
+T Requisition: A Few Spiral Leaf|QID|55725|M|50.97,65.27|N|To Zanj'ir Trapper.|
+T Requisition: More Spiral Leaf|QID|55791|M|50.97,65.24|N|To Atolia Seapearl.|
+T Requisition: A Few Kelp Buds|QID|55721|M|50.97,65.24|N|To Atolia Seapearl.|
+T Requisition: More Seaweed|QID|55786|M|50.97,65.24|N|To Atolia Seapearl.|
+T Requisition: More Flotsam|QID|55793|M|51.00,65.27|N|To Atolia Seapearl.|
+T Requisition: More Deepcoral Buds|QID|55790|M|50.98,65.26|N|To Atolia Seapearl.|
 
 ]]
 
