@@ -1873,7 +1873,13 @@ function WoWPro.NextStep(k,i)
 					flyFlip = true
 				end
 				if expansion == "BFA" then 
-					spellKnown = false
+					spellName = GetSpellInfo(278833)
+					name, rank, icon, castTime, minRange, maxRange, spellId = GetSpellInfo(spellName)
+					if (spellID == "278833") then
+						spellKnown = true
+					else
+						spellKnown = false
+					end
 				elseif expansion == "LEGION" then 
 					spellName = GetSpellInfo(233368)
 					spellKnown = GetSpellInfo(spellName)
