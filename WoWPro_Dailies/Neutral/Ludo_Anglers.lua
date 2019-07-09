@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/anglers_reputation
+-- Date: 2019-07-09 08:03
+-- Who: Hendo72
+-- Log: Fixed a coordinate typo in: C Like Bombing Fish In A Barrel. I used a comma instead of a decimal. My bad.
+
+-- URL: http://wow-pro.com/node/3509/revisions/30312/view
 -- Date: 2019-07-08 11:18
 -- Who: Hendo72
 -- Log: Removed |L| tags that were no longer needed. The counters don't work anymore.
@@ -106,7 +111,7 @@ C Riverblade Raider slain|QID|30588|M|63.25,38.85;62.04,40.82|CN|QO|1|T|Riverbla
 C Huff&Puff|QID|30658|M|50.50,58.65;53.20,64.70;50.50,60.95;52.24,62.58|CN|T|Prickly Puffer|U|80403|N|Face the fish and click the button.  No aiming required.  Put pets on passive or you may lose the loot.|
 C Jagged Abalone|QID|30586|M|68.70,39.80;73.83,38.45;71.00,40.46;70.47,37.59|CN|T|Jagged Abalone|N|Watch for sharks and stay torwards the top of the trench.|
 C Frenzied Reef Shark|QID|30753|M|68.2,42.2|QO|1|N|Jump on the shark. Hit all three buttons on cooldown, 123. If you get thrown, ask John for another shark.|
-C Like Bombing Fish In A Barrel|QID|30678|M|70.7,41.5;64.3,41.4;61.1,44.5;61.4,48,0|CN|T|Sting Ray|U|80599|N|Use the raft and the end of the dock. Target a Ray on the surface close by and throw the bomb. Get off your raft to loot.|
+C Like Bombing Fish In A Barrel|QID|30678|M|70.7,41.5;64.3,41.4;61.1,44.5;61.4,48.0|CN|T|Sting Ray|U|80599|N|Use the raft and the end of the dock. Target a Ray on the surface close by and throw the bomb. Get off your raft to loot.|
 C What Lurks Below|QID|30585|M|34.2,31.4|L|80262|N|Fish in the mysterious whirlpool.  When Narjon appears, re-equip your weapon and kill him.  Loot the ring.|
 C Piranha!|QID|30763|M|32.33,46.38|N|Head out to the river and fish! Stay away from Dawnchaser Retreat or the Temple of the Red Crane.|
 C Scavenger Hunt|QID|30698|M|56.96,54.51;64.23,50.31|CC|N|Get on the raft next to Fiznix and go fishing for Debris.|
