@@ -100,7 +100,7 @@ function WoWPro:CheckPlayerForBuffs(buffs)
         BuffIndex = BuffIndex + 1
         BuffName, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
 	end
-    WoWPro:print("CheckPlayerForBuffs(%s): %s", buffs, BuffString)
+    WoWPro:dbp("CheckPlayerForBuffs(%s): %s", buffs, BuffString)
 	return WoWPro:QIDInTable(buffs, buffies)
 end
 
