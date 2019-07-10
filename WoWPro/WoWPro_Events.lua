@@ -87,23 +87,21 @@ end
 
 function WoWPro:CheckPlayerForBuffs(buffs)
 	local buffies = {}
-    local buffIdx
-    for buffIdx = 1, select("#",string.split(";",buffs)) do
-        local buff = select(buffIdx,string.split(";",buffs))
-        buffies[buffIdx] = tonumber(buff)
-    end
+	-- Build table of all active buffs
     local BuffIndex = 1
+    local BuffString = ""
     local BuffName, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
     while BuffName do
-        for buffIdx = 1, #buffies do
-            if BuffSpellId == buffies[buffIdx] then
-                return BuffSpellId
-            end
+        buffies[BuffSpellId] = true
+        if BuffIndex > 1 then
+            BuffString = BuffString .. ","
         end
+        BuffString = BuffString .. string.format("%s(%d)", BuffName, BuffSpellId)
         BuffIndex = BuffIndex + 1
         BuffName, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
-    end
-    return nil
+	end
+    WoWPro:print("CheckPlayerForBuffs(%s): %s", buffs, BuffString)
+	return WoWPro:QIDInTable(buffs, buffies)
 end
 
 -- Auto-Complete: Do we have a buff? --
