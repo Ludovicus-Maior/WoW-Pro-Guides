@@ -734,9 +734,9 @@ function WoWPro:RowUpdate(offset)
 		local completion = WoWProCharDB.Guide[GID].completion
 
 		-- Unstickying stickies --
-		if unsticky and i == WoWPro.ActiveStickyCount+1 then
+		if unsticky and (not sticky) and i == WoWPro.ActiveStickyCount+1 then
 			for n,row in ipairs(WoWPro.rows) do
-				if step == row.step:GetText() and WoWPro.sticky[row.index] and not completion[row.index] then 
+				if step == row.step:GetText() and WoWPro.sticky[row.index] and not completion[row.index] then
 					completion[row.index] = true
 					return true --reloading
 				end
@@ -1245,7 +1245,7 @@ function WoWPro.NextStep(k,i)
 	    end
 
 	    -- WoWPro:dbp("Checkpoint Aleph for step %d",k)
-	    
+
 		-- Checking Prerequisites --
     	if WoWPro.prereq[k] then
     	    if WoWPro.prereq[k] == "" then
@@ -1322,7 +1322,7 @@ function WoWPro.NextStep(k,i)
     			end
     		end
     	end
-    
+
         -- Select the right C step with the QG tag that matches the gossip
         if WoWPro.GossipText and WoWPro.gossip[k] and  not WoWProCharDB.Guide[GID].completion[k] then
             -- is gossip in GossipText?
@@ -1445,7 +1445,7 @@ function WoWPro.NextStep(k,i)
     		    end
     		end
     	end
-    	
+
     	-- Complete "f" steps if we know the flight point already
         if WoWPro.action[k] == "f"  and WoWProCharDB.Taxi and WoWProCharDB.Taxi[WoWPro.step[k]] then
 	        WoWPro.CompleteStep(k, "Taxi point known")
@@ -1506,9 +1506,9 @@ function WoWPro.NextStep(k,i)
                 end
             end
         end
-            
+
         -- WoWPro:dbp("Checkpoint Beth for step %d",k)
-         
+
 		-- Skipping profession quests if their requirements aren't met --
 		if WoWPro.prof[k] and not skip then
 			local prof, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
@@ -1520,7 +1520,7 @@ function WoWPro.NextStep(k,i)
                 proflvl = proflvl - WoWProCharDB.ProfessionalfOffset
                 if 	proflvl < 1 then
                     proflvl = 1
-                end	    
+                end
 			end
 			if type(prof) == "string" and type(proflvl) == "number" and not WoWPro.CLASSIC then
 				local hasProf = false
@@ -1577,7 +1577,7 @@ function WoWPro.NextStep(k,i)
 			    WoWPro:Error("Warning: malformed profession tag [%s] at step %d",WoWPro.prof[k],k)
 			end
 		end
-        
+
 		-- Skipping reputation quests if their requirements are met --
 		if WoWPro.rep and WoWPro.rep[k] and not skip then
 			local rep, factionIndex, temprep, replvl, flip = string.split(";",WoWPro.rep[k])
@@ -1612,7 +1612,7 @@ function WoWPro.NextStep(k,i)
             if not Rep2IdAndClass[repmin] then
                 WoWPro:Error("Bad lower REP value of [%s] found in [%s].  Defaulting to 1.",temprep,WoWPro.rep[k])
                 repmin = 0
-            end                
+            end
             Friendship = Rep2IdAndClass[repmin][2]
             repmin = Rep2IdAndClass[repmin][1]
             if not repmin then
@@ -1627,7 +1627,6 @@ function WoWPro.NextStep(k,i)
                 repmax = 5
             end
 
-            
 			skip = true --reputation steps skipped by default
 			WoWPro.why[k] = "NextStep(): Reputation steps skipped by default"
 			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, hasBonusRepGain
@@ -1686,7 +1685,7 @@ function WoWPro.NextStep(k,i)
 			    WoWPro:dbp("!? Processed flip: skip=%s", tostring(skip))
 			end
         end
-        
+
         -- Skipping Achievements if completed  --
     	if WoWPro.ach and WoWPro.ach[k] then
 			local achtbl
@@ -1757,7 +1756,7 @@ function WoWPro.NextStep(k,i)
 							    WoWPro:dbp(why)
 							end -- Achievement not complete. OR steps continue to show and process the loop to keep checking others
 						end
-					end 
+					end
 				else
 					local count = GetAchievementNumCriteria(achnum)
 					if tonumber(achitem) <= count then
@@ -1821,7 +1820,7 @@ function WoWPro.NextStep(k,i)
 				WoWPro.why[k] = why
 			end
     	end
-    	
+
 	if WoWPro.ilvl and WoWPro.ilvl[k] then
     		local ilvlID,ilvlFlip = string.split(";",WoWPro.ilvl[k])
     		local avgIlvl = GetAverageItemLevel()
@@ -1842,7 +1841,7 @@ function WoWPro.NextStep(k,i)
 			WoWPro.why[k] = "NextStep(): Item Level ["..ilvlID.."] not met."
 		end			
     	end		
-			
+
     	-- Skipping spells if known.
     	-- Warning: not all spells are detectable by this method.  Blizzard is not consistent!
     	-- This tests for Spells you can put on a button, essentially.
@@ -1861,7 +1860,7 @@ function WoWPro.NextStep(k,i)
 				WoWPro:dbp(why)
 			end
     	end
-    	
+
 		if WoWPro.fly and WoWPro.fly[k] then
 			if WoWProCharDB.EnableFlight or WoWPro.action[k] == "R" then
 				local expansion = WoWPro.fly[k]
@@ -1937,7 +1936,7 @@ function WoWPro.NextStep(k,i)
                 break
             end
      	end
-        
+
         -- Test for pets
     	if WoWPro.pet and WoWPro.pet[k] then
     	    local petID,petCount,petFlip = string.split(";",WoWPro.pet[k])
@@ -1955,7 +1954,7 @@ function WoWPro.NextStep(k,i)
                 break
             end
      	end
-        
+
         -- Test for buildings, default is to skip if we dont have any of the named ones if all other conditions satisfied.
         if WoWPro.building and WoWPro.building[k] and not skip then
             local Name,ids  = string.split(";",WoWPro.building[k],2)
@@ -2014,9 +2013,9 @@ function WoWPro.NextStep(k,i)
                 skip = not owned
             end
 		end
-        
+
         -- WoWPro:dbp("Checkpoint Gimel for step %d",k)
-        
+
 		-- Skipping any quests with a greater completionist rank than the setting allows --
 		if WoWPro.rank and WoWPro.rank[k] then
 		    local rank = tonumber(WoWPro.rank[k])
@@ -2033,7 +2032,7 @@ function WoWPro.NextStep(k,i)
 			    break
 			end
 		end
-		
+
 		-- WoWPro:dbp("Checkpoint Daleth for step %d",k)
         -- Do we have enough loot in bags?
 		if (WoWPro.lootitem and WoWPro.lootitem[k]) then
@@ -2058,19 +2057,19 @@ function WoWPro.NextStep(k,i)
 			        skip = true
 			    end
 			end
-		else		
+		else
     		-- Special for Buy steps where the step name is the item to buy and no |L| specified
     		if WoWPro.action[k] == "B" then
     		    if GetItemCount(WoWPro.step[k]) > 0 then
     			    WoWPro.CompleteStep(k, "NextStep(): completed cause you bought enough named loot.")
     			    skip = true
     			end
-    		end		    
+    		end
         end
-		
+
 		-- Skipping any unstickies until it's time for them to display --
-		if WoWPro.unsticky[k] and WoWPro.ActiveStickyCount and i > WoWPro.ActiveStickyCount+1 then 
-			skip = true 
+		if WoWPro.unsticky[k] and (not WoWPro.sticky[k]) and WoWPro.ActiveStickyCount and i > WoWPro.ActiveStickyCount+1 then
+			skip = true
 		end
 
         -- PETS!!  There are two classses of pet steps:  Selection and Strategy
@@ -2109,7 +2108,7 @@ function WoWPro.NextStep(k,i)
             end
             break
         end
-        
+
         -- Pet Strategy steps guide the user in the use of the pets.
         -- Skip over inactive strategy steps
         if WoWPro.strategy[k] and WoWPro.current_strategy then
@@ -2158,12 +2157,12 @@ function WoWPro.NextStep(k,i)
         end
 
 		skip = WoWPro[WoWPro.Guides[GID].guidetype]:NextStep(k, skip)
-				
+
 	until true
 	if skip then k = k+1 end
-		
+
 	end
-	
+
 	WoWPro.why[k] = "NextStep(): Step active."
 	WoWPro:dbp("%s=WoWPro.NextStep()",tostring(k))
 	return k
@@ -2175,10 +2174,10 @@ function WoWPro.NextStepNotSticky(k)
     WoWPro:dbp("Called WoWPro.NextStepNotSticky(%d)",k)
 	if not k then k = 1 end
 	local sticky = true
-	while sticky do 
+	while sticky do
 		sticky = false
 		k = WoWPro.NextStep(k)
-		if WoWPro.sticky[k] then 
+		if WoWPro.sticky[k] then
 			sticky = true
 			k = k + 1
 		end
