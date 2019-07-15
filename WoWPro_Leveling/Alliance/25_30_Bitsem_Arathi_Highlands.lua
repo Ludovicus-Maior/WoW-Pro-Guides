@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_alliance
+-- Date: 2019-07-14 19:43
+-- Who: Hendo72
+-- Log: Changed the coordinates for 'Sunken Treasure' to point to where you're suppose to go instead to the quest giver. Fixed a major problem with 'Stones of Binding'. The Thunder Key was mislabeled as the Cresting Key and was skipping the Thunder key step when you picked up the Cresting key. I abandoned the quest 3 times to figure this one out. :(
+
+-- URL: http://wow-pro.com/node/3229/revisions/29165/view
 -- Date: 2018-02-26 21:34
 -- Who: Ludovicus_EditBot
 -- Log: LVL strip
@@ -197,7 +202,7 @@ T Goggle Boggle|QID|26050|M|27.60,83.13|N|To Doctor Draxlegauge.|
 
 A Sunken Treasure|QID|26051|PRE|26050|RANK|1|M|27.60,83.13|N|From Doctor Draxlegauge.|
 C Drowned Sorrows|QID|26055|S|M|15.77,87.11|N|Kill Daggerspine Raiders and Sorceress.|
-C Sunken Treasure|QID|26051|NC|M|27.60,83.13|N|Your head gear should have been changed to the Goggles. Find and loot gems, they will show up on your mini-map as Calcified Elven Gems.|U|4491|
+C Sunken Treasure|QID|26051|NC|M|19.20,87.75|N|Your head gear should have been changed to the Goggles. Find and loot gems, they will show up on your mini-map as 'Calcified Elven Gems'.|U|4491|
 C Drowned Sorrows|QID|26055|US|M|15.77,87.11|N|Finish killing the Daggerspine Raiders and Sorceress. Re-equip your head gear.|
 
 T Drowned Sorrows|QID|26055|M|27.64,83.30|N|To Captain Steelgut. Don't forget to re-equip your head gear.|
@@ -240,7 +245,7 @@ T The Princess Trapped|QID|26039|M|79.83,31.62|N|To the Iridescent Shards at the
 A Stones of Binding|QID|26041|PRE|26039|RANK|1|M|79.83,31.62|N|From the Iridescent Shards.|
 R Circle of East Binding|QID|26041|M|61.75,30.42|N|Head out of the cave then to Circle of East Binding, located North-West of Hammerfall.|
 C Stones of Binding: Cresting Key|QID|26041|NC|M|61.73,30.38|N|Click on the Stone of East Binding to receive the Cresting Key.|QO|2|; Cresting Key: 1/1
-C Stones of Binding: Thundering Key|QID|26041|NC|M|46.56,52.11|N|Click on the Stone of Outer Binding to receive the Thundering Key.|QO|2|; Cresting Key: 1/1
+C Stones of Binding: Thundering Key|QID|26041|NC|M|46.56,52.11|N|Click on the Stone of Outer Binding to receive the Thundering Key.|QO|3|; Thundering Key: 1/1
 C Stones of Binding: Burning Key|QID|26041|NC|M|18.93,31.00|N|Click on the Stone of West Binding to recieve the Burning Key.|QO|1|; Burning Key: 1/1
 T Stones of Binding|QID|26041|M|30.06,59.18|N|To the Stone of Inner Binding.|
 
