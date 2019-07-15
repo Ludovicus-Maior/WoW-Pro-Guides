@@ -1212,7 +1212,7 @@ function WoWPro.NextStep(k,i)
 	            WoWPro.CompleteStep(k,"NextStep(): Available quest is currently complete or active")
 	            break
 	        end
-	        WoWPro:dbp("Step %s [%s] AVAILABLE %s, skip=%s", WoWPro.action[k], WoWPro.step[k], available, ,tostring(skip))
+	        WoWPro:dbp("Step %s [%s] AVAILABLE %s, skip=%s", WoWPro.action[k], WoWPro.step[k], available, tostring(skip))
 	    end
 
 	    -- Check for must be active quests
