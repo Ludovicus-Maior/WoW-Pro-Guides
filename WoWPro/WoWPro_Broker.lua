@@ -194,7 +194,7 @@ function WoWPro:QuestAvailible(QIDs, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QuestAvailible(%s)",tostring(QIDs))
     end
-    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return (not WoWPro:IsQuestFlaggedCompleted(qid)) and (not WoWPro.QuestLog[qid]); end, why or "QuestAvailible", debug or quids_debug)
+    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return (not WoWPro:IsQuestFlaggedCompleted(qid, true)) and (not WoWPro.QuestLog[qid]); end, why or "QuestAvailible", debug or quids_debug)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QuestAvailible(%s) return %s",tostring(QIDs),tostring(value))
     end
@@ -1207,7 +1207,7 @@ function WoWPro.NextStep(k,i)
 	    -- Availible quests: not complete  --
 	    if WoWPro.available[k] then
 	        local available = WoWPro.available[k]
-	        if not WoWPro:QuestAvailible(available) then
+	        if not WoWPro:QuestAvailible(available, true) then
 	            skip = true
 	            WoWPro.CompleteStep(k,"NextStep(): Available quest is currently complete or active")
 	            break
