@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_alliance
+-- Date: 2019-07-21 06:21
+-- Who: Hendo72
+-- Log: Corrected 'Summoning Shadra' quest line. Southwestern Temple |QO| should be '3' instead of '1'. I've also removed the object text from the quest steps.
+
+-- URL: http://wow-pro.com/node/3239/revisions/30317/view
+-- Date: 2019-07-20 22:13
+-- Who: Hendo72
+-- Log: Rewrote 'The Highvale Documents' quest line for better flow and a more uniform syntax. All quest steps now use |QO| tag.
+
+-- URL: http://wow-pro.com/node/3239/revisions/29928/view
 -- Date: 2018-10-17 02:23
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -251,10 +261,10 @@ T Quel'Danil Lodge|QID|27725|M|32.20,42.63|N|To Anchorite Traska, she's in the h
 
 A In Defense of Quel'Danil|QID|27625|PRE|27725|M|32.20,42.63|N|From Anchorite Traska.|
 A The Highvale Documents|QID|27626|PRE|27725|M|32.20,42.63|N|From Anchorite Traska.|
-C In Defense of Quel'Danil|QID|27625|S|M|30.74,47.33|N|Kill any Deathstalkers that you come across.|
-l Highvale Report|QID|27626|L|61972|M|28.56,46.04|N|Loot the Highvale report from this waypoint.|
-l Highvale Notes|QID|27626|M|29.63,48.67|N|Loot the Highvale notes from here.|L|61974|
-C The Highvale Documents|QID|27626|M|31.91,46.99|N|And... Rounding out, the Highvale Records are at this waypoint, inside the lodge.|QO|2|NC|; Highvale Records: 1/1
+C In Defense of Quel'Danil|QID|27625|S|M|30.74,47.33|N|Kill any Deathstalker Invaders that you come across.|
+C The Highvale Documents|QID|27626|M|31.61,49.05;31.92,46.88|CN|QO|2|NC|N|The Highvale Records are inside the East wing of the lodge. You'll find them on the ground in the NE corner.|L|61973|
+C The Highvale Documents|QID|27626|M|29.63,48.67|QO|3|NC|N|You can just jump off the balcony instead of using the door. The Highvale Notes are on the ground beside the well.|L|61974|
+C The Highvale Documents|QID|27626|M|28.56,46.04|QO|1|NC|N|You'll find the Highvale Report on the small, stone altar inside the structure.|L|61972|
 C In Defense of Quel'Danil|QID|27625|US|M|30.74,47.33|N|Kill the Deathstalker Invaders.|
 
 T In Defense of Quel'Danil|QID|27625|M|32.19,42.62|N|To Anchorite Traska.|
@@ -284,9 +294,9 @@ T The Shell of Shadra|QID|26530|M|30.74,47.20|N|To Gilda Cloudcaller.|
 
 A Summoning Shadra|QID|26531|PRE|26530|M|30.74,47.20|N|From Gilda Cloudcaller.|
 R Shadra'Alor|QID|26531|M|35.72,64.40|N|Head to the Shadra'Alor.|
-C Northwestern Temple|QID|26531|U|58784|QO|1|M|32.03,67.07|N|Go to the top of the Northwestern Temple and use the idol.|NC|; Northwestern Temple: 1/1
-C Southwestern Temple|QID|26531|U|58784|QO|1|M|32.55,76.15|N|Go to the top of the Southwestern Temple and use the idol.|NC|; Southwestern Temple: 1/1
-C Eastern Temple|QID|26531|U|58784|QO|2|M|37.03,71.55|N|Go to the top of the Eastern Temple and use the idol.|NC|; Eastern Temple: 1/1
+C Northwestern Temple|QID|26531|U|58784|QO|1|M|32.03,67.07|N|Go to the top of the Northwestern Temple and use the idol.|NC|
+C Southwestern Temple|QID|26531|U|58784|QO|3|M|32.55,76.15|N|Go to the top of the Southwestern Temple and use the idol.|NC|
+C Eastern Temple|QID|26531|U|58784|QO|2|M|37.03,71.55|N|Go to the top of the Eastern Temple and use the idol.|NC|
 T Summoning Shadra|QID|26531|M|34.39,67.91|N|To Wildhammer Lookout.|
 A Shadra the Venom Queen|QID|26532|PRE|26531|M|34.39,67.92|N|From Wildhammer Lookout.|
 C Shadra the Venom Queen|QID|26532|M|34.21,69.46|N|Kill Shadra.  She will focus her attention on the NPCs, so you only have to worry about DPS'ing her.|
