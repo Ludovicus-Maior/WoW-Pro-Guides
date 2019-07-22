@@ -89,7 +89,7 @@ local function QidMapReduce(list,default,or_string,and_string,func, why, debug, 
     return default
 end
 
-function WoWPro.QidVerify(list,empty_ok,or_string,and_string)
+function WoWPro.IntListVerify(list,empty_ok,or_string,and_string)
     if not list then return empty_ok end
     if list == "" then return empty_ok end
     local do_or = string.find(list,or_string,1,true)

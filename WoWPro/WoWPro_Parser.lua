@@ -205,29 +205,29 @@ local function DefineTag(action, key, vtype, validator, setter)
     end
 end
 
-local function validate_list_of_qids(action, step, tag, value)
+local function validate_andor_list_of_ints(action, step, tag, value)
     --- Either X^Y^Z or X&Y&Z, or *, empty allowed
     if value == "*" then return true; end
-    return WoWPro.QidVerify(value, true,"^","&")
+    return WoWPro.IntListVerify(value, true,"^","&")
 end
 
-local function validate_list_of_ints(action, step, tag, value)
+local function validate_old_list_of_ints(action, step, tag, value)
     ---  X;Y, no empties
-    --- WoWPro.QidVerify(list,empty_ok,or_string,and_string)
-    return WoWPro.QidVerify(value, false,";","|")
+    --- WoWPro.IntListVerify(list,empty_ok,or_string,and_string)
+    return WoWPro.IntListVerify(value, false,";","|")
 end
 
 -- QID Tags first
-DefineTag("QID","QID","string",validate_list_of_qids,nil)
-DefineTag("PRE","prereq","string",validate_list_of_qids,nil)
-DefineTag("AVAILABLE","available","string",validate_list_of_qids,function (value, i) WoWPro.available[i] = value end)
+DefineTag("QID","QID","string",validate_andor_list_of_ints,nil)
+DefineTag("PRE","prereq","string",validate_andor_list_of_ints,nil)
+DefineTag("AVAILABLE","available","string",validate_andor_list_of_ints,function (value, i) WoWPro.available[i] = value end)
 DefineTag("O","optional","boolean",nil,function (text,i)
     WoWPro.optional[i] = true;
     WoWPro.optionalcount = WoWPro.optionalcount + 1;
 end)
-DefineTag("LEAD","leadin","string",validate_list_of_qids,nil)
-DefineTag("ACTIVE","active","string",validate_list_of_qids,function (value, i) WoWPro.active[i] = value; WoWPro.QID[i] = WoWPro.QID[i] or value; end)
-DefineTag("NPC","NPC","string",validate_list_of_ints,nil)
+DefineTag("LEAD","leadin","string",validate_andor_list_of_ints,nil)
+DefineTag("ACTIVE","active","string",validate_andor_list_of_ints,function (value, i) WoWPro.active[i] = value; WoWPro.QID[i] = WoWPro.QID[i] or value; end)
+DefineTag("NPC","NPC","string",validate_old_list_of_ints,nil)
 
 -- Mapping Tags
 DefineTag("M","map","string",nil,nil)
@@ -270,13 +270,13 @@ DefineTag("SPELL","spell","string",nil,nil)
 DefineTag("ILVL","ilvl","string",nil,nil)
 DefineTag("FLY","fly","string",nil,nil)
 DefineTag("ACH","ach","string",nil,nil)
-DefineTag("BUFF","buff","string",nil,nil)
+DefineTag("BUFF","buff","string",validate_andor_list_of_ints,nil)
 DefineTag("RECIPE","recipe","number",nil,nil)
 DefineTag("PET","pet","string",nil,nil)
 DefineTag("BUILDING","building","string",nil,nil)
 DefineTag("GUIDE","guide","string",nil,nil)
 DefineTag("RARE","rare","boolean",nil,nil)
-DefineTag("EX","expansion","string",validate_list_of_ints,nil)
+DefineTag("EX","expansion","string",validate_old_list_of_ints,nil)
 
 -- Pet Stuff
 DefineTag("PET1","pet1","string",nil,nil)
