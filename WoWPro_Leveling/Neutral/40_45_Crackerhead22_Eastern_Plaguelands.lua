@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2019-07-22 05:55
+-- Who: Hendo72
+-- Log: Corrected the syntax of 'Missing Caravan Buff' (per Emmaleah). It was throwing an error in chat, but not crashing. I also cleaned up the note attached to it as well. Made it a little  better visually.
+
+-- URL: http://wow-pro.com/node/3251/revisions/30078/view
 -- Date: 2018-10-23 22:14
 -- Who: Ludovicus_Maior
 -- Log: And/Or
@@ -244,7 +249,7 @@ C Plaguehounds|QID|27372|M|18.07,71.42|N|Kill Plaguehounds until you get 10 bloo
 T A Gift For Fiona|QID|27372|M|9.02,66.40|N|To Fiona.|
 A Onward, to Light's Hope Chapel|QID|27373|PRE|27369&27372|M|9.02,66.40|N|From Fiona.|
 
-N Missing Caravan Buff|QID|27373|BUFF|85612;85613;85614|N|Click on Fiona's Caravan to pick one of three buffs.\n\nFiona's Lucky Charm: Allows the looting of Hidden Stash which contains money and a chance of a companion pet.\nGidwin's Weapon Oil: Provides extra Holy damage on melee and ranged attacks.\nTarenar's Talisman: Provides extra Holy damage on successful spell attacks.|
+N Missing Caravan Buff|ACTIVE|27373|M|8.78,66.60|BUFF|85612^85613^85614|N|Click on Fiona's Caravan to pick one of three buffs:\n\n1. Fiona's Lucky Charm:\n Allows the looting of Hidden Stash which contains money and a chance of a companion pet.\n\n2. Gidwin's Weapon Oil:\n Provides extra Holy damage on melee and ranged attacks.\n\n3. Tarenar's Talisman:\n Provides extra Holy damage on successful spell attacks.|
 C Onward, to Light's Hope Chapel|QID|27373|CHAT|M|9.00,66.40|N|Click on Fiona's Caravan and select Ride Fiona's Caravan to its next destination. Sit back and relax, and watch the dialog as the caravan makes it's way to Crown Guard Tower.|
 f Crown Guard Tower|QID|27373|M|34.86,68.05|N|At Janice Myers.|
 T Onward, to Light's Hope Chapel|QID|27373|M|34.8,69.09|N|To Fiona.|
