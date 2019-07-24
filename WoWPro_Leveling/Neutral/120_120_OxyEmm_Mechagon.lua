@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mechagon_neutral
+-- Date: 2019-07-23 20:11
+-- Who: Emmaleah
+-- Log: Another weeks worth of dailies added and finishing the mount quest, added faction restrictions
+
+-- URL: http://wow-pro.com/node/3791/revisions/30315/view
 -- Date: 2019-07-15 03:42
 -- Who: Emmaleah
 -- Log: Nearly all dailies now included. 
@@ -57,8 +62,10 @@ N Nazjatar First|AVAILABLE|55646&54088|N|You must have done Nazjatar thru openin
 
 T Rumors of Mechagon|QID|57024|M|53.09,43.27|Z|Dazar'alor|N|To Gazlowe.|FACTION|Horde|
 A The Legend of Mechagon|QID|55646|PRE|55500|M|53.09,43.27|Z|Dazar'alor|N|From Gazlowe.|FACTION|Horde|
+A The Missing Crew|QID|56379|PRE|55500|M|58.46,62.98|Z|Zuldazar|N|From Dread-Admiral Tattersail. This quest is completed in Nazjatar, but this is the logical place to pick it up.|NA|FACTION|Horde|
+F Timberfell Outpost|ACTIVE|55646|M|87.27,50.66|Z|Tiragarde Sound|N|at Skrash.|FACTION|Horde|FLY|BFA|
 P Tiragarde Sound|ACTIVE|55646|M|58.46,62.98|Z|Zuldazar|N|Make your way to the Banshee's Wail and then ask the Admiral for Transport to Tiragarde Sound. |FACTION|Horde|
-F Timberfell Outpost|ACTIVE|55646|M|87.27,50.66|Z|Tiragarde Sound|N|at Skrash.|FACTION|Horde|
+F Timberfell Outpost|ACTIVE|55646|M|87.27,50.66|Z|Tiragarde Sound|N|at Skrash.|FACTION|Horde|FLY|BFA|
 T The Legend of Mechagon|QID|55646|M|72.05,54.61;74.44,56.71;66.47,61.89;65.63,64.61|Z|Tiragarde Sound|CS|N|To Gazlowe. He can be found in the Abandoned Junkheap.|FACTION|Horde|
 A A Quick Ear Hustle|QID|55647|M|65.63,64.61|Z|Tiragarde Sound|N|From Gazlowe.|FACTION|Horde|
 C A Quick Ear Hustle|QID|55647|M|65.62,64.62|Z|Tiragarde Sound|NC|N|Click on the wooden "rock" to hide and spy on the Alliance.|FACTION|Horde|
@@ -68,9 +75,10 @@ C This is Our Vault Now|QID|55648|M|65.87,66.43|Z|Tiragarde Sound|QO|1|NC|N|Clic
 T This is Our Vault Now|QID|55648|M|65.82,66.35|Z|Tiragarde Sound|N|To Gazlowe.|FACTION|Horde|
 A Let's Get It Started|QID|55630|M|65.82,66.35|Z|Tiragarde Sound|N|From Gazlowe.|FACTION|Horde|
 
+A The Missing Crew|QID|56378|M|67.95,26.72|Z|Boralus|N|From Grand Admiral Jes-Tereth. While this quest is done in Nazjatar, this is a more efficient place to pick it up.|NA|FACTION|Alliance|
 T Fame Waits for Gnome One|QID|57009|M|67.42,15.78|Z|Boralus|N|To Tinkmaster Overspark.|FACTION|Alliance|
 A The Legend of Mechagon|QID|54088|PRE|56156|M|67.42,15.78|Z|Boralus|N|From Tinkmaster Overspark.|FACTION|Alliance|
-F Kennings Lodge|ACTIVE|54088|M|66.96,14.99|Z|Boralus|N|at Joan Weber.|
+F Kennings Lodge|ACTIVE|54088|M|66.96,14.99|Z|Boralus|N|at Joan Weber.|FLY|BFA|
 T The Legend of Mechagon|QID|54088|M|65.63,65.04|Z|Tiragarde Sound|N|To Tinkmaster Overspark.|FACTION|Alliance|
 A Looking Inside|QID|55040|M|65.63,65.04|Z|Tiragarde Sound|N|From Tinkmaster Overspark.|FACTION|Alliance|
 C Looking Inside|QID|55040|M|65.91,66.20|Z|Tiragarde Sound|NC|N|Enter the vault.|FACTION|Alliance|
@@ -98,21 +106,20 @@ T You Must be This Height|QID|54087|M|65.84,66.34|Z|Tiragarde Sound|N|To Tinkmas
 
 A Machinations for Mechagon|QID|55649|M|65.90,66.41|Z|Tiragarde Sound|N|From Gazlowe.|FACTION|Horde|
 C Machinations for Mechagon|QID|55649|M|65.20,64.51|Z|Tiragarde Sound|V|N|Ride the Greasemonkey Skysneaker|FACTION|Horde|
-T Machinations for Mechagon|QID|55649|M|42.06,87.84|Z|Dazar'alor|LVL|1|N|To Gazlowe.|FACTION|Horde|
-A Only the Best Will Do|QID|55650|M|42.18,87.84|Z|Dazar'alor|LVL|1|N|From Skaggit.|FACTION|Horde|
-F The Sliver|QID|55650|M|53.34,57.32|Z|Zuldazar|LVL|1|N|Run to your preferred flightmaster and fly to The Sliver.|FACTION|Horde|
-R The Zocalo|QID|55650|M|42.40,25.73|Z|Zuldazar|LVL|1|N|Run up thru Terrace of the Chosen to The Zocalo.|FACTION|Horde|
-C Only the Best Will Do|QID|55650|M|45.14,40.58|Z|Dazar'alor|QO|1|CHAT|LVL|1|N|Continue on to the Terrace of the Crafters and find Shuga Blastcaps, (beside the Shred Master Mk1) and ask her for supplies for Gazlowe.|FACTION|Horde|
-C Only the Best Will Do|QID|55650|M|42.41,25.73|Z|Dazar'alor|QO|3|CHAT|LVL|1|N|Tell Ricket that Gazlowe has found Mechagon.|FACTION|Horde|
-C Only the Best Will Do|QID|55650|M|35.86,16.65|Z|Dazar'alor|QO|2|CHAT|LVL|1|N|Continue deeper into the Zocalo and find the Greasemonkey Union Rep, inside The Drunken Drummer and pick any of the chat options until negotiations are completed.|FACTION|Horde|
+T Machinations for Mechagon|QID|55649|M|42.06,87.84|Z|Dazar'alor|N|To Gazlowe.|FACTION|Horde|
+A Only the Best Will Do|QID|55650|M|42.18,87.84|Z|Dazar'alor|N|From Skaggit.|FACTION|Horde|
+F The Sliver|QID|55650|M|53.34,57.32|Z|Zuldazar|N|Run to your preferred flightmaster and fly to The Sliver.|FACTION|Horde|FLY|BFA|
+R The Zocalo|QID|55650|M|42.40,25.73|Z|Dazar'alor|N|Run up thru Terrace of the Chosen to The Zocalo.|FACTION|Horde|
+C Only the Best Will Do|QID|55650|M|45.14,40.58|Z|Dazar'alor|QO|1|CHAT|N|Continue on to the Terrace of the Crafters and find Shuga Blastcaps, (beside the Shred Master Mk1) and ask her for supplies for Gazlowe.|FACTION|Horde|
+C Only the Best Will Do|QID|55650|M|42.41,25.73|Z|Dazar'alor|QO|3|CHAT|N|Tell Ricket that Gazlowe has found Mechagon.|FACTION|Horde|
+C Only the Best Will Do|QID|55650|M|35.86,16.65|Z|Dazar'alor|QO|2|CHAT|N|Continue deeper into the Zocalo and find the Greasemonkey Union Rep, inside The Drunken Drummer and pick any of the chat options until negotiations are completed.|FACTION|Horde|
 F Port of Zandalar|ACTIVE|52342|M|35.86,16.65|Z|Dazar'alor|U|141605|NC|LVL|120|N|Use your flightmaster's whistle and then fly back to the port to meet up with Skaggit.|FACTION|Horde|
-T Only the Best Will Do|QID|55650|M|42.20,87.85|Z|Dazar'alor|LVL|1|N|To Skaggit.|FACTION|Horde|
-A To Mechagon!|QID|55651|M|42.06,87.82|Z|Dazar'alor|LVL|1|N|From Gazlowe.|FACTION|Horde|
-C To Mechagon!|QID|55651|M|41.82,87.60|Z|Dazar'alor|QO|1|CHAT|LVL|1|N|Tell Captain Krooz you are ready to go.|FACTION|Horde|
-f The Greasy Eel|ACTIVE|55651|M|76.18,15.30|N|At Gazlowe.|FACTION|Horde|
+T Only the Best Will Do|QID|55650|M|42.20,87.85|Z|Dazar'alor|N|To Skaggit.|FACTION|Horde|
+A To Mechagon!|QID|55651|M|42.06,87.82|Z|Dazar'alor|N|From Gazlowe.|FACTION|Horde|
+C To Mechagon!|QID|55651|M|41.82,87.60|Z|Dazar'alor|QO|1|CHAT|N|Tell Captain Krooz you are ready to go.|FACTION|Horde|
 T To Mechagon!|QID|55651|M|76.18,15.30|N|To Gazlowe.|FACTION|Horde|
 A Prospectus Bay|QID|55652|M|76.18,15.30|N|From Gazlowe.|FACTION|Horde|
-C Prospectus Bay|QID|55652|M|76.03,15.39|V|NC|N|Grab a nearby jetpack|FACTION|Horde|
+C Prospectus Bay|QID|55652|M|76.03,15.39|V|N|Grab a nearby jetpack|FACTION|Horde|
 T Prospectus Bay|QID|55652|M|73.69,25.95|N|To Gazlowe.|FACTION|Horde|
 A We Come in Peace... and Profit|QID|55685|M|73.69,25.95|N|From Gazlowe.|FACTION|Horde|
 C We Come in Peace... and Profit|QID|55685|M|71.31,38.01|NC|N|Go find Prince Erazmin and listen to the dialog.|FACTION|Horde|
@@ -164,7 +171,7 @@ C Welcome to the Resistance|QID|55736|M|71.44,33.88|NC|N|Tour Rustbolt with Prin
 T Welcome to the Resistance|QID|55736|M|74.09,36.92|N|To Prince Erazmin.|
 N Dailies|AVAILABLE|55609|N|you have now opened up dailies. There is no Emmisary quest for this faction, instead there are dailies. 3 to 4 will be available every day, starting with next reset. Enjoy!|LEAD|54086|
 N Elite Pet Battles|ACH|13625|N|The first time you do any of the elite pet battles, they will drop an item that will among other things reward 75 Rustbolt Resistance faction. So, if you are in a hurry to get that faction you may want to do those, if not, manually check them off in the guide. No strategies provided here, get those from Wowhead or Xu-Fu's or wherever you prefer. Guide contains only accept and turn of the item.|
-A Operation: Mechagon - The Mechoriginator.|QID|55609|N|From Prince Erazmin. This is a dungeon quest.|
+A Operation: Mechagon - The Mechoriginator.|QID|55609|N|From Prince Erazmin. This is a dungeon quest.|REP|Rustbolt Resistance;2391;revered-exalted|
 A Junkyard Tinkering and You|QID|55101|M|71.26,32.64|N|From Pascal.|
 C Junkyard Tinkering and You|QID|55101|M|71.41,32.35|NC|N|Craft Scrap Grenades at Pascal-K1N6.|
 T Junkyard Tinkering and You|QID|55101|M|71.41,32.35|N|To Pascal.|
@@ -195,15 +202,16 @@ N Test Drive|ACTIVE|55696|M|71.49,38.77|N|Click off the buff, so you can get the
 A Knock His Bot Off|QID|55753|M|71.49,38.77|N|From Recycler Kerchunk.|PRE|55696|AVAILABLE|55161|
 A Drive It Away Today|QID|55622|M|71.49,38.77|N|From Recycler Kerchunk.|PRE|55753|AVAILABLE|55161|
 C Drive It Away Today|QID|55622|M|71.30,32.38|S!US|NC|N|Create the 500S-Cybergenic Powercore at Pascal-K1N6.|
-t Drive It Away Today|QID|55622|M|71.49,38.77|N|To Recycler Kerchunk.|PRE|55753|AVAILABLE|55161|
+t Drive It Away Today|QID|55622|M|71.49,38.77|N|To Recycler Kerchunk.|
 
-T Shop Project|QID|55608|M|71.52,38.67|N|To Recycler Kerchunk.
 T Blueprint: Mechanocat Laser Pointer|QID|55056|M|71.30,32.38|N|To Pascal-K1N6.|
 T Blueprint: Beastbot Powerpack|QID|55066|M|71.30,32.38|N|To Pascal-K1N6.|
 A S.P.A.R.E. Crate|QID|56740|M|71.26,32.64|N|From Pascal.|PRE|55056|
 T S.P.A.R.E. Crate|QID|56740|M|71.26,32.64|N|To Pascal. You can turn in immediately if you have collected more than 250 parts.|
+
 T Upgraded|QID|55708|M|69.81,32.44|N|To Christy Punchcog.|
 A First One's Free|QID|55707|M|69.81,32.44|N|From Christy Punchcog.|PRE|55707|
+
 A The Quickcharge Contract|QID|56319|M|70.73,38.42|N|From Pristy Quickcharge.|REP|Rustbolt Resistance;2391;honored-exalted|
 C The Quickcharge Contract|QID|56319|M|70.73,38.42|CHAT|N|Talk to Pristy Quickcharge. Agaist my better judgement...I agreed. for science and ...|
 T The Quickcharge Contract|QID|56319|M|70.73,38.42|N|To Pristy Quickcharge.|
@@ -214,12 +222,28 @@ A Certified Pre-Owned|QID|56573|M|70.74,38.40|N|From Pristy Quickcharge.|O|
 A Energy Cells for Everyone|QID|55213|M|70.76,38.40|N|From Pristy Quickcharge. Weekly quest.|O|
 A Redistribution of Power|QID|55880|M|70.73,38.41|N|From Pristy Quickcharge.|O|
 C Redistribution of Power|QID|55880|M|70.72,38.57|QO|1|NC|N|Click on the NRG-100, beside Pristy.|
+
 A Real Ultimate Power|QID|56621|M|70.81,39.18|N|From Flip Quickcharge.|O|
+A Batteries Not Included|QID|55210|M|70.95,38.96|N|From Flip Quickcharge.|REP|Rustbolt Resistance;2391;friendly-exalted|
+C Batteries Not Included|QID|55210|M|73.30,34.21|NC|N|Pick up the Damaged Energy Cells lying around Rustbolt.|
+T Batteries Not Included|QID|55210|M|70.93,38.84|N|To Flip Quickcharge.|
+A Your First Charge is Free!|QID|56320|M|70.93,38.84|N|From Flip Quickcharge.|PRE|55210|
+A More Power|QID|54082|M|70.84,39.10|N|From Flip Quickcharge.|O|
+
 A Off-the-Books Brawlin'|QID|56552|M|70.05,31.14|N|From Usha Eyegouge.|O|
 A That New Mount Smell|QID|55695|M|63.33,42.96|N|From Cork Stuttguard.|O|
 A Other Interests|QID|55172^56173^55174^55815|M|73.56,34.29|N|From Steelsage Gao.|O|
 C Prototypes for Inspiration|QID|57327|M|74.00,36.97|S!US|N|Note, quest requires Warmode ON, Abandon or check step off manually if you so choose.|
 C Prototypes for Profit|QID|57326|M|74.12,36.75|S!US|N|Note, quest requires Warmode ON, Abandon or check step off manually if you so choose.|
+A Cogfrenzy's Construction Frenzy|QID|56405|M|73.51,33.38|N|From Walton Cogfrenzy.|O|
+C Cogfrenzy's Construction Frenzy|QID|56405|M|58.59,25.67|QO|1|S!US|NC|N|Fly around looking for cogs on your minimap, then contribute to construction projects.|O|
+A Collaborative Construction|QID|55153|M|73.10,33.56|N|From Waren Gearhart.|REP|Rustbolt Resistance;2391;friendly-exalted|
+C Collaborative Construction|QID|55153|M|73.10,33.56|S!US|N|Ask Waren what projects are currently available, and then head out to one. These are scattered around the zone, you may need to look around. When you find one, contribute. If you contributed to both of the available projects today, but before you had the quest, you will need to do it after the next quest reset.|
+A Clues Abound|QID|55658|M|70.47,31.01|N|From Elise Starseeker.|O|
+A One Gnome's Trash|QID|55575|M|73.72,34.32|N|From Moxie Lockspinner.|O|
+A Aid From Nordrassil|QID|55463|M|72.18,37.24|N|From Mylune.|O|
+A My Chickens are Not for Eating!|QID|56523|M|72.77,37.96|N|From Oglethorpe Obnoticus.|O|
+U Pet Opportunity|ACTIVE|56523|S!US|T|Dismantled OOX-35/MG|ITEM|169381|N|On days [My Chickens are Not for Eating!] is available, you can find and repair a pet.|
 
 ;other interests purchases
 B Flatulent Fish|ACTIVE|55815|M|37.49,49.43|Z|Nazjatar|L|167906 105|T|Grrmrlg|N|Even if you don't want Blackmarket remote access, it is still 75 faction for 105 gold and 5 minutes of your time, Go to Nazjatar, and buy 105 Flatulent Fish from Grrmrlg the murloc trader.|FACTION|Alliance|
@@ -242,17 +266,6 @@ B Sweet Sea Vegetables|ACTIVE|56174|M|47.78,63.12|Z|Nazjatar|L|167915 20|T|Hurlg
 B Disintegrating Sand Sculpture|ACTIVE|56174|M|48.28,62.58|Z|Nazjatar|L|167903 5|QO|1|T|Mrrglrlr|N|Then trade for the 5 Disintegrating Sand Sculpture from Mrrglrlr the murloc trader.|FACTION|Horde|
 t Other Interests|QID|56172^56173^56174^55815|M|73.56,34.29|N|To Steelsage Gao.|
 
-A Cogfrenzy's Construction Frenzy|QID|56405|M|73.51,33.38|N|From Walton Cogfrenzy.|O|
-C Cogfrenzy's Construction Frenzy|QID|56405|M|58.59,25.67|QO|1|S!US|NC|N|Fly around looking for cogs on your minimap, then contribute to construction projects.|O|
-A Collaborative Construction|QID|55153|M|73.10,33.56|N|From Waren Gearhart.|
-C Collaborative Construction|QID|55153|M|73.10,33.56|S!US|N|Ask Waren what projects are currently available, and then head out to one. These are scattered around the zone, you may need to look around. When you find one, contribute. If you contributed to both of the available projects today, but before you had the quest, you will need to do it after the next quest reset.|
-A Batteries Not Included|QID|55210|M|70.95,38.96|N|From Flip Quickcharge.|
-C Batteries Not Included|QID|55210|M|73.30,34.21|NC|N|Pick up the Damaged Energy Cells lying around Rustbolt.|
-T Batteries Not Included|QID|55210|M|70.93,38.84|N|To Flip Quickcharge.|
-A Your First Charge is Free!|QID|56320|M|70.93,38.84|N|From Flip Quickcharge.|PRE|55210|
-A More Power|QID|54082|M|70.84,39.10|N|From Flip Quickcharge.|O|
-A Clues Abound|QID|55658|M|70.47,31.01|N|From Elise Starseeker.|O|
-
 ;out and about
 C Discs of Norgannon|QID|56410|M|66.50,43.04|QO|1|S!US|N|Go about the normal killing stuff keeping an eye out for the Corrupted Data Disc.|
 C Redistribution of Power|QID|55880|M|65.97,46.81|QO|2|S!US|N|Kill mobs, it will charge the cells automatically.|
@@ -264,6 +277,7 @@ T More Power|QID|54082|M|70.84,39.15|N|To Flip Quickcharge.|
 
 ;Bondo's yard
 C Your First Charge is Free!|QID|56320|M|61.17,37.82|QO|1|N|Find Charging Station.|
+A Wanna Charge, Gotta Pay|QID|56335|ACTIVE|53630|M|61.30,37.41|N|From Flux.|
 C Your First Charge is Free!|QID|56320|M|61.30,37.41|QO|2|N|Access bought from Flux (so much for free).|
 C Your First Charge is Free!|QID|56320|M|61.30,37.41|QO|3|N|Energy Cell charged.|
 C Abduction Reduction|QID|55905|M|61.46,39.28|QO|1|S!US|U|168430|N|Use provided item to shoot down the Mechagon Containment crates, then stand in the circle where it will land, If you are lucky it contained a gnome which you can catch.|
@@ -272,6 +286,10 @@ A Rusty Tube|QID|56437|M|60.69,46.45|N|From item dropped the first time you defe
 A Blueprint: Beastbot Powerpack|QID|55066|M|60.87,41.49|N|From Blueprint on a crate. (no "!").|
 K Junkbrat|ACTIVE|56434|M|59.25,42.96|QO|1|T|Junkbrat|N|Kill them both. Recomended 3 people.|;daily
 K Roadtrogg|ACTIVE|56434|M|59.25,42.96|QO|2|T|Roadtrogg|N|Kill them both. Recomended 3 people.|;daily
+C Knock His Bot Off|QID|55753|M|61.14,39.28|QO|1|CHAT|N|Speak with Bondo Bigblock|
+C Knock His Bot Off|QID|55753|M|61.72,39.17|QO|2|N|Defeat his robots.|
+C Knock His Bot Off|QID|55753|M|61.59,39.68|QO|6|N|Defeat the Clockwork Giants.|
+C Knock His Bot Off|QID|55753|M|61.22,39.29|QO|4|CHAT|N|Talk to Bondo again which rewards the schematic.|
 
 ;Sparkweaver Point
 K Steelplated Hardshell|ACTIVE|55608|M|80.04,55.67|QO|2|T|Steelplated Hardshell|N|Loot the shellsteel casing.|
@@ -340,10 +358,6 @@ T A Gulper Ate The Rolly|QID|56373|M|37.04,47.14|N|To Danielle Anglers.|
 C Waste Not|QID|56508|M|42.72,33.32|US|NC|N|Finish collecting the Useful Bits and Pieces.|
 C A Direct Approach|QID|56493|M|44.74,34.51|US|N|Finish killing the Tech-Scavengers.|
 
-A Aid From Nordrassil|QID|55463|M|72.18,37.24|N|From Mylune.|O|
-U Pet Opportunity|QID|55367|S!US|ITEM|169379|U|168582|N|On days [Aid From Nordrassil] is available, you have the opportunity to find small mushrooms at the base of trees in The Fleeting Forest, click on the mushrooms to spawn mushroom people, use the living sap on them, if you can do this 3 more times before the first one despawns, you will spawn the Fungarian Fever(rare) that drops the pet.|
-A My Chickens are Not for Eating!|QID|56523|M|72.77,37.96|N|From Oglethorpe Obnoticus.|O|
-U Pet Opportunity|ACTIVE|56523|S!US|T|Dismantled OOX-35/MG|ITEM|169381|N|On days [My Chickens are Not for Eating!] is available, you can find and repair a pet.|
 C Right Bot for the Job|QID|54086|M|68.72,44.96;71.48,38.48|CS|NC|N|Go out and find inactive Repeating Wrenchbots and use the special action button to re-energize. They will follow you around for 3 minutes. Deliver to Recycler Kerchunkin that time (see Buff for time and how many you have.)|
 C My Chickens are Not for Eating!|QID|56523|M|58.53,23.63|QO|1|N|Kill Scrapbone mobs to loot Mechanical Giblets.|
 C My Chickens are Not for Eating!|QID|56523|M|54.24,32.13|QO|2|NC|N|Repair OOX-Bomber/MG. Upon repair it will fly you back to its' roost in Rustbolt.|
@@ -399,13 +413,27 @@ A More Recycling|QID|55743|M|55.92,62.51|PRE|56117|N|Available daily for faction
 C Factory Refurbished|QID|56168|M|58.83,59.22|QO|2|U|168266|NC|N|Click the provided Strange Recycling Requisition to obtain a Recycled Crawler Manifold. You can do the followup if you want to collect more, but not necesary for the quest.|
 C More Recycling|QID|55743|M|55.47,56.25|U|168215|N|When all mats collected, click to create Bundle of Recyclable Parts.|
 t More Recycling|QID|55743|M|54.58,56.45|N|To Recyclerizer DX-82.|
-C Clues Abound|QID|55658|M|76.32,59.76|NC|N|Discover a clue, several items in the area. Be dismounted before you investigate or else quest often bugs and you will need to abandon and restart.|
-T Clues Abound|QID|55658|M|76.32,59.76|N|To Sir Finley Mrrgglton.|
-A Sir Mrrgglton's followup|QID|55688^55672|M|76.32,59.76|N|From Sir Finley Mrrgglton.|PRE|55658|
-C A Growing Mystery|QID|55688|M|81.39,71.42|N|Kill Lashers and pull up any lasher vines you see.|
+
+;the outflow
+C Clues Abound|QID|55658|M|76.32,59.76;81.24,56.06;83.08,60.85|CN|NC|N|Discover a clue, several items in the area. Different items lead to differant followup quests. Be dismounted before you investigate or else quest often bugs and you will need to abandon and restart.|
+T Clues Abound|QID|55658|N|To Sir Finley Mrrgglton. (who is beside you.)|
+A Sir Mrrgglton's followup|QID|55688^55672^55717|N|From Sir Finley Mrrgglton.|PRE|55658|
+C A Growing Mystery|QID|55688|M|81.39,71.42|S|N|Kill Lashers and pull up any lasher vines you see.|
+A Strange Discovery|QID|55718|ACTIVE|55688|M|81.39,71.42|N|Kill toxic lurkers for item that starts this quest. If you are in a group, you will need to share this quest.|
+C A Growing Mystery|QID|55688|M|81.39,71.42|US|N|Kill Lashers and pull up any lasher vines you see.|
 T A Growing Mystery|QID|55688|M|81.14,71.28|N|To Sir Finley Mrrgglton.|
-C A Historical Mess|QID|55672|M|81.49,67.73|QO|1|N|Collect the Tortollan Relics groundspawn and from mobs in the area.|
+C A Historical Mess|QID|55672|M|81.49,67.73|S|N|Collect the Tortollan Relics groundspawn and from mobs in the area.|
+A Pirates? I Hate Those Guys!|QID|56469|ACTIVE|55717^55672|M|73.72,42.45|N|Kill congealed oils until you get a Pirate Hat, that starts this quest. If you are in a group, you will need to share this quest.|
+C A Historical Mess|QID|55672|M|81.49,67.73|US|N|Collect the Tortollan Relics groundspawn and from mobs in the area.|
 T A Historical Mess|QID|55672|M|81.23,68.09|N|To Sir Finley Mrrgglton.|
+C Time for Heroics|QID|55717|M|74.02,58.92|QO|1|CHAT|N|Rescue Leona Mistcaller.|
+C Time for Heroics|QID|55717|M|75.27,69.96|QO|3|CHAT|N|Rescue Adalin Halfheight.|
+A Deck'Em|QID|56049|ACTIVE|55717|M|75.27,69.96|N|From Adalin Halfheight, after you rescue him. If you are in a group, you will need to share this quest.|
+K Gluttonous Ooze|ACTIVE|56049|M|75.6,73.6|T|Gluttonous Ooze|N|Kill the Gluttonous Ooze and loot Adalin's cards.|
+T Deck'Em|QID|56049|M|75.27,69.96|N|To Adalin Halfheight.|
+C Time for Heroics|QID|55717|M|85.77,73.87|QO|2|CHAT|N|Rescue Dunkin Crackjaw.|
+T Time for Heroics|QID|55717|M|85.52,73.48|N|To Sir Finley Mrrgglton.|
+
 C Unit 17|QID|56400|M|72.13,72.79|N|Defeat Unit 17 in a pet battle.|
 A Mechanical Eye|QID|56443|M|72.13,72.79|N|From item dropped first time you defeat Unit 17 in a pet battle.|PRE|56400|
 
@@ -443,12 +471,17 @@ T Go For The Gold|QID|56301|M|21.51,81.90|N|To Short John Mithril.|
 T The Family Jewels|QID|56306|M|24.22,75.28|N|To Sneaky Pete.|
 C Off-the-Books Brawlin'|QID|56558^56552|M|24.47,83.72|N|Enemies defeated. (also supplies you can pick up).|
 
+;bondo's yard
 C Energy Cells for Everyone|QID|55213|M|61.13,37.47|QO|2|NC|N|Pay Flux and then you can charge the Empty Energy Cells at the Charging Station.|
 C Ready to Rumble|QID|54929|M|61.14,39.17|QO|1|CHAT|NC|N|Speak with Bondo Bigblock.|
 C Ready to Rumble|QID|54929|M|61.92,40.11|QO|2|N|Defeat Bondo's gang in the circle.|
 C Ready to Rumble|QID|54929|M|61.51,39.26|QO|3|T|Knuckles|N|Defeat Knuckles.|
 C Ready to Rumble|QID|54929|M|61.98,40.02|QO|4|N|Collect the Sixteen-Servo-Actuator from the strongbox in the middle of the ring.|
-T Pirates, Sea Monsters, Robots|QID|56184|M|71.74,38.85|N|To Dread Captain DeMeza.|
+T Paint Vial: Mechagon Gold|QID|55455|M|63.05,41.23|N|To Marvelous Martini.|
+T Paint Vial: Lemonade Steel|QID|55454|M|63.03,41.21|N|To Marvelous Martini.|
+T Paint Vial: Fireball Red|QID|55451|M|63.03,41.27|N|To Marvelous Martini.|
+T Paint Vial: Big-ol Bronze|QID|55517|M|63.03,41.22|N|To Marvelous Martini.|
+T That New Mount Smell|QID|55695|M|63.34,42.90|N|To Cork Stuttguard.|
 
 A Bugs, Lots of 'Em!|QID|55765|M|75.83,34.33|N|From Razak Ironsides.|O|
 A Toys For Destruction|QID|54090|M|69.77,33.17|N|From Rocket-Chief Fuselage.|O|
@@ -471,7 +504,6 @@ C Rico's Rescue|QID|55885|M|83.84,14.48|QO|1|NC|N|Click on webbed Trooper Bybee 
 C Bugs, Lots of 'Em!|QID|55765|M|84.96,30.92|US|N|Finish the quota of Motospiders.|
 
 T Cogfrenzy's Construction Frenzy|QID|56405|M|73.54,33.36|N|To Walton Cogfrenzy.|
-
 T Playtime's Over|QID|55528|M|69.77,33.06|N|To Rocket-Chief Fuselage.|
 T Blueprint: Rustbolt Pocket Turret|QID|55082|M|71.36,32.29|N|To Pascal-K1N6.|
 T Blueprint: Mechano-Treat|QID|55061|M|71.40,32.17|N|To Pascal-K1N6.|
@@ -497,16 +529,13 @@ T Your First Charge is Free!|QID|56320|M|70.78,38.40|N|To Pristy Quickcharge.|
 T Certified Pre-Owned|QID|56573|M|70.72,38.42|N|To Pristy Quickcharge.|
 T Energy Cells for Everyone|QID|55213|M|70.71,38.44|N|To Pristy Quickcharge.|
 T Redistribution of Power|QID|55880|M|70.80,38.41|N|To Pristy Quickcharge.|
-T Paint Vial: Lemonade Steel|QID|55454|M|63.03,41.21|N|To Marvelous Martini.|
-T Paint Vial: Fireball Red|QID|55451|M|63.03,41.27|N|To Marvelous Martini.|
-T Paint Vial: Big-ol Bronze|QID|55517|M|63.03,41.22|N|To Marvelous Martini.|
-T That New Mount Smell|QID|55695|M|63.34,42.90|N|To Cork Stuttguard.|
 T Off-the-Books Brawlin'|QID|56552|M|70.05,31.06|N|To Usha Eyegouge.|FACTION|Horde|
 T Off-the-Books Brawlin'|QID|56558|M|70.17,30.48|N|To Grumbol Grimhammer.|FACTION|Alliance|
+T Pirates, Sea Monsters, Robots|QID|56184|M|71.74,38.85|N|To Dread Captain DeMeza.|
 T Real Ultimate Power|QID|56621|M|70.85,39.13|N|To Flip Quickcharge.|
 T Wanted: Junkbrat and Roadtrogg|QID|56434|M|73.56,35.76|N|To Izira Gearsworn.|
 T Operation: Mechagon - The Mechoriginator.|QID|55609|N|To Prince Erazmin. This is a dungeon quest.|
-
+T Strange Discovery|QID|55718|M|70.47,31.01|N|To Elise Starseeker.|
 T Abduction Reduction|QID|55905|M|70.97,37.64|N|To Penny Clobberbottom.|
 T First One's Free|QID|55707|M|69.74,32.34|N|To Christy Punchcog.|
 T Waste Not|QID|56508|M|69.80,32.36|N|To Christy Punchcog.|
@@ -517,6 +546,7 @@ T One Gnome's Trash|QID|55575|M|73.73,34.29|N|To Moxie Lockspinner.|
 T Unprofitable Ventures|QID|56471|M|72.10,37.11|N|To Moakka.|
 T A Direct Approach|QID|56493|M|72.24,37.31|N|To Scrollsage Nola.|
 T Aid From Nordrassil|QID|55463|M|72.18,37.26|N|To Mylune.|
+T Pirates? I Hate Those Guys!|QID|56469|M|70.47,30.92|N|To Reno Jackson.|
 
 T Small Skull|QID|56436|M|69.28,30.63|N|To Vera Lonelycog.|
 T Rusty Tube|QID|56437|M|69.28,30.63|N|To Vera Lonelycog.|
@@ -527,6 +557,7 @@ T Cluckbox|QID|56441|M|69.28,30.63|N|To Vera Lonelycog.|
 T Broken Unit 6|QID|56442|M|69.24,30.65|N|To Vera Lonelycog.|
 T Mechanical Eye|QID|56443|M|69.25,30.62|N|To Vera Lonelycog.|
 
+T Shop Project|QID|55608|M|71.52,38.67|N|To Recycler Kerchunk.
 T Right Bot for the Job|QID|54086|M|71.48,38.75|N|To Recycler Kerchunk.|
 T Ready to Rumble|QID|54929|M|71.47,38.78|N|To Recycler Kerchunk.|
 T Knock 'Em Out The Box|QID|55373|M|71.49,38.77|N|To Recycler Kerchunk.|
