@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_neutral
+-- Date: 2019-07-24 00:12
+-- Who: Fluclo
+-- Log: Only display Run to Cauldron step if you have the quest active
+
+-- URL: http://wow-pro.com/node/3255/revisions/30322/view
 -- Date: 2019-07-23 10:29
 -- Who: Hendo72
 -- Log: Made some minor tweaks to wording and added extra coordinates to help with pathing. 
@@ -213,7 +218,7 @@ T A Lumbering Relic|QID|27962|M|68.48,53.50|N|To Burrian Coalpart.|
 T A Proper Antivenom|QID|27958|M|68.59,53.44|N|To Prisanne Dustcropper.|
 
 r Sell junk, repair/restock.|QID|27964|M|68.41,53.43|N|At Burian Coalpart.|
-R The Cauldron|QID|27964|M|70.11,39.80;65.53,38.36;62.84,38.85|CC|N|Head to The Cauldron.|
+R The Cauldron|QID|27964|M|70.11,39.80;65.53,38.36;62.84,38.85|CC|N|Head to The Cauldron.|ACTIVE|27964|
 C Dig-Boss Dinwhisker|QID|27964|M|54.93,45.64|N|Kill Dark Iron Excavators and Footmen until Dig-Boss Dinwhisker appears. After you kill him, loot the "Dark Ember" off the ground.|
 T Dig-Boss Dinwhisker|QID|27964|M|68.52,53.68|N|To Jack Rockleg.|
 A Thorium Point: The Seat of the Brotherhood|QID|27965|PRE|27957&27958&27961&27962&27964|M|68.52,53.68|N|From Jack Rockleg.|
