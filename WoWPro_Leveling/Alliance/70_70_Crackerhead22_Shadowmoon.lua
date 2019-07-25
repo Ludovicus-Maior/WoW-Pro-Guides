@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
+-- Date: 2019-07-25 00:23
+-- Who: Fluclo
+-- Log: Changed the quest step A Ghost in the Machine to a NC tagged standard quest step, as the loot step is not consistent
+
+-- URL: http://wow-pro.com/node/3285/revisions/30332/view
+-- Date: 2019-07-25 00:18
+-- Who: Fluclo
+-- Log: Visions of Destruction only available if you have Kurenai rep and not done Besieged. Other lead-in quests available so turn-ins added. Added Zorus the Judicator lead-in quest as Rank 3, Beseiged quest available without prior quest turn-in, Ghost in the Machine available without prior quest turn-in, loot steps showing even without quests in log, therefore added ACTIVE tag. Enraged Fire and Earth available in same area, so doesn't need separate quest steps.
+
+-- URL: http://wow-pro.com/node/3285/revisions/29944/view
 -- Date: 2018-10-17 02:24
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -175,19 +185,31 @@ WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Visions of Destruction|QID|11044|M|55.38,68.73|Z|Nagrand|N|From Seer Jovar.|
-F Allerian Stronghold|QID|11044|M|54.16,75.15|Z|Nagrand|N|Fly to Allerian Stronghold.|
-R Shadowmoon Valley|QID|11044|M|23,28|N|Run to Shadowmoon Valley.|
-T Visions of Destruction|QID|11044|M|39.56,53.68|N|To Wing Commander Nuainn.|
-A Besieged!|QID|10562|PRE|11044|M|39.56,53.68|N|From Wing Commander Nuainn.|
-C Besieged!|QID|10562|M|40.48,52.53|N|Kill 10 of the Infernal Attackers. You will have had done most of the damage to get credit.|
+A Zorus the Judicator|QID|11045|M|33.00,30.25|Z|Terokkar Forest|N|From Fantei in Lower City, Shattrath.|RANK|3|
+
+A Visions of Destruction|QID|11044|M|55.38,68.73|Z|Nagrand|N|From Seer Jovar.|REP|Kurenai;978;friendly|AVAILABLE|10562|
+
+F Wildhammer Stronghold |QID|10562|M|37.66,55.33|N|Make your way to Wildhammer Stronghold in Shadowmoon Valley|
+
+; Complete any breadcrumb quests you have
+T Building a Better Gryphon|QID|11043|M|37.6,56.0|N|To Brunn Flamebeard|ACTIVE|11043|
+T Hero's Call: Shadowmoon Valley!|QID|49550|M|39.56,53.68|N|To Wing Commander Nuainn|ACTIVE|49550|
+T Visions of Destruction|QID|11044|M|39.56,53.68|N|To Wing Commander Nuainn.|ACTIVE|11044|
+
+A Besieged!|QID|10562|M|39.56,53.68|N|From Wing Commander Nuainn, outside the gates to the east.|
+C Besieged!|QID|10562|M|40.48,52.53|N|Kill 10 of the Infernal Attackers.|
 T Besieged!|QID|10562|M|39.57,53.70|N|To Wing Commander Nuainn.|
+
 A To Legion Hold|QID|10563|PRE|10562|M|39.57,53.70|N|From Wing Commander Nuainn.|
 A The Sketh'lon Wreckage|QID|10569|M|38.74,54.10|N|From Gryphonrider Kieran.|
 A Wanted: Uvuros, Scourge of Shadowmoon|QID|10648|M|38.30,53.93|N|From the Wanted Poster.|
 f Wildhammer Stronghold|QID|10680|M|37.66,55.33|N|At Brubeck Stormfoot.|
 A Spleendid!|QID|10661|M|36.62,55.18|N|From Gnomus.|
-A A Ghost in the Machine|QID|10642|PRE|11045|M|36.93,54.90|N|From Zorus the Judicator, he wanders around a bit.|
+
+T Zorus the Judicator|QID|11045|M|36.93,54.90|N|To Zorus the Judicator, he wanders around a bit.|
+; Quest offered without doing lead-in 11045
+A A Ghost in the Machine|QID|10642|M|36.93,54.90|N|From Zorus the Judicator, he wanders around a bit.|
+
 A The Hand of Gul'dan|QID|10680|M|36.26,56.93|N|From Earthmender Sophurus.|
 A Put On Yer Kneepads...|QID|10703|M|36.24,56.91|N|From Thane Yoregar.|
 A The Path of Conquest|QID|10772|M|36.29,57.05|N|From Thane Yoregar.|
@@ -196,12 +218,15 @@ h Wildhammer Stronghold|QID|10680|M|37.06,58.17|N|At Dreg Cloudsweeper.|
 C Put On Yer Kneepads...|QID|10703|S|M|33.53,40.37|N|Kill any Chimera and Felboar you come across.|
 T The Hand of Gul'dan|QID|10680|M|42.20,45.07|N|To Earthmender Torlok.|
 A Enraged Spirits of Fire and Earth|QID|10458|PRE|10680^10681|M|42.20,45.07|N|From Earthmender Torlok.|
-C Enraged Spirits of Fire and Earth|QID|10458|U|30094|QO|1|M|42.73,47.86;46.59,52.15|CN|N|Use the totem and kill Enraged Earth Spirits between these points.|; Earthen Soul Captured: 8/8
-C Enraged Spirits of Fire and Earth|QID|10458|U|30094|M|49.97,50.20|N|Use the totem and kill the fire spirits. Warning: Yes, the green stuff is lava and will hurt you.|
+
+; Both Earth and Fire Spirits in the same area of The Fel Pits so doesn't need seperate quest steps
+C Enraged Spirits of Fire and Earth|QID|10458|U|30094|M|47.5,47.8|N|Place the totem near the Enraged Earth Spirits and Enraged Fire Spirits, then kill them to capture their soul. Warning: Yes, the green stuff is lava and will hurt you.|
 T Enraged Spirits of Fire and Earth|QID|10458|M|42.20,45.07|N|To Earthmender Torlok.|
 A Enraged Spirits of Water|QID|10480|PRE|10458|M|42.20,45.07|N|From Earthmender Torlok.|
 C Spleendid!|QID|10661|M|30.05,39.67|N|Kill any Felfire Diemetradon you see until you get 8 spleens.|S|
-l A Ghost in the Machine|QID|10642|L|30716 15|M|29.99,39.53|N|They are near the lava pools and rivers.|
+
+; Only show this step if you are doing the quest
+C A Ghost in the Machine|QID|10642|M|29.99,39.53|N|They are near the lava pools and rivers.|NC|
 C Spleendid!|QID|10661|M|30.05,39.67|N|Kill any Felfire Diemetradon you see until you get 8 spleens.|US|
 C Put On Yer Kneepads...|QID|10703|US|M|33.53,40.37|N|Kill any mobs that you need left..|
 C To Legion Hold|QID|10563|U|30638|M|23.62,36.82|N|Once you get to the waypoint use the "disguise" Snake.|
@@ -216,7 +241,8 @@ C Harbingers of Shadowmoon|QID|10643|U|30719|M|36.98,55.25|N|Put on the Spectrec
 T Harbingers of Shadowmoon|QID|10643|M|36.97,55.16|N|To Zorus the Judicator.|
 A Teron Gorefiend - Lore and Legend|QID|10644|PRE|10643|M|36.97,55.16|N|From Zorus the Judicator. Don't forget to put on your regular helm.|
 
-l Fel Reaver Power Core|QID|10572|L|30628 |M|26.23,41.27|N|Dive underwater to get the power core.|
+; Only show this step if you are doing the quest
+l Fel Reaver Power Core|QID|10572|L|30628 |M|26.23,41.27|N|Dive underwater to get the power core.|ACTIVE|10572|
 C Setting Up the Bomb|QID|10572|M|22.20,35.50|N|Loot the armor plate.|
 K Overseer Ripsaw|QID|10621|L|30756 |T|Overseer Ripsaw|N|Find and kill Overseer Ripsaw, then loot the item he drops.|
 A Illidari-Bane Shard|QID|10621|U|30756|M|22.49,35.97|N|Accept the quest from the shard.|
@@ -514,7 +540,6 @@ B Demon Warding Totem|QID|10664|M|64.72,70.33|Z|Shattrath City|N|Talk to Fantel 
 T Battle of the Crimson Watch|QID|10781|M|54.09,45.02|Z|Shattrath City|N|To A'dal.|
 C Additional Materials|QID|10664|M|54,44|Z|Shattrath City|N|Make or buy an Adamantite Frame and 4 Heavy Knothide Leather.|
 T Additional Materials|QID|10664|M|77.5,38.7|Z|Terokkar Forest|N|To David Wayne. The next 2 quests that open up from David are dungeon quests.|
-N Short on quests...|QID|999999|N|At this point you are probably close to the quest achievment. To get that, you either have to do some of the dungeon quest lines that lead back to Shadowmoon. Or if you have Artisan Riding trained you can keep doing the Netherwing quests to get it.|
 ]]
 end)
 
