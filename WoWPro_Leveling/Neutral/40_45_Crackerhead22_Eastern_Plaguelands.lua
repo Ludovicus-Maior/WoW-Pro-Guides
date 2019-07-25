@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2019-07-24 19:22
+-- Who: Hendo72
+-- Log: Corrected coordinates and swapped NC for CHAT tag. Due to it being a tower, you will reach his coordinates while walking up. The former coordinates were taking you away from NPC even though it's in the same location.
+
+-- URL: http://wow-pro.com/node/3251/revisions/30320/view
 -- Date: 2019-07-22 05:55
 -- Who: Hendo72
 -- Log: Corrected the syntax of 'Missing Caravan Buff' (per Emmaleah). It was throwing an error in chat, but not crashing. I also cleaned up the note attached to it as well. Made it a little  better visually.
@@ -257,8 +262,8 @@ T Onward, to Light's Hope Chapel|QID|27373|M|34.8,69.09|N|To Fiona.|
 A Zaeldarr the Outcast|QID|27432|M|35.00,68.20|N|From Urk Gagbaz.|
 A Traveling Companions|QID|27381|PRE|27373|M|35.23,68.68|N|From Tarenar Sunstrike.|
 A Little Pamela|QID|27383|M|35.52,68.84|N|From Carlin Redpath.|
-C Traveling Companions|QID|27381|M|35.72,69.16|N|Talk to Argus Highbeacon on top of the tower and ask him if he's interested in joining the caravan. \n\nWarning: VERY bright light at the top of the tower.|NC|
-A Rough Roads|QID|27382|M|35.72,69.16|N|From Argus Highbeacon.|
+C Traveling Companions|QID|27381|M|35.88,68.89|N|Talk to Argus Highbeacon on top of the tower and ask him if he's interested in joining the caravan. \n\nWarning: VERY bright light at the top of the tower.|CHAT|
+A Rough Roads|QID|27382|M|35.88,68.89|N|From Argus Highbeacon.|
 r Sell Junk. Repair/restock.|QID|27381|NC|M|35.74,68.99|N|With Argus Highbeacon.\n\nClick this step to continue.|
 T Traveling Companions|QID|27381|M|35.24,68.76|N|Use the Argent Parachutes to jump off the tower, then head to Tarenar Sunstrike.|
 
