@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2019-07-28 11:43
+-- Who: Hendo72
+-- Log: Anything to do with NPCs inside the Chapel requires a |Z|Light's Hope Chapel| tag added to it or the waypoint will not set properly. Even the waypoints pointing outside the chapel will not show properly until you leave.
+
+-- URL: http://wow-pro.com/node/3251/revisions/30335/view
 -- Date: 2019-07-28 10:37
 -- Who: Hendo72
 -- Log: - Streamlined Pamela's Doll quest for flow and clarity. 
@@ -391,18 +396,17 @@ A A Boyhood Dream|QID|27463|PRE|27455|M|74.25,53.37|N|From Gidwin Goldbraids.|
 N Talk to Beezil Linkspanner|QID|27463|M|73.82,52.37|N|After you go through his short dialog to get him to join the caravan, there will be a new buff available. Beezil's Cog: Increase movement speed within Eastern Plaguelands by 10%.|
 T A Boyhood Dream|QID|27463|M|75.81,52.07|N|To Lord Maxwell Tyrosus.|
 A Argent Call: The Trial of the Crypt|QID|27464|PRE|27463|M|75.81,52.07|N|From Lord Maxwell Tyrosus.|
-A The Brotherhood of Light|QID|27459|Z|Light's Hope Chapel|M|41.71,93.12|N|From Leonid Barthalomew the Revered.|
+A The Brotherhood of Light|QID|27459|Z|Light's Hope Chapel|M|41.71,93.12|N|From Leonid Barthalomew the Revered inside Light's Hope Chapel.|
 f Light's Hope Chapel|QID|27464|M|75.79,53.38|N|At Khaelyn Steelwing.|
 A Smokey and the Bandage|QID|27458|M|74.92,53.30|N|From Smokey LaRue.|
 A Gathering Some Grub(s)|QID|27456|M|73.87,51.97|N|From Rimblat Earthshatter.|
-C Argent Call: The Trial of the Crypt|QID|27464|U|61309|M|77.21,51.77|N|Head to the bottom of the crypt and use the scroll. Survive the waves.|
-T Argent Call: The Trial of the Crypt|QID|27464|M|75.80,52.05|N|To Lord Maxwell Tyrosus.|
+C Argent Call: The Trial of the Crypt|QID|27464|U|61309|M|77.23,50.80;77.41,51.31;77.37,50.43;77.74,50.39;77.79,51.01|CN|N|The Crypt entrance is on the hill behind the Chapel.\nHead to the bottom of the crypt and use the scroll. Survive the waves.|
+T Argent Call: The Trial of the Crypt|QID|27464|M|75.80,52.05|N|To Lord Maxwell Tyrosus inside the Chapel.|
 A Argent Call: The Noxious Glade|QID|27465|PRE|27464|M|75.80,52.05|N|From Lord Maxwell Tyrosus.|
-A Buried Blades|QID|27467|PRE|27464|M|75.73,52.19|N|From Master Craftsman Omarion.|
+A Buried Blades|QID|27467|PRE|27464|Z|Light's Hope Chapel|M|41.62,87.97|N|From Master Craftsman Omarion inside the Chapel.|
 
-N Optional dungeon quests|QID|27459|M|76.09,51.00|N|There are two dungeon quests from Lord Raymond George, in the cemetary behind the chapel. One for Scholomance, and one for Stratholme.|
-h Light's Hope Chapel|QID|27459|M|75.61,52.30|N|At Jessica Chambers.|
-;N Train if you wish...|QID|27456|N|If you want, go to a major city to visit your trainers, or the AH.|
+h Light's Hope Chapel|QID|27459|Z|Light's Hope Chapel|M|43.99,89.42|N|At Jessica Chambers inside the Chapel.|
+N Optional dungeon quests|QID|27459|N|There are two dungeon quests from Lord Raymond George, in the cemetary behind the chapel. One for Scholomance, and one for Stratholme.|
 C Gathering Some Grub(s)|QID|27456|M|71.46,65.31|N|Kill the worms until you get 15 "Slab of Carrion Worm Meat".|
 T The Brotherhood of Light|QID|27459|M|72.53,74.86|N|To Archmage Angela Dosantos.|
 A Soft Landing|QID|27460|PRE|27459|M|72.61,74.87|N|From Archmage Angela Dosantos.|
