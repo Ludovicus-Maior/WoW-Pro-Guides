@@ -2709,7 +2709,7 @@ function WoWPro:QuestPrereq(qid)
 end
 
 function WoWPro:Questline(qid)
-    if not Grail or not WoWPro.EnableGrail then return end
+    if not Grail or not WoWProCharDB.EnableGrailQuestline then return end
     WoWPro:SkipAll()
     WoWPro:QuestPrereq(qid)
     WoWPro:LoadGuide(nil)
@@ -2779,7 +2779,7 @@ function WoWPro.GrailQuestPrereqOneQid(qid, out)
 end
 
 function WoWPro.GrailQuestPrereq(QID)
-    if not Grail or not WoWPro.EnableGrail then return nil end
+    if not Grail then return nil end
     if QID == "*" then return nil end
     if not QID then return nil end
     local numQIDs = select("#", string.split("^&", QID))
@@ -2807,7 +2807,7 @@ function WoWPro.GrailQuestPrereq(QID)
 end
 
 function WoWPro.GrailQuestCheckPrereq(QID, PRE)
-    if not Grail or not WoWPro.EnableGrail then return nil, "NoGrail" end
+    if not Grail or not WoWProCharDB.EnableGrailCheckPrereq then return nil, "NoGrail" end
     if QID == "*" then return nil,"WildQid" end
     if not QID then return nil,"NoQid" end
     local grail_pre = WoWPro.GrailQuestPrereq(QID)
@@ -2864,7 +2864,7 @@ end
 
 
 function WoWPro.GrailBreadcrumbsFor(QID)
-    if not Grail or not WoWPro.EnableGrail then return nil end
+    if not Grail or not WoWProCharDB.EnableGrailBreadcrumbs then return nil end
     if QID == "*" then return nil end
     if not QID then return nil end
     local numQIDs = select("#", string.split("^", QID))
@@ -2892,7 +2892,7 @@ end
 
 
 function WoWPro:GrailCheckQuestName(guide,QID,myname)
-    if not Grail or not WoWPro.EnableGrail then return nil end
+    if not Grail or not WoWProCharDB.EnableGrailQuestName then return nil end
     if QID == "*" then return QID end
     if not QID then
         WoWPro:Warning("In guide %s, quest [%s]  does not have a QID",guide,tostring(myname))
@@ -2934,7 +2934,7 @@ function WoWPro.GrailQuestLevelOK()
 end
 
 function WoWPro:GrailQuestLevel(qid)
-    if not Grail or not WoWPro.EnableGrail then return nil end
+    if not Grail or not WoWProCharDB.EnableGrailQuestLevel then return nil end
     if not WoWPro.GrailQuestLevelOK() then return nil end
     local _,_,level = Grail:MeetsRequirementLevel(qid,nil)
     if level then
@@ -2945,7 +2945,7 @@ function WoWPro:GrailQuestLevel(qid)
 end
 
 function WoWPro:GrailIsQuestObsolete(guide, QID, name)
-    if not Grail or not WoWPro.EnableGrail then return nil end
+    if not Grail or not WoWProCharDB.EnableGrailQuestObsolete then return nil end
     if not QID then return nil end
     local numQIDs = select("#", string.split("^", QID))
     for j=1,numQIDs do

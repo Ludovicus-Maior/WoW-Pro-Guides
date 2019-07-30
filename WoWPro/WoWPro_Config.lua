@@ -945,21 +945,91 @@ local function createBlizzOptions()
 						WoWProCharDB.DebugClasses = WoWPro.DebugClasses
 					end
 			},
-			enableGrail = {
-				order = 5,
+			EnableGrailQuestline = {
+				order = 5.0,
 				type = "toggle",
-				name = L["Enable Grail"],
-				desc = L["Enables/Disables Grail Integration"],
-				get = function(info) return WoWPro.EnableGrail end,
-				set = function(info,val) 
-						if WoWPro.EnableGrail then
-						    WoWPro.EnableGrail = false
+				name = L["Grail Quest Lines"],
+				desc = L["Enables/Disables Grail Quest Line Integration"],
+				get = function(info) return WoWProCharDB.EnableGrailQuestline end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailQuestline then
+						    WoWProCharDB.EnableGrailQuestline = false
 						else
-						    WoWPro.EnableGrail = true
+						    WoWProCharDB.EnableGrailQuestline = true
 						end
-						WoWProCharDB.EnableGrail = WoWPro.EnableGrail
 					end
 			},
+			EnableGrailCheckPrereq = {
+				order = 5.1,
+				type = "toggle",
+				name = L["Grail Check PRE"],
+				desc = L["Enables/Disables Grail Quest Prerequistite Quest Checking"],
+				get = function(info) return WoWProCharDB.EnableGrailCheckPrereq end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailCheckPrereq then
+						    WoWProCharDB.EnableGrailCheckPrereq = false
+						else
+						    WoWProCharDB.EnableGrailCheckPrereq = true
+						end
+					end
+			},
+			EnableGrailBreadcrumbs = {
+				order = 5.2,
+				type = "toggle",
+				name = L["Grail Check LEAD"],
+				desc = L["Enables/Disables Grail Quest Breadcrumb Quest Checking"],
+				get = function(info) return WoWProCharDB.EnableGrailBreadcrumbs end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailBreadcrumbs then
+						    WoWProCharDB.EnableGrailBreadcrumbs = false
+						else
+						    WoWProCharDB.EnableGrailBreadcrumbs = true
+						end
+					end
+			},
+			EnableGrailQuestName = {
+				order = 5.3,
+				type = "toggle",
+				name = L["Grail Quest Name Check"],
+				desc = L["Enables/Disables Grail Quest Quest Name Checking"],
+				get = function(info) return WoWProCharDB.EnableGrailQuestName end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailQuestName then
+						    WoWProCharDB.EnableGrailQuestName = false
+						else
+						    WoWProCharDB.EnableGrailQuestName = true
+						end
+					end
+			},
+			EnableGrailQuestLevel = {
+				order = 5.4,
+				type = "toggle",
+				name = L["Grail Quest Level Check"],
+				desc = L["Enables/Disables Grail Quest Quest Level Checking"],
+				get = function(info) return WoWProCharDB.EnableGrailQuestLevel end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailQuestLevel then
+						    WoWProCharDB.EnableGrailQuestLevel = false
+						else
+						    WoWProCharDB.EnableGrailQuestLevel = true
+						end
+					end
+			},
+			EnableGrailQuestObsolete = {
+				order = 5.5,
+				type = "toggle",
+				name = L["Grail Obsolete Quest Check"],
+				desc = L["Enables/Disables Grail Quest Quest Obsolete Checking"],
+				get = function(info) return WoWProCharDB.EnableGrailQuestObsolete end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailQuestObsolete then
+						    WoWProCharDB.EnableGrailQuestObsolete = false
+						else
+						    WoWProCharDB.EnableGrailQuestObsolete = true
+						end
+					end
+			},
+
 			checkGuides = {
 			    order = 6,
 			    type = "execute",

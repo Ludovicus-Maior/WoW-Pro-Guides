@@ -365,9 +365,14 @@ function WoWPro:OnInitialize()
 	WoWProDB.global.NpcFauxQuests = WoWProDB.global.NpcFauxQuests or {}
 	WoWProDB.global.QuestEngineDelay = WoWProDB.global.QuestEngineDelay or 0.25
 
-	if WoWProCharDB.EnableGrail == nil then
-	    WoWProCharDB.EnableGrail = true
-	end
+	WoWProCharDB.EnableGrail = nil
+    WoWProCharDB.EnableGrailQuestline = WoWProCharDB.EnableGrailQuestline or true
+    WoWProCharDB.EnableGrailCheckPrereq = WoWProCharDB.EnableGrailCheckPrereq or false
+    WoWProCharDB.EnableGrailBreadcrumbs = WoWProCharDB.EnableGrailBreadcrumbs or false
+    WoWProCharDB.EnableGrailQuestName = WoWProCharDB.EnableGrailQuestName or false
+    WoWProCharDB.EnableGrailQuestLevel = WoWProCharDB.EnableGrailQuestLevel or false
+    WoWProCharDB.EnableGrailQuestObsolete = WoWProCharDB.EnableGrailQuestObsolete or true
+
 	WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
 	WoWProCharDB.GuideStack  = WoWProCharDB.GuideStack or {}
 	WoWProCharDB.GuideVersion = WoWProCharDB.GuideVersion or {}
@@ -820,6 +825,9 @@ function WoWPro:GuideNextGuide(guide,nextGID)
 end
 
 function WoWPro:GuideQuestTriggers(guide, ...)
+    if WoWPro.DebugClasses then
+        return -- Allow developers to check everything, if they want
+    end
     -- Only do if guide is registered!
     if WoWPro.Guides[guide.GID] then
         WoWPro.ClearQID2Guide(guide.GID)
