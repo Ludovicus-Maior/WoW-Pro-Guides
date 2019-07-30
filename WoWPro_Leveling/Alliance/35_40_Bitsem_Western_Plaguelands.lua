@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2019-07-24 07:27
+-- Who: Hendo72
+-- Log: Made corrections for prequels as suggested by Grail.
+
+-- URL: http://wow-pro.com/node/3244/revisions/29931/view
 -- Date: 2018-10-17 02:23
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -216,9 +221,9 @@ A Araj the Summoner|QID|27164|PRE|27161|M|41.28,70.19|N|From Lang Loosegrip.|
 T Scourge First... Horde Later|QID|27159|M|41.06,70.44|N|To Thassarian.|
 T War Machines|QID|27160|M|41.10,70.46|N|To Lurid.|
 
-A Brute Strength|QID|27163|PRE|27160|M|41.10,70.46|N|From Thassarian.|S|
-A Scholomancer|QID|27162|PRE|27160|M|41.10,70.46|N|From Thassarian.|
-A Brute Strength|QID|27163|PRE|27160|M|41.10,70.46|N|From Thassarian.|US|
+A Brute Strength|QID|27163|PRE|27159&27160|M|41.10,70.46|N|From Thassarian.|S|
+A Scholomancer|QID|27162|PRE|27159&27160|M|41.10,70.46|N|From Thassarian.|
+A Brute Strength|QID|27163|PRE|27159&27160|M|41.10,70.46|N|From Thassarian.|US|
 
 C Brute Strength|QID|27163|M|43.57,69.61|N|Level 35 Elite, inside the building.|
 C Araj the Summoner|QID|27164|U|60849|M|45.20,69.32|N|Loot Araj's Phylactery Shard. Araj guards the area, so you may need to attack him. If so, use Lang's Hand Grenades if he summons skeletons.|NC|
@@ -250,8 +255,8 @@ C A Mighty Hunger|QID|27167|US|M|41.93,79.46;35.18,76.18|CN|N|Finish killing bea
 
 T Go Fletch!|QID|27166|M|42.73,83.98|N|To Commander Ashlam Valorfist.|
 T A Mighty Hunger|QID|27167|M|42.73,83.98|N|To Thurman Grant.|
-A Uther's Blessing|QID|27169|PRE|27167|M|42.73,83.98|N|From Commander Ashlam Valorfist.|
-A Those That Couldn't Let Go|QID|27168|PRE|27167|M|43.32,83.81|N|From High Priestess MacDonnell.|
+A Uther's Blessing|QID|27169|PRE|27166&27167|M|42.73,83.98|N|From Commander Ashlam Valorfist.|
+A Those That Couldn't Let Go|QID|27168|PRE|27166&27167|M|43.32,83.81|N|From High Priestess MacDonnell.|
 
 ; ** Added target button to make quest easier. Direction is irrelevant for this quest as long as you are within range to use Holy Thurible
 C Those That Couldn't Let Go|QID|27168|S|U|60861|T|Withdrawn Soul|M|49.84,80.79|N|From now on use the Holy Thurible on Withdrawn Souls.  Some may turn hostile.|
@@ -281,7 +286,7 @@ C Combat Training|QID|27174|M|53.91,65.70|N|Talk to Gory, then help the villager
 T Combat Training|QID|27174|M|53.84,64.66|N|To Thurman Grant.|
 T The Menders' Stead|QID|27175|M|49.31,54.87|N|To Field Agent Kaartish.|
 
-A A New Era for the Plaguelands|QID|26999|PRE|27175|M|49.31,54.87|N|From Field Agent Kaartish.|
+A A New Era for the Plaguelands|QID|26999|M|49.31,54.87|N|From Field Agent Kaartish.|
 A Zen'Kiki, the Druid|QID|26953|M|48.98,54.75|N|From Adrine Towhide.|
 A I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|48.60,54.88|N|From Selyria Groenveld.|
 

@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
+-- Date: 2019-07-28 17:09
+-- Who: Fluclo
+-- Log: Added Friendly to the Aldor and Scryers tags as the steps are not available when neutral with Aldor/Scryers; Added Active tag to the Loot and Kill steps to ensure they only show when you're on the relevant quests. 
+
+-- URL: http://wow-pro.com/node/3285/revisions/30334/view
+-- Date: 2019-07-28 01:07
+-- Who: Fluclo
+-- Log: Clarified step needed for To Legion Hold; Added instruction to put your helm back on after Harbingers of Shadowmoon; Fel Reaver Power Core wasn't auto-completing, so changed to C step with QO tag; clarified Sketh'lon Wreckage drop source; updated Aldor quests to min Friendly rep as not showing with Neutral rep; added Rank 3 for the Elite quests; Added icon for Fel Bomb; Elemental Displacer wasn't auto-completing, so changed to C step with QO tag, added additional directions for Deathforge caves; repositioned Blast the Infernals turn-in as it was an isolated and unnecessary run to Wildhammer Stronghold
+
+-- URL: http://wow-pro.com/node/3285/revisions/30333/view
+-- Date: 2019-07-25 00:23
+-- Who: Fluclo
+-- Log: Changed the quest step A Ghost in the Machine to a NC tagged standard quest step, as the loot step is not consistent
+
+-- URL: http://wow-pro.com/node/3285/revisions/30332/view
+-- Date: 2019-07-25 00:18
+-- Who: Fluclo
+-- Log: Visions of Destruction only available if you have Kurenai rep and not done Besieged. Other lead-in quests available so turn-ins added. Added Zorus the Judicator lead-in quest as Rank 3, Beseiged quest available without prior quest turn-in, Ghost in the Machine available without prior quest turn-in, loot steps showing even without quests in log, therefore added ACTIVE tag. Enraged Fire and Earth available in same area, so doesn't need separate quest steps.
+
+-- URL: http://wow-pro.com/node/3285/revisions/29944/view
 -- Date: 2018-10-17 02:24
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -175,19 +195,31 @@ WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-A Visions of Destruction|QID|11044|M|55.38,68.73|Z|Nagrand|N|From Seer Jovar.|
-F Allerian Stronghold|QID|11044|M|54.16,75.15|Z|Nagrand|N|Fly to Allerian Stronghold.|
-R Shadowmoon Valley|QID|11044|M|23,28|N|Run to Shadowmoon Valley.|
-T Visions of Destruction|QID|11044|M|39.56,53.68|N|To Wing Commander Nuainn.|
-A Besieged!|QID|10562|PRE|11044|M|39.56,53.68|N|From Wing Commander Nuainn.|
-C Besieged!|QID|10562|M|40.48,52.53|N|Kill 10 of the Infernal Attackers. You will have had done most of the damage to get credit.|
+A Zorus the Judicator|QID|11045|M|33.00,30.25|Z|Terokkar Forest|N|From Fantei in Lower City, Shattrath.|RANK|3|
+
+A Visions of Destruction|QID|11044|M|55.38,68.73|Z|Nagrand|N|From Seer Jovar.|REP|Kurenai;978;friendly|AVAILABLE|10562|
+
+F Wildhammer Stronghold |QID|10562|M|37.66,55.33|N|Make your way to Wildhammer Stronghold in Shadowmoon Valley|
+
+; Complete any breadcrumb quests you have
+T Building a Better Gryphon|QID|11043|M|37.6,56.0|N|To Brunn Flamebeard|ACTIVE|11043|
+T Hero's Call: Shadowmoon Valley!|QID|49550|M|39.56,53.68|N|To Wing Commander Nuainn|ACTIVE|49550|
+T Visions of Destruction|QID|11044|M|39.56,53.68|N|To Wing Commander Nuainn.|ACTIVE|11044|
+
+A Besieged!|QID|10562|M|39.56,53.68|N|From Wing Commander Nuainn, outside the gates to the east.|
+C Besieged!|QID|10562|M|40.48,52.53|N|Kill 10 of the Infernal Attackers.|
 T Besieged!|QID|10562|M|39.57,53.70|N|To Wing Commander Nuainn.|
+
 A To Legion Hold|QID|10563|PRE|10562|M|39.57,53.70|N|From Wing Commander Nuainn.|
 A The Sketh'lon Wreckage|QID|10569|M|38.74,54.10|N|From Gryphonrider Kieran.|
 A Wanted: Uvuros, Scourge of Shadowmoon|QID|10648|M|38.30,53.93|N|From the Wanted Poster.|
 f Wildhammer Stronghold|QID|10680|M|37.66,55.33|N|At Brubeck Stormfoot.|
 A Spleendid!|QID|10661|M|36.62,55.18|N|From Gnomus.|
-A A Ghost in the Machine|QID|10642|PRE|11045|M|36.93,54.90|N|From Zorus the Judicator, he wanders around a bit.|
+
+T Zorus the Judicator|QID|11045|M|36.93,54.90|N|To Zorus the Judicator, he wanders around a bit.|
+; Quest offered without doing lead-in 11045
+A A Ghost in the Machine|QID|10642|M|36.93,54.90|N|From Zorus the Judicator, he wanders around a bit.|
+
 A The Hand of Gul'dan|QID|10680|M|36.26,56.93|N|From Earthmender Sophurus.|
 A Put On Yer Kneepads...|QID|10703|M|36.24,56.91|N|From Thane Yoregar.|
 A The Path of Conquest|QID|10772|M|36.29,57.05|N|From Thane Yoregar.|
@@ -196,15 +228,18 @@ h Wildhammer Stronghold|QID|10680|M|37.06,58.17|N|At Dreg Cloudsweeper.|
 C Put On Yer Kneepads...|QID|10703|S|M|33.53,40.37|N|Kill any Chimera and Felboar you come across.|
 T The Hand of Gul'dan|QID|10680|M|42.20,45.07|N|To Earthmender Torlok.|
 A Enraged Spirits of Fire and Earth|QID|10458|PRE|10680^10681|M|42.20,45.07|N|From Earthmender Torlok.|
-C Enraged Spirits of Fire and Earth|QID|10458|U|30094|QO|1|M|42.73,47.86;46.59,52.15|CN|N|Use the totem and kill Enraged Earth Spirits between these points.|; Earthen Soul Captured: 8/8
-C Enraged Spirits of Fire and Earth|QID|10458|U|30094|M|49.97,50.20|N|Use the totem and kill the fire spirits. Warning: Yes, the green stuff is lava and will hurt you.|
+
+; Both Earth and Fire Spirits in the same area of The Fel Pits so doesn't need seperate quest steps
+C Enraged Spirits of Fire and Earth|QID|10458|U|30094|M|47.5,47.8|N|Place the totem near the Enraged Earth Spirits and Enraged Fire Spirits, then kill them to capture their soul. Warning: Yes, the green stuff is lava and will hurt you.|
 T Enraged Spirits of Fire and Earth|QID|10458|M|42.20,45.07|N|To Earthmender Torlok.|
 A Enraged Spirits of Water|QID|10480|PRE|10458|M|42.20,45.07|N|From Earthmender Torlok.|
 C Spleendid!|QID|10661|M|30.05,39.67|N|Kill any Felfire Diemetradon you see until you get 8 spleens.|S|
-l A Ghost in the Machine|QID|10642|L|30716 15|M|29.99,39.53|N|They are near the lava pools and rivers.|
+
+; Only show this step if you are doing the quest
+C A Ghost in the Machine|QID|10642|M|29.99,39.53|N|They are near the lava pools and rivers.|NC|
 C Spleendid!|QID|10661|M|30.05,39.67|N|Kill any Felfire Diemetradon you see until you get 8 spleens.|US|
 C Put On Yer Kneepads...|QID|10703|US|M|33.53,40.37|N|Kill any mobs that you need left..|
-C To Legion Hold|QID|10563|U|30638|M|23.62,36.82|N|Once you get to the waypoint use the "disguise" Snake.|
+C To Legion Hold|QID|10563|U|30638|M|23.62,36.82|N|Stand next to the Legion Communicator (it's on the upper level), then use the Box o' Tricks. This will start a 60 second non-interactive dialog.|NC|
 T To Legion Hold|QID|10563|M|39.52,53.60|N|To Wing Commander Nuainn.|
 A Setting Up the Bomb|QID|10572|PRE|10563|M|39.52,53.60|N|From Wing Commander Nuainn.|
 T Spleendid!|QID|10661|M|36.58,55.18|N|To Gnomus.|
@@ -213,37 +248,38 @@ T A Ghost in the Machine|QID|10642|M|36.94,54.88|N|To Zorus the Judicator.|
 A Harbingers of Shadowmoon|QID|10643|PRE|10642|M|36.94,54.88|N|From Zorus the Judicator.|
 T Put On Yer Kneepads...|QID|10703|M|36.29,56.80|N|To Thane Yoregar.|
 C Harbingers of Shadowmoon|QID|10643|U|30719|M|36.98,55.25|N|Put on the Spectrecles and then kill 12 Harbringers.|
-T Harbingers of Shadowmoon|QID|10643|M|36.97,55.16|N|To Zorus the Judicator.|
+T Harbingers of Shadowmoon|QID|10643|M|36.97,55.16|N|To Zorus the Judicator. Put your normal Helm back on, as you are currently wearing the quest Spectrecles|
 A Teron Gorefiend - Lore and Legend|QID|10644|PRE|10643|M|36.97,55.16|N|From Zorus the Judicator. Don't forget to put on your regular helm.|
 
-l Fel Reaver Power Core|QID|10572|L|30628 |M|26.23,41.27|N|Dive underwater to get the power core.|
-C Setting Up the Bomb|QID|10572|M|22.20,35.50|N|Loot the armor plate.|
-K Overseer Ripsaw|QID|10621|L|30756 |T|Overseer Ripsaw|N|Find and kill Overseer Ripsaw, then loot the item he drops.|
+; Loot icon step wasn't auto-completing, therefore changed to standard C step with QO tag
+C Fel Reaver Power Core|QID|10572|QO|1|M|26.23,41.27|N|Dive underwater to get the power core.|NC|
+C Fel Reaver Armor Plate|QID|10572|QO|2|M|22.20,35.50|N|Loot the armor plate.|NC|
+K Overseer Ripsaw|QID|10621|L|30756 |T|Overseer Ripsaw|N|Find and kill Overseer Ripsaw, then loot the Illidari-Bane Shard.|
 A Illidari-Bane Shard|QID|10621|U|30756|M|22.49,35.97|N|Accept the quest from the shard.|
-C The Sketh'lon Wreckage|QID|10569|M|36.05,30.78|N|Kill Arakkoa until you get all three pages.|
+C The Sketh'lon Wreckage|QID|10569|M|36.05,30.78|N|Kill and loot the Dark Conclave Shadowmancer, Ravenguard and Hawkeye until you get all three pages.|
 C Enraged Spirits of Water|QID|10480|U|30094|M|49.18,23.10|N|Use the totem and kill the Enraged Water Spirits near it.|
-C The Second Course...|QID|10677|M|49.02,26.89|N|Kill Greater Felfire Diemetradons in the fel lava river.|
-A The Ashtongue Tribe|QID|10619|M|61.24,29.18|N|From Vindicator Aluumen.|REP|Aldor;932|
-A Karabor Training Grounds|QID|10587|M|61.24,29.18|N|From Exarch Onaala.|REP|Aldor;932|
-A Tablets of Baa'ri|QID|10568|M|62.54,28.46|N|From Anchorite Ceyla.|REP|Aldor;932|
-f Altar of Sha'tar|QID|10568|M|63.25,30.36|N|At Maddix.|REP|Aldor;932|
+C The Second Course...|QID|10677|M|49.02,26.89|N|Kill and loot the Greater Felfire Diemetradons in the fel lava river.|
+
+; None of these quests were available to a player with Neutral Aldor Rep, therefore added Friendly to the tag
+A The Ashtongue Tribe|QID|10619|M|61.24,29.18|N|From Vindicator Aluumen.|REP|Aldor;932;Friendly|
+A Karabor Training Grounds|QID|10587|M|61.24,29.18|N|From Exarch Onaala.|REP|Aldor;932;Friendly|
+A Tablets of Baa'ri|QID|10568|M|62.54,28.46|N|From Anchorite Ceyla.|REP|Aldor;932;Friendly|
+f Altar of Sha'tar|QID|10568|M|63.25,30.36|N|At Maddix.|REP|Aldor;932;Friendly|
 H Wildhammer Stronghold|QID|10572|M|37.06,58.17|N|Hearth back to Wildhammer Stronghold.|
-r Repair/Restock|QID|10568|M|37.26,57.58|
+r Repair/Restock|QID|10572|M|37.26,57.58|N|Remember to repair and restock whilst you are in Wildhammer Stronghold.|
 T The Second Course...|QID|10677|M|36.59,55.18|N|To Gnomus.|
 A The Main Course!|QID|10678|PRE|10677|M|36.59,55.18|N|From Gnomus.|
 T Illidari-Bane Shard|QID|10621|M|36.83,54.79|N|To Ordinn Thunderfist.|
-A Capture the Weapons|QID|10626|PRE|10621|M|36.83,54.79|N|From Ordinn Thunderfist.|
+A Capture the Weapons|QID|10626|PRE|10621|M|36.83,54.79|N|From Ordinn Thunderfist. This is suggested for 3 Players.|RANK|3|
 T The Sketh'lon Wreckage|QID|10569|M|38.71,54.17|N|To Gryphonrider Kieran.|
 A Find the Deserter|QID|10759|PRE|10569^10760|M|38.71,54.17|N|From Gryphonrider Kieran.|
 T Setting Up the Bomb|QID|10572|M|39.53,53.65|N|To Wing Commander Nuainn.|
 A Blast the Infernals!|QID|10564|PRE|10572|M|39.53,53.65|N|From Wing Commander Nuainn.|
-C Blast the Infernals!|QID|10564|M|22.66, 39.92|N|Head to the waypoint and use the bomb.|
-T Blast the Infernals!|QID|10564|M|39.53,53.65|N|To Wing Commander Nuainn.|
-A The Deathforge|QID|10573|PRE|10564|M|39.53,53.65|N|From Wing Commander Nuainn.|
+C Blast the Infernals!|QID|10564|U|30614|M|22.66, 39.92|N|Head to Legion Hold, and use the Fel Bomb.|
 
 T Find the Deserter|QID|10759|M|35.22,39.32|N|To Parshah. He wonders north and south along the road.|
 A Asghar's Totem|QID|10777|PRE|10759^10761|M|35.22,39.32|N|From Parshah. He wonders north and south along the road.|
-C Asghar's Totem|QID|10777|M|40.01,29.11|N|Kill Asghar and loot his totem.|
+C Asghar's Totem|QID|10777|M|40.01,29.11|N|Kill Asghar and loot his totem. He wanders around Sketh'lon Wreckage|T|Asghar|
 T Asghar's Totem|QID|10777|M|35.20,40.85|N|To Parshah.|
 A The Rod of Lianthe|QID|10778|PRE|10777|M|35.20,40.85|N|From Parshah.|
 T The Deathforge|QID|10573|M|40.43,41.36|N|To Stormer Ewan Wildwing.|
@@ -254,25 +290,39 @@ C Minions of the Shadow Council|QID|10582|M|40.3,37.97|N|The mobs you need are i
 T Minions of the Shadow Council|QID|10582|M|40.44,41.37|N|To Stormer Ewan Wildwing.|
 A The Fate of Flanis|QID|10583|M|40.44,41.37|N|From Stormer Ewan Wildwing.|
 A The Summoning Chamber|QID|10585|M|40.43,41.39|N|From Stormer Ewan Wildwing.|
-l Elemental Displacer|QID|10585|L|30672 |M|37.41,41.71|N|Head inside the cave and kill Deathforge Smiths and Tinkerers until the item drops.|
-C The Fate of Flanis|QID|10583|M|34.64,39.87|N|Fight your way back and loot Flanis' Pack.|
-C The Summoning Chamber|QID|10585|U|30672|M|37.67,38.30|N|Drop down to the lower level at the bridge near the mouth of the cavez, kill Summoner Skartax, then use the displacer. Kill the elemental that spawns.|
+
+C Elemental Displacer|QID|10585|QO|2|M|40.17,38.14|N|Head into the upper cave of The Deathforge, then kill and loot Deathforge Smiths and Tinkerers until the item drops.|
+C The Fate of Flanis|QID|10583|M|34.64,39.87|N|Fight your way back and try to speak to the corpse of Flanis Swiftwing to claim Flanis' Pack.|T|Flanis Swiftwing|CHAT|
+C The Summoning Chamber|QID|10585|U|30672|M|37.67,38.30|N|Head out of the cave, turn right and enter the lower cave, kill Summoner Skartax, then use the displacer. Kill the elemental that spawns.|T|Summoner Skartax|
 T The Summoning Chamber|QID|10585|M|40.44,41.35|N|To Stormer Ewan Wildwing.|
 T The Fate of Flanis|QID|10583|M|40.44,41.35|N|To Stormer Ewan Wildwing.|
 A Bring Down the Warbringer!|QID|10586|M|40.44,41.35|N|From Stormer Ewan Wildwing.|
-C Bring Down the Warbringer!|QID|10586|U|30688|M|38.95,46.26|N|Head inside the cave, go to where you killed the Smiths and Tinkerers. Open the gate, and head all the way to the end and kill Warbrinber Razuun. Then loot him.|
+C Warbrinber Razuun|QID|10586|QO|1|M|38.95,46.26|N|Head back into the upper cave of The Deathforge, in the area where you killed the Smiths and Tinkerers there is a gate to the left. Open the gate, and head all the way to the end and kill Warbrinber Razuun.|T|Warbrinber Razuun|
+C Razuun's Orders|QID|10586|QO|2|M|38.95,46.26|N|Loot Warbrinber Razuun for Razuun's Orders.|NC|
 
 H Wildhammer Stronghold|QID|10586|M|37.06,58.17|N|Hearth back to Wildhammer Stronghold.|
-r Repair/Restock|QID|10586|M|37.23,58.13|
+
+; Didn't make sense to turn in Blast the Infernals on an isolated run to Wildhammer Stronghold, so moving here
+T Blast the Infernals!|QID|10564|M|39.53,53.65|N|To Wing Commander Nuainn.|
+A The Deathforge|QID|10573|PRE|10564|M|39.53,53.65|N|From Wing Commander Nuainn.|
+
 T Bring Down the Warbringer!|QID|10586|M|39.54,53.64|N|To Wing Commander Nuainn.|
 A Gaining Access|QID|10589|PRE|10586|M|39.54,53.64|N|From Wing Commander Nuainn.|
 C Gaining Access|QID|10589|M|24.20,35.88|N|Kill and loot Mo'arg Weaponsmiths until the Legion Teleporter Control drops.|
+
+K Morgroron|QID|10626|QO|2|M|23.3,38.3|N|Kill Morgroron and loot his corpse for his glaive. This is flagged as recommended to need 3 players.|T|Morgroron|
+K Makazradon|QID|10626|QO|1|M|23.79,34.69|N|Kill Makazradon and loot his corpse for his glaive. This is flagged as recommended to need 3 players.|T|Makazradon|
+
 T Gaining Access|QID|10589|M|39.50,53.60|N|To Wing Commander Nuainn.|
 A Invasion Point: Cataclysm|QID|10766|PRE|10589|M|39.50,53.60|N|From Wing Commander Nuainn.|
+
+T Capture the Weapons|QID|10626|M|36.83,54.8|N|To Ordinn Thunderfist.|
+A The Hermit Smith|QID|10662|PRE|10626|M|36.83,54.8|N|From Ordinn Thunderfist.|
+
 l Lianth's Key|QID|10778|L|31316 |M|47.56,71.70|N|Kill Blood Elves until the key drops.|
-C The Rod of Lianthe|QID|10778|M|47.51,71.65|N|Open up the strongbox to get the rod.|
+C The Rod of Lianthe|QID|10778|M|47.51,71.65|N|Open up the strongbox to get the rod.|NC|
 C The Path of Conquest|QID|10772|NC|M|53.76,67.69|N|After you get to this spot, or a little farther until you get the quest completion.|
-T The Path of Conquest|QID|10772|M|50.89,58.82|N|To Wildhammer Gryphon Rider.|U|31310|
+T The Path of Conquest|QID|10772|M|50.89,58.82|N|Use the Wildhammer Flare Gun to call the Wildhammer Gryphon Rider.|U|31310|
 A Breaching the Path|QID|10773|PRE|10772|M|50.89,58.82|N|From Wildhammer Gryphon Rider.|U|31310|
 T The Rod of Lianthe|QID|10778|M|35.41,41.99|N|To Parshah.|
 A Sketh'lon Feathers|QID|10780|PRE|10778|M|35.41,41.99|N|From Parshah.|
@@ -303,58 +353,58 @@ A Divination: Gorefiend's Truncheon|QID|10636|M|58.16,70.82|N|From Ancient Shado
 A Divination: Gorefiend's Armor|QID|10634|M|58.16,70.82|N|From Ancient Shadowmoon Spirit.|
 C Enraged Spirits of Air|QID|10481|U|30094|M|59.85,69.71|N|Use the totem and kill the Enraged Air Spirit. They tend to be a bit spread out.|
 C The Main Course!|QID|10678|M|56.38,45.33|N|Go to the waypoint and kill Felspine the Greater to get his hide.|
-f Sanctum of the Stars|QID|10687|M|56.32,57.81|N|At Alieshor.|REP|Scryers;934|
-A Karabor Training Grounds|QID|10687|M|55.74,58.18|N|From Larissa Sunstrike.|REP|Scryers;934|
-A Tablets of Baa'ri|QID|10683|PRE|10568|M|56.25,59.59|N|From Arcanist Thelis|REP|Scryers;934|
-A The Ashtongue Broken|QID|10807|M|54.73,58.19|N|From Varen the Reclaimer|REP|Scryers;934|
+f Sanctum of the Stars|QID|10687|M|56.32,57.81|N|At Alieshor.|REP|Scryers;934;Friendly|
+A Karabor Training Grounds|QID|10687|M|55.74,58.18|N|From Larissa Sunstrike.|REP|Scryers;934;Friendly|
+A Tablets of Baa'ri|QID|10683|PRE|10568|M|56.25,59.59|N|From Arcanist Thelis|REP|Scryers;934;Friendly|
+A The Ashtongue Broken|QID|10807|M|54.73,58.19|N|From Varen the Reclaimer|REP|Scryers;934;Friendly|
 
-l Tablets of Baa'ri|QID|10568|L|30596 12|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932|
-C The Ashtongue Tribe|QID|10619|M|56.91,36.41|N|Kill the mobs needed.|REP|Aldor;932|
-l Tablets of Baa'ri|QID|10568|L|30596 12|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932|
+l Tablets of Baa'ri|QID|10568|L|30596 12|ACTIVE|10568|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932;Friendly|
+C The Ashtongue Tribe|QID|10619|M|56.91,36.41|N|Kill the mobs needed.|REP|Aldor;932;Friendly|
+l Tablets of Baa'ri|QID|10568|L|30596 12|ACTIVE|10568|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Aldor;932;Friendly|
 
-l Tablets of Baa'ri|QID|10683|S|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934|
-C The Ashtongue Broken|QID|10807|M|56.91,36.41|N|Kill the mobs needed for this quest.|REP|Scryers;934|
-l Tablets of Baa'ri|QID|10683|US|M|56.30,36.55|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934|
+l Tablets of Baa'ri|QID|10683|S|M|56.30,36.55|ACTIVE|10683|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934;Friendly|
+C The Ashtongue Broken|QID|10807|M|56.91,36.41|N|Kill the mobs needed for this quest.|REP|Scryers;934;Friendly|
+l Tablets of Baa'ri|QID|10683|US|M|56.30,36.55|ACTIVE|10683|N|Loot these from either the glowing green spots on the ground, or by killing Ashtongue Workers.|REP|Scryers;934;Friendly|
 
 C Divination: Gorefiend's Cloak|QID|10635|U|30721|M|64.47,39.73|N|Put on the Spectrecles and kill Clerics of Karabor until the cloak drops.|
 
-C Karabor Training Grounds|QID|10587|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|REP|Aldor;932|
-T The Ashtongue Tribe|QID|10619|M|61.25,29.18|N|To Vindicator Aluumen.|REP|Aldor;932|
-A Reclaiming Holy Grounds|QID|10816|PRE|10619|M|61.25,29.18|N|From Vindicator Aluumen.|REP|Aldor;932|
-T Karabor Training Grounds|QID|10587|M|61.25,29.18|N|To Exarch Onaala.|REP|Aldor;932|
-A A Necessary Distraction|QID|10637|PRE|10587|M|61.25,29.18|N|From Exarch Onaala.|REP|Aldor;932|
-T Tablets of Baa'ri|QID|10568|M|62.52,28.49|N|To Anchorite Ceyla.|REP|Aldor;932|
-A Oronu the Elder|QID|10571|PRE|10568^10683|M|62.52,28.49|N|From Anchorite Ceyla.|REP|Aldor;932|
-r Repair/Restock|QID|10571|M|62.33,28.97|REP|Aldor;932|
+C Karabor Training Grounds|QID|10587|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|REP|Aldor;932;Friendly|
+T The Ashtongue Tribe|QID|10619|M|61.25,29.18|N|To Vindicator Aluumen.|REP|Aldor;932;Friendly|
+A Reclaiming Holy Grounds|QID|10816|PRE|10619|M|61.25,29.18|N|From Vindicator Aluumen.|REP|Aldor;932;Friendly|
+T Karabor Training Grounds|QID|10587|M|61.25,29.18|N|To Exarch Onaala.|REP|Aldor;932;Friendly|
+A A Necessary Distraction|QID|10637|PRE|10587|M|61.25,29.18|N|From Exarch Onaala.|REP|Aldor;932;Friendly|
+T Tablets of Baa'ri|QID|10568|M|62.52,28.49|N|To Anchorite Ceyla.|REP|Aldor;932;Friendly|
+A Oronu the Elder|QID|10571|PRE|10568^10683|M|62.52,28.49|N|From Anchorite Ceyla.|REP|Aldor;932;Friendly|
+r Repair/Restock|QID|10571|M|62.33,28.97|REP|Aldor;932;Friendly|
 
-C Karabor Training Grounds|QID|10687|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|REP|Scryers;934|
-T The Ashtongue Broken|QID|10807|M|54.73,58.19|N|To Varen the Reclaimer.|REP|Scryers;934|
-A The Great Retribution|QID|10817|PRE|10807|M|54.73,58.19|N|From Varen the Reclaimer.|REP|Scryers;934|
-T Karabor Training Grounds|QID|10687|M|55.74,58.18|N|To Larissa Sunstrike.|REP|Scryers;934|
-A A Necessary Distraction|QID|10688|PRE|10687|M|55.74,58.18|N|From Larissa Sunstrike.|REP|Scryers;934|
-T Tablets of Baa'ri|QID|10683|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934|
-A Oronu the Elder|QID|10684|PRE|10571|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934|
-r Repair/Restock|QID|10571|M|62.33,28.97|REP|Scryers;934|
+C Karabor Training Grounds|QID|10687|M|68.44,51.77|N|Kill Demon Hunter Initiates and Supplicants until you have 8 glaives. Be careful of the level 70 elite that wanders around.|REP|Scryers;934;Friendly|
+T The Ashtongue Broken|QID|10807|M|54.73,58.19|N|To Varen the Reclaimer.|REP|Scryers;934;Friendly|
+A The Great Retribution|QID|10817|PRE|10807|M|54.73,58.19|N|From Varen the Reclaimer.|REP|Scryers;934;Friendly|
+T Karabor Training Grounds|QID|10687|M|55.74,58.18|N|To Larissa Sunstrike.|REP|Scryers;934;Friendly|
+A A Necessary Distraction|QID|10688|PRE|10687|M|55.74,58.18|N|From Larissa Sunstrike.|REP|Scryers;934;Friendly|
+T Tablets of Baa'ri|QID|10683|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934;Friendly|
+A Oronu the Elder|QID|10684|PRE|10571|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934;Friendly|
+r Repair/Restock|QID|10571|M|62.33,28.97|REP|Scryers;934;Friendly|
 
-C Oronu the Elder|QID|10684|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Scryers;934|
-T Oronu the Elder|QID|10684|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934|
-C Oronu the Elder|QID|10571|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Aldor;932|
-T Oronu the Elder|QID|10571|M|62.55,28.44|N|To Anchorite Ceyla.|REP|Aldor;932|
-A The Ashtongue Corruptors|QID|10574|PRE|10571^10684|M|62.55,28.44|N|From Anchorite Ceyla.|REP|Aldor;932|
-A The Ashtongue Corruptors|QID|10685|PRE|10574|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934|
-C Reclaiming Holy Grounds|QID|10816|M|71.74,37.59|N|As you kill the mobs needed, be careful of the roaming elite.|REP|Aldor;932|
-l Scroll of Demonic Unbanishing|QID|10637|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Aldor;932|
-C A Necessary Distraction|QID|10637|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Aldor;932|
-l Scroll of Demonic Unbanishing|QID|10688|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Scryers;934|
-C A Necessary Distraction|QID|10688|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Scryers;934|
+C Oronu the Elder|QID|10684|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Scryers;934;Friendly|
+T Oronu the Elder|QID|10684|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934;Friendly|
+C Oronu the Elder|QID|10571|M|57.25,32.74|N|Fly up and kill Oronu and loot his body.|REP|Aldor;932;Friendly|
+T Oronu the Elder|QID|10571|M|62.55,28.44|N|To Anchorite Ceyla.|REP|Aldor;932;Friendly|
+A The Ashtongue Corruptors|QID|10574|PRE|10571^10684|M|62.55,28.44|N|From Anchorite Ceyla.|REP|Aldor;932;Friendly|
+A The Ashtongue Corruptors|QID|10685|PRE|10574|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934;Friendly|
+C Reclaiming Holy Grounds|QID|10816|M|71.74,37.59|N|As you kill the mobs needed, be careful of the roaming elite.|REP|Aldor;932;Friendly|
+l Scroll of Demonic Unbanishing|QID|10637|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Aldor;932;Friendly|
+C A Necessary Distraction|QID|10637|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Aldor;932;Friendly|
+l Scroll of Demonic Unbanishing|QID|10688|L|30811|M|69.89,48.49|N|Kill Sunfury Summoners until a Scroll of Demonic Unbanishing drops.|REP|Scryers;934;Friendly|
+C A Necessary Distraction|QID|10688|U|30811|M|69.76,51.89|N|Clear a small area around Azaloth, then target him and use the scroll. Mount and fly up quickly and enjoy the show if you want.|REP|Scryers;934;Friendly|
 
 T Divination: Gorefiend's Cloak|QID|10635|M|58.30,70.82|N|To Ancient Shadowmoon Spirit.|
-K Haalum|QID|10574^10685|QO|2|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|
-K Eykene|QID|10574^10685|QO|1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|
+K Haalum|QID|10574^10685|ACTIVE|10574^10685|QO|2|M|57,73.64|N|Destroy the totems surrounding Haalum (each totem destroyed spawns 3 small elementals), then kill Haalum and loot his corpse.|
+K Eykene|QID|10574^10685|ACTIVE|10574^10685|QO|1|M|51.17,52.83|N|Destroy the totems surrounding Eykene (each totem destroyed spawns 3 small elementals), then kill Eykene and loot his corpse.|
 T Enraged Spirits of Air|QID|10481|M|42.20,45.07|N|To Earthmender Torlok.|
 A Oronok Torn-heart|QID|10513|PRE|10481|M|42.20,45.07|N|From Earthmender Torlok.|
-K Uylaru|QID|10574^10685|QO|4|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|
-K Lakaan|QID|10574^10685|QO|3|M|49.79,23.28|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|
+K Uylaru|QID|10574^10685|ACTIVE|10574^10685|QO|4|M|48.28,39.55|N|Destroy the totems surrounding Uylaru (each totem destroyed spawns 3 small elementals), then kill Uylaru and loot his corpse.|
+K Lakaan|QID|10574^10685|ACTIVE|10574^10685|QO|3|M|49.79,23.28|N|Destroy the totems surrounding Lakaan (each totem destroyed spawns 3 small elementals), then kill Lakaan and loot his corpse.|
 T Oronok Torn-heart|QID|10513|M|53.95,23.49|N|To Oronok Torn-heart.|
 A I Was A Lot Of Things...|QID|10514|PRE|10513|M|53.94,23.49|N|From Oronok Torn-heart.|
 C I Was A Lot Of Things...|QID|10514|U|30462|M|52.78,17.30|N|Look for leaves sticking out of the ground, then use the whistle. Make sure to kill Flayers as you see them, or you will not have any boars to dig for you.|
@@ -378,19 +428,19 @@ T The Cipher of Damnation - Grom'tor's Charge|QID|10522|M|44.65,23.65|N|To Grom'
 A The Cipher of Damnation - The First Fragment Recovered|QID|10523|PRE|10522|M|44.65,23.65|N|From Grom'tor, Son of Oronok.|
 T The Cipher of Damnation - The First Fragment Recovered|QID|10523|M|53.85,23.52|N|To Oronok Torn-heart.|
 
-C The Great Retribution|QID|10817|M|66.56,42.17|N|Make your way up Ata'mal Terrace, and kill, kill, kill! Watch out for the Elite Draknoid.|REP|Scryers;934|
+C The Great Retribution|QID|10817|M|66.56,42.17|N|Make your way up Ata'mal Terrace, and kill, kill, kill! Watch out for the Elite Draknoid.|REP|Scryers;934;Friendly|
 
-T A Necessary Distraction|QID|10637|M|61.25,29.23|N|To Exarch Onaala. The follow up she gives takes you back to Nagrand.|REP|Aldor;932|
-T Reclaiming Holy Grounds|QID|10816|M|61.24,29.18|N|To Vindicator Aluumen.|REP|Aldor;932|
-T The Ashtongue Corruptors|QID|10574|M|62.56,28.43|N|To Anchorite Ceyla.|REP|Aldor;932|
-A The Warden's Cage|QID|10575|PRE|10574^10685|M|62.56,28.43|N|From Anchorite Ceyla.|REP|Aldor;932|
-T The Warden's Cage|QID|10575|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom of the steps.|REP|Aldor;932|
+T A Necessary Distraction|QID|10637|M|61.25,29.23|N|To Exarch Onaala. The follow up she gives takes you back to Nagrand.|REP|Aldor;932;Friendly|
+T Reclaiming Holy Grounds|QID|10816|M|61.24,29.18|N|To Vindicator Aluumen.|REP|Aldor;932;Friendly|
+T The Ashtongue Corruptors|QID|10574|M|62.56,28.43|N|To Anchorite Ceyla.|REP|Aldor;932;Friendly|
+A The Warden's Cage|QID|10575|PRE|10574^10685|M|62.56,28.43|N|From Anchorite Ceyla.|REP|Aldor;932;Friendly|
+T The Warden's Cage|QID|10575|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom of the steps.|REP|Aldor;932;Friendly|
 
-T A Necessary Distraction|QID|10688|M|55.74,58.18|N|To Larissa Sunstrike. The follow up she gives takes you back to Nagrand.|REP|Scryers;934|
-T The Great Retribution|QID|10817|M|54.7,58.2|N|To Varen the Reclaimer.|REP|Scryers;934|
-T The Ashtongue Corruptors|QID|10685|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934|
-A The Warden's Cage|QID|10686|PRE|10575|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934|
-T The Warden's Cage|QID|10686|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom of the steps.|REP|Scryers;934|
+T A Necessary Distraction|QID|10688|M|55.74,58.18|N|To Larissa Sunstrike. The follow up she gives takes you back to Nagrand.|REP|Scryers;934;Friendly|
+T The Great Retribution|QID|10817|M|54.7,58.2|N|To Varen the Reclaimer.|REP|Scryers;934;Friendly|
+T The Ashtongue Corruptors|QID|10685|M|56.25,59.59|N|To Arcanist Thelis.|REP|Scryers;934;Friendly|
+A The Warden's Cage|QID|10686|PRE|10575|M|56.25,59.59|N|From Arcanist Thelis.|REP|Scryers;934;Friendly|
+T The Warden's Cage|QID|10686|M|57.33,49.58|N|To Sanoru, he is underground, at the bottom of the steps.|REP|Scryers;934;Friendly|
 
 A Proof of Allegiance|QID|10622|PRE|10575^10686|M|57.33,49.64|N|From Sanoru.|
 C Proof of Allegiance|QID|10622|M|56.33,49.48|N|Head to the top of the wall and kill Zandras.|
@@ -455,11 +505,6 @@ C The Force of Neltharaku|QID|10854|NC|U|31652|M|68.19,58.70|N|Use the crystal o
 T The Force of Neltharaku|QID|10854|M|66.92,57.86|N|To Neltharaku.|T|Neltharaku|
 A Karynaku|QID|10858|PRE|10854|M|66.92,57.86|N|From Neltharaku.|
 
-N Group Quests|QID|10858|N|The following steps are all the group quests we skipped before. Time to get help, since they can be somewhat nasty.|
-K Morgroron|QID|10626|L|30785 |M|23.3,38.3|N|Kill Morgroron and loot his corpse for his glaive.|
-C Capture the Weapons|QID|10626|M|23.79,34.69|N|Kill Makazradon and loot his corpse for his glaive. He wanders around.|T|Makazradon|
-T Capture the Weapons|QID|10626|M|36.83,54.8|N|To Ordinn Thunderfist.|
-A The Hermit Smith|QID|10662|PRE|10626|M|36.83,54.8|N|From Ordinn Thunderfist.|
 K Val'zareq the Conqueror|QID|10793|L|31345 |M|52,63|N|Look for and kill Val'zareq the Conqueror while killing the other mobs needed. Once he is dead, loot his journal.|S|
 C Breaching the Path|QID|10773|M|51.00,58.75|N|Kill everything that is needed in the path.|
 T Breaching the Path|QID|10773|M|52.50,62.91|N|To Wildhammer Gryphon Rider.|U|31310|
@@ -514,6 +559,7 @@ B Demon Warding Totem|QID|10664|M|64.72,70.33|Z|Shattrath City|N|Talk to Fantel 
 T Battle of the Crimson Watch|QID|10781|M|54.09,45.02|Z|Shattrath City|N|To A'dal.|
 C Additional Materials|QID|10664|M|54,44|Z|Shattrath City|N|Make or buy an Adamantite Frame and 4 Heavy Knothide Leather.|
 T Additional Materials|QID|10664|M|77.5,38.7|Z|Terokkar Forest|N|To David Wayne. The next 2 quests that open up from David are dungeon quests.|
+N Short on quests...|QID|999999|N|At this point you are probably close to the quest achievment. To get that, you either have to do some of the dungeon quest lines that lead back to Shadowmoon. Or if you have Artisan Riding trained you can keep doing the Netherwing quests to get it.|
 N Short on quests...|QID|999999|N|At this point you are probably close to the quest achievment. To get that, you either have to do some of the dungeon quest lines that lead back to Shadowmoon. Or if you have Artisan Riding trained you can keep doing the Netherwing quests to get it.|
 ]]
 end)

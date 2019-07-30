@@ -4,6 +4,30 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2019-07-28 11:43
+-- Who: Hendo72
+-- Log: Anything to do with NPCs inside the Chapel requires a |Z|Light's Hope Chapel| tag added to it or the waypoint will not set properly. Even the waypoints pointing outside the chapel will not show properly until you leave.
+
+-- URL: http://wow-pro.com/node/3251/revisions/30335/view
+-- Date: 2019-07-28 10:37
+-- Who: Hendo72
+-- Log: - Streamlined Pamela's Doll quest for flow and clarity. 
+--	- Adjusted coordinates for Villains/Heroes/Marauders of Darrowshire quest to show a clear path to the destinations.
+--	- Added a note about destroying leftover skulls/bone dust.
+--	- Rephrased a couple quests and added/removed NC/CHAT tags where needed.
+--	- Added |Z| tag to A Brotherhood of Light. Arrow was pointing to wrong location due to being inside Light's Hope Chapel (Map is actually showing Sanctum of Light).
+
+-- URL: http://wow-pro.com/node/3251/revisions/30331/view
+-- Date: 2019-07-24 19:22
+-- Who: Hendo72
+-- Log: Corrected coordinates and swapped NC for CHAT tag. Due to it being a tower, you will reach his coordinates while walking up. The former coordinates were taking you away from NPC even though it's in the same location.
+
+-- URL: http://wow-pro.com/node/3251/revisions/30320/view
+-- Date: 2019-07-22 05:55
+-- Who: Hendo72
+-- Log: Corrected the syntax of 'Missing Caravan Buff' (per Emmaleah). It was throwing an error in chat, but not crashing. I also cleaned up the note attached to it as well. Made it a little  better visually.
+
+-- URL: http://wow-pro.com/node/3251/revisions/30078/view
 -- Date: 2018-10-23 22:14
 -- Who: Ludovicus_Maior
 -- Log: And/Or
@@ -244,7 +268,7 @@ C Plaguehounds|QID|27372|M|18.07,71.42|N|Kill Plaguehounds until you get 10 bloo
 T A Gift For Fiona|QID|27372|M|9.02,66.40|N|To Fiona.|
 A Onward, to Light's Hope Chapel|QID|27373|PRE|27369&27372|M|9.02,66.40|N|From Fiona.|
 
-N Missing Caravan Buff|QID|27373|BUFF|85612;85613;85614|N|Click on Fiona's Caravan to pick one of three buffs.\n\nFiona's Lucky Charm: Allows the looting of Hidden Stash which contains money and a chance of a companion pet.\nGidwin's Weapon Oil: Provides extra Holy damage on melee and ranged attacks.\nTarenar's Talisman: Provides extra Holy damage on successful spell attacks.|
+N Missing Caravan Buff|ACTIVE|27373|M|8.78,66.60|BUFF|85612^85613^85614|N|Click on Fiona's Caravan to pick one of three buffs:\n\n1. Fiona's Lucky Charm:\n Allows the looting of Hidden Stash which contains money and a chance of a companion pet.\n\n2. Gidwin's Weapon Oil:\n Provides extra Holy damage on melee and ranged attacks.\n\n3. Tarenar's Talisman:\n Provides extra Holy damage on successful spell attacks.|
 C Onward, to Light's Hope Chapel|QID|27373|CHAT|M|9.00,66.40|N|Click on Fiona's Caravan and select Ride Fiona's Caravan to its next destination. Sit back and relax, and watch the dialog as the caravan makes it's way to Crown Guard Tower.|
 f Crown Guard Tower|QID|27373|M|34.86,68.05|N|At Janice Myers.|
 T Onward, to Light's Hope Chapel|QID|27373|M|34.8,69.09|N|To Fiona.|
@@ -252,8 +276,8 @@ T Onward, to Light's Hope Chapel|QID|27373|M|34.8,69.09|N|To Fiona.|
 A Zaeldarr the Outcast|QID|27432|M|35.00,68.20|N|From Urk Gagbaz.|
 A Traveling Companions|QID|27381|PRE|27373|M|35.23,68.68|N|From Tarenar Sunstrike.|
 A Little Pamela|QID|27383|M|35.52,68.84|N|From Carlin Redpath.|
-C Traveling Companions|QID|27381|M|35.72,69.16|N|Talk to Argus Highbeacon on top of the tower and ask him if he's interested in joining the caravan. \n\nWarning: VERY bright light at the top of the tower.|NC|
-A Rough Roads|QID|27382|M|35.72,69.16|N|From Argus Highbeacon.|
+C Traveling Companions|QID|27381|M|35.88,68.89|N|Talk to Argus Highbeacon on top of the tower and ask him if he's interested in joining the caravan. \n\nWarning: VERY bright light at the top of the tower.|CHAT|
+A Rough Roads|QID|27382|M|35.88,68.89|N|From Argus Highbeacon.|
 r Sell Junk. Repair/restock.|QID|27381|NC|M|35.74,68.99|N|With Argus Highbeacon.\n\nClick this step to continue.|
 T Traveling Companions|QID|27381|M|35.24,68.76|N|Use the Argent Parachutes to jump off the tower, then head to Tarenar Sunstrike.|
 
@@ -265,11 +289,19 @@ A I'm Not Supposed to Tell You This|QID|27392|PRE|27383|M|32.55,83.77|N|From Pam
 A Pamela's Doll|QID|27384|PRE|27383|M|32.55,83.77|N|From Pamela Redpath.|
 A I'm Not Supposed to Tell You This|QID|27392|PRE|27383|M|32.55,83.77|N|From Pamela Redpath.|US|
 
-C Pamela's Doll's Head|QID|27384|S|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12886|CC|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
-C Pamela's Doll's Left Side|QID|27384|S|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12887|CC|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
-C Pamela's Doll's Right Side|QID|27384|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12888|CC|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
-C Pamela's Doll's Head|QID|27384|US|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12886|CC|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
-C Pamela's Doll's Left Side|QID|27384|US|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12887|CC|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
+; Replaced this block of code with a better version below it.
+;C Pamela's Doll's Head|QID|27384|S|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12886|CC|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
+;C Pamela's Doll's Left Side|QID|27384|S|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12887|CC|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
+;C Pamela's Doll's Right Side|QID|27384|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12888|CC|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
+;C Pamela's Doll's Head|QID|27384|US|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12886|CC|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
+;C Pamela's Doll's Left Side|QID|27384|US|M|34.00,85.30;35.45,83.0;35.5,85.35|L|12887|CC|N|Head to the ruined houses and look for the doll part. A Ghosts of the Past will spawn when you approach the part.|
+
+N Pamela's Doll's Parts|ACTIVE|27384|M|32.55,83.77|N|Each doll part spawns in a random location within 1 of the 3 ruined houses. Multiple parts could be in the same location/area.\nA Ghosts of the Past will spawn when you approach the part. Be on your guard.\nIn case someone else is doing the quest around you, there is a bit of a timer for the respawn of the parts.|
+C Pamela's Doll's Head|QID|27384|S|M|34.00,85.30;35.45,83.0;35.5,85.35|CC|L|12886|N|Locate the Doll's Head. Watch for the Ghosts of the Past.|NC|
+C Pamela's Doll's Left Side|QID|27384|S|M|34.00,85.30;35.45,83.0;35.5,85.35|CC|L|12887|N|Locate the Doll's Left side. Watch for the Ghosts of the Past.|NC|
+C Pamela's Doll's Right Side|QID|27384|M|34.00,85.30;35.45,83.0;35.5,85.35|CC|L|12888|N|Locate the Doll's Right side. Watch for the Ghosts of the Past.|NC|
+C Pamela's Doll's Head|QID|27384|US|M|34.00,85.30;35.45,83.0;35.5,85.35|CC|L|12886|N|Locate the Doll's Head. Watch for the Ghosts of the Past.|NC|
+C Pamela's Doll's Left Side|QID|27384|US|M|34.00,85.30;35.45,83.0;35.5,85.35|CC|L|12887|N|Locate the Doll's Left side. Watch for the Ghosts of the Past.|NC|
 
 C Pamela's Doll|QID|27384|U|12886|M|35.41,83.04|N|Combine the three doll parts into the doll itself.|NC|
 C I'm Not Supposed to Tell You This|QID|27392|M|40.14,83.75|N|Kill and loot "The Lone Hunter".|
@@ -294,40 +326,41 @@ A Cenarion Tenacity|QID|27544|LEAD|27420|PRE|27386|M|34.93,68.32|N|From Urk Gagb
 C Heroes of Darrowshire - extended Annals of Darrowshire|QID|27388|L|13202|M|35.57,68.89|N|Speak to Carl Redpath and ask for the extended Annals of Darrowshire.|QO|1|CHAT|RANK|2|
 
 C Rough Roads|QID|27382|M|41.30,71.09|N|Kill any Plaguebats you need.|S|
-C Villains of Darrowshire - Shattered Sword of Marduk|QID|27387|M|39.77,72.36|N|Pick up the "Shattered Sword of Marduk" fron the floor.|QO|2|NC|RANK|2|
+C Villains of Darrowshire - Shattered Sword of Marduk|QID|27387|M|34.35,68.36;33.79,72.61;39.77,72.36|CC|N|Pick up the "Shattered Sword of Marduk" from the floor.|QO|2|NC|RANK|2|
 C Rough Roads|QID|27382|M|41.30,71.09|N|Finish killing any Plaguebats you need.|US|
-T Rough Roads|QID|27382|M|35.91,69.06|N|To Argus Highbeacon. \n\nOnce you complete this quest, the wagon will give a new Zone Buff, "Argus' Journal", which gives 2% more experience whilst in the zone.|
+T Rough Roads|QID|27382|M|35.91,69.06|N|To Argus Highbeacon at the top of the tower. \n\nOnce you complete this quest, the wagon will give a new Zone Buff, "Argus' Journal", which gives 2% more experience whilst in the zone.|
 
-C Heroes of Darrowshire - Redpath's Shield|QID|27388|M|22.29,68.40|N|Pick up "Redpath's Shield" from the ground floor of the house in The Marris Stead.|QO|3|NC|RANK|2|
-C Heroes of Darrowshire - Davil's Libram|QID|27388|M|22.29,68.40|N|Pick up "Davil's Libram" upstairs from the shield. Should be in the fireplace.|QO|2|NC|RANK|2|
+C Heroes of Darrowshire - Redpath's Shield|QID|27388|M|34.35,68.36;33.79,72.61;25.38,73.92;25.26,69.20;22.40,68.19|CC|N|Pick up "Redpath's Shield" from the ground floor of the house in The Marris Stead.|QO|3|NC|RANK|2|
+C Heroes of Darrowshire - Davil's Libram|QID|27388|M|22.61,68.62;22.63,68.24;22.29,68.40|CC|N|Pick up "Davil's Libram" upstairs from the shield. Should be in the fireplace.|QO|2|NC|RANK|2|
 
-T Cenarion Tenacity|QID|27544|M|30.22,56.99|N|At Rayne, she is in stealth as a cat.|RANK|2|
-A Postponing the Inevitable|QID|27420|M|30.22,56.99|N|From Rayne.|RANK|2|
-A Amidst Death, Life|QID|27421|M|30.22,56.99|N|From Rayne.|RANK|2|
+T Cenarion Tenacity|QID|27544|M|22.63,68.34;22.50,68.69;22.69,68.15;25.28,67.47;30.22,56.99|CC|N|At Rayne, she is in stealth as a cat.|RANK|2|
+A Postponing the Inevitable|QID|27420|M|30.22,56.99|CC|N|From Rayne.|RANK|2|
+A Amidst Death, Life|QID|27421|M|33.14,50.94;34.94,45.07;30.22,56.99|CC|N|From Rayne.|RANK|2|
 
-C Marauders of Darrowshire|QID|27389|S|U|13156|M|33.52,49.01|N|Kill and loot Scourge Champions, then use the crystal.|RANK|2|
+C Marauders of Darrowshire|QID|27389|S|U|13156|QO|1|M|33.52,49.01|N|Kill and loot Fetid skulls from Scourge Champions. Use the crystal to turn the skull into a Resonating Skull. Creating one is not guaranteed every time.|RANK|2|
 C Postponing the Inevitable|QID|27420|S|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|RANK|2|
-C Amidst Death, Life|QID|27421|U|61036|M|34.26,44.66;37.50,43.06;37.54,48.30|CS|N|Head into the middle of the Necropolis and use Rayne's Seeds.|RANK|2|NC|
+C Amidst Death, Life|QID|27421|U|61036|M|34.6,45.0;33.51,44.37;36.9,43.8;37.87,42.28;36.87,46.82;37.54,48.30|CS|N|Head into each of the 3 ziggurats, stand on the platform in the middle and use Rayne's Seeds.|RANK|2|NC|
+N Amidst Death, Life|ACTIVE|27421|N|If you have any leftover Fetid skulls and bone dust, destroy them both because they are worthless and cannot be sold.\nRight-Click this step to continue.|
 C Postponing the Inevitable|QID|27420|US|U|61038|M|35.32,45.78|N|Kill the Dark Adept humans to get their "Plague Disseminator Control Runes", then use the "Overcharged Mote" on the floating Plague Disseminators. No aiming needed.|RANK|2|
-C Marauders of Darrowshire|QID|27389|US|U|13156|M|33.52,49.01|N|Kill and loot Scourge Champions, then use the crystal.|RANK|2|
+C Marauders of Darrowshire|QID|27389|US|U|13156|QO|1|M|33.52,49.01|N|Kill and loot Fetid skulls from Scourge Champions. Use the crystal to turn the skull into a Resonating Skull. Creating one is not guaranteed every time.|RANK|2|
 
 T Postponing the Inevitable|QID|27420|M|30.17,56.93|N|To Rayne.|RANK|2|
 T Amidst Death, Life|QID|27421|M|30.17,56.93|N|To Rayne.|RANK|2|
-C Villains of Darrowshire - Skull of Horgus|QID|27387|M|37.32,60.24|N|Pick of the "Skull of Horgus".|QO|1|NC|RANK|2|
+C Villains of Darrowshire - Skull of Horgus|QID|27387|M|37.19,60.23|N|Pick of the "Skull of Horgus".|QO|1|NC|RANK|2|
 
 T Villains of Darrowshire|QID|27387|M|35.15,68.05|N|To Chromie.|RANK|2|
 T Heroes of Darrowshire|QID|27388|M|35.15,68.05|N|To Chromie.|RANK|2|
 T Marauders of Darrowshire|QID|27389|M|35.15,68.05|N|To Chromie.|RANK|2|
 A The Battle of Darrowshire|QID|27390|PRE|27387&27388&27389|M|35.15,68.05|N|From Chromie.|RANK|2|
-r Sell Junk. Repair/restock.|QID|27390|NC|M|35.74,68.99|RANK|2|
+r Sell Junk, Repair/restock.|QID|27390|M|35.07,68.09|N|Urk Gagbaz|RANK|2|
 
-R Darrowshire|ACTIVE|27390|M|34.92,83.84|N|Go to the middle of Darrowshire, near the well.|RANK|2|
-C The Battle of Darrowshire|QID|27390|U|15209|N|Defend Davil Lightfire and Captain Redpath (they do die at one point for event progression). Speak to Redpath when the event is done, and accept his forgiveness.|RANK|2|
+R Darrowshire|ACTIVE|27390|M|34.35,68.36;33.79,72.61;34.92,83.84|CC|N|Go to the middle of Darrowshire, near the well.|RANK|2|
+C The Battle of Darrowshire|QID|27390|U|15209|M|34.96,83.94|N|Place the Relic bundle on the ground to begin the event. Defend Davil Lightfire and Captain Redpath until they are turned against and you have to kill them. Speak to Joseph Redpath when the event is done, and accept his forgiveness.|RANK|2|
 T The Battle of Darrowshire|QID|27390|M|32.52,83.78|N|To Pamela Redpath.\n\nOn completion of this quest, a new buff will be available at the caravan. Pamela's Doll: Summon the spirit of Pamela Redpath to accompany you through Eastern Plaguelands.|RANK|2|
 A Hidden Treasures|QID|27391|PRE|27390|M|32.19,83.41|N|From Pamela Redpath.|RANK|2|
 T Hidden Treasures|QID|27391|M|32.19,83.41|N|Right behind the house, next to the chimney.|RANK|2|
 A The Trek Continues|QID|27448|PRE|27381&27382|M|34.84,69.27|N|From Fiona.|
-C The Trek Continues|QID|27448|M|52.67,53.73|N|Click on Fiona's Caravan and click on the option to continue the trek.|
+C The Trek Continues|QID|27448|M|52.67,53.73|CHAT|N|Click on Fiona's Caravan and click on the option to continue the trek.|
 
 f Light's Shield Tower|QID|27455|M|52.83,53.48|N|At Devon Manning.|
 T The Trek Continues|QID|27448|M|52.91,53.21|N|To Fiona.|
@@ -363,18 +396,17 @@ A A Boyhood Dream|QID|27463|PRE|27455|M|74.25,53.37|N|From Gidwin Goldbraids.|
 N Talk to Beezil Linkspanner|QID|27463|M|73.82,52.37|N|After you go through his short dialog to get him to join the caravan, there will be a new buff available. Beezil's Cog: Increase movement speed within Eastern Plaguelands by 10%.|
 T A Boyhood Dream|QID|27463|M|75.81,52.07|N|To Lord Maxwell Tyrosus.|
 A Argent Call: The Trial of the Crypt|QID|27464|PRE|27463|M|75.81,52.07|N|From Lord Maxwell Tyrosus.|
-A The Brotherhood of Light|QID|27459|M|75.57,52.30|N|From Leonid Barthalomew the Revered.|
+A The Brotherhood of Light|QID|27459|Z|Light's Hope Chapel|M|41.71,93.12|N|From Leonid Barthalomew the Revered inside Light's Hope Chapel.|
 f Light's Hope Chapel|QID|27464|M|75.79,53.38|N|At Khaelyn Steelwing.|
 A Smokey and the Bandage|QID|27458|M|74.92,53.30|N|From Smokey LaRue.|
 A Gathering Some Grub(s)|QID|27456|M|73.87,51.97|N|From Rimblat Earthshatter.|
-C Argent Call: The Trial of the Crypt|QID|27464|U|61309|M|77.21,51.77|N|Head to the bottom of the crypt and use the scroll. Survive the waves.|
-T Argent Call: The Trial of the Crypt|QID|27464|M|75.80,52.05|N|To Lord Maxwell Tyrosus.|
+C Argent Call: The Trial of the Crypt|QID|27464|U|61309|M|77.23,50.80;77.41,51.31;77.37,50.43;77.74,50.39;77.79,51.01|CN|N|The Crypt entrance is on the hill behind the Chapel.\nHead to the bottom of the crypt and use the scroll. Survive the waves.|
+T Argent Call: The Trial of the Crypt|QID|27464|M|75.80,52.05|N|To Lord Maxwell Tyrosus inside the Chapel.|
 A Argent Call: The Noxious Glade|QID|27465|PRE|27464|M|75.80,52.05|N|From Lord Maxwell Tyrosus.|
-A Buried Blades|QID|27467|PRE|27464|M|75.73,52.19|N|From Master Craftsman Omarion.|
+A Buried Blades|QID|27467|PRE|27464|Z|Light's Hope Chapel|M|41.62,87.97|N|From Master Craftsman Omarion inside the Chapel.|
 
-N Optional dungeon quests|QID|27459|M|76.09,51.00|N|There are two dungeon quests from Lord Raymond George, in the cemetary behind the chapel. One for Scholomance, and one for Stratholme.|
-h Light's Hope Chapel|QID|27459|M|75.61,52.30|N|At Jessica Chambers.|
-;N Train if you wish...|QID|27456|N|If you want, go to a major city to visit your trainers, or the AH.|
+h Light's Hope Chapel|QID|27459|Z|Light's Hope Chapel|M|43.99,89.42|N|At Jessica Chambers inside the Chapel.|
+N Optional dungeon quests|QID|27459|N|There are two dungeon quests from Lord Raymond George, in the cemetary behind the chapel. One for Scholomance, and one for Stratholme.|
 C Gathering Some Grub(s)|QID|27456|M|71.46,65.31|N|Kill the worms until you get 15 "Slab of Carrion Worm Meat".|
 T The Brotherhood of Light|QID|27459|M|72.53,74.86|N|To Archmage Angela Dosantos.|
 A Soft Landing|QID|27460|PRE|27459|M|72.61,74.87|N|From Archmage Angela Dosantos.|
