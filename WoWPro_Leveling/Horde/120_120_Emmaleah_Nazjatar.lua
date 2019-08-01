@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_horde
+-- Date: 2019-08-01 18:40
+-- Who: Emmaleah
+-- Log: error corrections and tweaks
+
+-- URL: http://wow-pro.com/node/3789/revisions/30339/view
 -- Date: 2019-07-29 10:15
 -- Who: Emmaleah
 -- Log: All Follower Quests, Bounty Quests and Requisitions per Wowhead are now included. Deleted the WQs that were just kill X elite.
@@ -214,11 +219,10 @@ C Scrying Stones|QID|56210|M|46.81,55.99;43.48,53.65;40.28,49.00|CS|QO|2|N|Keep 
 N Requisition/Bounty Quests|N|These are not set to be "sticky", so that the arrow can guide you to the correct area. If you want to make them sticky, you can right click on the step text and choose that option. This note will need to be manually clicked off.|
 N Curse of Tides|BUFF|-304606|M|39.02,57.99|N|If you are affected by the Curse of tides, go to Gloomseeker Yarga to have it removed. He can be found in an underwater cave, located under the shortest waterfall. He trades your cursed item for a bag of gold.|
 C The Unshackled|QID|56120|S!US|N|The Unshackled emisary is up, so Complete 4 world quests in Nazjatar.|
-C Bounty: Naga|QID|55827^55836|N|Today you have a bounty for killing Naga, so don't avoid them in your travels.|
+C Bounty: Naga|QID|55827^55818|N|Today you have a bounty for killing Naga, so don't avoid them in your travels.|
 C Bounty: Coral Ancients|QID|55821^55830|N|Today you have a bounty for killing Coral Ancients, these are mostly non agro (yellow) and often stationary.|
 C Bounty: Dangerous Creatures|QID|55837|S!US|N|Today you have a bounty for killing Rares, so don't avoid them in your travels.|
 C Bounty: Elite Naga Forces|QID|55836|S!US|N|Today you have a bounty for Elite Naga, so don't avoid them in your travels.|
-C Bounty: Hydras|QID|55820^55829|M|50.21,66.41|N|Keep an eye out for today's bounty quest to kill hydras.|
 C Requisition: Carp|QID|55723^55789|M|44.54,53.50|NC|N|Struggling Carp can rarely be found along almost all waterways all over Nazjatar. Click to return to water.|
 C Requisition: Cone Shells|QID|55792^55729|M|71.07,47.78|NC|N|Cone Shells can be found all over the entire zone. Click when found for the quest and the buff if you want.|
 C Requisition: We Need It All|QID|55801|M|65.70,44.79|S!US|N|Remember to collect all the needed (glowing) items throughout the zone. |
@@ -333,7 +337,7 @@ T Preserved Clues|QID|56242|M|81.45,45.50|N|To Preserved Journal on the ground.|
 A Diaries of the Dead|QID|56244|M|81.45,45.50|PRE|56242|
 f Elun'alor Temple|QID|56244|M|79.54,37.91|N|At Gizzik Kelpears.|
 C Diaries of the Dead|QID|56244|M|83.22,32.91|QO|1|NC|N|Find another journal in the city ruins.|
-C The Missing Crew|QID|56379|M|83.64,32.94|QO|3|CHAT|N|Find Captain Jalazko in Zin-Ashari.|
+C The Missing Crew|QID|56379|M|83.64,32.94|QO|3|NC|N|Find Captain Jalazko in Zin-Ashari.|
 C Diaries of the Dead|QID|56244|M|81.30,40.03|QO|2|NC|N|Continue searching the city ruins.|
 T Diaries of the Dead|QID|56244|M|78.88,41.19|N|To Enchanted Lock.|
 A Enchanted Lock|QID|56245|M|78.88,41.19|N|From Enchanted Lock.|PRE|56244|
@@ -383,29 +387,6 @@ T Extra Shiny|QID|55985|M|60.84,30.95|N|To Mari Lazarfin.|
 A The Heart of the Water|QID|55751|M|60.83,30.92|N|From Mari Lazarfin.|O|
 C The Heart of the Water|QID|55751|M|61.15,28.44|N|Kill and loot water elementals and living water in Azsh'ari Terrace.|
 T The Heart of the Water|QID|55751|M|60.84,30.95|N|To Mari Lazarfin.|
-C Runelocked Chest|QID|56007|M|59.14,24.28|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can destroy 17 red runes.|
-C Runelocked Chest|QID|56008|M|59.67,24.25|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 3 yellow runes.|
-C Runelocked Chest|QID|56010|M|59.14,24.28|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can destroy 14 blue runes.|
-C The Missing Crew|QID|56379|M|59.55,18.06|QO|2|CHAT|N|Find Captain Holgresh in Shirakess Repository.|
-C Requisition: Starfish|QID|55719^55785|M|64.73,24.94|NC|N|Collect Angel Scale Starfish.|
-A The Dark Garden|QID|55665|M|56.06,18.47|N|From Moris Criz.|O|
-C The Dark Garden|QID|55665|M|53.91,19.75|N|Clean up the Imperial Gardens.|
-T The Dark Garden|QID|55665|M|56.05,18.46|N|To Moris Criz.|
-C Deepcoil Cleansing|QID|57353|M|70.87,20.22|N|Collect Voidtinged Substances from almost anything in the Deepcoil Tunnels.|
-C Voltgorger|QID|56390|M|37.52,16.68|N|Defeat Voltgorger in a pet battle.|
-A Crackling Mandible|QID|56466|M|37.52,16.68|N|From Item dropped by Voltgorger.|PRE|56390|
-A Void Cache|QID|56232|M|56.3,15.1|N|From Void Cache.|O|
-C Void Cache|QID|56232|M|56.3,15.1|N|key dropped by nearby Shirakess Naga (behaps only voidreavers?).|
-T Void Cache|QID|56232|M|56.3,15.1|N|To Void Cache.|
-K Lady Naz'jess|ACTIVE|56222|M|36.50,17.75|QO|1|T|Lady Naz'jess|N|Kill Lady Naz'jess and claim her Head as proof.|
-A Stolen Power|QID|56075|M|59.09,19.15|N|From Axol Darksea.|O|
-C Stolen Power|QID|56075|M|59.09,19.15|NC|N|Scrolls are on the ground in the Shirakess Repository.|
-T Stolen Power|QID|56075|M|59.09,19.15|N|To Axol Darksea.|
-A A Blow to Morale|QID|55664|M|59.09,19.15|N|From Axol Darksea.|O|
-C Overdue|QID|57354|M|58.62,13.94|QO|1|N|Kill Shirakess Naga and collect their grimoires.|
-C A Blow to Morale|QID|55664|M|59.95,8.74|QO|1|N|Kill stuff, get to 100%.|
-T A Blow to Morale|QID|55664|M|59.03,19.06|N|To Axol Darksea.|
-
 A Legacy of the Mad Mage|QID|57086|N|From Dropped Lesser Benthic Arcanocrystal.|O|
 C Legacy of the Mad Mage|QID|57086|M|60.60,33.02|QO|1|NC|N|Locate Mardivas's Laboratory.|
 C Legacy of the Mad Mage|QID|57086|M|60.27,33.62|QO|2|NC|N|Place the Arcanocrystal.|
@@ -417,8 +398,34 @@ C The Laboratory of Mardivas|QID|55121|M|59.88,33.96|QO|1|N|Activate the Element
 C The Laboratory of Mardivas|QID|55121|M|59.74,34.21|QO|2|N|Kill the Elemental Creation.|
 T The Laboratory of Mardivas|QID|55121|M|60.62,33.24|N|To Mardiva's Tome. This becomes a weekly quest worth 500 faction and with a related achievement that rewards a mount.|
 
-C Runelocked Chest|QID|56022|M|37.31,15.90|QO|1|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 31 yellow runes.|
+C Runelocked Chest|QID|56006|M|59.26,24.26|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 18 orange runes.|
+C Runelocked Chest|QID|56007|M|59.14,24.28|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can destroy 17 red runes.|
+C Runelocked Chest|QID|56008|M|59.67,24.25|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 3 yellow runes.|
+C Runelocked Chest|QID|56010|M|59.14,24.28|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can destroy 14 blue runes.|
+C The Missing Crew|QID|56379|M|59.55,18.06|QO|2|NC|N|Find Captain Holgresh in Shirakess Repository.|
+C Requisition: Starfish|QID|55719^55785|M|64.73,24.94|NC|N|Collect Angel Scale Starfish.|
+A The Dark Garden|QID|55665|M|56.06,18.47|N|From Moris Criz.|O|
+C The Dark Garden|QID|55665|M|53.91,19.75|N|Clean up the Imperial Gardens.|
+T The Dark Garden|QID|55665|M|56.05,18.46|N|To Moris Criz.|
+C Deepcoil Cleansing|QID|57353|M|70.87,20.22|N|Collect Voidtinged Substances from almost anything in the Deepcoil Tunnels.|
+C Voltgorger|QID|56390|M|37.52,16.68|N|Defeat Voltgorger in a pet battle.|
+A Crackling Mandible|QID|56466|M|37.52,16.68|N|From Item dropped by Voltgorger.|PRE|56390|
+A Void Cache|QID|56232|M|56.3,15.1|N|From Void Cache.|O|
+C Void Cache|QID|56232|M|56.3,15.1|N|key dropped by nearby Shirakess Naga (behaps only voidreavers?).|
+T Void Cache|QID|56232|M|56.3,15.1|N|To Void Cache.|
+A Stolen Power|QID|56075|M|59.09,19.15|N|From Axol Darksea.|O|
+C Stolen Power|QID|56075|M|59.09,19.15|NC|N|Scrolls are on the ground in the Shirakess Repository.|
+T Stolen Power|QID|56075|M|59.09,19.15|N|To Axol Darksea.|
+A A Blow to Morale|QID|55664|M|59.09,19.15|N|From Axol Darksea.|O|
+C Overdue|QID|57354|M|58.62,13.94|QO|1|N|Kill Shirakess Naga and collect their grimoires.|
+C A Blow to Morale|QID|55664|M|59.95,8.74|QO|1|N|Kill stuff, get to 100%.|
+T A Blow to Morale|QID|55664|M|59.03,19.06|N|To Axol Darksea.|
+
+K Lady Naz'jess|ACTIVE|56222|M|36.50,17.75|QO|1|T|Lady Naz'jess|N|Kill Lady Naz'jess and claim her Head as proof.|
+C Runelocked Chest|QID|56019|M|37.31,15.90|QO|1|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 28 orange runes.|
 C Runelocked Chest|QID|56020|M|37.31,15.96|QO|1|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 29 purple runes.|
+C Runelocked Chest|QID|56021|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 30 red runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56022|M|37.31,15.90|QO|1|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 31 yellow runes.|
 
 C Mindshackle|QID|56388|M|56.44,8.13|N|Defeat Mindshackle in a pet battle.|
 A Strange Organ|QID|56464|M|56.44,8.13|N|From item dropped the first time you defeat Mindshackle in a pet battle.|PRE|56388|
@@ -443,6 +450,7 @@ K Commander Sarj'eth|ACTIVE|56223|M|44.17,20.26|QO|1|T|Commander Sar'jeth|N|Kill
 A Reinforced Cache|QID|56231|M|45.11,22.20|N|From Reinforced Cache sitting on the balcony.|O|
 C Reinforced Cache|QID|56231|M|45.11,22.20|N|Kill and loot Zanj'ir Naga in the area until you get the key to drop.|
 T Reinforced Cache|QID|56231|M|45.11,22.20|N|To Reinforced Cache.|
+C Runelocked Chest|QID|56012|M|45.34,30.13|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 4 green runes, by matching 3 or more in a row.|
 C Runelocked Chest|QID|56014|M|45.67,29.59|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 29 purple runes.|
 C Runelocked Chest|QID|56015|M|45.67,29.59|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 19 red runes.|
 C Runelocked Chest|QID|56016|M|45.67,29.59|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 21 yellow runes.|
@@ -460,6 +468,7 @@ C What Will It Lure?|QID|55602|M|48.20,24.12|QO|4|N|Kill the Shimmering Eel and 
 C Frenzied Knifefang|QID|56391|M|58.30,26.79;59.06,26.59|CS|N|Frenzied Knifefang can be found in an underwater cave. Defeat Frenzied Knifefang in a pet battle.|
 A Frenzy Fang|QID|56467|M|59.06,26.59|NC|N|From item dropped when defeating Frenzied Knifefang in a pet battle for the first time.|O|
 
+C Bounty: Hydras|QID|55820^55829|M|35.24,45.12|N|Keep an eye out for today's bounty quest to kill hydras.|
 A Ancient Technology|QID|56354|M|38.12,36.99|N|From Broken Abysal Focus.|P|Blacksmithing;164;7+150|
 A Ancient Technology|QID|56354|M|38.12,36.99|N|From Broken Abysal Focus.|P|Alchemy;171;7+150|
 A Ancient Technology|QID|56354|M|38.12,36.99|N|From Broken Abysal Focus.|P|Enchanting;333;7+150|
@@ -485,7 +494,7 @@ C A Little Edge|QID|55993|M|39.48,12.59|N|Run back to Chitterspine Caverns and k
 T A Little Edge|QID|55993|M|25.79,41.87|N|To Kade Makreef.|
 C Ravenous Scalespawn|QID|56387|M|29.60,49.64|N|Defeat Ravenous Scalespawn in a pet batle.|
 A Mottled Hydra Scale|QID|56463|M|29.60,49.64|N|From item dropped when defeating pet battle Ravenous Scalespawn.|PRE|56387|
-C The Missing Crew|QID|56379|M|29.87,44.81|QO|1|CHAT|N|Find Captain Dawnsail in the Ashen Strand.|
+C The Missing Crew|QID|56379|M|29.98,44.79|QO|1|NC|N|Find Captain Dawnsail in the Ashen Strand.|
 C Bounty: Hydras|QID|55820^55829|M|30.03,40.64|N|Kill Hydras.|
 C Giant Opaline Conch|QID|56392|M|28.24,26.86|QO|1|N|Defeat the Giant Opaline Conch in a pet battle.|
 A Opaline Conch|QID|56458|M|28.24,26.86|N|From item dropped the first time you defeat the Giant Opaline Conch in a pet battle.|PRE|56392|
@@ -553,7 +562,7 @@ T Scouting Undercover|QID|55866|M|36.98,27.03|N|To Overseer Hajeer.|
 A Sating Snapdragons|QID|55967|M|36.98,27.03|N|From Overseer Hajeer.|PRE|55866|
 A Working with Purpose|QID|56046|M|36.98,27.03|N|From Overseer Hajeer.|PRE|55866|
 C Working with Purpose|QID|56046|M|39.66,14.63|S|NC|N|Pick up Iridescent Pearls.|
-K Chitterspine Crabs|ACTIVE|55967|38.52,16.38|L|168753 10|N|You will need the Roe for feeding the snapdragons in a moment.|
+K Chitterspine Crabs|ACTIVE|55967|M|38.52,16.38|L|168753 10|N|You will need the Roe for feeding the snapdragons in a moment.|
 C Working with Purpose|QID|56046|M|39.66,14.63|US|NC|N|Finish collecting the Iridescent Pearls|
 C Sating Snapdragons|QID|55967|M|35.94,21.48|U|168753|NC|N|Kill Chitterspines(north of here) to collect Roe and throw it on the Savage Snapdragons.|
 T Sating Snapdragons|QID|55967|M|36.94,27.05|N|To Overseer Hajeer.|
@@ -659,6 +668,7 @@ T Becoming a Friend|QID|57005|M|50.97,65.28|N|To Atolia Seapearl.|
 T We're Going To Be Friends|QID|56808|M|51.00,65.27|N|To Atolia Seapearl.|
 T Just A Friend|QID|56803|M|50.98,65.26|N|To Atolia Seapearl.|
 A Friend Indeed|QID|56810|M|50.98,65.26|N|To Atolia Seapearl.|
+T With A Little Help From My Friends|QID|56815|M|50.98,65.26|N|To Atolia Seapearl.|
 T Bounty: A Few Crabs|QID|55823|M|50.99,65.24|N|To Atolia Seapearl.|
 T Bounty: More Crabs|QID|55832|M|50.99,65.24|N|To Atolia Seapearl.|
 T Bounty: A Few Fathom Rays|QID|55825|M|50.98,65.27|N|To Atolia Seapearl.|

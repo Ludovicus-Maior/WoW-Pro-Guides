@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2019-08-01 22:05
+-- Who: Ludovicus_Maior
+-- Log: BUFF update
+
+-- URL: http://wow-pro.com/node/3459/revisions/30152/view
 -- Date: 2018-12-03 23:09
 -- Who: Ludovicus_Maior
 -- Log: Clean up Achievs and make skipping [Sayge's Dark Fortunes] and [Taking the Show on the Road] possible.
@@ -381,15 +386,15 @@ N Create 5 Prophetic Ink|QID|29515|N|Use the Bundle of Exotic Herbs.|L|71972|U|7
 C Writing the Future|QID|29515|NC|N|Use the Prophetic Ink. Repeat until completed.|U|71972|
 T Writing the Future|QID|29515|M|52.94,75.94|N|To Sayge.|
 
-N Sayge's Dark Fortunes|QID|99023735|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Sayge offers different 2 hour buffs.  Pick one and elect to get a written fortune for a chance at a quest item! We pre-select based on your class.|RANK|3|
-N Sayge's Dark Fortune of Stamina|QID|99023735|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Confiscate the corn, Speak against your brother openly|RANK|3|
-N Sayge's Dark Fortune of Agility|QID|99023735|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Hunter,Rogue,Druid,Shaman,Monk|N|Confiscate the corn, Keep your brother out without letting him know|RANK|3|
-N Sayge's Dark Fortune of Intelligence|QID|99023735|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Druid,Mage,Paladin,Priest,Monk,Shaman,Warlock|N|Turn him over to liege, Show not so quiet defiance|RANK|3|
-N Sayge's Dark Fortune of Spirit|QID|99023735|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Priest,Druid,Monk,Shaman,Paladin|N|Give corn to the man, Take credit and Share the gold|RANK|3|
-N Sayge's Dark Fortune of Strength|QID|99023735|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Warrior,Death Knight,Paladin|N|Confiscate the corn, Help your brother in|RANK|3|
-N Sayge's Dark Fortune of Armor|QID|99023735|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Slay the man, Let your friend go|RANK|3|
-N Sayge's Dark Fortune of Damage|QID|99023735|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Slay the man, Execute your friend painfully|RANK|3|
-N Sayge's Dark Fortune of Resistance|QID|99023735|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Turn him over to liege, Remain quiet|RANK|3|
+N Sayge's Dark Fortunes|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Sayge offers different 2 hour buffs.  Pick one and elect to get a written fortune for a chance at a quest item! We pre-select based on your class.|RANK|3|
+N Sayge's Dark Fortune of Stamina|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Confiscate the corn, Speak against your brother openly|RANK|3|
+N Sayge's Dark Fortune of Agility|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Hunter,Rogue,Druid,Shaman,Monk|N|Confiscate the corn, Keep your brother out without letting him know|RANK|3|
+N Sayge's Dark Fortune of Intelligence|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Druid,Mage,Paladin,Priest,Monk,Shaman,Warlock|N|Turn him over to liege, Show not so quiet defiance|RANK|3|
+N Sayge's Dark Fortune of Spirit|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Priest,Druid,Monk,Shaman,Paladin|N|Give corn to the man, Take credit and Share the gold|RANK|3|
+N Sayge's Dark Fortune of Strength|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Warrior,Death Knight,Paladin|N|Confiscate the corn, Help your brother in|RANK|3|
+N Sayge's Dark Fortune of Armor|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Slay the man, Let your friend go|RANK|3|
+N Sayge's Dark Fortune of Damage|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Slay the man, Execute your friend painfully|RANK|3|
+N Sayge's Dark Fortune of Resistance|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Turn him over to liege, Remain quiet|RANK|3|
 
 N Collect 6 Discarded Weapon|QID|29510|N|Around the faire|L|72018 6|S|
 
