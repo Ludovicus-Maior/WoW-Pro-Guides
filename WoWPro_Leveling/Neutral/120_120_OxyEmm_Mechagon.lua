@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mechagon_neutral
+-- Date: 2019-08-01 18:36
+-- Who: Emmaleah
+-- Log: error corrections and tweaks
+
+-- URL: http://wow-pro.com/node/3791/revisions/30325/view
 -- Date: 2019-07-23 20:11
 -- Who: Emmaleah
 -- Log: Another weeks worth of dailies added and finishing the mount quest, added faction restrictions
@@ -521,7 +526,7 @@ T Blueprint: Emergency Repair Kit|QID|55059|M|71.34,32.28|N|To Pascal-K1N6.|
 T Blueprint: BAWLD-371|QID|55068|M|71.33,32.14|N|To Pascal-K1N6.|
 T Blueprint: Anti-Gravity Pack|QID|55081|M|71.33,32.14|N|To Pascal-K1N6.|
 A Ideas Can Come from Anywhere|QID|55103|M|71.26,32.64|N|From Pascal.|O|
-C Ideas Can Come from Anywhere|QID|55103|CHAT|N|You can talk to the various NPCs in town and ask them if they have any ideas, will only advance it to 50%. Remainder of new ideas come from going out and killing stuff. So check this off, and continue with what you were doing.|
+C Ideas Can Come from Anywhere|QID|55103|CHAT|S!US|N|You can talk to the various NPCs in town and ask them if they have any ideas, will only advance it to 50%. Remainder of new ideas come from going out and killing stuff. So check this off, and continue with what you were doing.|
 t Ideas Can Come from Anywhere|QID|55103|M|71.26,32.64|N|To Pascal.|
 
 A This One's on Me|QID|56181|M|71.13,32.28|N|Free blueprint for hitting honored. Pick up from Pascal.|REP|Rustbolt Resistance;2391;honored-exalted|
