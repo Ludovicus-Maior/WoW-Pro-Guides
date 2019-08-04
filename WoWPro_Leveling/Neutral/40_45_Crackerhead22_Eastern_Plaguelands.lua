@@ -4,6 +4,15 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_eastern_plaguelands_neutral
+-- Date: 2019-08-03 19:02
+-- Who: Hendo72
+-- Log: - Added |FACTION| tag to Hero's Call/Warchief's Command
+--	- Switched 'Scarlet Salvage' from l to C steps
+--	- Edited coordinates, wording and positions of some steps for better flow and understanding. Changed icons to chat or nc where better suited.
+--	- Split 'Guardians of Stratholme' into 2 steps for better coordinate mapping.
+--	- Moved A step for 'The Baroness' Missive' down because you cannot accept the quest until you kill one of them to get the drop item. I also tried to automatically skip 'The Baroness' Missive' note step if you get the drop right away. Not sure if it worked out right. (I got it right away)
+
+-- URL: http://wow-pro.com/node/3251/revisions/30336/view
 -- Date: 2019-07-28 11:43
 -- Who: Hendo72
 -- Log: Anything to do with NPCs inside the Chapel requires a |Z|Light's Hope Chapel| tag added to it or the waypoint will not set properly. Even the waypoints pointing outside the chapel will not show properly until you leave.
@@ -222,8 +231,8 @@ return [[
 
 ;Option 1 - Already got the Hero's Call/Warchief's Command in log
 F Thondroril River |QID|27367|M|9.02,66.52|N|Head to Fiona at the western part of Eastern Plaguelands.\n\nIf you've never been to Eastern Plaguelands and don't have a flying mount, head to Menders Stead in Western Plaguelands, and run east.|ACTIVE|28577^28578|
-T Hero's Call: Eastern Plaguelands!|QID|28578|M|9.02,66.52|N|To Fiona.|ACTIVE|28577^28578|
-T Warchief's Command: Eastern Plaguelands!|QID|28577|M|9.02,66.52|N|To Fiona.|ACTIVE|28577^28578|
+T Hero's Call: Eastern Plaguelands!|QID|28578|M|9.02,66.52|N|To Fiona.|ACTIVE|28577^28578|FACTION|Alliance|
+T Warchief's Command: Eastern Plaguelands!|QID|28577|M|9.02,66.52|N|To Fiona.|ACTIVE|28577^28578|FACTION|Horde|
 ;You can do both Hero's Call/Warchief's Command AND Into the Woods! so this allows that combination.
 f Thondroril River|QID|27367|M|10.02,65.70|N|Get flightpoint with Frax Bucketdrop.|PRE|28577^28578^27684|RANK|3|
 F The Menders' Stead|QID|27683|M|42.8,85|N|Fly to The Menders' Stead in Western Plaguelands.\n\nThis is a Rank 3 step for an extra quest that involves a flight to The Mender's Stead, pick up a quest, then fly back here to Thondroril River. If you don't want the achievement Loremaster, or the extra 435 XP and 5 silver, then skip this and the Accept In the Woods quest.|PRE|28577^28578^27684|RANK|3|
@@ -407,7 +416,7 @@ A Buried Blades|QID|27467|PRE|27464|Z|Light's Hope Chapel|M|41.62,87.97|N|From M
 
 h Light's Hope Chapel|QID|27459|Z|Light's Hope Chapel|M|43.99,89.42|N|At Jessica Chambers inside the Chapel.|
 N Optional dungeon quests|QID|27459|N|There are two dungeon quests from Lord Raymond George, in the cemetary behind the chapel. One for Scholomance, and one for Stratholme.|
-C Gathering Some Grub(s)|QID|27456|M|71.46,65.31|N|Kill the worms until you get 15 "Slab of Carrion Worm Meat".|
+C Gathering Some Grub(s)|QID|27456|M|72.52,58.49|N|Head out of Light's Hope Chapel and kill the worms until you get 15 "Slab of Carrion Worm Meat".|
 T The Brotherhood of Light|QID|27459|M|72.53,74.86|N|To Archmage Angela Dosantos.|
 A Soft Landing|QID|27460|PRE|27459|M|72.61,74.87|N|From Archmage Angela Dosantos.|
 C Soft Landing|QID|27460|M|77.55,79.26|N|Kill the 10 Scarlet Crusaders, then use the Flare at the waypoint.|
@@ -420,15 +429,15 @@ A The Wrathcaster|QID|27615|PRE|27462|M|75.48,76.17|N|From Crusade Commander Kor
 A The Huntsman|QID|27616|PRE|27462|M|75.48,76.17|N|From Crusade Commander Korfax.|
 A The Commander|QID|27619|PRE|27462|M|75.48,76.17|N|From Scarlet Cleric.|
 
-l Scarlet Salvage|QID|27614|QO|4|M|75.87,77.50|N|Pick up "Gavinrad's Sigil".|
-l Scarlet Salvage|QID|27614|QO|3|M|75.13,79.04|N|Pick up "Shroud of Uther".|
-C The Wrathcaster|QID|27615|M|74.64,78.62|N|Go downstairs.|
-l Scarlet Salvage|QID|27614|QO|2|M|74.24,78.31|N|Pick up "Lihanna's Strand".|
-C Scarlet Salvage|QID|27614|QO|1|M|74.78,76.68|N|Pick up the "Crimson Boar".|
-C The Commander|QID|27619|M|75.02,77.76|N|Go up two floors, in the middle area.|
-C The Huntsman|QID|27616|M|74.47,77.88|N|Go to the roof.|
+C Scarlet Salvage|QID|27614|QO|4|M|75.87,77.50|N|Loot "Gavinrad's Sigil" from the chest.|NC|
+C Scarlet Salvage|QID|27614|QO|3|M|75.13,79.04|N|Loot "Shroud of Uther" from the chest.|NC|
+C The Wrathcaster|QID|27615|M|74.78,77.99;74.64,78.62|CN|N|Go downstairs.|
+C Scarlet Salvage|QID|27614|QO|2|M|74.78,77.97;74.24,78.31|CN|N|Head back upstairs. Loot "Lihanna's Strand" from the chest.|NC|
+C Scarlet Salvage|QID|27614|QO|1|M|74.78,76.68|N|Loot "Crimson Boar" from the chest.|NC|
+C The Commander|QID|27619|M|74.46,77.64;74.93,78.61;74.63,78.46;74.54,77.82;75.02,77.76|CN|N|Go up two floors, in the middle area.|
+C The Huntsman|QID|27616|M|74.41,78.19;74.19,78.24;74.45,78.18;74.36,78.47;74.15,78.31;74.47,77.88|CN|N|Go to the roof.|
 
-T Scarlet Salvage|QID|27614|M|75.29,76.15|N|To Crusade Commander Korfax.|
+T Scarlet Salvage|QID|27614|M|75.29,76.15|N|To Crusade Commander Korfax. Walk off the edge and heal the damage taken. You'll take less damage than fighting your way back down.|
 T The Wrathcaster|QID|27615|M|75.29,76.15|N|To Crusade Commander Korfax.|
 T The Huntsman|QID|27616|M|75.29,76.15|N|To Crusade Commander Korfax.|
 T The Commander|QID|27619|M|75.29,76.15|N|To Crusade Commander Korfax.|
@@ -437,8 +446,8 @@ T Argent Upheaval|QID|27618|M|76.02,75.35|N|To Archmage Angela Dosantos.|
 T To Take the Abbey|QID|27461|M|76.70,73.26|N|To Crusade Commander Eligor Dawnbringer.|
 A Victory From Within|QID|27612|PRE|27461|M|76.70,73.26|N|From Crusade Commander Eligor Dawnbringer.|
 A The Assassin|QID|27613|PRE|27461|M|76.71,73.30|N|From Crusade Commander Eligor Dawnbringer.|
-C Victory From Within|QID|27612|M|78.48,72.92;77.84,70.99|CS|N|Click on the portals.|
-C The Assassin|QID|27613|M|77.85,72.71|N|Go all the way up. He is in stealth.|
+C Victory From Within|QID|27612|M|78.48,72.92;77.84,70.99|CS|N|Click on the portals. Library Wing portal is upstairs.|NC|
+C The Assassin|QID|27613|M|77.91,72.80;77.85,72.71|CN|N|Head back downstairs to the Main Hall. Find the stairway between the wings and go all the way up. He is stealthed on the other side of the platform.|
 T Victory From Within|QID|27612|M|76.69,73.19|N|To Crusade Commander Eligor Dawnbringer.|
 T The Assassin|QID|27613|M|76.69,73.19|N|To Crusade Commander Eligor Dawnbringer.|
 A Befouled No More|QID|27617|PRE|27612&27613|M|76.69,73.19|N|From Crusade Commander Eligor Dawnbringer.|
@@ -447,17 +456,17 @@ A Like Rats|QID|27620|PRE|27617&27618|M|76.08,75.31|N|From Archmage Angela Dosan
 C Like Rats|QID|27620|M|81.45,78.75|N|Work your way inside the cathedral and kill Crusader Lord Valdelmar.|
 
 H Light's Hope Chapel|QID|27620|N|Hearth to Light's Hope Chapel, or run if your hearth is not up.|
-T Like Rats|QID|27620|M|75.66,52.18|N|To Leonid Barthalomew the Revered.|
-r Sell junk, repair/restock. At Craftsman Wilhelm.|QID|27456|M|75.16,53.69|
+T Like Rats|QID|27620|Z|Light's Hope Chapel|M|41.14,87.90|N|To Leonid Barthalomew the Revered inside the Chapel.|
+r Sell junk, repair/restock @ Craftsman Wilhelm.|QID|27456|M|75.16,53.69|
 T Gathering Some Grub(s)|QID|27456|M|73.86,51.96|N|To Rimblat Earthshatter.|
-C Buried Blades|QID|27467|S|M|76.20,39.41|N|Poke the Slain Scourge Troopers with the "Light-Touched Blades" as you kill the mobs for the other quest.|
+C Buried Blades|QID|27467|S|M|76.20,39.41|N|Poke the Slain Scourge Troopers with the "Light-Touched Blades" as you kill the mobs for the other quest.|NC|
 C Argent Call: The Noxious Glade|QID|27465|M|77.35,39.07|N|Watch out for Garginox, a level 45 elite.|S|
-C Smokey and the Bandage|QID|27458|L|62028 1|M|71.58,46.38|N|Kill Stephen Browman to get "Browman's Wrappings".|
+C Smokey and the Bandage|QID|27458|M|71.58,46.38|N|Kill Stephen Browman to get "Browman's Wrappings".|
 C Argent Call: The Noxious Glade|QID|27465|M|77.35,39.07|N|Watch out for Garginox, a level 45 elite.|US|
-C Buried Blades|QID|27467|US|M|76.20,39.41|N|Poke the Slain Scourge Troopers with the "Light-Touched Blades" as you kill the mobs for the other quest.|
+C Buried Blades|QID|27467|US|M|76.20,39.41|N|Poke the Slain Scourge Troopers with the "Light-Touched Blades" as you kill the mobs for the other quest.|NC|
 T Smokey and the Bandage|QID|27458|M|74.94,53.36|N|To Smokey LaRue.|
-T Buried Blades|QID|27467|US|M|75.67,52.21|N|To Master Craftsman Omarion.|
-T Argent Call: The Noxious Glade|QID|27465|M|75.80,52.07|N|To Lord Maxwell Tyrosus.|
+T Buried Blades|QID|27467|US|M|75.67,52.21|N|To Master Craftsman Omarion inside the Chapel.|
+T Argent Call: The Noxious Glade|QID|27465|M|75.80,52.07|N|To Lord Maxwell Tyrosus inside the Chapel.|
 A An Opportune Alliance|QID|27457|PRE|27456&27465|M|73.85,52.01|N|From Rimblat Earthshatter.|
 R Eastwall Tower|QID|27457|M|62,42|N|Run to Eastwall Tower.|
 f Eastwall Tower|QID|27457|M|61.62,43.81|N|At Richard Trueflight.|
@@ -485,11 +494,11 @@ T The Corpulent One|QID|27477|M|61.51,43.22|N|To Gamella Cracklefizz.|
 T Ix'lar the Underlord|QID|27487|M|61.42,42.80|N|To Fiona.|
 
 A Impatience|QID|27488|PRE|27487|M|61.50,43.21|N|From Tarenar Sunstrike.|
-C Impatience|QID|27488|L|61318 1|M|65.45,24.49|N|Pick up "Gidwin's Prayer Book".|
-r Sell junk, repair/restock. At Patricia Marshall.|QID|27489|M|62.28,42.28|
+C Impatience|QID|27488|M|65.45,24.49|N|Pick up "Gidwin's Prayer Book".|NC|
 T Impatience|QID|27488|M|61.53,43.31|N|To Tarenar Sunstrike.|
+r Sell junk, repair/restock @ Patricia Marshall.|QID|27489|M|62.28,42.28|
 A Nobody to Blame but Myself|QID|27489|PRE|27488|M|61.53,43.31|N|From Tarenar Sunstrike.|
-C Nobody to Blame but Myself|QID|27489|M|50.52,20.45|N|Ride Fiona's Caravan to Northpass Tower.|
+C Nobody to Blame but Myself|QID|27489|M|61.57,42.63;50.51,20.67|CC|N|Ride Fiona's Caravan to Northpass Tower.|CHAT|
 T Nobody to Blame but Myself|QID|27489|M|50.46,20.27|N|To Tarenar Sunstrike.|
 A Beat it Out of Them|QID|27522|PRE|27489|M|50.46,20.27|N|From Tarenar Sunstrike.|
 A Wretched Hive of Scum and Villainy|QID|27521|M|50.10,19.57|N|From Kirkian Dawnshield.|
@@ -511,16 +520,17 @@ A Guardians of Stratholme|QID|27525|PRE|27524|M|27.58,21.14|N|From Tarenar Sunst
 A Scourged Mass|QID|27528|M|27.70,21.02|N|From Crusader Kevin Frost.|
 A Defenders of Darrowshire|QID|27529|M|27.70,21.02|N|From Crusader Kevin Frost.|
 A Add 'em to the Pile|QID|27539|M|27.70,21.02|N|From Crusader Kevin Frost.|
-A The Baroness' Missive|QID|27551|U|61378|N|(UI Alert) Omasum Blighthoof or Karthis Darkrune should drop this.|O|
-C Guardians of Stratholme|QID|27525|M|24.94,20.41;29.37,20.00|CS|N|Kill Omasum Blighthoof and Karthis Darkrune.|
-N The Baroness' Missive|AVAILABLE|27551|N|Keep killing Omasum Blighthoof and Karthis Darkrune you get the quest.|
+C Guardians of Stratholme|QID|27525|QO|1|M|23.43,21.65;24.94,20.41|CS|N|Kill Omasum Blighthoof.|
+C Guardians of Stratholme|QID|27525|QO|2|M|29.01,23.18;29.90,20.05|CS|N|Kill Karthis Darkrune.|
+N The Baroness' Missive|AVAILABLE|27551|N|Keep killing Omasum Blighthoof and Karthis Darkrune until you get the quest.|
+A The Baroness' Missive|QID|27551|N|(UI Alert) Omasum Blighthoof or Karthis Darkrune should drop this.|O|
 T The Baroness' Missive|QID|27551|M|27.48,21.27|N|To Tarenar Sunstrike.|
 A Gidwin's Fate Revealed|QID|27526|PRE|27551|M|27.48,21.27|N|From Tarenar Sunstrike.|
 T Guardians of Stratholme|QID|27525|M|27.48,21.27|N|To Tarenar Sunstrike.|
 C Scourged Mass|QID|27528|U|61369|M|32.22,21.30|N|Kill Overstuffed Golems and then burn their corpses.|S|
 C Defenders of Darrowshire|QID|27529|M|36.27,17.53|N|Kill Cannibal Ghouls then to talk to the spirits.|S|
 C Add 'em to the Pile|QID|27539|M|38.38,30.46|N|Kill Cursed Mages and Scourge Soldiers to get their skulls.|S|
-C Gidwin's Fate Revealed|QID|27526|M|28.69,26.06|N|As you enter the slaughterhouse you will be treated to a cutscene.|
+C Gidwin's Fate Revealed|QID|27526|M|32.12,25.37;28.69,26.06|CN|N|As you enter the slaughterhouse you will be treated to a cutscene.|
 T Gidwin's Fate Revealed|QID|27526|M|28.34,25.90|N|To Gidwin Goldbraids.|
 
 A Journey's End|QID|27527|PRE|27526|M|28.34,25.90|N|From Gidwin Goldbraids.|
@@ -543,11 +553,11 @@ T Just a Little Touched|QID|27535|M|11.43,28.73|N|To Augustus the Touched.|
 A A Fate Worse Than Butchery|QID|27533|M|11.43,28.73|N|From Augustus the Touched.|
 A Augustus' Receipt Book|QID|27534|M|11.43,28.73|N|From Augustus the Touched.|
 C A Fate Worse Than Butchery|QID|27533|M|15.10,28.21|N|Kill 9 Plagued Swine.|S|
-C Augustus' Receipt Book|QID|27534|M|14.25,26.38|N|Upstairs in the Inn.|
+C Augustus' Receipt Book|QID|27534|M|14.25,26.38|N|Upstairs in the Inn.|NC|
 C A Fate Worse Than Butchery|QID|27533|M|15.10,28.21|N|Kill 9 Plagued Swine.|US|
 T A Fate Worse Than Butchery|QID|27533|M|11.40,28.73|N|To Augustus the Touched.|
 T Augustus' Receipt Book|QID|27534|M|11.40,28.73|N|To Augustus the Touched.|
-C Counter-Plague Research|QID|27531|M|25.09,34.66|N|The berries are small green bushes with red berries next to the mushrooms. The arms are glittering but can be hard to spot, so look carefully. The "Flesh Giant Foot Scrapings" is near the Corpsebeasts where the waypoint is.|
+C Counter-Plague Research|QID|27531|M|25.09,34.66|N|The berries are small green bushes with red berries next to the mushrooms. The arms are glittering but can be hard to spot, so look carefully. The "Flesh Giant Foot Scrapings" is near the Corpsebeasts where the waypoint is.|NC|
 T Counter-Plague Research|QID|27531|M|17.81,27.86|N|To Argent Apothecary Judkins.|
 T Journey's End|QID|27527|U|61379|M|73.83,52.16|N|To Fiona. Use "Gidwin's Hearthstone" to save your own.|
 ;F Ironforge or Stormwind|QID|27762|M|75.81,53.42|N|Fly to Ironforge (or Stormwind depending on your class) to visit your trainers, the AH, etc. Close this step when done.|FACTION|Alliance|
