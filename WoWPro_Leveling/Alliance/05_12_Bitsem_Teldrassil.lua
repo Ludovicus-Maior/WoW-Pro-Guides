@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2019-08-06 18:54
+-- Who: Hendo72
+-- Log: My bad. Reverted and reapplied my changes properly.
+
+-- URL: http://wow-pro.com/node/3204/revisions/30355/view
+-- Date: 2019-08-06 18:51
+-- Who: Hendo72
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3204/revisions/30352/view
+-- Date: 2019-08-06 10:33
+-- Who: Hendo72
+-- Log: Added |NC| tags where needed and switched r step from Freja to Andiss (He's closer)
+
+-- URL: http://wow-pro.com/node/3204/revisions/30049/view
 -- Date: 2018-10-17 22:46
 -- Who: Ludovicus_Maior
 -- Log: And/Or
