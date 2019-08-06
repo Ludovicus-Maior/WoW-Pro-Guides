@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2019-08-06 20:12
+-- Who: Fluclo
+-- Log: Added LEAD tag to Khadgar's Discovery as there appears to be a way to complete Magic Message without doing either quest 39985 or 44555
+
+-- URL: http://wow-pro.com/node/3687/revisions/30016/view
 -- Date: 2018-10-17 02:30
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -249,11 +254,6 @@
 -- Who: Blanckaert
 -- Log: Augghh!  dang head cold.. can't properly type and think....
 
--- URL: http://wow-pro.com/node/3687/revisions/28146/view
--- Date: 2016-12-13 20:20
--- Who: Blanckaert
--- Log: adding for quest for 12/13 / updated info etc. (the right one this time)
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:NewGuideLevels(guide,110,110)
@@ -271,7 +271,7 @@ N Treasures and Rares|QID|39987|N|As with other guides all treasures and rares a
 
 ; Nightfallen But Not Forgotten - Nightfall
 
-A Khadgar's Discovery|QID|44555^39985|LVL|110|N|Auto Accepted from UI upon entering Dalaran. Or get from your Adventure Guide (Shift - J Default keybinding)|
+A Khadgar's Discovery|QID|44555^39985|LVL|110|N|Auto Accepted from UI upon entering Dalaran. Or get from your Adventure Guide (Shift - J Default keybinding)|LEAD|39986|
 T Khadgar's Discovery|QID|44555^39985|M|28.47,48.31|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar in the Violet Citadel.|
 A Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|44555&39985|
 C Magic Message|QID|39986|M|29.32,48.80|Z|Dalaran!Dalaran!Dungeon|NC|N|Click on the Arcane Anomaly and watch the dialog.|
