@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2019-08-06 16:18
+-- Who: Fluclo
+-- Log: Added LEAD tag for Beatface vs. Boulder to stop it showing after you've completed it
+
+-- URL: http://wow-pro.com/node/3613/revisions/30246/view
 -- Date: 2019-06-05 20:02
 -- Who: Ludovicus_Maior
 -- Log: Use [At Your Command] for the QID doe the D step
@@ -526,7 +531,7 @@ R Steamscar Rise|ACTIVE|36439|N|Head to Steamscar Rise|M|52.29,46.52|
 C Shredder vs. Saberon |QID|36439|N|Head up the path, break the Strong Vine Barricade, then walk in.|NC|M|52.22,48.66|
 T Shredder vs. Saberon |QID|36439|N|To Altauur, who is moving into Steamscar Rise after you broke in.|M|52.04,49.50|PRE|36436&35708|
 
-A Beatface vs. Boulder |QID|36438|N|From Altauur|M|51.31,47.97|PRE|36436&35064&36437|
+A Beatface vs. Boulder |QID|36438|N|From Altauur|M|51.31,47.97|PRE|36436&35064&36437|LEAD|36438^36439|
 C Beatface vs. Boulder |QID|36438|N|Leave the cave and go left; there is a trail with a red banner over it heading up the mountain that brings you into a spot full of dead podlings\nFollow it round to the left and click on the boulders|NC|M|50.61,51.44|ACTIVE|36438|
 T Beatface vs. Boulder |QID|36438|N|To Altauur, who will spawn to your right as soon as you walk into the encampment.|M|52.04,49.50|PRE|36436&34704|
 
