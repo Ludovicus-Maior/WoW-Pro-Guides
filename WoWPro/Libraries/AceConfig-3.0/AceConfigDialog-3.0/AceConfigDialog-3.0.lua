@@ -564,7 +564,7 @@ do
 			end
 		end)
 
-		local border = CreateFrame("Frame", nil, frame, "DialogBorderDarkTemplate")
+		local border = CreateFrame("Frame", nil, frame)
 		border:SetAllPoints(frame)
 
 		local text = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
