@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mechagon_neutral
+-- Date: 2019-08-10 08:10
+-- Who: Emmaleah
+-- Log: More tweaks
+
+-- URL: http://wow-pro.com/node/3791/revisions/30346/view
 -- Date: 2019-08-01 18:36
 -- Who: Emmaleah
 -- Log: error corrections and tweaks
@@ -58,7 +63,8 @@
 
 local guide = WoWPro:RegisterGuide('Mechagon', 'Leveling', 'Mechagon Island', 'Oxycontin+Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,120, 120)
-WoWPro:GuideNextGuide(guide, 'MechDaily')
+WoWPro:GuideNextGuide(guide, 'OxyNazj|EmmNazj')
+WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -250,6 +256,14 @@ A Aid From Nordrassil|QID|55463|M|72.18,37.24|N|From Mylune.|O|
 A My Chickens are Not for Eating!|QID|56523|M|72.77,37.96|N|From Oglethorpe Obnoticus.|O|
 U Pet Opportunity|ACTIVE|56523|S!US|T|Dismantled OOX-35/MG|ITEM|169381|N|On days [My Chickens are Not for Eating!] is available, you can find and repair a pet.|
 
+A Bugs, Lots of 'Em!|QID|55765|M|75.83,34.33|N|From Razak Ironsides.|O|
+A Toys For Destruction|QID|54090|M|69.77,33.17|N|From Rocket-Chief Fuselage.|O|
+C Toys For Destruction|QID|54090|M|69.80,33.13|QO|1|CHAT|N|Speak with Rocket-Chief Fusalge to begin|
+C Toys For Destruction|QID|54090|M|69.68,33.11|QO|2|NC|N|Do what the helpers say, ignore the nay-sayers. There are 4 ingredients beyond the workbench. (left to right - volatile liquid -  batteries - explosives - cogs and gears). Click to add. If you fail, talk to the Chief to start over.|
+C Toys For Destruction|QID|54090|M|69.68,33.11|QO|3|NC|N|Collect the weapon.|
+T Toys For Destruction|QID|54090|M|69.68,33.11|N|To Rocket-Chief Fuselage.|
+A Rocket-Chief Fuselage's follow up|QID|55528^56355|M|69.68,33.11|N|From Rocket-Chief Fuselage.|PRE|54090|
+
 ;other interests purchases
 B Flatulent Fish|ACTIVE|55815|M|37.49,49.43|Z|Nazjatar|L|167906 105|T|Grrmrlg|N|Even if you don't want Blackmarket remote access, it is still 75 faction for 105 gold and 5 minutes of your time, Go to Nazjatar, and buy 105 Flatulent Fish from Grrmrlg the murloc trader.|FACTION|Alliance|
 B Bag of Who-Knows What|ACTIVE|55815|M|39.97,53.42|Z|Nazjatar|L|167910 15|T|Flrgrrl|N|Then trade with Flrgrrl for 15 Bags of Who-Knows-What.|FACTION|Alliance|
@@ -270,6 +284,20 @@ B Disintegrating Sand Sculpture|ACTIVE|56174|M|38.51,53.90|Z|Nazjatar|L|167903 5
 B Sweet Sea Vegetables|ACTIVE|56174|M|47.78,63.12|Z|Nazjatar|L|167915 20|T|Hurlgrl|N|Even if you don't want Blackmarket remote access, it is still 75 faction for 20 gold and 5 minutes of your time, Go to Nazjatar, and buy 20 Sweet Sea Vegetables from Hurlgrl the murloc trader.|FACTION|Horde|
 B Disintegrating Sand Sculpture|ACTIVE|56174|M|48.28,62.58|Z|Nazjatar|L|167903 5|QO|1|T|Mrrglrlr|N|Then trade for the 5 Disintegrating Sand Sculpture from Mrrglrlr the murloc trader.|FACTION|Horde|
 t Other Interests|QID|56172^56173^56174^55815|M|73.56,34.29|N|To Steelsage Gao.|
+
+;other place
+A The Other Place|QID|55816|M|70.19,30.91|N|From Chromie.|O|
+C The Other Place|QID|55816|M|70.22,30.92|QO|1|CHAT|N|Speak with Chromie.|
+A Adapt, Improve, Overcome!|QID|56142|ACTIVE|55816|M|71.84,35.85|N|From Christy Punchcog.|
+C Adapt, Improve, Overcome!|QID|56142|M|73.59,42.33|QO|1|N|Kill Scraphounds to collect Pristine Hound Bolts.|
+C The Other Place|QID|55816|M|41.71,26.30|U|168813|S!US|QO|3|N|Kill Giant Clockworks located all over the island, use the Device Chromie gave you to scan their memory banks.|
+C Adapt, Improve, Overcome!|QID|56142|M|68.89,26.72|QO|2|N|Kill Sentries to collect Sentry Heel Nut.|
+C Adapt, Improve, Overcome!|QID|56142|M|68.31,31.21|N|Collect Leg Strut XSs.|
+T Adapt, Improve, Overcome!|QID|56142|M|71.84,35.77|N|To Christy Punchcog.|
+A The Final Act|QID|56053|M|72.94,33.92|N|From Izira Gearsworn.|PRE|56142|
+K Bondo Bigblock|ACTIVE|56053|M|62.13,38.17|QO|1|T|Bondo Bigblock|N|Kill Bondo Bigblock.|
+T The Final Act|QID|56053|M|62.23,38.22|N|To Izira Gearsworn.|
+T The Other Place|QID|55816|M|70.20,30.92|N|To Chromie. After you complete both quests, ask Chromie to return you to your own time. You can use the Blueprint to create a one time use, Time Displacer and return to the Other Place when Chromie isn't up for some hidden dailies and a chance at "The Rusty Prince" and his drops.|
 
 ;out and about
 C Discs of Norgannon|QID|56410|M|66.50,43.04|QO|1|S!US|N|Go about the normal killing stuff keeping an eye out for the Corrupted Data Disc.|
@@ -373,20 +401,6 @@ C Aid From Nordrassil|QID|55463|M|43.05,39.29|QO|2|S|S!US|N|Kill Sawblade Clearc
 C Aid From Nordrassil|QID|55463|M|41.61,36.21|QO|1|U|168582|NC|N|Use the living sap to regrow the Fresh-Cut Stumps.|
 C Aid From Nordrassil|QID|55463|M|43.05,39.29|QO|2|US|N|Finish your quota of Sawblade Clearcutters.|
 
-;other place
-A The Other Place|QID|55816|M|70.19,30.91|N|From Chromie.|O|
-C The Other Place|QID|55816|M|70.22,30.92|QO|1|CHAT|N|Speak with Chromie.|
-A Adapt, Improve, Overcome!|QID|56142|ACTIVE|55816|M|71.84,35.85|N|From Christy Punchcog.|
-C Adapt, Improve, Overcome!|QID|56142|M|73.59,42.33|QO|1|N|Kill Scraphounds to collect Pristine Hound Bolts.|
-C The Other Place|QID|55816|M|41.71,26.30|QO|3|N|Kill Giant Clockworks located all over the island, use the Device Chromie gave you to scan their memory banks.|
-C Adapt, Improve, Overcome!|QID|56142|M|68.89,26.72|QO|2|N|Kill Sentries to collect Sentry Heel Nut.|
-C Adapt, Improve, Overcome!|QID|56142|M|68.31,31.21|N|Collect Leg Strut XSs.|
-T Adapt, Improve, Overcome!|QID|56142|M|71.84,35.77|N|To Christy Punchcog.|
-A The Final Act|QID|56053|M|72.94,33.92|N|From Izira Gearsworn.|PRE|56142|
-K Bondo Bigblock|ACTIVE|56053|M|62.13,38.17|QO|1|T|Bondo Bigblock|N|Kill Bondo Bigblock.|
-T The Final Act|QID|56053|M|62.23,38.22|N|To Izira Gearsworn.|
-T The Other Place|QID|55816|M|70.20,30.92|N|To Chromie. After you complete both quests, ask Chromie to return you to your own time. You can use the Blueprint to create a one time use, Time Displacer and return to the Other Place when Chromie isn't up for some hidden dailies and a chance at "The Rusty Prince" and his drops.|
-
 C Unsafe Work Conditions|QID|56083|S!US|N|Kill King Mechagon's invaders.|
 C Bot Rampage|QID|56082|M|78.03,38.57|S!US|N|Kill King Mechagon's invaders.|
 
@@ -488,14 +502,6 @@ T Paint Vial: Fireball Red|QID|55451|M|63.03,41.27|N|To Marvelous Martini.|
 T Paint Vial: Big-ol Bronze|QID|55517|M|63.03,41.22|N|To Marvelous Martini.|
 T That New Mount Smell|QID|55695|M|63.34,42.90|N|To Cork Stuttguard.|
 
-A Bugs, Lots of 'Em!|QID|55765|M|75.83,34.33|N|From Razak Ironsides.|O|
-A Toys For Destruction|QID|54090|M|69.77,33.17|N|From Rocket-Chief Fuselage.|O|
-C Toys For Destruction|QID|54090|M|69.80,33.13|QO|1|CHAT|N|Speak with Rocket-Chief Fusalge to begin|
-C Toys For Destruction|QID|54090|M|69.68,33.11|QO|2|NC|N|Do what the helpers say, ignore the nay-sayers. There are 4 ingredients beyond the workbench. (left to right - volatile liquid -  batteries - explosives - cogs and gears). Click to add. If you fail, talk to the Chief to start over.|
-C Toys For Destruction|QID|54090|M|69.68,33.11|QO|3|NC|N|Collect the weapon.|
-T Toys For Destruction|QID|54090|M|69.68,33.11|N|To Rocket-Chief Fuselage.|
-A Rocket-Chief Fuselage's follow up|QID|55528^56355|M|69.68,33.11|N|From Rocket-Chief Fuselage.|PRE|54090|
-
 C Battle Tested|QID|56355|M|56.64,62.62|QO|1|N|Kill Mechagon Sentries, optional to use Fuselage's toy.|
 C Knock 'Em Out The Box|QID|55373|M|62.35,42.00|QO|1|N|Spiderspring Gears drop from the pillagers and also the stolen crates suspended in the air .|
 C Knock 'Em Out The Box|QID|55373|M|67.78,32.81|QO|2|N|Kill Steelarm Pillagers.|
@@ -539,7 +545,7 @@ T Off-the-Books Brawlin'|QID|56558|M|70.17,30.48|N|To Grumbol Grimhammer.|FACTIO
 T Pirates, Sea Monsters, Robots|QID|56184|M|71.74,38.85|N|To Dread Captain DeMeza.|
 T Real Ultimate Power|QID|56621|M|70.85,39.13|N|To Flip Quickcharge.|
 T Wanted: Junkbrat and Roadtrogg|QID|56434|M|73.56,35.76|N|To Izira Gearsworn.|
-T Operation: Mechagon - The Mechoriginator.|QID|55609|N|To Prince Erazmin. This is a dungeon quest.|
+t Operation: Mechagon - The Mechoriginator.|QID|55609|N|To Prince Erazmin. This is a dungeon quest.|
 T Strange Discovery|QID|55718|M|70.47,31.01|N|To Elise Starseeker.|
 T Abduction Reduction|QID|55905|M|70.97,37.64|N|To Penny Clobberbottom.|
 T First One's Free|QID|55707|M|69.74,32.34|N|To Christy Punchcog.|
