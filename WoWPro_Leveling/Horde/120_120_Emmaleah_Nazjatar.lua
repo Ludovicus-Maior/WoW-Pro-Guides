@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_horde
+-- Date: 2019-08-10 07:58
+-- Who: Emmaleah
+-- Log: more tweaks
+
+-- URL: http://wow-pro.com/node/3789/revisions/30345/view
 -- Date: 2019-08-01 18:40
 -- Who: Emmaleah
 -- Log: error corrections and tweaks
@@ -72,6 +77,95 @@ return [[
 N Draft!|AVAILABLE|56030|N|This guide is under construction.  We apologize for any missing quests, fires, or other hazards.|
 N Dailies|N|Since there is no way to predict which dailies and follower quests will be available, the accept steps are not in the guide. Pick up any you see (blue and yellow !) and if they are in the guide, the completion steps and turn in steps will show up.|
 
+;quest chain upon getting follower to level 3
+t Down Into Nazjatar|QID|56235|M|48.50,62.17|N|To Lor'themar Theron.|
+A Insight into Our Enemies|QID|55862|M|48.50,62.17|N|From Lor'themar Theron.|PRE|56235|
+T Insight into Our Enemies|QID|55862|M|48.52,62.26|N|To Neri Sharpfin.|
+A Deteriorating Knowledge|QID|55863|M|48.52,62.26|N|From Neri Sharpfin.|PRE|55862|
+A The Price is Death|QID|55864|M|48.52,62.26|N|From Neri Sharpfin.|PRE|55862|
+C The Price is Death|QID|55864|M|42.57,49.79|S|N|Kill Naga forces.|
+C Deteriorating Knowledge|QID|55863|M|60.02,46.29|QO|3|N|Attack the mind-shackled kelfin to rescue Esma.|
+C Deteriorating Knowledge|QID|55863|M|42.41,68.11|QO|1|N|Attack the mind-shackled kelfin to rescue Fenn.|
+C Deteriorating Knowledge|QID|55863|M|48.29,16.11|QO|2|N|Attack the mind-shackled kelfin to rescue Kono.|
+C The Price is Death|QID|55864|M|42.57,49.79|US|N|Finish killing the needed Naga forces.|
+T The Price is Death|QID|55864|M|39.01,30.42|N|To Dash.|
+T Deteriorating Knowledge|QID|55863|M|38.98,30.38|N|To Fenn.|
+A What We Know of the Naga|QID|55865|M|38.97,30.38|N|From Fenn.|PRE|55863&55864|
+C What We Know of the Naga|QID|55865|M|38.96,30.35|QO|1|NC|N|Click on Esma to bandage.|
+C What We Know of the Naga|QID|55865|M|39.00,30.47|QO|2|NC|N|Click on Kono to bandage.|
+T What We Know of the Naga|QID|55865|M|38.98,30.39|N|To Fenn.|
+A Scouting Undercover|QID|55866|M|38.98,30.39|N|From Fenn.|PRE|55865|
+C Scouting Undercover|QID|55866|M|38.92,30.28|NC|N|Click on the Zoatroid Disguise.|
+T Scouting Undercover|QID|55866|M|36.98,27.03|N|To Overseer Hajeer.|
+A Sating Snapdragons|QID|55967|M|36.98,27.03|N|From Overseer Hajeer.|PRE|55866|
+A Working with Purpose|QID|56046|M|36.98,27.03|N|From Overseer Hajeer.|PRE|55866|
+C Working with Purpose|QID|56046|M|39.66,14.63|S|NC|N|Pick up Iridescent Pearls.|
+K Chitterspine Crabs|ACTIVE|55967|M|38.52,16.38|L|168753 10|N|You will need the Roe for feeding the snapdragons in a moment.|
+C Working with Purpose|QID|56046|M|39.66,14.63|US|NC|N|Finish collecting the Iridescent Pearls|
+C Sating Snapdragons|QID|55967|M|35.94,21.48|U|168753|NC|N|Kill Chitterspines(north of here) to collect Roe and throw it on the Savage Snapdragons.|
+T Sating Snapdragons|QID|55967|M|36.94,27.05|N|To Overseer Hajeer.|
+T Working with Purpose|QID|56046|M|36.94,27.05|N|To Overseer Hajeer.|
+A We Can't Have Dull Weapons|QID|56047|M|36.94,27.05|N|From Overseer Hajeer.|PRE|55967&56046|
+T We Can't Have Dull Weapons|QID|56047|M|34.68,21.11|N|To Weapons Chest.|
+A Stealing the Naga's Secrets|QID|56045|M|34.68,21.11|N|From Weapons Chest.|PRE|56047|
+C Stealing the Naga's Secrets|QID|56045|M|34.68,21.11|QO|1|NC|N|Pick up the Azerite Trident.|
+C Stealing the Naga's Secrets|QID|56045|M|38.67,26.40|QO|2|N|Advance forward and kill Zanj'ir.|
+T Stealing the Naga's Secrets|QID|56045|M|38.91,30.53|N|To Lor'themar Theron.|
+A Sea Slug Liquidation|QID|55870|M|38.86,30.42|N|From Chief Telemancer Oculeth.|PRE|56045|
+A Coveted Crystals|QID|55867|M|38.86,30.42|QO|1|N|From Chief Telemancer Oculeth.|PRE|56045|
+C Sea Slug Liquidation|QID|55870|M|26.91,28.71|S|NC|N|Collect slugs for their bioluminescent ooze.|
+K Hoarder Moarrgl|ACTIVE|55867|M|26.97,26.86|QO|1|T|Hoarder Moarrgl|N|Kill Hoarder Moarrgl and loot the Deepsea Crystal.|
+C Sea Slug Liquidation|QID|55870|M|26.91,28.71|US|NC|N|Finish Picking up the Bioluminescent Oozes.|
+T Sea Slug Liquidation|QID|55870|M|38.86,30.42|N|To Chief Telemancer Oculeth.|
+T Coveted Crystals|QID|55867|M|38.86,30.42|N|To Chief Telemancer Oculeth.|
+A Let the Residue Lead You|QID|55868|M|38.86,30.42|N|From Chief Telemancer Oculeth.|PRE|55870&55867|
+C Let the Residue Lead You|QID|55868|M|46.24,51.39|U|168541|NC|N|Follow the glowing blue trail to locate the Azerite Weapons Cache.|
+T Let the Residue Lead You|QID|55868|M|46.11,52.04|N|To Azerite Weapons Cache.|
+A Clearing Out the Cache|QID|55869|M|46.11,52.04|N|From Azerite Weapons Cache.|PRE|55869|
+C Clearing Out the Cache|QID|55869|M|44.52,53.17|N|Defeat 3 waves of Ashvane's forces.|
+T Clearing Out the Cache|QID|55869|M|48.51,62.19|N|To Lor'themar Theron.|
+A Down But Not Out|QID|56236|M|48.51,62.19|N|From Lor'themar Theron.|PRE|55869|
+
+;quest chain after getting 3000 follower points.
+t Down But Not Out|QID|56236|M|48.50,62.20|N|To Lor'themar Theron.|
+A To Zin-Azshari|QID|55469|M|48.50,62.20|N|From Lor'themar Theron.|PRE|56236|
+T To Zin-Azshari|QID|55469|M|64.21,52.09|N|To First Arcanist Thalyssra.|
+A Making the Connection|QID|55482|M|64.21,52.09|N|From First Arcanist Thalyssra.|PRE|55469|
+C Making the Connection|QID|55482|M|63.15,48.41|QO|2|NC|N|Find Discarded Staff on lower level.|
+C Making the Connection|QID|55482|M|64.83,46.28|QO|3|NC|N|Find Cracked Sphere at the other end of the lower corridor.|
+C Making the Connection|QID|55482|M|63.55,40.74|QO|1|NC|N|Find Arcane Scroll upstairs in small house.|
+C Making the Connection|QID|55482|M|64.22,52.11|QO|4|N|Return to Thalyssra|
+T Making the Connection|QID|55482|M|64.22,52.11|N|To First Arcanist Thalyssra.|
+A Terrors in the Deep|QID|55485|M|64.22,52.11|N|From First Arcanist Thalyssra.|PRE|55482|
+C Terrors in the Deep|QID|55485|M|72.07,29.54|QO|1|S|N|Kill Corrupted creatures.|
+K Eye of the Corruptor|ACTIVE|55485|M|70.09,27.93|QO|2|T|Eye of the Corruptor|N|Kill Eye of the Corruptor.|
+C Terrors in the Deep|QID|55485|M|72.07,29.54|QO|1|US|N|Finish killing the Corrupted creatures.|
+C Terrors in the Deep|QID|55485|M|76.43,29.76|QO|3|NC|N|Find the communication crystal and wait for dialog to end.|
+T Terrors in the Deep|QID|55485|M|76.49,29.87|N|To Image of Thalyssra.|
+A Speak with the Dead|QID|55488|M|76.49,29.87|N|From Image of Thalyssra.|PRE|55485|
+A Secrets of Telemancy|QID|55486|M|76.49,29.87|N|From Image of Thalyssra.|PRE|55485|
+C Speak with the Dead|QID|55488|M|79.60,28.82|S|CHAT|N|Talk to the highborn until you get all 3 clues.|
+C Secrets of Telemancy|QID|55486|M|79.60,28.82|QO|1|NC|N|While floating in the bubble, click the button on the wall that says press in case of telmantic emergency. When you come down, then you can actually loot Oculeth's Notes.|
+C Speak with the Dead|QID|55488|M|79.60,28.82|US|CHAT|N|Finish finding the clues.|
+T Secrets of Telemancy|QID|55486|M|76.47,29.92|N|To Image of Thalyssra.|
+T Speak with the Dead|QID|55488|M|76.47,29.92|N|To Image of Thalyssra.|
+A The Handmaiden's Tale|QID|55489|M|76.47,29.92|N|From Image of Thalyssra.|PRE|55486&55488|
+K Lady Silazsi|ACTIVE|55489|M|77.54,36.69|QO|1|T|Lady Silazsi|N|Kill Lady Silazsi and take the Javelin of Suramar.|
+T The Handmaiden's Tale|QID|55489|M|79.88,38.88|N|To Image of Thalyssra.|
+A We'll Poke Their Eye Out|QID|55490|M|79.88,38.88|N|From Image of Thalyssra.|PRE|55489|
+T We'll Poke Their Eye Out|QID|55490|M|48.53,62.18|N|To Lor'themar Theron.|
+A The Tide Turns|QID|55799|M|48.53,62.18|N|From Lor'themar Theron.|PRE|55490|
+C The Tide Turns|QID|55799|M|50.20,44.73|QO|1|N|Sound the advance.|
+C The Tide Turns|QID|55799|M|51.56,34.34|QO|2|S|N|Assault the Gorgonian Overlook.|
+K Commander Kresh|ACTIVE|55799|M|51.26,32.36|QO|3|T|Commander Kresh|N|Kill Commander Kresh.|
+C The Tide Turns|QID|55799|M|51.56,34.34|QO|2|US|N|Continue killing everything in the Gorgonian Overlook until the bar gets to 100%.|
+C The Tide Turns|QID|55799|M|51.26,32.36|QO|4|N|Throw the Javelin of Suramar.|
+K Lady Zharessa|ACTIVE|55799|M|50.45,24.12|QO|5|T|Lady Zharessa|N|Kill Lady Zharessa.|
+T The Tide Turns|QID|55799|M|50.62,23.37|N|To First Arcanist Thalyssra.|
+A The Eternal Palace: Queen's Gambit|QID|56356|M|50.62,24.14|NA|N|From Lor'themar Theron.|PRE|55799|
+f The Tidal Conflux|QID|56356|M|51.11,23.61|N|At Kobo Rayfriend.|
+
+;zone intro
 A The Warcheif's Order|QID|56030|N|Auto accepted when logging in after 6/25/19 and able to do WQs.|
 T The Warchief's Order|QID|56030|M|58.44,62.66|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Send the Fleet|QID|56044|M|58.44,62.66|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|56030|
@@ -111,6 +205,7 @@ C A Way Home|QID|55053|M|47.26,62.81|NC|N|Stand on the defunct portal and use yo
 f Newhome|ACTIVE|55053|M|47.48,63.24|N|At Iina Bluegill.|
 T A Way Home|QID|55053|M|48.50,62.37|N|To Chief Telemancer Oculeth.|
 
+;heart of azeroth
 A Essential Empowerment|QID|55851|M|48.27,62.47|N|From Magni Bronzebeard.|PRE|55053|
 P The Great Seal|QID|55851|ACTIVE|55851|M|47.27,62.77|TZ|Hall of Ancient Paths|N|Take the portal or otherwise travel to Zuldazar.|
 P Silithus|ACTIVE|55851|M|73.72,85.37|Z|Dazar'alor|TZ|Magni's Encampment|N|Take the portal or otherwise travel to Silithus.|
@@ -147,6 +242,7 @@ C Harnessing the Power|QID|57010|M|50.58,65.25|Z|Chamber of Heart!Dungeon1473|QO
 C Harnessing the Power|QID|57010|M|50.58,65.25|Z|Chamber of Heart!Dungeon1473|QO|2|NC|N|Use the Forge UI to infused the Heart of Azeroth with the Essence.|
 T Harnessing the Power|QID|57010|M|50.09,59.09|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 
+;finalize zone intro
 A Back Out to Sea|QID|56161|M|50.09,59.09|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|57010|
 P Newhome|ACTIVE|56161|M|62.83,85.67|Z|The Great Seal!Dazar'alor|N|Return to the Great Seal, and then use the newly activated portal to Nazjatar.|
 T Back Out to Sea|QID|56161|M|48.51,62.18|N|To Lor'themar Theron (back in Nazjatar).|
@@ -172,18 +268,22 @@ K Herald of the Queen|ACTIVE|55500|M|37.51,42.66;35.70,42.98|CS|QO|1|T|Herald of
 C Save A Friend|QID|55500|M|35.54,43.46|QO|2|NC|N|Click on Mak to heal.|
 T Save A Friend|QID|55500|M|39.48,46.79;41.13,50.51;52.03,53.22;50.11,65.27|CS|N|To Poen Gillbrack. This is the quest that opens up world quests.|
 
+N Requisition/Bounty Quests|N|These are mostly not set to be "sticky", so that the arrow can guide you to the correct area. If you want to make them sticky, you can right click on the step text and choose that option. This note will need to be manually clicked off.|
 U Calling Conch|QID|57040^57041^57042|M|49.81,64.59|N|Be sure and stop by the Calling Conch to pick up your companion.|
+N Curse of Tides|BUFF|-304606|M|39.02,57.99|N|If you are affected by the Curse of tides, go to Gloomseeker Yarga to have it removed. He can be found in an underwater cave, located under the shortest waterfall. He trades your cursed item for a bag of gold.|;-304611^304612^-304614^-304619
 
 A Becoming a Friend|QID|57005|M|50.97,65.22|N|From Atolia Seapearl.|PRE|55500|
 A Down Into Nazjatar|QID|56235|M|48.51,62.18|N|From Lor'themar Theron. You will now see dailies available. The guide has no way to predict which ones are available. So, pick them all up and if they are in the guide it will direct you.|PRE|55500|
 A Bounty: A Few Snapdragons|QID|55824|M|50.99,65.34|N|From Asme Seapearl.|O|
 A Bounty: More Snapdragons|QID|55833|M|50.95,65.30|N|From Asme Seapearl.|O|
 A Requisition: We Need It All|QID|55801|M|50.97,65.30|N|From Asme Seapearl.|O|
+
 A Requisition: A Few Kelp Buds|QID|55721|M|50.86,64.77|N|From Slen Darkroe.|O|
 A Requisition: More Kelp Buds|QID|55787|M|50.86,64.77|N|From Slen Darkroe.|O|
 A Requisition: More Seaweed|QID|55786|M|50.02,66.42|N|From Nevin Tideheart.|O|
 A Poen's Favorite Dish|QID|56151|M|50.85,64.79|N|From Slen Darkroe.|O|
 A Bounty: More Crabs|QID|55832|M|50.85,64.79|N|From Slen Darkroe.|O|
+
 A Requisition: More Spiral Leaf|QID|55791|M|50.44,66.22|N|From Nevin Tideheart.|O|
 A Requisition: A Few Spiral Leaf|QID|55725|M|50.21,66.41|N|From Nevin Tideheart.|O|
 A Bounty: Elite Naga Forces|QID|55836|M|50.02,66.42|N|From Nevin Tideheart.|O|
@@ -191,19 +291,23 @@ A Bounty: A Few Naga|QID|55818|M|50.21,66.38|N|From Nevin Tideheart.|O|
 A Bounty: More Naga|QID|55827|M|50.13,66.36|N|From Nevin Tideheart.|O|
 A Bounty: A Few Hydras|QID|55820|M|50.43,66.21|N|From Nevin Tideheart.|O|
 A Bounty: More Hydras|QID|55829|M|50.21,66.41|N|From Nevin Tideheart.|O|
+
 A Requisition: A Few Carp|QID|55723|M|47.39,62.01|N|From Lily Bopip.|O|
 A Bounty: A Few Murlocs|QID|55819|M|47.40,61.98|N|From Lily Bopip.|O|
 A Bounty: A Few Makrura|QID|55822|M|47.40,61.98|N|From Lily Bopip.|O|
 A Bounty: Dangerous Creatures|QID|55837|M|47.39,61.97|N|From Lily Bopip.|O|
+
 A Scrying Stones|QID|56210|M|49.06,62.21|N|From Finder Pruc.|PRE|55500|
 A Requisition: More Flotsam|QID|55793|M|49.09,62.18|N|From Finder Pruc.|O|
 A Bounty: A Few Coral Ancients|QID|55821|M|49.20,62.26|N|From Finder Pruc.|O|
+
 A WANTED: Lady Naz'jess|QID|56222|M|47.97,61.41|N|From Bounty Board.|O|
 A WANTED: Commander Sarj'eth|QID|56223|M|47.98,61.39|N|From Bounty Board.|O|
 A WANTED: Lord Ha'kass|QID|56224|M|47.98,61.39|N|From Bounty Board.|O|
 A WANTED: Lady Narjiss|QID|56225|M|47.97,61.40|N|From Bounty Board.|O|
 A WANTED: Gler'thogg|QID|56226|M|47.97,61.40|N|From Bounty Board.|O|
 A WANTED: Inquisitor Ithriza|QID|56227|M|48.00,61.38|N|From Bounty Board.|O|
+
 A Requisition: A Few Starfish|QID|55719|M|49.37,61.57|N|From Karn Deepweld.|O|
 A Requisition: More Starfish|QID|55785|M|49.37,61.57|N|From Karn Deepweld.|O|
 A Requisition: More Cone Shells|QID|55792|M|49.37,61.57|N|From Karn Deepweld.|O|
@@ -216,11 +320,9 @@ A The Missing Crew|QID|56379|PRE|55500|M|58.46,62.98|Z|Zuldazar|N|Check this off
 C Scrying Stones|QID|56210|M|49.23,62.06|QO|1|N|Use the Scrying Stone.|
 A Strange Silver Knife|QID|56240|M|39.71,49.16|N|From knife looted in treasure chest you just found.|
 C Scrying Stones|QID|56210|M|46.81,55.99;43.48,53.65;40.28,49.00|CS|QO|2|N|Keep using the scrying stone (extra action button) until you find 3 Hidden Treasures.|
-N Requisition/Bounty Quests|N|These are not set to be "sticky", so that the arrow can guide you to the correct area. If you want to make them sticky, you can right click on the step text and choose that option. This note will need to be manually clicked off.|
-N Curse of Tides|BUFF|-304606|M|39.02,57.99|N|If you are affected by the Curse of tides, go to Gloomseeker Yarga to have it removed. He can be found in an underwater cave, located under the shortest waterfall. He trades your cursed item for a bag of gold.|
 C The Unshackled|QID|56120|S!US|N|The Unshackled emisary is up, so Complete 4 world quests in Nazjatar.|
 C Bounty: Naga|QID|55827^55818|N|Today you have a bounty for killing Naga, so don't avoid them in your travels.|
-C Bounty: Coral Ancients|QID|55821^55830|N|Today you have a bounty for killing Coral Ancients, these are mostly non agro (yellow) and often stationary.|
+C Bounty: Coral Ancients|QID|55821^55830|S!US|N|Today you have a bounty for killing Coral Ancients, these are mostly non agro (yellow) and often stationary.|
 C Bounty: Dangerous Creatures|QID|55837|S!US|N|Today you have a bounty for killing Rares, so don't avoid them in your travels.|
 C Bounty: Elite Naga Forces|QID|55836|S!US|N|Today you have a bounty for Elite Naga, so don't avoid them in your travels.|
 C Requisition: Carp|QID|55723^55789|M|44.54,53.50|NC|N|Struggling Carp can rarely be found along almost all waterways all over Nazjatar. Click to return to water.|
@@ -239,10 +341,11 @@ A Plug the Geysers|QID|55874|M|60.60,52.81|N|From Scout Kleda.|O|
 C Plug the Geysers|QID|55874|M|62.53,53.55|QO|1|N|Kill crabs to get they shells and plug the unstable geyser.|
 K Disturbed Algan|ACTIVE|55874|M|62.45,53.20|QO|2|T|Disturbed Algan|N|Disturbed Algan will spawn when you plug the last geyser. Kill him.|
 T Plug the Geysers|QID|55874|M|60.64,52.86|N|To Scout Kleda.|
-C A Steamy Situation|QID|56036|M|44.79,47.09|N|Plug the Steam Fissures plugged|
 K Lord Ha'kass|ACTIVE|56224|M|44,37|QO|1|T|Lord Ha'kass|N|Kill Lord Ha'kass and take his head.|
 A A Safer Place|QID|55530|M|48.11,45.44|N|From Mrrl.|PRE|55500|
 C A Safer Place|QID|55530|M|47.41,61.61|S!US|QO|1|N|Escort Mrrl to Newhome. Note you can mount or use a flight path without losing Mrrl.|
+C Pearlhusk Crawler|QID|56385|M|50.55,50.10|N|Defeat the Pearlhusk Crawler in a pet battle.|
+A Pearlescent Shell|QID|56461|M|50.55,50.10|N|From item dropped the first time you defeat the Pearlhusk Crawler in a pet battle.|PRE|56385|
 
 K Inquisitor Ithriza|ACTIVE|56227|M|48.37,47.56|QO|1|T|Inquisitor Ithriza|N|Loot Inquisitor Ithriza's Head.|
 A Plug the Geysers|QID|55877|M|47.98,46.47|N|From Scout Tuli.|O|
@@ -308,8 +411,8 @@ A Broken Controller|QID|55663|M|58.06,56.18|N|From Escaped Kelfin.|O|
 C Broken Controller|QID|55663|M|60.09,58.37|QO|1|CHAT|N|Tell the slaves they are free.|
 C Broken Controller|QID|55663|M|60.09,58.37|QO|2|T|Merciless Controller|N|Merciless Controller will spawn when you have freed 8 slaves.|
 C Silence|QID|56383|M|58.33,48.13|NC|N|Defeat Silence in a pet battle.|
-C To Soar Like a Ray|QID|55883|M|58.33,48.13|U|168425|NC|N|If you can't fly yet, use provided swim jet or deepcoral pods to get on top of the corals and pick up the eggs.
 A Half-Digested Deepcoral Pod|QID|56459|M|58.33,48.13|N|From item dropped the first time you defeat Silence in a pet battle.|PRE|56383|
+C To Soar Like a Ray|QID|55883|M|58.33,48.13|U|168425|NC|N|If you can't fly yet, use provided swim jet or deepcoral pods to get on top of the corals and pick up the eggs.
 A What will it Grow?|QID|55426|N|From Germinating Seed, often contained in a Waterlogged Toolbox.|O|;drop
 C What will it Grow?|QID|55426|M|54.70,41.71|QO|1|U|167786|NC|N|Plant the seed in fertile soil.|
 C What will it Grow?|QID|55426|M|54.70,41.71|QO|2|NC|N|Click on the Bloated Seaflies to capture one.|
@@ -399,8 +502,9 @@ C The Laboratory of Mardivas|QID|55121|M|59.74,34.21|QO|2|N|Kill the Elemental C
 T The Laboratory of Mardivas|QID|55121|M|60.62,33.24|N|To Mardiva's Tome. This becomes a weekly quest worth 500 faction and with a related achievement that rewards a mount.|
 
 C Runelocked Chest|QID|56006|M|59.26,24.26|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 18 orange runes.|
-C Runelocked Chest|QID|56007|M|59.14,24.28|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can destroy 17 red runes.|
-C Runelocked Chest|QID|56008|M|59.67,24.25|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 3 yellow runes.|
+C Runelocked Chest|QID|56007|M|59.26,24.26|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 17 red runes.|
+C Runelocked Chest|QID|56008|M|59.67,24.25|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 15 yellow runes.|
+C Runelocked Chest|QID|56009|M|59.13,24.29|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can destroy 19 purple runes.|
 C Runelocked Chest|QID|56010|M|59.14,24.28|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can destroy 14 blue runes.|
 C The Missing Crew|QID|56379|M|59.55,18.06|QO|2|NC|N|Find Captain Holgresh in Shirakess Repository.|
 C Requisition: Starfish|QID|55719^55785|M|64.73,24.94|NC|N|Collect Angel Scale Starfish.|
@@ -408,8 +512,6 @@ A The Dark Garden|QID|55665|M|56.06,18.47|N|From Moris Criz.|O|
 C The Dark Garden|QID|55665|M|53.91,19.75|N|Clean up the Imperial Gardens.|
 T The Dark Garden|QID|55665|M|56.05,18.46|N|To Moris Criz.|
 C Deepcoil Cleansing|QID|57353|M|70.87,20.22|N|Collect Voidtinged Substances from almost anything in the Deepcoil Tunnels.|
-C Voltgorger|QID|56390|M|37.52,16.68|N|Defeat Voltgorger in a pet battle.|
-A Crackling Mandible|QID|56466|M|37.52,16.68|N|From Item dropped by Voltgorger.|PRE|56390|
 A Void Cache|QID|56232|M|56.3,15.1|N|From Void Cache.|O|
 C Void Cache|QID|56232|M|56.3,15.1|N|key dropped by nearby Shirakess Naga (behaps only voidreavers?).|
 T Void Cache|QID|56232|M|56.3,15.1|N|To Void Cache.|
@@ -420,12 +522,6 @@ A A Blow to Morale|QID|55664|M|59.09,19.15|N|From Axol Darksea.|O|
 C Overdue|QID|57354|M|58.62,13.94|QO|1|N|Kill Shirakess Naga and collect their grimoires.|
 C A Blow to Morale|QID|55664|M|59.95,8.74|QO|1|N|Kill stuff, get to 100%.|
 T A Blow to Morale|QID|55664|M|59.03,19.06|N|To Axol Darksea.|
-
-K Lady Naz'jess|ACTIVE|56222|M|36.50,17.75|QO|1|T|Lady Naz'jess|N|Kill Lady Naz'jess and claim her Head as proof.|
-C Runelocked Chest|QID|56019|M|37.31,15.90|QO|1|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 28 orange runes.|
-C Runelocked Chest|QID|56020|M|37.31,15.96|QO|1|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 29 purple runes.|
-C Runelocked Chest|QID|56021|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 30 red runes, by matching 3 or more in a row.|
-C Runelocked Chest|QID|56022|M|37.31,15.90|QO|1|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 31 yellow runes.|
 
 C Mindshackle|QID|56388|M|56.44,8.13|N|Defeat Mindshackle in a pet battle.|
 A Strange Organ|QID|56464|M|56.44,8.13|N|From item dropped the first time you defeat Mindshackle in a pet battle.|PRE|56388|
@@ -441,6 +537,16 @@ C Hungry Hungry Hydras|QID|55997|M|35.60,12.43|QO|2|N|Ride Theronar.|
 A An Unexpected Friend|QID|56813|N|From Neri Sharpfin, who is following you.|O|
 C Prince Wiggletail|QID|56381|M|34.75,27.39|NC|N|Defeat Prince Wiggletail in a pet battle.|
 A Wiggletail's Poking Fork|QID|56445|M|36.87,27.75|N|From item dropped upon defeating Prince Wiggletail in a pet battle.|PRE|56381|
+C Voltgorger|QID|56390|M|37.52,16.68|N|Defeat Voltgorger in a pet battle.|
+A Crackling Mandible|QID|56466|M|37.52,16.68|N|From Item dropped by Voltgorger.|PRE|56390|
+
+K Lady Naz'jess|ACTIVE|56222|M|36.50,17.75|QO|1|T|Lady Naz'jess|N|Kill Lady Naz'jess and claim her Head as proof.|
+C Runelocked Chest|QID|56017|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 26 blue runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56018|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 27 green runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56019|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 28 orange runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56020|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 29 purple runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56021|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 30 red runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56022|M|37.27,16.00|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 31 yellow runes, by matching 3 or more in a row.|
 
 C With Friends Like You, Who Needs Anemones?|QID|56804|M|46.23,26.35|NC|N|Find Vim's Cache.|
 T With Friends Like You, Who Needs Anemones?|QID|56804|M|46.23,26.35|N|To Vim's Cache after looting it.|
@@ -450,10 +556,12 @@ K Commander Sarj'eth|ACTIVE|56223|M|44.17,20.26|QO|1|T|Commander Sar'jeth|N|Kill
 A Reinforced Cache|QID|56231|M|45.11,22.20|N|From Reinforced Cache sitting on the balcony.|O|
 C Reinforced Cache|QID|56231|M|45.11,22.20|N|Kill and loot Zanj'ir Naga in the area until you get the key to drop.|
 T Reinforced Cache|QID|56231|M|45.11,22.20|N|To Reinforced Cache.|
-C Runelocked Chest|QID|56012|M|45.34,30.13|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 4 green runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56011|M|45.34,30.13|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 25 blue runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56012|M|45.34,30.13|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy green runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56013|M|45.34,30.13|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy orange runes, by matching 3 or more in a row.|
 C Runelocked Chest|QID|56014|M|45.67,29.59|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 29 purple runes.|
 C Runelocked Chest|QID|56015|M|45.67,29.59|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 19 red runes.|
-C Runelocked Chest|QID|56016|M|45.67,29.59|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 21 yellow runes.|
+C Runelocked Chest|QID|56016|M|45.66,29.61|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 21 yellow runes, by matching 3 or more in a row.|
 K Lady Narjiss|ACTIVE|56225|M|45.95,30.06|QO|1|T|Lady Narjiss|N|Kill Lady Narjiss and take her head.|
 
 A Most Delicious Clams|QID|56035|M|48.75,22.74|N|From Sardina Lauray. |O|
@@ -532,7 +640,7 @@ C Requisition: More Seaweed|QID|55786|M|37.64,82.89|NC|N|Pick up the Sticky Seaw
 C Elderspawn of Nalaada|ACTIVE|56386|M|51.26,74.92|N|Defeat the Elderspawn of Nalaada in a pet battle.|
 A Eel Jelly|QID|56462|M|51.26,74.92|N|From item dropped first time you defeat the Elderspawn of Nalaada in a pet battle.|PRE|56386|
 A Plug the Geysers|QID|55876|M|48.2,73.8|N|From Scout Newly.|O|
-C Plug the Geysers|QID|55876|M|48.2,73.8|U|164482|NC|N|Use the sealent provided and target the unstable Geysers.|
+C Plug the Geysers|QID|55876|M|48.2,73.8|U|168482|NC|N|Use the sealent provided and target the unstable Geysers.|
 T Plug the Geysers|QID|55876|M|48.2,73.8|N|To Scout Newly.|
 C The Lords of Water|QID|55982|M|36.11,72.01|QO|1|N|Choose a Water Lord.|
 C The Lords of Water|QID|55982|M|36.26,72.01|QO|2|N|Using the Water Lord's abilities, slay Naga.|
@@ -543,88 +651,6 @@ f Wreck of the Hungry Riverbeast|QID|55864|M|36.13,82.31|QO|3|N|At Markona.|
 
 A Anytime You Need A Friend|QID|56814|M|59.88,28.05|N|From Neri Sharpfin.|O|
 T Anytime You Need A Friend|QID|56814|M|36.12,70.24|N|Cleverly Concealed Supplies, don't forget to open the bag after looting.|
-
-;quest chain upon getting follower to level 3
-C The Price is Death|QID|55864|M|42.57,49.79|S|N|Kill Naga forces.|
-C Deteriorating Knowledge|QID|55863|M|60.02,46.29|QO|3|N|Attack the mind-shackled kelfin to rescue Esma.|
-C Deteriorating Knowledge|QID|55863|M|42.41,68.11|QO|1|N|Attack the mind-shackled kelfin to rescue Fenn.|
-C Deteriorating Knowledge|QID|55863|M|48.29,16.11|QO|2|N|Attack the mind-shackled kelfin to rescue Kono.|
-C The Price is Death|QID|55864|M|42.57,49.79|US|N|Finish killing the needed Naga forces.|
-T The Price is Death|QID|55864|M|39.01,30.42|N|To Dash.|
-T Deteriorating Knowledge|QID|55863|M|38.98,30.38|N|To Fenn.|
-A What We Know of the Naga|QID|55865|M|38.97,30.38|N|From Fenn.|PRE|55863&55864|
-C What We Know of the Naga|QID|55865|M|38.96,30.35|QO|1|NC|N|Click on Esma to bandage.|
-C What We Know of the Naga|QID|55865|M|39.00,30.47|QO|2|NC|N|Click on Kono to bandage.|
-T What We Know of the Naga|QID|55865|M|38.98,30.39|N|To Fenn.|
-A Scouting Undercover|QID|55866|M|38.98,30.39|N|From Fenn.|PRE|55865|
-C Scouting Undercover|QID|55866|M|38.92,30.28|NC|N|Click on the Zoatroid Disguise.|
-T Scouting Undercover|QID|55866|M|36.98,27.03|N|To Overseer Hajeer.|
-A Sating Snapdragons|QID|55967|M|36.98,27.03|N|From Overseer Hajeer.|PRE|55866|
-A Working with Purpose|QID|56046|M|36.98,27.03|N|From Overseer Hajeer.|PRE|55866|
-C Working with Purpose|QID|56046|M|39.66,14.63|S|NC|N|Pick up Iridescent Pearls.|
-K Chitterspine Crabs|ACTIVE|55967|M|38.52,16.38|L|168753 10|N|You will need the Roe for feeding the snapdragons in a moment.|
-C Working with Purpose|QID|56046|M|39.66,14.63|US|NC|N|Finish collecting the Iridescent Pearls|
-C Sating Snapdragons|QID|55967|M|35.94,21.48|U|168753|NC|N|Kill Chitterspines(north of here) to collect Roe and throw it on the Savage Snapdragons.|
-T Sating Snapdragons|QID|55967|M|36.94,27.05|N|To Overseer Hajeer.|
-T Working with Purpose|QID|56046|M|36.94,27.05|N|To Overseer Hajeer.|
-A We Can't Have Dull Weapons|QID|56047|M|36.94,27.05|N|From Overseer Hajeer.|PRE|55967&56046|
-T We Can't Have Dull Weapons|QID|56047|M|34.68,21.11|N|To Weapons Chest.|
-A Stealing the Naga's Secrets|QID|56045|M|34.68,21.11|N|From Weapons Chest.|PRE|56047|
-C Stealing the Naga's Secrets|QID|56045|M|34.68,21.11|QO|1|NC|N|Pick up the Azerite Trident.|
-C Stealing the Naga's Secrets|QID|56045|M|38.67,26.40|QO|2|N|Advance forward and kill Zanj'ir.|
-T Stealing the Naga's Secrets|QID|56045|M|38.91,30.53|N|To Lor'themar Theron.|
-A Sea Slug Liquidation|QID|55870|M|38.86,30.42|N|From Chief Telemancer Oculeth.|PRE|56045|
-A Coveted Crystals|QID|55867|M|38.86,30.42|QO|1|N|From Chief Telemancer Oculeth.|PRE|56045|
-C Sea Slug Liquidation|QID|55870|M|26.91,28.71|S|NC|N|Collect slugs for their bioluminescent ooze.|
-K Hoarder Moarrgl|ACTIVE|55867|M|26.97,26.86|QO|1|T|Hoarder Moarrgl|N|Kill Hoarder Moarrgl and loot the Deepsea Crystal.|
-C Sea Slug Liquidation|QID|55870|M|26.91,28.71|US|NC|N|Finish Picking up the Bioluminescent Oozes.|
-T Sea Slug Liquidation|QID|55870|M|38.86,30.42|N|To Chief Telemancer Oculeth.|
-T Coveted Crystals|QID|55867|M|38.86,30.42|N|To Chief Telemancer Oculeth.|
-A Let the Residue Lead You|QID|55868|M|38.86,30.42|N|From Chief Telemancer Oculeth.|PRE|55870&55867|
-C Let the Residue Lead You|QID|55868|M|46.24,51.39|U|168541|NC|N|Follow the glowing blue trail to locate the Azerite Weapons Cache.|
-T Let the Residue Lead You|QID|55868|M|46.11,52.04|N|To Azerite Weapons Cache.|
-A Clearing Out the Cache|QID|55869|M|46.11,52.04|N|From Azerite Weapons Cache.|PRE|55869|
-C Clearing Out the Cache|QID|55869|M|44.52,53.17|N|Defeat 3 waves of Ashvane's forces.|
-T Clearing Out the Cache|QID|55869|M|48.51,62.19|N|To Lor'themar Theron.|
-A Down But Not Out|QID|56236|M|48.51,62.19|N|From Lor'themar Theron.|PRE|55869|
-;quest chain after getting 3000 follower points.
-T Down But Not Out|QID|56236|M|48.50,62.20|N|To Lor'themar Theron.|
-A To Zin-Azshari|QID|55469|M|48.50,62.20|N|From Lor'themar Theron.|PRE|56236|
-T To Zin-Azshari|QID|55469|M|64.21,52.09|N|To First Arcanist Thalyssra.|
-A Making the Connection|QID|55482|M|64.21,52.09|N|From First Arcanist Thalyssra.|PRE|55469|
-C Making the Connection|QID|55482|M|63.15,48.41|QO|2|NC|N|Find Discarded Staff on lower level.|
-C Making the Connection|QID|55482|M|64.83,46.28|QO|3|NC|N|Find Cracked Sphere at the other end of the lower corridor.|
-C Making the Connection|QID|55482|M|63.55,40.74|QO|1|NC|N|Find Arcane Scroll upstairs in small house.|
-C Making the Connection|QID|55482|M|64.22,52.11|QO|4|N|1/1 Return to Thalyssra|
-T Making the Connection|QID|55482|M|64.22,52.11|N|To First Arcanist Thalyssra.|
-A Terrors in the Deep|QID|55485|M|64.22,52.11|N|From First Arcanist Thalyssra.|PRE|55482|
-C Terrors in the Deep|QID|55485|M|72.07,29.54|QO|1|S|N|Kill Corrupted creatures.|
-K Eye of the Corruptor|ACTIVE|55485|M|70.09,27.93|QO|2|T|Eye of the Corruptor|N|Kill Eye of the Corruptor.|
-C Terrors in the Deep|QID|55485|M|72.07,29.54|QO|1|US|N|Finish killing the Corrupted creatures.|
-C Terrors in the Deep|QID|55485|M|76.43,29.76|QO|3|NC|N|Find the communication crystal and wait for dialog to end.|
-T Terrors in the Deep|QID|55485|M|76.49,29.87|N|To Image of Thalyssra.|
-A Speak with the Dead|QID|55488|M|76.49,29.87|N|From Image of Thalyssra.|PRE|55485|
-A Secrets of Telemancy|QID|55486|M|76.49,29.87|N|From Image of Thalyssra.|PRE|55485|
-C Speak with the Dead|QID|55488|M|79.60,28.82|S|CHAT|N|Talk to the highborn until you get all 3 clues.|
-C Secrets of Telemancy|QID|55486|M|79.60,28.82|QO|1|NC|N|While floating in the bubble, click the button on the wall that says press in case of telmantic emergency. When you come down, then you can actually loot Oculeth's Notes.|
-C Speak with the Dead|QID|55488|M|79.60,28.82|US|CHAT|N|Finish finding the clues.|
-T Secrets of Telemancy|QID|55486|M|76.47,29.92|N|To Image of Thalyssra.|
-T Speak with the Dead|QID|55488|M|76.47,29.92|N|To Image of Thalyssra.|
-A The Handmaiden's Tale|QID|55489|M|76.47,29.92|N|From Image of Thalyssra.|PRE|55486&55488|
-K Lady Silazsi|ACTIVE|55489|M|77.54,36.69|QO|1|T|Lady Silazsi|N|Kill Lady Silazsi and take the Javelin of Suramar.|
-T The Handmaiden's Tale|QID|55489|M|79.88,38.88|N|To Image of Thalyssra.|
-A We'll Poke Their Eye Out|QID|55490|M|79.88,38.88|N|From Image of Thalyssra.|PRE|55489|
-T We'll Poke Their Eye Out|QID|55490|M|48.53,62.18|N|To Lor'themar Theron.|
-A The Tide Turns|QID|55799|M|48.53,62.18|N|From Lor'themar Theron.|PRE|55490|
-C The Tide Turns|QID|55799|M|50.20,44.73|QO|1|N|Sound the advance.|
-C The Tide Turns|QID|55799|M|51.56,34.34|QO|2|S|N|Assault the Gorgonian Overlook.|
-K Commander Kresh|ACTIVE|55799|M|51.26,32.36|QO|3|T|Commander Kresh|N|Kill Commander Kresh.|
-C The Tide Turns|QID|55799|M|51.56,34.34|QO|2|US|N|Continue killing everything in the Gorgonian Overlook until the bar gets to 100%.|
-C The Tide Turns|QID|55799|M|51.26,32.36|QO|4|N|Throw the Javelin of Suramar.|
-K Lady Zharessa|ACTIVE|55799|M|50.45,24.12|QO|5|T|Lady Zharessa|N|Kill Lady Zharessa.|
-T The Tide Turns|QID|55799|M|50.62,23.37|N|To First Arcanist Thalyssra.|
-A The Eternal Palace: Queen's Gambit|QID|56356|M|50.62,24.14|N|From Lor'themar Theron.|PRE|55799|
-f The Tidal Conflux|QID|56356|M|51.11,23.61|N|At Kobo Rayfriend.|
 
 T WANTED: Lady Naz'jess|QID|56222|M|48.06,61.34|N|To Seacaller Unow.|
 T WANTED: Commander Sarj'eth|QID|56223|M|48.06,61.33|N|To Seacaller Unow.|
@@ -637,17 +663,18 @@ T A Curious Discovery|QID|56560|M|49.14,61.46|N|To Narv.|
 T Ancient Technology|QID|56354|M|49.30,61.87|N|To Rolm.|
 A An Abyssal Opportunity|QID|56353|M|49.30,61.87|N|From Rolm.|PRE|56354|
 T Treasure Tale|QID|56248|M|49.18,62.08|N|To Finder Palta.|
-T Overgrown Stone|QID|56465|M|49.23,62.08|N|To Finder Palta.|
-T Strange Organ|QID|56464|M|49.24,62.07|N|To Finder Palta.|
 T Wiggletail's Poking Fork|QID|56445|M|49.23,62.09|N|To Finder Palta.|
 T Leathery Venom Gland|QID|56457|M|49.23,62.09|N|To Finder Palta.|
-T Eel Jelly|QID|56462|M|49.23,62.09|N|To Finder Palta.|
-T Mottled Hydra Scale|QID|56463|M|49.23,62.09|N|To Finder Palta.|
-T Crackling Mandible|QID|56466|M|49.23,62.09|N|To Finder Palta.|
-T Frenzy Fang|QID|56467|M|49.24,62.09|N|To Finder Palta.|
-T Molted Spineshell|QID|56460|M|49.24,62.09|N|To Finder Palta.|
 T Opaline Conch|QID|56458|M|49.23,62.08|N|To Finder Palta.|
 T Half-Digested Deepcoral Pod|QID|56459|M|49.23,62.08|N|To Finder Palta.|
+T Molted Spineshell|QID|56460|M|49.24,62.09|N|To Finder Palta.|
+T Pearlescent Shell|QID|56461|M|49.24,62.09|N|To Finder Palta.|
+T Eel Jelly|QID|56462|M|49.23,62.09|N|To Finder Palta.|
+T Mottled Hydra Scale|QID|56463|M|49.23,62.09|N|To Finder Palta.|
+T Strange Organ|QID|56464|M|49.24,62.07|N|To Finder Palta.|
+T Overgrown Stone|QID|56465|M|49.23,62.08|N|To Finder Palta.|
+T Crackling Mandible|QID|56466|M|49.23,62.09|N|To Finder Palta.|
+T Frenzy Fang|QID|56467|M|49.24,62.09|N|To Finder Palta.|
 C An Abyssal Opportunity|QID|56353|M|49.16,62.21|NC|N|Purchase the Abyssal Shards from Finder Pruc. This quest enables the crafting of new gear, so if that's not important to you, check this off manually.|
 t An Abyssal Opportunity|QID|56353|M|49.30,61.87|N|To Rolm.|
 t What Will It Lure?|QID|55602|M|49.16,62.21|N|To Finder Pruc.|
@@ -655,11 +682,6 @@ t What Will It Mine?|QID|55531|M|49.16,62.21|N|To Finder Pruc.|
 t What Will It Grow?|QID|55426|M|49.16,62.21|N|To Finder Pruc.|
 T Broken Controller|QID|55663|M|50.43,66.23|N|To Nevin Tideheart.|
 T Emergent Sea Weeds|QID|55768|M|50.43,66.23|N|To Nevin Tideheart.|
-t Down Into Nazjatar|QID|56235|M|48.50,62.17|N|To Lor'themar Theron.|
-A Insight into Our Enemies|QID|55862|M|48.50,62.17|N|From Lor'themar Theron.|PRE|56235|
-T Insight into Our Enemies|QID|55862|M|48.52,62.26|N|To Neri Sharpfin.|
-A Deteriorating Knowledge|QID|55863|M|48.52,62.26|N|From Neri Sharpfin.|PRE|55862|
-A The Price is Death|QID|55864|M|48.52,62.26|N|From Neri Sharpfin.|PRE|55862|
 T She Sells These Shells|QID|55766|M|50.29,63.96|N|To Suva.|
 T Poen's Favorite Dish|QID|56151|M|50.85,64.78|N|To Slen Darkroe.|
 T The Unshackled|QID|56120|M|50.99,65.25|N|To Atolia Seapearl.|
@@ -705,7 +727,7 @@ T Requisition: A Few Starfish|QID|55719|M|50.99,65.23|N|To Atolia Seapearl.|
 T Requisition: More Starfish|QID|55785|M|50.99,65.23|N|To Atolia Seapearl.|
 T Requisition: We Need It All|QID|55801|M|50.97,65.28|N|To Atolia Seapearl.|
 T Eel Filet|QID|56971|M|49.47,65.32|N|Item found randomly (rarely) when killing eels. Turns in to Vim Brineheart.|
-
+T Thats What Friends Are For|QID|56805|M|50.97,65.28|N|To Atolia Seapearl.|
 T The Missing Crew|QID|56379|M|58.46,62.98|Z|Zuldazar|N|Don't forget to turn in to Dread-Admiral Tattersail next time you are at the port in Zuldazar.|
 ]]
 
