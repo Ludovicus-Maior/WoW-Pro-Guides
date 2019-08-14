@@ -411,7 +411,6 @@ function WoWPro:OnInitialize()
     WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
     WoWPro.GossipText = nil
     WoWPro.GuideLoaded = false
-    WoWPro.EnableGrail = WoWProCharDB.EnableGrail or True
     WoWProDB.profile.Selector = WoWProDB.profile.Selector or {}
     WoWProDB.profile.Selector.QuestHard = WoWProDB.profile.Selector.QuestHard or 0
     if type(WoWProDB.profile.checksoundfile) == "string" then
