@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_alliance
+-- Date: 2019-08-10 08:09
+-- Who: Emmaleah
+-- Log: More tweaks,
+
+-- URL: http://wow-pro.com/node/3790/revisions/30344/view
 -- Date: 2019-08-01 18:38
 -- Who: Emmaleah
 -- Log: error corrections and tweaks
@@ -168,7 +173,8 @@ T Clearing Out the Cache|QID|55937|M|40.31,55.23|N|To Lady Jaina Proudmoore.|
 A Friends In Need|QID|56234|M|40.31,55.23|N|From Lady Jaina Proudmoore.|PRE|55937|
 
 ;quest chain 3000 follower points
-A A Bolt Hole|QID|55558|M|40.33,55.38|N|From Shandris Feathermoon.|O|;PRE|get 3000 follower points quest|
+t Friends In Need|QID|56234|M|40.31,55.23|N|To Lady Jaina Proudmoore.|
+A A Bolt Hole|QID|55558|M|40.33,55.38|N|From Shandris Feathermoon.|PRE|56234|
 C A Bolt Hole|QID|55558|M|61.88,36.62|QO|1|N|Find Base.|
 T A Bolt Hole|QID|55558|M|62.57,36.02|N|To Shandris Feathermoon.|;probably should be turned in where you find base, then get shoring up mana reserves there?
 A What Remains of Zin-Azshari|QID|55561|M|62.57,36.02|N|From Shandris Feathermoon.|PRE|55558|
@@ -215,7 +221,7 @@ C Changing Tides|QID|56325|M|51.82,34.09|QO|2|US|N|Assault the Gorgonian Overloo
 C Changing Tides|QID|56325|M|51.14,31.91|QO|4|NC|N|Throw the Javelin of Suramar|
 K Lady Zharessa|ACTIVE|56325|M|50.47,23.69|QO|5|T|Lady Zharessa|N|Kill Lady Zharessa.|
 T Changing Tides|QID|56325|M|50.10,24.48|N|To Lady Jaina Proudmoore.|
-A The Eternal Palace: Queen's Gambit|QID|56358|M|50.38,24.09|N|From Lady Jaina Proudmoore.|PRE|56325|
+A The Eternal Palace: Queen's Gambit|QID|56358|M|50.38,24.09|NA|N|From Lady Jaina Proudmoore.|PRE|56325|
 f The Tidal Conflux|ACTIVE|56358|M|49.80,23.61|N|At Nobu.|
 
 ;zone intro
@@ -324,6 +330,7 @@ T A Tempered Blade|QID|56156|M|39.51,53.38|N|To Bladesman Inowari.|
 
 N Requisition/Bounty Quests|N|These are mostly not set to be "sticky", so that the arrow can guide you to the correct area. If you want to make them sticky, you can right click on the step text and choose that option. This note will need to be manually clicked off.|
 U Deepflame Campfire|QID|57040^57041^57042|M|39.43,53.53|N|Be sure and stop by the Deepflame Campfire to pick up your companion.|
+N Curse of Tides|BUFF|-304606|M|39.02,57.99|N|If you are affected by the Curse of tides, go to Gloomseeker Yarga to have it removed. He can be found in an underwater cave, located under the shortest waterfall. He trades your cursed item for a bag of gold.|;-304611^304612^-304614^-304619
 
 A WANTED: Lady Naz'jess|QID|55750|M|39.09,54.20|N|From Wanted Poster.|O|;daily
 A WANTED: Commander Sarj'eth|QID|55770|M|39.09,54.20|N|From Wanted Poster.|O|;daily
@@ -374,10 +381,10 @@ A Requisition: A Few Seaweed|QID|55720|M|37.76,55.33|N|From Isla.|O|
 A Requisition: More Seaweed|QID|55786|M|37.76,55.35|N|From Isla.|O|
 A Requisition: A Few Spiral Leaf|QID|55725|M|37.76,55.32|N|From Isla.|O|
 A Requisition: More Spiral Leaf|QID|55791|M|37.77,55.31|N|From Isla.|O|
-
 A Requisition: A Few Starfish|QID|55719|M|37.94,53.47|N|From Craftsman Azama.|O|
-A Strange Silver Knife|QID|56239|M|39.78,49.28|N|From knife looted in treasure chest you just found.|
+
 C Scrying Stones|QID|56211|M|40.26,49.02;43.66,53.51;56.81,56.02|CS|QO|2|N|Use special action button at each of the marked locations to reveal another hidden treasure.|
+A Strange Silver Knife|QID|56239|M|39.78,49.28|N|From knife looted in treasure chest you just found.|
 A A Safer Place|QID|55983|M|48.23,45.29|N|From Mrrl.|PRE|56156|
 K Braxicus|ACTIVE|55777|M|43.63,54.03|QO|1|T|Braxicus|N|Kill Braxicus and loot his Giant Claw.|
 T Scrying Stones|QID|56211|M|37.89,55.84|N|To Artisan Okata.|
@@ -391,14 +398,11 @@ B Flatulent Fish|QID|55529|M|37.49,53.44|QO|3|T|Grrrmrlg|N|Buy the Flatulent Fis
 B Unidentified Mass|QID|55529|M|39.97,53.42|QO|2|T|Flgrrl|N|Buy an Unidentified Mass from Flgrrl.|
 T No Backs|QID|55529|M|39.10,54.32|N|To Mrrl.|
 
-N Curse of Tides|BUFF|-304606|M|39.02,57.99|N|If you are affected by the Curse of tides, go to Gloomseeker Yarga to have it removed. He can be found in an underwater cave, located under the shortest waterfall. He trades your cursed item for a bag of gold.|;-304611^304612^-304614^-304619
 C Bounty: Dangerous Creatures|QID|55837|S!US|N|Today you have a quest for killing Rares, so keep an eye out for those stars on the minimap.|
 C Bounty: Coral Ancients|QID|55821^55830|S!US|N|Today you have a bounty for killing Coral Ancients, these are mostly non agro (yellow) and often stationary.|
 C Bounty: Elite Naga Forces|QID|55836|S!US|N|Today you have a bounty for killing Elite naga forces.|
 C Bounty: Naga|QID|55818^55827|S!US|N|Today you have a bounty for killing naga forces.|
-C Requisition: Spiral Leaf|QID|55791^55725|NC|N|Today's requisition quest is to collect Poisonous Spiral Leaf.|
 C The Waveblade Ankoan|QID|56119|S!US|N|Complete 4 world quests in Nazjatar.|
-C Requisition: We Need It All|QID|55801|M|39.91,55.13|QO|2|NC|N|Pick up a Fallen Kelp Bud in the area.|
 C Requisition: We Need It All|QID|55801|M|71.07,47.78|QO|4|NC|N|Pick up an Impregnable Cone Shell, they are scattered pretty much over the whole zone.|
 
 A Where They Hide|QID|56154|M|41.29,58.36|N|From Seeker Anagi.|O|
@@ -492,8 +496,6 @@ T Void Cache|QID|55714|M|56.3,15.1|N|To Void Cache.|
 C Overdue|QID|57354|M|59.97,14.42|N|Kill the Naga to obtain the tomes.|
 C Dirty Dozen|QID|56032|M|64.94,13.44|N|Zoatroid Harvester float down from the "sky" and then travel up the hill, kill them before they get to the top of the hill.|
 C Jumping Jellies|QID|56121|M|61.20,28.72|NC|N|Walk into the purple tornado. Aim for the leftmost jelly, use spacebar to bouce your way spirling up to Tickles.|
-C Runelocked Chest|QID|56008|M|59.67,24.25|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can destroy enough yellow runes.|
-C Runelocked Chest|QID|56009|M|59.13,24.29|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can destroy enough purple runes.|
 A Arcane Cache|QID|55662|M|53.2,28.3|N|From Arcane Cache.|O|
 C Arcane Cache|QID|55662|M|53.2,28.3|N|Key dropped by nearby Azsh'ari Naga.|
 T Arcane Cache|QID|55662|M|53.2,28.3|N|To Arcane Cache.|
@@ -504,7 +506,7 @@ C Legacy of the Mad Mage|QID|57086|M|60.31,33.60|QO|2|NC|N|Place the Arcanocryst
 C Legacy of the Mad Mage|QID|57086|M|59.84,33.91|QO|3|NC|N|Activate the Amalgamator.|
 K Watery Amalgamation|ACTIVE|57086|M|59.73,34.52|QO|4|T|Watery Amalgamation.|N|Kill Watery Amalgamation.|
 T Legacy of the Mad Mage|QID|57086|M|60.49,33.56|N|To Arcane Cache.|
-A The Laboratory of Mardivas|QID|55121|M|60.63,33.29|N|From Mardiva's Tome.|PRE|57086|O|
+A The Laboratory of Mardivas|QID|55121|M|60.63,33.29|N|From Mardiva's Tome.|PRE|57086|
 C The Laboratory of Mardivas|QID|55121|M|59.84,33.91|QO|1|N|Press button.|
 K Arcane Amalgamation|ACTIVE|55121|QO|2|M|59.73,34.52|T|Arcane Amalgamation|N|Kill arcane amalgamation.|
 T The Laboratory of Mardivas|QID|55121|M|60.63,33.29|N|To Mardiva's Tome.|
@@ -527,7 +529,7 @@ A Making Kelpberry Wine|QID|56146|M|59.57,41.91|N|From an Empty Cask.|O|
 C Making Kelpberry Wine|QID|56146|M|63.35,44.28|QO|1|NC|N|Pick up the Kelpberries from the ground.|
 C Making Kelpberry Wine|QID|56146|M|57.81,40.91|QO|2|NC|N|Take the Kelpberries to Gniden for smashing.|
 C Making Kelpberry Wine|QID|56146|M|57.81,40.91|QO|3|NC|N|Pick up the Cask of Kelpberry Juice.|
-T Making Kelpberry Wine|QID|56146|M|57.19,39.97;57.61,35.32|CS|N|To Maedin.|
+T Making Kelpberry Wine|QID|56146|M|57.19,39.97;58.14,35.21|CS|N|To Maedin in an underwater cave.|
 K Emorneth|ACTIVE|55776|M|59.67,49.45|QO|1|T|Emorneth|N|Kill Emorneth.|
 C Silence|QID|56383|M|58.33,48.13|QO|1|N|Defeat Silence in a pet battle.|
 A Half-Digested Deepcoral Pod|QID|56447|M|58.34,48.06|N|From item dropped first time you defeat Silence in a pet battle.|PRE|56383|
@@ -548,14 +550,14 @@ A On Ghostly Wings|QID|56422|M|80.22,31.88|N|From Kelya Moonfall.|PRE|56321|
 T On Ghostly Wings|QID|56422|M|74.16,24.91|N|To Kelya Moonfall.|
 f Zin-Azshari|QID|57006|M|74.16,25.02|N|At Kelya Moonfall.|
 
-K Commander Sarj'eth|ACTIVE|55770|M|44.17,20.26|QO|1|T|Commander Sar'jeth|N|Kill Commander Sarj'eth and take his Head.|
-A Reinforced Cache|QID|55728|M|45.11,22.20|N|From Reinforced Cache sitting on the balcony.|O|
-C Reinforced Cache|QID|55728|M|45.11,22.20|N|Kill and loot Zanj'ir Naga in the area until you get the key to drop.|
-T Reinforced Cache|QID|55728|M|45.11,22.20|N|To Reinforced Cache.|
-C Runelocked Chest|QID|56014|M|45.69,29.61|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can destroy enough purple runes.|
-C Runelocked Chest|QID|56015|M|45.67,29.59|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 19 red runes.|
-K Lady Narjiss|ACTIVE|55772|M|45.95,30.06|QO|1|T|Lady Narjiss|N|Kill Lady Narjiss and take her head.|
-K Lord Ha'kass|ACTIVE|55771|M|44,37|QO|1|T|Lord Ha'kass|N|Kill Lord Ha'kass and take his head.|
+A A Life's Work|QID|55636|M|78.44,28.64|N|From an empty bookcase.|O|
+C A Life's Work|QID|55636|M|79.67,30.14|S!US|N|Kill Vengeful Highborne to get the scrolls.|
+C A Life's Work|QID|55636|M|78.18,27.96;76.43,29.75;78.36,26.92;76.25,27.89;77.74,26.44;77.24,29.69|CS|NC|US|N|Pick up the tomes from the ground.|
+C A Life's Work|QID|55636|M|79.67,30.14|US|N|Kill Vengeful Highborne to get the scrolls.|
+T A Life's Work|QID|55636|M|78.44,28.64|N|To an empty bookcase.|
+A Forgotten Memories|QID|55683|M|78.46,26.87|N|From Arylina.|O|
+C Forgotten Memories|QID|55683|M|79.08,27.58|NC|N|Arylina's Diary can be found just about anywhere in the area.|
+T Forgotten Memories|QID|55683|M|78.46,26.88|N|To Arylina.|
 
 C Bounty: Makrura|QID|55822^55831|M|62.46,38.97|N|Kill Makrura in the area.|
 C Infestation of Madness|QID|55884|M|63.01,34.96|QO|1|N|Kill Kil'karrok makrura.|
@@ -571,6 +573,8 @@ C What Will It Lure?|QID|55602|M|48.20,24.12|QO|3|NC|U|168159|N|Toss more Chum (
 C What Will It Lure?|QID|55602|M|48.20,24.12|QO|4|N|Kill the Shimmering Eel and loot his Skin.|
 C Kelpstone|QID|56389|M|46.68,27.79|N|Defeat Kelpstone in a pet battle.|
 A Overgrown Stone|QID|56453|PRE|56389|M|46.68,27.79|N|From Item received after defeating Kelpstone in a pet battle.|
+C Frenzied Knifefang|QID|56391|M|58.30,26.79;59.06,26.59|CS|N|Frenzied Knifefang can be found in an underwater cave. Defeat Frenzied Knifefang in a pet battle.|
+A Frenzy Fang|QID|56455|M|59.06,26.59|NC|N|From item dropped when defeating Frenzied Knifefang in a pet battle for the first time.|O|
 
 A Break a Few Eggs|QID|56370|M|66.81,29.14|N|From Tracker Kenji.|O|
 C Break a Few Eggs|QID|56370|M|69.03,21.70|QO|1|N|Destroy the Deepcoil Egga0|
@@ -579,6 +583,7 @@ C Deepcoil Cleansing|QID|57353|M|70.87,20.22|N|Collect Voidtinged Substances pri
 
 C Leylocked Chest|QID|56023|M|67.05,35.71|NC|N|Click on the Arcane Device to open a puzzle. Uncross the ley lines (they will turn lighter color when uncrossed) to unlock the chest.|;WQ
 C Requisition: Kelp Buds|QID|55787^55721|M|72.41,43.94|QO|1|N|Pick up a Fallen Kelp Bud in the area.|
+C Requisition: We Need It All|QID|55801|M|59.99,51.96|QO|2|NC|N|Pick up a Fallen Kelp Bud in the area.|
 K Haggronar|ACTIVE|55775|M|71.96,35.60|QO|1|T|Haggronar|N|Kill Haggronar and loot his head.|
 A Plug the Geysers.|QID|56160|M|71.62,31.55|N|From Apprentice Aonari.|O|
 C Plug the Geysers.|QID|56160|M|71.62,31.55|U|168482|NC|N|Use Benthic Sealent to close the geysers.|
@@ -593,36 +598,21 @@ C Poor, Unfortunate Souls|QID|55637|M|79.36,29.82|N|Click on the bones to spawn 
 T Poor, Unfortunate Souls|QID|55637|M|74.24,24.74|N|To Elycina Starcaller.|
 A Additional Supplies|QID|56787|M|74.36,25.02|N|From Bladesman Inowari.|O|
 
-A A Life's Work|QID|55636|M|78.44,28.64|N|From an empty bookcase.|O|
-C A Life's Work|QID|55636|M|79.67,30.14|S!US|N|Kill Vengeful Highborne to get the scrolls.|
-C A Life's Work|QID|55636|M|78.18,27.96;76.43,29.75;78.36,26.92;76.25,27.89;77.74,26.44;77.24,29.69|CS|NC|US|N|Pick up the tomes from the ground.|
-C A Life's Work|QID|55636|M|79.67,30.14|US|N|Kill Vengeful Highborne to get the scrolls.|
-T A Life's Work|QID|55636|M|78.44,28.64|N|To an empty bookcase.|
-A Forgotten Memories|QID|55683|M|78.46,26.87|N|From Arylina.|O|
-C Forgotten Memories|QID|55683|M|79.08,27.58|NC|N|Arylina's Diary can be found just about anywhere in the area.|
-T Forgotten Memories|QID|55683|M|78.46,26.88|N|To Arylina.|
-
 A Forbidden Rituels|QID|55846|M|56.64,29.25|N|From Apprentice Ukaro.|O|
 C Forbidden Rituels|QID|55846|M|56.64,29.25|N|Drops from Naga Casters in the area.|
 T Forbidden Rituels|QID|55846|M|56.64,29.25|N|To Apprentice Ukaro.|
 C Runelocked Chest|QID|56006|M|59.26,24.26|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 18 orange runes.|
-C Runelocked Chest|QID|56007|M|59.26,24.26|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 17 orange runes.|;WQ
-C Runelocked Chest|QID|56008|M|59.67,24.25|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 3 yellow runes.|
+C Runelocked Chest|QID|56007|M|59.26,24.26|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 17 red runes.|
+C Runelocked Chest|QID|56008|M|59.67,24.25|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 15 yellow runes.|
+C Runelocked Chest|QID|56009|M|59.13,24.29|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can destroy 19 purple runes.|
 C Runelocked Chest|QID|56010|M|59.14,24.28|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can destroy 14 blue runes.|
 C Requisition: We Need It All|QID|55801|M|60.95,24.25|QO|3|NC|N|Poisonous Spiral Leaves can be found in this area.|S!US|
+C Requisition: Spiral Leaf|QID|55791^55725|M|60.95,24.25|NC|N|Today's requisition quest is to collect Poisonous Spiral Leaf.|
 C Requisition: We Need It All|QID|55801|M|60.62,22.53|QO|1|NC|N|Angel Scale Starfish can be found in this area.|S!US|
 C Requisition: Starfish|QID|55719^55785|M|60.62,22.53|NC|N|Angel Scale Starfish can be found in this area.|S!US|
 
-C Voltgorger|QID|56390|M|37.52,16.68|N|Defeat Voltgorger in a pet battle.|
-A Crackling Mandible|QID|56454|M|37.52,16.68|N|From Item dropped by Voltgorger.|O|
-A Plans of Attack|QID|55845|M|37.2,19.2|N|From Naga Attack Plans on the ground.|O|
-C Plans of Attack|QID|55845|M|37.2,19.2|N|Kill and loot Naga to collect more attack plans.|
-C Runelocked Chest|QID|56019|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 28 orange runes, by matching 3 or more in a row.|
-C Runelocked Chest|QID|56020|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 29 purple runes, by matching 3 or more in a row.|
-C Runelocked Chest|QID|56021|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 30 red runes, by matching 3 or more in a row.|
-C Runelocked Chest|QID|56022|M|37.27,16.00|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 31 yellow runes, by matching 3 or more in a row.|
-K Lady Naz'jess|ACTIVE|55750|M|36.50,17.75|QO|1|T|Lady Naz'jess|N|Kill Lady Naz'jess and claim her Head as proof.|
-
+C Shadowspike Lurker|QID|56384|M|42.33,14.39|N|Defeat Shadowspike Lurker in a pet battle.|
+A Molted Spineshell|QID|56448|M|42.33,14.39|N|From item dropped the first time you defeat Shadowspike Lurker in a pet battle.|PRE|56384|
 A What Will It Mine?|QID|55531|N|From Brimstone Pickaxe, often contained in a Waterlogged Toolbox.|O|
 C What Will It Mine?|QID|55531|M|37.08,14.53|QO|1|NC|N|The shards are found in the cavern, click to mine.|
 C What Will It Mine?|QID|55531|M|36.86,11.35|QO|2|NC|N|Place shards on the pedastals.|
@@ -632,23 +622,55 @@ C Hungry Hungry Hydras|QID|55997|M|35.60,12.43|QO|2|N|Ride Theronar.|
 C Mindshackle|QID|56388|M|56.42,8.12|QO|1|N|Defeat Mindshackle in a pet battle.|
 A Strange Organ|QID|56452|M|56.42,8.12|N|From item dropped the first time you defeat Mindshackle in a pet battle.|PRE|56388|
 
-f Ashen Strand|QID|56013|M|31.92,38.13|N|At Azuku.|
-C Requisition: Carp|QID|55723^55789|M|26.28,32.55|NC|N|Struggling Carp can rarely be found along almost all waterways all over Nazjatar. Click to return to water.|
-C Bounty: Hydras|QID|55820^55829|M|32.65,44.82|N|Kill Hydras.|
-C Runelocked Chest|QID|56012|M|45.34,30.13|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 4 green runes, by matching 3 or more in a row.|
+C Voltgorger|QID|56390|M|37.52,16.68|N|Defeat Voltgorger in a pet battle.|
+A Crackling Mandible|QID|56454|M|37.52,16.68|N|From Item dropped by Voltgorger the first time you defeat him in a pet battle.|PRE|56390|
+A Plans of Attack|QID|55845|M|37.2,19.2|N|From Naga Attack Plans on the ground.|O|
+C Plans of Attack|QID|55845|M|37.2,19.2|N|Kill and loot Naga to collect more attack plans.|
+C Runelocked Chest|QID|56017|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 26 blue runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56018|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 27 green runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56019|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 28 orange runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56020|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 29 purple runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56021|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 30 red runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56022|M|37.27,16.00|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 31 yellow runes, by matching 3 or more in a row.|
+K Lady Naz'jess|ACTIVE|55750|M|36.50,17.75|QO|1|T|Lady Naz'jess|N|Kill Lady Naz'jess and claim her Head as proof.|
+
+K Commander Sarj'eth|ACTIVE|55770|M|44.17,20.26|QO|1|T|Commander Sarj'eth|N|Kill Commander Sarj'eth and take his Head.|
+A Reinforced Cache|QID|55728|M|45.11,22.20|N|From Reinforced Cache sitting on the balcony.|O|
+C Reinforced Cache|QID|55728|M|45.11,22.20|N|Kill and loot Zanj'ir Naga in the area until you get the key to drop.|
+T Reinforced Cache|QID|55728|M|45.11,22.20|N|To Reinforced Cache.|
+C Runelocked Chest|QID|56011|M|45.34,30.13|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 25 blue runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56012|M|45.34,30.13|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy green runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56013|M|45.34,30.13|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy orange runes, by matching 3 or more in a row.|
 C Runelocked Chest|QID|56014|M|45.67,29.59|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 29 purple runes.|
 C Runelocked Chest|QID|56015|M|45.67,29.59|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 19 red runes.|
 C Runelocked Chest|QID|56016|M|45.66,29.61|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 21 yellow runes, by matching 3 or more in a row.|
+K Lady Narjiss|ACTIVE|55772|M|45.95,30.06|QO|1|T|Lady Narjiss|N|Kill Lady Narjiss and take her head.|
+K Lord Ha'kass|ACTIVE|55771|M|44,37|QO|1|T|Lord Ha'kass|N|Kill Lord Ha'kass and take his head.|
+
+f Ashen Strand|QID|56013|M|31.92,38.13|N|At Azuku.|
+
+C Bounty: Hydras|QID|55820^55829|M|35.24,45.12|N|Keep an eye out for today's bounty quest to kill hydras.|
+A Ancient Technology|QID|56346|M|38.12,36.99|N|From Broken Abysal Focus.|P|Blacksmithing;164;7+150|
+A Ancient Technology|QID|56346|M|38.12,36.99|N|From Broken Abysal Focus.|P|Alchemy;171;7+150|
+A Ancient Technology|QID|56346|M|38.12,36.99|N|From Broken Abysal Focus.|P|Enchanting;333;7+150|
+A Ancient Technology|QID|56346|M|38.12,36.99|N|From Broken Abysal Focus.|P|Inscription;773;7+150|
+A Ancient Technology|QID|56346|M|38.12,36.99|N|From Broken Abysal Focus.|P|Jewelcrafting;755;7+150|
+A Ancient Technology|QID|56346|M|38.12,36.99|N|From Broken Abysal Focus.|P|Tailoring;197;7+150|
+A Ancient Technology|QID|56346|M|38.12,36.99|N|From Broken Abysal Focus.|P|Engineering;202;7+150|
+A Ancient Technology|QID|56346|M|38.12,36.99|N|From Broken Abysal Focus.|P|Leatherworking;165;7+150|
+C Requisition: Carp|QID|55723^55789|M|26.28,32.55|NC|N|Struggling Carp can rarely be found along almost all waterways all over Nazjatar. Click to return to water.|
 C Requisition: Flotsam|QID|55727^55793|M|26.73,30.57|NC|N|Pile of Flotsam is found in Ashen Strand and nearby.|
 C Requisition: We Need It All|QID|55801|M|33.73,31.54|QO|5|NC|N|Pile of Flotsam is found in Ashen Strand and nearby.|
 A Pearls of Unimaginable Power|QID|55625|M|31.56,37.51|N|From Arcanist Owara.|O|
 C Pearls of Unimaginable Power|QID|55625|M|28.80,47.72|NC|N|Pick up the Enchanted Pearls.|
 T Pearls of Unimaginable Power|QID|55625|M|31.57,37.52|N|To Arcanist Owara.|
+C Ravenous Scalespawn|QID|56387|M|29.60,49.64|N|Defeat Ravenous Scalespawn in a pet batle.|
+A Mottled Hydra Scale|QID|56451|M|29.60,49.64|N|From item dropped when defeating pet battle Ravenous Scalespawn.|PRE|56387|
 A Turn the Scale|QID|56152|M|31.28,37.56|N|From Tracker Akatani.|PRE|57040|O|
 C Turn the Scale|QID|56152|M|31.42,40.92|N|Kill Hydras in the area to loot their scales.|
 T Turn the Scale|QID|56152|M|31.28,37.56|N|To Tracker Akatani.|
 A More Mouths To Feed|QID|54949|M|35.04,48.95|N|From Tracker Onu.|O|
-C More Mouths To Feed|QID|54949|M|31.40,45.52|N|Kill Snapshell Turtles and loot them.|
+C More Mouths To Feed|QID|54949|M|31.40,45.52|U|166905|N|Kill Snapshell Turtles and then use the knife to carve off their flesh.|
 T More Mouths To Feed|QID|54949|M|35.04,48.95|N|To Tracker Onu.|
 C Prince Wiggletail|QID|56381|M|34.72,27.41|N|Defeat the Prince Wiggletail in a pet battle.|
 A Wiggletail's Poking Fork|QID|56444|M|34.72,27.41|N|From item dropped the first time you defeat the Prince Wiggletail in a pet battle.|PRE|56381|
@@ -700,6 +722,10 @@ A A Glint in the Darkness|QID|56778|M|39.96,55.28|N|From Hunter Akana.|O|
 A The Speaker's Gift|QID|56782|M|25.44,26.36|N|From Farseer Ori.|O|
 T Giant Crab Leg|QID|56273|M|39.47,53.40|N|To Bladesman Inowari.|
 T Fathom Ray Wing|QID|57247|M|39.39,53.50|N|To Hunter Akana.|
+
+T Ancient Technology|QID|56346|M|38,53|N|To Instructor Ulooaka.|
+A An Abyssal Opportunity|QID|56347|M|38,53|N|From Instructor Ulooaka.|PRE|56346|
+
 T A Gift From The Clan|QID|56777|M|38.00,55.75|N|To Speaker Utia.|
 T The Waveblade Ankoan|QID|56119|M|38.01,55.70|N|To Speaker Utia.|
 T The Speaker's Gift|QID|56782|M|38.01,55.70|N|To Speaker Utia.|
@@ -732,19 +758,29 @@ T Requisition: A Few Carp|QID|55723|M|38.03,55.70|N|To Speaker Utia.|
 T Requisition: More Carp|QID|55789|M|38.03,55.70|N|To Speaker Utia.|
 T Requisition: A Few Cone Shells|QID|55726|M|38.03,55.70|N|To Speaker Utia.|
 T Requisition: More Cone Shells|QID|55792|M|38.03,55.70|N|To Speaker Utia.|
+T A Gift of Supplies|QID|56779|M|38.03,55.70|N|To Speaker Utia.|
+T A Valorous Reward|QID|56716|M|38.03,55.70|N|To Speaker Utia.|
+T Helpful Provisions|QID|5678456779|M|38.03,55.70|N|To Speaker Utia.|
+
 T A Worthy Ally|QID|57006|M|37.89,55.84|N|To Artisan Okata.|
-T What Will It Lure?|QID|55602|M|37.89,55.84|N|To Artisan Okata.|
-T What Will It Mine?|QID|55531|M|37.89,55.84|N|To Artisan Okata.|
-T What Will It Grow?|QID|55426|M|37.89,55.84|N|To Artisan Okata.|
+t What Will It Lure?|QID|55602|M|37.89,55.84|N|To Artisan Okata.|
+t What Will It Mine?|QID|55531|M|37.89,55.84|N|To Artisan Okata.|
+t What Will It Grow?|QID|55426|M|37.89,55.84|N|To Artisan Okata.|
+C An Abyssal Opportunity|QID|56347|M|37.89,55.84|NC|N|Purchase the Abyssal Shards from Artisan Okata. This quest enables the crafting of new gear, so if that's not important to you, check this off manually.|
+t An Abyssal Opportunity|QID|56347|M|38,53|N|To Instructor Ulooaka.|
 
 T Wiggletail's Poking Fork|QID|56444|M|37.85,55.71|N|To Artisan Itanu.|
 T Leathery Venom Gland|QID|56446|M|37.86,55.71|N|To Artisan Itanu.|
 T Half-Digested Deepcoral Pod|QID|56447|M|37.85,55.71|N|To Artisan Itanu.|
+T Molted Spineshell|QID|56448|M|37.85,55.71|N|To Artisan Itanu.|
+T Pearlescent Shell|QID|56449|M|37.86,55.71|N|To Artisan Itanu.|
 T Eel Jelly|QID|56450|M|37.86,55.73|N|To Artisan Itanu.|
+T Mottled Hydra Scale|QID|56451|M|37.85,55.72|N|To Artisan Itanu.|
 T Strange Organ|QID|56452|M|37.86,55.73|N|To Artisan Itanu.|
 T Overgrown Stone|QID|56453|M|37.85,55.72|N|To Artisan Itanu.|
+T Crackling Mandible|QID|56454|M|37.85,55.72|N|To Artisan Itanu.|
+T Frenzy Fang|QID|56455|M|37.85,55.72|N|To Artisan Itanu.|
 T Opaline Conch|QID|56456|M|37.86,55.71|N|To Artisan Itanu.|
-T Pearlescent Shell|QID|56449|M|37.86,55.71|N|To Artisan Itanu.|
 T A Curious Discovery|QID|56561|M|37.94,53.21|N|To Instructor Okanu.|
 C A Glint in the Darkness|QID|56778|M|45.97,52.11;44.04,53.81|CS|NC|N|Loot Lambent Lockbox.|
 T A Glint in the Darkness|QID|56778|M|44.04,53.81|U|169905|N|Open the supplies, Turned in to UI Alert.|
