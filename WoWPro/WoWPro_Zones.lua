@@ -572,13 +572,19 @@ function WoWPro.ProcessMapAndKids(id, root)
     end
 end
 
-function WoWPro.NewGenerateMapCache()
+function WoWPro.NewGenerateMapCache(release)
+    local root
     wip_map_info = {}
     wip_group_info = {}
     wip_name_info = {}
 
-    WoWPro:print("Starting recursive mapping.")
-    WoWPro.ProcessMapAndKids(946, true)
+    if release == 1 then
+        root = 947
+    else
+        root = 946
+    end
+    WoWPro:print("Starting recursive mapping at %d.", root)
+    WoWPro.ProcessMapAndKids(root, true)
 
     -- Try to discover disconnected maps
     WoWPro:print("Starting iterative mapping.")
@@ -587,7 +593,7 @@ function WoWPro.NewGenerateMapCache()
             WoWPro.ProcessMapAndKids(i, false)
         end
     end
-    
+
     -- Pass One, get the wierd ones out of the way
     WoWPro.InferGoodNicknames()
     -- Pass Two, now we may have the unique ones done.
@@ -621,7 +627,7 @@ end
 
 function WoWPro.Functionalize(release)
     WoWPro:Print("WoWPro:Functionalize(): 0")
-    WoWPro.NewGenerateMapCache()
+    WoWPro.NewGenerateMapCache(release)
     WoWPro:Print("WoWPro:Functionalize(): 1")
     WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("WoWPro Maps","Hit escape to dismiss")
     local LogBox = WoWPro.LogBox
