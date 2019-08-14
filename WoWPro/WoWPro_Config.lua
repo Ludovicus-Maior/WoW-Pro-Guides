@@ -856,34 +856,10 @@ local function createBlizzOptions()
 				order = 93,
 				type = "description",
 				fontSize = "medium",
-				name = "WoW-Pro.com is a guide website by gamers, for gamers. "
+				name = "WoW-Pro.com is a guide website by gamers, for gamers. The site hosts hundreds of free guides covering every facet of World of Warcraft."
 			}, 	
 			blank12 = {
 				order = 94,
-				type = "description",
-				name = " ",
-			},  
-			about11 = {
-				order = 95,
-				type = "description",
-				fontSize = "medium",
-				name = 
-					"The site hosts hundreds of free guides covering every facet of World of Warcraft. "
-			}, 	 	
-			blank13 = {
-				order = 96,
-				type = "description",
-				name = " ",
-			},  
-			about12 = {
-				order = 97,
-				type = "description",
-				fontSize = "medium",
-				name = 
-					"We are most famous for our leveling guides, especially those written by the site founder, Jame. "
-			}, 	 	
-			blank7 = {
-				order = 98,
 				type = "description",
 				name = " ",
 			},  
@@ -904,9 +880,25 @@ local function createBlizzOptions()
 				type = "description",
 				fontSize = "medium",
 				name = 
-					"The WoW-Pro addon will bring many of the guides we've built as a community into the game, "..
-					"but if you get the chance you should definitely stop by, leave a comment saying 'Hi!', and check out "..
-					"some of the guides on WoW-Pro.com!",
+					"The WoW-Pro addon has brought many of the guides we've built as a community into the game, "..
+					"and built on them since WoLK to BFA and now Classic. Drop by WoW-Pro.com or Discord and say hello!"
+			},
+			blank19 = {
+				order = 102,
+				type = "description",
+				name = "",
+				image = "Interface/AddOns/WoWPro/Textures/Discord",
+				imageWidth = 32,
+				imageHeight = 32,
+				width = "half"
+			},
+			about16 = {
+				order = 103,
+				type = "input",
+				name = "Discord",
+				get = function () return "https://discord.gg/aarduK7"; end,
+				set = function () return "https://discord.gg/aarduK7"; end,
+				icon = "Interface\\AddOns\\WoWPro\\Textures\\Discord",
 			},
 		},
 	})
