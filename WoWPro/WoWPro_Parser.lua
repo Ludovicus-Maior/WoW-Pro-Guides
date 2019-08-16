@@ -144,10 +144,10 @@ function WoWPro.SkipStep(index, list_only)
 					steplist = steplist.."- "..WoWPro.step[j].."\n"
 					index = j
 				end
-			end 
+			end
 		end
 	end
-	
+
 	WoWPro:UpdateGuide("SkipStep")
 	return steplist
 end
@@ -170,15 +170,15 @@ function WoWPro.UnSkipStep(index)
 		WoWProCharDB.Guide[GID].skipped[index] = nil
 	end
 	WoWPro:dbp("UnSkipStep(): unskipping step %d", index)
-	
+
 	local function unskipstep(currentstep)
 		for j = 1,WoWPro.stepcount do if WoWPro.prereq[j] then
 			local numprereqs = select("#", string.split("^&", WoWPro.prereq[j]))
 			for k=1,numprereqs do
 				local kprereq = select(numprereqs-k+1, string.split("^&", WoWPro.prereq[j]))
 				if tonumber(kprereq) and tonumber(kprereq) == WoWPro.QID[currentstep] then
-					if WoWPro.action[j] == "A" 
-					or WoWPro.action[j] == "C" 
+					if WoWPro.action[j] == "A"
+					or WoWPro.action[j] == "C"
 					or WoWPro.action[j] == "T" then
 						WoWProCharDB.skippedQIDs[tonumber(kprereq)] = nil
 						WoWPro:dbp("UnSkipStep(): pre quid %s", kprereq)
@@ -188,7 +188,7 @@ function WoWPro.UnSkipStep(index)
 			end
 		end end
 	end
-	
+
 	unskipstep(index)
 	WoWPro:UpdateGuide("UnSkipStep")
 end
@@ -258,7 +258,7 @@ DefineTag("NC","noncombat","boolean",nil,nil)
 DefineTag("NA","noauto","boolean",nil,nil)
 DefineTag("CHAT","chat","boolean",nil,nil)
 DefineTag("V","vehichle","boolean",nil,nil) -- Yeah, that is how blizzard spelled it!
-DefineTag("LVL","level","number",nil,nil)
+DefineTag("LVL","level","string",validate_old_list_of_ints,nil)
 DefineTag("T","target","string",nil,nil)
 DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(value) end)
 DefineTag("NOCACHE", "nocache","boolean",nil,nil)
@@ -330,7 +330,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 
     -- Split the line up on the pipes
     local tags = { strsplit("|", text) }
-	
+
 	-- The first tag is is the Action followed by the Step name
 	local primo = tags[1]
 	if string.len(primo) < 3 then
@@ -472,7 +472,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     end
 
 	if WoWPro.map[i] then
-		if WoWPro.waypcomplete[i] == nil then 
+		if WoWPro.waypcomplete[i] == nil then
 		    WoWPro.waypcomplete[i] = false
 		    if WoWPro.map[i]:find(";") then
 		        WoWPro:Warning("Step %s [%s:%s] in %s is missing a CS¦CC¦CN tag.",WoWPro.action[i],WoWPro.step[i],tostring(WoWPro.QID[i]),WoWProDB.char.currentguide)
@@ -534,15 +534,15 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     if WoWPro.ach[i] and not WoWPro.note[i] then
         WoWPro.note[i] = ""
     	local achnum, achitem = string.split(";",WoWPro.ach[i])
-    	local count = GetAchievementNumCriteria(achnum) 
-    	local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum) 
-    	if WoWPro.step[i] == "Achievement" and count == 0 then 
-    		WoWPro.step[i] = Name 
+    	local count = GetAchievementNumCriteria(achnum)
+    	local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum)
+    	if WoWPro.step[i] == "Achievement" and count == 0 then
+    		WoWPro.step[i] = Name
     		WoWPro.note[i] = Description.."\n\n"..WoWPro.note[i]
     	end
-    	if WoWPro.step[i] == "Achievement" and count > 0 then 
-    		WoWPro.step[i] = Name 
-    		local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem) 
+    	if WoWPro.step[i] == "Achievement" and count > 0 then
+    		WoWPro.step[i] = Name
+    		local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
     		WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i]
     	end
     end
@@ -745,7 +745,7 @@ function WoWPro.ParseSteps(steps)
         end
     end
 end
-	
+
 -- Guide Load --
 function WoWPro:LoadGuideSteps()
     WoWPro:dbp("Signaled for LoadGuideSteps for %s",tostring(WoWProDB.char.currentguide))
@@ -788,7 +788,7 @@ function WoWPro.LoadGuideStepsReal()
 	    WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps stored.")
 	end
 
-	-- May need to go the the next guide to register	
+	-- May need to go the the next guide to register
 	if WoWPro.Guides2Register then
 	    WoWProCharDB.GuideVersion[GID] = WoWPro.Version
 	    WoWPro:dbp("Recorded %s, time to load next Guides2Register.", GID)
@@ -848,7 +848,7 @@ function WoWPro.SetupGuideReal()
 
 	-- Do we need to do AutoProximitySort'
 	if WoWPro.Guides[GID].AutoProximitySort then
-	    WoWPro.OrderSteps(false)    
+	    WoWPro.OrderSteps(false)
 	end
 
     -- Checking to see if any steps are already complete --
