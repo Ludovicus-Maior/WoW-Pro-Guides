@@ -1,10 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- FIXME:
--- Step T [The Zoram Strand:nil] in ClassicAshenvale2324 is missing a CS¦CC¦CN tag.
--- Step R [Stonetalon Mountains:1070] in ClassicAshenvale2324 is missing a CS¦CC¦CN tag.
-
 local guide = WoWPro:RegisterGuide('ClassicAshenvale2324', 'Leveling', 'Ashenvale', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Ashenvale 23-24')
 WoWPro:GuideLevels(guide, 23, 24, 23)
@@ -31,7 +27,7 @@ A Raene's Cleansing (part 2)|QID|1023|M|20.3,42.3|
 C Raene's Cleansing (part 2)|N|Kill saltspittle murlocs until you get a Glowing Gem. They are all around the pool.|QID|1023|M|20.30,44.40|
 T Bathran's Hair|QID|1010|M|26.4,38.6|
 A Orendil's Cure|QID|1020|M|26.4,38.6|
-T The Zoram Strand|M|25.57,38.55;27,47;34.7,48.9|
+T The Zoram Strand|M|25.57,38.55;27,47;34.7,48.9|CS|
 A Pridewings of Stonetalon|QID|1134|M|34.7,48.8|
 A Kayneth Stillwind|QID|4581|M|34.7,48.8|
 T Raene's Cleansing (part 2)|QID|1023|M|36.6,49.6|
@@ -41,6 +37,6 @@ T Culling the Threat|QID|1054|M|36.6,49.6|
 T Orendil's Cure|QID|1020|M|37.4,51.8|
 A Elune's Tear|N|This quest becomes available about 20 seconds after turning in the previous one.|QID|1033|M|37.4,51.8|
 N Sell junk and repair|QID|1070|N|Close this step when you're done. (35.83,52.11)|M|35.6,51.1|
-R Stonetalon Mountains|QID|1070|N|Follow the arrows until you enter Stonetalon Mountains|M|42.62,58.47;42.29, 71.12|
+R Stonetalon Mountains|QID|1070|N|Follow the arrows until you enter Stonetalon Mountains|M|42.62,58.47;42.29,71.12|CS|
 ]]
 end)
