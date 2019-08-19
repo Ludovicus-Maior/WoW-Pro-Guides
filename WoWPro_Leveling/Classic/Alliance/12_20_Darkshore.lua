@@ -109,7 +109,7 @@ A The Tower of Althalaxx (Part 1)|QID|965|M|39.1, 43.5|
 N As Water Cascades|QID|4812|N|Fill your Empty Water Tube and Empty Cleansing Bowel at the moonwell by the Inn. Close when done.|
 C How Big a Threat? (Part 2)|QID|985|M|39,53|
 T As Water Cascades|QID|4812|M|47.3, 48.7|
-C Gathering the Cure|QID|6123|C|Druid|M|43,45;46,45;45,50|N|Found in the moonkin caves. Earthroot requires Herbalism or buy from AH or vendors.|
+C Gathering the Cure|QID|6123|C|Druid|M|43,45;46,45;45,50|CS|N|Found in the moonkin caves. Earthroot requires Herbalism or buy from AH or vendors.|
 A The Fragments Within|QID|4813|
 C Tharnariun's Hope|QID|2139|M|51.6, 37.6|N|Pull one of the Thistle Cubs and they will all run at you, burn one of the cubs down quickly and run away. Rinse and repeat until all 4 cubs are dead. Pull the Den Mother and kill her.|
 C The Blackwood Corrupted|QID|4763|M|52.5, 33.5|N|Make sure your healed up before you take a store, two furbolgs will spawn and attack you. Loot Blackwood Grain Stores. Loot Blackwood Nut Store. Loot Blackwood Fruit Stores. After collecting the stores, use your Filled Cleansing Bowel at the bonfire in the center of the furbolg camp, wait for a second then kill Xabraxxis and loot his bag he drops on the ground.|
