@@ -2,19 +2,13 @@
   WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
   Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-FIXME:
-Step R [The Grizzled Den:313] in ClassicDunMorogh0112 is missing a CS¦CC¦CN tag.
-Step R [Brewnall Village:318] in ClassicDunMorogh0112 is missing a CS¦CC¦CN tag.
-Step R [North Gate Outpost:417] in ClassicDunMorogh0112 is missing a CS¦CC¦CN tag
 --]]
 
 local guide = WoWPro:RegisterGuide('ClassicDunMorogh0112', "Leveling", 'Dun Morogh', 'Mr Boston', 'Alliance', 1)
 WoWPro:GuideLevels(guide,1,12, 2)
--- FIXME: WoW Classic does not have a Achievement_Charachter_Dwarf_* icons
--- WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender(
---        "Interface\\Icons\\Achievement_Character_Dwarf_Male",
---        "Interface\\Icons\\Achievement_Character_Dwarf_Female"))
-WoWPro:GuideSteps(guide, function() return [[
+WoWPro:GuideSteps(guide, function()
+return [[
+
 A Dwarven Outfitters|QID|179|M|29.92,71.21|
 L Kill Wolves and Troggs|QID|179|LVL|2|M|29.80,74.30|N|Kill these until you are level 2. Close this step when done.|
 C Dwarven Outfitters|QID|179|M|29.80,74.30|N|Go kill Ragged Young Wolves until you get 8 Tough Wolf Meat.|
@@ -102,7 +96,7 @@ T Tools for Steelgrill|QID|400|M|50.44,49.10|
 
 N Beer Basted Boar Ribs|QID|384|S|QO|Crag Boar Rib 6/6|L|2886 6|
 C Stocking Jetsteam|QID|317|S|
-R The Grizzled Den|QID|313|M|45.09,50.25;44.9,55.2|N|Southwest, past Kharanos (44.9, 55.2)|
+R The Grizzled Den|QID|313|M|45.09,50.25;44.9,55.2|CS|N|Southwest, past Kharanos.|
 C Ammo for Rumbleshot|QID|5541|M|44.13,56.94|N|Open the crate.|
 T Ammo for Rumbleshot|QID|5541|M|40.69,65.09|N|Southwest, up the hill.|
 C The Grizzled Den|QID|313|M|42,53|N|Kill Wendigos until you complete this quest. More than one can overwhelm, so pull carefully.|
