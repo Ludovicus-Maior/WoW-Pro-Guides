@@ -5,11 +5,9 @@
 
 local guide = WoWPro:RegisterGuide('ClassicElwynn0112', "Leveling", 'Elwynn Forest', 'Maw', 'Alliance', 1)
 WoWPro:GuideLevels(guide,1,12, 2)
--- FIXME: WoW Classic does not have a Achievement_Charachter_Human_* icons
-WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender(
-        "Interface\\Icons\\Achievement_Character_Human_Male",
-        "Interface\\Icons\\Achievement_Character_Human_Female"))
-WoWPro:GuideSteps(guide, function() return [[
+WoWPro:GuideSteps(guide, function()
+return [[
+
 A A Threat Within|QID|783|M|48.1,43.6|
 T A Threat Within|QID|783|M|48.9,41.6|
 A Kobold Camp Cleanup|QID|7|M|48.9,41.6|
