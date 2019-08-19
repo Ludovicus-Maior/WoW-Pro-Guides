@@ -1,5 +1,10 @@
-TourGuide:RegisterGuide("JamAsh3031", "Ashenvale", "Jame", "30", "31", "JamTho3132", "Alliance", function()
+local guide = WoWPro:RegisterGuide('JamAsh3031', 'Leveling', 'Ashenvale', 'Jame', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Ashenvale 30-31')
+WoWPro:GuideLevels(guide, 30, 31, 30)
+WoWPro:GuideNextGuide(guide,'JameTho3132')
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Gather these from auction house.|QID|10352|N|Get 60 Wool Cloth and 4 Lesser Bloodstone Ore from the Auction House.|
 N Mount|QID|1021|N|A mount is recommended for this part!|
 b Darkshore|QID|1021|N|Take the boat to Darkshore|Z|Stormwind City|M|22.90,55.90|
