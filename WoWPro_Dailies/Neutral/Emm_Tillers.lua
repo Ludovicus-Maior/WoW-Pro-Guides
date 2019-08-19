@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2019-07-02 18:43
+-- Who: Hendo72
+-- Log: Added to Fish Fellreed note stating that she has 2 locations.
+
+-- URL: http://wow-pro.com/node/3508/revisions/29903/view
+-- Date: 2018-10-17 02:21
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3508/revisions/29334/view
 -- Date: 2018-05-27 07:15
 -- Who: Emmaleah
 -- Log: shortened some of the massive notes at the beginning (not nearly short enough tho).  Reworked the Growing the Farm buff steps so they will hopefully show up now.
@@ -267,38 +277,38 @@ A Haohan's Vote V: Chief Yip-Yip|QID|30528|PRE|30527|M|52.20,48.86|N|From Farmer
 K Chief Yip-Yip|T|Chief Yip-Yip|QID|30528|ACTIVE|30528|QO|1|M|32.4,20.4|N|Head to the cave, use your 'extra action' button whenever its available (not grey) to temporarily weaken him, kill him while he is weak.|
 
 ;pick up quests
-A Farmer Yoon|QID|31672;31942;31673;31941;31670;31669;31674;31675;31943;31671|M|52.19,48.802|N|He will have at least 2 quests for you. Pick up all of them.|PRE|30257|REP|The Tillers;1272;Neutral-Revered|
-A Work Order Post|QID|32642;32645;32647;32649;32653;32658;32942;32944|M|52.3,48.68|N|Now that Yoon is on the council, his 'grow something' quest is replaced by quests that let you earn reputation with other Pandaria factions. You can only do one a day, take whichever you chose (or none). Unlike Yoon's quests, you also have to harvest and turn in the produce, so skip this if you want to keep your farm's production more than you want the other faction's favor.|PRE|32682|REP|The Tillers;1272;Exalted|
-A A Gift For ??|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|PRE|30257|M|52.70,50.47|N|From Andi.|
-A Help the Master Cooks|QID|30328;30329;30330;30331;30332|LVL|90|N|One of the master cooks will want an ingrediant, these quests do not offer Tiller Rep. You can skip them if you don't have a use for Ironpaw tokens, but as its done in the same area, you may as well do it,(except when its fatty goatsteak, that one is attractive to skip if you are on a med-high pop server).**REQUIRES LEVEL 90**|PRE|30257|RANK|2|
-A Farmer Yoon|QID|30333;30334;30335;30336;30337|M|52.92,51.83|N|Farmer Yoon has moved into town and only offers one quest a day now.|PRE|32682|REP|The Tillers;1272;Exalted|;pre quest mismatch per grail is intentional, so wont trigger if you haven't bought the farm from Yoon
+A Farmer Yoon|QID|31672^31942^31673^31941^31670^31669^31674^31675^31943^31671|M|52.19,48.802|N|He will have at least 2 quests for you. Pick up all of them.|PRE|30257|REP|The Tillers;1272;Neutral-Revered|
+A Work Order Post|QID|32642^32645^32647^32649^32653^32658^32942^32944|M|52.3,48.68|N|Now that Yoon is on the council, his 'grow something' quest is replaced by quests that let you earn reputation with other Pandaria factions. You can only do one a day, take whichever you chose (or none). Unlike Yoon's quests, you also have to harvest and turn in the produce, so skip this if you want to keep your farm's production more than you want the other faction's favor.|PRE|32682|REP|The Tillers;1272;Exalted|
+A A Gift For ??|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|PRE|30257|M|52.70,50.47|N|From Andi.|
+A Help the Master Cooks|QID|30328^30329^30330^30331^30332|LVL|90|N|One of the master cooks will want an ingrediant, these quests do not offer Tiller Rep. You can skip them if you don't have a use for Ironpaw tokens, but as its done in the same area, you may as well do it,(except when its fatty goatsteak, that one is attractive to skip if you are on a med-high pop server).**REQUIRES LEVEL 90**|PRE|30257|RANK|2|
+A Farmer Yoon|QID|30333^30334^30335^30336^30337|M|52.92,51.83|N|Farmer Yoon has moved into town and only offers one quest a day now.|PRE|32682|REP|The Tillers;1272;Exalted|;pre quest mismatch per grail is intentional, so wont trigger if you haven't bought the farm from Yoon
 
 ;prepare food
-B Buy or Make 5 Eternal Blossom Fish|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Sho;1278;Stranger-Good Friend|L|74645 5|N|This is for Sho. It requires Jade Lungfish x5 and Striped Melon x25.|LEAD|30408|RANK|3|
-B Buy or Make 5 Charbroiled Tiger Steak|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Haohan Mudclaw;1279;Stranger-Good Friend|L|74642 5|N|This is for Haohan. It requires Raw Tiger Steak x5.|LEAD|30414|RANK|3|
-B Buy or Make 5 Valley Stir Fry|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Chee Chee;1277;Stranger-Good Friend|L|74647 5|N|This is for Chee Chee It requires Reef Octopus x5 and Wildfowl Breast x5.|LEAD|30402|RANK|3|
-B Buy or Make 5 Sauteed Carrots|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Jogu the Drunk;1273;Stranger-Good Friend|L|74643 5|N|This is for Jogu. It requires Juicycrunch Carrot x10.|LEAD|30439|RANK|3|
-B Buy or Make 5 Braised Turtle|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Old Hillpaw;1276;Stranger-Good Friend|L|74649 5|N|This is for Old Hillpaw. It requires Turtle Meat x5 and Juicycrunch Carrot x25.|LEAD|30396|RANK|3|
-B Buy or Make 5 Swirling Mist Soup|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Gina Mudclaw;1281;Stranger-Good Friend|L|74644 5|N|This is for Gina. It requires Jade Lungfish x5.|LEAD|30390|RANK|3|
-B Buy or Make 5 Fire Spirit Salmon|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Tina Mudclaw;1280;Stranger-Good Friend|L|74652 5|N|This is for Tina. It requires Emperor Salmon x5 and Scallions x25.|LEAD|30433|RANK|3|
-B Buy or Make 5 Shrimp Dumplings|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Ella;1275;Stranger-Good Friend|L|74651 5|N|This is for Ella. It requires Giant Mantis Shrimp x5.|LEAD|30386|RANK|3|
-B Buy or Make 5 Twin Fish Platter|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Fish Fellreed;1282;Stranger-Good Friend|L|74655 5|N|This is for Fish. It requires Krasarang Paddlefish x10.|LEAD|30427|RANK|3|
-B Buy or Make 5 Wildfowl Roast|QID|30470;30471;30472;30473;30474;30475;30476;30477;30478;30479|REP|Farmer Fung;1283;Stranger-Good Friend|L|74654 5|N|This is for Farmer Fung. It requires Wildfowl Breast x5.|LEAD|30421|RANK|3|
+B Buy or Make 5 Eternal Blossom Fish|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|REP|Sho;1278;Stranger-Good Friend|L|74645 5|N|This is for Sho. It requires Jade Lungfish x5 and Striped Melon x25.|LEAD|30408|RANK|3|
+B Buy or Make 5 Charbroiled Tiger Steak|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|REP|Haohan Mudclaw;1279;Stranger-Good Friend|L|74642 5|N|This is for Haohan. It requires Raw Tiger Steak x5.|LEAD|30414|RANK|3|
+B Buy or Make 5 Valley Stir Fry|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|REP|Chee Chee;1277;Stranger-Good Friend|L|74647 5|N|This is for Chee Chee It requires Reef Octopus x5 and Wildfowl Breast x5.|LEAD|30402|RANK|3|
+B Buy or Make 5 Sauteed Carrots|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|REP|Jogu the Drunk;1273;Stranger-Good Friend|L|74643 5|N|This is for Jogu. It requires Juicycrunch Carrot x10.|LEAD|30439|RANK|3|
+B Buy or Make 5 Braised Turtle|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|REP|Old Hillpaw;1276;Stranger-Good Friend|L|74649 5|N|This is for Old Hillpaw. It requires Turtle Meat x5 and Juicycrunch Carrot x25.|LEAD|30396|RANK|3|
+B Buy or Make 5 Swirling Mist Soup|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|REP|Gina Mudclaw;1281;Stranger-Good Friend|L|74644 5|N|This is for Gina. It requires Jade Lungfish x5.|LEAD|30390|RANK|3|
+B Buy or Make 5 Fire Spirit Salmon|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|REP|Tina Mudclaw;1280;Stranger-Good Friend|L|74652 5|N|This is for Tina. It requires Emperor Salmon x5 and Scallions x25.|LEAD|30433|RANK|3|
+B Buy or Make 5 Shrimp Dumplings|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|REP|Ella;1275;Stranger-Good Friend|L|74651 5|N|This is for Ella. It requires Giant Mantis Shrimp x5.|LEAD|30386|RANK|3|
+B Buy or Make 5 Twin Fish Platter|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|REP|Fish Fellreed;1282;Stranger-Good Friend|L|74655 5|N|This is for Fish. It requires Krasarang Paddlefish x10.|LEAD|30427|RANK|3|
+B Buy or Make 5 Wildfowl Roast|QID|30470^30471^30472^30473^30474^30475^30476^30477^30478^30479|REP|Farmer Fung;1283;Stranger-Good Friend|L|74654 5|N|This is for Farmer Fung. It requires Wildfowl Breast x5.|LEAD|30421|RANK|3|
 
 ;pick up last 2 quests
-A A Dish for ??|QID|30386;30390;30396;30402;30408;30414;30421;30427;30433;30439|N|Two friends in the market will offer you quests, only one is able to be predicted by this guide. This step will automatically close when you turn in the first food item (if you have no food to turn in at the market, check this off manually). Once you are best friends with someone they don't accept your food or gifts, but will still offer quests.|PRE|30257|RANK|3|
-A Tina Mudclaw|QID|30433;30428;30323|ACTIVE|30470|M|53.0,51.6|N|Turn in food, treasure, accept daily. She prefers a Ruby Shard. Prefer Tina to Haohan for gifts.|PRE|30257|
-A Haohan Mudclaw|QID|30414;30409;30319|ACTIVE|30477|M|53.0,51.6|N|Turn in food, treasure, accept daily. He prefers a Ruby Shard.|PRE|30257|
-A Jogu the Drunk|QID|30439;30435;30321|M|53.59,52.51|REP|Jogu the Drunk;1273;Stranger-Good Friend|N|Turn in food, treasure, accept daily, if offered. He prefers a Lovely Apple.|PRE|30257|RANK|3|
+A A Dish for ??|QID|30386^30390^30396^30402^30408^30414^30421^30427^30433^30439|N|Two friends in the market will offer you quests, only one is able to be predicted by this guide. This step will automatically close when you turn in the first food item (if you have no food to turn in at the market, check this off manually). Once you are best friends with someone they don't accept your food or gifts, but will still offer quests.|PRE|30257|RANK|3|
+A Tina Mudclaw|QID|30433^30428^30323|ACTIVE|30470|M|53.0,51.6|N|Turn in food, treasure, accept daily. She prefers a Ruby Shard. Prefer Tina to Haohan for gifts.|PRE|30257|
+A Haohan Mudclaw|QID|30414^30409^30319|ACTIVE|30477|M|53.0,51.6|N|Turn in food, treasure, accept daily. He prefers a Ruby Shard.|PRE|30257|
+A Jogu the Drunk|QID|30439^30435^30321|M|53.59,52.51|REP|Jogu the Drunk;1273;Stranger-Good Friend|N|Turn in food, treasure, accept daily, if offered. He prefers a Lovely Apple.|PRE|30257|RANK|3|
 A Weed War II|QID|30321|PRE|30257|ACTIVE|30478|M|53.59,52.51|N|From Jogu the Drunk.|
-A Sho|QID|30408;30404;30325|ACTIVE|30472|M|53,52|N|Turn in food, treasure, accept daily. She prefers a Lovely Apple. Prefer Sho to Jogu for gifts.|PRE|30257|
-A Ella|QID|30386;30381;30327|ACTIVE|30474|M|53.05,51.67|N|Turn in food, treasure, accept daily. She prefers a Jade Cat. Prefer Ella to Fish for gits.|PRE|30257|
-A Fish Fellreed|QID|30427;30424;30326|ACTIVE|30473|M|52.77,51.88|N|Turn in food, treasure, accept daily. She prefers a Jade Cat.|PRE|30257|
-A Old Hillpaw|QID|30396;30394;30318|ACTIVE|30476|M|53.0,51.8|N|Turn in food, treasure, accept daily. He prefers a Blue Feather. Prefer Hillpaw to Chee Chee for gifts.|PRE|30257|
-A Chee Chee|QID|30402;30400;30324|ACH|6552;3|ACTIVE|30471|M|53.10,52.01|N|Turn in food, treasure, accept daily. He prefers a Blue Feather.|PRE|30257|
-A Gina Mudclaw|QID|30390;30389;30322|M|53.17,51.86|REP|Gina Mudclaw;1281;Stranger-Good Friend|N|Turn in food, treasure, accept daily if offered. She prefers a Marsh Lily. No preference for gifts to Gina and Fung.|PRE|30257|RANK|3|
+A Sho|QID|30408^30404^30325|ACTIVE|30472|M|53,52|N|Turn in food, treasure, accept daily. She prefers a Lovely Apple. Prefer Sho to Jogu for gifts.|PRE|30257|
+A Ella|QID|30386^30381^30327|ACTIVE|30474|M|53.05,51.67|N|Turn in food, treasure, accept daily. She prefers a Jade Cat. Prefer Ella to Fish for gits.|PRE|30257|
+A Fish Fellreed|QID|30427^30424^30326|ACTIVE|30473|M|52.77,51.88|N|Turn in food, treasure, accept daily. She prefers a Jade Cat.|PRE|30257|
+A Old Hillpaw|QID|30396^30394^30318|ACTIVE|30476|M|53.0,51.8|N|Turn in food, treasure, accept daily. He prefers a Blue Feather. Prefer Hillpaw to Chee Chee for gifts.|PRE|30257|
+A Chee Chee|QID|30402^30400^30324|ACH|6552;3|ACTIVE|30471|M|53.10,52.01|N|Turn in food, treasure, accept daily. He prefers a Blue Feather.|PRE|30257|
+A Gina Mudclaw|QID|30390^30389^30322|M|53.17,51.86|REP|Gina Mudclaw;1281;Stranger-Good Friend|N|Turn in food, treasure, accept daily if offered. She prefers a Marsh Lily. No preference for gifts to Gina and Fung.|PRE|30257|RANK|3|
 A Money Matters|QID|30322|PRE|30257|ACTIVE|30479|M|53.17,51.86|REP|Gina Mudclaw;1281;Best Friend|N|From Gina Mudclaw.|
-A Farmer Fung|QID|30421;30420;30317|ACTIVE|30475|M|52.85,51.71|N|Turn in food, treasure, accept daily. He perfers a Marsh Lily.|PRE|30257|
+A Farmer Fung|QID|30421^30420^30317|ACTIVE|30475|M|52.85,51.71|N|Turn in food, treasure, accept daily. He perfers a Marsh Lily.|PRE|30257|
 
 ;buy seeds for farmer yoon's preferred crop, rep crops, etc
 B Mogu Pumpkin Seeds|ACTIVE|31672|L|80592|M|52.8,52.0|N|Don't forget to buy whatever other seeds you need from Merchant Greenfield while you are here.|
@@ -355,12 +365,12 @@ C Plant 8 Scallions|QID|32645|M|52.03,48.32|U|80591|NC|N|After planting, be sure
 C Plant 8 Carrots|QID|32645|M|52.03,48.32|U|80590|NC|N|After planting, be sure and take care of the pests so they are "growing".The next day you will get a quest to harvest and deliver them, the second quest is the one that rewards the faction.|
 
 ;turn in work orders
-t Work Order: I|QID|32642;32645;32647;32649;32653;33658;32942;32944|M|52.30,48.68|N|Auto-Completes when you plant the lasst seed. If you didn't compleate a Work Order:xxx II today, you will be immediately offered that quest, (but not able to complete it until tomorrow) if you did one, you will be able to pick up the follow-up tomorrow. The faction reward comes from the Work Order II quest.|
-A Work Order II quest|QID|32643;32646;32648;32650;32657;32659;32943;32945|M|51.60,48.67|N|Auto accepted when you turn in work order I (if you didnt do a work order II that day) or when you harvest your first produce for it. If you want to be safe, you can also pick it up from the empty crate.|PRE|32642+32645+32647+32649+32653+32658+32942+32944|
+t Work Order: I|QID|32642^32645^32647^32649^32653^33658^32942^32944|M|52.30,48.68|N|Auto-Completes when you plant the lasst seed. If you didn't compleate a Work Order:xxx II today, you will be immediately offered that quest, (but not able to complete it until tomorrow) if you did one, you will be able to pick up the follow-up tomorrow. The faction reward comes from the Work Order II quest.|
+A Work Order II quest|QID|32643^32646^32648^32650^32657^32659^32943^32945|M|51.60,48.67|N|Auto accepted when you turn in work order I (if you didnt do a work order II that day) or when you harvest your first produce for it. If you want to be safe, you can also pick it up from the empty crate.|PRE|32642^32645^32647^32649^32653^32658^32942^32944|
 
-C Work Order II|QID|32643;32646;32648;32650;32657;32659;32943;32945|M|52.03,48.32|QO|1|N|Harvest the produce. Check off manually if produce not yet grown.|
-C Work Order II|QID|32643;32646;32648;32650;32657;32659;32943;32945|M|51.60,48.67|QO|2|NC|N|Put the requested produce in the empty crate. Check off manually if not yet harvested.|
-t Work Order II|QID|32643;32646;32648;32650;32657;32659;32943;32945|M|51.60,48.67|N|To 'empty crate' in the wagon by your mailbox at the edge of your farm.|
+C Work Order II|QID|32643^32646^32648^32650^32657^32659^32943^32945|M|52.03,48.32|QO|1|N|Harvest the produce. Check off manually if produce not yet grown.|
+C Work Order II|QID|32643^32646^32648^32650^32657^32659^32943^32945|M|51.60,48.67|QO|2|NC|N|Put the requested produce in the empty crate. Check off manually if not yet harvested.|
+t Work Order II|QID|32643^32646^32648^32650^32657^32659^32943^32945|M|51.60,48.67|N|To 'empty crate' in the wagon by your mailbox at the edge of your farm.|
 
 ;do quests - other areas integrated with deliver food
 l Apples|QID|30478|L|80234|M|52.64,47.81|NC|N|Pick up the apples from inside Yoon's house.|ACTIVE|30478|
@@ -546,10 +556,10 @@ U Grand Commendation|PRE|30516|REP|The Tillers;1272;revered;nobonus|U|93226|N|Cl
 
 ;REMOVE THE CART - 0 Revered
 A Growing the Farm II: The Broken Wagon|QID|30523|REP|The Tillers;1272;revered|M|52.20,48.86|N|From Farmer Yoon.|
-T Growing the Farm II: The Broken Wagon|QID|30523|M|41.6,30|N|To Fish Fellreed.|
-A Growing the Farm II: Knock on Wood|QID|30524|PRE|30523|M|41.6,30|N|From Fish Fellreed.|
+T Growing the Farm II: The Broken Wagon|QID|30523|M|41.6,30|N|To Fish Fellreed. If she is not here, she is at the market in Halfhill.|
+A Growing the Farm II: Knock on Wood|QID|30524|PRE|30523|M|41.6,30|N|From Fish Fellreed. If she is not here, she is at the market in Halfhill.|
 C Growing the Farm II: Knock on Wood|QID|30524|M|43,29|N|The planks of wood are in the water surrounded by agro crabs. Be careful.|
-T Growing the Farm II: Knock on Wood|QID|30524|M|41.6,30|N|To Fish Fellreed.|
+T Growing the Farm II: Knock on Wood|QID|30524|M|41.6,30|N|To Fish Fellreed. If she is not here, she is at the market in Halfhill.|
 N Growing the Farm II|AVAILABLE|30533|M|51.71,47.82|N|Check in with Fish at the farm to start a 15 minute timer (buff) for her to finish fixing the wagon, and then you can farm your new plots. After you check in, (i.e. enter phased area of Sunsong Ranch) you can leave the ranch, but new plots are not usuable till the buff counts down.|BUFF|114483|
 
 ;REMOVE THE ROCK - 0 Exalted

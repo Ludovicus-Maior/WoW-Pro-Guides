@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_thousand_needles_alliance
+-- Date: 2018-10-17 02:24
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3253/revisions/29042/view
 -- Date: 2018-02-20 01:08
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -152,7 +157,7 @@ T To New Thalanaar |QID|25481|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
 A The Grimtotem are Coming|QID|25486|Z|Feralas|N|From Caryssia Moonhunter.|
 C The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|Progessing East, Kill Grimtotems.|
 T The Grimtotem are Coming|QID|25486|M|88.45,44.46|Z|Feralas|N|To Rendow.|
-A Two If By Boat|QID|25488|PRE|25486|M|88.53,44.27|Z|Feralas|N|From Rendow.  Only accept quest when you are ready to go to Fizzle & Pozznik's Speedbarge in Thousand Needles, as on accepting the quest you will automatically sail there.|
+A Two If By Boat|QID|25488|PRE|25486|M|88.53,44.27|Z|Feralas|N|From Rendow.  Only accept quest when you are ready to go to Fizzle&Pozznik's Speedbarge in Thousand Needles, as on accepting the quest you will automatically sail there.|
 T Two If By Boat|QID|25488|M|75.93,74.59|N|To Fizzle Brassbolts (at the top).|
 A Do Me a Favor?|QID|25504|PRE|25488|M|75.93,74.59|N|From Fizzle Brassbolts.|
 T Do Me a Favor?|QID|25504|M|76.46,73.66|N|To Jinky Twizzlefixxit.|
@@ -170,24 +175,24 @@ C In the Outhouse|QID|25524|U|54821|M|79.61,75.03|N|Use the Pirate's Crowbar on 
 T In the Outhouse|QID|25524|M|79.58,75.09|N|To Submerged Outhouse.|
 C Down in the Deeps|QID|25515|US|M|80.61,76.83|N|Collect Rocket Car Parts from the ground.|
 
-f Fizzle & Pozzik's Speedbarge|QID|25524|M|79.16,71.95|N|At Tilly Topspin, back onto the Speedbarge.|
+f Fizzle&Pozzik's Speedbarge|QID|25524|M|79.16,71.95|N|At Tilly Topspin, back onto the Speedbarge.|
 T Down in the Deeps|QID|25515|M|76.50,73.64|N|To Jinky Twizzlefixxit.|
-A Pirate Accuracy Increasing|QID|25532|PRE|25515;25517;25524|M|76.50,73.64|N|From Jinky Twizzlefixxit.|
+A Pirate Accuracy Increasing|QID|25532|PRE|25515&25517&25524|M|76.50,73.64|N|From Jinky Twizzlefixxit.|
 N Pirate Accuracy Increasing|QID|25532|M|78.89,75.71|QO|1|N|Speak to Mazzar on the south pontoon and tell him to get you into your boat.|; Get a boat from Mazzer: 1/1
 C Pirate Accuracy Increasing|QID|25532|M|77.52,77.92|N|Use the Frost Cannon (#1 on your action bar) to extinguish the fires|
 T Pirate Accuracy Increasing|QID|25532|M|80.07,75.24|N|(UI Alert)|
 A Circle the Wagons... er, Boats|QID|25542|PRE|25532|M|80.12,75.15|N|(UI Alert)|
 C Circle the Wagons... er, Boats|QID|25542|M|73.91,74.03|N|Use the Fire Cannon (#1 on your action bar) to sink the row-boats.|
 T Circle the Wagons... er, Boats|QID|25542|M|76.52,73.66|N|Click the Leave Vehicle button on your HUD to fly and parachute back onto the Speedbarge, then back to Jinky Twizzlefixxit.|
-A Quiet the Cannons|QID|25585|PRE|25542+25561|M|76.52,73.66|N|From Jinky Twizzlefixxit.|
-A Negotiations|QID|25744|PRE|25542+25561|M|75.96,74.60|N|From Fizzle Brassbolts.|
-A Where's Wizzle?|QID|25590|PRE|25542+25561|M|77.97,73.31|N|From Rizzle Brassbolts.|
-A A Little Payback|QID|25588|PRE|25542+25561|M|78.04,73.13|N|From Drag Master Miglen.|
-A Special Delivery for Brivelthwerp|QID|28031|PRE|25542+25561|M|78.12,73.12|N|From Mazzer Stripscrew.|
+A Quiet the Cannons|QID|25585|PRE|25542^25561|M|76.52,73.66|N|From Jinky Twizzlefixxit.|
+A Negotiations|QID|25744|PRE|25542^25561|M|75.96,74.60|N|From Fizzle Brassbolts.|
+A Where's Wizzle?|QID|25590|PRE|25542^25561|M|77.97,73.31|N|From Rizzle Brassbolts.|
+A A Little Payback|QID|25588|PRE|25542^25561|M|78.04,73.13|N|From Drag Master Miglen.|
+A Special Delivery for Brivelthwerp|QID|28031|PRE|25542^25561|M|78.12,73.12|N|From Mazzer Stripscrew.|
 T Negotiations|QID|25744|M|91.33,57.74|N|To Crazzle Sprysprocket.|
 
 A Get Zherin!|QID|25756|PRE|25744|M|91.33,57.74|N|From Crazzle Sprysprocket.|
-A The Ancient Brazier|QID|25762|PRE|25744+25745|M|90.11,53.10|N|From Skycaller Vrakthris.|
+A The Ancient Brazier|QID|25762|PRE|25744^25745|M|90.11,53.10|N|From Skycaller Vrakthris.|
 C Get Zherin!|QID|25756|M|91.15,53.76|N|Get Trackmaster Zherin down to 1hp, then steal the proposal once he is stunned.|
 T Get Zherin!|QID|25756|M|91.41,57.72|N|To Crazzle Sprysprocket.|
 A Fool's Gold|QID|25774|PRE|25756|M|91.41,57.72|N|From Crazzle Sprysprocket.|
@@ -205,7 +210,7 @@ N Two-Tusk Takedown|QID|25627|U|55158|N|Once in the cave head left. Following th
 C A Little Payback|QID|25588|M|91.61,78.01|N|Finish killing the Southsea pirates.|
 C Two-Tusk Takedown|QID|25627|M|95.17,79.56|N|After a certain point, Tony will jump into the chests. The chests all spin around and he emerges in a different one, with other mobs spawning in other chests. Just attack him, once he is dead, loot him for the key.|
 T Two-Tusk Takedown|QID|25627|U|55158|M|91.67,78.67|N|To Wizzle Brassbolts.|
-A Haunted|QID|25660|PRE|25627+25628|M|91.67,78.67|N|From Spirit of Tony Two-Tusk.|
+A Haunted|QID|25660|PRE|25627^25628|M|91.67,78.67|N|From Spirit of Tony Two-Tusk.|
 T Haunted|QID|25660|M|96.81,72.41|N|To Ajamon Ghostcaller.|
 A With a Little Help...|QID|25661|PRE|25660|M|96.81,72.41|N|From Ajamon Ghostcaller.|
 C With a Little Help...|QID|25661|L|55196|M|91.03,68.93|N|Kill "Evil Dolly" and loot her heart, in the Captain's Room (bottom of ship) on the most northern boat.|
@@ -222,7 +227,7 @@ C Fool's Gold|QID|25774|S|M|48.05,42.85|N|Very, very big gold ore nodes. Head in
 C The Ancient Brazier|QID|25762|U|55986|M|43.93,37.52|N|This quest is tricky. This is actually in an UNDERWATER cave. Once you enter the cave follow the left path all the way around until you find the brazier. (The co-ords point to the cave mouth).|
 C Fool's Gold|QID|25774|US|M|48.05,42.85|N|Very, very big gold ore nodes. Head into the cave and collect 8 (under water).|
 
-H Fizzle & Pozzik's Speedbarge|QID|25774|N|Hearth. Do not turn in the quests on the steam barge yet.|
+H Fizzle&Pozzik's Speedbarge|QID|25774|N|Hearth. Do not turn in the quests on the steam barge yet.|
 T Fool's Gold|QID|25774|M|91.38,57.70|N|To Crazzle Sprysprocket.|
 A Fake Gold for Black Gold|QID|25778|PRE|25774|M|91.36,57.65|N|From Crazzle Sprysprocket.|
 T The Ancient Brazier|QID|25762|M|90.09,52.97|N|To Skycaller Vrakthris.|
@@ -237,21 +242,21 @@ C Eminent Domain|QID|25796|M|88.65,49.78|N|Finish killing Splithoof centaurs.|US
 T Eminent Domain|QID|25796|M|91.35,57.70|N|To Crazzle Sprysprocket.|
 T Defend the Drill|QID|25798|M|91.35,57.70|N|To Crazzle Sprysprocket.|
 
-A Go Blow that Horn|QID|25813|PRE|25796;25798|M|91.35,57.70|N|From Crazzle Sprysprocket.|
+A Go Blow that Horn|QID|25813|PRE|25796&25798|M|91.35,57.70|N|From Crazzle Sprysprocket.|
 C Go Blow that Horn|QID|25813|M|89.42,47.00|N|Blow the horn, and then slay Whrrrl when it appears|
 T Go Blow that Horn|QID|25813|M|91.36,57.77|N|To Crazzle Sprysprocket.|
 A Deliver the Goods|QID|25825|PRE|25813|M|91.36,57.77|N|From Crazzle Sprysprocket.|
 T Special Delivery for Brivelthwerp|QID|28031|M|69.91,85.18|N|To Brivelthwerp.|
-A The Greatest Flavor in the World!|QID|28045|PRE|28031+28042|M|69.91,85.18|N|From Brivelthwerp.|
-A We All Scream for Ice Cream... and then Die!|QID|28051|PRE|28031+28042|M|69.91,85.18|N|From Brivelthwerp.|
+A The Greatest Flavor in the World!|QID|28045|PRE|28031^28042|M|69.91,85.18|N|From Brivelthwerp.|
+A We All Scream for Ice Cream... and then Die!|QID|28051|PRE|28031^28042|M|69.91,85.18|N|From Brivelthwerp.|
 C We All Scream for Ice Cream... and then Die!|QID|28051|S|M|68.53,86.35|N|Right-click on dead gnomes to attach them to the tug' tow hook.|
 C The Greatest Flavor in the World!|QID|28045|M|70.60,82.29|N|Kill and loot any type of Slilthid.|
 C We All Scream for Ice Cream... and then Die!|QID|28051|US|M|68.53,86.35|N|Right-click on dead gnomes to attach them to the tug' tow hook.|
 T The Greatest Flavor in the World!|QID|28045|M|69.89,85.11|N|To Brivelthwerp.|
 T We All Scream for Ice Cream... and then Die!|QID|28051|M|69.89,85.11|N|To Brivelthwerp.|
 
-A Freezing the Pipes|QID|28047|PRE|28045;28051|M|69.89,85.11|N|From Brivelthwerp.|
-A That Smart One's Gotta Go|QID|28048|PRE|28045;28051|M|69.89,85.11|N|From Brivelthwerp.|
+A Freezing the Pipes|QID|28047|PRE|28045&28051|M|69.89,85.11|N|From Brivelthwerp.|
+A That Smart One's Gotta Go|QID|28048|PRE|28045&28051|M|69.89,85.11|N|From Brivelthwerp.|
 C Freezing the Pipes|QID|28047|NC|U|62912|QO|1|M|65.95,86.41|N|Go to the bug tunnel under water to the east. First Pipe is here.|; First pipe frozen: 1/1
 C Freezing the Pipes|QID|28047|NC|U|62912|QO|2|M|65.28,86.93|N|Second Pipe is here.|; Second pipe frozen: 1/1
 C Freezing the Pipes|QID|28047|NC|U|62912|QO|3|M|64.94,84.52|N|Third Pipe is here.|; Third pipe frozen: 1/1
@@ -260,9 +265,9 @@ C That Smart One's Gotta Go|QID|28048|M|64.57,85.73|N|Kill the Hive Controller.|
 T Freezing the Pipes|QID|28047|M|69.90,85.19|N|To Brivelthwerp.|
 T That Smart One's Gotta Go|QID|28048|M|69.90,85.19|N|To Brivelthwerp.|
 
-H Fizzle & Pozzik's Speedbarge|QID|25825|N|If it is down, just sail back.|U|55121|
+H Fizzle&Pozzik's Speedbarge|QID|25825|N|If it is down, just sail back.|U|55121|
 T Deliver the Goods|QID|25825|M|75.97,74.65|N|To Fizzle Brassbolts.|
-A Free Freewind Post|QID|25835|PRE|25704;25825|M|75.97,74.65|N|From Fizzle Brassbolts.|
+A Free Freewind Post|QID|25835|PRE|25704&25825|M|75.97,74.65|N|From Fizzle Brassbolts.|
 T Quiet the Cannons|QID|25585|M|76.48,73.67|N|To Jinky Twizzlefixxit.|
 T A Little Payback|QID|25588|M|78.11,73.18|N|To Drag Master Miglen.|
 T Free Freewind Post|QID|25835|M|46.35,57.88|N|To Quentin.|U|55121|
@@ -306,7 +311,7 @@ C The Drums of War|QID|27325|M|33.97,37.41|N|Click on the Drums of War to loot t
 T The Drums of War|QID|27325|M|33.97,37.41|N|To Feralas Sentinel.|
 C Grimtotem Chiefs: The Chief of Chiefs|QID|27327|M|38.51,27.55|N|Kill Arnak Grimtotem.|
 T Grimtotem Chiefs: The Chief of Chiefs|QID|27327|M|38.51,27.55|N|To Feralas Sentinel.|
-A The Captive Bride|QID|27357|PRE|27327;27325;27320|M|38.86,28.44|N|From Feralas Sentinel.|
+A The Captive Bride|QID|27357|PRE|27327&27325&27320|M|38.86,28.44|N|From Feralas Sentinel.|
 C No Weapons For You!|US|QID|27310|M|33.74,39.23|N|Finish burning Weapon Racks.|
 C Darkcloud Grimtotem|US|QID|27312|M|36.16,39.58|N|Finish killing Grimtotem.|
 T No Weapons For You!|QID|27310|M|34.10,39.07|N|To Feralas Sentinel.|
@@ -316,7 +321,7 @@ T The Captive Bride|QID|27357|M|39.15,25.84|N|To Lakota Windsong.|
 A Invoking the Serpent|QID|27329|PRE|27357|M|39.15,25.84|N|From Lakota Windsong.|
 C Invoking the Serpent|QID|27329|U|61043|M|38.07,35.40|N|Head to Arikara's Needle, then use Shu'halo Artifacts to call the wind serpent.  Kill any Grimtotem Spirit's that appear, whilst they are out, Arikara becomes immune.|
 T Invoking the Serpent|QID|27329|M|39.13,25.84|N|To Lakota Windsong.|
-A Trouble at Highperch|QID|28085|PRE|27329+27330|M|12.81,33.97|N|From Lakota Windsong.|
+A Trouble at Highperch|QID|28085|PRE|27329^27330|M|12.81,33.97|N|From Lakota Windsong.|
 T Trouble at Highperch|QID|28085|M|12.84,34.02|N|To Pao'ka Swiftmountain.|U|55121|
 A Free the Pridelings|QID|28086|PRE|28085|M|12.84,34.02|N|From Pao'ka Swiftmountain.|
 A Death to all Trappers!|QID|28087|PRE|28085|M|12.84,34.02|N|From Pao'ka Swiftmountain.|
@@ -326,7 +331,7 @@ C Free the Pridelings|US|QID|28086|M|12.62,34.97|N|Free the pridelings.|
 T Free the Pridelings|QID|28086|M|12.83,34.05|N|To Pao'ka Swiftmountain.|
 T Death to all Trappers!|QID|28087|M|12.83,34.05|N|To Pao'ka Swiftmountain.|
 
-A Release Heartrazor|QID|28088|PRE|28086;28087|M|12.83,34.05|N|From Pao'ka Swiftmountain.|
+A Release Heartrazor|QID|28088|PRE|28086&28087|M|12.83,34.05|N|From Pao'ka Swiftmountain.|
 C Release Heartrazor|QID|28088|M|17.65,41.08;13.17,39.29|CC|N|Head up the narrow path. Kill the 4 subduers surrounding Heartrazor.|
 T Release Heartrazor|QID|28088|M|12.87,33.97|N|To Pao'ka Swiftmountain.|
 A The Twilight Skymaster|QID|28098|PRE|28088|M|12.87,33.97|N|From Pao'ka Swiftmountain.|
@@ -343,8 +348,8 @@ C Break Them Out|QID|28127|M|27.19,57.68|N|Kill guards by cages, no key looting 
 C Something to Wear|QID|28125|US|M|26.50,57.75|N|Kill and loot Twilight Bulwark mobs.|
 T Something to Wear|QID|28125|M|30.45,49.31|N|To Lakota Windsong.|
 T Break Them Out|QID|28127|M|30.45,49.31|N|To Lakota Windsong.|
-A Behind You!|QID|28136|PRE|28125;28127|M|30.45,49.31|N|From Lakota Windsong.|
-A Codemaster's Code|QID|28139|PRE|28125;28127|M|30.45,49.31|N|From Lakota Windsong.|
+A Behind You!|QID|28136|PRE|28125&28127|M|30.45,49.31|N|From Lakota Windsong.|
+A Codemaster's Code|QID|28139|PRE|28125&28127|M|30.45,49.31|N|From Lakota Windsong.|
 K Fastfuse|QID|28136|U|63071|QO|2|M|30.13,54.17|N|Wear the Bulwark Disguise, then head up the tower at this location to assassinate Commander Fastfuse.|; Commander Fastfuse assassinated: 1/1
 K Elementalist Starion|QID|28136|U|63071|QO|3|M|28.02,57.11|N|Run over here and do the deed.|; Elementalist Starion assassinated: 1/1
 C Behind You!|QID|28136|U|63071|M|31.22,59.61|N|Assassinate Codemaster Deethuk.|
@@ -352,7 +357,7 @@ C Codemaster's Code|QID|28139|M|31.14,59.76|N|Loot the big circle artifact.|
 T Codemaster's Code|QID|28139|M|30.47,49.33|N|To Lakota Windsong.|
 T Behind You!|QID|28136|M|30.47,49.33|N|To Lakota Windsong.|
 
-A The Elder Crone|QID|28140|PRE|28136;28139|M|30.47,49.33|N|From Lakota Windsong.|
+A The Elder Crone|QID|28140|PRE|28136&28139|M|30.47,49.33|N|From Lakota Windsong.|
 C The Elder Crone|QID|28140|U|63071|M|35.88,60.64|N|Click on Magatha's Bonds Contoller to disable it.|
 T The Elder Crone|QID|28140|M|35.88,60.64|N|(UI ALert)  Note: You will lose your disguise on turning this quest in.|
 A To the Withering|QID|28142|PRE|28140|M|35.88,60.64|N|(UI Alert)|
@@ -368,11 +373,11 @@ C Four Twilight Elements|QID|28157|M|60.44,64.39|N|Finally get the Fire here.|
 T Four Twilight Elements|QID|28157|M|50.08,62.63|N|To Magatha Grimtotem.|
 T Unbound|QID|28158|M|50.08,62.63|N|To Magatha Grimtotem.|
 
-A The Doomstone|QID|28159|PRE|28157;28158|M|50.08,62.63|N|From Magatha Grimtotem.|
+A The Doomstone|QID|28159|PRE|28157&28158|M|50.08,62.63|N|From Magatha Grimtotem.|
 C The Doomstone|QID|28159|U|63104|M|54.51,62.92|N|Kill Animus.  Beware, he likes to throw people around. Don't get too carried away... epic music can make for an epic death.|
 T The Doomstone|QID|28159|M|50.11,62.62|N|To Magatha Grimtotem.|
 A Spread the Word|QID|28160|PRE|28159|M|50.11,62.62|N|From Magatha Grimtotem.|
-H Fizzle & Pozzik's Speedbarge|QID|28160|N|Hearth to the barge.|
+H Fizzle&Pozzik's Speedbarge|QID|28160|N|Hearth to the barge.|
 T Spread the Word|QID|28160|M|75.92,74.57|N|To Fizzle Brassbolts.|
 A Tanaris is Calling|QID|27446|LEAD|25048|M|75.92,74.57|N|From Fizzle Brassbolts.|
 

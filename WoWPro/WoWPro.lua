@@ -36,7 +36,7 @@ function WoWPro:Add2Log(level,msg)
         DEFAULT_CHAT_FRAME:AddMessage( msg )
     end
 	WoWPro.Serial = WoWPro.Serial + 1
-	if WoWPro.Serial > 9999 then
+	if WoWPro.Serial > 2500 then
 	    WoWPro.Serial = 1
 	end
 	if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
@@ -251,10 +251,16 @@ function WoWPro:LogDump(callback)
 end
 
 function WoWPro:LogClear(where)
-    WoWProDB.global.Log = {}
+    if WoWProDB and WoWProDB.global then
+        WoWProDB.global.Log = {}
+    end
     WoWPro.Serial = 999999999
     WoWPro:Print("Log Reset from %s, WoWPro Version %s.", where, WoWPro.Version)
+    WoWPro:print("Unit: %s, Realm: %s, Class: %s, Race: %s, Faction: %s", UnitName("player"), GetRealmName(), UnitClass("player"), UnitRace("player"), UnitFactionGroup("player"))
 end
+
+WoWPro:LogClear("Addon Load")
+
 
 function WoWPro:LogShow()
     WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Debug Log","Hit escape to dismiss")
@@ -305,7 +311,7 @@ local defaults = { profile = {
 	autoload = true,
 	guidescroll = false,
 	checksound = true,
-	checksoundfile = [[Sound\Interface\MapPing.wav]],
+	checksoundfile = 567416, -- MapPing
 	rank = 2,
 	resize = false,
 	autoresize = true,
@@ -359,9 +365,14 @@ function WoWPro:OnInitialize()
 	WoWProDB.global.NpcFauxQuests = WoWProDB.global.NpcFauxQuests or {}
 	WoWProDB.global.QuestEngineDelay = WoWProDB.global.QuestEngineDelay or 0.25
 
-	if WoWProCharDB.EnableGrail == nil then
-	    WoWProCharDB.EnableGrail = true
-	end
+	WoWProCharDB.EnableGrail = nil
+    WoWProCharDB.EnableGrailQuestline = WoWProCharDB.EnableGrailQuestline or true
+    WoWProCharDB.EnableGrailCheckPrereq = WoWProCharDB.EnableGrailCheckPrereq or false
+    WoWProCharDB.EnableGrailBreadcrumbs = WoWProCharDB.EnableGrailBreadcrumbs or false
+    WoWProCharDB.EnableGrailQuestName = WoWProCharDB.EnableGrailQuestName or false
+    WoWProCharDB.EnableGrailQuestLevel = WoWProCharDB.EnableGrailQuestLevel or false
+    WoWProCharDB.EnableGrailQuestObsolete = WoWProCharDB.EnableGrailQuestObsolete or true
+
 	WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
 	WoWProCharDB.GuideStack  = WoWProCharDB.GuideStack or {}
 	WoWProCharDB.GuideVersion = WoWProCharDB.GuideVersion or {}
@@ -381,6 +392,9 @@ function WoWPro:OnInitialize()
 	if WoWProCharDB.AutoHideInsideInstances == nil then
 	    WoWProCharDB.AutoHideInsideInstances = true
 	end
+	if WoWProCharDB.AutoHideInCombat == nil then
+	    WoWProCharDB.AutoHideInCombat = false
+	end
 	if WoWProCharDB.EnablePetBattles == nil then
 	    WoWProCharDB.EnablePetBattles = true
 	end
@@ -390,13 +404,18 @@ function WoWPro:OnInitialize()
 	if WoWProCharDB.EnableTreasures == nil then
 	    WoWProCharDB.EnableTreasures = true
 	end
+	if WoWProCharDB.EnableFlight == nil then
+	    WoWProCharDB.EnableFlight = true
+	end
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
     WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
     WoWPro.GossipText = nil
     WoWPro.GuideLoaded = false
-    WoWPro.EnableGrail = WoWProCharDB.EnableGrail or True
     WoWProDB.profile.Selector = WoWProDB.profile.Selector or {}
     WoWProDB.profile.Selector.QuestHard = WoWProDB.profile.Selector.QuestHard or 0
+    if type(WoWProDB.profile.checksoundfile) == "string" then
+        WoWProDB.profile.checksoundfile = 567416 -- MapPing
+    end
     WoWPro.inhibit_oldQuests_update = false
 end
 
@@ -456,7 +475,9 @@ function WoWPro:OnEnable()
 	WoWPro:dbp("Registering Events: Core Addon")
 	WoWPro:RegisterEvents(nil)
 	WoWPro:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
-	WoWPro:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
+	if not WoWPro.CLASSIC then
+	    WoWPro:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
+	end
 	WoWPro:RegisterBucketEvent({"LOOT_CLOSED"}, 0.250, WoWPro.AutoCompleteChest)
 	WoWPro:RegisterBucketEvent({"TRADE_SKILL_LIST_UPDATE"}, 0.250, WoWPro.ScanTrade)
 	WoWPro:RegisterBucketMessage("WoWPro_LoadGuide",0.25,WoWPro.LoadGuideReal)
@@ -635,7 +656,7 @@ function WoWPro:Timeless()
 end
 
 
-function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction)
+function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, release)
     if not WoWPro[gtype] then
         WoWPro:Error("WoWPro:RegisterGuide(%s,%s,...) has bad gtype",GIDvalue,tostring(gtype))
     end
@@ -648,14 +669,22 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction)
 		GID = GIDvalue
 	}
 
+    if 'Dailies' == gtype then
+        WoWPro:NoCache(guide)
+    end
 
-	if faction and faction ~= UnitFactionGroup("player") and faction ~= "Neutral" then
-	    -- If the guide is not of the correct side, don't register it
-	    return guide
-	end
+    if faction and faction ~= UnitFactionGroup("player") and faction ~= "Neutral" then
+        -- If the guide is not of the correct side, don't register it
+        return guide
+    end
 
-	WoWPro.Guides[GIDvalue] = guide
-	return guide
+    if (release == 1 and (not WoWPro.CLASSIC)) or (WoWPro.CLASSIC and ( release ~= 1)) then
+        -- Classic (i.e. release 1) guide selection
+        return guide
+    end
+
+    WoWPro.Guides[GIDvalue] = guide
+    return guide
 end
 
 function WoWPro:UnRegisterGuide(guide,why)
@@ -795,6 +824,9 @@ function WoWPro:GuideNextGuide(guide,nextGID)
 end
 
 function WoWPro:GuideQuestTriggers(guide, ...)
+    if WoWPro.DebugClasses then
+        return -- Allow developers to check everything, if they want
+    end
     -- Only do if guide is registered!
     if WoWPro.Guides[guide.GID] then
         WoWPro.ClearQID2Guide(guide.GID)
@@ -836,6 +868,10 @@ end
 function WoWPro.GuideAutoSwitchReset()
     WoWProCharDB.GuideVersion = {}
     WoWProCharDB.QID2Guide ={}
+end
+
+function WoWPro:NoCache(guide)
+    guide['nocache'] = true
 end
 
 function WoWPro:GuideSteps(guide,steps)
@@ -1033,7 +1069,7 @@ function WoWPro:ResolveIcon(guide)
     if guide['icon'] then
         return
     end
-    if guide['ach'] then
+    if guide['ach'] and not WoWPro.CLASSIC then
         local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(guide.ach)
         guide.icon = icon
         return
@@ -1043,7 +1079,7 @@ function WoWPro:ResolveIcon(guide)
         guide.icon = icon
         return
     end
-    if guide['mount'] then
+    if guide['mount'] and not WoWPro.CLASSIC then
         local mountIDs = C_MountJournal.GetMountIDs()
         for i, mountID in ipairs(mountIDs) do
             local creatureName, spellID, icon, active, isUsable, sourceType = C_MountJournal.GetMountInfoByID(mountID)
@@ -1206,14 +1242,28 @@ end
 
 --- Release Function Compatability Section
 local wversion, wbuild, wdata, winterface = GetBuildInfo()
+WoWPro.CLASSIC = (winterface < 20000 and winterface > 11300)
 WoWPro.MOP = (winterface >= 50000)
 WoWPro.WOD = (winterface >= 60000)
 WoWPro.WOL = (winterface >= 70000)
 WoWPro.NewLevels = (wversion == "7.3.5" or (winterface > 70300))
 
-if WoWPro.MOP then
+if WoWPro.MOP or WoWPro.CLASSIC then
     WoWPro.GetNumPartyMembers = GetNumGroupMembers
 else
     WoWPro.GetNumPartyMembers = GetNumPartyMembers
 end
 
+
+-- TourGuide for CLASSIC
+TourGuide = TourGuide or {}
+
+if not TourGuide['RegisterGuide'] then
+    function TourGuide:RegisterGuide(GIDvalue, zonename, authorname, lowerLevel, upperLevel, nextGID, faction, steps)
+        guide = WoWPro:RegisterGuide(GIDvalue, "Leveling", zonename, authorname, faction, 1)
+        WoWPro:GuideLevels(guide, tonumber(lowerLevel), tonumber(upperLevel))
+        WoWPro:GuideNextGuide(guide, nextGID)
+        WoWPro:GuideName(guide, zonename)
+        WoWPro:GuideSteps(guide, steps)
+    end
+end

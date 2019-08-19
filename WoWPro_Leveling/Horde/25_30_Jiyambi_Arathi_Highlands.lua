@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
+-- Date: 2018-10-17 02:26
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3230/revisions/29200/view
 -- Date: 2018-02-27 17:42
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -91,7 +96,7 @@ WoWPro:GuideIcon(guide,"ACH",4896)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Galen's Fall|M|13.23,34.86|QID|28619;28572|N|Get Warchief's Command: Arathi Highlands! from the command board in Tarren's Mill (Hillsbrad Foothills), Undercity or Silvermoon City, then make your way to Galen's Fall which is on the border of Hillsbrad Foothills and Arathi Highlands.|
+R Galen's Fall|M|13.23,34.86|QID|28619^28572|N|Get Warchief's Command: Arathi Highlands! from the command board in Tarren's Mill (Hillsbrad Foothills), Undercity or Silvermoon City, then make your way to Galen's Fall which is on the border of Hillsbrad Foothills and Arathi Highlands.|
 T Warchief's Command: Arathi Highlands!|QID|28619|M|13.34,35.80|N|To Dark Ranger Alina.|ACTIVE|28619|
 T Warchief's Command: Arathi Highlands!|QID|28572|M|13.34,35.80|N|To Dark Ranger Alina.|ACTIVE|28572|
 
@@ -125,7 +130,7 @@ T Sigil of Strom|QID|26030|M|13.04,36.10|N|To Galen Trollbane, back at Galen's F
 A Sigil of Thoradin|QID|26031|PRE|26030|M|13.04,36.10|N|From Galen Trollbane.|
 T Call to Arms|QID|26027|M|13.27,35.92|N|To Dark Ranger Alina.|
 T The Traitor Orc|QID|26025|M|13.27,35.92|N|To Dark Ranger Alina.|
-A The Real Threat|QID|26029|PRE|26025;26027|M|13.39,34.29|N|From Deathstalker Maudria.|
+A The Real Threat|QID|26029|PRE|26025&26027|M|13.39,34.29|N|From Deathstalker Maudria.|
 
 C Sigil of Thoradin|QID|26031|M|16.59,60.88|N|Head back to Stromgarde. Turn  right to the western portion of the keep, kill and loot humans.|
 C The Real Threat|QID|26029|N|Kill and loot Or'Kalar, in the ogre section of Stromgarde.|M|17.75,62.70;17.40,67.90;14.69,67.44|CC|

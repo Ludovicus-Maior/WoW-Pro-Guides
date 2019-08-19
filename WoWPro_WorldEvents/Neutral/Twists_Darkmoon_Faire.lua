@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2019-08-01 22:05
+-- Who: Ludovicus_Maior
+-- Log: BUFF update
+
+-- URL: http://wow-pro.com/node/3459/revisions/30152/view
+-- Date: 2018-12-03 23:09
+-- Who: Ludovicus_Maior
+-- Log: Clean up Achievs and make skipping [Sayge's Dark Fortunes] and [Taking the Show on the Road] possible.
+
+-- URL: http://wow-pro.com/node/3459/revisions/30090/view
+-- Date: 2018-10-24 19:24
+-- Who: Ludovicus_Maior
+-- Log: Fix some bad ACH tags
+
+-- URL: http://wow-pro.com/node/3459/revisions/28837/view
 -- Date: 2018-01-15 19:07
 -- Who: Ludovicus
 -- Log: Update Cannon-Blast for new falling dynamics.
@@ -185,6 +200,8 @@ WoWPro:GuideLevels(guide)
 WoWPro.WorldEvents:GuideHoliday(guide,"Darkmoon Faire")
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_MISC_Cape_DarkmoonFaire_C_01")
 WoWPro:GuidePetBattle(guide)
+WoWPro:NoCache(guide)
+WoWPro:GuideQuestTriggers(guide, 7905, 7926, 29443, 29444, 29445, 29446, 29451, 29464, 29456, 29457, 29458)
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -242,12 +259,13 @@ C Banners, Banners Everywhere!|QID|29520|M|50.99,86.23|U|72049|NC|N|Look for a s
 T Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|To Selina Dourman.|
 
 A It's Hammer Time|QID|29463|M|53.35,54.73|N|From Mola.|RANK|2|
-C It's Hammer Time|QID|29463|NC|N|Talk to Mola again picking Ready to whack! Go in and wack. Avoid dolls and hitting Hoggar (big brown) grants 3 points.|RANK|2|
+N That's Whack!|ACTIVE|29463|ACH|9983|N|Score 45 points in one session of Whack-a-Gnoll.|S|ITEM|123862|
+C It's Hammer Time|QID|29463|NC|N|Talk to Mola again picking Ready to whack! Go in and wack. Avoid dolls and hitting Hogger (big brown) grants 3 points.|RANK|2|
 T It's Hammer Time|QID|29463|N|To Mola.|RANK|2|
 
 A The Humanoid Cannonball|QID|29436|M|52.67,56.09|N|From Maxima Blastenheimer.|RANK|2|
-N Achievement|QID|29436|ACH|6021;0|N|Talk to Teleportologist Fozlebub for a return trip.|M|57.25,89.85|S|RANK|2|
-C The Humanoid Cannonball|QID|29436|M|55.6, 83.3|NC|N|Talk to Maxima again picking Launch me!. Change your view till you are looking down, then try to release (key 1) right when you are about to go past the waypoint.|RANK|2|
+N Blastenheimer Bullseye|ACTIVE|29436|ACH|6021|N|Score a bullseye when launched from the Darkmoon Cannon.|M|57.25,89.85|S|RANK|2|
+C The Humanoid Cannonball|QID|29436|M|55.80, 80.26|NC|N|Talk to Maxima again picking Launch me!. Change your view till you are looking down, then try to release (key 1) right when you are about to go past the waypoint.\nTalk to Teleportologist Fozlebub for a return trip.|RANK|2|
 T The Humanoid Cannonball|QID|29436|N|To Maxima Blastenheimer.|RANK|2|
 
 T The Enemy's Insignia|QID|29457|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
@@ -268,7 +286,7 @@ A Eyes on the Prizes|QID|29517|M|49.41,60.83|N|From Rinling.|P|Leatherworking;16
 C Eyes on the Prizes|QID|29517|NC|N|Use your Darkmoon Craftsman's Kit.|U|71977|
 T Eyes on the Prizes|QID|29517|M|49.41,60.83|N|From Rinling.|
 
-N Achievement|QID|29438|ACH|6022;1|N|Pick one target and fire when it lights up.|S|
+N Quick Shot|ACTIVE|29438|ACH|6022|N|Score a Quick Shot at the Shooting Gallery.|S|
 C He Shoots, He Scores!|QID|29438|NC|N|Talk to Rinling again picking Let's shoot! Aim at a target and press 1 to fire. You can get 2 shots in per target.|RANK|2|
 T He Shoots, He Scores!|QID|29438|N|To Rinling.|RANK|2|
 
@@ -304,6 +322,7 @@ C Rearm, Reuse, Recycle|QID|29518|NC|N|Look for Tonk Scrap. Look between the ten
 C Talkin' Tonks|QID|29511|NC|N|Repair tonks.|U|72110|S|
 
 A Tonk Commander|QID|29434|M|50.51,64.77|N|From Finlay Coolshot.|RANK|2|
+N Ace Tonk Commander|ACTIVE|29434|ACH|9885|N|Score 45 hits in one session of the Tonk Challenge.|ITEM|122122|S|
 C Tonk Commander|QID|29434|NC|N|Talk to Finlay again and pick Ready to play! Drive through the targets and hit '1' when they're behind you. If you get targeted (ping sound) hit '2" for speed.|RANK|2|
 T Tonk Commander|QID|29434|M|50.51,64.77|N|To Finlay Coolshot.|RANK|2|
 
@@ -341,7 +360,6 @@ N Eat Forest Strider Drumstick|QID|99602605|ACH|6026;5|U|33254|LVL|65|RANK|3|
 N Eat Corn Breaded Sausage|QID|99602601|ACH|6026;1|U|44940|LVL|75|RANK|3|
 N Eat Salty Sea Dog|QID|99602609|ACH|6026;9|U|73260|LVL|85|RANK|3|
 
-A Putting the Carnies Back Together Again|QID|29512|M|55.00,70.76|N|From Chronos.|P|First Aid;129;75|
 A Keeping the Faire Sparkling|QID|29516|M|55.00,70.76|N|From Chronos.|P|Jewelcrafting;755;75|
 A Herbs for Healing|QID|29514|M|55.00,70.76|N|From Chronos.|P|Herbalism;182;75|
 A Tan My Hide|QID|29519|M|55.00,70.7|N|From Chronos.|P|Skinning;393;75|
@@ -350,17 +368,15 @@ C Collect 6 Darkblossom|QID|29514|QO|1|S|NC|
 C Tan My Hide|QID|29519|NC|N|Found throughout the Island.|S|
 N Collect 5 Bits of Glass|QID|29516|N|Green sparkling Gems.|L|72052 5|S|
 
-C Putting the Carnies Back Together Again|QID|29512|NC|M|54.87,70.75;47.44,74.85|CN|N|Use the bandage on Carnies.|U|71978|T|Injured Carnie|
 C Collect 6 Darkblossom|QID|29514|QO|1|US|NC|
-T Putting the Carnies Back Together Again|QID|29512|M|55.00,70.76|N|To Chronos.|
 T Herbs for Healing|QID|29514|M|55.00,70.76|N|To Chronos.|
 
 N Jubling|QID|7946|M|55.8,70.6|U|11325|PET|14878;1|N|Somewhere in the forest resonably close to Morja is her lost frog Jubjub. He is hooked on Dark Iron Ale. If you make a trail of ale from him to her (about 15 ft or so apart - put the next one down before he finishes drinking the last one) you can lure him back to Morja. If someone else has lured Jubjub to Morja you will only need 1 ale. (or if you are just lucky). Check this off manually if you aren't interested. in a Jubling minipet (or don't have any ale).|RANK|3|
 A Spawn of Jubjub|QID|7946|M|55.8,70.6|PET|14878;1|RANK|3|
 T Spawn of Jubjub|QID|7946|M|55.8,70.6|PET|14878;1|N|You will recieved an egg, in 7 days it will hatch into a jubling, that you will be able to put into your pet journal.|RANK|3|
 
-B Darkmoon Fireworks (6)|QID|99603001|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6030;1|L|74142 6|FACTION|Alliance|RANK|3|
-B Darkmoon Fireworks (6)|QID|99603001|M|48.50,71.76|N|Buy 6 from Boomie Sparks.|ACH|6031;1|L|74142 6|FACTION|Horde|RANK|3|
+B Taking the Show on the Road: Darkmoon Fireworks (6)|QID|99603000|M|48.50,71.76|N|Buy 6 from Boomie Sparks. Skip step to skip the achievement.|ACH|6030|L|74142 6|FACTION|Alliance|RANK|3|
+B Taking the Show on the Road: Darkmoon Fireworks (6)|QID|99603100|M|48.50,71.76|N|Buy 6 from Boomie Sparks. Skip step to skip the achievement.|ACH|6031|L|74142 6|FACTION|Horde|RANK|3|
 
 T An Intriguing Grimoire|QID|29445|M|52.94,75.94|N|To Sayge.|
 A Putting Trash to Good Use|QID|29510|M|52.94,75.94|N|From Sayge.|P|Enchanting;333;75|
@@ -370,26 +386,27 @@ N Create 5 Prophetic Ink|QID|29515|N|Use the Bundle of Exotic Herbs.|L|71972|U|7
 C Writing the Future|QID|29515|NC|N|Use the Prophetic Ink. Repeat until completed.|U|71972|
 T Writing the Future|QID|29515|M|52.94,75.94|N|To Sayge.|
 
-N Sayge's Dark Fortunes|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Sayge offers different 2 hour buffs.  Pick one and elect to get a written fortune for a chance at a quest item! We pre-select based on your class.|RANK|3|
-N Sayge's Dark Fortune of Stamina|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Confiscate the corn, Speak against your brother openly|RANK|3|
-N Sayge's Dark Fortune of Agility|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Hunter,Rogue,Druid,Shaman,Monk|N|Confiscate the corn, Keep your brother out without letting him know|RANK|3|
-N Sayge's Dark Fortune of Intelligence|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Druid,Mage,Paladin,Priest,Monk,Shaman,Warlock|N|Turn him over to liege, Show not so quiet defiance|RANK|3|
-N Sayge's Dark Fortune of Spirit|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Priest,Druid,Monk,Shaman,Paladin|N|Give corn to the man, Take credit and Share the gold|RANK|3|
-N Sayge's Dark Fortune of Strength|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|C|Warrior,Death Knight,Paladin|N|Confiscate the corn, Help your brother in|RANK|3|
-N Sayge's Dark Fortune of Armor|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Slay the man, Let your friend go|RANK|3|
-N Sayge's Dark Fortune of Damage|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Slay the man, Execute your friend painfully|RANK|3|
-N Sayge's Dark Fortune of Resistance|M|52.94,75.94|BUFF|23735;23736;23737;23738;23766;23767;23768;23769|N|Turn him over to liege, Remain quiet|RANK|3|
+N Sayge's Dark Fortunes|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Sayge offers different 2 hour buffs.  Pick one and elect to get a written fortune for a chance at a quest item! We pre-select based on your class.|RANK|3|
+N Sayge's Dark Fortune of Stamina|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Confiscate the corn, Speak against your brother openly|RANK|3|
+N Sayge's Dark Fortune of Agility|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Hunter,Rogue,Druid,Shaman,Monk|N|Confiscate the corn, Keep your brother out without letting him know|RANK|3|
+N Sayge's Dark Fortune of Intelligence|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Druid,Mage,Paladin,Priest,Monk,Shaman,Warlock|N|Turn him over to liege, Show not so quiet defiance|RANK|3|
+N Sayge's Dark Fortune of Spirit|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Priest,Druid,Monk,Shaman,Paladin|N|Give corn to the man, Take credit and Share the gold|RANK|3|
+N Sayge's Dark Fortune of Strength|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Warrior,Death Knight,Paladin|N|Confiscate the corn, Help your brother in|RANK|3|
+N Sayge's Dark Fortune of Armor|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Slay the man, Let your friend go|RANK|3|
+N Sayge's Dark Fortune of Damage|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Slay the man, Execute your friend painfully|RANK|3|
+N Sayge's Dark Fortune of Resistance|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Turn him over to liege, Remain quiet|RANK|3|
 
 N Collect 6 Discarded Weapon|QID|29510|N|Around the faire|L|72018 6|S|
 
 A Target: Turtle|QID|29455|M|51.45,77.77|N|Jessica Rogers.|RANK|2|
+N Triumphant Turtle Tossing|ACTIVE|29455|ACH|9894|N|Successfully toss 10 rings onto Dubenko the Darkmoon Turtle in one session of the Ring Toss.|ITEM|122123|S|
 C Target: Turtle|QID|29455|NC|N|Talk to Jessica Rogers and select Ready to play! Press 1, aim the middle ring of the big ring on the pole of the turtle. Once you're in position spam 1->click. If he moves wait a moment, aim and spam.|RANK|2|
 T Target: Turtle|QID|29455|M|51.45,77.77|N|Jessica Rogers.|RANK|2|
 
 T An Exotic Egg|QID|29444|M|50.87,81.80|N|To Yebb Neblegear.|
 A Baby Needs Two Pair of Shoes|QID|29508|M|50.87,81.80|N|From Yebb Neblegear.|P|Blacksmithing;164;75|
 
-N Achievement|QID|99602501|M|50.75,81.63;56.67,81.68|CS|N|Follow the maze and hop on a horse at the end.|ACH|6025|RANK|3|
+N I Was Promised a Pony|QID|99602501|M|50.75,81.63;56.67,81.68|CS|N|Follow the maze and hop on a pony at the end.|ACH|6025|RANK|3|
 
 C Spoilin' for Salty Sea Dogs|QID|29513|M|51.48,91.09|N|Fish off the dock.|
 
@@ -439,19 +456,19 @@ B Fizzy Faire Drink|QID|29506|M|50.31,69.39|N|From Sylannia.|L|19299 5|P|Alchemy
 C A Fizzy Fusion|QID|29506|NC|N|Use the Cocktail Shaker.|U|72043|
 T A Fizzy Fusion|QID|29506|M|50.31,69.39|N|To Sylannia.|
 
-N Achievement|QID|960300004|N|Take the portal at the end of the dock.  Fly to Ironforge.|ACH|6030;4|U|74142|FACTION|Alliance|RANK|3|
-N Achievement|QID|960300005|N|In the Mystic Quarter, take the portal to the Blasted Lands, then fly to Shattrath City.|ACH|6030;5|U|74142|FACTION|Alliance|RANK|3|
-N Achievement|QID|960300006|N|Take the portal back to Stormwind.|ACH|6030;6|U|74142|FACTION|Alliance|RANK|3|
-N Achievement|QID|960300001|N|Take the boat to Honor Hold and fly to Dalaran.|ACH|6030;1|U|74142|FACTION|Alliance|RANK|3|
-N Achievement|QID|960300002|N|Take the portal to Stormwind, then take the boat to Darnassus.|ACH|6030;2|U|74142|FACTION|Alliance|RANK|3|
-N Achievement|QID|960300003|N|Enter the Temple of the Moon and take the portal to The Exodar.|ACH|6030;3|U|74142|FACTION|Alliance|RANK|3|
+N Taking the Show on the Road: Ironforge|QID|99603000|N|Take the portal at the end of the dock.  Fly to Ironforge.|ACH|6030;4|U|74142|FACTION|Alliance|RANK|3|
+N Taking the Show on the Road: Shattrath|QID|99603000|N|In the Mystic Quarter, take the portal to the Blasted Lands, then fly to Shattrath City.|ACH|6030;5|U|74142|FACTION|Alliance|RANK|3|
+N Taking the Show on the Road: Stormwind|QID|99603000|N|Take the portal back to Stormwind.|ACH|6030;6|U|74142|FACTION|Alliance|RANK|3|
+N Taking the Show on the Road: Dalaran|QID|99603000|N|Take the boat to Honor Hold and fly to Dalaran.|ACH|6030;1|U|74142|FACTION|Alliance|RANK|3|
+N Taking the Show on the Road: Darnassus|QID|99603000|N|Take the portal to Stormwind, then take the boat to Darnassus.|ACH|6030;2|U|74142|FACTION|Alliance|RANK|3|
+N Taking the Show on the Road: Exodar|QID|99603000|N|Enter the Temple of the Moon and take the portal to The Exodar.|ACH|6030;3|U|74142|FACTION|Alliance|RANK|3|
 
-N Achievement|QID|960310005|N|Take the portal back to Thunder Bluff, go into the city proper to set up your fireworks.|ACH|6031;5|U|74142|FACTION|Horde|RANK|3|
-N Achievement|QID|960310003|N|Take the portal to the Blasted Lands, go through the Dark Portal and fly to Shattrath City.|ACH|6031;3|U|74142|FACTION|Horde|RANK|3|
-N Achievement|QID|960310001|N|Take the portal back to Orgrimmar and take a zepplin/fly to Dalaran.|ACH|6031;1|U|74142|FACTION|Horde|RANK|3|
-N Achievement|QID|960310002|N|Take the portal back to Orgrimmar|ACH|6031;2|U|74142|FACTION|Horde|RANK|3|
-N Achievement|QID|960310006|N|Take a zepplin to Tirisfal Glade, fly to Undercity. Make sure your mini-map says Undercity, not Ruins of Lordaeron|ACH|6031;6|U|74142|FACTION|Horde|RANK|3|
-N Achievement|QID|960310004|N|Take the globe thingie from the courtyard to Silvermoon City.|ACH|6031;4|U|74142|FACTION|Horde|RANK|3|
+N Taking the Show on the Road: Thunder Bluff|QID|99603100|N|Take the portal back to Thunder Bluff, go into the city proper to set up your fireworks.|ACH|6031;5|U|74142|FACTION|Horde|RANK|3|
+N Taking the Show on the Road: Shattrath|QID|99603100|N|Take the portal to the Blasted Lands, go through the Dark Portal and fly to Shattrath City.|ACH|6031;3|U|74142|FACTION|Horde|RANK|3|
+N Taking the Show on the Road: Dalaran|QID|99603100|N|Take the portal back to Orgrimmar and take a zepplin/fly to Dalaran.|ACH|6031;1|U|74142|FACTION|Horde|RANK|3|
+N Taking the Show on the Road: Orgrimmar|QID|99603100|N|Take the portal back to Orgrimmar|ACH|6031;2|U|74142|FACTION|Horde|RANK|3|
+N Taking the Show on the Road: Undercity|QID|99603100|N|Take a zepplin to Tirisfal Glade, fly to Undercity. Make sure your mini-map says Undercity, not Ruins of Lordaeron|ACH|6031;6|U|74142|FACTION|Horde|RANK|3|
+N Taking the Show on the Road: Silvermoon|QID|99603100|N|Take the globe thingie from the courtyard to Silvermoon City.|ACH|6031;4|U|74142|FACTION|Horde|RANK|3|
 
 N End of Guide|N|You've reached the end of the guide! This guide will automatically reset when the dailies reset, or you can reset it manually by right-clicking this window's titlebar or frame.|
 ]]

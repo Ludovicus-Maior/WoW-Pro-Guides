@@ -4,6 +4,31 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2019-07-29 15:35
+-- Who: Fluclo
+-- Log: Ace won't spawn for the quest Surrender or Else if you are mounted on your Chauffeur, so two lines to give a message if you are on your Chauffeur.
+
+-- URL: http://wow-pro.com/node/3212/revisions/30341/view
+-- Date: 2019-07-29 14:18
+-- Who: Fluclo
+-- Log: Added ACTIVE tag to Blastshadow the Brutemaster for it to only show when the quest is in your log
+
+-- URL: http://wow-pro.com/node/3212/revisions/30340/view
+-- Date: 2019-07-29 13:36
+-- Who: Fluclo
+-- Log: Path is to the north, not to the south. 
+
+-- URL: http://wow-pro.com/node/3212/revisions/30220/view
+-- Date: 2019-02-12 00:00
+-- Who: Ludovicus_Maior
+-- Log: Correcting sexism in [Fourth and Goal] and bad coords for [Necessary Roughness].
+
+-- URL: http://wow-pro.com/node/3212/revisions/30052/view
+-- Date: 2018-10-17 22:55
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3212/revisions/29251/view
 -- Date: 2018-05-02 00:46
 -- Who: Ludovicus_Maior
 -- Log: Goodbye Vol'jin
@@ -221,10 +246,6 @@
 -- Date: 2010-12-03 07:20
 -- Who: Jiyambi
 
--- URL: http://wow-pro.com/node/3212/revisions/23292/view
--- Date: 2010-12-03 07:19
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('MalKez0105', "Leveling", 'Kezan', 'Malorajan', 'Horde')
 WoWPro:GuideLevels(guide,01,02, 1.03704)
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Goblin_Male","Interface\\Icons\\Achievement_Character_Goblin_Female"))
@@ -245,7 +266,7 @@ C Good Help is Hard to Find|QID|14069|M|70.29,82.50|N|Finishing right-clicking t
 T Trouble in the Mines|QID|14075|M|60.35,74.64|N|To Foreman Dampwick.|
 T Good Help is Hard to Find|QID|14069|M|60.35,74.64|N|To Foreman Dampwick.|
 
-A Kaja'Cola|QID|25473|M|60.35,74.64|N|From Foreman Dampwick.|PRE|14069;14075|
+A Kaja'Cola|QID|25473|M|60.35,74.64|N|From Foreman Dampwick.|PRE|14069&14075|
 T Kaja'Cola|QID|25473|M|56.53,76.97|N|To Sassy Hardwrench.|
 
 A Megs in Marketing|QID|28349|M|56.53,76.97|N|From Sassy Hardwrench.|PRE|25473|
@@ -254,7 +275,7 @@ T Megs in Marketing|QID|28349|M|58.22,76.61|N|To Megs Dreadshredder.|
 A Rolling with my Homies|QID|14071|M|58.22,76.61|N|From Megs Dreadshredder.|PRE|28349|
 C Rolling with my Homies |QID|14071|U|46856|N|You have access to a Hot Rod, which will allow you to move quicker in Kezan. Whilst mounted, you don't get hurt jumping down big drops, and can use the first keybind to go quicker for a short duration. The Key symbol to the left of this window will allow you to mount your Hot Rod, and will appear on all quests where boarding the Hot Rod is suitable. Use the key now to board your Hot Rod. If you need to dismount for any reason, right click the Hot Rod buff at the top right of your screen.|QO|1|NC|
 C Rolling with my Homies|QID|14071|U|46856|M|58.10,86.60|QO|2|NC|N|Go pick up Izzy by driving up to her (you can stay mounted on the Hot Rod). She is located in the beam of light on the other side of the swimming pool. The Hot Rod doesn't work on/in water.|
-C Rolling with my Homies|QID|14071|U|46856|M|60.76,50.35|QO|4|N|Go pick up Gobber. Just follow the path south from KTC Headquarters.|NC|
+C Rolling with my Homies|QID|14071|U|46856|M|60.76,50.35|QO|4|N|Go pick up Gobber. Just follow the path north from KTC Headquarters.|NC|
 C Rolling with my Homies|QID|14071|U|46856|M|47.80,37.40|QO|3|NC|N|Go pick up Ace. He's on the other side of the road bridge.|
 T Rolling with my Homies|QID|14071|M|58.24,76.01|N|To Megs Dreadshredder.|U|46856|
 
@@ -266,45 +287,45 @@ T Report for Tryouts|QID|24567|M|48.75,57.83|N|To Coach Crosscheck. You have no 
 
 A The Replacements|QID|24488|M|48.75,57.83|N|From Coach Crosscheck.|PRE|24567|
 C The Replacements|QID|24488|M|43.05,62.79|N|Look around for Replacement Parts, they look like yellow crates. You can remain mounted in your Hot-Rod whilst you collect the crates.|U|46856|NC|S|
-R Drudgetown|QID|24520|M|43.50,70.25|N|Head to Drudgetown on your Hot Rod. Go under the ramp.|U|46856|ACTIVE|24488;14070|
+R Drudgetown|QID|24520|M|43.50,70.25|N|Head to Drudgetown on your Hot Rod. Go under the ramp.|U|46856|ACTIVE|24488^14070|
 C Bruno Flameretardant|QID|14070|M|45.21,74.77|N|Beat down Bruno Flameretardant.|QO|1|U|46856|
 C Sudsy Magee|QID|14070|M|41.64,81.71|N|Beat down Sudsy Magee.|QO|4|U|46856|
 C Jack the Hammer|QID|14070|M|35.15,77.78|N|Beat down Jack the Hammer.|QO|3|U|46856|
 C Frankie Gearslip|QID|14070|M|36.67,72.32|N|Beat down Frankie Gearslip.|QO|2|U|46856|
 C The Replacements|QID|24488|M|43.05,62.79|N|Finish picking up Replacement Parts|U|46856|NC|US|
 
-T Off to the Bank|QID|26711;26712|M|30.09,71.67|N|To FBoK Bank Teller.|U|46856|
+T Off to the Bank|QID|26711^26712|M|30.09,71.67|N|To FBoK Bank Teller.|U|46856|
 
-A The New You|QID|14109;14110|PRE|26711+26712|M|30.09,71.67|N|From FBoK Bank Teller.|
-C Hip New Outfit|QID|14109;14110|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|2|CHAT|U|46856|
-C Shiny Bling|QID|14109;14110|M|34.87,45.71|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|1|CHAT|U|46856|
-C Cool Shades|QID|14109;14110|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|QO|3|CHAT|U|46856|
+A The New You|QID|14109^14110|PRE|26711^26712|M|30.09,71.67|N|From FBoK Bank Teller.|
+C Hip New Outfit|QID|14109^14110|M|37.59,55.21|N|Talk to Szabo to get the Hip New Outfit.|QO|2|CHAT|U|46856|
+C Shiny Bling|QID|14109^14110|M|34.87,45.71|N|Talk to Gappy Silvertooth to get the Shiny Bling.|QO|1|CHAT|U|46856|
+C Cool Shades|QID|14109^14110|M|40.6,45.89|N|Talk to Missa Spekkles to get the Cool Shades.|QO|3|CHAT|U|46856|
 
 T The Replacements|QID|24488|M|48.73,57.42|N|To Coach Crosscheck.|U|46856|
 
 A Necessary Roughness|QID|24502|M|48.73,57.42|N|From Coach Crosscheck.|PRE|24488|
 C Necessary Roughness|QID|24502|M|47.70,57.75|N|Head to the Bilgewater Buccaneer, then hop onto the Bilgewater Buccaneer.|QO|1|NC|
 C Necessary Roughness|QID|24502|M|47.70,57.75|N|Use Key 1 to take out the Steamwheedle Shark shredders until you have footbombed eight of them.|QO|2|NC|
-T Necessary Roughness|QID|24502|M|47.70,57.75|N|(UI Alert)|
+T Necessary Roughness|QID|24502|M|48.73,57.42|N|(UI Alert)|
 
-A Fourth and Goal|QID|24503|M|47.70,57.75|N|(UI Alert)|
-C Fourth and Goal|QID|24503|M|47.70,57.75|N|Use Key 1 to kick a footbomb between the smoke stacks.|NC|
-T Fourth and Goal|QID|24503|M|48.62,57.74|N|Wait until the dragon finishes his attack, then To Coach Crosscheck.|U|46856|
+A Fourth and Goal|QID|24503^28414|M|48.73,57.42|N|From Coach Crosscheck.|PRE|24502|
+C Fourth and Goal|QID|24503^28414|M|47.70,57.75|N|Use Key 1 to kick a footbomb between the smoke stacks.|NC|
+T Fourth and Goal|QID|24503^28414|M|48.62,57.74|N|Wait until the dragon finishes his attack, then To Coach Crosscheck.|U|46856|
 
-A Give Sassy the News|QID|24520|M|48.62,57.74|N|From Coach Crosscheck.|PRE|24503+28414|
+A Give Sassy the News|QID|24520|M|48.62,57.74|N|From Coach Crosscheck.|PRE|24503^28414|
 
-H KTC Headquarters|QID|14109;14110|M|56.62,76.90|N|Hearthstone, or ride back to KTC Headquarters.|U|46856|ACTIVE|14109;14110|
+H KTC Headquarters|QID|14109^14110|M|56.62,76.90|N|Hearthstone, or ride back to KTC Headquarters.|U|46856|ACTIVE|14109^14110|
 T The New You|QID|14109|M|56.42,76.97|N|To Candy Cane, back at KTC Headquarters.|GEN|MALE|U|46856|
 T The New You|QID|14110|M|56.42,76.97|N|To Chip Endale, back at KTC Headquarters.|GEN|FEMALE|U|46856|
 T Give Sassy the News|QID|24520|M|56.42,76.97|N|To Sassy Hardwrench.|
 T Do it Yourself|QID|14070|M|56.42,76.97|N|To Sassy Hardwrench.|
 
-A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane.|GEN|MALE|PRE|24520;14070;14109|
-A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale.|GEN|FEMALE|PRE|24520;14070;14110|
-C Life of the Party|QID|14113;14153|M|60.21,85.76|N|Entertain 10 Partygoers. \nUse Key 1 (Bubbly) for those holding a drink glass\nUse Key 2 (Bucket) if they have blue swirls over their head.\nUse Key 3 (Dance) if they are dancing\nUse Key 4 (Fireworks) if they are holding a red sparkler\nUse Key 5 (Hors D'oeuvres) if they are holding a chicken drumstick.\nIf you give them the wrong one, they'll tell you what they want. Move on from any that are all partied-out.|NC|
-T Life of the Party|QID|14113;14153|M|56.52,76.95|N|To Sassy Hardwrench.|
+A Life of the Party|QID|14113|M|56.37,77.02|N|From Candy Cane.|GEN|MALE|PRE|24520&14070&14109|
+A Life of the Party|QID|14153|M|56.37,77.02|N|From Chip Endale.|GEN|FEMALE|PRE|24520&14070&14110|
+C Life of the Party|QID|14113^14153|M|60.21,85.76|N|Entertain 10 Partygoers. \nUse Key 1 (Bubbly) for those holding a drink glass\nUse Key 2 (Bucket) if they have blue swirls over their head.\nUse Key 3 (Dance) if they are dancing\nUse Key 4 (Fireworks) if they are holding a red sparkler\nUse Key 5 (Hors D'oeuvres) if they are holding a chicken drumstick.\nIf you give them the wrong one, they'll tell you what they want. Move on from any that are all partied-out.|NC|
+T Life of the Party|QID|14113^14153|M|56.52,76.95|N|To Sassy Hardwrench.|
 
-A Pirate Party Crashers|QID|14115|M|56.52,76.95|N|From Sassy Hardwrench.|PRE|14113+14153|
+A Pirate Party Crashers|QID|14115|M|56.52,76.95|N|From Sassy Hardwrench.|PRE|14113^14153|
 C Pirate Party Crashers|QID|14115|M|57.39,85.03|N|Kill 12 Pirate Party Crashers.|U|46856|
 T Pirate Party Crashers|QID|14115|M|56.46,76.97|N|To Sassy Hardwrench.|U|46856|
 
@@ -337,7 +358,7 @@ A Liberate the Kaja'mite|QID|14124|U|46856|M|62.85,77.76|N|From Foreman Dampwick
 C Liberate the Kaja'mite|QID|14124|U|48768|M|71.19,77.39|NC|N|Use the bombs on the sparkling green ore spots, then pick up the Kaja'mite Chunks.|
 T Liberate the Kaja'mite|QID|14124|U|46856|M|62.92,77.54|N|To Foreman Dampwick.|
 
-A 447|QID|14125|M|59.78,77.13|N|From Sassy Hardwrench.|PRE|14121;14122;14123;14124|
+A 447|QID|14125|M|59.78,77.13|N|From Sassy Hardwrench.|PRE|14121&14122&14123&14124|
 C Overload the Defective Generator|QID|14125|QO|1|N|Head inside the building and click on the Defective Generator.|M|56.13,76.6|NC|
 C Activate the Leaky Stove|QID|14125|QO|2|N|Head over to the corner and click on the Leaky Stove.|M|56.05,74.7|NC|
 C Drop a Cigar on the Flammable Bed|QID|14125|QO|3|N|Head upstairs and click on the Flammable Bed.|M|56.61,75.15|NC|

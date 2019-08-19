@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_feralas_horde
+-- Date: 2018-10-17 23:00
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3245/revisions/29204/view
 -- Date: 2018-02-27 17:45
 -- Who: Ludovicus_EditBot
 -- Log: LVL correction
@@ -94,8 +99,8 @@ WoWPro:GuideIcon(guide,"ACH",4932)
 WoWPro:GuideSteps(guide, function()
 return [[
 A Warchief's Command: Feralas!|QID|28510|N|From Warchief's Command Board|
-;add zone & pre
-A The Wilds of Feralas|QID|26589|LEAD|25210|PRE|14346;14394|M|73.2,73.0|N|From Khan Shodo.|Z|Desolace|
+;add zone&pre
+A The Wilds of Feralas|QID|26589|LEAD|25210|PRE|14346&14394|M|73.2,73.0|N|From Khan Shodo.|Z|Desolace|
 
 F Camp Ataya|QID|25339|M|57.71,49.74|N|Fly to Camp Ataya in Feralas.|Z|Desolace|
 h Camp Ataya|QID|25339|US|M|41.40,15.73|N|At Adene Treetotem.|
@@ -129,7 +134,7 @@ C Tears of Stone|QID|25237|NC|M|38.77,24.84|N|The stones can be found on the gro
 C The Land, Corrupted|QID|25241|US|M|38.45,24.40|N|The corrupted giants are fighting normal cliff giants in the area.|
 T Tears of Stone|QID|25237|M|41.38,15.46|N|To Konu Runetotem.|
 T The Land, Corrupted|QID|25241|M|41.38,15.46|N|To Konu Runetotem.|
-A Sealing the Dream|QID|25250|PRE|25237+25241|M|41.38,15.46|N|From Konu Runetotem.|
+A Sealing the Dream|QID|25250|PRE|25237^25241|M|41.38,15.46|N|From Konu Runetotem.|
 C Sealing the Dream|QID|25250|U|52576|M|51.26,10.87|N|Use the tear at the portal to seal it. There is a dragon guarding the path, but he's not too powerful.|
 T Sealing the Dream|QID|25250|M|41.37,15.46|N|To Konu Runetotem, back at Camp Ataya.|
 
@@ -222,7 +227,7 @@ A Woodpaw Investigation|QID|25365|PRE|25363|M|74.90,42.52|N|From Hadoken Swiftst
 A Alpha Strike|QID|25364|PRE|25363|M|74.90,42.52|N|From Hadoken Swiftstrider.|
 A A New Cloak's Sheen|QID|25361|PRE|25338|M|75.00,42.99|N|From Krueg Skullsplitter who wanders a bit.|
 T Ysondre's Call|QID|25378|M|81.55,42.45|N|To Ysondre, on top of the hill to the east.|
-A Taerar's Fall|QID|25379|PRE|25378+25437|M|81.55,42.45|N|From Ysondre.|
+A Taerar's Fall|QID|25379|PRE|25378^25437|M|81.55,42.45|N|From Ysondre.|
 C Taerar's Fall|QID|25379|M|81.53,42.49|N|Allow Ysondre to tank for you, be cautious and you should be fine.|
 T Taerar's Fall|QID|25379|M|81.54,42.46|N|To Ysondre.|
 
@@ -237,15 +242,15 @@ T Taming The Tamers|QID|25375|M|74.59,42.88|N|To Chief Spirithorn.|
 T Woodpaw Investigation|QID|25365|M|71.65,55.91|N|To the attack plans on the box in a gnoll camp south-west of Camp Mojache|
 A The Battle Plans|QID|25366|PRE|25365|M|71.64,55.92|N|From the gnoll plans.|
 T The Darkmist Ruins|QID|25643|M|67.83,60.14;66.76,59.59;65.92,62.83|CS|N|Nearby you will find the entrance to the Darkmist Ruins. Head there and turn-in to glowing bowl of light.|
-A The Darkmist Legacy|QID|25422|PRE|25350+25643|M|65.92,62.83|N|From Sensiria, who will appear next to you.|
-A Ancient Suffering|QID|25423|PRE|25350+25643|M|65.92,62.83|N|From Sensiria.|
+A The Darkmist Legacy|QID|25422|PRE|25350^25643|M|65.92,62.83|N|From Sensiria, who will appear next to you.|
+A Ancient Suffering|QID|25423|PRE|25350^25643|M|65.92,62.83|N|From Sensiria.|
 C Ancient Suffering|QID|25423|S|M|64.77,62.72|N|Kill the spirits in the area.|
 C The Darkmist Legacy|QID|25422|M|63.92,55.06|N|The soil looks lik sparkling patches of lighter-colored ground, and can be found all around the ruins. It's a little hard to see, so look closely.|
 C Ancient Suffering|QID|25423|US|M|64.77,62.72|N|Kill the spirits in the area.|
 T The Darkmist Legacy|QID|25422|M|65.93,62.79|N|To Sensiria.|
 T Ancient Suffering|QID|25423|M|65.93,62.79|N|To Sensiria.|
 
-A Verinias the Twisted|QID|25368|PRE|25422;25423|M|65.93,62.79|N|From Sensiria.|
+A Verinias the Twisted|QID|25368|PRE|25422&25423|M|65.93,62.79|N|From Sensiria.|
 C Verinias the Twisted|QID|25368|U|54456|M|64.33,55.84|N|The tree is located to the north.|
 T Verinias the Twisted|QID|25368|M|65.92,62.81|N|To Sensiria.|
 A Return to Sage Palerunner|QID|25645|PRE|25368|M|65.92,62.84|N|From the pool of light next to you.|
@@ -258,8 +263,8 @@ A Mountain Giant Muisek|QID|25346|PRE|25345|M|74.44,43.38|N|From Witch Doctor Uz
 T Alpha Strike|QID|25364|M|74.92,42.51|N|To Hadoken Swiftstrider.|
 T The Battle Plans|QID|25366|M|74.92,42.51|N|To Hadoken Swiftstrider.|
 
-A Zukk'ash Infestation|QID|25367|PRE|25364;25365|M|74.92,42.51|N|From Hadoken Swiftstrider.|
-A Stinglasher|QID|25369|PRE|25364;25365|M|74.92,42.51|N|From Hadoken Swiftstrider.|
+A Zukk'ash Infestation|QID|25367|PRE|25364&25365|M|74.92,42.51|N|From Hadoken Swiftstrider.|
+A Stinglasher|QID|25369|PRE|25364&25365|M|74.92,42.51|N|From Hadoken Swiftstrider.|
 T A New Cloak's Sheen|QID|25361|M|75.03,42.95|N|To Krueg Skullsplitter.|
 A A Grim Discovery|QID|25362|RANK|2|PRE|25361|M|75.03,42.95|N|From Krueg Skullsplitter.|
 T Return to Sage Palerunner|QID|25645|M|75.07,42.77|N|To Sage Palerunner.|

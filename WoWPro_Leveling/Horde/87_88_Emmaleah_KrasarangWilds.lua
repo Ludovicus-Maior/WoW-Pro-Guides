@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_horde
+-- Date: 2018-10-17 02:28
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3489/revisions/29214/view
 -- Date: 2018-03-06 01:24
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -149,7 +154,7 @@ C Cheer Up, Yi-Mo|QID|30082|CHAT|M|76.77,7.74|N|Talk to him, then you have to ro
 T Cheer Up, Yi-Mo|QID|30082|M|75.87,7.63|N|To Mei Barrelbottom.|
 A Tears of Pandaria|QID|30091|PRE|30082|M|75.87,7.63|N|From Mei Barrelbottom.|
 T What's Eating Zhu's Watch?|QID|30079|M|76.24,7.14|N|To Ken-Ken.|
-A Materia Medica|QID|30081|PRE|30079;30082|M|76.23,7.12|N|From Ken-Ken.|
+A Materia Medica|QID|30081|PRE|30079&30082|M|76.23,7.12|N|From Ken-Ken.|
 C Materia Medica|QID|30081|S|M|72.19,10.68;75.41,10.87|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
 C Tears of Pandaria|QID|30091|M|72.19,10.68;75.41,10.87|CN|
 C Materia Medica|QID|30081|US|M|72.19,10.68;75.41,10.87|CN|N|Fish are sparklies on the ground where you kill horrors, honeycomb in trees nearby, salty core drop from the horrors.|
@@ -201,9 +206,9 @@ A Crane Mastery: Needlebeak|QID|31262|PRE|30352|M|67.61,25.70|N|From Daggle Bomb
 K Needlebeak|QID|31262|T|Needlebeak|M|63.19,20.39|L|85854|
 T Skitterer Stew|QID|30123|M|60.07,24.98|N|To Kang Bramblestaff.|
 T Blind Them!|QID|30124|M|59.88,24.85|N|To Kor Bloodtusk.|
-A Threat from Dojan|QID|30127|PRE|30123;30124|M|59.88,24.85|N|From Kor Bloodtusk.|
+A Threat from Dojan|QID|30127|PRE|30123&30124|M|59.88,24.85|N|From Kor Bloodtusk.|
 A Herbal Remedies|QID|30130|PRE|30124|M|59.90,24.48|N|From Sunwalker Dezco.|
-A The Mogu Agenda|QID|30129|PRE|30123;30124|M|60.12,24.96|N|From Kang Bramblestaff.|
+A The Mogu Agenda|QID|30129|PRE|30123&30124|M|60.12,24.96|N|From Kang Bramblestaff.|
 K Chasheen|QID|31260|T|Chasheen|M|61.66,31.78|L|85774|
 C Herbal Remedies|QID|30130|S|M|54.59,39.74|N|Keep an eye out for the flowers as you work you way up the terraces.|
 C Threat from Dojan|QID|30127|S|M|54.68,38.86|N|Kill these guys as you go up the terraces to where the boss is.|
@@ -218,14 +223,14 @@ T Profit Mastery: Chasheen|QID|31260|M|67.61,25.68|N|To Daggle Bombstrider.|
 T Threat from Dojan|QID|30127|M|59.93,24.82|N|To Kor Bloodtusk.|
 T Herbal Remedies|QID|30130|M|59.93,24.82|N|To Sunwalker Dezco.|
 T The Pools of Youth|QID|30128|M|59.93,24.82|N|To Sunwalker Dezco.|
-A Life|QID|30131|PRE|30128;30130|M|59.93,24.82|N|From Sunwalker Dezco.|
+A Life|QID|30131|PRE|30128&30130|M|59.93,24.82|N|From Sunwalker Dezco.|
 C Life|QID|30131|CHAT|M|60.37,25.23|N|Watch a cutscene of Leza and Dezco.|
 T Life|QID|30131|M|60.42,25.52|N|To Sunwalker Dezco.|
 A Going West|QID|30132|PRE|30131|M|60.42,25.52|N|From Sunwalker Dezco.|
 R While traveling|QID|30133|M|50.8,49.4|CC|N|You can optionally go along the coast and look for a Pandaran Fishing Spear It is located under Uncle Deming.(rare blue BoA).|
 C Going West|QID|30132|NC|M|43.83,42.85|N|The poor scout is on the ground (again).|
 T Into the Wilds|QID|30133|M|44.16,43.00|N|To Koro Mistwalker.|
-A Unsafe Passage|QID|30269|PRE|30133+30178|M|44.16,43.00|N|From Koro Mistwalker.|
+A Unsafe Passage|QID|30269|PRE|30133^30178|M|44.16,43.00|N|From Koro Mistwalker.|
 C Unsafe Passage|QID|30269|CHAT|M|43.72,36.01|N|Walk with the refugees, 2 encounters along the way.|
 r Repair and Sell|QID|30269|M|40.88,34.41|N|If your bags are full, we have found Supplier An open for business. Check this step off manually.|
 T Unsafe Passage|QID|30269|M|40.67,33.72|N|To Koro Mistwalker.|
@@ -239,9 +244,9 @@ C The Murksweats|QID|30268|M|37.33,41.13|N|These are swimming in the water.|
 T Tread Lightly|QID|30694|M|40.62,33.69|N|To Koro Mistwalker.|
 T Blinding the Riverblades|QID|30270|M|40.62,33.69|N|To Koro Mistwalker.|
 T The Murksweats|QID|30268|M|40.44,34.58|N|To Anduin Wrynn.|
-A Sha Can Awe|QID|30271|PRE|30268;30270;30694|M|40.67,33.88|N|From Anduin Wrynn.|
-A Ahead on the Way|QID|30695|PRE|30268;30270;30694|M|40.68,33.68|N|From Koro Mistwalker.|
-A Striking the Rain|QID|30272|PRE|30268;30270;30694|M|40.68,33.68|N|From Koro Mistwalker.|
+A Sha Can Awe|QID|30271|PRE|30268&30270&30694|M|40.67,33.88|N|From Anduin Wrynn.|
+A Ahead on the Way|QID|30695|PRE|30268&30270&30694|M|40.68,33.68|N|From Koro Mistwalker.|
+A Striking the Rain|QID|30272|PRE|30268&30270&30694|M|40.68,33.68|N|From Koro Mistwalker.|
 
 C Striking the Rain|QID|30272|S|M|40,45|N|Kill them near the Hopeless Monks to get credit for Sha Can Awe also.|;something I can't figure out, the sticky shading is staying for the next several steps, reset didn't change anything, reloadUI made the shading "stay where it belonged", but the vertical spacing remained off until I logged off upon arriving at Marista.
 C Sha Can Awe|QID|30271|S|M|40,45|N|Kill Haunts and Incarnations of Despair near the Hopeless Monks to inspire them.|
@@ -252,7 +257,7 @@ C Sha Can Awe|QID|30271|US|M|40,45|N|Kill Haunts and Incarnations of Despair nea
 T Ahead on the Way|QID|30695|M|43.00,53.11|N|To Anduin Wrynn. (who is following you around)|
 T Striking the Rain|QID|30272|M|38.01,50.89|N|To Anduin Wrynn.|
 T Sha Can Awe|QID|30271|M|38.01,50.89|N|To Anduin Wrynn.|
-A In the House of the Red Crane|QID|30273|PRE|30271;30272;30695|M|38.01,50.89|N|From Anduin Wrynn.|
+A In the House of the Red Crane|QID|30273|PRE|30271&30272&30695|M|38.01,50.89|N|From Anduin Wrynn.|
 C In the House of the Red Crane|QID|30273|M|40.46,54.65|CHAT|N|Go up the center stairs then run straight back to the other stairs down into the basement. Talk to Chi-Ji to start the fight. He will float up and a large sha will appear, defeat it and you win. When the adds show up, you probably want to focus on them, since deaths cause Anduin to heal you.|
 T In the House of the Red Crane|QID|30273|M|40.05,48.98|N|To Chi-Ji (back outside).|
 
@@ -323,7 +328,7 @@ C For the Tribe|QID|30163|US|NC|M|23.95,41.43|
 T Re-Reclaim|QID|30230|M|28.80,50.42|N|To Kang Bramblestaff.|
 T For the Tribe|QID|30163|M|28.70,50.89|N|To Kor Bloodtusk.|
 T The Greater Danger|QID|30229|M|28.72,50.86|N|To Kor Bloodtusk.|
-A The Mantid|QID|30175|PRE|30163;30229;30230|M|29.03,51.16|N|From Ambassador Han.|
+A The Mantid|QID|30175|PRE|30163&30229&30230|M|29.03,51.16|N|From Ambassador Han.|
 
 C The Mantid|QID|30175|S|M|13.58,36.40|
 A The Stoneplow Convoy|QID|30164|PRE|30230|M|15.95,39.84|N|From Sunwalker Dezco.|
@@ -331,16 +336,16 @@ C The Stoneplow Convoy|QID|30164|NC|U|79163|M|15.38,35.55|N|Use the poultices to
 C The Mantid|QID|30175|US|M|13.58,36.40|
 T The Mantid|QID|30175|M|15.71,39.69|N|To Ik'thik Precursor.|
 T The Stoneplow Convoy|QID|30164|M|15.92,39.80|N|To Sunwalker Dezco.|
-A For Family|QID|30174|PRE|30164;30175|M|15.92,39.80|N|From Sunwalker Dezco.|
+A For Family|QID|30174|PRE|30164&30175|M|15.92,39.80|N|From Sunwalker Dezco.|
 K Kill Groundbreaker Brojai|QID|30174|T|Groundbreaker Brojai|QO|1|M|23.35,48.80|N|Talk to Kor to start a scripted vignette where Kor must act like a typical orc and Dezco makes peace.|; Groundbreaker Brojai slain: 1/1
 T For Family|QID|30174|M|28.92,50.75|N|To Sunwalker Dezco.|
-A Warn Stoneplow|QID|30241|PRE|29990;30117;30273;30174|M|28.92,50.75|N|From Sunwalker Dezco.|
+A Warn Stoneplow|QID|30241|PRE|29990&30117&30273&30174|M|28.92,50.75|N|From Sunwalker Dezco.|
 
 F Stoneplow|QID|30241|M|28.92,50.38|N|At Munch Windhoof.|
 T Warn Stoneplow|QID|30241|M|19.53,56.95|Z|Valley of the Four Winds|N|To Loon Mai.|
-A The Mantidote|QID|30623|PRE|30241+30360+30376|M|17.97,56.34|Z|Valley of the Four Winds|N|From Mei Barrelbottom.|
-A The Swarm Begins|QID|30622|PRE|30241+30360+30376|M|17.90,56.21|Z|Valley of the Four Winds|N|From Loon Mai.|
-A It Does You No Good In The Keg|QID|30653|PRE|30241+30360+30376|M|18.05,55.69|Z|Valley of the Four Winds|N|From Mudmug.|
+A The Mantidote|QID|30623|PRE|30241^30360^30376|M|17.97,56.34|Z|Valley of the Four Winds|N|From Mei Barrelbottom.|
+A The Swarm Begins|QID|30622|PRE|30241^30360^30376|M|17.90,56.21|Z|Valley of the Four Winds|N|From Loon Mai.|
+A It Does You No Good In The Keg|QID|30653|PRE|30241^30360^30376|M|18.05,55.69|Z|Valley of the Four Winds|N|From Mudmug.|
 C The Mantidote|QID|30623|S|U|80337|M|10.72,51.92|Z|Valley of the Four Winds|N|Use the mask on the elites, kill the sha that appears.|
 C The Swarm Begins|QID|30622|S|M|10.14,52.00|Z|Valley of the Four Winds|
 C Deliver beer to Crane Wing Priests|QID|30653|NC|QO|2|M|15.09,55.41|Z|Valley of the Four Winds|; Deliver beer to Crane Wing Priests: 1/1

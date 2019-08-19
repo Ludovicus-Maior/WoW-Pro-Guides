@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3707
+-- Date: 2018-10-17 02:20
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3707/revisions/28252/view
 -- Date: 2017-02-11 21:16
 -- Who: Blanckaert
 -- Log: added (Zone Name) to Notes, removed Prox sort, to make it done manual after loading.
@@ -56,8 +61,8 @@ $ Treasure Chest|QID|37832|M|63.23,15.21|Z|Azsuna|N|WAY out of the way, but this
 $ Unbound Rift|QID|37932|M|59.74,12.29|Z|Azsuna|QO|1|N|Silver - This vignette is located down in the cravasse. Kill and loot for a bit of resources and treasure. (Azshara)|
 $ Treasure chest|QID|37958|M|57.89,12.23|Z|Azsuna|N|Treasure chest containing items and resources. (Azshara)|
 $ Treasure Chest|QID|37980|M|58.28,16.07;58.38,15.24;58.69,14.14|Z|Azsuna|CS|N|Take the stairs here, follow the path up, then take the ley portal to find a treasure chest. Loot for treaure and resources. (Azshara)|
-$ Marius & Tehd vs a Doomlord|QID|38352|M|46.71,28.20;43.15,28.20|Z|Azsuna|CS|ITEM|138352|T|Kazrok|N|Silver - Continue assisting Marius and Tehd in thier adventurers by participating in killing this Doomlord. Kill and loot for treasure and resources. (Azshara)|
-$ Marius & Tehd vs a Felbat|QID|42069|CS|M|40.9,35.3;40.08,34.20;38.79,33.74;39.63,31.65;36.84,31.24;37.40,29.57;39.08,26.55;40.23,24.74;41.63,23.91;42.31,22.72;43.43,23.83|Z|Azsuna|ITEM|129087|T|Felwing|N|Silver - Start up the path and wind around until you find Marius and Tehd (take stairs to the top of the tower). Talk to Tehd to assist in their adventures by participating in killing this demon. Kill and loot for treasure and resources. (Azshara)|
+$ Marius&Tehd vs a Doomlord|QID|38352|M|46.71,28.20;43.15,28.20|Z|Azsuna|CS|ITEM|138352|T|Kazrok|N|Silver - Continue assisting Marius and Tehd in thier adventurers by participating in killing this Doomlord. Kill and loot for treasure and resources. (Azshara)|
+$ Marius&Tehd vs a Felbat|QID|42069|CS|M|40.9,35.3;40.08,34.20;38.79,33.74;39.63,31.65;36.84,31.24;37.40,29.57;39.08,26.55;40.23,24.74;41.63,23.91;42.31,22.72;43.43,23.83|Z|Azsuna|ITEM|129087|T|Felwing|N|Silver - Start up the path and wind around until you find Marius and Tehd (take stairs to the top of the tower). Talk to Tehd to assist in their adventures by participating in killing this demon. Kill and loot for treasure and resources. (Azshara)|
 $ Glimmering Treasure Chest|QID|42297|Z|Azsuna|M|43.37,22.43|N|Guarded by two same level elite slow-running mobs.  Loot for a bit of treasure and resources. (Azshara)|
 $ Small Treasure Chest|QID|37713|M|44.48,39.47|Z|Azsuna|N|Loot for a bit of treasure and resources. (Azshara)|
 $ Small Treasure Chest|QID|37831|M|49.65,34.47|Z|Azsuna|N|Loot for a bit of treasure and resources. (Azshara)|
@@ -78,7 +83,7 @@ $ Treasure Chest|QID|38419|M|57.15,31.06|Z|Azsuna|N|Loot for a bit of treasure a
 $ Small Treasure Chest|QID|42288|M|55.36,27.74|Z|Azsuna|N|Loot for a bit of treasure and resources. (Azshara)|
 $ Small Treasure Chest|QID|42338|M|55.70,25.48;57.19,25.23|Z|Azsuna|CS|N|Loot for a bit of treasure and resources. (Azshara)|
 $ Small Treasure Chest|QID|40751|M|66.06,43.44|Z|Azsuna|N|Loot for a bit of treasure and resources. (Azshara)|
-$ Marius & Tehd vs a Fel Lord|QID|38212|M|60.50,48.56;59.17,46.44|Z|Azsuna|CS|ITEM|129068|T|Brogozog|N|Follow this path to once again save Thed's hide. Chat with him to start the vignette. Kill and loot the demon for a bit of treasure and resources. (Azshara)|
+$ Marius&Tehd vs a Fel Lord|QID|38212|M|60.50,48.56;59.17,46.44|Z|Azsuna|CS|ITEM|129068|T|Brogozog|N|Follow this path to once again save Thed's hide. Chat with him to start the vignette. Kill and loot the demon for a bit of treasure and resources. (Azshara)|
 $ Small Treasure Chest|QID|42278|M|62.99,54.17|Z|Azsuna|N|Loot for a bit of treasure and resources. (Azshara)|
 $ Small Treasure Chest|QID|40752|M|58.64,53.38|Z|Azsuna|N|Loot for a bit of treasure and resources. (Azshara)|
 $ Small Treasure Chest|QID|44405|M|54.87,52.13|Z|Azsuna|N|Loot for a bit of treasure and resources. Be aware. the NPCs in the alcove with you will take offense at you looting their treasure. (Azshara)|
@@ -110,7 +115,7 @@ $ Small Treaure Chest|QID|40508|M|49.52,40.08;60.82,54.91|CS|Z|Highmountain/29|N
 $ Treasure Chest|QID|40509|M|40.26,50.09|Z|Highmountain/29|N|Backtrack a little ways to pick up this chest for treasure and resources. (Highmountain)|
 $ Glimmering Treasure Chest|QID|39471|M|49.82,53.49;51.19,53.03|Z|Highmountain|CS|N|Before you go in the cavern, take this path up for a treasure directly above the entrance. Loot for a bit of treasure and resources. (Highmountain)|
 $ Small Treasure Chest|QID|40493|M|53.05,52.21|Z|Highmountain|N|Loot for a bit of treasure and resources. (Highmountain)|
-$ Beastmaster Pao'lek & Arru|QID|39784|M|48.68,50.08|Z|Highmountain|ITEM|131756|N|Beastmaster Pao'lek wants your help taming Arru. After he accomplishes it, and you curse at ungreatful hunters, go inside the now empty cave and loot the Thunder Totem Stolen Goods. (Highmountain)|
+$ Beastmaster Pao'lek&Arru|QID|39784|M|48.68,50.08|Z|Highmountain|ITEM|131756|N|Beastmaster Pao'lek wants your help taming Arru. After he accomplishes it, and you curse at ungreatful hunters, go inside the now empty cave and loot the Thunder Totem Stolen Goods. (Highmountain)|
 $ Floating Treasure|QID|39494|M|42.09,52.68|Z|Highmountain|ITEM|131763|N|You can cross over on this log, or just swim, be on the lookout for a Treasure chest that comes to rest here briefly. (Highmountain)|
 $ Mara Swiftmane vs Sure Shot Arnie|QID|40612|M|43.47,47.31|Z|Highmountain|N|Assist Mara and you can have the hunter's treasure. |
 $ Captured Survivor|QID|40096|M|46.66,7.52|Z|Highmountain|ITEM|131797|T|Mrrklr|N|Talk to Sloppy Joe to attract his captor. (Highmountain)|
@@ -187,9 +192,9 @@ $ Small Treasure Chest|QID|40086|M|69.0,41.9|Z|Stormheim|CS|N|In the room with t
 $ Small Treasure Chest|QID|43305|M|72.24,43.75;71.95,44.14|Z|Stormheim|CS|N|Use your grappling hook to go up and get this chest. Loot for a bit of treasure and resources. (Stormheim)|
 $ Small Treasure Chest|QID|43306|M|73.25,42.68;74.41,41.84|Z|Stormheim|CS|N|Get this before you complete the next quest or you will have to run a long ways back to get it.  Use Hook to get up to alcove above. Loot for a bit of treasure and resources. (Stormheim)|
 $ Small Treasure Chest|QID|40085|M|73.33,41.51|Z|Stormheim|N|Loot for treasure and resources. (Stormheim)|
-$ Treasure Chest|QID|38509;38510|M|79.88,24.72|Z|Helheim|N|Loot for treasure and resources. (Stormheim)|
+$ Treasure Chest|QID|38509^38510|M|79.88,24.72|Z|Helheim|N|Loot for treasure and resources. (Stormheim)|
 $ Treasure Chest|QID|38503|M|83.3,24.6|Z|Helheim|N|You can find this chest underwater inside a sunken ship. Loot for treasure and resources. (Stormheim)|
-$ Treasure Chest|QID|38511;38516|M|19.62,46.98|Z|Helheim|N|Loot for treasure and resources. (Stormheim)|
+$ Treasure Chest|QID|38511^38516|M|19.62,46.98|Z|Helheim|N|Loot for treasure and resources. (Stormheim)|
 $ Small Treasure Chest|QID|38383|M|60.7,53.3|Z|Helheim|N|Loot for a bit of treasure and resources. (Stormheim)|
 $ Small Treasure Chest|QID|38480|M|51.4,76.7;52.03,80.56|Z|Stormheim|CS|N|Path Starts beside Hannval's house. Run up to find chest. Loot for a bit of treasure and resources. (Stormheim)|
 $ Small Treasure Chest|QID|43190|M|59.14,87.18;53.19,93.12|Z|Stormheim|CS|N|This is WAY down the trail. Loot or a bit of treasure and resources. Run back up to the flightpath the way you came. (Stormheim)|
@@ -275,7 +280,7 @@ $ Kel'danath's Manaflask|QID|42842|M|21.43,54.47|Z|Suramar|ITEM|136269|U|136269|
 $ Treasure Chest|QID|43844|M|17.26,54.63|Z|Suramar|N|At the top of the ruined building. Loot for some treasure and resources. (Suramar)|
 $ Forgotten Crab Trap|QID|37832|M|63.23,15.22|Z|Azsuna|N|This one is actually in Azsuna, but you are closer now. Loot chest for a bit of treasure and resources. (Suramar)|
 $ Glimmering Treasure Chest|QID|43856|M|42.32,29.99;44.04,31.93|Z|Suramar|CS|N|Go inside the cave behind the waterfall, The path is is across the river and up one tier from Myonix. Loot for treasure and resources. (Suramar)|
-$ Small Treasure Chest|QID|43855;43857|M|51.50,38.61|Z|Suramar|N|Loot for a bit of treasure and resources. (Suramar)|
+$ Small Treasure Chest|QID|43855^43857|M|51.50,38.61|Z|Suramar|N|Loot for a bit of treasure and resources. (Suramar)|
 $ Treasure|QID|43854|M|52.27,29.90|Z|Suramar|N|Loot for a bit of treasure and resources. (Suramar)|
 $ Dusty Treasure|QID|40767|M|52.72,31.30|Z|Suramar|N|Down the wooden stairs for this chest. Loot for a bit of treasure and resources. (Suramar)|
 $ Small Treasure Chest|QID|43853|M|48.14,33.90|Z|Suramar|N|Loot for a bit of treasure and resources. (Suramar)|

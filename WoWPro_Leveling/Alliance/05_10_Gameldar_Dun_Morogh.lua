@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2019-08-05 08:53
+-- Who: Hendo72
+-- Log: - First aid is no longer a profession
+
+-- URL: http://wow-pro.com/node/3200/revisions/30170/view
+-- Date: 2018-12-27 01:50
+-- Who: Ludovicus_Maior
+-- Log:  Frostmane Hovel
+
+-- URL: http://wow-pro.com/node/3200/revisions/30046/view
+-- Date: 2018-10-17 22:38
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3200/revisions/29716/view
 -- Date: 2018-09-10 21:51
 -- Who: Ludovicus_Maior
 
@@ -234,21 +249,6 @@
 -- Who: Ludovicus_Maior
 -- Log: [A Triumph of Gnomish Ingenuity] not [Triumph of Gnomish Ingenuity]
 
--- URL: http://wow-pro.com/node/3200/revisions/25591/view
--- Date: 2013-03-23 20:23
--- Who: Ludovicus_Maior
--- Log: Name tweaks
-
--- URL: http://wow-pro.com/node/3200/revisions/25496/view
--- Date: 2013-01-22 17:53
--- Who: Ludovicus_Maior
--- Log: Changed "Lambs on the Lam" to use special target macro!
-
--- URL: http://wow-pro.com/node/3200/revisions/25412/view
--- Date: 2013-01-13 14:33
--- Who: Ludovicus_Maior
--- Log: Added a CS tag
-
 local guide = WoWPro:RegisterGuide('GamDun0510', 'Leveling', 'Dun Morogh', 'Gameldar', 'Alliance')
 WoWPro:GuideLevels(guide,5,10,5.74453)
 WoWPro:NewGuideLevels(guide,5,20)
@@ -262,7 +262,6 @@ h Thunderbrew Distillery|QID|26373|M|54.47,50.81|N|Make Thunderbrew Distillery y
 N Sell junk|QID|26373|M|54.47,50.81|N|To Innkeeper Belm. Close when done.|
 B Rhapsody Malt|QID|384|M|54.47,50.81|N|From Innkeeper Belm.|L|2894|
 
-N Secondary Profession: First Aid |QID|26373|M|54.31,50.90|N|If you want to learn First Aid, now's the time to start, Thamner Pol will start you off. Click this step to continue.|R|Gnome,Dwarf|
 N Secondary Profession: Cooking |QID|26373|M|54.73,50.58|N|If you want to learn Cooking, now's the time to start, Gremlock Pilsnor will start you off. Click this step to continue.|R|Gnome,Dwarf|
 A Honor Students |QID|6387|M|54.73,50.58|N|From Gremlock.|R|Gnome,Dwarf|
 
@@ -280,7 +279,7 @@ A Bound for Kharanos|QID|26380|M|49.89,45.01|N|From Ciara Deepstone.|R|Dwarf,Hum
 
 A Ride to Ironforge |RANK|2|QID|6391|PRE|6387|M|53.80,52.75|N|The next three quests see you ride to Ironforge and back, and is worth 1,580 XP and some reputation with Ironforge and Gnomeregan.|R|Gnome,Dwarf|
 F Ironforge |RANK|2|QID|6391|M|53.80,52.75|N|Speak with Brolan Galebeard and ask him to fly you to Ironforge|R|Gnome,Dwarf|
-T Ride to Ironforge |RANK|2|QID|6391|M|51.37,26.27|N|To Golnir Bouldertoe, inside the Deepmountain Mining & Jewelcrafting shop (climb steps to first floor, then go downstairs to him)|R|Gnome,Dwarf|Z|Ironforge|
+T Ride to Ironforge |RANK|2|QID|6391|M|51.37,26.27|N|To Golnir Bouldertoe, inside the Deepmountain Mining&Jewelcrafting shop (climb steps to first floor, then go downstairs to him)|R|Gnome,Dwarf|Z|Ironforge|
 A Gryth Thurden |RANK|2|QID|6388|M|51.37,26.27|N|From Golnir Bouldertoe|PRE|6391|R|Gnome,Dwarf|Z|Ironforge|
 T Gryth Thurden |RANK|2|QID|6388|M|55.42,47.80|N|Back to the flight master, Gryth Thurden|PRE|6391|R|Gnome,Dwarf|Z|Ironforge|
 A Return to Gremlock |RANK|2|QID|6392|PRE|6388|M|55.42,47.80|N|From Gryth Thurden|R|Gnome,Dwarf|Z|Ironforge|
@@ -312,8 +311,8 @@ H Thunderbrew Distillery|QID|25668|U|6948|N|Hearth to Thunderbrew Distillery.|
 T Pilfered Supplies|QID|25668|M|53.67,52.11|N|To Quartermaster Glynna.|
 T Culling the Wendigos|QID|25667|M|53.68,52.17|N|To Captain Tharran.|
 T Forced to Watch from Afar|QID|313|M|53.68,52.17|N|To Captain Tharran.|
-A Pushing Forward|QID|25792|PRE|313;25667|M|53.68,52.17|N|From Captain Tharran.|
-A Operation Recombobulation|QID|412|PRE|313;25667|M|53.32,51.98|N|From Razzle Sprysprocket.|
+A Pushing Forward|QID|25792|PRE|313&25667|M|53.68,52.17|N|From Captain Tharran.|
+A Operation Recombobulation|QID|412|PRE|313&25667|M|53.32,51.98|N|From Razzle Sprysprocket.|
 f Kharanos|M|53.77,52.71|N|At Brolan Galebeard.|QID|412|R|Human,NightElf,Draenei,Worgen|
 
 C Beer Basted Boar Ribs|QID|384|S|N|Kill and loot boars you to the Tender Boar Ribs.|
@@ -324,7 +323,7 @@ C Beer Basted Boar Ribs|QID|384|US|N|Kill any boars you still need meat from.|M|
 
 T Operation Recombobulation|QID|412|M|53.32,51.98|N|To Razzle Sprysprocket.|
 T Pushing Forward|QID|25792|M|53.66,52.23|N|To Captain Tharran.|
-A Help from Steelgrill's Depot|QID|25838|PRE|412;25792|M|53.66,52.23|N|From Captain Tharran.|
+A Help from Steelgrill's Depot|QID|25838|PRE|412&25792|M|53.66,52.23|N|From Captain Tharran.|
 N Sell junk, then train any new skills/spells you need|QID|384|N|Close this step to continue.|
 T Beer Basted Boar Ribs|QID|384|M|53.91,50.81|N|To Ragnar Thunderbrew.|
 
@@ -347,7 +346,7 @@ C The View from Down Here|QID|28868|U|67249|N|Use the Viewpoint Equalizer on Fro
 T The View from Down Here|QID|28868|M|62.54,53.72|N|To Snevik the Blade.|
 T Eliminate the Resistance|QID|25840|M|62.53,53.62|N|To Slamp Wobblecog.|
 T Strike From Above|QID|25841|M|62.53,53.62|N|To Slamp Wobblecog.|
-A A Hand at the Ranch|QID|25882|LEAD|25932|PRE|25840;25841|M|62.55,53.73|N|From Slamp Wobblecog.|
+A A Hand at the Ranch|QID|25882|LEAD|25932|PRE|25840&25841|M|62.55,53.73|N|From Slamp Wobblecog.|
 
 T A Hand at the Ranch|QID|25882|M|70.42,49.00|N|To Sergeant Flinthammer.|
 A It's Raid Night Every Night|QID|25932|M|70.42,49.00|N|From Sergeant Flinthammer.|
@@ -360,7 +359,7 @@ T Protecting the Herd|QID|314|M|70.31,48.26|N|To Rudra Amberstill.|
 A Rams on the Lam|QID|25905|PRE|25932|M|70.58,48.77|N|From Veron Amberstill.|
 C Rams on the Lam|QID|25905|M|69.76,57.21|N|Get within 15 yards of them.|NC|T|/cleartarget\n/targetexact Stolen Ram\n/whistle\n|
 T Rams on the Lam|QID|25905|M|70.63,48.92|N|To Veron Amberstill and then sell any junk you've got to him.|
-A Help for the Quarry|QID|25933|PRE|314;25905|M|70.46,48.92|N|From Sergeant Flinthammer.|
+A Help for the Quarry|QID|25933|PRE|314&25905|M|70.46,48.92|N|From Sergeant Flinthammer.|
 
 A Priceless Treasures|QID|25937|M|76.16,53.10|N|From Prospector Drugan.|
 A The Public Servant|QID|433|M|75.88,54.30|N|From Senator Mehr Stonehallow.|
@@ -375,7 +374,7 @@ C Those Blasted Troggs!|QID|432|M|77.65,55.69|N|Finish off any Troggs you still 
 T Priceless Treasures|QID|25937|M|76.20,53.12|N|To Prospector Drugan.|
 T Those Blasted Troggs!|QID|432|M|76.30,54.60|N|To Foreman Stonebrow.|
 T The Public Servant|QID|433|M|75.84,54.34|N|To Senator Mehr Stonehallow.|
-A Trouble at the Lake|QID|25986|LEAD|25978|PRE|432;433;25937|M|75.91,54.26|N|From Senator Mehr Stonehallow.|
+A Trouble at the Lake|QID|25986|LEAD|25978|PRE|432&433&25937|M|75.91,54.26|N|From Senator Mehr Stonehallow.|
 
 T Trouble at the Lake|QID|25986|M|82.79,48.36|N|Head out eastwards to Sergeant Bahrum.|
 A Entombed in Ice|QID|25978|M|82.79,48.36|N|From Sergeant Bahrum.|
@@ -386,7 +385,7 @@ C Dealing with the Surge|QID|25979|M|83.41,49.78|N|Kill Helm's Bed Surfgers.|US|
 T Dealing with the Surge|QID|25979|M|82.69,48.32|N|To Khurgorn Singefeather.|
 T Entombed in Ice|QID|25978|M|82.90,48.38|N|To Sergeant Bahrum.|
 
-A Dark Iron Scheming|QID|25997|PRE|25978;25979|M|82.80,48.38|N|From Sergeant Bahrum.|
+A Dark Iron Scheming|QID|25997|PRE|25978&25979|M|82.80,48.38|N|From Sergeant Bahrum.|
 C Dark Iron Scheming|QID|25997|S|QO|1|M|85.15,60.61|N|Kill Dark Iron Spies.|
 C Dark Iron Scheming|QID|25997|T|Captain Beld|QO|2|M|85.15,60.61|N|Kill Captain Beld and loot the Dark Iron Attack Plans.|
 C Dark Iron Scheming|QID|25997|US|QO|1|N|Kill Dark Iron Spies.|

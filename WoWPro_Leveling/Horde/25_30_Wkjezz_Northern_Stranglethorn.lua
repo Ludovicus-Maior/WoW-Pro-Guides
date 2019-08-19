@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
+-- Date: 2018-10-17 02:26
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3232/revisions/29201/view
 -- Date: 2018-02-27 17:43
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -274,14 +279,14 @@ T Bloodlord Mandokir|QID|26334|M|38.46,48.57|
 T Raptor Mastery|QID|197|M|44.15,23.01|N|To Hemet Nesingwary Jr..|
 T Panther Mastery|QID|193|M|43.78,22.40|N|To Sir S. J. Erlgadin.|
 T Excelsior|QID|26345|M|43.64,23.34|N|To Drizzlik.|
-A Big Game Hunter|QID|208|PRE|188;193;197|M|44.11,23.02|N|From Hemet Nesingwary Jr..|
+A Big Game Hunter|QID|208|PRE|188&193&197|M|44.11,23.02|N|From Hemet Nesingwary Jr..|
 
 ;fix QID
 H Grom'gol Base Camp|QID|26350|N|Hearth Back|
 C Big Game Hunter|QID|208|M|46.26,58.65|
 ;fix QID
 R Grom'gol Base Camp|QID|26350|CC|M|39.54,50.25|N|Run back to Camp|
-;fix QID & name
+;fix QID&name
 F Bambala|QID|26350|N|Fly back across the zone.|
 A The Mosh'Ogg Bounty|QID|26399|M|63.09,40.66|N|From Skeezy Whillzap.|
 T Priestess Hu'rala|QID|26350|M|63.38,39.03|N|To Priestess Hu'rala.|
@@ -299,10 +304,10 @@ C The Mosh'Ogg Bounty|QID|26399|M|67.18,54.25|N|Leave the cave now and head to t
 T The Mind's Eye|QID|26303|M|63.17,41.44|N|To Kin'weelay.|
 A Saving Yenniku|QID|26305|PRE|26303|M|63.17,41.44|N|From Kin'weelay.|
 T The Mosh'Ogg Bounty|QID|26399|M|62.80,40.21|N|To Skeezy Whillzap.|
-A The Universal Key|QID|26400|PRE|26399+26412|M|62.85,40.16|N|From Skeezy Whillzap.|
+A The Universal Key|QID|26400|PRE|26399^26412|M|62.85,40.16|N|From Skeezy Whillzap.|
 ;switched with next A
-A Venture Company Mining|QID|26403|PRE|26399+26412|M|62.89,40.25|N|From Skeezy Whillzap.|
-A Cozzle's Plan|QID|26352|PRE|26399+26412|M|63.18,39.81|N|From Kil'karil.|
+A Venture Company Mining|QID|26403|PRE|26399^26412|M|62.89,40.25|N|From Skeezy Whillzap.|
+A Cozzle's Plan|QID|26352|PRE|26399^26412|M|63.18,39.81|N|From Kil'karil.|
 T Mind Vision|QID|26351|M|63.36,39.00|N|To Priestess Hu'rala.|
 A See Raptor|QID|26359|PRE|26351|M|63.36,39.00|N|From Priestess Hu'rala.|
 ; add CHAT

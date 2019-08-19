@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_icecrown_horde
+-- Date: 2018-10-17 02:28
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3302/revisions/29114/view
 -- Date: 2018-02-22 23:10
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -128,7 +133,7 @@ A It's All Fun and Games|QID|12892|PRE|12887|N|Koltira Deathweaver|
 C It's All Fun and Games|QID|12892|N|Fly to the very top of The Shadow Vault. Stay at maximum range (80 yards) and use the Eyesore Blaster. It can't attack you from this range. When you get The Ocular down to 12.6k or less, fly in to its range, let it hit you once (or you won't get credit), and deliver the final blow with the Eyesore Blaster.|M|44.40,21.85|U|41265|
 T It's All Fun and Games|QID|12892|N|From Baron Sliver. He's at the base of The Shadow Vault in the corner.|M|44.09,24.74|
 
-A I Have an Idea, But First...|QID|12891|PRE|12887+12892|N|From Baron Sliver|M|44.09,24.74|
+A I Have an Idea, But First...|QID|12891|PRE|12887^12892|N|From Baron Sliver|M|44.09,24.74|
 C I Have an Idea, But First...|QID|12891|N|You know the plan by now, kill the mobs in the area for the items.|M|43.24,24.97|
 T I Have an Idea, But First...|QID|12891|N|Back to Baron Sliver at|M|44.06,24.74|
 
@@ -145,7 +150,7 @@ T If He Cannot Be Turned|QID|12897|N|To Koltira Deathweaver back to Orgrim's Ham
 A The Shadow Vault|QID|12899|PRE|12898|N|From Koltira Deathweaver|
 T The Shadow Vault|QID|12899|N|Back to Baron Sliver.|M|42.86,24.99|
 
-A The Duke|QID|12938|PRE|12898+12899|N|From Baron Sliver.|M|42.86,24.99|
+A The Duke|QID|12938|PRE|12898^12899|N|From Baron Sliver.|M|42.86,24.99|
 A Blackwatch|QID|13106|N|From Baron Sliver.|M|42.86,24.99|
 f Shadow Vault|QID|12938|N|Get the Flight Path.|M|43.74,24.30|
 T The Duke|QID|12938|N|To Duka Lankral at the back of the Shadow Vault.|M|44.66,20.41|
@@ -387,14 +392,14 @@ A The Last Line Of Defense|QID|13086|PRE|13070|N|From Siegemaster Fezzik.|M|85.6
 C The Last Line Of Defense|QID|13086|N|Fly up to the top of the towers and use the cannons to kill spiders. When you get the message, use the big bomb to kill the dragons.|
 T The Last Line Of Defense|QID|13086|N|To Siegemaster Fezzik.|M|85.62,76.01|
 
-A Once More Unto The Breach, Hero|QID|13104;13105|N|From Highlord Tirion Fordring who moved down.|M|85.98,75.82|
-T Once More Unto The Breach, Hero|QID|13104;13105|N|To The Ebon Watcher just outside The Breach on the left.|M|83.06,72.91|
+A Once More Unto The Breach, Hero|QID|13104^13105|N|From Highlord Tirion Fordring who moved down.|M|85.98,75.82|
+T Once More Unto The Breach, Hero|QID|13104^13105|N|To The Ebon Watcher just outside The Breach on the left.|M|83.06,72.91|
 
-A The Purging Of Scourgeholme|QID|13118|PRE|13104+13105|N|From The Ebon Watcher.|M|83.06,72.91|
-A The Scourgestone|QID|13122|PRE|13104+13105|N|From The Ebon Watcher.|M|83.06,72.91|
-A It Could Kill Us All|QID|13135|PRE|13104+13105|N|From Crusade Engineer Spitzpatrick.|M|82.99,73.05|
-A The Stone That Started A Revolution|QID|13130|PRE|13104+13105|N|From Crusade Architect Silas|M|83.02,73.05|
-A The Restless Dead|QID|13110|PRE|13104+13105|N|From Father Gustav inside the building|M|82.89,72.79|
+A The Purging Of Scourgeholme|QID|13118|PRE|13104^13105|N|From The Ebon Watcher.|M|83.06,72.91|
+A The Scourgestone|QID|13122|PRE|13104^13105|N|From The Ebon Watcher.|M|83.06,72.91|
+A It Could Kill Us All|QID|13135|PRE|13104^13105|N|From Crusade Engineer Spitzpatrick.|M|82.99,73.05|
+A The Stone That Started A Revolution|QID|13130|PRE|13104^13105|N|From Crusade Architect Silas|M|83.02,73.05|
+A The Restless Dead|QID|13110|PRE|13104^13105|N|From Father Gustav inside the building|M|82.89,72.79|
 C The Scourgestone|QID|13122|N|Loot scourgestones.|S|
 C The Restless Dead|QID|13110|N|Kill the Scourge Skeletons and use the Holy Water on their corpses.|S|U|43153|
 C The Purging Of Scourgeholme|QID|13118|N|Kill scourge. There are 2 High Priests near , you can find the other one ane the Underkings while wandering around.|M|70.80,60.17|
@@ -409,14 +414,14 @@ T It Could Kill Us All|QID|13135|N|To Crusade Engineer Spitzpatrick in the Valle
 T The Stone That Started A Revolution|QID|13130|N|To Crusade Architect Silas|M|83.02,73.05|
 T The Purging Of Scourgeholme|QID|13118|N|To The Ebon Watcher.|M|83.06,72.91|
 T The Scourgestone|QID|13122|N|To The Ebon Watcher.|M|83.06,72.91|
-A The Air Stands Still|QID|13125|PRE|13118;13122|N|From The Ebon Watcher.|M|83.06,72.91|
+A The Air Stands Still|QID|13125|PRE|13118&13122|N|From The Ebon Watcher.|M|83.06,72.91|
 T The Restless Dead|QID|13110|N|From Father Gustav.|M|82.89,72.79|
 K High Priest Yath'amon|N|He's in the building. Get close (10-15 yards) and blow the horn. The DK you summon will get aggro in a few seconds. Make sure you hit him first to get kill credit.  There are 4 mobs in the room with him, you may want to clear them, he casts fear.|QID|13125|QO|3|U|43206|M|80.07,61.16|
 K Salranax the Flesh Render|N|He's in the building. There is 1 mob with him that patrols in a circle. Same plan as before.|QID|13125|QO|1|U|43206|M|77.35,61.87|
 C The Air Stands Still|QID|13125|QO|2|N|Kill Underking Talonox.|U|43206|M|76.46,53.24|
 T The Air Stands Still|QID|13125|N|Use the gate to port back to the Valley of Echoes. To The Ebon Watcher.|
 
-A Into The Frozen Heart Of Northrend|QID|13139|PRE|13110;13124;13130;13135|N|From Father Gustav.|M|82.89,72.79|
+A Into The Frozen Heart Of Northrend|QID|13139|PRE|13110&13124&13130&13135|N|From Father Gustav.|M|82.89,72.79|
 T Into The Frozen Heart Of Northrend|QID|13139|N|From Highlord Tirion Fordring.|M|86.08,75.77|
 
 A The Battle For Crusaders' Pinnacle|QID|13141|PRE|13139|N|To Highlord Tirion Fordring.|M|86.08,75.77|
@@ -517,7 +522,7 @@ A Good For Something?|QID|13238|N|From Sky-Reaver Korm Blackscar.|
 A Takes One to Know One|QID|13260|N|From Sky-Reaver Korm Blackscar.|
 T Takes One to Know One|QID|13260|N|To Koltira Deathweaver|
 
-A Poke and Prod|QID|13237|PRE|13260+14447+14448|N|From Koltira Deathweaver|
+A Poke and Prod|QID|13237|PRE|13260^14447^14448|N|From Koltira Deathweaver|
 T Slaves to Saronite|QID|13302|N|To Brother Keltan|
 T Blood of the Chosen|QID|13330|N|To Warbringer Davos Rioht|
 T Good For Something?|QID|13238|N|To Chief Engineer Copperclaw|

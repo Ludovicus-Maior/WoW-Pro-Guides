@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_southern_barrens_alliance
+-- Date: 2018-10-17 02:23
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3235/revisions/29040/view
 -- Date: 2018-02-20 01:06
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -140,7 +145,7 @@ C Breaking the Siege|QID|24863|M|31.87,8.96|N|Loot Stonetalon Supplies off the g
 C Running the Gauntlet|QID|24862|US|M|31.73,8.51|N|Kill Hunter Hill Scouts.|
 T Running the Gauntlet|QID|24862|M|34.94,9.54|N|To Janice Mattingly.|
 T Breaking the Siege|QID|24863|M|34.94,9.54|N|To Janice Mattingly.|
-A Futile Resistance|QID|25186|PRE|24862;24863|M|34.93,9.57|N|From Janice Mattingly.|
+A Futile Resistance|QID|25186|PRE|24862&24863|M|34.93,9.57|N|From Janice Mattingly.|
 C Futile Resistance|QID|25186|M|35.50,6.40|N|Kill Kona Thunderwalk.|
 T Futile Resistance|QID|25186|M|38.77,11.38|N|To Commander Singleton.|
 A Survey the Destruction|QID|25191|M|39.04,11.48|N|From Nibb Spindlegear.|
@@ -185,7 +190,7 @@ C Silencing Rageroar|QID|24956|M|68.82,38.76|N|Kill the Rageroar Lieutenants.|US
 T Silencing Rageroar|QID|24956|M|66.94,46.77|N|To Tolliver Houndstooth.|
 T Lifting the Siege|QID|24948|M|66.99,46.60|N|To Thomas Paxton.|
 
-A Teegan's Troubles|QID|25036|PRE|24948;24956|M|66.99,46.60|N|From Thomas Paxton.|
+A Teegan's Troubles|QID|25036|PRE|24948&24956|M|66.99,46.60|N|From Thomas Paxton.|
 f Northwatch Hold|QID|25002|M|66.38,47.13|N|At Bill Williamson.|
 A Teegan's People|QID|25000|M|64.85,46.06|N|From Jeffrey Long.|
 A Scavenged|QID|25002|M|61.88,42.10|N|From the Mangled Body.|
@@ -208,8 +213,8 @@ T Make 'em Squeal|QID|25015|M|56.10,42.74|N|To Corporal Teegan.|
 T A Failure to Communicate|QID|25022|M|56.13,42.71|N|To Corporal Teegan.|
 T Filthy Animals|QID|25008|M|56.07,42.56|N|To Goucho.|
 
-A You Flicked a Fine Vine to Leaf Me|QID|25027|PRE|25015;25022|M|56.14,42.73|N|From Corporal Teegan.|
-A Trouble From the Ground Up|QID|25028|PRE|25015;25022|M|56.16,42.77|N|From Hannah Bridgewater.|
+A You Flicked a Fine Vine to Leaf Me|QID|25027|PRE|25015&25022|M|56.14,42.73|N|From Corporal Teegan.|
+A Trouble From the Ground Up|QID|25028|PRE|25015&25022|M|56.16,42.77|N|From Hannah Bridgewater.|
 C Trouble From the Ground Up|QID|25028|S|N|Pick up Budding Flowers from the ground. Herbalists will see them on the minimap if tracking herbs.|
 C You Flicked a Fine Vine to Leaf Me|QID|25027|U|52073|M|52.97,49.71|N|Use the bramblestaff on Three-tooth, then kill the Crones.|
 C Trouble From the Ground Up|QID|25028|US|M|54.02,45.94|N|Pick up Budding Flowers from the ground. Herbalists will see them on the minimap if tracking herbs.|
@@ -230,7 +235,7 @@ T Biological Intervention|QID|24565|M|50.38,40.65|N|To Naralex.|
 A To Harvest Chaos|QID|24574|PRE|24565|M|50.36,40.63|N|From Naralex.|
 T Adder Subtraction|QID|24570|M|50.32,40.50|N|To Muyoh.|
 T Lashvine Seeds|QID|24571|M|50.32,40.50|N|To Muyoh.|
-A Sowing a Solution|QID|24566|PRE|24570;24571|M|50.32,40.50|N|From Muyoh.|
+A Sowing a Solution|QID|24566|PRE|24570&24571|M|50.32,40.50|N|From Muyoh.|
 C To Harvest Chaos|QID|24574|S|M|47.56,38.37|N|Kill and loot Outgrowths until you have 5 kills and a Squirming Heart.|
 C Sowing a Solution|QID|24566|U|49882|M|50.13,38.93|N|If you are lucky, the results may be explosive. Target Raptors/Plainstriders and click the bag.|
 C To Harvest Chaos|QID|24574|US|M|50.20,38.17|N|Kill and loot Outgrowths until you have 5 kills and a Squirming Heart.|
@@ -257,8 +262,8 @@ T Diplomacy By Another Means|QID|25044|M|49.96,49.47|N|To Ambassador Gaines.|
 T A Line in the Dirt|QID|25045|M|49.90,49.64|N|To General Hawthorne.|
 T Fields of Blood|QID|25043|M|49.90,49.64|N|To General Hawthorne.|
 
-A Clap 'Em In Irons|QID|25057|PRE|25043;25045|M|49.90,49.62|N|From General Hawthorne.|
-A The Taurajo Briefs|QID|25059|PRE|25043;25045|M|49.93,49.65|N|From Ambassador Gaines.|
+A Clap 'Em In Irons|QID|25057|PRE|25043&25045|M|49.90,49.62|N|From General Hawthorne.|
+A The Taurajo Briefs|QID|25059|PRE|25043&25045|M|49.93,49.65|N|From Ambassador Gaines.|
 T Lion's Pride|QID|25041|M|49.74,50.50|N|To Sam Trawley.|
 A Marching On Our Stomachs|QID|25042|PRE|25041|M|49.74,50.50|N|From Sam Trawley.|
 C Clap 'Em In Irons|QID|25057|S|U|52271|M|44.62,49.99|N|Challenge Looters, bring their health down to 20%, then use the Northwatch Manacles on them.|
@@ -327,7 +332,7 @@ C Feegly the Exiled|QID|25108|M|48.98,89.39|N|Kill Feegly. Loot the tools right 
 C Hands Off Me Dig!|QID|25106|US|M|47.15,86.71|N|Kill 8 Excavation Raiders, and loot artifacts off of the ground.|
 T Hands Off Me Dig!|QID|25106|M|47.17,88.48|N|To Marley Twinbraid.|
 T Feegly the Exiled|QID|25108|M|47.17,88.48|N|To Marley Twinbraid.|
-A Marley's Final Flight|QID|25120|PRE|25106;25108|M|47.17,88.48|N|From Marley Twinbraid.|
+A Marley's Final Flight|QID|25120|PRE|25106&25108|M|47.17,88.48|N|From Marley Twinbraid.|
 C Marley's Final Flight|QID|25120|M|49.25,86.70|N|Tell marley you are ready to fly.|
 T Marley's Final Flight|QID|25120|M|49.27,86.71|N|To Marley Twinbraid.|
 

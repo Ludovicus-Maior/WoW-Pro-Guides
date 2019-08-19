@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_northern_barrens
+-- Date: 2018-10-17 02:26
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3214/revisions/29197/view
 -- Date: 2018-02-27 17:41
 -- Who: Ludovicus_EditBot
 -- Log: LVL strip
@@ -168,7 +173,7 @@ A The Far Watch Offensive|QID|872|PRE|871|RANK|1|M|63.13,56.24|N|From Kargal Bat
 T Plainstrider Menace|QID|844|M|67.57,38.85|N|To Halga Bloodeye.|
 A Supplies for the Crossroads|QID|5041|PRE|871|RANK|1|M|67.57,38.85|N|From Halga Bloodeye.|
 
-R Cave|QID|872;5041|M|65.92,52.50|CC|N|Head to the entrance of the Cave.|
+R Cave|QID|872^5041|M|65.92,52.50|CC|N|Head to the entrance of the Cave.|
 C Supplies for the Crossroads|QID|5041|NC|S|M|66.32,51.89;63.03,56.47|CN|N|Collect the Supply Crates from the floor in the cave.|
 C The Far Watch Offensive|QID|872|M|63.13,56.24|N|Kill the Razormane Thornweavers.|S|QO|1|
 C The Far Watch Offensive|QID|872|M|63.13,56.24|N|Kill the Razormane Defenders.|S|QO|2|
@@ -178,7 +183,7 @@ C The Far Watch Offensive|QID|872|M|65.92,52.50|N|Finish killing the Razormane T
 
 T The Far Watch Offensive|QID|872|M|67.69,39.50|N|To Kargal Battlescar.|
 T Supplies for the Crossroads|QID|5041|M|67.46,38.79|N|To Halga Bloodeye.|
-A Crossroads Caravan Pickup|QID|13949|PRE|872;5041|RANK|1|M|67.41,38.83|N|From Halga Bloodeye.|
+A Crossroads Caravan Pickup|QID|13949|PRE|872&5041|RANK|1|M|67.41,38.83|N|From Halga Bloodeye.|
 C Crossroads Caravan Pickup|QID|13949|M|56.38,42.02|N|Speak to Halga, then mount the Lead Caravan Kodo that spawns on the road. The caravan will then take you to Grol'dom Farm. It is not necessary to shoot any Razormane Raiders.|NC|
 
 T Crossroads Caravan Pickup|QID|13949|M|56.38,40.41|N|To Kranal Fiss.|
@@ -261,7 +266,7 @@ A A Growing Problem|QID|13988|PRE|870|RANK|1|M|49.43,58.64|N|From Tonga Runetote
 T The Zhevra|QID|845|M|49.97,59.79|N|To Sergra Darkthorn.|
 T Hunting the Huntress|QID|903|M|49.97,59.79|N|To Sergra Darkthorn.|
 
-A Echeyakee|QID|881|PRE|845;903|M|49.97,59.79|N|From Sergra Darkthorn.|
+A Echeyakee|QID|881|PRE|845&903|M|49.97,59.79|N|From Sergra Darkthorn.|
 C Echeyakee|QID|881|U|10327|M|47.48,44.01|N|Use the Horn of Echeyakee at his lair. Take the North road.|
 
 T Echeyakee|QID|881|M|49.98,59.82|N|To Sergra Darkthorn.|
@@ -302,11 +307,11 @@ T The Stagnant Oasis|QID|877|PRE|13988|M|49.48,58.73|N|To Tonga Runetotem.|
 T Altered Beings|QID|880|M|49.48,58.73|N|To Tonga Runetotem.|
 T In Fungus We Trust|QID|13998|M|48.65,58.38|N|To Apothecary Helbrim.|
 A Who's Shroomin' Who?|QID|13999|PRE|13998|RANK|1|M|48.65,58.38|N|From Apothecary Helbrim.|
-A Deathgate's Reinforcements|QID|14073|LEAD|852|PRE|850;851|RANK|1|M|48.68,59.54|N|From Thork.|
+A Deathgate's Reinforcements|QID|14073|LEAD|852|PRE|850&851|RANK|1|M|48.68,59.54|N|From Thork.|
 
 T Deathgate's Reinforcements|QID|14073|M|37.79,55.33|N|To Regthar Deathgate.|
 A Centaur Bracers|QID|855|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
-A Hezrul Bloodmark|QID|852|PRE|850;851|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
+A Hezrul Bloodmark|QID|852|PRE|850&851|RANK|1|M|37.79,55.33|N|From Regthar Deathgate.|
 
 C Centaur Bracers|QID|855|S|M|39.71,70.36|N|Kill Kolkar Marauders and Stormseers and loot their Bracers.|
 C Hezrul Bloodmark|QID|852|M|40.14,72.17|N|Slay Hezrul Bloodmark and collect his head. He has two minions with him.|T|Hezrul Bloodmark|
@@ -315,7 +320,7 @@ C Centaur Bracers|QID|855|US|M|39.71,70.36|N|Finish collecting 10 Centaur Bracer
 T Hezrul Bloodmark|QID|852|M|37.82,55.28|N|To Regthar Deathgate.|
 T Centaur Bracers|QID|855|M|37.82,55.28|N|To Regthar Deathgate.|
 
-A Counterattack!|QID|4021|PRE|852;855|RANK|1|M|37.82,55.28|N|From Regthar Deathgate.|
+A Counterattack!|QID|4021|PRE|852&855|RANK|1|M|37.82,55.28|N|From Regthar Deathgate.|
 C Counterattack!|QID|4021|M|36.06,54.79|N|Kill Kolkar centaur until Krom'zar appears, then slay him. Don't forget to take a Piece of Krom'zar's Banner.|
 T Counterattack!|QID|4021|M|37.88,55.23|N|To Regthar Deathgate.|
 R Ratchet|QID|13991|M|66.90,72.72|N|Head to The Crossroads and ride to Ratchet.|
@@ -497,7 +502,7 @@ T Miner's Fortune|QID|29015|M|62.63,16.98|N|To Brak Blusterpipe.|
 T Read the Manual|QID|14006|M|62.25,17.41|N|To Sputtervalve.|
 
 ; The Dreadmist Peak sequence. All part of a quest chain, triggered by [Read the Manual]
-A The Short Way Home|QID|29094|LEAD|875|PRE|29015;29086|RANK|1|M|62.25,17.41|N|From Sputtervalve|
+A The Short Way Home|QID|29094|LEAD|875|PRE|29015&29086|RANK|1|M|62.25,17.41|N|From Sputtervalve|
 C The Short Way Home|QID|29094|RANK|1|M|62.15,17.43|N|Hop on the Silver Bullet X-831.|
 T The Short Way Home|QID|29094|M|30.59,45.95|N|To Darsok Swiftdagger.|
 A Harpy Raiders|QID|867|RANK|2|M|30.59,45.95|N|From Darsok Swiftdagger.|

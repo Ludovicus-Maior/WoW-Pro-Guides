@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_alliance
+-- Date: 2018-10-17 02:23
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3241/revisions/29149/view
 -- Date: 2018-02-24 17:50
 -- Who: Ludovicus_EditBot
 -- Log: King Anduin Wyrnn
@@ -181,7 +186,7 @@ A Dastardly Denizens of the Deep|QID|27218|PRE|27217|M|72.10,47.07|N|From Babs F
 T Dastardly Denizens of the Deep|QID|27218|M|69.28,51.87|N|To "Dirty" Michael Crowe.|
 A Is it Real?|QID|27219|PRE|27218|M|69.23,51.95|N|From "Dirty" Michael Crowe.|
 T The End of the Deserters|QID|27213|M|68.37,51.11|N|To Calia Hastings.|
-A The Hermit of Swamplight Manor|QID|27215|LEAD|27183|PRE|27213+27222|M|68.21,51.87|N|From Sergeant Amelyn.|
+A The Hermit of Swamplight Manor|QID|27215|LEAD|27183|PRE|27213^27222|M|68.21,51.87|N|From Sergeant Amelyn.|
 T Is it Real?|QID|27219|M|58.74,60.15|N|To Nat Pagle.|
 A Nat's Bargain|QID|27220|PRE|27219|M|58.74,60.15|N|From Nat Pagle.|
 C Nat's Bargain|QID|27220|U|33166|M|56.26,62.75|N|Use Pagle's Fish Paste, then swim to this spot. A shark will attack you, so kill it.|
@@ -190,7 +195,7 @@ T Nat's Bargain|QID|27220|M|58.72,60.18|N|To Nat Pagle.|
 A Oh, It's Real|QID|27221|PRE|27220|M|58.72,60.18|N|From Nat Pagle.|
 H Theramore Isle|QID|27221|N|Hearth back to Theramore Isle, or run if your hearth is down.|M|66.41,45.27|
 A Tabetha's Farm|QID|11212|M|66.10,46.08|N|From Guard Byron.|
-A A Disturbing Development|QID|27214|LEAD|27234|PRE|27213+27222|M|65.18,46.87|N|From Lieutenant Aden.|
+A A Disturbing Development|QID|27214|LEAD|27234|PRE|27213^27222|M|65.18,46.87|N|From Lieutenant Aden.|
 A Mission to Mudsprocket|QID|27248|M|65.08,47.00|N|From Lieutenant Aden.|
 r Repair and Sell Junk|QID|27214|M|67.90,49.99|N|Jensen Farran.|
 T Oh, It's Real|QID|27221|M|69.59,51.72|N|To Major Mills.|
@@ -299,7 +304,7 @@ H Theramore Isle|QID|1222|N|Hearth back to Theramore Isle, or run if your hearth
 T Stinky's Escape|QID|1222|M|68.21,48.66|N|To Morgan Stern.|
 T The Deserters|QID|27288|M|68.20,48.53|N|To Captain Garran Vimes.|
 
-A A Grim Connection|QID|27425|PRE|27262;27285;27288|M|68.20,48.53|N|From Captain Garran Vimes.|
+A A Grim Connection|QID|27425|PRE|27262&27285&27288|M|68.20,48.53|N|From Captain Garran Vimes.|
 r Repair/Sell Junk|QID|27425|M|67.39,47.88|N|at Piter Verance.|
 T A Grim Connection|QID|27425|M|46.63,24.63|N|To Captain Darill.|
 A Confirming the Suspicion|QID|27426|PRE|27425|M|46.63,24.63|N|From Captain Darill.|
@@ -317,7 +322,7 @@ T Unleash the Raptors|QID|27243|M|46.60,23.13|N|To Sergeant Lukas.|
 T Confirming the Suspicion|QID|27426|M|46.63,24.66|N|To Captain Darill.|
 T Arms of the Grimtotems|QID|27427|M|46.63,24.66|N|To Captain Darill.|
 
-A Tabetha's Assistance|QID|27428|PRE|27426;27427|M|46.63,24.63|N|From Captain Darill.|
+A Tabetha's Assistance|QID|27428|PRE|27426&27427|M|46.63,24.63|N|From Captain Darill.|
 C The Reagent Thief|QID|27339|US|M|43.88,38.39|N|"Finally, He tells us to complete this quest"|
 A Direhorn Raiders|QID|27340|M|46.15,57.41|N|From Apprentice Morlann.|
 A The Zeppelin Crash|QID|27346|M|46.06,57.51|N|From Apprentice Morlann.|
@@ -370,7 +375,7 @@ T Catch a Dragon by the Tail|QID|27413|M|41.59,72.98|N|To Gizzix Grimegurgle.|
 T Banner of the Stonemaul|QID|27408|M|41.88,73.95|N|To Brogg.|
 T The Essence of Enmity|QID|27409|M|41.87,73.89|N|To Brogg.|
 
-A Spirits of Stonemaul Hold|QID|27410|PRE|27408;27409|M|41.86,73.81|N|From Brogg.|
+A Spirits of Stonemaul Hold|QID|27410|PRE|27408&27409|M|41.86,73.81|N|From Brogg.|
 C Spirits of Stonemaul Hold|QID|27410|U|33091|M|42.32,65.76|N|Right click on piles of bones and kill the orge ghosts.|
 T Spirits of Stonemaul Hold|QID|27410|M|41.87,73.91|N|To Brogg.|
 A Challenge to the Black Flight|QID|27411|PRE|27410|M|41.87,73.91|N|From Brogg.|

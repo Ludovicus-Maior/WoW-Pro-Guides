@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
+-- Date: 2018-10-17 02:24
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3271/revisions/29238/view
 -- Date: 2018-04-22 18:44
 -- Who: Ludovicus_Maior
 -- Log: Add some missing U tags to quests.
@@ -284,8 +289,8 @@ A The Dark Missive |N|Right-click the missive to start this quest. |QID|10395|U|
 T Invasion Point: Annihilator |QID|10397|N|To Field Marshal Brock.|M|68.3,28.6|
 
 H Honor Hold |QID|10903|N|Hearth to Honor Hold. |U|6948|M|54.50,63.60|
-A An Old Gift |QID|10058|PRE|10143+10483|M|54.3,63.4|N|From Father Malgor Devidicus.|
-A The Longbeards |QID|9558|LEAD|9417|PRE|10143+10483|M|54.3,63.4|N|From Sid Limbardi.|
+A An Old Gift |QID|10058|PRE|10143^10483|M|54.3,63.4|N|From Father Malgor Devidicus.|
+A The Longbeards |QID|9558|LEAD|9417|PRE|10143^10483|M|54.3,63.4|N|From Sid Limbardi.|
 T Return to Honor Hold |QID|10903|M|54.3,63.6|N|Upstairs to Assistant Klatu.|
 A Fel Spirits |QID|10909|PRE|10903|M|54.3,63.6|N|From Assistant Klatu.|
 A Digging for Prayer Beads |QID|10916|PRE|10903|M|54.3,63.6|N|From Assistant Klatu.|
@@ -293,15 +298,15 @@ B Silken Thread|QID|10916|M|54.63,63.71|N|Head into the next room and buy a Silk
 B Fei Fei Doggy Treat|QID|10916|M|56.34,62.85|N|Buy a treat from Warrant Officer Tracy Proudwell.|L|31799|
 l Draenei Prayer Beads|QID|10916|M|54.16,63.32|N|Give the treat to Fei Fei, then follow the dog. Loot Fei Fei's Cache (glittering dirt pile) once she stops at the waypoint.|L|31795|
 r Sell junk, repair, restock |N|Sell junk, repair, restock  |M|54.65,63.53|QID|10916|
-A Hellfire Fortifications |QID|10106|PRE|13408+13410|M|56.34,62.78|N|From Warrant Officer Tracy Proudwell. This is optional as it is a PvP quest, so skip if you don't wish to do it.|
+A Hellfire Fortifications |QID|10106|PRE|13408^13410|M|56.34,62.78|N|From Warrant Officer Tracy Proudwell. This is optional as it is a PvP quest, so skip if you don't wish to do it.|
 T The Dark Missive |QID|10395|N|Head to Warp-Scryer Kryv.|M|56.69,66.52|
 A The Heart of Darkness |QID|10399|PRE|10395|N|From Warp-Scryer Kryv.|M|56.69,66.52|
-A The Path of Glory |QID|10047|PRE|10143+10483|N|From Warp-Scryer Kryv.|M|56.69,66.52|
+A The Path of Glory |QID|10047|PRE|10143^10483|N|From Warp-Scryer Kryv.|M|56.69,66.52|
 A Overlord |QID|10400|PRE|10395|N|From Force Commander Danath Trollbane.|M|56.64,66.69|
 
-A Unyielding Souls |QID|10050|PRE|10143+10483|M|50.9,60.2|N|From Honor Guard Wesilow.|
-A A Job for an Intelligent Man |QID|9355|PRE|10143+10483|M|52.0,62.6|N|From Foreman Biggums.|
-A When This Mine's a-Rockin' |QID|10079|PRE|10143+10483|M|52.0,62.6|N|From Foreman Biggums.|
+A Unyielding Souls |QID|10050|PRE|10143^10483|M|50.9,60.2|N|From Honor Guard Wesilow.|
+A A Job for an Intelligent Man |QID|9355|PRE|10143^10483|M|52.0,62.6|N|From Foreman Biggums.|
+A When This Mine's a-Rockin' |QID|10079|PRE|10143^10483|M|52.0,62.6|N|From Foreman Biggums.|
 C A Job for an Intelligent Man |N|Kill the sandworms needed for this quest.|QID|9355|M|46.00,64.00|
 l Eroded Leather Case |QID|9373|N|Kill worms until you get an Eroded Leather Case.|L|23338|M|46.00,64.00|
 A Missing Missive |N|Right-click the case to accept the quest. |QID|9373|U|23338|M|47.8,65.8|
@@ -315,7 +320,7 @@ H Honor Hold |QID|10916|N|Hearth to Honor Hold.|U|6948|M|55.00,86.80|
 
 T Fel Spirits |QID|10909|M|54.3,63.6|N|To Assistant Klatu.|
 T Digging for Prayer Beads|QID|10916|M|54.3,63.6|N|To Assistant Klatu.|
-A The Exorcism of Colonel Jules|QID|10935|PRE|10909;10916|M|54.3,63.6|N|From Assistant Klatu.|
+A The Exorcism of Colonel Jules|QID|10935|PRE|10909&10916|M|54.3,63.6|N|From Assistant Klatu.|
 C The Exorcism of Colonel Jules|N|Talk to Anchorite Barada and start the ritual. Kill the mobs that spawn. When there are too many mobs in the room, use the Prayer Beads to kill them. Talk to Colonel Jules afterwards to finish it.|QID|10935|M|53.90,63.55|
 T The Exorcism of Colonel Jules|QID|10935|M|54.3,63.6|N|To Assistant Klatu.|
 A Trollbane is Looking for You|QID|10936|PRE|10935|M|54.3,63.6|N|From Assistant Klatu.|

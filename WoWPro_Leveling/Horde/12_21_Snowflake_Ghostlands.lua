@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2018-10-30 18:11
+-- Who: Emmaleah
+-- Log: Added N Fair Warning|N|This guide is out of date with current changes in Ghostlands and needs serious work. Use at your own risk.| at beginning of guide due to the multitude of comments about it's shortcomings. 
+
+-- URL: http://wow-pro.com/node/3221/revisions/30070/view
+-- Date: 2018-10-23 01:50
+-- Who: Emmaleah
+-- Log: Moved a few pick up / turn ins at suncrown village/amani catacombs, but I suspect more is needed.
+
+-- URL: http://wow-pro.com/node/3221/revisions/29966/view
+-- Date: 2018-10-17 02:26
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3221/revisions/29586/view
 -- Date: 2018-08-23 19:35
 -- Who: Emmaleah
 -- Log: Update old style QOs
@@ -146,6 +161,9 @@ return [[
 
 ;This step will not show if you have completed A Somber Task as part of the Eversong Woods guide
 ;as you'll be closer to quest ender, and will already be carrying the two quests.
+
+N Fair Warning|N|This guide is out of date with current changes in Ghostlands and needs serious work. Use at your own risk.|
+
 R Fairbreeze Village |QID|9144|M|44.06,70.73|N|This guide begins at Fairbreeze Village, which is south-west of Silvermoon City in Eversong Woods.\n\nThere will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|Z|Eversong Woods|
 
 A Missing in the Ghostlands |QID|9144|LEAD|9329|M|44.06,70.73|N|From Magistrix Landra Dawnstrider.|Z|Eversong Woods|
@@ -166,7 +184,7 @@ A The Forsaken |QID|9327|R|BloodElf|N|From Vandril.|M|46.35,28.39|
 A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|N|From Vandril.|
 T The Forsaken |QID|9327|M|44.84,32.43|R|BloodElf|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
 T The Forsaken |QID|9329|M|44.84,32.43|R|Orc,Troll,Tauren,Undead,Goblin|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
-A Return to Arcanist Vandril|QID|9758|PRE|9327+9329|M|44.84,32.43|N|From High Executor Mavren.|
+A Return to Arcanist Vandril|QID|9758|PRE|9327^9329|M|44.84,32.43|N|From High Executor Mavren.|
 T Return to Arcanist Vandril|QID|9758|M|46.33,28.45|N|To Arcanist Vandril.|
 A Suncrown Village|QID|9138|PRE|9758|M|46.33,28.45|N|From Arcanist Vandril.|
 
@@ -174,7 +192,7 @@ A Wanted: Knucklerot and Luzran|QID|9156|M|48.30,31.64|N|From the Wanted Poster.
 h Tranquillien|QID|9157|M|48.87,32.38|N|At Innkeeper Kalarin.|
 r Training/Repair/Sell Junk|QID|9157|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n\nClick this step to continue.|
 
-A Anok'suten|QID|9315|PRE|9327+9329|M|57.53,14.94|N|From Dying Blood Elf near Suncrown Village.|
+A Anok'suten|QID|9315|PRE|9327^9329|M|57.53,14.94|N|From Dying Blood Elf near Suncrown Village.|
 C Suncrown Village|QID|9138|S|M|57.51,11.39|N|Kill 10 Nerubis Guards.|
 C Anok'suten|QID|9315|M|61.59,12|N|Anok'suten is a Level 11 elite with 624 HP. He wanders counter-clockwise around the circle path.|T|Anok'suten|
 C Suncrown Village|QID|9138|US|M|57.51,11.39|N|Kill 10 Nerubis Guards.|
@@ -207,8 +225,8 @@ T Spirits of the Drowned|QID|9274|M|72.21,29.76|N|To Ranger Krenn'an.|
 T Report to Captain Helios|QID|9146|M|72.37,29.63|N|To Captain Helios.|
 
 H Tranquillien|QID|9152|N|Hearth back to Tranquillien.|
-A The Plagued Coast|QID|9149|PRE|9327+9329|M|47.66,34.86|N|From Apothecary Renzithen.|
-A Tomber's Supplies|QID|9152|PRE|9327+9329|M|47.01,28.38|N|From Rathis Tomber.|
+A The Plagued Coast|QID|9149|PRE|9327^9329|M|47.66,34.86|N|From Apothecary Renzithen.|
+A Tomber's Supplies|QID|9152|PRE|9327^9329|M|47.01,28.38|N|From Rathis Tomber.|
 A Goldenmist Village|QID|9139|PRE|9138|M|46.24,28.35|N|From Arcanist Vandril.|
 A Culinary Crunch|QID|9171|M|48.43,30.93|N|From Master Chef Mouldier.|
 ;r Repair/Restock|QID|9171|M|49.08,30.31|N|At Blacksmith Frances.|
@@ -258,7 +276,7 @@ T Windrunner Village|QID|9140|M|46.39,28.44|N|To Arcanist Vandril.|
 T Into Occupied Territory|QID|9163|M|44.88,32.51|N|To Dame Auriferous.|
 A Deliver the Plans to An'telas|QID|9166|PRE|9163|M|44.88,32.51|N|From Dame Auriferous.|
 T Trouble at the Underlight Mines|QID|9192|M|44.74,32.29|N|To Deathstalker Maltendis.|
-A Troll Juju|QID|9199|M|44.81,32.33|N|From High Executor Mavren.|
+A Troll Juju|QID|9199|M|44.81,32.33|N|From Deathstalker Maltendis.|
 T Retaking Windrunner Spire|QID|9173|M|44.82,32.37|N|To High Executor Mavren.|
 T The Lady's Necklace|QID|9175|M|44.82,32.37|N|To High Executor Mavren.|
 A Journey to Undercity|QID|9180|PRE|9175|M|44.82,32.37|R|BloodElf|N|From High Executor Mavren.|
@@ -287,6 +305,8 @@ C Escape from the Catacombs|QID|9212|NC|M|72.36,30.09|N|She is slow inside the c
 C Investigate the Amani Catacombs|QID|9193|NC|U|22755|M|62.92,32.46|N|Finish burning any Troll remains you need.|US|
 C Troll Juju|QID|9199|M|66,28|N|Kill any Troll you come across to get 8 Troll Juju.|US|
 T Escape from the Catacombs|QID|9212|M|72.37,29.72|N|To Captain Helios.|
+T Troll Juju|QID|9199|M|71.6,31.6|N|To Apothecary Venustus.|
+T Investigate the Amani Catacombs|QID|9193|M|71.89,32.63|N|To Ranger Vynna.|
 r Repair/Restock|QID|9212|M|72.13,31.97|N|At Narina.|
 T The Traitor's Shadow|QID|9161|M|79.63,17.72|N|Fight your way in, and click on the book that is at the end of the ramp. Kill Vamperic Mistbats as you go.|
 A Hints of the Past|QID|9162|PRE|9161|M|79.63,17.72|N|From the book.|
@@ -311,8 +331,6 @@ C Shadowpine Weaponry|QID|9214|M|63.86,66.49|US|N|Kill Catlords and Hexxers till
 
 H Tranquillien|QID|9193|U|6948|N|Hearth back to Tranquillien or fly there if you want to save your hearth.|
 A The Sanctum of the Sun|QID|9151|LEAD|9220|M|46.01,31.95|N|From Magister Darenis.|
-T Troll Juju|QID|9199|M|44.74,32.29|N|To Deathstalker Maltendis.|
-T Investigate the Amani Catacombs|QID|9193|M|44.85,32.65|N|To Advisor Valwyn.|
 r Repair/Restock|M|49.07,30.33|N|At Blacksmith Frances.|
 F Hatchet Hills|QID|9169|M|45.5,30.55|N|Fly to Hatchet Hills (Zul'Aman).|
 l Crystal Controlling Orb|QID|9169|L|23191 |M|58.20,64.72|N|Kill Sentinel Infiltrators until you get a Crystal Controlling Orb.|

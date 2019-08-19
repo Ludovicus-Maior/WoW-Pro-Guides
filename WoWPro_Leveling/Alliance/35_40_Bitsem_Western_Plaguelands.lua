@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_alliance
+-- Date: 2019-07-24 07:27
+-- Who: Hendo72
+-- Log: Made corrections for prequels as suggested by Grail.
+
+-- URL: http://wow-pro.com/node/3244/revisions/29931/view
+-- Date: 2018-10-17 02:23
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3244/revisions/29589/view
 -- Date: 2018-08-23 23:43
 -- Who: jovieve
 -- Log: Removed old style QO since step has a CS tag.
@@ -211,9 +221,9 @@ A Araj the Summoner|QID|27164|PRE|27161|M|41.28,70.19|N|From Lang Loosegrip.|
 T Scourge First... Horde Later|QID|27159|M|41.06,70.44|N|To Thassarian.|
 T War Machines|QID|27160|M|41.10,70.46|N|To Lurid.|
 
-A Brute Strength|QID|27163|PRE|27160|M|41.10,70.46|N|From Thassarian.|S|
-A Scholomancer|QID|27162|PRE|27160|M|41.10,70.46|N|From Thassarian.|
-A Brute Strength|QID|27163|PRE|27160|M|41.10,70.46|N|From Thassarian.|US|
+A Brute Strength|QID|27163|PRE|27159&27160|M|41.10,70.46|N|From Thassarian.|S|
+A Scholomancer|QID|27162|PRE|27159&27160|M|41.10,70.46|N|From Thassarian.|
+A Brute Strength|QID|27163|PRE|27159&27160|M|41.10,70.46|N|From Thassarian.|US|
 
 C Brute Strength|QID|27163|M|43.57,69.61|N|Level 35 Elite, inside the building.|
 C Araj the Summoner|QID|27164|U|60849|M|45.20,69.32|N|Loot Araj's Phylactery Shard. Araj guards the area, so you may need to attack him. If so, use Lang's Hand Grenades if he summons skeletons.|NC|
@@ -225,7 +235,7 @@ T Scholomancer|QID|27162|M|41.13,70.48|N|To Thassarian.|
 T Brute Strength|QID|27163|M|41.13,70.48|N|To Thassarian.|US|
 T Araj the Summoner|QID|27164|M|41.13,70.48|N|To Thassarian.|US|
 
-A Victory, For Now|QID|27165|PRE|27162;27163;27164|M|41.13,70.48|N|From Thassarian.|
+A Victory, For Now|QID|27165|PRE|27162&27163&27164|M|41.13,70.48|N|From Thassarian.|
 f Andorhal|QID|27165|M|39.44,69.55|N|Get flightpoint from Ginny Goodwin.|
 F Chillwind Camp |QID|27165|M|39.44,69.55|N|Speak to Ginny Goodwin for a free-flight to Chillwind Camp.|
 f Chillwind Camp|QID|27165|M|42.95,84.95|N|Get flightpoint from Bibilfaz Featherwhistle.|
@@ -245,8 +255,8 @@ C A Mighty Hunger|QID|27167|US|M|41.93,79.46;35.18,76.18|CN|N|Finish killing bea
 
 T Go Fletch!|QID|27166|M|42.73,83.98|N|To Commander Ashlam Valorfist.|
 T A Mighty Hunger|QID|27167|M|42.73,83.98|N|To Thurman Grant.|
-A Uther's Blessing|QID|27169|PRE|27167|M|42.73,83.98|N|From Commander Ashlam Valorfist.|
-A Those That Couldn't Let Go|QID|27168|PRE|27167|M|43.32,83.81|N|From High Priestess MacDonnell.|
+A Uther's Blessing|QID|27169|PRE|27166&27167|M|42.73,83.98|N|From Commander Ashlam Valorfist.|
+A Those That Couldn't Let Go|QID|27168|PRE|27166&27167|M|43.32,83.81|N|From High Priestess MacDonnell.|
 
 ; ** Added target button to make quest easier. Direction is irrelevant for this quest as long as you are within range to use Holy Thurible
 C Those That Couldn't Let Go|QID|27168|S|U|60861|T|Withdrawn Soul|M|49.84,80.79|N|From now on use the Holy Thurible on Withdrawn Souls.  Some may turn hostile.|
@@ -276,7 +286,7 @@ C Combat Training|QID|27174|M|53.91,65.70|N|Talk to Gory, then help the villager
 T Combat Training|QID|27174|M|53.84,64.66|N|To Thurman Grant.|
 T The Menders' Stead|QID|27175|M|49.31,54.87|N|To Field Agent Kaartish.|
 
-A A New Era for the Plaguelands|QID|26999|PRE|27175|M|49.31,54.87|N|From Field Agent Kaartish.|
+A A New Era for the Plaguelands|QID|26999|M|49.31,54.87|N|From Field Agent Kaartish.|
 A Zen'Kiki, the Druid|QID|26953|M|48.98,54.75|N|From Adrine Towhide.|
 A I Ain't Sayin' You a Gourd-Digger...|QID|26956|M|48.60,54.88|N|From Selyria Groenveld.|
 
@@ -390,7 +400,7 @@ A Desperate Acts|QID|27054|PRE|27057|M|49.32,54.76|N|From Field Agent Kaartish.|
 A Zen'Kiki and the Cultists|QID|26955|PRE|27057|M|48.93,54.76|N|From Adrine Towhide.|
 T Memories from a Lost Past|QID|27017|M|50.60,52.60|N|To Del Gahrron.|
 
-A The Battle Resumes!|QID|27197|PRE|27175+27233|M|50.39,52.70|N|From Durnt Brightfalcon.|
+A The Battle Resumes!|QID|27197|PRE|27175^27233|M|50.39,52.70|N|From Durnt Brightfalcon.|
 
 C Zen'Kiki and the Cultists|QID|26955|NC|M|66.78,47.12|N|Take Zen'Kiki to the cages. Open them, let him heal.|S|
 C Desperate Acts|QID|27054|M|66.04,47.75|N|Kill Instructor Malicia and loot the orders.|
@@ -413,7 +423,7 @@ C Supporting the Troops|QID|27198|US|M|44.45,65.66|N|Finish killing Deathguards.
 
 T Supporting the Troops|QID|27198|M|39.94,69.42|N|To Lang Loosegrip.|
 T Ashes to Ashes|QID|27199|M|39.94,69.42|N|To Thassarian.|
-A The Depravity of the Forsaken|QID|27205|PRE|27198;27199|M|39.74,69.52|N|From Thassarian.|
+A The Depravity of the Forsaken|QID|27205|PRE|27198&27199|M|39.74,69.52|N|From Thassarian.|
 
 T The Depravity of the Forsaken|QID|27205|M|39.84,69.51|N|To Thassarian.|
 A Val'kyr Incursion|QID|27201|PRE|27205|M|39.84,69.51|N|From Thassarian.|
@@ -426,7 +436,7 @@ C Val'kyr Incursion|QID|27201|US|M|41.80,70.42|N|Finish killing those Lesser Val
 T Brother Against Brother|QID|27202|M|39.90,69.65|N|To Thurman Grant.|
 T Val'kyr Incursion|QID|27201|M|39.89,69.55|N|To Thassarian.|
 
-A Aradne|QID|27204|PRE|27201;27202|M|39.89,69.55|N|From Thassarian.|
+A Aradne|QID|27204|PRE|27201&27202|M|39.89,69.55|N|From Thassarian.|
 C Aradne|QID|27204|M|40.37,72.24|N|Head up the tower and kill the elite Aradne.  Your companions will be there to help you.|
 T Aradne|QID|27204|M|39.97,69.58|N|To Thassarian.|
 

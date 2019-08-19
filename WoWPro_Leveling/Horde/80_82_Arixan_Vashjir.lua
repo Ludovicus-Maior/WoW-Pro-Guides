@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_vash039jir_horde
+-- Date: 2018-10-17 02:28
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3306/revisions/29593/view
 -- Date: 2018-08-24 08:39
 -- Who: Emmaleah
 -- Log: To correct old style QOs
@@ -182,10 +187,10 @@ C Traveling on Our Stomachs|QID|25943|US|M|40.68,28.84|Z|Kelp'thar Forest|N|Kill
 T Buy Us Some Time|QID|25942|M|38.99,32.05|Z|Kelp'thar Forest|N|To Legionnaire Nazgrim.|
 T Traveling on Our Stomachs|QID|25943|M|38.99,32.05|Z|Kelp'thar Forest|N|To Legionnaire Nazgrim.|
 
-A Girding Our Loins|QID|25944|PRE|25942;25943;25946|M|38.99,32.05|Z|Kelp'thar Forest|N|From Legionnaire Nazgrim.|
+A Girding Our Loins|QID|25944|PRE|25942&25943&25946|M|38.99,32.05|Z|Kelp'thar Forest|N|From Legionnaire Nazgrim.|
 A Helm's Deep|QID|25946|M|38.85,26.74|Z|Kelp'thar Forest|N|Swim out of the ship, to the piece of Alliance S.E.A.L. Equipment. Click on it to get the quest Helm's Deep.|
 T Helm's Deep|QID|25946|M|38.97,32.03|Z|Kelp'thar Forest|N|To Legionnaire Nazgrim.|
-A Finders, Keepers|QID|25947|PRE|25942;25943;25946|M|38.97,32.03|Z|Kelp'thar Forest|N|From Legionnaire Nazgrim.|
+A Finders, Keepers|QID|25947|PRE|25942&25943&25946|M|38.97,32.03|Z|Kelp'thar Forest|N|From Legionnaire Nazgrim.|
 C Girding Our Loins|QID|25944|M|36.15,28.07|Z|Kelp'thar Forest|N|The armor for Girding Our Loins can be found on the seafloor and can also be dropped by Gilblin Scavengers.|
 A Once More, With Eeling|QID|27729|M|49.76,22.20|Z|Kelp'thar Forest|N|Kill a Slitherfin Eel to automatically begin this quest.|
 C Once More, With Eeling|QID|27729|S|M|49.76,22.20|N|Kill Slitherfin Eels.|Z|Kelp'thar Forest|
@@ -195,12 +200,12 @@ T Once More, With Eeling|QID|27729|M|49.76,22.20|Z|Kelp'thar Forest|N|Once this 
 T Girding Our Loins|QID|25944|M|39.04,32.15|Z|Kelp'thar Forest|N|To Legionnaire Nazgrim.|
 T Finders, Keepers|QID|25947|M|39.04,32.15|Z|Kelp'thar Forest|N|To Legionnaire Nazgrim.|
 
-A Bring It On!|QID|25948|PRE|25944;25947|M|38.97,32.03|Z|Kelp'thar Forest|N|From Legionnaire Nazgrim.|
+A Bring It On!|QID|25948|PRE|25944&25947|M|38.97,32.03|Z|Kelp'thar Forest|N|From Legionnaire Nazgrim.|
 T Bring It On!|QID|25948|M|38.80,31.48|Z|Kelp'thar Forest|N|To Legionnaire Nazgrim.|
 A Blood and Thunder!|QID|25949|PRE|25948|M|38.80,31.48|Z|Kelp'thar Forest|N|From Legionnaire Nazgrim.|
 C Blood and Thunder!|QID|25949|M|46.26,46.73|Z|Kelp'thar Forest|N|If you have trouble completing this event stay inside the ship and wait for it to finish.|
 T Blood and Thunder!|QID|25949|M|46.34,46.81|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
-A Better Late Than Dead|QID|25477|PRE|25558+25949|M|46.14,46.80|Z|Kelp'thar Forest|N|From Moanah Stormhoof.|
+A Better Late Than Dead|QID|25477|PRE|25558^25949|M|46.14,46.80|Z|Kelp'thar Forest|N|From Moanah Stormhoof.|
 C Better Late Than Dead|QID|25477|U|54462|M|48.94,42.35|N|Use Moanah's Baitstick on a Speckled Sea Turtle. Wait a few seconds an a shark will attack you, this will complete the quest.|Z|Kelp'thar Forest|
 T Better Late Than Dead|QID|25477|M|46.06,46.83|Z|Kelp'thar Forest|N|To Moanah Stormhoof.|
 A The Abyssal Ride|QID|25371|PRE|25477|M|46.06,46.83|Z|Kelp'thar Forest|N|From Moanah Stormhoof.|
@@ -220,9 +225,9 @@ C Ain't Too Proud to Beg|QID|25598|M|48.23,39.49|Z|Kelp'thar Forest|N|Find Capta
 T Ain't Too Proud to Beg|QID|25598|M|57.23,28.77|Z|Kelp'thar Forest|N|To Adarrah.|
 T A Case of Crabs|QID|25388|M|57.23,28.77|Z|Kelp'thar Forest|N|To Adarrah.|
 
-A A Girl's Best Friend|QID|25390|PRE|25388;25598|M|57.18,28.74|Z|Kelp'thar Forest|N|From Adarrah.|
-A A Taste For Tail|QID|25389|PRE|25388;25598|M|57.18,28.74|Z|Kelp'thar Forest|N|From Adarrah.|
-A Can't Start a Fire Without a Spark|QID|25602|PRE|25388;25598|M|57.25,28.86|Z|Kelp'thar Forest|N|From Captain Samir.|
+A A Girl's Best Friend|QID|25390|PRE|25388&25598|M|57.18,28.74|Z|Kelp'thar Forest|N|From Adarrah.|
+A A Taste For Tail|QID|25389|PRE|25388&25598|M|57.18,28.74|Z|Kelp'thar Forest|N|From Adarrah.|
+A Can't Start a Fire Without a Spark|QID|25602|PRE|25388&25598|M|57.25,28.86|Z|Kelp'thar Forest|N|From Captain Samir.|
 l Crumpled Treasure Map|QID|25467|N|Get out of the cave, kill Sabreclaw Skitterers until you get a Crumpled Treasure Map.|M|52,35|Z|Kelp'thar Forest|L|54345|
 A Kliklak's Craw|QID|25467|N|Use the map to accept the quest Kliklak's Craw.|M|52,35|Z|Kelp'thar Forest|U|54345|
 C A Girl's Best Friend|QID|25390|S|M|50.82,31.95|Z|Kelp'thar Forest|N|Look for Adarrah's Jewelry Box on the sea floor. They are small and a little hard to spot.|
@@ -295,7 +300,7 @@ h Deepmist Grotto|QID|26007|M|63.92,59.89|Z|Kelp'thar Forest|N|At Erunak Stonesp
 A Debriefing|QID|26007|PRE|25824|M|63.92,59.89|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 C Debriefing|QID|26007|M|63.92,59.76|Z|Kelp'thar Forest|N|Talk to Gurrok to complete this quest.|
 T Debriefing|QID|26007|M|63.92,59.76|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
-A Wake of Destruction|QID|25887|PRE|25824+26007|M|63.92,59.76|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
+A Wake of Destruction|QID|25887|PRE|25824^26007|M|63.92,59.76|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 
 N Wake of Destruction|QID|25887|M|58.1,69.8|Z|Kelp'thar Forest|U|56576|N|Swim out of the grotto and head just a bit west, where you will find the Famished Great Sharks. Target one of the sharks while staying far enough away that it doesn't attack you and use the Orb of Suggestion. Close this step once you're riding a shark.|
 C Wake of Destruction|QID|25887|M|57.7,66.5|Z|Kelp'thar Forest|QO|1|N|Swim near the Zin'Jatar Guardians and use the ability "Eat Naga". You don't actually have to target the naga, just swim near them.|; Zin'jatar Guardians Eaten Alive: 25/25
@@ -407,7 +412,7 @@ C Slave Labor|QID|25907|U|56178|US|M|57.5,52.0|Z|Shimmering Expanse|N|Free remai
 T Slave Labor|QID|25907|M|51.7,52.1|Z|Shimmering Expanse|N|To Earthmender Duarn.|
 T Stick it to Them|QID|25908|M|51.7,52.1|Z|Shimmering Expanse|N|To Earthmender Duarn.|
 
-A Capture the Crab|QID|25989|PRE|25907+25908|RANK|1|M|51.7,52.1|Z|Shimmering Expanse|N|From Earthmender Duarn.|
+A Capture the Crab|QID|25989|PRE|25907^25908|RANK|1|M|51.7,52.1|Z|Shimmering Expanse|N|From Earthmender Duarn.|
 C Capture the Crab|QID|25989|L|56182|M|53.21,59.12|Z|Shimmering Expanse|N|Crabs can be found on the outer edges inside the big chamber of Nespirah. Use the net to capture the Crab, then loot the Crab. Kill the naga when you have the crab.|
 T Capture the Crab|QID|25989|M|51.7,52.1|Z|Shimmering Expanse|N|To Earthmender Duarn.|
 
@@ -568,7 +573,7 @@ A Chosen Burden|QID|25863|PRE|25862|RANK|1|M|57.2,89.9|Z|Shimmering Expanse|N|Fr
 T No Trespass Forgiven|QID|25859|M|46.2,79.5|Z|Shimmering Expanse|N|To Fathom-Stalker Azjentus.|
 T Chosen Burden|QID|25863|M|46.2,79.5|Z|Shimmering Expanse|N|To Lady Naz'jar.|
 
-A The Culmination of Our Efforts|QID|26191|PRE|25859;25863|RANK|1|M|46.2,79.5|Z|Shimmering Expanse|N|From Lady Naz'jar. Close this step as it does not auto-complete.|
+A The Culmination of Our Efforts|QID|26191|PRE|25859&25863|RANK|1|M|46.2,79.5|Z|Shimmering Expanse|N|From Lady Naz'jar. Close this step as it does not auto-complete.|
 T Visions of the Past: The Slaughter of Biel'aran Ridge|QID|25966|M|29.5,78.9|Z|Shimmering Expanse|N|To Wavespeaker Tulra.|
 
 A Losing Ground|QID|25967|PRE|25966|RANK|1|Z|Shimmering Expanse|N|From Wavespeaker Tulra.|M|29.49,78.84|
@@ -613,7 +618,7 @@ C Her Lady's Hand|QID|25629|US|QO|1|M|34.2,75.6|Z|Shimmering Expanse|N|Relieve a
 T Her Lady's Hand|QID|25629|M|33.1,75.9|Z|Shimmering Expanse|N|To Lady Naz'jar.|
 T Devout Assembly|QID|25896|M|33.1,77.7|Z|Shimmering Expanse|N|To Lady Sira'kess.|
 
-A At All Costs|QID|25860|PRE|25629;25896|RANK|1|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
+A At All Costs|QID|25860|PRE|25629&25896|RANK|1|M|33.1,77.7|Z|Shimmering Expanse|N|From Lady Sira'kess.|
 C At All Costs|QID|25860|M|33,77.7|Z|Shimmering Expanse|N|Kill 20 Kvaldir as they try to enter the temple.|
 T At All Costs|QID|25860|M|33.1,77.7|Z|Shimmering Expanse|N|To Lady Sira'kess.|
 
@@ -711,7 +716,7 @@ T Into the Totem|QID|26072|N|To Erunak Stonespeaker.|Z|Abyssal Depths|M|42.73,37
 T Scalding Shrooms|QID|26096|N|To Wavespeaker Tulra.|Z|Abyssal Depths|M|42.73,37.82|
 T Clearing the Defiled|QID|26071|N|To Legionnaire Nazgrim.|Z|Abyssal Depths|M|42.73,37.82|
 
-A ... It Will Come|QID|26111|PRE|26072;26096|RANK|1|M|42.7,37.8|Z|Abyssal Depths|N|From Erunak Stonespeaker.|
+A ... It Will Come|QID|26111|PRE|26072&26096|RANK|1|M|42.7,37.8|Z|Abyssal Depths|N|From Erunak Stonespeaker.|
 C ... It Will Come|QID|26111|L|56822|M|46.92, 27.89|Z|Abyssal Depths|N|Swim to the Stonespeaker's Luring Totem. Use it to summon Ick'thys the Unfathomable. Kill him and loot his brain.|
 T ... It Will Come|QID|26111|M|42.7,37.8|Z|Abyssal Depths|N|To Erunak Stonespeaker.|
 
@@ -745,7 +750,7 @@ T Prisoners|QID|26149|M|31.2,58.8|Z|Abyssal Depths|N|(UI Alert)|
 T Runestones of Binding|QID|26141|M|38.7,44.8|Z|Abyssal Depths|N|To L'ghorek.|
 T Ascend No More!|QID|26142|M|38.7,44.8|Z|Abyssal Depths|N|To L'ghorek.|
 
-A Twilight Extermination|QID|26154|PRE|26141;26142|RANK|1|M|38.7,44.8|Z|Abyssal Depths|N|From L'ghorek.|
+A Twilight Extermination|QID|26154|PRE|26141&26142|RANK|1|M|38.7,44.8|Z|Abyssal Depths|N|From L'ghorek.|
 N Twilight Extermination|QID|26154|QO|1|M|34.4,50.3|U|57172|Z|Abyssal Depths|N|Head to the temple at the center of the main chamber. Everybody will ignore you, so don't panic. Go up to one of the Bound Torrents and use the Attuned Runestone of Binding on it. You will posses the Ascendant.|; Bound Torrent possessed: 1/1
 N Twilight Extermination|QID|26154|M|34.4,50.3|Z|Abyssal Depths|N|Close this step when done reading. Go fly through the groups around the temple, using the abilities on your vehicle bar to kill everything in sight. The first ability is your damage dealing ability. The second one will pull in everything around you. The third will creates an absorbtion shield that heals you. The 4th heals you and and increases your damage for a short time.|
 K Twilight Devotee|S|QID|26154|M|34.4,50.3|Z|Abyssal Depths|QO|2|N|Kill Twilight Devotees.|; Twilight Devotee slain: 50/50

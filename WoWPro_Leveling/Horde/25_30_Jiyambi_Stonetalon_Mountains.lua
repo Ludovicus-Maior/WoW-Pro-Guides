@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_horde
+-- Date: 2018-10-17 02:26
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3234/revisions/29086/view
 -- Date: 2018-02-20 21:26
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -118,7 +123,7 @@ WoWPro:GuideIcon(guide,"ACH",4936)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Silverwind Refuge|QID|25945;28532|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|
+R Silverwind Refuge|QID|25945^28532|M|49.29,65.25|Z|Ashenvale|N|In Ashenvale.|
 T Warchief's Command: Stonetalon Mountains!|QID|28532|O|M|49.90,65.74|Z|Ashenvale|N|To Blood Guard Aldo Rockrain in Ashenvale.|
 A We're Here to Do One Thing, Maybe Two...|QID|25945|M|49.90,65.74|Z|Ashenvale|N|From Blood Guard Aldo Rockrain.|
 R The Fold|QID|25945|NC|M|48.58,66.46|Z|Ashenvale|N|Hop on the wagon and enjoy the ride.|
@@ -188,7 +193,7 @@ C Between a Rock and a Hard Place|RANK|2|QID|26046|M|67.44,65.58;66.90,71.66;67.
 T Between a Rock and a Hard Place|RANK|2|QID|26046|M|67.08,64.50|N|Back to Scout Utvoch.|
 T And That's Why They Call Them Peons...|RANK|2|QID|26047|M|67.15,64.49|N|To Blastgineer Igore.|
 T I Got Your Parts Right Here...|QID|26045|M|67.15,64.49|N|To Sergeant Dontrag.|
-A Spare Parts Up In Here!|QID|26048|PRE|26045;26046;26047|M|67.15,64.49|N|From Sergeant Dontrag.|
+A Spare Parts Up In Here!|QID|26048|PRE|26045&26046&26047|M|67.15,64.49|N|From Sergeant Dontrag.|
 
 T Spare Parts Up In Here!|QID|26048|M|66.46,60.48;66.25,62.94|CC|N|To Chief Blastgineer Bombgutz, back on top of the hill at Krom'gar Fortress.|
 A In Defense of Krom'gar Fortress|QID|26058|PRE|26048|M|66.25,62.94|N|From Chief Blastgineer Bombgutz.|
@@ -216,8 +221,8 @@ T The Queen and Her Court|RANK|3|QID|26063|M|64.92,82.66|N|To Darn Talongrip.|
 
 T Da Voodoo: Stormer Heart|QID|26060|M|71.13,91.20|N|To Witch Doctor Jin'Zil, back at Malaka'jin.|
 T Da Voodoo: Ram Horns|QID|26061|M|71.13,91.20|N|To Witch Doctor Jin'Zil.|
-A Da Voodoo: Resonite Crystal|QID|26062|PRE|26060;26061|M|71.13,91.20|N|From Witch Doctor Jin'Zil.|
-A Reinforcements...|RANK|2|QID|26066|PRE|26060;26061|M|71.15,91.15|N|From Subjugator Devo.|
+A Da Voodoo: Resonite Crystal|QID|26062|PRE|26060&26061|M|71.13,91.20|N|From Witch Doctor Jin'Zil.|
+A Reinforcements...|RANK|2|QID|26066|PRE|26060&26061|M|71.15,91.15|N|From Subjugator Devo.|
 T Fight On Their Stomachs|RANK|2|QID|26064|M|71.98,91.27|N|To Denni'ka.|
 
 C Da Voodoo: Resonite Crystal|NC|QID|26062|M|59.78,88.81|N|Loot crystals by right-clicking them.|S|
@@ -235,7 +240,7 @@ C Jin'Zil's Blessing|NC|QID|26067|U|56798|M|79.67,83.49|US|N|Use the voodoo stic
 
 T Kobold Fury!|RANK|2|QID|26068|M|71.18,91.08|N|To Subjugator Devo, back in Malaka'jin.|
 T Jin'Zil's Blessing|QID|26067|M|71.11,91.19|N|To Witch Doctor Jin'Zil.|
-A All's Quiet on the Southern Front|QID|26073|PRE|26067;26068|M|71.11,91.19|N|From Witch Doctor Jin'Zil.|
+A All's Quiet on the Southern Front|QID|26073|PRE|26067&26068|M|71.11,91.19|N|From Witch Doctor Jin'Zil.|
 A Nura Pathfinder|QID|26069|LEAD|24504|M|71.11,91.19|N|From Witch Doctor Jin'Zil. Take this quest if you plan on going to Southern Barrens.|
 H Krom'gar Fortress|QID|26073|M|66.54,62.80|N|FlyRun back if you didn't set your hearth there, or if you hearth is on cooldown.|
 T All's Quiet on the Southern Front|QID|26073|M|66.14,63.75|N|To Overlord Krom'gar.|

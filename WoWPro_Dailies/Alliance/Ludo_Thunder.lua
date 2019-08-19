@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/isle_thunder_alliance
+-- Date: 2018-10-17 02:20
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3537/revisions/28984/view
 -- Date: 2018-02-19 22:47
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -86,7 +91,7 @@ C The Fall of Shan Bu|QID|32656|M|63.25,72.22|N|Talk to Lady Jaina Proudmoore to
 T The Fall of Shan Bu|QID|32656|M|63.25,72.22|N|To Lady Jaina Proudmoore|
 
 ; Let the dailies begin!
-N Assignment Map: PvE or PvP|QID|1;2|M|63.25,72.19|N|Click on the assignment map and make your choice. Then another NPC will offer the quests.|NC|; Use correct quids
+N Assignment Map: PvE or PvP|QID|1^2|M|63.25,72.19|N|Click on the assignment map and make your choice. Then another NPC will offer the quests.|NC|; Use correct quids
 A The Court of Bones|QID|32731|LEAD|32527|M|63.25,72.22|N|From Vereesa Windrunner.|
 A Ihgaluk Crag|QID|32732|LEAD|32535|M|62.70,73.56|N|From Captain Elleane Wavecrest, skip if she is not offering.|
 A Za'Tual|QID|32733|LEAD|32543|M|34.61,89.45|N|From Lady Jaina Proudmoore.|
@@ -130,8 +135,8 @@ T Surgical Strike|QID|32542|M|31.56,83.14|N|To Archmage Lan'dalock.|
 
 T The Court of Bones|QID|32731|M|40.18,59.55|N|To Narasi Snowdawn, hiding under the shield.|
 A Narasi's Quest|QID|*|NPC|1|PRE|32731|M|40.18,59.55|N|From Narasi Snowdawn|;Wrong NPC
-A Danara's Quests|QID|32525;32528;32532;32533|PRE|32731|M|40.15,59.30|N|From Danara Silverglass|
-A Vylene's Quests|QID|32529;32530;32531|PRE|32731|M|40.10,59.11|N|From Vylene Amaranth|
+A Danara's Quests|QID|32525^32528^32532^32533|PRE|32731|M|40.15,59.30|N|From Danara Silverglass|
+A Vylene's Quests|QID|32529^32530^32531|PRE|32731|M|40.10,59.11|N|From Vylene Amaranth|
 
 C Grave Circumstances|QID|32527|S|CN|M|33.00,52.80;33.60,60.60;34.00,58.60;34.40,52.20;34.60,56.40;35.40,51.60;35.40,60.80;36.20,59.00;36.40,56.20;37.00,55.20;37.40,51.80;37.40,59.40;37.60,53.80;38.60,58.20;39.00,55.80;35.50,53.00;36.60,52.50;35.60,55.20;36.75,60.65;36.40,53.80;36.60,49.60;34.60,57.50;35.55,50.20;37.00,57.80;38.45,60.90|QO|1|N|Go the court of bones and wipe them out!|
 ;

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2018-10-17 22:33
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3458/revisions/29549/view
 -- Date: 2018-08-18 21:03
 -- Who: Ludovicus_Maior
 -- Log: Fix L steps that should be l steps.
@@ -83,8 +88,8 @@ K Small Eggs: Westfall|QID|7025|M|55.8,23.4;47.6,18.0;46.6,30.4|Z|Westfall|CN|L|
 
 N On the first day of Winter Veil ...|QID|7022|N|Now wait till the first day ..|
 
-A Greatfather Winter is Here!|QID|7022;7023|M|33.59,67.91|Z|Ironforge|N|From Wulmort Jinglepocket|
-T Greatfather Winter is Here!|QID|7022;7023|M|33.16,65.46|Z|Ironforge|N|To Greatfather Winter.|
+A Greatfather Winter is Here!|QID|7022^7023|M|33.59,67.91|Z|Ironforge|N|From Wulmort Jinglepocket|
+T Greatfather Winter is Here!|QID|7022^7023|M|33.16,65.46|Z|Ironforge|N|To Greatfather Winter.|
 A Treats for Greatfather Winter|QID|7025|M|33.16,65.46|Z|Ironforge|N|From Greatfather Winter.|
 B Recipe: Gingerbread Cookie|QID|7025|M|33.59,67.91|Z|Ironforge|SPELL|Gingerbread Cookie;21143|L|17200|N|From Wulmort Jinglepocket.|
 B Holiday Spices|QID|7025|M|33.59,67.91|Z|Ironforge|L|17194 5|N|Buy 5 Holiday Spices from Wulmort Jinglepocket.|
@@ -112,10 +117,10 @@ b Ironforge|QID|8767|N|Go see Greatfather Winter in Ironforge|
 A Winter's Presents|QID|8827|M|60.31,33.84|Z|Dun Morogh|N|From Wonderform Operator.|
 T Winter's Presents|QID|8827|M|33.16,65.46|Z|Ironforge|N|To Greatfather Winter.|
 
-A A Gently Shaken Gift|QID|8767;8788|M|33.48,65.54|Z|Ironforge|N|Your first gift!|
+A A Gently Shaken Gift|QID|8767^8788|M|33.48,65.54|Z|Ironforge|N|Your first gift!|
 A A Carefully Wrapped Present|QID|8744|M|33.84,65.75|Z|Ironforge|N|Your second gift!|
 A A Festive Gift|QID|8803|LVL|10|M|33.87,65.93|Z|Ironforge|N|Your third gift!|
-A A Winter Veil Gift|QID|11528;13203;13966;28878;29385;32106|LVL|10|M|33.64,65.63|Z|Ironforge|N|Your fourth gift!|
+A A Winter Veil Gift|QID|11528^13203^13966^28878^29385^32106|LVL|10|M|33.64,65.63|Z|Ironforge|N|Your fourth gift!|
 A A Gaily Wrapped Present|QID|8768|LVL|20|M|33.76,66.31|Z|Ironforge|N|Your fifth gift!|
 A A Ticking Present|QID|8769|LVL|40|M|33.84,66.66|Z|Ironforge|N|Your sixth gift!|
 

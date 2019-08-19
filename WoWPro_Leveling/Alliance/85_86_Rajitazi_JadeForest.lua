@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_jade_forest_alliance
+-- Date: 2018-10-17 02:25
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3486/revisions/29315/view
 -- Date: 2018-05-20 06:26
 -- Who: Emmaleah
 -- Log: tune-up... many many small changes
@@ -252,7 +257,7 @@ C No Plan Survives Contact with the Enemy|QID|30069|US|M|42.50,93.24|N|Finish ki
 
 T No Plan Survives Contact with the Enemy|QID|30069|M|45.1,95.0|N|To Rell Nightwind.|
 T Welcome Wagons|QID|31734|M|45.1, 95.0|N|To Rell Nightwind|
-A The Right Tool For The Job|QID|31735|PRE|30069;31734|M|45.1,95.0|N|From Rell Nightwind.|
+A The Right Tool For The Job|QID|31735|PRE|30069&31734|M|45.1,95.0|N|From Rell Nightwind.|
 
 C The Right Tool For The Job|QID|31735|U|89624|QO|1|M|45.51,95.20|N|Head to the first barricade, and use Sully's Flaregun near it.|NC|; First Barricade Destroyed: 1/1
 C The Right Tool For The Job|QID|31735|U|89624|QO|2|M|45.94,95.83|N|Move along to the second barricade, and use Sully's Flaregun near it.|NC|; Second Barricade Destroyed: 1/1
@@ -268,9 +273,9 @@ C Envoy of the Alliance|QID|31736|M|45.9,85.0|N|Head to Sunke Khang at Paw'don V
 T Envoy of the Alliance|QID|31736|M|46.2,84.8|N|To Sunke Khang.|
 T The Cost of War|QID|31737|M|46.2,84.8|N|To Taran Zhu.|
 
-A Pillaging Peons|QID|31738|PRE|31736;31737|M|46.13,84.58|N|From Sunke Khang.|
-A Priorities!|QID|31739|PRE|31736;31737|M|46.22,84.69|N|From Teng Applebloom.|
-A Critical Condition|QID|29552|PRE|31736;31737|M|46.10,84.54|N|From Mishka.|
+A Pillaging Peons|QID|31738|PRE|31736&31737|M|46.13,84.58|N|From Sunke Khang.|
+A Priorities!|QID|31739|PRE|31736&31737|M|46.22,84.69|N|From Teng Applebloom.|
+A Critical Condition|QID|29552|PRE|31736&31737|M|46.10,84.54|N|From Mishka.|
 
 f Paw'don Village|QID|31737|M|46.05,85.10|N|Learn the Paw'don Village flight-point from Wing Kyo.|
 ; [aldavor] added QID
@@ -293,10 +298,10 @@ T Critical Condition|QID|29552|M|46.13,84.58|N|To Mishka.|
 T Koukou's Rampage|QID|31740|M|46.26,84.73|N|To Sunke Khang.|
 T Pillaging Peons|QID|31738|M|46.26,84.73|N|To Sunke Khang.|
 
-A Twinspire Keep|QID|31741|PRE|29552;31738;31740|M|46.26,84.73|N|From Sunke Khang.|
-A Unfair Trade|QID|31744|PRE|29552;31738;31740|M|46.26,84.73|N|From Sunke Khang.|
-A Fractured Forces|QID|31742|PRE|29552;31738;31740|M|46.20,84.82|N|From Rell Nightwind.|
-A Smoke Before Fire|QID|31743|PRE|29552;31738;31740|M|46.20,84.82|N|From Rell Nightwind.|
+A Twinspire Keep|QID|31741|PRE|29552&31738&31740|M|46.26,84.73|N|From Sunke Khang.|
+A Unfair Trade|QID|31744|PRE|29552&31738&31740|M|46.26,84.73|N|From Sunke Khang.|
+A Fractured Forces|QID|31742|PRE|29552&31738&31740|M|46.20,84.82|N|From Rell Nightwind.|
+A Smoke Before Fire|QID|31743|PRE|29552&31738&31740|M|46.20,84.82|N|From Rell Nightwind.|
 
 R Twinspire Keep|QID|31741|M|44.91,83.64;43.66,84.73;42.67,85.23;41.49,83.33|CS|N|Make your way to Twinspire Keep|
 
@@ -318,7 +323,7 @@ T Twinspire Keep|QID|31741|M|41.39,79.60|N|To Sully "The Pickle" McLeary.|
 T Unfair Trade|QID|31744|M|41.39,79.60|N|To Sully "The Pickle" McLeary.|
 T Fractured Forces|QID|31742|M|41.39,79.60|N|To Sully "The Pickle" McLeary.|
 T Smoke Before Fire|QID|31743|M|41.39,79.60|N|To Sully "The Pickle" McLeary.|
-A The Fall of Ga'trul|QID|30070|PRE|31741;31742;31743;31744|M|41.39,79.60|N|From Sully "The Pickle" McLeary.|
+A The Fall of Ga'trul|QID|30070|PRE|31741&31742&31743&31744|M|41.39,79.60|N|From Sully "The Pickle" McLeary.|
 K Ga'trul|QID|30070|QO|1|T|Ga'trul|M|41.49,78.59|N| In Twinspire Keep|
 T The Fall of Ga'trul|QID|30070|M|41.43,79.06|N|To Rell Nightwind.|
 A Onward and Inward|QID|31745|PRE|30070|M|41.43,79.06|N|From Rell Nightwind.|
@@ -334,7 +339,7 @@ C Hozen Aren't Your Friends, Hozen Are Your Enemies |QID|29556|US|M|50.5,89.6|; 
 
 T Hozen Aren't Your Friends, Hozen Are Your Enemies|QID|29556|M|50.42,88.20|N|To Nodd Codejack.|
 T The White Pawn|QID|29555|M|50.42,88.20|N|To Nodd Codejack.|
-A The Missing Admiral|QID|29553|PRE|29555;29556|M|50.42,88.20|N|From Nodd Codejack.|
+A The Missing Admiral|QID|29553|PRE|29555&29556|M|50.42,88.20|N|From Nodd Codejack.|
 
 T The Missing Admiral|QID|29553|M|54.21,82.43|N|To Admiral Taylor.|
 A The Path of War|QID|29558|PRE|29553|M|54.11,82.37|N|From Bold Karasshi.|
@@ -350,7 +355,7 @@ C The Path of War |QID|29558|US|M|53.7,80.3|; Slingtail Pits
 T The Path of War|QID|29558|M|54.15,82.42|N|To Bold Karasshi.|
 T Freeing Our Brothers|QID|29559|M|54.15,82.42|N|To Bold Karasshi.|
 T Ancient Power|QID|29560|M|54.15,82.42|N|To Bold Karasshi.|
-A Kung Din|QID|29759|PRE|29558;29559;29560|M|54.15,82.42|N|From Bold Karasshi.|
+A Kung Din|QID|29759|PRE|29558&29559&29560|M|54.15,82.42|N|From Bold Karasshi.|
 
 K Kung Din|QID|29759|T|Kung Din|M|54.56,79.99|N|Two phase fight, switches between normal fighting and Vehicle UI where you need to press 1 to "hang on for life".  Remember the Key!|L|79753|
 
@@ -372,8 +377,8 @@ C Road Rations|QID|29885|M|60.6,85.0|US|N|Kill the Pearly Tortoises on the outer
 
 T The Pearlfin Situation|QID|29883|M|58.93,81.93|N|To Rell Nightwind.|
 T Road Rations|QID|29885|M|58.93,81.93|N|To Rell Nightwind.|
-A Family Heirlooms|QID|29762|PRE|29883;29885|M|58.97,81.69|N|From Bold Karasshi.|
-A The Elder's Instruments|QID|29887|PRE|29883;29885|M|58.75,81.28|N|From Pearlkeeper Fujin.|
+A Family Heirlooms|QID|29762|PRE|29883&29885|M|58.97,81.69|N|From Bold Karasshi.|
+A The Elder's Instruments|QID|29887|PRE|29883&29885|M|58.75,81.28|N|From Pearlkeeper Fujin.|
 
 R Moonwater Retreat|QID|29887|M|60.26,83.96;61.70,84.75;63.72,86.27;65.21,87.16|CS|N|Through the Bamboo Wilds and up to the hill.|
 R Watersmithing|QID|968460001|M|66.01, 87.56|ACH|6846;1|N|Exploration>Fish Tales.|RANK|3|
@@ -382,7 +387,7 @@ C Family Heirlooms|QID|29762|NC|M|67.44,87.54|N|Loot the corpses around the vill
 C The Elder's Instruments|QID|29887|US|M|67.25,88.40|N|Kill the monkeys until you get all four items.|
 T Family Heirlooms|QID|29762|M|58.97,81.69|N|To Bold Karasshi.|
 T The Elder's Instruments|QID|29887|M|58.75,81.28|N|To Pearlkeeper Fujin.|
-A Spirits of the Water|QID|29894|PRE|29762;29887|M|58.75,81.28|N|From Pearlkeeper Fujin.|
+A Spirits of the Water|QID|29894|PRE|29762&29887|M|58.75,81.28|N|From Pearlkeeper Fujin.|
 C Spirits of the Water|QID|29894|CHAT|M|58.58,82.89|N|Speak to Elder Lusshan and witness the waterspeaking ceremony.|
 T Spirits of the Water|QID|29894|M|58.97,81.69|N|To Bold Karasshi.|
 A SI:7 Report: Lost in the Woods|QID|29733|PRE|29894|M|58.98,81.82|N|From Rell Nightwind. "See" his report as soon as you accept.|
@@ -450,7 +455,7 @@ C Body|QID|29892|US|M|56.5,88.4|N|Kill and loot the crocolisks for their eyes.|;
 T Potency|QID|29891|M|53.78,90.63|N|To Lorewalker Cho.|
 T Body|QID|29892|M|53.78,90.63|N|To Lorewalker Cho.|
 T Hue|QID|29893|M|53.78,90.63|N|To Lorewalker Cho.|
-A Finding Your Center|QID|29890|PRE|29891;29892;29893|M|53.75,90.67|N|From Lorewalker Cho.|
+A Finding Your Center|QID|29890|PRE|29891&29892&29893|M|53.75,90.67|N|From Lorewalker Cho.|
 C Finding Your Center|QID|29890|M|54.57,91.88|N|Use "1" and "2" keys to keep the bar as close to the center circle as possible.  If it hits either extreme, you fail.\n\nOnce complete, you will enter a cut-scene.|NC|
 
 R Den of Sorrow|QID|29890|M|59.23,87.96;60.19,83.42;61.88,81.98;62.21,82.64;65.18,79.27;65.90,79.29|CS|N|Run back to Pearlfin Village and then take the path in your vision.|
@@ -472,7 +477,7 @@ C Rest in Peace |QID|29899|US|M|67.8,81.7|N|Finish any needed tortured spirits a
 T Sacred Waters|QID|29898|M|65.98,79.38|N|To Lina Whitepaw.|
 T Rest in Peace|QID|29899|M|65.98,79.30|N|To Ren Whitepaw.|
 T An Ancient Legend|QID|29900|M|65.94,79.22|N|To Ren Whitepaw.|
-A Anduin's Decision|QID|29901|PRE|29898;29899;29900|M|65.94,79.22|N|From Ren Whitepaw.|
+A Anduin's Decision|QID|29901|PRE|29898&29899&29900|M|65.94,79.22|N|From Ren Whitepaw.|
 C Anduin's Decision|QID|29901|M|65.91,79.24|CHAT|N|Talk to Anduin and learn of his decision in case you didn't guess it already.|
 T Anduin's Decision|QID|29901|M|58.87,81.68|N|To Admiral Taylor, back in *Pearlfin Village*.|
 A In Search of Wisdom|QID|29922|PRE|29901|M|58.1,80.6|N|From Elder Lusshan.|
@@ -482,7 +487,7 @@ f Dawn's Blossom|QID|29922|M|47.05,46.24|N|At Keg Runner Lee.|
 T In Search of Wisdom|QID|29922|M|46.81,46.14|N|To Lorewalker Cho.|
 ; [aldavor] added rank 3 since it's achiev not quest.
 R The Emperor's Burden - Part 1|QID|968550001|M|47.08, 45.14|ACH|6855;1|N|Exploration>The Seven Burdens of Shaohao.|RANK|3|
-A Welcome to Dawn's Blossom|QID|31230|PRE|29922+30015|M|47.16,46.17|N|From Toya.|
+A Welcome to Dawn's Blossom|QID|31230|PRE|29922^30015|M|47.16,46.17|N|From Toya.|
 C Welcome to Dawn's Blossom|QID|31230|M|47.04,46.02|N|Wanderbrew wanders about near here.|QO|3|CHAT|
 C Welcome to Dawn's Blossom|QID|31230|M|45.77,43.67|QO|2|N|Speak with Peiji Goldendraft.|CHAT|
 C Welcome to Dawn's Blossom|QID|31230|M|48.47,44.50|QO|1|N|Speak with Master Windfur.|CHAT|
@@ -570,7 +575,7 @@ C Simulacrumble|QID|29748|M|47.82,16.45|N|Right-click on the statues to destroy 
 C Break the Cycle|QID|29747|US|M|48.34,16.61|
 T Break the Cycle|QID|29747|M|48.34,16.61|N|To UI Alert.|
 T Simulacrumble|QID|29748|N|To UI Alert.|
-A An Urgent Plea|QID|29749|PRE|29747;29748|N|From UI Alert.|
+A An Urgent Plea|QID|29749|PRE|29747&29748|N|From UI Alert.|
 
 C An Urgent Plea|QID|29749|M|44.24,14.91|NC|N|Get the staff lying on the stone.|QO|1|
 C An Urgent Plea|QID|29749|M|44.36,15.89|N|Kill Ancient Spirits drifting towards the center to destroy the ritual.|QO|2|
@@ -593,7 +598,7 @@ T Ritual Artifacts|QID|29751|M|44.21,15.01|N|To Pei-Zhi.|
 T Vessels of the Spirit|QID|29750|M|44.21,15.01|N|To Pei-Zhi.|
 T The Wayward Dead|QID|29752|M|44.21,15.01|N|To Pei-Zhi.|
 A Back to Nature|QID|29753|PRE|29750|M|44.21,15.01|N|From Pei-Zhi.|
-A A Humble Offering|QID|29756|PRE|29750;29751;29752|M|44.21,15.01|N|From Pei-Zhi.|
+A A Humble Offering|QID|29756|PRE|29750&29751&29752|M|44.21,15.01|N|From Pei-Zhi.|
 
 C Back to Nature|QID|29753|S|U|74808|M|39.88,10.43|N|Throw spirit bottles to the ground to release the beast spirits (be aware, they may spawn hostiles).|
 C A Humble Offering|QID|29756|M|39.71,10.98|NC|N|Gather 10 Tidemist Caps.|
@@ -602,7 +607,7 @@ C Back to Nature|QID|29753|US|U|74808|M|39.88,10.43|N|Throw spirit bottles to th
 
 T Back to Nature|QID|29753|M|44.26,15.04|N|To Pei-Zhi.|
 T A Humble Offering|QID|29756|M|44.26,15.04|N|To Pei-Zhi.|
-A To Bridge Earth and Sky|QID|29754|PRE|29753;29756|M|44.26,15.04|N|From Pei-Zhi.|
+A To Bridge Earth and Sky|QID|29754|PRE|29753&29756|M|44.26,15.04|N|From Pei-Zhi.|
 C To Bridge Earth and Sky|QID|29754|M|43.74,12.70|
 T To Bridge Earth and Sky|QID|29754|M|43.74,12.70|N|To UI Alert.|
 A Pei-Back|QID|29755|PRE|29754|M|43.74,12.70|N|From UI Alert.|
@@ -668,7 +673,7 @@ T Attention|QID|29624|M|41.60,28.33|N|To Instructor Xann.|
 
 C Husshun, the Wizened|QID|29634|M|44.54,24.08|N|Challenge him to a match beyond the bell.|QO|1|; Husshun defeated: 1/1
 T Husshun, the Wizened|QID|29634|M|43.27,24.75|N|To Master Stone Fist.|
-A Xiao, the Eater|QID|29635|PRE|29633;29634|M|43.27,24.75|N|From Master Stone Fist.|
+A Xiao, the Eater|QID|29635|PRE|29633&29634|M|43.27,24.75|N|From Master Stone Fist.|
 C Xiao, the Eater|QID|29635|M|43.12, 23.64|QO|1|
 T Xiao, the Eater|QID|29635|M|43.27,24.75|N|To Master Stone Fist.|
 A A Test of Endurance|QID|29636|PRE|29635|M|43.27,24.75|N|From Master Stone Fist.|
@@ -676,7 +681,7 @@ T A Test of Endurance|QID|29636|M|38.96,24.04|N|To Instructor Myang.|
 A The Rumpus|QID|29637|PRE|29636|M|38.96,24.04|N|From Instructor Myang.|
 C The Rumpus|QID|29637|M|38.98,23.23|N|Set off your fireworks to signal that you are ready to begin and then stay alive for 2 minutes.|
 T The Rumpus|QID|29637|M|38.96,24.04|N|To Instructor Myang.|
-A Flying Colors|QID|29647|PRE|29624;29628;29629;29630;29637|M|43.27,24.75|N|From Instructor Myang.|
+A Flying Colors|QID|29647|PRE|29624&29628&29629&29630&29637|M|43.27,24.75|N|From Instructor Myang.|
 T Flying Colors|QID|29647|M|42.74,23.17|N|To High Elder Cloudfall.|
 
 ; [aldavor] added rank 3 since it's achiev not quest.
@@ -708,7 +713,7 @@ T Defiance|QID|29578|M|43.48,75.96|N|To Shao the Defiant.|
 T Rally the Survivors|QID|29579|M|43.48,75.96|N|To Shao the Defiant.|
 T Orchard-Supplied Hardware|QID|29580|M|43.27,75.97|N|To Gentle Mother Hanae.|
 T Spitfire|QID|29585|M|43.27,75.97|N|To Gentle Mother Hanae.|
-A The Splintered Path|QID|29586|PRE|29578;29579;29580;29585|M|43.27,75.97|N|From Traumatized Nectarbreeze Farmer.|
+A The Splintered Path|QID|29586|PRE|29578&29579&29580&29585|M|43.27,75.97|N|From Traumatized Nectarbreeze Farmer.|
 C The Splintered Path|QID|29586|M|40.71,73.87|NC|
 T The Splintered Path|QID|29586|M|40.96,73.97|N|To Shao the Defiant.|
 A Unbound|QID|29587|PRE|29586|M|40.96,73.97|N|From Shao the Defiant.|
@@ -749,7 +754,7 @@ C Find the Playful Gold Serpent |QID|29999|NC|QO|4|M|56.0,60.4|
 C Pages of History|QID|30002|US|M|55.70,59.95|N|Click on the books and the bookworms will spawn. It's faster (and more fun) to stomp on them then to kill them.|
 C Moth-Ridden|QID|30001|US|M|56.39,60.43|
 T Moth-Ridden|QID|30001|M|56.27,60.44|N|To Lorewalker Stonestep.|
-A Everything In Its Place|QID|30004|PRE|30001;30002|M|56.27,60.44|N|From Lorewalker Stonestep.|
+A Everything In Its Place|QID|30004|PRE|30001&30002|M|56.27,60.44|N|From Lorewalker Stonestep.|
 T Pages of History|QID|30002|M|56.27,60.44|N|To Lorewalker Stonestep.|
 C Find the Playful Emerald Serpent |QID|29999|NC|QO|3|M|56.5,58.4|N|Head outside the library back to the central plaza and out the main gate.|
 C The Scryer's Dilemma|QID|29997|M|56.9,55.8|N|When you get in the Fountain of the Everseeing, kill Water Fiends until you get the staff.|
@@ -762,7 +767,7 @@ T A New Vision|QID|30011|M|58.13,58.67|N|To Elder Sage Rain-Zhu.|
 T Everything In Its Place|QID|30004|M|58.13,58.67|N|To Elder Sage Rain-Zhu.|
 T The Rider's Bind|QID|29999|M|58.03,59.02|N|To Fei.|
 T Lighting Up the Sky|QID|30005|M|58.03,59.02|N|To Fei.|
-A The Jade Serpent|QID|30000|PRE|29999;30004;30005;30011|M|58.03,59.02|N|From Fei.|
+A The Jade Serpent|QID|30000|PRE|29999&30004&30005&30011|M|58.03,59.02|N|From Fei.|
 C The Jade Serpent|QID|30000|M|53.49,58.02|NC|N|Follow Fei into the next room and wait/watch.|
 ; [aldavor] added rank 3 since it's achiev not quest.
 R The Emperor's Burden - Part 3|QID|968550003|M|55.88, 56.85|ACH|6855;3|N|Exploration>The Seven Burdens of Shaohao.|RANK|3|
@@ -780,11 +785,11 @@ C Helping the Cause|QID|30568|NC|QO|3|M|60.12,87.19|N|Assist the Wounded Pearlfi
 C An Unexpected Advantage|QID|30565|M|62.50,76.15|N|Kill Hozen to collect the Items.|
 T An Unexpected Advantage|QID|30565|M|58.55,82.30|N|To Sully "The Pickle" McLeary.|
 T Helping the Cause|QID|30568|M|58.07,80.65|N|To Admiral Taylor.|
-A Last Piece of the Puzzle|QID|31362|PRE|30565;30568|M|58.85,81.11|N|From Lorewalker Cho.|
+A Last Piece of the Puzzle|QID|31362|PRE|30565&30568|M|58.85,81.11|N|From Lorewalker Cho.|
 
 C Last Piece of the Puzzle|QID|31362|NC|U|80071|M|58.85,81.08;44.50,66.96|CS|N|Talk to Mishi for a ride and then use the Cho Family Heirloom at the shrine.|
 T Last Piece of the Puzzle|QID|31362|M|44.8,67.1|N|To Lorewalker Cho.|
-A The Seal is Broken|QID|31303|PRE|30485+31362|M|44.78,67.06|N|From Lorewalker Cho.|
+A The Seal is Broken|QID|31303|PRE|30485^31362|M|44.78,67.06|N|From Lorewalker Cho.|
 f Serpent's Overlook|QID|31303|M|43.13,68.48|N|At Sky Dancer Ji.|
 C The Seal is Broken|QID|31303|M|44.72,66.98|N|Talk to Mishi to start the "bombing run" to seal the fissures. Look for points where the steam is rising upwards.|
 T The Seal is Broken|QID|31303|M|49.27,61.39|N|To Lorewalker Cho.|

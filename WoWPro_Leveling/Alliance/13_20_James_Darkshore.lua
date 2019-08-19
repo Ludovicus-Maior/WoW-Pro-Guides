@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2018-10-17 02:23
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3218/revisions/29230/view
 -- Date: 2018-03-12 20:16
 -- Who: Emmaleah
 -- Log: Change some |L| to use QO so that they can autocomplete due to Blizzard's change to items not physically existing.
@@ -188,8 +193,8 @@ C Threat from the Water|QID|13522|M|45.50,17.64|US|N|Kill 8 Vile Sprays.|
 T Threat from the Water|QID|13522|M|50.21,19.83|N|To Ranger Glynda Nal'Shea.|
 T The Last Wave of Survivors|QID|13518|M|51.75,18.05|N|To Dentaria Silverglade.|
 
-A The Boon of the Seas|QID|13520|PRE|13518;13522|M|51.75,18.05|N|From Serendia Oakwhisper.|
-A Buzzbox 413|QID|13521|PRE|13518;13522|M|51.17,19.61|N|From Wizbang Cranktoggle.|
+A The Boon of the Seas|QID|13520|PRE|13518&13522|M|51.75,18.05|N|From Serendia Oakwhisper.|
+A Buzzbox 413|QID|13521|PRE|13518&13522|M|51.17,19.61|N|From Wizbang Cranktoggle.|
 A A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing;356|N|From Johnathan Staats, will lead to you fishing.|
 C A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing;356|N|Catch 4 Grouper from the waters by fishing.|NC|
 T A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing;356|N|To Johnathan Staats.|
@@ -255,7 +260,7 @@ l Moonstalker Whiskers|QID|13566|QO|1|M|42.68,40.68;41.70,39.07|CN|N|Right-click
 T Unsavory Remedies|QID|13598|M|42.96,39.11|N|To Keeper Karithus.|
 T Ritual Materials|QID|13566|M|42.96,39.11|N|To Keeper Karithus.|
 T Twice Removed|QID|13565|M|42.88,39.01|N|To Seraphine.|
-A The Ritual Bond|QID|13569|PRE|13565;13566;13598|M|42.93,39.02|N|From Keeper Karithus.|
+A The Ritual Bond|QID|13569|PRE|13565&13566&13598|M|42.93,39.02|N|From Keeper Karithus.|
 C The Ritual Bond|QID|13569|NC|M|43.74,40.34|N|Right-click the Keeper's Incense, which is right infront of Keeper Karithus. Then go talk to the Great Stag Spirit, the Great Thistle Bear Spirit, or the Great Moongrazer Spirit. Thistlebear gives a 10% Reduction in damage taken, Moonstalker gives a 10% haste bonus, and Stag gives a 10% increased movement speed. Movement speed does not stack with any other speed buff.|
 T The Ritual Bond|QID|13569|M|42.99,39.10|N|To Keeper Karithus.|
 A Grimclaw's Return|QID|13599|PRE|13569|M|42.99,39.10|N|From Keeper Karithus.|
@@ -301,9 +306,9 @@ T One Bitter Wish|QID|13511|M|58.92,19.49|N|To Lieutenant Morra Starbreeze.|
 T War Supplies|QID|13509|M|58.92,19.49|N|To Lieutenant Morra Starbreeze.|
 T Timely Arrival|QID|13510|M|58.92,19.49|N|To Lieutenant Morra Starbreeze.|
 T Denying Manpower|QID|13507|M|58.92,19.39|N|To Sentinel Tysha Moonblade.|
-A Strategic Strikes|QID|13512|PRE|13507;13509|M|58.94,19.51|N|From Lieutenant Morra Starbreeze.|
-A On the Brink|QID|13513|PRE|13507;13509|M|58.94,19.51|N|From Balthule Shadowstrike.|
-A The Looting of Althalaxx|QID|13844|PRE|13507;13509|M|59.25,19.63|N|From Mathas Wildwood.|
+A Strategic Strikes|QID|13512|PRE|13507&13509|M|58.94,19.51|N|From Lieutenant Morra Starbreeze.|
+A On the Brink|QID|13513|PRE|13507&13509|M|58.94,19.51|N|From Balthule Shadowstrike.|
+A The Looting of Althalaxx|QID|13844|PRE|13507&13509|M|59.25,19.63|N|From Mathas Wildwood.|
 
 C On the Brink|QID|13513|M|57.33,25.86|N|Kill Shatterspear Shamans on the way and loot their amulets.|S|
 C The Looting of Althalaxx|QID|13844|M|58.28,24.01|N|Go inside the tower, find a Charred Book to the side halfway upstairs. Also Kill Teegan Holloway.|
@@ -312,7 +317,7 @@ C Strategic Strikes|QID|13512|U|44995|M|61.24,20.76|QO|2|N|Use the Dryad Spear t
 C On the Brink|QID|13513|M|57.33,25.86|US|N|Finish gathering Shatterspear Amulets.|
 T Strategic Strikes|QID|13512|M|58.88,19.47|N|To Lieutenant Morra Starbreeze.|
 T On the Brink|QID|13513|M|58.88,19.47|N|To Balthule Shadowstrike.|
-A The Front Line|QID|13590|PRE|13512;13513|M|58.88,19.47|N|From Lieutenant Morra Starbreeze.|
+A The Front Line|QID|13590|PRE|13512&13513|M|58.88,19.47|N|From Lieutenant Morra Starbreeze.|
 T The Looting of Althalaxx|QID|13844|M|59.25,19.59|N|To Mathas Wildwood.|
 
 R Shatterspear Vale|QID|13508|M|58.58,20|N|Talk to the Nightsaber Rider and choose to travel to Shatterspear Vale.|
@@ -405,7 +410,7 @@ A The Blackwood Pledge|QID|13581|PRE|13580|M|40.94,56.59|N|From Elder Brownpaw.|
 T The Blackwood Pledge|QID|13581|M|43.66,53.41|N|To Malfurion Stormrage.|
 T The Wildkin's Oath|QID|13583|M|43.66,53.41|N|To Malfurion Stormrage.|
 T Sworn to Protect|QID|13585|M|43.66,53.41|N|To Malfurion Stormrage.|
-A The Emerald Dream|QID|13586|PRE|13581;13583;13585|M|43.66,53.41|N|From Malfurion Stormrage.|
+A The Emerald Dream|QID|13586|PRE|13581&13583&13585|M|43.66,53.41|N|From Malfurion Stormrage.|
 T The Emerald Dream|QID|13586|M|49.14,56.98|N|To Thessera. Go into the cave and click on the portal.|
 A The Waking Nightmare|QID|13587|PRE|13586|M|49.14,56.98|N|From Thessera.|
 C The Waking Nightmare|QID|13587|M|49.34,55.74|N|Kill the Nightmare Guardian to get the scroll.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_hellsream039s_reach_reputation_dailies
+-- Date: 2018-10-17 22:26
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3416/revisions/28554/view
 -- Date: 2017-03-23 17:41
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -83,10 +88,10 @@ WoWPro:GuideSteps(guide, function()
 return [[
 R Tol Barad Peninsula|M|47.41,39.3|Z|Orgrimmar|N|Click on the Portal to Tol Barad in Orgrimmar.|
 
-A Commander Larmash's Quests|M|53.6,80.6|N|Grab any and all quests from Commander Larmash. This step will close when you pick up the first quest.|QID|28696;28698;28697;28700;28695;28694|
-A Captain Prug's Quests|M|55,79.2|N|Grab any and all quests from Captain Prug. This step will close when you pick up the first quest.|QID|28682;28685;28686;28687;28721|
-A Prvate Sarlosk's Quests|M|55.6,78.6|N|Grab any and all quests from Prvate Sarlosk. This step will close when you pick up the first quest.|QID|28684;28680;28678;28679;28681;28683|
-A 3rd Officer Kronkar's Quests|M|55.2,81|N|Grab any and all quests from 3rd Officer Kronkar. This step will close when you pick up the first quest.|QID|28693;28691;28692;28690;28689|
+A Commander Larmash's Quests|M|53.6,80.6|N|Grab any and all quests from Commander Larmash. This step will close when you pick up the first quest.|QID|28696^28698^28697^28700^28695^28694|
+A Captain Prug's Quests|M|55,79.2|N|Grab any and all quests from Captain Prug. This step will close when you pick up the first quest.|QID|28682^28685^28686^28687^28721|
+A Prvate Sarlosk's Quests|M|55.6,78.6|N|Grab any and all quests from Prvate Sarlosk. This step will close when you pick up the first quest.|QID|28684^28680^28678^28679^28681^28683|
+A 3rd Officer Kronkar's Quests|M|55.2,81|N|Grab any and all quests from 3rd Officer Kronkar. This step will close when you pick up the first quest.|QID|28693^28691^28692^28690^28689|
 
 C Salvaging the Remains|QID|28690|M|36.2,79.4|N|Kill and loot Ghouls at Forgotten Hill until you have 9 Cursed Femurs.|
 C The Forgotten|QID|28689|M|36.2,79.4|N|Click on the sparkling gravestones. When you click on one, an Angry Spirit will appear.|

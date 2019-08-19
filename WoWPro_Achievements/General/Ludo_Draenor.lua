@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/treasures_draenor_neutral
+-- Date: 2018-10-17 02:20
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3633/revisions/28551/view
 -- Date: 2017-03-23 17:37
 -- Who: Ludovicus_Maior
 -- Log: Spelling
@@ -663,9 +668,9 @@ A Jewel of Hellfire|QID|38334|M|28.70,23.30|Z|Tanaan Jungle|N|Jewel of Hellfire 
 
 ; Quest Required to get the following Items
 
-A Looted Bleeding Hollow Treasure|QID|38683|ACTIVE|38560;38453|M|26.80,44.20|Z|Tanaan Jungle|N|Throbbing Blood Orb.|ITEM|127709|			; Only able to get with Quest in Log - 38453H - 38560A
-A Mysterious Corrupted Obelisk|QID|38739|ACTIVE|39394;38463|M|46.30,72.70|Z|Tanaan Jungle|N|Corrupted Primal Obelisk|ITEM|241666|   		; Only able to get with Quest in log - 38463H - 39394A
-A Forgotten Shard of the Cipher|QID|38740|ACTIVE|39394;38463|M|63.30,28.10|Z|Tanaan Jungle|N|Shard of Cyrukh - Pet|ITEM|128309|				; Only able to get with Quest in log - 38463H - 39394A
+A Looted Bleeding Hollow Treasure|QID|38683|ACTIVE|38560^38453|M|26.80,44.20|Z|Tanaan Jungle|N|Throbbing Blood Orb.|ITEM|127709|			; Only able to get with Quest in Log - 38453H - 38560A
+A Mysterious Corrupted Obelisk|QID|38739|ACTIVE|39394^38463|M|46.30,72.70|Z|Tanaan Jungle|N|Corrupted Primal Obelisk|ITEM|241666|   		; Only able to get with Quest in log - 38463H - 39394A
+A Forgotten Shard of the Cipher|QID|38740|ACTIVE|39394^38463|M|63.30,28.10|Z|Tanaan Jungle|N|Shard of Cyrukh - Pet|ITEM|128309|				; Only able to get with Quest in log - 38463H - 39394A
 
 ]]
 

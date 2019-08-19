@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/draenor_legendary_ring_and_follower_quests
+-- Date: 2018-10-17 02:20
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3634/revisions/28982/view
 -- Date: 2018-02-19 22:45
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -52,11 +57,11 @@ t Core of Iron|QID|35991|M|85.18,31.72|N|To Archmage Khadgar|
 t Core of Flame|QID|35990|M|85.18,31.72|N|To Archmage Khadgar|
 t Draenor's Secret Power|QID|36158|M|85.18,31.72|N|To Archmage Khadgar|
 
-A Tackling Teron'gor|QID|35993|PRE|35990;35991;35992|M|85.18,31.72|N|From Archmage Khadgar|
+A Tackling Teron'gor|QID|35993|PRE|35990&35991&35992|M|85.18,31.72|N|From Archmage Khadgar|
 C Tackling Teron'gor|QID|35993|M|48.4,30.8|Z|DraenorAuchindoun|N|Corrupted Blood|
 T Tackling Teron'gor|QID|35993|M|85.18,31.72|N|To Archmage Khadgar|
 
-A Eyes of the Archmage|QID|35994|PRE|35993;36158|M|85.18,31.72|N|From Archmage Khadgar|
+A Eyes of the Archmage|QID|35994|PRE|35993&36158|M|85.18,31.72|N|From Archmage Khadgar|
 C Eyes of the Archmage|QID|35994|N|Follow him outside after chatting with him and whatch the fail.|CHAT|
 T Eyes of the Archmage|QID|35994|M|85.18,31.72|N|To Archmage Khadgar|
 A Fugitive Dragon|QID|36000|PRE|35994|M|85.18,31.72|N|From Archmage Khadgar|
@@ -115,13 +120,13 @@ C Might of the Elemental Lords|QID|36013|Z|FoundryRaid|QO|1|N|Collect Elemental 
 t Heart of the Fury|QID|36009|M|85.18,31.72|N|To Archmage Khadgar|
 t Flamebender's Tome|QID|36010|M|85.18,31.72|N|To Archmage Khadgar|
 t Reverse Piracy|QID|36012|M|85.18,31.72|N|To Archmage Khadgar|
-A Blackhand's Secret|QID|36014|M|85.18,31.72|PRE|36009;36010;36012|N|From Archmage Khadgar|
+A Blackhand's Secret|QID|36014|M|85.18,31.72|PRE|36009&36010&36012|N|From Archmage Khadgar|
 C Severed Arm|QID|36016|M|48.4,34.5|Z|The Crucible@FoundryRaid|N|Kill Blackhand and loot his arm.|
 t Blackhand's Secret|QID|36014|M|85.18,31.72|N|To Archmage Khadgar|
 t Might of the Elemental Lords|QID|36013|M|85.18,31.72|N|To Archmage Khadgar|
 
 N Refresh|QID|36014|N|Click off this step.  It lets the client catch up with the server. You will now get your ring upgrade and get the Garona questline.|
-A The Unbroken Circle|QID|36016|M|85.18,31.72|PRE|36013;36014|N|From Archmage Khadgar|
+A The Unbroken Circle|QID|36016|M|85.18,31.72|PRE|36013&36014|N|From Archmage Khadgar|
 C The Unbroken Circle|QID|36016|CHAT|N|Ask Archmage Khadgar for your i715 upgrade|
 T The Unbroken Circle|QID|36016|M|85.18,31.72|N|To Archmage Khadgar|
 A Prisoner of the Mind|QID|36017|PRE|36016|M|85.18,31.72|N|From Archmage Khadgar|

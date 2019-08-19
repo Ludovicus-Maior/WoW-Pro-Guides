@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_iron_horde_invasion_source_code
+-- Date: 2018-10-17 02:31
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3607/revisions/29142/view
 -- Date: 2018-02-23 01:43
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -80,7 +85,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A Iron Horde Invasion|QID|36498|M|62.9,71.6|N|This quest should auto-accept in Stormwind City, if not, head to your nearest Hero's Call Board.|Z|Stormwind City|
-C The Dark Portal |QID|34398;36881|N|You have accepted quest [The Dark Portal] for the follow-on to this guide. Drop it or you will not be able to complete any quest after [Iron Horde Invasion].|
+C The Dark Portal |QID|34398^36881|N|You have accepted quest [The Dark Portal] for the follow-on to this guide. Drop it or you will not be able to complete any quest after [Iron Horde Invasion].|
 F Shattered Beachhead|QID|36498|N|Use the portal in the mage tower of Stormwind City.|M|49.0,87.2|Z|Stormwind City|ACTIVE|36498|
 f Shattershore|QID|36498|ACTIVE|36498|M|67.64,27.97|N|With Araazi.|
 T Iron Horde Invasion|QID|36498|N|To Vindicator Maraad.|M|66.58,28.26|

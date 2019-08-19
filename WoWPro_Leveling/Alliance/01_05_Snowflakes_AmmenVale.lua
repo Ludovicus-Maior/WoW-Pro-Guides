@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
+-- Date: 2018-10-17 22:45
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3206/revisions/29722/view
 -- Date: 2018-09-10 22:05
 -- Who: Ludovicus_Maior
 -- Log: Level tweaks
@@ -246,10 +251,6 @@
 -- Who: Crackerhead22
 -- Log: Added missing class quests, added spacing for easier editing.
 
--- URL: http://wow-pro.com/node/3206/revisions/23320/view
--- Date: 2010-12-03 07:57
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("SnoAmmen0105", "Leveling", "Ammen Vale (Draenai)", "Snowflake", "Alliance")
 WoWPro:GuideLevels(guide,1,4,1.49123)
 WoWPro:GuideNextGuide(guide, "SnoAzu0512")
@@ -266,14 +267,14 @@ C Replenishing the Healing Crystals|QID|9280|M|51.2,31.3|N|Kill and loot Vale Mo
 C Replenishing the Healing Crystals|QID|9369|M|51.2,31.3|N|Kill and loot Vale Moths until you have 6 vials of Moth Blood.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
 T Replenishing the Healing Crystals|QID|9280|M|52.73,35.90|N|To Proenitus.|R|Draenei|
 T Replenishing the Healing Crystals|QID|9369|M|52.73,35.90|N|To Proenitus.|R|Human, Worgen, Gnome, Dwarf, Night Elf, Pandaren|
-A Urgent Delivery!|QID|9409|PRE|9280+9369|M|52.73,35.90|N|From Proenitus.|
+A Urgent Delivery!|QID|9409|PRE|9280^9369|M|52.73,35.90|N|From Proenitus.|
 T Urgent Delivery!|QID|9409|N|To Zaldunn inside the building (he wanders around inside the place a bit).|M|51.8,42.0|
 
 A Rescue the Survivors!|QID|9283|PRE|9409|M|52.21,43.32|N|From Zaldunn.|R|Draenei|
 A Botanist Taerix|QID|9371|PRE|9409|LEAD|10302|M|52.73,35.90|N|From Proenitus.|
 
 T Botanist Taerix|QID|9371|M|49.87,37.35|N|To Botanist Taerix around the corner near the Training dummies.|
-A Volatile Mutations|QID|10302|PRE|9280+9369|M|49.87,37.35|N|From Botanist Taerix, back outside.|
+A Volatile Mutations|QID|10302|PRE|9280^9369|M|49.87,37.35|N|From Botanist Taerix, back outside.|
 C Rescue the Survivors!|QID|9283|S|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|39.1,43.7|NC|R|Draenei|T|Draenei Survivor|
 C Volatile Mutations|QID|10302|M|43.51,33.10|N|Kill Volatile Mutations.|
 C Rescue the Survivors!|QID|9283|US|N|Go west and look for a Draenei Survivor. Cast your Gift of the Naaru on him.|M|39.1,43.7|NC|R|Draenei|T|Draenei Survivor|

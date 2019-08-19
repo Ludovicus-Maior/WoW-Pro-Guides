@@ -3,6 +3,16 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/legion_allied_races_guides
+-- Date: 2018-10-23 21:54
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3778/revisions/29464/view
+-- Date: 2018-08-01 19:22
+-- Who: Ludovicus_Maior
+-- Log: Legion Allied Races Guides
+
 local guide = WoWPro:RegisterGuide('Ludo_AlliesA', 'Achievements', 'Stormwind City', 'Ludo', 'Alliance')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro.Achievements:GuideMisc(guide, "Allied Races Unlock", "Reputation", "Legion")
@@ -17,7 +27,7 @@ N Allied Races: Void Elf|ACTIVE|50239|ACH|12447;|N|No Void Elf for you!\nYou nee
 N Allied Races: Lightforged Draenei|ACTIVE|50239|ACH|12448;|N|No Lightforged Draenei for you!\nYou need to be Exalted with Army of the Light  and completed [You Are Now Prepared!]\nComplete with right click.|
 T A Choice of Allies|QID|50239|M|52.07,13.41|N|To Anduin Wrynn|
 
-N You have chosen|AVAILABLE|49787;49698|N|Get the next quest from Alleria Windrunner or High Exarch Turalyon|
+N You have chosen|AVAILABLE|49787^49698|N|Get the next quest from Alleria Windrunner or High Exarch Turalyon|
 
 A The Ghostlands|QID|49787|PRE|50239|M|52.25,13.50|N|From Alleria Windrunner|O|
 P Ghostlands|ACTIVE|49787|M|52.30,13.33|N|Take the rift to the Ghostlands.|

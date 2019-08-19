@@ -172,7 +172,7 @@ class FindSource(HTMLParser):
         if not self._inGuide :
             mo = re.search("""WoWPro.[A-Z][A-Za-z]+:RegisterGuide\s*\(\s*["']([^"']+)["']""",data)
             if not mo:
-                mo = re.search("""WoWPro:RegisterGuide\s*\(\s*["']([^"']+)["']""",data)
+                mo = re.search("""local.+?WoWPro:RegisterGuide\s*\(\s*["']([^"']+)["']""",data)
             if mo:
                 self._guideID = mo.group(1)
                 self._inGuide = True
@@ -184,14 +184,14 @@ class FindSource(HTMLParser):
                     GuideDuplicates.append(self._guideID)
                 Guide2Web[self._guideID] = self._page
                 Guides[self._guideID] = []
-                Guides[self._guideID].append(data)
+                data = data[mo.start():]
+                # Guides[self._guideID].append(data)
 #                print "{"+data+"}",
                 self._data = ""
-            return
+            else:
+                return
         if self._inGuide:
-            if data == "&":
-                data = " & "
-#            print "{"+data+"}",
+#            print "{{"+data+"}}",
             if data == "":
                 Guides[self._guideID].append(data)
                 self._data = ""
@@ -199,12 +199,15 @@ class FindSource(HTMLParser):
 #            Guides[self._guideID].append(data)
             self._data = self._data + data
             if re.search("]]",data):
+#                print "Saw Brackets"
                 self._sawBrackets = True
-            end = re.search("end\s*\)",data)
+            end = re.search("end\s*\)",self._data)
             if self._sawBrackets and end:
                 self._inGuide = False
                 self._sawBrackets = False
-                Guides[self._guideID].append(data[:end.end()])
+#                print "Saw end", end.end()
+                self._data = self._data[:end.end()]
+                Guides[self._guideID].append(self._data)
                 Guides[self._guideID].append("\n")
 #               print "Finished Guide ", self._guideID, "with ", len(Guides[self._guideID])
             return
@@ -485,12 +488,12 @@ if __name__ == "__main__":
         logging.info("Able to access %s alright." % pa.root)
     if pa.test == True:
         logging.info("Running short test")
-        ScrapeWoWProLua("/Applications/World of Warcraft/Interface/Addons/WoWPro_Leveling/Alliance/40_45_Wkjezz_Thousand_Needles.lua")
-        fs=FindSource("http://wow-pro.com/node/3253")
+        ScrapeWoWProLua("/Users/lfo/WoW/WoW-Pro-Guides_Master/WoWPro_Achievements/General/Emmaleah_Jani.lua")
+        fs=FindSource("http://wow-pro.com/node/3782")
         src=fs.ReadGuide()
-        fs=FindRevisions("http://wow-pro.com/node/3253",True)
+        fs=FindRevisions("http://wow-pro.com/node/3782",True)
         src=fs.ReadGuide()
-        UpdateGuideFile("WkjTho4045")
+        UpdateGuideFile("Emm_Jani")
         exit(0)
     ScrapeWoWProLeveling(pa.root)
     ScrapeGuideFromWoWPro(pa.url)

@@ -4,6 +4,27 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2018-10-23 23:53
+-- Who: Ludovicus_Maior
+-- Log: Add [Refuge Point] and [Stonetalon Peak].
+--	Fix QID on [Northwatch Expedition Base Camp] bucket.
+
+-- URL: http://wow-pro.com/node/3440/revisions/30076/view
+-- Date: 2018-10-23 22:09
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3440/revisions/29883/view
+-- Date: 2018-10-17 01:37
+-- Who: Ludovicus_EditBot
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3440/revisions/29580/view
+-- Date: 2018-08-23 02:16
+-- Who: jovieve
+-- Log: Updated old style QO tag.
+
+-- URL: http://wow-pro.com/node/3440/revisions/29141/view
 -- Date: 2018-02-23 01:40
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags - EK
@@ -170,7 +191,7 @@ return [[
 
 F Stormwind City|QID|29074|N|Start in Stormwind|Z|Stormwind City|
 
-A Stop the Fires! or "Let the Fires Come!"|QID|11131;12135|M|42.60,64.46|N|From Costumed Orphan Matron. Go ahead and pick this up in case the quest is completed.|Z|Elwynn Forest|
+A Stop the Fires! or "Let the Fires Come!"|QID|11131^12135|M|42.60,64.46|N|From Costumed Orphan Matron. Go ahead and pick this up in case the quest is completed.|Z|Elwynn Forest|
 A A Time to Gain|QID|29075|M|32.08,50.45|N|From Celestine of the Harvest.|Z|Elwynn Forest|
 A A Time to Lose|QID|29371|M|32.10,50.55|N|From Kelra.|Z|Elwynn Forest|
 A Stink Bombs Away!|QID|29054|M|32.36,50.79|N|From Gretchen Fenlow.|Z|Elwynn Forest|
@@ -185,12 +206,14 @@ C Clean Up in Stormwind|QID|29144|M|49.12,50.83|N|Look for Orange clouds.|U|6919
 T A Time to Lose|QID|29371|M|32.10,50.55|N|To Kelra.|Z|Elwynn Forest|
 T Clean Up in Stormwind|QID|29144|M|32.36,50.79|N|To Gretchen Fenlow.|Z|Elwynn Forest|
 T Stink Bombs Away!|QID|29054|M|32.36,50.79|N|To Gretchen Fenlow.|Z|Elwynn Forest|
-C Stop the Fires!|QID|11131;12135|Z|Elwynn Forest|
+C Stop the Fires!|QID|11131^12135|Z|Elwynn Forest|
 A Smash the Pumpkin|QID|12133|M|42.41,65.74|Z|Elwynn Forest|
 T Smash the Pumpkin|QID|12133|M|42.60,64.46|N|To Costumed Orphan Matron.|Z|Elwynn Forest|
-T Stop the Fires!|QID|11131;12135|M|42.60,64.46|N|To Costumed Orphan Matron.|Z|Elwynn Forest|
+T Stop the Fires!|QID|11131^12135|M|42.60,64.46|N|To Costumed Orphan Matron.|Z|Elwynn Forest|
 
 N This completes Hallow's End Dailies.
 
 ]]
 end)
+
+

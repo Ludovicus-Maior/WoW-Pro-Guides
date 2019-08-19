@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2019-06-28 23:12
+-- Who: spoony
+-- Log: A Rite of Courage|QID|14456|M|30.92,50.59|N|From Adana Thunderhorn.|;removed pre as it was causing step to skip
+
+-- URL: http://wow-pro.com/node/3203/revisions/30051/view
+-- Date: 2018-10-17 22:53
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3203/revisions/29719/view
 -- Date: 2018-09-10 21:58
 -- Who: Ludovicus_Maior
 -- Log: Level Tweaks
@@ -353,7 +363,7 @@ A Walk With The Earth Mother|QID|26397|PRE|24540|M|59.88,51.62|Z|Thunder Bluff|R
 F Orgrimmar|ACTIVE|26397|M|46.79,49.81|N|Speak to Tal the Wind Rider Master and select Send me to Orgrimmar.|
 
 R Valley of Strength|ACTIVE|26397|M|51.21,63.07|N|Head down the lift and onto Valley of Strength.|
-T Walk With The Earth Mother|QID|26397|M|48.26,70.93|Z|Orgrimmar|R|Tauren|N|To High Overlord Saurfang. Inside the building.
+T Walk With The Earth Mother|QID|26397|M|48.26,70.93|Z|Orgrimmar|R|Tauren|N|To High Overlord Saurfang. Inside the building.|
 
 ]]
 

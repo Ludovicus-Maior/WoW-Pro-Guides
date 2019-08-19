@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_scarlet_enclave
+-- Date: 2019-07-18 16:24
+-- Who: Ludovicus_Maior
+-- Log: Justin Nichols : Fixed minor typos
+
+-- URL: http://wow-pro.com/node/3369/revisions/30020/view
+-- Date: 2018-10-17 02:30
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3369/revisions/29152/view
 -- Date: 2018-02-24 17:55
 -- Who: Ludovicus_EditBot
 -- Log: King Anduin Wrynn
@@ -158,7 +168,7 @@ C Into the Realm of Shadows |QID|12687|N|Go down back in the fields kill a Dark 
 T Into the Realm of Shadows |QID|12687|M|52.5,34.6|N|To Salanar the Horseman.|
 T If Chaos Drives, Let Suffering Hold The Reins |QID|12678|N|To Prince Valanar.|M|52.3,34.0|
 T Tonight We Dine In Havenshire |QID|12679|N|To Orithos the Sky Darkener.|M|53.2,36.9|
-A Gothik the Harvester |QID|12697|PRE|12678;12679;12687;12733|N|From Prince Valanar.|M|52.3,34.0|
+A Gothik the Harvester |QID|12697|PRE|12678&12679&12687&12733|N|From Prince Valanar.|M|52.3,34.0|
 T Gothik the Harvester |QID|12697|N|To Gothik the Harvester.|M|54.1,35.0|
 A The Gift That Keeps On Giving |QID|12698|PRE|12697|M|54.1,35.0|N|From Gothik the Harvester.|
 
@@ -207,7 +217,7 @@ U Open the Ornately Jeweled Box |QID|12720|U|39418|QO|1|N|There are one or two [
 C How To Win Friends And Influence Enemies |QID|12720|N|Go to the Scarlet Hold on the east side of New Avalon, equip the Persuader(s) and beat on people until they tell you want you want to hear.|M|60,68|
 
 T How To Win Friends And Influence Enemies |QID|12720|N|To Prince Keleseth.|M|54.3,57.3|
-A Behind Scarlet Lines |QID|12723|PRE|12716;12722;12720|M|54.3,57.3|N|From Prince Keleseth.|
+A Behind Scarlet Lines |QID|12723|PRE|12716&12722&12720|M|54.3,57.3|N|From Prince Keleseth.|
 
 T Behind Scarlet Lines |QID|12723|N|Go far south to the Scarlet Tavern, second floor, turn the quest into Orbaz Bloodbane.|M|56.3,79.8|
 A The Path Of The Righteous Crusader |QID|12724|PRE|12723|M|56.3,79.8|N|From Orbaz Bloodbane.|
@@ -217,18 +227,18 @@ C The Path Of The Righteous Crusader |QID|12724|N|Ride northeast to the Scarlet 
 
 T Brothers In Death |QID|12725|N|Go to the Basement where you'll find Koltira Deathweaver.|M|63.0,67.8|
 A Bloody Breakout |QID|12727|PRE|12725|N|From Koltira Deathweaver. Be ready to defend, try to fight inside the anti-magic barrier as much as possible.|M|63.0,67.8|
-C Bloody Breakout |QID|12727|N|Try to fight inside the anti-magic barrier as mush as possible. Loot [Valroth's Head] when all is done.|
+C Bloody Breakout |QID|12727|N|Try to fight inside the anti-magic barrier as much as possible. Loot [Valroth's Head] when all is done.|
 
 T The Path Of The Righteous Crusader |QID|12724|N|To Orbaz Bloodbane.|M|56.3,79.8|
 T Bloody Breakout |QID|12727|M|56.3,80.2|N|To Thassarian.|
 A A Cry For Vengeance! |QID|12738|PRE|12727|M|56.3,80.2|N|From Thassarian.|
 
 T A Cry For Vengeance! |QID|12738|N|To the east in the Chapel of the Crimson Flame. Turn the quest into Knight Commander Plaguefist.|M|52.9,81.5|
-A A Special Surprise|QID|12742|PRE|12738|R|Human|N|From Put your goul on passive mode (if you have one), if you have one.|M|52.9,81.5|
-A A Special Surprise|QID|12743|PRE|12738|R|Night Elf|N|From Put your goul on passive mode (if you have one), if you have one.|M|52.9,81.5|
-A A Special Surprise|QID|12744|PRE|12738|R|Dwarf|N|From Put your goul on passive mode (if you have one), if you have one.|M|52.9,81.5|
-A A Special Surprise|QID|12745|PRE|12738|R|Gnome|N|From Put your goul on passive mode (if you have one), if you have one.|M|52.9,81.5|
-A A Special Surprise|QID|12746|PRE|12738|R|Draenei|N|From Put your goul on passive mode (if you have one), if you have one.|M|52.9,81.5|
+A A Special Surprise|QID|12742|PRE|12738|R|Human|N|From Put your ghoul on passive mode (if you have one), if you have one.|M|52.9,81.5|
+A A Special Surprise|QID|12743|PRE|12738|R|Night Elf|N|From Put your ghoul on passive mode (if you have one), if you have one.|M|52.9,81.5|
+A A Special Surprise|QID|12744|PRE|12738|R|Dwarf|N|From Put your ghoul on passive mode (if you have one), if you have one.|M|52.9,81.5|
+A A Special Surprise|QID|12745|PRE|12738|R|Gnome|N|From Put your ghoul on passive mode (if you have one), if you have one.|M|52.9,81.5|
+A A Special Surprise|QID|12746|PRE|12738|R|Draenei|N|From Put your ghoul on passive mode (if you have one), if you have one.|M|52.9,81.5|
 A A Special Surprise |QID|28649|PRE|12738|R|Worgen|N|From Put your ghoul on passive mode (if you have one), if you have one.|M|52.9,81.5|
 A A Special Surprise |QID|12739|PRE|12738|R|Tauren|N|From Put your ghoul on passive mode (if you have one), if you have one.|M|52.9,81.5|
 A A Special Surprise |QID|12747|PRE|12738|R|Blood Elf|N|From Put your ghoul on passive mode (if you have one), if you have one.|M|52.9,81.5|
@@ -237,12 +247,12 @@ A A Special Surprise |QID|12749|PRE|12738|R|Troll|N|From Put your ghoul on passi
 A A Special Surprise |QID|12750|PRE|12738|R|Undead|N|From Put your ghoul on passive mode (if you have one), if you have one.|M|52.9,81.5|
 A A Special Surprise |QID|28650|PRE|12738|R|Goblin|N|From Put your ghoul on passive mode (if you have one), if you have one.|M|52.9,81.5|
 
-C A Special Surprise|QID|12742|R|Human|N|Put your goul on passive mode (if you have one), listen to Ellen Stanbridge's speach and kill her.|M|54.6,83.7|
-C A Special Surprise|QID|12743|R|Night Elf|N|Put your goul on passive mode (if you have one), listen to Yazmina Oakenthorn's speach and kill her.|M|54.3,83.8|
-C A Special Surprise|QID|12744|R|Dwarf|N|Put your goul on passive mode (if you have one), listen to Donovan Pulfrost's speach and kill him.|M|54.1,83.5|
-C A Special Surprise|QID|12745|R|Gnome|N|Put your goul on passive mode (if you have one), listen to Goby Blastenheimer's speach and kill him.|M|54.9,83.7|
-C A Special Surprise|QID|12746|R|Draenei|N|Put your goul on passive mode (if you have one), listen to Valok the Righteous' speach and kill him.|M|54.5,83.5|
-C A Special Surprise|QID|28649|R|Worgen|N|Put your goul on passive mode (if you have one), listen to Lord Haraford's speach and kill him.|M|54.5,83.4|
+C A Special Surprise|QID|12742|R|Human|N|Put your ghoul on passive mode (if you have one), listen to Ellen Stanbridge's speach and kill her.|M|54.6,83.7|
+C A Special Surprise|QID|12743|R|Night Elf|N|Put your ghoul on passive mode (if you have one), listen to Yazmina Oakenthorn's speach and kill her.|M|54.3,83.8|
+C A Special Surprise|QID|12744|R|Dwarf|N|Put your ghoul on passive mode (if you have one), listen to Donovan Pulfrost's speach and kill him.|M|54.1,83.5|
+C A Special Surprise|QID|12745|R|Gnome|N|Put your ghoul on passive mode (if you have one), listen to Goby Blastenheimer's speach and kill him.|M|54.9,83.7|
+C A Special Surprise|QID|12746|R|Draenei|N|Put your ghoul on passive mode (if you have one), listen to Valok the Righteous' speach and kill him.|M|54.5,83.5|
+C A Special Surprise|QID|28649|R|Worgen|N|Put your ghoul on passive mode (if you have one), listen to Lord Haraford's speach and kill him.|M|54.5,83.4|
 C A Special Surprise |QID|12739|R|Tauren|N|Put your ghoul on passive mode (if you have one), listen to Malar Bravehorn's speech and kill him.|M|54.51,83.86|
 C A Special Surprise |QID|12747|R|Blood Elf|N|Put your ghoul on passive mode (if you have one), listen to Lady Eonys' speech and kill her.|M|54.28,83.31|
 C A Special Surprise |QID|12748|R|Orc|N|Put your ghoul on passive mode (if you have one), listen to Kug Ironjaw's speech and kill him.|M|53.77,83.28|
@@ -263,10 +273,10 @@ T A Special Surprise |QID|12749|R|Troll|N|To Knight Commander Plaguefist.|M|52.9
 T A Special Surprise |QID|12750|R|Undead|N|To Knight Commander Plaguefist.|M|52.9,81.5|
 T A Special Surprise |QID|28650|R|Goblin|N|To Knight Commander Plaguefist.|M|52.9,81.5|
 
-A A Sort Of Homecoming |QID|12751|PRE|12739+12742+12743+12744+12745+12746+12747+12748+12749+12750+28649+28650|M|52.9,81.5|N|From Knight Commander Plaguefist.|
+A A Sort Of Homecoming |QID|12751|PRE|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|M|52.9,81.5|N|From Knight Commander Plaguefist.|
 
 T A Sort Of Homecoming |QID|12751|N|To Thassarian.|M|56.3,80.2|
-A Ambush At The Overlook |QID|12754|PRE|12751;12724|N|From Orbaz Bloodbane.|M|56.3,79.8|
+A Ambush At The Overlook |QID|12754|PRE|12751&12724|N|From Orbaz Bloodbane.|M|56.3,79.8|
 
 C Ambush At The Overlook |QID|12754|U|39645|N|Find a clear spot in the Scarlet Overlook, use the [Makeshift Cover], ambush the Scarlet Courier and loot everthing he has.|M|62,77|
 
@@ -289,7 +299,7 @@ C An End To All Things... |QID|12779|U|39700|N|Call your dragon, get on it, kill
 T An End To All Things... |QID|12779|N|To The Lich King.|M|53.6,36.9|
 A The Lich King's Command |QID|12800|PRE|12779|M|53.6,36.9|N|From The Lich King.|
 
-T The Lich King's Command |QID|12800|N|Take the tunel northwest of the camp, then go west following the ghouls to Browman Mill. Talk to Scourge Commander Thalanor.|M|33.9,30.4|
+T The Lich King's Command |QID|12800|N|Take the tunnel northwest of the camp, then go west following the ghouls to Browman Mill. Talk to Scourge Commander Thalanor.|M|33.9,30.4|
 A The Light of Dawn |QID|12801|PRE|12800|M|33.9,30.4|N|From Scourge Commander Thalanor|
 
 C The Light of Dawn |QID|12801|N|Talk to Mograine to begin, then follow Mograine, kill stuff, have fun but take care.|M|34.4,31.1|

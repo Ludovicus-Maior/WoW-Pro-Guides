@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_stonetalon_mountains_alliance
+-- Date: 2018-10-17 02:23
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3233/revisions/29167/view
 -- Date: 2018-02-26 21:35
 -- Who: Ludovicus_EditBot
 -- Log: LVL strip
@@ -143,7 +148,7 @@ T They Set Them Up The Bomb! |QID|13981|M|35.18,71.57|N|To Huntress Jalin.|Z|Ash
 T They Took Our Gnomes|QID|13913|M|35.18,71.57|N|To Huntress Jalin.|Z|Ashenvale|US|
 T The Goblin Braintrust|QID|13979|M|35.18,71.57|N|To Huntress Jalin.|Z|Ashenvale|US|
 
-A Do Yourself a Favor|QID|25613|PRE|13913;25607;13979|M|35.25,71.25|N|From Gnombus the X-Terminator|Z|Ashenvale|
+A Do Yourself a Favor|QID|25613|PRE|13913&25607&13979|M|35.25,71.25|N|From Gnombus the X-Terminator|Z|Ashenvale|
 T Do Yourself a Favor|QID|25613|M|71.87,39.04;71.80,45.67|CS|N|To Kalen Trueshot.|
 
 A The Only Way Down is in a Body Bag|QID|25614|PRE|25613|M|71.80,45.67|N|From Kalen Trueshot.|
@@ -251,7 +256,7 @@ C Preparations for the Future|QID|25741|US|M|58.41,70.86|N|Finish gathering Veno
 T Arcane Legacy|QID|25766|M|58.69,55.90|N|To Arcanist Valdurian.|
 T Capturing Memories|QID|25767|M|58.69,55.90|N|To Neophyte Starcrest.|
 
-A Fallowmere Beckons|QID|25769|PRE|25766;25767|M|58.69,55.90|N|From Arcanist Valdurian.|
+A Fallowmere Beckons|QID|25769|PRE|25766&25767|M|58.69,55.90|N|From Arcanist Valdurian.|
 T Preparations for the Future|QID|25741|M|59.02,56.40|N|To Alithia Fallowmere.|
 T If the Horde Don't Get You...|QID|25739|M|59.47,57.03|N|To Northwatch Captain Kosak.|
 A Tell 'Em Koko Sent You|QID|25765|PRE|25739|M|59.50,56.94|N|From Northwatch Captain Kosak.|
@@ -283,7 +288,7 @@ C Leave No Man Behind!|QID|25809|US|M|68.75,72.72|N|Finish rescueing Miners.|
 T Leave No Man Behind!|QID|25809|M|72.05,75.96|N|To Corporal Wocard.|
 T Is This Thing On?|QID|25808|M|72.05,75.96|N|To Lieutenant Paulson.|
 T Shuttin Her Down|QID|25811|M|72.05,75.96|N|To Steeltoe McGee.|
-A A Special Kind of Job|QID|25821|PRE|25808;25809;25811|M|72.11,76.01|N|From Lieutenant Paulson.|
+A A Special Kind of Job|QID|25821|PRE|25808&25809&25811|M|72.11,76.01|N|From Lieutenant Paulson.|
 T A Special Kind of Job|QID|25821|M|71.07,79.67|N|To Force Commander Valen.|
 
 A Death by Proxy|QID|25834|PRE|25821|M|71.06,79.70|N|From Force Commander Valen.|

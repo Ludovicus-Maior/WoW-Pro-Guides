@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3776
+-- Date: 2019-06-27 21:58
+-- Who: Ludovicus_Maior
+-- Log: 8.2 Z updates
+
+-- URL: http://wow-pro.com/node/3776/revisions/30123/view
+-- Date: 2018-11-12 10:06
+-- Who: Emmaleah
+-- Log: Added profession trainers. Archeology and Fishing do not autocomplete as I am unable to determine the correct Recipe ID (its not the one that the tool tip shows when you learn it).
+
+-- URL: http://wow-pro.com/node/3776/revisions/30104/view
+-- Date: 2018-10-31 08:26
+-- Who: jovieve
+-- Log: Added T and A step to prevent unnecessary jumping to War Campaign guide for just two steps.
+
+-- URL: http://wow-pro.com/node/3776/revisions/29916/view
+-- Date: 2018-10-17 02:22
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3776/revisions/29736/view
 -- Date: 2018-09-12 04:11
 -- Who: Emmaleah
 -- Log: Added note about starting in Stormwind.
@@ -182,7 +202,7 @@ return [[
 
 N Stormwind|N|This guide is intended that you start in Stormwind. Directions are from that point of origin.|
 A Hour of Reckoning|QID|53370|N|Autoaccepted upon loggin in. Target buttons are included to assist with the crowds, then if you have "Interact with target keybound you will find it easier in the press of people.|LEAD|51795|;or perhaps upon logging in anywhere?
-T Hour of Reckoning|QID|53370|M|22.37,32.42|Z|Stormwind City|N|To Master Mathias Shaw.|T|Master Mathias Shaw
+T Hour of Reckoning|QID|53370|M|22.37,32.42|Z|Stormwind City|N|To Master Mathias Shaw.|T|Master Mathias Shaw|
 A The Battle for Lordaeron|QID|51795|M|22.37,32.42|Z|Stormwind City|N|From Master Mathias Shaw.|
 C The Battle for Lordaeron|QID|51795|M|22.22,32.53|Z|Stormwind City|QO|1|CHAT|N|Tell Captain Angelica, at the Stormwind docks you are ready to sail and start the scenario or to skip it.|T|Captain Angelica|
 
@@ -214,19 +234,19 @@ T The Battle for Lordaeron|QID|51795|M|27.64,21.29|Z|Stormwind City|N|To Halford
 A A Dying World|QID|52946|M|27.70,21.34|Z|Stormwind City|N|A request from your Magni Bronzebeard will come automatically from UI after you turned in "The Battle for Lordaeron" at Halford Wyrmbane.|
 C A Dying World|QID|52946|M|75.25,20.49|Z|Stormwind City|QO|1|N|Go to the Eastern Earthsrine.|
 T A Dying World|QID|52946|M|42.26,44.26|Z|Silithus|N|To Magni Bronzebeard.|
-A The Heart of Azeroth|QID|51211|M|42.26,44.26|Z|Silithus|N|From Magni Bronzebeard.|PRE|52946+46931|
+A The Heart of Azeroth|QID|51211|M|42.26,44.26|Z|Silithus|N|From Magni Bronzebeard.|PRE|52946^46931|
 C The Heart of Azeroth|QID|51211|QO|1|M|43.19,44.49|Z|Silithus|NC|N|Click on the Titan Translocator to teleport to the Chamber of the Heart.|
-C The Heart of Azeroth|QID|51211|M|50.30,54.05|Z|Chamber of Heart!Dungeon|QO|2|N|Use titan console (Video can be skipped [ESC])|
-C The Heart of Azeroth|QID|51211|QO|3|M|50.17,53.60|Z|Chamber of Heart!Dungeon|CHAT|N|Ask Magni what Azeroth wants.|
-T The Heart of Azeroth|QID|51211|M|50.17,53.60|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
-A Infusing the Heart|QID|52428|M|50.05,55.15|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|51211+51400|
-C Infusing the Heart|QID|52428|QO|1|M|52.32,58.14;55.48,60.73;54.70,69.61;48.32,73.66;45.13,62.64|CN|Z|Chamber of Heart!Dungeon|NC|N|Go to several of the Azerite Cracks around the room and use your special action button.|
-C Infusing the Heart|QID|52428|QO|3|M|49.98,64.74|Z|Chamber of Heart!Dungeon|NC|N|Move to the center of the room and use your special action button, wait until the bar fills.|
-T Infusing the Heart|QID|52428|M|50.23,53.83|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
-A The Speakers Imperative|QID|51403|M|50.23,53.83|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|52428|
-C The Speakers Imperative|QID|51403|M|50.10,30.39|Z|Chamber of Heart!Dungeon|NC|N|Use the provided portal to return to Stormwind.|
+C The Heart of Azeroth|QID|51211|M|50.30,54.05|Z|Chamber of Heart!Dungeon1021|QO|2|N|Use titan console (Video can be skipped [ESC])|
+C The Heart of Azeroth|QID|51211|QO|3|M|50.17,53.60|Z|Chamber of Heart!Dungeon1021|CHAT|N|Ask Magni what Azeroth wants.|
+T The Heart of Azeroth|QID|51211|M|50.17,53.60|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
+A Infusing the Heart|QID|52428|M|50.05,55.15|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|PRE|51211^51400|
+C Infusing the Heart|QID|52428|QO|1|M|52.32,58.14;55.48,60.73;54.70,69.61;48.32,73.66;45.13,62.64|CN|Z|Chamber of Heart!Dungeon1021|NC|N|Go to several of the Azerite Cracks around the room and use your special action button.|
+C Infusing the Heart|QID|52428|QO|3|M|49.98,64.74|Z|Chamber of Heart!Dungeon1021|NC|N|Move to the center of the room and use your special action button, wait until the bar fills.|
+T Infusing the Heart|QID|52428|M|50.23,53.83|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
+A The Speakers Imperative|QID|51403|M|50.23,53.83|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|PRE|52428|
+C The Speakers Imperative|QID|51403|M|50.10,30.39|Z|Chamber of Heart!Dungeon1021|NC|N|Use the provided portal to return to Stormwind.|
 T The Speakers Imperative|QID|51403|M|27.64,21.29|Z|Stormwind City|N|To Halford Wyrmbane.|
-A Tides of War|QID|46727|M|27.64,21.29|Z|Stormwind City|N|From Halford Wyrmbane.|PRE|51403;51795|
+A Tides of War|QID|46727|M|27.64,21.29|Z|Stormwind City|N|From Halford Wyrmbane.|PRE|51403&51795|
 C Tides of War|QID|46727|QO|1|M|83.47,29.62;85.14,32.52|CS|Z|Stormwind City|NC|N|Fly to Stormwind Keep and go to the Throneroom and listen to the council.|
 C Tides of War|QID|46727|QO|2|M|85.03,32.64|NC|Z|Stormwind City|N|Click on the 'survivor's memories' hovering over his head.|
 T Tides of War|QID|46727|M|85.28,32.26|Z|Stormwind City|N|To Anduin Wrynn.|
@@ -251,9 +271,26 @@ T Out Like Flynn|QID|47098|M|75.73,23.58|Z|Boralus|N|To Taelia.|
 A Get Your Bearings|QID|47099|M|75.66,25.47|Z|Tiragarde Sound|N|From Taelia.|PRE|47098|
 C Go to the Ferry Dock|QID|47099|QO|1|M|75.27,25.81|Z|Tiragarde Sound|NC|N|Pick up the Ferry "flight" point.|
 C Go to the Bank|QID|47099|QO|2|M|73.76,21.74;75.83,22.85;75.49,17.66|CS|Z|Boralus|NC|N|Just up the stairs and you will find the bank.|
+
+; professions
 A A Load of Scrap|QID|52462|M|75.55,18.80;75.42,17.68;77.18,16.44|CS|Z|Boralus|N|Up the stairs and to your right, from Crenzo Sparkshatter.|
 C A Load of Scrap|QID|52462|M|77.13,16.30|Z|Boralus|NC|N|Click on Crenzo's creation (behind him) and then drag the pants he gave you into that UI window that opens. This can be done with all crafted items to recover some mats.|
 T A Load of Scrap|QID|52462|M|77.18,16.44|Z|Boralus|N|To Crenzo Sparkshatter.|
+N Engineering|ACTIVE|47099|M|77.64,14.33|Z|Boralus|N|Train BfA Engineering at Layla Evenkeel.|P|Engineering;202|RECIPE|255392|;264492
+N Tailoring|ACTIVE|47099|M|76.94,11.13|Z|Boralus|N|Train BfA Tailoring at Daniel Brineweaver.|P|Tailoring;197|RECIPE|257103|;264630
+N Jewelcrafting|ACTIVE|47099|M|75.20,9.82|Z|Boralus|N|Train BfA Jewelcrafting at Samuel D. Colton III.|P|Jewelcrafting;755|RECIPE|256689|;264548
+N Fishing|ACTIVE|47099|M|75.83,9.19;74.19,5.51|CS|Z|Boralus|N|Up the stairs to find Alan Goyle, BfA Fishing Trainer. Check off manually when done.|P|Fishing;356|RECIPE|271675|;need to find correct spell id to autocomplete
+N Mining|ACTIVE|47099|M|75.23,7.53|Z|Boralus|N|Train BfA Mining at Myra Cabot.|P|Mining;186|RECIPE|253333|;
+N Alchemy|ACTIVE|47099|M|74.19,6.52|Z|Boralus|N|Train BfA Alchemy at Elric Whalgrene.|P|Alchemy;171|RECIPE|252382|;264255
+N Inscription|ACTIVE|47099|M|73.39,6.32|Z|Boralus|N|Train BfA Inscription at Zooey Inksprocket.|P|Inscription;773|RECIPE|264777|;264508
+N Blacksmithing|ACTIVE|47099|M|73.46,8.49|Z|Boralus|N|Train BfA Blacksmithing at Grix "Ironfists" Barlow.|P|Blacksmithing;164|RECIPE|253183|;264448
+N Herbalism|ACTIVE|47099|M|71.42,4.63|Z|Boralus|N|Train BfA Herbalism at Declan Senal.|P|Herbalism;182|RECIPE|252411|;
+N Archaeology|ACTIVE|47099|M|68.34,8.49|Z|Boralus|N|Train BfA Archaeology at Jane Hudsun, inside the Hudsun Archaeological Building. Check off manually when done.|P|Archaeology;794|RECIPE|278910|;need to determine correct spell ID to autocomplete
+N Cooking|ACTIVE|47099|M|71.22,10.66|Z|Boralus|N|Train BfA Cooking at "Cap'n" Byron Mehlsack.|P|Cooking;185|RECIPE|259430|;
+N Enchanting|ACTIVE|47099|M|74.02,11.57|Z|Boralus|N|Train BfA Enchanting at Emily Fairweather.|P|Enchanting;333|RECIPE|255074|;264473
+N Leatherworking|ACTIVE|47099|M|75.46,12.62|Z|Boralus|N|Train BfA Leatherworking at Cassandra Brennor.|P|Leatherworking;165|RECIPE|256756|;264592
+N Skinning|ACTIVE|47099|M|75.65,13.38|Z|Boralus|N|Train BfA skinning at Camilla Darksky.|P|Skinning;393|RECIPE|257152|;
+
 C Go to Snug Harbor Inn|QID|47099|QO|3|M|74.11,12.65|Z|Boralus|CHAT|N|The inn is back on the main walkway. Set your hearthstone here. (there is a portal to Stormwind nearby).|
 C Go to the Flightmaster|QID|47099|QO|4|M|70.36,16.71;66.96,14.99|CS|Z|Boralus|NC|N|Around the corner from the inn. Pick up the flight point.|
 T Get Your Bearings|QID|47099|M|66.96,14.99|Z|Boralus|N|To Taelia. who is right beside you.|
@@ -270,7 +307,7 @@ T Sanctum of the Sages|QID|47186|M|68.17,21.99|Z|Boralus|N|To Taelia, who appare
 
 A A Nation Divided|QID|47189|M|68.17,21.99|Z|Boralus|N|From Taelia.|PRE|47186|
 C A Nation Divided|QID|47189|M|68.38,22.07|Z|Boralus|NC|N|Click on the scouting map, chose your first adventure.|
-A Choose next adventure|QID|47962;47961;47960|M|68.38,22.07|Z|Boralus|N|From the Scouting Map on the wall.|PRE|47189|
+A Choose next adventure|QID|47962^47961^47960|M|68.38,22.07|Z|Boralus|N|From the Scouting Map on the wall.|PRE|47189|
 ;A Tiragarde Sound|QID|47960|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 ;A Drustvar|QID|47961|M|70.52,27.15|Z|Boralus|N|From Halford Wyrmbane.|
 ;A Stormsong Valley|QID|47962|M|68.17,21.99|Z|Boralus|N|To Taelia.|
@@ -290,6 +327,9 @@ A The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|From Flynn Fairwin
 C The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|Orient yourself towards the barrel (north) and use the special action button.|
 T The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|To Flynn Fairwind.|
 A The Ashvane Trading Company|QID|47485|M|73.80,25.07|Z|Tiragarde Sound|N|From Cyrus Crestfall.|PRE|47181|
+
+T The War Campaign|QID|52654|M|69.27,26.97|Z|Boralus|N|To Halford Wyrmbane.|
+A The War Cache|QID|52544|M|69.27,26.97|Z|Boralus|N|From Halford Wyrmbane.|NA|
 
 J On to Tiragarde Sound|QID|47485|N|This ends the Battle for Azeroth opening guide. The Tiragarde Sound guide will auto load when you close this step.|GUIDE|EmmTiragarde|
 J On to Drustvar|QID|48622|N|This ends the Battle for Azeroth opening guide. The Drustvar guide will auto load when you close this step.|GUIDE|STrekDrustvar|

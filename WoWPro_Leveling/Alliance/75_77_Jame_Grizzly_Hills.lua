@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2018-10-17 02:25
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3293/revisions/29501/view
 -- Date: 2018-08-13 12:59
 -- Who: Ludovicus_Maior
 -- Log:  |NC|N|Blah
@@ -285,7 +290,7 @@ C Wolfsbane Root|QID|12307|N|Destroy 8 Wolfsbane Roots around Silverbook by clic
 C Northern Hospitality|QID|12299|N|Finish taking out the Conquest Hold Marauders |US|
 T Wolfsbane Root|QID|12307|N|To Katja.|M|25.64,33.40|
 T Northern Hospitality|QID|12299|N|To Sergi.|M|26.39,35.78|
-A Test of Mettle|QID|12300|PRE|12299;12307|M|26.5,35.8|N|From Sergi.|
+A Test of Mettle|QID|12300|PRE|12299&12307|M|26.5,35.8|N|From Sergi.|
 C Test of Mettle|QID|12300|N|Kill Sergent Bonesnap in Bonesnap's Camp.|M|21.87,30.00|
 T Test of Mettle|QID|12300|N|To the Captured Trapper in Bonesnap's Camp.|M|21.87,29.97|
 A Words of Warning|QID|12302|PRE|12300|M|21.9,29.9|N|From the Captured Trapper.|
@@ -308,7 +313,7 @@ C Secrets of the Flamebinders |QID|12222|N|Kill and loot Dragonflayer Flamebinde
 
 T Secrets of the Flamebinders |QID|12222|N|To Woodsman Drake.|M|32.50,59.96|
 T Thinning the Ranks |QID|12223|M|32.4,59.9|N|To Woodsman Drake.|
-A The Thane of Voldrune |QID|12255|PRE|12222;12223|M|32.4,59.9|N|From Woodsman Drake.|
+A The Thane of Voldrune |QID|12255|PRE|12222&12223|M|32.4,59.9|N|From Woodsman Drake.|
 T A Swift Response |QID|12310|N|To Lieutenant Dumont.|M|31.91,60.18|
 T Descent into Darkness |QID|12105|M|31.8,60.2|N|To Lieutenant Dumont.|
 A Report to Gryan Stoutmantle... Again |QID|12109|PRE|12105|M|31.8,60.2|N|From Lieutenant Dumont.|
@@ -354,8 +359,8 @@ C The Failed World Tree |QID|12219|N|Kill Entropic Oozes until you've looted 6 S
 
 T A Dark Influence |QID|12220|N|To Hierophant Thayreen.|M|31.22,59.49|
 T The Failed World Tree |QID|12219|M|31.2,59.5|N|To Hierophant Thayreen.|
-A A Possible Link |QID|12246|PRE|12219;12220|M|31.2,59.5|N|From Hierophant Thayreen.|
-A Children of Ursoc |QID|12247|PRE|12219;12220|M|31.2,59.5|N|From Hierophant Thayreen.|
+A A Possible Link |QID|12246|PRE|12219&12220|M|31.2,59.5|N|From Hierophant Thayreen.|
+A Children of Ursoc |QID|12247|PRE|12219&12220|M|31.2,59.5|N|From Hierophant Thayreen.|
 r Sell junk and repair |QID|12443|M|31.38,59.87|
 
 C The Thane of Voldrune |QID|12255|N|Get on Flamebringer and kill Thane Torvald Eriksson in Voldrune.|M|26.6,77.8|
@@ -467,7 +472,7 @@ T The Runic Prophecies |QID|11993|N|To Torthen Deepdig.|M|59.73,27.56|
 r Sell junk and repair |QID|11985|M|59.79,27.83|
 
 T Ruuna the Blind |QID|12161|N|Ruuna the Blind in Ruuna's Camp.|M|44.07,48.01|
-A Ruuna's Request |QID|12328|PRE|12161+12425|M|44.0,47.9|N|From Ruuna the Blind.|
+A Ruuna's Request |QID|12328|PRE|12161^12425|M|44.0,47.9|N|From Ruuna the Blind.|
 C Ruuna's Request |QID|12328|N|North/northeast of the camp, kill and loot Fern Feeder Moths.|M|46.8,35.7|
 T Ruuna's Request |QID|12328|N|To Ruuna the Blind.|M|44.07,48.01|
 A Out of Body Experience |QID|12327|PRE|12328|M|44.0,47.9|N|From Ruuna the Blind.|
@@ -483,8 +488,8 @@ H Amberpine Lodge |QID|12247|N|Hearth to Amberpine Lodge, or run back if your he
 
 T A Possible Link |QID|12246|N|To Hierophant Thayreen.|M|31.21,59.49|
 T Children of Ursoc |QID|12247|M|31.2,59.5|N|To Hierophant Thayreen.|
-A Vordrassil's Sapling |QID|12248|PRE|12246;12247|M|31.2,59.5|N|From Hierophant Thayreen.|
-A Vordrassil's Seeds |QID|12250|PRE|12246;12247|M|31.2,59.5|N|From Hierophant Thayreen.|
+A Vordrassil's Sapling |QID|12248|PRE|12246&12247|M|31.2,59.5|N|From Hierophant Thayreen.|
+A Vordrassil's Seeds |QID|12250|PRE|12246&12247|M|31.2,59.5|N|From Hierophant Thayreen.|
 
 C Vordrassil's Seeds |QID|12250|N|Loot Vordrassil's Seeds that are in and around the large, dead tree trunk.|M|51.5,47.1|S|
 C Vordrassil's Sapling |QID|12248|U|37306|N|Use the [Verdant Torch] on the tree  and get the [Vordrassil's Ashes]|M|50.63,42.73|
@@ -609,7 +614,7 @@ H Amberpine Lodge|QID|12248|N|Hearth to Amberpine Lodge, or run back if your hea
 
 T Vordrassil's Sapling |QID|12248|N|To Hierophant Thayreen.|M|31.23,59.47|
 T Vordrassil's Seeds |QID|12250|M|31.2,59.5|N|To Hierophant Thayreen.|
-A Ursoc, the Bear God |QID|12249|PRE|12248;12250|M|31.2,59.5|N|From Hierophant Thayreen.|
+A Ursoc, the Bear God |QID|12249|PRE|12248&12250|M|31.2,59.5|N|From Hierophant Thayreen.|
 
 N Group quests |QID|12164|N|Find a group to complete these or abandon them.|
 

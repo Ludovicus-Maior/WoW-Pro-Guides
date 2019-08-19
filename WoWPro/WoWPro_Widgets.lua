@@ -66,13 +66,18 @@ function WoWPro:CreateItemButton(parent, id)
 	itembutton:SetFrameStrata("LOW")
 	itembutton:SetHeight(32)
 	itembutton:SetWidth(32)
-	itembutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -10, -7)
+	if WoWProDB.profile.leftside then
+	    itembutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 10, -7)
+	else
+	    itembutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -10, -7)
+	end	    
 
-	local cooldown = CreateFrame("Cooldown", nil, itembutton)
+	local cooldown = CreateFrame("Cooldown", nil, itembutton, "CooldownFrameTemplate")
 	cooldown:SetAllPoints(itembutton)
 
 	local itemicon = itembutton:CreateTexture(nil, "ARTWORK")
-	itemicon:SetWidth(36) itemicon:SetHeight(36)
+	itemicon:SetWidth(36)
+	itemicon:SetHeight(36)
 	itemicon:SetTexture("Interface\\Icons\\INV_Misc_Bag_08")
 	itemicon:SetAllPoints(itembutton)
 
@@ -88,10 +93,32 @@ function WoWPro:CreateTargetButton(parent, id)
 	targetbutton:SetFrameStrata("LOW")
 	targetbutton:SetHeight(32)
 	targetbutton:SetWidth(32)
-	targetbutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -35, -7)
+	targetbutton.Position = function (use_active)
+	    if use_active then
+--	         WoWPro:dbp("CTBλPosition: use_active=%s, leftside=%s", tostring(use_active), tostring(leftside))
+        	if WoWProDB.profile.leftside then
+        	    targetbutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 46, -7)
+--        	    WoWPro:dbp("CTBλPosition:A")
+            else
+                targetbutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -46, -7)
+--        	    WoWPro:dbp("CTBλPosition:B")
+        	end	    
+	    else
+        	if WoWProDB.profile.leftside then
+        	    targetbutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 10, -7)
+---        	    WoWPro:dbp("CTBλPosition:C")
+        	else
+        	    targetbutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -10, -7)
+--        	    WoWPro:dbp("CTBλPosition:D")
+        	end	    
+	    end
+	end
+	targetbutton.Position(true)
 	
+    	
 	local targeticon = targetbutton:CreateTexture(nil, "ARTWORK")
-	targeticon:SetWidth(36) targeticon:SetHeight(36)
+	targeticon:SetWidth(36)
+	targeticon:SetHeight(36)
 	targeticon:SetTexture("Interface\\Icons\\Ability_Marksmanship")
 	targeticon:SetAllPoints(targetbutton)
 

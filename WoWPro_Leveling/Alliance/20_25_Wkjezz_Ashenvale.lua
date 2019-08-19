@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ashenvale_alliance
+-- Date: 2018-10-17 02:23
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3225/revisions/29034/view
 -- Date: 2018-02-20 00:59
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -359,14 +364,14 @@ R Remains of Iris Lake|QID|26475|M|43.05,45.83;46.82,46.76|CC|N|Run to the Remai
 C Elune's Tear|QID|26475|M|46.82,46.73|N|Loot an Elune's Tear off the ground.|
 T Go With The Flow|QID|13877|M|52.09,56.54|N|To Sabina Pilgrim.|
 
-A Hot Lava|QID|13880|PRE|13877+13879|M|52.23,56.55|N|From Core.|
-A Put Out The Fire|QID|13884|PRE|13877+13879|M|52.14,56.71|N|From Arctanus.|
+A Hot Lava|QID|13880|PRE|13877^13879|M|52.23,56.55|N|From Core.|
+A Put Out The Fire|QID|13884|PRE|13877^13879|M|52.14,56.71|N|From Arctanus.|
 C Hot Lava|QID|13880|S|U|46352|M|50.12,51.85|N|Use the Gift of the Earth, and target a Lava Fissure.|
 C Put Out The Fire|QID|13884|M|49.78,47.06|N|Kill 10 Lava Ragers.|
 C Hot Lava|QID|13880|US|U|46352|M|49.78,47.06|N|Finish filling Lava Fissures.|
 T Hot Lava|QID|13880|M|52.22,56.47|N|To Core.|
 T Put Out The Fire|QID|13884|M|52.19,56.76|N|To Arctanus.|
-A Vortex|QID|13886|PRE|13880;13884|M|52.33,56.89|N|From The Vortex.|
+A Vortex|QID|13886|PRE|13880&13884|M|52.33,56.89|N|From The Vortex.|
 C Vortex|QID|13886|M|48.85,40.13|N|Use abilities 1 and 2 every time they are available. When you are on fire use ability 3.|
 T Vortex|QID|13886|M|52.06,56.46|N|To Sabina Pilgrim.|
 
@@ -377,7 +382,7 @@ T A Trip to the Moonwell|QID|13919|M|53.62,46.03|N|(UI Alert)|
 A He Who Would Be Forgiven|QID|13921|PRE|13919|M|53.62,46.03|N|(UI Alert)|
 T He Who Would Be Forgiven|QID|13921|M|59.03,59.91|N|To Avrus Illwhisper.|
 
-A In the Hands of the Perverse|QID|13922|PRE|13921+14018|M|59.03,59.91|N|From Avrus Illwhisper.|
+A In the Hands of the Perverse|QID|13922|PRE|13921^14018|M|59.03,59.91|N|From Avrus Illwhisper.|
 A Recover the Fallen|QID|13928|M|59.01,58.82|N|From Sentinel Melyria Frostshadow.|
 C Recover the Fallen|QID|13928|M|60.63,51.82|N|Loot dead bodies up to this location, You can do so whilst mounted. Beware an Orc called Thagg, he hits very very hard.|
 T Recover the Fallen|QID|13928|M|62.23,51.03|N|To Halannia.|
@@ -470,7 +475,7 @@ T Ze Gnomecorder|QID|25607|M|35.37,71.24|N|To Professor Xakxak Gyromate.|
 T Retaking Mystral Lake|QID|26470|M|35.60,71.48|N|To Sentinel Velene Starstrike.|
 
 A Rebels Without a Clue|QID|26838|LEAD|26735|M|35.60,71.48|N|From Sentinel Velene Starstrike. If you do not plan on going to Stranglethorn, abandon this quest/skip this step.|
-A Do Yourself a Favor|QID|25613|PRE|13913;25607;13979|M|35.27,71.22|N|From Gnombus the X-Terminator.|
+A Do Yourself a Favor|QID|25613|PRE|13913&25607&13979|M|35.27,71.22|N|From Gnombus the X-Terminator.|
 
 N The End|N|This is the end of Ashenvale. The next guide is Stonetalon Mountains, which this guide leades directly into. Close this step, and it should load right up. I've been WKjezz, thanks for using our Addon!|
 

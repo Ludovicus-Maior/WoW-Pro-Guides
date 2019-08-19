@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
+-- Date: 2018-10-17 02:24
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3281/revisions/29052/view
 -- Date: 2018-02-20 01:19
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -401,7 +406,7 @@ H Evergrove|QID|10995|M|63.83,41.26|N|Hearth back to Evergrove, or fly if your h
 T Grulloc Has Two Skulls|QID|10995|M|55.41,44.93|N|To Mog'dorg the Wizened.|
 T Maggoc's Treasure Chest|QID|10996|M|55.41,44.93|N|To Mog'dorg the Wizened.|
 T Even Gronn Have Standards|QID|10997|M|55.41,44.93|N|To Mog'dorg the Wizened.|
-A Grim(oire) Business|QID|10998|PRE|10995;10996;10997|M|55.41,44.93|N|From Mog'dorg the Wizened.|
+A Grim(oire) Business|QID|10998|PRE|10995&10996&10997|M|55.41,44.93|N|From Mog'dorg the Wizened.|
 C Grim(oire) Business|QID|10998|M|77.53,31.16|N|Stand in one of the circles of fire to summon Vim'gol. Kill him them loot his Grimoire.|
 T Grim(oire) Business|QID|10998|M|55.44,44.96|N|To Mog'dorg the Wizened.|
 A Into the Soulgrinder|QID|11000|PRE|10998|M|55.44,44.96|N|From Mog'dorg the Wizened.|

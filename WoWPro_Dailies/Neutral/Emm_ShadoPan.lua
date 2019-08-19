@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2018-10-17 02:21
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3501/revisions/29599/view
 -- Date: 2018-08-24 15:17
 -- Who: Ludovicus_Maior
 -- Log: Fix QOs for [Friends, Not Food!]
@@ -128,7 +133,7 @@ T Understanding The Shado-Pan|QID|31389|M|49.02,70.45|FACTION|Horde|N|To Ban Bea
 T Understanding The Shado-Pan|QID|31387|M|49.02,70.45|FACTION|Alliance|N|To Ban Bearheart. If you don't have this quest, don't worry about it, its just to help you find your way here the first time. It becomes unavailable once your Golden Lotus faction reaches revered, you can have someone share it with you or skip it.|O|
 
 ;Blackguard Defenders
-A Random Dailies from Master Snowdrift|QID|31113;31114;31116;31118;31119|M|49.5,70.5|N|Master Snowdrift should offer you 4 quests. Check this off manually if he is not the quest giver for the day.|
+A Random Dailies from Master Snowdrift|QID|31113^31114^31116^31118^31119|M|49.5,70.5|N|Master Snowdrift should offer you 4 quests. Check this off manually if he is not the quest giver for the day.|
 N Achievement Opportunity|ACTIVE|31113|ACH|7308|N|The goal is to take no damage while doing the dailies, easiest to accomplish if you get Protector Yi(NPC) or a friend to tank for you. Each quest is a seperate component of the achievement, so you don't have to get it all in one day. Manually check this off once you read it.|RANK|3|
 N Achievement Opportunity|ACTIVE|31113|ACH|7299;3|N|To earn the Achievement Loner and a Rebel, you need to do each set of dailies with out a Shado-pan companion (i.e. you have the 'debuff' "Choose a Shado-Pan Companion". you will lose the debuff if you leave the zone, so turn all the quests in before you queue for a dungeon or otherwise leave the area. Manually check this off once you read it.|RANK|3|
 
@@ -169,7 +174,7 @@ T Uruk!|QID|31117|M|49.5,70.5|N|To Master Snowdrift.|
 T Cheng Bo!|QID|31120|M|49.5,70.5|N|To Master Snowdrift.|
 
 ;Omnia Mystics
-A Random Dailies from Ban Bearheart|QID|31039;31040;31044;31042;31041;31048;31043;31046;31045;31047|LEAD|31113|M|49.02,70.45|N|Ban Bearheart should offer you 4 quests. Check this off manually if he is not the quest giver for the day.|
+A Random Dailies from Ban Bearheart|QID|31039^31040^31044^31042^31041^31048^31043^31046^31045^31047|LEAD|31113|M|49.02,70.45|N|Ban Bearheart should offer you 4 quests. Check this off manually if he is not the quest giver for the day.|
 N Achievement Opportunity|ACH|7299;1|ACTIVE|31039|N|To earn the Achievement Loner and a Rebel, you need to do each set of dailies with out a Shado-pan companion (i.e. you have the 'debuff' "Choose a Shado-Pan Companion". you will lose the debuff if you leave the zone, so turn all the quests in before you queue for a dungeon or otherwise leave the area. Manually check this off once you read it. Manually check this off once you read it.|
 N Portal|PRE|31110|ACTIVE|31039|N|If you finished the portal quest, you can use the portal to go to the Omnia Mystics camp on Shan'ze island.|
 A Through the Portal|QID|31110|ACTIVE|31039|M|28.85,22.59|REP|Shado-Pan;1270;Friendly-Exalted|N|This quest will get you a portal so next time its much easier to come to this island.|
@@ -201,17 +206,17 @@ T Dark Arts|QID|31043|M|49.02,70.45|N|You can turn this in at a Shado-pan compan
 T Little Hatchlings|QID|31046|M|49.02,70.45|N|You can turn this in at a Shado-pan companion or to Ban Bearheart.|
 T Illusions Of The Past|QID|31045|M|49.02,70.45|N|You can turn this in at a Shado-pan companion or to Ban Bearheart.|
 T Born Free|QID|31047|M|49.02,70.45|N|You can turn this in at a Shado-pan companion or to Ban Bearheart.|
-A Random mini-boss quest|QID|31049;31062;31061|PRE|31039|N|From UI Alert(upon turning in the previous 4 quests).|
+A Random mini-boss quest|QID|31049^31062^31061|PRE|31039|N|From UI Alert(upon turning in the previous 4 quests).|
 C In Sprite Of Everything|QID|31049|M|20.3,15.78|T|Darkwoods Faerie|N|Located underground in what appears to be a virmin hole. You will get credit for the kill, even if another player attacked him first.|
 C When The Dead Speak|QID|31062|M|32.2,9.4|T|Shan'ze Deathspeaker|N|Located in a clearing on a mountain with some quillin. You will get credit for the kill, even if another player attacked him first.|
 C Riding the Storm|QID|31061|M|33,15|T|Shan'ze Cloudrunner|U|83134|N|Use the claws to go from cloudserpent to cloudserpent as you "beat some sense" into them. You will get credit for the kill, even if another player attacked him first.|
-R Shado-Pan Garrison|PRE|31110|ACTIVE|31049;31061;31062|M|29.01,22.13|N|Return to Shado-Pan Garrison. If you finished the portal quest, you can use the portal to get back there.|
+R Shado-Pan Garrison|PRE|31110|ACTIVE|31049^31061^31062|M|29.01,22.13|N|Return to Shado-Pan Garrison. If you finished the portal quest, you can use the portal to get back there.|
 T In Sprite Of Everything|QID|31049|M|49.02,70.45|N|To Ban Bearheart.|
 T When The Dead Speak|QID|31062|M|49.02,70.45|N|To Ban Bearheart.|
 T Riding the Storm|QID|31061|M|49.02,70.45|N|To Ban Bearheart.|
 
 ;Wu Kao Assassins - items smoke bombs 90006 - coins 86534 - darts 86536 - took them out of steps since steps werent autocompleting, thought maybe because didnt use the items? (altho its more likely I have the QO wrong - forgot to check that, it was late)
-A Random Dailies from Ling of the Six Pools|QID|31196;31197;31198;31199;31200;31201|LEAD|31113+31039|M|49.01,71.34|N|From Ling of the Six Pools. When you accept her quest, a message will show on the middle of your screen saying to pick up your Wu Koa supplies, they are on the ground beside her. You may want open the bag and hotkey them, they are useful for avoiding extra work. I would ignore the use items in the guide panel (except the gas bombs-must use them) and use your own hotkeys instead, since it is impossible to predict which tool you will want in which situation.|
+A Random Dailies from Ling of the Six Pools|QID|31196^31197^31198^31199^31200^31201|LEAD|31113&31039|M|49.01,71.34|N|From Ling of the Six Pools. When you accept her quest, a message will show on the middle of your screen saying to pick up your Wu Koa supplies, they are on the ground beside her. You may want open the bag and hotkey them, they are useful for avoiding extra work. I would ignore the use items in the guide panel (except the gas bombs-must use them) and use your own hotkeys instead, since it is impossible to predict which tool you will want in which situation.|
 N Achievement Opportunity|ACH|7299;2|ACTIVE|31197|N|To earn the Achievement Loner and a Rebel, you need to do each set of dailies with out a Shado-pan companion (i.e. you have the 'debuff' "Choose a Shado-Pan Companion". you will lose the debuff if you leave the zone, so turn all the quests in before you queue for a dungeon or otherwise leave the area. Manually check this off once you read it.|
 N Achievement Opportunity|ACH|7307|ACTIVE|31197|N|To earn the Achievement Silent Assassin, you need to do the Wu Kao set of dailies without killing any extra mobs.  It is recomended you do this with-out a Shado-pan companion, since they don't seen to understand the concept of avoiding enemies. You are given a bag of supplies to assist, it includes smoke bombs and items to CC. Tou probably want to do the Noncombat objectives first, so any accidental kills are less likely to put you over the allowed totals. If you chose to take a companion, you can turn in your quests to them, also run out of range and let them despawn if they are killing extra mobs. Manually check this off once you read it.|
 C The Bigger They Come...|QID|31197|M|18,48|U|86536|S|N|These are located all over the Island. The Elite Kunchong in the feeding pits do NOT count, nor do the Swarmlords. Only the Sra'thik Will-Breakers, Sra'thik Deathmixers, Sra'thik Swarm-Leaders and Sra'thik Vessguards count.|
@@ -239,7 +244,7 @@ T Destroy the Siege Weapons!|QID|31199|M|49.01,71.34|N|You can turn into your co
 T Friends, Not Food!|QID|31201|M|49.01,71.34|N|You can turn into your companion or fly back to Ling of the Six Pools.|
 T Sra'vess Wetwork|QID|31196|M|49.01,71.34|N|You can turn into your companion or fly back to Ling of the Six Pools.|
 T The Bigger They Come...|QID|31197|M|49.01,71.34|N|You can turn into your companion or fly back to Ling of the Six Pools.|
-A Random mini-boss quest|QID|31203;31062;31204|PRE|31197|N|From UI Alert(upon turning in the previous 4 quests).|
+A Random mini-boss quest|QID|31203^31062^31204|PRE|31197|N|From UI Alert(upon turning in the previous 4 quests).|
 N Achievement Opportunity|ACH|7307|PRE|31197|N|To earn the Achievement Silent Assassin, you (or a group mate) must get the tag on the boss mob (not just quest completion credit). You can kill it a 2nd time if you missed the tag the first time. Manually check this off once you read it.|
 C Target of Opportunity: Sra'thik Swarmlord|QID|31203|M|16.4,41|N|Burn him down quickly as he frenzies, when it tells you to run away, Do it! He is snared then, but does nasty damage to those close for 8 seconds. You will get credit for the kill, even if another player attacked him first.|
 C Target of Opportunity: Sra'thik Hivelord|QID|31204|M|27.1,44.1;24.06,43.9|CS|N|The Hivelord is underground, coordinate set#1 is for cave entrance. You will get quest credit for the kill, even if another player attacked him first. It will not count against the silent assasin achievement to kill the adds.|

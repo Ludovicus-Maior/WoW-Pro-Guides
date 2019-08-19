@@ -4,6 +4,31 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2019-02-19 23:15
+-- Who: Ludovicus_Maior
+-- Log: Minor zone and coord tweaks in CAT
+
+-- URL: http://wow-pro.com/node/3441/revisions/30107/view
+-- Date: 2018-10-31 17:04
+-- Who: Emmaleah
+-- Log: fixed my error of deleting end of file markers on EK and Cata.
+
+-- URL: http://wow-pro.com/node/3441/revisions/30106/view
+-- Date: 2018-10-31 11:01
+-- Who: Emmaleah
+-- Log: corrections to MoP and Outlands 
+
+-- URL: http://wow-pro.com/node/3441/revisions/30103/view
+-- Date: 2018-10-30 20:13
+-- Who: Emmaleah
+-- Log: updated cata guide.
+
+-- URL: http://wow-pro.com/node/3441/revisions/30102/view
+-- Date: 2018-10-30 18:24
+-- Who: Emmaleah
+-- Log: Changes for BFA to Kalimdor and EK guides.
+
+-- URL: http://wow-pro.com/node/3441/revisions/28513/view
 -- Date: 2017-03-17 14:09
 -- Who: Ludovicus_Maior
 -- Log: Syntax and PRE for LudoHallowPanH
@@ -215,9 +240,10 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 N Wall of Text Part 1 of 2|QID|12369|N|This guide is geared toward actually completing all the Candy Buckets necessary for the Hallows End achievements "Tricks and Treats of...".|
-N Wall of Text Part 2 of 2|QID|12369|N|Also to note, you can get multiples of things like the Hallowed Helm (Unique) and Sinister Squashling(not unique). So be prepared do delete a lot treat bags, keep one Hallowed Helm in your inventory and that's it. It's easier to delete the bag, than it is to delete the helm.|
+N Wall of Text Part 2 of 2|QID|12369|N|Also to note, you can get multiples of things like the Hallowed Helm (Unique) and Sinister Squashling(not unique). So be prepared do delete a lot treat bags, keep one Hallowed Helm in your inventory and that's it. It's easier to delete the bag (after opening and removing other contents), than it is to delete the helm.|
 
 N This section starts...|QID|12369|N|In Silvermoon City, so head to Undercity and take the portal to Silvermoon City.|
+R Zidormi|QID|12382|M|69.46,62.81|Z|Tirisfal Glades|N|Must speak to Zidormi, just Southeast of Brill (basically where the teleport in Orgrimmar takes you), to revert to a pre-Battle for Lordaeron time. Return to Zidormi and tell her to return you to the present time when you are done in Tirisfal. Manually check this step off.|
 
 A Candy Bucket|QID|12369|M|79.45,57.71|Z|Silvermoon City|N|Innkeeper Velendra, The Royal Exchange|
 A Candy Bucket|QID|12370|M|67.55,72.90|Z|Silvermoon City|N|Innkeeper Jovia, The Bazaar|
@@ -237,6 +263,7 @@ A Candy Bucket|QID|28987|M|48.28,63.66|Z|Western Plaguelands|N|Roman Garner, And
 F The Bulwark|M|46.53,64.71|QID|28972|Z|Western Plaguelands|U|37586|N|Fly to The Bulwark, Tirisfal Glades.|
 A Candy Bucket|QID|28972|M|83.04,72.07|Z|Tirisfal Glades|N|Provisioner Elda, The Bulwark|
 F Brill|M|83.58,69.94|QID|12363|Z|Tirisfal Glades|U|37586|N|Fly to Brill, Tirisfal Glades.|
+
 A Candy Bucket|QID|12363|M|60.98,51.41|Z|Tirisfal Glades|N|Innkeeper Renee, Brill|
 F Undercity|M|58.84,51.94|QID|12368|Z|Tirisfal Glades|U|37586|N|Fly to Undercity.|
 A Candy Bucket|QID|12368|M|67.77,37.41|Z|Undercity|N|Innkeeper Norman, The Trade Quarter, on the upper level|
@@ -276,7 +303,7 @@ R Dreadmaul Hold|M|47.78,55.22|QID|28959|Z|Swamp of Sorrows|U|37586|N|Run to Dre
 A Candy Bucket|QID|28959|M|40.47,11.29|Z|Blasted Lands|N|Innkeeper Grak, Dreadmaul Hold|
 R Zidormi|QID|12382|M|48.16,7.29|N|Must speak to Zidormi, just SW of the entrance to the Blasted Lands from Swamp of Sorrows, to revert to a post-invasion time. Manually check this step off.|Z|Blasted Lands|
 R Stonard|M|47.70,55.06|QID|12382|Z|Swamp of Sorrows|U|37586|N|Run to Stonard, Swamp of Sorrows.|
-F Grom'gol Base Camp|M|72.02,12.04|QID|12382|Z|Swamp of Sorrows|U|37586|N|Fly to Grom'gol Base Camp, Northern Stranglethorn.|
+F Grom'gol|M|47.70,55.06|QID|12382|Z|Swamp of Sorrows|U|37586|N|Fly to Grom'gol Base Camp, Northern Stranglethorn.|
 A Candy Bucket|QID|12382|M|37.37,51.78|Z|Northern Stranglethorn|N|Innkeeper Thulbek, Grom'gol Base Camp|
 F Hardwrench Hideaway|M|39.01,51.25|QID|28969|Z|Northern Stranglethorn|U|37586|N|Fly to Hardwrench Hideaway, Northern Stranglethorn.|
 A Candy Bucket|QID|28969|M|35.05,27.21|Z|The Cape of Stranglethorn|N|Innkeeper Draxle, Hardwrench Hideaway|
@@ -284,7 +311,6 @@ F Booty Bay|M|35.14,29.39|QID|12397|Z|The Cape of Stranglethorn|U|37586|N|Fly to
 A Candy Bucket|QID|12397|M|40.91,73.73|Z|The Cape of Stranglethorn|N|Innkeeper Skindle, Booty Bay|
 
 N Breaktime|N|OK, Time to take a break and pick the next guide to do.|U|37586|
-
 ]]
 end)
 

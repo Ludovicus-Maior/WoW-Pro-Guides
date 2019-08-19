@@ -52,7 +52,7 @@ function WoWPro.CreateGuideList()
 		frame:Hide()
 	end
 	WoWPro.GuideList.TabHashTable = tabhashtable
-	
+
     local TitleRow = WoWPro:CreateBG(frame)
     TitleRow:SetHeight(25)
     TitleRow:SetWidth(InterfaceOptionsFramePanelContainer:GetWidth()-44)
@@ -64,10 +64,10 @@ function WoWPro.CreateGuideList()
     scrollBox:SetPoint("TOPRIGHT", TitleRow, "BOTTOMRIGHT")
     scrollBox:SetPoint("BOTTOM",frame,"BOTTOM",0,5)
     frame.scrollBox = scrollBox
-    
+
 	local scrollBar,_,_,scrollBorder = WoWPro:CreateScrollbar(scrollBox,{-4,6},nil,"Outside")
-	frame.scrollBar = scrollBar  
-    
+	frame.scrollBar = scrollBar
+
 	frame.ScrollFrame = CreateFrame("ScrollFrame",nil,scrollBox)
 	frame.ScrollFrame:SetPoint("TOPLEFT",10,-10)
 	frame.ScrollFrame:SetPoint("BOTTOMRIGHT",-10,10)
@@ -86,13 +86,18 @@ function WoWPro.CreateGuideList()
 
 	local function OnShow(self)
 		local GID = WoWProDB.char.currentguide
+		local first = nil
 		if GID and WoWPro.Guides[GID] then
+			first = first or WoWPro.Guides[GID].guidetype
 			WoWPro.ActivateTab(WoWPro.Guides[GID].guidetype)
-		end 
+			return
+		end
+		-- Select the first one, if none selected
+		WoWPro.ActivateTab(first)
 	end
 	scrollBox:SetScript("OnShow", OnShow)
 --	OnShow(WoWPro.GuideList)
-	
+
 end
 
 function WoWPro.ActivateTab(tabname)

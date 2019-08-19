@@ -4,6 +4,22 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2018-10-23 23:53
+-- Who: Ludovicus_Maior
+-- Log: Add [Refuge Point] and [Stonetalon Peak].
+--	Fix QID on [Northwatch Expedition Base Camp] bucket.
+
+-- URL: http://wow-pro.com/node/3440/revisions/30076/view
+-- Date: 2018-10-23 22:09
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3440/revisions/29883/view
+-- Date: 2018-10-17 01:37
+-- Who: Ludovicus_EditBot
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3440/revisions/29580/view
 -- Date: 2018-08-23 02:16
 -- Who: jovieve
 -- Log: Updated old style QO tag.
@@ -207,7 +223,7 @@ A Shopping Around|QID|29399|PRE|29398|M|61.19,70.84|N|From Auctioneer Finch.|Z|S
 C Shopping Around|QID|29399|M|63.62,47.42|N|Seach the Shady Lady. Takes a while.|Z|Stormwind City|
 T Shopping Around|QID|29399|M|64.17,46.46|N|To Hudson Barnes.|Z|Stormwind City|
 A Taking Precautions|QID|29402|PRE|29399|M|64.17,46.46|N|From Hudson Barnes.|Z|Stormwind City|
-C Taking Precautions|QID|29402|QO|3|M|54.76,14.63|N|Collect blood nettle around the pumpkin patch.|Z|Stormwind City|
+C Taking Precautions|QID|29402|QO|Blood Nettle: 5/5|M|54.76,14.63|N|Around the pumpkin patch.|Z|Stormwind City|
 C Taking Precautions|QID|29402|M|62.8,74.8|N|Purchase From Keldric Boucher at the Pestle's Apothecary.|Z|Stormwind City|
 T Taking Precautions|QID|29402|M|64.17,46.46|N|To Hudson Barnes.|Z|Stormwind City|
 
@@ -219,7 +235,7 @@ A Flexing for Nougat|QID|8356|M|60.14,75.09|N|From Innkeeper Allison.|Z|Stormwin
 C Flexing for Nougat|QID|8356|T|/flex|N|click the button to flex.|Z|Stormwind City|
 T Flexing for Nougat|QID|8356|M|60.14,75.09|N|To Innkeeper Allison.|Z|Stormwind City|
 T What Now?|QID|29411|M|60.14,75.09|N|To Anson Hastings.|Z|Stormwind City|
-A The Creepy Crate|QID|29413|PRE|529411+29411|M|60.14,75.09|N|Crate on the ground.|Z|Stormwind City|
+A The Creepy Crate|QID|29413|PRE|529411^29411|M|60.14,75.09|N|Crate on the ground.|Z|Stormwind City|
 T The Creepy Crate|QID|29413|M|60.14,75.09|N|Crate on the ground.|Z|Stormwind City|
 
 C Clean Up in Stormwind|QID|29144|M|49.12,50.83|N|Look for Orange clouds.|U|69191|Z|Stormwind City|US|
@@ -276,7 +292,9 @@ A Candy Bucket |QID|28990|M|26.11,25.93|Z|Wetlands|N|Swiftgear Station|
 
 R Greenwarden's Grove|QID|28991|M|56.32,42.04|Z|Wetlands|U|37586|
 A Candy Bucket |QID|28991|M|58.15,39.23|Z|Wetlands|N|Greenwarden's Grove|
-F Stormfeather Outpost|QID|28970|M|65.72,44.97|Z|The Hinterlands|U|37586|
+F Refuge Point |QID|28954|M|65.72,44.97|Z|Wetlands|U|37586|
+A Candy Bucket |QID|28954|M|40.1,49.0|Z|Arathi Highlands|
+F Stormfeather Outpost|QID|28970|M|39.6,47|Z|Arathi Highlands|U|37586|
 A Candy Bucket |QID|28970|M|66.23,44.44|Z|The Hinterlands|N|Stormfeather Outpost|
 F Aerie Peak|QID|12351|M|11.11,46.09|Z|The Hinterlands|U|37586|
 A Candy Bucket |QID|12351|M|14.17,44.71|Z|The Hinterlands|N|Aerie Peak|

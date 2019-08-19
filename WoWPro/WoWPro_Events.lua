@@ -46,17 +46,28 @@ end
 
 -- Auto-Complete: Use flight point --
 function WoWPro.TakeTaxi(index,destination)
-    local taxiNodes = C_TaxiMap.GetAllTaxiNodes()
+    -- As of 8.1.0.28833, we need to know where we are to know where we can go.
+    local x,y,mapId = WoWPro:GetPlayerZonePosition()
+    if not mapId then
+        WoWPro:Warning("Unable to find flight point to: [%s]. Where am I?",destination)
+        return
+    end
+
+    local taxiNodes = C_TaxiMap.GetAllTaxiNodes(mapId)
     for i, taxiNodeData in ipairs(taxiNodes) do
         -- nodeID=1613, slotIndex=1, type=3, x=0.34, y=0.53, name="Azurewing Repose, Azuna"
         local location,zone = string.split(",", taxiNodeData.name)
         if strfind(location, destination,1,true) or (taxiNodeData.name == destination) then
+            if taxiNodeData.state ~= Enum.FlightPathState.Reachable then
+                WoWPro:Warning("Flight point [%s] is not reachable (%d)", location, taxiNodeData.state)
+                return
+            end
             WoWPro:Print("Taking flight to: [%s]",location)
             if IsMounted() then
                 Dismount()
             end
             TakeTaxiNode(taxiNodeData.slotIndex)
-            WoWPro.CompleteStep(index,"Took known new flight point")
+            -- wait till we see PLAYER_CONTROL_LOST and UnitOnTaxi("player") to complete this step.
             return
         end
     end
@@ -76,23 +87,21 @@ end
 
 function WoWPro:CheckPlayerForBuffs(buffs)
 	local buffies = {}
-    local buffIdx
-    for buffIdx = 1, select("#",string.split(";",buffs)) do
-        local buff = select(buffIdx,string.split(";",buffs))
-        buffies[buffIdx] = tonumber(buff)
-    end
+	-- Build table of all active buffs
     local BuffIndex = 1
+    local BuffString = ""
     local BuffName, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
     while BuffName do
-        for buffIdx = 1, #buffies do
-            if BuffSpellId == buffies[buffIdx] then
-                return BuffSpellId
-            end
+        buffies[BuffSpellId] = true
+        if BuffIndex > 1 then
+            BuffString = BuffString .. ","
         end
+        BuffString = BuffString .. string.format("%s(%d)", BuffName, BuffSpellId)
         BuffIndex = BuffIndex + 1
         BuffName, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
-    end
-    return nil
+	end
+    WoWPro:dbp("CheckPlayerForBuffs(%s): %s", buffs, BuffString)
+	return WoWPro:QIDInTable(buffs, buffies)
 end
 
 -- Auto-Complete: Do we have a buff? --
@@ -156,6 +165,7 @@ end
 -- Save Garrison Building Locations for the BUILDING tag
 function WoWPro.SaveGarrisonBuildings()
     local zone, mapId = WoWPro.GetZoneText()
+    -- NOTE:  This wont work right on non EnUS clients!  Use mapIds.
     if (zone == 'Lunarfall') or (zone == 'Frostwall') then
         WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
         -- We just moved into the zone
@@ -179,18 +189,23 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 	local GID = WoWProDB.char.currentguide
 	if not GID or not WoWPro.Guides[GID] then return end
 	if not WoWProCharDB.Guide then return end
-	
+	if not WoWProCharDB.Guide[GID] then return end
+	if not WoWProCharDB.Guide[GID].completion then return end
+
     WoWPro:dbp("Running: AutoCompleteQuestUpdate(questComplete=%s)",tostring(questComplete))
 
 	for i=1,#WoWPro.action do
-	
 		local action = WoWPro.action[i]
 		local completion = WoWProCharDB.Guide[GID].completion[i]
-	    
+
 		if WoWPro.QID[i] then
-			local numQIDs = select("#", string.split(";", WoWPro.QID[i]))
+			local numQIDs = select("#", string.split("^&", WoWPro.QID[i]))
 			for j=1,numQIDs do
-				local QID = select(numQIDs-j+1, string.split(";", WoWPro.QID[i]))
+				local QID = select(numQIDs-j+1, string.split("^&", WoWPro.QID[i]))
+				if not tonumber(QID) then
+				    WoWPro:Error("Bad QID [%s] in Guide %s", WoWPro.QID[i], GID)
+				    return
+				end
 				QID = tonumber(QID)
 
 		        -- Quest Turn-Ins --
@@ -342,8 +357,20 @@ function WoWPro.RegisterEventHandler(event, handler)
 	WoWPro[event] = handler
 end
 
+function WoWPro.RegisterModernEventHandler(event, handler)
+    if WoWPro.CLASSIC then return end
+	WoWPro.EventTable[event] = true
+	WoWPro[event] = handler
+end
+
 
 WoWPro.RegisterEventHandler("UNIT_AURA", function (event, ...)
+    if not WoWPro.MaybeCombatLockdown() then
+        WoWPro.AutoCompleteBuff(...)
+    end
+    end)
+
+WoWPro.RegisterModernEventHandler("UNIT_AURA", function (event, ...)
     if not WoWPro.MaybeCombatLockdown() then
         WoWPro.AutoCompleteBuff(...)
     end
@@ -355,7 +382,11 @@ WoWPro.RegisterEventHandler("ADDON_ACTION_FORBIDDEN", function (event,...)
     return
     end)
 WoWPro.RegisterEventHandler("ADDON_ACTION_BLOCKED", WoWPro.ADDON_ACTION_FORBIDDEN)
-
+WoWPro.RegisterEventHandler("SAVED_VARIABLES_TOO_LARGE", function (event) return; end)
+WoWPro.RegisterEventHandler("ADDON_LOADED", function (event) return; end)
+WoWPro.RegisterEventHandler("SPELLS_CHANGED", function (event) return; end)
+WoWPro.RegisterEventHandler("PLAYER_LOGIN", function (event) return; end)
+WoWPro.RegisterEventHandler("VARIABLES_LOADED", function (event) return; end)
 
 -- Unlocking event processing after things get settled --
 WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function (event,...)
@@ -363,7 +394,7 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function (event,...)
     WoWPro.InitLockdown = true
     WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
     WoWPro.LockdownTimer = 1.5
-    WoWPro.ZONE_CHANGED(event,...)
+    -- WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA")
     if WoWPro.Hidden == "PLAYER_ENTERING_BATTLEGROUND" then
         WoWPro:Print("|cff33ff33Battleground Exit Auto Show|r: %s Module", guidetype)
 		WoWPro.MainFrame:Show()
@@ -416,21 +447,21 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED_INDOORS", WoWPro.ZONE_CHANGED)
 WoWPro.RegisterEventHandler("ZONE_CHANGED_NEW_AREA", WoWPro.ZONE_CHANGED)
 
 -- Scenario Tracking
-WoWPro.RegisterEventHandler("SCENARIO_UPDATE", function (event,...)
+WoWPro.RegisterModernEventHandler("SCENARIO_UPDATE", function (event,...)
     WoWPro.ProcessScenarioStage(...)
     WoWPro:UpdateGuide(event)
     end)
 
-WoWPro.RegisterEventHandler("SCENARIO_CRITERIA_UPDATE", function (event,...)
+WoWPro.RegisterModernEventHandler("SCENARIO_CRITERIA_UPDATE", function (event,...)
     WoWPro.ProcessScenarioCriteria(false)
     WoWPro:UpdateGuide(event)
     end)
 
-WoWPro.RegisterEventHandler("CRITERIA_COMPLETE",WoWPro.SCENARIO_CRITERIA_UPDATE)
+WoWPro.RegisterModernEventHandler("CRITERIA_COMPLETE",WoWPro.SCENARIO_CRITERIA_UPDATE)
 
 
 -- Noticing if we are doing a pet battle!
-WoWPro.RegisterEventHandler("PET_BATTLE_OPENING_START", function (event,...)
+WoWPro.RegisterModernEventHandler("PET_BATTLE_OPENING_START", function (event,...)
 	local guidetype = "WoWPro"
 	local battleHide = false
 
@@ -449,11 +480,11 @@ WoWPro.RegisterEventHandler("PET_BATTLE_OPENING_START", function (event,...)
 --	WoWPro.RegisterAllEvents()
     end)
 
-WoWPro.RegisterEventHandler("PET_BATTLE_PET_ROUND_RESULTS", function (event,...)
+WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_ROUND_RESULTS", function (event,...)
     WoWPro:UpdateGuide(event)
     end)
 
-WoWPro.RegisterEventHandler("PET_BATTLE_PET_CHANGED", function (event,team)
+WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_CHANGED", function (event,team)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
     if team == 1 and WoWPro.switch and WoWPro.switch[qidx] == 0 then
         -- Waiting for forced swap.
@@ -462,21 +493,21 @@ WoWPro.RegisterEventHandler("PET_BATTLE_PET_CHANGED", function (event,team)
     end)
 
 
-WoWPro.RegisterEventHandler("PET_BATTLE_FINAL_ROUND", function (event,...)
+WoWPro.RegisterModernEventHandler("PET_BATTLE_FINAL_ROUND", function (event,...)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
     local winner = ...
     WoWPro.ProcessFinalRound(winner, qidx)
     end)
 
-WoWPro.RegisterEventHandler("PET_BATTLE_OVER", function (event,...) return; end)
+WoWPro.RegisterModernEventHandler("PET_BATTLE_OVER", function (event,...) return; end)
 
-WoWPro.RegisterEventHandler("PET_BATTLE_CLOSE", function (event,...)
+WoWPro.RegisterModernEventHandler("PET_BATTLE_CLOSE", function (event,...)
     if WoWPro.Hidden then
 		WoWPro.MainFrame:Show()
 		WoWPro.Titlebar:Show()
+		WoWPro.Hidden = nil
 	end
 
-	WoWPro.Hidden = nil
 	if not C_PetBattles.IsInBattle() then
 	    WoWPro.PetBattleActive = false
 	    WoWPro:dbp("C_PetBattles.IsInBattle() = false")
@@ -501,21 +532,50 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_BATTLEGROUND", function (event,...)
     WoWPro.Hidden = event
     end)
 
-WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function (event,...)
+WoWPro.RegisterEventHandler("PLAYER_REGEN_DISABLED", function (event,...)
+    -- Combat lockdown begins after this event
+    if WoWProCharDB.AutoHideInCombat then
+        WoWPro.MainFrame:Hide()
+        WoWPro.Titlebar:Hide()
+        WoWPro.Hidden = event
+    end
+    -- Last ditch update!
 	if not WoWPro.MaybeCombatLockdown() then
 		WoWPro:UpdateGuide(event)
 	end
     end)
 
+WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function (event,...)
+    -- Combat lockdown ends before this event fires
+    if WoWPro.Hidden then
+		WoWPro.MainFrame:Show()
+		WoWPro.Titlebar:Show()
+	end
+
+	WoWPro:UpdateGuide(event)
+    end)
+
 WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
 -- WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
 
+-- Merchant?
+WoWPro.RegisterEventHandler("MERCHANT_SHOW" , function (event,...)
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    if CanMerchantRepair() and WoWPro.action[qidx] == "r" then
+        WoWPro.CompleteStep(qidx,"Talked to Repairing Merchant")
+    end
+    end)
+
 -- Lets see what quests the NPC has:
 WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function (event,...)
-    WoWPro.QuestDialogActive = event
-    WoWPro.RegisterAllEvents()
-    WoWPro.QuestCount = 0
-    C_Timer.After(WoWProDB.global.QuestEngineDelay, function() WoWPro.GOSSIP_SHOW_PUNTED(event.."PUNTED"); end)
+    if not WoWPro.QuestDialogActive then
+        WoWPro.RegisterAllEvents()
+        WoWPro.QuestCount = 0
+        WoWPro.QuestDialogActive = event
+        C_Timer.After(WoWProDB.global.QuestEngineDelay, function() WoWPro.GOSSIP_SHOW_PUNTED(event.."PUNTED"); end)
+    else
+        WoWPro:print("GOSSIP_SHOW while %s was active: suppressed.", WoWPro.QuestDialogActive)
+    end
     end)
 
 function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
@@ -685,7 +745,7 @@ function WoWPro.QUEST_DETAIL_PUNTED(event,...)
         end
     end
 
-	if (WoWPro.action[qidx] == "A" and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*")) or WoWPro:QIDsInTable(WoWPro.QID[qidx],WoWPro.QuestLog) then
+	if (WoWPro.action[qidx] == "A") and (questtitle == WoWPro.step[qidx] or WoWPro.QID[qidx] == "*" or WoWPro:QIDsInTable(WoWPro.QID[qidx],WoWPro.QuestLog)) then
 	    WoWPro:dbp("Accepted %d: %s [%s], QID %s",qidx, event, questtitle,tostring(WoWPro.QID[qidx]))
 	    if  WoWPro.QID[qidx] == "*" then
 	        if WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
@@ -704,6 +764,7 @@ function WoWPro.QUEST_DETAIL_PUNTED(event,...)
 	    end
 	    WoWPro.QuestStep = nil
 	else
+	    -- DeclineQuest()
 	    WoWPro:dbp("Rejected %d: %s [%s], QID %s",qidx, event, questtitle,tostring(WoWPro.QID[qidx]))
 	end
 end
@@ -779,6 +840,24 @@ WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function (event,...)
         WoWPro.TakeTaxi(qidx,WoWPro.step[qidx])
 	end
     end)
+
+WoWPro.RegisterEventHandler("PLAYER_CONTROL_LOST", function (event,...)
+    C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
+        WoWPro.PLAYER_CONTROL_LOST_PUNTED(event)
+        end)
+    end)
+
+function WoWPro.PLAYER_CONTROL_LOST_PUNTED(event,...)
+    local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    if (WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b") then
+        if UnitOnTaxi("player") then
+            WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: UnitOnTaxi! calling CompleteStep")
+            WoWPro.CompleteStep(qidx,"Took a taxi")
+        else
+            WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: not on taxi!")
+        end
+    end
+end
 
 WoWPro.RegisterEventHandler("CHAT_MSG_SYSTEM", function (event,...)
 	WoWPro:AutoCompleteSetHearth(...)

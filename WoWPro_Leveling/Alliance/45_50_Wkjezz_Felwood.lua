@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
+-- Date: 2018-10-17 02:24
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3257/revisions/29172/view
 -- Date: 2018-02-26 21:38
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -124,14 +129,14 @@ C The Corruption of the Jadefire|QID|27997|M|43.79,86.42|N|Kill Jadefire Glen sa
 C Culling the Corrupted|QID|28148|US|M|45.93,80.17|N|Finish collecting your pelts.|
 T Ruumbo Demands Justice|QID|27994|M|51.45,83.70|N|To the Totem of Ruumbo.|
 T Ruumbo Demands Honey|QID|27989|M|51.45,83.70|N|To the Totem of Ruumbo.|
-A Dance for Ruumbo!|QID|27995|PRE|27989;27994|M|51.45,83.70|N|From the Totem of Ruumbo.|
+A Dance for Ruumbo!|QID|27995|PRE|27989&27994|M|51.45,83.70|N|From the Totem of Ruumbo.|
 C Dance for Ruumbo!|QID|27995|M|51.45,83.70|N|Just hang out for a few seconds until you get a quest complete.|
 T Dance for Ruumbo!|QID|27995|M|51.38,80.46|N|To Grazle.|
 T The Corruption of the Jadefire|QID|27997|M|51.17,80.52|N|To Tenell Leafrunner.|
 
 A The Ruins of Kel'Theril|QID|28479|M|51.24,80.36|N|From Kelek Skykeeper. You may not be a high enough level to get this yet. If so skip this step and pick it up befrore you start Winterspring.|
 T Culling the Corrupted|QID|28148|M|50.93,80.15|N|To Taronn Redfeather.|
-A An Arcane Ally|QID|28150|LEAD|28000|PRE|27995;27997;28148|M|51.17,80.56|N|From Tenell Leafrunner.|
+A An Arcane Ally|QID|28150|LEAD|28000|PRE|27995&27997&28148|M|51.17,80.56|N|From Tenell Leafrunner.|
 T An Arcane Ally|QID|28150|M|41.92,72.00|N|To Arcanist Delaris.|
 A Do the Imp-Possible|QID|28000|M|41.92,72.00|N|From Arcanist Delaris.|
 C Do the Imp-Possible|QID|28000|U|62899|M|47.63,72.93|N|Time to bag an imp! Literally.|
@@ -154,7 +159,7 @@ C Fight the Power|QID|28102|M|38.01,66.55|N|Kill Jadefire Rogues or Shadowstalke
 T Fight the Power|QID|28102|M|42.02,71.84|N|To Eridan Bluewind.|
 T Break the Unbreakable|QID|28113|M|41.96,72.03|N|To Arcanist Delaris.|
 A Open Their Eyes|QID|28288|PRE|28113|M|41.96,72.03|N|From Arcanist Delaris.|
-A Jaedenar Awaits|QID|28152|LEAD|28116|PRE|28113;28102|M|42.01,71.77|N|From Eridan Bluewind.|
+A Jaedenar Awaits|QID|28152|LEAD|28116|PRE|28113&28102|M|42.01,71.77|N|From Eridan Bluewind.|
 C Open Their Eyes|QID|28288|U|63395|M|42.19,79.05|N|Taste the Rainbow.|
 T Open Their Eyes|QID|28288|M|41.90,71.98|N|To Arcanist Delaris.|
 
@@ -172,9 +177,9 @@ A Purity From Corruption|QID|28119|PRE|28116|M|36.35,58.25|N|From Andalar Shadev
 C Purity From Corruption|QID|28119|M|35.93,59.52|U|12922|N|Fill up at the moonwell.|
 T Purity From Corruption|QID|28119|M|36.35,58.25|N|To Andalar Shadevale.|
 
-A The Inner Circle|QID|28128|PRE|28119;28121|M|36.35,58.25|N|From Andalar Shadevale.|
-A The Demon Prince|QID|28129|PRE|28119;28121|M|36.35,58.25|N|From Andalar Shadevale.|
-A Dousing the Flames of Protection|QID|28126|PRE|28119;28121|M|36.35,58.25|N|From Andalar Shadevale.|
+A The Inner Circle|QID|28128|PRE|28119&28121|M|36.35,58.25|N|From Andalar Shadevale.|
+A The Demon Prince|QID|28129|PRE|28119&28121|M|36.35,58.25|N|From Andalar Shadevale.|
+A Dousing the Flames of Protection|QID|28126|PRE|28119&28121|M|36.35,58.25|N|From Andalar Shadevale.|
 C The Inner Circle|QID|28128|M|38.60,45.80|S|N|Kill Shadow Hold mobs.|
 C The Demon Prince|QID|28129|M|36.70,55.75|N|Kill Prince Xavalis.|
 T The Demon Prince|QID|28129|M|36.70,55.74|N|(UI Alert)|
@@ -197,7 +202,7 @@ T The Inner Circle|QID|28128|M|44.11,62.00|N|To Jessir Moonbow.|
 T Dousing the Flames of Protection|QID|28126|M|43.99,61.87|N|To Greta Mosshoof.|
 T Lord Banehollow|QID|28155|M|44.09,61.82|N|To Farlus Wildheart.|
 
-A The Fate of Bloodvenom Post|QID|28305|LEAD|28207|PRE|28126;28128;28155|M|44.09,61.82|N|From Farlus Wildheart.|
+A The Fate of Bloodvenom Post|QID|28305|LEAD|28207|PRE|28126&28128&28155|M|44.09,61.82|N|From Farlus Wildheart.|
 T The Fate of Bloodvenom Post|QID|28305|M|41.26,49.89|N|To Kelnir Leafsong.|
 A A Slimy Situation|QID|28207|M|41.26,49.89|N|From Kelnir Leafsong.|
 A The Tainted Ooze|QID|28190|M|41.26,49.89|N|From Altsoba Ragetotem.|
@@ -207,7 +212,7 @@ C The Tainted Ooze|QID|28190|M|41.73,47.50|N|Kill 8 Tainted Oozes.|US|
 C The Tainted Ooze|QID|28190|M|41.73,47.50|N|Finish killing Tainted Oozes.|
 T The Tainted Ooze|QID|28190|M|41.31,49.88|N|To Altsoba Ragetotem.|
 T A Slimy Situation|QID|28207|M|41.31,49.88|N|To Kelnir Leafsong.|
-A Winna's Kitten|QID|28208|PRE|28190;28207|M|41.29,50.01|N|From Kelnir Leafsong.|
+A Winna's Kitten|QID|28208|PRE|28190&28207|M|41.29,50.01|N|From Kelnir Leafsong.|
 C Winna's Kitten|QID|28208|M|38.88,52.99|N|Kill and loot Winna's Kitten to get the eartag.|
 T Winna's Kitten|QID|28208|M|41.27,49.88|N|To Kelnir Leafsong.|
 
@@ -218,7 +223,7 @@ C Hazzard Disposal|QID|28213|U|63284|M|35.49,52.21|N|Use the item when near her 
 C Cleanup at Bloodvenom Post|QID|28214|M|36.17,50.46|N|Kill Bloodvenom Slimeslaves.|US|
 T Cleanup at Bloodvenom Post|QID|28214|M|41.27,49.98|N|To Altsoba Ragetotem.|
 T Hazzard Disposal|QID|28213|M|41.28,49.89|N|To Kelnir Leafsong.|
-A Whisperwind Grove|QID|28306|LEAD|28360|PRE|28213;28214|M|41.28,49.89|N|From Kelnir Leafsong.|
+A Whisperwind Grove|QID|28306|LEAD|28360|PRE|28213&28214|M|41.28,49.89|N|From Kelnir Leafsong.|
 T Whisperwind Grove|QID|28306|M|43.29,30.43|N|Follow the path north to Tender Puregrove.|
 A Running Their Course|QID|28360|M|43.29,30.43|N|From Tender Puregrove.|
 A Squirrely Clean|QID|28361|M|43.31,30.36|N|From Tender Puregrove.|
@@ -244,7 +249,7 @@ C Collecting Corruption|QID|28341|M|44.32,43.12|N|Finish this up.|
 H Whisperwind Grove|QID|28360|N|Hearth. If you didn't set your hearth here (like I suggested), run back.|
 T Running Their Course|QID|28360|M|43.33,30.34|N|To Tender Puregrove.|
 T Squirrely Clean|QID|28361|M|43.33,30.34|N|To Tender Puregrove.|
-A Weeding the Lawn|QID|28374|PRE|28360;28361|M|43.33,30.34|N|From Tender Puregrove.|
+A Weeding the Lawn|QID|28374|PRE|28360&28361|M|43.33,30.34|N|From Tender Puregrove.|
 T Collecting Corruption|QID|28341|M|43.96,27.91|N|To Elessa Starbreeze.|
 T Fel To Pieces|QID|28342|M|43.96,27.91|N|To Elessa Starbreeze.|
 T Hunting the Damned|QID|28358|M|44.00,27.83|N|To Hurak Wildhorn.|
@@ -264,15 +269,15 @@ C Buzzers for Baby|QID|28219|M|49.93,30.30|N|Kill Ironwood Buzzers.|
 T Buzzers for Baby|QID|28219|M|49.82,30.00|N|UI Alert, or to Seedling Protector.|
 C Seeking Soil|QID|28220|M|47.62,28.89|N|Run the Seedling Protector over the sparkling soil mounds.|US|
 T Seeking Soil|QID|28220|M|47.62,28.89|N|UI Alert, or to Seedling Protector.|
-A Singin' in the Sun|QID|28222|PRE|28219;28220|M|47.62,28.89|N|UI Alert, or from Seedling Protector.|
-A These Roots Were Made For Stompin'|QID|28221|PRE|28219;28220|M|47.62,28.89|N|From Sapling Protector.|
+A Singin' in the Sun|QID|28222|PRE|28219&28220|M|47.62,28.89|N|UI Alert, or from Seedling Protector.|
+A These Roots Were Made For Stompin'|QID|28221|PRE|28219&28220|M|47.62,28.89|N|From Sapling Protector.|
 C Singin' in the Sun|QID|28222|M|51.78,23.83|N|Move the Sapling Protector through shafts of light.|S|
 C These Roots Were Made For Stompin'|QID|28221|M|51.86,23.74|N|Kill Irontree Stompers.|
 C Singin' in the Sun|QID|28222|M|51.78,23.83|N|Move the Sapling Protector through shafts of light.|US|
 T These Roots Were Made For Stompin'|QID|28221|M|51.81,23.61|N|UI Alert, or to Sapling Protector.|
 T Singin' in the Sun|QID|28222|M|51.81,23.61|N|UI Alert, or to Sapling Protector.|
 
-A The Last Protector|QID|28224|PRE|28221;28222|M|51.81,23.61|N|UI Alert, or from Flourishing Protector.|
+A The Last Protector|QID|28224|PRE|28221&28222|M|51.81,23.61|N|UI Alert, or from Flourishing Protector.|
 C The Last Protector|QID|28224|M|52.79,23.94|N|Kill the Withered Protector.|
 T The Last Protector|QID|28224|M|52.84,24.02|N|To the Flourishing Protector.|
 A Rejoining the Forest|QID|28228|PRE|28224|M|52.84,24.02|N|From the Flourishing Protector.|
@@ -310,7 +315,7 @@ C Enemy at our Roots|QID|28382|M|61.36,22.04|N|Kill Irontree Choppers.|
 C Wisps of the Woods|QID|28383|U|64300|M|62.99,20.56|N|Use the Swiftwind Switch on Wisps.|US|
 T Enemy at our Roots|QID|28382|M|61.83,26.72|N|To Denmother Ulrica.|
 T Wisps of the Woods|QID|28383|M|61.90,26.67|N|To Lyros Swiftwind.|
-A Into the Clearing|QID|28384|PRE|28382;28383|M|61.89,26.70|N|From Denmother Ulrica.|
+A Into the Clearing|QID|28384|PRE|28382&28383|M|61.89,26.70|N|From Denmother Ulrica.|
 T Into the Clearing|QID|28384|M|56.76,18.46|N|To Alton Redding.|
 A The Shredders of Irontree|QID|28337|PRE|28384|M|56.76,18.46|N|From Alton Redding.|
 C The Shredders of Irontree|QID|28337|M|53.09,14.39|N|Go around and kill Irontree Shredders.|
@@ -323,15 +328,15 @@ C Borrowed Bombs|QID|28386|M|56.70,22.62|N|Loot bombs off the ground.|S|
 T Oil and Irony|QID|28385|M|60.41,22.26|N|To the master Control Pump. The trick to navigating this cave is to take the tunnel to the south western most tip (check minimap), then head east.|
 C Borrowed Bombs|QID|28386|M|56.70,22.62|N|Loot bombs off the ground.|US|
 T Borrowed Bombs|QID|28386|M|56.71,18.50|N|To Alton Redding.|
-A Burnout|QID|28387|PRE|28385;28386|M|56.71,18.50|N|From Alton Redding.|
-A Bloody Wages|QID|28388|PRE|28385;28386|M|56.71,18.50|N|From Alton Redding.|
+A Burnout|QID|28387|PRE|28385&28386|M|56.71,18.50|N|From Alton Redding.|
+A Bloody Wages|QID|28388|PRE|28385&28386|M|56.71,18.50|N|From Alton Redding.|
 C Bloody Wages|QID|28388|M|53.83,14.85|N|Kill Panicking Workers.|S|
 C Burnout|QID|28387|U|64301|M|55.77,12.87|N|Ignite the Oil Gushers.|
 C Bloody Wages|QID|28388|M|53.83,14.85|N|Kill Panicking Workers.|US|
 T Burnout|QID|28387|M|56.78,18.50|N|To Alton Redding.|
 T Bloody Wages|QID|28388|M|56.78,18.50|N|To Alton Redding.|
 
-A Report to the Denmother|QID|28389|PRE|28387;28388|M|56.78,18.50|N|From Alton Redding.|
+A Report to the Denmother|QID|28389|PRE|28387&28388|M|56.78,18.50|N|From Alton Redding.|
 T Report to the Denmother|QID|28389|M|61.82,26.67|N|To Denmother Ulrica.|
 A The Timbermaw Tribe|QID|28392|LEAD|28338|PRE|28389|M|61.82,26.67|N|From Denmother Ulrica.|
 T The Timbermaw Tribe|QID|28392|M|64.00,10.39|N|To Nafien.|
@@ -350,7 +355,7 @@ l Deadwood Ritual Totem|QID|8470|M|61.79,11.26|N|Keep killing and looting Furbol
 A Deadwood Ritual Totem|QID|8470|N|Accept the quest from the totem.|U|20741|
 T Disarming Bears|QID|28366|M|63.98,10.37|N|To Nafien.|
 T Deadwood of the North|QID|28338|M|63.98,10.37|N|To Nafien.|
-A Speak to Salfa|QID|28521|PRE|28338;28366|M|64.07,10.39|N|From Nafien.|
+A Speak to Salfa|QID|28521|PRE|28338&28366|M|64.07,10.39|N|From Nafien.|
 N Deadwood Headdress Feathers|QID|8470|M|63.89,10.37|N|If you have at least 5 Deadwood Headdress Feathers, go ahead and turn them into Nafien for rep.|
 T Deadwood Ritual Totem|QID|8470|M|64.61,5.22|N|To Kernda.|
 

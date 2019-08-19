@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_tirisfal_glades
+-- Date: 2018-10-17 22:57
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3205/revisions/29721/view
 -- Date: 2018-09-10 21:59
 -- Who: Ludovicus_Maior
 
@@ -325,7 +330,7 @@ T Holland's Experiment|QID|24996|M|60.04,52.82|N|To Captured Mountaineer, upstai
 A Garren's Haunt|QID|24991|LEAD|24994|M|60.10,52.71|N|From Junior Apothecary Holland.|PRE|24996|
 T Escaped From Gilneas|QID|24992|M|60.50,51.92|N|To Executor Zygand.|
 
-A Annihilate the Worgen|QID|24993|M|60.50,51.92|N|From Executor Zygand.|PRE|24992+25039|
+A Annihilate the Worgen|QID|24993|M|60.50,51.92|N|From Executor Zygand.|PRE|24992^25039|
 T A Thorn in our Side|QID|24981|M|60.50,51.92|N|To Executor Zygand.|
 
 C Annihilate the Worgen|QID|24993|M|58.44,51.57|N|They are stealthed all around Brill. You'll be able to spot them by the rings of dust they kick up when they move.|
@@ -356,7 +361,7 @@ T Maggot Eye|QID|24998|M|61.57,34.42|N|To Apprentice Crispin.|
 T Planting the Seed of Fear|QID|24999|M|61.57,34.42|N|To Apprentice Crispin.|
 T Off the Scales|QID|24995|M|61.61,34.55|N|To Apothecary Jerrod.|
 
-A Head for the Mills|QID|25031|LEAD|25003|M|61.61,34.55|N|From Apothecary Jerrod.|PRE|24995;24998;24999|
+A Head for the Mills|QID|25031|LEAD|25003|M|61.61,34.55|N|From Apothecary Jerrod.|PRE|24995&24998&24999|
 R Agamand Mills|ACTIVE|25031|M|54.61,29.82|N|Follow the road past Maggot Eye's house, up the hill to the mills.|
 T Head for the Mills|QID|25031|M|54.61,29.82|N|To Coleman Farthing.|
 
@@ -377,7 +382,7 @@ C The Mills Overrun|QID|25004|US|M|46.69,31.46|N|Kill and loot both types of ske
 T The Mills Overrun|QID|25004|M|54.55,29.85|N|To Coleman Farthing.|
 T Deaths in the Family|QID|25029|M|54.55,29.85|N|To Coleman Farthing.|
 
-A Speak with Sevren|QID|25005|M|54.55,29.85|N|From Coleman Farthing.|PRE|25004;25029|
+A Speak with Sevren|QID|25005|M|54.55,29.85|N|From Coleman Farthing.|PRE|25004&25029|
 H Brill|ACTIVE|25005|M|54.55,29.85|N|Run back if your hearth is down.|
 r Eliza Callen |ACTIVE|25005|M|60.76,50.97|N|Take this opportunity to sell and repair with Eliza Callen, who is at the foot of the stairs towards Magistrate Sevren.|T|Eliza Callen|
 T Speak with Sevren|QID|25005|M|60.93,50.59|N|To Magistrate Sevren, upstairs in the inn.|

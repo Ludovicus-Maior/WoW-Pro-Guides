@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_horde
+-- Date: 2018-10-17 02:27
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3266/revisions/29099/view
 -- Date: 2018-02-20 21:52
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -120,7 +125,7 @@ C Stocking Up|QID|28419|M|25.70,50.26|N|Finish getting barbs from scorpions.|US|
 T Stocking Up|QID|28419|M|17.36,51.65|N|To Ariok.|
 T A Future Project|QID|28420|M|17.36,51.65|N|To Ariok.|
 T Mud Hunter|QID|28421|M|17.36,51.65|N|To Ariok.|
-A The Sand, the Cider, and the Orb|QID|28422|PRE|28419;28420;28421|M|17.36,51.65|N|From Ariok.|
+A The Sand, the Cider, and the Orb|QID|28422|PRE|28419&28420&28421|M|17.36,51.65|N|From Ariok.|
 T The Sand, the Cider, and the Orb|QID|28422|M|8.27,35.88|N|To Gorzeeki Wildeyes.|
 A Shadow Boxing|QID|28424|PRE|28423|M|8.27,35.88|N|From Gorzeeki Wildeyes.|
 A Warlocks Have the Neatest Stuff|QID|28423|M|8.27,35.88|N|From Gorzeeki Wildeyes.|
@@ -128,7 +133,7 @@ C Shadow Boxing|QID|28424|M|9.83,29.69|
 C Warlocks Have the Neatest Stuff|QID|28423|M|5.38,31.88|N|The Blackrock Warlocks have the orb. Kill them until one drops. The other stuff needed is by the waypoint.|
 T Warlocks Have the Neatest Stuff|QID|28423|M|8.36,35.73|N|To Gorzeeki Wildeyes.|
 T Shadow Boxing|QID|28424|M|8.36,35.73|N|To Gorzeeki Wildeyes.|
-A Return to Ariok|QID|28425|PRE|28423+28424|M|8.36,35.73|N|From Gorzeeki Wildeyes.|
+A Return to Ariok|QID|28425|PRE|28423^28424|M|8.36,35.73|N|From Gorzeeki Wildeyes.|
 T Return to Ariok|QID|28425|M|17.34,51.59|N|To Ariok.|
 A Chiselgrip, the Heart of the Steppes|QID|28426|PRE|28425|M|17.34,51.59|N|From Ariok.|
 C Chiselgrip, the Heart of the Steppes|QID|28426|M|36.76,53.81|
@@ -150,7 +155,7 @@ T A Perfect Costume|QID|28428|R|Undead,Orc|M|44.57,44.47|N|To Eitrigg.|
 T A Perfect Costume|QID|28431|R|Blood Elf,Troll|M|44.57,44.47|N|To Eitrigg.|
 T A Perfect Costume|QID|28429|R|Tauren|M|44.57,44.47|N|To Eitrigg.|
 T A Perfect Costume|QID|28430|R|Goblin|M|44.57,44.47|N|To Eitrigg.|
-A Into the Black Tooth Hovel|QID|28432|PRE|28428+28429+28430+28431|M|44.56,44.52|N|From Eitrigg.|
+A Into the Black Tooth Hovel|QID|28432|PRE|28428^28429^28430^28431|M|44.56,44.52|N|From Eitrigg.|
 T Into the Black Tooth Hovel|QID|28432|U|63357|M|45.34,51.60|N|To Quartermaster Kaoshin. Remeber to put on your Disguise.|
 A Grunt Work|QID|28433|PRE|28432|M|45.34,51.60|N|From Quartermaster Kaoshin.|
 A Strategic Cuts|QID|28434|PRE|28433|M|45.34,51.60|N|(UI Alert)|
@@ -164,7 +169,7 @@ T Grunt Work|QID|28433|M|45.29,51.57|N|To Quartermaster Kaoshin.|
 A The Kodocaller's Horn|QID|28435|PRE|28434|M|45.32,51.68|N|From Quartermaster Kaoshin.|
 C The Kodocaller's Horn|QID|28435|U|63356|M|46.52,63.28|N|The kodos can attack you. If that happens knock them down to under 60% health.|
 T The Kodocaller's Horn|QID|28435|M|46.66,63.30|N|To Blackrock War Kodo.|
-A Taking the Horn For Ourselves|QID|28436|PRE|28434+28435|M|46.66,63.30|N|(UI alert)|
+A Taking the Horn For Ourselves|QID|28436|PRE|28434^28435|M|46.66,63.30|N|(UI alert)|
 T Taking the Horn For Ourselves|QID|28436|M|44.58,44.49|N|To Eitrigg back at Chiselgrip.|
 
 C Scrapped Golems|QID|28226|S|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
@@ -172,7 +177,7 @@ C Prove Yer Allegiance|QID|28225|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|They
 C Scrapped Golems|QID|28226|US|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
 T Prove Yer Allegiance|QID|28225|M|46.72,44.25|N|To Stebben Oreknuckle.|
 T Scrapped Golems|QID|28226|M|46.72,44.25|N|To Stebben Oreknuckle.|
-A Golem Training|QID|28227|PRE|28225;28226|M|46.72,44.25|N|From Stebben Oreknuckle.|
+A Golem Training|QID|28227|PRE|28225&28226|M|46.72,44.25|N|From Stebben Oreknuckle.|
 C Golem Training|QID|28227|M|44.72,43.79;76.75,46.6|CN|N|Go into either tower. Be warned, do not try more than 1 at a time, and they will do knockback.|
 T Golem Training|QID|28227|M|46.72,44.23|N|To Stebben Oreknuckle.|
 A General Thorg'izog|QID|28437|PRE|28436|M|44.59,44.45|N|From Eitrigg.|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/love_air_we_alliance
+-- Date: 2018-10-17 02:31
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3466/revisions/29588/view
 -- Date: 2018-08-23 23:33
 -- Who: jovieve
 -- Log: Updated old style QO tags.
@@ -110,7 +115,7 @@ T A Friendly Chat...|QID|24657|M|61.50,75.29|Z|Stormwind City|N|To Inspector Sni
 
 l Lovely Charm Collector's Kit|L|49661|M|62.53,74.96|Z|Stormwind City|N|Ask Kwee Q. Peddlefeet for a Kit.|
 
-A Crown Chemical Company Daily|QID|24635;24629;24636|M|62.40,75.36|Z|Stormwind City|N|From Public Relations Agent|
+A Crown Chemical Company Daily|QID|24635^24629^24636|M|62.40,75.36|Z|Stormwind City|N|From Public Relations Agent|
 C A Cloudlet of Classy Cologne|QID|24635|Z|Stormwind City|N|Spray everyone and any NPC in sight.|U|49669|
 C A Perfect Puff of Perfume|QID|24629|Z|Stormwind City|N|Spray everyone and any NPC in sight.|U|49668|
 C Bonbon Blitz|QID|24636|Z|Stormwind City|N|Force feed candy to everyone and any NPC in sight.|U|49670|
@@ -118,7 +123,7 @@ T A Cloudlet of Classy Cologne|QID|24635|Z|Stormwind City|N|From Public Relation
 T A Perfect Puff of Perfume|QID|24629|Z|Stormwind City|N|From Public Relations Agent|
 T Bonbon Blitz|QID|24636|M|62.40,75.36|Z|Stormwind City|N|From Public Relations Agent|
 
-A Crushing the Crown|QID|24658;24659;24660;24662;24663;24664;24665;24666;28934|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
+A Crushing the Crown|QID|24658^24659^24660^24662^24663^24664^24665^24666^28934|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
 C Crushing the Crown|QID|24658|M|29,65|Z|Elwynn Forest|N|Kill Crown Lackeys near Westbrook Garrison and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24659|M|42.4,79.4|Z|Darkshore|N|Kill Crown Thugs near Grove of the Ancients and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|24660|M|76,53|Z|Duskwood|N|Kill Crown Dusters near Darkshire and blow up a a wagon.|U|50130|
@@ -129,7 +134,7 @@ C Crushing the Crown|QID|24665|M|41.48,22.46|Z|Terokkar Forest|N|Kill Crown Unde
 C Crushing the Crown|QID|24666|M|46,40|Z|Crystalsong Forest|N|Kill Crown Sprayers near Dalaran and blow up a a wagon.|U|50130|
 C Crushing the Crown|QID|28934|M|66.58,19.65|Z|Uldum|N|Kill Crown Technicians near the Tomb of Khartut and blow up a a wagon.|U|50130|
 l Gifts for the Alliance|L|49655 40|N|If you are going to present gifts to all the leaders of the Alliance, you need 40 lovely charms.  Mobs that are closer in level to you drop more frequently.  If people get annoyed at you farming the Crown NPCs, just kill anything that spawns fast and is close to your level.|
-T Crushing the Crown|QID|24658;24659;24660;24662;24663;24664;24665;24666;28934|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
+T Crushing the Crown|QID|24658^24659^24660^24662^24663^24664^24665^24666^28934|M|61.50,75.29|Z|Stormwind City|N|To Inspector Snip Snagglebolt|
 
 A A Gift for the King of Stormwind|QID|24597|M|62.55,74.96|Z|Stormwind City|N|From Kwee Q. Peddlefeet.|
 l Lovely Charm Bracelet|QID|24597|L|49916|U|49655|N|Make a Lovely Charm Bracelet for the King of Stormwind.|

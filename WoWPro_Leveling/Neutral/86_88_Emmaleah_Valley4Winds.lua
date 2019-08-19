@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2019-06-30 22:29
+-- Who: Hendo72
+-- Log: Corrected a couple spelling typos (virmin and goind)
+
+-- URL: http://wow-pro.com/node/3485/revisions/30294/view
+-- Date: 2019-06-30 11:42
+-- Who: Emmaleah
+-- Log: Removed several instances of using |L| as step completion, now that items are not actually physically looted.
+
+-- URL: http://wow-pro.com/node/3485/revisions/30027/view
+-- Date: 2018-10-17 02:31
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3485/revisions/29135/view
 -- Date: 2018-02-23 01:27
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -181,8 +196,8 @@ C A Seemingly Endless Nuisance|QID|29908|US|M|83.69,21.01|N|Kill them around the
 
 T A Poor Grasp of the Basics|QID|29877|M|82.70,21.24|N|To Muno the Farmhand.|
 T A Seemingly Endless Nuisance|QID|29908|M|83.69,21.01|N|To Pang Thunderfoot.|;***
-A Low Turnip Turnout|QID|29909|PRE|29877;29908|M|83.69,21.01|N|From Pang Thunderfoot.|;***
-A The Search for the Hidden Master|QID|30086|PRE|29877;29908|M|84.08,21.04|N|From Xiao.|;***
+A Low Turnip Turnout|QID|29909|PRE|29877&29908|M|83.69,21.01|N|From Pang Thunderfoot.|;***
+A The Search for the Hidden Master|QID|30086|PRE|29877&29908|M|84.08,21.04|N|From Xiao.|;***
 T The Search for the Hidden Master|QID|30086|M|84.08,21.04|N|To Xiao.|
 A Ken-Ken|QID|29873|LEAD|30079|PRE|30086|M|84.08,21.04|N|From Xiao.|
 A Clever Ashyo|QID|29871|LEAD|29577|PRE|30086|M|84.08,21.04|N|From Xiao.|
@@ -215,18 +230,17 @@ T The Fabulous Miss Fanny|QID|29912|M|75.22,24.05|N|To Liang Thunderfoot.|
 A The Meat They'll Eat|QID|29913|PRE|29912|M|75.22,24.05|N|From Liang Thunderfoot.|
 A Back to the Sty|QID|29914|PRE|29912|M|75.22,24.05|N|From Liang Thunderfoot.|
 
-C Adolescent Mushan Shoulder Steak |QID|29913|S|L|75275 4|M|72,29|N|The meat is NOT a 100% drop.|
-C Turtle Meat Scrap |QID|29913|S|L|75276 80|M|67.6,30.1|
-C Pick up Smelly |QID|29914|NC|T|Smelly|L|75273|M|70.5,29.5|
-C Pick up Ling |QID|29914|NC|T|Ling|L|75272|M|66.8,29.0|
-C Turtle Meat Scrap |QID|29913|US|L|75276 80|M|67.6,30.1|N|Kill turtles for the scraps.|
-C Pick up Jian |QID|29914|NC|T|Jian|L|75271|M|69.9,24.3|
+C Kill Mushan|QID|29913|QO|1|S|M|72,29|N|Kill Mushan and loot to collect Adolescent Mushan Shoulder Steak. The meat is NOT a 100% drop.|
+C Kill Turtles|QID|29913|QO|2|S|M|67.6,30.1|N|Kill turtles for Turtle Meat Scraps.|
+C Pick up Smelly |QID|29914|QO|3|NC|T|Smelly|M|70.5,29.5|
+C Pick up Ling |QID|29914|QO|2|NC|T|Ling|M|66.8,29.0|
+C Turtle Meat Scrap |QID|29913|QO|2|US|M|67.6,30.1|N|Finish collecting the turtle meat scraps.|
+C Pick up Jian |QID|29914|QO|1|NC|T|Jian|M|69.9,24.3|
 f Grassy Cline|M|70.8,24.2|N|From Kom of the Mountain Winds.|
-C Adolescent Mushan Shoulder Steak |QID|29913|US|L|75275 4|M|72,29|N|The meat is NOT a 100% drop.|
-
+C Kill Mushan|QID|29913|QO|1|US|M|72,29|N|Finish collecting the Adolescent Mushan Shoulder Steaks.|
 T The Meat They'll Eat|QID|29913|M|75.22,24.05|N|To Liang Thunderfoot.|
 T Back to the Sty|QID|29914|M|75.22,24.05|N|To Liang Thunderfoot.|
-A A Neighbor's Duty|QID|29915|PRE|29913;29914|M|75.22,24.05|N|From Liang Thunderfoot.|
+A A Neighbor's Duty|QID|29915|PRE|29913&29914|M|75.22,24.05|N|From Liang Thunderfoot.|
 T A Neighbor's Duty|QID|29915|M|78.12,32.91|N|To Francis the Shepherd Boy.|
 A Piercing Talons and Slavering Jaws|QID|29916|PRE|29915|M|78.12,32.91|N|From Francis the Shepherd Boy.|
 A Lupello|QID|29917|PRE|29915|M|78.12,32.91|N|From Francis the Shepherd Boy.|
@@ -235,7 +249,7 @@ K Kill Lupello|QID|29917|T|Lupello|M|81.21,40.29|QO|1|N|He is across the bridge 
 C Piercing Talons and Slavering Jaws|QID|29916|US|M|82.84,32.34|
 T Piercing Talons and Slavering Jaws|QID|29916|M|78.12,32.91|N|To Francis the Shepherd Boy.|
 T Lupello|QID|29917|M|78.12,32.91|N|To Francis the Shepherd Boy.|
-A A Lesson in Bravery|QID|29918|PRE|29916;29917|M|78.19,32.82|N|From Shang Thunderfoot.|
+A A Lesson in Bravery|QID|29918|PRE|29916&29917|M|78.19,32.82|N|From Shang Thunderfoot.|
 C A Lesson in Bravery|QID|29918|T|Great White Plainshawk|U|75208|M|77.32,26.39|N|Target him then use the Rancher's Lariat to get on his back. When you get caught in a claw, you will need to press the special action button that appears to get back on his back. Battle the bird on his back.|
 
 T A Lesson in Bravery|QID|29918|M|74.30,34.51|N|To Shang Thunderfoot, who is inspecting THE watermelon.|
@@ -244,11 +258,11 @@ C Great Minds Drink Alike|QID|29919|CHAT|M|68.68,43.23|N|You need to keep somewh
 T Great Minds Drink Alike|QID|29919|M|68.71,43.12|N|To Mudmug.|
 A Leaders Among Breeders|QID|29944|PRE|29919|M|68.88,43.15|N|From Chen Stormstout.|
 A Yellow and Red Make Orange|QID|29945|PRE|29919|M|68.89,43.31|N|From Li Li.|
-C Yellow and Red Make Orange|QID|29945|S|M|67.57,39.75; 69.39,47.08; 70.04,48.88|CN|N|Most of the animals (except virmin) in the area drop the blood you need. The marigolds spawn in the areas marked.|
+C Yellow and Red Make Orange|QID|29945|S|M|67.57,39.75; 69.39,47.08; 70.04,48.88|CN|N|Most of the animals (except virmen) in the area drop the blood you need. The marigolds spawn in the areas marked.|
 K Kill Frenzyhop|QID|29944|T|Frenzyhop|QO|3|M|64.64,40.66|; Frenzyhop slain: 1/1
 K Kill Jinanya the Clawblade|QID|29944|T|Jinanya the Clawblade|QO|2|M|68.72,38.29|; Jinanya the Clawblade slain: 1/1
 K Kill Aiyu the Skillet|QID|29944|T|Aiyu the Skillet|QO|1|M|68.25,37.03|; Aiyu the Skillet slain: 1/1
-C Yellow and Red Make Orange|QID|29945|US|M|67.57,39.75; 69.39,47.08; 70.04,48.88|CN|N|Most of the animals (except virmin) in the area drop the blood you need. The marigolds spawn in the areas marked.|
+C Yellow and Red Make Orange|QID|29945|US|M|67.57,39.75; 69.39,47.08; 70.04,48.88|CN|N|Most of the animals (except virmen) in the area drop the blood you need. The marigolds spawn in the areas marked.|
 T Yellow and Red Make Orange|QID|29945|M|68.89,43.31|N|To Li Li.|
 T Leaders Among Breeders|QID|29944|M|68.88,43.15|N|To Chen Stormstout.|
 A Crouching Carrot, Hidden Turnip|QID|29947|PRE|29945|M|68.89,43.31|N|From Li Li.|
@@ -262,7 +276,7 @@ C Thieves to the Core|QID|29948|S|NC|M|67.75,36.37|N|The hops are in the warren.
 T Crouching Carrot, Hidden Turnip|QID|29947|M|68.89,43.31|N|To Li Li.|
 T Thieves to the Core|QID|29948|M|68.71,43.12|N|To Mudmug.|
 T The Warren-Mother|QID|29946|M|68.87,43.17|N|To Chen Stormstout.|
-A Legacy|QID|29949|PRE|29946;29947;29948|M|68.87,43.17|N|From Chen Stormstout.|
+A Legacy|QID|29949|PRE|29946&29947&29948|M|68.87,43.17|N|From Chen Stormstout.|
 T Legacy|QID|29949|M|68.77,43.43|N|To Li Li.|
 A Li Li's Day Off|QID|29950|PRE|29949|M|68.77,43.43|N|From Li Li.|
 A Muddy Water|QID|29951|PRE|29949|M|68.71,43.12|N|From Mudmug. Wait a minute or two for the dialog to finish, then this quest becomes available.|
@@ -315,14 +329,14 @@ T Muddy Water|QID|29951|M|68.71,43.12|N|To Mudmug.|
 A Broken Dreams|QID|29952|PRE|29950|M|68.85,43.41|N|From Chen Stormstout.|
 C Broken Dreams|QID|29952|CHAT|M|68.85,43.41|N|Chat with Chen to get transported to an instance where you relive Chen's experience as he goes to the brewery. Look for the old uncle and follow after him, (because Chen is trying to talk to him).|
 T Broken Dreams|QID|29952|M|68.85,43.41|N|To Chen Stormstout.|
-A Chen's Resolution|QID|30046|PRE|29951;29952|M|68.81,43.50|N|From Chen Stormstout.|
+A Chen's Resolution|QID|30046|PRE|29951&29952|M|68.81,43.50|N|From Chen Stormstout.|
 
 T Chen's Resolution|QID|30046|M|55.89,49.44|N|Follow Chen to Halfhill and turn in there.|
 A Hop Hunting|QID|30053|PRE|30046|M|55.89,49.44|N|From Chen Stormstout.|
 A Li Li and the Grain|QID|30048|PRE|30046|M|55.89,49.44|N|From Chen Stormstout.|
 A Doesn't Hold Water|QID|30049|PRE|30046|M|55.89,49.44|N|From Chen Stormstout.|
 A Children of the Water |QID|32045|M|55.13,47.38|N|From Stonecarver Mac, up on Halfhill|; Halfhill
-f Halfhill|QID|30049|M|53.81,50.92|N|From Wing Nga.If you want to this is a good time to do the fishing quest and cooking training.  Perhaps not the most efficient, but if you are goind to do it, may as well do it while you get XP.|
+f Halfhill|QID|30049|M|53.81,50.92|N|From Wing Nga.If you want to this is a good time to do the fishing quest and cooking training.  Perhaps not the most efficient. But, if you are going to do it, might as well do it while you get XP.|
 
 A A Helping Hand|QID|30252|M|52.02,48.13|N|From Farmer Yoon. This chain for The Tillers is optional, but it opens up the Quartermaster which gives you a place to repair. (Plus its quick and easy XP.)|
 C Remove the rocks|QID|30252|M|52.8,49.81|NC|N|Click on the unbudging rocks to dig them up.|
@@ -381,7 +395,7 @@ T Hop Hunting|QID|30053|M|38.56,51.66|N|To UI Alert.|
 A Weed War|QID|30052|PRE|30046|M|38.56,51.66|N|From Gai Lan.|
 C Weed War|QID|30052|CHAT|M|38.40,51.04|N|Talk to Gai Lan to start. The "instructions" appear on your screen in yellow text. You can do this while mounted.|
 T Weed War|QID|30052|M|38.63,51.69|N|To Gai Lan.|
-A Stormstout's Hops|QID|30055|PRE|30050;30052;30053;30054|M|38.78,51.54|N|From UI Alert.|
+A Stormstout's Hops|QID|30055|PRE|30050&30052&30053&30054|M|38.78,51.54|N|From UI Alert.|
 
 C Barreling Along|QID|30172|NC|M|54.19,38.69;55.7,49.2|CN|N|If you have lost Mudmug, you can get him at the place you started this quest.|
 
@@ -406,8 +420,8 @@ C Wee Little Shenanigans|QID|30029|US|M|52.38,61.54|N|Don't worry about chasing 
 T Taste Test|QID|30031|M|52.69,62.83|N|To Li Li.|
 T Out of Sprite|QID|30030|M|52.60,62.98|N|To Grainer Pan.|
 T Wee Little Shenanigans|QID|30029|M|52.74,63.00|N|To Grainlord Kai.|
-A The Quest for Better Barley|QID|30032|PRE|30029;30030;30031|M|52.74,63.00|N|From Grainlord Kai.|
-A Grain Recovery|QID|30028|PRE|30029;30030;30031|M|52.74,63.00|N|From Grainlord Kai.|
+A The Quest for Better Barley|QID|30032|PRE|30029&30030&30031|M|52.74,63.00|N|From Grainlord Kai.|
+A Grain Recovery|QID|30028|PRE|30029&30030&30031|M|52.74,63.00|N|From Grainlord Kai.|
 C Grain Recovery|QID|30028|NC|M|54.62,67.84|
 C The Quest for Better Barley|QID|30032|M|51.29,77.54;53.31,75.14;48.63,26.96|CS|N|Use the rope on the ground to get down.|
 T Grain Recovery|QID|30028|M|52.76,62.91|N|Use the rope to climb back. To Grainlord Kai.|
@@ -416,7 +430,7 @@ A The Chen Taste Test|QID|30047|PRE|30032|M|52.69,62.83|N|From Li Li.|
 
 R Halfhill|QID|30047|M|56.1,50.0|
 T The Chen Taste Test|QID|30047|M|55.89,49.43|N|To Chen Stormstout.|
-A The Emperor|QID|30073|PRE|30047;30055;30172|M|55.89,49.43|N|From Chen Stormstout.|
+A The Emperor|QID|30073|PRE|30047&30055&30172|M|55.89,49.43|N|From Chen Stormstout.|
 C The Emperor|QID|30073|NC|M|55.89,49.43|N|Wait for him to finish brewing|
 T The Emperor|QID|30073|M|55.83,49.34|N|To Chen Stormstout.|
 A Knocking on the Door|QID|30074|PRE|30073|M|55.89,49.43|N|From Chen Stormstout.|
@@ -436,7 +450,7 @@ T Barrels, Man|QID|30077|M|36.12,69.05|N|To Li Li.|
 T The Fanciest Water|QID|30076|M|35.99,69.10|N|To Mudmug.|
 T Clear the Way|QID|30075|M|36.04,68.98|N|To Chen Stormstout.|
 
-A Cleaning House|QID|30078|PRE|30075;30076;30077|M|36.11,69.08|N|From Chen Stormstout. Talk to Chen to go inside.|
+A Cleaning House|QID|30078|PRE|30075&30076&30077|M|36.11,69.08|N|From Chen Stormstout. Talk to Chen to go inside.|
 C Cleaning House|QID|30078|M|33.98,70.13|N|Talk to Chen (or Li Li) between steps to advance. Follow the instructions in the yellow text.|
 T Cleaning House|QID|30078|M|36.00,69.13|N|To Chen Stormstout.|
 A Into the Brewery|QID|30085|LEAD|31327|PRE|30078|M|36.09,68.96|N|From Chen Stormstout. This is a dungeon quest|
@@ -458,13 +472,13 @@ A Mushan Mastery: Darkhide |QID|30184|PRE|30181|M|16.01,82.49|N|From Hemet Nesin
 
 C Kill Stags|QID|32038|S|M|24.47,68.43|
 C Kill Foxes|QID|30182|S|M|24.47,68.43|N|The foxes move around stealthed.|
-K Darkhide|QID|30184|T|Darkhide|L|79058|M|26.7,69.6|N|Kill Darkhide and loot his head.|
+K Darkhide|QID|30184|T|Darkhide|QO|1|M|26.7,69.6|N|Kill Darkhide and loot his head.|
 C Kill Foxes|QID|30182|US|M|24.47,68.43|
 C Kill Stags|QID|32038|US|M|24.47,68.43|
 
 T Mushan Mastery: Darkhide |QID|30184|M|16.01,82.49|N|To Hemet Nesingwary|
 T Fox Mastery|QID|30182|M|16.19,82.53|N|To Tani.|
-A Tortoise Mastery |QID|30185|PRE|30182;30184|M|16.07,82.61|N|From Hemet Nesingwary Jr.|
+A Tortoise Mastery |QID|30185|PRE|30182&30184|M|16.07,82.61|N|From Hemet Nesingwary Jr.|
 T Stag Mastery |QID|32038|M|15.90,82.24|N|To Matt "Lucky" Gotcher|
 
 C Kill Tortoises|QID|30185|M|20.5,74.6|
@@ -491,7 +505,7 @@ C Stemming the Swarm|QID|29981|US|M|15.6,58.09|N|Finish killing mantids as you r
 
 T Evacuation Orders|QID|29982|M|19.55,56.87|N|To Loon Mai.|
 T Stemming the Swarm|QID|29981|M|19.55,56.87|N|To Loon Mai.|
-A The Hidden Master|QID|29983|PRE|29981;29982|M|19.55,56.87|N|From Loon Mai.|
+A The Hidden Master|QID|29983|PRE|29981&29982|M|19.55,56.87|N|From Loon Mai.|
 
 R Paoquan Hollow|QID|29983|M|18.15,31.60|CC|
 T The Hidden Master|QID|29983|M|18.30,31.23|N|To Master Bruised Paw.|
@@ -513,7 +527,7 @@ C They Will Be Mist|QID|29985|US|M|18.17,41.49|
 T Tenderpaw By Name, Tender Paw By Reputation|QID|29992|M|18.05,31.07|N|To Lin Tenderpaw.|
 T They Will Be Mist|QID|29985|M|18.25,31.22|N|To Master Bruised Paw.|
 T Fog Wards|QID|29986|M|18.25,31.22|N|To Master Bruised Paw.|
-A Unyielding Fists: Trial of Wood|QID|29987|PRE|29992;29985;29986|M|18.24,31.26|N|From Master Bruised Paw.|
+A Unyielding Fists: Trial of Wood|QID|29987|PRE|29992&29985&29986|M|18.24,31.26|N|From Master Bruised Paw.|
 C Trial of Wood|QID|29987|M|18.25,32.18|CHAT|N|Same routine, but we are breaking boards this time.|
 T Unyielding Fists: Trial of Wood|QID|29987|M|18.24,31.26|N|To Master Bruised Paw.|
 A A Taste For Eggs|QID|29988|PRE|29987|M|18.24,31.26|N|From Master Bruised Paw.|

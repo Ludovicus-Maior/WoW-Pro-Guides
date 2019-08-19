@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_operation_shieldwall_dailies
+-- Date: 2018-10-17 02:20
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3519/revisions/29577/view
 -- Date: 2018-08-23 01:37
 -- Who: jovieve
 -- Log: Updated numerous old style QO tags.
@@ -287,7 +292,7 @@ T Unfair Trade|QID|32418|M|34.29,48.69|Z|Dalaran City@DalaranCity|N|To Vereesa W
 T Nowhere to Hide|QID|32419|M|34.29,48.69|Z|Dalaran City@DalaranCity|N|To Vereesa Windrunner.|
 T Cashing Out|QID|32420|M|34.29,48.69|Z|Dalaran City@DalaranCity|N|To Vereesa Windrunner.|
 T Nowhere to Run|QID|32421|M|34.29,48.69|Z|Dalaran City@DalaranCity|N|To Vereesa Windrunner.|
-A What Had To Be Done|QID|32423|PRE|32417;32418;32419;32420;32421|M|34.29,48.69|Z|Dalaran City@DalaranCity|N|From Vereesa Windrunner.|
+A What Had To Be Done|QID|32423|PRE|32417&32418&32419&32420&32421|M|34.29,48.69|Z|Dalaran City@DalaranCity|N|From Vereesa Windrunner.|
 R Lion's Landing|QID|32423|M|34.29,48.69|Z|Dalaran City@DalaranCity|N|Ask Vereesa to send you back.|
 T What Had To Be Done|QID|32423|M|87.91,33.10|N|To King Varian Wrynn.|
 
@@ -314,7 +319,7 @@ C The Second Riddle: Fellowship|QID|32333|M|33.43,34.23|Z|The Jade Forest|N|Clic
 T The First Riddle: Mercy|QID|32332|M|88.89,31.75|N|To The Monkey King, at Lion's Landing|
 T The Second Riddle: Fellowship|QID|32333|M|88.89,31.75|N|To The Monkey King, at Lion's Landing|
 T The Third Riddle: Strength|QID|32334|M|88.89,31.75|N|To The Monkey King, at Lion's Landing|
-A The Greatest Prank|QID|32335|PRE|32332;32333;32334|M|88.89,31.75|N|From The Monkey King, at Lion's Landing|
+A The Greatest Prank|QID|32335|PRE|32332&32333&32334|M|88.89,31.75|N|From The Monkey King, at Lion's Landing|
 C The Greatest Prank|QID|32335|N|Listen to the story now...|
 T The Greatest Prank|QID|32335|M|88.98,31.72|N|To Anduin Wrynn|
 
@@ -347,8 +352,8 @@ T The Silence|QID|32455|M|87.72,33.08|N|To Admiral Taylor, in the garrison.|
 
 ; Now start the Dailies!
 A Amber Kearnen's Quests|QID|*|M|89.79,32.43|NPC|68908|N|If Amber Kearnen offers a quest, off to the Skyfire or you go! Skip otherwise|
-A Get Troteman's Quests|QID|*|M|89.69,33.08|NPC|67631|ACTIVE|-32451;-32452;-32157;-32142|N|From Marshall Troteman.|
-A Get Mishka's Quests|QID|*|M|89.67,32.79|NPC|67630|ACTIVE|-32451;-32452;-32116;-32157;-32142|N|From Mishka.|
+A Get Troteman's Quests|QID|*|M|89.69,33.08|NPC|67631|ACTIVE|-32451^-32452^-32157^-32142|N|From Marshall Troteman.|
+A Get Mishka's Quests|QID|*|M|89.67,32.79|NPC|67630|ACTIVE|-32451^-32452^-32116^-32157^-32142|N|From Mishka.|
 
 ; Bilgewater Operations
 T And Then There Were Goblins|QID|32452|M|16.48,79.20|N|To Sky Admiral Rogers aboard the Skyfire.|

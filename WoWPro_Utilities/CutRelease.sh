@@ -26,10 +26,14 @@ done
 echo "# OK, the current version numbers are:"
 fgrep -H Version: */*.toc
 
-zip -r --include '*.lua' '*.toc' '*.tga' '*.xml' '*.html' @ "WoWPro v${nrelease}.zip" WoWPro WoWPro_Leveling WoWPro_Leveling WoWPro_Dailies WowPro_Profession WoWPro_WorldEvents WoWPro_Achievements
+zip -r --include '*.lua' '*.toc' '*.tga' '*.blp' '*.xml' '*.html' @ "WoWPro v${nrelease}.zip" WoWPro WoWPro_Leveling WoWPro_Leveling WoWPro_Dailies WowPro_Profession WoWPro_WorldEvents WoWPro_Achievements
 
 git commit -m V${nrelease} -a
 git tag ${nrelease}
 git push origin
 git push --tags
-s3cmd put -P -M "WoWPro v${nrelease}.zip" s3://WoW-Pro/
+if [ -r .s3cfg ] ; then
+    s3cmd put --config=.s3cfg -P -M "WoWPro v${nrelease}.zip" s3://WoW-Pro/
+else
+    s3cmd put -P -M "WoWPro v${nrelease}.zip" s3://WoW-Pro/
+fi

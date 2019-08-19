@@ -4,6 +4,51 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2019-03-06 18:42
+-- Who: Emmaleah
+-- Log: updated comments for Escape from Shaz'gul
+
+-- URL: http://wow-pro.com/node/3604/revisions/29953/view
+-- Date: 2018-10-17 02:25
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3604/revisions/29846/view
+-- Date: 2018-09-28 01:50
+-- Who: jovieve
+-- Log: Changed H step "QID" to "AVAILABLE." Also substituted QID for different quest in case other people were like me and didn't want to wait so long to upgrade garrison.
+
+-- URL: http://wow-pro.com/node/3604/revisions/29845/view
+-- Date: 2018-09-28 00:54
+-- Who: jovieve
+-- Log: Increased rank of out-of-the-way sidequests. Added RARE tag. Changed l tag to $.
+
+-- URL: http://wow-pro.com/node/3604/revisions/29844/view
+-- Date: 2018-09-27 11:12
+-- Who: jovieve
+-- Log: Added item tags to treasures, and put rank tag back in, only at rank 2 instead of 3.
+
+-- URL: http://wow-pro.com/node/3604/revisions/29843/view
+-- Date: 2018-09-27 05:29
+-- Who: jovieve
+-- Log: Changed l tags to $ tags and removed RANK tags to support new Enable Treasure UI option.
+
+-- URL: http://wow-pro.com/node/3604/revisions/29842/view
+-- Date: 2018-09-27 05:05
+-- Who: jovieve
+-- Log: Changed rank of worthless and annoying side quest to rank 3.
+
+-- URL: http://wow-pro.com/node/3604/revisions/29839/view
+-- Date: 2018-09-26 08:06
+-- Who: jovieve
+-- Log: Changed QID tag to AVAILABLE on F step.
+
+-- URL: http://wow-pro.com/node/3604/revisions/29838/view
+-- Date: 2018-09-26 08:01
+-- Who: jovieve
+-- Log: Changed Kuu'rat to rank 3. Added Artificer Romuul to guide.
+
+-- URL: http://wow-pro.com/node/3604/revisions/29186/view
 -- Date: 2018-02-26 22:59
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -208,53 +253,6 @@
 -- Who: Fluclo
 -- Log: Added Bloodthorn Hill quest and lootable; added PRE tag to F Lunarfall after visit to Ashran; Added more Level 94 quests; Added placeholder for Level 100 quests.
 
--- URL: http://wow-pro.com/node/3604/revisions/26971/view
--- Date: 2014-11-13 06:08
--- Who: Fluclo
--- Log: Fixed wrong ACTIVE tag in Lost in Transition, removed my test code inadvertently left in the guide.
-
--- URL: http://wow-pro.com/node/3604/revisions/26970/view
--- Date: 2014-11-13 05:55
--- Who: Fluclo
--- Log: Moved Gnomish Location Transponder to after Fey Landing; 
---	Added The Big Haul quest; 
---	Moved Draakorium quests to before Twilight; 
---	Added Level 92 tag to Secrets of Gorgrond; 
-
--- URL: http://wow-pro.com/node/3604/revisions/26969/view
--- Date: 2014-11-13 01:58
--- Who: Fluclo
--- Log: Added |T| for Quakefist
-
--- URL: http://wow-pro.com/node/3604/revisions/26968/view
--- Date: 2014-11-13 01:56
--- Who: Fluclo
--- Log: Added locations of flags as a coordinate note
-
--- URL: http://wow-pro.com/node/3604/revisions/26895/view
--- Date: 2014-11-08 01:22
--- Who: Ludovicus_Maior
--- Log: Corrections
-
--- URL: http://wow-pro.com/node/3604/revisions/26781/view
--- Date: 2014-11-03 05:07
--- Who: Fluclo
--- Log: Added next guide ID, added Shadowmoon Darters to Ship Salvage, added Rank 3 treasures, changed Qiana Moonshadow to CHAT and added coords, removed a PRE step from Shadows Awaken (*BUG*), added extra coords when route not obvious, added missing coords to a few steps, added a run step to help locate Deadwalker Pass, added a Hearth point for Embaari Village, Path of the Light Flightpath not known at that point of guide, so changed to get FP, added garrison quests for mine and small buildings, added LVL 94 tags to the Level 94 quests.
-
--- URL: http://wow-pro.com/node/3604/revisions/26710/view
--- Date: 2014-10-09 15:04
--- Who: Fluclo
--- Log: Moved Hexcloth quest to an earlier opportunity to finish it.
-
--- URL: http://wow-pro.com/node/3604/revisions/26709/view
--- Date: 2014-10-09 14:04
--- Who: Fluclo
--- Log: Friendly Competition now lootable without the skinning profession
-
--- URL: http://wow-pro.com/node/3604/revisions/26703/view
--- Date: 2014-10-01 01:29
--- Who: Fluclo
-
 local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley@Draenor', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90,92,91)
 WoWPro:NewGuideLevels(guide,90,100)
@@ -287,7 +285,7 @@ C Ravenous Ravens |QID|34616|N|Finish killing the Lunarfall Ravens|US|M|29.1,17.
 T Looking for Lumber |QID|34584|N|From Baros Alexston|M|29.0,16.2|
 T Ravenous Ravens |QID|34616|N|From Baros Alexston|M|29.0,16.2|
 
-A Quakefist |QID|34585|N|From Yrel|M|28.9,16.4|PRE|34584;34616|
+A Quakefist |QID|34585|N|From Yrel|M|28.9,16.4|PRE|34584&34616|
 C Quakefist |QID|34585|N|Kill Quakefist, who can be found inside the cave.|M|30.1,21.8|T|Quakefist|
 T Quakefist |QID|34585|N|To Yrel|M|28.9,16.4|
 
@@ -323,7 +321,7 @@ T Pale Moonlight |QID|35174|N|To Vindicator Maraad\n\nUse your Garrison Hearthst
 T Keeping it Together |QID|35176|N|To Baros Alexston|M|41.20,49.33|Z|Lunarfall|
 T Ship Salvage|QID|35166|N|To Baros Alexston|M|41.20,49.33|Z|Lunarfall|
 
-A Build Your Barracks |QID|34587|N|From Baros Alexston|PRE|35174;35176;35166|M|41.20,49.33|Z|Lunarfall|
+A Build Your Barracks |QID|34587|N|From Baros Alexston|PRE|35174&35176&35166|M|41.20,49.33|Z|Lunarfall|
 C Build Your Barracks |QID|34587|N|Loot the Barracks Blueprints from the floor of the construction site.|QO|1|NC|M|45.4,40.2|Z|Lunarfall|
 C Build Your Barracks |QID|34587|N|Click on the Barracks Blueprints to learn it.|QO|2|U|111956|NC|
 C Build Your Barracks |QID|34587|N|Click on the Architect Table, then drag the Barracks icon to the Large Empty Plot.|QO|3|NC|M|41.12,48.93|Z|Lunarfall|
@@ -358,16 +356,19 @@ A A Surly Dwarf |QID|36630|N|From Lieutenant Howell|M|38.30,96.88|Z|Ashran|PRE|3
 T A Surly Dwarf |QID|36630|N|To Delvar Ironfist, inside Stormshield Barracks|M|41.05,86.93|Z|Ashran|
 A Delvar Ironfist |QID|36633|N|From Delvar Ironfist|M|41.05,86.93|Z|Ashran|PRE|36630|
 T Delvar Ironfist |QID|36633|N|To Delvar Ironfist|M|41.05,86.93|Z|Ashran|PRE|36630|
-F Lunarfall|QID|33075|N|Fly back to Lunarfall (or hearthstone)|M|37.23,90.88|Z|Ashran|U|110560|PRE|36630|
+F Lunarfall|AVAILABLE|34778|N|Fly back to Lunarfall (or hearthstone)|M|37.23,90.88|Z|Ashran|U|110560|PRE|36630|
 
 A Migrant Workers |QID|34778|N|From Vindicator Maraad|PRE|34692|M|44.10,53.35|Z|Lunarfall|
 C Migrant Workers |QID|34778|N|Speak with Zipfizzle and tell him to Move Out.|CHAT|M|44.2,51.0|Z|Lunarfall|
 
 A A Hero's Welcome |QID|33075|N|From Yrel|PRE|34692|M|47.2,50.9|Z|Lunarfall|
 
-A Wanted: Kuu'rat's Tusks |QID|33833|N|From the notice board in Moonflower Valley. This is a 3-party group quest.|M|33.2,30.7|RANK|2|
+A Wanted: Kuu'rat's Tusks |QID|33833|N|From the notice board in Moonflower Valley. This is a 3-party group quest.|M|33.2,30.7|RANK|3|
 C Wanted: Kuu'rat's Tusks |QID|33833|N|Kill Kuu'rat, and loot the tusks. This is flagged as a 3-party group quest but can be solo'd by many. Don't forget to use your newly acquired Call to Arms to aid you in the battle.|M|34.6,26.9|
 T Wanted: Kuu'rat's Tusks |QID|33833|N|To Eremor in Embaari Village|M|45.5,37.7|
+
+A Artificer Romuul|QID|35614|M|42.86,40.36|N|Speak to Romuul, offer to defend him, defeat three waves of wolves, including an elite at the end, and then accept him as a new follower.|RANK|2|
+T Artificer Romuul|QID|35614|M|42.86,40.36|
 
 f Embaari Village |QID|33075|N|With Eonor|M|45.68,38.86|
 C A Hero's Welcome |QID|33075|N|Find Samaara at Embaari Village|M|46.04,38.92|NC|
@@ -402,7 +403,7 @@ T Dark Enemies |QID|33765|N|To Prophet Velen.|M|49.12,38.51|
 T Closing the Door |QID|33905|N|To Prophet Velen|M|49.12,38.51|
 
 ;The next quest needs all three of 33765;33070;33905 but when all three are shown, this quest is skipped unless you /reload ui!
-A Shadows Awaken |QID|34019|N|From Prophet Velen|M|49.12,38.51|PRE|33765;33070| ;33905|
+A Shadows Awaken |QID|34019|N|From Prophet Velen|M|49.12,38.51|PRE|33765&33070| ;33905|
 C Shadows Awaken |QID|34019|N|Head into the centre of the observatory and wait for Ner'zhul to spawn Karnoth|M|49.3,37.4|NC|QO|1|
 C Shadows Awaken |QID|34019|N|Kill and loot Karnoth.|M|49.4,37.0|
 
@@ -425,7 +426,7 @@ A The Southern Wilds |QID|35444|N|From Farmer Gehaar|CN|M|49.05,38.63;49.1,38.6|
 l Astrologer's Box|QID|33867|N|Astrologer's Box: Star Chart Toy. You will first need to leave Teluuna Observatory (until it shows another zone), then go back to the Observatory so that the fires disappear, then go up the ramp to the top floor. |M|48.50,40.34;49.83,37.01;49.41,37.55|CC|RANK|3|
 
 ; The next 7 blocks of quests are dependant upon which profession item(s) you have looted from Karnoth.
-H Lunarfall |QID|36308;33814;36236|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|ACTIVE|36308;35342;36236|
+H Lunarfall |QID|36308^33814^36236|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|ACTIVE|36308^35342^36236|
 
 T The Mysterious Flask|QID|35342|M|47.69,45.39|Z|Lunarfall|N|To Aenir.|ACTIVE|35342|
 A The Young Alchemist|QID|35343|M|47.69,45.39|Z|Lunarfall|N|From Aenir.|PRE|35342|
@@ -436,7 +437,7 @@ A Ameeka, Master Tailor|QID|36262|M|43.0,54.9|Z|Lunarfall|N|From Aerun.|PRE|3623
 T Enchanted Highmaul Bracer|QID|36308|N|To Eileese Shadowsong|Z|Lunarfall|M|50.07,42.10|
 A The Arakkoan Enchanter|QID|36310|N|From Eileese Shadowsong|Z|Lunarfall|M|50.07,42.10|PRE|36308|
 
-F Embaari Village |QID|35343;36262;36310|N|Fly to Embaari Village|ACTIVE|35343;36262;36310|M|47.99,49.92|
+F Embaari Village |QID|35343^36262^36310|N|Fly to Embaari Village|ACTIVE|35343^36262^36310|M|47.99,49.92|
 
 T The Young Alchemist|QID|35343|M|55.85,41.15|N|To Abatha.|
 A The Missing Father|QID|35344|M|55.85,41.15|N|From Abatha.|PRE|35343|
@@ -529,7 +530,7 @@ C Engorged Goren |QID|34786|N|Finish killing and looting the Crystalmaw Goren an
 
 T Engorged Goren |QID|34786|N|To Apprentice Artificer Andren|M|61.87,29.14|
 T Shut 'er Down |QID|35070|N|To Exarch Hataaru|M|61.91,29.69|
-A Exarch Maladaar |QID|34787|N|From Exarch Akama|M|61.92,29.61|PRE|34784;35070|
+A Exarch Maladaar |QID|34787|N|From Exarch Akama|M|61.92,29.61|PRE|34784&35070|
 
 f Elodor |QID|34787|N|With Vamuun.|M|58.7,31.9|
 T Exarch Maladaar |QID|34787|N|To Exarch Maladaar on Fey Landing.|CS|M|59.38,29.15;59.51,30.37|
@@ -603,7 +604,7 @@ C Riot Blossom|QID|33787|N|Finish killing and looting the Riot Blossom|QO|3|US|M
 T Fiona's Solution|QID|33787|M|53.59,57.30|N|To Fiona.|
 T Swamplighter Queen|QID|33808|M|53.59,57.30|N|To Fiona.|
 
-A Cooking With Unstable Herbs|QID|33788|M|53.59,57.30|N|From Fiona.|PRE|33787;33808|
+A Cooking With Unstable Herbs|QID|33788|M|53.59,57.30|N|From Fiona.|PRE|33787&33808|
 C Cooking With Unstable Herbs|QID|33788|QO|1|N|Speak with Fiona|CHAT|M|53.59,57.30|
 C Cooking With Unstable Herbs|QID|33788|QO|2|N|Follow Fiona's steps to complete the elixir.\n\nNice Glow = Moonlit Herb\nSomething Meaty = Riverbeast Heart\nWriggle Around = Riotvine\nDangerous and Toxic = Swamplighter Venom|NC|M|53.59,57.30|
 C Cooking With Unstable Herbs|QID|33788|QO|3|N|Click to use the elixir on Gidwin Goldbraids.|NC|
@@ -686,7 +687,7 @@ T Loola's Lost Love |QID|34876|N|To Old Loola|M|41.29,55.11|
 
 C Going Undercover |QID|33080|N|Speak to Sylene and ask for a Shadowmoon orc illusion.|QO|1|M|40.65,54.62|CHAT|
 
-A The Dark that Blinds Us |QID|33078|N|From Loreseeker Heidii|M|42.14,57.37|
+A The Dark that Blinds Us |QID|33078|N|From Loreseeker Heidii|M|42.14,57.37|RANK|3|
 C The Dark that Blinds Us |QID|33078|N|Click the Western stone to get a rubbing|QO|3|NC|M|43.62,60.63|
 C The Dark that Blinds Us |QID|33078|N|Click the Northern stone to get a rubbing|QO|2|NC|M|44.41,59.09|
 C The Dark that Blinds Us |QID|33078|N|Click the Eastern stone to get a rubbing|QO|1|NC|M|45.23,60.46|
@@ -701,12 +702,10 @@ C Going Undercover |QID|33080|N|Click the explosives at the training pit|QO|5|M|
 
 T Going Undercover |QID|33080|N|To Yrel. Just keep running to avoid the Void creatures.|M|34.2,63.2|
 A Escape From Shaz'gul |QID|33081|N|From Yrel|M|34.2,63.2|PRE|33080|
-
 C Escape From Shaz'gul |QID|33081|N|Speak to Yrel and select any two chat lines to inspire her.|QO|1|CHAT|M|34.2,63.2|
-C Escape From Shaz'gul |QID|33081|N|Escort Yrel out of Shaz'gul, a number of mobs will spawn at various points.|QO|2|M|39.2,57.5|
-
+C Escape From Shaz'gul |QID|33081|N|Escort Yrel out of Shaz'gul, a number of mobs will spawn at various points. This quest is bugged and very difficult to solo, when you get to the large mob (third group) leave Yrel and proceed to waypoint to kill Terrorfang. Yrel will die but you can finish the quest (recommend using Call to Arms during Terrorfang). Alternatively, you can stand at extreme range and pick them off one at a time, but it will take FOREVER.|QO|2|M|39.2,57.5|
 T Escape From Shaz'gul |QID|33081|N|To Yrel, now in Twilight Glade.|M|40.60,54.94|
-A Chasing Shadows |QID|33586|N|From Prophet Velen|M|40.53,54.91|PRE|33059;33081|
+A Chasing Shadows |QID|33586|N|From Prophet Velen|M|40.53,54.91|PRE|33059&33081|
 A Fast Expansion|QID|33814|M|40.65,54.87|N|From Scout Valdez. If he is not here, he might be in your garrison.|PRE|33059|
 
 F Embaari Village |QID|33586|M|40.7,55.3|N|Fly to Embaari Village, or use your hearthstone if it has cooled down.|
@@ -759,12 +758,11 @@ C The Great Salvation|QID|33794|N|Rescue the Draenei prisoners by opening the ca
 C Into Anguish|QID|35032|N|Deactivate the Mark of Shadows|QO|3|M|34.5,41.4|NC|
 C Harbingers of the Void |QID|33793|N|Kill the Shadowmoon Prophet surrounding the Essence of Shadow to release it, then kill it.|QO|1|M|34.0,43.3|
 C Harbingers of the Void|QID|33793|N|Kill Essence of Anguish, who is inside Ancestor's Grotto cave.|QO|3|M|35.2,44.5|
-
-l Rovo's Dagger |QID|33573|N|Rovo's Dagger: Lootable object and tidy XP from Cave #2.|M|36.68,44.46|RANK|3|
-l Ashes of A'kumbo |QID|33584|N|Ashes of A'kumbo: Lootable object and tidy XP fropm Cave #3.|M|37.75,44.27|RANK|3|
-l Greka's Urn |QID|33614|N|Greka's Urn: Lootable object and tidy XP from Cave #4.|M|38.5,43.0|RANK|3| ; Added comma to coord
-l Beloved's Offering |QID|33046|N|Beloved's Offering: Lootable object and tidy XP from Cave #5.|M|36.79,41.41|RANK|3|
-l Uzko's Knickknacks |QID|33540|N|Uzko's Knickknacks: Lootable object for an i525 Blue Boots and tidy XP from Cave #6.|M|35.87,40.87|RANK|3|
+$ Rovo's Dagger |QID|33573|N|Rovo's Dagger: Lootable object and tidy XP from Cave #2.|M|36.68,44.46|ITEM|113378|RANK|2|
+$ Ashes of A'kumbo |QID|33584|N|Ashes of A'kumbo: Lootable object and tidy XP fropm Cave #3.|M|37.75,44.27|ITEM|113531|RANK|2|
+$ Greka's Urn |QID|33614|N|Greka's Urn: Lootable object and tidy XP from Cave #4.|M|38.5,43.0|ITEM|113408|RANK|2|
+$ Beloved's Offering |QID|33046|N|Beloved's Offering: Lootable object and tidy XP from Cave #5.|M|36.79,41.41|ITEM|113547|RANK|2|
+$ Uzko's Knickknacks |QID|33540|N|Uzko's Knickknacks: Lootable object for an i525 Blue Boots and tidy XP from Cave #6.|M|35.87,40.87|ITEM|113546|RANK|2|
 C Into Anguish|QID|35032|N|Deactivate the Mark of Anguish|QO|4|M|32.6,38.8|NC|
 C Harbingers of the Void |QID|33793|N|Kill the Shadowmoon Prophet surrounding the Essence of Darkness to release it, then kill it.|QO|2|M|31.2,39.4|
 C Into Anguish|QID|35032|N|Deactivate the Mark of Darkness|QO|2|M|29.5,39.7|NC|
@@ -782,15 +780,15 @@ C Across the Stars|QID|33795|N|Finish picking up the Star Readings from the floo
 C The Clothes on Their Backs|QID|36266|N|Finish killing and loot the Shadowmoon Forces for their Ceremonial Shadowmoon Robes.|US|
 C On the Offensive|QID|33083|N|Finish killing the Shadowmoon Forces|US|
 
-A Wanted: Kliaa's Stinger|QID|33834|N|From the poster in Bloodthorn Hill. This is a 3-party group quest.|M|26.40,32.84|RANK|2|
-C Wanted: Kliaa's Stinger|QID|33834|N|Kill and loot Kliaa for her Massive Stinger|M|24.61,36.34|RANK|2|
+A Wanted: Kliaa's Stinger|QID|33834|N|From the poster in Bloodthorn Hill. This is a 3-party group quest.|M|26.40,32.84|RANK|3|
+C Wanted: Kliaa's Stinger|QID|33834|N|Kill and loot Kliaa for her Massive Stinger|M|24.61,36.34|RANK|3|
 
-R Bloodthorn Cave |QID|33419|N|Head to Bloodthorn Cave.|M|24.03,33.06|
-A A Matter of Life and Death|QID|33419|N|From Roona in the Bloodthorn Cave.|M|60.09,32.01|Z|Bloodthorn Cave|
+R Bloodthorn Cave |QID|33419|N|Head to Bloodthorn Cave.|M|24.03,33.06|RANK|3|
+A A Matter of Life and Death|QID|33419|N|From Roona in the Bloodthorn Cave.|M|60.09,32.01|Z|Bloodthorn Cave|RANK|3|
 C A Matter of Life and Death|QID|33419|N|Save Diaani.|NC|QO|2|M|52.29,54.33|Z|Bloodthorn Cave|
-l Rotting Basket|QID|33572|N|Rotting Baskets: Lootable junk worth 13 gold and some tidy XP.|M|56.28,48.84|RANK|3|Z|Bloodthorn Cave|
+$ Rotting Basket|QID|33572|N|Rotting Baskets: Lootable junk worth 13 gold and some tidy XP.|M|56.28,48.84|RANK|3|Z|Bloodthorn Cave|
 C A Matter of Life and Death|QID|33419|N|Save Arekk, he's in the cave north of Diaani|NC|QO|1|M|32.73,52.84|Z|Bloodthorn Cave|
-K Gorum |QID|33664|M|33.55,27.98|N|*Rare Elite* in Arekk cave.|RANK|3|Z|Bloodthorn Cave|
+K Gorum |QID|33664|M|33.55,27.98|N|*Rare Elite* in Arekk cave.|RANK|3|Z|Bloodthorn Cave|RARE|
 C A Matter of Life and Death|QID|33419|N|Save Zuulo, continue south then east through the tunnel.|NC|QO|3|M|49.89,68.92|Z|Bloodthorn Cave|
 T A Matter of Life and Death|QID|33419|N|To Roona.|M|60.09,32.01|Z|Bloodthorn Cave|
 
@@ -809,7 +807,7 @@ T On the Offensive|QID|33083|N|To Prophet Velen|M|46.37,38.68|
 T Harbingers of the Void|QID|33793|M|46.37,38.68|N|To Prophet Velen|
 T Across the Stars|QID|33795|M|46.37,38.68|N|To Prophet Velen|
 
-A Darkness Falls|QID|33837|N|From Prophet Velen.|M|46.37,38.68|PRE|34054;33083;33793;33795;33794|
+A Darkness Falls|QID|33837|N|From Prophet Velen.|M|46.37,38.68|PRE|34054&33083&33793&33795&33794|
 
 T Wanted: Kliaa's Stinger|QID|33834|N|To Dyuna|ACTIVE|33834|M|44.91,38.50|
 
@@ -840,7 +838,7 @@ R Tranquil Court|QID|37322|M|70.43,50.42|N|Run east up the stairs to Tranquil Co
 f Tranquil Court|QID|37322|M|70.4,50.4|N|With Itara|ACTIVE|37322|
 T The Prophet's Final Message|QID|37322|N|To Prophet Velen's Memorial|M|73.7,55.8|
 
-H Lunarfall |QID|33814|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|
+H Lunarfall |AVAILABLE|33461|N|Use your Garrison Hearthstone, or fly back to your garrison.|U|110560|
 
 A Lost Lumberjacks|QID|34820|PRE|33059|M|48.92,42.24|Z|Lunarfall|N|From Ken Loggin. \n(if you've already leveled up your garrison, you'll find Ken outside the fort to the west.|
 A Gloomshade Game Hunter |QID|33461|PRE|33059|N|From the list of ingredients attached to the side of the cart.|M|48.44,41.00|Z|Lunarfall|
@@ -904,9 +902,9 @@ J Garrison Buldings|GUIDE|LudoBuildingsAlliance|N|Check in to see if there are a
 A Meet Us at Starfall Outpost|QID|33359|LEAD|33113|N|From Cordana Felsong next to the Bulletin Board in your garrison.|M|43.19,44.61|Z|Lunarfall|LVL|90|
 
 ; Having this quest and the [Ashran Appearance] quest causes the Ashran one not to complete.
-A The Secrets of Gorgrond |QID|33533;35556;36632|N|Moving onto Gorgrond next? Accept this quest from your Bulletin Board.|LEAD|35033|LVL|92|M|42.65,44.74|Z|Lunarfall|
+A The Secrets of Gorgrond |QID|33533^35556^36632|N|Moving onto Gorgrond next? Accept this quest from your Bulletin Board.|LEAD|35033|LVL|92|M|42.65,44.74|Z|Lunarfall|
 
-D Zone Finished|QID|33533;35556;36632|N|Zone finished (for now). Feel free to hearth to your garrison for your missions, otherwise move onto the Gorgrond guide.|
+D Zone Finished|QID|33533^35556^36632|N|Zone finished (for now). Feel free to hearth to your garrison for your missions, otherwise move onto the Gorgrond guide.|
 
 ]]
 

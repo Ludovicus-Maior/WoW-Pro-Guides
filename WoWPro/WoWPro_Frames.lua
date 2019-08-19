@@ -277,7 +277,7 @@ end
 function WoWPro.AnchorSet()
 	local w = WoWPro.Titlebar:GetWidth()
 	local h = WoWPro.Titlebar:GetHeight()
-	WoWPro:dbp("WoWPro.AnchorSet()")
+
 	for i,row in ipairs(WoWPro.rows) do
 		if WoWPro.GetSide(WoWPro.MainFrame) == "RIGHT" then
 			WoWPro.mousenotes[i]:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, 10)
@@ -299,31 +299,37 @@ function WoWPro.AnchorSet()
 			local hcenter = (left + right) / 2
 			local anchorpoint = WoWProDB.profile.anchorpoint
 			local hquadrant, vquadrant = WoWPro.GetSide(WoWPro.MainFrame)
+			local width = UIParent:GetWidth()
+			local height = UIParent:GetHeight()
 
+            WoWPro:dbp("SetPoint:OnUpdate(): top=%.2f bottom=%.2f left=%.2f right=%.2f width=%.2f height=%.2f", top, bottom, left, right, width, height)
 			-- Setting anchor point based on the quadrant if it's set to auto --
 			if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
 
 			WoWPro.MainFrame:ClearAllPoints()
-
+            local anchor
 			if anchorpoint == "TOPLEFT" then
-				WoWPro.MainFrame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", left, top)
+				anchor = {"TOPLEFT", UIParent, "TOPLEFT", left, top-height}
 			elseif anchorpoint == "TOP" then
-				WoWPro.MainFrame:SetPoint("TOP", UIParent, "BOTTOMLEFT", hcenter, top)
+				anchor = {"TOP", UIParent, "TOP", hcenter, top-height}
 			elseif anchorpoint == "TOPRIGHT" then
-				WoWPro.MainFrame:SetPoint("TOPRIGHT", UIParent, "BOTTOMLEFT", right, top)
+				anchor = {"TOPRIGHT", UIParent, "TOPRIGHT",right-width,  top-height}
 			elseif anchorpoint == "LEFT" then
-				WoWPro.MainFrame:SetPoint("LEFT", UIParent, "BOTTOMLEFT", left, vcenter)
+				anchor = {"LEFT", UIParent, "LEFT", left, vcenter}
 			elseif anchorpoint == "CENTER" then
-				WoWPro.MainFrame:SetPoint("CENTER", UIParent, "BOTTOMLEFT", hcenter, vcenter)
+				anchor = {"CENTER", UIParent, "CENTER", hcenter, vcenter}
 			elseif anchorpoint == "RIGHT" then
-				WoWPro.MainFrame:SetPoint("RIGHT", UIParent, "BOTTOMLEFT", right, vcenter)
+				anchor = {"RIGHT", UIParent, "RIGHT", right-width, vcenter}
 			elseif anchorpoint == "BOTTOMLEFT" then
-				WoWPro.MainFrame:SetPoint("BOTTOMLEFT", UIParent, "BOTTOMLEFT", left, bottom)
+				anchor = {"BOTTOMLEFT", UIParent, "BOTTOMLEFT", left, bottom}
 			elseif anchorpoint == "BOTTOM" then
-				WoWPro.MainFrame:SetPoint("BOTTOM", UIParent, "BOTTOMLEFT", hcenter, bottom)
+				anchor = {"BOTTOM", UIParent, "BOTTOM", hcenter, bottom}
 			elseif anchorpoint == "BOTTOMRIGHT" then
-				WoWPro.MainFrame:SetPoint("BOTTOMRIGHT", UIParent, "BOTTOMLEFT", right, bottom)
+				anchor = {"BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", right-width, bottom}
 			end
+			WoWPro:dbp("SetPoint:OnUpdate() point=%q, UIParent, relativePoint=%q, ofsx=%.2f, ofsy=%.2f",
+			           anchor[1], anchor[3], anchor[4], anchor[5])
+			WoWPro.MainFrame:SetPoint(unpack(anchor))
 
 			WoWPro.MainFrame:SetScript("OnUpdate", function()
 			end)
@@ -648,7 +654,7 @@ function WoWPro:CreateMiniMapButton()
 
 	WoWPro.MinimapButton = ldb:NewDataObject("WoW-Pro", {
 		type = "launcher",
-		icon = "Interface\\Icons\\Achievement_WorldEvent_Brewmaster",
+		icon = "Interface\\AddOns\\WoWPro\\Textures\\Achievement_WorldEvent_Brewmaster",
 		OnClick = function(clickedframe, button)
 			if button == "LeftButton" then
 				if WoWProCharDB.Enabled then
@@ -800,21 +806,27 @@ function WoWPro.ResetCurrentGuide()
     WoWPro:LoadGuide()
 end
 
+function WoWPro.InterfaceOptionsFrame_OpenToCategory(menu)
+    -- Hack!
+    InterfaceOptionsFrame_OpenToCategory(menu)
+    InterfaceOptionsFrame_OpenToCategory(menu)
+end
+
 -- Dropdown Menu --
 function WoWPro:CreateDropdownMenu()
 	WoWPro.DropdownMenu = {
 		{text = "WoW-Pro Guides", isTitle = true},
 		{text = "About", func = function()
-			InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
+			WoWPro.InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
 		end},
 		{text = "Display Settings", func = function()
-			InterfaceOptionsFrame_OpenToCategory("Guide Display")
+			WoWPro.InterfaceOptionsFrame_OpenToCategory("Guide Display")
 		end},
 		{text = L["Guide List"], func = function()
-			InterfaceOptionsFrame_OpenToCategory("Guide List")
+			WoWPro.InterfaceOptionsFrame_OpenToCategory("Guide List")
 		end},
 		{text = L["Current Guide"], func = function()
-			InterfaceOptionsFrame_OpenToCategory("Current Guide")
+			WoWPro.InterfaceOptionsFrame_OpenToCategory("Current Guide")
 		end},
 		{text = L["Reset Current Guide"], func = WoWPro.ResetCurrentGuide },
 		{text = "Proxymity Sort", func = function() WoWPro.OrderSteps(true); end }

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
+-- Date: 2018-10-23 22:28
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3265/revisions/29046/view
 -- Date: 2018-02-20 01:12
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -121,15 +126,15 @@ f Flamestar Post|M|17.82,52.63|N|At Hans Oreflight.|QID|28514|
 T Mouton Flamestar|QID|28514|M|17.12,51.32|N|To Mouton Flamestar.|
 A Done Nothing Wrong|QID|28172|M|17.12,51.32|N|From Mouton Flamestar.|
 T Hero's Call: Burning Steppes!|QID|28666|M|17.4,52.5|N|To John J. Keeshan.|O|
-A Burning Vengeance|QID|28416;28174|M|17.31,51.98|N|From John J. Keeshan.|
+A Burning Vengeance|QID|28416^28174|M|17.31,51.98|N|From John J. Keeshan.|
 
 C Done Nothing Wrong|QID|28172|S|M|23.13,60.14|N|Free a Red, Green, Blue and Bronze Fettered Whelping.|
-C Burning Vengeance|QID|28174;28416|M|17.00,63.80|N|Kill Blackrock Whelpers and Flamescale Broodlings.|
+C Burning Vengeance|QID|28174^28416|M|17.00,63.80|N|Kill Blackrock Whelpers and Flamescale Broodlings.|
 C Done Nothing Wrong|QID|28172|US|M|23.13,60.14|N|Free a Red, Green, Blue and Bronze Fettered Whelping.|
-T Burning Vengeance|QID|28174;28416|M|17.34,52.18|N|To John J. Keeshan.|
-A Stocking Up|QID|28177|PRE|28174+28416|M|17.34,52.18|N|From John J. Keeshan.|
-A A Future Project|QID|28178|PRE|28174+28416|M|17.34,52.18|N|From John J. Keeshan.|
-A Mud Hunter|QID|28179|PRE|28174+28416|M|17.25,51.89|N|From John J. Keeshan.|
+T Burning Vengeance|QID|28174^28416|M|17.34,52.18|N|To John J. Keeshan.|
+A Stocking Up|QID|28177|PRE|28174^28416|M|17.34,52.18|N|From John J. Keeshan.|
+A A Future Project|QID|28178|PRE|28174^28416|M|17.34,52.18|N|From John J. Keeshan.|
+A Mud Hunter|QID|28179|PRE|28174^28416|M|17.25,51.89|N|From John J. Keeshan.|
 T Done Nothing Wrong|QID|28172|M|17.04,51.52|N|To Mouton Flamestar.|
 
 C A Future Project|QID|28178|S|M|9.51,52.65|N|Kill the worgs and loot them.|
@@ -140,7 +145,7 @@ C Stocking Up|QID|28177|M|11.59,45.41|N|Kill scorpions and loot them.|US|
 T Stocking Up|QID|28177|M|17.36,51.96|N|To John J. Keeshan.|
 T A Future Project|QID|28178|M|17.36,51.96|N|To John J. Keeshan.|
 T Mud Hunter|QID|28179|M|17.36,51.96|N|To John J. Keeshan.|
-A The Sand, the Cider, and the Orb|QID|28180|PRE|28177;28178;28179|M|17.36,51.96|N|From John J. Keeshan.|
+A The Sand, the Cider, and the Orb|QID|28180|PRE|28177&28178&28179|M|17.36,51.96|N|From John J. Keeshan.|
 T The Sand, the Cider, and the Orb|QID|28180|M|8.29,35.91|N|To Gorzeeki Wildeyes.|
 
 A Warlocks Have the Neatest Stuff|QID|28181|PRE|28180|M|8.29,35.91|N|From Gorzeeki Wildeyes.|
@@ -150,9 +155,9 @@ C Shadow Boxing|QID|28182|M|9.85,29.74|N|Kill Ner'gosh the Shadow.|
 C Warlocks Have the Neatest Stuff|QID|28181|M|5.25,31.15|N|The Blackrock Warlocks have the orb. Kill them until one drops. The other stuff needed is by the waypoint.|US|
 T Warlocks Have the Neatest Stuff|QID|28181|M|8.37,35.77|N|To Gorzeeki Wildeyes.|
 T Shadow Boxing|QID|28182|M|8.37,35.77|N|To Gorzeeki Wildeyes.|
-A Return to Keeshan|QID|28183|PRE|28181;28182|M|8.33,35.89|N|From Gorzeeki Wildeyes.|
+A Return to Keeshan|QID|28183|PRE|28181&28182|M|8.33,35.89|N|From Gorzeeki Wildeyes.|
 T Return to Keeshan|QID|28183|M|17.33,51.86|N|To John J. Keeshan.|
-A Chiselgrip, the Heart of the Steppes|QID|28184|PRE|28172;28183|M|17.33,51.86|N|From John J. Keeshan.|
+A Chiselgrip, the Heart of the Steppes|QID|28184|PRE|28172&28183|M|17.33,51.86|N|From John J. Keeshan.|
 C Chiselgrip, the Heart of the Steppes|QID|28184|M|37.35,54.33|N|Kill 15 Blackrock mobs.|
 T Chiselgrip, the Heart of the Steppes|QID|28184|M|46.69,44.24|N|To Stebben Oreknuckle.|
 
@@ -175,7 +180,7 @@ T A Perfect Costume|QID|28205|R|Night Elf|M|46.40,46.03|N|At John H. Keeshan|
 T A Perfect Costume|QID|28202|R|Human,Dwarf|M|46.40,46.03|N|At John H. Keeshan|
 T A Perfect Costume|QID|28204|R|Gnome|M|46.40,46.03|N|At John H. Keeshan|
 
-A Into the Black Tooth Hovel|QID|28239|PRE|28202+28203+28204+28205|M|46.35,45.91|N|From John J. Keeshan.|
+A Into the Black Tooth Hovel|QID|28239|PRE|28202^28203^28204^28205|M|46.35,45.91|N|From John J. Keeshan.|
 T Into the Black Tooth Hovel|QID|28239|U|63357|M|45.33,51.60|N|Remember to put on your disguise. To Quartermaster Kaoshin.|
 A Grunt Work|QID|28245|PRE|28239|M|45.33,51.60|N|From Quartermaster Kaoshin.|
 A Strategic Cuts|QID|28246|M|45.33,51.60|N|Automatically accepted.|
@@ -189,7 +194,7 @@ T Grunt Work|QID|28245|M|45.29,51.57|N|To Quartermaster Kaoshin.|
 A The Kodocaller's Horn|QID|28252|PRE|28245|M|45.35,51.53|N|From Quartermaster Kaoshin.|
 C The Kodocaller's Horn|QID|28252|U|63356|M|42.58,62.65|N|The kodos can attack you. If that happens knock them down to under 60% health.|
 T The Kodocaller's Horn|QID|28252|M|42.69,61.85|N|(UI Alert)|
-A Taking the Horn For Ourselves|QID|28253|PRE|28246;28252|M|42.69,61.85|N|(UI Alert)|
+A Taking the Horn For Ourselves|QID|28253|PRE|28246&28252|M|42.69,61.85|N|(UI Alert)|
 T Taking the Horn For Ourselves|QID|28253|M|46.33,45.79|N|To Colonel Troteman.|
 
 C Scrapped Golems|QID|28226|S|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
@@ -197,10 +202,10 @@ C Prove Yer Allegiance|QID|28225|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|They
 C Scrapped Golems|QID|28226|US|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
 T Prove Yer Allegiance|QID|28225|M|46.72,44.25|N|To Stebben Oreknuckle.|
 T Scrapped Golems|QID|28226|M|46.72,44.25|N|To Stebben Oreknuckle.|
-A Golem Training|QID|28227|PRE|28225;28226|M|46.72,44.25|N|From Stebben Oreknuckle.|
+A Golem Training|QID|28227|PRE|28225&28226|M|46.72,44.25|N|From Stebben Oreknuckle.|
 C Golem Training|QID|28227|M|44.72,43.79;46.75,46.6|CN|N|Go into either tower, talk to a golem. You need to defeat each one 3 times.|
 T Golem Training|QID|28227|M|46.72,44.23|N|To Stebben Oreknuckle.|
-A General Thorg'izog|QID|28265|PRE|28227;28253|M|46.33,45.84|N|From John J. Keeshan.|
+A General Thorg'izog|QID|28265|PRE|28227&28253|M|46.33,45.84|N|From John J. Keeshan.|
 T General Thorg'izog|QID|28265|U|63357|M|30.79,33.76;32.49,34.99;31.53,33.57|CS|N|To General Thorg'izog. Remember to put on your disguise, he is the middle of the building.|
 
 A Trial by Magma|QID|28266|PRE|28265|M|30.79,33.76|N|From General Thorg'izog.|
@@ -236,9 +241,9 @@ T Blackened Ashes|QID|28311|M|73.52,67.13|N|To Colonel Troteman.|
 T Latent Demons of the Land|QID|28312|M|73.52,67.13|N|To Colonel Troteman.|
 T A Heap of Delicious Worg|QID|28313|M|73.52,67.13|N|To Colonel Troteman.|
 
-A Blood Tour|QID|28314|PRE|28311;28312;28313|M|73.52,67.13|N|From John J. Keeshan.|
-A Draconic Vanguard|QID|28315|PRE|28311;28312;28313|M|73.52,67.13|N|From John J. Keeshan.|
-A A Deal With a Dragon|QID|28316|PRE|28311;28312;28313|M|73.52,67.13|N|From John J. Keeshan.|
+A Blood Tour|QID|28314|PRE|28311&28312&28313|M|73.52,67.13|N|From John J. Keeshan.|
+A Draconic Vanguard|QID|28315|PRE|28311&28312&28313|M|73.52,67.13|N|From John J. Keeshan.|
+A A Deal With a Dragon|QID|28316|PRE|28311&28312&28313|M|73.52,67.13|N|From John J. Keeshan.|
 C Blood Tour|QID|28314|S|M|77.82,35.84|N|Kill any Black Dragonspawn or Black Wyrmkin you see.|
 K Draconic Vanguard|QID|28315|QO|1|M|65.03,59.84|N|Kill Wheltamer Akumi here.|
 K Draconic Vanguard|QID|28315|QO|3|M|79.50,51.41|N|Kill Minyoth here.|
@@ -249,7 +254,7 @@ C Blood Tour|QID|28314|US|M|77.82,35.84|N|Kill any Black Dragonspawn or Black Wy
 T Blood Tour|QID|28314|M|72.29,26.73|N|To John J. Keeshan.|
 T Draconic Vanguard|QID|28315|M|72.29,26.73|N|To John J. Keeshan.|
 
-A Placing the Pawns|QID|28326|PRE|28314;28315;28316|M|72.31,26.63|N|(UI Alert)|
+A Placing the Pawns|QID|28326|PRE|28314&28315&28316|M|72.31,26.63|N|(UI Alert)|
 T Placing the Pawns|QID|28326|M|73.58,67.07|N|To Colonel Troteman.|
 A A Delivery for Thorg'izog|QID|28317|PRE|28326|M|73.58,67.07|N|From Colonel Troteman.|
 A A Delivery for Neeralak|QID|28318|PRE|28326|M|73.58,67.07|N|From Colonel Troteman.|
@@ -257,7 +262,7 @@ A A Delivery for Xi'lun|QID|28319|PRE|28326|M|73.58,67.07|N|From Colonel Trotema
 T A Delivery for Thorg'izog|U|63357|QID|28317|M|65.12,46.66|N|Put on your disguise, then head towards General Thorg'izog. Enter the cave at the waypoint, at the split head left.|
 T A Delivery for Xi'lun|QID|28319|M|63.79,37.81;66.31,37.96;68.88,44.14|CS|N|To High Warlock Xi'lun Follow the path up, he is in the cave.|
 T A Delivery for Neeralak|QID|28318|M|70.88,38.13|N|To Dragon-Lord Neeralak. Enter the cave at the waypoint, at the split head left.|
-A Locked and Loaded|QID|28327|PRE|28317;28318;28319|M|69.52,43.10|N|(UI Alert)|
+A Locked and Loaded|QID|28327|PRE|28317&28318&28319|M|69.52,43.10|N|(UI Alert)|
 T Locked and Loaded|QID|28327|M|73.53,67.08|N|To Colonel Troteman.|
 A Assault on Dreadmaul Rock|QID|28320|PRE|28327|M|73.16,66.39|N|From John J. Keeshan.|
 C Assault on Dreadmaul Rock|QID|28320|U|63681|M|69.36,51.35|N|Only 1 button to use, have fun on the dragon.|

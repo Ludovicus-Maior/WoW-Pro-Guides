@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_westfall
+-- Date: 2018-10-17 02:23
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3213/revisions/29666/view
 -- Date: 2018-09-04 20:27
 -- Who: Ludovicus
 -- Log: Playthrough cleanup
@@ -208,7 +213,7 @@ T Hot On the Trail: The Riverpaw Clan|QID|26213|M|60.10,19.32|N|To Lieutenant Ho
 T Hot On the Trail: Murlocs|QID|26214|M|60.10,19.32|N|To Lieutenant Horatio Laine.|
 T Hot On the Trail: The Riverpaw Clan|QID|26213|M|60.10,19.32|N|To Lieutenant Horatio Laine.|US|
 
-A Meet Two-Shoed Lou|QID|26215|PRE|26213;26214|M|60.13,19.37|N|From Lieutenant Horatio Laine.|
+A Meet Two-Shoed Lou|QID|26215|PRE|26213&26214|M|60.13,19.37|N|From Lieutenant Horatio Laine.|
 f Furlbrow's Pumpkin Farm|QID|26215|M|49.85,18.75|N|At Hoboair.|
 T Meet Two-Shoed Lou|QID|26215|M|49.71,19.41|N|To Two-Shoed Lou.|
 
@@ -255,7 +260,7 @@ T Times are Tough|QID|26237|M|56.07,31.31|N|To Farmer Saldean.|S|
 T It's Alive!|QID|26257|M|55.96,31.34|N|To Farmer Saldean.|
 T Times are Tough|QID|26237|M|56.07,31.31|N|To Farmer Saldean.|US|
 
-A You Have Our Thanks|QID|26270|PRE|26237;26241|M|56.02,31.28|N|From Farmer Saldean.|
+A You Have Our Thanks|QID|26270|PRE|26237&26241|M|56.02,31.28|N|From Farmer Saldean.|
 T You Have Our Thanks|QID|26270|M|56.37,30.60|N|To Salma Saldean.|
 
 A Hope for the People|QID|26266|M|56.37,30.60|N|From Salma Saldean.|PRE|26270|
@@ -285,7 +290,7 @@ T The Westfall Brigade|QID|26287|M|56.36,47.54|N|To Captain Danuvin.|
 A Jango Spothide|QID|26288|PRE|26287|M|56.36,47.54|N|From Captain Danuvin.|
 
 T Feeding the Hungry and the Hopeless|QID|26271|M|56.90,47.03|N|To Hope Saldean.|
-A Find Agent Kearnen|QID|26289|M|56.44,47.46|N|From Marshal Gryan Stoutmantle.|PRE|26286;26271|
+A Find Agent Kearnen|QID|26289|M|56.44,47.46|N|From Marshal Gryan Stoutmantle.|PRE|26286&26271|
 
 C Jango Spothide|QID|26288|M|62.28,76.43|N|Kill Jango Spothide as well as the Riverpaw Mystics and Taskmasters.|
 T Find Agent Kearnen|QID|26289|M|68.23,70.43|N|To Agent Kearnen.|

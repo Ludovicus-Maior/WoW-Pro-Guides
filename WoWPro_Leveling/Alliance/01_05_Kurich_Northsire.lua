@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
+-- Date: 2019-02-16 01:50
+-- Who: Ludovicus_Maior
+-- Log: Silly fixes.  
+
+-- URL: http://wow-pro.com/node/3197/revisions/30226/view
+-- Date: 2019-02-15 22:31
+-- Who: Ludovicus_Maior
+-- Log: [Fear No Evil] is bugged again.
+
+-- URL: http://wow-pro.com/node/3197/revisions/30047/view
+-- Date: 2018-10-17 22:42
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3197/revisions/29237/view
 -- Date: 2018-04-22 18:42
 -- Who: Ludovicus_Maior
 -- Log: Change H [Lion's Pride Inn] to use ACTIVE tag
@@ -235,21 +250,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Z|Stormwind City| not city
 
--- URL: http://wow-pro.com/node/3197/revisions/24443/view
--- Date: 2011-05-28 20:21
--- Who: Crackerhead22
--- Log: Removed |R|Human,Worgen| tag from certain steps.
-
--- URL: http://wow-pro.com/node/3197/revisions/24441/view
--- Date: 2011-05-28 17:40
--- Who: Crackerhead22
--- Log: Added missing notes, added sticky steps, added quests (and steps) with race tags for Worgen, Dwarves, Night Elves, Gnomes and Draenei.
-
--- URL: http://wow-pro.com/node/3197/revisions/24289/view
--- Date: 2011-04-29 14:05
--- Who: Ludovicus_Maior
--- Log: Line 203 for step T has unknown tag [T Blackrock Invasion]: [T Extinguishing Hope|QID|26391|R|Human|M|48.15,42.52|T Blackrock Invasion|QID|26389|R|Human|M|48.20,42.06|]
-
 local guide = WoWPro:RegisterGuide("KurNShire0105", "Leveling", "Northshire (Human)", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,1,4,1.55556)
 WoWPro:GuideNextGuide(guide, "KurElw0511")
@@ -327,33 +327,33 @@ A Join the Battle!|QID|28780|C|Hunter|R|Human|M|33.55,53.00|N|To Marshal McBride
 A Join the Battle!|QID|31143|C|Monk|R|Human|M|33.55,53.00|N|To Marshal McBride.|PRE|31140|
 A Join the Battle!|QID|29080|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|33.55,53.00|N|To Marshal McBride.|PRE|29079|
 
-T Join the Battle!|QID|28788|C|Warlock|R|Human|M|35.74,39.81|N|To Sergeant Willem, outside the abbey by the blue tent.|
-T Join the Battle!|QID|28787|C|Rogue|R|Human|M|35.74,39.81|N|To Sergeant Willem, outside the abbey by the blue tent.|
-T Join the Battle!|QID|28786|C|Priest|R|Human|M|35.74,39.81|N|To Sergeant Willem, outside the abbey by the blue tent.|
-T Join the Battle!|QID|28789|C|Warrior|R|Human|M|35.74,39.81|N|To Sergeant Willem, outside the abbey by the blue tent.|
-T Join the Battle!|QID|28785|C|Paladin|R|Human|M|35.74,39.81|N|To Sergeant Willem, outside the abbey by the blue tent.|
-T Join the Battle!|QID|28784|C|Mage|R|Human|M|35.74,39.81|N|To Sergeant Willem, outside the abbey by the blue tent.|
-T Join the Battle!|QID|28780|C|Hunter|R|Human|M|35.74,39.81|N|To Sergeant Willem, outside the abbey by the blue tent.|
-T Join the Battle!|QID|31143|C|Monk|R|Human|M|35.74,39.81|N|To Sergeant Willem, outside the abbey by the blue tent.|
-T Join the Battle!|QID|29080|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|35.74,39.81|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join the Battle!|QID|28788|C|Warlock|R|Human|M|35.73,39.79|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join the Battle!|QID|28787|C|Rogue|R|Human|M|35.73,39.79|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join the Battle!|QID|28786|C|Priest|R|Human|M|35.73,39.79|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join the Battle!|QID|28789|C|Warrior|R|Human|M|35.73,39.79|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join the Battle!|QID|28785|C|Paladin|R|Human|M|35.73,39.79|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join the Battle!|QID|28784|C|Mage|R|Human|M|35.73,39.79|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join the Battle!|QID|28780|C|Hunter|R|Human|M|35.73,39.79|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join the Battle!|QID|31143|C|Monk|R|Human|M|35.73,39.79|N|To Sergeant Willem, outside the abbey by the blue tent.|
+T Join the Battle!|QID|29080|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|35.73,39.79|N|To Sergeant Willem, outside the abbey by the blue tent.|
 
-A They Sent Assassins|QID|28791|C|Hunter|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28780|
-A Fear No Evil|QID|28806|C|Hunter|R|Human|M|34.59,39.02|N|From Brother Paxton.|PRE|28780|RANK|2|
-A They Sent Assassins|QID|28792|C|Mage|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28784|
-A Fear No Evil|QID|28808|C|Mage|R|Human|M|34.59,39.02|N|From Brother Paxton.|PRE|28784|RANK|2|
-A They Sent Assassins|QID|28797|C|Warrior|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28789|
-A Fear No Evil|QID|28813|C|Warrior|R|Human|M|34.59,39.02|N|From Brother Paxton.|PRE|28789|RANK|2|
-A They Sent Assassins|QID|28794|C|Priest|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28786|
-A Fear No Evil|QID|28810|C|Priest|R|Human|M|34.59,39.02|N|From Brother Paxton.|PRE|28786|RANK|2|
-A They Sent Assassins|QID|28795|C|Rogue|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28787|
-A Fear No Evil|QID|28811|C|Rogue|R|Human|M|34.59,39.02|N|From Brother Paxton.|PRE|28787|RANK|2|
-A They Sent Assassins|QID|28793|C|Paladin|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28785|
-A Fear No Evil|QID|28809|C|Paladin|R|Human|M|34.59,39.02|N|From Brother Paxton.|PRE|28785|RANK|2|
-A They Sent Assassins|QID|28796|C|Warlock|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28788|
-A Fear No Evil|QID|28812|C|Warlock|R|Human|M|34.59,39.02|N|From Brother Paxton.|PRE|28788|RANK|2|
-A They Sent Assassins|QID|31144|C|Monk|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|31143|
+A They Sent Assassins|QID|28791|C|Hunter|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|28780|
+A Fear No Evil|QID|28806|C|Hunter|R|Human|M|35.31,37.84|N|From Brother Paxton.|PRE|28780|RANK|2|
+A They Sent Assassins|QID|28792|C|Mage|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|28784|
+A Fear No Evil|QID|28808|C|Mage|R|Human|M|35.31,37.84|N|From Brother Paxton.|PRE|28784|RANK|2|
+A They Sent Assassins|QID|28797|C|Warrior|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|28789|
+A Fear No Evil|QID|28813|C|Warrior|R|Human|M|35.31,37.84|N|From Brother Paxton.|PRE|28789|RANK|2|
+A They Sent Assassins|QID|28794|C|Priest|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|28786|
+A Fear No Evil|QID|28810|C|Priest|R|Human|M|35.31,37.84|N|From Brother Paxton.|PRE|28786|RANK|2|
+A They Sent Assassins|QID|28795|C|Rogue|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|28787|
+A Fear No Evil|QID|28811|C|Rogue|R|Human|M|35.31,37.84|N|From Brother Paxton.|PRE|28787|RANK|2|
+A They Sent Assassins|QID|28793|C|Paladin|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|28785|
+A Fear No Evil|QID|28809|C|Paladin|R|Human|M|35.31,37.84|N|From Brother Paxton.|PRE|28785|RANK|2|
+A They Sent Assassins|QID|28796|C|Warlock|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|28788|
+A Fear No Evil|QID|28812|C|Warlock|R|Human|M|35.31,37.84|N|From Brother Paxton.|PRE|28788|RANK|2|
+A They Sent Assassins|QID|31144|C|Monk|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|31143|
 ; Fear No Evil is not offered to Monks!
-A They Sent Assassins|QID|29081|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|35.74,39.81|N|From Sergeant Willem.|PRE|29080|
+A They Sent Assassins|QID|29081|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|35.73,39.79|N|From Sergeant Willem.|PRE|29080|
 A Fear No Evil|QID|29082|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|34.59,39.02|N|From Brother Paxton.|PRE|29080|RANK|2|
 
 C They Sent Assassins|N|Kill goblin assassins.|QID|28791|C|Hunter|R|Human|M|34.27,30.52|S|
@@ -365,14 +365,14 @@ C They Sent Assassins|N|Kill goblin assassins.|QID|28793|C|Paladin|R|Human|M|34.
 C They Sent Assassins|N|Kill goblin assassins.|QID|28796|C|Warlock|R|Human|M|34.27,30.52|S|
 C They Sent Assassins|N|Kill goblin assassins.|QID|31144|C|Monk|R|Human|M|34.27,30.52|S|
 C They Sent Assassins|N|Kill goblin assassins.|QID|29081|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|34.27,30.52|S|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28806|C|Hunter|R|Human|M|34.27,30.52|NC|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28808|C|Mage|R|Human|M|34.27,30.52|NC|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28813|C|Warrior|R|Human|M|34.27,30.52|NC|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28810|C|Priest|R|Human|M|34.27,30.52|NC|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28811|C|Rogue|R|Human|M|34.27,30.52|NC|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28809|C|Paladin|R|Human|M|34.27,30.52|NC|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|28812|C|Warlock|R|Human|M|34.27,30.52|NC|
-C Fear No Evil|N|Revive 4 Injured Soldiers.|QID|29082|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|34.27,30.52|US|NC|
+C Fear No Evil|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|QID|28806|C|Hunter|R|Human|M|34.27,30.52|NC|
+C Fear No Evil|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|QID|28808|C|Mage|R|Human|M|34.27,30.52|NC|
+C Fear No Evil|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|QID|28813|C|Warrior|R|Human|M|34.27,30.52|NC|
+C Fear No Evil|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|QID|28810|C|Priest|R|Human|M|34.27,30.52|NC|
+C Fear No Evil|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|QID|28811|C|Rogue|R|Human|M|34.27,30.52|NC|
+C Fear No Evil|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|QID|28809|C|Paladin|R|Human|M|34.27,30.52|NC|
+C Fear No Evil|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|QID|28812|C|Warlock|R|Human|M|34.27,30.52|NC|
+C Fear No Evil|N|Revive 4 Injured Soldiers by right clicking on them. If the Soldiers are not sparkly, type '/reload' to fix the buggy quest.|QID|29082|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|34.27,30.52|US|NC|
 C They Sent Assassins|N|Kill goblin assassins.|QID|28791|C|Hunter|R|Human|M|34.27,30.52|US|
 C They Sent Assassins|N|Kill goblin assassins.|QID|28792|C|Mage|R|Human|M|34.27,30.52|US|
 C They Sent Assassins|N|Kill goblin assassins.|QID|28797|C|Warrior|R|Human|M|34.27,30.52|US|
@@ -383,45 +383,45 @@ C They Sent Assassins|N|Kill goblin assassins.|QID|28796|C|Warlock|R|Human|M|34.
 C They Sent Assassins|N|Kill goblin assassins.|QID|31144|C|Monk|R|Human|M|34.27,30.52|US|
 C They Sent Assassins|N|Kill goblin assassins.|QID|29081|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|34.27,30.52|US|
 
-T Fear No Evil|QID|28806|C|Hunter|R|Human|M|34.59,39.02|N|To Brother Paxton.|
-T They Sent Assassins|QID|28791|C|Hunter|R|Human|M|35.74,39.81|N|To Sergeant Willem.|
-T Fear No Evil|QID|28808|C|Mage|R|Human|M|34.59,39.02|N|To Brother Paxton.|
-T They Sent Assassins|QID|28792|C|Mage|R|Human|M|35.74,39.81|N|To Sergeant Willem.|
-T Fear No Evil|QID|28813|C|Warrior|R|Human|M|34.59,39.02|N|To Brother Paxton.|
-T They Sent Assassins|QID|28797|C|Warrior|R|Human|M|35.74,39.81|N|To Sergeant Willem.|
-T Fear No Evil|QID|28810|C|Priest|R|Human|M|34.59,39.02|N|To Brother Paxton.|
-T They Sent Assassins|QID|28794|C|Priest|R|Human|M|35.74,39.81|N|To Sergeant Willem.|
-T Fear No Evil|QID|28811|C|Rogue|R|Human|M|34.59,39.02|N|To Brother Paxton.|
-T They Sent Assassins|QID|28795|C|Rogue|R|Human|M|35.74,39.81|N|To Sergeant Willem.|
-T Fear No Evil|QID|28809|C|Paladin|R|Human|M|34.59,39.02|N|To Brother Paxton.|
-T They Sent Assassins|QID|28793|C|Paladin|R|Human|M|35.74,39.81|N|To Sergeant Willem.|
-T Fear No Evil|QID|28812|C|Warlock|R|Human|M|34.59,39.02|N|To Brother Paxton.|
-T They Sent Assassins|QID|28796|C|Warlock|R|Human|M|35.74,39.81|N|To Sergeant Willem.|
-T They Sent Assassins|QID|31144|C|Monk|R|Human|M|35.74,39.81|N|To Sergeant Willem.|
-T Fear No Evil|QID|29082|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|34.59,39.02|N|To Brother Paxton.|
-T They Sent Assassins|QID|29081|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|35.74,39.81|N|To Sergeant Willem.|
+T Fear No Evil|QID|28806|C|Hunter|R|Human|M|35.31,37.84|N|To Brother Paxton.|
+T They Sent Assassins|QID|28791|C|Hunter|R|Human|M|35.73,39.79|N|To Sergeant Willem.|
+T Fear No Evil|QID|28808|C|Mage|R|Human|M|35.31,37.84|N|To Brother Paxton.|
+T They Sent Assassins|QID|28792|C|Mage|R|Human|M|35.73,39.79|N|To Sergeant Willem.|
+T Fear No Evil|QID|28813|C|Warrior|R|Human|M|35.31,37.84|N|To Brother Paxton.|
+T They Sent Assassins|QID|28797|C|Warrior|R|Human|M|35.73,39.79|N|To Sergeant Willem.|
+T Fear No Evil|QID|28810|C|Priest|R|Human|M|35.31,37.84|N|To Brother Paxton.|
+T They Sent Assassins|QID|28794|C|Priest|R|Human|M|35.73,39.79|N|To Sergeant Willem.|
+T Fear No Evil|QID|28811|C|Rogue|R|Human|M|35.31,37.84|N|To Brother Paxton.|
+T They Sent Assassins|QID|28795|C|Rogue|R|Human|M|35.73,39.79|N|To Sergeant Willem.|
+T Fear No Evil|QID|28809|C|Paladin|R|Human|M|35.31,37.84|N|To Brother Paxton.|
+T They Sent Assassins|QID|28793|C|Paladin|R|Human|M|35.73,39.79|N|To Sergeant Willem.|
+T Fear No Evil|QID|28812|C|Warlock|R|Human|M|35.31,37.84|N|To Brother Paxton.|
+T They Sent Assassins|QID|28796|C|Warlock|R|Human|M|35.73,39.79|N|To Sergeant Willem.|
+T They Sent Assassins|QID|31144|C|Monk|R|Human|M|35.73,39.79|N|To Sergeant Willem.|
+T Fear No Evil|QID|29082|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|35.31,37.84|N|To Brother Paxton.|
+T They Sent Assassins|QID|29081|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|35.73,39.79|N|To Sergeant Willem.|
 
-A The Rear is Clear|QID|28817|C|Hunter|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28791|
+A The Rear is Clear|QID|28817|C|Hunter|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|28791|
 T The Rear is Clear|QID|28817|C|Hunter|R|Human|M|33.55,53.00|N|To Marshal McBride.|
-A The Rear is Clear|QID|28818|C|Mage|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28792|
+A The Rear is Clear|QID|28818|C|Mage|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|28792|
 T The Rear is Clear|QID|28818|C|Mage|R|Human|M|33.55,53.00|N|To Marshal McBride.|
-A The Rear is Clear|QID|28823|C|Warrior|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28797|
+A The Rear is Clear|QID|28823|C|Warrior|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|28797|
 T The Rear is Clear|QID|28823|C|Warrior|R|Human|M|33.55,53.00|N|To Marshal McBride.|
-A The Rear is Clear|QID|28820|C|Priest|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28794|
+A The Rear is Clear|QID|28820|C|Priest|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|28794|
 T The Rear is Clear|QID|28820|C|Priest|R|Human|M|33.55,53.00|N|To Marshal McBride.|
-A The Rear is Clear|QID|28821|C|Rogue|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28795|
+A The Rear is Clear|QID|28821|C|Rogue|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|28795|
 T The Rear is Clear|QID|28821|C|Rogue|R|Human|M|33.55,53.00|N|To Marshal McBride.|
-A The Rear is Clear|QID|28819|C|Paladin|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28793|
+A The Rear is Clear|QID|28819|C|Paladin|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|28793|
 T The Rear is Clear|QID|28819|C|Paladin|R|Human|M|33.55,53.00|N|To Marshal McBride.|
-A The Rear is Clear|QID|28822|C|Warlock|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|28796|
+A The Rear is Clear|QID|28822|C|Warlock|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|28796|
 T The Rear is Clear|QID|28822|C|Warlock|R|Human|M|33.55,53.00|N|To Marshal McBride.|
-A The Rear is Clear|QID|31145|C|Monk|R|Human|M|35.74,39.81|N|From Sergeant Willem.|PRE|31144|
+A The Rear is Clear|QID|31145|C|Monk|R|Human|M|35.73,39.79|N|From Sergeant Willem.|PRE|31144|
 T The Rear is Clear|QID|31145|C|Monk|R|Human|M|33.55,53.00|N|To Marshal McBride.|
-A The Rear is Clear|QID|29083|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|35.74,39.81|N|From Sergeant Willem.|PRE|29081|
+A The Rear is Clear|QID|29083|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|35.73,39.79|N|From Sergeant Willem.|PRE|29081|
 T The Rear is Clear|QID|29083|R|Dwarf,Night Elf,Gnome,Draenei,Worgen|M|33.55,53.00|N|To Marshal McBride.|
 
-A Blackrock Invasion|QID|26389|M|33.55,53.00|N|From Marshal McBride.|PRE|28817+28818+28819+28820+28821+28822+28823+29083+31145|
-A Extinguishing Hope|QID|26391|M|33.37,54.64|N|From Milly Osworth.|PRE|28817+28818+28819+28820+28821+28822+28823+29083+31145|RANK|2|
+A Blackrock Invasion|QID|26389|M|33.55,53.00|N|From Marshal McBride.|PRE|28817^28818^28819^28820^28821^28822^28823^29083^31145|
+A Extinguishing Hope|QID|26391|M|33.37,54.64|N|From Milly Osworth.|PRE|28817^28818^28819^28820^28821^28822^28823^29083^31145|RANK|2|
 C Extinguishing Hope|N|Extinguish the fires.|S|U|58362|QID|26391|M|54.40,76.15|NC|
 C Blackrock Invasion|N|Kill and loot Orcs until you have 8 Blackrock Weapons.|QID|26389|M|52.00,68.73|
 C Extinguishing Hope|N|Extinguish the fires.|US|U|58362|QID|26391|M|54.40,76.15|NC|

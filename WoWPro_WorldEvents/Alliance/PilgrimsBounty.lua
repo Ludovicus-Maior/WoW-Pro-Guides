@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pilgrim039s_bounty_alliance
+-- Date: 2018-10-17 02:31
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3443/revisions/28822/view
 -- Date: 2017-11-24 19:04
 -- Who: Ludovicus
 -- Log: Update guide to use ACH and ACTIVE tags for better navigation.
@@ -91,7 +96,7 @@ A Sharing a Bountiful Feast|QID|14064|M|34.17,51.08|Z|Elwynn Forest|N|From the S
 C Sharing a Bountiful Feast|QID|14064|N|Eat 5 of the 5 foods either by moving from chair to chair or passing them along|QO|1|S|
 N Sharing is Caring|ACH|3558|N|Pass one of every dish at a Bountiful Table.|
 N FOOD FIGHT!|ACH|3579|N|Sit down at a table with at least one other person at it and target them and "share" the food a couple of times.|
-C Sharing a Bountiful Feast|QID|14064|N|Eat 5 of the 5 foods either by moving from chair to chair or passing them along|QO|1|US
+C Sharing a Bountiful Feast|QID|14064|N|Eat 5 of the 5 foods either by moving from chair to chair or passing them along|QO|1|US|
 T Sharing a Bountiful Feast|QID|14064|M|34.17,51.08|Z|Elwynn Forest|N|To the Stormwind Bountiful Table Hostess.|
 T Spice Bread Stuffing|QID|14023|M|33.88,50.80|Z|Elwynn Forest|N|To Jasper Moore, Elwynn Forest.|
 A Pumpkin Pie|QID|14024|PRE|14023|M|33.8,50.8|Z|Elwynn Forest|N|From Jasper Moore, Elwynn Forest.|

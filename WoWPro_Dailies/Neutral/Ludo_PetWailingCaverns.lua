@@ -3,6 +3,21 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/pet_battles_wailing_caverns
+-- Date: 2018-10-23 23:32
+-- Who: Ludovicus_Maior
+-- Log: And/Or Mark II
+
+-- URL: http://wow-pro.com/node/3756/revisions/30074/view
+-- Date: 2018-10-23 22:00
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3756/revisions/28997/view
+-- Date: 2018-02-19 23:00
+-- Who: Ludovicus_Maior
+-- Log: Initial Upload
+
 local guide = WoWPro:RegisterGuide("LudoPetWailingCaverns","Dailies","Wailing Caverns@WailingCaverns","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
@@ -13,7 +28,7 @@ WoWPro:GuideSteps(guide, function()
 
 return
 [[
-P Dalaran|QID|45540;45539|ACTIVE|-45540+-45539|U|140192|N|This guide assumes you are starting in Dalaran. |
+P Dalaran|QID|45540^45539|ACTIVE|-45540&-45539|U|140192|N|This guide assumes you are starting in Dalaran. |
 P Northern Barrens|QID|45540|AVAILABLE|45539|PRE|45423|M|58.61,39.39|Z|Dalaran@Dalaran70|CHAT|N|Ask Manapoof for transport to Muyani in the Northern Barrens|
 A A Call from the Caverns|QID|45540|M|59.52,39.58|Z|Dalaran@Dalaran70|N|From Lio the Lioness, in Legion Dalaran.|FACTION|Alliance|
 A A Call from the Caverns|QID|45540|M|58.57,37.59|Z|Dalaran@Dalaran70|N|From Serr'ah, in Legion Dalaran.|FACTION|Horde|

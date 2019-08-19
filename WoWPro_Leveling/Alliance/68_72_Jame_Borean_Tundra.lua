@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2019-01-31 19:43
+-- Who: Emmaleah
+-- Log: added quest Corastrasza and Aces High!
+
+-- URL: http://wow-pro.com/node/3289/revisions/29943/view
+-- Date: 2018-10-17 02:24
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3289/revisions/29372/view
 -- Date: 2018-06-26 13:37
 -- Who: Ludovicus_Maior
 -- Log: Fat fingered the loot of [Prison Casing]
@@ -622,9 +632,14 @@ A Cracking the Code |QID|11931|PRE|11919|N|From Raelorasz.|M|33.31,34.53|
 N Drake Hunt |QID|12117|N|Drake Hunt is now a repeatable daily quest. You may pick it up again and if you wish and do it again after the next step.|
 C Cracking the Code |QID|11931|N|Kill Inquisitor Caleras to the north and loot the Azure Codex. Kill Coldarra Spellbinders around him until you get 3 Shimmering Runes.|M|32.77,27.84|
 T Cracking the Code |QID|11931|N|To Raelorasz.|M|33.31,34.53|
+A Corastrasza|QID|13412|N|From Librarian Serra|M|33.48,34.38|
+T Corastrasza|QID|13412|N|To Corastrasza on the next-to-uppermost shattered ring floating around The Nexus|M|29.48,24.81|
+A Aces High!|QID|13413|N|From Corastrasza|M|32.95,34.40|PRE|13412|
+C Aces High!|QID|13413|N|This is good practice for Eye of Eternity and the Occulus. Fly further up to find the Scalesworn elites and then control the Drake to kill them.You will want to keep Flame Shield and Revivify up on you constantly.|M|32.95,34.40|
+T Aces High!|QID|13413|N|To Corastrasza|M|32.95,34.40|
 
 T King Mrgl-Mrgl |QID|11704|N|Go north to the road, then follow it east to Winterfin Retreat.|M|43.50,13.97|
-A Learning to Communicate |QID|11571|PRE|11702+11704|N|From King Mrgl-Mrgl.|M|43.50,13.97|
+A Learning to Communicate |QID|11571|PRE|11702^11704|N|From King Mrgl-Mrgl.|M|43.50,13.97|
 C Learning to Communicate |QID|11571|U|34598|N|Kill Scalder at the bottom of the sea. Target his corpse and use the conch. Scalder is immune to frost.|M|42.53,15.85|
 T Learning to Communicate |QID|11571|N|To King Mrgl-Mrgl.|M|43.50,13.97|
 A Winterfin Commerce |QID|11559|PRE|11571|N|From King Mrgl-Mrgl.|M|43.50,13.97|

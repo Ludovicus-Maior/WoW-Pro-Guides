@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2019-08-06 16:18
+-- Who: Fluclo
+-- Log: Added LEAD tag for Beatface vs. Boulder to stop it showing after you've completed it
+
+-- URL: http://wow-pro.com/node/3613/revisions/30246/view
+-- Date: 2019-06-05 20:02
+-- Who: Ludovicus_Maior
+-- Log: Use [At Your Command] for the QID doe the D step
+
+-- URL: http://wow-pro.com/node/3613/revisions/30087/view
+-- Date: 2018-10-23 22:31
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3613/revisions/29849/view
+-- Date: 2018-09-28 06:39
+-- Who: jovieve
+-- Log: Added a treasure and a rare. Changed l steps to $ steps. Removed rank from $ steps. Removed a couple of N steps.
+
+-- URL: http://wow-pro.com/node/3613/revisions/29376/view
 -- Date: 2018-06-29 19:50
 -- Who: Ludovicus_Maior
 -- Log: PRE and ACTIVE review
@@ -156,8 +176,6 @@ A The Secrets of Gorgrond |QID|35556|N|Visit the Hero's Callboard in your Garris
 F Wildwood Wash |QID|35556|N|Fly to Wildwood Wash in Gorgrond.|ACTIVE|35556|M|48.10,49.80|Z|Lunarfall|
 T The Secrets of Gorgrond |QID|35556|N|To Yrel|M|63.99,57.19|ACTIVE|35556|
 
-N Welcome to Gorgrond|QID|35033|ACTIVE|35033|S|N|If you want the garrison supply treasures included in this guide, please set your Rank to 3.|
-
 A Welcome to Gorgrond |QID|35033|N|From Yrel|M|63.99,57.19|
 C Welcome to Gorgrond |QID|35033|N|Ride up the path|QO|1|M|63.50,52.78|NC|
 C Welcome to Gorgrond |QID|35033|N|Head into the cave at Naielle's Watch|QO|2|NC|M|64.19,51.76|
@@ -192,16 +210,16 @@ C Lost Mole Machines |QID|35055|N|Wait for Thaelin's Arrival|M|54,60|QO|2|NC|
 T Rescue Rangari |QID|35050|N|To Rangari D'kaan, who has relocated to the Highpass.|M|53.48,60.43|
 T Lost Mole Machines |QID|35055|N|To Thaelin Darkanvil|M|53.42,60.33|
 
-A We Need An Outpost |QID|35063|PRE|35055;35050|N|From Thaelin Darkanvil|M|53.42,60.33|
+A We Need An Outpost |QID|35063|PRE|35055&35050|N|From Thaelin Darkanvil|M|53.42,60.33|
 C We Need An Outpost |QID|35063|N|Use the Drafting Table and select one of the buildings|NC|M|53.44,60.31|
 h Highpass |QID|35063|N|Set your hearthstone with Trader Yula|M|53.23,59.79|
 T We Need An Outpost |QID|35063|N|To Thaelin Darkanvil who has moved further into the Highpass.|M|53.00,59.78|
 
-A Next Quest |QID|35708;34704|PRE|35063|N|If you built a Lumber Yard, get Tangleheart from Glirin.\nIf you built a Sparring Ring, get A Rediscovered Legend from Rangari Jonaa|M|53.06,59.51;53.02,59.81|CN|
+A Next Quest |QID|35708^34704|PRE|35063|N|If you built a Lumber Yard, get Tangleheart from Glirin.\nIf you built a Sparring Ring, get A Rediscovered Legend from Rangari Jonaa|M|53.06,59.51;53.02,59.81|CN|
 
 ;The following quests are if you selected Lumber Yard
 f Highpass |ACTIVE|35708|N|With Rangari Rajess|M|52.83,59.33|
-A Deeproot |QID|35212|PRE|35063;35049|N|From Thaelin Darkanvil|M|53.00,59.78|ACTIVE|35708|
+A Deeproot |QID|35212|PRE|35063&35049|N|From Thaelin Darkanvil|M|53.00,59.78|ACTIVE|35708|
 T Tangleheart |QID|35708|N|To Glirin, who has moved to Tangleheart|M|55.93,71.54|
 A Growing Wood |QID|35652|N|From Glirin|M|55.93,71.54|PRE|35708|
 A Lost Lumberjack |QID|36368|N|From Glirin|M|55.93,71.54|PRE|35708|
@@ -223,8 +241,8 @@ T Chapter I: Plant Food |QID|35654|N|To Glirin|M|60.71,64.78|
 T Chapter II: The Harvest |QID|35651|N|To Glirin|M|60.71,64.78|
 T Chapter III: Ritual of the Charred |QID|35650|N|To Glirin|M|60.71,64.78|
 
-R Highpass |AVAILABLE|36828|N|Click on the Dark Iron Mole Machine to return to Highpass Logging Camp.|M|60.70,64.82|PRE|35654;35650;36797;35651;35652|
-A Lumber, I Hardly Knew 'Er |QID|36828|N|From Glirin, back in Highpass.|PRE|35654;35650;36797;35651;35652|M|53.02,59.81|
+R Highpass |AVAILABLE|36828|N|Click on the Dark Iron Mole Machine to return to Highpass Logging Camp.|M|60.70,64.82|PRE|35654&35650&36797&35651&35652|
+A Lumber, I Hardly Knew 'Er |QID|36828|N|From Glirin, back in Highpass.|PRE|35654&35650&36797&35651&35652|M|53.02,59.81|
 
 T Deeproot |QID|35212|N|To Thaelin Darkanvi, who is now in Deeproot.|M|46.08,76.86|
 A The Razorbloom|QID|35213|N|From Thaelin Darkanvi, who is now in Deeproot.|M|46.08,76.86|PRE|35212|
@@ -245,13 +263,13 @@ T The Razorbloom|QID|35213|N|To Thaelin Darkanvi.|M|46.08,76.86|
 T The Voice of Iyu |QID|35215|N|To Thaelin Darkanvi.|M|46.08,76.86|
 T Super Seeds |QID|35216|N|To Thaelin Darkanvi.|M|46.08,76.86|
 
-A Dark Iron Down |QID|35208|N|From Thaelin Darkanvi.|M|46.08,76.86|PRE|35215;35216|
-A Bushwhacker |QID|35206|N|From Yrel|M|46.04,76.67|PRE|35215;35216|
-A Pollen Power |QID|35204|N|From Rangari Kaalya|M|46.12,76.66|PRE|35215;35216|
+A Dark Iron Down |QID|35208|N|From Thaelin Darkanvi.|M|46.08,76.86|PRE|35215&35216|
+A Bushwhacker |QID|35206|N|From Yrel|M|46.04,76.67|PRE|35215&35216|
+A Pollen Power |QID|35204|N|From Rangari Kaalya|M|46.12,76.66|PRE|35215&35216|
 
 C Bushwhacker |QID|35206|N|Slay Bloom Weavers|S|
 C Pollen Power |QID|35204|N|Kill and loot the Golden Pollinators and Thicket Ravagers|S|
-l Unknown Petrified Egg|M|45.32,81.93|N|Click on the Hardened Thornvine to reveal the Unknown Petrified Egg.\n\n(Step does not auto-complete).|ACTIVE|35208|
+$ Unknown Petrified Egg|M|45.32,81.93|N|Click on the Hardened Thornvine to reveal the Unknown Petrified Egg.\n\n(Step does not auto-complete).|ACTIVE|35208|
 T Dark Iron Down |QID|35208|N|To Burrian Coalpart|M|42.11,83.45|
 A Burn the Bodies |QID|35205|N|From Burrian Coalpart|M|42.11,83.45|PRE|35208|
 A A Green Ogron? |QID|36523|N|From Burrian Coalpart|M|42.11,83.45|PRE|35208|
@@ -259,11 +277,11 @@ A A Green Ogron? |QID|36523|N|From Burrian Coalpart|M|42.11,83.45|PRE|35208|
 C Burn the Bodies |QID|35205|N|Click on the Mulching Body to burn them.|NC|S|
 C A Green Ogron? |QID|36523|N|Kill Infested Ogron|T|Infested Ogron|M|42.93,80.63|
 T A Green Ogron? |QID|36523|N|To Burrian Coalpart, he's running around with you.|
-l Hardened Millvine Seed|M|41.99,81.55|N|Click on the Hardened Millvine Seed for garrison resources.\n(Step does not auto-complete).|ACTIVE|35205|
+$ Hardened Millvine Seed|M|41.99,81.55|N|Click on the Hardened Millvine Seed for garrison resources.\n(Step does not auto-complete).|ACTIVE|35205|
 C Burn the Bodies |QID|35205|N|Finish clicking on the Mulching Body to burn them.|NC|US|M|43.00,80.50|
 T Burn the Bodies |QID|35205|N|To Burrian Coalpart, he's running around with you.|
 
-A Coalpart's Revenge|QID|35207|N|From Burrian Coalpart, he's running around with you.|PRE|36523;35205|
+A Coalpart's Revenge|QID|35207|N|From Burrian Coalpart, he's running around with you.|PRE|36523&35205|
 C Coalpart's Revenge|QID|35207|N|Kill the Dew Masters|M|39.94,82.32|
 T Coalpart's Revenge|QID|35207|N|To Burrian Coalpart, he's running around with you.|
 
@@ -277,8 +295,8 @@ T The Life Spring|QID|35209|N|To Yrel|M|46.04,76.67|
 T Bushwhacker |QID|35206|N|To Yrel|M|46.04,76.67|
 T Pollen Power |QID|35204|N|To Rangari Kaalya|M|46.12,76.66|
 
-N A Heavy Helping Hand |QID|35225|N|If this quest does not show up in the guide, just /reload and it should magically appear.|ACTIVE|-35225|PRE|35209;35206;35204|
-A A Heavy Helping Hand |QID|35225|N|From Thaelin Darkanvi.|M|46.08,76.86|PRE|35209;35206;35204|
+N A Heavy Helping Hand |QID|35225|N|If this quest does not show up in the guide, just /reload and it should magically appear.|ACTIVE|-35225|PRE|35209&35206&35204|
+A A Heavy Helping Hand |QID|35225|N|From Thaelin Darkanvi.|M|46.08,76.86|PRE|35209&35206&35204|
 C A Heavy Helping Hand |QID|35225|N|Follow the road then the dirt track south to Bastion Rise|M|47.58,94.10|NC|
 T A Heavy Helping Hand |QID|35225|N|To Hansel Heavyhands|M|47.58,94.10|
 
@@ -294,18 +312,18 @@ T Will of the Genesaur|QID|35234|N|To Hansel Heavyhands, who has now moved to th
 T Down the Goren Hole |QID|35229|N|To Hansel Heavyhands|M|47.58,94.10|
 T Just In Case |QID|35233|N|To Hansel Heavyhands|M|47.58,94.10|
 
-A Iyu |QID|35235|N|From Hansel Heavyhands|M|47.58,94.10|PRE|35234;35229;35233|
+A Iyu |QID|35235|N|From Hansel Heavyhands|M|47.58,94.10|PRE|35234&35229&35233|
 C Iyu |QID|35235|N|Kill Iyu, who is at surface level.|T|Iyu|M|47.50,92.62|
 T Iyu |QID|35235|N|To Yrel, who is now in Bastion Rise.|M|47.71,93.30|
 
 A Power of the Genesaur |QID|35255|N|From Yrel|PRE|35235|M|47.71,93.30|
-A Service of Rangari Kaalya|QID|35262|N|From Rangari Kaalya|PRE|35235;36797|M|47.78,93.27|
+A Service of Rangari Kaalya|QID|35262|N|From Rangari Kaalya|PRE|35235&36797|M|47.78,93.27|
 f Bastion Rise|ACTIVE|35255|N|At Ranger Yaval down under the ledge.|M|46.40,92.41|
 H Highpass |ACTIVE|35255|N|Hearthstone to Highpass, or fly there if you didn't set your hearthstone.|
 T Power of the Genesaur |QID|35255|N|To Vindicator Maraad|M|52.85,59.68|
 
 ;The following quests are if you selected Gladiator Sanctum
-A Rage and Wisdom |QID|35686|PRE|35063;35064|N|From Vindicator Maraad|M|52.85,59.68|ACTIVE|34704|
+A Rage and Wisdom |QID|35686|PRE|35063&35064|N|From Vindicator Maraad|M|52.85,59.68|ACTIVE|34704|
 f Highpass |ACTIVE|35686|N|With Rangari Rajess|M|52.81,59.35|
 C Rage and Wisdom |QID|35686|N|Ask Rangari Rajess to fly you to Rangari Erdanii|NC|M|52.82,59.32|
 T Rage and Wisdom |QID|35686|N|To Rangari Erdanii|M|46.26,66.70|
@@ -318,11 +336,11 @@ C A Harsh Reminder |QID|35693|N|Kill Denizens of the Wasteland|US|M|45.50,64.50|
 T Seedbearers of Bad News|QID|35664|N|To Rangari Erdanii, who has moved to a rock in Affliction Ridge.|M|44.90,63.95|
 T A Harsh Reminder |QID|35693|N|To Rangari Erdanii|M|44.90,63.95|
 
-A We Have Company |QID|35665|N|From Rangari Erdanii|M|44.90,63.95|PRE|35693;35664|
+A We Have Company |QID|35665|N|From Rangari Erdanii|M|44.90,63.95|PRE|35693&35664|
 C We Have Company |QID|35665|N|Speak to the Dying Beast in the Sulfur Basin.|CHAT|M|44.26,61.62|
 T We Have Company |QID|35665|N|Wait for the beast to release you, then to Rexxar|M|44.31,61.63|
 
-A Cauterizing Wounds |QID|35730|N|From Rexxar|M|44.31,61.63|PRE|35025+35665|
+A Cauterizing Wounds |QID|35730|N|From Rexxar|M|44.31,61.63|PRE|35025^35665|
 C Cauterizing Wounds |QID|35730|N|Use the Iron Horde Bonfire.|NC|M|44.38,61.36|QO|1|
 C Cauterizing Wounds |QID|35730|N|Click Nisha to cauterize the wound.|NC|M|44.26,61.59|QO|2|
 T Cauterizing Wounds |QID|35730|N|To Rexxar|M|44.31,61.63|
@@ -331,12 +349,12 @@ A On the Mend |QID|35026|N|From Rexxar|M|44.31,61.63|PRE|35730|
 A Basilisk Butcher |QID|35870|N|From Rexxar|M|44.31,61.63|PRE|35730|
 
 T A Rediscovered Legend |QID|34704|N|From Gladiator Akaani|M|42.78,62.98|
-A Getting Gladiators |QID|34699|N|To Gladiator Akaani|M|42.78,62.98|PRE|34704+34697|
-A Slave Hunters |QID|34698|N|From Kash'drakor|M|42.75,63.05|PRE|34704+34697|
-A Nazgrel |QID|34700|N|From Kash'drakor|M|42.75,63.05|PRE|34704+34697|
-A Krav'ogra |QID|34702|N|From Beatface|M|42.69,63.08|PRE|34704+34697|
+A Getting Gladiators |QID|34699|N|To Gladiator Akaani|M|42.78,62.98|PRE|34704^34697|
+A Slave Hunters |QID|34698|N|From Kash'drakor|M|42.75,63.05|PRE|34704^34697|
+A Nazgrel |QID|34700|N|From Kash'drakor|M|42.75,63.05|PRE|34704^34697|
+A Krav'ogra |QID|34702|N|From Beatface|M|42.69,63.08|PRE|34704^34697|
 
-A Need More Teeth|QID|34012|N|From Prowler Sasha|M|41.43,66.09|PRE|35149+35064|
+A Need More Teeth|QID|34012|N|From Prowler Sasha|M|41.43,66.09|PRE|35149^35064|
 C Need More Teeth|QID|34012|N|Kill and loot the Stonemaul Guards|S|
 C Slave Hunters |QID|34698|N|Head up the tower, kill Slave Hunter Krag, and loot the Pendant of Krag|QO|2|T|Slave Hunter Krag|M|41.00,66.19|
 C Getting Gladiators |QID|34699|N|Head into the hut, and Free Bruto by clicking the shackle on his arm.|QO|3|NC|M|40.30,64.83|
@@ -344,8 +362,10 @@ C Slave Hunters |QID|34698|N|Head down, kill Slave Hunter Brol, and loot the Pen
 C Krav'ogra |QID|34702|N|Head into the arena, ring the Challenge Gong, slay Kigli'ak.\nRing gong again, slay Stribit\nRing gong again, slay Jabberback\nRing gone one more time, and Slay Slavemaster Ok'mok|M|40.39,67.55|
 C Getting Gladiators |QID|34699|N|Free Y'kish by clicking the shackle on the door.|QO|2|M|39.76,67.81|NC|
 C Getting Gladiators |QID|34699|N|head to the back of the hut, and Free Pitfighter Vaandaam by clicking the shackle on the wall.|QO|1|M|39.16,67.22|NC|
+K Stomper Kreego|QID|35910|M|39.08,65.62;38.19,66.28|CS|N|Head up the hill to a little camp to kill this silver elite.|RARE|ITEM|118224|
 C Slave Hunters |QID|34698|N|Head to the middle level, slay Slave Hunter Mol, and loot the Pendant of Mol|QO|3|T|Slave Hunter Mol|M|38.98,68.77|
-R Kor'gall's Hovel |ACTIVE|34700|N|Head into Kor'gall's Hovel|
+$ Sasha's Secret Stash|QID|36631|M|39.05,68.04|N|Go upstairs to the top of the building, then back carefully off onto a beam to pick this up. Gold and a green item.|
+R Kor'gall's Hovel |ACTIVE|34699|N|Head into Kor'gall's Hovel|
 C Nazgrel |QID|34700|N|Follow the path down, then take the second tunnel to the left, then rescue Nazgrel from the cage.|NC|M|36.84,70.57|
 
 T Getting Gladiators |QID|34699|N|To Bruto|M|36.85,67.91|
@@ -360,7 +380,9 @@ T Slave Hunters |QID|34698|N|To Kash'drakor|M|42.75,63.05|
 T Nazgrel |QID|34700|N|To Kash'drakor|M|42.75,63.05|
 
 T The Axe of Kor'gall|QID|34703|N|To Gladiator Akaani|M|42.78,62.98|
-A The Sparring Arena |QID|35137|N|From Gladiator Akaani|M|42.78,62.98|PRE|34698;34700;34702;34703|
+A The Sparring Arena |QID|35137|N|From Gladiator Akaani|M|42.78,62.98|PRE|34698&34700&34702&34703|
+A The Fists of Vaandaam|QID|35883|M|42.75,63.01|N|Acquire Pitfighter Vandaam as a follower.|PRE|34698&34700&34702&34703|
+T The Fists of Vaandaam|QID|35883|M|42.75,63.01|
 
 C Basilisk Butcher |QID|35870|N|Kill and loot the Stoneshamble Basilisk or loot the Basilisk Meat from the Decaying Basilisks.|S|M|44.50,59.25|
 C On the Mend |QID|35026|N|Kill and loot the Rippling Steamfury|M|45.25,59.25|S|
@@ -375,12 +397,12 @@ T Is This One of Yours?|QID|36508|N|To Ranger Erdanii|M|46.20,55.09|
 
 A The Crystal Shard |QID|36208|N|From Ranger Erdanii|M|46.20,55.09|PRE|36508|
 A Hard Shell |QID|36210|N|From Ranger Erdanii|M|46.20,55.09|PRE|36508|
-A Bad at Breaking |QID|35037|N|From Rexxar|M|46.06,54.73|PRE|36508+35036|
-A Nisha's Vengeance |QID|35934|N|From Rexxar|M|46.06,54.73|PRE|36508+35036|
+A Bad at Breaking |QID|35037|N|From Rexxar|M|46.06,54.73|PRE|36508^35036|
+A Nisha's Vengeance |QID|35934|N|From Rexxar|M|46.06,54.73|PRE|36508^35036|
 
 C Nisha's Vengeance |QID|35934|N|Kill Grom'kar Grunts|S|
 C Bad at Breaking |QID|35037|QO|1|N|Kill Mangled Boulderbreaker|M|47.96,54.28|T|Mangled Boulderbreaker|
-A The Gronn Strategy|QID|35925|N|From Weaponside Orders, on the cart at Crushfang's End|M|47.76,52.09|PRE|35026;35870|
+A The Gronn Strategy|QID|35925|N|From Weaponside Orders, on the cart at Crushfang's End|M|47.76,52.09|PRE|35026&35870|
 C Bad at Breaking |QID|35037|QO|2|N|Kill Gronnslaver Raz|M|47.76,51.68|T|Gronnslaver Raz|
 C Nisha's Vengeance |QID|35934|N|Finish killing the Grom'kar Grunts|US|
 
@@ -395,7 +417,7 @@ T The Gronn Strategy|QID|35925|N|To Rexxar|M|46.06,54.73|
 T The Crystal Shard |QID|36208|N|To Ranger Erdanii|M|46.20,55.09|
 T Hard Shell |QID|36210|N|To Ranger Erdanii|M|46.20,55.09|
 
-A What's Under There? |QID|36209|N|From Ranger Erdanii|M|46.20,55.09|PRE|36208;36210;35925|
+A What's Under There? |QID|36209|N|From Ranger Erdanii|M|46.20,55.09|PRE|36208&36210&35925|
 C What's Under There? |QID|36209|QO|1|N|Use the Goren Disguise, then click on the Tunnel|U|112958|NC|M|46.93,55.38|
 C What's Under There? |QID|36209|QO|2|N|Click the Bluff Rylak to Consume the Rylak|M|45.79,50.38|NC|
 C What's Under There? |QID|36209|QO|3|N|Click on the second tunnel|M|45.79,50.38|NC|
@@ -405,14 +427,14 @@ C What's Under There? |QID|36209|QO|6|N|Take the last tunnel back to Breaker's C
 T What's Under There? |QID|36209|N|Wait whilst you travel the tunnels, then To Ranger Erdanii|M|46.20,55.09|
 
 A Leave Every Soldier Behind |QID|36223|N|From Ranger Erdanii|M|46.20,55.09|PRE|36209|
-A Fair Warning|QID|35128|N|From Rexxar|M|46.06,54.73|PRE|36209+35041|
+A Fair Warning|QID|35128|N|From Rexxar|M|46.06,54.73|PRE|36209^35041|
 
-F Gronn Canyon|QID|36223|N|Speak to Nisha and ask her to take you to the Fissure of Fury.|CHAT|ACTIVE|36223;35128|
+F Gronn Canyon|QID|36223|N|Speak to Nisha and ask her to take you to the Fissure of Fury.|CHAT|ACTIVE|36223^35128|
 C Fair Warning|QID|35128|N|Kill Ogron Spinecrusher|QO|1|S|
 C Leave Every Soldier Behind |QID|36223|N|Head into the cave, follow the ramp down, speak to Corporal Thukmar and put him out of his misery|QO|1|CHAT|M|45.06,85.73|
 C Leave Every Soldier Behind |QID|36223|N|Pick up Thukmar's Intel.|QO|2|NC|M|45.06,85.73|
 C Fair Warning|QID|35128|N|Kill Borogahn|QO|2|T|Borogahn|M|31.08,74.93|
-l Horned Skull |QID|35056|N|Horned Skull: Lootable object for Garrison Resources|M|47.05,67.03|RANK|3|ACTIVE|35128|
+$ Horned Skull |QID|35056|N|Horned Skull: Lootable object for Garrison Resources|M|47.05,67.03|ACTIVE|35128|
 C Fair Warning|QID|35128|N|Finish killing the Ogron Spinecrusher|QO|1|US|M|47.05,67.03|
 A A Great Escape |QID|35210|N|From Goren Tunnel (near Borogahn's location)|M|41.97,46.81|ACTIVE|35128|
 C A Great Escape |QID|35210|N|Use the Goren Tunnel|M|41.97,46.81|NC|
@@ -436,19 +458,19 @@ T The Sparring Arena |QID|35137|N|To Rangari Jonaa|M|53.06,59.51|
 T The Fists of Vaandaam |QID|35883|N|From Pitfighter Vaandaam|M|53.00,59.63|
 
 ;Whether you built a Lumber Yard or a Gladiator Sanctum, both paths now converge back with the quests.
-A Strike While the Iron is Hot |QID|36575|PRE|35255;35652;35654;35651;35650|N|From Vindicator Maraad|M|52.85,59.68|
-A Strike While the Iron is Hot |QID|36576|PRE|35702;35137|N|From Vindicator Maraad|M|52.85,59.68|
+A Strike While the Iron is Hot |QID|36575|PRE|35255&35652&35654&35651&35650|N|From Vindicator Maraad|M|52.85,59.68|
+A Strike While the Iron is Hot |QID|36576|PRE|35702&35137|N|From Vindicator Maraad|M|52.85,59.68|
 
 C Strike While the Iron is Hot |QID|36575|N|Speak to Rangari Rajess to fly to the Iron Approach.|CHAT|QO|1|M|52.83,59.33|
 C Strike While the Iron is Hot |QID|36576|N|Speak to Rangari Rajess to fly to the Iron Docks.|CHAT|QO|1|M|52.83,59.33|
 
-C Strike While the Iron is Hot |QID|36575;36576|N|Follow through the instance steps.\n\n1. Speak to Yrel\n2. Use the Artifact\n3. Survive the onslaught (Use the artifact when it is off cooldown)\n4. Kill Goc\n5. Kill Commander Gar.|QO|2|
-f Iron Docks|N|With Nisha|M|43.03,20.22|ACTIVE|36575;36576|
-F Highpass |N|Fly to Highpass.|M|43.03,20.22|ACTIVE|36575;36576|
-T Strike While the Iron is Hot |QID|36575;36576|N|To Vindicator Maraad|M|52.85,59.68|
+C Strike While the Iron is Hot |QID|36575^36576|N|Follow through the instance steps.\n\n1. Speak to Yrel\n2. Use the Artifact\n3. Survive the onslaught (Use the artifact when it is off cooldown)\n4. Kill Goc\n5. Kill Commander Gar.|QO|2|
+f Iron Docks|N|With Nisha|M|43.03,20.22|ACTIVE|36575^36576|
+F Highpass |N|Fly to Highpass.|M|43.03,20.22|ACTIVE|36575^36576|
+T Strike While the Iron is Hot |QID|36575^36576|N|To Vindicator Maraad|M|52.85,59.68|
 
 A Rangari in the Red |QID|35666|LEAD|35633|PRE|35063|N|From Rangari D'kaan|M|53.32,59.89|
-l Dark Iron Remains |QID|36605|RANK|3|N|Loot the Remains of Balldir Deeprock|M|57.79,55.95|L|118703|ACTIVE|35666|
+$ Dark Iron Remains |QID|36605|N|Loot the Remains of Balldir Deeprock|M|57.79,55.95|L|118703|ACTIVE|35666|
 T Rangari in the Red |QID|35666|N|To Khaano in the Crimson Fen|M|59.33,56.37|
 
 A Scout Forensics |QID|35633|N|From Khaano|M|59.33,56.37|
@@ -465,10 +487,8 @@ T Scout Forensics |QID|35633|N|To Khaano, who has moved deeper into the Crimson 
 T Vengeance for the Fallen|QID|35640|N|To Khaano|M|58.26,59.91|
 T Mysterious Pod |QID|35642|N|To Khaano|M|58.26,59.91|
 
-N Mercy for the Living |QID|35644|N|Click off this step, which allows the next one to show properly.  Maybe needed when servers are overloaded.|
-
-A Mercy for the Living |QID|35644|N|From Khaano|M|58.27,59.89|PRE|35633;35640;35642|
-A The Secret of the Fungus|QID|35645|N|From Khaano|M|58.27,59.89|PRE|35633;35640;35642|
+A Mercy for the Living |QID|35644|N|From Khaano|M|58.27,59.89|PRE|35633&35640&35642|
+A The Secret of the Fungus|QID|35645|N|From Khaano|M|58.27,59.89|PRE|35633&35640&35642|
 
 C Mercy for the Living |QID|35644|N|Kill the Fungus Covered Shamblers|S|M|58.00,59.50|
 C The Secret of the Fungus|QID|35645|N|Collect the Glowing Mushroom.|NC|M|58.00,59.50|
@@ -477,14 +497,14 @@ C Mercy for the Living |QID|35644|N|Finish killing the Fungus Covered Shamblers|
 T The Secret of the Fungus|QID|35645|N|To Khaano|M|58.27,59.89|
 T Mercy for the Living |QID|35644|N|To Khaano|M|58.27,59.89|
 
-A A Grim Harvest |QID|35647|N|From Khaano|M|58.27,59.89|PRE|35645;35644|
-A A Heartfelt Search |QID|35656|N|From Khaano|M|58.27,59.89|PRE|35645;35644|
+A A Grim Harvest |QID|35647|N|From Khaano|M|58.27,59.89|PRE|35645&35644|
+A A Heartfelt Search |QID|35656|N|From Khaano|M|58.27,59.89|PRE|35645&35644|
 C A Grim Harvest |QID|35647|N|Kill and loot the Fungal Stompers as you make your way to the Drained Fungal Heart|M|58.92,62.52|
 C A Heartfelt Search |QID|35656|N|Inspect the Drained Fungal Heart|NC|M|58.92,62.52|
 T A Heartfelt Search |QID|35656|N|To Khaano, who will run next to the Drained Fungal Heart|M|58.27,59.89|
 T A Grim Harvest |QID|35647|N|To Khaano|M|58.27,59.89|
 
-A Heart of the Fen |QID|35659|N|From Khaano|M|58.27,59.89|PRE|35647;35656|
+A Heart of the Fen |QID|35659|N|From Khaano|M|58.27,59.89|PRE|35647&35656|
 C Heart of the Fen |QID|35659|N|Head to the Heart of the Fen, then kill Khaano|M|61.14,61.81|T|Khaano|
 H Highpass |QID|35659|N|Hearthstone to Highpass, or run there if you didn't set your hearthstone/if your hearthstone is still on cooldown.|
 T Heart of the Fen |QID|35659|N|To Rangari D'kaan|M|53.32,59.89|
@@ -492,31 +512,31 @@ T Heart of the Fen |QID|35659|N|To Rangari D'kaan|M|53.32,59.89|
 A Seeking the Scout |QID|36432|LEAD|36437|PRE|35063|N|From Rangari D'kaan|M|53.32,59.89|
 A News from Talador |QID|36495|LEAD|37183|PRE|36576|N|From Vindicator Maraad, to get to Talador later.|M|52.85,59.68|
 
-R Cragplume Cauldron|ACTIVE|36432|N|Head up the Cragplume Cauldron|M|50.70,57.02|
+R Cragplume Cauldron|ACTIVE|36432|N|Head up the Cragplume Cauldron|M|50.70,57.02|FLY|WOD|
 f Breaker's Crown |ACTIVE|36432|N|With Nisha|M|45.84,54.95|
-l Unknown Petrified Egg|M|47.23,51.80|N|Click on the Hardened Thornvine to reveal the Unknown Petrified Egg.\n\n(Step does not auto-complete).|ACTIVE|36432|PRE|35212|RANK|3|
+$ Unknown Petrified Egg|M|47.23,51.80|N|Click on the Hardened Thornvine to reveal the Unknown Petrified Egg.\n\n(Step does not auto-complete).|ACTIVE|36432|PRE|35212|
 T Seeking the Scout |QID|36432|N|To Altauur|M|49.39,49.64|
 
 A Plant Pruning |QID|36436|N|From Altauur|M|49.39,49.64|
 A Ambassador to the Ancient |QID|36437|N|From Altauur|M|49.39,49.64|
-l Aged Stone Container|M|49.06,48.42|N|Click on the Hardened Thornvine to reveal the Aged Stone Container.\n\n(Step does not auto-complete).|ACTIVE|36436;36437|PRE|35212|RANK|3|
+$ Aged Stone Container|M|49.06,48.42|N|Click on the Hardened Thornvine to reveal the Aged Stone Container.\n\n(Step does not auto-complete).|ACTIVE|36436^36437|PRE|35212|
 C Plant Pruning |QID|36436|N|Kill the Seedpriests and Primal Growths|S|
 C Ambassador to the Ancient |QID|36437|N|Talk to Birchus at Dionor's Demise in Gorgrond.|CHAT|M|50.28,47.54|
 C Plant Pruning |QID|36436|N|Kill the Seedpriests and Primal Growths|US|
 T Ambassador to the Ancient |QID|36437|N|To Altauur, who has moved to a cave in Dionor's Demise|M|51.32,47.96|
 T Plant Pruning |QID|36436|N|To Altauur|M|51.31,47.97|
 
-A Shredder vs. Saberon |QID|36439|N|From Altauur|M|51.31,47.97|PRE|36436;35049;36437|
+A Shredder vs. Saberon |QID|36439|N|From Altauur|M|51.31,47.97|PRE|36436&35049&36437|
 R Steamscar Rise|ACTIVE|36439|N|Head to Steamscar Rise|M|52.29,46.52|
 C Shredder vs. Saberon |QID|36439|N|Head up the path, break the Strong Vine Barricade, then walk in.|NC|M|52.22,48.66|
-T Shredder vs. Saberon |QID|36439|N|To Altauur, who is moving into Steamscar Rise after you broke in.|M|52.04,49.50|PRE|36436;35708|
+T Shredder vs. Saberon |QID|36439|N|To Altauur, who is moving into Steamscar Rise after you broke in.|M|52.04,49.50|PRE|36436&35708|
 
-A Beatface vs. Boulder |QID|36438|N|From Altauur|M|51.31,47.97|PRE|36436;35064;36437|
+A Beatface vs. Boulder |QID|36438|N|From Altauur|M|51.31,47.97|PRE|36436&35064&36437|LEAD|36438^36439|
 C Beatface vs. Boulder |QID|36438|N|Leave the cave and go left; there is a trail with a red banner over it heading up the mountain that brings you into a spot full of dead podlings\nFollow it round to the left and click on the boulders|NC|M|50.61,51.44|ACTIVE|36438|
-T Beatface vs. Boulder |QID|36438|N|To Altauur, who will spawn to your right as soon as you walk into the encampment.|M|52.04,49.50|PRE|36436;34704|
+T Beatface vs. Boulder |QID|36438|N|To Altauur, who will spawn to your right as soon as you walk into the encampment.|M|52.04,49.50|PRE|36436&34704|
 
-A Saberon Population Reduction |QID|36440|N|From Altauur|M|52.04,49.50|PRE|36438+36439|
-A Reclaiming Property|QID|36441|PRE|36438+36439|N|From Saberon Stash|M|51.85,50.02|
+A Saberon Population Reduction |QID|36440|N|From Altauur|M|52.04,49.50|PRE|36438^36439|
+A Reclaiming Property|QID|36441|PRE|36438^36439|N|From Saberon Stash|M|51.85,50.02|
 C Saberon Population Reduction |QID|36440|N|Slay Steamscar Saberon.|S|M|51.30,51.30|
 C Reclaiming Property|QID|36441|N|Collect Herb Bundles|NC|M|51.30,51.30|
 C Saberon Population Reduction |QID|36440|N|Slay Steamscar Saberon.|US|M|51.30,51.30|
@@ -582,7 +602,7 @@ C Forging the Soul Trap |QID|33114|N|Click on the Gul'var Soul Shards to combine
 T Forging the Soul Trap |QID|33114|N|To Image of Archmage Khadgar|M|19.07,28.55|Z|Shadowmoon Valley@Draenor|
 
 A To Catch a Shadow |QID|33116|N|From Image of Archmage Khadgar|M|19.07,28.55|PRE|33114|Z|Shadowmoon Valley@Draenor|
-l Demonic Cache|QID|33575|N|Demonic Cache: Treasure Loot, found inside the building. Offers an i550 Necklace worth 11 gold and some XP.|RANK|3|M|20.37,30.64|Z|Shadowmoon Valley@Draenor|
+$ Demonic Cache|QID|33575|N|Demonic Cache: Treasure Loot, found inside the building. Offers an i550 Necklace worth 11 gold and some XP.|M|20.37,30.64|Z|Shadowmoon Valley@Draenor|
 C To Catch a Shadow |QID|33116|N|Use Gul'dan's Soul Trap on Gul'dan|QO|1|M|18.00,30.50|NC|Z|Shadowmoon Valley@Draenor|
 C To Catch a Shadow |QID|33116|N|Kill Ruzuun|QO|2|Z|Shadowmoon Valley@Draenor|
 
@@ -593,12 +613,13 @@ T To Catch a Shadow |QID|33116|N|To Archmage Khadgar, and a cutscene.|M|29.21,25
 T Bounty: Twisted Ancient|QID|33111|M|28.94,15.91|Z|Lunarfall|N|To Baros Alexston.|
 
 ; Make use of the Outpost Building Assembly Notes
-A Resources in Ashran|QID|37288|PRE|36575+36576|N|From Baros Alexston|M|28.94,15.91|Z|Lunarfall|
+A Resources in Ashran|QID|37288|PRE|36575^36576|N|From Baros Alexston|M|28.94,15.91|Z|Lunarfall|
 F Stormshield |QID|37288|N|Fly to Stromshield using Dungar Longrink.|M|48.01,49.83|Z|Lunarfall|
 N Resources in Ashran|QID|37288|N|Kinkade Jakobs will sell you an upgrade to ANY building.  Be careful to pick one you have!|M|29.65,52.89|Z|Stormshield|
 T Resources in Ashran|QID|37288|N|To Kinkade Jakobs|M|29.65,52.89|Z|Stormshield|
 
-D Zone Finished|QID|0|N|Zone finished (for now). Feel free to go shopping at your favorite auction house. Otherwise move onto the Talador guide.|
+; use [At Your Command] for the QID
+D Zone Finished|QID|34558|N|Zone finished (for now). Feel free to go shopping at your favorite auction house. Otherwise move onto the Talador guide.|
 
 ]]
 

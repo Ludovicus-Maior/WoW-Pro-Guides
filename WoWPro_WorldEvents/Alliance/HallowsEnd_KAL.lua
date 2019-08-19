@@ -4,6 +4,27 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2018-10-23 23:53
+-- Who: Ludovicus_Maior
+-- Log: Add [Refuge Point] and [Stonetalon Peak].
+--	Fix QID on [Northwatch Expedition Base Camp] bucket.
+
+-- URL: http://wow-pro.com/node/3440/revisions/30076/view
+-- Date: 2018-10-23 22:09
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3440/revisions/29883/view
+-- Date: 2018-10-17 01:37
+-- Who: Ludovicus_EditBot
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3440/revisions/29580/view
+-- Date: 2018-08-23 02:16
+-- Who: jovieve
+-- Log: Updated old style QO tag.
+
+-- URL: http://wow-pro.com/node/3440/revisions/29141/view
 -- Date: 2018-02-23 01:40
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags - EK
@@ -203,11 +224,13 @@ F Windshear Hold|QID|29011|M|58.80,54.30|Z|Stonetalon Mountains|U|37586|
 A Candy Bucket |QID|29011|M|59.09,56.34|Z|Stonetalon Mountains|N|Windshear Hold|
 F Thal'darah Overlook|QID|29012|M|40.07,31.96|Z|Stonetalon Mountains|U|37586|
 A Candy Bucket |QID|29012|M|39.52,32.79|Z|Stonetalon Mountains|N|Thal'darah Overlook|
+R Stonetalon Peak |QID|12347|M|40.6,17.7|Z|Stonetalon Mountains|U|37586|
+A Candy Bucket |QID|12347|M|40.6,17.7|Z|Stonetalon Mountains|N|Stonetalon Peak|
 F Farwatcher's Glen|QID|29013|M|32.02,61.79|Z|Stonetalon Mountains|U|37586|
 A Candy Bucket |QID|29013|M|31.50,60.68|Z|Stonetalon Mountains|N|Farwatcher's Glen|
 
-F Northwatch Expedition Base Camp|QID|29011|M|70.91,80.50|Z|Stonetalon Mountains|U|37586|
-A Candy Bucket |QID|29011|M|71.04,79.14|Z|Stonetalon Mountains|N|Northwatch Expedition|
+F Northwatch Expedition Base Camp|QID|29010|M|70.91,80.50|Z|Stonetalon Mountains|U|37586|
+A Candy Bucket |QID|29010|M|71.04,79.14|Z|Stonetalon Mountains|N|Northwatch Expedition|
 F Honor's Stand|QID|29006|M|38.97,10.91|Z|Southern Barrens|U|37586|
 A Candy Bucket |QID|29006|M|38.97,10.91|Z|Southern Barrens|N|Honor's Stand|
 F Nijel's Point|QID|12348|M|64.67,10.44|Z|Desolace|U|37586|
@@ -250,3 +273,5 @@ N This completes Hallow's End for Kalimdor.
 
 ]]
 end)
+
+

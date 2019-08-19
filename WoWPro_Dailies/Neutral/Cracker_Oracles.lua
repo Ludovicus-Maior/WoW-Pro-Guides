@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_oracles_reputation_dalies_sholazar_basin
+-- Date: 2018-10-17 02:21
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3418/revisions/29608/view
 -- Date: 2018-08-24 16:28
 -- Who: Ludovicus_Maior
 -- Log: Upgraded the QO's.
@@ -40,9 +45,9 @@ return [[
 
 R Rainspeaker Canopy|M|54.49,56.14|N|Head to Sholazar Basin and go to the Rainspeaker Canopy.|
 
-A 1 of 4 Possible Quests|QID|12726;12735;12736;12737|M|53.2,56.6|N|From Oracle Soon-nee. You will get one of the four possible quests, which are "A Cleansing Song", "Song of Fecundity", "Song of Reflection" or "Song of Wind and Water."|
+A 1 of 4 Possible Quests|QID|12726^12735^12736^12737|M|53.2,56.6|N|From Oracle Soon-nee. You will get one of the four possible quests, which are "A Cleansing Song", "Song of Fecundity", "Song of Reflection" or "Song of Wind and Water."|
 A Appeasing the Great Rain Stone|QID|12704|M|54.6,56.2|N|From High-Oracle Soo-say.|
-A 1 of 3 Possible Quests|QID|12705;12761;12762|M|54.2,53.8|N|From Oracle Soo-dow. You will get one of the three possible quests, which are "Mastery of the Crystals","Power of the Great Ones" or "Will of the Titans".|
+A 1 of 3 Possible Quests|QID|12705^12761^12762|M|54.2,53.8|N|From Oracle Soo-dow. You will get one of the three possible quests, which are "Mastery of the Crystals","Power of the Great Ones" or "Will of the Titans".|
 
 C Appeasing the Great Rain Stone|QID|12704|M|57.7,55.5|N|Talk to High-Oracle Soo-say and pick a Gorloc and summon him. Look for Shiny Spots, they blink on and off. Get your Gorloc over top of it for him to dig it up.|
 l Energized Polished Crystal|QID|12762|M|65.9,58.8|N|Head to the top of The Lifeblood Piller and use the Dormant Polished Crystal next to the large red stone.|U|39747|L|39748|

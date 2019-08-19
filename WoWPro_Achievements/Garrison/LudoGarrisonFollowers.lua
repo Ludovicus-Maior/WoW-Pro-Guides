@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/dozen_garrison_followers
+-- Date: 2019-02-14 18:27
+-- Who: Ludovicus_Maior
+-- Log: Add secret QIDs for [Services of Dagg]
+
+-- URL: http://wow-pro.com/node/3720/revisions/29885/view
+-- Date: 2018-10-17 02:19
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3720/revisions/28972/view
 -- Date: 2018-02-19 22:27
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -36,7 +46,8 @@ A Mysterious Ring|QID|34463|M|39.70,39.90|Z|Gorgrond|N|In the middle of a crater
 
 A Mysterious Boots|QID|34464|M|68.00,18.92|Z|Frostfire Ridge|N|Out in the open.|
 
-N Services of Dagg|QID|34733|AVAILABLE|34733|M|65.90, 60.81; 39.58, 28.10|Z|Frostfire Ridge|CS|N|Go to the indicated spots and free Dagg. Click as done.|
+A Services of Dagg: Grom'Gar|QID|34651|M|65.90, 60.81|Z|Frostfire Ridge|N|Go to the indicated spots and free Dagg.|
+A Services of Dagg: Daggermaw Ravine|QID|34654|M|39.58, 28.10|Z|Frostfire Ridge|N|Go to the indicated spots and free Dagg.|
 
 A Mysterious Staff|QID|34466|M|46.37, 16.03|Z|Nagrand@Draenor|N|On the beach.|
 
@@ -68,7 +79,7 @@ C Unwanted Pests|QID|36179|NC|M|63.14,75.02|Z|Spires of Arak|US|
 T Spore-be-Gone|QID|35079|M|61.44,72.95|Z|Spires of Arak|N|To Engineer Gazwitz.|
 T Unwanted Pests|QID|36179|M|61.44,72.95|Z|Spires of Arak|N|To Engineer Gazwitz.|
 T Defungination|QID|35077|M|61.47,72.92|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
-A The Mother Lode|QID|35080|M|61.47,72.94|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35079;36179;35077|
+A The Mother Lode|QID|35080|M|61.47,72.94|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35079&36179&35077|
 C The Mother Lode|QID|35080|M|59.06,79.09|Z|Spires of Arak|NC|N|Ride to Pinchwhistle Point.|
 T The Mother Lode|QID|35080|M|59.12,79.19|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 A Getting the Crew Back Together|QID|35082|M|59.12,79.19|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35080|
@@ -78,7 +89,7 @@ C Getting the Crew Back Together|QID|35082|M|60.93,81.98|Z|Spires of Arak|NC|
 C Clearing Out Before Cleaning Up|QID|35081|M|60.90,81.86|Z|Spires of Arak|US|
 T Getting the Crew Back Together|QID|35082|M|59.12,79.18|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 T Clearing Out Before Cleaning Up|QID|35081|M|59.09,79.23|Z|Spires of Arak|N|To Engineer Gazwitz.|
-A Follow that Hotrod!|QID|35285|M|59.09,79.21|Z|Spires of Arak|N|From Engineer Gazwitz.|PRE|35081;35082|
+A Follow that Hotrod!|QID|35285|M|59.09,79.21|Z|Spires of Arak|N|From Engineer Gazwitz.|PRE|35081&35082|
 T Follow that Hotrod!|QID|35285|M|58.49,92.33|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 A The Right Parts for the Job|QID|35090|M|58.49,92.33|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35285|
 A Skimming Off the Top|QID|35089|M|58.49,92.33|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35285|
@@ -90,10 +101,10 @@ C The Right Parts for the Job|QID|35090|U|112698|M|59.81,88.34|Z|Spires of Arak|
 C Skimming Off the Top|QID|35089|M|59.18,88.12|Z|Spires of Arak|US|N|Kill the oily slimes in the area.|
 T The Right Parts for the Job|QID|35090|M|58.83,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 T Skimming Off the Top|QID|35089|M|58.83,92.84|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
-A Sporicide|QID|35091|M|58.83,92.84|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35089;35090;36384|
+A Sporicide|QID|35091|M|58.83,92.84|Z|Spires of Arak|N|From Kimzee Pinchwhistle.|PRE|35089&35090&36384|
 T Field Trial|QID|36384|M|58.46,92.22|Z|Spires of Arak|N|To Krixel Pinchwhistle.|
-A Preventing the Worst|QID|35211|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35089;35090;36384|
-A Curing With Force|QID|36428|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35089;35090;36384|
+A Preventing the Worst|QID|35211|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35089&35090&36384|
+A Curing With Force|QID|36428|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35089&35090&36384|
 C Curing With Force|QID|36428|M|58,92|Z|Spires of Arak|U|115533|S|N|You have to beat them up before they will accept the potion, don't forget to give it to them (instead of killing them). Again, a garrison follower will kill them.  Send them home for a bit.|
 C Sporicide|QID|35091|M|58,92|Z|Spires of Arak|S|N|There are a few of these wandering in the village but most are behind it.|
 C Preventing the Worst|QID|35211|M|58,92|Z|Spires of Arak|NC|N|There is a translucent bomb inside of each of the buildings, click on it to activate. It is upstairs on the balcony of the 2 story building.|
@@ -102,7 +113,7 @@ C Sporicide|QID|35091|M|56.2,90.4|Z|Spires of Arak|US|N|There are a few of these
 T Sporicide|QID|35091|M|58.49,92.33|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
 T Preventing the Worst|QID|35211|M|58.46,92.22|Z|Spires of Arak|N|To Krixel Pinchwhistle.|
 T Curing With Force|QID|36428|M|58.46,92.22|Z|Spires of Arak|N|To Krixel Pinchwhistle.|
-A Flame On|QID|35298|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35091;35211;36428|
+A Flame On|QID|35298|M|58.46,92.22|Z|Spires of Arak|N|From Krixel Pinchwhistle.|PRE|35091&35211&36428|
 C Flame On|QID|35298|M|58.44,92.24|Z|Spires of Arak|QO|1|NC|N|Click on the Plunger to set off the bombs.|
 C Flame On|QID|35298|M|58.88,92.84|Z|Spires of Arak|QO|2|NC|N|Hop in Kimzee's flying machine.|
 T Flame On|QID|35298|M|61.47,72.94|Z|Spires of Arak|N|To Kimzee Pinchwhistle.|
@@ -141,14 +152,14 @@ T Mysterious Boots|QID|34464|M|85.02,31.06|Z|Talador|N|To Zooti Fizzlefury|
 T Mysterious Ring|QID|34463|M|85.02,31.06|Z|Talador|N|To Zooti Fizzlefury|
 T Mysterious Staff|QID|34466|M|85.02,31.06|Z|Talador|N|To Zooti Fizzlefury|
 
-A Temporal Juxtaposition|QID|34472|PRE|34463;34464;34465;34466|M|85.02,31.06|Z|Talador|N|From Zooti Fizzlefury|
+A Temporal Juxtaposition|QID|34472|PRE|34463&34464&34465&34466|M|85.02,31.06|Z|Talador|N|From Zooti Fizzlefury|
 T Temporal Juxtaposition|QID|34472|M|84.55, 31.69|Z|Talador|N|To Image of Archmage Vargoth|
 A The Staff of Archmage Vargoth|QID|36027|PRE|34472|M|84.55, 31.69|Z|Talador|N|From Image of Archmage Vargoth|
 
 ;
-A Services of Dagg|QID|34733|M|61.4, 74.8|Z|Lunarfall|N|After releasing him, Dagg shows up outside your Garrison.|FACTION|Alliance|
+A Services of Dagg|QID|34733|PRE|34651&34654|M|61.4, 74.8|Z|Lunarfall|N|After releasing him, Dagg shows up outside your Garrison.|FACTION|Alliance|
 T Services of Dagg|QID|34733|M|61.4, 74.8|Z|Lunarfall|N|After releasing him, Dagg shows up outside your Garrison.|FACTION|Alliance|
-A Services of Dagg|QID|34733|M|57.28,15.63|Z|Frostwall|N|After releasing him, Dagg shows up outside your Garrison.|FACTION|Horde|
+A Services of Dagg|QID|34733|PRE|34651&34654|M|57.28,15.63|Z|Frostwall|N|After releasing him, Dagg shows up outside your Garrison.|FACTION|Horde|
 T Services of Dagg|QID|34733|M|57.28,15.63|Z|Frostwall|N|After releasing him, Dagg shows up outside your Garrison.|FACTION|Horde|
 A Solidarity in Death|QID|36522|PRE|33973|M|52.8, 69|Z|Lunarfall|N|Ahm is waiting.|FACTION|Alliance|
 T Solidarity in Death|QID|36522|M|52.8, 69|Z|Lunarfall|N|To Ahm.|FACTION|Alliance|

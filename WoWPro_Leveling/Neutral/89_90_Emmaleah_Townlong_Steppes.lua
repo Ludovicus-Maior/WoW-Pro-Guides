@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_townlong_steppes_neutral
+-- Date: 2018-10-17 02:31
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3492/revisions/29138/view
 -- Date: 2018-02-23 01:37
 -- Who: Ludovicus_EditBot
 -- Log: Upload Grail corrections to PRE/LEAD/QO tags
@@ -136,7 +141,7 @@ A First Assault|QID|30769|PRE|30814|M|71.14,56.77|N|From Taran Zhu.|
 A Running Rampant|QID|30770|PRE|30814|M|71.14,56.77|N|From Taran Zhu.|
 A Perfect Pitch|QID|30771|PRE|30814|M|71.14,56.77|N|From Taran Zhu.|
 f Longying Outpost|QID|30771|M|71.12,57.41|N|At Kite Master Wong.|
-N Yaungol Fire Carrier|QID|31425;30776|CC|M|66.5,44.7|N|This rare spawn, a BOA mace for the lost and found achievement is found at various spots in Fire Camp Osul, if spawned, it will be appear as a wand on a brazier. (this step checks off when you get to the coordinates, since it may or may not be there --- or anywhere else in Fire Camp Osul).|
+N Yaungol Fire Carrier|QID|31425^30776|CC|M|66.5,44.7|N|This rare spawn, a BOA mace for the lost and found achievement is found at various spots in Fire Camp Osul, if spawned, it will be appear as a wand on a brazier. (this step checks off when you get to the coordinates, since it may or may not be there --- or anywhere else in Fire Camp Osul).|
 C First Assault|QID|30769|S|M|67.7,52.97|
 C Perfect Pitch|QID|30771|S|NC|M|67.7,52.97|N|Pick up the sparkly little baskets of pitch.|
 C Running Rampant|QID|30770|NC|M|67.70,52.97|N|Click on the yaks and mushan to free them.|
@@ -145,13 +150,13 @@ C First Assault|QID|30769|US|M|67.7,52.97|
 T Running Rampant|QID|30770|M|67.21,52.27|N|To Ban Bearheart.|
 T Perfect Pitch|QID|30771|M|67.21,52.27|N|To Ban Bearheart.|
 T First Assault|QID|30769|M|67.25,52.22|N|To Suna Silentstrike.|
-A Seeing Red|QID|30772|PRE|30769;30770;30771|M|67.25,52.22|N|From Suna Silentstrike.|
-A Ranger Rescue|QID|30774|PRE|30769;30770;30771|M|67.25,52.22|N|From Suna Silentstrike.|
-A Pitching In|QID|30773|PRE|30769;30770;30771|M|67.21,52.27|N|From Ban Bearheart.|
+A Seeing Red|QID|30772|PRE|30769&30770&30771|M|67.25,52.22|N|From Suna Silentstrike.|
+A Ranger Rescue|QID|30774|PRE|30769&30770&30771|M|67.25,52.22|N|From Suna Silentstrike.|
+A Pitching In|QID|30773|PRE|30769&30770&30771|M|67.21,52.27|N|From Ban Bearheart.|
 C Seeing Red|QID|30772|S|M|67.61,47.50|
 C Pitching In|QID|30773|S|NC|U|81193|M|66.61,45.86|N|Use the item, aim with your mouse from range.|
 C Rescue Longying Rangers|QID|30774|S|QO|1|M|68.06,49.62|N|Kill Osul Marauders to get the stone keys needed to unlock the cages.|; Longying Ranger rescued: 4/4
-A The Exile|QID|30775|PRE|30769;30770;30771|M|67.08,51.43|N|From Katak the Defeated.|
+A The Exile|QID|30775|PRE|30769&30770&30771|M|67.08,51.43|N|From Katak the Defeated.|
 K Kill Battat|QID|30775|T|Battat|QO|1|M|65.7,51.7|; Battat slain: 1/1
 K Kill Urang|QID|30775|T|Urang|QO|2|M|64.8,50.2|; Urang slain: 1/1
 C Ranger Rescue |QID|30774|NC|QO|2|M|66.6,49.2|N|No key needed for Lin...|; Free Lin Silentstrike: 1/1
@@ -163,7 +168,7 @@ T The Exile|QID|30775|M|67.01,51.39|N|To Katak the Defeated.|
 T Seeing Red|QID|30772|M|67.21,52.27|N|To Ban Bearheart.|
 T Ranger Rescue|QID|30774|M|67.21,52.27|N|To Ban Bearheart.|
 T Pitching In|QID|30773|M|67.21,52.27|N|To Ban Bearheart.|
-A Jung Duk|QID|30776|PRE|30772;30773;30774|M|67.25,52.22|N|From Suna Silentstrike.|
+A Jung Duk|QID|30776|PRE|30772&30773&30774|M|67.25,52.22|N|From Suna Silentstrike.|
 K Jung Duk|QID|30776|QO|1|M|66.61,50.98|N|Plant the banner and fight him.|; Jung Duk slain: 1/1
 T Jung Duk|QID|30776|M|70.98,56.56|N|To Ban Bearheart.|
 A In Search of Suna|QID|30777|PRE|30776|M|70.98,56.56|N|From Ban Bearheart. Hop on the caravan for a ride to Hatred's Vice.|
@@ -188,7 +193,7 @@ T Dust to Dust|QID|30778|M|82.68,73.02|N|To Ban Bearheart.|
 T Slaying the Scavengers|QID|30779|M|82.68,73.02|N|To Ban Bearheart.|
 T Last Toll of the Yaungol|QID|30781|M|82.68,73.02|N|To Ban Bearheart.|
 T Totemic Research|QID|30780|M|82.59,73.02|N|To Yalia Sagewhisper.|
-A What Lies Beneath|QID|30827|PRE|30778;30779;30780;30781|M|82.59,73.02|N|From Yalia Sagewhisper.|
+A What Lies Beneath|QID|30827|PRE|30778&30779&30780&30781|M|82.59,73.02|N|From Yalia Sagewhisper.|
 C What Lies Beneath|QID|30827|M|82.59,73.02|N|Talk to Yalia, then click on the totems.|
 T What Lies Beneath|QID|30827|M|82.59,73.02|N|To Yalia Sagewhisper.|
 A Hatred Becomes Us|QID|30783|PRE|30827|M|82.59,73.02|N|From Yalia Sagewhisper.|
@@ -198,7 +203,7 @@ C Hatred Becomes Us|QID|30783|U|81417|M|82.65,73.90|N|Use the totem on the Shado
 C Spiteful Spirits|QID|30782|US|U|81417|M|84.04,77.51|N|While killing the spiteful spirts (ghostly looking things), stand in the AE from your totem (use effect) to keep the bar (negative emothions) from filling up.|
 T Hatred Becomes Us|QID|30783|M|82.59,73.02|N|To Yalia Sagewhisper.|
 T Spiteful Spirits|QID|30782|M|82.68,73.02|N|To Ban Bearheart.|
-A The Point of No Return|QID|30784|PRE|30782;30783|M|82.68,73.02|N|From Ban Bearheart.|
+A The Point of No Return|QID|30784|PRE|30782&30783|M|82.68,73.02|N|From Ban Bearheart.|
 C The Point of No Return|QID|30784|U|81430|M|84.25,70.72|N|Use the totem on Suna.|
 T The Point of No Return|QID|30784|M|82.68,73.02|N|To Ban Bearheart.|
 A Gao-Ran Battlefront|QID|30785|LEAD|30884|PRE|30784|M|82.68,73.02|N|From Ban Bearheart.|
@@ -219,7 +224,7 @@ C Golgoss|QID|30788|M|70.62,69.63|N|Click on the dirt pile, wait, kill the mobs 
 C Arconiss|QID|30789|M|71.49,72.29|N|Click on the dirt pile, wait, kill the mobs that attack while Arconiss wakes up.|
 T Golgoss|QID|30788|M|67.93,67.71|N|To Orbiss.|
 T Arconiss|QID|30789|M|67.93,67.71|N|To Orbiss.|
-A The Death of Me|QID|30815|PRE|30788;30789|M|67.93,67.71|N|From Orbiss.|
+A The Death of Me|QID|30815|PRE|30788&30789|M|67.93,67.71|N|From Orbiss.|
 C The Death of Me|QID|30815|M|67.93,67.71|N|Clikc on Orbiss to remove the spear.|
 T The Death of Me|QID|30815|M|67.93,67.71|N|To Orbiss.|
 A Golgoss Hungers|QID|30790|PRE|30815|M|67.93,67.71|N|From Orbiss.|
@@ -233,7 +238,7 @@ C Arconiss Thirsts|QID|30791|US|M|73.3,71.8|N|Kill rodents, loot blood sometimes
 T Golgoss Hungers|QID|30790|M|67.90,67.76|N|To Orbiss.|
 T Arconiss Thirsts|QID|30791|M|67.90,67.76|N|To Orbiss.|
 T Orbiss Fades|QID|30792|M|67.90,67.76|N|To Orbiss.|
-A Mists' Opportunity|QID|30793|PRE|30790;30791;30792|M|67.90,67.76|N|From Orbiss.|
+A Mists' Opportunity|QID|30793|PRE|30790&30791&30792|M|67.90,67.76|N|From Orbiss.|
 K Kill Jahesh of Osul|QID|30793|T|Jahesh of Osul|QO|1|M|76.47,72.71|; Jahesh of Osul slain: 1/1
 T Mists' Opportunity|QID|30793|M|76.19,72.93|N|To Orbiss.|
 
@@ -263,12 +268,12 @@ C Breach in the Defenses|QID|30888|US|U|81925|M|80.71,86.18|N|The mobs are steal
 C Trap Setting|QID|30889|US|NC|M|81.81,84.36|N|Click on the traps to reset them.|
 T Breach in the Defenses|QID|30888|M|79.47,84.46|N|To Taoshi.|
 T The Restless Watch|QID|30890|M|79.47,84.46|N|To Taoshi.|
-A Returning from the Pass|QID|30960|PRE|30888;30890|M|79.47,84.46|N|From Taoshi.|
+A Returning from the Pass|QID|30960|PRE|30888&30890|M|79.47,84.46|N|From Taoshi.|
 T Trap Setting|QID|30889|M|79.38,84.45|N|To Mao the Lookout.|
 T Returning from the Pass|QID|30960|M|76.42,82.44|N|To Taran Zhu.|
 A The Endless Swarm|QID|30893|PRE|30960|M|76.42,82.44|N|From Taran Zhu.|
-A Back on Their Feet|QID|30892|PRE|30891;30960|M|75.86,83.14|N|From Septi the Herbalist.|
-A Rummaging Through the Remains|QID|30894|PRE|30891;30960|M|75.86,83.14|N|From Septi the Herbalist.|
+A Back on Their Feet|QID|30892|PRE|30891&30960|M|75.86,83.14|N|From Septi the Herbalist.|
+A Rummaging Through the Remains|QID|30894|PRE|30891&30960|M|75.86,83.14|N|From Septi the Herbalist.|
 C Back on Their Feet|QID|30892|S|NC|U|82787|M|74.16,89.57|N|Use the provided bandages on the injured.|
 C The Endless Swarm|QID|30893|S|M|75.56,89.88|
 C Rummaging Through the Remains|QID|30894|M|76.31,89.27|N|Kill Kril'thik and limbs will fall for you to pick up.|
@@ -277,7 +282,7 @@ C Back on Their Feet|QID|30892|US|NC|U|82787|M|74.16,89.57|N|Use the provided ba
 T Back on Their Feet|QID|30892|M|75.86,83.14|N|To Septi the Herbalist.|
 T Rummaging Through the Remains|QID|30894|M|75.86,83.14|N|To Septi the Herbalist.|
 T The Endless Swarm|QID|30893|M|76.37,82.39|N|To Taran Zhu.|
-A Improvised Ammunition|QID|30895|PRE|30892;30893;30894|M|76.37,82.39|N|From Taran Zhu.|
+A Improvised Ammunition|QID|30895|PRE|30892&30893&30894|M|76.37,82.39|N|From Taran Zhu.|
 
 R Ambermarsh|QID|30896|M|70.53,86.40|
 A Thieves and Troublemakers|QID|30896|PRE|30960|M|70.45,86.37|N|From Initiate Feng.|
@@ -309,7 +314,7 @@ C Enraged By Hatred|QID|30970|M|66.8,83.6|N|More in the burrow, if you are runni
 C Taking Stock|QID|30971|US|NC|M|66.67,82.26|N|Pick up the arrows from the ground, lots by the burrow entrance.|
 T Taking Stock|QID|30971|M|67.37,80.67|N|To Initiate Pao-Me.|
 T Enraged By Hatred|QID|30970|M|67.32,80.85|N|To Taoshi.|
-A Joining the Fight|QID|30972|PRE|30970;30971|M|67.37,80.67|N|From Initiate Pao-Me.|
+A Joining the Fight|QID|30972|PRE|30970&30971|M|67.37,80.67|N|From Initiate Pao-Me.|
 R Dusklight Bridge|QID|30972|M|61.56,79.29|
 T Joining the Fight|QID|30972|M|61.59,79.34|N|To Lao-Chin the Iron Belly.|
 A Up In Flames|QID|30973|PRE|30972|M|61.63,79.32|N|From Taran Zhu.|
@@ -362,7 +367,7 @@ C The Search for Restless Leng|QID|31688|US|NC|M|46.36,76.34|N|Don't forget to b
 T Taoshi and Korvexxis|QID|30981|M|47.55,78.86|N|To Taran Zhu.|
 T Lao-Chin and Serevex|QID|31063|M|47.55,78.86|N|To Taran Zhu.|
 T Nurong and Rothek|QID|31064|M|47.55,78.86|N|To Taran Zhu.|
-A The Sha of Hatred|QID|30968|PRE|30981;31063;31064|M|47.55,78.86|N|From Taran Zhu.|
+A The Sha of Hatred|QID|30968|PRE|30981&31063&31064|M|47.55,78.86|N|From Taran Zhu.|
 C The Sha of Hatred|QID|30968|M|46.16,82.28|N|Be sure to stay in the AOE healing.|
 T The Sha of Hatred|QID|30968|M|46.15,82.37|N|To Taoshi.|
 T Thinning the Sik'thik|QID|31687|M|53.96,78.18|N|To Rensai Oakhide.|
@@ -390,16 +395,16 @@ C A Proper Poultice|QID|30964|NC|US|M|61.69,56.18|N|These are scattered through 
 l Hardened Sap of Kiri'vess|QID|31424|US|M|57.4,56.6|N|Another item to loot for gold and XP. Other coordinates have also been reported.  All of them map to in the grass among the roots of the giant tree.|
 T The Motives of the Mantid|QID|30921|M|49.14,71.15|N|To Tai Ho.|
 T Set the Mantid Back|QID|30923|M|49.14,71.15|N|To Tai Ho.|
-A The Wisdom of Niuzao|QID|30924|PRE|30921;30923|M|49.14,71.15|N|From Tai Ho.|
+A The Wisdom of Niuzao|QID|30924|PRE|30921&30923|M|49.14,71.15|N|From Tai Ho.|
 T Natural Antiseptic|QID|30922|M|49.14,71.32|N|To Provisioner Bamfu.|
 T The Field Armorer|QID|30963|M|49.14,71.32|N|To Provisioner Bamfu.|
 T A Proper Poultice|QID|30964|M|49.14,71.32|N|To Provisioner Bamfu.|
 
 R Niuzao Temple|QID|30931|M|43.83,65.79|
-A My Father's Crossbow|QID|30931|PRE|30921;30923|M|43.83,65.79|N|From Ku-Mo.|
+A My Father's Crossbow|QID|30931|PRE|30921&30923|M|43.83,65.79|N|From Ku-Mo.|
 T The Wisdom of Niuzao|QID|30924|M|39.30,62.13|N|To Ogo the Younger.|
 A Niuzao's Price|QID|30925|PRE|30924|M|39.30,62.13|N|From Ogo the Younger.|
-A Bad Yak|QID|30929|PRE|30921;30923|M|39.21,62.05|N|From Bluesaddle.|
+A Bad Yak|QID|30929|PRE|30921&30923|M|39.21,62.05|N|From Bluesaddle.|
 C Bad Yak|QID|30929|M|39.28,61.91|N|Dismount, then click on the yak, 4 times.|
 T Bad Yak|QID|30929|M|39.22,61.99|N|To Bluesaddle.|
 C My Father's Crossbow|QID|30931|M|38.62,65.47|N|He respawns pretty fast, so its best to kill him a little ways away from his spawn point, so you can recover afterwards in relative safety.|

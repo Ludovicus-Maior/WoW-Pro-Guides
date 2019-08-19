@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadows_argus
+-- Date: 2018-11-18 17:01
+-- Who: Ludovicus_Maior
+-- Log: Removed WoWPro.Achievements:GuideMisc()
+
+-- URL: http://wow-pro.com/node/3741/revisions/30093/view
+-- Date: 2018-10-26 21:43
+-- Who: Ludovicus_Maior
+-- Log: Convert to Leveling guide
+
+-- URL: http://wow-pro.com/node/3741/revisions/29892/view
+-- Date: 2018-10-17 02:20
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3741/revisions/29474/view
 -- Date: 2018-08-03 19:08
 -- Who: Emmaleah
 -- Log: change PRE on Nath'raxas hold:rescue mission to 48442
@@ -99,9 +114,8 @@
 -- Date: 2017-08-30 21:39
 -- Who: Ludovicus_Maior
 
-local guide = WoWPro:RegisterGuide('Ludo_Argus', 'Achievements', 'ArgusSurface', 'Ludo', 'Neutral')
+local guide = WoWPro:RegisterGuide('Ludo_Argus', 'Leveling', 'ArgusSurface', 'Ludo', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
-WoWPro.Achievements:GuideMisc(guide, "Shadows of Argus", "Reputation", "Legion")
 WoWPro:GuideQuestTriggers(guide, 47221, 47835)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -123,7 +137,7 @@ C Two If By Sea|QID|47867|M|58.29,12.09|Z|Durotar|QO|1|CHAT|N|Tell Lady Liadrin 
 T Two If By Sea|QID|47867|M|21.38,55.04|Z|Floor1@AzuremystScenario|N|To Vindicator Boros.|FACTION|Horde|
 
 ; THE ASSAULT BEGINS
-A Light's Exodus|QID|47223|PRE|47222+47867|M|20.64,53.26|Z|Floor1@AzuremystScenario|N|From Vindicator Boros.|;not spurious-ignore grail integration
+A Light's Exodus|QID|47223|PRE|47222^47867|M|20.64,53.26|Z|Floor1@AzuremystScenario|N|From Vindicator Boros.|;not spurious-ignore grail integration
 T Light's Exodus|QID|47223|M|33.79,65.57|Z|Floor2@AzuremystScenario|N|To Prophet Velen.|
 A The Vindicaar|QID|47224|PRE|47223|M|33.79,65.57|Z|Floor2@AzuremystScenario|N|From Prophet Velen.|
 C The Vindicaar|QID|47224|M|33.66,66.36|Z|Floor2@AzuremystScenario|QO|1|NC|N|Activate the Beacon by clicking on it.|
@@ -150,7 +164,7 @@ T Righteous Fury|QID|47589|M|54.24,75.41|N|To Prophet Velen.|
 T A Stranger's Plea|QID|48483|M|54.24,75.41|N|To Prophet Velen.|
 N Underwhelming Weapon|ACTIVE|46297|N|Illidan will give you Relics for your current spec ~880 ilevel, switch specs before accepting and turning in if you need to.|
 T Overwhelming Power|QID|46297|M|54.33,75.26|N|To Illidan Stormrage.|
-A Vengeance|QID|47627|PRE|46297;47589;48483|M|54.31,75.27|N|From Illidan Stormrage.|
+A Vengeance|QID|47627|PRE|46297&47589&48483|M|54.31,75.27|N|From Illidan Stormrage.|
 C Vengeance|QID|47627|M|54.17,75.15|QO|1|N|Siege Weapon destroyed, a really big demon!|
 T Vengeance|QID|47627|M|54.33,75.26|N|To Illidan Stormrage.|
 A Signs of Resistance|QID|47641|PRE|47627|M|54.24,75.42|N|From Prophet Velen.|
@@ -175,7 +189,7 @@ K Kill Kar'aaz|QID|46841|M|48.76,57.75|QO|1|T|Kar'aaz|
 C Prisoners No More|QID|46840|M|51.01,56.84|NC|N|Darkfallen Slaves rescued.|US|
 T Threat Reduction|QID|46841|M|50.40,53.82|N|To High Exarch Turalyon.|
 T Prisoners No More|QID|46840|M|50.40,53.82|N|To High Exarch Turalyon.|
-A A Strike at the Heart|QID|46842|PRE|46840;46841|M|50.40,53.82|N|From High Exarch Turalyon.|
+A A Strike at the Heart|QID|46842|PRE|46840&46841|M|50.40,53.82|N|From High Exarch Turalyon.|
 C A Strike at the Heart|QID|46842|M|50.40,53.82|QO|1|CHAT|N|Speak with Turalyon to begin the fight.|
 K Kill Aggonar|QID|46842|M|52.01,52.66|QO|2|T|Aggonar|
 T A Strike at the Heart|QID|46842|M|51.56,52.80|N|To High Exarch Turalyon.|
@@ -207,7 +221,7 @@ C The Best Prevention|QID|47541|M|33.95,69.38|N|Finish killing the Attackers.|US
 T The Best Prevention|QID|47541|M|31.82,71.85|N|To Archmage Y'mera.|
 T Crystals Not Included|QID|46213|M|31.82,71.85|N|To Archmage Y'mera.|
 T A Grim Equation|QID|40238|M|31.82,71.85|N|To Archmage Y'mera.|
-A Fire At Will|QID|47508|PRE|47541;46213;40238|M|31.82,71.85|N|From Archmage Y'mera.|
+A Fire At Will|QID|47508|PRE|47541&46213&40238|M|31.82,71.85|N|From Archmage Y'mera.|
 C Fire At Will|QID|47508|M|31.17,72.80|NC|N|Mount up on a cannon, and shoot bats!|
 T Fire At Will|QID|47508|M|31.82,71.84|N|To Archmage Y'mera.|
 A Locating the Longshot|QID|47771|M|31.82,71.84|N|From Archmage Y'mera.|PRE|47508|
@@ -244,7 +258,7 @@ A Securing a Foothold|QID|48200|PRE|48199|M|33.55,58.32|Z|Upper Deck@ArgusCore|N
 C Securing a Foothold|QID|48200|M|32.66,55.65|Z|Upper Deck@ArgusCore|QO|1|CHAT|N|Speak with Romuul to reach the surface.|
 C Securing a Foothold|QID|48200|M|72.96,50.51|Z|ArgusCore|QO|2|NC|N|Place the Lightforged Beacon.|
 T Securing a Foothold|QID|48200|M|72.90,50.25|Z|ArgusCore|N|To High Exarch Turalyon.|
-A Turalyon's Quest|QID|48201;48202|M|72.90,50.25|Z|ArgusCore|N|High Exarch Turalyon will offer you one of two quests here.|
+A Turalyon's Quest|QID|48201^48202|M|72.90,50.25|Z|ArgusCore|N|High Exarch Turalyon will offer you one of two quests here.|
 C Reinforce the Veiled Den|QID|48202|M|68.77,26.12|Z|ArgusCore|CHAT|N|Speak with Illidan at the Veiled Den.|
 t Reinforce the Veiled Den|QID|48202|M|68.78,26.13|Z|ArgusCore|N|To Illidan Stormrage.|
 A Sizing Up The Opposition|QID|48929|PRE|48202|M|68.78,26.10|Z|ArgusCore|N|From Illidan Stormrage.|;not spurious; can't be done before you find Illidan at Veiled Den, true you don't have to turn in reinforce veiled den, but you may as well.
@@ -253,7 +267,7 @@ C Reinforce Light's Purchase|QID|48201|M|72.4,74.8|Z|ArgusCore|CHAT|N|Speak with
 t C Reinforce Light's Purchase|QID|48201|M|72.4,74.8|Z|ArgusCore|N|To Alleria Windrunner.|
 A Sizing Up The Opposition|QID|47473|PRE|48201|M|72.4,74.8|Z|ArgusCore|N|From Alleria Windrunner.|;not spurious; can't be done before you find Illidan at Veiled Den, true you don't have to turn in reinforce light's purchase, but you may as well.
 F Vindicaar, Antoran Wastes|QID|47473|M|72.4,74.8|Z|ArgusCore|N|Use the portal to in Light's Purchase to return to the Vindicaar.|ACTIVE|47473|
-T Sizing Up The Opposition|QID|48929;47473|M|33.50,58.28|Z|Upper Deck@ArgusCore|N|To High Exarch Turalyon.|
+T Sizing Up The Opposition|QID|48929^47473|M|33.50,58.28|Z|Upper Deck@ArgusCore|N|To High Exarch Turalyon.|
 ; DARK AWAKENINGS
 A The Speaker Calls|QID|47889|PRE|48929|M|33.60,56.81|Z|Upper Deck@ArgusCore|N|From High Exarch Turalyon.|
 A Fuel of a Doomed World|QID|48799|PRE|48929|M|33.60,56.81|Z|Upper Deck@ArgusCore|N|From High Exarch Turalyon. This becomes a weekly repeatable quest.|
@@ -284,7 +298,7 @@ C An Argus Roper|QID|47967|M|64.32,62.48|NC|US|N|Finish collecting the Wild Crag
 T Strike Back|QID|48542|M|64.44,62.63|N|To Lead Rider Jerek.|
 T An Argus Roper|QID|47967|M|64.44,62.63|N|To Lead Rider Jerek.|
 T Duskcloak Problem|QID|48455|M|64.44,62.63|N|To Lead Rider Jerek.|
-A Woah, Nelly!|QID|48544|PRE|48542;47967;48455|M|64.44,62.63|N|From Lead Rider Jerek. This puts you on a Wild Cragscaler to speed you on your return to Krokul Hovel.|
+A Woah, Nelly!|QID|48544|PRE|48542&47967&48455|M|64.44,62.63|N|From Lead Rider Jerek. This puts you on a Wild Cragscaler to speed you on your return to Krokul Hovel.|
 T Woah, Nelly!|QID|48544|M|61.62,62.19;59.82,67.48;56.58,67.57|CS|N|To Chieftain Hatuun.|
 A Remnants of Darkfall Ridge|QID|48441|PRE|48544|M|56.58,67.57|N|From Chieftain Hatuun.|
 
@@ -341,9 +355,9 @@ C Preventive Measures|QID|47987|M|61.59,33.38|QO|1|NC|U|152110|N|Finish sanctify
 T Chaos Theory|QID|47988|M|60.62,43.99|N|To Illidan Stormrage.|
 T Preventive Measures|QID|47987|M|61.05,47.79|N|To Prophet Velen.|
 T Scars of the Past|QID|47986|M|60.67,47.30|N|To Image of Grand Artificer Romuul.|
-A A Touch of Fel|QID|47990|PRE|47986;47987;47988|M|60.66,47.30|N|From Image of Grand Artificer Romuul.|
-A Heralds of Apocalypse|QID|47989|PRE|47986;47987;47988|M|61.55,46.72|N|From Alleria Windrunner.|
-A Dark Machinations|QID|47991|PRE|47986;47987;47988|M|60.61,43.98|N|From Illidan Stormrage.|
+A A Touch of Fel|QID|47990|PRE|47986&47987&47988|M|60.66,47.30|N|From Image of Grand Artificer Romuul.|
+A Heralds of Apocalypse|QID|47989|PRE|47986&47987&47988|M|61.55,46.72|N|From Alleria Windrunner.|
+A Dark Machinations|QID|47991|PRE|47986&47987&47988|M|60.61,43.98|N|From Illidan Stormrage.|
 C A Touch of Fel|QID|47990|M|58.09,34.33|N|Kill Demons to get the Immaculate Felcore.|S|
 C Dark Machinations|QID|47991|M|55.53,35.42|NC|N|Click on the floating crystals to dismantle Spires of Woe.|S|
 K Mistress Apostriss|ACTIVE|47989|M|51.90,37.37|QO|2|N|Mistress Apostriss slain.|T|Mistress Apostriss|
@@ -353,7 +367,7 @@ C Dark Machinations|QID|47991|M|55.53,35.42|NC|N|Finish dismantling the Spires o
 T Dark Machinations|QID|47991|M|60.61,43.98|N|To Illidan Stormrage.|
 T Heralds of Apocalypse|QID|47989|M|61.55,46.70|N|To Alleria Windrunner.|
 T A Touch of Fel|QID|47990|M|60.67,47.31|N|To Image of Grand Artificer Romuul.|
-A Dawn of Justice|QID|47992|PRE|47989;47990;47991|M|60.83,47.26|N|From High Exarch Turalyon.|
+A Dawn of Justice|QID|47992|PRE|47989&47990&47991|M|60.83,47.26|N|From High Exarch Turalyon.|
 C Dawn of Justice|QID|47992|M|60.71,47.56|QO|1|NC|N|Click on the suit of armor to take control of the Lightforged Warframe. You will be flown to the quest area.|
 C Dawn of Justice|QID|47992|M|51.92,25.62|QO|3|N|Click on the Nath'raxxan Rifts to close them.|S|
 C Dawn of Justice|QID|47992|M|55.00,21.10|QO|2|N|Kill Reinforcements, 60!|
@@ -382,7 +396,7 @@ C Defenseless and Afraid|QID|46818|M|54.22,73.45|Z|ArgusMacAree|QO|1|U|152408|N|
 K Echo of Khazaduum|ACTIVE|46834|M|52.86,66.74|Z|ArgusMacAree|QO|1|N|Kill Khazaduum for the Argunite Keystone|T|Echo of Khazaduum|
 T Khazaduum, First of His Name|QID|46834|M|54.50,77.91|Z|ArgusMacAree|N|To Prophet Velen.|
 T Defenseless and Afraid|QID|46818|M|54.50,77.91|Z|ArgusMacAree|N|To Prophet Velen.|
-A Consecrating Ground|QID|47066|PRE|46834;46818|M|54.50,77.91|Z|ArgusMacAree|N|From Prophet Velen.|
+A Consecrating Ground|QID|47066|PRE|46834&46818|M|54.50,77.91|Z|ArgusMacAree|N|From Prophet Velen.|
 C Consecrating Ground|QID|47066|M|52.80,80.24|Z|ArgusMacAree|NC|N|Around to your left, in a undergound bunker, restore the Argunite Matrix.|
 T Consecrating Ground|QID|47066|M|52.86,75.87|Z|ArgusMacAree|N|To Prophet Velen.|
 A The Path Forward|QID|46941|PRE|47066|M|52.86,75.87|Z|ArgusMacAree|N|From Prophet Velen.|
@@ -397,7 +411,7 @@ C Conservation of Magic|QID|47882|M|67.09,51.21|Z|ArgusMacAree|NC|U|151624|N|Sta
 C Invasive Species|QID|47688|M|65.96,54.07|Z|ArgusMacAree|N|Kill Panthara for the partially Digested Arcana.|T|Manafeeder|US|
 T Conservation of Magic|QID|47882|M|59.71,50.49|Z|ArgusMacAree|N|To Archmage Y'mera.|
 T Invasive Species|QID|47688|M|59.71,50.49|Z|ArgusMacAree|N|To Archmage Y'mera.|
-A The Longest Vigil|QID|47883|PRE|47882;47688|M|59.71,50.49|Z|ArgusMacAree|N|From Archmage Y'mera.|
+A The Longest Vigil|QID|47883|PRE|47882&47688|M|59.71,50.49|Z|ArgusMacAree|N|From Archmage Y'mera.|
 C The Longest Vigil|QID|47883|M|60.02,50.50|Z|ArgusMacAree|QO|1|NC|N|Click on the Deactivated Conservatory Vigilent.|
 C The Longest Vigil|QID|47883|M|59.92,50.40|Z|ArgusMacAree|QO|2|CHAT|N|Tell Vigilant Quoram that you seek the sigil.|
 T The Longest Vigil|QID|47883|M|60.00,50.50|Z|ArgusMacAree|N|To Vigilant Quoram.|
@@ -416,7 +430,7 @@ C Gatekeeper's Challenge: Tenacity|QID|47689|M|70.91,49.99|Z|ArgusMacAree|QO|2|N
 T Gatekeeper's Challenge: Mastery|QID|47687|M|60.00,50.49|Z|ArgusMacAree|N|To Vigilant Quoram.|
 T Gatekeeper's Challenge: Cunning|QID|47685|M|60.00,50.49|Z|ArgusMacAree|N|To Vigilant Quoram.|
 T Gatekeeper's Challenge: Tenacity|QID|47689|M|60.00,50.49|Z|ArgusMacAree|N|To Vigilant Quoram.|
-A The Defiler's Legacy|QID|47690|PRE|47685;47687;47689|M|60.00,50.49|Z|ArgusMacAree|N|From Vigilant Quoram, next to Archmage Y'mera at the entrance.|
+A The Defiler's Legacy|QID|47690|PRE|47685&47687&47689|M|60.00,50.49|Z|ArgusMacAree|N|From Vigilant Quoram, next to Archmage Y'mera at the entrance.|
 R Praetorium|ACTIVE|47690|M|65.98,44.42;66.45,41.38;66.45,41.38;67.11,37.32|Z|ArgusMacAree|CS|N|Mount up and head to the Praetorium.|
 K Archimonde|ACTIVE|47690|M|68.92,33.08|Z|ArgusMacAree|QO|1|N|Kill Archimonde.|T|Archimonde|
 C The Defiler's Legacy|QID|47690|M|68.18,33.53|Z|ArgusMacAree|QO|2|NC|N|Loot the Sigil of Awakening.|
@@ -489,15 +503,15 @@ C A Non-Prophet Organization|QID|47691|M|59.20,21.15|Z|ArgusMacAree|NC|N|Find Ve
 T A Non-Prophet Organization|QID|47691|M|59.09,20.06|Z|ArgusMacAree|N|To Prophet Velen.|
 T Overt Ops|QID|47995|M|59.14,20.20|Z|ArgusMacAree|N|To High Exarch Turalyon.|
 T Wrath of the High Exarch|QID|47854|M|59.14,20.20|Z|ArgusMacAree|N|To High Exarch Turalyon.|
-A Flanking Maneuvers|QID|47853|PRE|47691;47995;47854|M|59.14,20.20|Z|ArgusMacAree|N|From High Exarch Turalyon.|
-A Talgath's Forces|QID|48345|PRE|47691;47995;47854|M|59.08,20.07|Z|ArgusMacAree|N|From Prophet Velen.|
+A Flanking Maneuvers|QID|47853|PRE|47691&47995&47854|M|59.14,20.20|Z|ArgusMacAree|N|From High Exarch Turalyon.|
+A Talgath's Forces|QID|48345|PRE|47691&47995&47854|M|59.08,20.07|Z|ArgusMacAree|N|From Prophet Velen.|
 C Flanking Maneuvers|QID|47853|M|54.57,9.67|Z|ArgusMacAree|QO|1|NC|N|Legion portals closed.|S|
 C Talgath's Forces|QID|48345|M|50.84,9.18|Z|ArgusMacAree|QO|1|N|Talgath's forces slain.|
 C Flanking Maneuvers|QID|47853|M|54.57,9.67|Z|ArgusMacAree|QO|1|NC|N|Legion portals closed.|US|
 R Kil'jaeden's Terrace|ACTIVE|48345|M|53.87,12.69;52.26,14.86;53.43,17.75;52.31,20.36|Z|ArgusMacAree|CS|N|Go here to meet Velen.|
 T Talgath's Forces|QID|48345|M|48.80,19.73|Z|ArgusMacAree|N|To Prophet Velen.|
 T Flanking Maneuvers|QID|47853|M|48.80,19.73|Z|ArgusMacAree|N|To Prophet Velen.|
-A What Might Have Been|QID|47855|PRE|47853;48345|M|48.80,19.73|Z|ArgusMacAree|N|From Prophet Velen.|
+A What Might Have Been|QID|47855|PRE|47853&48345|M|48.80,19.73|Z|ArgusMacAree|N|From Prophet Velen.|
 C What Might Have Been|QID|47855|M|48.80,19.73|Z|ArgusMacAree|NC|CHAT|N|Ask Velen to show you.|
 T What Might Have Been|QID|47855|M|48.81,19.71|Z|ArgusMacAree|N|To Prophet Velen.|
 A Across the Universe|QID|47856|PRE|47855|M|48.81,19.71|Z|ArgusMacAree|N|From Prophet Velen.|
@@ -522,14 +536,14 @@ C Whispers from Oronaar|QID|40761|M|46.52,72.47|Z|ArgusMacAree|QO|3|NC|N|Abandon
 C Arkhaan's Prayers|QID|47101|M|47.15,70.91|Z|ArgusMacAree|N|Finish collecting the Fragmented Prayers.|US|
 T Arkhaan's Prayers|QID|47101|M|43.41,67.61|Z|ArgusMacAree|N|To Alleria Windrunner.|
 T Whispers from Oronaar|QID|40761|M|43.41,67.61|Z|ArgusMacAree|N|To Alleria Windrunner.|
-A The Pulsing Madness|QID|47180|PRE|47101;40761|M|43.41,67.61|Z|ArgusMacAree|N|From Alleria Windrunner.|
-A Arkhaan's Pain|QID|47100|PRE|47101;40761|M|43.47,67.71|Z|ArgusMacAree|N|From Arkhaan.|
+A The Pulsing Madness|QID|47180|PRE|47101&40761|M|43.41,67.61|Z|ArgusMacAree|N|From Alleria Windrunner.|
+A Arkhaan's Pain|QID|47100|PRE|47101&40761|M|43.47,67.71|Z|ArgusMacAree|N|From Arkhaan.|
 C Arkhaan's Pain|QID|47100|M|39.52,68.67|Z|ArgusMacAree|N|Broken slain.|S|
 C The Pulsing Madness|QID|47180|M|42.14,71.10|Z|ArgusMacAree|NC|U|151563|N|Void Manifestations cleansed.|
 C Arkhaan's Pain|QID|47100|M|39.52,68.67|Z|ArgusMacAree|N|Broken slain.|US|
 T The Pulsing Madness|QID|47180|M|43.41,67.61|Z|ArgusMacAree|N|To Alleria Windrunner.|
 T Arkhaan's Pain|QID|47100|M|43.48,67.72|Z|ArgusMacAree|N|To Arkhaan.|
-A Arkhaan's Plan|QID|47183|PRE|47100;47180|M|43.48,67.72|Z|ArgusMacAree|N|From Arkhaan.|
+A Arkhaan's Plan|QID|47183|PRE|47100&47180|M|43.48,67.72|Z|ArgusMacAree|N|From Arkhaan.|
 C Arkhaan's Plan|QID|47183|M|40.60,62.67|Z|ArgusMacAree|QO|1|NC|N|Follow Arkhaan.|
 C Arkhaan's Plan|QID|47183|M|40.42,61.98|Z|ArgusMacAree|QO|2|CHAT|N|Tell Arkhaan we should keep going.|
 C Arkhaan's Plan|QID|47183|M|35.46,59.69|Z|ArgusMacAree|QO|3|N|Escort Arkhaan to Isolon.|
@@ -553,7 +567,7 @@ C Sources of Darkness|QID|47217|M|25.62,32.46|Z|ArgusMacAree|NC|N|Deactivate Voi
 C The Shadowguard Incursion|QID|47218|M|26.28,32.91|Z|ArgusMacAree|N|Finish killing the Shadowguard Ethereals.|S|
 T Sources of Darkness|QID|47217|M|31.88,37.45|Z|ArgusMacAree|N|To Alleria Windrunner.|
 T The Shadowguard Incursion|QID|47218|M|31.93,37.34|Z|ArgusMacAree|N|To Locus-Walker.|
-A A Vessel Made Ready|QID|47219|PRE|47217;47218|M|31.93,37.34|Z|ArgusMacAree|N|From Locus-Walker.|
+A A Vessel Made Ready|QID|47219|PRE|47217&47218|M|31.93,37.34|Z|ArgusMacAree|N|From Locus-Walker.|
 C A Vessel Made Ready|QID|47219|M|31.95,37.02|Z|ArgusMacAree|QO|1|NC|N|Enter the Void Tear.|
 K Kill Nhal'athoth|ACTIVE|47219|M|26.62,45.21|Z|ArgusMacAree|QO|2|N|Defeat Nhal'athoth, after killing the 3 Shadowcallers.|T|Nhal'athoth|
 C A Vessel Made Ready|QID|47219|M|26.60,44.99|Z|ArgusMacAree|QO|3|NC|N|Loot the Heart of Nhal'athoth.|

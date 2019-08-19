@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_horde
+-- Date: 2018-10-17 02:28
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3294/revisions/29228/view
 -- Date: 2018-03-07 13:48
 -- Who: Ludovicus_EditBot
 -- Log: Corrected QID on C steps for [We Have the Power].  Credit to Behemoth!
@@ -280,7 +285,7 @@ C The Darkness Beneath|QID|12213|QO|1|U|37173|N|Again, the orb must be used in t
 C Vordrassil's Fall|QID|12207|N|Kill and loot the Entropic Oozes in any of the caves to get the samples.|US|
 
 T Ruuna the Blind|QID|12425|M|44.1,48.0|N|To Ruuna the Blind.|
-A Ruuna's Request |QID|12328|PRE|12161+12425|M|44.0,47.9|N|From Ruuna the Blind.|
+A Ruuna's Request |QID|12328|PRE|12161^12425|M|44.0,47.9|N|From Ruuna the Blind.|
 C Ruuna's Request|QID|12328|N|Head to the area northeast of Grizzlemaw but south of the tower on the world map. Kill the moths here for the Gossamer Dust.|M|53,35|
 C Eyes Above|QID|12453|U|37877|M|43.2,40.7|US|N|Use the Silver Feather on 6 Imperial Eagles.|
 T Ruuna's Request |QID|12328|N|To Ruuna the Blind.|M|44.07,48.01|

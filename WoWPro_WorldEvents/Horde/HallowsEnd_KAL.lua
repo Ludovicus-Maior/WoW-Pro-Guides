@@ -4,6 +4,31 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_horde
+-- Date: 2019-02-19 23:15
+-- Who: Ludovicus_Maior
+-- Log: Minor zone and coord tweaks in CAT
+
+-- URL: http://wow-pro.com/node/3441/revisions/30107/view
+-- Date: 2018-10-31 17:04
+-- Who: Emmaleah
+-- Log: fixed my error of deleting end of file markers on EK and Cata.
+
+-- URL: http://wow-pro.com/node/3441/revisions/30106/view
+-- Date: 2018-10-31 11:01
+-- Who: Emmaleah
+-- Log: corrections to MoP and Outlands 
+
+-- URL: http://wow-pro.com/node/3441/revisions/30103/view
+-- Date: 2018-10-30 20:13
+-- Who: Emmaleah
+-- Log: updated cata guide.
+
+-- URL: http://wow-pro.com/node/3441/revisions/30102/view
+-- Date: 2018-10-30 18:24
+-- Who: Emmaleah
+-- Log: Changes for BFA to Kalimdor and EK guides.
+
+-- URL: http://wow-pro.com/node/3441/revisions/28513/view
 -- Date: 2017-03-17 14:09
 -- Who: Ludovicus_Maior
 -- Log: Syntax and PRE for LudoHallowPanH
@@ -268,13 +293,14 @@ A Candy Bucket|QID|28998|M|51.97,47.63|Z|Feralas|N|Chonk, Stonemaul Hold|
 F Camp Mojache|QID|12386|M|51.00,48.43|U|37586|Z|Feralas|N|Fly to Camp Mojache, Feralas.|
 A Candy Bucket|QID|12386|M|74.83,45.14|Z|Feralas|N|Innkeeper Greul, Camp Mojache|
 
-F Cenarion Hold|QID|12401|M|75.44,44.36|U|37586|Z|Feralas|N|Fly to Cenarion Hold, Silithus.|
-A Candy Bucket|QID|12401|M|55.5,36.7|Z|Silithus|N|Calandrath, Cenarion Hold|
-
-F Marshal's Stand|QID|29018|M|52.77,34.63|U|37586|Z|Silithus|N|Fly to Marshal's Stand, Un'Goro Crater.|
+F Marshal's Stand|QID|29018|M|75.44,44.36|U|37586|Z|Feralas|N|Fly to Marshal's Stand, Un'Goro Crater.|
 A Candy Bucket|QID|29018|M|55.27,62.12|Z|Un'Goro Crater|N|Innkeeper Dreedle, Marshal's Stand|
 
-F Bootlegger Outpost|QID|29014|M|55.98,64.17|Z|Un'Goro Crater|U|37586|N|Fly to Bootlegger Outpost, Tanaris.|
+R Zidormi|QID|12401|M|78.93,21.93|Z|Silithus|U|37856|N|Fly to Zidormi and tell him to reset the zone to before Azeroth was wounded, (optional go back after you get the bucket if you want to put it back). This step must be manually checked off.|
+R Cenarion Hold|QID|12401|M|55.5,36.7|Z|Silithus|U|37586|N|Fly to Cenarion Hold, Silithus.|
+A Candy Bucket|QID|12401|M|55.5,36.7|Z|Silithus|N|Calandrath, Cenarion Hold|
+
+F Bootlegger Outpost|QID|29014|M|52.77,34.63|U|37586|Z|Silithus|N|Fly to Bootlegger Outpost, Tanaris.|
 A Candy Bucket|QID|29014|M|55.7,60.96|Z|Tanaris|N|Inkeeper Ibanozzel, Bootlegger Outpost.|
 
 F Gadgetzan|QID|12399|M|55.88,60.6|Z|Tanaris|U|37586|N|Fly to Gadgetzan.|
@@ -295,7 +321,7 @@ A Candy Bucket|QID|29004|M|39.29,20.10|Z|Southern Barrens|N|Innkeeper Hurnahet, 
 F Desolation Hold|QID|29005|M|39.78,20.27|U|37586|Z|Southern Barrens|N|Fly to Desolation Hold, Southern Barrens.|
 A Candy Bucket|QID|29005|M|40.71,69.31|Z|Southern Barrens|N|Innkeeper Lhakadd, Desolation Hold|
 
-N BioBreak|N|Take a break and pick the next guide to do.|
+N BioBreak|N|Take a break and pick the next guide to do.|U|37586|
 
 ]]
 end)

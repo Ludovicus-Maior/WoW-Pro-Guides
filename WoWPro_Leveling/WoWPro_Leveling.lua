@@ -11,7 +11,7 @@ WoWPro.Leveling.StartGuides = {
 			Troll = "BitDur0105", 
 			Scourge = "JiyDk0105",
 			Tauren = "GylNar0105",
-			BloodElf = "SnoSun0105",
+			BloodElf = "KraSunIsle",
 			Goblin = "MalKez0105", 
 			Draenei = "SnoAmmen0105",
 			NightElf = "BitSha0105",
@@ -27,6 +27,16 @@ WoWPro.Leveling.AlliedStartGuides = {
 			HighmountainTauren = "LudoHighTauren",
 			Nightborne = "LudoNightborne"
 		}
+WoWPro.Leveling.ClassicStartGuides = {
+	Dwarf = 'ClassicDunMorogh0112',
+	Gnome = 'ClassicDunMorogh0112',
+	Human = 'ClassicElwynn0112',
+	NightElf = "ClassicTeldrassil0105",
+	Orc = 'Classic-01-05-Zerinj-Durotar',
+	Scourge = 'Classic-01-12-Manovan-TirisfalGlades',
+	Tauren = 'Classic-01-05-Shururu-Mulgore',
+	Troll = 'Classic-01-05-Zerinj-Durotar'
+}
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Leveling:OnInitialize()
@@ -51,8 +61,12 @@ function WoWPro.Leveling:OnEnable()
 	-- New Level 1 Character --	
 	if UnitLevel("player") == 1 and UnitXP("player") < 100 then
 		WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
-		WoWProDB.char.currentguide = WoWPro.Leveling.StartGuides[engRace]
-		WoWPro:LoadGuide(WoWPro.Leveling.StartGuides[engRace])
+		if WoWPro.CLASSIC then
+			WoWProDB.char.currentguide = WoWPro.Leveling.ClassicStartGuides[engRace]
+		else
+			WoWProDB.char.currentguide = WoWPro.Leveling.StartGuides[engRace]
+		end
+		WoWPro:LoadGuide(WoWProDB.char.currentguide)
 	-- New Death Knight --
 	elseif UnitLevel("player") == 55 and UnitXP("player") < 2000 and engClass == "DEATHKNIGHT" then
 	    WoWPro.Leveling:dbp("Loading starter %s guide",locClass)

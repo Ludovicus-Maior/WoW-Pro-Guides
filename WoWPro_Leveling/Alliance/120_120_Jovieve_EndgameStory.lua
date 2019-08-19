@@ -3,13 +3,22 @@
 -- Based on a work at github.com.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
+-- URL: http://wow-pro.com/wiki/alliance_endgame_storylines
+-- Date: 2018-10-20 20:50
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3781/revisions/29779/view
+-- Date: 2018-09-21 01:45
+-- Who: elidion
+-- Log: Initial guide.
+
 local guide = WoWPro:RegisterGuide('JoviJaina', 'Leveling', 'Kul Tiras', 'Jovieve', 'Alliance')
 WoWPro:GuideLevels(guide,120, 120)
 WoWPro:GuideName(guide,'Endgame Storylines')
 WoWPro:GuideNextGuide(guide, 'TBD')
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
-
 
 return [[
 N About|M|67.99,22.01|Z|Boralus|N|You must be level 120 and have the Kul Tourist achievement to start this guide. This guide is for the Jaina Proudmoore storyline in Kul'tiras. It earns the Pride of Kul'tiras achievement and unlocks the Siege of Boralus mythic-only instance.|AVAILABLE|52194|
@@ -64,12 +73,12 @@ F Tidecross|ACTIVE|52453|M|47.75,65.43|Z|Boralus|N|Fly to Tidecross in Stormsong
 T A Forlorn Hope|QID|52453|M|70.36,36.39|Z|Stormsong Valley|N|To Brother Pike.|
 A The Strength of the Storm|QID|52509|M|70.36,36.39|Z|Stormsong Valley|N|From Brother Pike.|PRE|52453|
 A Ritual Effects|QID|52508|M|70.36,36.39|Z|Stormsong Valley|N|From Brother Pike.|PRE|52453|
-C The Strength of the Storm|QID|52509|M|72.18,29.57|Z|Stormsong Valley|S||N|Kill elementals and use the Staff of Storms after they die.|U|162446|
+C The Strength of the Storm|QID|52509|M|72.18,29.57|Z|Stormsong Valley|S|N|Kill elementals and use the Staff of Storms after they die.|U|162446|
 C Ritual Effects|QID|52508|M|73.49,32.83|Z|Stormsong Valley|N|Kill abyssal prophets until you get the three quest items.|
 C The Strength of the Storm|QID|52509|M|72.18,29.57|Z|Stormsong Valley|US|N|Kill elementals and use the Staff of Storms after they die.|U|162446|
 T The Strength of the Storm|QID|52509|M|78.32,28.79|Z|Stormsong Valley|N|To Brother Pike, who has moved to Shrine of the Storm flight point. Your flight whistle should take you there.|U|141605|
 T Ritual Effects|QID|52508|M|78.32,28.79|Z|Stormsong Valley|N|To Brother Pike.|
-A Shrine of the Storm: The Missing Ritual|QID|52510|M|78.32,28.79|Z|Stormsong Valley|N|From Brother Pike.|PRE|52508;52509|
+A Shrine of the Storm: The Missing Ritual|QID|52510|M|78.32,28.79|Z|Stormsong Valley|N|From Brother Pike.|PRE|52508&52509|
 C Shrine of the Storm: The Missing Ritual|QID|52510|M|78.87,26.49|Z|Stormsong Valley|QO|1|NC|N|Complete the Shrine of the Storm dungeon on any 'non-mythic+' difficulty. Use the staff to take down the ball-like barrier surrounding the Ritual of Passage located in the building before the long bridge a bit after you kill the Tidesage Council on 'The Blessed Path'.|U|162462|
 C Shrine of the Storm: The Missing Ritual|QID|52510|M|78.87,26.49|Z|Stormsong Valley|QO|2|N|Kill Vol'zith the Whisperer, the final boss.|
 F Millstone Hamlet|ACTIVE|52510|M|78.31,28.99|Z|Stormsong Valley|N|Fly to Millstone Hamlet in South-Western Stormsong Valley.|
@@ -109,7 +118,7 @@ C Ancient Sinew|QID|52483|M|39.59,59.19|Z|Drustvar|QO|2|US|N|Kill the undead in 
 T Nightmare Catcher|QID|52483|M|41.44,45.17;44.84,39.97;46.36,39.10;45.21,45.83|CS|Z|Drustvar|N|Whistle back to Arom's Stand and make your way back to Ulfar.|
 T Buried Power|QID|52484|M|45.21,45.83|Z|Drustvar|N|To Ulfar.|
 T Hatred's Focus|QID|52485|M|45.21,45.83|Z|Drustvar|N|To Ulfar.|
-A Waycrest Manor: Draining the Heartsbane|QID|52486|M|45.25,45.84|Z|Drustvar|N|From Ulfar.|PRE|52483;52484;52485|
+A Waycrest Manor: Draining the Heartsbane|QID|52486|M|45.25,45.84|Z|Drustvar|N|From Ulfar.|PRE|52483&52484&52485|
 C Waycrest Manor: Draining the Heartsbane|QID|52486|M|33.72,11.84|Z|Drustvar|QO|1|NC|N|Complete the Waycrest Manor dungeon on any 'non-mythic+' difficulty. Once you're in the room with Lord and Lady Waycrest you should get an extra action button to empower Korvash's Skull.|
 C Waycrest Manor: Draining the Heartsbane|QID|52486|M|33.72,11.84|Z|Drustvar|QO|2|N|Kill Gorak Tul, the final boss.|
 T Waycrest Manor: Draining the Heartsbane|QID|52486|M|36.87,50.11|Z|Drustvar|N|To Lucille Waycrest in Drustvar.|

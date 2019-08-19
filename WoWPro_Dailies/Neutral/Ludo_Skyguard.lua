@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/skyguard_dalies
+-- Date: 2018-10-17 02:22
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3457/revisions/29607/view
 -- Date: 2018-08-24 16:21
 -- Who: Ludovicus_Maior
 -- Log: Updated QO's on [Secrets of the Talonpriests]
@@ -80,7 +85,7 @@ F Sylvanaar|N|Closest flightpoint to Ogri'la|
 A Wrangle More Aether Rays!|QID|11066|PRE|11065|M|28.0,51.4|Z|Blade's Edge Mountains|N|From Skyguard Khatie|
 C Wrangle More Aether Rays!|QID|11066|M|28.80,57.60;27.80,52.15;31.80,56.50;31.50,52.55|Z|Blade's Edge Mountains|CN|
 T Wrangle More Aether Rays!|QID|11066|M|28.0,51.4|Z|Blade's Edge Mountains|N|From Skyguard Khatie|
-A Bomb Them Again!|QID|11023|PRE|11010+11102|M|27.6,52.8|Z|Blade's Edge Mountains|N|From Sky Sergeant Vanderlip|
+A Bomb Them Again!|QID|11023|PRE|11010^11102|M|27.6,52.8|Z|Blade's Edge Mountains|N|From Sky Sergeant Vanderlip|
 C Bomb Them Again!|QID|11023|M|27.6,52.8|Z|Blade's Edge Mountains|N|Destroy Fel Cannonball Stacks.  Acheivement for doing it in under 2 minutes, 15 seconds while not in a group.|
 T Bomb Them Again!|QID|11023|M|27.6,52.8|Z|Blade's Edge Mountains|N|To Sky Sergeant Vanderlip|
 

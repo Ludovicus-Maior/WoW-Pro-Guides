@@ -12,14 +12,11 @@ WoWPro.Recorder.stepInfo = {}
 WoWPro.Recorder.LoadingGuide = false
 
 function WoWPro.Recorder:OnInitialize()
-	
-	-- Creating the config options --
+-- Creating the config options --
 --	WoWPro.Recorder:CreateConfig()
-
 end
 
 function WoWPro.Recorder:OnEnable()
-
 	--Loading Frames--
 	if not WoWPro.Recorder.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro.Recorder:CreateRecorderFrame()
@@ -30,23 +27,19 @@ function WoWPro.Recorder:OnEnable()
 	-- Creating empty user settings if none exist
 	WoWPro_RecorderDB = WoWPro_RecorderDB or {}
 	WoWPro.Recorder.CurrentGuide = WoWPro.Recorder.CurrentGuide or {}
-	
+
 	WoWPro.Recorder:CustomizeFrames()
-	
 	WoWPro.Recorder:RegisterEvents()
 	WoWPro.Recorder:RegisterSavedGuides()
 	WoWPro.Recorder.ProcessScenarioStage(nil)
 end
 
 function WoWPro.Recorder:OnDisable()
-
 	-- Unregistering Recorder Module Events --
-	local events = {
-	}
+	local events = {}
 	for _, event in ipairs(events) do
 		WoWPro.GuideFrame:UnregisterEvent(event)
 	end
-	
 end
 
 function WoWPro.Recorder:RegisterSavedGuides()
@@ -74,7 +67,7 @@ end
 function WoWPro.Recorder:InitGuide(GIDvalue,guidetype,kvp)
 	WoWPro.Guides[GIDvalue] = {
 	    guidetype = guidetype,
-		sequence = function() 
+		sequence = function()
 return [[
 ]] end,
 	}
@@ -97,7 +90,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 	WoWPro.Recorder:dbp(event.." event fired.")
 	if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
 
-	local x, y = WoWPro.HBD:GetPlayerZonePosition()
+	local x, y = WoWPro:GetPlayerZonePosition()
 	local zonetag = WoWPro.GetZoneText()
 	if zonetag == WoWPro.Guides[GID].zone then
 	    zonetag = nil
@@ -122,9 +115,9 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 			if GetUnitName("target") then stepInfo.note = "At "..GetUnitName("target").."." end
 			WoWPro.Recorder:dbp("Adding hearth location "..loc)
 			WoWPro.Recorder.AddStep(stepInfo)
-		end	
+		end
 		WoWPro:AutoCompleteSetHearth(event, ...)
-		
+
 	elseif event == "PLAYER_LEVEL_UP" then
 		WoWPro.Recorder:dbp("PLAYER_LEVEL_UP detected.")
 		local newLevel = ...
@@ -138,7 +131,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 		WoWPro.Recorder:dbp("Adding level up to level "..newLevel)
 		WoWPro.Recorder.AddStep(stepInfo)
 		WoWPro:AutoCompleteLevel(newLevel)
-		
+
 	elseif event == "UI_INFO_MESSAGE" then
 		WoWPro.Recorder:dbp("UI_INFO_MESSAGE detected.")
 		local _, msg = ...
@@ -155,11 +148,11 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 			WoWPro.Recorder.AddStep(stepInfo)
 		    WoWPro:AutoCompleteGetFP(event, ...)
 		end
-		
+
 	elseif event == "POST_QUEST_LOG_UPDATE" then
 		WoWPro.Recorder:dbp("POST_QUEST_LOG_UPDATE detected.")
 		WoWPro.inhibit_oldQuests_update = false
-		
+
 		if WoWPro.newQuest then
 			local questInfo = WoWPro.QuestLog[WoWPro.newQuest]
 			local stepInfo = {
@@ -175,7 +168,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 			WoWPro.Recorder:dbp("Adding new quest "..WoWPro.newQuest)
 			WoWPro.Recorder.AddStep(stepInfo)
 			WoWPro:AutoCompleteQuestUpdate()
-			
+
 		elseif WoWPro.missingQuest and WoWPro.CompletingQuest then
 			local questInfo = WoWPro.oldQuests[WoWPro.missingQuest]
 			local stepInfo = {
@@ -190,7 +183,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 			WoWPro.Recorder:dbp("Turning in quest "..stepInfo.QID)
 			WoWPro.Recorder.AddStep(stepInfo)
 			WoWPro:AutoCompleteQuestUpdate()
-			
+
 		else
 		    WoWPro.Recorder:dbp("Got PQLU and looking for changed quest status")
 			for QID, questInfo in pairs(WoWPro.QuestLog) do
@@ -258,7 +251,7 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
         old_scenario = nil
         return
     end
-    
+
     local GID = WoWProDB.char.currentguide
     local zonetag
     if GetZoneText() ~= WoWPro.Guides[GID].zone then
@@ -266,7 +259,7 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
     else
         zonetag = nil
     end
-    
+
     if old_scenario then
         -- has anything changed?
         if old_scenario.currentStage < scenario.currentStage then
@@ -303,10 +296,10 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
                     sobjective = tostring(old_scenario.currentStage),
                 }
                 WoWPro.Recorder:Print("Finishing final stage: %s", stepInfo.step)
-                WoWPro.Recorder.AddStep(stepInfo)        
+                WoWPro.Recorder.AddStep(stepInfo)
             end
         end
-    else    
+    else
        -- New Scenario
         local stepInfo = {
             action = "C",
@@ -325,7 +318,7 @@ end
 
 function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
     local GID = WoWProDB.char.currentguide
-    local x, y = WoWPro.HBD:GetPlayerZonePosition()
+    local x, y = WoWPro:GetPlayerZonePosition()
     local zonetag = WoWPro.GetZoneText()
     if zonetag == WoWPro.Guides[GID].zone then
         zonetag = nil
@@ -396,12 +389,12 @@ end
 
 function WoWPro.Recorder:RegisterEvents()
 	WoWPro.Recorder.events = {"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP"}
-	
+
 	for _, event in pairs(WoWPro.Recorder.events) do
 		WoWPro.RecorderFrame:RegisterEvent(event)
 		WoWPro.Recorder:dbp(event.." event registered")
 	end
-	
+
 	WoWPro.RecorderFrame:SetScript("OnEvent", WoWPro.Recorder.eventHandler);
 end
 
@@ -413,11 +406,11 @@ function WoWPro.Recorder:RowUpdate(offset)
 			{text = "Move Earlier", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == 1 then return end
-				for tag,_ in pairs(WoWPro.Tags) do
-				    local a = WoWPro[tag][pos]
-				    local b = WoWPro[tag][pos-1]
-				    WoWPro[tag][pos] = b
-				    WoWPro[tag][pos-1] = a
+				for key,tag in pairs(WoWPro.Tags) do
+				    local a = WoWPro[key][pos]
+				    local b = WoWPro[key][pos-1]
+				    WoWPro[key][pos] = b
+				    WoWPro[key][pos-1] = a
 				end
 				WoWPro.Recorder.SelectedStep = pos-1
 				WoWPro.Recorder:CheckpointCurrentGuide("MoveEarlier")
@@ -426,11 +419,11 @@ function WoWPro.Recorder:RowUpdate(offset)
 			{text = "Move Later", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				if pos == WoWPro.stepcount then return end
-				for tag,_ in pairs(WoWPro.Tags) do 
-				    local a = WoWPro[tag][pos]
-				    local b = WoWPro[tag][pos+1]
-				    WoWPro[tag][pos] = b
-				    WoWPro[tag][pos+1] = a
+				for key,tag in pairs(WoWPro.Tags) do
+				    local a = WoWPro[key][pos]
+				    local b = WoWPro[key][pos+1]
+				    WoWPro[key][pos] = b
+				    WoWPro[key][pos+1] = a
 				end
 				WoWPro.Recorder.SelectedStep = pos+1
 				WoWPro.Recorder:CheckpointCurrentGuide("MoveLater")
@@ -438,9 +431,9 @@ function WoWPro.Recorder:RowUpdate(offset)
 			end},
 			{text = "Clone Step", func = function()
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
-				for tag,_ in pairs(WoWPro.Tags) do 
-					if not WoWPro[tag][pos] then WoWPro[tag][pos] = false end
-					table.insert(WoWPro[tag], pos+1, WoWPro[tag][pos])
+				for key,tag in pairs(WoWPro.Tags) do
+					if not WoWPro[key][pos] then WoWPro[key][pos] = false end
+					table.insert(WoWPro[key], pos+1, WoWPro[key][pos])
 				end
 				WoWPro.stepcount = WoWPro.stepcount+1
 			    WoWPro.Recorder:CheckpointCurrentGuide("Clone")
@@ -448,13 +441,11 @@ function WoWPro.Recorder:RowUpdate(offset)
 			end}
 		}
 		WoWPro.Recorder.RowDropdownMenu[i] = dropdown
-		
 		if WoWPro.Recorder.SelectedStep == row.index then
 			row:SetChecked(true)
 		else
 			row:SetChecked(false)
 		end
-		
 	end
 end
 
@@ -462,7 +453,7 @@ function WoWPro.Recorder:RowLeftClick(i)
 	WoWPro.Recorder.SelectedStep = WoWPro.rows[i].index
 	WoWPro.Recorder:RowUpdate(true)
 end
-		
+
 function WoWPro.Recorder.AddStep(stepInfo,position)
     if not WoWPro.GuideLoaded then
         WoWPro.Recorder:Warning("Hey, no guide is loaded!")
@@ -478,17 +469,17 @@ function WoWPro.Recorder.AddStep(stepInfo,position)
     if type(stepInfo.step) ~= "string" then
         stepInfo.step = "?"
     end
-        
+
 	local pos = position or WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 	if pos > WoWPro.stepcount then
 	    pos = WoWPro.stepcount
 	end
 	WoWPro.Recorder:dbp("Adding new step %d %s [%s]", pos+1, stepInfo.action, stepInfo.step)
-	for tag,_ in pairs(WoWPro.Tags) do 
-		value = stepInfo[tag]
+	for key,tag in pairs(WoWPro.Tags) do
+		value = stepInfo[key]
 		if not value then value = false end
-		table.insert(WoWPro[tag], pos+1, value)
---		WoWPro.Recorder:dbp("Adding tag "..tag.." at position "..pos+1)
+		table.insert(WoWPro[key], pos+1, value)
+--		WoWPro.Recorder:dbp("Adding key "..key.." at position "..pos+1)
 	end
 	WoWPro.stepcount = WoWPro.stepcount+1
 	if WoWPro.Recorder.SelectedStep then
@@ -510,9 +501,9 @@ function WoWPro.Recorder:RemoveStep(position)
     end
 	local pos = position or WoWPro.stepcount
 	WoWPro.Recorder:dbp("Deleteing step %d %s [%s]",pos, WoWPro.action[pos], WoWPro.step[pos])
-	for tag,_ in pairs(WoWPro.Tags) do 
-		table.remove(WoWPro[tag], pos)
---		WoWPro.Recorder:dbp("Removing tag "..tag.." at position "..pos)
+	for key,tag in pairs(WoWPro.Tags) do
+		WoWPro[key][pos] = nil
+--		WoWPro.Recorder:dbp("Removing key "..key.." at position "..pos)
 	end
 	WoWPro.stepcount = WoWPro.stepcount-1
 	if WoWPro.Recorder.SelectedStep then
@@ -567,6 +558,16 @@ function WoWPro.Recorder.EmitStep(i)
             else
                 line = addTagValue(line, tag, WoWPro.lootitem[i])
             end
+        elseif key == "sticky" then
+            if WoWPro.sticky[i] and WoWPro.unsticky[i] then
+                line = addTag(line, "S!US")
+            elseif  WoWPro.sticky[i] and not WoWPro.unsticky[i] then
+                line = addTag(line, "S")
+            elseif  WoWPro.unsticky[i] and not WoWPro.sticky[i] then
+                line = addTag(line, "US")
+            end
+        elseif key == "unsticky" then
+            line = line
         elseif tag == "CC" then
             if WoWPro.waypcomplete[i] == 1 then
                 line = addTag(line, "CC")
@@ -582,12 +583,12 @@ function WoWPro.Recorder.EmitStep(i)
             if WoWPro.zone[i] and WoWPro.zone[i] ~= WoWPro.Guides[GID].zone then
                 line = addTagValue(line, tag, WoWPro.zone[i])
             end
-        elseif WoWPro.TagTable[tag].vtype == "boolean" then
+        elseif tag and WoWPro.TagTable[tag].vtype == "boolean" then
             -- No value
             if WoWPro[key][i] then
                 line = addTag(line, tag)
             end
-        else
+        elseif key then
             -- Everything else is a value
             if WoWPro[key][i] then
                 line = addTagValue(line, tag, WoWPro[key][i])
@@ -619,21 +620,20 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 		.."WoWPro:GuideNextGuide(guide, "
 		..quoted(WoWPro.Guides[GID].nextGID)..")\n"
 		.."WoWPro:GuideSteps(guide, function()\nreturn [[\n"
-		
+
 	local sequence = {}
-		
-	
+
 	for i,action in pairs(WoWPro.action) do
 	    local line = WoWPro.Recorder.EmitStep(i)
 		table.insert(sequence,line)
 	end
-	
+
 	local sequence_string = table.concat(sequence,"\n")
 	-- This needs to be kosher, in case we go through a portal.
 	WoWPro.Guides[GID].sequence = function () return sequence_string:gsub("||", "|"); end
 
 	local guideString = header.. sequence_string .."\n]]\n\nend)"
-	
+
 	WoWPro_RecorderDB[GID] = WoWPro.ShallowCopyTable(WoWPro.Guides[GID])
 	WoWPro_RecorderDB[GID].sequence = sequence_string
 	WoWPro.Recorder:dbp("WoWPro.Recorder:CheckpointCurrentGuide(%s)",why)

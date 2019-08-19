@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_alliance
+-- Date: 2019-07-21 19:37
+-- Who: Hendo72
+-- Log: Finished my run-through. Did a couple coordinate changes with the help of Emmaleah. They may need further testing to confirm they are still working as intended.
+
+-- URL: http://wow-pro.com/node/3239/revisions/30318/view
+-- Date: 2019-07-21 06:21
+-- Who: Hendo72
+-- Log: Corrected 'Summoning Shadra' quest line. Southwestern Temple |QO| should be '3' instead of '1'. I've also removed the object text from the quest steps.
+
+-- URL: http://wow-pro.com/node/3239/revisions/30317/view
+-- Date: 2019-07-20 22:13
+-- Who: Hendo72
+-- Log: Rewrote 'The Highvale Documents' quest line for better flow and a more uniform syntax. All quest steps now use |QO| tag.
+
+-- URL: http://wow-pro.com/node/3239/revisions/29928/view
+-- Date: 2018-10-17 02:23
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3239/revisions/29169/view
 -- Date: 2018-02-26 21:36
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -142,7 +162,7 @@ C Razorbeak Friends|QID|26546|U|58935|M|15.43,52.23;23.26,54.02|CN|N|Target a Tr
 C A Mangy Threat|QID|26547|M|21.00,53.91|N|Finish killing the wolves as you make your way back to Aerie Peak.|US|
 T Razorbeak Friends|QID|26546|M|9.97,44.27|N|To Gryphon Master Talonaxe.|
 T A Mangy Threat|QID|26547|M|9.97,44.27|N|To Gryphon Master Talonaxe.|
-A Out to the Front|QID|26548|PRE|26546;26547|M|9.97,44.27|N|From Gryphon Master Talonaxe.|
+A Out to the Front|QID|26548|PRE|26546&26547|M|9.97,44.27|N|From Gryphon Master Talonaxe.|
 
 F Stormfeather Outpost|QID|26548|M|11.11,46.09|N|Talk to Guthrum Thunderfist, and choose to go to Stormfeather Outpost.|
 f Stormfeather Outpost|QID|26548|M|65.74,44.94|N|At Brock Rockbeard.|
@@ -164,12 +184,12 @@ C Snapjaws, Lad!|QID|26485|US|M|77.34,70.34|N|Finish killing and looting the Sal
 H Stormfeather Outpost|QID|26485|M|76.56,60.89;72.46,66.43;66.28,45.13|CC|N|Hearthstone back to Stormfeather Outpost, or follow the waypoints to get back to Stormfeather Outpost.|
 T The Wicked Revantusk|QID|26462|M|66.30,44.36|N|To Kerr Ironsight.|
 T Gan'dranda|QID|26483|M|66.30,44.36|N|To Kerr Ironsight.|
-A Skulk Rock Clean-Up|QID|26491|PRE|26462;26483|M|66.30,44.36|N|From Kerr Ironsight.|
-A Skulk Rock Supplies|QID|26492|PRE|26462;26483|M|66.30,44.36|N|From Kerr Ironsight.|
+A Skulk Rock Clean-Up|QID|26491|PRE|26462&26483|M|66.30,44.36|N|From Kerr Ironsight.|
+A Skulk Rock Supplies|QID|26492|PRE|26462&26483|M|66.30,44.36|N|From Kerr Ironsight.|
 r Repair and Sell Junk|QID|26485|N|Excellent opportunity to repair and sell your junk with Brannik Ironbelly|M|66.61,44.16|
 T Snapjaws, Lad!|QID|26485|M|66.27,44.36|N|To Dron Blastbrew.|
 T 99 Bottles of Booze on the Beach|QID|26486|M|66.27,44.36|N|To Dron Blastbrew.|
-A Prime Slime|QID|26490|PRE|26462;26483|M|66.27,44.36|N|From Dron Blastbrew.|
+A Prime Slime|QID|26490|PRE|26462&26483|M|66.27,44.36|N|From Dron Blastbrew.|
 
 R Skulk Rock |QID|26490|M|57.42,38.67|N|Head to Skulk Rock, then to the cave entrance near the river.|
 C Skulk Rock Supplies|QID|26492|M|57.80,41.44|N|Look around inside the cave to find the Ooze-Coated Supply Crates.|S|NC|
@@ -180,7 +200,7 @@ C Skulk Rock Clean-Up|QID|26491|M|58.29,40.76|N|Head back outside to finish kill
 T Skulk Rock Clean-Up|QID|26491|M|66.31,44.39|N|To Kerr Ironsight.|
 T Skulk Rock Supplies|QID|26492|M|66.31,44.39|N|To Kerr Ironsight.|
 
-A Down with the Vilebranch|QID|26496|LEAD|26497|PRE|26491;26492|M|66.31,44.39|N|From Kerr Ironsight.|
+A Down with the Vilebranch|QID|26496|LEAD|26497|PRE|26491&26492|M|66.31,44.39|N|From Kerr Ironsight.|
 r Repair and Sell Junk|QID|26490|N|Excellent opportunity to repair and sell your junk with Brannik Ironbelly|M|66.61,44.16|
 T Prime Slime|QID|26490|M|66.31,44.39|N|To Dron Blastbrew.|
 T Down with the Vilebranch|QID|26496|M|63.90,59.72|N|To Doran Steelwing.|
@@ -216,7 +236,7 @@ T Ongo'longo's Revenge|QID|26515|M|63.89,59.97|N|To Doran Steelwing.|
 T Death to the Vilebranch|QID|26498|M|63.87,59.99|N|To Doran Steelwing.|
 T Dark Vessels|QID|26524|M|63.83,60.02|N|To Fraggar Thundermantle.|
 A It's Ours Now|QID|26516|PRE|26498|M|63.87,59.99|N|From Doran Steelwing.|
-A Summit of Fate|QID|26517|PRE|26515;26524|M|63.83,59.97|N|From Fraggar Thundermantle.|
+A Summit of Fate|QID|26517|PRE|26515&26524|M|63.83,59.97|N|From Fraggar Thundermantle.|
 
 F Jintha'Alor |QID|26517|M|63.90,60.04|N|For the second time, speak to Doran Steelwing and ask for a ride to the top of Jintha'Alor.|
 
@@ -236,27 +256,28 @@ C Venomous Secrets|QID|26525|S|M|56.40,83.59|N|Kill 8 Spawn of Shadra.|
 C Hunt the Keeper|QID|26526|M|59.69,77.83;59.05,78.69;57.8,81.55;56.91,83.42;54.59,83.59|CS|N|Head through the cave, then turn right. There's a second cave, go into the cave, take the middle path at the split. Then take a right and follow the path back to Morta'gya. Kill her and loot the tablet from her.|
 C Venomous Secrets|QID|26525|US|N|Kill 8 Spawn of Shadra.|
 
-F The Hinterlands |QID|26526|M|53.25,66.25|N|Head back to Sharpbeak and ride him back down to Fraggar Thundermantle.|
+F Back to Fragger |ACTIVE|26517|M|53.25,66.25;63.75,60.04|CC|N|Head back to Sharpbeak and ride him back down to Fraggar Thundermantle.|
 
 T Hunt the Keeper|QID|26526|M|63.76,60.04|N|To Fraggar Thundermantle|
 T Venomous Secrets|QID|26525|M|63.76,60.04|N|To Fraggar Thundermantle.|
 A Quel'Danil Lodge|QID|27725|PRE|26526|M|63.99,59.85|N|From Tracker Yoro.|
-R Quel'Danil Lodge|QID|27725|M|26.37,55;32.20,42.63|CC|N|Run to Quel'Danil Lodge, follow the road north then west when it splits.|
+R Quel'Danil Lodge|QID|27725|M|61.28,52.97;48.25,44.68;34.86,56.89;31.07,52.49;32.20,42.63|CN|N|Run to Quel'Danil Lodge.\nYou can either take the safer route and follow the road or run cross country and take a shorter route.|
 T Quel'Danil Lodge|QID|27725|M|32.20,42.63|N|To Anchorite Traska, she's in the hut to the east of the main lodge.|
 
 A In Defense of Quel'Danil|QID|27625|PRE|27725|M|32.20,42.63|N|From Anchorite Traska.|
 A The Highvale Documents|QID|27626|PRE|27725|M|32.20,42.63|N|From Anchorite Traska.|
-C In Defense of Quel'Danil|QID|27625|S|M|30.74,47.33|N|Kill any Deathstalkers that you come across.|
-l Highvale Report|QID|27626|L|61972|M|28.56,46.04|N|Loot the Highvale report from this waypoint.|
-l Highvale Notes|QID|27626|M|29.63,48.67|N|Loot the Highvale notes from here.|L|61974|
-C The Highvale Documents|QID|27626|M|31.91,46.99|N|And... Rounding out, the Highvale Records are at this waypoint, inside the lodge.|QO|2|NC|; Highvale Records: 1/1
+C In Defense of Quel'Danil|QID|27625|S|M|30.74,47.33|N|Kill any Deathstalker Invaders that you come across.|
+C The Highvale Documents|QID|27626|M|31.61,49.05;31.92,46.88|CN|QO|2|NC|N|The Highvale Records are inside the East wing of the lodge. You'll find them on the ground in the NE corner.|L|61973|
+C The Highvale Documents|QID|27626|M|29.63,48.67|QO|3|NC|N|You can just jump off the balcony instead of using the door. The Highvale Notes are on the ground beside the well.|L|61974|
+C The Highvale Documents|QID|27626|M|28.56,46.04|QO|1|NC|N|You'll find the Highvale Report on the small, stone altar inside the structure.|L|61972|
+
 C In Defense of Quel'Danil|QID|27625|US|M|30.74,47.33|N|Kill the Deathstalker Invaders.|
 
 T In Defense of Quel'Danil|QID|27625|M|32.19,42.62|N|To Anchorite Traska.|
 T The Highvale Documents|QID|27626|M|32.19,42.62|N|To Anchorite Traska.|
 
-A The Eye of Shadra|QID|26528|PRE|27625;27626|M|30.74,47.18|N|From Gilda Cloudcaller inside the lodge.|
-A Can't Make An Omelette Without...|QID|26641|PRE|27625;27626|M|30.74,47.18|N|From Gilda Cloudcaller.|
+A The Eye of Shadra|QID|26528|PRE|27625&27626|M|30.74,47.18|N|From Gilda Cloudcaller inside the lodge.|
+A Can't Make An Omelette Without...|QID|26641|PRE|27625&27626|M|30.74,47.18|N|From Gilda Cloudcaller.|
 R Agol'watha|QID|26528|M|47.56,41.83|N|Run to Agol'watha.|
 C Can't Make An Omelette Without...|QID|26641|S|M|46.13,40.36|N|Loot the Shadraspawn Eggs.|NC|
 C The Eye of Shadra|QID|26528|L|58282|M|45.53,38.92|N|Loot The Eye of Shadra.|NC|
@@ -279,9 +300,9 @@ T The Shell of Shadra|QID|26530|M|30.74,47.20|N|To Gilda Cloudcaller.|
 
 A Summoning Shadra|QID|26531|PRE|26530|M|30.74,47.20|N|From Gilda Cloudcaller.|
 R Shadra'Alor|QID|26531|M|35.72,64.40|N|Head to the Shadra'Alor.|
-C Northwestern Temple|QID|26531|U|58784|QO|1|M|32.03,67.07|N|Go to the top of the Northwestern Temple and use the idol.|NC|; Northwestern Temple: 1/1
-C Southwestern Temple|QID|26531|U|58784|QO|1|M|32.55,76.15|N|Go to the top of the Southwestern Temple and use the idol.|NC|; Southwestern Temple: 1/1
-C Eastern Temple|QID|26531|U|58784|QO|2|M|37.03,71.55|N|Go to the top of the Eastern Temple and use the idol.|NC|; Eastern Temple: 1/1
+C Northwestern Temple|QID|26531|U|58784|QO|1|M|32.03,67.07|N|Go to the top of the Northwestern Temple and use the idol.|NC|
+C Southwestern Temple|QID|26531|U|58784|QO|3|M|32.55,76.15|N|Go to the top of the Southwestern Temple and use the idol.|NC|
+C Eastern Temple|QID|26531|U|58784|QO|2|M|37.03,71.55|N|Go to the top of the Eastern Temple and use the idol.|NC|
 T Summoning Shadra|QID|26531|M|34.39,67.91|N|To Wildhammer Lookout.|
 A Shadra the Venom Queen|QID|26532|PRE|26531|M|34.39,67.92|N|From Wildhammer Lookout.|
 C Shadra the Venom Queen|QID|26532|M|34.21,69.46|N|Kill Shadra.  She will focus her attention on the NPCs, so you only have to worry about DPS'ing her.|

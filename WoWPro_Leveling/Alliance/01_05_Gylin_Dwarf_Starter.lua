@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2019-08-05 08:53
+-- Who: Hendo72
+-- Log: - First aid is no longer a profession
+
+-- URL: http://wow-pro.com/node/3200/revisions/30170/view
+-- Date: 2018-12-27 01:50
+-- Who: Ludovicus_Maior
+-- Log:  Frostmane Hovel
+
+-- URL: http://wow-pro.com/node/3200/revisions/30046/view
+-- Date: 2018-10-17 22:38
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3200/revisions/29716/view
 -- Date: 2018-09-10 21:51
 -- Who: Ludovicus_Maior
 
@@ -234,21 +249,6 @@
 -- Who: Ludovicus_Maior
 -- Log: [A Triumph of Gnomish Ingenuity] not [Triumph of Gnomish Ingenuity]
 
--- URL: http://wow-pro.com/node/3200/revisions/25591/view
--- Date: 2013-03-23 20:23
--- Who: Ludovicus_Maior
--- Log: Name tweaks
-
--- URL: http://wow-pro.com/node/3200/revisions/25496/view
--- Date: 2013-01-22 17:53
--- Who: Ludovicus_Maior
--- Log: Changed "Lambs on the Lam" to use special target macro!
-
--- URL: http://wow-pro.com/node/3200/revisions/25412/view
--- Date: 2013-01-13 14:33
--- Who: Ludovicus_Maior
--- Log: Added a CS tag
-
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Coldridge Valley (Dwarf)", "Gylin - Dwarf", "Alliance")
 WoWPro:GuideLevels(guide,1,4,1.1)
 WoWPro:GuideNextGuide(guide, "GamDun0510")
@@ -275,7 +275,7 @@ C Give 'em What-For |QID|24470|M|62.82,52.70|N|Kill 3 Rockjaw Goons.|US|
 
 T Aid for the Wounded |QID|24471|M|65.61,43.39|N|To Sten Stoutarm.|
 T Give 'em What-For |QID|24470|M|67.18,41.41|N|To Joren Ironstock.|
-A Lockdown in Anvilmar |PRE|24470;24471|QID|24473|M|67.00,41.35|N|From Joren Ironstock.|
+A Lockdown in Anvilmar |PRE|24470&24471|QID|24473|M|67.00,41.35|N|From Joren Ironstock.|
 T Lockdown in Anvilmar |QID|24473|M|62.45,22.05|N|To Jona Ironstock, walking around the room.|
 
 A First Things First: We're Gonna Need Some Beer|PRE|24473|QID|24474|N|From Jona Ironstock.|M|62.45,22.05|
@@ -302,7 +302,7 @@ C All the Other Stuff - Haunch |US|QID|24475|N|Kill and loot the Small Crag Boar
 
 T Make Hay While the Sun Shines |QID|24486|M|61.75,22.17|N|To Grundel Harkin.|
 T All the Other Stuff |QID|24475|M|62.45,22.05|N|To Jona Ironstock.|
-A Whitebeard Needs Ye |PRE|24475;24486|QID|24487|N|From Jona Ironstock.|M|62.45,22.05|
+A Whitebeard Needs Ye |PRE|24475&24486|QID|24487|N|From Jona Ironstock.|M|62.45,22.05|
 
 T Whitebeard Needs Ye |QID|24487|M|42.74,62.22|N|To Grelin Whitebeard.|
 A The Troll Menace |PRE|24487|QID|182|N|From Grelin Whitebeard.|M|42.74,62.22|RANK|2|
@@ -322,8 +322,8 @@ T The Troll Menace |QID|182|M|42.74,62.22|N|To Grelin Whitebeard.|
 A Ice and Fire |PRE|24489|QID|218|M|42.74,62.22|N|From Grelin Whitebeard.|
 T A Refugee's Quandary |QID|3361|M|42.04,63.34|N|To Felix Whindlebolt.|
 C Ice and Fire |S|QID|218|M|51.17,82.44;37.17,78.31|N|Enter the cave, keeping to the left as you go throught it, killing Frostmane Novices and Blades as you go.|CC|
-K Wayward Fire Elemental |QID|218|M|12.61,36.80;34.15,35.67;66.63,29.93|Z|Coldridge Valley/9|CS|T|Wayward Fire Elemental|QO|2|N|Kill the Wayward Fire Elemental|ACTIVE|218|
-K Grik'nir the Cold |QID|218|M|76.24,32.00|Z|Coldridge Valley/9|T|Grik'nir the Cold|QO|1|N|Kill Grik'nir the Cold.|ACTIVE|218|
+K Wayward Fire Elemental |QID|218|M|12.61,36.80;34.15,35.67;66.63,29.93|Z|Frostmane Hovel|CS|T|Wayward Fire Elemental|QO|2|N|Kill the Wayward Fire Elemental|ACTIVE|218|
+K Grik'nir the Cold |QID|218|M|76.24,32.00|Z|Frostmane Hovel|T|Grik'nir the Cold|QO|1|N|Kill Grik'nir the Cold.|ACTIVE|218|
 C Ice and Fire |US|QID|218|M|33.31,77.83|N|Finish killing the Frostmane Novice and Blades in the cavern, then make your way out of the cave.|
 
 T Ice and Fire |QID|218|M|42.74,62.22|N|To Grelin Whitebeard.|

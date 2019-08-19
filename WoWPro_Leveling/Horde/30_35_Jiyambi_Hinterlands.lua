@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_hinterlands_horde
+-- Date: 2018-10-17 02:27
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3240/revisions/29202/view
 -- Date: 2018-02-27 17:43
 -- Who: Ludovicus_EditBot
 -- Log: Level strip
@@ -117,12 +122,12 @@ H Revantusk Village|QID|26263|N|Hearthstone or run back to Revantusk Village|M|7
 T The Savage Dwarves|QID|26238|M|78.17,81.42|N|To Elder Torntusk, upstairs.|
 T Thornar Thunderclash|QID|26263|M|78.17,81.42|N|To Elder Torntusk|
 
-A Skulk Rock Clean-Up|QID|26267|PRE|26238;26263|M|78.17,81.42|N|From Elder Torntusk.|
-A Skulk Rock Supplies|QID|26268|PRE|26238;26263|M|78.17,81.42|N|From Elder Torntusk.|
+A Skulk Rock Clean-Up|QID|26267|PRE|26238&26263|M|78.17,81.42|N|From Elder Torntusk.|
+A Skulk Rock Supplies|QID|26268|PRE|26238&26263|M|78.17,81.42|N|From Elder Torntusk.|
 T Stalking the Stalkers|QID|26223|M|79.12,79.51|N|To Huntsman Markhor.|
 A Hunt the Savages|QID|26224|PRE|26223|M|79.12,79.51|N|From Huntsman Markhor.|
 T Stomp To My Beat|QID|26240|M|78.79,78.41|N|To Mystic Yayo'jin.|
-A Prime Slime|QID|26283|PRE|26238;26263|M|78.03,78.24|N|From Malcom Fendelson.|
+A Prime Slime|QID|26283|PRE|26238&26263|M|78.03,78.24|N|From Malcom Fendelson.|
 
 C Hunt the Savages|QID|26224|M|76.33,76.38;72.78,68.80;61.05,62.40|CC|N|Follow the path, and kill any Savage Owlbeasts you find up there.|
 C Skulk Rock Clean-Up|QID|26267|S|M|57.55,39.35|N|Kill oozes in and around Skull Rock.|
@@ -134,13 +139,13 @@ C Skulk Rock Clean-Up|QID|26267|US|M|57.55,39.35|N|Kill oozes in and around Skul
 H Revantusk Village|QID|26267|N|Hearthstone or run back to Revantusk Village|M|71.15,64.70;78.20,81.30|CC|
 T Skulk Rock Clean-Up|QID|26267|M|78.16,81.40|N|To Elder Torntusk, upstairs.|
 T Skulk Rock Supplies|QID|26268|M|78.16,81.40|N|To Elder Torntusk.|
-A The Fall of Jintha'Alor|QID|26432|PRE|26267+26268+26491+26492|M|78.16,81.40|N|From Elder Torntusk.|
+A The Fall of Jintha'Alor|QID|26432|PRE|26267^26268^26491^26492|M|78.16,81.40|N|From Elder Torntusk.|
 T Hunt the Savages|QID|26224|M|79.07,79.60|N|To Huntsman Markhor.|
 T Prime Slime|QID|26283|M|78.13,78.24|N|To Malcom Fendelson.|
 
 R Jintha'Alor|QID|26432|M|76.01,76.02;72.77,68.68;67.79,66.38|CS|N|Head back up the cliff and to the camp near the entrance to Jintha'Alor.|
 T The Fall of Jintha'Alor|QID|26432|M|67.79,66.38|N|To Primal Torntusk.|
-A Start Taking Back|QID|26306|PRE|26432+26496|M|67.79,66.38|N|From Primal Torntusk.|
+A Start Taking Back|QID|26306|PRE|26432^26496|M|67.79,66.38|N|From Primal Torntusk.|
 A Heads Up|QID|26366|M|67.79,66.38|N|From Primal Torntusk.|
 A Faces of Evil|QID|26357|M|67.79,66.38|N|From Kotonga.|
 A All That Skitters|QID|26310|M|67.74,66.50|N|From Eliza Darkgrin.|
@@ -153,7 +158,7 @@ C Start Taking Back|QID|26306|US|M|65.59,70.41|N|Kill headhunters and witchdocto
 T All That Skitters|QID|26310|M|67.74,66.55|N|To Eliza Darkgrin, back at the entrance to Jintha'Alor.|
 A Dark Vessels|QID|26309|PRE|26310|M|67.74,66.55|N|From Eliza Darkgrin.|
 T Start Taking Back|QID|26306|M|67.74,66.55|N|To Primal Torntusk.|
-A Death to the Vilebranch|QID|26307|PRE|26306;26366|M|67.74,66.55|N|From Primal Torntusk.|
+A Death to the Vilebranch|QID|26307|PRE|26306&26366|M|67.74,66.55|N|From Primal Torntusk.|
 T Heads Up|QID|26366|M|67.74,66.55|N|To Primal Torntusk.|
 C Dark Vessels|QID|26309|S|NC|M|63.93,74.39|N|Loot the cauldrons scattered around Jintha'Alor.|
 C Death to the Vilebranch|QID|26307|M|63.56,70.34|N|Kill Berserkers and Shadowcasters on the third level of Jintha'Alor.|
@@ -168,7 +173,7 @@ T Dark Vessels|QID|26309|M|67.72,66.53|N|To Eliza Darkgrin.|
 A Venomous Secrets|QID|26368|PRE|26309|M|67.72,66.53|N|From Eliza Darkgrin.|
 T It's Ours Now|QID|26308|M|67.72,66.53|N|To Primal Torntusk.|
 T Ongo'longo's Revenge|QID|26367|M|67.80,66.48|N|To Primal Torntusk.|
-A Summit of Fate|QID|26363|PRE|26308;26367|M|67.80,66.48|N|From Primal Torntusk.|
+A Summit of Fate|QID|26363|PRE|26308&26367|M|67.80,66.48|N|From Primal Torntusk.|
 T Faces of Evil|QID|26357|M|67.81,66.36|N|To Kotonga.|
 C Summit of Fate|QID|26363|NC|M|59.85,77.63|N|Loot the spider idols off the dead Vilebranch trolls.|
 T Summit of Fate|QID|26363|M|67.81,66.47|N|To Primal Torntusk.|

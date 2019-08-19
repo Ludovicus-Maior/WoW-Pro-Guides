@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3668
+-- Date: 2019-05-14 21:38
+-- Who: Ludovicus_Maior
+-- Log: Remove broken copy/paste line.
+
+-- URL: http://wow-pro.com/node/3668/revisions/30001/view
+-- Date: 2018-10-17 02:29
+-- Who: Ludovicus_EditBot
+-- Log: And/Or Edit
+
+-- URL: http://wow-pro.com/node/3668/revisions/29750/view
 -- Date: 2018-09-15 02:31
 -- Who: elidion
 -- Log: Got rid of Zone tag errors and a few minor tags
@@ -211,22 +221,22 @@ return [[
 
 N Guide Progression|QID|43877|N|There are several quests in the class hall guide that will require time to complete (such as sending your followers on order hall missions, Do 20 world quests, etc). When you come across these steps, after starting the process, manually check it off (right click) so you can progress to other parts of the guide. Next time you reload the guide it will come back to that step reminding you, continue clicking it off until the time based requirements are completed.|
 
-A In the Blink of an Eye|QID|44663;44184|PRE|38907|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
-A In the Blink of an Eye|QID|44663;44184|PRE|38907|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
+A In the Blink of an Eye|QID|44663^44184|PRE|38907|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
+A In the Blink of an Eye|QID|44663^44184|PRE|38907|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
 
-P In the Blink of an Eye|ACTIVE|44663;44184|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
-P In the Blink of an Eye|ACTIVE|44663;44184|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
+P In the Blink of an Eye|ACTIVE|44663^44184|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
+P In the Blink of an Eye|ACTIVE|44663^44184|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
 
 ;both
-C In the Blink of an Eye|QID|44663;44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran!Dalaran!Dungeon|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
-T In the Blink of an Eye|QID|44663;44184|M|57.12,45.84|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
+C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran!Dalaran!Dungeon|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
+T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
 
 A The Call To War|QID|40714|M|57.67,45.71|Z|Dalaran!Dalaran!Dungeon|N|From UI Alert a minute or so after you turn in the previous quest.|
 T The Call To War|QID|40714|M|73.11,46.85|Z|Dalaran!Dalaran!Dungeon|N|To Duke Lankral up on Krasus Landing.|
 A A Pact of Necessity|QID|40715|M|73.11,46.85|Z|Dalaran!Dalaran!Dungeon|N|From Duke Lankral.|PRE|40714|
 C A Pact of Necessity|QID|40715|NC|QO|1|M|73.11,46.85|Z|Dalaran!Dalaran!Dungeon|N|Choose which artifact path you want, the next one will be available when reach level 102).|
 T A Pact of Necessity|QID|40715|M|73.11,46.85|Z|Dalaran!Dalaran!Dungeon|N|To Duke Lankral.|
-A Artifact Specific Quest|QID|40930;40740;38990|M|73.11,46.85|Z|Dalaran!Dalaran!Dungeon|N|From UI (Lich King).|PRE|40715|
+A Artifact Specific Quest|QID|40930^40740^38990|M|73.11,46.85|Z|Dalaran!Dalaran!Dungeon|N|From UI (Lich King).|PRE|40715|
 
 ;chapter I order hall
 ;44550-Called to Acherus
@@ -289,7 +299,7 @@ A Light's Charge|QID|44153|M|28.48,48.31|Z|Dalaran!Dalaran!Dungeon|N|From Archma
 T Light's Charge|QID|44153|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|Return to your order hall and return to Light's Heart (table in alcove adjacent Soul Forge on the upper level).|
 
 ;back to DK quests
-R Dalaran Portal|QID|99999|M|24.67,33.69|N|The Portal is near the flightmaster.|PRE|44550|ACTIVE|39718;39864;39731;39733;39735|
+R Dalaran Portal|QID|99999|M|24.67,33.69|N|The Portal is near the flightmaster.|PRE|44550|ACTIVE|39718^39864^39731^39733^39735|
 A The Ruined Kingdom|QID|42533|M|50.85,50.52|N|From Highlord Darion Mograine.|LVL|103|PRE|43539|
 R Dalaran Portal|QID|42533|M|24.67,33.69|N|The Portal is near the flightmaster.|ACTIVE|42533|
 R Graymane Enclave|QID|42533|M|0.00,0.00|Z|Dalaran!Dalaran!Dungeon|N|Take the Ironforge Portal.|ACTIVE|42533|FACTION|ALLIANCE|
@@ -305,7 +315,7 @@ C Our Oldest Enemies|QID|42534|QO|2|M|17.57,68.01|Z|Arathi Highlands|US|N|Finish
 C Death... and Decay|QID|42535|M|17.57,68.01|Z|Arathi Highlands|US|NC|N|Finish defiling the Witherbark Supplies.|
 T Our Oldest Enemies|QID|42534|M|19.45,67.33|Z|Arathi Highlands|N|To Prince Galen Trollbane.|
 T Death... and Decay|QID|42535|M|19.45,67.33|Z|Arathi Highlands|N|To Prince Galen Trollbane.|
-A Regicide|QID|42536|M|19.53,67.10|Z|Arathi Highlands|N|From Thassarian.|PRE|42534;42535|
+A Regicide|QID|42536|M|19.53,67.10|Z|Arathi Highlands|N|From Thassarian.|PRE|42534&42535|
 C Regicide|QID|42536|M|21.95,59.79|Z|Arathi Highlands|T|Prince Galen Trollbane|N|He decided to double cross us, Kill him.|
 T Regicide|QID|42536|M|23.4,61.39|Z|Arathi Highlands|N|To Thassarian, who is now down in the crypt.|
 A The King Rises|QID|42537|M|23.4,61.39|Z|Arathi Highlands|N|From Thassarian.|PRE|42536|
@@ -358,7 +368,7 @@ C Raising an Army|QID|42821|M|72.03,47.78|Z|Floor1@ScarletMonestaryDK|N|Click on
 C The Scarlet Massacre|QID|42882|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|US|N|Finish killing the required amount of scarlet crusaders.|
 T Raising an Army|QID|42821|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|N|To Thassarian, who is following you around.|
 T The Scarlet Massacre|QID|42882|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|N|To Thassarian.|
-A The Scarlet Commander|QID|42823|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|N|From Thassarian.|PRE|42882+42821|
+A The Scarlet Commander|QID|42823|M|42.88,52.70|Z|Floor1@ScarletMonestaryDK|N|From Thassarian.|PRE|42882^42821|
 C The Scarlet Commander|QID|42823|M|49.11,78.32|Z|Floor1@ScarletMonestaryDK|N|Kill High Commander Goodchilde.|
 T The Scarlet Commander|QID|42823|M|49.11,78.32|Z|Floor1@ScarletMonestaryDK|N|To Thassarian.|
 A The Zealot Rises|QID|42824|PRE|42823|M|49.11,78.32|Z|Floor1@ScarletMonestaryDK|N|From Thassarian.|
@@ -373,9 +383,9 @@ A Champion: High Inquisitor Whitemane|QID|44245|M|44.72,72.88|N|From/To High Inq
 t Vault of the Wardens: A Masterpiece of Flesh|QID|44286|M|63.17,69.42|N|To Lord Thorval.|
 A Champion: Rottgut|QID|44246|M|64.09,69.21|N|From/To Rottgut.|PRE|44286|
 
-A Goddess Watch Over You|QID|44337;44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|LVL|110|
-C Goddess Watch Over You|QID|44338;44338|N|You need to do the main Val'sharah quest line to complete this quest.|
-t Goddess Watch over You|QID|44337;44338|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|LVL|110|
+A Goddess Watch Over You|QID|44337^44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|LVL|110|
+C Goddess Watch Over You|QID|44338^44338|N|You need to do the main Val'sharah quest line to complete this quest.|
+t Goddess Watch over You|QID|44337^44338|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|LVL|110|
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|LVL|110|PRE|40890|
 R Death Gate|QID|44448|M|28.43,40.38|Z|Dalaran!Dalaran!Dungeon|N|Return to your order hall.|ACTIVE|44448|LVL|110|
 C In the House of Light and Shadow|QID|44448|M|54.22,74.67|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
@@ -428,12 +438,12 @@ R Windrunner's Sanctuary|QID|44480|M|55.33,24.04|Z|Dalaran!Dalaran!Dungeon|N|Tak
 R Temple of Zin-Malor - Azshara|QID|44480|M|35.1,49.9|Z|Azshara|N|Mount up and fly to Azshara.|ACTIVE|44480|
 C In My Father's House|QID|44480|M|35.13,49.90|Z|Azshara|N|Use your extra action button to see Xe'ra's message.|
 T In My Father's House|QID|44480|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|Return to Light's Heart in your order hall.|
-A Destiny Unfulfilled|QID|44481;44496;44497|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart.|PRE|44480|
-P Dalaran|QID|44481;44496;44497|M|24.67,33.69|N|Click on the portal to Dalaran.|ACTIVE|44481;44496;44497|
-P Shattrath|QID|44481;44496;44497|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|ACTIVE|44481;44496;44497|
-R Shadowmoon Valley|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|ACTIVE|44481;44496;44497|
-C Destiny Unfulfilled|QID|44481;44496;44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
-T Destiny Unfulfilled|QID|44481;44496;44497|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|Return to Light's Heart in your order hall.|
+A Destiny Unfulfilled|QID|44481^44496^44497|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart.|PRE|44480|
+P Dalaran|QID|44481^44496^44497|M|24.67,33.69|N|Click on the portal to Dalaran.|ACTIVE|44481^44496^44497|
+P Shattrath|QID|44481^44496^44497|M|35.53,85.61|Z|Aegwynn's Gallery@Dalaran70|N|Run to the Chamber of the Guardians and then down to the Shattrath Portal.|ACTIVE|44481^44496^44497|
+R Shadowmoon Valley|QID|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Fly out to the Black Temple in Shadowmoon Valley.|ACTIVE|44481^44496^44497|
+C Destiny Unfulfilled|QID|44481^44496^44497|M|72.93,44.11|Z|Shadowmoon Valley|N|Use your special action button to see Illidan's side of the Black Temple Raid.|
+T Destiny Unfulfilled|QID|44481^44496^44497|M|54.22,74.67|Z|The Heart of Acherus@BrokenShore|N|Return to Light's Heart in your order hall.|
 
 ;light's heart, requires AK>=7
 A The Hunt for Illidan Stormrage|QID|45174|PRE|44481|M|54.13,74.77|Z|The Heart of Acherus@BrokenShore|N|From Light's Heart. Requires Artifact Knowledge >=7.|LVL|110|
@@ -482,10 +492,10 @@ A The Heart of Zin-Azshari|QID|40668|M|47.90,26.01|Z|Azsuna|NA|N|From Senegos. T
 A Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral, if you care about a secondary spec.|PRE|43539|LVL|102|
 C Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|Choose the artifact quest you want to pursue next.|LVL|102|
 T Blades of Destiny|QID|43962|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|To Duke Lankral.|LVL|102|
-A Artifact specific quest|QID|40740;38990;40935|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|PRE|43935|LVL|102|
+A Artifact specific quest|QID|40740^38990^40935|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|PRE|43935|LVL|102|
 
 ;3rd spec artifact
-A A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|ACH|11174;;true|ACTIVE|-38990+-40935+-40987|
+A A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|ACH|11174;;true|ACTIVE|-38990&-40935&-40987|
 C A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|Choose the remaining artifact.|
 T A Weapon For Every Occasion|QID|44401|M|57.78,60.43|Z|The Heart of Acherus@BrokenShore|N|From Duke Lankral.|
 
@@ -537,21 +547,21 @@ T Disturbing the Past|QID|40932|M|52.31,33.85|Z|Deadwind Pass|N|To the Battered 
 A A Grisly Task|QID|40933|M|52.41,34.39|Z|Deadwind Pass|N|From Revil Kost.|PRE|40932|
 C A Grisly Task|QID|40933|QO|1|M|52.05,70.37|Z|Deadwind Pass|N|Click on the piles of dirt until you find a spirit who will talk to you.|
 T A Grisly Task|QID|40933|M|49.45,74.70|Z|Deadwind Pass|N|To Revil Kost.|
-A The Dark Riders|QID|40934;40986|M|49.45,74.70|Z|Deadwind Pass|N|From Revil Kost.|PRE|40933|
-R Catacombs|QID|40934;40986|M|46.63,69.10|Z|Deadwind Pass|CC|N|Make your way into the Dark Riders' catacombs beneath Karazhan.|ACTIVE|40934;40986|
-C Karazhan Catacombs infiltrated|SO|1|M|72.51,75.28|Z|Karazhan Catacombs|N|Infiltrate Karazhan Catacombs.|QID|40934;40986|
-C Spirit Barrier crossed|SO|2|M|70.43,69.67|Z|Karazhan Catacombs|N|Instead of crossing the Spirit Barrier, use Death Grip to bring the Conservator to you.|QID|40934;40986|
-C Conservator Defeated|SO|3|M|57.08,68.89|Z|Karazhan Catacombs|N|Defeat the Conservator.|QID|40934;40986|
-C Apocalypse found|SO|4|M|47.14,67.69|Z|Karazhan Catacombs|NC|N|Find Apocalypse.|QID|40934;40986|
-C Ariden followed|SO|5|M|55.31,55.90;68.17,43.97|CS|Z|Karazhan Catacombs|N|Follow Ariden into the depths of the Karazhan catacombs.|QID|40934;40986|
-C Ariden defeated|SO|6|M|68.47,31.56|Z|Karazhan Catacombs|N|Defeat Ariden, (quickly as he summons adds.)|QID|40934;40986|
-C The Dark Riders|QID|40934;40986|QO|2|M|68.16,24.72|Z|Karazhan Catacombs|NC|N|Pick up Apocalypse.|
-T The Dark Riders|QID|40934;40986|M|68.24,27.11|Z|Karazhan Catacombs|N|To Revil Kost.|
-A The Call of Vengeance|QID|40935;40987|M|68.24,27.11|Z|Karazhan Catacombs|N|From Revil Kost.|PRE|40934;40986|
-C The Call of Vengeance|QID|40935;40987|QO|1|M|69.56,26.63|Z|Karazhan Catacombs|NC|N|Take the Death Gate provided.|
-C The Call of Vengeance|QID|40935;40987|QO|2|M|49.08,90.73|Z|The Frozen Throne@IcecrownCitadelDeathKnight|NC|N|Stand by the throne a minute or so to obtain the Mark of the Lich King.|
-C The Call of Vengeance|QID|40935;40987|QO|3|M|63.38,69.31|Z|Dalaran!Dalaran!Dungeon|NC|N|Take the Death Gate to Acherus|
-T The Call of Vengeance|QID|40935;40987|M|50.85,50.52|N|To Highlord Darion Mograine.|
+A The Dark Riders|QID|40934^40986|M|49.45,74.70|Z|Deadwind Pass|N|From Revil Kost.|PRE|40933|
+R Catacombs|QID|40934^40986|M|46.63,69.10|Z|Deadwind Pass|CC|N|Make your way into the Dark Riders' catacombs beneath Karazhan.|ACTIVE|40934^40986|
+C Karazhan Catacombs infiltrated|SO|1|M|72.51,75.28|Z|Karazhan Catacombs|N|Infiltrate Karazhan Catacombs.|QID|40934^40986|
+C Spirit Barrier crossed|SO|2|M|70.43,69.67|Z|Karazhan Catacombs|N|Instead of crossing the Spirit Barrier, use Death Grip to bring the Conservator to you.|QID|40934^40986|
+C Conservator Defeated|SO|3|M|57.08,68.89|Z|Karazhan Catacombs|N|Defeat the Conservator.|QID|40934^40986|
+C Apocalypse found|SO|4|M|47.14,67.69|Z|Karazhan Catacombs|NC|N|Find Apocalypse.|QID|40934^40986|
+C Ariden followed|SO|5|M|55.31,55.90;68.17,43.97|CS|Z|Karazhan Catacombs|N|Follow Ariden into the depths of the Karazhan catacombs.|QID|40934^40986|
+C Ariden defeated|SO|6|M|68.47,31.56|Z|Karazhan Catacombs|N|Defeat Ariden, (quickly as he summons adds.)|QID|40934^40986|
+C The Dark Riders|QID|40934^40986|QO|2|M|68.16,24.72|Z|Karazhan Catacombs|NC|N|Pick up Apocalypse.|
+T The Dark Riders|QID|40934^40986|M|68.24,27.11|Z|Karazhan Catacombs|N|To Revil Kost.|
+A The Call of Vengeance|QID|40935^40987|M|68.24,27.11|Z|Karazhan Catacombs|N|From Revil Kost.|PRE|40934&40986|
+C The Call of Vengeance|QID|40935^40987|QO|1|M|69.56,26.63|Z|Karazhan Catacombs|NC|N|Take the Death Gate provided.|
+C The Call of Vengeance|QID|40935^40987|QO|2|M|49.08,90.73|Z|The Frozen Throne@IcecrownCitadelDeathKnight|NC|N|Stand by the throne a minute or so to obtain the Mark of the Lich King.|
+C The Call of Vengeance|QID|40935^40987|QO|3|M|63.38,69.31|Z|Dalaran!Dalaran!Dungeon|NC|N|Take the Death Gate to Acherus|
+T The Call of Vengeance|QID|40935^40987|M|50.85,50.52|N|To Highlord Darion Mograine.|
 
 ; class hall after finishing first artifact
 ; Hall of Command@BrokenShore is the bottom floor, with flight master
@@ -565,7 +575,7 @@ T Advanced Runecarving|QID|39761|M|59.94,60.74|Z|The Heart of Acherus@BrokenShor
 A Plans and Preparations|QID|39832|M|59.94,60.74|Z|The Heart of Acherus@BrokenShore|N|From Grand Master Siegesmith Corvus.|PRE|39761|
 T Plans and Preparations|QID|39832|M|49.66,51.25|N|Back "downstairs" To Siouxsie the Banshee.|
 A Our Next Move|QID|39799|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|39832|
-A Zone Lead-in Quest|QID|39718;39864;39731;39733;39735|M|49.66,51.25|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|39799|
+A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|49.66,51.25|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|39799|
 T Our Next Move|QID|39799|M|49.66,51.25|N|To Siouxsie the Banshee.|
 A Return of the Four Horsemen|QID|42449|M|50.85,50.52|N|From Highlord Darion Mograine.(Wait a minute or so for dialog to finish and then this becomes available.)|
 f Acherus Hold|QID|42449|M|25.61,28.81|N|At Grimwing.|
@@ -596,7 +606,7 @@ C Harnessing Power|QID|45398|M|34.29,9.42|Z|PitofSaronDK|N|Kill the Sveldrek Bro
 C Severing the Sveldrek|QID|45399|M|43.62,21.96|Z|PitofSaronDK|US|N|Finish raising the Sveldrek.|
 T Harnessing Power|QID|45398|M|47.80,19.23|Z|PitofSaronDK|N|To Minerva Ravensorrow.|
 T Severing the Sveldrek|QID|45399|M|47.80,19.23|Z|PitofSaronDK|N|To Minerva Ravensorrow.|
-A Return to Acherus|QID|45331|M|47.80,19.23|Z|PitofSaronDK|N|From Minerva Ravensorrow.|PRE|45398;45399|
+A Return to Acherus|QID|45331|M|47.80,19.23|Z|PitofSaronDK|N|From Minerva Ravensorrow.|PRE|45398&45399|
 P Death-gate|QID|45331|M|48.22,18.93|Z|PitofSaronDK|N|Take the provided Deathgate back to Acherus.|ACTIVE|45331|
 T Return to Acherus|QID|45331|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|To Highlord Darion Mograine.|
 A The Peak of Bones|QID|44775|M|26.98,28.89|Z|The Heart of Acherus@BrokenShore|N|From Highlord Darion Mograine.|PRE|45331|
@@ -609,7 +619,7 @@ C Thorim's Flame|QID|46305|QO|1|M|47.88,82.99|Z|Stormheim|CHAT|N|You can find th
 C Thorim's Flame|QID|46305|QO|2|M|47.99,83.08|Z|Stormheim|NC|N|Click on the flame to collect it.|
 T From Bones They Rise|QID|44783|M|47.99,83.08|Z|Stormheim|N|To Minerva Ravensorrow.|
 T Thorim's Flame|QID|46305|M|47.99,83.08|Z|Stormheim|N|To Minerva Ravensorrow.|
-A The Bonemother|QID|44787|M|47.99,83.08|Z|Stormheim|N|From Minerva Ravensorrow.|PRE|44783;46305|
+A The Bonemother|QID|44787|M|47.99,83.08|Z|Stormheim|N|From Minerva Ravensorrow.|PRE|44783&46305|
 C The Bonemother|QID|44787|QO|1|M|51.26,84.38|Z|Stormheim|N|Back down the mountain to where you met Minerva. Click on Thorim's Beacon to light it.|
 C The Bonemother|QID|44787|QO|2|M|51.26,84.38|Z|Stormheim|N|Kill Daumyr.|
 C The Bonemother|QID|44787|QO|3|M|51.26,84.38|Z|Stormheim|N|Use your extra action button to raise Daumyr.|

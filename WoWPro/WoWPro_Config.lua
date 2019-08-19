@@ -23,12 +23,13 @@ function WoWPro:SetDefaults()
 	WoWPro:RefreshConfig()
 end
 
+-- Sounds looked up from https://wow.tools/files/#search=BoatDockedWarning&page=1&sort=0&desc=asc
 local soundfiles = {
-			["Window Close"] = [[Sound\Interface\AuctionWindowClose.ogg]],
-			["Window Open"] = [[Sound\Interface\AuctionWindowOpen.ogg]],
-			["Level Up"] = [[Sound\Interface\LevelUp.ogg]],
-			["Map Ping"] = [[Sound\Interface\MapPing.ogg]],
-			["Boat Docked"] = [[Sound\Doodad\BoatDockedWarning.ogg]],
+			["Window Close"] = 567499,
+			["Window Open"] = 567482,
+			["Level Up"] = 567431,
+			["Map Ping"] = 567416,
+			["Boat Docked"] = 566652,
 }
 
 
@@ -47,12 +48,12 @@ local function CreateDisplayConfig()
 						order = 0,
 						type = "description",
 						name = L["On this page you can edit the way the guide frame looks."],
-					},  
-					blank = {
+					},
+					blank1 = {
 						order = 1,
 						type = "description",
 						name = " ",
-					}, 
+					},
 					drag = {
 						order = 2,
 						type = "toggle",
@@ -82,9 +83,9 @@ local function CreateDisplayConfig()
 						get = function(info) return WoWProDB.profile.anchorpoint end,
 						set = function(info,val) WoWProDB.profile.anchorpoint = val 
 							WoWPro.AnchorSet() end
-					},  
+					},
 					padding = {
-						order = 3,
+						order = 4,
 						type = "range",
 						name = L["Padding"],
 						desc = L["The padding determines how much blank space is left between the guide text and the border of the guide frame."],
@@ -94,7 +95,7 @@ local function CreateDisplayConfig()
 							WoWPro.PaddingSet(); WoWPro.RowSizeSet() end
 					},
 					spacing = {
-						order = 3,
+						order = 5,
 						type = "range",
 						name = L["Spacing"],
 						desc = L["Spacing determines how much blank space is left between lines in the guide text. "],
@@ -104,18 +105,27 @@ local function CreateDisplayConfig()
 							WoWPro.RowSizeSet() end
 					},
 					hide = {
-        				order = 4,
+        				order = 6,
         				type = "toggle",
-        				name = L["Enable Hiding"],
+        				name = L["Enable Instance Hiding"],
         				desc = L["Enables/Disables hiding the active module when inside an instance (Dungeon, Arena ...), unless the guide wants you there!"],
-        				width = "full",
         				get = function(info) return WoWProCharDB.AutoHideInsideInstances ; end,
-        				set = function(info,val)  
+        				set = function(info,val)
         						if WoWProCharDB.AutoHideInsideInstances == true then WoWProCharDB.AutoHideInsideInstances=false; else WoWProCharDB.AutoHideInsideInstances=true; end
         					end
-        			}, 
+        			},
+					combathide = {
+        				order = 7,
+        				type = "toggle",
+        				name = L["Enable Combat Hiding"],
+        				desc = L["Enables/Disables hiding the active module when you are in combat."],
+        				get = function(info) return WoWProCharDB.AutoHideInCombat ; end,
+        				set = function(info,val)
+        						if WoWProCharDB.AutoHideInCombat == true then WoWProCharDB.AutoHideInCombat=false; else WoWProCharDB.AutoHideInCombat=true; end
+        					end
+        			},
 					noteshow = {
-						order = 4,
+						order = 8,
 						type = "toggle",
 						name = L["Mouseover Notes"],
 						desc = L["Show notes on mouseover instead of always displaying them."],
@@ -124,42 +134,47 @@ local function CreateDisplayConfig()
 							WoWPro.RowSizeSet() end
 					},
 					minimap = {
-						order = 4,
+						order = 9,
 						type = "toggle",
 						name = L["Minimap Button"],
 						desc = L["Show/hide WoW-Pro mini map button."],
 						get = function(info) return not WoWProDB.profile.minimap.hide end,
 						set = function(info,val) WoWProDB.profile.minimap.hide = not val 
 							 WoWPro.MinimapSet() end
-					}, 
+					},
 					track = {
-						order = 4,
+						order = 10,
 						type = "toggle",
 						name = L["Quest Tracking"],
 						desc = L["Allows tracking of quests in the guide frame"],
 						get = function(info) return WoWProDB.profile.track end,
 						set = function(info,val) WoWProDB.profile.track = val 
 							WoWPro:UpdateGuide("Config: Quest Tracking") end
-					},    
+					},
 					showcoords = {
-						order = 4,
+						order = 11,
 						type = "toggle",
 						name = L["Show Coordinates"],
 						desc = L["Shows the coordinates in the note text."],
 						get = function(info) return WoWProDB.profile.showcoords end,
 						set = function(info,val) WoWProDB.profile.showcoords = val 
 							WoWPro:UpdateGuide("Config: Show Coordinates") end
-					},     
+					},
 					autoload = {
-						order = 4,
+						order = 12,
 						type = "toggle",
 						name = L["Auto-Load Guide"],
 						desc = L["Will automatically load the next guide when you complete one."],
 						get = function(info) return WoWProDB.profile.autoload end,
 						set = function(info,val) WoWProDB.profile.autoload = val end
-					},    
+					},
+					blank2 = {
+						order = 20,
+						type = "description",
+						name = " ",
+					}, 
 					guidescroll = {
-						order = 4,
+						order = 21,
 						type = "toggle",
 						name = L["Scroll Mode"],
 						desc = L["Displays full, scrollable guide in guide frame, instead of need-to-know info."],
@@ -169,7 +184,7 @@ local function CreateDisplayConfig()
 							WoWPro:UpdateGuide("Config: Scroll Mode") end
 					},
 					checksoundfile = {
-						order = 5,
+						order = 22,
 						type = "select",
 						name = L["Step Completed Sound"],
 						desc = L["Sound played when a guide step is completed"],
@@ -185,25 +200,33 @@ local function CreateDisplayConfig()
 						disabled = function(...) return not WoWProDB.profile.checksound end,
 					},
 					checksound = {
-						order = 5,
+						order = 23,
 						type = "toggle",
 						name = L["Enable Sound"],
 						desc = L["Plays a check-off sound when a guide step is completed."],
 						get = function(info) return WoWProDB.profile.checksound end,
 						set = function(info,val) WoWProDB.profile.checksound = val end
 					},
-					blank2 = {
-						order = 7,
+					lefty = {
+						order = 24,
+						type = "toggle",
+						name = L["Left Handed"],
+						desc = L["Put Use and Target Icons on the right side of the guide window."],
+						get = function(info) return WoWProDB.profile.leftside end,
+						set = function(info,val) WoWProDB.profile.leftside = val end
+					},
+					blank3 = {
+						order = 30,
 						type = "description",
 						name = " ",
 					},  
 					resizeheading = {
-						order = 7,
+						order = 31,
 						type = "header",
 						name = L["Resize Settings"],
 					}, 
 					resize = {
-						order = 8,
+						order = 32,
 						type = "toggle",
 						name = L["Resize Handle"],
 						desc = L["Enables the guide window to be resized using the resize handle in the lower right corner. \nTurns off auto resizing."],
@@ -213,7 +236,7 @@ local function CreateDisplayConfig()
 							WoWPro.ResizeSet() end
 					},
 					autoresize = {
-						order = 8,
+						order = 33,
 						type = "toggle",
 						name = L["Auto Resize"],
 						desc = L["Guide will automatically resize to the set number of steps. \nManual resize recommended for advanced users only. \nHides drag handle."],
@@ -223,7 +246,7 @@ local function CreateDisplayConfig()
 							WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
 					},
 					numsteps = {
-						order = 9,
+						order = 34,
 						type = "range",
 						name = L["Auto Resize: Number of Steps"],
 						desc = L["Number of steps displayed in the guide window. \nThe window is automatically resized to show this number of steps. \nDoes not include sticky steps."],
@@ -234,7 +257,7 @@ local function CreateDisplayConfig()
 						width = "double"
 					}, 
 					minresizeh = {
-						order = 9,
+						order = 35,
 						type = "range",
 						name = L["Min Resize - Horiz"],
 						desc = L["Minimum horizontal pixel size the guide window can be set to."],
@@ -244,7 +267,7 @@ local function CreateDisplayConfig()
 							WoWPro:ResizeSet(); WoWPro.RowSizeSet() end
 					}, 
 					minresizev = {
-						order = 9,
+						order = 36,
 						type = "range",
 						name = L["Min Resize - Vert"],
 						desc = L["Minimum vertical pixel size the guide window can be set to."],
@@ -253,18 +276,18 @@ local function CreateDisplayConfig()
 						set = function(info,val) WoWProDB.profile.vminresize = val
 							WoWPro:ResizeSet(); WoWPro.RowSizeSet() end
 					}, 
-					blank3 = {
-						order = 11,
+					blank4 = {
+						order = 40,
 						type = "description",
 						name = " ",
 					},  
 					titleheading = {
-						order = 11,
+						order = 41,
 						type = "header",
 						name = L["Title Bar"],
 					},
 					titlebar = {
-						order = 12,
+						order = 42,
 						type = "toggle",
 						name = L["Enable Title Bar"],
 						desc = L["Enables/disables the title bar attached to the guide window."],
@@ -273,7 +296,7 @@ local function CreateDisplayConfig()
 							WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.RowSizeSet() end
 					},
 					titlecolor = {
-						order = 12,
+						order = 43,
 						type = "color",
 						name = L["Title Bar Color"],
 						desc = L["Background color for the title bar."],
@@ -283,18 +306,18 @@ local function CreateDisplayConfig()
 							WoWProDB.profile.titlecolor = {r,g,b,a}
 							WoWPro.TitlebarSet() end
 					},
-					blank4 = {
-						order = 13,
+					blank5 = {
+						order = 50,
 						type = "description",
 						name = " ",
 					},  
 					bgheading = {
-						order = 13,
+						order = 51,
 						type = "header",
 						name = L["Backgrounds"],
 					},
 					bgtexture = {
-						order = 14,
+						order = 52,
 						type = "select",
 						name = L["Guide Window Background"],
 						desc = L["Texture used for the guide window background."],
@@ -311,7 +334,7 @@ local function CreateDisplayConfig()
 							WoWPro.BackgroundSet() end
 					},
 					bgcolor = {
-						order = 15,
+						order = 53,
 						type = "color",
 						name = L["Guide Window Color"],
 						desc = L["Background color for the guide window"],
@@ -322,7 +345,7 @@ local function CreateDisplayConfig()
 							WoWPro.BackgroundSet() end
 					},
 					bordertexture = {
-						order = 16,
+						order = 54,
 						type = "select",
 						name = L["Border Texture"],
 						desc = L["Texture used for the guide window border."],
@@ -340,7 +363,7 @@ local function CreateDisplayConfig()
 							WoWPro.BackgroundSet() end
 					},
 					border = {
-						order = 17,
+						order = 55,
 						type = "toggle",
 						name = L["Enable Border"],
 						desc = L["Enables/disables the border around the guide window."],
@@ -349,7 +372,7 @@ local function CreateDisplayConfig()
 							WoWPro.BackgroundSet() end
 					},
 					stickytexture = {
-						order = 18,
+						order = 56,
 						type = "select",
 						name = L["Sticky Background"],
 						desc = L["Texture used for sticky step background."],
@@ -366,7 +389,7 @@ local function CreateDisplayConfig()
 							WoWPro.BackgroundSet(); WoWPro.RowColorSet() end
 					},
 					stickycolor = {
-						order = 19,
+						order = 57,
 						type = "color",
 						name = L["Sticky Step Color"],
 						desc = L["Background color for the sticky step frames."],
@@ -376,18 +399,18 @@ local function CreateDisplayConfig()
 							WoWProDB.profile.stickycolor = {r,g,b,a}
 							WoWPro.BackgroundSet(); WoWPro.RowColorSet() end
 					},
-					blank5 = {
-						order = 20,
+					blank6 = {
+						order = 60,
 						type = "description",
 						name = " ",
 					},  
 					textheading = {
-						order = 20,
+						order = 61,
 						type = "header",
 						name = L["Text Formatting"],
 					},
 					stepfont = {
-						order = 21,
+						order = 62,
 						type = 'select',
 						dialogControl = 'LSM30_Font',
 						name = L["Step Font"],
@@ -407,7 +430,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowFontSet() end
 					},
 					steptextsize = {
-						order = 22,
+						order = 63,
 						type = "range",
 						name = L["Step Text Size"],
 						desc = L["Size of the main step text."],
@@ -418,7 +441,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowSizeSet() end
 					},
 					steptextcolor = {
-						order = 23,
+						order = 64,
 						type = "color",
 						name = L["Step Text Color"],
 						desc = L["Color of the main step text."],
@@ -429,7 +452,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowFontSet() end
 					},
 					notefont = {
-						order = 24,
+						order = 65,
 						type = 'select',
 						dialogControl = 'LSM30_Font',
 						name = L["Note Font"],
@@ -449,7 +472,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowFontSet() end
 					},
 					notetextsize = {
-						order = 25,
+						order = 66,
 						type = "range",
 						name = L["Note Text Size"],
 						desc = L["Size of the note text."],
@@ -460,7 +483,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowSizeSet() end
 					},
 					notetextcolor = {
-						order = 26,
+						order = 67,
 						type = "color",
 						name = L["Note Text Color"],
 						desc = L["Color of the note text."],
@@ -471,7 +494,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowFontSet() end
 					},
 					trackfont = {
-						order = 27,
+						order = 68,
 						type = "select",
 						dialogControl = 'LSM30_Font',
 						name = L["Tracker Font"],
@@ -491,7 +514,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowFontSet() end
 					},
 					tracktextsize = {
-						order = 28,
+						order = 69,
 						type = "range",
 						name = L["Tracker Text Size"],
 						desc = L["Size of the tracking text."],
@@ -502,7 +525,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowSizeSet() end
 					},
 					tracktextcolor = {
-						order = 29,
+						order = 70,
 						type = "color",
 						name = L["Tracker Text Color"],
 						desc = L["Color of the tracking text."],
@@ -513,7 +536,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowFontSet() end
 					},
 					titlefont = {
-						order = 30,
+						order = 71,
 						type = "select",
 						dialogControl = 'LSM30_Font',
 						name = L["Title Bar Font"],
@@ -533,7 +556,7 @@ local function CreateDisplayConfig()
 							WoWPro:TitlebarSet() end
 					},
 					titletextsize = {
-						order = 31,
+						order = 72,
 						type = "range",
 						name = L["Title Bar Text Size"],
 						desc = L["Size of the title bar text."],
@@ -543,7 +566,7 @@ local function CreateDisplayConfig()
 							WoWPro:TitlebarSet() end
 					},
 					titletextcolor = {
-						order = 32,
+						order = 73,
 						type = "color",
 						name = L["Title Bar Text Color"],
 						desc = L["Color of the title bar text."],
@@ -554,7 +577,7 @@ local function CreateDisplayConfig()
 							WoWPro:TitlebarSet() end
 					},
 					stickytitlefont = {
-						order = 33,
+						order = 74,
 						type = "select",
 						dialogControl = 'LSM30_Font',
 						name = L["'As you go:' Font"],
@@ -575,7 +598,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowSizeSet() end
 					},
 					stickytitletextsize = {
-						order = 34,
+						order = 75,
 						type = "range",
 						name = L["'As you go:' Text Size"],
 						desc = L["Size of the text on the top of the sticky frame."],
@@ -586,7 +609,7 @@ local function CreateDisplayConfig()
 							WoWPro.RowSizeSet() end
 					},
 					stickytitletextcolor = {
-						order = 35,
+						order = 76,
 						type = "color",
 						name = L["'As you go:' Text Color"],
 						desc = L["Color of the text on the top of the sticky frame."],
@@ -725,7 +748,7 @@ local function createBlizzOptions()
 					end
 			},
 			doRares = {
-				order = 21,
+				order = 22,
 				type = "toggle",
 				name = L["Enable Rares"],
 				desc = L["Enables/Disables killing optional Rares in guides."],
@@ -739,7 +762,7 @@ local function createBlizzOptions()
 					end
 			},
 			doTreasures = {
-				order = 22,
+				order = 23,
 				type = "toggle",
 				name = L["Enable Treasures"],
 				desc = L["Enables/Disables treasure hunting steps in guides."],
@@ -752,8 +775,22 @@ local function createBlizzOptions()
 						end
 					end
 			},
+			doFlight = {
+				order = 24,
+				type = "toggle",
+				name = L["Skip Flights"],
+				desc = L["Skips most flight steps when you have flying in that zone."],
+				get = function(info) return WoWProCharDB.EnableFlight end,
+				set = function(info,val)
+						if WoWProCharDB.EnableFlight then
+						    WoWProCharDB.EnableFlight = false
+						else
+						    WoWProCharDB.EnableFlight = true
+						end
+					end
+			},
 			arank = {
-				order = 23,
+				order = 25,
 				type = "range",
 				name = L["Global Rank (Difficulty/Completeness)"],
 				desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
@@ -776,7 +813,7 @@ local function createBlizzOptions()
 			    type = "execute",
 			    name = L["Reset WoWPro Addons"],
 			    desc = L["If a WoWPro addon is behaving oddly, this wipes all saved state across all characters. Log out and back in again to complete the reset."],
-			    image = "Interface\\Icons\\INV_Misc_EngGizmos_27",
+			    image = "Interface\\Addons\\WoWPro\\Textures\\inv_misc_enggizmos_27",
 			    func =  function (info)
 			                WoWProDB = nil
 			                WoWProCharDB = nil
@@ -819,34 +856,10 @@ local function createBlizzOptions()
 				order = 93,
 				type = "description",
 				fontSize = "medium",
-				name = "WoW-Pro.com is a guide website by gamers, for gamers. "
+				name = "WoW-Pro.com is a guide website by gamers, for gamers. The site hosts hundreds of free guides covering every facet of World of Warcraft."
 			}, 	
 			blank12 = {
 				order = 94,
-				type = "description",
-				name = " ",
-			},  
-			about11 = {
-				order = 95,
-				type = "description",
-				fontSize = "medium",
-				name = 
-					"The site hosts hundreds of free guides covering every facet of World of Warcraft. "
-			}, 	 	
-			blank13 = {
-				order = 96,
-				type = "description",
-				name = " ",
-			},  
-			about12 = {
-				order = 97,
-				type = "description",
-				fontSize = "medium",
-				name = 
-					"We are most famous for our leveling guides, especially those written by the site founder, Jame. "
-			}, 	 	
-			blank7 = {
-				order = 98,
 				type = "description",
 				name = " ",
 			},  
@@ -867,9 +880,25 @@ local function createBlizzOptions()
 				type = "description",
 				fontSize = "medium",
 				name = 
-					"The WoW-Pro addon will bring many of the guides we've built as a community into the game, "..
-					"but if you get the chance you should definitely stop by, leave a comment saying 'Hi!', and check out "..
-					"some of the guides on WoW-Pro.com!",
+					"The WoW-Pro addon has brought many of the guides we've built as a community into the game, "..
+					"and built on them since WoLK to BFA and now Classic. Drop by WoW-Pro.com or Discord and say hello!"
+			},
+			blank19 = {
+				order = 102,
+				type = "description",
+				name = "",
+				image = "Interface/AddOns/WoWPro/Textures/Discord",
+				imageWidth = 32,
+				imageHeight = 32,
+				width = "half"
+			},
+			about16 = {
+				order = 103,
+				type = "input",
+				name = "Discord",
+				get = function () return "https://discord.gg/aarduK7"; end,
+				set = function () return "https://discord.gg/aarduK7"; end,
+				icon = "Interface\\AddOns\\WoWPro\\Textures\\Discord",
 			},
 		},
 	})
@@ -908,21 +937,91 @@ local function createBlizzOptions()
 						WoWProCharDB.DebugClasses = WoWPro.DebugClasses
 					end
 			},
-			enableGrail = {
-				order = 5,
+			EnableGrailQuestline = {
+				order = 5.0,
 				type = "toggle",
-				name = L["Enable Grail"],
-				desc = L["Enables/Disables Grail Integration"],
-				get = function(info) return WoWPro.EnableGrail end,
-				set = function(info,val) 
-						if WoWPro.EnableGrail then
-						    WoWPro.EnableGrail = false
+				name = L["Grail Quest Lines"],
+				desc = L["Enables/Disables Grail Quest Line Integration"],
+				get = function(info) return WoWProCharDB.EnableGrailQuestline end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailQuestline then
+						    WoWProCharDB.EnableGrailQuestline = false
 						else
-						    WoWPro.EnableGrail = true
+						    WoWProCharDB.EnableGrailQuestline = true
 						end
-						WoWProCharDB.EnableGrail = WoWPro.EnableGrail
 					end
 			},
+			EnableGrailCheckPrereq = {
+				order = 5.1,
+				type = "toggle",
+				name = L["Grail Check PRE"],
+				desc = L["Enables/Disables Grail Quest Prerequistite Quest Checking"],
+				get = function(info) return WoWProCharDB.EnableGrailCheckPrereq end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailCheckPrereq then
+						    WoWProCharDB.EnableGrailCheckPrereq = false
+						else
+						    WoWProCharDB.EnableGrailCheckPrereq = true
+						end
+					end
+			},
+			EnableGrailBreadcrumbs = {
+				order = 5.2,
+				type = "toggle",
+				name = L["Grail Check LEAD"],
+				desc = L["Enables/Disables Grail Quest Breadcrumb Quest Checking"],
+				get = function(info) return WoWProCharDB.EnableGrailBreadcrumbs end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailBreadcrumbs then
+						    WoWProCharDB.EnableGrailBreadcrumbs = false
+						else
+						    WoWProCharDB.EnableGrailBreadcrumbs = true
+						end
+					end
+			},
+			EnableGrailQuestName = {
+				order = 5.3,
+				type = "toggle",
+				name = L["Grail Quest Name Check"],
+				desc = L["Enables/Disables Grail Quest Quest Name Checking"],
+				get = function(info) return WoWProCharDB.EnableGrailQuestName end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailQuestName then
+						    WoWProCharDB.EnableGrailQuestName = false
+						else
+						    WoWProCharDB.EnableGrailQuestName = true
+						end
+					end
+			},
+			EnableGrailQuestLevel = {
+				order = 5.4,
+				type = "toggle",
+				name = L["Grail Quest Level Check"],
+				desc = L["Enables/Disables Grail Quest Quest Level Checking"],
+				get = function(info) return WoWProCharDB.EnableGrailQuestLevel end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailQuestLevel then
+						    WoWProCharDB.EnableGrailQuestLevel = false
+						else
+						    WoWProCharDB.EnableGrailQuestLevel = true
+						end
+					end
+			},
+			EnableGrailQuestObsolete = {
+				order = 5.5,
+				type = "toggle",
+				name = L["Grail Obsolete Quest Check"],
+				desc = L["Enables/Disables Grail Quest Quest Obsolete Checking"],
+				get = function(info) return WoWProCharDB.EnableGrailQuestObsolete end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailQuestObsolete then
+						    WoWProCharDB.EnableGrailQuestObsolete = false
+						else
+						    WoWProCharDB.EnableGrailQuestObsolete = true
+						end
+					end
+			},
+
 			checkGuides = {
 			    order = 6,
 			    type = "execute",

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/order_cloud_serpent_reputation
+-- Date: 2018-10-23 21:57
+-- Who: Ludovicus_Maior
+-- Log: And/Or
+
+-- URL: http://wow-pro.com/node/3505/revisions/28988/view
 -- Date: 2018-02-19 22:50
 -- Who: Ludovicus_Maior
 -- Log: Upload Grail corrections to PRE/LEAD tags
@@ -73,7 +78,6 @@ WoWPro:GuideSteps(guide, function()
 
 return [[
 
-N Work in progress!|N|Please note that this guide is not yet complete. If you find a daily that is not covered by this guide, please report it on the WoWPro website.|
 N Hate Dailies?|N|If you want, you can skip the quests and just fly around picking up onyx eggs after you do the opening questline. They are located mostly on the top of the rocky cliffs. More on that in a few steps.|
 N Order of the Cloud Serpent|N|This guide begins at the Arboretum in The Jade Forest.|
 
@@ -93,11 +97,11 @@ C Egg Collection|QID|30137|M|69,27|US|N|These are the brightly colored eggs (tha
 T Beating the Odds|QID|30135|M|65.2,31.6|N|To Instructor Tong.|
 T Empty Nests|QID|30136|M|65.2,31.6|N|To Instructor Tong.|
 T Egg Collection|QID|30137|M|65.2,31.6|N|To Instructor Tong.|
-A Choosing the One|QID|30138|PRE|30135;30136;30137|M|65.2,31.6|N|From Instructor Tong.|
+A Choosing the One|QID|30138|PRE|30135&30136&30137|M|65.2,31.6|N|From Instructor Tong.|
 T Choosing the One|QID|30138|M|65.2,31.6|N|To Instructor Tong. This is the color of the mount you will end up with at exalted, so choose carefully. You can buy the others later, or get them with alts.|
-A The Rider's Journey|QID|30139;30140;30141|PRE|30138|M|65.2,31.6|N|From Instructor Tong.|
-T The Rider's Journey|QID|30139;30140;30141|M|57.56,45.07|N|To Instructor Skythorn.|
-A It's A...|QID|30142|M|57.56,45.07|PRE|30139+30140+30141|N|From Instructor Skythorn.|
+A The Rider's Journey|QID|30139^30140^30141|PRE|30138|M|65.2,31.6|N|From Instructor Tong.|
+T The Rider's Journey|QID|30139^30140^30141|M|57.56,45.07|N|To Instructor Skythorn.|
+A It's A...|QID|30142|M|57.56,45.07|PRE|30139^30140^30141|N|From Instructor Skythorn.|
 C It's A...|QID|30142|M|57.56,45.07|N|Wait for it to hatch, it will then appear beside Instructor Skythorn, named 'Your Hatchling'|
 C It's A...|QID|30142|M|57.56,45.07|N|To Instructor Skythorn.|
 
@@ -127,13 +131,13 @@ C Flight Training: In Due Course|QID|30187|NC|M|58.33,46.29|
 T Flight Training: In Due Course|QID|30187|M|58.6,43.6|N|To Instructor Windblade.|
 
 ;Congrats!
-A Riding the Skies|QID|31810;31811;30188|M|57.60,44.94|PRE|30142|REP|Order of the Cloud Serpent;1271;exalted|N|From Elder Anli.|
-T Riding the Skies|QID|31810;31811;30188|M|57.60,44.94|PRE|30142|REP|Order of the Cloud Serpent;1271;exalted|N|To Elder Anli.|
+A Riding the Skies|QID|31810^31811^30188|M|57.60,44.94|PRE|30142|REP|Order of the Cloud Serpent;1271;exalted|N|From Elder Anli.|
+T Riding the Skies|QID|31810^31811^30188|M|57.60,44.94|PRE|30142|REP|Order of the Cloud Serpent;1271;exalted|N|To Elder Anli.|
 
 N Onyx To Goodness|QID|31784|N|if you don't want to do dailies skip the pickup quests steps and following that is a step with all the potential egg spawns marked.  TIP: find someone on a low pop realm to invite you there to search for eggs.|
-A Jenova Longeye's Quests|QID|30146;30147;30148;30149|M|57.31,45.34|N|Grab any and all quests from from Jenova Longeye (except perhaps Fragments of the Past, if your archy isn't high enough to dig in Pandaria...she offers it anyway). She has the quests which use your secondary professions. This step will close when you pick up the first quest.|
-A Elder Anli's Quests|QID|31699;31700;31713;31701;31702;31703;31705;31711;31717;31718;31719;31720;31721|M|57.60,44.94|N|Grab any and all quests from from Elder Anli. This step will close when you pick up the first quest.|
-A Two other quests somewhere|QID|30157;30152;30159;31709;31714;31055;30158;31698;31706;31707;31712;30151;30151;30154;31716;31704;31708;31710;30156|M|57.56,45.07|N|Grab any and all quests from the other NPCs. This step will close when you pick up the first quest. (There will be 3 on the days you get the sky race).|
+A Jenova Longeye's Quests|QID|30146^30147^30148^30149|M|57.31,45.34|N|Grab any and all quests from from Jenova Longeye (except perhaps Fragments of the Past, if your archy isn't high enough to dig in Pandaria...she offers it anyway). She has the quests which use your secondary professions. This step will close when you pick up the first quest.|
+A Elder Anli's Quests|QID|31699^31700^31713^31701^31702^31703^31705^31711^31717^31718^31719^31720^31721|M|57.60,44.94|N|Grab any and all quests from from Elder Anli. This step will close when you pick up the first quest.|
+A Two other quests somewhere|QID|30157^30152^30159^31709^31714^31055^30158^31698^31706^31707^31712^30151^30151^30154^31716^31704^31708^31710^30156|M|57.56,45.07|N|Grab any and all quests from the other NPCs. This step will close when you pick up the first quest. (There will be 3 on the days you get the sky race).|
 
 ;these could be sticky...but too many sticky steps clutter the window (and to quote Thomas the Tank, add 'confusion and delay'.
 C Dig - Fragments of the Past|QID|30147|P|Archaeology;794;525|M|44.93,73.36|NC|N|Find a digsite, dig. If you have a patient archeologist friend, you can do this even if your acheology isn't high enough, friend digs, and you kill the mobs in the imediate area can drop these too(particularly those that spawn upon picking up an artifact), you can abandon the quest or manually check this step off if you aren't going to do it.|
@@ -151,7 +155,7 @@ C Needle Me Not|QID|31705|M|57,41.4|T|Orchard Needler|U|89113|N|Use the honey to
 C Pooped|QID|31704|M|55,46|US|N|Drops from silkworms and as a sparkly groundspawn.|
 C Pooped|QID|31716|M|55,46|US|N|Drops from the giant silkworms and as a sparkly groundspawn.|
 C Sweet as Honey|QID|30150|M|55,46|US|N|Kill the honeykeepers to loot the honeycomb, easily AE'd. If the silkworms are causeing your problems, you can finish and go turn in the "Pooped" quest to make them nonagro.|
-C Trainer's Challenge|QID|31717;31718;31719;31721;31720|N|All the trainer challenges you have to beat a 60 sec timer.  If there are other people doing it, by all means help them. If you are grouped you all get credit, once you have beaten the challenge you can no longer help (except healing). Also the return from GY is a pain... so don't die, but if you do. go to 60,50 to find a path up the cliff.|
+C Trainer's Challenge|QID|31717^31718^31719^31721^31720|N|All the trainer challenges you have to beat a 60 sec timer.  If there are other people doing it, by all means help them. If you are grouped you all get credit, once you have beaten the challenge you can no longer help (except healing). Also the return from GY is a pain... so don't die, but if you do. go to 60,50 to find a path up the cliff.|
 C The Trainer's Challenge: Ace Longpaw|QID|31717|M|58,43.8|N|Talk to him to start the fight. Avoid the pools of fire, don't stop moving.|
 C The Trainer's Challenge: Big Bao|QID|31718|M|54.4,44|N|Talk to him to start the fight. This one is about stuns and interrupts. Use your CDs not an easy solo fight for a fresh 90.|
 C The Trainer's Challenge: Ningna Darkwheel|QID|31719|M|58.2,45|N|Talk to her to start the fight. Pop CD's DPS her down fast, avoid the red spheres, they hurt (a lot!)|
