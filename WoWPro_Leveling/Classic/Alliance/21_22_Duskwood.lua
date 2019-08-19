@@ -1,11 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- FIXME:
--- Step A [Eight-Legged Menaces:245] in ClassicDuskwood2122 is missing a CS¦CC¦CN tag.
--- Bad X coordinate 42.7,20:17,25, 1/1 in guide ClassicDuskwood2122, line [C Wolves at Our Heels].
--- Step T [Eight-Legged Menaces:245] in ClassicDuskwood2122 is missing a CS¦CC¦CN tag.
-
 local guide = WoWPro:RegisterGuide('ClassicDuskwood2122', 'Leveling', 'Duskwood', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Duskwood 21-22')
 WoWPro:GuideLevels(guide, 21, 22, 21)
