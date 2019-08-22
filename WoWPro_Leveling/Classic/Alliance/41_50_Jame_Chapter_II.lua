@@ -485,7 +485,7 @@ T A Future Task|QID|2694|M|70.6,18|Z|Ironforge|N|To High Explorer Magellas.|
 N Sell junk, repair, restock, train skills.|ACTIVE|1469|N|Sell junk, repair, restock, train skills.|
 R Stormwind|ACTIVE|1469|N|Take the Tram (or Fly) to Stormwind City.|
 T Rhapsody's Tale|QID|1469|M|64,20|Z|Stormwind City.|N|To Brohann Caskbelly, in the Dwarven District.|
-A Into The Temple of Atal'Hakkar (Dungeon)|QID|1475|M|64,20|Z|Stormwind City.|N|From Brohann Caskbelly.|
+A Into The Temple of Atal'Hakkar (Dungeon)|QID|1475|M|64,20|Z|Stormwind City|N|From Brohann Caskbelly.|
 A Vital Supplies|QID|1477|M|37,81|Z|Stormwind City|N|From High Sorcerer Andromath, in the top of the Mages Tower, in the Mage District.|;moved from Jame's guide to here to avoid an extra trip to Stormwind
 F Darkshire|ACTIVE|1477|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
 T Vital Supplies|QID|1477|M|75.8,46.2|Z|Duskwood|N|To Watchmaster Sorigal.|
