@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('JameAlli_II', 'Leveling', 'Stranglethorn Vale', 'Jame', 'Alliance')
+local guide = WoWPro:RegisterGuide('JameAlli_II', 'Leveling', 'Stranglethorn Vale', 'Jame', 'Alliance', 1)
 WoWPro:GuideLevels(guide,41, 50)
 WoWPro:GuideNextGuide(guide, 'JameAlli_III')
 WoWPro:GuideAutoSwitch(guide)

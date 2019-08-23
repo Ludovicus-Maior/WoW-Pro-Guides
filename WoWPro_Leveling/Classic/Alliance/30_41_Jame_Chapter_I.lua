@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('JameAlli_I', 'Leveling', 'Thousand Needles', 'Jame', 'Alliance')
+local guide = WoWPro:RegisterGuide('JameAlli_I', 'Leveling', 'Thousand Needles', 'Jame', 'Alliance', 1)
 WoWPro:GuideLevels(guide,30, 40)
 WoWPro:GuideNextGuide(guide, 'JameAlli_II')
 WoWPro:GuideName(guide, 'Jame Chapter I Leveling')
