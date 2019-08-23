@@ -1,8 +1,9 @@
 local guide = WoWPro:RegisterGuide('JameAlli_II', 'Leveling', 'Stranglethorn Vale', 'Jame', 'Alliance', 1)
 WoWPro:GuideLevels(guide,41, 50)
 WoWPro:GuideNextGuide(guide, 'JameAlli_III')
+WoWPro:GuideName(guide, 'Jame Chapter II Leveling')
 WoWPro:GuideAutoSwitch(guide)
-WoWPro:GuideIcon(guide, "ICON","Interface\\ICONS\\Alliance_2")
+WoWPro:GuideIcon(guide, "ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0.50,0.75})
 WoWPro:GuideSteps(guide, function()
 return [[
 ;transposed from http://www.wow-pro.com/leveling_guides/jame039s_alliance_leveling_guide_chapter_ii_4150_old_version and the 2.3 Tourguide version of the guide as a basis by Emmaleah 8/17/19
@@ -484,8 +485,8 @@ T A Future Task|QID|2694|M|70.6,18|Z|Ironforge|N|To High Explorer Magellas.|
 ;T Passing the Burden|QID|3448|-not in jame's guide
 N Sell junk, repair, restock, train skills.|ACTIVE|1469|N|Sell junk, repair, restock, train skills.|
 R Stormwind|ACTIVE|1469|N|Take the Tram (or Fly) to Stormwind City.|
-T Rhapsody's Tale|QID|1469|M|64,20|Z|Stormwind City.|N|To Brohann Caskbelly, in the Dwarven District.|
-A Into The Temple of Atal'Hakkar (Dungeon)|QID|1475|M|64,20|Z|Stormwind City.|N|From Brohann Caskbelly.|
+T Rhapsody's Tale|QID|1469|M|64,20|Z|Stormwind City|N|To Brohann Caskbelly, in the Dwarven District.|
+A Into The Temple of Atal'Hakkar (Dungeon)|QID|1475|M|64,20|Z|Stormwind City|N|From Brohann Caskbelly.|
 A Vital Supplies|QID|1477|M|37,81|Z|Stormwind City|N|From High Sorcerer Andromath, in the top of the Mages Tower, in the Mage District.|;moved from Jame's guide to here to avoid an extra trip to Stormwind
 F Darkshire|ACTIVE|1477|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
 T Vital Supplies|QID|1477|M|75.8,46.2|Z|Duskwood|N|To Watchmaster Sorigal.|

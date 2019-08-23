@@ -1,36 +1,37 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('Classic-31-40-Jame-HordeGuide-2', 'Leveling', 'Thousand Needles', 'Jame', 'Horde', 1)
-WoWPro:GuideName(guide, 'Horde Guide Part 1')
+local guide = WoWPro:RegisterGuide('Jame-HordeGuide-2', 'Leveling', 'Thousand Needles', 'Jame', 'Horde' ,1)
+WoWPro:GuideName(guide, 'Horde Guide Part 2')
 WoWPro:GuideLevels(guide, 21, 30, 21)
-WoWPro:GuideNextGuide(guide, 'Classic-41-50-Jame-HordeGuide-3')
+WoWPro:GuideNextGuide(guide, 'Jame-HordeGuide-3')
 WoWPro:GuideSteps(guide, function() return [[
 ; === 002_31_31_Jame_Thousand_Needles.lua ===
 F Orgrimmar|QID|5088|
 
-N Shopping List|QID|5088|N|1x Strong Troll's Blood Elixir - Needed at level 31 (almost right away), 3 Stacks of Silk Cloth, OPTIONAL: 9 more stacks of Silk Cloth. This is for the cloth donation quests. When you get to one of the big cities, you can turn in 3 stacks for some exp.|
-h Orgrimmar|QID|5088|
+B Shopping List|QID|5088|L|3388|N|1x Strong Troll's Blood Elixir - Needed at level 31 (almost right away)
+B 3 Stacks of Silk Cloth|QID|7827|L|4306 60|N|OPTIONAL: 9 more stacks of Silk Cloth. This is for the cloth donation quests. When you get to one of the big cities, you can turn in 3 stacks for some exp.|
+h Orgrimmar|QID|5088|M|54,68.6|N|Set your hearthstone in Orgrimmar at Innkeeper Gryshka.|
 A Call of Air|QID|1531|C|Shaman|M|38.00,38.00|Z|Orgrimmar|N|From Searn Firewarder.|
 
-F Freewind Post|QID|5088|
+F Freewind Post|QID|5088|M|45.2,63.8|N|At Doras, Wind Rider Master.|
 T Call of Air|QID|1531|C|Shaman|M|53.60,42.70|N|Turning this in will give you a really nice buff for one hour, so don't waste it!|
 
-R Darkcloud Pinnacle|QID|5088|M|31.00,36.00|N|Get down the lift and follow the road west until Darkcloud Pinnacle, find the slope going up on the northwestern side of the peak . Go up and across 3 wooden bridges, you'll end up at the top of a peak with 2 bridges, take the one on your left (going east), at the next peak there will be 2 bridges again, take the one on your right (going southeast).|
-C Arikara|QID|5088|M|38.00,35.30|N|You should arrive on a last peak, with a bonfire in the middle named "Sacred Fire of Life". Clear everything on the peak, get back to full health/mana. Right-click the bonfire, it will summon Arikara, a level 28 mob.|
-N READ THIS|QID|5151|N|Go back the way you came from, until you get off Darkcloud Pinnacle. Make sure your 5 minute special ability is up and that you have health pots ready etc. The next part is best done by 2 players so if you can group up with someone for the kill do so, solo it will be a bit hard, but try it anyway.|
+R Darkcloud Pinnacle|QID|5088|M|31.00,36.00|N|Go down the lift and follow the road west until Darkcloud Pinnacle, find the slope going up on the northwestern side of the mesa. Go up and across 3 wooden bridges, you'll end up at the top of a mesa with 2 bridges, take the one on your left (going east), at the next mesa there will be 2 bridges again, take the one on your right (going southeast).|
+K Arikara|ACTIVE|5088|QO|1|M|38.00,35.30|N|You should arrive at a mesa, with a bonfire in the middle named "Sacred Fire of Life". Clear everything on the mesa, get back to full health/mana. Right-click the bonfire, it will summon Arikara, a level 28 mob.|
+R Destroyed Caravan|QID|5151|M|31.00,36.00;22,24|CS|N|Go back the way you came, until you get off Darkcloud Pinnacle. Make sure your 5 minute special ability is up and that you have health pots ready etc. The next part is best done by 2 players so if you can group up with someone for the kill do so, solo it will be a bit hard, but try it anyway.|
 C Hypercapacitator Gizmo|QID|5151|M|22.00,24.00|N|Go northwest until you find a destroyed caravan  with a panther in a cage in the middle. Open the lock, kill the panther and loot the Hypercapacitator Gyzmo, then go south to Whitereach Post.|
-; --- FIXME: Differing Coords found in N tag: 21.00,31.00
-T Arikara|QID|5088|M|21.50,32.40|N|Go west to Whitereach Post (south if you did the enraged panther quest) (21,31).|
-T Hypercapacitator Gyzmo|QID|5151|N|If you did it, if not you can abandon that quest.|
-C Steelsnap|QID|1131|M|13.00,28.00|N|Go west/northwest, we're now gonna look for a named hyena named Steelsnap. Go to the area which is north of highperch, Steelsnap always passes by that spot. Just kill everything in the area while waiting for Steelsnap to show up. I generally find her at . She's a level 30 hyena with two hyena guarding her. Just kill her quickly and run away, that's the easiest option, but any class can manage it with a bit of strategy.|
-C Test of Endurance|QID|1150|M|26.00,55.00|N|Go southeast along the mountain until you reach the harpy cave called Roguefeather Den. Clear your way inside the cave until you reach the bottom, you should see some wooden crates in the corner. When you click them a named harpy will spawn.|
-T Test of Endurance|QID|1150|M|54.00,44.00|N|Travel east to the Weathered Nook , go up the slope.|
-A Test of Strength|QID|1151|M|54.00,41.00|
-C Test of Strength|QID|1151|M|17.00,37.00|N|Go to the northwestern part of the zone to . Kill everything on your way. Rok'Alim the Pounder spawns at that point. Afterwards he roams around in that area a little. Search for him while killing stuff.|
-T Test of Strength|QID|1151|M|54.00,41.00|N|Go back to the Weathered Nook.|
-R Freewind Post|QID|1131|
-F Thunderbluff|QID|1131|
+T Arikara|QID|5088|M|21.50,32.40|N|To Motega Firemane at Whitereach Post.|
+T Hypercapacitator Gyzmo|QID|5151|N|To Whizlo Bearingshiner. (if you didn't kill the panther, abandon that quest.)|
+K Steelsnap|ACTIVE|1131|QO|1|M|13.00,28.00|T|Steelnap|N|Go west/northwest, we're now gonna look for a named hyena named Steelsnap. Go to the area which is north of highperch, Steelsnap always passes by that spot. Just kill everything in the area while waiting for Steelsnap to show up. I generally find her at . She's a level 30 hyena with two hyena guarding her. Just kill her quickly and run away, that's the easiest option, but any class can manage it with a bit of strategy.|
+R Roguefeather Den|ACTIVE|1150|M|26.00,55.00|N|Go southeast along the mountain until you reach the harpy cave called Roguefeather Den. Clear your way inside the cave until you reach the bottom.|
+C Test of Endurance|QID|1150|M|26.00,55.00|N|When you click on the crates in the corner. When you click them a named harpy will spawn. Tough but possible to solo, much easier with company.|
+T Test of Endurance|QID|1150|M|54.00,44.00|N|Travel east to the Weathered Nook, go up the slope. Turn in to Dorn Plainstalker.|
+A Test of Strength|QID|1151|M|54.00,41.00|N|From Dorn Plainstalker.|
+K Rok'Alim the Pounder|ACTIVE|1151|QO|1|M|17.00,37.00|N|Go to the northwestern part of the zone. At the waypoint, kill everything on your way. Rok'Alim the Pounder spawns at that point. Afterwards he roams around in that area a little. Search for him while killing stuff.|
+T Test of Strength|QID|1151|M|54.00,41.00|N|To Dorn Plainstalker, back to the Weathered Nook.|
+R Freewind Post|QID|ACTIVE|M|46,51|
+F Thunderbluff|ACTIVE|1131|
 T Steelsnap|QID|1131|M|61.50,80.90|Z|Thunder Bluff|N|To Melor Stonehoof. Go south to the Hunter Rise.|
 A Frostmaw|QID|1136|M|61.50,80.90|Z|Thunder Bluff|N|From Melor Stonehoof. You can destroy the Kodo Skin Parchment you just got from this quest.|
 
@@ -42,9 +43,7 @@ T Elixir of Agony (Part 2)|QID|513|M|48.8,69.3|Z|Undercity|N|To Master Apothecar
 A Elixir of Agony (Part 3)|QID|515|M|48.8,69.3|Z|Undercity|
 F Tarren Mill|QID|552|M|63.3,48.6|Z|Undercity|
 A Helcular's Revenge (Part 1)|QID|552|M|63.88,19.66|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
-
-; --- FIXME: Convert QO tag 'Torn Fin Eye: 5/5' to number
-N Torn Fin Eyes|QID|515|QO|Torn Fin Eye: 5/5|M|36.00,66.00|Z|Hillsbrad Foothills|N|Head southwest until you hit the Western Strand  with the Murloc Camps. Kill murlocs until you get 5 Torn Fin Eyes.|
+N Torn Fin Eyes|QID|515|QO|4|M|36.00,66.00|Z|Hillsbrad Foothills|N|Head southwest until you hit the Western Strand  with the Murloc Camps. Kill murlocs until you get 5 Torn Fin Eyes.|
 C Elixir of Agony (Part 3)|QID|515|M|58.00,64.00|Z|Hillsbrad Foothills|N|Go east and across the river, until you find nagas at . Kill them until you have 5 Daggerspine Scales.|
 C Helcular's Revenge (Part 1)|QID|552|M|46.00,30.00|Z|Hillsbrad Foothills|N|Go northwest to the Yeti Cave . Kill yetis until you get Helcular's Rod, which is kinda rare, so just kill a lot of yetis. It might take a long time, so be patient. If it really takes more than 20 minute, try to log out and then back in. For some reason this worked for me a couple of times and the rod dropped on the first few kills after I logged back in, after a 20 minute yeti slaughter with no success.|
 T Elixir of Agony (Part 3)|QID|515|Z|Hillsbrad Foothills|N|Go back to Tarren Mill.|
@@ -68,17 +67,12 @@ A Wharfmaster Dizzywig|QID|1111|M|77.80,77.30|
 A A Bump in the Road|QID|1175|M|81.60,78.00|
 
 N Things to know|QID|1110|N|Be on the lookout for Rocket Car Parts and Scorpids they are found all over the place.|
-; --- FIXME: Unknown tag 'Vultures: (86,67)M'
-; --- FIXME: Unknown tag '87.8,65.5'
-C Load Lightening|QID|1176|
-; --- FIXME: Convert QO tag 'Saltstone Basilisk slain: 10/10' to number
-N Saltstone Basilisk|QID|1175|QO|Saltstone Basilisk slain: 10/10|M|79.50,61.50|N|To the north in Weazel's Crater.|
+C Load Lightening|QID|1176|M|87.8,65.5|
+N Saltstone Basilisk|QID|1175|QO|1|M|79.50,61.50|N|To the north in Weazel's Crater.|
 C Hardened Shells|QID|1105|M|73.30,57.50|N|To the north-west near the entrance to the flats.|
 N Turtle Meat|QID|7321|L|3712 10|N|Loot 10 Turtle Meat. Don't sell them, put them in a bank or somewhere in your inventory.|
-; --- FIXME: Convert QO tag 'Saltstone Crystalhide slain: 10/10' to number
-N Saltstone Gazers and Crystalhides|QID|1175|QO|Saltstone Crystalhide slain: 10/10|M|77.00,86.00|N|Around the Tahonda Ruins south of the raceway camp|
-; --- FIXME: Convert QO tag 'Saltstone Gazer slain: 6/6' to number
-N Saltstone Gazer|QID|1175|QO|Saltstone Gazer slain: 6/6|
+N Saltstone Gazers and Crystalhides|QID|1175|QO|2|M|77.00,86.00|N|Around the Tahonda Ruins south of the raceway camp|
+N Saltstone Gazer|QID|1175|QO|3|
 C Salt Flat Venom|QID|1104|M|71.70,72.60|
 C Rocket Car Parts|QID|1110|M|75.50,54.90|
 T Rocket Car Parts|QID|1110|M|77.80,77.30|
@@ -111,8 +105,6 @@ A Supply and Demand|QID|575|M|28.30,77.60|Z|Stranglethorn Vale|N|Get out of the 
 H Orgrimmar|QID|5762|Z|Stranglethorn Vale|
 R Grom'gol|QID|5762|Z|Stranglethorn Vale|N|Take the zeppelin to Grom'gol.|
 
-; --- FIXME: QID '9436' not found in list of valid QIDs
-A Bloodscalp Insight|QID|9436|M|32.00,28.60|Z|Stranglethorn Vale|
 A Hunt for Yenniku|QID|581|M|32.20,27.70|Z|Stranglethorn Vale|
 A Bloody Bone Necklaces|QID|596|M|32.20,27.70|Z|Stranglethorn Vale|
 A The Vile Reef|QID|629|M|32.20,27.70|Z|Stranglethorn Vale|
@@ -127,8 +119,7 @@ A Tiger Mastery (Part 1)|QID|185|M|35.60,10.60|Z|Stranglethorn Vale|
 A Raptor Mastery (Part 1)|QID|194|M|35.60,10.60|Z|Stranglethorn Vale|
 C Supply and Demand|QID|575|M|40.30,12.40|Z|Stranglethorn Vale|N|Kill River Crocolisks which can be found all along the river in northern Stranglethorn Vale until you find 2 Large Crocolisk Skins. While you search for crocs you can also kill Young Tigers close to the river for Tiger Mastery.|
 C Tiger Mastery (Part 1)|QID|185|Z|Stranglethorn Vale|N|Tigers can be found mostly south and around the Nesingwary camp.|
-; --- FIXME: Unknown tag 'Kill Young Panthers, they are mostly found on the other side of the river to the east (41,10).'
-C Panther Mastery (Part 1)|QID|190|Z|Stranglethorn Vale|
+C Panther Mastery (Part 1)|QID|190|M|41,10|Z|Stranglethorn Vale|
 T Tiger Mastery (Part 1)|QID|185|M|35.60,10.60|Z|Stranglethorn Vale|N|Go back to Nesingwary's Expedition.|
 A Tiger Mastery (Part 2)|QID|186|M|35.60,10.60|Z|Stranglethorn Vale|
 T Panther Mastery (Part 1)|QID|190|M|35.60,10.60|Z|Stranglethorn Vale|
@@ -136,12 +127,8 @@ A Panther Mastery (Part 2)|QID|191|M|35.60,10.60|Z|Stranglethorn Vale|
 C Panther Mastery (Part 2)|QID|191|M|30.00,9.00|Z|Stranglethorn Vale|N|Go west until you reach a plateau . Up there you can find Panthers and Tigers. Kill 10 of each.|
 C Tiger Mastery (Part 2)|QID|186|Z|Stranglethorn Vale|
 C Raptor Mastery (Part 1)|QID|194|Z|Stranglethorn Vale|N|Further southwest on the plateau you should find Stranglethorn Raptors.|
-; --- FIXME: Unknown tag '28.8,19.7'
-; --- FIXME: Coords found in N tag, using: 29.00,20.00
-C Bloodscalp Ears|QID|189|M|29.00,20.00|Z|Stranglethorn Vale|N|Go south and down the plateau until you find the troll camp at Bal'lal Ruins (29,20). It should take a while to get 15 Bloodscalp Ears, 9 Bloodscalp Tusks, 1 Bloodscalp Totem and 25 Bloody Bone Necklaces, but it is a nice grinding spot anyway. If you don't have enough trolls there is another camp northeast at the Tkashi Ruins (33,15).M|
+C Bloodscalp Ears|QID|189|M|28.8,19.7|Z|Stranglethorn Vale|N|Go south and down the plateau until you find the troll camp at Bal'lal Ruins. It should take a while to ggather all the things you need, but it's a nice grinding spot. If you don't have enough trolls there is another camp northeast at the Tkashi Ruins.|
 C Hunt for Yenniku|QID|581|M|28.80,19.70|Z|Stranglethorn Vale|
-; --- FIXME: QID '9436' not found in list of valid QIDs
-C Bloodscalp Insight|QID|9436|M|28.80,19.70|Z|Stranglethorn Vale|
 C Bloody Bone Necklaces|QID|596|M|28.80,19.70|Z|Stranglethorn Vale|
 C Singing Blue Shards|QID|605|M|26.70,18.50|Z|Stranglethorn Vale|N|Once you've collected all of that, go west to the shore and move along the shore towards the north until you find Crystal Spine Basilisks. If you run short on Basilisks, there is more on the lower plateau to the east along the shore. If there aren't any basilisks just go kill some trolls until they respawn.|
 C The Vile Reef|QID|629|M|24.00,22.00|Z|Stranglethorn Vale|N|After that go take a swim until you reach the loc , right under you should be some ruins guarded by murlocs. Against one of the outer walls of those ruins you should see a big tablet, if you put your pointer over it the cog should appear and it should say "Gri'lek the Wanderer" (it should also sparkle). Dive and click the tablet to loot the  Tablet Shard, you should be able to do that without aggro'ing any murlock.|
@@ -152,10 +139,6 @@ A Panther Mastery (Part 3|QID|192|M|35.60,10.60|Z|Stranglethorn Vale|
 T Tiger Mastery (Part 2)|QID|186|M|35.60,10.60|Z|Stranglethorn Vale|
 A Tiger Mastery (Part 3)|QID|187|M|35.60,10.60|Z|Stranglethorn Vale|
 T Hunt for Yenniku|QID|581|M|32.20,27.70|Z|Stranglethorn Vale|N|Go directly to Grom'gol base camp.|
-; --- FIXME: QID '9436' not found in list of valid QIDs
-T Bloodscalp Insight|QID|9436|M|32.00,28.60|Z|Stranglethorn Vale|
-; --- FIXME: QID '9457' not found in list of valid QIDs
-A An Unusual Patron|QID|9457|M|32.00,28.60|Z|Stranglethorn Vale|
 T The Vile Reef|QID|629|M|32.30,28.60|Z|Stranglethorn Vale|
 T Bloody Bone Necklaces|QID|596|M|32.20,27.70|Z|Stranglethorn Vale|
 
@@ -184,8 +167,7 @@ B Soothing Spices|QID|7321|Z|Hillsbrad Foothills|
 T Soothing Turtle Bisque|QID|7321|Z|Hillsbrad Foothills|
 h Tarren Mill|QID|517|Z|Hillsbrad Foothills|
 C Elixir of Agony (Part 4)|QID|517|M|69.00,73.00|Z|Hillsbrad Foothills|N|Go southeast to the Dwarven Fortress of Dun Garok . Your first task will be to make yourself a way inside the fortress and find a Keg of Shindigger Stout, they can mostly be found on the side rooms down the stairs.|
-; --- FIXME: Convert QO tag 'Captain Ironhill slain: 1/1' to number
-K Captain Ironhill|QID|541|QO|Captain Ironhill slain: 1/1|Z|Hillsbrad Foothills|N|He can spawn a various locations: * On the top floors, which is good because he can easily be pulled solo there. * On the big middle room down the stairs.|
+K Captain Ironhill|QID|541|QO|4|Z|Hillsbrad Foothills|N|He can spawn a various locations: * On the top floors, which is good because he can easily be pulled solo there. * On the big middle room down the stairs.|
 C Humbert's Sword|QID|547|Z|Hillsbrad Foothills|N|Keep killing dwarves in the fortress until you've completed the kill list of [30]Battle of Hillsbrad and gotten Humbert's Sword.|
 C Battle of Hillsbrad (Part 6)|QID|541|Z|Hillsbrad Foothills|
 R Arathi Highlands|QID|541|Z|Hillsbrad Foothills|N|Get out of the Dwarven Fortress, get back on the path going northeast and then east into Arathi Highlands.|
@@ -211,24 +193,18 @@ A Battle of Hillsbrad (Part 7)|QID|550|Z|Hillsbrad Foothills|
 T Humbert's Sword|QID|547|Z|Hillsbrad Foothills|
 T Elixir of Agony (Part 5)|QID|524|Z|Hillsbrad Foothills|N|Go to the inn, on the 2nd floor there's a room with Captured Farmers inside, and a "Dusty Rug" on the floor.|
 
-; --- FIXME: Convert QO tag 'Flame of Azel charged: 1/1' to number
-N Flame of Azel|QID|553|QO|Flame of Azel charged: 1/1|M|43.90,28.10|Z|Hillsbrad Foothills|N|Go to the yeti cave and from cave entrance look straight.|
-; --- FIXME: Convert QO tag 'Flame of Veraz charged: 1/1' to number
-N Flame of Veraz|QID|553|QO|Flame of Veraz charged: 1/1|M|44.10,26.60|Z|Hillsbrad Foothills|N|go back to the entrance and hug the left wall down the ramp to a pool of water.|
+N Flame of Azel|QID|553|QO|1|M|43.90,28.10|Z|Hillsbrad Foothills|N|Go to the yeti cave and from cave entrance look straight.|
+N Flame of Veraz|QID|553|QO|F2|M|44.10,26.60|Z|Hillsbrad Foothills|N|go back to the entrance and hug the left wall down the ramp to a pool of water.|
 
 ; === 002_35_35_Jame_Alterac_Mountains.lua ===
 C Infiltration|QID|533|M|48.00,81.00|Z|Alterac Mountains|N|Get out of the yeti cave, go north and slightly northeast, find the plateau named Corahn's Dagger  . You'll find a syndicate camp there.|
 N Fresh Carcass|QID|1136|L|5810|M|42.00,77.00|Z|Alterac Mountains|N|To the north you should see a narrow path to Alterac Mountains. Before you go through this pass, kill some lions in the area until you get a Fresh Carcass.|
 C Helcular's Revenge (Part 2)|QID|553|M|37.50,66.20|Z|Alterac Mountains|N|Go through the snowy path, you should be able to locate a yeti cave soon at . Clear yourself a way inside the cave, then click the Flame of Uzel.|
 C Frostmaw|QID|1136|M|37.50,66.30|Z|Alterac Mountains|N|When ready, place the Fresh Carcass on the Flame of Uzel and wait a little bit, frotmaw should show up within the next 20 seconds.|
-; --- FIXME: Convert QO tag 'Bloodstone Wedge: 1/1' to number
-K Dermot|QID|544|QO|Bloodstone Wedge: 1/1|M|20.00,86.00|Z|Alterac Mountains|N|Inside the house surrounded by walls.|
-; --- FIXME: Convert QO tag 'Bloodstone Shard: 1/1' to number
-K Alina|QID|544|QO|Bloodstone Shard: 1/1|M|20.00,84.00|Z|Alterac Mountains|N|Inside the same house with Dermot.|
-; --- FIXME: Convert QO tag 'Bloodstone Marble: 1/1' to number
-K Ricter|QID|544|QO|Bloodstone Marble: 1/1|M|20.00,85.00|Z|Alterac Mountains|N|Outside the house.|
-; --- FIXME: Convert QO tag 'Bloodstone Oval: 1/1' to number
-K Kegan Darkmar|QID|544|QO|Bloodstone Oval: 1/1|M|18.00,84.00|Z|Alterac Mountains|N|In the house to the north, second floor.|
+K Dermot|QID|544|QO|1|M|20.00,86.00|Z|Alterac Mountains|N|Inside the house surrounded by walls.|
+K Alina|QID|544|QO|3|M|20.00,84.00|Z|Alterac Mountains|N|Inside the same house with Dermot.|
+K Ricter|QID|544|QO|2|M|20.00,85.00|Z|Alterac Mountains|N|Outside the house.|
+K Kegan Darkmar|QID|544|QO|4|M|18.00,84.00|Z|Alterac Mountains|N|In the house to the north, second floor.|
 C Stone Tokens|QID|556|M|21.30,83.90|Z|Alterac Mountains|
 H Tarren Mill|QID|533|U|6948|Z|Alterac Mountains|
 T Infiltration|QID|533|Z|Alterac Mountains|
@@ -271,7 +247,6 @@ T Sigil of Strom|QID|639|M|73.80,34.00|Z|Arathi Highlands|
 T Raising Spirits (Part 1)|QID|672|M|74.70,36.30|Z|Arathi Highlands|
 A Raising Spirits (Part 2)|QID|674|M|74.70,36.30|Z|Arathi Highlands|
 T Raising Spirits (Part 2)|QID|674|M|72.60,33.90|Z|Arathi Highlands|N|Talk to Gor'mul in the northwest corner of the village.|
-; --- FIXME: Unknown tag '72.6,33.9'
 A Raising Spirits (Part 3)|QID|675|Z|Arathi Highlands|N|M|
 T Raising Spirits (Part 3)|QID|675|M|74.70,36.30|Z|Arathi Highlands|N|Go back to Torgan.|
 A Guile of the Raptor (Part 1)|QID|701|M|74.70,36.30|Z|Arathi Highlands|
@@ -291,8 +266,8 @@ h Orgrimmar|QID|1431|Z|Arathi Highlands|N|Get out of the Undercity, go take the 
 A Alliance Relations (Part 1)|QID|1431|M|45.30,51.60|Z|Arathi Highlands|N|Go to the Cleft of Shadows, and find Craven Drok, an orc NPC who roams in between the two slopes there.|
 T Alliance Relations (Part 1)|QID|1431|M|22.30,53.80|Z|Arathi Highlands|N|Go to the western exit of Orgrimmar, in the last hut before the exit.|
 A Alliance Relations (Part 2)|QID|1432|M|22.30,53.80|Z|Arathi Highlands|
-F Thunder Bluff|QID|1136|Z|Arathi Highlands|
-; --- FIXME: Unknown tag 'Go to the Hunter Rise.'
+F Thunder Bluff|QID|1136|Z|Arathi Highlands|N|Go to the Hunter Rise.
+
 T Frostmaw|QID|1136|M|61.50,80.90|Z|Arathi Highlands|
 
 ; === 002_37_38_Jame_Desolace.lua ===
@@ -311,9 +286,7 @@ A Alliance Relations (Part 3)|QID|1433|M|52.60,54.40|Z|Desolace|
 A Befouled by Satyr|QID|1434|M|52.60,54.40|Z|Desolace|
 T Alliance Relations (Part 3)|QID|1433|M|52.20,53.40|Z|Desolace|N|Talk to Maurin Bonesplitter who should be right behind you.|
 A The Burning of Spirits|QID|1435|M|52.20,53.40|Z|Desolace|
-
-; --- FIXME: Differing Coords found in N tag: 25.00,75.00
-R Shadowprey Village|QID|5561|M|51.70,72.10|Z|Desolace|N|Go south till you hit the road and then follow it through the Mannaroc COven , until you get to Shadowprey Village (25,75).|
+R Shadowprey Village|QID|5561|M|51.70,72.10;25,75|CS|Z|Desolace|N|Go south till you hit the road and then follow it through the Mannaroc COven , until you get to Shadowprey Village.|
 A Hand of Iruxos|QID|5381|M|25.80,68.20|Z|Desolace|N|From Taiga Wisemane, who should be standing on top of an earth mound, to the right after a couple of huts.|
 A Other Fish to Fry|QID|6143|M|23.30,72.90|Z|Desolace|N|Go down to the pier.|
 A Clam Bait|QID|6142|M|22.60,72.00|Z|Desolace|
@@ -348,10 +321,8 @@ T Sceptre of Light|QID|5741|M|38.90,27.20|Z|Desolace|N|Get west to the tower of 
 A Book of the Ancients|QID|6027|M|38.90,27.20|Z|Desolace|
 
 C Clam Bait|QID|6142|U|15874|M|33.00,31.00|Z|Desolace|N|Go west to the shore, follow it south until you see the mast of a wrecked ship, sticking out of the water at . There should be lots of clams around here.|
-; --- FIXME: Convert QO tag 'Rackmore's Silver Key: 1/1' to number
-N Silver Key|QID|6161|QO|Rackmore's Silver Key: 1/1|Z|Desolace|N|In the same area you'll find those giant lobsters named Drysnap Crawlers and Pincers. Kill those until you find a Silver Key.|
-; --- FIXME: Convert QO tag 'Rackmore's Gold Key: 1/1' to number
-N Gold Key|QID|6161|QO|Rackmore's Gold Key: 1/1|M|33.00,25.00|Z|Desolace|N|Go north of the sunken ship until you find nagas , kill them until you find Rackmore's Golden Key. The key can drop from any naga in the area.|
+N Silver Key|QID|6161|QO|1|Z|Desolace|N|In the same area you'll find those giant lobsters named Drysnap Crawlers and Pincers. Kill those until you find a Silver Key.|
+N Gold Key|QID|6161|QO|2|M|33.00,25.00|Z|Desolace|N|Go north of the sunken ship until you find nagas , kill them until you find Rackmore's Golden Key. The key can drop from any naga in the area.|
 T Claim Rackmore's Treasure!|QID|6161|M|30.00,9.00|Z|Desolace|N|Swim northwest, kill any Slitherblade Myrmidon, Naga or Sorceress you find on your way, this is a long swim. Keep swimming northwest until you reach Raznajar Isle, and step on the isle by the eastern side of it . You should find Rackmore's Chest here, at the base of a tree.|
 C Book of the Ancients|QID|6027|M|28.17,6.20|Z|Desolace|N|Go to the northern tip of the isle, you should find a Serpent Statue . Clear the few nagas around it, get full HP/MANA then go click the statue, this will spawn Lord Kragaru, a level 38 naga.|
 C Other Fish to Fry|QID|6143|M|38.00,27.00|Z|Desolace|N|Swim southeast, back towards the tower of Ethel Rethor , kill the remaining Slitherblade you need on your way back.|
@@ -402,15 +373,10 @@ T Hunting in Stranglethorn|QID|5763|M|35.60,10.60|Z|Stranglethorn Vale|
 
 C Headhunting|QID|582|M|20.00,12.00|Z|Stranglethorn Vale|N|Go southwest around the plateau and then west until you hit the coast. Continue northwest along the coast until you find the ruins of Zuuldaia.|
 
-; --- FIXME: QID '9457' not found in list of valid QIDs
-C An Unusual Patron|QID|9457|U|23680|M|20.00,22.00|Z|Stranglethorn Vale|N|Go southwest and swim towards the island with water elementals on it , find the Altar of Naias.|
-
 T Headhunting|QID|582|M|32.20,27.70|Z|Stranglethorn Vale|N|Go back to Grom'gol base camp.|
 A Bloodscalp Clan Heads|QID|584|Z|Stranglethorn Vale|
 T The Defense of Grom'gol (Part 1)|QID|568|M|32.20,28.90|Z|Stranglethorn Vale|
 A The Defense of Grom'gol (Part 2)|QID|569|M|32.20,28.90|Z|Stranglethorn Vale|
-; --- FIXME: QID '9457' not found in list of valid QIDs
-T An Unusual Patron|QID|9457|M|32.00,28.60|Z|Stranglethorn Vale|
 T Mok'thardin's Enchantment (Part 1)|QID|570|M|32.10,29.20|Z|Stranglethorn Vale|
 A Mok'thardin's Enchantment (Part 2)|QID|572|M|32.10,29.20|Z|Stranglethorn Vale|
 
@@ -428,85 +394,37 @@ N Green Hills of Stranglethorn|QID|6504|Z|Stranglethorn Vale|N|While you are in 
 
 ; === 002_39_40_Jame_Dustwallow_Marsh.lua ===
 b Ratchet|QID|1268|Z|Dustwallow Marsh|
-F Camp Taurajo|QID|1268|Z|Dustwallow Marsh|
-; --- FIXME: Differing Coords found in N tag: 52.50,79.20
+F Camp Taurajo|QID|1268|Z|Dustwallow Marsh|M|52.50,79.20|
+
 R Dustwallow Marsh|QID|1268|M|46.13,75.32|Z|The Barrens|N|Get on the main road and go south until you reach . There the road should fork: go east and follow the road until you reach Dustwallow Marsh (52.5,79.2).|
 
 A Suspicious Hoofprints|QID|1268|M|29.68,47.63|Z|Dustwallow Marsh|
 A The Black Shield (Part 1)|QID|1251|M|29.63,47.58|Z|Dustwallow Marsh|
-; --- FIXME: Unknown tag '29.8,48.2'
-A Lieutenant Paval Reethe|QID|1269|Z|Dustwallow Marsh|N|M|
 
-A Hungry!|QID|1177|M|35.00,38.00|Z|Dustwallow Marsh|N|At  you should see an ogre.|
+A Lieutenant Paval Reethe|QID|1269|Z|Dustwallow Marsh|M|29.8,48.2|
+
+A Hungry!|QID|1177|M|35.00,38.00|Z|Dustwallow Marsh|N|From Mudcrush Durtfeet.|
 R Brackenwall Village|QID|1268|M|35.17,30.28|Z|Dustwallow Marsh|N|Follow the road northeast.|
 h Brackenwall Village|QID|1268|M|36.87,32.35|Z|Dustwallow Marsh|N|. Also buy the First Aid manuals here if you have First Aid.|
-; --- FIXME: QID '11225' not found in list of valid QIDs
-A The Hermit of Witch Hill|QID|11225|Z|Dustwallow Marsh|
 T Suspicious Hoofprints|QID|1268|M|36.40,31.90|Z|Dustwallow Marsh|
 T The Black Shield (Part 1)|QID|1251|M|36.40,31.90|Z|Dustwallow Marsh|
 A The Black Shield (Part 2)|QID|1321|M|36.40,31.90|Z|Dustwallow Marsh|
 T Lieutenant Paval Reethe|QID|1269|M|36.40,31.90|Z|Dustwallow Marsh|
-; --- FIXME: QID '11124' not found in list of valid QIDs
-A Inspecting the Ruins|QID|11124|M|36.40,31.90|Z|Dustwallow Marsh|
-; --- FIXME: QID '9437' not found in list of valid QIDs
-A Twilight of the Dawn Runner|QID|9437|M|35.90,31.70|Z|Dustwallow Marsh|
 T The Black Shield (Part 2)|QID|1321|M|36.50,30.80|Z|Dustwallow Marsh|
 A The Black Shield (Part 3)|QID|1322|Z|Dustwallow Marsh|
-; --- FIXME: QID '11213' not found in list of valid QIDs
-A Check Up on Tabetha|QID|11213|M|35.20,30.70|Z|Dustwallow Marsh|
 A Theramore Spies|QID|1201|M|35.20,30.70|Z|Dustwallow Marsh|
-; --- FIXME: QID '11215' not found in list of valid QIDs
-A Help Mudsprocket|QID|11215|Z|Dustwallow Marsh|
 
-; --- FIXME: Coords found in N tag, using: 41.00,25.00
-C Theramore Spies|QID|1201|M|41.00,25.00|Z|Dustwallow Marsh|N|Exit the village and kill 9 Theramore Infiltrators all around the village (They are stealthed so put on track hidden as a hunter etc). If you have troubles finding the Infiltrators, just use tab while running around (they are non-aggressive so you have to find and attack them first). There are also 3 more infiltrators on a little island at (41,25) and 3 more around (38,26).|
-
-; --- FIXME: Convert QO tag 'Rescue Ithania from North Point Tower: 1/1' to number
-; --- FIXME: QID '9437' not found in list of valid QIDs
-N North Point Tower|QID|9437|QO|Rescue Ithania from North Point Tower: 1/1|M|46.00,24.00|Z|Dustwallow Marsh|N|From Brackenwall Village, go east, slightly northeast to , where you should find North Point Tower. Fight your way inside where you should see a bloodelf NPC called Ithania. Speak to her and follow her dialogue to set her free.|
-; --- FIXME: QID '9437' not found in list of valid QIDs
-C Twilight of the Dawn Runner|QID|9437|M|46.60,24.40|Z|Dustwallow Marsh|N|Then fight your way to the top of the tower. There should be cargo lying around.|
-
-; --- FIXME: QID '11225' not found in list of valid QIDs
-T The Hermit of Wich Hill|QID|11225|M|55.00,26.00|Z|Dustwallow Marsh|N|Now go east to  where you should find "Swamp Eye" Jarl.|
+C Theramore Spies|QID|1201|M|41.00,25.00;38,26|CS|Z|Dustwallow Marsh|N|Exit the village and kill 9 Theramore Infiltrators all around the village (They are stealthed so put on track hidden as a hunter etc). If you have troubles finding the Infiltrators, just use tab while running around (they are non-aggressive so you have to find and attack them first). There are also 3 more infiltrators on a little island at first waypoint and 3 more around the 2nd waypoint.|
 A Marsh Frog Legs|QID|1218|M|55.40,26.30|Z|Dustwallow Marsh|
 A The Lost Report|QID|1238|M|55.40,25.90|Z|Dustwallow Marsh|N|From the loose dirt mound.|
-; --- FIXME: QID '11180' not found in list of valid QIDs
-A What's Haunting Witch Hill?|QID|11180|M|55.40,26.30|Z|Dustwallow Marsh|N|Inside the house or close you should find Mordant Grimsby.|
-
-; --- FIXME: QID '11180' not found in list of valid QIDs
-C What's Haunting Witch Hill?|QID|11180|M|55.00,31.00|Z|Dustwallow Marsh|N|Kill Giant Marsh Frogs while also killing Risen Husks or Risen Spirits. When they die, they'll spawn spirits which will give you a quest update.|
 C Marsh Frog Legs|QID|1218|Z|Dustwallow Marsh|
-
-; --- FIXME: QID '11180' not found in list of valid QIDs
-T What's Haunting Witch Hill?|QID|11180|M|55.40,26.30|Z|Dustwallow Marsh|
-; --- FIXME: QID '11181' not found in list of valid QIDs
-A The Witch's Bane|QID|11181|M|55.40,26.30|Z|Dustwallow Marsh|
 T Marsh Frog Legs|QID|1218|M|55.40,26.30|Z|Dustwallow Marsh|
 A Jarl Needs Eyes|QID|1206|M|55.40,26.30|Z|Dustwallow Marsh|
-
-; --- FIXME: QID '11181' not found in list of valid QIDs
-C The Witch's Bane|QID|11181|M|55.20,27.70|Z|Dustwallow Marsh|N|The plants can be found all around the hut.|
-; --- FIXME: QID '11181' not found in list of valid QIDs
-T The Witch's Bane|QID|11181|M|55.40,26.30|Z|Dustwallow Marsh|N|Go back to Mordant Grimsby.|
-; --- FIXME: QID '11183' not found in list of valid QIDs
-A Cleansing Witch Hill|QID|11183|M|55.40,26.30|Z|Dustwallow Marsh|
-
-; --- FIXME: QID '11183' not found in list of valid QIDs
-C Cleansing Witch Hill|QID|11183|U|33113|M|55.20,26.70|Z|Dustwallow Marsh|N|Get the follow up. Go right outside the hut and while standing on the dock, click the torch Grimsby gave you. After a few seconds a level 36 demon will appear. Kill it and you should get a quest complete message.|
-; --- FIXME: QID '11183' not found in list of valid QIDs
-T Cleansing Witch Hill|QID|11183|M|55.40,26.30|Z|Dustwallow Marsh|
-
 A Stinky's Escape|QID|1270|M|46.00,17.00|Z|Dustwallow Marsh|N|Go northwest to  where you should find "Stinky" Ignatz.|
 C Stinky's Escape|QID|1270|M|46.90,17.50|Z|Dustwallow Marsh|N|Follow him around while he does whatever. (This quest seems to be bugged sometimes and doesn't work. If this is the case for you just skip it).|
 
 C Hungry!|QID|1177|M|54.33,17.54|Z|Dustwallow Marsh|N|Go northeast again and climb over the hill. On the other side of the hill you should see Dreadmurk Shore  with a lot of murlocs.|
 
-; --- FIXME: QID '9437' not found in list of valid QIDs
-H Brackenwall Village|QID|9437|Z|Dustwallow Marsh|
-
-; --- FIXME: QID '9437' not found in list of valid QIDs
-T Twilight of the Dawn Runner|QID|9437|M|35.90,31.70|Z|Dustwallow Marsh|
 T Theramore Spies|QID|1201|M|35.20,30.70|Z|Dustwallow Marsh|
 T The Lost Report|QID|1238|M|35.20,30.70|Z|Dustwallow Marsh|
 
@@ -525,73 +443,9 @@ A Questioning Reethe|QID|1273|M|40.00,36.00|Z|Dustwallow Marsh|N|Mount up and ri
 C Questioning Reethe|QID|1273|M|41.00,36.70|Z|Dustwallow Marsh|
 
 T Hungry!|QID|1177|M|35.00,38.00|Z|Dustwallow Marsh|N|Go southwest, back to Mudcrush Durtfeet.|
-; --- FIXME: QID '11124' not found in list of valid QIDs
-T Inspecting the Ruins|QID|11124|M|29.70,47.60|Z|Dustwallow Marsh|N|Ride to the Shady Rest Inn (at the border to the Barrens).|
-
-; --- FIXME: QID '11213' not found in list of valid QIDs
-T Check Up on Tabetha|QID|11213|M|46.00,57.00|Z|Dustwallow Marsh|N|Now ride southeast to  where you should find Tabetha.|
-; --- FIXME: QID '11169' not found in list of valid QIDs
-A The Grimtotem Weapon|QID|11169|M|46.10,57.20|Z|Dustwallow Marsh|N|From Apprentice Garion, in the same house.|
-; --- FIXME: QID '11173' not found in list of valid QIDs
-A The Reagent Thief|QID|11173|M|46.10,57.20|Z|Dustwallow Marsh|
-; --- FIXME: QID '11156' not found in list of valid QIDs
-A Direhorn Raiders|QID|11156|M|46.10,57.20|Z|Dustwallow Marsh|N|Apprentice Morlann is just outside the house.|
-; --- FIXME: QID '11172' not found in list of valid QIDs
-A The Zeppelin Crash|QID|11172|M|46.10,57.20|Z|Dustwallow Marsh|
-
-; --- FIXME: QID '11173' not found in list of valid QIDs
-N Things to do|QID|11173|Z|Dustwallow Marsh|N|From now on kill every Noxious Shredder and Darkfang Creeper on your way.|
-; --- FIXME: QID '11169' not found in list of valid QIDs
-C The Grimtotem Weapon|QID|11169|U|33101|M|43.71,50.45|Z|Dustwallow Marsh|N|Open your map and take a look at the "island" you are currently situated at. It's called "The Quagmire". Stay on that island and search for Mottled Drywallow Crocolisks. Whenever you see a bunch of them together, right click your Captured Totem from your inventory. Now make sure that whenever you kill a croc, the totem is up or you won't get a quest update.|
-
-; --- FIXME: QID '11173' not found in list of valid QIDs
-C The Reagent Thief|QID|11173|M|41.36,50.89|Z|Dustwallow Marsh|N|At  you should find a few Noxious Shredders  (kill as many as you still need).|
-; --- FIXME: QID '11172' not found in list of valid QIDs
-T The Zeppelin Crash|QID|11172|M|53.00,57.00|Z|Dustwallow Marsh|N|Move east towards , talk to Moxie Steelgrille.|
-; --- FIXME: QID '11174' not found in list of valid QIDs
-A Corrosion Prevention|QID|11174|M|53.60,56.90|Z|Dustwallow Marsh|
-; --- FIXME: QID '11207' not found in list of valid QIDs
-A Secure the Cargo!|QID|11207|M|53.60,56.90|Z|Dustwallow Marsh|
-
-; --- FIXME: QID '11174' not found in list of valid QIDs
-C Corrosion Prevention|QID|11174|U|33108|M|53.00,56.00|Z|Dustwallow Marsh|N|You've probably already noticed that blue lightning rays are being shot at you. The Ooze Buster is used to dissolve oozes all around the crashed zeppelin wreck. You can only use the buster while you energized by the blue rays though (which are being shot by power core fragments). The power core fragment next to Moxie always shoots energy at you so stay as much around that fragment and pull oozes to it. Once they are close use your Ooze buster on them. This will dissolve the oozes and you'll get a quest update. You need to do this 10 times and loot 8 Zeppelin Cargos at the same time.|
-; --- FIXME: QID '11207' not found in list of valid QIDs
-C Secure the Cargo!|QID|11207|M|53.00,56.00|Z|Dustwallow Marsh|
-
-; --- FIXME: QID '11174' not found in list of valid QIDs
-T Corrosion Prevention|QID|11174|M|53.60,56.90|Z|Dustwallow Marsh|N|Return to Moxie.|
-; --- FIXME: QID '11207' not found in list of valid QIDs
-T Secure the Cargo!|QID|11207|M|53.60,56.90|Z|Dustwallow Marsh|
-; --- FIXME: QID '11208' not found in list of valid QIDs
-A Delivery for Drazzit|QID|11208|M|53.60,56.90|Z|Dustwallow Marsh|
-
-
-; --- FIXME: QID '11186' not found in list of valid QIDs
-; --- FIXME: Coords found in N tag, using: 47.22,46.59
-K Apothecary Cylla|QID|11186|L|33115|M|47.22,46.59|Z|Dustwallow Marsh|N|East of you should be some mountains. Follow those mountains north/northwest until you reach a tauren camp called Direhorn Post. Kill 12 Grimtotems here (any). While killing them you'll stumble on an undead npc called Apothecary Cylla. (47.22,46.59) Kill her.|
-; --- FIXME: QID '11186' not found in list of valid QIDs
-A Signs of Treachery?|QID|11186|U|33115|M|47.20,46.60|Z|Dustwallow Marsh|
-; --- FIXME: QID '11156' not found in list of valid QIDs
-C Direhorn Raiders|QID|11156|M|46.59,47.34|Z|Dustwallow Marsh|
-
-; --- FIXME: QID '11169' not found in list of valid QIDs
-T The Grimtotem Weapon|QID|11169|M|46.10,57.20|Z|Dustwallow Marsh|N|Return to Tabetha's house.|
-; --- FIXME: QID '11173' not found in list of valid QIDs
-T The Reagent Thief|QID|11173|M|46.10,57.20|Z|Dustwallow Marsh|
-; --- FIXME: QID '11156' not found in list of valid QIDs
-T Direhorn Raiders|QID|11156|M|46.10,57.20|Z|Dustwallow Marsh|
-
-; --- FIXME: QID '11215' not found in list of valid QIDs
-R Mudsprocket|QID|11215|M|41.91,72.81|Z|Dustwallow Marsh|N|Follow the path south.|
-; --- FIXME: QID '11215' not found in list of valid QIDs
-T Help Mudsprocket|QID|11215|Z|Dustwallow Marsh|
-; --- FIXME: QID '11208' not found in list of valid QIDs
-T Delivery for Drazzit|QID|11208|M|42.30,72.90|Z|Dustwallow Marsh|
-F Brackenwall Village|QID|1273|Z|Dustwallow Marsh|
+F Brackenwall Village|ACTIVE|1273|Z|Dustwallow Marsh|
 
 T Questioning Reethe|QID|1273|M|36.40,31.90|Z|Dustwallow Marsh|
-; --- FIXME: QID '11186' not found in list of valid QIDs
-T Signs of Treachery?|QID|11186|M|35.20,30.70|Z|Dustwallow Marsh|
 A The Black Shield (Part 5)|QID|1276|Z|Dustwallow Marsh|N|From Krog in front of the inn.|
 
 A The Severed Head|QID|1239|M|55.00,26.00|Z|Dustwallow Marsh|N|Mount up and ride back to the hermit hut at.|
@@ -607,8 +461,6 @@ A The Troll Witchdoctor|QID|1240|M|35.20,30.70|Z|Dustwallow Marsh|
 
 F Thunder Bluff|QID|1276|Z|Dustwallow Marsh|
 T The Black Shield (Part 5)|QID|1276|Z|Dustwallow Marsh|N|Go to the Hunter Rise.|
-; --- FIXME: QID '11204' not found in list of valid QIDs
-A Return to Krog|QID|11204|Z|Dustwallow Marsh|
 A Deadmire|QID|1205|M|61.50,80.90|Z|Dustwallow Marsh|
 
 ; === 002_40_41_Jame_Arathi_Highlands.lua ===
@@ -623,9 +475,7 @@ A The Real Threat|QID|680|Z|Arathi Highlands|
 A Foul Magics (Part 2)|QID|673|Z|Arathi Highlands|
 
 C Foul Magics (Part 2)|QID|673|M|29.00,63.00|Z|Arathi Highlands|N|Mount up and ride to Stromgarde Keep. As you enter go left at the first occasion. Clear your way through until you reach a big dark house. Go behind the house and you should be at  approx. Marez Cowel spawns at that location, in front of the butcher table. If she is not there, she can also be found on the second level, in a small square-shaped area above the above described spawn point (in the next area of the keep).|
-; --- FIXME: Coords found in N tag, using: 23.95,60.45
 C The Broken Sigil|QID|640|M|23.95,60.45|Z|Arathi Highlands|N|Fight your way back to where you went left earlier and go right instead (still on the lower level). You should see two ways now. One going south and one going west. Go west and kill every Stromgarde Defender/Troll Hunter/Vindicator you come accross.(23.95,60.45)|
-; --- FIXME: Differing Coords found in N tag: 19.54,68.25
 C The Real Threat|QID|680|M|18.68,66.39|Z|Arathi Highlands|N|Once that is done go back to the intersection from before and instead of going west, go south. You should see ogres and trolls there. Clear your way down then straight until you see a tower. Clear your way around the destroyed houses and search for Or'Kalar. Possible spawnpoints:  (19.54,68.25) (20.97,65.53)|
 C Call to Arms (Part 3)|QID|679|M|19.83,65.96|Z|Arathi Highlands|
 
