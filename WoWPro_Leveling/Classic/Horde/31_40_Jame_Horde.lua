@@ -1,9 +1,9 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('Jame-HordeGuide-2', 'Leveling', 'Thousand Needles', 'Jame', 'Horde', 1)
+local guide = WoWPro:RegisterGuide('Jame-HordeGuide-2', 'Leveling', 'Thousand Needles', 'Jame', 'Horde')
 WoWPro:GuideName(guide, 'Horde Guide Part 2')
-WoWPro:GuideLevels(guide, 31, 40, 31)
+WoWPro:GuideLevels(guide, 21, 30, 21)
 WoWPro:GuideNextGuide(guide, 'Jame-HordeGuide-3')
 WoWPro:GuideSteps(guide, function() return [[
 ; === 002_31_31_Jame_Thousand_Needles.lua ===
@@ -51,12 +51,12 @@ A Wharfmaster Dizzywig|QID|1111|M|77.8,77.3|N|From Kravel Koalbeard.|
 A Hemet Nesingwary|QID|5762|M|77.8,77.3|N|From Kravel Koalbeard.|
 A Rocket Car Parts|QID|1110|M|77.8,77.3|N|From Kravel Koalbeard.|
 
-N From now on...|QID|1110|N|From now on, do long circles all around it and kill everything on the way. Keep any Turtle Meat that you find and pick up the rocket parts.|
+N From now on...|QID|1110|N|From now on, do long circles all around it and kill everything on the way.  Keep any Turtle Meat that you find and pick up the rocket parts.|
 K Turtles|QID|555|N|Save 10 Turtle Meat for a quest later. You may also check the Auction House on another character and then mail yourself the meat, since the meat doesn't drop often.|L|3712 10|M|82.70,54.70|
 C Hardened Shells|N|If you haven't completed Hardened Shells, get 9 Hardened Tortoise Shells from any Tortoise in the area.|QID|1105|M|83.2,55.4|
-K Saltstone Basilisks|QID|1175|QO|1|N|Kill all the Saltstone Basilisks needed for the quest. The Saltstone Basilisks can only be found in the northern side.  Kill other things and progress on your other quests while doing this.|M|75.40,55.90|
-C Rocket Car Parts|NC|N|Get the rest of the Rocket Car Parts you need. They are scattered everywhere.|QID|1110|M|75.4,55.0|
-C Salt Flat Venom|N|Get the rest of the venom you need for this quest. They drop from Scorpids.|QID|1104|M|72.00,73.00|
+K Saltstone Basilisks|QID|1175|QO|1|N|Kill all the Saltstone Basilisks needed for the quest.  The Saltstone Basilisks can only be found in the northern side.  Kill other things and progress on your other quests while doing this.|M|75.40,55.90|
+C Rocket Car Parts|NC|N|Get the rest of the Rocket Car Parts you need.  They are scattered everywhere.|QID|1110|M|75.4,55.0|
+C Salt Flat Venom|N|Get the rest of the venom you need for this quest.  They drop from Scorpids.|QID|1104|M|72.00,73.00|
 C Load Lightening|N|Get the rest of the Vulture Bones you need for this quest.|QID|1176|M|87.00,66.00|
 C A Bump in the Road|N|Kill the rest of the Basilisks needed for this quest.|QID|1175|M|80.00,87.00|
 T A Bump in the Road|QID|1175|M|81.6,77.9|N|To Trackmaster Zherin.|

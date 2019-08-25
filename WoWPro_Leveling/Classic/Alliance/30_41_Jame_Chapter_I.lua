@@ -1,9 +1,9 @@
-local guide = WoWPro:RegisterGuide('JameAlli_I', 'Leveling', 'Thousand Needles', 'Jame', 'Alliance')
+local guide = WoWPro:RegisterGuide('JameAlli_I', 'Leveling', 'Thousand Needles', 'Jame', 'Alliance', 1)
 WoWPro:GuideLevels(guide,30, 40)
 WoWPro:GuideNextGuide(guide, 'JameAlli_II')
 WoWPro:GuideName(guide, 'Jame Chapter I Leveling')
 WoWPro:GuideAutoSwitch(guide)
-WoWPro:GuideIcon(guide,"ACH",13553)
+WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
 WoWPro:GuideSteps(guide, function()
 return [[
 ;transposed from http://www.wow-pro.com/leveling_guides/jame039s_alliance_leveling_guide_chapter_i_3041_old_version and the 2.3 Tourguide version of the guide as a basis by Emmaleah 8/17/19
@@ -449,6 +449,6 @@ A This Is Going to Be Hard (part 3)|QID|778|M|25.9,44.6|Z|Badlands|N|From Lotwil
 C This Is Going to Be Hard (part 3)|QID|778|M|25.9,44.6|Z|Badlands|T|Fam'retor Elemental|N|Kill the Elemental and loot the shackles.|
 T This Is Going to Be Hard (part 3)|QID|778|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
 H Ironforge|N|Hearth to Ironforge.|
-N Chapter II of this guide stars in Stormwind and will load after you check off this step.|
+N Chapter II of this guide starts in Stormwind and will load after you check off this step.|
 ]]
 end)
