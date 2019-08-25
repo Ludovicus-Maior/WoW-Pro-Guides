@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2019-08-22 19:49
+-- Who: Fluclo
+-- Log: Correct the coords of the Horned Skull, add additional detail for Fair Warning
+
+-- URL: http://wow-pro.com/node/3613/revisions/30353/view
 -- Date: 2019-08-06 16:18
 -- Who: Fluclo
 -- Log: Added LEAD tag for Beatface vs. Boulder to stop it showing after you've completed it
@@ -434,8 +439,8 @@ C Fair Warning|QID|35128|N|Kill Ogron Spinecrusher|QO|1|S|
 C Leave Every Soldier Behind |QID|36223|N|Head into the cave, follow the ramp down, speak to Corporal Thukmar and put him out of his misery|QO|1|CHAT|M|45.06,85.73|
 C Leave Every Soldier Behind |QID|36223|N|Pick up Thukmar's Intel.|QO|2|NC|M|45.06,85.73|
 C Fair Warning|QID|35128|N|Kill Borogahn|QO|2|T|Borogahn|M|31.08,74.93|
-$ Horned Skull |QID|35056|N|Horned Skull: Lootable object for Garrison Resources|M|47.05,67.03|ACTIVE|35128|
-C Fair Warning|QID|35128|N|Finish killing the Ogron Spinecrusher|QO|1|US|M|47.05,67.03|
+$ Horned Skull |QID|35056|N|Horned Skull: Lootable object for Garrison Resources|M|42.45,46.8|ACTIVE|35128|
+C Fair Warning|QID|35128|N|Finish killing the Ogron Spinecrusher, keeping at the bottom of the cave for a quest to get you out of there.|QO|1|US|M|41.97,46.81|
 A A Great Escape |QID|35210|N|From Goren Tunnel (near Borogahn's location)|M|41.97,46.81|ACTIVE|35128|
 C A Great Escape |QID|35210|N|Use the Goren Tunnel|M|41.97,46.81|NC|
 

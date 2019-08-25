@@ -1105,7 +1105,7 @@ function WoWPro:ResolveIcon(guide)
 end
 
 
-function WoWPro:GuideIcon(guide,gtype,gsubtype)
+function WoWPro:GuideIcon(guide,gtype,gsubtype,extras)
     gtype = strupper(gtype)
     if gtype == "ACH" then
         guide['ach'] = tonumber(gsubtype)
@@ -1115,6 +1115,9 @@ function WoWPro:GuideIcon(guide,gtype,gsubtype)
         guide['mount'] = tonumber(gsubtype)
     elseif gtype == "ICON" then
         guide['icon'] = gsubtype
+        if extras then
+            guide['icon_offsets'] = extras
+        end
     else
         WoWPro:Error("Unknown Guide Icon type [%s] for guide %s",gtype,guide.GID)
     end
