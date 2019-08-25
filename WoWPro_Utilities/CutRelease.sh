@@ -19,7 +19,9 @@ if [ "$CLASSIC" = "1" ] ; then
          echo '#' Moving $toc to ${toc}~
          mv ${toc} ${toc}~
          echo "#" Classicizing  ${toc}
-         sed "/^## Version: /d" < ${toc}~ | sed "/^## Interface: /d" | sed "/^#classic/ { s/#classic  *##/##/; }" > ${toc}
+         sed "/^## Version: / { s/##/#retail ##/; }" < ${toc}~ | \
+         sed "/^## Interface: / { s/##/#retail ##/; }" | \
+         sed "/^#classic/ { s/#classic  *##/##/; }" > ${toc}
     done
 fi
 
