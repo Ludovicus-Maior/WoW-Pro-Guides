@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_neutral
+-- Date: 2019-08-25 16:54
+-- Who: Ludovicus_Maior
+-- Log: CN to CS updates
+
+-- URL: http://wow-pro.com/node/3255/revisions/30328/view
 -- Date: 2019-07-24 00:12
 -- Who: Fluclo
 -- Log: Only display Run to Cauldron step if you have the quest active
@@ -218,11 +223,11 @@ T A Lumbering Relic|QID|27962|M|68.48,53.50|N|To Burrian Coalpart.|
 T A Proper Antivenom|QID|27958|M|68.59,53.44|N|To Prisanne Dustcropper.|
 
 r Sell junk, repair/restock.|QID|27964|M|68.41,53.43|N|At Burian Coalpart.|
-R The Cauldron|QID|27964|M|70.11,39.80;65.53,38.36;62.84,38.85|CC|N|Head to The Cauldron.|ACTIVE|27964|
+R The Cauldron|QID|27964|M|70.11,39.80;65.53,38.36;62.84,38.85|CS|N|Head to The Cauldron.|ACTIVE|27964|
 C Dig-Boss Dinwhisker|QID|27964|M|54.93,45.64|N|Kill Dark Iron Excavators and Footmen until Dig-Boss Dinwhisker appears. After you kill him, loot the "Dark Ember" off the ground.|
 T Dig-Boss Dinwhisker|QID|27964|M|68.52,53.68|N|To Jack Rockleg.|
 A Thorium Point: The Seat of the Brotherhood|QID|27965|PRE|27957&27958&27961&27962&27964|M|68.52,53.68|N|From Jack Rockleg.|
-R Thorium Point|QID|27965|M|70.11,39.80;66.61,34.57;41.25,34.23|CC|N|Head to Thorium Point.|
+R Thorium Point|QID|27965|M|70.11,39.80;66.61,34.57;41.25,34.23|CS|N|Head to Thorium Point.|
 f Thorium Point|QID|27965|M|38.01,30.67|N|At Lanie Reed.|FACTION|Alliance|
 f Thorium Point|QID|27965|M|34.8,30.8|N|At Grisha.|FACTION|Horde|
 T Thorium Point: The Seat of the Brotherhood|QID|27965|M|38.21,26.83|N|To Overseer Oilfist.|
@@ -233,10 +238,10 @@ A Curse These Fat Fingers|QID|27976|PRE|27965|M|38.30,27.73|N|From Hansel Heavyh
 A Heat That Just Don't Quit|QID|27981|PRE|27965|M|38.30,27.73|N|From Hansel Heavyhands.|
 A Recon Essentials|QID|27977|PRE|27965|M|36.56,27.78|N|From Taskmaster Scrange.|
 C Curse These Fat Fingers|QID|27976|M|39.22,41.08|N|Kill Heavy War Golems.|S|
-C Heat That Just Don't Quit|S|QID|27981|U|62826|M|31.15,43.81;39.07,41.43;42.88,35.89|CN|N|Use the Furnace Flasks on the Elementals at the start of the fight.|
-A Lunk's Adventure: Cranky Little Dwarfs|QID|27983|M|34.68,25.98;31.30,33.89;36.63,36.89|CN|N|Kill a Dark Iron Steamsmith to have Lunk appear. Get his quest.|
+C Heat That Just Don't Quit|S|QID|27981|U|62826|M|31.15,43.81;39.07,41.43;42.88,35.89|CS|N|Use the Furnace Flasks on the Elementals at the start of the fight.|
+A Lunk's Adventure: Cranky Little Dwarfs|QID|27983|M|34.68,25.98;31.30,33.89;36.63,36.89|CS|N|Kill a Dark Iron Steamsmith to have Lunk appear. Get his quest.|
 C Lunk's Adventure: Cranky Little Dwarfs|QID|27983|S|M|38.72,49.87|N|Get the Dark Iron Steamsmiths down below 50% health. He will sit on the dwarves, when he gets up you will get a random item. Including the items needed for "Recon Essentials".|
-C Rasha'krak|QID|28099|U|62826|M|31.15,43.81;39.07,41.43;42.88,35.89|CN|N|Rasha'krak wanders between these waypoints. Use the "Furnace Flasks" on him at the start.|
+C Rasha'krak|QID|28099|U|62826|M|31.15,43.81;39.07,41.43;42.88,35.89|CS|N|Rasha'krak wanders between these waypoints. Use the "Furnace Flasks" on him at the start.|
 C Lunk's Adventure: Cranky Little Dwarfs|QID|27983|US|M|38.72,49.87|N|Finish having Lunk put the Dark Iron Steamsmiths to sleep.|
 C Recon Essentials|QID|27977|M|36.29,47.13|N|Kill Dark Iron Steamsmiths until the two items needed drop, if they did not drop during "Lunk's Adventure: Cranky Little Dwarfs".|
 T Lunk's Adventure: Cranky Little Dwarfs|QID|27983|M|38.72,49.87|N|(UI Alert).|
@@ -252,7 +257,7 @@ T Recon Essentials|QID|27977|M|36.65,28.25|N|To Taskmaster Scrange.|
 A Twilight Collars|QID|27982|PRE|27977|M|36.75,28.25|N|From Taskmaster Scrange.|
 A Dark Ministry|QID|27979|PRE|27976&27977&27982|M|38.33,27.99|N|From Hansel Heavyhands.|
 C Twilight Collars|QID|27982|S|M|38.68,28.71|N|Kill any Twilight mobs as you go along.|
-C Finister's Spherule|QID|27979|L|62824|M|34.68,25.98;31.34,33.65;24.29,34.05;24.68,26.29|CN|N|Kill Finister to loot "Finister's Spherule".|
+C Finister's Spherule|QID|27979|L|62824|M|34.68,25.98;31.34,33.65;24.29,34.05;24.68,26.29|CS|N|Kill Finister to loot "Finister's Spherule".|
 
 A Lunthistle's Tale|QID|27984|M|29.43,26.46|N|From Zamael Lunthistle.|
 C Lunthistle's Tale|QID|27984|CHAT|M|29.43,26.46|N|Listen to his tale.|
@@ -260,17 +265,17 @@ T Lunthistle's Tale|QID|27984|M|29.43,26.46|N|To Zamael Lunthistle.|
 A Prayer to Elune|QID|27985|PRE|27984|M|29.43,26.46|N|From Zamael Lunthistle.|
 C Prayer to Elune|QID|27985|NC|M|23.10,35.28|N|Head down the mountain to the waypoint and open the Twilight Hammer Crate.|
 T Prayer to Elune|QID|27985|M|23.10,35.28|N|(UI Alert).|
-C Kyuubi's Spherule|QID|27979|L|62825|M|22.12,36.50;19.55,35.88;19.40,37.33;17.49,42.58|CN|N|Enter the cave. Kill Kyuubi to loot "Kyuubi's Spherule".|
-C Letherio's Spherule|QID|27979|L|62823|M|13.43,42.71;13.60,40.45;14.49,37.25|CN|N|Kill Letherio to loot "Letherio's Spherule".|
+C Kyuubi's Spherule|QID|27979|L|62825|M|22.12,36.50;19.55,35.88;19.40,37.33;17.49,42.58|CS|N|Enter the cave. Kill Kyuubi to loot "Kyuubi's Spherule".|
+C Letherio's Spherule|QID|27979|L|62823|M|13.43,42.71;13.60,40.45;14.49,37.25|CS|N|Kill Letherio to loot "Letherio's Spherule".|
 C Dark Ministry|QID|27979|U|62824|M|14.49,37.25|N|Use one of the Spherules to combine them.|
 C Twilight Collars|QID|27982|US|M|13.44,42.20|N|Kill Twilight mobs to get the rest of the "Twilight Necklace"s you need.|
-T Dark Ministry|QID|27979|M|15.39,33.76;22.00,36.40;38.25,28.00|CN|N|To Hansel Heavyhands.|
+T Dark Ministry|QID|27979|M|15.39,33.76;22.00,36.40;38.25,28.00|CS|N|To Hansel Heavyhands.|
 A In the Hall of the Mountain-Lord|QID|27986|PRE|27979&28099|M|38.28,28.04|N|From Hansel Heavyhands.|
 T Twilight Collars|QID|27982|M|38.48,28.65|N|To Master Smith Burninate.|
 
 r Sell junk, repair/restock.|QID|27986|M|38.48,28.65|N|At Master Smith Burninate.|
 
-R Iron Summit|QID|27986|M|39.59,31.28;29.51,50.22;31.78,59.97;37.68,62.88|CC|N|Head to the Iron Summit.|
+R Iron Summit|QID|27986|M|39.59,31.28;29.51,50.22;31.78,59.97;37.68,62.88|CS|N|Head to the Iron Summit.|
 f Iron Summit|QID|27986|M|40.95,68.58|N|At Doug Deepdown.|
 T In the Hall of the Mountain-Lord|QID|27986|M|39.26,67.78|N|To Mountain-Lord Rendan. He's on the second floor.|
 A Siege!|QID|28028|PRE|27986|M|39.26,67.78|N|From Mountain-Lord Rendan.|
