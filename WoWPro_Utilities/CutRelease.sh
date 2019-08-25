@@ -47,17 +47,17 @@ fgrep -H Version: */*.toc
 zip -r --include '*.lua' '*.toc' '*.tga' '*.blp' '*.xml' '*.html' @ "WoWPro v${nrelease}.zip" WoWPro WoWPro_Leveling WoWPro_Leveling WoWPro_Dailies WowPro_Profession WoWPro_WorldEvents WoWPro_Achievements
 
 if [ "$CLASSIC" != "1" ] ; then
-    echo git commit -m V${nrelease} -a
-    echo git tag ${nrelease}
-    echo git push origin
-    echo git push --tags
+    git commit -m V${nrelease} -a
+    git tag ${nrelease}
+    git push origin
+    git push --tags
 else
-    echo git tag ${nrelease}
-    echo git push --tags
+    git tag ${nrelease}
+    git push --tags
 fi
 
 if [ -r .s3cfg ] ; then
-    echo s3cmd put --config=.s3cfg -P -M "WoWPro v${nrelease}.zip" s3://WoW-Pro/
+    s3cmd put --config=.s3cfg -P -M "WoWPro v${nrelease}.zip" s3://WoW-Pro/
 else
-    echo s3cmd put -P -M "WoWPro v${nrelease}.zip" s3://WoW-Pro/
+    s3cmd put -P -M "WoWPro v${nrelease}.zip" s3://WoW-Pro/
 fi
