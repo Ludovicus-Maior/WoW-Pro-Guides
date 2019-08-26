@@ -3,40 +3,24 @@ TourGuide:RegisterGuide("Western Plaguelands (57-59)", nil, "Horde", function()
 return [[
 
 ; === guides/57_59_Western_Plaguelands.lua ===
-; --- FIXME: Updated TITLE from 'A Plague Upon Thee (Part 1)' to 'A Plague Upon Thee'
 T A Plague Upon Thee|QID|5901|
-; --- FIXME: Updated TITLE from 'A Plague Upon Thee (Part 2)' to 'A Plague Upon Thee'
 A A Plague Upon Thee|QID|5902|PRE|5901|
 
-; --- FIXME: Updated TITLE from 'A Plague Upon Thee (Part 2)' to 'A Plague Upon Thee'
 T A Plague Upon Thee|QID|5902|
-; --- FIXME: Updated TITLE from 'A Plague Upon Thee (Part 3)' to 'A Plague Upon Thee'
 A A Plague Upon Thee|QID|6390|PRE|5902|
 
-; --- FIXME: Updated TITLE from 'Unfinished Business (Part 1)' to 'Unfinished Business'
-; --- FIXME: Coords found in N tag, using: 51.00,28.00
-A Unfinished Business|QID|6004|M|51.00,28.00|N|(51,28)|
+A Unfinished Business|QID|6004|M|51.00,28.00|
 
-; --- FIXME: Updated TITLE from 'Unfinished Business (Part 1)' to 'Unfinished Business'
 C Unfinished Business|QID|6004|
-; --- FIXME: Updated TITLE from 'Unfinished Business (Part 1)' to 'Unfinished Business'
 T Unfinished Business|QID|6004|
-; --- FIXME: Updated TITLE from 'Unfinished Business (Part 2)' to 'Unfinished Business'
 A Unfinished Business|QID|6023|PRE|6004|
 
-; --- FIXME: Updated TITLE from 'Unfinished Business (Part 2)' to 'Unfinished Business'
 C Unfinished Business|QID|6023|
 C The So-Called Mark of the Lightbringer|QID|9443|
-; --- FIXME: Updated TITLE from 'Unfinished Business (Part 2)' to 'Unfinished Business'
 T Unfinished Business|QID|6023|
-; --- FIXME: Updated TITLE from 'Unfinished Business (Part 3)' to 'Unfinished Business'
 A Unfinished Business|QID|6025|PRE|6023|
-; --- FIXME: Updated TITLE from 'Unfinished Business (Part 3)' to 'Unfinished Business'
 C Unfinished Business|QID|6025|
-; --- FIXME: Updated TITLE from 'Unfinished Business (Part 3)' to 'Unfinished Business'
 T Unfinished Business|QID|6025|
-
-; --- FIXME: Updated TITLE from 'A Plague Upon Thee (Part 3)' to 'A Plague Upon Thee'
 T A Plague Upon Thee|QID|6390|
 T The So-Called Mark of the Lightbringer|QID|9443|
 A Defiling Uther's Tomb|QID|9444|PRE|9443|
@@ -53,8 +37,7 @@ A A Matter of Time|QID|4971|
 
 C A Matter of Time|QID|4971|U|12627|N|Find the blue glowy silos around the edges of Andorhal and use the horn.|
 C The Annals of Darrowshire|QID|5154|
-; --- FIXME: Coords found in N tag, using: 47.00,71.00
-C All Along the Watchtowers|QID|5098|U|12815|M|47.00,71.00|N|Mark each tower in Andorhal, you can get close enough to mark without aggroing mobs inside if you are careful. (47,71) (40,71) (42,66) (44,63)|
+C All Along the Watchtowers|QID|5098|U|12815|M|47,71;40,71;42,66;44,63|CN|N|Mark each tower in Andorhal, you can get close enough to mark without aggroing mobs inside if you are careful.|
 
 T A Matter of Time|QID|4971|
 A Counting Out Time|QID|4973|PRE|4972|
