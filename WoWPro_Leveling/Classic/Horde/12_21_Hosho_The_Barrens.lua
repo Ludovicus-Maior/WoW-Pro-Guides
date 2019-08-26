@@ -4,7 +4,7 @@
 local guide = WoWPro:RegisterGuide('Classic-12-21-Hosho-TheBarrens', 'Leveling', 'The Barrens', 'Hosho', 'Horde', 1)
 WoWPro:GuideName(guide, 'The Barrens')
 WoWPro:GuideLevels(guide, 12, 21, 13)
-WoWPro:GuideNextGuide(guide, 'Classic-21-30-Jame-Horde-1')
+WoWPro:GuideNextGuide(guide, 'Jame-HordeGuide-1')
 WoWPro:GuideSteps(guide, function() return [[
 h The Crossroads|QID|844|M|52.0,29.9|
 ; --- carry over quests from last guide ---------------------------------------
