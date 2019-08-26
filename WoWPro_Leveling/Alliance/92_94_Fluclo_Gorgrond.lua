@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2019-08-24 22:28
+-- Who: Fluclo
+-- Log: Correct coords for Khaano
+
+-- URL: http://wow-pro.com/node/3613/revisions/30365/view
 -- Date: 2019-08-22 19:49
 -- Who: Fluclo
 -- Log: Correct the coords of the Horned Skull, add additional detail for Fair Warning
@@ -506,10 +511,10 @@ A A Grim Harvest |QID|35647|N|From Khaano|M|58.27,59.89|PRE|35645&35644|
 A A Heartfelt Search |QID|35656|N|From Khaano|M|58.27,59.89|PRE|35645&35644|
 C A Grim Harvest |QID|35647|N|Kill and loot the Fungal Stompers as you make your way to the Drained Fungal Heart|M|58.92,62.52|
 C A Heartfelt Search |QID|35656|N|Inspect the Drained Fungal Heart|NC|M|58.92,62.52|
-T A Heartfelt Search |QID|35656|N|To Khaano, who will run next to the Drained Fungal Heart|M|58.27,59.89|
-T A Grim Harvest |QID|35647|N|To Khaano|M|58.27,59.89|
+T A Heartfelt Search |QID|35656|N|To Khaano, who will run next to the Drained Fungal Heart|M|58.97,62.52|
+T A Grim Harvest |QID|35647|N|To Khaano|M|58.97,62.52|
 
-A Heart of the Fen |QID|35659|N|From Khaano|M|58.27,59.89|PRE|35647&35656|
+A Heart of the Fen |QID|35659|N|From Khaano|M|58.97,62.52|PRE|35647&35656|
 C Heart of the Fen |QID|35659|N|Head to the Heart of the Fen, then kill Khaano|M|61.14,61.81|T|Khaano|
 H Highpass |QID|35659|N|Hearthstone to Highpass, or run there if you didn't set your hearthstone/if your hearthstone is still on cooldown.|
 T Heart of the Fen |QID|35659|N|To Rangari D'kaan|M|53.32,59.89|
