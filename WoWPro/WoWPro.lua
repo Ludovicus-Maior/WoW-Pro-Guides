@@ -1251,6 +1251,17 @@ WoWPro.WOD = (winterface >= 60000)
 WoWPro.WOL = (winterface >= 70000)
 WoWPro.NewLevels = (wversion == "7.3.5" or (winterface > 70300))
 
+-- Change this to fake out a classic load on retail
+WoWPro.FakeClassic = false
+
+if WoWPro.FakeClassic then
+    WoWPro.CLASSIC = true
+    WoWPro.MOP = false
+    WoWPro.WOD = false
+    WoWPro.WOL = false
+    WoWPro.NewLevels = false
+end
+
 if WoWPro.MOP or WoWPro.CLASSIC then
     WoWPro.GetNumPartyMembers = GetNumGroupMembers
 else
