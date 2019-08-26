@@ -283,7 +283,7 @@ h Orgrimmar|QID|1431|M|54,68.6|Z|Orgrimmar|N|Set your hearthstone in Orgrimmar a
 A Alliance Relations (Part 1)|QID|1431|M|45.30,51.60|Z|Orgrimmar|N|Go to the Cleft of Shadows, and find Craven Drok, an orc NPC who roams in between the two slopes there.|
 T Alliance Relations (Part 1)|QID|1431|M|22.30,53.80|Z|Orgrimmar|N|To Keldran who can be found near the western exit of Orgrimmar, in the last hut before the exit.|
 A Alliance Relations (Part 2)|QID|1432|M|22.30,53.80|Z|Orgrimmar|N|From Keldran.|
-F Thunder Bluff|QID|1136||M|45.2,63.8|N|At Doras, Wind Rider Master.|
+F Thunder Bluff|QID|1136|M|45.2,63.8|N|At Doras, Wind Rider Master.|
 T Frostmaw|QID|1136|M|61.50,80.90|Z|Thunder Bluff|N|To Melor Stonehoof on Hunters Rise.|
 L Level Check|LVL|37|ACTIVE|5361|
 A Dreadmire|QID|1205|M|61.50,80.90|Z|Thunder Bluff|N|From Melor Stonehoof.|RANK|2| ;Jame said skip this... putting it in, but at Rank 2 for now
@@ -454,7 +454,7 @@ r Repair, restock, sell Junk|ACTIVE|710|M|3.0,47.4|Z|Badlands|N|At Sranda.|
 
 C Study of the Elements: Rock|M|25,45|Z|Badlands|N|Finish collecting the small stone shards.|
 L Level Check|LVL|40|N|Grind here or at Angor Fortress until 40.|
-T Study of the Elements: Rock|QID|710|M|25,45|Z|Badlands|N|From Lotwil Veratius.|
+T Study of the Elements: Rock|QID|710|M|25,45|Z|Badlands|N|To Lotwil Veratius.|
 A Study of the Elements: Rock|QID|711|M|25,45|Z|Badlands|N|From Lotwil Veratius.|
 H Orgrimmar|ACTIVE|711|N|Hearth to Orgrimmar.|
 r Go train (especially riding)|ACTIVE|711|N|Visit the AH, etc. Check this off and the next guide will load.|
