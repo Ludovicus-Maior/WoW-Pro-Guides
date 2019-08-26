@@ -1259,7 +1259,7 @@ if WoWPro.FakeClassic then
     WoWPro.MOP = false
     WoWPro.WOD = false
     WoWPro.WOL = false
-    WoWPro.NewLevels = falae
+    WoWPro.NewLevels = false
 end
 
 if WoWPro.MOP or WoWPro.CLASSIC then
