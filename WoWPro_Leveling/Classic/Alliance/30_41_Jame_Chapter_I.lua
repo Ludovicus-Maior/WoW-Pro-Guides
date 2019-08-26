@@ -38,31 +38,31 @@ C Highperch Venom |QID|1135|M|14.0,31.0|
 K Harpies|M|14.0,31.0|L|5117 25|N|Kill Harpies until you hit level 31 and have collected 25 vibrant plumes. The plumes you can trade in at the darkmoon faire (check calendar for dates) for a 14 slot bag or other goodies.|
 K Harpies|N|Continue killing Harpies until you hit level 31 here or at Rougefeather Den.|LVL|31|M|27,51|
 R Mirage Raceway|QID|1175|N|Run to the Mirage Raceway.|M|80.00,77.00|
-A Hardened Shells|QID|1105|M|78.1,77.1|
-A Salt Flat Venom|QID|1104|M|78.1,77.1|
-A A Bump in the Road|QID|1175|M|81.6,77.9|
-A Load Lightening|QID|1176|M|80.2,75.9|
-A Wharfmaster Dizzywig|QID|1111|M|77.8,77.3|
-A Hemet Nesingwary Jr.|QID|5762|M|77.8,77.3|
-A Rocket Car Parts|QID|1110|M|77.8,77.3|
+A Hardened Shells|QID|1105|M|78.1,77.1|N|From Wizzle Brassbolts.|
+A Salt Flat Venom|QID|1104|M|78.1,77.1|N|From Fizzle Brassbolts.|
+A A Bump in the Road|QID|1175|M|81.6,77.9|N|From Trackmaster Zherin.|
+A Load Lightening|QID|1176|M|80.2,75.9|N|From Pozzik.|
+A Wharfmaster Dizzywig|QID|1111|M|77.8,77.3|N|From Kravel Koalbeard.|
+A Hemet Nesingwary|QID|5762|M|77.8,77.3|N|From Kravel Koalbeard.|
+A Rocket Car Parts|QID|1110|M|77.8,77.3|N|From Kravel Koalbeard.|
 N From now on...|QID|1110|N|From now on, do long circles all around it and kill everything on the way.  Keep any Turtle Meat that you find and pick up the rocket parts.|
 K Turtles|QID|555|N|Get 10 Turtle Meat.  You may also check the Auction House on another character and then mail yourself the meat, since the meat doesn't drop often.|L|3712 10|M|82.70,54.70|
 C Hardened Shells|N|If you haven't completed Hardened Shells, get 9 Hardened Tortoise Shells from any Tortoise in the area.|QID|1105|M|83.2,55.4|
-K Saltstone Basilisks|QID|1175|N|Kill all the Saltstone Basilisks needed for the quest.  The Saltstone Basilisks can only be found in the northern side.  Kill other things and make progress on your other quests while doing this.|M|75.40,55.90|
+K Saltstone Basilisks|QID|1175|QO|1|N|Kill all the Saltstone Basilisks needed for the quest.  The Saltstone Basilisks can only be found in the northern side.  Kill other things and make progress on your other quests while doing this.|M|75.40,55.90|
 C Rocket Car Parts|NC|N|Get the rest of the Rocket Car Parts you need.  They are scattered everywhere.|QID|1110|M|75.4,55.0|
 C Salt Flat Venom|N|Get the rest of the venom you need for this quest.  They drop from Scorpids.|QID|1104|M|72.00,73.00|
 C Load Lightening|N|Get the rest of the Vulture Bones you need for this quest.|QID|1176|M|87.00,66.00|
 C A Bump in the Road|N|Kill the rest of the Basilisks needed for this quest.|QID|1175|M|80.00,87.00|
-T A Bump in the Road|QID|1175|M|81.6,77.9|
-T Load Lightening|QID|1176|M|80.2,75.9|
-A Goblin Sponsorship|QID|1178|M|80.2,75.9|
-T Hardened Shells|QID|1105|M|78.1,77.1|
-T Salt Flat Venom|QID|1104|M|78.1,77.1|
-A Martek the Exiled|QID|1106|M|78.1,77.1|
-T Rocket Car Parts|QID|1110|M|77.8,77.3|
+T A Bump in the Road|QID|1175|M|81.6,77.9|N|To Trackmaster Zherin.|
+T Load Lightening|QID|1176|M|80.2,75.9|N|To Pozzik.|
+A Goblin Sponsorship|QID|1178|M|80.2,75.9|N|From Pozzik.|
+T Hardened Shells|QID|1105|M|78.1,77.1|N|To Wizzle Brassbolts.|
+T Salt Flat Venom|QID|1104|M|78.1,77.1|N|To Fizzle Brassbolts.|
+A Martek the Exiled|QID|1106|M|78.1,77.1|N|From Fizzle Brassbolts.|
+T Rocket Car Parts|QID|1110|M|77.8,77.3|N|To Kravel Koalbeard.|
 L Level 32|ACTIVE|1111|N|Grind if needed to reach level 32.|LVL|32|
-R Tanaris|ACTIVE|1111|N|Run south to Tanaris.|
-f Gadgetzan|ACTIVE|1111|N|Get the flight path.|Z|Tanaris|M|51.00,29.30|
+R Tanaris|ACTIVE|1111|M|75.00,95.70|N|Run south to Tanaris.|
+f Gadgetzan|ACTIVE|1111|N|Get the flight path.|Z|Tanaris|M|51.00,29.20|N|At Bera Stonehammer.|
 H Theramore Isle|ACTIVE|1111|N|Hearth (or fly) to Theramore. If you are a warlock, you can train skills here. (67.50, 51.30)|Z|Dustwallow Marsh|
 r Sell junk, repair, restock.|ACTIVE|1111|N|Sell junk, repair, restock.|
 N Turn in all your quests|N|Leaving speaking to Vimes last.|
@@ -70,9 +70,9 @@ N Turn in all your quests|N|Leaving speaking to Vimes last.|
 R Barrens|ACTIVE|1111|M|27.8,46.6|Z|Dustwallow Marsh|N|Follow the road same as you did last time to the Barrens.|
 R Ratchet|ACTIVE|1111|Z|The Barrens|M|62.7,36.2|N|Run northest to Ratchet.| 
 T Goblin Sponsorship|N|Turn in your quest to Gazlowe.|QID|1178|Z|The Barrens|M|62.7,36.2|
-A Goblin Sponsorship (Follow-up)|QID|1180|Z|The Barrens|M|62.7,36.2|
-T Wharfmaster Dizzywig|N|Turn in your quest to Wharfmaster Dizzywig.|QID|1111|Z|The Barrens|M|63.4,38.5|
-A Parts for Kravel|QID|1112|Z|The Barrens|M|63.4,38.5|
+A Goblin Sponsorship (Follow-up)|QID|1180|Z|The Barrens|M|62.7,36.2|N|From Gazlowe.|
+T Wharfmaster Dizzywig|QID|1111|Z|The Barrens|M|63.4,38.5|N|To Wharfmaster Dizzywig.|
+A Parts for Kravel|QID|1112|Z|The Barrens|M|63.4,38.5|N|From Wharfmaster Dizzywig.|
 b Booty Bay|QID|1181|N|Take the boat to Booty Bay.|Z|The Barrens|M|63.60,38.60|
 T Goblin Sponsorship (part 1)|QID|1180|M|26.3,73.6|Z|Stranglethorn Vale|
 A Goblin Sponsorship (part 2)|QID|1181|M|26.3,73.6|Z|Stranglethorn Vale|
@@ -123,10 +123,10 @@ R Nesingwary Camp|QID|5762|M|35.00,10.00|Z|Stranglethorn Vale|N|Head west along 
 T Hemet Nesingwary Jr.|QID|5762|M|35.00,10.00|Z|Stranglethorn Vale|N|To Hemet Nesingwary, Jr.|
 
 A Welcome to the Jungle|QID|583|M|35.8,10.7|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
-T Welcome to the Jungle|QID|583|M|35.8,10.7|Z|Stranglethorn Vale|N|To Hemet Nesingwary, Jr.|
-A Raptor Mastery|QID|194|M|35.8,10.7|Z|Stranglethorn Vale|
-A Tiger Mastery|QID|185|M|35.8,10.7|Z|Stranglethorn Vale|
-A Panther Mastery|QID|190|M|35.8,10.7|Z|Stranglethorn Vale|
+T Welcome to the Jungle|QID|583|M|35.8,10.7|Z|Stranglethorn Vale|N|To Hemet Nesingwary|
+A Raptor Mastery|QID|194|M|35.8,10.7|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+A Tiger Mastery|QID|185|M|35.8,10.7|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+A Panther Mastery|QID|190|M|35.8,10.7|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
 
 N From now on, kill any Young Tigers, crocolisks, and panthers you come across |Z|Stranglethorn Vale|
 C Supply and Demand|N|Get 2 Large Crocolisk skins from the River Crocolisks.|QID|575|S!US|M|40.6,13.3|Z|Stranglethorn Vale|
@@ -139,22 +139,22 @@ T Bad Medicine|QID|204|M|38.0,3.3|Z|Stranglethorn Vale|
 A Special Forces|QID|574|M|38.0,3.3|Z|Stranglethorn Vale|
 C Tiger Mastery|US|N|Kill the rest of the Young Tigers you need for Tiger Mastery.|QID|185|M|32.30,9.40|Z|Stranglethorn Vale|
 C Panther Mastery|US|N|Kill 10 Young Panthers for the Panther Mastery quest.|QID|190|M|41.00,10.00|Z|Stranglethorn Vale|
-T Tiger Mastery|QID|185|M|35.8,10.7|Z|Stranglethorn Vale|
-A Tiger Mastery (follow-up)|QID|186|M|35.8,10.7|Z|Stranglethorn Vale|
-T Panther Mastery|QID|190|M|35.8,10.7|Z|Stranglethorn Vale|
-A Panther Mastery (follow-up)|QID|191|M|35.8,10.7|Z|Stranglethorn Vale|
+T Tiger Mastery|QID|185|M|35.8,10.7|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
+A Tiger Mastery (follow-up)|QID|186|M|35.8,10.7|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+T Panther Mastery|QID|190|M|35.8,10.7|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
+A Panther Mastery (follow-up)|QID|191|M|35.8,10.7|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
 C Panther Mastery (follow-up)|N|Kill Panthers and Tigers until you complete both quests.|QID|191|M|30.00,9.00|Z|Stranglethorn Vale|
-C Tiger Mastery (follow-up)|N||QID|186|M|30.00,9.00|Z|Stranglethorn Vale|
+C Tiger Mastery (follow-up)|N|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|
 C Raptor Mastery|N|Go southwest and kill 10 Stranglethorn Raptors.|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|
 C Bloodscalp Ears|N|Get 15 bloodscalp ears from the Trolls here.  There are several other camps, one at 33,15, that you can kill Trolls at as well.|QID|189|M|29.00,20.00|Z|Stranglethorn Vale|
 C Singing Blue Shards|N|Go west and kill Basilisks until you get ten Singing Crystal Shards.|QID|605|M|26.80,18.70|Z|Stranglethorn Vale|
 C The Stone of the Tides|N|Swim to the island until you get the quest complete message for The Stone of the Tides.|QID|578|M|21.00,22.00|Z|Stranglethorn Vale|
-T Tiger Mastery|QID|186|M|35.8,10.7|Z|Stranglethorn Vale|
-A Tiger Mastery (part 3)|QID|187|M|35.8,10.7|Z|Stranglethorn Vale|
-T Panther Mastery|QID|191|M|35.8,10.7|Z|Stranglethorn Vale|
-A Panther Mastery (part 3)|QID|192|M|35.8,10.7|Z|Stranglethorn Vale|
-T Raptor Mastery|QID|194|M|35.8,10.7|Z|Stranglethorn Vale|
-A Raptor Mastery (part 2)|QID|195|M|35.8,10.7|Z|Stranglethorn Vale|
+T Tiger Mastery|QID|186|M|35.8,10.7|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
+A Tiger Mastery (part 3)|QID|187|M|35.8,10.7|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+T Panther Mastery|QID|191|M|35.8,10.7|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
+A Panther Mastery (part 3)|QID|192|M|35.8,10.7|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
+T Raptor Mastery|QID|194|M|35.8,10.7|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
+A Raptor Mastery (part 2)|QID|195|M|35.8,10.7|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
 N Green Hills of Stranglethorn|N|Turn in any Green Hills of Stranglethorn quests that you can turn in while you are here.|Z|Stranglethorn Vale|
 L Level Check: 3 bubbles from 34|LVL|33;46325|
 
@@ -187,15 +187,15 @@ R Venture Co. Base Camp|QID|187|N|Go to the river and search for Snapjaw Crocoli
 C Hostile Takeover|N|Kill geologists here until you finish Hostile Takeover.  Kill any Crocolisks that you see if you still need them.|QID|213|M|44.00,20.00|Z|Stranglethorn Vale|
 C Some Assembly Required|N|Kill Snapjaw Crocolisks until you get the skins needed for this quest.  They can be found in or near the river.|QID|577|M|39.60,17.30|Z|Stranglethorn Vale|
 C Tiger Mastery|N|Kill Elder Stranglethorn Tigers at this location until you complete Tiger Mastery.|QID|187|M|32.20,15.20|Z|Stranglethorn Vale|
-T Raptor Mastery|QID|195|M|35.8,10.7|Z|Stranglethorn Vale|
-A Raptor Mastery (follow-up)|QID|196|M|35.8,10.7|Z|Stranglethorn Vale|
-T Tiger Mastery|QID|187|M|35.8,10.7|Z|Stranglethorn Vale|
-A Tiger Mastery (follow-up)|QID|188|M|35.8,10.7|Z|Stranglethorn Vale|
+T Raptor Mastery|QID|195|M|35.8,10.7|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
+A Raptor Mastery (follow-up)|QID|196|M|35.8,10.7|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+T Tiger Mastery|QID|187|M|35.8,10.7|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
+A Tiger Mastery (follow-up)|QID|188|M|35.8,10.7|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 C Special Forces|N|Kill Kurzen in and near this cave until you complete the quest.|QID|574|M|45.40,8.50|
 C Tiger Mastery (follow-up)|N|Kill Sin'dall and loot his paw.|QID|188|M|32.20,17.30|Z|Stranglethorn Vale|
 C Water Elementals|QID|601|M|21,21|Z|Stranglethorn Vale|N|Kill and loot water elementals until you have the required bracers.|
 N Grind to 3 Bubbles from 35|QID|188|M|21,21|LVL|34;49810|Z|Stranglethorn Vale|
-T Tiger Mastery (follow-up)|QID|188|M|35.8,10.7|Z|Stranglethorn Vale|
+T Tiger Mastery (follow-up)|QID|188|M|35.8,10.7|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 N Green Hills of Stranglethorn|QID|574|N|Turn in any Green Hills of Stranglethorn pages you have.|Z|Stranglethorn Vale|
 T Special Forces|QID|574|M|38.0,3.1|Z|Stranglethorn Vale|
 A Colonel Kurzen|QID|202|M|38.0,3.1|Z|Stranglethorn Vale|
