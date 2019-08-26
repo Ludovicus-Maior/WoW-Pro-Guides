@@ -62,7 +62,7 @@ A Martek the Exiled|QID|1106|M|78.1,77.1|N|From Fizzle Brassbolts.|
 T Rocket Car Parts|QID|1110|M|77.8,77.3|N|To Kravel Koalbeard.|
 L Level 32|ACTIVE|1111|N|Grind if needed to reach level 32.|LVL|32|
 R Tanaris|ACTIVE|1111|M|75.00,95.70|N|Run south to Tanaris.|
-f Gadgetzan|ACTIVE|1111|N|Get the flight path.|Z|Tanaris|M|51.00,29.20|N|At Bera Stonehammer.|
+f Gadgetzan|ACTIVE|1111|Z|Tanaris|M|51.00,29.20|N|Get the flight path at Bera Stonehammer.|
 H Theramore Isle|ACTIVE|1111|N|Hearth (or fly) to Theramore. If you are a warlock, you can train skills here. (67.50, 51.30)|Z|Dustwallow Marsh|
 r Sell junk, repair, restock.|ACTIVE|1111|N|Sell junk, repair, restock.|
 N Turn in all your quests|N|Leaving speaking to Vimes last.|
@@ -144,7 +144,7 @@ A Tiger Mastery (follow-up)|QID|186|M|35.8,10.7|Z|Stranglethorn Vale|N|From Ajec
 T Panther Mastery|QID|190|M|35.8,10.7|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
 A Panther Mastery (follow-up)|QID|191|M|35.8,10.7|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
 C Panther Mastery (follow-up)|N|Kill Panthers and Tigers until you complete both quests.|QID|191|M|30.00,9.00|Z|Stranglethorn Vale|
-C Tiger Mastery (follow-up)|N|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|
+C Tiger Mastery (follow-up)|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|
 C Raptor Mastery|N|Go southwest and kill 10 Stranglethorn Raptors.|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|
 C Bloodscalp Ears|N|Get 15 bloodscalp ears from the Trolls here.  There are several other camps, one at 33,15, that you can kill Trolls at as well.|QID|189|M|29.00,20.00|Z|Stranglethorn Vale|
 C Singing Blue Shards|N|Go west and kill Basilisks until you get ten Singing Crystal Shards.|QID|605|M|26.80,18.70|Z|Stranglethorn Vale|

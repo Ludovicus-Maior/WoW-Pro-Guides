@@ -115,7 +115,7 @@ A Frostmane Hold|QID|287|M|46.73,53.82|N|Visit your class trainer while you're h
 A Operation Recombobulation|QID|412|M|45.85,49.36|N|In the small building you find.|
 
 
-R Brewnall Village|QID|318|M|43.99,44.30;41.33,39.80;37.78,39.17;30,45|N|Go north until you come to a frozen river. Follow the river west until you come to the frozen lake, then head southwest to Brewnall Village (30,45).|
+R Brewnall Village|QID|318|M|43.99,44.30;41.33,39.80;37.78,39.17;30,45|CS|N|Go north until you come to a frozen river. Follow the river west until you come to the frozen lake, then head southwest to Brewnall Village (30,45).|
 T Evershine|QID|318|M|30.19,45.17|
 A A Favor for Evershine|QID|319|M|30.19,45.17|
 A The Perfect Stout|QID|315|M|30.19,45.17|
@@ -218,7 +218,7 @@ K Level 11|QID|432|N|Grind in this cave until 2800 exp into 11. Close this step 
 T The Public Servant|QID|433|M|68.67,55.97|
 T Those Blasted Troggs!|QID|432|M|69.08,56.32|
 
-R North Gate Outpost|QID|417|M|78.00,49.61;83.0,40.4|N|Follow the road east until you come to a fork. Take the Northeastern road and you'll soon come to North Gate Outpost. (83.0, 40.4)|
+R North Gate Outpost|QID|417|M|78.00,49.61;83.0,40.4|CS|N|Follow the road east until you come to a fork. Take the Northeastern road and you'll soon come to North Gate Outpost. (83.0, 40.4)|
 A The Lost Pilot|QID|419|M|83.89,39.19|
 T The Lost Pilot|QID|419|M|79.7,36.2|N|Head northwest a bit until you come to a dirt path on the west side of the road. You should see A Dwarven Corpse on the ground. (79.7, 36.2)|
 A A Pilot's Revenge|QID|417|

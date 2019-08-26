@@ -65,7 +65,7 @@ T Murloc Poachers|QID|150|M|27.8,47.3|
 
 N Sell junk, repair, restock|QID|126|N|Close this step when you're done.|M|27.05,45.65|
 
-C Howling in the Hills|N|Kill Yowler and loot his paw.|QID|126|M|37.2,33.4 ;27.00,21.00|
+C Howling in the Hills|N|Kill Yowler and loot his paw.|QID|126|M|37.2,33.4;27.00,21.00|CS|
 T Howling in the Hills|QID|126|M|31,47.4|
 F Darkshire|N|Fly to Darkshire, Duskwood. If you followed Maw's guide, you should have this flight path. If not, close this step and follow the arrows to run there.|M|30.5,59.4|
 R Duskwood|N|Run to Duskwood.|M|6.39,91.51|
