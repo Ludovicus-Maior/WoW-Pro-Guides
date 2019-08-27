@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mechagon_neutral
+-- Date: 2019-08-26 20:51
+-- Who: Emmaleah
+-- Log: missing quests added
+
+-- URL: http://wow-pro.com/node/3791/revisions/30363/view
 -- Date: 2019-08-10 08:10
 -- Who: Emmaleah
 -- Log: More tweaks
@@ -378,13 +383,19 @@ C Test Drive|QID|55696|M|52.70,75.34|QO|4|N|You can click off the buff once you 
 A Grounded|QID|56380|M|42.82,29.37|N|From Brian Pitchspark.|O|;Daily
 C Grounded|QID|56380|M|40.29,25.46|T|Aerial Patroller XZ-2|N|Kill the Aerial Patroller.|;Daily
 T Grounded|QID|56380|M|42.82,29.37|N|To Brian Pitchspark.|;Daily
-C A Direct Approach|QID|56493|M|44.74,34.51|S|N|Kill Tech-Scavengers.|
-A Waste Not|QID|56508|M|42.18,47.79|N|From Useful Bits and Pieces on the ground.|ACTIVE|56493|
+C A Direct Approach|QID|56493|M|44.74,34.51|S|N|Kill Tech-Scavengers. If [Waste Not] isn't an available quest today, be sure to get the named Venture Co Goblins for the followup quest.|
+K Lifting Specialist Gogo|ACTIVE|56493|LEAD|56508|M|42,41|L|168682|T|Lifting Specialist Gogo|N|Counts towardsd Direct Approach and gives a chance at a drop to start another quest if [Waste Not] isn't available today. Check off manually after killing if box does not drop.|
+A Waste Not|QID|56508|M|42.18,47.79|N|From Useful Bits and Pieces on the ground.|ACTIVE|56493|LEAD|56501|
+A Taking the Air Out|QID|56501|N|From item dropped by named Venture Co Goblins, mutually exclusive with [Waste Not].|ACTIVE|56493|LEAD|56508|
 C Waste Not|QID|56508|M|42.72,33.32|S|NC|N|Pick up the Useful Bits and Pieces.|
+C Taking the Air Out|QID|56501|S!US|U|169681|N|Use the Boom-Tastic 3000 to shoot down the Venture Co. hot air balloons.|
 K Pummeller Red|ACTIVE|56471|M|43.54,46.76|QO|2|T|Pummeller Red|N|Kill Pummeller Red.|
+K Share Stealer Wonka|ACTIVE|56493|LEAD|56508|M|45.56,47.21|L|168682|T|Share Stealer Wonka|N|Counts towardsd Direct Approach and gives a chance at a drop to start another quest if [Waste Not] isn't available today. Check off manually after killing if box does not drop.|
 K Pummeller Orange|ACTIVE|56471|M|43.54,46.76|QO|3|T|Pummeller Orange|N|Kill Pummeller Orange.|
+K Profit Maker Grifa|ACTIVE|56493|LEAD|56508|M|46.79,38.20|L|168682|T|Profit Maker Grifa|N|Counts towardsd Direct Approach and gives a chance at a drop to start another quest if [Waste Not] isn't available today. Check off manually after killing if box does not drop.|
 A A Gulper Ate The Rolly|QID|56373|M|37.05,47.16|N|From Danielle Anglers.|O|
 K Pummeller Grey|ACTIVE|56471|M|41.29,31.88|QO|1|T|Pummeller Grey|N|Kill Pummeller Grey.|
+K Problem Solver Skitz|ACTIVE|56493|LEAD|56508|M|39.82,31.51|L|168682|T|Problem Solver Skitz|N|Counts towardsd Direct Approach and gives a chance at a drop to start another quest if [Waste Not] isn't available today. Check off manually after killing if box does not drop.|
 K Rolly Gulper|ACTIVE|56373|M|47.29,28.26|QO|1|T|Rolly Gulper|N|Kill Rolly Gulper.|
 C A Gulper Ate The Rolly|QID|56373|M|48.60,29.03|QO|2|N|Fish up some Bubble-eyed Rolly. Not every cast, but pretty quick even with low fishing skill.|
 T A Gulper Ate The Rolly|QID|56373|M|37.04,47.14|N|To Danielle Anglers.|
@@ -408,10 +419,20 @@ C Bot Rampage|QID|56082|M|78.03,38.57|S!US|N|Kill King Mechagon's invaders.|
 C Discs of Norgannon|QID|56410|M|63.49,56.93|QO|2|CHAT|N|Speak with R33-DR.|
 C Discs of Norgannon|QID|56410|M|63.66,56.84|QO|3|N|Kill the Data Anomaly. (if only data anomalies went away so easily!)|
 T Discs of Norgannon|QID|56410|M|63.50,56.99|N|To R33-DR.|
-A Large Storage Fragment|QID|56423|M|52.90,53.31|N|From Large Storage Fragment, dropped randomly after completing Discs of Norgannon.|PRE|56410|
-C Large Storage Fragment|QID|56423|M|63.49,57.02|QO|1|CHAT|N|Speak with R33-DR.|
-C Large Storage Fragment|QID|56423|M|63.38,56.92|QO|2|N|Kill the Data Anomaly. You can get loot from each type once per day.|
-T Large Storage Fragment|QID|56423|M|63.52,56.97|N|To R33-DR.|
+A Cracked Numeric Cylinder|QID|56421|N|From Cracked Numeric Cylinder, dropped randomly by mobs on days [Discs of Norgannon] is available.|PRE|56410|U|169591|
+A Large Storage Fragment|QID|56423|N|From Large Storage Fragment, dropped randomly by mobs on days [Discs of Norgannon] is available.|PRE|56410|U|169593|
+A Rust Covered Disc|QID|56424|N|From Rust Covered Disc, dropped randomly by mobs on days [Discs of Norgannon] is available.|PRE|56410|U|169594|
+A Scorched Data Disc|QID|56425|N|From Scorched Data Disc, dropped randomly by mobs on days [Discs of Norgannon] is available.|PRE|56410|U|169595|
+C Killed Hogger or Razorclaw?|QID|56421|M|63.49,57.02|QO|1|CHAT|N|If NOT, Talk to R33-DR (Cracked Numeric Cylinder). You can get loot from each set once per day, whether or not you were the one that summoned it.already have killed Balnazzar or Captain Kromcrush today,save your fragment for tomorrow, and check this off manually.|
+C Killed Balnazzar or Captain Kromcrush?|QID|56423|M|63.49,57.02|QO|1|CHAT|N|If NOT, Talk to R33-DR (Large Storage Fragment). You can get loot from each set once per day, whether or not you were the one that summoned it.already have killed Balnazzar or Captain Kromcrush today,save your fragment for tomorrow, and check this off manually.|
+C Killed Baron Kazum or Crowd Pummeler 9-60?|QID|56424|M|63.49,57.02|QO|1|CHAT|N|If NOT, Talk to R33-DR (Rust Covered Disc). You can get loot from each set once per day, whether or not you were the one that summoned it.already have killed Balnazzar or Captain Kromcrush today,save your fragment for tomorrow, and check this off manually.|
+C Killed Baron Gedden?|QID|56425|M|63.49,57.02|QO|1|CHAT|N|If NOT, Talk to R33-DR (Scorched Data Disc). You can get loot from each set once per day, whether or not you were the one that summoned it.already have killed Balnazzar or Captain Kromcrush today,save your fragment for tomorrow, and check this off manually.|
+C Kill what is summoned|QID|56421^56423^56424^56425|M|63.38,56.92|QO|2|N|Kill the Data Anomaly. |
+t Cracked Numeric Cylinder|QID|56421|M|63.52,56.97|N|To R33-DR.|
+t Large Storage Fragment|QID|56423|M|63.52,56.97|N|To R33-DR.|
+t Rust Covered Disc|QID|56424|M|63.52,56.97|N|To R33-DR.|
+t Scorched Data Disc|QID|56425|M|63.52,56.97|N|To R33-DR.|
+
 C One Gnome's Trash|QID|55575|M|66.97,52.55|S!US|U|168183|NC|N|Run around The Heap spamming your metal detector.|
 C Creakclank|QID|56396|M|59.40,51.00|QO|1|N|Defeat Creakclank in a pet battle.|
 A Mechanical Egg Sac|QID|56439|QO|1|N|From item after defeating pet battle Creakclank.|PRE|56396|
@@ -556,6 +577,7 @@ T Rico's Rescue|QID|55885|M|75.89,34.36|N|To Razak Ironsides.|
 T One Gnome's Trash|QID|55575|M|73.73,34.29|N|To Moxie Lockspinner.|
 T Unprofitable Ventures|QID|56471|M|72.10,37.11|N|To Moakka.|
 T A Direct Approach|QID|56493|M|72.24,37.31|N|To Scrollsage Nola.|
+T Taking the Air Out|QID|56501|M|72.24,37.31|N|To Scrollsage Nola.|
 T Aid From Nordrassil|QID|55463|M|72.18,37.26|N|To Mylune.|
 T Pirates? I Hate Those Guys!|QID|56469|M|70.47,30.92|N|To Reno Jackson.|
 
@@ -586,7 +608,7 @@ A Rustbolt Requisition|QID|56362^56759^55381^55383^55382^56754^56765^56364^56752
 
 T Bot Rampage|M|77.88,39.86|QID|56082|N|To Corey Clockbonk.|FACTION|Alliance|
 A Rustbolt Requisition|QID|56361^56760^55380^55379^55378^56755^56761^56363^56753^56751^56747^56763|M|77.6,40.8|N|From Gila Crosswire. Can not accept if you do not have the item.|FACTION|Alliance|
-
+N Fishing|QID|11111|N|There are 10 unique fish to be caught on the island, that will award 25 faction each, per day, when turned in to Danielle Anglers.|
 N All Done|N|Come back and do dailies (shift click in guide header to reset) till you get all the faction, toys, pets and achievements you want.|
 ]]
 
