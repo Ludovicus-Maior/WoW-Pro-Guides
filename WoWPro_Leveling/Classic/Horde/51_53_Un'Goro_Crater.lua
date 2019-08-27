@@ -1,5 +1,9 @@
 
-TourGuide:RegisterGuide( "Un'Goro Crater (51-53)", "Burning Steppes (53-54)", "Horde", function()
+local guide = WoWPro:RegisterGuide('classic-young-ungoro', 'Leveling', "Un'Goro Crater", 'Jame', 'Horde', 1)
+WoWPro:GuideName(guide, 'Un'Goro Crater (51-53)')
+WoWPro:GuideLevels(guide, 51, 53, 52)
+WoWPro:GuideNextGuide(guide, 'classic-young-burning-steppes')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ; === guides/51_53_Un'Goro_Crater.lua ===

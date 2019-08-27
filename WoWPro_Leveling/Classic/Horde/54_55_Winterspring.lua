@@ -1,4 +1,9 @@
-TourGuide:RegisterGuide("Winterspring (54-55)", "Western Plaguelands (56)", "Horde", function()
+
+local guide = WoWPro:RegisterGuide('classic-young-winterspring', 'Leveling', 'Winterspring', 'Jame', 'Horde', 1)
+WoWPro:GuideName(guide, 'Winterspring (54-55)')
+WoWPro:GuideLevels(guide, 54, 55, 54.75)
+WoWPro:GuideNextGuide(guide, 'classic-young-western-plaguelands56')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ; === guides/54_55_Winterspring.lua ===
@@ -40,7 +45,7 @@ T Chillwind Horns|QID|4809|
 C Winterfall Activity|QID|8464|M|67.00,37.00|
 C Are We There, Yeti?|QID|977|M|66.00,43.00|N|pristine horns here.|
 
-H Everlook|ACTOVE|977|
+H Everlook|ACTIVE|977|
 T Are We There, Yeti?|QID|977|
 
 F Bloodvenom Post|

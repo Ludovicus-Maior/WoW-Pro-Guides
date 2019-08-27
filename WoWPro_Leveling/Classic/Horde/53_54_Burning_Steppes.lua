@@ -1,4 +1,8 @@
-TourGuide:RegisterGuide("Burning Steppes (53-54)", "Felwood (54)", "Horde", function()
+local guide = WoWPro:RegisterGuide('classic-young-burning-steppes', 'Leveling', 'Burning Steppes', 'Jame', 'Horde', 1)
+WoWPro:GuideName(guide, 'Burning Steppes (53-54)')
+WoWPro:GuideLevels(guide, 53, 54, 53.5)
+WoWPro:GuideNextGuide(guide, 'classic-young-felwood')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ; === guides/53_54_Burning_Steppes.lua ===
@@ -18,7 +22,7 @@ T A Taste of Flame|QID|4022|
 T Dreadmaul Rock|QID|3821|M|79.00,45.00|N||
 A Krom'Grul|QID|3822|PRE|3821|M|80.0,45.4|N|Sha'ni|
 C Krom'Grul|QID|3822|M|83,30;83,39|CN|N|He has two spawn points in either cave|
-C The Rise of the Machines|QID|4061|M|56,41;59,37,68,37|CN|Z|Burning Steppes|N|Near Ruins of Thaurissan War Reavers, Greater Rock Elems, etc|
+C The Rise of the Machines|QID|4061|M|56,41;59,37;68,37|CN|Z|Burning Steppes|N|Near Ruins of Thaurissan War Reavers, Greater Rock Elems, etc|
 C Tablet of the Seven|QID|4296|M|54,40|N|Dwarf statue|
 T Tablet of the Seven|QID|4296|M|65.2,23.6|N|Maxwort Uberglint|
 T Broodling Essence|QID|4726|M|65.2,23.6|N|Tinkee Steamboil|

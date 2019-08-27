@@ -1,5 +1,10 @@
 
-TourGuide:RegisterGuide("Eastern Plaguelands (56-57)", "Western Plaguelands (57-59)", "Horde", function()
+
+local guide = WoWPro:RegisterGuide('classic-young-eastern-plaguelands', 'Leveling', 'Western Plaguelands', 'Jame', 'Horde', 1)
+WoWPro:GuideName(guide, 'Eastern Plaguelands (56-57)')
+WoWPro:GuideLevels(guide, 56, 57, 56.75)
+WoWPro:GuideNextGuide(guide, 'classic-young-western-plaguelands57')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ; === guides/56_57_Eastern_Plaguelands.lua ===

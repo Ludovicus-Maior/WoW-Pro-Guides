@@ -3,7 +3,7 @@
 
 local guide = WoWPro:RegisterGuide('Jame-HordeGuide-1', 'Leveling', 'Stonetalon Mountains', 'Jame', 'Horde' ,1)
 WoWPro:GuideName(guide, 'Horde Guide Part 1')
-WoWPro:GuideLevels(guide, 21, 30, 21)
+WoWPro:GuideLevels(guide, 21, 30, 22)
 WoWPro:GuideNextGuide(guide, 'Jame-HordeGuide-2')
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0.25,0.50,0,0.25})

@@ -43,7 +43,7 @@ C Scavenging Deathknell|QID|3902|M|33.2,63.7|N|Find the crates in and around the
 K Samuel Fipps|ACTIVE|6395|M|36.6,61.6|L|16333|N|He's east/northeast where the small tents are. Loot Samuel's Remains.|
 K Young Night Web Spider|ACTIVE|380|M|29.4,58.6|QO|1|N|You can find them west/northwest at the cave.|
 C Night Web's Hollow|QID|380|M|27.8,59.2|QO|2|N|The Night Web Spiders are inside the cave.|
-H Deathknell|QID|381|U|6948|
+H Deathknell|QID|381|U|6948|N|If your hearthstone is up, use it for a quick run back.|
 C Marla's Last Wish|QID|6395|M|31.17,65.08|N|Run north to the graveyard outside the chapel and click the sparkling pile of dirt next to a tombstone.|
 
 T Marla's Last Wish|QID|6395|M|30.86,66.05|N|At Novice Elreth in the chapel.|
@@ -68,7 +68,7 @@ C Fields of Grief|QID|365|M|37.2,52.2|N|Gather 10 Tirisfal Pumpkins in the field
 A Gordo's Task|QID|5481|M|42.87,54.30;58.03,51.70|CS|N|Follow the road east to Brill. Along the way you should encounter a patrolling abonimation named Gordo. Just watch out for a yellow question mark on your minimap. Take his quest.|
 R Brill|QID|404|M|58.03,51.70|N|Just keep following the road east to Brill while gathering Gloom Weed.|
 
-A A Putrid Task|QID|404|M|58.19,51.44|N|From Deathguard Dillinger outside the cemetary.|
+A A Putrid Task|QID|404|M|58.19,51.44|N|From Deathguard Dillinger outside the cemetery.|
 T Fields of Grief|QID|365|M|59.44,52.39|N|Enter the first house to the right and turn in the quest at Apothecary Johaan.|
 A Fields of Grief|QID|407|M|59.4,52.4|
 A A New Plague|QID|367|M|59.4,52.4|
@@ -76,8 +76,32 @@ T Vital Intelligence|QID|383|M|60.57,51.77|N|At Executor Zygand.|
 A At War With The Scarlet Crusade|QID|427|M|60.6,51.8|N|From Executor Zygand.|
 A Wanted: Maggot Eye|QID|398|M|60.73,51.51|N|From the WANTED poster behind Executor Zygand.|
 A Graverobbers|QID|358|M|61.26,50.84|N|From Magistrate Sevren  in the town hall.|
+
+N Rand Rhobart|ACTIVE|407|M|65.6,60.0|N|The Skinning Trainer|
+N Bowen Brisboise|ACTIVE|407|M|52.6,55.6|N|The Tailoring Trainer|
+N Nurse Neela|ACTIVE|407|M|61.8,52.8|N|First Aid Trainer|
+N Cain Firesong|ACTIVE|407|M|61.8,52.4|N|Mage Trainer|
+N Dark Cleric Beryl|ACTIVE|407|M|61.6,52.2|N|Priest Trainer|
+N Rupert Boch|ACTIVE|407|M|61.6,52.4|N|Warlock Trainer|
+N Gina Lang|ACTIVE|407|M|61.6,52.6|N|Demon Trainer|
+N Marion Call|ACTIVE|407|M|61.6,52.0|N|Rogue Trainer|
+N Austil de Mon|ACTIVE|407|M|61.8,52.4|N|Warrior Trainer|
+N Vance Undergloom |ACTIVE|407|M|61.6,51.6|N|Journeyman Enchanter, Trainer|
+N Carolai Anise|ACTIVE|407|M|59.4,52.2|N|Journeyman Alchemist|
+N Faruza|ACTIVE|407|M|59.8,52.0|N|Apprentice Herbalist, Trainer.  Near the mount vendor.|
+
+
+N Martine Tramblay|ACTIVE|407|M|65.8,59.6|N|Fishing Supplies, including fishing rods.|
+N Clyde Kellen|ACTIVE|407|M|67.2,51.0|N|Fisherman, Trainer.  Waaay out by the lake.|
+N James Van Brunt|ACTIVE|407|61.0,29.8|Z|Undercity|N|Expert Blacksmith, in Undercity's War Quarter.|
+N Eunice Burch|ACTIVE|407|63.0,44.0|Z|Undercity|N|Cooking Trainer, Western central middle tier in Undercity.|
+N Franklin Lloyd|ACTIVE|407|76.2,75.4|Z|Undercity|N|Expert Engineer, Trainer, in Southeastern Undercity.|
+N Armand Cromwell|ACTIVE|407|M|80.8,31.2|Z|Undercity|N|Fishing Trainer, in Northestern Undercity.|
+N Brom Killian|ACTIVE|407|M|56.0,37.0|Z|Undercity|N|Mining Trainer. War Quarter, inner cloister.|
+
+
 T A Rogue's Deal|QID|8|M|61.70,52.04|N|At Innkeeper Renee  in the inn.|
-h Gallows' End Tavern|QID|407|N|Set your hearthstone to Brill.|
+h Gallows' End Tavern|ACTIVE|407|N|Set your hearthstone to Brill.|
 T Fields of Grief|QID|407|M|61.97,51.28|N|At the basement.|
 T In Favor of Darkness|QID|5651|C|Priest|M|61.57,52.19|N|At Dark Cleric Beryl at the top floor of the inn.|
 A Garments of Darkness|QID|5650|C|Priest|

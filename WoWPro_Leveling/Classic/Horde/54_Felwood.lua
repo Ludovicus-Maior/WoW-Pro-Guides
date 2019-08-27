@@ -1,5 +1,9 @@
 
-TourGuide:RegisterGuide("Felwood (54)", "Winterspring (54-55)", "Horde", function()
+local guide = WoWPro:RegisterGuide('classic-young-felwood', 'Leveling', 'Felwood', 'Jame', 'Horde', 1)
+WoWPro:GuideName(guide, 'Felwood (54)')
+WoWPro:GuideLevels(guide, 54, 55, 54.25)
+WoWPro:GuideNextGuide(guide, 'classic-young-winterspring')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ; === guides/54_Felwood.lua ===

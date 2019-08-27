@@ -1,9 +1,9 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('Jame-HordeGuide-2', 'Leveling', 'Thousand Needles', 'Jame', 'Horde')
+local guide = WoWPro:RegisterGuide('Jame-HordeGuide-2', 'Leveling', 'Thousand Needles', 'Jame', 'Horde', 1)
 WoWPro:GuideName(guide, 'Horde Guide Part 2')
-WoWPro:GuideLevels(guide, 21, 30, 21)
+WoWPro:GuideLevels(guide, 31, 40, 32)
 WoWPro:GuideNextGuide(guide, 'Jame-HordeGuide-3')
 WoWPro:GuideSteps(guide, function() return [[
 ; === 002_31_31_Jame_Thousand_Needles.lua ===
