@@ -6,6 +6,7 @@ WoWPro:GuideName(guide, 'Durotar')
 WoWPro:GuideLevels(guide, 6, 12, 7)
 WoWPro:GuideNextGuide(guide, 'Classic-12-21-Hosho-TheBarrens')
 WoWPro:GuideSteps(guide, function() return [[
+
 ; --- carry over quests from last guide ---------------------------------------
 A Dark Storms|AVAILABLE|806|M|52.25,43.15|N|From Orgnil Soulscar.|
 A Vanquish the Betrayers|AVAILABLE|784|M|51.95,43.50|N|From Gar'Thok.|
@@ -109,6 +110,13 @@ R Go up Here|QID|812|M|42.68,61.81|Z|Orgrimmar|CC|N|Keep left and go up one leve
 T The Admiral's Orders|QID|831|M|32.28,35.79|Z|Orgrimmar|N|To Nazgrel.|
 A Hidden Enemies|QID|5726|M|31.75,37.82|Z|Orgrimmar|N|From Thrall.|
 
+N Cooking|ACTIVE|5726|M|57.4,53.6|Z|Orgrimmar|P|Cooking;185;0;1;75|N|Zamja, Cooking Trainer, Orgrimmar.|
+N Enchanting|ACTIVE|5726|M|53.4,38.2|Z|Orgrimmar|P|Enchanting;333;0;1;75|N|Jhag, Journeyman Enchanter, Orgrimmar.|
+N Fishing|ACTIVE|5726|M|69.8,29.6|Z|Orgrimmar|P|Fishing;356;0;1;75|N|Lumak, Fishing Trainer, Orgrimmar.|
+N Leatherworking|ACTIVE|5726|M|62.8,44.2|Z|Orgrimmar|P|Leatherworking;165;0;1;75|N|Karolek, Expert Leatherworker and trainer, Orgrimmar.|
+N Skinning|ACTIVE|5726|M|63.2,45.2|Z|Orgrimmar|P|Skinning;393;0;1;75|N|Thuwd, Skinning Trainer, Orgrimmar.|
+N Tailoring|ACTIVE|5726|M|63.0,49.6|Z|Orgrimmar|P|Tailoring;197;0;1;75|N|Snang, Journeyman Tailor and trainer, Orgrimmar.|
+
 A Speak with Un'thuwa|QID|1883|C|Mage|R|Orc,Troll|N|You should get this quest from your trainer. If the Razor Hill trainer does not give it, speak to the Orgrimmar mage trainer.|
 T Training the Beast|QID|6081|C|Hunter|R|Orc,Troll|M|66.06,18.52|Z|Orgrimmar|N|To Ormak Grimshot.|
 
@@ -204,14 +212,15 @@ T Hidden Enemies|QID|5727|M|31.75,37.82|Z|Orgrimmar|N|To Thrall.|
 A Hidden Enemies|QID|5728|PRE|5727|M|31.75,37.82|Z|Orgrimmar|O|N|From Thrall. This quest is for the Ragefire Chasm dungeon.|
 N Lieutenants Insignia|QID|842|N|You can destroy the Lieutenants Insignia now. Right-click this step off.|
 
-R Leave Orgrimmar|QID|809|M|52.55,85.45|Z|Orgrimmar|CC|
+R Leave Orgrimmar|ACTIVE|809|M|52.55,85.45|Z|Orgrimmar|CC|
 T Ak'Zeloth|QID|809|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth.|
 A The Demon Seed|QID|924|PRE|809|M|62.34,20.07|Z|The Barrens|N|From Ak'Zeloth.|
 C The Demon Seed|QID|924|L|4986|M|62.34,20.03|Z|The Barrens|N|Pick up a Flawed Power Stone from the table next to Ak'Zeloth.|
 R The Demon Seed|QID|924|M|51.04,21.57|Z|The Barrens|CC|N|Go up here to get to the Altar of Fire.|
 C The Demon Seed|QID|924|M|47.98,19.07|Z|The Barrens|N|Work your way into the cave and destroy the Demon Seed. While the Burning Blade are level 11 there is Rathorian, a level 15 rare-elite guarding the cave.|
+T The Demon Seed|QID|924|PRE|809|M|62.34,20.07|Z|The Barrens|N|To Ak'Zeloth.|
 
-R The Crossroads|QID|842|M|52.34,29.34|Z|The Barrens|CC|N|Go to the Crossroads. Follow the road south.|
+R The Crossroads|ACTIVE|842|M|52.34,29.34|Z|The Barrens|CC|N|Go to the Crossroads. Follow the road south.|
 A Meats to Orgrimmar|QID|6365|R|Orc,Troll|M|52.62,29.84|Z|The Barrens|N|From Zargh.|
 T Crossroads Conscription|QID|842|M|52.23,31.01|Z|The Barrens|N|To Sergra Darkthorn.|
 A Plainstrider Menace|QID|844|M|52.23,31.01|Z|The Barrens|N|From Sergra Darkthorn.|
@@ -225,9 +234,9 @@ T Ride to Orgrimmar|QID|6384|R|Orc,Troll|M|54.10,68.41|Z|Orgrimmar|N|To Innkeepe
 A Doras the Wind Rider Master|QID|6385|PRE|6384|R|Orc,Troll|M|54.10,68.41|Z|Orgrimmar|N|From Innkeeper Gryshka.|
 T Doras the Wind Rider Master|QID|6385|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|To Doras.|
 A Return to the Crossroads|QID|6386|PRE|6385|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|From Doras.|
-F Crossroads|QID|6386|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|Fly back to Crossroads.|
+F The Crossroads|QID|6386|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|Fly back to Crossroads.|
 
 T Return to the Crossroads|QID|6386|R|Orc,Troll|M|52.62,29.84|Z|The Barrens|N|To Zargh.|
-h The Crossroads|QID|844|M|51.99,29.90|N|Set your Hearthstone at Innkeeper Boorand Plainswind.|
+h The Crossroads|QID|844|M|51.98,29.90|Z|The Barrens|N|Set your Hearthstone at Innkeeper Boorand Plainswind.|
 ]]
 end)
