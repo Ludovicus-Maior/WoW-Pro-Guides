@@ -1026,7 +1026,7 @@ local function createBlizzOptions()
 			    order = 6,
 			    type = "execute",
 			    name = L["Run the Guide Checker"],
-			    desc = L["Load every availible guide and check for errors."],
+			    desc = L["Load every available guide and check for errors."],
 			    image = "Interface\\RaidFrame\\ReadyCheck-Waiting",
 			    func =  function (info)
 			                WoWPro:LogClear("CheckGuides");
