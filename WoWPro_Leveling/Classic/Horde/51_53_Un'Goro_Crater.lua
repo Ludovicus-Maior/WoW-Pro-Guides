@@ -1,6 +1,6 @@
 
 local guide = WoWPro:RegisterGuide('classic-young-ungoro', 'Leveling', "Un'Goro Crater", 'Jame', 'Horde', 1)
-WoWPro:GuideName(guide, 'Un'Goro Crater (51-53)')
+WoWPro:GuideName(guide, "Un'Goro Crater (51-53)")
 WoWPro:GuideLevels(guide, 51, 53, 52)
 WoWPro:GuideNextGuide(guide, 'classic-young-burning-steppes')
 WoWPro:GuideSteps(guide, function()
