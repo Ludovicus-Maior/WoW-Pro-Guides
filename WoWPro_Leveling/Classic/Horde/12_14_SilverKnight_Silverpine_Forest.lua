@@ -3,6 +3,7 @@
 
 local guide = WoWPro:RegisterGuide('Classic-12-14-SilverKnight-SilverpineForest', "Leveling", 'Silverpine Forest', 'SilverKnight', 'Horde', 1)
 WoWPro:GuideName(guide, 'Silverpine Forest')
+WoWPro:GuideNextGuide(guide, 'Classic-12-21-Hosho-TheBarrens')
 WoWPro:GuideLevels(guide, 12, 14, 13)
 WoWPro:GuideSteps(guide, function() return [[
 R Brill|QID|445|M|59.45,52.39|Z|Tirisfal Glades|N|Head to Brill in Tirisfal Glades and speak with Apothecary Johaan at.|
