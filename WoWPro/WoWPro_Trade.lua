@@ -406,7 +406,7 @@ function WoWPro.LearnRecipe(spellID)
             -- You managed to learn something you already knew?
             WoWPro:Warning("Recipe %d was already recorded as learned.", spellID)
         else
-            WoWProCharDB.Trades[which] = true
+            WoWProCharDB.Trades[spellID] = true
             WoWPro:dbp("Newly learned %d", spellID)
         end
     end
