@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_horde
+-- Date: 2019-08-26 20:48
+-- Who: Emmaleah
+-- Log: minor tweaks
+
+-- URL: http://wow-pro.com/node/3789/revisions/30362/view
 -- Date: 2019-08-10 07:58
 -- Who: Emmaleah
 -- Log: more tweaks
@@ -558,7 +563,7 @@ C Reinforced Cache|QID|56231|M|45.11,22.20|N|Kill and loot Zanj'ir Naga in the a
 T Reinforced Cache|QID|56231|M|45.11,22.20|N|To Reinforced Cache.|
 C Runelocked Chest|QID|56011|M|45.34,30.13|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 25 blue runes, by matching 3 or more in a row.|
 C Runelocked Chest|QID|56012|M|45.34,30.13|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy green runes, by matching 3 or more in a row.|
-C Runelocked Chest|QID|56013|M|45.34,30.13|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy orange runes, by matching 3 or more in a row.|
+C Runelocked Chest|QID|56013|M|45.34,30.13|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 20 orange runes, by matching 3 or more in a row.|
 C Runelocked Chest|QID|56014|M|45.67,29.59|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 29 purple runes.|
 C Runelocked Chest|QID|56015|M|45.67,29.59|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you destroy 19 red runes.|
 C Runelocked Chest|QID|56016|M|45.66,29.61|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 21 yellow runes, by matching 3 or more in a row.|
