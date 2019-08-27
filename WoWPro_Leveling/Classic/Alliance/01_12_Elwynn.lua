@@ -19,19 +19,19 @@ C Kobold Camp Cleanup|QID|7|M|47.5,36.1|
 T Wolves Across the Border|QID|33|M|48.9,40.2|
 T Kobold Camp Cleanup|QID|7|M|48.9,41.6|
 A Investigate Echo Ridge|QID|15|M|48.9,41.6|
-A Encrypted Letter|QID|3102|C|Rogue|M|48.9,41.6|
-A Hallowed Letter|QID|3103|C|Priest|M|48.9,41.6|
-A Simple Letter|QID|3100|C|Warrior|M|48.9,41.6|
-A Consecrated Letter|QID|3101|C|Paladin|M|48.9,41.6|
-A Glyphic Letter|QID|3104|C|Mage|M|48.9,41.6|
-A Tainted Letter|QID|3105|C|Warlock|M|48.9,41.6|
-A Brotherhood of Thieves|QID|18|M|48.1,43.6|
-T Encrypted Letter|QID|3102|C|Rogue|M|50.3,39.9|
-T Hallowed Letter|QID|3103|C|Priest|M|49.8,39.5|
-T Simple Letter|QID|3100|C|Warrior|M|50.2,42.3|
-T Consecrated Letter|QID|3101|C|Paladin|M|50.5,42.0|
-T Glyphic Letter|QID|3104|C|Mage|M|49.7,39.4|
-T Tainted Letter|QID|3105|C|Warlock|M|49.9,42.6|
+A Encrypted Letter|QID|3102|C|Rogue|R|Human|M|48.9,41.6|
+A Hallowed Letter|QID|3103|C|Priest|R|Human|M|48.9,41.6|
+A Simple Letter|QID|3100|C|Warrior|R|Human|M|48.9,41.6|
+A Consecrated Letter|QID|3101|C|Paladin|R|Human|M|48.9,41.6|
+A Glyphic Letter|QID|3104|C|Mage|R|Human|M|48.9,41.6|
+A Tainted Letter|QID|3105|C|Warlock|R|Human|M|48.9,41.6|
+A Brotherhood of Thieves|QID|18|R|Human|M|48.1,43.6|
+T Encrypted Letter|QID|3102|C|Rogue|R|Human|M|50.3,39.9|
+T Hallowed Letter|QID|3103|C|Priest|R|Human|M|49.8,39.5|
+T Simple Letter|QID|3100|C|Warrior|R|Human|M|50.2,42.3|
+T Consecrated Letter|QID|3101|C|Paladin|R|Human|M|50.5,42.0|
+T Glyphic Letter|QID|3104|C|Mage|R|Human|M|49.7,39.4|
+T Tainted Letter|QID|3105|C|Warlock|R|Human|M|49.9,42.6|
 N Train new skills|QID|3903|
 N Sell and Repair|QID|18|M|47.7,41.4|N|Sell and Repair at Godric Rothgar.|
 C Investigate Echo Ridge|QID|15|M|51.2,37.4|N|The Workers are much larger than the Vermin and have orange glows on their weapons.|

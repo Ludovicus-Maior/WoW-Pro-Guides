@@ -49,11 +49,11 @@ T Tramping Paws|QID|276|M|56.3,40.3|
 N Level 23|QID|277|N|You should be level 23 or close. If that's not the case, don't panic. Keep following the guide normally, but try to kill more mobs on the way if you're behind. Close this step.|
 A Fire Taboo|QID|277|M|56.3,40.3|
 C Digging Through the Ooze|N|Kill black oozes until you get Sida's Bag|M|44.00, 24.00|L|3349 1|QID|470|
-C Fire Taboo|N|Follow the arrows and kill gnolls until you get 9 Crude Flints. Target Fenrunners, Mistweavers and Trappers preferably, as they are lower level.|M|32.3,33.2;39,34;44,34.2|QID|277|
+C Fire Taboo|N|Follow the arrows and kill gnolls until you get 9 Crude Flints. Target Fenrunners, Mistweavers and Trappers preferably, as they are lower level.|M|32.3,33.2;39,34;44,34.2|QID|277|CS|
 T Fire Taboo|QID|277|M|56.3,40.3|
 A Blisters on The Land|QID|275|M|56.3,40.3|
 C Young Crocolisk Skins|N|Finish this quest now.|M|51.00, 36.00|QID|484|
-C Ormer's Revenge|QID|294|N|Kill raptors until you complete this quest.|M|28.8,43.4;25.7, 48.00;22.4,50.5;24.3,52.5|
+C Ormer's Revenge|QID|294|N|Kill raptors until you complete this quest.|M|28.8,43.4;25.7, 48.00;22.4,50.5;24.3,52.5|CN|
 T Ormer's Revenge|QID|294|M|38.1,51.2|
 A Ormer's Revenge|QID|295|M|38.1,51.2|
 H Deepwater Tavern|QID|279|

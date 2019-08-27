@@ -1,5 +1,9 @@
 
-TourGuide:RegisterGuide( "Un'Goro Crater (51-53)", "Burning Steppes (53-54)", "Horde", function()
+local guide = WoWPro:RegisterGuide('classic-young-ungoro', 'Leveling', "Un'Goro Crater", 'Jame', 'Horde', 1)
+WoWPro:GuideName(guide, 'Un'Goro Crater (51-53)')
+WoWPro:GuideLevels(guide, 51, 53, 52)
+WoWPro:GuideNextGuide(guide, 'classic-young-burning-steppes')
+WoWPro:GuideSteps(guide, function()
 return [[
 
 ; === guides/51_53_Un'Goro_Crater.lua ===
@@ -114,9 +118,5 @@ T Marvon's Workshop|QID|4147|M|62.4,38.6|N|Liv Rizzlefix|
 b Booty Bay|
 T Whiskey Slim's Lost Grog|QID|580|M|22.74|N|Whiskey Slim|
 
-F Kargath|
-T Vivian Lagrave|QID|4133|M|49.8,68.4|N|Apothecary Zinge|
-A Dreadmaul Rock|QID|3821|M|83.63,44.00|Z|Badlands|N|Thal'trak Proudtusk|
-A The Rise of the Machines|QID|4063|M|25.95,44.87|N|Lotwil Veriatus|
 ]]
 end)
