@@ -4,6 +4,23 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_searing_gorge_neutral
+-- Date: 2019-08-25 16:54
+-- Who: Ludovicus_Maior
+-- Log: CN to CS updates
+
+-- URL: http://wow-pro.com/node/3255/revisions/30328/view
+-- Date: 2019-07-24 00:12
+-- Who: Fluclo
+-- Log: Only display Run to Cauldron step if you have the quest active
+
+-- URL: http://wow-pro.com/node/3255/revisions/30322/view
+-- Date: 2019-07-23 10:29
+-- Who: Hendo72
+-- Log: Made some minor tweaks to wording and added extra coordinates to help with pathing. 
+--	Changed a few steps from 'l' to 'C' and changed some of the icons to NC, CHAT, etc.
+--	Reorganized the 'Set Them Ablaze!' quest steps for better flow with the other quests in the area.
+
+-- URL: http://wow-pro.com/node/3255/revisions/30017/view
 -- Date: 2018-10-17 02:30
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -206,11 +223,11 @@ T A Lumbering Relic|QID|27962|M|68.48,53.50|N|To Burrian Coalpart.|
 T A Proper Antivenom|QID|27958|M|68.59,53.44|N|To Prisanne Dustcropper.|
 
 r Sell junk, repair/restock.|QID|27964|M|68.41,53.43|N|At Burian Coalpart.|
-R The Cauldron|QID|27964|M|70.11,39.80;65.53,38.36;62.84,38.85|CC|N|Head to The Cauldron.|
+R The Cauldron|QID|27964|M|70.11,39.80;65.53,38.36;62.84,38.85|CS|N|Head to The Cauldron.|ACTIVE|27964|
 C Dig-Boss Dinwhisker|QID|27964|M|54.93,45.64|N|Kill Dark Iron Excavators and Footmen until Dig-Boss Dinwhisker appears. After you kill him, loot the "Dark Ember" off the ground.|
 T Dig-Boss Dinwhisker|QID|27964|M|68.52,53.68|N|To Jack Rockleg.|
 A Thorium Point: The Seat of the Brotherhood|QID|27965|PRE|27957&27958&27961&27962&27964|M|68.52,53.68|N|From Jack Rockleg.|
-R Thorium Point|QID|27965|M|70.11,39.80;66.61,34.57;41.25,34.23|CC|N|Head to Thorium Point.|
+R Thorium Point|QID|27965|M|70.11,39.80;66.61,34.57;41.25,34.23|CS|N|Head to Thorium Point.|
 f Thorium Point|QID|27965|M|38.01,30.67|N|At Lanie Reed.|FACTION|Alliance|
 f Thorium Point|QID|27965|M|34.8,30.8|N|At Grisha.|FACTION|Horde|
 T Thorium Point: The Seat of the Brotherhood|QID|27965|M|38.21,26.83|N|To Overseer Oilfist.|
@@ -221,10 +238,10 @@ A Curse These Fat Fingers|QID|27976|PRE|27965|M|38.30,27.73|N|From Hansel Heavyh
 A Heat That Just Don't Quit|QID|27981|PRE|27965|M|38.30,27.73|N|From Hansel Heavyhands.|
 A Recon Essentials|QID|27977|PRE|27965|M|36.56,27.78|N|From Taskmaster Scrange.|
 C Curse These Fat Fingers|QID|27976|M|39.22,41.08|N|Kill Heavy War Golems.|S|
-C Heat That Just Don't Quit|S|QID|27981|U|62826|M|31.15,43.81;39.07,41.43;42.88,35.89|CN|N|Use the Furnace Flasks on the Elementals at the start of the fight.|
-A Lunk's Adventure: Cranky Little Dwarfs|QID|27983|M|36.63,36.89|N|Kill a Dark Iron Steamsmith to have Lunk appear. Get his quest.|
+C Heat That Just Don't Quit|S|QID|27981|U|62826|M|31.15,43.81;39.07,41.43;42.88,35.89|CS|N|Use the Furnace Flasks on the Elementals at the start of the fight.|
+A Lunk's Adventure: Cranky Little Dwarfs|QID|27983|M|34.68,25.98;31.30,33.89;36.63,36.89|CS|N|Kill a Dark Iron Steamsmith to have Lunk appear. Get his quest.|
 C Lunk's Adventure: Cranky Little Dwarfs|QID|27983|S|M|38.72,49.87|N|Get the Dark Iron Steamsmiths down below 50% health. He will sit on the dwarves, when he gets up you will get a random item. Including the items needed for "Recon Essentials".|
-C Rasha'krak|QID|28099|U|62826|M|31.15,43.81;39.07,41.43;42.88,35.89|CN|N|Rasha'krak wanders between these waypoints. Use the "Furnace Flasks" on him at the start.|
+C Rasha'krak|QID|28099|U|62826|M|31.15,43.81;39.07,41.43;42.88,35.89|CS|N|Rasha'krak wanders between these waypoints. Use the "Furnace Flasks" on him at the start.|
 C Lunk's Adventure: Cranky Little Dwarfs|QID|27983|US|M|38.72,49.87|N|Finish having Lunk put the Dark Iron Steamsmiths to sleep.|
 C Recon Essentials|QID|27977|M|36.29,47.13|N|Kill Dark Iron Steamsmiths until the two items needed drop, if they did not drop during "Lunk's Adventure: Cranky Little Dwarfs".|
 T Lunk's Adventure: Cranky Little Dwarfs|QID|27983|M|38.72,49.87|N|(UI Alert).|
@@ -240,42 +257,44 @@ T Recon Essentials|QID|27977|M|36.65,28.25|N|To Taskmaster Scrange.|
 A Twilight Collars|QID|27982|PRE|27977|M|36.75,28.25|N|From Taskmaster Scrange.|
 A Dark Ministry|QID|27979|PRE|27976&27977&27982|M|38.33,27.99|N|From Hansel Heavyhands.|
 C Twilight Collars|QID|27982|S|M|38.68,28.71|N|Kill any Twilight mobs as you go along.|
-l Finister's Spherule|QID|27979|L|62824|M|24.68,26.29|N|Kill and loot Finister to get "Finister's Spherule".|
+C Finister's Spherule|QID|27979|L|62824|M|34.68,25.98;31.34,33.65;24.29,34.05;24.68,26.29|CS|N|Kill Finister to loot "Finister's Spherule".|
 
 A Lunthistle's Tale|QID|27984|M|29.43,26.46|N|From Zamael Lunthistle.|
-C Lunthistle's Tale|QID|27984|NC|M|29.43,26.46|N|Listen to his tale.|
+C Lunthistle's Tale|QID|27984|CHAT|M|29.43,26.46|N|Listen to his tale.|
 T Lunthistle's Tale|QID|27984|M|29.43,26.46|N|To Zamael Lunthistle.|
 A Prayer to Elune|QID|27985|PRE|27984|M|29.43,26.46|N|From Zamael Lunthistle.|
-C Prayer to Elune|QID|27985|M|23.10,35.28|N|Head down the mountain to the waypoint and open the Twilight Hammer Crate.|
+C Prayer to Elune|QID|27985|NC|M|23.10,35.28|N|Head down the mountain to the waypoint and open the Twilight Hammer Crate.|
 T Prayer to Elune|QID|27985|M|23.10,35.28|N|(UI Alert).|
-l Kyuubi's Spherule|QID|27979|L|62825|M|17.49,42.58|N|Enter the cave. Kill and loot Kyuubi to get "Kyuubi's Spherule".|
-l Letherio's Spherule|QID|27979|L|62823|M|14.49,37.25|N|Kill Letherio and loot to get "Letherio's Spherule".|
+C Kyuubi's Spherule|QID|27979|L|62825|M|22.12,36.50;19.55,35.88;19.40,37.33;17.49,42.58|CS|N|Enter the cave. Kill Kyuubi to loot "Kyuubi's Spherule".|
+C Letherio's Spherule|QID|27979|L|62823|M|13.43,42.71;13.60,40.45;14.49,37.25|CS|N|Kill Letherio to loot "Letherio's Spherule".|
 C Dark Ministry|QID|27979|U|62824|M|14.49,37.25|N|Use one of the Spherules to combine them.|
 C Twilight Collars|QID|27982|US|M|13.44,42.20|N|Kill Twilight mobs to get the rest of the "Twilight Necklace"s you need.|
-T Dark Ministry|QID|27979|M|38.25,28.00|N|To Hansel Heavyhands.|
+T Dark Ministry|QID|27979|M|15.39,33.76;22.00,36.40;38.25,28.00|CS|N|To Hansel Heavyhands.|
 A In the Hall of the Mountain-Lord|QID|27986|PRE|27979&28099|M|38.28,28.04|N|From Hansel Heavyhands.|
 T Twilight Collars|QID|27982|M|38.48,28.65|N|To Master Smith Burninate.|
 
 r Sell junk, repair/restock.|QID|27986|M|38.48,28.65|N|At Master Smith Burninate.|
 
-R Iron Summit|QID|27986|M|39.59,31.28;29.51,50.22;31.78,59.97;37.68,62.88|CC|N|Head to the Iron Summit.|
+R Iron Summit|QID|27986|M|39.59,31.28;29.51,50.22;31.78,59.97;37.68,62.88|CS|N|Head to the Iron Summit.|
 f Iron Summit|QID|27986|M|40.95,68.58|N|At Doug Deepdown.|
-T In the Hall of the Mountain-Lord|QID|27986|M|39.26,67.78|N|To Mountain-Lord Rendan.|
+T In the Hall of the Mountain-Lord|QID|27986|M|39.26,67.78|N|To Mountain-Lord Rendan. He's on the second floor.|
 A Siege!|QID|28028|PRE|27986|M|39.26,67.78|N|From Mountain-Lord Rendan.|
 A Set Them Ablaze!|QID|28029|PRE|27986|M|39.26,67.78|N|From Mountain-Lord Rendan.|
 A They Build a Better Bullet|QID|28030|PRE|27986|M|39.26,67.78|N|From Mountain-Lord Rendan.|
 A The Mysteries of the Fire-Gizzard|QID|28032|PRE|27986|M|39.00,68.83|N|From Agnes Flimshale.|
-C They Build a Better Bullet|QID|28030|S|M|49.17,73.38|N|Pick up the Dark Iron Bullet crates, the bullets can also drop off of Dark Iron Marskmen and Lookouts.|
-C Siege!|QID|28028|M|48.59,66.16|N|Kill Dark Iron Marksman near the Iron Summit.|S|
+C They Build a Better Bullet|QID|28030|S|M|49.17,73.38|N|Pick up the Dark Iron Bullet crates. Dark Iron Marskmen and Lookouts drop the bullets as well.|
+C Siege!|QID|28028|S|M|48.59,66.16|N|Kill Dark Iron Marksman near the Iron Summit.|
 C The Mysteries of the Fire-Gizzard|QID|28032|M|34.85,67.89|S|N|Kill the Incendosaurs to get the items needed for this quest.|
-;QO
-C Southeastern tower|QID|28029|QO|3|M|44.03,60.94|N|Click on the Southeastern tower brazier.|
-C Eastern tower|QID|28029|QO|4|M|50.06,54.72|N|Click on the Eastern tower brazier.|
-C Southwestern tower|QID|28029|QO|2|M|35.67,60.67|N|Click on the Southwestern tower brazier.|
-C Set Them Ablaze!|QID|28029|QO|1|M|33.32,54.47|N|Click on the Western tower brazier.|
-;add US and fix order
-C The Mysteries of the Fire-Gizzard|QID|28032|M|34.85,67.89|US|N|Finish killing the Incendosaurs to get the items needed for this quest.|
-C Siege!|QID|28028|M|48.59,66.16|N|Kill Dark Iron Marksman near the Iron Summit.|US|
+
+; Completing them in this order seems to work best for flow.
+C Set Them Ablaze!|QID|28029|QO|4|M|50.06,54.72|NC|N|Click on the Eastern tower brazier.|
+C Set Them Ablaze!|QID|28029|QO|3|M|44.03,60.94|NC|N|Click on the Southeastern tower brazier.|
+C Set Them Ablaze!|QID|28029|QO|2|M|35.67,60.67|NC|N|You can either drop down to the path below and follow it to the next tower or go back to Iron Summit and follow the path that way.\nClick on the Southwestern tower brazier.|
+C Set Them Ablaze!|QID|28029|QO|1|M|33.32,54.47|NC|N|Click on the Western tower brazier.|
+
+; Same goes for completing/unsticking these quests in this order as well.
+C The Mysteries of the Fire-Gizzard|QID|28032|US|M|34.85,67.89|N|Finish killing the Incendosaurs to get the items needed for this quest.|
+C Siege!|QID|28028|US|M|48.59,66.16|N|Head over to the other side of Iron Summit and finish killing Dark Iron Marksman.|
 C They Build a Better Bullet|QID|28030|US|M|49.17,73.38|N|Finish collecting the Dark Iron Bullet crates, the bullets also drop off of Dark Iron Marskmen and Lookouts.|
 T The Mysteries of the Fire-Gizzard|QID|28032|M|39.02,68.77|N|To Agnes Flimshale.|
 T Siege!|QID|28028|M|39.32,67.71|N|To Mountain-Lord Rendan.|
@@ -285,7 +304,7 @@ T They Build a Better Bullet|QID|28030|M|39.32,67.71|N|To Mountain-Lord Rendan.|
 A Deceit|QID|28033|PRE|28028&28029&28030|M|39.32,67.71|N|From Mountain-Lord Rendan.|
 T Deceit|QID|28033|M|39.74,67.93|N|Find Lunk at the base of the tower.|
 A Lunk's Adventure: Rendan's Weakness|QID|28034|PRE|28033|M|39.74,67.93|N|Get from Lunk.|
-C Lunk's Adventure: Rendan's Weakness|QID|28034|M|39.74,67.93|N|Speak with three Iron Summit Guards and ask them to join your dance. |
+C Lunk's Adventure: Rendan's Weakness|QID|28034|CHAT|M|39.74,67.93|N|Speak with three Iron Summit Guards and ask them to join your dance. |
 T Lunk's Adventure: Rendan's Weakness|QID|28034|M|39.36,67.81|N|Go back up to Mountain-Lord Rendan to turn the quest in.|
 A The Mountain-Lord's Support|QID|28035|PRE|28034|M|39.41,67.84|N|From Mountain-Lord Rendan.|
 h Iron Summit|M|39.21,66.02|N|Set your Hearth at Iron Summit at Velma Rockslide.|QID|28035|

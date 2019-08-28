@@ -1,5 +1,10 @@
-TourGuide:RegisterGuide("JamAsh3031", "Ashenvale", "Jame", "30", "31", "JamTho3132", "Alliance", function()
+local guide = WoWPro:RegisterGuide('JamAsh3031', 'Leveling', 'Ashenvale', 'Jame', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Ashenvale 30-31')
+WoWPro:GuideLevels(guide, 30, 31, 30)
+WoWPro:GuideNextGuide(guide,'JamTho3132')
+WoWPro:GuideSteps(guide, function()
 return [[
+
 N Gather these from auction house.|QID|10352|N|Get 60 Wool Cloth and 4 Lesser Bloodstone Ore from the Auction House.|
 N Mount|QID|1021|N|A mount is recommended for this part!|
 b Darkshore|QID|1021|N|Take the boat to Darkshore|Z|Stormwind City|M|22.90,55.90|
@@ -72,7 +77,7 @@ A Answered Questions|QID|1044|Z|Duskwood|M|75.32,49.03|
 H Auberdine|QID|1044|N|Hearth or fly/boat to Auberdine.|
 F Rut'theran Village|QID|1044|N|Fly to Rut'theran Village.|Z|Darkshore|M|36.30,45.60|
 R Darnassus|QID|1044|N|Take the portal to Darnassus.|Z|Teldrassil|M|56.00,89.80|
-T Answered Questions|N||QID|1044|Z|Darnassus|M|61.90,39.20|
+T Answered Questions|QID|1044|Z|Darnassus|M|61.90,39.20|
 
 R Rut'theran Village|QID|1175|N|Take the portal to Rut'theran Village.|Z|Darnassus|M|30.30,40.70|
 F Theramore Isle|QID|1175|N|Fly to Theramore.|Z|Teldrassil|M|58.40,94.00|

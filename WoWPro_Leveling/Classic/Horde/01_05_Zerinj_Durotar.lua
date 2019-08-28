@@ -6,8 +6,8 @@ WoWPro:GuideName(guide, 'Durotar')
 WoWPro:GuideLevels(guide, 1, 5, 2)
 WoWPro:GuideNextGuide(guide, 'Classic-06-12-Zerinj-Durotar')
 WoWPro:GuideSteps(guide, function() return [[
-A Your Place In The World|QID|4641|M|43.29,68.54|N|From Kaltunk.|
 
+A Your Place In The World|QID|4641|M|43.29,68.54|N|From Kaltunk.|
 T Your Place In The World|QID|4641|M|42.06,68.33|N|To Gornek.|
 A Cutting Teeth|QID|788|M|42.06,68.33|N|From Gornek.|
 
@@ -46,11 +46,11 @@ C Sting of the Scorpid|QID|789|S|N|Kill Scorpid Workers and loot their Scorpid W
 A Sarkoth|QID|790|M|43.83,66.82;40.60,62.59|CS|N|From Hana'zua.|
 C Sting of the Scorpid|QID|789|US|N|Kill Scorpid Workers and loot their Scorpid Worker Tails.|
 L Level 3|LVL|3|N|If you are not yet level 3 grind on mobs.|
-C Sarkoth|QID|790|L|4905|M|40.67,66.33|N|Go up the hill and kill Sarkoth, who roams the hillside. Loot his Mangled Claw.|
+C Sarkoth|QID|790|L|4905|M|40.42,67.35|N|Go up the hill and kill Sarkoth, who roams the hillside. Loot his Mangled Claw.|
 T Sarkoth|QID|790|M|40.60,62.59|N|To Hana'zua.|
 A Sarkoth|QID|804|PRE|790|M|40.60,62.59|N|From Hana'zua.|
 C Galgar's Cactus Apple Surprise|QID|4402|L|11583 10|US|NC|N|Loot Cactus Apples from Cactuses.|
-L Level 4|LVL|4|N|Grind to level 4. The three quests we are about to turn in give 380 + 250 + 100 = 730 XP.|
+L Level 4|LVL|4;-700|N|Grind to level 4. The three quests we are about to turn in give 380 + 250 + 100 = 730 XP.|
 T Sting of the Scorpid|QID|789|M|42.06,68.33|N|To Gornek.|
 T Sarkoth|QID|804|M|42.06,68.33|N|To Gornek.|
 r Sell Junk|QID|4402|M|42.59,67.34|N|Right-click this step off once you are finished.|
@@ -97,7 +97,7 @@ T In Favor of Spirituality|QID|5649|C|Priest|M|42.37,68.81|N|From Ken'jai.|
 r Sell Junk|AVAILABLE|2161|M|42.59,67.34|N|Right-click this step off once you are finished.|
 
 A A Peon's Burden|QID|2161|M|52.06,68.30|N|From Ukor.|
-A Thwarting Kolkar Aggression|QID|786|M|54.50,74.97|N|From Lar Prowltusk.|
+A Thwarting Kolkar Aggression|QID|786|M|54.24,73.32|N|From Lar Prowltusk.|
 T Report to Sen'jin Village|QID|805|M|55.95,74.72|N|To Master Gadrin.|
 A Minshina's Skull|QID|808|M|55.95,74.72|N|From Master Gadrin.|
 A Zalazane|QID|826|M|55.95,74.72|N|From Master Gadrin.|
@@ -105,14 +105,20 @@ A Report to Orgnil|QID|823|M|55.95,74.72|N|From Master Gadrin.|
 A A Solvent Spirit|QID|818|M|55.95,74.40|N|From Master Vornal.|
 A Practical Prey|QID|817|M|55.95,73.93|N|From Vel'rin Fang inside a small hut.|
 
+N Alchemy|ACTIVE|823|M|55.40,73.96|P|Alchemy;171;0;1;75|N|Miao'zan, Journeyman Alchemist, trainer.|
+N Herbalism|ACTIVE|823|M|55.44,75.08|P|Herbalism;182;0;1;75|N|Mishiki, Herbalism Trainer.|
+
 T Report to Orgnil|QID|823|M|52.25,43.15|N|To Orgnil Soulscar north in Razor Hill.|
 A Dark Storms|QID|806|M|52.25,43.15|N|From Orgnil Soulscar.|
 A Vanquish the Betrayers|QID|784|M|51.95,43.50|N|From Gar'Thok.|
-A Encroachment|QID|837|M|51.95,43.50|N|From Gar'Thok.|
 
-N First Aid|P|First Aid;129;0;1;75|M|54.17,41.94|N|From Rawrk inside the large building you can learn First Aid. Right-click this step off to skip.|
+N First Aid|ACTIVE|2161|P|First Aid;129;0;1;75|M|54.17,41.94|N|From Rawrk inside the large building you can learn First Aid. Right-click this step off to skip.|
+N Blacksmithing|ACTIVE|2161|M|52.03,40.72|P|Blacksmithing;164;0;1;75|N|Dwukk, Journeyman Blacksmith, trainer. Razor|
+N Mining|ACTIVE|2161|M|51.81,40.89|P|Mining;350;0;1;75|N|Krunn, Mining Trainer. Razor.|
+N Engineering|ACTIVE|2161|M|52.18,40.80|P|Engineering;202;0;1;75|N|Mukdrak, Journeyman Engineer, trainer. Razor.|
 
 T A Peon's Burden|QID|2161|M|51.52,41.65|N|To Innkeeper Grosk.|
 h Razor Hill|QID|784|M|51.52,41.65|N|Set your hearthstone here.|
+L Level 6|LVL|6|N|If you are not yet level 6 grind on mobs.|
 ]]
 end)

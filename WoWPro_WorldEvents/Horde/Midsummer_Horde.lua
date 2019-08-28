@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2019-08-25 16:57
+-- Who: Ludovicus_Maior
+-- Log: Ghostlands fix.
+
+-- URL: http://wow-pro.com/node/3407/revisions/30039/view
 -- Date: 2018-10-17 02:32
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -359,9 +364,9 @@ A Honor the Flame|RANK|2|QID|11862|M|57.22,51.76|Z|Tirisfal Glades|N|From the Fl
 F The Bulwark|RANK|2|QID|28931|M|58.87,51.87|Z|Tirisfal Glades|N|Fly to the Bulwark.|
 A Honor the Flame|RANK|2|QID|28931|M|29.17,57.35|Z|Western Plaguelands|N|From the Flame Keeper. (Western Plaguelands)|
 F Tranquillien|RANK|2|QID|11850|M|83.56,69.98|Z|Tirisfal Glades|N|Fly to Tranquillien.|
-A Honor the Flame|RANK|2|QID|11850|M|46.90,26.34|Z|Ghostlands/0|N|From the Flame Keeper. (Ghostlands)|
+A Honor the Flame|RANK|2|QID|11850|M|46.90,26.34|Z|Ghostlands|N|From the Flame Keeper. (Ghostlands)|
 
-F Silvermoon City|RANK|2|QID|11848|M|45.5,30.65|Z|Ghostlands/0|N|Fly to Silvermoon City.|
+F Silvermoon City|RANK|2|QID|11848|M|45.5,30.65|Z|Ghostlands|N|Fly to Silvermoon City.|
 A Honor the Flame|RANK|2|QID|11848|M|46.40,50.60|Z|Eversong Woods|N|From the Flame Keeper. (Eversong Woods)|
 H Orgrimmar|RANK|2|QID|9331|U|6948|N|Hearth back to Orgrimmar.|
 T Stealing Ironforge's Flame|RANK|3|QID|9331|M|47.8,37.8|N|To the Festival Talespinner.|

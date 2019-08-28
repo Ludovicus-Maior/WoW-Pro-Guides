@@ -365,9 +365,14 @@ function WoWPro:OnInitialize()
 	WoWProDB.global.NpcFauxQuests = WoWProDB.global.NpcFauxQuests or {}
 	WoWProDB.global.QuestEngineDelay = WoWProDB.global.QuestEngineDelay or 0.25
 
-	if WoWProCharDB.EnableGrail == nil then
-	    WoWProCharDB.EnableGrail = true
-	end
+	WoWProCharDB.EnableGrail = nil
+    WoWProCharDB.EnableGrailQuestline = WoWProCharDB.EnableGrailQuestline or true
+    WoWProCharDB.EnableGrailCheckPrereq = WoWProCharDB.EnableGrailCheckPrereq or false
+    WoWProCharDB.EnableGrailBreadcrumbs = WoWProCharDB.EnableGrailBreadcrumbs or false
+    WoWProCharDB.EnableGrailQuestName = WoWProCharDB.EnableGrailQuestName or false
+    WoWProCharDB.EnableGrailQuestLevel = WoWProCharDB.EnableGrailQuestLevel or false
+    WoWProCharDB.EnableGrailQuestObsolete = WoWProCharDB.EnableGrailQuestObsolete or true
+
 	WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
 	WoWProCharDB.GuideStack  = WoWProCharDB.GuideStack or {}
 	WoWProCharDB.GuideVersion = WoWProCharDB.GuideVersion or {}
@@ -406,7 +411,6 @@ function WoWPro:OnInitialize()
     WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
     WoWPro.GossipText = nil
     WoWPro.GuideLoaded = false
-    WoWPro.EnableGrail = WoWProCharDB.EnableGrail or True
     WoWProDB.profile.Selector = WoWProDB.profile.Selector or {}
     WoWProDB.profile.Selector.QuestHard = WoWProDB.profile.Selector.QuestHard or 0
     if type(WoWProDB.profile.checksoundfile) == "string" then
@@ -475,7 +479,7 @@ function WoWPro:OnEnable()
 	    WoWPro:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
 	end
 	WoWPro:RegisterBucketEvent({"LOOT_CLOSED"}, 0.250, WoWPro.AutoCompleteChest)
-	WoWPro:RegisterBucketEvent({"TRADE_SKILL_LIST_UPDATE"}, 0.250, WoWPro.ScanTrade)
+	WoWPro:RegisterBucketEvent({"TRADE_SKILL_SHOW", "TRADE_SKILL_LIST_UPDATE"}, 0.250, WoWPro.ScanTrade)
 	WoWPro:RegisterBucketMessage("WoWPro_LoadGuide",0.25,WoWPro.LoadGuideReal)
 	WoWPro:RegisterBucketMessage("WoWPro_LoadGuideSteps",0.25,WoWPro.LoadGuideStepsReal)
 	WoWPro:RegisterBucketMessage("WoWPro_GuideSetup",0.25,WoWPro.SetupGuideReal)
@@ -820,6 +824,9 @@ function WoWPro:GuideNextGuide(guide,nextGID)
 end
 
 function WoWPro:GuideQuestTriggers(guide, ...)
+    if WoWPro.DebugClasses then
+        return -- Allow developers to check everything, if they want
+    end
     -- Only do if guide is registered!
     if WoWPro.Guides[guide.GID] then
         WoWPro.ClearQID2Guide(guide.GID)
@@ -1098,7 +1105,7 @@ function WoWPro:ResolveIcon(guide)
 end
 
 
-function WoWPro:GuideIcon(guide,gtype,gsubtype)
+function WoWPro:GuideIcon(guide,gtype,gsubtype,extras)
     gtype = strupper(gtype)
     if gtype == "ACH" then
         guide['ach'] = tonumber(gsubtype)
@@ -1108,6 +1115,9 @@ function WoWPro:GuideIcon(guide,gtype,gsubtype)
         guide['mount'] = tonumber(gsubtype)
     elseif gtype == "ICON" then
         guide['icon'] = gsubtype
+        if extras then
+            guide['icon_offsets'] = extras
+        end
     else
         WoWPro:Error("Unknown Guide Icon type [%s] for guide %s",gtype,guide.GID)
     end
@@ -1240,6 +1250,17 @@ WoWPro.MOP = (winterface >= 50000)
 WoWPro.WOD = (winterface >= 60000)
 WoWPro.WOL = (winterface >= 70000)
 WoWPro.NewLevels = (wversion == "7.3.5" or (winterface > 70300))
+
+-- Change this to fake out a classic load on retail
+WoWPro.FakeClassic = false
+
+if WoWPro.FakeClassic then
+    WoWPro.CLASSIC = true
+    WoWPro.MOP = false
+    WoWPro.WOD = false
+    WoWPro.WOL = false
+    WoWPro.NewLevels = false
+end
 
 if WoWPro.MOP or WoWPro.CLASSIC then
     WoWPro.GetNumPartyMembers = GetNumGroupMembers

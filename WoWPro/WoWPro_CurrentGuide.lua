@@ -106,13 +106,13 @@ frame:SetScript("OnShow", function()
 ---		row.action.frame:SetScript("OnClick", function(self, button, down)
 ---				WoWPro.PickQuestline(WoWPro.QID[row.index], WoWPro.step[row.index])
 ---		end)
-		
+
 		row.step = WoWPro:CreateStep(row, row.action)
 		row.note = WoWPro:CreateNote(row, row.action)
-	
+
 		rows[i] = row
 	end
-	
+
 	function WoWPro.UpdateCurrentGuidePanel()
 		if not frame:IsVisible() then return end
 		if not WoWProDB.char.currentguide then return end
@@ -130,7 +130,7 @@ frame:SetScript("OnShow", function()
 		shownrows = NUMROWS
 		for i,row in ipairs(rows) do
 			row.index = index
-			
+
 			if completion[index] or WoWProCharDB.Guide[GID].skipped[index] or WoWProCharDB.skippedQIDs[WoWPro.QID[index]] then
 				row.check:SetChecked(true)
 				if WoWProCharDB.Guide[GID].skipped[index] or WoWProCharDB.skippedQIDs[WoWPro.QID[index]] then
@@ -142,7 +142,7 @@ frame:SetScript("OnShow", function()
 				row.check:SetChecked(false)
 				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 			end
-			
+
 			local step = steplist[index]
 			if step then row.check:Show() else row.check:Hide() end
 			if optional[index] then step = step.." (optional)" end
@@ -153,20 +153,9 @@ frame:SetScript("OnShow", function()
 			if WoWPro.rank[index] then
 				step = step.." (rank "..WoWPro.rank[index]..")"
 			end
-			
-			row.step:SetTextColor(1.0,1.0,1.0,1.0)
-			if WoWPro.level and WoWPro.level[index] then
-			    step = step.." (level "..tostring(WoWPro.level[index])..")"
-			    local level = tonumber(WoWPro.level[index])         
-                if WoWPro.action[index] == "L" and level > UnitLevel("player") then
-                    row.step:SetTextColor(0.75,0,0,1.0)                    
-                end
-                if WoWPro.action[index] ~= "L" and level > UnitLevel("player") then
-                    row.step:SetTextColor(0.75,0.3,0.3,1.0)
-                end
 
-			end
-			
+			row.step:SetTextColor(1.0,1.0,1.0,1.0)
+
 			-- Setting sticky texture --
 			if WoWPro.sticky[index] then 
 				step = step.." (sticky)"
@@ -178,13 +167,13 @@ frame:SetScript("OnShow", function()
 			else
 				row:SetBackdropColor(WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3], 0)
 			end
-			
+
 			if WoWPro.unsticky[index] then 
 				step = step.." (un-sticky)"
 			end
-		
+
 			row.step:SetText(step)
-			
+
 			local action = WoWPro.action[index]
 			row.action:SetTexture(WoWPro.actiontypes[action])
 
@@ -193,10 +182,10 @@ frame:SetScript("OnShow", function()
             elseif WoWPro.chat[index] then
                 row.action:SetTexture("Interface\\GossipFrame\\Gossipgossipicon") 
             end
-			
+
 			local note = WoWPro.note[index]
 			row.note:SetText(note)
-			
+
 			-- Setting the note frame size correctly --
 			local w = row:GetWidth()
 			row.note:SetWidth(w-30)
@@ -210,20 +199,20 @@ frame:SetScript("OnShow", function()
 			else 
 				row:Show() 
 			end
-			
+
 			-- On Click - Complete Step Clicked --
 			row.check:SetScript("OnClick", function(self, button, down)
 				WoWPro:CheckFunction(row, button, down)
 			end)
-				
+
 			index = index + 1
 		end
-	
+
 		scrollbar:SetMinMaxValues(0, math.max(0, #steplist - shownrows))
 		frame:SetScript("OnMouseWheel", function(self, val) scrollbar:SetValue(scrollbar:GetValue() - val*shownrows/3) end)
-		
+
 	end
-	
+
 	local f = scrollbar:GetScript("OnValueChanged")
 	scrollbar:SetScript("OnValueChanged", function(self, value, ...)
 		offset = math.floor(value)
@@ -232,9 +221,9 @@ frame:SetScript("OnShow", function()
 	end)
 
 	frame:EnableMouseWheel()
-	
+
 	WoWPro.UpdateCurrentGuidePanel()
-	
+
 	if WoWPro.rows[1].index then scrollbar:SetValue(WoWPro.rows[1].index - 3) end
 
 	frame:SetScript("OnShow", function() 

@@ -1,143 +1,58 @@
 ------------------------------------------------------------------------
-r1213 | nevcairiel | 2019-06-26 06:00:41 +0000 (Wed, 26 Jun 2019) | 1 line
+r1223 | nevcairiel | 2019-08-01 12:51:41 +0000 (Thu, 01 Aug 2019) | 1 line
 Changed paths:
    M /trunk/changelog.txt
 
 Update changelog
 ------------------------------------------------------------------------
-r1212 | nevcairiel | 2019-06-26 05:53:51 +0000 (Wed, 26 Jun 2019) | 1 line
+r1222 | funkydude | 2019-07-26 22:14:43 +0000 (Fri, 26 Jul 2019) | 1 line
 Changed paths:
    M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 
-AceConfigDialog-3.0: Ensure a stable sort order when mixing negative and zero order values (Ticket #501)
+AceConfigDialog-3.0: Make the popup not block keyboard input.
 ------------------------------------------------------------------------
-r1211 | funkydude | 2019-06-26 03:24:16 +0000 (Wed, 26 Jun 2019) | 1 line
+r1221 | nevcairiel | 2019-07-20 18:23:00 +0000 (Sat, 20 Jul 2019) | 1 line
 Changed paths:
-   M /trunk/Ace3.toc
-
-bump toc
-------------------------------------------------------------------------
-r1210 | nevcairiel | 2019-06-25 23:45:43 +0000 (Tue, 25 Jun 2019) | 1 line
-Changed paths:
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
-
-Clear existing GameTooltip anchors before re-anchoring it, to avoid issues with protected frame anchors in 8.2
-------------------------------------------------------------------------
-r1209 | nevcairiel | 2019-06-24 21:01:01 +0000 (Mon, 24 Jun 2019) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
-
-AceGUI-3.0: DropDown: Use a number-aware table sorting algorithm (Fixes #502)
-------------------------------------------------------------------------
-r1208 | nevcairiel | 2019-06-23 12:23:47 +0000 (Sun, 23 Jun 2019) | 1 line
-Changed paths:
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-
-AceConfigDialog-3.0: Support the "sorting" table member in "radio" style as well
-------------------------------------------------------------------------
-r1207 | nevcairiel | 2019-06-23 12:08:33 +0000 (Sun, 23 Jun 2019) | 1 line
-Changed paths:
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-   M /trunk/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
-
-AceConfigDialog-3.0: Add support for a "sorting" member in select types to indicate the order of the options
-------------------------------------------------------------------------
-r1206 | nevcairiel | 2019-06-22 09:13:51 +0000 (Sat, 22 Jun 2019) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
-
-Remove left-over table from previous change
-------------------------------------------------------------------------
-r1205 | funkydude | 2019-06-20 20:54:05 +0000 (Thu, 20 Jun 2019) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
-
-AceGUIWidget-DropDown: revert change to sorting.
-------------------------------------------------------------------------
-r1204 | funkydude | 2019-06-19 23:46:00 +0000 (Wed, 19 Jun 2019) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
-
-AceGUIWidget-DropDown: Dropdowns are now actually alphabetical and you can use numbers as table keys.
-------------------------------------------------------------------------
-r1203 | nevcairiel | 2019-06-12 09:04:53 +0000 (Wed, 12 Jun 2019) | 3 lines
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
-
-AceGUI-3.0: ColorPicker: Don't use Show/HideUIPanel for the ColorPickerFrame
-
-The ColorPickerFrame is not actually a UI Panel, and ShowUIPanel is locked in combat in 8.2
-------------------------------------------------------------------------
-r1202 | nevcairiel | 2019-05-15 23:11:22 +0000 (Wed, 15 May 2019) | 3 lines
-Changed paths:
-   A /trunk/.editorconfig
-   M /trunk/Ace3.lua
-   M /trunk/AceAddon-3.0/AceAddon-3.0.lua
-   M /trunk/AceBucket-3.0/AceBucket-3.0.lua
-   M /trunk/AceComm-3.0/AceComm-3.0.lua
-   M /trunk/AceComm-3.0/ChatThrottleLib.lua
-   M /trunk/AceConfig-3.0/AceConfig-3.0.lua
-   M /trunk/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.lua
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-   M /trunk/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
-   M /trunk/AceConsole-3.0/AceConsole-3.0.lua
-   M /trunk/AceDBOptions-3.0/AceDBOptions-3.0.lua
-   M /trunk/AceEvent-3.0/AceEvent-3.0.lua
    M /trunk/AceGUI-3.0/AceGUI-3.0.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-DropDownGroup.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-ScrollFrame.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Window.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Button.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown-Items.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Icon.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
-   M /trunk/AceHook-3.0/AceHook-3.0.lua
-   M /trunk/AceSerializer-3.0/AceSerializer-3.0.lua
-   M /trunk/AceTab-3.0/AceTab-3.0.lua
-   M /trunk/AceTimer-3.0/AceTimer-3.0.lua
-   M /trunk/tests/AceAddon-3.0.lua
-   M /trunk/tests/AceComm-3.0-callbacks.lua
-   M /trunk/tests/AceComm-3.0-pre-4.1.lua
-   M /trunk/tests/AceComm-3.0.lua
-   M /trunk/tests/AceConfigCmd-3.0-ordering.lua
-   M /trunk/tests/AceConfigCmd-3.0.lua
-   M /trunk/tests/AceConfigRegisty-3.0-errors.lua
-   M /trunk/tests/AceConsole-3.0-GetArgs.lua
-   M /trunk/tests/AceDB-3.0-callbacks.lua
-   M /trunk/tests/AceDB-3.0-defaults.lua
-   M /trunk/tests/AceDB-3.0-namespaces.lua
-   M /trunk/tests/AceDB-3.0.lua
-   M /trunk/tests/AceEvent-3.0.lua
-   M /trunk/tests/AceGUI-3.0-recycle.lua
-   M /trunk/tests/AceGUITest/test.lua
-   M /trunk/tests/AceLocale-3.0.lua
-   M /trunk/tests/AceSerializer-3.0.lua
-   M /trunk/tests/AceTimer-3.0-ACE94.lua
-   M /trunk/tests/AceTimer-3.0-test1.lua
-   M /trunk/tests/AceTimer-3.0-test2.lua
-   M /trunk/tests/CallbackHandler-1.0.lua
-   M /trunk/tests/ChatThrottleLib-callbackerrors.lua
-   M /trunk/tests/ChatThrottleLib-upgrade-14-20-current.lua
-   M /trunk/tests/ChatThrottleLibs/ChatThrottleLib-v14.lua
-   M /trunk/tests/ChatThrottleLibs/ChatThrottleLib-v20.lua
-   M /trunk/tests/LibStub.lua
-   M /trunk/tests/wow_api.lua
 
-Cleanup whitespace and add EditorConfig configuration
-
-Patch contributed by Stanzilla
+AceGUI-3.0: Clear the points before re-anchoring in Fill layout (Ticket #512)
 ------------------------------------------------------------------------
-r1201 | nevcairiel | 2019-05-15 23:07:16 +0000 (Wed, 15 May 2019) | 1 line
+r1220 | funkydude | 2019-07-18 16:47:58 +0000 (Thu, 18 Jul 2019) | 1 line
 Changed paths:
-   M /trunk/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 
-AceConfigRegistry-3.0: Add missing entries for allowed settings (Ticket #494)
+AceConfigDialog: Make sure to hide the popup after it's created
+------------------------------------------------------------------------
+r1219 | funkydude | 2019-07-18 14:35:16 +0000 (Thu, 18 Jul 2019) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+
+AceConfigDialog: Replace the StaticPopup with our own custom made popup.
+------------------------------------------------------------------------
+r1218 | nevcairiel | 2019-07-15 08:29:52 +0000 (Mon, 15 Jul 2019) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
+
+AceGUI-3.0: Hide the widget early in the release process, so that OnLeave callbacks have a chance to fire (Fixes #505)
+------------------------------------------------------------------------
+r1217 | funkydude | 2019-07-11 03:06:18 +0000 (Thu, 11 Jul 2019) | 1 line
+Changed paths:
+   M /trunk/AceDB-3.0/AceDB-3.0.lua
+
+AceDB-3.0: Improve errors to provide more information.
+------------------------------------------------------------------------
+r1216 | funkydude | 2019-07-10 02:36:51 +0000 (Wed, 10 Jul 2019) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
+
+Create our own tooltip instead of re-using the GameTooltip.
+------------------------------------------------------------------------
+r1215 | funkydude | 2019-07-09 04:52:59 +0000 (Tue, 09 Jul 2019) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
+
+AceGUI-3.0/widgets/AceGUIContainer-TreeGroup: Make sure to :ClearAllPoints() after changing the width using the drag handler.
 ------------------------------------------------------------------------
 

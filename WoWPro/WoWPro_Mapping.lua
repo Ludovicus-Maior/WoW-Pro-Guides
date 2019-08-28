@@ -130,7 +130,7 @@ local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
 	end
 
 	local iactual
-    WoWPro:dbp("WoWProMapping_distance: autoarrival for uid %s at range %g",tostring(uid),range)
+    WoWPro:dbp("WoWProMapping_distance: autoarrival%s for uid %s at range %g",tostring(autoarrival), tostring(uid),range)
 
 	for i,waypoint in ipairs(cache) do
 		if (waypoint.uid == uid) then
@@ -155,6 +155,7 @@ local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
 	if autoarrival == 1 then
 		for i=iactual,#cache do
 		    if cache[i] then
+			    WoWPro:dbp("Mapping(AA1): removing uid #%d %s.", i, tostring(cache[i].uid))
 			    TomTom:RemoveWaypoint(cache[i].uid)
 			    table.remove(cache,i)
 			end
@@ -166,12 +167,14 @@ local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
 
 	elseif autoarrival == 2 then
 		if iactual ~= #cache then
-		    return 
+		    WoWPro:dbp("Mapping(AA2): iactual%d ~= #cache%d.", iactual,  #cache)
+		    return
 		elseif iactual == 1 then
 		    if autoComplete then
 			    WoWPro.CompleteStep(index, "autoarrival=2")
 			end
 		else
+		    WoWPro:dbp("Mapping(AA2): removing uid #%d %s.", iactual, tostring(cache[iactual].uid))
 			TomTom:RemoveWaypoint(cache[iactual].uid)
 			TomTom:SetCrazyArrow(cache[iactual-1].uid, TomTom.db.profile.arrow.arrival, cache[iactual-1].desc)
 			table.remove(cache)
@@ -489,7 +492,7 @@ function WoWPro:MapPoint(row)
 	    if zone and zm then
             WoWPro:dbp("MapPoint: zone [%s] mapped to %d", zone, zm)
         else
-            WoWPro:dbp("MapPoint: could not map zone [%s]", zone)
+            WoWPro:dbp("MapPoint: could not map zone [%s]", tostring(zone))
         end
     end
 
@@ -631,17 +634,21 @@ end
 
 function WoWPro:RemoveMapPoint()
     LastMapPoint = nil
-	if TomTom and TomTom.db then
+	if TomTom and not Nx then
 		for i=1,#cache,1 do
 		    if cache[i].uid ~= nil then
-		        WoWPro:print("WoWPro:RemoveMapPoint(%d:%.2f,%.2f@%s=%s)",i,cache[i].x,cache[i].y,tostring(cache[i].zone),tostring(cache[i].map))
+		        WoWPro:print("WoWPro:RemoveMapPoint TomTom(%d:%.2f,%.2f@%s=%s)",i,cache[i].x,cache[i].y,tostring(cache[i].zone),tostring(cache[i].map))
 			    TomTom:RemoveWaypoint(cache[i].uid)
 			end
 		end
 		wipe(cache)
 		wipe(WoWProMapping_callbacks_tomtom.distance)
-	elseif TomTom then
-		while cache[1] do TomTom:RemoveWaypoint(table.remove(cache)) end
+	elseif Nx then
+		while cache[1] do
+		    local catch = table.remove(cache)
+		    WoWPro:print("WoWPro:RemoveMapPoint Nx(%d:%.2f,%.2f@%s=%s)",i,catch.x,catch.y,tostring(catch.zone),tostring(catch.map))
+		    Nx:TTRemoveWaypoint(catch.uid)
+		end
 	end
 end
 

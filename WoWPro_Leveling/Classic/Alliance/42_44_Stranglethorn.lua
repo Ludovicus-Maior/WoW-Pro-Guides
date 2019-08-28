@@ -14,7 +14,7 @@ A Venture Company Mining|N|Accept this quest if you do not have it.|QID|600|M|27
 A Scaring Shaky|N|Accept this quest if you do not have it.|QID|606|M|27.8,77.1|
 A "Pretty Boy" Duncan|N|Accept this quest if you do not have it.|QID|610|
 C "Pretty Boy" Duncan|N|Kill Pretty Boy Duncan at this location and loot the blade from him.|QID|610|M|27.50,69.35|
-T The Bloodsail Buccaneers (part 1)|N||QID|595|M|27.30,69.50|
+T The Bloodsail Buccaneers (part 1)|QID|595|M|27.30,69.50|
 A The Bloodsail Buccaneers (part 2)|QID|597|M|27.3,69.5|
 C Akiris by the Bundle|N|Kill Nagas here until you get the Akiris Reeds needed for the quest.|QID|617|M|26.00,62.00|
 C Scaring Shaky|N|Kill Gorillas here until you get the items needed for this quest.|QID|606|M|33.00,63.00|
@@ -22,7 +22,7 @@ N Gorilla Fang|N|Continue to kill the Gorillas until you get the Gorilla Fang fo
 N Heart of Mokk|N|Talk to Witch Doctor Unbagwa and give him the Gorilla Fang.  Kill the three gorillas that show up.  Loot the Heart of Mokk from Mokk the Savage.|L|2797 1|M|35.26,60.40|
 T Scaring Shaky|QID|606|M|26.9,73.6|
 A Return to MacKinley|QID|607|M|26.9,73.6|
-T Stranglethorn Fever (pt 2)|N||QID|348|M|27.60,76.70|
+T Stranglethorn Fever (pt 2)|QID|348|M|27.60,76.70|
 T Return to MacKinley|QID|607|M|27.8,77.1|
 A Voodoo Dues|QID|609|M|27.8,77.1|
 T The Bloodsail Buccaneers (part 2)|QID|597|M|28.1,76.2|

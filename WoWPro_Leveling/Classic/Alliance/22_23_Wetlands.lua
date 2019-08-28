@@ -1,14 +1,6 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
--- FIXME:
--- Step C [The Algaz Gauntlet:455] in ClassicWetlands2223 is missing a CS¦CC¦CN tag.
--- Step N [Gobbler's Head:279] in ClassicWetlands2223 is missing a CS¦CC¦CN tag.
--- Step C [Claws from the Deep:279] in ClassicWetlands2223 is missing a CS¦CC¦CN tag.
--- Step A [Ormer's Revenge:294] in ClassicWetlands2223 is missing a CS¦CC¦CN tag.
--- Step T [The Greenwarden:463] in ClassicWetlands2223 is missing a CS¦CC¦CN tag.
--- Step C [Fire Taboo:277] in ClassicWetlands2223 is missing a CS¦CC¦CN tag.
--- Step C [Ormer's Revenge:294] in ClassicWetlands2223 is missing a CS¦CC¦CN tag.
 
 local guide = WoWPro:RegisterGuide('ClassicWetlands2223', 'Leveling', 'Wetlands', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Wetlands 22-23')
@@ -33,7 +25,7 @@ R Tinker Town|QID|455|N|Take the tram to Ironforge.|
 F Thelsamar|QID|455|N|Fly to Thalsamar, Loch Modan|M|55.60, 47.95|Z|Ironforge|
 A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|Loch Modan|
 R Wetlands|QID|455|N|Go through the tunnel to Wetlands|M|25.25, 0.20|Z|Loch Modan|
-C The Algaz Gauntlet|N|Go to the orc camp and kill the orcs needed for the quest. Then go back to the tunnel and continue down the path until you complete this quest.|M|55,83.5;49,79;47.6,76.1|QID|455|
+C The Algaz Gauntlet|N|Go to the orc camp and kill the orcs needed for the quest. Then go back to the tunnel and continue down the path until you complete this quest.|M|55,83.5;49,79;47.6,76.1|QID|455|CS|
 A Daily Delivery|QID|469|M|50,39.5|
 A In Search of The Excavation Team|QID|305|M|11.5,52.2|
 T The Algaz Gauntlet|QID|455|M|10.1,56.8|
@@ -45,23 +37,23 @@ A The Greenwarden|QID|463|M|10.9,59.6|
 h Deepwater Tavern|QID|3765|N|Make Deepwater Tavern your home location.|M|10.70, 61.50|
 A Digging Through the Ooze|QID|470|M|11.7,58|
 N From now on...|QID|484|N|From now on, kill and loot Young Wetlands Crocolisks on sight. Close this step.|
-N Gobbler's Head|QID|279|N|Kill Gobbler and loot his head. He walks back and forth between the first 2 Murloc dwellings along the road.|M|14.6,40.8;13.44,38.64;18.10,40.10|L|3618 1|
-C Claws from the Deep|N|Kill the rest of the Bluegill Murlocs you need for this quest.|M|20,40.6;13.8,39.8|QID|279|
-A Ormer's Revenge|QID|294|N|Follow the path up until you find a cave. Accept the quest from Ormer.|M|34,41;37,43.6;38.00, 52.00|
+N Gobbler's Head|QID|279|N|Kill Gobbler and loot his head. He walks back and forth between the first 2 Murloc dwellings along the road.|M|14.6,40.8;13.44,38.64;18.10,40.10|L|3618 1|CS|
+C Claws from the Deep|N|Kill the rest of the Bluegill Murlocs you need for this quest.|M|20,40.6;13.8,39.8|QID|279|CS|
+A Ormer's Revenge|QID|294|N|Follow the path up until you find a cave. Accept the quest from Ormer.|M|34,41;37,43.6;38.00,52.00|CS|
 T In Search of The Excavation Team (Part 1)|QID|305|M|38.8,52.3|
 A In Search of The Excavation Team (Part 2)|QID|306|M|38.8,52.3|
-T The Greenwarden|QID|463|N|Reminder: Don't forget to kill and loot Young Wetlands Crocolisks on sight.|M|34,41;34.9,38.3;56.3,40.3|
+T The Greenwarden|QID|463|N|Reminder: Don't forget to kill and loot Young Wetlands Crocolisks on sight.|M|34,41;34.9,38.3;56.3,40.3|CS|
 A Tramping Paws|QID|276|M|56.3,40.3|
 C Tramping Paws|N|Kill the mobs needed for this quest.|M|62.00, 70.00|QID|276|
 T Tramping Paws|QID|276|M|56.3,40.3|
 N Level 23|QID|277|N|You should be level 23 or close. If that's not the case, don't panic. Keep following the guide normally, but try to kill more mobs on the way if you're behind. Close this step.|
 A Fire Taboo|QID|277|M|56.3,40.3|
 C Digging Through the Ooze|N|Kill black oozes until you get Sida's Bag|M|44.00, 24.00|L|3349 1|QID|470|
-C Fire Taboo|N|Follow the arrows and kill gnolls until you get 9 Crude Flints. Target Fenrunners, Mistweavers and Trappers preferably, as they are lower level.|M|32.3,33.2;39,34;44,34.2|QID|277|
+C Fire Taboo|N|Follow the arrows and kill gnolls until you get 9 Crude Flints. Target Fenrunners, Mistweavers and Trappers preferably, as they are lower level.|M|32.3,33.2;39,34;44,34.2|QID|277|CS|
 T Fire Taboo|QID|277|M|56.3,40.3|
 A Blisters on The Land|QID|275|M|56.3,40.3|
 C Young Crocolisk Skins|N|Finish this quest now.|M|51.00, 36.00|QID|484|
-C Ormer's Revenge|QID|294|N|Kill raptors until you complete this quest.|M|28.8,43.4;25.7, 48.00;22.4,50.5;24.3,52.5|
+C Ormer's Revenge|QID|294|N|Kill raptors until you complete this quest.|M|28.8,43.4;25.7, 48.00;22.4,50.5;24.3,52.5|CN|
 T Ormer's Revenge|QID|294|M|38.1,51.2|
 A Ormer's Revenge|QID|295|M|38.1,51.2|
 H Deepwater Tavern|QID|279|

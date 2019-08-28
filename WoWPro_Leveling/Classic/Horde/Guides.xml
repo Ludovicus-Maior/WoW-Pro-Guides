@@ -7,4 +7,13 @@
   <Script file="12_14_SilverKnight_Silverpine_Forest.lua"/>
   <Script file="12_21_Hosho_The_Barrens.lua"/>
   <Script file="21_30_Jame_Horde.lua"/>
+  <Script file="31_40_Jame_Horde.lua"/>
+  <Script file="40_51_Jame_Horde.lua"/>
+  <Script file="51_53_Un'Goro_Crater.lua"/>
+  <Script file="53_54_Burning_Steppes.lua"/>
+  <Script file="54_55_Winterspring.lua"/>
+  <Script file="54_Felwood.lua"/>
+  <Script file="56_57_Eastern_Plaguelands.lua"/>
+  <Script file="56_Western_Plaguelands.lua"/>
+  <Script file="57_59_Western_Plaguelands.lua"/>
 </Ui>

@@ -1,13 +1,14 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
-	<Script file="01_05_Teldrassil.lua"/>
+	<Script file="30_41_Jame_Chapter_I.lua"/>
+	<Script file="41_50_Jame_Chapter_II.lua"/>
 	<Script file="01_12_Dun_Morogh.lua"/>
 	<Script file="01_12_Elwynn.lua"/>
-	<Script file="06_12_Teldrassil.lua"/>
+	<Script file="01_12_Teldrassil.lua"/>
 	<Script file="12_14_LochModan.lua"/>
 	<Script file="12_20_Darkshore.lua"/>
 	<Script file="14_15_Westfall.lua"/>
 	<Script file="15_18_Redridge.lua"/>
-    <Script file="18_20_Westfall.lua"/>
+        <Script file="18_20_Westfall.lua"/>
 	<Script file="20_21_Redridge.lua"/>
 	<Script file="21_22_Duskwood.lua"/>
 	<Script file="22_23_Wetlands.lua"/>
@@ -18,7 +19,7 @@
 	<Script file="26_27_Redridge.lua"/>
 	<Script file="27_28_Duskwood.lua"/>
 	<Script file="28_29_Wetlands.lua"/>
-    <Script file="29_30_Ashenvale.lua"/>
+        <Script file="29_30_Ashenvale.lua"/>
 	<Script file="30_31_Ashenvale.lua"/>
 	<Script file="31_32_ThousandNeedles.lua"/>
 	<Script file="32_35_Stranglethorn.lua"/>

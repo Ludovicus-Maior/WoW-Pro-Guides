@@ -24,7 +24,7 @@ T Stormwind Ho!|QID|562|M|51.5,58.4|
 A Reassignment|QID|563|M|51.5,58.4|
 F Refuge Pointe|QID|659|N|Fly to Refuge Pointe.|M|49.30,52.30|
 A Worth Its Weight in Gold|QID|691|Z|Arathi Highlands|M|46.2,47.8|
-T Hints of a New Plague?|N||QID|659|Z|Arathi Highlands|M|60.00,53.00|
+T Hints of a New Plague?|QID|659|Z|Arathi Highlands|M|60.00,53.00|
 A Hints of a New Plague? (part 2)|QID|658|Z|Arathi Highlands|M|60.2,53.9|
 C Hints of a New Plague? (part 2)|N|You are looking for a Forsaken Courier and several bodyguards.  This quest is not easy, but there is a trick to it.  You have to kill the Courier and loot the envelope by using some means to distract the guards.  If you cannot solo this, get some assistance from somebody.  The courier wanders on the road throughout the zone.|QID|658|
 T Hints of a New Plague? (part 2)|QID|658|Z|Arathi Highlands|M|60.2,53.9|
@@ -42,9 +42,9 @@ H Southshore|QID|661|N|Hearth to Southshore.|
 T Hints of a New Plague? (part 5)|QID|661|M|50.3,59.0|
 N Sell junk, repair, restock|QID|564|N|Sell junk, repair, restock|
 R Alterac Mountains|QID|564|M|54.60,8.00|
-R Sofera's Naze|QID|564|N||Z|Alterac Mountains|M|58.00,67.00|
-A Encrypted Letter|N||QID|511|Z|Alterac Mountains|M|58.35,67.90|
-A Foreboding Plans|N||QID|510|Z|Alterac Mountains|M|58.35,67.90|
+R Sofera's Naze|QID|564|Z|Alterac Mountains|M|58.00,67.00|
+A Encrypted Letter|QID|511|Z|Alterac Mountains|M|58.35,67.90|
+A Foreboding Plans|QID|510|Z|Alterac Mountains|M|58.35,67.90|
 C Crushridge Bounty|N|Go northwest and kill Crushridge Ogres until you get enough Dirty Knucklebones for the quest.  You may also run to 47, 76 to kill Syndicate mobs, and Mountain Lions for your other quests.|QID|500|Z|Alterac Mountains|M|49.00,61.60|
 C Syndicate Assassins|N|Kill Syndicates to finish this quest.|QID|505|Z|Alterac Mountains|M|47.00,76.00|
 C Costly Menace|N|Kill Lions until you finish this quest.|QID|564|Z|Alterac Mountains|M|38.00,85.00|

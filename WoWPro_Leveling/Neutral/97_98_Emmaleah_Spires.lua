@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2019-08-24 23:56
+-- Who: Fluclo
+-- Log: Added Coinbender's Payment treasure
+
+-- URL: http://wow-pro.com/node/3602/revisions/30032/view
 -- Date: 2018-10-17 02:31
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -707,6 +712,7 @@ A Spore-be-Gone|QID|35079|M|61.46,72.96|N|From Engineer Gazwitz.|
 A Unwanted Pests|QID|36179|NC|M|62.56,73.92|N|From Exterminator Lemmy.|
 C Unwanted Pests|QID|36179|NC|M|63.14,75.02|S|
 C Spore-be-Gone|QID|35079|M|63.33,77.41|NC|S|N|These look a bit like rocket clusters. Click to reactivate.|
+$ Coinbender's Payment|QID|36453|M|68.43,88.96|Z|Spires of Arak|RANK|3|N|In The Evanescent Sea is a chest with over 100 gold and over 20,000 XP, well worth a detour. Yes, the coords are in the middle of the ocean. You can be sure you are going the right way with buoys that tell you to keep going.|
 C Defungination|QID|35077|M|62.95,74.72|U|112683|NC|N|These are yellow blobs on the ground. Face them and use your flame blaster.|
 C Spore-be-Gone|QID|35079|M|63.33,77.41|NC|US|N|These look a bit like rocket clusters. Click to reactivate.|
 C Unwanted Pests|QID|36179|NC|M|63.14,75.02|US|

@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2019-08-05 08:53
+-- Who: Hendo72
+-- Log: - First aid is no longer a profession
+
+-- URL: http://wow-pro.com/node/3200/revisions/30170/view
 -- Date: 2018-12-27 01:50
 -- Who: Ludovicus_Maior
 -- Log:  Frostmane Hovel
@@ -243,11 +248,6 @@
 -- Date: 2013-05-14 18:52
 -- Who: Ludovicus_Maior
 -- Log: [A Triumph of Gnomish Ingenuity] not [Triumph of Gnomish Ingenuity]
-
--- URL: http://wow-pro.com/node/3200/revisions/25591/view
--- Date: 2013-03-23 20:23
--- Who: Ludovicus_Maior
--- Log: Name tweaks
 
 local guide = WoWPro:RegisterGuide("GylDwa0105","Leveling", "Coldridge Valley (Dwarf)", "Gylin - Dwarf", "Alliance")
 WoWPro:GuideLevels(guide,1,4,1.1)

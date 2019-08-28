@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3670
+-- Date: 2019-08-26 20:45
+-- Who: Fluclo
+-- Log: Update to the notes on some steps, added an extra step during Never Hunt Alone to seperate the teleport and fly steps, Ride Huey was auto-completing, therefore changed step to Flight instead. Added extra waypoint for Tactical Matters for those doing quest for first time to know where entrance is. Added Level step to differentiate between the Level 101+ quests, corrected FIXME placement for Pledge of Loyalty. Added Active tag for Spinetusk Piglet to only show whilst on quest, added Active task to Run Stony Highlands so only show whilst on quest. 
+
+-- URL: http://wow-pro.com/node/3670/revisions/30222/view
 -- Date: 2019-02-12 00:12
 -- Who: Ludovicus_Maior
 -- Log: Guide Surgery for Hunter Order Hall post BFA.
@@ -115,48 +120,52 @@ return [[
 A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|35.34,71.34|Z|Cleft of Shadow@Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|FACTION|HORDE|
 
-A In the Blink of an Eye|QID|44663^44184|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
-C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take the Portal to Dalaran|FACTION|ALLIANCE|
+A In the Blink of an Eye|QID|44663^44184|PRE|44120|M|40.44,77.89|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|ALLIANCE|
+F Wizard's Sanctum|QID|44663|ACTIVE|44663|M|49.34,86.91|Z|Stormwind City|NC|N|Head up to the Wizard's Sanctum in Stormwind City.|FACTION|ALLIANCE|
+C In the Blink of an Eye|QID|44663|QO|1|M|48.99,87.58|Z|Stormwind City|CHAT|N|Speak to the Kirin Tor Emissary just inside the doorway to Wizard's sanctum (NOT inside the portal area) and ask to be sent to Dalaran.|FACTION|ALLIANCE|
 ;both
 C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
-A Needs of the Hunters|QID|40384|PRE|43635|M|57.24,44.84|Z|Dalaran@Dalaran70|N|From Snowfeather. Wait a minute or so for him to fly over.|
-T Needs of the Hunters|QID|40384|M|60.04,53.47|Z|Dalaran@Dalaran70|N|To Emmarel Shadewarden.|
+A Needs of the Hunters|QID|40384|PRE|43635^43635^44184|M|57.24,44.84|Z|Dalaran@Dalaran70|N|From Snowfeather. Flies near you within a minute of being in Dalaran (Legion)|
+T Needs of the Hunters|QID|40384|M|60.04,53.47|Z|Dalaran@Dalaran70|N|To Emmarel Shadewarden in The Hunter's Reach building.|
 A The Hunter's Call|QID|41415|M|60.04,53.47|Z|Dalaran@Dalaran70|N|From Emmarel Shadewarden.|PRE|40384|
 C The Hunter's Call|QID|41415|CHAT|QO|1|M|59.18,37.94|Z|Dalaran@Dalaran70|N|Speak to Grif Wildheart inside Magical Menagerie.|
-C The Hunter's Call|QID|41415|CHAT|QO|3|M|55.66,63.54|Z|Dalaran@Dalaran70|N|Apata can be found upstairs, inside the Arsonal Absolute.|
-C The Hunter's Call|QID|41415|CHAT|QO|2|M|42.44,56.58|Z|Dalaran@Dalaran70|N|Courier Larkspur can be found just outside the Grayfang Enclave.|
+C The Hunter's Call|QID|41415|CHAT|QO|2|M|42.44,56.58|Z|Dalaran@Dalaran70|N|Speak to Courier Larkspur, just outside the Grayfang Enclave.|
+C The Hunter's Call|QID|41415|CHAT|QO|3|M|55.66,63.54|Z|Dalaran@Dalaran70|N|Speak to Apata Highmountain, upstairs in The Arsenal Absolute.|
 T The Hunter's Call|QID|41415|M|59.97,53.39|Z|Dalaran@Dalaran70|N|To Emmarel Shadewarden.|
 A Weapons of Legend|QID|40618|M|59.97,53.39|Z|Dalaran@Dalaran70|N|From Emmarel Shadewarden.|PRE|41415|
 C Weapons of Legend|QID|40618|QO|1|M|59.97,53.39|Z|Dalaran@Dalaran70|NC|N|Choose which artifact path you want, the next one will be available when you finish the first zone (lvl 101/102).|
 T Weapons of Legend|QID|40618|M|59.97,53.39|Z|Dalaran@Dalaran70|N|To Emmarel Shadewarden.|
-A Artifact specific quest|QID|41540^41541^41542|M|60.01,53.44|Z|Dalaran@Dalaran70|N|From Emmarel Shadewarden.|PRE|40618|
+
+A Artifact specific quest|QID|41540^41541^41542|M|60.01,53.44|Z|Dalaran@Dalaran70|N|From Emmarel Shadewarden. The quest given will depend on which artifact you are pursuing.|PRE|40618|
 
 ;BEASTMASTRY
 ;A A Beastly Expedition|QID|41541|PRE|40618|M|59.97,53.39|Z|Dalaran@Dalaran70|N|From Emmarel Shadewarden.|
-R Travel to Dalaran|QID|41541|M|42.62,46.84|TZ|Dalaran|CC|N|Take the portal to Dalaran|LVL|101|ACTIVE|41541|
-T A Beastly Expedition|QID|41541|M|71.39,50.59|Z|Dalaran@Dalaran70|N|To Grif Wildheart.|
+R Dalaran|QID|41541|M|42.62,46.84|TZ|Dalaran|CC|N|Head to Dalaran|LVL|101|ACTIVE|41541|
+T A Beastly Expedition|QID|41541|M|71.39,50.59|Z|Dalaran@Dalaran70|N|To Grif Wildheart, on Krasus' Landing in Dalaran.|
 A Stolen Thunder|QID|41574|PRE|41541|M|71.39,50.59|Z|Dalaran@Dalaran70|N|From Grif Wildheart.|
 C Stolen Thunder|QID|41574|QO|1|NC|M|71.26,51.69|Z|Dalaran@Dalaran70|N|Click on his Griffin 'Huey' to fly with Grif Wildheart.|
-C Making Introductions|QID|41574|QO|2|SO|1|M|85.41,9.67;84.80,9.66|CS|CHAT|NC|Z|Stormheim|N|Speak with Grif and meet his vrykul guide, Prustaga.|
-C Find Warlord Volund's tomb.|QID|41574|SO|2;1|M|55.38,49.54|Z|Stormheim/1|N|Find Warlord Volund's tomb.|
-C Protect Prustaga as she opens Volund's tomb.|QID|41574|SO|3;1|M|53.84,47.37|Z|Stormheim/1|N|Protect Prustaga as she opens Volund's tomb.|
-C Search for Titanstrike.|QID|41574|SO|4;1|M|59.33,20.66|Z|Stormheim/1|NC|N|Search for Titanstrike.|
-C Defeat Warlord Volund.|QID|41574|SO|5;1|M|58.14,18.48|Z|Stormheim/1|N|Defeat Warlord Volund.|
-C Join Keeper Mimiron in Ulduar.|QID|41574|SO|6;1|M|58.26,17.78|Z|The Spark of Imagination@UlduarMagni|NC|N|Join Keeper Mimiron in Ulduar.|
+C Making Introductions|QID|41574|QO|2|SO|1|M|85.41,9.67;84.80,9.66|CS|CHAT|NC|Z|Stormheim|N|Speak to Grif WIldheart, and tell him you are ready to get underway. Then wait for the dialog to finish.|
+C Find Warlord Volund's tomb.|QID|41574|SO|2;1|M|52.65,52.30|Z|Stormheim/1|N|Head to the back of the tomb then kill the three Spectral Windshapers.|
+C Protect Prustaga as she opens Volund's tomb.|QID|41574|SO|3;1|M|53.84,47.37|Z|Stormheim/1|N|Protect Prustaga as she opens Volund's tomb. There will be three spawns of increasing numbers of mobs.|
+C Search for Titanstrike.|QID|41574|SO|4;1|M|57.1,27.6|Z|Stormheim/1||N|Head into Volund's Hoard, wait for the dialog (there will be round of fighting during the dialog).|
+K Warlord Volund|QID|41574|SO|5;1|M|58.14,18.48|Z|Stormheim/1|N|Defeat Warlord Volund, then wait for the dialog to finish.|
+C Join Keeper Mimiron in Ulduar.|QID|41574|SO|6;1|M|58.25,17.79|Z|Stormheim/1|NC|N|Wait for the dialog to finish, then click on the Teleporation Pad.|
+
 T Stolen Thunder|QID|41574|M|44.97,37.33|Z|The Spark of Imagination@UlduarMagni|N|To Mimiron.|
 A The Creator's Workshop|QID|42158|M|44.97,37.33|Z|The Spark of Imagination@UlduarMagni|N|From Mimiron.|PRE|41574|
 C The Creator's Workshop|QID|42158|QO|1|NC|M|43.72,38.88|Z|The Spark of Imagination@UlduarMagni|N|First, you have to jump over the fires as you deactivate the TWO fusion press control panels.  \nSecond, you must avoid the blue swirls on the ground (that show where the lightning will hit) as you acivate the FOUR crystals that form the stabilization matrix. \nLast, you finally get to press that big red button!|
 T The Creator's Workshop|QID|42158|M|43.72,38.88|Z|The Spark of Imagination@UlduarMagni|N|To Mimiron.|
 A Never Hunt Alone|QID|42185|M|43.70,38.86|Z|The Spark of Imagination@UlduarMagni|N|From Mimiron. |PRE|42158|
-C Never Hunt Alone|QID|42185|QO|1|NC|M|41.69,18.46|Z|The Storm Peaks|N|After, accepting the quest and then use the provided teleportation pad to leave the scenario instance. When outside,Hop on the Aerial Command Unit.|
-C Converse with Thorim.|QID|42185|SO|1|M|33.51,58.86|Z|The Storm Peaks|NC|N|Converse with Thorim.|
+R Ulduar|QID|42185|ACTIVE|42185|QO|1|NC|M|41.69,18.46|Z|The Storm Peaks|N|Use the teleportation pad to leave the scenario instance.|
+C Never Hunt Alone|QID|42185|QO|1|NC|M|41.69,18.46|Z|The Storm Peaks|N|Hop on the Aerial Command Unit.|
+C Converse with Thorim.|QID|42185|SO|1|M|33.51,58.86|Z|The Storm Peaks|NC|N|Wait for the dialog with Thorim to complete.|
 C Fend off the vrykul horde.|QID|42185|SO|2|M|33.47,58.88|Z|The Storm Peaks|N|Fend off the vrykul horde.|
-C Defeat Prustaga.|QID|42185|SO|3|M|33.11,58.29|Z|The Storm Peaks|N|Defeat Prustaga.|
+C Defeat Prustaga.|QID|42185|SO|3|M|33.11,58.29|Z|The Storm Peaks|N|Bring prustaga down to 1 health, then watch the dialog.|
 C Bind Hati's spirit to your own.|QID|42185|SO|4|NC|M|33.37,58.19|Z|The Storm Peaks|N|Click on Hati to bind her spirit to your own.|
-C Wield Titanstrike|QID|42185|QO|2|M|33.39,58.32|Z|The Storm Peaks|NC|N|Click on the Gun to pick it up.|
-C Ride Huey to return to Dalaran.|QID|42185|SO|6|M|33.72,58.22|Z|The Storm Peaks|NC|N|Ride Huey to return to Dalaran.|
+C Wield Titanstrike|QID|42185|QO|2|M|33.42,58.03|Z|The Storm Peaks|NC|N|Click on the Gun to pick it up.|
+F Dalaran|QID|42185|ACTIVE|42185|M|33.72,58.22|Z|The Storm Peaks|NC|N|Ride Huey to return to Dalaran.|
 T Never Hunt Alone|QID|42185|M|69.68,43.04|Z|Dalaran@Dalaran70|N|To Grif Wildheart.|
 A Hunter to Hunter|QID|40952^40108^41009|M|69.68,43.04|Z|Dalaran@Dalaran70|N|From Grif Wildheart.|PRE|42185|LEAD|44043|
 
@@ -221,7 +230,7 @@ T The Spear in the Shadow|QID|40385|M|43.31,26.52|N|To Emmarel Shadewarden.|LVL|
 T Hunter to Hunter|QID|40952^40108^41009|M|60.10,53.39|Z|Dalaran@Dalaran70|N|To Emmarel Shadewarden. You can ask Talua (on the other side of Krasus' landing for a ride back to Trueshot lodge.|PRE|44043|
 T Hunter to Hunter|QID|40952^40108^41009|M|60.06,53.47|Z|Dalaran@Dalaran70|N|To Emmarel Shadewarden.|
 A On Eagle's Wings|QID|40953|M|60.10,53.39|Z|Dalaran@Dalaran70|N|From Emmarel Shadewarden.|PRE|40952^41009^40385|
-C On Eagle's Wings|QID|40953|QO|1|M|69.87,51.16|Z|Dalaran@Dalaran70|CHAT|N|Speak to the flight master in Krasus' Landing (chat option).|
+C On Eagle's Wings|QID|40953|QO|1|M|69.87,51.16|Z|Dalaran@Dalaran70|CHAT|N|Speak to the flight master in Krasus' Landing and select the chat option "I need to fly to the Trueshot Lodge".|
 C On Eagle's Wings|QID|40953|QO|2|M|36.29,27.92|NC|N|Meet Emmarel Shadewarden at the Trueshot Lodge|
 T On Eagle's Wings|QID|40953|M|36.67,29.03|N|To Emmarel Shadewarden.|
 A The Unseen Path|QID|40954|M|36.67,29.03|N|From Emmarel Shadewarden.|PRE|40953|
@@ -236,23 +245,29 @@ T Oath of Service|QID|40955|M|43.53,24.71|N|To Emmarel Shadewarden.|
 ; C Infused with Power|QID|41047|QO|1|M|47.67,53.91|NC|N|Click on the altar, then on the rune slot with a green '0' in the window that opens to imbue your artifact weapon with a new power.|
 ; T Infused with Power|QID|41047|M|47.32,53.97|N|To Altar Keeper Biehn.|
 A Tactical Matters|QID|40958|M|43.53,24.71|N|From Emmarel Shadewarden.|PRE|40955|
-T Tactical Matters|QID|40958|M|42.82,46.95|N|To Tactician Tinderfell.|
+T Tactical Matters|QID|40958|M|48.75,41.55;42.82,46.95|CC|N|To Tactician Tinderfell, inside Trueshot Lodge building.|
 A The Campaign Begins|QID|40959|M|42.82,46.95|N|From Tactician Tinderfell.|PRE|40958|
 C The Campaign Begins|QID|40959|M|42.82,46.95|NC|N|Choose which zone you want to do first.|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|42.62,46.84|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|
 T The Campaign Begins|QID|40959|M|42.62,46.84|N|To Tactician Tinderfell.|
-P Krasus' Landing - Dalaran|QID|39718^39864^39731^39733^39735|M|45.49,45.70;48.63,43.49|CS|N|Up the ramp to take the portal to Dalaran|ACTIVE|39718^39864^39731^39733^39735|
+
+P Krasus' Landing|QID|39718^39864^39731^39733^39735|M|45.49,45.70;48.63,43.49|CS|N|Up the ramp to take the portal to Dalaran|ACTIVE|39718^39864^39731^39733^39735|
 
 ;Class hall development lvl 101 to 109
-A Rise, Champions|QID|42519|M|47.23,53.92|N|From Alter Keeper Biehn.|LEAD|44090|
-A Champion: Loren Stormhoof|QID|42409|M|51.45,55.69|N|You will find Loren behind (outside) the lodge.|ACTIVE|42519|
+L Level 101|QID|44090|LVL|101|N|Your Class Hall quests continue once you have reached level 101. Change your guide to the zone you selected from the scouting map earlier, then return to this guide once you have reached level 101.|
+A Pledge of Loyalty|QID|44090|U|140192|N|From Snowfeather, who will appear by your side when you visit Dalaran.|
+F Trueshot Lodge|QID|44090|ACTIVE|44090|M|72.9,41.2|Z|Dalaran@Dalaran70|N|Speak to Talua for a ride to Trueshot Lodge.|CHAT|
+T Pledge of Loyalty|QID|44090|M|47.23,53.92|N|To Altar Keper Biehn, inside the Trueshot Lodge building.|
+
+A Rise, Champions|QID|42519|M|47.23,53.92|N|From Alter Keeper Biehn.|
+A Champion: Loren Stormhoof|QID|42409|M|51.45,55.69|N|From Loren Stormhoof, she is outside the building, at the back.|ACTIVE|42519|
 A A Strong Right Hand|QID|40957|M|43.39,26.29|N|Emmarel is down by the bonfire where you last talked to her.|ACTIVE|42519|
 T Rise, Champions|QID|42519|M|42.80,46.93|N|To Tactician Tinderfell who is inside the building beside your scouting map.|
 A Making Contact|QID|42523|M|42.80,46.93|N|From Tactician Tinderfell.|
-C Making Contact|QID|42523|M|42.47,46.72|NC|N|Send Loren on the mission Lenara Needs Help. It's a very short mission, so don't leave the lodge just yet.|
+C Making Contact|QID|42523|M|42.47,46.72|NC|N|Send Loren on the mission Lenara Needs Help. It takes 2 minutes to complete the mission, so don't leave the lodge just yet. Once you get the mission complete message, click on your Scout Report board and collect your reward.|
 T Making Contact|QID|42523|M|42.80,46.93|N|To Tactician Tinderfell.|
 A Recruiting The Troops|QID|42524|M|42.74,46.90|N|From Tactician Tinderfell.|PRE|42523|
-C Recruiting The Troops|QID|42524|M|42.84,37.67|NC|N|Go to Lenara and train a Squad of Archers. The first one is near instant, the remaining ones take half hour each.|
+C Recruiting The Troops|QID|42524|M|42.84,37.67|NC|N|Go to Lenara and train a Squad of Archers. The first one takes 5 seconds, all others will take 30 minutes each. Once the troop has generated, collect it from the Training Troops banner.|
 T Recruiting The Troops|QID|42524|M|42.79,46.93|N|To Tactician Tinderfell.|
 A Troops in the Field|QID|42525|M|42.79,46.93|N|From Tactician Tinderfell.|PRE|42524|
 C Troops in the Field|QID|42525|M|42.48,46.67|NC|N|Complete the mission, "Troops in the Field". This takes an hour, check this step off manually until then to progress in the guide.|
@@ -261,7 +276,7 @@ A Tech It Up A Notch|QID|42526|M|42.85,46.93|N|From Tactician Tinderfell.|PRE|42
 C Tech It Up A Notch|QID|42526|M|58.69,51.14|NC|N|Go find Survivalist Bahn and choose a class hall upgrade.|
 T Tech It Up A Notch|QID|42526|M|42.87,46.93|N|To Tactician Tinderfell.|
 A Scouting Reports|QID|42384|M|42.87,46.93|N|From Tactician Tinderfell.|PRE|42526|
-C Scouting Reports|QID|42384|M|42.87,46.93|NC|N|This is a two hour mission, so no need to wait around.Manually check the step off to progress.|
+C Scouting Reports|QID|42384|M|42.87,46.93|NC|N|This is a two hour mission, so no need to wait around. Manually check the step off to progress.|
 t Scouting Reports|QID|42384|M|43.40,26.37|N|To Emmarel Shadewarden.|
 A Lending a Hand|QID|42385|M|43.40,26.37|N|From Emmarel Shadewarden.|PRE|42384|
 C Lending a Hand|QID|42385|M|69.85,51.17|Z|Dalaran@Dalaran70|NC|N|Take the portal to Dalaran and then find Aladune at Krasus landing to go to Val'sharah. (chat option not flightpath). He is near Bradensbrook.  If you haven't quested in Val'sharah yet, you can do this while questing through. (if you want that option, switch to Val'sharah guide now).|LVL|101|
@@ -280,8 +295,9 @@ A Calling Hilaire Home|QID|42389|M|43.40,26.37|N|From Emmarel Shadewarden.|PRE|4
 F The Witchwood|QID|42390|M|35.81,27.63|N|At Odan Battlebow (or if you haven't done Highmountain you can run there from Trueshot Lodge).|ACTIVE|42390|
 R Cliff's Edge|QID|42390|M|36.75,38.20|Z|Highmountain|N|Run to Cliff's Edge.|ACTIVE|42390|
 T Recruiting Rexxar|QID|42390|M|36.74,35.40|Z|Highmountain|N|To Rexxar.|
+
 A Survival Skills|QID|43335|M|36.74,35.40|Z|Highmountain|N|From Rexxar.|PRE|42390|
-K Spinetusk Piglet|QID|43335|QO|1|M|36.75,38.20|Z|Highmountain|N|Kill the piglets until you get a raw meat.|
+K Spinetusk Piglet|QID|43335|ACTIVE|43335|QO|1|M|36.75,38.20|Z|Highmountain|N|Kill the piglets until you get a raw meat.|
 C Chop the tree down|QID|43335|QO|2|M|36.75,38.20|Z|Highmountain|NC|N|Click on the Dying Tree to get wood for the fire.|
 C Survival Skills|QID|43335|QO|3|M|36.73,35.57|Z|Highmountain|NC|N|Click on the fire circle to start the campfire.|
 C Survival Skills|QID|43335|QO|4|M|36.73,35.57|Z|Highmountain|NC|N|Click on it again to cook the meat.|
@@ -292,8 +308,9 @@ C Survive the Night|QID|42392|QO|2|M|36.75,38.20|Z|Highmountain|U|137613|N|Go ou
 T Survive the Night|QID|42392|M|36.74,35.40|Z|Highmountain|N|To Rexxar.|
 A Champion: Rexxar|QID|42410|M|36.74,35.40|Z|Highmountain|N|From/To Rexxar.|PRE|42392|
 F Forsaken Foothold|QID|42389|M|38.29,39.18|Z|Highmountain|N|At the Rafat Smokehoof (or otherwise travel to Stormheim).|ACTIVE|42389|
-R Stony Highlands|QID|42389|M|34.71,41.63|Z|Stormheim|N|Run up the hill to find Hilaire.|
+R Stony Highlands|QID|42389|ACTIVE|42389|M|34.71,41.63|Z|Stormheim|N|Run up the hill to find Hilaire.|
 T Calling Hilaire Home|QID|42389|M|34.71,41.63|Z|Stormheim|N|To Beastmaster Hilaire.|
+
 A Bite of the Beast|QID|42391|M|34.71,41.63|Z|Stormheim|N|From Beastmaster Hilaire.|
 C Bite of the Beast|QID|42391|QO|1|M|34.71,41.63;37.31,38.53|CS|Z|Stormheim|N|Follow the trail of Bloodspatters on the ground. You go down and around into a cave.|
 C Bite of the Beast|QID|42391|QO|2|M|37.31,38.53|Z|Stormheim|N|Kill Zoarg and loot his head.|
@@ -635,11 +652,6 @@ C Night of Claw and Talon|QID|46337|SO|2;2|M|29.47,70.38;28.3,77.6|CS|Z|HallsofV
 C Haukenulfnir|QID|46337|SO|3;1|M|23.68,66.12|Z|HallsofValor#1164|T|Haukenulfnir|N|Attack the wolfhawk Haukeulfnir. Avoid the whirlwinds, and dodge his charges.|
 C Revel the Night Away|QID|46337|SO|4;1|M|30.57,45.44;35.5,41.2|CS|Z|HallsofValor#1164|N|Speak with Odyn to leave.|
 T Night of the Wilds|QID|46337|M|44.24,21.47|N|Turn quest into the empty saddle outside your lodge.|
-
-; Not sure where this should go
-A Pledge of Loyalty|QID|44090|M|40.02,30.16|Z|Dalaran@Dalaran70|N|From Snowfeather. This is a breadcrumb quest to remind you to go to your class hall, if you are already there... skip it.|LEAD|42519|LVL|101|
-R Trueshot Lodge|QID|44090|M|72.85,41.23|Z|Dalaran@Dalaran70|N|When you are done doing stuff in Dalaran, you can ask Talua for an eagle ride or travel any other way.|
-T Pledge of Loyalty|QID|44090|M|47.23,53.92|N|To Alter Keeper Biehn.|
 
 ]]
 end)

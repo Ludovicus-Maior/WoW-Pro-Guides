@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_gorgrond_source_code
+-- Date: 2019-08-24 22:28
+-- Who: Fluclo
+-- Log: Correct coords for Khaano
+
+-- URL: http://wow-pro.com/node/3613/revisions/30365/view
+-- Date: 2019-08-22 19:49
+-- Who: Fluclo
+-- Log: Correct the coords of the Horned Skull, add additional detail for Fair Warning
+
+-- URL: http://wow-pro.com/node/3613/revisions/30353/view
+-- Date: 2019-08-06 16:18
+-- Who: Fluclo
+-- Log: Added LEAD tag for Beatface vs. Boulder to stop it showing after you've completed it
+
+-- URL: http://wow-pro.com/node/3613/revisions/30246/view
 -- Date: 2019-06-05 20:02
 -- Who: Ludovicus_Maior
 -- Log: Use [At Your Command] for the QID doe the D step
@@ -429,8 +444,8 @@ C Fair Warning|QID|35128|N|Kill Ogron Spinecrusher|QO|1|S|
 C Leave Every Soldier Behind |QID|36223|N|Head into the cave, follow the ramp down, speak to Corporal Thukmar and put him out of his misery|QO|1|CHAT|M|45.06,85.73|
 C Leave Every Soldier Behind |QID|36223|N|Pick up Thukmar's Intel.|QO|2|NC|M|45.06,85.73|
 C Fair Warning|QID|35128|N|Kill Borogahn|QO|2|T|Borogahn|M|31.08,74.93|
-$ Horned Skull |QID|35056|N|Horned Skull: Lootable object for Garrison Resources|M|47.05,67.03|ACTIVE|35128|
-C Fair Warning|QID|35128|N|Finish killing the Ogron Spinecrusher|QO|1|US|M|47.05,67.03|
+$ Horned Skull |QID|35056|N|Horned Skull: Lootable object for Garrison Resources|M|42.45,46.8|ACTIVE|35128|
+C Fair Warning|QID|35128|N|Finish killing the Ogron Spinecrusher, keeping at the bottom of the cave for a quest to get you out of there.|QO|1|US|M|41.97,46.81|
 A A Great Escape |QID|35210|N|From Goren Tunnel (near Borogahn's location)|M|41.97,46.81|ACTIVE|35128|
 C A Great Escape |QID|35210|N|Use the Goren Tunnel|M|41.97,46.81|NC|
 
@@ -496,10 +511,10 @@ A A Grim Harvest |QID|35647|N|From Khaano|M|58.27,59.89|PRE|35645&35644|
 A A Heartfelt Search |QID|35656|N|From Khaano|M|58.27,59.89|PRE|35645&35644|
 C A Grim Harvest |QID|35647|N|Kill and loot the Fungal Stompers as you make your way to the Drained Fungal Heart|M|58.92,62.52|
 C A Heartfelt Search |QID|35656|N|Inspect the Drained Fungal Heart|NC|M|58.92,62.52|
-T A Heartfelt Search |QID|35656|N|To Khaano, who will run next to the Drained Fungal Heart|M|58.27,59.89|
-T A Grim Harvest |QID|35647|N|To Khaano|M|58.27,59.89|
+T A Heartfelt Search |QID|35656|N|To Khaano, who will run next to the Drained Fungal Heart|M|58.97,62.52|
+T A Grim Harvest |QID|35647|N|To Khaano|M|58.97,62.52|
 
-A Heart of the Fen |QID|35659|N|From Khaano|M|58.27,59.89|PRE|35647&35656|
+A Heart of the Fen |QID|35659|N|From Khaano|M|58.97,62.52|PRE|35647&35656|
 C Heart of the Fen |QID|35659|N|Head to the Heart of the Fen, then kill Khaano|M|61.14,61.81|T|Khaano|
 H Highpass |QID|35659|N|Hearthstone to Highpass, or run there if you didn't set your hearthstone/if your hearthstone is still on cooldown.|
 T Heart of the Fen |QID|35659|N|To Rangari D'kaan|M|53.32,59.89|
@@ -526,7 +541,7 @@ R Steamscar Rise|ACTIVE|36439|N|Head to Steamscar Rise|M|52.29,46.52|
 C Shredder vs. Saberon |QID|36439|N|Head up the path, break the Strong Vine Barricade, then walk in.|NC|M|52.22,48.66|
 T Shredder vs. Saberon |QID|36439|N|To Altauur, who is moving into Steamscar Rise after you broke in.|M|52.04,49.50|PRE|36436&35708|
 
-A Beatface vs. Boulder |QID|36438|N|From Altauur|M|51.31,47.97|PRE|36436&35064&36437|
+A Beatface vs. Boulder |QID|36438|N|From Altauur|M|51.31,47.97|PRE|36436&35064&36437|LEAD|36438^36439|
 C Beatface vs. Boulder |QID|36438|N|Leave the cave and go left; there is a trail with a red banner over it heading up the mountain that brings you into a spot full of dead podlings\nFollow it round to the left and click on the boulders|NC|M|50.61,51.44|ACTIVE|36438|
 T Beatface vs. Boulder |QID|36438|N|To Altauur, who will spawn to your right as soon as you walk into the encampment.|M|52.04,49.50|PRE|36436&34704|
 

@@ -17,10 +17,19 @@ initSpecs["Leveling"] = {
                           { "End Level:", "The ending level for the guide.", "EndLvl", "endlevel"},
                           { "Faction:", "The Faction for the guide", "Faction", "faction"}
                          }
+initSpecs["Dailies"] = {
+                          { "GID:", "The ID for this guide.", "GID" , nil},
+                          { "Author Name:", "The author of the original guide.", "Author" , "author"},
+                          { "Next GID:", "The ID for the guide which will follow this one.", "NextGID", "nextGID"},
+                          { "Zone Name:", "The zone where the guide takes place.", "Zone", "zone"},
+                          { "Start Level:", "The starting level for the guide.", "StartLvl", "startlevel"},
+                          { "End Level:", "The ending level for the guide.", "EndLvl", "endlevel"},
+                          { "Faction:", "The Faction for the guide", "Faction", "faction"}
+                         }
 initSpecs["Achievements"] = {
                           { "GID:", "The ID for this guide.", "GID" , nil },
                           { "Author Name:", "The author of the original guide.", "Author" , "author" },
-                          { "Name:", "The Name for this guide.", "Name" , "name" }, 
+                          { "Name:", "The Name for this guide.", "Name" , "name" },
                           { "Zone Name:", "The zone where the guide takes place.", "Zone", "zone" },
                           { "Category:", "The Category for the guide.", "Category", "category" },
                           { "Subcategory:", "The subcategory for the guide.", "Subcategory"  , "sub" },
@@ -44,7 +53,7 @@ local function CreateInitSpecMenu(module)
             						WoWPro.Recorder.ModuleTable = {}
             						local i = 1
             						for name, module in WoWPro:IterateModules() do
-            							if name ~= "Recorder" then
+            							if name ~= "Recorder" and WoWPro.Recorder.initSpecs[name] then
             								WoWPro.Recorder.ModuleTable[i] = name
             								i = i+1
             							end

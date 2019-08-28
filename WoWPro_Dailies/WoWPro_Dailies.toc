@@ -1,9 +1,11 @@
 ## Interface: 80200
+#classic ## Interface: 11302
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Dailies
 ## Notes: Daily quest guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 8.2.0B
+## Version: 8.2.0-J1
+#classic ## Version: 1.13.2F-beta
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 

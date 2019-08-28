@@ -856,34 +856,10 @@ local function createBlizzOptions()
 				order = 93,
 				type = "description",
 				fontSize = "medium",
-				name = "WoW-Pro.com is a guide website by gamers, for gamers. "
+				name = "WoW-Pro.com is a guide website by gamers, for gamers. The site hosts hundreds of free guides covering every facet of World of Warcraft."
 			}, 	
 			blank12 = {
 				order = 94,
-				type = "description",
-				name = " ",
-			},  
-			about11 = {
-				order = 95,
-				type = "description",
-				fontSize = "medium",
-				name = 
-					"The site hosts hundreds of free guides covering every facet of World of Warcraft. "
-			}, 	 	
-			blank13 = {
-				order = 96,
-				type = "description",
-				name = " ",
-			},  
-			about12 = {
-				order = 97,
-				type = "description",
-				fontSize = "medium",
-				name = 
-					"We are most famous for our leveling guides, especially those written by the site founder, Jame. "
-			}, 	 	
-			blank7 = {
-				order = 98,
 				type = "description",
 				name = " ",
 			},  
@@ -904,9 +880,25 @@ local function createBlizzOptions()
 				type = "description",
 				fontSize = "medium",
 				name = 
-					"The WoW-Pro addon will bring many of the guides we've built as a community into the game, "..
-					"but if you get the chance you should definitely stop by, leave a comment saying 'Hi!', and check out "..
-					"some of the guides on WoW-Pro.com!",
+					"The WoW-Pro addon has brought many of the guides we've built as a community into the game, "..
+					"and built on them since WoLK to BFA and now Classic. Drop by WoW-Pro.com or Discord and say hello!"
+			},
+			blank19 = {
+				order = 102,
+				type = "description",
+				name = "",
+				image = "Interface/AddOns/WoWPro/Textures/Discord",
+				imageWidth = 32,
+				imageHeight = 32,
+				width = "half"
+			},
+			about16 = {
+				order = 103,
+				type = "input",
+				name = "Discord",
+				get = function () return "https://discord.gg/aarduK7"; end,
+				set = function () return "https://discord.gg/aarduK7"; end,
+				icon = "Interface\\AddOns\\WoWPro\\Textures\\Discord",
 			},
 		},
 	})
@@ -945,26 +937,96 @@ local function createBlizzOptions()
 						WoWProCharDB.DebugClasses = WoWPro.DebugClasses
 					end
 			},
-			enableGrail = {
-				order = 5,
+			EnableGrailQuestline = {
+				order = 5.0,
 				type = "toggle",
-				name = L["Enable Grail"],
-				desc = L["Enables/Disables Grail Integration"],
-				get = function(info) return WoWPro.EnableGrail end,
-				set = function(info,val) 
-						if WoWPro.EnableGrail then
-						    WoWPro.EnableGrail = false
+				name = L["Grail Quest Lines"],
+				desc = L["Enables/Disables Grail Quest Line Integration"],
+				get = function(info) return WoWProCharDB.EnableGrailQuestline end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailQuestline then
+						    WoWProCharDB.EnableGrailQuestline = false
 						else
-						    WoWPro.EnableGrail = true
+						    WoWProCharDB.EnableGrailQuestline = true
 						end
-						WoWProCharDB.EnableGrail = WoWPro.EnableGrail
 					end
 			},
+			EnableGrailCheckPrereq = {
+				order = 5.1,
+				type = "toggle",
+				name = L["Grail Check PRE"],
+				desc = L["Enables/Disables Grail Quest Prerequistite Quest Checking"],
+				get = function(info) return WoWProCharDB.EnableGrailCheckPrereq end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailCheckPrereq then
+						    WoWProCharDB.EnableGrailCheckPrereq = false
+						else
+						    WoWProCharDB.EnableGrailCheckPrereq = true
+						end
+					end
+			},
+			EnableGrailBreadcrumbs = {
+				order = 5.2,
+				type = "toggle",
+				name = L["Grail Check LEAD"],
+				desc = L["Enables/Disables Grail Quest Breadcrumb Quest Checking"],
+				get = function(info) return WoWProCharDB.EnableGrailBreadcrumbs end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailBreadcrumbs then
+						    WoWProCharDB.EnableGrailBreadcrumbs = false
+						else
+						    WoWProCharDB.EnableGrailBreadcrumbs = true
+						end
+					end
+			},
+			EnableGrailQuestName = {
+				order = 5.3,
+				type = "toggle",
+				name = L["Grail Quest Name Check"],
+				desc = L["Enables/Disables Grail Quest Quest Name Checking"],
+				get = function(info) return WoWProCharDB.EnableGrailQuestName end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailQuestName then
+						    WoWProCharDB.EnableGrailQuestName = false
+						else
+						    WoWProCharDB.EnableGrailQuestName = true
+						end
+					end
+			},
+			EnableGrailQuestLevel = {
+				order = 5.4,
+				type = "toggle",
+				name = L["Grail Quest Level Check"],
+				desc = L["Enables/Disables Grail Quest Quest Level Checking"],
+				get = function(info) return WoWProCharDB.EnableGrailQuestLevel end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailQuestLevel then
+						    WoWProCharDB.EnableGrailQuestLevel = false
+						else
+						    WoWProCharDB.EnableGrailQuestLevel = true
+						end
+					end
+			},
+			EnableGrailQuestObsolete = {
+				order = 5.5,
+				type = "toggle",
+				name = L["Grail Obsolete Quest Check"],
+				desc = L["Enables/Disables Grail Quest Quest Obsolete Checking"],
+				get = function(info) return WoWProCharDB.EnableGrailQuestObsolete end,
+				set = function(info,val)
+						if WoWProCharDB.EnableGrailQuestObsolete then
+						    WoWProCharDB.EnableGrailQuestObsolete = false
+						else
+						    WoWProCharDB.EnableGrailQuestObsolete = true
+						end
+					end
+			},
+
 			checkGuides = {
 			    order = 6,
 			    type = "execute",
 			    name = L["Run the Guide Checker"],
-			    desc = L["Load every availible guide and check for errors."],
+			    desc = L["Load every available guide and check for errors."],
 			    image = "Interface\\RaidFrame\\ReadyCheck-Waiting",
 			    func =  function (info)
 			                WoWPro:LogClear("CheckGuides");

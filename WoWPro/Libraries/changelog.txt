@@ -1,3 +1,9 @@
+Ace3 Release - Revision r1224 (August 1st, 2019)
+------------------------------------------------
+- AceConfigDialog-3.0: Replace use of StaticPopup with a custom frame to minimize taint
+- AceGUI-3.0: Ensure the OnLeave callback on various widgets still fires when its being released while visible (Ticket #505)
+- AceGUI-3.0: Various fixes for anchoring problems in WoW 8.2 (Ticket #512, and other reports)
+
 Ace3 Release - Revision r1214 (June 26th, 2019)
 -----------------------------------------------
 - AceConfigDialog-3.0: Exposed "select" type sorting control through a new "sorting" config table member

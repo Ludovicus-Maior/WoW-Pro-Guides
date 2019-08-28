@@ -144,10 +144,10 @@ function WoWPro.SkipStep(index, list_only)
 					steplist = steplist.."- "..WoWPro.step[j].."\n"
 					index = j
 				end
-			end 
+			end
 		end
 	end
-	
+
 	WoWPro:UpdateGuide("SkipStep")
 	return steplist
 end
@@ -170,15 +170,15 @@ function WoWPro.UnSkipStep(index)
 		WoWProCharDB.Guide[GID].skipped[index] = nil
 	end
 	WoWPro:dbp("UnSkipStep(): unskipping step %d", index)
-	
+
 	local function unskipstep(currentstep)
 		for j = 1,WoWPro.stepcount do if WoWPro.prereq[j] then
 			local numprereqs = select("#", string.split("^&", WoWPro.prereq[j]))
 			for k=1,numprereqs do
 				local kprereq = select(numprereqs-k+1, string.split("^&", WoWPro.prereq[j]))
 				if tonumber(kprereq) and tonumber(kprereq) == WoWPro.QID[currentstep] then
-					if WoWPro.action[j] == "A" 
-					or WoWPro.action[j] == "C" 
+					if WoWPro.action[j] == "A"
+					or WoWPro.action[j] == "C"
 					or WoWPro.action[j] == "T" then
 						WoWProCharDB.skippedQIDs[tonumber(kprereq)] = nil
 						WoWPro:dbp("UnSkipStep(): pre quid %s", kprereq)
@@ -188,7 +188,7 @@ function WoWPro.UnSkipStep(index)
 			end
 		end end
 	end
-	
+
 	unskipstep(index)
 	WoWPro:UpdateGuide("UnSkipStep")
 end
@@ -205,29 +205,29 @@ local function DefineTag(action, key, vtype, validator, setter)
     end
 end
 
-local function validate_list_of_qids(action, step, tag, value)
+local function validate_andor_list_of_ints(action, step, tag, value)
     --- Either X^Y^Z or X&Y&Z, or *, empty allowed
     if value == "*" then return true; end
-    return WoWPro.QidVerify(value, true,"^","&")
+    return WoWPro.IntListVerify(value, true,"^","&")
 end
 
-local function validate_list_of_ints(action, step, tag, value)
+local function validate_old_list_of_ints(action, step, tag, value)
     ---  X;Y, no empties
-    --- WoWPro.QidVerify(list,empty_ok,or_string,and_string)
-    return WoWPro.QidVerify(value, false,";","|")
+    --- WoWPro.IntListVerify(list,empty_ok,or_string,and_string)
+    return WoWPro.IntListVerify(value, false,";","|")
 end
 
 -- QID Tags first
-DefineTag("QID","QID","string",validate_list_of_qids,nil)
-DefineTag("PRE","prereq","string",validate_list_of_qids,nil)
-DefineTag("AVAILABLE","available","string",validate_list_of_qids,function (value, i) WoWPro.available[i] = value end)
+DefineTag("QID","QID","string",validate_andor_list_of_ints,nil)
+DefineTag("PRE","prereq","string",validate_andor_list_of_ints,nil)
+DefineTag("AVAILABLE","available","string",validate_andor_list_of_ints,function (value, i) WoWPro.available[i] = value end)
 DefineTag("O","optional","boolean",nil,function (text,i)
     WoWPro.optional[i] = true;
     WoWPro.optionalcount = WoWPro.optionalcount + 1;
 end)
-DefineTag("LEAD","leadin","string",validate_list_of_qids,nil)
-DefineTag("ACTIVE","active","string",validate_list_of_qids,function (value, i) WoWPro.active[i] = value; WoWPro.QID[i] = WoWPro.QID[i] or value; end)
-DefineTag("NPC","NPC","string",validate_list_of_ints,nil)
+DefineTag("LEAD","leadin","string",validate_andor_list_of_ints,nil)
+DefineTag("ACTIVE","active","string",validate_andor_list_of_ints,function (value, i) WoWPro.active[i] = value; WoWPro.QID[i] = WoWPro.QID[i] or value; end)
+DefineTag("NPC","NPC","string",validate_old_list_of_ints,nil)
 
 -- Mapping Tags
 DefineTag("M","map","string",nil,nil)
@@ -258,7 +258,7 @@ DefineTag("NC","noncombat","boolean",nil,nil)
 DefineTag("NA","noauto","boolean",nil,nil)
 DefineTag("CHAT","chat","boolean",nil,nil)
 DefineTag("V","vehichle","boolean",nil,nil) -- Yeah, that is how blizzard spelled it!
-DefineTag("LVL","level","number",nil,nil)
+DefineTag("LVL","level","string",validate_old_list_of_ints,nil)
 DefineTag("T","target","string",nil,nil)
 DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(value) end)
 DefineTag("NOCACHE", "nocache","boolean",nil,nil)
@@ -270,13 +270,13 @@ DefineTag("SPELL","spell","string",nil,nil)
 DefineTag("ILVL","ilvl","string",nil,nil)
 DefineTag("FLY","fly","string",nil,nil)
 DefineTag("ACH","ach","string",nil,nil)
-DefineTag("BUFF","buff","string",nil,nil)
+DefineTag("BUFF","buff","string",validate_andor_list_of_ints,nil)
 DefineTag("RECIPE","recipe","number",nil,nil)
 DefineTag("PET","pet","string",nil,nil)
 DefineTag("BUILDING","building","string",nil,nil)
 DefineTag("GUIDE","guide","string",nil,nil)
 DefineTag("RARE","rare","boolean",nil,nil)
-DefineTag("EX","expansion","string",validate_list_of_ints,nil)
+DefineTag("EX","expansion","string",validate_old_list_of_ints,nil)
 
 -- Pet Stuff
 DefineTag("PET1","pet1","string",nil,nil)
@@ -294,7 +294,11 @@ DefineTag("S","sticky","boolean",nil, function (text,i)
     WoWPro.sticky[i] = true;
     WoWPro.stickycount = WoWPro.stickycount + 1;
 end)
-DefineTag("S!US","sticky","boolean",nil,function (value,i) WoWPro.sticky[i] = 42 end)
+DefineTag("S!US",nil,"boolean",nil, function (value,i)
+    WoWPro.sticky[i] = true
+    WoWPro.unsticky[i] = true;
+    WoWPro.stickycount = WoWPro.stickycount + 1;
+end)
 DefineTag("N","note","string",nil,nil)
 DefineTag("FACTION","faction","string",nil,nil)
 DefineTag("R",nil,"string",nil,function (value,i) end)  -- Swallow R Tags
@@ -326,7 +330,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 
     -- Split the line up on the pipes
     local tags = { strsplit("|", text) }
-	
+
 	-- The first tag is is the Action followed by the Step name
 	local primo = tags[1]
 	if string.len(primo) < 3 then
@@ -441,21 +445,21 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	    WoWPro.zone[i] = nil
 	end
 
-	if (not WoWPro.prereq[i]) and WoWPro.action[i] == "A" then
+	if WoWProCharDB.EnableGrailCheckPrereq and (not WoWPro.prereq[i]) and WoWPro.action[i] == "A" then
 	    local new_prereq = WoWPro.GrailQuestPrereq(WoWPro.QID[i])
 	    if WoWPro.DebugLevel > 0 and new_prereq then
 	        WoWPro:Warning("Grail says step %s [%s:%s] in %s needs PRE¦%s¦.",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_prereq)
 	    end
 	    WoWPro.prereq[i] = new_prereq
     end
-    if WoWPro.prereq[i] and WoWPro.action[i] == "A" and WoWPro.DebugLevel > 0 then
+    if WoWProCharDB.EnableGrailCheckPrereq and WoWPro.prereq[i] and WoWPro.action[i] == "A" and WoWPro.DebugLevel > 0 then
         local new_prereq, why = WoWPro.GrailQuestCheckPrereq(WoWPro.QID[i],WoWPro.prereq[i])
         if new_prereq then
             WoWPro:Warning("Grail says step %s [%s:%s] in %s needs PRE¦%s¦ but has PRE¦%s¦ (%s).",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_prereq, WoWPro.prereq[i], why)
         end
     end
 
-	if (not WoWPro.leadin[i]) and WoWPro.action[i] == "A"  then
+	if WoWProCharDB.EnableGrailBreadcrumbs and (not WoWPro.leadin[i]) and WoWPro.action[i] == "A"  then
 	    local new_leadin = WoWPro.GrailBreadcrumbsFor(WoWPro.QID[i])
 	    if WoWPro.DebugLevel > 0 and new_leadin then
 	        WoWPro:Warning("Grail says step %s [%s:%s] in %s needs LEAD¦%s¦.",WoWPro.action[i], WoWPro.step[i], tostring(WoWPro.QID[i]), WoWProDB.char.currentguide, new_leadin)
@@ -468,7 +472,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     end
 
 	if WoWPro.map[i] then
-		if WoWPro.waypcomplete[i] == nil then 
+		if WoWPro.waypcomplete[i] == nil then
 		    WoWPro.waypcomplete[i] = false
 		    if WoWPro.map[i]:find(";") then
 		        WoWPro:Warning("Step %s [%s:%s] in %s is missing a CS¦CC¦CN tag.",WoWPro.action[i],WoWPro.step[i],tostring(WoWPro.QID[i]),WoWProDB.char.currentguide)
@@ -530,15 +534,15 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     if WoWPro.ach[i] and not WoWPro.note[i] then
         WoWPro.note[i] = ""
     	local achnum, achitem = string.split(";",WoWPro.ach[i])
-    	local count = GetAchievementNumCriteria(achnum) 
-    	local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum) 
-    	if WoWPro.step[i] == "Achievement" and count == 0 then 
-    		WoWPro.step[i] = Name 
+    	local count = GetAchievementNumCriteria(achnum)
+    	local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum)
+    	if WoWPro.step[i] == "Achievement" and count == 0 then
+    		WoWPro.step[i] = Name
     		WoWPro.note[i] = Description.."\n\n"..WoWPro.note[i]
     	end
-    	if WoWPro.step[i] == "Achievement" and count > 0 then 
-    		WoWPro.step[i] = Name 
-    		local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem) 
+    	if WoWPro.step[i] == "Achievement" and count > 0 then
+    		WoWPro.step[i] = Name
+    		local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
     		WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i]
     	end
     end
@@ -741,7 +745,7 @@ function WoWPro.ParseSteps(steps)
         end
     end
 end
-	
+
 -- Guide Load --
 function WoWPro:LoadGuideSteps()
     WoWPro:dbp("Signaled for LoadGuideSteps for %s",tostring(WoWProDB.char.currentguide))
@@ -784,7 +788,7 @@ function WoWPro.LoadGuideStepsReal()
 	    WoWPro:dbp("Guide Parsed. "..WoWPro.stepcount.." steps stored.")
 	end
 
-	-- May need to go the the next guide to register	
+	-- May need to go the the next guide to register
 	if WoWPro.Guides2Register then
 	    WoWProCharDB.GuideVersion[GID] = WoWPro.Version
 	    WoWPro:dbp("Recorded %s, time to load next Guides2Register.", GID)
@@ -844,7 +848,7 @@ function WoWPro.SetupGuideReal()
 
 	-- Do we need to do AutoProximitySort'
 	if WoWPro.Guides[GID].AutoProximitySort then
-	    WoWPro.OrderSteps(false)    
+	    WoWPro.OrderSteps(false)
 	end
 
     -- Checking to see if any steps are already complete --

@@ -30,7 +30,7 @@ T A Dwarf and His Tools|QID|719|M|53.6,43.3|
 T A Sign of Hope (part 1)|QID|720|M|53.6,43.3|
 T Mirages|QID|718|M|53.6,43.3|
 A Scrounging|QID|733|M|53.6,43.3|
-T Find Agmond|N||QID|738|M|50.00,62.00|
+T Find Agmond|QID|738|M|50.00,62.00|
 A Murdaloc|QID|739|M|50.9,62.4|
 C Murdaloc|N|Kill Stonevault Bonesnappers and Murdaloc at this location.  Collect Indurium Flakes as well.|QID|739|M|50.00,68.00|
 C Indurium|N|Continue to kill Stonevault mobs until you complete this quest.|QID|1108|M|51.8,65.6|
@@ -52,7 +52,7 @@ N Train|QID|2500|N|Grab your new skills, visit the AH, vendor junk, repair, rest
 F Thelsamar|QID|2500|N|Fly to Thelsamar, Loch Modan|Z|Ironforge|M|55.50,47.80|
 T Badlands Reagent Run|QID|2500|
 T Murdaloc|QID|739|M|65.9,65.6|
-R Badlands|QID|712|N||Z|Loch Modan|M|47.00,86.00|
+R Badlands|QID|712|Z|Loch Modan|M|47.00,86.00|
 C Study of the Elements: Rock (part 3)|N|Kill Greater Rock Elementals here until you get the Bracers of Rock Binding for this quest.  There are more Elementals west of this location.|QID|712|M|17.00,83.00|
 T Study of the Elements: Rock (part 3)|QID|712|M|25.9,44.6|
 A This Is Going to Be Hard (part 1)|QID|734|M|25.9,44.6|

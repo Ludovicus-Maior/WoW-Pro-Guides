@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2019-07-29 15:35
+-- Who: Fluclo
+-- Log: Ace won't spawn for the quest Surrender or Else if you are mounted on your Chauffeur, so two lines to give a message if you are on your Chauffeur.
+
+-- URL: http://wow-pro.com/node/3212/revisions/30341/view
+-- Date: 2019-07-29 14:18
+-- Who: Fluclo
+-- Log: Added ACTIVE tag to Blastshadow the Brutemaster for it to only show when the quest is in your log
+
+-- URL: http://wow-pro.com/node/3212/revisions/30340/view
+-- Date: 2019-07-29 13:36
+-- Who: Fluclo
+-- Log: Path is to the north, not to the south. 
+
+-- URL: http://wow-pro.com/node/3212/revisions/30220/view
 -- Date: 2019-02-12 00:00
 -- Who: Ludovicus_Maior
 -- Log: Correcting sexism in [Fourth and Goal] and bad coords for [Necessary Roughness].
@@ -231,10 +246,6 @@
 -- Date: 2010-12-03 07:20
 -- Who: Jiyambi
 
--- URL: http://wow-pro.com/node/3212/revisions/23292/view
--- Date: 2010-12-03 07:19
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('MalLos0512', 'Leveling', 'The Lost Isles', 'Malorajan', 'Horde')
 WoWPro:GuideLevels(guide,4,10,5)
 WoWPro:GuideRaceSpecific(guide,"Goblin")
@@ -323,9 +334,9 @@ T Warchief's Revenge|QID|14243|M|35.86,66.72|N|To Thrall who has now moved to th
 A Farewell, For Now|QID|14445|M|35.86,66.72|N|From Thrall.|PRE|14243|
 T Farewell, For Now|QID|14445|M|36.00,67.49|N|To Sassy Hardwrench, who is now in the Wild Overlook.|
 
-A Up, Up&Away!|QID|14244|M|36.00,67.49|N|From Sassy Hardwrench.|PRE|14445|
-C Up, Up&Away!|QID|14244|M|36.32,66.63|N|Click on the Rocket Sling, and select Up, Up&Away!|NC|
-T Up, Up&Away!|QID|14244|M|44.51,64.36|N|To Foreman Dampwick, who is now in the Landing Site.|
+A Up, Up!|QID|14244|M|36.00,67.49|N|From Sassy Hardwrench.|PRE|14445|
+C Up, Up!|QID|14244|M|36.32,66.63|N|Click on the Rocket Sling, and select Up, Up!|NC|
+T Up, Up!|QID|14244|M|44.51,64.36|N|To Foreman Dampwick, who is now in the Landing Site.|
 
 A It's a Town-In-A-Box|QID|14245|M|44.51,64.36|N|From Foreman Dampwick.|PRE|14244|
 C It's a Town-In-A-Box|QID|14245|M|45.46,65.35|N|Click on the plunger to create Town-In-A-Box.|NC|
@@ -371,7 +382,11 @@ A Irresistible Pool Pony|QID|24864|M|52.20,73.19|N|From Megs Dreadshredder.|PRE|
 C Irresistible Pool Pony|QID|24864|U|50602|M|58.18,84.52|N|Head to the Spawning Pool and use the Pool Pony. Kill the Vashj'elan Siren, then talk to the Naga Hatchlings to get them.|
 T Irresistible Pool Pony|QID|24864|M|52.19,73.17|N|To Megs Dreadshredder.|
 
-A Surrender or Else!|QID|24868|M|52.20,73.19|N|From Megs Dreadshredder.|PRE|24864|
+; Two lines at this point, if you are on your Chauffeur mount, it will skip the first Accept step and show the second one which tells you to dismount.
+; If you don't have the Chauffeur, it will show the first accept step, and skip the second once accepted.
+A Surrender or Else!|QID|24868|M|52.20,73.19|N|From Megs Dreadshredder.|PRE|24864|BUFF|179244|
+A Surrender or Else!|QID|24868|M|52.20,73.19|N|From Megs Dreadshredder. You will need to dismount from your Chauffeur before accepting this quest!|PRE|24864|
+
 C Surrender or Else!|QID|24868|M|54.17,91.15|N|Follow Ace. When you can attack the Faceless, do so and kill it.|
 T Surrender or Else!|QID|24868|M|52.20,73.17|N|To Megs Dreadshredder.|
 
@@ -477,7 +492,7 @@ A Morale Boost|QID|25122|N|From Assistant Greely who is now follow you.|PRE|2511
 A Throw It On the Ground!|QID|25123|N|From Assistant Greely.|PRE|25110|
 C Morale Boost|QID|25122|M|56.86,36.79|S|N|Throw a Kaja'Cola at the Goblin Survivors and Kezan Citizens to free their minds. Kill and loot Overseers or loot from the floor to get Kaja'Cola.|QO|4|NC|
 
-K Blastshadow the Brutemaster|QID|25123|M|55.38,31.58|N|Kill Blastshadow the Brutemaster, then loot the Soulstone that will be on the floor.|L|52481|T|Blastshadow the Brutemaster|
+K Blastshadow the Brutemaster|QID|25123|M|55.38,31.58|N|Kill Blastshadow the Brutemaster, then loot the Soulstone that will be on the floor.|L|52481|T|Blastshadow the Brutemaster|ACTIVE|25123|
 C Throw It On the Ground!|QID|25123|M|55.38,31.58|U|52481|N|Target Blastshadow's corpse and use the Soulstone.|T|Blastshadow the Brutemaster|NC|
 T Throw It On the Ground!|QID|25123|M|55.40,31.51|N|To Assistant Greely.|
 

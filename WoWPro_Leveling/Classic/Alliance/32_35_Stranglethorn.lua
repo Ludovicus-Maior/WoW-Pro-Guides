@@ -26,8 +26,8 @@ f Rebel Camp|QID|198|N|Get the flight path for the nearby Rebel Camp|M|38.20,4.1
 A The Second Rebellion|QID|203|M|38.0,3.3|
 A Bad Medicine|QID|204|M|38.0,3.3|
 A Krazek's Cookery|QID|210|M|37.7,3.3|
-T Supplies to Private Thorsen|N||QID|198|M|38.00,3.40|
-T Hemet Nesingwary Jr.|N||QID|5762|M|35.00,10.00|
+T Supplies to Private Thorsen|QID|198|M|38.00,3.40|
+T Hemet Nesingwary Jr.|QID|5762|M|35.00,10.00|
 A Welcome to the Jungle|QID|583|M|35.8,10.7|
 T Welcome to the Jungle|QID|583|M|35.8,10.7|
 A Raptor Mastery|QID|194|M|35.8,10.7|
@@ -47,7 +47,7 @@ A Tiger Mastery (follow-up)|QID|186|M|35.8,10.7|
 T Panther Mastery|QID|190|M|35.8,10.7|
 A Panther Mastery (follow-up)|QID|191|M|35.8,10.7|
 C Panther Mastery (follow-up)|N|Kill Panthers and Tigers until you complete both quests.|QID|191|M|30.00,9.00|
-C Tiger Mastery (follow-up)|N||QID|186|M|30.00,9.00|
+C Tiger Mastery (follow-up)|QID|186|M|30.00,9.00|
 C Raptor Mastery|N|Go southwest and kill 10 Stranglethorn Raptors.|QID|194|M|27.80,14.80|
 C Bloodscalp Ears|N|Get 15 bloodscalp ears from the Trolls here.  There are several other camps, one at 33,15, that you can kill Trolls at as well.|QID|189|M|29.00,20.00|
 C Singing Blue Shards|N|Go west and kill Basilisks until you get ten Singing Crystal Shards.|QID|605|M|26.80,18.70|
@@ -106,7 +106,7 @@ H The Salty Sailor Tavern|QID|187|N|Hearth to Booty Bay.|
 N Train skills|QID|187|N|Train your skills in Stormwind if able to.  Look for Green Hills of Stranglethorn Pages in the Auction House while you are there.  If you are a Rogue, train in Booty Bay.  Ask in general chat while in Stranglethorn Vale if anybody wants to trade Stranglethorn Pages.|
 F Rebel Camp|QID|187|N|Fly to Rebel Camp.|M|27.50,77.80|
 N From now on...|QID|577|N|From now on, kill any Snapjaw Crocolisk you find until you finish Some Assembly Required.|
-C Raptor Mastery|N||QID|195|M|31.70,22.80|
+C Raptor Mastery|QID|195|M|31.70,22.80|
 R Venture Co. Base Camp|QID|187|N|Go to the river and search for Snapjaw Crocolisks, then continue to the Venture Co. Camp.|M|43.00,16.90|
 C Hostile Takeover|N|Kill geologists here until you finish Hostile Takeover.  Kill any Crocolisks that you see if you still need them.|QID|213|M|44.00,20.00|
 C Some Assembly Required|N|Kill Snapjaw Crocolisks until you get the skins needed for this quest.  They can be found in or near the river.|QID|577|M|39.60,17.30|

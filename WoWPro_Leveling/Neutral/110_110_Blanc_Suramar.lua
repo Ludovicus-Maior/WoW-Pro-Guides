@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2019-08-08 15:55
+-- Who: Fluclo
+-- Log: Masquerade quest to Non-Combat
+
+-- URL: http://wow-pro.com/node/3687/revisions/30359/view
+-- Date: 2019-08-08 12:57
+-- Who: Fluclo
+-- Log: Changed map coord for H Shal'Aran to the cave entrance to aid those on foot
+
+-- URL: http://wow-pro.com/node/3687/revisions/30357/view
+-- Date: 2019-08-06 20:12
+-- Who: Fluclo
+-- Log: Added LEAD tag to Khadgar's Discovery as there appears to be a way to complete Magic Message without doing either quest 39985 or 44555
+
+-- URL: http://wow-pro.com/node/3687/revisions/30016/view
 -- Date: 2018-10-17 02:30
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -239,21 +254,6 @@
 -- Who: Emmaleah
 -- Log: Various adjustments.
 
--- URL: http://wow-pro.com/node/3687/revisions/28153/view
--- Date: 2016-12-15 04:54
--- Who: Blanckaert
--- Log: minor adjustments, fixing of PREs, some notes...
-
--- URL: http://wow-pro.com/node/3687/revisions/28147/view
--- Date: 2016-12-13 20:24
--- Who: Blanckaert
--- Log: Augghh!  dang head cold.. can't properly type and think....
-
--- URL: http://wow-pro.com/node/3687/revisions/28146/view
--- Date: 2016-12-13 20:20
--- Who: Blanckaert
--- Log: adding for quest for 12/13 / updated info etc. (the right one this time)
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:NewGuideLevels(guide,110,110)
@@ -271,7 +271,7 @@ N Treasures and Rares|QID|39987|N|As with other guides all treasures and rares a
 
 ; Nightfallen But Not Forgotten - Nightfall
 
-A Khadgar's Discovery|QID|44555^39985|LVL|110|N|Auto Accepted from UI upon entering Dalaran. Or get from your Adventure Guide (Shift - J Default keybinding)|
+A Khadgar's Discovery|QID|44555^39985|LVL|110|N|Auto Accepted from UI upon entering Dalaran. Or get from your Adventure Guide (Shift - J Default keybinding)|LEAD|39986|
 T Khadgar's Discovery|QID|44555^39985|M|28.47,48.31|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar in the Violet Citadel.|
 A Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|44555&39985|
 C Magic Message|QID|39986|M|29.32,48.80|Z|Dalaran!Dalaran!Dungeon|NC|N|Click on the Arcane Anomaly and watch the dialog.|
@@ -350,7 +350,9 @@ A Mglrgrs Of Our Grmlgrlr|QID|41143|M|15.18,51.78|N|From Mrgrlilgrl.|RANK|2|PRE|
 C Mglrgrs Of Our Grmlgrlr|QID|41143|M|17.96,48.31|N|Find Mr. Mrglglrm by killing the spiders then opening the webs to reveal the victim.|RANK|2|
 T Mglrgrs Of Our Grmlgrlr|QID|41143|M|15.24,51.73|N|To Mr. Mrglglrm.|RANK|2|
 C Ancient Mana|QID|44672|M|34.81,55.09|US|N|Continue gathering ancient manu up whenever you are not capped, as you will always have uses for it.|
-H Shal'Aran|QID|41704|ACTIVE|41704|M|36.56,46.92|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
+
+; coordinates are entrance to cave to help those not yet familiar with it's location.
+H Shal'Aran|QID|41704|ACTIVE|41704|M|34.72, 48.06|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 C Subject 16|QID|41704|M|36.29,47.11|NC|N|Deliver Theryn to Thalyssra.|
 T Ancient Mana|QID|44672|M|36.54,46.94|N|To First Arcanist Thalyssra.|
 T Subject 16|QID|41704|M|36.55,46.91|N|To First Arcanist Thalyssra.|
@@ -499,7 +501,7 @@ C Blood of My Blood|QID|41989|M|42.12,78.73|QO|2|N|Defeat Anarys Lunastre.|
 C Blood of My Blood|QID|41989|M|43.32,78.73|QO|3|NC|N|Deliver Anarys to Ly'leth.|
 T Blood of My Blood|QID|41989|M|43.34,78.73|N|To Ly'leth Lunastre.|
 A Masquerade|QID|42079|M|43.34,78.73|N|From Ly'leth Lunastre.|PRE|41989|
-C Masquerade|QID|42079|M|43.36,78.84|U|136970|N|Use Mask of Mirror Image on Anarys.|
+C Masquerade|QID|42079|M|43.36,78.84|U|136970|N|Use Mask of Mirror Image on Anarys.|NC|
 T Masquerade|QID|42079|M|43.37,78.77|N|To Ly'leth Lunastre.|
 A First Contact|QID|42147|M|43.37,78.77|N|From Ly'leth Lunastre.|PRE|42079|
 A Lunastre Estate Teleporter Online!|QID|43811|M|43.69,79.26|N|From Unpowered Telemancy Beacon. (100 Ancient Mana)|PRE|40956|

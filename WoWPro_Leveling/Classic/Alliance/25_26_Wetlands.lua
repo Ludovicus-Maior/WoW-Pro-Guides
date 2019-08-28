@@ -1,9 +1,3 @@
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- FIXME:
--- Unknown tag ¦38.83,52.4¦ in [T Uncovering the Past¦N¦M¦38.83,52.4¦].
-
 local guide = WoWPro:RegisterGuide('ClassicWetlands2526', 'Leveling', 'Wetlands', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Wetlands 25-26')
 WoWPro:GuideLevels(guide, 25, 26, 25.5)
@@ -30,7 +24,7 @@ R Follow the arrows|QID|296|N|You won't die from falling damage if you follow th
 C Ormer's Revenge (part 3)|N|Kill Sarltooth at this location.|QID|296|M|33.17,51.40|
 C Uncovering the Past|N|Get the rest of the fragments needed for the quest.|QID|299|M|33.20,46.70|
 T Ormer's Revenge (Part 3)|QID|296|N|(38.14, 51.1)|M|37,43.6|
-T Uncovering the Past|N|M|38.83,52.4|
+T Uncovering the Past|M|38.83,52.4|
 C War Banners|N|Kill the orc mobs here until you get the items for this quest. (42.4,40.1)(44.50, 43.7)|QID|464|M|34,41|
 C Apprentice's Duties|N|Kill Giant Wetlands Crocolisks and Fen Creepers until you finish this quest. Fen Creepers can be found in the shallow waters and are stealthed, so you need to get close to see them. Check every pond on the way. (25.5,21.3)(18.1,25.8)|QID|471|M|28.3,19.7|
 C Blisters on The Land|N|Kill Fen Creepers until you finish this quest. They can be found in the shallow waters of these marshes. They are stealthed so you need to get close to see them. (23.5,30.00)(25.83,31.83)(27.6,37.2)|QID|275|M|20.25,32.1|
