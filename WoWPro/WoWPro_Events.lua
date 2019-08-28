@@ -384,9 +384,12 @@ WoWPro.RegisterEventHandler("ADDON_ACTION_FORBIDDEN", function (event,...)
 WoWPro.RegisterEventHandler("ADDON_ACTION_BLOCKED", WoWPro.ADDON_ACTION_FORBIDDEN)
 WoWPro.RegisterEventHandler("SAVED_VARIABLES_TOO_LARGE", function (event) return; end)
 WoWPro.RegisterEventHandler("ADDON_LOADED", function (event) return; end)
-WoWPro.RegisterEventHandler("SPELLS_CHANGED", function (event) return; end)
 WoWPro.RegisterEventHandler("PLAYER_LOGIN", function (event) return; end)
 WoWPro.RegisterEventHandler("VARIABLES_LOADED", function (event) return; end)
+
+WoWPro.RegisterEventHandler("SPELLS_CHANGED", function (event)
+    WoWPro:UpdateGuide(event)
+    end)
 
 -- Unlocking event processing after things get settled --
 WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function (event,...)
