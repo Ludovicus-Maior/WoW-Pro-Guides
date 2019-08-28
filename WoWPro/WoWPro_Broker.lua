@@ -1492,31 +1492,38 @@ function WoWPro.NextStep(k,i)
             if WoWPro.action[k] ~= "L" then
                 if level > 0 then
                     -- Positive levels then bound the level to being >
-                    if level > UnitLevel("player") then
+                    if (level > UnitLevel("player")) and not offset then
                         skip = true
                         WoWPro:dbp("Skip %s [%s] because its level %d is too high.",WoWPro.action[k],WoWPro.step[k],level)
                         WoWPro.why[k] = "NextStep(): Skipping step because player level not high enough."
                         break
                     end
                     -- If level == UnitLevel(), then see if there is an offset to look at
-                    if level == UnitLevel("player") and offset then
-                        if offset < 0 then
-                            local togo = UnitXPMax("player") - UnitXP("player")
-                            if togo <= -offset then
-                                skip = true
-                                WoWPro:dbp("Skip %s [%s] because %d <= %d XP (%s)).",WoWPro.action[k],WoWPro.step[k], togo, offset, WoWPro.level[k])
-                                WoWPro.CompleteStep(k, "NextStep():  Completed LVL step because " .. WoWPro.level[k] .. " was met.")
-                                break
+                    if offset then
+                        if level == UnitLevel("player") then
+                            if offset < 0 then
+                                local togo = UnitXPMax("player") - UnitXP("player")
+                                if togo <= -offset then
+                                    skip = true
+                                    WoWPro:dbp("Skip %s [%s] because %d <= %d XP (%s)).",WoWPro.action[k],WoWPro.step[k], togo, offset, WoWPro.level[k])
+                                    WoWPro.CompleteStep(k, "NextStep():  Completed LVL step because " .. WoWPro.level[k] .. " was met.")
+                                    break
+                                end
                             end
-                        end
-                        if offset > 0 then
-                            local done = UnitXP("player")
-                            if done >= offset then
-                                skip = true
-                                WoWPro:dbp("Skip %s [%s] because %d >= %d XP (%s)).",WoWPro.action[k],WoWPro.step[k], done, offset, WoWPro.level[k])
-                                WoWPro.CompleteStep(k, "NextStep():  Completed LVL step because " .. WoWPro.level[k] .. " was met.")
-                                break
+                            if offset > 0 then
+                                local done = UnitXP("player")
+                                if done >= offset then
+                                    skip = true
+                                    WoWPro:dbp("Skip %s [%s] because %d >= %d XP (%s)).",WoWPro.action[k],WoWPro.step[k], done, offset, WoWPro.level[k])
+                                    WoWPro.CompleteStep(k, "NextStep():  Completed LVL step because " .. WoWPro.level[k] .. " was met.")
+                                    break
+                                end
                             end
+                        elseif level < UnitLevel("player") then
+                            skip = true
+                            WoWPro:dbp("Skip %s [%s] because %d < %d Level (%s)).",WoWPro.action[k],WoWPro.step[k], level, UnitLevel("player"), WoWPro.level[k])
+                            WoWPro.CompleteStep(k, "NextStep():  Completed LVL step because " .. WoWPro.level[k] .. " was met.")
+                            break
                         end
                     end
                 else
@@ -1532,75 +1539,61 @@ function WoWPro.NextStep(k,i)
         end
 
         -- WoWPro:dbp("Checkpoint Beth for step %d",k)
-
+         
 		-- Skipping profession quests if their requirements aren't met --
-		if WoWPro.prof[k] and not skip then
-			local prof, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
-			if proflvl == '*' then proflvl = 801 end -- Set to the maximum level obtainable in the expansion plus 1
-			proflvl = tonumber(proflvl) or 1
-			profmaxlvl = tonumber(profmaxlvl) or 0
-			profmaxskill = tonumber(profmaxskill) or 0
-			if WoWProCharDB.ProfessionalfOffset and WoWPro.Guides[GID].BuyersGuide then
-                proflvl = proflvl - WoWProCharDB.ProfessionalfOffset
-                if 	proflvl < 1 then
-                    proflvl = 1
+        if WoWPro.prof[k] and not skip then
+            local profName, profID, proflvl, profmaxlvl, profmaxskill = string.split(";", WoWPro.prof[k])
+            profID = tonumber(profID) or 0
+            if proflvl == '*' then
+                -- Set to the maximum level obtainable in the expansion plus 1
+                proflvl = 801
+            end
+            proflvl = tonumber(proflvl) or 1
+            profmaxlvl = tonumber(profmaxlvl) or 0
+            profmaxskill = tonumber(profmaxskill) or 0
+            if type(WoWProCharDB.Tradeskills) == 'table' and profID > 0 then
+                skip = true -- Profession steps skipped by default
+                local tradeskill = WoWProCharDB.Tradeskills[profID]
+                if tradeskill then
+                    if WoWPro.action[k] == 'M' and tradeskill.skillMod then
+                        proflvl = math.max(proflvl - tradeskill.skillMod, 1)
+                        profmaxlvl = math.max(profmaxlvl - tradeskill.skillMod, 1)
+                    end
+                    if (profmaxlvl == 0) and (tradeskill.skillLvl >= proflvl) then
+                        WoWPro.why[k] = "NextStep(): profmaxlvl == 0 and skillRank >= proflvl"
+                        WoWPro:dbp(WoWPro.why[k])
+                        skip = false
+                    end
+                    if (profmaxlvl > 0) and (tradeskill.skillLvl < proflvl) then
+                        WoWPro.why[k] = "NextStep(): profmaxlvl > 0 and skillRank < proflvl"
+                        WoWPro:dbp(WoWPro.why[k])
+                        skip = false
+                    end
+                    if (profmaxskill > 0) and (profmaxskill < tradeskill.skillMax) then
+                        WoWPro.why[k] = "NextStep(): profmaxlvl > 0 and profmaxskill < maxskill"
+                        WoWPro:dbp(WoWPro.why[k])
+                        skip = true
+                    end
+                    WoWPro:dbp("prof skip = %s", tostring(skip))
+
+                    -- zero proflvl special unskip logic
+                elseif proflvl == 0 then
+                    WoWPro:dbp("Prof unskip qid %s for no %s for provlvl == 0", WoWPro.QID[k] or "unknown", profName)
+                    skip = false
+
+                    -- If they do not have the profession, mark the step and quest as skipped
+                elseif WoWPro.action[k] == "A" then
+                    WoWPro.why[k] = "NextStep(): Permanently skipping step because player does not have the profession."
+                    WoWProCharDB.Guide[GID].skipped[k] = true
+                    WoWPro:SetQIDsInTable(QID, WoWProCharDB.skippedQIDs)
+                    WoWPro:dbp("Prof permaskip qid %s for no %s", WoWPro.QID[k], prof)
+                    skip = true
+                    break
                 end
-			end
-			if type(prof) == "string" and type(proflvl) == "number" and not WoWPro.CLASSIC then
-				local hasProf = false
-				skip = true --Profession steps skipped by default
-				local profs = {}
-				profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
-				for p=1,6 do
-					if profs[p] then
-						local skillName, texture, skillRank, maxskill, numSpells, spellOffset, skillnum, rankModifier, specializationIndex, specializationOffset, skillLineName = GetProfessionInfo(profs[p])
--- 02003 ~ 082959 WoWPro: Prof prof=Tailoring,197 level=75, max_level=0, max_skill=0
--- 02004 ~ 082959 WoWPro: GetProfessionInfo() = Tailoring, skillRank=1, maxskill=100, skillnum=197
-						if (tonumber(skillnum) == tonumber(profnum)) then
-							hasProf = true
-							if WoWPro.action[k] == "M" then
-							    proflvl = math.max(proflvl-rankModifier,1)
-							    profmaxlvl = math.max(profmaxlvl-rankModifier,1)
-							end
-							WoWPro:dbp("Prof prof=%s,%d proflvl=%d, profmaxlvl=%d, profmaxskill=%d",  prof, profnum, proflvl, profmaxlvl, profmaxskill)
-							WoWPro:dbp("GetProfessionInfo() = %s, skillRank=%d, maxskill=%d, skillnum=%d", skillName, skillRank, maxskill, skillnum)
-							if (profmaxlvl == 0) and (skillRank >= proflvl) then
-							    WoWPro.why[k] = "NextStep(): profmaxlvl == 0 and skillRank >= proflvl"
-							    WoWPro:dbp( WoWPro.why[k])
-							    skip = false
-							end
-							if (profmaxlvl > 0) and (skillRank < profmaxlvl) then
-							    WoWPro.why[k] = "NextStep(): profmaxlvl > 0 and skillRank < profmaxlvl"
-							    WoWPro:dbp( WoWPro.why[k])
-							    skip = false
-							end
-							if (profmaxskill > 0) and (profmaxskill < maxskill) then
-							    WoWPro.why[k] = "NextStep(): profmaxlvl > 0 and profmaxskill < maxskill"
-							    WoWPro:dbp( WoWPro.why[k])
-							    skip = true
-							end
-							WoWPro:dbp("prof skip = %s", tostring(skip))
-						end
-					end
-				end
-				-- Zero proflvl special skip logic
-				if (hasProf == false) and (proflvl == 0) then
-				    WoWPro:dbp("Prof unskip qid %s for no %s for proflvl == 0",WoWPro.QID[k],prof)
-				    skip = false
-				end
-				if WoWPro.action[k] == "A" and not hasProf then
-				    -- If they do not have the profession, mark the step and quest as skipped
-				    WoWPro.why[k] = "NextStep(): Permanently skipping step because player does not have a profession."
-				    WoWProCharDB.Guide[GID].skipped[k] = true
-				    WoWPro:SetQIDsInTable(QID,WoWProCharDB.skippedQIDs)
-				    WoWPro:dbp("Prof permaskip qid %s for no %s",WoWPro.QID[k],prof)
-				    skip = true
-				    break
-				end
-			else
-			    WoWPro:Error("Warning: malformed profession tag [%s] at step %d",WoWPro.prof[k],k)
-			end
-		end
+            else
+                WoWPro:Error("Warning: malformed profession tag [%s] at step %d", WoWPro.prof[k], k)
+            end
+        end
 
 		-- Skipping reputation quests if their requirements are met --
 		if WoWPro.rep and WoWPro.rep[k] and not skip then

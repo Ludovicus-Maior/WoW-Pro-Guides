@@ -14,15 +14,15 @@ L Kill Wolves and Troggs|QID|179|LVL|2|M|29.80,74.30|N|Kill these until you are 
 C Dwarven Outfitters|QID|179|M|29.80,74.30|N|Go kill Ragged Young Wolves until you get 8 Tough Wolf Meat.|
 T Dwarven Outfitters|QID|179|M|29.92,71.21|
 
-A Encrypted Rune|QID|3109|C|Rogue|R|Dwarf|M|29.92,71.21|
-A Etched Rune|QID|3108|C|Hunter|R|Dwarf|M|29.92,71.21|
-A Hallowed Rune|QID|3110|C|Priest|R|Dwarf|M|29.92,71.21|
-A Simple Rune|QID|3106|C|Warrior|R|Dwarf|M|29.92,71.21|
-A Consecrated Rune|QID|3107|C|Paladin|R|Dwarf|M|29.92,71.21|
-A Tainted Memorandum|QID|3115|C|Warlock|R|Gnome|M|29.92,71.21|
-A Glyphic Memorandum|QID|3114|C|Mage|R|Gnome|M|29.92,71.21|
-A Encrypted Memorandum|QID|3113|C|Rogue|R|Gnome|M|29.92,71.21|
-A Simple Memorandum|QID|3112|C|Warrior|R|Gnome|M|29.92,71.21|
+A Encrypted Rune|QID|3109|C|Rogue|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm.|
+A Etched Rune|QID|3108|C|Hunter|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm.|
+A Hallowed Rune|QID|3110|C|Priest|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm.|
+A Simple Rune|QID|3106|C|Warrior|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm.|
+A Consecrated Rune|QID|3107|C|Paladin|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm.|
+A Tainted Memorandum|QID|3115|C|Warlock|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm.|
+A Glyphic Memorandum|QID|3114|C|Mage|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm.|
+A Encrypted Memorandum|QID|3113|C|Rogue|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm.|
+A Simple Memorandum|QID|3112|C|Warrior|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm.|
 
 A Coldridge Valley Mail Delivery|QID|233|M|29.92,71.21|
 A A New Threat|QID|170|M|29.71,71.25|
@@ -30,17 +30,17 @@ r Sell Junk|QID|233|M|30.08,71.56|N|Sell your junk. Right-click this step when d
 C A New Threat|QID|170|M|31.30,76.10|N|The troggs are to the south.|
 T A New Threat|QID|170|M|29.71,71.25|
 
-T Encrypted Rune|QID|3109|C|Rogue|R|Dwarf|
-T Etched Rune|QID|3108|C|Hunter|R|Dwarf|
-T Hallowed Rune|QID|3110|C|Priest|R|Dwarf|
-T Simple Rune|QID|3106|C|Warrior|R|Dwarf|
-T Consecrated Rune|QID|3107|C|Paladin|R|Dwarf|
-T Tainted Memorandum|QID|3115|C|Warlock|R|Gnome|M|28.65,66.14|
-T Glyphic Memorandum|QID|3114|C|Mage|R|Gnome|
-T Encrypted Memorandum|QID|3113|C|Rogue|R|Gnome|
-T Simple Memorandum|QID|3112|C|Warrior|R|Gnome|
+T Encrypted Rune|QID|3109|C|Rogue|R|Dwarf|M|28.37,67.51|N|To Solm Hargrin.|
+T Etched Rune|QID|3108|C|Hunter|R|Dwarf|M|29.18,67.45|N|To Thorgas Grimson.|
+T Hallowed Rune|QID|3110|C|Priest|R|Dwarf|M|28.60,66.39|N|To Branstock Khalder.|
+T Simple Rune|QID|3106|C|Warrior|R|Dwarf|M|28.83,67.24|N|To Thran Khorman.|
+T Consecrated Rune|QID|3107|C|Paladin|R|Dwarf|M|28.84,68.32|N|To Bromos Grummner.|
+T Tainted Memorandum|QID|3115|C|Warlock|R|Gnome|M|28.65,66.15|M|28.4,67.6|N|To Alamar Grimm.|
+T Glyphic Memorandum|QID|3114|C|Mage|R|Gnome|M|28.71,66.36|N|To Marryk Nurribit.|
+T Encrypted Memorandum|QID|3113|C|Rogue|R|Gnome|M|28.37,67.51|N|To Solm Hargrin.|
+T Simple Memorandum|QID|3112|C|Warrior|R|Gnome|M|28.83,67.24|N|To Thran Khorman.|
 N Train|N|Train while at your trainer. Close this step when done.|
-A A Refugee's Quandary|QID|3361|M|28.49,67.74|
+A A Refugee's Quandary|QID|3361|M|28.54,67.65|N|From Felix Whindlebolt.|
 
 T Coldridge Valley Mail Delivery|QID|233|M|22.60,71.43|N|Follow the road west.|
 A Coldridge Valley Mail Delivery|QID|234|M|22.60,71.43|

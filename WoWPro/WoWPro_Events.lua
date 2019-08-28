@@ -384,9 +384,12 @@ WoWPro.RegisterEventHandler("ADDON_ACTION_FORBIDDEN", function (event,...)
 WoWPro.RegisterEventHandler("ADDON_ACTION_BLOCKED", WoWPro.ADDON_ACTION_FORBIDDEN)
 WoWPro.RegisterEventHandler("SAVED_VARIABLES_TOO_LARGE", function (event) return; end)
 WoWPro.RegisterEventHandler("ADDON_LOADED", function (event) return; end)
-WoWPro.RegisterEventHandler("SPELLS_CHANGED", function (event) return; end)
 WoWPro.RegisterEventHandler("PLAYER_LOGIN", function (event) return; end)
 WoWPro.RegisterEventHandler("VARIABLES_LOADED", function (event) return; end)
+
+WoWPro.RegisterEventHandler("SPELLS_CHANGED", function (event)
+    WoWPro:UpdateGuide(event)
+    end)
 
 -- Unlocking event processing after things get settled --
 WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function (event,...)
@@ -401,6 +404,7 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function (event,...)
 		WoWPro.Titlebar:Show()
 		WoWPro.Hidden = nil
 	end
+	WoWPro:UpdateTradeSkills()
     end)
 
 -- Locking event processong till after things get settled --
@@ -828,6 +832,12 @@ WoWPro.RegisterEventHandler("QUEST_ACCEPTED", function (event,...)
     end
     end)
 
+-- scan skill lines when they change
+WoWPro.RegisterEventHandler("SKILL_LINES_CHANGED", function(event, ...)
+	WoWPro.UpdateTradeSkills(...)
+end)
+
+-- register newly learned recipes
 WoWPro.RegisterEventHandler("NEW_RECIPE_LEARNED", function (event,...)
     WoWPro.LearnRecipe(...)
     end)

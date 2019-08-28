@@ -67,54 +67,44 @@ A Fields of Grief|QID|365|M|40.91,54.17|N|Further east as the road forks you wil
 C Fields of Grief|QID|365|M|37.2,52.2|N|Gather 10 Tirisfal Pumpkins in the fields while killing Tirisfal Farmers and Tirisfal Farmhands until you hit level 6. NOTE: This can get tough but as long as you avoid groups and pull single mobs you will be okay. Watch out for Farmer Solliden who's a rare level 8 mob.|
 
 A Gordo's Task|QID|5481|M|42.87,54.30;58.03,51.70|CS|N|Follow the road east to Brill. Along the way you should encounter a patrolling abonimation named Gordo. Just watch out for a yellow question mark on your minimap. Take his quest.|
-R Brill|QID|404|M|58.03,51.70|N|Just keep following the road east to Brill while gathering Gloom Weed.|
+R Brill|AVAILABLE|404|M|58.03,51.70|N|Just keep following the road east to Brill while gathering Gloom Weed.|
+N Bowen Brisboise|ACTIVE|365|M|52.59,55.51|N|The Tailoring Trainer|
 
 A A Putrid Task|QID|404|M|58.19,51.44|N|From Deathguard Dillinger outside the cemetery.|
 T Fields of Grief|QID|365|M|59.44,52.39|N|Enter the first house to the right and turn in the quest at Apothecary Johaan.|
-A Fields of Grief|QID|407|M|59.4,52.4|
-A A New Plague|QID|367|M|59.4,52.4|
+A Fields of Grief|QID|407|M|59.4,52.4|N|From Apothecary Johaan.|
+A A New Plague|QID|367|M|59.4,52.4|N|From Apothecary Johaan.|
+N Carolai Anise|ACTIVE|383|M|59.43,52.20|N|Journeyman Alchemist, Trainer.|
+N Faruza|ACTIVE|383|M|59.8,52.0|N|Apprentice Herbalist, Trainer.  Near the mount vendor.|
 T Vital Intelligence|QID|383|M|60.57,51.77|N|At Executor Zygand.|
 A At War With The Scarlet Crusade|QID|427|M|60.6,51.8|N|From Executor Zygand.|
 A Wanted: Maggot Eye|QID|398|M|60.73,51.51|N|From the WANTED poster behind Executor Zygand.|
 A Graverobbers|QID|358|M|61.26,50.84|N|From Magistrate Sevren  in the town hall.|
 
-N Rand Rhobart|ACTIVE|407|M|65.6,60.0|N|The Skinning Trainer|
-N Bowen Brisboise|ACTIVE|407|M|52.6,55.6|N|The Tailoring Trainer|
-N Nurse Neela|ACTIVE|407|M|61.8,52.8|N|First Aid Trainer|
-N Cain Firesong|ACTIVE|407|M|61.8,52.4|N|Mage Trainer|
-N Dark Cleric Beryl|ACTIVE|407|M|61.6,52.2|N|Priest Trainer|
-N Rupert Boch|ACTIVE|407|M|61.6,52.4|N|Warlock Trainer|
-N Gina Lang|ACTIVE|407|M|61.6,52.6|N|Demon Trainer|
-N Marion Call|ACTIVE|407|M|61.6,52.0|N|Rogue Trainer|
-N Austil de Mon|ACTIVE|407|M|61.8,52.4|N|Warrior Trainer|
-N Vance Undergloom |ACTIVE|407|M|61.6,51.6|N|Journeyman Enchanter, Trainer|
-N Carolai Anise|ACTIVE|407|M|59.4,52.2|N|Journeyman Alchemist|
-N Faruza|ACTIVE|407|M|59.8,52.0|N|Apprentice Herbalist, Trainer.  Near the mount vendor.|
-
-
-N Martine Tramblay|ACTIVE|407|M|65.8,59.6|N|Fishing Supplies, including fishing rods.|
-N Clyde Kellen|ACTIVE|407|M|67.2,51.0|N|Fisherman, Trainer.  Waaay out by the lake.|
-N James Van Brunt|ACTIVE|407|61.0,29.8|Z|Undercity|N|Expert Blacksmith, in Undercity's War Quarter.|
-N Eunice Burch|ACTIVE|407|63.0,44.0|Z|Undercity|N|Cooking Trainer, Western central middle tier in Undercity.|
-N Franklin Lloyd|ACTIVE|407|76.2,75.4|Z|Undercity|N|Expert Engineer, Trainer, in Southeastern Undercity.|
-N Armand Cromwell|ACTIVE|407|M|80.8,31.2|Z|Undercity|N|Fishing Trainer, in Northestern Undercity.|
-N Brom Killian|ACTIVE|407|M|56.0,37.0|Z|Undercity|N|Mining Trainer. War Quarter, inner cloister.|
-
+N Nurse Neela|ACTIVE|8|M|61.8,52.8|N|First Aid Trainer, downstairs in the Tavern.|
+N Cain Firesong|ACTIVE|8|M|61.96,52.46|C|Mage|N|Mage Trainer, upstairs in the Tavern.|
+; N Dark Cleric Beryl|ACTIVE|8|M|61.58,52.20|C|Priest|N|Priest Trainer, upstairs in the Tavern.|
+N Rupert Boch|ACTIVE|8|M|61.59,52.40|C|Warlock|N|Warlock Trainer, upstairs in the Tavern.|
+N Gina Lang|ACTIVE|8|M|61.55,52.61|C|Warlock|N|Demon Trainer, upstairs in the Tavern.|
+N Marion Call|ACTIVE|8|M|61.75,52.00|C|Rogue|N|Rogue Trainer, upstairs in the Tavern.|
+N Austil de Mon|ACTIVE|8|M|61.85,52.54|C|Warrior|N|Warrior Trainer, downstairs in the Tavern.|
+N Vance Undergloom |ACTIVE|8|M|61.77,51.56|N|Journeyman Enchanter, Trainer, upstairs in the Tavern.|
 
 T A Rogue's Deal|QID|8|M|61.70,52.04|N|At Innkeeper Renee  in the inn.|
 h Gallows' End Tavern|ACTIVE|407|N|Set your hearthstone to Brill.|
 T Fields of Grief|QID|407|M|61.97,51.28|N|At the basement.|
 T In Favor of Darkness|QID|5651|C|Priest|M|61.57,52.19|N|At Dark Cleric Beryl at the top floor of the inn.|
-A Garments of Darkness|QID|5650|C|Priest|
+A Garments of Darkness|QID|5650|C|Priest|N|From Dark Cleric Beryl|
 
 C Garments of Darkness|QID|5650|C|Priest|M|59.18,46.49|N|Go north. Heal Deathguard Kel and give Power Word: Fortitude to him.|
-N Things to do|QID|367|N|From now on kill Decrepit Darkhounds and Cursed Darkhounds on your way. NOTE: Don't forget to pick up the remaining Gloom Weed if you haven't already. Close this step once finished.|
+C Gloom Weed|QID|5481|QO|1|N|Continue to gather Gloom Weed|S!US|
+K Darkhounds|QID|367|QO|1|N|Kill Decrepit Darkhounds and Cursed Darkhounds|S!US|
 C A Putrid Task|QID|404|M|53.42,55.96|N|Go south-west to Cold Hearth Mannor  while killing Ravaged Corpses and Rotting Deads for Putrid Claws.|
-A A Rogue's Deal|QID|590|M|38,56|N|Follow the road west to Calvin Montague. Prepare for a fight and AFTER THAT accept his quest. NOTE: This will trigger you for PVP. Don't forget to kill Darkhounds on your way.|
-T A Rogue's Deal|QID|590|M|38.2,56.8|N|Just wait for him to finish eating and turn in the quest.|
+A A Rogue's Deal|QID|590|M|38.26,56.79|N|Follow the road west to Deathknell to Calvin Montague. Prepare for a fight and AFTER THAT accept his quest. NOTE: This will trigger you for PVP. Don't forget to kill Darkhounds on your way.|
+T A Rogue's Deal|QID|590|M|38.26,56.79|N|Just wait for him to finish eating and turn in the quest.|
 C A New Plague|QID|367|M|48.54,60.10|N|Kill Darkhounds around  to collect the remaining Darkhound Blood.|
 C At War With The Scarlet Crusade|QID|427|M|37.59,48.09|N|Go north-west to Solliden Farmstead  and go west while killing 10 Scarlet Warriors.|
-C Gordo's Task|QID|5481|M|52.9,52.1|
+
 
 T Garments of Darkness|QID|5650|C|Priest|M|61.57,52.19|N|At Dark Cleric Beryl at the top floor of the inn.|
 T A New Plague|QID|367|M|59.44,52.39|N|At Apothecary Johaan.|
@@ -132,9 +122,10 @@ C At War With The Scarlet Crusade|QID|370|M|51.21,67.76|N|Kill your way to Capta
 K Duskbats|QID|375|M|56.00,60.00|QO|Duskbat Pelt: 5/5|N|Kill Duskbats around the area southwest of Brill  until you have 5 Duskbat Pelts.|
 
 T At War With The Scarlet Crusade|QID|370|M|60.57,51.77|N|Executor Zygand in Brill.|
-A At War With The Scarlet Crusade (Part 3)|QID|371|M|60.6,51.8|
+A At War With The Scarlet Crusade|QID|371|M|60.6,51.8|
 N Coarse Thread|QID|375|M|61.02,52.37|L|2320|N|From Abigail Shiel in front of the wagon.|
 T The Chill of Death|QID|375|M|61.89,52.71|N|At Gretchen Dedmar at the top floor of the inn.|
+C Gordo's Task|QID|5481|M|52.9,52.1|N|Finish gathering Gloom Weed|
 T Gordo's Task|QID|5481|M|57.67,48.96|N|North at Junior Apothecary Holland in the cemetary around.|
 A Doom Weed|QID|5482|M|57.6,48.7|
 
@@ -165,7 +156,7 @@ A Forsaken Duties|QID|359|M|61.3,50.8|
 A The Prodigal Lich|QID|405|M|61.3,50.8|
 T The Mills Overrun|QID|426|M|58.20,51.45|N|At Deathguard Dillinger.|
 T A New Plague|QID|368|M|59.44,52.39|N|At Apothecary Johaan.|
-A A New Plague (Part 3)|QID|369|M|59.4,52.4|
+A A New Plague|QID|369|M|59.4,52.4|
 N READ THIS|QID|372|N|NOTE: Don't sell the Slumber Sand you get from turning in A New Plague. This will come in handy later. Close this step once finished reading.|
 T Wanted: Maggot Eye|QID|398|M|60.57,51.77|N|At Executor Zygand.|
 
@@ -184,7 +175,14 @@ T Speak with Colemand|QID|1820|C|Warrior|N|In the inn.|
 A Agamand Heirlooms|QID|1821|C|Warrior|
 
 R Undercity|QID|357|M|61.86,65.04|N|Go south to Undercity.|
-N Things to do|QID|405|N|This is a good time to pick up a profession. Pick up Cooking even if you don't want to skill it up, it unlocks cooking quests which are used in Jame's guides. Ask a guard for directions to the profession trainers. Since this is the first time we're in a city, take your time to visit the AH, train weapon skills and put stuff you don't need in the bank. Close this step once finished.|
+
+N Things to do|ACTIVE|405|N|This is a good time to pick up a profession. Pick up Cooking even if you don't want to skill it up, it unlocks cooking quests which are used in Jame's guides. Ask a guard for directions to the profession trainers. Since this is the first time we're in a city, take your time to visit the AH, train weapon skills and put stuff you don't need in the bank. Close this step once finished.|
+N James Van Brunt|ACTIVE|405|M|61.0,29.8|Z|Undercity|N|Expert Blacksmith, in Undercity's War Quarter.|
+N Eunice Burch|ACTIVE|405|M|63.0,44.0|Z|Undercity|N|Cooking Trainer, Western central middle tier in Undercity.|
+N Franklin Lloyd|ACTIVE|405|M|76.2,75.4|Z|Undercity|N|Expert Engineer, Trainer, in Southeastern Undercity.|
+N Armand Cromwell|ACTIVE|405|M|80.8,31.2|Z|Undercity|N|Fishing Trainer, in Northestern Undercity.|
+N Brom Killian|ACTIVE|405|M|56.0,37.0|Z|Undercity|N|Mining Trainer. War Quarter, inner cloister.|
+
 T The Prodigal Lich|QID|405|M|84.05,17.37|Z|Undercity|N|At Bethor Iceshard  in the Magic Quarter.|
 A The Lich's Identity|QID|357|M|84.0,18.0|
 T Speak with Anastasia|QID|1881|C|Mage|M|85.13,10.07|Z|Undercity|N|At Anastasia Hartwell in the Magic Quarter.|
@@ -201,11 +199,11 @@ F Undercity|QID|1898|C|Rogue|
 T The Deathstalkers|QID|1886|C|Rogue|M|83.51,69.10|Z|Undercity|N|Return to Mennet Carkad in the Rogues Quarter.|
 A The Deathstalkers|QID|1898|C|Rogue|Z|Undercity|
 T The Deathstalkers|QID|1898|C|Rogue|M|54.82,76.30|Z|Undercity|N|At Andron Grant in the Apothecarium.|
-A The Deathstalkers (Part 3)|QID|1899|C|Rogue|Z|Undercity|
+A The Deathstalkers|QID|1899|C|Rogue|Z|Undercity|
 N Andron's Ledger|QID|1899|C|Rogue|M|55.42,76.74|Z|Undercity|L|7294|N|Take the book from the bookcase behind him|
-T The Deathstalkers (Part 3)|QID|1899|C|Rogue|M|83.51,69.10|Z|Undercity|N|Back at Mennet Carkad.|
-A The Deathstalkers (Part 4)|QID|1978|C|Rogue|Z|Undercity|
-T The Deathstalkers (Part 4)|QID|1978|C|Rogue|M|56.24,92.13|Z|Undercity|N|At Varimathras in the Royal Chamber.|
+T The Deathstalkers|QID|1899|C|Rogue|M|83.51,69.10|Z|Undercity|N|Back at Mennet Carkad.|
+A The Deathstalkers|QID|1978|C|Rogue|Z|Undercity|
+T The Deathstalkers|QID|1978|C|Rogue|M|56.24,92.13|Z|Undercity|N|At Varimathras in the Royal Chamber.|
 
 C Creature of the Void|QID|1473|C|Warlock|M|53.01,65.76|N|Leave Undercity through the Sewers. You'll end up at the Scarlet tower we were at before. Fight your way into the tower where you'll find Perrine's Chest. Loot Egalin's Grimoire.|
 T Creature of the Void|QID|1473|C|Warlock|M|85.00,26.00|Z|Undercity|N|Back in Undercity at Carendin Halgar.|
@@ -216,22 +214,25 @@ T The Binding|QID|1471|C|Warlock|M|85.1,26.0|
 T Forsaken Duties|QID|359|M|65.48,60.24|N|Leave the Undercity. Follow the road north-east to Deathguard Linnea.|
 A Return to the Magistrate|QID|360|M|65.6,60.3|
 A Rear Guard Patrol|QID|356|M|65.6,60.3|
+N Rand Rhobart|ACTIVE|356|M|65.6,60.0|N|The Skinning Trainer|
+N Martine Tramblay|ACTIVE|356|M|65.8,59.6|N|Fishing Supplies, including fishing rods.|
+N Clyde Kellen|ACTIVE|356|M|67.2,51.0|N|Fisherman, Trainer.  Waaay out by the lake.|
 
 C Rear Guard Patrol|QID|356|M|74.03,60.13|N|Follow the road east until you hit Balnir Farmstead. NOTE: Watch out for Felicient's Shade. It's a level 12 rare ghost roaming the fields.|
 C Balnir Farmstead|QID|1882|C|Mage|M|77.47,61.44|N|Loot the Balnir Snapdragons.|
-C At War With The Scarlet Crusade (Part 3)|QID|371|M|79.20,54.55|N|Go north to the Crusader Outpost. NOTE: Captain Vachon is level 11 and can be difficult for some classes. Especially since he has an add who will heal him. Now is a good time to use your Slumber Sand. Put it on your action bar and use it to crowd control the Friar while you kill Captain Vachon. You can either run away from the Friar or kill him when the effect runs off.|
+C At War With The Scarlet Crusade|QID|371|M|79.20,54.55|N|Go north to the Crusader Outpost. NOTE: Captain Vachon is level 11 and can be difficult for some classes. Especially since he has an add who will heal him. Now is a good time to use your Slumber Sand. Put it on your action bar and use it to crowd control the Friar while you kill Captain Vachon. You can either run away from the Friar or kill him when the effect runs off.|
 C Proof of Demise|QID|374|M|53.1,65.8|
-C A New Plague (Part 3)|QID|369|M|82.52,53.65|N|To the north. If you're a Miner, take your time to search the cliff-sides for ore while you grind on the spiders.|
+C A New Plague|QID|369|M|82.52,53.65|N|To the north. If you're a Miner, take your time to search the cliff-sides for ore while you grind on the spiders.|
 
 C The Lich's Identity|QID|357|M|69.47,42.90|N|Run to the isand in Brightwater LakeGrab and the Lich's Spellbook from the table.|
 
 T Proof of Demise|QID|374|M|60.93,51.98|N|At Deathguard Burgess.|
 T Return to the Magistrate|QID|360|M|61.26,50.84|N|At Magistrate Sevren in the town hall.|
-T At War With The Scarlet Crusade (Part 3)|QID|371|M|60.57,51.77|N|At Executor Zygand.|
-A At War With The Scarlet Crusade (Part 4)|QID|372|M|60.6,51.8|
-T A New Plague (Part 3)|QID|369|M|59.44,52.39|N|At Apothecary Johaan.|
-A A New Plague (Part 4)|QID|492|M|59.4,52.4|
-T A New Plague (Part 4)|QID|492|M|61.93,51.40|N|At the dwarf in the basement of the inn.|
+T At War With The Scarlet Crusade|QID|371|M|60.57,51.77|N|At Executor Zygand.|
+A At War With The Scarlet Crusade|QID|372|M|60.6,51.8|
+T A New Plague|QID|369|M|59.44,52.39|N|At Apothecary Johaan.|
+A A New Plague|QID|492|M|59.4,52.4|
+T A New Plague|QID|492|M|61.93,51.40|N|At the dwarf in the basement of the inn.|
 
 T The Lich's Identity|QID|357|M|84.05,17.37|Z|Undercity|N|At Bethor Iceshard in the Magic Quarter, Undercity.|
 A Return the Book|QID|366|M|84.1,17.5|
@@ -244,10 +245,10 @@ C Proving Allegiance|QID|409|M|66.63,44.87|N|Take a candle from the crate behind
 T Proving Allegiance|QID|409|M|68.17,41.94|N|Back at Gunther Arcanus.|
 A The Prodigal Lich Returns|QID|411|M|68.2,41.9|
 
-C At War With The Scarlet Crusade (Part 4)|QID|372|M|77.76,32.12|N|Go north-east to the Scarlet Crusade camp east of the lake. Captain Melrache has the two bodyguards next to him. If you have any Slumber Sand left, use it to crowd control one of them. Be careful here as the mobs respawn rather quickly.|
+C At War With The Scarlet Crusade|QID|372|M|77.76,32.12|N|Go north-east to the Scarlet Crusade camp east of the lake. Captain Melrache has the two bodyguards next to him. If you have any Slumber Sand left, use it to crowd control one of them. Be careful here as the mobs respawn rather quickly.|
 H Gallows' End Tavern|QID|361|U|6948|N|Hearthstone back to Brill.|
 
-T At War With The Scarlet Crusade (Part 4)|QID|372|M|60.57,51.77|N|At Executor Zygand.|
+T At War With The Scarlet Crusade|QID|372|M|60.57,51.77|N|At Executor Zygand.|
 
 C The Family Crypt|QID|408|M|52.25,27.18|N|Go to the north-eastern part of Agamand Mills and enter the crypt. You will find Captain Dargol on the bottom floor. NOTE: He's a level 13 melee badass surrounded by a couple of mobs. If you're careful, you should be able to kill all adds in the room without pulling him. Kill him and loot Dargol's Skull.|
 C Agamand Heirlooms|QID|1821|C|Warrior|N|You can find weapon racks everywhere in the crypt.|
