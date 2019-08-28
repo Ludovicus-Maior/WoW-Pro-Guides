@@ -5,21 +5,33 @@ local guide = WoWPro:RegisterGuide('ClassicDarkshore1220', 'Leveling', 'Darkshor
 WoWPro:GuideName(guide, 'Darkshore 12-20')
 WoWPro:GuideLevels(guide, 12, 20, 13)
 WoWPro:GuideSteps(guide, function() return [[
-R Portal to Rut'theran|QID|952|M|28.82,41.50|Z|Darnassus|CC|N|Walk into the portal down to Rut'theran.|
-F Auberdine|QID|952|M|58.40,94.01|Z|Teldrassil|N|At Vesprystus.|
-h Auberdine|QID|952|N|Just go down the ramp from the flight area.|
-A Buzzbox 827|QID|983|M|37,44.1|N|Wizbang Cranktoggle is on top floor of the Inn.|
-A Bashal'Aran (Part 1)|QID|954|M|37.4, 40.2|
-A Tools of the Highborne|QID|958|
-A Washed Ashore (Part 1)|QID|3524|M|36.6,45.6|
-A How Big a Threat? (Part 1)|QID|984|M|39.3, 43.5|
-A Plagued Lands|QID|2118|M|38.8,43.4|
-A The Red Crystal|QID|4811|M|37.7, 43.4|
-A For Love Eternal|QID|963|M|35.8, 43.7|
-C Washed Ashore (Part 1)|QID|3524|M|36,51|N|Kill Pygmy Tide Crawlers along the way. Clear the murlocs from the Beached Sea Creature and loot the Sea Creatures Bones from it.|
+R Rut'theran Village|QID|952|ACTIVE|983|M|28.82,41.50|Z|Darnassus|N|Walk into the portal down to Rut'theran.|
+F Auberdine|QID|952|ACTIVE|983|M|58.40,94.01|Z|Teldrassil|N|At Vesprystus.|
+A Washed Ashore (Part 1)|QID|3524|M|36.6,45.6|N|From Gwennyth Bly'Leggonde|
+h Auberdine|QID|952|ACTIVE|983|N|Just go down the ramp from the flight area.|
+
+
+A Buzzbox 827|QID|983|M|37,44.1|N|From Wizbang Cranktoggle, on the top floor of the Inn.|
+A For Love Eternal|QID|963|M|35.8, 43.7|N|From Cerellean Whiteclaw|
+A The Red Crystal|QID|4811|M|37.7, 43.4|N|From Sentinel Glynda Nal'Shea|
+A Bashal'Aran (Part 1)|QID|954|M|37.4, 40.2|N|From Thundris Windweaver|
+A Tools of the Highborne|QID|958|M|37.4, 40.2|N|From Thundris Windweaver|
+; Easy Strider Living (37.67,40.70) - cooking quest, for south of zone?
+
+A Plagued Lands|QID|2118|M|38.8,43.4|N|From Tharnariun Treetender|
+A How Big a Threat? (Part 1)|QID|984|M|39.3, 43.5|N|From Terenthis|
+
+A The Family and the Fishing Pole|QID|1141|N|From Gubber Blump, on the beach near the inn|
+N The Family and the Fishing Pole|QID|11141|ACTIVE|1141|S|CHAT|N|Not got the fishing skill? No problem. Speak to Gubber Blump, and he will teach you the skill.|
+B The Family and the Fishing Pole|QID|1141|ACTIVE|1141|S|N|Not got a fishing rod? No problem. Gubber Blump will sell you one for 23c.|
+C The Family and the Fishing Pole|QID|1141|NC|N|Just fish near him, even if you didn't level your fishing by now, it should be easy.|
+T The Family and the Fishing Pole|QID|1141|
+
+C Buzzbox 827|QID|983|M|36.0,50.0|S|N|Kill and loot the Pygmy Tide Crawlers for the Crawler Legs.|
+C Washed Ashore (Part 1)|QID|3524|M|36,51|N|Clear the murlocs from the Beached Sea Creature and loot the Sea Creatures Bones from it.|
 C How Big a Threat? (Part 1)|QID|984|M|40,53|
 C Plagued Lands|QID|2118|M|39,58|U|7586|
-C Buzzbox 827|QID|983|N|Kill Pygmy Tide Crawlers until you complete this quest.|
+C Buzzbox 827|QID|983|US|N|Kill and loot the Pygmy Tide Crawlers for the Crawler Legs.|
 T Buzzbox 827|QID|983|M|37,44.1|
 A Buzzbox 411|QID|1001|
 T Plagued Lands|QID|2118|M|38.8,43.4|
@@ -180,9 +192,6 @@ T Gyromast's Revenge|QID|2078|M|56.7, 13.5|
 C Mathystra Relics|QID|951|M|57,21|N|Kill Naga's and look for relics on the groung until complete.|
 C Fruit of the Sea|QID|1138|M|45.4,20.4|
 T Fruit of the Sea|QID|1138|M|36.1,44.9|
-A The Family and the Fishing Pole|QID|1141|
-C The Family and the Fishing Pole|QID|1141|N|Just fish near him, even if you didn't level your fishing by now, it should be easy.|
-T The Family and the Fishing Pole|QID|1141|
 N Level 19?|N|You should be well into level 19 by now.|
 
 T Mathystra Relics|QID|951|M|43.5,76.3|
