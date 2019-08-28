@@ -106,35 +106,38 @@ C A New Plague|QID|367|M|48.54,60.10|N|Kill Darkhounds around  to collect the re
 C At War With The Scarlet Crusade|QID|427|M|37.59,48.09|N|Go north-west to Solliden Farmstead  and go west while killing 10 Scarlet Warriors.|
 
 
-T Garments of Darkness|QID|5650|C|Priest|M|61.57,52.19|N|At Dark Cleric Beryl at the top floor of the inn.|
+
+T A Putrid Task|QID|404|M|58.20,51.45|N|To Deathguard Dillinger.|
+A The Mills Overrun|QID|426|M|58.2,51.4|N|From Deathguard Dillinger.|
 T A New Plague|QID|367|M|59.44,52.39|N|At Apothecary Johaan.|
-A A New Plague|QID|368|M|59.4,52.4|
-T A Putrid Task|QID|404|M|58.20,51.45|N|At Deathguard Dillinger.|
-A The Mills Overrun|QID|426|M|58.2,51.4|
+A A New Plague|QID|368|M|59.4,52.4|N|At Apothecary Johaan.|
 T At War With The Scarlet Crusade|QID|427|M|60.57,51.77|N|At Executor Zygand.|
 A At War With The Scarlet Crusade|QID|370|M|60.6,51.8|
+T Garments of Darkness|QID|5650|C|Priest|M|61.57,52.19|N|At Dark Cleric Beryl at the top floor of the inn.|
 A Proof of Demise|QID|374|M|60.93,51.98|N|From Deathguard Burgess.|
 A The Chill of Death|QID|375|M|61.89,52.71|N|From Gretchen Dedmar at the top floor of the inn.|
-A Deaths in the Family|QID|354|M|61.71,52.31|N|From Coleman Farthing in the inn.|
-A The Haunted Mills|QID|362|M|61.7,52.3|
+A Deaths in the Family|QID|354|M|61.71,52.31|N|From Coleman Farthing at the ground floor the inn.|
+A The Haunted Mills|QID|362|M|61.71,52.31|N|From Coleman Farthing at the ground floor the inn.|
 
 C At War With The Scarlet Crusade|QID|370|M|51.21,67.76|N|Kill your way to Captain Perrine inside the tower, then kill more scarlets until done|
-K Duskbats|QID|375|M|56.00,60.00|QO|Duskbat Pelt: 5/5|N|Kill Duskbats around the area southwest of Brill  until you have 5 Duskbat Pelts.|
+K Duskbats|QID|375|M|56.00,60.00|QO|1|N|Kill Duskbats around the area southwest of Brill  until you have 5 Duskbat Pelts.|
 
-T At War With The Scarlet Crusade|QID|370|M|60.57,51.77|N|Executor Zygand in Brill.|
-A At War With The Scarlet Crusade|QID|371|M|60.6,51.8|
-N Coarse Thread|QID|375|M|61.02,52.37|L|2320|N|From Abigail Shiel in front of the wagon.|
-T The Chill of Death|QID|375|M|61.89,52.71|N|At Gretchen Dedmar at the top floor of the inn.|
+T At War With The Scarlet Crusade|QID|370|M|60.57,51.77|N|To Executor Zygand in Brill.|
+A At War With The Scarlet Crusade|QID|371|M|60.6,51.8|N|From Executor Zygand in Brill.|
+B Coarse Thread|QID|375|M|61.02,52.37|L|2320|N|At Abigail Shiel in front of the wagon.|
+T The Chill of Death|QID|375|M|61.89,52.71|N|To Gretchen Dedmar at the top floor of the inn.|
 C Gordo's Task|QID|5481|M|52.9,52.1|N|Finish gathering Gloom Weed|
-T Gordo's Task|QID|5481|M|57.67,48.96|N|North at Junior Apothecary Holland in the cemetary around.|
-A Doom Weed|QID|5482|M|57.6,48.7|
+T Gordo's Task|QID|5481|M|57.67,48.96|N|North at Junior Apothecary Holland in the cemetary, around the fountain.|
+A Doom Weed|QID|5482|M|57.6,48.7|N|From Junior Apothecary Holland|
 
 K Maggot Eye|QID|398|M|58.68,30.74|L|3635|N|He's north at the end of a field. NOTE: Maggot Eye is level 10. Easiest way to kill him is to pull the mobs outside the house one at a time. If you're a caster: clear the field around the fence and pull him at max range. If you're melee: fight him inside the house. It shouldn't be too difficult at level 8. Loot Maggot Eye's Paw.|
 C A New Plague|QID|368|M|59.64,29.94|N|The murlocs are north at The North Coast at.|
-C Doom Weed|QID|5482|M|55.91,41.19|
-C Graverobbers|QID|358|M|58.3,35.3|
+C Doom Weed|QID|5482|M|55.91,41.19|N|Pick Doom weed around here.|
+K Mongrel|QID|358|QO|2|M|60.8,34.0|N|Kill the Rot Hide Mongrels.|
+K Graverobbers|QID|358|QO|1|M|56,40|N|Kill the Rot Hide Graverobbers.|
+K Embalming Ichor|QID|358|QO|3|M|56,40|N|Kill any Rot Hides for the Ichor.|
 
-T Doom Weed|QID|5482|M|57.67,48.96|N|At Junior Apothecary Holland around.|
+T Doom Weed|QID|5482|M|57.67,48.96|N|At Junior Apothecary Holland, around the fountain.|
 
 R Agamand Mills|QID|362|M|45.62,41.87|N|Run north-west to Agamand Mills|
 K Devlin Agamand|QID|362|M|47.41,41.71|L|2831|N|Kill him and loot Devlin's Remains. NOTE: Devin Agamand is a melee fighter despite his appearance.|
@@ -219,19 +222,19 @@ N Martine Tramblay|ACTIVE|356|M|65.8,59.6|N|Fishing Supplies, including fishing 
 N Clyde Kellen|ACTIVE|356|M|67.2,51.0|N|Fisherman, Trainer.  Waaay out by the lake.|
 
 C Rear Guard Patrol|QID|356|M|74.03,60.13|N|Follow the road east until you hit Balnir Farmstead. NOTE: Watch out for Felicient's Shade. It's a level 12 rare ghost roaming the fields.|
-C Balnir Farmstead|QID|1882|C|Mage|M|77.47,61.44|N|Loot the Balnir Snapdragons.|
+C Balnir Farmstead|QID|1882|C|Mage|M|77.43,61.77|N|Loot the Balnir Snapdragons.|
 C At War With The Scarlet Crusade|QID|371|M|79.20,54.55|N|Go north to the Crusader Outpost. NOTE: Captain Vachon is level 11 and can be difficult for some classes. Especially since he has an add who will heal him. Now is a good time to use your Slumber Sand. Put it on your action bar and use it to crowd control the Friar while you kill Captain Vachon. You can either run away from the Friar or kill him when the effect runs off.|
 C Proof of Demise|QID|374|M|53.1,65.8|
-C A New Plague|QID|369|M|82.52,53.65|N|To the north. If you're a Miner, take your time to search the cliff-sides for ore while you grind on the spiders.|
+K Vicious Night Web Spider|QID|369|M|82.52,53.65|QO|1|N|To the north. If you're a Miner, take your time to search the cliff-sides for ore.|
 
-C The Lich's Identity|QID|357|M|69.47,42.90|N|Run to the isand in Brightwater LakeGrab and the Lich's Spellbook from the table.|
+C The Lich's Identity|QID|357|M|68.00,42.10|N|Run to the isand in Brightwater LakeGrab and the Lich's Spellbook from the table.|
 
 T Proof of Demise|QID|374|M|60.93,51.98|N|At Deathguard Burgess.|
 T Return to the Magistrate|QID|360|M|61.26,50.84|N|At Magistrate Sevren in the town hall.|
 T At War With The Scarlet Crusade|QID|371|M|60.57,51.77|N|At Executor Zygand.|
 A At War With The Scarlet Crusade|QID|372|M|60.6,51.8|
 T A New Plague|QID|369|M|59.44,52.39|N|At Apothecary Johaan.|
-A A New Plague|QID|492|M|59.4,52.4|
+A A New Plague|QID|492|M|59.4,52.4|N|At Apothecary Johaan.|
 T A New Plague|QID|492|M|61.93,51.40|N|At the dwarf in the basement of the inn.|
 
 T The Lich's Identity|QID|357|M|84.05,17.37|Z|Undercity|N|At Bethor Iceshard in the Magic Quarter, Undercity.|
