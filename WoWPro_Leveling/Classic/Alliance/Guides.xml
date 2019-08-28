@@ -1,10 +1,9 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
 	<Script file="30_41_Jame_Chapter_I.lua"/>
 	<Script file="41_50_Jame_Chapter_II.lua"/>
-	<Script file="01_05_Teldrassil.lua"/>
 	<Script file="01_12_Dun_Morogh.lua"/>
 	<Script file="01_12_Elwynn.lua"/>
-	<Script file="06_12_Teldrassil.lua"/>
+	<Script file="01_12_Teldrassil.lua"/>
 	<Script file="12_14_LochModan.lua"/>
 	<Script file="12_20_Darkshore.lua"/>
 	<Script file="14_15_Westfall.lua"/>
