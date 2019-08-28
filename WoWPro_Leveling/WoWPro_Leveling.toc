@@ -4,7 +4,7 @@
 ## Notes: Leveling guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 8.2.0I
+## Version: 8.2.0-J1
 #classic ## Version: 1.13.2F-beta
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
