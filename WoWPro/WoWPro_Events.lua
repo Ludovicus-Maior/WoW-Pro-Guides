@@ -90,7 +90,7 @@ function WoWPro:CheckPlayerForBuffs(buffs)
 	-- Build table of all active buffs
     local BuffIndex = 1
     local BuffString = ""
-    local BuffName, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
+    local BuffName, _, _, _, _, _, _, _, _, BuffSpellId = UnitAura("player",BuffIndex,"HARMFUL|HELPFUL")
     while BuffName do
         buffies[BuffSpellId] = true
         if BuffIndex > 1 then
@@ -98,7 +98,7 @@ function WoWPro:CheckPlayerForBuffs(buffs)
         end
         BuffString = BuffString .. string.format("%s(%d)", BuffName, BuffSpellId)
         BuffIndex = BuffIndex + 1
-        BuffName, _, _, _, _, _, _, _, _, BuffSpellId = UnitBuff("player",BuffIndex)
+        BuffName, _, _, _, _, _, _, _, _, BuffSpellId = UnitAura("player",BuffIndex,"HARMFUL|HELPFUL")
 	end
     WoWPro:dbp("CheckPlayerForBuffs(%s): %s", buffs, BuffString)
 	return WoWPro:QIDInTable(buffs, buffies)
