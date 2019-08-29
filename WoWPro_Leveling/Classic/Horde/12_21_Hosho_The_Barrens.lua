@@ -37,7 +37,7 @@ T Call of Fire|QID|1524|C|Shaman|R|Tauren|M|38.52,58.92|Z|Durotar|N|To Telf Jool
 A Call of Fire|QID|1525|PRE|1524|C|Shaman|R|Tauren|M|38.52,58.92|Z|Durotar|N|From Telf Joolam.|
 
 A Conscript of the Horde|QID|840|C|Shaman|R|Tauren|M|50.84,43.59|Z|Durotar|N|From Takrin Pathseeker. We pick this up because its on the way and free XP.|
-R Call of Fire|QID|1525|C|Shaman|R|Tauren|M|54.29,39.54|CC|Z|Durotar|N|Walk northeast of Razor Hill up the hill to the Burning Blade Cave.|
+R Call of Fire|QID|1525|C|Shaman|R|Tauren|M|54.29,29.54|CC|Z|Durotar|N|Walk northeast of Razor Hill up the hill to the Burning Blade Cave.|
 C Call of Fire|QID|1525|C|Shaman|R|Tauren|M|52.84,28.82|QO|2|N|Kill Burning Blade Cultists inside the cave for the Reagent Pouch.|
 
 R The Barrens|QID|840|C|Shaman;Warrior|R|Tauren|M|63.02,19.20|CC|
