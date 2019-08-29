@@ -117,6 +117,14 @@ function WoWPro.AutoCompleteBuff(unit,...)
 	end
 end
 
+function WoWPro:AutoCompleteDeath(...)
+	--
+	local index = WoWPro.rows[1].index
+	local dead = UnitIsDeadOrGhost("player")
+	if (WoWPro.action[index] == "d" and dead) or (WoWPro.action[index] == "s" and not dead)then
+		WoWPro.CompleteStep(index, "AutoCompleteDeath")
+	end
+end
 
 -- Update Item Tracking --
 function WoWPro.GetLootTrackingInfo(lootitem,lootqty)
@@ -898,6 +906,14 @@ WoWPro.RegisterEventHandler("UI_INFO_MESSAGE", function (event,...)
 
 WoWPro.RegisterEventHandler("PLAYER_TARGET_CHANGED", function (event,...)
     WoWPro.NpcCheck(...)
+    end)
+
+WoWPro.RegisterEventHandler("PLAYER_DEAD", function (event,...)
+	WoWPro:AutoCompleteDeath()
+    end)
+	
+WoWPro.RegisterEventHandler("PLAYER_UNGHOST", function (event,...)
+	WoWPro:AutoCompleteDeath()
     end)
 
 function WoWPro.DelayedEventHandler(frame,event)

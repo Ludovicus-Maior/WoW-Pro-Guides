@@ -105,7 +105,7 @@ A Samophlange|QID|894|M|63.0,37.2|
 A WANTED: Baron Longshore|QID|895|M|62.6,37.5|
 T Wharfmaster Dizzywig|QID|1492|M|63.3,38.4|
 A Miner's Fortune|QID|896|M|63.3,38.4|
-A The Guns of Northwatch|QID|891|M|62.3,39.0|
+A The Guns of Northwatch|QID|891|M|62.3,39.0|N|From Captain Thalo'thas Brightsun.|
 
 C The Shattered Hand|QID|1963|C|Rogue|Tazan patrolls to the south. Kill him and loot his satchel.|M|63.8,44.5|
 
@@ -182,66 +182,70 @@ A Raptor Horns|QID|865|N|From Mebok Mizzyrix.|M|62.4,37.6|
 C The Stagnant Oasis|QID|877|M|55.5,42.4|N|Now head southwest towards the Stagnant Oasis, killing Kolkar as you go. When you get to the water, start looking for another Bubbling Fissure. Beware the turtles, they're aggressive.|U|5068|
 
 C Verog the Dervish|QID|851|M|53.1,41.7|N|Look for another centaur gazeebo-like building, up on a hill. Near the gazeebo, you will find a couple of tents, and a few kolkar. Kill centaur until one says "I am slain! Summon Verog!" When you see this shout, head back to the gazeebo. Verog should be standing there.|
-C Centaur Bracers|QID|855|US|N|Get any last centaur bracers you need.|
+C Centaur Bracers|QID|855|US|M|53.1,41.7|N|Get any last centaur bracers you need.|
 
 T Centaur Bracers|QID|855|M|45.4,28.39|N|Now head west, past the crossroads, to Regthar Deathgate's Bunker.|
-T Verog the Dervish|QID|851|
-A Hezrul Bloodmark|QID|852|
+T Verog the Dervish|QID|851|M|45.4,28.4|N|To Regthar Deathgate.|
+A Hezrul Bloodmark|QID|852|M|45.4,28.4|N|From Regthar Deathgate.|
 
 T Supplies for the Crossroads|QID|5041|M|51.52,30.85|N|Head back to the Crossroads.|
-T The Disruption Ends|QID|872|
-T Lost in Battle|QID|4921|M|51.96,31.57|
-T The Stagnant Oasis|QID|877|M|52.5,31.92|
-A Altered Beings|QID|880|
-T Echeyakee|QID|881|
-A The Angry Scytheclaws|QID|905|
+T The Disruption Ends|QID|872|M|51.4,30.8|N|To Thark.|
+T Lost in Battle|QID|4921|M|51.96,31.57|N|To Mankrik.|
+T The Stagnant Oasis|QID|877|M|52.5,31.92|N|To Tonga Runetotem.|
+A Altered Beings|QID|880|M|52.5,31.92|N|From Tonga Runetotem.|
+T Echeyakee|QID|881|M|52.2,31|N|To Sergra Darkthorn.|
+A The Angry Scytheclaws|QID|905|M|52.2,31|N|From Sergra Darkthorn.|
 
 F Camp Taurajo|QID|852|M|51.54,30.36|
 h Camp Taurajo|QID|852|M|45.6,59.0|
 
-C Stolen Silver|QID|3281|M|58.0,53.9|N|Head to the Raptor Grounds, avoiding the Bristleback Quillboar camps. Clear your way through the grounds, picking off raptors one by one. The stolen silver is in a chest at the back of the grounds, guarded by three raptors. One of these can be pulled solo.|
-C Raptor Horns|QID|865|N|Stay at the Raptor Grounds, killing any loose raptors you find until you have 5 Intact Raptor Horns and at least 3 Sunscale Feathers.|L|5165 3|
-C The Angry Scytheclaws|QID|905|M|52,46|N|Go to the raptor nests. Clear the area, then right-click each of the nests.|
+R Raptor Grounds|ACTIVE|3281|M|57,52|N|Head to the Raptor Grounds, avoiding the Bristleback Quillboar camps.|
+C Stolen Silver|QID|3281|M|58.05,53.85|N|Clear your way through the grounds, picking off raptors one by one. The stolen silver is in a chest at the back of the grounds, guarded by three raptors. One of these can be pulled solo.|
+C Raptor Horns|QID|865|M|58,53|N|Stay at the Raptor Grounds until you finish this quest|
+K Rapter Feathers|QID|905|M|58,53|N|Continue killng until you also have 3 Sunscale Feathers for a future quest.|L|5165 3|
+C The Angry Scytheclaws|QID|905|M|52.45,46.57;52.59,46.09;52.03,46.47|CN|NC|N|Go to the raptor nests. Clear the area, then right-click each of the nests.|
 
 C Altered Beings|QID|880|M|46,39|N|Go to the Lushwater Oasis. Kill Oasis Snapjaws and loot their shells.|
 C Hezrul Bloodmark|QID|852|N|Hezrul Bloodmark patrols Clockwise around the Oasis, and spawns right outside the Wailing Caverns. Once you've located him, take a look at his guards, and decide which of the two guards is the WEAKEST. If you are able, polymorph, sap, root, or use any other crowd control you have on Hezrul himself. Kill the weakest guard first, then run away. Eventually, they'll stop chasing you, and go back to where you first fought them. Drink, eat, get your strength back. Then, use any crowd control effects you have on Hezrul again and kill the second guard. Then escape again. This should leave Hezrul all alone. Get your strength back, and attack him directly. A little patience makes this a simple enough fight, if you have any potions, be prepared to use them. Good luck!|
 
-T Hezrul Bloodmark|QID|852|N|Run a little further north to Regthar's Bunker.|
+T Hezrul Bloodmark|QID|852|M|45.4,28.4|N|Run a little further north to Regthar's Bunker.|
 
 F Ratchet|QID|865|M|51.5,30.3|
-T Raptor Horns|QID|865|N|Run all the way east to Ratchet.|
-A Smart Drinks|QID|1491|
-A Deepmoss Spider Eggs|QID|1069|
-A Trouble at the Docks|QID|959|
+T Raptor Horns|QID|865|M|62.4,37.6|N|To Mebox Mizzyrix, in Ratchet.|
+A Smart Drinks|QID|1491|M|62.4,37.6|N|From Mebox Mizzyrix.|
+A Deepmoss Spider Eggs|QID|1069|M|62.4,37.6|N|From Mebox Mizzyrix.|
+A Trouble at the Docks|QID|959|M|63,37.6|N|From Crane Operator Bigglefuzz.|
 
 F The Crossroads|QID|880|M|63.1,37.2|
-T Altered Beings|QID|880|N|Return to the Crossroads.|
-A Hamuul Runetotem|QID|1489|
-T The Angry Scytheclaws|QID|905|
-A Jorn Skyseer|QID|3261|
-T Stolen Silver|QID|3281|
-A Report to Kadrak|QID|6541|
+T Altered Beings|QID|880|M|52.2,31.8|N|To Tonga Runetotem, at The Crossroads.|
+A Hamuul Runetotem|QID|1489|M|52.2,31.8|N|From Tonga Runetotem.|
+T The Angry Scytheclaws|QID|905|M|52.2,31|N|To Sergra Darkthorn.|
+A Jorn Skyseer|QID|3261|M|52.2,31|N|From Sergra Darkthorn.|
+T Stolen Silver|QID|3281|M|51.8,30.2|N|To Gazrog.|
+A Report to Kadrak|QID|6541|M|51.4,30.8|N|From Thork.|
 
-T Wenikee Boltbucket|QID|3921|N|Follow the road north.|
-A Nugget Slugs|QID|3922|
+T Wenikee Boltbucket|QID|3921|M|49,11.2|N|Follow the road north to find Wenikee Boltbucket.|
+A Nugget Slugs|QID|3922|M|49,11.2|N|From Wenikee Boltbucket.|
 
-A Ignition|QID|858|N|Now, we're going east again, staying close to the mountain, until you find Sludge Fen. To the north side of this area is a Goblin Shredder with a quest for you.|
+F Sludge Fen|ACTIVE|858|M|56.4,7.4|N|Now, we're going east again, staying close to the mountain, until you find Sludge Fen.|
+A Ignition|QID|858|M|56.4,7.4|N|From Wizzlecrank's Shredder.|
 C Ignition|QID|858|M|56.3,8.2|N|This quest involves killing Supervisor Lugwizzle, who you'll find at the top of the large tower slightly to the south, in the middle of the water. Start climbing the tower, killing as you go. Also, stop to loot any Tool Buckets you see.|
-T Ignition|QID|858|N|Get back to the Shredder.|
-A The Escape|QID|863|
-C The Escape|QID|863|N|This is a really easy escort mission. Accept it. When we first start, the shredder will run around at random for a little while, until the goblin learns to control it. While he's doing this, start making long pulls and killing the Drudgers and Mercenaries to the west of you. When he works out the controls, he'll start walking West. Continue to make long pulls. It will take him a second or two to notice when you're fighting things, but stay close to him and he WILL notice eventually. Try not to let things run away. After a short while, the shredder will turn north up a ramp, and stop. When this happens, two Venture Co. mobs will spawn and attack you. It should be an easy fight. Once they're dead, the mission will end.|
-C Nugget Slugs|QID|3922|N|Now, patrol the area looting any more Nugget Slugs you need.|
+T Ignition|QID|858|M|56.4,7.4|N|To Wizzlecrank's Shredder.|
+A The Escape|QID|863|M|56.4,7.4|N|From Wizzlecrank's Shredder.|
+C The Escape|QID|863|M|56,7|N|When we first start, the shredder will run around at random for a little while, until the goblin learns to control it. While he's doing this, start making long pulls and killing the Drudgers and Mercenaries to the west of you. When he works out the controls, he'll start walking West. Continue to make long pulls. It will take him a second or two to notice when you're fighting things, but stay close to him and he WILL notice eventually. Try not to let things run away. After a short while, the shredder will turn north up a ramp, and stop. When this happens, two Venture Co. mobs will spawn and attack you. It should be an easy fight. Once they're dead, the mission will end.|
+C Nugget Slugs|QID|3922|M|56,7|N|Now, patrol the area looting any more Nugget Slugs you need.|
 
 R Ogrimmar|QID|3922|R|Tauren|M|62.9,7.7;63.2,2.9|CS|N|Tauren, it is time for you to visit the Horde's capital if you haven't already. (If you already have, skip this part). Walk East, and don't stop walking until you reach a river. When you hit the river, turn north. You will come to a bridge, cross over the bridge, you will find the Orgrimmar West Gate.|
 f Orgrimmar|QID|3922|R|Tauren|N|He is at the top of the Skytower in the Valley of Strength|M|45.2,64.6|Z|Orgrimmar|
 R The Barrens|QID|3922|R|Tauren|N|Head back to the Barrens|M|15.6,61.7|Z|Orgrimmar|
 R Sludge Fen|QID|3922|R|Tauren|N|Go back to the Sludge Fen by the same route you came by|M|56.4,7.7|
 
-T Nugget Slugs|QID|3922|N|Head back to Wenikee Boltbucket.|
-A Rilli Greasygob|QID|3923|
+T Nugget Slugs|QID|3922|M|49,11.2|N|To Wenikee Boltbucket.|
+A Rilli Greasygob|QID|3923|M|49,11.2|N|From Wenikee Boltbucket.|
 
-T Report to Kadrak|QID|6541|N|Now run north, to the very top of the Mor'shan Rampart, and find Kadrak. He's on the 1st floor of a guard tower.|
-A The Warsong Reports|QID|6543|
+R Mor'shan Rampart.|ACTIVE|6541|M|48,5.4|N|Now run north, to the very top of the Mor'shan Rampart, and find Kadrak.
+T Report to Kadrak|QID|6541|M|48,5.4|N|To Kadrak, on the 1st floor of a guard tower.|
+A The Warsong Reports|QID|6543|M|48,5.4|N|From Kadrak.|
 R Ashenvale|QID|6548|N|Follow the road north until you reach Ashenvale.|M|48.1,2.1|
 R Splintertree Post|QID|6548|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.|Z|Ashenvale|M|71.1,67.5|
 C Warsong Scout Update|QID|6543|QO|1|NC|U|16783|N|Open your stack of warsong reports, and give one of them to the guard with a Blue question mark over her head. Remember to give her only one, or you won't have enough to go around.|M|71,68|Z|Ashenvale|
@@ -250,97 +254,100 @@ C Warsong Outrider Update|QID|6543|QO|3|NC|N|Go to the second guard and get the 
 R Zoram'gar Outpost|QID|6548|N|Get back to the junction, and follow the road all the way west to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|12,34|Z|Ashenvale|
 C Warsong Runner Update|QID|6543|QO|2|NC|N|When you get there, hand out the last report|M|12.2,34.2|Z|Ashenvale|
 f Zoram'gar Outpost|QID|6548|M|12.2,33.9|Z|Ashenvale|
-F The Crossroads|QID|6548|
+F The Crossroads|QID|6548|M|73.2,61.6|Z|Ashenvale|
 
-A Avenge My Village|QID|6548|N|Leave the town through the West gate, and follow the road until you come to the border with Stonetalon Mountains.|
-A Goblin Invaders |QID|1062|N|We won't be doing this quest in this guide, it will be completed in Jame's guide for level 21-31. If you don't plan to do that guide, then skip this.|
+A Avenge My Village|QID|6548|M|35.2,27.8|N|Leave the town through the West gate, and follow the road until you come to the border with Stonetalon Mountains.|
+A Goblin Invaders |QID|1062|M|35.2,27.8|N|From Seereth Stonebreak. We won't be doing this quest in this guide, it will be completed in Jame's guide for level 21-31. If you don't plan to do that guide, then skip this.|
 R Stonetalon Mountains|QID|6548|M|31.6,26.7|
 
 C Avenge My Village|QID|6548|M|81,88|N|A tiny bit northwest, at waypoint you will find Camp Aparaje, a deserted Tauren village with a few camps of Grimtotem Ruffians and Grimtotem Mercenaries.|Z|Stonetalon Mountains|
-T Avenge My Village|QID|6548|N|Find Makaba Flathoof at the border.|
-A Kill Grundig Darkcloud|QID|6629|
+T Avenge My Village|QID|6548|M|35.2,27.8|N|To Makaba Flathoof at the border.|
+A Kill Grundig Darkcloud|QID|6629|M|35.2,27.8|N|From Makaba Flathoof.|
 R Stonetalon Mountains|QID|6629|M|31.6,26.7|
 C Kill Grundig Darkcloud|QID|6629|M|71.5,89.1;73,86|CS|T|Grundig Darkcloud|N|Follow the road west until waypoint, then turn northeast and follow the road into the grimtotem settlement, killing as you go. At 2nd waypoint you'll find a tent. Standing at the entrance to this tent is Grundig Darkcloud. Kill him. Before you leave, kill 6 Grimtotem Brutes to complete the quest, then walk into the tent where you found Grundig.|Z|Stonetalon Mountains|
-A Protect Kaya|QID|6523|M|23.5,85.6|
+A Protect Kaya|QID|6523|M|23.5,85.6|N|From Kaya Flathoof.|
 C Protect Kaya|QID|6523|N|This is an escort mission. She will walk West out of the grimtotem settlement, then start following the road Southast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
-T Kill Grundig Darkcloud|QID|6629|N|Head back to the border.|
-T Protect Kaya|QID|6523|
-A Kaya's Alive|QID|6401|
+T Kill Grundig Darkcloud|QID|6629|M|35.2,27.8|N|To Makaba Flathoof at the border.|
+T Protect Kaya|QID|6523|M|35.2,27.8|N|To Makaba Flathoof.|
+A Kaya's Alive|QID|6401|M|35.2,27.8|N|From Makaba Flathoof.|
 
 R Malaka'jin|QID|6401|M|71,95|N|At waypoint, you'll find a Darkspear Troll settlement called Malaka'Jin.|Z|Stonetalon Mountains|
-A Blood Feeders|QID|6461|
+A Blood Feeders|QID|6461|M|71.2,94.8|Z|Stonetalon Mountains|N|From Xen'zilla.|
 C Deepmoss spider Eggs|QID|1069|M|57,76|N|Keep following the road 'til waypoint, then go into Sishir Canyon, on your left. Here you'll find all the spiders you could ever want.|Z|Stonetalon Mountains|
-C Blood Feeders|QID|6461|
+C Blood Feeders|QID|6461|M|57,76|Z|Stonetalon Mountains|
 f Sun Rock Retreat|QID|6401|M|45.2,59.9|Z|Stonetalon Mountains|
-T Kaya's Alive|QID|6401|
+T Kaya's Alive|QID|6401|M|47.4,58.4|Z|Stonetalon Mountains|
 
-T Blood Feeders|QID|6461|N|Walk back south to Malaka'Jin.|
+T Blood Feeders|QID|6461|M|71.2,94.8|Z|Stonetalon Mountains|N|To Xen'zilla in Malaka'Jin.|
 H Camp Taurajo|QID|1489|U|6948|
 
 F Thunder Bluff|QID|1489|M|44.5,59.1|
-T Hamuul Runetotem|QID|1489|N|At the Elder Rise.|
-A Nara Wildmane|QID|1490|
-T Nara Wildmane|QID|1490|
-A Leaders of the Fang|QID|914|
+T Hamuul Runetotem|QID|1489|M|78.4,28.4|Z|Thunder Bluff|N|At the Elder Rise.|
+A Nara Wildmane|QID|1490|M|78.4,28.4|Z|Thunder Bluff|N|From Hamuul Runetotem.|
+T Nara Wildmane|QID|1490|M|75.6,31.2|Z|Thunder Bluff|N|To Nara Wildmane.|
+A Leaders of the Fang|QID|914|M|75.6,31.2|NZ|Thunder Bluff||From Nara Wildmane.|
 N Wailing Caverns|QID|914|N|You now have all the quests for Wailing Caverns. This is a great time for you to look for a group for that instance, as you continue questing. We won't be completing those quests in this guide, so if you don't end up going there, just abandon them later.|
 
-F Orgrimmar|QID|3923|M|46.8,50.2|
-T Rilli Greasygob|QID|3923|N|Head to the Valley of Honor and look for Rilli Greasygob.|
-A Samophlange Manual|QID|3924|
-C Samophlange Manual|QID|3924|M|60.0,4.1|N|Head out of Orgrimmar West Gate. Very close by you should find Boulder Lode Mine. Fight your way into the mine, and be VERY careful. This area is full of 17-18 mobs that run away at low health and are packed incredibly tightly. Also, because the area is so small inside the cave, respawn can and will bite you. At the back of the cave, you'll find Boss Copperplug.|
-C Miner's Fortune|QID|896|N|Keep killing goblins until the Cate's Eye Emerald drops.|
+F Orgrimmar|QID|3923|M|46.8,50.2|Z|Thunder Bluff|
+T Rilli Greasygob|QID|3923|M|76.4,24.4|Z|Orgrimmar|N|Head to the Valley of Honor and look for Rilli Greasygob.|
+A Samophlange Manual|QID|3924|M|76.4,24.4|Z|Orgrimmar|N|From Rilli Greasygob.|
+C Samophlange Manual|ACTIVE|3924|M|60.0,4.1|L|11148|N|Head out of Orgrimmar West Gate. Very close by you should find Boulder Lode Mine. Fight your way into the mine, and be VERY careful. This area is full of 17-18 mobs that run away at low health and are packed incredibly tightly. Also, because the area is so small inside the cave, respawn can and will bite you.|
+C Samophlange Manual|ACTIVE|3924|M|59,4|L|11147|N|At the back of the cave, you'll find Boss Copperplug.|
+C Samophlange Manual|ACTIVE|3924|M|60.0,4.1|L|11148 5|U|11148|N|Keep killing them until you have 5 pages. Click the pages to combine into manual.|
+C Miner's Fortune|QID|896|M|60.0,4.1|N|Keep killing goblins until the Cate's Eye Emerald drops.|
 
-T The Warsong Reports|QID|6543|N|When you're all done, go west back to Mor'shan Rampart.|
+T The Warsong Reports|QID|6543|M|48,5.4|N|To Kadrak, back at Mor'shan Rampart.|
 H Camp Taurajo|QID|3261|U|6948|N|If your hearth isn't up, run back to the Crossroads and then fly there.|M|51.5,30.3|
-T Jorn Skyseer|QID|3261|
-A Ishamuhale|QID|882|
-A Tribes at War|QID|878|
+T Jorn Skyseer|QID|3261|M|44.8,59|N|To Jorn Skyseer.|
+A Ishamuhale|QID|882|M|44.8,59|N|From Jorn Skyseer.|
+A Tribes at War|QID|878|M|44.6,59.2|N|From Mangletooth.|
 
-C Tribes at War|QID|878|N|Move north. Move back and forth between this camp and the other until you have killed the necessary number of Bristlebacks of each type.|M|43,51;42,48|CS|
-C Consumed by Hatred|QID|899|N|Keep killing Bristlebacks until you have enough tusks.|
+C Tribes at War|QID|878|M|43,51;42,48|CS|N|Move north. Move back and forth between this camp and the other until you have killed the necessary number of Bristlebacks of each type.|
+C Consumed by Hatred|QID|899|M|43,51;42,48|CS|N|Keep killing Bristlebacks until you have enough tusks.|
 N Blood Shards|QID|5052|L|5075 11|N|Continue to kill until you have at least 11 Blood Shards.|
 
-T Tribes at War|QID|878|N|Head back to Camp Taurajo.|
-A Blood Shards of Agamaggan|QID|5052|
-T Blood Shards of Agamaggan|QID|5052|
-
-R Northwatch Hold|QID|891|M|44.6,59.2|M|60.4,53.0|N|Go back to Mangletooth and take the quest Spirit of the Wind. That will give you a nifty little speed buff, which will help us get to the next part that little bit quicker! Run north along the road, and then turn east towards Northwatch Hold. Stay on the road for as long as you can. Be careful to avoid the Bristlebacks on your way, the Thornweavers will root you, making it impossible to run from them. The speed buff you have should chop a bit of time off that journey, and should wear off just as you arrive. How convenient!|
-N Theramore Medals|QID|891|L|5078 10|S|N|Loot 10 Theramore Medals.|
-K Cannoneer Smythe|QID|891|T|Cannoneer Smythe|QO|3|M|63.1,56.7N|Follow the path from the entrance, up to the top of the hill, then turn right and approach the West tower. If you get lost, use the map. Clear off any mobs around the tower. Inside this tower, you will find 3 mobs, one of which is a cloth-wearing healer. This is a tricky fight, but by no means impossible. If you have to, use the same tactic we used for Hezrul Bloodmark. Once all 3 of them are dead, climb the tower. At the top you will find Canoneer Smythe, and one guard. Take care of them both.|
+T Tribes at War|QID|878|M|44.6,59.2|N|To Mangletooth, back to Camp Taurajo.|
+A Blood Shards of Agamaggan|QID|5052|M|44.6,59.2|N|From Mangletooth.|
+T Blood Shards of Agamaggan|QID|5052|M|44.6,59.2|N|To Mangletooth.|
+A Spirit of the Wind|QID|889|M|44.6,59.2|N|From Mangletooth.|
+R Northwatch Hold|QID|891|M|60.4,53.0|N|Spirit of the Wind which gives a nifty speed buff, which will help with this run! Go north along the road, and then turn east towards Northwatch Hold. Stay on the road for as long as you can. Be careful to avoid the Bristlebacks on your way, the Thornweavers will root you, making it impossible to run from them.|
+N Theramore Medals|QID|891|QO|4|S|N|Kill Dwarves, Loot 10 Theramore Medals.|
+K Cannoneer Smythe|QID|891|T|Cannoneer Smythe|QO|3|M|63.1,56.7|N|Follow the path from the entrance, at top of the hill, turn right and approach the West tower. Clear mobs around the tower. Inside are 3 mobs, one of which is a cloth-wearing healer. This is a tricky fight, but possible. If you have to, use the same tactic we used for Hezrul Bloodmark. Once all 3 of them are dead, climb the tower. Canoneer Smythe is at the top with a guard..|
 K Cannoneer Whessan|QID|891|T|Cannoneer Whessan|QO|2|M|60.5,54.8|N|Now head to the East tower. Same routine as before, three guards on the ground level. Take them down, climb the tower, use any tactics you have and bring down Cannoneer Whessan, and leave the tower.|
-K Captain Fairmount|QID|891|T|Captain Fairmount slain|QO|1|M|61.8,54.7|N|Head back down the hill, clear off the mobs around the keep, then prepare yourself again. There are 4 mobs in this room, but they will pull 2 at a time. Range the healer then run around a corner so she's out of your line of sight, and she'll come running round to get you. Once her and the marine are dead, kill the two marines guarding the Blood Elf. Do not take his quest yet. Once they're dead, fight your way to the top of the tower, moving slowly and carefully, and keeping your eyes open. At the top of the tower, you will find around 4 regular mobs, and Captain Fairmount. The regular mobs should pull one at a time, so clear the area off until Fairmount is alone. Then simply kill her.|
-A Free From the Hold|QID|898|N|Once she is dead, Climb back down the tower and talk to Gilthares Firebough, the blood elf.|
+K Captain Fairmount|QID|891|T|Captain Fairmount slain|QO|1|M|61.8,54.7|N|Head back down the hill, clear mobs around the keep, mana/CDs ready. There are 4 mobs in this room, but they will pull 2 at a time. Range the healer then run around a corner to break her line of sight, and she'll come to get you. Do not take the Blood Elf's quest yet. Once the guards are dead, continue fighting  your way to the top of the tower, moving slowly and carefully. At the top of the tower, you will find ~ 4 regular mobs, and Captain Fairmount. The regular mobs should singly, so clear the area off until Fairmount is alone. Then simply kill her.|
+A Free From the Hold|QID|898|N|After Cptn Fairmount is dead, Head back down for the escort quest.|
 C Free From the Hold|QID|898|N|Escort Gilthares. Try to stay about 10 feet in front of him, and pull things towards you. He has a terrible habbit of running headlong into clusters of mobs and pulling more than you need to fight. He is also very fragile, so don't let him tank things for too long if you can help it. He will walk down the hill, to the main gates of Northwatch, then rest for a short while before heading north through the pirate camps. Escort him all the way to Ratchet.|
-N Theramore Medals|QID|891|L|5078 10|US|N|Loot 10 Theramore Medals.|
-T The Guns of Northwatch|QID|891|
-T Free From the Hold|QID|898|
-T Deepmos Spider Eggs|QID|1069|
-T The Escape|QID|863|
-T Miner's Fortune|QID|896|
-A Ziz Fizziks |QID|1483|
+C Theramore Medals|QID|891|QO|4|US|N|Loot 10 Theramore Medals.|
+T The Guns of Northwatch|QID|891|M|62.2,39|N|To Captain Thalo'thas Brightsun.|
+T Free From the Hold|QID|898|M|62.2,39|N|TO Captain Thalo'thas Brightsun.|
+T Deepmoss Spider Eggs|QID|1069|M|62.4,37.6|N|To Mebox Mizzyrix.|
+T The Escape|QID|863|M|63,37.2|N|To Sputtervalve.|
+A Ziz Fizziks |QID|1483|M|63,37.2|M|From Sputtervalve.|
+T Miner's Fortune|QID|896|M|63.2,38.4|N|To Wharfmaster Dizzywig.|
 
 N Fresh Zhevra Carcas|QID|882|L|10338 1|M|60,30|N|Head north to the dead tree. On your way, Kill the first Zhevra you see.|
 C Ishamuhale|QID|882|M|59,30|N|When you get to the tree, Right-Click the Carcas in your inventory. This should summon Ishamuhale. Kill it.|U|10338|
 R The Crossroads|QID|899|M|52,30|
 
-T Consumed By Hatred|QID|899|
+T Consumed By Hatred|QID|899|M|52,31.6|N|To the infamous Mankrik.|
 
 F Camp Taurajo|QID|882|M|51.5,30.3|
-T Ishamuhale|QID|882|
-A Enraged Thunder Lizards|QID|907|
+T Ishamuhale|QID|882|M|44.8,59|N|To Jorn Skyseer.|
+A Enraged Thunder Lizards|QID|907|M|44.8,59|N|From Jorn Skyseer.|
 
 C Enraged Thunder Lizards|QID|907|M|46,50|N|Head north to waypoint and look for Lakota'mani. This is a named Thunder Lizard. He has a long-ish patrol route and a less than ideal respawn time, so you might not find him. If you do find him, kill him, and loot his hoof. This hoof starts a quest which is worth 1,300 exp. After you have killed him, or while you are looking for him, kill the Thunderheads in the area and loot their blood. Once you have 3 Thunder Lizard Bloods, head back to Camp Taurajo. (Don't worry if you don't find Lakota'mani, he isn't essential, and the 1.3k exp isn't really worth camping the area for0.|
 A Lakoto'mani|QID|883|U|5099|O|L|5099|
 
-T Lakoto'mani|QID|883|
-T Enraged Thunder Lizards|QID|907|N|Go back to Camp Taurajo.|
-A Cry of the Thunderhawk |QID|913|
+
+T Enraged Thunder Lizards|QID|907|M|44.8,59|N|To Jorn Skyseer back to Camp Taurajo.|
+t Lakoto'mani|QID|883|M|44.8,59|N|To Jorn Skyseer.|
+A Cry of the Thunderhawk |QID|913|M|44.8,59|N|From Jorn Skyseer.|
 
 C Cry of the Thunderhawk|QID|913|M|46.6,61.5|
 
-T Cry of the Thunderhawk |QID|913|
-A The Ashenvale Hunt |QID|6382|
+T Cry of the Thunderhawk |QID|913|M|44.8,59|N|To Jorn Skyseer back to Camp Taurajo.|
+A The Ashenvale Hunt |QID|6382|M|44.8,59|N|From Jorn Skyseer.|
 F Orgrimmar|QID|3924|M|44.5,59.1|
-T Samophlange Manual|QID|3924|N|Head back to Rilli Greasygob and give the Samophlange manual to him.|
+T Samophlange Manual|QID|3924|M|76.4,24.4|Z|Orgrimmar|N|Head back to Rilli Greasygob and give the Samophlange manual to him.|
 ]]
 end)

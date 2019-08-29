@@ -204,9 +204,9 @@ A Ursal the Mauler|QID|486|PRE|483|M|55.96,57.28|N|From Athridas Bearmantle.|
 A Elanaria|QID|1684|C|Warrior|M|56.21,59.19|N|From Kyra Windblade.|
 A The Apple Falls|QID|2241|C|Rogue|M|56.37,60.13|N|From Jannok Breezesong.|
 
-; --- FIXME: not sure if this quest is available to night elves - it's a breadcrumb to Stormwind ---|
+
 R Train your skills|QID|7383|C|Priest|M|55.56,56.75|N|At Laurna Morninglight.|
-A Desperate Prayer|QID|5636|C|Priest|M|55.56,56.75|N|From Laurna Morninglight.|
+A Returning Home|QID|5629|C|Priest|M|55.56,56.75|N|From Laurna Morninglight.|
 
 ; Race specific Hunter quest, other races have their own versions in their own areas.
 A Taming the Beast|QID|6063|C|Hunter|R|Night Elf|M|56.68,59.50|N|From Dazalar.|
@@ -275,6 +275,8 @@ T Body and Heart|QID|6001|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bear
 R The Temple of the Moon|QID|2519|ACTIVE|2519|M|38.53,49.50;39.01,77.50;40.50,91.48|Z|Darnassus|CS|N|Head to the top floor of The Temple of the Moon|
 T The Temple of the Moon|QID|2519|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora up the ramp.|
 A Tears of the Moon|QID|2518|PRE|2519|M|36.63,85.94|Z|Darnassus|N|From Priestess A'moora.|
+
+T Returning Home|QID|5629|C|Priest|M|39.52,81.18|Z|Darnassus|N|To Priestess Alathea.|
 R Teldrassil|QID|7383|ACTIVE|7383|M|39.04,77.18;80.04,40.40;88.39,35.55|Z|Darnassus|CC|N|Exit the temple and head back to Teldrassil.|
 
 C Crown of the Earth|QID|7383|NC|M|38.44,34.06|U|18152|N|Fill the Amethyst Phial.|
@@ -337,9 +339,5 @@ T Tears of the Moon|QID|2518|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora, u
 A Sathrah's Sacrifice|QID|2520|PRE|2518|M|36.63,85.94|Z|Darnassus|N|From Priestess A'moora.|
 C Sathrah's Sacrifice|QID|2520|NC|M|38.24,85.73|Z|Darnassus|U|8155|N|Use Sathra's Sacrifice in the fountain down below.|
 T Sathrah's Sacrifice|QID|2520|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora.|
-
-
-
-
 ]]
 end)
