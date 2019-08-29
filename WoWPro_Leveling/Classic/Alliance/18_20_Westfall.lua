@@ -23,7 +23,7 @@ A The Coast Isn't Clear|QID|152|
 A The Coastal Menace|QID|104|M|30.1,85.9|
 T Keeper of the Flame|QID|103|M|30.1,85.9|
 C The Coastal Menace|N|Kill murlocs here until you find Old Murk-Eye. Kill him and loot the scale.|QID|104|Z|Westfall|M|35.00,86.00|
-N |N|If you find a treasure map, it is worth doing it as soon as you find it, as the final step is at the north coast and you can clear your way back to the lighthouse, remember to destroy the treasure maps after you're done to save precious bag space|
+N Treasure Map|N|If you find a treasure map, it is worth doing it as soon as you find it, as the final step is at the north coast and you can clear your way back to the lighthouse, remember to destroy the treasure maps after you're done to save precious bag space|
 C The Coast Isn't Clear|N|Go further north and kill the rest of the murlocs for this quest.|QID|152|Z|Westfall|M|34.00,21.00|
 T The Coast Isn't Clear|QID|152|M|30.1,85.9|
 T The Coastal Menace|QID|104|M|30.1,85.9|

@@ -19,7 +19,7 @@ A Supplies for The Crossroads|QID|5041|M|51.50,30.87|N|From Thork.|
 A Harpy Raiders|QID|867|M|51.62,30.90|N|From Darsok Swiftdagger at the top of the tower.|
 A The Forgotten Pools|QID|870|M|52.26,31.93|N|From Tonga Runetotem.|
 
-C Raptor Thieves|QID|869|S|N|Kill Raptors you encounter for their heads.|
+C Raptor Thieves|QID|869|S|N|Kill Raptors you encounter for their heads.\nThese are all around this area.|
 
 ; --- Tauren catchup chain ----------------------------------------------------
 C Plainstrider Menace|QID|844|C|Shaman|S|N|Kill Plainstriders on the way for their beaks.|
@@ -286,7 +286,7 @@ F Thunder Bluff|QID|1489|M|44.5,59.1|
 T Hamuul Runetotem|QID|1489|M|78.4,28.4|Z|Thunder Bluff|N|At the Elder Rise.|
 A Nara Wildmane|QID|1490|M|78.4,28.4|Z|Thunder Bluff|N|From Hamuul Runetotem.|
 T Nara Wildmane|QID|1490|M|75.6,31.2|Z|Thunder Bluff|N|To Nara Wildmane.|
-A Leaders of the Fang|QID|914|M|75.6,31.2|NZ|Thunder Bluff||From Nara Wildmane.|
+A Leaders of the Fang|QID|914|M|75.6,31.2|Z|Thunder Bluff|N|From Nara Wildmane.|
 N Wailing Caverns|QID|914|N|You now have all the quests for Wailing Caverns. This is a great time for you to look for a group for that instance, as you continue questing. We won't be completing those quests in this guide, so if you don't end up going there, just abandon them later.|
 
 F Orgrimmar|QID|3923|M|46.8,50.2|Z|Thunder Bluff|
@@ -324,7 +324,7 @@ T The Guns of Northwatch|QID|891|M|62.2,39|N|To Captain Thalo'thas Brightsun.|
 T Free From the Hold|QID|898|M|62.2,39|N|TO Captain Thalo'thas Brightsun.|
 T Deepmoss Spider Eggs|QID|1069|M|62.4,37.6|N|To Mebox Mizzyrix.|
 T The Escape|QID|863|M|63,37.2|N|To Sputtervalve.|
-A Ziz Fizziks |QID|1483|M|63,37.2|M|From Sputtervalve.|
+A Ziz Fizziks |QID|1483|M|63,37.2|N|From Sputtervalve.|
 T Miner's Fortune|QID|896|M|63.2,38.4|N|To Wharfmaster Dizzywig.|
 
 N Fresh Zhevra Carcas|QID|882|L|10338 1|M|60,30|N|Head north to the dead tree. On your way, Kill the first Zhevra you see.|

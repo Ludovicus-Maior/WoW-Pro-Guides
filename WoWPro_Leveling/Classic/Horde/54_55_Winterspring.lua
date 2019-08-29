@@ -19,7 +19,7 @@ h Everlook|
 
 C Ursius of the Shardtooth|QID|5054|M|62.8,29.3|N|Grind mobs north of everlook til he shows up.  He'll appear somewhere in this general area|
 T Ursius of the Shardtooth|QID|5054|M|61.93,38.38|N|Storm Shadowhoof|
-A Brumeran of the Chillwind|QID|5055|PRE|5054|61.93,38.38|N|Storm Shadowhoof|
+A Brumeran of the Chillwind|QID|5055|PRE|5054|M|61.93,38.38|N|Storm Shadowhoof|
 C Brumeran of the Chillwind|QID|5055|M|60.00,60.00|N|Pats near waypoint.|
 
 C Strange Sources|QID|4842|M|59.00,73.00|N|Take the road south to Darkwhisper Gorge.|
@@ -62,14 +62,14 @@ C Corrupted Sabers|QID|4506|M|32,67|N|Release cat at corrupted moonwell|
 T Corrupted Sabers|QID|4506|M|0.12,71.97|N|Winna Hazzard-First talk to the cat|
 
 T Falling to Corruption|QID|5084|M|60.00,5.00|Z|Felwood|N|The cauldron at waypoint.|
-A Mystery Goo|QID|5085|PRE|5084||M|60.00,5.00Z|Felwood|N|The cauldron at waypoint|
+A Mystery Goo|QID|5085|PRE|5084||M|60.00,5.00|Z|Felwood|N|The cauldron at waypoint|
 A Deadwood Ritual Totem|QID|8470|U|20741|O|N|Dropped by Deadwood Avengers, Den Watchers, and Shamans|
 T Deadwood Ritual Totem|QID|8470|O|M|65.5,3.3|N|Kernda-located halfway thru the hold|
 
 R Winterspring|
 T Winterfall Activity|QID|8464|M|27.8,34.4|N|Salfa|
 
-T Mystery Goo|QID|5085|M|M|31.27,45.16|N|Donovan Snonwden-skip the follow-up|
+T Mystery Goo|QID|5085|M|31.27,45.16|N|Donovan Snonwden-skip the follow-up|
 
 H Everlook|
 ]]
