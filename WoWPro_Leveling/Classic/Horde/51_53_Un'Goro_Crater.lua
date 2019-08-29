@@ -20,8 +20,8 @@ C The Fare of Lar'korwi|QID|4290|M|68.80,56.70|N|Find the Threshadon Carcass amo
 
 T The Fare of Lar'korwi|QID|4290|M|71.6,76.0|N|To Torwa Pathfinder|
 A The Scent of Lar'korwi|QID|4291|M|71.6,76.0|N|From Torwa Pathfinder|
-C The Scent of Lar'korwi|QID|4291|M|60.00,72.00;62,65;63,77;67,73;67,67;58,78;70,61|CN|Find the egg nests and stand on them|
-T The Scent of Lar'korwi|QID|4291|M|71.6,76.0|Torwa Pathfinder|
+C The Scent of Lar'korwi|QID|4291|M|60.00,72.00;62,65;63,77;67,73;67,67;58,78;70,61|CN|N|Find the egg nests and stand on them|
+T The Scent of Lar'korwi|QID|4291|M|71.6,76.0|N|Torwa Pathfinder|
 A The Bait for Lar'korwi|QID|4292||M|71.6,76.0|N|Torwa Pathfinder|
 A Williden's Journal|U|11116|N|Kill raptors until the journal drops to start this quest|
 
@@ -54,15 +54,15 @@ C The Northern Pylon|QID|4285|M|56.46,12.48|N|Along the north edge of the zone t
 T Chasing A-Me 01|QID|4243|M|63.00,17.00|N|East in the gorilla cave. Skip the follow-up.|
 C The Apes of Un'Goro|QID|4289|M|66.0,16.0|N|Kill gorillas.|
 C Super Sticky|QID|4504|M|60,26|N|Kill the tar monsters around the tarpits.|
-N Find [Crate of Foodstuffs]|M|60.00,26.00|L|11113|M|68.52,36.59|N|At the abandoned camp in the east side of the zone|
+N Find [Crate of Foodstuffs]|L|11113|M|68.52,36.59|N|At the abandoned camp in the east side of the zone|
 C Larion and Muigin|QID|4145|N|Kill lasher around the camp area. Also kill any diemetradons or pterrordaxes you come across|
 C The Eastern Pylon|QID|4287|M|76.00,51.00|N|To the east, of course|
 C The Bait for Lar'korwi|QID|4292|U|11568|M|79.90,49.90|N|Use the meat and mixture at the flat rock behind the east pylon|
 T The Bait for Lar'korwi|QID|4292|M|71.6,76.0|N|Torwa Pathfinder|
 T The Apes of Un'Goro|QID|4289|M|71.6,76.0|N|Torwa Pathfinder - Skip the follow-up|
 
-C Alien Ecology|M|49.50,82.70|U|11132|M|50.00,77.00;48.62,85.33|CS|Down in the Slithering Scar. Head left inside to the big room, use the vial|
-N Kill bugs for [Gorishi Scent Gland]|QID|4496|L|11837|Z|Tanaris|
+C Alien Ecology|QID|3883|U|11132|M|50.00,77.00;48.62,85.33|CS|N|Down in the Slithering Scar. Head left inside to the big room, use the vial|
+K Kill bugs for [Gorishi Scent Gland]|ACTIVE|4496|L|11837|Z|Tanaris|
 C Expedition Salvation|QID|3881|M|38.50,66.00|N|At the other camp|
 C The Western Pylon|QID|4288|N|Right-click the Western Crystal Pylon at |M|23.00,59.00|
 A Finding the Source|QID|974|M|30.90,50.40|N|From a goblin near the hot springs|
@@ -116,7 +116,7 @@ T Volcanic Activity|QID|4502|M|62.4,38.6|N|Liv Rizzlefix|
 T Marvon's Workshop|QID|4147|M|62.4,38.6|N|Liv Rizzlefix|
 
 b Booty Bay|
-T Whiskey Slim's Lost Grog|QID|580|M|22.74|N|Whiskey Slim|
+T Whiskey Slim's Lost Grog|QID|580|M|22,74|N|Whiskey Slim|
 
 ]]
 end)
