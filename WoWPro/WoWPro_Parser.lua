@@ -28,6 +28,8 @@ WoWPro.actiontypes = {
 	["$"] = "Interface\\Worldmap\\TreasureChest_64",
 	["="] = "Interface\\Icons\\Spell_lightning_lightningbolt01",
 	[";"] = "Interface\\AddOns\\WoWPro\\Textures\\INV_Scroll_11",
+	d = "Interface\\AddOns\\WoWPro\\Textures\\dead.tga",
+	s = "Interface\\Icons\\Spell_Shadow_DeathScream",
 }
 if UnitFactionGroup("player") == 'Alliance' then
     WoWPro.actiontypes['P'] = "Interface\\MINIMAP\\Vehicle-AllianceMagePortal"
@@ -60,7 +62,9 @@ WoWPro.actionlabels = {
 	["!"] = "Declare",
 	["$"] = "Treasure",
 	["="] = "Train",
-	[";"] = "Comment"
+	[";"] = "Comment",
+	d = "Die",
+	s = "Take Spirit Healer",
 }
 
 ---accept = {
