@@ -21,7 +21,7 @@ A Tools of the Highborne|QID|958|M|37.4, 40.2|N|From Thundris Windweaver|
 A Plagued Lands|QID|2118|M|38.8,43.4|N|From Tharnariun Treetender|
 A How Big a Threat? (Part 1)|QID|984|M|39.3, 43.5|N|From Terenthis|
 
-A The Family and the Fishing Pole|QID|1141|N|From Gubber Blump, on the beach near the inn|
+A The Family and the Fishing Pole|QID|1141|M|36.11,44.93|N|From Gubber Blump, on the beach near the inn|
 N The Family and the Fishing Pole|QID|11141|ACTIVE|1141|S|CHAT|N|Not got the fishing skill? No problem. Speak to Gubber Blump, and he will teach you the skill.|
 B The Family and the Fishing Pole|QID|1141|ACTIVE|1141|S|N|Not got a fishing rod? No problem. Gubber Blump will sell you one for 23c.|
 C The Family and the Fishing Pole|QID|1141|NC|N|Just fish near him, even if you didn't level your fishing by now, it should be easy.|
@@ -32,7 +32,7 @@ C Washed Ashore (Part 1)|QID|3524|M|36,51|N|Clear the murlocs from the Beached S
 C How Big a Threat? (Part 1)|QID|984|M|40,53|
 C Plagued Lands|QID|2118|M|39,58|U|7586|
 C Buzzbox 827|QID|983|US|N|Kill and loot the Pygmy Tide Crawlers for the Crawler Legs.|
-T Buzzbox 827|QID|983|M|37,44.1|
+T Buzzbox 827|QID|983|M|36.68,46.23|
 A Buzzbox 411|QID|1001|
 T Plagued Lands|QID|2118|M|38.8,43.4|
 A Cleansing of the Infected|QID|2138|
