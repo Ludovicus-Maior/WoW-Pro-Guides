@@ -227,13 +227,14 @@ A Report to Kadrak|QID|6541|M|51.4,30.8|N|From Thork.|
 T Wenikee Boltbucket|QID|3921|M|49,11.2|N|Follow the road north to find Wenikee Boltbucket.|
 A Nugget Slugs|QID|3922|M|49,11.2|N|From Wenikee Boltbucket.|
 
-F Sludge Fen|ACTIVE|858|M|56.4,7.4|N|Now, we're going east again, staying close to the mountain, until you find Sludge Fen.|
+F The Sludge Fen|ACTIVE|858|M|56.4,7.4|N|Now, we're going east again, staying close to the mountain, until you find Sludge Fen.|
+C Nugget Slugs|QID|3922|M|56,7|N|Loot Nugget Slugs from tool buckets.|S|
 A Ignition|QID|858|M|56.4,7.4|N|From Wizzlecrank's Shredder.|
 C Ignition|QID|858|M|56.3,8.2|N|This quest involves killing Supervisor Lugwizzle, who you'll find at the top of the large tower slightly to the south, in the middle of the water. Start climbing the tower, killing as you go. Also, stop to loot any Tool Buckets you see.|
 T Ignition|QID|858|M|56.4,7.4|N|To Wizzlecrank's Shredder.|
 A The Escape|QID|863|M|56.4,7.4|N|From Wizzlecrank's Shredder.|
-C The Escape|QID|863|M|56,7|N|When we first start, the shredder will run around at random for a little while, until the goblin learns to control it. While he's doing this, start making long pulls and killing the Drudgers and Mercenaries to the west of you. When he works out the controls, he'll start walking West. Continue to make long pulls. It will take him a second or two to notice when you're fighting things, but stay close to him and he WILL notice eventually. Try not to let things run away. After a short while, the shredder will turn north up a ramp, and stop. When this happens, two Venture Co. mobs will spawn and attack you. It should be an easy fight. Once they're dead, the mission will end.|
-C Nugget Slugs|QID|3922|M|56,7|N|Now, patrol the area looting any more Nugget Slugs you need.|
+C The Escape|QID|863|M|56,7|N|When we first start, make long pulls and killing the Drudgers and Mercenaries to the west of you. Continue to make long pulls while he heads west. Stay close to him, so that he will help you fight your attackers. Try not to let things run away. After a short while, the shredder will turn north up a ramp, and stop. Two Venture Co. mobs will spawn and attack you.|
+C Nugget Slugs|QID|3922|M|56,7|N|Now, patrol the area looting any more Nugget Slugs you need.|US|
 
 R Ogrimmar|QID|3922|R|Tauren|M|62.9,7.7;63.2,2.9|CS|N|Tauren, it is time for you to visit the Horde's capital if you haven't already. (If you already have, skip this part). Walk East, and don't stop walking until you reach a river. When you hit the river, turn north. You will come to a bridge, cross over the bridge, you will find the Orgrimmar West Gate.|
 f Orgrimmar|QID|3922|R|Tauren|N|He is at the top of the Skytower in the Valley of Strength|M|45.2,64.6|Z|Orgrimmar|
@@ -243,15 +244,15 @@ R Sludge Fen|QID|3922|R|Tauren|N|Go back to the Sludge Fen by the same route you
 T Nugget Slugs|QID|3922|M|49,11.2|N|To Wenikee Boltbucket.|
 A Rilli Greasygob|QID|3923|M|49,11.2|N|From Wenikee Boltbucket.|
 
-R Mor'shan Rampart.|ACTIVE|6541|M|48,5.4|N|Now run north, to the very top of the Mor'shan Rampart, and find Kadrak.
-T Report to Kadrak|QID|6541|M|48,5.4|N|To Kadrak, on the 1st floor of a guard tower.|
+R The Mor'shan Rampart.|ACTIVE|6541|M|48,5.4|N|Now run north, to the first floor of the Mor'shan Rampart, and find Kadrak.
+T Report to Kadrak|QID|6541|M|48,5.4|N|To Kadrak, on the first floor of a guard tower.|
 A The Warsong Reports|QID|6543|M|48,5.4|N|From Kadrak.|
 R Ashenvale|QID|6548|N|Follow the road north until you reach Ashenvale.|M|48.1,2.1|
-R Splintertree Post|QID|6548|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.|Z|Ashenvale|M|71.1,67.5|
+R Splintertree Post|QID|6548|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.|Z|Ashenvale|M|68.60,84.23;67.24,71.58;70.15,70.09;71.1,67.5|CC|
 C Warsong Scout Update|QID|6543|QO|1|NC|U|16783|N|Open your stack of warsong reports, and give one of them to the guard with a Blue question mark over her head. Remember to give her only one, or you won't have enough to go around.|M|71,68|Z|Ashenvale|
 f Splintertree Post|QID|6548|N|Then head into Splintertree Post and get the flight path.|M|73.2,61.6|Z|Ashenvale|
-C Warsong Outrider Update|QID|6543|QO|3|NC|N|Go to the second guard and get the Warsong Outrider Update. He patrols all along the road northeast of Splintertree|M|94,47|Z|Ashenvale|
-R Zoram'gar Outpost|QID|6548|N|Get back to the junction, and follow the road all the way west to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|12,34|Z|Ashenvale|
+C Warsong Outrider Update|QID|6543|QO|3|NC|N|Go to the second guard and get the Warsong Outrider Update. He patrols all along the road northeast of Splintertree|M|73.50,63.76;75.41,64.25;76.68,58.48;78.80,55.48;94,47|CC|Z|Ashenvale|
+R Zoram'gar Outpost|QID|6548|N|Get back to the junction, and follow the road all the way west to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.2,47.28;26.43,42.33;16.51,30.27;12,34|CC|Z|Ashenvale|
 C Warsong Runner Update|QID|6543|QO|2|NC|N|When you get there, hand out the last report|M|12.2,34.2|Z|Ashenvale|
 f Zoram'gar Outpost|QID|6548|M|12.2,33.9|Z|Ashenvale|
 F The Crossroads|QID|6548|M|73.2,61.6|Z|Ashenvale|
