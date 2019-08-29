@@ -32,7 +32,7 @@ C Washed Ashore (Part 1)|QID|3524|M|36,51|N|Clear the murlocs from the Beached S
 C How Big a Threat? (Part 1)|QID|984|M|40,53|
 C Plagued Lands|QID|2118|M|39,58|U|7586|
 C Buzzbox 827|QID|983|US|N|Kill and loot the Pygmy Tide Crawlers for the Crawler Legs.|
-T Buzzbox 827|QID|983|M|37,44.1|
+T Buzzbox 827|QID|983|M|36.68,46.23|
 A Buzzbox 411|QID|1001|
 T Plagued Lands|QID|2118|M|38.8,43.4|
 A Cleansing of the Infected|QID|2138|
