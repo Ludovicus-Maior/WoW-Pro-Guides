@@ -19,7 +19,7 @@ A Supplies for The Crossroads|QID|5041|M|51.50,30.87|N|From Thork.|
 A Harpy Raiders|QID|867|M|51.62,30.90|N|From Darsok Swiftdagger at the top of the tower.|
 A The Forgotten Pools|QID|870|M|52.26,31.93|N|From Tonga Runetotem.|
 
-C Raptor Thieves|QID|869|S|N|Kill Raptors you encounter for their heads.|
+C Raptor Thieves|QID|869|S|N|Kill Raptors you encounter for their heads.|N|These are all around this area|
 
 ; --- Tauren catchup chain ----------------------------------------------------
 C Plainstrider Menace|QID|844|C|Shaman|S|N|Kill Plainstriders on the way for their beaks.|
