@@ -141,9 +141,13 @@ R Stormwind City|QID|61|M|71.1,88.9|ACTIVE|61|N|Follow the road north-west to St
 N City Facilities|QID|61|S|N|Whilst in Stormwind City, feel free to learn your desired professions or access the bank - if you don't know where to go, ask any Stormwind City Guard.|T|Stormwind City Guard|
 T Shipment to Stormwind|QID|61|M|63.2,74.4|N|To Morgan Pestle|Z|Stormwind City| ;available to Night Elf, so Race tag removed
 A Wine Shop Advert|QID|332|M|57.0,63.4|N|From Renato Gallina|Z|Stormwind City|
-f Stormwind City|QID|332|M|57.5,59.5;62.75,64.5;66.28,62.12|CS|N|Discover Stormwind Flightpoint with Dungar Longdrink|Z|Stormwind City|
-T Wine Shop Advert|QID|332|M|52.45,67.6|N|To Suzetta Gallina|Z|Stormwind City|
+A Harlan Needs a Resupply|QID|333|M|55.2,56.0|N|From Harlan Bagley|Z|Stormwind City|
+T Wine Shop Advert|QID|332|M|52.45,67.6|N|To Suzetta Gallina, in Gallina Winery which is on the canal front |Z|Stormwind City|
+T Harlan Needs a Resupply|QID|333|M|49.4,55.4|N|To Rema Schneider in the Canal Tailor Shop|Z|Stormwind City|
+A Package for Thurman|QID|334|M|49.4,55.4|N|From Rema Schneider|Z|Stormwind City|
+T Package for Thurman|QID|334|M|42.4,76.4|N|To Thurman Schneider, in Larson Clothiers found in Stormwind Mage Quarter|Z|Stormwind City|
 
+f Stormwind City|QID|332|M|57.5,59.5;62.75,64.5;66.28,62.12|CS|N|Discover Stormwind Flightpoint with Dungar Longdrink|Z|Stormwind City|
 R Goldshire|QID|112|M|32.00,49.25;41.2,62.0|CS|N|Head back to Goldshire in Elwynn Forest. You can jump down from the flight point into the water.|
 
 C Collecting Kelp|QID|112|M|54.1,66.6|N|Kill and loot the Murlocs for the Crystal Kelp Fronds.|
