@@ -14,17 +14,17 @@ A A Humble Task|QID|753|M|50.03,81.16|N|From Greatmother Hawkwind.|
 C Water Pitcher|QID|753|L|4755|M|50.22,81.37|N|Click the Water Pitcher on the fountain.|
 
 T The Hunt Begins|QID|747|M|44.87,77.08|N|To Grull Hawkwind.|
-A Simple Note|QID|3091|C|Warrior|R|Tauren|M|44.87,77.08|
-A Etched Note|QID|3092|C|Hunter|R|Tauren|M|44.87,77.08|
-A Rune-Inscribed Note|QID|3093|C|Shaman|R|Tauren|M|44.87,77.08|
-A Verdant Note|QID|3094|C|Druid|R|Tauren|M|44.87,77.08|
+A Simple Note|QID|3091|C|Warrior|R|Tauren|M|44.87,77.08|N|From Grull Hawkwind.|
+A Etched Note|QID|3092|C|Hunter|R|Tauren|M|44.87,77.08|N|From Grull Hawkwind.|
+A Rune-Inscribed Note|QID|3093|C|Shaman|R|Tauren|M|44.87,77.08|N|From Grull Hawkwind.|
+A Verdant Note|QID|3094|C|Druid|R|Tauren|M|44.87,77.08|N|From Grull Hawkwind.|
 A The Hunt Continues|QID|750|M|44.87,77.08|N|From Grull Hawkwind.|
 r Sell junk, you will need money for your first training.|QID|753|M|45.29,76.52|N|Right-click this step off when complete.|
 
 T Rune-Inscribed Note|QID|3093|C|Shaman|R|Tauren|M|45.01,75.95|N|To Meela Dawnstrider.|
 T Verdant Note|QID|3094|C|Druid|R|Tauren|M|45.09,75.94|N|To Gart Mistrunner.|
 T A Humble Task|QID|753|M|44.19,76.06|N|To Chief Hawkwind.|
-A Rites of the Earthmother|QID|755|N|From Chief Hawkwind.|
+A Rites of the Earthmother|QID|755|M|44.19,76.06|N|From Chief Hawkwind.|
 T Simple Note|QID|3091|C|Warrior|R|Tauren|M|44.02,76.13|N|To Harutt Thunderhorn.|
 T Etched Note|QID|3092|C|Hunter|R|Tauren|M|44.26,75.70|N|To Lanka Farshot.|
 
