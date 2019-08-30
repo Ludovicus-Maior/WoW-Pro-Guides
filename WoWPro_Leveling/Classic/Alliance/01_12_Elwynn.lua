@@ -28,7 +28,7 @@ r Sell Junk and Repair |QID|7|M|47.69,41.42|S|ACTIVE|7|N|Take this opportunity t
 T Kobold Camp Cleanup|QID|7|M|48.9,41.6|N|To Marshal McBride|
 
 A Glyphic Letter|QID|3104|C|Mage|M|48.9,41.6|PRE|7|N|From Marshal McBride|
-T Glyphic Letter|QID|3104|C|Mage|M|49.7,39.4|N|To Khelden Breman, first floor inside the Abbey. \nTake this opportunity to learn Arcane Intellect from the trainer.|
+T Glyphic Letter|QID|3104|C|Mage|M|49.7,39.4|N|To Khelden Breman, second floor inside the Abbey.\nTake this opportunity to learn Arcane Intellect from the trainer.|
 
 A Investigate Echo Ridge|QID|15|M|48.9,41.6|N|From Marshal McBride|
 A Encrypted Letter|QID|3102|C|Rogue|M|48.9,41.6|N|From Marshal McBride|
