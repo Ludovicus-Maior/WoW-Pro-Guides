@@ -317,11 +317,11 @@ N Theramore Medals|QID|891|QO|4|S|N|Kill Dwarves, Loot 10 Theramore Medals.|
 K Cannoneer Smythe|QID|891|T|Cannoneer Smythe|QO|3|M|63.1,56.7|N|Follow the path from the entrance, at top of the hill, turn right and approach the West tower. Clear mobs around the tower. Inside are 3 mobs, one of which is a cloth-wearing healer. This is a tricky fight, but possible. If you have to, use the same tactic we used for Hezrul Bloodmark. Once all 3 of them are dead, climb the tower. Canoneer Smythe is at the top with a guard..|
 K Cannoneer Whessan|QID|891|T|Cannoneer Whessan|QO|2|M|60.5,54.8|N|Now head to the East tower. Same routine as before, three guards on the ground level. Take them down, climb the tower, use any tactics you have and bring down Cannoneer Whessan, and leave the tower.|
 K Captain Fairmount|QID|891|T|Captain Fairmount slain|QO|1|M|61.8,54.7|N|Head back down the hill, clear mobs around the keep, mana/CDs ready. There are 4 mobs in this room, but they will pull 2 at a time. Range the healer then run around a corner to break her line of sight, and she'll come to get you. Do not take the Blood Elf's quest yet. Once the guards are dead, continue fighting  your way to the top of the tower, moving slowly and carefully. At the top of the tower, you will find ~ 4 regular mobs, and Captain Fairmount. The regular mobs should singly, so clear the area off until Fairmount is alone. Then simply kill her.|
-A Free From the Hold|QID|898|N|After Cptn Fairmount is dead, Head back down for the escort quest.|
-C Free From the Hold|QID|898|N|Escort Gilthares. Try to stay about 10 feet in front of him, and pull things towards you. He has a terrible habbit of running headlong into clusters of mobs and pulling more than you need to fight. He is also very fragile, so don't let him tank things for too long if you can help it. He will walk down the hill, to the main gates of Northwatch, then rest for a short while before heading north through the pirate camps. Escort him all the way to Ratchet.|
+A Free From the Hold|QID|898|N|After Cptn Fairmount is dead, Head back down for the escort quest.|M|61.93,54.92|
+C Free From the Hold|QID|898|N|Escort Gilthares. Try to stay close to him. Don't let him tank things for too long if you can help it. He will walk to the main gates of Northwatch, then heading north through the pirate camps. Escort him all the way to Ratchet.|
 C Theramore Medals|QID|891|QO|4|US|N|Loot 10 Theramore Medals.|
 T The Guns of Northwatch|QID|891|M|62.2,39|N|To Captain Thalo'thas Brightsun.|
-T Free From the Hold|QID|898|M|62.2,39|N|TO Captain Thalo'thas Brightsun.|
+T Free From the Hold|QID|898|M|62.2,39|N|To Captain Thalo'thas Brightsun.|
 T Deepmoss Spider Eggs|QID|1069|M|62.4,37.6|N|To Mebox Mizzyrix.|
 T The Escape|QID|863|M|63,37.2|N|To Sputtervalve.|
 A Ziz Fizziks |QID|1483|M|63,37.2|N|From Sputtervalve.|
