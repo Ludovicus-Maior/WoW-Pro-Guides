@@ -16,54 +16,61 @@ A A Threat Within|QID|783|M|48.15,42.95|N|From Deputy Willem|
 T A Threat Within|QID|783|M|48.9,41.6|N|To Marshal McBride, inside the Abbey|
 
 A Kobold Camp Cleanup|QID|7|M|48.9,41.6|N|From Marshal McBride|
-A Eagan Peltskinner|QID|5261|PRE|783|M|48.15,42.95|N|From Deputy Willem|
-T Eagan Peltskinner|QID|5261|M|48.9,40.2|N|To Eagan Peltskinner, outside the Abbey
+A Eagan Peltskinner|PRE|783|QID|5261|M|48.15,42.95|N|From Deputy Willem|
+T Eagan Peltskinner|QID|5261|M|48.9,40.2|N|To Eagan Peltskinner around back of the Abbey.|
 
-A Wolves Across the Border|QID|33|M|48.9,40.2|N|From Eagan Peltskinner|
-C Wolves Across the Border|QID|33|M|47.75,37.75|N|Kill and loot the Young Wolves for the Tough Wolf Meat.|
-T Wolves Across the Border|QID|33|M|48.9,40.2|N|To Eagan Peltskinner|
+A Wolves Across the Border|QID|33|M|48.9,40.2|N|From Eagan Peltskinner.|
+C Wolves Across the Border|QID|33|QO|1|M|47.0,39.7|N|Kill Wolves until you've looted 8 Diseased Wolf Pelts.|S|
+K Kobold Camp Cleanup|QID|7|QO|1|M|47.5,36.1|N|Kill 10 Kobold 'Vermin'. The 'Workers' don't count.||T|Kobold Vermin|
+C Wolves Across the Border|QID|33|QO|1|M|47.0,39.7|N|Kill wolves until you've looted 8 Diseased Wolf Pelts.|US|
+T Wolves Across the Border|QID|33|M|48.9,40.2|N|To Eagan Peltskinner.|
 
-C Kobold Camp Cleanup|QID|7|M|48.25,36.75|N|Kill the Kobold Vermin.\nNote: Kobold Workers do not count.|T|Kobold Vermin|
-r Sell Junk and Repair |QID|7|M|47.69,41.42|S|ACTIVE|7|N|Take this opportunity to sell any junk you may have accumulated with Godric Rothgar.|
-T Kobold Camp Cleanup|QID|7|M|48.9,41.6|N|To Marshal McBride|
+r Sell Junk and Repair|QID|7|M|47.69,41.42|S|ACTIVE|7|N|Take this opportunity to sell any junk you may have accumulated with Godric Rothgar.|
+T Kobold Camp Cleanup|QID|7|M|48.92,41.61|N|To Marshal McBride.|
 
-A Glyphic Letter|QID|3104|C|Mage|M|48.9,41.6|PRE|7|N|From Marshal McBride|
-T Glyphic Letter|QID|3104|C|Mage|M|49.7,39.4|N|To Khelden Breman, first floor inside the Abbey. \nTake this opportunity to learn Arcane Intellect from the trainer.|
+A Investigate Echo Ridge|QID|15|M|48.92,41.61|N|From Marshal McBride.|
+C Investigate Echo Ridge|QID|15|M|51.2,37.4|QO|1|N|Kill The Kobold Workers.\nThe Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|S|
 
-A Investigate Echo Ridge|QID|15|M|48.9,41.6|N|From Marshal McBride|
-A Encrypted Letter|QID|3102|C|Rogue|M|48.9,41.6|N|From Marshal McBride|
-A Hallowed Letter|QID|3103|C|Priest|M|48.9,41.6|N|From Marshal McBride|
-A Simple Letter|QID|3100|C|Warrior|M|48.9,41.6|N|From Marshal McBride|
-A Consecrated Letter|QID|3101|C|Paladin|M|48.9,41.6|N|From Marshal McBride|
-A Tainted Letter|QID|3105|C|Warlock|M|48.9,41.6|N|From Marshal McBride|
-A Brotherhood of Thieves|QID|18|PRE|783|LVL|2|M|48.15,42.95|N|From Deputy Willem|
+;   This quest changes depending upon your class.
+A Simple Letter|PRE|7|QID|3100|C|Warrior|R|Human|M|48.92,41.61|N|From Marshal McBride.|
+A Consecrated Letter|PRE|7|QID|3101|C|Paladin|R|Human|M|48.92,41.61|N|From Marshal McBride.|
+A Encrypted Letter|PRE|7|QID|3102|C|Rogue|R|Human|M|48.92,41.61|N|From Marshal McBride.|
+A Hallowed Letter|PRE|7|QID|3103|C|Priest|R|Human|M|48.92,41.61|N|From Marshal McBride.|
+A Glyphic Letter|PRE|7|QID|3104|C|Mage|R|Human|M|48.92,41.61|N|From Marshal McBride.|
+A Tainted Letter|PRE|7|QID|3105|C|Warlock|R|Human|M|48.92,41.61|N|From Marshal McBride.|
 
-T Encrypted Letter|QID|3102|C|Rogue|M|50.3,39.9|N|To Jorik Kerridan. \nTake this opportunity to learn class specific spells from the trainer.|
-T Hallowed Letter|QID|3103|C|Priest|M|49.8,39.5|N|To Priestess Anetta. \nTake this opportunity to learn class specific spells from the trainer.|
-T Simple Letter|QID|3100|C|Warrior|M|50.2,42.3|N|To Llane Beshere. \nTake this opportunity to learn class specific spells from the trainer.|
-T Consecrated Letter|QID|3101|C|Paladin|M|50.5,42.0|N|To Brother Sammuel. \nTake this opportunity to learn class specific spells from the trainer.|
-T Tainted Letter|QID|3105|C|Warlock|M|49.9,42.6|N|To Drusilla La Salle. \nTake this opportunity to learn class specific spells from the trainer.|
+T Simple Letter|QID|3100|M|50.24,42.28|N|To Llane Beshere in the Hall of Arms. \nTake this opportunity to learn class specific spells from the trainer.|
+T Consecrated Letter|QID|3101|M|50.43,42.12|N|To Brother Sammuel in the Hall of Arms. \nTake this opportunity to learn class specific spells from the trainer.|
+T Encrypted Letter|QID|3102|M|50.3,39.9|N|To Jorik Kerridan is outside in the barn at the back of the Abbey. \nTake this opportunity to learn class specific spells from the trainer.|
+T Hallowed Letter|QID|3103|M|49.81,39.49|N|To Priestess Anetta in the alcove off the Library Wing. \nTake this opportunity to learn class specific spells from the trainer.|
+T Glyphic Letter|QID|3104|M|48.92,41.61|N|To Khelden Bremen upstairs in the Library Wing.|
+T Tainted Letter|QID|3105|M|49.9,42.6|N|To Drusilla La Salle outside on the right side of the Abbey. \nTake this opportunity to learn class specific spells from the trainer.|
 
-C Investigate Echo Ridge|QID|15|M|51.2,37.4|N|Kill The Kobold Workers.\nThe Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|
-C Brotherhood of Thieves|QID|18|M|54.6,41.9|N|Kill and loot the Defias mobs for the Red Burlap Bandanas.|
+A Brotherhood of Thieves|PRE|7|QID|18|R|Human|M|48.17,42.95|N|From Deputy Willem.|
+C Brotherhood of Thieves|QID|18|M|54.6,41.9|QO|1|N|Kill and loot the Defias mobs for the Red Burlap Bandanas.|S|
+
+C Investigate Echo Ridge|QID|15|M|51.2,37.4|QO|1|N|Kill The Kobold Workers.\nThe Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|US|
+C Brotherhood of Thieves|QID|18|M|54.6,41.9|QO|1|N|Kill and loot the Defias mobs for the Red Burlap Bandanas.|US|
 
 ;Hearthstone takes you to Northshire Valley, not Northshire Abbey therefore label says Valley for auto-complete
-H Northshire Abbey|QID|18|N|Either Hearthstone back, or run back to Northshire Abbey.|TZ|Northshire Valley|
+H Northshire Valley|QID|18|N|Either Hearthstone back, or run back to Northshire Abbey.|
 
 T Brotherhood of Thieves|QID|18|M|48.15,42.95|N|To Deputy Willem|
 A Milly Osworth|QID|3903|M|48.15,42.95|N|From Deputy Willem|
 A Bounty on Garrick Padfoot|QID|6|M|48.15,42.95|N|From Deputy Willem|
 
-N Level 4 class skills |QID|15|S|LVL|4|N|Remember to visit your class trainer to learn your Level 4 skill!|
-r Sell and Repair|QID|15|S|M|47.7,41.4|ACTIVE|15|N|Sell and Repair at Godric Rothgar.|
-
 T Investigate Echo Ridge|QID|15|M|48.9,41.6|N|To Marshal McBride|
 A Skirmish at Echo Ridge|QID|21|PRE|15|M|48.9,41.6|N|From Marshal McBride|
-C Skirmish at Echo Ridge|QID|21|M|47.7,31.7|N|Kill the Kobold Laborers. They are found inside Echo Ridge Mine.|
+
+N Level 4 class skills|QID|3903|S|LVL|4|N|Remember to visit your class trainer to learn your Level 4 skill!|
+r Sell and Repair|ACTIVE|3903|S|M|47.7,41.4|N|Sell and Repair at Godric Rothgar.|
+
 T Milly Osworth|QID|3903|M|50.7,39.3|N|To Milly Osworth|
 A Milly's Harvest|QID|3904|M|50.7,39.3|PRE|3904|N|From Milly Osworth|
-C Milly's Harvest|QID|3904|M|54.0,47.8|NC|N|Collect Milly's Harvest Barrels from the vineyards.|
+C Skirmish at Echo Ridge|QID|21|M|47.7,31.7|N|Kill the Kobold Laborers. They are found inside Echo Ridge Mine.|
+C Milly's Harvest|QID|3904|M|54.0,47.8|NC|N|Collect Milly's Harvest Barrels from the vineyards.|S|
 C Bounty on Garrick Padfoot|QID|6|M|57.56,48.42|N|Kill Garrick Padfoot and loot his head.|T|Garrick Padfoot|
+C Milly's Harvest|QID|3904|M|54.0,47.8|NC|N|Collect Milly's Harvest Barrels from the vineyards.|US|
 T Milly's Harvest|QID|3904|M|50.7,39.3|N|To Milly Osworth|
 A Grape Manifest|QID|3905|M|50.7,39.3|PRE|3904|N|From Milly Osworth|
 
@@ -72,7 +79,7 @@ T Skirmish at Echo Ridge|QID|21|M|48.9,41.6|N|To Marshal McBride|
 A Report to Goldshire|QID|54|PRE|21|M|48.9,41.6|N|From Marshal McBride|
 T Grape Manifest|QID|3905|M|49.5,41.6|N|To Brother Neals, inside the abbey up the spiral staircase to the top floor.|
 
-r Sell and Repair|QID|6|S|M|47.7,41.4|ACTIVE|6|N|Sell and Repair at Godric Rothgar.|
+r Sell and Repair|ACTIVE|6|S|M|47.7,41.4|N|Sell and Repair at Godric Rothgar.|
 T Bounty on Garrick Padfoot|QID|6|M|48.15,42.95|N|To Deputy Willem|
 A Rest and Relaxation|QID|2158|M|45.6,47.7|N|From Falkhaan Isenstrider, at the entrance to Northshire Valley|
 R Goldshire|QID|54|M|44.25,62.50|N|Follow the road down to Goldshire.|
