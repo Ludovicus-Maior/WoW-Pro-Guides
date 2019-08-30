@@ -70,12 +70,12 @@ N Turn in all your quests|N|Leaving speaking to Vimes last.|
 R Barrens|ACTIVE|1111|M|27.8,46.6|Z|Dustwallow Marsh|N|Follow the road same as you did last time to the Barrens.|
 R Ratchet|ACTIVE|1111|Z|The Barrens|M|62.7,36.2|N|Run northest to Ratchet.| 
 T Goblin Sponsorship|N|Turn in your quest to Gazlowe.|QID|1178|Z|The Barrens|M|62.7,36.2|
-A Goblin Sponsorship (Follow-up)|QID|1180|Z|The Barrens|M|62.7,36.2|N|From Gazlowe.|
+A Goblin Sponsorship |QID|1180|Z|The Barrens|M|62.7,36.2|N|From Gazlowe.|
 T Wharfmaster Dizzywig|QID|1111|Z|The Barrens|M|63.4,38.5|N|To Wharfmaster Dizzywig.|
 A Parts for Kravel|QID|1112|Z|The Barrens|M|63.4,38.5|N|From Wharfmaster Dizzywig.|
 b Booty Bay|QID|1181|N|Take the boat to Booty Bay.|Z|The Barrens|M|63.60,38.60|
-T Goblin Sponsorship (part 1)|QID|1180|M|26.3,73.6|Z|Stranglethorn Vale|
-A Goblin Sponsorship (part 2)|QID|1181|M|26.3,73.6|Z|Stranglethorn Vale|
+T Goblin Sponsorship |QID|1180|M|26.3,73.6|Z|Stranglethorn Vale|
+A Goblin Sponsorship |QID|1181|M|26.3,73.6|Z|Stranglethorn Vale|
 h Booty Bay|QID|1181|N|Make Booty Bay your home location.|M|27.00,77.30|Z|Stranglethorn Vale|
 f Booty Bay|QID|1181|M|27.4,77.6|Z|Stranglethorn Vale|N|Pick up the flightpath at Gyll.|
 
@@ -87,7 +87,7 @@ A Supplies to Private Thorsen|QID|198|M|26.9,77.2|Z|Stranglethorn Vale|N|From Kr
 T The Haunted Isle|QID|616|M|27.2,77.0|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
 A The Stone of the Tides|QID|578|M|27.2,77.0|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
 T Goblin Sponsorship|QID|1181|M|27.2,77.0|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
-A Goblin Sponsorship (follow-up)|QID|1182|M|27.2,77.0|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
+A Goblin Sponsorship |QID|1182|M|27.2,77.0|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
 A Singing Blue Shards|QID|605|M|27.1,77.2|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|
 A Scaring Shaky|QID|606|M|27.8,77.1|Z|Stranglethorn Vale|N|From "Sea Wolf" McKinley.|
 A Supply and Demand|QID|575|M|28.3,77.6|Z|Stranglethorn Vale|N|From Drizzlik.|
@@ -140,21 +140,21 @@ A Special Forces|QID|574|M|38.0,3.3|Z|Stranglethorn Vale|
 C Tiger Mastery|US|N|Kill the rest of the Young Tigers you need for Tiger Mastery.|QID|185|M|32.30,9.40|Z|Stranglethorn Vale|
 C Panther Mastery|US|N|Kill 10 Young Panthers for the Panther Mastery quest.|QID|190|M|41.00,10.00|Z|Stranglethorn Vale|
 T Tiger Mastery|QID|185|M|35.8,10.7|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
-A Tiger Mastery (follow-up)|QID|186|M|35.8,10.7|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+A Tiger Mastery |QID|186|M|35.8,10.7|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 T Panther Mastery|QID|190|M|35.8,10.7|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
-A Panther Mastery (follow-up)|QID|191|M|35.8,10.7|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
-C Panther Mastery (follow-up)|N|Kill Panthers and Tigers until you complete both quests.|QID|191|M|30.00,9.00|Z|Stranglethorn Vale|
-C Tiger Mastery (follow-up)|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|
+A Panther Mastery |QID|191|M|35.8,10.7|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
+C Panther Mastery |N|Kill Panthers and Tigers until you complete both quests.|QID|191|M|30.00,9.00|Z|Stranglethorn Vale|
+C Tiger Mastery |QID|186|M|30.00,9.00|Z|Stranglethorn Vale|
 C Raptor Mastery|N|Go southwest and kill 10 Stranglethorn Raptors.|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|
 C Bloodscalp Ears|N|Get 15 bloodscalp ears from the Trolls here.  There are several other camps, one at 33,15, that you can kill Trolls at as well.|QID|189|M|29.00,20.00|Z|Stranglethorn Vale|
 C Singing Blue Shards|N|Go west and kill Basilisks until you get ten Singing Crystal Shards.|QID|605|M|26.80,18.70|Z|Stranglethorn Vale|
 C The Stone of the Tides|N|Swim to the island until you get the quest complete message for The Stone of the Tides.|QID|578|M|21.00,22.00|Z|Stranglethorn Vale|
 T Tiger Mastery|QID|186|M|35.8,10.7|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
-A Tiger Mastery (part 3)|QID|187|M|35.8,10.7|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+A Tiger Mastery |QID|187|M|35.8,10.7|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 T Panther Mastery|QID|191|M|35.8,10.7|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
-A Panther Mastery (part 3)|QID|192|M|35.8,10.7|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
+A Panther Mastery |QID|192|M|35.8,10.7|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
 T Raptor Mastery|QID|194|M|35.8,10.7|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
-A Raptor Mastery (part 2)|QID|195|M|35.8,10.7|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+A Raptor Mastery |QID|195|M|35.8,10.7|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
 N Green Hills of Stranglethorn|N|Turn in any Green Hills of Stranglethorn quests that you can turn in while you are here.|Z|Stranglethorn Vale|
 L Level Check: 3 bubbles from 34|LVL|33;46325|
 
@@ -188,14 +188,14 @@ C Hostile Takeover|N|Kill geologists here until you finish Hostile Takeover.  Ki
 C Some Assembly Required|N|Kill Snapjaw Crocolisks until you get the skins needed for this quest.  They can be found in or near the river.|QID|577|M|39.60,17.30|Z|Stranglethorn Vale|
 C Tiger Mastery|N|Kill Elder Stranglethorn Tigers at this location until you complete Tiger Mastery.|QID|187|M|32.20,15.20|Z|Stranglethorn Vale|
 T Raptor Mastery|QID|195|M|35.8,10.7|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
-A Raptor Mastery (follow-up)|QID|196|M|35.8,10.7|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+A Raptor Mastery |QID|196|M|35.8,10.7|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
 T Tiger Mastery|QID|187|M|35.8,10.7|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
-A Tiger Mastery (follow-up)|QID|188|M|35.8,10.7|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+A Tiger Mastery |QID|188|M|35.8,10.7|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 C Special Forces|N|Kill Kurzen in and near this cave until you complete the quest.|QID|574|M|45.40,8.50|
-C Tiger Mastery (follow-up)|N|Kill Sin'dall and loot his paw.|QID|188|M|32.20,17.30|Z|Stranglethorn Vale|
+C Tiger Mastery |N|Kill Sin'dall and loot his paw.|QID|188|M|32.20,17.30|Z|Stranglethorn Vale|
 C Water Elementals|QID|601|M|21,21|Z|Stranglethorn Vale|N|Kill and loot water elementals until you have the required bracers.|
 N Grind to 3 Bubbles from 35|QID|188|M|21,21|LVL|34;49810|Z|Stranglethorn Vale|
-T Tiger Mastery (follow-up)|QID|188|M|35.8,10.7|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
+T Tiger Mastery |QID|188|M|35.8,10.7|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 N Green Hills of Stranglethorn|QID|574|N|Turn in any Green Hills of Stranglethorn pages you have.|Z|Stranglethorn Vale|
 T Special Forces|QID|574|M|38.0,3.1|Z|Stranglethorn Vale|
 A Colonel Kurzen|QID|202|M|38.0,3.1|Z|Stranglethorn Vale|
@@ -232,10 +232,10 @@ A Farren's Proof|QID|559|M|51.5,58.4|Z|Hillsbrad Foothills|N|To Lieutenant Farre
 C Farren's Proof|QID|559|M|46,63|Z|Hillsbrad Foothills|N|Go back to the western shore and complete this quest.|
 L Level check: 35|QID|561|LVL|35|
 T Farren's Proof|QID|559|M|51.5,58.4|Z|Hillsbrad Foothills|N|To Lieutenant Farren Orinelle.|
-A Farren's Proof (follow-up)|QID|560|M|51.5,58.4|Z|Hillsbrad Foothills|N|To Lieutenant Farren Orinelle.|
-T Farren's Proof (follow-up)|QID|560|M|49.5,58.7|Z|Hillsbrad Foothills|N|Turn in your quest to Marshal Redpath.|
-A Farren's Proof (follow-up 2)|QID|561|M|49.5,58.7|Z|Hillsbrad Foothills|N|Get the follow-up.|
-T Farren's Proof (follow-up 2)|QID|561|M|51.5,58.4|Z|Hillsbrad Foothills|N|Turn in your quest to Lieutenant Fahren.|
+A Farren's Proof |QID|560|M|51.5,58.4|Z|Hillsbrad Foothills|N|To Lieutenant Farren Orinelle.|
+T Farren's Proof |QID|560|M|49.5,58.7|Z|Hillsbrad Foothills|N|Turn in your quest to Marshal Redpath.|
+A Farren's Proof |QID|561|M|49.5,58.7|Z|Hillsbrad Foothills|N|Get the follow-up.|
+T Farren's Proof |QID|561|M|51.5,58.4|Z|Hillsbrad Foothills|N|Turn in your quest to Lieutenant Fahren.|
 A Stormwind Ho!|QID|562|M|51.5,58.4|Z|Hillsbrad Foothills|
 
 N Sell junk, repair, restock.|QID|562|N|Sell junk, repair, restock.|
@@ -245,21 +245,21 @@ A Reassignment|QID|563|M|51.5,58.4|Z|Hillsbrad Foothills|
 F Refuge Pointe|QID|659|N|Fly to Refuge Pointe.|M|49.30,52.30|Z|Hillsbrad Foothills|
 A Worth Its Weight in Gold|QID|691|Z|Arathi Highlands|M|46.2,47.8|
 T Hints of a New Plague?|N||QID|659|Z|Arathi Highlands|M|60.00,53.00|
-A Hints of a New Plague? (part 2)|QID|658|Z|Arathi Highlands|M|60.2,53.9|
-C Hints of a New Plague? (part 2)|N|You are looking for a Forsaken Courier and several bodyguards.  This quest is not easy, but there is a trick to it.  You have to kill the Courier and loot the envelope by using some means to distract the guards.  If you cannot solo this, get some assistance from somebody.  The courier wanders on the road throughout the zone.|QID|658|
-T Hints of a New Plague? (part 2)|QID|658|Z|Arathi Highlands|M|60.2,53.9|
-A Hints of a New Plague? (part 3)|QID|657|Z|Arathi Highlands|M|60.2,53.9|
-T Hints of a New Plague? (part 3)|QID|657|Z|Arathi Highlands|M|60.2,53.9|
-A Hints of a New Plague? (part 4)|QID|660|Z|Arathi Highlands|M|60.2,53.9|
-C Hints of a New Plague? (part 4)|QID|660|Z|Arathi Highlands|M|60.2,53.9|N|Kinelory is better off in front of you. Try to fight one at a time, but let Kinelory be the one to attract mobs.|
-T Hints of a New Plague? (part 4)|QID|660|Z|Arathi Highlands|M|60.2,53.9|
-A Hints of a New Plague? (part 5)|QID|661|Z|Arathi Highlands|M|60.2,53.9|
+A Hints of a New Plague? |QID|658|Z|Arathi Highlands|M|60.2,53.9|
+C Hints of a New Plague? |N|You are looking for a Forsaken Courier and several bodyguards.  This quest is not easy, but there is a trick to it.  You have to kill the Courier and loot the envelope by using some means to distract the guards.  If you cannot solo this, get some assistance from somebody.  The courier wanders on the road throughout the zone.|QID|658|
+T Hints of a New Plague? |QID|658|Z|Arathi Highlands|M|60.2,53.9|
+A Hints of a New Plague? |QID|657|Z|Arathi Highlands|M|60.2,53.9|
+T Hints of a New Plague? |QID|657|Z|Arathi Highlands|M|60.2,53.9|
+A Hints of a New Plague? |QID|660|Z|Arathi Highlands|M|60.2,53.9|
+C Hints of a New Plague? |QID|660|Z|Arathi Highlands|M|60.2,53.9|N|Kinelory is better off in front of you. Try to fight one at a time, but let Kinelory be the one to attract mobs.|
+T Hints of a New Plague? |QID|660|Z|Arathi Highlands|M|60.2,53.9|
+A Hints of a New Plague? |QID|661|Z|Arathi Highlands|M|60.2,53.9|
 N Witherbark Tusk|QID|691|N|Kill Trolls until you get 10 tusks for the quest.|L|4503 10|Z|Arathi Highlands|M|63.00,65.00|
 N Witherbark Medicine Pouch|QID|691|N|Kill Witch Doctors to get the Medicine Pouches needed for the quest.|L|4522 4|
 C Worth Its Weight in Gold|N|Kill Witherbark Shadow Hunters in the cave until you get the Shadow Hunter Knife|QID|691|Z|Arathi Highlands|M|68.00,75.00|
 T Worth Its Weight in Gold|N|Turn in your quest at Refuge Pointe.|QID|691|Z|Arathi Highlands|M|46.2,47.8|
 H Southshore|QID|661|N|Hearth to Southshore.|
-T Hints of a New Plague? (part 5)|QID|661|M|50.3,59.0|Z|Hillsbrad Foothills|
+T Hints of a New Plague? |QID|661|M|50.3,59.0|Z|Hillsbrad Foothills|
 N Sell junk, repair, restock|QID|564|N|Sell junk, repair, restock|
 
 R Alterac Mountains|QID|564|M|54.60,8.00|Z|Hillsbrad Foothills|
@@ -319,27 +319,27 @@ f Nijel's Point|QID|1437|N|Get the flight path.|M|64.65,10.55|Z|Desolace|
 
 C Reagents for Reclaimers Inc.|QID|1458|M|75.00,20.00|Z|Desolace|N|Kill Satyrs until you get the items needed for this quest.|
 T Vahlarriel's Search|QID|1437|M|56.00,17.00|Z|Desolace|N|Loot the crate here and turn in the quest.|
-A Vahlarriel's Search (part 2)|QID|1465|M|56.5,17.8|Z|Desolace|N|Get the follow-up.|
-T Vahlarriel's Search (part 2)|QID|1465|M|66.4,11.8|Z|Desolace|
-A Vahlarriel's Search (part 3)|QID|1438|M|66.4,11.8|Z|Desolace|
+A Vahlarriel's Search |QID|1465|M|56.5,17.8|Z|Desolace|N|Get the follow-up.|
+T Vahlarriel's Search |QID|1465|M|66.4,11.8|Z|Desolace|
+A Vahlarriel's Search |QID|1438|M|66.4,11.8|Z|Desolace|
 T Reagents for Reclaimers Inc.|QID|1458|M|66.2,9.6|Z|Desolace|
 N Sell junk, repair, restock.|QID|1454|N|Sell junk, repair, restock.|
 A Sceptre of Light|QID|5741|M|38.9,27.2|Z|Desolace|
 T The Karnitol Shipwreck|QID|1454|M|36.00,30.00|Z|Desolace|N|Turn in your quest to the Ravnitol Chest.|
-A The Karnitol Shipwreck (follow-up)|QID|1455|M|36.1,30.4|Z|Desolace|
+A The Karnitol Shipwreck |QID|1455|M|36.1,30.4|Z|Desolace|
 A Claim Rackmore's Treasure!|QID|6161|M|36.1,30.4|Z|Desolace|N|Click the 'Rackmore's Log' (book) next to the chest to get this quest.|
 N Rackmore's Silver Key|QID|1438|L|15878 1|M|34.50,32.00|Z|Desolace|N|Kill Drysnaps around the ship until you get a silver key.|
 C Claim Rackmore's Treasure!|QID|6161|M|34.4,31.3|Z|Desolace|N|Go north and kill Nagas until you get a golden key.|
 C Sceptre of Light|QID|5741|M|56.00,30.00|Z|Desolace|N|Kill the Seer at the top of the guard tower in the fort to get the Sceptre of Light.|
-T Vahlarriel's Search (part 3)|QID|1438|M|54.9,26.1|Z|Desolace|N|Turn in your quest to Dalinda in the large building.|
+T Vahlarriel's Search |QID|1438|M|54.9,26.1|Z|Desolace|N|Turn in your quest to Dalinda in the large building.|
 A Search for Tyranis|QID|1439|M|54.9,26.1|Z|Desolace|
 C Search for Tyranis|QID|1439|M|52.80,28.80|Z|Desolace|N|Kill Tyranis in the other building and get the pendant.|
 T Search for Tyranis|QID|1439|M|54.9,26.1|Z|Desolace|N|If you clear the building while going up to Dalinda, it will make the escort quest out much easier.|
 A Return to Vahlarriel|QID|1440|M|54.9,26.1|Z|Desolace|N|Get the escort quest from Dalinda.|
 C Return to Vahlarriel|QID|1440|M|54.9,26.1|Z|Desolace|N|Complete the escort quest, do not let the NPC die. You only have to get her safely out of the building.|
 T Return to Vahlarriel|QID|1440|M|66.4,11.8|Z|Desolace|
-T The Karnitol Shipwreck (part 2)|QID|1455|M|66.2,9.6|Z|Desolace|
-A The Karnitol Shipwreck (part 3)|QID|1456|Z|Desolace|
+T The Karnitol Shipwreck |QID|1455|M|66.2,9.6|Z|Desolace|
+A The Karnitol Shipwreck |QID|1456|Z|Desolace|
 r Sell junk, repair, restock.|QID|5741|N|Sell junk, repair, restock.|
 
 A Bone Collector|QID|5501|M|62.3,39.0|Z|Desolace|N|Go south and accept this quest.|
@@ -362,9 +362,9 @@ T Bone Collector|QID|5501|M|62.3,39.0|Z|Desolace|
 R Nijel's Point|QID|261|M|66.70,11.00|Z|Desolace|
 T Centaur Bounty|QID|1387|Z|Desolace|
 T The Karnitol Shipwreck|QID|1456|Z|Desolace|
-A The Karnitol Shipwreck (follow-up)|QID|1457|Z|Desolace|
+A The Karnitol Shipwreck |QID|1457|Z|Desolace|
 T Down the Scarlet Path|QID|261|Z|Desolace|
-A Down the Scarlet Path (follow-up)|QID|1052|Z|Desolace|
+A Down the Scarlet Path |QID|1052|Z|Desolace|
 H Ironforge|QID|1457|N|Hearth to Ironforge.|
 T The Karnitol Shipwreck|QID|1457|
 
@@ -396,27 +396,27 @@ T Martek the Exiled|QID|1106|M|42.2,52.7|Z|Badlands|N|To Martek the Exiled.|
 A Indurium|QID|1108|M|42.2,52.7|Z|Badlands|N|From Martek the Exiled.|
 A Barbecued Buzzard Wings|QID|703|M|42.4,52.8|Z|Badlands|N|From Rigglefuzz.|
 r Repair & Restock|ACTIVE|703|M|42.4,52.8|Z|Badlands|N|FYI, This is the only alliance vendor and repairer in all of Badlands.|
-A Study of the Elements: Rock (part 1)|QID|710|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
+A Study of the Elements: Rock |QID|710|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
 A Coolant Heads Prevail|QID|713|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
 T Coolant Heads Prevail|QID|713|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
 A Gyro... What?|QID|714|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
 T Gyro... What?|QID|714|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
-C Study of the Elements: Rock (part 1)|QID|710|M|23.00,43.00|Z|Badlands|N|Go west of Lotwil and kill Lesser Elementals  until you get 10 Small Stone Shards.|
+C Study of the Elements: Rock |QID|710|M|23.00,43.00|Z|Badlands|N|Go west of Lotwil and kill Lesser Elementals  until you get 10 Small Stone Shards.|
 L Level Check|ACTIVE|710|LVL|39|N|If you didn't go to Scarlet Monastery there is a bit of a grinding session here or at Angor Fortress until you hit level 39.|
-T Study of the Elements: Rock (part 1)|QID|710|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
-A Study of the Elements: Rock (part 2)|QID|711|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
-A A Sign of Hope (part 1)|QID|720|M|53.00,34.00|Z|Badlands|N|Get quest from map on the ground here.|
+T Study of the Elements: Rock |QID|710|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
+A Study of the Elements: Rock |QID|711|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
+A A Sign of Hope |QID|720|M|53.00,34.00|Z|Badlands|N|Get quest from map on the ground here.|
 C A Dwarf and His Tools|QID|719|M|52.3,30.4|Z|Badlands|N|Kill Dwarves around here until you get 'Ryedol's Lucky Pick' for this quest.|
 C Mirages|QID|718|M|66.60,21.50|Z|Badlands|NC|N|Loot the Supply Crate at this location.|
 T A Dwarf and His Tools|QID|719|M|53.6,43.3|Z|Badlands|N|To Prospecter Ryedol.|
-T A Sign of Hope (part 1)|QID|720|M|53.6,43.3|Z|Badlands|
+T A Sign of Hope |QID|720|M|53.6,43.3|Z|Badlands|
 T Mirages|QID|718|M|53.6,43.3|Z|Badlands|N|To Sigrun Ironhew.|
 A Scrounging|QID|733|M|53.6,43.3|Z|Badlands|N|From Sigrun Ironhew.|
 T Find Agmond|QID|738|M|50.00,62.00|Z|Badlands|N|To Battered Dwarven Skeleton.|
 A Murdaloc|QID|739|M|50.9,62.4|Z|Badlands|N|From Battered Dwarven Skeleton.|
 C Murdaloc|QID|739|M|50.00,68.00|Z|Badlands|N|Kill Stonevault Bonesnappers and Murdaloc at this location. Collect Indurium Flakes as well.|
 C Indurium|QID|1108|M|51.8,65.6|Z|Badlands|N|Continue to kill Stonevault mobs until you complete this quest.|
-C Study of the Elements: Rock (part 2)|QID|711|M|39.00,74.00|Z|Badlands|N|Kill Rock Elementals until you get 3 Large Stone Slabs for this quest.|
+C Study of the Elements: Rock |QID|711|M|39.00,74.00|Z|Badlands|N|Kill Rock Elementals until you get 3 Large Stone Slabs for this quest.|
 C Scrounging|QID|733|M|10.00,72.00|Z|Badlands|N|Kill ogres here until you get 7 Scrap Metals. (low drop rate)|
 C Barbecued Buzzard Wings|QID|703|Z|Badlands|N|Kill Buzzards until you get 4 Buzzard Wings|
 C Badlands Reagent Run|QID|2500|M|16.00,60.00|Z|Badlands|US|N|Finish gathering the materials needed for this quest by killing Buzzards, Coyotes, and Rock Elementals.|
@@ -425,8 +425,8 @@ A News for Fizzle|QID|1137|M|42.2,52.7|Z|Badlands|N|From Martek the Exiled.|
 T Barbecued Buzzard Wings|QID|703|M|42.4,52.8|Z|Badlands|N|To Rigglefuzz.|
 r Sell junk, repair|ACTIVE|2500|M|42.4,52.8|Z|Badlands|N|Sell junk, repair|
 T Scrounging|QID|733|M|53.6,43.3|Z|Badlands|N|To Sigrun Ironhew.|
-T Study of the Elements: Rock (part 2)|QID|711|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
-A Study of the Elements: Rock (part 3)|QID|712|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
+T Study of the Elements: Rock |QID|711|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
+A Study of the Elements: Rock |QID|712|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
 L Level Check|ACTIVE|2500|L|40|N|Grind if you aren't to level 40 yet.|
 H Ironforge|ACTIVE|2500|N|Back to Ironforge for training, AH, etc.|
 N Train|ACTIVE|2500|N|Grab your new skills, visit the AH, vendor junk, repair, restock, etc.|
@@ -435,19 +435,19 @@ F Thelsamar|ACTIVE|2500|N|Fly to Thelsamar, Loch Modan|Z|Ironforge|M|55.50,47.80
 T Badlands Reagent Run|QID|2500|M|37,49.2|Z|Loch Modan|N|To Ghak Healtouch.|
 T Murdaloc|QID|739|M|65.9,65.6|Z|Loch Modan|N|To Prospecter Ironband.|
 R Badlands|QID|712|M|47.00,86.00|Z|Loch Modan|N|And back to Badlands.|
-C Study of the Elements: Rock (part 3)|QID|712|M|17.00,83.00|Z|Badlands|N|Kill Greater Rock Elementals here until you get the Bracers of Rock Binding for this quest.  There are more Elementals west of this location.|
+C Study of the Elements: Rock |QID|712|M|17.00,83.00|Z|Badlands|N|Kill Greater Rock Elementals here until you get the Bracers of Rock Binding for this quest.  There are more Elementals west of this location.|
 L Level Check|ACTIVE|712|M|17.00,83.00|Z|Badlands|L|40;85700|N|Grind to about 1 bubble from 41. Note, this can be a long grinding session, if that doesn't appeal to you I really suggest you do Scarlet Monastery. Finishing up Stranglethorn is going to happen soon, if you want to stay with the guide, don't go there yet. Other than that, grind wherever you like.|
-T Study of the Elements: Rock (part 3)|QID|712|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
-A This Is Going to Be Hard (part 1)|QID|734|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
+T Study of the Elements: Rock |QID|712|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
+A This Is Going to Be Hard |QID|734|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
 A Stone Is Better than Cloth|QID|716|M|25.9,44.6|Z|Badlands|N|From Lucian Tosselwrench.|
 T Stone Is Better than Cloth|QID|716|Z|Badlands|N|To Lucian Tosselwrench. (you do have those bracers with you, right)|
-T This Is Going to Be Hard (part 1)|QID|734|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
-A This Is Going to Be Hard (part 2)|QID|777|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
-T This Is Going to Be Hard (part 2)|QID|777|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
+T This Is Going to Be Hard |QID|734|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
+A This Is Going to Be Hard |QID|777|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
+T This Is Going to Be Hard |QID|777|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
 N NOTE: Be forwarned|QID|778|N|A level 45 Elemental will spawn after accepting the next quest.|
-A This Is Going to Be Hard (part 3)|QID|778|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
-C This Is Going to Be Hard (part 3)|QID|778|M|25.9,44.6|Z|Badlands|T|Fam'retor Elemental|N|Kill the Elemental and loot the shackles.|
-T This Is Going to Be Hard (part 3)|QID|778|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
+A This Is Going to Be Hard |QID|778|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
+C This Is Going to Be Hard |QID|778|M|25.9,44.6|Z|Badlands|T|Fam'retor Elemental|N|Kill the Elemental and loot the shackles.|
+T This Is Going to Be Hard |QID|778|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
 H Ironforge|N|Hearth to Ironforge.|
 N Chapter II of this guide starts in Stormwind and will load after you check off this step.|
 ]]

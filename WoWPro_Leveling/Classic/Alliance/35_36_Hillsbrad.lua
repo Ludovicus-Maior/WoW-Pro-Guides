@@ -11,10 +11,10 @@ A Costly Menace|QID|564|M|52.4,56.0|
 C Farren's Proof|N|Go to the western shore and complete this quest.|QID|559|M|47.20,64.20|
 N Level check: 35|QID|561|N|Actually, you should instead be 3000 or less XP away from 35 and have 10 murloc heads.|
 T Farren's Proof|QID|559|M|51.5,58.4|
-A Farren's Proof (follow-up)|QID|560|M|51.5,58.4|
-T Farren's Proof (follow-up)|N|Turn in your quest to Marshal Redpath.|QID|560|M|49.5,58.7|
-A Farren's Proof (follow-up 2)|N|Get the follow-up.|QID|561|M|49.5,58.7|
-T Farren's Proof (follow-up 2)|N|Turn in your quest to Lieutenant Fahren.|QID|561|M|51.5,58.4|
+A Farren's Proof |QID|560|M|51.5,58.4|
+T Farren's Proof |N|Turn in your quest to Marshal Redpath.|QID|560|M|49.5,58.7|
+A Farren's Proof |N|Get the follow-up.|QID|561|M|49.5,58.7|
+T Farren's Proof |N|Turn in your quest to Lieutenant Fahren.|QID|561|M|51.5,58.4|
 A Stormwind Ho!|QID|562|M|51.5,58.4|
 
 N Sell junk, repair, restock.|QID|562|N|Sell junk, repair, restock.|
@@ -25,21 +25,21 @@ A Reassignment|QID|563|M|51.5,58.4|
 F Refuge Pointe|QID|659|N|Fly to Refuge Pointe.|M|49.30,52.30|
 A Worth Its Weight in Gold|QID|691|Z|Arathi Highlands|M|46.2,47.8|
 T Hints of a New Plague?|QID|659|Z|Arathi Highlands|M|60.00,53.00|
-A Hints of a New Plague? (part 2)|QID|658|Z|Arathi Highlands|M|60.2,53.9|
-C Hints of a New Plague? (part 2)|N|You are looking for a Forsaken Courier and several bodyguards.  This quest is not easy, but there is a trick to it.  You have to kill the Courier and loot the envelope by using some means to distract the guards.  If you cannot solo this, get some assistance from somebody.  The courier wanders on the road throughout the zone.|QID|658|
-T Hints of a New Plague? (part 2)|QID|658|Z|Arathi Highlands|M|60.2,53.9|
-A Hints of a New Plague? (part 3)|QID|657|Z|Arathi Highlands|M|60.2,53.9|
-T Hints of a New Plague? (part 3)|QID|657|Z|Arathi Highlands|M|60.2,53.9|
-A Hints of a New Plague? (part 4)|QID|660|Z|Arathi Highlands|M|60.2,53.9|
-C Hints of a New Plague? (part 4)|N|Kinelory is better off in front of you.  Try to fight one at a time, but let Kinelory be the one to attract mobs.|QID|660|
-T Hints of a New Plague? (part 4)|QID|660|Z|Arathi Highlands|M|60.2,53.9|
-A Hints of a New Plague? (part 5)|QID|661|Z|Arathi Highlands|M|60.2,53.9|
+A Hints of a New Plague? |QID|658|Z|Arathi Highlands|M|60.2,53.9|
+C Hints of a New Plague? |N|You are looking for a Forsaken Courier and several bodyguards.  This quest is not easy, but there is a trick to it.  You have to kill the Courier and loot the envelope by using some means to distract the guards.  If you cannot solo this, get some assistance from somebody.  The courier wanders on the road throughout the zone.|QID|658|
+T Hints of a New Plague? |QID|658|Z|Arathi Highlands|M|60.2,53.9|
+A Hints of a New Plague? |QID|657|Z|Arathi Highlands|M|60.2,53.9|
+T Hints of a New Plague? |QID|657|Z|Arathi Highlands|M|60.2,53.9|
+A Hints of a New Plague? |QID|660|Z|Arathi Highlands|M|60.2,53.9|
+C Hints of a New Plague? |N|Kinelory is better off in front of you.  Try to fight one at a time, but let Kinelory be the one to attract mobs.|QID|660|
+T Hints of a New Plague? |QID|660|Z|Arathi Highlands|M|60.2,53.9|
+A Hints of a New Plague? |QID|661|Z|Arathi Highlands|M|60.2,53.9|
 N Witherbark Tusk|QID|691|N|Kill Trolls until you get 10 tusks for the quest.|L|4503 10|Z|Arathi Highlands|M|63.00,65.00|
 N Witherbark Medicine Pouch|QID|691|N|Kill Witch Doctors to get the Medicine Pouches needed for the quest.|L|4522 4|
 C Worth Its Weight in Gold|N|Kill Witherbark Shadow Hunters in the cave until you get the Shadow Hunter Knife|QID|691|Z|Arathi Highlands|M|68.00,75.00|
 T Worth Its Weight in Gold|N|Turn in your quest at Refuge Pointe.|QID|691|Z|Arathi Highlands|M|46.2,47.8|
 H Southshore|QID|661|N|Hearth to Southshore.|
-T Hints of a New Plague? (part 5)|QID|661|M|50.3,59.0|
+T Hints of a New Plague? |QID|661|M|50.3,59.0|
 N Sell junk, repair, restock|QID|564|N|Sell junk, repair, restock|
 R Alterac Mountains|QID|564|M|54.60,8.00|
 R Sofera's Naze|QID|564|Z|Alterac Mountains|M|58.00,67.00|

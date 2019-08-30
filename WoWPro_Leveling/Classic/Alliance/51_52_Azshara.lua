@@ -1,8 +1,8 @@
 TourGuide:RegisterGuide("JamAzs5152", "Azshara", "Jame", "51", "52", "JamFel5253", "Alliance", function() return [[
 R Ironforge|QID|3368|
 N Sell junk, repair, restock|QID|3368|N|Sell junk, repair, restock|
-T Suntara Stones (part 2)|QID|3368|Z|Ironforge|M|67.8,8.3|
-A A Little Slime Goes a Long Way (part 1)|QID|4512|Z|Ironforge|M|75.8,23.4|
+T Suntara Stones |QID|3368|Z|Ironforge|M|67.8,8.3|
+A A Little Slime Goes a Long Way |QID|4512|Z|Ironforge|M|75.8,23.4|
 A Passing the Burden|QID|3448|Z|Ironforge|M|77.5,11.8|
 T Passing the Burden|QID|3448|Z|Ironforge|M|31.0,4.8|
 A Arcane Runes|QID|3449|Z|Ironforge|M|31.0,4.8|
@@ -14,9 +14,9 @@ F Stormwind|QID|4267|N|Fly to Stormwind.|Z|Ironforge|M|55.60,47.70|
 b Auberdine|QID|4267|N|Take the boat to Auberdine.|
 F Rut'theran Village|QID|4267|N|Fly to Rut'theran Village|Z|Darkshore|M|36.30,45.60|
 R Darnassus|QID|4267|N|Go to Darnassus.|Z|Teldrassil|M|60.00,89.80|
-T Rise of the Silithid (final)|QID|4267|Z|Darnassus|M|41.8,85.6|
+T Rise of the Silithid |QID|4267|Z|Darnassus|M|41.8,85.6|
 A March of the Silithid|QID|4493|Z|Darnassus|M|41.8,85.6|
-T Prayer to Elune (part 2)|QID|3378|Z|Darnassus|M|38.3,80.9|
+T Prayer to Elune |QID|3378|Z|Darnassus|M|38.3,80.9|
 R Rut'theran Village|QID|5536|N|Go to Rut'theran Village.|Z|Darnassus|M|30.50,41.40|
 F Forest Song|QID|5536|N|Fly to Forest Song, Ashenvale.|Z|Teldrassil|M|58.40,94.00|
 

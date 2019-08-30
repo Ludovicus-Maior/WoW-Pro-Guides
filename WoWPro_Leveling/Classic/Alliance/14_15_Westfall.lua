@@ -7,7 +7,7 @@ WoWPro:GuideName(guide, 'Westfall 14-15')
 WoWPro:GuideLevels(guide, 14, 15, 14)
 WoWPro:GuideNextGuide(guide, 'ClassicRedridge1518')
 WoWPro:GuideSteps(guide, function () return [[
-A Westfall Stew (part 1)|QID|36|M|60.0,19.4|
+A Westfall Stew |QID|36|M|60.0,19.4|
 
 A The Forgotten Heirloom|QID|64|
     
@@ -17,9 +17,9 @@ N From now on...|QID|151|N|From now on, loot Sacks of Oats from the ground|
 
 A The Killing Fields|QID|9|M|56.0,31.2|
 
-T Westfall Stew (part 1)|QID|36|M|56.4,30.5|
+T Westfall Stew |QID|36|M|56.4,30.5|
 
-A Westfall Stew (part 2)|QID|38|M|56.4,30.5|
+A Westfall Stew |QID|38|M|56.4,30.5|
 
 A Goretusk Liver Pie|QID|22|M|56.4,30.5|
 
@@ -45,15 +45,15 @@ h Sentinel Hill|QID|109|N|Set your home location to Sentinel Hill.|M|52.85,53.70
 
 T Report to Gryan Stoutmantle|QID|109|M|56.3,47.5|
 
-A The People's Militia (part 1)|QID|12|M|56.3,47.5|
+A The People's Militia |QID|12|M|56.3,47.5|
 
-A The Defias Brotherhood (part 1)|QID|65|M|56.3,47.5|
+A The Defias Brotherhood |QID|65|M|56.3,47.5|
 
 A Patrolling Westfall|QID|102|M|56.3,47.5|
 
 N From now on...|QID|102|N|From now on, kill Gnoll mobs| 
 
-C The People's Militia (part 1)|N|Kill defias mobs until you finish this quest.|QID|12|M|44.00,25.00|
+C The People's Militia |N|Kill defias mobs until you finish this quest.|QID|12|M|44.00,25.00|
 
 C Red Leather Bandanas|N|Kill defias mobs until you get the items for this quest.|QID|153|M|44.00,25.00|
 
@@ -63,21 +63,21 @@ C Patrolling Westfall|N|Kill Gnolls until you get the items for this quest.|QID|
 
 N Level 16|QID|9|N|Kill mobs until you are level 16.| 
 
-C Westfall Stew (part 2)|N|Kill mobs until you get the items for this quest.|QID|38|M|53.8,42.5|
+C Westfall Stew |N|Kill mobs until you get the items for this quest.|QID|38|M|53.8,42.5|
 
 C Goretusk Liver Pie|N|Kill Goretusks until you get the items for this quest.|QID|22|M|53.8,42.5|
 
 T The Killing Fields|QID|9|M|56.0,31.2|
 
-T Westfall Stew (part 2)|QID|38|M|56.4,30.5|
+T Westfall Stew |QID|38|M|56.4,30.5|
 
 T Goretusk Liver Pie|QID|22|M|56.4,30.5|
 
 T Red Leather Bandanas|QID|153|M|54.0,52.9|
 
-T The People's Militia (part 1)|QID|12|M|56.3,47.5|
+T The People's Militia |QID|12|M|56.3,47.5|
 
-A The People's Militia (part 2)|QID|13|M|56.3,47.5|
+A The People's Militia |QID|13|M|56.3,47.5|
 
 T Patrolling Westfall|QID|102|M|56.3,47.5|
 

@@ -12,12 +12,12 @@ A The Corruption Abroad|QID|3765|M|36.4,67.5|Z|Stormwind City|
 A Mathias and the Defias|N|This is a rogue only quest chain and it's totally optional, but it nets you some extra XP and helps you level your Lockpicking skill. Please note that you'll need at least 70 in Lockpicking to complete this quest. You don't HAVE to do this quest, it's optional.|QID|2360|C|Rogue|M|78.4,70.7|Z|Stormwind City|
 N Paladin Quest|N|Speak to Duthorian Rall, accept the quest called Tome of Valor and complete it immediately, you'll receive a Tome of Valor. Close this step once you've received a Tome of Valor.|QID|1650|M|50.6,47.5|C|Paladin|Z|Stormwind City|
 U Use this item|N|Right-click the Tome of Valor and accept the quest.|QID|1650|U|6776|C|Paladin|
-A The Tome of Valor (Part 1)|C|Paladin|QID|1650|
-T The Tome of Valor (Part 1)|C|Paladin|QID|1650|
-A The Tome of Valor (Part 2)|C|Paladin|QID|1651|
-T The Tome of Valor (Part 2)|C|Paladin|QID|1651|
-A The Tome of Valor (Part 3)|C|Paladin|QID|1652|
-T The Tome of Valor (Part 3)|C|Paladin|QID|1652|
+A The Tome of Valor |C|Paladin|QID|1650|
+T The Tome of Valor |C|Paladin|QID|1650|
+A The Tome of Valor |C|Paladin|QID|1651|
+T The Tome of Valor |C|Paladin|QID|1651|
+A The Tome of Valor |C|Paladin|QID|1652|
+T The Tome of Valor |C|Paladin|QID|1652|
 N Sell junk and repair - WARNING|QID|1078|N|Don't sell the Lean Wolf Flanks if you have any. We'll need 10 for a quest at level 27, if you don't have 10 it's ok, we'll get them later in the guide. Also train new skills, visit the AH, re-stock consumables. Close this step when you're done.|
 A Retrieval for Mauren|QID|1078|M|52.9,86.5|Z|Stormwind City|
 R Deeprun Tram|QID|455|N|Run to the Deeprun Tram|M|68.50, 31.50|Z|Stormwind City|
@@ -40,8 +40,8 @@ N From now on...|QID|484|N|From now on, kill and loot Young Wetlands Crocolisks 
 N Gobbler's Head|QID|279|N|Kill Gobbler and loot his head. He walks back and forth between the first 2 Murloc dwellings along the road.|M|14.6,40.8;13.44,38.64;18.10,40.10|L|3618 1|CS|
 C Claws from the Deep|N|Kill the rest of the Bluegill Murlocs you need for this quest.|M|20,40.6;13.8,39.8|QID|279|CS|
 A Ormer's Revenge|QID|294|N|Follow the path up until you find a cave. Accept the quest from Ormer.|M|34,41;37,43.6;38.00,52.00|CS|
-T In Search of The Excavation Team (Part 1)|QID|305|M|38.8,52.3|
-A In Search of The Excavation Team (Part 2)|QID|306|M|38.8,52.3|
+T In Search of The Excavation Team |QID|305|M|38.8,52.3|
+A In Search of The Excavation Team |QID|306|M|38.8,52.3|
 T The Greenwarden|QID|463|N|Reminder: Don't forget to kill and loot Young Wetlands Crocolisks on sight.|M|34,41;34.9,38.3;56.3,40.3|CS|
 A Tramping Paws|QID|276|M|56.3,40.3|
 C Tramping Paws|N|Kill the mobs needed for this quest.|M|62.00, 70.00|QID|276|

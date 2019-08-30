@@ -71,20 +71,20 @@ L Level 33|ACTIVE|1111|N|Grind if needed to reach level 33.|LVL|33|
 R Tanaris|ACTIVE|1178|M|75.00,95.70|N|Before we leave, go south and into Tanaris.|
 f Gadgetzan|ACTIVE|1111|Z|Tanaris|M|51.60,25.4|N|Pick up the flight path from Bulkrek Ragefist.|
 F Ratchet|ACTIVE|1178|M|51.60,25.40|Z|Tanaris|N|At Bulkrek Ragefist.|
-T Goblin Sponsorship (Part 1)|QID|1178|M|62.70,36.20|N|Talk to Gazlowe, in one of the houses northwest of the wyvern landing spot.|
-A Goblin Sponsorship (Part 2)|QID|1180|M|62.70,36.20|N|From Gazlowe.|
+T Goblin Sponsorship |QID|1178|M|62.70,36.20|N|Talk to Gazlowe, in one of the houses northwest of the wyvern landing spot.|
+A Goblin Sponsorship |QID|1180|M|62.70,36.20|N|From Gazlowe.|
 T Wharfmaster Dizzywig|QID|1492|M|63.40,38.50|N|To Wharfmaster Dizzywig.|
 ;A Parts for Kravel|QID|1112|Z|The Barrens|M|63.4,38.5|N|From Wharfmaster Dizzywig.|
 b Booty Bay|QID|1181|N|Take the boat to Booty Bay.|Z|The Barrens|M|63.60,38.60|
-T Goblin Sponsorship (part 1)|QID|1180|M|26.3,73.6|Z|Stranglethorn Vale|N|To Wharfmaster Lozgil.|
-A Goblin Sponsorship (part 2)|QID|1181|M|26.3,73.6|Z|Stranglethorn Vale|N|From Wharfmaster Lozgil.|
+T Goblin Sponsorship |QID|1180|M|26.3,73.6|Z|Stranglethorn Vale|N|To Wharfmaster Lozgil.|
+A Goblin Sponsorship |QID|1181|M|26.3,73.6|Z|Stranglethorn Vale|N|From Wharfmaster Lozgil.|
 ; === 002_33_34_Jame_Stranglethorn_Vale.lua ===
 A Singing Blue Shards|QID|605|M|27.10,77.20|Z|Stranglethorn Vale|N|From Crank Fizzlebub.(ground floor)|
 A Investigate the Camp|QID|201|M|27.00,77.20|Z|Stranglethorn Vale|N|From Krazek.(top floor)|
 A Bloodscalp Ears|QID|189|M|27.00,77.20|Z|Stranglethorn Vale|N|From Kebok.|
 A Hostile Takeover|QID|213|M|27.00,77.20|Z|Stranglethorn Vale|N|From Kebok.|
-T Goblin Sponsorship (Part 3)|QID|1181|M|27.20,76.90|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
-A Goblin Sponsorship (Part 4)|QID|1182|M|27.20,76.90|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
+T Goblin Sponsorship |QID|1181|M|27.20,76.90|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
+A Goblin Sponsorship |QID|1182|M|27.20,76.90|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
 f Booty Bay|ACTIVE|1181|M|26.8,77.0|Z|Stranglethorn Vale|N|Pick up the flightpath at Gringer.|
 A Supply and Demand|QID|575|M|28.30,77.60|Z|Stranglethorn Vale|N|Get out of the inn by the other door on the 3rd floor, facing east. From Drizzlik in the 3rd house to the left.|
 
@@ -101,20 +101,20 @@ R Nesingwary Expedition|ACTIVE|5762|M|35,10|N|Exit the east side of Grom'gol and
 T Hemet Nesingwary|QID|5762|M|35.60,10.60|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
 A Welcome to the Jungle|QID|583|M|35.60,10.60|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
 T Welcome to the Jungle|QID|583|M|35.60,10.60|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
-A Raptor Mastery (Part 1)|QID|194|M|35.60,10.60|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
-A Panther Mastery (Part 1)|QID|190|M|35.60,10.60|Z|Stranglethorn Vale|N|From Sir S.J Erlgadin.|
-A Tiger Mastery (Part 1)|QID|185|M|35.60,10.60|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+A Raptor Mastery |QID|194|M|35.60,10.60|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+A Panther Mastery |QID|190|M|35.60,10.60|Z|Stranglethorn Vale|N|From Sir S.J Erlgadin.|
+A Tiger Mastery |QID|185|M|35.60,10.60|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 C Supply and Demand|QID|575|M|40.30,12.40|Z|Stranglethorn Vale|N|Kill River Crocolisks which can be found all along the river in northern Stranglethorn Vale until you find 2 Large Crocolisk Skins. While you search for crocs you can also kill Young Tigers close to the river for Tiger Mastery.|
-C Tiger Mastery (Part 1)|QID|185|Z|Stranglethorn Vale|N|Tigers can be found mostly south and around the Nesingwary camp.|
-C Panther Mastery (Part 1)|QID|190|M|41,10|Z|Stranglethorn Vale|N|Mostly on the other side of the river and east from the tigers.|
-T Tiger Mastery (Part 1)|QID|185|M|35.60,10.60|Z|Stranglethorn Vale|N|To Ajeck Rouack, back at Nesingwary's Expedition.|
-A Tiger Mastery (Part 2)|QID|186|M|35.60,10.60|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
-T Panther Mastery (Part 1)|QID|190|M|35.60,10.60|Z|Stranglethorn Vale|N|To Sir S.J Erlgadin.|
-A Panther Mastery (Part 2)|QID|191|M|35.60,10.60|Z|Stranglethorn Vale|N|From Sir S.J Erlgadin.|
-C Panther Mastery (Part 2)|QID|191|M|30.00,9.00|Z|Stranglethorn Vale|S|N|Go west until you reach a plateau. Up there you can find Panthers and Tigers. Kill 10 of each.|
-C Tiger Mastery (Part 2)|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|N|Kill panthers in the area.|
-C Panther Mastery (Part 2)|QID|191|M|30.00,9.00|Z|Stranglethorn Vale|US|N|Kill tigers in and around the plateau.|
-C Raptor Mastery (Part 1)|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|N|Further southwest on the plateau you should find Stranglethorn Raptors.|
+C Tiger Mastery |QID|185|Z|Stranglethorn Vale|N|Tigers can be found mostly south and around the Nesingwary camp.|
+C Panther Mastery |QID|190|M|41,10|Z|Stranglethorn Vale|N|Mostly on the other side of the river and east from the tigers.|
+T Tiger Mastery |QID|185|M|35.60,10.60|Z|Stranglethorn Vale|N|To Ajeck Rouack, back at Nesingwary's Expedition.|
+A Tiger Mastery |QID|186|M|35.60,10.60|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+T Panther Mastery |QID|190|M|35.60,10.60|Z|Stranglethorn Vale|N|To Sir S.J Erlgadin.|
+A Panther Mastery |QID|191|M|35.60,10.60|Z|Stranglethorn Vale|N|From Sir S.J Erlgadin.|
+C Panther Mastery |QID|191|M|30.00,9.00|Z|Stranglethorn Vale|S|N|Go west until you reach a plateau. Up there you can find Panthers and Tigers. Kill 10 of each.|
+C Tiger Mastery |QID|186|M|30.00,9.00|Z|Stranglethorn Vale|N|Kill panthers in the area.|
+C Panther Mastery |QID|191|M|30.00,9.00|Z|Stranglethorn Vale|US|N|Kill tigers in and around the plateau.|
+C Raptor Mastery |QID|194|M|27.80,14.80|Z|Stranglethorn Vale|N|Further southwest on the plateau you should find Stranglethorn Raptors.|
 C Bloodscalp Ears|QID|189|M|28.8,19.7|Z|Stranglethorn Vale|S|N|Go south and down the plateau until you find the troll camp at Bal'lal Ruins. It should take a while to ggather all the things you need, but it's a nice grinding spot. If you don't have enough trolls there is another camp northeast at the Tkashi Ruins.|
 C Bloodscalp Tusks|QID|581|M|28.80,19.70|Z|Stranglethorn Vale|S|N|Continue killing trolls for tusks too.|
 C Bloody Bone Necklaces|QID|596|M|28.80,19.70|Z|Stranglethorn Vale|N|and Necklaces.|
@@ -122,12 +122,12 @@ C Bloodscalp Tusks|QID|581|M|28.80,19.70|Z|Stranglethorn Vale|US|N|Continue kill
 C Bloodscalp Ears|QID|189|M|28.8,19.7|Z|Stranglethorn Vale|US|N|Finish collecting the needed ears. If you don't have enough trolls there is another camp northeast at the Tkashi Ruins.|
 C Singing Blue Shards|QID|605|M|26.70,18.50|Z|Stranglethorn Vale|N|Once you've collected all of that, go west to the shore and move along the shore towards the north until you find Crystal Spine Basilisks. If you run short on Basilisks, there is more on the lower plateau to the east along the shore. If there aren't any basilisks just go kill some trolls until they respawn.|
 C The Vile Reef|QID|629|M|24.00,22.00|Z|Stranglethorn Vale|N|After that go take a swim until you reach the waypoint, right under you should be some ruins guarded by murlocs. Against one of the outer walls of those ruins you should see a big tablet, called "Gri'lek the Wanderer" (it should also sparkle). Dive and click the tablet to loot the  Tablet Shard, you should be able to do that without aggro'ing any murloc.|
-T Raptor Mastery (Part 1)|QID|194|M|35.60,10.60|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
-A Raptor Mastery (Part 2)|QID|195|M|35.60,10.60|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
-T Panther Mastery (Part 2)|QID|191|M|35.60,10.60|Z|Stranglethorn Vale|N|To Sir S.J Erlgadin.|
+T Raptor Mastery |QID|194|M|35.60,10.60|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
+A Raptor Mastery |QID|195|M|35.60,10.60|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+T Panther Mastery |QID|191|M|35.60,10.60|Z|Stranglethorn Vale|N|To Sir S.J Erlgadin.|
 A Panther Mastery (Part 3|QID|192|M|35.60,10.60|Z|Stranglethorn Vale|N|From Sir S.J Erlgadin.|
-T Tiger Mastery (Part 2)|QID|186|M|35.60,10.60|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
-A Tiger Mastery (Part 3)|QID|187|M|35.60,10.60|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+T Tiger Mastery |QID|186|M|35.60,10.60|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
+A Tiger Mastery |QID|187|M|35.60,10.60|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 L Level Check|ACTIVE|187|LVL|33;46880|N|You should be about 4 bubbles from 34, if you aren't grind trolls on the way back to Grom'gol.|
 T Hunt for Yenniku|QID|581|M|32.20,27.70|Z|Stranglethorn Vale|N|To Nimboya, back at Grom'gol base camp.|
 T The Vile Reef|QID|629|M|32.30,28.60|Z|Stranglethorn Vale|N|To Kin'weelay.|
@@ -142,14 +142,14 @@ T Bloodscalp Ears|QID|189|M|27.00,77.20|Z|Stranglethorn Vale|N|To Kebok.|
 H Orgimmar|ACTIVE|187|N|Hearth to Orgrimmar, restock, visit trainers, etc.|
 B Shopping List|QID|5088|L|3388|N|Buy, craft, or rummage thru your inventory and make sure you have one Strong Troll's Blood Elixir, we are headed off for that quest in this next circuit.|
 N Cooking|QID|577|M|57.6,53.2|Z|Orgrimmar|P|Cooking;185;0+1;1|N|Go learn it. You don't need to level cooking up, you just need to train the profession and to become an Apprentice Cook, it will unlock some cooking quests for easy XP. Grab the 10 Turtle Meat you saved when we were in the Shimmering Flats, and you're finally ready to go again.|
-T A Donation of Silk (Orgrimmar)|QID|7827|Z|Orgrimmar|N|You should have the cloth stacks from the shopping list by now, if you don't have them, buy as much as you still need from the AH. Go to the Horde Cloth Quartermaster Vehena in the Valley of Spirits in Orgrimmar.|
+T A Donation of Silk |QID|7827|Z|Orgrimmar|N|You should have the cloth stacks from the shopping list by now, if you don't have them, buy as much as you still need from the AH. Go to the Horde Cloth Quartermaster Vehena in the Valley of Spirits in Orgrimmar.|
 
 ; === 002_31_32_Jame_Hillsbrad_Foothills.lua ===
 ; === 002_34_34_Jame_Hillsbrad_Foothills.lua ===
 b Undercity|ACTIVE|577|M|50.8,13.6|Z|Durotar|N|Take the Zeppelin to the Undercity.|
 A To Steal from Thieves|QID|1164|M|63.80,49.50|Z|Undercity|N|From Genavie Callow, next to the Bat Handler.|
-T Elixir of Agony (Part 2)|QID|513|M|48.8,69.3|Z|Undercity|N|To Master Apothecary Faranell inside the Apothecarium.|
-A Elixir of Agony (Part 3)|QID|515|M|48.8,69.3|Z|Undercity|N|From Master Apothecary Faranell.|
+T Elixir of Agony |QID|513|M|48.8,69.3|Z|Undercity|N|To Master Apothecary Faranell inside the Apothecarium.|
+A Elixir of Agony |QID|515|M|48.8,69.3|Z|Undercity|N|From Master Apothecary Faranell.|
 F Tarren Mill|ACTIVE|515|M|63.6,48.6|Z|Undercity|N|At Michael Garrett, Bat Handler.|
 A Soothing Turtle Bisque|QID|7321|Z|Hillsbrad Foothills|N|From Christophe Jeffcoat.|
 B Soothing Spices|QID|7321|Z|Hillsbrad Foothills|L|3713 1|N|Buy 1 from Christophe Jeffcoat|
@@ -158,22 +158,22 @@ h Tarren Mill|ACTIVE|517|M|62.6,19.0|Z|Hillsbrad Foothills|N|Set your hearthston
 A Humbert's Sword|QID|547|Z|Hillsbrad Foothills|N|From Deathguart Humbert.|
 A Stone Tokens|QID|556|M|61.50,20.90|Z|Hillsbrad Foothills|N|From Keeper Bel'varil.|
 A The Hammer May Fall|QID|676|M|61.90,19.60|Z|Hillsbrad Foothills|N|From Tallow.|
-A Helcular's Revenge (Part 1)|QID|552|M|63.88,19.66|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
+A Helcular's Revenge |QID|552|M|63.88,19.66|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
 C Torn Fin Eyes|QID|515|QO|4|M|36.00,66.00|Z|Hillsbrad Foothills|N|Head southwest until you hit the Western Strand with the Murloc Camps. Kill murlocs until you get 5 Torn Fin Eyes.|
-C Elixir of Agony (Part 3)|QID|515|QO|3|M|58.00,64.00|Z|Hillsbrad Foothills|N|Go east and across the river, until you find nagas. Kill them until you have 5 Daggerspine Scales.|
-C Helcular's Revenge (Part 1)|QID|552|M|46.00,30.00|Z|Hillsbrad Foothills|N|Go northwest to the Yeti Cave . Kill yetis until you get Helcular's Rod, which is kinda rare, so just kill a lot of yetis. It might take a long time, so be patient. If it really takes more than 20 minute, try to log out and then back in. For some reason this worked for me a couple of times and the rod dropped on the first few kills after I logged back in, after a 20 minute yeti slaughter with no success.|
+C Elixir of Agony |QID|515|QO|3|M|58.00,64.00|Z|Hillsbrad Foothills|N|Go east and across the river, until you find nagas. Kill them until you have 5 Daggerspine Scales.|
+C Helcular's Revenge |QID|552|M|46.00,30.00|Z|Hillsbrad Foothills|N|Go northwest to the Yeti Cave . Kill yetis until you get Helcular's Rod, which is kinda rare, so just kill a lot of yetis. It might take a long time, so be patient. If it really takes more than 20 minute, try to log out and then back in. For some reason this worked for me a couple of times and the rod dropped on the first few kills after I logged back in, after a 20 minute yeti slaughter with no success.|
 H Tarren Mill|ACTIVE|515|N|Back to Tarren Mill to get some follow ups. This next segment is challenging, if you can find a partner, it will make it much more survivable. If not, be careful!|
-T Elixir of Agony (Part 3)|QID|515|Z|Hillsbrad Foothills|N|To Apothecary Lydon in Tarren Mill.|
-A Elixir of Agony (Part 4)|QID|517|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
-T Helcular's Revenge (Part 1)|QID|552|M|63.90,19.70|Z|Hillsbrad Foothills|N|To Novice Thaivand.|
-A Helcular's Revenge (Part 2)|QID|553|M|63.90,19.70|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
+T Elixir of Agony |QID|515|Z|Hillsbrad Foothills|N|To Apothecary Lydon in Tarren Mill.|
+A Elixir of Agony |QID|517|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+T Helcular's Revenge |QID|552|M|63.90,19.70|Z|Hillsbrad Foothills|N|To Novice Thaivand.|
+A Helcular's Revenge |QID|553|M|63.90,19.70|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
 A Infiltration|QID|533|M|63.2,20.6|Z|Hillsbrad Foothills|N|From Krusk.|
 A Prison Break In|QID|544|M|61.50,20.90|Z|Hillsbrad Foothills|N|From Magus Wordeen Voidglare.|
 R Dun Garok|ACTIVE|517|M|69,73|N|Run outheast to the Dwarven Fortress of Dun Garok.|
-C Elixir of Agony (Part 4)|QID|517|M|69.00,73.00|Z|Hillsbrad Foothills|S!US|N|Your first task will be to make yourself a way inside the fortress and find a Keg of Shindigger Stout, they can mostly be found on the side rooms down the stairs.|
+C Elixir of Agony |QID|517|M|69.00,73.00|Z|Hillsbrad Foothills|S!US|N|Your first task will be to make yourself a way inside the fortress and find a Keg of Shindigger Stout, they can mostly be found on the side rooms down the stairs.|
 C Humbert's Sword|QID|547|Z|Hillsbrad Foothills|S!US|N|Keep killing dwarves in the fortress until you've completed the kill list of [30]Battle of Hillsbrad and gotten Humbert's Sword.|
 K Captain Ironhill|ACTIVE|541|QO|4|Z|Hillsbrad Foothills|T|Captain Ironhill|N|He can spawn a various locations: * On the top floors, which is good because he can easily be pulled solo there. * On the big middle room down the stairs.|
-C Battle of Hillsbrad (Part 6)|QID|541|Z|Hillsbrad Foothills|N|And continue killing dwarves until you finish this quesst.|
+C Battle of Hillsbrad |QID|541|Z|Hillsbrad Foothills|N|And continue killing dwarves until you finish this quesst.|
 R Arathi Highlands|ACTIVE|541|Z|Hillsbrad Foothills|N|Get out of the Dwarven Fortress, get back on the path going northeast and then east into Arathi Highlands.|
 
 ; === 002_34_35_Jame_Arathi_Highlands.lua ===
@@ -182,21 +182,21 @@ R Hammerfall|ACTIVE|638|Z|Arathi Highlands|N|Get back on the road, follow it eas
 T Trollbane|QID|638|M|73.80,34.00|Z|Arathi Highlands|N|Further inside the village, go up the stairs. (skip followup)|
 A Sigil of Strom|QID|639|M|73.80,34.00|Z|Arathi Highlands|N|From Zengu.|
 T The Hammer May Fall|QID|676|M|74.20,33.90|Z|Arathi Highlands|N|To Drum Fel.|
-A Call to Arms (Part 1)|QID|677|M|74.20,33.90|Z|Arathi Highlands|N|From Drum Fel.|
+A Call to Arms |QID|677|M|74.20,33.90|Z|Arathi Highlands|N|From Drum Fel.|
 f Hammerfall|QID|517|M|73,32.6|Z|Arathi Highlands|N|At Urda.|
 r Sell Junk, Restock, Repair|ACTIVE|517|M|72.4,33.4|Z|Arathi Highlands|N|At Mu'uta.|
 A Crystal in the Mountains|QID|635|U|4614|Z|Arathi Highlands|N|From Dropped item, Pendant of Myzrael.|
-C Call to Arms (Part 1)|QID|677|M|69.00,60.00|Z|Arathi Highlands|N|Head out, go south until you find Witherbark Village.|
+C Call to Arms |QID|677|M|69.00,60.00|Z|Arathi Highlands|N|Head out, go south until you find Witherbark Village.|
 L Level Check = 35|ACTIVE|677|LVL|35|N|Grind here until you hit 35.|
 
 ; === 002_35_35_Jame_Hillsbrad_Foothills.lua ===
 H Tarren Mill|QID|517|N|Hearth back to Tarren Mill.|
-T Elixir of Agony (Part 4)|QID|517|M|61.4,19.2|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
-A Elixir of Agony (Part 5)|QID|524|M|61.4,19.2|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
-T Battle of Hillsbrad (Part 6)|QID|541|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-A Battle of Hillsbrad (Part 7)|QID|550|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
+T Elixir of Agony |QID|517|M|61.4,19.2|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
+A Elixir of Agony |QID|524|M|61.4,19.2|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+T Battle of Hillsbrad |QID|541|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Battle of Hillsbrad |QID|550|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
 T Humbert's Sword|QID|547|M|62.6,20.2|Z|Hillsbrad Foothills|N|To Deathguart Humbert.|
-T Elixir of Agony (Part 5)|QID|524|M|62.8,18.9|Z|Hillsbrad Foothills|N|Go to the inn, on the 2nd floor there's a room with Captured Farmers inside, and click on the "Dusty Rug" on the floor.|
+T Elixir of Agony |QID|524|M|62.8,18.9|Z|Hillsbrad Foothills|N|Go to the inn, on the 2nd floor there's a room with Captured Farmers inside, and click on the "Dusty Rug" on the floor.|
 r Repair, restock, Sell Junk.|ACTIVE|553|M|72.4,33.4|Z|Arathi Highlands|N|At Mu'uta.|
 N Flame of Azel|QID|553|QO|1|NC|M|43.90,28.10|Z|Hillsbrad Foothills|N|Go to the yeti cave and from cave entrance look straight.|
 N Flame of Veraz|QID|553|QO|2|NC|M|44.10,26.60|Z|Hillsbrad Foothills|N|Go back to the entrance and hug the left wall down the ramp to a pool of water.|
@@ -220,12 +220,12 @@ T Prison Break In|QID|544|M|61.50,20.90|Z|Hillsbrad Foothills|N|To Magus Wordeen
 A Dalaran Patrols|QID|545|M|61.50,20.90|Z|Hillsbrad Foothills|N|From Magus Wordeen Voidglare.|
 T Stone Tokens|QID|556|M|61.50,20.90|Z|Hillsbrad Foothills|N|To Keeper Bel'varil.|
 A Bracers of Binding|QID|557|M|61.50,20.90|Z|Hillsbrad Foothills|N|From Keeper Bel'varil.|
-T Helcular's Revenge (Part 2)|QID|553|M|55.00,52.00|Z|Hillsbrad Foothills|N|WARNING: you will end up flagged and likely dead. Head southwest to the river and follow it until you arrive at the marked waypoint. You should see Helcular's grave, which is at the eastmost tip of the southshore graveyard. Wait till the 3 guards patrolling close to this area are as far as possible then sprint for the grave, right click it, complete the quest (opened when you clicked)as quickly as possible and then run for your life, (or stay and watch the remains own the guards - which increases your chance of death.) Don't Spirit Rez, get your body and carry on.|
+T Helcular's Revenge |QID|553|M|55.00,52.00|Z|Hillsbrad Foothills|N|WARNING: you will end up flagged and likely dead. Head southwest to the river and follow it until you arrive at the marked waypoint. You should see Helcular's grave, which is at the eastmost tip of the southshore graveyard. Wait till the 3 guards patrolling close to this area are as far as possible then sprint for the grave, right click it, complete the quest (opened when you clicked)as quickly as possible and then run for your life, (or stay and watch the remains own the guards - which increases your chance of death.) Don't Spirit Rez, get your body and carry on.|
 L Level Check|ACTIVE|550|LVL|35;64600|N|This should make you nearly 36, if not, kill random yetis, lions and syndicates as you head back to Tarren Mill, until this message goes away.|
 R Tarren Mill|ACTIVE|550|Z|Hillsbrad Foothills|N|Run back to Tarren Mill.|
 F Undercity|ACTIVE|550|M|60.2,18.6|Z|Hillsbrad Foothills|N|At Zarise, Bat Handler.|
-T Battle of Hillsbrad (Part 7)|QID|550|M|56.2,91.8|Z|Undercity|N|Go speak to Varimathras, he is in the same room as Sylvana, the banshee queen. This room is behind the Apothecarium, you have to use the gate of the Apothecarium to access it.|
-A Into the Scarlet Monastery (Optional)|QID|1048|M|56.2,91.8|Z|Undercity|N|if you plan on going to Scarlet Monastary later on. (and why wouldn't you be!)|
+T Battle of Hillsbrad |QID|550|M|56.2,91.8|Z|Undercity|N|Go speak to Varimathras, he is in the same room as Sylvana, the banshee queen. This room is behind the Apothecarium, you have to use the gate of the Apothecarium to access it.|
+A Into the Scarlet Monastery |
 r Repair, Sell Junk, etc.|ACTIVE|545|N|If you need to go to Orgrimmar and train.|
 F Tarren Mill|ACTIVE|545|M|63.6,48.6|Z|Undercity|N|At Michael Garrett, Bat Handler.|
 R Alterac Mountains|ACTIVE|545|Z|Alterac Mountains|N|Go west and then north into Alterac Mountains, as if you were going to the Lordamere Internment camp.|
@@ -239,50 +239,50 @@ T Bracers of Binding|QID|557|M|61.50,20.90|Z|Alterac Mountains|N|To Keeper Bel'v
 
 ; === 002_35_37_Jame_Arathi_Highlands.lua ===
 F Hammerfall|ACTIVE|677|M|60.2,18.6|Z|Hillsbrad Foothills|N|At Zarise, Bat Handler.|
-T Call to Arms (Part 1)|QID|677|M|74.20,33.90|Z|Arathi Highlands|N|To Drum Fel.|
-A Call to Arms (Part 2)|QID|678|M|74.20,33.90|Z|Arathi Highlands|N|From Drum Fel.|
+T Call to Arms |QID|677|M|74.20,33.90|Z|Arathi Highlands|N|To Drum Fel.|
+A Call to Arms |QID|678|M|74.20,33.90|Z|Arathi Highlands|N|From Drum Fel.|
 h Hammerfall|ACTIVE|678|M|73.8,32.6|Z|Arathi Highlands|N|Set your hearthstone at Innkeeper Adegwa.|
 A Hammerfall|QID|655|M|72.60,33.90|Z|Arathi Highlands|N|From Gor'mul.|
 T Hammerfall|QID|655|M|74.70,36.30|Z|Arathi Highlands|N|To Tor'gan.|
-A Foul Magics (Part 1)|QID|671|M|74.70,36.30|Z|Arathi Highlands|N|From Tor'gan.|
-A Raising Spirits (Part 1)|QID|672|M|74.70,36.30|Z|Arathi Highlands|
+A Foul Magics |QID|671|M|74.70,36.30|Z|Arathi Highlands|N|From Tor'gan.|
+A Raising Spirits |QID|672|M|74.70,36.30|Z|Arathi Highlands|
 
-C Raising Spirits (Part 1)|QID|672|Z|Arathi Highlands|S|N|Kill all the raptors you find on your way: you need 10 Highland Raptor Eyes.|
+C Raising Spirits |QID|672|Z|Arathi Highlands|S|N|Kill all the raptors you find on your way: you need 10 Highland Raptor Eyes.|
 R Dabyrie Farmstead|M|57.00,41.00|Z|Arathi Highlands|N|Head west to the Dabyrie Farmstead.|
 K Fardel|ACTIVE|1164|QO|3|M|54.00,37.00|Z|Arathi Highlands|T|Fardel|N|Kill Fardel who can be found wandering around the field.|
 K Marcel|ACTIVE|1164|QO|2|M|57.00,41.00|Z|Arathi Highlands|T|Marcel|N|Kill Marcel who can be found in the stables.
 K Kenata|ACTIVE|1164|QO|1|M|56.2,36|Z|Arathi Highlands|T|Kenata|N|Kill Kenata who can be found in the small house on top of the hill.|
-C Foul Magics (Part 1)|QID|671|M|35.00,30.00|Z|Arathi Highlands|N|Head west to Northfold Manor. Kill syndicates until the quest is complete.|
+C Foul Magics |QID|671|M|35.00,30.00|Z|Arathi Highlands|N|Head west to Northfold Manor. Kill syndicates until the quest is complete.|
 C Sigil of Strom|QID|639|M|26,57|Z|Arathi Highlands|N|Kill Syndicate mobs until the Sigil of Strom drops.|
-C Raising Spirits (Part 1)|QID|672|M|69.90,36.20|Z|Arathi Highlands|US|N|Kill and loot raptors until the quest is done.|
-T Foul Magics (Part 1)|QID|671|M|74.70,36.30|Z|Arathi Highlands|N|To Tor'gan.(skip followup)|
-T Raising Spirits (Part 1)|QID|672|M|74.70,36.30|Z|Arathi Highlands|N|To Tor'gan.|
-A Raising Spirits (Part 2)|QID|674|M|74.70,36.30|Z|Arathi Highlands|N|From Tor'gan.|
-T Raising Spirits (Part 2)|QID|674|M|72.60,33.90|Z|Arathi Highlands|N|Talk to Gor'mul in the northwest corner of the village.|
-A Raising Spirits (Part 3)|QID|675|Z|Arathi Highlands|N|From Gor'mul.|
-T Raising Spirits (Part 3)|QID|675|M|74.70,36.30|Z|Arathi Highlands|N|Go back to Torgan.|
-A Guile of the Raptor (Part 1)|QID|701|M|74.70,36.30|Z|Arathi Highlands|N|From Tor'gan.|
+C Raising Spirits |QID|672|M|69.90,36.20|Z|Arathi Highlands|US|N|Kill and loot raptors until the quest is done.|
+T Foul Magics |
+T Raising Spirits |QID|672|M|74.70,36.30|Z|Arathi Highlands|N|To Tor'gan.|
+A Raising Spirits |QID|674|M|74.70,36.30|Z|Arathi Highlands|N|From Tor'gan.|
+T Raising Spirits |QID|674|M|72.60,33.90|Z|Arathi Highlands|N|Talk to Gor'mul in the northwest corner of the village.|
+A Raising Spirits |QID|675|Z|Arathi Highlands|N|From Gor'mul.|
+T Raising Spirits |QID|675|M|74.70,36.30|Z|Arathi Highlands|N|Go back to Torgan.|
+A Guile of the Raptor |QID|701|M|74.70,36.30|Z|Arathi Highlands|N|From Tor'gan.|
 r Sell Junk, Restock, Repair|ACTIVE|701|N|Clear out the bags, stock up on reagents, and we are off again.|
 R Boulderfist Camp|ACTIVE|678|M|52.00,72.00|Z|Arathi Highlands|N|Head southwest to the opposite side of the zone till you find the Boulderfist Camp
-C Call to Arms (Part 2)|QID|678|M|52.00,72.00|Z|Arathi Highlands|N|Kill ogres until you complete this quest.|
-C Guile of the Raptor (Part 1)|QID|701|M|52.30,67.40|Z|Arathi Highlands|N|Then go to the plains north and west of the Ogre caves, all over that place you'll find Highland Fleshstalkers. Kill them until you complete this quest.|
+C Call to Arms |QID|678|M|52.00,72.00|Z|Arathi Highlands|N|Kill ogres until you complete this quest.|
+C Guile of the Raptor |QID|701|M|52.30,67.40|Z|Arathi Highlands|N|Then go to the plains north and west of the Ogre caves, all over that place you'll find Highland Fleshstalkers. Kill them until you complete this quest.|
 L Level Check|ACTIVE|701|LVL|36;61600|N|Grind here or over at the ogres until you are just under 3 bubbles from 37.|
 H Hammerfall|ACTIVE|701|
-T Guile of the Raptor (Part 1)|QID|701|M|74.70,36.30|Z|Arathi Highlands|N|To Tor'gan.|
-A Guile of the Raptor (Part 2)|QID|702|M|74.70,36.30|Z|Arathi Highlands|N|From Tor'gan.|
-T Guile of the Raptor (Part 2)|QID|702|M|72.60,33.90|Z|Arathi Highlands|N|Go to Gor'mul, the npc close to the forge.|
-A Guile of the Raptor (Part 3)|QID|847|M|72.60,33.90|Z|Arathi Highlands|N|Wait a few seconds then he will have a quest up for you.|
-T Guile of the Raptor (Part 3)|QID|847|M|74.70,36.30|Z|Arathi Highlands|N|To Gor'mul.|
-T Call to Arms (Part 2)|QID|678|M|74.20,33.90|Z|Arathi Highlands|N|To Drum Fel.|
-A Call to Arms (Part 3)|QID|679|M|74.20,33.90|Z|Arathi Highlands|N|From Drum Fel.|
+T Guile of the Raptor |QID|701|M|74.70,36.30|Z|Arathi Highlands|N|To Tor'gan.|
+A Guile of the Raptor |QID|702|M|74.70,36.30|Z|Arathi Highlands|N|From Tor'gan.|
+T Guile of the Raptor |QID|702|M|72.60,33.90|Z|Arathi Highlands|N|Go to Gor'mul, the npc close to the forge.|
+A Guile of the Raptor |QID|847|M|72.60,33.90|Z|Arathi Highlands|N|Wait a few seconds then he will have a quest up for you.|
+T Guile of the Raptor |QID|847|M|74.70,36.30|Z|Arathi Highlands|N|To Gor'mul.|
+T Call to Arms |QID|678|M|74.20,33.90|Z|Arathi Highlands|N|To Drum Fel.|
+A Call to Arms |QID|679|M|74.20,33.90|Z|Arathi Highlands|N|From Drum Fel.|
 T Sigil of Strom|QID|639|M|73.8,33.8|Z|Arathi Highlands|N|To Zengu.|
 F Undercity|ACTIVE|1164|M|73,32.6|Z|Arathi Highlands|N|At Urda, Wind Rider Master.|
 T To Steal from Thieves|QID|1164|M|63.80,49.50|Z|Undercity|N|Genavie Callow.|
 b Orgrimmar|ACTIVE|1136|M|60.8,58.8|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|
 h Orgrimmar|QID|1431|M|54,68.6|Z|Orgrimmar|N|Set your hearthstone in Orgrimmar at Innkeeper Gryshka.|
-A Alliance Relations (Part 1)|QID|1431|M|45.30,51.60|Z|Orgrimmar|N|Go to the Cleft of Shadows, and find Craven Drok, an orc NPC who roams in between the two slopes there.|
-T Alliance Relations (Part 1)|QID|1431|M|22.30,53.80|Z|Orgrimmar|N|To Keldran who can be found near the western exit of Orgrimmar, in the last hut before the exit.|
-A Alliance Relations (Part 2)|QID|1432|M|22.30,53.80|Z|Orgrimmar|N|From Keldran.|
+A Alliance Relations |QID|1431|M|45.30,51.60|Z|Orgrimmar|N|Go to the Cleft of Shadows, and find Craven Drok, an orc NPC who roams in between the two slopes there.|
+T Alliance Relations |QID|1431|M|22.30,53.80|Z|Orgrimmar|N|To Keldran who can be found near the western exit of Orgrimmar, in the last hut before the exit.|
+A Alliance Relations |QID|1432|M|22.30,53.80|Z|Orgrimmar|N|From Keldran.|
 F Thunder Bluff|QID|1136|M|45.2,63.8|N|At Doras, Wind Rider Master.|
 T Frostmaw|QID|1136|M|61.50,80.90|Z|Thunder Bluff|N|To Melor Stonehoof on Hunters Rise.|
 L Level Check|LVL|37|ACTIVE|5361|
@@ -302,10 +302,10 @@ A Gelkis Alliance|QID|1368|M|56.00,56.00|Z|Desolace|N|Gurda Wildmane can be foun
 A Khan Dez'hepah|QID|1365|M|56.20,59.60|Z|Desolace|N|From Fegur Twocuts.|
 T Family Tree|QID|5361|M|55.40,55.80|Z|Desolace|N|To Nakata Longhorn in Ghost Walker Post.|
 A Catch of the Day|QID|5386|M|55.40,55.80|Z|Desolace|N|From Nakata Longhorn.|
-T Alliance Relations (Part 2)|QID|1432|M|52.60,54.40|Z|Desolace|N|To the west you'll find the last quest giver of Ghost Walker Post, Takata Steelblade.|
-A Alliance Relations (Part 3)|QID|1433|M|52.60,54.40|Z|Desolace|N|From Takata Steelblade.|
+T Alliance Relations |QID|1432|M|52.60,54.40|Z|Desolace|N|To the west you'll find the last quest giver of Ghost Walker Post, Takata Steelblade.|
+A Alliance Relations |QID|1433|M|52.60,54.40|Z|Desolace|N|From Takata Steelblade.|
 A Befouled by Satyr|QID|1434|M|52.60,54.40|Z|Desolace|N|From Takata Steelblade.|
-T Alliance Relations (Part 3)|QID|1433|M|52.20,53.40|Z|Desolace|N|To Maurin Bonesplitter who should be right behind you.|
+T Alliance Relations |QID|1433|M|52.20,53.40|Z|Desolace|N|To Maurin Bonesplitter who should be right behind you.|
 A The Burning of Spirits|QID|1435|M|52.20,53.40|Z|Desolace|N|From Maurin Bonesplitter.|
 R Shadowprey Village|QID|5386|M|51.70,72.10;25,75|CS|Z|Desolace|N|Go south till you hit the road and then follow it through the Mannaroc COven , until you get to Shadowprey Village.|
 A Hand of Iruxos|QID|5381|M|25.80,68.20|Z|Desolace|N|From Taiga Wisemane, who should be standing on top of an earth mound, to the right after a couple of huts.|
@@ -356,56 +356,56 @@ T Book of the Ancients|QID|6027|M|38.90,27.20|Z|Desolace|N|To Azore Aldamort|
 T The Burning of Spirits|QID|1435|M|52.20,53.40|Z|Desolace|N|To Maurin Bonesplitter, back at Ghost Walker Post.|
 T The Corrupter|QID|1480|M|52.20,53.40|Z|Desolace|N|To Maurin Bonesplitter.(skip follow up)|
 T Befouled by Satyr|QID|1434|M|52.60,54.40|Z|Desolace|N|To Takata Steelblade.|
-A Alliance Relations (Part 4)|QID|1436|M|52.60,54.40|Z|Desolace|N|From Takata Steelblade.|
+A Alliance Relations |QID|1436|M|52.60,54.40|Z|Desolace|N|From Takata Steelblade.|
 T Gelkis Alliance|QID|1368|M|36.20,79.30|Z|Desolace|N|To Uthek the Wise, in Gelkis Village. (skip followup)|
 T Clam Bait|QID|6142|M|22.60,72.00|Z|Desolace|N|To Mai'Lahii, in Shadowprey Village.|
 T Other Fish to Fry|QID|6143|M|23.30,72.90|Z|Desolace|N|To Drulzegar Skraghook.|
 T Hand of Iruxos|QID|5381|M|25.80,68.20|Z|Desolace|N|To Taiga Wisemane. (skip followup)|
 A Hunting in Stranglethorn|QID|5763|M|25.10,72.30|Z|Desolace|N|From Roon Wildmane.|
 H Orgrimmar|ACTIVE|1436|
-T Alliance Relations (Part 4)|QID|1436|Z|Orgrimmar|N|To Keldran, in the last hut close to Orgrimmar's west gate.|
+T Alliance Relations |QID|1436|Z|Orgrimmar|N|To Keldran, in the last hut close to Orgrimmar's west gate.|
 r Repair, Restock, Sell Junk|ACTIVE|5763|N|Don't forget to go see your class trainer for new skills.|
 
 ; === 002_38_39_Jame_Stranglethorn_Vale.lua ===
 b Grom'Gol|ACTIVE|5763|M|50.6,13.0|Z|Durotar|N|Take the Zeppelin to Grom'gol base camp.|
-A The Defense of Grom'gol (Part 1)|QID|568|M|32.20,28.90|Z|Stranglethorn Vale|N|From Commander Aggro'gosh.|
-A Mok'thardin's Enchantment (Part 1)|QID|570|M|32.10,29.20|Z|Stranglethorn Vale|
+A The Defense of Grom'gol |QID|568|M|32.20,28.90|Z|Stranglethorn Vale|N|From Commander Aggro'gosh.|
+A Mok'thardin's Enchantment |QID|570|M|32.10,29.20|Z|Stranglethorn Vale|
 A Headhunting|QID|582|M|32.20,27.70|Z|Stranglethorn Vale|N|From Nimboya.|
 A Split Bone Necklace|QID|598|Z|Stranglethorn Vale|N|From Kin'weelay.|
 
-C Panther Mastery (Part 3)|QID|192|M|35.00,35.00|Z|Stranglethorn Vale|N|Go southeast, stop at waypoint, you should be close to the Master Tribal Leatherworker npc, all around this area you need to find Shadowmaw Panthers, they are stealthed. The best method is to run around killing everything in the area while hitting "tab" key alot to target any panther you find on the way.|
-C Mok'thardin's Enchantment (Part 1)|QID|570|M|47.10,22.90|Z|Stranglethorn Vale|
+C Panther Mastery |QID|192|M|35.00,35.00|Z|Stranglethorn Vale|N|Go southeast, stop at waypoint, you should be close to the Master Tribal Leatherworker npc, all around this area you need to find Shadowmaw Panthers, they are stealthed. The best method is to run around killing everything in the area while hitting "tab" key alot to target any panther you find on the way.|
+C Mok'thardin's Enchantment |QID|570|M|47.10,22.90|Z|Stranglethorn Vale|
 C Some Assembly Required|QID|577|M|39.00,31.00|Z|Stranglethorn Vale|N|Go northeast along the river, you'll find Snapjaw Crocolisks soon . Keep going north along the river to find more crocs.|
 K Foreman Cozzle|ACTIVE|1182|L|5851|M|42.60,18.40|Z|Stranglethorn Vale|T|Foreman Cozzle|N|Go north to the Venture co. Base Camp, clear yourself a path to the top of the oil rig. Find Foreman Cozzle at the top of it, kill him and loot his key.|
-C Goblin Sponsorship (Part 4)|QID|1182|M|43.40,20.40|Z|Stranglethorn Vale|N|Get off the oil rig and go to the small houses just a little south of where you are, inside you'll find Cozzle's footlocker.|
+C Goblin Sponsorship |QID|1182|M|43.40,20.40|Z|Stranglethorn Vale|N|Get off the oil rig and go to the small houses just a little south of where you are, inside you'll find Cozzle's footlocker.|
 C Hostile Takeover|QID|213|M|45.50,21.10|Z|Stranglethorn Vale|N|Kill Venture Co. Geologists until you have all Tumbled Crystals to complete the quest.|
 
-C Raptor Mastery (Part 2)|QID|195|M|30.00,23.00|Z|Stranglethorn Vale|N|Go west/southwest to the area which is north of Grom'gol base camp.|
-C The Defense of Grom'gol (Part 1)|QID|568|Z|Stranglethorn Vale|N|Collect from the Lashtail raptors.|
-C Tiger Mastery (Part 3)|QID|187|M|31.00,19.00|Z|Stranglethorn Vale|N|Move north to the Nesingwary's Expedition Camp, on your way you need to kill 10 Elder Stranglethorn Tigers.|
-T Tiger Mastery (Part 3)|QID|187|M|35.60,10.60|Z|Stranglethorn Vale|N|To Ajeck Rouack at Nesingwary's Expedition camp.|
-A Tiger Mastery (Part 4)|QID|188|M|35.60,10.60|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
-T Panther Mastery (Part 3)|QID|192|M|35.60,10.60|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
-A Panther Mastery (Part 4)|QID|193|M|35.60,10.60|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
-T Raptor Mastery (Part 2)|QID|195|M|35.60,10.60|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
-A Raptor Mastery (Part 3)|QID|196|M|35.60,10.60|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+C Raptor Mastery |QID|195|M|30.00,23.00|Z|Stranglethorn Vale|N|Go west/southwest to the area which is north of Grom'gol base camp.|
+C The Defense of Grom'gol |QID|568|Z|Stranglethorn Vale|N|Collect from the Lashtail raptors.|
+C Tiger Mastery |QID|187|M|31.00,19.00|Z|Stranglethorn Vale|N|Move north to the Nesingwary's Expedition Camp, on your way you need to kill 10 Elder Stranglethorn Tigers.|
+T Tiger Mastery |QID|187|M|35.60,10.60|Z|Stranglethorn Vale|N|To Ajeck Rouack at Nesingwary's Expedition camp.|
+A Tiger Mastery |QID|188|M|35.60,10.60|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+T Panther Mastery |QID|192|M|35.60,10.60|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
+A Panther Mastery |QID|193|M|35.60,10.60|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
+T Raptor Mastery |QID|195|M|35.60,10.60|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
+A Raptor Mastery |QID|196|M|35.60,10.60|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
 T Hunting in Stranglethorn|QID|5763|M|35.60,10.60|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
 R Ruins of Zuuldaia|ACTIVE|582|M|20,12|N|Go southwest around the plateau and then west until you hit the coast. Continue northwest along the coast until you find the ruins of Zuuldaia.|
 C Headhunting|QID|582|M|20.00,12.00|Z|Stranglethorn Vale|N|Kill trolls in the area until quest i complete.
 
 T Headhunting|QID|582|M|32.20,27.70|Z|Stranglethorn Vale|N|To Nimboya, back at Grom'gol base camp.|
 A Bloodscalp Clan Heads|QID|584|Z|Stranglethorn Vale|N|From Nimboya.|
-T The Defense of Grom'gol (Part 1)|QID|568|M|32.20,28.90|Z|Stranglethorn Vale|N|To Commander Aggro'gosh.|
-A The Defense of Grom'gol (Part 2)|QID|569|M|32.20,28.90|Z|Stranglethorn Vale|N|From Commander Aggro'gosh.|
-T Mok'thardin's Enchantment (Part 1)|QID|570|M|32.10,29.20|Z|Stranglethorn Vale|N|To Far Seer Mok'thardin.|
-A Mok'thardin's Enchantment (Part 2)|QID|572|M|32.10,29.20|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|
+T The Defense of Grom'gol |QID|568|M|32.20,28.90|Z|Stranglethorn Vale|N|To Commander Aggro'gosh.|
+A The Defense of Grom'gol |QID|569|M|32.20,28.90|Z|Stranglethorn Vale|N|From Commander Aggro'gosh.|
+T Mok'thardin's Enchantment |QID|570|M|32.10,29.20|Z|Stranglethorn Vale|N|To Far Seer Mok'thardin.|
+A Mok'thardin's Enchantment |QID|572|M|32.10,29.20|Z|Stranglethorn Vale|N|From Far Seer Mok'thardin.|
 R Ruins of Mizjah|ACTIVE|569|M|37,31|Z|Stranglethorn Vale|N|Go east to the Ruins of Mizjah.|
-C The Defense of Grom'gol (Part 2)|QID|569|M|37.00,31.00|N|Kill ogres to complete the quest.|
-T The Defense of Grom'gol (Part 2)|QID|569|M|32.20,28.90|Z|Stranglethorn Vale|N|To Commander Aggro'gosh, back in Grom'gol.|
+C The Defense of Grom'gol |QID|569|M|37.00,31.00|N|Kill ogres to complete the quest.|
+T The Defense of Grom'gol |QID|569|M|32.20,28.90|Z|Stranglethorn Vale|N|To Commander Aggro'gosh, back in Grom'gol.|
 
 F Booty Bay|ACTIVE|1182|M|32.4,29.2|Z|Stranglethorn Vale|N|At Thysta, Wind Rider Master.|
-T Goblin Sponsorship (Part 4)|QID|1182|M|27.20,76.90|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
-A Goblin Sponsorship (Part 5)|QID|1183|M|27.20,76.90|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
+T Goblin Sponsorship |QID|1182|M|27.20,76.90|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
+A Goblin Sponsorship |QID|1183|M|27.20,76.90|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
 T Hostile Takeover|QID|213|M|27.00,77.20|Z|Stranglethorn Vale|N|To Kebok.|
 A Skullsplitter Tusks|QID|209|M|27.00,77.20|Z|Stranglethorn Vale|N|From Kebok.|
 T Some Assembly Required|QID|577|M|28.30,77.60|Z|Stranglethorn Vale|N|To Drizzlik.|
@@ -457,28 +457,28 @@ L Level Check|LVL|40|N|Grind here or at Angor Fortress until 40.|
 T Study of the Elements: Rock|QID|710|M|25,45|Z|Badlands|N|To Lotwil Veratius.|
 A Study of the Elements: Rock|QID|711|M|25,45|Z|Badlands|N|From Lotwil Veratius.|
 H Orgrimmar|ACTIVE|711|N|Hearth to Orgrimmar.|
-r Go train (especially riding)|ACTIVE|711|N|Visit the AH, etc. Check this off and the next guide will load.|
+r Go train |ACTIVE|711|N|Visit the AH, etc. Check this off and the next guide will load.|
 
 ;saving this, because I edited it all with locs and notes and stuff before I realized it wasnt in the guide... so just in case it is needed for the next one...
 ; === 002_40_41_Jame_Arathi_Highlands.lua ===
 ;H Orgrimmar|ACTIVE|679|
 ;b Undercity|ACTIVE|679|M|50.8,13.6|Z|Durotar|N|Take the Zeppelin to the Undercity.|
 ;F Hammerfall|ACTIVE|679|M|63.6,48.6|Z|Undercity|N|At Michael Garrett, Bat Handler.|
-;A Call to Arms (Part 3)|QID|679|M|74.20,33.90|Z|Arathi Highlands|N|From Drum Fel.|
+;A Call to Arms |QID|679|M|74.20,33.90|Z|Arathi Highlands|N|From Drum Fel.|
 ;A The Broken Sigil|QID|640|M|73.8,33.8|Z|Arathi Highlands|N|From Zengu.|
 ;A The Real Threat|QID|680|M|74,33.2|Z|Arathi Highlands|N|From Korin Fel.|
-;A Foul Magics (Part 2)|QID|673|Z|Arathi Highlands|N|From Tor'gan.|
+;A Foul Magics |QID|673|Z|Arathi Highlands|N|From Tor'gan.|
 ;R Stromgarde Keep|ACTIVE|673|M|29.00,63.00|Z|Arathi Highlands|N|Mount up and ride to Stromgarde Keep. As you enter go left at the intersection. Clear your way through until you reach a big dark house. Go behind the house and you should be at the marked waypoint. Marez Cowel spawns at that location, in front of the butcher table.
-;C Foul Magics (Part 2)|QID|673|M|29.00,63.00|Z|Arathi Highlands|T|Marez Cowl|N|Marez wonders, she can also be found on the second level, in a small square-shaped area above the above the spot you just checked(in the next area of the keep).|
+;C Foul Magics |QID|673|M|29.00,63.00|Z|Arathi Highlands|T|Marez Cowl|N|Marez wonders, she can also be found on the second level, in a small square-shaped area above the above the spot you just checked(in the next area of the keep).|
 ;C The Broken Sigil|QID|640|M|23.95,60.45|Z|Arathi Highlands|N|Fight your way back to the intersection where you went left earlier and go right instead (still on the lower level). You should see two ways now. One going south and one going west. Go west and kill every Stromgarde Defender/Troll Hunter/Vindicator you come accross.|
 ;C The Real Threat|QID|680|M|18.68,66.39;19.54,68.25;20.97,65.53|CN|Z|Arathi Highlands|T|Or'Kalar|N|Back to the intersection from before and instead of going west, go south. You should see ogres and trolls there. Clear your way down then straight until you see a tower. Clear your way around the destroyed houses and search for Or'Kalar at or between the two marked waypoints. This is a challenging fight as the elite Shamans nearby will heal him, so you need to CC them or take them out.|
-;C Call to Arms (Part 3)|QID|679|M|19.83,65.96|Z|Arathi Highlands|N|Stick around killing ogres until you finish this quest.|
+;C Call to Arms |QID|679|M|19.83,65.96|Z|Arathi Highlands|N|Stick around killing ogres until you finish this quest.|
 
-;T Foul Magics (Part 2)|QID|673|Z|Arathi Highlands|N|To Tor'gan, back in Hammerfall.|
+;T Foul Magics |QID|673|Z|Arathi Highlands|N|To Tor'gan, back in Hammerfall.|
 ;T The Broken Sigil|QID|640|M|74.6,36.4|Z|Arathi Highlands|N|To Tor'gan.|
 ;A Sigil of Thoradin|QID|641|M|74.6,36.4|Z|Arathi Highlands|N|From Tor'gan.|
 ;T Sigil of Thoradin|QID|641|M|73.8,33.8|Z|Arathi Highlands|N|Go to Zengu (on top).|
-;T Call to Arms (Part 3)|QID|679|M|74.20,33.90Z|Arathi Highlands|N|To Drum Fel.|
+;T Call to Arms |QID|679|M|74.20,33.90Z|Arathi Highlands|N|To Drum Fel.|
 ;T The Real Threat|QID|680|M|74,33.2|Z|Arathi Highlands|N|To Korin Fel.|
 ]]
 end)

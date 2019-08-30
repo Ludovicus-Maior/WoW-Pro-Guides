@@ -35,7 +35,7 @@ F Theramore Isle|QID|1111|N|Fly to Theramore|
 N Sell junk, repair, restock.|QID|1111|N|Sell junk, repair, restock.|
 F Ratchet|QID|1111|N|Fly to Ratchet (The Barrens).  If you are a warlock, you can train skills here. (67.50, 51.30)|Z|Dustwallow Marsh|
 T Goblin Sponsorship|N|Turn in your quest to Gazlowe.|QID|1178|Z|The Barrens|M|62.7,36.2|
-A Goblin Sponsorship (Follow-up)|QID|1180|Z|The Barrens|M|62.7,36.2|
+A Goblin Sponsorship |QID|1180|Z|The Barrens|M|62.7,36.2|
 T Wharfmaster Dizzywig|N|Turn in your quest to Wharfmaster Dizzywig.|QID|1111|Z|The Barrens|M|63.4,38.5|
 A Parts for Kravel|QID|1112|Z|The Barrens|M|63.4,38.5|
 b Booty Bay|QID|1181|N|Take the boat to Booty Bay.|Z|The Barrens|M|63.60,38.60|

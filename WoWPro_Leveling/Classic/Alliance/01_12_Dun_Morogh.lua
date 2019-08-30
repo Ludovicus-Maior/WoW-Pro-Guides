@@ -185,15 +185,15 @@ T The Hunter's Path|QID|6075|M|45.8,53.0|LVL|10|C|Hunter|R|Dwarf|N|To Grif Wildh
 
 L Level 10 |LVL|10|N|You need to be level 10 to continue with this guide.|
 
-A Taming the Beast (Part 1)|QID|6064|C|Hunter|R|Dwarf|N|From Grif Wildheart|
-C Taming the Beast (Part 1)|QID|6064|C|Hunter|R|Dwarf|U|15911|M|39.5,47.3|N|Tame a Large Crag Boar using the taming rod. During the 20 second cast, you will see heart shapes and a casting bar.|
-T Taming the Beast (Part 1)|QID|6064|C|Hunter|R|Dwarf|N|To Grif Wildheart|
-A Taming the Beast (Part 2)|QID|6084|PRE|6064|C|Hunter|R|Dwarf|N|From To Grif Wildheart|
-C Taming the Beast (Part 2)|QID|6084|C|Hunter|R|Dwarf|U|15913|M|48.0,59.0|N|This time you need to tame a Snow Leopard, these can be found south-east of Kharanos. You will need to dismiss your pet Large Crag Boar first.|
-T Taming the Beast (Part 2)|QID|6084|C|Hunter|R|Dwarf|N|To Grif Wildheart|
-A Taming the Beast (Part 3)|QID|6085|PRE|6084|C|Hunter|R|Dwarf|N|From Grif Wildheart|
-C Taming the Beast (Part 3)|QID|6085|C|Hunter|R|Dwarf|U|15908|M|51.5,44.5|N|This time you need to tame an Ice Claw Bear, these can be found east of Kharanos. You will need to dismiss your pet Snow Leopard first.|
-T Taming the Beast (Part 3)|QID|6085|C|Hunter|R|Dwarf|N|To Grif Wildheart|
+A Taming the Beast |QID|6064|C|Hunter|R|Dwarf|N|From Grif Wildheart|
+C Taming the Beast |QID|6064|C|Hunter|R|Dwarf|U|15911|M|39.5,47.3|N|Tame a Large Crag Boar using the taming rod. During the 20 second cast, you will see heart shapes and a casting bar.|
+T Taming the Beast |QID|6064|C|Hunter|R|Dwarf|N|To Grif Wildheart|
+A Taming the Beast |QID|6084|PRE|6064|C|Hunter|R|Dwarf|N|From To Grif Wildheart|
+C Taming the Beast |QID|6084|C|Hunter|R|Dwarf|U|15913|M|48.0,59.0|N|This time you need to tame a Snow Leopard, these can be found south-east of Kharanos. You will need to dismiss your pet Large Crag Boar first.|
+T Taming the Beast |QID|6084|C|Hunter|R|Dwarf|N|To Grif Wildheart|
+A Taming the Beast |QID|6085|PRE|6084|C|Hunter|R|Dwarf|N|From Grif Wildheart|
+C Taming the Beast |QID|6085|C|Hunter|R|Dwarf|U|15908|M|51.5,44.5|N|This time you need to tame an Ice Claw Bear, these can be found east of Kharanos. You will need to dismiss your pet Snow Leopard first.|
+T Taming the Beast |QID|6085|C|Hunter|R|Dwarf|N|To Grif Wildheart|
 A Training the Beast|QID|6086|PRE|6085|C|Hunter|R|Dwarf|N|From Grif Wildheart|
 T Training the Beast|QID|6086|C|Hunter|R|Dwarf|N|C|Hunter|M|70.6,85.4|Z|Ironforge|N|To Belia Thundergranite, in Ironforge|
 
