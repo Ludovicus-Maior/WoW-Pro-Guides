@@ -20,44 +20,44 @@ A Mazen's Behest|QID|1364|M|40,63|Z|Stormwind City|N|From Acolyte Dellis.|
 F Booty Bay|QID|595|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
 h Booty Bay|QID|595|M|27.00,77.30|N|Make Booty Bay your home location.|
 r Sell junk, repair, restock|QID|595|N|Sell junk, repair, restock.|
-A Goblin Sponsorship (part 4)|QID|1182|M|27.2,77.0|N|From Baron Revilgaz. (top floor of inn)|
+A Goblin Sponsorship |
 A Skullsplitter Tusks|QID|209|M|27.0,77.1|N|From Kebok.|
 A Tran'rek|QID|2864|M|26.9,77.2|N|From Krazek.|
 A Zanzil's Secret|QID|621|M|27.1,77.2|N|From Crank Fizzlebub.|
 N Green Hills of Stranglethorn|QID|6504|Z|Stranglethorn Vale|N|While you are in Booty Bay, check the AH to see if any of the Stranglethorn Lost Pages you are missing are for sale. This is our last trip to Stranglethorn Vale, so you want to have all 4 chapters complete as soon as possible:\nChapter I: page 1,4,6,8\nChapter II: page 10,11,14,16\nChapter III: page 18,20,21,24\nChapter IV: page 25,26,27|
-A Akiris by the Bundle (part 1)|QID|617|M|26.8,76.4|N|From Privateer Bloads.|
-A The Bloodsail Buccaneers (part 1)|QID|595|M|28.1,76.2|N|From First Mate Crazz.|
+A Akiris by the Bundle |QID|617|M|26.8,76.4|N|From Privateer Bloads.|
+A The Bloodsail Buccaneers |QID|595|M|28.1,76.2|N|From First Mate Crazz.|
 A Venture Company Mining|QID|600|M|27.1,77.2|N|Accept this quest if you do not have it.|
 A Scaring Shaky|QID|606|M|27.8,77.1|N|Accept this quest if you do not have it.|
 A "Pretty Boy" Duncan|QID|610|N|Accept this quest if you do not have it.|
 K "Pretty Boy" Duncan|ACTIVE|610|M|27.50,69.35|T|"Pretty Boy" Duncan|N|Kill Pretty Boy Duncan at this location and loot the blade from him.|
-T The Bloodsail Buccaneers (part 1)|QID|595|M|27.30,69.50|N|To 'Bloodsail Correspondence' on a barrel in the camp.|
-A The Bloodsail Buccaneers (part 2)|QID|597|M|27.3,69.5|N|From 'Bloodsail Correspondence'.|
+T The Bloodsail Buccaneers |QID|595|M|27.30,69.50|N|To 'Bloodsail Correspondence' on a barrel in the camp.|
+A The Bloodsail Buccaneers |QID|597|M|27.3,69.5|N|From 'Bloodsail Correspondence'.|
 C Akiris by the Bundle|QID|617|M|26.00,62.00|N|Kill Nagas here until you get the Akiris Reeds needed for the quest.|
 C Scaring Shaky|QID|606|M|31,61|N|Kill Gorillas here until you get the items needed for this quest.|
 R Booty Bay|ACTIVE|606|M|26.9,73.6|N|Return to Booty Bay.|
 T Scaring Shaky|QID|606|M|26.9,73.6|N|To "Shaky" Philippe.|
 A Return to MacKinley|QID|607|M|26.9,73.6|N|From "Shaky" Philippe.|
-T The Bloodsail Buccaneers (part 2)|QID|597|M|28.1,76.2|N|To First Mate Crazz.|
-A The Bloodsail Buccaneers (part 3)|QID|599|M|28.1,76.2|N|From First Mate Crazz.|
-T Akiris by the Bundle (part 1)|QID|617|M|26.8,76.4|N|To Privateer Bloads.|
-A Akiris by the Bundle (part 2)|QID|623|M|26.8,76.4|N|From Privateer Bloads.|
+T The Bloodsail Buccaneers |QID|597|M|28.1,76.2|N|To First Mate Crazz.|
+A The Bloodsail Buccaneers |QID|599|M|28.1,76.2|N|From First Mate Crazz.|
+T Akiris by the Bundle |QID|617|M|26.8,76.4|N|To Privateer Bloads.|
+A Akiris by the Bundle |QID|623|M|26.8,76.4|N|From Privateer Bloads.|
 T "Pretty Boy" Duncan|QID|610|N|To Catelyn the Blade. (skip her follow-up)|
 A Up to Snuff|QID|587|M|26.9,77.3|N|From Deeg (upstairs)|
-T The Bloodsail Buccaneers (part 3)|QID|599|M|27.2,77.0|N|To Fleet Master Seahorn.|
-A The Bloodsail Buccaneers (part 4)|QID|604|M|27.2,77.0|N|From Fleet Master Seahorn.|
+T The Bloodsail Buccaneers |QID|599|M|27.2,77.0|N|To Fleet Master Seahorn.|
+A The Bloodsail Buccaneers |QID|604|M|27.2,77.0|N|From Fleet Master Seahorn.|
 T Return to MacKinley|QID|607|M|27.8,77.1|N|To "Sea Wolf" MacKinley.|
 A Voodoo Dues|QID|609|M|27.8,77.1|N|From "Sea Wolf" MacKinley.|
 A Keep An Eye Out|QID|576|M|28.6,75.9|N|From Dizy One-Eye.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock.|
 
-C The Bloodsail Buccaneers (part 4)|QID|604|M|28,83;27,83;30,80|CN|N|Exit town and go to the beach. Kill Bloodsail mobs while moving to this location. Loot the Bloodsail Charts and Bloodsail Orders from the camps in the area. Check at each of the locations marked.|
+C The Bloodsail Buccaneers |QID|604|M|28,83;27,83;30,80|CN|N|Exit town and go to the beach. Kill Bloodsail mobs while moving to this location. Loot the Bloodsail Charts and Bloodsail Orders from the camps in the area. Check at each of the locations marked.|
 C Up to Snuff|QID|587|M|32.8,76.2|N|Continue to kill Bloodsail mobs until you get 15 Snuff.|
 C Keep An Eye Out|QID|576|M|32.8,76.2|N|Continue to kill Bloodsail mobs until you get Dizzy's Eye. (Random from any)|
 C Panther Mastery|QID|192|S|N|From now on, kill any Shadowmaw Panther you see. They are stealthed.|
 C Venture Company Mining|QID|600|M|41.00,43.60|N|Kill Venture Co. Mobs until you get the 10 Singing Blue Crystals for this quest.|
-C Raptor Mastery (part 4)|QID|196|M|32.80,40.30|N|Kill 10 Jungle Stalkers near this location.|
-C Panther Mastery (part 3)|QID|192|M|39.00,35.00|US|N|Kill Shadowmaw Panthers to complete this quest. They are stealthed.|
+C Raptor Mastery |QID|196|M|32.80,40.30|N|Kill 10 Jungle Stalkers near this location.|
+C Panther Mastery |QID|192|M|39.00,35.00|US|N|Kill Shadowmaw Panthers to complete this quest. They are stealthed.|
 R Ziat'Jai Ruins|ACTIVE|209|M|42,36|N|Go East to Ziata'Jai ruins.|
 K Skullsplitter Trolls|ACTIVE|209|M|42,36;45,33;47,38|CN|L|1524 18|N|Kill Trolls in the three areas until you gather 18 tusks. Avoid the higher level trolls up the hill.|
 L Level Check|ACTIVE|209|M|42,36;45,33;47,38|CN|N|Grind here until you reach level 42.|LVL|42|
@@ -67,14 +67,14 @@ K Maury "Club Foot" Wilkins|ACTIVE|609|QO|1|M|35.10,51.10|T|Maury "Club Foot" Wi
 K Chucky "Ten Thumbs"|ACTIVE|609|QO|3|M|34.3,54.3;40.00,58.20|CS|T|Chucky "Ten Thumbs"|N|Kill Chucky Ten Thumbs and loot the ring.|
 C Zanzil's Secret|QID|621|M|39.00,57.00|N|Kill Zanzil mobs until you get 12 Mixtures for this quest.|
 K Foreman Cozzle|ACTIVE|1182|L|5851 1|M|42.60,18.40|T|Foreman Cozzle|N|Kill Foreman Cozzle and loot his key.|
-C Goblin Sponsorship (part 4)|QID|1182|M|43.35,20.35|NC|N|Loot the Blueprints from the chest at this location.|
+C Goblin Sponsorship |QID|1182|M|43.35,20.35|NC|N|Loot the Blueprints from the chest at this location.|
 C Moon Over the Vale|QID|207|QO|1|M|29.50,19.10|NC|N|Loot the scroll from the Tablet at this location.|
 C "Gri"lek the Wanderer|QID|207|QO|2|M|24.75,22.86|NC|N|Loot the scroll from the tablet underwater at this location.|
 C The Emperor's Tomb|QID|207|QO|4|M|21,10;22.90,12.00|CS|NC|N|Into the ruins, left and up the ramp at the first fork. Loot the scroll from this location.|
 C Fall of Gurubashi|QID|207|QO|3|M|24.70,8.90|NC|N|Go back to the fork and take the ramp up to the right, then uturn at top to find and loot the scroll from this location.|
 R Nessingwary's Camp|ACTIVE|192^193|M|35.8,10.7|
-T Panther Mastery (part 3)|QID|192|M|35.8,10.7|
-T Raptor Mastery (part 3)|QID|196|M|35.8,10.7|
+T Panther Mastery |QID|192|M|35.8,10.7|
+T Raptor Mastery |QID|196|M|35.8,10.7|
 R Rebel Camp|ACTIVE|207|M|37.8,3.4|
 T Kurzen's Mystery|QID|207|M|37.8,3.4|N|To Brother Nimetz.|
 
@@ -83,10 +83,10 @@ T Venture Company Mining|QID|600|M|27.1,77.2|N|To Crank Fizzlebub.|
 T Zanzil's Secret|QID|621|M|27.1,77.2|N|To Crank Fizzlebub.|
 T Up to Snuff|QID|587|M|26.9,77.3|N|To Deeg.|
 T Skullsplitter Tusks|QID|209|M|27.0,77.1|N|To Kebok.|
-T Goblin Sponsorship (part 4)|QID|1182|M|27.2,77.0|N|To Baron Revilgaz.|
-A Goblin Sponsorship (part 5)|QID|1183|M|27.2,77.0|N|From Baron Revilgaz.|
-T The Bloodsail Buccaneers (part 4)|QID|604|M|27.2,77.0|N|To Fleet Master Seahorn. (skip followup)|
-;A The Bloodsail Buccaneers (part 5)|QID|608|M|27.2,77.0|
+T Goblin Sponsorship |QID|1182|M|27.2,77.0|N|To Baron Revilgaz.|
+A Goblin Sponsorship |QID|1183|M|27.2,77.0|N|From Baron Revilgaz.|
+T The Bloodsail Buccaneers |
+;A The Bloodsail Buccaneers |QID|608|M|27.2,77.0|
 T Voodoo Dues|QID|609|M|27.8,77.1|N|To "Sea Wolf" MacKinley. (skip follow up).|
 A Stoley's Debt|QID|2872|M|27.8,77.1|N|From "Sea Wolf" MacKinley.|
 
@@ -168,7 +168,7 @@ R Mirage Raceway|ACTIVE|1137|M|80,75|Z|Thousand Needles|N|Continue North to the 
 T News for Fizzle|QID|1137|M|78.1,77.1|Z|Thousand Needles|N|To Fizzle Brassbolts.|
 A Gahz'Rilla|QID|2770|M|78.1,77.1|Z|Thousand Needles|N|To Wizzle Brassbolts.|
 T Parts for Kravel|QID|1112|M|77.8,77.3|Z|Thousand Needles|N|From Fizzle Brassbolts. (skip followup)|
-T Goblin Sponsorship (part 5)|QID|1183|M|80.2,75.9|Z|Thousand Needles|N|To Pozzik. (skip followup)|
+T Goblin Sponsorship |
 A Keeping Pace|QID|1190|M|80.2,75.9|Z|Thousand Needles|N|From Pozzik.|
 C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving.  Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.| 
 T Keeping Pace|QID|1190|M|77.2,77.4|Z|Thousand Needles|N|To Unguarded Plans.|
@@ -183,29 +183,29 @@ N Clear area around cage|AVAILABLE|2969|M|66.50, 47.20|Z|Feralas|N|Clear the are
 A Freedom for All Creatures|QID|2969|M|65.9,45.6|Z|Feralas|N|From Kindal Moonweaver.|
 C Freedom for All Creatures|QID|2969|M|66.7,46.8|N|Go to the cage, open it, and protect the sprites. When quest complete, help Kindal finish off whatever she is fighting, so she can return to original location.|
 T Freedom for All Creatures|QID|2969|M|65.9,45.6|Z|Feralas|N|To Kindal Moonweaver.|
-A Doling Justice (part 1)|QID|2970|M|65.9,45.6|Z|Feralas|N|From Jer'kai Moonweaver.|
-C Doling Justice (part 1)|QID|2970|M|66.70,46.70|Z|Feralas|N|Kill the mobs for this quest.|
-T Doling Justice (part 1)|QID|2970|M|65.9,45.6|Z|Feralas|N|To Jer'kai Moonweaver.|
-A Doling Justice (part 2)|QID|2972|M|65.9,45.6|Z|Feralas|N|From Jer'kai Moonweaver.|
+A Doling Justice |QID|2970|M|65.9,45.6|Z|Feralas|N|From Jer'kai Moonweaver.|
+C Doling Justice |QID|2970|M|66.70,46.70|Z|Feralas|N|Kill the mobs for this quest.|
+T Doling Justice |QID|2970|M|65.9,45.6|Z|Feralas|N|To Jer'kai Moonweaver.|
+A Doling Justice |QID|2972|M|65.9,45.6|Z|Feralas|N|From Jer'kai Moonweaver.|
 b Feathermoon Stronghold|ACTIVE|3520|M|43.40,42.70|Z|Feralas|N|Take the boat to Feathermoon Stronghold. If the boat isn't in sight, just swim, it will be faster.|
 h Feathermoon Stronghold|ACTIVE|3520|M|31.00,43.50|Z|Feralas|N|Set your hearthstone to Feathermoon Stronghold.|
 A The Mark of Quality|QID|2821|M|30.6,42.7|Z|Feralas|N|From Pratt McGrubben.|
 f Feathermoon Stronghold|ACTIVE|3520|M|30.25,43.25|Z|Feralas|N|Get the flight path.|
 A The Ruins of Solarsal|QID|2866|M|30.3,46.2|Z|Feralas|N|From Shandris Feathermoon.|
-A The Missing Courier (part 1)|QID|4124|M|30.3,46.2|Z|Feralas|N|From Latronicus Moonspear.|
+A The Missing Courier |QID|4124|M|30.3,46.2|Z|Feralas|N|From Latronicus Moonspear.|
 A The High Wilderness|QID|2982|M|31.8,45.6|Z|Feralas|N|From Angelas Moonbreeze.|
 A In Search of Knowledge|QID|2939|M|31.8,45.6|Z|Feralas|N|From Troyas Moonbreeze.|
-T The Missing Courier (part 1)|QID|4124|M|31.9,45.1|Z|Feralas|N|To Ginro Hearthkindle.|
-A The Missing Courier (part 2)|QID|4125|M|31.9,45.1|Z|Feralas|N|From Ginro Hearthkindle.|
+T The Missing Courier |QID|4124|M|31.9,45.1|Z|Feralas|N|To Ginro Hearthkindle.|
+A The Missing Courier |QID|4125|M|31.9,45.1|Z|Feralas|N|From Ginro Hearthkindle.|
 r Sell junk, repair, restock|QID|2866|N|Sell junk, repair, restock|
 T The Ruins of Solarsal|QID|2866|M|26.30,52.30|Z|Feralas|N|To Solarsal Gazebo.|
 A Return to Feathermoon Stronghold|QID|2867|M|26.3,52.3|Z|Feralas|N|From Solarsal Gazebo.|
 T Return to Feathermoon Stronghold|QID|2867|M|30.3,46.2|Z|Feralas|N|To Shandris Feathermoon.|
-A Against the Hatecrest (part 1)|QID|3130|M|30.3,46.2|Z|Feralas|N|From Shandris Feathermoon.|
-T Against the Hatecrest (part 1)|QID|3130|M|30.3,46.2|Z|Feralas|N|To Latronicus.|
-A Against the Hatecrest (part 2)|QID|2869|M|30.3,46.2|Z|Feralas|N|From Latronicus.|
+A Against the Hatecrest |QID|3130|M|30.3,46.2|Z|Feralas|N|From Shandris Feathermoon.|
+T Against the Hatecrest |QID|3130|M|30.3,46.2|Z|Feralas|N|To Latronicus.|
+A Against the Hatecrest |QID|2869|M|30.3,46.2|Z|Feralas|N|From Latronicus.|
 C Against the Hatecrest|QID|2869|M|26.90,55.30|Z|Feralas|N|Kill the Nagas to get the Scales needed for this quest.|
-T Against the Hatecrest (part 2)|QID|2869|M|30.3,46.2|Z|Feralas|N|To Latronicus.|
+T Against the Hatecrest |QID|2869|M|30.3,46.2|Z|Feralas|N|To Latronicus.|
 A Against Lord Shalzaru|QID|2870|M|30.3,46.2|Z|Feralas|N|From Latronicus.|
 r Sell junk, repair, restock|QID|2870|N|Sell junk, repair, restock.|
 
@@ -215,7 +215,7 @@ T Against Lord Shalzaru|QID|2870|M|30.3,46.2|Z|Feralas|N|To Latronicus.|
 A Delivering the Relic|QID|2871|M|30.3,46.2|Z|Feralas|N|From Latronicus.|
 T Delivering the Relic|QID|2871|M|30.1,45.1|Z|Feralas|N|To Vestia Moonspear.|
 C Screecher Spirits|QID|3520|M|46.00,49.30|Z|Feralas|U|10699|N|Take the boat, then run south on the shore. Kill Rogue Vale Screechers and use Yeh'Kinya's Bramble on their corpses, then talk to the spirit. Continue south.|
-T The Missing Courier (part 2)|QID|4125|M|45.50,65.00|Z|Feralas|N|To Wrecked Row Boat.|
+T The Missing Courier |QID|4125|M|45.50,65.00|Z|Feralas|N|To Wrecked Row Boat.|
 A Boat Wreckage|QID|4127|M|45.5,65.0|Z|Feralas|N|From Wrecked Row Boat.|
 H Feathermoon Stronghold|ACTIVE|4127|N|Hearth or run to Feathermoon Stronghold.|
 T Boat Wreckage|QID|4127|M|31.9,45.1|Z|Feralas|N|To Ginro Hearthkindle.|
@@ -262,7 +262,7 @@ A The Borrower|QID|2941|M|55.4,92.2|Z|Teldrassil|N|From Daryn Lightwind.|
 
 R Darnassus|ACTIVE|4267|Z|Teldrassil|M|56.00,90.00|N|Thru the pink haze.|
 T Rise of the Silithid|QID|4267|M|41.8,85.6|Z|Darnassus|N|To Gracina Spiritmight, second floor Temple of the Moon.|
-T Doling Justice (part 2)|QID|2972|M|38.3,80.9|Z|Darnassus|N|To Tyrande Whisperwind.|
+T Doling Justice |QID|2972|M|38.3,80.9|Z|Darnassus|N|To Tyrande Whisperwind.|
 r Sell junk, repair, restock, train skills|QID|4281|N|Sell junk, repair, restock, train skills|
 H Feathermoon Stronghold|ACTIVE|4281|N|Hearth or fly to Feathermoon Stronghold.|
 L Level Check|QID|4281|N|If you didn't run Uldaman, you might be a bit shy of 45. Grind Nagas on the Isle of Dread (South of Feathermoon) or on yetis at the Yeti Cave (53,56) until you hit level 45|LVL|45|
@@ -453,10 +453,10 @@ t Find OOX-17/TN!|QID|351|M|60,65|N|If you have the OOX-17/TN quest, turn it in.
 A Rescue OOX-17/TN!|QID|648|N|This is an Escort Quest.|PRE|351|
 C Rescue OOX-17/TN!|QID|648|N|Let the chicken lead, so he will get hit first. There are 3 preset ambushes in route.|
 T The Scrimshank Redemption|QID|10|M|50.2,27.5|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
-A Insect Part Analysis (part 1)|QID|110|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
-T Insect Part Analysis (part 1)|QID|110|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
-A Insect Part Analysis (part 2)|QID|113|M|50.9,27.0|Z|Tanaris|N|From Alchemist Pestlezugg.|
-T Insect Part Analysis (part 2)|QID|113|M|50.2,27.5|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
+A Insect Part Analysis |QID|110|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
+T Insect Part Analysis |QID|110|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
+A Insect Part Analysis |QID|113|M|50.9,27.0|Z|Tanaris|N|From Alchemist Pestlezugg.|
+T Insect Part Analysis |QID|113|M|50.2,27.5|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
 A Rise of the Silithid|QID|162|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
 N Elixers of Fortitude|QID|3842|L|3825 2|N|Grab those Elixirs of Fortitude from your bank or mailbox and have them in your inventory, going to do that quest next.|
 
@@ -487,7 +487,7 @@ T A Future Task|QID|2694|M|70.6,18|Z|Ironforge|N|To High Explorer Magellas.|
 r Sell junk, repair, restock, train skills.|ACTIVE|1469|N|Sell junk, repair, restock, train skills.|
 R Stormwind|ACTIVE|1469|N|Take the Tram (or Fly) to Stormwind City.|
 T Rhapsody's Tale|QID|1469|M|64,20|Z|Stormwind City|N|To Brohann Caskbelly, in the Dwarven District.|
-A Into The Temple of Atal'Hakkar (Dungeon)|QID|1475|M|64,20|Z|Stormwind City|N|From Brohann Caskbelly.|
+A Into The Temple of Atal'Hakkar |QID|1475|M|64,20|Z|Stormwind City|N|From Brohann Caskbelly.|
 A Vital Supplies|QID|1477|M|37,81|Z|Stormwind City|N|From High Sorcerer Andromath, in the top of the Mages Tower, in the Mage District.|;moved from Jame's guide to here to avoid an extra trip to Stormwind
 F Darkshire|ACTIVE|1477|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
 T Vital Supplies|QID|1477|M|75.8,46.2|Z|Duskwood|N|To Watchmaster Sorigal.|

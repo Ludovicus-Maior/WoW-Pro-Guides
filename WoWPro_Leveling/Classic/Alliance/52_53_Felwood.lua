@@ -12,7 +12,7 @@ T Timbermaw Ally|QID|8460|M|50.9,85.0|
 A Speak to Nafien|QID|8462|M|50.9,85.0|
 N Empty Cursed Ooze Jar|QID|4512|N|Right-click the Ooze Container in your inventory and loot the Ooze Jars.|L|11914 1|
 N Filled Cursed Ooze Jar|QID|4512|N|Get 6 Filled Cursed Ooze Jars by using the Empty Cursed Ooze Jars in your inventory on Ooze corpses.|L|11947 6|M|41.80,68.20|
-C A Little Slime Goes a Long Way (part 1)|N|Get 6 Filled Tainted Ooze Jars the same way you got the Cursed Jars.  There are more of these oozes slightly to the north.|QID|4512|M|41.00,59.00|
+C A Little Slime Goes a Long Way |N|Get 6 Filled Tainted Ooze Jars the same way you got the Cursed Jars.  There are more of these oozes slightly to the north.|QID|4512|M|41.00,59.00|
 C Forces of Jaedenar|N|Kill mobs here until you finish this quest.|QID|5155|M|35.00,60.00|
 T Forces of Jaedenar|QID|5155|M|51.2,82.3|
 A Collection of the Corrupt Water|QID|5157|M|51.2,82.3|
@@ -33,7 +33,7 @@ T Speak to Nafien|QID|8462|M|64.8,8.1|
 A Deadwood of the North|QID|8461|M|64.8,8.1|
 
 R Winterspring|QID|3908|N|Go through the Timbermaw Hold tunnel to Winterspring.|M|68.40,5.90|
-T It's a Secret to Everybody (part 3)|QID|3908|M|31.3,45.2|
+T It's a Secret to Everybody |QID|3908|M|31.3,45.2|
 A The Videre Elixir|QID|3909|M|31.3,45.2|
 R Felwood|QID|2879|N|Run back through the tunnel to Felwood.|Z|Winterspring|M|27.90,34.50|
 F Feathermoon Stronghold|QID|2879|N|Fly to Feathermoon Stronghold.|M|62.50,24.20|

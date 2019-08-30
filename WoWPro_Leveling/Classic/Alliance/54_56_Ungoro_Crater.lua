@@ -9,16 +9,16 @@ A Lost!|QID|4492|M|43.6,8.5|
 A Beware of Pterrordax|QID|4501|M|43.6,8.5|
 A Muigin and Larion|QID|4141|M|42.9,9.6|
 A Shizzle's Flyer|QID|4503|M|44.2,11.6|
-A Chasing A-Me 01 (part 1)|QID|4243|M|46.4,13.4|
+A Chasing A-Me 01 |QID|4243|M|46.4,13.4|
 N From now on...|QID|4292|N|From now on, kill Diemetradons, Pterrordaxes, and Bloodpetals.|
 C The Northern Pylon|N|Examine (click) the Pylon here.  Kill the Pterrordaxes. (56.45, 12.50)|QID|4285|M|56.5,12.4|
 C The Apes of Un'Goro|N|Kill Gorillas (in the cave as well) until you get the pelts needed for this quest. (60.00, 20.00)|QID|4289|M|65.7,15.5|
-T Chasing A-Me 01 (part 1)|QID|4243|M|67.7,16.8|
-A Chasing A-Me 01 (part 2)|QID|4244|M|67.7,16.8|
-T Chasing A-Me 01 (part 2)|QID|4244|M|67.7,16.8|
-A Chasing A-Me 01 (part 3)|QID|4245|M|67.7,16.8|
-C Chasing A-Me 01 (part 3)|N|Do this escort quest.|QID|4245|M|67.7,16.8|
-T Chasing A-Me 01 (part 3)|QID|4245|M|46.4,13.4|
+T Chasing A-Me 01 |QID|4243|M|67.7,16.8|
+A Chasing A-Me 01 |QID|4244|M|67.7,16.8|
+T Chasing A-Me 01 |QID|4244|M|67.7,16.8|
+A Chasing A-Me 01 |QID|4245|M|67.7,16.8|
+C Chasing A-Me 01 |N|Do this escort quest.|QID|4245|M|67.7,16.8|
+T Chasing A-Me 01 |QID|4245|M|46.4,13.4|
 N Empty Pure Sample Jar|QID|4513|N|Loot the Bag of Empty Ooze Containers in your inventory.|L|11953 1|
 C A Little Slime Goes a Long Way|N|Kill Oozes and use the Empty Pure Sample Jars on the corpses.  Do this until this quest is completed.  Kill Pterrordaxes and Elder Diemetradons as well.|QID|4513|M|37.30,31.20|
 C Shizzle's Flyer|N|Kill Diemetradons and Pterrordaxes until you get the scales for this quest.  You can find a lot of Diemetradons at 59, 52|QID|4503|M|67.3,32.6|

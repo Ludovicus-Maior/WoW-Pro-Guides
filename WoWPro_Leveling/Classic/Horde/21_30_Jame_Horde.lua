@@ -54,7 +54,7 @@ K Venture Co. Operators for Blueprints|QID|1093|L|5734 1|M|62.50,53.30|Z|Stoneta
 C Super Reaper 6000|QID|1093|M|62.60,53.80|Z|Stonetalon Mountains|
 
 T Super Reaper 6000|QID|1093|M|59.00,62.60|Z|Stonetalon Mountains|
-A Further Instructions (Part 1)|QID|1094|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz Fizziks|
+A Further Instructions |QID|1094|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz Fizziks|
 
 C Collect: Resonite Crystals|QID|6421|L|16581 10|NC|M|61.50,93.20|N|Enter northernmost cave.|
 C Explore cave at Boulderslide Ravine|QID|6421|QO|2|NC|M|58.90,90.30|N|Go deeper into the cave until you get complete message.|
@@ -66,7 +66,7 @@ T Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|
 R The Crossroads|QID|1094|M|52.00,30.60|Z|The Barrens|
 
 F Ratchet|QID|1094|M|51.50,30.30|Z|The Barrens|
-T Further Instructions (Part 1)|QID|1094|M|63.00,37.20|Z|The Barrens|
+T Further Instructions |QID|1094|M|63.00,37.20|Z|The Barrens|
 
 F Sun Rock Retreat|QID|6421|M|63.10,37.20|Z|The Barrens|
 T Boulderslide Ravine|QID|6421|M|47.20,64.20|Z|Stonetalon Mountains|
@@ -117,15 +117,15 @@ f Tarren Mill|QID|493|M|60.20,18.70|Z|Hillsbrad Foothills|
 T Journey to Hillsbrad Foothills|QID|493|M|61.4,19.2|Z|Hillsbrad Foothills|N|To Apothecary Lydon|
 T Time To Strike|QID|494|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
 
-A Battle of Hillsbrad (Part 1)|QID|527|M|62.2,20.2|Z|Hillsbrad Foothills|N|From WANTED: Syndicate Personnel|
+A Battle of Hillsbrad |QID|527|M|62.2,20.2|Z|Hillsbrad Foothills|N|From WANTED: Syndicate Personnel|
 A WANTED: Syndicate Personnel|QID|549|M|62.2,20.6|Z|Hillsbrad Foothills|N| Wanted Poster Near High Executor Darthalia|
 A The Rescue|QID|498|M|63.2,20.6|Z|Hillsbrad Foothills|N|From Krusk|
 A Dangerous!|QID|567|M|62.2,20.6|Z|Hillsbrad Foothills|N|Wanted Poster On Inn|
-A Elixir of Suffering (Part 1)|QID|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
-A Elixir of Pain (Part 1)|QID|501|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
+A Elixir of Suffering |QID|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
+A Elixir of Pain |QID|501|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
 
 ; --Shaman Class Quest---------------------------------------------------------------------------
-C Call of Water (Part 4)|QID|1536|C|Shaman|U|7768|M|62.20,20.80|Z|Hillsbrad Foothills|N|Use the Empty Red Waterskin at the well.|
+C Call of Water |QID|1536|C|Shaman|U|7768|M|62.20,20.80|Z|Hillsbrad Foothills|N|Use the Empty Red Waterskin at the well.|
 ; -----------------------------------------------------------------------------
 
 N Things to do...|QID|496|Z|Hillsbrad Foothills|N|From now on kill every bear and spider you encounter.|
@@ -138,38 +138,38 @@ C Free Drull|QID|498|QO|1|NC|M|75.40,41.60|Z|Hillsbrad Foothills|
 N Things to do...|QID|498|Z|Hillsbrad Foothills|N|Kill everything on your way out of Durnholde Keep.|
 C WANTED: Syndicate Personnel|QID|549|M|76.70,42.80|Z|Hillsbrad Foothills|N|If you still need rogues or watchment, they can be found at the small watchtower at|
 
-C Elixir of Suffering (Part 1)|QID|496|M|54.80,8.90|Z|Hillsbrad Foothills|N|Kill gray bears and forest moss creepers around , looting tonuges and looking for a creeper ichor.|
+C Elixir of Suffering |QID|496|M|54.80,8.90|Z|Hillsbrad Foothills|N|Kill gray bears and forest moss creepers around , looting tonuges and looking for a creeper ichor.|
 
 T The Rescue|QID|498|Z|Hillsbrad Foothills|
 T WANTED: Syndicate Personnel|QID|549|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
-T Elixir of Suffering (Part 1)|QID|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
-A Elixir of Suffering (Part 2)|QID|499|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
-T Elixir of Suffering (Part 2)|QID|499|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
+T Elixir of Suffering |QID|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
+A Elixir of Suffering |QID|499|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
+T Elixir of Suffering |QID|499|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
 
 N Things to do...|QID|501|Z|Hillsbrad Foothills|N|Kill every Starving Mountain Lion you find on your way to Hillsbrad Fields.|
 
 R Hillsbrad Fields|QID|527|M|32.20,41.30|Z|Hillsbrad Foothills|
-C Battle of Hillsbrad (Part 1)|QID|527|QO|1|S|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
-C Battle of Hillsbrad (Part 1)|QID|527|QO|2|S|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
+C Battle of Hillsbrad |QID|527|QO|1|S|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
+C Battle of Hillsbrad |QID|527|QO|2|S|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
 K Kill Farmer Getz|QID|527|QO|4|M|34.00,40.00|Z|Hillsbrad Foothills|N|If Farmer Getz is not in his house, he's either in the field right next to it or in the barn|
 K Kill Farmer Ray|QID|527|QO|3|M|33.00,34.00|Z|Hillsbrad Foothills|N|Clear the way inside this house. On the 2nd floor you'll find Farmer Ray.  He may also be found on the first floor, and also around it, and in the field next to it|
-C Battle of Hillsbrad (Part 1)|QID|527|US|QO|2|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
-C Battle of Hillsbrad (Part 1)|QID|527|US|QO|1|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
-C Elixir of Pain (Part 1)|QID|501|M|48.00,42.00|Z|Hillsbrad Foothills|N|Kill mountain lions and collect their blood. Complete the quest on your way back to Tarren Mill.|
+C Battle of Hillsbrad |QID|527|US|QO|2|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
+C Battle of Hillsbrad |QID|527|US|QO|1|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
+C Elixir of Pain |QID|501|M|48.00,42.00|Z|Hillsbrad Foothills|N|Kill mountain lions and collect their blood. Complete the quest on your way back to Tarren Mill.|
 
-T Battle of Hillsbrad (Part 1)|QID|527|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
-A Battle of Hillsbrad (Part 2)|QID|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|From High Executor Darthalia|
-T Elixir of Pain (Part 1)|QID|501|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
-A Elixir of Pain (Part 2)|QID|502|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
+T Battle of Hillsbrad |QID|527|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
+A Battle of Hillsbrad |QID|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|From High Executor Darthalia|
+T Elixir of Pain |QID|501|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
+A Elixir of Pain |QID|502|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
 A Souvenirs of Death|QID|546|M|62,19.8|Z|Hillsbrad Foothills|N|From Deathguard Samsa|
 
-T Elixir of Pain (Part 2)|QID|502|M|61.40,19.10|Z|Hillsbrad Foothills|N|Make sure you are full health before turning in the quest.  Kill Stanley once he transforms.|
+T Elixir of Pain |QID|502|M|61.40,19.10|Z|Hillsbrad Foothills|N|Make sure you are full health before turning in the quest.  Kill Stanley once he transforms.|
 K Farmer Kalaba|QID|567|QO|4|M|35.00,46.00|Z|Hillsbrad Foothills|N|she's at the first field next to the road|
-C Battle of Hillsbrad (Part 2)|QID|528|M|32.00,41.00|Z|Hillsbrad Foothills|N|Kill peasants around|
+C Battle of Hillsbrad |QID|528|M|32.00,41.00|Z|Hillsbrad Foothills|N|Kill peasants around|
 
-T Battle of Hillsbrad (Part 2)|QID|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
-A Battle of Hillsbrad (Part 3)|QID|529|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
-A Elixir of Agony (Part 1)|QID|509|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
+T Battle of Hillsbrad |QID|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
+A Battle of Hillsbrad |QID|529|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
+A Elixir of Agony |QID|509|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
 
 F The Sepulcher|QID|516|M|60.20,18.70|Z|Hillsbrad Foothills|
 T Beren's Peril|QID|516|M|44,41|Z|Silverpine Forest|N|Shadow Priest Allister|
@@ -187,8 +187,8 @@ N Auction House|QID|6581|M|53.70,64.60|Z|Orgrimmar|N|Check the AH for: Deadly Bl
 
 ; --- class quests ------------------------------------------------------------
 F Camp Taurajo|QID|1536|C|Shaman|M|45.30,63.90|Z|Orgrimmar|
-T Call of Water (Part 4)|QID|1536|C|Shaman|M|43.40,77.40|Z|The Barrens|
-A Call of Water (Part 5)|QID|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
+T Call of Water |QID|1536|C|Shaman|M|43.40,77.40|Z|The Barrens|
+A Call of Water |QID|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
 R Camp Taurajo|QID|1534|C|Shaman|M|44.50,59.10|Z|The Barrens|
 F Splintertree Post|QID|1534|C|Shaman|M|44.50,59.10|Z|The Barrens|
 ; --- class quests ------------------------------------------------------------
@@ -234,7 +234,7 @@ N Ursangous's Paw|QID|23|L|16303|M|41.00,67.00|Z|Ashenvale|N|Ursangous can be fo
 A Ursangous's Paw|QID|23|U|16303|M|42.30,65.60|Z|Ashenvale|N|Click Ursangous's Paw to begin the quest.|
 
 ; ----Class Quest-------------------------------------------------------------------------
-C Call of Water (Part 5)|QID|1534|C|Shaman|U|7767|M|33.00,67.00|Z|Ashenvale|N|Use the Empty Blue Waterskin at the fountain in the Ruins of Stardust|
+C Call of Water |QID|1534|C|Shaman|U|7767|M|33.00,67.00|Z|Ashenvale|N|Use the Empty Blue Waterskin at the fountain in the Ruins of Stardust|
 ; -----------------------------------------------------------------------------
 
 K Kill Foulwealds and Thistlefurs for Logging Rope|QID|6571|L|16743 1|M|55.00,63.00|Z|Ashenvale|N|If you haven't already looted the Logging Rope, kill Foulwealds and Thistlefurs until it drops.|
@@ -294,13 +294,13 @@ T Tribes at War|QID|878|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
 A Blood Shards of Agamaggan|QID|5052|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
 K Kill Bristlebacks for Blood Shard|QID|5052|QO|1|M|51.00,54.00|Z|The Barrens|N|You will have collected several Blood Shards from [21]Tribes at War.  In the unlikely case you sold them, kill Bristlebacks until you loot a Blood Shard.|
 T Blood Shards of Agamaggan|QID|5052|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
-A Betrayal from Within (Part 1)|QID|879|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
+A Betrayal from Within |QID|879|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
 A Weapons of Choice|QID|893|M|45.10,57.70|Z|The Barrens|N|From Tatternack Steelforge|
 A Mahren Skyseer|QID|874|PRE|913|Z|The Barrens|O|N|From Jorn Skyseer|
 
 ; -----Class Quest------------------------------------------------------------------------
-T Call of Water (Part 5)|QID|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
-A Call of Water (Part 6)|QID|220|C|Shaman|M|43.40,77.40|Z|The Barrens|
+T Call of Water |QID|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
+A Call of Water |QID|220|C|Shaman|M|43.40,77.40|Z|The Barrens|
 ; -----------------------------------------------------------------------------
 
 K Kuz for Kuz's Skull|ACTIVE|879|QO|1|M|44.00,79.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|
@@ -313,20 +313,20 @@ A Gann's Reclamation|QID|843|M|46.00,79.10|Z|The Barrens|N|To find Gann Stonespi
 C Gann's Reclamation|QID|843|M|47.00,85.00|Z|The Barrens|N|Prospector Khazgorm can be fould around . Excavators and Foremen are all over the area, kill them until you complete the quest.|
 
 T Gann's Reclamation|QID|843|M|46.00,79.10|Z|The Barrens|N|He will be walking up and down the road|
-A Revenge of Gann (Part 1)|QID|846|PRE|843|M|46.00,79.10|Z|The Barrens|N|From Gann|
+A Revenge of Gann |QID|846|PRE|843|M|46.00,79.10|Z|The Barrens|N|From Gann|
 
 N Optional Quest: Tear of the Moons|QID|857|M|48.90,86.30|Z|The Barrens|N|If you are in a group or would just like a challenge, you can accept the quest "The Tear of the Moons" from Feegly the Exiled at . This quest is pretty difficult, and will require you kill a level 30 mob who comes with many adds.|
 A The Tear of the Moons|QID|857|Z|The Barrens|O|N|From Feegly the Exiled|
 
 C The Tear of the Moons|QID|857|M|49.10,84.20|Z|The Barrens|O|N|The strongbox with the Tear of the Moons inside can be found inside Bael'Dun at . There are a couple possible methods of getting to it without actually killing all of the mobs in the room. You can die and rez next to the chest in the fireplace, where only the rifleman will be able to hit you. As a rogue, you can stealth down and sap the riflemen. Also, anyone with a pet to distract the rest of the room can do so, while he or she loots the chest. This is a very difficult quest for this level range - if you can't complete it, just abandon it and move on.|
-C Revenge of Gann (Part 1)|QID|846|M|49.00,84.00|Z|The Barrens|N|Head inside Bael'Dun and kill dwaves until you get all the quest items.|
+C Revenge of Gann |QID|846|M|49.00,84.00|Z|The Barrens|N|Head inside Bael'Dun and kill dwaves until you get all the quest items.|
 
 T The Tear of the Moons|QID|857|Z|The Barrens|O|N|To Feegly the Exiled|
-T Revenge of Gann (Part 1)|QID|846|M|46.00,79.10|Z|The Barrens|N|To Gann Stonespire|
-A Revenge of Gann (Part 2)|QID|849|PRE|846|M|46.00,79.10|Z|The Barrens|N|From Gann Stonespire|
+T Revenge of Gann |QID|846|M|46.00,79.10|Z|The Barrens|N|To Gann Stonespire|
+A Revenge of Gann |QID|849|PRE|846|M|46.00,79.10|Z|The Barrens|N|From Gann Stonespire|
 
-C Revenge of Gann (Part 2)|QID|849|M|47.00,85.70|Z|The Barrens|N|The Helipad is midway down the slope going to the excavation site.  Go up the helipad. Right-click the Flying Machine to destroy it.|
-T Revenge of Gann (Part 2)|QID|849|M|46.00,79.10|Z|The Barrens|N|To Gann Stonespire|
+C Revenge of Gann |QID|849|M|47.00,85.70|Z|The Barrens|N|The Helipad is midway down the slope going to the excavation site.  Go up the helipad. Right-click the Flying Machine to destroy it.|
+T Revenge of Gann |QID|849|M|46.00,79.10|Z|The Barrens|N|To Gann Stonespire|
 
 N Collect: Silithid Eggs|QID|868|L|5058 12|M|43.00,70.00|Z|The Barrens|N|Look for Silithid Mounds.  Clear any bug around it and then click them to gather Silithis Eggs. If you happen to find a Silithid Harvester, kill it and loot it's head.|
 
@@ -340,13 +340,13 @@ A Speak with Thun'grim|QID|1825|C|Warrior|Z|The Barrens|O|
 A The Harvester|QID|897|U|5138|Z|The Barrens|O|N|SILVER ELITE...Click the head to start the quest.|
 
 T Weapons of Choice|QID|893|M|45.10,57.70|Z|The Barrens|N|To Tatternack Steelforge|
-T Betrayal from Within (Part 1)|QID|879|M|44.60,59.20|Z|The Barrens|N|To Mangletooth|
-A Betrayal from Within (Part 2)|QID|906|PRE|879|M|44.60,59.20|Z|The Barrens|N|From Mangletooth|
+T Betrayal from Within |QID|879|M|44.60,59.20|Z|The Barrens|N|To Mangletooth|
+A Betrayal from Within |QID|906|PRE|879|M|44.60,59.20|Z|The Barrens|N|From Mangletooth|
 T The Harvester|QID|897|Z|The Barrens|O|
 
 F The Crossroads|QID|868|M|44.40,59.10|Z|The Barrens|N|To Jorn Skyseer|
 T Egg Hunt|QID|868|M|51.10,29.60|Z|The Barrens|N|To Korran|
-T Betrayal from Within (Part 2)|QID|906|PRE|879|M|51.50,30.90|Z|The Barrens|N|To Thork|
+T Betrayal from Within |QID|906|PRE|879|M|51.50,30.90|Z|The Barrens|N|To Thork|
 
 ; -----Class Quest------------------------------------------------------------------------
 T Speak with Thun'grim|QID|1825|C|Warrior|Z|The Barrens|O|
@@ -356,8 +356,8 @@ A Brutal Armor|QID|1838|C|Warrior|Z|The Barrens|O|
 F Ratchet|QID|6571|M|51.50,30.30|Z|The Barrens|
 
 ; -----Class Quest--------------------------------------------------------------
-T Call of Water (Part 6)|QID|220|C|Shaman|M|65.80,43.80|Z|The Barrens|N|To Islen Waterseer|
-A Call of Water (Part 7)|QID|63|C|Shaman|M|65.80,43.80|Z|The Barrens|N|From Islen Waterseer|
+T Call of Water |QID|220|C|Shaman|M|65.80,43.80|Z|The Barrens|N|To Islen Waterseer|
+A Call of Water |QID|63|C|Shaman|M|65.80,43.80|Z|The Barrens|N|From Islen Waterseer|
 ; -----------------------------------------------------------------------------
 
 T Mahren Skyseer|QID|874|M|65.8,43.8|Z|The Barrens|N|To Mahren Skyseer|
@@ -412,44 +412,44 @@ R Undercity|QID|529|Z|Hillsbrad Foothills|N|Take the Zepplin to Tirisfal then ru
 
 ; -----Class Quest--------------------------------------------------------------
 F Sepulchur|QID|63|C|Shaman|M|63.30,48.40|Z|Undercity|
-C Call of Water (Part 7)|QID|63|C|Shaman|U|7811|M|38.80,44.20|Z|Silverpine Forest|N|Run here to 38,44 - its on the coast behind the Sepulchur. Use the water sapta. Kill the attackable elemental, then turn in the quest to the brazier.|
-T Call of Water (Part 7)|QID|63|C|Shaman|M|38.30,44.60|Z|Silverpine Forest|
-A Call of Water (Part 8)|QID|100|C|Shaman|M|38.30,44.60|Z|Silverpine Forest|
-T Call of Water (Part 8)|QID|100|C|Shaman|M|38.80,44.60|Z|Silverpine Forest|
-A Call of Water (Part 9)|QID|96|C|Shaman|M|38.80,44.60|Z|Silverpine Forest|
+C Call of Water |QID|63|C|Shaman|U|7811|M|38.80,44.20|Z|Silverpine Forest|N|Run here to 38,44 - its on the coast behind the Sepulchur. Use the water sapta. Kill the attackable elemental, then turn in the quest to the brazier.|
+T Call of Water |QID|63|C|Shaman|M|38.30,44.60|Z|Silverpine Forest|
+A Call of Water |QID|100|C|Shaman|M|38.30,44.60|Z|Silverpine Forest|
+T Call of Water |QID|100|C|Shaman|M|38.80,44.60|Z|Silverpine Forest|
+A Call of Water |QID|96|C|Shaman|M|38.80,44.60|Z|Silverpine Forest|
 R Sepulchur|QID|96|C|Shaman|M|45.60,42.50|Z|Silverpine Forest|
 F Tarren Mill|QID|96|C|Shaman|M|45.60,42.50|Z|Silverpine Forest|
 ; -----------------------------------------------------------------------------
 
 F Tarren Mill|QID|529|C|-Shaman|M|63.30,48.40|Z|Undercity|
 
-C Battle of Hillsbrad (Part 3)|QID|529|M|32.00,44.00|Z|Hillsbrad Foothills|N|Kill Blacksmith Verringtan and his apprentices and collect the shipment of iron, at|
-T Battle of Hillsbrad (Part 3)|QID|529|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
-A Battle of Hillsbrad (Part 4)|QID|532|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia|
+C Battle of Hillsbrad |QID|529|M|32.00,44.00|Z|Hillsbrad Foothills|N|Kill Blacksmith Verringtan and his apprentices and collect the shipment of iron, at|
+T Battle of Hillsbrad |QID|529|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
+A Battle of Hillsbrad |QID|532|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia|
 
-C Battle of Hillsbrad (Part 4)|QID|532|M|29.00,41.00|Z|Hillsbrad Foothills|N|Clear your way to inside City Hall.  Clear the first 2 rooms.  First, pull the 1 MOB which is on the left inside the room.  Immediately, go back to the room behind you.  Hide behind a wall.  This way the Councilman cannot nuke you from a distance, but instead come to you.  Next, go to the big room and kill Clerk Horrace Whitesteed. Get back to full health.  Kill Magistrate Burnsidethen.  Finally, destroy the Hillsbrad Proclamation and collect the Town Registry.|
+C Battle of Hillsbrad |QID|532|M|29.00,41.00|Z|Hillsbrad Foothills|N|Clear your way to inside City Hall.  Clear the first 2 rooms.  First, pull the 1 MOB which is on the left inside the room.  Immediately, go back to the room behind you.  Hide behind a wall.  This way the Councilman cannot nuke you from a distance, but instead come to you.  Next, go to the big room and kill Clerk Horrace Whitesteed. Get back to full health.  Kill Magistrate Burnsidethen.  Finally, destroy the Hillsbrad Proclamation and collect the Town Registry.|
 K Clerk Horrace Whitesteed|QID|567|QO|1|M|28.00,42.00|Z|Hillsbrad Foothills|
 
 
 K Citizen Wilkes|QID|567|QO|2|M|33.00,41.00|Z|Hillsbrad Foothills|
 C Souvenirs of Death|QID|546|M|34.00,46.00|Z|Hillsbrad Foothills|N|Kill all humans in the area for Hillsbrad Human Skulls|
 
-T Battle of Hillsbrad (Part 4)|QID|532|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
-A Battle of Hillsbrad (Part 5)|QID|539|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia|
+T Battle of Hillsbrad |QID|532|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
+A Battle of Hillsbrad |QID|539|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia|
 T Souvenirs of Death|QID|546|M|62,19.8|Z|Hillsbrad Foothills|N|To Deathguard Samsa|
 
 R Azurelode Mine|QID|539|M|26.00,58.00|Z|Hillsbrad Foothills|
 K Miner Hackett|QID|567|QO|3|M|27.30,58.70|Z|Hillsbrad Foothills|N|Enter the mine, killing miners as you go. After awhile, you will come to a fork. To the left are Foreman Bonds and Miner Hackett. (31,53)|
 K Foreman Bonds|QID|539|QO|4|M|30.00,55.00|Z|Hillsbrad Foothills|N|At 20% health he summons 2 dwarves to guard him.  Those dwarves can stun, so it is unlikely, at this level, you can kill all 3. If you are a rogue, kill Foreman Bonds, then vanish. For other classes, clear the way behind you towards the exit.  Next, engage and finish Foreman Bonds fast, then run for the exit, the 2 dwarves will follow, but eventually give up and return. If you are about to die, be sure you get the kill on Foreman Bonds first.|
-C Battle of Hillsbrad (Part 5)|QID|539|Z|Hillsbrad Foothills|N|Stay in the mine and kill any miners you still need.|
+C Battle of Hillsbrad |QID|539|Z|Hillsbrad Foothills|N|Stay in the mine and kill any miners you still need.|
 
 C Collect: Mudsnout Blossoms|QID|509|QO|1|NC|M|65.00,60.00|Z|Hillsbrad Foothills|N|Get out the mine and go north around Southshore (the Alliance base). The mudsnout blossoms are big mushrooms found at the farm at (65,60)|
 
 T Dangerous!|QID|567|M|62.2,20.2|Z|Hillsbrad Foothills|N|High Executor Darthalia|
-T Battle of Hillsbrad (Part 5)|QID|539|M|62.2,20.2|Z|Hillsbrad Foothills|N|High Executor Darthalia|
-A Battle of Hillsbrad (Part 6)|QID|541|M|62.2,20.2|Z|Hillsbrad Foothills|N|High Executor Darthalia|
-T Elixir of Agony (Part 1)|QID|509|M|61.4,19.2|Z|Hillsbrad Foothills|N|Apothecary Lydon|
-A Elixir of Agony (Part 2)|QID|513|M|61.4,19.2|Z|Hillsbrad Foothills|N|Apothecary Lydon|
+T Battle of Hillsbrad |QID|539|M|62.2,20.2|Z|Hillsbrad Foothills|N|High Executor Darthalia|
+A Battle of Hillsbrad |QID|541|M|62.2,20.2|Z|Hillsbrad Foothills|N|High Executor Darthalia|
+T Elixir of Agony |QID|509|M|61.4,19.2|Z|Hillsbrad Foothills|N|Apothecary Lydon|
+A Elixir of Agony |QID|513|M|61.4,19.2|Z|Hillsbrad Foothills|N|Apothecary Lydon|
 
 ; === 28_30_Jame_Thousand_Needles.lua ===
 
@@ -457,7 +457,7 @@ H Orgrimmar|QID|5881|U|6948|Z|Hillsbrad Foothills|
 
 ; -----Class Quest--------------------------------------------------------------
 F Ratchet|QID|96|C|Shaman|M|45.30,63.90|Z|Orgrimmar|
-T Call of Water (Part 9)|QID|96|C|Shaman|M|65.80,43.80|Z|The Barrens|N|Back down to Islen Waterseer. Congradulations on your water totem!|
+T Call of Water |QID|96|C|Shaman|M|65.80,43.80|Z|The Barrens|N|Back down to Islen Waterseer. Congradulations on your water totem!|
 ; -----------------------------------------------------------------------------
 
 F Camp Taurajo|QID|5881|Z|The Barrens|

@@ -13,9 +13,9 @@ N Look for loot...|N|There are many loot nodes scattered across this zone. You'l
 A The Apes of Un'Goro|QID|4289|M|69.00,77.00|N|Tauren on the hill to the left of the ramp from Tanaris|
 A The Fare of Lar'korwi|QID|4290|M|71.6,76.0|
 
-A It's a Secret to Everybody (Part 1)|QID|3844|M|63.04,68.54|N|Find the wrecked raft|
-T It's a Secret to Everybody (Part 1)|QID|3844|N|Underwater, the pack is at .|M|63.08,69.03|
-A It's a Secret to Everybody (Part 2)|QID|3845|M|63.1,69.1|
+A It's a Secret to Everybody |QID|3844|M|63.04,68.54|N|Find the wrecked raft|
+T It's a Secret to Everybody |QID|3844|N|Underwater, the pack is at .|M|63.08,69.03|
+A It's a Secret to Everybody |QID|3845|M|63.1,69.1|
 C The Fare of Lar'korwi|QID|4290|M|68.80,56.70|N|Find the Threshadon Carcass amongst the raptors.|
 
 T The Fare of Lar'korwi|QID|4290|M|71.6,76.0|N|To Torwa Pathfinder|
@@ -38,8 +38,8 @@ A Roll the Bones|QID|3882|M|43.6,7.3|
 A Alien Ecology|QID|3883|M|43.9,7.2|
 T Williden's Journal|QID|3884|M|43.9,7.2|
 A Expedition Salvation|QID|3881|M|43.9,7.2|
-T It's a Secret to Everybody (Part 2)|QID|3845|M|44.7,8.1|
-A It's a Secret to Everybody (Part 3)|QID|3908|M|44.7,8.1|
+T It's a Secret to Everybody |QID|3845|M|44.7,8.1|
+A It's a Secret to Everybody |QID|3908|M|44.7,8.1|
 A Larion and Muigin|QID|4145|M|45.5,8.7|N|Hidden on the north side of the valley|
 f Get flight point|M|45.20,5.80|N|Gryfe, Up on the hill, easy to miss|
 A Crystals of Power|QID|4284|M|41.9,2.7|N|In the back of the cave|

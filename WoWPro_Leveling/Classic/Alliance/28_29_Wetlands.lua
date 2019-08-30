@@ -8,7 +8,7 @@ WoWPro:GuideNextGuide(guide, 'ClassicAshenvale2930')
 WoWPro:GuideSteps(guide, function() return [[
 R Deeprun Tram|QID|270|N|Run to the Deeprun Tram.|Z|Stormwind City|M|68.50,31.50|
 R Tinker Town|QID|270|N| Go to Ironforge.|
-T The Test of Righteousness (Part 1)|N|Don't get the follow up, it requires a lot of traveling and it's pretty much a big waste of time, despite the nice reward at the end of the chain.|QID|1653|C|Paladin|
+T The Test of Righteousness |N|Don't get the follow up, it requires a lot of traveling and it's pretty much a big waste of time, despite the nice reward at the end of the chain.|QID|1653|C|Paladin|
 F Menethil Harbor|QID|270|N|Fly to Menethil Harbor.|Z|Ironforge|M|55.3,47.6|
 h Deepwater Tavern|QID|270|N|Go to the inn and make it your home location.|M|10.70,60.95|
 T The Doomed Fleet|QID|270|M|10.6,60.6|
@@ -33,10 +33,10 @@ C The Lost Ingots|N|Kill murlocs around the ship until you get the items needed 
 T The Lost Ingots|QID|324|M|10.6,60.6|
 A Blessed Arm|QID|322|M|10.6,60.6|
 F Stormwind City|QID|322|N|Fly to Stormwind|M|9.50,59.70|
-T The Missing Diplomat (Part 2)|QID|1241|
-A The Missing Diplomat (Part 3)|N||QID|1242|M|76.2,85.2|
-T The Missing Diplomat (Part 3)|N|Elling Trias is on the top floor of this building.|QID|1242|
-A The Missing Diplomat (Part 4)|QID|1243|
+T The Missing Diplomat |QID|1241|
+A The Missing Diplomat |N||QID|1242|M|76.2,85.2|
+T The Missing Diplomat |N|Elling Trias is on the top floor of this building.|QID|1242|
+A The Missing Diplomat |QID|1243|
 h Stormwind City|QID|322|N|Go to the inn and make it your home.|Z|Stormwind City|M|60.4,75.2|
 T Blessed Arm|QID|322|M|59.7,33.8|
 A Armed and Ready|QID|325|

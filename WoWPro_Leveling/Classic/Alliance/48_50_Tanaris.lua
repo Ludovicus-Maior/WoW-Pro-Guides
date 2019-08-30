@@ -23,9 +23,9 @@ R Un'Goro Crater|QID|3844|N|Go down the slope to Un'Goro Crater.|Z|Un'Goro Crate
 A The Fare of Lar'korwi|QID|4290|Z|Un'Goro Crater|M|71.6,76.0|
 A The Apes of Un'Goro|QID|4289|Z|Un'Goro Crater|M|71.6,76.0|
 N From now on...|QID|4284|N|From now on, loot colored crystals off the ground until you have seven of each.|
-A It's a Secret to Everybody (part 1)|N||QID|3844|Z|Un'Goro Crater|M|63.00,68.50|
-T It's a Secret to Everybody (part 1)|N||QID|3844|Z|Un'Goro Crater|M|63.10,69.00|
-A It's a Secret to Everybody (part 2)|QID|3845|Z|Un'Goro Crater|M|63.1,69.1|
+A It's a Secret to Everybody |N||QID|3844|Z|Un'Goro Crater|M|63.00,68.50|
+T It's a Secret to Everybody |N||QID|3844|Z|Un'Goro Crater|M|63.10,69.00|
+A It's a Secret to Everybody |QID|3845|Z|Un'Goro Crater|M|63.1,69.1|
 C The Fare of Lar'korwi|N|Click the carcass at this location.|QID|4290|Z|Un'Goro Crater|M|68.00,56.00|
 T The Fare of Lar'korwi|QID|4290|Z|Un'Goro Crater|M|71.6,76.0|
 A The Scent of Lar'korwi|QID|4291|Z|Un'Goro Crater|M|71.6,76.0|
@@ -36,8 +36,8 @@ A Williden's Journal|N|Accept this quest from the Mangled Journal.|QID|3884|Z|Un
 N Get Power Crystals|QID|4284|N|Make sure you have seven power crystals of each color (red, green, blue, yellow).  They can be found scattered on the ground throughout the zone.|
 T Williden's Journal|QID|3884|Z|Un'Goro Crater|M|43.9,7.2|
 N A Small Pack|QID|3845|N|Loot the items from the Small Pack in your inventory.|L|11104 1|
-T It's a Secret to Everybody (part 2)|QID|3845|Z|Un'Goro Crater|M|44.7,8.1|
-A It's a Secret to Everybody (part 3)|QID|3908|Z|Un'Goro Crater|M|44.7,8.1|
+T It's a Secret to Everybody |QID|3845|Z|Un'Goro Crater|M|44.7,8.1|
+A It's a Secret to Everybody |QID|3908|Z|Un'Goro Crater|M|44.7,8.1|
 A Crystals of Power|QID|4284|Z|Un'Goro Crater|M|41.9,2.7|
 T Crystals of Power|QID|4284|Z|Un'Goro Crater|M|41.9,2.7|
 A The Eastern Pylon|QID|4287|Z|Un'Goro Crater|M|41.9,2.7|
@@ -61,10 +61,10 @@ T Find OOX-17/TN!|O|N|If you have the OOX-17/TN quest, turn it in.|QID|351|M|60,
 A Rescue OOX-17/TN!|N|If you turned in the OOX-17/TN quest, accept the Escort Quest.|QID|648|
 C Rescue OOX-17/TN!|O|N|If you turned in the OOX-17/TN quest, do the Escort Quest.|QID|648|
 T The Scrimshank Redemption|QID|10|M|50.2,27.5|
-A Insect Part Analysis (part 1)|QID|110|M|50.2,27.5|
-T Insect Part Analysis (part 1)|QID|110|M|50.9,27.0|
-A Insect Part Analysis (part 2)|QID|113|M|50.9,27.0|
-T Insect Part Analysis (part 2)|QID|113|M|50.2,27.5|
+A Insect Part Analysis |QID|110|M|50.2,27.5|
+T Insect Part Analysis |QID|110|M|50.9,27.0|
+A Insect Part Analysis |QID|113|M|50.9,27.0|
+T Insect Part Analysis |QID|113|M|50.2,27.5|
 A Rise of the Silithid|QID|162|M|50.2,27.5|
 F Thalanaar|QID|7733|N|Fly to Thalanaar.|M|51.00,29.30|
 A An Orphan Looking For a Home|QID|3841|Z|Feralas|M|65.9,45.6|

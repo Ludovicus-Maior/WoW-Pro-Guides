@@ -16,7 +16,7 @@ h The Sepulcher|QID|445|
 
 A Prove Your Worth|QID|421|M|44.2,39.8|
 T Delivery to Silverpine Forest|QID|445|M|42.8,40.9|
-A A Recipe for Death (Part 1)|QID|447|M|42.8,40.9|
+A A Recipe for Death |QID|447|M|42.8,40.9|
 A Lost Deathstalkers|QID|428|M|43.4,40.9|
 A The Dead Fields|QID|437|M|43.4,40.9|
 A Border Crossings|QID|477|M|44.0,40.9|
@@ -34,7 +34,7 @@ C Wild Hearts|QID|429|M|55.67,12.56|N|Head north and kill the furry little bugge
 R The Sepulcher|QID|421|M|46.21,41.59|
 
 T Prove Your Worth|QID|421|M|44.2,39.8|
-A Arugal's Folly (Part 1)|QID|422|M|44.2,39.8|
+A Arugal's Folly |QID|422|M|44.2,39.8|
 T Wild Hearts|QID|429|M|42.8,40.9|
 A Return to Quinn|QID|430|M|42.8,40.9|
 T The Deathstalkers' Report|QID|449|M|43.4,40.9|
@@ -42,7 +42,7 @@ A Speak with Renferrel|QID|3221|M|43.4,40.9|
 T Speak with Renferrel|QID|3221|M|42.8,40.9|
 A Zinge's Delivery|QID|1359|
 
-C Arugal's Folly (Part 1)|QID|422|M|52,28|N|Go to  and head to the second floor of the building. Touch the Dusty Spellbooks and grab the Remedy of Arugal (52.84,28.57).|
+C Arugal's Folly |QID|422|M|52,28|N|Go to  and head to the second floor of the building. Touch the Dusty Spellbooks and grab the Remedy of Arugal (52.84,28.57).|
 
 T Return to Quinn|QID|430|M|53.4,12.6|
 A Ivar the Foul|QID|425|
@@ -52,17 +52,17 @@ T Ivar the Foul|QID|425|
 
 C The Dead Fields|QID|437|M|45,21|N|Head SW to the Dead Fields at . Nightlash might already be spawned, but if she isn't, kill all the Rot Hide Gnolls you see until she does.|
 
-C A Recipe for Death (Part 1)|QID|447|M|36,15|N|Head to the -ish area and kill whatever spiders and bears you see for their Skittering Bloods and Grizzled Bear Hearts. Watch out for another Son of Arugal that likes to path around and ninja-gank unsuspecting adventurers.|
+C A Recipe for Death |QID|447|M|36,15|N|Head to the -ish area and kill whatever spiders and bears you see for their Skittering Bloods and Grizzled Bear Hearts. Watch out for another Son of Arugal that likes to path around and ninja-gank unsuspecting adventurers.|
 H The Sepulcher|QID|422|N|(43.17,41.29)|
 
-T Arugal's Folly (Part 1)|QID|422|M|44.2,39.9|
-A Arugal's Folly (Part 2)|QID|423|M|44.2,39.8|
+T Arugal's Folly |QID|422|M|44.2,39.9|
+A Arugal's Folly |QID|423|M|44.2,39.8|
 T The Dead Fields|QID|437|M|43.4,40.9|
 A The Decrepit Ferry|QID|438|M|43.4,40.9|
 
 F Undercity|QID|447|M|45.60,42.57|
-T A Recipe for Death (Part 1)|QID|447|M|48.8,69.3|
-A A Recipe for Death (Part 2)|QID|450|M|48.8,69.3|
+T A Recipe for Death |QID|447|M|48.8,69.3|
+A A Recipe for Death |QID|450|M|48.8,69.3|
 T Zinge's Delivery|QID|1359|
 A Sample for Helbrim|QID|1358|
 ]]

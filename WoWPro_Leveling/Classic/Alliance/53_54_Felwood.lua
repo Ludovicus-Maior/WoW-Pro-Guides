@@ -5,7 +5,7 @@ A Dousing the Flames of Protection|QID|5165|M|51.2,82.3|
 T Flute of Xavaric|QID|939|M|51.3,81.5|
 A Felbound Ancients|QID|4441|M|51.3,81.5|
 T Further Corruption|QID|4906|M|51.3,81.5|
-T Verifying the Corruption (2)|QID|5156|M|50.9,81.7|
+T Verifying the Corruption |QID|5156|M|50.9,81.7|
 T Cleansing Felwood|QID|4101|M|54.2,86.8|
 N Cenarion Beacon|QID|5202|N|Talk to the NPC in front of you (Arathandris Silversky) and get a Cenarion Beacon.  You can now get Corrupted Soul Shards after killing things.  Turn those Corrupted Soul Shards in for Cenarion Plant Salves, which you can use on corrupted plants to get buff items.|L|11511 1|
 R Shadow Hold|QID|5202|N|Go to the Shadow Hold and enter it.|M|35.40,58.70|
@@ -38,8 +38,8 @@ b Wetlands|QID|4512|N|Take the boat to Stormwind.|Z|Darkshore|M|32.40,43.80|
 R Ironforge|QID|4512|N|Take the Deeprun Tram to Ironforge|Z|Stormwind City|M|68.50,31.50|
 N Sell junk, repair, restock, train skills|QID|4512|N|Sell junk, repair, restock, train skills|
 N Mithril Casing|QID|4243|N|Make sure you have a Mithril Casing.|
-T A Little Slime Goes a Long Way (part 1)|QID|4512|Z|Ironforge|M|75.8,23.4|
-A A Little Slime Goes a Long Way (part 2)|QID|4513|Z|Ironforge|M|75.8,23.4|
+T A Little Slime Goes a Long Way |QID|4512|Z|Ironforge|M|75.8,23.4|
+A A Little Slime Goes a Long Way |QID|4513|Z|Ironforge|M|75.8,23.4|
 H Gadgetzan|QID|3912|N|Hearth to Gadgetzan.|
 A Super Sticky|QID|4504|Z|Tanaris|M|51.6,26.8|
 U Videre Elixir|QID|3912|N|Go here and use the Videre Elixir.  Do not resurrect until finishing the next part.|U|11243|Z|Tanaris|M|53.90,28.80|

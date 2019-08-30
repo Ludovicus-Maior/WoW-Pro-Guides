@@ -31,11 +31,11 @@ WoWPro.Leveling.ClassicStartGuides = {
 	Dwarf = 'ClassicDunMorogh0112',
 	Gnome = 'ClassicDunMorogh0112',
 	Human = 'ClassicElwynn0112',
-	NightElf = "ClassicTeldrassil0105",
-	Orc = 'Classic-01-05-Zerinj-Durotar',
+	NightElf = "ClassicTeldrassil0112",
+	Orc = 'Classic-01-12-Zerinj-Durotar',
 	Scourge = 'Classic-01-12-Manovan-TirisfalGlades',
-	Tauren = 'Classic-01-05-Shururu-Mulgore',
-	Troll = 'Classic-01-05-Zerinj-Durotar'
+	Tauren = 'Classic-01-12-Shururu-Mulgore',
+	Troll = 'Classic-01-12-Zerinj-Durotar'
 }
 
 -- Called before all addons have loaded, but after saved variables have loaded. --

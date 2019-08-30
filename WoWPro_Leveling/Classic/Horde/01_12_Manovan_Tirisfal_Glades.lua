@@ -98,12 +98,12 @@ A Garments of Darkness|QID|5650|C|Priest|N|From Dark Cleric Beryl|
 
 C Garments of Darkness|QID|5650|C|Priest|M|59.18,46.49|N|Go north. Heal Deathguard Kel and give Power Word: Fortitude to him.|
 C Gloom Weed|QID|5481|QO|1|N|Continue to gather Gloom Weed|S!US|
-K Darkhounds|QID|367|QO|1|N|Kill Decrepit Darkhounds and Cursed Darkhounds|S!US|
+C A New Plague|QID|367|QO|1|N|Kill Decrepit Darkhounds and Cursed Darkhounds|S!US|
 C A Putrid Task|QID|404|M|53.42,55.96|N|Go south-west to Cold Hearth Mannor  while killing Ravaged Corpses and Rotting Deads for Putrid Claws.|
 A A Rogue's Deal|QID|590|M|38.26,56.79|N|Follow the road west to Deathknell to Calvin Montague. Prepare for a fight and AFTER THAT accept his quest. NOTE: This will trigger you for PVP. Don't forget to kill Darkhounds on your way.|
 T A Rogue's Deal|QID|590|M|38.26,56.79|N|Just wait for him to finish eating and turn in the quest.|
-C A New Plague|QID|367|M|48.54,60.10|N|Kill Darkhounds around  to collect the remaining Darkhound Blood.|
-C At War With The Scarlet Crusade|QID|427|M|37.59,48.09|N|Go north-west to Solliden Farmstead  and go west while killing 10 Scarlet Warriors.|
+C A New Plague|QID|367|M|48.54,60.10|N|Kill Darkhounds to collect the remaining Darkhound Blood.|
+C At War With The Scarlet Crusade|QID|427|M|37.59,48.09;32.86,47.47|CC|N|Go north-west to Solliden Farmstead  and go west while killing 10 Scarlet Warriors.|
 
 
 

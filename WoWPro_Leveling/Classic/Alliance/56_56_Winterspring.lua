@@ -13,8 +13,8 @@ T Starfall|QID|5250|
 A The Ruins of Kel'Theril|QID|5244|M|52.1,30.4|
 T The Ruins of Kel'Theril|QID|5244|M|52.1,30.4|
 A Troubled Spirits of Kel'Theril|QID|5245|
-A Enraged Wildkin (part 1)|QID|4861|
-A Are We There, Yeti? (part 1)|QID|3783|M|60.9,37.6|
+A Enraged Wildkin |QID|4861|
+A Are We There, Yeti? |QID|3783|M|60.9,37.6|
 A Duke Nicholas Zverenhoff|QID|6030|M|61.3,39.0|
 A The Everlook Report|QID|6028|M|61.3,39.0|
 A Sister Pamela|QID|5601|M|61.3,39.0|

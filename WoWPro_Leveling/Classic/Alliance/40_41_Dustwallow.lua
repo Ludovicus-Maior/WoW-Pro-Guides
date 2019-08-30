@@ -5,7 +5,7 @@ R Mudsprocket|QID|11214|N|Go west then south on the path to Mudsprocket.|M|41.90
 T Mission to Mudsprocket|QID|11214|M|42.3,72.9|
 f Mudsprocket|QID|11143|N|Get the flight path.|M|42.80,72.50|
 F Theramore Isle|QID|11143|N|Fly to Theramore Isle.|
-T The Deserters (part 2)|QID|1287|M|68.2,48.6|
+T The Deserters |QID|1287|M|68.2,48.6|
 A A Grim Connection|QID|11143|M|68.2,48.6|
 N Check Auction House for these items|QID|714|N|Check the Auction House for the following items (you can do this on an alternate character): Frost Oil, Patterned Bronze Bracers, Gyrochronatom, and 2x Elixir of Fortitude (you may have one already).  You need these items for quests.|
 F Theramore Isle|QID|11143|N|Go to Theramore.|

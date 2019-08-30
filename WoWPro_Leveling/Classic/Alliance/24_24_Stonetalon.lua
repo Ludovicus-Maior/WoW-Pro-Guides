@@ -7,9 +7,9 @@ WoWPro:GuideLevels(guide, 24, 24, 24)
 WoWPro:GuideNextGuide(guide, 'ClassicAshenvale2425')
 WoWPro:GuideSteps(guide, function() return [[
 A Super Reaper 6000|QID|1093|M|59.0,62.6|
-T On Guard in Stonetalon (Part 1)|N|(59.38,69.39)(59.9,66.9)|QID|1070|M|60.45,69.78|
-A On Guard in Stonetalon (Part 2)|QID|1085|M|59.7,67.0|
-T On Guard in Stonetalon (Part 2)|QID|1085|M|59.7,67.0|
+T On Guard in Stonetalon |QID|1070|M|60.45,69.78|
+A On Guard in Stonetalon |QID|1085|M|59.7,67.0|
+T On Guard in Stonetalon |QID|1085|M|59.7,67.0|
 A A Gnome's Respite|QID|1071|M|59.7,67.0|
 N READ THIS|QID|1134|N|From now on kill Young Pridewings on sight. Close this step.|
 C Super Reaper 6000|N|Kill Venture co. Operators until you get the blueprints needed for Super Reaper 6000. Kill other mobs on the way as well. (65.62,51.66)(66.21,51.76)(67.1,52.4)(71.6,50)|QID|1093|M|62.70,54.01|

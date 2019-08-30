@@ -1,8 +1,8 @@
 TourGuide:RegisterGuide("JamEas5960", "Eastern Plaguelands", "Jame", "59", "60", "JamHel6062", "Alliance", function() return [[
 R Eastern Plaguelands|QID|5601|N|Through the path from Western Plaguelands.|
-N SI:7 Insignia (Fredo)|QID|6185|N|Loot the insignia from the body here.  Do not fight the elite.|L|16001 1|M|27.20,75.00|
+N SI:7 Insignia |QID|6185|N|Loot the insignia from the body here.  Do not fight the elite.|L|16001 1|M|27.20,75.00|
 N Blightcaller Uncovered|QID|6186|N|Make sure you get the Blightcaller Uncovered quest update message.|
-N SI:7 Insignia (Rutger)|QID|6185|N|Loot the insignia here.|L|16003 1|M|28.80,79.80|
+N SI:7 Insignia |QID|6185|N|Loot the insignia here.|L|16003 1|M|28.80,79.80|
 C The Eastern Plagues|N|Loot the final insignia here.|QID|6185|M|28.80,74.90|
 T Sister Pamela|QID|5601|M|32.4,83.7|
 A Pamela's Doll|QID|5149|M|32.4,83.7|
@@ -22,7 +22,7 @@ A Binding the Dreadnaught|QID|9131|
 T Binding the Dreadnaught|QID|9131|
 C Carrion Grubbage|N|Kill grubs until you get the items for this quest.|QID|5544|M|33.00,77.00|
 F Chillwind Camp|QID|5226|N|Fly to Chillwind Camp.|M|81.60,59.30|
-T Return to Chillwind Camp (part 4)|QID|5226|M|42.9,84.5|
+T Return to Chillwind Camp |QID|5226|M|42.9,84.5|
 T The Eastern Plagues|QID|6185|M|43.6,84.5|
 N Mission Accomplished!|QID|5238|N|Make sure you turn this quest in at Ashlam (in town, requires manual checkbox).  (42.70, 84.00)|
 T The Eastern Plagues|QID|6185|M|43.6,84.5|

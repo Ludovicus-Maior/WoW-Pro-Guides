@@ -18,8 +18,8 @@ A The Price of Shoes|QID|118|M|31.0,47.3|
 A Messenger to Stormwind|QID|120|
 A A Free Lunch|QID|129|M|26.6,44.3|
 A Dry Times|QID|116|
-T The Defias Brotherhood (part 1)|QID|65|M|26.5,45.3|
-A The Defias Brotherhood (part 2)|QID|132|M|26.5,45.3|
+T The Defias Brotherhood |QID|65|M|26.5,45.3|
+A The Defias Brotherhood |QID|132|M|26.5,45.3|
 A Redridge Goulash|QID|92|M|22.7,43.8|
 A Hilary's Necklace|QID|3741|M|29.3,53.6|
 C Hilary's Necklace|N|Loot the necklace from the Glinting Mud on the ground in the water.  It may also be at 24, 54|QID|3741|M|31.00,54.30|
@@ -44,8 +44,8 @@ R Elwynn Forest|QID|118|N|Go to Elwynn Forest|Z|Duskwood|M|76.00,11.00|
 T The Price of Shoes|QID|118|M|41.7,65.5|
 A Return to Verner|QID|119|M|41.7,65.5|
 N Skin of Sweet Rum|QID|116|N|Buy a Skin of Sweet Rum from Barkeep Dobbins|L|1939 1|Z|Elwynn Forest|M|44.00,65.70|
-T Messenger to Stormwind (part 1)|N||QID|120|Z|Stormwind City|M|69.15,82.70|
-A Messenger to Stormwind (part 2)|QID|121|Z|Stormwind City|
+T Messenger to Stormwind |N||QID|120|Z|Stormwind City|M|69.15,82.70|
+A Messenger to Stormwind |QID|121|Z|Stormwind City|
 N Cask of Merlot|QID|116|N|Buy a Cask of Merlot from Roberto Pupellyverbos in the Southwest part of the Trade District|L|1941 1|Z|Stormwind City|M|60.00,76.90|
 A Oh Brother. . .|N||QID|167|M|70.30,40.85|
 A Collecting Memories|N||QID|168|M|70.30,40.85|

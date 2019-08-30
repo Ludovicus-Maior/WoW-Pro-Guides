@@ -19,7 +19,7 @@ A Supplies for The Crossroads|QID|5041|M|51.50,30.87|N|From Thork.|
 A Harpy Raiders|QID|867|M|51.62,30.90|N|From Darsok Swiftdagger at the top of the tower.|
 A The Forgotten Pools|QID|870|M|52.26,31.93|N|From Tonga Runetotem.|
 
-C Raptor Thieves|QID|869|S|N|Kill Raptors you encounter for their heads.|
+C Raptor Thieves|QID|869|S|N|Kill Raptors you encounter for their heads.\nThese are all around this area.|
 
 ; --- Tauren catchup chain ----------------------------------------------------
 C Plainstrider Menace|QID|844|C|Shaman|S|N|Kill Plainstriders on the way for their beaks.|
@@ -279,38 +279,39 @@ C Blood Feeders|QID|6461|M|57,76|Z|Stonetalon Mountains|
 f Sun Rock Retreat|QID|6401|M|45.2,59.9|Z|Stonetalon Mountains|
 T Kaya's Alive|QID|6401|M|47.4,58.4|Z|Stonetalon Mountains|
 
-T Blood Feeders|QID|6461|M|71.2,94.8|Z|Stonetalon Mountains|N|To Xen'zilla in Malaka'Jin.|
+T Blood Feeders|QID|6461|M|51.94,61.14;71.2,94.8|CC|Z|Stonetalon Mountains|N|To Xen'zilla in Malaka'Jin.|
 H Camp Taurajo|QID|1489|U|6948|
 
 F Thunder Bluff|QID|1489|M|44.5,59.1|
 T Hamuul Runetotem|QID|1489|M|78.4,28.4|Z|Thunder Bluff|N|At the Elder Rise.|
 A Nara Wildmane|QID|1490|M|78.4,28.4|Z|Thunder Bluff|N|From Hamuul Runetotem.|
 T Nara Wildmane|QID|1490|M|75.6,31.2|Z|Thunder Bluff|N|To Nara Wildmane.|
-A Leaders of the Fang|QID|914|M|75.6,31.2|NZ|Thunder Bluff||From Nara Wildmane.|
+A Leaders of the Fang|QID|914|M|75.6,31.2|Z|Thunder Bluff|N|From Nara Wildmane.|
 N Wailing Caverns|QID|914|N|You now have all the quests for Wailing Caverns. This is a great time for you to look for a group for that instance, as you continue questing. We won't be completing those quests in this guide, so if you don't end up going there, just abandon them later.|
 
 F Orgrimmar|QID|3923|M|46.8,50.2|Z|Thunder Bluff|
 T Rilli Greasygob|QID|3923|M|76.4,24.4|Z|Orgrimmar|N|Head to the Valley of Honor and look for Rilli Greasygob.|
 A Samophlange Manual|QID|3924|M|76.4,24.4|Z|Orgrimmar|N|From Rilli Greasygob.|
-C Samophlange Manual|ACTIVE|3924|M|60.0,4.1|L|11148|N|Head out of Orgrimmar West Gate. Very close by you should find Boulder Lode Mine. Fight your way into the mine, and be VERY careful. This area is full of 17-18 mobs that run away at low health and are packed incredibly tightly. Also, because the area is so small inside the cave, respawn can and will bite you.|
+R Southfury River|ACTIVE|3924|N|Head out of Orgrimmar West Gate.|M|11.45,67.06|Z|Orgrimmar|
+C Samophlange Manual|ACTIVE|3924|M|63.66,4.43;62.74,4.75;60.0,4.1|CC|L|11148|N|Very close by you should find Boulder Lode Mine. Fight your way into the mine, and be VERY careful. This area is full of 17-18 mobs that run away at low health and are packed incredibly tightly. Also, because the area is so small inside the cave, respawn can and will bite you.|
 C Samophlange Manual|ACTIVE|3924|M|59,4|L|11147|N|At the back of the cave, you'll find Boss Copperplug.|
 C Samophlange Manual|ACTIVE|3924|M|60.0,4.1|L|11148 5|U|11148|N|Keep killing them until you have 5 pages. Click the pages to combine into manual.|
 C Miner's Fortune|QID|896|M|60.0,4.1|N|Keep killing goblins until the Cate's Eye Emerald drops.|
 
-T The Warsong Reports|QID|6543|M|48,5.4|N|To Kadrak, back at Mor'shan Rampart.|
+T The Warsong Reports|QID|6543|M|61.52,7.62;49.43,13.69;48,5.4|CC|N|To Kadrak, back at Mor'shan Rampart.|
 H Camp Taurajo|QID|3261|U|6948|N|If your hearth isn't up, run back to the Crossroads and then fly there.|M|51.5,30.3|
 T Jorn Skyseer|QID|3261|M|44.8,59|N|To Jorn Skyseer.|
 A Ishamuhale|QID|882|M|44.8,59|N|From Jorn Skyseer.|
 A Tribes at War|QID|878|M|44.6,59.2|N|From Mangletooth.|
 
 C Tribes at War|QID|878|M|43,51;42,48|CS|N|Move north. Move back and forth between this camp and the other until you have killed the necessary number of Bristlebacks of each type.|
-C Consumed by Hatred|QID|899|M|43,51;42,48|CS|N|Keep killing Bristlebacks until you have enough tusks.|
+C Consumed by Hatred|QID|899|M|44.75,57.99;43,51;42,48|CS|N|Keep killing Bristlebacks until you have enough tusks.|
 N Blood Shards|QID|5052|L|5075 11|N|Continue to kill until you have at least 11 Blood Shards.|
 
 T Tribes at War|QID|878|M|44.6,59.2|N|To Mangletooth, back to Camp Taurajo.|
 A Blood Shards of Agamaggan|QID|5052|M|44.6,59.2|N|From Mangletooth.|
 T Blood Shards of Agamaggan|QID|5052|M|44.6,59.2|N|To Mangletooth.|
-A Spirit of the Wind|QID|889|M|44.6,59.2|N|From Mangletooth.|
+A Spirit of the Wind|QID|889|M|44.6,59.2|N|From Mangletooth for a speed buff.|
 R Northwatch Hold|QID|891|M|60.4,53.0|N|Spirit of the Wind which gives a nifty speed buff, which will help with this run! Go north along the road, and then turn east towards Northwatch Hold. Stay on the road for as long as you can. Be careful to avoid the Bristlebacks on your way, the Thornweavers will root you, making it impossible to run from them.|
 N Theramore Medals|QID|891|QO|4|S|N|Kill Dwarves, Loot 10 Theramore Medals.|
 K Cannoneer Smythe|QID|891|T|Cannoneer Smythe|QO|3|M|63.1,56.7|N|Follow the path from the entrance, at top of the hill, turn right and approach the West tower. Clear mobs around the tower. Inside are 3 mobs, one of which is a cloth-wearing healer. This is a tricky fight, but possible. If you have to, use the same tactic we used for Hezrul Bloodmark. Once all 3 of them are dead, climb the tower. Canoneer Smythe is at the top with a guard..|
@@ -323,7 +324,7 @@ T The Guns of Northwatch|QID|891|M|62.2,39|N|To Captain Thalo'thas Brightsun.|
 T Free From the Hold|QID|898|M|62.2,39|N|TO Captain Thalo'thas Brightsun.|
 T Deepmoss Spider Eggs|QID|1069|M|62.4,37.6|N|To Mebox Mizzyrix.|
 T The Escape|QID|863|M|63,37.2|N|To Sputtervalve.|
-A Ziz Fizziks |QID|1483|M|63,37.2|M|From Sputtervalve.|
+A Ziz Fizziks |QID|1483|M|63,37.2|N|From Sputtervalve.|
 T Miner's Fortune|QID|896|M|63.2,38.4|N|To Wharfmaster Dizzywig.|
 
 N Fresh Zhevra Carcas|QID|882|L|10338 1|M|60,30|N|Head north to the dead tree. On your way, Kill the first Zhevra you see.|
