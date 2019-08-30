@@ -40,7 +40,9 @@ frame:SetScript("OnShow", function()
 		subtitle:SetText(L["The module for your current guide is not loaded."])
 		return 
 	else
-		subtitle:SetText(L["Full transcript of the guide currently loaded."])
+	    local faction = UnitFactionGroup("player")
+	    local guide = WoWProDB.char.currentguide
+		subtitle:SetText("Faction: "..faction.."\nGuide ID: "..guide)
 	end
 
 	local box = WoWPro:CreateBG(frame)
