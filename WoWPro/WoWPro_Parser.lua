@@ -488,12 +488,12 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
         WoWPro:Warning("Step %s [%s:%s] in %s has a bad QO¦%s¦ tag.", WoWPro.action[i],WoWPro.step[i],tostring(WoWPro.QID[i]),WoWProDB.char.currentguide,WoWPro.questtext[i])
     end
 
-    if WoWPro.step[i] and string.len(WoWPro.step[i]) > 32 then
-         WoWPro:print("Step [%s] > 32", WoWPro.step[i])
-    end
-    if WoWPro.note[i] and string.len(WoWPro.note[i]) > 128 then
-         WoWPro:print("Note [%s] > 128", WoWPro.note[i])
-    end
+---    if WoWPro.step[i] and string.len(WoWPro.step[i]) > 32 then
+---         WoWPro:print("Step [%s] > 32", WoWPro.step[i])
+---    end
+---    if WoWPro.note[i] and string.len(WoWPro.note[i]) > 128 then
+---         WoWPro:print("Note [%s] > 128", WoWPro.note[i])
+---    end
 
 	if faction then
 	    -- The parser may have set this already, but we allow the caller to override
