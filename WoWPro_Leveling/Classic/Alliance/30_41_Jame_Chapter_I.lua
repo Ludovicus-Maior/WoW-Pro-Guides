@@ -95,20 +95,20 @@ r Sell, Repair, Restock, Train.|N|Rogues can train on the first floor of the inn
 
 F Duskwood
 R Run north to elwynn to marshal hagard turn in the quest accept follow up and run back to darkshire.
-T The Legend of Stalvan (Part 7) |QID|74|M|84.6,69.4|
-A The Legend of Stalvan (Part 8) |QID|75|M|84.6,69.4|N| Run upstairs and check the chest|
-T The Legend of Stalvan (Part 8) |QID|75|M|84.6,69.4| 
-A The Legend of Stalvan (Part 9) |QID|78|M|84.6,69.4|
-T The Legend of Stalvan (Part 9) |QID|78|M|73.8,43.5|
-A The Legend of Stalvan (Part 10) |QID|79|M|73.8,43.5|
-T The Legend of Stalvan (Part 10) |QID|79|M|73.5,46.9|
-A The Legend of Stalvan (Part 11) |QID|80|M|73.5,46.9|
-T The Legend of Stalvan (Part 11) |QID|80|M|72.5,46.9|
-A The Legend of Stalvan (Part 12) |QID|97|M|72.5,46.9|
-T The Legend of Stalvan (Part 12) |QID|97|M|73.5,46.9|
-A The Legend of Stalvan (Part 13) |QID|98|M|73.5,46.9|
-C The Legend of Stalvan (Part 13) |QID|98|M|77.3,36.2|
-T The Legend of Stalvan (Part 13) |QID|98|M|75.8,45.3|
+T The Legend of Stalvan |QID|74|M|84.6,69.4|
+A The Legend of Stalvan |QID|75|M|84.6,69.4|N| Run upstairs and check the chest|
+T The Legend of Stalvan |QID|75|M|84.6,69.4| 
+A The Legend of Stalvan |QID|78|M|84.6,69.4|
+T The Legend of Stalvan |QID|78|M|73.8,43.5|
+A The Legend of Stalvan |QID|79|M|73.8,43.5|
+T The Legend of Stalvan |QID|79|M|73.5,46.9|
+A The Legend of Stalvan |QID|80|M|73.5,46.9|
+T The Legend of Stalvan |QID|80|M|72.5,46.9|
+A The Legend of Stalvan |QID|97|M|72.5,46.9|
+T The Legend of Stalvan |QID|97|M|73.5,46.9|
+A The Legend of Stalvan |QID|98|M|73.5,46.9|
+C The Legend of Stalvan |QID|98|M|77.3,36.2|
+T The Legend of Stalvan |QID|98|M|75.8,45.3|
 
 A Worgen in the Woods |QID|222|M|75.3,48.1|
 C Worgen in the Woods|QID|222|M|72.4,67.4|
