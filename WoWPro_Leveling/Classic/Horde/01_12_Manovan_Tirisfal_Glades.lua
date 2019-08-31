@@ -130,21 +130,21 @@ C Gordo's Task|QID|5481|M|52.9,52.1|N|Finish gathering Gloom Weed|
 T Gordo's Task|QID|5481|M|57.67,48.96|N|North at Junior Apothecary Holland in the cemetary, around the fountain.|
 A Doom Weed|QID|5482|M|57.6,48.7|N|From Junior Apothecary Holland|
 
-K Maggot Eye|QID|398|M|58.68,30.74|L|3635|N|He's north at the end of a field. NOTE: Maggot Eye is level 10. Easiest way to kill him is to pull the mobs outside the house one at a time. If you're a caster: clear the field around the fence and pull him at max range. If you're melee: fight him inside the house. It shouldn't be too difficult at level 8. Loot Maggot Eye's Paw.|
-C A New Plague|QID|368|M|59.64,29.94|N|The murlocs are north at The North Coast at.|
+C Graverobbers|QID|358|S|
+C Wanted: Maggot Eye|QID|398|M|58.68,30.74|L|3635|N|NOTE: Maggot Eye is level 10. Pull the mobs outside the house one at a time. Casters: clear the field around the fence and pull him at max range. Melee: fight him inside the house.|
+C A New Plague|QID|368|M|59.64,29.94|N|The murlocs are at The North Coast.|
 C Doom Weed|QID|5482|M|55.91,41.19|N|Pick Doom weed around here.|
-K Mongrel|QID|358|QO|2|M|60.8,34.0|N|Kill the Rot Hide Mongrels.|
-K Graverobbers|QID|358|QO|1|M|56,40|N|Kill the Rot Hide Graverobbers.|
-K Embalming Ichor|QID|358|QO|3|M|56,40|N|Kill any Rot Hides for the Ichor.|
+C Graverobbers|QID|358|M|60.8,34.0;56,40|US|CN|N|Graverobbers are at the place you looted doomweed, Mongrels are at the farm.|
 
 T Doom Weed|QID|5482|M|57.67,48.96|N|At Junior Apothecary Holland, around the fountain.|
 
 R Agamand Mills|QID|362|M|45.62,41.87|N|Run north-west to Agamand Mills|
+C The Mills Overrun|QID|426|S|
 K Devlin Agamand|QID|362|M|47.41,41.71|L|2831|N|Kill him and loot Devlin's Remains. NOTE: Devin Agamand is a melee fighter despite his appearance.|
 K Nissa Agamand|QID|354|M|49.35,36.02|L|2828|N|Find her in the house to the east. Kill her and loot Nissa's Remains. NOTE: You will either find her in the doorway or inside the building. She might be tough for some classes so make sure you clear the area before you attack her.|
 K Gregor Agamand|QID|354|M|45.78,29.40|L|2829|N|Continue north-west to  where you should find Gregor Agamand. Kill him and loot Gregor's Remains. NOTE: He hits hard but should be soloable if you make sure to pull him alone.|
 K Thurman Agamand|QID|354|M|44.02,33.77|L|2830|N|Slightly south-west near a windmill you should find Thurman Agamand. Kill him and loot Thurman's Remains.|
-C The Mills Overrun|QID|426|M|48.4,42.1|N|Kill mobs here until you complete this quest.|
+C The Mills Overrun|QID|426|M|48.4,42.1|N|Kill mobs here until you complete this quest.|US|
 H Gallows' End Tavern|QID|361|U|6948|N|Hearthstone back to Brill.|
 
 A A Letter Undelivered|QID|361|U|2839|N|If you didn't get the letter by now just take the quest later on when it drops. We will come back to Agamand Mills soon.|

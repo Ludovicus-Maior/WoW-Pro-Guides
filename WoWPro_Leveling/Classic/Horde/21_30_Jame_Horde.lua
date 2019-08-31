@@ -10,16 +10,16 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons
 WoWPro:GuideSteps(guide, function() return [[
 
 ; === 21_22_Jame_Stonetalon_Mountains.lua ===
-h Orgrimmar|QID|6284|M|54.10,68.50|Z|Orgrimmar|
-f Orgrimmar|QID|1492|M|45.30,63.90|Z|Orgrimmar|N|If you don't have this flight path get it.|
+h Orgrimmar|QID|1483|M|54.10,68.50|Z|Orgrimmar|
+f Orgrimmar|QID|1483|M|45.30,63.90|Z|Orgrimmar|N|If you don't have this flight path get it.|
 A Call of Water|QID|1528|C|Shaman|M|38.06,37.38|Z|Orgrimmar|N|From Searn Firewarder.|
 
-R The Barrens|QID|1492|M|34.20,42.20|Z|The Barrens|N|If you've been to The Barrens, fly to Ratchet and skip the next few steps.|
-R The Crossroads|QID|1492|M|52.00,30.60|Z|The Barrens|
-f The Crossroads|QID|1492|M|51.50,30.30|Z|The Barrens|
+R The Barrens|QID|1483|M|34.20,42.20|Z|The Barrens|N|If you've been to The Barrens, fly to Ratchet and skip the next few steps.|
+R The Crossroads|QID|1483|M|52.00,30.60|Z|The Barrens|
+f The Crossroads|QID|1483|M|51.50,30.30|Z|The Barrens|
 
 R Ratchet|QID|1483|M|62.00,37.00|Z|The Barrens|
-f Ratchet|QID|1492|M|63.10,37.20|Z|The Barrens|
+f Ratchet|QID|1483|M|63.10,37.20|Z|The Barrens|
 A Ziz Fizziks|QID|1483|M|63.00,37.20|Z|The Barrens|N|From Sputtervalve|
 
 ; ----Shaman Class Quest-------------------------------------------------------------------------
@@ -38,29 +38,26 @@ f The Crossroads|QID|1492|C|Shaman|M|51.50,30.30|Z|The Barrens|
 f The Crossroads|QID|1062|M|51.50,30.30|Z|The Barrens|
 A Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|N|From Seereth Stonebreak|
 
-R Stonetalon Mountains|QID|6284|M|34.10,27.60|Z|The Barrens|
-A Arachnophobia|QID|6284|M|59.10,75.80|Z|Stonetalon Mountains|N|from the Wanted Poster. This is an elite if you can not do skip.|
-K Kill Besseleth for Besseleth's Fang|QID|6284|L|16192 1|M|52.60,71.70|Z|Stonetalon Mountains|N|Ahead of you there will be a little valley with spiders and spider eggs. Clear your way into it until you see a big orange spider called "Besseleth". Kill it and loot its fang.|
-C Arachnophobia|QID|6284|M|54.60,71.90|Z|Stonetalon Mountains|
-T Arachnophobia|QID|6284|M|47.20,61.20|Z|Stonetalon Mountains|
+R Stonetalon Mountains|QID|6284|M|34.10,27.60|Z|The Barrens|N|If you have the flight point to Sun Rock Retreat, fly there instead and skip this step.|
+A Arachnophobia|QID|6284|M|59.10,75.80|Z|Stonetalon Mountains|N|from the Wanted Poster. This is an elite, if you cannot do it, skip it.|
+C Arachnophobia|QID|6284|M|54.60,71.90|Z|Stonetalon Mountains|N|Clear your way into the valley until you see a big orange spider called "Besseleth".|
+T Arachnophobia|QID|6284|M|47.20,61.20|Z|Stonetalon Mountains|N|Back to Sun Rock Retreat at Maggran Earthbinder.|
 f Sun Rock Retreat|QID|1483|M|45.20,59.80|Z|Stonetalon Mountains|
 A Boulderslide Ravine|QID|6421|M|47.20,64.20|Z|Stonetalon Mountains|N|From Mor'rogal|
 
-T Ziz Fizziks|QID|1483|M|59.00,62.60|Z|Stonetalon Mountains|
+T Ziz Fizziks|QID|1483|M|59.00,62.60|Z|Stonetalon Mountains|N|At the little goblin house.|
 A Super Reaper 6000|QID|1093|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz Fizziks|
-K Venture Co. Loggers|QID|1062|L|3989 15|M|65.00,50.00|Z|Stonetalon Mountains|
-C Goblin Invaders|QID|1062|
-K Venture Co. Operators for Blueprints|QID|1093|L|5734 1|M|62.50,53.30|Z|Stonetalon Mountains|
-C Super Reaper 6000|QID|1093|M|62.60,53.80|Z|Stonetalon Mountains|
+C Goblin Invaders|QID|1062|M|65.00,50.00|Z|Stonetalon Mountains|S|
+C Super Reaper 6000|QID|1093|M|73.24,56.61;69.98,55.94;62.60,53.80|CN|Z|Stonetalon Mountains|N|Kill Venture Co. Operators for the Blueprints, they are mostly found at buildings and machinery.|
+C Goblin Invaders|QID|1062|M|65.00,50.00|Z|Stonetalon Mountains|US|N|Kill the remaining Venture Co. Loggers.|
 
 T Super Reaper 6000|QID|1093|M|59.00,62.60|Z|Stonetalon Mountains|
 A Further Instructions |QID|1094|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz Fizziks|
 
-C Collect: Resonite Crystals|QID|6421|L|16581 10|NC|M|61.50,93.20|N|Enter northernmost cave.|
-C Explore cave at Boulderslide Ravine|QID|6421|QO|2|NC|M|58.90,90.30|N|Go deeper into the cave until you get complete message.|
-C Boulderslide Ravine|QID|6421|M|61.30,92.40|Z|Stonetalon Mountains|
+R Boulderslide Cavern|QID|6421|M|61.50,93.20|
+C Boulderslide Ravine|QID|6421|M|58.90,90.30|Z|Stonetalon Mountains|N|Collect the purple Resonite Crystals and follow the waypoint to explore the cave.|
 
-R The Barrens|QID|1094|M|34.10,27.60|N|Ride to the Stonetalon Mountains and Barrens border, enroute to The Crossroads.|
+R The Barrens|QID|1094|M|52.74,61.56;78.95,89.66;82.79,96.93|N|Walk to the Stonetalon Mountains and Barrens border, en route to The Crossroads.|CS|Z|Stonetalon Mountains|
 T Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|
 
 R The Crossroads|QID|1094|M|52.00,30.60|Z|The Barrens|
@@ -69,15 +66,17 @@ F Ratchet|QID|1094|M|51.50,30.30|Z|The Barrens|
 T Further Instructions |QID|1094|M|63.00,37.20|Z|The Barrens|
 
 F Sun Rock Retreat|QID|6421|M|63.10,37.20|Z|The Barrens|
-T Boulderslide Ravine|QID|6421|M|47.20,64.20|Z|Stonetalon Mountains|
+T Boulderslide Ravine|QID|6421|M|45.03,61.12;44.66,62.92;47.18,64.06|Z|Stonetalon Mountains|CS|
 
-; === 22_24_Jame_Hillsbrad_Foothills.lua ===
+
 F Splintertree Post|QID|6383|M|45.20,59.80|Z|The Barrens|N|If you don't have the Flight Path, fly to The Crossroads and follow the path north until you reach Ashenvale Forest. Go further north until the path forks, there go east until you reach Splintertree Post. Once there take the flight path|
-f Splintertree Post|QID|6383|M|73.20,61.60|Z|Ashenvale|
-N READ THIS|QID|6383|Z|Hillsbrad Foothills|N|To get The Ashenvale Hunt, you must accept the quest from the NPC you just turned in and click "Complete" at the bottom, not "Accept".  Doing so will allow you to acquire the required quest items, Shadumbra/Sharptalon/Ursangos, to later complete the quest.|
-T The Ashenvale Hunt|QID|6383|Z|Hillsbrad Foothills|
+f Splintertree Post|QID|235|M|73.20,61.60|Z|Ashenvale|
+C The Ashenvale Hunt|QID|235|Z|Ashenvale|M|73.74,61.46|
+T The Ashenvale Hunt|QID|235^742^6382|Z|Ashenvale|M|73.74,61.46|
+A The Ashenvale Hunt|QID|6383|N|At Senani Thunderheart.|M|73.75,61.47|Z|Ashenvale|
 
-F Zoram'gar Outpost|QID|6442|M|12.20,33.80|Z|Ashenvale|N|If you don't have the Flight Path: Ride to . Warning: be sure to go AROUND Astranaar.  There will be a little path leading off the mainroad, going west. Follow it until you see a beach. Follow the beach southeast until you see a little camp.|
+F Zoram'gar Outpost|QID|6442|M|73.23,61.58|Z|Ashenvale|N|Right-click to check this step off if you don't have the flight path.|
+R Zoram'gar Outpost|QID|6442|N|Follow the road all the way to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.2,47.28;26.43,42.33;16.51,30.27;12,34|CS|Z|Ashenvale|
 f Zoram'gar Outpost|QID|6442|M|12.20,33.80|Z|Ashenvale|
 A Naga at the Zoram Strand|QID|6442|M|11.69,34.90|Z|Ashenvale|N|From Marukai.|
 N Things to do...|QID|6504|N|Keep any Shredder Operating Manual pages you find from now on.\nRight-click this step to continue.|
@@ -95,56 +94,55 @@ T The Binding|QID|1513|C|Warlock|M|48.20,45.30|Z|Orgrimmar|N|Congradulations on 
 ; -----------------------------------------------------------------------------
 
 F Tirisfal Glades|QID|493|M|50.80,13.80|Z|Durotar|N|via Zeppelin|
-R Undercity|QID|493|M|61.00,69.00|Z|Tirisfal Glades|
-
-
+R Undercity|QID|493|M|61.00,69.00|Z|Tirisfal Glades|N|Right-click to check this step off if you already have the flight path in Undercity and you also don't have the flight path to the Sepulcher.|
 f Undercity|QID|493|M|63.30,48.40|Z|Undercity|
+F The Sepulcher|QID|493|M|63.30,48.40|N|Right-click to check this step off if you do not have this flight path.|Z|Undercity|
 R Tirisfal Glades|QID|493|M|65.90,0.00|Z|Undercity|
 R Silverpine Forest|QID|493|M|54.00,76.30|Z|Tirisfal Glades|
 
-f Sepulcher|QID|493|M|45.60,42.50|Z|Silverpine Forest|
-A Journey to Hillsbrad Foothills|QID|493|Z|Silverpine Forest|N|From Apothecary Renferrel|
-A Beren's Peril|QID|516|Z|Hillsbrad Foothills|N| From Shadow Priest Allister|
+f The Sepulcher|QID|493|M|45.60,42.50|Z|Silverpine Forest|
+A Journey to Hillsbrad Foothills|QID|493|Z|Silverpine Forest|N|From Apothecary Renferrel|M|42.87,40.85|
+A Beren's Peril|QID|516|Z|Silverpine Forest|N| From Shadow Priest Allister|M|43.97,40.99|
 
 C Trial of the Sea Lion|QID|30|C|Druid|U|15882|M|30.00,29.10|Z|Silverpine Forest|O|N|Head to the coast and swim out to . Swim all the way down (use your aquatic form!) and get the second half of the pendant. Then use it to combine the two halves and complete the quest.|
 
-C Beren's Peril|QID|516|M|59.70,71.80|Z|Silverpine Forest|N|Kill any Darlan in your way. You'll quickly find a narrow path towards the mountain, go this way and you'll find the entrance to a cave as well as Ravenclaw.|
+C Beren's Peril|QID|516|M|52.84,45.20;51.91,50.33;60.76,65.13;60.47,75.40;59.70,71.80|CS|Z|Silverpine Forest|N|Kill any Dalaran in your way. You'll quickly find a narrow path towards the mountain, go this way and you'll find the entrance to a cave as well as Ravenclaw.|
 
 R Hillsbrad Foothills|QID|494|M|67.00,80.40|Z|Silverpine Forest|
-A Time To Strike|QID|494|M|20.80,47.40|Z|Hillsbrad Foothills|N|From Deathstalker Lesh|
+A Time To Strike|QID|494|M|20.80,47.40|Z|Hillsbrad Foothills|N|From Deathstalker Lesh.|
 
+R Tarren Mill|QID|493|M|56.25,36.89;31.69,50.42;60.20,18.70|CS|Z|Hillsbrad Foothills|
 f Tarren Mill|QID|493|M|60.20,18.70|Z|Hillsbrad Foothills|
-T Journey to Hillsbrad Foothills|QID|493|M|61.4,19.2|Z|Hillsbrad Foothills|N|To Apothecary Lydon|
-T Time To Strike|QID|494|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
+T Journey to Hillsbrad Foothills|QID|493|M|61.4,19.2|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
+T Time To Strike|QID|494|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 
-A Battle of Hillsbrad |QID|527|M|62.2,20.2|Z|Hillsbrad Foothills|N|From WANTED: Syndicate Personnel|
-A WANTED: Syndicate Personnel|QID|549|M|62.2,20.6|Z|Hillsbrad Foothills|N| Wanted Poster Near High Executor Darthalia|
-A The Rescue|QID|498|M|63.2,20.6|Z|Hillsbrad Foothills|N|From Krusk|
-A Dangerous!|QID|567|M|62.2,20.6|Z|Hillsbrad Foothills|N|Wanted Poster On Inn|
-A Elixir of Suffering |QID|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
-A Elixir of Pain |QID|501|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
+A Battle of Hillsbrad |QID|527|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
+A WANTED: Syndicate Personnel|QID|549|M|62.58,20.71|Z|Hillsbrad Foothills|N|Wanted Poster Near High Executor Darthalia.|
+A The Rescue|QID|498|M|63.2,20.6|Z|Hillsbrad Foothills|N|From Krusk.|
+A Dangerous!|QID|567|M|62.53,19.75|Z|Hillsbrad Foothills|N|Wanted Poster on the inn's wall.|
+A Elixir of Suffering |QID|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+A Elixir of Pain |QID|501|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
 
 ; --Shaman Class Quest---------------------------------------------------------------------------
 C Call of Water |QID|1536|C|Shaman|U|7768|M|62.20,20.80|Z|Hillsbrad Foothills|N|Use the Empty Red Waterskin at the well.|
 ; -----------------------------------------------------------------------------
 
-N Things to do...|QID|496|Z|Hillsbrad Foothills|N|From now on kill every bear and spider you encounter.|
+C Elixir of Suffering|QID|496|S|N|Kill every bear and spider you encounter.|
 
 R Durnholde Keep|QID|498|M|77.90,45.50|Z|Hillsbrad Foothills|
 K Jailor Marlgen for Burnished Gold Key|QID|498|L|3499|M|78.00,40.00|Z|Hillsbrad Foothills|N|Kill everything in the area until you find Jailor Marlgen.  Kill him and loot the key.|
 C Free Thog'thar|QID|498|QO|2|NC|M|79.70,39.70|Z|Hillsbrad Foothills|
 K Jailor Eston|QID|498|L|3467|M|75.30,42.00|Z|Hillsbrad Foothills|N|Find Jailor Eston in the area to get the Dull Iron Key for the other prisoner, Drull, but if Jailor Eston isn't there he is probably in one of the houses on the lower level of the fortress.  Start clearing the way to the wooden houses, watch out, mobs run away here.|
 C Free Drull|QID|498|QO|1|NC|M|75.40,41.60|Z|Hillsbrad Foothills|
-N Things to do...|QID|498|Z|Hillsbrad Foothills|N|Kill everything on your way out of Durnholde Keep.|
-C WANTED: Syndicate Personnel|QID|549|M|76.70,42.80|Z|Hillsbrad Foothills|N|If you still need rogues or watchment, they can be found at the small watchtower at|
+C WANTED: Syndicate Personnel|QID|549|M|76.70,42.80|Z|Hillsbrad Foothills|N|Make your way out of Durnholde while finishing this quest.|
 
-C Elixir of Suffering |QID|496|M|54.80,8.90|Z|Hillsbrad Foothills|N|Kill gray bears and forest moss creepers around , looting tonuges and looking for a creeper ichor.|
+C Elixir of Suffering |QID|496|M|54.80,8.90|US|Z|Hillsbrad Foothills|
 
-T The Rescue|QID|498|Z|Hillsbrad Foothills|
-T WANTED: Syndicate Personnel|QID|549|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
-T Elixir of Suffering |QID|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
-A Elixir of Suffering |QID|499|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
-T Elixir of Suffering |QID|499|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
+T The Rescue|QID|498|Z|Hillsbrad Foothills|M|63.18,20.66|Z|Hillsbrad Foothills|N|At Krusk.|
+T WANTED: Syndicate Personnel|QID|549|M|62.1,20.34|Z|Hillsbrad Foothills|N|At High Executor Darthalia.|
+T Elixir of Suffering |QID|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|At Apothecary Lydon.|
+A Elixir of Suffering |QID|499|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+T Elixir of Suffering |QID|499|M|61.40,19.10|Z|Hillsbrad Foothills|N|At Umpi.|
 
 N Things to do...|QID|501|Z|Hillsbrad Foothills|N|Kill every Starving Mountain Lion you find on your way to Hillsbrad Fields.|
 

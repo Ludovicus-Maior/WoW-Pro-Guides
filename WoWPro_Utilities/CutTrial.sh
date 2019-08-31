@@ -1,6 +1,6 @@
 #!/bin/sh
 
-MODULES="WowPro WoWPro_Leveling"
+MODULES="WoWPro WoWPro_Leveling"
 for dir in ${MODULES} ; do
     if [ ! -d ${dir} ] ; then
       echo "# This program must be run from a directory containing ${dir}"

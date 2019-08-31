@@ -304,13 +304,7 @@ function WoWPro.UpdateTradeSkillsTable(tradeskills)
 
     -- add/update learned professions
     for trade, info in pairs(tradeskills) do
-        if WoWProCharDB.Tradeskills[trade] == nil then
-            WoWProCharDB.Tradeskills[trade] = info
-        else
-            for key, val in ipairs(info) do
-                WoWProCharDB.Tradeskills[trade][key] = val
-            end
-        end
+        WoWProCharDB.Tradeskills[trade] = info
     end
 end
 
