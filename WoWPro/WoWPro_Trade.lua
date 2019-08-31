@@ -287,12 +287,11 @@ end
 
 -- update WoWProCharDB.Tradeskill map so we don't forget detailed ScanTrade() info
 function WoWPro.UpdateTradeSkillsTable(tradeskills)
-    --if not WoWProCharDB.Tradeskills then
+    if not WoWProCharDB.Tradeskills then
         WoWProCharDB.Tradeskills = tradeskills
-    --    return
-    --end
-    -- Elidion: See comment below - The way it was previously didn't work, would never update 
-     
+        return
+    end
+
     -- remove unlearned/unavailable professions, except for cooking or fishing
     for trade in pairs(WoWProCharDB.Tradeskills) do
         local skillLine = WoWPro.ProfessionSkillLines[trade]
@@ -302,18 +301,11 @@ function WoWPro.UpdateTradeSkillsTable(tradeskills)
             WoWProCharDB.Tradeskills[trade] = nil
         end
     end
-    -- Elidion: Commented this out as well as top part, seems pointless as all this is doing is either updating the tradeskill index as a whole if it doesn't exist or it does it a
-    -- piece at a time if it already exists, since it will just overwrite the old values I don't see why there is all these checks for "if exists"  
+
     -- add/update learned professions
-    --for trade, info in pairs(tradeskills) do
-    --    if WoWProCharDB.Tradeskills[trade] == nil then
-    --        WoWProCharDB.Tradeskills[trade] = info
-    --    else
-    --        for key, val in ipairs(info) do
-    --            WoWProCharDB.Tradeskills[trade][key] = val
-    --        end
-    --    end
-    --end
+    for trade, info in pairs(tradeskills) do
+        WoWProCharDB.Tradeskills[trade] = info
+    end
 end
 
 
