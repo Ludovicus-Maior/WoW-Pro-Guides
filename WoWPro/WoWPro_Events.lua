@@ -104,12 +104,18 @@ end
 -- Auto-Complete: Get flight point --
 function WoWPro:AutoCompleteGetFP(...)
     local _event, _idx, msg = ...
-	local index = WoWPro.rows[1].index
-	WoWPro:dbp("AutoCompleteGetFP(%s,%s,%s): Step %s/%d [%s]?", tostring(_event), tostring(_idx), msg, tostring(WoWPro.action[index]), index, tostring(WoWPro.step[index]))
-	if msg == ERR_NEWTAXIPATH and WoWPro.action[index] == "f"
-	and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
-		WoWPro.CompleteStep(index, "AutoCompleteGetFP")
-	end
+    local index = WoWPro.rows[1].index
+    -- ERR_NEWTAXIPATH = "New flight path discovered!";
+    WoWPro:dbp("AutoCompleteGetFP(%s,%s,%s): Step %s/%d [%s]?", tostring(_event), tostring(_idx), msg, tostring(WoWPro.action[index]), index, tostring(WoWPro.step[index]))
+    if msg == ERR_NEWTAXIPATH then
+         if WoWPro.action[index] == "f" then
+            if not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
+                WoWPro.CompleteStep(index, "AutoCompleteGetFP")
+                return
+            end
+        end
+        WoWPro:print("Flightpoint discovered, but guide does not have an 'f' step active.")
+    end
 end
 
 function WoWPro:CheckPlayerForBuffs(buffs)
