@@ -45,7 +45,25 @@ function WoWPro:RecordTaxiLocations(...)
 end
 
 -- Auto-Complete: Use flight point --
-function WoWPro.TakeTaxi(index,destination)
+function WoWPro.TakeTaxiClassic(destination)
+    for i = 1, NumTaxiNodes() do
+        local nomen = TaxiNodeName(i)
+        local location,zone = string.split(",",nomen)
+        WoWPro:dbp("TakeTaxiClassic(%d): Location=%s, zone=%s", i, location, zone)
+        if strfind(location, destination,1,true) or (nomen == destination) then
+            WoWPro:Print("Taking flight to: [%s]",location)
+            if IsMounted() then
+                Dismount()
+            end
+            TakeTaxiNode(i)
+            -- wait till we see PLAYER_CONTROL_LOST and UnitOnTaxi("player") to complete this step.
+            return
+        end
+    end
+    WoWPro:Warning("Unable to find flight point to: [%s]",destination)
+end
+
+function WoWPro.TakeTaxiRetail(destination)
     -- As of 8.1.0.28833, we need to know where we are to know where we can go.
     local x,y,mapId = WoWPro:GetPlayerZonePosition()
     if not mapId then
@@ -57,6 +75,7 @@ function WoWPro.TakeTaxi(index,destination)
     for i, taxiNodeData in ipairs(taxiNodes) do
         -- nodeID=1613, slotIndex=1, type=3, x=0.34, y=0.53, name="Azurewing Repose, Azuna"
         local location,zone = string.split(",", taxiNodeData.name)
+        WoWPro:dbp("TakeTaxiRetail(%d): Location=%s, zone=%s", taxiNodeData.slotIndex, location, zone)
         if strfind(location, destination,1,true) or (taxiNodeData.name == destination) then
             if taxiNodeData.state ~= Enum.FlightPathState.Reachable then
                 WoWPro:Warning("Flight point [%s] is not reachable (%d)", location, taxiNodeData.state)
@@ -72,6 +91,14 @@ function WoWPro.TakeTaxi(index,destination)
         end
     end
     WoWPro:Warning("Unable to find flight point to: [%s]",destination)
+end
+
+function WoWPro.TakeTaxi(destination)
+    if WoWPro.CLASSIC then
+        WoWPro.TakeTaxiClassic(destination)
+    else
+        WoWPro.TakeTaxiRetail(destination)
+    end
 end
 
 -- Auto-Complete: Get flight point --
@@ -855,7 +882,7 @@ WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function (event,...)
 	WoWPro:RecordTaxiLocations(...)
 	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
 	if (WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b") and WoWProCharDB.AutoSelect == true then
-        WoWPro.TakeTaxi(qidx,WoWPro.step[qidx])
+        WoWPro.TakeTaxi(WoWPro.step[qidx])
 	end
     end)
 
