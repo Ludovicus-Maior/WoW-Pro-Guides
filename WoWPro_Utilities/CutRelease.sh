@@ -8,14 +8,14 @@ else
     CLASSIC=
 fi
 
-if [ ! -d WowPro -o ! -d WoWPro_Leveling -o ! -d WoWPro_Dailies -o ! -d WowPro_Profession -o ! -d WoWPro_WorldEvents -o ! -d WoWPro_Achievements ] ; then
-    echo "# This program must be run from a directory containing WowPro, WoWPro_Leveling, WoWPro_Dailies, WowPro_Profession, WoWPro_WorldEvents and WoWPro_Achievements"
+if [ ! -d WoWPro -o ! -d WoWPro_Leveling -o ! -d WoWPro_Dailies -o ! -d WoWPro_Profession -o ! -d WoWPro_WorldEvents -o ! -d WoWPro_Achievements ] ; then
+    echo "# This program must be run from a directory containing WoWPro, WoWPro_Leveling, WoWPro_Dailies, WoWPro_Profession, WoWPro_WorldEvents and WoWPro_Achievements"
     exit 1
 fi
 
 # If we are building classic, remove the retail tags, which are defaults.
 if [ "$CLASSIC" = "1" ] ; then
-    for toc in WowPro/WowPro.toc WoWPro_Leveling/WoWPro_Leveling.toc WoWPro_Dailies/WoWPro_Dailies.toc WowPro_Profession/WowPro_Profession.toc WoWPro_WorldEvents/WoWPro_WorldEvents.toc WoWPro_Achievements/WoWPro_Achievements.toc WoWPro_Recorder/WoWPro_Recorder.toc ; do
+    for toc in WoWPro/WoWPro.toc WoWPro_Leveling/WoWPro_Leveling.toc WoWPro_Dailies/WoWPro_Dailies.toc WoWPro_Profession/WoWPro_Profession.toc WoWPro_WorldEvents/WoWPro_WorldEvents.toc WoWPro_Achievements/WoWPro_Achievements.toc WoWPro_Recorder/WoWPro_Recorder.toc ; do
          echo '#' Moving $toc to ${toc}~
          mv ${toc} ${toc}~
          echo "#" Classicizing  ${toc}
@@ -34,7 +34,7 @@ echo '#' The new release number will be "[${nrelease}]".
 echo -n "# Please ^C or abort this command or hit enter to proceed:"
 read confirm
 
-for toc in WowPro/WowPro.toc WoWPro_Leveling/WoWPro_Leveling.toc WoWPro_Dailies/WoWPro_Dailies.toc WowPro_Profession/WowPro_Profession.toc WoWPro_WorldEvents/WoWPro_WorldEvents.toc WoWPro_Achievements/WoWPro_Achievements.toc WoWPro_Recorder/WoWPro_Recorder.toc ; do
+for toc in WoWPro/WoWPro.toc WoWPro_Leveling/WoWPro_Leveling.toc WoWPro_Dailies/WoWPro_Dailies.toc WoWPro_Profession/WoWPro_Profession.toc WoWPro_WorldEvents/WoWPro_WorldEvents.toc WoWPro_Achievements/WoWPro_Achievements.toc WoWPro_Recorder/WoWPro_Recorder.toc ; do
   echo '#' Moving $toc to ${toc}~
   mv ${toc} ${toc}~
   echo "#" Editing  ${toc}
@@ -44,7 +44,7 @@ done
 echo "# OK, the current version numbers are:"
 fgrep -H Version: */*.toc
 
-zip -r --include '*.lua' '*.toc' '*.tga' '*.blp' '*.xml' '*.html' @ "WoWPro v${nrelease}.zip" WoWPro WoWPro_Leveling WoWPro_Leveling WoWPro_Dailies WowPro_Profession WoWPro_WorldEvents WoWPro_Achievements
+zip -r --include '*.lua' '*.toc' '*.tga' '*.blp' '*.xml' '*.html' @ "WoWPro v${nrelease}.zip" WoWPro WoWPro_Leveling WoWPro_Leveling WoWPro_Dailies WoWPro_Profession WoWPro_WorldEvents WoWPro_Achievements
 
 if [ "$CLASSIC" != "1" ] ; then
     git commit -m V${nrelease} -a
