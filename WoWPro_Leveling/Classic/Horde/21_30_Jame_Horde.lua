@@ -10,16 +10,16 @@ WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons
 WoWPro:GuideSteps(guide, function() return [[
 
 ; === 21_22_Jame_Stonetalon_Mountains.lua ===
-h Orgrimmar|QID|6284|M|54.10,68.50|Z|Orgrimmar|
-f Orgrimmar|QID|1492|M|45.30,63.90|Z|Orgrimmar|N|If you don't have this flight path get it.|
+h Orgrimmar|QID|1483|M|54.10,68.50|Z|Orgrimmar|
+f Orgrimmar|QID|1483|M|45.30,63.90|Z|Orgrimmar|N|If you don't have this flight path get it.|
 A Call of Water|QID|1528|C|Shaman|M|38.06,37.38|Z|Orgrimmar|N|From Searn Firewarder.|
 
-R The Barrens|QID|1492|M|34.20,42.20|Z|The Barrens|N|If you've been to The Barrens, fly to Ratchet and skip the next few steps.|
-R The Crossroads|QID|1492|M|52.00,30.60|Z|The Barrens|
-f The Crossroads|QID|1492|M|51.50,30.30|Z|The Barrens|
+R The Barrens|QID|1483|M|34.20,42.20|Z|The Barrens|N|If you've been to The Barrens, fly to Ratchet and skip the next few steps.|
+R The Crossroads|QID|1483|M|52.00,30.60|Z|The Barrens|
+f The Crossroads|QID|1483|M|51.50,30.30|Z|The Barrens|
 
 R Ratchet|QID|1483|M|62.00,37.00|Z|The Barrens|
-f Ratchet|QID|1492|M|63.10,37.20|Z|The Barrens|
+f Ratchet|QID|1483|M|63.10,37.20|Z|The Barrens|
 A Ziz Fizziks|QID|1483|M|63.00,37.20|Z|The Barrens|N|From Sputtervalve|
 
 ; ----Shaman Class Quest-------------------------------------------------------------------------
@@ -38,29 +38,26 @@ f The Crossroads|QID|1492|C|Shaman|M|51.50,30.30|Z|The Barrens|
 f The Crossroads|QID|1062|M|51.50,30.30|Z|The Barrens|
 A Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|N|From Seereth Stonebreak|
 
-R Stonetalon Mountains|QID|6284|M|34.10,27.60|Z|The Barrens|
-A Arachnophobia|QID|6284|M|59.10,75.80|Z|Stonetalon Mountains|N|from the Wanted Poster. This is an elite if you can not do skip.|
-K Kill Besseleth for Besseleth's Fang|QID|6284|L|16192 1|M|52.60,71.70|Z|Stonetalon Mountains|N|Ahead of you there will be a little valley with spiders and spider eggs. Clear your way into it until you see a big orange spider called "Besseleth". Kill it and loot its fang.|
-C Arachnophobia|QID|6284|M|54.60,71.90|Z|Stonetalon Mountains|
-T Arachnophobia|QID|6284|M|47.20,61.20|Z|Stonetalon Mountains|
+R Stonetalon Mountains|QID|6284|M|34.10,27.60|Z|The Barrens|N|If you have the flight point to Sun Rock Retreat, fly there instead and skip this step.|
+A Arachnophobia|QID|6284|M|59.10,75.80|Z|Stonetalon Mountains|N|from the Wanted Poster. This is an elite, if you cannot do it, skip it.|
+C Arachnophobia|QID|6284|M|54.60,71.90|Z|Stonetalon Mountains|N|Clear your way into the valley until you see a big orange spider called "Besseleth".|
+T Arachnophobia|QID|6284|M|47.20,61.20|Z|Stonetalon Mountains|N|Back to Sun Rock Retreat at Maggran Earthbinder.|
 f Sun Rock Retreat|QID|1483|M|45.20,59.80|Z|Stonetalon Mountains|
 A Boulderslide Ravine|QID|6421|M|47.20,64.20|Z|Stonetalon Mountains|N|From Mor'rogal|
 
-T Ziz Fizziks|QID|1483|M|59.00,62.60|Z|Stonetalon Mountains|
+T Ziz Fizziks|QID|1483|M|59.00,62.60|Z|Stonetalon Mountains|N|At the little goblin house.|
 A Super Reaper 6000|QID|1093|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz Fizziks|
-K Venture Co. Loggers|QID|1062|L|3989 15|M|65.00,50.00|Z|Stonetalon Mountains|
-C Goblin Invaders|QID|1062|
-K Venture Co. Operators for Blueprints|QID|1093|L|5734 1|M|62.50,53.30|Z|Stonetalon Mountains|
-C Super Reaper 6000|QID|1093|M|62.60,53.80|Z|Stonetalon Mountains|
+C Goblin Invaders|QID|1062|M|65.00,50.00|Z|Stonetalon Mountains|S|
+C Super Reaper 6000|QID|1093|M|73.24,56.61;69.98,55.94;62.60,53.80|CN|Z|Stonetalon Mountains|N|Kill Venture Co. Operators for the Blueprints, they are mostly found at buildings and machinery.|
+C Goblin Invaders|QID|1062|M|65.00,50.00|Z|Stonetalon Mountains|US|N|Kill the remaining Venture Co. Loggers.|
 
 T Super Reaper 6000|QID|1093|M|59.00,62.60|Z|Stonetalon Mountains|
 A Further Instructions |QID|1094|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz Fizziks|
 
-C Collect: Resonite Crystals|QID|6421|L|16581 10|NC|M|61.50,93.20|N|Enter northernmost cave.|
-C Explore cave at Boulderslide Ravine|QID|6421|QO|2|NC|M|58.90,90.30|N|Go deeper into the cave until you get complete message.|
-C Boulderslide Ravine|QID|6421|M|61.30,92.40|Z|Stonetalon Mountains|
+R Boulderslide Cavern|QID|6421|M|61.50,93.20|
+C Boulderslide Ravine|QID|6421|M|58.90,90.30|Z|Stonetalon Mountains|N|Collect the purple Resonite Crystals and follow the waypoint to explore the cave.|
 
-R The Barrens|QID|1094|M|34.10,27.60|N|Ride to the Stonetalon Mountains and Barrens border, enroute to The Crossroads.|
+R The Barrens|QID|1094|M|34.10,27.60|N|CC|Walk to the Stonetalon Mountains and Barrens border, enroute to The Crossroads.|
 T Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|
 
 R The Crossroads|QID|1094|M|52.00,30.60|Z|The Barrens|
