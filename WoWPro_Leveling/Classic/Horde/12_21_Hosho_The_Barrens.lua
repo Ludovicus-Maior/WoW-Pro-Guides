@@ -104,7 +104,7 @@ f Ratchet|QID|1492|M|63.1,37.2|
 A Samophlange|QID|894|M|63.0,37.2|
 A WANTED: Baron Longshore|QID|895|M|62.6,37.5|
 T Wharfmaster Dizzywig|QID|1492|M|63.3,38.4|
-A Miner's Fortune|QID|896|M|63.3,38.4|
+A Miner's Fortune|QID|896|M|63.35,38.42|
 A The Guns of Northwatch|QID|891|M|62.3,39.0|N|From Captain Thalo'thas Brightsun.|
 
 C The Shattered Hand|QID|1963|C|Rogue|Tazan patrolls to the south. Kill him and loot his satchel.|M|63.8,44.5|
@@ -295,7 +295,8 @@ A Samophlange Manual|QID|3924|M|76.4,24.4|Z|Orgrimmar|N|From Rilli Greasygob.|
 R Southfury River|ACTIVE|3924|N|Head out of Orgrimmar West Gate.|M|11.45,67.06|Z|Orgrimmar|
 C Samophlange Manual|ACTIVE|3924|M|63.66,4.43;62.74,4.75;60.0,4.1|CC|L|11148|N|Very close by you should find Boulder Lode Mine. Fight your way into the mine, and be VERY careful. This area is full of 17-18 mobs that run away at low health and are packed incredibly tightly. Also, because the area is so small inside the cave, respawn can and will bite you.|
 C Samophlange Manual|ACTIVE|3924|M|59,4|L|11147|N|At the back of the cave, you'll find Boss Copperplug.|
-C Samophlange Manual|ACTIVE|3924|M|60.0,4.1|L|11148 5|U|11148|N|Keep killing them until you have 5 pages. Click the pages to combine into manual.|
+L Samophlange Manual Pages|ACTIVE|3924|L|11148 5||N|Keep killing them until you have 5 pages.|
+C Samophlange Manual|ACTIVE|3924|M|60.0,4.1|U|11148|N|Click the pages to combine into a manual.|
 C Miner's Fortune|QID|896|M|60.0,4.1|N|Keep killing goblins until the Cate's Eye Emerald drops.|
 
 T The Warsong Reports|QID|6543|M|61.52,7.62;49.43,13.69;48,5.4|CC|N|To Kadrak, back at Mor'shan Rampart.|
@@ -328,28 +329,28 @@ A Ziz Fizziks |QID|1483|M|63,37.2|N|From Sputtervalve.|
 T Miner's Fortune|QID|896|M|63.2,38.4|N|To Wharfmaster Dizzywig.|
 
 N Fresh Zhevra Carcas|QID|882|L|10338 1|M|60,30|N|Head north to the dead tree. On your way, Kill the first Zhevra you see.|
-C Ishamuhale|QID|882|M|59,30|N|When you get to the tree, Right-Click the Carcas in your inventory. This should summon Ishamuhale. Kill it.|U|10338|
+C Ishamuhale|QID|882|M|59.72,30.18|N|When you get to the tree, Right-Click the Carcas in your inventory. This should summon Ishamuhale. Kill it.|U|10338|
 R The Crossroads|QID|899|M|52,30|
 
 T Consumed By Hatred|QID|899|M|52,31.6|N|To the infamous Mankrik.|
 
-F Camp Taurajo|QID|882|M|51.5,30.3|
-T Ishamuhale|QID|882|M|44.8,59|N|To Jorn Skyseer.|
+F Camp Taurajo|QID|882|M|51.52,30.36|
+T Ishamuhale|QID|882|M|44.84,59.11|N|To Jorn Skyseer.|
 A Enraged Thunder Lizards|QID|907|M|44.8,59|N|From Jorn Skyseer.|
 
-C Enraged Thunder Lizards|QID|907|M|46,50|N|Head north to waypoint and look for Lakota'mani. This is a named Thunder Lizard. He has a long-ish patrol route and a less than ideal respawn time, so you might not find him. If you do find him, kill him, and loot his hoof. This hoof starts a quest which is worth 1,300 exp. After you have killed him, or while you are looking for him, kill the Thunderheads in the area and loot their blood. Once you have 3 Thunder Lizard Bloods, head back to Camp Taurajo. (Don't worry if you don't find Lakota'mani, he isn't essential, and the 1.3k exp isn't really worth camping the area for0.|
-A Lakoto'mani|QID|883|U|5099|O|L|5099|
+C Enraged Thunder Lizards|QID|907|M|46,50|N|Look for a gray Kodo named Lakota'mani. He has a long-ish patrol route and a long respawn time, so you might not find him. If you do find him, kill him, and loot his hoof. Skip it if you don't. He isn't really worth camping the area for.|
+A Lakoto'mani|QID|883|U|5099|O|
 
+T Enraged Thunder Lizards|QID|907|M|44.86,59.09|N|To Jorn Skyseer back to Camp Taurajo.|
+t Lakoto'mani|QID|883|M|44.86,59.09|N|To Jorn Skyseer.|
+A Cry of the Thunderhawk |QID|913|M|44.86,59.09|N|From Jorn Skyseer.|
 
-T Enraged Thunder Lizards|QID|907|M|44.8,59|N|To Jorn Skyseer back to Camp Taurajo.|
-t Lakoto'mani|QID|883|M|44.8,59|N|To Jorn Skyseer.|
-A Cry of the Thunderhawk |QID|913|M|44.8,59|N|From Jorn Skyseer.|
+R Southern Barrens|QID|913|M|45.23,59.03;46.6,61.5|CC|
+C Cry of the Thunderhawk|QID|913|M|46.6,61.5|N|Kill a Thunderhawk and loot its wings.|
 
-C Cry of the Thunderhawk|QID|913|M|46.6,61.5|
-
-T Cry of the Thunderhawk |QID|913|M|44.8,59|N|To Jorn Skyseer back to Camp Taurajo.|
-A The Ashenvale Hunt |QID|6382|M|44.8,59|N|From Jorn Skyseer.|
-F Orgrimmar|QID|3924|M|44.5,59.1|
+T Cry of the Thunderhawk |QID|913|M|44.86,59.09|N|To Jorn Skyseer back to Camp Taurajo.|
+A The Ashenvale Hunt |QID|6382|M|44.86,59.09|N|From Jorn Skyseer.|
+F Orgrimmar|QID|3924|M|44.47,59.13|
 T Samophlange Manual|QID|3924|M|76.4,24.4|Z|Orgrimmar|N|Head back to Rilli Greasygob and give the Samophlange manual to him.|
 ]]
 end)
