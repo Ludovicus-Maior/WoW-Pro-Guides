@@ -57,7 +57,7 @@ A Further Instructions |QID|1094|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz
 R Boulderslide Cavern|QID|6421|M|61.50,93.20|
 C Boulderslide Ravine|QID|6421|M|58.90,90.30|Z|Stonetalon Mountains|N|Collect the purple Resonite Crystals and follow the waypoint to explore the cave.|
 
-R The Barrens|QID|1094|M|34.10,27.60|N|CC|Walk to the Stonetalon Mountains and Barrens border, enroute to The Crossroads.|
+R The Barrens|QID|1094|M|52.74,61.56;78.95,89.66;82.79,96.93|N|Walk to the Stonetalon Mountains and Barrens border, en route to The Crossroads.|CS|Z|Stonetalon Mountains|
 T Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|
 
 R The Crossroads|QID|1094|M|52.00,30.60|Z|The Barrens|
@@ -66,15 +66,17 @@ F Ratchet|QID|1094|M|51.50,30.30|Z|The Barrens|
 T Further Instructions |QID|1094|M|63.00,37.20|Z|The Barrens|
 
 F Sun Rock Retreat|QID|6421|M|63.10,37.20|Z|The Barrens|
-T Boulderslide Ravine|QID|6421|M|47.20,64.20|Z|Stonetalon Mountains|
+T Boulderslide Ravine|QID|6421|M|45.03,61.12;44.66,62.92;47.18,64.06|Z|Stonetalon Mountains|CS|
 
-; === 22_24_Jame_Hillsbrad_Foothills.lua ===
+
 F Splintertree Post|QID|6383|M|45.20,59.80|Z|The Barrens|N|If you don't have the Flight Path, fly to The Crossroads and follow the path north until you reach Ashenvale Forest. Go further north until the path forks, there go east until you reach Splintertree Post. Once there take the flight path|
-f Splintertree Post|QID|6383|M|73.20,61.60|Z|Ashenvale|
-N READ THIS|QID|6383|Z|Hillsbrad Foothills|N|To get The Ashenvale Hunt, you must accept the quest from the NPC you just turned in and click "Complete" at the bottom, not "Accept".  Doing so will allow you to acquire the required quest items, Shadumbra/Sharptalon/Ursangos, to later complete the quest.|
-T The Ashenvale Hunt|QID|6383|Z|Hillsbrad Foothills|
+f Splintertree Post|QID|235|M|73.20,61.60|Z|Ashenvale|
+C The Ashenvale Hunt|QID|235|Z|Ashenvale|M|73.74,61.46|
+T The Ashenvale Hunt|QID|235^742^6382|Z|Ashenvale|M|73.74,61.46|
+A The Ashenvale Hunt|QID|6383|N|At Senani Thunderheart.|M|73.75,61.47|Z|Ashenvale|
 
-F Zoram'gar Outpost|QID|6442|M|12.20,33.80|Z|Ashenvale|N|If you don't have the Flight Path: Ride to . Warning: be sure to go AROUND Astranaar.  There will be a little path leading off the mainroad, going west. Follow it until you see a beach. Follow the beach southeast until you see a little camp.|
+F Zoram'gar Outpost|QID|6442|M|73.23,61.58|Z|Ashenvale|N|Right-click to check this step off if you don't have the flight path.|
+R Zoram'gar Outpost|QID|6442|N|Follow the road all the way to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.2,47.28;26.43,42.33;16.51,30.27;12,34|CS|Z|Ashenvale|
 f Zoram'gar Outpost|QID|6442|M|12.20,33.80|Z|Ashenvale|
 A Naga at the Zoram Strand|QID|6442|M|11.69,34.90|Z|Ashenvale|N|From Marukai.|
 N Things to do...|QID|6504|N|Keep any Shredder Operating Manual pages you find from now on.\nRight-click this step to continue.|
