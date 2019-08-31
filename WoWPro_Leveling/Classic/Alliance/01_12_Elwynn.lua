@@ -6,12 +6,9 @@
 local guide = WoWPro:RegisterGuide('ClassicElwynn0112', "Leveling", 'Elwynn Forest', 'Maw', 'Alliance', 1)
 WoWPro:GuideLevels(guide,1,12, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicWestfall')
--- FIXME: WoW Classic does not have a Achievement_Charachter_Human_* icons
--- FIXME: Generating a Green Box with this
---WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender(
---        "Interface\\Icons\\Achievement_Character_Human_Male",
---        "Interface\\Icons\\Achievement_Character_Human_Female"))
-WoWPro:GuideSteps(guide, function() return [[
+WoWPro:GuideSteps(guide, function() 
+return [[
+    
 A A Threat Within|QID|783|M|48.15,42.95|N|From Deputy Willem|
 T A Threat Within|QID|783|M|48.9,41.6|N|To Marshal McBride, inside the Abbey|
 
@@ -51,7 +48,7 @@ C Investigate Echo Ridge|QID|15|M|51.2,37.4|N|Kill The Kobold Workers.\nThe Work
 C Brotherhood of Thieves|QID|18|M|54.6,41.9|N|Kill and loot the Defias mobs for the Red Burlap Bandanas.|
 
 ;Hearthstone takes you to Northshire Valley, not Northshire Abbey therefore label says Valley for auto-complete
-H Northshire Abbey|QID|18|N|Either Hearthstone back, or run back to Northshire Abbey.|TZ|Northshire Valley|
+H Northshire Valley|QID|18|N|Either Hearthstone back, or run back to Northshire Abbey.|
 
 T Brotherhood of Thieves|QID|18|M|48.15,42.95|N|To Deputy Willem|
 A Milly Osworth|QID|3903|M|48.15,42.95|N|From Deputy Willem|
