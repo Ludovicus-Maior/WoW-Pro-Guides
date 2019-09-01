@@ -768,17 +768,24 @@ function WoWPro:RowUpdate(offset)
 			row.check:SetChecked(false)
 			row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 		end
-		if note then note = strtrim(note) note = string.gsub(note,"\\n","\n") end
+
+		if note then
+			note = strtrim(note)
+			note = string.gsub(note,"\\n","\n")
+		else
+			note = ""
+		end
 
 		if WoWProDB.profile.showcoords and coord then
-		    note = note or ""
 		    note = note.." ("..coord..")"
 		    if zone then
 		        note = note .. "@" ..zone
 		    end
+		elseif not coord then
+		    -- No coordinates, let them know!
+		    note = note.." (No coordinates)"
 		end
 
-		if not ( WoWProDB.profile.showcoords and coord ) and not note then note = "" end
 		row.note:SetText(note)
 		row.action:SetTexture(WoWPro.actiontypes[action])
 		if WoWPro.noncombat[k] and WoWPro.action[k] == "C" then
