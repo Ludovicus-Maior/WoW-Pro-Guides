@@ -107,7 +107,7 @@ T Wharfmaster Dizzywig|QID|1492|M|63.3,38.4|
 A Miner's Fortune|QID|896|M|63.35,38.42|
 A The Guns of Northwatch|QID|891|M|62.3,39.0|N|From Captain Thalo'thas Brightsun.|
 
-C The Shattered Hand|QID|1963|C|Rogue|Tazan patrolls to the south. Kill him and loot his satchel.|M|63.8,44.5|
+C The Shattered Hand|QID|1963|C|Rogue|N|Tazan patrols to the south. Kill him and loot his satchel.|M|63.8,44.5|
 
 C Southsea Freebooters|QID|887|N|Head south along the coast and kill pirates. Avoid Baron Longshore if you see him.|
 T Southsea Freebooters|QID|887|N|Head back to Gazlowe.|M|62.7,36.3|
@@ -191,10 +191,10 @@ A Hezrul Bloodmark|QID|852|M|45.4,28.4|N|From Regthar Deathgate.|
 T Supplies for the Crossroads|QID|5041|M|51.52,30.85|N|Head back to the Crossroads.|
 T The Disruption Ends|QID|872|M|51.4,30.8|N|To Thark.|
 T Lost in Battle|QID|4921|M|51.96,31.57|N|To Mankrik.|
-T The Stagnant Oasis|QID|877|M|52.5,31.92|N|To Tonga Runetotem.|
-A Altered Beings|QID|880|M|52.5,31.92|N|From Tonga Runetotem.|
-T Echeyakee|QID|881|M|52.2,31|N|To Sergra Darkthorn.|
-A The Angry Scytheclaws|QID|905|M|52.2,31|N|From Sergra Darkthorn.|
+T The Stagnant Oasis|QID|877|M|52.24,31.92|N|To Tonga Runetotem.|
+A Altered Beings|QID|880|M|52.24,31.92|N|From Tonga Runetotem.|
+T Echeyakee|QID|881|M|52.22,31.02|N|To Sergra Darkthorn.|
+A The Angry Scytheclaws|QID|905|M|52.22,31.02|N|From Sergra Darkthorn.|
 
 F Camp Taurajo|QID|852|M|51.54,30.36|
 h Camp Taurajo|QID|852|M|45.6,59.0|
@@ -206,28 +206,28 @@ K Rapter Feathers|QID|905|M|58,53|N|Continue killng until you also have 3 Sunsca
 C The Angry Scytheclaws|QID|905|M|52.45,46.57;52.59,46.09;52.03,46.47|CN|NC|N|Go to the raptor nests. Clear the area, then right-click each of the nests.|
 
 C Altered Beings|QID|880|M|46,39|N|Go to the Lushwater Oasis. Kill Oasis Snapjaws and loot their shells.|
-C Hezrul Bloodmark|QID|852|N|Hezrul Bloodmark patrols Clockwise around the Oasis, and spawns right outside the Wailing Caverns. Once you've located him, take a look at his guards, and decide which of the two guards is the WEAKEST. If you are able, polymorph, sap, root, or use any other crowd control you have on Hezrul himself. Kill the weakest guard first, then run away. Eventually, they'll stop chasing you, and go back to where you first fought them. Drink, eat, get your strength back. Then, use any crowd control effects you have on Hezrul again and kill the second guard. Then escape again. This should leave Hezrul all alone. Get your strength back, and attack him directly. A little patience makes this a simple enough fight, if you have any potions, be prepared to use them. Good luck!|
+C Hezrul Bloodmark|QID|852|M|46.15,36.84|N|Hezrul Bloodmark patrols Clockwise around the Oasis, and spawns right outside the Wailing Caverns. Once you've located him, take a look at his guards, and decide which of the two guards is the WEAKEST. If you are able, polymorph, sap, root, or use any other crowd control you have on Hezrul himself. Kill the weakest guard first, then run away. Eventually, they'll stop chasing you, and go back to where you first fought them. Drink, eat, get your strength back. Then, use any crowd control effects you have on Hezrul again and kill the second guard. Then escape again. This should leave Hezrul all alone. Get your strength back, and attack him directly. A little patience makes this a simple enough fight, if you have any potions, be prepared to use them. Good luck!|
 
 T Hezrul Bloodmark|QID|852|M|45.4,28.4|N|Run a little further north to Regthar's Bunker.|
 
 F Ratchet|QID|865|M|51.5,30.3|
-T Raptor Horns|QID|865|M|62.4,37.6|N|To Mebox Mizzyrix, in Ratchet.|
+T Raptor Horns|QID|865|M|62.39,37.64|N|To Mebox Mizzyrix, in Ratchet.|
 A Smart Drinks|QID|1491|M|62.4,37.6|N|From Mebox Mizzyrix.|
 A Deepmoss Spider Eggs|QID|1069|M|62.4,37.6|N|From Mebox Mizzyrix.|
-A Trouble at the Docks|QID|959|M|63,37.6|N|From Crane Operator Bigglefuzz.|
+A Trouble at the Docks|QID|959|M|63.09,37.60|N|From Crane Operator Bigglefuzz.|
 
 F The Crossroads|QID|880|M|63.1,37.2|
-T Altered Beings|QID|880|M|52.2,31.8|N|To Tonga Runetotem, at The Crossroads.|
-A Hamuul Runetotem|QID|1489|M|52.2,31.8|N|From Tonga Runetotem.|
-T The Angry Scytheclaws|QID|905|M|52.2,31|N|To Sergra Darkthorn.|
-A Jorn Skyseer|QID|3261|M|52.2,31|N|From Sergra Darkthorn.|
-T Stolen Silver|QID|3281|M|51.8,30.2|N|To Gazrog.|
+T Altered Beings|QID|880|M|52.24,31.92|N|To Tonga Runetotem, at The Crossroads.|
+A Hamuul Runetotem|QID|1489|M|52.24,31.92|N|From Tonga Runetotem.|
+T The Angry Scytheclaws|QID|905|M|52.22,31.02|N|To Sergra Darkthorn.|
+A Jorn Skyseer|QID|3261|M|52.21,31.02|N|From Sergra Darkthorn.|
+T Stolen Silver|QID|3281|M|51.95,30.36|N|To Gazrog.|
 A Report to Kadrak|QID|6541|M|51.4,30.8|N|From Thork.|
 
 T Wenikee Boltbucket|QID|3921|M|49,11.2|N|Follow the road north to find Wenikee Boltbucket.|
 A Nugget Slugs|QID|3922|M|49,11.2|N|From Wenikee Boltbucket.|
 
-F The Sludge Fen|ACTIVE|858|M|56.4,7.4|N|Now, we're going east again, staying close to the mountain, until you find Sludge Fen.|
+F The Sludge Fen|ACTIVE|3922|M|56.4,7.4|N|Now, we're going east again, staying close to the mountain, until you find Sludge Fen.|
 C Nugget Slugs|QID|3922|M|56,7|N|Loot Nugget Slugs from tool buckets.|S|
 A Ignition|QID|858|M|56.4,7.4|N|From Wizzlecrank's Shredder.|
 C Ignition|QID|858|M|56.3,8.2|N|This quest involves killing Supervisor Lugwizzle, who you'll find at the top of the large tower slightly to the south, in the middle of the water. Start climbing the tower, killing as you go. Also, stop to loot any Tool Buckets you see.|
