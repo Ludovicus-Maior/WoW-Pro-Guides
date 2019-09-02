@@ -2,20 +2,12 @@
   WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
   Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 --]]
---[[
-  WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
-  Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
---]]
 
 local guide = WoWPro:RegisterGuide('ClassicElwynn0112', "Leveling", 'Elwynn Forest', 'Maw', 'Alliance', 1)
 WoWPro:GuideLevels(guide,1,12, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicWestfall1314')
--- FIXME: WoW Classic does not have a Achievement_Charachter_Human_* icons
--- FIXME: Generating a Green Box with this
---WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender(
---        "Interface\\Icons\\Achievement_Character_Human_Male",
---        "Interface\\Icons\\Achievement_Character_Human_Female"))
 WoWPro:GuideSteps(guide, function() return [[
+
 A A Threat Within|QID|783|M|48.15,42.95|N|From Deputy Willem|
 T A Threat Within|QID|783|M|48.9,41.6|N|To Marshal McBride, inside the Abbey|
 
