@@ -138,14 +138,13 @@ C WANTED: Syndicate Personnel|QID|549|M|76.70,42.80|Z|Hillsbrad Foothills|N|Make
 
 C Elixir of Suffering |QID|496|M|54.80,8.90|US|Z|Hillsbrad Foothills|
 
-T The Rescue|QID|498|Z|Hillsbrad Foothills|M|63.18,20.66|Z|Hillsbrad Foothills|N|At Krusk.|
+T The Rescue|QID|498|M|63.18,20.66|Z|Hillsbrad Foothills|N|At Krusk.|
 T WANTED: Syndicate Personnel|QID|549|M|62.1,20.34|Z|Hillsbrad Foothills|N|At High Executor Darthalia.|
 T Elixir of Suffering |QID|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|At Apothecary Lydon.|
 A Elixir of Suffering |QID|499|PRE|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon, Part 2.|
 T Elixir of Suffering |QID|499|M|61.40,19.10|Z|Hillsbrad Foothills|N|At Umpi.|
 
-N Things to do...|QID|501|Z|Hillsbrad Foothills|N|Kill every Starving Mountain Lion you find on your way to Hillsbrad Fields.|
-
+C Elixir of Pain|QID|501|S|N|Kill every Starving Mountain Lion you find.|
 R Hillsbrad Fields|QID|527|M|32.20,41.30|Z|Hillsbrad Foothills|
 C Battle of Hillsbrad |QID|527|QO|1|S|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
 C Battle of Hillsbrad |QID|527|QO|2|S|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
@@ -155,22 +154,22 @@ K Hillsbrad Farmers|QID|527|US|QO|1|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill F
 K Hillsbrad Farmhand|QID|527|US|QO|2|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmhands you still need.|
 C Elixir of Pain |QID|501|M|48.00,42.00|Z|Hillsbrad Foothills|N|Kill mountain lions and collect their blood. Complete the quest on your way back to Tarren Mill.|
 
-T Battle of Hillsbrad |QID|527|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
-A Battle of Hillsbrad |QID|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|From High Executor Darthalia|
-T Elixir of Pain |QID|501|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
-A Elixir of Pain |QID|502|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
-A Souvenirs of Death|QID|546|M|62,19.8|Z|Hillsbrad Foothills|N|From Deathguard Samsa|
+T Battle of Hillsbrad |QID|527|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Battle of Hillsbrad |QID|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
+T Elixir of Pain |QID|501|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+A Elixir of Pain |QID|502|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+A Souvenirs of Death|QID|546|M|62,19.8|Z|Hillsbrad Foothills|N|From Deathguard Samsa.|
 
-T Elixir of Pain |QID|502|M|61.40,19.10|Z|Hillsbrad Foothills|N|Make sure you are full health before turning in the quest.  Kill Stanley once he transforms.|
-K Farmer Kalaba|QID|567|QO|4|M|35.00,46.00|Z|Hillsbrad Foothills|N|she's at the first field next to the road|
-C Battle of Hillsbrad |QID|528|M|32.00,41.00|Z|Hillsbrad Foothills|N|Kill peasants around|
+T Elixir of Pain |QID|502|M|32.61,35.41|Z|Hillsbrad Foothills|N|Make sure you are full health before turning in the quest.  Kill Stanley once he transforms.\nKilling Enraged Stanley gives a lot of xp. If you group up it will be shared among party members.|
+K Farmer Kalaba|QID|567|QO|4|M|35.00,46.00|Z|Hillsbrad Foothills|N|She's at the first field next to the road.|
+C Battle of Hillsbrad |QID|528|M|34.90,46.19|Z|Hillsbrad Foothills|
 
-T Battle of Hillsbrad |QID|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
-A Battle of Hillsbrad |QID|529|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
-A Elixir of Agony |QID|509|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon|
+T Battle of Hillsbrad |QID|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Battle of Hillsbrad |QID|529|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Elixir of Agony |QID|509|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
 
 F The Sepulcher|QID|516|M|60.20,18.70|Z|Hillsbrad Foothills|
-T Beren's Peril|QID|516|M|44,41|Z|Silverpine Forest|N|Shadow Priest Allister|
+T Beren's Peril|QID|516|M|44,41|Z|Silverpine Forest|N|To Shadow Priest Allister.|
  
 ; === 24_25_Jame_Ashenvale.lua ===
 ; --- class quests ------------------------------------------------------------
