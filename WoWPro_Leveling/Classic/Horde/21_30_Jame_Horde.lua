@@ -120,7 +120,7 @@ A Battle of Hillsbrad |QID|527|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Exe
 A WANTED: Syndicate Personnel|QID|549|M|62.58,20.71|Z|Hillsbrad Foothills|N|Wanted Poster Near High Executor Darthalia.|
 A The Rescue|QID|498|M|63.2,20.6|Z|Hillsbrad Foothills|N|From Krusk.|
 A Dangerous!|QID|567|M|62.53,19.75|Z|Hillsbrad Foothills|N|Wanted Poster on the inn's wall.|
-A Elixir of Suffering |QID|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+A Elixir of Suffering |QID|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon, Part 1.|
 A Elixir of Pain |QID|501|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
 
 ; --Shaman Class Quest---------------------------------------------------------------------------
@@ -141,7 +141,7 @@ C Elixir of Suffering |QID|496|M|54.80,8.90|US|Z|Hillsbrad Foothills|
 T The Rescue|QID|498|Z|Hillsbrad Foothills|M|63.18,20.66|Z|Hillsbrad Foothills|N|At Krusk.|
 T WANTED: Syndicate Personnel|QID|549|M|62.1,20.34|Z|Hillsbrad Foothills|N|At High Executor Darthalia.|
 T Elixir of Suffering |QID|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|At Apothecary Lydon.|
-A Elixir of Suffering |QID|499|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+A Elixir of Suffering |QID|499|PRE|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon, Part 2.|
 T Elixir of Suffering |QID|499|M|61.40,19.10|Z|Hillsbrad Foothills|N|At Umpi.|
 
 N Things to do...|QID|501|Z|Hillsbrad Foothills|N|Kill every Starving Mountain Lion you find on your way to Hillsbrad Fields.|
@@ -151,8 +151,8 @@ C Battle of Hillsbrad |QID|527|QO|1|S|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill
 C Battle of Hillsbrad |QID|527|QO|2|S|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
 K Kill Farmer Getz|QID|527|QO|4|M|34.00,40.00|Z|Hillsbrad Foothills|N|If Farmer Getz is not in his house, he's either in the field right next to it or in the barn|
 K Kill Farmer Ray|QID|527|QO|3|M|33.00,34.00|Z|Hillsbrad Foothills|N|Clear the way inside this house. On the 2nd floor you'll find Farmer Ray.  He may also be found on the first floor, and also around it, and in the field next to it|
-C Battle of Hillsbrad |QID|527|US|QO|2|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
-C Battle of Hillsbrad |QID|527|US|QO|1|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
+K Hillsbrad Farmers|QID|527|US|QO|1|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers you still need.|
+K Hillsbrad Farmhand|QID|527|US|QO|2|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmhands you still need.|
 C Elixir of Pain |QID|501|M|48.00,42.00|Z|Hillsbrad Foothills|N|Kill mountain lions and collect their blood. Complete the quest on your way back to Tarren Mill.|
 
 T Battle of Hillsbrad |QID|527|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
