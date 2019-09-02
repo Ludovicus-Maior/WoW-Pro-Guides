@@ -23,7 +23,8 @@ T An Unwelcome Guest |QID|34|M|21.9,46.3|
 h Lakeshire |N|Make Lakeshire your home location. |M|27.00,44.80|
 N Sell junk and repair |N|Close this step when you're done. |M|27.1,45.7|
 A A Watchful Eye |N|Make sure you still have a quest called A Watchful Eye | |QID|94|
-R Render's Rock |QID|128| |N|Kill any Blackrock Champion and Blackrock Shadowcaster you see on the way to the cave here. (40.4, 14.85)(33.60, 6.90)|M|47.46,29.39|
+; Audit this path and make it a CS sequence.
+R Render's Rock |QID|128| |N|Kill any Blackrock Champion and Blackrock Shadowcaster you see on the way to the cave here. (40.4, 14.85)(33.60, 6.90)|M|35.1,8.1|
 A Missing In Action |QID|219| |N| Once inside the cave, stick to the left until you reach a room with a big pool. Then follow the arrow, clear the way and take the escort quest. (28.40, 12.50)|M|31.15,15.05|
 N Important |N|The mobs here are close together so be careful. Once outside the cave, he'll stop to rest. Pull the camps yourself when you get outside. | |QID|219| |QO|Escort Corporal Keeshan back to Redridge|
 C Missing In Action |N|Finish the escort quest. | |QID|219|M|28.4,12.6|

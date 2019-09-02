@@ -208,18 +208,35 @@ C Gyromast's Retrieval|QID|2098|QO|3|N|Kill Raging Reef Crawlers until you find 
 C Mathystra Relics|QID|951|M|59.55,15.66|S|N|Look for relics on the groung while you're hunting the Foreststriders near the ruins.|
 C Gyromast's Retrieval|QID|2098|QO|1|M|58.45,13.34|N|Head east of Gelkak Gyromast and slay Giant Foreststrider until you get Top of Gelkak's Key.|
 T Gyromast's Retrieval|QID|2098|M|56.7, 13.5|N|To Gelkak Gyromast.|
-A Gyromast's Revenge|QID|2078|
+A Gyromast's Revenge|QID|2078|M|56.7, 13.5|N|From Gelkak Gyromast.|
 C Gyromast's Revenge|QID|2078|M|55.8,18.2|N|Robot will attack you as you are about to fiish quest. Be ready. He is a level 20 elite. You will probably need a group.|
 T Gyromast's Revenge|QID|2078|M|56.7, 13.5|N|To Gelkak Gyromast.|
 C Mathystra Relics|QID|951|M|59.55,15.66|US|N|Kill Naga's and look for relics on the groung until complete.|
 H Auberdine|QID|951|ACTIVE|951|N|Hearth or run back to Auberdine.|
 A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|
 T Mathystra Relics|QID|951|M|43.5,76.3|N|To Onu.|
-N Pretty much done|QID|942|N|At this point you should be done with every quest in the zone. Ideally you would be level 20 and move on to Ashenvale next, but unless you're a druid, chances are you are only 18 or 19 now. So you can continue on to Ashevnvale from here, or go back to Auberdine, to sail to wetlands and follow through with the prospector quest. Or if you have a group for BFD you could get that out of the way. The rest of this guide will assume you're going to wetlands.
+A Therylune's Escape|QID|945|M|38.64,87.33|N|From Therylune. Might have to wait a few for her to respawn.|
+C Therylune's Escape|QID|945|M|40.51,87.09|N|Escort her out. Be sure to loot everything you kill as they have a chance of dropping a book that starts a quest.|
+L Book: The Powers Below|QID|968|M|38.64,87.33|L|5352|N|The Twilight around here have a small chance to drop the book, turn in is in ironforge which we will head to later. Skip if you're not interested.|
+A The Powers Below|QID|968|M|38.64,87.33|U|5352|N|Click the book to accept the quest. Skip if you're not interested.|
+A One Shot. One Kill.|QID|5713|M|45.94,90.29|N|From Sentinel Aynasha.|
+C One Shot. One Kill.|QID|5713|M|45.94,90.29|N|Three waves, 1st wave has 2 enemies, 2nd has 3, 3rd has a single level 16.|
+T One Shot. One Kill.|QID|5713|M|26.60,36.72|Z|Ashenvale|N|From Sentinel Onaeya.|
+T Therylune's Escape|QID|945|M|22.65,51.92|Z|Ashenvale|N|To Therysil.|
+N Pretty much done|QID|942|N|At this point you should be done with every quest in the zone. Ideally you would be level 20 and move on to Ashenvale next, but unless you're a druid, chances are you are only 18 or 19 now. So you can continue on to Ashevnvale from here, or go back to Auberdine, to sail to wetlands and follow through with the prospector and book of power quests, getting the Ironforge flightpath which will be useful in the Ashenvale questline anyway. Also if you want to get a few extra levels you can do that in Loch Modan The rest of this guide will assume you're going to wetlands.
 b Wetlands|QID|942|ACTIVE|942|M|32.42,43.74|N|Run back to Auberdine. and get on the boat to Menethil.|
 f Menethil Harbor|QID|942|M|9.48,59.68|Z|Wetlands|N|Grab the flightpath.|
-T The Absent Minded Prospector|QID|942|M|10.84,60.43|Z|Wetlands|N|To Archaeologist Flagongut, inside the DeepWater Tavern on the 2nd floor.|
-A The Absent Minded Prospector|QID|943|M|10.84,60.43|Z|Wetlands|N|From Archaeologist Flagongut, inside the DeepWater Tavern on the 2nd floor.|
-N The End|QID|943|N|Prospector quest is too high level to finish now. At this point I recommend running BFD and complete Researching the Corruption, or fly to Astranaar and get the breadcrumb to Stonetalon Mountains to get a few more levels before starting Ashenvale.|
+T The Absent Minded Prospector|QID|942|M|10.84,60.43|Z|Wetlands|N|To Archaeologist Flagongut, inside the DeepWater Tavern on the 2nd floor. Don't take follow up, too high level for now.|
+R Dun Algaz|QID|968|M|53.89,70.32|Z|Wetlands|N|Run to Loch Modan. |
+R Loch Modan|QID|968|M|55.64,84.75|Z|Wetlands|N|Run to Loch Modan. Go through tunnel and stick to the road.|
+R Thelsamar|QID|968|M|33.92,50.95|Z|Loch Modan|N|Run to Thelsmar. Go through tunnel and stick to the road.|
+f Thelsamar|QID|968|M|33.92,50.95|Z|Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.|
+R Dun Morogh|QID|968|M|16.40,58.43|Z|Loch Modan|N|Run to Dun Morogh. Stick to the road, follow the signs.|
+R Gates of Ironforge|QID|968|M|51.03,40.35|Z|Dun Morogh|N|Run to Dun Ironforge. Stick to the road, follow the signs.|
+R Ironforge|QID|968|M|53.46,34.96|Z|Dun Morogh|N|Keep running up.|
+f Ironforge|QID|968|M|55.49,47.72|Z|Ironforge|N|Grab the flightpath from Gryth Thurden.|
+T The Powers Below|QID|968|M|50.82,5.66|Z|Ironforge|N|To Gerrig Bonegrip.|
+A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|N|Another quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
+N The End|QID|943|N| At this point I recommend taking the deeprun tram to stormwind and do westfall or redridge until you're level 20 or 21 and then return to Astranaar, or you can hearth and head to Astranaar and try your luck a bit underleveled.|
 ]]
 end)
