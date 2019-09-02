@@ -5,9 +5,8 @@
 
 local guide = WoWPro:RegisterGuide('ClassicElwynn0112', "Leveling", 'Elwynn Forest', 'Maw', 'Alliance', 1)
 WoWPro:GuideLevels(guide,1,12, 2)
-WoWPro:GuideNextGuide(guide, 'ClassicWestfall')
-WoWPro:GuideSteps(guide, function() 
-return [[
+WoWPro:GuideNextGuide(guide, 'ClassicWestfall1314')
+WoWPro:GuideSteps(guide, function() return [[
 
 A A Threat Within|QID|783|M|48.15,42.95|N|From Deputy Willem|
 T A Threat Within|QID|783|M|48.9,41.6|N|To Marshal McBride, inside the Abbey|
@@ -55,15 +54,14 @@ A Milly Osworth|QID|3903|M|48.15,42.95|N|From Deputy Willem|
 A Bounty on Garrick Padfoot|QID|6|M|48.15,42.95|N|From Deputy Willem|
 
 L Level 4 class skills |QID|15|LVL|4|N|Remember to visit your class trainer to learn your Level 4 skill!|
-A In Favor of the Light|QID|5623|M|49.8,39.5|C|Priest|R|Human|N|From Priestess Anetta.|
 A The Stolen Tome|QID|1598|C|Warlock|R|Human|M|49.8,42.6|N|From Drusilla La Salle.|
 r Sell and Repair|QID|15|S|M|47.7,41.4|ACTIVE|15|N|Sell and Repair at Godric Rothgar.|
 
 T Investigate Echo Ridge|QID|15|M|48.9,41.6|N|To Marshal McBride|
 A Skirmish at Echo Ridge|QID|21|PRE|15|M|48.9,41.6|N|From Marshal McBride|
 C Skirmish at Echo Ridge|QID|21|M|47.7,31.7|N|Kill the Kobold Laborers. They are found inside Echo Ridge Mine.|
-T Milly Osworth|QID|3903|M|50.7,39.3|N|To Milly Osworth|
-A Milly's Harvest|QID|3904|M|50.7,39.3|PRE|3904|N|From Milly Osworth|
+T Milly Osworth|QID|3903|M|50.7,39.3|N|To Milly Osworth, near the stables, behind the abbey.|
+A Milly's Harvest|QID|3904|M|50.7,39.3|PRE|3903|N|From Milly Osworth|
 C The Stolen Tome|QID|1598|M|57,44|NC|N|Pick up the tome from the ground next to the tent.|
 C Milly's Harvest|QID|3904|M|54.0,47.8|NC|N|Collect Milly's Harvest Barrels from the vineyards.|
 C Bounty on Garrick Padfoot|QID|6|M|57.56,48.42|N|Kill Garrick Padfoot and loot his head.|T|Garrick Padfoot|
@@ -74,28 +72,29 @@ r Sell and Repair|QID|21|S|M|47.7,41.4|ACTIVE|21|N|Sell and Repair at Godric Rot
 T Skirmish at Echo Ridge|QID|21|M|48.9,41.6|N|To Marshal McBride|
 A Report to Goldshire|QID|54|PRE|21|M|48.9,41.6|N|From Marshal McBride|
 T Grape Manifest|QID|3905|M|49.5,41.6|N|To Brother Neals, inside the abbey up the spiral staircase to the top floor.|
+A In Favor of the Light|QID|5623|M|49.8,39.5|C|Priest|R|Human|N|From Priestess Anetta.|
 T The Stolen Tome|QID|1598|M|49.8,42.6|N|To Drusilla La Salle.|
 
 r Sell and Repair|QID|6|S|M|47.7,41.4|ACTIVE|6|N|Sell and Repair at Godric Rothgar.|
 T Bounty on Garrick Padfoot|QID|6|M|48.15,42.95|N|To Deputy Willem|
 A Rest and Relaxation|QID|2158|M|45.6,47.7|N|From Falkhaan Isenstrider, at the entrance to Northshire Valley|
-R Goldshire|QID|54|M|44.25,62.50|N|Follow the road down to Goldshire.|
+R Goldshire|ACTIVE|54|M|44.25,62.50|N|Follow the road down to Goldshire.|
 
-N Learn Apprentice Blacksmithing |QID|54|M|41.7,65.55|S|ACTIVE|54|N|If you want to learn Blacksmithing, now is your chance with Smith Argus, inside the metalworks building.|
-N Learn Apprentice Leatherworking |QID|54|M|46.4,62.2|S|ACTIVE|54|N|If you want to learn Leatherworking, now is your chance with Adele Fielder, in the house to the left on the edge of Goldshire.|
-N Learn Apprentice Skinning |QID|54|M|46.2,62.2|S|ACTIVE|54|N|If you want to learn Skinning, now is your chance with Helene Peltskinner, in the house to the left on the edge of Goldshire.|
-N Learn Apprentice Fishing |QID|54|M|47.6,62.3|S|ACTIVE|54|N|If you want to learn Fishing, now is your chance with Lee Brown, on the edge of Crystal Lake to your left.|
+N Learn Apprentice Blacksmithing |M|41.7,65.55|S|ACTIVE|2158|N|If you want to learn Blacksmithing, now is your chance with Smith Argus, inside the metalworks building.|
+N Learn Apprentice Leatherworking |M|46.4,62.2|S|ACTIVE|2158|N|If you want to learn Leatherworking, now is your chance with Adele Fielder, in the house to the left on the edge of Goldshire.|
+N Learn Apprentice Skinning |M|46.2,62.2|S|ACTIVE|2158|N|If you want to learn Skinning, now is your chance with Helene Peltskinner, in the house to the left on the edge of Goldshire.|
+N Learn Apprentice Fishing |M|47.6,62.3|S|ACTIVE|2158|N|If you want to learn Fishing, now is your chance with Lee Brown, on the edge of Crystal Lake to your left.|
 
 T Report to Goldshire|QID|54|M|42.1,65.9|N|To Marshall Dughan|
 A The Fargodeep Mine|QID|62|M|42.1,65.9|N|From Marshall Dughan|
 A Kobold Candles|QID|60|M|43.3,65.7|N|From William Pestle, inside the Inn|
 T In Favor of the Light|QID|5623|M|43.2,65.6|N|To Priestess Josetta.|
 A Garments of the Light|QID|5624|M|43.2,65.6|N|From Priestess Josetta.|PRE|5623|
-N Learn Apprentice Cooking |QID|2158|M|44.37,66.00|S|N|If you want to learn Cooking, now is your chance with Tomas, at the back of the Inn.|ACTIVE|2158|
-N Learn Apprentice First Aid |QID|2158|M|43.40,65.57|S|N|If you want to learn First Aid, now is your chance with Michelle Belle, upstairs in the Inn.|ACTIVE|2158|
+N Learn Apprentice Cooking |ACTIVE|2158|M|44.37,66.00|S|N|If you want to learn Cooking, now is your chance with Tomas, at the back of the Inn.|
+N Learn Apprentice First Aid |ACTIVE|2158|M|43.40,65.57|S|N|If you want to learn First Aid, now is your chance with Michelle Belle, upstairs in the Inn.|
 
 T Rest and Relaxation|QID|2158|M|43.8,65.8|N|To Innkeeper Farley|
-h Goldshire|QID|85|N|Make this inn your home.|
+h Goldshire|QID|85|M|43.8,65.8|N|Make this inn your home.|
 
 A Gold Dust Exchange|QID|47|M|42.1,67.3|N|From Remy "Two Times", outside|
 A Lost Necklace|QID|85|M|34.5,84.2|N|From "Auntie" Bernice Stonefield|
@@ -128,7 +127,7 @@ A Speak with Gramma|QID|111|M|29.8,86.0|PRE|106|N|From Tommy Joe Stonefield|
 T Speak with Gramma|QID|111|M|34.9,83.9|N|To Gramma Stonefield, inside the house|
 A Note to William|QID|107|M|34.9,83.9|PRE|111|N|From Gramma Stonefield|
 
-R Goldshire|QID|62|N|Run back to Goldshire|
+R Goldshire|QID|62|M|43.8,65.8|N|Run back to Goldshire|
 N Level 6 class skills |QID|47|S|LVL|6|N|Remember to visit your class trainer to learn your Level 6 skills!|
 T Kobold Candles|QID|60|US|M|43.3,65.7|N|To William Pestle|
 A Shipment to Stormwind|QID|61|PRE|60|M|43.3,65.7|N|From William Pestle|
@@ -181,14 +180,14 @@ T Red Linen Goods|QID|83|US|M|79.5,68.8|N|To Sara Timberlain|
 N Prowlers|QID|52|US|ACTIVE|37|M|87,70|QO|1|N|The wolves in this area are Gray Forest Wolves, and not the ones required for the quest Protect the Frontier.|
 T Find the Lost Guards|QID|37|M|72.70,60.2|N|To "A half-eaten body"|
 A Discover Rolf's Fate|QID|45|M|72.7,60.3|N|From A half-eaten body|
-T Discover Rolf's Fate|QID|45|M|79.8,55.5|N|To Rolf's corpse. It is guarded by two Murlocs, and several more Murlocs patrol this area. Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then run. Come back and kill the remaining Murloc.|
+T Discover Rolf's Fate|QID|45|M|79.8,55.5|N|To Rolf's corpse. Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|
 A Report to Thomas|QID|71|M|79.8,55.5|N|From Rolf's corpse|
 
 C Protect the Frontier|QID|52|US|M|87,70|N|Finish killing the Prowlers and Young Forest Bears|
 
-T Report to Thomas|QID|71|M|74.0,72.2|N|To Guard Thomas|
-A Deliver Thomas' Report|QID|39|M|74.0,72.2|N|From Guard Thomas|
-T Protect the Frontier|QID|52|US|M|74.0,72.2|N|To Guard Thomas|
+T Report to Thomas|QID|71|M|74.0,72.2|N|To Guard Thomas.|
+A Deliver Thomas' Report|QID|39|M|74.0,72.2|N|From Guard Thomas.|
+T Protect the Frontier|QID|52|M|74.0,72.2|N|To Guard Thomas.|
 A Report to Gryan Stoutmantle|QID|109|M|73.9,72.2|N|From Guard Thomas.|
 
 H Goldshire|QID|112|N|Hearthstone back to Goldshire (or run if your hearthstone is on cooldown)|
@@ -197,9 +196,9 @@ A The Escape|QID|114|M|43.3,65.7|N|From William Pestle. It takes 10 seconds from
 r Sell and Repair|QID|76|S|M|41.7,65.8|ACTIVE|76|N|Sell and Repair at Andrew Krighton, inside the metalworks building.|
 
 T The Jasperlode Mine|QID|76|M|42.1,65.9|N|To Marshall Dughan|
-A Westbrook Garrison Needs Help!|QID|239|PRE|76|M|42.1,65.9|
-
-T Deliver Thomas' Report|QID|39|M|42.1,65.9|N|To Marshall Dughan|
+A Westbrook Garrison Needs Help!|QID|239|PRE|76|M|42.1,65.9|N|From Marshall Dughan
+T Deliver Thomas' Report|QID|39|M|42.1,65.9|N|To Marshall Dughan
+A Cloth and Leather Armor|QID|59|M|42.1,65.9|PRE|39|N|From Marshall Dughan.|
 A Elmore's Task|QID|1097|M|41.70,65.5|N|From Smith Argus|
 
 T The Escape|QID|114|M|43.2,89.6|N|To Maybell Maclure|
@@ -207,10 +206,19 @@ T Princess Must Die!|QID|88|M|34.6,84.5|N|To Ma Stonefield|
 
 T Westbrook Garrison Needs Help!|QID|239|M|24.3,74.8|N|To Deputy Rainer|
 A Riverpaw Gnoll Bounty|QID|11|M|24.3,74.8|N|From Deputy Rainer|
+A Wanted: "Hogger"|QID|176|M|24.52,74.65|N|This Elite level quest is available from the Wanted Poster in Forests Edge, one on the road to the tower, and one at the northern tower.|
+K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|N|This Level 11 Elite has a few span points. Group up with whoever is around to make this simple.|
 C Riverpaw Gnoll Bounty|QID|11|M|26.1,87.5|N|Kill and loot the Gnolls for the Painted Gnoll Armbands.|
+L Level Check|ACTIVE|11|M|26.1,87.5|LVL|10;-840|N|Grind at the gnolls if you aren't yet 10.|
+l Gold Pickup Schedule|QID|123|L|1307|M|26.0,93.0|N|You want to hunt down the Gold Pickup Schedule. This is most likely to drop from the rare mob Gruff Swiftbite who spawns in the same area as Hogger does, otherwise it's a low 1% drop from Hogger and Riverpaws.|
+A The Collector|QID|123|U|1307|N|Quest obtained from the Gold Pickup Schedule|
 T Riverpaw Gnoll Bounty|QID|11|M|24.3,74.8|N|To Deputy Rainer|
 
-A Speak with Jennea|QID|1860|M|43.2,66.2|C|Mage|N|From Zaldimar Wefhellt. Requires lvl 10. Rewards a nice 2H staff, so you may want to do it, even though its a bit out of the direct path.|
+T The Collector|QID|123|M|42.1,65.9|N|To Marshall Dughan|
+A Manhunt|QID|147|PRE|123|M|42.1,65.9|N|From Marshall Dughan|
+T Wanted: "Hogger"|QID|176|M|42.1,65.9|N|To Marshall Dughan|
+
+A Speak with Jennea|QID|1860|M|43.2,66.2|C|Mage|ITEM|9513|N|From Zaldimar Wefhellt. Requires lvl 10. Rewards a nice 2H staff, so you may want to do it, even though its a bit out of the direct path.|
 T Speak with Jennea|QID|1860|M|38.6,79.4|Z|Stormwind City|N|To Jennea Cannon, inside the Mage Tower.|
 A Mirror Lake|QID|1861|M|38.6,79.4|Z|Stormwind City|N|From Jennea Cannon.|PRE|1860|
 C Mirror Lake|QID|1861|M|28.6,61.4|U|7207|N|Go to Mirror Lake, just outside Stormwind, stand under the waterfall and use Jennea's Flask.|
@@ -225,7 +233,7 @@ A Surena Caledon|QID|1688|M|25.2,78.6|Z|Stormwind City|N|From Gakin the Darkbind
 C Surena Caledon|QID|1688|M|71,80|T|Surena Caladon|N|Find, kill and loot Surena Caladon.|
 T Surena Caledon|QID|1688|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder.|
 A The Binding|QID|1689|M|25.2,78.6|Z|Stormwind City|N|From Gakin the Darkbinder.|PRE|1688|
-C The Binding|QID|1689|M|25.2,77.2|Z|Stormwind City|U|6928|N|Go down the stairs right behind Gakin.turn right at bottom, down more stairs. right again, donwm more stairs, left, down most of the way and left again, this last door is easy to miss. Stand on the runed summoning circle and use the provided choker to summon a voidwalker then kill it.|
+C The Binding|QID|1689|M|25.2,77.2|Z|Stormwind City|U|6928|N|Go down the stairs right behind Gakin.turn right at bottom, down more stairs. right again, donwm more stairs, left, down most of the way and left again, this last door is easy to miss. Stand on the purple runed summoning circle and use the provided choker to summon a voidwalker then kill it.|
 T The Binding|QID|1689|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder.|
 
 A A Warrior's Training|QID|1638|M|41,65.8|C|Warrior|N|From Lyria Du Lac, in Goldshire smithing shop.|
@@ -243,18 +251,32 @@ A Dead-tooth Jack|QID|1667|M|84,69|N|From Marshal Haggard.|PRE|1666|
 C Dead-tooth Jack|QID|1667|M|89.3,78.8|N|Clear the area, 'til you have just Jack and one guard. Charge the remaining guard, kill it quick, hamstring Jack and back off, Defensive if you have time and kill him. Loot key, open lockbox, get badge. (quickly due to respawn)|
 T Dead-tooth Jack|QID|1667|M|84,69|N|To Marshal Haggard.|
 
-N Guide nearly ending|QID|109|ACTIVE|109|S|N|This guide is coming to a close, if you plan to continue questing in Westfall, switch guides now. Otherwise, if you plan to continue questing in Loch Modan, keep going.|
 R Westfall |QID|109|ACTIVE|109|M|61.95,17.80|Z|Westfall|N|Follow the road into Westfall|
-R Sentinel Hill |QID|109|ACTIVE|109|M|61.95,17.80|Z|Westfall|N|Continue along the road to Sentinel Hill, taking the left hand road at the junction (it has signposts if you are unsure)|
-T Report to Gryan Stoutmantle|QID|109|M|56.3,47.5|Z|Westfall|N|To Gryan Stoutmantle|
+A Furlbrow's Dead|QID|184|U|1971|N|If you happened to have found Furlbrow's deed (random rare drop), while questing thru Elwyn, accept the quest and then turn it in to Farmer Furlbrow. Else, check this off manually if you don't have the item.|
+A Furlbrow's Dead|QID|184|M|59.95,19.36|Z|Westfall|N|To Farmer Furlbrow.|
+A The Forgotten Heirloom|QID|64|M|59.95,19.36|Z|Westfall|N|From Farmer Furlbrow.|
+A Westfall Stew |QID|36|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
+A Poor Old Blanchy|QID|151|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
+A The Killing Fields|QID|9|M|56.0,31.2|Z|Westfall|N|From Farmer Saldean. Note, he is also a vendor.|
+T Westfall Stew |QID|36|M|56.4,30.5|Z|Westfall|N|To Salma Saldean.|
+A Westfall Stew |QID|38|M|56.4,30.5|Z|Westfall|N|From Salma Saldean.|
+A Goretusk Liver Pie|QID|22|M|56.4,30.5|Z|Westfall|N|From Salma Saldean.|
 
-f Sentinel Hill |QID|1097|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor|
+R Sentinel Hill |QID|109|ACTIVE|109|M|57.61,44.45|Z|Westfall|N|Continue along the road to Sentinel Hill, taking the left hand road at the junction (it has signposts if you are unsure)|
+T Report to Gryan Stoutmantle|QID|109|M|56.33,47.52|Z|Westfall|N|To Gryan Stoutmantle. (you can accept The People's militia now, or wait for questlog space later.)|
+A A Swift Message|QID|6181|M|57.00,47.17|Z|Westfall|N|From Quartermaster Lewis.|R|Human|
+h Sentinel Hill|ACTIVE|6181|M|52.86,53.71|Z|Westfall|N|At Innkeeper Heather.|
+f Sentinel Hill |QID|1097|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
+T A Swift Message|QID|6181|M|56.55,52.65|Z|Westfall|N|To Thor.|
+A Continue to Stormwind|QID|6281|M|56.55,52.65|Z|Westfall|N|From Thor.|
 F Stormwind City |QID|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|
 
+T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
+A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|Stormwind City|N|From Osric Strang.|PRE|6281|
 T Desperate Prayer|QID|5635|M|38.8,26.4|Z|Stormwind City|N|To High Priestess Laurena in the Cathedral of Light.|
 T Seek out SI:7|QID|2205|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|
 A Snatch and Grab|QID|2206|M|76.0,59.8|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|2205|
-C Snatch and Grab|QID|2206|M|47,87|N|Head south east of Goldshire. As you approach the docs, stealth and then pickpocket the dockmaster. If the weapon isn't an upgrade, you may want to skip or leave this quest 'til next time you are conveniently in Goldshire.|ITEM|7298|
+C Snatch and Grab|QID|2206|M|47,87|N|Head south east of Goldshire. As you approach the docks, stealth, then pickpocket the dockmaster. If the weapon isn't an upgrade, you may want to skip or leave this quest 'til next time you are conveniently in Goldshire.|ITEM|7298|
 T Snatch and Grab|QID|2206|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|
 T Elmore's Task|QID|1097|M|51.75,12.10|Z|Stormwind City|N|To Grimand Elmore, in the Dwarven District|
 
@@ -265,23 +287,24 @@ A Deeprun Rat Roundup|QID|6661|N|Board the Tram to take you Ironforge, then ques
 C Deeprun Rat Roundup|QID|6661|NC|U|17117|N|Use Rat Catcher's Flute on Deeprun Rats, and catch five of them.|T|Deeprun Rat|
 T Deeprun Rat Roundup|QID|6661|N|To Monty.|
 
-A Me Brother, Nipsy |QID|6662|PRE|6661|N|From Monty. Accept only if you are want to go to Stormwind City and back. |
+A Me Brother, Nipsy |QID|6662|PRE|6661|N|From Monty. Accept only if you are want to go to Stormwind City and back. (hop on the tram at the opposite end from Monty for a chance to turn in and make it back on the same tram)|
 T Me Brother, Nipsy |QID|6662|N|To Nipsy at the Stormwind Tram Stop. After turning in, jump back onto tram to Ironforge. |
 
-R Tinker Town|ACTIVE|353|N|Go inside Ironforge.|
-f Ironforge|ACTIVE|353|M|55.6,47.9|Z|Ironforge|N|Discover Ironforge Flight Path with Gryph Thurden.|
-R Gates of Ironforge|ACTIVE|353|M|15.0,86.10|Z|Ironforge|N|Head to the exit of Ironforge.|
+R Tinker Town|ACTIVE|353|N|Take the tunnel to your North to go inside Ironforge.|
+f Ironforge|ACTIVE|353|M|62.85,28.38;55.50,47.76|CS|Z|Ironforge|N|Discover Ironforge Flight Path with Gryph Thurden.|R|-Dwarf| ;why is a dwarf doing this guide...
+R Gates of Ironforge|ACTIVE|353|M|43.7,59.1;29.9,81.75;15.0,86.10|CS|Z|Ironforge|N|Head to the exit of Ironforge.|
 
-A Protecting the Herd|QID|314|M|63.1,49.9|Z|Dun Morogh|
-C Protecting the Herd|QID|314|M|52.1,50.4;62.3,48.2;62.2,46.9|CS|Z|Dun Morogh|N|Kill Vagash, and loot Fang of Vagash.|
-T Protecting the Herd|QID|314|M|63.1,49.9|Z|Dun Morogh|
-A The Public Servant|QID|433|M|68.7,56.0|Z|Dun Morogh|
-A Those Blasted Troggs!|QID|432|M|69.1,56.3|Z|Dun Morogh|
+A Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|From Rudra Amberstill.|
+C Protecting the Herd|QID|314|M|61.05,52.81;62.2,46.9|CS|Z|Dun Morogh|N|Kill Vagash, and loot Fang of Vagash.|
+T Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|To Rudra Amberstill.|
+A Those Blasted Troggs!|QID|432|M|69.08,56.33|Z|Dun Morogh|N|From Foreman Stonebrow.|
+A The Public Servant|QID|433|M|68.67,55.96|Z|Dun Morogh|N|From Senator Mehr Stonehollow.|
 C The Public Servant|QID|433|S|M|70.5,57.0|Z|Dun Morogh|N|Kill Rockjaw Bonesnappers and Skullthumpers.|
 C Those Blasted Troggs!|QID|432|M|70.0,57.0|Z|Dun Morogh|N|Kill Rockjaw Skullthumpers.|
 C The Public Servant|QID|433|US|M|70.5,57.0|Z|Dun Morogh|N|Kill Rockjaw Bonesnappers and Skullthumpers.|
-T The Public Servant|QID|433|M|68.7,56.0|Z|Dun Morogh|N|Get out of the cave and turn in this quest.|
-T Those Blasted Troggs!|QID|432|M|69.1,56.3|Z|Dun Morogh|
+T The Public Servant|QID|433|M|67.70,57.94;68.67,55.96|CS|Z|Dun Morogh|N|Get out of the cave and turn in this quest to Senator Mehr Stonehollow.|
+T Those Blasted Troggs!|QID|432|M|69.08,56.33|Z|Dun Morogh|N|To Foreman Stonebrow.|
+R North Gate Pass|ACTIVE|353|M|78.31,49.17|Z|Dun Morogh|N|Back to the road and continue thru North Gate Pass.|
 A The Lost Pilot|QID|419|M|83.88,39.19|Z|Dun Morogh|N|From Pilot Hammerfall.|
 T The Lost Pilot|QID|419|M|79.69,36.14|Z|Dun Morogh|N|To Dwarven Corpse.|
 A A Pilot's Revenge|QID|417|M|79.69,36.14|Z|Dun Morogh|N|From Dwarven Corpse.|
@@ -293,46 +316,37 @@ R Algaz Station|ACTIVE|353|M|24.50,18.00|Z|Loch Modan|N|Continue along the road 
 T Stormpike's Delivery|QID|353|M|24.77,18.39|Z|Loch Modan|N|To Mountaineer Stormpike, on the top floor of the tower.|
 A Filthy Paws|QID|307|M|24.77,18.39|Z|Loch Modan|N|From Mountaineer Stormpike.|
 A Stormpike's Order|QID|1338|M|24.77,18.39|Z|Loch Modan|N|From Mountaineer Stormpike.|
-R Thelsamar|ACTIVE|353|M|33.9,50.95|Z|Loch Modan|N|Follow the road north to Thelsamar|
-f Thelsamar|ACTIVE|353|M|33.9,50.95|Z|Loch Modan|N|Discover Thelsamar Flight Path with Thorgrum Borrelson|
+R Thelsamar|ACTIVE|1338|M|33.9,50.95|Z|Loch Modan|N|Follow the road north to Thelsamar, Killing and looting all spiders, bears and boars along the way.|
 A Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|Mountianeer Kadrell patrols all throughout Thelsamar.|
 A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|Inside the inn.|
 r Sell junk and repair|QID|418|M|34.0,46.60|Z|Loch Modan|N|At Morhan Coppertongue. Close this step when you're done.|
-f Thelsamar|QID|418|M|33.9,51.0|Z|Loch Modan|N|Get the new flight path.|
+f Thelsamar|ACTIVE|418|M|33.9,50.95|Z|Loch Modan|N|Discover Thelsamar Flight Path with Thorgrum Borrelson|
 C Thelsamar Blood Sausages|QID|418|S|M|35.00,35.00|Z|Loch Modan|N|Kill Boars, Bears and Spiders.|
 C Rat Catching|QID|416|M|37.7,25.7|Z|Loch Modan|S|N|Kill any Tunnel Rats you see.|
-R Follow the arrows|ACTIVE|418|M|41.12,53.45;37.71,38.18;33.40,38.32;37.69,25.73;32.28,31.08;25.12,27.11;25.68,35.92;29.60,34.00;26.19,42.99|CN|Z|Loch Modan|N|Go from one area to the next, killing Mountain Boars, Forest Lurkers, Elder Black Bears, and Tunnel Rats on the way.|
+R Silver Stream Mine|ACTIVE|307|M|36.33,27.46|Z|Loch Modan|N|Continue killing Kobalds, Boars, Bears and Spiders as you go.|
+C Filthy Paws|QID|307|Z|Loch Modan|NC|N|Pick up the stacks of 'Miners' League Crates', exit the mine and continue on your way killing everything when you have the 4 crates.|
+T Filthy Paws|QID|307|M|24.77,18.39|Z|Loch Modan|N|To Mountaineer Stormpike.|
+N Level 12|ACTIVE|416|N|Once you reach level 12, If you want to fly back to leave these quests for later (or never) feel free to manually check the next few steps off until the fly to Stormwind step.|
+R Follow the arrows|ACTIVE|418|M|32.28,31.08;25.68,35.92;26.19,42.99;37.71,38.18|CS|Z|Loch Modan|N|Go from one area to the next, killing Mountain Boars, Forest Lurkers, Elder Black Bears, and Tunnel Rats on the way.|
 C Rat Catching|QID|416|US|M|37.7,25.7|Z|Loch Modan|N|Finish this quest now, kill Tunnel Rats.|
-C Thelsamar Blood Sausages|QID|418|US|M|35.00,35.00|Z|Loch Modan|N|Finish this quest now. Kill Boars, Bears and Spiders.|
+C Thelsamar Blood Sausages|QID|418|US|M|41.12,53.45|Z|Loch Modan|N|Finish this quest now. Kill Boars, Bears and Spiders.|
 T Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|To Mountaineer Kadrell.|
-T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|
+T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|To Vidra Hearthstove.|
 
-L Level 12|N|You should now be a couple of bars into level 12. This guide ends here, close this step to jump to the next guide! or stick around for a few elite and class quests.|
+L Level 12|LVL|12|N|You should now be a couple of bars into level 12.|
 
 F Stormwind City|QID|1338|ACTIVE|1338|M|33.9,50.95|Z|Loch Modan|N|Fly to Stormwind City from Thelsamar|
+T Dungar Longdrink|QID|6261|M|66.28,62.09|Z|Stormwind City|N|To Dungar Longdrink.|
+A Return to Lewis|QID|6285|PRE|6261|M|66.28,62.09|Z|Stormwind City|N|From Dungar Longdrink.|
+A Tome of Divinity|QID|2998|M|39.80,29.78|C|Paladin|R|Human|N|From Brother Wilhelm,in GoldshireA Humble Beginnings|QID|399|Z|Stormwind City|M|49.21, 30.27|N|From Baros Alexston, in Cathedral Square.|
+A Humble Beginnings|QID|399|Z|Stormwind City|M|49.21, 30.27|N|From Baros Alexston, in Cathedral Square.|
 
-T Stormpike's Order|QID|1338|M|58.1,16.57|Z|Stormwind City|N|To Furen Longbeard, in the Dwarven District|
-
-N The End|QID|59|N|That's the end of this Elwynn Forest guide. For quest completionists, there is a couple more quests that is a lot of work for little reward. If this is you, right click this step and continue...|
-
-A Wanted: "Hogger"|QID|176|M|24.6,78.2|N|This Elite level quest is available from the Wanted Poster in Forests Edge, one on the road to the tower, and one at the northern tower.|
-K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|N|This Level 11 Elite has a few span points.|
-
-l Gold Pickup Schedule|QID|123|L|1307|M|26.0,93.0|N|You want to hunt down the Gold Pickup Schedule. This is most likely to drop from the rare mob Gruff Swiftbite who spawns in the same area as Hogger does, otherwise it's a low 1% drop from Hogger and Riverpaws.|
-A The Collector|QID|123|U|1307|N|Quest obtained from the Gold Pickup Schedule|
-T The Collector|QID|123|M|42.1,65.9|N|To Marshall Dughan|
-A Manhunt|QID|147|PRE|123|M|42.1,65.9|N|From Marshall Dughan|
-
-T Wanted: "Hogger"|QID|176|M|42.1,65.9|N|To Marshall Dughan|
-A Cloth and Leather Armor|QID|59|M|42.1,65.9|PRE|39|N|From Marshall Dughan in Goldshire|
-
-A Tome of Divinity|QID|2998|M|39.80,29.78|C|Paladin|R|Human|N|From Brother Wilhelm.|
 T Tome of Divinity|QID|2998|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|
 A The Tome of Divinity|QID|1642|M|39.80,29.78|Z|Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|PRE|2998|
 T The Tome of Divinity|QID|1642|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|
 A The Tome of Divinity|QID|1643|M|39.80,29.78|Z|Stormwind City|N|From Duthorian Rall.|PRE|1642|
 T The Tome of Divinity|QID|1643|M|57.08,61.73|Z|Stormwind City|N|To Stephanie Turner in the Trade District.|
-A The Tome of Divinity|QID|1644|M|57.08,61.73|Z|Stormwind City|N|From Stephanie Turner.|
+A The Tome of Divinity|QID|1644|M|57.08,61.73|Z|Stormwind City|N|From Stephanie Turner.|PRE|1643|
 C The Tome of Divinity|QID|1644|M|57.08,61.73|Z|Stormwind City|N|Acquire 10 linen cloth if you don't have it.|
 T The Tome of Divinity|QID|1644|M|57.08,61.73|Z|Stormwind City|N|To Stephanie Turner.|
 A The Tome of Divinity|QID|1780|M|57.08,61.73|Z|Stormwind City|N|From Stephanie Turner.|PRE|1644|
@@ -340,19 +354,32 @@ T The Tome of Divinity|QID|1780|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Ra
 A The Tome of Divinity|QID|1781|M|39.80,29.78|Z|Stormwind City|N|From Duthorian Rall.|PRE|1780|
 T The Tome of Divinity|QID|1781|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm, up at the alter.|
 A The Tome of Divinity|QID|1786|M|38.58,26.56|Z|Stormwind City|N|From Gazin Tenorm.|PRE|1781|
-R Stone Cairn Lake|ACTIVE|1786|M|67,58|N|Run to the island in the middle of Stone Cairn Lake.|
+
+T Stormpike's Order|QID|1338|M|58.1,16.57|Z|Stormwind City|N|To Furen Longbeard, in the Dwarven District|
+A Bounty on Murlocs|QID|46|M|74.0,72.2|N|From Guard Thomas, along the eastern road between Stormwind and Redridge Mtns.|
+R Stone Cairn Lake|ACTIVE|1786^46|M|67,58|N|Run to the island in the middle of Stone Cairn Lake.|
 C The Tome of Divinity|QID|1786|M|72.59,51.41|U|6866|NC|T|Henze Faulk|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|
 T The Tome of Divinity|QID|1786|M|72.59,51.41|N|To Henze Faulk.|
 A The Tome of Divinity|QID|1787|M|72.59,51.41|N|From Henze Faulk.|PRE|1786|
 C The Tome of Divinity|QID|1787|M|74.03,51.84|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|
-
 T Cloth and Leather Armor|QID|59|M|79.5,68.8|N|To Sara Timberlain in Eastvale Logging Camp|
 K Morgan the Collector|ACTIVE|147|M|71,80|QO|1|T|Morgan the Collector|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which agro at the same time.|
+
+C Bounty on Murlocs|QID|46|M|75,83|US|N|Kill murlocs until you collect the torn fins needed.|
+T Bounty on Murlocs|QID|46|M|74.0,72.2|N|To Guard Thomas.|
+
+R Redridge Mountains|QID|244|M|8.98,71.72|Z|Redridge Mountains|N|Go to Redridge Mountains|
+A Encroaching Gnolls|QID|244|M|15.3,71.5|Z|Redridge Mountains|N|From Guard Parker.|
+T Encroaching Gnolls|QID|244|M|30.7,60.0|Z|Redridge Mountains|N|To Deputy Feldon.|
+A Assessing the Threat|QID|246|M|30.7,60.0|Z|Redridge Mountains|N|From Deputy Feldon.|
+f Lakeshire|QID|65|N|Get the flight path.|M|30.60,59.40|Z|Redridge Mountains|N|At Ariena Stormfeather.|
+F Stormwind|ACTIVE|147^1787|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
 T Manhunt|QID|147|M|42.1,65.9|N|To Marshall Dughan|
 
 T The Tome of Divinity|QID|1787|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
 A The Tome of Divinity|QID|1788|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm.|PRE|1787|
 T The Tome of Divinity|QID|1788|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|
 
+H Sentinel Hill|ACTIVE|6285|N|If your hearthstone isn't available or set there, you can always fly.|
 ]]
 end)
