@@ -43,7 +43,7 @@ N Train level 4 skills/spelss|QID|780|N|Before heading out go to your trainer an
 
 C The Battleboars|QID|780|M|56.98,85.95|N|Kill the Battleboars in front of the tunnel until you complete the Quest.|
 C Rite of Strength|QID|757|S|N|Kill Quillboars for their Bristleback Belts on the way.|
-C Break Sharptusk!|QID|3376|M|58.05,85.10;62.24,81.49;62.51,78.81;64.74,77.69;63.84,79.88|CS|N|Work your way to Sharptusk inside the big tent and kill him.|
+C Break Sharptusk!|QID|3376|M|58.05,85.10;62.24,81.49;62.51,78.81;64.65,77.71|CS|N|Work your way to Sharptusk inside the big tent and kill him.|
 l Dirt-stained Map|AVAILABLE|781|L|4851|M|63.24,82.70|N|Inside this cave is a Dirt-stained Map. Loot it. There may be a rare called "Squeler" Thornmantle in the cave.|
 A Attack on Camp Narache|AVAILABLE|781|U|4851|N|Right-click the Dirt-stained Map.|
 C Rite of Strength|QID|757|US|N|Kill the Quillboars until you have all Bristleback Belts.|
@@ -66,6 +66,7 @@ N Train other skills|QID|1521|C|Shaman|R|Tauren|N|You can train the remaining sk
 
 A A Task Unfinished|QID|1656|M|41.46,81.86;38.52,81.56|CC|N|From Antur Fallow.|
 
+R Bloodhoof Village|AVAILABLE|743|M|38.00,81.46;36.09,78.65;36.12,75.60;38.32,73.57;42.72,69.24;49.35,64.24;48.59,62.15|CS|N|Run to Bloodhoof|
 A Dangers of the Windfury|QID|743|M|47.35,62.01|N|From Ruul Eagletalon.|
 
 A Poison Water|QID|748|R|Tauren|M|48.53,60.39|N|From Mull Thunderhorn.|
@@ -74,7 +75,6 @@ A Swoop Hunting|QID|761|M|48.71,59.32|N|From Harken Windtotem inside the buildin
 T Rites of the Earthmother|QID|763|M|47.51,60.17|N|To Baine Bloodhoof.|
 A Sharing the Land|QID|745|M|47.51,60.17|N|From Baine Bloodhoof.|
 A Rite of Vision|QID|767|PRE|763|M|47.51,60.17|N|From Baine Bloodhoof.|
-A Dwarven Digging|QID|746|M|47.51,60.17|N|From Baine Bloodhoof.|
 
 T Rite of Vision|QID|767|M|47.76,57.54|N|To Zarlman Two-Moons.|
 A Rite of Vision|QID|771|PRE|767|M|47.76,57.54|N|From Zarlman Two-Moons.|
@@ -82,6 +82,7 @@ A Mazzranache|QID|766|M|46.99,57.07|N|From Maur Raincaller.|
 
 T A Task Unfinished|QID|1656|M|46.62,61.09|N|To Innkeeper Kauth.|
 h Bloodhoof Village|QID|745|M|46.70,61.00|N|At Innkeeper Kauth.|
+A Dwarven Digging|QID|746|LVL|6|M|47.51,60.17|N|From Baine Bloodhoof.|
 C Poison Water|QID|748|R|Tauren|S|N|Kill Prairie Wolves and Plainstriders on your way.|
 C Swoop Hunting|QID|761|S|N|Kill Swoops you encounter on your way for their Trophy Quills.|
 C Mazzranache|QID|766|QO|1;3;4|S|N|Kill Prairie Wolves, Plainstriders and Swoops on the way until you get the parts.|
@@ -94,6 +95,7 @@ A Winterhoof Cleansing|QID|754|PRE|748|R|Tauren|M|48.53,60.39|N|From Mull Thunde
 T Rite of Vision|QID|771|M|47.76,57.54|N|To Zarlman Two-Moons.|
 A Rite of Vision|QID|772|PRE|771|M|47.76,57.54|N|From Zarlman Two-Moons.|
 N Rite of Vision|QID|772|U|4823|N|Use the Water of the Seers, a 30 second cast. Ignore the Plains Vision. You can't destroy the Water, doing so will automatically cancel the quest. Right-Click this step to continue.|
+t Mazzranache|QID|766|M|46.99,57.07|N|To Maur Raincaller.|
 r Sell Junk and Repair|QID|754|M|45.90,58.73|N|Sell Junk and repair before heading out again.|
 C Winterhoof Cleansing|QID|754|U|5411|M|53.67,66.34|N|Clear your way to the well and use the provided Winterhoof Cleansing Totem.|
 C Sharing the Land|QID|745|M|53.60,73.13;48.56,73.11|CN|N|There are multiple Palemane camps to choose from, but only the east one has Poachers. Watch out for Snagglespear, a rare that hits relatively hard.|
