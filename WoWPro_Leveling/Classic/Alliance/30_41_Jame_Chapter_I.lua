@@ -10,16 +10,18 @@ return [[
 ;proofread and improved by Katrex 8/21/19 -- he says not quite done tho
 
 N Things to Buy|N|There are some items that you need to buy off of the Auction House or otherwise acquire.  The guide will remind you each time you are in town until you aquire them, check off manually if you aren't going to at that time and it will pop up again, next time you're in town. first one for a quest in stranglethorn and the other three are needed for Badlands quest - approx level 38-40. These quests are not essential for dungeons, just a fair chunk of XP, so if you can't find the items at a reasonable price, you can skip the quests and grind to make it up.|
-B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn.|
-B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|
-B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|
-B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|
+B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn.|ITEM|4278|
+B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
+B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
+B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 
 R Theramore Isle|QID|1175|N|Fly to Theramore.|Z|Dustwallow Marsh|M|58.40,94.00|
 h Theramore Isle|QID|1175|N|Make Theramore your home location.|Z|Dustwallow Marsh|M|66.60,45.20|
 r Sell junk, repair, restock.|QID|1175|N|Sell junk, repair, restock.|
 B Soothing Spices |L|3713 3|M|66.4, 51.5|Z|Dustwallow Marsh|
 A Highperch Venom|QID|1135|M|66.4,45.2|Z|Dustwallow Marsh|N|From Fiora Longears.|
+A They Call Him Smiling Jim|QID|1282|M|66,46|Z|Dustwallow Marsh|N|From Captain Byron.|
+T They Call Him Smiling Jim|QID|1282|M|68,48.6|Z|Dustwallow Marsh|N|To Captain Garran Vimes, 2nd floor of the Citidel.|
 A Soothing Spices |QID|1218|M|55.4,26.3|Z|Dustwallow Marsh|N|Follow the road untill you see the house across the river Do NOT go cross country|
 T Soothing Spices |QID|1218|M|55.4,26.3|Z|Dustwallow Marsh|N|Do not accept the followup
 A The Orc Report  |QID|1219|M|55.4,26|Z|Dustwallow Marsh|N|Check the grave behind the house. 
@@ -91,30 +93,31 @@ A Goblin Sponsorship |QID|1182|M|27.2,77.0|Z|Stranglethorn Vale|N|From Baron Rev
 A Singing Blue Shards|QID|605|M|27.1,77.2|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|
 A Scaring Shaky|QID|606|M|27.8,77.1|Z|Stranglethorn Vale|N|From "Sea Wolf" McKinley.|
 A Supply and Demand|QID|575|M|28.3,77.6|Z|Stranglethorn Vale|N|From Drizzlik.|
-r Sell, Repair, Restock, Train.|N|Rogues can train on the first floor of the inn, the rest of you need to wait until you have the Rebel Camp flight point, then fly to Stormwind.|
+r Sell, Repair, Restock, Train.|N|Rogues can train on the first floor of the inn, the rest of you need to fly to Stormwind.|
 
 F Duskwood
-R Run north to elwynn to marshal hagard turn in the quest accept follow up and run back to darkshire.
-T The Legend of Stalvan |QID|74|M|84.6,69.4|
-A The Legend of Stalvan |QID|75|M|84.6,69.4|N| Run upstairs and check the chest|
-T The Legend of Stalvan |QID|75|M|84.6,69.4| 
-A The Legend of Stalvan |QID|78|M|84.6,69.4|
-T The Legend of Stalvan |QID|78|M|73.8,43.5|
-A The Legend of Stalvan |QID|79|M|73.8,43.5|
-T The Legend of Stalvan |QID|79|M|73.5,46.9|
-A The Legend of Stalvan |QID|80|M|73.5,46.9|
-T The Legend of Stalvan |QID|80|M|72.5,46.9|
-A The Legend of Stalvan |QID|97|M|72.5,46.9|
-T The Legend of Stalvan |QID|97|M|73.5,46.9|
-A The Legend of Stalvan |QID|98|M|73.5,46.9|
-C The Legend of Stalvan |QID|98|M|77.3,36.2|
-T The Legend of Stalvan |QID|98|M|75.8,45.3|
+R Elwynn Forest|ACTIVE|74|M|84.6,69.4|Z|Elwynn Forest|N|Run north to Elwynn to Marshal Hagard turn in the quest accept follow up and run back to darkshire.|
+t The Legend of Stalvan |QID|74|M|84.6,69.4|Z|Elwynn Forest|N|To Marshal Hagard.|
+A The Legend of Stalvan |QID|75|M|84.6,69.4|Z|Elwynn Forest|N|From Marshal Hagard.|PRE|74|
+C The Legend of Stalvan |QID|75|M|84.6,69.6|Z|Elwynn Forest|NC|N|Run upstairs and check the chest.|
+T The Legend of Stalvan |QID|75|M|84.6,69.4|Z|Elwynn Forest|N|To Marshal Hagard.|
+A The Legend of Stalvan |QID|78|M|84.6,69.4|Z|Elwynn Forest|N|From Marshal Hagard.|PRE|75|
+T The Legend of Stalvan |QID|78|M|73.8,43.5|Z|Duskwood|N|To Tavernkeep Smitts.|
+A The Legend of Stalvan |QID|79|M|73.8,43.5|Z|Duskwood|N|From Tavernkeep Smitts.|PRE|78|
+T The Legend of Stalvan |QID|79|M|73.5,46.9|Z|Duskwood|N|To Commander Althea Ebonlocke.| 
+A The Legend of Stalvan |QID|80|M|73.5,46.9|Z|Duskwood|N|From Commander Althea Ebonlocke.|PRE|79| 
+T The Legend of Stalvan |QID|80|M|72.5,46.9|Z|Duskwood|N|To Clerk Daltry.|
+A The Legend of Stalvan |QID|97|M|72.5,46.9|Z|Duskwood|N|From Clerk Daltry.|PRE|80|
+T The Legend of Stalvan |QID|97|M|73.5,46.9|Z|Duskwood|N|To Commander Althea Ebonlocke.|
+A The Legend of Stalvan |QID|98|M|73.5,46.9|Z|Duskwood|N|From Commander Althea Ebonlocke.|PRE|97|
+C The Legend of Stalvan |QID|98|M|77.3,36.2|Z|Duskwood|T|Stalvan Mistmantle|N|Kill Stalvan Mistmantle.|
+T The Legend of Stalvan |QID|98|M|75.8,45.3|Z|Duskwood|N|To Madam Eva.|
 
-A Worgen in the Woods |QID|222|M|75.3,48.1|
-C Worgen in the Woods|QID|222|M|72.4,67.4|
+A Worgen in the Woods|QID|222|M|75.3,48.1|Z|Duskwood|N|From Calor.|
+C Worgen in the Woods|QID|222|M|72.4,67.4|Z|Duskwood|N|Kill the worgan as you head back to Stranglethorn.|
 
 R Rebel Camp|QID|198|N|Run south to the Rebel Camp in stranglethron vale, Follow the road west then south, then once you cross the bridge head head west.|M|38.20,4.10|Z|Stranglethorn Vale|
-N From now on...|QID|185|N|From now on, keep any Green Hills of Stranglethorn pages you find.
+N From now on...|QID|185|N|From now on, keep any Green Hills of Stranglethorn pages you find. (bank is fine)|
 T Supplies to Private Thorsen|QID|198|M|38.00,3.40|Z|Stranglethorn Vale|N|To Private Thorsen.|
 A The Second Rebellion|QID|203|M|38.0,3.3|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
 A Bad Medicine|QID|204|M|38.0,3.3|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
@@ -159,27 +162,26 @@ N Green Hills of Stranglethorn|N|Turn in any Green Hills of Stranglethorn quests
 L Level Check: 3 bubbles from 34|LVL|33;46325|
 
 H The Salty Sailor Tavern|QID|605|N|Hearth to Booty Bay.|Z|Stranglethorn Vale|
-T Singing Blue Shards|QID|605|M|27.1,77.2|Z|Stranglethorn Vale|
-A Venture Company Mining|QID|600|M|27.1,77.2|Z|Stranglethorn Vale|
-T Krazek's Cookery|QID|210|M|26.9,77.2|Z|Stranglethorn Vale|
-A Favor for Krazek|QID|627|M|26.9,77.2|Z|Stranglethorn Vale|
+T Singing Blue Shards|QID|605|M|27.1,77.2|Z|Stranglethorn Vale|N|To Crank Fizzlebub.|
+A Venture Company Mining|QID|600|M|27.1,77.2|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|
+T Krazek's Cookery|QID|210|M|26.9,77.2|Z|Stranglethorn Vale|N|To Krazek.|
+A Favor for Krazek|QID|627|M|26.9,77.2|Z|Stranglethorn Vale|N|From Krazek.|
 t Favor for Krazek|N|Turn in Favor for Krazek if you have 4 Lesser Bloodstone Ores.|QID|627|M|26.9,77.2|Z|Stranglethorn Vale|
-A Return to Corporal Kaleb|N|Get the follow-up if you turned in the quest to Krazek.|QID|622|M|26.9,77.2|PRE|627|Z|Stranglethorn Vale|
-A Hostile Takeover|QID|213|M|27.0,77.1|Z|Stranglethorn Vale|
-T Investigate the Camp|QID|201|M|26.9,77.2|Z|Stranglethorn Vale|
-T Bloodscalp Ears|QID|189|M|27.0,77.1|Z|Stranglethorn Vale|
+T Investigate the Camp|QID|201|M|26.9,77.2|Z|Stranglethorn Vale|N|To Krazek.|
+A Return to Corporal Kaleb|QID|622|M|26.9,77.2|PRE|627|Z|Stranglethorn Vale|N|From Krazek.|
+A Hostile Takeover|QID|213|M|27.0,77.1|Z|Stranglethorn Vale|N|To Kebok.|
+T Bloodscalp Ears|QID|189|M|27.0,77.1|Z|Stranglethorn Vale|N|To Kebok.|
 T The Stone of the Tides|QID|578|M|27.2,77.0|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
-A Water Elementals|QID|601|M|27.2,77.0|Z|Stranglethorn Vale|
-T Supply and Demand|QID|575|M|28.3,77.6|Z|Stranglethorn Vale|
-A Some Assembly Required|QID|577|M|28.3,77.6|Z|Stranglethorn Vale|
+A Water Elementals|QID|601|M|27.2,77.0|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
+T Supply and Demand|QID|575|M|28.3,77.6|Z|Stranglethorn Vale|N|To Drizzlik.|
+A Some Assembly Required|QID|577|M|28.3,77.6|Z|Stranglethorn Vale|N|From Drizzlik.|
 N Sell junk, repair, restock|QID|186|N|Sell junk, repair, restock|Z|Stranglethorn Vale|
 
-H The Salty Sailor Tavern|QID|187|N|Hearth to Booty Bay.|
-N Train skills|QID|187|N|Train your skills in Stormwind if able to.  Look for Green Hills of Stranglethorn Pages in the Auction House while you are there.  If you are a Rogue, train in Booty Bay.  Ask in general chat while in Stranglethorn Vale if anybody wants to trade Stranglethorn Pages.|
-B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|
-B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|
-B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|
-B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn.|
+N Train skills|QID|187|N|Train your skills in Stormwind if needed, then return to Stranglethorn.  Look for Green Hills of Stranglethorn Pages in the Auction House while you are there.  If you are a Rogue, train in Booty Bay.  Ask in general chat while in Stranglethorn Vale if anybody wants to trade Stranglethorn Pages.|
+B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
+B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
+B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
+B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn.|ITEM|4278|
 
 N From now on...|QID|577|N|From now on, kill any Snapjaw Crocolisk you find until you finish Some Assembly Required.|Z|Stranglethorn Vale|
 C Raptor Mastery|QID|195|M|31.70,22.80|Z|Stranglethorn Vale|
@@ -197,9 +199,9 @@ C Water Elementals|QID|601|M|21,21|Z|Stranglethorn Vale|N|Kill and loot water el
 N Grind to 3 Bubbles from 35|QID|188|M|21,21|LVL|34;49810|Z|Stranglethorn Vale|
 T Tiger Mastery |QID|188|M|35.8,10.7|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 N Green Hills of Stranglethorn|QID|574|N|Turn in any Green Hills of Stranglethorn pages you have.|Z|Stranglethorn Vale|
-T Special Forces|QID|574|M|38.0,3.1|Z|Stranglethorn Vale|
-A Colonel Kurzen|QID|202|M|38.0,3.1|Z|Stranglethorn Vale|
-A Kurzen's Mystery|QID|207|M|38.0,3.1|Z|Stranglethorn Vale|
+T Special Forces|QID|574|M|38.0,3.1|Z|Stranglethorn Vale|N|To Lieutenant Doren, in the Rebel Camp.|
+A Colonel Kurzen|QID|202|M|38.0,3.1|Z|Stranglethorn Vale|N|From Lieutenant Doren.|
+A Kurzen's Mystery|QID|207|M|38.0,3.1|Z|Stranglethorn Vale|N|From Brother Nimetz.|
 H The Salty Sailor Tavern|QID|577|N|Hearth or fly to Booty Bay.|M|38.0,3.1|Z|Stranglethorn Vale|
 T Hostile Takeover|QID|213|M|27.0,77.1|Z|Stranglethorn Vale|N|To Kebok.|
 T Water Elementals|QID|601|M|27.2,77.0|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
@@ -207,59 +209,58 @@ A Magical Analysis|QID|602|M|27.2,77.0|Z|Stranglethorn Vale|N|From Baron Revilga
 T Some Assembly Required|QID|577|M|28.3,77.6|Z|Stranglethorn Vale|N|To Drizzlik.|
 
 F Duskwood|M|27.4,77.6|Z|Stranglethorn Vale|N|At Gyll.|
-T Worgen in the Woods|QID|222|
-A Worgen in the Woods|QID|223|
-T Worgen in the Woods|QID|223|
+T Worgen in the Woods|QID|222|M|75.2,48|Z|Duskwood|N|To Calor.|
+A Worgen in the Woods|QID|223|M|75.2,48|Z|Duskwood|N|From Calor.|
+T Worgen in the Woods|QID|223|M|75.2,48.8|Z|Duskwood|N|To Jonathan Carevin.|
 
-N Train you skills in stormwind if you havn't already otherwise proceed to next step.
-
-F Southshore|QID|555|N|Fly to Southshore. If you don't have the flight path, check off manually and run.|M|27.50,77.80|Z|Stranglethorn Vale|
+F Stormwind|N|Train you skills in stormwind if you havn't already, otherwise proceed to next step, Also, grab that turtle meat you saved from Thousand Needles.|
+F Southshore|QID|555|N|Fly to Southshore. If you don't have the flight path, check off manually and run.|
 R Southshore|QID|555|N|If you dont have the flight points, its Ironforge to wetlands, east thru Wetlands, then North to Arathi Highlands, grab the Refuge Pointe fligh path and then continue West to Hillsbrad Foothills.|M|50,55|Z|Hillsbrad Foothills|
 
 B Soothing Spices|QID|555|N|Buy one Soothing Spices from the merchant.|L|3713 1|M|48.90,55.00|Z|Hillsbrad Foothills|
 h Southshore|QID|562|N|Set your home location to Southshore.|M|51.20,58.90|
-A Hints of a New Plague?|QID|659|M|50.3,59.0|Z|Hillsbrad Foothills|
+A Hints of a New Plague?|QID|659|M|50.3,59.0|Z|Hillsbrad Foothills|N|From Phin Odelic.|
 A Down the Coast|QID|536|M|51.4,58.6|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
-A Farren's Proof|QID|559|M|51.5,58.4|Z|Hillsbrad Foothills|
-A Soothing Turtle Bisque|QID|555|M|51.9,58.7|Z|Hillsbrad Foothills|
+A Farren's Proof|QID|559|M|51.5,58.4|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
+A Soothing Turtle Bisque|QID|555|M|51.9,58.7|Z|Hillsbrad Foothills|N|From Chef Jessen.|
 T Soothing Turtle Bisque|QID|555|M|51.9,58.7|Z|Hillsbrad Foothills|N|Remember those Turtle Meats from Thousand Needles.|
-A Crushridge Bounty|QID|500|M|49.5,58.7|Z|Hillsbrad Foothills|
-A Syndicate Assassins|QID|505|M|48.1,59.1|Z|Hillsbrad Foothills|
-A Costly Menace|QID|564|M|52.4,56.0|Z|Hillsbrad Foothills|
+A Crushridge Bounty|QID|500|M|49.5,58.7|Z|Hillsbrad Foothills|N|From Marshal Redpath.|
+A Syndicate Assassins|QID|505|M|48.1,59.1|Z|Hillsbrad Foothills|N|From Magistrate Henry Maleb.|
+A Costly Menace|QID|564|M|52.4,56.0|Z|Hillsbrad Foothills|N|From Darren Malvew.|
 C Down the Coast|QID|536|M|46,63|Z|Hillsbrad Foothills|N|Go to the western shore and complete this quest.|
 T Down the Coast|QID|536|M|51.4,58.6|Z|Hillsbrad Foothills|N|To Lieutenant Farren Orinelle.|
-A Farren's Proof|QID|559|M|51.5,58.4|Z|Hillsbrad Foothills|N|To Lieutenant Farren Orinelle.|
+A Farren's Proof|QID|559|M|51.5,58.4|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
 C Farren's Proof|QID|559|M|46,63|Z|Hillsbrad Foothills|N|Go back to the western shore and complete this quest.|
 L Level check: 35|QID|561|LVL|35|
 T Farren's Proof|QID|559|M|51.5,58.4|Z|Hillsbrad Foothills|N|To Lieutenant Farren Orinelle.|
-A Farren's Proof |QID|560|M|51.5,58.4|Z|Hillsbrad Foothills|N|To Lieutenant Farren Orinelle.|
+A Farren's Proof |QID|560|M|51.5,58.4|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
 T Farren's Proof |QID|560|M|49.5,58.7|Z|Hillsbrad Foothills|N|Turn in your quest to Marshal Redpath.|
 A Farren's Proof |QID|561|M|49.5,58.7|Z|Hillsbrad Foothills|N|Get the follow-up.|
 T Farren's Proof |QID|561|M|51.5,58.4|Z|Hillsbrad Foothills|N|Turn in your quest to Lieutenant Fahren.|
-A Stormwind Ho!|QID|562|M|51.5,58.4|Z|Hillsbrad Foothills|
+A Stormwind Ho!|QID|562|M|51.5,58.4|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
 
 N Sell junk, repair, restock.|QID|562|N|Sell junk, repair, restock.|
 C Stormwind Ho!|N|Complete this quest on the Eastern Shore.|QID|562|M|56.20,64.70|Z|Hillsbrad Foothills|
-T Stormwind Ho!|QID|562|M|51.5,58.4|Z|Hillsbrad Foothills|
-A Reassignment|QID|563|M|51.5,58.4|Z|Hillsbrad Foothills|
+T Stormwind Ho!|QID|562|M|51.5,58.4|Z|Hillsbrad Foothills|N|To Lieutenant Farren Orinelle.|
+A Reassignment|QID|563|M|51.5,58.4|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
 F Refuge Pointe|QID|659|N|Fly to Refuge Pointe.|M|49.30,52.30|Z|Hillsbrad Foothills|
-A Worth Its Weight in Gold|QID|691|Z|Arathi Highlands|M|46.2,47.8|
-T Hints of a New Plague?|N||QID|659|Z|Arathi Highlands|M|60.00,53.00|
-A Hints of a New Plague? |QID|658|Z|Arathi Highlands|M|60.2,53.9|
-C Hints of a New Plague? |N|You are looking for a Forsaken Courier and several bodyguards.  This quest is not easy, but there is a trick to it.  You have to kill the Courier and loot the envelope by using some means to distract the guards.  If you cannot solo this, get some assistance from somebody.  The courier wanders on the road throughout the zone.|QID|658|
-T Hints of a New Plague? |QID|658|Z|Arathi Highlands|M|60.2,53.9|
-A Hints of a New Plague? |QID|657|Z|Arathi Highlands|M|60.2,53.9|
-T Hints of a New Plague? |QID|657|Z|Arathi Highlands|M|60.2,53.9|
-A Hints of a New Plague? |QID|660|Z|Arathi Highlands|M|60.2,53.9|
-C Hints of a New Plague? |QID|660|Z|Arathi Highlands|M|60.2,53.9|N|Kinelory is better off in front of you. Try to fight one at a time, but let Kinelory be the one to attract mobs.|
-T Hints of a New Plague? |QID|660|Z|Arathi Highlands|M|60.2,53.9|
-A Hints of a New Plague? |QID|661|Z|Arathi Highlands|M|60.2,53.9|
+A Worth Its Weight in Gold|QID|691|Z|Arathi Highlands|M|46.2,47.8|N|From Apprentice Kryten.|
+T Hints of a New Plague?|QID|659|Z|Arathi Highlands|M|60.00,53.00|N|To Quae.|
+A Hints of a New Plague?|QID|658|Z|Arathi Highlands|M|60.2,53.9|N|From Quae.|
+C Hints of a New Plague?|QID|658|N|You are looking for a Forsaken Courier and several bodyguards.  This quest is not easy, but there is a trick to it.  You have to kill the Courier and loot the envelope by using some means to distract the guards. If you cannot solo this, get some assistance from somebody. The courier wanders on the road throughout the zone.|
+T Hints of a New Plague?|QID|658|Z|Arathi Highlands|M|60.2,53.9|N|To Quae.|
+A Hints of a New Plague?|QID|657|Z|Arathi Highlands|M|60.2,53.9|N|From Quae.|
+T Hints of a New Plague?|QID|657|Z|Arathi Highlands|M|60.2,53.9|N|To Kinelory.|
+A Hints of a New Plague?|QID|660|Z|Arathi Highlands|M|60.2,53.9|N|From Kinelory.|
+C Hints of a New Plague?|QID|660|Z|Arathi Highlands|M|60.2,53.9|N|Kinelory is better off in front of you. Try to fight one at a time, but let Kinelory be the one to attract mobs.|
+T Hints of a New Plague?|QID|660|Z|Arathi Highlands|M|60.2,53.9|N|To Quae.|
+A Hints of a New Plague?|QID|661|Z|Arathi Highlands|M|60.2,53.9|N|From Quae.|
 N Witherbark Tusk|QID|691|N|Kill Trolls until you get 10 tusks for the quest.|L|4503 10|Z|Arathi Highlands|M|63.00,65.00|
 N Witherbark Medicine Pouch|QID|691|N|Kill Witch Doctors to get the Medicine Pouches needed for the quest.|L|4522 4|
 C Worth Its Weight in Gold|N|Kill Witherbark Shadow Hunters in the cave until you get the Shadow Hunter Knife|QID|691|Z|Arathi Highlands|M|68.00,75.00|
 T Worth Its Weight in Gold|N|Turn in your quest at Refuge Pointe.|QID|691|Z|Arathi Highlands|M|46.2,47.8|
 H Southshore|QID|661|N|Hearth to Southshore.|
-T Hints of a New Plague? |QID|661|M|50.3,59.0|Z|Hillsbrad Foothills|
+T Hints of a New Plague? |QID|661|M|50.3,59.0|Z|Hillsbrad Foothills|N|To Phin Odelic.|
 N Sell junk, repair, restock|QID|564|N|Sell junk, repair, restock|
 
 R Alterac Mountains|QID|564|M|54.60,8.00|Z|Hillsbrad Foothills|
@@ -274,12 +275,12 @@ R Dalaran|QID|601|M|18.8,78.2|Z|Alterac Mountains|N|Run northwest to Dalaran.|
 T Magical Analysis|QID|601|M|18.8,78.2|Z|Alterac Mountains|N|To Archmage Ansirem Runeweaver.|
 A Ansirem's Key|QID|601|M|18.8,78.2|Z|Alterac Mountains|N|From Archmage Ansirem Runeweaver.|
 H Southshore|ACTIVE|500|N|Hearth or otherwise make your way to Southshore.|
-T Crushridge Bounty|QID|500|M|49.5,58.7|Z|Hillsbrad Foothills|
-T Syndicate Assassins|QID|505|M|48.1,59.1|Z|Hillsbrad Foothills|
-T Foreboding Plans|QID|510|M|48.1,59.1|Z|Hillsbrad Foothills|
+T Crushridge Bounty|QID|500|M|49.5,58.7|Z|Hillsbrad Foothills|N|To Marshal Redpath.|
+T Syndicate Assassins|QID|505|M|48.1,59.1|Z|Hillsbrad Foothills|N|To Magistrate Henry Maleb.|
+T Foreboding Plans|QID|510|M|48.1,59.1|Z|Hillsbrad Foothills|N|To Magistrate Henry Maleb.|
 T Encrypted Letter|QID|511|M|50.6,57.1|Z|Hillsbrad Foothills|N|To Loremaster Dibbs.|
 A Letter to Stormpike|QID|514|M|50.6,57.1|Z|Hillsbrad Foothills|N|From Loremaster Dibbs.|
-T Costly Menace|QID|564|M|52.4,56.0|Z|Hillsbrad Foothills|
+T Costly Menace|QID|564|M|52.4,56.0|Z|Hillsbrad Foothills|N|To Darren Malvew.|
 
 F Ironforge|QID|514|N|Fly to Ironforge.|M|49.30,52.30|Z|Hillsbrad Foothills|
 h Ironforge|QID|603|N|Set your home location to Ironforge.|Z|Ironforge|M|18.40,51.50|
@@ -287,14 +288,15 @@ A Reclaimers' Business in Desolace|QID|1453|Z|Ironforge|M|69.9,21.2|N|From Roett
 T Letter to Stormpike|QID|514|M|74.7,11.7|Z|Ironforge|N|To Prospector Stormpike. Don't get the followup.|
 
 R Stormwind City|QID|563|N|Take the Deeprun Tram in Tinker Town.|
-r Sell junk, repair, restock, train new skills.|QID|563|N|Sell junk, repair, restock, train new skills.|
+r Repair, restock, train|QID|563|N|Sell junk, repair, restock, train new skills.|
 T Reassignment|QID|563|Z|Stormwind City|M|75.8,36.7|N|To Major Samuelson.|
-B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn. Now is the time you really need these.|
-B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|
-B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|
-B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|
-
+B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn. Now is the time you really need these.|ITEM|4278|
+B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
+B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
+B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
+A Brother Anton|QID|6141|M|42.4,24.4|Z|Stormwind City|N|From Brother Crowley in the Cathedral of Light.|
 r Sell junk, repair, restock.|QID|603|N|Sell junk, repair, restock.|
+
 F Booty Bay|QID|603|N|Fly to Booty Bay.|Z|Ironforge|M|55.40,47.70|
 T Ansirem's Key|QID|603|Z|Stranglethorn Vale|M|27.24,77.52|N|To Catelyn.|
 A "Pretty Boy" Duncan|QID|610|Z|Stranglethorn Vale|M|27.24,77.52|N|From Catelyn.|
@@ -308,38 +310,39 @@ F Nigel's Point|QID|1453|N|If you have the Desolace-Nijel's Point flight path, g
 F Stonetalon Mountains|QID|1453|N|Run or fly to Stonetalon Mountains.|Z|The Barrens|M|63.10,37.15|
 R Desolace|QID|1453|N|Run through the Charred Vale to get to Desolace|Z|Stonetalon Mountains|M|28.00,84.00|
 R Nijel's Point|QID|1453|N|Go to Nijel's Point by going up the path here.|Z|Desolace|M|67.00,16.00|
-T Reclaimers' Business in Desolace|QID|1453|M|66.2,9.6|Z|Desolace|
-A Centaur Bounty|QID|1387|Z|Desolace|
-A Vahlarriel's Search|QID|1437|M|66.4,11.8|Z|Desolace|
-A Down the Scarlet Path|QID|261|Z|Desolace|
-A Reagents for Reclaimers Inc.|QID|1458|M|66.2,9.6|Z|Desolace|
-A The Karnitol Shipwreck|QID|1454|M|66.2,9.6|Z|Desolace|
-A Strange Alliance|QID|1382|Z|Desolace|
+T Reclaimers' Business in Desolace|QID|1453|M|66.2,9.6|Z|Desolace|N|To Kreldig Ungor.|
+A Reagents for Reclaimers Inc.|QID|1458|M|66.2,9.6|Z|Desolace|N|From Kreldig Ungor.|
+A Centaur Bounty|QID|1387|M|66.6,10.8|Z|Desolace|N|To Corporal Melkins.|
+A Vahlarriel's Search|QID|1437|M|66.4,11.8|Z|Desolace|N|From Vahlarriel Demonslayer.|
+T Brother Anton|QID|6141|M|66.4,7.8|Z|Desolace|N|To Brother Anton.|
+A Down the Scarlet Path|QID|261|M|66.4,7.8|Z|Desolace|N|From Brother Anton.|
+A The Karnitol Shipwreck|QID|1454|M|66.2,9.6|Z|Desolace|N|From Karntol's chest.|
+A Strange Alliance|QID|1382|Z|Desolace|M|66.6,11|N|From Captain Pentigast.|
 f Nijel's Point|QID|1437|N|Get the flight path.|M|64.65,10.55|Z|Desolace|
 
 C Reagents for Reclaimers Inc.|QID|1458|M|75.00,20.00|Z|Desolace|N|Kill Satyrs until you get the items needed for this quest.|
 T Vahlarriel's Search|QID|1437|M|56.00,17.00|Z|Desolace|N|Loot the crate here and turn in the quest.|
-A Vahlarriel's Search |QID|1465|M|56.5,17.8|Z|Desolace|N|Get the follow-up.|
-T Vahlarriel's Search |QID|1465|M|66.4,11.8|Z|Desolace|
-A Vahlarriel's Search |QID|1438|M|66.4,11.8|Z|Desolace|
-T Reagents for Reclaimers Inc.|QID|1458|M|66.2,9.6|Z|Desolace|
+A Vahlarriel's Search |QID|1465|M|56.5,17.8|Z|Desolace|N|Get the follow-up from the chest.|
+T Vahlarriel's Search |QID|1465|M|66.4,11.8|Z|Desolace|N|To Vahlarriel Demonslayer.|
+A Vahlarriel's Search |QID|1438|M|66.4,11.8|Z|Desolace|N|From Vahlarriel Demonslayer.|
+T Reagents for Reclaimers Inc.|QID|1458|M|66.2,9.6|Z|Desolace|N|To Kreldig Ungor.|
 N Sell junk, repair, restock.|QID|1454|N|Sell junk, repair, restock.|
-A Sceptre of Light|QID|5741|M|38.9,27.2|Z|Desolace|
+A Sceptre of Light|QID|5741|M|38.9,27.2|Z|Desolace|N|Azore Aldamort.|
 T The Karnitol Shipwreck|QID|1454|M|36.00,30.00|Z|Desolace|N|Turn in your quest to the Ravnitol Chest.|
-A The Karnitol Shipwreck |QID|1455|M|36.1,30.4|Z|Desolace|
+A The Karnitol Shipwreck |QID|1455|M|36.1,30.4|Z|Desolace|N|To Kreldig Ungor.|
 A Claim Rackmore's Treasure!|QID|6161|M|36.1,30.4|Z|Desolace|N|Click the 'Rackmore's Log' (book) next to the chest to get this quest.|
 N Rackmore's Silver Key|QID|1438|L|15878 1|M|34.50,32.00|Z|Desolace|N|Kill Drysnaps around the ship until you get a silver key.|
 C Claim Rackmore's Treasure!|QID|6161|M|34.4,31.3|Z|Desolace|N|Go north and kill Nagas until you get a golden key.|
 C Sceptre of Light|QID|5741|M|56.00,30.00|Z|Desolace|N|Kill the Seer at the top of the guard tower in the fort to get the Sceptre of Light.|
-T Vahlarriel's Search |QID|1438|M|54.9,26.1|Z|Desolace|N|Turn in your quest to Dalinda in the large building.|
-A Search for Tyranis|QID|1439|M|54.9,26.1|Z|Desolace|
+T Vahlarriel's Search |QID|1438|M|54.9,26.1|Z|Desolace|N|To Dalinda in the large building.|
+A Search for Tyranis|QID|1439|M|54.9,26.1|Z|Desolace|N|From Dalinda Malem.|
 C Search for Tyranis|QID|1439|M|52.80,28.80|Z|Desolace|N|Kill Tyranis in the other building and get the pendant.|
 T Search for Tyranis|QID|1439|M|54.9,26.1|Z|Desolace|N|If you clear the building while going up to Dalinda, it will make the escort quest out much easier.|
 A Return to Vahlarriel|QID|1440|M|54.9,26.1|Z|Desolace|N|Get the escort quest from Dalinda.|
 C Return to Vahlarriel|QID|1440|M|54.9,26.1|Z|Desolace|N|Complete the escort quest, do not let the NPC die. You only have to get her safely out of the building.|
-T Return to Vahlarriel|QID|1440|M|66.4,11.8|Z|Desolace|
-T The Karnitol Shipwreck |QID|1455|M|66.2,9.6|Z|Desolace|
-A The Karnitol Shipwreck |QID|1456|Z|Desolace|
+T Return to Vahlarriel|QID|1440|M|66.4,11.8|Z|Desolace|N|To Vahlarriel Demonslayer.|
+T The Karnitol Shipwreck |QID|1455|M|66.2,9.6|Z|Desolace|N|To Kreldig Ungor.|
+A The Karnitol Shipwreck |QID|1456|M|66.2,9.6|Z|Desolace|N|From Kreldig Ungor.|
 r Sell junk, repair, restock.|QID|5741|N|Sell junk, repair, restock.|
 
 A Bone Collector|QID|5501|M|62.3,39.0|Z|Desolace|N|Go south and accept this quest.|
@@ -350,23 +353,23 @@ C Book of the Ancients|QID|6027|M|28.24,6.62|Z|Desolace|N|Clear the area around 
 C The Karnitol Shipwreck|QID|1456|M|30.00,7.00|Z|Desolace|N|Kill Slitherblade Sea Witches and Tidehunters until you get Karnitol's Satchel.|
 T Book of the Ancients|QID|6027|M|38.9,27.2|Z|Desolace|N|To Azore Aldamort.|
 C Bone Collector|QID|5501|M|49.00,58.00|Z|Desolace|NC|N|Get 10 Kodo Bones from the graveyard. A Kodo Apparition may spawn each time you click a bone.|
-A Kodo Roundup|QID|5561|M|60.9,61.9|Z|Desolace|
+A Kodo Roundup|QID|5561|M|60.9,61.9|Z|Desolace|N|From Smeed Scrabblescrew.|
 C Kodo Roundup|N|Use the Rod on any Aged, Ancient, or Dying Kodo, then run back to the goblin with it.  Do this five times to complete the quest.|QID|5561|M|55.8,62.9|Z|Desolace|
-T Kodo Roundup|QID|5561|M|60.9,61.9|Z|Desolace|
+T Kodo Roundup|QID|5561|M|60.9,61.9|Z|Desolace|N|To Smeed Scrabblescrew.|
 C Strange Alliance|QID|1382|M|70.00,70.00|Z|Desolace|REP|Gelkis Clan Centaur;91;hated-neutral|N|Kill Magrim Centaurs until you are friendly with the Gelkis faction. Loot them for Centaur Ears. It will take 50 centaurs, 46 if you are human.|
 C Centaur Bounty|N|Get 15 Centaur Ears if you haven't already for the quest.|QID|1387|Z|Desolace|
 L Level Check|N|Continue with the centaurs until you are level 37.|LVL|37| 
 C Down the Scarlet Path|N|Kill 30 Undead Ravagers near this location.|QID|261|M|63.40,91.40|Z|Desolace|
 T Strange Alliance|QID|1382|M|36,79|Z|Desolace|N|To Uthek the Wise. Skip the followup.|
-T Bone Collector|QID|5501|M|62.3,39.0|Z|Desolace|
+T Bone Collector|QID|5501|M|62.3,39.0|Z|Desolace|N|From Bibbly F'utzbuckle.|
 R Nijel's Point|QID|261|M|66.70,11.00|Z|Desolace|
-T Centaur Bounty|QID|1387|Z|Desolace|
-T The Karnitol Shipwreck|QID|1456|Z|Desolace|
-A The Karnitol Shipwreck |QID|1457|Z|Desolace|
-T Down the Scarlet Path|QID|261|Z|Desolace|
-A Down the Scarlet Path |QID|1052|Z|Desolace|
+T Centaur Bounty|QID|1387|M|66.6,10.8|Z|Desolace|N|To Corporal Melkins.|
+T The Karnitol Shipwreck|QID|1456|M|66.2,9.6|Z|Desolace|N|To Kreldig Ungor.|
+A The Karnitol Shipwreck |QID|1457|M|66.2,9.6|Z|Desolace|N|From Kreldig Ungor.|
+T Down the Scarlet Path|QID|261|M|66.4,7.8|Z|Desolace|N|To Brother Anton.|
+A Down the Scarlet Path |QID|1052|M|66.4,7.8|Z|Desolace|N|From Brother Anton.|
 H Ironforge|QID|1457|N|Hearth to Ironforge.|
-T The Karnitol Shipwreck|QID|1457|
+T The Karnitol Shipwreck|QID|1457|M|67.8,17.8|Z|Ironforge|N|To Roetten Stonehammer.|
 
 N Dungeon interlude|N|If you want to do Scarlet Monestary, pick of the following two quests, if not skip the following step and head to Badlands.|
 A Mythology of the Titans|QID|1050|M|74.8,12.4|Z|Ironforge|N|From Librarian Mae Paledust.|
@@ -378,9 +381,9 @@ N Scarlet Monestary|ACTIVE|1050|N|You have picked up the quests, find/make a gro
 ;add J step after Scarlet Monestary guide is crafted.
 				
 r Repair, Restock, check the AH|N|Do your town stuff. We are going to be gone for a while.|
-B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy. Make sure you have these with you now.|
-B Gyrochronatom|QID|714|L|3961|N|Crafted with Engineering. Make sure you have these with you now.|
-B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing. Make sure you have these with you now.|
+B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy. Make sure you have these with you now.|ITEM|3829|
+B Gyrochronatom|QID|714|L|4389||N|Crafted with Engineering. Make sure you have these with you now.|ITEM|4389|
+B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing. Make sure you have these with you now.|ITEM|2868|
 
 A Ironband Wants You!|QID|707|M|74.4,11.8|Z|Ironforge|N|From Prospoctor Stormpike.|
 F Thelsamar|ACTIVE|707|M|55.50,47.80|Z|Ironforge|N|Fly to Thelsamar, Loch Modan. If you don't have the flight path, rake the road east out of Ironforge, go thru the tunnel at South Gate Outpost, follow the road northeast to Thelsamar.|
@@ -397,9 +400,9 @@ A Indurium|QID|1108|M|42.2,52.7|Z|Badlands|N|From Martek the Exiled.|
 A Barbecued Buzzard Wings|QID|703|M|42.4,52.8|Z|Badlands|N|From Rigglefuzz.|
 r Repair & Restock|ACTIVE|703|M|42.4,52.8|Z|Badlands|N|FYI, This is the only alliance vendor and repairer in all of Badlands.|
 A Study of the Elements: Rock |QID|710|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
-A Coolant Heads Prevail|QID|713|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
+A Coolant Heads Prevail|QID|713|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|ITEM|3829|
 T Coolant Heads Prevail|QID|713|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
-A Gyro... What?|QID|714|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
+A Gyro... What?|QID|714|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|ITEM|4389|
 T Gyro... What?|QID|714|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
 C Study of the Elements: Rock |QID|710|M|23.00,43.00|Z|Badlands|N|Go west of Lotwil and kill Lesser Elementals  until you get 10 Small Stone Shards.|
 L Level Check|ACTIVE|710|LVL|39|N|If you didn't go to Scarlet Monastery there is a bit of a grinding session here or at Angor Fortress until you hit level 39.|
@@ -439,7 +442,7 @@ C Study of the Elements: Rock |QID|712|M|17.00,83.00|Z|Badlands|N|Kill Greater R
 L Level Check|ACTIVE|712|M|17.00,83.00|Z|Badlands|L|40;85700|N|Grind to about 1 bubble from 41. Note, this can be a long grinding session, if that doesn't appeal to you I really suggest you do Scarlet Monastery. Finishing up Stranglethorn is going to happen soon, if you want to stay with the guide, don't go there yet. Other than that, grind wherever you like.|
 T Study of the Elements: Rock |QID|712|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
 A This Is Going to Be Hard |QID|734|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
-A Stone Is Better than Cloth|QID|716|M|25.9,44.6|Z|Badlands|N|From Lucian Tosselwrench.|
+A Stone Is Better than Cloth|QID|716|M|25.9,44.6|Z|Badlands|N|From Lucian Tosselwrench.|ITEM|4278|
 T Stone Is Better than Cloth|QID|716|Z|Badlands|N|To Lucian Tosselwrench. (you do have those bracers with you, right)|
 T This Is Going to Be Hard |QID|734|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
 A This Is Going to Be Hard |QID|777|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
