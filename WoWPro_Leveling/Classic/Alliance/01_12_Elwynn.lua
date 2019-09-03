@@ -101,8 +101,8 @@ r Sell and Repair|QID|2158|M|41.7,65.8|N|Sell and Repair at Andrew Krighton, ins
 A Kobold Candles|QID|60|M|43.3,65.7|N|From William Pestle, inside the Inn|
 T In Favor of the Light|QID|5623|M|43.2,65.6|N|To Priestess Josetta.|
 A Garments of the Light|QID|5624|M|43.2,65.6|N|From Priestess Josetta.|PRE|5623|
-N Learn Apprentice Cooking|ACTIVE|2158|M|44.37,66.00|S|N|If you want to learn Cooking, now is your chance with Tomas, at the back of the Inn.|ACTIVE|2158|
-N Learn Apprentice First Aid|ACTIVE|2158|M|43.40,65.57|S|N|If you want to learn First Aid, now is your chance with Michelle Belle, upstairs in the Inn.|ACTIVE|2158|
+N Learn Apprentice Cooking|ACTIVE|2158|M|44.37,66.00|S|N|If you want to learn Cooking, now is your chance with Tomas, at the back of the Inn.|
+N Learn Apprentice First Aid|ACTIVE|2158|M|43.40,65.57|S|N|If you want to learn First Aid, now is your chance with Michelle Belle, upstairs in the Inn.|
 
 T Rest and Relaxation|QID|2158|M|43.8,65.8|N|To Innkeeper Farley|
 h Goldshire|QID|85|M|43.8,65.8|N|Make this inn your home.|
@@ -383,7 +383,7 @@ R Redridge Mountains|QID|244|M|8.98,71.72|Z|Redridge Mountains|N|Go to Redridge 
 A Encroaching Gnolls|QID|244|M|15.3,71.5|Z|Redridge Mountains|N|From Guard Parker.|
 T Encroaching Gnolls|QID|244|M|30.7,60.0|Z|Redridge Mountains|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|M|30.7,60.0|Z|Redridge Mountains|N|From Deputy Feldon.|
-f Lakeshire|QID|65|N|Get the flight path.|M|30.60,59.40|Z|Redridge Mountains|N|At Ariena Stormfeather.|
+f Lakeshire|QID|65|M|30.60,59.40|Z|Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
 F Stormwind|ACTIVE|147^1787|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
 T Manhunt|QID|147|M|42.1,65.9|N|To Marshall Dughan|
 
