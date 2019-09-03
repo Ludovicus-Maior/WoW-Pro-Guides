@@ -6,23 +6,26 @@ WoWPro:GuideName(guide, 'Redridge 15-18')
 WoWPro:GuideLevels(guide, 15, 18, 16)
 WoWPro:GuideNextGuide(guide, 'ClassicWestfall1820')
 WoWPro:GuideSteps(guide, function () return [[
+
+;-------------------------- incorporated into Elywn guide-----------------------------------------
 R Elwynn Forest|QID|244|N|Go to Elwynn Forest|Z|Stormwind City|M|76.00,94.00|
 R Redridge Mountains|QID|244|N|Go to Redridge Mountains|Z|Elwynn Forest|M|93.00,72.00|
 A Encroaching Gnolls|QID|244|M|15.3,71.5|N|From Guard Parker.|
 T Encroaching Gnolls|QID|244|M|30.7,60.0|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|M|30.7,60.0|N|From Deputy Feldon.|PRE|244|
 f Lakeshire|QID|65|M|30.60,59.40|N|Get the flight path from Ariena Stormfeather.|
+;------------------end duplicated content (Westfall ends with flight to  Lakeshire )----------------
 A The Lost Tools|QID|125|M|32.14,48.64|N|From Foreman Oslow.|
 A Elmore's Task||QID|1097|M|31.00,47.30|N|From Verner Osgood.|
 A The Price of Shoes|QID|118|M|31.0,47.3|N|From Verner Osgood.|
-A Messenger to Stormwind|QID|120|M|29.99,44.44|N|From Magistrate Solomon.|
-A A Free Lunch|QID|129|M|26.9,44.53|N|From Darcy.|
+A Messenger to Stormwind|QID|120|M|29.99,44.44|N|From Magistrate Solomon, in the town hall.|
+A A Free Lunch|QID|129|M|26.9,44.53|N|From Darcy, in the inn.|
 A Dry Times|QID|116|M|26.49,43.95|N|From Barkeep Daniels.|
 T The Defias Brotherhood|QID|65|M|26.5,45.3|N|To Wiley the Black upstairs.|
 A The Defias Brotherhood|QID|132|M|26.5,45.3|N|From Wiley the Black.|PRE|65|
 A Redridge Goulash|QID|92|M|22.7,43.8|N|From Chef Breanna.|
-A Hilary's Necklace|QID|3741|M|29.3,53.6|N|From Shawn.|
-C Hilary's Necklace|QID|3741|M|24.12,54.64|N|Loot the necklace from the Glinting Mud on the ground in the water.|
+A Hilary's Necklace|QID|3741|M|29.3,53.6|N|From Shawn, at the end of the dock.|
+C Hilary's Necklace|QID|3741|M|31.00,54.30;24,54|CN|N|Loot the necklace from the Glinting Mud on the ground in the water.|
 T A Free Lunch|QID|129|M|15.3,71.5|N|To Guard Parker. He roams the fork in the road up ahead.|
 A Visit the Herbalist|QID|130|M|15.3,71.5|N|To Guard Parker. He roams the fork in the road.|PRE|129|
 C Kill Condors|QID|92|M|46.00,76.00|QO|2|S|N|Kill Condors until you get 5 Tough Condor Meat|
@@ -55,7 +58,6 @@ A Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thist
 A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
 T Elmore's Task|QID|1097|M|51.74,12.13|Z|Stormwind City|N|To Grimand Elmore.|
 A Stormpike's Delivery|QID|353|M|51.74,12.13|Z|Stormwind City|N|From Grimand Elmore.|PRE|1097|
-A Humble Beginnings|QID|399|M|49.19,30.27|Z|Stormwind City|N|From Baros Alexston.|
-F Westfall|N|Fly to Westfall|Z|Stormwind City|M|71.00,72.50|
+H Sentinal Hill|N|Hearth (or fly )to Westfall|Z|Stormwind City|M|71.00,72.50|
 ]]
 end)
