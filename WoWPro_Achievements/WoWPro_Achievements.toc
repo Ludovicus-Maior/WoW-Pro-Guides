@@ -5,7 +5,7 @@
 ## Author: Twists
 ## Dependencies: WoWPro
 ## Version: 8.2.0-J4
-#classic ## Version: 1.13.2F-beta
+#classic ## Version: 1.13.2-J4
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## X-Category: Quest
 
