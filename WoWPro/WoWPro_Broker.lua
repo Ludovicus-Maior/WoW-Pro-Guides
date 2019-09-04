@@ -966,7 +966,7 @@ end
 -- Left-Click Row Function --
 function WoWPro:RowLeftClick(i)
     local QID = tonumber(WoWPro.QID[WoWPro.rows[i].index])
-	if  QID and WoWPro.QuestLog[QID] then
+	if  QID and WoWPro.QuestLog[QID] and QuestMapFrame_OpenToQuestDetails then
 	    QuestMapFrame_OpenToQuestDetails(QID)
 	end
 	WoWPro.rows[i]:SetChecked(nil)
