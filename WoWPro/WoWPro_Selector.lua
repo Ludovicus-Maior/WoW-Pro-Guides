@@ -202,7 +202,7 @@ function WoWPro:OfferGuideSwitch(nGID, quest)
 	    OnShow = function(self)
 	        self.button3:SetScript("OnEnter",function (self)
                                               GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
-                                              GameTooltip:SetText("Stop asking to switch guides for this quest.\nResetting the guide will re-enable asking to switch.");
+                                              GameTooltip:SetText("Stop asking to switch to this guide.\nResetting the guide will re-enable asking to switch.");
                                               end);
 	        self.button3:SetScript("OnLeave",function (self) GameTooltip:Hide(); end);
 	    end,
