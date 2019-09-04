@@ -6,55 +6,58 @@ WoWPro:GuideName(guide, 'Redridge 15-18')
 WoWPro:GuideLevels(guide, 15, 18, 16)
 WoWPro:GuideNextGuide(guide, 'ClassicWestfall1820')
 WoWPro:GuideSteps(guide, function () return [[
+
 ;-------------------------- incorporated into Elywn guide-----------------------------------------
 R Elwynn Forest|QID|244|N|Go to Elwynn Forest|Z|Stormwind City|M|76.00,94.00|
 R Redridge Mountains|QID|244|N|Go to Redridge Mountains|Z|Elwynn Forest|M|93.00,72.00|
 A Encroaching Gnolls|QID|244|M|15.3,71.5|N|From Guard Parker.|
 T Encroaching Gnolls|QID|244|M|30.7,60.0|N|To Deputy Feldon.|
-A Assessing the Threat|QID|246|M|30.7,60.0|N|From Deputy Feldon.|
-f Lakeshire|QID|65|N|Get the flight path.|M|30.60,59.40|N|At Ariena Stormfeather.|
+A Assessing the Threat|QID|246|M|30.7,60.0|N|From Deputy Feldon.|PRE|244|
+f Lakeshire|QID|65|M|30.60,59.40|N|Get the flight path from Ariena Stormfeather.|
 ;------------------end duplicated content (Westfall ends with flight to  Lakeshire )----------------
-A The Lost Tools|QID|125|M|32.1,48.6|N|From Foreman Oslo.|
-A Elmore's Task|QID|1097|M|31.00,47.30|N|From Verner Osgood.|
+A The Lost Tools|QID|125|M|32.14,48.64|N|From Foreman Oslow.|
+A Elmore's Task||QID|1097|M|31.00,47.30|N|From Verner Osgood.|
 A The Price of Shoes|QID|118|M|31.0,47.3|N|From Verner Osgood.|
-A Messenger to Stormwind|QID|120|M|29.98,44.46|N|From Magistrate Solomon, inside the town hall.|
-A A Free Lunch|QID|129|M|26.6,44.3|N|From Darcy, in the inn.|
-A Dry Times|QID|116|N|From Barkeep Daniels.|
-T The Defias Brotherhood |QID|65|M|26.5,45.3|N|To Wiley the Black, upstairs in the inn.|
-A The Defias Brotherhood |QID|132|M|26.5,45.3|N|From Wiley the Black.|
+A Messenger to Stormwind|QID|120|M|29.99,44.44|N|From Magistrate Solomon, in the town hall.|
+A A Free Lunch|QID|129|M|26.9,44.53|N|From Darcy, in the inn.|
+A Dry Times|QID|116|M|26.49,43.95|N|From Barkeep Daniels.|
+T The Defias Brotherhood|QID|65|M|26.5,45.3|N|To Wiley the Black upstairs.|
+A The Defias Brotherhood|QID|132|M|26.5,45.3|N|From Wiley the Black.|PRE|65|
 A Redridge Goulash|QID|92|M|22.7,43.8|N|From Chef Breanna.|
-A Hilary's Necklace|QID|3741|M|29.3,53.6|N|From Shawn at the end of the dock.|
-C Hilary's Necklace|N|Loot the necklace from the Glinting Mud on the ground in the water.|QID|3741|M|31.00,54.30;24,54|CN|
-T A Free Lunch|QID|129|M|15.3,71.5|
-A Visit the Herbalist|QID|130|M|15.3,71.5|
+A Hilary's Necklace|QID|3741|M|29.3,53.6|N|From Shawn, at the end of the dock.|
+C Hilary's Necklace|QID|3741|M|31.00,54.30;24,54|CN|N|Loot the necklace from the Glinting Mud on the ground in the water.|
+T A Free Lunch|QID|129|M|15.3,71.5|N|To Guard Parker. He roams the fork in the road up ahead.|
+A Visit the Herbalist|QID|130|M|15.3,71.5|N|To Guard Parker. He roams the fork in the road.|PRE|129|
+C Kill Condors|QID|92|M|46.00,76.00|QO|2|S|N|Kill Condors until you get 5 Tough Condor Meat|
+C Kill Goretusks|QID|92|M|34.00,71.00|QO|1|S|N|Kill Goretusks until you get 5 Great Goretusk Snout.|
+C Kill Spiders|QID|92|M|19.00,72.00|QO|3|S|N|Make sure you have 5 Crisp Spider Meat from the Tarantulas|
 C Assessing the Threat|N|Kill mobs until you finish this quest.|QID|246|M|29.00,83.00|
-N Crisp Spider Meat|QID|92|N|Make sure you have 5 Crisp Spider Meat from the Tarantulas|L|1081 5|M|19.00,72.00|
-C The Lost Tools|N|Loot the tools from the chest at the bottom of the lake.|QID|125|M|41.60,54.70|
-N Tough Condor Meat|QID|92|N|Kill Condors until you get 5 Tough Condor Meat|L|1080 5|M|46.00,76.00|
-C Redridge Goulash|N|Kill Goretusks and other mobs until you get the rest of the items for this quest.|QID|92|M|34.00,71.00|
-T Assessing the Threat|QID|246|M|30.7,60.0|
-T The Lost Tools|QID|125|M|32.11,48.61|N|To Forman Oslow.|
-T Hilary's Necklace|QID|3741|M|29.3,53.6|
-T Redridge Goulash|QID|92|M|22.7,43.8|
-T Visit the Herbalist|QID|130|M|21.9,46.3|
-A Delivering Daffodils|QID|131|M|21.9,46.3|
-T Delivering Daffodils|QID|131|M|26.6,44.3|
-R Duskwood|QID|118|N|Go to Duskwood|M|9.00,89.00|
-N Bottle of Moonshine|QID|116|N|Buy a Bottle of Moonshine from Barkeep Hann|L|1942 1|Z|Duskwood|M|73.70,44.10|
-f Darkshire|QID|118|N|Get the flight path.|Z|Duskwood|M|77.50,44.30|
+T Assessing the Threat|QID|246|M|30.7,60.0|N|To Deputy Feldon.|
+C Kill Spiders|QID|92|M|11.94,77.5|QO|3|US|N|Make sure you have 5 Crisp Spider Meat from the Tarantulas|
+C Kill Goretusks|QID|92|M|34.00,71.00|QO|1|US|N|Kill Goretusks until you get 5 Great Goretusk Snout.|
+C Kill Condors|QID|92|M|46.00,76.00|QO|2|US|N|Kill Condors until you get 5 Tough Condor Meat|
+C The Lost Tools|QID|125|M|41.60,54.70|N|Loot the tools from the chest at the bottom of the lake.|
+T The Lost Tools|QID|125|M|32.1,48.6|N|To Foreman Oslow.|
+T Hilary's Necklace|QID|3741|M|29.24,53.62|N|To Hilary.|
+T Redridge Goulash|QID|92|M|22.7,43.8|N|To Chef Breanna.|
+T Visit the Herbalist|QID|130|M|21.9,46.3|N|To Martie Jainrose.|
+A Delivering Daffodils|QID|131|M|21.9,46.3|N|From Martie Jainrose.|PRE|130|
+T Delivering Daffodils|QID|131|M|26.9,44.53|N|To Darcy.|
+R Duskwood|QID|118|N|Go to Duskwood|M|6.42,91.32|
+C Bottle of Moonshine|QID|116|M|73.70,44.10|Z|Duskwood|QO|3|NC|N|Buy a Bottle of Moonshine from Barkeep Hann.|
+f Darkshire|QID|118|M|77.50,44.30|Z|Duskwood|N|Get the flight path from Felicia Maline.|
 R Elwynn Forest|QID|118|N|Go to Elwynn Forest|Z|Duskwood|M|76.00,11.00|
-T The Price of Shoes|QID|118|M|41.7,65.5|
-A Return to Verner|QID|119|M|41.7,65.5|
-N Skin of Sweet Rum|QID|116|N|Buy a Skin of Sweet Rum from Barkeep Dobbins|L|1939 1|Z|Elwynn Forest|M|44.00,65.70|
-T Messenger to Stormwind |N||QID|120|Z|Stormwind City|M|69.15,82.70|
-A Messenger to Stormwind |QID|121|Z|Stormwind City|M|69.15,82.70|
-N Cask of Merlot|QID|116|N|Buy a Cask of Merlot from Roberto Pupellyverbos in the Southwest part of the Trade District|L|1941 1|Z|Stormwind City|M|52.11,67.88|
-A Oh Brother. . .|N||QID|167|M|65.35,21.30|Z|Stormwind City|
-A Collecting Memories|N||QID|168|M|65.35,21.30|Z|Stormwind City|
-A Underground Assault|N||QID|2040|M|62.65,34.10|Z|Stormwind City|
-T Elmore's Task|N||QID|1097|M|59.70,33.80|Z|Stormwind City|
-A Stormpike's Delivery|N||QID|353|M|59.70,33.80|Z|Stormwind City|
-
-H Sentinel Hill|N|Hearth (or fly) to Westfall|Z|Stormwind City|M|71.00,72.50|
+T The Price of Shoes|QID|118|M|41.71,65.55|Z|Elwynn Forest|N|To Smith Argus.|
+A Return to Verner|QID|119|M|41.71,65.55|Z|Elwynn Forest|N|From Smith Argus.|PRE|118|
+C Skin of Sweet Rum|QID|116|M|44.00,65.70|Z|Elwynn Forest|QO|4|NC|N|Buy a Skin of Sweet Rum from Barkeep Dobbins.|
+T Messenger to Stormwind|QID|120|M|64.01,75.38|Z|Stormwind City|N|To General Marcus Jonathan.|
+A Messenger to Stormwind |QID|121|M|64.01,75.38|Z|Stormwind City|N|From General Marcus Jonathan.|PRE|120|
+C Cask of Merlot|QID|116|M|52.15,67.87|Z|Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in the Southwest part of the Trade District|
+A Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
+A Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
+A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
+T Elmore's Task|QID|1097|M|51.74,12.13|Z|Stormwind City|N|To Grimand Elmore.|
+A Stormpike's Delivery|QID|353|M|51.74,12.13|Z|Stormwind City|N|From Grimand Elmore.|PRE|1097|
+H Sentinal Hill|N|Hearth (or fly )to Westfall|Z|Stormwind City|M|71.00,72.50|
 ]]
 end)

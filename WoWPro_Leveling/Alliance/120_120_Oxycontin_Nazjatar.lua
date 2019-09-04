@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_alliance
+-- Date: 2019-09-03 17:44
+-- Who: Ludovicus_Maior
+-- Log: Cleaned up the 5678456779 QID!
+
+-- URL: http://wow-pro.com/node/3790/revisions/30361/view
 -- Date: 2019-08-10 08:09
 -- Who: Emmaleah
 -- Log: More tweaks,
@@ -758,9 +763,9 @@ T Requisition: A Few Carp|QID|55723|M|38.03,55.70|N|To Speaker Utia.|
 T Requisition: More Carp|QID|55789|M|38.03,55.70|N|To Speaker Utia.|
 T Requisition: A Few Cone Shells|QID|55726|M|38.03,55.70|N|To Speaker Utia.|
 T Requisition: More Cone Shells|QID|55792|M|38.03,55.70|N|To Speaker Utia.|
-T A Gift of Supplies|QID|56779|M|38.03,55.70|N|To Speaker Utia.|
-T A Valorous Reward|QID|56716|M|38.03,55.70|N|To Speaker Utia.|
-T Helpful Provisions|QID|5678456779|M|38.03,55.70|N|To Speaker Utia.|
+T A Gift of Supplies|QID|56789|M|38.03,55.70|N|To Speaker Utia.|
+T Helpful Provisions|QID|56784|M|38.03,55.70|N|To Speaker Utia.|
+T A Valorous Reward|QID|56779|M|38.03,55.70|N|To Speaker Utia.|
 
 T A Worthy Ally|QID|57006|M|37.89,55.84|N|To Artisan Okata.|
 t What Will It Lure?|QID|55602|M|37.89,55.84|N|To Artisan Okata.|
