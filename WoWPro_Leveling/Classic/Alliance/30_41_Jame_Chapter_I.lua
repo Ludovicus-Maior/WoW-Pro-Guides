@@ -2,7 +2,6 @@ local guide = WoWPro:RegisterGuide('JameAlli_I', 'Leveling', 'Thousand Needles',
 WoWPro:GuideLevels(guide,30, 40)
 WoWPro:GuideNextGuide(guide, 'JameAlli_II')
 WoWPro:GuideName(guide, 'Jame Chapter I Leveling')
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -27,18 +26,24 @@ T Soothing Spices |QID|1218|M|55.4,26.3|Z|Dustwallow Marsh|N|Do not accept the f
 A The Orc Report  |QID|1219|M|55.4,26|Z|Dustwallow Marsh|N|Check the grave behind the house. 
 
 R The Shady Rest Inn|ACTIVE|1135|M|44,22.3;29.6,48.6|CS|Z|Dustwallow Marsh|N|Follow the road Northwest and then south towards the Barrens.|
-A The Black Shield |QID|1253|M|29.6, 48.6|Z|Dustwallow Marsh|N|Above the fireplace.|
-A Suspicious Hoofprints |QID|1284|M|29.6, 48.6|Z|Dustwallow Marsh|N|Just in front of the Inn.|
-A Lieutenant Paval Reethe |QID|1152|M|29.6, 48.6|Z|Dustwallow Marsh|N|A very tiny shield on the ground on top of the pieces of timber.|
+A The Black Shield |QID|1253|M|29.6, 48.6|Z|Dustwallow Marsh|N|Above the fireplace. It has about a 5 minute respwn timer if someone else needs it too.|
+A Suspicious Hoofprints |QID|1284|M|29.6, 48.6|Z|Dustwallow Marsh|N|Just in front of the Inn. It has about a 5 minute respwn timer if someone else needs it too.|
+A Lieutenant Paval Reethe |QID|1152|M|29.6, 48.6|Z|Dustwallow Marsh|N|A very tiny shield on the ground on top of the pieces of timber. Also has a 5 minute respawn timer.||
 
 R Barrens|ACTIVE|1135|M|27.8,46.6|Z|Dustwallow Marsh|N|And into the Barrens.|
 R Thousand Needles|ACTIVE|1135|M|43,91|Z|The Barrens|N|Follow the road south into Thousand Needles. Run past the guard at the great lift and take the lift down.|
+L Lonebrow's Journal|QID|1100|M|30,24|l|5790|N|Pick up the Journal held by the dead dwarf at the base of the Great Lift. It's got about a 3 minute respawn timer, if someone else needs it too.|
+A Lonebrow's Journal|QID|1100|M|30,24|U|5790|N|Use the journal to start the quest.|
 R Thalanaar|ACTIVE|1135|Z|Feralas|M|5,17|N|Run Generally west to the border with Faralus and find Thalanaar|
-f Thalanaar|ACTIVE|1135|N|Fly to Thalanaar.|Z|Feralas|M|5,17|
+f Thalanaar|ACTIVE|1135|N|Pick up the flightpath.|Z|Feralas|M|5,17|
+T Lonebrow's Journal|QID|1100|M|89.6,46.4|Z|Feralas|N|To Falfindel Waywarder.|
 R Highperch|ACTIVE|1135|N|Go southeast to Thousand Needles.|M|14.0,31.0|
 C Highperch Venom |QID|1135|M|14.0,31.0|
+
+R Roguefeather Den|M|27,51|N|Continue Southest to the short ramp up to Roguefeather Den.|
 K Harpies|M|14.0,31.0|L|5117 25|N|Kill Harpies until you hit level 31 and have collected 25 vibrant plumes. The plumes you can trade in at the darkmoon faire (check calendar for dates) for a 14 slot bag or other goodies.|
-K Harpies|N|Continue killing Harpies until you hit level 31 here or at Rougefeather Den.|LVL|31|M|27,51|
+K Harpies|N|Continue killing Harpies until you hit level 31 here or at back to High Perch if you liked that better.|LVL|31|M|27,51|
+
 R Mirage Raceway|QID|1175|N|Run to the Mirage Raceway.|M|80.00,77.00|
 A Hardened Shells|QID|1105|M|78.1,77.1|N|From Wizzle Brassbolts.|
 A Salt Flat Venom|QID|1104|M|78.1,77.1|N|From Fizzle Brassbolts.|
@@ -202,6 +207,7 @@ N Green Hills of Stranglethorn|QID|574|N|Turn in any Green Hills of Stranglethor
 T Special Forces|QID|574|M|38.0,3.1|Z|Stranglethorn Vale|N|To Lieutenant Doren, in the Rebel Camp.|
 A Colonel Kurzen|QID|202|M|38.0,3.1|Z|Stranglethorn Vale|N|From Lieutenant Doren.|
 A Kurzen's Mystery|QID|207|M|38.0,3.1|Z|Stranglethorn Vale|N|From Brother Nimetz.|
+T Return to Corporal Kaleb|QID|622|M|37.8.3.2|N|To Corporal Kaleb.|
 H The Salty Sailor Tavern|QID|577|N|Hearth or fly to Booty Bay.|M|38.0,3.1|Z|Stranglethorn Vale|
 T Hostile Takeover|QID|213|M|27.0,77.1|Z|Stranglethorn Vale|N|To Kebok.|
 T Water Elementals|QID|601|M|27.2,77.0|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
@@ -214,14 +220,18 @@ A Worgen in the Woods|QID|223|M|75.2,48|Z|Duskwood|N|From Calor.|
 T Worgen in the Woods|QID|223|M|75.2,48.8|Z|Duskwood|N|To Jonathan Carevin.|
 
 F Stormwind|N|Train you skills in stormwind if you havn't already, otherwise proceed to next step, Also, grab that turtle meat you saved from Thousand Needles.|
+A An Old History Book|QID|337|U|2794|N|From Item dropped randomly in Duskwood. Check off manually if you didnt find it.|
+t An Old History Book|QID|337|M|74,7.6|Z|Stormwind City|N|To Milton Sheaf.|
+A Southshore|QID|538|PRE|337|M|74,7.6|Z|Stormwind City|N|From Milton Sheaf.|
 F Southshore|QID|555|N|Fly to Southshore. If you don't have the flight path, check off manually and run.|
 R Southshore|QID|555|N|If you dont have the flight points, its Ironforge to wetlands, east thru Wetlands, then North to Arathi Highlands, grab the Refuge Pointe fligh path and then continue West to Hillsbrad Foothills.|M|50,55|Z|Hillsbrad Foothills|
 
 B Soothing Spices|QID|555|N|Buy one Soothing Spices from the merchant.|L|3713 1|M|48.90,55.00|Z|Hillsbrad Foothills|
 h Southshore|QID|562|N|Set your home location to Southshore.|M|51.20,58.90|
+T Southshore|QID|538|M|54.4,57|Z|Hillsbrad Foothills|N|To Loremaster Dibbs.|
+A Preserving Knowledge|QID|540|M|54.4,57|Z|Hillsbrad Foothills|N|From Loremaster Dibbs.|PRE|538|
 A Hints of a New Plague?|QID|659|M|50.3,59.0|Z|Hillsbrad Foothills|N|From Phin Odelic.|
 A Down the Coast|QID|536|M|51.4,58.6|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
-A Farren's Proof|QID|559|M|51.5,58.4|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
 A Soothing Turtle Bisque|QID|555|M|51.9,58.7|Z|Hillsbrad Foothills|N|From Chef Jessen.|
 T Soothing Turtle Bisque|QID|555|M|51.9,58.7|Z|Hillsbrad Foothills|N|Remember those Turtle Meats from Thousand Needles.|
 A Crushridge Bounty|QID|500|M|49.5,58.7|Z|Hillsbrad Foothills|N|From Marshal Redpath.|
@@ -229,14 +239,14 @@ A Syndicate Assassins|QID|505|M|48.1,59.1|Z|Hillsbrad Foothills|N|From Magistrat
 A Costly Menace|QID|564|M|52.4,56.0|Z|Hillsbrad Foothills|N|From Darren Malvew.|
 C Down the Coast|QID|536|M|46,63|Z|Hillsbrad Foothills|N|Go to the western shore and complete this quest.|
 T Down the Coast|QID|536|M|51.4,58.6|Z|Hillsbrad Foothills|N|To Lieutenant Farren Orinelle.|
-A Farren's Proof|QID|559|M|51.5,58.4|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
+A Farren's Proof|QID|559|M|51.5,58.4|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|PRE|536|
 C Farren's Proof|QID|559|M|46,63|Z|Hillsbrad Foothills|N|Go back to the western shore and complete this quest.|
 L Level check: 35|QID|561|LVL|35|
 T Farren's Proof|QID|559|M|51.5,58.4|Z|Hillsbrad Foothills|N|To Lieutenant Farren Orinelle.|
-A Farren's Proof |QID|560|M|51.5,58.4|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
-T Farren's Proof |QID|560|M|49.5,58.7|Z|Hillsbrad Foothills|N|Turn in your quest to Marshal Redpath.|
-A Farren's Proof |QID|561|M|49.5,58.7|Z|Hillsbrad Foothills|N|Get the follow-up.|
-T Farren's Proof |QID|561|M|51.5,58.4|Z|Hillsbrad Foothills|N|Turn in your quest to Lieutenant Fahren.|
+A Farren's Proof|QID|560|M|51.5,58.4|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
+T Farren's Proof|QID|560|M|49.5,58.7|Z|Hillsbrad Foothills|N|Turn in your quest to Marshal Redpath.|
+A Farren's Proof|QID|561|M|49.5,58.7|Z|Hillsbrad Foothills|N|Get the follow-up.|
+T Farren's Proof|QID|561|M|51.5,58.4|Z|Hillsbrad Foothills|N|Turn in your quest to Lieutenant Fahren.|
 A Stormwind Ho!|QID|562|M|51.5,58.4|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
 
 N Sell junk, repair, restock.|QID|562|N|Sell junk, repair, restock.|
@@ -267,19 +277,23 @@ R Alterac Mountains|QID|564|M|54.60,8.00|Z|Hillsbrad Foothills|
 R Sofera's Naze|QID|564|N||Z|Alterac Mountains|M|58.00,67.00|
 A Encrypted Letter|QID|511|Z|Alterac Mountains|M|58.35,67.90|N|From 'Syndicate Documents' on a table in the middle of the camp.|
 A Foreboding Plans|QID|510|Z|Alterac Mountains|M|58.35,67.90|N|From the other 'Syndicate Documents' on the same table.|
-C Crushridge Bounty|N|Go northwest and kill Crushridge Ogres until you get enough Dirty Knucklebones for the quest.  You may also run to 47, 76 to kill Syndicate mobs, and Mountain Lions for your other quests.|QID|500|Z|Alterac Mountains|M|49.00,61.60|
+C Crushridge BountyQID|500|Z|Alterac Mountains|M|49.00,61.60|N|Go northwest and kill Crushridge Ogres until you get enough Dirty Knucklebones for the quest. You may also run to 47, 76 to kill Syndicate mobs, and Mountain Lions for your other quests.|
+C Preserving Knowledge|QID|540|QO|1|Z|Alterac Mountains|M|49.00,61.60|N|Continue killing ogres until you have the 5 tomes needed.|
+C Preserving Knowledge|QID|540|QO|2|Z|Alterac Mountains|M|39,46|N|The book you are looking for is on a bookcase inside the house, a level 40 elite will spawn. You don't have to kill it, you can run away, vanish, etc.|
 C Syndicate Assassins|QID|505|Z|Alterac Mountains|M|47.00,76.00|N|Kill Syndicates to finish this quest.|
 C Costly Menace|QID|564|Z|Alterac Mountains|M|38.00,85.00|N|Kill Lions until you finish this quest.|
 L Level Check: 36|QID|564|N|Make sure you're at least 90% of the way to level 36.|LVL|35;60390|
 R Dalaran|QID|601|M|18.8,78.2|Z|Alterac Mountains|N|Run northwest to Dalaran.|
-T Magical Analysis|QID|601|M|18.8,78.2|Z|Alterac Mountains|N|To Archmage Ansirem Runeweaver.|
-A Ansirem's Key|QID|601|M|18.8,78.2|Z|Alterac Mountains|N|From Archmage Ansirem Runeweaver.|
+T Magical Analysis|QID|602|M|18.8,78.2|Z|Alterac Mountains|N|To Archmage Ansirem Runeweaver.|
+A Ansirem's Key|QID|603|M|18.8,78.2|Z|Alterac Mountains|N|From Archmage Ansirem Runeweaver.|
 H Southshore|ACTIVE|500|N|Hearth or otherwise make your way to Southshore.|
 T Crushridge Bounty|QID|500|M|49.5,58.7|Z|Hillsbrad Foothills|N|To Marshal Redpath.|
 T Syndicate Assassins|QID|505|M|48.1,59.1|Z|Hillsbrad Foothills|N|To Magistrate Henry Maleb.|
 T Foreboding Plans|QID|510|M|48.1,59.1|Z|Hillsbrad Foothills|N|To Magistrate Henry Maleb.|
+T Preserving Knowledge|QID|540|M|50.6,57.1|Z|Hillsbrad Foothills|N|To Loremaster Dibbs.|
 T Encrypted Letter|QID|511|M|50.6,57.1|Z|Hillsbrad Foothills|N|To Loremaster Dibbs.|
 A Letter to Stormpike|QID|514|M|50.6,57.1|Z|Hillsbrad Foothills|N|From Loremaster Dibbs.|
+A Return to Milton|QID|542|M|50.6,57.1|Z|Hillsbrad Foothills|N|From Loremaster Dibbs.|PRE|540|
 T Costly Menace|QID|564|M|52.4,56.0|Z|Hillsbrad Foothills|N|To Darren Malvew.|
 
 F Ironforge|QID|514|N|Fly to Ironforge.|M|49.30,52.30|Z|Hillsbrad Foothills|
@@ -288,6 +302,7 @@ A Reclaimers' Business in Desolace|QID|1453|Z|Ironforge|M|69.9,21.2|N|From Roett
 T Letter to Stormpike|QID|514|M|74.7,11.7|Z|Ironforge|N|To Prospector Stormpike. Don't get the followup.|
 
 R Stormwind City|QID|563|N|Take the Deeprun Tram in Tinker Town.|
+T Return to Milton|QID|542|M|74,7.6|Z|Stormwind City|N|To Milton Sheaf.|
 r Repair, restock, train|QID|563|N|Sell junk, repair, restock, train new skills.|
 T Reassignment|QID|563|Z|Stormwind City|M|75.8,36.7|N|To Major Samuelson.|
 B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn. Now is the time you really need these.|ITEM|4278|
@@ -376,7 +391,6 @@ A Mythology of the Titans|QID|1050|M|74.8,12.4|Z|Ironforge|N|From Librarian Mae 
 F Southshore|ACTIVE|1050|M|55.5,48.2|Z|Ironforge|N|At Gryth Thurden, flightmaster.|
 T Down the Scarlet Path|QID|1052|ACTIVE|1050|M|51.4,58.4|Z|Hillsbrad Foothills|N|To Raleigh the Devout.|
 A In the Name of the Light|QID|1053|M|51.4,58.4|Z|Hillsbrad Foothills|N|From Raleigh the Devout.|PRE|1052|
-							   
 N Scarlet Monestary|ACTIVE|1050|N|You have picked up the quests, find/make a group and have fun.|
 ;add J step after Scarlet Monestary guide is crafted.
 				
