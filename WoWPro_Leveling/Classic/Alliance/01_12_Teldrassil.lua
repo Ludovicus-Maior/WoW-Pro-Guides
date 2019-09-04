@@ -67,9 +67,9 @@ H Shadowglen|QID|917|ACTIVE|917|N|Hearthstone out of the cave.|
 r Sell and Repair|QID|917|S|M|59.31,41.09|ACTIVE|917|N|Sell and Repair with Keina in Aldrassil.|
 T Webwood Egg|QID|917|M|57.81,41.65|N|To Gilshalan Windwalker.|
 A Tenaron's Summons|QID|920|PRE|917|M|57.81,41.65|N|From Gilshalan Windwalker.|
-T Tenaron's Summons|QID|920|M|59.10,39.44|N|To Tenaron Stormgrip, run up the ramp outside the tree.|
+T Tenaron's Summons|QID|920|M|59.06,39.44|N|To Tenaron Stormgrip, run up the ramp outside the tree.|
 A Crown of the Earth|QID|921|PRE|920|M|59.06,39.44|N|From Tenaron Stormgrip.|
-C Crown of the Earth|QID|921|M|57.55,41.55|U|5185|NC|N|Use the crystal phial at the moonwell.|
+C Crown of the Earth|QID|921|M|57.51,41.63;59.88,33.33|CS|U|5185|NC|N|Use the crystal phial at the moonwell.|
 T Crown of the Earth|QID|921|M|57.53,41.64;59.06,39.44|CS|N|To Tenaron Stormgrip.|
 A Crown of the Earth|QID|928|PRE|921|M|59.06,39.44|N|From Tenaron Stormgrip.|
 A In Favor of Elune|QID|5622|C|Priest|M|59.96,41.95;59.18,40.45|CC|N|Revisit your class trainer before you go.|
