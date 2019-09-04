@@ -2,7 +2,6 @@ local guide = WoWPro:RegisterGuide('JameAlli_I', 'Leveling', 'Thousand Needles',
 WoWPro:GuideLevels(guide,30, 40)
 WoWPro:GuideNextGuide(guide, 'JameAlli_II')
 WoWPro:GuideName(guide, 'Jame Chapter I Leveling')
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -233,7 +232,6 @@ T Southshore|QID|538|M|54.4,57|Z|Hillsbrad Foothills|N|To Loremaster Dibbs.|
 A Preserving Knowledge|QID|540|M|54.4,57|Z|Hillsbrad Foothills|N|From Loremaster Dibbs.|PRE|538|
 A Hints of a New Plague?|QID|659|M|50.3,59.0|Z|Hillsbrad Foothills|N|From Phin Odelic.|
 A Down the Coast|QID|536|M|51.4,58.6|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
-A Farren's Proof|QID|559|M|51.5,58.4|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
 A Soothing Turtle Bisque|QID|555|M|51.9,58.7|Z|Hillsbrad Foothills|N|From Chef Jessen.|
 T Soothing Turtle Bisque|QID|555|M|51.9,58.7|Z|Hillsbrad Foothills|N|Remember those Turtle Meats from Thousand Needles.|
 A Crushridge Bounty|QID|500|M|49.5,58.7|Z|Hillsbrad Foothills|N|From Marshal Redpath.|
