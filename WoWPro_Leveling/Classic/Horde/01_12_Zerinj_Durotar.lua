@@ -142,6 +142,7 @@ T Carry Your Weight|QID|791|M|49.88,40.38|N|To Furl Scornbrow up the watchtower.
 C A Solvent Spirit|QID|818|S|N|Kill Makrura and Crawlers on the way.|
 C From The Wreckage....|QID|825|M|64.00,52.00|N|Go south-east and look for Gnomish Tools.|
 C A Solvent Spirit|QID|818|US|N|Kill Makrura and Crawlers on the way.|
+A Encroachment|QID|837|M|51.95,43.50|N|From Gar'Thok.|
 K Encroachment|QID|837|QO|1;2|M|50.58,49.11|N|Go to the southwest of Razor Hill and kill Razormane Quillboars and Razormane Scouts.|
 L Level 8|QID|825|LVL|8|N|You should be level 8 or shortly before. Grind a bit on the Quillboars if not.|
 T From The Wreckage....|QID|825|M|51.95,43.50|N|To Gar'Thok.|
