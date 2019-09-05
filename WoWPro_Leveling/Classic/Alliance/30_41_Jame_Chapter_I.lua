@@ -32,7 +32,7 @@ A Lieutenant Paval Reethe |QID|1152|M|29.6, 48.6|Z|Dustwallow Marsh|N|A very tin
 
 R Barrens|ACTIVE|1135|M|27.8,46.6|Z|Dustwallow Marsh|N|And into the Barrens.|
 R Thousand Needles|ACTIVE|1135|M|43,91|Z|The Barrens|N|Follow the road south into Thousand Needles. Run past the guard at the great lift and take the lift down.|
-L Lonebrow's Journal|QID|1100|M|30,24|l|5790|N|Pick up the Journal held by the dead dwarf at the base of the Great Lift. It's got about a 3 minute respawn timer, if someone else needs it too.|
+L Lonebrow's Journal|QID|1100|M|30,24|L|5790|N|Pick up the Journal held by the dead dwarf at the base of the Great Lift. It's got about a 3 minute respawn timer, if someone else needs it too.|
 A Lonebrow's Journal|QID|1100|M|30,24|U|5790|N|Use the journal to start the quest.|
 R Thalanaar|ACTIVE|1135|Z|Feralas|M|5,17|N|Run Generally west to the border with Faralus and find Thalanaar|
 f Thalanaar|ACTIVE|1135|N|Pick up the flightpath.|Z|Feralas|M|5,17|
@@ -207,7 +207,7 @@ N Green Hills of Stranglethorn|QID|574|N|Turn in any Green Hills of Stranglethor
 T Special Forces|QID|574|M|38.0,3.1|Z|Stranglethorn Vale|N|To Lieutenant Doren, in the Rebel Camp.|
 A Colonel Kurzen|QID|202|M|38.0,3.1|Z|Stranglethorn Vale|N|From Lieutenant Doren.|
 A Kurzen's Mystery|QID|207|M|38.0,3.1|Z|Stranglethorn Vale|N|From Brother Nimetz.|
-T Return to Corporal Kaleb|QID|622|M|37.8.3.2|N|To Corporal Kaleb.|
+T Return to Corporal Kaleb|QID|622|M|37.8,3.2|N|To Corporal Kaleb.|
 H The Salty Sailor Tavern|QID|577|N|Hearth or fly to Booty Bay.|M|38.0,3.1|Z|Stranglethorn Vale|
 T Hostile Takeover|QID|213|M|27.0,77.1|Z|Stranglethorn Vale|N|To Kebok.|
 T Water Elementals|QID|601|M|27.2,77.0|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
@@ -277,7 +277,7 @@ R Alterac Mountains|QID|564|M|54.60,8.00|Z|Hillsbrad Foothills|
 R Sofera's Naze|QID|564|N||Z|Alterac Mountains|M|58.00,67.00|
 A Encrypted Letter|QID|511|Z|Alterac Mountains|M|58.35,67.90|N|From 'Syndicate Documents' on a table in the middle of the camp.|
 A Foreboding Plans|QID|510|Z|Alterac Mountains|M|58.35,67.90|N|From the other 'Syndicate Documents' on the same table.|
-C Crushridge BountyQID|500|Z|Alterac Mountains|M|49.00,61.60|N|Go northwest and kill Crushridge Ogres until you get enough Dirty Knucklebones for the quest. You may also run to 47, 76 to kill Syndicate mobs, and Mountain Lions for your other quests.|
+C Crushridge Bounty|QID|500|Z|Alterac Mountains|M|49.00,61.60|N|Go northwest and kill Crushridge Ogres until you get enough Dirty Knucklebones for the quest. You may also run to 47, 76 to kill Syndicate mobs, and Mountain Lions for your other quests.|
 C Preserving Knowledge|QID|540|QO|1|Z|Alterac Mountains|M|49.00,61.60|N|Continue killing ogres until you have the 5 tomes needed.|
 C Preserving Knowledge|QID|540|QO|2|Z|Alterac Mountains|M|39,46|N|The book you are looking for is on a bookcase inside the house, a level 40 elite will spawn. You don't have to kill it, you can run away, vanish, etc.|
 C Syndicate Assassins|QID|505|Z|Alterac Mountains|M|47.00,76.00|N|Kill Syndicates to finish this quest.|
