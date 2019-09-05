@@ -121,7 +121,7 @@ T A Peon's Burden|QID|2161|M|51.52,41.65|N|To Innkeeper Grosk.|
 h Razor Hill|QID|784|M|51.52,41.65|N|Set your hearthstone here.|
 L Level 6|LVL|6|N|If you are not yet level 6 grind on mobs.|
 
-A Break a Few Eggs|QID|815|M|51.11,42.45|N|From Cook Torka.|
+A Break a Few Eggs|QID|815|M|51.11,42.45|LVL|6||N|From Cook Torka.|
 A Carry Your Weight|QID|791|M|50.07,42.93;49.88,40.38|CS|N|From Furl Scornbrow up the watchtower northwest of Razor Hill.|
 T In Favor of Spirituality|QID|5649|C|Priest|R|Orc,Troll|M|54.26,42.93|N|To Tai'jin.|
 A Garments of Spirituality|QID|5648|C|Priest|R|Orc,Troll|M|54.26,42.93|N|From Tai'jin.|
