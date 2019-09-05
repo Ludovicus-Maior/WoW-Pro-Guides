@@ -39,7 +39,7 @@ C The Woodland Protector|QID|459|M|55.91,45.79|N|Kill and loot the Grell for the
 T The Woodland Protector|QID|459|M|57.75,45.02|N|To Tarindrella.|
 A Webwood Venom|QID|916|LVL|3|M|57.81,41.65|N|From Gilshalan Windwalker.|
 C Webwood Venom|QID|916|S|N|Kill and loot Webwood Spiders.|
-C The Balanche of Nature|QID|457|S|N|Kill Mangy Nightsabers and Thistle Boars along the way.|
+C The Balance of Nature|QID|457|S|N|Kill Mangy Nightsabers and Thistle Boars along the way.|
 T A Good Friend|QID|4495|M|54.60,32.99|N|To Iverron.|
 A A Friend in Need|QID|3519|PRE|4495|M|54.60,32.99|N|From Iverron.|
 r Sell and Repair|QID|3519|S|M|59.31,41.09|ACTIVE|3519|N|Sell and Repair with Keina in Aldrassil.|
@@ -57,23 +57,28 @@ T Webwood Venom|QID|916|M|57.81,41.65|N|To Gilshalan Windwalker.|
 A Webwood Egg|QID|917|PRE|916|M|57.81,41.65|N|From Gilshalan Windwalker.|
 T The Balance of Nature|QID|457|M|58.69,44.27|N|To Conservator Ilthalaine.|
 
-r Sell and Repair|QID|3521|S|M|59.31,41.09|ACTIVE|3521|N|Sell and Repair with Keina in Aldrassil.|
+r Sell and Repair|QID|3521|M|59.31,41.09|ACTIVE|3521|N|Sell and Repair with Keina in Aldrassil.|
 T Iverron's Antidote|QID|3521|M|60.90,41.96|N|To Dirania Silvershine.|
 A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|N|From Dirania Silvershine. Accepting this quest will start a 5 minute timer.|
 T Iverron's Antidote|QID|3522|M|54.60,32.99|N|To Iverron.|
 R Shadowthread Cave|QID|917|ACTIVE|917|M|56.77,31.72;56.66,29.33;56.87,27.24;55.72,25.12;56.43,25.14|CS|N|Take the middle path and then left.|
 C Webwood Egg|QID|917|M|56.750,26.46|N|Loot an egg from the ground.|
 H Shadowglen|QID|917|ACTIVE|917|N|Hearthstone out of the cave.|
-r Sell and Repair|QID|917|S|M|59.31,41.09|ACTIVE|917|N|Sell and Repair with Keina in Aldrassil.|
+r Sell and Repair|QID|917|M|59.31,41.09|ACTIVE|917|N|Sell and Repair with Keina in Aldrassil.|
 T Webwood Egg|QID|917|M|57.81,41.65|N|To Gilshalan Windwalker.|
 A Tenaron's Summons|QID|920|PRE|917|M|57.81,41.65|N|From Gilshalan Windwalker.|
 T Tenaron's Summons|QID|920|M|59.06,39.44|N|To Tenaron Stormgrip, run up the ramp outside the tree.|
 A Crown of the Earth|QID|921|PRE|920|M|59.06,39.44|N|From Tenaron Stormgrip.|
-C Crown of the Earth|QID|921|M|57.51,41.63;59.88,33.33|CS|U|5185|NC|N|Use the crystal phial at the moonwell.|
-T Crown of the Earth|QID|921|M|57.53,41.64;59.06,39.44|CS|N|To Tenaron Stormgrip.|
+C Crown of the Earth|QID|921|M|58.78,38.80;57.48,41.66;59.88,33.33|CS|U|5185|NC|N|Head back down the ramp to the bottom and run north to the Moonwell. Use the crystal phial at the moonwell.|
+T Crown of the Earth|QID|921|M|57.53,41.64;58.78,38.80;58.44,40.79;59.06,39.44|CS|N|To Tenaron Stormgrip.|
 A Crown of the Earth|QID|928|PRE|921|M|59.06,39.44|N|From Tenaron Stormgrip.|
+
+N Level 4 class training|QID|2159|S|LVL|4|N|Take this opportunity to learn your Level 4 skill/spell before you leave for Dolanaar!|
+
 A In Favor of Elune|QID|5622|C|Priest|M|59.96,41.95;59.18,40.45|CC|N|Revisit your class trainer before you go.|
 A Dolanaar Delivery|QID|2159|M|61.16,47.64|N|From Porthannius, on the road to Dolanaar|
+
+L Level 4|ACTIVE|2159|LVL|4|N|You'll want to be level 4 to accept the next quest. Grind until you are.|
 
 A Zenn's Bidding|AVAILABLE|488|M|60.43,56.25|N|From Zenn Foulhoof. If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest)|
 C Zenn's Bidding|ACTIVE|488|S|N|Kill and loot Webwood Lurkers, Nightsabers and Strigid Owls along the way.|
