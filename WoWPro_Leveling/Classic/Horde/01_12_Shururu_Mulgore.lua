@@ -160,8 +160,8 @@ A Preparation for Ceremony|QID|744|M|37.69,59.57|Z|Thunder Bluff|N|From Eyahn Ea
 T Training the Beast|QID|6089|C|Hunter|R|Tauren|M|57.29,89.75|Z|Thunder Bluff|N|To Holt Thunderhorn.|
 T Journey into Thunder Bluff|QID|775|M|60.26,51.69|Z|Thunder Bluff|N|To Cairne Bloodhoof.|
 A Rites of the Earthmother|QID|776|PRE|775|M|60.26,51.69|Z|Thunder Bluff|N|From Cairne Bloodhoof.|
-A Testing an Enemy's Strength|QID|5723|RANK|3|M|70.51,31.83;70.18,29.50|Z|Thunder Bluff|CN|N|Pick this quest up from Rahauro if you are planning to run the dungeon Ragefire Chasm.|
-A Searching for the Lost Satchel|QID|5722|RANK|3|M|70.51,31.83;70.18,29.50|Z|Thunder Bluff|CN|N|Pick this quest up from Rahauro if you are planning to run the dungeon Ragefire Chasm.|
+A Testing an Enemy's Strength|QID|5723|RANK|3|M|61.30,40.38;70.53,31.77|Z|Thunder Bluff|CS|N|Pick this quest up from Rahauro if you are planning to run the dungeon Ragefire Chasm.|
+A Searching for the Lost Satchel|QID|5722|RANK|3|M|70.53,31.77|Z|Thunder Bluff|N|Pick this quest up from Rahauro if you are planning to run the dungeon Ragefire Chasm.|
 A The Barrens Oases|QID|886|M|78.57,28.57|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem.|
 T Heeding the Call|QID|5926|C|Druid|R|Tauren|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|
 A Moonglade|QID|5922|PRE|5926|C|Druid|R|Tauren|M|76.47,27.26|Z|Thunder Bluff|N|From Turak Runetotem.|
@@ -179,10 +179,10 @@ F Camp Taurajo|QID|6002|C|Druid|R|Tauren|M|46.98,49.84|Z|Thunder Bluff|
 C Body and Heart|QID|6002|C|Druid|R|Tauren|U|15710|M|42.00,60.90|Z|The Barrens|N|Use the Cenarion Lunardust near the stone to summon Lunaclaw. Kill him and talk to his ghost to complete the quest. Be careful of the level 20 Thunderheads that roam the area.|
 F Thunder Bluff|QID|6002|C|Druid|R|Tauren|M|44.44,59.15|Z|The Barrens|
 T Body and Heart|QID|6002|C|Druid|R|Tauren|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|
-R Exit Thunder Bluff|QID|759|M|50.85,32.38|Z|Thunder Bluff|CC|N|Use the lifts on the north side to exit Thunder Bluff.|
+R Exit Thunder Bluff|QID|759|M|67.42,28.69;50.85,32.38|CS|Z|Thunder Bluff|CC|N|Use the lifts on the north side to exit Thunder Bluff.|
 C Wildmane Totem|QID|759|S|N|Kill Prairie Wolf Alphas on the way.|
 C The Hunter's Way|QID|861|S|N|Kill Flatland Prowlers on the way.|
-C Preparation for Ceremony|QID|744|M|51.87,6.26;54.82,11.00;56.06,15.82|CN|N|Kill Windfury Matriarchs and Sorceresses for their Feathers.|
+C Preparation for Ceremony|QID|744|M|51.87,6.26;54.82,11.00;56.06,15.82|CN|N|Kill Windfury Matriarchs and Sorceresses for their Feathers at these locations.|
 C Rites of the Earthmother|QID|776|M|51.22,13.51;56.55,29.44;53.12,14.89;54.48,19.67;53.96,23.12;55.20,31.05;54.50,32.29;52.94,32.13;52.10,31.46;51.94,27.58;50.81,25.20;49.54,20.95;49.10,16.60|CN|N|Kill Arra'chea for his Horn. He travels clockwise.|
 C Wildmane Totem|QID|861|M|56.55,29.44|US|N|Kill Flatland Prowlers on the way.|
 C The Hunter's Way|QID|861|M|53.19,34.87|US|N|Kill Flatland Prowlers.|
