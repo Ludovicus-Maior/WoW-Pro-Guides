@@ -399,7 +399,7 @@ A Rescue OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|From Homing Robot OOX-22/
 C Rescue OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|Rather difficult (perhaps impossible) to solo, so shout out to see if anyone else wants to help. Follow the chicken, 3 preset ambushes occur along the way.|
 A An Orphan Looking For a Home|QID|3841|Z|Feralas|M|65.9,45.6|N|From Kindal Moonweaver.|
 N Hippogryph Egg|QID|2741|M|56.70,76.80|Z|Feralas|L|8564|N|If you want, you are pretty close by to get another Hippogryph Egg from this location, totally optional, check off manually if you aren't going to.|
-H Feathermoon Stronghold|ACTIVE|2942|N|Hearth to Feathermoon Stronghold.|
+F Feathermoon Stronghold|ACTIVE|2942|N|Fly to Feathermoon Stronghold.|; FIXME: add coords
 T Improved Quality|QID|7733|M|30.6,42.7|Z|Feralas|N|To Pratt McGrubben.|
 T Pristine Yeti Hide|QID|7735|M|30.6,42.7|Z|Feralas|N|To Pratt McGrubben.|
 T The Morrow Stone|QID|2942|M|31.8,45.6|Z|Feralas|N|To Troyas Moonbreeze.|
