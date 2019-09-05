@@ -1210,7 +1210,15 @@ function WoWPro.NextStep(k,i)
             skip = true
             break
         end
-
+	if WoWPro.action[k] == "A" and WoWPro.use[k] then
+		if GetItemCount(WoWPro.use[k]) == 0 then
+			local why = "You don't have the item to start this quest."
+			WoWPro.why[k] = why
+			WoWPro:dbp(why)
+			skip = true
+			break
+		end
+	end
 	    -- Availible quests: not complete  --
 	    if WoWPro.available[k] then
 	        local available = WoWPro.available[k]
