@@ -130,11 +130,11 @@ A Krazek's Cookery|QID|210|M|37.7,3.3|Z|Stranglethorn Vale|N|From Corporal Kaleb
 R Nesingwary Camp|QID|5762|M|35.00,10.00|Z|Stranglethorn Vale|N|Head west along the road and then south. Once in stranglthorn cross the bridge and head west to the camp|
 T Hemet Nesingwary Jr.|QID|5762|M|35.00,10.00|Z|Stranglethorn Vale|N|To Hemet Nesingwary, Jr.|
 
-A Welcome to the Jungle|QID|583|M|35.8,10.7|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
-T Welcome to the Jungle|QID|583|M|35.8,10.7|Z|Stranglethorn Vale|N|To Hemet Nesingwary|
-A Raptor Mastery|QID|194|M|35.8,10.7|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
-A Tiger Mastery|QID|185|M|35.8,10.7|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
-A Panther Mastery|QID|190|M|35.8,10.7|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
+A Welcome to the Jungle|QID|583|M|35.71,10.65|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
+T Welcome to the Jungle|QID|583|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary|
+A Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+A Tiger Mastery|QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+A Panther Mastery|QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
 
 N From now on, kill any Young Tigers, crocolisks, and panthers you come across |Z|Stranglethorn Vale|
 C Supply and Demand|N|Get 2 Large Crocolisk skins from the River Crocolisks.|QID|575|S!US|M|40.6,13.3|Z|Stranglethorn Vale|
@@ -147,22 +147,22 @@ T Bad Medicine|QID|204|M|38.0,3.3|Z|Stranglethorn Vale|
 A Special Forces|QID|574|M|38.0,3.3|Z|Stranglethorn Vale|
 C Tiger Mastery|US|N|Kill the rest of the Young Tigers you need for Tiger Mastery.|QID|185|M|32.30,9.40|Z|Stranglethorn Vale|
 C Panther Mastery|US|N|Kill 10 Young Panthers for the Panther Mastery quest.|QID|190|M|41.00,10.00|Z|Stranglethorn Vale|
-T Tiger Mastery|QID|185|M|35.8,10.7|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
-A Tiger Mastery |QID|186|M|35.8,10.7|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
-T Panther Mastery|QID|190|M|35.8,10.7|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
-A Panther Mastery |QID|191|M|35.8,10.7|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
+T Tiger Mastery|QID|185|M|35.62,10.81|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
+A Tiger Mastery |QID|186|M|35.62,10.81|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+T Panther Mastery|QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
+A Panther Mastery |QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
 C Panther Mastery |N|Kill Panthers and Tigers until you complete both quests.|QID|191|M|30.00,9.00|Z|Stranglethorn Vale|
 C Tiger Mastery |QID|186|M|30.00,9.00|Z|Stranglethorn Vale|
 C Raptor Mastery|N|Go southwest and kill 10 Stranglethorn Raptors.|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|
 C Bloodscalp Ears|N|Get 15 bloodscalp ears from the Trolls here.  There are several other camps, one at 33,15, that you can kill Trolls at as well.|QID|189|M|29.00,20.00|Z|Stranglethorn Vale|
 C Singing Blue Shards|N|Go west and kill Basilisks until you get ten Singing Crystal Shards.|QID|605|M|26.80,18.70|Z|Stranglethorn Vale|
 C The Stone of the Tides|N|Swim to the island until you get the quest complete message for The Stone of the Tides.|QID|578|M|21.00,22.00|Z|Stranglethorn Vale|
-T Tiger Mastery|QID|186|M|35.8,10.7|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
-A Tiger Mastery |QID|187|M|35.8,10.7|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
-T Panther Mastery|QID|191|M|35.8,10.7|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
-A Panther Mastery |QID|192|M|35.8,10.7|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
-T Raptor Mastery|QID|194|M|35.8,10.7|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
-A Raptor Mastery |QID|195|M|35.8,10.7|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+T Tiger Mastery|QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
+A Tiger Mastery |QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+T Panther Mastery|QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
+A Panther Mastery |QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
+T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
+A Raptor Mastery |QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
 N Green Hills of Stranglethorn|N|Turn in any Green Hills of Stranglethorn quests that you can turn in while you are here.|Z|Stranglethorn Vale|
 L Level Check: 3 bubbles from 34|LVL|33;46325|
 
@@ -195,14 +195,14 @@ C Hostile Takeover|N|Kill geologists here until you finish Hostile Takeover.  Ki
 C Some Assembly Required|N|Kill Snapjaw Crocolisks until you get the skins needed for this quest.  They can be found in or near the river.|QID|577|M|39.60,17.30|Z|Stranglethorn Vale|
 C Tiger Mastery|N|Kill Elder Stranglethorn Tigers at this location until you complete Tiger Mastery.|QID|187|M|32.20,15.20|Z|Stranglethorn Vale|
 T Raptor Mastery|QID|195|M|35.8,10.7|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
-A Raptor Mastery |QID|196|M|35.8,10.7|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
-T Tiger Mastery|QID|187|M|35.8,10.7|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
-A Tiger Mastery |QID|188|M|35.8,10.7|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+A Raptor Mastery |QID|196|M|35.66,10.66|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+T Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
+A Tiger Mastery |QID|188|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 C Special Forces|N|Kill Kurzen in and near this cave until you complete the quest.|QID|574|M|45.40,8.50|
 C Tiger Mastery |N|Kill Sin'dall and loot his paw.|QID|188|M|32.20,17.30|Z|Stranglethorn Vale|
 C Water Elementals|QID|601|M|21,21|Z|Stranglethorn Vale|N|Kill and loot water elementals until you have the required bracers.|
 N Grind to 3 Bubbles from 35|QID|188|M|21,21|LVL|34;49810|Z|Stranglethorn Vale|
-T Tiger Mastery |QID|188|M|35.8,10.7|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
+T Tiger Mastery |QID|188|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 N Green Hills of Stranglethorn|QID|574|N|Turn in any Green Hills of Stranglethorn pages you have.|Z|Stranglethorn Vale|
 T Special Forces|QID|574|M|38.0,3.1|Z|Stranglethorn Vale|N|To Lieutenant Doren, in the Rebel Camp.|
 A Colonel Kurzen|QID|202|M|38.0,3.1|Z|Stranglethorn Vale|N|From Lieutenant Doren.|
@@ -298,7 +298,7 @@ T Costly Menace|QID|564|M|52.4,56.0|Z|Hillsbrad Foothills|N|To Darren Malvew.|
 
 F Ironforge|QID|514|N|Fly to Ironforge.|M|49.30,52.30|Z|Hillsbrad Foothills|
 h Ironforge|QID|603|N|Set your home location to Ironforge.|Z|Ironforge|M|18.40,51.50|
-A Reclaimers' Business in Desolace|QID|1453|Z|Ironforge|M|69.9,21.2|N|From Roetten Stonehammer.|
+A Reclaimers' Business in Desolace|QID|1453|Z|Ironforge|M|69.9,21.3|N|From Roetten Stonehammer.|
 T Letter to Stormpike|QID|514|M|74.7,11.7|Z|Ironforge|N|To Prospector Stormpike. Don't get the followup.|
 
 R Stormwind City|QID|563|N|Take the Deeprun Tram in Tinker Town.|
@@ -318,6 +318,7 @@ A "Pretty Boy" Duncan|QID|610|Z|Stranglethorn Vale|M|27.24,77.52|N|From Catelyn.
 T Favor for Krazek|QID|627|Z|Stranglethorn Vale|M|27,77.2|N|To Krazek.|
 A Return to Corporal Kaleb|QID|622|M|27,77.2|Z|Stranglethorn Vale|N|From Krazek.|
 R Rebel Camp|ACTIVE|622|M|37.8,3.2|Z|Stranglethorn Vale|
+;this needs to be elsewhere ... or hearth after. or something...
 T Return to Corporal Kaleb|QID|622|M|37.7,3.3|Z|Stranglethorn Vale|N|To Corporal Kaleb.|
 R Booty Bay|M|26.00,73.20|Z|Stranglethorn Vale|
 b Ratchet|QID|1453|N|Take the boat to Ratchet.|
@@ -384,7 +385,7 @@ A The Karnitol Shipwreck |QID|1457|M|66.2,9.6|Z|Desolace|N|From Kreldig Ungor.|
 T Down the Scarlet Path|QID|261|M|66.4,7.8|Z|Desolace|N|To Brother Anton.|
 A Down the Scarlet Path |QID|1052|M|66.4,7.8|Z|Desolace|N|From Brother Anton.|
 H Ironforge|QID|1457|N|Hearth to Ironforge.|
-T The Karnitol Shipwreck|QID|1457|M|67.8,17.8|Z|Ironforge|N|To Roetten Stonehammer.|
+T The Karnitol Shipwreck|QID|1457|M|69.9,21.3|Z|Ironforge|N|To Roetten Stonehammer.|
 
 N Dungeon interlude|N|If you want to do Scarlet Monestary, pick of the following two quests, if not skip the following step and head to Badlands.|
 A Mythology of the Titans|QID|1050|M|74.8,12.4|Z|Ironforge|N|From Librarian Mae Paledust.|
