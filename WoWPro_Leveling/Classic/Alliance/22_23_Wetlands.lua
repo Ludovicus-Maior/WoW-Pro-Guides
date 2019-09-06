@@ -73,6 +73,7 @@ T The Absent Minded Prospector|QID|943|M|10.84,60.43|Z|Wetlands|N|From Archaeolo
 T Digging Through the Ooze|QID|470|M|11.8,58|N|From Sida.|
 T In Search of The Excavation Team|QID|305|M|11.5,52.16|N|To Tarrel Rockweaver.|
 T Young Crocolisk Skins|QID|484|M|8.49,55.7|N|To James Halloran.|
+T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|
 T Claws from the Deep|QID|279|M|8.33,58.52|N|To Karl Boran.|
 
 N Make sure you are level 23 before continuing.
