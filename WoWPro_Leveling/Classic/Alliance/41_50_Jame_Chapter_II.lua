@@ -359,7 +359,7 @@ T Favored of Elune?|QID|3661|M|55.5,92.0|Z|Teldrassil|N|To Erelas Ambersky.|
 T The Super Snapper FX|QID|2944|M|55.4,92.2|Z|Teldrassil|N|To Daryn Lightwind, upstairs.|
 A Return to Troyas|QID|2943|M|55.4,92.2|Z|Teldrassil|N|From Daryn Lightwind.|
 
-F Feathermoon Stronghold|ACTIVE|2943|N|Fly to Gadgetzan|Z|Teldrassil|M|58.30,94.00|
+F Feathermoon Stronghold|ACTIVE|2943|N|Fly to Feathermoon.|Z|Teldrassil|M|58.30,94.00|
 T Return to Troyas|QID|2943|Z|Feralas|M|31.8,45.6|N|To Troyas Moonbreeze.|
 A The Stave of Equinex|QID|2879|Z|Feralas|M|31.8,45.6|N|From Troyas Moonbreeze.|
 A The Sunken Temple|QID|3445|M|31.8,45.6|Z|Feralas|N|From Angelas Moonbreeze.|
