@@ -150,7 +150,7 @@ T Timberling Sprouts|QID|919|M|60.90,68.50|N|To Denalan.|
 C Seek Redemption!|QID|489|NC|US|M|59,56;59,61.25;60.2,62.25|CN|N|Look out for Fel Cones at the base of the bigger trees. Green smoke comes out of them.|
 T Seek Redemption!|ACTIVE|489|M|60.43,56.25|N|To Zenn Foulhoof. If he is a frog, wait up to one minute (another player has just done this quest).|
 
-r Sell and Repair|QID|2459|S|M|59.31,41.09|ACTIVE|2459|N|Sell and Repair with the many vendors of Dolanaar.|
+r Sell and Repair|ACTIVE|2459|M|56.25,59.25|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
 
 ; Guide displays error: WoWPro: Warning: malformed profession tag [Alchemy;171]
 ;A Elixirs for the Bladeleafs|QID|1581|P|Alchemy;171|M|56.09,57.72|N|Only available for Alchemists with a skill of at least 20. You will not be told when to turn this in. Do it at your own speed and turn it in whenever you can.|
@@ -158,13 +158,17 @@ r Sell and Repair|QID|2459|S|M|59.31,41.09|ACTIVE|2459|N|Sell and Repair with th
 R Twisted Hatred|QID|932|M|53.94,58.13;53.65,55.86;54.65,52.65|CC|N|The cave for this quest is behind the tree building.|
 R Twisted Hatred|QID|932|M|54.59,51.33;53.75,50.59;52.45,49.17;51.57,49.01|CC|N|Inside the cave keep right.|
 C Twisted Hatred|QID|932|M|55,53|N|Kill and loot Lord Melenas. He spawns in two places, either on the ledge, or in the cavern south-west. He is level 8 and hits very hard for his level. If you're a caster, pull him from max range and use Severed Voodoo Claw on him. It will reduce his damage a little. He usually has two adds and will transform into a cat during the fight. As long as you manage to loot him, it doesn't matter if the adds will kill you.|T|Lord Melenas|
+
+N Hearth or Grind|ACTIVE|2459|N|By this time, most of the things you've killed to get in here have respawned. You can either use your hearthstone or you can grind your way back to Dolanaar.\nDepending upon bag space, I recommend grinding for the much needed exp.|
 T Ferocitas the Dream Eater|QID|2459|M|55.58,56.95|N|To Tallonkai Swiftroot|
 T Twisted Hatred|QID|932|M|55.58,56.95|N|To Tallonkai Swiftroot.|
 
 A The Road to Darnassus|QID|487|S|M|55.54,58.42|N|As you run along the road, From Moon Priestess Amara, who will be somewhere along the road patrolling.|
 
+r Sell and Repair|ACTIVE|922|M|56.25,59.25|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
+
 R Darnassus|QID|922|M|54.85,58.47;51.47,56.54;47.25,49.62;44.33,50.71|CC|N|Run to Darnassus along the road.|
-N Skinning and Leatherorking|QID|922|S|M|42.09,49.97|N|Stop by the Leatherworking and Skinning Trainers if you are interested in those professions. Right click this off.|
+N Skinning and Leatherworking|QID|922|S|M|42.09,49.97|N|Stop by the Leatherworking and Skinning Trainers if you are interested in those professions. Right click this off.|
 R Darnassus|QID|922|M|39.02,53.24;36.28,54.37|CC|N|Run to Darnassus along the road.|
 
 ; Guide displays error: WoWPro: Warning: malformed profession tag [Skinning;393]
