@@ -279,6 +279,7 @@ DefineTag("RECIPE","recipe","number",nil,nil)
 DefineTag("PET","pet","string",nil,nil)
 DefineTag("BUILDING","building","string",nil,nil)
 DefineTag("GUIDE","guide","string",nil,nil)
+DefineTag("GROUP","group","boolean",nil,nil)
 DefineTag("RARE","rare","boolean",nil,nil)
 DefineTag("EX","expansion","string",validate_old_list_of_ints,nil)
 
