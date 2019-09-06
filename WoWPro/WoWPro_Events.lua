@@ -609,6 +609,10 @@ WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function (event,...)
 WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
 -- WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
 
+WoWPro.RegisterEventHandler("GROUP_ROSTER_UPDATE", function (event,...)
+	WoWPro:UpdateGuide(event)
+end)
+
 -- Merchant?
 WoWPro.RegisterEventHandler("MERCHANT_SHOW" , function (event,...)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
