@@ -3,14 +3,11 @@
   Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 --]]
 
-local guide = WoWPro:RegisterGuide('ClassicDunMorogh0112', "Leveling", 'Dun Morogh', 'Mr Boston', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicDunMorogh0112', "Leveling", 'Dun Morogh', 'Boston', 'Alliance', 1)
 WoWPro:GuideLevels(guide,1,12, 2)
-WoWPro:GuideNextGuide(guide, 'ClassicLochModan')
--- FIXME: WoW Classic does not have a Achievement_Charachter_Dwarf_* icons
--- WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender(
---        "Interface\\Icons\\Achievement_Character_Dwarf_Male",
---        "Interface\\Icons\\Achievement_Character_Dwarf_Female"))
+WoWPro:GuideNextGuide(guide, 'ClassicLochModan1214')
 WoWPro:GuideSteps(guide, function() return [[
+
 A Dwarven Outfitters|QID|179|M|29.92,71.21|N|From Sten Stoutarm|
 C Dwarven Outfitters|QID|179|M|29.80,74.30|QO|1||N|Kill Ragged Young Wolves to loot 8 Tough Wolf Meat.|T|Ragged Young Wolf|
 r Sell Junk|ACTIVE|179|M|30.06,71.52|N|Sell your junk to Adlin Pridedrift.|
@@ -101,7 +98,6 @@ A Senir's Observations|QID|420|PRE|282|M|33.48,71.84|N|From Mountaineer Thalos|
 A Supplies to Tannok|QID|2160|M|33.85,72.23|N|From Hands Springsprocket|
 A In Favor of the Light|QID|5626|C|Priest|
 
-r Sell and Repair|ACTIVE|420|M|40.7,65.1|N|Sell and Repair with Hegnar Rumbleshot, who is on the road to Kharanos.|
 R Kharanos|QID|420|ACTIVE|420|M|46.42,54.71|N|Go through the tunnel and follow the road to reach Kharanos.|
 T Senir's Observations|QID|420|M|46.73,53.82|N|To Senir Whitebeard|
 
@@ -137,7 +133,14 @@ C Stocking Jetsteam|QID|317|US|M|39.5,59.5|N|Kill and loot Boars for boar Meat a
 C Beer Basted Boar Ribs|QID|384|US|QO|1|M|48.0,50.1|N|Kill and loot the Crag Boars for their ribs.|
 
 B Rhapsody Malt|QID|384|M|47.2,52.5|L|2894|N|Buy Rhapsody Malt from Innkeeper Belm inside the Inn at Kharanos.|
-N Level 6 class skills |QID|384|S|LVL|6|N|Remember to visit your class trainer to learn your Level 6 skill!|
+N Level 6 class training|ACTIVE|384|LVL|6|C|Rogue|M|47.56,52.61|N|Go see Hogral Bakkan to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
+N Level 6 class training|ACTIVE|384|LVL|6|C|Hunter|M|45.81,53.04|N|Go see Grif Wildheart to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.| 
+N Level 6 class training|ACTIVE|384|LVL|6|C|Priest|M|47.34,52.18|N|Go see Maxen Anvol to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
+N Level 6 class training|ACTIVE|384|LVL|6|C|Warrior|M|47.36,52.65|N|Go see Gramis Swiftaxe to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
+N Level 6 class training|ACTIVE|384|LVL|6|C|Paladin|M|47.60,52.07|N|Go see Azar Stronghammer to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
+N Level 6 class training|ACTIVE|384|LVL|6|C|Warlock|M|47.33,53.70|N|Go see Alamar Grimm to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
+N Level 6 class training|ACTIVE|384|LVL|6|C|Mage|M|47.50,52.07|N|Go see Magis Sparkmantle to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
+
 r Sell Junk|QID|384|S|M|47.2,52.4|ACTIVE|384|N|Take this opportunity to sell your junk with Kreg Bilmn.|
 T Beer Basted Boar Ribs|QID|384|M|46.82,52.36|N|To Ragnar Thunderbrew|
 T Stocking Jetsteam|QID|317|M|49.43,48.41|N|To Pilot Bellowfiz|
@@ -166,8 +169,8 @@ C Operation Recombobulation|QID|412|M|25.71,41.81|N|Kill and loot the Leper Gnom
 C A Favor for Evershine|QID|319|US|N|Finish killing Ice Claw Bears, Elder Crag Boars and Snow Leopards.|
 H Thunderbrew Distillery|QID|412|M|47.37,52.51|U|6948|N|Use your hearthstone to return to Kharanos.|
 
-r Sell Junk|QID|310|S|M|47.2,52.4|ACTIVE|310|N|Take this opportunity to sell your junk with Kreg Bilmn.|
-B Thunder Ale|QID|310|L|2686|N|Buy this from the innkeeper.|
+r Sell Junk|S|M|47.2,52.4|ACTIVE|310|N|Take this opportunity to sell your junk with Kreg Bilmn.|
+B Thunder Ale|ACTIVE|310|L|2686|M|47.38,52.52|N|Buy this from the innkeeper.|
 
 T Distracting Jarven |QID|308|M|47.63,52.65|N|To Jarven Thunderbrew|
 T Bitter Rivals|QID|310|M|47.70,52.70|N|Whilst Jarven Thunderbrew goes to the stairs, click on the barrel behind where he stood.|
@@ -180,14 +183,13 @@ R Ironforge|QID|291|ACTIVE|291|M|47.0,42.1;53.31,35.09|CS|N|Head north to Ironfo
 
 N City Facilities|QID|291|ACTIVE|291|S|N|Use this time to visit Auction House, Bank and to sell and restock. Now is a good time to increase bagspace!|
 T The Reports|QID|291|M|44.57,49.50;39.59,57.48|CS|Z|Ironforge|N|To Senator Barin Redstone, in The High Seat|
-f Ironforge|QID|311|M|55.7,48.0|N|Discover Ironforge Flightpoint with Gryth Thurden|
+f Ironforge|QID|311|M|55.7,48.0|N|Discover Ironforge Flightpoint with Gryth Thurden|R|-Gnome,-Dwarf|
+L Nearly Level 10|QID|413|LVL|10;-1940|M|30.18,45.53|N|You need to be no more than bubbles from level 10. So be sure and kill everything on your way back to Brewnall Village.|
 
 T Return to Marleth|QID|311|M|30.18,45.53|N|To Marleth Barleybrew, in Brewnall Village.|
 T A Favor for Evershine|QID|319|M|30.20,45.73|N|To Rejold Barleybrew|
 A Return to Bellowfiz|QID|320|PRE|319|M|30.20,45.73|N|From Rejold Barleybrew|
 T The Perfect Stout|QID|315|M|30.20,45.73|N|To Rejold Barleybrew|
-
-L Level 8|QID|413|LVL|8|N|You need to be level 8 to continue with this guide.|
 
 A Shimmer Stout|QID|413|M|30.20,45.73|N|From Rejold Barleybrew|
 A The Hunter's Path|QID|6075|M|30.6,45.4|LVL|10|C|Hunter|R|Dwarf|N|From Tristane Shadowstone. This quest line is very important for your hunter.|
@@ -196,25 +198,22 @@ T The Hunter's Path|QID|6075|M|45.8,53.0|LVL|10|C|Hunter|R|Dwarf|N|To Grif Wildh
 
 
 ; ---------- LEVEL 10 CLASS TRAINING ------------
-
-L Level 10 |LVL|10|N|You need to be level 10 to continue with this guide.|
-
-A Taming the Beast |QID|6064|C|Hunter|R|Dwarf|N|From Grif Wildheart|
-C Taming the Beast |QID|6064|C|Hunter|R|Dwarf|U|15911|M|39.5,47.3|N|Tame a Large Crag Boar using the taming rod. During the 20 second cast, you will see heart shapes and a casting bar.|
-T Taming the Beast |QID|6064|C|Hunter|R|Dwarf|N|To Grif Wildheart|
-A Taming the Beast |QID|6084|PRE|6064|C|Hunter|R|Dwarf|N|From To Grif Wildheart|
-C Taming the Beast |QID|6084|C|Hunter|R|Dwarf|U|15913|M|48.0,59.0|N|This time you need to tame a Snow Leopard, these can be found south-east of Kharanos. You will need to dismiss your pet Large Crag Boar first.|
-T Taming the Beast |QID|6084|C|Hunter|R|Dwarf|N|To Grif Wildheart|
-A Taming the Beast |QID|6085|PRE|6084|C|Hunter|R|Dwarf|N|From Grif Wildheart|
-C Taming the Beast |QID|6085|C|Hunter|R|Dwarf|U|15908|M|51.5,44.5|N|This time you need to tame an Ice Claw Bear, these can be found east of Kharanos. You will need to dismiss your pet Snow Leopard first.|
-T Taming the Beast |QID|6085|C|Hunter|R|Dwarf|N|To Grif Wildheart|
-A Training the Beast|QID|6086|PRE|6085|C|Hunter|R|Dwarf|N|From Grif Wildheart|
-T Training the Beast|QID|6086|C|Hunter|R|Dwarf|N|C|Hunter|M|70.6,85.4|Z|Ironforge|N|To Belia Thundergranite, in Ironforge|
+A Taming the Beast |QID|6064|M|45.81,53.04|C|Hunter|R|Dwarf|N|From Grif Wildheart|
+C Taming the Beast |QID|6064|C|Hunter|R|Dwarf|U|15911|M|39.5,47.3|T|Large Crag Boar|N|Tame a Large Crag Boar using the taming rod. During the 20 second cast, you will see heart shapes and a casting bar.|
+T Taming the Beast |QID|6064|M|45.81,53.04|C|Hunter|R|Dwarf|N|To Grif Wildheart|
+A Taming the Beast |QID|6084|PRE|6064|M|45.81,53.04|C|Hunter|R|Dwarf|N|From Grif Wildheart|
+C Taming the Beast |QID|6084|C|Hunter|R|Dwarf|U|15913|M|48.0,59.0|T|Snow Leopard|N|This time you need to tame a Snow Leopard, these can be found south-east of Kharanos. You will need to dismiss your pet Large Crag Boar first.|
+T Taming the Beast |QID|6084|M|45.81,53.04|C|Hunter|R|Dwarf|N|To Grif Wildheart|
+A Taming the Beast |QID|6085|PRE|6084|M|45.81,53.04|C|Hunter|R|Dwarf|N|From Grif Wildheart|
+C Taming the Beast |QID|6085|C|Hunter|R|Dwarf|U|15908|M|51.5,44.5|T|Ice Claw Bear|N|This time you need to tame an Ice Claw Bear, these can be found east of Kharanos. You will need to dismiss your pet Snow Leopard first.|
+T Taming the Beast |QID|6085|M|45.81,53.04|C|Hunter|R|Dwarf|N|To Grif Wildheart|
+A Training the Beast|QID|6086|PRE|6085|M|45.81,53.04|C|Hunter|R|Dwarf|N|From Grif Wildheart|
+T Training the Beast|QID|6086|C|Hunter|R|Dwarf|M|70.6,85.4|Z|Ironforge|N|To Belia Thundergranite, in Ironforge|
 
 A Speak with Bink|QID|1879|C|Mage|R|Gnome|
 T Speak with Bink|QID|1879|C|Mage|R|Gnome|N|This turn-in is at your Irongforge trainer.|
 A Mage-tastic Gizmonitor|QID|1880|C|Mage|R|Gnome|
-C Mage-tastic Gizmonitor|QID|1880|C|Mage|R|Gnome|M|27.7,36.5|N|The Gizmonitor is in a toolbox at (27.7, 36.5).|
+C Mage-tastic Gizmonitor|QID|1880|C|Mage|R|Gnome|M|27.7,36.5|N|The Gizmonitor is in a toolbox at the waypoint.|
 T Mage-tastic Gizmonitor|QID|1880|C|Mage|R|Gnome|
 
 A Road to Salvation|QID|2218|C|Rogue|R|Dwarf,Gnome|
@@ -228,7 +227,7 @@ R Ironforge|QID|1715|C|Warlock|M|53.31,35.09|N|Class quest for your Voidwalker s
 A The Slaughtered Lamb|QID|1715|C|Warlock|M|47.63,9.29|Z|Ironforge|N|This starts in Ironforge.|
 T The Slaughtered Lamb|QID|1715|C|Warlock|M|39.23,85.27|Z|Stormwind City|N|To continue with this quest, you'll need to take the Deeprum Tram at the East end of Ironforge to Stormwind, then go to the Mage Quarter and down the stairs inside the bar.|
 A Surena Caledon|QID|1688|C|Warlock|M|39.23,85.27|Z|Stormwind City|
-C Surena Caledon|QID|1688|C|Warlock|M|71.0,80.6|Z|Elwynn Forest|N|Surena can be found in a house at (71.0, 80.6) in Elwynn Forest.|
+C Surena Caledon|QID|1688|C|Warlock|M|71.0,80.6|Z|Elwynn Forest|N|Surena can be found in a house in Elwynn Forest.|
 T Surena Caledon|QID|1688|C|Warlock|M|39.23,85.27|Z|Stormwind City|
 A The Binding|QID|1689|C|Warlock|M|39.23,85.27|Z|Stormwind City|
 C The Binding|QID|1689|C|Warlock|N|The Summoning Circle is farther underneath the trainers.|
@@ -238,18 +237,18 @@ H Thunderbrew Distillery|C|Warlock|U|6948|
 A Muren Stormpike|QID|1679|C|Warrior|R|Gnome,Dwarf|
 T Muren Stormpike|QID|1679|C|Warrior|R|Gnome,Dwarf|N|This turn-in is near the Ironforge trainers.|
 A Vejrek|QID|1678|C|Warrior|R|Gnome,Dwarf|
-C Vejrek|QID|1678|C|Warrior|R|Gnome,Dwarf|M|27.7,57.7|N|Vejrek can be found up a path leading into the mountains. He is in a hut at (27.7, 57.7).|
+C Vejrek|QID|1678|C|Warrior|R|Gnome,Dwarf|M|27.7,57.7|N|Vejrek can be found up a path leading into the mountains. He is in a hut at the waypoint.|
 T Vejrek|QID|1678|C|Warrior|R|Gnome,Dwarf|
 A Tormus Deepforge|QID|1680|C|Warrior|R|Gnome,Dwarf|
 T Tormus Deepforge|QID|1680|C|Warrior|R|Gnome,Dwarf|
 A Ironband's Compound|QID|1681|C|Warrior|R|Gnome,Dwarf|
-C Ironband's Compound|QID|1681|C|Warrior|R|Gnome,Dwarf|M|77.9,62.2|N|The ore is located in a guarded lockbox in the basement of a building at (77.9, 62.2).|
+C Ironband's Compound|QID|1681|C|Warrior|R|Gnome,Dwarf|M|77.9,62.2|N|The ore is located in a guarded lockbox in the basement of the building at the waypoint.|
 T Ironband's Compound|QID|1681|C|Warrior|R|Gnome,Dwarf|
 A Grey Iron Weapons|QID|1682|C|Warrior|R|Gnome,Dwarf|
 T Grey Iron Weapons|QID|1682|C|Warrior|R|Gnome,Dwarf|
 
 ; ---------- END OF LEVEL 10 CLASS TRAINING ------------
-
+    
 R Amberstill Ranch|QID|314|M|62.6,53.4|N|Head to Amberstill ranch, follow the road to the east .|
 A Protecting the Herd|QID|314|M|63.08,49.86|N|From Rudra Amberstill. Follow the path up the hill. This is an Elite quest (Level 11 Elite)|
 
@@ -263,7 +262,8 @@ A Those Blasted Troggs!|QID|432|M|69.08,56.32|N|From Foreman Stonebrow|
 C Those Blasted Troggs!|QID|432|S|N|Kill Rockjaw Skullthumpers, found both inside and outside area of the quarry.|
 C The Public Servant|QID|433|M|70.75,56.3|N|Kill the Rockjaw Bonesnappers, inside the Gol'Bolar Quarry Mine|
 C Those Blasted Troggs!|QID|432|US|N|Kill Rockjaw Skullthumpers, leave the mine, and target those outside only.|
-L Level 11|QID|432|LVL|11|N|Grind in this cave until 2800 exp into 11. Close this step when done.|
+L Level 11|QID|432|LVL|11;2800|N|Grind in this cave until 2800 exp into 11..|
+
 T The Public Servant|QID|433|M|68.67,55.97|N|To Senator Mehr Stonehallow|
 r Sell and Repair|QID|432|S|M|68.8,55.9|ACTIVE|432|N|Sell and Repair with Frast Dokner.|
 T Those Blasted Troggs!|QID|432|M|69.08,56.32|N|To Foreman Stonebrow|
