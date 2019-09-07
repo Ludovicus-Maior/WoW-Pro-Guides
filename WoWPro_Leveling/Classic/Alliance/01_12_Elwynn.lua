@@ -5,7 +5,7 @@
 
 local guide = WoWPro:RegisterGuide('ClassicElwynn0112', "Leveling", 'Elwynn Forest', 'Maw', 'Alliance', 1)
 WoWPro:GuideLevels(guide,1,12, 2)
-WoWPro:GuideNextGuide(guide, 'ClassicWestfall1314')
+WoWPro:GuideNextGuide(guide, 'ClassicWestfall1315')
 WoWPro:GuideSteps(guide, function() return [[
 
 A The Stolen Tome|QID|1598|QO|1|C|Warlock|R|Human|M|49.97,42.65|N|Pick up your class quest from your trainer, Drusilla La Salle. She is outside the Abbey on the right side.|
@@ -263,8 +263,8 @@ C Dead-tooth Jack|QID|1667|M|89.3,78.8|N|Clear the area, 'til you have just Jack
 T Dead-tooth Jack|QID|1667|M|84,69|N|To Marshal Haggard.|
 
 R Westfall |QID|109|ACTIVE|109|M|61.95,17.80|Z|Westfall|N|Follow the road into Westfall|
-A Furlbrow's Dead|QID|184|U|1971|N|If you happened to have found Furlbrow's deed (random rare drop), while questing thru Elwyn, accept the quest and then turn it in to Farmer Furlbrow. Else, check this off manually if you don't have the item.|
-A Furlbrow's Dead|QID|184|M|59.95,19.36|Z|Westfall|N|To Farmer Furlbrow.|
+A Furlbrow's Deed|QID|184|U|1971|N|If you happened to have found Furlbrow's deed (random rare drop), while questing thru Elwyn, accept the quest and then turn it in to Farmer Furlbrow. Else, check this off manually if you don't have the item.|
+A Furlbrow's Deed|QID|184|M|59.95,19.36|Z|Westfall|N|To Farmer Furlbrow.|
 A The Forgotten Heirloom|QID|64|M|59.95,19.36|Z|Westfall|N|From Farmer Furlbrow.|
 A Westfall Stew |QID|36|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
 A Poor Old Blanchy|QID|151|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
