@@ -788,13 +788,17 @@ function WoWPro:RowUpdate(offset)
 
 		row.note:SetText(note)
 		row.action:SetTexture(WoWPro.actiontypes[action])
+		row.action.tooltip.text:SetText(WoWPro.actionlabels[action])
 		if WoWPro.noncombat[k] and WoWPro.action[k] == "C" then
 			row.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
+			row.action.tooltip.text:SetText("No Combat")
 		elseif WoWPro.chat[k] then
 			row.action:SetTexture("Interface\\GossipFrame\\Gossipgossipicon")
+			row.action.tooltip.text:SetText("Chat")
 		elseif WoWPro.vehichle[k] then
 			-- Yeah, that is how blizzard spelled it!
 			row.action:SetTexture("Interface\\CURSOR\\vehichleCursor")
+			row.action.tooltip.text:SetText("Take Vehicle")
 		end
 
 		row.check:SetScript("OnClick", function(self, button, down)

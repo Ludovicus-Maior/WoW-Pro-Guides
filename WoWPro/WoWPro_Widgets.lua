@@ -27,16 +27,52 @@ function WoWPro:CreateAction(parent, anchor)
 	local action = frame:CreateTexture()
 	action.frame = frame
 	action:SetAllPoints()
-	
+
+	local tooltip = CreateFrame("Frame", nil, frame)
+	tooltip:SetBackdrop( {
+		bgFile = [[Interface\CHARACTERFRAME\UI-Party-Background]],
+		edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
+		tile = true, tileSize = 16, edgeSize = 16,
+		insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
+	})
+	tooltip:SetBackdropColor(0.1, 0.1, 0.1, 1)
+	tooltip:SetHeight(125)
+	tooltip:SetWidth(64)
+	tooltip:SetAlpha(1)
+	tooltip:SetFrameStrata("TOOLTIP")
+	tooltip:Hide()
+
+	local tooltiptext = tooltip:CreateFontString(nil, nil, "GameFontNormal")
+	tooltiptext:SetPoint("TOPLEFT", 10, -10)
+	tooltiptext:SetPoint("RIGHT", -10, 0)
+	tooltiptext:SetJustifyH("LEFT")
+	tooltiptext:SetJustifyV("TOP")
+	tooltiptext:SetWidth(50)
+	tooltiptext:SetAlpha(1)
+	tooltiptext:SetText("")
+    tooltip.text = tooltiptext
+
+	frame:SetScript("OnEnter", function()
+        tooltip:SetPoint("BOTTOMLEFT", frame, "TOPRIGHT", 0, 0)
+        tooltiptext:SetHeight(125)
+        tooltiptext:SetHeight(tooltiptext:GetStringHeight())
+        tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
+        tooltip:Show()
+	end)
+	frame:SetScript("OnLeave", function()
+	    tooltip:Hide()
+	end)
+	action.tooltip = tooltip
+
 	return action
 end
-	
+
 function WoWPro:CreateStep(parent, anchor)
 	local step = parent:CreateFontString(nil, nil, "GameFontHighlight")
 	step:SetPoint("LEFT", anchor, "RIGHT", 3, 0)
 	step:SetPoint("RIGHT")
 	step:SetJustifyH("LEFT")
-	
+
 	return step
 end
 
