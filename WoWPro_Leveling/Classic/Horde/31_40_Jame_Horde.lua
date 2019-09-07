@@ -71,9 +71,9 @@ L Level 33|ACTIVE|1111|N|Grind if needed to reach level 33.|LVL|33|
 R Tanaris|ACTIVE|1178|M|75.00,95.70|N|Before we leave, go south and into Tanaris.|
 f Gadgetzan|ACTIVE|1111|Z|Tanaris|M|51.60,25.4|N|Pick up the flight path from Bulkrek Ragefist.|
 F Ratchet|ACTIVE|1178|M|51.60,25.40|Z|Tanaris|N|At Bulkrek Ragefist.|
-T Goblin Sponsorship |QID|1178|M|62.70,36.20|N|Talk to Gazlowe, in one of the houses northwest of the wyvern landing spot.|
-A Goblin Sponsorship |QID|1180|M|62.70,36.20|N|From Gazlowe.|
-T Wharfmaster Dizzywig|QID|1492|M|63.40,38.50|N|To Wharfmaster Dizzywig.|
+T Goblin Sponsorship |QID|1178|M|62.70,36.20|Z|The Barrens|N|Talk to Gazlowe, in one of the houses northwest of the wyvern landing spot.|
+A Goblin Sponsorship |QID|1180|M|62.70,36.20|Z|The Barrens|N|From Gazlowe.|
+T Wharfmaster Dizzywig|QID|1492|M|63.40,38.50|Z|The Barrens|N|To Wharfmaster Dizzywig.|
 ;A Parts for Kravel|QID|1112|Z|The Barrens|M|63.4,38.5|N|From Wharfmaster Dizzywig.|
 b Booty Bay|QID|1181|N|Take the boat to Booty Bay.|Z|The Barrens|M|63.60,38.60|
 T Goblin Sponsorship |QID|1180|M|26.3,73.6|Z|Stranglethorn Vale|N|To Wharfmaster Lozgil.|
