@@ -4,6 +4,7 @@
 local guide = WoWPro:RegisterGuide('ClassicDarkshore1220', 'Leveling', 'Darkshore', 'Hairbo', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Darkshore 12-20')
 WoWPro:GuideLevels(guide, 11, 20, 13)
+WoWPro:GuideNextGuide(guide, 'ClassicRedridge1517')
 WoWPro:GuideSteps(guide, function() return [[
 R Rut'theran Village|QID|952|AVAILABLE|3524|M|28.82,41.50|Z|Darnassus|N|Walk into the portal down to Rut'theran.|
 F Auberdine|QID|952|AVAILABLE|3524|M|58.40,94.01|Z|Teldrassil|N|At Vesprystus.|
@@ -223,8 +224,8 @@ A One Shot. One Kill.|QID|5713|M|45.94,90.29|N|From Sentinel Aynasha.|
 C One Shot. One Kill.|QID|5713|M|45.94,90.29|N|Three waves, 1st wave has 2 enemies, 2nd has 3, 3rd has a single level 16.|
 T One Shot. One Kill.|QID|5713|M|26.60,36.72|Z|Ashenvale|N|From Sentinel Onaeya.|
 T Therylune's Escape|QID|945|M|22.65,51.92|Z|Ashenvale|N|To Therysil.|
-N Pretty much done|QID|942|N|At this point you should be done with every quest in the zone. Ideally you would be level 20 and move on to Ashenvale next, but unless you're a druid, chances are you are only 18 or 19 now. So you can continue on to Ashevnvale from here, or go back to Auberdine, to sail to wetlands and follow through with the prospector and book of power quests, getting the Ironforge flightpath which will be useful in the Ashenvale questline anyway. Also if you want to get a few extra levels you can do that in Loch Modan The rest of this guide will assume you're going to wetlands.
-b Wetlands|QID|942|ACTIVE|942|M|32.42,43.74|N|Run back to Auberdine. and get on the boat to Menethil.|
+N Pretty much done|QID|942|N|At this point you should be done with every quest in the zone. Ideally you would be higher level and move on to Ashenvale next, but chances are you are only 18 or 19 now. So you can continue on to Ashevnvale from here but it will be difficult, or go back to Auberdine, to sail to wetlands and follow through with the prospector and book of power quests, getting the Ironforge flightpath which will be useful in the Ashenvale questline anyway. The rest of this guide will assume you're going to wetlands.|
+b Wetlands|QID|942|M|32.42,43.74|N|Run back to Auberdine. and get on the boat to Menethil.|
 f Menethil Harbor|QID|942|M|9.48,59.68|Z|Wetlands|N|Grab the flightpath.|
 T The Absent Minded Prospector|QID|942|M|10.84,60.43|Z|Wetlands|N|To Archaeologist Flagongut, inside the DeepWater Tavern on the 2nd floor. Don't take follow up, too high level for now.|
 R Dun Algaz|QID|968|M|53.89,70.32|Z|Wetlands|N|Run to Loch Modan. |
@@ -237,6 +238,7 @@ R Ironforge|QID|968|M|53.46,34.96|Z|Dun Morogh|N|Keep running up.|
 f Ironforge|QID|968|M|55.49,47.72|Z|Ironforge|N|Grab the flightpath from Gryth Thurden.|
 T The Powers Below|QID|968|M|50.82,5.66|Z|Ironforge|N|To Gerrig Bonegrip.|
 A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|N|Another quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
-N The End|QID|943|N| At this point I recommend taking the deeprun tram to stormwind and do westfall or redridge until you're level 20 or 21 and then return to Astranaar, or you can hearth and head to Astranaar and try your luck a bit underleveled.|
+R Deeprun Tram|QID|244|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
+R Stormwind City|QID|244|N|Take the tram ride and then run into Stormwind.|
 ]]
 end)

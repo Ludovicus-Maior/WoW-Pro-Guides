@@ -6,10 +6,26 @@ WoWPro:GuideName(guide, 'Redridge 20-21')
 WoWPro:GuideLevels(guide, 20, 21, 20)
 WoWPro:GuideNextGuide(guide, 'ClassicDuskwood2122')
 WoWPro:GuideSteps(guide, function() return [[
-N Rogue Poisons|QID|126|N|Don't forget that rogue can now buy poisons from the shady dealer at level 20. You don't need to do any quest to unlock them now! They are a big help so don't forget them. Close this step when you're done.|C|Rogue|Z|Stormwind City|M|80.2,70.1|
 A Speaking of Fortitude|QID|343|M|45.7,38.4|Z|Stormwind City|N|From Brother Kristoff.|
 T Speaking of Fortitude|QID|343|M|74.2,7.6|Z|Stormwind City|N|To Milton Sheaf.|
 A Brother Paxton|QID|344|M|74.2,7.5|Z|Stormwind City|PRE|343|
+N Mathias and the Defias|QID|2360|M|68.4,70.2|Z|Westfall|N|You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|P|Lockpicking;633;0+70;1|
+A Mathias and the Defias|QID|2360|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest chain.|C|Rogue|P|Lockpicking;633;0+70;0|
+F Sentinal Hill|QID|2360|N|Hearth (or fly )to Westfall|Z|Stormwind City|M|71.00,72.50|C|Rogue|P|Lockpicking;633;0+70;0|
+T Mathias and the Defias|QID|2360|M|68.4,70.2|Z|Westfall|N|To Agent Kearnen. You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|
+A Klaven's Tower|QID|2359|M|68.4,70.2|Z|Westfall|N|From Agent Kearnen. You will need at least 70 in Lockpicking to complete this quest.|C|Rogue|PRE|2360|
+C Klaven's Tower|QID|2359|M|70,75|Z|Westfall|QO|2|N|Pickpocket from the Malformed Defias Drone that roams around. If he doesn't have it you have to wait for him to despawn and respawn.|C|Rogue|
+C Klaven's Tower|QID|2359|M|70.4,73.93|Z|Westfall|QO|1|N|Sneak to the top of the tower, sap the boss and lockpick the box.|C|Rogue|
+F Stormwind City|QID|2359|M|56.55,52.65|Z|Westfall|N|Fly or run to Stormwind.|C|Rogue|P|Lockpicking;633;0+70;0|
+T Klaven's Tower|QID|2359|M|76,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
+A The Touch of Zanzil|QID|2607|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Optional quest if you need help displling the poison.|C|Rogue|PRE|2359|
+T The Touch of Zanzil|QID|2607|M|78,59|Z|Stormwind City|N|To Doc Mixilpixil down in the basement.|C|Rogue|PRE|2359|
+A The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2607|
+C The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|Target Doc Mixilpixil and type /lay. Wait for his diagnosis.|C|Rogue|
+T The Touch of Zanzil|QID|2608|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
+A The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|From Doc Mixilpixil.|C|Rogue|PRE|2608|
+C The Touch of Zanzil|QID|2609|M|40,46.4;64.4,60.6|CS|Z|Stormwind City|N|The thread is an object on the floor. The wildflowers can be bought from Felicia Gump. The vials can be found on any trade shop. The Bronze tube can be purchased sometimes from engineering suppliers, otherwise you need to buy them from the AH or have an Engineer make it for you. |C|Rogue|
+T The Touch of Zanzil|QID|2609|M|76,59.8|Z|Stormwind City|N|To Doc Mixilpixil.|C|Rogue|
 R Elwynn Forest|QID|344|N|Go to Elwynn Forest.|Z|Stormwind City|M|66.35,77.51;74.76,93.41|CS|
 T Brother Paxton|QID|344|M|49.6,40.3|Z|Elwynn Forest|
 A Ink Supplies|QID|345|M|49.6,40.3|Z|Elwynn Forest|PRE|344|
