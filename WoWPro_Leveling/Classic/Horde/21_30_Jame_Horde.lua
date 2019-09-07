@@ -145,7 +145,7 @@ A Elixir of Suffering |QID|499|PRE|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|Fro
 T Elixir of Suffering |QID|499|M|61.40,19.10|Z|Hillsbrad Foothills|N|At Umpi.|
 
 C Elixir of Pain|QID|501|S|N|Kill every Starving Mountain Lion you find.|
-R Hillsbrad Fields|ACTIVE@|527|M|32.20,41.30|Z|Hillsbrad Foothills|
+R Hillsbrad Fields|ACTIVE|527|M|32.20,41.30|Z|Hillsbrad Foothills|
 C Battle of Hillsbrad |QID|527|QO|1|S|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
 C Battle of Hillsbrad |QID|527|QO|2|S|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
 K Kill Farmer Getz|QID|527|QO|4|M|34.00,40.00|Z|Hillsbrad Foothills|N|If Farmer Getz is not in his house, he's either in the field right next to it or in the barn|
