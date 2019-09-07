@@ -128,7 +128,7 @@ A The Second Rebellion|QID|203|M|38.0,3.3|Z|Stranglethorn Vale|N|From Sergeant Y
 A Bad Medicine|QID|204|M|38.0,3.3|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
 A Krazek's Cookery|QID|210|M|37.7,3.3|Z|Stranglethorn Vale|N|From Corporal Kaleb.|
 R Nesingwary Camp|QID|5762|M|35.00,10.00|Z|Stranglethorn Vale|N|Head west along the road and then south. Once in stranglthorn cross the bridge and head west to the camp|
-T Hemet Nesingwary Jr.|QID|5762|M|35.00,10.00|Z|Stranglethorn Vale|N|To Hemet Nesingwary, Jr.|
+T Hemet Nesingwary|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary|
 
 A Welcome to the Jungle|QID|583|M|35.71,10.65|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
 T Welcome to the Jungle|QID|583|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary|
@@ -228,8 +228,8 @@ R Southshore|QID|555|N|If you dont have the flight points, its Ironforge to wetl
 
 B Soothing Spices|QID|555|N|Buy one Soothing Spices from the merchant.|L|3713 1|M|48.90,55.00|Z|Hillsbrad Foothills|
 h Southshore|QID|562|N|Set your home location to Southshore.|M|51.20,58.90|
-T Southshore|QID|538|M|54.4,57|Z|Hillsbrad Foothills|N|To Loremaster Dibbs.|
-A Preserving Knowledge|QID|540|M|54.4,57|Z|Hillsbrad Foothills|N|From Loremaster Dibbs.|PRE|538|
+T Southshore|QID|538|M|54.56,57.09|Z|Hillsbrad Foothills|N|To Loremaster Dibbs.|
+A Preserving Knowledge|QID|540|M|54.56,57.09|Z|Hillsbrad Foothills|N|From Loremaster Dibbs.|PRE|538|
 A Hints of a New Plague?|QID|659|M|50.3,59.0|Z|Hillsbrad Foothills|N|From Phin Odelic.|
 A Down the Coast|QID|536|M|51.4,58.6|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
 A Soothing Turtle Bisque|QID|555|M|51.9,58.7|Z|Hillsbrad Foothills|N|From Chef Jessen.|
