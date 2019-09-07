@@ -97,20 +97,20 @@ A Bloody Bone Necklaces|QID|596|M|32.20,27.70|Z|Stranglethorn Vale|N|From Kin'we
 A The Vile Reef|QID|629|M|32.20,27.70|Z|Stranglethorn Vale|N|From Kin'weelay.|
 N Things to do|QID|338|Z|Stranglethorn Vale|N|From now on, whenever you kill something in Stranglethorn Vale, you might find "Green Hills of Stranglethorn" pages, make sure you keep one of each page.|
 
-R Nesingwary Expedition|ACTIVE|5762|M|35,10|N|Exit the east side of Grom'gol and follow the road, over the first bridge and just before the 2nd bridge, go down the hill to Nesingwary's camp.|
-T Hemet Nesingwary|QID|5762|M|35.60,10.60|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
+R Nesingwary Expedition|ACTIVE|5762|M|35.71,10.65|N|Exit the east side of Grom'gol and follow the road, over the first bridge and just before the 2nd bridge, go down the hill to Nesingwary's camp.|
+T Hemet Nesingwary|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
 A Welcome to the Jungle|QID|583|M|35.60,10.60|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
 T Welcome to the Jungle|QID|583|M|35.60,10.60|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
-A Raptor Mastery |QID|194|M|35.60,10.60|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
-A Panther Mastery |QID|190|M|35.60,10.60|Z|Stranglethorn Vale|N|From Sir S.J Erlgadin.|
-A Tiger Mastery |QID|185|M|35.60,10.60|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+A Raptor Mastery |QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+A Panther Mastery |QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S.J Erlgadin.|
+A Tiger Mastery |QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 C Supply and Demand|QID|575|M|40.30,12.40|Z|Stranglethorn Vale|N|Kill River Crocolisks which can be found all along the river in northern Stranglethorn Vale until you find 2 Large Crocolisk Skins. While you search for crocs you can also kill Young Tigers close to the river for Tiger Mastery.|
 C Tiger Mastery |QID|185|Z|Stranglethorn Vale|N|Tigers can be found mostly south and around the Nesingwary camp.|
 C Panther Mastery |QID|190|M|41,10|Z|Stranglethorn Vale|N|Mostly on the other side of the river and east from the tigers.|
-T Tiger Mastery |QID|185|M|35.60,10.60|Z|Stranglethorn Vale|N|To Ajeck Rouack, back at Nesingwary's Expedition.|
-A Tiger Mastery |QID|186|M|35.60,10.60|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
-T Panther Mastery |QID|190|M|35.60,10.60|Z|Stranglethorn Vale|N|To Sir S.J Erlgadin.|
-A Panther Mastery |QID|191|M|35.60,10.60|Z|Stranglethorn Vale|N|From Sir S.J Erlgadin.|
+T Tiger Mastery |QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack, back at Nesingwary's Expedition.|
+A Tiger Mastery |QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+T Panther Mastery |QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S.J Erlgadin.|
+A Panther Mastery |QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S.J Erlgadin.|
 C Panther Mastery |QID|191|M|30.00,9.00|Z|Stranglethorn Vale|S|N|Go west until you reach a plateau. Up there you can find Panthers and Tigers. Kill 10 of each.|
 C Tiger Mastery |QID|186|M|30.00,9.00|Z|Stranglethorn Vale|N|Kill panthers in the area.|
 C Panther Mastery |QID|191|M|30.00,9.00|Z|Stranglethorn Vale|US|N|Kill tigers in and around the plateau.|
@@ -122,12 +122,12 @@ C Bloodscalp Tusks|QID|581|M|28.80,19.70|Z|Stranglethorn Vale|US|N|Continue kill
 C Bloodscalp Ears|QID|189|M|28.8,19.7|Z|Stranglethorn Vale|US|N|Finish collecting the needed ears. If you don't have enough trolls there is another camp northeast at the Tkashi Ruins.|
 C Singing Blue Shards|QID|605|M|26.70,18.50|Z|Stranglethorn Vale|N|Once you've collected all of that, go west to the shore and move along the shore towards the north until you find Crystal Spine Basilisks. If you run short on Basilisks, there is more on the lower plateau to the east along the shore. If there aren't any basilisks just go kill some trolls until they respawn.|
 C The Vile Reef|QID|629|M|24.00,22.00|Z|Stranglethorn Vale|N|After that go take a swim until you reach the waypoint, right under you should be some ruins guarded by murlocs. Against one of the outer walls of those ruins you should see a big tablet, called "Gri'lek the Wanderer" (it should also sparkle). Dive and click the tablet to loot the  Tablet Shard, you should be able to do that without aggro'ing any murloc.|
-T Raptor Mastery |QID|194|M|35.60,10.60|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
-A Raptor Mastery |QID|195|M|35.60,10.60|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
-T Panther Mastery |QID|191|M|35.60,10.60|Z|Stranglethorn Vale|N|To Sir S.J Erlgadin.|
-A Panther Mastery (Part 3|QID|192|M|35.60,10.60|Z|Stranglethorn Vale|N|From Sir S.J Erlgadin.|
-T Tiger Mastery |QID|186|M|35.60,10.60|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
-A Tiger Mastery |QID|187|M|35.60,10.60|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+T Raptor Mastery |QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
+A Raptor Mastery |QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+T Panther Mastery |QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S.J Erlgadin.|
+A Panther Mastery |QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S.J Erlgadin.|
+T Tiger Mastery |QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
+A Tiger Mastery |QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 L Level Check|ACTIVE|187|LVL|33;46880|N|You should be about 4 bubbles from 34, if you aren't grind trolls on the way back to Grom'gol.|
 T Hunt for Yenniku|QID|581|M|32.20,27.70|Z|Stranglethorn Vale|N|To Nimboya, back at Grom'gol base camp.|
 T The Vile Reef|QID|629|M|32.30,28.60|Z|Stranglethorn Vale|N|To Kin'weelay.|
