@@ -7,7 +7,7 @@ WoWPro:GuideLevels(guide, 12, 14, 13)
 WoWPro:GuideNextGuide(guide, 'ClassicWestfall1315')
 WoWPro:GuideSteps(guide, function () return [[
 
-N This guide starts in Thelsamar. If you can't fly there, you get there by running out of Ironforge, thru Dun Morogh, and then thru either of the passes into Loch Modan.|
+N Guide starts in Thelsamar|N|If you can't fly there, you get there by running out of Ironforge, thru Dun Morogh, and then thru either of the passes into Loch Modan.|
 h Stoutlager Inn|QID|1339|N|Set your hearthstone to Thelsamar|M|35.55,48.40|
 A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|
 A Rat Catching|QID|416|M|34.8,47.1|
