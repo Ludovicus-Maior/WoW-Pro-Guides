@@ -1210,7 +1210,31 @@ function WoWPro.NextStep(k,i)
             skip = true
             break
         end
+	if WoWPro.action[k] == "A" and WoWPro.use[k] then
+		if GetItemCount(WoWPro.use[k]) == 0 then
+			local why = "You don't have the item to start this quest."
+			WoWPro.why[k] = why
+			WoWPro:dbp(why)
+			skip = true
+			break
+		end
+	end
 
+	if (WoWPro.group[k] and not IsInGroup() and WoWPro.action[k] == "A") then
+       		local why = "You are not in a group."
+		WoWPro.why[k] = why
+		WoWPro:dbp(why)
+		skip = true
+		break
+    	end
+	
+	if (WoWPro.group[k] and IsInGroup() and WoWPro.action[k] == "N") then
+       		local why = "You are in a group, note not needed."
+		WoWPro.why[k] = why
+		WoWPro:dbp(why)
+		skip = true
+		break
+    	end
 	    -- Availible quests: not complete  --
 	    if WoWPro.available[k] then
 	        local available = WoWPro.available[k]

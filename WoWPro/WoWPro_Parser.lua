@@ -279,6 +279,7 @@ DefineTag("RECIPE","recipe","number",nil,nil)
 DefineTag("PET","pet","string",nil,nil)
 DefineTag("BUILDING","building","string",nil,nil)
 DefineTag("GUIDE","guide","string",nil,nil)
+DefineTag("GROUP","group","boolean",nil,nil)
 DefineTag("RARE","rare","boolean",nil,nil)
 DefineTag("EX","expansion","string",validate_old_list_of_ints,nil)
 
@@ -631,6 +632,7 @@ end
 
 function WoWPro.SemiMatch(big,little)
 	local possible = select("#", string.split(",", big))
+	local lmatch = false;
 	for j=1,possible do
 		local jpossible = select(possible-j+1, string.split(",", big))
 		local flip
@@ -644,9 +646,15 @@ function WoWPro.SemiMatch(big,little)
 			return true
 		elseif flip and (jpossible == little) then
 		    return false
+		elseif flip then
+			lmatch = true
 		end
 	end
-    return false
+	if lmatch then
+		return true
+	else
+		return false
+	end
 end
 
 -- Quest parsing function --
