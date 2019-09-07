@@ -111,7 +111,7 @@ C Beren's Peril|QID|516|M|52.84,45.20;51.91,50.33;60.76,65.13;60.47,75.40;59.70,
 R Hillsbrad Foothills|QID|494|M|67.00,80.40|Z|Silverpine Forest|
 A Time To Strike|QID|494|M|20.80,47.40|Z|Hillsbrad Foothills|N|From Deathstalker Lesh.|
 
-R Tarren Mill|QID|493|M|56.25,36.89;31.69,50.42;60.20,18.70|CS|Z|Hillsbrad Foothills|
+R Tarren Mill|QID|493|M|31.69,50.42;56.25,36.89;60.20,18.70|CS|Z|Hillsbrad Foothills|
 f Tarren Mill|QID|493|M|60.20,18.70|Z|Hillsbrad Foothills|
 T Journey to Hillsbrad Foothills|QID|493|M|61.4,19.2|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
 T Time To Strike|QID|494|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
@@ -132,7 +132,7 @@ C Elixir of Suffering|QID|496|S|N|Kill every bear and spider you encounter.|
 R Durnholde Keep|QID|498|M|77.90,45.50|Z|Hillsbrad Foothills|
 K Jailor Marlgen for Burnished Gold Key|QID|498|L|3499|M|78.00,40.00|Z|Hillsbrad Foothills|N|Kill everything in the area until you find Jailor Marlgen.  Kill him and loot the key.|
 C Free Thog'thar|QID|498|QO|2|NC|M|79.70,39.70|Z|Hillsbrad Foothills|
-K Jailor Eston|QID|498|L|3467|M|75.30,42.00|Z|Hillsbrad Foothills|N|Find Jailor Eston in the area to get the Dull Iron Key for the other prisoner, Drull, but if Jailor Eston isn't there he is probably in one of the houses on the lower level of the fortress.  Start clearing the way to the wooden houses, watch out, mobs run away here.|
+K Jailor Eston|QID|498|L|3467|M|75.30,42.00|Z|Hillsbrad Foothills|N|Find Jailor Eston in the area (he does wander) to get the Dull Iron Key for the other prisoner, Drull, but if Jailor Eston isn't there he is probably in one of the houses on the lower level of the fortress.  Start clearing the way to the wooden houses, watch out, mobs run away here.|
 C Free Drull|QID|498|QO|1|NC|M|75.40,41.60|Z|Hillsbrad Foothills|
 C WANTED: Syndicate Personnel|QID|549|M|76.70,42.80|Z|Hillsbrad Foothills|N|Make your way out of Durnholde while finishing this quest.|
 
@@ -145,7 +145,7 @@ A Elixir of Suffering |QID|499|PRE|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|Fro
 T Elixir of Suffering |QID|499|M|61.40,19.10|Z|Hillsbrad Foothills|N|At Umpi.|
 
 C Elixir of Pain|QID|501|S|N|Kill every Starving Mountain Lion you find.|
-R Hillsbrad Fields|QID|527|M|32.20,41.30|Z|Hillsbrad Foothills|
+R Hillsbrad Fields|ACTIVE@|527|M|32.20,41.30|Z|Hillsbrad Foothills|
 C Battle of Hillsbrad |QID|527|QO|1|S|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
 C Battle of Hillsbrad |QID|527|QO|2|S|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
 K Kill Farmer Getz|QID|527|QO|4|M|34.00,40.00|Z|Hillsbrad Foothills|N|If Farmer Getz is not in his house, he's either in the field right next to it or in the barn|
