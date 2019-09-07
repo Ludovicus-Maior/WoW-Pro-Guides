@@ -304,7 +304,7 @@ T Letter to Stormpike|QID|514|M|74.7,11.7|Z|Ironforge|N|To Prospector Stormpike.
 R Stormwind City|QID|563|N|Take the Deeprun Tram in Tinker Town.|
 T Return to Milton|QID|542|M|74,7.6|Z|Stormwind City|N|To Milton Sheaf.|
 r Repair, restock, train|QID|563|N|Sell junk, repair, restock, train new skills.|
-T Reassignment|QID|563|Z|Stormwind City|M|75.8,36.7|N|To Major Samuelson.|
+T Reassignment|QID|563|Z|Stormwind City|M|72.60,15.94|N|To Major Samuelson.|
 B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn. Now is the time you really need these.|ITEM|4278|
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
