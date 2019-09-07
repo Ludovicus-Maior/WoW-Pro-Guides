@@ -2,7 +2,6 @@ local guide = WoWPro:RegisterGuide('JameAlli_II', 'Leveling', 'Stranglethorn Val
 WoWPro:GuideLevels(guide,41, 50)
 WoWPro:GuideNextGuide(guide, 'JameAlli_III')
 WoWPro:GuideName(guide, 'Jame Chapter II Leveling')
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide, "ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0.50,0.75})
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -20,7 +19,8 @@ A Mazen's Behest|QID|1364|M|40,63|Z|Stormwind City|N|From Acolyte Dellis.|
 F Booty Bay|QID|595|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
 h Booty Bay|QID|595|M|27.00,77.30|N|Make Booty Bay your home location.|
 r Sell junk, repair, restock|QID|595|N|Sell junk, repair, restock.|
-A Goblin Sponsorship |
+T Goblin Sponsorship |QID|1180|M|26.3,73.6|Z|Stranglethorn Vale|N|To Wharfmaster Lozgil.|
+A Goblin Sponsorship |QID|1181|M|26.3,73.6|Z|Stranglethorn Vale|N|From Wharfmaster Lozgil.|
 A Skullsplitter Tusks|QID|209|M|27.0,77.1|N|From Kebok.|
 A Tran'rek|QID|2864|M|26.9,77.2|N|From Krazek.|
 A Zanzil's Secret|QID|621|M|27.1,77.2|N|From Crank Fizzlebub.|
@@ -28,6 +28,8 @@ N Green Hills of Stranglethorn|QID|6504|Z|Stranglethorn Vale|N|While you are in 
 A Akiris by the Bundle |QID|617|M|26.8,76.4|N|From Privateer Bloads.|
 A The Bloodsail Buccaneers |QID|595|M|28.1,76.2|N|From First Mate Crazz.|
 A Venture Company Mining|QID|600|M|27.1,77.2|N|Accept this quest if you do not have it.|
+T Goblin Sponsorship |QID|1181|M|27.20,76.90|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
+A Goblin Sponsorship |QID|1182|M|27.20,76.90|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
 A Scaring Shaky|QID|606|M|27.8,77.1|N|Accept this quest if you do not have it.|
 A "Pretty Boy" Duncan|QID|610|N|Accept this quest if you do not have it.|
 K "Pretty Boy" Duncan|ACTIVE|610|M|27.50,69.35|T|"Pretty Boy" Duncan|N|Kill Pretty Boy Duncan at this location and loot the blade from him.|
@@ -73,8 +75,8 @@ C "Gri"lek the Wanderer|QID|207|QO|2|M|24.75,22.86|NC|N|Loot the scroll from the
 C The Emperor's Tomb|QID|207|QO|4|M|21,10;22.90,12.00|CS|NC|N|Into the ruins, left and up the ramp at the first fork. Loot the scroll from this location.|
 C Fall of Gurubashi|QID|207|QO|3|M|24.70,8.90|NC|N|Go back to the fork and take the ramp up to the right, then uturn at top to find and loot the scroll from this location.|
 R Nessingwary's Camp|ACTIVE|192^193|M|35.8,10.7|
-T Panther Mastery |QID|192|M|35.8,10.7|
-T Raptor Mastery |QID|196|M|35.8,10.7|
+T Panther Mastery |QID|192|M|35.55,10.55|N|To Sir S.J Erlgadin.|
+T Raptor Mastery |QID|196|M|35.66,10.81|To Hemet Nesingwary.|
 R Rebel Camp|ACTIVE|207|M|37.8,3.4|
 T Kurzen's Mystery|QID|207|M|37.8,3.4|N|To Brother Nimetz.|
 
@@ -85,8 +87,8 @@ T Up to Snuff|QID|587|M|26.9,77.3|N|To Deeg.|
 T Skullsplitter Tusks|QID|209|M|27.0,77.1|N|To Kebok.|
 T Goblin Sponsorship |QID|1182|M|27.2,77.0|N|To Baron Revilgaz.|
 A Goblin Sponsorship |QID|1183|M|27.2,77.0|N|From Baron Revilgaz.|
-T The Bloodsail Buccaneers |
-;A The Bloodsail Buccaneers |QID|608|M|27.2,77.0|
+T The Bloodsail Buccaneers |QID|604|M|27.2,77.0|N|To Fleet Master Seahorn. (skip followup if you are solo)|
+;A The Bloodsail Buccaneers |QID|608|M|27.2,77.0|N|From Fleet Master Seahorn.|-- removed due to difficulty to solo
 T Voodoo Dues|QID|609|M|27.8,77.1|N|To "Sea Wolf" MacKinley. (skip follow up).|
 A Stoley's Debt|QID|2872|M|27.8,77.1|N|From "Sea Wolf" MacKinley.|
 
@@ -168,7 +170,7 @@ R Mirage Raceway|ACTIVE|1137|M|80,75|Z|Thousand Needles|N|Continue North to the 
 T News for Fizzle|QID|1137|M|78.1,77.1|Z|Thousand Needles|N|To Fizzle Brassbolts.|
 A Gahz'Rilla|QID|2770|M|78.1,77.1|Z|Thousand Needles|N|To Wizzle Brassbolts.|
 T Parts for Kravel|QID|1112|M|77.8,77.3|Z|Thousand Needles|N|From Fizzle Brassbolts. (skip followup)|
-T Goblin Sponsorship |
+T Goblin Sponsorship |QID|1183|M|80.2,75.9|Z|Thousand Needles|N|To Pozzik.|
 A Keeping Pace|QID|1190|M|80.2,75.9|Z|Thousand Needles|N|From Pozzik.|
 C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving.  Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.| 
 T Keeping Pace|QID|1190|M|77.2,77.4|Z|Thousand Needles|N|To Unguarded Plans.|
@@ -277,7 +279,7 @@ r Sell junk, repair, restock|QID|2944|N|Sell junk, repair, restock.|
 C More Wastewander Justice|QID|1691|M|59.00,37.00|Z|Tanaris|S|N|Kill mobs around here to finish this quest.|
 K Caliph Scorpidsting|ACTIVE|2781|QO|1|M|63.00,37.00|Z|Tanaris|T|Caliph Scorpidsting|N|Find and kill Caliph Scorpidsting around this location. He has 2 stealthed bodyguards.|
 C More Wastewander Justice|QID|1691|M|59.00,37.00|Z|Tanaris|US|N|Finish killing mobs around here to finish this quest.|
-R Lost Rigger Cove|ACTIVE|8366|M|68,41|N|Go through the tunnel to find the cove.|
+R Lost Rigger Cove|ACTIVE|8366|M|68,41|Z|Tanaris|N|Go through the tunnel to find the cove.|
 C Southsea Shakedown|QID|8366|M|73.00,47.00|Z|Tanaris|S|N|kill the pirates for this quest.|
 K Andre Firebeard|ACTIVE|2875|QO|1|M|73.00,47.00|Z|Tanaris|T|Andre Firebeard|N|Kill Andre Firebeard and take his head.|
 C Stoley's Shipment|QID|2873|M|72.00,46.00|Z|Tanaris|NC|N|Go to the top floor of the house at this location and get Stoley's Shipment.|
@@ -342,7 +344,7 @@ T Witherbark Cages|QID|2988|M|9.8,44.5|Z|The Hinterlands|N|To Gryphon Master Tal
 A The Altar of Zul|QID|2989|M|48.84,68.44|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock|
 
-R Altar if Zul|ACTIVE|2989|M|49,64|N|Run to the Alter of Zul and ask in zone chat if anyone else is interested in doing [The Altar of Zul]. Ideally 2 other people, higher level (50).|
+R Altar of Zul|ACTIVE|2989|M|49,64|Z|The Hinterlands|N|Run to the Alter of Zul and ask in zone chat if anyone else is interested in doing [The Altar of Zul]. Ideally 2 other people, higher level (50).|
 K Qiaga the Keeper|ACTIVE|2989|M|49.00,68.00|Z|The Hinterlands|T|Qiaga the Keeper|L|9241 1|N|Loot the Sacred Mallet from Qiaga the Keeper. This is optional, only needed to summon a mob in Zul'Farrak Dungeon. Skip this objective if you can't find anyone to help.|
 C The Altar of Zul|QID|2989|M|49.00,68.00|Z|The Hinterlands|NC|N|Go to the altar to get the quest complete message. (stealth, invis, etc, it all works)|
 A Jammalan the Prophet|QID|1446|M|32,74|Z|The Hinterlands|N|Optionally, particularly if you plan to do the Sunken Temple dungeon instance, go over to Shadra'Alor and get this quest from the Atalai' Exile. (check off manually if you choose not to go get it)|
