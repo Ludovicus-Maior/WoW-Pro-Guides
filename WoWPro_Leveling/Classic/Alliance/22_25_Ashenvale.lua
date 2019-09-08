@@ -2,7 +2,7 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 local guide = WoWPro:RegisterGuide('ClassicAshenvale2324', 'Leveling', 'Ashenvale', 'Boston', 'Alliance', 1)
-WoWPro:GuideName(guide, 'Ashenvale 21-24')
+WoWPro:GuideName(guide, 'Ashenvale 22-25')
 WoWPro:GuideLevels(guide, 22, 25, 23)
 WoWPro:GuideNextGuide(guide, 'ClassicWetlands2526')
 WoWPro:GuideSteps(guide, function() return [[
@@ -47,9 +47,11 @@ C Super Reaper 6000|QID|1093|M|62.70,54.01|Z|Stonetalon Mountains|S|N|Kill Ventu
 C A Gnome's Respite|QID|1071|M|69.5,54.5|Z|Stonetalon Mountains|N|Kill Loggers and Deforesters around the area.|
 C Super Reaper 6000|QID|1093|M|62.70,54.01|Z|Stonetalon Mountains|US|N|If for some reason you still haven't found it, keep killing Venture Co. until drops.|
 T Super Reaper 6000|QID|1093|M|59.0,62.6|Z|Stonetalon Mountains|N|To Ziz Fizziks. Don't get the follow up quest.|
-T A Gnome's Respite|QID|1071|M|59.52,67.14|Z|Stonetalon Mountains|N|To Gaxim Rustfizzle. Don't get the follow up.|
+T A Gnome's Respite|QID|1071|M|59.52,67.14|Z|Stonetalon Mountains|N|To Gaxim Rustfizzle.|
+A A Scroll from Mauren|QID|1075|M|59.52,67.14|Z|Stonetalon Mountains|N|From Gaxim Rustfizzle.|
+C Retrieval for Mauren|QID|1078|M|44,40|Z|Stonetalon Mountains|N|Kill Blackened Basilisks and loot their scales.|
 C Pridewings of Stonetalon|QID|1134|US|M|50.43,45.78|Z|Stonetalon Mountains|N|Kill Pridewing Wyverns to finish this up.|
-T Journey to Stonetalon Peak|QID|1056|M|37.11,8.10|Z|Stonetalon Mountains|N|To Keeper Albagorm. Kill Wyverns on the way.|
+T Journey to Stonetalon Peak|QID|1056|M|37.11,8.10|Z|Stonetalon Mountains|N|To Keeper Albagorm.|
 f Stonetalon Peak|QID|1134|M|36.44,7.18|Z|Stonetalon Mountains|N|Grab the flightpath from Teloren|
 F Astranaar|QID|1134|M|36.44,7.18|Z|Stonetalon Mountains|N|Fly back to Astranaar.|
 T Pridewings of Stonetalon|QID|1134|M|34.68,48.84|Z|Ashenvale|N|To Shindrell Swiftfire.|
