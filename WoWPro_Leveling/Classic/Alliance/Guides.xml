@@ -10,8 +10,7 @@
 	<Script file="20_21_Redridge.lua"/>
 	<Script file="21_22_Duskwood.lua"/>
 	<Script file="22_23_Wetlands.lua"/>
-	<Script file="23_24_Ashenvale.lua"/>
-	<Script file="24_25_Ashenvale.lua"/>
+	<Script file="22_25_Ashenvale.lua"/>
 	<Script file="25_26_Wetlands.lua"/>
 	<Script file="27_28_Duskwood.lua"/>
 	<Script file="28_29_Wetlands.lua"/>
