@@ -132,7 +132,7 @@ A Seek Redemption!|AVAILABLE|489|PRE|488|M|56.10,57.73|N|From Syral Bladeleaf|
 A Denalan's Earth|QID|997|M|56.09,57.72|N|From Syral Bladeleaf.|
 C Seek Redemption!|ACTIVE|489|NC|S|L|3418 3|N|Look out for Fel Cones below trees. Green smoke comes out of them.|
 
-r Sell and Repair|QID|4161|S|M|59.31,41.09|ACTIVE|4161|N|Sell and Repair with the many vendors of Dolanaar.|
+r Sell and Repair|QID|4161|S|M|59.31,41.09|ACTIVE|4161|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
 T Recipe of the Kaldorei|QID|4161|M|57.11,61.28|N|To Zarrin.|
 N Cooking|QID|997|RECIPE|6412|S|ACTIVE|997|M|57.18,61.26|U|5482|N|Level your cooking to 10 with the small eggs. You can buy mild spices from Nyoma. Then learn the Kaldorei Spider Kabob recipe. Right click off if you don't want to learn cooking.|
 
@@ -174,7 +174,7 @@ R Darnassus|QID|922|M|39.02,53.24;36.28,54.37|CC|N|Run to Darnassus along the ro
 ; Guide displays error: WoWPro: Warning: malformed profession tag [Skinning;393]
 ; B Skinning Knife|QID|922|S|P|Skinning;393|L|7005|N|Buy a Skinning Knife from Mytrhin'dir if you just learned Skinning.|
 
-N Visit the Bank|QID|922|S|M|40.02,42.28|Z|Darnassus|CC|N|When in Darnassus take a minute and visit the bank to offload items. You can also visit the Auction House.|
+N Visit the Bank and Fishing Trainer|QID|922|S|M|40.02,42.28|Z|Darnassus|CC|N|When in Darnassus take a minute and visit the bank to offload items. Be sure to visit the Fishing trainer who is just to the east of the bank.\nYou can visit the Auction House and other profession trainers before you leave, as well.|
 
 T Rellian Greenspyre|QID|922|M|38.24,21.61|Z|Darnassus|N|To Rellian Greenspyre.|
 A Tumors|QID|923|PRE|922|M|38.24,21.61|Z|Darnassus|N|From Rellian Greenspyre.|
@@ -202,17 +202,15 @@ L Level 10|QID|933|LVL|10|N|Grind if you are not yet level 10. The three quests 
 H Dolanaar|QID|933|N|Hearthstone back to Dolanaar.|
 
 ; --- level 10 class quests start from here ---
-r Sell and Repair|QID|933|S|M|59.31,41.09|ACTIVE|933|N|Sell and Repair with the many vendors of Dolanaar.|
+r Sell and Repair|ACTIVE|933|S|M|56.25,59.25|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
 T Crown of the Earth|QID|933|M|56.15,61.71|N|To Corithras Moonrage.|
 A Crown of the Earth|QID|7383|M|56.15,61.71|N|From Corithras Moonrage.|
 A Heeding the Call|AVAILABLE|5925|C|Druid|M|55.95,61.65|N|From Kal.|
 T The Relics of Wakening|QID|483|M|55.96,57.28|N|To Athridas Bearmantle.|
 A Ursal the Mauler|QID|486|PRE|483|M|55.96,57.28|N|From Athridas Bearmantle.|
 
-
 A Elanaria|QID|1684|C|Warrior|M|56.21,59.19|N|From Kyra Windblade.|
 A The Apple Falls|QID|2241|C|Rogue|M|56.37,60.13|N|From Jannok Breezesong.|
-
 
 R Train your skills|QID|7383|C|Priest|M|55.56,56.75|N|At Laurna Morninglight.|
 A Returning Home|QID|5629|C|Priest|M|55.56,56.75|N|From Laurna Morninglight.|
@@ -232,7 +230,7 @@ A Taming the Beast|QID|6103|PRE|6102|C|Hunter|R|Night Elf|M|56.68,59.50|N|From D
 T The Road to Darnassus|QID|487|M|55.74,58.35;50.21,53.87|CS|N|To Moon Priestess Amara, patrolling the road to Darnassus.|
 
 R Darnassus|QID|923|M|47.27,49.59|CC|N|Run west to Darnassus. We make a detour to pick up the Mossy Tumors on the way.|
-C Tumors|QID|923|M|43.67,42.85|N|Kill and loot Timberlings for the Mossy Tumors, found along and in Wellspring River.|
+C Tumors|QID|923|M|43.67,42.85|QO|1|N|Kill and loot Timberlings for the Mossy Tumors, found along and in Wellspring River.|
 R Darnassus|QID|923|M|36.24,54.32|CC|N|Continue west to Darnassus.|
 A Nessa Shadowsong|QID|6344|M|70.65,45.33|Z|Darnassus|N|From Mydrannul.|
 
@@ -263,7 +261,7 @@ A Flight to Auberdine|QID|6342|PRE|6341|M|58.40,94.01|N|From Vesprystus.|
 T Moonglade|QID|5921|C|Druid|M|56.21,30.62|Z|Moonglade|N|Use the teleport spell you learned from Mathrengyl Bearwalker. To Dendrite Starblaze.|
 A Great Bear Spirit|QID|5929|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
 R Great Bear Spirit|QID|5929|C|Druid|M|53.39,31.16;45.03,26.67|Z|Moonglade|CS|
-C Great Bear Spirit|QID|5929|C|Druid|M|39.31,27.44|Z|Moonglade|N|Talk to the bear spirit until quest is complete.|
+C Great Bear Spirit|QID|5929|C|Druid|M|39.31,27.44|Z|Moonglade|N|Talk to the bear spirit until quest is complete.|CHAT|
 T Great Bear Spirit|QID|5929|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze. Use Teleport: Moonglade again instead of running back.|
 A Back to Darnassus|QID|5931|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
 F Darnassus|QID|5931|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
@@ -293,14 +291,16 @@ A The Enchanted Glade|QID|937|M|38.32,34.37|N|From Sentinel Arynia Cloudsbreak.|
 ; N Enchanting|M|36.72,34.18|N|If you want to learn enchanting the trainer is here.|
 
 R Wellspring River|QID|937|ACTIVE|937|M|41.79,29.37|CC|N|Go in direction of the Wellspring river.|
-A The Moss-twined Heart|QID|927|T|Blackmoss the Fetid|M|43.37,27.75|U|5179|N|Look out for a rare called Blackmoss the fetid. Level 13 beast, if he's not there, skip this quest as he has a long respawn timer.|
-C Tears of the Moon|QID|2518|T|Lady Sathrah|M|41.81,25.24;48.01,25.11;39.15,25.27|CN|N|Kill and loot the spider Lady Sathrah for the Silvery Spinnerets.|
+
+N Blackmoss the Fetid|AVAILABLE|927|M|43.37,27.75|N|Blackmoss the Fetid is a Level 13 rare beast that spawns on the NE bank of the Wellspring Lake. If he's not there, skip this quest as he has a 2hr+ respawn timer.|
+A The Moss-twined Heart|QID|927|M|43.37,27.75|U|5179|N|This item is dropped by Blackmoss. Use it to accept the quest.|O|
+C Tears of the Moon|QID|2518|T|Lady Sathrah|M|41.81,25.24;48.01,25.11;39.15,25.27|CN|N|Kill and loot the spider Lady Sathrah for the Silvery Spinnerets. She spawns in multiple locations.|
 C Destiny Calls|QID|2242|C|Rogue|M|37,21|N|Stealth up, sneak behind him and pickpocket Sethir's Journal.|
 
 C The Enchanted Glade|QID|937|S|N|Kill and loot the harpies for the Bloodfeather Belts.|
 A The Shimmering Frond|QID|931|M|34.67,28.75|N|From the Strange Fronded Plant. Right-click the glowing tree.|
 C The Enchanted Glade|QID|937|M|33.0,32.0|US|N|Kill and loot the harpies until you have 6 Bloodfeather Belts.|
-A Mist|QID|938|M|31,31|N|From Mist. An escort quest, once accepted, this will start a 9 minute timer.|
+A Mist|R|Human,Night Elf,Dwarf|QID|938|M|31,31|N|From Mist. An escort quest, once accepted, this will start a 9 minute timer.\nIf Mist is not here, someone is already on the quest and you have to wait.|
 C Mist|QID|938|M|38.32,34.37|NC|N|Escort Mist to Sentinel Arynia Cloudsbreak.|
 T Mist|QID|938|M|38.32,34.37|N|To Sentinel Arynia Cloudsbreak.|
 T The Enchanted Glade|QID|937|M|38.32,34.37|N|To Sentinel Arynia Cloudsbreak.|
