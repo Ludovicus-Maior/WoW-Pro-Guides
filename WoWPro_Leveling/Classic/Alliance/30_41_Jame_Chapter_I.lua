@@ -194,7 +194,7 @@ C Raptor Mastery|QID|195|M|31.70,22.80|Z|Stranglethorn Vale|
 R Venture Co. Base Camp|QID|187|M|43.00,16.90|Z|Stranglethorn Vale|N|Go to the river and search for Snapjaw Crocolisks, then continue to the Venture Co. Camp.|
 C Hostile Takeover|QID|213|M|44.00,20.00|Z|Stranglethorn Vale|N|Kill geologists here until you finish Hostile Takeover. Kill any Crocolisks that you see if you still need them.|
 C Some Assembly Required|QID|577|M|39.60,17.30|Z|Stranglethorn Vale|N|Kill Snapjaw Crocolisks until you get the skins needed for this quest. They can be found in or near the river.|
-C Tiger Mastery|QID|187|M|32.20,15.20|Z|Stranglethorn Vale|N|Kill Elder Stranglethorn Tigers at this location until you complete Tiger Mastery.|QID|187|M|32.20,15.20|Z|Stranglethorn Vale|
+C Tiger Mastery|QID|187|M|32.20,15.20|Z|Stranglethorn Vale|N|Kill Elder Stranglethorn Tigers at this location until you complete Tiger Mastery.|
 T Raptor Mastery|QID|195|M|35.8,10.7|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
 A Raptor Mastery |QID|196|M|35.66,10.66|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
 T Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|

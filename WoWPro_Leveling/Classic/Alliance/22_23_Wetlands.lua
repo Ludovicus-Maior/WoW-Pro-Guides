@@ -16,10 +16,10 @@ T The Tome of Valor|QID|1649|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|P
 A The Tome of Valor|QID|1650|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1649|
 T The Tome of Valor|QID|1650|M|41.6,88.6|Z|Westfall|N|Travel to Westfall and find Daphne Stilwell.|C|Paladin|
 T The Tome of Valor|QID|1650|M|41.6,88.6|Z|Westfall|N|To Daphne Stilwell.|C|Paladin|
-A The Tome of Valor|QID|1651|M|41.6,88.6|Z|C|Paladin|N|From Daphne Stilwell.|PRE|1650|
+A The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|From Daphne Stilwell.|PRE|1650|C|Paladin|
 C The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|Protect her from 3 waves of enemies.|C|Paladin|
 T The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|To Daphne Stilwell.|C|Paladin|
-A The Tome of Valor|QID|1652|M|41.6,88.6|Z|C|Paladin|N|From Daphne Stilwell.|PRE|1651|
+A The Tome of Valor|QID|1652|M|41.6,88.6|Z|Westfall|N|From Daphne Stilwell.|PRE|1651|C|Paladin|
 T The Tome of Valor|QID|1652|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
 A The Test of Righteousness|QID|1653|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
 N Sell junk and repair - WARNING|QID|1078|N|Don't sell the Lean Wolf Flanks if you have any. We'll need 10 for a quest at level 27, if you don't have 10 it's ok, we'll get them later in the guide. Also train new skills, visit the AH, re-stock consumables. Close this step when you're done.|R|-NightElf|

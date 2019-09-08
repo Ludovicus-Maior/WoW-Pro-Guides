@@ -76,7 +76,7 @@ C The Emperor's Tomb|QID|207|QO|4|M|21,10;22.90,12.00|CS|NC|N|Into the ruins, le
 C Fall of Gurubashi|QID|207|QO|3|M|24.70,8.90|NC|N|Go back to the fork and take the ramp up to the right, then uturn at top to find and loot the scroll from this location.|
 R Nessingwary's Camp|ACTIVE|192^193|M|35.8,10.7|
 T Panther Mastery |QID|192|M|35.55,10.55|N|To Sir S.J Erlgadin.|
-T Raptor Mastery |QID|196|M|35.66,10.81|To Hemet Nesingwary.|
+T Raptor Mastery |QID|196|M|35.66,10.81|N|To Hemet Nesingwary.|
 R Rebel Camp|ACTIVE|207|M|37.8,3.4|
 T Kurzen's Mystery|QID|207|M|37.8,3.4|N|To Brother Nimetz.|
 
