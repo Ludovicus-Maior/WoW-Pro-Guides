@@ -292,9 +292,9 @@ F Orgrimmar|QID|6384|R|Orc,Troll|M|51.50,30.33|Z|The Barrens|N|Fly to Orgrimmar.
 T Ride to Orgrimmar|QID|6384|R|Orc,Troll|M|54.10,68.41|Z|Orgrimmar|N|To Innkeeper Gryshka.|
 A Doras the Wind Rider Master|QID|6385|PRE|6384|R|Orc,Troll|M|54.10,68.41|Z|Orgrimmar|N|From Innkeeper Gryshka.|
 T Doras the Wind Rider Master|QID|6385|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|To Doras.|
-A Return to the Crossroads|QID|6386|PRE|6385|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|From Doras.|
+A Return to the Crossroads.|QID|6386|PRE|6385|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|From Doras.|;yes, the .in quest name does belong. odd, I know.
 F The Crossroads|QID|6386|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|Fly back to Crossroads.|
-T Return to the Crossroads|QID|6386|R|Orc,Troll|M|52.62,29.84|Z|The Barrens|N|To Zargh.|
+T Return to the Crossroads.|QID|6386|R|Orc,Troll|M|52.62,29.84|Z|The Barrens|N|To Zargh.|;yes, the . in quest name does belong. odd, I know.
 h The Crossroads|QID|844|M|51.98,29.90|Z|The Barrens|N|Set your Hearthstone at Innkeeper Boorand Plainswind.|
 
 ]]
