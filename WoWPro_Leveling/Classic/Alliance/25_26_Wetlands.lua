@@ -3,20 +3,19 @@ WoWPro:GuideName(guide, 'Wetlands 25-26')
 WoWPro:GuideLevels(guide, 25, 26, 25.5)
 WoWPro:GuideNextGuide(guide, 'ClassicRedridge2627')
 WoWPro:GuideSteps(guide, function() return [[
-F Auberdine|QID|1275|N|Fly to Auberdine.|Z|Ashenvale|M|34.43,48.05|
-T Researching the Corruption|QID|1275|
-b Menethil Harbour|QID|473|N|Take the boat to Menethil Harmour|Z|Darkshore|M|32.40,43.75|
-A Reclaiming Goods|QID|281|M|8.3,58.6|
-A Apprentice's Duties|QID|471|M|8.5,55.7|
-A Fall of Dun Modr|QID|472|M|10.8,55.9|
-A Report to Captain Stoutfist|QID|473|M|10.1,56.9|
-T Report to Captain Stoutfist|N|On the 2nd floor|QID|473|M|9.9,57.5|
-A War Banners|QID|464|M|9.9,57.5|
-A The Third Fleet|QID|288|M|10.9,59.6|
-h Deepwater Tavern|QID|288|N|Make Deepwater Tavern your home location.|M|10.69,60.92|
-B Flagon of Mead|N|Buy a Flagon of Mead from the innkeeper. It's on the 2nd page of his shop.|L|2594 1|
-T The Third Fleet|QID|288|M|10.9,59.6|
-A Uncovering the Past|N|(37,43.6)(38.83, 52.4)|M|34,41|
+
+b Wetlands|QID|942|M|32.42,43.74|Z|Darkshore|N|Run back to Auberdine. and get on the boat to Menethil.|
+A Reclaiming Goods|QID|281|M|8.3,58.6|N|From Karl Boran.|
+A Apprentice's Duties|QID|471|M|8.49,55.7|N|From James Halloran.|
+A Fall of Dun Modr|QID|472|M|10.84,55.89|N|From Harlo Barnaby.|
+A Report to Captain Stoutfist|QID|473|M|10.09,56.9|N|From Valstag Ironjaw.|PRE|455|
+T Report to Captain Stoutfist|QID|473|M|9.86,57.48|N|To Captain Stoutfist, On the 2nd floor|
+A War Banners|QID|464|M|9.86,57.48|N|From Captain Stoutfist, On the 2nd floor|
+A The Third Fleet|QID|288|M|10.9,59.66|N|From First Mate Fitzsimmons.|
+h Deepwater Tavern|QID|295|M|10.7,60.96|N|Make Deepwater Tavern your home location.|
+B Flagon of Dwarven Honeymead|QID|288|M|10.7,60.96|L|2594|N|Buy a Flagon of Dwarven honeymead from Inkeeper Helbrek. Hint: It's on the second page.|
+T The Third Fleet|QID|288|M|10.9,59.66|N|To First Mate Fitzsimmons.|
+A Uncovering the Past|QID|299|M|34,41;37,43.6;38.07,51.18|CS|N|From Prospector Whelgar.|
 C Ormer's Revenge |N|Kill the mobs needed for this quest.  Look for Ancient Relics while completing this quest also.|QID|295|M|35.00,48.00|
 T Ormer's Revenge |QID|295|M|38.1,51.1|
 A Ormer's Revenge |QID|296|M|38.1,51.1|
