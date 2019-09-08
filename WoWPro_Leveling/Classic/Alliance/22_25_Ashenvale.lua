@@ -3,8 +3,8 @@
 
 local guide = WoWPro:RegisterGuide('ClassicAshenvale2324', 'Leveling', 'Ashenvale', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Ashenvale 21-24')
-WoWPro:GuideLevels(guide, 21, 25, 23)
-WoWPro:GuideNextGuide(guide, 'ClassicWetlands2223')
+WoWPro:GuideLevels(guide, 22, 25, 23)
+WoWPro:GuideNextGuide(guide, 'ClassicWetlands2526')
 WoWPro:GuideSteps(guide, function() return [[
 F Darnassus|QID|1198|M|55.92,89.5|Z|Teldrassil|N|Train you skills sell and repair and get more BFD quests so you can start looking for groups.|LVL|20|
 A Twilight Falls|QID|1199|M|55.24,24.01|Z|Darnassus|N|From Argent Guard Manados. This is a BFD Dungeon Quest.|LVL|20|
