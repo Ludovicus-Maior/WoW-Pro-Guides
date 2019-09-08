@@ -6,7 +6,7 @@ WoWPro:GuideName(guide, 'Wetlands 22-23')
 WoWPro:GuideLevels(guide, 22, 23, 22)
 WoWPro:GuideNextGuide(guide, 'ClassicAshenvale2324')
 WoWPro:GuideSteps(guide, function() return [[
-F Trade District|QID|1078|N|Fly to Stormwind|M|77.50, 44.30|Z|Duskwood|R|-NightElf|
+F Trade District|QID|1078|N|Fly to Stormwind|M|77.50, 44.30|Z|Duskwood|
 A The Corruption Abroad|QID|3765|M|36.4,67.5|Z|Stormwind City|R|-NightElf|
 A Mathias and the Defias|QID|2360|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest. Details of this quest is on the 20-21 Redridge guide.|C|Rogue|
 A The Tome of Valor|QID|1793|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|
@@ -23,7 +23,7 @@ A The Tome of Valor|QID|1652|M|41.6,88.6|Z|C|Paladin|N|From Daphne Stilwell.|PRE
 T The Tome of Valor|QID|1652|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
 A The Test of Righteousness|QID|1653|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
 N Sell junk and repair - WARNING|QID|1078|N|Don't sell the Lean Wolf Flanks if you have any. We'll need 10 for a quest at level 27, if you don't have 10 it's ok, we'll get them later in the guide. Also train new skills, visit the AH, re-stock consumables. Close this step when you're done.|R|-NightElf|
-A Retrieval for Mauren|QID|1078|M|52.9,86.5|Z|Stormwind City|R|-NightElf|
+A Retrieval for Mauren|QID|1078|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
 R Deeprun Tram|QID|455|N|Run to the Deeprun Tram|M|68.50, 31.50|Z|Stormwind City|R|-NightElf|
 R Tinker Town|QID|455|N|Take the tram to Ironforge.|R|-NightElf|
 A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|N|Another quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|R|-NightElf|
@@ -42,7 +42,7 @@ f Menethil Harbor|QID|279|N|Get the flight path.|M|9.50, 59.70|
 A The Greenwarden|QID|463|M|10.9,59.66|N|From First Mate Fitzsimmons.|
 A The Third Fleet|QID|288|M|10.9,59.66|N|From First Mate Fitzsimmons.|
 h Deepwater Tavern|QID|288|M|10.7,60.96|N|Make Deepwater Tavern your home location.|
-B Flagon of Dwarven Honeymead|QID|288|M|10.7,60.96|L|2594|N|Buy a Flagon of Dwarven honeymead from Inkeeper Helbrek. Hint: It's on the second page.
+B Flagon of Dwarven Honeymead|QID|288|M|10.7,60.96|L|2594|N|Buy a Flagon of Dwarven honeymead from Inkeeper Helbrek. Hint: It's on the second page.|
 A The Absent Minded Prospector|QID|943|M|10.84,60.43|Z|Wetlands|N|From Archaeologist Flagongut.|PRE|942|
 T The Third Fleet|QID|288|M|10.9,59.66|N|To First Mate Fitzsimmons.|
 A Digging Through the Ooze|QID|470|M|11.8,58|N|From Sida.|
