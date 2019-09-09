@@ -52,7 +52,7 @@ frame:SetScript("OnShow", function()
 	
 	local scrollbar = WoWPro:CreateScrollbar(box, 6)
 
-	local tooltip = CreateFrame("Frame", "tooltip", frame)
+	local tooltip = CreateFrame("Frame", nil, frame)
 	tooltip:SetBackdrop( {
 		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
 		edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
@@ -65,7 +65,7 @@ frame:SetScript("OnShow", function()
 	tooltip:SetFrameStrata("TOOLTIP")
 	tooltip:Hide()
 	frame.tooltip = tooltip
-	
+
 	local tooltiptext = tooltip:CreateFontString(nil, nil, "GameFontNormal")
 	tooltiptext:SetPoint("TOPLEFT", 10, -10)
 	tooltiptext:SetPoint("RIGHT", -10, 0)
@@ -79,7 +79,7 @@ frame:SetScript("OnShow", function()
 	for i=1,NUMROWS do
 		local row = CreateFrame("Frame", nil, box)
 		local GID = WoWProDB.char.currentguide
-		
+
 		if i == 1 then 
 			row:SetPoint("TOP", 0, -12)
 		else 

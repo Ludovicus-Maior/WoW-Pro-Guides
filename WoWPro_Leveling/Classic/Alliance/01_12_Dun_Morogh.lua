@@ -234,19 +234,18 @@ C The Binding|QID|1689|C|Warlock|N|The Summoning Circle is farther underneath th
 T The Binding|QID|1689|C|Warlock|M|39.23,85.27|Z|Stormwind City|N|Congrats! You now can use a Voidwalker.|
 H Thunderbrew Distillery|C|Warlock|U|6948|
 
-A Muren Stormpike|QID|1679|C|Warrior|R|Gnome,Dwarf|
-T Muren Stormpike|QID|1679|C|Warrior|R|Gnome,Dwarf|N|This turn-in is near the Ironforge trainers.|
-A Vejrek|QID|1678|C|Warrior|R|Gnome,Dwarf|
-C Vejrek|QID|1678|C|Warrior|R|Gnome,Dwarf|M|27.7,57.7|N|Vejrek can be found up a path leading into the mountains. He is in a hut at the waypoint.|
-T Vejrek|QID|1678|C|Warrior|R|Gnome,Dwarf|
-A Tormus Deepforge|QID|1680|C|Warrior|R|Gnome,Dwarf|
-T Tormus Deepforge|QID|1680|C|Warrior|R|Gnome,Dwarf|
-A Ironband's Compound|QID|1681|C|Warrior|R|Gnome,Dwarf|
-C Ironband's Compound|QID|1681|C|Warrior|R|Gnome,Dwarf|M|77.9,62.2|N|The ore is located in a guarded lockbox in the basement of the building at the waypoint.|
-T Ironband's Compound|QID|1681|C|Warrior|R|Gnome,Dwarf|
-A Grey Iron Weapons|QID|1682|C|Warrior|R|Gnome,Dwarf|
-T Grey Iron Weapons|QID|1682|C|Warrior|R|Gnome,Dwarf|
-
+A Muren Stormpike|QID|1679|C|Warrior|R|Dwarf,Gnome|M|47.36,52.65|Z|Dun Morogh|N|From Granis Swiftaxe.|
+T Muren Stormpike|QID|1679|C|Warrior|R|Gnome,Dwarf|M|70.77,90.28|Z|Ironforge|N|To Muren Stormpike near the Warrior/Hunter trainers in Ironforge.|
+A Vejrek|QID|1678|PRE|1679|C|Warrior|R|Dwarf,Gnome|M|70.77,90.28|Z|Ironforge|N|From Muren Stormpike.|
+C Vejrek|QID|1678|C|Warrior|R|Gnome,Dwarf|M|27.70,57.70|N|Vejrek can be found up a path leading into the mountains inside a hut.|
+T Vejrek|QID|1678|C|Warrior|R|Gnome,Dwarf|M|70.77,90.28|Z|Ironforge|N|To Muren Stormpike.|
+A Tormus Deepforge|QID|1680|PRE|1678|C|Warrior|R|Gnome,Dwarf|M|70.77,90.28|Z|Ironforge|N|From Muren Stormpike.|
+T Tormus Deepforge|QID|1680|C|Warrior|R|Gnome,Dwarf|M|48.65,42.49|Z|Ironforge|N|To Tormus Deepforge.|
+A Ironband's Compound|QID|1681|PRE|1680|C|Warrior|R|Gnome,Dwarf|M|48.65,42.49|Z|Ironforge|N|From Tormus Deepforge.|
+C Ironband's Compound|QID|1681|C|Warrior|R|Gnome,Dwarf|M|77.90,62.20|N|The ore is located in a guarded lockbox in the basement of a building.|
+T Ironband's Compound|QID|1681|C|Warrior|R|Gnome,Dwarf|M|48.65,42.49|Z|Ironforge|N|To Tormus Deepforge.|
+A Grey Iron Weapons|QID|1682|PRE|1681|C|Warrior|R|Gnome,Dwarf|M|48.65,42.49|Z|Ironforge|N|From Tormus Deepforge.|
+T Grey Iron Weapons|QID|1682|C|Warrior|R|Gnome,Dwarf|M|48.65,42.49|Z|Ironforge|N|To Tormus Deepforge.|
 ; ---------- END OF LEVEL 10 CLASS TRAINING ------------
     
 R Amberstill Ranch|QID|314|M|62.6,53.4|N|Head to Amberstill ranch, follow the road to the east .|

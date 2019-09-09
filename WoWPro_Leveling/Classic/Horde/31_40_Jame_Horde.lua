@@ -18,23 +18,23 @@ A Call of Air|QID|1531|C|Shaman|M|38.00,38.00|Z|Orgrimmar|N|From Searn Firewarde
 F Freewind Post|ACTIVE|5088|M|45.2,63.8|N|At Doras, Wind Rider Master.|
 T Call of Air|QID|1531|C|Shaman|M|53.60,42.70|N|Turning this in will give you a really nice buff for one hour, so don't waste it!|
 
-R Darkcloud Pinnacle|ACTIVE|5088|M|31.00,36.00|N|Go down the lift and follow the road west until Darkcloud Pinnacle, find the slope going up on the northwestern side of the mesa. Go up and across 3 wooden bridges, you'll end up at the top of a mesa with 2 bridges, take the one on your left (going east), at the next mesa there will be 2 bridges again, take the one on your right (going southeast).|
-K Arikara|ACTIVE|5088|QO|1|M|38.00,35.30|N|You should arrive at a mesa, with a bonfire in the middle named "Sacred Fire of Life". Clear everything on the mesa, get back to full health/mana. Right-click the bonfire, it will summon Arikara, a level 28 mob.|
+R Darkcloud Pinnacle|ACTIVE|5088|M|46.69,47.05;31.00,36.00;33.16,35.44;32.87,32.45;32.29,28.38;34.64,30.88;36.93,31.81|CS|N|Go down the lift and follow the road west until Darkcloud Pinnacle, find the slope going up on the northwestern side of the mesa. Go up and across 3 wooden bridges, you'll end up at the top of a mesa with 2 bridges, take the one on your left (going east), at the next mesa there will be 2 bridges again, take the one on your right (going southeast).|
+K Arikara|ACTIVE|5088|QO|1|M|38.00,35.30|N|You should arrive at a mesa, with a bonfire in the middle named "Sacred Fire of Life". Clear everything on the mesa, get back to full health/mana. Right-click the bonfire, it will summon Arikara, a level 28 elite mob.|
 R Destroyed Caravan|ACTIVE|5151|M|31.00,36.00;22,24|CS|N|Go back the way you came, until you get off Darkcloud Pinnacle. Make sure your 5 minute special ability is up and that you have health pots ready etc. The next part is best done by 2 players so if you can group up with someone for the kill do so, solo it will be a bit hard, but try it anyway.|
 C Hypercapacitator Gizmo|QID|5151|M|22.00,24.00|N|Go northwest until you find a destroyed caravan  with a panther in a cage in the middle. Open the lock, kill the panther and loot the Hypercapacitator Gyzmo, then go south to Whitereach Post.|
 T Arikara|QID|5088|M|21.50,32.40|N|To Motega Firemane at Whitereach Post.|
 T Hypercapacitator Gyzmo|QID|5151|N|To Whizlo Bearingshiner. (if you didn't kill the panther, abandon that quest.)|
-K Steelsnap|ACTIVE|1131|QO|1|M|13.00,28.00|T|Steelnap|N|Go west/northwest, we're now gonna look for a named hyena named Steelsnap. Go to the area which is north of highperch, Steelsnap always passes by that spot. Just kill everything in the area while waiting for Steelsnap to show up. I generally find her at . She's a level 30 hyena with two hyena guarding her. Just kill her quickly and run away, that's the easiest option, but any class can manage it with a bit of strategy.|
+K Steelsnap|ACTIVE|1131|QO|1|M|17.06,18.79;13.00,28.00|CN|T|Steelnap|N|Go west/northwest, we're now gonna look for a named hyena named Steelsnap. She Spawns at the First marker and pats down past the second marker, Steelsnap always passes by that spot. She's a level 30 hyena with two hyena guarding her. Just kill her quickly and run away, that's the easiest option, but any class can manage it with a bit of strategy.|
 R Roguefeather Den|ACTIVE|1150|M|26.00,55.00|N|Go southeast along the mountain until you reach the harpy cave called Roguefeather Den. Clear your way inside the cave until you reach the bottom.|
 C Test of Endurance|QID|1150|M|26.00,55.00|N|When you click on the crates in the corner. When you click them a named harpy will spawn. Tough but possible to solo, much easier with company.|
 T Test of Endurance|QID|1150|M|54.00,44.00|N|Travel east to the Weathered Nook, go up the slope. Turn in to Dorn Plainstalker.|
-A Test of Strength|QID|1151|M|54.00,41.00|N|From Dorn Plainstalker.|
+A Test of Strength|QID|1151|GROUP|M|54.00,41.00|N|From Dorn Plainstalker. This is a difficult solo.|
 K Rok'Alim the Pounder|ACTIVE|1151|QO|1|M|17.00,37.00|N|Go to the northwestern part of the zone. At the waypoint, kill everything on your way. Rok'Alim the Pounder spawns at that point. Afterwards he roams around in that area a little. Search for him while killing stuff.|
 T Test of Strength|QID|1151|M|54.00,41.00|N|To Dorn Plainstalker, back at the Weathered Nook. (skip followup)|
 R Freewind Post|ACTIVE|1136|M|46,51|
-F Thunderbluff|ACTIVE|1131|M|45.0,49.2|N|At Nyse.|
+F Thunder Bluff|ACTIVE|1131|M|45.0,49.2|N|At Nyse.|
 T Steelsnap|QID|1131|M|61.50,80.90|Z|Thunder Bluff|N|To Melor Stonehoof. Go south to the Hunter Rise.|
-A Frostmaw|QID|1136|M|61.50,80.90|Z|Thunder Bluff|N|From Melor Stonehoof. You can destroy the Kodo Skin Parchment you just got from this quest.|
+A Frostmaw|QID|1136|M|61.50,80.90|Z|Thunder Bluff|N|From Melor Stonehoof. The Kodo Skin Parchment you just received, is for directions, which are in this guide and therefore you don't need to waste precious inventory space, destroy if you want.|
 L Level Check|ACTIVE|1136|LVL|32|N|You should now be level 32.|
 ; === 002_32_33_Jame_Thousand_Needles.lua ===
 H Orgrimmar|ACTIVE|1176|

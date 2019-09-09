@@ -75,9 +75,10 @@ r Sell junk, repair, restock.|ACTIVE|1111|N|Sell junk, repair, restock.|
 N Turn in all your quests|N|Leaving speaking to Vimes last.|
 
 R Barrens|ACTIVE|1111|M|27.8,46.6|Z|Dustwallow Marsh|N|Follow the road same as you did last time to the Barrens.|
-R Ratchet|ACTIVE|1111|Z|The Barrens|M|62.7,36.2|N|Run northest to Ratchet.| 
+R Ratchet|ACTIVE|1111|Z|The Barrens|M|62.7,36.2|N|Run northest to Ratchet.|
 T Goblin Sponsorship|N|Turn in your quest to Gazlowe.|QID|1178|Z|The Barrens|M|62.7,36.2|
 A Goblin Sponsorship |QID|1180|Z|The Barrens|M|62.7,36.2|N|From Gazlowe.|
+f Ratchet|ACTIVE|1180|M|63,37|Z|The Barrens|N|Grab the flightpoint from Bragok.|
 T Wharfmaster Dizzywig|QID|1111|Z|The Barrens|M|63.4,38.5|N|To Wharfmaster Dizzywig.|
 A Parts for Kravel|QID|1112|Z|The Barrens|M|63.4,38.5|N|From Wharfmaster Dizzywig.|
 b Booty Bay|QID|1181|N|Take the boat to Booty Bay.|Z|The Barrens|M|63.60,38.60|
@@ -100,7 +101,8 @@ A Scaring Shaky|QID|606|M|27.8,77.1|Z|Stranglethorn Vale|N|From "Sea Wolf" McKin
 A Supply and Demand|QID|575|M|28.3,77.6|Z|Stranglethorn Vale|N|From Drizzlik.|
 r Sell, Repair, Restock, Train.|N|Rogues can train on the first floor of the inn, the rest of you need to fly to Stormwind.|
 
-F Duskwood
+F Darkshire|M|27.4,77.6|ACTIVE|74|Z|Stranglethorn Vale|N|Take a flight up to Duskwood from Gyll.|
+
 R Elwynn Forest|ACTIVE|74|M|84.6,69.4|Z|Elwynn Forest|N|Run north to Elwynn to Marshal Hagard turn in the quest accept follow up and run back to darkshire.|
 t The Legend of Stalvan |QID|74|M|84.6,69.4|Z|Elwynn Forest|N|To Marshal Hagard.|
 A The Legend of Stalvan |QID|75|M|84.6,69.4|Z|Elwynn Forest|N|From Marshal Hagard.|PRE|74|
@@ -128,7 +130,7 @@ A The Second Rebellion|QID|203|M|38.0,3.3|Z|Stranglethorn Vale|N|From Sergeant Y
 A Bad Medicine|QID|204|M|38.0,3.3|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
 A Krazek's Cookery|QID|210|M|37.7,3.3|Z|Stranglethorn Vale|N|From Corporal Kaleb.|
 R Nesingwary Camp|QID|5762|M|35.00,10.00|Z|Stranglethorn Vale|N|Head west along the road and then south. Once in stranglthorn cross the bridge and head west to the camp|
-T Hemet Nesingwary Jr.|QID|5762|M|35.00,10.00|Z|Stranglethorn Vale|N|To Hemet Nesingwary, Jr.|
+T Hemet Nesingwary|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary|
 
 A Welcome to the Jungle|QID|583|M|35.71,10.65|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
 T Welcome to the Jungle|QID|583|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary|
@@ -170,7 +172,7 @@ H The Salty Sailor Tavern|QID|605|N|Hearth to Booty Bay.|Z|Stranglethorn Vale|
 T Singing Blue Shards|QID|605|M|27.1,77.2|Z|Stranglethorn Vale|N|To Crank Fizzlebub.|
 A Venture Company Mining|QID|600|M|27.1,77.2|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|
 T Krazek's Cookery|QID|210|M|26.9,77.2|Z|Stranglethorn Vale|N|To Krazek.|
-A Favor for Krazek|QID|627|M|26.9,77.2|Z|Stranglethorn Vale|N|From Krazek.|
+A Favor for Krazek|QID|627|M|26.9,77.2|Z|Stranglethorn Vale|N|From Krazek. If you don't have or don't want to get the Bloodstone Ore, skip this.|
 t Favor for Krazek|N|Turn in Favor for Krazek if you have 4 Lesser Bloodstone Ores.|QID|627|M|26.9,77.2|Z|Stranglethorn Vale|
 T Investigate the Camp|QID|201|M|26.9,77.2|Z|Stranglethorn Vale|N|To Krazek.|
 A Return to Corporal Kaleb|QID|622|M|26.9,77.2|PRE|627|Z|Stranglethorn Vale|N|From Krazek.|
@@ -186,14 +188,13 @@ N Train skills|QID|187|N|Train your skills in Stormwind if needed, then return t
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
 B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
-B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn.|ITEM|4278|
 
-N From now on...|QID|577|N|From now on, kill any Snapjaw Crocolisk you find until you finish Some Assembly Required.|Z|Stranglethorn Vale|
+N From now on...|QID|577|N|From now on, kill any Snapjaw Crocolisk you find until you finish Some Assembly Required. Also be on the lookout for the stealthed Shadowmaw Panthers and kill them when you can.|Z|Stranglethorn Vale|
 C Raptor Mastery|QID|195|M|31.70,22.80|Z|Stranglethorn Vale|
-R Venture Co. Base Camp|QID|187|N|Go to the river and search for Snapjaw Crocolisks, then continue to the Venture Co. Camp.|M|43.00,16.90|Z|Stranglethorn Vale|
-C Hostile Takeover|N|Kill geologists here until you finish Hostile Takeover.  Kill any Crocolisks that you see if you still need them.|QID|213|M|44.00,20.00|Z|Stranglethorn Vale|
-C Some Assembly Required|N|Kill Snapjaw Crocolisks until you get the skins needed for this quest.  They can be found in or near the river.|QID|577|M|39.60,17.30|Z|Stranglethorn Vale|
-C Tiger Mastery|N|Kill Elder Stranglethorn Tigers at this location until you complete Tiger Mastery.|QID|187|M|32.20,15.20|Z|Stranglethorn Vale|
+R Venture Co. Base Camp|QID|187|M|43.00,16.90|Z|Stranglethorn Vale|N|Go to the river and search for Snapjaw Crocolisks, then continue to the Venture Co. Camp.|
+C Hostile Takeover|QID|213|M|44.00,20.00|Z|Stranglethorn Vale|N|Kill geologists here until you finish Hostile Takeover. Kill any Crocolisks that you see if you still need them.|
+C Some Assembly Required|QID|577|M|39.60,17.30|Z|Stranglethorn Vale|N|Kill Snapjaw Crocolisks until you get the skins needed for this quest. They can be found in or near the river.|
+C Tiger Mastery|QID|187|M|32.20,15.20|Z|Stranglethorn Vale|N|Kill Elder Stranglethorn Tigers at this location until you complete Tiger Mastery.|
 T Raptor Mastery|QID|195|M|35.8,10.7|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
 A Raptor Mastery |QID|196|M|35.66,10.66|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
 T Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
@@ -228,8 +229,8 @@ R Southshore|QID|555|N|If you dont have the flight points, its Ironforge to wetl
 
 B Soothing Spices|QID|555|N|Buy one Soothing Spices from the merchant.|L|3713 1|M|48.90,55.00|Z|Hillsbrad Foothills|
 h Southshore|QID|562|N|Set your home location to Southshore.|M|51.20,58.90|
-T Southshore|QID|538|M|54.4,57|Z|Hillsbrad Foothills|N|To Loremaster Dibbs.|
-A Preserving Knowledge|QID|540|M|54.4,57|Z|Hillsbrad Foothills|N|From Loremaster Dibbs.|PRE|538|
+T Southshore|QID|538|M|54.56,57.09|Z|Hillsbrad Foothills|N|To Loremaster Dibbs.|
+A Preserving Knowledge|QID|540|M|54.56,57.09|Z|Hillsbrad Foothills|N|From Loremaster Dibbs.|PRE|538|
 A Hints of a New Plague?|QID|659|M|50.3,59.0|Z|Hillsbrad Foothills|N|From Phin Odelic.|
 A Down the Coast|QID|536|M|51.4,58.6|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
 A Soothing Turtle Bisque|QID|555|M|51.9,58.7|Z|Hillsbrad Foothills|N|From Chef Jessen.|
@@ -304,41 +305,33 @@ T Letter to Stormpike|QID|514|M|74.7,11.7|Z|Ironforge|N|To Prospector Stormpike.
 R Stormwind City|QID|563|N|Take the Deeprun Tram in Tinker Town.|
 T Return to Milton|QID|542|M|74,7.6|Z|Stormwind City|N|To Milton Sheaf.|
 r Repair, restock, train|QID|563|N|Sell junk, repair, restock, train new skills.|
-T Reassignment|QID|563|Z|Stormwind City|M|75.8,36.7|N|To Major Samuelson.|
-B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn. Now is the time you really need these.|ITEM|4278|
+T Reassignment|QID|563|Z|Stormwind City|M|72.60,15.94|N|To Major Samuelson.|
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
 B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
 A Brother Anton|QID|6141|M|42.4,24.4|Z|Stormwind City|N|From Brother Crowley in the Cathedral of Light.|
-r Sell junk, repair, restock.|QID|603|N|Sell junk, repair, restock.|
 
-F Booty Bay|QID|603|N|Fly to Booty Bay.|Z|Ironforge|M|55.40,47.70|
+F Booty Bay|QID|603|N|Fly to Booty Bay.|M|66.28,62.16|Z|Stormwind City|
 T Ansirem's Key|QID|603|Z|Stranglethorn Vale|M|27.24,77.52|N|To Catelyn.|
 A "Pretty Boy" Duncan|QID|610|Z|Stranglethorn Vale|M|27.24,77.52|N|From Catelyn.|
-T Favor for Krazek|QID|627|Z|Stranglethorn Vale|M|27,77.2|N|To Krazek.|
-A Return to Corporal Kaleb|QID|622|M|27,77.2|Z|Stranglethorn Vale|N|From Krazek.|
-R Rebel Camp|ACTIVE|622|M|37.8,3.2|Z|Stranglethorn Vale|
-;this needs to be elsewhere ... or hearth after. or something...
-T Return to Corporal Kaleb|QID|622|M|37.7,3.3|Z|Stranglethorn Vale|N|To Corporal Kaleb.|
-R Booty Bay|M|26.00,73.20|Z|Stranglethorn Vale|
 b Ratchet|QID|1453|N|Take the boat to Ratchet.|
 F Nigel's Point|QID|1453|N|If you have the Desolace-Nijel's Point flight path, go straight there, otherwise check this off and follow the instructions on how to run there.|
 F Stonetalon Mountains|QID|1453|N|Run or fly to Stonetalon Mountains.|Z|The Barrens|M|63.10,37.15|
 R Desolace|QID|1453|N|Run through the Charred Vale to get to Desolace|Z|Stonetalon Mountains|M|28.00,84.00|
 R Nijel's Point|QID|1453|N|Go to Nijel's Point by going up the path here.|Z|Desolace|M|67.00,16.00|
+f Nijel's Point|QID|1437|N|Get the flight path.|M|64.66,10.54|Z|Desolace|
 T Reclaimers' Business in Desolace|QID|1453|M|66.2,9.6|Z|Desolace|N|To Kreldig Ungor.|
 A Reagents for Reclaimers Inc.|QID|1458|M|66.2,9.6|Z|Desolace|N|From Kreldig Ungor.|
+A Strange Alliance|QID|1382|Z|Desolace|M|66.6,11|N|From Captain Pentigast.|
 A Centaur Bounty|QID|1387|M|66.6,10.8|Z|Desolace|N|To Corporal Melkins.|
 A Vahlarriel's Search|QID|1437|M|66.4,11.8|Z|Desolace|N|From Vahlarriel Demonslayer.|
-T Brother Anton|QID|6141|M|66.4,7.8|Z|Desolace|N|To Brother Anton.|
-A Down the Scarlet Path|QID|261|M|66.4,7.8|Z|Desolace|N|From Brother Anton.|
+T Brother Anton|QID|6141|M|66.52, 7.91|Z|Desolace|N|To Brother Anton.|
+A Down the Scarlet Path|QID|261|M|66.52, 7.91|Z|Desolace|N|From Brother Anton.|
 A The Karnitol Shipwreck|QID|1454|M|66.2,9.6|Z|Desolace|N|From Karntol's chest.|
-A Strange Alliance|QID|1382|Z|Desolace|M|66.6,11|N|From Captain Pentigast.|
-f Nijel's Point|QID|1437|N|Get the flight path.|M|64.65,10.55|Z|Desolace|
 
 C Reagents for Reclaimers Inc.|QID|1458|M|75.00,20.00|Z|Desolace|N|Kill Satyrs until you get the items needed for this quest.|
-T Vahlarriel's Search|QID|1437|M|56.00,17.00|Z|Desolace|N|Loot the crate here and turn in the quest.|
-A Vahlarriel's Search |QID|1465|M|56.5,17.8|Z|Desolace|N|Get the follow-up from the chest.|
+T Vahlarriel's Search|QID|1437|M|56.55,17.86|Z|Desolace|N|Loot the crate here and turn in the quest.|
+A Vahlarriel's Search |QID|1465|M|56.55,17.86|Z|Desolace|N|Get the follow-up from the chest.|
 T Vahlarriel's Search |QID|1465|M|66.4,11.8|Z|Desolace|N|To Vahlarriel Demonslayer.|
 A Vahlarriel's Search |QID|1438|M|66.4,11.8|Z|Desolace|N|From Vahlarriel Demonslayer.|
 T Reagents for Reclaimers Inc.|QID|1458|M|66.2,9.6|Z|Desolace|N|To Kreldig Ungor.|

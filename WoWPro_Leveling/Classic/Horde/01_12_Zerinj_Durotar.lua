@@ -143,7 +143,7 @@ C A Solvent Spirit|QID|818|S|N|Kill Makrura and Crawlers on the way.|
 C From The Wreckage....|QID|825|M|64.00,52.00|N|Go south-east and look for Gnomish Tools.|
 C A Solvent Spirit|QID|818|US|N|Kill Makrura and Crawlers on the way.|
 A Encroachment|QID|837|M|51.95,43.50|N|From Gar'Thok.|
-K Encroachment|QID|837|QO|1;2|M|50.58,49.11|N|Go to the southwest of Razor Hill and kill Razormane Quillboars and Razormane Scouts.|
+C Encroachment|QID|837|QO|1;2|M|50.58,49.11|N|Go to the southwest of Razor Hill and kill Razormane Quillboars and Razormane Scouts.|
 L Level 8|QID|825|LVL|8|N|You should be level 8 or shortly before. Grind a bit on the Quillboars if not.|
 T From The Wreckage....|QID|825|M|51.95,43.50|N|To Gar'Thok.|
 N Train your skills|QID|786|N|Train your level 8 skills. Right-click this step off once you are done.|
@@ -166,13 +166,13 @@ T Zalazane|QID|826|M|55.95,74.72|N|To Master Gadrin.|
 T Practical Prey|QID|817|M|55.95,73.93|N|To Vel'rin Fang.|
 H Razor Hill|QID|815|
 T Break a Few Eggs|QID|815|M|51.11,42.45|N|To Cook Torka.|
-K Encroachment|QID|837|QO|3;4|M|44.50,40.70|N|Go west of Razor Hill and kill Razormane Dustunner and Battleguards.|
+C Encroachment|QID|837|QO|3;4|M|44.50,40.70|N|Go west of Razor Hill and kill Razormane Dustunner and Battleguards.|
 A Lost But Not Forgotten|QID|816|M|43.11,30.24|N|From Misha Tor'kren inside the hut.|
 A Winds in the Desert|QID|834|M|46.37,22.94|N|From Rezlak.|
-C Winds in the Desert|QID|834|L|3290 5|M|49.40,22.00|NC|N|Go east to the entrance of the Razorwind Canyon. Loot the Sacks of Supplies on the ground.|
+C Winds in the Desert|QID|834|M|49.40,22.00|NC|N|Go east to the entrance of the Razorwind Canyon. Loot the Sacks of Supplies on the ground.|
 T Winds in the Desert|QID|834|M|46.33,22.94|N|To Rezlak.|
 A Securing The Lines|QID|835|PRE|834|M|46.37,22.94|N|From Rezlak.|
-L Level 10|QID|837|LVL|10|N|If you are not yet level 10 grind a bit on harpies. The quest Encroachment is worth 625 XP, so you need 5875 XP in Level 9.|
+L Level 10|QID|837|LVL|10;-625|N|If you are not yet level 10 grind a bit on harpies. The quest Encroachment is worth 625 XP, so you need 5875 XP in Level 9.|
 T Encroachment|QID|837|M|51.95,43.50|N|To Gar'Thok.|
 A Therzok|QID|1859|C|Rogue|R|Orc,Troll|M|51.98,43.69|N|From Kaplak.|
 A Taming the Beast|QID|6062|C|Hunter|R|Orc,Troll|M|51.85,43.49|N|From Thotar.|
@@ -292,9 +292,9 @@ F Orgrimmar|QID|6384|R|Orc,Troll|M|51.50,30.33|Z|The Barrens|N|Fly to Orgrimmar.
 T Ride to Orgrimmar|QID|6384|R|Orc,Troll|M|54.10,68.41|Z|Orgrimmar|N|To Innkeeper Gryshka.|
 A Doras the Wind Rider Master|QID|6385|PRE|6384|R|Orc,Troll|M|54.10,68.41|Z|Orgrimmar|N|From Innkeeper Gryshka.|
 T Doras the Wind Rider Master|QID|6385|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|To Doras.|
-A Return to the Crossroads|QID|6386|PRE|6385|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|From Doras.|
+A Return to the Crossroads.|QID|6386|PRE|6385|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|From Doras.|;yes, the .in quest name does belong. odd, I know.
 F The Crossroads|QID|6386|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|Fly back to Crossroads.|
-T Return to the Crossroads|QID|6386|R|Orc,Troll|M|52.62,29.84|Z|The Barrens|N|To Zargh.|
+T Return to the Crossroads.|QID|6386|R|Orc,Troll|M|52.62,29.84|Z|The Barrens|N|To Zargh.|;yes, the . in quest name does belong. odd, I know.
 h The Crossroads|QID|844|M|51.98,29.90|Z|The Barrens|N|Set your Hearthstone at Innkeeper Boorand Plainswind.|
 
 ]]

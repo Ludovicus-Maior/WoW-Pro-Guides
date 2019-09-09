@@ -12,23 +12,21 @@ A Plainstrider Menace|AVAILABLE|844|M|52.23,31.01|N|From Sergra Darkthorn.|
 ; -----------------------------------------------------------------------------
 
 A Raptor Thieves|QID|869|M|51.93,30.32|N|From Gazrog.|
-A Wharfmaster Dizzywig|QID|1492|M|51.45,30.15|N|From Apothecary Helbrim.|
-A Fungal Spores|QID|848|M|51.45,30.15|N|From Apothecary Helbrim.|
 A Disrupt the Attacks|QID|871|M|51.50,30.87|N|From Thork.|
-A Supplies for The Crossroads|QID|5041|M|51.50,30.87|N|From Thork.|
-A Harpy Raiders|QID|867|M|51.62,30.90|N|From Darsok Swiftdagger at the top of the tower.|
+A Supplies for the Crossroads|QID|5041|M|51.50,30.87|N|From Thork.|
+; A Harpy Raiders|QID|867|M|51.62,30.90|N|From Darsok Swiftdagger at the top of the tower.| TODO: C&T steps!
 A The Forgotten Pools|QID|870|M|52.26,31.93|N|From Tonga Runetotem.|
 
 C Raptor Thieves|QID|869|S|N|Kill Raptors you encounter for their heads.\nThese are all around this area.|
 
 ; --- Tauren catchup chain ----------------------------------------------------
-C Plainstrider Menace|QID|844|C|Shaman|S|N|Kill Plainstriders on the way for their beaks.|
-C Plainstrider Menace|QID|844|C|Warrior|R|Tauren|S|N|Kill Plainstriders on the way for their beaks.|
+C Plainstrider Menace|QID|844|C|Shaman|S!US|N|Kill Plainstriders on the way for their beaks.|
+C Plainstrider Menace|QID|844|C|Warrior|R|Tauren|S!US|N|Kill Plainstriders on the way for their beaks.|
 
-T Veteran Uzzek|QID|1505|C|Warrior|R|Tauren|M|61.38,21.11|Z|The Barrens|N|To Veteran Uzzek.|
+T Veteran Uzzek|QID|1505|C|Warrior|R|Tauren|M|52.70,23.35;61.38,21.11|CS|Z|The Barrens|N|To Veteran Uzzek.|
 A Path of Defense|QID|1498|PRE|1505|C|Warrior|R|Tauren|M|61.38,21.11|N|From Veteran Uzzek.|
-R Thunder Ridge|QID|806||N|Run to the entrance of Thunder Ridge.|
-C Path of Defense|QID|1498|C|Warrior|R|Tauren|M|39.18,32.29|Z|Durotar|N|To to the entrance of Thunder Ridge and kill Thunder Lizards for their scales.|
+R Thunder Ridge|ACTIVE|1498|M|39.18,32.29|Z|Durotar|N|Run to the entrance of Thunder Ridge.|
+C Path of Defense|QID|1498|C|Warrior|R|Tauren|M|43.4,24.8|Z|Durotar|N|Kill Thunder Lizards for their scales in Thunder Ridge.|
 
 T Call of Fire|QID|2984|C|Shaman|R|Tauren|M|55.86,19.94|N|To Kranal Fiss. He wanders around a bit.|
 A Call of Fire|QID|1524|PRE|2984|C|Shaman|R|Tauren|M|55.86,19.94|Z|The Barrens|N|From Kranal Fiss.|
@@ -60,11 +58,12 @@ A Call of Fire|QID|1527|PRE|1526|C|Shaman|M|38.96,58.22|Z|Durotar|N|From the Bra
 T Call of Fire|QID|1527|C|Shaman|M|55.86,19.94|Z|The Barrens|N|To Kranal Fiss.|
 ; --- End of Shaman class quest -----------------------------------------------
 
-C Plainstrider Menace|QID|844|US|N|Kill Plainstriders around Crossroads for their beaks.|
+C Plainstrider Menace|QID|844|M|52.2,31.0|N|Get back into town, kill Plainstriders along the way to the Crossroads for their beaks.|
 T Plainstrider Menace|QID|844|N|Get back into town, talk to Sergena Darkthorn.|M|52.2,31.0|
-A The Zhevra|QID|845|M|52.2,31.0|
+A The Zhevra|QID|845|M|52.2,31.0|N|From Sergena Darkthorn.|
+A Fungal Spores|QID|848|M|51.45,30.15|N|From Apothecary Helbrim.|
 
-C The Zhevra|QID|845|N|Kill Zhevra and loot their hooves|S|
+C The Zhevra|QID|845|N|Kill Zhevra and loot their hooves|S!US|
 A Centaur Bracers|QID|855|N|You get this and the next quest from an orc in a bunker west of the Crossroads.|M|45.3,28.4|
 A Kolkar Leaders|QID|850|M|45.3,28.4|
 
@@ -75,13 +74,14 @@ C Kolkar Leaders|QID|850|N|Head west towards a small gazeebo-like building up on
 
 T Kolkar Leaders|QID|850|N|Head south to the bunker.|M|45.3,28.4|
 A Verog the Dervish|QID|851|M|45.3,28.4|
-C The Zhevra|QID|845|N|Kill off any more Zhevra you need on your way back to the Crossroads.|US|M|52.2,31.0|
 
+C The Zhevra|QID|845|N|Kill off any more Zhevra you need on your way back to the Crossroads.|M|52.2,31.0|
 T The Zhevra|QID|845|N|Head back to The Crossroads.|M|52.2,31.0|
-A Prowlers of the Barrens|QID|903|M|52.2,31.0|
-T The Forgotten Pools|QID|870|M|52.2,31.9|
-A The Stagnant Oasis|QID|877|M|52.2,31.9|
-T Fungal Spores|QID|848|N|Don't take the follow up, its a timed quest, we'll get to it later. |M|51.5,30.2|
+A Prowlers of the Barrens|QID|903|M|52.2,31.0|N|From Sergena Darkthorn.|
+T The Forgotten Pools|QID|870|M|52.2,31.9|N|To Tonga Runetotem.|
+A The Stagnant Oasis|QID|877|M|52.2,31.9|N|From Tonga Runetotem.|
+T Fungal Spores|QID|848||M|51.5,30.2|N|To Apothecary Helbrim.\mDon't take the follow up, its a timed quest, we'll get to it later.|
+A Wharfmaster Dizzywig|QID|1492|M|51.45,30.15|N|From Apothecary Helbrim.|
 
 C Call of Fire|QID|1525|C|Shaman|N|Kill Razormane spellcasters of any type until one drops Fire Tar.|
 T Call of Fire|QID|1525|C|Shaman|N|Head back into Durotar to turn in your class quest, at the same twisty mountain path as before.|

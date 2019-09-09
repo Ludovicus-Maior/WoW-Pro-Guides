@@ -203,26 +203,26 @@ R Exit Thunder Bluff|QID|760|M|50.85,32.38|Z|Thunder Bluff|N|Use the lifts on th
 C Wildmane Cleansing|QID|760|U|5416|M|42.65,14.23|N|Clear your way to the well and use the Wildmane Totem.|
 H Bloodhoof Village|QID|760|
 T Wildmane Cleansing|QID|760|R|Tauren|M|48.53,60.39|N|To Mull Thunderhorn.|
-R Camp Taurajo|QID|886|M|69.70,60.50|N|Run to Camp Taurajo.|
+R Camp Taurajo|QID|886|M|69.70,60.50;75.90,61.00|CS|N|Run to Camp Taurajo.|
 f Camp Taurajo|QID|886|M|44.44,59.15|Z|The Barrens|N|Get the flight point at Omusa Thunderhorn.|
 A Journey to the Crossroads|QID|854|R|Tauren|M|44.88,58.61|Z|The Barrens|N|From Kirge Sternhorn.|
-R The Crossroads|QID|886|M|52.06,32.10|Z|The Barrens|N|Run to the Crossroads while staying on the road.|
+R The Crossroads|QID|886|M|47.31,57.64;51.07,49.00;52.06,32.10|CS|Z|The Barrens|N|Run to the Crossroads while staying on the road.|
 T The Barrens Oases|QID|886|M|52.26,31.93|Z|The Barrens|N|To Tonga Runetotem.|
 A The Forgotten Pools|QID|870|PRE|886|M|52.26,31.93|Z|The Barrens|N|From Tonga Runetotem.|
 T Sergra Darkthorn|QID|860|M|52.23,31.01|Z|The Barrens|N|To Sergra Darkthorn.|
 A Plainstrider Menace|QID|844|M|52.23,31.01|Z|The Barrens|N|From Sergra Darkthorn.|
 T Journey to the Crossroads|QID|854|R|Tauren|M|51.50,30.87|Z|The Barrens|N|To Thork.|
 A A Bundle of Hides|QID|6361|R|Tauren|M|51.21,29.05|Z|The Barrens|N|From Jahan Hawkwing.|
-f The Crossroads|QID|6361|M|51.50,30.33|Z|The Barrens|
+f The Crossroads|QID|6361|M|51.50,30.33|Z|The Barrens|N|At Devrak.|
 T A Bundle of Hides|QID|6361|M|51.50,30.33|Z|The Barrens|N|To Devrak.|
 A Ride to Thunder Bluff|QID|6362|PRE|6361|R|Tauren|M|51.50,30.33|Z|The Barrens|N|From Devrak.|
 F Thunder Bluff|QID|6362|R|Tauren|Z|The Barrens|
-T Ride to Thunder Bluff|QID|6362|M|45.73,55.83|Z|Thunder Bluff|N|To Ahanu, in a tent at the lowest level from thetower.|
+T Ride to Thunder Bluff|QID|6362|M|45.73,55.83|Z|Thunder Bluff|N|To Ahanu, in a tent at the lowest level from the tower.|
 A Tal the Wind Rider Master|QID|6363|PRE|6362|R|Tauren|M|45.73,55.83|Z|Thunder Bluff|N|From Ahanu.|
 T Tal the Wind Rider Master|QID|6363|R|Tauren|M|46.98,49.84|Z|Thunder Bluff|N|To Tal at the top of the tower.|
 A Return to Jahan|QID|6364|PRE|6363|R|Tauren|M|46.98,49.84|Z|Thunder Bluff|N|From Tal.|
 F Crossroads|QID|6364|
 T Return to Jahan|QID|6364|M|51.21,29.05|Z|The Barrens|N|To Jahan Hawkwing.|
-h The Crossroads|QID|844|M|51.99,29.90|N|Set your Hearthstone at Innkeeper Boorand Plainswind.|
+h The Crossroads|QID|844|M|51.99,29.90|Z|The Barrens|N|Set your Hearthstone at Innkeeper Boorand Plainswind.|
 ]]
 end)
