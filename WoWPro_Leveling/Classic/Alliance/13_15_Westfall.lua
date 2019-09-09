@@ -38,7 +38,7 @@ l Flask of Oil|QID|103|M|38,51|US|N|Kill Harvest Watchers to collect Flask of Oi
 T Report to Gryan Stoutmantle|QID|109|M|56.3,47.5|N|To Gryan Stoutmantle.|
 A The People's Militia |QID|12|M|56.3,47.5|N|From Gryan Stoutmantle.|
 											 
-A Patrolling Westfall|QID|102|M|56.3,47.5|N|From Gryan Stoutmantle.|
+A Patrolling Westfall|QID|102|M|56.4,47.6|N|From Captain Danuvin.|.|
 
 N From now on...|QID|102|N|From now on, add Gnolls to your kill list with Goretusks and Fleshrippers. | 
 C The People's Militia |N|Kill defias mobs until you finish this quest.|QID|12|M|44.00,25.00;47,40;49,47|CN|
@@ -54,12 +54,13 @@ T Goretusk Liver Pie|QID|22|M|56.4,30.5|N|To Salma Saldean.|
 										   
 T The People's Militia |QID|12|M|56.3,47.5|N|To Gryan Stoutmantle.|
 A The People's Militia |QID|13|M|56.3,47.5|N|From Gryan Stoutmantle.|
-T Patrolling Westfall|QID|102|M|56.3,47.5|N|From Gryan Stoutmantle.|
-L Level Check|ACTIVE|13|LVL|15|N|You should be level 15 by this time, grind on the Defias mobs until you are.|
-A The Defias Brotherhood|QID|65|M|56.3,47.5|N|From Gryan Stoutmantle.| 
-F Lakeshire|ACTIVE|65|M|56.55,52.65|N|Fly to Lakeshire (or Stormwind City if you don't have the Lakeshire flightpath) at Thor.|
 
-r Sell, repair, restock, train|N|Sell junk, repair, restock, train skills.| 
+T Patrolling Westfall|QID|102|M|56.4,47.6|N|To Captain Danuvin.|
+L Level Check|ACTIVE|15|LVL|15|N|You should be level 15 by this time, grind on the Defias mobs until you are.|
+A The Defias Brotherhood |QID|65|M|56.3,47.5|N|From Gryan Stoutmantle.| 
+F Lakeshire|ACTIVE|65|M|56.55,52.65|N|Fly to Lakeshire  (or Stormwind City if you don't have the Lakeshire flightpath) at Thor.|
+
+r Sell, repair, restock, train skills|N|Sell junk, repair, restock, train skills| 
 
 ;remainder only applies if coming from 1-12 dunMorough/13-14 Loch Modan
 T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
