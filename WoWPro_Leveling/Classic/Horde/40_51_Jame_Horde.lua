@@ -158,7 +158,6 @@ T Sunken Treasure|QID|669|M|27.2,77.0|N|Fleet Master Seahorn. (skip follow up)|
 A Tran'rek|QID|2864|M|27.0,77.2|N|From Krazek on the top floor.|
 A Venture Company Mining|QID|600|M|27.1,77.2|N|From Crank Fizzlebub on the first floor of the inn.|
 h Salty Sailor Inn|ACTIVE|600|M|27,77|N|Set your hearthstone to Booty Bay.|
-A Zanzil's Secret|QID|621|M|27.1,77.2|N|From Crank Fizzlebub.|
 A Akiris by the Bundle|QID|617|M|26.8,76.4|N|From Brivateer Bloads in front of the bank. Check for any Strangelthorn pages you are missing in the auction house while you are here.|
 A Scaring Shaky|QID|606|M|27.8,77.1|N|From "Sea Wolf" MacKinley|
 A Stoley's Debt|QID|2872|M|27.8,77.1|N|From "Sea Wolf" MacKinley|
@@ -174,8 +173,7 @@ A Return to MacKinley|QID|607|M|26.9,73.6|N|From "Shaky" Phillipe.|
 T The Bloodsail Buccaneers |QID|597|M|28.1,76.2|N|Return to First Mate Crazz.|
 A The Bloodsail Buccaneers |QID|599|M|28.1,76.2||N|From First Mate Crazz.|
 T Stranglethorn Fever|QID|348|M|27.6,76.7|N|To Fin Fitzracket.|
-T Return to MacKinley|QID|607|M|27.8,77.1|N|To "Sea Wolf" MacKinley.|
-A Voodoo Dues|QID|609|M|27.8,77.1|N|From "Sea Wolf" MacKinley.|
+T Return to MacKinley|QID|607|M|27.8,77.1|N|To "Sea Wolf" MacKinley. (wait to get the followup till next time we are here)|
 A Up to Snuff|QID|587|M|26.9,77.3|N|From Deeg at the top of the inn.|
 T The Bloodsail Buccaneers |QID|599|N|Turn in to Fleet Master Seahorn at the top of the inn near the flight master.|M|27.2,76.9|
 A The Bloodsail Buccaneers |QID|604|M|27.2,76.9|N|From Fleet Master Seahorn.|
@@ -185,8 +183,8 @@ C Keep An Eye Out|QID|576|M|31.9,78.6|S!US|N|Head out of Booty Bay and turn righ
 C The Bloodsail Buccaneers |QID|604|M|29.6,80.9;27,82;33,88|CN|N|Check two camps and the boat (3 waypoints) for the Orders and Charts. Kill any remaining swashbucklers you need, while looting snuff.|
 C Up to Snuff|QID|587|M|33.0,75.0|N|Snuff can be found on any Bloodsail Buccaneers in the area.|
 R Booty Bay|QID|604|M|29.5,72.5|
-T The Bloodsail Buccaneers |QID|604|M|27.2,76.9|N|To Fleet Master Seahorn.|
-A The Bloodsail Buccaneers |QID|608|M|27.2,76.9|N|From Fleet Master Seahorn.|
+T The Bloodsail Buccaneers |QID|604|M|27.2,76.9|N|To Fleet Master Seahorn. (followup can be difficult to solo)|
+A The Bloodsail Buccaneers |QID|608|M|27.2,76.9|GROUP|N|From Fleet Master Seahorn.|
 T Up to Snuff|QID|587|M|26.9,77.3|N|To Deeg.|
 A Skullsplitter Tusks|QID|209|M|27,77.2|N|From Kebok.|
 
@@ -246,16 +244,17 @@ A The Singing Crystals|QID|589|M|32.2,27.8|N|From Kin'weelay.|
 b Zeppalin|ACTIVE|589|M|31.6,29.4|N|Head off to your choice of Undercity or Orgrimmar to train.|
 H The Salty Sailor Tavern|QID|621|N|Booty Bay. Run there if your hearth isn't up yet .|M|29.52,72.53|
 
+A Zanzil's Secret|QID|621|M|27.1,77.2|N|From Crank Fizzlebub.|
 T Venture Company Mining|ACTIVE|589||N|This this quest in on the first floor of the inn.|M|27.1,77.2|
 T Skullsplitter Tusks|QID|209|N|This this in on the top floor of the inn.|
+A Voodoo Dues|QID|609|M|27.8,77.1|N|From "Sea Wolf" MacKinley.|
 T Excelsior|QID|628|N|Use the top floor exit of the inn and head for the leather working shop to turn this in.|M|28.3,77.6|
 
-N Things to do|QID|624|N|Coming next, you will be killing pirates on 3 ships. While there, keep a sharp eye out for a rolled up scroll that can be about anywhere below deck. It starts Cortello's Riddle quest. Avoid fighting on the stairs or you may have multi floor agro.|
-K Captain Stillwater|QID|608|QO|1|M|32.9,88.2|T|Captain Stillwater|N|Head into the first pirate ship and kill Captain Stillwater . Don't forget to watch for Cortello's Riddle.|
-K Fleet Master Firallon|QID|608|QO|3|M|30.6,90.6|T|Fleet Master Firallon|N|Fleet Master Firallon can be found in the next ship at . Don't forget to watch for Cortello's Riddle.|
-K Captain Keelhaul|QID|608|QO|2|M|29.3,88.4|T|Captain Keelhaul|N|Captain Keelhaul is in the last ship at . Don't forget to watch for Cortello's Riddle.|
-N Cortello's Riddle|QID|624|L|4056|N|Search the lower levels of the ships until you find this.|
-A Cortello's Riddle |QID|624|U|4056|N|From item you just looted.|
+N Things to do|ACTIVE|608|N|Coming next, you will be killing pirates on 3 ships. While there, keep a sharp eye out for a rolled up scroll that can be about anywhere below deck. It starts Cortello's Riddle quest. Avoid fighting on the stairs or you may have multi floor agro.|
+K Captain Stillwater|ACTIVE|608|QO|1|M|32.9,88.2|T|Captain Stillwater|N|Head into the first pirate ship and kill Captain Stillwater . Don't forget to watch for Cortello's Riddle.|
+K Fleet Master Firallon|ACTIVE|608|QO|3|M|30.6,90.6|T|Fleet Master Firallon|N|Fleet Master Firallon can be found in the next ship at . Don't forget to watch for Cortello's Riddle.|
+K Captain Keelhaul|ACTIVE|608|QO|2|M|29.3,88.4|T|Captain Keelhaul|N|Captain Keelhaul is in the last ship at . Don't forget to watch for Cortello's Riddle.|
+N Cortello's Riddle|ACTIVE|608|L|4056|N|Search the lower levels of the ships until you find this.|
 
 R Mistvale Valley|QID|571|N|At|M|33,63|
 C Mok'thardin's Enchantment |QID|571|N|Kill gorillas until the Aged Gorilla Sinew drops.|M|31.6,67.3|
@@ -273,6 +272,7 @@ T Voodoo Dues|QID|609|N|Turn this quest into Sea Wolf MacKinley.|M|27.8,77.1|
 
 F Stonard|QID|1420|N|A quick trip to find a scroll under a bridge.|
 T Report to Helgrum|QID|1420|M|47.9,55.0|Z|Swamp of Sorrows|
+A Cortello's Riddle |QID|624|M|23,48|Z|Swamp of Sorrows|U|4056|N|From item in your bags.|
 T Cortello's Riddle |QID|624|M|23,48|Z|Swamp of Sorrows|N|Under an ornate bridge west of Stonard is a soggy scroll. Get it to start the next part of the quest line.|
 A Cortello's Riddle |QID|625|M|22.9,48.2|Z|Swamp of Sorrows|
 
