@@ -50,7 +50,7 @@ T The Bloodsail Buccaneers |QID|599|M|27.2,77.0|N|To Fleet Master Seahorn.|
 A The Bloodsail Buccaneers |QID|604|M|27.2,77.0|N|From Fleet Master Seahorn.|
 T Return to MacKinley|QID|607|M|27.8,77.1|N|To "Sea Wolf" MacKinley.|
 A Voodoo Dues|QID|609|M|27.8,77.1|N|From "Sea Wolf" MacKinley.|
-A Keep An Eye Out|QID|576|M|28.6,75.9|N|From Dizy One-Eye.|
+A Keep An Eye Out|QID|576|M|28.6,75.9|N|From Dizzy One-Eye.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock.|
 
 C The Bloodsail Buccaneers |QID|604|M|28,83;27,83;30,80|CN|N|Exit town and go to the beach. Kill Bloodsail mobs while moving to this location. Loot the Bloodsail Charts and Bloodsail Orders from the camps in the area. Check at each of the locations marked.|
@@ -90,9 +90,15 @@ T Skullsplitter Tusks|QID|209|M|27.0,77.1|N|To Kebok.|
 T Goblin Sponsorship |QID|1182|M|27.2,77.0|N|To Baron Revilgaz.|
 A Goblin Sponsorship |QID|1183|M|27.2,77.0|N|From Baron Revilgaz.|
 T The Bloodsail Buccaneers |QID|604|M|27.2,77.0|N|To Fleet Master Seahorn. (skip followup if you are solo)|
-;A The Bloodsail Buccaneers |QID|608|M|27.2,77.0|N|From Fleet Master Seahorn.|-- removed due to difficulty to solo
+A The Bloodsail Buccaneers |QID|608|M|27.2,77.0|GROUP|N|From Fleet Master Seahorn.|
 T Voodoo Dues|QID|609|M|27.8,77.1|N|To "Sea Wolf" MacKinley. (skip follow up).|
 A Stoley's Debt|QID|2872|M|27.8,77.1|N|From "Sea Wolf" MacKinley.|
+T Keep An Eye Out|QID|576|M|28.6,75.9|N|To Dizzy One-Eye.|
+N Things to do|ACTIVE|608|N|Coming next, you will be killing pirates on 3 ships. While there, keep a sharp eye out for a rolled up scroll that can be about anywhere below deck. It starts Cortello's Riddle quest. Avoid fighting on the stairs or you may have multi floor agro.|
+K Captain Stillwater|ACTIVE|608|QO|1|M|32.9,88.2|T|Captain Stillwater|N|Head into the first pirate ship and kill Captain Stillwater . Don't forget to watch for Cortello's Riddle.|
+K Fleet Master Firallon|ACTIVE|608|QO|3|M|30.6,90.6|T|Fleet Master Firallon|N|Fleet Master Firallon can be found in the next ship at . Don't forget to watch for Cortello's Riddle.|
+K Captain Keelhaul|ACTIVE|608|QO|2|M|29.3,88.4|T|Captain Keelhaul|N|Captain Keelhaul is in the last ship at . Don't forget to watch for Cortello's Riddle.|
+N Cortello's Riddle|ACTIVE|608|L|4056|N|Search the lower levels of the ships until you find this.|
 
 F Stormwind City|ACTIVE|1183|M|27.4,77.6|N|At Gyll.|
 r Train, Restock, Repair|N|Do all your town stuff.|
@@ -120,6 +126,9 @@ T Draenethyst Crystals|QID|1389|M|26,31.4|Z|Swamp of Sorrows|N|To Magtoor.|
 T Noboru the Cudgel|QID|1392|M|26,31|Z|Swamp of Sorrows|N|To Magtoor.|
 T The Lost Caravan|QID|1421|M|29,59|Z|Swamp of Sorrows|N|To Watcher Biggs.|
 A Driftwood|QID|1398|M|29,59|Z|Swamp of Sorrows|N|From Watcher Biggs.|PRE|1421|
+A Cortello's Riddle |QID|624|M|23,48|Z|Swamp of Sorrows|U|4056|N|From item in your inventory.|
+T Cortello's Riddle |QID|624|M|23,48|Z|Swamp of Sorrows|N|Under an ornate bridge west of Stonard is a soggy scroll. Get it to start the next part of the quest line.|
+A Cortello's Riddle |QID|625|M|22.9,48.2|Z|Swamp of Sorrows|PRE|624|
 C In Search of The Temple|QID|1448|M|65.00,48.00|Z|Swamp of Sorrows|NC|N|Swim east towards the temple if you need to complete this quest. Continue east after the quest update.|
 C Driftwood|QID|1398|M|94.7,44.8;84.3,83.8|CS|Z|Swamp of Sorrows|NC|N|Run south along the coast picking up driftwood.|
 T Driftwood|QID|1398|M|29,59|Z|Swamp of Sorrows|N|To Watcher Biggs. (Avoid Stonard as you run back)|
@@ -138,6 +147,7 @@ N Dungeon Interlude|N|If you want to do Uldaman now is a good time. Check this s
 ;to do - add J step to (not yet created) guide to getting Uldaman quests.
 H The Salty Sailor Tavern|ACTIVE|623|N|Hearth to Booty Bay (or otherwise travel to Theramore).|
 b Ratchet|ACTIVE|623|M|25.80,73.10|N|Take the boat to Ratchet.|
+A Parts for Kravel|QID|1112|Z|The Barrens|M|63.4,38.5|N|From Wharfmaster Dizzywig.|
 
 F Theramore Isle|ACTIVE|623|Z|The Barrens|M|63.10,37.15|N|Fly to Theramore.|
 T Akiris by the Bundle|QID|623|M|67.7,51.7|Z|Dustwallow Marsh|N|To Privateer Gray.|
@@ -145,8 +155,9 @@ t Alliance Trauma|QID|6625|M|67.8,49.0|Z|Dustwallow Marsh|N|Breadcrumb quest is 
 A Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|From Doctor Gustaf VanHowzen.|P|First Aid;129;0+225|
 C Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|Prioritize the Critically Injured, then Badly and lastly Injured.  Position yourself in the middle of the room when all patients are in range, hot key the bandages, If you dont have Friendly Nameplates on, CTRL-V. Save 15 before 6 die.|
 T Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|To Doctor Gustaf VanHowzen.|
+T Cortello's Riddle |QID|625|M|31.10,66.13|Z|Dustwallow Marsh|N|Click on the scroll in the cave behind Goreclaw to complete this quest.|
+A Cortello's Riddle |QID|626|M|31.1,66.1|Z|Dustwallow Marsh|PRE|625|
 F Gadgetzan|ACTIVE|2864|Z|Dustwallow Marsh|M|67.50,51.30|N|Fly to Gadgetzan.|
-A Parts for Kravel|QID|1112|Z|The Barrens|M|63.4,38.5|N|From Wharfmaster Dizzywig.|
 T Tran'rek|QID|2864|M|51.6,26.8|Z|Tanaris|N|Skip followup.|
 A Wastewander Justice|QID|1690|M|52.5,28.5|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|
 A Water Pouch Bounty|QID|1707|M|52.5,28.5|Z|Tanaris|N|From Spigot Operator Luglunket.|
@@ -339,6 +350,7 @@ t Find OOX-09/HL!|QID|485|M|49.35,37.65|Z|The Hinterlands|N|To OOX-09/HL.|
 A Rescue OOX-09/HL!|QID|836|M|49.35,37.65|Z|The Hinterlands|N|From OOX-09/HL.|PRE|485|
 C Rescue OOX-09/HL!|QID|836|N|Let the chicken lead the way, so he will stop when agro. It can be very difficult to solo. Ask the zone if anyone wants to do it with you. There are 2 preset ambushes. Abandon if you are having too many difficulties.|
 R Overlook Cliffs|ACTIVE|2944|M|70,63|Z|The Hinterlands|N|Run southeast to the Overlook Cliffs and follow the path down to the shore. You can usually spot Gammerita while still on the path, so you know which way to go at the bottom.|
+T Cortello's Riddle|QID|626|M|80.81,46.79|Z|The Hinterlands|N|Dive down under the waterfall, and find Cortello's Chest and collect your prize.|
 K Gammerita|ACTIVE|2944|M|82,49;75,67|Z|The Hinterlands|CN|U|9328|L|9330|T|Gammerita|N|Search the coast for an aggressive-flagged turtle named Gammerita. Take her picture with the Super Snapper FX. The camera will cause her to charge, but you can run, vanish, etc, don't have to kill her.(Picture of her dead works, if she is dead when you arrive.)|
 H Wildhammer Keep|ACTIVE|2880|N|Hearth back to Aerie Peak.|
 T Troll Necklace Bounty|QID|2880|M|14.8,44.6|Z|The Hinterlands|N|To Fraggar Thundermantle. Turn in any extra Troll Necklaces you have also (in multiples of 5).|
