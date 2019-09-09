@@ -33,7 +33,7 @@ H Darkshire|QID|5|M|73.77,43.51|N|Hearth or Run back to Darkshire.|
 T Jitters' Growling Gut|QID|5|M|73.77,43.51|N|To Chef Graul at the Inn.|
 A Dusky Crab Cakes|QID|93|M|73.77,43.51|N|From Chef Graul|PRE|5|
 T Dusky Crab Cakes|QID|93|M|73.77,43.51|N|To Chef Graul|
-A Return to Jitters|QID|240|M|73.77,43.51|N|From Chef Graul|
+A Return to Jitters|QID|240|M|73.77,43.51|N|From Chef Graul|PRE|93|
 T Supplies from Darkshire|QID|148|M|75.77,45.29|N|To Madame Eva.|
 A Ghost Hair Thread|QID|149|M|75.77,45.29|N|From Madame Eva.|PRE|148|
 A The Night Watch|QID|56|M|73.56,46.86|N|From Commander Althea Ebonlocke.|
@@ -42,6 +42,5 @@ A Return the Comb|QID|154|M|81.9,59.3|N|From Blind Mary.|PRE|149|
 C The Night Watch|QID|56|M|79,70|N|Kill mobs here until you finish this quest.|
 T The Night Watch|QID|56|M|73.56,46.86|N|To Commander Althea Ebonlocke.|
 T Return the Comb|QID|154|M|75.77,45.29|N|To Madame Eva.|
-N Stockades Dungeon|QID|469|N|Now is Likely a good time to do stockades, Get [What Comes Around...] from Lakeshire Town hall, [Crime and Punishment] from Darkshire Town hall. The other three [The Color of Blood],[Bazil Thredd]which turns in right outside Stocks entrance/followup [The Stockade Riots] and [Quell The Uprising] can all be found in stormwind.|
 ]]
 end)
