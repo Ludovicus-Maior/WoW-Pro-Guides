@@ -79,8 +79,7 @@ R Ratchet|ACTIVE|1111|Z|The Barrens|M|62.7,36.2|N|Run northest to Ratchet.|
 T Goblin Sponsorship|N|Turn in your quest to Gazlowe.|QID|1178|Z|The Barrens|M|62.7,36.2|
 A Goblin Sponsorship |QID|1180|Z|The Barrens|M|62.7,36.2|N|From Gazlowe.|
 f Ratchet|ACTIVE|1180|M|63,37|Z|The Barrens|N|Grab the flightpoint from Bragok.|
-T Wharfmaster Dizzywig|QID|1111|Z|The Barrens|M|63.4,38.5|N|To Wharfmaster Dizzywig.|
-A Parts for Kravel|QID|1112|Z|The Barrens|M|63.4,38.5|N|From Wharfmaster Dizzywig.|
+T Wharfmaster Dizzywig|QID|1111|Z|The Barrens|M|63.4,38.5|N|To Wharfmaster Dizzywig. (skip followup for now)|
 b Booty Bay|QID|1181|N|Take the boat to Booty Bay.|Z|The Barrens|M|63.60,38.60|
 T Goblin Sponsorship |QID|1180|M|26.3,73.6|Z|Stranglethorn Vale|
 A Goblin Sponsorship |QID|1181|M|26.3,73.6|Z|Stranglethorn Vale|
@@ -94,8 +93,7 @@ A The Haunted Isle|QID|616|M|26.9,77.2|Z|Stranglethorn Vale|N|From Krazek.|
 A Supplies to Private Thorsen|QID|198|M|26.9,77.2|Z|Stranglethorn Vale|N|From Krazek.|
 T The Haunted Isle|QID|616|M|27.2,77.0|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
 A The Stone of the Tides|QID|578|M|27.2,77.0|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
-T Goblin Sponsorship|QID|1181|M|27.2,77.0|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
-A Goblin Sponsorship |QID|1182|M|27.2,77.0|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
+T Goblin Sponsorship|QID|1181|M|27.2,77.0|Z|Stranglethorn Vale|N|To Baron Revilgaz. (skip followup for now)|
 A Singing Blue Shards|QID|605|M|27.1,77.2|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|
 A Scaring Shaky|QID|606|M|27.8,77.1|Z|Stranglethorn Vale|N|From "Sea Wolf" McKinley.|
 A Supply and Demand|QID|575|M|28.3,77.6|Z|Stranglethorn Vale|N|From Drizzlik.|
@@ -162,15 +160,14 @@ C The Stone of the Tides|N|Swim to the island until you get the quest complete m
 T Tiger Mastery|QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 A Tiger Mastery |QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 T Panther Mastery|QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
-A Panther Mastery |QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
+A Panther Mastery |QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin. If you don't mind the run, skip picking this up now, as it will sit in your quest log awile.|
 T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
 A Raptor Mastery |QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
 N Green Hills of Stranglethorn|N|Turn in any Green Hills of Stranglethorn quests that you can turn in while you are here.|Z|Stranglethorn Vale|
 L Level Check: 3 bubbles from 34|LVL|33;46325|
 
 H The Salty Sailor Tavern|QID|605|N|Hearth to Booty Bay.|Z|Stranglethorn Vale|
-T Singing Blue Shards|QID|605|M|27.1,77.2|Z|Stranglethorn Vale|N|To Crank Fizzlebub.|
-A Venture Company Mining|QID|600|M|27.1,77.2|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|
+T Singing Blue Shards|QID|605|M|27.1,77.2|Z|Stranglethorn Vale|N|To Crank Fizzlebub. (skip followup for now)|
 T Krazek's Cookery|QID|210|M|26.9,77.2|Z|Stranglethorn Vale|N|To Krazek.|
 A Favor for Krazek|QID|627|M|26.9,77.2|Z|Stranglethorn Vale|N|From Krazek. If you don't have or don't want to get the Bloodstone Ore, skip this.|
 t Favor for Krazek|N|Turn in Favor for Krazek if you have 4 Lesser Bloodstone Ores.|QID|627|M|26.9,77.2|Z|Stranglethorn Vale|
@@ -196,7 +193,7 @@ C Hostile Takeover|QID|213|M|44.00,20.00|Z|Stranglethorn Vale|N|Kill geologists 
 C Some Assembly Required|QID|577|M|39.60,17.30|Z|Stranglethorn Vale|N|Kill Snapjaw Crocolisks until you get the skins needed for this quest. They can be found in or near the river.|
 C Tiger Mastery|QID|187|M|32.20,15.20|Z|Stranglethorn Vale|N|Kill Elder Stranglethorn Tigers at this location until you complete Tiger Mastery.|
 T Raptor Mastery|QID|195|M|35.8,10.7|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
-A Raptor Mastery |QID|196|M|35.66,10.66|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+A Raptor Mastery |QID|196|M|35.66,10.66|Z|Stranglethorn Vale|N|From Hemet Nesingwary. If you don't mind the run, skip picking this up now, as it will sit in your quest log awile.|
 T Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 A Tiger Mastery |QID|188|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 C Special Forces|N|Kill Kurzen in and near this cave until you complete the quest.|QID|574|M|45.40,8.50|

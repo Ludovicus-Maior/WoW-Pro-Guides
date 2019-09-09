@@ -6,7 +6,7 @@ WoWPro:GuideSteps(guide, function() return [[
 
 b Wetlands|QID|299|M|32.42,43.74|Z|Darkshore|N|Run back to Auberdine. and get on the boat to Menethil.|
 A Reclaiming Goods|QID|281|M|8.3,58.6|N|From Karl Boran.|
-A Apprentice's Duties|QID|471|M|8.49,55.7|N|From James Halloran.|
+A Apprentice's Duties|QID|471|M|8.49,55.7|N|From James Halloran.|PRE|484|
 A Fall of Dun Modr|QID|472|M|10.84,55.89|N|From Harlo Barnaby.|
 A Report to Captain Stoutfist|QID|473|M|10.09,56.9|N|From Valstag Ironjaw.|PRE|455|
 T Report to Captain Stoutfist|QID|473|M|9.86,57.48|N|To Captain Stoutfist, On the 2nd floor|
@@ -15,6 +15,15 @@ A The Third Fleet|QID|288|M|10.9,59.66|N|From First Mate Fitzsimmons.|
 h Deepwater Tavern|QID|299|M|10.7,60.96|N|Make Deepwater Tavern your home location.|
 B Flagon of Dwarven Honeymead|QID|288|M|10.7,60.96|L|2594|N|Buy a Flagon of Dwarven honeymead from Inkeeper Helbrek. Hint: It's on the second page.|
 T The Third Fleet|QID|288|M|10.9,59.66|N|To First Mate Fitzsimmons.|
+T Reclaiming Goods|QID|281|M|13.51,41.38|N|To the Damaged Crate.|
+A The Search Continues|QID|284|M|13.51,41.38|N|From the Damaged Crate.|PRE|281|
+T The Search Continues|QID|284|M|13.61,38.21|N|To the Sealed Barrel.|
+A Search More Hovels|QID|285|M|13.61,38.21|N|From the Sealed Barrel.|PRE|284|
+T Search More Hovels|QID|285|M|13.94,34.81|N|To the Half-buried Barrel.|
+A Return the Statuette|QID|286|M|13.94,34.81|N|From the Half-buried Barrel.|PRE|285|
+C Blisters on The Land|QID|275|M|20.25,32.1|S|N|Fen Creepers can be found in the shallow waters of these marshes. They are stealthed so you need to get close to see them.|
+C Apprentice's Duties|QID|471|M|28.3,19.7|N|Kill Giant Wetlands Crocolisks.|
+C Blisters on The Land|QID|275|M|20.25,32.1|US|N|Fen Creepers can be found in the shallow waters of these marshes. They are stealthed so you need to get close to see them.|
 A Uncovering the Past|QID|299|M|34,41;37,43.6;38.81,52.38|CS|N|From Prospector Whelgar.|
 A Ormer's Revenge|QID|295|M|38.1,51.2|N|From Ormer Ironbraid.|PRE|294|
 C Ormer's Revenge|QID|295|M|35.00,48.00|S|N|Kill the Raptors needed for this quest.|
@@ -30,15 +39,12 @@ A Ormer's Revenge|QID|296|M|38.1,51.1|N|From Ormer Ironbraid.|PRE|295|
 T Uncovering the Past|QID|299|M|38.81,52.38|N|To Prospector Whelgar.|
 C Ormer's Revenge|QID|296|M|33.17,51.40|N|Kill Sarltooth at this location.|
 T Ormer's Revenge|QID|296|M|38.1,51.1|N|To Ormer Ironbraid.|
-
-C War Banners|N|Kill the orc mobs here until you get the items for this quest. (42.4,40.1)(44.50, 43.7)|QID|464|M|34,41|
-C Apprentice's Duties|N|Kill Giant Wetlands Crocolisks and Fen Creepers until you finish this quest. Fen Creepers can be found in the shallow waters and are stealthed, so you need to get close to see them. Check every pond on the way. (25.5,21.3)(18.1,25.8)|QID|471|M|28.3,19.7|
-C Blisters on The Land|N|Kill Fen Creepers until you finish this quest. They can be found in the shallow waters of these marshes. They are stealthed so you need to get close to see them. (23.5,30.00)(25.83,31.83)(27.6,37.2)|QID|275|M|20.25,32.1|
-T Blisters on The Land|QID|275|M|56.3,40.5|
-H Deepwater Tavern|QID|281|
-T Reclaiming Goods|N||QID|281|M|13.5,41.4|
-T War Banners|N|On the 2nd floor of the keep.|QID|464|M|9.9,57.5|
-T Apprentice's Duties|QID|471|M|8.5,55.7|
+C War Banners|QID|464|M|43,42|N|Kill the orc mobs here until you get all the banners you need.|
+T Blisters on The Land|QID|275|M|56.34,40.41|N|To Rethiel the Greenwarden.|
+H Deepwater Tavern|QID|464|N|Hearth or run back to town.|
+T War Banners|QID|464|M|9.86,57.48|N|To Captain Stoutfist on the 2nd floor of the keep.|
+T Apprentice's Duties|QID|471|M|8.49,55.7|N|To James Halloran.|
+T Return the Statuette|QID|286|M|8.3,58.6|N|To Karl Boran.|
 N Level 26|QID|1078|N|You should be level 26 or close by now. If you are not, I suggest a grinding session, because we're about to hit Stormwind and train new skills. Close this step.|
 F Stormwind City|QID|1078|N|Fly to Stormwind.|M|9.50,59.70|
 ]]

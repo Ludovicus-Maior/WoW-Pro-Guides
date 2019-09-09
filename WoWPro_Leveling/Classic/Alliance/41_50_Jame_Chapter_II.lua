@@ -10,7 +10,7 @@ return [[
 N Shopping List|QID|3842|N|Crafted by an alchemist. Check the AH or otherwise acquire 2 Elixirs of Fortitude at a reasonable price. You will need them for a quest at Mirage Raceway when you are level 47.|L|3825 2|
 r Sell junk, repair, restock|N|Sell junk, repair, restock. Train riding and buy your mount if you haven't.|
 R Dwarven District|QID|1448|M|63,24|Z|Stormwind City|N|Head to the Dwarven district in Stormwind.|
-A In Searth of the Temple|QID|1448|M|63,24|Z|Stormwind City|N|From Brohann Caskbelly, inside a pub in the Dwarven District.|
+A In Search of the Temple|QID|1448|M|63,24|Z|Stormwind City|N|From Brohann Caskbelly, inside a pub in the Dwarven District.|
 R The Stockades|ACTIVE|1448|M|40,63|Z|Stormwind City|N|Next quest located inside a building just south of The Stockades entrance.|
 A Mazen's Behest|QID|1363|M|40,63|Z|Stormwind City|N|From Mazen Mac'Nadir.|
 T Mazen's Behest|QID|1363|M|40,63|Z|Stormwind City|N|Just up the stairs for turn in to Acolyte Dellis.|
@@ -19,17 +19,17 @@ A Mazen's Behest|QID|1364|M|40,63|Z|Stormwind City|N|From Acolyte Dellis.|
 F Booty Bay|QID|595|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
 h Booty Bay|QID|595|M|27.00,77.30|N|Make Booty Bay your home location.|
 r Sell junk, repair, restock|QID|595|N|Sell junk, repair, restock.|
-T Goblin Sponsorship |QID|1180|M|26.3,73.6|Z|Stranglethorn Vale|N|To Wharfmaster Lozgil.|
-A Goblin Sponsorship |QID|1181|M|26.3,73.6|Z|Stranglethorn Vale|N|From Wharfmaster Lozgil.|
+T Goblin Sponsorship |QID|1180|M|26.3,73.6|N|To Wharfmaster Lozgil.|;duplicated from 30-40 guide
+A Goblin Sponsorship |QID|1181|M|26.3,73.6|N|From Wharfmaster Lozgil.|;duplicated from 30-40 guide
 A Skullsplitter Tusks|QID|209|M|27.0,77.1|N|From Kebok.|
 A Tran'rek|QID|2864|M|26.9,77.2|N|From Krazek.|
 A Zanzil's Secret|QID|621|M|27.1,77.2|N|From Crank Fizzlebub.|
 N Green Hills of Stranglethorn|QID|6504|Z|Stranglethorn Vale|N|While you are in Booty Bay, check the AH to see if any of the Stranglethorn Lost Pages you are missing are for sale. This is our last trip to Stranglethorn Vale, so you want to have all 4 chapters complete as soon as possible:\nChapter I: page 1,4,6,8\nChapter II: page 10,11,14,16\nChapter III: page 18,20,21,24\nChapter IV: page 25,26,27|
 A Akiris by the Bundle |QID|617|M|26.8,76.4|N|From Privateer Bloads.|
 A The Bloodsail Buccaneers |QID|595|M|28.1,76.2|N|From First Mate Crazz.|
-A Venture Company Mining|QID|600|M|27.1,77.2|N|Accept this quest if you do not have it.|
-T Goblin Sponsorship |QID|1181|M|27.20,76.90|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
-A Goblin Sponsorship |QID|1182|M|27.20,76.90|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
+A Venture Company Mining|QID|600|M|27.1,77.2|N|From Crank Fizzlebub.|
+T Goblin Sponsorship |QID|1181|M|27.20,76.90|N|To Baron Revilgaz.|;duplicated from 30-40 guide
+A Goblin Sponsorship |QID|1182|M|27.20,76.90|N|From Baron Revilgaz.|;duplicated from 30-40 guide
 A Scaring Shaky|QID|606|M|27.8,77.1|N|Accept this quest if you do not have it.|
 A "Pretty Boy" Duncan|QID|610|N|Accept this quest if you do not have it.|
 K "Pretty Boy" Duncan|ACTIVE|610|M|27.50,69.35|T|"Pretty Boy" Duncan|N|Kill Pretty Boy Duncan at this location and loot the blade from him.|
@@ -50,12 +50,14 @@ T The Bloodsail Buccaneers |QID|599|M|27.2,77.0|N|To Fleet Master Seahorn.|
 A The Bloodsail Buccaneers |QID|604|M|27.2,77.0|N|From Fleet Master Seahorn.|
 T Return to MacKinley|QID|607|M|27.8,77.1|N|To "Sea Wolf" MacKinley.|
 A Voodoo Dues|QID|609|M|27.8,77.1|N|From "Sea Wolf" MacKinley.|
-A Keep An Eye Out|QID|576|M|28.6,75.9|N|From Dizy One-Eye.|
+A Keep An Eye Out|QID|576|M|28.6,75.9|N|From Dizzy One-Eye.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock.|
 
 C The Bloodsail Buccaneers |QID|604|M|28,83;27,83;30,80|CN|N|Exit town and go to the beach. Kill Bloodsail mobs while moving to this location. Loot the Bloodsail Charts and Bloodsail Orders from the camps in the area. Check at each of the locations marked.|
 C Up to Snuff|QID|587|M|32.8,76.2|N|Continue to kill Bloodsail mobs until you get 15 Snuff.|
 C Keep An Eye Out|QID|576|M|32.8,76.2|N|Continue to kill Bloodsail mobs until you get Dizzy's Eye. (Random from any)|
+A Panther Mastery |QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
+A Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
 C Panther Mastery|QID|192|S|N|From now on, kill any Shadowmaw Panther you see. They are stealthed.|
 C Venture Company Mining|QID|600|M|41.00,43.60|N|Kill Venture Co. Mobs until you get the 10 Singing Blue Crystals for this quest.|
 C Raptor Mastery |QID|196|M|32.80,40.30|N|Kill 10 Jungle Stalkers near this location.|
@@ -88,9 +90,15 @@ T Skullsplitter Tusks|QID|209|M|27.0,77.1|N|To Kebok.|
 T Goblin Sponsorship |QID|1182|M|27.2,77.0|N|To Baron Revilgaz.|
 A Goblin Sponsorship |QID|1183|M|27.2,77.0|N|From Baron Revilgaz.|
 T The Bloodsail Buccaneers |QID|604|M|27.2,77.0|N|To Fleet Master Seahorn. (skip followup if you are solo)|
-;A The Bloodsail Buccaneers |QID|608|M|27.2,77.0|N|From Fleet Master Seahorn.|-- removed due to difficulty to solo
+A The Bloodsail Buccaneers |QID|608|M|27.2,77.0|GROUP|N|From Fleet Master Seahorn.|
 T Voodoo Dues|QID|609|M|27.8,77.1|N|To "Sea Wolf" MacKinley. (skip follow up).|
 A Stoley's Debt|QID|2872|M|27.8,77.1|N|From "Sea Wolf" MacKinley.|
+T Keep An Eye Out|QID|576|M|28.6,75.9|N|To Dizzy One-Eye.|
+N Things to do|ACTIVE|608|N|Coming next, you will be killing pirates on 3 ships. While there, keep a sharp eye out for a rolled up scroll that can be about anywhere below deck. It starts Cortello's Riddle quest. Avoid fighting on the stairs or you may have multi floor agro.|
+K Captain Stillwater|ACTIVE|608|QO|1|M|32.9,88.2|T|Captain Stillwater|N|Head into the first pirate ship and kill Captain Stillwater . Don't forget to watch for Cortello's Riddle.|
+K Fleet Master Firallon|ACTIVE|608|QO|3|M|30.6,90.6|T|Fleet Master Firallon|N|Fleet Master Firallon can be found in the next ship at . Don't forget to watch for Cortello's Riddle.|
+K Captain Keelhaul|ACTIVE|608|QO|2|M|29.3,88.4|T|Captain Keelhaul|N|Captain Keelhaul is in the last ship at . Don't forget to watch for Cortello's Riddle.|
+N Cortello's Riddle|ACTIVE|608|L|4056|N|Search the lower levels of the ships until you find this.|
 
 F Stormwind City|ACTIVE|1183|M|27.4,77.6|N|At Gyll.|
 r Train, Restock, Repair|N|Do all your town stuff.|
@@ -118,6 +126,9 @@ T Draenethyst Crystals|QID|1389|M|26,31.4|Z|Swamp of Sorrows|N|To Magtoor.|
 T Noboru the Cudgel|QID|1392|M|26,31|Z|Swamp of Sorrows|N|To Magtoor.|
 T The Lost Caravan|QID|1421|M|29,59|Z|Swamp of Sorrows|N|To Watcher Biggs.|
 A Driftwood|QID|1398|M|29,59|Z|Swamp of Sorrows|N|From Watcher Biggs.|PRE|1421|
+A Cortello's Riddle |QID|624|M|23,48|Z|Swamp of Sorrows|U|4056|N|From item in your inventory.|
+T Cortello's Riddle |QID|624|M|23,48|Z|Swamp of Sorrows|N|Under an ornate bridge west of Stonard is a soggy scroll. Get it to start the next part of the quest line.|
+A Cortello's Riddle |QID|625|M|22.9,48.2|Z|Swamp of Sorrows|PRE|624|
 C In Search of The Temple|QID|1448|M|65.00,48.00|Z|Swamp of Sorrows|NC|N|Swim east towards the temple if you need to complete this quest. Continue east after the quest update.|
 C Driftwood|QID|1398|M|94.7,44.8;84.3,83.8|CS|Z|Swamp of Sorrows|NC|N|Run south along the coast picking up driftwood.|
 T Driftwood|QID|1398|M|29,59|Z|Swamp of Sorrows|N|To Watcher Biggs. (Avoid Stonard as you run back)|
@@ -136,14 +147,17 @@ N Dungeon Interlude|N|If you want to do Uldaman now is a good time. Check this s
 ;to do - add J step to (not yet created) guide to getting Uldaman quests.
 H The Salty Sailor Tavern|ACTIVE|623|N|Hearth to Booty Bay (or otherwise travel to Theramore).|
 b Ratchet|ACTIVE|623|M|25.80,73.10|N|Take the boat to Ratchet.|
+A Parts for Kravel|QID|1112|Z|The Barrens|M|63.4,38.5|N|From Wharfmaster Dizzywig.|
+
 F Theramore Isle|ACTIVE|623|Z|The Barrens|M|63.10,37.15|N|Fly to Theramore.|
 T Akiris by the Bundle|QID|623|M|67.7,51.7|Z|Dustwallow Marsh|N|To Privateer Gray.|
 t Alliance Trauma|QID|6625|M|67.8,49.0|Z|Dustwallow Marsh|N|Breadcrumb quest is optional. Turns in to Doctor Gustaf VanHowzen.|
 A Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|From Doctor Gustaf VanHowzen.|P|First Aid;129;0+225|
 C Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|Prioritize the Critically Injured, then Badly and lastly Injured.  Position yourself in the middle of the room when all patients are in range, hot key the bandages, If you dont have Friendly Nameplates on, CTRL-V. Save 15 before 6 die.|
 T Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|To Doctor Gustaf VanHowzen.|
+T Cortello's Riddle |QID|625|M|31.10,66.13|Z|Dustwallow Marsh|N|Click on the scroll in the cave behind Goreclaw to complete this quest.|
+A Cortello's Riddle |QID|626|M|31.1,66.1|Z|Dustwallow Marsh|PRE|625|
 F Gadgetzan|ACTIVE|2864|Z|Dustwallow Marsh|M|67.50,51.30|N|Fly to Gadgetzan.|
-
 T Tran'rek|QID|2864|M|51.6,26.8|Z|Tanaris|N|Skip followup.|
 A Wastewander Justice|QID|1690|M|52.5,28.5|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|
 A Water Pouch Bounty|QID|1707|M|52.5,28.5|Z|Tanaris|N|From Spigot Operator Luglunket.|
@@ -172,7 +186,7 @@ A Gahz'Rilla|QID|2770|M|78.1,77.1|Z|Thousand Needles|N|To Wizzle Brassbolts.|
 T Parts for Kravel|QID|1112|M|77.8,77.3|Z|Thousand Needles|N|From Fizzle Brassbolts. (skip followup)|
 T Goblin Sponsorship |QID|1183|M|80.2,75.9|Z|Thousand Needles|N|To Pozzik.|
 A Keeping Pace|QID|1190|M|80.2,75.9|Z|Thousand Needles|N|From Pozzik.|
-C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving.  Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.| 
+C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving. Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.| 
 T Keeping Pace|QID|1190|M|77.2,77.4|Z|Thousand Needles|N|To Unguarded Plans.|
 A Rizzle's Schematics|QID|1194|M|77.2,77.4|Z|Thousand Needles|N|From Unguarded Plans.|
 T Rizzle's Schematics|QID|1194|M|80.2,75.9|Z|Thousand Needles|N|To Pozzik.|
@@ -183,7 +197,7 @@ R Grimtotem Camp|ACTIVE|3520|M|65,47|Z|Feralas|N|Make your way to Grimtotem Camp
 R Kindal Moonweaver|ACTIVE|3520|M|65,47|Z|Feralas|CC|N|Make sure you know where she is and then go back to the Grimtotem Camp.|
 N Clear area around cage|AVAILABLE|2969|M|66.50, 47.20|Z|Feralas|N|Clear the area in the camp around the cage containing Sprite Darters, then quickly go to Kindal and start the quest. (check this step off manually if you don't know where to find Kindal).|
 A Freedom for All Creatures|QID|2969|M|65.9,45.6|Z|Feralas|N|From Kindal Moonweaver.|
-C Freedom for All Creatures|QID|2969|M|66.7,46.8|N|Go to the cage, open it, and protect the sprites. When quest complete, help Kindal finish off whatever she is fighting, so she can return to original location.|
+C Freedom for All Creatures|QID|2969|M|66.7,46.8|Z|Feralas|N|Go to the cage, open it, and protect the sprites. When quest complete, help Kindal finish off whatever she is fighting, so she can return to original location.|
 T Freedom for All Creatures|QID|2969|M|65.9,45.6|Z|Feralas|N|To Kindal Moonweaver.|
 A Doling Justice |QID|2970|M|65.9,45.6|Z|Feralas|N|From Jer'kai Moonweaver.|
 C Doling Justice |QID|2970|M|66.70,46.70|Z|Feralas|N|Kill the mobs for this quest.|
@@ -242,7 +256,7 @@ C Rescue OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|Rather difficult (perhaps
 R Woodpaw Hills|ACTIVE|4131|M|73,56|N|Follow the road east, then run south to the Southeastern tip of the small lake.|
 T The Woodpaw Gnolls|QID|4131|M|73.30,56.30|Z|Feralas|N|To Large Leather Backpack, hanging on the trunk of a huge tree.|
 A The Writhing Deep|QID|4135|M|73.3,56.3|Z|Feralas|N|From Large Leather Backpack.|
-T The Writhing Deep|QID|4135|M|73.25,63.80|Z|Feralas|N|Go down the spiral ramp at the writhing deep, then enter the tunnel to the west.  At the first fork, go right. Go to the end, clear the room and then click the Zukk'Ash Pod.|
+T The Writhing Deep|QID|4135|M|73.25,63.80|Z|Feralas|N|Go down the spiral ramp at the writhing deep, then enter the tunnel to the west. At the first fork, go right. Go to the end, clear the room and then click the Zukk'Ash Pod.|
 A Freed from the Hive|QID|4265|M|73.5,63.1|Z|Feralas|N|From Zukk'ash Pod. Wait abit for the dialog to end and quest will complete.|
 A Thalanaar Delivery|QID|4281|U|11463|N|Use the Undelivered Parcel (dropped ramdomly in zone) to get this quest if you have the item.|
 H Feathermoon Stronghold|ACTIVE|2821|N|Hearth to Feathermoon Stronghold.|Z|Feralas|
@@ -331,11 +345,12 @@ C Witherbark Cages|QID|2988|QO|3|M|32.00,57.00|Z|The Hinterlands|N|Check the thi
 C Troll Necklace Bounty|QID|2880|M|24.8,55.4|Z|The Hinterlands|US|N|Finish collecting the trolls' necklaces.|
 C Green Sludge|QID|2877|QO|1|M|46.00,40.00|Z|The Hinterlands|N|Kill 10 Green Sludges at this location.|
 C Skulk Rock Clean-up|QID|2877|QO|2|M|56.00,44.00|Z|The Hinterlands|N|Go here and kill the Jade Oozes needed for the quest.|
-A Find OOX-09/HL!|QID|485|U|8704|N|If you found the OOX-09/HL Distress Beacon, right-click it to start this quest.  Otherwise, skip the objective.|
+A Find OOX-09/HL!|QID|485|U|8704|N|If you found the OOX-09/HL Distress Beacon, right-click it to start this quest. Otherwise, skip the objective.|
 t Find OOX-09/HL!|QID|485|M|49.35,37.65|Z|The Hinterlands|N|To OOX-09/HL.|
 A Rescue OOX-09/HL!|QID|836|M|49.35,37.65|Z|The Hinterlands|N|From OOX-09/HL.|PRE|485|
 C Rescue OOX-09/HL!|QID|836|N|Let the chicken lead the way, so he will stop when agro. It can be very difficult to solo. Ask the zone if anyone wants to do it with you. There are 2 preset ambushes. Abandon if you are having too many difficulties.|
 R Overlook Cliffs|ACTIVE|2944|M|70,63|Z|The Hinterlands|N|Run southeast to the Overlook Cliffs and follow the path down to the shore. You can usually spot Gammerita while still on the path, so you know which way to go at the bottom.|
+T Cortello's Riddle|QID|626|M|80.81,46.79|Z|The Hinterlands|N|Dive down under the waterfall, and find Cortello's Chest and collect your prize.|
 K Gammerita|ACTIVE|2944|M|82,49;75,67|Z|The Hinterlands|CN|U|9328|L|9330|T|Gammerita|N|Search the coast for an aggressive-flagged turtle named Gammerita. Take her picture with the Super Snapper FX. The camera will cause her to charge, but you can run, vanish, etc, don't have to kill her.(Picture of her dead works, if she is dead when you arrive.)|
 H Wildhammer Keep|ACTIVE|2880|N|Hearth back to Aerie Peak.|
 T Troll Necklace Bounty|QID|2880|M|14.8,44.6|Z|The Hinterlands|N|To Fraggar Thundermantle. Turn in any extra Troll Necklaces you have also (in multiples of 5).|
@@ -393,7 +408,7 @@ N BEFORE SEEING SHAY|AVAILABLE|2845|M|38.2,10.2|Z|Feralas|N|Clear a path to Shay
 T The Giant Guardian|QID|2844|M|38.20,10.20|Z|Feralas|N|To Shay Leafrunner.|
 A Wandering Shay|QID|2845|M|38.20,10.30|Z|Feralas|N|From Shay Leafrunner.|
 N Loot Shay's bell|ACTIVE|2845|M|38.20,10.30|Z|Feralas|L|9189|N|Click on the chest beside Shay to get her bell.|
-C Wandering Shay|QID|2845|M|42,21|Z|Feralas|U|9189|N|This is a timed quest. Run a bit ahead and use the bell in your inventory to have Shay run to you to make her follow you to this location.  The bell has a cooldown, but Shay will continue to run to you until actually reaching you (and then you will have to ring the bell again), so keep running towards the arrow, staying a little ahead of her.|
+C Wandering Shay|QID|2845|M|42,21|Z|Feralas|U|9189|N|This is a timed quest. Run a bit ahead and use the bell in your inventory to have Shay run to you to make her follow you to this location. The bell has a cooldown, but Shay will continue to run to you until actually reaching you (and then you will have to ring the bell again), so keep running towards the arrow, staying a little ahead of her.|
 T Wandering Shay|QID|284|M|42.4,22.0|Z|Feralas|N|To Rockbiter.|
 A Find OOX-22/FE!|U|8705|QID|2766|N|If you found a Distress Beacon, right click it to get this quest.(If not, right click to skip this step)|
 T Find OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|To Homing Robot OOX-22/FE.|
