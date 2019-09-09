@@ -10,7 +10,7 @@ return [[
 N Shopping List|QID|3842|N|Crafted by an alchemist. Check the AH or otherwise acquire 2 Elixirs of Fortitude at a reasonable price. You will need them for a quest at Mirage Raceway when you are level 47.|L|3825 2|
 r Sell junk, repair, restock|N|Sell junk, repair, restock. Train riding and buy your mount if you haven't.|
 R Dwarven District|QID|1448|M|63,24|Z|Stormwind City|N|Head to the Dwarven district in Stormwind.|
-A In Searth of the Temple|QID|1448|M|63,24|Z|Stormwind City|N|From Brohann Caskbelly, inside a pub in the Dwarven District.|
+A In Search of the Temple|QID|1448|M|63,24|Z|Stormwind City|N|From Brohann Caskbelly, inside a pub in the Dwarven District.|
 R The Stockades|ACTIVE|1448|M|40,63|Z|Stormwind City|N|Next quest located inside a building just south of The Stockades entrance.|
 A Mazen's Behest|QID|1363|M|40,63|Z|Stormwind City|N|From Mazen Mac'Nadir.|
 T Mazen's Behest|QID|1363|M|40,63|Z|Stormwind City|N|Just up the stairs for turn in to Acolyte Dellis.|
@@ -19,17 +19,17 @@ A Mazen's Behest|QID|1364|M|40,63|Z|Stormwind City|N|From Acolyte Dellis.|
 F Booty Bay|QID|595|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
 h Booty Bay|QID|595|M|27.00,77.30|N|Make Booty Bay your home location.|
 r Sell junk, repair, restock|QID|595|N|Sell junk, repair, restock.|
-T Goblin Sponsorship |QID|1180|M|26.3,73.6|Z|Stranglethorn Vale|N|To Wharfmaster Lozgil.|
-A Goblin Sponsorship |QID|1181|M|26.3,73.6|Z|Stranglethorn Vale|N|From Wharfmaster Lozgil.|
+T Goblin Sponsorship |QID|1180|M|26.3,73.6|N|To Wharfmaster Lozgil.|;duplicated from 30-40 guide
+A Goblin Sponsorship |QID|1181|M|26.3,73.6|N|From Wharfmaster Lozgil.|;duplicated from 30-40 guide
 A Skullsplitter Tusks|QID|209|M|27.0,77.1|N|From Kebok.|
 A Tran'rek|QID|2864|M|26.9,77.2|N|From Krazek.|
 A Zanzil's Secret|QID|621|M|27.1,77.2|N|From Crank Fizzlebub.|
 N Green Hills of Stranglethorn|QID|6504|Z|Stranglethorn Vale|N|While you are in Booty Bay, check the AH to see if any of the Stranglethorn Lost Pages you are missing are for sale. This is our last trip to Stranglethorn Vale, so you want to have all 4 chapters complete as soon as possible:\nChapter I: page 1,4,6,8\nChapter II: page 10,11,14,16\nChapter III: page 18,20,21,24\nChapter IV: page 25,26,27|
 A Akiris by the Bundle |QID|617|M|26.8,76.4|N|From Privateer Bloads.|
 A The Bloodsail Buccaneers |QID|595|M|28.1,76.2|N|From First Mate Crazz.|
-A Venture Company Mining|QID|600|M|27.1,77.2|N|Accept this quest if you do not have it.|
-T Goblin Sponsorship |QID|1181|M|27.20,76.90|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
-A Goblin Sponsorship |QID|1182|M|27.20,76.90|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
+A Venture Company Mining|QID|600|M|27.1,77.2|N|From Crank Fizzlebub.|
+T Goblin Sponsorship |QID|1181|M|27.20,76.90|N|To Baron Revilgaz.|;duplicated from 30-40 guide
+A Goblin Sponsorship |QID|1182|M|27.20,76.90|N|From Baron Revilgaz.|;duplicated from 30-40 guide
 A Scaring Shaky|QID|606|M|27.8,77.1|N|Accept this quest if you do not have it.|
 A "Pretty Boy" Duncan|QID|610|N|Accept this quest if you do not have it.|
 K "Pretty Boy" Duncan|ACTIVE|610|M|27.50,69.35|T|"Pretty Boy" Duncan|N|Kill Pretty Boy Duncan at this location and loot the blade from him.|
@@ -136,6 +136,7 @@ N Dungeon Interlude|N|If you want to do Uldaman now is a good time. Check this s
 ;to do - add J step to (not yet created) guide to getting Uldaman quests.
 H The Salty Sailor Tavern|ACTIVE|623|N|Hearth to Booty Bay (or otherwise travel to Theramore).|
 b Ratchet|ACTIVE|623|M|25.80,73.10|N|Take the boat to Ratchet.|
+
 F Theramore Isle|ACTIVE|623|Z|The Barrens|M|63.10,37.15|N|Fly to Theramore.|
 T Akiris by the Bundle|QID|623|M|67.7,51.7|Z|Dustwallow Marsh|N|To Privateer Gray.|
 t Alliance Trauma|QID|6625|M|67.8,49.0|Z|Dustwallow Marsh|N|Breadcrumb quest is optional. Turns in to Doctor Gustaf VanHowzen.|
@@ -143,7 +144,7 @@ A Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|From Doctor Gustaf VanHowzen.
 C Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|Prioritize the Critically Injured, then Badly and lastly Injured.  Position yourself in the middle of the room when all patients are in range, hot key the bandages, If you dont have Friendly Nameplates on, CTRL-V. Save 15 before 6 die.|
 T Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|To Doctor Gustaf VanHowzen.|
 F Gadgetzan|ACTIVE|2864|Z|Dustwallow Marsh|M|67.50,51.30|N|Fly to Gadgetzan.|
-
+A Parts for Kravel|QID|1112|Z|The Barrens|M|63.4,38.5|N|From Wharfmaster Dizzywig.|
 T Tran'rek|QID|2864|M|51.6,26.8|Z|Tanaris|N|Skip followup.|
 A Wastewander Justice|QID|1690|M|52.5,28.5|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|
 A Water Pouch Bounty|QID|1707|M|52.5,28.5|Z|Tanaris|N|From Spigot Operator Luglunket.|
@@ -172,7 +173,7 @@ A Gahz'Rilla|QID|2770|M|78.1,77.1|Z|Thousand Needles|N|To Wizzle Brassbolts.|
 T Parts for Kravel|QID|1112|M|77.8,77.3|Z|Thousand Needles|N|From Fizzle Brassbolts. (skip followup)|
 T Goblin Sponsorship |QID|1183|M|80.2,75.9|Z|Thousand Needles|N|To Pozzik.|
 A Keeping Pace|QID|1190|M|80.2,75.9|Z|Thousand Needles|N|From Pozzik.|
-C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving.  Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.| 
+C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving. Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.| 
 T Keeping Pace|QID|1190|M|77.2,77.4|Z|Thousand Needles|N|To Unguarded Plans.|
 A Rizzle's Schematics|QID|1194|M|77.2,77.4|Z|Thousand Needles|N|From Unguarded Plans.|
 T Rizzle's Schematics|QID|1194|M|80.2,75.9|Z|Thousand Needles|N|To Pozzik.|
@@ -183,7 +184,7 @@ R Grimtotem Camp|ACTIVE|3520|M|65,47|Z|Feralas|N|Make your way to Grimtotem Camp
 R Kindal Moonweaver|ACTIVE|3520|M|65,47|Z|Feralas|CC|N|Make sure you know where she is and then go back to the Grimtotem Camp.|
 N Clear area around cage|AVAILABLE|2969|M|66.50, 47.20|Z|Feralas|N|Clear the area in the camp around the cage containing Sprite Darters, then quickly go to Kindal and start the quest. (check this step off manually if you don't know where to find Kindal).|
 A Freedom for All Creatures|QID|2969|M|65.9,45.6|Z|Feralas|N|From Kindal Moonweaver.|
-C Freedom for All Creatures|QID|2969|M|66.7,46.8|N|Go to the cage, open it, and protect the sprites. When quest complete, help Kindal finish off whatever she is fighting, so she can return to original location.|
+C Freedom for All Creatures|QID|2969|M|66.7,46.8|Z|Feralas|N|Go to the cage, open it, and protect the sprites. When quest complete, help Kindal finish off whatever she is fighting, so she can return to original location.|
 T Freedom for All Creatures|QID|2969|M|65.9,45.6|Z|Feralas|N|To Kindal Moonweaver.|
 A Doling Justice |QID|2970|M|65.9,45.6|Z|Feralas|N|From Jer'kai Moonweaver.|
 C Doling Justice |QID|2970|M|66.70,46.70|Z|Feralas|N|Kill the mobs for this quest.|
@@ -242,7 +243,7 @@ C Rescue OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|Rather difficult (perhaps
 R Woodpaw Hills|ACTIVE|4131|M|73,56|N|Follow the road east, then run south to the Southeastern tip of the small lake.|
 T The Woodpaw Gnolls|QID|4131|M|73.30,56.30|Z|Feralas|N|To Large Leather Backpack, hanging on the trunk of a huge tree.|
 A The Writhing Deep|QID|4135|M|73.3,56.3|Z|Feralas|N|From Large Leather Backpack.|
-T The Writhing Deep|QID|4135|M|73.25,63.80|Z|Feralas|N|Go down the spiral ramp at the writhing deep, then enter the tunnel to the west.  At the first fork, go right. Go to the end, clear the room and then click the Zukk'Ash Pod.|
+T The Writhing Deep|QID|4135|M|73.25,63.80|Z|Feralas|N|Go down the spiral ramp at the writhing deep, then enter the tunnel to the west. At the first fork, go right. Go to the end, clear the room and then click the Zukk'Ash Pod.|
 A Freed from the Hive|QID|4265|M|73.5,63.1|Z|Feralas|N|From Zukk'ash Pod. Wait abit for the dialog to end and quest will complete.|
 A Thalanaar Delivery|QID|4281|U|11463|N|Use the Undelivered Parcel (dropped ramdomly in zone) to get this quest if you have the item.|
 H Feathermoon Stronghold|ACTIVE|2821|N|Hearth to Feathermoon Stronghold.|Z|Feralas|
@@ -331,7 +332,7 @@ C Witherbark Cages|QID|2988|QO|3|M|32.00,57.00|Z|The Hinterlands|N|Check the thi
 C Troll Necklace Bounty|QID|2880|M|24.8,55.4|Z|The Hinterlands|US|N|Finish collecting the trolls' necklaces.|
 C Green Sludge|QID|2877|QO|1|M|46.00,40.00|Z|The Hinterlands|N|Kill 10 Green Sludges at this location.|
 C Skulk Rock Clean-up|QID|2877|QO|2|M|56.00,44.00|Z|The Hinterlands|N|Go here and kill the Jade Oozes needed for the quest.|
-A Find OOX-09/HL!|QID|485|U|8704|N|If you found the OOX-09/HL Distress Beacon, right-click it to start this quest.  Otherwise, skip the objective.|
+A Find OOX-09/HL!|QID|485|U|8704|N|If you found the OOX-09/HL Distress Beacon, right-click it to start this quest. Otherwise, skip the objective.|
 t Find OOX-09/HL!|QID|485|M|49.35,37.65|Z|The Hinterlands|N|To OOX-09/HL.|
 A Rescue OOX-09/HL!|QID|836|M|49.35,37.65|Z|The Hinterlands|N|From OOX-09/HL.|PRE|485|
 C Rescue OOX-09/HL!|QID|836|N|Let the chicken lead the way, so he will stop when agro. It can be very difficult to solo. Ask the zone if anyone wants to do it with you. There are 2 preset ambushes. Abandon if you are having too many difficulties.|
@@ -393,7 +394,7 @@ N BEFORE SEEING SHAY|AVAILABLE|2845|M|38.2,10.2|Z|Feralas|N|Clear a path to Shay
 T The Giant Guardian|QID|2844|M|38.20,10.20|Z|Feralas|N|To Shay Leafrunner.|
 A Wandering Shay|QID|2845|M|38.20,10.30|Z|Feralas|N|From Shay Leafrunner.|
 N Loot Shay's bell|ACTIVE|2845|M|38.20,10.30|Z|Feralas|L|9189|N|Click on the chest beside Shay to get her bell.|
-C Wandering Shay|QID|2845|M|42,21|Z|Feralas|U|9189|N|This is a timed quest. Run a bit ahead and use the bell in your inventory to have Shay run to you to make her follow you to this location.  The bell has a cooldown, but Shay will continue to run to you until actually reaching you (and then you will have to ring the bell again), so keep running towards the arrow, staying a little ahead of her.|
+C Wandering Shay|QID|2845|M|42,21|Z|Feralas|U|9189|N|This is a timed quest. Run a bit ahead and use the bell in your inventory to have Shay run to you to make her follow you to this location. The bell has a cooldown, but Shay will continue to run to you until actually reaching you (and then you will have to ring the bell again), so keep running towards the arrow, staying a little ahead of her.|
 T Wandering Shay|QID|284|M|42.4,22.0|Z|Feralas|N|To Rockbiter.|
 A Find OOX-22/FE!|U|8705|QID|2766|N|If you found a Distress Beacon, right click it to get this quest.(If not, right click to skip this step)|
 T Find OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|To Homing Robot OOX-22/FE.|
