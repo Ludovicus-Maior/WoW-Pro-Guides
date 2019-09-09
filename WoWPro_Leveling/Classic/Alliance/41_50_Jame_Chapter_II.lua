@@ -56,6 +56,8 @@ r Sell junk, repair, restock|N|Sell junk, repair, restock.|
 C The Bloodsail Buccaneers |QID|604|M|28,83;27,83;30,80|CN|N|Exit town and go to the beach. Kill Bloodsail mobs while moving to this location. Loot the Bloodsail Charts and Bloodsail Orders from the camps in the area. Check at each of the locations marked.|
 C Up to Snuff|QID|587|M|32.8,76.2|N|Continue to kill Bloodsail mobs until you get 15 Snuff.|
 C Keep An Eye Out|QID|576|M|32.8,76.2|N|Continue to kill Bloodsail mobs until you get Dizzy's Eye. (Random from any)|
+A Panther Mastery |QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
+A Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
 C Panther Mastery|QID|192|S|N|From now on, kill any Shadowmaw Panther you see. They are stealthed.|
 C Venture Company Mining|QID|600|M|41.00,43.60|N|Kill Venture Co. Mobs until you get the 10 Singing Blue Crystals for this quest.|
 C Raptor Mastery |QID|196|M|32.80,40.30|N|Kill 10 Jungle Stalkers near this location.|
