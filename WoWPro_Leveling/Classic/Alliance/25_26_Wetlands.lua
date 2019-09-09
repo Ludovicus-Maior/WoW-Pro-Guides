@@ -45,7 +45,8 @@ H Deepwater Tavern|QID|464|N|Hearth or run back to town.|
 T War Banners|QID|464|M|9.86,57.48|N|To Captain Stoutfist on the 2nd floor of the keep.|
 T Apprentice's Duties|QID|471|M|8.49,55.7|N|To James Halloran.|
 T Return the Statuette|QID|286|M|8.3,58.6|N|To Karl Boran.|
-N Level 26|QID|1078|N|You should be level 26 or close by now. If you are not, I suggest a grinding session, because we're about to hit Stormwind and train new skills. Close this step.|
+N Stockades Dungeon|QID|469|N|Now is Likely a good time to do stockades, Get [What Comes Around...] from Lakeshire Town hall, [Crime and Punishment] from Darkshire Town hall. The other three [The Color of Blood],[Bazil Thredd]which turns in right outside Stocks entrance/followup [The Stockade Riots] and [Quell The Uprising] can all be found in stormwind.|
+N Level 26|QID|1078|N|You should be level 26 or close by now. If you are not, I suggest a grinding session, because we're about to hit Stormwind and train new skills. Close this step.|LVL|-26|
 F Stormwind City|QID|1078|N|Fly to Stormwind.|M|9.50,59.70|
 ]]
 end)
