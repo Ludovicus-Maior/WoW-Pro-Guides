@@ -211,6 +211,7 @@ T Gyromast's Retrieval|QID|2098|M|56.7, 13.5|N|To Gelkak Gyromast.|
 A Gyromast's Revenge|QID|2078|M|56.7, 13.5|N|From Gelkak Gyromast.|
 C Gyromast's Revenge|QID|2078|M|55.8,18.2|N|Robot will attack you as you are about to fiish quest. Be ready. He is a level 20 elite. You will probably need a group.|
 T Gyromast's Revenge|QID|2078|M|56.7, 13.5|N|To Gelkak Gyromast.|
+N Trash the key|QID|951|N|Destroy Gyromast's Key, it is useless and wastes precious bag space. Skip this step when done.|PRE|2078|
 C Mathystra Relics|QID|951|M|59.55,15.66|US|N|Kill Naga's and look for relics on the groung until complete.|
 H Auberdine|QID|951|ACTIVE|951|N|Hearth or run back to Auberdine.|
 A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|
