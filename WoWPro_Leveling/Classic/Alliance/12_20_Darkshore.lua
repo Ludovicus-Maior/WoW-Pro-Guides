@@ -44,7 +44,7 @@ A Cave Mushrooms|QID|947|M|37.3,43.7|N|From Barithras Moonshade.|
 C Easy Strider Living|QID|2178|S|N|Any Strider can drop the meat needed.|
 C Cleansing of the Infected|QID|2138|S|N|Kill Rabid Thistle Bears that spawn all over.|
 C Buzzbox 411|QID|1001|M|32,46|S|N|Kill Threshers.|
-C Washed Ashore|QID|4681|M|32,46|N|Find a Skeletal Sea Turtle on the sea floor. Click its skull and loot the Sea Turtle Remains.|
+C Washed Ashore|QID|4681|M|32,46|N|Find a Skeletal Sea Turtle on the sea floor. Click its skull and loot the Sea Turtle Remains.|NC|
 C Buzzbox 411|QID|1001|M|32,46|US|N|Finish killing Threshers.|
 T Washed Ashore|QID|4681|M|36.6,45.6|N|To Gwennyth Bly'Leggonde.|
 T Bashal'Aran|QID|954|M|44.2,36.3|N|To Asterion.|
@@ -58,10 +58,10 @@ A Bashal'Aran|QID|957|M|44.2,36.3|N|From Asterion.|PRE|956|
 C The Red Crystal|QID|4811|M|47,49|N|Just run toward it until the quest completes.|
 C Tools of the Highborne|QID|958|S|N|Kill Highbornes that are roaming around.|
 A The Fall of Ameth'Aran|QID|953|M|40.3,59.7|N|From Sentinel Tysha Moonblade.|
-C The Fall of Ameth'Aran|QID|953|QO|2|M|42.7,63.1|N|Click to read the Fall.|
+C The Fall of Ameth'Aran|QID|953|QO|2|M|42.7,63.1|N|Click to read the Fall.|NC|
 C Bashal'Aran|QID|957|M|42.37,61.83|N|Click on the flame to destroy the seal.|
-C The Lay of Ameth'Aran|QID|953|QO|1|M|43.3,58.8|N|Click to read the Lay.
-C For Love Eternal|QID|963|M|42,62|N|Kill Anaya Dawnrunner. Roams around the area stealthed. She is level 16 but doesn't hit hard.|
+C The Lay of Ameth'Aran|QID|953|QO|1|M|43.3,58.8|N|Click to read the Lay.|NC|
+C For Love Eternal|QID|963|M|42,62|N|Kill Anaya Dawnrunner. Roams around the area stealthed. She is level 16 but doesn't hit hard.|T|Anaya Dawnrunner|
 C Tools of the Highborne|QID|958|M|42.7,63.1|US|N|Finish killing the Highbornes.|
 T The Fall of Ameth'Aran|QID|953|M|40.3, 59.7|N|To Sentinel Tysha Moonblade.|
 H Auberdine|QID|963|ACTIVE|963|M|37.04,44.12|N|Head back to sell/repair and turn in quests.|
@@ -74,13 +74,13 @@ A Deep Ocean, Vast Sea|LVL|13|QID|982|M|38.1,41.2|N|From Gorbold Steelhand.|
 T Tools of the Highborne|QID|958|M|37.4, 40.2|N|To Thundris Windweaver.|
 N Get to level 14|QID|1003|LVL|-14|N|Grind mobs until you are level 14. Finish any sticky quests left.|
 N Sell junk, train, etc.|QID|730|N|Head back to Darnassus to train up, grab a quest, do some banking, profession work and sell/repair.|
-F Rut'theran Village|QID|730|M|36.34,45.58|N|Take a ride to the village.|
-R Darnassus|QID|730|M|55.88,89.55|Z|Teldrassil|
+
 A Trouble in Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of the Moon except don't go inside. Take the right path around the building and you'll run into a dwarf.|
-A Lessons Anew|QID|6121|C|Druid|M|35,8|Z|Darnassus|N|Teleport to Moonglade after accepting.|
-T Lessons Anew|QID|6121|C|Druid|M|56.2, 30.5|Z|Moonglade|
-A The Principal Source|QID|6122|C|Druid|
-f Rut'theran Villag|QID|6122|C|Druid|M|48,68|
+A Lessons Anew|QID|6121|C|Druid|M|35,8|Z|Darnassus|N|From Mathrengyl Bearwalker on the second floor. Teleport to Moonglade after accepting.|
+T Lessons Anew|QID|6121|C|Druid|M|56.2, 30.5|Z|Moonglade|N|To Dendrite Starblaze.|
+A The Principal Source|QID|6122|C|Druid|N|From Dendrite Starblaze.|
+F Rut'theran Village|ACTIVE|6122|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using Silva, the Darnassus Flight Master.|
+F Auberdine|QID|952|ACTIVE|730|M|58.40,94.01|Z|Teldrassil|N|Go back through the portal to Vesprystus and fly back to Auberdine.|
 T Trouble in Darkshore?|QID|730|M|37.5,41.9|N|To Archaeologist Hollee.|
 T As Water Cascades|QID|4812|M|47.3,48.7|N|At the Mysterious Red Crystal|
 A The Fragments Within|QID|4813|M|47.3,48.7|N|At the Mysterious Red Crystal|PRE|4812|
