@@ -442,6 +442,10 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	    WoWPro:GrailIsQuestObsolete(GID,WoWPro.QID[i],WoWPro.step[i])
 	end
 	if WoWPro.map[i] then
+		if (WoWPro.map[i] == "PLAYER") then
+			local x, y, z = WoWPro:GetPlayerZonePosition()
+			WoWPro.map[i]= string.format("%.2f",x*100) .. ',' .. string.format("%.2f",y*100)
+		end
 	    WoWPro:ValidateMapCoords(GID,WoWPro.action[i],WoWPro.step[i],WoWPro.map[i])
 	end
 	WoWPro.zone[i] = WoWPro.zone[i] or (WoWPro.map[i] and zone)
