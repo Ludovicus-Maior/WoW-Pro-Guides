@@ -35,10 +35,11 @@ A Visit the Herbalist|QID|130|M|15.3,71.5|N|To Guard Parker. He roams the fork i
 C Redridge Goulash|ACTIVE|92|S!US|N|Kill Gnolls, Condors, Goretusks, Spiders and Whelps as you go around the valley.|
 C Assessing the Threat|QID|246|M|29.00,83.00|N|Kill mobs until you finish this quest.|
 T Assessing the Threat|QID|246|M|30.7,60.0|N|To Deputy Feldon.|
-K Black Dragon Whelp|ACTIVE|122|M|34.00,71.00|QO|1|S!US|N|Kill Whelps until you have enough scales (like you had a choice.)|
-K Kill Spiders|ACTIVE|92|M|11.94,77.5|QO|3|S!US|N|Make sure you have 5 Crisp Spider Meat from the Tarantulas|
-K Kill Goretusks|ACTIVE|92|M|34.00,71.00|QO|1|S!US|N|Kill Goretusks until you get 5 Great Goretusk Snout.|
-K Kill Condors|ACTIVE|92|M|46.00,76.00|QO|2|S!US|N|Kill Condors until you get 5 Tough Condor Meat|
+K Black Dragon Whelp|ACTIVE|122|M|34.00,71.00|QO|1|S|N|Kill Whelps until you have enough scales (like you had a choice.)|
+K Kill Spiders|ACTIVE|92|M|11.94,77.5|QO|3|N|Make sure you have 5 Crisp Spider Meat from the Tarantulas|
+K Kill Goretusks|ACTIVE|92|M|34.00,71.00|QO|1|N|Kill Goretusks until you get 5 Great Goretusk Snout.|
+K Kill Condors|ACTIVE|92|M|46.00,76.00|QO|2|N|Kill Condors until you get 5 Tough Condor Meat|
+K Black Dragon Whelp|ACTIVE|122|M|34.00,71.00|QO|1|US|N|Kill Whelps until you have enough scales (like you had a choice.)|
 C The Lost Tools|QID|125|M|41.60,54.70|NC|N|Loot the tools from the chest at the bottom of the lake.|
 T The Lost Tools|QID|125|M|32.1,48.6|N|To Foreman Oslow.|
 T Underbelly Scales|QID|122|M|31.00,47.30|N|To Verner Osgood.|
