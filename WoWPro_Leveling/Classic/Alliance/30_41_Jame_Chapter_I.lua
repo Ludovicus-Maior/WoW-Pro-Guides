@@ -379,9 +379,11 @@ T The Karnitol Shipwreck|QID|1457|M|69.9,21.3|Z|Ironforge|N|To Roetten Stonehamm
 
 N Dungeon interlude|N|If you want to do Scarlet Monestary, pick of the following two quests, if not skip the following step and head to Badlands.|
 A Mythology of the Titans|QID|1050|M|74.8,12.4|Z|Ironforge|N|From Librarian Mae Paledust.|
+A Further Mysteries|QID|525|PRE||514|M|74.7,11.7|Z|Ironforge|N|From Prospector Stormpike.|
 F Southshore|ACTIVE|1050|M|55.5,48.2|Z|Ironforge|N|At Gryth Thurden, flightmaster.|
 T Down the Scarlet Path|QID|1052|ACTIVE|1050|M|51.4,58.4|Z|Hillsbrad Foothills|N|To Raleigh the Devout.|
 A In the Name of the Light|QID|1053|M|51.4,58.4|Z|Hillsbrad Foothills|N|From Raleigh the Devout.|PRE|1052|
+T Further Mysteries|QID|525|M|M|48.1,59.1|Z|Hillsbrad Foothills|N|To Magistrate Henry Maleb. (followup is elite quest, do if you want, not in guide)|
 N Scarlet Monestary|ACTIVE|1050|N|You have picked up the quests, find/make a group and have fun.|
 ;add J step after Scarlet Monestary guide is crafted.
 				
