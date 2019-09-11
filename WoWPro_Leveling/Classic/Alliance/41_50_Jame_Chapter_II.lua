@@ -8,15 +8,16 @@ return [[
 ;transposed from http://www.wow-pro.com/leveling_guides/jame039s_alliance_leveling_guide_chapter_ii_4150_old_version and the 2.3 Tourguide version of the guide as a basis by Emmaleah 8/17/19
 
 N Shopping List|QID|3842|N|Crafted by an alchemist. Check the AH or otherwise acquire 2 Elixirs of Fortitude at a reasonable price. You will need them for a quest at Mirage Raceway when you are level 47.|L|3825 2|
+N First Aid|N|If you are using first aid, the quest to train artisan skill level is in Theramore, requires level 35 and 225 skill. Ideally you would have 15 mageweave with you, so you could skill up to 240 after and learn Heavy Mageweave Bandages.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock. Train riding and buy your mount if you haven't.|
 R Dwarven District|QID|1448|M|63,24|Z|Stormwind City|N|Head to the Dwarven district in Stormwind.|
 A In Search of the Temple|QID|1448|M|63,24|Z|Stormwind City|N|From Brohann Caskbelly, inside a pub in the Dwarven District.|
 R The Stockades|ACTIVE|1448|M|40,63|Z|Stormwind City|N|Next quest located inside a building just south of The Stockades entrance.|
-A Mazen's Behest|QID|1363|M|40,63|Z|Stormwind City|N|From Mazen Mac'Nadir.|
-T Mazen's Behest|QID|1363|M|40,63|Z|Stormwind City|N|Just up the stairs for turn in to Acolyte Dellis.|
-A Mazen's Behest|QID|1364|M|40,63|Z|Stormwind City|N|From Acolyte Dellis.|
+A Mazen's Behest|QID|1363|M|40.99,63.81|Z|Stormwind City|N|From Mazen Mac'Nadir.|
+T Mazen's Behest|QID|1363|M|40.99,63.81|Z|Stormwind City|N|Just up the stairs for turn in to Acolyte Dellis.|
+A Mazen's Behest|QID|1364|M|40.99,63.81|Z|Stormwind City|N|From Acolyte Dellis.|
 
-F Booty Bay|QID|595|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
+F Booty Bay|QID|595|M|66.2,62.4|Z|Stormwind City|N|Fly to Booty Bay at Dungar Longdrink.|
 h Booty Bay|QID|595|M|27.00,77.30|N|Make Booty Bay your home location.|
 r Sell junk, repair, restock|QID|595|N|Sell junk, repair, restock.|
 T Goblin Sponsorship |QID|1180|M|26.3,73.6|N|To Wharfmaster Lozgil.|;duplicated from 30-40 guide
@@ -212,7 +213,7 @@ A The Missing Courier |QID|4124|M|30.3,46.2|Z|Feralas|N|From Latronicus Moonspea
 A The High Wilderness|QID|2982|M|31.8,45.6|Z|Feralas|N|From Angelas Moonbreeze.|
 A In Search of Knowledge|QID|2939|M|31.8,45.6|Z|Feralas|N|From Troyas Moonbreeze.|
 T The Missing Courier |QID|4124|M|31.9,45.1|Z|Feralas|N|To Ginro Hearthkindle.|
-A The Missing Courier |QID|4125|M|31.9,45.1|Z|Feralas|N|From Ginro Hearthkindle.|
+A The Missing Courier |QID|4125|M|31.9,45.1|Z|Feralas|N|From Ginro Hearthkindle.|PRE|4124|
 r Sell junk, repair, restock|QID|2866|N|Sell junk, repair, restock|
 T The Ruins of Solarsal|QID|2866|M|26.30,52.30|Z|Feralas|N|To Solarsal Gazebo.|
 A Return to Feathermoon Stronghold|QID|2867|M|26.3,52.3|Z|Feralas|N|From Solarsal Gazebo.|
@@ -226,55 +227,53 @@ A Against Lord Shalzaru|QID|2870|M|30.3,46.2|Z|Feralas|N|From Latronicus.|
 r Sell junk, repair, restock|QID|2870|N|Sell junk, repair, restock.|
 
 L Level Check|QID|2870|M|26.50,68.25|Z|Feralas|LVL|44|N|Nice place to Grind while clearing the way to Lord Shalzaru if you are not yet 44.|
-K Lord Shalzaru|ACTIVE|2870|QO|1|Z|Feralas|T|Lord Shalzaru|N|Kill Lord Shalzaru inside the cave at this location and loot the relic.|
+K Lord Shalzaru|ACTIVE|2870|QO|1|M|25.5,64.4;28.6,70.7|CS|Z|Feralas|T|Lord Shalzaru|N|Kill Lord Shalzaru inside the cave at this location and loot the relic.|
 T Against Lord Shalzaru|QID|2870|M|30.3,46.2|Z|Feralas|N|To Latronicus.|
 A Delivering the Relic|QID|2871|M|30.3,46.2|Z|Feralas|N|From Latronicus.|
 T Delivering the Relic|QID|2871|M|30.1,45.1|Z|Feralas|N|To Vestia Moonspear.|
 C Screecher Spirits|QID|3520|M|46.00,49.30|Z|Feralas|U|10699|N|Take the boat, then run south on the shore. Kill Rogue Vale Screechers and use Yeh'Kinya's Bramble on their corpses, then talk to the spirit. Continue south.|
-T The Missing Courier |QID|4125|M|45.50,65.00|Z|Feralas|N|To Wrecked Row Boat.|
-A Boat Wreckage|QID|4127|M|45.5,65.0|Z|Feralas|N|From Wrecked Row Boat.|
+T The Missing Courier |QID|4125|M|45.50,65.00|Z|Feralas|N|To Wrecked Row Boat. Multiple higher level mobs near the rowboat, may require clever tactics.|
+A Boat Wreckage|QID|4127|M|45.5,65.0|Z|Feralas|N|From Wrecked Row Boat.|PRE|4125|
 H Feathermoon Stronghold|ACTIVE|4127|N|Hearth or run to Feathermoon Stronghold.|
 T Boat Wreckage|QID|4127|M|31.9,45.1|Z|Feralas|N|To Ginro Hearthkindle.|
-A The Knife Revealed|QID|4129|M|31.9,45.1|Z|Feralas|N|From Ginro Hearthkindle.|
+A The Knife Revealed|QID|4129|M|31.9,45.1|Z|Feralas|N|From Ginro Hearthkindle.|PRE|4127
 T The Knife Revealed|QID|4129|M|32.4,43.8|Z|Feralas|N|To Quintis, top of the tower.|
-A Psychometric Reading|QID|4130|M|32.4,43.8|Z|Feralas|N|From Quintis.|
+A Psychometric Reading|QID|4130|M|32.4,43.8|Z|Feralas|N|From Quintis.|PRE|4129|
 T Psychometric Reading|QID|4130|M|31.9,45.1|Z|Feralas|N|To Ginro Hearthkindle.|
-A The Woodpaw Gnolls|QID|4131|M|31.9,45.1|Z|Feralas|N|From Ginro Hearthkindle.|
+A The Woodpaw Gnolls|QID|4131|M|31.9,45.1|Z|Feralas|N|From Ginro Hearthkindle.|PRE|4130|
 r Sell junk, repair, restock|QID|4131|N|Sell junk, repair, restock.|
 R Ruins of Isildien|ACTIVE|2982|M|61,53|N|Back to the mainland, then take the road east until you reach Ruins of Isildian.|
-C The High Wilderness|QID|2982|QO|1|S|M|61.20,54.20|N|Kill Ogres here to complete this quest.|
-C The High Wilderness|QID|2982|QO|3|S|M|61.20,54.20|N|Kill Ogres here to complete this quest.|
+C The High Wilderness|QID|2982|QO|1;3|S|M|61.20,54.20|N|Kill Gordunni Brutes and Warlocks here to complete this quest.|
 C The High Wilderness|QID|2982|QO|2|M|61.20,54.20|N|The Shamans can be found in and around the Temple far to the south.|
-C The High Wilderness|QID|2982|QO|3|US|M|61.20,54.20|N|Finish killing the Gordunni Brutes here to complete this quest.|
-C The High Wilderness|QID|2982|QO|1|S|M|61.20,54.20|N|Kill the Gordunni Warlocks here to complete this quest.|
+C The High Wilderness|QID|2982|QO|1;3|US|M|61.20,54.20|N|Kill the Gordunni Brutes and Warlocks here to complete this quest.|
 N Hippogryph Egg|AVAILABLE|2741|M|56.70,76.80|Z|Feralas|L|8564|N|Get a Hippogryph Egg from this location.|
 C The Mark of Quality|QID|2821|M|55.00,56.00|Z|Feralas|N|Kill Yetis until you get 10 Thick Yeti Hides.|
 A Find OOX-22/FE!|U|8705|QID|2766|N|If you found a Distress Beacon, right click it to get this quest.(If not, right click to skip this step)|
 T Find OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|To Homing Robot OOX-22/FE.|
-A Rescue OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|From Homing Robot OOX-22/FE.|
+A Rescue OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|From Homing Robot OOX-22/FE.|PRE|2766|
 C Rescue OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|Rather difficult (perhaps impossible) to solo, so shout out to see if anyone else wants to help. Follow the chicken, 3 preset ambushes occur along the way.|
 R Woodpaw Hills|ACTIVE|4131|M|73,56|N|Follow the road east, then run south to the Southeastern tip of the small lake.|
 T The Woodpaw Gnolls|QID|4131|M|73.30,56.30|Z|Feralas|N|To Large Leather Backpack, hanging on the trunk of a huge tree.|
-A The Writhing Deep|QID|4135|M|73.3,56.3|Z|Feralas|N|From Large Leather Backpack.|
+A The Writhing Deep|QID|4135|M|73.3,56.3|Z|Feralas|N|From Large Leather Backpack. You might want to ask in chat for a partner for this one as it can be quite challenging.|PRE|4131|
 T The Writhing Deep|QID|4135|M|73.25,63.80|Z|Feralas|N|Go down the spiral ramp at the writhing deep, then enter the tunnel to the west. At the first fork, go right. Go to the end, clear the room and then click the Zukk'Ash Pod.|
-A Freed from the Hive|QID|4265|M|73.5,63.1|Z|Feralas|N|From Zukk'ash Pod. Wait abit for the dialog to end and quest will complete.|
+A Freed from the Hive|QID|4265|M|73.5,63.1|Z|Feralas|N|From Zukk'ash Pod. Wait abit for the dialog to end and quest will complete.|PRE|4135|
 A Thalanaar Delivery|QID|4281|U|11463|N|Use the Undelivered Parcel (dropped ramdomly in zone) to get this quest if you have the item.|
 H Feathermoon Stronghold|ACTIVE|2821|N|Hearth to Feathermoon Stronghold.|Z|Feralas|
 T The Mark of Quality|QID|2821|M|30.6,42.7|Z|Feralas|N|To Pratt McGrubben.|
-A Improved Quality|QID|7733|M|30.6,42.7|Z|Feralas|N|From Pratt McGrubben.|
+A Improved Quality|QID|7733|M|30.6,42.7|Z|Feralas|N|From Pratt McGrubben.|PRE|2821|
 T The High Wilderness|QID|2982|M|31.8,45.6|Z|Feralas|N|To Angelas Moonbreeze.|
 T Freed from the Hive|QID|4265|M|31.9,45.1|Z|Feralas|N|To Ginro Hearthkindle.|
-A A Hero's Welcome|QID|4266|M|31.9,45.1|Z|Feralas|N|From Ginro Hearthkindle.|
+A A Hero's Welcome|QID|4266|M|31.9,45.1|Z|Feralas|N|From Ginro Hearthkindle.|PRE|4265|
 T A Hero's Welcome|QID|4266|M|30.3,46.2|Z|Feralas|N|To Shandris Feathermoon.|
-A Rise of the Silithid|QID|4267|M|30.3,46.2|Z|Feralas|N|From Shandris Feathermoon.|
-F Auberdine|ACTIVE|3022|M|30.20,43.20|Z|Feralas|N|Fly to Auberdine.|
-b Rut'theran Village|ACTIVE|3022|M|37,41|Z|Darkshore|N|Go to the peer and take 'The Moonspray' (ship on the right) to Rut'theran Village.|
+A Rise of the Silithid|QID|4267|M|30.3,46.2|Z|Feralas|N|From Shandris Feathermoon.|PRE|4266|
+
+F Rut'theran Village|ACTIVE|3022|M|30.20,43.20|Z|Feralas|N|Fly to Rut'theran Village If you don't have the flightpath, fly to Auberdine, go to the pier and take 'The Moonspray' (ship on the right) to Rut'theran Village.|
 T Handle With Care|QID|3022|M|55.5,92.0|Z|Teldrassil|N|To Erelas Ambersky.|
-A Favored of Elune?|QID|3661|M|55.5,92.0|Z|Teldrassil|N|From Erelas Ambersky.|
+A Favored of Elune?|QID|3661|M|55.5,92.0|Z|Teldrassil|N|From Erelas Ambersky.|PRE|3022|
 T In Search of Knowledge|QID|2939|M|55.5,92.0|Z|Teldrassil|N|To Daryn Lightwind, upstairs.|
 A Feralas: A History|QID|2940|Z|Teldrassil|M|55.20,91.40|N|Click the book and get this quest.|
 T Feralas: A History|QID|2940|M|55.4,92.2|Z|Teldrassil|N|To Daryn Lightwind.|
-A The Borrower|QID|2941|M|55.4,92.2|Z|Teldrassil|N|From Daryn Lightwind.|
+A The Borrower|QID|2941|M|55.4,92.2|Z|Teldrassil|N|From Daryn Lightwind.|PRE|2940|
 
 R Darnassus|ACTIVE|4267|Z|Teldrassil|M|56.00,90.00|N|Thru the pink haze.|
 T Rise of the Silithid|QID|4267|M|41.8,85.6|Z|Darnassus|N|To Gracina Spiritmight, second floor Temple of the Moon.|
@@ -301,15 +300,14 @@ C Pirate Hats Ahoy!|QID|8365|M|70.4,42.7|Z|Tanaris|N|Kill pirates until you get 
 C Southsea Shakedown|QID|8366|M|73.00,47.00|Z|Tanaris|US|N|Finish killing the pirates for this quest.|
 R Steamwheedle Port|ACTIVE|8366|M|67.1,23.9|Z|Tanaris|N|Ride North to Steamwheedle Port.|
 A Ship Schedules|QID|2876|U|9250|N|Right-click the Ship Schedules to get this quest if you have the item (it can be in a Pirate Footlocker). Skip this objective if you did not get the item.|
-t Ship Schedules|QID|2876|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
+T Ship Schedules|QID|2876|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
 T WANTED: Andre Firebeard|QID|2875|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
 T Southsea Shakedown|QID|8366|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
-T Stoley's Shipment|QID|2873|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
+T Stoley's Shipment|QID|2873|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle. (skip followup for the time being.)|
 A Deliver to MacKinley|QID|2874|M|67.1,23.9|Z|Tanaris|N|From Security Chief Bilgewhizzle.|
 T Pirate Hats Ahoy!|QID|8365|M|66.6,22.3|Z|Tanaris|N|To Haughty Modiste.|
-T Screecher Spirits|QID|3520|M|67.0,22.4|Z|Tanaris|N|To Yeh'kinya.|
-A The Prophecy of Mosh'aru|QID|3527|M|67.0,22.4|Z|Tanaris|N|From Yeh'kinya.|
-L Level Check|N|If you arent nearly 46, stay out and grind on pirates until two bubbles away.|LVL|46;105900|
+T Screecher Spirits|QID|3520|M|67.0,22.4|Z|Tanaris|N|To Yeh'kinya. followup is dungeon quest, you can wait to pick it up if you don't mind running out here.|
+K Level Check|N|If you arent nearly 46, stay out and grind on pirates until two bubbles away.|LVL|46;-105900|
 R Gadgetzan|ACTIVE|1691|M|52.5,28.5|Z|Tanaris|N|Ride west to Gadgetzan.|
 T More Wastewander Justice|QID|1691|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 T WANTED: Caliph Scorpidsting|QID|2781|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
@@ -463,12 +461,14 @@ A The Scrimshank Redemption|QID|10|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor 
 r Sell junk, repair, restock|ACTIVE|3161|N|Sell junk, repair, restock.|
 R Broken Piller|ACTIVE|3161|M|50.2,27.5|Z|Tanaris|N|Run south to the Broken Piller.|
 T Gahz'ridian|QID|3161|M|52.7,45.9|Z|Tanaris|N|To Marvon Rivetseeker.|
-R Gaping Ghasm|ACTIVE|10|M|56,71|Z|Tanaris|N|Continue South to the Gaping Chasm.|
+R Gaping Chasm|ACTIVE|10|M|56,71|Z|Tanaris|N|Continue South to the Gaping Chasm.|
 C The Scrimshank Redemption|QID|10|M|56.0,71.2|Z|Tanaris|N|Go down the spiral and take the second tunnel (it goes north). Go right at the first fork, then through the circle room, then right at the fork. Loot the Surveying Gear from the room up ahead (the arrow will point to it).|
 A Find OOX-17/TN!|QID|351|U|8623|N|If you have the OOX-17/TN distress beacon, right click it to start this quest.|
 t Find OOX-17/TN!|QID|351|M|60,65|N|If you have the OOX-17/TN quest, turn it in.|
 A Rescue OOX-17/TN!|QID|648|N|This is an Escort Quest.|PRE|351|
 C Rescue OOX-17/TN!|QID|648|N|Let the chicken lead, so he will get hit first. There are 3 preset ambushes in route.|
+A Deliver to MacKinley|QID|2874|M|67.1,23.9|Z|Tanaris|N|From Security Chief Bilgewhizzle.|
+A The Prophecy of Mosh'aru|QID|3527|M|67.0,22.4|Z|Tanaris|N|From Yeh'kinya.(Zul'Farrak quest - skip if you arent going)|
 T The Scrimshank Redemption|QID|10|M|50.2,27.5|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
 A Insect Part Analysis |QID|110|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
 T Insect Part Analysis |QID|110|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
