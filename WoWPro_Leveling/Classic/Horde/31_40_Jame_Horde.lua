@@ -333,10 +333,10 @@ T Bone Collector|QID|5501|M|62.30,39.00|Z|Desolace|N|Go northeast to Kormek's Hu
 R Satyr Village|ACTIVE|1434|M|75.00,28.00|Z|Desolace|N|Go northeast to the Satyr Village of Sargeron.|
 C Befouled by Satyr|QID|1434|M|75.00,28.00|Z|Desolace|N|Kill Satyrs till the quest is completed.|
 R Thuder Axe Fortress|ACTIVE|1480|M|56.00,29.00|Z|Desolace|N|Go west to Thunder Axe Fortress and enter by the main gate.|
-C The Burning of Spirits|QID|1435|S|U|6436|M|56.00,29.00|Z|Desolace|N|When killing the burning blade npcs in the fortress, use the gem on them when they are about to die (10-20% health left or so), to gather infused burning gems.|
+C The Burning of Spirits|QID|1435|S|U|6436|M|56.00,29.00|Z|Desolace|N|When killing the burning blade npcs in the fortress, use the gem on them when they are about to die (10-20% health left or so), to gather infused burning gems. Make sure you have an open bag slot, or you won't get them.|
 C Hand of Iruxos|QID|5381|U|6436|M|54.90,26.70|Z|Desolace|N|Inside the main building, clear the way to the central room, Clear that room and then click the big red crystal. When you are ready, click the crystal, a Demon Spirit will spawn, it's lvl 37 but kinda hard for this level, so use everything you got if needed.|
 C Sceptre of Light|QID|5741|U|6436|M|55.20,30.10|Z|Desolace|N|Go to the guard tower just next to the main gate, clear the two npcs on each side of the hut on the top floor of the guard tower, then get full health before you go in, because 2 npcs are inside.|
-C The Burning of Spirits|QID|1435|U|6436|US|M|56.40,30.80|Z|Desolace|N|Kill mobs until you get the remaining Infused Burning Gems.|
+C The Burning of Spirits|QID|1435|U|6436|US|M|56.40,30.80|Z|Desolace|N|Attack mobs. use item when they are at low health until you get the remaining Infused Burning Gems. If you aren't getting any, make sure you have an empty bag slot for them.|
 N Flayed Demon Skin|QID|1480|M|56.40,30.80|Z|Desolace|L|20310|N|Kill everything in the fortress untill you find a Flayed Demon Skin.|
 A The Corrupter|QID|1480|U|20310|M|57.80,21.70|Z|Desolace|N|From the Flayed Demon Skin.|
 
