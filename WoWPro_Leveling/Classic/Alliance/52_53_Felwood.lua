@@ -1,7 +1,9 @@
 TourGuide:RegisterGuide("JamFel5253", "Felwood", "Jame", "52", "53", "JamFer5353", "Alliance", function() return [[
-R Stormwind|QID|8460|
-b Darkshore|QID|8460|N|Take the boat to Auberdine.|M|4.80,57.20|
-F Emerald Sanctuary|QID|8460|N|Fly to Emerald Sanctuary.|
+R Stormwind|AVAILABLE|8460|
+b Darkshore|AVAILABLE|8460|N|Take the boat to Auberdine.|M|4.80,57.20|
+F Astranaar|AVAILABLE|8460|N|Fly Astranaar, Ashenvale.|
+R Raynewood Retreat|AVAILABLE|8460|M|60,60;63,49|CS|N|Follow the road out of Astranaar, and take the North road when it forks towards Raynewood retreat.|
+R Emerald Sanctuary|AVAILABLE|8460|M|51.2,82.3|N|Continue north past Rayenwood and up into Felwood, eventually coming to Emerald Sanctuary.|
 A Forces of Jaedenar|QID|5155|M|51.2,82.3|
 A The Corruption of the Jadefire|QID|4421|M|51.3,81.5|
 A Verifying the Corruption|QID|5156|M|50.9,81.7|
