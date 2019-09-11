@@ -31,13 +31,13 @@ A The Bloodsail Buccaneers |QID|595|M|28.1,76.2|N|From First Mate Crazz.|
 A Venture Company Mining|QID|600|M|27.1,77.2|N|From Crank Fizzlebub.|
 T Goblin Sponsorship |QID|1181|M|27.20,76.90|N|To Baron Revilgaz.|;duplicated from 30-40 guide
 A Goblin Sponsorship |QID|1182|M|27.20,76.90|N|From Baron Revilgaz.|;duplicated from 30-40 guide
-A Scaring Shaky|QID|606|M|27.8,77.1|N|Accept this quest if you do not have it.|
+A Scaring Shaky|QID|606|M|27.8,77.1|N|From "Sea Wolf" MacKinley.|
 A "Pretty Boy" Duncan|QID|610|N|Accept this quest if you do not have it.|
 K "Pretty Boy" Duncan|ACTIVE|610|M|27.50,69.35|T|"Pretty Boy" Duncan|N|Kill Pretty Boy Duncan at this location and loot the blade from him.|
 T The Bloodsail Buccaneers |QID|595|M|27.30,69.50|N|To 'Bloodsail Correspondence' on a barrel in the camp.|
 A The Bloodsail Buccaneers |QID|597|M|27.3,69.5|N|From 'Bloodsail Correspondence'.|
 C Akiris by the Bundle|QID|617|M|26.00,62.00|N|Kill Nagas here until you get the Akiris Reeds needed for the quest.|
-C Scaring Shaky|QID|606|M|31,61|N|Kill Gorillas here until you get the items needed for this quest.|
+C Scaring Shaky|QID|606|M|33,65|N|Kill Gorillas here until you get the items needed for this quest.|
 R Booty Bay|ACTIVE|606|M|26.9,73.6|N|Return to Booty Bay.|
 T Scaring Shaky|QID|606|M|26.9,73.6|N|To "Shaky" Philippe.|
 A Return to MacKinley|QID|607|M|26.9,73.6|N|From "Shaky" Philippe.|
