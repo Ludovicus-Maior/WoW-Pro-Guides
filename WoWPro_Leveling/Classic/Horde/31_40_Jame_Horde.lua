@@ -252,10 +252,11 @@ R Dabyrie Farmstead|M|57.00,41.00|Z|Arathi Highlands|N|Head west to the Dabyrie 
 K Fardel|ACTIVE|1164|QO|3|M|54.00,37.00|Z|Arathi Highlands|T|Fardel|N|Kill Fardel who can be found wandering around the field.|
 K Marcel|ACTIVE|1164|QO|2|M|57.00,41.00|Z|Arathi Highlands|T|Marcel|N|Kill Marcel who can be found in the stables.
 K Kenata|ACTIVE|1164|QO|1|M|56.2,36|Z|Arathi Highlands|T|Kenata|N|Kill Kenata who can be found in the small house on top of the hill.|
-C Foul Magics |QID|671|M|35.00,30.00|Z|Arathi Highlands|N|Head west to Northfold Manor. Kill syndicates until the quest is complete.|
-C Sigil of Strom|QID|639|M|26,57|Z|Arathi Highlands|N|Kill Syndicate mobs until the Sigil of Strom drops.|
+C Foul Magics |QID|671|M|35.00,30.00|Z|Arathi Highlands|QO|1|S||N|Head west to Northfold Manor. Kill syndicates until the quest is complete.|
+C Sigil of Strom|QID|639|M|26,57|Z|Arathi Highlands|N|Continue killing Syndicate mobs until the Sigil of Strom drops.|
+C Foul Magics |QID|671|M|35.00,30.00|Z|Arathi Highlands|QO|1|US||N|Head west to Northfold Manor. Kill syndicates until the quest is complete.|
 C Raising Spirits |QID|672|M|69.90,36.20|Z|Arathi Highlands|US|N|Kill and loot raptors until the quest is done.|
-T Foul Magics |
+T Foul Magics|QID|671|M|74.70,36.30|Z|Arathi Highlands|N|To Tor'gan.|
 T Raising Spirits |QID|672|M|74.70,36.30|Z|Arathi Highlands|N|To Tor'gan.|
 A Raising Spirits |QID|674|M|74.70,36.30|Z|Arathi Highlands|N|From Tor'gan.|
 T Raising Spirits |QID|674|M|72.60,33.90|Z|Arathi Highlands|N|Talk to Gor'mul in the northwest corner of the village.|
@@ -266,7 +267,7 @@ r Sell Junk, Restock, Repair|ACTIVE|701|N|Clear out the bags, stock up on reagen
 R Boulderfist Camp|ACTIVE|678|M|52.00,72.00|Z|Arathi Highlands|N|Head southwest to the opposite side of the zone till you find the Boulderfist Camp
 C Call to Arms |QID|678|M|52.00,72.00|Z|Arathi Highlands|N|Kill ogres until you complete this quest.|
 C Guile of the Raptor |QID|701|M|52.30,67.40|Z|Arathi Highlands|N|Then go to the plains north and west of the Ogre caves, all over that place you'll find Highland Fleshstalkers. Kill them until you complete this quest.|
-L Level Check|ACTIVE|701|LVL|36;61600|N|Grind here or over at the ogres until you are just under 3 bubbles from 37.|
+K Level Check|ACTIVE|701|LVL|36;61600|N|Grind here or over at the ogres until you are just under 3 bubbles from 37.|
 H Hammerfall|ACTIVE|701|
 T Guile of the Raptor |QID|701|M|74.70,36.30|Z|Arathi Highlands|N|To Tor'gan.|
 A Guile of the Raptor |QID|702|M|74.70,36.30|Z|Arathi Highlands|N|From Tor'gan.|
@@ -349,7 +350,7 @@ C Clam Bait|QID|6142|U|15874|M|33.00,31.00|Z|Desolace|US|NC|N|Finish collecting 
 N Gold Key|QID|6161|QO|2|M|33.00,25.00|Z|Desolace|N|Go north of the sunken ship until you find nagas , kill them until you find Rackmore's Golden Key. The key can drop from any naga in the area.|
 T Claim Rackmore's Treasure!|QID|6161|M|30.00,9.00|Z|Desolace|N|Swim northwest, kill any Slitherblade Myrmidon, Naga or Sorceress you find on your way, this is a long swim. Keep swimming northwest until you reach Raznajar Isle, and step on the isle by the eastern side of it . You should find Rackmore's Chest here, at the base of a tree.|
 C Book of the Ancients|QID|6027|M|28.17,6.20|Z|Desolace|N|Go to the northern tip of the isle, you should find a Serpent Statue . Clear the few nagas around it, get full HP/MANA then go click the statue, this will spawn Lord Kragaru, a level 38 naga. Kill and loot him.|
-L Level Check|ACTIVE|6143|M|28.17,6.20;38.00,27.00|CN|Z|Desolace|LVL|37;60880|N|Stay on and around the island and grind until you are about 4 bubbles from 38.|
+K Level Check|ACTIVE|6143|M|28.17,6.20;38.00,27.00|CN|Z|Desolace|LVL|37;60880|N|Stay on and around the island and grind until you are about 4 bubbles from 38.|
 C Other Fish to Fry|QID|6143|M|38.00,27.00|Z|Desolace|N|Swim southeast, back towards the tower of Ethel Rethor, kill the remaining Slitherblade you need on your way back.|
 T Book of the Ancients|QID|6027|M|38.90,27.20|Z|Desolace|N|To Azore Aldamort|
 
@@ -412,7 +413,7 @@ T Some Assembly Required|QID|577|M|28.30,77.60|Z|Stranglethorn Vale|N|To Drizzli
 A Excelsior|QID|628|M|28.30,77.60|Z|Stranglethorn Vale|N|From Drizzlik.|
 N Green Hills of Stranglethorn|QID|6504|Z|Stranglethorn Vale|N|While you are in Booty Bay, check the AH to see if there is any Stranglethorn Lost Pages you miss for sale. The next time we come to Stranglethorn Vale will be the last, so you better make sure to have all 4 chapters complete as soon as possible:\nChapter I: page 1,4,6,8\nChapter II: page 10,11,14,16\nChapter III: page 18,20,21,24\nChapter IV: page 25,26,27|
 
-L Level Check|LVL|38;72720|N|You should be very nearly 39 and it is time to go to Scarlet Monestery. If you choose not to, there will be a bit of grinding needed to stay with the guide.|
+K Level Check|LVL|38;72720|N|You should be very nearly 39 and it is time to go to Scarlet Monestery. If you choose not to, there will be a bit of grinding needed to stay with the guide.|
 ;Add J step for Scarlet Monestery Guide when available
 
 H Orgrimmar|ACTIVE|628|N|Make sure you have those underwater breathing potions if you are going to need them (not undead, not a warlock).|

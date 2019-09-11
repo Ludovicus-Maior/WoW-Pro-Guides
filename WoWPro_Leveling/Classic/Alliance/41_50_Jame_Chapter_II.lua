@@ -107,10 +107,10 @@ F Darkshire|ACTIVE|1183|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
 R Deadwind Pass|ACTIVE|1183|M|91.00,41.00|Z|Duskwood|N|Run east thru Duskwood to Deadwind Pass.|
 R Swamp of Sorrows|ACTIVE|1183|M|60.00,41.20|Z|Swamp of Sorrows|N|Run east to Swamp of Sorrows.|
 N The Lost Supplies|QID|1423|S!US|L|6172|N|Keep your eyes open for 'Scrattered Crates'. It contains 'Lost Supplies' which starts a quest. The crates are scattered all over the Swamp. You can turn it in once for faction and XP and after that it becomes repeatable for faction if you are desparate for Stormwind faction.|
-A Encroaching Wildlife|QID|1396|M|29,59|Z|Swamp of Sorrows|N|From Watcher Biggs.|
+A Encroaching Wildlife|QID|1396|M|26.8,59.8|Z|Swamp of Sorrows|N|From Watcher Biggs.|
 C Encroaching Wildlife|QID|1396|M|26,60|Z|Swamp of Sorrows|N|Kill the animals in the area to complete the quest.|
-T Encroaching Wildlife|QID|1396|M|29,59|Z|Swamp of Sorrows|N|To Watcher Biggs.|
-A The Lost Caravan|QID|1421|M|29,59|Z|Swamp of Sorrows|N|From Watcher Biggs.|
+T Encroaching Wildlife|QID|1396|M|26.8,59.8|Z|Swamp of Sorrows|N|To Watcher Biggs.|
+A The Lost Caravan|QID|1421|M|26.8,59.8|Z|Swamp of Sorrows|N|From Watcher Biggs.|
 R Misty Valley|ACTIVE|1364|M|13,35|Z|Swamp of Sorrows|N|Run into this hidden valley full of swamp elementals.|
 C Mazen's Behest|QID|1364|M|13.00,35.00|Z|Swamp of Sorrows|N|Kill Swamp Elementals at this location until you get the item for this quest.  You may abandon this if the item does not drop in a reasonable amount of time.| 
 R The Harborage|ACTIVE|1364|M|26,31.4|Z|Swamp of Sorrows|N|Run east along the mountain.|
@@ -125,8 +125,8 @@ K Noboru|QID|1392|M|46.70,39.40|Z|Swamp of Sorrows|T|Noboru the Cudgel|L|6196|N|
 A Noboru the Cudgel|QID|1392|M|46.70,39.40|Z|Swamp of Sorrows|U|6196|N|Right-click the Cudgel to start the quest.|
 T Draenethyst Crystals|QID|1389|M|26,31.4|Z|Swamp of Sorrows|N|To Magtoor.|
 T Noboru the Cudgel|QID|1392|M|26,31|Z|Swamp of Sorrows|N|To Magtoor.|
-T The Lost Caravan|QID|1421|M|29,59|Z|Swamp of Sorrows|N|To Watcher Biggs.|
-A Driftwood|QID|1398|M|29,59|Z|Swamp of Sorrows|N|From Watcher Biggs.|PRE|1421|
+T The Lost Caravan|QID|1421|M|26.8,59.8|Z|Swamp of Sorrows|N|To Watcher Biggs.|
+A Driftwood|QID|1398|M|26.8,59.8|Z|Swamp of Sorrows|N|From Watcher Biggs.|PRE|1421|
 A Cortello's Riddle |QID|624|M|23,48|Z|Swamp of Sorrows|U|4056|N|From item in your inventory.|
 T Cortello's Riddle |QID|624|M|23,48|Z|Swamp of Sorrows|N|Under an ornate bridge west of Stonard is a soggy scroll. Get it to start the next part of the quest line.|
 A Cortello's Riddle |QID|625|M|22.9,48.2|Z|Swamp of Sorrows|PRE|624|
@@ -151,14 +151,14 @@ b Ratchet|ACTIVE|623|M|25.80,73.10|N|Take the boat to Ratchet.|
 A Parts for Kravel|QID|1112|Z|The Barrens|M|63.4,38.5|N|From Wharfmaster Dizzywig.|
 
 F Theramore Isle|ACTIVE|623|Z|The Barrens|M|63.10,37.15|N|Fly to Theramore.|
-T Akiris by the Bundle|QID|623|M|67.7,51.7|Z|Dustwallow Marsh|N|To Privateer Gray.|
-t Alliance Trauma|QID|6625|M|67.8,49.0|Z|Dustwallow Marsh|N|Breadcrumb quest is optional. Turns in to Doctor Gustaf VanHowzen.|
+T Akiris by the Bundle|QID|623|M|68.8,53.2|Z|Dustwallow Marsh|N|To Privateer Gray.|
+T Alliance Trauma|QID|6625|M|67.8,49.0|Z|Dustwallow Marsh|N|Breadcrumb quest is optional. Turns in to Doctor Gustaf VanHowzen.|
 A Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|From Doctor Gustaf VanHowzen.|P|First Aid;129;0+225|
 C Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|Prioritize the Critically Injured, then Badly and lastly Injured.  Position yourself in the middle of the room when all patients are in range, hot key the bandages, If you dont have Friendly Nameplates on, CTRL-V. Save 15 before 6 die.|
 T Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|To Doctor Gustaf VanHowzen.|
 T Cortello's Riddle |QID|625|M|31.10,66.13|Z|Dustwallow Marsh|N|Click on the scroll in the cave behind Goreclaw to complete this quest.|
 A Cortello's Riddle |QID|626|M|31.1,66.1|Z|Dustwallow Marsh|PRE|625|
-F Gadgetzan|ACTIVE|2864|Z|Dustwallow Marsh|M|67.50,51.30|N|Fly to Gadgetzan.|
+F Gadgetzan|ACTIVE|2864|Z|Dustwallow Marsh|M|65.50,51.30|N|Fly to Gadgetzan.|
 T Tran'rek|QID|2864|M|51.6,26.8|Z|Tanaris|N|Skip followup.|
 A Wastewander Justice|QID|1690|M|52.5,28.5|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|
 A Water Pouch Bounty|QID|1707|M|52.5,28.5|Z|Tanaris|N|From Spigot Operator Luglunket.|
