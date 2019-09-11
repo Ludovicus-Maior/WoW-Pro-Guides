@@ -57,7 +57,7 @@ A Further Instructions |QID|1094|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz
 R Boulderslide Cavern|QID|6421|M|61.50,93.20|
 C Boulderslide Ravine|QID|6421|M|58.90,90.30|Z|Stonetalon Mountains|N|Collect the purple Resonite Crystals and follow the waypoint to explore the cave.|
 
-R The Barrens|QID|1094|M|52.74,61.56;78.95,89.66;82.79,96.93|N|Walk to the Stonetalon Mountains and Barrens border, en route to The Crossroads.|CS|Z|Stonetalon Mountains|
+R The Barrens|QID|1094|M|78.95,89.66;82.79,96.93|N|Walk to the Stonetalon Mountains and Barrens border, en route to The Crossroads.|CS|Z|Stonetalon Mountains|
 T Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|
 
 R The Crossroads|QID|1094|M|52.00,30.60|Z|The Barrens|
