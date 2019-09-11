@@ -59,7 +59,7 @@ C The Red Crystal|QID|4811|M|47,49|N|Just run toward it until the quest complete
 C Tools of the Highborne|QID|958|S|N|Kill Highbornes that are roaming around.|
 A The Fall of Ameth'Aran|QID|953|M|40.3,59.7|N|From Sentinel Tysha Moonblade.|
 C The Fall of Ameth'Aran|QID|953|QO|2|M|42.7,63.1|N|Click to read the Fall.|NC|
-C Bashal'Aran|QID|957|M|42.37,61.83|N|Click on the flame to destroy the seal.|
+C Bashal'Aran|QID|957|M|42.37,61.83|N|Click on the flame to destroy the seal.|NC|
 C The Lay of Ameth'Aran|QID|953|QO|1|M|43.3,58.8|N|Click to read the Lay.|NC|
 C For Love Eternal|QID|963|M|42,62|N|Kill Anaya Dawnrunner. Roams around the area stealthed. She is level 16 but doesn't hit hard.|T|Anaya Dawnrunner|
 C Tools of the Highborne|QID|958|M|42.7,63.1|US|N|Finish killing the Highbornes.|
@@ -68,13 +68,14 @@ H Auberdine|QID|963|ACTIVE|963|M|37.04,44.12|N|Head back to sell/repair and turn
 T For Love Eternal|QID|963|M|35.8, 43.7|N|To Cerellean Whiteclaw.|
 T The Red Crystal|QID|4811|M|37.7, 43.4|N|To Sentinel Glynda Nal'Shea.|
 A As Water Cascades|QID|4812|M|37.7, 43.4|N|From Sentinel Glynda Nal'Shea.|PRE|4811|
-C As Water Cascades|QID|4812|M|37.71,43.96|N|Fill your Empty Water Tube at the moonwell by the Inn.|U|14338|
+C As Water Cascades|QID|4812|M|37.71,43.96|N|Fill your Empty Water Tube at the moonwell by the Inn.|U|14338|NC|
 A The Tower of Althalaxx|QID|965|M|39.1, 43.5|N|From Sentinel Elissa Starbreeze upstairs.|
 A Deep Ocean, Vast Sea|LVL|13|QID|982|M|38.1,41.2|N|From Gorbold Steelhand.|
 T Tools of the Highborne|QID|958|M|37.4, 40.2|N|To Thundris Windweaver.|
 N Get to level 14|QID|1003|LVL|-14|N|Grind mobs until you are level 14. Finish any sticky quests left.|
 N Sell junk, train, etc.|QID|730|N|Head back to Darnassus to train up, grab a quest, do some banking, profession work and sell/repair.|
-
+F Rut'theran Village|QID|730|M|36.34,45.58|N|Take a ride to the village.|
+R Darnassus|QID|730|M|55.88,89.55|Z|Teldrassil|
 A Trouble in Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of the Moon except don't go inside. Take the right path around the building and you'll run into a dwarf.|
 A Lessons Anew|QID|6121|C|Druid|M|35,8|Z|Darnassus|N|From Mathrengyl Bearwalker on the second floor. Teleport to Moonglade after accepting.|
 T Lessons Anew|QID|6121|C|Druid|M|56.2, 30.5|Z|Moonglade|N|To Dendrite Starblaze.|
