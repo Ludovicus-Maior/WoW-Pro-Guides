@@ -39,26 +39,26 @@ L Level Check|ACTIVE|1136|LVL|32|N|You should now be level 32.|
 ; === 002_32_33_Jame_Thousand_Needles.lua ===
 H Orgrimmar|ACTIVE|1176|
 r Restock, Sell Junk, train|ACTIVE|1136|
-F Thousand Needles|ACTIVE|1136|M|45.2,63.8|N|At Doras, Wind Rider Master.|
 
-A Family Tree|QID|5361|M|45.60,50.80|N|From Cliffwatcher Longhorn.|
+F Freewind Post|ACTIVE|1136|M|45.2,63.8|N|At Doras, Wind Rider Master.|
+;Family Tree is not handed in till level 37 and not in the paper guide I have added it down further just before we go into Desolace.
+;A Family Tree|QID|5361|M|45.60,50.80|N|From Cliffwatcher Longhorn.|
 R Mirage Raceway|QID|1176|M|80.00,77.00|N|Get down off Freewind Post and go east until you reach the Mirage Raceway in the Shimmering Flats.|
 A Hardened Shells|QID|1105|M|78.1,77.1|N|From Wizzle Brassbolts.|
 A Salt Flat Venom|QID|1104|M|78.1,77.1|N|From Fizzle Brassbolts.|
-A A Bump in the Road|QID|1175|M|81.6,77.9|N|From Trackmaster Zherin.|
-A Load Lightening|QID|1176|M|80.2,75.9|N|From Pozzik.|
 A Wharfmaster Dizzywig|QID|1111|M|77.8,77.3|N|From Kravel Koalbeard.|
 A Hemet Nesingwary|QID|5762|M|77.8,77.3|N|From Kravel Koalbeard.|
 A Rocket Car Parts|QID|1110|M|77.8,77.3|N|From Kravel Koalbeard.|
+A Load Lightening|QID|1176|M|80.2,75.9|N|From Pozzik.|
+A A Bump in the Road|QID|1175|M|81.6,77.9|N|From Trackmaster Zherin.|
 
-N From now on...|QID|1110|N|From now on, do long circles all around it and kill everything on the way.  Keep any Turtle Meat that you find and pick up the rocket parts.|
-K Turtles|QID|555|N|Save 10 Turtle Meat for a quest later. You may also check the Auction House on another character and then mail yourself the meat, since the meat doesn't drop often.|L|3712 10|M|82.70,54.70|
-C Hardened Shells|N|If you haven't completed Hardened Shells, get 9 Hardened Tortoise Shells from any Tortoise in the area.|QID|1105|M|83.2,55.4|
-K Saltstone Basilisks|QID|1175|QO|1|N|Kill all the Saltstone Basilisks needed for the quest.  The Saltstone Basilisks can only be found in the northern side.  Kill other things and progress on your other quests while doing this.|M|75.40,55.90|
-C Rocket Car Parts|NC|N|Get the rest of the Rocket Car Parts you need.  They are scattered everywhere.|QID|1110|M|75.4,55.0|
-C Salt Flat Venom|N|Get the rest of the venom you need for this quest.  They drop from Scorpids.|QID|1104|M|72.00,73.00|
-C Load Lightening|N|Get the rest of the Vulture Bones you need for this quest.|QID|1176|M|87.00,66.00|
-C A Bump in the Road|N|Kill the rest of the Basilisks needed for this quest.|QID|1175|M|80.00,87.00|
+N From now on...|QID|1110|N|From now on, do long circles all around The Shimmering Flats and kill everything on the way.  Keep any Turtle Meat that you find and pick up the rocket parts.|
+C Rocket Car Parts|NC||QID|1110|S!US|M|75.4,55.0|N|Get the rest of the Rocket Car Parts you need.  They are scattered everywhere.|
+C Hardened Shells|QID|1105|M|83.2,55.4|N|If you haven't completed Hardened Shells, get 9 Hardened Tortoise Shells from any Tortoise in the area.|
+C Salt Flat Venom|QID|1104|S!US|M|72.00,73.00|N|Get the rest of the venom you need for this quest.  They drop from Scorpids.|
+C Load Lightening|QID|1176|S!US|M|87.00,66.00|N|Get the rest of the Vulture Bones you need for this quest.|
+C A Bump in the Road|QID|1175|S!US|M|80.00,87.00|N|Kill the rest of the Basilisks needed for this quest. The Saltstone Basilisks can only be found in the northern side.  Kill other things and progress on your other quests while doing this.|
+K Turtles|QID|555|L|3712 10|M|82.70,54.70|N|Save 10 Turtle Meat for a quest later. You may also check the Auction House on another character and then mail yourself the meat, since the meat doesn't drop often.|
 T A Bump in the Road|QID|1175|M|81.6,77.9|N|To Trackmaster Zherin.|
 T Load Lightening|QID|1176|M|80.2,75.9|N|To Pozzik.|
 A Goblin Sponsorship|QID|1178|M|80.2,75.9|N|From Pozzik.|
@@ -89,7 +89,7 @@ f Booty Bay|ACTIVE|1181|M|26.8,77.0|Z|Stranglethorn Vale|N|Pick up the flightpat
 A Supply and Demand|QID|575|M|28.30,77.60|Z|Stranglethorn Vale|N|Get out of the inn by the other door on the 3rd floor, facing east. From Drizzlik in the 3rd house to the left.|
 
 H Orgrimmar|ACTIVE|5762|Z|Stranglethorn Vale|
-b Grom'gol|ACTIVE|5762|M|50.6,13.0|Z|Durotar|N|Take the zeppelin to Grom'gol.|
+b Grom'gol Base Camp|ACTIVE|5762|M|50.6,13.0|Z|Durotar|N|Take the zeppelin to Grom'gol.|
 f Grom'gol|ACTIVE|5762|M|32.4,29.2|Z|Stranglethorn Vale|N|At Thysta, Wind Rider Master.|
 A Hunt for Yenniku|QID|581|M|32.20,27.70|Z|Stranglethorn Vale|N|From Nimboya.|
 A Trollbane|QID|638|M|32.20,27.70|Z|Stranglethorn Vale|N|From Nimboya.|
@@ -105,14 +105,14 @@ A Raptor Mastery |QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesing
 A Panther Mastery |QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S.J Erlgadin.|
 A Tiger Mastery |QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 C Supply and Demand|QID|575|M|40.30,12.40|Z|Stranglethorn Vale|N|Kill River Crocolisks which can be found all along the river in northern Stranglethorn Vale until you find 2 Large Crocolisk Skins. While you search for crocs you can also kill Young Tigers close to the river for Tiger Mastery.|
-C Tiger Mastery |QID|185|Z|Stranglethorn Vale|N|Tigers can be found mostly south and around the Nesingwary camp.|
+C Tiger Mastery |QID|185|M|35.10,13.00|Z|Stranglethorn Vale|N|Tigers can be found mostly south and around the Nesingwary camp.|
 C Panther Mastery |QID|190|M|41,10|Z|Stranglethorn Vale|N|Mostly on the other side of the river and east from the tigers.|
 T Tiger Mastery |QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack, back at Nesingwary's Expedition.|
 A Tiger Mastery |QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 T Panther Mastery |QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S.J Erlgadin.|
 A Panther Mastery |QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S.J Erlgadin.|
 C Panther Mastery |QID|191|M|30.00,9.00|Z|Stranglethorn Vale|S|N|Go west until you reach a plateau. Up there you can find Panthers and Tigers. Kill 10 of each.|
-C Tiger Mastery |QID|186|M|30.00,9.00|Z|Stranglethorn Vale|N|Kill panthers in the area.|
+C Tiger Mastery |QID|186|M|30.00,9.00|Z|Stranglethorn Vale|N|Kill tigers in the area. If area fully camped can always try at 45,14|
 C Panther Mastery |QID|191|M|30.00,9.00|Z|Stranglethorn Vale|US|N|Kill tigers in and around the plateau.|
 C Raptor Mastery |QID|194|M|27.80,14.80|Z|Stranglethorn Vale|N|Further southwest on the plateau you should find Stranglethorn Raptors.|
 C Bloodscalp Ears|QID|189|M|28.8,19.7|Z|Stranglethorn Vale|S|N|Go south and down the plateau until you find the troll camp at Bal'lal Ruins. It should take a while to ggather all the things you need, but it's a nice grinding spot. If you don't have enough trolls there is another camp northeast at the Tkashi Ruins.|
@@ -151,11 +151,11 @@ A To Steal from Thieves|QID|1164|M|63.80,49.50|Z|Undercity|N|From Genavie Callow
 T Elixir of Agony |QID|513|M|48.8,69.3|Z|Undercity|N|To Master Apothecary Faranell inside the Apothecarium.|
 A Elixir of Agony |QID|515|M|48.8,69.3|Z|Undercity|N|From Master Apothecary Faranell.|
 F Tarren Mill|ACTIVE|515|M|63.6,48.6|Z|Undercity|N|At Michael Garrett, Bat Handler.|
-A Soothing Turtle Bisque|QID|7321|Z|Hillsbrad Foothills|N|From Christophe Jeffcoat.|
+A Soothing Turtle Bisque|QID|7321|M|62.37,19.07|Z|Hillsbrad Foothills|N|From Christophe Jeffcoat.|
 B Soothing Spices|QID|7321|Z|Hillsbrad Foothills|L|3713 1|N|Buy 1 from Christophe Jeffcoat|
-T Soothing Turtle Bisque|QID|7321|Z|Hillsbrad Foothills|N|To Christophe Jeffcoat.|
+T Soothing Turtle Bisque|QID|7321|M|62.37,19.07|Z|Hillsbrad Foothills|N|From Christophe Jeffcoat.|
 h Tarren Mill|ACTIVE|517|M|62.6,19.0|Z|Hillsbrad Foothills|N|Set your hearthstone to Tarren Mill at Innkeeper Shay.|
-A Humbert's Sword|QID|547|Z|Hillsbrad Foothills|N|From Deathguart Humbert.|
+A Humbert's Sword|QID|547|M|62.65,20.16|Z|Hillsbrad Foothills|N|From Deathguart Humbert.|
 A Stone Tokens|QID|556|M|61.50,20.90|Z|Hillsbrad Foothills|N|From Keeper Bel'varil.|
 A The Hammer May Fall|QID|676|M|61.90,19.60|Z|Hillsbrad Foothills|N|From Tallow.|
 A Helcular's Revenge |QID|552|M|63.88,19.66|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
@@ -283,6 +283,10 @@ h Orgrimmar|QID|1431|M|54,68.6|Z|Orgrimmar|N|Set your hearthstone in Orgrimmar a
 A Alliance Relations |QID|1431|M|45.30,51.60|Z|Orgrimmar|N|Go to the Cleft of Shadows, and find Craven Drok, an orc NPC who roams in between the two slopes there.|
 T Alliance Relations |QID|1431|M|22.30,53.80|Z|Orgrimmar|N|To Keldran who can be found near the western exit of Orgrimmar, in the last hut before the exit.|
 A Alliance Relations |QID|1432|M|22.30,53.80|Z|Orgrimmar|N|From Keldran.|
+
+F Freewind Post|ACTIVE|1136|M|45.2,63.8|N|At Doras, Wind Rider Master.|
+A Family Tree|QID|5361|M|45.60,50.80|N|From Cliffwatcher Longhorn.|
+
 F Thunder Bluff|QID|1136|M|45.2,63.8|N|At Doras, Wind Rider Master.|
 T Frostmaw|QID|1136|M|61.50,80.90|Z|Thunder Bluff|N|To Melor Stonehoof on Hunters Rise.|
 L Level Check|LVL|37|ACTIVE|5361|
@@ -316,7 +320,7 @@ f Shadowprey Village|ACTIVE|5386|M|21.6,74|Z|Desolace|N|Go to the end of the pie
 N Shellfish|ACTIVE|5386|L|13545 10|U|5996|M|21.6,74|Z|Desolace|N|From the pier, dive into the water. Use your Elixir of Water Breathing if you have one, it will make this step much easier. Look around at the bottom of the sea for Shellfish Traps. Do this until you have 10 shellfish.|
 C Catch of the Day|QID|5386|M|22.6,72.8|Z|Desolace|NC|N|When you have 10 Shellfish go back up to the pier and talk to the troll named Jinar'Zillen, turn in 5 Shellfish twice to get 2 Bloodbelly Fish(put those aside in your bags, make sure you don't sell or eat them).|
 
-R Magram Village|ACTIVE|1368|M|66.00,68.00|Z|Desolace|N|Leave the village the same way you came from, follow the road eastwards until you reach Magram Village . 
+R Magram Village|ACTIVE|1368|M|66.00,68.00|Z|Desolace|N|Leave the village the same way you came from, follow the road eastwards until you reach Magram Village .|
 C Gelkis Alliance|QID|1368|M|66.00,68.00|Z|Desolace|N|Kill Magram Centaurs (about 50) until this step closes (which means your reputation with the Gelkis Centaurs is now Friendly.|REP|Gelkis Clan Centaur;92;hated-neutral|
 R Scrabblescrew's Camp|ACTIVE|5386|
 A Kodo Roundup|QID|5561|M|60.90,61.90|Z|Desolace|N|From Smeed Scrabblescrew.|
@@ -438,7 +442,7 @@ C Drowned Sorrows|QID|664|M|23,84.4|Z|Arathi Highlands|US|N|Finish off any Naga 
 T A Deep Sea Salvage|QID|662|M|32.6,81.4|Z|Arathi Highlands|N|To First Mate Nilzlix.|
 T Drowned Sorrows|QID|664|M|33.8,80.8|Z|Arathi Highlands|N|To Captain Steelgut.|
 T Sunken Treaasure|QID|666|M|33.8,80.4|Z|Arathi Highlands|N|To Dr. Draxlegauge. Don't forget to re-equip your normal hat.|
-A Sunken Treasure|QID|668|M|33.8,80.4|Z|Arathi Highlands|N|From Dr. Draxlegauge.| 
+A Sunken Treasure|QID|668|M|33.8,80.4|Z|Arathi Highlands|N|From Dr. Draxlegauge.|
 T Sunken Treasure|QID|668|M|32.2,81.4|Z|Arathi Highlands|N|To Shakes O'Breen.|
 A Sunken Treasure|QID|669|M|32.2,81.4|Z|Arathi Highlands|N|From Shakes O'Breen.|
 
