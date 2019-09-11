@@ -25,14 +25,14 @@ A Soothing Spices |QID|1218|M|55.4,26.3|Z|Dustwallow Marsh|N|Follow the road unt
 T Soothing Spices |QID|1218|M|55.4,26.3|Z|Dustwallow Marsh|N|Do not accept the followup
 A The Orc Report  |QID|1219|M|55.4,26|Z|Dustwallow Marsh|N|Check the grave behind the house. 
 
-R The Shady Rest Inn|ACTIVE|1135|M|44,22.3;29.6,48.6|CS|Z|Dustwallow Marsh|N|Follow the road Northwest and then south towards the Barrens.|
+R The Shady Rest Inn|ACTIVE|1135|M|45.3,23.2;29.6,48.6|CS|Z|Dustwallow Marsh|N|Follow the road Northwest and then south towards the Barrens.|
 A The Black Shield |QID|1253|M|29.6, 48.6|Z|Dustwallow Marsh|N|Above the fireplace. It has about a 5 minute respwn timer if someone else needs it too.|
 A Suspicious Hoofprints |QID|1284|M|29.6, 48.6|Z|Dustwallow Marsh|N|Just in front of the Inn. It has about a 5 minute respwn timer if someone else needs it too.|
-A Lieutenant Paval Reethe |QID|1152|M|29.6, 48.6|Z|Dustwallow Marsh|N|A very tiny shield on the ground on top of the pieces of timber. Also has a 5 minute respawn timer.||
+A Lieutenant Paval Reethe |QID|1252|M|29.6, 48.6|Z|Dustwallow Marsh|N|A very tiny shield on the ground on top of the pieces of timber.|PRE|1282|
 
 R Barrens|ACTIVE|1135|M|27.8,46.6|Z|Dustwallow Marsh|N|And into the Barrens.|
 R Thousand Needles|ACTIVE|1135|M|43,91|Z|The Barrens|N|Follow the road south into Thousand Needles. Run past the guard at the great lift and take the lift down.|
-L Lonebrow's Journal|QID|1100|M|30,24|L|5790|N|Pick up the Journal held by the dead dwarf at the base of the Great Lift. It's got about a 3 minute respawn timer, if someone else needs it too.|
+l Lonebrow's Journal|QID|1100|M|30,24|L|5790|N|Pick up the Journal held by the dead dwarf at the base of the Great Lift. It's got about a 3 minute respawn timer, if someone else needs it too.|
 A Lonebrow's Journal|QID|1100|M|30,24|U|5790|N|Use the journal to start the quest.|
 R Thalanaar|ACTIVE|1135|Z|Feralas|M|5,17|N|Run Generally west to the border with Faralus and find Thalanaar|
 f Thalanaar|ACTIVE|1135|N|Pick up the flightpath.|Z|Feralas|M|5,17|

@@ -1,7 +1,7 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('ClassicAshenvale2324', 'Leveling', 'Ashenvale', 'Boston', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicAshenvale2225', 'Leveling', 'Ashenvale', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Ashenvale 22-25')
 WoWPro:GuideLevels(guide, 22, 25, 23)
 WoWPro:GuideNextGuide(guide, 'ClassicWetlands2526')
@@ -33,9 +33,8 @@ T The Zoram Strand|QID|1008|M|34.68,48.84|Z|Ashenvale|N|To Shindrell Swiftfire.|
 A Pridewings of Stonetalon|QID|1134|M|34.68,48.84|Z|Ashenvale|N|From Shindrell Swiftfire.|PRE|1008|
 A On Guard in Stonetalon|QID|1070|M|34.90,49.79|Z|Ashenvale|N|From Sentinel Thenysil.|
 A Journey to Stonetalon Peak|QID|1056|M|35.76,49.11|Z|Ashenvale|N|From Faldreas Goeth'Shael.|
-T Raene's Cleansing|QID|1023|M|36.6,49.6|N|To Raene Wolfrunner.|
+T Raene's Cleansing|QID|1023|M|36.6,49.6|N|To Raene Wolfrunner. Don't get follow up yet|
 N Trash the Journal|QID|1024|N|Destroy Teronis' Journal, it is useless and wastes precious bag space. Skip this step when done.|PRE|1023|
-A Raene's Cleansing|QID|1024|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1023|
 R Stonetalon Mountains|QID|1070|CN|M|43,71.52;42.3,71.09|Z|Ashenvale|N|Head to the Stonetalon cave.|
 R Windshear Crag|QID|1070|M|76,46.21|Z|Stonetalon Mountains|N|Follow the path with lanterns throught the cave.|
 A Super Reaper 6000|QID|1093|M|59.0,62.6|Z|Stonetalon Mountains|N|From Ziz Fizziks.|
@@ -47,7 +46,8 @@ C Pridewings of Stonetalon|QID|1134|S|M|55,63|Z|Stonetalon Mountains|N|Kill Prid
 C Super Reaper 6000|QID|1093|M|62.70,54.01|Z|Stonetalon Mountains|S|N|Kill Venture co. Operators until you get the blueprints needed for Super Reaper 6000.|
 C A Gnome's Respite|QID|1071|M|69.5,54.5|Z|Stonetalon Mountains|N|Kill Loggers and Deforesters around the area.|
 C Super Reaper 6000|QID|1093|M|62.70,54.01|Z|Stonetalon Mountains|US|N|If for some reason you still haven't found it, keep killing Venture Co. until drops.|
-T Super Reaper 6000|QID|1093|M|59.0,62.6|Z|Stonetalon Mountains|N|To Ziz Fizziks. Don't get the follow up quest.|
+T Super Reaper 6000|QID|1093|M|59.0,62.6|Z|Stonetalon Mountains|N|To Ziz Fizziks.|
+A Further Instructions|QID|1094|M|59.0,62.6|Z|Stonetalon Mountains|N|From Ziz Fizziks.|PRE|1093|
 T A Gnome's Respite|QID|1071|M|59.52,67.14|Z|Stonetalon Mountains|N|To Gaxim Rustfizzle.|
 A A Scroll from Mauren|QID|1075|M|59.52,67.14|Z|Stonetalon Mountains|N|From Gaxim Rustfizzle.|
 C Retrieval for Mauren|QID|1078|M|44,40|Z|Stonetalon Mountains|N|Kill Blackened Basilisks and loot their scales.|
@@ -70,22 +70,31 @@ A Elune's Tear|QID|1033|M|37.36,51.79|N|From Pelturas Whitemoon. This quest beco
 N Sell junk and repair|QID|1033|M|35.78,52.04|N|Close this step when you're done.|
 N Dungeon Group|QID|1971|N|Keep an eye out for groups to Blackfathom Depths|LVL|20|
 C An Aggressive Defense|QID|1025|M|50.00,61.00|S|N|Kill mobs until you finish this quest.|
+C Elune's Tear|QID|1033|M|46.71,46.58|N|Loot Elune's Tear.|
 A Elemental Bracers|QID|1016|M|49.79,67.21|N|From Sentinel Velene Starstrike.|
 l Elemental Bracers|QID|1016|M|50.28,69.90|L|12220 5|N|Kill Befouled Water Elementals until you get 5 Intact Elemental Bracers.|
 U Divined Scroll|QID|1016|U|5456|L|5455|N|Use the Divined Scroll.|
 T Elemental Bracers|QID|1016|M|49.79,67.21|N|To Sentinel Velene Starstrike.|
+A Mage Summoner|QID|1017|M|49.79,67.21|N|From Sentinel Velene Starstrike.|PRE|1016|
 C An Aggressive Defense|QID|1025|M|50.00,61.00|US|N|Kill mobs until you finish this quest.|
-T Raene's Cleansing|QID|1024|M|53.52,46.28|N|To Shael'dryn.|
-A Raene's Cleansing|QID|1026|M|53.5,46.3|N|From Shael'dryn.|PRE|1024|
-C Elune's Tear|QID|1033|M|46.71,46.58|N|Loot Elune's Tear.|
+R The Barrens|QID|1017|ACTIVE|1017|M|69.01,86.80|N|Run for the barrens. Takes a few minutes but well worth the effort, we will knock out 2 quests and grab the Ratchet Flightpath which will be needed later on.|
+C Mage Summoner|QID|1017|M|48.82,14.40;48.25,18.44;47.96,18.85;48.22,19.14|Z|The Barrens|CS|N|Kill Sarilus Foulborne and loot his head.|
+R Ratchet|QID|1017|M|48.96,19.99;62.98,37.22|Z|The Barrens|CS|N|To Rachet.|
+T Further Instructions|QID|1094|M|62.98,37.22|Z|The Barrens|N|To Sputtervalve. Don't get follow up.|
+f Ratchet Flightpoint|QID|1017|M|63.09,37.16|Z|The Barrens|N|Grab the Ratchet flightpoint from Bragok.|
 H Astranaar|QID|1033|M|34.68,48.84|N|Hearth or Run back to Astranaar.|
+A Raene's Cleansing|QID|1024|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1023|
 T An Aggressive Defense|QID|1025|M|36.6,49.6|N|To Raene Wolfrunner.
 T Elune's Tear|QID|1033|M|37.36,51.79|N|To Pelturas Whitemoon.|
 A The Ruins of Stardust|QID|1034|M|37.4,51.8|N|From Pelturas Whitemoon.|PRE|1033|
+T Raene's Cleansing|QID|1024|M|53.52,46.28|N|To Shael'dryn.|
+A Raene's Cleansing|QID|1026|M|53.5,46.3|N|From Shael'dryn.|PRE|1024|
+T Mage Summoner|QID|1017|M|49.79,67.21|N|To Sentinel Velene Starstrike.|
 C The Ruins of  Stardust|QID|1034|M|33.9,66.6|N|Loot from big white bushes that have sparkles.|
 C The Tower of Althalaxx|QID|973|M|25.2,60.6|N|From Delgren the Purifier.|
 T The Tower of Althalaxx|QID|973|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
 A The Tower of Althalaxx|QID|1140|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Purifier.|PRE|973|
+A The Howling Vale|QID|1022|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|
 T The Ruins of Stardust|QID|1034|M|37.36,51.79|N|To Pelturas Whitemoon.|
 N BFD Dungeon|QID|1198|N|Last Chance to do BFD before we leave. Time to head to wetlands and gain a couple levels.|
 ]]
