@@ -5,7 +5,6 @@ local guide = WoWPro:RegisterGuide('Jame-HordeGuide-3', 'Leveling', 'Strangletho
 WoWPro:GuideName(guide, 'Horde Guide Part 3')
 WoWPro:GuideLevels(guide, 41, 51, 42)
 WoWPro:GuideNextGuide(guide, 'Jame-HordeGuide-4')
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0.25,0.50,0.25,0.50})
 WoWPro:GuideSteps(guide, function() 
 return [[
