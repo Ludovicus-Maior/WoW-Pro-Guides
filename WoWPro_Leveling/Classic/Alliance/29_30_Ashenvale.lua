@@ -5,28 +5,34 @@ local guide = WoWPro:RegisterGuide('ClassicAshenvale2930', 'Leveling', 'Ashenval
 WoWPro:GuideName(guide, 'Ashenvale 29-30')
 WoWPro:GuideLevels(guide, 29, 30, 29)
 WoWPro:GuideSteps(guide, function() return [[
-b Darkshore|QID|9526|N|Take the boat to Auberdine.|Z|Stormwind City|M|23,55.5|
-F Forest Song|QID|9526|N|Fly to Forest Song.|Z|Darkshore|M|36.30,45.60|
-A Forsaken Diseases|QID|1011|M|85.2,44.7|
-A The Lost Chalice|QID|9519|M|85.2,44.7|
-A Agents of Destruction|QID|9518|M|86.0,44.1|
-A A Shameful Waste|QID|9517|M|86.8,44.8|
-A Destroy the Legion|QID|9516|M|86.5,43.6|
-A Reclaiming Felfire Hill|N|From Gnarl,  a big tree wandering around the camp.|QID|9526|M|86.4,46.5|
-N READ THIS|QID|9517|N|From now on, look for Lumber Piles and loot Warsong Lumber. Also kill orcs on the way while completing the next quest. Close this step.|
-C Agents of Destruction|N|Clear the way to Overseer Gorthak and kill him. Then kill orcs in this area until you finish this quest. (88.95,59.45)(85.1,56.53)(83.6,60.3)|QID|9518|M|88.95,60.1|
-N Warsong Lumber|QID|9517|N|Keep on killing orcs in the area until you've looted 15 Warsong Lumber.|L|23776 15|
-C Destroy the Legion|N|Look for Fertile Dirt Mounds and right-click them while also killing demons here until you finish this quest. (84,71.1)(83.15,78.33)|QID|9516|M|81,67|
-C Reclaiming Felfire Hill|N|Right-click Fertile Dirt Mounds until you finish this quest.|QID|9526|M|81.5,66.5|
+b Darkshore|QID|1022|M|4.61,57.07|Z|Wetlands|N|Take Boat to Auberdine.|
+F Astranaar|QID|1022|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar.|
+A Kayneth Stillwind|QID|4581|M|34.67,48.84|N|From Shindrell Swiftfire.|
+h Astranaar|QID|1022|N|Make Astranaar your home location.|M|36.97,49.26|
+A The Howling Vale|QID|1022|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|
+A Vile Satyr! Dryads in Danger!|QID|1021|M|21.74,53.35|N|From Illiyana.|
+K Raene's Cleansing|QID|1026|M|54.42,35.39|S!US|N|Kill Treants until you get the Wooden Key.|L|5475|
+C Raene's Cleansing|QID|1026|M|49.5,56.74;60,53.67;60.71,46.23;58.47,41.05;55.9,35;54.42,35.39|CS|N|Run toward Felwood and into the nightsong woods. Click on the Worn Chest once you have the key.|
+C The Howling Vale|QID|1022|M|53.76,35.08;52.81,37.68;50.49,39.13|CS|N|Run up the hill next to you and find a worgen guarded tunnel. Fight or sneak your way through to find the tome.|
+T Raene's Cleansing|QID|1026|M|55.9,35;58.47,41.05;60.71,46.23;60,53.67;52.89,54.11;53.5,46.3|CS|N|To Shael'dryn. Run back out of tunnel, head toward road and circle around.|
+A Raene's Cleansing|QID|1027|M|53.5,46.3|N|From Shael'dryn.|PRE|1026|
+C The Tower of Althalaxx|QID|1140|M|63.84,43.80;66.63,57|Z|Ashenvale|CS|QO|1|N|Click on the Crystal from Night Run.|
+T Vile Satyr! Dryads in Danger!|QID|1021|M|78.32,44.85|N|To Anilia.|
+A The Branch of Cenarius|QID|1031|M|78.2,44.8|N|To Anilia.|PRE|1021|
+C The Branch of Cenarius|QID|1031|M|78,42.48|N|Kill Geltharis.|
+C The Tower of Althalaxx|QID|1140|M|81.59,48.58|Z|Ashenvale|CS|QO|2|N|Click on the Crystal from Satynaar.|
+T Kayneth Stillwind|QID|4581|M|85.28,44.72|N|From Shindrell Swiftfire.|
+A Forsaken Diseases|QID|1011|M|85.28,44.72|N|From Kayneth Stillwind.|
 C Forsaken Diseases|N|Loot a Bottle of Disease.|QID|1011|M|75.3,71.85|
-C The Lost Chalice|N|Go to Satyrnaar. Look for Tainted Wood while clearing the way to the red altar. Loot the Chalice of Elune.|QID|9519|M|81.28,49.15|
-C A Shameful Waste|N|Keep on looting Satyrnaar Fel Wood until you finish this quest.|QID|9517|M|80.3,49.1|
-T Forsaken Diseases|QID|1011|M|85.2,44.7|
-T The Lost Chalice|N|You'll need to wait about 30 seconds to turn in this quest|QID|9519|M|85.2,44.7|
-T Agents of Destruction|QID|9518|M|86.0,44.1|
-T Destroy the Legion|QID|9516|M|86.5,43.6|
-T A Shameful Waste|QID|9517|M|86.4,46.5|
-T Reclaiming Felfire Hill|QID|9526|M|86.4,46.5|
+N Work in Progress|QID|1027|N|Guide is being reworked, the rest below is missing locations and may not be optimal pathing, should be fixed by next patch.|
+C Raene's Cleansing|QID|1027|
+T Forsaken Diseases|QID|1011|M|85.28,44.72|N|To Kayneth Stillwind.|
+A Insane Druids|QID|1012|M|85.28,44.72|N|From Kayneth Stillwind.|PRE|1011|
+C Insane Druids|QID|1012|
+T Insane Druids|QID|1012|M|85.28,44.72|N|To Kayneth Stillwind.|
+T The Howling Vale|QID|1022|M|22.24,52.98|N|To Sentinel Melyria Frostshadow.|
+A Velinde Starsong|QID|1037|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|
+T The Tower of Althalaxx|QID|1140|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
 N Level 30|QID|1021|N|You should be level 30 or close. If you are behind, grind to level 30. Close this step when you're done.|
 ]]
 end)
