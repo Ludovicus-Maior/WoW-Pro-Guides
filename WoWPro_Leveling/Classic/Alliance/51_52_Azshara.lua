@@ -18,9 +18,8 @@ T Rise of the Silithid |QID|4267|Z|Darnassus|M|41.8,85.6|
 A March of the Silithid|QID|4493|Z|Darnassus|M|41.8,85.6|
 T Prayer to Elune |QID|3378|Z|Darnassus|M|38.3,80.9|
 R Rut'theran Village|QID|5536|N|Go to Rut'theran Village.|Z|Darnassus|M|30.50,41.40|
-F Forest Song|QID|5536|N|Fly to Forest Song, Ashenvale.|Z|Teldrassil|M|58.40,94.00|
-
-R Azshara|QID|5536|N|Go to Azshara.|Z|Ashenvale|M|95.40,48.40|
+F Astranaar|QID|5536|N|Fly to Astranaar, Ashenvale.|Z|Teldrassil|M|58.40,94.00|
+R Azshara|QID|5536|N|Follow the road, generally west, to go to Azshara.|Z|Ashenvale|M|70,69;95.40,48.40|CS|
 f Talrendis Point|QID|5536|N|Get the flight path.|M|11.90,77.60|
 A Spiritual Unrest|QID|5535|M|11.4,78.2|
 A A Land Filled with Hatred|QID|5536|M|11.4,78.2|
@@ -32,12 +31,13 @@ A Kim'jael Indeed!|QID|3601|M|53.5,21.8|
 C Kim'jael Indeed!|N|Look for Kim'jael's equipment at this location and loot the items until you finish this quest (wait for the crate to respawn). (58.50, 25.00)|QID|3601|M|58.5,25.0|
 T Kim'jael Indeed!|QID|3601|M|53.5,21.8|
 A Kim'jael's "Missing" Equipment|QID|5534|M|53.5,21.8|
+C Kim'jael's "Missing" Equipment|QID|5534|S|M|46,44|N|Kill naga sirens as you go to fine "some rune" randomly dropped.|
 N Rubbing: Rune of Jin'yael|QID|3449|N|Loot the rune at this location.|L|10564 1|M|39.55,50.20|
 N Rubbing: Rune of Beth'Amara|QID|3449|N|Loot the rune at this location.|L|10563 1|M|36.95,53.10|
 N Rubbing: Rune of Markri|QID|3449|N|Loot the rune at this location.|L|10565 1|M|39.35,55.50|
 N Rubbing: Rune of Sael'hai|QID|3449|N|Loot the rune at this location.|L|10566 1|M|42.35,64.15|
 C Arcane Runes|QID|3449|M|42.3,64.1|
-C Kim'jael's "Missing" Equipment|N|Kill Nagas here until you get the "Some Rune" for this quest.|QID|5534|M|46.00,44.00|
+C Kim'jael's "Missing" Equipment|US|N|Kill Nagas here until you get the "Some Rune" for this quest.|QID|5534|M|46.00,44.00|
 T Kim'jael's "Missing" Equipment|QID|5534|M|53.5,21.8|
 N Helipad|QID|3449|N|Use the Standard Issue Flare Gun from your inventory on the Helipad at this location.  It is better to run on a mount all the way around the water on land.  Swimming is a bad idea.|M|77.00,91.00|
 T Arcane Runes|QID|3449|M|77.8,91.3|
