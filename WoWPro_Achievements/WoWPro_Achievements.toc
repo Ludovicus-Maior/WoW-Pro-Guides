@@ -1,11 +1,11 @@
-## Interface: 80200
-#classic ## Interface: 11302
+#retail ## Interface: 80200
+## Interface: 11302
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Achievements
 ## Notes: World Achievements guides created by the WoW-Pro Community
 ## Author: Twists
 ## Dependencies: WoWPro
-## Version: 8.2.0-J8
-#classic ## Version: 1.13.2-J4
+#retail ## Version: 8.2.0-J8
+## Version: 1.13.2-J9
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 ## X-Category: Quest
 
