@@ -13,11 +13,11 @@ r Sell junk, repair, restock|N|Sell junk, repair, restock. Train riding and buy 
 R Dwarven District|QID|1448|M|63,24|Z|Stormwind City|N|Head to the Dwarven district in Stormwind.|
 A In Search of the Temple|QID|1448|M|63,24|Z|Stormwind City|N|From Brohann Caskbelly, inside a pub in the Dwarven District.|
 R The Stockades|ACTIVE|1448|M|40,63|Z|Stormwind City|N|Next quest located inside a building just south of The Stockades entrance.|
-A Mazen's Behest|QID|1363|M|40,63|Z|Stormwind City|N|From Mazen Mac'Nadir.|
-T Mazen's Behest|QID|1363|M|40,63|Z|Stormwind City|N|Just up the stairs for turn in to Acolyte Dellis.|
-A Mazen's Behest|QID|1364|M|40,63|Z|Stormwind City|N|From Acolyte Dellis.|
+A Mazen's Behest|QID|1363|M|40.99,63.81|Z|Stormwind City|N|From Mazen Mac'Nadir.|
+T Mazen's Behest|QID|1363|M|40.99,63.81|Z|Stormwind City|N|Just up the stairs for turn in to Acolyte Dellis.|
+A Mazen's Behest|QID|1364|M|40.99,63.81|Z|Stormwind City|N|From Acolyte Dellis.|
 
-F Booty Bay|QID|595|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
+F Booty Bay|QID|595|M|66.2,62.4|Z|Stormwind City|N|Fly to Booty Bay at Dungar Longdrink.|
 h Booty Bay|QID|595|M|27.00,77.30|N|Make Booty Bay your home location.|
 r Sell junk, repair, restock|QID|595|N|Sell junk, repair, restock.|
 T Goblin Sponsorship |QID|1180|M|26.3,73.6|N|To Wharfmaster Lozgil.|;duplicated from 30-40 guide
