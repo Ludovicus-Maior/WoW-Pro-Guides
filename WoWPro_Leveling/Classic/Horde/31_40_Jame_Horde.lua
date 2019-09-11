@@ -319,7 +319,7 @@ C Catch of the Day|QID|5386|M|22.6,72.8|Z|Desolace|NC|N|When you have 10 Shellfi
 
 R Magram Village|ACTIVE|1368|M|66.00,68.00|Z|Desolace|N|Leave the village the same way you came from, follow the road eastwards until you reach Magram Village . 
 C Gelkis Alliance|QID|1368|M|66.00,68.00|Z|Desolace|N|Kill Magram Centaurs (about 50) until this step closes (which means your reputation with the Gelkis Centaurs is now Friendly.|REP|Gelkis Clan Centaur;92;hated-neutral|
-R Scrabblescrew's Camp|ACTIVE|5386|
+R Scrabblescrew's Camp|ACTIVE|5386|M|60.90,61.90|Z|Desolace|N|Head generally north to the road, then follow it west to Scrabblescrew's cammp.|
 A Kodo Roundup|QID|5561|M|60.90,61.90|Z|Desolace|N|From Smeed Scrabblescrew.|
 C Kodo Roundup|QID|5561|U|13892|S!US|M|55.60,62.60|Z|Desolace|N|Go west to the Kodo Graveyard and use the rod on any Ancient, Aged or Dying Kodos, when you have one following you, bring it back to Smeed, at Smeed, right click on the kodo you just brought and you should get a quest update. Repeat this step 4 more times and the quest will be complete.|
 C Bone Collector|QID|5501|M|55.60,62.60|Z|Desolace|N|Go to the Kodo Graveyard, look for kodo skulls on the floor, they are labelled as "Kodo Bones" on your tooltip and they shimmer. Gather 10 kodo bones, watch out though, clicking the skulls sometimes spawns a Kodo Apparition, which are easy to kill at your level but just don't click a skull if you are low on health.|
