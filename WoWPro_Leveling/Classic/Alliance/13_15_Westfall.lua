@@ -38,7 +38,7 @@ l Flask of Oil|QID|103|M|38,51|US|N|Kill Harvest Watchers to collect Flask of Oi
 T Report to Gryan Stoutmantle|QID|109|M|56.3,47.5|N|To Gryan Stoutmantle.|
 A The People's Militia |QID|12|M|56.3,47.5|N|From Gryan Stoutmantle.|
 											 
-A Patrolling Westfall|QID|102|M|56.4,47.6|N|From Captain Danuvin.|.|
+A Patrolling Westfall|QID|102|M|56.4,47.6|N|From Captain Danuvin.|
 
 N From now on...|QID|102|N|From now on, add Gnolls to your kill list with Goretusks and Fleshrippers. | 
 C The People's Militia |N|Kill defias mobs until you finish this quest.|QID|12|M|44.00,25.00;47,40;49,47|CN|
