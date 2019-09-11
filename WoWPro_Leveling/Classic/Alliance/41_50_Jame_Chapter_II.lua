@@ -150,14 +150,14 @@ b Ratchet|ACTIVE|623|M|25.80,73.10|N|Take the boat to Ratchet.|
 A Parts for Kravel|QID|1112|Z|The Barrens|M|63.4,38.5|N|From Wharfmaster Dizzywig.|
 
 F Theramore Isle|ACTIVE|623|Z|The Barrens|M|63.10,37.15|N|Fly to Theramore.|
-T Akiris by the Bundle|QID|623|M|67.7,51.7|Z|Dustwallow Marsh|N|To Privateer Gray.|
-t Alliance Trauma|QID|6625|M|67.8,49.0|Z|Dustwallow Marsh|N|Breadcrumb quest is optional. Turns in to Doctor Gustaf VanHowzen.|
+T Akiris by the Bundle|QID|623|M|68.8,53.2|Z|Dustwallow Marsh|N|To Privateer Gray.|
+T Alliance Trauma|QID|6625|M|67.8,49.0|Z|Dustwallow Marsh|N|Breadcrumb quest is optional. Turns in to Doctor Gustaf VanHowzen.|
 A Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|From Doctor Gustaf VanHowzen.|P|First Aid;129;0+225|
 C Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|Prioritize the Critically Injured, then Badly and lastly Injured.  Position yourself in the middle of the room when all patients are in range, hot key the bandages, If you dont have Friendly Nameplates on, CTRL-V. Save 15 before 6 die.|
 T Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|To Doctor Gustaf VanHowzen.|
 T Cortello's Riddle |QID|625|M|31.10,66.13|Z|Dustwallow Marsh|N|Click on the scroll in the cave behind Goreclaw to complete this quest.|
 A Cortello's Riddle |QID|626|M|31.1,66.1|Z|Dustwallow Marsh|PRE|625|
-F Gadgetzan|ACTIVE|2864|Z|Dustwallow Marsh|M|67.50,51.30|N|Fly to Gadgetzan.|
+F Gadgetzan|ACTIVE|2864|Z|Dustwallow Marsh|M|65.50,51.30|N|Fly to Gadgetzan.|
 T Tran'rek|QID|2864|M|51.6,26.8|Z|Tanaris|N|Skip followup.|
 A Wastewander Justice|QID|1690|M|52.5,28.5|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|
 A Water Pouch Bounty|QID|1707|M|52.5,28.5|Z|Tanaris|N|From Spigot Operator Luglunket.|
