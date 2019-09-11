@@ -59,7 +59,7 @@ C The Red Crystal|QID|4811|M|47,49|N|Just run toward it until the quest complete
 C Tools of the Highborne|QID|958|S|N|Kill Highbornes that are roaming around.|
 A The Fall of Ameth'Aran|QID|953|M|40.3,59.7|N|From Sentinel Tysha Moonblade.|
 C The Fall of Ameth'Aran|QID|953|QO|2|M|42.7,63.1|N|Click to read the Fall.|NC|
-C Bashal'Aran|QID|957|M|42.37,61.83|N|Click on the flame to destroy the seal.|
+C Bashal'Aran|QID|957|M|42.37,61.83|N|Click on the flame to destroy the seal.|NC|
 C The Lay of Ameth'Aran|QID|953|QO|1|M|43.3,58.8|N|Click to read the Lay.|NC|
 C For Love Eternal|QID|963|M|42,62|N|Kill Anaya Dawnrunner. Roams around the area stealthed. She is level 16 but doesn't hit hard.|T|Anaya Dawnrunner|
 C Tools of the Highborne|QID|958|M|42.7,63.1|US|N|Finish killing the Highbornes.|
@@ -79,17 +79,17 @@ A Trouble in Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of 
 A Lessons Anew|QID|6121|C|Druid|M|35,8|Z|Darnassus|N|From Mathrengyl Bearwalker on the second floor. Teleport to Moonglade after accepting.|
 T Lessons Anew|QID|6121|C|Druid|M|56.2, 30.5|Z|Moonglade|N|To Dendrite Starblaze.|
 A The Principal Source|QID|6122|C|Druid|N|From Dendrite Starblaze.|
-F Rut'theran Village|ACTIVE|6122|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using Silva, the Darnassus Flight Master.|
-F Auberdine|QID|952|ACTIVE|730|M|58.40,94.01|Z|Teldrassil|N|Go back through the portal to Vesprystus and fly back to Auberdine.|
+F Rut'theran Village|ACTIVE|6122|M|44.15,45.22|Z|Moonglade|N|Fly back using Silva, the Darnassus Flight Master.|
+F Auberdine|ACTIVE|730|M|58.40,94.01|Z|Teldrassil|N|Go back through the portal to Vesprystus and fly back to Auberdine.|
 T Trouble in Darkshore?|QID|730|M|37.5,41.9|N|To Archaeologist Hollee.|
 T As Water Cascades|QID|4812|M|47.3,48.7|N|At the Mysterious Red Crystal|
 A The Fragments Within|QID|4813|M|47.3,48.7|N|At the Mysterious Red Crystal|PRE|4812|
 T Bashal'Aran|QID|957|M|44.2,36.3|N|To Asterion.|
-C Deep Ocean, Vast Sea|QID|982|M|39,29|QO|1|N|Swim to the bottom of the ship and loot the Silver Dawning's Lockbox. Go back up for some air.|
-C Deep Ocean, Vast Sea|QID|982|M|39.6,27.4|QO|2|N|Swim to the far end of the ship and loot the Mist Veils's Lockbox.|
+C Deep Ocean, Vast Sea|QID|982|M|39,29|QO|1|N|Swim to the bottom of the ship and loot the Silver Dawning's Lockbox. There may be a murloc standing in front of the chest that you'll have to kill first.\nKeep an eye on your breath bar.|NC|
+C Deep Ocean, Vast Sea|QID|982|M|39.6,27.4|QO|2|N|Swim to the far end of the ship and loot the Mist Veils's Lockbox.|NC|
 T Buzzbox 411|QID|1001|M|42,28.7|N|To Buzzbox 411.|
 A Buzzbox 323|QID|1002|M|42,28.7|N|From Buzzbox 411.|
-A Beached Sea Creature|QID|4723|M|42.1, 31.9|N|Click near the head/neck to get the quest.|
+A Beached Sea Creature|QID|4723|M|42.1, 31.9|N|Stand near the base of the neck to able to click and get the quest. If you stand too far up, you won't be able to click on it.|
 A Beached Sea Turtle|QID|4725|M|44.24,20.67|N|On the beach, a few level 15 Murlocks around.|
 C Buzzbox 323|QID|1002|S|N|Drop rate is low, so be ready for a grind.|
 C The Cliffspring River|QID|4762|M|51,25|U|12350|N|Use your Empty Sampling Tube.|
@@ -118,7 +118,10 @@ T The Principal Source|QID|6122|C|Druid|M|37.7, 40.7|
 A The Blackwood Corrupted|QID|4763|M|37.4,40.2|N|From Thundris Windweaver|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|U|12346|L|12347|M|37.76,44.02|N|Clean the bowl in the moonwell.|
 A Gathering the Cure|QID|6123|C|Druid|
-C Gathering the Cure|QID|6123|C|Druid|M|43,45;46,45;45,50|CS|N|Found in the moonkin caves. Earthroot requires Herbalism or buy from AH or vendors.|
+
+N Visit Darnassus|QID|1002|N|Take this ooportunity to go visit your trainers, the bank, AH, etc.|
+
+C Gathering the Cure|QID|6123|C|Druid|M|43,45;46,45;45,50|CS|QO|1;2|N|Found in the moonkin caves. Earthroot requires Herbalism or buy from AH or vendors.|NC|
 T Buzzbox 323|QID|1002|M|51.28,24.58|N|Long run back up north to Buzzbox 323.|
 A Buzzbox 525|QID|1003|M|51.28,24.58|N|From Buzzbox 323.|PRE|1002|
 C Tharnariun's Hope|QID|2139|M|51.6, 37.6|N|Pull one of the Thistle Cubs and they will all run at you, burn one of the cubs down quickly and run away. Rinse and repeat until all 4 cubs are dead. Pull the Den Mother and kill her.|
@@ -126,11 +129,11 @@ U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12342|M|50.65,34.99|N|Interact 
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12343|M|51.79,33.46|N|Interact with the Blackwood Nut Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12341|M|52.88,33.39|N|Interact with the Blackwood Fruit Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
 C The Blackwood Corrupted|QID|4763|M|52.5, 33.5|U|12347|N|Use your Filled Cleansing Bowel at the bonfire in the center of the furbolg camp, wait for a second then kill Xabraxxis and loot his bag he drops on the ground.|
-C Cave Mushrooms|QID|947|M|55,35|N|Collect the needed mushrooms that spawn on the ground.|
+C Cave Mushrooms|QID|947|M|55,35|N|Collect the needed mushrooms that spawn on the ground.|NC|
 C The Tower of Althalaxx|QID|966|M|55.41,26.86|N|Do not enter the tower. Kill fanatics around the outside.|
 T The Tower of Althalaxx|QID|966|M|54.9,24.9|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|967|N|From Balthule Shadowstrike.|PRE|966|
-H Auberdine|QID|947|ACTIVE|947|N|Hearth or run back to Auberdine.|
+H Auberdine|ACTIVE|947|N|Hearth or run back to Auberdine.|
 T Cave Mushrooms|QID|947|M|37.3, 43.7|N|To Barithras Moonshade.|
 A Onu|QID|948|M|37.3, 43.7|N|From Barithras Moonshade.|
 T Tharnariun's Hope|QID|2139|M|38.84,43.42|N|To Tharnariun Treetender.|
