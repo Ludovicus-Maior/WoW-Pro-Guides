@@ -14,8 +14,8 @@ B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
 B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 
-R Theramore Isle|QID|1175|N|Fly to Theramore.|Z|Dustwallow Marsh|M|58.40,94.00|
-h Theramore Isle|QID|1175|N|Make Theramore your home location.|Z|Dustwallow Marsh|M|66.60,45.20|
+R Theramore Isle|QID|1175|M|58.40,94.00|Z|Dustwallow Marsh|N|Fly/Boat/Run or otherwise make your way to Theramore.|
+h Theramore Isle|QID|1175|M|66.60,45.20|Z|Dustwallow Marsh|N|Make Theramore your home location.|
 r Sell junk, repair, restock.|QID|1175|N|Sell junk, repair, restock.|
 B Soothing Spices |L|3713 3|M|66.4, 51.5|Z|Dustwallow Marsh|
 A Highperch Venom|QID|1135|M|66.4,45.2|Z|Dustwallow Marsh|N|From Fiora Longears.|
@@ -37,6 +37,7 @@ A Lonebrow's Journal|QID|1100|M|30,24|U|5790|N|Use the journal to start the ques
 R Thalanaar|ACTIVE|1135|Z|Feralas|M|5,17|N|Run Generally west to the border with Faralus and find Thalanaar|
 f Thalanaar|ACTIVE|1135|N|Pick up the flightpath.|Z|Feralas|M|5,17|
 T Lonebrow's Journal|QID|1100|M|89.6,46.4|Z|Feralas|N|To Falfindel Waywarder.|
+T Reclaiming the Charred Vale|QID|1059|M|89.6,46.4|Z|Feralas|N|To Falfindel Waywarder.|
 R Highperch|ACTIVE|1135|N|Go southeast to Thousand Needles.|M|14.0,31.0|
 C Highperch Venom |QID|1135|M|14.0,31.0|
 
@@ -113,9 +114,9 @@ A The Legend of Stalvan |QID|80|M|73.5,46.9|Z|Duskwood|N|From Commander Althea E
 T The Legend of Stalvan |QID|80|M|72.5,46.9|Z|Duskwood|N|To Clerk Daltry.|
 A The Legend of Stalvan |QID|97|M|72.5,46.9|Z|Duskwood|N|From Clerk Daltry.|PRE|80|
 T The Legend of Stalvan |QID|97|M|73.5,46.9|Z|Duskwood|N|To Commander Althea Ebonlocke.|
-A The Legend of Stalvan |QID|98|M|73.5,46.9|Z|Duskwood|N|From Commander Althea Ebonlocke.|PRE|97|
-C The Legend of Stalvan |QID|98|M|77.3,36.2|Z|Duskwood|T|Stalvan Mistmantle|N|Kill Stalvan Mistmantle.|
-T The Legend of Stalvan |QID|98|M|75.8,45.3|Z|Duskwood|N|To Madam Eva.|
+A The Legend of Stalvan|QID|98|M|73.55,46.89|Z|Duskwood|N|From Commander Althea Ebonlocke.|PRE|97|
+C The Legend of Stalvan|QID|98|M|77.3,36.2|Z|Duskwood|T|Stalvan Mistmantle|N|Kill Stalvan Mistmantle.|
+T The Legend of Stalvan|QID|98|M|75.8,45.31|Z|Duskwood|N|To Madam Eva.|
 
 A Worgen in the Woods|QID|222|M|75.3,48.1|Z|Duskwood|N|From Calor.|
 C Worgen in the Woods|QID|222|M|72.4,67.4|Z|Duskwood|N|Kill the worgan as you head back to Stranglethorn.|
