@@ -57,7 +57,7 @@ A Further Instructions |QID|1094|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz
 R Boulderslide Cavern|QID|6421|M|61.50,93.20|
 C Boulderslide Ravine|QID|6421|M|58.90,90.30|Z|Stonetalon Mountains|N|Collect the purple Resonite Crystals and follow the waypoint to explore the cave.|
 
-R The Barrens|QID|1094|M|52.74,61.56;78.95,89.66;82.79,96.93|N|Walk to the Stonetalon Mountains and Barrens border, en route to The Crossroads.|CS|Z|Stonetalon Mountains|
+R The Barrens|QID|1094|M|78.95,89.66;82.79,96.93|N|Walk to the Stonetalon Mountains and Barrens border, en route to The Crossroads.|CS|Z|Stonetalon Mountains|
 T Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|
 
 R The Crossroads|QID|1094|M|52.00,30.60|Z|The Barrens|
@@ -219,8 +219,8 @@ C Ashenvale Outrunners|QID|6503|M|70.00,76.00|Z|Ashenvale|N|Kill outrunners. The
 
 R Silverwing Outpost|QID|6544|M|66.00,73.00|Z|Ashenvale|
 N Things to do...|QID|6544|Z|Ashenvale|N|Kill all the nightelves on the path and inside the house, as soon as this is done, sprint to Torek|
-A Torek's Assault|QID|6544|M|68.30,75.30|Z|Ashenvale|N|Once you accept the quest: Follow Torek into the house.  When inside, 4 elves spawn - Focus on one, let the orcs tank the rest.  If you die, don't release immediately.  You will still get the complete message if Torrek survives and wins the battle.|
-C Torek's Assault|QID|6544|M|68.30,75.30|Z|Ashenvale|N|Follow Torek into the house.  When inside, 4 elves spawn - Focus on one, let the orcs tank the rest.  If you die, don't release immediately.  You will still get the complete message if Torrek survives and wins the battle.|
+A Torek's Assault|QID|6544|M|68.34,75.29|Z|Ashenvale|N|Once you accept the quest: Follow Torek into the house.  When inside, 4 elves spawn - Focus on one, let the orcs tank the rest.  If you die, don't release immediately.  You will still get the complete message if Torrek survives and wins the battle.|
+C Torek's Assault|QID|6544|M|68.34,75.29|Z|Ashenvale|N|Follow Torek into the house.  When inside, 4 elves spawn - Focus on one, let the orcs tank the rest.  If you die, don't release immediately.  You will still get the complete message if Torrek survives and wins the battle.|
 
 R Mystral Lake|QID|25|M|52.00,70.00|Z|Ashenvale|
 N Scout the gazebo...|QID|25|QO|3|M|48.90,69.60|Z|Ashenvale|N|Swim to the island at the center of the lake, killing elementals as you go.|

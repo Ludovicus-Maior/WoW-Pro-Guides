@@ -1,7 +1,9 @@
 TourGuide:RegisterGuide("JamFel5253", "Felwood", "Jame", "52", "53", "JamFer5353", "Alliance", function() return [[
-R Stormwind|QID|8460|
-b Darkshore|QID|8460|N|Take the boat to Auberdine.|M|4.80,57.20|
-F Emerald Sanctuary|QID|8460|N|Fly to Emerald Sanctuary.|
+R Stormwind|AVAILABLE|8460|
+b Darkshore|AVAILABLE|8460|N|Take the boat to Auberdine.|M|4.80,57.20|
+F Astranaar|AVAILABLE|8460|N|Fly Astranaar, Ashenvale.|
+R Raynewood Retreat|AVAILABLE|8460|M|60,60;63,49|CS|N|Follow the road out of Astranaar, and take the North road when it forks towards Raynewood retreat.|
+R Emerald Sanctuary|AVAILABLE|8460|M|51.2,82.3|N|Continue north past Rayenwood and up into Felwood, eventually coming to Emerald Sanctuary.|
 A Forces of Jaedenar|QID|5155|M|51.2,82.3|
 A The Corruption of the Jadefire|QID|4421|M|51.3,81.5|
 A Verifying the Corruption|QID|5156|M|50.9,81.7|
@@ -23,10 +25,11 @@ A Seeking Spiritual Aid|QID|5158|M|51.2,82.3|
 T The Corruption of the Jadefire|QID|4421|M|51.3,81.5|
 A Further Corruption|QID|4906|M|51.3,81.5|
 C Verifying the Corruption|N|Complete this quest by killing the mobs in the area and exploring the crater.|QID|5156|M|41.00,42.00|
-N Flute of Xavaric|QID|939|N|Kill Xavaric and take his flute.  The entrance to the area is at 43, 21|L|11668 1|M|39.00,22.00|
-A Flute of Xavaric|N|Right-click the flute and accept the quest.|QID|939|M|39.1,22.3|
-C Further Corruption|N|Kill Jadefire mobs until this quest is completed.|QID|4906|
+K Xavaric|AVAILABLE|939|N|Kill Xavaric and take his flute. First waypoint is entrance to his area.|L|11668 1|M|43,21;39.00,22.00|CS|
+A Flute of Xavaric|N|Right-click the flute and accept the quest.|QID|939|M|39.1,22.3|U|11668|
+C Further Corruption|N|Kill Jadefire mobs until this quest is completed.|QID|4906|S|
 C Flute of Xavaric|N|Kill Jadefire mobs until you get 5 felbinds.|QID|939|M|39.3,21.4|
+C Further Corruption|N|Kill Jadefire mobs until this quest is completed.|QID|4906|US|
 C Cleansing Felwood|N|Go in the cave here and kill warpwoods until you get the items for this quest.|QID|4101|M|55.50,16.75|
 f Talonbranch Glade|QID|8462|N|Get the flight-path.|M|62.50,24.20|
 T Speak to Nafien|QID|8462|M|64.8,8.1|

@@ -14,8 +14,8 @@ B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
 B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 
-R Theramore Isle|QID|1175|N|Fly to Theramore.|Z|Dustwallow Marsh|M|58.40,94.00|
-h Theramore Isle|QID|1175|N|Make Theramore your home location.|Z|Dustwallow Marsh|M|66.60,45.20|
+R Theramore Isle|QID|1175|M|58.40,94.00|Z|Dustwallow Marsh|N|Fly/Boat/Run or otherwise make your way to Theramore.|
+h Theramore Isle|QID|1175|M|66.60,45.20|Z|Dustwallow Marsh|N|Make Theramore your home location.|
 r Sell junk, repair, restock.|QID|1175|N|Sell junk, repair, restock.|
 B Soothing Spices |L|3713 3|M|66.4, 51.5|Z|Dustwallow Marsh|
 A Highperch Venom|QID|1135|M|66.4,45.2|Z|Dustwallow Marsh|N|From Fiora Longears.|
@@ -25,18 +25,19 @@ A Soothing Spices |QID|1218|M|55.4,26.3|Z|Dustwallow Marsh|N|Follow the road unt
 T Soothing Spices |QID|1218|M|55.4,26.3|Z|Dustwallow Marsh|N|Do not accept the followup
 A The Orc Report  |QID|1219|M|55.4,26|Z|Dustwallow Marsh|N|Check the grave behind the house. 
 
-R The Shady Rest Inn|ACTIVE|1135|M|44,22.3;29.6,48.6|CS|Z|Dustwallow Marsh|N|Follow the road Northwest and then south towards the Barrens.|
+R The Shady Rest Inn|ACTIVE|1135|M|45.3,23.2;29.6,48.6|CS|Z|Dustwallow Marsh|N|Follow the road Northwest and then south towards the Barrens.|
 A The Black Shield |QID|1253|M|29.6, 48.6|Z|Dustwallow Marsh|N|Above the fireplace. It has about a 5 minute respwn timer if someone else needs it too.|
 A Suspicious Hoofprints |QID|1284|M|29.6, 48.6|Z|Dustwallow Marsh|N|Just in front of the Inn. It has about a 5 minute respwn timer if someone else needs it too.|
-A Lieutenant Paval Reethe |QID|1152|M|29.6, 48.6|Z|Dustwallow Marsh|N|A very tiny shield on the ground on top of the pieces of timber. Also has a 5 minute respawn timer.||
+A Lieutenant Paval Reethe |QID|1252|M|29.6, 48.6|Z|Dustwallow Marsh|N|A very tiny shield on the ground on top of the pieces of timber.|PRE|1282|
 
 R Barrens|ACTIVE|1135|M|27.8,46.6|Z|Dustwallow Marsh|N|And into the Barrens.|
 R Thousand Needles|ACTIVE|1135|M|43,91|Z|The Barrens|N|Follow the road south into Thousand Needles. Run past the guard at the great lift and take the lift down.|
-L Lonebrow's Journal|QID|1100|M|30,24|L|5790|N|Pick up the Journal held by the dead dwarf at the base of the Great Lift. It's got about a 3 minute respawn timer, if someone else needs it too.|
+l Lonebrow's Journal|QID|1100|M|30,24|L|5790|N|Pick up the Journal held by the dead dwarf at the base of the Great Lift. It's got about a 3 minute respawn timer, if someone else needs it too.|
 A Lonebrow's Journal|QID|1100|M|30,24|U|5790|N|Use the journal to start the quest.|
 R Thalanaar|ACTIVE|1135|Z|Feralas|M|5,17|N|Run Generally west to the border with Faralus and find Thalanaar|
 f Thalanaar|ACTIVE|1135|N|Pick up the flightpath.|Z|Feralas|M|5,17|
 T Lonebrow's Journal|QID|1100|M|89.6,46.4|Z|Feralas|N|To Falfindel Waywarder.|
+T Reclaiming the Charred Vale|QID|1059|M|89.6,46.4|Z|Feralas|N|To Falfindel Waywarder.|
 R Highperch|ACTIVE|1135|N|Go southeast to Thousand Needles.|M|14.0,31.0|
 C Highperch Venom |QID|1135|M|14.0,31.0|
 
@@ -95,7 +96,6 @@ T The Haunted Isle|QID|616|M|27.2,77.0|Z|Stranglethorn Vale|N|To Baron Revilgaz.
 A The Stone of the Tides|QID|578|M|27.2,77.0|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
 T Goblin Sponsorship|QID|1181|M|27.2,77.0|Z|Stranglethorn Vale|N|To Baron Revilgaz. (skip followup for now)|
 A Singing Blue Shards|QID|605|M|27.1,77.2|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|
-A Scaring Shaky|QID|606|M|27.8,77.1|Z|Stranglethorn Vale|N|From "Sea Wolf" McKinley.|
 A Supply and Demand|QID|575|M|28.3,77.6|Z|Stranglethorn Vale|N|From Drizzlik.|
 r Sell, Repair, Restock, Train.|N|Rogues can train on the first floor of the inn, the rest of you need to fly to Stormwind.|
 
@@ -114,9 +114,9 @@ A The Legend of Stalvan |QID|80|M|73.5,46.9|Z|Duskwood|N|From Commander Althea E
 T The Legend of Stalvan |QID|80|M|72.5,46.9|Z|Duskwood|N|To Clerk Daltry.|
 A The Legend of Stalvan |QID|97|M|72.5,46.9|Z|Duskwood|N|From Clerk Daltry.|PRE|80|
 T The Legend of Stalvan |QID|97|M|73.5,46.9|Z|Duskwood|N|To Commander Althea Ebonlocke.|
-A The Legend of Stalvan |QID|98|M|73.5,46.9|Z|Duskwood|N|From Commander Althea Ebonlocke.|PRE|97|
-C The Legend of Stalvan |QID|98|M|77.3,36.2|Z|Duskwood|T|Stalvan Mistmantle|N|Kill Stalvan Mistmantle.|
-T The Legend of Stalvan |QID|98|M|75.8,45.3|Z|Duskwood|N|To Madam Eva.|
+A The Legend of Stalvan|QID|98|M|73.55,46.89|Z|Duskwood|N|From Commander Althea Ebonlocke.|PRE|97|
+C The Legend of Stalvan|QID|98|M|77.3,36.2|Z|Duskwood|T|Stalvan Mistmantle|N|Kill Stalvan Mistmantle.|
+T The Legend of Stalvan|QID|98|M|75.8,45.31|Z|Duskwood|N|To Madam Eva.|
 
 A Worgen in the Woods|QID|222|M|75.3,48.1|Z|Duskwood|N|From Calor.|
 C Worgen in the Woods|QID|222|M|72.4,67.4|Z|Duskwood|N|Kill the worgan as you head back to Stranglethorn.|
@@ -164,7 +164,7 @@ A Panther Mastery |QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. E
 T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
 A Raptor Mastery |QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
 N Green Hills of Stranglethorn|N|Turn in any Green Hills of Stranglethorn quests that you can turn in while you are here.|Z|Stranglethorn Vale|
-L Level Check: 3 bubbles from 34|LVL|33;46325|
+K Level Check: 3 bubbles from 34|LVL|33;46325|
 
 H The Salty Sailor Tavern|QID|605|N|Hearth to Booty Bay.|Z|Stranglethorn Vale|
 T Singing Blue Shards|QID|605|M|27.1,77.2|Z|Stranglethorn Vale|N|To Crank Fizzlebub. (skip followup for now)|
@@ -181,7 +181,7 @@ T Supply and Demand|QID|575|M|28.3,77.6|Z|Stranglethorn Vale|N|To Drizzlik.|
 A Some Assembly Required|QID|577|M|28.3,77.6|Z|Stranglethorn Vale|N|From Drizzlik.|
 N Sell junk, repair, restock|QID|186|N|Sell junk, repair, restock|Z|Stranglethorn Vale|
 
-N Train skills|QID|187|N|Train your skills in Stormwind if needed, then return to Stranglethorn.  Look for Green Hills of Stranglethorn Pages in the Auction House while you are there.  If you are a Rogue, train in Booty Bay.  Ask in general chat while in Stranglethorn Vale if anybody wants to trade Stranglethorn Pages.|
+= Train skills|QID|187|N|Train your skills in Stormwind if needed, then return to Stranglethorn.  Look for Green Hills of Stranglethorn Pages in the Auction House while you are there.  If you are a Rogue, train in Booty Bay.  Ask in general chat while in Stranglethorn Vale if anybody wants to trade Stranglethorn Pages.|
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
 B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
@@ -280,7 +280,7 @@ C Preserving Knowledge|QID|540|QO|1|Z|Alterac Mountains|M|49.00,61.60|N|Continue
 C Preserving Knowledge|QID|540|QO|2|Z|Alterac Mountains|M|39,46|N|The book you are looking for is on a bookcase inside the house, a level 40 elite will spawn. You don't have to kill it, you can run away, vanish, etc.|
 C Syndicate Assassins|QID|505|Z|Alterac Mountains|M|47.00,76.00|N|Kill Syndicates to finish this quest.|
 C Costly Menace|QID|564|Z|Alterac Mountains|M|38.00,85.00|N|Kill Lions until you finish this quest.|
-L Level Check: 36|QID|564|N|Make sure you're at least 90% of the way to level 36.|LVL|35;60390|
+K Level Check: 36|QID|564|N|Make sure you're at least 90% of the way to level 36.|LVL|35;60390|
 R Dalaran|QID|601|M|18.8,78.2|Z|Alterac Mountains|N|Run northwest to Dalaran.|
 T Magical Analysis|QID|602|M|18.8,78.2|Z|Alterac Mountains|N|To Archmage Ansirem Runeweaver.|
 A Ansirem's Key|QID|603|M|18.8,78.2|Z|Alterac Mountains|N|From Archmage Ansirem Runeweaver.|
@@ -302,7 +302,7 @@ T Letter to Stormpike|QID|514|M|74.7,11.7|Z|Ironforge|N|To Prospector Stormpike.
 R Stormwind City|QID|563|N|Take the Deeprun Tram in Tinker Town.|
 T Return to Milton|QID|542|M|74,7.6|Z|Stormwind City|N|To Milton Sheaf.|
 r Repair, restock, train|QID|563|N|Sell junk, repair, restock, train new skills.|
-T Reassignment|QID|563|Z|Stormwind City|M|72.60,15.94|N|To Major Samuelson.|
+T Reassignment|QID|563|Z|Stormwind City|M|72.66,16.08|N|To Major Samuelson.|
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
 B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
@@ -358,9 +358,11 @@ T Claim Rackmore's Treasure!|QID|6161|M|30.00,8.70|Z|Desolace|N|Loot the chest a
 C Book of the Ancients|QID|6027|M|28.24,6.62|Z|Desolace|N|Clear the area around the statue at this location. Make sure your health is full, and click the statue until Lord Kragaru spawns. Loot the book for the quest.|
 C The Karnitol Shipwreck|QID|1456|M|30.00,7.00|Z|Desolace|N|Kill Slitherblade Sea Witches and Tidehunters until you get Karnitol's Satchel.|
 T Book of the Ancients|QID|6027|M|38.9,27.2|Z|Desolace|N|To Azore Aldamort.|
-C Bone Collector|QID|5501|M|49.00,58.00|Z|Desolace|NC|N|Get 10 Kodo Bones from the graveyard. A Kodo Apparition may spawn each time you click a bone.|
+C Bone Collector|QID|5501|M|49.00,58.00|Z|Desolace|S|NC|N|Get 10 Kodo Bones from the graveyard. A Kodo Apparition may spawn each time you click a bone.|
+R Scrabblescrew's Camp|ACTIVE|5386|M|60.90,61.90|Z|Desolace|N|Head generally east to the road, then follow the arrow to Scrabblescrew's cammp.|
 A Kodo Roundup|QID|5561|M|60.9,61.9|Z|Desolace|N|From Smeed Scrabblescrew.|
-C Kodo Roundup|N|Use the Rod on any Aged, Ancient, or Dying Kodo, then run back to the goblin with it.  Do this five times to complete the quest.|QID|5561|M|55.8,62.9|Z|Desolace|
+C Kodo Roundup|QID|5561|M|55.8,62.9;60.9,61.9|CN|Z|Desolace|N|Use the Rod on any Aged, Ancient, or Dying Kodo, then run back to the goblin (2nd waypoint) with it.  Do this five times to complete the quest.|
+C Bone Collector|QID|5501|M|49.00,58.00|Z|Desolace|US|NC|N|Get 10 Kodo Bones from the graveyard. A Kodo Apparition may spawn each time you click a bone.|
 T Kodo Roundup|QID|5561|M|60.9,61.9|Z|Desolace|N|To Smeed Scrabblescrew.|
 C Strange Alliance|QID|1382|M|70.00,70.00|Z|Desolace|REP|Gelkis Clan Centaur;91;hated-neutral|N|Kill Magrim Centaurs until you are friendly with the Gelkis faction. Loot them for Centaur Ears. It will take 50 centaurs, 46 if you are human.|
 C Centaur Bounty|N|Get 15 Centaur Ears if you haven't already for the quest.|QID|1387|Z|Desolace|
@@ -379,9 +381,11 @@ T The Karnitol Shipwreck|QID|1457|M|69.9,21.3|Z|Ironforge|N|To Roetten Stonehamm
 
 N Dungeon interlude|N|If you want to do Scarlet Monestary, pick of the following two quests, if not skip the following step and head to Badlands.|
 A Mythology of the Titans|QID|1050|M|74.8,12.4|Z|Ironforge|N|From Librarian Mae Paledust.|
+A Further Mysteries|QID|525|PRE|514|M|74.7,11.7|Z|Ironforge|N|From Prospector Stormpike.|
 F Southshore|ACTIVE|1050|M|55.5,48.2|Z|Ironforge|N|At Gryth Thurden, flightmaster.|
 T Down the Scarlet Path|QID|1052|ACTIVE|1050|M|51.4,58.4|Z|Hillsbrad Foothills|N|To Raleigh the Devout.|
 A In the Name of the Light|QID|1053|M|51.4,58.4|Z|Hillsbrad Foothills|N|From Raleigh the Devout.|PRE|1052|
+T Further Mysteries|QID|525|M|48.1,59.1|Z|Hillsbrad Foothills|N|To Magistrate Henry Maleb. (followup is elite quest, do if you want, not in guide)|
 N Scarlet Monestary|ACTIVE|1050|N|You have picked up the quests, find/make a group and have fun.|
 ;add J step after Scarlet Monestary guide is crafted.
 				
@@ -420,7 +424,7 @@ T A Dwarf and His Tools|QID|719|M|53.6,43.3|Z|Badlands|N|To Prospecter Ryedol.|
 T A Sign of Hope |QID|720|M|53.6,43.3|Z|Badlands|
 T Mirages|QID|718|M|53.6,43.3|Z|Badlands|N|To Sigrun Ironhew.|
 A Scrounging|QID|733|M|53.6,43.3|Z|Badlands|N|From Sigrun Ironhew.|
-T Find Agmond|QID|738|M|50.00,62.00|Z|Badlands|N|To Battered Dwarven Skeleton.|
+T Find Agmond|QID|738|M|50.89,62.43|Z|Badlands|N|To Battered Dwarven Skeleton.|
 A Murdaloc|QID|739|M|50.9,62.4|Z|Badlands|N|From Battered Dwarven Skeleton.|
 C Murdaloc|QID|739|M|50.00,68.00|Z|Badlands|N|Kill Stonevault Bonesnappers and Murdaloc at this location. Collect Indurium Flakes as well.|
 C Indurium|QID|1108|M|51.8,65.6|Z|Badlands|N|Continue to kill Stonevault mobs until you complete this quest.|
@@ -444,7 +448,7 @@ T Badlands Reagent Run|QID|2500|M|37,49.2|Z|Loch Modan|N|To Ghak Healtouch.|
 T Murdaloc|QID|739|M|65.9,65.6|Z|Loch Modan|N|To Prospecter Ironband.|
 R Badlands|QID|712|M|47.00,86.00|Z|Loch Modan|N|And back to Badlands.|
 C Study of the Elements: Rock |QID|712|M|17.00,83.00|Z|Badlands|N|Kill Greater Rock Elementals here until you get the Bracers of Rock Binding for this quest.  There are more Elementals west of this location.|
-L Level Check|ACTIVE|712|M|17.00,83.00|Z|Badlands|L|40;85700|N|Grind to about 1 bubble from 41. Note, this can be a long grinding session, if that doesn't appeal to you I really suggest you do Scarlet Monastery. Finishing up Stranglethorn is going to happen soon, if you want to stay with the guide, don't go there yet. Other than that, grind wherever you like.|
+K Level Check|ACTIVE|712|M|17.00,83.00|Z|Badlands|L|40;85700|N|Grind to about 1 bubble from 41. Note, this can be a long grinding session, if that doesn't appeal to you I really suggest you do Scarlet Monastery. Finishing up Stranglethorn is going to happen soon, if you want to stay with the guide, don't go there yet. Other than that, grind wherever you like.|
 T Study of the Elements: Rock |QID|712|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
 A This Is Going to Be Hard |QID|734|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
 A Stone Is Better than Cloth|QID|716|M|25.9,44.6|Z|Badlands|N|From Lucian Tosselwrench.|ITEM|4278|

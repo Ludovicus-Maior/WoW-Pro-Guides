@@ -5,7 +5,6 @@ local guide = WoWPro:RegisterGuide('Jame-HordeGuide-3', 'Leveling', 'Strangletho
 WoWPro:GuideName(guide, 'Horde Guide Part 3')
 WoWPro:GuideLevels(guide, 41, 51, 42)
 WoWPro:GuideNextGuide(guide, 'Jame-HordeGuide-4')
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0.25,0.50,0.25,0.50})
 WoWPro:GuideSteps(guide, function() 
 return [[
@@ -167,7 +166,7 @@ T The Bloodsail Buccaneers |QID|595|M|27.29,69.49|N|You are looking for the Bloo
 A The Bloodsail Buccaneers |QID|597|M|27.3,69.5|N|From Bloodsail Correspondence.|
 C Akiris by the Bundle|QID|617|M|25,60|L|4029 10|N|Kill Nagas for the reeds.|
 C Stranglethorn Fever|QID|348|M|35.02,60.93|N|Kill gorillas as you make you way to waypoint. Make sure you have at least one Gorilla Fang. Make sure you have full life and mana, then talk to the witchdoctor. He'll summon 3 waves of gorillas ending with Mokk who has the heart you need. Remember to heal and recharge between waves.|
-C Scaring Shaky|QID|606|M|31.6,67.3|N|Dropped from Elder Mistvale Gorillas. Also save a gorilla fang to give to the witch doctor in the next quest.|
+C Scaring Shaky|QID|606|M|33,65|N|Dropped from Elder Mistvale Gorillas. Also save a gorilla fang to give to the witch doctor in the next quest.|
 T Scaring Shaky|QID|606|M|26.9,73.6|N|"Shaky" Phillipe is at the base of the ramp you arrive at when entering Booty bay (towards the ship from Rachet).|
 A Return to MacKinley|QID|607|M|26.9,73.6|N|From "Shaky" Phillipe.|
 T The Bloodsail Buccaneers |QID|597|M|28.1,76.2|N|Return to First Mate Crazz.|

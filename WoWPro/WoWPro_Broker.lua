@@ -1574,12 +1574,12 @@ function WoWPro.NextStep(k,i)
         end
 
         -- WoWPro:dbp("Checkpoint Beth for step %d",k)
-         
+
 		-- Skipping profession quests if their requirements aren't met --
 	 if WoWPro.prof[k] and not skip then
             local profName, profID, proflvlmain, profflip, profmaxskill = string.split(";", WoWPro.prof[k])
-			local profexpansion, proflvl = string.split("+", proflvlmain)
-			
+			local profexpansion, proflvl = string.split("+", proflvlmain or "0+1")
+
             profID = tonumber(profID) or 0
             if proflvl == '*' then
                 -- Set to the maximum level obtainable in the expansion plus 1
@@ -1593,7 +1593,7 @@ function WoWPro.NextStep(k,i)
                 local tradeskill = WoWProCharDB.Tradeskills[profID]
                 if tradeskill then
 					local profmaxlvl = tradeskill.skillMax
-				
+
                     if WoWPro.action[k] == 'M' and tradeskill.skillMod then
                         proflvl = math.max(proflvl - tradeskill.skillMod, 1)
                         profmaxlvl = math.max(profmaxlvl - tradeskill.skillMod, 1)
@@ -1617,7 +1617,8 @@ function WoWPro.NextStep(k,i)
 
                     -- zero proflvl special unskip logic
                 elseif proflvl == 0 then
-                    WoWPro:dbp("Prof unskip qid %s for no %s for provlvl == 0", WoWPro.QID[k] or "unknown", profName)
+                    WoWPro.why[k] = string.format("Prof unskip qid %s for no %s for provlvl == 0", WoWPro.QID[k] or "unknown", profName)
+                    WoWPro:dbp(WoWPro.why[k])
                     skip = false
 
                     -- If they do not have the profession, mark the step and quest as skipped
@@ -1628,6 +1629,9 @@ function WoWPro.NextStep(k,i)
                     WoWPro:dbp("Prof permaskip qid %s for no %s", WoWPro.QID[k], prof)
                     skip = true
                     break
+                else
+                    WoWPro.why[k] = "NextStep(): Prof default to skipped."
+                    WoWPro:dbp(WoWPro.why[k])
                 end
             else
                 WoWPro:Error("Warning: malformed profession tag [%s] at step %d", WoWPro.prof[k], k)
