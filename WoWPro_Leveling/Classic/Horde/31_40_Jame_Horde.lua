@@ -112,7 +112,7 @@ A Tiger Mastery |QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.
 T Panther Mastery |QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S.J Erlgadin.|
 A Panther Mastery |QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S.J Erlgadin.|
 C Panther Mastery |QID|191|M|30.00,9.00|Z|Stranglethorn Vale|S|N|Go west until you reach a plateau. Up there you can find Panthers and Tigers. Kill 10 of each.|
-C Tiger Mastery |QID|186|M|30.00,9.00|Z|Stranglethorn Vale|N|Kill tigers in the area. If area fully camped can always try at 45,14|
+C Tiger Mastery |QID|186|M|30.00,9.00|Z|Stranglethorn Vale|N|Kill tigers in the area.|
 C Panther Mastery |QID|191|M|30.00,9.00|Z|Stranglethorn Vale|US|N|Kill tigers in and around the plateau.|
 C Raptor Mastery |QID|194|M|27.80,14.80|Z|Stranglethorn Vale|N|Further southwest on the plateau you should find Stranglethorn Raptors.|
 C Bloodscalp Ears|QID|189|M|28.8,19.7|Z|Stranglethorn Vale|S|N|Go south and down the plateau until you find the troll camp at Bal'lal Ruins. It should take a while to ggather all the things you need, but it's a nice grinding spot. If you don't have enough trolls there is another camp northeast at the Tkashi Ruins.|
