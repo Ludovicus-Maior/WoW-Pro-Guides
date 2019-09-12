@@ -153,7 +153,7 @@ A Elixir of Agony |QID|515|M|48.8,69.3|Z|Undercity|N|From Master Apothecary Fara
 F Tarren Mill|ACTIVE|515|M|63.6,48.6|Z|Undercity|N|At Michael Garrett, Bat Handler.|
 A Soothing Turtle Bisque|QID|7321|M|62.37,19.07|Z|Hillsbrad Foothills|N|From Christophe Jeffcoat.|
 B Soothing Spices|QID|7321|Z|Hillsbrad Foothills|L|3713 1|N|Buy 1 from Christophe Jeffcoat|
-T Soothing Turtle Bisque|QID|7321|M|62.37,19.07|Z|Hillsbrad Foothills|N|From Christophe Jeffcoat.|
+T Soothing Turtle Bisque|QID|7321|M|62.37,19.07|Z|Hillsbrad Foothills|N|To Christophe Jeffcoat.|
 h Tarren Mill|ACTIVE|517|M|62.6,19.0|Z|Hillsbrad Foothills|N|Set your hearthstone to Tarren Mill at Innkeeper Shay.|
 A Humbert's Sword|QID|547|M|62.65,20.16|Z|Hillsbrad Foothills|N|From Deathguart Humbert.|
 A Stone Tokens|QID|556|M|61.50,20.90|Z|Hillsbrad Foothills|N|From Keeper Bel'varil.|
