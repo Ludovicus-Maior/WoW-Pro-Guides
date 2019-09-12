@@ -301,7 +301,7 @@ T Letter to Stormpike|QID|514|M|74.7,11.7|Z|Ironforge|N|To Prospector Stormpike.
 R Stormwind City|QID|563|N|Take the Deeprun Tram in Tinker Town.|
 T Return to Milton|QID|542|M|74,7.6|Z|Stormwind City|N|To Milton Sheaf.|
 r Repair, restock, train|QID|563|N|Sell junk, repair, restock, train new skills.|
-T Reassignment|QID|563|Z|Stormwind City|M|72.60,15.94|N|To Major Samuelson.|
+T Reassignment|QID|563|Z|Stormwind City|M|72.66,16.08|N|To Major Samuelson.|
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
 B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
