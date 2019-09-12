@@ -219,8 +219,8 @@ C Ashenvale Outrunners|QID|6503|M|70.00,76.00|Z|Ashenvale|N|Kill outrunners. The
 
 R Silverwing Outpost|QID|6544|M|66.00,73.00|Z|Ashenvale|
 N Things to do...|QID|6544|Z|Ashenvale|N|Kill all the nightelves on the path and inside the house, as soon as this is done, sprint to Torek|
-A Torek's Assault|QID|6544|M|68.30,75.30|Z|Ashenvale|N|Once you accept the quest: Follow Torek into the house.  When inside, 4 elves spawn - Focus on one, let the orcs tank the rest.  If you die, don't release immediately.  You will still get the complete message if Torrek survives and wins the battle.|
-C Torek's Assault|QID|6544|M|68.30,75.30|Z|Ashenvale|N|Follow Torek into the house.  When inside, 4 elves spawn - Focus on one, let the orcs tank the rest.  If you die, don't release immediately.  You will still get the complete message if Torrek survives and wins the battle.|
+A Torek's Assault|QID|6544|M|68.34,75.29|Z|Ashenvale|N|Once you accept the quest: Follow Torek into the house.  When inside, 4 elves spawn - Focus on one, let the orcs tank the rest.  If you die, don't release immediately.  You will still get the complete message if Torrek survives and wins the battle.|
+C Torek's Assault|QID|6544|M|68.34,75.29|Z|Ashenvale|N|Follow Torek into the house.  When inside, 4 elves spawn - Focus on one, let the orcs tank the rest.  If you die, don't release immediately.  You will still get the complete message if Torrek survives and wins the battle.|
 
 R Mystral Lake|QID|25|M|52.00,70.00|Z|Ashenvale|
 N Scout the gazebo...|QID|25|QO|3|M|48.90,69.60|Z|Ashenvale|N|Swim to the island at the center of the lake, killing elementals as you go.|
