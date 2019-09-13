@@ -67,11 +67,12 @@ A The Tower of Althalaxx|QID|1167|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Pur
 F Auberdine|QID|1167|ACTIVE|1167|M|34.41,47.99|N|Fly to Auberdine, repair and sell.|
 T The Tower of Althalaxx|QID|1167|M|54.97,24.89|Z|Darkshore|N|To Balthule Shadowstrike|
 A The Tower of Althalaxx|QID|1143|M|54.97,24.89|Z|Darkshore|N|From Balthule Shadowstrike|PRE|1167|
-K The Tower of Althalaxx|QID|1143|M|54.97,24.89|Z|Darkshore|QO|1|N|Kill Athrikus Narassin and loot his head.|
+K The Tower of Althalaxx|QID|1143|M|54.97,24.89|Z|Darkshore|QO|1|N|Kill Athrikus Narassin from the very top floor and loot his head.|
 T The Tower of Althalaxx|QID|1143|M|54.97,24.89|Z|Darkshore|N|To Balthule Shadowstrike|
 A The Tower of Althalaxx|QID|981|M|54.97,24.89|Z|Darkshore|N|From Balthule Shadowstrike|PRE|1143|
-H Astranaar|QID|981|ACTIVE|981|M|36.97,49.26|N|Hearth or otherwise make your way back to Astranaar.|
+H Astranaar|QID|981|ACTIVE|981|M|36.97,49.26|N|Hearth or otherwise make your way back to Astranaar.|PRE|1143|
 T The Tower of Althalaxx|QID|981|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
+R Auberdine|QID|1037|AVAILABLE|981|M|36.34,45.58|Z|Darkshore|N|Run back to Auberdine.|PRE|1167|
 F Stonetalon Peak|QID|1059|M|34.41,47.99|N|Fly back to Stonetalon Peak.|PRE|1057|
 A Reclaiming the Charred Vale|QID|1059|M|37.11,8.10|Z|Stonetalon Mountains|N|From Keeper Albagorm.|PRE|1057|
 F Rut'theran Village|QID|1037|M|34.41,47.99|N|Time to head to Darnassus.|R|NightElf|
@@ -117,6 +118,8 @@ A Worgen in the Woods|QID|223|Z|Duskwood|M|75.29,48.05|N|From Calor.|PRE|222|
 T The Scythe of Elune|QID|1043|M|75.32,49.03|Z|Duskwood|N|To Jonathan Carevin.|
 A Answered Questions|QID|1044|M|75.32,49.03|Z|Duskwood|N|From Jonathan Carevin.|PRE|1043|
 T Worgen in the Woods|QID|223|M|75.32,49.03|Z|Duskwood|N|To Jonathan Carevin.|
+F Trade District|QID|1044|M|77.50,44.30|N|Fly to Stormwind City.|C|Paladin|
+N Sorry Paladins|QID|1044M|37.6,32.6|Z|Stormwind City|N|Darnassus doesn't have Paladin trainers, so train while here.|C|Paladin|
 H Darnassus|QID|1044|N|Hearth or fly/boat or otherwise make your way back to Darnassus.|
 T Answered Questions|QID|1044|M|61.77,39.18|Z|Darnassus|N|To Thyn'tel Bladeweaver.|
 R Auction House|QID|1135|M|56.38,51.82|CS|Z|Darnassus|N|Run to the Auction house, get ready for next guide with instructions..|
