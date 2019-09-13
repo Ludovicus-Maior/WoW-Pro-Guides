@@ -78,8 +78,8 @@ F Rut'theran Village|QID|730|M|36.34,45.58|N|Take a ride to the village.|
 R Darnassus|QID|730|M|55.88,89.55|Z|Teldrassil|
 A Trouble in Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of the Moon except don't go inside. Take the right path around the building and you'll run into a dwarf.|
 A Lessons Anew|QID|6121|C|Druid|M|35,8|Z|Darnassus|N|From Mathrengyl Bearwalker on the second floor. Teleport to Moonglade after accepting.|
-T Lessons Anew|QID|6121|C|Druid|M|56.2, 30.5|Z|Moonglade|N|To Dendrite Starblaze.|
-A The Principal Source|QID|6122|C|Druid|N|From Dendrite Starblaze.|
+T Lessons Anew|QID|6121|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze.|
+A The Principal Source|QID|6122|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6121|
 F Rut'theran Village|ACTIVE|6122|M|44.15,45.22|Z|Moonglade|N|Fly back using Silva, the Darnassus Flight Master.|
 F Auberdine|ACTIVE|730|M|58.40,94.01|Z|Teldrassil|N|Go back through the portal to Vesprystus and fly back to Auberdine.|
 T Trouble in Darkshore?|QID|730|M|37.5,41.9|N|To Archaeologist Hollee.|
@@ -97,7 +97,7 @@ C The Cliffspring River|QID|4762|M|51,25|U|12350|N|Use your Empty Sampling Tube.
 T The Tower of Althalaxx|QID|965|M|54.9, 24.9|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|966|M|54.9, 24.9|N|From Balthule Shadowstrike.|PRE|965|
 A Beached Sea Turtle|QID|4727|M|53.12,18.17|N|On the beach, no enemies around.|
-C The Principal Source|QID|6122|C|Druid|M|54.9, 33.3|U|15844|N|Left of the waterfall, take the path to the top.|
+C The Principal Source|QID|6122|C|Druid|M|54.9, 33.3|U|15844|N|Left of the waterfall, take the path to the top.|NC|
 C How Big a Threat?|QID|985|M|39,53|N|Bit of a run back down south but you can also get other quests done on the way|
 A Beached Sea Turtle|QID|4722|M|37.15,62.19|N|On Beach with level 13 Murlocks around.|
 C Cleansing of the Infected|QID|2138|US|N|Finish killing the Rabid Thistle Bears that spawn around the area.
@@ -115,10 +115,10 @@ T How Big a Threat?|QID|985|M|39.37,43.48|N|To Terenthis.|
 A A Lost Master|QID|986|M|39.37,43.48|N|From Terenthis.|
 T Easy Strider Living|QID|2178|M|37.67,40.70|N|To Alanndarian Nightsong.|
 T The Cliffspring River|QID|4762|M|37.4, 40.2|N|To Thundris Windweaver|
-T The Principal Source|QID|6122|C|Druid|M|37.7, 40.7|
+T The Principal Source|QID|6122|C|Druid|M|37.67,40.70|N|To Alanndarian Nightsong.|
 A The Blackwood Corrupted|QID|4763|M|37.4,40.2|N|From Thundris Windweaver|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|U|12346|L|12347|M|37.76,44.02|N|Clean the bowl in the moonwell.|
-A Gathering the Cure|QID|6123|C|Druid|
+A Gathering the Cure|QID|6123|C|Druid|M|37.67,40.70|N|From Alanndarian Nightsong.|PRE|6122|
 
 N Visit Darnassus|QID|1002|N|Take this ooportunity to go visit your trainers, the bank, AH, etc.|
 
@@ -140,14 +140,14 @@ A Onu|QID|948|M|37.3, 43.7|N|From Barithras Moonshade.|
 T Tharnariun's Hope|QID|2139|M|38.84,43.42|N|To Tharnariun Treetender.|
 A The Absent Minded Prospector|QID|729|M|37.5,41.9|N|From Archaeologist Hollee.|
 T The Blackwood Corrupted|QID|4763|M|37.40,40.13|N|To Thundris Windweaver|
-T Gathering the Cure|QID|6123|C|Druid|
-A Curing the Sick|QID|6124|C|Druid|M|37.7, 40.7|
-C Curing the Sick|QID|6124|C|Druid|N|They are all over the place. When done teleport to Moonglade.|
-T Curing the Sick|QID|6124|C|Druid|M|56.2, 30.5|Z|Moonglade|
-A Power over Poison|QID|6125|C|Druid|
-F Rut'theran Village|QID|6125|C|Druid|M|48,68|
-R Darnassus.|QID|6125|C|Druid|
-T Power over Poison|QID|6125|C|Druid|M|35.2, 8.1|
+T Gathering the Cure|QID|6123|C|Druid|M|37.67,40.70|N|To Alanndarian Nightsong.|
+A Curing the Sick|QID|6124|C|Druid|M|M|37.67,40.70|N|From Alanndarian Nightsong.|PRE|6123|
+C Curing the Sick|QID|6124|C|Druid|N|They are all over the place. When done teleport to Moonglade.|NC|
+T Curing the Sick|QID|6124|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
+A Power over Poison|QID|6125|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6124|
+F Rut'theran Village|QID|6125|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
+R Darnassus|QID|6125|C|Druid|M|55.86,89.45|N|Walk into the portal back to Darnassus.|
+T Power over Poison|QID|6125|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
 A A Lesson to Learn|QID|27|C|Druid|N|As you can buy travel forms from your trainer, this guide will not cover the rest of the steps. Use Lightheaded, wowhead, wow-pro.com or other online source on how to complete if you want the XP and reputation from these quests.|
 N Druids...|QID|967|C|Druid|N|Return to Auberdine when done with traning and travel form quests if you did those.|
 A Fruit of the Sea|QID|1138|M|36.1,44.9|N|From Gubber Blump.|
