@@ -163,6 +163,7 @@ A Wait for Sirra to Finish|QID|401|M|72.65,47.64|N|From Sirra Von'lndi.|PRE|251|
 T Wait for Sirra to Finish|QID|401|M|72.65,47.64|N|To Sirra Von'lndi.|
 A Translation to Ello|QID|252|M|72.65,47.64|N|From Sirra Von'lndi.|PRE|401|
 T Translation to Ello|QID|252|M|71.93,46.43|N|To Lord Ello Ebonlocke. Don't get Follow up for now.|
+N Trash the Letter|QID|253|N|Destroy Translated Letter from The Embalmer, it is useless and wastes precious bag space. Skip this step when done.|PRE|252|
 T The Legend of Stalvan|QID|97|M|73.56,46.85|N|To Commander Althea Ebonlocke. Don't get follow up for now.|
 T The Totem of Infliction|QID|101|M|75.8,45.3|N|To Madame Eva.|
 T The Missing Diplomat|QID|1244|M|74.4,40.8|N|To Watcher Backus. He patrols the north road leading out of town.|
