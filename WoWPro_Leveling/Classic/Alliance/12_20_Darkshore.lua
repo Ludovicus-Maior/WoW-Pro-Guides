@@ -78,8 +78,8 @@ F Rut'theran Village|QID|730|M|36.34,45.58|N|Take a ride to the village.|
 R Darnassus|QID|730|M|55.88,89.55|Z|Teldrassil|
 A Trouble in Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of the Moon except don't go inside. Take the right path around the building and you'll run into a dwarf.|
 A Lessons Anew|QID|6121|C|Druid|M|35,8|Z|Darnassus|N|From Mathrengyl Bearwalker on the second floor. Teleport to Moonglade after accepting.|
-T Lessons Anew|QID|6121|C|Druid|M|56.2, 30.5|Z|Moonglade|N|To Dendrite Starblaze.|
-A The Principal Source|QID|6122|C|Druid|N|From Dendrite Starblaze.|
+T Lessons Anew|ACTIVE|6121|M|56.2, 30.5|Z|Moonglade|N|To Dendrite Starblaze.|
+A The Principal Source|QID|6122|PRE|6121|N|From Dendrite Starblaze.|
 F Rut'theran Village|ACTIVE|6122|M|44.15,45.22|Z|Moonglade|N|Fly back using Silva, the Darnassus Flight Master.|
 F Auberdine|ACTIVE|730|M|58.40,94.01|Z|Teldrassil|N|Go back through the portal to Vesprystus and fly back to Auberdine.|
 T Trouble in Darkshore?|QID|730|M|37.5,41.9|N|To Archaeologist Hollee.|
@@ -97,7 +97,7 @@ C The Cliffspring River|QID|4762|M|51,25|U|12350|N|Use your Empty Sampling Tube.
 T The Tower of Althalaxx|QID|965|M|54.9, 24.9|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|966|M|54.9, 24.9|N|From Balthule Shadowstrike.|PRE|965|
 A Beached Sea Turtle|QID|4727|M|53.12,18.17|N|On the beach, no enemies around.|
-C The Principal Source|ACTIVE|6122|M|54.9, 33.3|U|15844|N|Left of the waterfall, take the path to the top.|
+C The Principal Source|ACTIVE|6122|M|54.9, 33.3|U|15844|N|Left of the waterfall, take the path to the top.|NC|
 C How Big a Threat?|QID|985|M|39,53|N|Bit of a run back down south but you can also get other quests done on the way|
 A Beached Sea Turtle|QID|4722|M|37.15,62.19|N|On Beach with level 13 Murlocks around.|
 C Cleansing of the Infected|QID|2138|US|N|Finish killing the Rabid Thistle Bears that spawn around the area.
