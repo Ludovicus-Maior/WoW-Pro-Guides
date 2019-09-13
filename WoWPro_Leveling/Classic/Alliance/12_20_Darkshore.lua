@@ -97,7 +97,7 @@ C The Cliffspring River|QID|4762|M|51,25|U|12350|N|Use your Empty Sampling Tube.
 T The Tower of Althalaxx|QID|965|M|54.9, 24.9|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|966|M|54.9, 24.9|N|From Balthule Shadowstrike.|PRE|965|
 A Beached Sea Turtle|QID|4727|M|53.12,18.17|N|On the beach, no enemies around.|
-C The Principal Source|QID|6122|C|Druid|M|54.9, 33.3|U|15844|N|Left of the waterfall, take the path to the top.|
+C The Principal Source|ACTIVE|6122|M|54.9, 33.3|U|15844|N|Left of the waterfall, take the path to the top.|
 C How Big a Threat?|QID|985|M|39,53|N|Bit of a run back down south but you can also get other quests done on the way|
 A Beached Sea Turtle|QID|4722|M|37.15,62.19|N|On Beach with level 13 Murlocks around.|
 C Cleansing of the Infected|QID|2138|US|N|Finish killing the Rabid Thistle Bears that spawn around the area.
@@ -115,14 +115,14 @@ T How Big a Threat?|QID|985|M|39.37,43.48|N|To Terenthis.|
 A A Lost Master|QID|986|M|39.37,43.48|N|From Terenthis.|
 T Easy Strider Living|QID|2178|M|37.67,40.70|N|To Alanndarian Nightsong.|
 T The Cliffspring River|QID|4762|M|37.4, 40.2|N|To Thundris Windweaver|
-T The Principal Source|QID|6122|C|Druid|M|37.7, 40.7|
+T The Principal Source|ACTIVE|6122|M|37.7, 40.7|N|To Alanndarian Nightsong.|
 A The Blackwood Corrupted|QID|4763|M|37.4,40.2|N|From Thundris Windweaver|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|U|12346|L|12347|M|37.76,44.02|N|Clean the bowl in the moonwell.|
-A Gathering the Cure|QID|6123|C|Druid|
+A Gathering the Cure|QID|6123|PRE|6122|M|37.69,40.66|N|From Alanndarian Nightsong.|
 
 N Visit Darnassus|QID|1002|N|Take this ooportunity to go visit your trainers, the bank, AH, etc.|
 
-C Gathering the Cure|QID|6123|C|Druid|M|43,45;46,45;45,50|CS|QO|1;2|N|Found in the moonkin caves. Earthroot requires Herbalism or buy from AH or vendors.|NC|
+C Gathering the Cure|QID|6123|M|43,45;46,45;45,50|CS|QO|1;2|N|Found in the moonkin caves. Earthroot requires Herbalism or buy from AH or vendors.|NC|
 T Buzzbox 323|QID|1002|M|51.28,24.58|N|Long run back up north to Buzzbox 323.|
 A Buzzbox 525|QID|1003|M|51.28,24.58|N|From Buzzbox 323.|PRE|1002|
 C Tharnariun's Hope|QID|2139|M|52.37,35.88;52.71,36.65;51.6, 37.6|CS|N|Pull one of the Thistle Cubs and they will all run at you, burn one of the cubs down quickly and run away. Rinse and repeat until all 4 cubs are dead. Pull the Den Mother and kill her.|
@@ -140,14 +140,14 @@ A Onu|QID|948|M|37.3, 43.7|N|From Barithras Moonshade.|
 T Tharnariun's Hope|QID|2139|M|38.84,43.42|N|To Tharnariun Treetender.|
 A The Absent Minded Prospector|QID|729|M|37.5,41.9|N|From Archaeologist Hollee.|
 T The Blackwood Corrupted|QID|4763|M|37.40,40.13|N|To Thundris Windweaver|
-T Gathering the Cure|QID|6123|C|Druid|
-A Curing the Sick|QID|6124|C|Druid|M|37.7, 40.7|
-C Curing the Sick|QID|6124|C|Druid|N|They are all over the place. When done teleport to Moonglade.|
-T Curing the Sick|QID|6124|C|Druid|M|56.2, 30.5|Z|Moonglade|
-A Power over Poison|QID|6125|C|Druid|
-F Rut'theran Village|QID|6125|C|Druid|M|48,68|
-R Darnassus.|QID|6125|C|Druid|
-T Power over Poison|QID|6125|C|Druid|M|35.2, 8.1|
+T Gathering the Cure|QID|6123|M|37.67,40.70|N|To Alanndarian Nightsong.|
+A Curing the Sick|QID|6124|PRE|6123|M|37.69,40.66|N|From Alanndarian Nightsong.|
+C Curing the Sick|ACTIVE|6124|QO|1|N|They are all over the place. When done, teleport to Moonglade.|T|Sickly Deer|U|15826|NC|
+T Curing the Sick|ACTIVE|6124|M|56.2, 30.5|Z|Moonglade|
+A Power over Poison|QID|6125|PRE|6124|
+F Rut'theran Village|ACTIVE|6125|M|48,68|
+R Darnassus.|ACTIVE|6125|
+T Power over Poison|ACTIVE|6125|M|35.2, 8.1|
 A A Lesson to Learn|QID|27|C|Druid|N|As you can buy travel forms from your trainer, this guide will not cover the rest of the steps. Use Lightheaded, wowhead, wow-pro.com or other online source on how to complete if you want the XP and reputation from these quests.|
 N Druids...|QID|967|C|Druid|N|Return to Auberdine when done with traning and travel form quests if you did those.|
 A Fruit of the Sea|QID|1138|M|36.1,44.9|N|From Gubber Blump.|
