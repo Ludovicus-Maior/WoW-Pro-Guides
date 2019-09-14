@@ -102,7 +102,7 @@ A Passage to Booty Bay|QID|1040|Z|The Barrens|M|63.35,38.46|N|From Wharfmaster D
 b Booty Bay|QID|1040|M|63.69,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
 T Passage to Booty Bay|QID|1040|M|27.37,74.08|Z|Stranglethorn Vale|N|To Caravaneer Ruzzgot.|
 A The Caravan Road|QID|1041|M|27.37,74.08|Z|Stranglethorn Vale|N|From Caravaneer Ruzzgot.|PRE|1040|
-f Booty Bay|QID|1041|M|27.53,77.78|Z|Stranglethorn Vale|N|Get the flight path, on top of the building facing the inn at|
+f Booty Bay|QID|1041|M|27.53,77.78|Z|Stranglethorn Vale|N|Get the flight path, on top of the building facing the inn.|
 F Darkshire|QID|1041|M|27.53,77.78|Z|Stranglethorn Vale|N|Fly to Darkshire.|
 T The Caravan Road|QID|1041|Z|Duskwood|M|72.55,46.86|N|To Clerk Daltry.|
 A The Carevin Family|QID|1042|Z|Duskwood|M|72.55,46.86|N|From Clerk Daltry.|PRE|1041|
@@ -118,8 +118,8 @@ A Worgen in the Woods|QID|223|Z|Duskwood|M|75.29,48.05|N|From Calor.|PRE|222|
 T The Scythe of Elune|QID|1043|M|75.32,49.03|Z|Duskwood|N|To Jonathan Carevin.|
 A Answered Questions|QID|1044|M|75.32,49.03|Z|Duskwood|N|From Jonathan Carevin.|PRE|1043|
 T Worgen in the Woods|QID|223|M|75.32,49.03|Z|Duskwood|N|To Jonathan Carevin.|
-F Trade District|QID|1044|M|77.50,44.30|N|Fly to Stormwind City.|C|Paladin|
-N Sorry Paladins|QID|1044M|37.6,32.6|Z|Stormwind City|N|Darnassus doesn't have Paladin trainers, so train while here.|C|Paladin|
+F Trade District|QID|1044|M|77.50,44.30|N|Fly to Stormwind City.|C|Paladin,Warlock,Mage|
+N Train Here|QID|1044|M|55.6,60.42|Z|Stormwind City|N|Darnassus doesn't have Paladin, Warlock or Mage trainers, so train while here.|C|Paladin,Warlock,Mage|
 H Darnassus|QID|1044|N|Hearth or fly/boat or otherwise make your way back to Darnassus.|
 T Answered Questions|QID|1044|M|61.77,39.18|Z|Darnassus|N|To Thyn'tel Bladeweaver.|
 R Auction House|QID|1135|M|56.38,51.82|CS|Z|Darnassus|N|Run to the Auction house, get ready for next guide with instructions..|
