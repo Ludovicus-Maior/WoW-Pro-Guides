@@ -97,7 +97,7 @@ T In Favor of Spirituality|QID|5649|C|Priest|M|42.37,68.81|N|From Ken'jai.|
 r Sell Junk|AVAILABLE|2161|M|42.59,67.34|N|Right-click this step off once you are finished.|
 
 A A Peon's Burden|QID|2161|M|52.06,68.30|N|From Ukor.|
-A Thwarting Kolkar Aggression|QID|786|M|54.24,73.32|N|From Lar Prowltusk.|
+A Thwarting Kolkar Aggression|QID|786|M|54.24,73.27;54.44,74.36;54.53,75.20;54.07,76.53|N|From Lar Prowltusk, who wanders.|
 T Report to Sen'jin Village|QID|805|M|55.95,74.72|N|To Master Gadrin.|
 A Minshina's Skull|QID|808|M|55.95,74.72|N|From Master Gadrin.|
 A Zalazane|QID|826|M|55.95,74.72|N|From Master Gadrin.|
@@ -152,7 +152,7 @@ R Thwarting Kolkar Aggression|QID|786|M|50.84,79.13|N|Run south to the Kolkar Cr
 C Thwarting Kolkar Aggression|QID|786|QO|1|M|49.82,81.29|NC|N|Burn the Valley of Trials Attack Plans. They are inside the big tent.|
 C Thwarting Kolkar Aggression|QID|786|QO|3|M|46.23,78.95|NC|N|Burn the Orgrimmar Attack Plans.|
 C Thwarting Kolkar Aggression|QID|786|QO|2|M|47.66,77.34|NC|N|Burn the Sen'jin Village Attack Plans.|
-T Thwarting Kolkar Aggression|QID|786|M|54.24,75.80|N|To Lar Prowltusk.|
+T Thwarting Kolkar Aggression|QID|786|M|54.24,73.27;54.44,74.36;54.53,75.20;54.07,76.53|CN|N|To Lar Prowltusk, who wanders.|
 T A Solvent Spirit|QID|818|M|55.95,74.40|N|To Master Vornal.|
 C Break a Few Eggs|QID|815|S|N|Loot Raptor Nests on the way.|
 C Practical Prey|QID|817|S|N|Kill Durotar Tigers on the way.|
@@ -204,7 +204,7 @@ N Fishing|ACTIVE|5726|M|69.8,29.6|Z|Orgrimmar|P|Fishing;356;0;1;75|N|Lumak, Fish
 N Leatherworking|ACTIVE|5726|M|62.8,44.2|Z|Orgrimmar|P|Leatherworking;165;0;1;75|N|Karolek, Expert Leatherworker and trainer, Orgrimmar.|
 N Skinning|ACTIVE|5726|M|63.2,45.2|Z|Orgrimmar|P|Skinning;393;0;1;75|N|Thuwd, Skinning Trainer, Orgrimmar.|
 N Tailoring|ACTIVE|5726|M|63.0,49.6|Z|Orgrimmar|P|Tailoring;197;0;1;75|N|Snang, Journeyman Tailor and trainer, Orgrimmar.|
-A Speak with Un'thuwa|QID|1883|C|Mage|R|Orc,Troll|LEAD|1884|M|39,86|N|From Uthel'nay, Valley of the Spirits.|
+A Speak with Un'thuwa|QID|1883|C|Mage|R|Orc,Troll|LEAD|1884|M|39.15,86.27|N|From Uthel'nay, Valley of the Spirits.|
 T Training the Beast|QID|6081|C|Hunter|R|Orc,Troll|M|66.06,18.52|Z|Orgrimmar|N|To Ormak Grimshot.|
 T Therzok|QID|1859|C|Rogue|M|42.74,53.55|Z|Orgrimmar|N|To Therzok.|
 A The Shattered Hand|QID|1963|PRE|1859|C|Rogue|R|Orc,Troll|M|42.73,53.44|Z|Orgrimmar|N|From Therzok.|
@@ -296,7 +296,7 @@ T Ride to Orgrimmar|QID|6384|R|Orc,Troll|M|54.10,68.41|Z|Orgrimmar|N|To Innkeepe
 A Doras the Wind Rider Master|QID|6385|PRE|6384|R|Orc,Troll|M|54.10,68.41|Z|Orgrimmar|N|From Innkeeper Gryshka.|
 T Doras the Wind Rider Master|QID|6385|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|To Doras.|
 A Return to the Crossroads.|QID|6386|PRE|6385|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|From Doras.|;yes, the .in quest name does belong. odd, I know.
-F The Crossroads|QID|6386|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|Fly back to Crossroads.|
+F Crossroads|QID|6386|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|Fly back to Crossroads.|
 T Return to the Crossroads.|QID|6386|R|Orc,Troll|M|52.62,29.84|Z|The Barrens|N|To Zargh.|;yes, the . in quest name does belong. odd, I know.
 h The Crossroads|QID|844|M|51.98,29.90|Z|The Barrens|N|Set your Hearthstone at Innkeeper Boorand Plainswind.|
 
