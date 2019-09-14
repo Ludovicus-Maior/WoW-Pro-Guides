@@ -102,7 +102,7 @@ A Passage to Booty Bay|QID|1040|Z|The Barrens|M|63.35,38.46|N|From Wharfmaster D
 b Booty Bay|QID|1040|M|63.69,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
 T Passage to Booty Bay|QID|1040|M|27.37,74.08|Z|Stranglethorn Vale|N|To Caravaneer Ruzzgot.|
 A The Caravan Road|QID|1041|M|27.37,74.08|Z|Stranglethorn Vale|N|From Caravaneer Ruzzgot.|PRE|1040|
-f Booty Bay|QID|1041|M|27.53,77.78|Z|Stranglethorn Vale|N|Get the flight path, on top of the building facing the inn at|
+f Booty Bay|QID|1041|M|27.53,77.78|Z|Stranglethorn Vale|N|Get the flight path, on top of the building facing the inn.|
 F Darkshire|QID|1041|M|27.53,77.78|Z|Stranglethorn Vale|N|Fly to Darkshire.|
 T The Caravan Road|QID|1041|Z|Duskwood|M|72.55,46.86|N|To Clerk Daltry.|
 A The Carevin Family|QID|1042|Z|Duskwood|M|72.55,46.86|N|From Clerk Daltry.|PRE|1041|
