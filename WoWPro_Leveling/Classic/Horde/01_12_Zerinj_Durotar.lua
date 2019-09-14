@@ -97,7 +97,7 @@ T In Favor of Spirituality|QID|5649|C|Priest|M|42.37,68.81|N|From Ken'jai.|
 r Sell Junk|AVAILABLE|2161|M|42.59,67.34|N|Right-click this step off once you are finished.|
 
 A A Peon's Burden|QID|2161|M|52.06,68.30|N|From Ukor.|
-A Thwarting Kolkar Aggression|QID|786|M|54.24,73.27;54.44,74.36;54.53,75.20;54.07,76.53|N|From Lar Prowltusk, who wanders.|
+A Thwarting Kolkar Aggression|QID|786|M|54.24,73.27;54.44,74.36;54.53,75.20;54.07,76.53|CN|N|From Lar Prowltusk, who wanders.|
 T Report to Sen'jin Village|QID|805|M|55.95,74.72|N|To Master Gadrin.|
 A Minshina's Skull|QID|808|M|55.95,74.72|N|From Master Gadrin.|
 A Zalazane|QID|826|M|55.95,74.72|N|From Master Gadrin.|
