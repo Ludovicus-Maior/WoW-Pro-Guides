@@ -51,10 +51,18 @@ T Super Reaper 6000|QID|1093|M|59.0,62.6|Z|Stonetalon Mountains|N|To Ziz Fizziks
 A Further Instructions|QID|1094|M|59.0,62.6|Z|Stonetalon Mountains|N|From Ziz Fizziks.|PRE|1093|
 T A Gnome's Respite|QID|1071|M|59.52,67.14|Z|Stonetalon Mountains|N|To Gaxim Rustfizzle.|
 A A Scroll from Mauren|QID|1075|M|59.52,67.14|Z|Stonetalon Mountains|N|From Gaxim Rustfizzle.|
-C Retrieval for Mauren|QID|1078|M|44,40|Z|Stonetalon Mountains|N|Kill Blackened Basilisks and loot their scales.|
 C Pridewings of Stonetalon|QID|1134|US|M|50.43,45.78|Z|Stonetalon Mountains|N|Kill Pridewing Wyverns to finish this up.|
 T Journey to Stonetalon Peak|QID|1056|M|37.11,8.10|Z|Stonetalon Mountains|N|To Keeper Albagorm.|
+A Reclaiming the Charred Vale|QID|1057|M|37.11,8.10|Z|Stonetalon Mountains|N|From Keeper Albagorm.|PRE|1056|
 f Stonetalon Peak|QID|1134|M|36.44,7.18|Z|Stonetalon Mountains|N|Grab the flightpath from Teloren|
+C Reclaiming the Charred Vale|QID|1057|M|34,65|Z|Stonetalon Mountains|S|N|Kill Harpys in the area.|
+C Retrieval for Mauren|QID|1078|M|34,65|Z|Stonetalon Mountains|N|Kill Blackened Basilisks and loot their scales.|
+C Reclaiming the Charred Vale|QID|1057|M|34,65|Z|Stonetalon Mountains|US|N|Kill Harpys in the area.|
+R Desolace|QID|1453|M|28.00,84.00|Z|Stonetalon Mountains|N|Run through the Charred Vale to get to Desolace. This will come in handy in the next guide.|
+R Nijel's Point|QID|1453|M|67.00,16.00|Z|Desolace|N|Go to Nijel's Point by going up the path here.|
+f Nijel's Point|QID|1437|M|64.66,10.54|Z|Desolace|N|Get the flight path.|
+F Stonetalon Peak|QID|1057|M|64.66,10.54|Z|Desolace|N|Fly back to Stonetalon Peak.|
+T Reclaiming the Charred Vale|QID|1057|M|37.11,8.10|Z|Stonetalon Mountains|N|To Keeper Albagorm. Don't get follow up for now.|
 F Astranaar|QID|1134|M|36.44,7.18|Z|Stonetalon Mountains|N|Fly back to Astranaar.|
 T Pridewings of Stonetalon|QID|1134|M|34.68,48.84|Z|Ashenvale|N|To Shindrell Swiftfire.|
 A An Aggressive Defense|QID|1025|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1023|

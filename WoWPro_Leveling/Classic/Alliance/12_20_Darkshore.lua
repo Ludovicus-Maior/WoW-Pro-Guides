@@ -78,8 +78,8 @@ F Rut'theran Village|QID|730|M|36.34,45.58|N|Take a ride to the village.|
 R Darnassus|QID|730|M|55.88,89.55|Z|Teldrassil|
 A Trouble in Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of the Moon except don't go inside. Take the right path around the building and you'll run into a dwarf.|
 A Lessons Anew|QID|6121|C|Druid|M|35,8|Z|Darnassus|N|From Mathrengyl Bearwalker on the second floor. Teleport to Moonglade after accepting.|
-T Lessons Anew|QID|6121|C|Druid|M|56.2, 30.5|Z|Moonglade|N|To Dendrite Starblaze.|
-A The Principal Source|QID|6122|C|Druid|N|From Dendrite Starblaze.|
+T Lessons Anew|QID|6121|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze.|
+A The Principal Source|QID|6122|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6121|
 F Rut'theran Village|ACTIVE|6122|M|44.15,45.22|Z|Moonglade|N|Fly back using Silva, the Darnassus Flight Master.|
 F Auberdine|ACTIVE|730|M|58.40,94.01|Z|Teldrassil|N|Go back through the portal to Vesprystus and fly back to Auberdine.|
 T Trouble in Darkshore?|QID|730|M|37.5,41.9|N|To Archaeologist Hollee.|
@@ -97,7 +97,7 @@ C The Cliffspring River|QID|4762|M|51,25|U|12350|N|Use your Empty Sampling Tube.
 T The Tower of Althalaxx|QID|965|M|54.9, 24.9|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|966|M|54.9, 24.9|N|From Balthule Shadowstrike.|PRE|965|
 A Beached Sea Turtle|QID|4727|M|53.12,18.17|N|On the beach, no enemies around.|
-C The Principal Source|QID|6122|C|Druid|M|54.9, 33.3|U|15844|N|Left of the waterfall, take the path to the top.|
+C The Principal Source|QID|6122|C|Druid|M|54.9, 33.3|U|15844|N|Left of the waterfall, take the path to the top.|NC|
 C How Big a Threat?|QID|985|M|39,53|N|Bit of a run back down south but you can also get other quests done on the way|
 A Beached Sea Turtle|QID|4722|M|37.15,62.19|N|On Beach with level 13 Murlocks around.|
 C Cleansing of the Infected|QID|2138|US|N|Finish killing the Rabid Thistle Bears that spawn around the area.
@@ -115,21 +115,21 @@ T How Big a Threat?|QID|985|M|39.37,43.48|N|To Terenthis.|
 A A Lost Master|QID|986|M|39.37,43.48|N|From Terenthis.|
 T Easy Strider Living|QID|2178|M|37.67,40.70|N|To Alanndarian Nightsong.|
 T The Cliffspring River|QID|4762|M|37.4, 40.2|N|To Thundris Windweaver|
-T The Principal Source|QID|6122|C|Druid|M|37.7, 40.7|
+T The Principal Source|QID|6122|C|Druid|M|37.67,40.70|N|To Alanndarian Nightsong.|
 A The Blackwood Corrupted|QID|4763|M|37.4,40.2|N|From Thundris Windweaver|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|U|12346|L|12347|M|37.76,44.02|N|Clean the bowl in the moonwell.|
-A Gathering the Cure|QID|6123|C|Druid|
+A Gathering the Cure|QID|6123|C|Druid|M|37.67,40.70|N|From Alanndarian Nightsong.|PRE|6122|
 
 N Visit Darnassus|QID|1002|N|Take this ooportunity to go visit your trainers, the bank, AH, etc.|
 
 C Gathering the Cure|QID|6123|C|Druid|M|43,45;46,45;45,50|CS|QO|1;2|N|Found in the moonkin caves. Earthroot requires Herbalism or buy from AH or vendors.|NC|
 T Buzzbox 323|QID|1002|M|51.28,24.58|N|Long run back up north to Buzzbox 323.|
 A Buzzbox 525|QID|1003|M|51.28,24.58|N|From Buzzbox 323.|PRE|1002|
-C Tharnariun's Hope|QID|2139|M|51.6, 37.6|N|Pull one of the Thistle Cubs and they will all run at you, burn one of the cubs down quickly and run away. Rinse and repeat until all 4 cubs are dead. Pull the Den Mother and kill her.|
+C Tharnariun's Hope|QID|2139|M|52.37,35.88;52.71,36.65;51.6, 37.6|CS|N|Pull one of the Thistle Cubs and they will all run at you, burn one of the cubs down quickly and run away. Rinse and repeat until all 4 cubs are dead. Pull the Den Mother and kill her.|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12342|M|50.65,34.99|N|Interact with the Blackwood Grain Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12343|M|51.79,33.46|N|Interact with the Blackwood Nut Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12341|M|52.88,33.39|N|Interact with the Blackwood Fruit Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
-C The Blackwood Corrupted|QID|4763|M|52.5, 33.5|U|12347|N|Use your Filled Cleansing Bowel at the bonfire in the center of the furbolg camp, wait for a second then kill Xabraxxis and loot his bag he drops on the ground.|
+C The Blackwood Corrupted|QID|4763|M|52.5, 33.5|U|12347|N|Use your Filled Cleansing Bowel at the bonfire in the center of the furbolg camp, wait for a second then kill Xabraxxis and loot his bag he drops on the ground.\nBe aware that if you die after using the bowl, you have to abandon the quest and start again from Auberdine.|
 C Cave Mushrooms|QID|947|M|55,35|N|Collect the needed mushrooms that spawn on the ground.|NC|
 C The Tower of Althalaxx|QID|966|M|55.41,26.86|N|Do not enter the tower. Kill fanatics around the outside.|
 T The Tower of Althalaxx|QID|966|M|54.9,24.9|N|To Balthule Shadowstrike.|
@@ -140,14 +140,14 @@ A Onu|QID|948|M|37.3, 43.7|N|From Barithras Moonshade.|
 T Tharnariun's Hope|QID|2139|M|38.84,43.42|N|To Tharnariun Treetender.|
 A The Absent Minded Prospector|QID|729|M|37.5,41.9|N|From Archaeologist Hollee.|
 T The Blackwood Corrupted|QID|4763|M|37.40,40.13|N|To Thundris Windweaver|
-T Gathering the Cure|QID|6123|C|Druid|
-A Curing the Sick|QID|6124|C|Druid|M|37.7, 40.7|
-C Curing the Sick|QID|6124|C|Druid|N|They are all over the place. When done teleport to Moonglade.|
-T Curing the Sick|QID|6124|C|Druid|M|56.2, 30.5|Z|Moonglade|
-A Power over Poison|QID|6125|C|Druid|
-F Rut'theran Village|QID|6125|C|Druid|M|48,68|
-R Darnassus.|QID|6125|C|Druid|
-T Power over Poison|QID|6125|C|Druid|M|35.2, 8.1|
+T Gathering the Cure|QID|6123|C|Druid|M|37.67,40.70|N|To Alanndarian Nightsong.|
+A Curing the Sick|QID|6124|C|Druid|M|37.67,40.70|N|From Alanndarian Nightsong.|PRE|6123|
+C Curing the Sick|QID|6124|C|Druid|N|They are all over the place. When done, teleport to Moonglade.|U|15826|T|Sickly Deer|NC|
+T Curing the Sick|QID|6124|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze in Moonglade.|
+A Power over Poison|QID|6125|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6124|
+F Rut'theran Village|QID|6125|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
+R Darnassus|QID|6125|C|Druid|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.|
+T Power over Poison|QID|6125|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
 A A Lesson to Learn|QID|27|C|Druid|N|As you can buy travel forms from your trainer, this guide will not cover the rest of the steps. Use Lightheaded, wowhead, wow-pro.com or other online source on how to complete if you want the XP and reputation from these quests.|
 N Druids...|QID|967|C|Druid|N|Return to Auberdine when done with traning and travel form quests if you did those.|
 A Fruit of the Sea|QID|1138|M|36.1,44.9|N|From Gubber Blump.|
@@ -213,7 +213,7 @@ C Mathystra Relics|QID|951|M|59.55,15.66|S|N|Look for relics on the groung while
 C Gyromast's Retrieval|QID|2098|QO|1|M|58.45,13.34|N|Head east of Gelkak Gyromast and slay Giant Foreststrider until you get Top of Gelkak's Key.|
 T Gyromast's Retrieval|QID|2098|M|56.7, 13.5|N|To Gelkak Gyromast.|
 A Gyromast's Revenge|QID|2078|M|56.7, 13.5|N|From Gelkak Gyromast.|
-C Gyromast's Revenge|QID|2078|M|55.8,18.2|N|Robot will attack you as you are about to fiish quest. Be ready. He is a level 20 elite. You will probably need a group.|
+C Gyromast's Revenge|QID|2078|M|55.8,18.2|N|Robot will attack you as you are about to finish quest. Be ready. He is a level 20 elite. You will probably need a group.|
 T Gyromast's Revenge|QID|2078|M|56.7, 13.5|N|To Gelkak Gyromast.|
 N Trash the key|QID|951|N|Destroy Gyromast's Key, it is useless and wastes precious bag space. Skip this step when done.|PRE|2078|
 C Mathystra Relics|QID|951|M|59.55,15.66|US|N|Kill Naga's and look for relics on the groung until complete.|
@@ -244,5 +244,6 @@ T The Powers Below|QID|968|M|50.82,5.66|Z|Ironforge|N|To Gerrig Bonegrip.|
 A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|N|Another quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
 R Deeprun Tram|QID|244|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|QID|244|N|Take the tram ride and then run into Stormwind.|
+f Stormwind City|QID|244|M|66.28,62.12|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|R|-Human|
 ]]
 end)

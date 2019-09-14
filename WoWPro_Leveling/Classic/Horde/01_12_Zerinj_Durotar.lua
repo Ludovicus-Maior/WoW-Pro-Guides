@@ -97,7 +97,7 @@ T In Favor of Spirituality|QID|5649|C|Priest|M|42.37,68.81|N|From Ken'jai.|
 r Sell Junk|AVAILABLE|2161|M|42.59,67.34|N|Right-click this step off once you are finished.|
 
 A A Peon's Burden|QID|2161|M|52.06,68.30|N|From Ukor.|
-A Thwarting Kolkar Aggression|QID|786|M|54.24,73.32|N|From Lar Prowltusk.|
+A Thwarting Kolkar Aggression|QID|786|M|54.24,73.27;54.44,74.36;54.53,75.20;54.07,76.53|CN|N|From Lar Prowltusk, who wanders.|
 T Report to Sen'jin Village|QID|805|M|55.95,74.72|N|To Master Gadrin.|
 A Minshina's Skull|QID|808|M|55.95,74.72|N|From Master Gadrin.|
 A Zalazane|QID|826|M|55.95,74.72|N|From Master Gadrin.|
@@ -152,7 +152,7 @@ R Thwarting Kolkar Aggression|QID|786|M|50.84,79.13|N|Run south to the Kolkar Cr
 C Thwarting Kolkar Aggression|QID|786|QO|1|M|49.82,81.29|NC|N|Burn the Valley of Trials Attack Plans. They are inside the big tent.|
 C Thwarting Kolkar Aggression|QID|786|QO|3|M|46.23,78.95|NC|N|Burn the Orgrimmar Attack Plans.|
 C Thwarting Kolkar Aggression|QID|786|QO|2|M|47.66,77.34|NC|N|Burn the Sen'jin Village Attack Plans.|
-T Thwarting Kolkar Aggression|QID|786|M|54.24,75.80|N|To Lar Prowltusk.|
+T Thwarting Kolkar Aggression|QID|786|M|54.24,73.27;54.44,74.36;54.53,75.20;54.07,76.53|CN|N|To Lar Prowltusk, who wanders.|
 T A Solvent Spirit|QID|818|M|55.95,74.40|N|To Master Vornal.|
 C Break a Few Eggs|QID|815|S|N|Loot Raptor Nests on the way.|
 C Practical Prey|QID|817|S|N|Kill Durotar Tigers on the way.|
@@ -164,6 +164,8 @@ C Break a Few Eggs|QID|815|US|N|Loot the remaining Raptor Nests.|
 T Minshina's Skull|QID|808|M|55.95,74.72|N|To Master Gadrin.|
 T Zalazane|QID|826|M|55.95,74.72|N|To Master Gadrin.|
 T Practical Prey|QID|817|M|55.95,73.93|N|To Vel'rin Fang.|
+A The Hunter's Path|QID|6069|M|56.13,74.24|C|Hunter|R|Orc,Troll|N|From Kali Remik|LVL|10|
+
 H Razor Hill|QID|815|
 T Break a Few Eggs|QID|815|M|51.11,42.45|N|To Cook Torka.|
 C Encroachment|QID|837|QO|3;4|M|44.50,40.70|N|Go west of Razor Hill and kill Razormane Dustunner and Battleguards.|
@@ -171,10 +173,11 @@ A Lost But Not Forgotten|QID|816|M|43.11,30.24|N|From Misha Tor'kren inside the 
 A Winds in the Desert|QID|834|M|46.37,22.94|N|From Rezlak.|
 C Winds in the Desert|QID|834|M|49.40,22.00|NC|N|Go east to the entrance of the Razorwind Canyon. Loot the Sacks of Supplies on the ground.|
 T Winds in the Desert|QID|834|M|46.33,22.94|N|To Rezlak.|
-A Securing The Lines|QID|835|PRE|834|M|46.37,22.94|N|From Rezlak.|
-L Level 10|QID|837|LVL|10;-625|N|If you are not yet level 10 grind a bit on harpies. The quest Encroachment is worth 625 XP, so you need 5875 XP in Level 9.|
+A Securing the Lines|QID|835|PRE|834|M|46.37,22.94|N|From Rezlak.|
+L Level 10|QID|837|LVL|9;-625|N|If you are not yet level 10 grind a bit on harpies. The quest Encroachment is worth 625 XP, so you need 5875 XP in Level 9.|
 T Encroachment|QID|837|M|51.95,43.50|N|To Gar'Thok.|
 A Therzok|QID|1859|C|Rogue|R|Orc,Troll|M|51.98,43.69|N|From Kaplak.|
+T The Hunter's Path|QID|6069|C|Hunter|R|Orc,Troll|M|51.85,43.49|N|To Thotar.|
 A Taming the Beast|QID|6062|C|Hunter|R|Orc,Troll|M|51.85,43.49|N|From Thotar.|
 A Gan'rul's Summons|QID|1506|C|Warlock|R|Orc,Troll|M|54.37,41.29|N|From Ophek.|
 A Veteran Uzzek|QID|1505|C|Warrior|R|Orc,Troll|M|54.19,42.47|N|From Tarshaw Jaggedscar.|
@@ -201,7 +204,7 @@ N Fishing|ACTIVE|5726|M|69.8,29.6|Z|Orgrimmar|P|Fishing;356;0;1;75|N|Lumak, Fish
 N Leatherworking|ACTIVE|5726|M|62.8,44.2|Z|Orgrimmar|P|Leatherworking;165;0;1;75|N|Karolek, Expert Leatherworker and trainer, Orgrimmar.|
 N Skinning|ACTIVE|5726|M|63.2,45.2|Z|Orgrimmar|P|Skinning;393;0;1;75|N|Thuwd, Skinning Trainer, Orgrimmar.|
 N Tailoring|ACTIVE|5726|M|63.0,49.6|Z|Orgrimmar|P|Tailoring;197;0;1;75|N|Snang, Journeyman Tailor and trainer, Orgrimmar.|
-A Speak with Un'thuwa|QID|1883|C|Mage|R|Orc,Troll|N|You should get this quest from your trainer. If the Razor Hill trainer does not give it, speak to the Orgrimmar mage trainer.|
+A Speak with Un'thuwa|QID|1883|C|Mage|R|Orc,Troll|LEAD|1884|M|39.15,86.27|N|From Uthel'nay, Valley of the Spirits.|
 T Training the Beast|QID|6081|C|Hunter|R|Orc,Troll|M|66.06,18.52|Z|Orgrimmar|N|To Ormak Grimshot.|
 T Therzok|QID|1859|C|Rogue|M|42.74,53.55|Z|Orgrimmar|N|To Therzok.|
 A The Shattered Hand|QID|1963|PRE|1859|C|Rogue|R|Orc,Troll|M|42.73,53.44|Z|Orgrimmar|N|From Therzok.|
@@ -211,7 +214,7 @@ A Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|Orgrimmar|N|From Khorg
 R Leave Orgrimmar|QID|812|M|52.55,85.45|Z|Orgrimmar|CC|
 C Finding the Antidote|QID|813|L|4886 4|M|41.49,19.39|Z|Durotar|N|Now go back to Rhinag and kill Venomtail Scorpids for their Venomtail Scorpid Sacs.|
 R Enter Orgrimmar|QID|812|M|45.52,12.07|CC|N|Run to Orgrimmar.|
-T Finding the Antidote|QID|813|M|43.20,50.50|Z|Orgrimmar|N|Go back to Khorgan and turn in the quest for the Venomtail Antidote. This quest is repeatable.|
+T Finding the Antidote|QID|813|M|47.24,53.58|Z|Orgrimmar|N|Go back to Khorgan and turn in the quest for the Venomtail Antidote. This quest is repeatable.|
 R Leave Orgrimmar|QID|812|M|52.55,85.45|Z|Orgrimmar|CC|
 T Need for a Cure|QID|812|M|41.54,18.60|N|To Rhinag.|
 C Lost But Not Forgotten|QID|816|M|37.22,20.26|N|Go to the Southfury River and kill Dreadmaw Crocolisks until you get Kron's Amulet.|
@@ -244,10 +247,10 @@ C Ju-Ju Heaps|QID|1884|C|Mage|R|Orc,Troll|M|67.40,82.60|N|The heaps are among th
 T Ju-Ju Heaps|QID|1884|C|Mage|R|Orc,Troll|M|56.30,75.10|
 R Drygulch Ravine|QID|835|M|53.90,27.77|CC|N|Go to the Drygulch Ravine. Dropping down from the ridge is easier. You have to go slightly northeast of Razor hill.|
 C Securing the Lines|QID|835|N|Kill Dustwind Savages and Storm Witches.|
-T Securing The Lines|QID|835|M|46.37,22.94|N|To Rezlak.|
+T Securing the Lines|QID|835|M|46.37,22.94|N|To Rezlak.|
 T Margoz|QID|828|M|56.41,20.03|N|To Margoz.|
 A Skull Rock|QID|827|PRE|828|M|56.41,20.03|N|From Margoz.|
-R Skull Rock|QID|827|M|55.00,9.74|CC|N|Run north to the cave entrance of Skull Rock.|
+R Skull Rock|QID|827|M|55.00,9.74|CC|N|Run north to the cave entrance of Skull Rock.\nThe quests in here are hard to solo. Group up or be prepared to die.|
 C Call of Fire|QID|1525|C|Shaman|R|Orc,Troll|QO|2|S|N|Kill Burning Blade Cultists for the Reagent Pouch.|
 C Skull Rock|QID|827|S|N|Kill Burning Blade for the Searing Collars.|
 C Hidden Enemies|QID|5730|S|N|Kill Burning Blade Apprentices and Fanatics for the Lieutenants Insignia.|
@@ -258,7 +261,7 @@ C Hidden Enemies|QID|5730|US|N|Kill Burning Blade Apprentices and Fanatics until
 C Skull Rock|QID|827|US|N|Kill Burning Blade until you have 6 Searing Collars and a Lieutenant's Insignia.|
 C Call of Fire|QID|1525|C|Shaman|QO|2|US|N|Kill Burning Blade Cultists for the Reagent Pouch.|
 T Skull Rock|QID|827|M|56.40,20.10|N|To Margoz.|
-A Neeru Fireblade|QID|829|PRE|872|M|56.40,20.10|N|From Margoz.|
+A Neeru Fireblade|QID|829|PRE|827|M|56.40,20.10|N|From Margoz.|
 R Enter Orgrimmar|QID|5726|M|45.52,12.07|CC|N|Run to Orgrimmar.|
 T Hidden Enemies|QID|5726|M|31.75,37.82|Z|Orgrimmar|N|To Thrall.|
 A Hidden Enemies|QID|5727|PRE|5726|M|31.75,37.82|Z|Orgrimmar|N|From Thrall.|
@@ -293,7 +296,7 @@ T Ride to Orgrimmar|QID|6384|R|Orc,Troll|M|54.10,68.41|Z|Orgrimmar|N|To Innkeepe
 A Doras the Wind Rider Master|QID|6385|PRE|6384|R|Orc,Troll|M|54.10,68.41|Z|Orgrimmar|N|From Innkeeper Gryshka.|
 T Doras the Wind Rider Master|QID|6385|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|To Doras.|
 A Return to the Crossroads.|QID|6386|PRE|6385|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|From Doras.|;yes, the .in quest name does belong. odd, I know.
-F The Crossroads|QID|6386|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|Fly back to Crossroads.|
+F Crossroads|QID|6386|R|Orc,Troll|M|45.12,63.89|Z|Orgrimmar|N|Fly back to Crossroads.|
 T Return to the Crossroads.|QID|6386|R|Orc,Troll|M|52.62,29.84|Z|The Barrens|N|To Zargh.|;yes, the . in quest name does belong. odd, I know.
 h The Crossroads|QID|844|M|51.98,29.90|Z|The Barrens|N|Set your Hearthstone at Innkeeper Boorand Plainswind.|
 

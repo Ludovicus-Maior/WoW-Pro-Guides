@@ -1519,10 +1519,42 @@ function WoWPro.NextStep(k,i)
             local level, offset = string.split(";",WoWPro.level[k])
             level = tonumber(level)
             offset = tonumber(offset)
-            if WoWPro.action[k] == "L" and (level - WoWProDB.profile.Selector.QuestHard) <= UnitLevel("player") then
-                skip = true
-                WoWPro.CompleteStep(k, "NextStep(): Completed L step because player level is high enough.")
-                break
+            if WoWPro.action[k] == "L" then
+                -- The simple case
+                if (level < UnitLevel("player")) and not offset then
+                    skip = true
+                    WoWPro:dbp("Skip %s [%s] because its level %d is too low.",WoWPro.action[k],WoWPro.step[k],level)
+                    WoWPro.why[k] = "NextStep(): Skipping step because player level not high enough."
+                    break
+                end
+                -- If level == UnitLevel(), then see if there is an offset to look at
+                if offset then
+                    if level == UnitLevel("player") then
+                        if offset < 0 then
+                            local togo = UnitXPMax("player") - UnitXP("player")
+                            if togo <= -offset then
+                                skip = true
+                                WoWPro:dbp("Skip %s [%s] because %d <= %d XP (%s)).",WoWPro.action[k],WoWPro.step[k], togo, offset, WoWPro.level[k])
+                                WoWPro.CompleteStep(k, "NextStep():  Completed LVL step because " .. WoWPro.level[k] .. " was met.")
+                                break
+                            end
+                        end
+                        if offset > 0 then
+                            local done = UnitXP("player")
+                            if done >= offset then
+                                skip = true
+                                WoWPro:dbp("Skip %s [%s] because %d >= %d XP (%s)).",WoWPro.action[k],WoWPro.step[k], done, offset, WoWPro.level[k])
+                                WoWPro.CompleteStep(k, "NextStep():  Completed LVL step because " .. WoWPro.level[k] .. " was met.")
+                                break
+                            end
+                        end
+                    elseif level < UnitLevel("player") then
+                        skip = true
+                        WoWPro:dbp("Skip %s [%s] because %d < %d Level (%s)).",WoWPro.action[k],WoWPro.step[k], level, UnitLevel("player"), WoWPro.level[k])
+                        WoWPro.CompleteStep(k, "NextStep():  Completed LVL step because " .. WoWPro.level[k] .. " was met.")
+                        break
+                    end
+                end
             end
             if WoWPro.action[k] ~= "L" then
                 if level > 0 then
