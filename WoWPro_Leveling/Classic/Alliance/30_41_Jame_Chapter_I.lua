@@ -8,11 +8,11 @@ return [[
 ;transposed from http://www.wow-pro.com/leveling_guides/jame039s_alliance_leveling_guide_chapter_i_3041_old_version and the 2.3 Tourguide version of the guide as a basis by Emmaleah 8/17/19
 ;proofread and improved by Katrex 8/21/19 -- he says not quite done tho
 
-;N Things to Buy|N|There are some items that you need to buy off of the Auction House or otherwise acquire.  The guide will remind you each time you are in town until you aquire them, check off manually if you aren't going to at that time and it will pop up again, next time you're in town. first one for a quest in stranglethorn and the other three are needed for Badlands quest - approx level 38-40. These quests are not essential for dungeons, just a fair chunk of XP, so if you can't find the items at a reasonable price, you can skip the quests and grind to make it up.|
-;B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn.|ITEM|4278|
-;B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
-;B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
-;B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
+N Things to Buy|N|There are some items that you need to buy off of the Auction House or otherwise acquire.  The guide will remind you each time you are in town until you aquire them, check off manually if you aren't going to at that time and it will pop up again, next time you're in town. first one for a quest in stranglethorn and the other three are needed for Badlands quest - approx level 38-40. These quests are not essential for dungeons, just a fair chunk of XP, so if you can't find the items at a reasonable price, you can skip the quests and grind to make it up.|
+B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn.|ITEM|4278|
+B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
+B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
+B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 
 R Theramore Isle|QID|1282|M|58.40,94.00|Z|Dustwallow Marsh|N|Fly/Boat/Run or otherwise make your way to Theramore.|
 f Theramore Flightpoint|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Get the Flightpoint from Baldruc.|
