@@ -141,12 +141,12 @@ T Tharnariun's Hope|QID|2139|M|38.84,43.42|N|To Tharnariun Treetender.|
 A The Absent Minded Prospector|QID|729|M|37.5,41.9|N|From Archaeologist Hollee.|
 T The Blackwood Corrupted|QID|4763|M|37.40,40.13|N|To Thundris Windweaver|
 T Gathering the Cure|QID|6123|C|Druid|M|37.67,40.70|N|To Alanndarian Nightsong.|
-A Curing the Sick|QID|6124|C|Druid|M|M|37.67,40.70|N|From Alanndarian Nightsong.|PRE|6123|
-C Curing the Sick|QID|6124|C|Druid|N|They are all over the place. When done teleport to Moonglade.|NC|
-T Curing the Sick|QID|6124|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
+A Curing the Sick|QID|6124|C|Druid|M|37.67,40.70|N|From Alanndarian Nightsong.|PRE|6123|
+C Curing the Sick|QID|6124|C|Druid|N|They are all over the place. When done, teleport to Moonglade.|U|15826|T|Sickly Deer|NC|
+T Curing the Sick|QID|6124|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze in Moonglade.|
 A Power over Poison|QID|6125|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6124|
 F Rut'theran Village|QID|6125|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
-R Darnassus|QID|6125|C|Druid|M|55.86,89.45|N|Walk into the portal back to Darnassus.|
+R Darnassus|QID|6125|C|Druid|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.|
 T Power over Poison|QID|6125|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
 A A Lesson to Learn|QID|27|C|Druid|N|As you can buy travel forms from your trainer, this guide will not cover the rest of the steps. Use Lightheaded, wowhead, wow-pro.com or other online source on how to complete if you want the XP and reputation from these quests.|
 N Druids...|QID|967|C|Druid|N|Return to Auberdine when done with traning and travel form quests if you did those.|

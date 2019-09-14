@@ -15,7 +15,6 @@ A Raptor Thieves|QID|869|M|51.93,30.32|N|From Gazrog.|
 A Disrupt the Attacks|QID|871|M|51.50,30.87|N|From Thork.|
 A Supplies for the Crossroads|QID|5041|M|51.50,30.87|N|From Thork.|
 ; A Harpy Raiders|QID|867|M|51.62,30.90|N|From Darsok Swiftdagger at the top of the tower.| TODO: C&T steps!
-A The Forgotten Pools|QID|870|M|52.26,31.93|N|From Tonga Runetotem.|
 
 C Raptor Thieves|QID|869|S|N|Kill Raptors you encounter for their heads.\nThese are all around this area.|
 
@@ -58,9 +57,10 @@ A Call of Fire|QID|1527|PRE|1526|C|Shaman|M|38.96,58.22|Z|Durotar|N|From the Bra
 T Call of Fire|QID|1527|C|Shaman|M|55.86,19.94|Z|The Barrens|N|To Kranal Fiss.|
 ; --- End of Shaman class quest -----------------------------------------------
 
-C Plainstrider Menace|QID|844|M|52.2,31.0|N|Get back into town, kill Plainstriders along the way to the Crossroads for their beaks.|
-T Plainstrider Menace|QID|844|N|Get back into town, talk to Sergena Darkthorn.|M|52.2,31.0|
-A The Zhevra|QID|845|M|52.2,31.0|N|From Sergena Darkthorn.|
+C Plainstrider Menace|QID|844|M|52.23,31.01|N|Get back into town, kill Plainstriders along the way to the Crossroads for their beaks.|
+T Plainstrider Menace|QID|844|N|Get back into town, talk to Sergra Darkthorn.|M|52.23,31.01|
+A The Forgotten Pools|QID|870|M|52.26,31.93|N|From Tonga Runetotem.|
+A The Zhevra|QID|845|M|52.23,31.01|N|From Sergra Darkthorn.|
 A Fungal Spores|QID|848|M|51.45,30.15|N|From Apothecary Helbrim.|
 
 C The Zhevra|QID|845|N|Kill Zhevra and loot their hooves|S!US|
@@ -75,12 +75,12 @@ C Kolkar Leaders|QID|850|N|Head west towards a small gazeebo-like building up on
 T Kolkar Leaders|QID|850|N|Head south to the bunker.|M|45.3,28.4|
 A Verog the Dervish|QID|851|M|45.3,28.4|
 
-C The Zhevra|QID|845|N|Kill off any more Zhevra you need on your way back to the Crossroads.|M|52.2,31.0|
-T The Zhevra|QID|845|N|Head back to The Crossroads.|M|52.2,31.0|
-A Prowlers of the Barrens|QID|903|M|52.2,31.0|N|From Sergena Darkthorn.|
-T The Forgotten Pools|QID|870|M|52.2,31.9|N|To Tonga Runetotem.|
-A The Stagnant Oasis|QID|877|M|52.2,31.9|N|From Tonga Runetotem.|
-T Fungal Spores|QID|848||M|51.5,30.2|N|To Apothecary Helbrim.\mDon't take the follow up, its a timed quest, we'll get to it later.|
+C The Zhevra|QID|845|N|Kill off any more Zhevra you need on your way back to the Crossroads.|M|52.23,31.01|
+T The Zhevra|QID|845|N|Head back to The Crossroads.|M|52.23,31.01|
+A Prowlers of the Barrens|QID|903|M|52.23,31.01|N|From Sergra Darkthorn.|
+T The Forgotten Pools|QID|870|M|52.26,31.93|N|To Tonga Runetotem.|
+A The Stagnant Oasis|QID|877|M|52.26,31.93|N|From Tonga Runetotem.|
+T Fungal Spores|QID|848||M|51.44,30.15|N|To Apothecary Helbrim.\nDon't take the follow up, its a timed quest, we'll get to it later.|
 A Wharfmaster Dizzywig|QID|1492|M|51.45,30.15|N|From Apothecary Helbrim.|
 
 C Call of Fire|QID|1525|C|Shaman|N|Kill Razormane spellcasters of any type until one drops Fire Tar.|
@@ -97,36 +97,34 @@ C Forged Steel|QID|1503|C|Warrior|N|The chest is down among the quilboar|M|55.0,
 
 C Disrupt The Attack|QID|871|N|Head north out of The Crossroads. On your right, you should find a small camp of Razormane Quillboars.|M|54,25|
 
-T Forged Steel|QID|1503|C|Warrior|M|57.22,30.35|
+T Forged Steel|QID|1503|C|Warrior|M|57.22,30.35|N|To Thun'grim Firegaze|
 
-A Southsea Freebooters|QID|887|N|Head east, then south, killing raptors as you go.|M|62.7,36.3|
-f Ratchet|QID|1492|M|63.1,37.2|
-A Samophlange|QID|894|M|63.0,37.2|
-A WANTED: Baron Longshore|QID|895|M|62.6,37.5|
-T Wharfmaster Dizzywig|QID|1492|M|63.3,38.4|
-A Miner's Fortune|QID|896|M|63.35,38.42|
-A The Guns of Northwatch|QID|891|M|62.3,39.0|N|From Captain Thalo'thas Brightsun.|
+A Southsea Freebooters|QID|887|N|To Gazlowe, in Rachet. Head east, then south, killing raptors as you go.|M|62.68,36.23|
+f Ratchet|QID|1492|M|63.09,37.17|N|From Bragok.|
+A Samophlange|QID|894|M|62.98,37.22|N|From Sputtervalve|
+A WANTED: Baron Longshore|QID|895|M|62.59,37.47|N|From WANTED poster.|
+T Wharfmaster Dizzywig|QID|1492|M|63.35,38.45|N|To Wharfmaster Dizzywig.|
 
 C The Shattered Hand|QID|1963|C|Rogue|N|Tazan patrols to the south. Kill him and loot his satchel.|M|63.8,44.5|
 
-C Southsea Freebooters|QID|887|N|Head south along the coast and kill pirates. Avoid Baron Longshore if you see him.|
-T Southsea Freebooters|QID|887|N|Head back to Gazlowe.|M|62.7,36.3|
-A The Missing Shipment|QID|890|M|62.7,36.3|
-T The Missing Shipment|QID|890|M|63.3,38.4|
-A The Missing Shipment|QID|892|M|63.3,38.4|
-T The Missing Shipment|QID|892|M|62.7,36.3|
-A Stolen Booty|QID|888|M|62.7,36.3|
+C Southsea Freebooters|QID|887|N|Head south along the coast and kill pirates. Avoid Baron Longshore if you see him.|M|63.4,49.2|
+T Southsea Freebooters|QID|887|N|Head back to Gazlowe.|M|62.68,36.23|
+A The Missing Shipment|QID|890|M|62.68,36.23|N|From Gazlowe.|
+T The Missing Shipment|QID|890|M|63.35,38.45|N|To Wharfmaster Dizzywig.|
+A The Missing Shipment|QID|892|M|63.35,38.45|N|From Wharfmaster Dizzywig.|
+T The Missing Shipment|QID|892|M|62.68,36.23|N|To Gazlowe.|
+A Stolen Booty|QID|888|M|62.68,36.23|N|From Gazlowe.|
 
 C Prowlers of the Barrens|QID|903|N|Head west, you will see a cliff to the north. Walk around that cliff. This place should be full of Savanah Prowlers. Search in the long grass.|M|60,35|
 
-C Raptor Thieves|QID|869|US|M|52.2,31.0|N|Get your last raptor heads on the way back to the Crossroads.|
+C Raptor Thieves|QID|869|US|M|52.23,31.01|N|Get your last raptor heads on the way back to the Crossroads.|
 
-T Prowlers of the Barrens|QID|903|N|Head back to The Crossroads.|M|52.2,31.0|
-A Echeyakee|QID|881|M|52.2,31.0|
-T Disrupt the Attacks|QID|871|M|51.5,30.9|
-A The Disruption Ends|QID|872|M|51.5,30.9|
-T Raptor Thieves|QID|869|M|51.9,30.3|
-A Stolen Silver|QID|3281|M|51.9,30.3|
+T Prowlers of the Barrens|QID|903|N|Head back to The Crossroads.|M|52.23,31.01|
+A Echeyakee|QID|881|M|52.22,31.02|N|From Sergra Darkthorn.|
+T Disrupt the Attacks|QID|871|M|51.50,30.87|N|To Thork.|
+A The Disruption Ends|QID|872|M|51.50,30.87|N|From Thork.|
+T Raptor Thieves|QID|869|M|51.93,30.32|N|To Gazrog|
+A Stolen Silver|QID|3281|M|51.93,30.32|N|From Gazrog|
 
 F Orgrimmar|QID|1963|C|Rogue|N|Take a quick trip to Orgrimmar to turn in your rogue quest.|
 T The Shattered Hand|QID|1963|C|Rogue|
@@ -135,26 +133,22 @@ C The Shattered Hand|QID|1858|C|Rogue|N|Go to the inn in Orgrimmar and pickpocke
 T The Shattered Hand|QID|1858|C|Rogue|
 F The Crossroads|QID|853|C|Rogue|
 
-A Apothecary Zamah|QID|853|M|51.5,30.2|
-A Consumed by Hatred|QID|899|N|Look for Mankrik in The Crossroads. He's near the gate to the South.|M|52.0,31.6|
-A Lost in Battle|QID|4921|M|52.0,31.6|
+A Consumed by Hatred|QID|899|N|Look for Mankrik in The Crossroads. He's near the gate to the South.|M|51.95,31.58|
+A Lost in Battle|QID|4921|M|51.95,31.58|N|From  Mankrik.|
+A Apothecary Zamah|QID|853|M|51.44,30.15|N|To Apothecary Helbrim. This is a timed quest (45 minutes).|
 
-F Thunder Bluff|QID|853|N|Remember the long run you had to do just to get to The Crossroads? Well, it's about to pay off! Fly straight to Thunder Bluff.|R|Tauren|
-T Apothecary Zamah|QID|853|R|Tauren|M|22.90,21.03|Z|Thunder Bluff|
-A Serpentbloom|QID|962|R|Tauren|
-F Camp Taurajo|QID|894|R|Tauren|M|46.1,49.5|Z|Thunder Bluff|
-
-C Lost in Battle|QID|4921|N|Mankrik's wife is the "Beaten Corpse" found near a few small tauren buildings.|M|49.3,50.4|
-
-f Camp Taurajo|QID|853|R|Troll,Orc,Undead,Blood Elf|M|44.4,59.2|
-R Mulgore|QID|853|R|Troll,Orc,Undead,Blood Elf|N|Follow the road West and into Mulgore.|M|41.0,59.4|
-R Thunder Bluff|QID|853|R|Troll,Orc,Undead,Blood Elf|N|Follow the road north. Eventually, it will lead you to Thunder Bluff|Z|Mulgore|M|36.9,31.4|
-T Apothecary Zamah|QID|853|R|Troll,Orc,Undead,Blood Elf|N|Head to the Pools of Vision, underneath Spirit Rise.|Z|Thunder Bluff|
-A Serpentbloom|QID|962|R|Troll,Orc,Undead,Blood Elf|Z|Thunder Bluff|
-f Thunder Bluff|QID|894|R|Troll,Orc,Undead,Blood Elf|Z|Thunder Bluff|M|46.1,49.5|
-
-F The Crossroads|QID|894|R|Troll,Orc,Undead,Blood Elf|M|46.1,49.5|
-H The Crossroads|QID|894|R|Tauren|
+F Camp Taurajo|QID|853|R|Tauren|N|Remember the long run you had to do just to get to The Crossroads? Well, it's about to pay off! Fly straight to Camp Taurajo.|
+F Camp Taurajo|QID|853|R|-Tauren|N|If you have the Flight Point, otherwise complete this step and RUN!|
+R Camp Taurajo|QID|853|M|52.06,32.10;51.07,49.00;49.33,50.34;47.31,57.64;46.29,58.00|CS|N|Run to Taurajo. Inspect the "Beaten Corpse" in the buildings.|
+f Camp Taurajo|QID|853|M|44.44,59.15|Z|The Barrens|N|Get the flight point at Omusa Thunderhorn.|
+C Lost in Battle|QID|4921|N|Mankrik's wife is the "Beaten Corpse" found near a few small tauren buildings.|M|49.33,50.34|
+F Camp Taurajo|QID|853|R|Tauren|N|Remember the long run you had to do just to get to The Crossroads? Well, it's about to pay off! Fly straight to Thunder Bluff.|
+F Camp Taurajo|QID|853|R|-Tauren|N|If you have the Flight Point, otherwise complete this step and RUN!|
+R Thunder Bluff|QID|853|M|68.35,60.68;51.25,58.96;46.76,51.95;37.16,31.89|CS|Z|Mulgore|N|Run to Thunder Bluff.|
+T Apothecary Zamah|QID|853|M|30.04,29.83;22.90,21.03|CS|Z|Thunder Bluff|N|To Apothecary Zamah.\nHead to the Pools of Vision, underneath Spirit Rise.|
+A Serpentbloom|QID|962|M|22.90,21.03|Z|Thunder Bluff|N|From Apothecary Zamah, Spirit Rise. (Dungeon Quest)|
+F The Crossroads|QID|894|M|46.1,49.5|Z|Thunder Bluff|N|Fly or hearth.|
+T Lost in Battle|QID|4921|M|51.96,31.57|N|To Mankrik.|
 
 T Samophlange|QID|894|M|52.4,11.7|N|You will find a small Goblin hut, and a big piece of machinery. Inside the machinery is a Control Console. You'll have to kill a few Venture Co. Peons to get at it.|
 A Samophlange|QID|900|M|52.4,11.7|N|You can destroy the Control Console Operating Manual you just got.|
@@ -166,18 +160,20 @@ T Samophlange|QID|901|N|At this point, you can throw away the Control Console Op
 A Samophlange|QID|902|M|52.4,11.7|
 
 C Echeyakee|QID|881|U|10327|N|Go to the kodo bones to the south. Clear the area and use the horn to summon Echeyakee|M|55.9,17.1|
-K Razormane|QID|872|N|Kill Razormane Geomancers and Razormane Defenders.|M|58,24|
+K Razormane|QID|872|QO|1,2|N|Kill Razormane Geomancers and Razormane Defenders.|M|58,24|
 C Supplies for the Crossroads|QID|5041|S|N|Check for the crates. If they aren't there, they are probably across the way near Kreenig Snarlsnout.|M|59.5,24;58.53,25.89|CN|
-K Kreenig Snarlsnout|ACTIVE|872|T|Kreenig Snarlsnout|N|Kreenig Snarlsnout patrolls around. Kill him and loot his tusk.|M|58.6,27|
+K Kreenig Snarlsnout|ACTIVE|872|QO|3|T|Kreenig Snarlsnout|N|Kreenig Snarlsnout patrolls around. Kill him and loot his tusk.|M|58.6,27|
 C Supplies for the Crossroads|QID|5041|US|N|Check for the crates. If they aren't there, they are probably across the way near Kreenig Snarlsnout.|M|59.5,24;58.53,25.89|CN|
 T Samophlange|QID|902|N|Head south again, towards Ratchet.|M|63.0,37.2|
 A Wenikee Boltbucket|QID|3921|M|63.0,37.2|
 
 C Stolen Booty|QID|888|N|You are looking for two boxes among the pirate camps. One is fairly close to the water. The other is in the west, fairly close to the mountains. Keep a look out for Baron Longshore and kill him if you see him.|M|63.6, 49.2|
 C WANTED: Baron Longshore|QID|895|N|If you haven't found Baron Longshore yet, keep checking the pirate camps until you find him and kill him.|
-T WANTED: Baron Longshore|QID|895|N|Return to Ratchet, to Gazlowe.|M|62.7,36.3|
-T Stolen Booty|QID|888|M|62.7,36.3|
+T WANTED: Baron Longshore|QID|895|N|Return to Ratchet, to Gazlowe.|M|62.68,36.23|
+T Stolen Booty|QID|888|M|62.68,36.23|N|To Gazlowe.|
 A Raptor Horns|QID|865|N|From Mebok Mizzyrix.|M|62.4,37.6|
+A Miner's Fortune|QID|896|M|63.35,38.42|N|From Wharfmaster Dizzywig.|
+A The Guns of Northwatch|QID|891|M|62.29,39.03|N|From Captain Thalo'thas Brightsun.|
 
 C The Stagnant Oasis|QID|877|M|55.5,42.4|N|Now head southwest towards the Stagnant Oasis, killing Kolkar as you go. When you get to the water, start looking for another Bubbling Fissure. Beware the turtles, they're aggressive.|U|5068|
 
@@ -190,7 +186,6 @@ A Hezrul Bloodmark|QID|852|M|45.4,28.4|N|From Regthar Deathgate.|
 
 T Supplies for the Crossroads|QID|5041|M|51.52,30.85|N|Head back to the Crossroads.|
 T The Disruption Ends|QID|872|M|51.4,30.8|N|To Thark.|
-T Lost in Battle|QID|4921|M|51.96,31.57|N|To Mankrik.|
 T The Stagnant Oasis|QID|877|M|52.24,31.92|N|To Tonga Runetotem.|
 A Altered Beings|QID|880|M|52.24,31.92|N|From Tonga Runetotem.|
 T Echeyakee|QID|881|M|52.22,31.02|N|To Sergra Darkthorn.|
@@ -321,8 +316,8 @@ K Captain Fairmount|QID|891|T|Captain Fairmount slain|QO|1|M|61.8,54.7|N|Head ba
 A Free From the Hold|QID|898|N|After Cptn Fairmount is dead, Head back down for the escort quest.|M|61.93,54.92|
 C Free From the Hold|QID|898|N|Escort Gilthares. Try to stay close to him. Don't let him tank things for too long if you can help it. He will walk to the main gates of Northwatch, then heading north through the pirate camps. Escort him all the way to Ratchet.|
 C Theramore Medals|QID|891|QO|4|US|N|Loot 10 Theramore Medals.|
-T The Guns of Northwatch|QID|891|M|62.2,39|N|To Captain Thalo'thas Brightsun.|
-T Free From the Hold|QID|898|M|62.2,39|N|To Captain Thalo'thas Brightsun.|
+T The Guns of Northwatch|QID|891|M|62.29,39.03|N|To Captain Thalo'thas Brightsun.|
+T Free From the Hold|QID|898|M|62.29,39.03|N|To Captain Thalo'thas Brightsun.|
 T Deepmoss Spider Eggs|QID|1069|M|62.4,37.6|N|To Mebox Mizzyrix.|
 T The Escape|QID|863|M|63,37.2|N|To Sputtervalve.|
 A Ziz Fizziks |QID|1483|M|63,37.2|N|From Sputtervalve.|
