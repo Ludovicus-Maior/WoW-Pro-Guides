@@ -15,6 +15,7 @@ B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 
 R Theramore Isle|QID|1282|M|58.40,94.00|Z|Dustwallow Marsh|N|Fly/Boat/Run or otherwise make your way to Theramore.|
+f Theramore Flightpoint|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Get the Flightpoint from Baldruc.|
 B Soothing Spices|QID|1218|M|66.44,51.46|Z|Dustwallow Marsh|N|Buy from Helenia Olden.|L|3713 3|
 h Theramore Isle|QID|1282|M|66.60,45.20|Z|Dustwallow Marsh|N|Make Theramore your home location.|
 r Sell junk, repair, restock.|QID|1282|N|Sell junk, repair, restock.|
@@ -40,93 +41,107 @@ T Lonebrow's Journal|QID|1100|M|89.64,46.57|Z|Feralas|N|To Falfindel Waywarder.|
 T Reclaiming the Charred Vale|QID|1059|M|89.64,46.57|Z|Feralas|N|To Falfindel Waywarder. Don't get follow-up.|
 R Highperch|ACTIVE|1135|M|14.76,32.51|CC|N|Go southeast to Thousand Needles. Beware of the named Earth Elemental Elite.|
 C Highperch Venom|QID|1135|M|11.00,34.49|N|Kill the Wyverns in the area and loot their Venom Sacs.|
+R Exit Highperch|QID|1105|M|14.76,32.51|CC|N|Run out of Highperch and Continue Southeast.|
+K Grind to 31|QID|1105|M|27,48|N|You should be level 31 before proceeding, you have a long run and lots of mobs between you, Harpys are plentiful and good exp at the Waypoint location.|LVL|-31|
 
-R Roguefeather Den|M|14.76,32.51;27,51|CC|N|Run out of Highperch and Continue Southeast to the short ramp up to Roguefeather Den.|
-K Harpies|M|14.0,31.0|L|5117 25|N|Kill Harpies until you hit level 31 and have collected 25 vibrant plumes. The plumes you can trade in at the darkmoon faire (check calendar for dates) for a 14 slot bag or other goodies.|
-K Harpies|N|Continue killing Harpies until you hit level 31 here or at back to High Perch if you liked that better.|LVL|31|M|27,51|
+R The Shimmering Flats|QID|1175|M|69.23,62.65|N|Run to the Mirage Raceway.|
+A Rocket Car Parts|QID|1110|M|77.79,77.28|N|From Kravel Koalbeard.|
+A Salt Flat Venom|QID|1104|M|78.07,77.13|N|From Fizzle Brassbolts.|
+A Hardened Shells|QID|1105|M|78.14,77.13|N|From Wizzle Brassbolts.|
+A Load Lightening|QID|1176|M|80.18,75.88|N|From Pozzik.|
+A A Bump in the Road|QID|1175|M|81.63,77.95|N|From Trackmaster Zherin.|
+C Rocket Car Parts|QID|1110|M|75.4,55.0|NC|S|N|Collect Rocket Car Parts which are scattered everywhere.|
+K Turtles|QID|555|M|82.70,54.70|S|N|Kill turtles for 10 meat. This is for a later quest so don't sell it. Can be purchased or sent from an alt as well.|L|3712 10|
+C Hardened Shells|QID|1105|M|83.2,55.4|S|N|Kill turtles for their Hardened Tortoise Shells.|
+C Salt Flat Venom|QID|1104|M|72.00,73.00|S|N|Kill Scorpids for their venom.|
+C Load Lightening|QID|1176|M|87.00,66.00|S|N|Kill vultures and collect their bones.|
+K Saltstone Basilisks|QID|1175|M|75.40,55.90|QO|1|N|Kill all the Saltstone Basilisks that spawn up north.|
+C A Bump in the Road|QID|1175|M|80.00,87.00|N|Kill the Gazers and Crystalhide that spawn down south.|
+C Load Lightening|QID|1176|M|87.00,66.00|US|N|Kill vultures and collect their bones.|
+C Salt Flat Venom|QID|1104|M|72.00,73.00|US|N|Kill Scorpids for their venom.|
+C Hardened Shells|QID|1105|M|83.2,55.4|US|N|Kill turtles for their Hardened Tortoise Shells.|
+K Turtles|QID|555|M|82.70,54.70|US|N|Kill turtles for 10 meat. This is for a later quest so don't sell it. Can be purchased or sent from an alt as well.|L|3712 10|
+C Rocket Car Parts|QID|1110|M|75.4,55.0|NC|US|N|Collect Rocket Car Parts which are scattered everywhere.|
+T A Bump in the Road|QID|1175|M|81.63,77.95|N|To Trackmaster Zherin.|
+T Load Lightening|QID|1176|M|80.18,75.88|N|To Pozzik.|
+A Goblin Sponsorship|QID|1178|M|80.18,75.88|N|From Pozzik.|PRE|1178|
+T Hardened Shells|QID|1105|M|78.14,77.13|N|To Wizzle Brassbolts.|
+T Salt Flat Venom|QID|1104|M|78.07,77.13|N|To Fizzle Brassbolts.|
+A Martek the Exiled|QID|1106|M|78.07,77.13|N|From Fizzle Brassbolts.|PRE|1104|
+T Rocket Car Parts|QID|1110|M|77.79,77.28|N|To Kravel Koalbeard.|
+A Wharfmaster Dizzywig|QID|1111|M|77.79,77.28|N|From Kravel Koalbeard.|
+A Hemet Nesingwary|QID|5762|M|77.79,77.28|N|From Kravel Koalbeard.|
+L Level 32|ACTIVE|1111|N|Grind if needed to reach level 32.|LVL|-32|
 
-R Mirage Raceway|QID|1175|N|Run to the Mirage Raceway.|M|80.00,77.00|
-A Hardened Shells|QID|1105|M|78.1,77.1|N|From Wizzle Brassbolts.|
-A Salt Flat Venom|QID|1104|M|78.1,77.1|N|From Fizzle Brassbolts.|
-A A Bump in the Road|QID|1175|M|81.6,77.9|N|From Trackmaster Zherin.|
-A Load Lightening|QID|1176|M|80.2,75.9|N|From Pozzik.|
-A Wharfmaster Dizzywig|QID|1111|M|77.8,77.3|N|From Kravel Koalbeard.|
-A Hemet Nesingwary|QID|5762|M|77.8,77.3|N|From Kravel Koalbeard.|
-A Rocket Car Parts|QID|1110|M|77.8,77.3|N|From Kravel Koalbeard.|
-N From now on...|QID|1110|N|From now on, do long circles all around it and kill everything on the way.  Keep any Turtle Meat that you find and pick up the rocket parts.|
-K Turtles|QID|555|N|Get 10 Turtle Meat.  You may also check the Auction House on another character and then mail yourself the meat, since the meat doesn't drop often.|L|3712 10|M|82.70,54.70|
-C Hardened Shells|N|If you haven't completed Hardened Shells, get 9 Hardened Tortoise Shells from any Tortoise in the area.|QID|1105|M|83.2,55.4|
-K Saltstone Basilisks|QID|1175|QO|1|N|Kill all the Saltstone Basilisks needed for the quest.  The Saltstone Basilisks can only be found in the northern side.  Kill other things and make progress on your other quests while doing this.|M|75.40,55.90|
-C Rocket Car Parts|NC|N|Get the rest of the Rocket Car Parts you need.  They are scattered everywhere.|QID|1110|M|75.4,55.0|
-C Salt Flat Venom|N|Get the rest of the venom you need for this quest.  They drop from Scorpids.|QID|1104|M|72.00,73.00|
-C Load Lightening|N|Get the rest of the Vulture Bones you need for this quest.|QID|1176|M|87.00,66.00|
-C A Bump in the Road|N|Kill the rest of the Basilisks needed for this quest.|QID|1175|M|80.00,87.00|
-T A Bump in the Road|QID|1175|M|81.6,77.9|N|To Trackmaster Zherin.|
-T Load Lightening|QID|1176|M|80.2,75.9|N|To Pozzik.|
-A Goblin Sponsorship|QID|1178|M|80.2,75.9|N|From Pozzik.|
-T Hardened Shells|QID|1105|M|78.1,77.1|N|To Wizzle Brassbolts.|
-T Salt Flat Venom|QID|1104|M|78.1,77.1|N|To Fizzle Brassbolts.|
-A Martek the Exiled|QID|1106|M|78.1,77.1|N|From Fizzle Brassbolts.|
-T Rocket Car Parts|QID|1110|M|77.8,77.3|N|To Kravel Koalbeard.|
-L Level 32|ACTIVE|1111|N|Grind if needed to reach level 32.|LVL|32|
-R Tanaris|ACTIVE|1111|M|75.00,95.70|N|Run south to Tanaris.|
-f Gadgetzan|ACTIVE|1111|Z|Tanaris|M|51.00,29.20|N|Get the flight path at Bera Stonehammer.|
-H Theramore Isle|ACTIVE|1111|N|Hearth (or fly) to Theramore. If you are a warlock, you can train skills here. (67.50, 51.30)|Z|Dustwallow Marsh|
+R Tanaris|ACTIVE|1111|M|75.5,97.75|N|Run south to Tanaris.|
+f Gadgetzan|ACTIVE|1111|M|51.01,29.34|Z|Tanaris|N|Get the flight path at Bera Stonehammer.|
+H Theramore Isle|ACTIVE|1111|M|51.01,29.34|Z|Tanaris|N|Hearth (or fly) to Theramore.|
 T Highperch Venom|QID|1135|M|66.46,45.15|Z|Dustwallow Marsh|N|To Fiora Longears.|
-r Sell junk, repair, restock.|ACTIVE|1111|N|Sell junk, repair, restock.|
 T The Orc Report|QID|1219|M|65.08,47.12|Z|Dustwallow Marsh|N|To Theramore Lieutenant.|
+A Captain Vimes|QID|1220|M|65.08,47.12|Z|Dustwallow Marsh|N|From Theramore Lieutenant.|PRE|1219|
+T Captain Vimes|QID|1220|M|68.21,48.62|Z|Dustwallow Marsh|N|To Captain Garran Vimes, 3rd floor of the Citidel.|
+T The Black Shield|QID|1253|M|68.21,48.62|Z|Dustwallow Marsh|N|To Captain Garran Vimes, 3rd floor of the Citidel.|
+A The Black Shield|QID|1319|M|68.21,48.62|Z|Dustwallow Marsh|N|From Captain Garran Vimes, 3rd floor of the Citidel.|PRE|1253|
 T Suspicious Hoofprints|QID|1284|M|68.21,48.62|Z|Dustwallow Marsh|N|To Captain Garran Vimes, 3rd floor of the Citidel.|
 T Lieutenant Paval Reethe|QID|1252|M|68.21,48.62|Z|Dustwallow Marsh|N|To Captain Garran Vimes, 3rd floor of the Citidel.|
-T The Black Shield|QID|1253|M|68.21,48.62|Z|Dustwallow Marsh|N|To Captain Garran Vimes, 3rd floor of the Citidel.|
+A Lieutenant Paval Reethe|QID|1259|M|68.21,48.62|Z|Dustwallow Marsh|N|From Captain Garran Vimes, 3rd floor of the Citidel.|PRE|1252|
+T Lieutenant Paval Reethe|QID|1259|M|68.05,48.11|Z|Dustwallow Marsh|N|To Adjutant Tesoran.|
+A Daelin's Men|QID|1285|M|68.05,48.11|Z|Dustwallow Marsh|N|From Adjutant Tesoran.|PRE|1259|
+T Daelin's Men|QID|1285|M|68.21,48.62|Z|Dustwallow Marsh|N|To Captain Garran Vimes, 3rd floor of the Citidel. Don't get follow-up.|
+r Sell junk, repair, restock.|ACTIVE|1319|M|67.39,47.86|Z|Dustwallow Marsh|N|Sell junk, repair, restock.|
+T The Black Shield|QID|1319|M|64.75,50.43|Z|Dustwallow Marsh|N|To Caz Twosprocket.|
+A The Black Shield|QID|1320|M|64.75,50.43|Z|Dustwallow Marsh|N|From Caz Twosprocket.|PRE|1319|
+T The Black Shield|QID|1320|M|68.21,48.62|Z|Dustwallow Marsh|N|To Captain Garran Vimes, 3rd floor of the Citidel.|
 
+F Ratchet|ACTIVE|1111|M|67.47,51.3|Z|Dustwallow Marsh|N|Fly to ratchet if you don't have ratchet skip this and follow the Run steps.|
+R Barrens|ACTIVE|1111|AVAILABLE|1039|M|27.8,46.6|Z|Dustwallow Marsh|N|Follow the road same as you did last time to the Barrens.|
+R Ratchet|ACTIVE|1111|AVAILABLE|1039|M|62.7,36.2|Z|The Barrens|N|Run northeast to Ratchet.|
+T Goblin Sponsorship|QID|1178|M|62.68,36.24|Z|The Barrens|N|To Gazlowe.|
+A Goblin Sponsorship|QID|1180|M|62.68,36.24|Z|The Barrens|N|From Gazlowe.|PRE|1178|
+f Ratchet|ACTIVE|1180|AVAILABLE|1039|M|63,37|Z|The Barrens|N|Grab the flightpoint from Bragok.|
+T Wharfmaster Dizzywig|QID|1111|M|63.35,38.46|Z|The Barrens|N|To Wharfmaster Dizzywig.|
 
-R Barrens|ACTIVE|1111|M|27.8,46.6|Z|Dustwallow Marsh|N|Follow the road same as you did last time to the Barrens.|
-R Ratchet|ACTIVE|1111|Z|The Barrens|M|62.7,36.2|N|Run northest to Ratchet.|
-T Goblin Sponsorship|N|Turn in your quest to Gazlowe.|QID|1178|Z|The Barrens|M|62.7,36.2|
-A Goblin Sponsorship|QID|1180|Z|The Barrens|M|62.7,36.2|N|From Gazlowe.|
-f Ratchet|ACTIVE|1180|M|63,37|Z|The Barrens|N|Grab the flightpoint from Bragok.|
-T Wharfmaster Dizzywig|QID|1111|Z|The Barrens|M|63.4,38.5|N|To Wharfmaster Dizzywig. (skip followup for now)|
-b Booty Bay|QID|1181|N|Take the boat to Booty Bay.|Z|The Barrens|M|63.60,38.60|
-T Goblin Sponsorship|QID|1180|M|26.3,73.6|Z|Stranglethorn Vale|
-A Goblin Sponsorship|QID|1181|M|26.3,73.6|Z|Stranglethorn Vale|
-h Booty Bay|QID|1181|N|Make Booty Bay your home location.|M|27.00,77.30|Z|Stranglethorn Vale|
-f Booty Bay|QID|1181|M|27.4,77.6|Z|Stranglethorn Vale|N|Pick up the flightpath at Gyll.|
+b Booty Bay|QID|1181|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
+T Goblin Sponsorship|QID|1180|M|26.34,73.56|Z|Stranglethorn Vale|N|To Wharfmaster Lozgil.|
+A Goblin Sponsorship|QID|1181|M|26.34,73.56|Z|Stranglethorn Vale|N|From Wharfmaster Lozgil.|PRE|1180|
+A Supply and Demand|QID|575|M|28.3,77.6|Z|Stranglethorn Vale|N|From Drizzlik. Go up the zig zag ramps and across the bridge straight ahead.|
+h Booty Bay|QID|1181|M|27.04,77.31|Z|Stranglethorn Vale|N|Make Booty Bay your home location.|
+A Singing Blue Shards|QID|605|M|27.12,77.21|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|
+N Rogue Trainer|QID|616|M|26.81,77.15|Z|Stranglethorn Vale|N|Train from Ian Strom on the 2nd floor of the Inn. Skip when done.|C|Rogue|
+A Investigate the Camp|QID|201|M|26.95,77.21|Z|Stranglethorn Vale|N|From Krazek.|
+A The Haunted Isle|QID|616|M|26.95,77.21|Z|Stranglethorn Vale|N|From Krazek.|
+A Supplies to Private Thorsen|QID|198|M|26.95,77.21|Z|Stranglethorn Vale|N|From Krazek.|
+A Bloodscalp Ears|QID|189|M|27.0,77.13|Z|Stranglethorn Vale|N|From Kebok.|
+A Hostile Takeover|QID|213|M|27.0,77.13|Z|Stranglethorn Vale|N|From Kebok.|
+T The Haunted Isle|QID|616|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz on the Balcony of the top floor.|
+A The Stone of the Tides|QID|578|M|27.23,76.87|Z|Stranglethorn Vale|N|From Baron Revilgaz on the Balcony of the top floor.|PRE|616|
+T Goblin Sponsorship|QID|1181|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz. (skip followup for now)|
+f Booty Bay|QID|1041|M|27.53,77.78|Z|Stranglethorn Vale|N|Get the flight path, on top of the building facing the inn.|
 
-A Bloodscalp Ears|QID|189|M|27.0,77.1|Z|Stranglethorn Vale|N|From Kebok.|
-A Hostile Takeover|QID|213|M|27.0,77.1|Z|Stranglethorn Vale|N|From Kebok.|
-A Investigate the Camp|QID|201|M|26.9,77.2|Z|Stranglethorn Vale|N|From Krazek.|
-A The Haunted Isle|QID|616|M|26.9,77.2|Z|Stranglethorn Vale|N|From Krazek.|
-A Supplies to Private Thorsen|QID|198|M|26.9,77.2|Z|Stranglethorn Vale|N|From Krazek.|
-T The Haunted Isle|QID|616|M|27.2,77.0|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
-A The Stone of the Tides|QID|578|M|27.2,77.0|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
-T Goblin Sponsorship|QID|1181|M|27.2,77.0|Z|Stranglethorn Vale|N|To Baron Revilgaz. (skip followup for now)|
-A Singing Blue Shards|QID|605|M|27.1,77.2|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|
-A Supply and Demand|QID|575|M|28.3,77.6|Z|Stranglethorn Vale|N|From Drizzlik.|
-r Sell, Repair, Restock, Train.|N|Rogues can train on the first floor of the inn, the rest of you need to fly to Stormwind.|
-
-F Darkshire|M|27.4,77.6|ACTIVE|74|Z|Stranglethorn Vale|N|Take a flight up to Duskwood from Gyll.|
+F Trade District|ACTIVE|198|M|27.53,77.78|Z|Stranglethorn Vale|N|Fly to Stormwind to train and take care of city business.|
+N Clear Bags!|ACTIVE|198|M|71,72.6|Z|Stormwind City|N|Stranglethorn has a lot of stuff you collect, now is the time to clear out bags as much as you can, use your bank, buy bigger bags from auction if needed.|
+F Darkshire|ACTIVE|198|M|66.29,62.13|Z|Stormwind City|N|Take a flight up to Duskwood.|
 
 R Elwynn Forest|ACTIVE|74|M|84.6,69.4|Z|Elwynn Forest|N|Run north to Elwynn to Marshal Hagard turn in the quest accept follow up and run back to darkshire.|
-t The Legend of Stalvan|QID|74|M|84.6,69.4|Z|Elwynn Forest|N|To Marshal Hagard.|
-A The Legend of Stalvan|QID|75|M|84.6,69.4|Z|Elwynn Forest|N|From Marshal Hagard.|PRE|74|
-C The Legend of Stalvan|QID|75|M|84.6,69.6|Z|Elwynn Forest|NC|N|Run upstairs and check the chest.|
-T The Legend of Stalvan|QID|75|M|84.6,69.4|Z|Elwynn Forest|N|To Marshal Hagard.|
-A The Legend of Stalvan|QID|78|M|84.6,69.4|Z|Elwynn Forest|N|From Marshal Hagard.|PRE|75|
-T The Legend of Stalvan|QID|78|M|73.8,43.5|Z|Duskwood|N|To Tavernkeep Smitts.|
-A The Legend of Stalvan|QID|79|M|73.8,43.5|Z|Duskwood|N|From Tavernkeep Smitts.|PRE|78|
-T The Legend of Stalvan|QID|79|M|73.5,46.9|Z|Duskwood|N|To Commander Althea Ebonlocke.| 
-A The Legend of Stalvan|QID|80|M|73.5,46.9|Z|Duskwood|N|From Commander Althea Ebonlocke.|PRE|79| 
-T The Legend of Stalvan|QID|80|M|72.5,46.9|Z|Duskwood|N|To Clerk Daltry.|
-A The Legend of Stalvan|QID|97|M|72.5,46.9|Z|Duskwood|N|From Clerk Daltry.|PRE|80|
-T The Legend of Stalvan|QID|97|M|73.5,46.9|Z|Duskwood|N|To Commander Althea Ebonlocke.|
-A The Legend of Stalvan|QID|98|M|73.55,46.89|Z|Duskwood|N|From Commander Althea Ebonlocke.|PRE|97|
+T The Legend of Stalvan|QID|74|M|84.6,69.4|Z|Elwynn Forest|N|To Marshal Haggard.|
+A The Legend of Stalvan|QID|75|M|84.6,69.4|Z|Elwynn Forest|N|To Marshal Haggard.|PRE|74|
+C The Legend of Stalvan|QID|75|M|85.71,69.53|Z|Elwynn Forest|N|In the building upstairs, within Marshal Haggard's Chest on the ground.|
+T The Legend of Stalvan|QID|75|M|84.6,69.4|Z|Elwynn Forest|N|To Marshal Haggard.|
+A The Legend of Stalvan|QID|78|M|84.6,69.4|Z|Elwynn Forest|N|To Marshal Haggard.|PRE|75|
+T The Legend of Stalvan|QID|78|M|73.79,44.49|N|To Tavernkeep Smitts.|
+A The Legend of Stalvan|QID|79|M|73.79,44.49|N|To Tavernkeep Smitts.|PRE|78|
+T The Legend of Stalvan|QID|79|M|73.56,46.85|N|To Commander Althea Ebonlocke.|
+A The Legend of Stalvan|QID|80|M|73.56,46.85|N|From Commander Althea Ebonlocke.|PRE|79|
+T The Legend of Stalvan|QID|80|M|72.5,46.8|N|To Clerk Daltry.|
+A The Legend of Stalvan|QID|97|M|72.5,46.8|N|From Clerk Daltry.|PRE|80|
+T The Legend of Stalvan|QID|97|M|73.56,46.85|N|To Commander Althea Ebonlocke. Don't get follow up for now.|
+A The Legend of Stalvan|QID|98|M|73.56,46.85|Z|Duskwood|N|From Commander Althea Ebonlocke.|PRE|97|
 C The Legend of Stalvan|QID|98|M|77.3,36.2|Z|Duskwood|T|Stalvan Mistmantle|N|Kill Stalvan Mistmantle.|
 T The Legend of Stalvan|QID|98|M|75.8,45.31|Z|Duskwood|N|To Madam Eva.|
-
 A Worgen in the Woods|QID|222|M|75.3,48.1|Z|Duskwood|N|From Calor.|
-C Worgen in the Woods|QID|222|M|72.4,67.4|Z|Duskwood|N|Kill the worgan as you head back to Stranglethorn.|
+C Worgen in the Woods|QID|222|M|73.00,75.00|Z|Duskwood|S|N|Kill the vile Fang and Tainted Ones.|
 
-R Rebel Camp|QID|198|N|Run south to the Rebel Camp in stranglethron vale, Follow the road west then south, then once you cross the bridge head head west.|M|38.20,4.10|Z|Stranglethorn Vale|
+R Rebel Camp|QID|198|M|38.20,4.10|Z|Stranglethorn Vale|N|Run south to the Rebel Camp in stranglethron vale, Follow the road west then south, then once you cross the bridge head head west.|
 N From now on...|QID|185|N|From now on, keep any Green Hills of Stranglethorn pages you find. (bank is fine)|
 T Supplies to Private Thorsen|QID|198|M|38.00,3.40|Z|Stranglethorn Vale|N|To Private Thorsen.|
 A The Second Rebellion|QID|203|M|38.0,3.3|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
@@ -169,7 +184,7 @@ A Panther Mastery|QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Er
 T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
 A Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
 N Green Hills of Stranglethorn|N|Turn in any Green Hills of Stranglethorn quests that you can turn in while you are here.|Z|Stranglethorn Vale|
-K Level Check: 3 bubbles from 34|LVL|33;46325|
+K Grind Mobs|QID|195|N|Level Check: 3 bubbles from 34.|LVL|33;46325|
 
 H The Salty Sailor Tavern|QID|605|N|Hearth to Booty Bay.|Z|Stranglethorn Vale|
 T Singing Blue Shards|QID|605|M|27.1,77.2|Z|Stranglethorn Vale|N|To Crank Fizzlebub. (skip followup for now)|
