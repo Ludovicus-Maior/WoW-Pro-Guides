@@ -307,7 +307,8 @@ C Weapons of Choice|QID|893|M|44.40,80.20|Z|The Barrens|N|Kill Stalkers for a Ba
 
 A Gann's Reclamation|QID|843|M|46.00,79.10|Z|The Barrens|N|To find Gann Stonespire, he walks up and down the forked-road that leads from Dustwallow marsh to Bael Modan.|
 
-C Gann's Reclamation|QID|843|M|47.00,85.00|Z|The Barrens|N|Prospector Khazgorm can be fould around . Excavators and Foremen are all over the area, kill them until you complete the quest.|
+C Gann's Reclamation|QID|843|M|47.00,85.00|Z|The Barrens|QO|1,2|N|Excavators and Foremen are all over the area, kill them until you complete the quest.|S!US|
+K Prospector Khazgorm|QID|843|M|47.6,85.2|Z|The Barrens|QO|3|N|Prospector Khazgorm can be found around.|T|Prospector Khazgorm
 
 T Gann's Reclamation|QID|843|M|46.00,79.10|Z|The Barrens|N|He will be walking up and down the road|
 A Revenge of Gann |QID|846|PRE|843|M|46.00,79.10|Z|The Barrens|N|From Gann|
