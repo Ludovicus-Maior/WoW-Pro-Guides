@@ -359,9 +359,9 @@ A Call of Water |QID|63|C|Shaman|M|65.80,43.80|Z|The Barrens|N|From Islen Waters
 ; -----------------------------------------------------------------------------
 
 T Mahren Skyseer|QID|874|M|65.8,43.8|Z|The Barrens|N|To Mahren Skyseer|
-A Isha Awak|QID|873|PRE|874|Z|The Barrens|N|From Mahren Skyseer|
+A Isha Awak|QID|873|PRE|874|M|65.8,43.8|Z|The Barrens|N|From Mahren Skyseer|
 K Isha Awak for Heart of Isha Awak|ACTIVE|873|QO|1|M|64.00,50.00|Z|The Barrens|
-T Isha Awak|QID|873|Z|The Barrens|N|To Mahren Skyseer|
+T Isha Awak|QID|873|M|65.8,43.8|Z|The Barrens|N|To Mahren Skyseer|
 
 b Booty Bay|QID|6571|M|63.70,38.60|Z|The Barrens|N||
 C Loot Warsong Axe Shipment|QID|6571|QO|2|M|26.40,73.30|Z|Stranglethorn Vale|
