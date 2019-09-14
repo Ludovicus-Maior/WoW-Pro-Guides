@@ -56,7 +56,7 @@ N From now on...|QID|1110|N|From now on, do long circles all around The Shimmeri
 C Salt Flat Venom|QID|1104|S!US|M|72.00,73.00|N|Get the rest of the venom you need for this quest.  They drop from Scorpids.|
 C Load Lightening|QID|1176|S!US|M|87.00,66.00|N|Get the rest of the Vulture Bones you need for this quest.|
 C A Bump in the Road|QID|1175|S!US|M|80.00,87.00|N|Kill the rest of the Basilisks needed for this quest. The Saltstone Basilisks can only be found in the northern side.  Kill other things and progress on your other quests while doing this.|
-C Rocket Car Parts|NC||QID|1110|M|78.22,78.66;72.07,72.85;73.86,57.69;77.61,60.46;82.44,55.73;87.06,65.31;77.5,87.20.0|CN|N|Get Rocket Car Parts you need.  They are scattered everywhere. Kill Everything that crosses your path!|
+C Rocket Car Parts|NC||QID|1110|M|78.22,78.66;72.07,72.85;73.86,57.69;77.61,60.46;82.44,55.73;87.06,65.31;77.5,87.20|CN|N|Get Rocket Car Parts you need.  They are scattered everywhere. Kill Everything that crosses your path!|
 K Turtles|QID|555|L|3712 10|M|82.70,54.70|N|Save 10 Turtle Meat for a quest later. You may also check the Auction House on another character and then mail yourself the meat, since the meat doesn't drop often.|
 C Hardened Shells|QID|1105|S!US|M|83.2,55.4|N|If you haven't completed Hardened Shells, get 9 Hardened Tortoise Shells from any Tortoise in the area.|
 T A Bump in the Road|QID|1175|M|81.6,77.9|N|To Trackmaster Zherin.|
@@ -143,6 +143,7 @@ A Some Assembly Required|QID|577|M|28.30,77.60|Z|Stranglethorn Vale|N|From Drizz
 H Orgimmar|ACTIVE|187|N|Hearth to Orgrimmar, restock, visit trainers, etc.|
 B Shopping List|QID|5088|L|3388|N|Buy, craft, or rummage thru your inventory and make sure you have one Strong Troll's Blood Elixir, we are headed off for that quest in this next circuit.|
 N Cooking|QID|577|M|57.6,53.2|Z|Orgrimmar|P|Cooking;185;0+1;1|N|Go learn it. You don't need to level cooking up, you just need to train the profession and to become an Apprentice Cook, it will unlock some cooking quests for easy XP. Grab the 10 Turtle Meat you saved when we were in the Shimmering Flats, and you're finally ready to go again.|
+A A Donation of Silk |QID|7827|Z|Orgrimmar|N|You should have the cloth stacks from the shopping list by now, if you don't have them, buy as much as you still need from the AH. Go to the Horde Cloth Quartermaster Vehena in the Valley of Spirits in Orgrimmar.|
 T A Donation of Silk |QID|7827|Z|Orgrimmar|N|You should have the cloth stacks from the shopping list by now, if you don't have them, buy as much as you still need from the AH. Go to the Horde Cloth Quartermaster Vehena in the Valley of Spirits in Orgrimmar.|
 
 ; === 002_31_32_Jame_Hillsbrad_Foothills.lua ===
@@ -152,20 +153,21 @@ A To Steal from Thieves|QID|1164|M|63.80,49.50|Z|Undercity|N|From Genavie Callow
 T Elixir of Agony |QID|513|M|48.8,69.3|Z|Undercity|N|To Master Apothecary Faranell inside the Apothecarium.|
 A Elixir of Agony |QID|515|M|48.8,69.3|Z|Undercity|N|From Master Apothecary Faranell.|
 F Tarren Mill|ACTIVE|515|M|63.6,48.6|Z|Undercity|N|At Michael Garrett, Bat Handler.|
-A Soothing Turtle Bisque|QID|7321|M|62.37,19.07|Z|Hillsbrad Foothills|N|From Christophe Jeffcoat.|
-B Soothing Spices|QID|7321|Z|Hillsbrad Foothills|L|3713 1|N|Buy 1 from Christophe Jeffcoat|
+A Soothing Turtle Bisque|QID|7321|M|62.32,19.15|Z|Hillsbrad Foothills|N|From Christophe Jeffcoat.|
+B Soothing Spices|QID|7321|M|62.32,19.15|Z|Hillsbrad Foothills|L|3713 1|N|Buy 1 from Christophe Jeffcoat|
 T Soothing Turtle Bisque|QID|7321|M|62.37,19.07|Z|Hillsbrad Foothills|N|To Christophe Jeffcoat.|
-h Tarren Mill|ACTIVE|517|M|62.6,19.0|Z|Hillsbrad Foothills|N|Set your hearthstone to Tarren Mill at Innkeeper Shay.|
+
+h Tarren Mill|ACTIVE|515|M|62.6,19.0|Z|Hillsbrad Foothills|N|Set your hearthstone to Tarren Mill at Innkeeper Shay.|
 A Humbert's Sword|QID|547|M|62.65,20.16|Z|Hillsbrad Foothills|N|From Deathguart Humbert.|
 A Stone Tokens|QID|556|M|61.50,20.90|Z|Hillsbrad Foothills|N|From Keeper Bel'varil.|
 A The Hammer May Fall|QID|676|M|61.90,19.60|Z|Hillsbrad Foothills|N|From Tallow.|
 A Helcular's Revenge |QID|552|M|63.88,19.66|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
-C Torn Fin Eyes|QID|515|QO|4|M|36.00,66.00|Z|Hillsbrad Foothills|N|Head southwest until you hit the Western Strand with the Murloc Camps. Kill murlocs until you get 5 Torn Fin Eyes.|
-C Elixir of Agony |QID|515|QO|3|M|58.00,64.00|Z|Hillsbrad Foothills|N|Go east and across the river, until you find nagas. Kill them until you have 5 Daggerspine Scales.|
+C Torn Fin Eyes|QID|515|QO|3|M|36.00,66.00|Z|Hillsbrad Foothills|N|Head southwest until you hit the Western Strand with the Murloc Camps. Kill murlocs until you get 5 Torn Fin Eyes.|
+C Elixir of Agony |QID|515|QO|2|M|58.00,64.00|Z|Hillsbrad Foothills|N|Go east and across the river, until you find nagas. Kill them until you have 5 Daggerspine Scales.|
 C Helcular's Revenge |QID|552|M|46.00,30.00|Z|Hillsbrad Foothills|N|Go northwest to the Yeti Cave . Kill yetis until you get Helcular's Rod, which is kinda rare, so just kill a lot of yetis. It might take a long time, so be patient. If it really takes more than 20 minute, try to log out and then back in. For some reason this worked for me a couple of times and the rod dropped on the first few kills after I logged back in, after a 20 minute yeti slaughter with no success.|
 H Tarren Mill|ACTIVE|515|N|Back to Tarren Mill to get some follow ups. This next segment is challenging, if you can find a partner, it will make it much more survivable. If not, be careful!|
-T Elixir of Agony |QID|515|Z|Hillsbrad Foothills|N|To Apothecary Lydon in Tarren Mill.|
-A Elixir of Agony |QID|517|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+T Elixir of Agony |QID|515|M|61.46,19.11|Z|Hillsbrad Foothills|N|To Apothecary Lydon in Tarren Mill.|
+A Elixir of Agony |QID|517|M|61.46,19.11|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
 T Helcular's Revenge |QID|552|M|63.90,19.70|Z|Hillsbrad Foothills|N|To Novice Thaivand.|
 A Helcular's Revenge |QID|553|M|63.90,19.70|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
 A Infiltration|QID|533|M|63.2,20.6|Z|Hillsbrad Foothills|N|From Krusk.|
