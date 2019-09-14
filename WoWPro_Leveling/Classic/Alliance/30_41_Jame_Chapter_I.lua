@@ -119,6 +119,7 @@ T Goblin Sponsorship|QID|1181|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revi
 f Booty Bay|QID|1041|M|27.53,77.78|Z|Stranglethorn Vale|N|Get the flight path, on top of the building facing the inn.|
 
 F Trade District|ACTIVE|198|M|27.53,77.78|Z|Stranglethorn Vale|N|Fly to Stormwind to train and take care of city business.|
+B Lesser Bloodstone Ore|QID|627|L|4278 4|N|Last chance to buy this, or get from your bank if you have it there, quest is coming up.|ITEM|4278|
 N Clear Bags!|ACTIVE|198|M|71,72.6|Z|Stormwind City|N|Stranglethorn has a lot of stuff you collect, now is the time to clear out bags as much as you can, use your bank, buy bigger bags from auction if needed.|
 F Darkshire|ACTIVE|198|M|66.29,62.13|Z|Stormwind City|N|Take a flight up to Duskwood.|
 
@@ -142,35 +143,34 @@ A Worgen in the Woods|QID|222|M|75.3,48.1|Z|Duskwood|N|From Calor.|
 C Worgen in the Woods|QID|222|M|73.00,75.00|Z|Duskwood|S|N|Kill the vile Fang and Tainted Ones.|
 
 R Rebel Camp|QID|198|M|38.20,4.10|Z|Stranglethorn Vale|N|Run south to the Rebel Camp in stranglethron vale, Follow the road west then south, then once you cross the bridge head head west.|
-N From now on...|QID|185|N|From now on, keep any Green Hills of Stranglethorn pages you find. (bank is fine)|
-T Supplies to Private Thorsen|QID|198|M|38.00,3.40|Z|Stranglethorn Vale|N|To Private Thorsen.|
-A The Second Rebellion|QID|203|M|38.0,3.3|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
-A Bad Medicine|QID|204|M|38.0,3.3|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
-A Krazek's Cookery|QID|210|M|37.7,3.3|Z|Stranglethorn Vale|N|From Corporal Kaleb.|
-R Nesingwary Camp|QID|5762|M|35.00,10.00|Z|Stranglethorn Vale|N|Head west along the road and then south. Once in stranglthorn cross the bridge and head west to the camp|
-T Hemet Nesingwary|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary|
+T Supplies to Private Thorsen|QID|198|M|37.98,3.41|Z|Stranglethorn Vale|N|To Private Thorsen.|
+A The Second Rebellion|QID|203|M|38.02,3.33|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
+A Bad Medicine|QID|204|M|38.02,3.33|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
+A Krazek's Cookery|QID|210|M|37.74,3.30|Z|Stranglethorn Vale|N|From Corporal Kaleb.|
+N From now on...|QID|5762|N|From now on, keep any Green Hills of Stranglethorn pages you find. (bank is fine)|
 
-A Welcome to the Jungle|QID|583|M|35.71,10.65|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
+R Nesingwary's Expedition|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|Head west along the road and then south. Once in stranglthorn cross the bridge and head west to the camp|
+A Welcome to the Jungle|QID|583|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
 T Welcome to the Jungle|QID|583|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary|
-A Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
-A Tiger Mastery|QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
-A Panther Mastery|QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
-
-N From now on, kill any Young Tigers, crocolisks, and panthers you come across|Z|Stranglethorn Vale|
-C Supply and Demand|N|Get 2 Large Crocolisk skins from the River Crocolisks.|QID|575|S!US|M|40.6,13.3|Z|Stranglethorn Vale|
-C Tiger Mastery|S|N|Kill 10 young tigers For the Tiger Mastery quest.|QID|185|M|32.30,9.40|Z|Stranglethorn Vale|
-C Panther Mastery|S|N|Kill 10 Young Panthers for the Panther Mastery quest.|QID|190|M|41.00,10.00|Z|Stranglethorn Vale|
-C The Second Rebellion|N|Go northeast to the Kurzen Camp.  Get 7 Jungle Remedies from killing the Kurzens, and get 15 Kurzen Jungle Fighter kills.  Loot a Fern Extract from one of the crates if you see it.|QID|203|M|44.00,11.00|Z|Stranglethorn Vale|
-C Bad Medicine|N|Loot a Fern Extract from one of the crates and get 7 Jungle Remedies (drops from any Kurzen).|QID|204|M|44.0,11.2|Z|Stranglethorn Vale|
-T The Second Rebellion|QID|203|M|38.0,3.3|Z|Stranglethorn Vale|
-T Bad Medicine|QID|204|M|38.0,3.3|Z|Stranglethorn Vale|
-A Special Forces|QID|574|M|38.0,3.3|Z|Stranglethorn Vale|
-C Tiger Mastery|US|N|Kill the rest of the Young Tigers you need for Tiger Mastery.|QID|185|M|32.30,9.40|Z|Stranglethorn Vale|
-C Panther Mastery|US|N|Kill 10 Young Panthers for the Panther Mastery quest.|QID|190|M|41.00,10.00|Z|Stranglethorn Vale|
+T Hemet Nesingwary|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary|
+A Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|PRE|5762|
+A Tiger Mastery|QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|5762|
+A Panther Mastery|QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|5762|
+C Supply and Demand|QID|575|M|40.6,13.3|Z|Stranglethorn Vale|S|N|Kill River Crocolisks and loot their skins.|
+C Tiger Mastery|QID|185|M|32.30,9.40|Z|Stranglethorn Vale|S|N|Kill 10 young tigers For the Tiger Mastery quest.|
+C Panther Mastery|QID|190|M|41.00,10.00|Z|Stranglethorn Vale|S|N|Kill 10 Young Panthers for the Panther Mastery quest.|
+C The Second Rebellion|QID|203|M|44.0,11.2|S!US|Z|Stranglethorn Vale|N|Kill and loot the Kurzen fighters.|
+C Bad Medicine|QID|204|M|44.07,9.61|Z|Stranglethorn Vale|QO|2|N|Loot a Fern Extract from one of the crates by the Kurzen campfire.|
+C Bad Medicine|QID|204|M|44.00,11.00|Z|Stranglethorn Vale|QO|1|N|Loot the Jungle Remedies from Kurzen Medicine Men or Headshrinkers.|
+T The Second Rebellion|QID|203|M|38.02,3.33|Z|Stranglethorn Vale|N|To Sergeant Yohwa.|
+T Bad Medicine|QID|204|M|38.02,3.33|Z|Stranglethorn Vale|N|To Sergeant Yohwa.|
+A Special Forces|QID|574|M|38.02,3.33|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
+C Tiger Mastery|QID|185|M|32.30,9.40|Z|Stranglethorn Vale|US|N|Kill the rest of the Young Tigers you need for Tiger Mastery.|
+C Panther Mastery|QID|190|M|41.00,10.00|Z|Stranglethorn Vale|US|N|Kill 10 Young Panthers for the Panther Mastery quest.|
 T Tiger Mastery|QID|185|M|35.62,10.81|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
-A Tiger Mastery|QID|186|M|35.62,10.81|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+A Tiger Mastery|QID|186|M|35.62,10.81|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|185|
 T Panther Mastery|QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
-A Panther Mastery|QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
+A Panther Mastery|QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|190|
 C Panther Mastery|N|Kill Panthers and Tigers until you complete both quests.|QID|191|M|30.00,9.00|Z|Stranglethorn Vale|
 C Tiger Mastery|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|
 C Raptor Mastery|N|Go southwest and kill 10 Stranglethorn Raptors.|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|
@@ -183,6 +183,7 @@ T Panther Mastery|QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S. J. Erlg
 A Panther Mastery|QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin. If you don't mind the run, skip picking this up now, as it will sit in your quest log awile.|
 T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
 A Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+C Supply and Demand|QID|575|M|40.6,13.3|Z|Stranglethorn Vale|US|N|Kill River Crocolisks and loot their skins.|
 N Green Hills of Stranglethorn|N|Turn in any Green Hills of Stranglethorn quests that you can turn in while you are here.|Z|Stranglethorn Vale|
 K Grind Mobs|QID|195|N|Level Check: 3 bubbles from 34.|LVL|33;46325|
 
