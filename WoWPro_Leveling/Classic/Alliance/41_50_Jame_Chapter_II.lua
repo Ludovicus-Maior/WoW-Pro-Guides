@@ -57,12 +57,12 @@ r Sell junk, repair, restock|N|Sell junk, repair, restock.|
 C The Bloodsail Buccaneers |QID|604|M|28,83;27,83;30,80|CN|N|Exit town and go to the beach. Kill Bloodsail mobs while moving to this location. Loot the Bloodsail Charts and Bloodsail Orders from the camps in the area. Check at each of the locations marked.|
 C Up to Snuff|QID|587|M|32.8,76.2|N|Continue to kill Bloodsail mobs until you get 15 Snuff.|
 C Keep An Eye Out|QID|576|M|32.8,76.2|N|Continue to kill Bloodsail mobs until you get Dizzy's Eye. (Random from any)|
-A Panther Mastery |QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
+A Panther Mastery|QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
 A Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
 C Panther Mastery|QID|192|S|N|From now on, kill any Shadowmaw Panther you see. They are stealthed.|
 C Venture Company Mining|QID|600|M|41.00,43.60|N|Kill Venture Co. Mobs until you get the 10 Singing Blue Crystals for this quest.|
-C Raptor Mastery |QID|196|M|32.80,40.30|N|Kill 10 Jungle Stalkers near this location.|
-C Panther Mastery |QID|192|M|39.00,35.00|US|N|Kill Shadowmaw Panthers to complete this quest. They are stealthed.|
+C Raptor Mastery|QID|196|M|32.80,40.30|N|Kill 10 Jungle Stalkers near this location.|
+C Panther Mastery|QID|192|M|39.00,35.00|US|N|Kill Shadowmaw Panthers to complete this quest. They are stealthed.|
 R Ziat'Jai Ruins|ACTIVE|209|M|42,36|N|Go East to Ziata'Jai ruins.|
 K Skullsplitter Trolls|ACTIVE|209|M|42,36;45,33;47,38|CN|L|1524 18|N|Kill Trolls in the three areas until you gather 18 tusks. Avoid the higher level trolls up the hill.|
 L Level Check|ACTIVE|209|M|42,36;45,33;47,38|CN|N|Grind here until you reach level 42.|LVL|42|
@@ -78,20 +78,37 @@ C "Gri"lek the Wanderer|QID|207|QO|2|M|24.75,22.86|NC|N|Loot the scroll from the
 C The Emperor's Tomb|QID|207|QO|4|M|21,10;22.90,12.00|CS|NC|N|Into the ruins, left and up the ramp at the first fork. Loot the scroll from this location.|
 C Fall of Gurubashi|QID|207|QO|3|M|24.70,8.90|NC|N|Go back to the fork and take the ramp up to the right, then uturn at top to find and loot the scroll from this location.|
 R Nessingwary's Camp|ACTIVE|192^193|M|35.8,10.7|
-T Panther Mastery |QID|192|M|35.55,10.55|N|To Sir S.J Erlgadin.|
-T Raptor Mastery |QID|196|M|35.66,10.81|N|To Hemet Nesingwary.|
-R Rebel Camp|ACTIVE|207|M|37.8,3.4|
+T Panther Mastery|QID|192|M|35.55,10.55|N|To Sir S.J Erlgadin.|
+A Panther Mastery |QID|193|M|35.6,10.6|GROUP|N|From S.J. Erlgadin. Part of an optional line. This cat is sometimes hard to find.|
+T Raptor Mastery|QID|196|M|35.66,10.81|N|To Hemet Nesingwary.|
+A Raptor Mastery|QID|197|M|35.6,10.6|N|From Hemet Nesingwary.|GROUP|
+A Tiger Mastery|QID|188|M|35.6,10.6|N|From Ajeck Rouack.|GROUP|
+K Bhag'thera|ACTIVE|193|QO|1|M|48,28;46,28;48,20|CN|T|Bhagthera|N|Spawns at multiple places and wanders, stealthed.|
+K Tethis|ACTIVE|197|QO|1|M|28,43;31,40;31,43|CN|T|Tethis|N|Spawns at multiple points.|
+K Sin'dall|ACTIVE|188|QO|1|M|33,18|T|Sin'Dall|N|Spawns on top of this hill.|
+T Panther Mastery|QID|193|M|35.6,10.6|N|To S.J. Erlgadin, back at Nesingwary's Expedition.|
+T Raptor Mastery|QID|197|M|35.6,10.6|N|To Hemet Nesingwary.|
+T Tiger Mastery|QID|188|M|35.6,10.6|N|To Ajeck Rouack.|
+A Big Game Hunter|QID|208|PRE|193&197&188|M|35.6,10.6|N|From Hemet Nesingwary.|
+K King Bangalash|ACTIVE|208|QO|1|M|38,37|T|King Bangalash|N|Very difficult fight without a full group at this level.|
+T Big Game Hunter|QID|208|PRE|193&197&188|M|35.6,10.6|N|To Hemet Nesingwary.|
+    
+R Rebel Camp|ACTIVE|207|M|37.8,3.4|N|Run on past the Rebel camp to the Kurzen compound.|
+C Kurzen Subchiefs & Elites|QID|202|QO|1;2|M|49,7|S|N|Kill the Elites and Subchiefs needed for the quest.|
+K Colonel Kurzen|ACTIVE|202|QO|3|M|49.44,4|T|Colonel Kurzen|N|Be sure to get the Colonel too.|
+C Kurzen Subchiefs & Elites|QID|202|QO|1;2|M|49,7|US|N|Finish killing the Elites and Subchiefs needed for the quest.|
 T Kurzen's Mystery|QID|207|M|37.8,3.4|N|To Brother Nimetz.|
-
+T Colonel Kurzen|QID|202|M|38,3|N|To Lieutenant Doren.|
+    
 H Booty Bay|ACTIVE|609|M|35.8,10.7|N|Hearth back to Booty Bay.|
 T Venture Company Mining|QID|600|M|27.1,77.2|N|To Crank Fizzlebub.|
 T Zanzil's Secret|QID|621|M|27.1,77.2|N|To Crank Fizzlebub.|
 T Up to Snuff|QID|587|M|26.9,77.3|N|To Deeg.|
 T Skullsplitter Tusks|QID|209|M|27.0,77.1|N|To Kebok.|
-T Goblin Sponsorship |QID|1182|M|27.2,77.0|N|To Baron Revilgaz.|
-A Goblin Sponsorship |QID|1183|M|27.2,77.0|N|From Baron Revilgaz.|
-T The Bloodsail Buccaneers |QID|604|M|27.2,77.0|N|To Fleet Master Seahorn. (skip followup if you are solo)|
-A The Bloodsail Buccaneers |QID|608|M|27.2,77.0|GROUP|N|From Fleet Master Seahorn.|
+T Goblin Sponsorship|QID|1182|M|27.2,77.0|N|To Baron Revilgaz.|
+A Goblin Sponsorship|QID|1183|M|27.2,77.0|N|From Baron Revilgaz.|
+T The Bloodsail Buccaneers|QID|604|M|27.2,77.0|N|To Fleet Master Seahorn. (skip followup if you are solo)|
+A The Bloodsail Buccaneers|QID|608|M|27.2,77.0|GROUP|N|From Fleet Master Seahorn.|
 T Voodoo Dues|QID|609|M|27.04,77.32|N|To "Sea Wolf" MacKinley. (skip follow up).|
 A Stoley's Debt|QID|2872|M|27.04,77.32|N|From "Sea Wolf" MacKinley.|
 T Keep An Eye Out|QID|576|M|28.6,75.9|N|To Dizzy One-Eye.|
@@ -100,17 +117,17 @@ K Captain Stillwater|ACTIVE|608|QO|1|M|32.9,88.2|T|Captain Stillwater|N|Head int
 K Fleet Master Firallon|ACTIVE|608|QO|3|M|30.6,90.6|T|Fleet Master Firallon|N|Fleet Master Firallon can be found in the next ship at . Don't forget to watch for Cortello's Riddle.|
 K Captain Keelhaul|ACTIVE|608|QO|2|M|29.3,88.4|T|Captain Keelhaul|N|Captain Keelhaul is in the last ship at . Don't forget to watch for Cortello's Riddle.|
 N Cortello's Riddle|ACTIVE|608|L|4056|N|Search the lower levels of the ships until you find this.|
-
+T The Bloodsail Buccaneers|QID|608|M|27.2,77.0|N|To Fleet Master Seahorn, back in Booty Bay.|
 F Stormwind City|ACTIVE|1183|M|27.4,77.6|N|At Gyll.|
 r Train, Restock, Repair|N|Do all your town stuff.|
 F Darkshire|ACTIVE|1183|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
 R Deadwind Pass|ACTIVE|1183|M|91.00,41.00|Z|Duskwood|N|Run east thru Duskwood to Deadwind Pass.|
 R Swamp of Sorrows|ACTIVE|1183|M|60.00,41.20|Z|Swamp of Sorrows|N|Run east to Swamp of Sorrows.|
 N The Lost Supplies|QID|1423|S!US|L|6172|N|Keep your eyes open for 'Scrattered Crates'. It contains 'Lost Supplies' which starts a quest. The crates are scattered all over the Swamp. You can turn it in once for faction and XP and after that it becomes repeatable for faction if you are desparate for Stormwind faction.|
-A Encroaching Wildlife|QID|1396|M|26.8,59.8|Z|Swamp of Sorrows|N|From Watcher Biggs.|
+A Encroaching Wildlife|QID|1396|M|26.73,59.83|Z|Swamp of Sorrows|N|From Watcher Biggs.|
 C Encroaching Wildlife|QID|1396|M|26,60|Z|Swamp of Sorrows|N|Kill the animals in the area to complete the quest.|
-T Encroaching Wildlife|QID|1396|M|26.8,59.8|Z|Swamp of Sorrows|N|To Watcher Biggs.|
-A The Lost Caravan|QID|1421|M|26.8,59.8|Z|Swamp of Sorrows|N|From Watcher Biggs.|
+T Encroaching Wildlife|QID|1396|M|26.73,59.83|Z|Swamp of Sorrows|N|To Watcher Biggs.|
+A The Lost Caravan|QID|1421|M|26.73,59.83|Z|Swamp of Sorrows|N|From Watcher Biggs.|
 R Misty Valley|ACTIVE|1364|M|13,35|Z|Swamp of Sorrows|N|Run into this hidden valley full of swamp elementals.|
 C Mazen's Behest|QID|1364|M|13.00,35.00|Z|Swamp of Sorrows|N|Kill Swamp Elementals at this location until you get the item for this quest.  You may abandon this if the item does not drop in a reasonable amount of time.| 
 R The Harborage|ACTIVE|1364|M|26,31.4|Z|Swamp of Sorrows|N|Run east along the mountain.|
@@ -120,25 +137,25 @@ C Draenethyst Crystals|QID|1389|M|26,31.4|Z|Swamp of Sorrows|NC|N|Gather 6 Draen
 C The Lost Caravan|QID|1421|M|63,18|Z|Swamp of Sorrows|NC|N|Click the 'Caravan Chest' on the destoyed wagon and get the 'Wizards' Reagents'. Clear the  'lost ones' camps to the southwest of the cage to make the upcoming escort quest easier.|
 A Galen's Escape|QID|1393|M|65.4,18.2|Z|Swamp of Sorrows|N|From Galen Goodward. Advise clearing the 'lost ones' camp to the sw before you start the quest.|
 C Galen's Escape|QID|1393|M|65.4,18.2|Z|Swamp of Sorrows|N|Let Galen During take the lead (so he has first agro and will stop), but don't let him die.|
-T Galen's Escape|QID|1393|M|47,39|Z|Swamp of Sorrows|N|After he fades out, proceed to the strongbox for your reward.|
+T Galen's Escape|QID|1393|M|48.08,40.09|Z|Swamp of Sorrows|N|After he fades out, proceed to the strongbox for your reward.|
 K Noboru|QID|1392|M|46.70,39.40|Z|Swamp of Sorrows|T|Noboru the Cudgel|L|6196|N|Kill Noboru the Cudgel and loot the Cudgel. Keep the island where you picked up the strongbox clear and he should wander by pretty soon.|
 A Noboru the Cudgel|QID|1392|M|46.70,39.40|Z|Swamp of Sorrows|U|6196|N|Right-click the Cudgel to start the quest.|
 T Draenethyst Crystals|QID|1389|M|26,31.4|Z|Swamp of Sorrows|N|To Magtoor.|
 T Noboru the Cudgel|QID|1392|M|26,31|Z|Swamp of Sorrows|N|To Magtoor.|
-T The Lost Caravan|QID|1421|M|26.8,59.8|Z|Swamp of Sorrows|N|To Watcher Biggs.|
-A Driftwood|QID|1398|M|26.8,59.8|Z|Swamp of Sorrows|N|From Watcher Biggs.|PRE|1421|
+T The Lost Caravan|QID|1421|M|26.73,59.83|Z|Swamp of Sorrows|N|To Watcher Biggs.|
+A Driftwood|QID|1398|M|26.73,59.83|Z|Swamp of Sorrows|N|From Watcher Biggs.|PRE|1421|
 A Cortello's Riddle |QID|624|M|23,48|Z|Swamp of Sorrows|U|4056|N|From item in your inventory.|
 T Cortello's Riddle |QID|624|M|23,48|Z|Swamp of Sorrows|N|Under an ornate bridge west of Stonard is a soggy scroll. Get it to start the next part of the quest line.|
 A Cortello's Riddle |QID|625|M|22.9,48.2|Z|Swamp of Sorrows|PRE|624|
 C In Search of The Temple|QID|1448|M|65.00,48.00|Z|Swamp of Sorrows|NC|N|Swim east towards the temple if you need to complete this quest. Continue east after the quest update.|
 C Driftwood|QID|1398|M|94.7,44.8;84.3,83.8|CS|Z|Swamp of Sorrows|NC|N|Run south along the coast picking up driftwood.|
-T Driftwood|QID|1398|M|29,59|Z|Swamp of Sorrows|N|To Watcher Biggs. (Avoid Stonard as you run back)|
-A Deliver the Shipment|QID|1425|M|29,59|Z|Swamp of Sorrows|N|From Watcher Biggs.|PRE|1398|
-R Blasted Lands|ACTIVE|1425|M|33.00,80.00|Z|Blasted Lands|N|Follow the road east and go south at the junction to get to Blasted Lands.|
+T Driftwood|QID|1398|M|29.73,59.83|Z|Swamp of Sorrows|N|To Watcher Biggs. (Avoid Stonard as you run back)|
+A Deliver the Shipment|QID|1425|M|29.73,59.83|Z|Swamp of Sorrows|N|From Watcher Biggs.|PRE|1398|
+R Blasted Lands|ACTIVE|1425|M|33.08,67.62|Z|Blasted Lands|N|Follow the road east and go south at the junction to get to Blasted Lands.|
 A The Lost Supplies|QID|1423|U|6172|N|From the 'Lost Supplies' found in the 'Scattered Chests' throughout Swamp of Sorrows.|
 T The Lost Supplies|QID|1423|M|66.4,21.2|Z|Blasted Lands|N|To Quartermaster Lungertz.|
 T Deliver the Shipment|QID|1425|M|66.4,21.2|Z|Blasted Lands|N|To Quartermaster Lungertz.|
-t Mazen's Behest|QID|1364|M|67,18|Z|Blasted Lands|N|To Watcher Mahar Ba, at the top of the tower (watching).|
+t Mazen's Behest|QID|1364|M|67.65,19.19|Z|Blasted Lands|N|To Watcher Mahar Ba, at the top of the tower (watching).|
 f Nethergarde Keep|ACTIVE|1448|M|65.50,24.40|Z|Blasted Lands|N|Get the flight-path from Alexandra Constantine at the top of the tower.| 
 F Stormwind City|ACTIVE|1448|M|65.50,24.40|Z|Blasted Lands|N|Fly to Stormwind.|
 r Sell junk, repair, restock|ACTIVE|1448|N|Sell junk, repair, restock.|
@@ -445,7 +462,7 @@ A The Stone Watcher|QID|2954|PRE|2439|M|37,81|Z|Tanaris|N|From Uldum Pedestal.|
 C The Stone Watcher|QID|2954|M|37,81|Z|Tanaris|NC|N|Click the pedastal to summon the Stone Watcher, click again to go thru his dialog, till you get the quest update.|
 T The Stone Watcher|QID|2954|M|37,81|Z|Tanaris|N|To Uldum Pedestal.|
 A Return to Ironforge|QID|2977|PRE|2954|M|37,81|Z|Tanaris|N|From Uldum Pedestal.|
-T Thistleshrub Valley|ACTIVE|2605|M|28,67|Z|Tanaris|N|Go west to Thistleshrub Valley.|
+R Thistleshrub Valley|ACTIVE|2605|M|28,67|Z|Tanaris|N|Go west to Thistleshrub Valley.|
 C Thistleshrub Valley|QID|3362|M|28.3,63.8|Z|Tanaris|N|Kill Thistleshrubs and loot until you get the kills needed for this quest.|
 C The Thirsty Goblin|QID|2605|M|28.30,63.80|Z|Tanaris|N|Continue to kill Thistleshrubs until you get the dew gland (somewhat rare).|
 C Noxious Lair Investigation|QID|82|M|35.00,46.00|Z|Tanaris|N|Go here and kill and loot insects until you get the parts needed.|
@@ -459,7 +476,7 @@ A Sprinkle's Secret Ingredient|QID|2641|M|51.1,26.9|Z|Tanaris|N|From Sprinkle.|
 T Noxious Lair Investigation|QID|82|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
 A The Scrimshank Redemption|QID|10|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
 r Sell junk, repair, restock|ACTIVE|3161|N|Sell junk, repair, restock.|
-R Broken Piller|ACTIVE|3161|M|50.2,27.5|Z|Tanaris|N|Run south to the Broken Piller.|
+R Broken Piller|ACTIVE|3161|M|52.7,45.9|Z|Tanaris|N|Run south to the Broken Piller.|
 T Gahz'ridian|QID|3161|M|52.7,45.9|Z|Tanaris|N|To Marvon Rivetseeker.|
 R Gaping Chasm|ACTIVE|10|M|56,71|Z|Tanaris|N|Continue South to the Gaping Chasm.|
 C The Scrimshank Redemption|QID|10|M|56.0,71.2|Z|Tanaris|N|Go down the spiral and take the second tunnel (it goes north). Go right at the first fork, then through the circle room, then right at the fork. Loot the Surveying Gear from the room up ahead (the arrow will point to it).|
@@ -495,12 +512,12 @@ T Food for Baby|QID|4297|M|14.2,43.6|Z|The Hinterlands|N|To Agnar Beastamer.|
 A Becoming a Parent|QID|4298|M|14.2,43.6|Z|The Hinterlands|N|From Agnar Beastamer.|
 T Becoming a Parent|QID|4298|M|14.2,43.6|Z|The Hinterlands|N|To Agnar Beastamer.|
 F Ironforge|ACTIVE|1469|N|Fly to Ironforge.|M|11.10,46.15|Z|The Hinterlands|
-h Ironforge|ACTIVE|1469|M|18.50,51.60|Z|Ironforge|N|Only if Aerie Peak is NOT your home, make Ironforge your home location.|
 t Return to Ironforge|QID|2977|M|76.8,10.2|Z|Ironforge|N|To Historian Karnik.|
 A A Future Task|QID|2964|PRE|2977|M|76.8,10.2|Z|Ironforge|N|From Historian Karnik.|
-A Passing the Burden|QID|3448|PRE|2977|M|76.8,10.2|Z|Ironforge|N|From Historian Karnik.|
-T A Future Task|QID|2694|M|70.6,18|Z|Ironforge|N|To High Explorer Magellas.|
-;T Passing the Burden|QID|3448|-not in jame's guide
+A Passing the Burden|QID|3448|PRE|2977|M|76.8,10.2|Z|Ironforge|N|From Historian Karnik.(if yoou want, you can skip picking this up till a future trip to Ironforge.}|
+h Ironforge|ACTIVE|1469|M|18.50,51.60|Z|Ironforge|N|Only if Aerie Peak is NOT your home, make Ironforge your home location.|
+T A Future Task|QID|2964|M|70.6,18|Z|Ironforge|N|To High Explorer Magellas.|
+;T Passing the Burden|QID|3448|-not in jame's guide--its in Azshara 51-52
 r Sell junk, repair, restock, train skills.|ACTIVE|1469|N|Sell junk, repair, restock, train skills.|
 R Stormwind|ACTIVE|1469|N|Take the Tram (or Fly) to Stormwind City.|
 T Rhapsody's Tale|QID|1469|M|64,20|Z|Stormwind City|N|To Brohann Caskbelly, in the Dwarven District.|
@@ -535,12 +552,12 @@ T Delivery for Marin|QID|2661|Z|Tanaris|M|51.8,28.7|N|To Marin Noggenfogger.|
 A Noggenfogger Elixir|QID|2662|Z|Tanaris|M|51.8,28.7|N|From Marin Noggenfogger.|
 T Noggenfogger Elixir|QID|2662|Z|Tanaris|M|51.8,28.7|N|To Marin Noggenfogger.|
 
-R Ironforge|ACTIVE|2991|N|Travel to Ironforge via method of choice.|
-F Nethergarde Keep|ACTIVE|2991|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
-t Nekrum's Medaillon|QID|2991|M|66,18|Z|Blasted Lands|N|To Thadius Grimshade
-A The Divination|QID|2992|PRE|2991|M|66,18|Z|Blasted Lands|N|From Thadius Grimshade.|
-T The Divination|QID|2992|M|66,18|Z|Blasted Lands|N|Wait for him to finish the ritual then turn quest in to Thadius Grimshade.|
-A Return to the Hinterlands|QID|2993|PRE|2992|M|66,18|Z|Blasted Lands|N|From Thadius Grimshade.|
+R Ironforge|AVAILABLE|2992|N|Travel to Ironforge via method of choice.|
+F Nethergarde Keep|AVAILABLE|2992|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
+t Nekrum's Medallion|QID|2991|M|66.9,19.5|Z|Blasted Lands|N|To Thadius Grimshade
+A The Divination|QID|2992|PRE|2991|M|66.9,19.5|Z|Blasted Lands|N|From Thadius Grimshade.|
+T The Divination|QID|2992|M|66.9,19.5|Z|Blasted Lands|N|Wait for him to finish the ritual then turn quest in to Thadius Grimshade.|
+A Return to the Hinterlands|QID|2993|PRE|2992|M|66.9,19.5|Z|Blasted Lands|N|From Thadius Grimshade.|
 R Ride West|AVAILABLE|2583|M|50,14|Z|Blasted Lands|N|Ride out of Nethergarde Keep, go west / northwest until you find the two Blood Elves.|
 A A Boar's Vitality|QID|2583|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. Gives +25 Stamina for 1 hour when turned in.|
 A Snickefang Jowls|QID|2581|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. Gives +25 Strength for 1 hour when turned in.|
