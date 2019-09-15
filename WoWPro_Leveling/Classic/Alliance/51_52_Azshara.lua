@@ -3,14 +3,14 @@ R Ironforge|QID|3368|
 N Sell junk, repair, restock|QID|3368|N|Sell junk, repair, restock|
 T Suntara Stones |QID|3368|Z|Ironforge|M|67.8,8.3|
 A A Little Slime Goes a Long Way |QID|4512|Z|Ironforge|M|75.8,23.4|
-A Passing the Burden|QID|3448|Z|Ironforge|M|77.5,11.8|
-T Passing the Burden|QID|3448|Z|Ironforge|M|31.0,4.8|
-A Arcane Runes|QID|3449|Z|Ironforge|M|31.0,4.8|
-A An Easy Pickup|QID|3450|Z|Ironforge|M|31.0,4.8|
-T An Easy Pickup|QID|3450|Z|Ironforge|M|70.9,94.6|
-A Signal for Pickup|QID|3451|Z|Ironforge|M|70.9,94.6|
-T Signal for Pickup|QID|3451|Z|Ironforge|M|70.9,94.6|
-F Stormwind|QID|4267|N|Fly to Stormwind.|Z|Ironforge|M|55.60,47.70|
+A Passing the Burden|QID|3448|Z|Ironforge|M|77.5,11.8|N|From Historian Karnik in Hall of the Explorers.|
+T Passing the Burden|QID|3448|Z|Ironforge|M|31.0,4.8|N|To Tymor, in the Mystic Ward.|
+A Arcane Runes|QID|3449|Z|Ironforge|M|31.0,4.8|N|From Tymor.|PRE|3448|
+A An Easy Pickup|QID|3450|Z|Ironforge|M|31.0,4.8|N|From Tymor.|ACTIVE|3449|
+T An Easy Pickup|QID|3450|Z|Ironforge|M|70.9,94.6|N|To Xiggs Fuselighter.|
+A Signal for Pickup|QID|3451|Z|Ironforge|M|70.9,94.6|N|From Xiggs Fuselighter.|PRE|3450|
+T Signal for Pickup|QID|3451|Z|Ironforge|M|70.9,94.6|N|To Xiggs Fuselighter.|
+F Menithil Harbor|QID|4267|N|Fly to Menethil Harbor.|Z|Ironforge|M|55.60,47.70|
 b Auberdine|QID|4267|N|Take the boat to Auberdine.|
 F Rut'theran Village|QID|4267|N|Fly to Rut'theran Village|Z|Darkshore|M|36.30,45.60|
 R Darnassus|QID|4267|N|Go to Darnassus.|Z|Teldrassil|M|60.00,89.80|
@@ -73,6 +73,6 @@ T Vulture's Vigor|QID|2603|Z|Blasted Lands|M|50.7,14.2|
 H Ironforge|QID|8460|N|Hearth to Ironforge.|
 N Sell junk, repair, restock|QID|8460|N|Sell junk, repair, restock.|
 
-F Stormwind|QID|8460|N|Fly to Menethil Harbor.|M|55.50,47.75|
+F Menethil Harbor|QID|8460|N|Fly to Menethil Harbor.|M|55.50,47.75|
 ]]
 end)
