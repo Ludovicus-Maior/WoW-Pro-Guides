@@ -56,7 +56,7 @@ N From now on...|QID|1110|N|From now on, do long circles all around The Shimmeri
 C Salt Flat Venom|QID|1104|S!US|M|72.00,73.00|N|Get the rest of the venom you need for this quest.  They drop from Scorpids.|
 C Load Lightening|QID|1176|S!US|M|87.00,66.00|N|Get the rest of the Vulture Bones you need for this quest.|
 C A Bump in the Road|QID|1175|S!US|M|80.00,87.00|N|Kill the rest of the Basilisks needed for this quest. The Saltstone Basilisks can only be found in the northern side.  Kill other things and progress on your other quests while doing this.|
-C Rocket Car Parts|NC||QID|1110|M|78.22,78.66;72.07,72.85;73.86,57.69;77.61,60.46;82.44,55.73;87.06,65.31;77.5,87.20|CN|N|Get Rocket Car Parts you need.  They are scattered everywhere. Kill Everything that crosses your path!|
+C Rocket Car Parts|NC||QID|1110|M|78.22,78.66;72.07,72.85;73.86,57.69;77.61,60.46;82.44,55.73;87.06,65.31;77.5,87.20.0|CN|N|Get Rocket Car Parts you need.  They are scattered everywhere. Kill Everything that crosses your path!|
 K Turtles|QID|555|L|3712 10|M|82.70,54.70|N|Save 10 Turtle Meat for a quest later. You may also check the Auction House on another character and then mail yourself the meat, since the meat doesn't drop often.|
 C Hardened Shells|QID|1105|S!US|M|83.2,55.4|N|If you haven't completed Hardened Shells, get 9 Hardened Tortoise Shells from any Tortoise in the area.|
 T A Bump in the Road|QID|1175|M|81.6,77.9|N|To Trackmaster Zherin.|
@@ -121,7 +121,7 @@ C Bloody Bone Necklaces|QID|596|M|28.80,19.70|Z|Stranglethorn Vale|N|and Necklac
 C Bloodscalp Tusks|QID|581|M|28.80,19.70|Z|Stranglethorn Vale|US|N|Continue killing trolls for tusks too.|
 C Bloodscalp Ears|QID|189|M|28.8,19.7|Z|Stranglethorn Vale|US|N|Finish collecting the needed ears. If you don't have enough trolls there is another camp northeast at the Tkashi Ruins.|
 C Singing Blue Shards|QID|605|M|26.70,18.50|Z|Stranglethorn Vale|N|Once you've collected all of that, go west to the shore and move along the shore towards the north until you find Crystal Spine Basilisks. If you run short on Basilisks, there is more on the lower plateau to the east along the shore. If there aren't any basilisks just go kill some trolls until they respawn.|
-C The Vile Reef|QID|629|M|24.76,22.85|Z|Stranglethorn Vale|N|After that go take a swim until you reach the waypoint, right under you should be some ruins guarded by murlocs. Against one of the outer walls of those ruins you should see a big tablet, called "Gri'lek the Wanderer" (it should also sparkle). Dive and click the tablet to loot the  Tablet Shard, you should be able to do that without aggro'ing any murloc.|
+C The Vile Reef|QID|629|M|24.00,22.00|Z|Stranglethorn Vale|N|After that go take a swim until you reach the waypoint, right under you should be some ruins guarded by murlocs. Against one of the outer walls of those ruins you should see a big tablet, called "Gri'lek the Wanderer" (it should also sparkle). Dive and click the tablet to loot the  Tablet Shard, you should be able to do that without aggro'ing any murloc.|
 T Raptor Mastery |QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
 A Raptor Mastery |QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
 T Panther Mastery |QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S.J Erlgadin.|
@@ -130,20 +130,18 @@ T Tiger Mastery |QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 A Tiger Mastery |QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 L Level Check|ACTIVE|187|LVL|33;46880|N|You should be about 4 bubbles from 34, if you aren't grind trolls on the way back to Grom'gol.|
 T Hunt for Yenniku|QID|581|M|32.20,27.70|Z|Stranglethorn Vale|N|To Nimboya, back at Grom'gol base camp.|
-T The Vile Reef|QID|629|M|32.25,27.76|Z|Stranglethorn Vale|N|To Kin'weelay.|
+T The Vile Reef|QID|629|M|32.30,28.60|Z|Stranglethorn Vale|N|To Kin'weelay.|
 T Bloody Bone Necklaces|QID|596|M|32.20,27.70|Z|Stranglethorn Vale|N|To Kin'weelay.|
 
-F Booty Bay|ACTIVE|575|M|32.56,29.38|Z|Stranglethorn Vale|N|At Thysta, Wind Rider Master.|
-
-T Investigate the camp|QID|201|M|27.00,77.20|Z|Stranglethorn Vale|N|To Krazek.|
-T Bloodscalp Ears|QID|189|M|27.00,77.20|Z|Stranglethorn Vale|N|To Kebok.|
-T Singing Blue Shards|QID|605|M|27.10,77.20|Z|Stranglethorn Vale|N|To Crank Fizzlebub.(skip followup)|
+F Booty Bay|ACTIVE|575|M|32.4,29.2|Z|Stranglethorn Vale|N|At Thysta, Wind Rider Master.|
 T Supply and Demand|QID|575|M|28.30,77.60|Z|Stranglethorn Vale|N|To Drizzlik.|
 A Some Assembly Required|QID|577|M|28.30,77.60|Z|Stranglethorn Vale|N|From Drizzlik.|
+T Investigate the camp|QID|201|M|27.00,77.20|Z|Stranglethorn Vale|N|To Krazek.|
+T Singing Blue Shards|QID|605|M|27.10,77.20|Z|Stranglethorn Vale|N|To Crank Fizzlebub.(skip followup)|
+T Bloodscalp Ears|QID|189|M|27.00,77.20|Z|Stranglethorn Vale|N|To Kebok.|
 H Orgimmar|ACTIVE|187|N|Hearth to Orgrimmar, restock, visit trainers, etc.|
 B Shopping List|QID|5088|L|3388|N|Buy, craft, or rummage thru your inventory and make sure you have one Strong Troll's Blood Elixir, we are headed off for that quest in this next circuit.|
 N Cooking|QID|577|M|57.6,53.2|Z|Orgrimmar|P|Cooking;185;0+1;1|N|Go learn it. You don't need to level cooking up, you just need to train the profession and to become an Apprentice Cook, it will unlock some cooking quests for easy XP. Grab the 10 Turtle Meat you saved when we were in the Shimmering Flats, and you're finally ready to go again.|
-A A Donation of Silk |QID|7827|Z|Orgrimmar|N|You should have the cloth stacks from the shopping list by now, if you don't have them, buy as much as you still need from the AH. Go to the Horde Cloth Quartermaster Vehena in the Valley of Spirits in Orgrimmar.|
 T A Donation of Silk |QID|7827|Z|Orgrimmar|N|You should have the cloth stacks from the shopping list by now, if you don't have them, buy as much as you still need from the AH. Go to the Horde Cloth Quartermaster Vehena in the Valley of Spirits in Orgrimmar.|
 
 ; === 002_31_32_Jame_Hillsbrad_Foothills.lua ===
@@ -153,26 +151,25 @@ A To Steal from Thieves|QID|1164|M|63.80,49.50|Z|Undercity|N|From Genavie Callow
 T Elixir of Agony |QID|513|M|48.8,69.3|Z|Undercity|N|To Master Apothecary Faranell inside the Apothecarium.|
 A Elixir of Agony |QID|515|M|48.8,69.3|Z|Undercity|N|From Master Apothecary Faranell.|
 F Tarren Mill|ACTIVE|515|M|63.6,48.6|Z|Undercity|N|At Michael Garrett, Bat Handler.|
-A Soothing Turtle Bisque|QID|7321|M|62.32,19.15|Z|Hillsbrad Foothills|N|From Christophe Jeffcoat.|
-B Soothing Spices|QID|7321|M|62.32,19.15|Z|Hillsbrad Foothills|L|3713 1|N|Buy 1 from Christophe Jeffcoat|
+A Soothing Turtle Bisque|QID|7321|M|62.37,19.07|Z|Hillsbrad Foothills|N|From Christophe Jeffcoat.|
+B Soothing Spices|QID|7321|Z|Hillsbrad Foothills|L|3713 1|N|Buy 1 from Christophe Jeffcoat|
 T Soothing Turtle Bisque|QID|7321|M|62.37,19.07|Z|Hillsbrad Foothills|N|To Christophe Jeffcoat.|
-
-h Tarren Mill|ACTIVE|515|M|62.6,19.0|Z|Hillsbrad Foothills|N|Set your hearthstone to Tarren Mill at Innkeeper Shay.|
+h Tarren Mill|ACTIVE|517|M|62.6,19.0|Z|Hillsbrad Foothills|N|Set your hearthstone to Tarren Mill at Innkeeper Shay.|
 A Humbert's Sword|QID|547|M|62.65,20.16|Z|Hillsbrad Foothills|N|From Deathguart Humbert.|
 A Stone Tokens|QID|556|M|61.50,20.90|Z|Hillsbrad Foothills|N|From Keeper Bel'varil.|
 A The Hammer May Fall|QID|676|M|61.90,19.60|Z|Hillsbrad Foothills|N|From Tallow.|
 A Helcular's Revenge |QID|552|M|63.88,19.66|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
-C Torn Fin Eyes|QID|515|QO|3|M|36.00,66.00|Z|Hillsbrad Foothills|N|Head southwest until you hit the Western Strand with the Murloc Camps. Kill murlocs until you get 5 Torn Fin Eyes.|
-C Elixir of Agony |QID|515|QO|2|M|58.00,64.00|Z|Hillsbrad Foothills|N|Go east and across the river, until you find nagas. Kill them until you have 5 Daggerspine Scales.|
+C Torn Fin Eyes|QID|515|QO|4|M|36.00,66.00|Z|Hillsbrad Foothills|N|Head southwest until you hit the Western Strand with the Murloc Camps. Kill murlocs until you get 5 Torn Fin Eyes.|
+C Elixir of Agony |QID|515|QO|3|M|58.00,64.00|Z|Hillsbrad Foothills|N|Go east and across the river, until you find nagas. Kill them until you have 5 Daggerspine Scales.|
 C Helcular's Revenge |QID|552|M|46.00,30.00|Z|Hillsbrad Foothills|N|Go northwest to the Yeti Cave . Kill yetis until you get Helcular's Rod, which is kinda rare, so just kill a lot of yetis. It might take a long time, so be patient. If it really takes more than 20 minute, try to log out and then back in. For some reason this worked for me a couple of times and the rod dropped on the first few kills after I logged back in, after a 20 minute yeti slaughter with no success.|
 H Tarren Mill|ACTIVE|515|N|Back to Tarren Mill to get some follow ups. This next segment is challenging, if you can find a partner, it will make it much more survivable. If not, be careful!|
-T Elixir of Agony |QID|515|M|61.46,19.11|Z|Hillsbrad Foothills|N|To Apothecary Lydon in Tarren Mill.|
-A Elixir of Agony |QID|517|M|61.46,19.11|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+T Elixir of Agony |QID|515|Z|Hillsbrad Foothills|N|To Apothecary Lydon in Tarren Mill.|
+A Elixir of Agony |QID|517|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
 T Helcular's Revenge |QID|552|M|63.90,19.70|Z|Hillsbrad Foothills|N|To Novice Thaivand.|
 A Helcular's Revenge |QID|553|M|63.90,19.70|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
 A Infiltration|QID|533|M|63.2,20.6|Z|Hillsbrad Foothills|N|From Krusk.|
 A Prison Break In|QID|544|M|61.50,20.90|Z|Hillsbrad Foothills|N|From Magus Wordeen Voidglare.|
-R Dun Garok|ACTIVE|517|M|69,73|N|Run outheast to the Dwarven Fortress of Dun Garok.|
+R Dun Garok|ACTIVE|517|M|69,73|Z|Hillsbrad Foothills|N|Run outheast to the Dwarven Fortress of Dun Garok.|
 C Elixir of Agony |QID|517|M|69.00,73.00|Z|Hillsbrad Foothills|S!US|N|Your first task will be to make yourself a way inside the fortress and find a Keg of Shindigger Stout, they can mostly be found on the side rooms down the stairs.|
 C Humbert's Sword|QID|547|Z|Hillsbrad Foothills|S!US|N|Keep killing dwarves in the fortress until you've completed the kill list of [30]Battle of Hillsbrad and gotten Humbert's Sword.|
 K Captain Ironhill|ACTIVE|541|QO|4|Z|Hillsbrad Foothills|T|Captain Ironhill|N|He can spawn a various locations: * On the top floors, which is good because he can easily be pulled solo there. * On the big middle room down the stairs.|
@@ -200,14 +197,15 @@ T Battle of Hillsbrad |QID|541|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Execu
 A Battle of Hillsbrad |QID|550|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
 T Humbert's Sword|QID|547|M|62.6,20.2|Z|Hillsbrad Foothills|N|To Deathguart Humbert.|
 T Elixir of Agony |QID|524|M|62.8,18.9|Z|Hillsbrad Foothills|N|Go to the inn, on the 2nd floor there's a room with Captured Farmers inside, and click on the "Dusty Rug" on the floor.|
-r Repair, restock, Sell Junk.|ACTIVE|553|M|72.4,33.4|Z|Arathi Highlands|N|At Mu'uta.|
+r Repair, restock, Sell Junk.|ACTIVE|553|M|60.52,26.04|Z|Hillsbrad Foothills|N|At Ott.|
 N Flame of Azel|QID|553|QO|1|NC|M|43.90,28.10|Z|Hillsbrad Foothills|N|Go to the yeti cave and from cave entrance look straight.|
 N Flame of Veraz|QID|553|QO|2|NC|M|44.10,26.60|Z|Hillsbrad Foothills|N|Go back to the entrance and hug the left wall down the ramp to a pool of water.|
 
 ; === 002_35_35_Jame_Alterac_Mountains.lua ===
-R Corahn's Dagger|ACTIVE|533|M|48,83|Z|Hillsbrad Foothills|N|Get out of the yeti cave, go north and slightly northeast, find the plateau named Corahn's Dagger. You'll find a syndicate camp there.|
-C Infiltration|QID|533|M|57,65|Z|Hillsbrad Foothills|N|Kill the syndicate until the Syndicate Missive drops.|
-K Lions|ACTIVE|1136|L|5810|M|42.00,77.00|Z|Hillsbrad Foothills|N|To the north you should see a narrow path to Alterac Mountains. Before you go through this pass, kill some lions in the area until you get a Fresh Carcass.(has a 30 minute decay timer) Avoid the alliance camp near here.|
+R Corahn's Dagger|ACTIVE|533|M|57.00,65.00|Z|Alterac Mountains|N|Get out of the yeti cave, go north and slightly northeast, find the plateau named Corahn's Dagger. You'll find a syndicate camp there.|
+K Syndicate mobs|ACTIVE|533|M|57,65|Z|Alterac Mountains|L|3601|N|Kill the humanoids until the Syndicate Missive drops.|
+K Lions|ACTIVE|1136|L|5810|M|42.00,77.00|Z|Alterac Mountains|N|To the north you should see a narrow path to Alterac Mountains. Before you go through this pass, kill some lions in the area until you get a Fresh Carcass.(has a 30 minute decay timer) Avoid the alliance camp near here.|
+
 C Flame of Uzel|QID|553|QO|3|NC|M|37.50,66.20|Z|Alterac Mountains|N|Go through the snowy path, you should be able to locate a yeti cave soon at the waypoint. Clear yourself a way inside the cave, then click the Flame of Uzel.|
 K Frostmaw|ACTIVE|1136|QO|1|M|37.50,66.30|Z|Alterac Mountains|U|5810|T|Frostmaw|N|When ready, place the Fresh Carcass on the ground near Flame of Uzel and wait a little bit, frotmaw should show up within the next 20 seconds.|
 R Lordmere Internment Camp|ACTIVE|544|M|21,82|Z|Alterac Mountains|N|Exit cave and go west to the plains area, then southwest until you find the Lordamere Internment Camp.|
@@ -228,7 +226,7 @@ L Level Check|ACTIVE|550|LVL|35;64600|N|This should make you nearly 36, if not, 
 R Tarren Mill|ACTIVE|550|Z|Hillsbrad Foothills|N|Run back to Tarren Mill.|
 F Undercity|ACTIVE|550|M|60.2,18.6|Z|Hillsbrad Foothills|N|At Zarise, Bat Handler.|
 T Battle of Hillsbrad |QID|550|M|56.2,91.8|Z|Undercity|N|Go speak to Varimathras, he is in the same room as Sylvana, the banshee queen. This room is behind the Apothecarium, you have to use the gate of the Apothecarium to access it.|
-A Into the Scarlet Monastery |
+A Into the Scarlet Monastery |QID|1048|M|56.2,91.8|Z|Undercity|N|From Varimathras.|
 r Repair, Sell Junk, etc.|ACTIVE|545|N|If you need to go to Orgrimmar and train.|
 F Tarren Mill|ACTIVE|545|M|63.6,48.6|Z|Undercity|N|At Michael Garrett, Bat Handler.|
 R Alterac Mountains|ACTIVE|545|Z|Alterac Mountains|N|Go west and then north into Alterac Mountains, as if you were going to the Lordamere Internment camp.|
@@ -237,8 +235,8 @@ C Bracers of Binding|QID|557|M|20.00,77.00|S|Z|Alterac Mountains|N|Kill elementa
 C Dalaran Patrols|QID|545|M|20.00,77.00|Z|Alterac Mountains|N|Kill the humans until you complete the quest.|
 C Bracers of Binding|QID|557|M|20.00,77.00|Z|Alterac Mountains|US|N|Kill Elementals until you collect the Bracers of Binding.|
 H Tarren Mill|ACTIVE|545|U|6948|Z|Alterac Mountains|N|Run if it's still on cooldown.|
-T Dalaran Patrols|QID|545|M|61.50,20.90|Z|Alterac Mountains|N|To Magus Wordeen Voidglare.|
-T Bracers of Binding|QID|557|M|61.50,20.90|Z|Alterac Mountains|N|To Keeper Bel'varil.|
+T Dalaran Patrols|QID|545|M|61.50,20.90|Z|Hillsbrad Foothills|N|To Magus Wordeen Voidglare.|
+T Bracers of Binding|QID|557|M|61.50,20.90|Z|Hillsbrad Foothills|N|To Keeper Bel'varil.|
 
 ; === 002_35_37_Jame_Arathi_Highlands.lua ===
 F Hammerfall|ACTIVE|677|M|60.2,18.6|Z|Hillsbrad Foothills|N|At Zarise, Bat Handler.|
