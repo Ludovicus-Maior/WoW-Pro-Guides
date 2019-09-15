@@ -5,7 +5,6 @@ local guide = WoWPro:RegisterGuide('Jame-HordeGuide-1', 'Leveling', 'Stonetalon 
 WoWPro:GuideName(guide, 'Horde Guide Part 1')
 WoWPro:GuideLevels(guide, 21, 30, 22)
 WoWPro:GuideNextGuide(guide, 'Jame-HordeGuide-2')
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0.25,0.50,0,0.25})
 WoWPro:GuideSteps(guide, function() return [[
 
@@ -222,12 +221,13 @@ N Things to do...|QID|6544|Z|Ashenvale|N|Kill all the nightelves on the path and
 A Torek's Assault|QID|6544|M|68.34,75.29|Z|Ashenvale|N|Once you accept the quest: Follow Torek into the house.  When inside, 4 elves spawn - Focus on one, let the orcs tank the rest.  If you die, don't release immediately.  You will still get the complete message if Torrek survives and wins the battle.|
 C Torek's Assault|QID|6544|M|68.34,75.29|Z|Ashenvale|N|Follow Torek into the house.  When inside, 4 elves spawn - Focus on one, let the orcs tank the rest.  If you die, don't release immediately.  You will still get the complete message if Torrek survives and wins the battle.|
 
-R Mystral Lake|QID|25|M|52.00,70.00|Z|Ashenvale|
-N Scout the gazebo...|QID|25|QO|3|M|48.90,69.60|Z|Ashenvale|N|Swim to the island at the center of the lake, killing elementals as you go.|
-N Befouled Water Globe|QID|1918|L|16408|M|49.00,71.00|Z|Ashenvale|N|This drops from Tideress, a big elemental, usually down at the bottom of the lake.|
+R Mystral Lake|ACTIVE|25|M|52.00,70.00|Z|Ashenvale|
+C Stonetalon Standstill|QID|25|QO|1|M|48.90,69.60|Z|Ashenvale|S|N|Kill the the elementals as you approch the center of the lake.|
+N Scout the gazebo...|QID|25|QO|2|M|48.90,69.60|Z|Ashenvale|N|Swim to the island at the center of the lake.|
+K Tideress|AVAILABLE|1918|L|16408|M|49.00,71.00|Z|Ashenvale|T|Tideress|N|This drops from Tideress, a big elemental, usually down at the bottom of the lake.|
 A The Befouled Element|QID|1918|U|16408|M|47.70,69.70|Z|Ashenvale|N|Right-click the Befouled Water Globe to start the quest|
-C Stonetalon Standstill|QID|25|M|48.90,69.60|Z|Ashenvale|N|Kill the rest of the elementals you need before leaving the lake.|
-N Ursangous's Paw|QID|23|L|16303|M|41.00,67.00|Z|Ashenvale|N|Ursangous can be found roaming around . He's a bear with swirly marks on his shoulders.|
+C Stonetalon Standstill|QID|25|QO|1|M|48.90,69.60|Z|Ashenvale|US|N|Kill the rest of the elementals you need before leaving the lake.|
+K Ursangous|AVAILABLE|23|L|16303|M|41.00,67.00|Z|Ashenvale|T|Ursangous|N|Ursangous can be found roaming around . He's a bear with swirly marks on his shoulders.|
 A Ursangous's Paw|QID|23|U|16303|M|42.30,65.60|Z|Ashenvale|N|Click Ursangous's Paw to begin the quest.|
 
 ; ----Class Quest-------------------------------------------------------------------------
@@ -308,7 +308,7 @@ C Weapons of Choice|QID|893|M|44.40,80.20|Z|The Barrens|N|Kill Stalkers for a Ba
 A Gann's Reclamation|QID|843|M|46.00,79.10|Z|The Barrens|N|To find Gann Stonespire, he walks up and down the forked-road that leads from Dustwallow marsh to Bael Modan.|
 
 C Gann's Reclamation|QID|843|M|47.00,85.00|Z|The Barrens|QO|1,2|N|Excavators and Foremen are all over the area, kill them until you complete the quest.|S!US|
-K Prospector Khazgorm|QID|843|M|47.6,85.2|Z|The Barrens|QO|3|N|Prospector Khazgorm can be found around.|T|Prospector Khazgorm
+K Prospector Khazgorm|QID|843|M|47.6,85.2|Z|The Barrens|QO|3|N|Prospector Khazgorm can be found in this area.|T|Prospector Khazgorm
 
 T Gann's Reclamation|QID|843|M|46.00,79.10|Z|The Barrens|N|He will be walking up and down the road|
 A Revenge of Gann |QID|846|PRE|843|M|46.00,79.10|Z|The Barrens|N|From Gann|
