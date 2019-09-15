@@ -8,7 +8,7 @@ return [[
 ;transposed from http://www.wow-pro.com/leveling_guides/jame039s_alliance_leveling_guide_chapter_i_3041_old_version and the 2.3 Tourguide version of the guide as a basis by Emmaleah 8/17/19
 ;proofread and improved by Katrex 8/21/19 -- he says not quite done tho
 
-N Things to Buy|N|There are some items that you need to buy off of the Auction House or otherwise acquire.  The guide will remind you each time you are in town until you aquire them, check off manually if you aren't going to at that time and it will pop up again, next time you're in town. first one for a quest in stranglethorn and the other three are needed for Badlands quest - approx level 38-40. These quests are not essential for dungeons, just a fair chunk of XP, so if you can't find the items at a reasonable price, you can skip the quests and grind to make it up.|
+N Things to Buy|QID|1282|N|There are some items that you need to buy off of the Auction House or otherwise acquire.  The guide will remind you each time you are in town until you aquire them, check off manually if you aren't going to at that time and it will pop up again, next time you're in town. first one for a quest in stranglethorn and the other three are needed for Badlands quest - approx level 38-40. These quests are not essential for dungeons, just a fair chunk of XP, so if you can't find the items at a reasonable price, you can skip the quests and grind to make it up.|
 B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn.|ITEM|4278|
 B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
 B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
@@ -108,11 +108,10 @@ A Supply and Demand|QID|575|M|28.3,77.6|Z|Stranglethorn Vale|N|From Drizzlik. Go
 h Booty Bay|QID|1181|M|27.04,77.31|Z|Stranglethorn Vale|N|Make Booty Bay your home location.|
 A Singing Blue Shards|QID|605|M|27.12,77.21|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|
 N Rogue Trainer|QID|616|M|26.81,77.15|Z|Stranglethorn Vale|N|Train from Ian Strom on the 2nd floor of the Inn. Skip when done.|C|Rogue|
-A Investigate the Camp|QID|201|M|26.95,77.21|Z|Stranglethorn Vale|N|From Krazek.|
+A Investigate the Camp|QID|201|M|26.95,77.21|Z|Stranglethorn Vale|N|From Krazek up on the top floor of the Inn.|
 A The Haunted Isle|QID|616|M|26.95,77.21|Z|Stranglethorn Vale|N|From Krazek.|
 A Supplies to Private Thorsen|QID|198|M|26.95,77.21|Z|Stranglethorn Vale|N|From Krazek.|
 A Bloodscalp Ears|QID|189|M|27.0,77.13|Z|Stranglethorn Vale|N|From Kebok.|
-A Hostile Takeover|QID|213|M|27.0,77.13|Z|Stranglethorn Vale|N|From Kebok.|
 T The Haunted Isle|QID|616|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz on the Balcony of the top floor.|
 A The Stone of the Tides|QID|578|M|27.23,76.87|Z|Stranglethorn Vale|N|From Baron Revilgaz on the Balcony of the top floor.|PRE|616|
 T Goblin Sponsorship|QID|1181|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz. (skip followup for now)|
@@ -157,47 +156,54 @@ A Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingw
 A Tiger Mastery|QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|5762|
 A Panther Mastery|QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|5762|
 C Supply and Demand|QID|575|M|40.6,13.3|Z|Stranglethorn Vale|S|N|Kill River Crocolisks and loot their skins.|
-C Tiger Mastery|QID|185|M|32.30,9.40|Z|Stranglethorn Vale|S|N|Kill 10 young tigers For the Tiger Mastery quest.|
 C Panther Mastery|QID|190|M|41.00,10.00|Z|Stranglethorn Vale|S|N|Kill 10 Young Panthers for the Panther Mastery quest.|
+C Tiger Mastery|QID|185|M|32.30,9.40|Z|Stranglethorn Vale|S|N|Kill 10 young tigers For the Tiger Mastery quest.|
 C The Second Rebellion|QID|203|M|44.0,11.2|S!US|Z|Stranglethorn Vale|N|Kill and loot the Kurzen fighters.|
-C Bad Medicine|QID|204|M|44.07,9.61|Z|Stranglethorn Vale|QO|2|N|Loot a Fern Extract from one of the crates by the Kurzen campfire.|
+C Bad Medicine|QID|204|M|44.07,9.61|Z|Stranglethorn Vale|QO|2|NC|N|Loot a Fern Extract from one of the crates by the Kurzen campfire.|
 C Bad Medicine|QID|204|M|44.00,11.00|Z|Stranglethorn Vale|QO|1|N|Loot the Jungle Remedies from Kurzen Medicine Men or Headshrinkers.|
+C Panther Mastery|QID|190|M|41.00,10.00|Z|Stranglethorn Vale|US|N|Finish your Young Panther kills since they spawn in the area.|
 T The Second Rebellion|QID|203|M|38.02,3.33|Z|Stranglethorn Vale|N|To Sergeant Yohwa.|
 T Bad Medicine|QID|204|M|38.02,3.33|Z|Stranglethorn Vale|N|To Sergeant Yohwa.|
-A Special Forces|QID|574|M|38.02,3.33|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
-C Tiger Mastery|QID|185|M|32.30,9.40|Z|Stranglethorn Vale|US|N|Kill the rest of the Young Tigers you need for Tiger Mastery.|
-C Panther Mastery|QID|190|M|41.00,10.00|Z|Stranglethorn Vale|US|N|Kill 10 Young Panthers for the Panther Mastery quest.|
-T Tiger Mastery|QID|185|M|35.62,10.81|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
-A Tiger Mastery|QID|186|M|35.62,10.81|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|185|
+A Special Forces|QID|574|M|38.02,3.33|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|PRE|574|
+C Tiger Mastery|QID|185|M|33.66,11|Z|Stranglethorn Vale|US|N|Kill the rest of the Young Tigers you need for Tiger Mastery.|
+T Tiger Mastery|QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
+A Tiger Mastery|QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|185|
 T Panther Mastery|QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
 A Panther Mastery|QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|190|
-C Panther Mastery|N|Kill Panthers and Tigers until you complete both quests.|QID|191|M|30.00,9.00|Z|Stranglethorn Vale|
-C Tiger Mastery|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|
-C Raptor Mastery|N|Go southwest and kill 10 Stranglethorn Raptors.|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|
-C Bloodscalp Ears|N|Get 15 bloodscalp ears from the Trolls here.  There are several other camps, one at 33,15, that you can kill Trolls at as well.|QID|189|M|29.00,20.00|Z|Stranglethorn Vale|
-C Singing Blue Shards|N|Go west and kill Basilisks until you get ten Singing Crystal Shards.|QID|605|M|26.80,18.70|Z|Stranglethorn Vale|
-C The Stone of the Tides|N|Swim to the island until you get the quest complete message for The Stone of the Tides.|QID|578|M|21.00,22.00|Z|Stranglethorn Vale|
+r Repair and Sell|QID|186|M|35.76,10.66|Z|Stranglethorn Vale|N|Bags will get full quickly here. |
+
+C Raptor Mastery|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|S|N|Go southwest and kill 10 Stranglethorn Raptors.|
+C Tiger Mastery|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|S|N|Kill "Tigers", not the young ones.|
+C Panther Mastery|QID|191|M|30.00,9.00|Z|Stranglethorn Vale|N|Kill "Panthers", not the young ones.|
+C Tiger Mastery|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|US|N|Finish killing Tigers before you move on.|
+C Raptor Mastery|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|US|N|Go southwest and kill 10 Stranglethorn Raptors.|
+C Singing Blue Shards|QID|605|M|26.80,18.70|Z|Stranglethorn Vale|S|N|Feel free to kill Basilisks to the west if you are waiting for respawns.|
+C Bloodscalp Ears|QID|189|M|29.00,20.00|Z|Stranglethorn Vale|N|Get 15 bloodscalp ears from the Trolls here.|
+C Singing Blue Shards|QID|605|M|26.80,18.70|Z|Stranglethorn Vale|US|N|Go west and kill Basilisks until you get ten Singing Crystal Shards.|
+C The Stone of the Tides|QID|578|M|21.00,22.00|Z|Stranglethorn Vale|N|Swim to the island until you get the quest complete message for The Stone of the Tides.|
 T Tiger Mastery|QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
-A Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
+A Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|186|
 T Panther Mastery|QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
-A Panther Mastery|QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin. If you don't mind the run, skip picking this up now, as it will sit in your quest log awile.|
+A Panther Mastery|QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin. If you don't mind the run, skip picking this up now, as it will sit in your quest log awile.|PRE|191|
 T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
-A Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+A Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|PRE|194|
 C Supply and Demand|QID|575|M|40.6,13.3|Z|Stranglethorn Vale|US|N|Kill River Crocolisks and loot their skins.|
-N Green Hills of Stranglethorn|N|Turn in any Green Hills of Stranglethorn quests that you can turn in while you are here.|Z|Stranglethorn Vale|
-K Grind Mobs|QID|195|N|Level Check: 3 bubbles from 34.|LVL|33;46325|
+A The Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot. You must have this quest for the chapter quests to show up.|
+N Green Hills of Stranglethorn|QID|605|M|35.66,10.53|Z|Stranglethorn Vale|N|In an effort to not clutter your quest log, only accept any Green Hills of Stranglethorn quests that you can turn in while you are here. You won't be directed to accept any of these quests.\n\nChapter 1: Pages 1, 4, 6, 8\nChapter 2: Pages 10, 11, 14, 16\nChapter 3: Pages 18, 20, 21, 24\nChapter 4: Pages 25, 26, 27|
+r Repair and Sell|QID|605|M|35.76,10.66|Z|Stranglethorn Vale|N|Bags will get full quickly here. |
+K Grind Mobs|QID|605|N|Level Check: 3 bubbles from 34.|LVL|33;49810|
 
 H The Salty Sailor Tavern|QID|605|N|Hearth to Booty Bay.|Z|Stranglethorn Vale|
-T Singing Blue Shards|QID|605|M|27.1,77.2|Z|Stranglethorn Vale|N|To Crank Fizzlebub. (skip followup for now)|
-T Krazek's Cookery|QID|210|M|26.9,77.2|Z|Stranglethorn Vale|N|To Krazek.|
-A Favor for Krazek|QID|627|M|26.9,77.2|Z|Stranglethorn Vale|N|From Krazek. If you don't have or don't want to get the Bloodstone Ore, skip this.|
-t Favor for Krazek|N|Turn in Favor for Krazek if you have 4 Lesser Bloodstone Ores.|QID|627|M|26.9,77.2|Z|Stranglethorn Vale|
-T Investigate the Camp|QID|201|M|26.9,77.2|Z|Stranglethorn Vale|N|To Krazek.|
-A Return to Corporal Kaleb|QID|622|M|26.9,77.2|PRE|627|Z|Stranglethorn Vale|N|From Krazek.|
-A Hostile Takeover|QID|213|M|27.0,77.1|Z|Stranglethorn Vale|N|To Kebok.|
-T Bloodscalp Ears|QID|189|M|27.0,77.1|Z|Stranglethorn Vale|N|To Kebok.|
-T The Stone of the Tides|QID|578|M|27.2,77.0|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
-A Water Elementals|QID|601|M|27.2,77.0|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
+T Singing Blue Shards|QID|605|M|27.12,77.21|Z|Stranglethorn Vale|N|To Crank Fizzlebub. Skip follow-up for now.|
+T Investigate the Camp|QID|201|M|26.94,77.21|Z|Stranglethorn Vale|N|To Krazek up on the top floor of the Inn.|
+T Krazek's Cookery|QID|210|M|26.94,77.21|Z|Stranglethorn Vale|N|To Krazek up on the top floor of the Inn.|
+A Favor for Krazek|QID|627|M|26.94,77.21|Z|Stranglethorn Vale|N|From Krazek. If you don't have or don't want to get the Bloodstone Ore, skip this.|
+t Favor for Krazek|QID|627|M|26.94,77.21|Z|Stranglethorn Vale|N|Turn in Favor for Krazek if you have 4 Lesser Bloodstone Ores.|
+A Return to Corporal Kaleb|QID|622|M|26.94,77.21|PRE|627|Z|Stranglethorn Vale|N|From Krazek.|
+T Bloodscalp Ears|QID|189|M|27.0,77.13|Z|Stranglethorn Vale|N|To Kebok.|
+A Hostile Takeover|QID|213|M|27.0,77.13|Z|Stranglethorn Vale|N|From Kebok.|
+T The Stone of the Tides|QID|578|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
+A Water Elementals|QID|601|M|27.23,76.87|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
 T Supply and Demand|QID|575|M|28.3,77.6|Z|Stranglethorn Vale|N|To Drizzlik.|
 A Some Assembly Required|QID|577|M|28.3,77.6|Z|Stranglethorn Vale|N|From Drizzlik.|
 N Sell junk, repair, restock|QID|186|N|Sell junk, repair, restock|Z|Stranglethorn Vale|
