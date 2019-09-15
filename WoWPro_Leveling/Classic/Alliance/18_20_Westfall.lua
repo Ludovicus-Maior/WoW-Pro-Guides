@@ -48,8 +48,8 @@ R Sentinel Hill|M|56.3,47.5|N|Run back to Sentinel Hill. You can hearth if you a
 T Red Leather Bandanas|QID|153|M|53.99,52.98|N|To Scout Gillian.}
 T The People's Militia|QID|14|M|56.33,47.52|N|To Gryan Stoutmantle.|
 T The Defias Brotherhood|QID|142|M|56.33,47.52|N|To Gryan Stoutmantle.|
-A The Defias Brotherhood|QID|155|M|55.68, 47.51|N|From The Defias Traitor. May have to wait for him to spawn.|PRE|142|
-C The Defias Brotherhood|QID|155|M|45.55,71.64|N|Escort the NPC to the end of Moonbrook.  Do not let him die.|
+A The Defias Brotherhood|QID|155|M|55.68, 47.51|N|From The Defias Traitor. May have to wait for him to spawn. He takes off running as soon as you accept.|PRE|142|
+C The Defias Brotherhood|QID|155|M|42.53,71.69|N|Escort the NPC to the end of Moonbrook. Do not let him die.|
 T The Defias Brotherhood|QID|155|M|56.3,47.5|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|166|M|56.3,47.5|N|From Gryan Stoutmantle.|PRE|155|;kill vancleef
 A Red Silk Bandanas|QID|214||M|56.67,47.34|N|From Scout Riell on top of the tower.|PRE|155|;can be done just outside or in instane

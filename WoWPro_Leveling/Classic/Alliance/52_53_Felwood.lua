@@ -1,5 +1,5 @@
 TourGuide:RegisterGuide("JamFel5253", "Felwood", "Jame", "52", "53", "JamFer5353", "Alliance", function() return [[
-R Stormwind|AVAILABLE|8460|
+N This guide starts in Astranaar for the run into Felwood. If you arent there, travel to Auberdine (or portal to Darnassus) and fly to Astranaar from there.|AVAILABLE|8460|
 b Darkshore|AVAILABLE|8460|N|Take the boat to Auberdine.|M|4.80,57.20|
 F Astranaar|AVAILABLE|8460|N|Fly Astranaar, Ashenvale.|
 R Raynewood Retreat|AVAILABLE|8460|M|60,60;63,49|CS|N|Follow the road out of Astranaar, and take the North road when it forks towards Raynewood retreat.|

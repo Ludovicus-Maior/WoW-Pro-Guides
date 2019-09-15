@@ -45,12 +45,11 @@ C Galgar's Cactus Apple Surprise|QID|4402|L|11583 10|S|NC|N|Loot Cactus Apples f
 C Sting of the Scorpid|QID|789|S|N|Kill Scorpid Workers and loot their Scorpid Worker Tails.|
 A Sarkoth|QID|790|M|43.83,66.82;40.60,62.59|CS|N|From Hana'zua.|
 C Sting of the Scorpid|QID|789|US|N|Kill Scorpid Workers and loot their Scorpid Worker Tails.|
-L Level 3|LVL|3|N|If you are not yet level 3 grind on mobs.|
 C Sarkoth|QID|790|L|4905|M|40.42,67.35|N|Go up the hill and kill Sarkoth, who roams the hillside. Loot his Mangled Claw.|
 T Sarkoth|QID|790|M|40.60,62.59|N|To Hana'zua.|
 A Sarkoth|QID|804|PRE|790|M|40.60,62.59|N|From Hana'zua.|
 C Galgar's Cactus Apple Surprise|QID|4402|L|11583 10|US|NC|N|Loot Cactus Apples from Cactuses.|
-L Level 4|LVL|4;-700|N|Grind to level 4. The three quests we are about to turn in give 380 + 250 + 100 = 730 XP.|
+L Level 4|LVL|3;-700|N|Grind till your xp bar is more than halfway thru level 3. The three quests we are about to turn in will make you level.|
 T Sting of the Scorpid|QID|789|M|42.06,68.33|N|To Gornek.|
 T Sarkoth|QID|804|M|42.06,68.33|N|To Gornek.|
 r Sell Junk|QID|4402|M|42.59,67.34|N|Right-click this step off once you are finished.|
@@ -119,7 +118,7 @@ N Engineering|ACTIVE|2161|M|52.18,40.80|P|Engineering;202;0;1;75|N|Mukdrak, Jour
 
 T A Peon's Burden|QID|2161|M|51.52,41.65|N|To Innkeeper Grosk.|
 h Razor Hill|QID|784|M|51.52,41.65|N|Set your hearthstone here.|
-L Level 6|LVL|6|N|If you are not yet level 6 grind on mobs.|
+L Level 6|LVL|6|N|If you are not yet level 6 grind on mobs. Visit your trainer, Mages, can go to Sen'jin Village or Orgrimmar, everyone else has a trainer in Razor Hill.|
 
 A Break a Few Eggs|QID|815|M|51.11,42.45|LVL|6||N|From Cook Torka.|
 A Carry Your Weight|QID|791|M|50.07,42.93;49.88,40.38|CS|N|From Furl Scornbrow up the watchtower northwest of Razor Hill.|
@@ -174,7 +173,7 @@ A Winds in the Desert|QID|834|M|46.37,22.94|N|From Rezlak.|
 C Winds in the Desert|QID|834|M|49.40,22.00|NC|N|Go east to the entrance of the Razorwind Canyon. Loot the Sacks of Supplies on the ground.|
 T Winds in the Desert|QID|834|M|46.33,22.94|N|To Rezlak.|
 A Securing the Lines|QID|835|PRE|834|M|46.37,22.94|N|From Rezlak.|
-L Level 10|QID|837|LVL|9;-625|N|If you are not yet level 10 grind a bit on harpies. The quest Encroachment is worth 625 XP, so you need 5875 XP in Level 9.|
+L Level 10|QID|837|LVL|9;-625|N|If you are not yet level 10 grind a bit on harpies. The quest Encroachment is worth 625 XP, so you need to be almost in the last bubble of Level 9.|
 T Encroachment|QID|837|M|51.95,43.50|N|To Gar'Thok.|
 A Therzok|QID|1859|C|Rogue|R|Orc,Troll|M|51.98,43.69|N|From Kaplak.|
 T The Hunter's Path|QID|6069|C|Hunter|R|Orc,Troll|M|51.85,43.49|N|To Thotar.|
@@ -241,7 +240,7 @@ T Dark Storms|QID|806|M|52.25,43.15|N|To Orgnil Soulscar.|
 A Margoz|QID|828|PRE|806|M|52.25,43.15|N|From Orgnil Soulscar.|
 r Sell Junk and Repair|QID|835|M|52.98,41.03|N|Sell Junk and Repair before heading out again.|
 ; --- TODO: test coordinates|
-T Speak with Un'thuwa|QID|1883|C|Mage|R|Orc,Troll|M|56.30,75.10|
+T Speak with Un'thuwa|QID|1883|C|Mage|R|Orc,Troll|M|56.30,75.10|N|Don't forget to train while you are here.|
 A Ju-Ju Heaps|QID|1884|C|Mage|R|Orc,Troll|M|56.30,75.10|
 C Ju-Ju Heaps|QID|1884|C|Mage|R|Orc,Troll|M|67.40,82.60|N|The heaps are among the huts in the Echo Isles.|
 T Ju-Ju Heaps|QID|1884|C|Mage|R|Orc,Troll|M|56.30,75.10|

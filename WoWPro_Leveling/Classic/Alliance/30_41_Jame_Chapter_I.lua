@@ -15,7 +15,7 @@ B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 
 R Theramore Isle|QID|1282|M|58.40,94.00|Z|Dustwallow Marsh|N|Fly/Boat/Run or otherwise make your way to Theramore.|
-f Theramore Flightpoint|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Get the Flightpoint from Baldruc.|
+f Theramore Flightpoint|QID|1039|M|67.44,51.27|Z|Dustwallow Marsh|N|Get the Flightpoint from Baldruc.|
 B Soothing Spices|QID|1218|M|66.44,51.46|Z|Dustwallow Marsh|N|Buy from Helenia Olden.|L|3713 3|
 h Theramore Isle|QID|1282|M|66.60,45.20|Z|Dustwallow Marsh|N|Make Theramore your home location.|
 r Sell junk, repair, restock.|QID|1282|N|Sell junk, repair, restock.|
@@ -93,7 +93,7 @@ T The Black Shield|QID|1319|M|64.75,50.43|Z|Dustwallow Marsh|N|To Caz Twosprocke
 A The Black Shield|QID|1320|M|64.75,50.43|Z|Dustwallow Marsh|N|From Caz Twosprocket.|PRE|1319|
 T The Black Shield|QID|1320|M|68.21,48.62|Z|Dustwallow Marsh|N|To Captain Garran Vimes, 3rd floor of the Citidel.|
 
-F Ratchet|ACTIVE|1111|M|67.47,51.3|Z|Dustwallow Marsh|N|Fly to ratchet if you don't have ratchet skip this and follow the Run steps.|
+F Ratchet|ACTIVE|1111|M|67.44,51.27|Z|Dustwallow Marsh|N|Fly to ratchet if you don't have ratchet skip this and follow the Run steps.|
 R Barrens|ACTIVE|1111|AVAILABLE|1039|M|27.8,46.6|Z|Dustwallow Marsh|N|Follow the road same as you did last time to the Barrens.|
 R Ratchet|ACTIVE|1111|AVAILABLE|1039|M|62.7,36.2|Z|The Barrens|N|Run northeast to Ratchet.|
 T Goblin Sponsorship|QID|1178|M|62.68,36.24|Z|The Barrens|N|To Gazlowe.|
@@ -227,6 +227,7 @@ T Special Forces|QID|574|M|38.0,3.1|Z|Stranglethorn Vale|N|To Lieutenant Doren, 
 A Colonel Kurzen|QID|202|M|38.0,3.1|Z|Stranglethorn Vale|N|From Lieutenant Doren.|
 A Kurzen's Mystery|QID|207|M|38.0,3.1|Z|Stranglethorn Vale|N|From Brother Nimetz.|
 T Return to Corporal Kaleb|QID|622|M|37.8,3.2|N|To Corporal Kaleb.|
+
 H The Salty Sailor Tavern|QID|577|N|Hearth or fly to Booty Bay.|M|38.0,3.1|Z|Stranglethorn Vale|
 T Hostile Takeover|QID|213|M|27.0,77.1|Z|Stranglethorn Vale|N|To Kebok.|
 T Water Elementals|QID|601|M|27.2,77.0|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
@@ -330,8 +331,7 @@ B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
 A Brother Anton|QID|6141|M|42.4,24.4|Z|Stormwind City|N|From Brother Crowley in the Cathedral of Light.|
 
 F Booty Bay|QID|603|N|Fly to Booty Bay.|M|66.28,62.16|Z|Stormwind City|
-T Ansirem's Key|QID|603|Z|Stranglethorn Vale|M|27.24,77.52|N|To Catelyn.|
-A "Pretty Boy" Duncan|QID|610|Z|Stranglethorn Vale|M|27.24,77.52|N|From Catelyn.|
+T Ansirem's Key|QID|603|Z|Stranglethorn Vale|M|27.24,77.52|N|To Catelyn. (skip the followup for now, we will be back for it)|
 b Ratchet|QID|1453|N|Take the boat to Ratchet.|
 F Nigel's Point|QID|1453|N|If you have the Desolace-Nijel's Point flight path, go straight there, otherwise check this off and follow the instructions on how to run there.|
 F Stonetalon Mountains|QID|1453|N|Run or fly to Stonetalon Mountains.|Z|The Barrens|M|63.10,37.15|

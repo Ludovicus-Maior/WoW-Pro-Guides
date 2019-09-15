@@ -161,8 +161,7 @@ A The Master's Glaive|QID|944|N|From Onu.|PRE|948|
 C The Master's Glaive|QID|944|M|39.23,85.49|N|After you see the quest complete, use your Phial of Scrying on the ground next to you and turn it in.|
 T The Master's Glaive|QID|944|M|39.23,85.49|U|5251|N|Use the phial to speak with Onu.|
 A The Twilight Camp|QID|949|N|From Onu through the scrying bowl.|PRE|944|
-C The Twilight Camp|QID|949|M|38.55,86.05|N|Click on the book on the podium.|
-T The Twilight Camp|QID|949|M|38.55,86.05|N|To Twilight Tome.|
+T The Twilight Camp|QID|949|M|38.55,86.05|N|To Twilight Tome, on the podium.|
 A Return to Onu|QID|950|M|38.55,86.05|N|From Twilight Tome.|PRE|949|
 T Return to Onu|QID|950|M|43.5, 76.3|N|To Onu.|
 A Mathystra Relics|QID|951|M|43.5,76.5|N|From Onu.|

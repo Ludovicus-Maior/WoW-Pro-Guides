@@ -205,6 +205,7 @@ N Flame of Veraz|QID|553|QO|2|NC|M|44.10,26.60|Z|Hillsbrad Foothills|N|Go back t
 R Corahn's Dagger|ACTIVE|533|M|57.00,65.00|Z|Alterac Mountains|N|Get out of the yeti cave, go north and slightly northeast, find the plateau named Corahn's Dagger. You'll find a syndicate camp there.|
 K Syndicate mobs|ACTIVE|533|M|57,65|Z|Alterac Mountains|L|3601|N|Kill the humanoids until the Syndicate Missive drops.|
 K Lions|ACTIVE|1136|L|5810|M|42.00,77.00|Z|Alterac Mountains|N|To the north you should see a narrow path to Alterac Mountains. Before you go through this pass, kill some lions in the area until you get a Fresh Carcass.(has a 30 minute decay timer) Avoid the alliance camp near here.|
+
 C Flame of Uzel|QID|553|QO|3|NC|M|37.50,66.20|Z|Alterac Mountains|N|Go through the snowy path, you should be able to locate a yeti cave soon at the waypoint. Clear yourself a way inside the cave, then click the Flame of Uzel.|
 K Frostmaw|ACTIVE|1136|QO|1|M|37.50,66.30|Z|Alterac Mountains|U|5810|T|Frostmaw|N|When ready, place the Fresh Carcass on the ground near Flame of Uzel and wait a little bit, frotmaw should show up within the next 20 seconds.|
 R Lordmere Internment Camp|ACTIVE|544|M|21,82|Z|Alterac Mountains|N|Exit cave and go west to the plains area, then southwest until you find the Lordamere Internment Camp.|
