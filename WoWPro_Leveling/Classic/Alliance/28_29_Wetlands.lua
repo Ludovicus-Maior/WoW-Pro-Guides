@@ -55,6 +55,6 @@ A Southshore|QID|538|M|74.19,7.46|Z|Stormwind City|N|From Milton Sheaf.|PRE|337|
 N Level 30|QID|1248|N|You are not supposed to be level 30 already, you're ahead of the curve, go train new skills now. Close this step when you're done.|LVL|30|
 N Buy/Repair/Sell/Train|QID|1248|N|Be sure to sell, auction, repair and do any major city stuff you need to do before moving on. Close this step when you're done.|
 H Deepwater Tavern|QID|1248|N|Hearth back to Menethil Harbor.|
-T Armed and Ready|QID|1248|M|10.61,60.76|N|To Mikhail. Don't get follow up.|
+T The Missing Diplomat|QID|1248|M|10.61,60.76|N|To Mikhail. Don't get follow up.|
 ]]
 end)
