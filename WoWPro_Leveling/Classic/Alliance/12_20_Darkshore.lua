@@ -129,7 +129,7 @@ C Tharnariun's Hope|QID|2139|M|52.37,35.88;52.71,36.65;51.6, 37.6|CS|N|Pull one 
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12342|M|50.65,34.99|N|Interact with the Blackwood Grain Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12343|M|51.79,33.46|N|Interact with the Blackwood Nut Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|L|12341|M|52.88,33.39|N|Interact with the Blackwood Fruit Stores. Be prepared for 1 or 2 Furbolgs to spawn when you loot.|
-C The Blackwood Corrupted|QID|4763|M|52.5, 33.5|U|12347|N|Use your Filled Cleansing Bowel at the bonfire in the center of the furbolg camp, wait for a second then kill Xabraxxis and loot his bag he drops on the ground.\nBe aware that if you die after using the bowl, you have to abandon the quest and start again from Auberdine.|
+C The Blackwood Corrupted|QID|4763|M|52.5, 33.5|U|12347|N|Use your Filled Cleansing Bowel at the bonfire in the center of the furbolg camp, wait for a second then kill Xabraxxis and loot his bag he drops on the ground.\nBe aware that if you die after using the bowl, you have to abandon the quest and start again from Auberdine. \n Do note, you do not have to kill him to get the bag. As long as you are there when he dies and get to it before it despawns.|
 C Cave Mushrooms|QID|947|M|55,35|N|Collect the needed mushrooms that spawn on the ground.|NC|
 C The Tower of Althalaxx|QID|966|M|55.41,26.86|N|Do not enter the tower. Kill fanatics around the outside.|
 T The Tower of Althalaxx|QID|966|M|54.9,24.9|N|To Balthule Shadowstrike.|
@@ -139,18 +139,37 @@ T Cave Mushrooms|QID|947|M|37.3, 43.7|N|To Barithras Moonshade.|
 A Onu|QID|948|M|37.3, 43.7|N|From Barithras Moonshade.|
 T Tharnariun's Hope|QID|2139|M|38.84,43.42|N|To Tharnariun Treetender.|
 A The Absent Minded Prospector|QID|729|M|37.5,41.9|N|From Archaeologist Hollee.|
+N Leftover quest items|QID|4763|N|If you didn't use your bowl to summon Xabraxxis, you can safely destroy the 4 quest items.|
 T The Blackwood Corrupted|QID|4763|M|37.40,40.13|N|To Thundris Windweaver|
 T Gathering the Cure|QID|6123|C|Druid|M|37.67,40.70|N|To Alanndarian Nightsong.|
+
 A Curing the Sick|QID|6124|C|Druid|M|37.67,40.70|N|From Alanndarian Nightsong.|PRE|6123|
+L Level 16|C|Druid|LVL|16;-1720|N|Make sure you are within 2 bubbles of level 16 before porting to Moonglade.|
 C Curing the Sick|QID|6124|C|Druid|N|They are all over the place. When done, teleport to Moonglade.|U|15826|T|Sickly Deer|NC|
 T Curing the Sick|QID|6124|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze in Moonglade.|
 A Power over Poison|QID|6125|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6124|
 F Rut'theran Village|QID|6125|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
 R Darnassus|QID|6125|C|Druid|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.|
 T Power over Poison|QID|6125|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
-A A Lesson to Learn|QID|27|C|Druid|N|As you can buy travel forms from your trainer, this guide will not cover the rest of the steps. Use Lightheaded, wowhead, wow-pro.com or other online source on how to complete if you want the XP and reputation from these quests.|
-N Druids...|QID|967|C|Druid|N|Return to Auberdine when done with traning and travel form quests if you did those.|
+
+; Druid class quest line to gain swim form
+A A Lesson to Learn|QID|26|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker. This begins your class quest line to learn Aquatic form.|LVL|16|
+P Moonglade|QID|26|C|Druid|Z|Moonglade|N|Use your Moonglade portal spell.|
+T A Lesson to Learn|QID|26|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze.|
+A Trial of the Lake|QID|29|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze. This a 30 minute timed quest.|PRE|26|
+R Lake Elune'ara|QID|29|M|52.72,37.91|Z|Moonglade|N|Run to this rock ledge and JUMP into the water. Make sure you jump or you will take falling damage.|
+C Trial of the Lake|QID|29|C|Druid|N|Search the lake bed for a Shrine Bauble. They can be anywhere in the water. There is a fissure at the bottom of the lake to replenish your breath with.\nOnce you have the Bauble, make your way to the Shrine of Remulos (NW of the lake) and use it within the boundaries of the Shrine. The Bauble has a 5 minute timer attached to it.|U|15877|
+T Trial of the Lake|QID|29|C|Druid|M|36.51,40.12|N|To Tajarri. The quest timer continues running until you speak with her.\n** You will fail the quest if the timer expires.|
+A Trial of the Sea Lion|QID|272|C|Druid|M|36.51,40.12|N|From Tajarri.|PRE|29|
+F Rut'theran Village|QID|272|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
+F Auberdine|QID|272|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
+
 A Fruit of the Sea|QID|1138|M|36.1,44.9|N|From Gubber Blump.|
+
+R Half Pendant of Aquatic Agility|QID|272|C|Druid|M|40.12,46.49;50.75,24.68|CC|N|Leave Auberdine and follow the road north until you reach the bridge over Cliffspring River.|
+C Trial of the Sea Lion|QID|272|C|Druid|M|48.85,11.28|L|15883|N|Jump off the bridge into the water and swim out towards the furthest set of rock islands in front of you. Look for the group of Threshers. They surround the chest you are looking for.\nThe 2nd part of this quest is in Westfall, EK. You'll back-burner this quest chain for now until you are in the area.|NC|
+H Auberdine|QID|1003|C|Druid|N| It's a long run to the quest point. Unless you are looking to do some grinding, you may want to Hearth from here.|
+
 C Buzzbox 525|QID|1003|M|41,80|S|N|Now that we're heading south you will find Grizzled Thistle Bears to kill.|
 C A Lost Master|QID|986|M|42,92|S|N|Slay all Moonstalker Sires and Moonstalker Matriarchs on sight.|
 A Beached Sea Creature|QID|4728|M|36.08,70.92|N|Surrounded by level 15 Murlocks.|
@@ -158,10 +177,11 @@ C WANTED: Murkdeep!|QID|4740|M|36.3,76.5|N|Before you start clearing here is wha
 T Grove of the Ancients|QID|952|M|43.5, 76.3|N|To Onu.|
 T Onu|QID|948|M|43.5,76.3|N|To Onu.|
 A The Master's Glaive|QID|944|N|From Onu.|PRE|948|
-C The Master's Glaive|QID|944|M|39.23,85.49|N|After you see the quest complete, use your Phial of Scrying on the ground next to you and turn it in.|
-T The Master's Glaive|QID|944|M|39.23,85.49|U|5251|N|Use the phial to speak with Onu.|
+C The Master's Glaive|QID|944|M|39.23,85.49|U|5251|N|After you see the quest complete, use your Phial of Scrying.|NC|
+T The Master's Glaive|QID|944|M|39.23,85.49|N|Click on the Bowl of Scrying to speak with Onu.|
 A The Twilight Camp|QID|949|N|From Onu through the scrying bowl.|PRE|944|
-T The Twilight Camp|QID|949|M|38.55,86.05|N|To Twilight Tome, on the podium.|
+C The Twilight Camp|QID|949|M|38.55,86.05|N|Click the book on the podium beside the Disciple. The one beside the Thug is the wrong one.|NC|
+T The Twilight Camp|QID|949|M|38.55,86.05|N|To Twilight Tome.|
 A Return to Onu|QID|950|M|38.55,86.05|N|From Twilight Tome.|PRE|949|
 T Return to Onu|QID|950|M|43.5, 76.3|N|To Onu.|
 A Mathystra Relics|QID|951|M|43.5,76.5|N|From Onu.|
