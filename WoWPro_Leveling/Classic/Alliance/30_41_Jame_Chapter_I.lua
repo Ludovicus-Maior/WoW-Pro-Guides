@@ -466,7 +466,7 @@ r Sell junk, repair|ACTIVE|2500|M|42.4,52.8|Z|Badlands|N|Sell junk, repair|
 T Scrounging|QID|733|M|53.6,43.3|Z|Badlands|N|To Sigrun Ironhew.|
 T Study of the Elements: Rock|QID|711|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
 A Study of the Elements: Rock|QID|712|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
-L Level Check|ACTIVE|2500|L|40|N|Grind if you aren't to level 40 yet.|
+L Level Check|ACTIVE|2500|LVL|40|N|Grind if you aren't to level 40 yet.|
 H Ironforge|ACTIVE|2500|N|Back to Ironforge for training, AH, etc.|
 N Train|ACTIVE|2500|N|Grab your new skills, visit the AH, vendor junk, repair, restock, etc.|
 
