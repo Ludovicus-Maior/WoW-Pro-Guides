@@ -19,10 +19,10 @@ local function handler(msg, editbox)
             ChatFrame1:AddMessage(msg)
         end
     elseif ltoken == 'etrace-start' then
-        WoWPro:print(msg)
+        WoWPro:print(ltoken)
         WoWPro.RegisterAllEvents()
     elseif ltoken == 'etrace-end' then
-        WoWPro:print(msg)
+        WoWPro:print(ltoken)
         WoWPro.UnregisterAllEvents()
         WoWPro:RegisterEvents()
     elseif ltoken == 'clear-log' then
