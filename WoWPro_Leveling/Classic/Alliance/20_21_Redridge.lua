@@ -38,7 +38,7 @@ R Redridge Mountains|QID|126|N|Go to Redridge Mountains.|M|95.17,72.34|
 A The Everstill Bridge|QID|89|M|32.14,48.64|N|From Foreman Oslow.|PRE|125|
 T Ink Supplies|QID|345|M|32.2,48.6|N|To Foreman Oslow.|
 A Rethban Ore|QID|347|M|32.14,48.64|N|From Foreman Oslow.|PRE|345|
-T Messenger to Westfall|QID|144|M|29.99,44.44|Z|Redridge Mountains|N|To Magistrate Solomon.|
+t Messenger to Westfall|QID|144|M|29.99,44.44|Z|Redridge Mountains|N|To Magistrate Solomon.|
 A Messenger to Darkshire|QID|145|M|29.99,44.44|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|144|
 A Selling Fish|QID|127|M|27.8,47.3|N|From Dockmaster Baren.|
 A Murloc Poachers|QID|150|M|27.8,47.3|N|From Dockmaster Baren.|
