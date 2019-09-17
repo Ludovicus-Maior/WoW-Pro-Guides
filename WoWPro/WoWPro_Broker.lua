@@ -2315,6 +2315,7 @@ function WoWPro.CompleteStep(step, why)
 	    local line = string.format("Action=%s|Step=%s|M0=%.2f,%.2f|M1=%.2f,%.2f|Error=%.2f|QID=%s|Vers=%s|Guide=%s",WoWPro.action[step],WoWPro.step[step],Delta[2],Delta[3],Delta[4],Delta[5],Delta[1],qid,WoWPro.Version,GID)
         WoWProDB.global.Deltas = WoWProDB.global.Deltas or {}
 	    table.insert(WoWProDB.global.Deltas, line)
+	    line = line:gsub("|", "¦")
 	    WoWPro:dbp(line)
 	end
 	if WoWPro.action[step] == "D" then
