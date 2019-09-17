@@ -9,7 +9,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 h Darkshire|QID|163|M|73.90,44.40|N|Set your home location to Darkshire.|
-T Messenger to Darkshire|QID|145|M|71.93,46.43|N|To Lord Ello Ebonlocke.|
+t Messenger to Darkshire|QID|145|M|71.93,46.43|N|To Lord Ello Ebonlocke.|
 A Messenger to Darkshire|QID|146|M|71.93,46.43|N|From Lord Ello Ebonlocke.|PRE|145|
 A Raven Hill|QID|163|M|75.33,48.71|N|From Elaine Carevin.|
 A Deliveries to Sven|QID|164|M|75.33,48.71|N|From Elaine Carevin.|
