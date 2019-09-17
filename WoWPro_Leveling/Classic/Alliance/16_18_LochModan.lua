@@ -1,6 +1,6 @@
-local guide = WoWPro:RegisterGuide('classiclochmodan1518', 'Leveling', 'Loch Modan', 'emmaleah', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicLochModan1618', 'Leveling', 'Loch Modan', 'emmaleah', 'Alliance', 1)
 WoWPro:GuideLevels(guide,15, 18)
-WoWPro:GuideNextGuide(guide, 'classicwestfall1820')
+WoWPro:GuideNextGuide(guide, 'ClassicWestfall1820')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Level Range|N|This guide is meant to be done at any point you want to do something besides grind between level 15 and 20. It starts with picking up a quest in Ironforge, then takes place in Loch Modan.|
