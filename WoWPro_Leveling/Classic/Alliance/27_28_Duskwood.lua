@@ -1,7 +1,7 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('ClassicDuskwood2728', 'Leveling', 'Duskwood', 'Boston', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicDuskwood2728', 'Leveling', 'Duskwood', 'Elidion', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Duskwood 27-28')
 WoWPro:GuideLevels(guide, 27, 28, 27)
 WoWPro:GuideNextGuide(guide, 'ClassicWetlands2829')
@@ -16,8 +16,8 @@ A The Totem of Infliction|QID|101|M|75.8,45.3|N|From Madame Eva.|
 A Deliver the Thread|QID|157|M|75.8,45.3|N|From Madame Eva.|PRE|154|
 A Worgen in the Woods|QID|173|M|75.75,47.56|N|From Calor.|
 A The Night Watch|QID|57|M|73.56,46.85|N|From Commander Althea Ebonlocke.|PRE|56|
-T The Legend of Stalvan |QID|66|M|72.5,46.8|N|To Clerk Daltry.|
-A The Legend of Stalvan |QID|67|M|72.5,46.8|N|From Clerk Daltry.|
+T The Legend of Stalvan|QID|66|M|72.5,46.8|N|To Clerk Daltry.|
+A The Legend of Stalvan|QID|67|M|72.5,46.8|N|From Clerk Daltry.|
 N Level 27|QID|175|N|You should be level 27 or close. If you are behind, keep following the guide normally, but kill more stuff on the way. Close this step.|LVL|-27|
 h Darkshire|QID|175|N|Set your home location to Darkshire.|M|73.90,44.40|
 A Seasoned Wolf Kabobs|QID|90|M|73.77,43.51|N|From Chef Graul|
@@ -31,7 +31,7 @@ T Look To The Stars|QID|177|M|79.79,48.06|N|To Viktori Prism'Antras.|
 A Look To The Stars|QID|181|M|79.79,48.06|N|From Viktori Prism'Antras.|PRE|177|
 C Worgen in the Woods|QID|173|M|63.00,70.00|N|Kill the mobs needed for the quest.|
 C Seasoned Wolf Kabobs|QID|90|M|60,59|N|Kill wolves (Ravagers) until you've looted 10 Lean Wolf Flanks.|L|1015 10|
-T Sven's Revenge|QID|95|M|49.87,77.70|N|To a Mound of loose dirt.|
+t Sven's Revenge|QID|95|M|49.87,77.70|N|To a Mound of loose dirt.|
 A Sven's Camp|QID|230|M|49.87,77.70|N|From a Mound of loose dirt.|PRE|95|
 T Deliver the Thread|QID|157|M|28.11,31.47|N|To Abercrombie. Lots of spiders on the way.|
 A Zombie Juice|QID|158|M|28.11,31.47|N|From Abercrombie.|
@@ -40,7 +40,7 @@ T Return to Jitters|QID|240|M|18.13,56.32|N|To Jitters.|
 K Spiders|QID|101|M|28,50|US|QO|2|N|Kill the Black Widow Hatchlings around the eastern edge of this area until you get 5 Vials of Spider Venom.|
 T Sven's Camp|QID|230|M|7.79,33.99|N|To Sven Yorgen.|
 A The Shadowy Figure|QID|262|M|7.79,33.99|N|From Sven Yorgen.|PRE|230|
-T Mathias and the Defias|QID|2360|M|68.4,70.2|Z|Westfall|N|To Agent Kearnen. You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|
+t Mathias and the Defias|QID|2360|M|68.4,70.2|Z|Westfall|N|To Agent Kearnen. You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|
 A Klaven's Tower|QID|2359|M|68.4,70.2|Z|Westfall|N|From Agent Kearnen. You will need at least 70 in Lockpicking to complete this quest.|C|Rogue|PRE|2360|
 C Klaven's Tower|QID|2359|M|70,75|Z|Westfall|QO|2|N|Pickpocket from the Malformed Defias Drone that roams around. If he doesn't have it you have to wait for him to despawn and respawn.|C|Rogue|
 C Klaven's Tower|QID|2359|M|70.4,73.93|Z|Westfall|QO|1|N|Sneak to the top of the tower, sap the boss and lockpick the box.|C|Rogue|
@@ -48,7 +48,7 @@ N Touch of Zanzil|QID|2359|N|You can't stealth anymore because of this annoying 
 N Lockpicking|QID|2359|N|You can level your lockpicking skill up to 170 on this chest. Highly recommend doing it. Close this step.|C|Rogue|
 T The Legend of Stalvan|QID|67|M|41.51,66.72|Z|Westfall|N|To Old Footlocker. On the floor.|
 A The Legend of Stalvan |QID|68|M|41.51,66.72|Z|Westfall|N|From Old Footlocker. On the floor.|PRE|67|
-T The Tome of Valor|QID|1650|M|41.6,88.6|Z|Westfall|N|Travel to Westfall and find Daphne Stilwell.|C|Paladin|
+t The Tome of Valor|QID|1650|M|41.6,88.6|Z|Westfall|N|Travel to Westfall and find Daphne Stilwell.|C|Paladin|
 T The Tome of Valor|QID|1650|M|41.6,88.6|Z|Westfall|N|To Daphne Stilwell.|C|Paladin|
 A The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|From Daphne Stilwell.|PRE|1650|C|Paladin|
 C The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|Protect her from 3 waves of enemies.|C|Paladin|
