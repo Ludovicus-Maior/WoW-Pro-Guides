@@ -29,6 +29,8 @@ local function handler(msg, editbox)
         WoWPro:LogClear("Command Line")
     elseif ltoken == 'log' then
         WoWPro:LogShow()
+    elseif ltoken == 'guide-bug' then
+        WoWPro:GuideBugReport()
     elseif ltoken == "taint" then
         WoWProDB.global.Tainted = {}
         local now = date("%Y%m%d%H%M")
