@@ -1521,7 +1521,7 @@ function WoWPro.NextStep(k,i)
             offset = tonumber(offset)
             if WoWPro.action[k] == "L" then
                 -- The simple case
-                if (level < UnitLevel("player")) and not offset then
+                if (level <= UnitLevel("player")) and not offset then
                     skip = true
                     WoWPro:dbp("Skip %s [%s] because its level %d is too low.",WoWPro.action[k],WoWPro.step[k],level)
                     WoWPro.why[k] = "NextStep(): Skipping step because player level not high enough."
@@ -1649,7 +1649,7 @@ function WoWPro.NextStep(k,i)
 
                     -- zero proflvl special unskip logic
                 elseif proflvl == 0 then
-                    WoWPro.why[k] = string.format("Prof unskip qid %s for no %s for provlvl == 0", WoWPro.QID[k] or "unknown", profName)
+                    WoWPro.why[k] = string.format("Prof unskip qid %s for no %s for provlvl == 0", (WoWPro.QID[k] or "NONE"), profName)
                     WoWPro:dbp(WoWPro.why[k])
                     skip = false
 
@@ -1658,7 +1658,7 @@ function WoWPro.NextStep(k,i)
                     WoWPro.why[k] = "NextStep(): Permanently skipping step because player does not have the profession."
                     WoWProCharDB.Guide[GID].skipped[k] = true
                     WoWPro:SetQIDsInTable(QID, WoWProCharDB.skippedQIDs)
-                    WoWPro:dbp("Prof permaskip qid %s for no %s", WoWPro.QID[k], prof)
+                    WoWPro:dbp("Prof permaskip qid %s for no %s", (WoWPro.QID[k] or "NONE"), prof)
                     skip = true
                     break
                 else
@@ -2608,6 +2608,22 @@ function WoWPro.ProcessScenarioCriteria(punt)
     else
         WoWPro:dbp("WoWPro.ProcessScenarioCriteria(): PUNT!")
     end
+end
+
+function WoWPro:QuestLogStatus()
+    local text = "QuestLogStatus:\n"
+	for QID, questInfo in pairs(WoWPro.QuestLog) do
+        local line
+        line = string.format("QID: %d, [%s] complete %s\n", QID, WoWPro.QuestLog[QID].title, tostring(WoWPro.QuestLog[QID].complete))
+        text = text .. line
+        if WoWPro.QuestLog[QID].leaderBoard then
+            for idx, status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
+                line = string.format("QID: %d, QO¦%d¦%s\n", QID, idx, status)
+                text = text .. line
+            end
+        end
+	end
+    return text
 end
 
 local function is_int(number)
