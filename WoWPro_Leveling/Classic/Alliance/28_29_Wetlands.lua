@@ -1,19 +1,19 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('ClassicWetlands2829', 'Leveling', 'Wetlands', 'Boston', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicWetlands2829', 'Leveling', 'Wetlands', 'Elidion', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Wetlands 28-29')
 WoWPro:GuideLevels(guide, 28, 29, 28)
 WoWPro:GuideNextGuide(guide, 'ClassicAshenvale2930')
 WoWPro:GuideSteps(guide, function() return [[
 
 F Ironforge|QID|1653|M|77.50,44.30|N|Fly to Ironforge.|C|Paladin|
-T The Test of Righteousness|QID|1653|M|52.6,36.8|Z|Dun Morogh|N|To Jordan Stilwell right outside of the gates of Ironforge.|C|Paladin|
+t The Test of Righteousness|QID|1653|M|52.6,36.8|Z|Dun Morogh|N|To Jordan Stilwell right outside of the gates of Ironforge.|C|Paladin|
 A The Test of Righteousness|QID|1654|M|52.6,36.8|Z|Dun Morogh|N|From Jordan Stilwell. We won't follow the rest of this quest as it takes you all over the world to complete, but you now have the quest in your logs to complete as you see fit.|C|Paladin|PRE|1653|
 F Menethil Harbor|QID|270|M|55.3,47.6|N|Fly to Menethil Harbor.|Z|Ironforge|C|Paladin|
 F Menethil Harbor|QID|270|M|77.50,44.30|N|Fly to Menethil Harbor.|C|-Paladin|
 h Deepwater Tavern|QID|270|N|Go to the inn and make it your home location.|M|10.70,60.95|
-T The Doomed Fleet|QID|270|M|10.6,60.6|N|To Glorin Steelbrow.|
+t The Doomed Fleet|QID|270|M|10.6,60.6|N|To Glorin Steelbrow.|
 A Lightforge Iron|QID|321|M|10.6,60.6|N|From Glorin Steelbrow.|PRE|270|
 A The Cursed Crew|QID|289|M|10.9,59.66|N|From First Mate Fitzsimmons.|PRE|288|
 A Fall of Dun Modr|QID|472|M|10.84,55.89|N|From Harlo Barnaby.|
@@ -38,7 +38,7 @@ A Cleansing the Eye|QID|293|M|10.6,60.6|N|From Glorin Steelbrow.|PRE|292|
 T The Lost Ingots|QID|324|M|10.6,60.6|N|To Glorin Steelbrow.|
 A Blessed Arm|QID|322|M|10.6,60.6|N|From Glorin Steelbrow.|
 F Stormwind City|QID|322|N|Fly to Stormwind|M|9.50,59.70|
-T The Missing Diplomat|QID|1245|M|59.90,64.19|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
+t The Missing Diplomat|QID|1245|M|59.90,64.19|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
 A The Missing Diplomat|QID|1246|M|59.90,64.19|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1245|
 T The Missing Diplomat|QID|1246|M|70.56,44.89|Z|Stormwind City|N|To Dashel Stonefist.|
 A The Missing Diplomat|QID|1447|M|70.56,44.89|Z|Stormwind City|N|From Dashel Stonefist. Be ready for a fight. Just focus on him, he will give up at about 1/3 health and call off his goons.|PRE|1246|
@@ -50,7 +50,7 @@ A The Missing Diplomat|QID|1248|M|59.90,64.19|Z|Stormwind City|N|From Elling Tri
 T Cleansing the Eye|QID|293|M|39.6,27.23|Z|Stormwind City|N|To Archbishop Benedictus.|
 T Blessed Arm|QID|322|M|51.75,12.12|Z|Stormwind City|N|To Grimand Elmore.|
 A Armed and Ready|QID|325|M|51.75,12.12|Z|Stormwind City|N|From Grimand Elmore.|PRE|325|
-T An Old History Book|QID|337|ACTIVE|337|M|74.19,7.46|Z|Stormwind City|N|To Milton Sheaf.|
+t An Old History Book|QID|337|ACTIVE|337|M|74.19,7.46|Z|Stormwind City|N|To Milton Sheaf.|
 A Southshore|QID|538|M|74.19,7.46|Z|Stormwind City|N|From Milton Sheaf.|PRE|337|
 N Level 30|QID|1248|N|You are not supposed to be level 30 already, you're ahead of the curve, go train new skills now. Close this step when you're done.|LVL|30|
 N Buy/Repair/Sell/Train|QID|1248|N|Be sure to sell, auction, repair and do any major city stuff you need to do before moving on. Close this step when you're done.|
