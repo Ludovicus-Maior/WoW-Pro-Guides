@@ -6,6 +6,8 @@ WoWPro:GuideName(guide, 'Duskwood 27-28')
 WoWPro:GuideLevels(guide, 27, 28, 27)
 WoWPro:GuideNextGuide(guide, 'ClassicWetlands2829')
 WoWPro:GuideSteps(guide, function() return [[
+    
+;This is a near complete rewrite of the original Boston guide but polished, reorganized,  more efficent quest grouping, additional quests. 
 B Bronze Tube|QID|174|M|53.19,60.7|Z|Stormwind City|N|Oops, you didn't buy it earlier. Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
 A An Old History Book|QID|337|M|7.79,33.99|U|2794|N|Click the book to accept the quest.|
 A Look To The Stars|QID|174|M|79.79,48.06|N|From Viktori Prism'Antras.|
