@@ -256,7 +256,9 @@ function WoWPro:LogClear(where)
     end
     WoWPro.Serial = 999999999
     WoWPro:Print("Log Reset from %s, WoWPro Version %s.", where, WoWPro.Version)
-    WoWPro:print("Unit: %s, Realm: %s, Class: %s, Race: %s, Faction: %s", UnitName("player"), GetRealmName(), UnitClass("player"), UnitRace("player"), UnitFactionGroup("player"))
+    WoWPro:print("Class: %s, Race: %s, Faction: %s, Level %d, XP %d",
+                 UnitClass("player"), UnitRace("player"),
+                 UnitFactionGroup("player"), UnitLevel("player"), UnitXP("player"))
 end
 
 WoWPro:LogClear("Addon Load")
