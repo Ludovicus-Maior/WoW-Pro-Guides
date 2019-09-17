@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('JameAlli_II', 'Leveling', 'Stranglethorn Vale', 'Jame', 'Alliance', 1)
 WoWPro:GuideLevels(guide,41, 50)
-WoWPro:GuideNextGuide(guide, 'JameAlli_III')
+WoWPro:GuideNextGuide(guide, 'JamSea5051')
 WoWPro:GuideName(guide, 'Jame Chapter II Leveling')
 WoWPro:GuideIcon(guide, "ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0.50,0.75})
 WoWPro:GuideSteps(guide, function()
