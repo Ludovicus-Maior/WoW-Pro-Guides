@@ -648,6 +648,21 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	return i
 end
 
+function WoWPro:GuideStatus()
+    local text = "GuideStatus:\n"
+
+    -- Set start/finish based on what is visible
+    for i = 1,15 do
+        local index = WoWPro.rows[i].index
+        if WoWPro.rows[i]:IsVisible() then
+            line = WoWPro.EmitStep(index)
+            line = line:gsub("||", "¦")
+            text = text .. line .. "\n"
+        end
+    end
+
+    return text
+end
 
 function WoWPro.ClearNpcFauxQuests(GID)
     for k, v in pairs(WoWProDB.global.NpcFauxQuests) do
