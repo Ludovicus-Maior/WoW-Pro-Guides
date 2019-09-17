@@ -1,7 +1,7 @@
 -- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
-local guide = WoWPro:RegisterGuide('ClassicAshenvale2930', 'Leveling', 'Ashenvale', 'Boston', 'Alliance', 1)
+local guide = WoWPro:RegisterGuide('ClassicAshenvale2930', 'Leveling', 'Ashenvale', 'Elidion', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Ashenvale 29-30')
 WoWPro:GuideLevels(guide, 29, 30, 29)
 WoWPro:GuideNextGuide(guide, 'JameAlli_I')
