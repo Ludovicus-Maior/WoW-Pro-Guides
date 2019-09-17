@@ -2618,7 +2618,8 @@ function WoWPro:QuestLogStatus()
         text = text .. line
         if WoWPro.QuestLog[QID].leaderBoard then
             for idx, status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
-                line = string.format("QID: %d, QO¦%d¦%s\n", QID, idx, status)
+                local finished = WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].ocompleted and WoWPro.QuestLog[QID].ocompleted[idx]
+                line = string.format("QID: %d, QO¦%d¦%s %s\n", QID, idx, status, tostring(finished))
                 text = text .. line
             end
         end
