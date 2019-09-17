@@ -311,6 +311,81 @@ DefineTag("C",nil,"string",nil,function (value,i) end)  -- Swallow C tags
 DefineTag("GEN",nil,"string",nil,function (value,i) end)  -- Swallow Gen tags
 DefineTag("RANK","rank","number",nil,nil)
 
+local function addTagValue(line, tag, value)
+	line = line..tag.."||"
+	if value == nil or value == false then
+	    line = line.." ||"
+	else
+	    line = line..tostring(value).."||"
+	end
+	return line
+end
+
+local function addTag(line, tag)
+	line = line..tag.."||"
+	return line
+end
+
+
+function WoWPro.EmitStep(i)
+    local GID = WoWProDB.char.currentguide
+
+    if type(WoWPro.action[i]) ~= "string" or type(WoWPro.step[i]) ~= "string" then
+        return ""
+    end
+
+    local line = WoWPro.action[i].." "..WoWPro.step[i].."||"
+
+    for idx=1,#WoWPro.TagList do
+        local tag = WoWPro.TagList[idx]
+        local key = WoWPro.TagTable[tag].key
+        -- Special tags get handled first
+        if key == "lootitem" and WoWPro.lootitem[i] then
+            if WoWPro.lootqty[i] then
+                line = addTagValue(line, tag, WoWPro.lootitem[i].." "..WoWPro.lootqty[i])
+            else
+                line = addTagValue(line, tag, WoWPro.lootitem[i])
+            end
+        elseif key == "sticky" then
+            if WoWPro.sticky[i] and WoWPro.unsticky[i] then
+                line = addTag(line, "S!US")
+            elseif  WoWPro.sticky[i] and not WoWPro.unsticky[i] then
+                line = addTag(line, "S")
+            elseif  WoWPro.unsticky[i] and not WoWPro.sticky[i] then
+                line = addTag(line, "US")
+            end
+        elseif key == "unsticky" then
+            line = line
+        elseif tag == "CC" then
+            if WoWPro.waypcomplete[i] == 1 then
+                line = addTag(line, "CC")
+            elseif WoWPro.waypcomplete[i] == 2 then
+                line = addTag(line, "CS")
+            elseif WoWPro.waypcomplete[i] == 0 then
+                line = addTag(line, "CN")
+            end
+        elseif tag == "CS" or tag == "CN" then
+            line = line
+        elseif tag == "Z" then
+            -- Suppress zone tags that are dupes of the master zone
+            if WoWPro.zone[i] and WoWPro.zone[i] ~= WoWPro.Guides[GID].zone then
+                line = addTagValue(line, tag, WoWPro.zone[i])
+            end
+        elseif tag and WoWPro.TagTable[tag].vtype == "boolean" then
+            -- No value
+            if WoWPro[key][i] then
+                line = addTag(line, tag)
+            end
+        elseif key then
+            -- Everything else is a value
+            if WoWPro[key][i] then
+                line = addTagValue(line, tag, WoWPro[key][i])
+            end
+        end
+    end
+    return line
+end
+
 function WoWPro.ParseQuestLine(faction, zone, i, text)
 	local GID = WoWProDB.char.currentguide
 
@@ -573,6 +648,21 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	return i
 end
 
+function WoWPro:GuideStatus()
+    local text = "GuideStatus:\n"
+
+    -- Set start/finish based on what is visible
+    for i = 1,15 do
+        local index = WoWPro.rows[i].index
+        if WoWPro.rows[i]:IsVisible() then
+            line = WoWPro.EmitStep(index)
+            line = line:gsub("||", "¦")
+            text = text .. line .. "\n"
+        end
+    end
+
+    return text
+end
 
 function WoWPro.ClearNpcFauxQuests(GID)
     for k, v in pairs(WoWProDB.global.NpcFauxQuests) do

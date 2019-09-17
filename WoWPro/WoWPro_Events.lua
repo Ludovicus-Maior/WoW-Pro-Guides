@@ -949,6 +949,7 @@ WoWPro.RegisterEventHandler("QUEST_LOG_UPDATE", function (event,...)
 
 WoWPro.RegisterEventHandler("UI_INFO_MESSAGE", function (event,...)
 	WoWPro:AutoCompleteGetFP(event,...)
+	WoWPro:UpdateGuide(event)
     end)
 
 WoWPro.RegisterEventHandler("PLAYER_TARGET_CHANGED", function (event,...)

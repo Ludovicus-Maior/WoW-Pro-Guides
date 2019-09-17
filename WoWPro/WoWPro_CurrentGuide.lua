@@ -235,4 +235,18 @@ frame:SetScript("OnShow", function()
 end )
 
 
+function WoWPro:GuideBugReport()
+    -- Lets display a debug like window with all the right stuff
+    WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("WoWPro Guide Bug Report","Hit escape to dismiss")
+    local LogBox = WoWPro.LogBox
+    local text
+    local GID = WoWProDB.char.currentguide
+    text = string.format("Version: %s, Class: %s, Race: %s, Faction: %s, Guide: %s\n\n", WoWPro.Version, UnitClass("player"), UnitRace("player"), UnitFactionGroup("player"), tostring(GID))
+    text = text .. WoWPro:QuestLogStatus() .. "\n"
+    text = text .. WoWPro:GuideStatus() .. "\n"
+    LogBox.Box:SetText( text )
+    LogBox.Scroll:UpdateScrollChildRect()
+    LogBox:Show()
+    WoWPro:Print("WoWPro:GuideBugReport(): ready to copy/paste!")
+end
 

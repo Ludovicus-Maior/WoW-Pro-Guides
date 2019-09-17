@@ -59,39 +59,39 @@ T Call of Fire|QID|1527|C|Shaman|M|55.86,19.94|Z|The Barrens|N|To Kranal Fiss.|
 
 C Plainstrider Menace|QID|844|M|52.23,31.01|N|Get back into town, kill Plainstriders along the way to the Crossroads for their beaks.|
 T Plainstrider Menace|QID|844|N|Get back into town, talk to Sergra Darkthorn.|M|52.23,31.01|
+A The Zhevra|QID|845|PRE|844|M|52.23,31.01|N|From Sergra Darkthorn.|
 A The Forgotten Pools|QID|870|M|52.26,31.93|N|From Tonga Runetotem.|
-A The Zhevra|QID|845|M|52.23,31.01|N|From Sergra Darkthorn.|
 A Fungal Spores|QID|848|M|51.45,30.15|N|From Apothecary Helbrim.|
 
 C The Zhevra|QID|845|N|Kill Zhevra and loot their hooves|S!US|
 A Centaur Bracers|QID|855|N|You get this and the next quest from an orc in a bunker west of the Crossroads.|M|45.3,28.4|
-A Kolkar Leaders|QID|850|M|45.3,28.4|
+A Kolkar Leaders|QID|850|M|45.3,28.4|N|From Regthar Deathgate.|
 
 C Centaur Bracers|QID|855|S|N|Kill centaurs and loot their bracers|
 C Fungal Spores|QID|848|N|Head north to the pool and pick up mushrooms, be careful of big packs of centaurs.|M|44.8,22.9|
 C The Forgotten Pools|QID|870|N|Get into the lake, and look for a crack in the floor with some bubbles flowing out of it. Swim over the bubbles.|M|45.08,22.53|
 C Kolkar Leaders|QID|850|N|Head west towards a small gazeebo-like building up on a hill. Just outside that building will be Barak Kodobane, with one patroller nearby. CAREFULLY pull the patroller, and kill him one on one, then Kill Barak Kodobane. It's a tough fight, try coming back after you gain a level if you can't get him at first.|M|42.8,23.6|
 
-T Kolkar Leaders|QID|850|N|Head south to the bunker.|M|45.3,28.4|
-A Verog the Dervish|QID|851|M|45.3,28.4|
+T Kolkar Leaders|QID|850|N|To Regthar Deathgate.\nHead south to the bunker.|M|45.3,28.4|
+A Verog the Dervish|QID|851|M|45.3,28.4|N|From Regthar Deathgate|
 
 C The Zhevra|QID|845|N|Kill off any more Zhevra you need on your way back to the Crossroads.|M|52.23,31.01|
 T The Zhevra|QID|845|N|Head back to The Crossroads.|M|52.23,31.01|
-A Prowlers of the Barrens|QID|903|M|52.23,31.01|N|From Sergra Darkthorn.|
+A Prowlers of the Barrens|QID|903|PRE|845|M|52.23,31.01|N|From Sergra Darkthorn.|
 T The Forgotten Pools|QID|870|M|52.26,31.93|N|To Tonga Runetotem.|
 A The Stagnant Oasis|QID|877|M|52.26,31.93|N|From Tonga Runetotem.|
 T Fungal Spores|QID|848||M|51.44,30.15|N|To Apothecary Helbrim.\nDon't take the follow up, its a timed quest, we'll get to it later.|
 A Wharfmaster Dizzywig|QID|1492|M|51.45,30.15|N|From Apothecary Helbrim.|
 
 C Call of Fire|QID|1525|C|Shaman|N|Kill Razormane spellcasters of any type until one drops Fire Tar.|
-T Call of Fire|QID|1525|C|Shaman|N|Head back into Durotar to turn in your class quest, at the same twisty mountain path as before.|
-A Call of Fire|QID|1526|C|Shaman|
+T Call of Fire|QID|1525|C|Shaman|M|38.96,58.22|Z|Durotar|N|To Telf Joolam; Head back into Durotar to turn in your class quest, at the same twisty mountain path as before.|
+A Call of Fire|QID|1526|C|Shaman|M|38.96,58.22|Z|Durotar|N|From Telf Joolam|
 C Call of Fire|QID|1526|C|Shaman|U|6636|N|Use your Fire Sapta, go to the end of the trail, and kill the fire elemental there. Loot him, then right click the altar behind him.|
-T Call of Fire|QID|1526|C|Shaman|
-A Call of Fire|QID|1527|C|Shaman|
-T Call of Fire|QID|1527|C|Shaman|N|Back to the Barrens. This will get you your fire totems, congradulations!|
+T Call of Fire|QID|1526|C|Shaman|M|38.96,58.22|Z|Durotar|N|To Brazier of the Dormant Flame|
+A Call of Fire|QID|1527|C|Shaman|M|38.96,58.22|Z|Durotar|N|From Brazier of the Dormant Flame|
+T Call of Fire|QID|1527|C|Shaman|M|55.8,20.0|N|To Kranal Fiss, in the Barrens. This will get you your fire totems, congradulations!|
 
-T Thun'grim Firegaze|QID|1502|C|Warrior|N|He's up on top of the mountain.|M|57.22,30.35|
+T Thun'grim Firegaze|QID|1502|C|Warrior|N|He's up on top of the mountain.|M|54.31,27.83;57.22,30.35|CS|
 A Forged Steel|QID|1503|C|Warrior|M|57.22,30.35|
 C Forged Steel|QID|1503|C|Warrior|N|The chest is down among the quilboar|M|55.0,26.6|
 
@@ -120,7 +120,7 @@ C Prowlers of the Barrens|QID|903|N|Head west, you will see a cliff to the north
 C Raptor Thieves|QID|869|US|M|52.23,31.01|N|Get your last raptor heads on the way back to the Crossroads.|
 
 T Prowlers of the Barrens|QID|903|N|Head back to The Crossroads.|M|52.23,31.01|
-A Echeyakee|QID|881|M|52.22,31.02|N|From Sergra Darkthorn.|
+A Echeyakee|QID|881|PRE|903|M|52.22,31.02|N|From Sergra Darkthorn.|
 T Disrupt the Attacks|QID|871|M|51.50,30.87|N|To Thork.|
 A The Disruption Ends|QID|872|M|51.50,30.87|N|From Thork.|
 T Raptor Thieves|QID|869|M|51.93,30.32|N|To Gazrog|
@@ -142,8 +142,8 @@ F Camp Taurajo|QID|853|R|-Tauren|N|If you have the Flight Point, otherwise compl
 R Camp Taurajo|QID|853|M|52.06,32.10;51.07,49.00;49.33,50.34;47.31,57.64;46.29,58.00|CS|N|Run to Taurajo. Inspect the "Beaten Corpse" in the buildings.|
 f Camp Taurajo|QID|853|M|44.44,59.15|Z|The Barrens|N|Get the flight point at Omusa Thunderhorn.|
 C Lost in Battle|QID|4921|N|Mankrik's wife is the "Beaten Corpse" found near a few small tauren buildings.|M|49.33,50.34|
-F Camp Taurajo|QID|853|R|Tauren|N|Remember the long run you had to do just to get to The Crossroads? Well, it's about to pay off! Fly straight to Thunder Bluff.|
-F Camp Taurajo|QID|853|R|-Tauren|N|If you have the Flight Point, otherwise complete this step and RUN!|
+F Thunder Bluff|QID|853|R|Tauren|N|Remember the long run you had to do just to get to The Crossroads? Well, it's about to pay off! Fly straight to Thunder Bluff.|
+F Thunder Bluff|QID|853|R|-Tauren|N|If you have the Flight Point, otherwise complete this step and RUN!|
 R Thunder Bluff|QID|853|M|68.35,60.68;51.25,58.96;46.76,51.95;37.16,31.89|CS|Z|Mulgore|N|Run to Thunder Bluff.|
 T Apothecary Zamah|QID|853|M|30.04,29.83;22.90,21.03|CS|Z|Thunder Bluff|N|To Apothecary Zamah.\nHead to the Pools of Vision, underneath Spirit Rise.|
 A Serpentbloom|QID|962|M|22.90,21.03|Z|Thunder Bluff|N|From Apothecary Zamah, Spirit Rise. (Dungeon Quest)|
@@ -160,20 +160,22 @@ T Samophlange|QID|901|N|At this point, you can throw away the Control Console Op
 A Samophlange|QID|902|M|52.4,11.7|
 
 C Echeyakee|QID|881|U|10327|N|Go to the kodo bones to the south. Clear the area and use the horn to summon Echeyakee|M|55.9,17.1|
-K Razormane|QID|872|QO|1,2|N|Kill Razormane Geomancers and Razormane Defenders.|M|58,24|
+K Razormane Defenders|QID|872|M|59.6,24.4|QO|1|N|Kill Razormane Defenders.|S!US|
+K Razormane Geomancers|QID|872|M|59.4,27.6|QO|2|N|Kill Razormane Geomancers|S!US|
 C Supplies for the Crossroads|QID|5041|S|N|Check for the crates. If they aren't there, they are probably across the way near Kreenig Snarlsnout.|M|59.5,24;58.53,25.89|CN|
 K Kreenig Snarlsnout|ACTIVE|872|QO|3|T|Kreenig Snarlsnout|N|Kreenig Snarlsnout patrolls around. Kill him and loot his tusk.|M|58.6,27|
 C Supplies for the Crossroads|QID|5041|US|N|Check for the crates. If they aren't there, they are probably across the way near Kreenig Snarlsnout.|M|59.5,24;58.53,25.89|CN|
 T Samophlange|QID|902|N|Head south again, towards Ratchet.|M|63.0,37.2|
 A Wenikee Boltbucket|QID|3921|M|63.0,37.2|
 
-C Stolen Booty|QID|888|N|You are looking for two boxes among the pirate camps. One is fairly close to the water. The other is in the west, fairly close to the mountains. Keep a look out for Baron Longshore and kill him if you see him.|M|63.6, 49.2|
-C WANTED: Baron Longshore|QID|895|N|If you haven't found Baron Longshore yet, keep checking the pirate camps until you find him and kill him.|
+C Boots|QID|888|QO|1|N|The boots is in a box close to the hills. Kill Baron Longshore, if you see him.|M|62.63,49.64|
+C Lens|QID|888|QO|2|N|The lens is in a box close to the water. Kill Baron Longshore, if you see him.|M|63.58,49.25|
+K WANTED: Baron Longshore|QID|895|M|63.40,49.20|QO|1|N|If you haven't found Baron Longshore yet, keep checking the pirate camps until you find him and kill him.|T|Baron Longshore|
 T WANTED: Baron Longshore|QID|895|N|Return to Ratchet, to Gazlowe.|M|62.68,36.23|
 T Stolen Booty|QID|888|M|62.68,36.23|N|To Gazlowe.|
-A Raptor Horns|QID|865|N|From Mebok Mizzyrix.|M|62.4,37.6|
+A Raptor Horns|QID|865|N|From Mebok Mizzyrix.|M|62.37,37.62|
 A Miner's Fortune|QID|896|M|63.35,38.42|N|From Wharfmaster Dizzywig.|
-A The Guns of Northwatch|QID|891|M|62.29,39.03|N|From Captain Thalo'thas Brightsun.|
+
 
 C The Stagnant Oasis|QID|877|M|55.5,42.4|N|Now head southwest towards the Stagnant Oasis, killing Kolkar as you go. When you get to the water, start looking for another Bubbling Fissure. Beware the turtles, they're aggressive.|U|5068|
 
@@ -189,7 +191,7 @@ T The Disruption Ends|QID|872|M|51.4,30.8|N|To Thark.|
 T The Stagnant Oasis|QID|877|M|52.24,31.92|N|To Tonga Runetotem.|
 A Altered Beings|QID|880|M|52.24,31.92|N|From Tonga Runetotem.|
 T Echeyakee|QID|881|M|52.22,31.02|N|To Sergra Darkthorn.|
-A The Angry Scytheclaws|QID|905|M|52.22,31.02|N|From Sergra Darkthorn.|
+A The Angry Scytheclaws|QID|905|PRE|881|M|52.22,31.02|N|From Sergra Darkthorn.|
 
 F Camp Taurajo|QID|852|M|51.54,30.36|
 h Camp Taurajo|QID|852|M|45.6,59.0|
@@ -206,16 +208,17 @@ C Hezrul Bloodmark|QID|852|M|46.15,36.84|N|Hezrul Bloodmark patrols Clockwise ar
 T Hezrul Bloodmark|QID|852|M|45.4,28.4|N|Run a little further north to Regthar's Bunker.|
 
 F Ratchet|QID|865|M|51.5,30.3|
-T Raptor Horns|QID|865|M|62.39,37.64|N|To Mebox Mizzyrix, in Ratchet.|
-A Smart Drinks|QID|1491|M|62.4,37.6|N|From Mebox Mizzyrix.|
-A Deepmoss Spider Eggs|QID|1069|M|62.4,37.6|N|From Mebox Mizzyrix.|
+T Raptor Horns|QID|865|M|62.37,37.62|N|To Mebox Mizzyrix, in Ratchet.|
+A Smart Drinks|QID|1491|M|62.37,37.62|N|From Mebox Mizzyrix.|
+A Deepmoss Spider Eggs|QID|1069|M|62.37,37.62|N|From Mebox Mizzyrix.|
 A Trouble at the Docks|QID|959|M|63.09,37.60|N|From Crane Operator Bigglefuzz.|
+A The Guns of Northwatch|QID|891|M|62.29,39.03|N|From Captain Thalo'thas Brightsun.|
 
 F The Crossroads|QID|880|M|63.1,37.2|
 T Altered Beings|QID|880|M|52.24,31.92|N|To Tonga Runetotem, at The Crossroads.|
 A Hamuul Runetotem|QID|1489|M|52.24,31.92|N|From Tonga Runetotem.|
 T The Angry Scytheclaws|QID|905|M|52.22,31.02|N|To Sergra Darkthorn.|
-A Jorn Skyseer|QID|3261|M|52.21,31.02|N|From Sergra Darkthorn.|
+A Jorn Skyseer|QID|3261|PRE|905|M|52.21,31.02|N|From Sergra Darkthorn.|
 T Stolen Silver|QID|3281|M|51.95,30.36|N|To Gazrog.|
 A Report to Kadrak|QID|6541|M|51.4,30.8|N|From Thork.|
 
@@ -297,7 +300,7 @@ C Miner's Fortune|QID|896|M|60.0,4.1|N|Keep killing goblins until the Cate's Eye
 T The Warsong Reports|QID|6543|M|61.52,7.62;49.43,13.69;48,5.4|CC|N|To Kadrak, back at Mor'shan Rampart.|
 H Camp Taurajo|QID|3261|U|6948|N|If your hearth isn't up, run back to the Crossroads and then fly there.|M|51.5,30.3|
 T Jorn Skyseer|QID|3261|M|44.8,59|N|To Jorn Skyseer.|
-A Ishamuhale|QID|882|M|44.8,59|N|From Jorn Skyseer.|
+A Ishamuhale|QID|882|PRE|3261|M|44.8,59|N|From Jorn Skyseer.|
 A Tribes at War|QID|878|M|44.6,59.2|N|From Mangletooth.|
 
 C Tribes at War|QID|878|M|43,51;42,48|CS|N|Move north. Move back and forth between this camp and the other until you have killed the necessary number of Bristlebacks of each type.|
@@ -331,14 +334,14 @@ T Consumed By Hatred|QID|899|M|52,31.6|N|To the infamous Mankrik.|
 
 F Camp Taurajo|QID|882|M|51.52,30.36|
 T Ishamuhale|QID|882|M|44.84,59.11|N|To Jorn Skyseer.|
-A Enraged Thunder Lizards|QID|907|M|44.8,59|N|From Jorn Skyseer.|
+A Enraged Thunder Lizards|QID|907|PRE|882|M|44.8,59|N|From Jorn Skyseer.|
 
 C Enraged Thunder Lizards|QID|907|M|46,50|N|Look for a gray Kodo named Lakota'mani. He has a long-ish patrol route and a long respawn time, so you might not find him. If you do find him, kill him, and loot his hoof. Skip it if you don't. He isn't really worth camping the area for.|
 A Lakoto'mani|QID|883|U|5099|O|
 
 T Enraged Thunder Lizards|QID|907|M|44.86,59.09|N|To Jorn Skyseer back to Camp Taurajo.|
 t Lakoto'mani|QID|883|M|44.86,59.09|N|To Jorn Skyseer.|
-A Cry of the Thunderhawk |QID|913|M|44.86,59.09|N|From Jorn Skyseer.|
+A Cry of the Thunderhawk |QID|913|PRE|907|M|44.86,59.09|N|From Jorn Skyseer.|
 
 R Southern Barrens|QID|913|M|45.23,59.03;46.6,61.5|CC|
 C Cry of the Thunderhawk|QID|913|M|46.6,61.5|N|Kill a Thunderhawk and loot its wings.|

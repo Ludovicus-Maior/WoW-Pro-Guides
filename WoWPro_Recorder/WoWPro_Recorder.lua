@@ -488,7 +488,7 @@ function WoWPro.Recorder.AddStep(stepInfo,position)
 	    WoWPro.Recorder.SelectedStep = WoWPro.stepcount
 	end
 	WoWPro.Recorder:CheckpointCurrentGuide("AddStep")
-	local line = WoWPro.Recorder.EmitStep(pos+1)
+	local line = WoWPro.EmitStep(pos+1)
 	line = line:gsub("||", "¦") -- Change the ||'s into fancy unicode ¦'s for display only
 	WoWPro.Recorder:Print(line)
 	WoWPro:UpdateGuide("WoWPro.Recorder.AddStep()")
@@ -523,80 +523,7 @@ end
 ---WoWPro:GuideSteps(guide, function()
 ---return [[
 
-local function addTagValue(line, tag, value)
-	line = line..tag.."||"
-	if value == nil or value == false then
-	    line = line.." ||"
-	else
-	    line = line..tostring(value).."||"
-	end
-	return line
-end
 
-local function addTag(line, tag)
-	line = line..tag.."||"
-	return line
-end
-
-
-function WoWPro.Recorder.EmitStep(i)
-    local GID = WoWProDB.char.currentguide
-
-    if type(WoWPro.action[i]) ~= "string" or type(WoWPro.step[i]) ~= "string" then
-        return ""
-    end
-
-    local line = WoWPro.action[i].." "..WoWPro.step[i].."||"
-
-    for idx=1,#WoWPro.TagList do
-        local tag = WoWPro.TagList[idx]
-        local key = WoWPro.TagTable[tag].key
-        -- Special tags get handled first
-        if key == "lootitem" and WoWPro.lootitem[i] then
-            if WoWPro.lootqty[i] then
-                line = addTagValue(line, tag, WoWPro.lootitem[i].." "..WoWPro.lootqty[i])
-            else
-                line = addTagValue(line, tag, WoWPro.lootitem[i])
-            end
-        elseif key == "sticky" then
-            if WoWPro.sticky[i] and WoWPro.unsticky[i] then
-                line = addTag(line, "S!US")
-            elseif  WoWPro.sticky[i] and not WoWPro.unsticky[i] then
-                line = addTag(line, "S")
-            elseif  WoWPro.unsticky[i] and not WoWPro.sticky[i] then
-                line = addTag(line, "US")
-            end
-        elseif key == "unsticky" then
-            line = line
-        elseif tag == "CC" then
-            if WoWPro.waypcomplete[i] == 1 then
-                line = addTag(line, "CC")
-            elseif WoWPro.waypcomplete[i] == 2 then
-                line = addTag(line, "CS")
-            elseif WoWPro.waypcomplete[i] == 0 then
-                line = addTag(line, "CN")
-            end
-        elseif tag == "CS" or tag == "CN" then
-            line = line
-        elseif tag == "Z" then
-            -- Suppress zone tags that are dupes of the master zone
-            if WoWPro.zone[i] and WoWPro.zone[i] ~= WoWPro.Guides[GID].zone then
-                line = addTagValue(line, tag, WoWPro.zone[i])
-            end
-        elseif tag and WoWPro.TagTable[tag].vtype == "boolean" then
-            -- No value
-            if WoWPro[key][i] then
-                line = addTag(line, tag)
-            end
-        elseif key then
-            -- Everything else is a value
-            if WoWPro[key][i] then
-                line = addTagValue(line, tag, WoWPro[key][i])
-            end
-        end
-    end
-    return line
-end
 
 function WoWPro.Recorder:CheckpointCurrentGuide(why)
 	local GID = WoWProDB.char.currentguide
@@ -624,7 +551,7 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 	local sequence = {}
 
 	for i,action in pairs(WoWPro.action) do
-	    local line = WoWPro.Recorder.EmitStep(i)
+	    local line = WoWPro.EmitStep(i)
 		table.insert(sequence,line)
 	end
 

@@ -19,16 +19,18 @@ local function handler(msg, editbox)
             ChatFrame1:AddMessage(msg)
         end
     elseif ltoken == 'etrace-start' then
-        WoWPro:print(msg)
+        WoWPro:print(ltoken)
         WoWPro.RegisterAllEvents()
     elseif ltoken == 'etrace-end' then
-        WoWPro:print(msg)
+        WoWPro:print(ltoken)
         WoWPro.UnregisterAllEvents()
         WoWPro:RegisterEvents()
     elseif ltoken == 'clear-log' then
         WoWPro:LogClear("Command Line")
     elseif ltoken == 'log' then
         WoWPro:LogShow()
+    elseif ltoken == 'guide-bug' then
+        WoWPro:GuideBugReport()
     elseif ltoken == "taint" then
         WoWProDB.global.Tainted = {}
         local now = date("%Y%m%d%H%M")
