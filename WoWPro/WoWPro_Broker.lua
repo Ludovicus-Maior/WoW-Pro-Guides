@@ -576,19 +576,11 @@ function WoWPro.UpdateQuestTrackerRow(row)
 			if not questtext and action == "C" and WoWPro.QuestLog[qid].leaderBoard and not WoWPro.sobjective[index] then
 			    -- no QO tag specified, lets set something up
 			    WoWPro:dbp("UQT: QID %d active, but no QO tag, just check for generic completion.", qid)
-				if WoWPro.QuestLog[qid].leaderBoard[1] then
-					track = "- "..WoWPro.QuestLog[qid].leaderBoard[1]
-					if select(3,GetQuestLogLeaderBoard(1, j)) then
-						track =  track.." (C)"
-					end
-				end
 				for l=1,#WoWPro.QuestLog[qid].leaderBoard do
-					if l > 1 then
-						if WoWPro.QuestLog[qid].leaderBoard[l] then
-							track = track.."\n- "..WoWPro.QuestLog[qid].leaderBoard[l]
-							if select(3,GetQuestLogLeaderBoard(l, j)) then
-								track =  track.." (C)"
-							end
+					if WoWPro.QuestLog[qid].leaderBoard[l] then
+						track = track.."\n- "..WoWPro.QuestLog[qid].leaderBoard[l]
+						if select(3,GetQuestLogLeaderBoard(l, j)) then
+							track =  track.." (C)"
 						end
 					end
 				end
@@ -600,7 +592,10 @@ function WoWPro.UpdateQuestTrackerRow(row)
 					local lquesttext = select(numquesttext-l+1, string.split(";", questtext))
 					if WoWPro.ValidObjective(lquesttext) then
 					    local done, status = WoWPro.QuestObjectiveStatus(qid, lquesttext)
-					    track = track.."\n- " .. status
+					    if l > 1 then
+					        track = track.."\n"
+					    end
+					    track = track.."- " .. status
 					else
 					    WoWPro:dbp("UQT: Not a valid quest objective %q [%s]", QID, questtext)
 					    track =  track.." ???"
@@ -628,7 +623,13 @@ function WoWPro.UpdateQuestTrackerRow(row)
 			else
 			    --No questtext or leaderboard
 			    WoWPro:dbp("UQT: QID %d active, but no QO or leaderBoard!", qid)
-			    track =  track.." ?"
+			    if WoWPro.QuestLog[qid].complete == 1 then
+			        track =  track.."\n- Complete"
+			    elseif WoWPro.QuestLog[qid].complete == -1 then
+			        track =  track.."\n- Failed"
+			    elseif not WoWPro.QuestLog[qid].complete then
+			        track =  track.."\n- Active"
+			    end
 			end
 		end
 		if lootitem then
@@ -2497,6 +2498,11 @@ function WoWPro.PopulateQuestLog()
 		if WoWPro.QuestLog[QID] then
 		    -- WoWPro:print("Quest %s: [%s]",tostring(QID),WoWPro.QuestLog[QID].title)
             if WoWPro.oldQuests[QID].leaderBoard and WoWPro.QuestLog[QID].leaderBoard then
+                if WoWPro.oldQuests[QID].complete ~= WoWPro.QuestLog[QID].complete then
+                    WoWPro:print("Quest Completion: %d [%s] %s => %s",QID, tostring(WoWPro.oldQuests[QID].title),
+                                 tostring(WoWPro.oldQuests[QID].complete), tostring(WoWPro.QuestLog[QID].complete))
+                    delta = delta + 1
+                end
                 for idx, status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
                     -- Same Objective
                     -- WoWPro:dbp("idx %d, status %s",idx,status)
