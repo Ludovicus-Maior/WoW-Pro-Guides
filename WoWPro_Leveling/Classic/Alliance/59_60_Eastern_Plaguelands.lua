@@ -1,4 +1,7 @@
-TourGuide:RegisterGuide("JamEas5960", "Eastern Plaguelands", "Jame", "59", "60", "JamHel6062", "Alliance", function() return [[
+local guide = WoWPro:RegisterGuide('JamEas5960', 'Leveling', 'Eastern Plaguelands', 'Jame', 'Alliance', 1)
+WoWPro:GuideName(guide, 'Eastern Plaguelands 59-60')
+WoWPro:GuideLevels(guide, 59, 60, 60)
+WoWPro:GuideSteps(guide, function () return [[
 R Eastern Plaguelands|QID|5601|N|Through the path from Western Plaguelands.|
 N SI:7 Insignia |QID|6185|N|Loot the insignia from the body here.  Do not fight the elite.|L|16001 1|M|27.20,75.00|
 N Blightcaller Uncovered|QID|6186|N|Make sure you get the Blightcaller Uncovered quest update message.|
