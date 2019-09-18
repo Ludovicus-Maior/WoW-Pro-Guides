@@ -475,7 +475,7 @@ T Badlands Reagent Run|QID|2500|M|37,49.2|Z|Loch Modan|N|To Ghak Healtouch.|
 T Murdaloc|QID|739|M|65.9,65.6|Z|Loch Modan|N|To Prospecter Ironband.|
 R Badlands|QID|712|M|47.00,86.00|Z|Loch Modan|N|And back to Badlands.|
 C Study of the Elements: Rock|QID|712|M|17.00,83.00|Z|Badlands|N|Kill Greater Rock Elementals here until you get the Bracers of Rock Binding for this quest.  There are more Elementals west of this location.|
-K Level Check|ACTIVE|712|M|17.00,83.00|Z|Badlands|L|40;85700|N|Grind to about 1 bubble from 41. Note, this can be a long grinding session, if that doesn't appeal to you I really suggest you do Scarlet Monastery. Finishing up Stranglethorn is going to happen soon, if you want to stay with the guide, don't go there yet. Other than that, grind wherever you like.|
+K Level Check|ACTIVE|712|M|17.00,83.00|Z|Badlands|LVL|40;85700|N|Grind to about 1 bubble from 41. Note, this can be a long grinding session, if that doesn't appeal to you I really suggest you do Scarlet Monastery. Finishing up Stranglethorn is going to happen soon, if you want to stay with the guide, don't go there yet. Other than that, grind wherever you like.|
 T Study of the Elements: Rock|QID|712|M|25.9,44.6|Z|Badlands|N|To Lotwil Veriatus.|
 A This Is Going to Be Hard|QID|734|M|25.9,44.6|Z|Badlands|N|From Lotwil Veriatus.|
 A Stone Is Better than Cloth|QID|716|M|25.9,44.6|Z|Badlands|N|From Lucian Tosselwrench.|ITEM|4278|
