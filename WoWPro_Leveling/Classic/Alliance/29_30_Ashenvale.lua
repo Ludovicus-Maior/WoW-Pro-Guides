@@ -36,7 +36,8 @@ K Insane Druids|QID|1012|ACTIVE|1012|M|77.2,73.98|CC|QO|1|N|Kill Taneel Darkwood
 K Insane Druids|QID|1012|ACTIVE|1012|M|77.97,72.73|QO|2|N|Kill Uthil Mooncall. Drop down from bridge and go down the tunner on our left. Fall down into another tunnel and he should be to your right.|
 K Insane Druids|QID|1012|ACTIVE|1012|M|74.78,74.33|QO|3|N|Kill Mavoris Cloudsbreak. Go straight out, follow the tunnel ahead then go up the ramp to the big center thing, hang a right up the bridge and follow the thin tunner that wraps around the room.|
 T Insane Druids|QID|1012|M|85.28,44.72|N|To Kayneth Stillwind.|
-H Astranaar|QID|1027|M|36.97,49.26|N|Hearth or Run back to Astranaar.|
+f Azshara|QID|1027|M|11.90,77.59|Z|Azshara|N|Grab the Azshara flightpoint while you're here. From Jarrodenus.|
+F Astranaar|QID|1027|M|11.90,77.59|Z|Azshara|N|Fly, Hearth or Run back to Astranaar.|
 T Raene's Cleansing|QID|1027|M|37.18,52.84;41.07,56.64;49.77,56.53;50.58,47.2;53.5,46.3|CC|N|To Shael'dryn.|
 A Raene's Cleansing|QID|1028|M|53.5,46.3|N|From Shael'dryn. Wait a moment while she fixes the rod.|PRE|1027|
 R Raene's Cleansing|QID|1028|ACTIVE|1028|M|54.12,53.02;56.08,51.28;57.31,51.82|CC|N|Run back the way you came, circle the mountains counter clockwise until you hit the path.|
