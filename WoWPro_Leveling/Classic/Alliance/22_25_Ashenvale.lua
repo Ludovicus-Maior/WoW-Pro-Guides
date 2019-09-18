@@ -6,10 +6,25 @@ WoWPro:GuideName(guide, 'Ashenvale 22-25')
 WoWPro:GuideLevels(guide, 22, 25, 23)
 WoWPro:GuideNextGuide(guide, 'ClassicWetlands2526')
 WoWPro:GuideSteps(guide, function() return [[
-F Darnassus|QID|1198|M|55.92,89.5|Z|Teldrassil|N|Train you skills sell and repair and get more BFD quests so you can start looking for groups.|LVL|20|
+f Auberdine|QID|965|M|36.34,45.58|N|Get the flightpath.|R|-NightElf|
+b Rut'theran Village|QID|965|M|33.19,40.1|Z|Darkshore|N|Take the boat to Rut'theran Village. Main thing is getting the flightpath over with, there are some BFD dungeon quests here as well.|R|-NightElf|
+F Rut'theran Village|QID|1198|M|55.92,89.5|Z|Teldrassil|N|Train you skills sell and repair and get more BFD quests so you can start looking for groups.|LVL|20|
 A Twilight Falls|QID|1199|M|55.24,24.01|Z|Darnassus|N|From Argent Guard Manados. This is a BFD Dungeon Quest.|LVL|20|
 A In Search of Thaelrid|QID|1198|M|55.39,25.0|Z|Darnassus|N|From Dawnwatcher Shaedlass. This is a BFD Dungeon Quest.|LVL|20|
-F Astranaar|QID|1133|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar if you have the flight path, otherwise close this step.|
+f Rut'theran Village|QID|965|M|58.4,94.02|Z|Teldrassil|N|Get the flight path.|R|-NightElf|
+F Auberdine|QID|965|M|36.34,45.58|N|Fly back to Auberdine.|R|-NightElf|
+F Astranaar|QID|965|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar if you have the flight path, otherwise close this step.|PRE|967|
+A The Tower of Althalaxx|QID|965|M|39.1, 43.5|N|From Sentinel Elissa Starbreeze upstairs.|
+T The Tower of Althalaxx|QID|965|M|54.9, 24.9|N|To Balthule Shadowstrike.|
+A The Tower of Althalaxx|QID|966|M|54.9, 24.9|N|From Balthule Shadowstrike.|PRE|965|
+C The Tower of Althalaxx|QID|966|M|55.41,26.86|N|Do not enter the tower. Kill fanatics around the outside.|
+T The Tower of Althalaxx|QID|966|M|54.9,24.9|N|To Balthule Shadowstrike.|
+A The Tower of Althalaxx|QID|967|N|From Balthule Shadowstrike.|PRE|966|
+A The Sleeper Has Awakened|QID|5321|M|44.39, 76.43|N|Get to the road and travel south, occasionally he will start to sleep, just use your Horn of Awakening on him. You'll face two ambushes, both will consist of three Twilight mobs. They can be very hard to solo, and that is why this is optional. Keep escorting him south along the road until you get to Maestra's Post.|
+C The Sleeper Has Awakened|QID|5321|M|44.38,76.31|QO|1|N|Loot the Horn of awakening from the box on the ground|
+C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|Ashenvale|U|13536|N|Escort Kerlonian, use the horn if he falls asleep.|
+T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|Ashenvale|N|If you took it, otherwise close this step.|
+T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier. Do not get follow-up.|
 f Astranaar|QID|1133|N|Get the flight path.|M|34.39,48.03|
 A The Zoram Strand|QID|1008|M|34.68,48.84|Z|Ashenvale|N|From Shindrell Swiftfire. This is a pre-req for the stonetalon quests.|
 A Raene's Cleansing |QID|991|M|36.6,49.6|N|From Raene Wolfrunner|
@@ -59,7 +74,7 @@ C Reclaiming the Charred Vale|QID|1057|M|34,65|Z|Stonetalon Mountains|S|N|Kill H
 C Retrieval for Mauren|QID|1078|M|34,65|Z|Stonetalon Mountains|N|Kill Blackened Basilisks and loot their scales.|
 C Reclaiming the Charred Vale|QID|1057|M|34,65|Z|Stonetalon Mountains|US|N|Kill Harpys in the area.|
 R Desolace|QID|1453|M|28.00,84.00|Z|Stonetalon Mountains|N|Run through the Charred Vale to get to Desolace. This will come in handy in the next guide.|
-R Nijel's Point|QID|1453|M|67.00,16.00|Z|Desolace|N|Go to Nijel's Point by going up the path here.|
+R Nijel's Point|QID|1453|M|56.57,13.37;67.00,16.00|CC|Z|Desolace|N|Go to Nijel's Point by going up the path. Beware of the higher level creatures around.|
 f Nijel's Point|QID|1437|M|64.66,10.54|Z|Desolace|N|Get the flight path.|
 F Stonetalon Peak|QID|1057|M|64.66,10.54|Z|Desolace|N|Fly back to Stonetalon Peak.|
 T Reclaiming the Charred Vale|QID|1057|M|37.11,8.10|Z|Stonetalon Mountains|N|To Keeper Albagorm. Don't get follow up for now.|
@@ -85,7 +100,7 @@ l Elemental Bracers|QID|1016|M|50.28,69.90|L|12220 5|N|Kill Befouled Water Eleme
 U Divined Scroll|QID|1016|U|5456|L|5455|N|Use the Divined Scroll.|
 T Elemental Bracers|QID|1016|M|49.79,67.21|N|To Sentinel Velene Starstrike.|
 A Mage Summoner|QID|1017|M|49.79,67.21|N|From Sentinel Velene Starstrike.|PRE|1016|
-B Expert Cooking|M|49.48,67.07|N|Highly suggest buying the expert cookboook if you plan on leveling up your cooking skill at all. From Shandrina.|P|Cooking;185;0+1;0|L|16072|
+B Expert Cooking|QID|1025|M|49.48,67.07|N|Highly suggest buying the expert cookboook if you plan on leveling up your cooking skill at all. From Shandrina.|P|Cooking;185;0+1;0|L|16072|
 C An Aggressive Defense|QID|1025|M|50.00,61.00|US|N|Kill mobs until you finish this quest.|
 R The Barrens|QID|1017|ACTIVE|1017|M|69.01,86.80|N|Run for the barrens. Takes a few minutes but well worth the effort, we will knock out 2 quests and grab the Ratchet Flightpath which will be needed later on.|
 C Mage Summoner|QID|1017|M|48.82,14.40;48.25,18.44;47.96,18.85;48.22,19.14|Z|The Barrens|CS|N|Kill Sarilus Foulborne and loot his head.|
