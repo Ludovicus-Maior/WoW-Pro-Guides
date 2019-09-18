@@ -282,6 +282,7 @@ DefineTag("GUIDE","guide","string",nil,nil)
 DefineTag("GROUP","group","boolean",nil,nil)
 DefineTag("RARE","rare","boolean",nil,nil)
 DefineTag("EX","expansion","string",validate_old_list_of_ints,nil)
+DefineTag("TAXI","taxi","string",nil,nil)
 
 -- Pet Stuff
 DefineTag("PET1","pet1","string",nil,nil)
