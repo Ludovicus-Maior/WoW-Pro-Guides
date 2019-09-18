@@ -1608,6 +1608,24 @@ function WoWPro.NextStep(k,i)
 
         -- WoWPro:dbp("Checkpoint Beth for step %d",k)
 
+        -- Taxi Tests WoWProCharDB.Taxi[location]
+        if WoWPro.taxi[k] and (next(WoWProCharDB.Taxi) ~= nil) and not skip then
+            local flop = true
+            local stop = WoWPro.taxi[k]
+            if string.sub(stop,1,1) == "-" then
+                flop = false
+                stop = string.sub(stop,2)
+            end
+            skip = WoWProCharDB.Taxi[stop] ~= flop
+            if skip then
+                WoWPro:dbp("Skip=%s %s [%s] because [%s] and Taxi[%s]=%s", tostring(skip), WoWPro.action[k], WoWPro.step[k],
+                           WoWPro.taxi[k], stop, tostring(WoWProCharDB.Taxi[stop]))
+                WoWPro.why[k] = "NextStep(): Skippping because Taxi["..WoWPro.taxi[k].."] not."
+                WoWProCharDB.Guide[GID].skipped[k] = true
+                break
+            end
+        end
+
 		-- Skipping profession quests if their requirements aren't met --
 	 if WoWPro.prof[k] and not skip then
             local profName, profID, proflvlmain, profflip, profmaxskill = string.split(";", WoWPro.prof[k])
