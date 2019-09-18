@@ -487,7 +487,7 @@ T Alien Egg|QID|4821|M|44.60,50.30|Z|Thousand Needles|N|To Hagar Lightninghoof|
 A Serpent Wild|QID|4865|M|44.60,50.30|Z|Thousand Needles|N|From Hagar Lightninghoof|
 
 R Highperch|QID|4767|M|12.00,32.00|Z|Thousand Needles|
-C Wind Rider|QID|4767|L|12356 12|M|11.00,36.00|Z|Thousand Needles|N|Collect: Highperch Wyvern Eggs|
+C Wind Rider|QID|4767|M|11.00,36.00|Z|Thousand Needles|QO|1|N|Collect: Highperch Wyvern Eggs|
 
 N READ THIS|QID|4770|Z|Thousand Needles|N|The next quest is an escort.  Warning: Sometimes there will be a rare-elite named Heartrazor there.  Unless you group, it is likely impossible for you to kill it and complete the escort.  However, if you start the escort at the right moment, Heartrazor will be out of the way and the escort NPC will go through without attracting Heartrazor's attention.|
 A Homeward Bound|QID|4770|M|17.90,40.60|Z|Thousand Needles|N|Ride to the southeastern corner of Highperch.  There you will find a narrow path going up to another plateau.  At the end of this plateau, you will find a tauren named Pao'Ka.|
