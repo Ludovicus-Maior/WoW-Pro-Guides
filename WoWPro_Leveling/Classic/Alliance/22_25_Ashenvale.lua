@@ -85,7 +85,7 @@ l Elemental Bracers|QID|1016|M|50.28,69.90|L|12220 5|N|Kill Befouled Water Eleme
 U Divined Scroll|QID|1016|U|5456|L|5455|N|Use the Divined Scroll.|
 T Elemental Bracers|QID|1016|M|49.79,67.21|N|To Sentinel Velene Starstrike.|
 A Mage Summoner|QID|1017|M|49.79,67.21|N|From Sentinel Velene Starstrike.|PRE|1016|
-B Expert Cooking|M|49.48,67.07|N|Highly suggest buying the expert cookboook if you plan on leveling up your cooking skill at all. From Shandrina.|P|Cooking;185;0+1;0|L|16072|
+B Expert Cooking|QID|1025|M|49.48,67.07|N|Highly suggest buying the expert cookboook if you plan on leveling up your cooking skill at all. From Shandrina.|P|Cooking;185;0+1;0|L|16072|
 C An Aggressive Defense|QID|1025|M|50.00,61.00|US|N|Kill mobs until you finish this quest.|
 R The Barrens|QID|1017|ACTIVE|1017|M|69.01,86.80|N|Run for the barrens. Takes a few minutes but well worth the effort, we will knock out 2 quests and grab the Ratchet Flightpath which will be needed later on.|
 C Mage Summoner|QID|1017|M|48.82,14.40;48.25,18.44;47.96,18.85;48.22,19.14|Z|The Barrens|CS|N|Kill Sarilus Foulborne and loot his head.|
