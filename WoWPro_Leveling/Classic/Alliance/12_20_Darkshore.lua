@@ -167,11 +167,6 @@ F Rut'theran Village|QID|272|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using 
 F Auberdine|QID|272|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
 
 A Fruit of the Sea|QID|1138|M|36.1,44.9|N|From Gubber Blump.|
-
-R Half Pendant of Aquatic Agility|QID|272|C|Druid|M|40.12,46.49;50.75,24.68|CC|N|Leave Auberdine and follow the road north until you reach the bridge over Cliffspring River.|
-C Trial of the Sea Lion|QID|272|C|Druid|M|48.85,11.28|L|15883|N|Jump off the bridge into the water and swim out towards the furthest set of rock islands in front of you. Look for the group of Threshers. They surround the chest you are looking for.\nThe 2nd part of this quest is in Westfall, EK. You'll back-burner this quest chain for now until you are in the area.|NC|
-H Auberdine|QID|1003|C|Druid|N| It's a long run to the quest point. Unless you are looking to do some grinding, you may want to Hearth from here.|
-
 C Buzzbox 525|QID|1003|M|41,80|S|N|Now that we're heading south you will find Grizzled Thistle Bears to kill.|
 C A Lost Master|QID|986|M|42,92|S|N|Slay all Moonstalker Sires and Moonstalker Matriarchs on sight.|
 A Beached Sea Creature|QID|4728|M|36.08,70.92|N|Surrounded by level 15 Murlocks.|
@@ -230,18 +225,23 @@ f Astranaar|QID|994^995|M|25.53,38.73;26.17,46.43;34.41,47.99|CC|Z|Ashenvale|N|G
 F Auberdine|QID|994^995|N|Fly back to turn in quests, repair and sell. If you reached level 18 goto Darnassus and train up.|
 T Escape Through Stealth|QID|995|M|39.37,43.48|N|To Terenthis.|
 T Escape Through Force|QID|994|M|39.37,43.48|N|To Terenthis.|
-R Gyromast's Retrieval|QID|2098|M|40.13,46.46;50.75,24.68|CN|N|Leave Auberdine and follow the road north to Cliffspring River bridge.|
-A Gyromast's Retrieval|QID|2098|M|56.67,13.49|N|From Gelkak Gyromast. Jump off the bridge into the water and follow the arrow to your destination.|
-C Gyromast's Retrieval|QID|2098|QO|2|M|55.41,12.52|N|Swim to the boat wreckage ahead of you and kill murlocks until you find the Middle of Gelkak's Key.|
+
+R Gyromast's Retrieval|QID|2098|M|40.13,46.46;50.75,24.68|CN|N|Leave Auberdine, follow the road north to Cliffspring River bridge, and jump off the bridge into the water.|
+
+; Druid class quest line for swim form
+C Trial of the Sea Lion|QID|272|C|Druid|M|48.85,11.28|L|15883|N|Swim out towards the furthest set of rock islands in front of you. Look for the group of Threshers. They surround the chest you are looking for.\nThe 2nd part of this quest is in Westfall, EK. You'll back-burner this quest chain for now until you are in the area.|NC|
+
+A Gyromast's Retrieval|QID|2098|M|56.67,13.49|N|From Gelkak Gyromast.|
+C Gyromast's Retrieval|QID|2098|QO|2|M|55.41,12.52|N|Swim to the boat wreckage ahead of you and kill murlocs until you find the Middle of Gelkak's Key.|
 C Gyromast's Retrieval|QID|2098|QO|3|N|Kill Raging Reef Crawlers until you find the Bottom of Gelkak's Key.|
-C Mathystra Relics|QID|951|M|59.55,15.66|S|N|Look for relics on the groung while you're hunting the Foreststriders near the ruins.|
+C Mathystra Relics|QID|951|M|59.55,15.66|QO|1|S|N|Look for relics on the ground in the area of the Ruins of Mathystra.|
 C Gyromast's Retrieval|QID|2098|QO|1|M|58.45,13.34|N|Head east of Gelkak Gyromast and slay Giant Foreststrider until you get Top of Gelkak's Key.|
 T Gyromast's Retrieval|QID|2098|M|56.7, 13.5|N|To Gelkak Gyromast.|
 A Gyromast's Revenge|QID|2078|M|56.7, 13.5|N|From Gelkak Gyromast.|
-C Gyromast's Revenge|QID|2078|M|55.8,18.2|N|Robot will attack you as you are about to finish quest. Be ready. He is a level 20 elite. You will probably need a group.|
+C Gyromast's Revenge|QID|2078|M|55.8,18.2|QO|1|N|Robot will attack you as you are about to finish quest. Be ready. He is a level 20 elite. You will probably need a group.|
 T Gyromast's Revenge|QID|2078|M|56.7, 13.5|N|To Gelkak Gyromast.|
 N Trash the key|QID|951|N|Destroy Gyromast's Key, it is useless and wastes precious bag space. Skip this step when done.|PRE|2078|
-C Mathystra Relics|QID|951|M|59.55,15.66|US|N|Kill Naga's and look for relics on the groung until complete.|
+C Mathystra Relics|QID|951|M|59.55,15.66|US|N|Kill Naga's and look for relics on the ground until complete.|
 H Auberdine|QID|951|ACTIVE|951|N|Hearth or run back to Auberdine.|
 A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|
 T Mathystra Relics|QID|951|M|43.5,76.3|N|To Onu.|
