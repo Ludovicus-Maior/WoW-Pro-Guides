@@ -31,7 +31,7 @@ A The Bloodsail Buccaneers |QID|595|M|28.1,76.2|N|From First Mate Crazz.|
 A Venture Company Mining|QID|600|M|27.1,77.2|N|From Crank Fizzlebub.|
 T Goblin Sponsorship |QID|1181|M|27.20,76.90|N|To Baron Revilgaz.|;duplicated from 30-40 guide
 A Goblin Sponsorship |QID|1182|M|27.20,76.90|N|From Baron Revilgaz.|;duplicated from 30-40 guide
-A Scaring Shaky|QID|606|M|27.04,77.32|N|From "Sea Wolf" MacKinley.|
+A Scaring Shaky|QID|606|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|
 A "Pretty Boy" Duncan|QID|610|N|Accept this quest if you do not have it.|
 K "Pretty Boy" Duncan|ACTIVE|610|M|27.50,69.35|T|"Pretty Boy" Duncan|N|Kill Pretty Boy Duncan at this location and loot the blade from him.|
 T The Bloodsail Buccaneers |QID|595|M|27.30,69.50|N|To 'Bloodsail Correspondence' on a barrel in the camp.|
@@ -49,8 +49,8 @@ T "Pretty Boy" Duncan|QID|610|N|To Catelyn the Blade. (skip her follow-up)|
 A Up to Snuff|QID|587|M|26.9,77.3|N|From Deeg (upstairs)|
 T The Bloodsail Buccaneers |QID|599|M|27.2,77.0|N|To Fleet Master Seahorn.|
 A The Bloodsail Buccaneers |QID|604|M|27.2,77.0|N|From Fleet Master Seahorn.|
-T Return to MacKinley|QID|607|M|27.04,77.32|N|To "Sea Wolf" MacKinley.|
-A Voodoo Dues|QID|609|M|27.04,77.32|N|From "Sea Wolf" MacKinley.|
+T Return to MacKinley|QID|607|M|27.78,77.07|N|To "Sea Wolf" MacKinley.|
+A Voodoo Dues|QID|609|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|
 A Keep An Eye Out|QID|576|M|28.6,75.9|N|From Dizzy One-Eye.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock.|
 
@@ -109,8 +109,8 @@ T Goblin Sponsorship|QID|1182|M|27.2,77.0|N|To Baron Revilgaz.|
 A Goblin Sponsorship|QID|1183|M|27.2,77.0|N|From Baron Revilgaz.|
 T The Bloodsail Buccaneers|QID|604|M|27.2,77.0|N|To Fleet Master Seahorn. (skip followup if you are solo)|
 A The Bloodsail Buccaneers|QID|608|M|27.2,77.0|GROUP|N|From Fleet Master Seahorn.|
-T Voodoo Dues|QID|609|M|27.04,77.32|N|To "Sea Wolf" MacKinley. (skip follow up).|
-A Stoley's Debt|QID|2872|M|27.04,77.32|N|From "Sea Wolf" MacKinley.|
+T Voodoo Dues|QID|609|M|27.78,77.07|N|To "Sea Wolf" MacKinley. (skip follow up).|
+A Stoley's Debt|QID|2872|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|
 T Keep An Eye Out|QID|576|M|28.6,75.9|N|To Dizzy One-Eye.|
 N Things to do|ACTIVE|608|N|Coming next, you will be killing pirates on 3 ships. While there, keep a sharp eye out for a rolled up scroll that can be about anywhere below deck. It starts Cortello's Riddle quest. Avoid fighting on the stairs or you may have multi floor agro.|
 K Captain Stillwater|ACTIVE|608|QO|1|M|32.9,88.2|T|Captain Stillwater|N|Head into the first pirate ship and kill Captain Stillwater . Don't forget to watch for Cortello's Riddle.|
@@ -532,7 +532,7 @@ T Thadius Grimshade|QID|2990|M|66,18|Z|Blasted Lands|N|To Thadius Grimshade.|
 A Nekrum's Medallion|QID|2991|M|66,18|Z|Blasted Lands|N|From Thadius Grimshade.|
 
 F Booty Bay|ACTIVE|2874|M|66,18|Z|Blasted Lands|N|Fly to Darkshire then on to Booty Bay.|
-T Deliver to MacKinley|QID|2874|M|27.04,77.32|Z|Stranglethorn Vale|N|To "Sea Wolf" MacKinley.|
+T Deliver to MacKinley|QID|2874|M|27.78,77.07|Z|Stranglethorn Vale|N|To "Sea Wolf" MacKinley.|
 t Rescue OOX-22/FE!|QID|2767|M|28.2,76.2|Z|Stranglethorn Vale|N|To Oglethorpe Obnoticus.|
 t Rescue OOX-09/HL!|QID|836|M|28.2,76.2|Z|Stranglethorn Vale|N|To Oglethorpe Obnoticus.|
 t Rescue OOX-17/TN!|QID|648|M|28.2,76.2|Z|Stranglethorn Vale|N|To Oglethorpe Obnoticus.|
