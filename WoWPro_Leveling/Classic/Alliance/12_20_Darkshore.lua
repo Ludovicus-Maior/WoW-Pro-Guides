@@ -113,6 +113,8 @@ T Cleansing of the Infected|QID|2138|M|38.84,43.42|N|To Tharnariun Treetender.|
 A Tharnariun's Hope|QID|2139|M|38.84,43.42|N|From Tharnariun Treetender.|
 T How Big a Threat?|QID|985|M|39.37,43.48|N|To Terenthis.|
 A A Lost Master|QID|986|M|39.37,43.48|N|From Terenthis.|
+T Deep Ocean, Vast Sea|QID|982|M|38.12,41.22|N|To Gorbold Steelhand.|
+r Repair/Sell|QID|2178|M|38.12,41.22|N|While standing here, repair and sell junk to Elisa Steelhand.|
 T Easy Strider Living|QID|2178|M|37.67,40.70|N|To Alanndarian Nightsong.|
 T The Cliffspring River|QID|4762|M|37.4, 40.2|N|To Thundris Windweaver|
 T The Principal Source|QID|6122|C|Druid|M|37.67,40.70|N|To Alanndarian Nightsong.|
@@ -212,20 +214,24 @@ T Beached Sea Turtle|QID|4732|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Creature|QID|4733|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 F Rut'theran Village|QID|741|M|36.34,45.58|N|Time to head back to Darnassus, if you're level 18 be sure to train up while you're there, do professions, bank, repair, sell.|
 R Darnassus|QID|741|M|55.88,89.55|Z|Teldrassil|
+
 T The Absent Minded Prospector|QID|741|M|31.23,84.41|Z|Darnassus|N|To Chief Archaeologist Greywhisker.|
 A The Absent Minded Prospector|QID|942|M|31.23,84.41|Z|Darnassus|N|From Chief Archaeologist Greywhisker.|
-R Auberdine|QID|993|N|When you are done training, and selling, head back to Auberdine.|
+F Auberdine|ACTIVE|942|N|When you are done in Darnassus, go back through the portal to Vesprystus and fly back to Auberdine.|
 T A Lost Master|QID|993|M|45,85.3|N|Start clearing into the camp, make sure to clear ALL the furbolgs out. Go into the cave and turn in A Lost Master. You will have 2 options, to escape by stealth or escape by force. Stealth is easy and awards cloth pants. Force is a very difficult escort and awards a leather belt and double the exp/silver than the stealth. If you have a group go for the force.|
 A Escape Through Force or Stealth|QID|994^995|N|Stealth is much easier and requires no fighting but rewards half the exp and silver. Force is a tough escort that will probably require a group.|PRE|993|
-A The Sleeper Has Awakened|QID|5321|M|44.39, 76.43|N|Get to the road and travel south, occasionally he will start to sleep, just use your Horn of Awakening on him. You'll face two ambushes, both will consist of three Twilight mobs. They can be very hard to solo, and that is why this is optional. Keep escorting him south along the road until you get to Maestra's Post.|
-C The Sleeper Has Awakened|QID|5321|M|44.38,76.31|QO|1|N|Loot the Horn of awakening from the box on the ground|
-C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|Ashenvale|U|13536|N|Escort Kerlonian, use the horn if he falls asleep.|
-T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|Ashenvale|N|If you took it, otherwise close this step.|
+C Escape Through Force|ACTIVE|994|M|41.91,81.59|N|Prepare for an escort with 3 waves of fighting. Stay behind Volcor and allow him to pull the aggro first. If he doesn't get aggro, he will keep walking into the next wave.\nThe quest will complete when you reach the road/Grimclaw.|
+A The Sleeper Has Awakened|QID|5321|M|44.39, 76.43|N|A 25 minute quest timer will start as soon as you accept this quest. Escort Kerlonian to Maestra's Post in Ashenvale.\nThis is not an easy quest. The point of this quest id to get the FP in Ashenvale.|
+C The Sleeper Has Awakened|QID|5321|M|44.38,76.31|QO|1|N|Loot the Horn of awakening from the box on the ground.|
+C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|Ashenvale|U|13536|N|Kerlonian will follow you at your pace. He will announce when he is falling asleep. Move close to him and use the horn to wake him up. Get to the road and travel south.\nYou'll face two ambushes, both will consist of three Twilight mobs. He will announce when these ambushes are about to happen. You can avoid the ambushes by not taking the road and sticking to the hills instead.|
+T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|Ashenvale|N|To Liladris Moonriver.|
 T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|Ashenvale|N|Do not get followup.|
-f Ashenvale|QID|994^995|M|34.41,47.99|Z|Ashenvale|N|Get the flight path while you're here.|
+f Astranaar|QID|994^995|M|25.53,38.73;26.17,46.43;34.41,47.99|CC|Z|Ashenvale|N|Get the flight path while you're here.|
 F Auberdine|QID|994^995|N|Fly back to turn in quests, repair and sell. If you reached level 18 goto Darnassus and train up.|
-T Escape Through Force or Stealth|QID|994^995|M|39.37,43.48|N|To Terenthis.|
-A Gyromast's Retrieval|QID|2098|M|56.67,13.49|N|From Gelkak Gyromast.|
+T Escape Through Stealth|QID|995|M|39.37,43.48|N|To Terenthis.|
+T Escape Through Force|QID|994|M|39.37,43.48|N|To Terenthis.|
+R Gyromast's Retrieval|QID|2098|M|40.13,46.46;50.75,24.68|CN|N|Leave Auberdine and follow the road north to Cliffspring River bridge.|
+A Gyromast's Retrieval|QID|2098|M|56.67,13.49|N|From Gelkak Gyromast. Jump off the bridge into the water and follow the arrow to your destination.|
 C Gyromast's Retrieval|QID|2098|QO|2|M|55.41,12.52|N|Swim to the boat wreckage ahead of you and kill murlocks until you find the Middle of Gelkak's Key.|
 C Gyromast's Retrieval|QID|2098|QO|3|N|Kill Raging Reef Crawlers until you find the Bottom of Gelkak's Key.|
 C Mathystra Relics|QID|951|M|59.55,15.66|S|N|Look for relics on the groung while you're hunting the Foreststriders near the ruins.|
