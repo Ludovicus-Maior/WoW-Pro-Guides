@@ -421,6 +421,12 @@ function WoWPro:OnInitialize()
     WoWPro.inhibit_oldQuests_update = false
 end
 
+function WoWPro:RESET()
+    -- Lets try to get things back on track
+    WoWProDB = nil
+    WoWProCharDB = nil
+    WoWPro:OnInitialize()
+end
 
 function WoWPro.MaybeCombatLockdown()
     return InCombatLockdown() and (not WoWProDB.global.RecklessCombat)
