@@ -522,6 +522,8 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 			local x, y, z = WoWPro:GetPlayerZonePosition()
 			if (x  and y) then
 				WoWPro.map[i]= string.format("%.2f",x*100) .. ',' .. string.format("%.2f",y*100)
+			else
+				WoWPro.map[i]= nil
 			end
 		end
 	    WoWPro:ValidateMapCoords(GID,WoWPro.action[i],WoWPro.step[i],WoWPro.map[i])
