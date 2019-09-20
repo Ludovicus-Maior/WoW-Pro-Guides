@@ -137,16 +137,16 @@ T Vanquish the Betrayers|QID|784|M|51.95,43.50|N|To Gar'Thok.|
 A From The Wreckage....|QID|825|PRE|784|M|51.95,43.50|N|From Gar'Thok.|
 T The Admiral's Orders|QID|830|M|51.95,43.50|N|To Gar'Thok.|
 A The Admiral's Orders|QID|831|PRE|830|M|51.95,43.50|N|From Gar'Thok.|
+A Encroachment|QID|837|M|51.95,43.50|N|From Gar'Thok.|
 T Carry Your Weight|QID|791|M|49.88,40.38|N|To Furl Scornbrow up the watchtower.|
 C A Solvent Spirit|QID|818|S|N|Kill Makrura and Crawlers on the way.|
 C From The Wreckage....|QID|825|M|64.00,52.00|N|Go south-east and look for Gnomish Tools.|
 C A Solvent Spirit|QID|818|US|N|Kill Makrura and Crawlers on the way.|
-A Encroachment|QID|837|M|51.95,43.50|N|From Gar'Thok.|
 C Encroachment|QID|837|QO|1;2|M|50.58,49.11|N|Go to the southwest of Razor Hill and kill Razormane Quillboars and Razormane Scouts.|
-L Level 8|QID|825|LVL|8|N|You should be level 8 or shortly before. Grind a bit on the Quillboars if not.|
+L Level 8|QID|825|LVL|7;-700|N|You should be level 8 or shortly before. Grind a bit on the Quillboars if not.|
 T From The Wreckage....|QID|825|M|51.95,43.50|N|To Gar'Thok.|
-N Train your skills|QID|786|N|Train your level 8 skills. Right-click this step off once you are done.|
 r Sell Junk and Repair|QID|786|M|51.90,41.14|N|Sell Junk and Repair before heading out again.|
+N Train your skills|QID|786|N|Train your level 8 skills. Right-click this step off once you are done.|
 R Thwarting Kolkar Aggression|QID|786|M|50.84,79.13|N|Run south to the Kolkar Crag.|
 C Thwarting Kolkar Aggression|QID|786|QO|1|M|49.82,81.29|NC|N|Burn the Valley of Trials Attack Plans. They are inside the big tent.|
 C Thwarting Kolkar Aggression|QID|786|QO|3|M|46.23,78.95|NC|N|Burn the Orgrimmar Attack Plans.|
