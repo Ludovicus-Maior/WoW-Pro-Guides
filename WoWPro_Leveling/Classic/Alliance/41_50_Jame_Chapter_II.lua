@@ -211,12 +211,12 @@ T Rizzle's Schematics|QID|1194|M|80.2,75.9|Z|Thousand Needles|N|To Pozzik.|
 H Gadgetzan|ACTIVE|3520|N|Hearth or run to Gadgetzan.|
 
 F Thalanaar|ACTIVE|3520|M|51.00,29.30|Z|Tanaris|N|Fly to Thalanaar (Feralas).|
-R Grimtotem Camp|ACTIVE|3520|M|65,47|Z|Feralas|N|Make your way to Grimtotem Camp avoiding Camp Mojache.|
-R Kindal Moonweaver|ACTIVE|3520|M|65,47|Z|Feralas|CC|N|Make sure you know where she is and then go back to the Grimtotem Camp.|
+R Grimtotem Camp|ACTIVE|3520|M|66.5,47.2|Z|Feralas|N|Make your way to Grimtotem Camp avoiding Camp Mojache.|
+R Kindal Moonweaver|ACTIVE|3520|M|65.64,46.87;65.91,45.67|Z|Feralas|CC|N|Make sure you know where she is and then go back to the Grimtotem Camp.|
 N Clear area around cage|AVAILABLE|2969|M|66.50, 47.20|Z|Feralas|N|Clear the area in the camp around the cage containing Sprite Darters, then quickly go to Kindal and start the quest. (check this step off manually if you don't know where to find Kindal).|
-A Freedom for All Creatures|QID|2969|M|65.9,45.6|Z|Feralas|N|From Kindal Moonweaver.|
+A Freedom for All Creatures|QID|2969|M|65.91,45.67|Z|Feralas|N|From Kindal Moonweaver.|
 C Freedom for All Creatures|QID|2969|M|66.7,46.8|Z|Feralas|N|Go to the cage, open it, and protect the sprites. When quest complete, help Kindal finish off whatever she is fighting, so she can return to original location.|
-T Freedom for All Creatures|QID|2969|M|65.9,45.6|Z|Feralas|N|To Kindal Moonweaver.|
+T Freedom for All Creatures|QID|2969|M|65.91,45.67|Z|Feralas|N|To Kindal Moonweaver.|
 A Doling Justice |QID|2970|M|65.9,45.6|Z|Feralas|N|From Jer'kai Moonweaver.|
 C Doling Justice |QID|2970|M|66.70,46.70|Z|Feralas|N|Kill the mobs for this quest.|
 T Doling Justice |QID|2970|M|65.9,45.6|Z|Feralas|N|To Jer'kai Moonweaver.|
@@ -272,8 +272,9 @@ C Rescue OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|Rather difficult (perhaps
 R Woodpaw Hills|ACTIVE|4131|M|73,56|N|Follow the road east, then run south to the Southeastern tip of the small lake.|
 T The Woodpaw Gnolls|QID|4131|M|73.30,56.30|Z|Feralas|N|To Large Leather Backpack, hanging on the trunk of a huge tree.|
 A The Writhing Deep|QID|4135|M|73.3,56.3|Z|Feralas|N|From Large Leather Backpack. You might want to ask in chat for a partner for this one as it can be quite challenging.|PRE|4131|
-T The Writhing Deep|QID|4135|M|73.25,63.80|Z|Feralas|N|Go down the spiral ramp at the writhing deep, then enter the tunnel to the west. At the first fork, go right. Go to the end, clear the room and then click the Zukk'Ash Pod.|
-A Freed from the Hive|QID|4265|M|73.5,63.1|Z|Feralas|N|From Zukk'ash Pod. Wait abit for the dialog to end and quest will complete.|PRE|4135|
+T The Writhing Deep|QID|4135|M|72.09,63.76|Z|Feralas|N|Go down the spiral ramp at the writhing deep. At the lowest open level, enter the western tunnel. At the first fork, go right, and then left at the next fork. At to the end, clear the room and then click the Zukk'Ash Pod.|
+A Freed from the Hive|QID|4265|M|72.09,63.76|Z|Feralas|N|From Zukk'ash Pod.|PRE|4135|
+C Freed from the Hive|QID|4265|M|72.09,63.76|Z|Feralas|NC|N|Wait abit for the dialog to end and quest will complete.|
 A Thalanaar Delivery|QID|4281|U|11463|N|Use the Undelivered Parcel (dropped ramdomly in zone) to get this quest if you have the item.|
 H Feathermoon Stronghold|ACTIVE|2821|N|Hearth to Feathermoon Stronghold.|Z|Feralas|
 T The Mark of Quality|QID|2821|M|30.6,42.7|Z|Feralas|N|To Pratt McGrubben.|
@@ -284,7 +285,10 @@ A A Hero's Welcome|QID|4266|M|31.9,45.1|Z|Feralas|N|From Ginro Hearthkindle.|PRE
 T A Hero's Welcome|QID|4266|M|30.3,46.2|Z|Feralas|N|To Shandris Feathermoon.|
 A Rise of the Silithid|QID|4267|M|30.3,46.2|Z|Feralas|N|From Shandris Feathermoon.|PRE|4266|
 
-F Rut'theran Village|ACTIVE|3022|M|30.20,43.20|Z|Feralas|N|Fly to Rut'theran Village If you don't have the flightpath, fly to Auberdine, go to the pier and take 'The Moonspray' (ship on the right) to Rut'theran Village.|
+F Rut'theran Village|ACTIVE|3022|M|30.20,43.20|Z|Feralas|N|Fly to Rut'theran Village.|TAXI|Rut'theran Village|
+F Auberdine|ACTIVE|3022|M|30.20,43.20|Z|Feralas|N|Fly to Auberdine.|TAXI|-Rut'theran Village|
+b The Moonspray|ACTIVE|3022|33.2, 40.2|Z|Darkshore|N|Go to the pier and take 'The Moonspray' (ship on the right) to Rut'theran Village.|TAXI|-Rut'theran Village|
+
 T Handle With Care|QID|3022|M|55.5,92.0|Z|Teldrassil|N|To Erelas Ambersky.|
 A Favored of Elune?|QID|3661|M|55.5,92.0|Z|Teldrassil|N|From Erelas Ambersky.|PRE|3022|
 T In Search of Knowledge|QID|2939|M|55.5,92.0|Z|Teldrassil|N|To Daryn Lightwind, upstairs.|
@@ -324,7 +328,7 @@ T Stoley's Shipment|QID|2873|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhiz
 A Deliver to MacKinley|QID|2874|M|67.1,23.9|Z|Tanaris|N|From Security Chief Bilgewhizzle.|
 T Pirate Hats Ahoy!|QID|8365|M|66.6,22.3|Z|Tanaris|N|To Haughty Modiste.|
 T Screecher Spirits|QID|3520|M|67.0,22.4|Z|Tanaris|N|To Yeh'kinya. followup is dungeon quest, you can wait to pick it up if you don't mind running out here.|
-K Level Check|N|If you arent nearly 46, stay out and grind on pirates until two bubbles away.|LVL|46;-105900|
+K Level Check|N|If you arent nearly 46, stay out and grind on pirates until two bubbles away.|LVL|45;105900|
 R Gadgetzan|ACTIVE|1691|M|52.5,28.5|Z|Tanaris|N|Ride west to Gadgetzan.|
 T More Wastewander Justice|QID|1691|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 T WANTED: Caliph Scorpidsting|QID|2781|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
@@ -351,8 +355,8 @@ A Rhapsody Shindigger|QID|1451|M|10.0,44.6|Z|The Hinterlands|N|From Gryphon Mast
 A Witherbark Cages|QID|2988|M|9.8,44.5|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|
 h Wildhammer Keep|ACTIVE|1451|M|13.60,41.70|Z|The Hinterlands|N|Set your hearthstone to Aerie Peak.|
 R Shindigger's Camp|ACTIVE|1451|M|20.2,48.3|Z|The Hinterlands|N|East from Aerie Peak to find a small path up the mountain.| 
-T Rhapsody Shindigger|QID|1451|M|26,48|Z|The Hinterlands|N|To Rhapsody Shindigger.|
-A Rhapsody's Kalimdor Kocktail|QID|1452|M|26,48|Z|The Hinterlands|N|From Rhapsody Shindigger.|
+T Rhapsody Shindigger|QID|1451|M|26.94,48.59|Z|The Hinterlands|N|To Rhapsody Shindigger.|
+A Rhapsody's Kalimdor Kocktail|QID|1452|M|26.94,48.59|Z|The Hinterlands|N|From Rhapsody Shindigger.|
 C Wildkin Feathers|QID|3661|S!US|L|10819 15|NC|N|These are ground spawn, NOT drops from the Owlbeasts. Pick up all you see.|
 K Trolls|ACTIVE|2880|L|9259 5|S|N|Kill the trolls to collect the Necklaces.|
 C Check cages|QID|2988|QO|2|M|23.00,58.00|Z|The Hinterlands|N|Check the first and second Witherbark Cage here after clearing the camp.|
@@ -435,7 +439,7 @@ F Feathermoon Stronghold|ACTIVE|2942|N|Fly to Feathermoon Stronghold.|; FIXME: a
 T Improved Quality|QID|7733|M|30.6,42.7|Z|Feralas|N|To Pratt McGrubben.|
 T Pristine Yeti Hide|QID|7735|M|30.6,42.7|Z|Feralas|N|To Pratt McGrubben.|
 T The Morrow Stone|QID|2942|M|31.8,45.6|Z|Feralas|N|To Troyas Moonbreeze.|
-F Thallanaar|ACTIVE|3841|M|30.20,43.25|Z|Feralas|N|Fly to Thalanaar then on to Gadgetzan.|
+F Gadgetzan|ACTIVE|3841|M|30.20,43.25|Z|Feralas|N|Fly to Gadgetzan.|
 
 A Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
 A The Thirsty Goblin|QID|2605|M|51.8,28.7|Z|Tanaris|N|From Marin Noggenfogger.|
@@ -503,8 +507,8 @@ A The Newest Member of the Family|QID|3843|M|78.3,74.7|Z|Thousand Needles|N|From
 H Aerie Peak|ACTIVE|3843|N|Your hearthstone is still set to Aerie Peak... isn't it. If not, you can fly from Gadgetzan to Ratchet, take the boat from there to booty Bay, then fly from there to Aerie Peak. (Don't you wish you had left your hearth set to Aerie Peak.?)|
 T The Newest Member of the Family|QID|3843|M|14.2,43.6|Z|The Hinterlands|N|To Agnar Beastamer, in the basement of the inn.|
 A Food for Baby|QID|4297|M|14.2,43.6|Z|The Hinterlands|N|From Agnar Beastamer.|
-T Rhapsody's Kalimdor Kocktail|QID|1452|M|20.2,48.3;26,48|Z|The Hinterlands|CS|N|Up the dirt path to Rhapsody Shindigger.|
-A Rhapsody's Tale|QID|1469|M|26,48|Z|The Hinterlands|N|From Rhapsody Shindigger, after a moment to get good and drunk.|
+T Rhapsody's Kalimdor Kocktail|QID|1452|M|20.2,48.3;26.94,48.59|Z|The Hinterlands|CS|N|Up the dirt path to Rhapsody Shindigger.|
+A Rhapsody's Tale|QID|1469|M|26.94,48.59|Z|The Hinterlands|N|From Rhapsody Shindigger, after a moment to get good and drunk.|
 C Food for Baby|QID|4297|M|63.00,50.00|Z|The Hinterlands|N|Kill Silvermane Stalkers, (they are stealthed) until you get the 5 flanks needed for the quest.|
 C Sprinkle's Secret Ingredient|QID|2641|M|40.00,59.90|Z|The Hinterlands|N|Go into Valorwind Lake and pick a white/red mushroom called 'Violet Tragan'. Loot it, (don't click it in your inventory).|
 H Aerie Peak|ACTIVE|4297|N|Hearth or run to Aerie Peak.|
@@ -558,7 +562,7 @@ t Nekrum's Medallion|QID|2991|M|66.9,19.5|Z|Blasted Lands|N|To Thadius Grimshade
 A The Divination|QID|2992|PRE|2991|M|66.9,19.5|Z|Blasted Lands|N|From Thadius Grimshade.|
 T The Divination|QID|2992|M|66.9,19.5|Z|Blasted Lands|N|Wait for him to finish the ritual then turn quest in to Thadius Grimshade.|
 A Return to the Hinterlands|QID|2993|PRE|2992|M|66.9,19.5|Z|Blasted Lands|N|From Thadius Grimshade.|
-R Ride West|AVAILABLE|2583|M|50,14|Z|Blasted Lands|N|Ride out of Nethergarde Keep, go west / northwest until you find the two Blood Elves.|
+R Ride West|AVAILABLE|2583|M|50,14|Z|Blasted Lands|N|Ride out of Nethergarde Keep, go west / northwest until you find the two Blood Elves with quests for you.|
 A A Boar's Vitality|QID|2583|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. Gives +25 Stamina for 1 hour when turned in.|
 A Snickefang Jowls|QID|2581|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. Gives +25 Strength for 1 hour when turned in.|
 A The Basilisk's Bite|QID|2601|M|50,14|Z|Blasted Lands|N|From Bloodmage Lynnore. Gives +25 Intellect for 1 hour when turned in.|
