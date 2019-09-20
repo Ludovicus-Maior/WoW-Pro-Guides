@@ -85,10 +85,15 @@ function WoWPro:PaddingSet()
 	WoWPro.GuideFrame:SetPoint("TOPRIGHT", WoWPro.StickyFrame, "BOTTOMRIGHT" )
 	WoWPro.GuideFrame:SetPoint("BOTTOM", 0, pad)
 end
+
+function WoWPro:TitlebarShow()
+    if WoWProDB.profile.titlebar then WoWPro.Titlebar:Show() else WoWPro.Titlebar:Hide() end
+end
+
 function WoWPro:TitlebarSet()
     WoWPro:dbp("WoWPro:TitlebarSet()")
 -- Titlebar enable/disable --
-	if WoWProDB.profile.titlebar then WoWPro.Titlebar:Show() else WoWPro.Titlebar:Hide() end
+	WoWPro:TitlebarShow()
 
 -- Colors --
 	WoWPro.Titlebar:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
