@@ -384,7 +384,7 @@ A Encroaching Gnolls|QID|244|M|15.3,71.5|Z|Redridge Mountains|N|From Guard Parke
 T Encroaching Gnolls|QID|244|M|30.7,60.0|Z|Redridge Mountains|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|M|30.7,60.0|Z|Redridge Mountains|N|From Deputy Feldon.|
 f Lakeshire|QID|65|M|30.60,59.40|Z|Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
-A The Price of Shoes|QID|118|M|31.0,47.3|N|From Verner Osgood.|
+A The Price of Shoes|QID|118|M|31.0,47.3|Z|Redridge Mountains|N|From Verner Osgood.|
 
 F Stormwind|ACTIVE|147^1787|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
 T Manhunt|QID|147|M|42.1,65.9|N|To Marshall Dughan|

@@ -815,10 +815,8 @@ local function createBlizzOptions()
 			    desc = L["If a WoWPro addon is behaving oddly, this wipes all saved state across all characters. Log out and back in again to complete the reset."],
 			    image = "Interface\\Addons\\WoWPro\\Textures\\inv_misc_enggizmos_27",
 			    func =  function (info)
-			                WoWProDB = nil
-			                WoWProCharDB = nil
-			                WoWPro:OnInitialize()
-			                PlaySoundFile([[Sound\Interface\Lfg_Denied.Ogg]])
+			                WoWPro:RESET()
+			                PlaySound(1026) -- Rabitt death
 			            end
 			},
 			resetLog = {

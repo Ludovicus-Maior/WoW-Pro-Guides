@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("JamWin5656", "Winterspring", "Jame", "56", "56", "JamFel5657", "Alliance", function() return [[
+TourGuide:RegisterGuide("JamWin5656", "Winterspring", "Jame", "56", "56", "JamWes5859", "Alliance", function() return [[
 R Winterspring|QID|980|N|Through the tunnel from Felwood (or Moonglade, if you're a druid.|
 A Winterfall Activity|QID|8464|M|27.75,34.50|
 T The New Springs|QID|980|M|31.3,45.2|

@@ -7,7 +7,7 @@ WoWPro:GuideLevels(guide, 18, 20, 19)
 WoWPro:GuideNextGuide(guide, 'ClassicRedridge2021')
 WoWPro:GuideSteps(guide, function() return [[
 
-T The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|
+t The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|142|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|141|
 l Flask of Oil|QID|103|M|38,51|S|N|Kill Harvest Watchers to collect Flask of Oil|L|814 5|
 l Hops|QID|117|M|38,51|N|Kill Harvest Watchers to collect Hops.|L|1274 5|
@@ -63,8 +63,8 @@ A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the S
 N The Deadmines|ACTIVE|167|N|You may do the Deadmines at this point. Otherwise grind until you're level 20.|
 
 F Lakeshire|ACTIVE|116|M|66.28,62.16|Z|Stormwind City|N|Fly to Redridge.|TZ|Redridge Mountains|
-T Return to Verner|QID|119|M|30.97,47.27|N|To Verner Osgood.|;if not done elwynn guide -- 
-T Messenger to Stormwind|QID|121|M|29.99,44.44|Z|Redridge Mountains|N|To Magistrate Solomon.|
+t Return to Verner|QID|119|M|30.97,47.27|N|To Verner Osgood.|;if not done elwynn guide -- 
+t Messenger to Stormwind|QID|121|M|29.99,44.44|Z|Redridge Mountains|N|To Magistrate Solomon.|
 A Messenger to Westfall|QID|143|M|29.99,44.44|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|121|
 T Dry Times|QID|116|M|26.49,43.95|Z|Redridge Mountains|N|To Barkeep Daniels.|
 H Westfall|QID|143|N|Return to Westfall, fly if your hearthstone isn't ready.|M|30.60,59.40|Z|Redridge Mountains|

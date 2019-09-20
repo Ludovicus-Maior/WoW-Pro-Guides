@@ -282,6 +282,7 @@ DefineTag("GUIDE","guide","string",nil,nil)
 DefineTag("GROUP","group","boolean",nil,nil)
 DefineTag("RARE","rare","boolean",nil,nil)
 DefineTag("EX","expansion","string",validate_old_list_of_ints,nil)
+DefineTag("TAXI","taxi","string",nil,nil)
 
 -- Pet Stuff
 DefineTag("PET1","pet1","string",nil,nil)
@@ -519,7 +520,11 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	if WoWPro.map[i] then
 		if (WoWPro.map[i] == "PLAYER") then
 			local x, y, z = WoWPro:GetPlayerZonePosition()
-			WoWPro.map[i]= string.format("%.2f",x*100) .. ',' .. string.format("%.2f",y*100)
+			if (x  and y) then
+				WoWPro.map[i]= string.format("%.2f",x*100) .. ',' .. string.format("%.2f",y*100)
+			else
+				WoWPro.map[i]= nil
+			end
 		end
 	    WoWPro:ValidateMapCoords(GID,WoWPro.action[i],WoWPro.step[i],WoWPro.map[i])
 	end

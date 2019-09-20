@@ -9,8 +9,8 @@ WoWPro:GuideSteps(guide, function() return [[
 B Bronze Tube|QID|174|M|53.19,60.7|Z|Stormwind City|N|Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
 B Stormwind Seasoning Herbs |QID|90|M|60.07,51.55;64.15,60.60|CS|Z|Stormwind City|N|Buy Stormwind Seasoning Herbs from Felicia Gump.|L|2665 1|
 N Level the Cooking skill if you haven't already.|QID|90|M|75.85,36.96|Z|Stormwind City|N|Level your cooking skill to 50 and get Journeyman Cooking (needed for quest) if you haven't already.  You can level up to 40 only with ingredients from the Cooking Supplies merchant, and you'll need 10 Chunk of Boar Meat or 10 Stringy Wolf Meat for the last ten points. So you'll have to buy that from the Auction House.  You may do this anytime before level 28.|P|Cooking;185;0+50;1|
-T Retrieval for Mauren|QID|1078|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
-T A Scroll from Mauren|QID|1075|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
+t Retrieval for Mauren|QID|1078|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
+t A Scroll from Mauren|QID|1075|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
 F Redridge Mountains|QID|128|M|70.90,72.60|Z|Stormwind City|N|Fly to Lakeshire in Redridge Mountains.|
 
 N Sell junk, repair, restock|QID|126|M|27.05,45.65|N|The majority of quests left in the zone now may require a group to be effective. Close this step when you're done.|

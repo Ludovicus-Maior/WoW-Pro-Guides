@@ -56,7 +56,7 @@ N From now on...|QID|1110|N|From now on, do long circles all around The Shimmeri
 C Salt Flat Venom|QID|1104|S!US|M|72.00,73.00|N|Get the rest of the venom you need for this quest.  They drop from Scorpids.|
 C Load Lightening|QID|1176|S!US|M|87.00,66.00|N|Get the rest of the Vulture Bones you need for this quest.|
 C A Bump in the Road|QID|1175|S!US|M|80.00,87.00|N|Kill the rest of the Basilisks needed for this quest. The Saltstone Basilisks can only be found in the northern side.  Kill other things and progress on your other quests while doing this.|
-C Rocket Car Parts|NC||QID|1110|M|78.22,78.66;72.07,72.85;73.86,57.69;77.61,60.46;82.44,55.73;87.06,65.31;77.5,87.20.0|CN|N|Get Rocket Car Parts you need.  They are scattered everywhere. Kill Everything that crosses your path!|
+C Rocket Car Parts|NC||QID|1110|M|78.22,78.66;72.07,72.85;73.86,57.69;77.61,60.46;82.44,55.73;87.06,65.31;77.5,87.20|CN|N|Get Rocket Car Parts you need.  They are scattered everywhere. Kill Everything that crosses your path!|
 K Turtles|QID|555|L|3712 10|M|82.70,54.70|N|Save 10 Turtle Meat for a quest later. You may also check the Auction House on another character and then mail yourself the meat, since the meat doesn't drop often.|
 C Hardened Shells|QID|1105|S!US|M|83.2,55.4|N|If you haven't completed Hardened Shells, get 9 Hardened Tortoise Shells from any Tortoise in the area.|
 T A Bump in the Road|QID|1175|M|81.6,77.9|N|To Trackmaster Zherin.|
