@@ -147,7 +147,7 @@ L Level 8|QID|825|LVL|8|N|You should be level 8 or shortly before. Grind a bit o
 T From The Wreckage....|QID|825|M|51.95,43.50|N|To Gar'Thok.|
 N Train your skills|QID|786|N|Train your level 8 skills. Right-click this step off once you are done.|
 r Sell Junk and Repair|QID|786|M|51.90,41.14|N|Sell Junk and Repair before heading out again.|
-R Thwarting Kolkar Aggression|QID|786|M|50.84,79.13|N|Run south to the Kolkar Crag.|
+R Kolkar Crag|QID|786|M|50.84,79.13|N|Run south to the Kolkar Crag.|
 C Thwarting Kolkar Aggression|QID|786|QO|1|M|49.82,81.29|NC|N|Burn the Valley of Trials Attack Plans. They are inside the big tent.|
 C Thwarting Kolkar Aggression|QID|786|QO|3|M|46.23,78.95|NC|N|Burn the Orgrimmar Attack Plans.|
 C Thwarting Kolkar Aggression|QID|786|QO|2|M|47.66,77.34|NC|N|Burn the Sen'jin Village Attack Plans.|
@@ -267,7 +267,7 @@ A Hidden Enemies|QID|5727|PRE|5726|M|31.75,37.82|Z|Orgrimmar|N|From Thrall.|
 T Neeru Fireblade|QID|829|M|49.47,50.58|Z|Orgrimmar|N|To Neeru Fireblade.|
 A Ak'Zeloth|QID|809|PRE|829|M|49.47,50.58|Z|Orgrimmar|N|From Neeru Fireblade.|
 T Burning Shadows|QID|832|M|49.47,50.58|Z|Orgrimmar|N|To Neeru Fireblade.|
-A Slaying the Beast|QID|5761|M|49.47,50.58|Z|Orgrimmar|O|N|If you intend to run Ragefire Chasm later pick up this quest.|
+A Slaying the Beast|QID|5761|M|49.47,50.58|Z|Orgrimmar|N|If you intend to run Ragefire Chasm later pick up this quest.|
 C Hidden Enemies|QID|5727|N|Speak to Neeru Fireblade through the gossip text to complete the quest.|
 T Creature of the Void|QID|1501|C|Warlock|R|Orc,Troll|M|48.20,45.70|Z|Orgrimmar|N|To Gan'rul Bloodeye.|
 A The Binding|QID|1504|PRE|1501|C|Warlock|R|Orc,Troll|M|48.20,45.70|Z|Orgrimmar|N|From Gan'rul Bloodeye.|
