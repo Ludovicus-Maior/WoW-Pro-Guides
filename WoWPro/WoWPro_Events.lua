@@ -452,7 +452,7 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function (event,...)
     if WoWPro.Hidden == "PLAYER_ENTERING_BATTLEGROUND" then
         WoWPro:Print("|cff33ff33Battleground Exit Auto Show|r: %s Module", guidetype)
 		WoWPro.MainFrame:Show()
-		WoWPro.Titlebar:Show()
+		WoWPro:TitlebarShow()
 		WoWPro.Hidden = nil
 	end
 	WoWPro:UpdateTradeSkills()
@@ -489,7 +489,7 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function (event,...)
 		elseif WoWPro.Hidden == true then
 			WoWPro:Print("|cff33ff33Instance Exit Auto Show|r: %s Module",guidetype)
 			WoWPro.MainFrame:Show()
-			WoWPro.Titlebar:Show()
+			WoWPro:TitlebarShow()
 			WoWPro.Hidden = nil
 		end
 	end
@@ -559,7 +559,7 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_OVER", function (event,...) return
 WoWPro.RegisterModernEventHandler("PET_BATTLE_CLOSE", function (event,...)
     if WoWPro.Hidden then
 		WoWPro.MainFrame:Show()
-		WoWPro.Titlebar:Show()
+		WoWPro:TitlebarShow()
 		WoWPro.Hidden = nil
 	end
 
@@ -604,7 +604,7 @@ WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function (event,...)
     -- Combat lockdown ends before this event fires
     if WoWPro.Hidden then
 		WoWPro.MainFrame:Show()
-		WoWPro.Titlebar:Show()
+		WoWPro:TitlebarShow()
 	end
 
 	WoWPro:UpdateGuide(event)

@@ -163,8 +163,8 @@ R Lake Elune'ara|ACTIVE|29|M|52.72,37.91|Z|Moonglade|N|Run to this rock ledge an
 C Trial of the Lake|QID|29|C|Druid|N|Search the lake bed for a Shrine Bauble. They can be anywhere in the water. There is a fissure at the bottom of the lake to replenish your breath with.\nOnce you have the Bauble, make your way to the Shrine of Remulos (NW of the lake) and use it within the boundaries of the Shrine. The Bauble has a 5 minute timer attached to it.|U|15877|
 T Trial of the Lake|QID|29|C|Druid|M|36.51,40.12|N|To Tajarri. The quest timer continues running until you speak with her.\n** You will fail the quest if the timer expires.|
 A Trial of the Sea Lion|QID|272|C|Druid|M|36.51,40.12|N|From Tajarri.|PRE|29|
-F Rut'theran Village|QID|272|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
-F Auberdine|QID|272|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
+F Rut'theran Village|AVAILABLE|272|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
+F Auberdine|AVAILABLE|272|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
 
 A Fruit of the Sea|QID|1138|M|36.1,44.9|N|From Gubber Blump.|
 C Buzzbox 525|QID|1003|M|41,80|S|N|Now that we're heading south you will find Grizzled Thistle Bears to kill.|
@@ -179,6 +179,9 @@ T The Master's Glaive|QID|944|M|39.23,85.49|N|Click on the Bowl of Scrying to sp
 A The Twilight Camp|QID|949|N|From Onu through the scrying bowl.|PRE|944|
 C The Twilight Camp|QID|949|M|38.55,86.05|N|Click the book on the podium beside the Disciple. The one beside the Thug is the wrong one.|NC|
 T The Twilight Camp|QID|949|M|38.55,86.05|N|To Twilight Tome.|
+
+N Leftover quest item|AVAILABLE|-949|N|As you no longer need it, you can safely destroy the Phial of Scrying to free up bag space.|
+
 A Return to Onu|QID|950|M|38.55,86.05|N|From Twilight Tome.|PRE|949|
 T Return to Onu|QID|950|M|43.5, 76.3|N|To Onu.|
 A Mathystra Relics|QID|951|M|43.5,76.5|N|From Onu.|
@@ -207,16 +210,17 @@ T Beached Sea Creature|QID|4730|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4731|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4732|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Creature|QID|4733|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
-F Rut'theran Village|QID|741|M|36.34,45.58|N|Time to head back to Darnassus, if you're level 18 be sure to train up while you're there, do professions, bank, repair, sell.|
-R Darnassus|QID|741|M|55.88,89.55|Z|Teldrassil|
 
+F Rut'theran Village|ACTIVE|741|M|36.34,45.58|N|Time to head back to Darnassus, if you're level 18 be sure to train up while you're there, do professions, bank, repair, sell.|
+R Darnassus|ACTIVE|741|M|55.88,89.55|Z|Teldrassil|
 T The Absent Minded Prospector|QID|741|M|31.23,84.41|Z|Darnassus|N|To Chief Archaeologist Greywhisker.|
 A The Absent Minded Prospector|QID|942|M|31.23,84.41|Z|Darnassus|N|From Chief Archaeologist Greywhisker.|
-F Auberdine|ACTIVE|942|N|When you are done in Darnassus, go back through the portal to Vesprystus and fly back to Auberdine.|
+F Auberdine|QID|993|N|When you are done in Darnassus, go back through the portal to Vesprystus and fly back to Auberdine.|
+
 T A Lost Master|QID|993|M|45,85.3|N|Start clearing into the camp, make sure to clear ALL the furbolgs out. Go into the cave and turn in A Lost Master. You will have 2 options, to escape by stealth or escape by force. Stealth is easy and awards cloth pants. Force is a very difficult escort and awards a leather belt and double the exp/silver than the stealth. If you have a group go for the force.|
 A Escape Through Force or Stealth|QID|994^995|N|Stealth is much easier and requires no fighting but rewards half the exp and silver. Force is a tough escort that will probably require a group.|PRE|993|
 C Escape Through Force|ACTIVE|994|M|41.91,81.59|N|Prepare for an escort with 3 waves of fighting. Stay behind Volcor and allow him to pull the aggro first. If he doesn't get aggro, he will keep walking into the next wave.\nThe quest will complete when you reach the road/Grimclaw.|
-A The Sleeper Has Awakened|QID|5321|M|44.39, 76.43|N|A 25 minute quest timer will start as soon as you accept this quest. Escort Kerlonian to Maestra's Post in Ashenvale.\nThis is not an easy quest. The point of this quest id to get the FP in Ashenvale.|
+A The Sleeper Has Awakened|QID|5321|M|44.39, 76.43|N|A 25 minute quest timer will start as soon as you accept this quest. Escort Kerlonian to Maestra's Post in Ashenvale.\nThis is not an easy quest. The point of this quest is to get the FP in Ashenvale.|
 C The Sleeper Has Awakened|QID|5321|M|44.38,76.31|QO|1|N|Loot the Horn of awakening from the box on the ground.|
 C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|Ashenvale|U|13536|N|Kerlonian will follow you at your pace. He will announce when he is falling asleep. Move close to him and use the horn to wake him up. Get to the road and travel south.\nYou'll face two ambushes, both will consist of three Twilight mobs. He will announce when these ambushes are about to happen. You can avoid the ambushes by not taking the road and sticking to the hills instead.|
 T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|Ashenvale|N|To Liladris Moonriver.|
@@ -234,37 +238,46 @@ C Trial of the Sea Lion|QID|272|C|Druid|M|48.85,11.28|L|15883|N|Swim out towards
 A Gyromast's Retrieval|QID|2098|M|56.67,13.49|N|From Gelkak Gyromast.|
 C Gyromast's Retrieval|QID|2098|QO|2|M|55.41,12.52|N|Swim to the boat wreckage ahead of you and kill murlocs until you find the Middle of Gelkak's Key.|
 C Gyromast's Retrieval|QID|2098|QO|3|N|Kill Raging Reef Crawlers until you find the Bottom of Gelkak's Key.|
-C Mathystra Relics|QID|951|M|59.55,15.66|QO|1|S|N|Look for relics on the ground in the area of the Ruins of Mathystra.|
+C Mathystra Relics|QID|951|M|59.55,15.66|QO|1|S|N|Look for the relics on the ground in the area of the Ruins of Mathystra.|NC|
 C Gyromast's Retrieval|QID|2098|QO|1|M|58.45,13.34|N|Head east of Gelkak Gyromast and slay Giant Foreststrider until you get Top of Gelkak's Key.|
 T Gyromast's Retrieval|QID|2098|M|56.7, 13.5|N|To Gelkak Gyromast.|
 A Gyromast's Revenge|QID|2078|M|56.7, 13.5|N|From Gelkak Gyromast.|
 C Gyromast's Revenge|QID|2078|M|55.8,18.2|QO|1|N|Robot will attack you as you are about to finish quest. Be ready. He is a level 20 elite. You will probably need a group.|
 T Gyromast's Revenge|QID|2078|M|56.7, 13.5|N|To Gelkak Gyromast.|
-N Trash the key|QID|951|N|Destroy Gyromast's Key, it is useless and wastes precious bag space. Skip this step when done.|PRE|2078|
-C Mathystra Relics|QID|951|M|59.55,15.66|US|N|Kill Naga's and look for relics on the ground until complete.|
+N Trash the key|QID|951|N|Destroy Gyromast's Key, it is useless and wastes precious bag space. Skip this step when done.|
+C Mathystra Relics|QID|951|M|59.55,15.66|QO|1|US|N|Look for the relics on the ground in the area of the Ruins of Mathystra.|NC|
 H Auberdine|QID|951|ACTIVE|951|N|Hearth or run back to Auberdine.|
 A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|
+
+F Rut'theran Village|QID|951|M|36.34,45.58|N|Time to head back to Darnassus to do your professions, bank, repair, sell. If you're level 20, be sure to visit your trainer.|
+R Darnassus|QID|951|M|55.88,89.55|Z|Teldrassil|
+F Auberdine|QID|951|N|When you are done in Darnassus, go back through the portal to Vesprystus and fly back to Auberdine.|
+
 T Mathystra Relics|QID|951|M|43.5,76.3|N|To Onu.|
 A Therylune's Escape|QID|945|M|38.64,87.33|N|From Therylune. Might have to wait a few for her to respawn.|
 C Therylune's Escape|QID|945|M|40.51,87.09|N|Escort her out. Be sure to loot everything you kill as they have a chance of dropping a book that starts a quest.|
 L Book: The Powers Below|QID|968|M|38.64,87.33|L|5352|N|The Twilight around here have a small chance to drop the book, turn in is in ironforge which we will head to later. Skip if you're not interested.|
 A The Powers Below|QID|968|M|38.64,87.33|U|5352|N|Click the book to accept the quest. Skip if you're not interested.|
-A One Shot. One Kill.|QID|5713|M|45.94,90.29|N|From Sentinel Aynasha.|
-C One Shot. One Kill.|QID|5713|M|45.94,90.29|N|Three waves, 1st wave has 2 enemies, 2nd has 3, 3rd has a single level 16.|
-T One Shot. One Kill.|QID|5713|M|26.60,36.72|Z|Ashenvale|N|From Sentinel Onaeya.|
-T Therylune's Escape|QID|945|M|22.65,51.92|Z|Ashenvale|N|To Therysil.|
+A One Shot.  One Kill.|QID|5713|M|45.94,90.29|N|From Sentinel Aynasha.|
+C One Shot.  One Kill.|QID|5713|M|45.94,90.29|N|Three waves of attacks... 1st wave has 2 enemies, 2nd has 3, 3rd has a single level 16. After killing all 3 waves, a short period of time will pass and the quest will complete.|
+T One Shot.  One Kill.|QID|5713|M|26.60,36.72|Z|Ashenvale|N|From Sentinel Onaeya at Maestra's Post.|
+T Therylune's Escape|QID|945|M|22.65,51.92|Z|Ashenvale|N|To Therysil at the Shrine of Aessina.|
 N Pretty much done|QID|942|N|At this point you should be done with every quest in the zone. Ideally you would be higher level and move on to Ashenvale next, but chances are you are only 18 or 19 now. So you can continue on to Ashevnvale from here but it will be difficult, or go back to Auberdine, to sail to wetlands and follow through with the prospector and book of power quests, getting the Ironforge flightpath which will be useful in the Ashenvale questline anyway. The rest of this guide will assume you're going to wetlands.|
-b Wetlands|QID|942|M|32.42,43.74|N|Run back to Auberdine. and get on the boat to Menethil.|
-f Menethil Harbor|QID|942|M|9.48,59.68|Z|Wetlands|N|Grab the flightpath.|
-T The Absent Minded Prospector|QID|942|M|10.84,60.43|Z|Wetlands|N|To Archaeologist Flagongut, inside the DeepWater Tavern on the 2nd floor. Don't take follow up, too high level for now.|
-R Dun Algaz|QID|968|M|53.89,70.32|Z|Wetlands|N|Run to Loch Modan. |
-R Loch Modan|QID|968|M|55.64,84.75|Z|Wetlands|N|Run to Loch Modan. Go through tunnel and stick to the road.|
-R Thelsamar|QID|968|M|33.92,50.95|Z|Loch Modan|N|Run to Thelsmar. Go through tunnel and stick to the road.|
-f Thelsamar|QID|968|M|33.92,50.95|Z|Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.|
-R Dun Morogh|QID|968|M|16.40,58.43|Z|Loch Modan|N|Run to Dun Morogh. Stick to the road, follow the signs.|
-R Gates of Ironforge|QID|968|M|51.03,40.35|Z|Dun Morogh|N|Run to Dun Ironforge. Stick to the road, follow the signs.|
-R Ironforge|QID|968|M|53.46,34.96|Z|Dun Morogh|N|Keep running up.|
-f Ironforge|QID|968|M|55.49,47.72|Z|Ironforge|N|Grab the flightpath from Gryth Thurden.|
+
+H Auberdine|ACTIVE|942|N|Hearth back to Auberdine or run to Astranaar and fly back to Auberdine.|
+b Wetlands|QID|942|M|32.42,43.74|N|Get on the boat to Menethil (read the sign post).|
+f Menethil Harbor|QID|942|M|9.48,59.68|Z|Wetlands|N|Grab the flightpath.|TAXI|-Menethil Harbor|
+T The Absent Minded Prospector|QID|942|M|10.84,60.43|Z|Wetlands|N|To Archaeologist Flagongut, on the 2nd floor of the Deepwater Tavern. Don't take follow up, too high level for now.|
+
+N Put on your running shoes|N|You have a long run ahead of you. You will be travelling from here to Ironforge and on to Stormwind City.\nPart of this run is to turn in a quest (if you found the book). The other part is to get a couple required FPs along the way.|
+R Dun Algaz|QID|244|M|53.89,70.32|Z|Wetlands|N|Run to Loch Modan. Stick to the road.|
+R Loch Modan|QID|244|M|55.64,84.75|Z|Wetlands|N|Run to Loch Modan. Go through tunnel and stick to the road.|
+R Thelsamar|QID|244|M|33.92,50.95|Z|Loch Modan|N|Run to Thelsmar. Go through tunnel and stick to the road.|
+f Thelsamar|QID|244|M|33.92,50.95|Z|Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.
+R Dun Morogh|QID|244|M|16.40,58.43|Z|Loch Modan|N|Run to Dun Morogh. Stick to the road, follow the signs.|
+R Gates of Ironforge|QID|244|M|51.03,40.35|Z|Dun Morogh|N|Run to Dun Ironforge. Stick to the road, follow the signs.|
+R Ironforge|QID|244|M|53.46,34.96|Z|Dun Morogh|N|Keep running up.|
+f Ironforge|QID|244|M|55.49,47.72|Z|Ironforge|N|Grab the flightpath from Gryth Thurden.|
 T The Powers Below|QID|968|M|50.82,5.66|Z|Ironforge|N|To Gerrig Bonegrip.|
 A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|N|Another quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
 R Deeprun Tram|QID|244|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
