@@ -10,15 +10,17 @@ WoWPro:GuideSteps(guide, function() return [[
 
 ; === 21_22_Jame_Stonetalon_Mountains.lua ===
 h Orgrimmar|QID|1483|M|54.10,68.50|Z|Orgrimmar|
-f Orgrimmar|QID|1483|M|45.30,63.90|Z|Orgrimmar|N|If you don't have this flight path get it.|
+f Orgrimmar|QID|1483|M|45.30,63.90|Z|Orgrimmar|N|If you don't have this flight path get it.|TAXI|-Orgrimmar|
 A Call of Water|QID|1528|C|Shaman|M|38.06,37.38|Z|Orgrimmar|N|From Searn Firewarder.|
 
-R The Barrens|QID|1483|M|34.20,42.20|Z|The Barrens|N|If you've been to The Barrens, fly to Ratchet and skip the next few steps.|
-R The Crossroads|QID|1483|M|52.00,30.60|Z|The Barrens|
-f The Crossroads|QID|1483|M|51.50,30.30|Z|The Barrens|
+F Ratchet|AVAILABLE|1483|M|45.2,63.8|Z|Orgrimmar|N|Fly to Ratchet.|TAXI|Ratchet|
+F The Crossroads|AVAILABLE|1483|M|45.2,63.8|Z|Orgrimmar|TAXI|The Crossroads|
+R The Barrens|QID|1483|M|34.20,42.20|Z|The Barrens|N|Its a bit of a run, but reasonably safe.|TAXI|-The Crossroads|
+R The Crossroads|QID|1483|M|52.00,30.60|Z|The Barrens|TAXI|-The Crossroads|
+f The Crossroads|QID|1483|M|51.50,30.30|Z|The Barrens|TAXI|-The Crossroads|
 
-R Ratchet|QID|1483|M|62.00,37.00|Z|The Barrens|
-f Ratchet|QID|1483|M|63.10,37.20|Z|The Barrens|
+R Ratchet|QID|1483|M|62.00,37.00|Z|The Barrens|TAXI|-Ratchet|
+f Ratchet|QID|1483|M|63.10,37.20|Z|The Barrens|TAXI|-Ratchet|
 A Ziz Fizziks|QID|1483|M|63.00,37.20|Z|The Barrens|N|From Sputtervalve|
 
 ; ----Shaman Class Quest-------------------------------------------------------------------------
@@ -31,7 +33,7 @@ A Call of Water|QID|1535|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
 C Call of Water|QID|1535|C|Shaman|QO|1|M|44.08,76.69|Z|The Barrens|N|Filled Brown Waterskin|
 T Call of Water|QID|1535|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
 A Call of Water|QID|1536|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
-f The Crossroads|QID|1492|C|Shaman|M|51.50,30.30|Z|The Barrens|
+F The Crossroads|QID|1492|C|Shaman|M|51.50,30.30|Z|The Barrens|
 ; -----------------------------------------------------------------------------
 
 f The Crossroads|QID|1062|M|51.50,30.30|Z|The Barrens|
@@ -68,22 +70,24 @@ F Sun Rock Retreat|QID|6421|M|63.10,37.20|Z|The Barrens|
 T Boulderslide Ravine|QID|6421|M|45.03,61.12;44.66,62.92;47.18,64.06|Z|Stonetalon Mountains|CS|
 
 
-F Splintertree Post|QID|6383|M|45.20,59.80|Z|The Barrens|N|If you don't have the Flight Path, fly to The Crossroads and follow the path north until you reach Ashenvale Forest. Go further north until the path forks, there go east until you reach Splintertree Post. Once there take the flight path|
-f Splintertree Post|QID|235|M|73.20,61.60|Z|Ashenvale|
+F Splintertree Post|QID|6383|M|45.20,59.80|Z|The Barrens|N|Fly to Splintertree Post.|TAXI|Splintertree Post|
+F The Crossroads|QID|6383|M|45.20,59.80|Z|The Barrens|N|Since you don't have the Splintertree Post, we will get as close as we can.|TAXI|-Splintertree Post|
+R Splintertree Post|QID|6383|M|45.20,59.80|Z|The Barrens|N|Follow the path north until you reach Ashenvale Forest. Continue further north until the path forks, there go east until you reach Splintertree Post.|TAXI|-Splintertree Post|
+f Splintertree Post|QID|235|M|73.20,61.60|Z|Ashenvale|TAXI|-Splintertree Post|TAXI|-Splintertree Post|
 C The Ashenvale Hunt|QID|235|Z|Ashenvale|M|73.74,61.46|
 T The Ashenvale Hunt|QID|235^742^6382|Z|Ashenvale|M|73.74,61.46|
 A The Ashenvale Hunt|QID|6383|N|At Senani Thunderheart.|M|73.75,61.47|Z|Ashenvale|
 
-F Zoram'gar Outpost|QID|6442|M|73.23,61.58|Z|Ashenvale|N|Right-click to check this step off if you don't have the flight path.|
-R Zoram'gar Outpost|QID|6442|N|Follow the road all the way to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.2,47.28;26.43,42.33;16.51,30.27;12,34|CS|Z|Ashenvale|
-f Zoram'gar Outpost|QID|6442|M|12.20,33.80|Z|Ashenvale|
+F Zoram'gar Outpost|QID|6442|M|73.23,61.58|Z|Ashenvale|N|Fly to Zoram'gar Outpost.|TAXI|Zoram'gar Outpost|
+R Zoram'gar Outpost|QID|6442|N|Follow the road all the way to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.2,47.28;26.43,42.33;16.51,30.27;12,34|CS|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
+f Zoram'gar Outpost|QID|6442|M|12.20,33.80|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
 A Naga at the Zoram Strand|QID|6442|M|11.69,34.90|Z|Ashenvale|N|From Marukai.|
-N Things to do...|QID|6504|N|Keep any Shredder Operating Manual pages you find from now on.\nRight-click this step to continue.|
+N Things to do...|QID|6504|N|Keep any Shredder Operating Manual pages you find from now on.|S!US|
 C Naga at the Zoram Strand|QID|6442|M|13.49,25.82|Z|Ashenvale|N|Kill Nagas for their Wrathtail Heads.|
 T Naga at the Zoram Strand|QID|6442|M|11.69,34.90|Z|Ashenvale|N|To Marukai.|
 
 H Orgrimmar|QID|493|U|6948|Z|Orgrimmar|
-N Bank In|QID|6504|M|49.90,70.40|Z|Orgrimmar|N|Deposit into the bank: Shredder Operating Manual pages|
+r Repair, restock, train and Bank|QID|6504|M|49.90,70.40|Z|Orgrimmar|N|Deposit into the bank any Shredder Operating Manual pages.|
 
 ; ----Warlock Class Quest-------------------------------------------------------------------------
 T Love's Gift|QID|1512|C|Warlock|M|48.20,45.30|Z|Orgrimmar|
@@ -92,14 +96,14 @@ C The Binding|QID|1513|C|Warlock|U|6626|M|49.00,50.00|Z|Orgrimmar|N|Go to the su
 T The Binding|QID|1513|C|Warlock|M|48.20,45.30|Z|Orgrimmar|N|Congradulations on your succubus!|
 ; -----------------------------------------------------------------------------
 
-F Tirisfal Glades|QID|493|M|50.80,13.80|Z|Durotar|N|via Zeppelin|
-R Undercity|QID|493|M|61.00,69.00|Z|Tirisfal Glades|N|Right-click to check this step off if you already have the flight path in Undercity and you also don't have the flight path to the Sepulcher.|
-f Undercity|QID|493|M|63.30,48.40|Z|Undercity|
-F The Sepulcher|QID|493|M|63.30,48.40|N|Right-click to check this step off if you do not have this flight path.|Z|Undercity|
-R Tirisfal Glades|QID|493|M|65.90,0.00|Z|Undercity|
-R Silverpine Forest|QID|493|M|54.00,76.30|Z|Tirisfal Glades|
+b Tirisfal Glades|QID|493|M|50.80,13.80|Z|Durotar|N|via Zeppelin|
+R Undercity|QID|493|M|61.00,69.00|Z|Tirisfal Glades|N|Run in and get the flight path in Undercity.|TAXI|-Undercity|
+f Undercity|QID|493|M|63.30,48.40|Z|Undercity|TAXI|-Undercity|
+F The Sepulcher|QID|493|M|63.30,48.40|Z|Undercity|N|Fly to The Sepulcher.|TAXI|The Sepulcher|
+R Tirisfal Glades|QID|493|M|65.90,0.00|Z|Undercity|TAXI|-The Sepulcher|
+R Silverpine Forest|QID|493|M|54.00,76.30|Z|Tirisfal Glades|TAXI|-The Sepulcher|
 
-f The Sepulcher|QID|493|M|45.60,42.50|Z|Silverpine Forest|
+f The Sepulcher|QID|493|M|45.60,42.50|Z|Silverpine Forest|TAXI|-The Sepulcher|
 A Journey to Hillsbrad Foothills|QID|493|Z|Silverpine Forest|N|From Apothecary Renferrel|M|42.87,40.85|
 A Beren's Peril|QID|516|Z|Silverpine Forest|N| From Shadow Priest Allister|M|43.97,40.99|
 
@@ -365,12 +369,12 @@ T Isha Awak|QID|873|M|65.8,43.8|Z|The Barrens|N|To Mahren Skyseer|
 
 b Booty Bay|QID|6571|M|63.70,38.60|Z|The Barrens|N||
 C Loot Warsong Axe Shipment|QID|6571|QO|2|M|26.40,73.30|Z|Stranglethorn Vale|
-f Booty Bay|QID|6571|M|26.90,77.10|Z|Stranglethorn Vale|N|The flight point can be found outside the top floor of the inn, at|
+f Booty Bay|QID|6571|M|26.90,77.10|Z|Stranglethorn Vale|N|The flight point can be found outside the top floor of the inn.|
 
 ; === 26_27_Jame_Ashenvale.lua ===
 H Orgrimmar|QID|6581|U|6948|Z|Ashenvale|
 N Auction House - LAST CHANCE|QID|6504|M|53.70,64.60|Z|Orgrimmar|N|Check the AH for: Shredder Operating Manual pages (LAST CHANCE), Deadly Blunderbuss (LAST CHANCE)|
-N Bank Out|QID|6581|M|49.90,70.40|Z|Orgrimmar|N|Withdraw from the bank: Deadly Blunderbuss, Shredder Operating Manual pages|
+N Bank Withdrawal|QID|6581|M|49.90,70.40|Z|Orgrimmar|N|Withdraw from the bank: Deadly Blunderbuss, Shredder Operating Manual pages|
 
 ; -----Class Quest--------------------------------------------------------------
 N Nether-lace Garment|QID|1944|C|Mage|M|38.50,36.00|Z|Orgrimmar|N|You have the option to do a series of class quests to get your choice of two chest items. These don't take you too far out of your way, but they are very optional, so it's up to you if you want to do them. The starting quest can be picked up from Deino  and is called Waters of Xavian.|
@@ -474,7 +478,7 @@ A Wanted - Arnak Grimtotem|QID|5147|M|46.00,50.80|Z|Thousand Needles|N|From the 
 
 C Pacify the Centaur|QID|4841|M|45.00,36.00|Z|Thousand Needles|N|Kill scouts, wranglers,and windchasers around|
 
-A Test of Faith|QID|1149|M|54.00,44.00|Z|Thousand Needles|N|Ride east to 55,45  Follow the path up the slope towards Dorn Plainstalker.|
+A Test of Faith|QID|1149|M|55,45;54.00,44.00|CS|Z|Thousand Needles|N|Head east to first waypoint. Follow the path up the slope towards Dorn Plainstalker.|
 C Test of Faith|QID|1149|Z|Thousand Needles|N|Dorn Plainstalker will teleport you to the top of a peak.  Look for two wooden planks and jump off. Don't worry, you won't die from falling. You will re-appear next to Dorn|
 T Test of Faith|QID|1149|M|53.90,41.50|Z|Thousand Needles|N|To Dorn Plainstalker|
 A Test of Endurance|QID|1150|M|53.90,41.50|Z|Thousand Needles|N|From Dorn Plainstalker|
@@ -490,7 +494,7 @@ R Highperch|QID|4767|M|12.00,32.00|Z|Thousand Needles|
 C Wind Rider|QID|4767|M|11.00,36.00|Z|Thousand Needles|QO|1|N|Collect: Highperch Wyvern Eggs|
 
 N READ THIS|QID|4770|Z|Thousand Needles|N|The next quest is an escort.  Warning: Sometimes there will be a rare-elite named Heartrazor there.  Unless you group, it is likely impossible for you to kill it and complete the escort.  However, if you start the escort at the right moment, Heartrazor will be out of the way and the escort NPC will go through without attracting Heartrazor's attention.|
-A Homeward Bound|QID|4770|M|17.90,40.60|Z|Thousand Needles|N|Ride to the southeastern corner of Highperch.  There you will find a narrow path going up to another plateau.  At the end of this plateau, you will find a tauren named Pao'Ka.|
+A Homeward Bound|QID|4770|M|17.90,40.60|Z|Thousand Needles|N|Head to the southeastern corner of Highperch. There you will find a narrow path going up to another plateau.  At the end of this plateau, you will find a tauren named Pao'Ka.|
 C Homeward Bound|QID|4770|M|17.90,40.60|Z|Thousand Needles|
 
 T Homeward Bound|QID|4770|M|21.50,32.40|Z|Thousand Needles|N|To Motega Firemane|
@@ -508,8 +512,8 @@ C Loot Document Chest #3|QID|5064|QO|3|NC|M|39.20,41.50|Z|Thousand Needles|
 
 K Kill Arnak Grimtotem|QID|5147|QO|1|M|38.20,26.90|Z|Thousand Needles|
 
-N READ THIS|QID|4904|Z|Thousand Needles|N|The next quest is an escort.  You will be escorting Lakota Windsong.  It is an easy escort, Lakota is level 30 and does fine on her own. The risks are 2 extra Taurens that spawn to ambush her each time she reaches the middle of a plateau.  To workaround this, pull static spawns to her before she reaches the middle.|
-A Free at Last|QID|4904|M|37.70,26.70|Z|Thousand Needles|N|From Lakota Windsong|
+N READ THIS|QID|4904|Z|Thousand Needles|N|For this next quest you will be escorting Lakota Windsong. It is an easy escort, Lakota is level 30 and does fine on her own. The risks are 2 extra Taurens that spawn to ambush her each time she reaches the middle of a plateau.  To workaround this, pull static spawns to her before she reaches the middle.|
+A Free at Last|QID|4904|M|37.70,26.70|Z|Thousand Needles|N|From Lakota Windsong.|
 C Free at Last|QID|4904|M|37.70,26.70|Z|Thousand Needles|
 
 T Free at Last|QID|4904|M|46.10,51.70|Z|Thousand Needles|N|To Thalia Amberhide|
@@ -526,11 +530,13 @@ A Protect Kanati Greycloud|QID|4966|M|21.30,32.10|Z|Thousand Needles|
 C Protect Kanati Greycloud|QID|4966|Z|Thousand Needles|N|Three centaurs will spawn and attack Kanati Greycloud. Help kill them.|
 T Protect Kanati Greycloud|QID|4966|M|21.30,32.10|Z|Thousand Needles|
 
-R Feralas|QID|1130|M|7.00,11.10|Z|Thousand Needles|N|Warning: be careful to stay as far as possible from any creatures in Feralas.  For now, they are too high level.|
-f Camp Mojache|QID|1130|M|75.50,44.30|Z|Feralas|N|Warning: be careful to stay as far as possible from any creatures in Feralas.  For now, they are too high level.|
+R Feralas|QID|1130|M|7.00,11.10|Z|Thousand Needles|N|Warning: be careful to stay as far as possible from any creatures in Feralas. For now, they are too high level.|
+f Camp Mojache|QID|1130|M|75.50,44.30|Z|Feralas|N|Warning: be careful to stay as far as possible from any creatures in Feralas. For now, they are too high level.|
 
-F Thunder Bluff|QID|1130|Z|Feralas|N|For those who don't have the flight path, fly to Camp Taurajo. From there, follow the path west into Mulgore. Continue following the path west until you reach Bloodhoof Village. Go northwest, until you reach Thunder Bluff.|
-f Thunder Bluff|QID|1130|M|46.80,50.20|Z|Thunder Bluff|N|If you already have this flight path, skip this step.|
+F Thunder Bluff|QID|1130|M|75.50,44.30|Z|Feralas|N|Fly to Thunder Bluff.|TAXI|Thunder Bluff|
+F Camp Taurajo|QID|1130|M|75.50,44.30|Z|Feralas|N|Fly to Camp Taurajo.|TAXI|-Thunder Bluff|
+R Thunder Bluff|QID|1130|Z|Feralas|N|Follow the path west into Mulgore. Continue following the path west until you reach Bloodhoof Village. Go northwest, until you reach Thunder Bluff.|TAXI|-Thunder Bluff|
+f Thunder Bluff|QID|1130|M|46.80,50.20|Z|Thunder Bluff|N|Pick up this flight path.|TAXI|-Thunder Bluff|
 
 T Melor Sends Word|QID|1130|M|61.50,80.90|Z|Thunder Bluff|N|To Melor Stonehoof|
 A Steelsnap|QID|1131|M|61.50,80.90|Z|Thunder Bluff|N|From Melor Stonehoof|

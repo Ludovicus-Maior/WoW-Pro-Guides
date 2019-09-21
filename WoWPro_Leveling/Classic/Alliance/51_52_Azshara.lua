@@ -14,13 +14,14 @@ F Menithil Harbor|QID|4267|N|Fly to Menethil Harbor.|Z|Ironforge|M|55.60,47.70|
 b Auberdine|QID|4267|N|Take the boat to Auberdine.|
 F Rut'theran Village|QID|4267|N|Fly to Rut'theran Village|Z|Darkshore|M|36.30,45.60|
 R Darnassus|QID|4267|N|Go to Darnassus.|Z|Teldrassil|M|60.00,89.80|
-T Rise of the Silithid |QID|4267|Z|Darnassus|M|41.8,85.6|
-A March of the Silithid|QID|4493|Z|Darnassus|M|41.8,85.6|
+T Rise of the Silithid |QID|162|Z|Darnassus|M|41.8,85.6|N|To Gracina Spiritmight, 2nd floor, Temple of the Moon.|
+A March of the Silithid|QID|4493|Z|Darnassus|M|41.8,85.6|N|From Gracina Spiritmight.|
 T Prayer to Elune |QID|3378|Z|Darnassus|M|38.3,80.9|
-R Rut'theran Village|QID|5536|N|Go to Rut'theran Village.|Z|Darnassus|M|30.50,41.40|
-F Astranaar|QID|5536|N|Fly to Astranaar, Ashenvale.|Z|Teldrassil|M|58.40,94.00|
-R Azshara|QID|5536|N|Follow the road, generally west, to go to Azshara.|Z|Ashenvale|M|70,69;95.40,48.40|CS|
-f Talrendis Point|QID|5536|N|Get the flight path.|M|11.90,77.60|
+R Rut'theran Village|AVAILABLE|5536|N|Go to Rut'theran Village.|Z|Darnassus|M|30.50,41.40|
+F Talrendis Point|AVAILABLE|5536|M|58.4,94|Z|Teldrasil|N|Fly to Azshara at Vesprystus.|TAXI|Talrendis Point|
+F Astranaar|QID|AVAILABLE|N|Fly to Astranaar, Ashenvale.|Z|Teldrassil|M|58.40,94.00|TAXI|-Talrendis Point|
+R Azshara|QID|AVAILABLE|N|Follow the road, generally west, to go to Azshara.|Z|Ashenvale|M|70,69;95.40,48.40|CS|TAXI|-Talrendis Point|
+f Talrendis Point|AVAILABLE|5536|N|Get the flight path.|M|11.90,77.60|TAXI|-Talrendis Point|
 A Spiritual Unrest|QID|5535|M|11.4,78.2|
 A A Land Filled with Hatred|QID|5536|M|11.4,78.2|
 C Spiritual Unrest|N|Kill the mobs needed for this quest.|QID|5535|M|16.90,69.20|

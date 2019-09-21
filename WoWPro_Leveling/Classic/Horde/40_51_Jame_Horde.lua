@@ -352,11 +352,11 @@ T Rizzle's Schematics|QID|1194|M|80.2,75.9|Z|Thousand Needles|N|To Pozzik.|
 
 ;------002_46_47_Jame_Feralas.lua-------------------
 
-H Gadgetzan|ACTIVE|3520|N|Hearth or run to Gadgetzan. NOTE: DO NOT HEARTH, if you don't have the flightpath to Camp Mojache.|
-F Camp Mojache|ACTIVE|3520|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|
-R Feralas|ACTIVE|3520|M|88,43|Z|Feralas|N|Ride northwest thru the length of Thousand Needles and into Feralas.|
-R Camp Mojache|ACTIVE|3520|M|75.4,44.2|Z|Feralas|N|Continue northwest until you find the road, and then follow it west to Camp Mojache.|
-f Camp Mojache|ACTIVE|3520|M|75.4,44.2|Z|Feralas|N|At Shyn, Wind Rider Master.|
+H Gadgetzan|ACTIVE|3520|N|Hearth or run to Gadgetzan. NOTE: DO NOT HEARTH, if you don't have the flightpath to Camp Mojache.|TAXI|Camp Mojache|
+F Camp Mojache|ACTIVE|3520|M|51.60,25.4|Z|Tanaris|N|Fly to Camp Mojache in Feralas at Bulkrek Ragefist.|TAXI|Camp Mojache|
+R Feralas|ACTIVE|3520|M|88,43|Z|Feralas|N|Ride northwest thru the length of Thousand Needles and into Feralas.|TAXI|-Camp Mojache|
+R Camp Mojache|ACTIVE|3520|M|75.4,44.2|Z|Feralas|N|Continue northwest until you find the road, and then follow it west to Camp Mojache.|TAXI|-Camp Mojache|
+f Camp Mojache|ACTIVE|3520|M|75.4,44.2|Z|Feralas|N|At Shyn, Wind Rider Master.|TAXI|-Camp Mojache|
 A A New Cloak's Sheen|QID|2973|N|Get this from Kreug Skullspitter near the eastern entrance to the village.|M|75.9,42.7|Z|Feralas|
 A Gordunni Cobalt|QID|2987|N|Get this from Orwin Gizzmick, a goblin near the wyvern master.|M|75.7,44.3|Z|Feralas|
 A War on the Woodpaw|QID|2862|N|Get this from Hadoken Swiftstrider, who's across the street from the inn.|M|74.9,42.5|Z|Feralas|
@@ -463,7 +463,7 @@ A Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fi
 A The Thirsty Goblin|QID|2605|M|51.8,28.7|Z|Tanaris|N|From Marin Noggenfogger.|
 A The Dunemaul Compound|QID|5863|M|52.8,27.4|Z|Tanaris|N|From Andi Lynn.|
 A Thistleshrub Valley|QID|3362|M|51.6,26.8|Z|Tanaris|N|From Tran'Rek
-C Gadgetzan Water Survey|QID|992|M|39.00,30.00|Z|Tanaris|U|8584|N|Use the Untapped Dowsing Widget on the pool at this location.|
+C Gadgetzan Water Survey|QID|992|M|39.05,29.15|Z|Tanaris|U|8584|N|Use the Untapped Dowsing Widget on the pool at this location.|
 T Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|To Senior Survey Fizzledowser.|
 A Noxious Lair Investigation|QID|82|M|50.2,27.5|Z|Tanaris|N|From Senior Survey Fizzledowser.|
 R Broken Piller|ACTIVE|3445|M|52,45|Z|Tanaris|N|Go south to the Broken Pillar.|
@@ -524,7 +524,7 @@ R The Overlook Cliffs|ACTIVE|626|M|80.8,46.8|Z|The Hinterlands|N|Continue to the
 T Cortello's Riddle |QID|626|M|80.81,46.79|Z|The Hinterlands|N|Once there, jump down into the water (don't miss!), dive down, and find Cortell's Chest and collect your prize.|
 C Whiskey Slim's Lost Grog|QID|580|M|77,77|Z|The Hinterlands|N|Start running south along the water towards Revantusk Village and watch for blue bottles to collect. Go until you have 12.|
 R Revantusk Village|ACTIVE|580|M|77,77|Z|The Hinterlands|N|Ride to Revantusk Village.|
-f Revantusk Village|ACTIVE|580|N|Get the Revantusk Village flight path .|M|81.69,81.78|Z|The Hinterlands|
+f Revantusk Village|ACTIVE|580|N|Get the Revantusk Village flight path .|M|81.69,81.78|Z|The Hinterlands|TAXI|-Raventusk Village|
 A Snapjaws, Mon!|QID|7815|M|80.3,81.4|Z|The Hinterlands|
 
 ;-----Gammerita,-Mon!-is-an-elite-not-in-writen-guides--- 
