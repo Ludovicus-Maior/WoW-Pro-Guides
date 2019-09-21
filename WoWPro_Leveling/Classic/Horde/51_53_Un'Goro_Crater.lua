@@ -36,7 +36,7 @@ A Lost!|QID|4492|M|43.6,8.5|N|From Spraggle Frock - Near the sign.|
 A Beware of Pterrordax|QID|4501|M|43.6,8.4|N|From Wanted Poster.|
 A Roll the Bones|QID|3882|M|43.6,7.3|N|From Spark Nilminer.|
 A Alien Ecology|QID|3883|M|43.9,7.2|N|From Hol'anyee Marshal.|
-T Williden's Journal|QID|3884|M|43.9,7.2|To Williden Marshal.|
+T Williden's Journal|QID|3884|M|43.9,7.2|N|To Williden Marshal.|
 A Expedition Salvation|QID|3881|M|43.9,7.2|N|From Williden Marshal.|PRE|3884|
 T It's a Secret to Everybody|QID|3845|M|44.7,8.1|N|To Linken.|
 A It's a Secret to Everybody|QID|3908|M|44.7,8.1|N|From Linken.|PRE|3845|
@@ -95,7 +95,7 @@ T Finding the Source|QID|974|M|30.90,50.40|N|To Krakle, over at the Hot Springs.
 A The New Springs|QID|980|M|30.90,50.40|N|From Krakle.|
 
 R Silithus|M|29.00,22.00|N|Take the path up out of the crater in the northwest corner of the zone.|
-R Cenarion Hold|51,39|Z|Silithus|N|Follow the road southwest.|
+R Cenarion Hold|M|51,39|Z|Silithus|N|Follow the road southwest.|
 f Cenarion Hold|M|50.6,34.4|Z|Silithus|N|Get the flight path up the big hill, from Runk Windtamer.|
 F Gadgetzan|M|48.8,36.6|Z|Silithus|N|At Runk Windtamer.|
 T Bungle in the Jungle|QID|4496|M|50.8,27|Z|Tanaris|N|To Alchemist Pestlezugg. (Skip follow-up)|
