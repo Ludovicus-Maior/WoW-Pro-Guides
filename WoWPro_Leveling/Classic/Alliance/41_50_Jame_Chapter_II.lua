@@ -584,8 +584,8 @@ H Wildhammer Keep|ACTIVE|2994|N|Hearth to Aerie Peak. (or mount up and ride if h
 T Saving Sharpbeak|QID|2994|M|10,44.6|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|
 R Gadgetzan|ACTIVE|4787|N|Travel by the method of you choice to Gadgetzan.|
 R Steamwheedle Port|ACTIVE|4787|M|67,22.4|Z|Tanaris|N|Run east to Steamwheedle Port.|
-T The Ancient Egg|QID|4787|M|7,22.4|Z|Tanaris|N|To Yah'kinya.|
-A The God Hakkar|QID|3528|M|7,22.4|Z|Tanaris|N|From Yah'kinya.|
+T The Ancient Egg|QID|4787|M|66.99, 22.36|Z|Tanaris|N|To Yah'kinya.|
+A The God Hakkar|QID|3528|M|66.99, 22.36|Z|Tanaris|N|From Yah'kinya.|
 L Level Check|LVL|50|N|Grind at a spot of your choosing and when you are level 50, Congrats and on to Chapter III.|
 ]]
 end)

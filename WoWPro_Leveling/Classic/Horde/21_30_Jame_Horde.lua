@@ -10,17 +10,17 @@ WoWPro:GuideSteps(guide, function() return [[
 
 ; === 21_22_Jame_Stonetalon_Mountains.lua ===
 h Orgrimmar|QID|1483|M|54.10,68.50|Z|Orgrimmar|
-f Orgrimmar|QID|1483|M|45.30,63.90|Z|Orgrimmar|N|If you don't have this flight path get it.|TAXI|-Orgrimmar|
+f Orgrimmar|QID|1483|M|45.30,63.90|Z|Orgrimmar|N|If you don't have this flight path get it.|
 A Call of Water|QID|1528|C|Shaman|M|38.06,37.38|Z|Orgrimmar|N|From Searn Firewarder.|
 
 F Ratchet|AVAILABLE|1483|M|45.2,63.8|Z|Orgrimmar|N|Fly to Ratchet.|TAXI|Ratchet|
 F The Crossroads|AVAILABLE|1483|M|45.2,63.8|Z|Orgrimmar|TAXI|The Crossroads|
 R The Barrens|QID|1483|M|34.20,42.20|Z|The Barrens|N|Its a bit of a run, but reasonably safe.|TAXI|-The Crossroads|
 R The Crossroads|QID|1483|M|52.00,30.60|Z|The Barrens|TAXI|-The Crossroads|
-f The Crossroads|QID|1483|M|51.50,30.30|Z|The Barrens|TAXI|-The Crossroads|
+f The Crossroads|QID|1483|M|51.50,30.30|Z|The Barrens|
 
 R Ratchet|QID|1483|M|62.00,37.00|Z|The Barrens|TAXI|-Ratchet|
-f Ratchet|QID|1483|M|63.10,37.20|Z|The Barrens|TAXI|-Ratchet|
+f Ratchet|QID|1483|M|63.10,37.20|Z|The Barrens|
 A Ziz Fizziks|QID|1483|M|63.00,37.20|Z|The Barrens|N|From Sputtervalve|
 
 ; ----Shaman Class Quest-------------------------------------------------------------------------
@@ -73,14 +73,14 @@ T Boulderslide Ravine|QID|6421|M|45.03,61.12;44.66,62.92;47.18,64.06|Z|Stonetalo
 F Splintertree Post|QID|6383|M|45.20,59.80|Z|The Barrens|N|Fly to Splintertree Post.|TAXI|Splintertree Post|
 F The Crossroads|QID|6383|M|45.20,59.80|Z|The Barrens|N|Since you don't have the Splintertree Post, we will get as close as we can.|TAXI|-Splintertree Post|
 R Splintertree Post|QID|6383|M|45.20,59.80|Z|The Barrens|N|Follow the path north until you reach Ashenvale Forest. Continue further north until the path forks, there go east until you reach Splintertree Post.|TAXI|-Splintertree Post|
-f Splintertree Post|QID|235|M|73.20,61.60|Z|Ashenvale|TAXI|-Splintertree Post|TAXI|-Splintertree Post|
+f Splintertree Post|QID|235|M|73.20,61.60|Z|Ashenvale|
 C The Ashenvale Hunt|QID|235|Z|Ashenvale|M|73.74,61.46|
 T The Ashenvale Hunt|QID|235^742^6382|Z|Ashenvale|M|73.74,61.46|
 A The Ashenvale Hunt|QID|6383|N|At Senani Thunderheart.|M|73.75,61.47|Z|Ashenvale|
 
 F Zoram'gar Outpost|QID|6442|M|73.23,61.58|Z|Ashenvale|N|Fly to Zoram'gar Outpost.|TAXI|Zoram'gar Outpost|
 R Zoram'gar Outpost|QID|6442|N|Follow the road all the way to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.2,47.28;26.43,42.33;16.51,30.27;12,34|CS|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
-f Zoram'gar Outpost|QID|6442|M|12.20,33.80|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
+f Zoram'gar Outpost|QID|6442|M|12.20,33.80|Z|Ashenvale|
 A Naga at the Zoram Strand|QID|6442|M|11.69,34.90|Z|Ashenvale|N|From Marukai.|
 N Things to do...|QID|6504|N|Keep any Shredder Operating Manual pages you find from now on.|S!US|
 C Naga at the Zoram Strand|QID|6442|M|13.49,25.82|Z|Ashenvale|N|Kill Nagas for their Wrathtail Heads.|
@@ -98,12 +98,12 @@ T The Binding|QID|1513|C|Warlock|M|48.20,45.30|Z|Orgrimmar|N|Congradulations on 
 
 b Tirisfal Glades|QID|493|M|50.80,13.80|Z|Durotar|N|via Zeppelin|
 R Undercity|QID|493|M|61.00,69.00|Z|Tirisfal Glades|N|Run in and get the flight path in Undercity.|TAXI|-Undercity|
-f Undercity|QID|493|M|63.30,48.40|Z|Undercity|TAXI|-Undercity|
+f Undercity|QID|493|M|63.30,48.40|Z|Undercity|
 F The Sepulcher|QID|493|M|63.30,48.40|Z|Undercity|N|Fly to The Sepulcher.|TAXI|The Sepulcher|
 R Tirisfal Glades|QID|493|M|65.90,0.00|Z|Undercity|TAXI|-The Sepulcher|
 R Silverpine Forest|QID|493|M|54.00,76.30|Z|Tirisfal Glades|TAXI|-The Sepulcher|
 
-f The Sepulcher|QID|493|M|45.60,42.50|Z|Silverpine Forest|TAXI|-The Sepulcher|
+f The Sepulcher|QID|493|M|45.60,42.50|Z|Silverpine Forest|
 A Journey to Hillsbrad Foothills|QID|493|Z|Silverpine Forest|N|From Apothecary Renferrel|M|42.87,40.85|
 A Beren's Peril|QID|516|Z|Silverpine Forest|N| From Shadow Priest Allister|M|43.97,40.99|
 
@@ -536,7 +536,7 @@ f Camp Mojache|QID|1130|M|75.50,44.30|Z|Feralas|N|Warning: be careful to stay as
 F Thunder Bluff|QID|1130|M|75.50,44.30|Z|Feralas|N|Fly to Thunder Bluff.|TAXI|Thunder Bluff|
 F Camp Taurajo|QID|1130|M|75.50,44.30|Z|Feralas|N|Fly to Camp Taurajo.|TAXI|-Thunder Bluff|
 R Thunder Bluff|QID|1130|Z|Feralas|N|Follow the path west into Mulgore. Continue following the path west until you reach Bloodhoof Village. Go northwest, until you reach Thunder Bluff.|TAXI|-Thunder Bluff|
-f Thunder Bluff|QID|1130|M|46.80,50.20|Z|Thunder Bluff|N|Pick up this flight path.|TAXI|-Thunder Bluff|
+f Thunder Bluff|QID|1130|M|46.80,50.20|Z|Thunder Bluff|N|Pick up this flight path.|
 
 T Melor Sends Word|QID|1130|M|61.50,80.90|Z|Thunder Bluff|N|To Melor Stonehoof|
 A Steelsnap|QID|1131|M|61.50,80.90|Z|Thunder Bluff|N|From Melor Stonehoof|
