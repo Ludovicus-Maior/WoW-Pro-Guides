@@ -98,7 +98,7 @@ R Barrens|ACTIVE|1111|AVAILABLE|1039|M|27.8,46.6|Z|Dustwallow Marsh|N|Follow the
 R Ratchet|ACTIVE|1111|AVAILABLE|1039|M|62.7,36.2|Z|The Barrens|N|Run northeast to Ratchet.|TAXI|-Ratchet|
 T Goblin Sponsorship|QID|1178|M|62.68,36.24|Z|The Barrens|N|To Gazlowe.|
 A Goblin Sponsorship|QID|1180|M|62.68,36.24|Z|The Barrens|N|From Gazlowe.|PRE|1178|
-f Ratchet|ACTIVE|1180|AVAILABLE|1039|M|63,37|Z|The Barrens|N|Grab the flightpoint from Bragok.|TAXI|-Ratchet|
+f Ratchet|ACTIVE|1180|AVAILABLE|1039|M|63,37|Z|The Barrens|N|Grab the flightpoint from Bragok.|
 T Wharfmaster Dizzywig|QID|1111|M|63.35,38.46|Z|The Barrens|N|To Wharfmaster Dizzywig.|
 
 b Booty Bay|QID|1181|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
@@ -343,7 +343,7 @@ F Nigel's Point|QID|1453|N|Fly to Nigel's Point.|TAXI|Nigel's Point|
 F Stonetalon Mountains|QID|1453|N|Run or fly to Stonetalon Mountains.|Z|The Barrens|M|63.10,37.15|TAXI|-Nigel's Point|
 R Desolace|QID|1453|N|Run through the Charred Vale to get to Desolace|Z|Stonetalon Mountains|M|28.00,84.00|TAXI|-Nigel's Point|
 R Nijel's Point|QID|1453|N|Go to Nijel's Point by going up the path here.|Z|Desolace|M|67.00,16.00|TAXI|-Nigel's Point|
-f Nijel's Point|QID|1437|N|Get the flight path.|M|64.66,10.54|Z|Desolace|TAXI|-Nigel's Point|
+f Nijel's Point|QID|1437|N|Get the flight path.|M|64.66,10.54|Z|Desolace|
 T Reclaimers' Business in Desolace|QID|1453|M|66.2,9.6|Z|Desolace|N|To Kreldig Ungor.|
 A Reagents for Reclaimers Inc.|QID|1458|M|66.2,9.6|Z|Desolace|N|From Kreldig Ungor.|
 A Strange Alliance|QID|1382|Z|Desolace|M|66.6,11|N|From Captain Pentigast.|
