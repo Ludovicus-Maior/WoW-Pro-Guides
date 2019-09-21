@@ -60,7 +60,7 @@ C A Bump in the Road|QID|1175|M|80.00,87.00|N|Kill the Gazers and Crystalhide th
 C Load Lightening|QID|1176|M|87.00,66.00|US|N|Kill vultures and collect their bones.|
 C Salt Flat Venom|QID|1104|M|72.00,73.00|US|N|Kill Scorpids for their venom.|
 C Hardened Shells|QID|1105|M|83.2,55.4|US|N|Kill turtles for their Hardened Tortoise Shells.|
-K Turtles|QID|555|M|82.70,54.70|US|N|Kill turtles for 10 meat. This is for a later quest so don't sell it. Can be purchased or sent from an alt as well.|L|3712 10|
+K Turtles|QID|555|M|82.70,54.70|US|N|Kill turtles for 10 meat. This is for a later quest so don't sell it. Can be purchased or sent from an alt as well. You can bank this until headed to Southshore.|L|3712 10|
 C Rocket Car Parts|QID|1110|M|75.4,55.0|NC|US|N|Collect Rocket Car Parts which are scattered everywhere.|
 T A Bump in the Road|QID|1175|M|81.63,77.95|N|To Trackmaster Zherin.|
 T Load Lightening|QID|1176|M|80.18,75.88|N|To Pozzik.|
@@ -93,12 +93,12 @@ T The Black Shield|QID|1319|M|64.75,50.43|Z|Dustwallow Marsh|N|To Caz Twosprocke
 A The Black Shield|QID|1320|M|64.75,50.43|Z|Dustwallow Marsh|N|From Caz Twosprocket.|PRE|1319|
 T The Black Shield|QID|1320|M|68.21,48.62|Z|Dustwallow Marsh|N|To Captain Garran Vimes, 3rd floor of the Citidel.|
 
-F Ratchet|ACTIVE|1111|M|67.44,51.27|Z|Dustwallow Marsh|N|Fly to ratchet if you don't have ratchet skip this and follow the Run steps.|
-R Barrens|ACTIVE|1111|AVAILABLE|1039|M|27.8,46.6|Z|Dustwallow Marsh|N|Follow the road same as you did last time to the Barrens.|
-R Ratchet|ACTIVE|1111|AVAILABLE|1039|M|62.7,36.2|Z|The Barrens|N|Run northeast to Ratchet.|
+F Ratchet|ACTIVE|1111|M|67.44,51.27|Z|Dustwallow Marsh|N|Fly to ratchet.|TAXI|Ratchet|
+R Barrens|ACTIVE|1111|AVAILABLE|1039|M|27.8,46.6|Z|Dustwallow Marsh|N|Follow the road same as you did last time to the Barrens.|TAXI|-Ratchet|
+R Ratchet|ACTIVE|1111|AVAILABLE|1039|M|62.7,36.2|Z|The Barrens|N|Run northeast to Ratchet.|TAXI|-Ratchet|
 T Goblin Sponsorship|QID|1178|M|62.68,36.24|Z|The Barrens|N|To Gazlowe.|
 A Goblin Sponsorship|QID|1180|M|62.68,36.24|Z|The Barrens|N|From Gazlowe.|PRE|1178|
-f Ratchet|ACTIVE|1180|AVAILABLE|1039|M|63,37|Z|The Barrens|N|Grab the flightpoint from Bragok.|
+f Ratchet|ACTIVE|1180|AVAILABLE|1039|M|63,37|Z|The Barrens|N|Grab the flightpoint from Bragok.|TAXI|-Ratchet|
 T Wharfmaster Dizzywig|QID|1111|M|63.35,38.46|Z|The Barrens|N|To Wharfmaster Dizzywig.|
 
 b Booty Bay|QID|1181|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
@@ -246,11 +246,11 @@ A Worgen in the Woods|QID|223|M|75.2,48|Z|Duskwood|N|From Calor.|
 T Worgen in the Woods|QID|223|M|75.2,48.8|Z|Duskwood|N|To Jonathan Carevin.|
 
 F Stormwind|N|Train you skills in stormwind if you havn't already, otherwise proceed to next step, Also, grab that turtle meat you saved from Thousand Needles.|
-A An Old History Book|QID|337|U|2794|N|From Item dropped randomly in Duskwood. Check off manually if you didnt find it.|
+A An Old History Book|QID|337|U|2794|N|From Item dropped randomly in Duskwood.|
 t An Old History Book|QID|337|M|74,7.6|Z|Stormwind City|N|To Milton Sheaf.|
 A Southshore|QID|538|PRE|337|M|74,7.6|Z|Stormwind City|N|From Milton Sheaf.|
-F Southshore|QID|555|N|Fly to Southshore. If you don't have the flight path, check off manually and run.|
-R Southshore|QID|555|N|If you dont have the flight points, its Ironforge to wetlands, east thru Wetlands, then North to Arathi Highlands, grab the Refuge Pointe fligh path and then continue West to Hillsbrad Foothills.|M|50,55|Z|Hillsbrad Foothills|
+F Southshore|QID|555|N|Fly to Southshore.|TAXI|Southshore|
+R Southshore|QID|555|N|If you dont have the flight points, its Ironforge to wetlands, east thru Wetlands, then North to Arathi Highlands, grab the Refuge Pointe fligh path and then continue West to Hillsbrad Foothills.|M|50,55|Z|Hillsbrad Foothills|TAXI|-Southshore|
 
 B Soothing Spices|QID|555|N|Buy one Soothing Spices from the merchant.|L|3713 1|M|48.90,55.00|Z|Hillsbrad Foothills|
 h Southshore|QID|562|N|Set your home location to Southshore.|M|51.20,58.90|
@@ -295,7 +295,7 @@ N Witherbark Tusk|QID|691|N|Kill Trolls until you get 10 tusks for the quest.|L|
 N Witherbark Medicine Pouch|QID|691|N|Kill Witch Doctors to get the Medicine Pouches needed for the quest.|L|4522 4|
 C Worth Its Weight in Gold|N|Kill Witherbark Shadow Hunters in the cave until you get the Shadow Hunter Knife|QID|691|Z|Arathi Highlands|M|68.00,75.00|
 T Worth Its Weight in Gold|N|Turn in your quest at Refuge Pointe.|QID|691|Z|Arathi Highlands|M|46.2,47.8|
-H Southshore|QID|661|N|Hearth to Southshore.|
+H Southshore|QID|661|N|Hearth (or fly if you want to save the hearthstone) to Southshore.|
 T Hints of a New Plague?|QID|661|M|50.3,59.0|Z|Hillsbrad Foothills|N|To Phin Odelic.|
 N Sell junk, repair, restock|QID|564|N|Sell junk, repair, restock|
 
@@ -339,11 +339,11 @@ A Brother Anton|QID|6141|M|42.4,24.4|Z|Stormwind City|N|From Brother Crowley in 
 F Booty Bay|QID|603|N|Fly to Booty Bay.|M|66.28,62.16|Z|Stormwind City|
 T Ansirem's Key|QID|603|Z|Stranglethorn Vale|M|27.24,77.52|N|To Catelyn. (skip the followup for now, we will be back for it)|
 b Ratchet|QID|1453|N|Take the boat to Ratchet.|
-F Nigel's Point|QID|1453|N|If you have the Desolace-Nijel's Point flight path, go straight there, otherwise check this off and follow the instructions on how to run there.|
-F Stonetalon Mountains|QID|1453|N|Run or fly to Stonetalon Mountains.|Z|The Barrens|M|63.10,37.15|
-R Desolace|QID|1453|N|Run through the Charred Vale to get to Desolace|Z|Stonetalon Mountains|M|28.00,84.00|
-R Nijel's Point|QID|1453|N|Go to Nijel's Point by going up the path here.|Z|Desolace|M|67.00,16.00|
-f Nijel's Point|QID|1437|N|Get the flight path.|M|64.66,10.54|Z|Desolace|
+F Nigel's Point|QID|1453|N|Fly to Nigel's Point.|TAXI|Nigel's Point|
+F Stonetalon Mountains|QID|1453|N|Run or fly to Stonetalon Mountains.|Z|The Barrens|M|63.10,37.15|TAXI|-Nigel's Point|
+R Desolace|QID|1453|N|Run through the Charred Vale to get to Desolace|Z|Stonetalon Mountains|M|28.00,84.00|TAXI|-Nigel's Point|
+R Nijel's Point|QID|1453|N|Go to Nijel's Point by going up the path here.|Z|Desolace|M|67.00,16.00|TAXI|-Nigel's Point|
+f Nijel's Point|QID|1437|N|Get the flight path.|M|64.66,10.54|Z|Desolace|TAXI|-Nigel's Point|
 T Reclaimers' Business in Desolace|QID|1453|M|66.2,9.6|Z|Desolace|N|To Kreldig Ungor.|
 A Reagents for Reclaimers Inc.|QID|1458|M|66.2,9.6|Z|Desolace|N|From Kreldig Ungor.|
 A Strange Alliance|QID|1382|Z|Desolace|M|66.6,11|N|From Captain Pentigast.|

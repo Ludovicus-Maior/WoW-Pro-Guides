@@ -11,7 +11,7 @@ F Orgrimmar|QID|5088|
 
 B Shopping List|QID|5088|S!US|L|3388|N|One Strong Troll's Blood Elixir - Needed at level 34. Crafted by Alchemists shouldn't cost much more tham 1 gold.|
 B 3 Stacks of Silk Cloth|QID|7827|S!US|L|4306 60|N|OPTIONAL: 9 more stacks of Silk Cloth. This is for the cloth donation quests. When you get to one of the big cities, you can turn in 3 stacks for some exp.|
-B Potions of Water Breathing|QID|666|S!US|L|5996 2|C|-Warlock,-Shaman,-Druid|R|-Undead|N|Unless you can breathe underwater, buying a 2-5 Elixer's of Water Breathing will be very handy for a quest at lvl 37.|
+B Potions of Water Breathing|QID|666|S!US|L|5996 2|C|-Warlock,-Shaman,-Druid|R|-Undead|N|Unless you can breathe underwater, buying 2-5 Elixer's of Water Breathing will be very handy for a quest at lvl 37.|
 h Orgrimmar|ACTIVE|5088|M|54,68.6|Z|Orgrimmar|N|Set your hearthstone in Orgrimmar at Innkeeper Gryshka.|
 A Call of Air|QID|1531|C|Shaman|M|38.00,38.00|Z|Orgrimmar|N|From Searn Firewarder.|
 
@@ -30,12 +30,12 @@ C Test of Endurance|QID|1150|M|26.00,55.00|N|When you click on the crates in the
 T Test of Endurance|QID|1150|M|54.00,44.00|N|Travel east to the Weathered Nook, go up the slope. Turn in to Dorn Plainstalker.|
 A Test of Strength|QID|1151|GROUP|M|54.00,41.00|N|From Dorn Plainstalker. This is a difficult solo.|
 K Rok'Alim the Pounder|ACTIVE|1151|QO|1|M|17.00,37.00|N|Go to the northwestern part of the zone. At the waypoint, kill everything on your way. Rok'Alim the Pounder spawns at that point. Afterwards he roams around in that area a little. Search for him while killing stuff.|
+L Level Check|LVL|31;-5500|N|You should now be about two bubbles from level 32.|
 T Test of Strength|QID|1151|M|54.00,41.00|N|To Dorn Plainstalker, back at the Weathered Nook. (skip followup)|
-R Freewind Post|ACTIVE|1136|M|46,51|
+R Freewind Post|ACTIVE|1131|M|46,51|
 F Thunder Bluff|ACTIVE|1131|M|45.0,49.2|N|At Nyse.|
 T Steelsnap|QID|1131|M|61.50,80.90|Z|Thunder Bluff|N|To Melor Stonehoof. Go south to the Hunter Rise.|
-A Frostmaw|QID|1136|M|61.50,80.90|Z|Thunder Bluff|N|From Melor Stonehoof. The Kodo Skin Parchment you just received, is for directions, which are in this guide and therefore you don't need to waste precious inventory space, destroy if you want.|
-L Level Check|ACTIVE|1136|LVL|32|N|You should now be level 32.|
+A Frostmaw|QID|1136|M|61.50,80.90|Z|Thunder Bluff|N|From Melor Stonehoof.|
 ; === 002_32_33_Jame_Thousand_Needles.lua ===
 H Orgrimmar|ACTIVE|1176|
 r Restock, Sell Junk, train|ACTIVE|1136|
@@ -160,7 +160,7 @@ A Stone Tokens|QID|556|M|61.50,20.90|Z|Hillsbrad Foothills|N|From Keeper Bel'var
 A The Hammer May Fall|QID|676|M|61.90,19.60|Z|Hillsbrad Foothills|N|From Tallow.|
 A Helcular's Revenge |QID|552|M|63.88,19.66|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
 C Torn Fin Eyes|QID|515|QO|4|M|36.00,66.00|Z|Hillsbrad Foothills|N|Head southwest until you hit the Western Strand with the Murloc Camps. Kill murlocs until you get 5 Torn Fin Eyes.|
-C Elixir of Agony |QID|515|QO|3|M|58.00,64.00|Z|Hillsbrad Foothills|N|Go east and across the river, until you find nagas. Kill them until you have 5 Daggerspine Scales.|
+C Elixir of Agony |QID|515|QO|2|M|58.00,64.00|Z|Hillsbrad Foothills|N|Go east and across the river, until you find nagas. Kill and loot them until you have the needed Daggerspine Scales.|
 C Helcular's Revenge |QID|552|M|46.00,30.00|Z|Hillsbrad Foothills|N|Go northwest to the Yeti Cave . Kill yetis until you get Helcular's Rod, which is kinda rare, so just kill a lot of yetis. It might take a long time, so be patient. If it really takes more than 20 minute, try to log out and then back in. For some reason this worked for me a couple of times and the rod dropped on the first few kills after I logged back in, after a 20 minute yeti slaughter with no success.|
 H Tarren Mill|ACTIVE|515|N|Back to Tarren Mill to get some follow ups. This next segment is challenging, if you can find a partner, it will make it much more survivable. If not, be careful!|
 T Elixir of Agony |QID|515|Z|Hillsbrad Foothills|N|To Apothecary Lydon in Tarren Mill.|

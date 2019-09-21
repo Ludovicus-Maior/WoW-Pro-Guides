@@ -137,14 +137,13 @@ A Consumed by Hatred|QID|899|N|Look for Mankrik in The Crossroads. He's near the
 A Lost in Battle|QID|4921|M|51.95,31.58|N|From  Mankrik.|
 A Apothecary Zamah|QID|853|M|51.44,30.15|N|To Apothecary Helbrim. This is a timed quest (45 minutes).|
 
-F Camp Taurajo|QID|853|R|Tauren|N|Remember the long run you had to do just to get to The Crossroads? Well, it's about to pay off! Fly straight to Camp Taurajo.|
-F Camp Taurajo|QID|853|R|-Tauren|N|If you have the Flight Point, otherwise complete this step and RUN!|
-R Camp Taurajo|QID|853|M|52.06,32.10;51.07,49.00;49.33,50.34;47.31,57.64;46.29,58.00|CS|N|Run to Taurajo. Inspect the "Beaten Corpse" in the buildings.|
-f Camp Taurajo|QID|853|M|44.44,59.15|Z|The Barrens|N|Get the flight point at Omusa Thunderhorn.|
+F Camp Taurajo|QID|853|R|Tauren|N|Remember the long run you had to do just to get to The Crossroads? Well, it's about to pay off! Fly straight to Camp Taurajo.|TAXI|Camp Taurajo|
+F Camp Taurajo|QID|853|R|-Tauren|N|Fly to Camp Taurajo.|TAXI|Camp Taurajo|
+R Camp Taurajo|QID|853|M|52.06,32.10;51.07,49.00;49.33,50.34;47.31,57.64;46.29,58.00|CS|N|Run to Taurajo.|TAXI|-Camp Taurajo|
 C Lost in Battle|QID|4921|N|Mankrik's wife is the "Beaten Corpse" found near a few small tauren buildings.|M|49.33,50.34|
-F Thunder Bluff|QID|853|R|Tauren|N|Remember the long run you had to do just to get to The Crossroads? Well, it's about to pay off! Fly straight to Thunder Bluff.|
-F Thunder Bluff|QID|853|R|-Tauren|N|If you have the Flight Point, otherwise complete this step and RUN!|
-R Thunder Bluff|QID|853|M|68.35,60.68;51.25,58.96;46.76,51.95;37.16,31.89|CS|Z|Mulgore|N|Run to Thunder Bluff.|
+f Camp Taurajo|QID|853|M|44.44,59.15|Z|The Barrens|N|Get the flight point at Omusa Thunderhorn.|TAXI|-Camp Taurajo|
+F Thunder Bluff|QID|853|M|44.44,59.15|Z|The Barrens|N|Fly to Thundar Bluff.|TAXI|Thunder Bluff|
+R Thunder Bluff|QID|853|M|68.35,60.68;51.25,58.96;46.76,51.95;37.16,31.89|CS|Z|Mulgore|N|Run to Thunder Bluff.|TAXI|-Thunder Bluff|
 T Apothecary Zamah|QID|853|M|30.04,29.83;22.90,21.03|CS|Z|Thunder Bluff|N|To Apothecary Zamah.\nHead to the Pools of Vision, underneath Spirit Rise.|
 A Serpentbloom|QID|962|M|22.90,21.03|Z|Thunder Bluff|N|From Apothecary Zamah, Spirit Rise. (Dungeon Quest)|
 F The Crossroads|QID|894|M|46.1,49.5|Z|Thunder Bluff|N|Fly or hearth.|
@@ -225,7 +224,7 @@ A Report to Kadrak|QID|6541|M|51.4,30.8|N|From Thork.|
 T Wenikee Boltbucket|QID|3921|M|49,11.2|N|Follow the road north to find Wenikee Boltbucket.|
 A Nugget Slugs|QID|3922|M|49,11.2|N|From Wenikee Boltbucket.|
 
-F The Sludge Fen|ACTIVE|3922|M|56.4,7.4|N|Now, we're going east again, staying close to the mountain, until you find Sludge Fen.|
+R The Sludge Fen|ACTIVE|3922|M|56.4,7.4|N|Now, we're going east again, staying close to the mountain, until you find Sludge Fen.|
 C Nugget Slugs|QID|3922|M|56,7|N|Loot Nugget Slugs from tool buckets.|S|
 A Ignition|QID|858|M|56.4,7.4|N|From Wizzlecrank's Shredder.|
 C Ignition|QID|858|M|56.3,8.2|N|This quest involves killing Supervisor Lugwizzle, who you'll find at the top of the large tower slightly to the south, in the middle of the water. Start climbing the tower, killing as you go. Also, stop to loot any Tool Buckets you see.|
@@ -234,8 +233,8 @@ A The Escape|QID|863|M|56.4,7.4|N|From Wizzlecrank's Shredder.|
 C The Escape|QID|863|M|56,7|N|When we first start, make long pulls and killing the Drudgers and Mercenaries to the west of you. Continue to make long pulls while he heads west. Stay close to him, so that he will help you fight your attackers. Try not to let things run away. After a short while, the shredder will turn north up a ramp, and stop. Two Venture Co. mobs will spawn and attack you.|
 C Nugget Slugs|QID|3922|M|56,7|N|Now, patrol the area looting any more Nugget Slugs you need.|US|
 
-R Ogrimmar|QID|3922|R|Tauren|M|62.9,7.7;63.2,2.9|CS|N|Tauren, it is time for you to visit the Horde's capital if you haven't already. (If you already have, skip this part). Walk East, and don't stop walking until you reach a river. When you hit the river, turn north. You will come to a bridge, cross over the bridge, you will find the Orgrimmar West Gate.|
-f Orgrimmar|QID|3922|R|Tauren|N|He is at the top of the Skytower in the Valley of Strength|M|45.2,64.6|Z|Orgrimmar|
+R Ogrimmar|QID|3922|M|62.9,7.7;63.2,2.9|CS|N|Tauren, it is time for you to visit the Horde's capital if you haven't already. (If you already have, skip this part). Walk East, and don't stop walking until you reach a river. When you hit the river, turn north. You will come to a bridge, cross over the bridge, you will find the Orgrimmar West Gate.|TAXI|-Ogrimmar|
+f Orgrimmar|QID|3922|R|Tauren|N|He is at the top of the Skytower in the Valley of Strength|M|45.2,64.6|Z|Orgrimmar|TAXI|-Ogrimmar|
 R The Barrens|QID|3922|R|Tauren|N|Head back to the Barrens|M|15.6,61.7|Z|Orgrimmar|
 R Sludge Fen|QID|3922|R|Tauren|N|Go back to the Sludge Fen by the same route you came by|M|56.4,7.7|
 
@@ -272,12 +271,17 @@ A Kaya's Alive|QID|6401|M|35.2,27.8|N|From Makaba Flathoof.|
 
 R Malaka'jin|QID|6401|M|71,95|N|At waypoint, you'll find a Darkspear Troll settlement called Malaka'Jin.|Z|Stonetalon Mountains|
 A Blood Feeders|QID|6461|M|71.2,94.8|Z|Stonetalon Mountains|N|From Xen'zilla.|
-C Deepmoss spider Eggs|QID|1069|M|57,76|N|Keep following the road 'til waypoint, then go into Sishir Canyon, on your left. Here you'll find all the spiders you could ever want.|Z|Stonetalon Mountains|
-C Blood Feeders|QID|6461|M|57,76|Z|Stonetalon Mountains|
-f Sun Rock Retreat|QID|6401|M|45.2,59.9|Z|Stonetalon Mountains|
-T Kaya's Alive|QID|6401|M|47.4,58.4|Z|Stonetalon Mountains|
-
-T Blood Feeders|QID|6461|M|51.94,61.14;71.2,94.8|CC|Z|Stonetalon Mountains|N|To Xen'zilla in Malaka'Jin.|
+A Arachnophobia|QID|6284|M|59.1,75.8|Z|Stonetalon Mountain|N|From Wanted Poster, found further up the road.|GROUP|
+R Sishir Canyon|ACTIVE|-6284|M|59.1,75.8|Z|Stonetalon Mountain|N|
+C Blood Feeders|QID|6461|M|57,76|Z|Stonetalon Mountains|S|N|Kill spiders until the quest is done.|
+C Deepmoss Spider Eggs|QID|1069|M|57,76|Z|Stonetalon Mountains|S|NC|N|Pick up the spider eggs from around the area.|
+K Bessaleth|ACTIVE|6284|M|52,71|Z|Stonetalon Mountains|T|Bessaleth|N|Bessaleth will be locoated somewhere near here.|
+C Deepmoss Spider Eggs|QID|1069|M|57,76|Z|Stonetalon Mountains|US|NC|N|Pick up the spider eggs from around the area.|
+C Blood Feeders|QID|6461|M|57,76|Z|Stonetalon Mountains|US|N|Finish up the spiders needed.|
+f Sun Rock Retreat|QID|6401|M|45.2,59.9|Z|Stonetalon Mountains|N|At Tharm.|
+t Arachnophobia|QID|6284|M|47.2,61|Z|Stonetalon Mountains|N|To Maggran Earthbinder.|
+T Kaya's Alive|QID|6401|M|47.4,58.4|Z|Stonetalon Mountains|N|To Tammra Windfield.|
+T Blood Feeders|QID|6461|M|51.94,61.14;71.2,94.8|CS|Z|Stonetalon Mountains|N|To Xen'zilla in Malaka'Jin.|
 H Camp Taurajo|QID|1489|U|6948|
 
 F Thunder Bluff|QID|1489|M|44.5,59.1|
@@ -332,7 +336,7 @@ R The Crossroads|QID|899|M|52,30|
 
 T Consumed By Hatred|QID|899|M|52,31.6|N|To the infamous Mankrik.|
 
-F Camp Taurajo|QID|882|M|51.52,30.36|
+F Camp Taurajo|QID|882|M|51.52,30.36|N|Hearth of Fly back to Camp T.|
 T Ishamuhale|QID|882|M|44.84,59.11|N|To Jorn Skyseer.|
 A Enraged Thunder Lizards|QID|907|PRE|882|M|44.8,59|N|From Jorn Skyseer.|
 
