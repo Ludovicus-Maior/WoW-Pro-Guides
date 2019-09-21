@@ -115,6 +115,7 @@ F Ratchet|ACTIVE|4502|M|51.4,30.2|Z|The Barrens|N|At Wind Rider Master Devrak.|
 T Volcanic Activity|QID|4502|M|62.4,38.6|Z|The Barrens|N|To Liv Rizzlefix.|
 T Marvon's Workshop|QID|4147|M|62.4,38.6|Z|The Barrens|N|To Liv Rizzlefix.|
 
+;this should already be turned in during 40-51 guide, but left it here since it isn't hurting anything. won't be visable unless it needs turned in.
 b Booty Bay|ACTIVE|580|M|63.6,38.7|Z|The Barrens|N|Take the boat from Ratchet to Booty Bay.|
 T Whiskey Slim's Lost Grog|QID|580|M|22,74|Z|Stranglethorn Vale|N|To Whiskey Slim.|
 
