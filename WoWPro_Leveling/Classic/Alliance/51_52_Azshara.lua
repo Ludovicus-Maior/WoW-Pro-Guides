@@ -18,9 +18,9 @@ T Rise of the Silithid |QID|162|Z|Darnassus|M|41.8,85.6|N|To Gracina Spiritmight
 A March of the Silithid|QID|4493|Z|Darnassus|M|41.8,85.6|N|From Gracina Spiritmight.|
 T Prayer to Elune |QID|3378|Z|Darnassus|M|38.3,80.9|
 R Rut'theran Village|AVAILABLE|5536|N|Go to Rut'theran Village.|Z|Darnassus|M|30.50,41.40|
-F Talrendis Point|AVAILABLE|5536|M|58.4,94|Z|Teldrasil|N|Fly to Azshara at Vesprystus.|TAXI|Talrendis Point|
-F Astranaar|QID|AVAILABLE|N|Fly to Astranaar, Ashenvale.|Z|Teldrassil|M|58.40,94.00|TAXI|-Talrendis Point|
-R Azshara|QID|AVAILABLE|N|Follow the road, generally west, to go to Azshara.|Z|Ashenvale|M|70,69;95.40,48.40|CS|TAXI|-Talrendis Point|
+F Talrendis Point|AVAILABLE|5536|M|58.4,94|Z|Darnassus|N|Fly to Azshara at Vesprystus.|TAXI|Talrendis Point|
+F Astranaar|QID|AVAILABLE|5536|N|Fly to Astranaar, Ashenvale.|Z|Teldrassil|M|58.40,94.00|TAXI|-Talrendis Point|
+R Azshara|QID|AVAILABLE|5536|N|Follow the road, generally west, to go to Azshara.|Z|Ashenvale|M|70,69;95.40,48.40|CS|TAXI|-Talrendis Point|
 f Talrendis Point|AVAILABLE|5536|N|Get the flight path.|M|11.90,77.60|TAXI|-Talrendis Point|
 A Spiritual Unrest|QID|5535|M|11.4,78.2|
 A A Land Filled with Hatred|QID|5536|M|11.4,78.2|
