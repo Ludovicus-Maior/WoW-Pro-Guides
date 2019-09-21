@@ -381,23 +381,28 @@ function WoWPro.DistanceToStep(i)
 end
 
 function WoWPro:ValidateMapCoords(guide,action,step,coords)
-	local numcoords = select("#", string.split(";", coords))
-	for j=1,numcoords do
-		local jcoord = select(numcoords-j+1, string.split(";", coords))
-		if not jcoord or jcoord == "" then
-		    WoWPro:Error("Missing coordinate, %d/%d in guide %s, line [%s %s].",numcoords-j+1,numcoords,guide,action,step)
-		    return
+	if coords then
+		local numcoords = select("#", string.split(";", coords))
+		for j=1,numcoords do
+			local jcoord = select(numcoords-j+1, string.split(";", coords))
+			if not jcoord or jcoord == "" then
+				WoWPro:Error("Missing coordinate, %d/%d in guide %s, line [%s %s].",numcoords-j+1,numcoords,guide,action,step)
+				return
+			end
+			local x = tonumber(jcoord:match("([^|]*),"))
+			if not x or x > 100  then
+				WoWPro:Error("Bad X coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
+				return
+			end
+			local y = tonumber(jcoord:match(",([^|]*)"))
+			if not y or y > 100 then
+				WoWPro:Error("Bad Y coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
+				return
+			end
 		end
-		local x = tonumber(jcoord:match("([^|]*),"))
-		if not x or x > 100  then
-		    WoWPro:Error("Bad X coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
-		    return
-		end
-		local y = tonumber(jcoord:match(",([^|]*)"))
-		if not y or y > 100 then
-		    WoWPro:Error("Bad Y coordinate %s, %d/%d in guide %s, line [%s %s].",jcoord,numcoords-j+1,numcoords,guide,action,step)
-		    return
-		end
+	else
+		WoWPro:Error("Map table is nil, %d/%d in guide %s, line [%s %s].",1,1,guide,action,step)
+		return
 	end
 end
 
