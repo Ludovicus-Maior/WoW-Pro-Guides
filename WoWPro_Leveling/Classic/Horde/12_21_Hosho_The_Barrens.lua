@@ -131,7 +131,7 @@ T The Shattered Hand|QID|1963|C|Rogue|
 A The Shattered Hand|QID|1858|C|Rogue|
 C The Shattered Hand|QID|1858|C|Rogue|N|Go to the inn in Orgrimmar and pickpocket Gamon|M|54.1,68.2|
 T The Shattered Hand|QID|1858|C|Rogue|
-F The Crossroads|QID|853|C|Rogue|
+F Crossroads|QID|853|C|Rogue|
 
 A Consumed by Hatred|QID|899|N|Look for Mankrik in The Crossroads. He's near the gate to the South.|M|51.95,31.58|
 A Lost in Battle|QID|4921|M|51.95,31.58|N|From  Mankrik.|
@@ -146,7 +146,7 @@ F Thunder Bluff|QID|853|M|44.44,59.15|Z|The Barrens|N|Fly to Thundar Bluff.|TAXI
 R Thunder Bluff|QID|853|M|68.35,60.68;51.25,58.96;46.76,51.95;37.16,31.89|CS|Z|Mulgore|N|Run to Thunder Bluff.|TAXI|-Thunder Bluff|
 T Apothecary Zamah|QID|853|M|30.04,29.83;22.90,21.03|CS|Z|Thunder Bluff|N|To Apothecary Zamah.\nHead to the Pools of Vision, underneath Spirit Rise.|
 A Serpentbloom|QID|962|M|22.90,21.03|Z|Thunder Bluff|N|From Apothecary Zamah, Spirit Rise. (Dungeon Quest)|
-F The Crossroads|QID|894|M|46.1,49.5|Z|Thunder Bluff|N|Fly or hearth.|
+F Crossroads|QID|894|M|46.1,49.5|Z|Thunder Bluff|N|Fly or hearth.|
 T Lost in Battle|QID|4921|M|51.96,31.57|N|To Mankrik.|
 
 T Samophlange|QID|894|M|52.4,11.7|N|You will find a small Goblin hut, and a big piece of machinery. Inside the machinery is a Control Console. You'll have to kill a few Venture Co. Peons to get at it.|
@@ -213,7 +213,7 @@ A Deepmoss Spider Eggs|QID|1069|M|62.37,37.62|N|From Mebox Mizzyrix.|
 A Trouble at the Docks|QID|959|M|63.09,37.60|N|From Crane Operator Bigglefuzz.|
 A The Guns of Northwatch|QID|891|M|62.29,39.03|N|From Captain Thalo'thas Brightsun.|
 
-F The Crossroads|QID|880|M|63.1,37.2|
+F Crossroads|QID|880|M|63.1,37.2|
 T Altered Beings|QID|880|M|52.24,31.92|N|To Tonga Runetotem, at The Crossroads.|
 A Hamuul Runetotem|QID|1489|M|52.24,31.92|N|From Tonga Runetotem.|
 T The Angry Scytheclaws|QID|905|M|52.22,31.02|N|To Sergra Darkthorn.|
@@ -252,7 +252,7 @@ C Warsong Outrider Update|QID|6543|QO|3|NC|N|Go to the second guard and get the 
 R Zoram'gar Outpost|QID|6548|N|Get back to the junction, and follow the road all the way west to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.2,47.28;26.43,42.33;16.51,30.27;12,34|CC|Z|Ashenvale|
 C Warsong Runner Update|QID|6543|QO|2|NC|N|When you get there, hand out the last report|M|12.2,34.2|Z|Ashenvale|
 f Zoram'gar Outpost|QID|6548|M|12.2,33.9|Z|Ashenvale|
-F The Crossroads|QID|6548|M|73.2,61.6|Z|Ashenvale|
+F Crossroads|QID|6548|M|73.2,61.6|Z|Ashenvale|
 
 A Avenge My Village|QID|6548|M|35.2,27.8|N|Leave the town through the West gate, and follow the road until you come to the border with Stonetalon Mountains.|
 A Goblin Invaders |QID|1062|M|35.2,27.8|N|From Seereth Stonebreak. We won't be doing this quest in this guide, it will be completed in Jame's guide for level 21-31. If you don't plan to do that guide, then skip this.|
