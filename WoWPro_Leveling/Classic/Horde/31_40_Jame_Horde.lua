@@ -37,7 +37,6 @@ F Thunder Bluff|ACTIVE|1131|M|45.0,49.2|N|At Nyse.|
 T Steelsnap|QID|1131|M|61.50,80.90|Z|Thunder Bluff|N|To Melor Stonehoof. Go south to the Hunter Rise.|
 A Frostmaw|QID|1136|M|61.50,80.90|Z|Thunder Bluff|N|From Melor Stonehoof.|
 ; === 002_32_33_Jame_Thousand_Needles.lua ===
-H Orgrimmar|ACTIVE|1176|
 r Restock, Sell Junk, train|ACTIVE|1136|
 
 F Freewind Post|ACTIVE|1136|M|45.2,63.8|N|At Doras, Wind Rider Master.|
