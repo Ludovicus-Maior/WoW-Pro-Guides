@@ -293,7 +293,7 @@ A Rise of the Silithid|QID|4267|M|30.3,46.2|Z|Feralas|N|From Shandris Feathermoo
 
 F Rut'theran Village|ACTIVE|3022|M|30.20,43.20|Z|Feralas|N|Fly to Rut'theran Village.|TAXI|Rut'theran Village|
 F Auberdine|ACTIVE|3022|M|30.20,43.20|Z|Feralas|N|Fly to Auberdine.|TAXI|-Rut'theran Village|
-b The Moonspray|ACTIVE|3022|M|33.2, 40.2|Z|Darkshore|N|Go to the pier and take 'The Moonspray' (ship on the right) to Rut'theran Village.|TAXI|-Rut'theran Village|
+b Rut'theran Village|ACTIVE|3022|M|33.2, 40.2|Z|Darkshore|N|Go to the pier and take 'The Moonspray' (ship on the right) to Rut'theran Village.|TAXI|-Rut'theran Village|
 
 T Handle With Care|QID|3022|M|55.5,92.0|Z|Teldrassil|N|To Erelas Ambersky.|
 A Favored of Elune?|QID|3661|M|55.5,92.0|Z|Teldrassil|N|From Erelas Ambersky.|PRE|3022|
