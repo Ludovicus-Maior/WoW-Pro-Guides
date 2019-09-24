@@ -12,16 +12,16 @@ F Rut'theran Village|QID|1198|M|55.92,89.5|Z|Teldrassil|N|Train you skills sell 
 A Twilight Falls|QID|1199|M|55.24,24.01|Z|Darnassus|N|From Argent Guard Manados. This is a BFD Dungeon Quest.|LVL|20|
 A In Search of Thaelrid|QID|1198|M|55.39,25.0|Z|Darnassus|N|From Dawnwatcher Shaedlass. This is a BFD Dungeon Quest.|LVL|20|
 f Rut'theran Village|QID|965|M|58.4,94.02|Z|Teldrassil|N|Get the flight path.|R|-NightElf|
-F Auberdine|QID|965|M|36.34,45.58|N|Fly back to Auberdine.|R|-NightElf|
-F Astranaar|QID|965|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar if you have the flight path, otherwise close this step.|PRE|967|
-A The Tower of Althalaxx|QID|965|M|39.1, 43.5|N|From Sentinel Elissa Starbreeze upstairs.|
-T The Tower of Althalaxx|QID|965|M|54.9, 24.9|N|To Balthule Shadowstrike.|
-A The Tower of Althalaxx|QID|966|M|54.9, 24.9|N|From Balthule Shadowstrike.|PRE|965|
-C The Tower of Althalaxx|QID|966|M|55.41,26.86|N|Do not enter the tower. Kill fanatics around the outside.|
-T The Tower of Althalaxx|QID|966|M|54.9,24.9|N|To Balthule Shadowstrike.|
-A The Tower of Althalaxx|QID|967|N|From Balthule Shadowstrike.|PRE|966|
-A The Sleeper Has Awakened|QID|5321|M|44.39, 76.43|N|Get to the road and travel south, occasionally he will start to sleep, just use your Horn of Awakening on him. You'll face two ambushes, both will consist of three Twilight mobs. They can be very hard to solo, and that is why this is optional. Keep escorting him south along the road until you get to Maestra's Post.|
-C The Sleeper Has Awakened|QID|5321|M|44.38,76.31|QO|1|N|Loot the Horn of awakening from the box on the ground|
+F Auberdine|QID|965|M|36.34,45.58|Z|Teldrassil|N|Fly back to Auberdine.|TAXI|-Astranaar|
+F Astranaar|QID|965|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar if you have the flight path, otherwise close this step.|TAXI|Astranaar|
+A The Tower of Althalaxx|QID|965|M|39.1, 43.5|Z|Darkshore|N|From Sentinel Elissa Starbreeze upstairs.|
+T The Tower of Althalaxx|QID|965|M|54.9, 24.9|Z|Darkshore|N|To Balthule Shadowstrike.|
+A The Tower of Althalaxx|QID|966|M|54.9, 24.9|Z|Darkshore|N|From Balthule Shadowstrike.|PRE|965|
+C The Tower of Althalaxx|QID|966|M|55.41,26.86|Z|Darkshore|N|Do not enter the tower. Kill fanatics around the outside.|
+T The Tower of Althalaxx|QID|966|M|54.9,24.9|Z|Darkshore|N|To Balthule Shadowstrike.|
+A The Tower of Althalaxx|QID|967|M|54.9,24.9|Z|Darkshore|N|From Balthule Shadowstrike.|PRE|966|
+A The Sleeper Has Awakened|QID|5321|M|44.39, 76.43|Z|Darkshore|N|Get to the road and travel south, occasionally he will start to sleep, just use your Horn of Awakening on him. You'll face two ambushes, both will consist of three Twilight mobs. They can be very hard to solo, and that is why this is optional. Keep escorting him south along the road until you get to Maestra's Post.|
+C The Sleeper Has Awakened|QID|5321|M|44.38,76.31|Z|Darkshore|QO|1|N|Loot the Horn of awakening from the box on the ground|
 C The Sleeper Has Awakened|QID|5321|M|27.2,35.7|Z|Ashenvale|U|13536|N|Escort Kerlonian, use the horn if he falls asleep.|
 T The Sleeper Has Awakened|QID|5321|M|27.26,35.59|Z|Ashenvale|N|If you took it, otherwise close this step.|
 T The Tower of Althalaxx|QID|967|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier. Do not get follow-up.|
