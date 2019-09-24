@@ -63,8 +63,8 @@ N Level 4 class training|QID|3903|LVL|4|N|Remember to visit your class trainer t
 r Sell and Repair|ACTIVE|3903|M|47.7,41.4|N|Sell and Repair at Godric Rothgar.|
 
 T Milly Osworth|QID|3903|M|50.69,39.35|N|To Milly Osworth. She is at the back of the Abbey near the stable.|
-A Milly's Harvest|QID|3904|M|50.69,39.35|PRE|3903|N|From Milly Osworth|
 C Skirmish at Echo Ridge|QID|21|M|47.7,31.7|N|Kill the Kobold Laborers. They are found inside Echo Ridge Mine.|T|Kobold Laborer|US|
+A Milly's Harvest|QID|3904|M|50.69,39.35|PRE|3903|N|From Milly Osworth|
 C Milly's Harvest|QID|3904|M|54.0,47.8|NC|N|Collect Milly's Harvest Barrels from the vineyards.|
 C Bounty on Garrick Padfoot|QID|6|M|57.56,48.42|QO|1|N|Kill Garrick Padfoot and loot his head.|T|Garrick Padfoot|
 
