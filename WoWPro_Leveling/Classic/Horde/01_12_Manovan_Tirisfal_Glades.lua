@@ -95,7 +95,7 @@ T A Rogue's Deal|QID|8|M|61.70,52.04|N|To Innkeeper Renee; inside the Tavern.|
 h Gallows' End Tavern|ACTIVE|407|N|Set your hearthstone to Brill.|
 T Fields of Grief|QID|407|M|61.97,51.28|N|To the Captured Scarlet Zealot down in the basement of the Inn, through the kitchen.|
 
-: Priest class quest
+; Priest class quest
 T In Favor of Darkness|QID|5651|C|Priest|M|61.57,52.19|N|At Dark Cleric Beryl at the top floor of the inn.|
 A Garments of Darkness|QID|5650|C|Priest|N|From Dark Cleric Beryl|
 C Garments of Darkness|QID|5650|C|Priest|M|59.18,46.49|N|Go north. Heal Deathguard Kel and give Power Word: Fortitude to him.|
