@@ -15,8 +15,8 @@ A Raven Hill|QID|163|M|75.33,48.71|N|From Elaine Carevin.|
 A Deliveries to Sven|QID|164|M|75.33,48.71|N|From Elaine Carevin.|
 A The Hermit|QID|165|M|75.33,48.71|N|From Elaine Carevin.|
 A Eight-Legged Menaces|QID|245|M|72.0,58.9;45.12,67.02|CS|N|Follow the road.|
-T Raven Hill|QID|163|M|18.13,56.32|N|Follow the road, turn in to Jitters.|
-A Jitters' Growling Gut|QID|5|M|18.13,56.32|N|From Jitters.|
+T Raven Hill|QID|163|M|18.33,56.24|N|Follow the road, turn in to Jitters.|
+A Jitters' Growling Gut|QID|5|M|18.33,56.24|N|From Jitters.|
 C Eight-Legged Menaces|QID|245|M|9.7,55.9|S|N|Kill Pygmy Venom Web Spiders on sight. Keep any Gooey Spider Legs you find, you will need them later.|
 T Deliveries to Sven|QID|164|M|7.79,34.12|N|To Sven Yorgen.|
 A Sven's Revenge|QID|95|M|7.79,34.12|N|From Sven Yorgen.|PRE|164|
