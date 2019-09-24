@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-09-24 09:17
+-- Who: Emmaleah
+-- Log: 8.2 additions
+
+-- URL: http://wow-pro.com/node/3761/revisions/30324/view
 -- Date: 2019-07-23 19:59
 -- Who: Emmaleah
 -- Log: commented out the 4 quests with Magni that seem to have been eliminated [A Brother's Help; Stubborn as a Bronzebeard; Necessity is the MOTHER;One Way Ticket to the Heart]
@@ -246,11 +251,6 @@
 -- Date: 2018-09-04 23:54
 -- Who: elidion
 -- Log: Just adjusted a few minor "guide flow" lines. Skipping a step shouldn't take you to a quest that doesn't exist.
-
--- URL: http://wow-pro.com/node/3761/revisions/29663/view
--- Date: 2018-09-04 08:01
--- Who: elidion
--- Log: Added final Stonetusk and Stonefist outpost missions. Also updated final note to finish once all outposts have been completed.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -1194,6 +1194,99 @@ R Grom'gol Base Camp|ACTIVE|54109|M|37.19,52.28|Z|Northern Stranglethorn|N|Head 
 b Orgrimmar|ACTIVE|54109^54754|M|37.19,52.28|Z|Northern Stranglethorn|N|Return to Orgrimmar.|
 T Queen's Favor|QID|54109|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
 T For the Queen|QID|54754|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
+; possibly missing some steps here...
+A The Battle of Dazar'alor|QID|54282|M|58.44,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|NA|
+C The Battle of Dazar'alor|QID|54282|N|You need to defeat Jaina at the Battle of Dazar'alor to continue with the war campaign.|
+t The Battle of Dazar'alor|QID|54282|M|58.44,62.68|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A The King's Death|QID|54164|M|58.42,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|54282|
+C The King's Death|QID|54164|M|49.92,39.02|Z|Dazar'alor|QO|1|NC|N|Pay respects to King Rastakhan by clicking on the table where he lies in state.|
+T The King's Death|QID|54164|M|49.98,38.89|Z|Dazar'alor|N|To Lady Sylvanas Windrunner.|
+A The Return of Derek Proudmoore|QID|54165|M|49.98,38.89|Z|Dazar'alor|N|From Lady Sylvanas Windrunner.|PRE|54164|
+C The Return of Derek Proudmoore|QID|54165|M|49.98,38.89|Z|Dazar'alor|QO|1|NC|N|Observe Lady Sylvanas Windrunner and Princess Talanji|
+C The Return of Derek Proudmoore|QID|54165|M|58.42,62.51|Z|Zuldazar|QO|2|CHAT|N|Speak with Lady Sylvanas Windrunner onboard the Banshee's
+A Righting Wrongs|QID|54961^55124|M|49.82,95.88|Z|Dazar'alor|N|From Bluffwatcher Proudscar.|PRE|54165|
+C Righting Wrongs|QID|54961|M|58.45,62.68|Z|Zuldazar|QO|1|CHAT|N|Report to Nathanos Blightcaller, either of the last two options complete the quest.You only get this choice if you previously betrayed Sylvanas over Saurfang. |
+P Tiragarde Sound|ACTIVE|54961^55124|M|58.45,62.98|Z|Zuldazar|N|Ask Captain Tattersail for a ride to Tiragarde Sound.|
+T Righting Wrongs|QID|54961^55124|M|87.29,49.63|Z|Tiragarde Sound|N|To Baine Bloodhoof, on the dock, below and behind the inn.|
+A Ships in the Night|QID|54958|M|87.29,49.63|Z|Tiragarde Sound|N|From Baine Bloodhoof.|PRE|54961^55124|
+C Ships in the Night|QID|54958|M|87.57,45.34|Z|Tiragarde Sound|QO|1|NC|N|Take Zelling's Boat to the Swift Vengeance|
+C Ships in the Night|QID|54958|M|87.18,45.20|Z|Tiragarde Sound|QO|2|NC|N|Use special action button (Grappling Hook) to board the ship.|
+C Ships in the Night|QID|54958|M|86.55,45.12|Z|Tiragarde Sound|QO|3|NC|N|Click on door to breach. 2 crewman inside to kill.|
+C Ships in the Night|QID|54958|M|86.16,45.64|Z|Tiragarde Sound|QO|4|N|Kill several more crewman as you make you way to Derek Proudmoore.|
+T Ships in the Night|QID|54958|M|86.10,45.73|Z|Tiragarde Sound|N|To Baine Bloodhoof.|
+A Under Lock and Keys|QID|54959|M|86.10,45.73|Z|Tiragarde Sound|N|From Baine Bloodhoof.|PRE|54958|
+A Dead in the Water|QID|54997|M|86.10,45.73|Z|Tiragarde Sound|N|From Baine Bloodhoof.|PRE|54958|
+C Dead in the Water|QID|54997|M|86.49,45.45|Z|Tiragarde Sound|N|Kill crew as you find the keys.|
+C Under Lock and Keys|QID|54959|M|86.73,45.30|Z|Tiragarde Sound|QO|1|T|Captain Lightpast|N|Back up the stairs to find the Captain and take his Key.|
+C Under Lock and Keys|QID|54959|M|85.75,46.07|Z|Tiragarde Sound|QO|2|NC|N|Apothecary's Key is located on a barrel beside the Apothecary.|
+C Under Lock and Keys|QID|54959|M|86.71,45.26|Z|Tiragarde Sound|QO|3|NC|N|The Navigator is located at the topmost part of the ship. His key is beside him.|
+C Under Lock and Keys|QID|54959|M|85.88,45.91|Z|Tiragarde Sound|QO|4|NC|N|Back down to the hold and click on the Reinforced Cage.|
+C Dead in the Water|QID|54997|M|86.49,45.45|Z|Tiragarde Sound|N|Continue killing crew until the quest completes.|
+T Under Lock and Keys|QID|54959|M|85.88,45.91|Z|Tiragarde Sound|N|To Baine Bloodhoof.|
+T Dead in the Water|QID|54997|M|85.88,45.91|Z|Tiragarde Sound|N|To Baine Bloodhoof.|
+A A Bitter Reunion|QID|54960|M|85.88,45.91|Z|Tiragarde Sound|N|From Baine Bloodhoof.|PRE|54997&54959|
+C A Bitter Reunion|QID|54960|M|86.10,45.51|Z|Tiragarde Sound|CHAT|N|Tell Thomas Zelling you are ready.|
+T A Bitter Reunion|QID|54960|M|76.56,42.89|Z|Dustwallow Marsh|N|To Baine Bloodhoof.|
+A Under False Colors|QID|55034^54999|M|76.33,42.74|Z|Dustwallow Marsh|N|From Thomas Zelling.|
+C Under False Colors|QID|55034^54999|M|76.33,42.79|Z|Dustwallow Marsh|QO|1|U|167228|NC|N|Use the Charm of Returning.|
+C Under False Colors|QID|55034^54999|M|51.53,99.73|Z|Dazar'alor|QO|2|NC|N|Go to your mission table and start "Casting the Bait".|
+T Under False Colors|QID|55034^54999|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Securing Warfang Hold|QID|55052|M|58.40,62.72|Z|Zuldazar|N|From Nathanos Blightcaller (you may need to go out of the area and come back to make this quest available.|PRE|55034^54999|
+
+;Securing Warfang Hold
+A Securing Warfang Hold|QID|55047|M|58.40,62.72|Z|Zuldazar|N|From Dark Ranger Alina.|PRE|54282|LEAD|55052|ACTIVE|-55052|
+P Stormsong Valley|ACTIVE|55047^55052|M|58.45,62.98|Z|Zuldazar|N|Ask Captain Tattersail for a ride to Stormsong Valley.|
+T Securing Warfang Hold|QID|55047^55052|M|50.98,32.86|Z|Stormsong Valley|N|To Boss Mida.|
+A Spy Games|QID|55048|M|50.98,32.86|Z|Stormsong Valley|N|From Boss Mida.|PRE|55047^55052|
+A Communication Breakdown|QID|55049|M|50.98,32.86|Z|Stormsong Valley|N|From Boss Mida.|PRE|55047^50552|
+A Tickets, Please?|QID|55050|M|50.97,32.81|Z|Stormsong Valley|N|From Kazit.|PRE|55047^55052|ACTIVE|55049|
+C Tickets, Please?|QID|55050|M|50.23,33.27|Z|Stormsong Valley|CHAT|N|Ask the spectators to see their tickets, some will have valid tickets, some will go without a fight, and some will turn agressive.|
+C Spy Games|QID|55048|M|52.19,31.73|Z|Stormsong Valley|QO|1|U|167078|S|N|At each of the listening stations there are likely to be spies. Position yourself so thier knockback doesn't throw you off, then use the 'Electronic Mayhem Projector' to start the fight.|
+C Communication Breakdown|QID|55049|M|52.19,31.73|Z|Stormsong Valley|QO|1=1|NC|N|Destroy the listening device located above and to the northeast of the flightmaster.|
+C Communication Breakdown|QID|55049|M|52.23,36.43|Z|Stormsong Valley|QO|1=2|NC|N|Destroy the listening device located above and to the southeast of the flightmaster.|
+C Communication Breakdown|QID|55049|M|48.47,34.58|Z|Stormsong Valley|QO|1|NC|N|Destroy the remaining listening station above the watch tower.|
+C Spy Games|QID|55048|M|49.80,39.31|Z|Stormsong Valley|QO|1|U|167078|US|N|Out to the Clearcut to finish off the spies. You can find where they are by observing the Dead Peons on the ground. Use device to start fight.|
+T Tickets, Please?|QID|55050|M|50.97,32.81|Z|Stormsong Valley|N|To Kazit.|
+T Spy Games|QID|55048|M|50.97,32.86|Z|Stormsong Valley|N|To Boss Mida.|
+T Communication Breakdown|QID|55049|M|50.97,32.86|Z|Stormsong Valley|N|To Boss Mida.|
+A A Display of Power|QID|55051|M|50.97,32.86|Z|Stormsong Valley|N|From Boss Mida.|PRE|55048&55049&55050|
+C A Display of Power|QID|55051|M|50.62,32.67|Z|Stormsong Valley|QO|1|CHAT|N|Speak to Nathanos Blightcaller and then watch the cinematic.|
+T A Display of Power|QID|55051|M|50.75,32.33|Z|Stormsong Valley|N|To Lor'themar Theron.|
+;Visions of Danger
+H Dazar'alor|AVAILABLE|55778|M|PLAYER|N|Hearth or otherwise return to Dazar'alor.|PRE|55051|
+P Nazjatar|AVAILABLE|55778|M|62.94,85.00|Z|Dazar'alor|N|Take the portal to Nazjatar.|PRE|55051|
+J Nazjatar|AVAILABLE|55869|N|To start the next step in the War Campaign, you need to progress thru Nazjatar, to the point where you find Lady Ashvane and the weapons cache. Rt Click this step to jump to Nazjatar guide.|GUIDE|EmmNazj|
+A Visions of Danger|QID|55778|M|48.51,62.18|Z|Nazjatar|N|From Lor'themar Theron.|PRE|55051&55869|
+C Visions of Danger|QID|55778|M|48.36,62.16|Z|Nazjatar|QO|1|CHAT|N|Speak with Spiritwalker Ussoh, then watch his vision unfold.|
+T Visions of Danger|QID|55778|M|48.50,62.18|Z|Nazjatar|N|To Lor'themar Theron.|
+A Old Allies|QID|55780^55781|M|48.50,62.18|Z|Nazjatar|N|From Lor'themar Theron.|PRE|55778|
+C Old Allies|QID|55780|M|50.90,45.61|Z|Nazjatar|CHAT|QO|1|N|OPTIONAL, If you choose to, go tell Nathonos what Lor'themar is up to.|
+P Dazar'alor|ACTIVE|55780^55781|M|47.26,62.78|Z|Nazjatar|N|Take the portal back to Dazar'alor.|
+P Orgrimmar|ACTIVE|55780&55781|M|73.94,70.17|Z|Dazar'alor|N|Take the portal to Orgrimmar.|
+C Old Allies|QID|55780^55781|M|55.96,68.12|Z|Cleft of Shadow@Orgrimmar!Instance|CHAT|N|Talk to Thrall in the Cleft of Shadows.|
+T Old Allies|QID|55780^55781|M|55.96,68.12|Z|Cleft of Shadow@Orgrimmar!Instance|N|To Thrall.|
+A Stay of Execution|QID|55779^55782|M|55.96,68.12|Z|Cleft of Shadow@Orgrimmar!Instance|N|From Thrall.|PRE|55780^55781|
+R Stay of Execution|ACTIVE|55779^55782|M|55.96,68.12|Z|Cleft of Shadow@Orgrimmar!Instance|TZ|Baine Rescue|CHAT|N|Talk to Thrall to start the scenario (then manually check this off).|
+C Defeat the guards|ACTIVE|55779^55782|M|22.30,63.49|Z|Baine Rescue!Instance|SO|1;1|N|Defeat the guards|
+C Speak with Thrall|ACTIVE|55779^55782|M|22.98,61.87|Z|Baine Rescue!Instance|SO|2;1|CHAT|N|Speak with Thrall|
+C Cross room with Thrall and Saurfang|ACTIVE|55779^55782|M|30.32,38.40|Z|Baine Rescue!Instance|SO|2;2|N|Cross room with Thrall and Saurfang, there are 2 scripted attacks.|
+C Devise a plan with Thrall|ACTIVE|55779^55782|M|30.31,38.09|Z|Baine Rescue!Instance|CHAT|SO|3;1|N|Devise a plan with Thrall|
+C Duel Lenara|ACTIVE|55779^55782|M|39.11,21.05|Z|Baine Rescue!Instance|SO|4;1|CHAT|N|Ahead, and around the corner, find Lenara, and challenge her to a duel.|
+C Inspect the troops|ACTIVE|55779|M|38.09,22.63|Z|Baine Rescue!Instance|CHAT|SO|5;1|N|Inspect the troops standing around.|
+C Follow Lenara|ACTIVE|55782|M|39.11,21.05|Z|Baine Rescue!Instance|SO|5;1|CHAT|N|Tell Lenara whas up then follow her.|
+C Speak with Lenara about the Traitors|ACTIVE|55782|M|31.90,28.14|SO|5;2|CHAT|N|Tell Lenara "For the Horde".|
+C Continue deeper into the underhold|ACTIVE|55779^55782|M|49.77,32.69|Z|Baine Rescue!Instance|SO|6;1|N|Rejoin Thrall and Saurfang and continue deeper into the underhold|
+C Speak with Thrall|ACTIVE|55779^55782|M|50.19,32.83|Z|Baine Rescue!Instance|SO|7;1|CHAT|N|Speak with Thrall (any of the options works)|
+C Reach the end of the corridor|ACTIVE|55779^55782|M|67.55,32.13|Z|Baine Rescue!Instance|SO|7;2|N|Reach the end of the corridor|
+C Defeat Rowa Bloodstrike|ACTIVE|55779^55782|M|73.23,44.03|Z|Baine Rescue!Instance|SO|8;1|N|Defeat Rowa Bloodstrike|
+C Check on Baine Bloodhoof|ACTIVE|55779^55782|M|78.54,55.51|Z|Baine Rescue!Instance|SO|9;1|N|Check on Baine Bloodhoof|
+C Defeat Sylvanas's forces|ACTIVE|55779^55782|M|82.30,61.06|S|Z|Baine Rescue!Instance|SO|10;1|N|Defeat Sylvanas's forces, first the ones right in front of you, then the mages at each inhibitor crystal.|
+C Destroy Inhibitor Crystals|ACTIVE|55779^55782|M|85.03,60.47|Z|Baine Rescue!Instance|SO|10;2|N|Destroy Inhibitor Crystals.|
+C Defeat Sylvanas's forces|ACTIVE|55779^55782|M|82.30,61.06|Z|Baine Rescue!Instance|SO|10;1|N|And finally defeat Magister Hathorel.|
+C Stay of Execution|QID|55779^55782|M|82.30,61.06|Z|Baine Rescue!Instance|CHAT|N|Enjoy the cinematic. Afterwards, talk to Lor'Themar to complete the quest.|
+T Stay of Execution|QID|55779|M|48.50,62.18|Z|Nazjatar|N|To Lor'themar Theron.|
+T Stay of Execution|QID|55782|M|50.91,45.65|Z|Nazjatar|N|To Nathanos Blightcaller.|
+
 ; Rep Gated Notes
 N Come back at level 114|QID|51979|LVL|-114|N|Next foothold can be done when you are level 114.|PRE|51803|
 N Come back at level 116|QID|53062|LVL|-116|N|Island Adventures can be done when you are level 116. This quest is once per account. Once unlocked on the account, Other toons on the account can do Island Adventures as early as 110.|PRE|51979|
