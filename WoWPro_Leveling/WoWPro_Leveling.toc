@@ -1,4 +1,4 @@
-## Interface: 80200
+## Interface: 80205
 #classic ## Interface: 11302
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Leveling
 ## Notes: Leveling guides created by the WoW-Pro Community
