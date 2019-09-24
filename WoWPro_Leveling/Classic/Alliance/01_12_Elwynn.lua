@@ -44,10 +44,9 @@ T Tainted Letter|QID|3105|M|49.97,42.65|N|To Drusilla La Salle outside on the ri
 
 A Brotherhood of Thieves|PRE|7|QID|18|R|Human|M|48.17,42.95|N|From Deputy Willem.|
 T Encrypted Letter|QID|3102|M|50.3,39.9|N|To Jorik Kerridan is outside in the barn at the back of the Abbey.\nGrab your lv 2 spell/skill while you're here.|
-C Brotherhood of Thieves|QID|18|M|54.6,41.9|QO|1|N|Kill and loot the Defias mobs for the Red Burlap Bandanas.|S|
 
 C Investigate Echo Ridge|QID|15|M|51.2,37.4|QO|1|N|Kill The Kobold Workers.\nThe Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|US|
-C Brotherhood of Thieves|QID|18|M|54.6,41.9|QO|1|N|Kill and loot the Defias mobs for the Red Burlap Bandanas.|US|
+C Brotherhood of Thieves|QID|18|M|54.6,41.9|QO|1|N|Kill and loot the Defias mobs for the Red Burlap Bandanas.|
 C The Stolen Tome|ACTIVE|1598|M|56.68,43.96|QO|1|N|The Defias thugs have the book at their camp. Find it and pick it up.\nThere are 3 Defias Thugs at the tent that you will pull. Wait until you're at least lv 4 to do this.|NC|US|
 
 T The Stolen Tome|QID|1598|M|49.97,42.65|N|To your class trainer, Drusilla La Salle. Don't forget to do your traing as well.|
