@@ -245,7 +245,7 @@ h Hammerfall|ACTIVE|678|M|73.8,32.6|Z|Arathi Highlands|N|Set your hearthstone at
 A Hammerfall|QID|655|M|72.60,33.90|Z|Arathi Highlands|N|From Gor'mul.|
 T Hammerfall|QID|655|M|74.70,36.30|Z|Arathi Highlands|N|To Tor'gan.|
 A Foul Magics |QID|671|M|74.70,36.30|Z|Arathi Highlands|N|From Tor'gan.|
-A Raising Spirits |QID|672|M|74.70,36.30|Z|Arathi Highlands|
+A Raising Spirits |QID|672|M|74.70,36.30|Z|Arathi Highlands|N|From Tor'gan.|
 
 C Raising Spirits |QID|672|Z|Arathi Highlands|S|N|Kill all the raptors you find on your way: you need 10 Highland Raptor Eyes.|
 R Dabyrie Farmstead|M|57.00,41.00|Z|Arathi Highlands|N|Head west to the Dabyrie Farmstead.|
@@ -260,7 +260,7 @@ T Foul Magics|QID|671|M|74.70,36.30|Z|Arathi Highlands|N|To Tor'gan.|
 T Raising Spirits |QID|672|M|74.70,36.30|Z|Arathi Highlands|N|To Tor'gan.|
 A Raising Spirits |QID|674|M|74.70,36.30|Z|Arathi Highlands|N|From Tor'gan.|
 T Raising Spirits |QID|674|M|72.60,33.90|Z|Arathi Highlands|N|Talk to Gor'mul in the northwest corner of the village.|
-A Raising Spirits |QID|675|Z|Arathi Highlands|N|From Gor'mul.|
+A Raising Spirits |QID|675|M|72.60,33.90|Z|Arathi Highlands|N|From Gor'mul.|
 T Raising Spirits |QID|675|M|74.70,36.30|Z|Arathi Highlands|N|Go back to Torgan.|
 A Guile of the Raptor |QID|701|M|74.70,36.30|Z|Arathi Highlands|N|From Tor'gan.|
 r Sell Junk, Restock, Repair|ACTIVE|701|N|Clear out the bags, stock up on reagents, and we are off again.|
@@ -273,7 +273,7 @@ T Guile of the Raptor |QID|701|M|74.70,36.30|Z|Arathi Highlands|N|To Tor'gan.|
 A Guile of the Raptor |QID|702|M|74.70,36.30|Z|Arathi Highlands|N|From Tor'gan.|
 T Guile of the Raptor |QID|702|M|72.60,33.90|Z|Arathi Highlands|N|Go to Gor'mul, the npc close to the forge.|
 A Guile of the Raptor |QID|847|M|72.60,33.90|Z|Arathi Highlands|N|Wait a few seconds then he will have a quest up for you.|
-T Guile of the Raptor |QID|847|M|74.70,36.30|Z|Arathi Highlands|N|To Gor'mul.|
+T Guile of the Raptor |QID|847|M|74.70,36.30|Z|Arathi Highlands|N|To Tor'gan.|
 T Call to Arms |QID|678|M|74.20,33.90|Z|Arathi Highlands|N|To Drum Fel.|
 A Call to Arms |QID|679|M|74.20,33.90|Z|Arathi Highlands|N|From Drum Fel.|
 T Sigil of Strom|QID|639|M|73.8,33.8|Z|Arathi Highlands|N|To Zengu.|
@@ -285,12 +285,12 @@ A Alliance Relations |QID|1431|M|45.30,51.60|Z|Orgrimmar|N|Go to the Cleft of Sh
 T Alliance Relations |QID|1431|M|22.30,53.80|Z|Orgrimmar|N|To Keldran who can be found near the western exit of Orgrimmar, in the last hut before the exit.|
 A Alliance Relations |QID|1432|M|22.30,53.80|Z|Orgrimmar|N|From Keldran.|
 
-F Freewind Post|ACTIVE|1136|M|45.2,63.8|N|At Doras, Wind Rider Master.|
+F Freewind Post|AVAILABLE|5361|M|45.2,63.8|Z|Orgrimmar|N|At Doras, Wind Rider Master.|
 A Family Tree|QID|5361|M|45.60,50.80|N|From Cliffwatcher Longhorn.|
 
-F Thunder Bluff|QID|1136|M|45.2,63.8|N|At Doras, Wind Rider Master.|
+F Thunder Bluff|ACTIVE|1136|M|45.2,49.2|Z|Thousand Needles|N|At Nyse, Wind Rider Master.|
 T Frostmaw|QID|1136|M|61.50,80.90|Z|Thunder Bluff|N|To Melor Stonehoof on Hunters Rise.|
-L Level Check|LVL|37|ACTIVE|5361|
+L Level Check|LVL|37|
 A Dreadmire|QID|1205|M|61.50,80.90|Z|Thunder Bluff|N|From Melor Stonehoof.|RANK|2| ;Jame said skip this... putting it in, but at Rank 2 for now
 
 ; === 002_37_38_Jame_Desolace.lua ===
