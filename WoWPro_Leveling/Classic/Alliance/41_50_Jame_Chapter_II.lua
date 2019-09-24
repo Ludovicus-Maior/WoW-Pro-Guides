@@ -94,9 +94,15 @@ K King Bangalash|ACTIVE|208|QO|1|M|38,37|T|King Bangalash|N|Very difficult fight
 T Big Game Hunter|QID|208|PRE|193&197&188|M|35.6,10.6|N|To Hemet Nesingwary.|
     
 R Rebel Camp|ACTIVE|207|M|37.8,3.4|N|Run on past the Rebel camp to the Kurzen compound.|
+A Colonel Kurzen|QID|202|M|38.0,3.1|Z|Stranglethorn Vale|N|From Lieutenant Doren.|
+A Kurzen's Mystery|QID|207|M|38.0,3.1|Z|Stranglethorn Vale|N|From Brother Nimetz.|
 C Kurzen Subchiefs & Elites|QID|202|QO|1;2|M|49,7|S|N|Kill the Elites and Subchiefs needed for the quest.|
 K Colonel Kurzen|ACTIVE|202|QO|3|M|49.44,4|T|Colonel Kurzen|N|Be sure to get the Colonel too.|
 C Kurzen Subchiefs & Elites|QID|202|QO|1;2|M|49,7|US|N|Finish killing the Elites and Subchiefs needed for the quest.|
+C Fall of Gurubashi|QID|207|QO|3|M|24.70,8.90|NC|N|Go back to the fork and take the ramp up to the right, then uturn at top to find and loot the scroll from this location.|
+C The Emperor's Tomb|QID|207|QO|4|M|21,10;22.90,12.00|CS|NC|N|Into the ruins, left and up the ramp at the first fork. Loot the scroll from this location.|
+C "Gri"lek the Wanderer|QID|207|QO|2|M|24.75,22.86|NC|N|Loot the scroll from the tablet underwater at this location.|
+C Moon Over the Vale|QID|207|QO|1|M|29.50,19.10|NC|N|Loot the scroll from the Tablet at this location.|
 T Kurzen's Mystery|QID|207|M|37.8,3.4|N|To Brother Nimetz.|
 T Colonel Kurzen|QID|202|M|38,3|N|To Lieutenant Doren.|
     
@@ -287,7 +293,7 @@ A Rise of the Silithid|QID|4267|M|30.3,46.2|Z|Feralas|N|From Shandris Feathermoo
 
 F Rut'theran Village|ACTIVE|3022|M|30.20,43.20|Z|Feralas|N|Fly to Rut'theran Village.|TAXI|Rut'theran Village|
 F Auberdine|ACTIVE|3022|M|30.20,43.20|Z|Feralas|N|Fly to Auberdine.|TAXI|-Rut'theran Village|
-b The Moonspray|ACTIVE|3022|33.2, 40.2|Z|Darkshore|N|Go to the pier and take 'The Moonspray' (ship on the right) to Rut'theran Village.|TAXI|-Rut'theran Village|
+b The Moonspray|ACTIVE|3022|M|33.2, 40.2|Z|Darkshore|N|Go to the pier and take 'The Moonspray' (ship on the right) to Rut'theran Village.|TAXI|-Rut'theran Village|
 
 T Handle With Care|QID|3022|M|55.5,92.0|Z|Teldrassil|N|To Erelas Ambersky.|
 A Favored of Elune?|QID|3661|M|55.5,92.0|Z|Teldrassil|N|From Erelas Ambersky.|PRE|3022|

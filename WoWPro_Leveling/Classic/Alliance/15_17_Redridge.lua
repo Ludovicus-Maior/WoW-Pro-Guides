@@ -8,10 +8,31 @@ WoWPro:GuideLevels(guide, 15, 17, 16)
 WoWPro:GuideNextGuide(guide, 'ClassicWestfall1820')
 WoWPro:GuideSteps(guide, function () return [[
 ;-------------------------- incorporated into Elywnn guide-----------------------------------------
+N Half Pendant of Aquatic Agility|ACTIVE|272|C|Druid|L|15883|N|You will need the first half of the pendant. Grab it before you leave SW.|
+
 R Elwynn Forest|QID|244|N|Go to Elwynn Forest|Z|Stormwind City|M|76.00,94.00|
+
 A The Defias Brotherhood|QID|65|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle. This is a bit out of the way but required if you want the deadmines quests. Plus you will fly here a lot.|
 f Sentinel Hill|QID|118|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
-R Redridge Mountains|QID|244|N|Go to Redridge Mountains|Z|Elwynn Forest|M|93.00,72.00|
+
+; Completion of Druid swim form quest chain.
+N Trial of the Sea Lion (Part 2)|ACTIVE|272|C|Druid|N|At this point, you're now going to finish up your swim form quest chain.|
+R Longshore|ACTIVE|272|C|Druid|M|26.90,40.00|Z|Westfall|N|Run to the shoreline.|
+l Trial of the Sea Lion (Part 2)|ACTIVE|272|C|Druid|M|17.91,33.10|Z|Westfall|L|15882|N|Once you have reached the location, dive under the water and open the chest. There is an air fissure beside it. You will not drown.|
+P Moonglade|ACTIVE|272|C|Druid|Z|Moonglade|N|Use your Moonglade portal spell.|
+C Trial of the Sea Lion|ACTIVE|272|C|Druid|M|35.90,41.25|Z|Moonglade|QO|1|N|Head to the Shrine of Remulos and combine the 2 halves of the pendant to form the Pendant of the Sea Lion.|U|15883|NC|
+T Trial of the Sea Lion|ACTIVE|272|C|Druid|M|56.21,30.62|Z|Moonglade|N|Run back to Dendrite Starblaze or use your Moonglade portal.|
+A Aquatic Form|QID|5061|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|272|
+F Rut'theran Village|ACTIVE|5061|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
+R Darnassus|ACTIVE|5061|C|Druid|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.|
+T Aquatic Form|QID|5061|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
+N Aquatic Form|AVAILABLE|-5061|C|Druid|N|This completes your Druid class quests. You can now rejoin the guide where you left off.|
+R Rut'theran Village|QID|244|C|Druid|M|30.05,41.31|Z|Darnassus|N|Run to Rut'theran Village through the portal.|
+F Auberdine|QID|244|C|Druid|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
+b Wetlands|QID|244|C|Druid||M|32.42,43.74|Z|Darkshore|N|Get on the boat to Menethil (read the sign post).|
+F Sentinel Hill|QID|244|M|56.55,52.65|Z|Westfall|N|Fly to Sentinel Hill and pick up where you left.|
+
+R Redridge Mountains|QID|244|M|93.00,72.00|Z|Elwynn Forest|N|Go to Redridge Mountains|
 A Encroaching Gnolls|QID|244|M|15.3,71.5|N|From Guard Parker.|
 T Encroaching Gnolls|QID|244|M|30.7,60.0|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|M|30.7,60.0|N|From Deputy Feldon.|PRE|244|
@@ -19,6 +40,7 @@ f Lakeshire|AVAILABLE|118|M|30.60,59.40|N|Get the flight path from Ariena Stormf
 A The Price of Shoes|QID|118|M|31.0,47.3|N|From Verner Osgood.|
 A Elmore's Task|QID|1097|M|31.00,47.30|N|From Verner Osgood.|
 ;------------------end duplicated content (Westfall ends with flight to  Lakeshire )----------------
+
 A The Lost Tools|QID|125|M|32.14,48.64|N|From Foreman Oslow.|
 A The Price of Shoes|QID|118|M|31.0,47.3|N|From Verner Osgood.|;if coming from gnome/dwarf starter guide
 T Return to Verner|QID|119|M|31.00,47.30|N|To Verner Osgood.|ACTIVE|125|;if coming from human starter guide

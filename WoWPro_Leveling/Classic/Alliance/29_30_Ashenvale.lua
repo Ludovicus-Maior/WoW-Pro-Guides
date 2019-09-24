@@ -4,7 +4,7 @@
 local guide = WoWPro:RegisterGuide('ClassicAshenvale2930', 'Leveling', 'Ashenvale', 'Elidion', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Ashenvale 29-30')
 WoWPro:GuideLevels(guide, 29, 30, 29)
-WoWPro:GuideNextGuide(guide, 'JameAlli_I')
+WoWPro:GuideNextGuide(guide, 'ElidionAlli_I')
 WoWPro:GuideSteps(guide, function() return [[
 b Darkshore|QID|1022|M|4.61,57.07|Z|Wetlands|N|Take Boat to Auberdine.|
 F Astranaar|QID|1022|M|36.30,45.60|Z|Darkshore|N|Fly to Astranaar.|

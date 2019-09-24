@@ -14,7 +14,7 @@ f Orgrimmar|QID|1483|M|45.30,63.90|Z|Orgrimmar|N|If you don't have this flight p
 A Call of Water|QID|1528|C|Shaman|M|38.06,37.38|Z|Orgrimmar|N|From Searn Firewarder.|
 
 F Ratchet|AVAILABLE|1483|M|45.2,63.8|Z|Orgrimmar|N|Fly to Ratchet.|TAXI|Ratchet|
-F The Crossroads|AVAILABLE|1483|M|45.2,63.8|Z|Orgrimmar|TAXI|The Crossroads|
+F Crossroads|AVAILABLE|1483|M|45.2,63.8|Z|Orgrimmar|TAXI|The Crossroads|
 R The Barrens|QID|1483|M|34.20,42.20|Z|The Barrens|N|Its a bit of a run, but reasonably safe.|TAXI|-The Crossroads|
 R The Crossroads|QID|1483|M|52.00,30.60|Z|The Barrens|TAXI|-The Crossroads|
 f The Crossroads|QID|1483|M|51.50,30.30|Z|The Barrens|
@@ -33,7 +33,7 @@ A Call of Water|QID|1535|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
 C Call of Water|QID|1535|C|Shaman|QO|1|M|44.08,76.69|Z|The Barrens|N|Filled Brown Waterskin|
 T Call of Water|QID|1535|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
 A Call of Water|QID|1536|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
-F The Crossroads|QID|1492|C|Shaman|M|51.50,30.30|Z|The Barrens|
+F Crossroads|QID|1492|C|Shaman|M|51.50,30.30|Z|The Barrens|
 ; -----------------------------------------------------------------------------
 
 f The Crossroads|QID|1062|M|51.50,30.30|Z|The Barrens|
@@ -71,7 +71,7 @@ T Boulderslide Ravine|QID|6421|M|45.03,61.12;44.66,62.92;47.18,64.06|Z|Stonetalo
 
 
 F Splintertree Post|QID|6383|M|45.20,59.80|Z|The Barrens|N|Fly to Splintertree Post.|TAXI|Splintertree Post|
-F The Crossroads|QID|6383|M|45.20,59.80|Z|The Barrens|N|Since you don't have the Splintertree Post, we will get as close as we can.|TAXI|-Splintertree Post|
+F Crossroads|QID|6383|M|45.20,59.80|Z|The Barrens|N|Since you don't have the Splintertree Post, we will get as close as we can.|TAXI|-Splintertree Post|
 R Splintertree Post|QID|6383|M|45.20,59.80|Z|The Barrens|N|Follow the path north until you reach Ashenvale Forest. Continue further north until the path forks, there go east until you reach Splintertree Post.|TAXI|-Splintertree Post|
 f Splintertree Post|QID|235|M|73.20,61.60|Z|Ashenvale|
 C The Ashenvale Hunt|QID|235|Z|Ashenvale|M|73.74,61.46|
@@ -265,7 +265,7 @@ A Deep Cover|QID|2458|PRE|2460|C|Rogue|Z|The Barrens|O|
 A Speak with Ruga|QID|1823|C|Warrior|M|80.20,32.40|Z|Orgrimmar|
 ; -----------------------------------------------------------------------------
 
-F The Crossroads|QID|5052|M|45.30,63.90|Z|Orgrimmar|
+F Crossroads|QID|5052|M|45.30,63.90|Z|Orgrimmar|
 A Egg Hunt|QID|868|M|51.10,29.60|Z|The Barrens|N|From Korran|
 
 ; -----Class Quest------------------------------------------------------------------------
@@ -346,7 +346,7 @@ T Betrayal from Within |QID|879|M|44.60,59.20|Z|The Barrens|N|To Mangletooth|
 A Betrayal from Within |QID|906|PRE|879|M|44.60,59.20|Z|The Barrens|N|From Mangletooth|
 T The Harvester|QID|897|Z|The Barrens|O|
 
-F The Crossroads|QID|868|M|44.40,59.10|Z|The Barrens|N|To Jorn Skyseer|
+F Crossroads|QID|868|M|44.40,59.10|Z|The Barrens|N|To Jorn Skyseer|
 T Egg Hunt|QID|868|M|51.10,29.60|Z|The Barrens|N|To Korran|
 T Betrayal from Within |QID|906|PRE|879|M|51.50,30.90|Z|The Barrens|N|To Thork|
 
@@ -551,7 +551,7 @@ T Waters of Xavian|QID|1944|C|Mage|Z|Orgrimmar|M|38.5,86.1|
 A Laughing Sisters|QID|1945|PRE|1944|C|Mage|Z|Orgrimmar|M|38.5,86.1|
 F Splintertree Post|QID|1945|C|Mage|M|45.30,63.90|Z|Orgrimmar|
 C Laughing Sisters|QID|1945|C|Mage|M|60.00,53.00|Z|Ashenvale|N|Head to Raynewood Retreat, west of Splintertree Post, and kill Laughing Sisters for their hair.|
-F The Crossroads|QID|1945|C|Mage|M|73.20,61.60|Z|Ashenvale|
+F Crossroads|QID|1945|C|Mage|M|73.20,61.60|Z|Ashenvale|
 T Laughing Sisters|QID|1945|C|Mage|Z|The Barrens|M|52.2,73.1|
 A Nether-lace Garment|QID|1946|PRE|1945|C|Mage|Z|Ashenvale|N|Accept/Complete the next quest to receive your new robe or tunic.|
 T Nether-lace Garment|QID|1946|C|Mage|Z|The Barrens|N|Accept/Complete the next quest to receive your new robe or tunic.|
