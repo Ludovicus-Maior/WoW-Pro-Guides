@@ -100,15 +100,13 @@ T In Favor of Darkness|QID|5651|C|Priest|M|61.57,52.19|N|At Dark Cleric Beryl at
 A Garments of Darkness|QID|5650|C|Priest|N|From Dark Cleric Beryl|
 C Garments of Darkness|QID|5650|C|Priest|M|59.18,46.49|N|Go north. Heal Deathguard Kel and give Power Word: Fortitude to him.|
 
-C A New Plague|QID|367|QO|1|N|Kill Decrepit Darkhounds and Cursed Darkhounds|S!US|
-C A Putrid Task|QID|404|M|53.42,55.96|N|Go south-west to Cold Hearth Mannor  while killing Ravaged Corpses and Rotting Deads for Putrid Claws.|
-A A Rogue's Deal|QID|590|M|38.26,56.79|N|Follow the road west to Deathknell to Calvin Montague. Prepare for a fight and AFTER THAT accept his quest. NOTE: This will trigger you for PVP. Don't forget to kill Darkhounds on your way.|
+C A New Plague|QID|367|QO|1|N|Kill Decrepit and Cursed Darkhounds for the Darkhound Blood.|S!US|
+C A Putrid Task|QID|404|M|53.42,55.96|QO|1|N|Starting aound the area of Cold Hearth Mannor, you begin to see Ravaged Corpses and Rotting Deads to kill for Putrid Claws.|S!US|
+A A Rogue's Deal|QID|590|M|38.26,56.79|N|Follow the road west to Deathknell to Calvin Montague. Prepare for a fight and AFTER THAT accept his quest.\nNOTE: This will temporarily trigger you for PVP.|
 T A Rogue's Deal|QID|590|M|38.26,56.79|N|Just wait for him to finish eating and turn in the quest.|
-C A New Plague|QID|367|M|48.54,60.10|N|Kill Darkhounds to collect the remaining Darkhound Blood.|
 C At War With The Scarlet Crusade|QID|427|M|37.59,48.09;32.86,47.47|CC|N|Go north-west to Solliden Farmstead  and go west while killing 10 Scarlet Warriors.|
 
-
-
+H Gallows' End Tavern|ACTIVE|404|N|Hearth back to Brill or grind your way back.\nIf you still have sticky quests left, walk back until they are completed and then hearth back.|
 T A Putrid Task|QID|404|M|58.20,51.45|N|To Deathguard Dillinger.|
 A The Mills Overrun|QID|426|M|58.2,51.4|N|From Deathguard Dillinger.|
 T A New Plague|QID|367|M|59.44,52.39|N|At Apothecary Johaan.|
@@ -128,7 +126,7 @@ T At War With The Scarlet Crusade|QID|370|M|60.57,51.77|N|To Executor Zygand in 
 A At War With The Scarlet Crusade|QID|371|M|60.6,51.8|N|From Executor Zygand in Brill.|
 B Coarse Thread|QID|375|M|61.02,52.37|L|2320|N|At Abigail Shiel in front of the wagon.|
 T The Chill of Death|QID|375|M|61.89,52.71|N|To Gretchen Dedmar at the top floor of the inn.|
-C Gordo's Task|QID|5481|M|52.9,52.1|N|Finish gathering Gloom Weed|
+C Gordo's Task|QID|5481|M|52.9,52.1|N|Finish gathering Gloom Weed|US|
 T Gordo's Task|QID|5481|M|57.67,48.96|N|North at Junior Apothecary Holland in the cemetary, around the fountain.|
 A Doom Weed|QID|5482|M|57.6,48.7|N|From Junior Apothecary Holland|
 
