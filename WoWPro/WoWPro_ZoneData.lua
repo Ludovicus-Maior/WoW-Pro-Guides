@@ -59,8 +59,9 @@ DefineZone1(1458, "Undercity", Enum.UIMapType.Zone, 1415, nil)
 DefineZone1(1459, "Alterac Valley", Enum.UIMapType.Zone, 0947, nil)
 DefineZone1(1460, "Warsong Gulch", Enum.UIMapType.Zone, 0947, nil)
 DefineZone1(1461, "Arathi Basin", Enum.UIMapType.Zone, 0947, nil)
-DefineZone1(1463, "Eastern Kingdoms#1463", Enum.UIMapType.Continent, 0000, nil)
-DefineZone1(1464, "Kalimdor#1464", Enum.UIMapType.Continent, 0000, nil)
+DefineZone1(1463, "Eastern Kingdoms", Enum.UIMapType.Continent, 0000, nil)
+DefineZone1(1464, "Kalimdor", Enum.UIMapType.Continent, 0000, nil)
+
 
 DefineZone8(0001, "Durotar", Enum.UIMapType.Zone, 0012, nil, 0002, 0003, 0004, 0005, 0006, 0461, 0463, 0464)
 DefineZone8(0002, "Burning Blade Coven", Enum.UIMapType.Micro, 0001, nil)
