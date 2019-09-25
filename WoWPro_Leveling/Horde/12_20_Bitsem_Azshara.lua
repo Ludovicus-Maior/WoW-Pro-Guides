@@ -191,7 +191,7 @@ A A Quota to Meet|QID|14197|M|29.21,66.44|N|From Foreman Fisk, who wanders.|
 C A Quota to Meet|QID|14197|S|M|23.20,67.44|N|Gather 20 ingots of Mountainfoot Iron.|NC|
 
 C Basilisk Bashin'|QID|14161|M|25.50,68.50|N|Kill Greystone Basilisks while you search for a stonified Mountainfoot Miner at the Mountainfoot Strip Mine.|
-N Stone Cold|QID|14165|NC|M|26.56,68.50|N|Seek out a Mountainfoot Miner.|BUFF|67032^91695^69619|
+N Stone Cold|QID|14165|NC|M|26.56,68.50|N|Seek out a Mountainfoot Miner.|BUFF|67032;91695;69619|
 C Stone Cold|QID|14165|NC|M|26.56,68.50|N|With the Goblin on your back, head back to Horzak Zignibble. \nNote: You will lose the goblin if you mount. |
 
 T Basilisk Bashin'|QID|14161|M|29.15,66.24|N|To Horzak Zignibble.|
