@@ -107,43 +107,47 @@ T A Rogue's Deal|QID|590|M|38.26,56.79|N|Just wait for him to finish eating and 
 C At War With The Scarlet Crusade|QID|427|M|37.59,48.09;32.86,47.47|CC|N|Go north-west to Solliden Farmstead  and go west while killing 10 Scarlet Warriors.|
 
 H Gallows' End Tavern|ACTIVE|404|N|Hearth back to Brill or grind your way back.\nIf you still have sticky quests left, walk back until they are completed and then hearth back.|
+R Housekeeping|QID|404|M|60.32,52.81|N|Stop by and visit Eliza Callen to sell and repair. Visit your trainers if you need to.||
+
 T A Putrid Task|QID|404|M|58.20,51.45|N|To Deathguard Dillinger.|
-A The Mills Overrun|QID|426|M|58.2,51.4|N|From Deathguard Dillinger.|
+A The Mills Overrun|QID|426|M|58.2,51.4|N|From Deathguard Dillinger.|PRE|404|
 T A New Plague|QID|367|M|59.44,52.39|N|At Apothecary Johaan.|
-A A New Plague|QID|368|M|59.4,52.4|N|At Apothecary Johaan.|
+A A New Plague|QID|368|M|59.4,52.4|N|At Apothecary Johaan.|PRE|367|
 T At War With The Scarlet Crusade|QID|427|M|60.57,51.77|N|At Executor Zygand.|
-A At War With The Scarlet Crusade|QID|370|M|60.6,51.8|
+A At War With The Scarlet Crusade|QID|370|M|60.6,51.8|PRE|427|
 T Garments of Darkness|QID|5650|C|Priest|M|61.57,52.19|N|At Dark Cleric Beryl at the top floor of the inn.|
 A Proof of Demise|QID|374|M|60.93,51.98|N|From Deathguard Burgess.|
 A The Chill of Death|QID|375|M|61.89,52.71|N|From Gretchen Dedmar at the top floor of the inn.|
 A Deaths in the Family|QID|354|M|61.71,52.31|N|From Coleman Farthing at the ground floor the inn.|
 A The Haunted Mills|QID|362|M|61.71,52.31|N|From Coleman Farthing at the ground floor the inn.|
 
-C At War With The Scarlet Crusade|QID|370|M|51.21,67.76|N|Kill your way to Captain Perrine inside the tower, then kill more scarlets until done|
-K Duskbats|QID|375|M|56.00,60.00|QO|1|N|Kill Duskbats around the area southwest of Brill  until you have 5 Duskbat Pelts.|
+K Duskbats|QID|375|M|56.00,60.00|QO|1|N|Kill Duskbats around the area southwest of Brill until you have 5 Duskbat Pelts.|S|
+C At War With The Scarlet Crusade|QID|370|M|51.21,67.76|QO|1;2;3|N|Kill your way to Captain Perrine inside the tower, then kill more scarlets until done|
 
 T At War With The Scarlet Crusade|QID|370|M|60.57,51.77|N|To Executor Zygand in Brill.|
-A At War With The Scarlet Crusade|QID|371|M|60.6,51.8|N|From Executor Zygand in Brill.|
+A At War With The Scarlet Crusade|QID|371|M|60.6,51.8|N|From Executor Zygand in Brill.|PRE|370|
 B Coarse Thread|QID|375|M|61.02,52.37|L|2320|N|At Abigail Shiel in front of the wagon.|
 T The Chill of Death|QID|375|M|61.89,52.71|N|To Gretchen Dedmar at the top floor of the inn.|
 C Gordo's Task|QID|5481|M|52.9,52.1|N|Finish gathering Gloom Weed|US|
 T Gordo's Task|QID|5481|M|57.67,48.96|N|North at Junior Apothecary Holland in the cemetary, around the fountain.|
-A Doom Weed|QID|5482|M|57.6,48.7|N|From Junior Apothecary Holland|
+A Doom Weed|QID|5482|M|57.6,48.7|N|From Junior Apothecary Holland|PRE|5481|
 
-C Graverobbers|QID|358|S|
-C Wanted: Maggot Eye|QID|398|M|58.68,30.74|L|3635|N|NOTE: Maggot Eye is level 10. Pull the mobs outside the house one at a time. Casters: clear the field around the fence and pull him at max range. Melee: fight him inside the house.|
-C A New Plague|QID|368|M|59.64,29.94|N|The murlocs are at The North Coast.|
-C Doom Weed|QID|5482|M|55.91,41.19|N|Pick Doom weed around here.|
-C Graverobbers|QID|358|M|60.8,34.0;56,40|US|CN|N|Graverobbers are at the place you looted doomweed, Mongrels are at the farm.|
+R Housekeeping|QID|404|M|60.32,52.81|N|Stop by and visit Eliza Callen to sell and repair. Visit your trainers if you need to.|
+
+C Graverobbers|QID|358|M|56.42,46.35|CN|QO|2;1;3|N|Take your time killing these. You'll be in the area for a little while.|S|
+C Wanted: Maggot Eye|QID|398|M|58.68,30.74|L|3635|N|NOTE: Maggot Eye is level 10. Pull the mobs outside the house one at a time.\nCasters: clear the field around the fence and pull him at max range.\nMelee: fight him inside the house.|
+C A New Plague|QID|368|M|59.64,29.94|QO|1|N|The murlocs are at The North Coast.|
+C Doom Weed|QID|5482|M|55.91,41.19|QO|1|N|Pick Doom weed around here.\nThe Doom weed also leads you to where you will find the Rot Hide Graverobbers.|
+C Graverobbers|QID|358|US|QO|1;2;3|N|By this point, you should only have Graverobbers left to kill. You can finish collecting the Embalming Fluid from them. If you still need them, the Mongrels are back at the farm.|
 
 T Doom Weed|QID|5482|M|57.67,48.96|N|At Junior Apothecary Holland, around the fountain.|
 
-R Agamand Mills|QID|362|M|45.62,41.87|N|Run north-west to Agamand Mills|
-C The Mills Overrun|QID|426|S|
-K Devlin Agamand|QID|362|M|47.41,41.71|L|2831|N|Kill him and loot Devlin's Remains. NOTE: Devin Agamand is a melee fighter despite his appearance.|
-K Nissa Agamand|QID|354|M|49.35,36.02|L|2828|N|Find her in the house to the east. Kill her and loot Nissa's Remains. NOTE: You will either find her in the doorway or inside the building. She might be tough for some classes so make sure you clear the area before you attack her.|
-K Gregor Agamand|QID|354|M|45.78,29.40|L|2829|N|Continue north-west to  where you should find Gregor Agamand. Kill him and loot Gregor's Remains. NOTE: He hits hard but should be soloable if you make sure to pull him alone.|
-K Thurman Agamand|QID|354|M|44.02,33.77|L|2830|N|Slightly south-west near a windmill you should find Thurman Agamand. Kill him and loot Thurman's Remains.|
+R Agamand Mills|QID|362|M|47.68,43.26|N|Run north-west to Agamand Mills. Unless you are looking to grind your way across, stick to the mountain edge.|
+C The Mills Overrun|QID|426|QO|1;2|N|Kill Darkeye Bonecasters for the Ribs and Rattlecage Soldiers for the ribs.|S|
+K Devlin Agamand|QID|362|M|47.41,41.71|QO|1|N|Kill him and loot Devlin's Remains. NOTE: Devin Agamand is a melee fighter despite his appearance.|
+K Nissa Agamand|QID|354|M|49.35,36.02|QO|1|N|Find her in the house to the east. Kill her and loot Nissa's Remains. NOTE: You will either find her in the doorway or inside the building. She might be tough for some classes so make sure you clear the area before you attack her.|
+K Gregor Agamand|QID|354|M|45.78,29.40|QO|1|N|Continue north-west to where you should find Gregor Agamand. Kill him and loot Gregor's Remains. NOTE: He hits hard but should be soloable if you make sure to pull him alone.|
+K Thurman Agamand|QID|354|M|44.02,33.77|QO|1|N|Slightly south-west near a windmill you should find Thurman Agamand. Kill him and loot Thurman's Remains.|
 C The Mills Overrun|QID|426|M|48.4,42.1|N|Kill mobs here until you complete this quest.|US|
 H Gallows' End Tavern|QID|361|U|6948|N|Hearthstone back to Brill.|
 
