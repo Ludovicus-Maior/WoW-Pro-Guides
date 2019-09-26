@@ -17,7 +17,7 @@ return [[
 ;-----lvl---40---------------
 N Things to Buy|N|There are some items that you need to buy off of the Auction House or otherwise acquire. Badlands quest - approx level 42.|
 B Frost Oil|QID|713|S!US|L|3829|N|Crafted with Alchemy.|
-B Gyrochronatom|QID|714|S!US|L|3961|N|Crafted with Engineering.|
+B Gyrochronatom|QID|714|S!US|L|4389|N|Crafted with Engineering.|
 B Patterned Bronze Bracers|QID|716|S!US|L|2868|N|Crafted with Blacksmithing.|
 
 b Grom'gol outpost|ACTIVE|669|M|50.8,13.6|Z|Durotar|N|Take the zep to the the Grom'gol outpost.|
