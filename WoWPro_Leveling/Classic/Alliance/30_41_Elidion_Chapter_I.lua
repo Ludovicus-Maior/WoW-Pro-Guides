@@ -9,9 +9,9 @@ return [[
 
 N Things to Buy|QID|1282|N|There are some items that you need to buy off of the Auction House or otherwise acquire.  The guide will remind you each time you are in town until you aquire them, check off manually if you aren't going to at that time and it will pop up again, next time you're in town. first one for a quest in stranglethorn and the other three are needed for Badlands quest - approx level 38-40. These quests are not essential for dungeons, just a fair chunk of XP, so if you can't find the items at a reasonable price, you can skip the quests and grind to make it up.|
 B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn.|ITEM|4278|
-B Frost Oil|QID|1282|L|3829|N|Crafted with Alchemy.|ITEM|3829|
-B Gyrochronatom|QID|1282|L|4389|N|Crafted with Engineering.|ITEM|4389|
-B Patterned Bronze Bracers|QID|1282|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
+B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
+B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
+B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 
 R Theramore Isle|QID|1282|M|58.40,94.00|Z|Dustwallow Marsh|N|Fly/Boat/Run or otherwise make your way to Theramore.|
 f Theramore Flightpoint|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Get the Flightpoint from Baldruc.|
@@ -145,7 +145,7 @@ T Supplies to Private Thorsen|QID|198|M|37.98,3.41|Z|Stranglethorn Vale|N|To Pri
 A The Second Rebellion|QID|203|M|38.02,3.33|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
 A Bad Medicine|QID|204|M|38.02,3.33|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|
 A Krazek's Cookery|QID|210|M|37.74,3.30|Z|Stranglethorn Vale|N|From Corporal Kaleb.|
-N From now on...|QID|5762|N|From now on, keep any Green Hills of Stranglethorn pages you find. (bank is fine)|
+N From now on...|QID|338|N|From now on, keep any Green Hills of Stranglethorn pages you find. (bank is fine)|
 
 R Nesingwary's Expedition|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|Head west along the road and then south. Once in stranglthorn cross the bridge and head west to the camp|
 A Welcome to the Jungle|QID|583|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
@@ -163,7 +163,7 @@ C Bad Medicine|QID|204|M|44.00,11.00|Z|Stranglethorn Vale|QO|1|N|Loot the Jungle
 C Panther Mastery|QID|190|M|41.00,10.00|Z|Stranglethorn Vale|US|N|Finish your Young Panther kills since they spawn in the area.|
 T The Second Rebellion|QID|203|M|38.02,3.33|Z|Stranglethorn Vale|N|To Sergeant Yohwa.|
 T Bad Medicine|QID|204|M|38.02,3.33|Z|Stranglethorn Vale|N|To Sergeant Yohwa. Don't get follow-up.|
-A Kurzen's Mystery|QID|207|M|37.83,3.56|Z|Stranglethorn Vale|N|From Brother Nimetz.|
+A Kurzen's Mystery|QID|207|M|37.83,3.56|Z|Stranglethorn Vale|N|From Brother Nimetz.|PRE|202|
 C Tiger Mastery|QID|185|M|33.66,11|Z|Stranglethorn Vale|US|N|Kill the rest of the Young Tigers you need for Tiger Mastery.|
 T Tiger Mastery|QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 A Tiger Mastery|QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|185|
@@ -192,7 +192,7 @@ T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwar
 
 C Supply and Demand|QID|575|M|40.6,13.3|Z|Stranglethorn Vale|US|N|Kill River Crocolisks and loot their skins.|
 A The Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot. You must have this quest for the chapter quests to show up.|
-N Green Hills of Stranglethorn|QID|605|M|35.66,10.53|Z|Stranglethorn Vale|N|In an effort to not clutter your quest log, only accept any Green Hills of Stranglethorn quests that you can turn in while you are here. You won't be directed to accept any of these quests.\n\nChapter 1: Pages 1, 4, 6, 8\nChapter 2: Pages 10, 11, 14, 16\nChapter 3: Pages 18, 20, 21, 24\nChapter 4: Pages 25, 26, 27|
+N Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|Stranglethorn Vale|N|In an effort to not clutter your quest log, only accept any Green Hills of Stranglethorn quests that you can turn in while you are here. You won't be directed to accept any of these quests.\n\nChapter 1: Pages 1, 4, 6, 8\nChapter 2: Pages 10, 11, 14, 16\nChapter 3: Pages 18, 20, 21, 24\nChapter 4: Pages 25, 26, 27|
 r Repair and Sell|QID|605|M|35.76,10.66|Z|Stranglethorn Vale|N|Bags will get full quickly here. |
 T Kurzen's Mystery|QID|207|M|37.83,3.56|N|To Brother Nimetz.|
 
@@ -365,9 +365,9 @@ R Cathedral of Light|QID|622|M|43.06,34.42|Z|Stormwind City|N|Toward the Cathedr
 A Brother Anton|QID|6141|M|42.58,24.23|Z|Stormwind City|N|From Brother Crowley downstairs in the Cathedral of Light.|
 A Morgan Stern|QID|1260|M|41.50,89.39|Z|Stormwind City|N|From Angus Stern in the Blue Recluse.|
 r Repair, restock, train|QID|622|M|54.92,63.77|Z|Stormwind City|N|We are going to Stranglethorn if you banked your green hills of stranglethorn pages you may want to grab them if you got the bag space. There is a bank in Booty Bay if you need.|
-B Patterned Bronze Bracers|QID|622|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
-B Frost Oil|QID|622|L|3829|N|Crafted with Alchemy.|ITEM|3829|
-B Gyrochronatom|QID|622|L|4389|N|Crafted with Engineering.|ITEM|4389|
+B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
+B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
+B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
 
 F Booty Bay|QID|622|N|Fly back to Booty Bay.|Z|Stormwind City|M|71,72.6|
 A Return to Corporal Kaleb|QID|622|M|26.94,77.21|PRE|627|Z|Stranglethorn Vale|N|From Krazek.|
@@ -421,7 +421,7 @@ C Special Forces|QID|574|M|46.16,7.92|Z|Stranglethorn Vale|N|Kill Kurzen in and 
 T Special Forces|QID|574|M|38.04,3.01|Z|Stranglethorn Vale|N|To Lieutenant Doren, in the Rebel Camp. Don'te get follow-up.|
 T Tiger Mastery|QID|188|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 T Panther Mastery|QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin. Don't get follow-up.|
-N Green Hills of Stranglethorn|QID|213|M|35.66,10.53|Z|Stranglethorn Vale|N|In an effort to not clutter your quest log, only accept any Green Hills of Stranglethorn quests that you can turn in while you are here. You won't be directed to accept any of these quests.\n\nChapter 1: Pages 1, 4, 6, 8\nChapter 2: Pages 10, 11, 14, 16\nChapter 3: Pages 18, 20, 21, 24\nChapter 4: Pages 25, 26, 27\n\nClose this step when you're done.|
+N Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|Stranglethorn Vale|N|In an effort to not clutter your quest log, only accept any Green Hills of Stranglethorn quests that you can turn in while you are here. You won't be directed to accept any of these quests.\n\nChapter 1: Pages 1, 4, 6, 8\nChapter 2: Pages 10, 11, 14, 16\nChapter 3: Pages 18, 20, 21, 24\nChapter 4: Pages 25, 26, 27\n\nClose this step when you're done.|
 
 H The Salty Sailor Tavern|QID|577|M|38.0,3.1|Z|Stranglethorn Vale|N|Hearth, Run or fly to Booty Bay.|
 T Hostile Takeover|QID|213|M|27.0,77.13|Z|Stranglethorn Vale|N|To Kebok. on the top floor.|
@@ -663,7 +663,9 @@ K Dark Council|QID|537|M|47.62,12.29;52.30,20.95;54.70,26.00;58,31.73|Z|Alterac 
 K Baron's Demise|ACTIVE|523|M|59,43|Z|Alterac Mountains|US|N|Kill Baron Vardus and loot his head, if you didn't spot him at camps, he can also spawn in the cellar of the inn at Strahnbrad.|T|Baron Vardus|
 C Noble Deaths|QID|512|M|58,31.73|Z|Alterac Mountains|US|N|Finish killing Syndicate in the area for their Signet Rings.|
 
-R Southshore|QID|512|M|50.57,57.09|Z|Hillsbrad Foothills|N|Run back to Southshore. You're going to want to save your hearthstone which should be set to ironforge for after the next part coming up.|
+R Western Plaguelands|QID|512|M|66.64,47.08;78.07,45.88;80.70,33.95|CC|Z|Alterac Mountains|N|Since you're so close, we're gonna snag the flightpath and take a ride back to town. Stick to the road.|
+f Chillwind Camp|QID|512|M|42.93,85.06|Z|Western Plaguelands|N|From Bilbifaz Featherwhistle.|
+F Southshore|QID|512|M|42.93,85.06|Z|Western Plaguelands|N|Fly back to Southshore.|
 T The Ensorcelled Parchment|QID|551|M|50.57,57.09|Z|Hillsbrad Foothills|N|To Loremaster Dibbs.|
 A The Stormpike's Deciphering|QID|554|M|50.57,57.09|Z|Hillsbrad Foothills|N|From Loremaster Dibbs.|PRE|551|
 T Noble Deaths|QID|512|M|48.14,59.11|Z|Hillsbrad Foothills|N|To Magistrate Henry Maleb.|
@@ -812,13 +814,5 @@ T Safety First|QID|1189|M|80.33,76.09|N|To Razzeric.|
 H Stormwind City|N|Hearth or otherwise make your way back to Stormwind.|
 A Feast at the Blue Recluse|QID|1271|M|41.50,89.39|Z|Stormwind City|N|From Angus Stern in the Blue Recluse. A feast in your honor for all you have accomplished! Be sure to loot all the food and drink that spawns.|PRE|1258|
 T Feast at the Blue Recluse|QID|1271|M|41.50,89.39|Z|Stormwind City|N|To Angus Stern in the Blue Recluse. A feast in your honor for all you have accomplished! Be sure to loot all the food and drink that spawns.|
-
-;F Booty Bay|QID|603|N|Fly to Booty Bay.|M|66.28,62.16|Z|Stormwind City|
-;A Colonel Kurzen|QID|202|M|38.0,3.1|Z|Stranglethorn Vale|N|From Lieutenant Doren.| - Rebel Camp
-;A Kurzen's Mystery|QID|207|M|38.0,3.1|Z|Stranglethorn Vale|N|From Brother Nimetz.| - Rebel Camp
-;A Raptor Mastery|QID|196|M|35.66,10.66|Z|Stranglethorn Vale|N|From Hemet Nesingwary. If you don't mind the run, skip picking this up now, as it will sit in your quest log awile.| - Nesingwary Camp
-;A Cortello's Riddle|QID|624|M|23,48|Z|Swamp of Sorrows|N|From item in your inventory.|U|4056|
-;T Cortello's Riddle|QID|624|M|23,48|Z|Swamp of Sorrows|N|Under an ornate bridge west of Stonard is a soggy scroll. Get it to start the next part of the quest line.|
-;A Cortello's Riddle|QID|625|M|22.9,48.2|Z|Swamp of Sorrows|PRE|624|
 ]]
 end)

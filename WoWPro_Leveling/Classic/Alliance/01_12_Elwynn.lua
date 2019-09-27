@@ -38,16 +38,15 @@ C Investigate Echo Ridge|QID|15|M|51.2,37.4|QO|1|N|Kill The Kobold Workers.\nThe
 
 T Simple Letter|QID|3100|M|50.24,42.28|N|To Llane Beshere in the Hall of Arms.\nGrab your lv 2 spell/skill while you're here.|
 T Consecrated Letter|QID|3101|M|50.43,42.12|N|To Brother Sammuel in the Hall of Arms.\nGrab your lv 2 spell/skill while you're here.|
-T Encrypted Letter|QID|3102|M|50.3,39.9|N|To Jorik Kerridan is outside in the barn at the back of the Abbey.\nGrab your lv 2 spell/skill while you're here.|
 T Hallowed Letter|QID|3103|M|49.81,39.49|N|To Priestess Anetta in the alcove off the Library Wing.\nGrab your lv 2 spell/skill while you're here.|
 T Glyphic Letter|QID|3104|M|48.92,41.61|N|To Khelden Bremen upstairs in the Library Wing.\nGrab your lv 2 spell/skill while you're here.|
 T Tainted Letter|QID|3105|M|49.97,42.65|N|To Drusilla La Salle outside on the right side of the Abbey.\nGrab your lv 2 spell/skill while you're here.|
 
 A Brotherhood of Thieves|PRE|7|QID|18|R|Human|M|48.17,42.95|N|From Deputy Willem.|
-C Brotherhood of Thieves|QID|18|M|54.6,41.9|QO|1|N|Kill and loot the Defias mobs for the Red Burlap Bandanas.|S|
+T Encrypted Letter|QID|3102|M|50.3,39.9|N|To Jorik Kerridan is outside in the barn at the back of the Abbey.\nGrab your lv 2 spell/skill while you're here.|
 
 C Investigate Echo Ridge|QID|15|M|51.2,37.4|QO|1|N|Kill The Kobold Workers.\nThe Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|US|
-C Brotherhood of Thieves|QID|18|M|54.6,41.9|QO|1|N|Kill and loot the Defias mobs for the Red Burlap Bandanas.|US|
+C Brotherhood of Thieves|QID|18|M|54.6,41.9|QO|1|N|Kill and loot the Defias mobs for the Red Burlap Bandanas.|
 C The Stolen Tome|ACTIVE|1598|M|56.68,43.96|QO|1|N|The Defias thugs have the book at their camp. Find it and pick it up.\nThere are 3 Defias Thugs at the tent that you will pull. Wait until you're at least lv 4 to do this.|NC|US|
 
 T The Stolen Tome|QID|1598|M|49.97,42.65|N|To your class trainer, Drusilla La Salle. Don't forget to do your traing as well.|
@@ -63,9 +62,9 @@ A Skirmish at Echo Ridge|QID|21|PRE|15|M|48.9,41.6|N|From Marshal McBride|S|
 N Level 4 class training|QID|3903|LVL|4|N|Remember to visit your class trainer to do your Level 4 spell/skill before leaving! Make sure you come back if you do not have enough money to pay for all of it.|
 r Sell and Repair|ACTIVE|3903|M|47.7,41.4|N|Sell and Repair at Godric Rothgar.|
 
+C Skirmish at Echo Ridge|QID|21|M|47.7,31.7|N|Kill the Kobold Laborers. They are found inside Echo Ridge Mine.|T|Kobold Laborer|US|
 T Milly Osworth|QID|3903|M|50.69,39.35|N|To Milly Osworth. She is at the back of the Abbey near the stable.|
 A Milly's Harvest|QID|3904|M|50.69,39.35|PRE|3903|N|From Milly Osworth|
-C Skirmish at Echo Ridge|QID|21|M|47.7,31.7|N|Kill the Kobold Laborers. They are found inside Echo Ridge Mine.|T|Kobold Laborer|US|
 C Milly's Harvest|QID|3904|M|54.0,47.8|NC|N|Collect Milly's Harvest Barrels from the vineyards.|
 C Bounty on Garrick Padfoot|QID|6|M|57.56,48.42|QO|1|N|Kill Garrick Padfoot and loot his head.|T|Garrick Padfoot|
 

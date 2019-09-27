@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_horde
+-- Date: 2019-09-24 09:20
+-- Who: Emmaleah
+-- Log: minor tweaks. use # for zone in Deteriorating Knowledge
+
+-- URL: http://wow-pro.com/node/3789/revisions/30390/view
 -- Date: 2019-08-26 20:48
 -- Who: Emmaleah
 -- Log: minor tweaks
@@ -89,9 +94,9 @@ T Insight into Our Enemies|QID|55862|M|48.52,62.26|N|To Neri Sharpfin.|
 A Deteriorating Knowledge|QID|55863|M|48.52,62.26|N|From Neri Sharpfin.|PRE|55862|
 A The Price is Death|QID|55864|M|48.52,62.26|N|From Neri Sharpfin.|PRE|55862|
 C The Price is Death|QID|55864|M|42.57,49.79|S|N|Kill Naga forces.|
-C Deteriorating Knowledge|QID|55863|M|60.02,46.29|QO|3|N|Attack the mind-shackled kelfin to rescue Esma.|
-C Deteriorating Knowledge|QID|55863|M|42.41,68.11|QO|1|N|Attack the mind-shackled kelfin to rescue Fenn.|
-C Deteriorating Knowledge|QID|55863|M|48.29,16.11|QO|2|N|Attack the mind-shackled kelfin to rescue Kono.|
+C Deteriorating Knowledge|QID|55863|M|60.02,46.29|Z|1524|QO|3|N|Attack the mind-shackled kelfin to rescue Esma.|
+C Deteriorating Knowledge|QID|55863|M|42.41,68.11|Z|1524|QO|1|N|Attack the mind-shackled kelfin to rescue Fenn.|
+C Deteriorating Knowledge|QID|55863|M|48.29,16.11|Z|1524|QO|2|N|Attack the mind-shackled kelfin to rescue Kono.|
 C The Price is Death|QID|55864|M|42.57,49.79|US|N|Finish killing the needed Naga forces.|
 T The Price is Death|QID|55864|M|39.01,30.42|N|To Dash.|
 T Deteriorating Knowledge|QID|55863|M|38.98,30.38|N|To Fenn.|
@@ -168,7 +173,7 @@ C The Tide Turns|QID|55799|M|51.26,32.36|QO|4|N|Throw the Javelin of Suramar.|
 K Lady Zharessa|ACTIVE|55799|M|50.45,24.12|QO|5|T|Lady Zharessa|N|Kill Lady Zharessa.|
 T The Tide Turns|QID|55799|M|50.62,23.37|N|To First Arcanist Thalyssra.|
 A The Eternal Palace: Queen's Gambit|QID|56356|M|50.62,24.14|NA|N|From Lor'themar Theron.|PRE|55799|
-f The Tidal Conflux|QID|56356|M|51.11,23.61|N|At Kobo Rayfriend.|
+f The Tidal Conflux|QID|56356|M|51.11,23.61|N|At Kobo Rayfriend.|PRE|55799|
 
 ;zone intro
 A The Warcheif's Order|QID|56030|N|Auto accepted when logging in after 6/25/19 and able to do WQs.|
@@ -385,7 +390,7 @@ T No Backs|QID|55529|M|46.95,61.44|N|To Mrrl.|
 
 F Ekka's Hideaway|QID|56118|M|47.48,63.24|N|At Iina Bluegill.|
 A Fighting Venomous With Venom|QID|55661|M|64.54,48.58|N|From Cando Mikfin.|O|
-C Fighting Venomous With Venom|QID|55661|M|64.54,48.58|S|N|Kill Snapdragons until you get the Envenomed Fangs.|
+C Fighting Venomous With Venom|QID|55661|M|64.54,48.58|S|N|Kill Snapdragons until you get the 10 Venom Droplets.|L|168198 10|
 A Snap Back|QID|56118|M|66.43,47.24|N|From Collector Kojo.|PRE|55500|
 A Legacy of Nar'anan|QID|56095|M|66.43,47.24|N|From Collector Kojo.|PRE|55500|
 C Snap Back|QID|56118|M|69.57,49.73|S|U|168947|N|Kill snapdragons. use the Scroll of Bursting Power on the Elite Terrormaw Snapdragons before you agro them.|
@@ -402,7 +407,9 @@ K The Zanj'ir Brutalizer|ACTIVE|55886|M|64.12,57.02|QO|1|T|Zanj'ir Brutalizer|N|
 C Time to Krill|QID|56078|M|63.68,50.38;70.69,47.62;72.36,48.69|CN|N|Click Murky's Egg tp enter.|
 C Time to Krill|QID|56078|M|63.70,50.41|N|Use Murky's abilities to kill snapdragons.|
 C Bounty: Snapdragons|QID|55824^55833|M|69.15,46.89|QO|1|N|Kill Snapdragons.|
-C Fighting Venomous With Venom|QID|55661|M|64.54,48.58|US|N|Kill Snapdragons until you get the Envenomed Fangs.|
+C Fighting Venomous With Venom|QID|55661|M|64.54,48.58|US|N|Kill Snapdragons until you get 10 Venom Droplets|L|168198 10|
+U Veneom Droplet|ACTIVE|55661|M|PLAYER|U|168198|N|Click the droplets to turn into a Poison Globule.|L|168525|
+C Fighting Venomous With Venom|QID|55661|M|64.54,48.58|U|168525|N|Use the Poison Globule to weaken a Terrormaw, then kill it for the Envenomed Fangs.|
 T Fighting Venomous With Venom|QID|55661|M|64.54,48.58|N|To Cando Mikfin.|
 
 C Bounty: Makrura|QID|55822^55831|M|64.59,39.09|QO|1|N|Kill makrura.|
@@ -491,10 +498,8 @@ C Arcane Cache|QID|56233|M|53.2,28.3|N|Key dropped by nearby Azsh'ari Naga.|
 T Arcane Cache|QID|56233|M|53.2,28.3|N|To Arcane Cache.|
 A Extra Shiny|QID|55985|M|60.83,30.92|N|From Mari Lazarfin.|O|
 C Extra Shiny|QID|55985|M|61.15,28.44|NC|N|Pick up the very small hard to see (but luckily stationary) Imbued Pearls in the pools of water.|
-T Extra Shiny|QID|55985|M|60.84,30.95|N|To Mari Lazarfin.|
 A The Heart of the Water|QID|55751|M|60.83,30.92|N|From Mari Lazarfin.|O|
 C The Heart of the Water|QID|55751|M|61.15,28.44|N|Kill and loot water elementals and living water in Azsh'ari Terrace.|
-T The Heart of the Water|QID|55751|M|60.84,30.95|N|To Mari Lazarfin.|
 A Legacy of the Mad Mage|QID|57086|N|From Dropped Lesser Benthic Arcanocrystal.|O|
 C Legacy of the Mad Mage|QID|57086|M|60.60,33.02|QO|1|NC|N|Locate Mardivas's Laboratory.|
 C Legacy of the Mad Mage|QID|57086|M|60.27,33.62|QO|2|NC|N|Place the Arcanocrystal.|
@@ -505,6 +510,8 @@ A The Laboratory of Mardivas|QID|55121|M|60.65,33.26|PRE|57086|N|From Mardiva's 
 C The Laboratory of Mardivas|QID|55121|M|59.88,33.96|QO|1|N|Activate the Elemental Essence Amalgamator. Different combinations of elemental reagents combined with different crystals will summon differant elementals. (if you want more challance, activate one large and one small crystal)|
 C The Laboratory of Mardivas|QID|55121|M|59.74,34.21|QO|2|N|Kill the Elemental Creation.|
 T The Laboratory of Mardivas|QID|55121|M|60.62,33.24|N|To Mardiva's Tome. This becomes a weekly quest worth 500 faction and with a related achievement that rewards a mount.|
+T Extra Shiny|QID|55985|M|60.84,30.95|N|To Mari Lazarfin.|
+T The Heart of the Water|QID|55751|M|60.84,30.95|N|To Mari Lazarfin.|
 
 C Runelocked Chest|QID|56006|M|59.26,24.26|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 18 orange runes.|
 C Runelocked Chest|QID|56007|M|59.26,24.26|NC|N|Click on the Arcane Device to open a puzzle-game. Match up sets of 3 or more until you can match 17 red runes.|
@@ -557,6 +564,12 @@ C With Friends Like You, Who Needs Anemones?|QID|56804|M|46.23,26.35|NC|N|Find V
 T With Friends Like You, Who Needs Anemones?|QID|56804|M|46.23,26.35|N|To Vim's Cache after looting it.|
 C Kelpstone|QID|56389|M|46.57,27.81|N|Defeat Kelpstone in a pet battle. If it is phased out, and you have [what will it lure], abandon the quest and then reaquire it from the item, after the pet battle.|
 A Overgrown Stone|QID|56465|M|46.57,27.81|N|From item dropped when defeating Kelpstone for the first time.|PRE|56389|
+A What Will It Lure?|QID|55602|N|From Chum, often contained in a Waterlogged Toolbox.|O|;drop
+C What Will It Lure?|QID|55602|M|48.20,24.12|QO|1|NC|U|168159|N|Stand in the water (or else it often bugs out) and toss the Chum into Eel Infested Waters.|
+C What Will It Lure?|QID|55602|M|48.20,24.12|QO|2|N|Kill the eel that spawns and collect more Chum.|
+C What Will It Lure?|QID|55602|M|48.20,24.12|QO|3|NC|U|168159|N|Toss more Chum (kill eel, collect next chum, toss, repeat).|
+C What Will It Lure?|QID|55602|M|48.20,24.12|QO|4|N|Kill the Shimmering Eel and loot his Skin.|
+
 K Commander Sarj'eth|ACTIVE|56223|M|44.17,20.26|QO|1|T|Commander Sar'jeth|N|Kill Commander Sarj'eth and take his Head.|
 A Reinforced Cache|QID|56231|M|45.11,22.20|N|From Reinforced Cache sitting on the balcony.|O|
 C Reinforced Cache|QID|56231|M|45.11,22.20|N|Kill and loot Zanj'ir Naga in the area until you get the key to drop.|
