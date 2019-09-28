@@ -192,14 +192,15 @@ A Speak with Coleman|QID|1820|C|Warrior|M|58.2,51.4|From Deathguard Dillinger.|P
 T Speak with Coleman|QID|1820|C|Warrior|M|61.72,52.28|N|To Coleman Farthing by the fireplace inside the Tavern.|
 A Agamand Heirlooms|QID|1821|C|Warrior|M|61.72,52.28|N|From Coleman Farthing.|PRE|1820|
 
+; Undercity
 R Undercity|QID|357|M|61.86,65.04|N|Go south to Undercity.|
-
 N Things to do|ACTIVE|405|N|This is a good time to pick up a profession. Pick up Cooking even if you don't want to skill it up, it unlocks cooking quests which are used in Jame's guides. Ask a guard for directions to the profession trainers. Since this is the first time we're in a city, take your time to visit the AH, train weapon skills and put stuff you don't need in the bank. Close this step once finished.|
-N James Van Brunt|ACTIVE|405|M|61.0,29.8|Z|Undercity|N|Expert Blacksmith, in Undercity's War Quarter.|
-N Eunice Burch|ACTIVE|405|M|63.0,44.0|Z|Undercity|N|Cooking Trainer, Western central middle tier in Undercity.|
-N Franklin Lloyd|ACTIVE|405|M|76.2,75.4|Z|Undercity|N|Expert Engineer, Trainer, in Southeastern Undercity.|
-N Armand Cromwell|ACTIVE|405|M|80.8,31.2|Z|Undercity|N|Fishing Trainer, in Northestern Undercity.|
-N Brom Killian|ACTIVE|405|M|56.0,37.0|Z|Undercity|N|Mining Trainer. War Quarter, inner cloister.|
+N Basil Frye|ACTIVE|405|M|60.18,29.10|Z|Undercity|N|Journeyman blacksmithing trainer, in Undercity's War Quarter.|
+N Eunice Burch|ACTIVE|405|M|62.16,44.87|Z|Undercity|P|Cooking;185;;true|N|Cooking trainer, Undercity's Trade Quarter on the west side, middle tier.|
+N Graham Van Talen|ACTIVE|405|M|75.32,73.12|Z|Undercity|N|Journeyman engineering trainer, in Undercity's Rogues' Quarter (Southeastern).|
+N Armand Cromwell|ACTIVE|405|M|80.8,31.2|Z|Undercity|N|Fishing trainer, in Undercity's Magic Quarter (Northestern).|
+N Brom Killian|ACTIVE|405|M|56.0,37.0|Z|Undercity|N|Mining trainer. Undercity's War Quarter, inner ring.|
+N Archibald|ACTIVE|405|M|57.32,32.74|Z|Undercity|N|Weapon Master, in Undercity's War Quarter inner ring.\nIf you wish to learn to use new weapons.|
 
 T The Prodigal Lich|QID|405|M|84.05,17.37|Z|Undercity|N|To Bethor Iceshard in the Magic Quarter.|
 A The Lich's Identity|QID|357|M|84.05,17.37|Z|Undercity|N|From Bethor Iceshard.|PRE|405|
@@ -209,7 +210,7 @@ A The Lich's Identity|QID|357|M|84.05,17.37|Z|Undercity|N|From Bethor Iceshard.|
 T Speak with Anastasia|QID|1881|C|Mage|M|85.13,10.07|Z|Undercity|N|To Anastasia Hartwell in the Magic Quarter.|
 A The Balnir Farmstead|QID|1882|C|Mage|M|85.13,10.07|Z|Undercity|N|From Anastasia Hartwell.|PRE|1881|
 ; Rogue
-T Mennet Carkad|QID|1885|C|Rogue|M|83.51,69.10|Z|Undercity|N|To Mennet Carkad in the Rogues Quarter.|
+T Mennet Carkad|QID|1885|C|Rogue|M|83.51,69.10|Z|Undercity|N|To Mennet Carkad in the Rogues' Quarter.|
 A The Deathstalkers|QID|1886|C|Rogue|M|83.51,69.10|Z|Undercity|N|From Mennet Carkad.|PRE|1885|
 T The Deathstalkers|QID|1886|C|Rogue|M|83.51,69.10|Z|Undercity|N|To Mennet Carkad.|
 A The Deathstalkers|QID|1898|C|Rogue|M|83.51,69.10|Z|Undercity|N|From Mennet Carkad.|PRE|1886|
