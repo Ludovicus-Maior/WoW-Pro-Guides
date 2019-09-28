@@ -9,23 +9,23 @@ WoWPro:GuideSteps(guide, function() return [[
 
 A Your Place In The World|QID|4641|M|43.29,68.54|N|From Kaltunk.|
 T Your Place In The World|QID|4641|M|42.06,68.33|N|To Gornek.|
-A Cutting Teeth|QID|788|M|42.06,68.33|N|From Gornek.|
+A Cutting Teeth|QID|788|PRE|4641|M|42.06,68.33|N|From Gornek.|
 
 C Cutting Teeth|QID|788|M|43.83,66.82|N|Kill 10 Mottled Boars.|
 r Sell Junk so you have money for your first training.|QID|788|M|42.59,67.34|N|Right-click this step off once you are finished.|
 
 T Cutting Teeth|QID|788|M|42.06,68.33|N|To Gornek.|
-A Simple Parchment|QID|2383|C|Warrior|R|Orc|M|42.06,68.33|N|From Gornek.|
-A Simple Tablet|QID|3065|C|Warrior|R|Troll|M|42.06,68.33|N|From Gornek.|
-A Etched Tablet|QID|3082|C|Hunter|R|Troll|M|42.06,68.33|N|From Gornek.|
-A Encrypted Tablet|QID|3083|C|Rogue|R|Troll|M|42.06,68.33|N|From Gornek.|
-A Rune-Inscribed Tablet|QID|3084|C|Shaman|R|Troll|M|42.06,68.33|N|From Gornek.|
-A Hallowed Tablet|QID|3085|C|Priest|M|42.06,68.33|N|From Gornek.|
-A Glyphic Tablet|QID|3086|C|Mage|M|42.06,68.33|N|From Gornek.|
-A Etched Parchment|QID|3087|C|Hunter|R|Orc|M|42.06,68.33|N|From Gornek.|
-A Encrypted Parchment|QID|3088|C|Rogue|R|Orc|M|42.06,68.33|N|From Gornek.|
-A Rune-Inscribed Parchment|QID|3089|C|Shaman|R|Orc|M|42.06,68.33|N|From Gornek.|
-A Tainted Parchment|QID|3090|C|Warlock|M|42.06,68.33|N|From Gornek.|
+A Simple Parchment|QID|2383|PRE|788|C|Warrior|R|Orc|M|42.06,68.33|N|From Gornek.|
+A Simple Tablet|QID|3065|PRE|788|C|Warrior|R|Troll|M|42.06,68.33|N|From Gornek.|
+A Etched Tablet|QID|3082|PRE|788|C|Hunter|R|Troll|M|42.06,68.33|N|From Gornek.|
+A Encrypted Tablet|QID|3083|PRE|788|C|Rogue|R|Troll|M|42.06,68.33|N|From Gornek.|
+A Rune-Inscribed Tablet|QID|3084|PRE|788|C|Shaman|R|Troll|M|42.06,68.33|N|From Gornek.|
+A Hallowed Tablet|QID|3085|PRE|788|C|Priest|M|42.06,68.33|N|From Gornek.|
+A Glyphic Tablet|QID|3086|PRE|788|C|Mage|M|42.06,68.33|N|From Gornek.|
+A Etched Parchment|QID|3087|PRE|788|C|Hunter|R|Orc|M|42.06,68.33|N|From Gornek.|
+A Encrypted Parchment|QID|3088|PRE|788|C|Rogue|R|Orc|M|42.06,68.33|N|From Gornek.|
+A Rune-Inscribed Parchment|QID|3089|PRE|788|C|Shaman|R|Orc|M|42.06,68.33|N|From Gornek.|
+A Tainted Parchment|QID|3090|PRE|788|C|Warlock|M|42.06,68.33|N|From Gornek.|
 A Sting of the Scorpid|QID|789|PRE|788|M|42.06,68.33|N|From Gornek.|
 
 T Simple Parchment|QID|2383|C|Warrior|R|Orc|M|42.89,69.44|N|To Frang. Also train your new skills.|
@@ -40,7 +40,7 @@ T Encrypted Parchment|QID|3088|C|Rogue|R|Orc|M|41.27,68.00|N|To Rwag. Also train
 T Rune-Inscribed Parchment|QID|3089|C|Shaman|R|Orc|M|42.39,69.00|N|To Shikrik. Also train your new skills.|
 T Tainted Parchment|QID|3090|C|Warlock|R|Orc|M|40.65,68.50|N|To Nartok deep inside the cave. Also train your new skills.|
 
-A Galgar's Cactus Apple Surprise|QID|4402|M|42.73,67.24|N|From Galgar.|
+A Galgar's Cactus Apple Surprise|QID|4402|PRE|788|M|42.73,67.24|N|From Galgar.|
 C Galgar's Cactus Apple Surprise|QID|4402|L|11583 10|S|NC|N|Loot Cactus Apples from Cactuses.|
 C Sting of the Scorpid|QID|789|S|N|Kill Scorpid Workers and loot their Scorpid Worker Tails.|
 A Sarkoth|QID|790|M|43.83,66.82;40.60,62.59|CS|N|From Hana'zua.|
@@ -71,7 +71,7 @@ T Lazy Peons|QID|5441|M|44.62,68.65|N|To Foreman Thazz'ril.|
 A Thazz'ril's Pick|QID|6394|PRE|5441|M|44.62,68.65|N|From Foreman Thazz'ril.|
 
 T Vile Familiars|QID|1485|C|Warlock|R|Orc,Troll|M|42.60,68.90|N|To Ruzan.|
-A Vile Familiars|QID|1499|C|Warlock|R|Orc,Troll|M|42.60,68.90|N|From Ruzan.|
+A Vile Familiars|QID|1499|PRE|1485|C|Warlock|R|Orc,Troll|M|42.60,68.90|N|From Ruzan.|
 T Vile Familiars|QID|1499|C|Warlock|R|Orc,Troll|M|42.85,69.14|N|To Zureetha Fargaze.|
 T Vile Familiars|QID|792|M|42.85,69.14|N|To Zureetha Fargaze.|
 A Burning Blade Medallion|QID|794|PRE|792|M|42.85,69.14|N|From Zureetha Fargaze.|
@@ -91,16 +91,16 @@ H Valley of Trials|QID|6394|
 T Thazz'ril's Pick|QID|6394|M|44.62,68.65|N|To Foreman Thazz'ril.|
 
 T Burning Blade Medallion|QID|794|M|42.85,69.14|N|To Zureetha Fargaze.|
-A Report to Sen'jin Village|QID|805|M|42.85,69.14|N|From Zureetha Fargaze.|
+A Report to Sen'jin Village|QID|805|PRE|794|M|42.85,69.14|N|From Zureetha Fargaze.|
 T In Favor of Spirituality|QID|5649|C|Priest|M|42.37,68.81|N|From Ken'jai.|
 r Sell Junk|AVAILABLE|2161|M|42.59,67.34|N|Right-click this step off once you are finished.|
 
 A A Peon's Burden|QID|2161|M|52.06,68.30|N|From Ukor.|
 A Thwarting Kolkar Aggression|QID|786|M|54.24,73.27;54.44,74.36;54.53,75.20;54.07,76.53|CN|N|From Lar Prowltusk, who wanders.|
 T Report to Sen'jin Village|QID|805|M|55.95,74.72|N|To Master Gadrin.|
-A Minshina's Skull|QID|808|M|55.95,74.72|N|From Master Gadrin.|
-A Zalazane|QID|826|M|55.95,74.72|N|From Master Gadrin.|
-A Report to Orgnil|QID|823|M|55.95,74.72|N|From Master Gadrin.|
+A Minshina's Skull|QID|808|PRE|805|M|55.95,74.72|N|From Master Gadrin.|
+A Zalazane|QID|826|PRE|805|M|55.95,74.72|N|From Master Gadrin.|
+A Report to Orgnil|QID|823|PRE|805|M|55.95,74.72|N|From Master Gadrin.|
 A A Solvent Spirit|QID|818|M|55.95,74.40|N|From Master Vornal.|
 A Practical Prey|QID|817|M|55.95,73.93|N|From Vel'rin Fang inside a small hut.|
 
@@ -108,7 +108,7 @@ N Alchemy|ACTIVE|823|M|55.40,73.96|P|Alchemy;171;0;1;75|N|Miao'zan, Journeyman A
 N Herbalism|ACTIVE|823|M|55.44,75.08|P|Herbalism;182;0;1;75|N|Mishiki, Herbalism Trainer.|
 
 T Report to Orgnil|QID|823|M|52.25,43.15|N|To Orgnil Soulscar north in Razor Hill.|
-A Dark Storms|QID|806|M|52.25,43.15|N|From Orgnil Soulscar.|
+A Dark Storms|QID|806|PRE|823|M|52.25,43.15|N|From Orgnil Soulscar.|
 A Vanquish the Betrayers|QID|784|M|51.95,43.50|N|From Gar'Thok.|
 
 N First Aid|ACTIVE|2161|P|First Aid;129;0;1;75|M|54.17,41.94|N|From Rawrk inside the large building you can learn First Aid. Right-click this step off to skip.|
@@ -120,10 +120,10 @@ T A Peon's Burden|QID|2161|M|51.52,41.65|N|To Innkeeper Grosk.|
 h Razor Hill|QID|784|M|51.52,41.65|N|Set your hearthstone here.|
 L Level 6|LVL|6|N|If you are not yet level 6 grind on mobs. Visit your trainer, Mages, can go to Sen'jin Village or Orgrimmar, everyone else has a trainer in Razor Hill.|
 
-A Break a Few Eggs|QID|815|M|51.11,42.45|LVL|6||N|From Cook Torka.|
+A Break a Few Eggs|QID|815|M|51.11,42.45|LVL|6|N|From Cook Torka.|
 A Carry Your Weight|QID|791|M|50.07,42.93;49.88,40.38|CS|N|From Furl Scornbrow up the watchtower northwest of Razor Hill.|
 T In Favor of Spirituality|QID|5649|C|Priest|R|Orc,Troll|M|54.26,42.93|N|To Tai'jin.|
-A Garments of Spirituality|QID|5648|C|Priest|R|Orc,Troll|M|54.26,42.93|N|From Tai'jin.|
+A Garments of Spirituality|QID|5648|PRE|5649|C|Priest|R|Orc,Troll|M|54.26,42.93|N|From Tai'jin.|
 C Garments of Spirituality|QID|5648|C|Priest|R|Orc,Troll|M|53.10,46.46|NC|N|Use Power Word: Fortitude and Lesser Heal on Grunt Kor'ja|
 T Garments of Spirituality|QID|5648|C|Priest|R|Orc,Troll|M|54.26,42.93|N|To Tai'jin.|
 C Vanquish the Betrayers|QID|784|S|N|Kill Kul Tiras Sailors and Marines on the way.|
@@ -203,12 +203,12 @@ N Fishing|ACTIVE|5726|M|69.8,29.6|Z|Orgrimmar|P|Fishing;356;0;1;75|N|Lumak, Fish
 N Leatherworking|ACTIVE|5726|M|62.8,44.2|Z|Orgrimmar|P|Leatherworking;165;0;1;75|N|Karolek, Expert Leatherworker and trainer, Orgrimmar.|
 N Skinning|ACTIVE|5726|M|63.2,45.2|Z|Orgrimmar|P|Skinning;393;0;1;75|N|Thuwd, Skinning Trainer, Orgrimmar.|
 N Tailoring|ACTIVE|5726|M|63.0,49.6|Z|Orgrimmar|P|Tailoring;197;0;1;75|N|Snang, Journeyman Tailor and trainer, Orgrimmar.|
-A Speak with Un'thuwa|QID|1883|C|Mage|R|Orc,Troll|LEAD|1884|M|39.15,86.27|N|From Uthel'nay, Valley of the Spirits.|
+A Speak with Un'thuwa|QID|1883|C|Mage|R|Orc,Troll|M|39.15,86.27|N|From Uthel'nay, Valley of the Spirits.|
 T Training the Beast|QID|6081|C|Hunter|R|Orc,Troll|M|66.06,18.52|Z|Orgrimmar|N|To Ormak Grimshot.|
 T Therzok|QID|1859|C|Rogue|M|42.74,53.55|Z|Orgrimmar|N|To Therzok.|
 A The Shattered Hand|QID|1963|PRE|1859|C|Rogue|R|Orc,Troll|M|42.73,53.44|Z|Orgrimmar|N|From Therzok.|
 T Gan'rul's Summons|QID|1506|C|Warlock|R|Orc,Troll|M|48.25,45.29|Z|Orgrimmar|N|To Gan'rul Bloodeye.|
-A Creature of the Void|QID|1501|C|Warlock|R|Orc,Troll|M|48.20,45.70|Z|Orgrimmar|N|From Gan'rul Bloodeye.|
+A Creature of the Void|QID|1501|PRE|1506|C|Warlock|R|Orc,Troll|M|48.20,45.70|Z|Orgrimmar|N|From Gan'rul Bloodeye.|
 A Finding the Antidote|QID|813|ACTIVE|812|M|47.24,53.58|Z|Orgrimmar|N|From Khorgan.|
 R Leave Orgrimmar|QID|812|M|52.55,85.45|Z|Orgrimmar|CC|
 C Finding the Antidote|QID|813|L|4886 4|M|41.49,19.39|Z|Durotar|N|Now go back to Rhinag and kill Venomtail Scorpids for their Venomtail Scorpid Sacs.|
@@ -218,7 +218,7 @@ R Leave Orgrimmar|QID|812|M|52.55,85.45|Z|Orgrimmar|CC|
 T Need for a Cure|QID|812|M|41.54,18.60|N|To Rhinag.|
 C Lost But Not Forgotten|QID|816|M|37.22,20.26|N|Go to the Southfury River and kill Dreadmaw Crocolisks until you get Kron's Amulet.|
 T Conscript of the Horde|QID|840|M|62.26,19.37|Z|The Barrens|N|To Kargal Battlescar.|
-A Crossroads Conscription|QID|842|M|62.26,19.37|Z|The Barrens|N|From Kargal Battlescar.|
+A Crossroads Conscription|QID|842|PRE|840|M|62.26,19.37|Z|The Barrens|N|From Kargal Battlescar.|
 T Veteran Uzzek|QID|1505|C|Warrior|R|Orc,Troll|M|61.38,21.11|Z|The Barrens|N|To Veteran Uzzek.|
 A Path of Defense|QID|1498|PRE|1505|C|Warrior|R|Orc,Troll|M|61.38,21.11|Z|The Barrens|N|From Veteran Uzzek.|
 T Call of Fire|QID|2983|C|Shaman|R|Orc,Troll|M|55.86,19.94|Z|The Barrens|N|To Kranal Fiss. He wanders around a bit.|
@@ -233,7 +233,7 @@ C Dark Storms|QID|806|M|42.10,26.70|N|Kill Fizzle Darkstorm and loot his Claw. H
 C Path of Defense|QID|1498|C|Warrior|R|Orc,Troll|US|N|Get the remaining Scales from the Thunder Lizards.|
 R Exit Thunder Ridge|QID|806|M|39.16,28.77|N|Leave Thunder Ridge.|
 T Path of Defense|QID|1498|C|Warrior|R|Orc,Troll|M|61.38,21.11|Z|The Barrens|N|To Veteran Uzzek.|
-A Thun'grim Firegaze|QID|1502|C|Warrior|R|Orc,Troll|M|61.38,21.11|Z|The Barrens|N|From Veteran Uzzek.|
+A Thun'grim Firegaze|QID|1502|PRE|1498|C|Warrior|R|Orc,Troll|M|61.38,21.11|Z|The Barrens|N|From Veteran Uzzek.|
 T Lost But Not Forgotten|QID|816|M|43.11,30.24|N|To Misha Tor'kren.|
 T Dark Storms|QID|806|M|52.30,43.20|N|At Razor Hill.|
 T Dark Storms|QID|806|M|52.25,43.15|N|To Orgnil Soulscar.|
@@ -241,7 +241,7 @@ A Margoz|QID|828|PRE|806|M|52.25,43.15|N|From Orgnil Soulscar.|
 r Sell Junk and Repair|QID|835|M|52.98,41.03|N|Sell Junk and Repair before heading out again.|
 ; --- TODO: test coordinates|
 T Speak with Un'thuwa|QID|1883|C|Mage|R|Orc,Troll|M|56.30,75.10|N|Don't forget to train while you are here.|
-A Ju-Ju Heaps|QID|1884|C|Mage|R|Orc,Troll|M|56.30,75.10|
+A Ju-Ju Heaps|QID|1884|PRE|1883|C|Mage|R|Orc,Troll|M|56.30,75.10|
 C Ju-Ju Heaps|QID|1884|C|Mage|R|Orc,Troll|M|67.40,82.60|N|The heaps are among the huts in the Echo Isles.|
 T Ju-Ju Heaps|QID|1884|C|Mage|R|Orc,Troll|M|56.30,75.10|
 R Drygulch Ravine|QID|835|M|53.90,27.77|CC|N|Go to the Drygulch Ravine. Dropping down from the ridge is easier. You have to go slightly northeast of Razor hill.|
