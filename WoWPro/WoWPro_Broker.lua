@@ -1225,15 +1225,15 @@ function WoWPro.NextStep(k,i)
 		end
 	end
 
-	if (WoWPro.group[k] and not IsInGroup() and WoWPro.action[k] == "A") then
+	if (WoWPro.group[k] and (GetNumGroupMembers() == 0) and WoWPro.action[k] == "A") then
        		local why = "You are not in a group."
 		WoWPro.why[k] = why
 		WoWPro:dbp(why)
 		skip = true
 		break
     	end
-	
-	if (WoWPro.group[k] and IsInGroup() and WoWPro.action[k] == "N") then
+
+	if (WoWPro.group[k] and (GetNumGroupMembers() >= 0) and WoWPro.action[k] == "N") then
        		local why = "You are in a group, note not needed."
 		WoWPro.why[k] = why
 		WoWPro:dbp(why)
