@@ -23,7 +23,7 @@ C In Defense of the King's Lands|QID|263|M|35.50,79.60|N|Kill Bonesnappers and S
 C The Trogg Threat|QID|267|M|33.00,73.00|N|Continue with the troggs until you get the items for this quest.|
 T In Defense of the King's Lands|QID|263|M|23.47,74.49|N|To Mountaineer Wallbang.|
 T The Trogg Threat|QID|267|M|23.24,73.67|N|To Captain Ruglefuss.|
-A In Defense of the King's Lands|QID|217|M|23.24,73.67|N|From Captain Ruglefuss.|GROUP|PRE|267&263|
+A In Defense of the King's Lands|QID|217|M|23.24,73.67|N|From Captain Ruglefuss.|GROUP|2|PRE|267&263|
 C In Defense of the King's Lands|QID|217|M|35,83;34,90|CS|N|Take the path to the right inside the cave, They are all located together in the middle room.|
 T In Defense of the King's Lands|QID|217|M|23.24,73.67|N|To Captain Ruglefuss.|
 

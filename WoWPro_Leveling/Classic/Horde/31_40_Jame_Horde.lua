@@ -28,7 +28,7 @@ K Steelsnap|ACTIVE|1131|QO|1|M|17.06,18.79;13.00,28.00|CN|T|Steelnap|N|Go west/n
 R Roguefeather Den|ACTIVE|1150|M|26.00,55.00|N|Go southeast along the mountain until you reach the harpy cave called Roguefeather Den. Clear your way inside the cave until you reach the bottom.|
 C Test of Endurance|QID|1150|M|26.00,55.00|N|When you click on the crates in the corner. When you click them a named harpy will spawn. Tough but possible to solo, much easier with company.|
 T Test of Endurance|QID|1150|M|54.00,44.00|N|Travel east to the Weathered Nook, go up the slope. Turn in to Dorn Plainstalker.|
-A Test of Strength|QID|1151|GROUP|M|54.00,41.00|N|From Dorn Plainstalker. This is a difficult solo.|
+A Test of Strength|QID|1151|GROUP|2|M|54.00,41.00|N|From Dorn Plainstalker. This is a difficult solo.|
 K Rok'Alim the Pounder|ACTIVE|1151|QO|1|M|17.00,37.00|N|Go to the northwestern part of the zone. At the waypoint, kill everything on your way. Rok'Alim the Pounder spawns at that point. Afterwards he roams around in that area a little. Search for him while killing stuff.|
 L Level Check|LVL|31;-5500|N|You should now be about two bubbles from level 32.|
 T Test of Strength|QID|1151|M|54.00,41.00|N|To Dorn Plainstalker, back at the Weathered Nook. (skip followup)|

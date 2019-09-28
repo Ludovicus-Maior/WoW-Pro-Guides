@@ -183,7 +183,7 @@ C The Bloodsail Buccaneers |QID|604|M|29.6,80.9;27,82;33,88|CN|N|Check two camps
 C Up to Snuff|QID|587|M|33.0,75.0|N|Snuff can be found on any Bloodsail Buccaneers in the area.|
 R Booty Bay|QID|604|M|29.5,72.5|
 T The Bloodsail Buccaneers |QID|604|M|27.2,76.9|N|To Fleet Master Seahorn. (followup can be difficult to solo)|
-A The Bloodsail Buccaneers |QID|608|M|27.2,76.9|GROUP|N|From Fleet Master Seahorn.|
+A The Bloodsail Buccaneers |QID|608|M|27.2,76.9|GROUP|2|N|From Fleet Master Seahorn.|
 T Up to Snuff|QID|587|M|26.9,77.3|N|To Deeg.|
 A Skullsplitter Tusks|QID|209|M|27,77.2|N|From Kebok.|
 

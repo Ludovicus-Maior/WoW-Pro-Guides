@@ -186,7 +186,7 @@ N Leftover quest item|QID|950|N|As you no longer need it, you can safely destroy
 T Return to Onu|QID|950|M|43.5, 76.3|N|To Onu.|
 A Mathystra Relics|QID|951|M|43.5,76.5|N|From Onu.|
 T The Absent Minded Prospector|QID|729|M|35.69,83.63|N|This will most likely require a group unless you're really overleveled and strong. It opens up a chain that will benefit you later so I recommend you doing it if possible. DON'T accept next quest until all of your group has turned this in. Warn your group as well, so you can all start the escort together.|
-N Escort may need group|QID|731|GROUP|N|This next quest is an escort quest, and is almost impossible to solo for any class. I suggest asking in general chat for people interested in doing it, or looking for people who are doing it already in the camp but are having trouble. While your waiting move on to the next step.|
+N Escort may need group|QID|731|GROUP|2|N|This next quest is an escort quest, and is almost impossible to solo for any class. I suggest asking in general chat for people interested in doing it, or looking for people who are doing it already in the camp but are having trouble. While your waiting move on to the next step.|
 A The Absent Minded Prospector|QID|731|M|35.69,83.63|N|Remember you should have a group for this, he will pull lots of agro and won't stop to help like most escorts. You can move to next quest while waiting for a group.|PRE|729|
 C The Absent Minded Prospector|QID|731|M|35.69,83.63|N|Protect him as he digs up stuff.|
 C Fruit of the Sea|QID|1138|S|N|Kill Reef Crawlers and Encrusted Tide Crawlers until you have 6 Fine Crab Chunks.|

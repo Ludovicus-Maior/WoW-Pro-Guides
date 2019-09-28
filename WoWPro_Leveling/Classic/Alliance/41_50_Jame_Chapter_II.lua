@@ -79,10 +79,10 @@ C The Emperor's Tomb|QID|207|QO|4|M|21,10;22.90,12.00|CS|NC|N|Into the ruins, le
 C Fall of Gurubashi|QID|207|QO|3|M|24.70,8.90|NC|N|Go back to the fork and take the ramp up to the right, then uturn at top to find and loot the scroll from this location.|
 R Nessingwary's Camp|ACTIVE|192^193|M|35.8,10.7|
 T Panther Mastery|QID|192|M|35.55,10.55|N|To Sir S.J Erlgadin.|
-A Panther Mastery |QID|193|M|35.6,10.6|GROUP|N|From S.J. Erlgadin. Part of an optional line. This cat is sometimes hard to find.|
+A Panther Mastery |QID|193|M|35.6,10.6|GROUP|2|N|From S.J. Erlgadin. Part of an optional line. This cat is sometimes hard to find.|
 T Raptor Mastery|QID|196|M|35.66,10.81|N|To Hemet Nesingwary.|
-A Raptor Mastery|QID|197|M|35.6,10.6|N|From Hemet Nesingwary.|GROUP|
-A Tiger Mastery|QID|188|M|35.6,10.6|N|From Ajeck Rouack.|GROUP|
+A Raptor Mastery|QID|197|M|35.6,10.6|N|From Hemet Nesingwary.|GROUP|2|
+A Tiger Mastery|QID|188|M|35.6,10.6|N|From Ajeck Rouack.|GROUP|2|
 K Bhag'thera|ACTIVE|193|QO|1|M|48,28;46,28;48,20|CN|T|Bhagthera|N|Spawns at multiple places and wanders, stealthed.|
 K Tethis|ACTIVE|197|QO|1|M|28,43;31,40;31,43|CN|T|Tethis|N|Spawns at multiple points.|
 K Sin'dall|ACTIVE|188|QO|1|M|33,18|T|Sin'Dall|N|Spawns on top of this hill.|
@@ -114,7 +114,7 @@ T Skullsplitter Tusks|QID|209|M|27.0,77.1|N|To Kebok.|
 T Goblin Sponsorship|QID|1182|M|27.2,77.0|N|To Baron Revilgaz.|
 A Goblin Sponsorship|QID|1183|M|27.2,77.0|N|From Baron Revilgaz.|
 T The Bloodsail Buccaneers|QID|604|M|27.2,77.0|N|To Fleet Master Seahorn. (skip followup if you are solo)|
-A The Bloodsail Buccaneers|QID|608|M|27.2,77.0|GROUP|N|From Fleet Master Seahorn.|
+A The Bloodsail Buccaneers|QID|608|M|27.2,77.0|GROUP|2|N|From Fleet Master Seahorn.|
 T Voodoo Dues|QID|609|M|27.78,77.07|N|To "Sea Wolf" MacKinley. (skip follow up).|
 A Stoley's Debt|QID|2872|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|
 T Keep An Eye Out|QID|576|M|28.6,75.9|N|To Dizzy One-Eye.|
