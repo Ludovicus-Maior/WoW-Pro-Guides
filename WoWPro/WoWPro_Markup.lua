@@ -46,6 +46,19 @@ function WoWPro.ExpandMoney(money,want_icon, want_text)
 end
 RegisterMarkup("money", WoWPro.ExpandMoney)
 
+
+-- [color=FFFF0000]Red[color=]
+function WoWPro.ExpandColor(color,want_icon, want_text)
+    local expanded
+    if color ~= "" then
+        expanded = "|c" .. color
+    else
+        expanded = "|r"
+    end
+    return expanded
+end
+RegisterMarkup("color", WoWPro.ExpandColor)
+
 function WoWPro.ExpandMarkup(text)
     -- We support two kinds of markup tags:
     -- [tag=%d;{text|icon|itext|}] or [tag=%d] with a default of itext
@@ -87,7 +100,7 @@ function WoWPro.ExpandMarkup(text)
             want_icon = true
             want_text = true
         end
-        
+
         if not WoWPro.MarkupTags[tag_text] then
             WoWPro.Error("Encounted bad markup in text: %s",string.sub(text,tag_start,tag_end))
         end
