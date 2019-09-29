@@ -83,5 +83,5 @@ T Claws from the Deep|QID|279|M|8.33,58.52|N|To Karl Boran.|
 b Darkshore|QID|3765|M|4.61,57.07|N|Take Boat to Auberdine.|
 f Auberdine|QID|3765|N|Get the flight path|M|36.30,45.60|Z|Darkshore|
 T The Corruption Abroad|QID|3765|M|38.33,43.04|N|To Gershala Nightwhisper.|
-A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|
+A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|PRE|3765|
 ]]end)
