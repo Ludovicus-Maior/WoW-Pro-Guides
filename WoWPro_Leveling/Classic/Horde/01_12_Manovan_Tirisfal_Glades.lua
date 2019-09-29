@@ -183,12 +183,12 @@ A Halgar's Summons|QID|1478|C|Warlock|M|61.62,52.66|N|From Ageron Kargal upstair
 ; Priest
 A Touch of Weakness|QID|5663|C|Priest|M|61.58,52.20|N|From Dark Cleric Beryl upstairs at the Tavern.|LVL|10|
 ; Warrior
-A Speak with Dillinger|QID|1818|C|Warrior|M|61.9,52.5|From Austil de Mon inside the Tavern.|LVL|10|
+A Speak with Dillinger|QID|1818|C|Warrior|M|61.9,52.5|N|From Austil de Mon inside the Tavern.|LVL|10|
 T Speak with Dillinger|QID|1818|C|Warrior|M|58.20,51.45|N|To Deathguard Dillinger.|LVL|10|
-A Ulag the Cleaver|QID|1819|C|Warrior|M|58.2,51.4|From Deathguard Dillinger.|PRE|1818|
+A Ulag the Cleaver|QID|1819|C|Warrior|M|58.2,51.4|N|From Deathguard Dillinger.|PRE|1818|
 K Ulag the Cleaver|QID|1819|C|Warrior|M|59.17,48.54|QO|1|N|Go north to the mausoleum and click the skull stone trigger. Wait for Ulag the Cleaver to come out and Kill him.|
 T Ulag the Cleaver|QID|1819|C|Warrior|M|58.20,51.45|N|To Deathguard Dillinger.|
-A Speak with Coleman|QID|1820|C|Warrior|M|58.2,51.4|From Deathguard Dillinger.|PRE|1819|
+A Speak with Coleman|QID|1820|C|Warrior|M|58.2,51.4|N|From Deathguard Dillinger.|PRE|1819|
 T Speak with Coleman|QID|1820|C|Warrior|M|61.72,52.28|N|To Coleman Farthing by the fireplace inside the Tavern.|
 A Agamand Heirlooms|QID|1821|C|Warrior|M|61.72,52.28|N|From Coleman Farthing.|PRE|1820|
 
