@@ -6,7 +6,7 @@ local function RegisterMarkup(tag, func)
 end
 
 function WoWPro.ExpandAbility(ability,want_icon, want_text)
-    local name, icon = C_PetJournal.GetPetAbilityInfo(ability)
+    local name, icon = C_PetJournal.GetPetAbilityInfo(tonumber(ability))
     local expanded = ""
     if name then
         if want_icon then
@@ -23,7 +23,7 @@ end
 RegisterMarkup("ability", WoWPro.ExpandAbility)
 
 function WoWPro.ExpandItem(item,want_icon, want_text)
-    local name, link, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture = GetItemInfo(item)
+    local name, link, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture = GetItemInfo(tonumber(item))
     local expanded = ""
     if name then
         if want_icon then
@@ -41,42 +41,47 @@ RegisterMarkup("item", WoWPro.ExpandItem)
 
 
 function WoWPro.ExpandMoney(money,want_icon, want_text)
-    local expanded = GetCoinTextureString(money*100*100)
+    local expanded = GetCoinTextureString(tonumber(money)*100*100)
     return expanded
 end
 RegisterMarkup("money", WoWPro.ExpandMoney)
 
 
--- [color=FFFF0000]Red[color=]
+-- [color=FF0000]Red[/color]
 function WoWPro.ExpandColor(color,want_icon, want_text)
-    local expanded
-    if color ~= "" then
-        expanded = "|c" .. color
-    else
-        expanded = "|r"
-    end
-    return expanded
+    return "|c" .. "FF" .. color
 end
 RegisterMarkup("color", WoWPro.ExpandColor)
 
+function WoWPro.ExpandEndColor(color,want_icon, want_text)
+    return "|r"
+end
+RegisterMarkup("/color", WoWPro.ExpandEndColor)
+
 function WoWPro.ExpandMarkup(text)
-    -- We support two kinds of markup tags:
+    -- We support three kinds of markup tags:
     -- [tag=%d;{text|icon|itext|}] or [tag=%d] with a default of itext
     -- [money=%f]  for displaying Gold
+    -- [/color] for closing context
     local want_icon, want_text
 --    WoWPro:dbp("ExpandMarkup starting on %s",text:gsub("|", "¦"))
     while true do
-        local tag_start, tag_text, tag_id, tag_qual, tag_end = string.match(text,"()%[%s*(%a+)%s*=%s*([%d%a/-]+)%s*;%s*?([icontex]+)%s*%]()")
+        local tag_start, tag_text, tag_id, tag_qual, tag_end = string.match(text,"()%[%s*([%a/]+)%s*=%s*([%d%a/-]+)%s*;%s*?([icontex]+)%s*%]()")
         if not tag_start then
             -- Lets try no qualifier
 --            WoWPro:dbp("ExpandMarkup Failed 1")
-            tag_start, tag_text, tag_id, tag_end = string.match(text,"()%[%s*(%a+)%s*=%s*([%d%a/-]+)%s*%]()")
+            tag_start, tag_text, tag_id, tag_end = string.match(text,"()%[%s*([%a/]+)%s*=%s*([%d%a/-]+)%s*%]()")
             if not tag_start then
 --                WoWPro:dbp("ExpandMarkup Failed 2")
                 tag_start, tag_text, tag_id, tag_end = string.match(text,"()%[%s*(money)%s*=%s*([%d.]+)%s*%]()")
                 if not tag_start then
---                    WoWPro:dbp("ExpandMarkup failed on %s",text:gsub("|", "¦"))
-                    return text
+--                    WoWPro:dbp("ExpandMarkup Failed 3")
+                    tag_start, tag_text, tag_end = string.match(text,"()%[%s*([/%a]+)%s*]()")
+                    if not tag_start then
+--                        WoWPro:dbp("ExpandMarkup failed on %s",text:gsub("|", "¦"))
+                        return text
+                    end
+                    tag_id = ""
                 end
             end
             tag_qual = "itext"
@@ -86,7 +91,6 @@ function WoWPro.ExpandMarkup(text)
 --        WoWPro:dbp("ExpandMarkup  text=%s, qual=%s, id=%s", tag_text, tag_qual, tag_id)
         -- could have comment text after /
         tag_id = select(1, string.split("/", tag_id))
-        tag_id = tonumber(tag_id)
         if tag_qual == "itext" then
             want_icon = true
             want_text = true
