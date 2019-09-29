@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('ElidionAlli_I', 'Leveling', 'Thousand Needles', 'Elidion', 'Alliance', 1)
 WoWPro:GuideLevels(guide,30, 40)
-WoWPro:GuideNextGuide(guide, 'JameAlli_II')
+WoWPro:GuideNextGuide(guide, 'ElidionDun_Uld')
 WoWPro:GuideName(guide, 'Elidion\'s Leveling - Ch. 1')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
 WoWPro:GuideSteps(guide, function()
@@ -63,7 +63,7 @@ K Turtles|QID|555|M|82.70,54.70|US|N|Kill turtles for 10 meat. This is for a lat
 C Rocket Car Parts|QID|1110|M|75.4,55.0|NC|US|N|Collect Rocket Car Parts which are scattered everywhere.|
 T A Bump in the Road|QID|1175|M|81.63,77.95|N|To Trackmaster Zherin.|
 T Load Lightening|QID|1176|M|80.18,75.88|N|To Pozzik.|
-A Goblin Sponsorship|QID|1178|M|80.18,75.88|N|From Pozzik.|PRE|1178|
+A Goblin Sponsorship|QID|1178|M|80.18,75.88|N|From Pozzik.|PRE|1176|
 T Hardened Shells|QID|1105|M|78.14,77.13|N|To Wizzle Brassbolts.|
 T Salt Flat Venom|QID|1104|M|78.07,77.13|N|To Fizzle Brassbolts. Don't get follow-up|
 T Rocket Car Parts|QID|1110|M|77.79,77.28|N|To Kravel Koalbeard.|
@@ -137,7 +137,7 @@ T The Legend of Stalvan|QID|97|M|73.56,46.85|N|To Commander Althea Ebonlocke. Do
 A The Legend of Stalvan|QID|98|M|73.56,46.85|Z|Duskwood|N|From Commander Althea Ebonlocke.|PRE|97|
 C The Legend of Stalvan|QID|98|M|77.3,36.2|Z|Duskwood|T|Stalvan Mistmantle|N|Kill Stalvan Mistmantle.|
 T The Legend of Stalvan|QID|98|M|75.8,45.31|Z|Duskwood|N|To Madam Eva.|
-A Worgen in the Woods|QID|222|M|75.3,48.1|Z|Duskwood|N|From Calor.|
+A Worgen in the Woods|QID|222|M|75.3,48.1|Z|Duskwood|N|From Calor.|PRE|221|
 C Worgen in the Woods|QID|222|M|73.00,75.00|Z|Duskwood|S|N|Kill the vile Fang and Tainted Ones.|
 
 R Rebel Camp|QID|198|M|38.20,4.10|Z|Stranglethorn Vale|N|Run south to the Rebel Camp in stranglethron vale, Follow the road west then south, then once you cross the bridge head head west.|
@@ -151,9 +151,9 @@ R Nesingwary's Expedition|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|Head wes
 A Welcome to the Jungle|QID|583|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
 T Welcome to the Jungle|QID|583|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary|
 T Hemet Nesingwary|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary|
-A Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|PRE|5762|
-A Tiger Mastery|QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|5762|
-A Panther Mastery|QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|5762|
+A Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|PRE|583|
+A Tiger Mastery|QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|583|
+A Panther Mastery|QID|190|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|583|
 C Supply and Demand|QID|575|M|40.6,13.3|Z|Stranglethorn Vale|S|N|Kill River Crocolisks and loot their skins.|
 C Panther Mastery|QID|190|M|41.00,10.00|Z|Stranglethorn Vale|S|N|Kill 10 Young Panthers for the Panther Mastery quest.|
 C Tiger Mastery|QID|185|M|32.30,9.40|Z|Stranglethorn Vale|S|N|Kill 10 young tigers For the Tiger Mastery quest.|
@@ -191,7 +191,7 @@ T Panther Mastery|QID|191|M|35.55,10.55|Z|Stranglethorn Vale|N|To Sir S. J. Erlg
 T Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary. Don't get follow-up.|
 
 C Supply and Demand|QID|575|M|40.6,13.3|Z|Stranglethorn Vale|US|N|Kill River Crocolisks and loot their skins.|
-A The Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot. You must have this quest for the chapter quests to show up.|
+A The Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot. You must have this quest for the chapter quests to show up.|PRE|583|
 N Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|Stranglethorn Vale|N|In an effort to not clutter your quest log, only accept any Green Hills of Stranglethorn quests that you can turn in while you are here. You won't be directed to accept any of these quests.\n\nChapter 1: Pages 1, 4, 6, 8\nChapter 2: Pages 10, 11, 14, 16\nChapter 3: Pages 18, 20, 21, 24\nChapter 4: Pages 25, 26, 27|
 r Repair and Sell|QID|605|M|35.76,10.66|Z|Stranglethorn Vale|N|Bags will get full quickly here. |
 T Kurzen's Mystery|QID|207|M|37.83,3.56|N|To Brother Nimetz.|
@@ -200,9 +200,9 @@ H The Salty Sailor Tavern|QID|605|N|Hearth to Booty Bay.|Z|Stranglethorn Vale|
 T Singing Blue Shards|QID|605|M|27.12,77.21|Z|Stranglethorn Vale|N|To Crank Fizzlebub. Skip follow-up for now.|
 T Investigate the Camp|QID|201|M|26.94,77.21|Z|Stranglethorn Vale|N|To Krazek up on the top floor of the Inn.|
 T Krazek's Cookery|QID|210|M|26.94,77.21|Z|Stranglethorn Vale|N|To Krazek up on the top floor of the Inn.|
-A Favor for Krazek|QID|627|M|26.94,77.21|Z|Stranglethorn Vale|N|From Krazek. If you don't have or don't want to get the Bloodstone Ore, skip this.|
+A Favor for Krazek|QID|627|M|26.94,77.21|Z|Stranglethorn Vale|N|From Krazek. If you don't have or don't want to get the Bloodstone Ore, skip this.|PRE|210|
 t Favor for Krazek|QID|627|M|26.94,77.21|Z|Stranglethorn Vale|N|Turn in Favor for Krazek if you have 4 Lesser Bloodstone Ores.|
-T Bloodscalp Ears|QID|189|M|27.0,77.13|Z|Stranglethorn Vale|N|To Kebok.|
+T Bloodscalp Ears|QID|189|M|27.0,77.13|Z|Stranglethorn Vale|N|To Kebok. Don't get follow-up.|
 T The Stone of the Tides|QID|578|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
 T Supply and Demand|QID|575|M|28.3,77.6|Z|Stranglethorn Vale|N|To Drizzlik.|
 
@@ -259,17 +259,17 @@ T Stormwind Ho!|QID|562|M|51.46,58.39|Z|Hillsbrad Foothills|N|To Lieutenant Farr
 
 F Refuge Pointe|QID|659|M|49.34,52.28|Z|Hillsbrad Foothills|N|Fly to Refuge Pointe.|
 T Northfold Manor|QID|681|M|45.83,47.55|Z|Arathi Highlands|N|To Captain Nials.|
-A Worth Its Weight in Gold|QID|691|M|46.20,47.76|Z|Arathi Highlands|N|From Apprentice Kryten.|
+A Worth Its Weight in Gold|QID|691|M|46.20,47.76|Z|Arathi Highlands|N|From Apprentice Kryten.|PRE|690|
 T Hints of a New Plague?|QID|659|M|60.18,53.85|Z|Arathi Highlands|N|To Quae.|
-A Hints of a New Plague?|QID|658|M|60.18,53.85|Z|Arathi Highlands|N|From Quae.|
+A Hints of a New Plague?|QID|658|M|60.18,53.85|Z|Arathi Highlands|N|From Quae.|PRE|659|
 C Hints of a New Plague?|QID|658|M|22.68,35.08;60.47,59.02|Z|Arathi Highlands|CN|N|You are looking for a Forsaken Courier and several bodyguards.  This quest is not easy, but there is a trick to it.  You have to kill the Courier and loot the envelope by using some means to distract the guards. If you cannot solo this, get some assistance from somebody. The courier wanders on the road throughout the zone starting from this farm between the 2 waypoints. He spawns exactly at the waypoint in Go'Shek|T|Forsaken Courier|
 T Hints of a New Plague?|QID|658|M|60.18,53.85|Z|Arathi Highlands|N|To Quae.|
-A Hints of a New Plague?|QID|657|M|60.18,53.85|Z|Arathi Highlands|N|From Quae.|
+A Hints of a New Plague?|QID|657|M|60.18,53.85|Z|Arathi Highlands|N|From Quae.|PRE|658|
 T Hints of a New Plague?|QID|657|M|60.23,53.92|Z|Arathi Highlands|N|To Kinelory. This is an escort quest coming up, be polite and group with others waiting for her if she isn't up already. This is a lot easier grouped but if not just let her tank and heal.|
-A Hints of a New Plague?|QID|660|M|60.23,53.92|Z|Arathi Highlands|N|From Kinelory.|
+A Hints of a New Plague?|QID|660|M|60.23,53.92|Z|Arathi Highlands|N|From Kinelory.|PRE|657|
 C Hints of a New Plague?|QID|660|M|60.23,53.92|Z|Arathi Highlands|N|Kinelory is better off in front of you. Try to fight one at a time, but let Kinelory be the one to attract mobs.|
 T Hints of a New Plague?|QID|660|M|60.18,53.85|Z|Arathi Highlands|N|To Quae.|
-A Hints of a New Plague?|QID|661|M|60.18,53.85|Z|Arathi Highlands|N|From Quae.|
+A Hints of a New Plague?|QID|661|M|60.18,53.85|Z|Arathi Highlands|N|From Quae.|PRE|660|
 C Witherbark Tusk|QID|691|M|63.00,65.00|Z|Arathi Highlands|QO|1|S|N|Kill Trolls and loot them for their tusks.|
 C Witherbark Medicine Pouch|QID|691|M|63.00,65.00|Z|Arathi Highlands|QO|2|S|N|Kill Witch Doctors to get the Medicine Pouches needed for the quest.|L|4522 4|
 C Worth Its Weight in Gold|QID|691|M|68.00,75.00|Z|Arathi Highlands|QO|3|N|Kill Witherbark Shadow Hunters in the cave until you get the Shadow Hunter Knife|
@@ -310,7 +310,7 @@ C King's Tribute|QID|689|M|46,32|Z|Hillsbrad Foothills|S|N|Click the Alterac Gra
 C Bartolo's Yeti Fur Cloak|QID|565|M|46,32|Z|Hillsbrad Foothills|N|Run to the cave and kill the yetis.|
 C King's Tribute|QID|689|M|46,32|Z|Hillsbrad Foothills|US|N|Click the Alterac Granite inside the cave. They look like white shark teeth sticking out of the ground along the walls.|NC|
 
-R Alterac Mountains|QID|564|M|54.60,8.00|Z|Hillsbrad Foothills|N|Out of the cave and make your way to Alterac Mountains.
+R Alterac Mountains|QID|564|M|54.60,8.00|Z|Hillsbrad Foothills|N|Out of the cave and make your way to Alterac Mountains.|
 C Costly Menace|QID|564|M|38.00,85.00|Z|Alterac Mountains|S|N|Kill Lions on your way.|
 R Sofera's Naze|QID|564|M|58.00,67.00|Z|Alterac Mountains|N|Towards the Syndicate Camp.|
 C Syndicate Assassins|QID|505|M|47.00,76.00|Z|Alterac Mountains|S|N|Kill Syndicates around the area.|
@@ -364,6 +364,8 @@ R Cathedral Square|QID|622|M|51.23,33.25|Z|Stormwind City|N|Toward the Cathedral
 R Cathedral of Light|QID|622|M|43.06,34.42|Z|Stormwind City|N|Toward the Cathedral of Light.|
 A Brother Anton|QID|6141|M|42.58,24.23|Z|Stormwind City|N|From Brother Crowley downstairs in the Cathedral of Light.|
 A Morgan Stern|QID|1260|M|41.50,89.39|Z|Stormwind City|N|From Angus Stern in the Blue Recluse.|
+A Return to the Marsh|QID|1953|M|38.6,79.6|Z|Stormwind City|N|From Jennea Cannon.|C|Mage|
+
 r Repair, restock, train|QID|622|M|54.92,63.77|Z|Stormwind City|N|We are going to Stranglethorn if you banked your green hills of stranglethorn pages you may want to grab them if you got the bag space. There is a bank in Booty Bay if you need.|
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy.|ITEM|3829|
@@ -371,9 +373,9 @@ B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
 
 F Booty Bay|QID|622|N|Fly back to Booty Bay.|Z|Stormwind City|M|71,72.6|
 A Return to Corporal Kaleb|QID|622|M|26.94,77.21|PRE|627|Z|Stranglethorn Vale|N|From Krazek.|
-A Hostile Takeover|QID|213|M|27.0,77.13|Z|Stranglethorn Vale|N|From Kebok.|PRE|189|
+A Hostile Takeover|QID|213|M|27.0,77.13|Z|Stranglethorn Vale|N|From Kebok.|
 A Goblin Sponsorship|QID|1182|M|27.23,76.87|Z|Stranglethorn Vale|N|From Baron Revilgaz.|PRE|1181|
-A Water Elementals|QID|601|M|27.23,76.87|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
+A Water Elementals|QID|601|M|27.23,76.87|Z|Stranglethorn Vale|N|From Baron Revilgaz.|PRE|578|
 h Booty Bay|QID|622|M|27.04,77.31|Z|Stranglethorn Vale|N|Make Booty Bay your home location.|
 A Some Assembly Required|QID|577|M|28.3,77.6|Z|Stranglethorn Vale|N|From Drizzlik.|PRE|575|
 
@@ -396,7 +398,7 @@ A A Daughter's Love|QID|231|M|74.19,46.90|Z|Duskwood|N|From Watcher Ladimore. Sh
 T A Daughter's Love|QID|231|M|74.19,46.90|Z|Duskwood|N|To A Weathered Grave.|
 
 R Rebel Camp|QID|622|M|38.20,4.10|Z|Stranglethorn Vale|N|Run south-west to the Rebel Camp in stranglethron vale, Follow the road west then south, then once you cross the bridge head head west.|
-A Special Forces|QID|574|M|38.02,3.33|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|PRE|203|
+A Special Forces|QID|574|M|38.02,3.33|Z|Stranglethorn Vale|N|From Sergeant Yohwa.|PRE|203&204|
 T Return to Corporal Kaleb|QID|622|M|37.8,3.2|Z|Stranglethorn Vale|N|To Corporal Kaleb.|
 A Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|186|
 A Panther Mastery|QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|191|
@@ -437,7 +439,7 @@ A Parts for Kravel|QID|1112|M|63.35,38.46|Z|The Barrens|N|From Wharfmaster Dizzy
 F Gadgetzan|QID|1183|M|63,37|Z|The Barrens|N|Fly to Tanaris.|
 R The Shimmering Flats|QID|1183|M|75.5,97.75|N|Back up to Thousand Needles.|
 T The Brassbolts Brothers|QID|1179|M|78.14,77.13|N|To Wizzle Brassbolts.|
-A Martek the Exiled|QID|1106|M|78.07,77.13|N|From Fizzle Brassbolts.|PRE|1104|
+A Martek the Exiled|QID|1106|M|78.07,77.13|N|From Fizzle Brassbolts.|
 T Goblin Sponsorship|QID|1183|M|80.18,75.88|N|To Pozzik.|
 A The Eighteenth Pilot|QID|1186|M|80.18,75.88|N|From Pozzik.|PRE|1183|
 T The Eighteenth Pilot|QID|1186|M|80.33,76.09|N|To Razzeric.|
@@ -453,6 +455,8 @@ T James Hyal|QID|1302|M|67.87,48.24|Z|Dustwallow Marsh|N|To Clerk Lendry on the 
 T The Missing Diplomat|QID|1264|M|68.02,48.7|Z|Dustwallow Marsh|N|To Commander Samaul on the third floor of the Foothold Citadel.|
 A The Missing Diplomat|QID|1265|M|68.02,48.7|Z|Dustwallow Marsh|N|From Commander Samaul.|PRE|1264|
 T Morgan Stern|QID|1260|M|66.34,45.47|Z|Dustwallow Marsh|N|To Morgan Stern. Don't get follow-up.|
+T Return to the Marsh|QID|1953|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha.|C|Mage|
+A The Infernal Orb|QID|1954|M|46.06,57.09|Z|Dustwallow Marsh|N|From Tabetha.|C|Mage|PRE|1953|
 
 F Nigel's Point|QID|1453|M|67.48,51.30|Z|Dustwallow Marsh|TAXI|Nigel's Point|N|Fly to Nijel's Point.|
 F Stonetalon Mountains|QID|1453|M|67.48,51.30|Z|Dustwallow Marsh|TAXI|-Nigel's Point|N|Run or fly to Stonetalon Mountains.|
@@ -464,8 +468,8 @@ r Sell junk, restock.|QID|1453|M|66.28,6.55|Z|Desolace|N|Sell junk, restock.|
 T Brother Anton|QID|6141|M|66.52,7.91|Z|Desolace|N|To Brother Anton.|
 A Down the Scarlet Path|QID|261|M|66.52,7.91|Z|Desolace|N|From Brother Anton.|
 T Reclaimers' Business in Desolace|QID|1453|M|66.2,9.6|Z|Desolace|N|To Kreldig Ungor.|
-A The Karnitol Shipwreck|QID|1454|M|66.20,9.64|Z|Desolace|N|From Karntol's chest.|
-A Reagents for Reclaimers Inc.|QID|1458|M|66.20,9.64|Z|Desolace|N|From Kreldig Ungor.|
+A The Karnitol Shipwreck|QID|1454|M|66.20,9.64|Z|Desolace|N|From Karntol's chest.|PRE|1453|
+A Reagents for Reclaimers Inc.|QID|1458|M|66.20,9.64|Z|Desolace|N|From Kreldig Ungor.|PRE|1453|
 A Strange Alliance|QID|1382|Z|Desolace|M|66.67,10.94|N|From Captain Pentigast. \n\nSkip the other quest as they are conflicting factions Going Gelkis is best for an alliance character.|
 A Centaur Bounty|QID|1387|M|66.74,10.88|Z|Desolace|N|To Corporal Melkins.|
 A Vahlarriel's Search|QID|1437|M|66.44,11.82|Z|Desolace|N|From Vahlarriel Demonslayer.|
@@ -530,7 +534,7 @@ A Raid on the Kolkar|QID|1384|M|36.23,79.24|Z|Desolace|N|To Uthek the Wise.|PRE|
 H Nijel's Point|QID|261|M|66.70,11.00|Z|Desolace|N|Hearth or Run back to Nijel's Point|
 r Sell junk, restock.|QID|261|M|66.28,6.55|Z|Desolace|N|Sell junk, restock.|
 T Down the Scarlet Path|QID|261|M|66.52,7.9|Z|Desolace|N|To Brother Anton.|
-A Down the Scarlet Path|QID|1052|M|66.52,7.9|Z|Desolace|N|From Brother Anton.|
+A Down the Scarlet Path|QID|1052|M|66.52,7.9|Z|Desolace|N|From Brother Anton.|PRE|261|
 T Reagents for Reclaimers Inc.|QID|1459|M|66.2,9.6|Z|Desolace|N|To Kreldig Ungor.|
 A Reagents for Reclaimers Inc.|QID|1466|M|66.2,9.6|Z|Desolace|N|From Kreldig Ungor.|PRE|1459|
 T The Karnitol Shipwreck|QID|1456|M|66.2,9.6|Z|Desolace|N|To Kreldig Ungor.|
@@ -538,7 +542,9 @@ A The Karnitol Shipwreck|QID|1457|M|66.2,9.6|Z|Desolace|N|From Kreldig Ungor.|PR
 T Centaur Bounty|QID|1387|M|66.74,10.87|Z|Desolace|N|To Corporal Melkins.|
 T Bone Collector|QID|5501|M|62.40,39.04|Z|Desolace|N|From Bibbly F'utzbuckle.|
 C Raid on the Kolkar|QID|1384|M|72,45|Z|Desolace|N|Kill the Kolkar in this area and loot the charms.|
+C The Infernal Orb|QID|1954|M|52.65,82.00|Z|Desolace|S|N|Kill Burning Blad Summoners until you get the Orb.|C|Mage|
 C Reagents for Reclaimers Inc.|QID|1466|M|52.65,82.00|Z|Desolace|N|Kill Doomwarder Captains for Blood.\nLey/Mage Hunters for Brains.\nSorceress/Sister for Wings.|
+C The Infernal Orb|QID|1954|M|52.65,82.00|Z|Desolace|US|N|Kill Burning Blad Summoners until you get the Orb.|C|Mage|
 T Raid on the Kolkar|QID|1384|M|36.23,79.24|Z|Desolace|N|To Uthek the Wise.|PRE|1382|
 
 R Feralas|QID|1286|M|42.71,97.35|Z|Desolace|N|Run to Feralas.|
@@ -582,7 +588,7 @@ A Dream Dust in the Swamp|QID|1116|M|26.94,77.21|Z|Stranglethorn Vale|N|From Kra
 
 F Trade District|QID|1396|M|27.4,77.6|Z|Stranglethorn Vale|N|Fly to Stormwind.|C|-Mage|
 P Wizard's Sanctum|QID|1396|M|27.4,77.6|Z|Stranglethorn Vale|N|Teleport or Fly to Stormwind.|C|Mage|
-N Train up|QID|1396|N|Do your big city stuff, train, auction, repair, sell ect.| 
+N Train up|QID|1396|N|Do your big city stuff, train, auction, repair, sell ect.|
 A Mazen's Behest|QID|1363|M|41.51,64.34|Z|Stormwind City|N|From Mazen Mac'Nadir.|
 T Mazen's Behest|QID|1363|M|41.00,63.82|Z|Stormwind City|N|Just up the stairs for turn in to Acolyte Dellis.|
 A Mazen's Behest|QID|1364|M|41.00,63.82|Z|Stormwind City|N|From Acolyte Dellis.|
@@ -594,7 +600,7 @@ R Swamp of Sorrows|QID|1396|M|59.99,40.99|Z|Deadwind Pass|N|Run east to Swamp of
 A Encroaching Wildlife|QID|1396|M|26.73,59.83|Z|Swamp of Sorrows|N|From Watcher Biggs.|
 C Encroaching Wildlife|QID|1396|M|26,60|Z|Swamp of Sorrows|S!US|N|Kill the animals in the area to complete the quest.|
 C Dream Dust in the Swamp|QID|1116|M|14.30,65.21|CS|Z|Swamp of Sorrows|N|Kill Whelps around and loot the dust.|
-C Mazen's Behest|QID|1364|M|13.00,35.00|Z|Swamp of Sorrows|N|Kill Swamp Elementals at this location until you get the Essays.| 
+C Mazen's Behest|QID|1364|M|13.00,35.00|Z|Swamp of Sorrows|N|Kill Swamp Elementals at this location until you get the Essays.|
 T Encroaching Wildlife|QID|1396|M|26.73,59.83|Z|Swamp of Sorrows|N|To Watcher Biggs.|
 A The Lost Caravan|QID|1421|M|26.73,59.83|Z|Swamp of Sorrows|N|From Watcher Biggs.|PRE|1396|
 A Draenethyst Crystals|QID|1389|M|26,31.4|Z|Swamp of Sorrows|N|From Magtoor.|
@@ -623,7 +629,7 @@ R Blasted Lands|ACTIVE|1425|M|33.18,59.87;34.76,61.81;33.14,68.38|Z|Swamp of Sor
 t Mazen's Behest|QID|1364|M|67.64,19.16|Z|Blasted Lands|N|To Watcher Mahar Ba, at the top of the tower (watching).|
 T Deliver the Shipment|QID|1425|M|66.52,21.38|Z|Blasted Lands|N|To Quartermaster Lungertz.|
 T The Lost Supplies|QID|1423|M|66.52,21.38|Z|Blasted Lands|N|To Quartermaster Lungertz.|
-f Nethergarde Keep|ACTIVE|1448|M|65.54,24.34|Z|Blasted Lands|N|Get the flight-path from Alexandra Constantine at the top of the tower.| 
+f Nethergarde Keep|ACTIVE|1448|M|65.54,24.34|Z|Blasted Lands|N|Get the flight-path from Alexandra Constantine at the top of the tower.|
 
 F Stormwind City|ACTIVE|1448|M|65.54,24.34|Z|Blasted Lands|N|Fly to Stormwind.|
 T In Search of The Temple|QID|1448|M|64.34,20.62|Z|Stormwind City|N|To Brohann Caskbelly, in the Dwarven District. Don't take follow-up.|
@@ -676,12 +682,12 @@ F Refuge Pointe|QID|663|M|49.34,52.28|Z|Hillsbrad Foothills|N|Fly to Refuge Poin
 R Faldir's Cove|QID|663|M|31.32,64.59;23.61,70.02;21.57,75.52|CC|Z|Arathi Highlands|N|At first waypoint, find a path going beside/behind Stromgarde Keep, follow that path west to the 2nd waypoint. To your left is a cave, go through it to find Faldir's Cove.|
 A Land Ho!|QID|663|M|31.8,82.73|Z|Arathi Highlands|N|From Lolo the Lookout.|
 T Land Ho!|QID|663|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen.|
-A Deep Sea Salvage|QID|662|M|32.75,81.43|Z|Arathi Highlands|N|From First Mate Nilzlix.|
+A Deep Sea Salvage|QID|662|M|32.75,81.43|Z|Arathi Highlands|N|From First Mate Nilzlix.|PRE|663|
 A Drowned Sorrows|QID|664|M|34.00,80.79|Z|Arathi Highlands|N|From Captain Steelgut.|
 A Sunken Treaasure|QID|665|M|33.87,80.55|Z|Arathi Highlands|N|Don't pick this up until you are ready to escort Professor Phizzlethorpe into a fight.|
 C Sunken Treaasure|QID|665|M|35.14,80.47|Z|Arathi Highlands|N|Escort the gnome to the cave, stay at the entrance to the cave (to avoid multiple spawns) where two level 40 elemental will attack you.|
 T Sunken Treaasure|QID|665|M|33.86,80.45|Z|Arathi Highlands|N|To Dr. Draxlegauge, it may take a few seconds after the fighting ends.|
-A Sunken Treaasure|QID|666|M|33.86,80.45|Z|Arathi Highlands|N|From Dr. Draxlegauge.|
+A Sunken Treaasure|QID|666|M|33.86,80.45|Z|Arathi Highlands|N|From Dr. Draxlegauge.|PRE|665|
 C Sunken Treasures|QID|666|M|20.6,85.1|Z|Arathi Highlands|S|N|Use the goggles so you can detect and pick up Calcified Elven Gems. (big white rocks).|U|4491|
 C Drowned Sorrows|QID|664|M|23,84.4|Z|Arathi Highlands|S|N|Kill Naga as you go.|
 C Maiden's Folly Charts|QID|662|QO|2|M|23.40,85.09|Z|Arathi Highlands|N|Swim west, Use potion and dive down at first waypoint. Go down stairs from the deck to find log. Its a brown book, inside a cauldren.|
@@ -719,7 +725,7 @@ C Badlands Reagent Run|QID|2500|M|53.42,43.39|Z|Badlands|S|N|From now on, kill a
 A A Dwarf and His Tools|QID|719|M|53.42,43.39|Z|Badlands|N|From Prospector Ryedol.|
 A Mirages|QID|718|M|53.79,43.31|Z|Badlands|N|From Sigrun Ironhew.|
 T Martek the Exiled|QID|1106|M|42.22,52.69|Z|Badlands|N|To Martek the Exiled.|
-A Indurium|QID|1108|M|42.22,52.69|Z|Badlands|N|From Martek the Exiled.|
+A Indurium|QID|1108|M|42.22,52.69|Z|Badlands|N|From Martek the Exiled.|PRE|1106|
 A Barbecued Buzzard Wings|QID|703|M|42.39,52.92|Z|Badlands|N|From Rigglefuzz.|
 r Repair & Restock|ACTIVE|703|M|42.47,52.5|Z|Badlands|N|FYI, This is the only alliance vendor and repairer in all of Badlands.|
 A Study of the Elements: Rock|QID|710|M|25.95,44.87|Z|Badlands|N|To Lotwil Veriatus.|
@@ -732,12 +738,12 @@ T Liquid Stone|QID|715|M|25.82,44.23|Z|Badlands|N|To Lucien Tosselwrench.|
 C Barbecued Buzzard Wings|QID|703|Z|Badlands|S|N|Kill Buzzards until you get 4 Buzzard Wings|
 C Study of the Elements: Rock|QID|710|M|23.00,43.00|Z|Badlands|N|Go west of Lotwil and kill Lesser Elementals  until you get 10 Small Stone Shards.|
 T Study of the Elements: Rock|QID|710|M|25.95,44.87|Z|Badlands|N|To Lotwil Veriatus.|
-A Study of the Elements: Rock|QID|711|M|25.95,44.87|Z|Badlands|N|From Lotwil Veriatus.|PRE|711|
+A Study of the Elements: Rock|QID|711|M|25.95,44.87|Z|Badlands|N|From Lotwil Veriatus.|PRE|710|
 A A Sign of Hope|QID|720|M|53.03,33.93|Z|Badlands|N|Get quest from map on the ground here.|
 C A Dwarf and His Tools|QID|719|M|52.3,30.4|Z|Badlands|N|Kill Dwarves around here until you get 'Ryedol's Lucky Pick' for this quest.|
 C Mirages|QID|718|M|66.60,22.03|Z|Badlands|NC|N|Loot the Supply Crate at this location.|
 T A Sign of Hope|QID|720|M|53.42,43.40|Z|Badlands|N|To Prospecter Ryedol. Don't get follow-up unless you plan on running Uldaman.|
-A A Sign of Hope|QID|721|M|53.42,43.40|Z|Badlands|N|From Prospecter Ryedol.\n\nDungeon Quest for Uldaman.|PRE|720
+A A Sign of Hope|QID|721|M|53.42,43.40|Z|Badlands|N|From Prospecter Ryedol.\n\nDungeon Quest for Uldaman.|PRE|720|
 T A Dwarf and His Tools|QID|719|M|53.42,43.40|Z|Badlands|N|To Prospecter Ryedol.|
 T Mirages|QID|718|M|53.79,43.31|Z|Badlands|N|To Sigrun Ironhew.|
 A Scrounging|QID|733|M|53.79,43.31|Z|Badlands|N|From Sigrun Ironhew.|PRE|718|
@@ -790,9 +796,14 @@ T Ansirem's Key|QID|603|M|27.28,77.53|Z|Stranglethorn Vale|N|To Catelyn on 2nd f
 A "Pretty Boy" Duncan|QID|610|M|27.28,77.53|Z|Stranglethorn Vale|N|From Catelyn on 2nd floor of the Inn.|PRE|603|
 
 b Ratchet|QID|1137|M|25.80,73.10|N|Take the boat to Ratchet.|
-F Theramore Isle|ACTIVE|1258|Z|The Barrens|M|63.10,37.15|N|Fly to Theramore.|
+F Theramore Isle|ACTIVE|1258|M|63.10,37.15|Z|The Barrens|N|Fly to Theramore.|
 T ... and Bugs|QID|1258|M|66.34,45.47|Z|Dustwallow Marsh|N|To Morgan Stern.|
- 
+T The Infernal Orb|QID|1954|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha.|C|Mage|
+A The Exorcism|QID|1955|M|46.06,57.09|Z|Dustwallow Marsh|N|From Tabetha. Get ready for an Elite fight.|C|Mage|PRE|1954|
+C The Exorcism|QID|1955|M|46.06,57.09|Z|Dustwallow Marsh|N|Defeat the Demon of the Orb, a level 40 elite.|C|Mage|
+T The Exorcism|QID|1955|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha.|C|Mage|
+A Power in Uldaman|QID|1956|M|46.06,57.09|Z|Dustwallow Marsh|N|From Tabetha.|PRE|1955|C|Mage|
+
 F Gadgetzan|QID|1137|Z|Dustwallow Marsh|M|65.50,51.30|N|Fly to Gadgetzan.|
 T Tran'rek|QID|2864|M|51.56,26.76|Z|Tanaris|N|To Tran'rek. Don't get follow-up.|
 R The Shimmering Flats|QID|1137|M|75.5,97.75|N|Back up to Thousand Needles.|
@@ -812,7 +823,7 @@ A Safety First|QID|1189|M|50.96,27.24|N|From Shreev.|PRE|1188|
 R The Shimmering Flats|QID|1189|M|75.5,97.75|N|Back up to Thousand Needles.|
 T Safety First|QID|1189|M|80.33,76.09|N|To Razzeric.|
 H Stormwind City|N|Hearth or otherwise make your way back to Stormwind.|
-A Feast at the Blue Recluse|QID|1271|M|41.50,89.39|Z|Stormwind City|N|From Angus Stern in the Blue Recluse. A feast in your honor for all you have accomplished! Be sure to loot all the food and drink that spawns.|PRE|1258|
+A Feast at the Blue Recluse|QID|1271|M|41.50,89.39|Z|Stormwind City|N|From Angus Stern in the Blue Recluse. A feast in your honor for all you have accomplished! Be sure to loot all the food and drink that spawns.|PRE|1258&1222|
 T Feast at the Blue Recluse|QID|1271|M|41.50,89.39|Z|Stormwind City|N|To Angus Stern in the Blue Recluse. A feast in your honor for all you have accomplished! Be sure to loot all the food and drink that spawns.|
 ]]
 end)
