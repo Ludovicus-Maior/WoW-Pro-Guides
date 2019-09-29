@@ -45,17 +45,17 @@ N Find a full group|QID|2770|N|If you haven't already, now is the time to find a
 
 ;Within Dungeon
 
-C Troll Temper|QID|3042|M|PLAYER|S|N|Kill Sandfury Trolls for the Temper.|
-C Scarab Shells|QID|2865|M|PLAYER|S|N|Kill Scarabs to loot their Shells.|
-K Theka the Martyr|QID|3527|M|PLAYER|QO|1|N|In the Scarab area north of the entrance you will find him there. Kill and loot the First Mosh'aru Tablet|
-K Nekrum Gutchewer|QID|2991|M|PLAYER|QO|1|N|He spawns on the final wave of the fight on the long staircase where you found Sergeant Bly. Kill him and loot the medallion.|
-K Sergeant Bly|QID|2768|M|PLAYER||QO|1|N|After you fight the troll waves down the from the alter, Bly and his group will be down below. When your group is ready, you talk to Bly and they will fight you. Make sure everyone is ready before talking to him. Kill Sergeant Bly and loot the rod.|
-K Hydromancer Velratha|QID|3527|M|PLAYER|QO|2|S|N|Kill and then loot the Second Mosh'aru Tablet.|
-C Tiara of the Deep|QID|2846|M|PLAYER|N|Make your way south to the pool and you will see her at one end. After you clear the area and patrols, fight, kill and then loot the Tiara.|
-K Hydromancer Velratha|QID|3527|M|PLAYER|QO|2|US|N|Make your way south to the pool and you will see her at one end. After you clear the area and patrols, fight, kill and then loot the Second Mosh'aru Tablet.|
-K Gahz'rilla|QID|2770|M|PLAYER|N|You or someone in your group will need the Mallet to summon him. Make sure you do this after Velratha and have the room clear. The fight is easier melee position themselves near the water to fall into when the get knocked up in the air.|
-C Scarab Shells|QID|2865|M|PLAYER|US|N|Kill Scarabs to loot their Shells.|
-C Troll Temper|QID|3042|M|51.41,28.75|Z|Tanaris|US|N|Kill Sandfury Trolls for the temper.|
+C Troll Temper|QID|3042|M|38.72,20.01|S|N|Kill Sandfury Trolls for the Temper.|
+C Scarab Shells|QID|2865|M|38.72,20.01|S|N|Kill Scarabs to loot their Shells.|
+K Theka the Martyr|QID|3527|M|38.72,20.01|QO|1|N|In the Scarab area north of the entrance you will find him there. Kill and loot the First Mosh'aru Tablet|
+K Nekrum Gutchewer|QID|2991|M|38.72,20.01|QO|1|N|He spawns on the final wave of the fight on the long staircase where you found Sergeant Bly. Kill him and loot the medallion.|
+K Sergeant Bly|QID|2768|M|38.72,20.01||QO|1|N|After you fight the troll waves down the from the alter, Bly and his group will be down below. When your group is ready, you talk to Bly and they will fight you. Make sure everyone is ready before talking to him. Kill Sergeant Bly and loot the rod.|
+K Hydromancer Velratha|QID|3527|M|38.72,20.01|QO|2|S|N|Kill and then loot the Second Mosh'aru Tablet.|
+C Tiara of the Deep|QID|2846|M|38.72,20.01|N|Make your way south to the pool and you will see her at one end. After you clear the area and patrols, fight, kill and then loot the Tiara.|
+K Hydromancer Velratha|QID|3527|M|38.72,20.01|QO|2|US|N|Make your way south to the pool and you will see her at one end. After you clear the area and patrols, fight, kill and then loot the Second Mosh'aru Tablet.|
+K Gahz'rilla|QID|2770|M|38.72,20.01|N|You or someone in your group will need the Mallet to summon him. Make sure you do this after Velratha and have the room clear. The fight is easier melee position themselves near the water to fall into when the get knocked up in the air.|
+C Scarab Shells|QID|2865|M|38.72,20.01|US|N|Kill Scarabs to loot their Shells.|
+C Troll Temper|QID|3042|M|38.72,20.01|US|N|Kill Sandfury Trolls for the temper.|
 
 ;After Dungeon
 T Gahz'rilla|QID|2770|M|78.14,77.13|Z|Thousand Needles|N|To Wizzle Brassbolts. In Thousand Needles.|
