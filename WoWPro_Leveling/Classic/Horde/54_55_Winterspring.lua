@@ -62,7 +62,7 @@ C Corrupted Sabers|QID|4506|M|32,67|N|Release cat at corrupted moonwell|
 T Corrupted Sabers|QID|4506|M|0.12,71.97|N|Winna Hazzard-First talk to the cat|
 
 T Falling to Corruption|QID|5084|M|60.00,5.00|Z|Felwood|N|The cauldron at waypoint.|
-A Mystery Goo|QID|5085|PRE|5084||M|60.00,5.00|Z|Felwood|N|The cauldron at waypoint|
+A Mystery Goo|QID|5085|PRE|5084|M|60.00,5.00|Z|Felwood|N|The cauldron at waypoint|
 A Deadwood Ritual Totem|QID|8470|U|20741|O|N|Dropped by Deadwood Avengers, Den Watchers, and Shamans|
 T Deadwood Ritual Totem|QID|8470|O|M|65.5,3.3|N|Kernda-located halfway thru the hold|
 
