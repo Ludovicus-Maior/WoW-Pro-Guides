@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('ElidionAlli_II', 'Leveling', 'Stranglethorn Vale', 'Elidion', 'Alliance', 1)
 WoWPro:GuideLevels(guide,42, 50)
-WoWPro:GuideNextGuide(guide, 'JamSea5051')
+WoWPro:GuideNextGuide(guide, 'ElidionDun_ZF')
 WoWPro:GuideName(guide, 'Elidion\'s Leveling - Ch. 2')
 WoWPro:GuideIcon(guide, "ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0.50,0.75})
 WoWPro:GuideSteps(guide, function()
