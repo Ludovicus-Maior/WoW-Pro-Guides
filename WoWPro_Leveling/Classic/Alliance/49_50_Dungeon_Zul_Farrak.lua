@@ -53,7 +53,7 @@ K Sergeant Bly|QID|2768|M|38.72,20.01||QO|1|N|After you fight the troll waves do
 K Hydromancer Velratha|QID|3527|M|38.72,20.01|QO|2|S|N|Kill and then loot the Second Mosh'aru Tablet.|
 C Tiara of the Deep|QID|2846|M|38.72,20.01|N|Make your way south to the pool and you will see her at one end. After you clear the area and patrols, fight, kill and then loot the Tiara.|
 K Hydromancer Velratha|QID|3527|M|38.72,20.01|QO|2|US|N|Make your way south to the pool and you will see her at one end. After you clear the area and patrols, fight, kill and then loot the Second Mosh'aru Tablet.|
-K Gahz'rilla|QID|2770|M|38.72,20.01|N|You or someone in your group will need the Mallet to summon him. Make sure you do this after Velratha and have the room clear. The fight is easier melee position themselves near the water to fall into when the get knocked up in the air.|
+K Gahz'rilla|QID|2770|M|38.72,20.01|QO|1|N|You or someone in your group will need the Mallet to summon him. Make sure you do this after Velratha and have the room clear. The fight is easier melee position themselves near the water to fall into when the get knocked up in the air.|
 C Scarab Shells|QID|2865|M|38.72,20.01|US|N|Kill Scarabs to loot their Shells.|
 C Troll Temper|QID|3042|M|38.72,20.01|US|N|Kill Sandfury Trolls for the temper.|
 
@@ -64,6 +64,7 @@ T Troll Temper|QID|3042|M|51.41,28.75|Z|Tanaris|N|To Trenton Lighthammer.|
 T Divino-matic Rod|QID|2768|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 T The Prophecy of Mosh'aru|QID|3527|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya.|
 A The Ancient Egg|QID|4787|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya.|PRE|3527|
+F Theramore|ACTIVE|2846|M|51.01,29.34|Z|Tanaris|N|Fly to Dustwallow Marsh.|
 T Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha. Fly to Theramore if you want to turn this in now.|
 N Zul'Farrak Complete.|QID|2991|M|PLAYER|Z|Tanaris|N|The other 2 quest chains will continue within scope of the chapter 3 guide. But you can turn them in if you won't be following it.|
 
