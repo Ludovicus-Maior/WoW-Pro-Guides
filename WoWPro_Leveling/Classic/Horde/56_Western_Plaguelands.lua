@@ -40,7 +40,7 @@ H Undercity|
 T Better Late Than Never|QID|5023|
 A The Jeremiah Blues|QID|5049|PRE|5023|
 T The Jeremiah Blues|QID|5049|
-A Good Luck Charm|QID|5050|
+A Good Luck Charm|QID|5050|PRE|5049|
 
 T Return to the Bulwark|QID|5230|
 A Target: Dalson's Tears|QID|5231|PRE|5230|
