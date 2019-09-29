@@ -42,8 +42,8 @@ t Messenger to Westfall|QID|144|M|29.99,44.44|Z|Redridge Mountains|N|To Magistra
 A Messenger to Darkshire|QID|145|M|29.99,44.44|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|144|
 A Selling Fish|QID|127|M|27.8,47.3|N|From Dockmaster Baren.|
 A Murloc Poachers|QID|150|M|27.8,47.3|N|From Dockmaster Baren.|
-A Underbelly Scales|QID|122|M|30.96,47.27|N|From Verner Osgood.|
-A A Baying of Gnolls|QID|124|M|30.96,47.27|N|From Verner Osgood.|
+A Underbelly Scales|QID|122|PRE|119|M|30.96,47.27|N|From Verner Osgood.|
+A A Baying of Gnolls|QID|124|PRE|119|M|30.96,47.27|N|From Verner Osgood.|
 C Underbelly Scales|QID|122|M|30.96,47.27|S|N|Kill Black Dragon Whelps.|
 C Selling Fish|QID|127|M|38.23,51.25|S|N|Kill Murlocs until you get the items for this quest.|
 C Murloc Poachers|QID|150|M|40.00,45.00|N|Kill Murlocs until you get the items for this quest.|
