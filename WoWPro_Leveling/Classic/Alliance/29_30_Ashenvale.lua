@@ -23,7 +23,7 @@ A The Branch of Cenarius|QID|1031|M|78.2,44.8|N|To Anilia.|PRE|1021|
 C The Branch of Cenarius|QID|1031|M|78,42.48|N|Kill Geltharis.|
 C The Tower of Althalaxx|QID|1140|M|81.59,48.58|Z|Ashenvale|QO|2|N|Click on the Crystal from Satynaar.|
 T Kayneth Stillwind|QID|4581|M|85.28,44.72|N|From Shindrell Swiftfire.|
-A Forsaken Diseases|QID|1011|M|85.28,44.72|N|From Kayneth Stillwind.|
+A Forsaken Diseases|QID|1011|M|85.28,44.72|N|From Kayneth Stillwind.|PRE|4581|
 C Raene's Cleansing|QID|1027|M|75.3,71.85|S|N|Kill Slimes until they drop a Rusty Chest. This isn't loot, the chest drops out of their corpse for you to interact with.|
 R Forsaken Diseases|QID|1011|M|78.6,55.57;75.9,66.93|CC|N|Go south then follow the road toward Splintertree Post.|
 C Forsaken Diseases|QID|1011|M|75.3,72.22|N|Loot a Bottle of Disease.|
@@ -49,7 +49,7 @@ T Raene's Cleansing|QID|1029|M|36.6,49.6|N|To Raene Wolfrunner. Don't get follow
 N Rod of Transformation|QID|1030|M|36.6,49.6|N|Raenes questline has 2 more quests really out of the way. If you complete the quest you lose the Rod of Transformation a lot of people like to keep. If you want to play out her story, set WoW-Pro Rank to 3 for out of the way quests. If you want the rod, accept the next quest then abandon it. Click off this step when done.|
 A Raene's Cleansing|QID|1030|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1029|RANK|3|
 T The Howling Vale|QID|1022|M|22.24,52.98|N|To Sentinel Melyria Frostshadow.|
-A Velinde Starsong|QID|1037|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|
+A Velinde Starsong|QID|1037|M|22.24,52.98|N|From Sentinel Melyria Frostshadow.|PRE|1022|
 T The Branch of Cenarius|QID|1031|M|21.74,53.35|N|To Illiyana.|
 A Satyr Slaying!|QID|1032|M|21.74,53.35|N|From Illiyana.|PRE|1031|RANK|3|
 T Raene's Cleansing|QID|1030|M|50.8,75|N|To Krolg. Be sure to use your rod so you can speak with him.|U|5462|
