@@ -298,9 +298,9 @@ F Sun Rock Retreat|ACTIVE|5361|M|46.8,50|Z|Thunder Bluff|N|At Tal, Wind Rider Ma
 R Desolace|ACTIVE|5361|M|30.18,75.94|Z|Desolace|N|Run up the passage above Sun Rock Retreat and across the Charred Vale, to the pass at the marked waypoint.|
 
 R Kormek's Hut|ACTIVE|5361|M|62.00,38.00|Z|Desolace|N|After entering Desolace, go south and slightly southeast to find Kormek's Hut.|
-A Bone Collector|QID|5501|M|62.00,38.00|Z|Desolace|N|From Bibbly F'utzbuckle.|
-R Ethel'rethor|ACTIVE|5361|M|38.00,26.00|Z|Desolace|N|Go west to the big tower named Ethel'rethor.|
-A Sceptre of Light|QID|5741|M|38.00,26.00|Z|Desolace|N|From Azore Aldamort.|
+A Bone Collector|QID|5501|M|62.2,38.8|Z|Desolace|N|From Bibbly F'utzbuckle.|
+R Ethel'rethor|ACTIVE|5361|M|38.8,27|Z|Desolace|N|Go west to the big tower named Ethel'rethor.|
+A Sceptre of Light|QID|5741|M|38.8,27.2|Z|Desolace|N|From Azore Aldamort.|
 A Claim Rackmore's Treasure!|QID|6161|M|36.00,30.00|Z|Desolace|N|Then go southwest of the tower, along the coast you should find a book on a barrel, the book is named "Rackmore's Log".|
 R Ghost Walker Post|ACTIVE|5361|M|56.00,56.00|Z|Desolace|N|Go southeast until Ghost Walker Post's main entrance
 A Gelkis Alliance|QID|1368|M|56.00,56.00|Z|Desolace|N|Gurda Wildmane can be found just a bit to the south of Ghost Walker Post, near a small hut.|
@@ -332,7 +332,7 @@ R Kolkar Village|ACTIVE|1365|M|73.00,47.00|Z|Desolace|N|Go east to the Kolkar Vi
 K Khan Dez'Hepah|ACTIVE|1365|QO|1|M|73.00,47.00|Z|Desolace|T|Khan Dez'Hepah|N|Kill Khan Dez'Hepah, who spawns in several places around the camp. The target button may help you find him. Loot his head.|
 T Khan Dez'Hepah|QID|1365|M|56.20,59.60|Z|Desolace|N|To Felgor Twocuts at Ghostwalker Post.|
 T Catch of the Day|QID|5386|M|55.40,55.80|Z|Desolace|N|To Nakata Longhorn.|
-T Bone Collector|QID|5501|M|62.30,39.00|Z|Desolace|N|Go northeast to Kormek's Hut.|
+T Bone Collector|QID|5501|M|62.2,38.8|Z|Desolace|N|To Bibbly F'utzbuckle.|
 
 R Satyr Village|ACTIVE|1434|M|75.00,28.00|Z|Desolace|N|Go northeast to the Satyr Village of Sargeron.|
 C Befouled by Satyr|QID|1434|M|75.00,28.00|Z|Desolace|N|Kill Satyrs till the quest is completed.|
@@ -344,8 +344,8 @@ C The Burning of Spirits|QID|1435|U|6436|US|M|56.40,30.80|Z|Desolace|N|Attack mo
 N Flayed Demon Skin|QID|1480|M|56.40,30.80|Z|Desolace|L|20310|N|Kill everything in the fortress untill you find a Flayed Demon Skin.|
 A The Corrupter|QID|1480|U|20310|M|57.80,21.70|Z|Desolace|N|From the Flayed Demon Skin.|
 
-T Sceptre of Light|QID|5741|M|38.90,27.20|Z|Desolace|N|To Azore Aldamort at the tower of Ethel Rethor.|
-A Book of the Ancients|QID|6027|M|38.90,27.20|Z|Desolace|N|From Azore Aldamort.|
+T Sceptre of Light|QID|5741|M|38.8,27.2|Z|Desolace|N|To Azore Aldamort at the tower of Ethel Rethor.|
+A Book of the Ancients|QID|6027|M|38.8,27.2|Z|Desolace|N|From Azore Aldamort.|
 
 C Clam Bait|QID|6142|U|15874|M|33.00,31.00|Z|Desolace|S|NC|N|Go west to the shore, follow it south until you see the mast of a wrecked ship, sticking out of the water at the waypoint. Open the clams around here. Then click to open the clam shells and find the needed meat.|
 N Silver Key|QID|6161|QO|1|Z|Desolace|N|In the same area you'll find those giant lobsters named Drysnap Crawlers and Pincers. Kill those until you find a Silver Key.|
@@ -356,7 +356,7 @@ T Claim Rackmore's Treasure!|QID|6161|M|30.00,9.00|Z|Desolace|N|Swim northwest, 
 C Book of the Ancients|QID|6027|M|28.17,6.20|Z|Desolace|N|Go to the northern tip of the isle, you should find a Serpent Statue . Clear the few nagas around it, get full HP/MANA then go click the statue, this will spawn Lord Kragaru, a level 38 naga. Kill and loot him.|
 K Level Check|ACTIVE|6143|M|28.17,6.20;38.00,27.00|CN|Z|Desolace|LVL|37;60880|N|Stay on and around the island and grind until you are about 4 bubbles from 38.|
 C Other Fish to Fry|QID|6143|M|38.00,27.00|Z|Desolace|N|Swim southeast, back towards the tower of Ethel Rethor, kill the remaining Slitherblade you need on your way back.|
-T Book of the Ancients|QID|6027|M|38.90,27.20|Z|Desolace|N|To Azore Aldamort|
+T Book of the Ancients|QID|6027|M|38.8,27.2|Z|Desolace|N|To Azore Aldamort|
 
 T The Burning of Spirits|QID|1435|M|52.20,53.40|Z|Desolace|N|To Maurin Bonesplitter, back at Ghost Walker Post.|
 T The Corrupter|QID|1480|M|52.20,53.40|Z|Desolace|N|To Maurin Bonesplitter.(skip follow up)|
