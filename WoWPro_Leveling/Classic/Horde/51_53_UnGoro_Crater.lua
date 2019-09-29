@@ -14,14 +14,14 @@ A The Fare of Lar'korwi|QID|4290|M|71.6,76.0|
 
 A It's a Secret to Everybody|QID|3844|M|63.04,68.54|N|Find the wrecked raft.|
 T It's a Secret to Everybody|QID|3844|N|The pack is underwater at the waypoint.|M|63.08,69.03|
-A It's a Secret to Everybody|QID|3845|M|63.1,69.1|N|From a small pack.|
+A It's a Secret to Everybody|QID|3845|PRE|3844|M|63.1,69.1|N|From a small pack.|
 C The Fare of Lar'korwi|QID|4290|M|68.80,56.70|N|Find the Threshadon Carcass amongst the raptors.|
 
 T The Fare of Lar'korwi|QID|4290|M|71.6,76.0|N|To Torwa Pathfinder|
-A The Scent of Lar'korwi|QID|4291|M|71.6,76.0|N|From Torwa Pathfinder|
+A The Scent of Lar'korwi|QID|4291|PRE|4290|M|71.6,76.0|N|From Torwa Pathfinder|
 C The Scent of Lar'korwi|QID|4291|M|60.00,72.00;62,65;63,77;67,73;67,67;58,78;70,61|CN|N|Find the egg nests and stand on them|
 T The Scent of Lar'korwi|QID|4291|M|71.6,76.0|N|To Torwa Pathfinder|
-A The Bait for Lar'korwi|QID|4292|M|71.6,76.0|N|From Torwa Pathfinder|
+A The Bait for Lar'korwi|QID|4292|PRE|4291|M|71.6,76.0|N|From Torwa Pathfinder|
 K Raptors|AVAILABLE|3884|S!US|N|Kill all the raptors you see until you get Williden's Journal to drop.|L|11116|
 A Williden's Journal|QID|3884|U|11116|N|Kill raptors until the journal drops to start this quest|
 
@@ -37,7 +37,7 @@ A Beware of Pterrordax|QID|4501|M|43.6,8.4|N|From Wanted Poster.|
 A Roll the Bones|QID|3882|M|43.6,7.3|N|From Spark Nilminer.|
 A Alien Ecology|QID|3883|M|43.9,7.2|N|From Hol'anyee Marshal.|
 T Williden's Journal|QID|3884|M|43.9,7.2|N|To Williden Marshal.|
-A Expedition Salvation|QID|3881|M|43.9,7.2|N|From Williden Marshal.|PRE|3884|
+A Expedition Salvation|QID|3881|M|43.9,7.2|N|From Williden Marshal.|
 T It's a Secret to Everybody|QID|3845|M|44.7,8.1|N|To Linken.|
 A It's a Secret to Everybody|QID|3908|M|44.7,8.1|N|From Linken.|PRE|3845|
 A Larion and Muigin|QID|4145|M|45.5,8.7|N|Hidden on the north side of the valley.|
@@ -92,7 +92,7 @@ T Making Sense of It|QID|4321|M|41.9,2.7|N|To J. D. Callie.|
 K Oozes|L|12235 30|ACTIVE|4294|M|44,22;49,35;60,54;52,67;42,64|CS|N|Kill Oozes as you head south towards Volcano, around the east side, and then around below the south side of the volcano. Unless you wantt to come back for more it is recommended you gather around 30.|
 
 T Finding the Source|QID|974|M|30.90,50.40|N|To Krakle, over at the Hot Springs.|
-A The New Springs|QID|980|M|30.90,50.40|N|From Krakle.|
+A The New Springs|QID|980|PRE|974|M|30.90,50.40|N|From Krakle.|
 
 R Silithus|M|29.00,22.00|N|Take the path up out of the crater in the northwest corner of the zone.|
 R Cenarion Hold|M|51,39|Z|Silithus|N|Follow the road southwest.|
@@ -105,7 +105,7 @@ H Thunder Bluff|AVAILABLE|3761|M|51.6,25.4|Z|Tanaris|N|Hearth or Fly to Thunder 
 A Assisting Archdruid Runetotem|QID|3762|M|45.6,64.2|Z|Thunder Bluff|N|From Innkeeper Pala.|
 A Un'Goro Soil|QID|3761|M|78.4,28.4|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem On Elder Rise|
 T Un'Goro Soil|QID|3761|M|77.4,22.4|Z|Thunder Bluff|N|To Ghede.|
-A Morrowgrain Research|QID|3782|M|78.4,28.4|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem.|
+A Morrowgrain Research|QID|3782|PRE|3761|M|78.4,28.4|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem.|
 T Morrowgrain Research|QID|3782|M|70.6,33|Z|Thunder Bluff|N|To Bashana Runetotem.|
 
 F Crossroads|ACTIVE|4502|M|46.8,50|Z|Thunder Bluff|N|At Wind Rider Master Tal.|
