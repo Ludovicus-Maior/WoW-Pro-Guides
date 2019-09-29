@@ -88,7 +88,7 @@ C Bathran's Hair|QID|1010|M|30.45,25.51|N|Loot five Bathran's Hair from Plant Bu
 T Bathran's Hair|QID|1010|M|26.4,38.6|N|To Orendil Broadleaf.|
 A Orendil's Cure|QID|1020|M|26.4,38.6|N|From Orendil Broadleaf.|PRE|1010|
 H Astranaar|QID|1020|M|34.68,48.84|N|Hearth or Run back to Astranaar.|
-T Culling the Threat|QID|1054|M|36.6,49.6|N|To Raene Wolfrunner.
+T Culling the Threat|QID|1054|M|36.6,49.6|N|To Raene Wolfrunner.|
 T Orendil's Cure|QID|1020|M|37.36,51.79|N|To Pelturas Whitemoon.|
 A Elune's Tear|QID|1033|M|37.36,51.79|N|From Pelturas Whitemoon. This quest becomes available about 20 seconds after turning in the previous one.|PRE|1020|
 N Sell junk and repair|QID|1033|M|35.78,52.04|N|Close this step when you're done.|
@@ -109,7 +109,7 @@ T Further Instructions|QID|1094|M|62.98,37.22|Z|The Barrens|N|To Sputtervalve. D
 f Ratchet Flightpoint|QID|1017|M|63.09,37.16|Z|The Barrens|N|Grab the Ratchet flightpoint from Bragok.|
 H Astranaar|QID|1033|M|34.68,48.84|N|Hearth or Run back to Astranaar.|
 A Raene's Cleansing|QID|1024|M|36.6,49.6|N|From Raene Wolfrunner.|PRE|1023|
-T An Aggressive Defense|QID|1025|M|36.6,49.6|N|To Raene Wolfrunner.
+T An Aggressive Defense|QID|1025|M|36.6,49.6|N|To Raene Wolfrunner.|
 T Elune's Tear|QID|1033|M|37.36,51.79|N|To Pelturas Whitemoon.|
 A The Ruins of Stardust|QID|1034|M|37.4,51.8|N|From Pelturas Whitemoon.|PRE|1033|
 T Raene's Cleansing|QID|1024|M|53.52,46.28|N|To Shael'dryn.|
