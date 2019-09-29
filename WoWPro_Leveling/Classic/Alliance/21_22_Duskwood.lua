@@ -5,7 +5,7 @@ local guide = WoWPro:RegisterGuide('ClassicDuskwood2122', 'Leveling', 'Duskwood'
 WoWPro:GuideName(guide, 'Duskwood 21-22')
 WoWPro:GuideLevels(guide, 21, 22, 21)
 WoWPro:GuideNextGuide(guide, 'ClassicWetlands2223')
-WoWPro:GuideSteps(guide, function() 
+WoWPro:GuideSteps(guide, function()
 return [[
 
 h Darkshire|QID|163|M|73.90,44.40|N|Set your home location to Darkshire.|
