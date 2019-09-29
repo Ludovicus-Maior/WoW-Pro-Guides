@@ -15,7 +15,7 @@ F Redridge Mountains|QID|128|M|70.90,72.60|Z|Stormwind City|N|Fly to Lakeshire i
 
 N Sell junk, repair, restock|QID|126|M|27.05,45.65|N|The majority of quests left in the zone now may require a group to be effective. Close this step when you're done.|
 A Blackrock Bounty|QID|128|M|31.54,57.86|N|From Guard Howe.|
-A Blackrock Menace|QID|20|M|33.49,48.99|N|From Marshal Marris.| 
+A Blackrock Menace|QID|20|M|33.49,48.99|N|From Marshal Marris.|
 A Howling in the Hills|QID|126|M|30.96,47.27|N|From Verner Osgood.|PRE|124|
 T Messenger to Darkshire|QID|146|M|29.99,44.44|N|To Magistrate Solomon.|
 A An Unwelcome Guest|QID|34|M|21.9,46.3|N|From Martie Jainrose.|
@@ -27,10 +27,10 @@ C Missing in Action|QID|219|M|33.4,48.94|N|Escort him out of the cave and back t
 T Missing in Action|QID|219|M|33.4,48.94|N|To Marshal Marris.|
 C Blackrock Bounty|QID|128|M|29.2,11.60|N|Kill Blackrock Champions.|
 C Blackrock Menace|QID|20|M|47.46,29.39;42.10,12.40|CN|US|N|Kill Orcs until you get the items for this quest.|
-T Blackrock Menace|QID|20|M|33.49,48.99|N|To Marshal Marris.| 
+T Blackrock Menace|QID|20|M|33.49,48.99|N|To Marshal Marris.|
 A Tharil'Zun|QID|19|M|33.49,48.99|N|From Marshal Marris.|PRE|20|
 A Shadow Magic|QID|115|M|33.49,48.99|N|From Marshal Marris.|PRE|20|
-T Blackrock Bounty|QID|128|M|31.54,57.86|N|To Guard Howe.| 
+T Blackrock Bounty|QID|128|M|31.54,57.86|N|To Guard Howe.|
 A Wanted: Gath'Ilzogg|QID|169|M|29.62,46.18|N|From the wanted poster on the townhall archway.|
 A Wanted: Lieutenant Fangore|QID|180|M|26.77,46.44|N|From poster in front of the Inn.|
 A Solomon's Law|QID|91|M|29.72,44.26|N|From Bailiff Conacher.|
@@ -49,7 +49,7 @@ T Looking Further|QID|248|M|63.2,49.8|N|To An Empty Jar, At the top of the tower
 C Shadow Magic|QID|115|M|66.77,53.82|US|N|Kill the Blackrock Shadowcasters in the area and loot their orbs.|
 T Tharil'Zun|QID|19|M|33.49,48.99|N|To Marshal Marris.|
 T Shadow Magic|QID|115|M|33.49,48.99|N|To Marshal Marris.|
-T Howling in the Hills|QID|126|M|30.96,47.27|N|To Verner Osgood.
+T Howling in the Hills|QID|126|M|30.96,47.27|N|To Verner Osgood.|
 T Solomon's Law|QID|91|M|29.72,44.26|N|To Bailiff Conacher.|
 T Wanted: Gath'Ilzogg|QID|169|M|29.99,44.44|N|To Magistrate Solomon.|
 T Wanted: Lieutenant Fangore|QID|180|M|29.99,44.44|N|To Magistrate Solomon.|
