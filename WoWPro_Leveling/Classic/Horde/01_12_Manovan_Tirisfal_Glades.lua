@@ -153,7 +153,7 @@ K Thurman Agamand|QID|354|M|44.02,33.77|QO|3|N|Slightly south-west near a windmi
 C The Mills Overrun|QID|426|M|48.4,42.1|QO|1;2|N|Kill mobs here until you complete this quest.|US|
 
 L Level 10|LVL|9;1015|N|Run back to Brill instead of hearthing. You need to be level 10 after you turn in your quests in Brill.|
-H Gallows' End Tavern|QID|361|N|Hearth back to Brill.|
+H Gallows' End Tavern|QID|362|N|Hearth back to Brill.|
 
 A A Letter Undelivered|QID|361|U|2839|N|If you didn't get the letter by now just take the quest later on when it drops. We will come back to Agamand Mills soon.|
 T A Letter Undelivered|QID|361|M|61.57,52.60|N|To Yvette Farthing in the Tavern.|
@@ -193,10 +193,10 @@ T Speak with Coleman|QID|1820|C|Warrior|M|61.72,52.28|N|To Coleman Farthing by t
 A Agamand Heirlooms|QID|1821|C|Warrior|M|61.72,52.28|N|From Coleman Farthing.|PRE|1820|
 
 ; Undercity
-R Undercity|QID|357|M|61.86,65.04|N|Go south to Undercity.|
+R Undercity|QID|405|M|61.86,65.04|N|Go south to Undercity.|
 N Things to do|ACTIVE|405|N|This is a good time to pick up a profession. Pick up Cooking even if you don't want to skill it up, it unlocks cooking quests which are used in Jame's guides. Ask a guard for directions to the profession trainers. Since this is the first time we're in a city, take your time to visit the AH, train weapon skills and put stuff you don't need in the bank. Close this step once finished.|
 N Basil Frye|ACTIVE|405|M|60.18,29.10|Z|Undercity|N|Journeyman blacksmithing trainer, in Undercity's War Quarter.|
-N Eunice Burch|ACTIVE|405|M|62.16,44.87|Z|Undercity|P|Cooking;185;;true|N|Cooking trainer, Undercity's Trade Quarter on the west side, middle tier.|
+N Eunice Burch|ACTIVE|405|M|62.16,44.87|Z|Undercity|P|Cooking;185;0+0;1|N|Cooking trainer, Undercity's Trade Quarter on the west side, middle tier.|
 N Graham Van Talen|ACTIVE|405|M|75.32,73.12|Z|Undercity|N|Journeyman engineering trainer, in Undercity's Rogues' Quarter (Southeastern).|
 N Armand Cromwell|ACTIVE|405|M|80.8,31.2|Z|Undercity|N|Fishing trainer, in Undercity's Magic Quarter (Northestern).|
 N Brom Killian|ACTIVE|405|M|56.0,37.0|Z|Undercity|N|Mining trainer. Undercity's War Quarter, inner ring.|
@@ -226,21 +226,25 @@ F Undercity|QID|1898|C|Rogue|
 ; Warlock
 T Halgar's Summons|QID|1478|C|Warlock|M|85.00,26.00|Z|Undercity|N|To Carendin Halgar in the Magic Quarter.|
 A Creature of the Void|QID|1473|C|Warlock|M|85.00,26.00|Z|Undercity|N|From Carendin Halgar.|PRE|1478|
-C Creature of the Void|QID|1473|C|Warlock|M|53.01,65.76|N|Leave Undercity through the Sewers. You'll end up at the Scarlet tower we were at before.\nFight your way into the tower where you'll find Perrine's Chest. Loot Egalin's Grimoire.|
+R Leave Undercity|QID|1473|C|Warlock|M|46.87,43.91;40.98,33.42;14.74,31.90|CC|Z|Undercity|N|Exit Undercity through the Sewers. You'll come out at the Scarlet Tower where you were before.|
+C Creature of the Void|QID|1473|C|Warlock|M|52.05,67.73;51.05,67.59|CC|QO|1|N|Fight your way into the tower where you'll find Perrine's Chest. Loot Egalin's Grimoire.|NC|
+R Back to Undercity|QID|1473|C|Warlock|M|50.99,71.81|CC|N|Head back to Undercity through the Sewer.|
 T Creature of the Void|QID|1473|C|Warlock|M|85.00,26.00|Z|Undercity|N|To Carendin Halgar in Undercity.|
 A The Binding|QID|1471|C|Warlock|M|85.00,26.00|Z|Undercity|N|From Carendin Halgar.|PRE|1473|
-C The Binding|QID|1471|C|Warlock|N|Go into the circle, use the Runes of Summoning to summon a Voidwalker, and defeat it.|
+C The Binding|QID|1471|C|Warlock|M|86.66,26.99|Z|Undercity|QO|1|N|Go into the circle, use the Runes of Summoning to summon a Voidwalker, and defeat it.|U|6284|
 T The Binding|QID|1471|C|Warlock|M|85.00,26.00|Z|Undercity|N|To Carendin Halgar in Undercity.|
 
+R Leave Undercity|QID|359|M|65.99,36.85;66.22,0.90|CC|Z|Undercity|N|Take the elevator up and leave Undercity through the front gates.|
 T Forsaken Duties|QID|359|M|65.48,60.24|N|Leave the Undercity and follow the road north-east to Deathguard Linnea.|
 A Return to the Magistrate|QID|360|M|65.48,60.24|N|From Deathguard Linnea.|PRE|359|
 A Rear Guard Patrol|QID|356|M|65.48,60.24|N|From Deathguard Linnea.|
 
-N Rand Rhobart|ACTIVE|356|M|65.6,60.0|N|The Skinning Trainer|
+N Shelene Rhobart|ACTIVE|356|M|65.45,60.15|N|Journeyman leatherworking trainer.|
+N Rand Rhobart|ACTIVE|356|M|65.6,60.0|N|Skinning Trainer.|
 N Martine Tramblay|ACTIVE|356|M|65.8,59.6|N|Fishing Supplies, including fishing rods.|
-N Clyde Kellen|ACTIVE|356|M|67.2,51.0|N|Fisherman, Trainer. Waaay out by the lake.|
+N Clyde Kellen|ACTIVE|356|M|67.2,51.0|P|Fishing;356;0+0;1|N|Fishing trainer. Waaay out by the shore of Brightwater Lake.|
 
-C Rear Guard Patrol|QID|356|M|74.03,60.13|N|Follow the road east until you hit Balnir Farmstead. NOTE: Watch out for Felicient's Shade. It's a level 12 rare ghost roaming the fields.|
+C Rear Guard Patrol|QID|356|M|74.03,60.13|QO|1;2|N|Follow the road east until you hit Balnir Farmstead. NOTE: Watch out for Felicient's Shade. It's a level 12 rare ghost roaming the fields.|
 C Balnir Farmstead|QID|1882|C|Mage|M|77.43,61.77|N|Loot the Balnir Snapdragons.|NC|
 
 N Slumber Sand|ACTIVE|371|N|NOTE: Captain Vachon is level 11 and can be difficult for some classes. Especially since he has an add who will heal him. Now is a good time to use your Slumber Sand. Put it on your action bar and use it to crowd control the Friar while you kill Captain Vachon.|
