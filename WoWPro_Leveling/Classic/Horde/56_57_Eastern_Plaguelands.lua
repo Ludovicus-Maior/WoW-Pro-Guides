@@ -17,7 +17,7 @@ A Un-Life's Little Annoyances|QID|6042|M|23.00,68.17|N|Follow the road east to t
 A To Kill With Purpose|QID|6022|
 
 T Sister Pamela|QID|5601|
-A Pamela's Doll|QID|5149|
+A Pamela's Doll|QID|5149|PRE|5601|
 C Pamela's Doll|QID|5149|N|Parts are found in the houses nearby. Ghosts spawn when you get near them.|
 T Pamela's Doll|QID|5149|
 A Auntie Marlene|QID|5152|PRE|5149|
