@@ -37,7 +37,7 @@ A The Eye of Paleth|QID|292|M|14.38,24.05|N|From Intrepid's Locked Strongbox.|PR
 T The Eye of Paleth|QID|292|M|10.6,60.6|N|To Glorin Steelbrow. Run back, don't waste your hearth.|
 A Cleansing the Eye|QID|293|M|10.6,60.6|N|From Glorin Steelbrow.|PRE|292|
 T The Lost Ingots|QID|324|M|10.6,60.6|N|To Glorin Steelbrow.|
-A Blessed Arm|QID|322|M|10.6,60.6|N|From Glorin Steelbrow.|
+A Blessed Arm|QID|322|M|10.6,60.6|N|From Glorin Steelbrow.|PRE|324|
 F Stormwind City|QID|322|N|Fly to Stormwind|M|9.50,59.70|
 t The Missing Diplomat|QID|1245|M|59.90,64.19|Z|Stormwind City|N|To Elling Trias upstairs in Cheese Shop.|
 A The Missing Diplomat|QID|1246|M|59.90,64.19|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1245|
@@ -50,7 +50,7 @@ T The Missing Diplomat|QID|1247|M|59.90,64.19|Z|Stormwind City|N|To Elling Trias
 A The Missing Diplomat|QID|1248|M|59.90,64.19|Z|Stormwind City|N|From Elling Trias upstairs in Cheese Shop.|PRE|1247|
 T Cleansing the Eye|QID|293|M|39.6,27.23|Z|Stormwind City|N|To Archbishop Benedictus.|
 T Blessed Arm|QID|322|M|51.75,12.12|Z|Stormwind City|N|To Grimand Elmore.|
-A Armed and Ready|QID|325|M|51.75,12.12|Z|Stormwind City|N|From Grimand Elmore.|PRE|325|
+A Armed and Ready|QID|325|M|51.75,12.12|Z|Stormwind City|N|From Grimand Elmore.|PRE|322|
 t An Old History Book|QID|337|ACTIVE|337|M|74.19,7.46|Z|Stormwind City|N|To Milton Sheaf.|
 A Southshore|QID|538|M|74.19,7.46|Z|Stormwind City|N|From Milton Sheaf.|PRE|337|
 N Level 30|QID|1248|N|You are not supposed to be level 30 already, you're ahead of the curve, go train new skills now. Close this step when you're done.|LVL|30|
