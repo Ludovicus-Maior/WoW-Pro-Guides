@@ -21,44 +21,44 @@ F Booty Bay|QID|595|M|66.2,62.4|Z|Stormwind City|N|Fly to Booty Bay at Dungar Lo
 h Booty Bay|QID|595|M|27.00,77.30|N|Make Booty Bay your home location.|
 r Sell junk, repair, restock|QID|595|N|Sell junk, repair, restock.|
 T Goblin Sponsorship |QID|1180|M|26.3,73.6|N|To Wharfmaster Lozgil.|;duplicated from 30-40 guide
-A Goblin Sponsorship |QID|1181|M|26.3,73.6|N|From Wharfmaster Lozgil.|;duplicated from 30-40 guide
-A Skullsplitter Tusks|QID|209|M|27.0,77.1|N|From Kebok.|
+A Goblin Sponsorship |QID|1181|PRE|1180|M|26.3,73.6|N|From Wharfmaster Lozgil.|;duplicated from 30-40 guide
+A Skullsplitter Tusks|QID|209|PRE|189|M|27.0,77.1|N|From Kebok.|
 A Tran'rek|QID|2864|M|26.9,77.2|N|From Krazek.|
 A Zanzil's Secret|QID|621|M|27.1,77.2|N|From Crank Fizzlebub.|
 N Green Hills of Stranglethorn|QID|6504|Z|Stranglethorn Vale|N|While you are in Booty Bay, check the AH to see if any of the Stranglethorn Lost Pages you are missing are for sale. This is our last trip to Stranglethorn Vale, so you want to have all 4 chapters complete as soon as possible:\nChapter I: page 1,4,6,8\nChapter II: page 10,11,14,16\nChapter III: page 18,20,21,24\nChapter IV: page 25,26,27|
 A Akiris by the Bundle |QID|617|M|26.8,76.4|N|From Privateer Bloads.|
 A The Bloodsail Buccaneers |QID|595|M|28.1,76.2|N|From First Mate Crazz.|
-A Venture Company Mining|QID|600|M|27.1,77.2|N|From Crank Fizzlebub.|
+A Venture Company Mining|QID|600|PRE|605|M|27.1,77.2|N|From Crank Fizzlebub.|
 T Goblin Sponsorship |QID|1181|M|27.20,76.90|N|To Baron Revilgaz.|;duplicated from 30-40 guide
-A Goblin Sponsorship |QID|1182|M|27.20,76.90|N|From Baron Revilgaz.|;duplicated from 30-40 guide
+A Goblin Sponsorship |QID|1182|PRE|1181|M|27.20,76.90|N|From Baron Revilgaz.|;duplicated from 30-40 guide
 A Scaring Shaky|QID|606|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|
-A "Pretty Boy" Duncan|QID|610|N|Accept this quest if you do not have it.|
+A "Pretty Boy" Duncan|QID|610|PRE|603|N|Accept this quest if you do not have it.|
 K "Pretty Boy" Duncan|ACTIVE|610|M|27.50,69.35|T|"Pretty Boy" Duncan|N|Kill Pretty Boy Duncan at this location and loot the blade from him.|
 T The Bloodsail Buccaneers |QID|595|M|27.30,69.50|N|To 'Bloodsail Correspondence' on a barrel in the camp.|
-A The Bloodsail Buccaneers |QID|597|M|27.3,69.5|N|From 'Bloodsail Correspondence'.|
+A The Bloodsail Buccaneers |QID|597|PRE|595|M|27.3,69.5|N|From 'Bloodsail Correspondence'.|
 C Akiris by the Bundle|QID|617|M|26.00,62.00|N|Kill Nagas here until you get the Akiris Reeds needed for the quest.|
 C Scaring Shaky|QID|606|M|33,65|N|Kill Gorillas here until you get the items needed for this quest.|
 R Booty Bay|ACTIVE|606|M|26.9,73.6|N|Return to Booty Bay.|
 T Scaring Shaky|QID|606|M|26.9,73.6|N|To "Shaky" Philippe.|
-A Return to MacKinley|QID|607|M|26.9,73.6|N|From "Shaky" Philippe.|
+A Return to MacKinley|QID|607|PRE|606|M|26.9,73.6|N|From "Shaky" Philippe.|
 T The Bloodsail Buccaneers |QID|597|M|28.1,76.2|N|To First Mate Crazz.|
-A The Bloodsail Buccaneers |QID|599|M|28.1,76.2|N|From First Mate Crazz.|
+A The Bloodsail Buccaneers |QID|599|PRE|597|M|28.1,76.2|N|From First Mate Crazz.|
 T Akiris by the Bundle |QID|617|M|26.8,76.4|N|To Privateer Bloads.|
-A Akiris by the Bundle |QID|623|M|26.8,76.4|N|From Privateer Bloads.|
+A Akiris by the Bundle |QID|623|PRE|617|M|26.8,76.4|N|From Privateer Bloads.|
 T "Pretty Boy" Duncan|QID|610|N|To Catelyn the Blade. (skip her follow-up)|
-A Up to Snuff|QID|587|M|26.9,77.3|N|From Deeg (upstairs)|
+A Up to Snuff|QID|587|PRE|595|M|26.9,77.3|N|From Deeg (upstairs)|
 T The Bloodsail Buccaneers |QID|599|M|27.2,77.0|N|To Fleet Master Seahorn.|
-A The Bloodsail Buccaneers |QID|604|M|27.2,77.0|N|From Fleet Master Seahorn.|
+A The Bloodsail Buccaneers |QID|604|PRE|599|M|27.2,77.0|N|From Fleet Master Seahorn.|
 T Return to MacKinley|QID|607|M|27.78,77.07|N|To "Sea Wolf" MacKinley.|
-A Voodoo Dues|QID|609|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|
-A Keep An Eye Out|QID|576|M|28.6,75.9|N|From Dizzy One-Eye.|
+A Voodoo Dues|QID|609|PRE|607|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|
+A Keep An Eye Out|QID|576|PRE|595|M|28.6,75.9|N|From Dizzy One-Eye.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock.|
 
 C The Bloodsail Buccaneers |QID|604|M|28,83;27,83;30,80|CN|N|Exit town and go to the beach. Kill Bloodsail mobs while moving to this location. Loot the Bloodsail Charts and Bloodsail Orders from the camps in the area. Check at each of the locations marked.|
 C Up to Snuff|QID|587|M|32.8,76.2|N|Continue to kill Bloodsail mobs until you get 15 Snuff.|
 C Keep An Eye Out|QID|576|M|32.8,76.2|N|Continue to kill Bloodsail mobs until you get Dizzy's Eye. (Random from any)|
-A Panther Mastery|QID|192|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
-A Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
+A Panther Mastery|QID|192|PRE|191|M|35.55,10.55|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
+A Raptor Mastery|QID|196|PRE|195|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|
 C Panther Mastery|QID|192|S|N|From now on, kill any Shadowmaw Panther you see. They are stealthed.|
 C Venture Company Mining|QID|600|M|41.00,43.60|N|Kill Venture Co. Mobs until you get the 10 Singing Blue Crystals for this quest.|
 C Raptor Mastery|QID|196|M|32.80,40.30|N|Kill 10 Jungle Stalkers near this location.|
@@ -79,22 +79,22 @@ C The Emperor's Tomb|QID|207|QO|4|M|21,10;22.90,12.00|CS|NC|N|Into the ruins, le
 C Fall of Gurubashi|QID|207|QO|3|M|24.70,8.90|NC|N|Go back to the fork and take the ramp up to the right, then uturn at top to find and loot the scroll from this location.|
 R Nessingwary's Camp|ACTIVE|192^193|M|35.8,10.7|
 T Panther Mastery|QID|192|M|35.55,10.55|N|To Sir S.J Erlgadin.|
-A Panther Mastery |QID|193|M|35.6,10.6|GROUP|2|N|From S.J. Erlgadin. Part of an optional line. This cat is sometimes hard to find.|
+A Panther Mastery |QID|193|PRE|192|M|35.6,10.6|GROUP|2|N|From S.J. Erlgadin. Part of an optional line. This cat is sometimes hard to find.|
 T Raptor Mastery|QID|196|M|35.66,10.81|N|To Hemet Nesingwary.|
-A Raptor Mastery|QID|197|M|35.6,10.6|N|From Hemet Nesingwary.|GROUP|2|
-A Tiger Mastery|QID|188|M|35.6,10.6|N|From Ajeck Rouack.|GROUP|2|
+A Raptor Mastery|QID|197|PRE|196|M|35.6,10.6|N|From Hemet Nesingwary.|GROUP|2|
+A Tiger Mastery|QID|188|PRE|187|M|35.6,10.6|N|From Ajeck Rouack.|GROUP|2|
 K Bhag'thera|ACTIVE|193|QO|1|M|48,28;46,28;48,20|CN|T|Bhagthera|N|Spawns at multiple places and wanders, stealthed.|
 K Tethis|ACTIVE|197|QO|1|M|28,43;31,40;31,43|CN|T|Tethis|N|Spawns at multiple points.|
 K Sin'dall|ACTIVE|188|QO|1|M|33,18|T|Sin'Dall|N|Spawns on top of this hill.|
 T Panther Mastery|QID|193|M|35.6,10.6|N|To S.J. Erlgadin, back at Nesingwary's Expedition.|
 T Raptor Mastery|QID|197|M|35.6,10.6|N|To Hemet Nesingwary.|
 T Tiger Mastery|QID|188|M|35.6,10.6|N|To Ajeck Rouack.|
-A Big Game Hunter|QID|208|PRE|193&197&188|M|35.6,10.6|N|From Hemet Nesingwary.|
+A Big Game Hunter|QID|208|M|35.6,10.6|N|From Hemet Nesingwary.|
 K King Bangalash|ACTIVE|208|QO|1|M|38,37|T|King Bangalash|N|Very difficult fight without a full group at this level.|
 T Big Game Hunter|QID|208|PRE|193&197&188|M|35.6,10.6|N|To Hemet Nesingwary.|
-    
+
 R Rebel Camp|ACTIVE|207|M|37.8,3.4|N|Run on past the Rebel camp to the Kurzen compound.|
-A Colonel Kurzen|QID|202|M|38.0,3.1|Z|Stranglethorn Vale|N|From Lieutenant Doren.|
+A Colonel Kurzen|QID|202|PRE|574|M|38.0,3.1|Z|Stranglethorn Vale|N|From Lieutenant Doren.|
 A Kurzen's Mystery|QID|207|M|38.0,3.1|Z|Stranglethorn Vale|N|From Brother Nimetz.|
 C Kurzen Subchiefs & Elites|QID|202|QO|1;2|M|49,7|S|N|Kill the Elites and Subchiefs needed for the quest.|
 K Colonel Kurzen|ACTIVE|202|QO|3|M|49.44,4|T|Colonel Kurzen|N|Be sure to get the Colonel too.|
@@ -105,16 +105,16 @@ C "Gri"lek the Wanderer|QID|207|QO|2|M|24.75,22.86|NC|N|Loot the scroll from the
 C Moon Over the Vale|QID|207|QO|1|M|29.50,19.10|NC|N|Loot the scroll from the Tablet at this location.|
 T Kurzen's Mystery|QID|207|M|37.8,3.4|N|To Brother Nimetz.|
 T Colonel Kurzen|QID|202|M|38,3|N|To Lieutenant Doren.|
-    
+
 H Booty Bay|ACTIVE|609|M|35.8,10.7|N|Hearth back to Booty Bay.|
 T Venture Company Mining|QID|600|M|27.1,77.2|N|To Crank Fizzlebub.|
 T Zanzil's Secret|QID|621|M|27.1,77.2|N|To Crank Fizzlebub.|
 T Up to Snuff|QID|587|M|26.9,77.3|N|To Deeg.|
 T Skullsplitter Tusks|QID|209|M|27.0,77.1|N|To Kebok.|
 T Goblin Sponsorship|QID|1182|M|27.2,77.0|N|To Baron Revilgaz.|
-A Goblin Sponsorship|QID|1183|M|27.2,77.0|N|From Baron Revilgaz.|
+A Goblin Sponsorship|QID|1183|PRE|1182|M|27.2,77.0|N|From Baron Revilgaz.|
 T The Bloodsail Buccaneers|QID|604|M|27.2,77.0|N|To Fleet Master Seahorn. (skip followup if you are solo)|
-A The Bloodsail Buccaneers|QID|608|M|27.2,77.0|GROUP|2|N|From Fleet Master Seahorn.|
+A The Bloodsail Buccaneers|QID|608|PRE|604|M|27.2,77.0|GROUP|2|N|From Fleet Master Seahorn.|
 T Voodoo Dues|QID|609|M|27.78,77.07|N|To "Sea Wolf" MacKinley. (skip follow up).|
 A Stoley's Debt|QID|2872|M|27.78,77.07|N|From "Sea Wolf" MacKinley.|
 T Keep An Eye Out|QID|576|M|28.6,75.9|N|To Dizzy One-Eye.|
@@ -133,12 +133,12 @@ N The Lost Supplies|QID|1423|S!US|L|6172|N|Keep your eyes open for 'Scrattered C
 A Encroaching Wildlife|QID|1396|M|26.73,59.83|Z|Swamp of Sorrows|N|From Watcher Biggs.|
 C Encroaching Wildlife|QID|1396|M|26,60|Z|Swamp of Sorrows|N|Kill the animals in the area to complete the quest.|
 T Encroaching Wildlife|QID|1396|M|26.73,59.83|Z|Swamp of Sorrows|N|To Watcher Biggs.|
-A The Lost Caravan|QID|1421|M|26.73,59.83|Z|Swamp of Sorrows|N|From Watcher Biggs.|
+A The Lost Caravan|QID|1421|PRE|1396|M|26.73,59.83|Z|Swamp of Sorrows|N|From Watcher Biggs.|
 R Misty Valley|ACTIVE|1364|M|13,35|Z|Swamp of Sorrows|N|Run into this hidden valley full of swamp elementals.|
-C Mazen's Behest|QID|1364|M|13.00,35.00|Z|Swamp of Sorrows|N|Kill Swamp Elementals at this location until you get the item for this quest.  You may abandon this if the item does not drop in a reasonable amount of time.| 
+C Mazen's Behest|QID|1364|M|13.00,35.00|Z|Swamp of Sorrows|N|Kill Swamp Elementals at this location until you get the item for this quest.  You may abandon this if the item does not drop in a reasonable amount of time.|
 R The Harborage|ACTIVE|1364|M|26,31.4|Z|Swamp of Sorrows|N|Run east along the mountain.|
 A Draenethyst Crystals|QID|1389|M|26,31.4|Z|Swamp of Sorrows|N|From Magtoor.|
-R Fallow Sanctuary|ACTIVE|1389|M|54,28|Z|Swamp of Sorrows|N|Continue east along the mountain.| 
+R Fallow Sanctuary|ACTIVE|1389|M|54,28|Z|Swamp of Sorrows|N|Continue east along the mountain.|
 C Draenethyst Crystals|QID|1389|M|26,31.4|Z|Swamp of Sorrows|NC|N|Gather 6 Draenethyst Crystals (Big blue crystals scattered around the camp).|
 C The Lost Caravan|QID|1421|M|63,18|Z|Swamp of Sorrows|NC|N|Click the 'Caravan Chest' on the destoyed wagon and get the 'Wizards' Reagents'. Clear the  'lost ones' camps to the southwest of the cage to make the upcoming escort quest easier.|
 A Galen's Escape|QID|1393|M|65.4,18.2|Z|Swamp of Sorrows|N|From Galen Goodward. Advise clearing the 'lost ones' camp to the sw before you start the quest.|
@@ -162,7 +162,7 @@ A The Lost Supplies|QID|1423|U|6172|N|From the 'Lost Supplies' found in the 'Sca
 T The Lost Supplies|QID|1423|M|66.4,21.2|Z|Blasted Lands|N|To Quartermaster Lungertz.|
 T Deliver the Shipment|QID|1425|M|66.4,21.2|Z|Blasted Lands|N|To Quartermaster Lungertz.|
 t Mazen's Behest|QID|1364|M|67.65,19.19|Z|Blasted Lands|N|To Watcher Mahar Ba, at the top of the tower (watching).|
-f Nethergarde Keep|ACTIVE|1448|M|65.50,24.40|Z|Blasted Lands|N|Get the flight-path from Alexandra Constantine at the top of the tower.| 
+f Nethergarde Keep|ACTIVE|1448|M|65.50,24.40|Z|Blasted Lands|N|Get the flight-path from Alexandra Constantine at the top of the tower.|
 F Stormwind City|ACTIVE|1448|M|65.50,24.40|Z|Blasted Lands|N|Fly to Stormwind.|
 r Sell junk, repair, restock|ACTIVE|1448|N|Sell junk, repair, restock.|
 T In Search of The Temple|QID|1448|M|64,20|Z|Stormwind City|N|To Brohann Caskbelly, in the Dwarven District.|
@@ -171,7 +171,7 @@ N Dungeon Interlude|N|If you want to do Uldaman now is a good time. Check this s
 ;to do - add J step to (not yet created) guide to getting Uldaman quests.
 H The Salty Sailor Tavern|ACTIVE|623|N|Hearth to Booty Bay (or otherwise travel to Theramore).|
 b Ratchet|ACTIVE|623|M|25.80,73.10|N|Take the boat to Ratchet.|
-A Parts for Kravel|QID|1112|Z|The Barrens|M|63.4,38.5|N|From Wharfmaster Dizzywig.|
+A Parts for Kravel|QID|1112|PRE|1111|Z|The Barrens|M|63.4,38.5|N|From Wharfmaster Dizzywig.|
 
 F Theramore Isle|ACTIVE|623|Z|The Barrens|M|63.10,37.15|N|Fly to Theramore.|
 T Akiris by the Bundle|QID|623|M|68.8,53.2|Z|Dustwallow Marsh|N|To Privateer Gray.|
@@ -196,23 +196,23 @@ A WANTED: Andre Firebeard|QID|2875|M|66.8,22.4|Z|Tanaris|N|From Wanted Poster.|
 A Screecher Spirits|QID|3520|M|67.0,22.4|Z|Tanaris|N|From Yeh'kinya.|
 A Southsea Shakedown|QID|8366|M|67.1,23.9|Z|Tanaris|N|From Security Chief Bilgewhizzle.|
 T Stoley's Debt|QID|2872|M|67.1,23.9|Z|Tanaris|N|To Stoley.|
-A Stoley's Shipment|QID|2873|M|67.1,23.9|Z|Tanaris|N|From Stoley.|
-C Water Pouch Bounty|QID|1707|M|61.00,24.00|Z|Tanaris|N|Go back to Noonshade Ruins and kill Bandits here to get the water pouches for this quest. More to southwest if it's too crowded with other players here.| 
-C Wastewander Justice|QID|1690|Z|Tanaris|N|Kill the rest of the mobs needed for this quest.| 
+A Stoley's Shipment|QID|2873|PRE|2872|M|67.1,23.9|Z|Tanaris|N|From Stoley.|
+C Water Pouch Bounty|QID|1707|M|61.00,24.00|Z|Tanaris|N|Go back to Noonshade Ruins and kill Bandits here to get the water pouches for this quest. More to southwest if it's too crowded with other players here.|
+C Wastewander Justice|QID|1690|Z|Tanaris|N|Kill the rest of the mobs needed for this quest.|
 L Level Check|QID|2864|N|You should now be level 43, grind a bit if you are not.|LVL|43|
 T Water Pouch Bounty|QID|1707|M|52.5,28.5|Z|Tanaris|N|To Spigot Operator Luglunket. Now repeatable for 10 faction, but no XP so not recommended.|
 T Wastewander Justice|QID|1690|M|52.5,28.5|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
-A More Wastewander Justice|QID|1691|M|52.5,28.5|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|
+A More Wastewander Justice|QID|1691|PRE|1690|M|52.5,28.5|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|
 R Thousand Needles|ACTIVE|1137|M|51.00,18.00|Z|Tanaris|N|Run north to Thousand Needles.|
 R Mirage Raceway|ACTIVE|1137|M|80,75|Z|Thousand Needles|N|Continue North to the Mirage Raceway.|
 T News for Fizzle|QID|1137|M|78.1,77.1|Z|Thousand Needles|N|To Fizzle Brassbolts.|
 A Gahz'Rilla|QID|2770|M|78.1,77.1|Z|Thousand Needles|N|To Wizzle Brassbolts.|
 T Parts for Kravel|QID|1112|M|77.8,77.3|Z|Thousand Needles|N|From Fizzle Brassbolts. (skip followup)|
 T Goblin Sponsorship |QID|1183|M|80.2,75.9|Z|Thousand Needles|N|To Pozzik.|
-A Keeping Pace|QID|1190|M|80.2,75.9|Z|Thousand Needles|N|From Pozzik.|
-C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving. Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.| 
+A Keeping Pace|QID|1190|PRE|1137|M|80.2,75.9|Z|Thousand Needles|N|From Pozzik.|
+C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving. Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.|
 T Keeping Pace|QID|1190|M|77.2,77.4|Z|Thousand Needles|N|To Unguarded Plans.|
-A Rizzle's Schematics|QID|1194|M|77.2,77.4|Z|Thousand Needles|N|From Unguarded Plans.|
+A Rizzle's Schematics|QID|1194|PRE|1190|M|77.2,77.4|Z|Thousand Needles|N|From Unguarded Plans.|
 T Rizzle's Schematics|QID|1194|M|80.2,75.9|Z|Thousand Needles|N|To Pozzik.|
 H Gadgetzan|ACTIVE|3520|N|Hearth or run to Gadgetzan.|
 
@@ -223,10 +223,10 @@ N Clear area around cage|AVAILABLE|2969|M|66.50, 47.20|Z|Feralas|N|Clear the are
 A Freedom for All Creatures|QID|2969|M|65.91,45.67|Z|Feralas|N|From Kindal Moonweaver.|
 C Freedom for All Creatures|QID|2969|M|66.7,46.8|Z|Feralas|N|Go to the cage, open it, and protect the sprites. When quest complete, help Kindal finish off whatever she is fighting, so she can return to original location.|
 T Freedom for All Creatures|QID|2969|M|65.91,45.67|Z|Feralas|N|To Kindal Moonweaver.|
-A Doling Justice |QID|2970|M|65.9,45.6|Z|Feralas|N|From Jer'kai Moonweaver.|
+A Doling Justice |QID|2970|PRE|2969|M|65.9,45.6|Z|Feralas|N|From Jer'kai Moonweaver.|
 C Doling Justice |QID|2970|M|66.70,46.70|Z|Feralas|N|Kill the mobs for this quest.|
 T Doling Justice |QID|2970|M|65.9,45.6|Z|Feralas|N|To Jer'kai Moonweaver.|
-A Doling Justice |QID|2972|M|65.9,45.6|Z|Feralas|N|From Jer'kai Moonweaver.|
+A Doling Justice |QID|2972|PRE|2970|M|65.9,45.6|Z|Feralas|N|From Jer'kai Moonweaver.|
 b Feathermoon Stronghold|ACTIVE|3520|M|43.40,42.70|Z|Feralas|N|Take the boat to Feathermoon Stronghold. If the boat isn't in sight, just swim, it will be faster.|
 h Feathermoon Stronghold|ACTIVE|3520|M|31.00,43.50|Z|Feralas|N|Set your hearthstone to Feathermoon Stronghold.|
 A The Mark of Quality|QID|2821|M|30.6,42.7|Z|Feralas|N|From Pratt McGrubben.|
@@ -239,27 +239,27 @@ T The Missing Courier |QID|4124|M|31.9,45.1|Z|Feralas|N|To Ginro Hearthkindle.|
 A The Missing Courier |QID|4125|M|31.9,45.1|Z|Feralas|N|From Ginro Hearthkindle.|PRE|4124|
 r Sell junk, repair, restock|QID|2866|N|Sell junk, repair, restock|
 T The Ruins of Solarsal|QID|2866|M|26.30,52.30|Z|Feralas|N|To Solarsal Gazebo.|
-A Return to Feathermoon Stronghold|QID|2867|M|26.3,52.3|Z|Feralas|N|From Solarsal Gazebo.|
+A Return to Feathermoon Stronghold|QID|2867|PRE|2866|M|26.3,52.3|Z|Feralas|N|From Solarsal Gazebo.|
 T Return to Feathermoon Stronghold|QID|2867|M|30.3,46.2|Z|Feralas|N|To Shandris Feathermoon.|
-A Against the Hatecrest |QID|3130|M|30.3,46.2|Z|Feralas|N|From Shandris Feathermoon.|
+A Against the Hatecrest |QID|3130|PRE|2867|M|30.3,46.2|Z|Feralas|N|From Shandris Feathermoon.|
 T Against the Hatecrest |QID|3130|M|30.3,46.2|Z|Feralas|N|To Latronicus.|
-A Against the Hatecrest |QID|2869|M|30.3,46.2|Z|Feralas|N|From Latronicus.|
+A Against the Hatecrest |QID|2869|PRE|3130|M|30.3,46.2|Z|Feralas|N|From Latronicus.|
 C Against the Hatecrest|QID|2869|M|26.90,55.30|Z|Feralas|N|Kill the Nagas to get the Scales needed for this quest.|
 T Against the Hatecrest |QID|2869|M|30.3,46.2|Z|Feralas|N|To Latronicus.|
-A Against Lord Shalzaru|QID|2870|M|30.3,46.2|Z|Feralas|N|From Latronicus.|
+A Against Lord Shalzaru|QID|2870|PRE|2869|M|30.3,46.2|Z|Feralas|N|From Latronicus.|
 r Sell junk, repair, restock|QID|2870|N|Sell junk, repair, restock.|
 
 L Level Check|QID|2870|M|26.50,68.25|Z|Feralas|LVL|44|N|Nice place to Grind while clearing the way to Lord Shalzaru if you are not yet 44.|
 K Lord Shalzaru|ACTIVE|2870|QO|1|M|25.5,64.4;28.6,70.7|CS|Z|Feralas|T|Lord Shalzaru|N|Kill Lord Shalzaru inside the cave at this location and loot the relic.|
 T Against Lord Shalzaru|QID|2870|M|30.3,46.2|Z|Feralas|N|To Latronicus.|
-A Delivering the Relic|QID|2871|M|30.3,46.2|Z|Feralas|N|From Latronicus.|
+A Delivering the Relic|QID|2871|PRE|2870|M|30.3,46.2|Z|Feralas|N|From Latronicus.|
 T Delivering the Relic|QID|2871|M|30.1,45.1|Z|Feralas|N|To Vestia Moonspear.|
 C Screecher Spirits|QID|3520|M|46.00,49.30|Z|Feralas|U|10699|N|Take the boat, then run south on the shore. Kill Rogue Vale Screechers and use Yeh'Kinya's Bramble on their corpses, then talk to the spirit. Continue south.|
 T The Missing Courier |QID|4125|M|45.50,65.00|Z|Feralas|N|To Wrecked Row Boat. Multiple higher level mobs near the rowboat, may require clever tactics.|
 A Boat Wreckage|QID|4127|M|45.5,65.0|Z|Feralas|N|From Wrecked Row Boat.|PRE|4125|
 H Feathermoon Stronghold|ACTIVE|4127|N|Hearth or run to Feathermoon Stronghold.|
 T Boat Wreckage|QID|4127|M|31.9,45.1|Z|Feralas|N|To Ginro Hearthkindle.|
-A The Knife Revealed|QID|4129|M|31.9,45.1|Z|Feralas|N|From Ginro Hearthkindle.|PRE|4127
+A The Knife Revealed|QID|4129|M|31.9,45.1|Z|Feralas|N|From Ginro Hearthkindle.|PRE|4127|
 T The Knife Revealed|QID|4129|M|32.4,43.8|Z|Feralas|N|To Quintis, top of the tower.|
 A Psychometric Reading|QID|4130|M|32.4,43.8|Z|Feralas|N|From Quintis.|PRE|4129|
 T Psychometric Reading|QID|4130|M|31.9,45.1|Z|Feralas|N|To Ginro Hearthkindle.|
@@ -273,8 +273,8 @@ N Hippogryph Egg|AVAILABLE|2741|M|56.70,76.80|Z|Feralas|L|8564|N|Get a Hippogryp
 C The Mark of Quality|QID|2821|M|55.00,56.00|Z|Feralas|N|Kill Yetis until you get 10 Thick Yeti Hides.|
 A Find OOX-22/FE!|U|8705|QID|2766|N|If you found a Distress Beacon, right click it to get this quest.(If not, right click to skip this step)|
 T Find OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|To Homing Robot OOX-22/FE.|
-A Rescue OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|From Homing Robot OOX-22/FE.|PRE|2766|
-C Rescue OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|Rather difficult (perhaps impossible) to solo, so shout out to see if anyone else wants to help. Follow the chicken, 3 preset ambushes occur along the way.|
+A Rescue OOX-22/FE!|QID|2767|M|53.30,55.60|Z|Feralas|N|From Homing Robot OOX-22/FE.|PRE|2766|
+C Rescue OOX-22/FE!|QID|2767|M|53.30,55.60|Z|Feralas|N|Rather difficult (perhaps impossible) to solo, so shout out to see if anyone else wants to help. Follow the chicken, 3 preset ambushes occur along the way.|
 R Woodpaw Hills|ACTIVE|4131|M|73,56|N|Follow the road east, then run south to the Southeastern tip of the small lake.|
 T The Woodpaw Gnolls|QID|4131|M|73.30,56.30|Z|Feralas|N|To Large Leather Backpack, hanging on the trunk of a huge tree.|
 A The Writhing Deep|QID|4135|M|73.3,56.3|Z|Feralas|N|From Large Leather Backpack. You might want to ask in chat for a partner for this one as it can be quite challenging.|PRE|4131|
@@ -296,9 +296,9 @@ F Auberdine|ACTIVE|3022|M|30.20,43.20|Z|Feralas|N|Fly to Auberdine.|TAXI|-Rut'th
 b Rut'theran Village|ACTIVE|3022|M|33.2, 40.2|Z|Darkshore|N|Go to the pier and take 'The Moonspray' (ship on the right) to Rut'theran Village.|TAXI|-Rut'theran Village|
 
 T Handle With Care|QID|3022|M|55.5,92.0|Z|Teldrassil|N|To Erelas Ambersky.|
-A Favored of Elune?|QID|3661|M|55.5,92.0|Z|Teldrassil|N|From Erelas Ambersky.|PRE|3022|
+A Favored of Elune?|QID|3661|M|55.5,92.0|Z|Teldrassil|N|From Erelas Ambersky.|
 T In Search of Knowledge|QID|2939|M|55.5,92.0|Z|Teldrassil|N|To Daryn Lightwind, upstairs.|
-A Feralas: A History|QID|2940|Z|Teldrassil|M|55.20,91.40|N|Click the book and get this quest.|
+A Feralas: A History|QID|2940|PRE|2939|Z|Teldrassil|M|55.20,91.40|N|Click the book and get this quest.|
 T Feralas: A History|QID|2940|M|55.4,92.2|Z|Teldrassil|N|To Daryn Lightwind.|
 A The Borrower|QID|2941|M|55.4,92.2|Z|Teldrassil|N|From Daryn Lightwind.|PRE|2940|
 
@@ -313,7 +313,7 @@ T Thalanaar Delivery|QID|4281|M|89.6,46.6|Z|Feralas|N|To Falfindel Waywarder.|
 F Gadgetzan|ACTIVE|2941|N|Fly to Gadgetzan.|M|89.50,45.85|Z|Feralas|
 
 T The Borrower|QID|2941|M|52.4,26.9|Z|Tanaris|N|To Curgle Cranklehop.|
-A The Super Snapper FX|QID|2944|M|52.4,26.9|Z|Tanaris|N|From Curgle Cranklehop.|
+A The Super Snapper FX|QID|2944|PRE|2941|M|52.4,26.9|Z|Tanaris|N|From Curgle Cranklehop.|
 A Egg-O-Matic|QID|2741|M|52.4,26.9|Z|Tanaris|U|8647|N|Click the Egg-O-Matic. Complete the quest, open the egg crate, turn the quest in corresponding to the egg you got.|
 r Sell junk, repair, restock|QID|2944|N|Sell junk, repair, restock.|
 C More Wastewander Justice|QID|1691|M|59.00,37.00|Z|Tanaris|S|N|Kill mobs around here to finish this quest.|
@@ -323,7 +323,7 @@ R Lost Rigger Cove|ACTIVE|8366|M|68,41|Z|Tanaris|N|Go through the tunnel to find
 C Southsea Shakedown|QID|8366|M|73.00,47.00|Z|Tanaris|S|N|kill the pirates for this quest.|
 K Andre Firebeard|ACTIVE|2875|QO|1|M|73.00,47.00|Z|Tanaris|T|Andre Firebeard|N|Kill Andre Firebeard and take his head.|
 C Stoley's Shipment|QID|2873|M|72.00,46.00|Z|Tanaris|NC|N|Go to the top floor of the house at this location and get Stoley's Shipment.|
-C Pirate Hats Ahoy!|QID|8365|M|70.4,42.7|Z|Tanaris|N|Kill pirates until you get 20 Pirate Hats for this quest.| 
+C Pirate Hats Ahoy!|QID|8365|M|70.4,42.7|Z|Tanaris|N|Kill pirates until you get 20 Pirate Hats for this quest.|
 C Southsea Shakedown|QID|8366|M|73.00,47.00|Z|Tanaris|US|N|Finish killing the pirates for this quest.|
 R Steamwheedle Port|ACTIVE|8366|M|67.1,23.9|Z|Tanaris|N|Ride North to Steamwheedle Port.|
 A Ship Schedules|QID|2876|U|9250|N|Right-click the Ship Schedules to get this quest if you have the item (it can be in a Pirate Footlocker). Skip this objective if you did not get the item.|
@@ -331,7 +331,7 @@ T Ship Schedules|QID|2876|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle
 T WANTED: Andre Firebeard|QID|2875|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
 T Southsea Shakedown|QID|8366|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle.|
 T Stoley's Shipment|QID|2873|M|67.1,23.9|Z|Tanaris|N|To Security Chief Bilgewhizzle. (skip followup for the time being.)|
-A Deliver to MacKinley|QID|2874|M|67.1,23.9|Z|Tanaris|N|From Security Chief Bilgewhizzle.|
+A Deliver to MacKinley|QID|2874|PRE|2873|M|67.1,23.9|Z|Tanaris|N|From Security Chief Bilgewhizzle.|
 T Pirate Hats Ahoy!|QID|8365|M|66.6,22.3|Z|Tanaris|N|To Haughty Modiste.|
 T Screecher Spirits|QID|3520|M|67.0,22.4|Z|Tanaris|N|To Yeh'kinya. followup is dungeon quest, you can wait to pick it up if you don't mind running out here.|
 K Level Check|N|If you arent nearly 46, stay out and grind on pirates until two bubbles away.|LVL|45;105900|
@@ -354,15 +354,15 @@ R Aerie Peak|ACTIVE|1449|M|14,47|Z|The Hinterlands|N|Run northeast thru the pass
 A Troll Necklace Bounty|QID|2880|M|14.8,44.6|Z|The Hinterlands|N|From Fraggar Thundermantle.|
 A Skulk Rock Clean-up|QID|2877|M|14.8,44.6|Z|The Hinterlands|N|From Fraggar Thundermantle.|
 T To The Hinterlands|QID|1449|M|12,47|Z|The Hinterlands|N|To Falstad Wildhammer.|
-A Gryphon Master Talonaxe|QID|1450|M|12,47|Z|The Hinterlands|N|From Falstad Wildhammer.|
+A Gryphon Master Talonaxe|QID|1450|PRE|1449|M|12,47|Z|The Hinterlands|N|From Falstad Wildhammer.|
 f Aerie Peak|ACTIVE|1450|M|11.10,46.15|Z|The Hinterlands|N|Get the flight path at Guthrum Thunderfist.|
 T Gryphon Master Talonaxe|QID|1450|M|10.0,44.6|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|
-A Rhapsody Shindigger|QID|1451|M|10.0,44.6|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|
+A Rhapsody Shindigger|QID|1451|PRE|1450|M|10.0,44.6|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|
 A Witherbark Cages|QID|2988|M|9.8,44.5|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|
 h Wildhammer Keep|ACTIVE|1451|M|13.60,41.70|Z|The Hinterlands|N|Set your hearthstone to Aerie Peak.|
-R Shindigger's Camp|ACTIVE|1451|M|20.2,48.3|Z|The Hinterlands|N|East from Aerie Peak to find a small path up the mountain.| 
+R Shindigger's Camp|ACTIVE|1451|M|20.2,48.3|Z|The Hinterlands|N|East from Aerie Peak to find a small path up the mountain.|
 T Rhapsody Shindigger|QID|1451|M|26.94,48.59|Z|The Hinterlands|N|To Rhapsody Shindigger.|
-A Rhapsody's Kalimdor Kocktail|QID|1452|M|26.94,48.59|Z|The Hinterlands|N|From Rhapsody Shindigger.|
+A Rhapsody's Kalimdor Kocktail|QID|1452|PRE|1451|M|26.94,48.59|Z|The Hinterlands|N|From Rhapsody Shindigger.|
 C Wildkin Feathers|QID|3661|S!US|L|10819 15|NC|N|These are ground spawn, NOT drops from the Owlbeasts. Pick up all you see.|
 K Trolls|ACTIVE|2880|L|9259 5|S|N|Kill the trolls to collect the Necklaces.|
 C Check cages|QID|2988|QO|2|M|23.00,58.00|Z|The Hinterlands|N|Check the first and second Witherbark Cage here after clearing the camp.|
@@ -381,7 +381,7 @@ H Wildhammer Keep|ACTIVE|2880|N|Hearth back to Aerie Peak.|
 T Troll Necklace Bounty|QID|2880|M|14.8,44.6|Z|The Hinterlands|N|To Fraggar Thundermantle. Turn in any extra Troll Necklaces you have also (in multiples of 5).|
 T Skulk Rock Clean-up|QID|2877|M|14.8,44.6|Z|The Hinterlands|N|To Fraggar Thundermantle.|
 T Witherbark Cages|QID|2988|M|9.8,44.5|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|
-A The Altar of Zul|QID|2989|M|48.84,68.44|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|
+A The Altar of Zul|QID|2989|PRE|2988|M|48.84,68.44|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock|
 
 R Altar of Zul|ACTIVE|2989|M|49,64|Z|The Hinterlands|N|Run to the Alter of Zul and ask in zone chat if anyone else is interested in doing [The Altar of Zul]. Ideally 2 other people, higher level (50).|
@@ -391,19 +391,19 @@ A Jammalan the Prophet|QID|1446|M|32,74|Z|The Hinterlands|N|Optionally, particul
 L Level Check|ACTIVE|2989|N|Stay here grinding on trolls and wolves at the base of the alter or in Shadra'alor until about a bubble from 47.|LVL|46;117040|
 H Wildhammer Keep|ACTIVE|2989|N|Hearth back to Aerie Peak, if it's available, or just run.|
 T The Altar of Zul|QID|2989|M|9.8,44.5|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|
-A Thadius Grimshade|QID|2990|M|9.8,44.5|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|
-A Turn in Troll Necklaces|QID|2881|Z|The Hinterlands|N|Turn in any extra Troll Necklaces you have at the inn.|
+A Thadius Grimshade|QID|2990|PRE|2989|M|9.8,44.5|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|
+A Turn in Troll Necklaces|QID|2881|PRE|2880|Z|The Hinterlands|N|Turn in any extra Troll Necklaces you have at the inn.|
 F Ironforge|ACTIVE|2944|N|Fly to Ironforge.|M|11.10,46.20|Z|The Hinterlands|
 B Make sure you have two Elixirs of Fortitude.|AVAILABLE|3842|L|3825 2|N|Make sure you have two Elixirs of Fortitude in your inventory, bank or mailbox, you are about to need them.|
 r Sell junk, repair, restock, train skills.|ACTIVE|2944|N|Sell junk, repair, restock, train skills.|
 R Rut'theran Village|ACTIVE|2944|N|Travel to Rut'theran Village (Darnassus).|
 T Favored of Elune?|QID|3661|M|55.5,92.0|Z|Teldrassil|N|To Erelas Ambersky.|
 T The Super Snapper FX|QID|2944|M|55.4,92.2|Z|Teldrassil|N|To Daryn Lightwind, upstairs.|
-A Return to Troyas|QID|2943|M|55.4,92.2|Z|Teldrassil|N|From Daryn Lightwind.|
+A Return to Troyas|QID|2943|PRE|2944|M|55.4,92.2|Z|Teldrassil|N|From Daryn Lightwind.|
 
 F Feathermoon Stronghold|ACTIVE|2943|N|Fly to Feathermoon.|Z|Teldrassil|M|58.30,94.00|
 T Return to Troyas|QID|2943|Z|Feralas|M|31.8,45.6|N|To Troyas Moonbreeze.|
-A The Stave of Equinex|QID|2879|Z|Feralas|M|31.8,45.6|N|From Troyas Moonbreeze.|
+A The Stave of Equinex|QID|2879|PRE|2943|Z|Feralas|M|31.8,45.6|N|From Troyas Moonbreeze.|
 A The Sunken Temple|QID|3445|M|31.8,45.6|Z|Feralas|N|From Angelas Moonbreeze.|
 
 b Feralas|ACTIVE|7733|M|44,43|Z|Feralas|N|Back to the mainland.|
@@ -428,18 +428,18 @@ C Lahassa Essence|QID|2879|M|37.75,12.18|Z|Feralas|L|9255|NC|N|Loot the Lahassa 
 C Byltan Essence|QID|2879|M|38.50,15.80|Z|Feralas|L|9258|NC|N|Loot the Byltan Essence here.|
 C The Stave of Equinex|QID|2879|M|38.85,13.30|Z|Feralas|U|9306|NC|N|Right-click Troyas' Stave to charge it.|
 T The Stave of Equinex|QID|2879|M|38.85,13.30|Z|Feralas|N|Rt click on the Equinox Monolith, to complete and turn in the quest.|
-A The Morrow Stone|QID|2942|M|38.8,13.2|Z|Feralas|N|From the Equinex Monolith.|
+A The Morrow Stone|QID|2942|PRE|2879|M|38.8,13.2|Z|Feralas|N|From the Equinex Monolith.|
 N BEFORE SEEING SHAY|AVAILABLE|2845|M|38.2,10.2|Z|Feralas|N|Clear a path to Shay Leafarunner before you take the quest.|
 T The Giant Guardian|QID|2844|M|38.20,10.20|Z|Feralas|N|To Shay Leafrunner.|
-A Wandering Shay|QID|2845|M|38.20,10.30|Z|Feralas|N|From Shay Leafrunner.|
+A Wandering Shay|QID|2845|PRE|2844|M|38.20,10.30|Z|Feralas|N|From Shay Leafrunner.|
 N Loot Shay's bell|ACTIVE|2845|M|38.20,10.30|Z|Feralas|L|9189|N|Click on the chest beside Shay to get her bell.|
 C Wandering Shay|QID|2845|M|42,21|Z|Feralas|U|9189|N|This is a timed quest. Run a bit ahead and use the bell in your inventory to have Shay run to you to make her follow you to this location. The bell has a cooldown, but Shay will continue to run to you until actually reaching you (and then you will have to ring the bell again), so keep running towards the arrow, staying a little ahead of her.|
 T Wandering Shay|QID|284|M|42.4,22.0|Z|Feralas|N|To Rockbiter.|
 A Find OOX-22/FE!|U|8705|QID|2766|N|If you found a Distress Beacon, right click it to get this quest.(If not, right click to skip this step)|
 T Find OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|To Homing Robot OOX-22/FE.|
-A Rescue OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|From Homing Robot OOX-22/FE.|
-C Rescue OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|Rather difficult (perhaps impossible) to solo, so shout out to see if anyone else wants to help. Follow the chicken, 3 preset ambushes occur along the way.|
-A An Orphan Looking For a Home|QID|3841|Z|Feralas|M|65.9,45.6|N|From Kindal Moonweaver.|
+A Rescue OOX-22/FE!|QID|2767|M|53.30,55.60|Z|Feralas|N|From Homing Robot OOX-22/FE.|PRE|2766|
+C Rescue OOX-22/FE!|QID|2767|M|53.30,55.60|Z|Feralas|N|Rather difficult (perhaps impossible) to solo, so shout out to see if anyone else wants to help. Follow the chicken, 3 preset ambushes occur along the way.|
+A An Orphan Looking For a Home|QID|3841|PRE|2972|Z|Feralas|M|65.9,45.6|N|From Kindal Moonweaver.|
 N Hippogryph Egg|QID|2741|M|56.70,76.80|Z|Feralas|L|8564|N|If you want, you are pretty close by to get another Hippogryph Egg from this location, totally optional, check off manually if you aren't going to.|
 F Feathermoon Stronghold|ACTIVE|2942|N|Fly to Feathermoon Stronghold.|; FIXME: add coords
 T Improved Quality|QID|7733|M|30.6,42.7|Z|Feralas|N|To Pratt McGrubben.|
@@ -450,15 +450,15 @@ F Gadgetzan|ACTIVE|3841|M|30.20,43.25|Z|Feralas|N|Fly to Gadgetzan.|
 A Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
 A The Thirsty Goblin|QID|2605|M|51.8,28.7|Z|Tanaris|N|From Marin Noggenfogger.|
 A The Dunemaul Compound|QID|5863|M|52.8,27.4|Z|Tanaris|N|From Andi Lynn.|
-A Thistleshrub Valley|QID|3362|M|51.6,26.8|Z|Tanaris|N|From Tran'Rek
+A Thistleshrub Valley|QID|3362|M|51.6,26.8|Z|Tanaris|N|From Tran'Rek|
 K Roc Gizzard|ACTIVE|1452|QO|1|M|45.80,39.60|Z|Tanaris|N|Go here and kill Fire Rocs (and other mobs) until you get 3 Roc Gizzards.|
 C Gadgetzan Water Survey|QID|992|M|39.00,30.00|Z|Tanaris|U|8584|N|Use the Untapped Dowsing Widget on the pool at this location.|
 T Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|To Senior Survey Fizzledowser.|
-A Noxious Lair Investigation|QID|82|M|50.2,27.5|Z|Tanaris|N|From Senior Survey Fizzledowser.|
+A Noxious Lair Investigation|QID|82|PRE|992|M|50.2,27.5|Z|Tanaris|N|From Senior Survey Fizzledowser.|
 r Sell junk, repair, restock|QID|3445|N|Sell junk, repair, restock|
 R Broken Piller|ACTIVE|3445|M|52,45|Z|Tanaris|N|Go south to the Broken Pillar.|
 T The Sunken Temple|QID|3445|M|52.7,45.9|Z|Tanaris|N|To Mavon Rivetseeker.|
-A The Stone Circle|QID|3444|M|52.7,45.9|Z|Tanaris|N|From Mavon Rivetseeker.|
+A The Stone Circle|QID|3444|PRE|3380|M|52.7,45.9|Z|Tanaris|N|From Mavon Rivetseeker.|
 A Gahz'ridian|QID|3161|M|52.7,45.9|Z|Tanaris|N|From Mavon Rivetseeker.|
 C Gahz'ridian|QID|3161|S|N|From now on, loot any Gahz'ridian pieces you find on the ground.|
 C The Dunemaul Compound|QID|5863|M|40.00,57.00|Z|Tanaris|S|N|Clear a path to the cave with Gor'marok in it and then move on to Eastmoon Ruins after you kill him.|
@@ -468,7 +468,7 @@ C Gahz'ridian|US|QID|3161|M|48.00,64.00;41,72|CN|Z|Tanaris|N|Finish collecting t
 L Level Check|ACTIVE|3161|N|If you aren't yet 48, this is a good spot to grind to there.|LVL|48|
 
 R Uldum|AVAILABLE|2954|PRE|2439|M|38,79|Z|Tanaris|N|Run southwest to Uldum, the giants have a pretty small agro range so you should be able to avoid them.|
-A The Stone Watcher|QID|2954|PRE|2439|M|37,81|Z|Tanaris|N|From Uldum Pedestal.|
+A The Stone Watcher|QID|2954|PRE|2946|M|37,81|Z|Tanaris|N|From Uldum Pedestal.|
 C The Stone Watcher|QID|2954|M|37,81|Z|Tanaris|NC|N|Click the pedastal to summon the Stone Watcher, click again to go thru his dialog, till you get the quest update.|
 T The Stone Watcher|QID|2954|M|37,81|Z|Tanaris|N|To Uldum Pedestal.|
 A Return to Ironforge|QID|2977|PRE|2954|M|37,81|Z|Tanaris|N|From Uldum Pedestal.|
@@ -478,13 +478,13 @@ C The Thirsty Goblin|QID|2605|M|28.30,63.80|Z|Tanaris|N|Continue to kill Thistle
 C Noxious Lair Investigation|QID|82|M|35.00,46.00|Z|Tanaris|N|Go here and kill and loot insects until you get the parts needed.|
 R Gadgetzan|ACTIVE|82|M|52.50,27.90|Z|Tanaris|N|Ride back to Gadgetzen.|
 T The Thirsty Goblin|QID|2605|M|51.8,28.7|Z|Tanaris|N|To Marin Noggenfogger.|
-A In Good Taste|QID|2606|M|51.8,28.7|Z|Tanaris|N|From Marin Noggenfogger.|
+A In Good Taste|QID|2606|PRE|2605|M|51.8,28.7|Z|Tanaris|N|From Marin Noggenfogger.|
 T The Dunemaul Compound|QID|5863|M|52.8,27.4|Z|Tanaris|N|To Andi Lynn.|
 T Thistleshrub Valley|QID|3362|M|51.6,26.8|Z|Tanaris|N|TO Tran'Rek.|
 T In Good Taste|QID|2606|M|51.1,26.9|Z|Tanaris|N|To Sprinkle.|
-A Sprinkle's Secret Ingredient|QID|2641|M|51.1,26.9|Z|Tanaris|N|From Sprinkle.|
+A Sprinkle's Secret Ingredient|QID|2641|PRE|2606|M|51.1,26.9|Z|Tanaris|N|From Sprinkle.|
 T Noxious Lair Investigation|QID|82|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
-A The Scrimshank Redemption|QID|10|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
+A The Scrimshank Redemption|QID|10|PRE|82|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
 r Sell junk, repair, restock|ACTIVE|3161|N|Sell junk, repair, restock.|
 R Broken Piller|ACTIVE|3161|M|52.7,45.9|Z|Tanaris|N|Run south to the Broken Piller.|
 T Gahz'ridian|QID|3161|M|52.7,45.9|Z|Tanaris|N|To Marvon Rivetseeker.|
@@ -494,52 +494,52 @@ A Find OOX-17/TN!|QID|351|U|8623|N|If you have the OOX-17/TN distress beacon, ri
 t Find OOX-17/TN!|QID|351|M|60,65|N|If you have the OOX-17/TN quest, turn it in.|
 A Rescue OOX-17/TN!|QID|648|N|This is an Escort Quest.|PRE|351|
 C Rescue OOX-17/TN!|QID|648|N|Let the chicken lead, so he will get hit first. There are 3 preset ambushes in route.|
-A Deliver to MacKinley|QID|2874|M|67.1,23.9|Z|Tanaris|N|From Security Chief Bilgewhizzle.|
-A The Prophecy of Mosh'aru|QID|3527|M|67.0,22.4|Z|Tanaris|N|From Yeh'kinya.(Zul'Farrak quest - skip if you arent going)|
+A Deliver to MacKinley|QID|2874|PRE|2873|M|67.1,23.9|Z|Tanaris|N|From Security Chief Bilgewhizzle.|
+A The Prophecy of Mosh'aru|QID|3527|PRE|3520|M|67.0,22.4|Z|Tanaris|N|From Yeh'kinya.(Zul'Farrak quest - skip if you arent going)|
 T The Scrimshank Redemption|QID|10|M|50.2,27.5|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
-A Insect Part Analysis |QID|110|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
+A Insect Part Analysis |QID|110|PRE|10|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
 T Insect Part Analysis |QID|110|M|50.9,27.0|Z|Tanaris|N|To Alchemist Pestlezugg.|
-A Insect Part Analysis |QID|113|M|50.9,27.0|Z|Tanaris|N|From Alchemist Pestlezugg.|
+A Insect Part Analysis |QID|113|PRE|110|M|50.9,27.0|Z|Tanaris|N|From Alchemist Pestlezugg.|
 T Insect Part Analysis |QID|113|M|50.2,27.5|Z|Tanaris|N|To Senior Surveyor Fizzledowser.|
-A Rise of the Silithid|QID|162|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
+A Rise of the Silithid|QID|162|PRE|113|M|50.2,27.5|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|
 N Elixers of Fortitude|QID|3842|L|3825 2|N|Grab those Elixirs of Fortitude from your bank or mailbox and have them in your inventory, going to do that quest next.|
 
 R Thousand Needles|ACTIVE|3841|M|51.00,19.00|Z|Tanaris|N|Go north to Thousand Needles.|
 R Mirage Raceway|ACTIVE|3841|M|78.3,74.7|Z|Thousand Needles|N|Continue north to the Mirage Raceway.|
 T An Orphan Looking For a Home|QID|3841|M|78.3,74.7|Z|Thousand Needles|N|To Quentin.|
-A A Short Incubation|QID|3842|M|78.3,74.7|Z|Thousand Needles|N|From Quentin.|
+A A Short Incubation|QID|3842|PRE|3841|M|78.3,74.7|Z|Thousand Needles|N|From Quentin.|
 T A Short Incubation|QID|3842|M|78.3,74.7|Z|Thousand Needles|N|To Quentin.|
-A The Newest Member of the Family|QID|3843|M|78.3,74.7|Z|Thousand Needles|N|From Quentin.|
+A The Newest Member of the Family|QID|3843|PRE|3842|M|78.3,74.7|Z|Thousand Needles|N|From Quentin.|
 H Aerie Peak|ACTIVE|3843|N|Your hearthstone is still set to Aerie Peak... isn't it. If not, you can fly from Gadgetzan to Ratchet, take the boat from there to booty Bay, then fly from there to Aerie Peak. (Don't you wish you had left your hearth set to Aerie Peak.?)|
 T The Newest Member of the Family|QID|3843|M|14.2,43.6|Z|The Hinterlands|N|To Agnar Beastamer, in the basement of the inn.|
-A Food for Baby|QID|4297|M|14.2,43.6|Z|The Hinterlands|N|From Agnar Beastamer.|
+A Food for Baby|QID|4297|PRE|3843|M|14.2,43.6|Z|The Hinterlands|N|From Agnar Beastamer.|
 T Rhapsody's Kalimdor Kocktail|QID|1452|M|20.2,48.3;26.94,48.59|Z|The Hinterlands|CS|N|Up the dirt path to Rhapsody Shindigger.|
-A Rhapsody's Tale|QID|1469|M|26.94,48.59|Z|The Hinterlands|N|From Rhapsody Shindigger, after a moment to get good and drunk.|
+A Rhapsody's Tale|QID|1469|PRE|1452|M|26.94,48.59|Z|The Hinterlands|N|From Rhapsody Shindigger, after a moment to get good and drunk.|
 C Food for Baby|QID|4297|M|63.00,50.00|Z|The Hinterlands|N|Kill Silvermane Stalkers, (they are stealthed) until you get the 5 flanks needed for the quest.|
 C Sprinkle's Secret Ingredient|QID|2641|M|40.00,59.90|Z|The Hinterlands|N|Go into Valorwind Lake and pick a white/red mushroom called 'Violet Tragan'. Loot it, (don't click it in your inventory).|
 H Aerie Peak|ACTIVE|4297|N|Hearth or run to Aerie Peak.|
 T Food for Baby|QID|4297|M|14.2,43.6|Z|The Hinterlands|N|To Agnar Beastamer.|
-A Becoming a Parent|QID|4298|M|14.2,43.6|Z|The Hinterlands|N|From Agnar Beastamer.|
+A Becoming a Parent|QID|4298|PRE|4297|M|14.2,43.6|Z|The Hinterlands|N|From Agnar Beastamer.|
 T Becoming a Parent|QID|4298|M|14.2,43.6|Z|The Hinterlands|N|To Agnar Beastamer.|
 F Ironforge|ACTIVE|1469|N|Fly to Ironforge.|M|11.10,46.15|Z|The Hinterlands|
 t Return to Ironforge|QID|2977|M|76.8,10.2|Z|Ironforge|N|To Historian Karnik.|
 A A Future Task|QID|2964|PRE|2977|M|76.8,10.2|Z|Ironforge|N|From Historian Karnik.|
-A Passing the Burden|QID|3448|PRE|2977|M|76.8,10.2|Z|Ironforge|N|From Historian Karnik.(if yoou want, you can skip picking this up till a future trip to Ironforge.}|
+A Passing the Burden|QID|3448|M|76.8,10.2|Z|Ironforge|N|From Historian Karnik.(if yoou want, you can skip picking this up till a future trip to Ironforge.}|
 h Ironforge|ACTIVE|1469|M|18.50,51.60|Z|Ironforge|N|Only if Aerie Peak is NOT your home, make Ironforge your home location.|
 T A Future Task|QID|2964|M|70.6,18|Z|Ironforge|N|To High Explorer Magellas.|
 ;T Passing the Burden|QID|3448|-not in jame's guide--its in Azshara 51-52
 r Sell junk, repair, restock, train skills.|ACTIVE|1469|N|Sell junk, repair, restock, train skills.|
 R Stormwind|ACTIVE|1469|N|Take the Tram (or Fly) to Stormwind City.|
 T Rhapsody's Tale|QID|1469|M|64,20|Z|Stormwind City|N|To Brohann Caskbelly, in the Dwarven District.|
-A Into The Temple of Atal'Hakkar |QID|1475|M|64,20|Z|Stormwind City|N|From Brohann Caskbelly.|
+A Into The Temple of Atal'Hakkar |QID|1475|PRE|1469|M|64,20|Z|Stormwind City|N|From Brohann Caskbelly.|
 A Vital Supplies|QID|1477|M|37,81|Z|Stormwind City|N|From High Sorcerer Andromath, in the top of the Mages Tower, in the Mage District.|;moved from Jame's guide to here to avoid an extra trip to Stormwind
 F Darkshire|ACTIVE|1477|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
 T Vital Supplies|QID|1477|M|75.8,46.2|Z|Duskwood|N|To Watchmaster Sorigal.|
-A Supplies for Nethergarde|QID|1395|M|75.8,46.2|Z|Duskwood|N|From Watchmaster Sorigal.|
+A Supplies for Nethergarde|QID|1395|PRE|1477|M|75.8,46.2|Z|Duskwood|N|From Watchmaster Sorigal.|
 F Nethergarde Keep|ACTIVE|1395|N|Fly to Nethergarde Keep.|Z|Duskwood|M|77.50,44.30|
 T Supplies for Nethergarde|QID|1395|Z|Blasted Lands|M|66.5,21.4|
 T Thadius Grimshade|QID|2990|M|66,18|Z|Blasted Lands|N|To Thadius Grimshade.|
-A Nekrum's Medallion|QID|2991|M|66,18|Z|Blasted Lands|N|From Thadius Grimshade.|
+A Nekrum's Medallion|QID|2991|PRE|2990|M|66,18|Z|Blasted Lands|N|From Thadius Grimshade.|
 
 F Booty Bay|ACTIVE|2874|M|66,18|Z|Blasted Lands|N|Fly to Darkshire then on to Booty Bay.|
 T Deliver to MacKinley|QID|2874|M|27.78,77.07|Z|Stranglethorn Vale|N|To "Sea Wolf" MacKinley.|
@@ -553,18 +553,18 @@ N Zul'Farrak|ACTIVE|2991|N|Now is a great time to find/make a group for Zul'Farr
 N Level Check|LVL|49|N|If you really don't want to go to Zul'Farrak, grind to level 49. Harpies and/or Yetis in Feralas are good, or ogres in Tanaris.|
 
 F Menethil|ACTIVE|2641|M|55.6,48.2|Z|Ironforge|N|At Gryth Thurden, in the Great Forge.|
-b Theramore|ACTIVE|2641|M|9,59|Z|Wetlands|N|Take the Lady Mehley (ship) to Theramore
+b Theramore|ACTIVE|2641|M|9,59|Z|Wetlands|N|Take the Lady Mehley (ship) to Theramore|
 F Gadgetzan|ACTIVE|2641|Z|Dustwallow Marsh|M|67.50,51.30|N|Fly to Gadgetzan.|
 
 T Sprinkle's Secret Ingredient|QID|2641|Z|Tanaris|M|51.1,26.9|N|To Sprinkle.|
-A Delivery for Marin|QID|2661|Z|Tanaris|M|51.1,26.9|N|From Sprinkle.|
+A Delivery for Marin|QID|2661|PRE|2641|Z|Tanaris|M|51.1,26.9|N|From Sprinkle.|
 T Delivery for Marin|QID|2661|Z|Tanaris|M|51.8,28.7|N|To Marin Noggenfogger.|
-A Noggenfogger Elixir|QID|2662|Z|Tanaris|M|51.8,28.7|N|From Marin Noggenfogger.|
+A Noggenfogger Elixir|QID|2662|PRE|2661|Z|Tanaris|M|51.8,28.7|N|From Marin Noggenfogger.|
 T Noggenfogger Elixir|QID|2662|Z|Tanaris|M|51.8,28.7|N|To Marin Noggenfogger.|
 
 R Ironforge|AVAILABLE|2992|N|Travel to Ironforge via method of choice.|
 F Nethergarde Keep|AVAILABLE|2992|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
-t Nekrum's Medallion|QID|2991|M|66.9,19.5|Z|Blasted Lands|N|To Thadius Grimshade
+t Nekrum's Medallion|QID|2991|M|66.9,19.5|Z|Blasted Lands|N|To Thadius Grimshade|
 A The Divination|QID|2992|PRE|2991|M|66.9,19.5|Z|Blasted Lands|N|From Thadius Grimshade.|
 T The Divination|QID|2992|M|66.9,19.5|Z|Blasted Lands|N|Wait for him to finish the ritual then turn quest in to Thadius Grimshade.|
 A Return to the Hinterlands|QID|2993|PRE|2992|M|66.9,19.5|Z|Blasted Lands|N|From Thadius Grimshade.|
@@ -591,7 +591,7 @@ T Saving Sharpbeak|QID|2994|M|10,44.6|Z|The Hinterlands|N|To Gryphon Master Talo
 R Gadgetzan|ACTIVE|4787|N|Travel by the method of you choice to Gadgetzan.|
 R Steamwheedle Port|ACTIVE|4787|M|67,22.4|Z|Tanaris|N|Run east to Steamwheedle Port.|
 T The Ancient Egg|QID|4787|M|66.99, 22.36|Z|Tanaris|N|To Yah'kinya.|
-A The God Hakkar|QID|3528|M|66.99, 22.36|Z|Tanaris|N|From Yah'kinya.|
+A The God Hakkar|QID|3528|PRE|4787|M|66.99, 22.36|Z|Tanaris|N|From Yah'kinya.|
 L Level Check|LVL|50|N|Grind at a spot of your choosing and when you are level 50, Congrats and on to Chapter III.|
 ]]
 end)
