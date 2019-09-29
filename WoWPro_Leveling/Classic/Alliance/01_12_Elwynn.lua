@@ -345,7 +345,7 @@ T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|To Vidra Hearthsto
 
 L Level 12|LVL|12|N|You should now be a couple of bars into level 12.|
 
-F Stormwind City|QID|1338|ACTIVE|1338|M|33.9,50.95|Z|Loch Modan|N|Fly to Stormwind City from Thelsamar|
+F Stormwind|QID|1338|ACTIVE|1338|M|33.9,50.95|Z|Loch Modan|N|Fly to Stormwind from Thelsamar|
 T Dungar Longdrink|QID|6261|M|66.28,62.09|Z|Stormwind City|N|To Dungar Longdrink.|
 A Return to Lewis|QID|6285|PRE|6261|M|66.28,62.09|Z|Stormwind City|N|From Dungar Longdrink.|
 A Tome of Divinity|QID|399|M|49.21, 30.27|C|Paladin|R|Human|N|From Baros Alexston, in Cathedral Square.|Z|Stormwind City|
