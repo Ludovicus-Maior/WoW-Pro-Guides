@@ -41,7 +41,7 @@ A The Ancient Statuette|QID|1007|M|14.80,31.29|N|From Talen near the Zoram Stran
 C The Zoram Strand|QID|1008|M|14.10,20.7|Z|Ashenvale|S|N|Kill Wrathtail Nagas until you get 20 Wrathtail Heads.|
 C The Ancient Statuette|QID|1007|M|14.21,20.64|N|Loot the ancient statuette.|
 T The Ancient Statuette|QID|1007|M|14.80,31.29|N|To Talen.|
-A Ruuzel|QID|1009|M|14.80,31.29|LVL|20|N|From Talen.|
+A Ruuzel|QID|1009|M|14.80,31.29|LVL|20|N|From Talen.|PRE|1007|
 C Ruuzel|QID|1009|M|6.58,13.57|N|Find Ruuzel patrolling around the island|
 C The Zoram Strand|QID|1008|M|14.10,20.7|Z|Ashenvale|US|N|Kill Wrathtail Nagas until you get 20 Wrathtail Heads.|
 T Ruuzel|QID|1009|M|14.80,31.29|N|To Talen.|
@@ -57,7 +57,7 @@ A Super Reaper 6000|QID|1093|M|59.0,62.6|Z|Stonetalon Mountains|N|From Ziz Fizzi
 T On Guard in Stonetalon |QID|1070|M|59.90,66.84|Z|Stonetalon Mountains|N|To Kaela Shadowspear.|
 A On Guard in Stonetalon |QID|1085|M|59.90,66.84|Z|Stonetalon Mountains|N|From Kaela Shadowspear.|
 T On Guard in Stonetalon |QID|1085|M|59.52,67.14|Z|Stonetalon Mountains|N|To Gaxim Rustfizzle.|
-A A Gnome's Respite|QID|1071|M|59.52,67.14|Z|Stonetalon Mountains|N|From Gaxim Rustfizzle.|
+A A Gnome's Respite|QID|1071|M|59.52,67.14|Z|Stonetalon Mountains|N|From Gaxim Rustfizzle.|PRE|1085|
 C Pridewings of Stonetalon|QID|1134|S|M|55,63|Z|Stonetalon Mountains|N|Kill Pridewing Wyverns as you go.|
 C Super Reaper 6000|QID|1093|M|62.70,54.01|Z|Stonetalon Mountains|S|N|Kill Venture co. Operators until you get the blueprints needed for Super Reaper 6000.|
 C A Gnome's Respite|QID|1071|M|69.5,54.5|Z|Stonetalon Mountains|N|Kill Loggers and Deforesters around the area.|
@@ -65,10 +65,10 @@ C Super Reaper 6000|QID|1093|M|62.70,54.01|Z|Stonetalon Mountains|US|N|If for so
 T Super Reaper 6000|QID|1093|M|59.0,62.6|Z|Stonetalon Mountains|N|To Ziz Fizziks.|
 A Further Instructions|QID|1094|M|59.0,62.6|Z|Stonetalon Mountains|N|From Ziz Fizziks.|PRE|1093|
 T A Gnome's Respite|QID|1071|M|59.52,67.14|Z|Stonetalon Mountains|N|To Gaxim Rustfizzle.|
-A A Scroll from Mauren|QID|1075|M|59.52,67.14|Z|Stonetalon Mountains|N|From Gaxim Rustfizzle.|
+A A Scroll from Mauren|QID|1075|M|59.52,67.14|Z|Stonetalon Mountains|N|From Gaxim Rustfizzle.|PRE|1071|
 C Pridewings of Stonetalon|QID|1134|US|M|50.43,45.78|Z|Stonetalon Mountains|N|Kill Pridewing Wyverns to finish this up.|
 T Journey to Stonetalon Peak|QID|1056|M|37.11,8.10|Z|Stonetalon Mountains|N|To Keeper Albagorm.|
-A Reclaiming the Charred Vale|QID|1057|M|37.11,8.10|Z|Stonetalon Mountains|N|From Keeper Albagorm.|PRE|1056|
+A Reclaiming the Charred Vale|QID|1057|M|37.11,8.10|Z|Stonetalon Mountains|N|From Keeper Albagorm.|
 f Stonetalon Peak|QID|1134|M|36.44,7.18|Z|Stonetalon Mountains|N|Grab the flightpath from Teloren|
 C Reclaiming the Charred Vale|QID|1057|M|34,65|Z|Stonetalon Mountains|S|N|Kill Harpys in the area.|
 C Retrieval for Mauren|QID|1078|M|34,65|Z|Stonetalon Mountains|N|Kill Blackened Basilisks and loot their scales.|
