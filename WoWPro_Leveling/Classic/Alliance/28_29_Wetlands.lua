@@ -7,7 +7,7 @@ WoWPro:GuideLevels(guide, 28, 29, 28)
 WoWPro:GuideNextGuide(guide, 'ClassicAshenvale2930')
 WoWPro:GuideSteps(guide, function() return [[
 
-;This is a new rewrite of the original Boston guide but polished, reorganized,  more efficent quest grouping, additional quests. 
+;This is a new rewrite of the original Boston guide but polished, reorganized,  more efficent quest grouping, additional quests.
 F Ironforge|QID|1653|M|77.50,44.30|N|Fly to Ironforge.|C|Paladin|
 t The Test of Righteousness|QID|1653|M|52.6,36.8|Z|Dun Morogh|N|To Jordan Stilwell right outside of the gates of Ironforge.|C|Paladin|
 A The Test of Righteousness|QID|1654|M|52.6,36.8|Z|Dun Morogh|N|From Jordan Stilwell. We won't follow the rest of this quest as it takes you all over the world to complete, but you now have the quest in your logs to complete as you see fit.|C|Paladin|PRE|1653|
