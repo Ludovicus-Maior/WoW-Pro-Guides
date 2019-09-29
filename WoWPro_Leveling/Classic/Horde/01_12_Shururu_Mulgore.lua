@@ -10,32 +10,32 @@ A The Hunt Begins|QID|747|M|44.87,77.08|N|From Grull Hawkwind.|
 A A Humble Task|QID|752|M|44.19,76.06|N|From Chief Hawkwind.|
 C The Hunt Begins|QID|747|M|47.87,77.76|N|Kill Plainstriders around the camp.|
 T A Humble Task|QID|752|M|50.03,81.16|N|To Greatmother Hawkwind.|
-A A Humble Task|QID|753|M|50.03,81.16|N|From Greatmother Hawkwind.|
+A A Humble Task|QID|753|PRE|752|M|50.03,81.16|N|From Greatmother Hawkwind.|
 C Water Pitcher|QID|753|L|4755|M|50.22,81.37|N|Click the Water Pitcher on the fountain.|
 
 T The Hunt Begins|QID|747|M|44.87,77.08|N|To Grull Hawkwind.|
-A Simple Note|QID|3091|C|Warrior|R|Tauren|M|44.87,77.08|N|From Grull Hawkwind.|
-A Etched Note|QID|3092|C|Hunter|R|Tauren|M|44.87,77.08|N|From Grull Hawkwind.|
-A Rune-Inscribed Note|QID|3093|C|Shaman|R|Tauren|M|44.87,77.08|N|From Grull Hawkwind.|
-A Verdant Note|QID|3094|C|Druid|R|Tauren|M|44.87,77.08|N|From Grull Hawkwind.|
-A The Hunt Continues|QID|750|M|44.87,77.08|N|From Grull Hawkwind.|
+A Simple Note|QID|3091|PRE|747|C|Warrior|R|Tauren|M|44.87,77.08|N|From Grull Hawkwind.|
+A Etched Note|QID|3092|PRE|747|C|Hunter|R|Tauren|M|44.87,77.08|N|From Grull Hawkwind.|
+A Rune-Inscribed Note|QID|3093|PRE|747|C|Shaman|R|Tauren|M|44.87,77.08|N|From Grull Hawkwind.|
+A Verdant Note|QID|3094|PRE|747|C|Druid|R|Tauren|M|44.87,77.08|N|From Grull Hawkwind.|
+A The Hunt Continues|QID|750|PRE|747|M|44.87,77.08|N|From Grull Hawkwind.|
 r Sell junk, you will need money for your first training.|QID|753|M|45.29,76.52|N|Right-click this step off when complete.|
 
 T Rune-Inscribed Note|QID|3093|C|Shaman|R|Tauren|M|45.01,75.95|N|To Meela Dawnstrider.|
 T Verdant Note|QID|3094|C|Druid|R|Tauren|M|45.09,75.94|N|To Gart Mistrunner.|
 T A Humble Task|QID|753|M|44.19,76.06|N|To Chief Hawkwind.|
-A Rites of the Earthmother|QID|755|M|44.19,76.06|N|From Chief Hawkwind.|
+A Rites of the Earthmother|QID|755|PRE|753|M|44.19,76.06|N|From Chief Hawkwind.|
 T Simple Note|QID|3091|C|Warrior|R|Tauren|M|44.02,76.13|N|To Harutt Thunderhorn.|
 T Etched Note|QID|3092|C|Hunter|R|Tauren|M|44.26,75.70|N|To Lanka Farshot.|
 
 C The Hunt Continues|QID|750|S|N|Kill Mountain Cougars on the way.|
 T Rites of the Earthmother|QID|755|M|42.57,92.17|N|To Seer Graytongue.|
-A Rite of Strength|QID|757|M|42.57,92.17|N|From Seer Graytongue.|
+A Rite of Strength|QID|757|PRE|755|M|42.57,92.17|N|From Seer Graytongue.|
 C The Hunt Continues|QID|750|M|44.21,89.06|US|N|Kill Mountain Cougars until you have all 10 Mountain Cougar Pelts.|
 L Level 4|LVL|4|N|Grind to level 4. The quest we turn in gives 250 XP, so you can stop at 1150 XP.|
 
 T The Hunt Continues|QID|750|M|44.87,77.08|N|To Grull Hawkwind.|
-A The Battleboars|QID|780|M|44.87,77.08|N|From Grull Hawkwind.|
+A The Battleboars|QID|780|PRE|750|M|44.87,77.08|N|From Grull Hawkwind.|
 r Sell Junk|QID|780|M|45.29,76.52|
 A Break Sharptusk!|QID|3376|M|44.80,76.86|N|From Brave Windfeather, who walks around the camp.|
 A Call of Earth|QID|1519|C|Shaman|R|Tauren|M|44.73,76.19|N|From Seer Ravenfeather.|
@@ -53,14 +53,14 @@ H Camp Narache|QID|757|U|6948|
 T The Battleboars|QID|780|M|44.87,77.08|N|To Grull Hawkwind.|
 T Break Sharptusk!|QID|3376|M|44.80,76.86|N|To Brave Windfeather, who walks around the camp.|
 T Call of Earth|QID|1519|C|Shaman|R|Tauren|M|44.73,76.19|N|To Seer Ravenfeather.|
-A Call of Earth|QID|1520|C|Shaman|R|Tauren|M|44.73,76.19|N|From Seer Ravenfeather.|
+A Call of Earth|QID|1520|PRE|1519|C|Shaman|R|Tauren|M|44.73,76.19|N|From Seer Ravenfeather.|
 T Rite of Strength|QID|757|M|44.19,76.06|N|To Chief Hawkwind.|
-A Rites of the Earthmother|QID|763|M|44.19,76.06|N|From Chief Hawkwind.|
+A Rites of the Earthmother|QID|763|PRE|757|M|44.19,76.06|N|From Chief Hawkwind.|
 T Attack on Camp Narache|QID|781|M|44.19,76.06|N|To Chief Hawkwind.|
 
 R Kodo Rock|QID|1521|C|Shaman|R|Tauren|M|53.95,80.21|
 T Call of Earth|QID|1520|C|Shaman|R|Tauren|U|6635|M|53.83,80.57|N|Use the Earth Sapta once you are at Kodo Rock.|
-A Call of Earth|QID|1521|C|Shaman|R|Tauren|M|53.83,80.57|
+A Call of Earth|QID|1521|PRE|1520|C|Shaman|R|Tauren|M|53.83,80.57|
 T Call of Earth|QID|1521|C|Shaman|R|Tauren|M|44.73,76.19|N|To Seer Ravenfeather.|
 N Train other skills|QID|1521|C|Shaman|R|Tauren|N|You can train the remaining skills.|
 
