@@ -8,11 +8,11 @@ N Blightcaller Uncovered|QID|6186|N|Make sure you get the Blightcaller Uncovered
 N SI:7 Insignia |QID|6185|N|Loot the insignia here.|L|16003 1|M|28.80,79.80|
 C The Eastern Plagues|N|Loot the final insignia here.|QID|6185|M|28.80,74.90|
 T Sister Pamela|QID|5601|M|32.4,83.7|
-A Pamela's Doll|QID|5149|M|32.4,83.7|
+A Pamela's Doll|QID|5149|PRE|5601|M|32.4,83.7|
 C Pamela's Doll|N|Search the houses for the three doll pieces, then combine them.|QID|5149|M|38.50,92.60|
 T Pamela's Doll|QID|5149|M|32.4,83.7|
-A Uncle Carlin|QID|5241|M|32.4,83.7|
-A Auntie Marlene|QID|5152|M|32.4,83.7|
+A Uncle Carlin|QID|5241|PRE|5149|M|32.4,83.7|
+A Auntie Marlene|QID|5152|PRE|5149|M|32.4,83.7|
 C Blood Tinged Skies|N|Kill Plaguebats and Plaguehound Runts in the southwestern part of the zone.|QID|5543|M|34.30,74.80|
 N Plaguehound|QID|5542|N|Kill 5 Plaguehounds, and kill Carrion Devourers.|M|71.00,73.00|
 C Demon Dogs|N|Kill the rest of the mobs for this quest.|QID|5542|M|51.00,41.00|
@@ -20,7 +20,7 @@ T Troubled Spirits of Kel'Theril|QID|5245|
 f Light's Hope Chapel|QID|6030|N|Get the flight path.|M|81.60,59.30|
 T Duke Nicholas Zverenhoff|QID|6030|M|75.7,53.9|
 T Uncle Carlin|QID|5241|M|75.7,53.9|
-A Defenders of Darrowshire|QID|5211|
+A Defenders of Darrowshire|QID|5211|PRE|5241|
 A Binding the Dreadnaught|QID|9131|
 T Binding the Dreadnaught|QID|9131|
 C Carrion Grubbage|N|Kill grubs until you get the items for this quest.|QID|5544|M|33.00,77.00|
@@ -29,12 +29,12 @@ T Return to Chillwind Camp |QID|5226|M|42.9,84.5|
 T The Eastern Plagues|QID|6185|M|43.6,84.5|
 N Mission Accomplished!|QID|5238|N|Make sure you turn this quest in at Ashlam (in town, requires manual checkbox).  (42.70, 84.00)|
 T The Eastern Plagues|QID|6185|M|43.6,84.5|
-A The Blightcaller Cometh|QID|6186|M|43.6,84.5|
+A The Blightcaller Cometh|QID|6186|PRE|6185|M|43.6,84.5|
 T Auntie Marlene|QID|5152|M|49.2,78.5|
-A A Strange Historian|QID|5153|M|49.2,78.5|
+A A Strange Historian|QID|5153|PRE|5152|M|49.2,78.5|
 C A Strange Historian|N|Loot the grave here.|QID|5153|M|49.70,76.70|
 T A Strange Historian|QID|5153|M|39.5,66.8|
-A The Annals of Darrowshire|QID|5154|M|39.5,66.8|
+A The Annals of Darrowshire|QID|5154|PRE|5153|M|39.5,66.8|
 C The Annals of Darrowshire|N|Loot the book from here.  There may be fake books, so keep looking for the real one.|QID|5154|M|43.50,69.90|
 T The Annals of Darrowshire|QID|5154|M|39.5,66.8|
 T Blood Tinged Skies|QID|5543|M|4.7,38.4|
