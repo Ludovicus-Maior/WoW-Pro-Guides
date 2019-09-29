@@ -9,16 +9,16 @@ WoWPro:GuideSteps(guide, function() return [[
 R Go upstairs|QID|363|R|Undead|M|30.00,72.84|CC|N|Leave the crypt and go upstairs to your first quest.|
 A Rude Awakening|QID|363|R|Undead|M|30.21,71.64|N|From Undertaker Mordo outside.|
 T Rude Awakening|QID|363|R|Undead|M|30.84,66.20|N|To Shadow Priest Sarvis in the chapel to the north.|
-A The Mindless Ones|QID|364|M|30.84,66.20|
+A The Mindless Ones|QID|364|PRE|363|M|30.84,66.20|
 C The Mindless Ones|QID|364|M|32.22,63.16|QO|1;2|N|Kill Mindless Zombies and Wretched Zombies outside.|
 
 T The Mindless Ones|QID|364|M|30.80,66.20|N|From Shadow Priest Sarvis in the chapel.|
-A Encrypted Scroll|QID|3096|C|Rogue|M|30.80,66.20|N|From Shadow Priest Sarvis in the chapel.|
-A Glyphic Scroll|QID|3098|C|Mage|M|30.80,66.20|N|From Shadow Priest Sarvis in the chapel.|
-A Hallowed Scroll|QID|3097|C|Priest|M|30.80,66.20|N|From Shadow Priest Sarvis in the chapel.|
-A Simple Scroll|QID|3095|C|Warrior|M|30.80,66.20|N|FFrom Shadow Priest Sarvis in the chapel.|
-A Tainted Scroll|QID|3099|C|Warlock|M|30.80,66.20|N|From Shadow Priest Sarvis in the chapel.|
-A Rattling the Rattlecages|QID|3901|M|30.80,66.20|N|From Shadow Priest Sarvis|
+A Encrypted Scroll|QID|3096|PRE|364|C|Rogue|M|30.80,66.20|N|From Shadow Priest Sarvis in the chapel.|
+A Glyphic Scroll|QID|3098|PRE|364|C|Mage|M|30.80,66.20|N|From Shadow Priest Sarvis in the chapel.|
+A Hallowed Scroll|QID|3097|PRE|364|C|Priest|M|30.80,66.20|N|From Shadow Priest Sarvis in the chapel.|
+A Simple Scroll|QID|3095|PRE|364|C|Warrior|M|30.80,66.20|N|FFrom Shadow Priest Sarvis in the chapel.|
+A Tainted Scroll|QID|3099|PRE|364|C|Warlock|M|30.80,66.20|N|From Shadow Priest Sarvis in the chapel.|
+A Rattling the Rattlecages|QID|3901|PRE|364|M|30.80,66.20|N|From Shadow Priest Sarvis|
 A The Damned|QID|376|M|30.85,66.05|N|From Novice Elreth.|
 
 T Encrypted Scroll|QID|3096|C|Rogue|M|32.50,65.70|N|Turn in your class quest in the bigger house across the chapel at David Trias.|
@@ -35,9 +35,9 @@ C Piercing the Veil|QID|1470|C|Warlock|M|33.0,61.6|QO|1|N|Get those skulls!|
 T The Damned|QID|376|M|30.86,66.05|N|In the chapel at Novice Elreth.|
 T Rattling the Rattlecages|QID|3901|M|30.86,66.05|N|To Shadow Priest Sarvis.|
 T Piercing the Veil|QID|1470|C|Warlock|M|30.98,66.41|N|From Venya Marthand in the chapel.|
-A Marla's Last Wish|QID|6395|M|30.85,66.05|N|From Novice Elreth.|
-A Scavenging Deathknell|QID|3902|M|31.65,65.68|N|From Deathguard Saltain around.|
-A Night Web's Hollow|QID|380|M|32.14,66.02|N|From Executor Arren.|
+A Marla's Last Wish|QID|6395|PRE|376|M|30.85,66.05|N|From Novice Elreth.|
+A Scavenging Deathknell|QID|3902|PRE|376|M|31.65,65.68|N|From Deathguard Saltain around.|
+A Night Web's Hollow|QID|380|PRE|376|M|32.14,66.02|N|From Executor Arren.|
 
 C Scavenging Deathknell|QID|3902|M|33.2,63.7|QO|1|N|Find the crates in and around the ruined houses east of the chapel.|
 K Samuel Fipps|ACTIVE|6395|M|36.6,61.6|L|16333|N|He's east/northeast where the small tents are. Loot Samuel's Remains.|
@@ -48,15 +48,15 @@ C Marla's Last Wish|QID|6395|M|31.17,65.08|QO|1|N|Run north to the graveyard out
 T Marla's Last Wish|QID|6395|M|30.86,66.05|N|To Novice Elreth in the chapel.|
 T Scavenging Deathknell|QID|3902|M|31.6,65.6|N|To Deathguard Saltain around.|
 T Night Web's Hollow|QID|380|M|32.16,66.02|N|From Executor Arren|
-A The Scarlet Crusade|QID|381|M|32.16,66.02|N|From Executor Arren|
+A The Scarlet Crusade|QID|381|PRE|380|M|32.16,66.02|N|From Executor Arren|
 
 C The Scarlet Crusade|QID|381|M|36.1,67.1|QO|1|N|Run east and kill Scarlet Converts and Scarlet Initiates until you have 12 Scarlet Armbands.|
 T The Scarlet Crusade|QID|381|M|32.16,66.02|N|Back at Executor Arren.|
-A The Red Messenger|QID|382|M|32.16,66.02|N|From Executor Arren|
+A The Red Messenger|QID|382|PRE|381|M|32.16,66.02|N|From Executor Arren|
 K Meven Korgal|ACTIVE|382|M|36.48,68.83|L|2885|N|He's in front of a tent. Loot the Scarlet Crusade Documents from him. NOTE: Attack him from the hill behind the tent if you want to avoid the other mobs.|
 
 T The Red Messenger|QID|382|M|32.16,66.02|N|Again back at Executor Arren.|
-A Vital Intelligence|QID|383|M|32.16,66.02|N|From Executor Arren|
+A Vital Intelligence|QID|383|PRE|382|M|32.16,66.02|N|From Executor Arren|
 A In Favor of Darkness|QID|5651|C|Priest|N|From Dark Cleric Duesten in the chapel.|
 
 A A Rogue's Deal|QID|8|M|38.24,56.74|N|Follow the road north-east. Get the quest from Calvin Montague.|
@@ -99,12 +99,12 @@ T Fields of Grief|QID|407|M|61.97,51.28|N|To the Captured Scarlet Zealot down in
 
 ; Priest class quest
 T In Favor of Darkness|QID|5651|C|Priest|R|Undead|M|61.57,52.19|N|To Dark Cleric Beryl upstairs at the inn.|
-A Garments of Darkness|QID|5650|C|Priest|R|Undead|N|From Dark Cleric Beryl|
+A Garments of Darkness|QID|5650|PRE|5651|C|Priest|R|Undead|N|From Dark Cleric Beryl|
 C Garments of Darkness|QID|5650|C|Priest|R|Undead|M|59.18,46.49|N|Go north. Heal Deathguard Kel and give Power Word: Fortitude to him.|
 
 C A New Plague|QID|367|QO|1|N|Kill Decrepit and Cursed Darkhounds for the Darkhound Blood.|S!US|
 C A Putrid Task|QID|404|M|53.42,55.96|QO|1|N|Starting aound the area of Cold Hearth Mannor, you begin to see Ravaged Corpses and Rotting Deads to kill for Putrid Claws.|S!US|
-A A Rogue's Deal|QID|590|M|38.26,56.79|N|Follow the road west to Deathknell to Calvin Montague. Prepare for a fight and AFTER THAT accept his quest.\nNOTE: This will temporarily trigger you for PVP.|
+A A Rogue's Deal|QID|590|PRE|8|M|38.26,56.79|N|Follow the road west to Deathknell to Calvin Montague. Prepare for a fight and AFTER THAT accept his quest.\nNOTE: This will temporarily trigger you for PVP.|
 T A Rogue's Deal|QID|590|M|38.26,56.79|N|Just wait for him to finish eating and turn in the quest.|
 K At War With The Scarlet Crusade|QID|427|M|37.59,48.09;32.86,47.47|CC|QO|1|N|Go north-west to Solliden Farmstead. Then go west while killing Scarlet Warriors.|
 
@@ -259,19 +259,19 @@ T Return to the Magistrate|QID|360|M|61.26,50.84|N|To Magistrate Sevren in the t
 T At War With The Scarlet Crusade|QID|371|M|60.57,51.77|N|To Executor Zygand.|
 A At War With The Scarlet Crusade|QID|372|M|60.6,51.8|N|From Executor Zygand.|PRE|371|
 T A New Plague|QID|369|M|59.44,52.39|N|To Apothecary Johaan.|
-A A New Plague|QID|492|M|59.4,52.4|N|From Apothecary Johaan.|
+A A New Plague|QID|492|PRE|369|M|59.4,52.4|N|From Apothecary Johaan.|
 T A New Plague|QID|492|M|61.93,51.40|N|To the dwarf in the basement of the inn.|
 
 T The Lich's Identity|QID|357|M|84.05,17.37|Z|Undercity|N|To Bethor Iceshard in the Magic Quarter, Undercity.|
-A Return the Book|QID|366|M|84.1,17.5|
+A Return the Book|QID|366|PRE|357|M|84.1,17.5|
 T The Balnir Farmstead|QID|1882|C|Mage|M|85,10|Z|Undercity|N|To Anastasia Hartwell.|
 T Rear Guard Patrol|QID|356|M|65.48,60.24|Z|Tirisfal Glades|N|Leave the Undercity and follow the road north-east to Deathguard Linnea.|
 
 T Return the Book|QID|366|M|68.2,41.9|N|To Gunther's Retreat, the island in Brightwater Lake|
-A Proving Allegiance|QID|409|M|68.2,41.9|
+A Proving Allegiance|QID|409|PRE|366|M|68.2,41.9|
 C Proving Allegiance|QID|409|M|66.63,44.87|N|Take a candle from the crate behind you. Go slighty south-west to an altar. Summon Lillith Nefara and kill her.|
 T Proving Allegiance|QID|409|M|68.17,41.94|N|Back at Gunther Arcanus.|
-A The Prodigal Lich Returns|QID|411|M|68.2,41.9|
+A The Prodigal Lich Returns|QID|411|PRE|409|M|68.2,41.9|
 
 C At War With The Scarlet Crusade|QID|372|M|77.76,32.12|N|Go north-east to the Scarlet Crusade camp east of the lake. Captain Melrache has the two bodyguards next to him. If you have any Slumber Sand left, use it to crowd control one of them. Be careful here as the mobs respawn rather quickly.|
 H Gallows' End Tavern|QID|361|U|6948|N|Hearthstone back to Brill.|
@@ -287,7 +287,7 @@ N Corpse Hearth|QID|408|N|Die and rezz at Brill's graveyard. Close this step onc
 T The Family Crypt|QID|408|M|61.26,50.84|N|To Magistrate Sevren in the town hall.|
 T A Letter Undelivered|QID|361|
 T Agamand Heirlooms|QID|1821|C|Warrior|M|61.71,52.31|N|To Coleman Farthing in the inn.|
-A Heirloom Weapon|QID|1822|C|Warrior|
+A Heirloom Weapon|QID|1822|PRE|1821|C|Warrior|
 T Heirloom Weapon|QID|1822|C|Warrior|
 A Delivery to Silverpine Forest|QID|445|M|59.44,52.39|N|From Apothecary Johaan. We won't complete that quest in this guide though.|
 
