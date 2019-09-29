@@ -47,7 +47,7 @@ T Speak to Nafien|QID|8462|M|64.80,8.20|N|North, at the end of the road.|
 A Deadwood of the North|QID|8461|
 C Deadwood of the North|QID|8461|
 T Deadwood of the North|QID|8461|
-A Speak to Salfa|QID|8465|
+A Speak to Salfa|QID|8465|PRE|8461|
 
 R Winterspring|N|Thru the cave!|
 T Speak to Salfa|QID|8465|
