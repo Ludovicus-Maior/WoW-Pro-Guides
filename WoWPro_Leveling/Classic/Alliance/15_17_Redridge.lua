@@ -29,7 +29,7 @@ T Aquatic Form|QID|5061|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwa
 N Aquatic Form|AVAILABLE|-5061|C|Druid|N|This completes your Druid class quests. You can now rejoin the guide where you left off.|
 R Rut'theran Village|QID|244|C|Druid|M|30.05,41.31|Z|Darnassus|N|Run to Rut'theran Village through the portal.|
 F Auberdine|QID|244|C|Druid|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
-b Wetlands|QID|244|C|Druid||M|32.42,43.74|Z|Darkshore|N|Get on the boat to Menethil (read the sign post).|
+b Wetlands|QID|244|C|Druid|M|32.42,43.74|Z|Darkshore|N|Get on the boat to Menethil (read the sign post).|
 F Sentinel Hill|QID|244|M|56.55,52.65|Z|Westfall|N|Fly to Sentinel Hill and pick up where you left.|
 
 R Redridge Mountains|QID|244|M|93.00,72.00|Z|Elwynn Forest|N|Go to Redridge Mountains|
@@ -76,7 +76,7 @@ f Darkshire|ACTIVE|116|M|77.50,44.30|Z|Duskwood|N|Get the flight path from Felic
 
 H Sentinel Hill|ACTIVE|132|N|Hearth back to Sentinel Hill.|
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|Westfall|N|To Gryan Stoutmantle.|
-A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle.|
+A The Defias Brotherhood|QID|135|PRE|132|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle.|
 
 F Stormwind City|ACTIVE|116|N|And back to Stormwind, they like giving you the run around.|;M|56.55,52.65|Westfall| or M|77.50,44.30|Z|Duskwood|N|At Felicia Maline.| depending on which guide you came in from
 R Goldshire|ACTIVE|116|M|44.00,65.70|Z|Elwynn Forest|N|Go to Goldshire.|
@@ -88,7 +88,7 @@ T Messenger to Stormwind|QID|120|M|64.01,75.38|Z|Stormwind City|N|To General Mar
 A Messenger to Stormwind |QID|121|M|64.01,75.38|Z|Stormwind City|N|From General Marcus Jonathan.|PRE|120|
 B Cask of Merlot|ACTIVE|116|M|52.15,67.87|Z|Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located in the Canels (back to back with the bank)|
 T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|CS|Z|Stormwind City|N|To Master Mathias Shaw.|
-A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|Westfall|N|From Master Mathias Shaw.|
+A The Defias Brotherhood|QID|141|PRE|135|M|75.79,59.85|Z|Westfall|N|From Master Mathias Shaw.|
 ;removing to end of 18-20westfall guide, so to keep questlog managable-A Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
 ;removing to end of 18-20westfall guide, so to keep questlog managable-A Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
 ;removing to end of 18-20westfall guide, so to keep questlog managable-A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
