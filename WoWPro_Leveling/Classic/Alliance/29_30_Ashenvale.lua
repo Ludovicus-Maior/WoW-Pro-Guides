@@ -86,7 +86,6 @@ C Velinde's Effects|QID|1038|M|56.2,79.01;56.19,76.53;62.28,83.29|CC|Z|Darnassus
 T Velinde's Effects|QID|1038|M|61.77,39.18|Z|Darnassus|N|To Thyn'tel Bladeweaver.|
 A The Barrens Port|QID|1039|M|61.77,39.18|Z|Darnassus|N|From Thyn'tel Bladeweaver.|PRE|1038|
 h Darnassus|QID|1039|M|67.40,15.66|Z|Darnassus|N|Set Hearthstone to Darnassus, this will save a lot of travel time once we are ready to come back.|
-A The Barrens Port|QID|1039|M|61.77,39.18|Z|Darnassus|N|From Thyn'tel Bladeweaver.|
 N Level 30|QID|1039|N|You should be over level 30 or close. Be sure to train up, sell, repair, auction or any of your other big city needs. Close this step when done.|
 R Rut'theran Village|QID|1039|N|Take the teleporter to Rut'theran Village.|Z|Darnassus|M|30.10,41.40|
 f Rut'theran Village|QID|1039|M|58.4,94.02|Z|Teldrassil|N|Get the flight path.|R|-NightElf|
