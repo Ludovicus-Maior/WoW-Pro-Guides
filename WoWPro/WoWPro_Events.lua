@@ -55,6 +55,11 @@ function WoWPro.TakeTaxiClassic(destination)
             if IsMounted() then
                 Dismount()
             end
+            for routeIndex = 1, GetNumRoutes(i) do
+                local sourceSlotIndex = TaxiGetNodeSlot(i, routeIndex, true)
+                local destinationSlotIndex = TaxiGetNodeSlot(i, routeIndex, false)
+                WoWPro:Print("Taking flight to: [%s] Hop %s => %s",location, TaxiNodeName(sourceSlotIndex), TaxiNodeName(destinationSlotIndex) )
+            end
             TakeTaxiNode(i)
             -- wait till we see PLAYER_CONTROL_LOST and UnitOnTaxi("player") to complete this step.
             return
