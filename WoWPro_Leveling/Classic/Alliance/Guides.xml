@@ -19,7 +19,10 @@
 	<Script file="29_30_Ashenvale.lua"/>
 	<Script file="30_41_Jame_Chapter_I.lua"/>
 	<Script file="30_41_Elidion_Chapter_I.lua"/>
+	<Script file="41_42_Dungeon_Uldaman.lua"/>
+	<Script file="42_50_Elidion_Chapter_II.lua"/>
 	<Script file="41_50_Jame_Chapter_II.lua"/>
+	<Script file="49_50_Dungeon_Zul_Farrak.lua"/>
 	<Script file="50_51_Searing_Gorge.lua"/>
 	<Script file="51_52_Azshara.lua"/>
 	<Script file="52_53_Felwood.lua"/>
