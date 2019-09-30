@@ -172,6 +172,8 @@ C The Jasperlode Mine|QID|76|M|61.0,54.1;60.5,50.1|CS|NC|N|Head up to Jasperlode
 T Further Concerns|QID|35|M|74.0,72.2|N|To Guard Thomas|
 A Find the Lost Guards|QID|37|M|74.0,72.2|PRE|35|N|From Guard Thomas|
 A Protect the Frontier|QID|52|M|74.0,72.2|N|From Guard Thomas|
+A Bounty on Murlocs|QID|46|M|74.0,72.2|N|From Guard Thomas|ELITE|
+
 C Protect the Frontier|QID|52|S|M|84.1,61.6|N|Kill the Prowlers and Young Forest Bears|
 
 A A Bundle of Trouble|QID|5545|M|81.4,66.1|N|From Supervisor Raelen|
@@ -193,8 +195,10 @@ A Discover Rolf's Fate|QID|45|PRE|37|M|72.7,60.3|N|From A half-eaten body|
 T Discover Rolf's Fate|QID|45|M|79.8,55.5|N|To Rolf's corpse. Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|
 A Report to Thomas|QID|71|PRE|45|M|79.8,55.5|N|From Rolf's corpse|
 
+C Bounty on Murlocs|QID|46|M|79,55|US|N|Kill murlocs until you collect the torn fins needed.|
 C Protect the Frontier|QID|52|US|M|87,70|N|Finish killing the Prowlers and Young Forest Bears|
 
+T Bounty on Murlocs|QID|46|M|74.0,72.2|N|To Guard Thomas.|
 T Report to Thomas|QID|71|M|74.0,72.2|N|To Guard Thomas.|
 A Deliver Thomas' Report|QID|39|PRE|71|M|74.0,72.2|N|From Guard Thomas.|
 T Protect the Frontier|QID|52|M|74.0,72.2|N|To Guard Thomas.|
@@ -262,7 +266,7 @@ C Dead-tooth Jack|QID|1667|C|Warrior|M|89.3,78.8|N|Clear the area, 'til you have
 T Dead-tooth Jack|QID|1667|C|Warrior|M|84,69|N|To Marshal Haggard.|
 
 R Westfall |QID|109|ACTIVE|109|M|61.95,17.80|Z|Westfall|N|Follow the road into Westfall|
-A Furlbrow's Deed|QID|184|U|1971|N|If you happened to have found Furlbrow's deed (random rare drop), while questing thru Elwyn, accept the quest and then turn it in to Farmer Furlbrow. Else, check this off manually if you don't have the item.|
+A Furlbrow's Deed|QID|184|U|1972|N|If you happened to have found Furlbrow's deed (random rare drop), while questing thru Elwyn, accept the quest and then turn it in to Farmer Furlbrow. Else, check this off manually if you don't have the item.|
 A Furlbrow's Deed|QID|184|M|59.95,19.36|Z|Westfall|N|To Farmer Furlbrow.|
 A The Forgotten Heirloom|QID|64|M|59.95,19.36|Z|Westfall|N|From Farmer Furlbrow.|
 A Westfall Stew |QID|36|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
@@ -366,8 +370,7 @@ T The Tome of Divinity|QID|1781|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|To Ga
 A The Tome of Divinity|QID|1786|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|From Gazin Tenorm.|PRE|1781|
 
 T Stormpike's Order|QID|1338|M|58.1,16.57|Z|Stormwind City|N|To Furen Longbeard, in the Dwarven District|
-A Bounty on Murlocs|QID|46|M|74.0,72.2|N|From Guard Thomas, along the eastern road between Stormwind and Redridge Mtns.|
-R Stone Cairn Lake|ACTIVE|1786^46|M|67,58|N|Run to the island in the middle of Stone Cairn Lake.|
+R Stone Cairn Lake|ACTIVE|1786|M|67,58|N|Run to the island in the middle of Stone Cairn Lake.|
 C The Tome of Divinity|QID|1786|C|Paladin|M|72.59,51.41|U|6866|NC|T|Henze Faulk|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|
 T The Tome of Divinity|QID|1786|C|Paladin|M|72.59,51.41|N|To Henze Faulk.|
 A The Tome of Divinity|QID|1787|C|Paladin|M|72.59,51.41|N|From Henze Faulk.|PRE|1786|
@@ -375,20 +378,17 @@ C The Tome of Divinity|QID|1787|C|Paladin|M|74.03,51.84|N|Kill the wizards on th
 T Cloth and Leather Armor|QID|59|M|79.5,68.8|N|To Sara Timberlain in Eastvale Logging Camp|
 K Morgan the Collector|ACTIVE|147|M|71,80|QO|1|T|Morgan the Collector|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which agro at the same time.|
 
-C Bounty on Murlocs|QID|46|M|75,83|US|N|Kill murlocs until you collect the torn fins needed.|
-T Bounty on Murlocs|QID|46|M|74.0,72.2|N|To Guard Thomas.|
-
 R Redridge Mountains|QID|244|M|8.98,71.72|Z|Redridge Mountains|N|Go to Redridge Mountains|
 A Encroaching Gnolls|QID|244|M|15.3,71.5|Z|Redridge Mountains|N|From Guard Parker.|
 T Encroaching Gnolls|QID|244|M|30.7,60.0|Z|Redridge Mountains|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|PRE|244|M|30.7,60.0|Z|Redridge Mountains|N|From Deputy Feldon.|
 f Lakeshire|QID|65|M|30.60,59.40|Z|Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
-A The Price of Shoes|QID|118|M|31.0,47.3|Z|Redridge Mountains|N|From Verner Osgood.|
+A The Price of Shoes|QID|118|M|31.0,47.3|Z|Redridge Mountains|N|From Verner Osgood.|LVL|14|
 
 F Stormwind|ACTIVE|147^1787|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
 T Manhunt|QID|147|M|42.1,65.9|N|To Marshall Dughan|
-T The Price of Shoes|QID|118|M|41.7,65.5|N|To Smith Argus.|
-A Return to Verner|QID|119|M|41.7,65.5|N|From Smith Argus.|PRE|118|
+t The Price of Shoes|QID|118|M|41.7,65.5|N|To Smith Argus.|
+A Return to Verner|QID|119|M|41.7,65.5|N|From Smith Argus.|PRE|118|LVL|14|
 
 T The Tome of Divinity|QID|1787|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
 A The Tome of Divinity|QID|1788|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm.|PRE|1787|
