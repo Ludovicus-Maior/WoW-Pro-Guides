@@ -5,6 +5,7 @@
 local L = WoWPro_Locale
 WoWPro.actiontypes = {
 	A = "Interface\\GossipFrame\\AvailableQuestIcon",
+	["A ELITE"] = "Interface\\GossipFrame\\AvailableLegendaryQuestIcon",
 	C = "Interface\\Icons\\Ability_DualWield",
 	T = "Interface\\GossipFrame\\ActiveQuestIcon",
 	t = "Interface\\GossipFrame\\ActiveQuestIcon",
@@ -39,6 +40,7 @@ end
 
 WoWPro.actionlabels = {
 	A = "Accept",
+	["A ELITE"] = "Accept elite quest",
 	C = "Complete",
 	T = "Turn in",
 	t = "Turn in when complete",
@@ -266,6 +268,7 @@ DefineTag("LVL","level","string",validate_old_list_of_ints,nil)
 DefineTag("T","target","string",nil,nil)
 DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(value) end)
 DefineTag("NOCACHE", "nocache","boolean",nil,nil)
+DefineTag("ELITE", "elite","boolean",nil,nil)
 
 -- Conditionals
 DefineTag("REP","rep","string",nil,nil)

@@ -800,6 +800,9 @@ function WoWPro:RowUpdate(offset)
 			-- Yeah, that is how blizzard spelled it!
 			row.action:SetTexture("Interface\\CURSOR\\vehichleCursor")
 			row.action.tooltip.text:SetText("Take Vehicle")
+        elseif WoWPro.elite[k] and WoWPro.action[k] == "A" then
+            row.action:SetTexture(WoWPro.actiontypes[action.." ELITE"])
+            row.action.tooltip.text:SetText("Elite Quest")
 		end
 
 		row.check:SetScript("OnClick", function(self, button, down)
