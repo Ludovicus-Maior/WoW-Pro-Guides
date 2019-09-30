@@ -383,16 +383,14 @@ A Encroaching Gnolls|QID|244|M|15.3,71.5|Z|Redridge Mountains|N|From Guard Parke
 T Encroaching Gnolls|QID|244|M|30.7,60.0|Z|Redridge Mountains|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|PRE|244|M|30.7,60.0|Z|Redridge Mountains|N|From Deputy Feldon.|
 f Lakeshire|QID|65|M|30.60,59.40|Z|Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
-A The Price of Shoes|QID|118|M|31.0,47.3|Z|Redridge Mountains|N|From Verner Osgood.|LVL|14|
 
-F Stormwind|ACTIVE|147^1787|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
-T Manhunt|QID|147|M|42.1,65.9|N|To Marshall Dughan|
-t The Price of Shoes|QID|118|M|41.7,65.5|N|To Smith Argus.|
-A Return to Verner|QID|119|M|41.7,65.5|N|From Smith Argus.|PRE|118|LVL|14|
+F Stormwind|ACTIVE|147^1787|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
 
 T The Tome of Divinity|QID|1787|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
 A The Tome of Divinity|QID|1788|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm.|PRE|1787|
 T The Tome of Divinity|QID|1788|C|Paladin|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|
+
+T Manhunt|QID|147|M|42.1,65.9|N|To Marshall Dughan|
 
 H Sentinel Hill|ACTIVE|6285|N|If your hearthstone isn't available or set there, you can always fly.|
 ]]
