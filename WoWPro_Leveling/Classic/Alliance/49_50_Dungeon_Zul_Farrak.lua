@@ -56,6 +56,7 @@ K Hydromancer Velratha|QID|3527|M|38.72,20.01|QO|2|US|N|Make your way south to t
 K Gahz'rilla|QID|2770|M|38.72,20.01|QO|1|N|You or someone in your group will need the Mallet to summon him. Make sure you do this after Velratha and have the room clear. The fight is easier melee position themselves near the water to fall into when the get knocked up in the air.|
 C Scarab Shells|QID|2865|M|38.72,20.01|US|N|Kill Scarabs to loot their Shells.|
 C Troll Temper|QID|3042|M|38.72,20.01|US|N|Kill Sandfury Trolls for the temper.|
+N Recruit help|QID|2991|M|PLAYER|Z|Tanaris|N|Now is a good time to ask your group if any are interested in continuing to group and finish the Nekrum's Medallion and Prophecy of Mosh'Aru questlines, especially if any of them were working on those quests along with you. It's really hard to find groups to do Jintha'Alor in the Hinterlands.\n\nIf you can't find help you can probably skip the quests until you can manage to get a group for it. If that is the case I would still recommend turning in the medallion in the Blasted Lands. You can reload this guide later once you have a group for it.\n\nSkip this step to continue the guide.|
 
 ;After Dungeon
 T Gahz'rilla|QID|2770|M|78.14,77.13|Z|Thousand Needles|N|To Wizzle Brassbolts. In Thousand Needles.|
@@ -63,10 +64,32 @@ T Scarab Shells|QID|2865|M|51.57,26.76|Z|Tanaris|N|To Tran'rek.|
 T Troll Temper|QID|3042|M|51.41,28.75|Z|Tanaris|N|To Trenton Lighthammer.|
 T Divino-matic Rod|QID|2768|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 T The Prophecy of Mosh'aru|QID|3527|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya.|
-A The Ancient Egg|QID|4787|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya.|PRE|3527|
+
+A The Ancient Egg|QID|4787|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya. Skip this step if you don't intend on finding a group to goto the Hinterlands.|PRE|3527|
+
 F Theramore|ACTIVE|2846|M|51.01,29.34|Z|Tanaris|N|Fly to Dustwallow Marsh.|
 T Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha. Fly to Theramore if you want to turn this in now.|
-N Zul'Farrak Complete.|QID|2991|M|PLAYER|Z|Tanaris|N|The other 2 quest chains will continue within scope of the chapter 3 guide. But you can turn them in if you won't be following it.|
+h Gadgetzan|ACTIVE|2993^4787|N|Set your Hearthstone to Gadgetzan in Tanaris.|
 
+F Ratchet|ACTIVE|2991|M|51.01,29.35|Z|Tanaris|N|Fly to Ratchet.|
+b Booty Bay|ACTIVE|2991|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
+F Blasted Lands|AVAILABLE|212|M|27.53,77.78|Z|Stranglethorn Vale|N|Fly to Blasted Lands.|
+T Nekrum's Medallion|QID|2991|M|66.9,19.5|Z|Blasted Lands|N|To Thadius Grimshade on top of the tower.|
+A The Divination|QID|2992|M|66.9,19.5|Z|Blasted Lands|N|From Thadius Grimshade.|PRE|2992|
+T The Divination|QID|2992|M|66.9,19.5|Z|Blasted Lands|N|Wait for him to finish the ritual then turn quest in to Thadius Grimshade.|
+A Return to the Hinterlands|QID|2993|M|66.9,19.5|Z|Blasted Lands|N|From Thadius Grimshade. Skip this step if you don't intend on finding a group to goto the Hinterlands.|PRE|2992|
+F Wildhammer Keep|ACTIVE|2993^4787|M|65.53,24.34|Z|Blasted Lands|N|Fly to Aerie Peak.|
+T Return to the Hinterlands|QID|2993|M|10,44.6|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|
+A Saving Sharpbeak|QID|2994|M|10,44.6|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|PRE|2993|
+R Jintha'Alor|ACTIVE|2994|M|66,66|Z|The Hinterlands|N|Put together a group of at least 3 your level or higher. (5 is better if you are all 49).|
+K Vile Priestess Hexx|ACTIVE|2994|M|59,78|Z|The Hinterlands|L|9472|T|Vile Priestess Hexx|N|Fight your way to the top of Jintha'Alor and go to the Alter. If you are patient, she will path to the cave, then you can get her guard solo, then her afterwards.|
+U Forge Sacred Mallet|ACTIVE|2994|M|59,78|Z|The Hinterlands|U|9241|L|9240|N|If you have a Sacred Mallet, here is where you click to forge it into the Mallet of Zul'Farrak. Check off manually if you don't have it.|
+C The Ancient Egg|QID|4787|M|59,78;57,86|CS|Z|The Hinterlands|N|Go in the cave right next to you and follow any path down to the lower part to find the Ancient Egg, Kill Hitah'ya the Keeper first, then the 2 guards. Loot the Egg. It takes about 15 seconds to respawn for the next person in your group to loot.|
+C Saving Sharpbeak|QID|2994|M|56,68;53,66|CS|Z|The Hinterlands|N|Back out of the cave and run north out of the ampitheatre area, the left around the wall following the wall till you find the cave. (on the same terrace level). Release Sharpbeak from his cage in the cave.|
+R Wildhammer Keep|ACTIVE|2994|N|Run back to Aerie Peak.
+T Saving Sharpbeak|QID|2994|M|10,44.6|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|
+H Gadgetzan|ACTIVE|4787|M|PLAYER|Z|The Hinterlands|N|Hearth back to Tanaris.|
+T The Ancient Egg|QID|4787|M|66.99, 22.36|Z|Tanaris|N|To Yah'kinya.|
+A The God Hakkar|QID|3528|M|66.99, 22.36|Z|Tanaris|N|From Yah'kinya.|PRE|4787|
 ]]
 end)
