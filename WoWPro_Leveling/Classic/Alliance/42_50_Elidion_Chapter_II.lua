@@ -342,7 +342,7 @@ K Roc Gizzard|ACTIVE|1452|QO|1|M|45.80,39.60|Z|Tanaris|S|N|Kill Fire Rocs until 
 T Screecher Spirits|QID|3520|M|66.99,22.36|Z|Tanaris|N|To Yeh'kinya. Skip follow-up.|
 K Roc Gizzard|ACTIVE|1452|QO|1|M|45.80,39.60|Z|Tanaris|US|N|Kill Fire Rocs until you get their Gizzards.|
 
-F Ratchet|QID|51||M|51.01,29.35|Z|Tanaris|N|Fly to Ratchet.|
+F Ratchet|QID|51|M|51.01,29.35|Z|Tanaris|N|Fly to Ratchet.|
 b Booty Bay|QID|51|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
 A The Bloodsail Buccaneers|QID|608|M|27.17,77.01|N|From Fleet Master Seahorn.|PRE|604|
 A Stranglethorn Fever|QID|348|M|27.61,76.73|N|From Fin Fizracket. Get those Gorilla Fangs out the bank. This will most likely require a group.|
@@ -632,9 +632,17 @@ T Insect Part Analysis |QID|113|M|50.21,27.48|Z|Tanaris|N|To Senior Surveyor Fiz
 A Rise of the Silithid|QID|162|M|50.21,27.48|Z|Tanaris|N|From Senior Surveyor Fizzledowser.|PRE|113|
 
 H Ironforge|QID|2977|M|PLAYER|Z|Tanaris|N|Use your hearthstone to get back to Ironforge, if you changed it or used it, you know the drill.|
+A Assisting Arch Druid Staghelm|QID|3790|M|18.15,51.44|Z|Ironforge|N|From Inkeeper Firebrew.|
+
+A Arcane Runes|QID|3449|M|30.95,4.84|Z|Ironforge|N|From Tymor.|
+A An Easy Pickup|QID|3450|M|30.95,4.84|Z|Ironforge|N|From Tymor.|
+
 t Return to Ironforge|QID|2977|M|77.55,11.81|Z|Ironforge|N|To Historian Karnik.|
 A A Future Task|QID|2964|M|77.55,11.81|Z|Ironforge|N|From Historian Karnik.|PRE|2977|
 T A Future Task|QID|2964|M|69.96,18.54|Z|Ironforge|N|To High Explorer Magellas.|
+T An Easy Pickup|QID|3450|M|70.86,94.54|Z|Ironforge|N|To Xiggs Fuselighter.|
+A Signal for Pickup|QID|3451|M|70.86,94.54|Z|Ironforge|N|From Xiggs Fuselighter.|PRE|3450|
+T Signal for Pickup|QID|3451|M|70.86,94.54|Z|Ironforge|N|To Xiggs Fuselighter.|
 r Sell junk, repair, restock, train skills.|QID|3444|N|Sell junk, repair, restock, train skills.|
 
 R Deeprun Tram|QID|2583|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|

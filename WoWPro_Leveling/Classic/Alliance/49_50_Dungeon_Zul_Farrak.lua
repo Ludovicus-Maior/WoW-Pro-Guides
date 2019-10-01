@@ -64,7 +64,9 @@ T Scarab Shells|QID|2865|M|51.57,26.76|Z|Tanaris|N|To Tran'rek.|
 T Troll Temper|QID|3042|M|51.41,28.75|Z|Tanaris|N|To Trenton Lighthammer.|
 T Divino-matic Rod|QID|2768|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 T The Prophecy of Mosh'aru|QID|3527|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya.|
+
 A The Ancient Egg|QID|4787|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya. Skip this step if you don't intend on finding a group to goto the Hinterlands.|PRE|3527|
+
 F Theramore|ACTIVE|2846|M|51.01,29.34|Z|Tanaris|N|Fly to Dustwallow Marsh.|
 T Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha. Fly to Theramore if you want to turn this in now.|
 h Gadgetzan|ACTIVE|2993^4787|N|Set your Hearthstone to Gadgetzan in Tanaris.|
