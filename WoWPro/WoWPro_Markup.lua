@@ -106,7 +106,7 @@ function WoWPro.ExpandMarkup(text)
         end
 
         if not WoWPro.MarkupTags[tag_text] then
-            WoWPro.Error("Encounted bad markup in text: %s",string.sub(text,tag_start,tag_end))
+            WoWPro:Error("Encounted bad markup in text: %s",text)
             return text
         end
         local pre = string.sub(text, 1, tag_start-1)
