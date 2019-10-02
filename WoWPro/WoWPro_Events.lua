@@ -350,14 +350,15 @@ function WoWPro.AutoCompleteZone()
 		if not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
 	        if (step == zonetext) or (step == subzonetext) then
 	            WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..step)
-	            return
+	            return true
 	        end
 	        if (targetzone == zonetext) or (targetzone == subzonetext) then
 	            WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
-	            return
+	            return true
 	        end
 		end
 	end
+	return false
 end
 
 -- Auto-Complete: Criteria Change from RegisterBucketEvent(CRITERIA_UPDATE)

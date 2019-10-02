@@ -1408,6 +1408,14 @@ function WoWPro.NextStep(k,i)
             end
         end
 
+        -- Zone sensitive steps
+        if string.find(WoWPro.action[k], "FHbPR") then
+            if WoWPro.AutoCompleteZone() then
+                skip = true
+                break
+            end
+        end
+
         -- Scenario objectives
         if WoWPro.sobjective[k] then
             if not WoWPro.Scenario then
