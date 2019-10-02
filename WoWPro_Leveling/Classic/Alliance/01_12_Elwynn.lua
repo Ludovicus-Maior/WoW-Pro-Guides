@@ -8,8 +8,6 @@ WoWPro:GuideLevels(guide,1,12, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicWestfall1315')
 WoWPro:GuideSteps(guide, function() return [[
 
-A The Stolen Tome|QID|1598|PRE|7|QO|1|C|Warlock|R|Human|M|49.97,42.65|N|Pick up your class quest from your trainer, Drusilla La Salle. She is outside the Abbey on the right side.|
-C The Stolen Tome|QID|1598|C|Warlock|R|Human|M|56.68,43.96|N|The Defias thugs have the book at their camp. Find it and pick it up.\nThere are 3 Defias Thugs at the tent that you will pull. Wait until you're at least lv 4 to do this.|NC|S|
 A A Threat Within|QID|783|M|48.15,42.95|N|From Deputy Willem|
 T A Threat Within|QID|783|M|48.9,41.6|N|To Marshal McBride, inside the Abbey|
 
@@ -19,7 +17,7 @@ A Eagan Peltskinner|PRE|783|QID|5261|M|48.15,42.95|N|From Deputy Willem|
 T Eagan Peltskinner|QID|5261|M|48.9,40.2|N|To Eagan Peltskinner around back of the Abbey.|
 
 A Wolves Across the Border|PRE|5261|QID|33|M|48.9,40.2|N|From Eagan Peltskinner.|
-C Wolves Across the Border|QID|33|QO|1|M|47.0,39.7|N|Kill Wolves until you've looted 8 Diseased Wolf Pelts.|
+C Wolves Across the Border|QID|33|QO|1|M|47.0,39.7|N|Kill Wolves until you've looted 8 Tough Wolf Meat.|
 C Kobold Camp Cleanup|QID|7|QO|1|M|47.5,36.1|N|Kill 10 Kobold 'Vermin'. The 'Workers' don't count.|T|Kobold Vermin|US|
 T Wolves Across the Border|QID|33|M|48.9,40.2|N|To Eagan Peltskinner.|
 r Sell Junk and Repair|ACTIVE|7|M|47.69,41.42|N|Take this opportunity to sell any junk you may have accumulated with Godric Rothgar.|
@@ -40,12 +38,14 @@ T Simple Letter|QID|3100|M|50.24,42.28|N|To Llane Beshere in the Hall of Arms.\n
 T Consecrated Letter|QID|3101|M|50.43,42.12|N|To Brother Sammuel in the Hall of Arms.\nGrab your lv 2 spell/skill while you're here.|
 T Hallowed Letter|QID|3103|M|49.81,39.49|N|To Priestess Anetta in the alcove off the Library Wing.\nGrab your lv 2 spell/skill while you're here.|
 T Glyphic Letter|QID|3104|M|48.92,41.61|N|To Khelden Bremen upstairs in the Library Wing.\nGrab your lv 2 spell/skill while you're here.|
-T Tainted Letter|QID|3105|M|49.97,42.65|N|To Drusilla La Salle outside on the right side of the Abbey.\nGrab your lv 2 spell/skill while you're here.|
 
 A Brotherhood of Thieves|PRE|783|QID|18|R|Human|M|48.17,42.95|N|From Deputy Willem.|
 T Encrypted Letter|QID|3102|M|50.3,39.9|N|To Jorik Kerridan is outside in the barn at the back of the Abbey.\nGrab your lv 2 spell/skill while you're here.|
+T Tainted Letter|QID|3105|M|49.97,42.65|N|To Drusilla La Salle outside on the right side of the Abbey.\nGrab your lv 2 spell/skill while you're here.|
+A The Stolen Tome|QID|1598|PRE|7|QO|1|C|Warlock|R|Human|M|49.97,42.65|N|Pick up your class quest from your trainer, Drusilla La Salle. She is outside the Abbey on the right side.|
 
 C Investigate Echo Ridge|QID|15|M|51.2,37.4|QO|1|N|Kill The Kobold Workers.\nThe Workers are much larger than the Vermin and have orange glows on their weapons.|T|Kobold Worker|US|
+C The Stolen Tome|QID|1598|C|Warlock|R|Human|M|56.68,43.96|N|The Defias thugs have the book at their camp. Find it and pick it up.\nThere are 3 Defias Thugs at the tent that you will pull. Wait until you're at least lv 4 to do this.|NC|S|
 C Brotherhood of Thieves|QID|18|M|54.6,41.9|QO|1|N|Kill and loot the Defias mobs for the Red Burlap Bandanas.|
 C The Stolen Tome|ACTIVE|1598|M|56.68,43.96|QO|1|N|The Defias thugs have the book at their camp. Find it and pick it up.\nThere are 3 Defias Thugs at the tent that you will pull. Wait until you're at least lv 4 to do this.|NC|US|
 
