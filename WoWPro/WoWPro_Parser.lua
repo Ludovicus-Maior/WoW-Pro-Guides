@@ -987,6 +987,9 @@ function WoWPro.SetupGuideReal()
         end
     end
 
+    -- Location, Location, Location
+    WoWPro.AutoCompleteZone()
+
 	-- Scrollbar Settings --
 	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount - WoWPro.ShownRows))
 
