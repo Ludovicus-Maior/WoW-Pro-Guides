@@ -25,21 +25,21 @@ A Thadius Grimshade|QID|2990|M|9.75,44.47|Z|The Hinterlands|N|From Gryphon Maste
 
 F Blasted Lands|ACTIVE|2990|M|11.07,46.16|Z|The Hinterlands|N|Fly to Arathi Highlands.|
 T Thadius Grimshade|QID|2990|M|66.90,19.47|Z|Blasted Lands|N|To Thadius Grimshade. Up on top of the tower. Skip follow-up unless you intend on doing Zul'Farrak.|
-A Nekrum's Medallion|QID|2991|M|66.90,19.46|Z|Blasted Lands|N|From Thadius Grimshade. Up at the top of the tower. Now make your way back to Kalimdor|PRE|2990|
+A Nekrum's Medallion|QID|2991|M|66.90,19.46|Z|Blasted Lands|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Thadius Grimshade. Up at the top of the tower. Now make your way back to Kalimdor|PRE|2990|
 
-A Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|N|From Tabetha. Fly to Theramore if you want to grab this quest.|
+A Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tabetha. Fly to Theramore if you want to grab this quest.|
 
-A Gahz'rilla|QID|2770|M|78.14,77.13|Z|Thousand Needles|N|From Wizzle Brassbolts. Run up to Thousand Needles if you want to grab this quest.|
+A Gahz'rilla|QID|2770|M|78.14,77.13|Z|Thousand Needles|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Wizzle Brassbolts. Run up to Thousand Needles if you want to grab this quest.|
 
 A Screecher Spirits|QID|3520|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya.|
 
 C Screecher Spirits|QID|3520|M|46.00,49.30|Z|Feralas|U|10699|N|Fly to Feathermoon Stronghold in Feralas. Take the boat, then run south on the shore. Kill Rogue Vale Screechers and use Yeh'Kinya's Bramble on their corpses, then talk to the spirit.|
 
 T Screecher Spirits|QID|3520|M|66.99,22.36|Z|Tanaris|N|Fly back to Gadgetzan and run back to Yeh'kinya.|
-A The Prophecy of Mosh'aru|QID|3527|M|66.99,22.36|Z|Tanaris|N|From Yeh'kinya.|PRE|3520|
-A Scarab Shells|QID|2865|M|51.57,26.76|Z|Tanaris|N|From Tran'rek.|
-A Troll Temper|QID|3042|M|51.41,28.75|Z|Tanaris|N|From Trenton Lighthammer.|
-A Divino-matic Rod|QID|2768|M|52.46,28.51|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|
+A The Prophecy of Mosh'aru|QID|3527|M|66.99,22.36|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Yeh'kinya.|PRE|3520|
+A Scarab Shells|QID|2865|M|51.57,26.76|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tran'rek.|
+A Troll Temper|QID|3042|M|51.41,28.75|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Trenton Lighthammer.|
+A Divino-matic Rod|QID|2768|M|52.46,28.51|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Chief Engineer Bilgewhizzle.|
 
 N Find a full group|QID|2770|N|If you haven't already, now is the time to find a full group to run the dungeon. If aren't able to run with guild or friends, don't forget the LFG channel by right clicking your chat tab and selecting 'Settings' -> Global Channels -> Checkbox 'LookingForGroup'.\n\nManually check this step off once you have your group.|GROUP|5|
 
