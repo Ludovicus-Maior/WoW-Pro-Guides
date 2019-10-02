@@ -512,6 +512,13 @@ T Incendosaurs? Whateverosaur is More Like It|QID|7727|M|38.58,27.81|Z|Searing G
 T STOLEN: Smithing Tuyere and Lookout's Spyglass|QID|7728|M|38.97,27.51|Z|Searing Gorge|N|To Taskmaster Scrange.|
 T JOB OPPORTUNITY: Culling the Competition|QID|7729|M|38.97,27.51|Z|Searing Gorge|N|To Taskmaster Scrange.|
 T Wanted: Overseer Maltorius|QID|7701|M|37.73,26.56|Z|Searing Gorge|N|To Lookout Captain Lolo LongStriker.|
+A Shadoweaver|QID|3379|M|40.99,74.93|Z|Searing Gorge|N|From Nilith Lokrav.|P|Tailoring;197;0+230;0|
+C Shadoweaver|QID|3379|M|59.00,25.82|Z|Searing Gorge|N|Kill the Shadoweave Poachers. Really easy. Just attack one while they are attacking a spider, run off agro once that target is dead. Pick em off 1 at a time.|P|Tailoring;197;0+230;0|
+T Shadoweaver|QID|3379|M|40.99,74.93|Z|Searing Gorge|N|To Nilith Lokrav.|P|Tailoring;197;0+230;0|
+A The Undermarket|QID|3385|M|40.99,74.93|Z|Searing Gorge|ELITE|N|[color=ff8000]Elite:[/color]From Nilith Lokrav. |P|Tailoring;197;0+230;0|PRE|3379|
+C The Undermarket|QID|3385|M|34.74,51.94|Z|Searing Gorge|N|[color=ff8000]Elite:[/color] Kill Kovic, Clunk and loot the Satchel. |P|Tailoring;197;0+230;0|
+T The Undermarket|QID|3385|M|40.99,74.93|Z|Searing Gorge|N|To Nilith Lokrav.|P|Tailoring;197;0+230;0|
+A The Undermarket|QID|3402|M|40.99,74.93|Z|Searing Gorge|N|From Nilith Lokrav.|P|Tailoring;197;0+230;0|PRE|3385|
 
 F Ironforge|QID|1469|M|37.94,30.85|Z|Searing Gorge|N|Fly to Ironforge.|
 A I Know A Guy...|QID|6612|M|60.10,36.45|Z|Ironforge|N|From Daryl Riknussun. This is the quest to unlock the master trainer.|P|Cooking;185;0+225;0|
@@ -582,6 +589,7 @@ T The Morrow Stone|QID|2942|M|31.78,45.50|Z|Feralas|N|To Troyas Moonbreeze.|
 F Gadgetzan|QID|3445|M|30.24,43.25|Z|Feralas|N|Fly to Gadgetzan.|
 T I Know A Guy...|QID|6612|M|52.63,28.11|Z|Tanaris|N|From Andi Lynn. Cooking quest, If you have the 12 Giant Eggs, 10 Zesty Clam Meat and 20 Alterac Swiss already then feel free to finish this quest chain. Otherwise you can finish it toward the end of the guide.\n\nThis is because while you should already have dozens of Zesty Clam Meat from everything you've done already, you are probably lacking the Eggs, which you will get in abundance once we goto Blasted Lands on our next leg.|
 A Clamlette Surprise|QID|6610|M|52.63,28.11|Z|Tanaris|N|From Dirge Quikcleave.|P|Cooking;185;0+225;0|
+T The Undermarket|QID|3402|M|51,27.4|Z|Tanaris|N|To Vizzklick.|P|Tailoring;197;0+230;0|
 A The Dunemaul Compound|QID|5863|M|52.82,27.40|Z|Tanaris|N|From Andi Lynn.|
 
 T Sprinkle's Secret Ingredient|QID|2641|M|51.06,26.87|Z|Tanaris|N|To Sprinkle.|
@@ -633,10 +641,8 @@ A Rise of the Silithid|QID|162|M|50.21,27.48|Z|Tanaris|N|From Senior Surveyor Fi
 
 H Ironforge|QID|2977|M|PLAYER|Z|Tanaris|N|Use your hearthstone to get back to Ironforge, if you changed it or used it, you know the drill.|
 A Assisting Arch Druid Staghelm|QID|3790|M|18.15,51.44|Z|Ironforge|N|From Inkeeper Firebrew.|
-
 A Arcane Runes|QID|3449|M|30.95,4.84|Z|Ironforge|N|From Tymor.|
 A An Easy Pickup|QID|3450|M|30.95,4.84|Z|Ironforge|N|From Tymor.|
-
 t Return to Ironforge|QID|2977|M|77.55,11.81|Z|Ironforge|N|To Historian Karnik.|
 A A Future Task|QID|2964|M|77.55,11.81|Z|Ironforge|N|From Historian Karnik.|PRE|2977|
 T A Future Task|QID|2964|M|69.96,18.54|Z|Ironforge|N|To High Explorer Magellas.|
