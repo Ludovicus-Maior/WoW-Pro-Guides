@@ -385,7 +385,7 @@ F Menethil Harbor|QID|1000|ACTIVE|3841^625|M|55.50,47.75|Z|Ironforge|N|Fly to We
 b Theramore Isle|QID|1000|ACTIVE|3841^625|M|4.99,63.47|Z|Wetlands|N|Take the boat to Theramore|
 R The Quagmire|QID|1000|ACTIVE|625^2861|M|55.69,50.16;46.06,57.09|CC|Z|Dustwallow Marsh|N|It's faster to swim, opening up at waypoint.|
 T Tabetha's Task|QID|2861|LEAD|2846|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha.|
-A Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|N|From Tabetha.|
+A Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tabetha.|
 T Cortello's Riddle|QID|625|M|31.10,66.13|Z|Dustwallow Marsh|N|Click on the scroll in the cave behind Goreclaw to complete this quest.|
 A Cortello's Riddle|QID|626|M|31.10,66.13|Z|Dustwallow Marsh|PRE|625|
 
@@ -408,7 +408,7 @@ T Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|To Senior Survey Fizzle
 R Thousand Needles|ACTIVE|3841|M|51.00,19.00|Z|Tanaris|N|Go north to Thousand Needles.|
 R Mirage Raceway|ACTIVE|3841|M|78.3,74.7|Z|Thousand Needles|N|Continue north to the Mirage Raceway.|
 T The Brassbolts Brothers|QID|2769|M|78.14,77.13|Z|Thousand Needles|N|To Wizzle Brassbolts.|
-A Gahz'rilla|QID|2770|M|78.14,77.13|Z|Thousand Needles|N|From Wizzle Brassbolts.|
+A Gahz'rilla|QID|2770|M|78.14,77.13|Z|Thousand Needles|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Wizzle Brassbolts.|
 T An Orphan Looking For a Home|QID|3841|M|78.35,74.72|Z|Thousand Needles|N|To Quentin.|
 A A Short Incubation|QID|3842|M|78.35,74.72|Z|Thousand Needles|N|From Quentin.|PRE|3841|
 T A Short Incubation|QID|3842|M|78.35,74.72|Z|Thousand Needles|N|To Quentin.|
@@ -476,7 +476,7 @@ A Incendosaurs? Whateverosaur is More Like It|QID|7727|M|38.58,27.81|Z|Searing G
 A What the Flux|QID|7722|M|38.81,28.51|Z|Searing Gorge|N|From Master Smith Burninate.|
 A STOLEN: Smithing Tuyere and Lookout's Spyglass|QID|7728|M|37.63,26.53|Z|Searing Gorge|N|From the job board.|
 A JOB OPPORTUNITY: Culling the Competition|QID|7729|M|37.63,26.53|Z|Searing Gorge|N|From the job board.|
-A WANTED: Overseer Maltorius|QID|7701|M|37.64,26.53|Z|Searing Gorge|N|From the Wanted board.\n\nThis is an Elite quest that can be done while you're doing 'What the Flux' but you will need a partner.|
+A WANTED: Overseer Maltorius|QID|7701|M|37.64,26.53|Z|Searing Gorge|ELITE|N|[color=ff8000]Elite: [/color]From the Wanted board.\n\nThis is an Elite quest that can be done while you're doing 'What the Flux' but you will need a partner.|
 
 C Fiery Menace!|QID|7724|M|38.58,27.81|Z|Searing Gorge|S|N|Kill Greater Lava Spiders you find roaming around.|
 C Curse These Fat Fingers|QID|7723|M|38.58,27.81|S|Z|Searing Gorge|N|Kill Heavy War Golems.|
@@ -678,8 +678,8 @@ T A Boar's Vitality|QID|2583|M|50.55,14.21|Z|Blasted Lands|N|To Bloodmage Drazia
 T The Decisive Striker|QID|2585|M|50.55,14.21|Z|Blasted Lands|N|To Bloodmage Drazial.|
 A Everything Counts In Large Amounts|QID|3501|M|51,35|Z|Blasted Lands|N|From Kum'isha the Collector.|U|10593|
 T Everything Counts In Large Amounts|QID|3501|M|51,35|Z|Blasted Lands|N|From Kum'isha the Collector.|
-l Alterac Swiss|QID|6610|M|63.51,17.01|Z|Blasted Lands|N|Make sure you have the Alterac Swiss for the Clamlette Surprise. From Vendor Bernie Heisten located on the floor level of the Keep. If you already have this banked, manually skip this step.|L|8932 20|
-A Nekrum's Medallion|QID|2991|M|66.90,19.46|Z|Blasted Lands|N|From Thadius Grimshade. Up at the top of the tower.|PRE|2990|
+l Alterac Swiss|ACTIVE|6610|M|63.51,17.01|Z|Blasted Lands|N|Make sure you have the Alterac Swiss for the Clamlette Surprise. From Vendor Bernie Heisten located on the floor level of the Keep. If you already have this banked, manually skip this step.|L|8932 20|
+A Nekrum's Medallion|QID|2991|M|66.90,19.46|Z|Blasted Lands|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Thadius Grimshade. Up at the top of the tower.|PRE|2990|
 
 F Booty Bay|QID|3444|M|65.53,24.34|Z|Blasted Lands|N|Fly to booty bay, though if you have some business to handle in Stormwind like training, go ahead and stop there first.|
 T Deliver to MacKinley|QID|2874|M|27.78,77.07|Z|Stranglethorn Vale|N|To "Sea Wolf" MacKinley.|
@@ -694,12 +694,12 @@ C The Stone Circle|QID|3444|M|62.50,38.55|Z|The Barrens|N|Mavon's Chest on the g
 F Gadgetzan|QID|3444|M|63.08,37.16|Z|The Barrens|N|Fly back to Tanaris|
 C Clamlette Surprise|QID|6610|M|52.63,28.11|Z|Tanaris|S|N|Time to finish this up. If you have stuff banked, remember there is a bank in Gadgetzan.|
 T The Stone Circle|QID|3444|M|52.71,45.92|Z|Tanaris|N|From Mavon Rivetseeker.|PRE|3445|
-A The Prophecy of Mosh'aru|QID|3527|M|67.0,22.4|Z|Tanaris|N|From Yeh'kinya.|PRE|3520|
+A The Prophecy of Mosh'aru|QID|3527|M|67.0,22.4|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Yeh'kinya.|PRE|3520|
 C Clamlette Surprise|QID|6610|M|52.63,28.11|Z|Tanaris|US|N|Time to finish this up. If you have stuff banked, remember there is a bank in Gadgetzan.|
 T Clamlette Surprise|QID|6610|M|52.63,28.11|Z|Tanaris|N|To Dirge Quikcleave. Congrats!|
-A Scarab Shells|QID|2865|M|51.57,26.76|Z|Tanaris|N|From Tran'rek.|
-A Troll Temper|QID|3042|M|51.41,28.75|Z|Tanaris|N|From Trenton Lighthammer.|
-A Divino-matic Rod|QID|2768|M|52.46,28.51|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|
+A Scarab Shells|QID|2865|M|51.57,26.76|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tran'rek.|
+A Troll Temper|QID|3042|M|51.41,28.75|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Trenton Lighthammer.|
+A Divino-matic Rod|QID|2768|M|52.46,28.51|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Chief Engineer Bilgewhizzle.|
 N Chapter Complete|QID|2770|M|PLAYER|Z|Tanaris|N|You now have everything you need to run Zul'Farrak. This is part of the guide scope, as dungeons are required. This will unlock new quests and will be assumed you did this in Chapter 3.|
 ]]
 end)
