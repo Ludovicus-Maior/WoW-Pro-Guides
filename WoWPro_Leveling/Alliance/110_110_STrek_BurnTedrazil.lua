@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3776
+-- Date: 2019-10-01 15:48
+-- Who: Ludovicus_Maior
+-- Log: Avoid [ESC] as it is a markup code!
+
+-- URL: http://wow-pro.com/node/3776/revisions/30269/view
 -- Date: 2019-06-27 21:58
 -- Who: Ludovicus_Maior
 -- Log: 8.2 Z updates
@@ -236,7 +241,7 @@ C A Dying World|QID|52946|M|75.25,20.49|Z|Stormwind City|QO|1|N|Go to the Easter
 T A Dying World|QID|52946|M|42.26,44.26|Z|Silithus|N|To Magni Bronzebeard.|
 A The Heart of Azeroth|QID|51211|M|42.26,44.26|Z|Silithus|N|From Magni Bronzebeard.|PRE|52946^46931|
 C The Heart of Azeroth|QID|51211|QO|1|M|43.19,44.49|Z|Silithus|NC|N|Click on the Titan Translocator to teleport to the Chamber of the Heart.|
-C The Heart of Azeroth|QID|51211|M|50.30,54.05|Z|Chamber of Heart!Dungeon1021|QO|2|N|Use titan console (Video can be skipped [ESC])|
+C The Heart of Azeroth|QID|51211|M|50.30,54.05|Z|Chamber of Heart!Dungeon1021|QO|2|N|Use titan console (Video can be skipped)|
 C The Heart of Azeroth|QID|51211|QO|3|M|50.17,53.60|Z|Chamber of Heart!Dungeon1021|CHAT|N|Ask Magni what Azeroth wants.|
 T The Heart of Azeroth|QID|51211|M|50.17,53.60|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
 A Infusing the Heart|QID|52428|M|50.05,55.15|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|PRE|51211^51400|
