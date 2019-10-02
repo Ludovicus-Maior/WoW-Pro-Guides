@@ -1527,8 +1527,7 @@ function WoWPro.NextStep(k,i)
                 -- The simple case
                 if (level <= UnitLevel("player")) and not offset then
                     skip = true
-                    WoWPro:dbp("Skip %s [%s] because its level %d is too low.",WoWPro.action[k],WoWPro.step[k],level)
-                    WoWPro.why[k] = "NextStep(): Skipping step because player level not high enough."
+                    WoWPro.CompleteStep(k,"Player level exceeds step limit")
                     break
                 end
                 -- If level == UnitLevel(), then see if there is an offset to look at
