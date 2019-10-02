@@ -6,13 +6,13 @@ WoWPro:GuideName(guide, 'Silverpine Forest')
 WoWPro:GuideNextGuide(guide, 'Classic-12-21-Hosho-TheBarrens')
 WoWPro:GuideLevels(guide, 12, 14, 13)
 WoWPro:GuideSteps(guide, function() return [[
-R Brill|QID|445|M|59.45,52.39|Z|Tirisfal Glades|N|Head to Brill in Tirisfal Glades and speak with Apothecary Johaan at.|
+R Brill|AVAILABLE|445|M|59.45,52.39|Z|Tirisfal Glades|N|Head to Brill in Tirisfal Glades and speak with Apothecary Johaan at.|
 A Delivery to Silverpine Forest|QID|445|M|59.4,52.4|
-R Silverpine Forest|QID|445|M|54.46,74.62|Z|Tirisfal Glades|N|Then run southwest into Silverpine Forest.|
-R The Sepulcher|QID|445|M|46.21,41.59|N|Head south until you reach the Sepulcher.|
-f The Sepulcher|QID|445|
-h The Sepulcher|QID|445|
-
+R Leave Undercity|QID|445|M|46.87,43.91;40.98,33.42;14.74,31.90|CC|Z|Undercity|N|Exit Undercity through the Sewers. You'll come out at the Scarlet Tower where you were before.|
+R Silverpine Forest|QID|445|M|54.46,74.62|Z|Tirisfal Glades|CC|N|Head over to the road and follow it south into Silverpine Forest.|
+R The Sepulcher|QID|445|M|46.21,41.59|CC|N|Head south until you reach the Sepulcher.|
+f The Sepulcher|QID|445|M|45.62,42.60|N|Karos Razok|
+h The Sepulcher|QID|445|M|43.16,41.27|N|Innkeeper Bates|
 
 A Prove Your Worth|QID|421|M|44.2,39.8|
 T Delivery to Silverpine Forest|QID|445|M|42.8,40.9|
