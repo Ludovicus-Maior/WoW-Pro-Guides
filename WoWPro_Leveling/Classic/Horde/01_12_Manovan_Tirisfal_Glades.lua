@@ -155,8 +155,8 @@ C The Mills Overrun|QID|426|M|48.4,42.1|QO|1;2|N|Kill mobs here until you comple
 L Level 10|LVL|9;1015|N|Run back to Brill instead of hearthing. You need to be level 10 after you turn in your quests in Brill.|
 H Gallows' End Tavern|QID|362|N|Hearth back to Brill.|
 
-A A Letter Undelivered|QID|361|U|2839|N|If you didn't get the letter by now just take the quest later on when it drops. We will come back to Agamand Mills soon.|
-T A Letter Undelivered|QID|361|M|61.57,52.60|N|To Yvette Farthing in the Tavern.|
+;A A Letter Undelivered|QID|361|U|2839|N|If you didn't get the letter by now just take the quest later on when it drops. We will come back to Agamand Mills soon.|
+;t A Letter Undelivered|QID|361|M|61.57,52.60|N|To Yvette Farthing in the Tavern.|
 T The Haunted Mills|QID|362|M|61.71,52.31|N|To Coleman Farthing in the Tavern.|
 T Deaths in the Family|QID|354|M|61.7,52.3|N|To Coleman Farthing in the Tavern.|
 A Speak with Sevren|QID|355|M|61.7,52.3|N|From Colman Farthing in the Tavern.|PRE|354|
@@ -244,53 +244,60 @@ N Rand Rhobart|ACTIVE|356|M|65.6,60.0|N|Skinning Trainer.|
 N Martine Tramblay|ACTIVE|356|M|65.8,59.6|N|Fishing Supplies, including fishing rods.|
 N Clyde Kellen|ACTIVE|356|M|67.2,51.0|P|Fishing;356;0+0;1|N|Fishing trainer. Waaay out by the shore of Brightwater Lake.|
 
-C Rear Guard Patrol|QID|356|M|74.03,60.13|QO|1;2|N|Follow the road east until you hit Balnir Farmstead. NOTE: Watch out for Felicient's Shade. It's a level 12 rare ghost roaming the fields.|
+C Rear Guard Patrol|QID|356|M|74.03,60.13|QO|1;2|N|Follow the road east until you hit Balnir Farmstead.\nNOTE: Watch out for Felicient's Shade. It's a level 12 rare ghost roaming the fields.|
 C Balnir Farmstead|QID|1882|C|Mage|M|77.43,61.77|N|Loot the Balnir Snapdragons.|NC|
 
 N Slumber Sand|ACTIVE|371|N|NOTE: Captain Vachon is level 11 and can be difficult for some classes. Especially since he has an add who will heal him. Now is a good time to use your Slumber Sand. Put it on your action bar and use it to crowd control the Friar while you kill Captain Vachon.|
 C At War With The Scarlet Crusade|QID|371|M|79.20,54.55|QO|1;2|N|Go north to the Crusader Outpost. Kill Captain Vachon and 5 Scarlet Friars.|
 C Proof of Demise|QID|374|M|53.1,65.8|
-K Vicious Night Web Spider|QID|369|M|82.52,53.65|QO|1|N|To the north. If you're a Miner, take your time to search the cliff-sides for ore.|
+K Vicious Night Web Spider|QID|369|M|82.52,53.65|CC|QO|1|N|To the north. If you're a Miner, take your time to search the cliff-sides for ore.|
 
-C The Lich's Identity|QID|357|M|68.00,42.10|N|Run to the isand in Brightwater LakeGrab and the Lich's Spellbook from the table.|
+C The Lich's Identity|QID|357|M|68.00,42.10|QO|1|N|Run to the isand in Brightwater Lake and grab the Lich's Spellbook from the table.|NC|
 
 T Proof of Demise|QID|374|M|60.93,51.98|N|To Deathguard Burgess.|
 T Return to the Magistrate|QID|360|M|61.26,50.84|N|To Magistrate Sevren in the town hall.|
 T At War With The Scarlet Crusade|QID|371|M|60.57,51.77|N|To Executor Zygand.|
-A At War With The Scarlet Crusade|QID|372|M|60.6,51.8|N|From Executor Zygand.|PRE|371|
+A At War With The Scarlet Crusade|QID|372|M|60.57,51.77|N|From Executor Zygand.|PRE|371|
 T A New Plague|QID|369|M|59.44,52.39|N|To Apothecary Johaan.|
-A A New Plague|QID|492|PRE|369|M|59.4,52.4|N|From Apothecary Johaan.|
-T A New Plague|QID|492|M|61.93,51.40|N|To the dwarf in the basement of the inn.|
+A A New Plague|QID|492|M|59.4,52.4|N|From Apothecary Johaan.|PRE|369|
+T A New Plague|QID|492|M|61.93,51.40|N|To the Captured Mountaineer in the basement of the Tavern.|
 
-T The Lich's Identity|QID|357|M|84.05,17.37|Z|Undercity|N|To Bethor Iceshard in the Magic Quarter, Undercity.|
-A Return the Book|QID|366|PRE|357|M|84.1,17.5|
+R Undercity|QID|357|M|61.86,65.04|N|Head to Undercity.|
+T The Lich's Identity|QID|357|M|69.86,44.16;73.44,44.19;68.11,40.67;84.26,42.55;84.05,17.37|Z|Undercity|CC|N|To Bethor Iceshard in the Magic Quarter, Undercity.|
+A Return the Book|QID|366|M|84.1,17.5|N|From Bethor Iceshard.|PRE|357|
 T The Balnir Farmstead|QID|1882|C|Mage|M|85,10|Z|Undercity|N|To Anastasia Hartwell.|
+
+R Leave Undercity|QID|356|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|
 T Rear Guard Patrol|QID|356|M|65.48,60.24|Z|Tirisfal Glades|N|Leave the Undercity and follow the road north-east to Deathguard Linnea.|
 
 T Return the Book|QID|366|M|68.2,41.9|N|To Gunther's Retreat, the island in Brightwater Lake|
-A Proving Allegiance|QID|409|PRE|366|M|68.2,41.9|
-C Proving Allegiance|QID|409|M|66.63,44.87|N|Take a candle from the crate behind you. Go slighty south-west to an altar. Summon Lillith Nefara and kill her.|
-T Proving Allegiance|QID|409|M|68.17,41.94|N|Back at Gunther Arcanus.|
-A The Prodigal Lich Returns|QID|411|PRE|409|M|68.2,41.9|
+A Proving Allegiance|QID|409|M|68.2,41.9|N|From Gunther Arcanus.|PRE|366|
+C Proving Allegiance|QID|409|M|66.63,44.87|QO|1|N|Take a candle from the crate behind you and head slighty south-west to a smaller island with the altar on it.\nClear any mobs around it. Summon Lillith Nefara and kill her.|
+T Proving Allegiance|QID|409|M|68.17,41.94|N|Back to Gunther Arcanus.|
+A The Prodigal Lich Returns|QID|411|M|68.17,41.94|N|From Gunther Arcanus.|PRE|409|
 
-C At War With The Scarlet Crusade|QID|372|M|77.76,32.12|N|Go north-east to the Scarlet Crusade camp east of the lake. Captain Melrache has the two bodyguards next to him. If you have any Slumber Sand left, use it to crowd control one of them. Be careful here as the mobs respawn rather quickly.|
-H Gallows' End Tavern|QID|361|U|6948|N|Hearthstone back to Brill.|
+C At War With The Scarlet Crusade|QID|372|M|79.21,27.71;77.76,32.12;79.50,25.91|CC|QO|1;2|N|Go north-east to the Scarlet Crusade camp east of the lake. Captain Melrache has the two bodyguards next to him. If you have any Slumber Sand left, use it to crowd control one of them. Be careful here as the mobs respawn rather quickly.|
+H Gallows' End Tavern|QID|372|N|Hearthstone back to Brill.|
 
+r Housekeeping|QID|372|M|60.32,52.81|CC|N|Stop by and visit Eliza Callen to sell and repair. Visit your trainers if you need to.|
 T At War With The Scarlet Crusade|QID|372|M|60.57,51.77|N|To Executor Zygand.|
 
-C The Family Crypt|QID|408|M|52.25,27.18|N|Go to the north-eastern part of Agamand Mills and enter the crypt. You will find Captain Dargol on the bottom floor. NOTE: He's a level 13 melee badass surrounded by a couple of mobs. If you're careful, you should be able to kill all adds in the room without pulling him. Kill him and loot Dargol's Skull.|
+C The Family Crypt|QID|408|M|52.25,27.18|QO|1;2;3|N|Go to the north-eastern part of Agamand Mills and enter the crypt. Don't go out of your way killing the ancestors and wailing. There are plenty in the crypt. You will find Captain Dargol on the bottom floor.\nNOTE: He's a level 13 melee badass surrounded by a couple of mobs. If you're careful, you should be able to kill all adds in the room without pulling him. Kill him and loot Dargol's Skull.|
 C Agamand Heirlooms|QID|1821|C|Warrior|N|You can find weapon racks everywhere in the crypt.|
-K Undead|QID|361|L|2839|N|Kill undead mobs until you loot "A Letter to Yvette"|
-A A Letter Undelivered|QID|361|U|2839|
-N Corpse Hearth|QID|408|N|Die and rezz at Brill's graveyard. Close this step once finished.|
+K Undead|AVAILABLE|361|L|2839|N|Kill undead mobs until you loot "A Letter to Yvette"|
+A A Letter Undelivered|QID|361|U|2839|N|Click on the letter to accept the quest.|
+N Corpse Hearth|QID|408|N|Hearth back to Brill. If your Hearthstone is on cooldown, die and rez at Brill's graveyard. Either way, close this step when you are done.|
+
+T Letter Undelivered|QID|361|M|61.57,52.60|N|To Yvette Farthing in the Tavern.|
+T Agamand Heirlooms|QID|1821|C|Warrior|M|61.71,52.31|N|To Coleman Farthing in the Tavern.|
+A Heirloom Weapon|QID|1822|C|Warrior|N|From Coleman Farthing.|PRE|1821|
+T Heirloom Weapon|QID|1822|C|Warrior|N|To Coleman Farthing.|
 
 T The Family Crypt|QID|408|M|61.26,50.84|N|To Magistrate Sevren in the town hall.|
-T A Letter Undelivered|QID|361|
-T Agamand Heirlooms|QID|1821|C|Warrior|M|61.71,52.31|N|To Coleman Farthing in the inn.|
-A Heirloom Weapon|QID|1822|PRE|1821|C|Warrior|
-T Heirloom Weapon|QID|1822|C|Warrior|
 A Delivery to Silverpine Forest|QID|445|M|59.44,52.39|N|From Apothecary Johaan. We won't complete that quest in this guide though.|
 
-T The Prodigal Lich Returns|QID|411|M|84.05,17.37|Z|Undercity|N|To Bethor Iceshard in the Magic Quarter, Undercity|
+r Housekeeping|ACTIVE|445|M|60.32,52.81|N|Stop by and visit Eliza Callen to sell and repair.|
+R Undercity|ACTIVE|445|M|61.86,65.04|N|Head to Undercity.|
+T The Prodigal Lich Returns|QID|411|M|69.86,44.16;73.44,44.19;68.11,40.67;84.26,42.55;84.05,17.37|Z|Undercity|CS|N|To Bethor Iceshard in the Magic Quarter, Undercity|
 ]]
 end)
