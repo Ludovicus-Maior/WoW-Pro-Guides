@@ -184,7 +184,7 @@ R Ironforge|QID|291|ACTIVE|291|M|47.0,42.1;53.31,35.09|CS|N|Head north to Ironfo
 N City Facilities|QID|291|ACTIVE|291|S|N|Use this time to visit Auction House, Bank and to sell and restock. Now is a good time to increase bagspace!|
 T The Reports|QID|291|M|44.57,49.50;39.59,57.48|CS|Z|Ironforge|N|To Senator Barin Redstone, in The High Seat|
 f Ironforge|QID|311|M|55.7,48.0|N|Discover Ironforge Flightpoint with Gryth Thurden|R|-Gnome,-Dwarf|
-L Nearly Level 10|QID|413|LVL|10;-1940|M|30.18,45.53|N|You need to be no more than bubbles from level 10. So be sure and kill everything on your way back to Brewnall Village.|
+L Nearly Level 10|QID|413|LVL|9;-1940|M|30.18,45.53|N|You need to be no more than 6 bubbles from level 10. So be sure and kill everything on your way back to Brewnall Village.|
 
 T Return to Marleth|QID|311|M|30.18,45.53|N|To Marleth Barleybrew, in Brewnall Village.|
 T A Favor for Evershine|QID|319|M|30.20,45.73|N|To Rejold Barleybrew|
