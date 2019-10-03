@@ -14,13 +14,14 @@ R The Sepulcher|QID|445|M|46.21,41.59|CC|N|Head south until you reach the Sepulc
 f The Sepulcher|QID|445|M|45.62,42.60|N|Karos Razok|
 h The Sepulcher|QID|445|M|43.16,41.27|N|Innkeeper Bates|
 
-A Prove Your Worth|QID|421|M|44.2,39.8|
-T Delivery to Silverpine Forest|QID|445|M|42.8,40.9|
-A A Recipe for Death |QID|447|M|42.8,40.9|
-A Lost Deathstalkers|QID|428|M|43.4,40.9|
-A The Dead Fields|QID|437|M|43.4,40.9|
-A Border Crossings|QID|477|M|44.0,40.9|
+A Lost Deathstalkers|QID|428|M|43.43,40.86|N|You'll find High Executor Hadrec down the stairs inside the crypt.|
+A The Dead Fields|QID|437|M|43.43,40.86|N|From High Executor Hadrec.|
+T Delivery to Silverpine Forest|QID|445|M|42.80,40.87|N|Head back upstairs and walk around to the side of the entrance. To Apothecary Renferrel.|
+A A Recipe for Death |QID|447|M|42.80,40.87|N|From Apothecary Renferrel.|
+A Border Crossings|QID|477|M|43.97,40.93|N|From Shadow Priest Allister.|
+A Prove Your Worth|QID|421|M|44.20,39.78|N|From Dalar Dawnweaver.|
 
+r Housekeeping|QID|428|M|45.01,39.30|N|Go see Nadia Vernon to repair and sell before you leave.|
 
 C Prove Your Worth|QID|421|M|47.97,40.43|N|Kill five Moonrage Whitescalps, while killing whatever Ferocious Grizzly Bears that you see . Make sure to avoid the woodland area directly west of the road, as level 21 elites like to path around and eat you. They apparently like the taste of lowbie in the morning. :(|
 
