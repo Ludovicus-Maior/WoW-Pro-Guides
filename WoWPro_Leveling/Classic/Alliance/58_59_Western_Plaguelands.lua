@@ -51,7 +51,7 @@ A Unfinished Business |QID|6025|
 C Unfinished Business |N|Go to the top of the tower here and complete this quest.|QID|6025|M|45.80,18.30|
 T Unfinished Business |QID|6025|
 H Stormwind City|QID|5022|N|Hearth to Stormwind.|
-T Better Late Than Never |QID|5022|Z|Stormwind City|M|57.2,48.1|
+T Better Late Than Never |QID|5022|Z|Stormwind City|M|48.51,30.60|
 A Good Natured Emma|QID|5048|Z|Stormwind City|M|57.2,48.1|
 T Good Natured Emma|N|This NPC wanders so search the Trade District and Cathedral district.|QID|5048|Z|Stormwind City|M|60.2,57.0|
 A Good Luck Charm|QID|5050|Z|Stormwind City|M|60.2,57.0|
