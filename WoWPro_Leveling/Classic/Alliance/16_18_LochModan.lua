@@ -85,8 +85,8 @@ A Powder to Ironband|QID|302|PRE|301|M|74.66,11.74|Z|Ironforge|N|From Prospector
 F Thelsamar|ACTIVE|302|M|55.49,47.75|Z|Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
 T Powder to Ironband|QID|302|M|37.24,47.38|N|To Jern Hornhelm.|
 A Resupplying the Excavation|QID|273|PRE|302|M|37.24,47.38|N|From Jern Hornhelm.|
-R Grizzlepaw Ridge|QID|271|M|41.31,65.82|
-K Ol' Sooty|ACTIVE|271|M|40.21,66.95;36.81,61.23|CS|N|T|Ol' Sooty|Go up this path to find Ol' Sooty in a cave and take his head.|
+R Grizzlepaw Ridge|ACTIVE|271|M|41.31,65.82|
+K Ol' Sooty|ACTIVE|271|M|40.21,66.95;36.81,61.23|CS|T|Ol' Sooty|N|Go up this path to find Ol' Sooty in a cave and take his head.|
 C Resupplying the Excavation|QID|273|M|50.77,69.03|QO|1|N|Find Huldar, Miran, and Saean|
 T Resupplying the Excavation|QID|273|M|52.20,69.35|N|To Huldar.|
 A After the Ambush|QID|454|PRE|273|M|52.20,69.35|N|From Huldar.|
