@@ -5,7 +5,7 @@ local guide = WoWPro:RegisterGuide('ClassicDuskwood2122', 'Leveling', 'Duskwood'
 WoWPro:GuideName(guide, 'Duskwood 21-22')
 WoWPro:GuideLevels(guide, 21, 22, 21)
 WoWPro:GuideNextGuide(guide, 'ClassicWetlands2223')
-WoWPro:GuideSteps(guide, function() 
+WoWPro:GuideSteps(guide, function()
 return [[
 
 h Darkshire|QID|163|M|73.90,44.40|N|Set your home location to Darkshire.|
@@ -16,14 +16,14 @@ A Deliveries to Sven|QID|164|M|75.33,48.71|N|From Elaine Carevin.|
 A The Hermit|QID|165|M|75.33,48.71|N|From Elaine Carevin.|
 A Eight-Legged Menaces|QID|245|M|72.0,58.9;45.12,67.02|CS|N|Follow the road.|
 T Raven Hill|QID|163|M|18.33,56.24|N|Follow the road, turn in to Jitters.|
-A Jitters' Growling Gut|QID|5|M|18.33,56.24|N|From Jitters.|
+A Jitters' Growling Gut|QID|5|M|18.33,56.24|N|From Jitters.|PRE|163|
 C Eight-Legged Menaces|QID|245|M|9.7,55.9|S|N|Kill Pygmy Venom Web Spiders on sight. Keep any Gooey Spider Legs you find, you will need them later.|
 T Deliveries to Sven|QID|164|M|7.79,34.12|N|To Sven Yorgen.|
-A Sven's Revenge|QID|95|M|7.79,34.12|N|From Sven Yorgen.|PRE|164|
+A Sven's Revenge|QID|95|M|7.79,34.12|N|From Sven Yorgen.|
 A Wolves at Our Heels|QID|226|M|7.73,33.26|N|From Lars.|
 C Wolves at Our Heels|QID|226|M|15.1,27.2|S|N|Kill Starving Dire Wolves and Rabid Dire Wolves on sight. Keep any lean wolf flank you find.|
 T The Hermit|QID|165|M|28.11,31.47|N|To Abercrombie.|
-A Supplies from Darkshire|QID|148|M|28.11,31.47|N|From Abercrombie.|
+A Supplies from Darkshire|QID|148|M|28.11,31.47|N|From Abercrombie.|PRE|165|
 C Wolves at Our Heels|QID|226|M|42.7,20;17,25|CN|US|N|Kill the rest of the wolves for this quest.|
 T Wolves at Our Heels|QID|226|M|7.73,33.26|N|To Lars.|
 C Eight-Legged Menaces|QID|245|M|12,49|US|N|Kill all the spiders in this area, even the other kinds of spiders. Keep on killing them until you finish this quest.|

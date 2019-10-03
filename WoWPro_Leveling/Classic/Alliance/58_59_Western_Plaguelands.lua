@@ -15,11 +15,10 @@ A The Scourge Cauldrons|QID|5215|M|42.7,84.0|
 A All Along the Watchtowers|QID|5097|M|42.7,84.0|
 T The Scourge Cauldrons|QID|5215|M|42.9,84.5|
 A Target: Felstone Field|QID|5216|M|42.9,84.5|
-N Tower Four|QID|5097|N|Use the Beacon's Torch at this location. (requires manual checkbox) (46.60, 71.10)|
-N Tower One|QID|5097|N|Use the Beacon's Torch at this location.|M|40.08,71.60|
-N Tower Two|QID|5097|N|Use the Beacon's Torch at this location.|M|42.35,66.20|
-N Tower Three|QID|5097|N|Use the Beacon's Torch at this location.|M|44.25,63.25|
-C All Along the Watchtowers|QID|5097|M|46.6,71.1|
+C Tower Four|QID|5097|QO|4|N|Use the Beacon's Torch at this location.|M|46.60, 71.10|
+C Tower One|QID|5097|QO|1|N|Use the Beacon's Torch at this location.|M|40.08,71.60|
+C Tower Two|QID|5097|QO|2|N|Use the Beacon's Torch at this location.|M|42.35,66.20|
+C Tower Three|QID|5097|QO|3|N|Use the Beacon's Torch at this location.|M|44.25,63.25|
 C Target: Felstone Field|N|Kill Cauldron Lord Bilemaw and take his key.|QID|5216|M|37.20,56.90|
 T Target: Felstone Field|QID|5216|M|37.20,56.90|
 A Return to Chillwind Camp |QID|5217|M|37.0,57.1|

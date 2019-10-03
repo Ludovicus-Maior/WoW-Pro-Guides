@@ -1,6 +1,6 @@
 --[[
-  WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
-  Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 --]]
 
 local guide = WoWPro:RegisterGuide('ClassicTeldrassil0112', "Leveling", 'Teldrassil', 'Shururu', 'Alliance', 1)
@@ -84,7 +84,7 @@ A Zenn's Bidding|AVAILABLE|488|M|60.43,56.25|N|From Zenn Foulhoof. If he is a fr
 C Zenn's Bidding|ACTIVE|488|S|N|Kill and loot Webwood Lurkers, Nightsabers and Strigid Owls along the way.|
 A A Troubling Breeze|QID|475|M|55.96,57.28|N|From Athridas Bearmantle in Dolanaar.|
 T In Favor of Elune|QID|5622|C|Priest|M|55.56,56.75|N|To Laurna Morninglight.|
-A Garments of the Moon|QID|5621|C|Priest|M|55.56,56.75|N|From Laurna Morninglight.|
+A Garments of the Moon|QID|5621|PRE|5622|C|Priest|M|55.56,56.75|N|From Laurna Morninglight.|
 N Learn Apprentice First Aid |QID|2159|ACTIVE|2159|M|55.29,56.82|S|N|If you want to learn First Aid, now is your chance with Byancle, inside the building on the lowest floor.|
 A The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|N|From Tallonkai Swiftroot, at the very top of the building|
 A Twisted Hatred|QID|932|M|55.58,56.95|N|From Tallonkai Swiftroot.|
@@ -102,7 +102,7 @@ A Twisted Hatred|AVAILABLE|932|M|55.58,56.95|N|From Tallonkai Swiftroot.|
 
 A Recipe of the Kaldorei|QID|4161|M|57.11,61.28|N|Speak to Zarrin and learn cooking - this will unlock the quest.|
 T Crown of the Earth|QID|928|M|56.15,61.71|N|To Corithras Moonrage.|
-A Crown of the Earth|QID|929|M|56.15,61.71|N|From Corithras Moonrage.|
+A Crown of the Earth|QID|929|PRE|928|M|56.15,61.71|N|From Corithras Moonrage.|
 C Garments of the Moon|QID|5621|C|Priest|M|57.24,63.50|N|Heal Sentinel Shaya with Lesser Heal, then use Power Word: Fortitude.|
 T Garments of the Moon|QID|5621|C|Priest|M|55.56,56.75|N|To Laurana Morninglight.|
 N Professions|QID|475|S|M|57.47,60.60|N|This is a good time to consider your professions. If this is your first character you may want two gathering professions to make more money. The Herbalist and Alchemist Trainers are on the southern side of town. If you want Skinning, Leather Working or Mining, I highly recommend that you wait until after the next circuit (or you will have one hell of a detour to take). Others are in Darnassus.|
@@ -114,11 +114,11 @@ A Gnarlpine Corruption|QID|476|PRE|475|M|66.26,58.55|N|From Gaerolas Talvethren|
 C The Emerald Dreamcatcher|QID|2438|M|68.00,59.61|NC|L|8048|N|Inside the small house in the dresser to the right from the entrance.|
 
 T Gnarlpine Corruption|QID|476|M|55.96,57.28|N|To Athridas Bearmantle.|
-A The Relics of Wakening|QID|483|M|55.96,57.28|N|From Athridas Bearmantle.|
+A The Relics of Wakening|QID|483|PRE|476|M|55.96,57.28|N|From Athridas Bearmantle.|
 T The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|N|At the top of the building to Tallonkai Swiftroot.|
-A Ferocitas the Dream Eater|QID|2459|M|55.58,56.95|N|From Tallonkai Swiftroot.|
+A Ferocitas the Dream Eater|QID|2459|PRE|2438|M|55.58,56.95|N|From Tallonkai Swiftroot.|
 T Crown of the Earth|QID|929|M|56.15,61.71|N|To Corithras Moonrage.|
-A Crown of the Earth|QID|933|M|56.15,61.71|N|From Corithras Moonrage.|
+A Crown of the Earth|QID|933|PRE|929|M|56.15,61.71|N|From Corithras Moonrage.|
 
 K Ferocitas the Dream Eater|QID|2459|QO|2|M|69.35,53.30|L|8049|N|Kill and loot Ferocitas the Dream Eater for the Gnarlpine Necklace|T|Ferocitas the Dream Eater|
 C Ferocitas the Dream Eater|QID|2459|NC|QO|2|U|8049|M|69.35,53.30|N|Use the Gnarlpine Necklace to reveal Tallonkai's Jewel|
@@ -137,8 +137,8 @@ T Recipe of the Kaldorei|QID|4161|M|57.11,61.28|N|To Zarrin.|
 N Cooking|QID|997|RECIPE|6412|S|ACTIVE|997|M|57.18,61.26|U|5482|N|Level your cooking to 10 with the small eggs. You can buy mild spices from Nyoma. Then learn the Kaldorei Spider Kabob recipe. Right click off if you don't want to learn cooking.|
 
 T Denalan's Earth|QID|997|M|60.90,68.50|N|To Denalan.|
-A Timberling Seeds|QID|918|M|60.90,68.50|N|From Denalan, it will take a few seconds for this quest to appear.|
-A Timberling Sprouts|QID|919|M|60.90,68.50|N|From Denalan.|
+A Timberling Seeds|QID|918|PRE|997|M|60.90,68.50|N|From Denalan, it will take a few seconds for this quest to appear.|
+A Timberling Sprouts|QID|919|PRE|997|M|60.90,68.50|N|From Denalan.|
 C Timberling Sprouts|QID|919|S|L|5169 12|NC|N|Loot Sprouts from the ground around the area.|
 C Timberling Seeds|QID|918|L|5168 8|N|Kill and loot the Timberlings in the area for the seeds.|
 C Timberling Sprouts|QID|919|US|L|5169 12|NC|N|Loot Sprouts from the ground around the area.|
@@ -204,7 +204,7 @@ H Dolanaar|QID|933|N|Hearthstone back to Dolanaar.|
 ; --- level 10 class quests start from here ---
 r Sell and Repair|ACTIVE|933|S|M|56.25,59.25|N|Sell and Repair with Jeena Featherbow (or whomever you prefer).|
 T Crown of the Earth|QID|933|M|56.15,61.71|N|To Corithras Moonrage.|
-A Crown of the Earth|QID|7383|M|56.15,61.71|N|From Corithras Moonrage.|
+A Crown of the Earth|QID|7383|PRE|933|M|56.15,61.71|N|From Corithras Moonrage.|
 A Heeding the Call|AVAILABLE|5925|C|Druid|M|55.95,61.65|N|From Kal.|
 T The Relics of Wakening|QID|483|M|55.96,57.28|N|To Athridas Bearmantle.|
 A Ursal the Mauler|QID|486|PRE|483|M|55.96,57.28|N|From Athridas Bearmantle.|
@@ -246,7 +246,7 @@ A Destiny Calls|QID|2242|PRE|2241|C|Rogue|M|36.99,21.92|Z|Darnassus|N|From Syurn
 
 R Heeding the Call|QID|5923|C|Druid|M|35.56,10.74|Z|Darnassus|CC|N|Go one floor up inside this building.|
 T Heeding the Call|QID|5923|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
-A Moonglade|QID|5921|PRE|5923|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|
+A Moonglade|QID|5921|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|
 
 T Taming the Beast|QID|6103|C|Hunter|M|40.36,08.59|Z|Darnassus|N|To Jocaste.|
 R Learn Pet Skills|QID|6344|C|Hunter|M|42.5,9.15|Z|Darnassus|N|Go up the tree keeping to the left and learn at least Growl from Silvaria.|
@@ -259,15 +259,15 @@ T The Bounty of Teldrassil|QID|6341|M|58.40,94.01|N|To Vesprystus.|
 A Flight to Auberdine|QID|6342|PRE|6341|M|58.40,94.01|N|From Vesprystus.|
 
 T Moonglade|QID|5921|C|Druid|M|56.21,30.62|Z|Moonglade|N|Use the teleport spell you learned from Mathrengyl Bearwalker. To Dendrite Starblaze.|
-A Great Bear Spirit|QID|5929|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
+A Great Bear Spirit|QID|5929|PRE|5921|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
 R Great Bear Spirit|QID|5929|C|Druid|M|53.39,31.16;45.03,26.67|Z|Moonglade|CS|
 C Great Bear Spirit|QID|5929|C|Druid|M|39.31,27.44|Z|Moonglade|N|Talk to the bear spirit until quest is complete.|CHAT|
 T Great Bear Spirit|QID|5929|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze. Use Teleport: Moonglade again instead of running back.|
-A Back to Darnassus|QID|5931|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
+A Back to Darnassus|QID|5931|PRE|5929|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|
 F Darnassus|QID|5931|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back using the Darnassus Flight Master.|
 R Darnassus|QID|5931|C|Druid|M|55.86,89.45|N|Walk into the portal back to Darnassus.|
 T Back to Darnassus|QID|5931|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
-A Body and Heart|QID|6001|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|
+A Body and Heart|QID|6001|PRE|5931|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker.|
 R Rut'theran Village|QID|6001|ACTIVE|6001|M|28.82,41.50|Z|Darnassus|CC|N|Walk into the portal down to Rut'theran Village.|
 
 F Auberdine|QID|6342|ACTIVE|6342|M|58.40,94.01|N|At Flight Master Vesprystus.|
@@ -281,7 +281,7 @@ R Darnassus|QID|2519|ACTIVE|2519|M|55.86,89.45|N|Walk into the portal back to Da
 T Body and Heart|QID|6001|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
 R The Temple of the Moon|QID|2519|ACTIVE|2519|M|38.53,49.50;39.01,77.50;40.50,91.48|Z|Darnassus|CS|N|Head to the top floor of The Temple of the Moon|
 T The Temple of the Moon|QID|2519|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora up the ramp.|
-A Tears of the Moon|QID|2518|PRE|2519|M|36.63,85.94|Z|Darnassus|N|From Priestess A'moora.|
+A Tears of the Moon|QID|2518|M|36.63,85.94|Z|Darnassus|N|From Priestess A'moora.|
 
 T Returning Home|QID|5629|C|Priest|M|39.52,81.18|Z|Darnassus|N|To Priestess Alathea.|
 R Teldrassil|QID|7383|ACTIVE|7383|M|39.04,77.18;80.04,40.40;88.39,35.55|Z|Darnassus|CC|N|Exit the temple and head back to Teldrassil.|
@@ -304,7 +304,7 @@ A Mist|R|Human,Night Elf,Dwarf|QID|938|M|31,31|N|From Mist. An escort quest, onc
 C Mist|QID|938|M|38.32,34.37|NC|N|Escort Mist to Sentinel Arynia Cloudsbreak.|
 T Mist|QID|938|M|38.32,34.37|N|To Sentinel Arynia Cloudsbreak.|
 T The Enchanted Glade|QID|937|M|38.32,34.37|N|To Sentinel Arynia Cloudsbreak.|
-A Teldrassil|QID|940|M|38.32,34.37|N|From Sentinel Arynia Cloudsbreak.|
+A Teldrassil|QID|940|PRE|937|M|38.32,34.37|N|From Sentinel Arynia Cloudsbreak.|
 L Level 11|LVL|11|N|If you are not level 11 yet grind on mobs.|
 
 R Towards Dolanaar|QID|1683|ACTIVE|1683|M|47.23,49.56|CC|N|Head back to the path towards Dolanaar|
@@ -322,7 +322,7 @@ T Return to Denalan|QID|2498|M|60.90,68.50|N|To Denalan.|
 A Oakenscowl|QID|2499|PRE|2498|M|60.90,68.50|N|From Denalan. Note this is a Level 9 Elite quest.|
 T The Shimmering Frond|QID|931|M|60.90,68.50|N|To Denalan.|
 
-A The Sprouted Fronds|QID|2399|M|60.79,68.58|N|Right click one of the sprouted plants to show this quest.|
+A The Sprouted Fronds|QID|2399|PRE|931|M|60.79,68.58|N|Right click one of the sprouted plants to show this quest.|
 T The Moss-twined Heart|QID|927|O|M|60.90,68.50|N|To Denalan.|
 A Planting the Heart|QID|941|PRE|927|N|Plant the Tainted Heart in Denalan's Planter. This will complete the quest.|
 

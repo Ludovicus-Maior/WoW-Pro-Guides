@@ -800,6 +800,9 @@ function WoWPro:RowUpdate(offset)
 			-- Yeah, that is how blizzard spelled it!
 			row.action:SetTexture("Interface\\CURSOR\\vehichleCursor")
 			row.action.tooltip.text:SetText("Take Vehicle")
+        elseif WoWPro.elite[k] and WoWPro.action[k] == "A" then
+            row.action:SetTexture(WoWPro.actiontypes[action.." ELITE"])
+            row.action.tooltip.text:SetText("Elite Quest")
 		end
 
 		row.check:SetScript("OnClick", function(self, button, down)
@@ -1225,15 +1228,15 @@ function WoWPro.NextStep(k,i)
 		end
 	end
 
-	if (WoWPro.group[k] and not IsInGroup() and WoWPro.action[k] == "A") then
+	if (WoWPro.group[k] and (GetNumGroupMembers() == 0) and WoWPro.action[k] == "A") then
        		local why = "You are not in a group."
 		WoWPro.why[k] = why
 		WoWPro:dbp(why)
 		skip = true
 		break
     	end
-	
-	if (WoWPro.group[k] and IsInGroup() and WoWPro.action[k] == "N") then
+
+	if (WoWPro.group[k] and (GetNumGroupMembers() >= 0) and WoWPro.action[k] == "N") then
        		local why = "You are in a group, note not needed."
 		WoWPro.why[k] = why
 		WoWPro:dbp(why)
@@ -1405,6 +1408,14 @@ function WoWPro.NextStep(k,i)
             end
         end
 
+        -- Zone sensitive steps
+        if string.find(WoWPro.action[k], "FHbPR") then
+            if WoWPro.AutoCompleteZone() then
+                skip = true
+                break
+            end
+        end
+
         -- Scenario objectives
         if WoWPro.sobjective[k] then
             if not WoWPro.Scenario then
@@ -1524,8 +1535,7 @@ function WoWPro.NextStep(k,i)
                 -- The simple case
                 if (level <= UnitLevel("player")) and not offset then
                     skip = true
-                    WoWPro:dbp("Skip %s [%s] because its level %d is too low.",WoWPro.action[k],WoWPro.step[k],level)
-                    WoWPro.why[k] = "NextStep(): Skipping step because player level not high enough."
+                    WoWPro.CompleteStep(k,"Player level exceeds step limit")
                     break
                 end
                 -- If level == UnitLevel(), then see if there is an offset to look at

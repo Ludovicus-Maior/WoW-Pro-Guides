@@ -6,8 +6,8 @@ WoWPro:GuideName(guide, 'Duskwood 27-28')
 WoWPro:GuideLevels(guide, 27, 28, 27)
 WoWPro:GuideNextGuide(guide, 'ClassicWetlands2829')
 WoWPro:GuideSteps(guide, function() return [[
-    
-;This is a near complete rewrite of the original Boston guide but polished, reorganized,  more efficent quest grouping, additional quests. 
+
+;This is a near complete rewrite of the original Boston guide but polished, reorganized,  more efficent quest grouping, additional quests.
 B Bronze Tube|QID|174|M|53.19,60.7|Z|Stormwind City|N|Oops, you didn't buy it earlier. Buy a Bronze Tube from the Auction House or an Engineer to craft it.|L|4371 1|
 A An Old History Book|QID|337|M|7.79,33.99|U|2794|N|Click the book to accept the quest.|
 A Look To The Stars|QID|174|M|79.79,48.06|N|From Viktori Prism'Antras.|
@@ -19,7 +19,7 @@ A Deliver the Thread|QID|157|M|75.8,45.3|N|From Madame Eva.|PRE|154|
 A Worgen in the Woods|QID|173|M|75.75,47.56|N|From Calor.|
 A The Night Watch|QID|57|M|73.56,46.85|N|From Commander Althea Ebonlocke.|PRE|56|
 T The Legend of Stalvan|QID|66|M|72.5,46.8|N|To Clerk Daltry.|
-A The Legend of Stalvan|QID|67|M|72.5,46.8|N|From Clerk Daltry.|
+A The Legend of Stalvan|QID|67|M|72.5,46.8|N|From Clerk Daltry.|PRE|66|
 N Level 27|QID|175|N|You should be level 27 or close. If you are behind, keep following the guide normally, but kill more stuff on the way. Close this step.|LVL|-27|
 h Darkshire|QID|175|N|Set your home location to Darkshire.|M|73.90,44.40|
 A Seasoned Wolf Kabobs|QID|90|M|73.77,43.51|N|From Chef Graul|
@@ -36,7 +36,7 @@ C Seasoned Wolf Kabobs|QID|90|M|60,59|N|Kill wolves (Ravagers) until you've loot
 t Sven's Revenge|QID|95|M|49.87,77.70|N|To a Mound of loose dirt.|
 A Sven's Camp|QID|230|M|49.87,77.70|N|From a Mound of loose dirt.|PRE|95|
 T Deliver the Thread|QID|157|M|28.11,31.47|N|To Abercrombie. Lots of spiders on the way.|
-A Zombie Juice|QID|158|M|28.11,31.47|N|From Abercrombie.|
+A Zombie Juice|QID|158|M|28.11,31.47|N|From Abercrombie.|PRE|157|
 C The Night Watch|QID|57|M|23.00,43.50|N|Don't forget to loot the fingers. But don't worry if you don't get them all, you will be back.|
 T Return to Jitters|QID|240|M|18.13,56.32|N|To Jitters.|
 K Spiders|QID|101|M|28,50|US|QO|2|N|Kill the Black Widow Hatchlings around the eastern edge of this area until you get 5 Vials of Spider Venom.|

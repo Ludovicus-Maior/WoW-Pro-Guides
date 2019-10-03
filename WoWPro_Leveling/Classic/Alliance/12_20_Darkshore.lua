@@ -32,7 +32,7 @@ T Plagued Lands|QID|2118|M|38.8,43.4|N|To Tharnariun Treetender.|
 A Cleansing of the Infected|QID|2138|M|38.8,43.4|N|From Tharnariun Treetender.|PRE|2118|
 T How Big a Threat?|QID|984|M|39.37,43.48|N|To Terenthis.|
 A How Big a Threat?|QID|985|M|39.37,43.48|N|From Terenthis.|PRE|984|
-A Thundris Windweaver|QID|4761|M|39.37,43.48|N|From Terenthis.|
+A Thundris Windweaver|QID|4761|PRE|984|M|39.37,43.48|N|From Terenthis.|
 T Thundris Windweaver|QID|4761|M|37.4,40.2|N|To Thundris Windweaver.|
 A Bashal'Aran|QID|954|M|37.4,40.2|N|From Thundris Windweaver.|
 A Tools of the Highborne|QID|958|M|37.4,40.2|N|From Thundris Windweaver.|
@@ -89,18 +89,18 @@ T Bashal'Aran|QID|957|M|44.2,36.3|N|To Asterion.|
 C Deep Ocean, Vast Sea|QID|982|M|39,29|QO|1|N|Swim to the bottom of the ship and loot the Silver Dawning's Lockbox. There may be a murloc standing in front of the chest that you'll have to kill first.\nKeep an eye on your breath bar.|NC|
 C Deep Ocean, Vast Sea|QID|982|M|39.6,27.4|QO|2|N|Swim to the far end of the ship and loot the Mist Veils's Lockbox.|NC|
 T Buzzbox 411|QID|1001|M|42,28.7|N|To Buzzbox 411.|
-A Buzzbox 323|QID|1002|M|42,28.7|N|From Buzzbox 411.|
-A Beached Sea Creature|QID|4723|M|42.1, 31.9|N|Stand near the base of the neck to able to click and get the quest. If you stand too far up, you won't be able to click on it.|
-A Beached Sea Turtle|QID|4725|M|44.24,20.67|N|On the beach, a few level 15 Murlocks around.|
+A Buzzbox 323|QID|1002|PRE|1001|M|42,28.7|N|From Buzzbox 411.|
+A Beached Sea Creature|QID|4723|PRE|4681|M|42.1, 31.9|N|Stand near the base of the neck to able to click and get the quest. If you stand too far up, you won't be able to click on it.|
+A Beached Sea Turtle|QID|4725|PRE|4681|M|44.24,20.67|N|On the beach, a few level 15 Murlocks around.|
 C Buzzbox 323|QID|1002|S|N|Drop rate is low, so be ready for a grind.|
 C The Cliffspring River|QID|4762|M|51,25|U|12350|N|Use your Empty Sampling Tube.|
 T The Tower of Althalaxx|QID|965|M|54.9, 24.9|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|966|M|54.9, 24.9|N|From Balthule Shadowstrike.|PRE|965|
-A Beached Sea Turtle|QID|4727|M|53.12,18.17|N|On the beach, no enemies around.|
+A Beached Sea Turtle|QID|4727|PRE|4681|M|53.12,18.17|N|On the beach, no enemies around.|
 C The Principal Source|QID|6122|C|Druid|M|54.9, 33.3|U|15844|N|Left of the waterfall, take the path to the top.|NC|
 C How Big a Threat?|QID|985|M|39,53|N|Bit of a run back down south but you can also get other quests done on the way|
-A Beached Sea Turtle|QID|4722|M|37.15,62.19|N|On Beach with level 13 Murlocks around.|
-C Cleansing of the Infected|QID|2138|US|N|Finish killing the Rabid Thistle Bears that spawn around the area.
+A Beached Sea Turtle|QID|4722|PRE|4681|M|37.15,62.19|N|On Beach with level 13 Murlocks around.|
+C Cleansing of the Infected|QID|2138|US|N|Finish killing the Rabid Thistle Bears that spawn around the area.|
 C Buzzbox 323|QID|1002|US|N|Finish collecting fangs.|
 C Easy Strider Living|QID|2178|US|N|Finish collecting Strider meat.|
 T Beached Sea Turtle|QID|4722|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
@@ -110,15 +110,15 @@ T Beached Sea Turtle|QID|4725|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
 A WANTED: Murkdeep!|QID|4740|M|37.23,44.23|N|From Board, no quest symbol above it.|
 T The Fragments Within|QID|4813|M|37.7, 43.4|N|To Sentinel Glynda Nal'Shea.|
 T Cleansing of the Infected|QID|2138|M|38.84,43.42|N|To Tharnariun Treetender.|
-A Tharnariun's Hope|QID|2139|M|38.84,43.42|N|From Tharnariun Treetender.|
+A Tharnariun's Hope|QID|2139|PRE|2138|M|38.84,43.42|N|From Tharnariun Treetender.|
 T How Big a Threat?|QID|985|M|39.37,43.48|N|To Terenthis.|
-A A Lost Master|QID|986|M|39.37,43.48|N|From Terenthis.|
+A A Lost Master|QID|986|PRE|985|M|39.37,43.48|N|From Terenthis.|
 T Deep Ocean, Vast Sea|QID|982|M|38.12,41.22|N|To Gorbold Steelhand.|
 r Repair/Sell|QID|2178|M|38.12,41.22|N|While standing here, repair and sell junk to Elisa Steelhand.|
 T Easy Strider Living|QID|2178|M|37.67,40.70|N|To Alanndarian Nightsong.|
 T The Cliffspring River|QID|4762|M|37.4, 40.2|N|To Thundris Windweaver|
 T The Principal Source|QID|6122|C|Druid|M|37.67,40.70|N|To Alanndarian Nightsong.|
-A The Blackwood Corrupted|QID|4763|M|37.4,40.2|N|From Thundris Windweaver|
+A The Blackwood Corrupted|QID|4763|PRE|4762|M|37.4,40.2|N|From Thundris Windweaver|
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|U|12346|L|12347|M|37.76,44.02|N|Clean the bowl in the moonwell.|
 A Gathering the Cure|QID|6123|C|Druid|M|37.67,40.70|N|From Alanndarian Nightsong.|PRE|6122|
 
@@ -138,7 +138,7 @@ T The Tower of Althalaxx|QID|966|M|54.9,24.9|N|To Balthule Shadowstrike.|
 A The Tower of Althalaxx|QID|967|N|From Balthule Shadowstrike.|PRE|966|
 H Auberdine|ACTIVE|947|N|Hearth or run back to Auberdine.|
 T Cave Mushrooms|QID|947|M|37.3, 43.7|N|To Barithras Moonshade.|
-A Onu|QID|948|M|37.3, 43.7|N|From Barithras Moonshade.|
+A Onu|QID|948|PRE|947|M|37.3, 43.7|N|From Barithras Moonshade.|
 T Tharnariun's Hope|QID|2139|M|38.84,43.42|N|To Tharnariun Treetender.|
 A The Absent Minded Prospector|QID|729|M|37.5,41.9|N|From Archaeologist Hollee.|
 N Leftover quest items|QID|4763|N|If you didn't use your bowl to summon Xabraxxis, you can safely destroy the 4 quest items.|
@@ -158,7 +158,7 @@ T Power over Poison|QID|6125|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl B
 A A Lesson to Learn|QID|26|C|Druid|M|35.36,08.39|Z|Darnassus|N|From Mathrengyl Bearwalker. This begins your class quest line to learn Aquatic form.|LVL|16|
 P Moonglade|QID|26|C|Druid|Z|Moonglade|N|Use your Moonglade portal spell.|
 T A Lesson to Learn|QID|26|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze.|
-A Trial of the Lake|QID|29|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze. This a 30 minute timed quest.|PRE|26|
+A Trial of the Lake|QID|29|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze. This a 30 minute timed quest.|PRE|27|
 
 R Lake Elune'ara|ACTIVE|29|C|Druid|M|52.72,37.91|Z|Moonglade|N|Run to this rock ledge and JUMP into the water. Make sure you jump or you will take falling damage.|
 
@@ -171,7 +171,7 @@ F Auberdine|QID|272|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back
 A Fruit of the Sea|QID|1138|M|36.1,44.9|N|From Gubber Blump.|
 C Buzzbox 525|QID|1003|M|41,80|S|N|Now that we're heading south you will find Grizzled Thistle Bears to kill.|
 C A Lost Master|QID|986|M|42,92|S|N|Slay all Moonstalker Sires and Moonstalker Matriarchs on sight.|
-A Beached Sea Creature|QID|4728|M|36.08,70.92|N|Surrounded by level 15 Murlocks.|
+A Beached Sea Creature|QID|4728|PRE|4681|M|36.08,70.92|N|Surrounded by level 15 Murlocks.|
 C WANTED: Murkdeep!|QID|4740|M|36.3,76.5|N|Before you start clearing here is whats going to happen. After you clear the camp out you will stand near the bonfire. The first wave of murlocs will be 3 level 12 coastrunners, no big deal. The second wave will be do level 15 warriors, no big deal. The third and hardest wave is level 19 Murkdeep and a level 16 hunter. Once you drink up, stand near the bonfire and complete the event. Group up if you can.|
 T Grove of the Ancients|QID|952|M|43.5, 76.3|N|To Onu.|
 T Onu|QID|948|M|43.5,76.3|N|To Onu.|
@@ -184,16 +184,16 @@ T The Twilight Camp|QID|949|M|38.55,86.05|N|To Twilight Tome.|
 A Return to Onu|QID|950|M|38.55,86.05|N|From Twilight Tome.|PRE|949|
 N Leftover quest item|QID|950|N|As you no longer need it, you can safely destroy the Phial of Scrying to free up bag space.|
 T Return to Onu|QID|950|M|43.5, 76.3|N|To Onu.|
-A Mathystra Relics|QID|951|M|43.5,76.5|N|From Onu.|
+A Mathystra Relics|QID|951|PRE|950|M|43.5,76.5|N|From Onu.|
 T The Absent Minded Prospector|QID|729|M|35.69,83.63|N|This will most likely require a group unless you're really overleveled and strong. It opens up a chain that will benefit you later so I recommend you doing it if possible. DON'T accept next quest until all of your group has turned this in. Warn your group as well, so you can all start the escort together.|
-N Escort may need group|QID|731|GROUP|N|This next quest is an escort quest, and is almost impossible to solo for any class. I suggest asking in general chat for people interested in doing it, or looking for people who are doing it already in the camp but are having trouble. While your waiting move on to the next step.|
+N Escort may need group|QID|731|GROUP|2|N|This next quest is an escort quest, and is almost impossible to solo for any class. I suggest asking in general chat for people interested in doing it, or looking for people who are doing it already in the camp but are having trouble. While your waiting move on to the next step.|
 A The Absent Minded Prospector|QID|731|M|35.69,83.63|N|Remember you should have a group for this, he will pull lots of agro and won't stop to help like most escorts. You can move to next quest while waiting for a group.|PRE|729|
 C The Absent Minded Prospector|QID|731|M|35.69,83.63|N|Protect him as he digs up stuff.|
 C Fruit of the Sea|QID|1138|S|N|Kill Reef Crawlers and Encrusted Tide Crawlers until you have 6 Fine Crab Chunks.|
-A Beached Sea Creature|QID|4730|M|32.73,80.75|N|Surrounded by level 15 Murlocks|
-A Beached Sea Turtle|QID|4731|M|31.68,83.63|N|Surrounded by level 20 Murlocks.|
-A Beached Sea Turtle|QID|4732|M|31.27,85.54|N|Surrounded by level 20 Murlocks.|
-A Beached Sea Creature|QID|4733|M|31.29,87.35|N|Surrounded by level 20 Murlocks.|
+A Beached Sea Creature|QID|4730|PRE|4681|M|32.73,80.75|N|Surrounded by level 15 Murlocks|
+A Beached Sea Turtle|QID|4731|PRE|4681|M|31.68,83.63|N|Surrounded by level 20 Murlocks.|
+A Beached Sea Turtle|QID|4732|PRE|4681|M|31.27,85.54|N|Surrounded by level 20 Murlocks.|
+A Beached Sea Creature|QID|4733|PRE|4681|M|31.29,87.35|N|Surrounded by level 20 Murlocks.|
 C Fruit of the Sea|QID|1138|US|N|Kill Reef Crawlers and Encrusted Tide Crawlers until you have 6 Fine Crab Chunks.|
 C A Lost Master|QID|986|M|43.5, 76.3|US|N|Finish up with your Pelts.|
 C Buzzbox 525|QID|1003|M|41,80|US|N|Finish up with your scalps.|
@@ -214,7 +214,7 @@ T Beached Sea Creature|QID|4733|M|36.62,45.58|N|To Gwennyth Bly'Leggonde.|
 F Rut'theran Village|ACTIVE|741|M|36.34,45.58|N|Time to head back to Darnassus, if you're level 18 be sure to train up while you're there, do professions, bank, repair, sell.|
 R Darnassus|ACTIVE|741|M|55.88,89.55|Z|Teldrassil|
 T The Absent Minded Prospector|QID|741|M|31.23,84.41|Z|Darnassus|N|To Chief Archaeologist Greywhisker.|
-A The Absent Minded Prospector|QID|942|M|31.23,84.41|Z|Darnassus|N|From Chief Archaeologist Greywhisker.|
+A The Absent Minded Prospector|QID|942|PRE|741|M|31.23,84.41|Z|Darnassus|N|From Chief Archaeologist Greywhisker.|
 F Auberdine|QID|993|N|When you are done in Darnassus, go back through the portal to Vesprystus and fly back to Auberdine.|
 
 T A Lost Master|QID|993|M|45,85.3|N|Start clearing into the camp, make sure to clear ALL the furbolgs out. Go into the cave and turn in A Lost Master. You will have 2 options, to escape by stealth or escape by force. Stealth is easy and awards cloth pants. Force is a very difficult escort and awards a leather belt and double the exp/silver than the stealth. If you have a group go for the force.|
@@ -241,13 +241,13 @@ C Gyromast's Retrieval|QID|2098|QO|3|N|Kill Raging Reef Crawlers until you find 
 C Mathystra Relics|QID|951|M|59.55,15.66|QO|1|S|N|Look for the relics on the ground in the area of the Ruins of Mathystra.|NC|
 C Gyromast's Retrieval|QID|2098|QO|1|M|58.45,13.34|N|Head east of Gelkak Gyromast and slay Giant Foreststrider until you get Top of Gelkak's Key.|
 T Gyromast's Retrieval|QID|2098|M|56.7, 13.5|N|To Gelkak Gyromast.|
-A Gyromast's Revenge|QID|2078|M|56.7, 13.5|N|From Gelkak Gyromast.|
+A Gyromast's Revenge|QID|2078|PRE|2098|M|56.7, 13.5|N|From Gelkak Gyromast.|
 C Gyromast's Revenge|QID|2078|M|55.8,18.2|QO|1|N|Robot will attack you as you are about to finish quest. Be ready. He is a level 20 elite. You will probably need a group.|
 T Gyromast's Revenge|QID|2078|M|56.7, 13.5|N|To Gelkak Gyromast.|
 N Trash the key|QID|951|N|Destroy Gyromast's Key, it is useless and wastes precious bag space. Skip this step when done.|
 C Mathystra Relics|QID|951|M|59.55,15.66|QO|1|US|N|Look for the relics on the ground in the area of the Ruins of Mathystra.|NC|
 H Auberdine|QID|951|ACTIVE|951|N|Hearth or run back to Auberdine.|
-A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|
+A Researching the Corruption|QID|1275|PRE|3765|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|
 
 F Rut'theran Village|QID|951|M|36.34,45.58|N|Time to head back to Darnassus to do your professions, bank, repair, sell. If you're level 20, be sure to visit your trainer.|
 R Darnassus|QID|951|M|55.88,89.55|Z|Teldrassil|
@@ -273,7 +273,7 @@ N Put on your running shoes|N|You have a long run ahead of you. You will be trav
 R Dun Algaz|QID|244|M|53.89,70.32|Z|Wetlands|N|Run to Loch Modan. Stick to the road.|
 R Loch Modan|QID|244|M|55.64,84.75|Z|Wetlands|N|Run to Loch Modan. Go through tunnel and stick to the road.|
 R Thelsamar|QID|244|M|33.92,50.95|Z|Loch Modan|N|Run to Thelsmar. Go through tunnel and stick to the road.|
-f Thelsamar|QID|244|M|33.92,50.95|Z|Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.
+f Thelsamar|QID|244|M|33.92,50.95|Z|Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.|
 R Dun Morogh|QID|244|M|16.40,58.43|Z|Loch Modan|N|Run to Dun Morogh. Stick to the road, follow the signs.|
 R Gates of Ironforge|QID|244|M|51.03,40.35|Z|Dun Morogh|N|Run to Dun Ironforge. Stick to the road, follow the signs.|
 R Ironforge|QID|244|M|53.46,34.96|Z|Dun Morogh|N|Keep running up.|

@@ -55,6 +55,11 @@ function WoWPro.TakeTaxiClassic(destination)
             if IsMounted() then
                 Dismount()
             end
+            for routeIndex = 1, GetNumRoutes(i) do
+                local sourceSlotIndex = TaxiGetNodeSlot(i, routeIndex, true)
+                local destinationSlotIndex = TaxiGetNodeSlot(i, routeIndex, false)
+                WoWPro:Print("Taking flight to: [%s] Hop %s => %s",location, TaxiNodeName(sourceSlotIndex), TaxiNodeName(destinationSlotIndex) )
+            end
             TakeTaxiNode(i)
             -- wait till we see PLAYER_CONTROL_LOST and UnitOnTaxi("player") to complete this step.
             return
@@ -345,14 +350,15 @@ function WoWPro.AutoCompleteZone()
 		if not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
 	        if (step == zonetext) or (step == subzonetext) then
 	            WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..step)
-	            return
+	            return true
 	        end
 	        if (targetzone == zonetext) or (targetzone == subzonetext) then
 	            WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
-	            return
+	            return true
 	        end
 		end
 	end
+	return false
 end
 
 -- Auto-Complete: Criteria Change from RegisterBucketEvent(CRITERIA_UPDATE)

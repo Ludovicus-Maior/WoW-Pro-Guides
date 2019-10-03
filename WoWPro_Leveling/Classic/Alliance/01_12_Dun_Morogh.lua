@@ -1,6 +1,6 @@
 ﻿--[[
-  WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
-  Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 --]]
 
 local guide = WoWPro:RegisterGuide('ClassicDunMorogh0112', "Leveling", 'Dun Morogh', 'Boston', 'Alliance', 1)
@@ -9,20 +9,20 @@ WoWPro:GuideNextGuide(guide, 'ClassicLochModan1214')
 WoWPro:GuideSteps(guide, function() return [[
 
 A Dwarven Outfitters|QID|179|M|29.92,71.21|N|From Sten Stoutarm|
-C Dwarven Outfitters|QID|179|M|29.80,74.30|QO|1||N|Kill Ragged Young Wolves to loot 8 Tough Wolf Meat.|T|Ragged Young Wolf|
+C Dwarven Outfitters|QID|179|M|29.80,74.30|QO|1|N|Kill Ragged Young Wolves to loot 8 Tough Wolf Meat.|T|Ragged Young Wolf|
 r Sell Junk|ACTIVE|179|M|30.06,71.52|N|Sell your junk to Adlin Pridedrift.|
 T Dwarven Outfitters|QID|179|M|29.92,71.21|N|To Sten Stoutarm|
 
 ; Quest name changes depending upon your class
-A Encrypted Rune|QID|3109|C|Rogue|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
-A Etched Rune|QID|3108|C|Hunter|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
-A Hallowed Rune|QID|3110|C|Priest|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
-A Simple Rune|QID|3106|C|Warrior|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
-A Consecrated Rune|QID|3107|C|Paladin|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
-A Tainted Memorandum|QID|3115|C|Warlock|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
-A Glyphic Memorandum|QID|3114|C|Mage|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
-A Encrypted Memorandum|QID|3113|C|Rogue|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
-A Simple Memorandum|QID|3112|C|Warrior|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
+A Encrypted Rune|QID|3109|PRE|179|C|Rogue|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
+A Etched Rune|QID|3108|PRE|179|C|Hunter|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
+A Hallowed Rune|QID|3110|PRE|179|C|Priest|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
+A Simple Rune|QID|3106|PRE|179|C|Warrior|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
+A Consecrated Rune|QID|3107|PRE|179|C|Paladin|R|Dwarf|M|29.92,71.21|N|From Sten Stoutarm|
+A Tainted Memorandum|QID|3115|PRE|179|C|Warlock|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
+A Glyphic Memorandum|QID|3114|PRE|179|C|Mage|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
+A Encrypted Memorandum|QID|3113|PRE|179|C|Rogue|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
+A Simple Memorandum|QID|3112|PRE|179|C|Warrior|R|Gnome|M|29.92,71.21|N|From Sten Stoutarm|
 
 A Coldridge Valley Mail Delivery|QID|233|PRE|179|M|29.92,71.21|N|From Sten Stoutarm|
 A A New Threat|QID|170|PRE|179|M|29.71,71.25|N|From Balir Frosthammer|
@@ -61,14 +61,14 @@ A The Stolen Journal|QID|218|PRE|182|M|25.08,75.71|N|From Grelin Whitebeard.|
 
 L Level 4|QID|3364|LVL|4|N|You need to be level 4 to continue with this guide.|
 
-A Scalding Mornbrew Delivery|QID|3364|M|24.98,75.94|N|From Nori Pridedrift. On accepting the quest, a 5 minute timer will start.|
+A Scalding Mornbrew Delivery|QID|3364|PRE|179|M|24.98,75.94|N|From Nori Pridedrift. On accepting the quest, a 5 minute timer will start.|
 T Scalding Mornbrew Delivery|QID|3364|M|28.78,66.66|N|To Durnan Furcutter, at the back of Anvilmar|
 A Bring Back the Mug|QID|3365|PRE|3364|M|28.78,66.66|N|From Durnan Furcutter|
 r Sell and Repair|ACTIVE|3361|M|28.78,66.66|N|Repair and sell your junk to Durnan furcutter.|
 T Refugee's Quandary|QID|3361|M|28.52,67.68|N|To Felix Whindlebolt|
 
 N Level 4 class training|ACTIVE|183|C|Rogue|R|Dwarf|M|28.37,67.51|N|Go see Solm Hargrin to get your level 4 spell/skill.|
-N Level 4 class training|ACTIVE|183|C|Hunter|R|Dwarf|M|29.17,67.45|N|Go see Thorgas Grimson to get your level 4 spell/skill.| 
+N Level 4 class training|ACTIVE|183|C|Hunter|R|Dwarf|M|29.17,67.45|N|Go see Thorgas Grimson to get your level 4 spell/skill.|
 N Level 4 class training|ACTIVE|183|C|Priest|R|Dwarf|M|28.60,66.38|N|Go see Branstock Khalder to get your level 4 spell/skill.|
 N Level 4 class training|ACTIVE|183|C|Warrior|R|Dwarf|M|28.83,67.24|N|Go see Thran Khorman to get your level 4 spell/skill.|
 N Level 4 class training|ACTIVE|183|C|Paladin|R|Dwarf|M|28.83,68.33|N|Go see Bromos Grummner to get your level 4 spell/skill.|
@@ -121,7 +121,7 @@ C Beer Basted Boar Ribs|QID|384|S|QO|1|M|48.0,50.1|N|Kill and loot the Crag Boar
 T Tools for Steelgrill|QID|400|M|50.44,49.10|N|To Beldrin Steelgrill|
 A Ammo for Rumbleshot|QID|5541|M|50.08,49.42|N|From Loslor Rudge|
 A The Grizzled Den|QID|313|M|49.62,48.61|N|From Pilot Stonegear|
-A Stocking Jetsteam|QID|317|M|49.43,48.41|N|From Pilot Bellowfiz|	
+A Stocking Jetsteam|QID|317|M|49.43,48.41|N|From Pilot Bellowfiz|
 
 C Stocking Jetsteam|QID|317|S|M|39.5,59.5|N|Kill and loot Boars for boar Meat and Bears for Bear Fur.|
 R The Grizzled Den|QID|5541|ACTIVE|5541|M|45.09,50.25;44.9,55.2|CS|N|Head to The Grizzled Den, located south-west just past Kharanos|
@@ -134,7 +134,7 @@ C Beer Basted Boar Ribs|QID|384|US|QO|1|M|48.0,50.1|N|Kill and loot the Crag Boa
 
 B Rhapsody Malt|QID|384|M|47.2,52.5|L|2894|N|Buy Rhapsody Malt from Innkeeper Belm inside the Inn at Kharanos.|
 N Level 6 class training|ACTIVE|384|LVL|6|C|Rogue|M|47.56,52.61|N|Go see Hogral Bakkan to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
-N Level 6 class training|ACTIVE|384|LVL|6|C|Hunter|M|45.81,53.04|N|Go see Grif Wildheart to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.| 
+N Level 6 class training|ACTIVE|384|LVL|6|C|Hunter|M|45.81,53.04|N|Go see Grif Wildheart to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
 N Level 6 class training|ACTIVE|384|LVL|6|C|Priest|M|47.34,52.18|N|Go see Maxen Anvol to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
 N Level 6 class training|ACTIVE|384|LVL|6|C|Warrior|M|47.36,52.65|N|Go see Gramis Swiftaxe to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
 N Level 6 class training|ACTIVE|384|LVL|6|C|Paladin|M|47.60,52.07|N|Go see Azar Stronghammer to get your level 6 spell/skill. We won't remind you in the future, but it's every even # level there is a new skill.|
@@ -149,7 +149,7 @@ T The Grizzled Den|QID|313|M|49.62,48.61|N|To Pilot Stonegear|
 
 L Level 7|QID|287|LVL|7|N|You need to be level 7 to continue with this guide.|
 
-A Frostmane Hold|QID|287|M|46.73,53.82|N|From Senir Whitebeard.|
+A Frostmane Hold|QID|287|PRE|420|M|46.73,53.82|N|From Senir Whitebeard.|
 A Operation Recombobulation|QID|412|M|45.85,49.36|N|From Razzle Spryprocket, inside a small building to the north of Kharanos.|
 
 R Brewnall Village|QID|318|M|43.99,44.30;41.33,39.80;37.78,39.17;30,45|CS|N|To Brewnall Village. Go north until you come to a frozen river. Follow the river west until you come to the frozen lake, then head southwest to Brewnall Village (30,45).|
@@ -161,7 +161,7 @@ A Bitter Rivals|QID|310|M|30.18,45.53|N|From Marleth Barleybrew|
 C A Favor for Evershine|QID|319|S|N|Kill Ice Claw Bears, Elder Crag Boars and Snow Leopards.|
 C Frostmane Hold|QID|287|M|25.1,51.0;21.3,54.4|CS|N|Kill Frostmane Headhunter as you explore Frostmane.|T|Frostmane Headhunter|
 
-R Shimmer Ridge|QID|315|M|37.4,42.5;38.75,42.4|CS||N|Find the road up the mountain.|
+R Shimmer Ridge|QID|315|M|37.4,42.5;38.75,42.4|CS|N|Find the road up the mountain.|
 C The Perfect Stout|QID|315|M|41.3,44.5;41.7,35.75|CN|NC|N|Loot the Shimmerweed Baskets on the ground. Also a rare drop from the Frostmane.|
 
 R Gnomeregan|QID|412|ACTIVE|412|M|29.0,41.0|N|Come off the ridge, then head west to Gnomeregan.|
@@ -184,14 +184,14 @@ R Ironforge|QID|291|ACTIVE|291|M|47.0,42.1;53.31,35.09|CS|N|Head north to Ironfo
 N City Facilities|QID|291|ACTIVE|291|S|N|Use this time to visit Auction House, Bank and to sell and restock. Now is a good time to increase bagspace!|
 T The Reports|QID|291|M|44.57,49.50;39.59,57.48|CS|Z|Ironforge|N|To Senator Barin Redstone, in The High Seat|
 f Ironforge|QID|311|M|55.7,48.0|N|Discover Ironforge Flightpoint with Gryth Thurden|R|-Gnome,-Dwarf|
-L Nearly Level 10|QID|413|LVL|10;-1940|M|30.18,45.53|N|You need to be no more than bubbles from level 10. So be sure and kill everything on your way back to Brewnall Village.|
+L Nearly Level 10|QID|413|LVL|9;-1940|M|30.18,45.53|N|You need to be no more than 6 bubbles from level 10. So be sure and kill everything on your way back to Brewnall Village.|
 
 T Return to Marleth|QID|311|M|30.18,45.53|N|To Marleth Barleybrew, in Brewnall Village.|
 T A Favor for Evershine|QID|319|M|30.20,45.73|N|To Rejold Barleybrew|
 A Return to Bellowfiz|QID|320|PRE|319|M|30.20,45.73|N|From Rejold Barleybrew|
 T The Perfect Stout|QID|315|M|30.20,45.73|N|To Rejold Barleybrew|
 
-A Shimmer Stout|QID|413|M|30.20,45.73|N|From Rejold Barleybrew|
+A Shimmer Stout|QID|413|PRE|315|M|30.20,45.73|N|From Rejold Barleybrew|
 A The Hunter's Path|QID|6075|M|30.6,45.4|LVL|10|C|Hunter|R|Dwarf|N|From Tristane Shadowstone. This quest line is very important for your hunter.|
 T Return to Bellowfiz|QID|320|M|49.43,48.41|N|To Pilot Bellowfiz|
 T The Hunter's Path|QID|6075|M|45.8,53.0|LVL|10|C|Hunter|R|Dwarf|N|To Grif Wildheart|
@@ -212,15 +212,15 @@ T Training the Beast|QID|6086|C|Hunter|R|Dwarf|M|70.6,85.4|Z|Ironforge|N|To Beli
 
 A Speak with Bink|QID|1879|C|Mage|R|Gnome|
 T Speak with Bink|QID|1879|C|Mage|R|Gnome|N|This turn-in is at your Irongforge trainer.|
-A Mage-tastic Gizmonitor|QID|1880|C|Mage|R|Gnome|
+A Mage-tastic Gizmonitor|QID|1880|PRE|1879|C|Mage|R|Gnome|
 C Mage-tastic Gizmonitor|QID|1880|C|Mage|R|Gnome|M|27.7,36.5|N|The Gizmonitor is in a toolbox at the waypoint.|
 T Mage-tastic Gizmonitor|QID|1880|C|Mage|R|Gnome|
 
 A Road to Salvation|QID|2218|C|Rogue|R|Dwarf,Gnome|
 T Road to Salvation|QID|2218|C|Rogue|R|Dwarf,Gnome|M|51.90,14.89|Z|Ironforge|N|This turn-in is at your Ironforge trainer.|
-A Simple Subterfugin'|QID|2238|C|Rogue|R|Dwarf,Gnome|
+A Simple Subterfugin'|QID|2238|PRE|2218|C|Rogue|R|Dwarf,Gnome|
 T Simple Subterfugin'|QID|2238|C|Rogue|R|Dwarf,Gnome|M|25.15,44.48|N|This NPC is in stealth on top of the wooden tower. You will need to get very close to him to see the turn-in.|
-A Onin's Report|QID|2239|C|Rogue|R|Dwarf,Gnome|M|25.15,44.48|
+A Onin's Report|QID|2239|PRE|2238|C|Rogue|R|Dwarf,Gnome|M|25.15,44.48|
 T Onin's Report|QID|2239|C|Rogue|R|Dwarf,Gnome|M|51.90,14.89|Z|Ironforge|
 
 R Ironforge|QID|1715|C|Warlock|M|53.31,35.09|N|Class quest for your Voidwalker starts here.|
@@ -229,7 +229,7 @@ T The Slaughtered Lamb|QID|1715|C|Warlock|M|39.23,85.27|Z|Stormwind City|N|To co
 A Surena Caledon|QID|1688|C|Warlock|M|39.23,85.27|Z|Stormwind City|
 C Surena Caledon|QID|1688|C|Warlock|M|71.0,80.6|Z|Elwynn Forest|N|Surena can be found in a house in Elwynn Forest.|
 T Surena Caledon|QID|1688|C|Warlock|M|39.23,85.27|Z|Stormwind City|
-A The Binding|QID|1689|C|Warlock|M|39.23,85.27|Z|Stormwind City|
+A The Binding|QID|1689|PRE|1688|C|Warlock|M|39.23,85.27|Z|Stormwind City|
 C The Binding|QID|1689|C|Warlock|N|The Summoning Circle is farther underneath the trainers.|
 T The Binding|QID|1689|C|Warlock|M|39.23,85.27|Z|Stormwind City|N|Congrats! You now can use a Voidwalker.|
 H Thunderbrew Distillery|C|Warlock|U|6948|
@@ -247,7 +247,7 @@ T Ironband's Compound|QID|1681|C|Warrior|R|Gnome,Dwarf|M|48.65,42.49|Z|Ironforge
 A Grey Iron Weapons|QID|1682|PRE|1681|C|Warrior|R|Gnome,Dwarf|M|48.65,42.49|Z|Ironforge|N|From Tormus Deepforge.|
 T Grey Iron Weapons|QID|1682|C|Warrior|R|Gnome,Dwarf|M|48.65,42.49|Z|Ironforge|N|To Tormus Deepforge.|
 ; ---------- END OF LEVEL 10 CLASS TRAINING ------------
-    
+
 R Amberstill Ranch|QID|314|M|62.6,53.4|N|Head to Amberstill ranch, follow the road to the east .|
 A Protecting the Herd|QID|314|M|63.08,49.86|N|From Rudra Amberstill. Follow the path up the hill. This is an Elite quest (Level 11 Elite)|
 

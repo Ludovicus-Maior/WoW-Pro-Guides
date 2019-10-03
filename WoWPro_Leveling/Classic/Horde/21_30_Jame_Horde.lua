@@ -25,14 +25,14 @@ A Ziz Fizziks|QID|1483|M|63.00,37.20|Z|The Barrens|N|From Sputtervalve|
 
 ; ----Shaman Class Quest-------------------------------------------------------------------------
 T Call of Water|QID|1528|C|Shaman|M|65.87,43.75|Z|The Barrens|N|To Islen Waterseer.|
-A Call of Water|QID|1530|C|Shaman|M|65.87,43.75|Z|The Barrens|N|From Islen Waterseer.|
+A Call of Water|QID|1530|PRE|1528|C|Shaman|M|65.87,43.75|Z|The Barrens|N|From Islen Waterseer.|
 f Camp Taurajo|QID|1530|C|Shaman|M|44.46,59.10|Z|The Barrens|
 
 T Call of Water|QID|1530|C|Shaman|M|43.46,77.41|Z|The Barrens|N|To Brine.|
-A Call of Water|QID|1535|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
+A Call of Water|QID|1535|PRE|1530|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
 C Call of Water|QID|1535|C|Shaman|QO|1|M|44.08,76.69|Z|The Barrens|N|Filled Brown Waterskin|
 T Call of Water|QID|1535|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
-A Call of Water|QID|1536|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
+A Call of Water|QID|1536|PRE|1535|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Brine.|
 F Crossroads|QID|1492|C|Shaman|M|51.50,30.30|Z|The Barrens|
 ; -----------------------------------------------------------------------------
 
@@ -53,7 +53,7 @@ C Super Reaper 6000|QID|1093|M|73.24,56.61;69.98,55.94;62.60,53.80|CN|Z|Stonetal
 C Goblin Invaders|QID|1062|M|65.00,50.00|Z|Stonetalon Mountains|US|N|Kill the remaining Venture Co. Loggers.|
 
 T Super Reaper 6000|QID|1093|M|59.00,62.60|Z|Stonetalon Mountains|
-A Further Instructions |QID|1094|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz Fizziks|
+A Further Instructions |QID|1094|PRE|1093|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz Fizziks|
 
 R Boulderslide Cavern|QID|6421|M|61.50,93.20|
 C Boulderslide Ravine|QID|6421|M|58.90,90.30|Z|Stonetalon Mountains|N|Collect the purple Resonite Crystals and follow the waypoint to explore the cave.|
@@ -76,7 +76,7 @@ R Splintertree Post|QID|6383|M|45.20,59.80|Z|The Barrens|N|Follow the path north
 f Splintertree Post|QID|235|M|73.20,61.60|Z|Ashenvale|
 C The Ashenvale Hunt|QID|235|Z|Ashenvale|M|73.74,61.46|
 T The Ashenvale Hunt|QID|235^742^6382|Z|Ashenvale|M|73.74,61.46|
-A The Ashenvale Hunt|QID|6383|N|At Senani Thunderheart.|M|73.75,61.47|Z|Ashenvale|
+A The Ashenvale Hunt|QID|6383|PRE|235|N|At Senani Thunderheart.|M|73.75,61.47|Z|Ashenvale|
 
 F Zoram'gar Outpost|QID|6442|M|73.23,61.58|Z|Ashenvale|N|Fly to Zoram'gar Outpost.|TAXI|Zoram'gar Outpost|
 R Zoram'gar Outpost|QID|6442|N|Follow the road all the way to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.2,47.28;26.43,42.33;16.51,30.27;12,34|CS|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
@@ -91,7 +91,7 @@ r Repair, restock, train and Bank|QID|6504|M|49.90,70.40|Z|Orgrimmar|N|Deposit i
 
 ; ----Warlock Class Quest-------------------------------------------------------------------------
 T Love's Gift|QID|1512|C|Warlock|M|48.20,45.30|Z|Orgrimmar|
-A The Binding|QID|1513|C|Warlock|M|48.20,45.30|Z|Orgrimmar|
+A The Binding|QID|1513|PRE|1512|C|Warlock|M|48.20,45.30|Z|Orgrimmar|
 C The Binding|QID|1513|C|Warlock|U|6626|M|49.00,50.00|Z|Orgrimmar|N|Go to the summoning circle aroun  and use Dogran's Pendant. Fight the succubus that appears and defeat her.|
 T The Binding|QID|1513|C|Warlock|M|48.20,45.30|Z|Orgrimmar|N|Congradulations on your succubus!|
 ; -----------------------------------------------------------------------------
@@ -158,22 +158,22 @@ K Hillsbrad Farmhand|QID|527|US|QO|2|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill 
 C Elixir of Pain |QID|501|M|48.00,42.00|Z|Hillsbrad Foothills|N|Kill mountain lions and collect their blood. Complete the quest on your way back to Tarren Mill.|
 
 T Battle of Hillsbrad |QID|527|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-A Battle of Hillsbrad |QID|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
+A Battle of Hillsbrad |QID|528|PRE|527|M|62.40,20.30|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
 T Elixir of Pain |QID|501|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
-A Elixir of Pain |QID|502|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
-A Souvenirs of Death|QID|546|M|62,19.8|Z|Hillsbrad Foothills|N|From Deathguard Samsa.|
+A Elixir of Pain |QID|502|PRE|501|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+A Souvenirs of Death|QID|546|PRE|527|M|62,19.8|Z|Hillsbrad Foothills|N|From Deathguard Samsa.|
 
 T Elixir of Pain |QID|502|M|32.61,35.41|Z|Hillsbrad Foothills|N|Make sure you are full health before turning in the quest.  Kill Stanley once he transforms.\nKilling Enraged Stanley gives a lot of xp. If you group up it will be shared among party members.|
 K Farmer Kalaba|QID|567|QO|4|M|35.00,46.00|Z|Hillsbrad Foothills|N|She's at the first field next to the road.|
 C Battle of Hillsbrad |QID|528|M|34.90,46.19|Z|Hillsbrad Foothills|
 
 T Battle of Hillsbrad |QID|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-A Battle of Hillsbrad |QID|529|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Battle of Hillsbrad |QID|529|PRE|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 A Elixir of Agony |QID|509|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
 
 F The Sepulcher|QID|516|M|60.20,18.70|Z|Hillsbrad Foothills|
 T Beren's Peril|QID|516|M|44,41|Z|Silverpine Forest|N|To Shadow Priest Allister.|
- 
+
 ; === 24_25_Jame_Ashenvale.lua ===
 ; --- class quests ------------------------------------------------------------
 T Trial of the Sea Lion|QID|30|C|Druid|M|56.40,30.50|Z|Ashenvale|O|N|Use Teleport:Moonglade and turn in your quest.|
@@ -188,7 +188,7 @@ N Auction House|QID|6581|M|53.70,64.60|Z|Orgrimmar|N|Check the AH for: Deadly Bl
 ; --- class quests ------------------------------------------------------------
 F Camp Taurajo|QID|1536|C|Shaman|M|45.30,63.90|Z|Orgrimmar|
 T Call of Water |QID|1536|C|Shaman|M|43.40,77.40|Z|The Barrens|
-A Call of Water |QID|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
+A Call of Water |QID|1534|PRE|1536|C|Shaman|M|43.40,77.40|Z|The Barrens|
 R Camp Taurajo|QID|1534|C|Shaman|M|44.50,59.10|Z|The Barrens|
 F Splintertree Post|QID|1534|C|Shaman|M|44.50,59.10|Z|The Barrens|
 ; --- class quests ------------------------------------------------------------
@@ -201,10 +201,10 @@ A Warsong Supplies|QID|6571|M|71.4,67.60|Z|Ashenvale|N|From Locke Okarr|
 A The Lost Pages|QID|6504|M|70.00,71.10|Z|Ashenvale|N|From Gurda Ragescar. Bind chapters together when you have the right pages, it will free up bag space.|
 
 F Zoram'gar Outpost|QID|6641|M|73.20,61.60|Z|Ashenvale|
-A Vorsha the Lasher|QID|6641|M|12.10,34.60|Z|Ashenvale|N|From Muglash
+A Vorsha the Lasher|QID|6641|M|12.10,34.60|Z|Ashenvale|N|From Muglash|
 C Vorsha the Lasher|QID|6641|M|9.60,27.70|Z|Ashenvale|N|Follow Muglash to . Click the brazier.  Prepare for 3 waves of monsters.  Vorsha will be in the 3rd wave. If you die, don't release, the NPC can sometimes finish him off without you and you'll get credit for the quest.|
 T Vorsha the Lasher|QID|6641|M|12.20,34.20|Z|Ashenvale|N|To Warsong Runner|
-A Between a Rock and a Thistlefur|QID|216|M|11.90,34.50|Z|Ashenvale|N|Karang Amakkar
+A Between a Rock and a Thistlefur|QID|216|M|11.90,34.50|Z|Ashenvale|N|Karang Amakkar|
 A Troll Charm|QID|6462|M|11.70,34.90|Z|Ashenvale|N|From Mitsuwa|
 
 R Thistlefur Village|QID|216|M|30.90,45.60|Z|Ashenvale|
@@ -232,7 +232,7 @@ K Tideress|AVAILABLE|1918|L|16408|M|49.00,71.00|Z|Ashenvale|T|Tideress|N|This dr
 A The Befouled Element|QID|1918|U|16408|M|47.70,69.70|Z|Ashenvale|N|Right-click the Befouled Water Globe to start the quest|
 C Stonetalon Standstill|QID|25|QO|1|M|48.90,69.60|Z|Ashenvale|US|N|Kill the rest of the elementals you need before leaving the lake.|
 K Ursangous|AVAILABLE|23|L|16303|M|41.00,67.00|Z|Ashenvale|T|Ursangous|N|Ursangous can be found roaming around . He's a bear with swirly marks on his shoulders.|
-A Ursangous's Paw|QID|23|U|16303|M|42.30,65.60|Z|Ashenvale|N|Click Ursangous's Paw to begin the quest.|
+A Ursangous's Paw|QID|23|PRE|6383|U|16303|M|42.30,65.60|Z|Ashenvale|N|Click Ursangous's Paw to begin the quest.|
 
 ; ----Class Quest-------------------------------------------------------------------------
 C Call of Water |QID|1534|C|Shaman|U|7767|M|33.00,67.00|Z|Ashenvale|N|Use the Empty Blue Waterskin at the fountain in the Ruins of Stardust|
@@ -285,23 +285,23 @@ A Tribes at War|QID|878|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
 
 ; -----Class Quest------------------------------------------------------------------------
 T Speak with Ruga|QID|1823|C|Warrior|Z|The Barrens|N|To Ragu Ragetotem|
-A Trial at the Field of Giants|QID|1823|C|Warrior|Z|The Barrens|N|From Ragu Ragetotem|
+A Trial at the Field of Giants|QID|1824|C|Warrior|Z|The Barrens|N|From Ragu Ragetotem|
 ; -----------------------------------------------------------------------------
 
 C Tribes at War|QID|878|M|51.00,54.00|Z|The Barrens|N|Kill Water Seekers, Thornweavers, and Geomancers around|
 N Tip...|QID|5052|Z|The Barrens|N|Do not sell your blood shards.  Blood Shards for useful buffs like run speed.|
 
 T Tribes at War|QID|878|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
-A Blood Shards of Agamaggan|QID|5052|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
+A Blood Shards of Agamaggan|QID|5052|PRE|878|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
 K Kill Bristlebacks for Blood Shard|QID|5052|QO|1|M|51.00,54.00|Z|The Barrens|N|You will have collected several Blood Shards from [21]Tribes at War.  In the unlikely case you sold them, kill Bristlebacks until you loot a Blood Shard.|
 T Blood Shards of Agamaggan|QID|5052|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
-A Betrayal from Within |QID|879|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
+A Betrayal from Within |QID|879|PRE|5052|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
 A Weapons of Choice|QID|893|M|45.10,57.70|Z|The Barrens|N|From Tatternack Steelforge|
 A Mahren Skyseer|QID|874|PRE|913|Z|The Barrens|O|N|From Jorn Skyseer|
 
 ; -----Class Quest------------------------------------------------------------------------
 T Call of Water |QID|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
-A Call of Water |QID|220|C|Shaman|M|43.40,77.40|Z|The Barrens|
+A Call of Water |QID|220|PRE|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
 ; -----------------------------------------------------------------------------
 
 K Kuz for Kuz's Skull|ACTIVE|879|QO|1|M|44.00,79.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|
@@ -312,7 +312,7 @@ C Weapons of Choice|QID|893|M|44.40,80.20|Z|The Barrens|N|Kill Stalkers for a Ba
 A Gann's Reclamation|QID|843|M|46.00,79.10|Z|The Barrens|N|To find Gann Stonespire, he walks up and down the forked-road that leads from Dustwallow marsh to Bael Modan.|
 
 C Gann's Reclamation|QID|843|M|47.00,85.00|Z|The Barrens|QO|1,2|N|Excavators and Foremen are all over the area, kill them until you complete the quest.|S!US|
-K Prospector Khazgorm|QID|843|M|47.6,85.2|Z|The Barrens|QO|3|N|Prospector Khazgorm can be found in this area.|T|Prospector Khazgorm
+K Prospector Khazgorm|QID|843|M|47.6,85.2|Z|The Barrens|QO|3|N|Prospector Khazgorm can be found in this area.|T|Prospector Khazgorm|
 
 T Gann's Reclamation|QID|843|M|46.00,79.10|Z|The Barrens|N|He will be walking up and down the road|
 A Revenge of Gann |QID|846|PRE|843|M|46.00,79.10|Z|The Barrens|N|From Gann|
@@ -333,10 +333,10 @@ T Revenge of Gann |QID|849|M|46.00,79.10|Z|The Barrens|N|To Gann Stonespire|
 N Collect: Silithid Eggs|QID|868|L|5058 12|M|43.00,70.00|Z|The Barrens|N|Look for Silithid Mounds.  Clear any bug around it and then click them to gather Silithis Eggs. If you happen to find a Silithid Harvester, kill it and loot it's head.|
 
 ; -----Class Quest------------------------------------------------------------------------
-C Trial at the Field of Giants|QID|1823|C|Warrior|M|44.50,59.10|Z|The Barrens|N|On your way back to Camp Taurajo , kill silithid in the Field of Giants and loot their antenna. You need to do this within 15 minutes or the antenna will stop twitching.|
-T Trial at the Field of Giants|QID|1823|C|Warrior|Z|The Barrens|
+C Trial at the Field of Giants|QID|1824|C|Warrior|M|44.50,59.10|Z|The Barrens|N|On your way back to Camp Taurajo , kill silithid in the Field of Giants and loot their antenna. You need to do this within 15 minutes or the antenna will stop twitching.|
+T Trial at the Field of Giants|QID|1824|C|Warrior|Z|The Barrens|
 N Brutal Armor Quest Chain|QID|1838|C|Warrior|Z|The Barrens|N|If you are interested in the Brutal Armor quest chain, you can pick it up at this point. This quest requires running Razorfen Kraul, and will not be covered in this guide. It does provide some decent armor, but if you are leveling quickly it may not be worth it.|
-A Speak with Thun'grim|QID|1825|C|Warrior|Z|The Barrens|O|
+A Speak with Thun'grim|QID|1825|PRE|1824|C|Warrior|Z|The Barrens|O|
 ; -----------------------------------------------------------------------------
 
 A The Harvester|QID|897|U|5138|Z|The Barrens|O|N|SILVER ELITE...Click the head to start the quest.|
@@ -352,14 +352,14 @@ T Betrayal from Within |QID|906|PRE|879|M|51.50,30.90|Z|The Barrens|N|To Thork|
 
 ; -----Class Quest------------------------------------------------------------------------
 T Speak with Thun'grim|QID|1825|C|Warrior|Z|The Barrens|O|
-A Brutal Armor|QID|1838|C|Warrior|Z|The Barrens|O|
+A Brutal Armor|QID|1838|PRE|1825|C|Warrior|Z|The Barrens|O|
 ; -----------------------------------------------------------------------------
 
 F Ratchet|QID|6571|M|51.50,30.30|Z|The Barrens|
 
 ; -----Class Quest--------------------------------------------------------------
 T Call of Water |QID|220|C|Shaman|M|65.80,43.80|Z|The Barrens|N|To Islen Waterseer|
-A Call of Water |QID|63|C|Shaman|M|65.80,43.80|Z|The Barrens|N|From Islen Waterseer|
+A Call of Water |QID|63|PRE|220|C|Shaman|M|65.80,43.80|Z|The Barrens|N|From Islen Waterseer|
 ; -----------------------------------------------------------------------------
 
 T Mahren Skyseer|QID|874|M|65.8,43.8|Z|The Barrens|N|To Mahren Skyseer|
@@ -378,7 +378,7 @@ N Bank Withdrawal|QID|6581|M|49.90,70.40|Z|Orgrimmar|N|Withdraw from the bank: D
 
 ; -----Class Quest--------------------------------------------------------------
 N Nether-lace Garment|QID|1944|C|Mage|M|38.50,36.00|Z|Orgrimmar|N|You have the option to do a series of class quests to get your choice of two chest items. These don't take you too far out of your way, but they are very optional, so it's up to you if you want to do them. The starting quest can be picked up from Deino  and is called Waters of Xavian.|
-A Waters of Xavian|QID|1944|C|Mage|Z|Ashenvale|O|
+A Waters of Xavian|QID|1944|PRE|1943|C|Mage|Z|Ashenvale|O|
 ; -----------------------------------------------------------------------------
 
 F Splintertree Post|QID|6581|M|45.30,63.90|Z|Orgrimmar|
@@ -386,7 +386,7 @@ A Warsong Saw Blades|QID|6581|M|73,61.4|Z|Ashenvale|N|From Pixel|
 T Warsong Saw Blades|QID|6581|M|73,61.4|Z|Ashenvale|N|To Pixel|
 
 K Kill Shadumbra for Shadumbra's Head|QID|24|L|16304|M|62.00,50.00;53.00,55.00|CN|Z|Ashenvale|N|Follow the road west. Shadumbra patrols between those points. Kill him and loot Shadumbra's Head.|
-A Shadumbra's Head|QID|24|U|16304|M|58.70,56.10|Z|Ashenvale|N|Click Shadumbra's Head to start the quest.|
+A Shadumbra's Head|QID|24|PRE|6383|U|16304|M|58.70,56.10|Z|Ashenvale|N|Click Shadumbra's Head to start the quest.|
 
 C Satyr Horns|QID|6441|M|66.60,56.30|Z|Ashenvale|N|Kill all Satyrs for Satyr Horns . Look for pitchers containing Warsong Oil.  Loot one for [27]Warsong Supplies.|
 C Collect: Warsong Oil for Warsong Supplies|QID|6571|QO|3|NC|M|66.00,55.00|Z|Ashenvale|N|Look for pitchers containing Warsong Oil.  Loot one for [27]Warsong Supplies.|
@@ -396,7 +396,7 @@ C Waters of Xavian|QID|1944|C|Mage|U|7269|M|76.0,41.0|Z|Ashenvale|O|N|Head east 
 ; -----------------------------------------------------------------------------
 
 K Kill Sharptalon for Sharptalon's Claw|QID|2|L|16305|M|75.00,71.00|Z|Ashenvale|N|Sharptalon: It is unlikely you will be able to kill Sharptalon at your present level. Once you spot Sharptalon, keep him in sight and wait till he is close enough to the Forsaken Camp. Next, pull him with the lowest aggro spell/shot you have (a simple bow shoot, or rank 1 nuke).  Bring him to the Forsaken Camp. DO NOTHING.  Let the NPCs aggro it and take it off you. Once they have Sharptalon down to 90%, start attacking again, you must do as much damage as possible, but don't use high aggro spells.  Help them finish it off, then loot Sharptalon's Claw|
-A Sharptalon's Claw|QID|2|U|16305|M|74.00,70.00|Z|Ashenvale|N|Click Sharptalon's Claw to start the quest.|
+A Sharptalon's Claw|QID|2|PRE|6383|U|16305|M|74.00,70.00|Z|Ashenvale|N|Click Sharptalon's Claw to start the quest.|
 
 T The Lost Pages|QID|6504|M|70.00,71.10|Z|Ashenvale|N|To Gurda Ragescar|
 T Warsong Supplies|QID|6571|Z|Ashenvale|N|To locke Okarr|
@@ -416,9 +416,9 @@ R Undercity|QID|529|Z|Hillsbrad Foothills|N|Take the Zepplin to Tirisfal then ru
 F Sepulchur|QID|63|C|Shaman|M|63.30,48.40|Z|Undercity|
 C Call of Water |QID|63|C|Shaman|U|7811|M|38.80,44.20|Z|Silverpine Forest|N|Run here to 38,44 - its on the coast behind the Sepulchur. Use the water sapta. Kill the attackable elemental, then turn in the quest to the brazier.|
 T Call of Water |QID|63|C|Shaman|M|38.30,44.60|Z|Silverpine Forest|
-A Call of Water |QID|100|C|Shaman|M|38.30,44.60|Z|Silverpine Forest|
+A Call of Water |QID|100|PRE|63|C|Shaman|M|38.30,44.60|Z|Silverpine Forest|
 T Call of Water |QID|100|C|Shaman|M|38.80,44.60|Z|Silverpine Forest|
-A Call of Water |QID|96|C|Shaman|M|38.80,44.60|Z|Silverpine Forest|
+A Call of Water |QID|96|PRE|100|C|Shaman|M|38.80,44.60|Z|Silverpine Forest|
 R Sepulchur|QID|96|C|Shaman|M|45.60,42.50|Z|Silverpine Forest|
 F Tarren Mill|QID|96|C|Shaman|M|45.60,42.50|Z|Silverpine Forest|
 ; -----------------------------------------------------------------------------
@@ -427,7 +427,7 @@ F Tarren Mill|QID|529|C|-Shaman|M|63.30,48.40|Z|Undercity|
 
 C Battle of Hillsbrad |QID|529|M|32.00,44.00|Z|Hillsbrad Foothills|N|Kill Blacksmith Verringtan and his apprentices and collect the shipment of iron, at|
 T Battle of Hillsbrad |QID|529|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
-A Battle of Hillsbrad |QID|532|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia|
+A Battle of Hillsbrad |QID|532|PRE|529|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia|
 
 C Battle of Hillsbrad |QID|532|M|29.00,41.00|Z|Hillsbrad Foothills|N|Clear your way to inside City Hall.  Clear the first 2 rooms.  First, pull the 1 MOB which is on the left inside the room.  Immediately, go back to the room behind you.  Hide behind a wall.  This way the Councilman cannot nuke you from a distance, but instead come to you.  Next, go to the big room and kill Clerk Horrace Whitesteed. Get back to full health.  Kill Magistrate Burnsidethen.  Finally, destroy the Hillsbrad Proclamation and collect the Town Registry.|
 K Clerk Horrace Whitesteed|QID|567|QO|1|M|28.00,42.00|Z|Hillsbrad Foothills|
@@ -437,7 +437,7 @@ K Citizen Wilkes|QID|567|QO|2|M|33.00,41.00|Z|Hillsbrad Foothills|
 C Souvenirs of Death|QID|546|M|34.00,46.00|Z|Hillsbrad Foothills|N|Kill all humans in the area for Hillsbrad Human Skulls|
 
 T Battle of Hillsbrad |QID|532|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
-A Battle of Hillsbrad |QID|539|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia|
+A Battle of Hillsbrad |QID|539|PRE|532|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia|
 T Souvenirs of Death|QID|546|M|62,19.8|Z|Hillsbrad Foothills|N|To Deathguard Samsa|
 
 R Azurelode Mine|QID|539|M|26.00,58.00|Z|Hillsbrad Foothills|
@@ -449,9 +449,9 @@ C Collect: Mudsnout Blossoms|QID|509|QO|1|NC|M|65.00,60.00|Z|Hillsbrad Foothills
 
 T Dangerous!|QID|567|M|62.2,20.2|Z|Hillsbrad Foothills|N|High Executor Darthalia|
 T Battle of Hillsbrad |QID|539|M|62.2,20.2|Z|Hillsbrad Foothills|N|High Executor Darthalia|
-A Battle of Hillsbrad |QID|541|M|62.2,20.2|Z|Hillsbrad Foothills|N|High Executor Darthalia|
+A Battle of Hillsbrad |QID|541|PRE|539|M|62.2,20.2|Z|Hillsbrad Foothills|N|High Executor Darthalia|
 T Elixir of Agony |QID|509|M|61.4,19.2|Z|Hillsbrad Foothills|N|Apothecary Lydon|
-A Elixir of Agony |QID|513|M|61.4,19.2|Z|Hillsbrad Foothills|N|Apothecary Lydon|
+A Elixir of Agony |QID|513|PRE|509|M|61.4,19.2|Z|Hillsbrad Foothills|N|Apothecary Lydon|
 
 ; === 28_30_Jame_Thousand_Needles.lua ===
 
@@ -472,7 +472,7 @@ R Freewind Post|QID|4542|M|45.10,49.10|Z|Thousand Needles|N|Take the lift down, 
 A Wind Rider|QID|4767|M|44.80,49.00|Z|Thousand Needles|N|From Elu|
 A Alien Egg|QID|4821|M|44.60,50.30|Z|Thousand Needles|N|From Hagar Lightninghoof|
 T Message to Freewind Post|QID|4542|M|45.60,50.80|Z|Thousand Needles|N|To Cliffwatcher Longhorn|
-A Pacify the Centaur|QID|4841|M|45.60,50.80|Z|Thousand Needles|N|From Cliffwatcher Longhorn|
+A Pacify the Centaur|QID|4841|PRE|4542|M|45.60,50.80|Z|Thousand Needles|N|From Cliffwatcher Longhorn|
 A Wanted - Arnak Grimtotem|QID|5147|M|46.00,50.80|Z|Thousand Needles|N|From the sign|
 
 
@@ -481,14 +481,14 @@ C Pacify the Centaur|QID|4841|M|45.00,36.00|Z|Thousand Needles|N|Kill scouts, wr
 A Test of Faith|QID|1149|M|55,45;54.00,44.00|CS|Z|Thousand Needles|N|Head east to first waypoint. Follow the path up the slope towards Dorn Plainstalker.|
 C Test of Faith|QID|1149|Z|Thousand Needles|N|Dorn Plainstalker will teleport you to the top of a peak.  Look for two wooden planks and jump off. Don't worry, you won't die from falling. You will re-appear next to Dorn|
 T Test of Faith|QID|1149|M|53.90,41.50|Z|Thousand Needles|N|To Dorn Plainstalker|
-A Test of Endurance|QID|1150|M|53.90,41.50|Z|Thousand Needles|N|From Dorn Plainstalker|
+A Test of Endurance|QID|1150|PRE|1149|M|53.90,41.50|Z|Thousand Needles|N|From Dorn Plainstalker|
 
 C Alien Egg|QID|4821|M|56.50,50.30;52.5,55.2;37.7,56.1|CN|Z|Thousand Needles|N|Check the three locations for the Alien Egg and kill Thundering Boulderkins until you have 2 Purifying Earth.|
 
 T Pacify the Centaur|QID|4841|M|45.60,50.80|Z|Thousand Needles|N|To Cliffwatcher Longhorn|
-A Grimtotem Spying|QID|5064|M|45.60,50.80|Z|Thousand Needles|N|To Cliffwatcher Longhorn|
+A Grimtotem Spying|QID|5064|PRE|4841|M|45.60,50.80|Z|Thousand Needles|N|To Cliffwatcher Longhorn|
 T Alien Egg|QID|4821|M|44.60,50.30|Z|Thousand Needles|N|To Hagar Lightninghoof|
-A Serpent Wild|QID|4865|M|44.60,50.30|Z|Thousand Needles|N|From Hagar Lightninghoof|
+A Serpent Wild|QID|4865|PRE|4821|M|44.60,50.30|Z|Thousand Needles|N|From Hagar Lightninghoof|
 
 R Highperch|QID|4767|M|12.00,32.00|Z|Thousand Needles|
 C Wind Rider|QID|4767|M|11.00,36.00|Z|Thousand Needles|QO|1|N|Collect: Highperch Wyvern Eggs|
@@ -499,7 +499,7 @@ C Homeward Bound|QID|4770|M|17.90,40.60|Z|Thousand Needles|
 
 T Homeward Bound|QID|4770|M|21.50,32.40|Z|Thousand Needles|N|To Motega Firemane|
 T Serpent Wild|QID|4865|M|21.50,32.40|Z|Thousand Needles|N|To Motega Firemane|
-A Sacred Fire|QID|5062|M|21.50,32.40|Z|Thousand Needles|N|From Motega Firemane|
+A Sacred Fire|QID|5062|PRE|4865|M|21.50,32.40|Z|Thousand Needles|N|From Motega Firemane|
 A Hypercapacitor Gizmo|QID|5151|M|21.50,32.40|Z|Thousand Needles|N|From Wizlo Bearingshiner|
 
 C Sacred Fire|QID|5062|M|37.80,38.10|Z|Thousand Needles|N|Head to the area below Darkcloud Pinnacle and collect Incendia Agave, they look like spiky little plants and can often be found underwhater.|
@@ -526,7 +526,7 @@ A Assassination Plot|QID|4881|U|12564|M|22.10,31.00|Z|Thousand Needles|N|Click a
 
 T Assassination Plot|QID|4881|M|21.30,32.10|Z|Thousand Needles|
 N READ THIS|QID|4966|Z|Thousand Needles|N|Time for a tougher quest. HP/Mana up, then accept the next quest. You will be attacked by three centaurs. You must kill them all. Kanati can tank one or two.  Do NOT try and tank all three yourself.|
-A Protect Kanati Greycloud|QID|4966|M|21.30,32.10|Z|Thousand Needles|
+A Protect Kanati Greycloud|QID|4966|PRE|4881|M|21.30,32.10|Z|Thousand Needles|
 C Protect Kanati Greycloud|QID|4966|Z|Thousand Needles|N|Three centaurs will spawn and attack Kanati Greycloud. Help kill them.|
 T Protect Kanati Greycloud|QID|4966|M|21.30,32.10|Z|Thousand Needles|
 
@@ -539,9 +539,9 @@ R Thunder Bluff|QID|1130|Z|Feralas|N|Follow the path west into Mulgore. Continue
 f Thunder Bluff|QID|1130|M|46.80,50.20|Z|Thunder Bluff|N|Pick up this flight path.|
 
 T Melor Sends Word|QID|1130|M|61.50,80.90|Z|Thunder Bluff|N|To Melor Stonehoof|
-A Steelsnap|QID|1131|M|61.50,80.90|Z|Thunder Bluff|N|From Melor Stonehoof|
+A Steelsnap|QID|1131|PRE|1130|M|61.50,80.90|Z|Thunder Bluff|N|From Melor Stonehoof|
 T Sacred Fire|QID|5062|M|69.90,30.90|Z|Thunder Bluff|N|To Magatha Grimtotem|
-A Arikara|QID|5088|M|69.90,30.90|Z|Thunder Bluff|N|To Magatha Grimtotem|
+A Arikara|QID|5088|PRE|5062|M|69.90,30.90|Z|Thunder Bluff|N|To Magatha Grimtotem|
 
 ; === 30_31_Jame_Ashenvale.lua ===
 

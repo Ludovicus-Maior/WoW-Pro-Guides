@@ -29,16 +29,16 @@ A The Trogg Threat|QID|267|M|23.24,73.67|N|From Captain Ruglefuss, inside the Bu
 A In Defense of the King's Lands|QID|224|M|22.07,73.13|N|From Mountaineer Cobbleflint, outside, along the path.|
 C In Defense of the King's Lands|QID|224|M|33.00,73.00|N|Kill Troggs and Scouts until you finish this quest.|
 T In Defense of the King's Lands|QID|224|M|22.07,73.13|N|From Mountaineer Cobbleflint, outside|
-A In Defense of the King's Lands|QID|237|M|23.53,76.40|N|From Mountaineer Gravelgaw, just outside the entrance to the bunker.|
+A In Defense of the King's Lands|QID|237|PRE|224|M|23.53,76.40|N|From Mountaineer Gravelgaw, just outside the entrance to the bunker.|
 C In Defense of the King's Lands|QID|237|M|35.50,79.60|N|Kill Skullthumpers and Seers until you finish the quest.|
 T In Defense of the King's Lands|QID|237|M|23.53,76.40|N|To Mountaineer Gravelgaw.|
-A In Defense of the King's Lands|QID|263|M|23.47,74.49|N|From Mountaineer Wallbang.|
+A In Defense of the King's Lands|QID|263|PRE|237|M|23.47,74.49|N|From Mountaineer Wallbang.|
 C In Defense of the King's Lands|QID|263|M|35.50,79.60|N|Kill Bonesnappers and Shaman until you finish the quest.|
 C The Trogg Threat|QID|267|M|33.00,73.00|N|Continue with the troggs until you get the items for this quest.|
 N Level 14|QID|224|N|Kill mobs until you are level 14.|LVL|14|
 T In Defense of the King's Lands|QID|263|M|23.47,74.49|N|To Mountaineer Wallbang.|
 T The Trogg Threat|QID|267|M|23.24,73.67|N|To Captain Ruglefuss.|
-A In Defense of the King's Lands|QID|217|M|23.24,73.67|N|From Captain Ruglefuss.|GROUP|
+A In Defense of the King's Lands|QID|217|PRE|263|M|23.24,73.67|N|From Captain Ruglefuss.|GROUP|2|
 C In Defense of the King's Lands|QID|217|M|35,83;34,90|CS|N|Take the path to the right inside the cave, They are all located together in the middle room.|
 T In Defense of the King's Lands|QID|217|M|23.24,73.67|N|To Captain Ruglefuss.|
 
@@ -58,7 +58,7 @@ R Deeprun Tram|QID|6661|N|Go to the Deeprun Tram|Z|Ironforge|M|76.50,51.10|
 A Deeprun Rat Roundup|QID|6661|N|Get this quest from Monty in the Tram.|
 C Deeprun Rat Roundup|QID|6661|U|17117|T|Deeprun Rat|N|Use the flute to catch five Deeprun Rats.|
 T Deeprun Rat Roundup|QID|6661|N|To Monty.|
-A Me Brother, Nipsy|N|Get the next quest from Monty.|QID|6662|
+A Me Brother, Nipsy|N|Get the next quest from Monty.|QID|6662|PRE|6661|
 T Me Brother, Nipsy|N|Get on the tram and turn this quest in at the other end.|QID|6662|
 R Stormwind City|ACTIVE|1338|N|Exit the Tram to Stormwind City|
 T Stormpike's Order|QID|1338|Z|Stormwind City|M|58.07,16.54|N|To Furen Longbeard.|
@@ -68,7 +68,7 @@ A Report to Gryan Stoutmantle|QID|109|Z|Elwynn Forest|M|42.1,65.9|N|From Marshal
 A Tome of Divinity|QID|2998|M|39.80,29.78|Z|Elwynn Forest|C|Paladin|N|From Brother Wilhelm,in Goldshire.|
 
 T Tome of Divinity|QID|2998|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|
-A The Tome of Divinity|QID|1642|M|39.80,29.78|Z|Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|PRE|2998|
+A The Tome of Divinity|QID|1642|M|39.80,29.78|Z|Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|PRE|1641|
 T The Tome of Divinity|QID|1642|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|
 A The Tome of Divinity|QID|1643|M|39.80,29.78|Z|Stormwind City|N|From Duthorian Rall.|PRE|1642|
 T The Tome of Divinity|QID|1643|M|57.08,61.73|Z|Stormwind City|N|To Stephanie Turner in the Trade District.|
@@ -87,7 +87,7 @@ A Westfall Stew |QID|36|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
 A Poor Old Blanchy|QID|151|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
 A The Killing Fields|QID|9|M|56.0,31.2|Z|Westfall|N|From Farmer Saldean. Note, he is also a vendor.|
 T Westfall Stew |QID|36|M|56.4,30.5|Z|Westfall|N|To Salma Saldean.|
-A Westfall Stew |QID|38|M|56.4,30.5|Z|Westfall|N|From Salma Saldean.|
+A Westfall Stew |QID|38|PRE|36|M|56.4,30.5|Z|Westfall|N|From Salma Saldean.|
 A Goretusk Liver Pie|QID|22|M|56.4,30.5|Z|Westfall|N|From Salma Saldean.|
 
 R Sentinel Hill|ACTIVE|109|M|7.61,44.45|Z|Westfall|N|Continue along the road to Sentinel Hill, taking the left hand road at the junction (it has signposts if you are unsure)|
