@@ -381,11 +381,11 @@ A Some Assembly Required|QID|577|M|28.3,77.6|Z|Stranglethorn Vale|N|From Drizzli
 
 F Duskwood|QID|622|M|27.4,77.6|Z|Stranglethorn Vale|N|At Gyll.|
 N Elite Quests|AVAILABLE|228^55^253|ACTIVE|622|N|Now is a good time to wrap up Embalmer, Morbent Fel and Mor'Ladim. If you don't want to try solo and can't find a group, just skip and make your way toward the Rebel camp.\n\n These quests are a bit out of the way so if you want them be sure to switch to Rank 3 in your guide settings.|
-A Mor'Ladim|QID|228|M|73.56,46.85|Z|Duskwood|N|From Commander Althea Ebonlocke.|PRE|227|RANK|3|
-A Bride of the Embalmer|QID|253|M|71.93,46.43|Z|Duskwood|N|From Lord Ello Ebonlocke.|PRE|252|RANK|3|
+A Mor'Ladim|QID|228|M|73.56,46.85|Z|Duskwood|ELITE|N|[color=ff8000]Elite: [/color]From Commander Althea Ebonlocke.|PRE|227|RANK|3|
+A Bride of the Embalmer|QID|253|M|71.93,46.43|Z|Duskwood|ELITE|N|[color=ff8000]Elite: [/color]From Lord Ello Ebonlocke.|PRE|252|RANK|3|
 F Sentinel Hill|ACTIVE|325|M|77.48,44.29|Z|Duskwood|N|Much faster to fly to and run from Sentinel Hill.|RANK|3|
 T Armed and Ready|QID|325|M|7.79,33.99|Z|Duskwood|N|To Sven Yorgen.|RANK|3|
-A Morbent Fel|QID|55|M|7.79,33.99|Z|Duskwood|N|From Sven Yorgen.|PRE|325|RANK|3|
+A Morbent Fel|QID|55|M|7.79,33.99|Z|Duskwood|ELITE|N|[color=ff8000]Elite: [/color]From Sven Yorgen.|PRE|325|RANK|3|
 C Morbent Fel|QID|55|M|16,34|Z|Duskwood|N|On the 2nd Floor of the house, target Morbent Fel, and use the item on him. CC or kill his adds then kill him.|U|7297|
 C Mor'Ladim|QID|228|M|16,34|Z|Duskwood|N|He wanders the area around the house and crypt.|
 C Bride of the Embalmer|QID|253|M|28.8,31.2|Z|Duskwood|N|Kill Eliza and loot her heart.|PRE|252|RANK|3|
@@ -742,8 +742,8 @@ A Study of the Elements: Rock|QID|711|M|25.95,44.87|Z|Badlands|N|From Lotwil Ver
 A A Sign of Hope|QID|720|M|53.03,33.93|Z|Badlands|N|Get quest from map on the ground here.|
 C A Dwarf and His Tools|QID|719|M|52.3,30.4|Z|Badlands|N|Kill Dwarves around here until you get 'Ryedol's Lucky Pick' for this quest.|
 C Mirages|QID|718|M|66.60,22.03|Z|Badlands|NC|N|Loot the Supply Crate at this location.|
-T A Sign of Hope|QID|720|M|53.42,43.40|Z|Badlands|N|To Prospecter Ryedol. Don't get follow-up unless you plan on running Uldaman.|
-A A Sign of Hope|QID|721|M|53.42,43.40|Z|Badlands|N|From Prospecter Ryedol.\n\nDungeon Quest for Uldaman.|PRE|720|
+T A Sign of Hope|QID|720|M|53.42,43.40|Z|Badlands|N|To Prospecter Ryedol.|
+A A Sign of Hope|QID|721|M|53.42,43.40|Z|Badlands|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Prospecter Ryedol.|PRE|720|
 T A Dwarf and His Tools|QID|719|M|53.42,43.40|Z|Badlands|N|To Prospecter Ryedol.|
 T Mirages|QID|718|M|53.79,43.31|Z|Badlands|N|To Sigrun Ironhew.|
 A Scrounging|QID|733|M|53.79,43.31|Z|Badlands|N|From Sigrun Ironhew.|PRE|718|
@@ -752,6 +752,7 @@ A Murdaloc|QID|739|M|50.9,62.4|Z|Badlands|N|From Battered Dwarven Skeleton.|PRE|
 C Indurium|QID|1108|M|51.8,65.6|Z|Badlands|S|N|Kill Stonevault mobs for Indurium Flakes.|
 C Murdaloc|QID|739|M|50.53,67.92|Z|Badlands|N|Kill Stonevault Bonesnappers and Murdaloc.|
 C Indurium|QID|1108|M|51.8,65.6|Z|Badlands|US|N|Continue to kill Stonevault mobs until you complete this quest.|
+A Solution to Doom|QID|709|M|51.39,76.87|Z|Badlands|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Theldurin the Lost.|
 r Repair & Restock|ACTIVE|711|M|42.47,52.5|Z|Badlands|N|Reminder to clear your bags if you want since it isn't too far out of the way.|
 C Study of the Elements: Rock|QID|711|M|42.84,83.87|Z|Badlands|N|Kill Rock Elementals until you get 3 Large Stone Slabs for this quest.|
 T Study of the Elements: Rock|QID|711|M|25.95,44.87|Z|Badlands|N|To Lotwil Veriatus.|
@@ -799,10 +800,10 @@ b Ratchet|QID|1137|M|25.80,73.10|N|Take the boat to Ratchet.|
 F Theramore Isle|ACTIVE|1258|M|63.10,37.15|Z|The Barrens|N|Fly to Theramore.|
 T ... and Bugs|QID|1258|M|66.34,45.47|Z|Dustwallow Marsh|N|To Morgan Stern.|
 T The Infernal Orb|QID|1954|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha.|C|Mage|
-A The Exorcism|QID|1955|M|46.06,57.09|Z|Dustwallow Marsh|N|From Tabetha. Get ready for an Elite fight.|C|Mage|PRE|1954|
-C The Exorcism|QID|1955|M|46.06,57.09|Z|Dustwallow Marsh|N|Defeat the Demon of the Orb, a level 40 elite.|C|Mage|
+A The Exorcism|QID|1955|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=ff8000]Elite: [/color]From Tabetha. Get ready for an Elite fight.|C|Mage|PRE|1954|
+C The Exorcism|QID|1955|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=ff8000]Elite: [/color]Defeat the Demon of the Orb, a level 40 elite.|C|Mage|
 T The Exorcism|QID|1955|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha.|C|Mage|
-A Power in Uldaman|QID|1956|M|46.06,57.09|Z|Dustwallow Marsh|N|From Tabetha.|PRE|1955|C|Mage|
+A Power in Uldaman|QID|1956|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Uldaman[/color]\nFrom Tabetha.|PRE|1955|C|Mage|
 
 F Gadgetzan|QID|1137|Z|Dustwallow Marsh|M|65.50,51.30|N|Fly to Gadgetzan.|
 T Tran'rek|QID|2864|M|51.56,26.76|Z|Tanaris|N|To Tran'rek. Don't get follow-up.|
