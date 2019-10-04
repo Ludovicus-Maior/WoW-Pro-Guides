@@ -68,7 +68,7 @@ C Target: Writhing Haunt|N|Kill Lord Razarch and loot the key.|QID|5222|M|53.00,
 T Target: Writhing Haunt|QID|5222|M|53.00,65.70|
 A Return to Chillwind Camp |QID|5223|M|53.0,66.0|
 A The Wildlife Suffers Too |QID|4984|M|53.7,64.7|
-C The Wildlife Suffers Too |N|Kill wolves and spiders until you complete this quest.|QID|4984|M|45.00,40.00|
+C The Wildlife Suffers Too |N|Kill Diseased wolves until you complete this quest.|QID|4984|M|45.00,40.00|
 T Good Luck Charm|QID|5050|M|38.4,54.0|
 A Two Halves Become One|QID|5051|M|38.4,54.0|
 N Good Luck Other-Half-Charm|QID|5051|N|Look for Jabbering Ghoul.  Kill it and loot the Good Luck Other-Half-Charm|L|12722 1|
@@ -80,7 +80,7 @@ T Tomb of the Lightbringer|QID|9446|M|42.9,84.5|
 T The Wildlife Suffers Too |QID|4984|M|53.7,64.7|
 A The Wildlife Suffers Too |QID|4985|M|53.7,64.7|
 N From now on...|QID|4985|N|From now on, kill Diseased Grizzlies.|
-C Target: Gahrron's Withering|N|Kill Lord Soulwrath and take the key.|QID|5225|M|62.00,57.00|
+C Target: Gahrron's Withering|N|Kill Lord Soulwrath and take the key.|QID|5225|M|62.60,58.40|
 T Target: Gahrron's Withering|QID|5225|M|62.60,58.40|
 A Return to Chillwind Camp |QID|5226|M|62.6,59.9|
 C The Wildlife Suffers Too |N|Kill Diseased Grizzlies until you finish this quest.|QID|4985|M|54.00,51.00|
