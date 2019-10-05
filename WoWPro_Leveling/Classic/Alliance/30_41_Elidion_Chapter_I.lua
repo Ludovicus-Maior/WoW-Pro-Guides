@@ -115,7 +115,7 @@ A The Stone of the Tides|QID|578|M|27.23,76.87|Z|Stranglethorn Vale|N|From Baron
 T Goblin Sponsorship|QID|1181|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz. (skip followup for now)|
 f Booty Bay|QID|1041|M|27.53,77.78|Z|Stranglethorn Vale|N|Get the flight path, on top of the building facing the inn.|
 
-F Trade District|QID|198|M|27.53,77.78|Z|Stranglethorn Vale|N|Fly to Stormwind to train and take care of city business.|C|-Mage|
+F Stormwind|QID|198|M|27.53,77.78|Z|Stranglethorn Vale|N|Fly to Stormwind to train and take care of city business.|C|-Mage|
 P Wizard's Sanctum|QID|198|M|27.53,77.78|Z|Stranglethorn Vale|N|Teleport to Stormwind to train and take care of city business.|C|Mage|
 B Lesser Bloodstone Ore|QID|627|L|4278 4|N|Last chance to buy this, or get from your bank if you have it there, quest is coming up.|ITEM|4278|
 N Clear Bags!|QID|198|M|71,72.6|Z|Stormwind City|N|Stranglethorn has a lot of stuff you collect, now is the time to clear out bags as much as you can, use your bank, buy bigger bags from auction if needed.|
@@ -213,7 +213,7 @@ T Worgen in the Woods|QID|222|Z|Duskwood|M|75.29,48.05|N|To Calor.|
 A Worgen in the Woods|QID|223|Z|Duskwood|M|75.29,48.05|N|From Calor.|PRE|222|
 T Worgen in the Woods|QID|223|M|75.32,49.03|Z|Duskwood|N|To Jonathan Carevin.|
 
-F Trade District|QID|555|N|Fly to Stormwind. Train up if you need to an gather supplies for the next area.|
+F Stormwind|QID|555|N|Fly to Stormwind. Train up if you need to an gather supplies for the next area.|
 = Train skills|QID|555|N|Train your skills in Stormwind if needed, then pick up supplies before heading to Southshore.  You can put any Green Hills of Stranglethorn Pages in your bank for now. Grab your turtle meat, and buy the suggested items after you close this step.|
 B Hillman's Cloak|QID|565|L|3719|N|Crafted with Leatherworking.|ITEM|3719|
 B Bolt of Woolen Cloth|QID|565|L|2997|N|Crafted with Tailoring.|ITEM|2997|
@@ -225,8 +225,8 @@ A An Old History Book|QID|337|U|2794|N|From Item dropped randomly in Duskwood.|
 t An Old History Book|QID|337|M|74,7.6|Z|Stormwind City|N|To Milton Sheaf.|
 A Southshore|QID|538|PRE|337|M|74,7.6|Z|Stormwind City|N|From Milton Sheaf.|
 
-F Refuge Pointe|QID|555|N|Fly to Refuge Pointe in Arathi Highlands. If you don't have the flight path, check off manually and run. Or if you skipped ahead and have the flightpath to southshore you can fly directly there instead. 7.5 Minute flight|
-R Refuge Pointe|QID|555|M|45.76,46.10|Z|Arathi Highlands|N|If you dont have the flight points, its Ironforge to wetlands, east thru Wetlands, then North to Arathi Highlands, grab the Refuge Pointe flightpath.|
+F Refuge Pointe|QID|555||M|49.34,52.28|Z|Hillsbrad Foothills|TAXI|Refuge Pointe|N|Fly to Refuge Pointe in Arathi Highlands. 7.5 Minute flight|
+R Refuge Pointe|QID|555|M|45.76,46.10|Z|Arathi Highlands|TAXI|-Refuge Pointe|N|If you dont have the flight points, its Ironforge to wetlands, east thru Wetlands, then North to Arathi Highlands, grab the Refuge Pointe flightpath.|
 T Malin's Request|QID|690|M|46.65,47.01|Z|Arathi Highlands|N|To Skuerto. Don't get follow-up.|
 A Northfold Manor|QID|681|M|45.83,47.55|Z|Arathi Highlands|N|From Captain Nials.|
 C Northfold Manor|QID|681|M|33.95,33.00|Z|Arathi Highlands|N|Kill the Syndicate in this area.|
@@ -235,8 +235,8 @@ R Hillsbrad Foothills|QID|555|M|19.86,29.17|Z|Arathi Highlands|N|Run North-West 
 f Southshore|QID|555|M|49.34,52.28|Z|Hillsbrad Foothills|N|Get the flightpath from Darla Harris.|
 B Soothing Spices|QID|555|M|48.94,55.03|Z|Hillsbrad Foothills|N|Buy one Soothing Spices from Micha Yance.|L|3713 1|
 B Fine Thread|QID|565|M|48.94,55.03|Z|Hillsbrad Foothills|L|2321|N|Just in case you forgot. You buy from Micha Yance.|ITEM|2321|
-T Southshore|QID|538|M|54.57,57.08|Z|Hillsbrad Foothills|N|To Loremaster Dibbs.|
-A Preserving Knowledge|QID|540|M|54.57,57.09|Z|Hillsbrad Foothills|N|From Loremaster Dibbs.|PRE|538|
+T Southshore|QID|538|M|50.57,57.08|Z|Hillsbrad Foothills|N|To Loremaster Dibbs.|
+A Preserving Knowledge|QID|540|M|50.57,57.09|Z|Hillsbrad Foothills|N|From Loremaster Dibbs.|PRE|538|
 h Southshore|QID|555|M|51.16,58.93|Z|Hillsbrad Foothills|N|Set your home location to Southshore.|
 A Down the Coast|QID|536|M|51.46,58.39|Z|Hillsbrad Foothills|N|From Lieutenant Farren Orinelle.|
 A Soothing Turtle Bisque|QID|555|M|51.89,58.67|Z|Hillsbrad Foothills|N|From Chef Jessen.|
@@ -285,7 +285,7 @@ H Southshore|QID|661|N|Hearth to Southshore.|
 T MacKreel's Moonshine|QID|647|M|52.11,58.77|Z|Hillsbrad Foothills|N|To Brewmeister Bilger downstairs in the cellar.|
 T Hints of a New Plague?|QID|661|M|50.35,59.05|Z|Hillsbrad Foothills|N|To Phin Odelic.|
 A Bartolo's Yeti Fur Cloak|QID|565|M|49.43,55.54|Z|Hillsbrad Foothills|N|From Bartolo Ginsetti.|
-F The Great Forge|QID|637|M|49.34,52.280|Z|Hillsbrad Foothills|N|Fly to Ironforge to take care of a few things.|
+F Ironforge|QID|637|M|49.34,52.28|Z|Hillsbrad Foothills|N|Fly to Ironforge to take care of a few things.|
 T Sully Balloo's Letter|QID|637|M|63.50,67.32|Z|Ironforge|N|To Sara Balloo.|
 A Sara Balloo's Plea|QID|683|M|63.50,67.32|Z|Ironforge|N|From Sara Balloo.|PRE|637|
 T Sara Balloo's Plea|QID|683|M|39.11,56.21|Z|Ironforge|N|To King Magni Bronzebeard.|
@@ -303,7 +303,7 @@ C Hillmans' cloak|QID|565|M|38.74,87.05|Z|Ironforge|QO|3|US|NC|
 C Fine Thread|QID|565|M|38.74,87.05|Z|Ironforge|QO|2|US|NC|
 C Bolt of Woolen Cloth|QID|565|M|38.74,87.05|Z|Ironforge|QO|1|US|NC|
 
-F Southshore|QID|565|M|49.34,52.280|Z|Ironforge|N|Fly back to Southshore.|
+F Southshore|QID|565|M|49.34,52.28|Z|Ironforge|N|Fly back to Southshore.|
 A Crushridge Bounty|QID|500|M|49.47,58.73|Z|Hillsbrad Foothills|N|From Marshal Redpath.|
 A Syndicate Assassins|QID|505|M|48.13,59.10|Z|Hillsbrad Foothills|N|From Magistrate Henry Maleb.|
 C King's Tribute|QID|689|M|46,32|Z|Hillsbrad Foothills|S|N|Click the Alterac Granite inside the cave. They look like white shark teeth sticking out of the ground along the walls.|NC|
@@ -336,7 +336,7 @@ A Letter to Stormpike|QID|514|M|50.56,57.09|Z|Hillsbrad Foothills|N|From Loremas
 T Costly Menace|QID|564|M|52.4,56.0|Z|Hillsbrad Foothills|N|To Darren Malvew.|
 T Bartolo's Yeti Fur Cloak|QID|565|M|49.43,55.54|Z|Hillsbrad Foothills|N|To Bartolo Ginsetti.|
 
-F Menethil Harbor|QID|1249|M|49.34,52.280|Z|Hillsbrad Foothills|N|Fly to Menethil Harbor on the way to Ironforge to do more Missing Diplomat.|PRE|1248|
+F Menethil Harbor|QID|1249|M|49.34,52.28|Z|Hillsbrad Foothills|N|Fly to Menethil Harbor on the way to Ironforge to do more Missing Diplomat.|PRE|1248|
 A The Missing Diplomat|QID|1249|M|10.61,60.77|Z|Wetlands|N|From Mikhail. When you accept this quest Tapoke Jahn will immediatly stealth and make his way out the door to escape. Be ready for a fight.|PRE|1248|
 C The Missing Diplomat|QID|1249|M|10.61,60.77|Z|Wetlands|QO|1|N|Run out and attack Tapoke Jahn now! He is stealthed trying to escape.|
 T The Missing Diplomat|QID|1249|M|10.61,60.77|Z|Wetlands|N|To Mikhail.|
@@ -345,7 +345,7 @@ T The Missing Diplomat|QID|1250|M|10.61,60.77|Z|Wetlands|N|To Mikhail.|
 A The Missing Diplomat|QID|1264|M|10.61,60.77|Z|Wetlands|N|From Mikhail.|PRE|1250|
 A James Hyal|QID|1302|M|10.82,60.41|Z|Wetlands|N|From Vincent Hyal.|
 
-F The Great Forge|QID|563|M|49.34,52.280|Z|Hillsbrad Foothills|N|Fly to Ironforge to take care of a few things.|
+F Ironforge|QID|563|M|49.34,52.28|Z|Hillsbrad Foothills|N|Fly to Ironforge to take care of a few things.|
 A The Brassbolts Brothers|QID|1179|M|72.73,94.00|Z|Ironforge|N|From Pilot Longbeard.|
 T King's Tribute|QID|689|M|38.74,87.05|Z|Ironforge|N|To Grand Mason Marblesten.|
 A King's Tribute|QID|700|M|38.74,87.05|Z|Ironforge|N|From Grand Mason Marblesten. \n\nNeed to wait about a minute while he goes downstairs and builds the thing, feel free to follow him and watch.|PRE|689|
@@ -379,16 +379,16 @@ A Water Elementals|QID|601|M|27.23,76.87|Z|Stranglethorn Vale|N|From Baron Revil
 h Booty Bay|QID|622|M|27.04,77.31|Z|Stranglethorn Vale|N|Make Booty Bay your home location.|
 A Some Assembly Required|QID|577|M|28.3,77.6|Z|Stranglethorn Vale|N|From Drizzlik.|PRE|575|
 
-F Duskwood|QID|622|M|27.4,77.6|Z|Stranglethorn Vale|N|At Gyll.|
+F Darkshire|QID|622|M|27.4,77.6|Z|Stranglethorn Vale|N|At Gyll.|
 N Elite Quests|AVAILABLE|228^55^253|ACTIVE|622|N|Now is a good time to wrap up Embalmer, Morbent Fel and Mor'Ladim. If you don't want to try solo and can't find a group, just skip and make your way toward the Rebel camp.\n\n These quests are a bit out of the way so if you want them be sure to switch to Rank 3 in your guide settings.|
 A Mor'Ladim|QID|228|M|73.56,46.85|Z|Duskwood|ELITE|N|[color=ff8000]Elite: [/color]From Commander Althea Ebonlocke.|PRE|227|RANK|3|
 A Bride of the Embalmer|QID|253|M|71.93,46.43|Z|Duskwood|ELITE|N|[color=ff8000]Elite: [/color]From Lord Ello Ebonlocke.|PRE|252|RANK|3|
 F Sentinel Hill|ACTIVE|325|M|77.48,44.29|Z|Duskwood|N|Much faster to fly to and run from Sentinel Hill.|RANK|3|
 T Armed and Ready|QID|325|M|7.79,33.99|Z|Duskwood|N|To Sven Yorgen.|RANK|3|
 A Morbent Fel|QID|55|M|7.79,33.99|Z|Duskwood|ELITE|N|[color=ff8000]Elite: [/color]From Sven Yorgen.|PRE|325|RANK|3|
-C Morbent Fel|QID|55|M|16,34|Z|Duskwood|N|On the 2nd Floor of the house, target Morbent Fel, and use the item on him. CC or kill his adds then kill him.|U|7297|
-C Mor'Ladim|QID|228|M|16,34|Z|Duskwood|N|He wanders the area around the house and crypt.|
-C Bride of the Embalmer|QID|253|M|28.8,31.2|Z|Duskwood|N|Kill Eliza and loot her heart.|PRE|252|RANK|3|
+C Morbent Fel|QID|55|M|16,34|Z|Duskwood|ELITE|N|[color=ff8000]Elite: [/color]On the 2nd Floor of the house, target Morbent Fel, and use the item on him. CC or kill his adds then kill him.|U|7297|
+C Mor'Ladim|QID|228|M|16,34|Z|Duskwood|ELITE|N|[color=ff8000]Elite: [/color]He wanders the area around the house and crypt.|
+C Bride of the Embalmer|QID|253|M|28.8,31.2|Z|Duskwood|ELITE|N|[color=ff8000]Elite: [/color]Kill Eliza and loot her heart.|PRE|252|RANK|3|
 T Morbent Fel|QID|55|M|7.79,33.99|Z|Duskwood|N|To Sven Yorgen.|
 T Bride of the Embalmer|QID|253|M|71.93,46.43|Z|Duskwood|N|To Lord Ello Ebonlocke.|
 T Mor'Ladim|QID|228|M|73.56,46.85|Z|Duskwood|N|To Commander Althea Ebonlocke.|
@@ -586,7 +586,7 @@ b Booty Bay|QID|1467|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
 T The Rumormonger|QID|1115|M|26.94,77.21|Z|Stranglethorn Vale|N|To Krazek up on the top floor of the Inn.|
 A Dream Dust in the Swamp|QID|1116|M|26.94,77.21|Z|Stranglethorn Vale|N|From Krazek up on the top floor of the Inn.|PRE|1115|
 
-F Trade District|QID|1396|M|27.4,77.6|Z|Stranglethorn Vale|N|Fly to Stormwind.|C|-Mage|
+F Stormwind|QID|1396|M|27.4,77.6|Z|Stranglethorn Vale|N|Fly to Stormwind.|C|-Mage|
 P Wizard's Sanctum|QID|1396|M|27.4,77.6|Z|Stranglethorn Vale|N|Teleport or Fly to Stormwind.|C|Mage|
 N Train up|QID|1396|N|Do your big city stuff, train, auction, repair, sell ect.|
 A Mazen's Behest|QID|1363|M|41.51,64.34|Z|Stormwind City|N|From Mazen Mac'Nadir.|
