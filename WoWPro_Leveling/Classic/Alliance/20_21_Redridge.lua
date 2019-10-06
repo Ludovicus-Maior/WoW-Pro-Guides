@@ -13,7 +13,7 @@ T Speaking of Fortitude|QID|343|M|74.2,7.6|Z|Stormwind City|N|To Milton Sheaf, R
 A Brother Paxton|QID|344|M|74.2,7.5|Z|Stormwind City|PRE|343|N|From Brother Paxton.|
 N Mathias and the Defias|QID|2360|M|68.4,70.2|Z|Westfall|N|You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|P|Lockpicking;633;0+70;1|
 A Mathias and the Defias|QID|2360|M|76,59.8|Z|Stormwind City|N|From Master Mathias Shaw. Rogue quest chain for poisons. You will need at least 70 in Lockpicking to complete this quest chain.|C|Rogue|P|Lockpicking;633;0+70;0|
-h Stormwind City|ACTIVE|344|M|52.61,65.71|N|At Innkeeper Allison.|
+h Stormwind City|ACTIVE|344|M|52.61,65.71|Z|Stormwind City|N|At Innkeeper Allison.|
 F Sentinal Hill|QID|2360|N|Hearth (or fly )to Westfall|Z|Stormwind City|M|71.00,72.50|C|Rogue|P|Lockpicking;633;0+70;0|
 T Mathias and the Defias|QID|2360|M|68.4,70.2|Z|Westfall|N|To Agent Kearnen. You will need at least 70 in Lockpicking to complete this questchain.|C|Rogue|
 A Klaven's Tower|QID|2359|M|68.4,70.2|Z|Westfall|N|From Agent Kearnen. You will need at least 70 in Lockpicking to complete this quest.|C|Rogue|PRE|2360|
