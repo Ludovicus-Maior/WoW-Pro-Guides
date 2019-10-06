@@ -328,9 +328,9 @@ A Delivering the Relic|QID|2871|M|30.38,46.17|Z|Feralas|N|From Latronicus Moonsp
 T Delivering the Relic|QID|2871|M|30.08,45.06|Z|Feralas|N|To Vestia Moonspear.|
 
 C Rhapsody's Kalimdor Kocktail|QID|1452|QO|2|S|N|While traveling, kill Ironfur Bears that you see, they spawn throughout the whole path.|
-A An Orphan Looking For a Home|QID|3841|Z|Feralas|M|65.9,45.6|N|From Kindal Moonweaver. Take the boat back to the mainland.|PRE|2972|
+A An Orphan Looking For a Home|QID|3841|Z|Feralas|M|65.94,45.65|N|From Kindal Moonweaver. Take the boat back to the mainland.|PRE|2972|
 C Rhapsody's Kalimdor Kocktail|QID|1452|M|72.06,42.34|Z|Feralas|QO|2|US|N|Finish killing Ironfur Bears until you have all Livers.|
-T Thalanaar Delivery|QID|4281|M|65.94,45.65|Z|Feralas|N|To Falfindel Waywarder.|
+T Thalanaar Delivery|QID|4281|M|89.64,46.57|Z|Feralas|N|To Falfindel Waywarder.|
 
 F Gadgetzan|ACTIVE|2941|N|Fly to Gadgetzan.|M|89.50,45.85|Z|Feralas|
 T The Borrower|QID|2941|M|52.36,26.91|Z|Tanaris|N|To Curgle Cranklehop.|
