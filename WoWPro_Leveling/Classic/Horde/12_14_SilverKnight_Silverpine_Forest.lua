@@ -16,55 +16,64 @@ h The Sepulcher|QID|445|M|43.16,41.27|N|Innkeeper Bates|
 
 A Lost Deathstalkers|QID|428|M|43.43,40.86|N|You'll find High Executor Hadrec down the stairs inside the crypt.|
 A The Dead Fields|QID|437|M|43.43,40.86|N|From High Executor Hadrec.|
-T Delivery to Silverpine Forest|QID|445|M|42.80,40.87|N|Head back upstairs and walk around to the side of the entrance. To Apothecary Renferrel.|
-A A Recipe for Death |QID|447|M|42.80,40.87|N|From Apothecary Renferrel.|
+T Delivery to Silverpine Forest|QID|445|M|42.87,40.86|N|Head back upstairs and walk around to the side of the entrance. To Apothecary Renferrel.|
+A A Recipe for Death|QID|447|M|42.87,40.86|N|From Apothecary Renferrel.|
 A Border Crossings|QID|477|M|43.97,40.93|N|From Shadow Priest Allister.|
 A Prove Your Worth|QID|421|M|44.20,39.78|N|From Dalar Dawnweaver.|
 
 r Housekeeping|QID|428|M|45.01,39.30|N|Go see Nadia Vernon to repair and sell before you leave.|
 
-C Prove Your Worth|QID|421|M|47.97,40.43|N|Kill five Moonrage Whitescalps, while killing whatever Ferocious Grizzly Bears that you see . Make sure to avoid the woodland area directly west of the road, as level 21 elites like to path around and eat you. They apparently like the taste of lowbie in the morning. :(|
+C A Recipe for Death|QID|447|M|36,15|QO|1;2|N|Kill any spiders or bears you come across for their Skittering Bloods and Grizzled Bear Hearts.\nDo not go out of your way to get them. You will come to a good spot later.|S|
+C Prove Your Worth|QID|421|M|47.97,40.43|QO|1|N|Kill five Moonrage Whitescalps.\nMake sure to avoid the woodland area directly west of the road, as level 21 elites like to path around and eat you. They apparently like the taste of lowbie in the morning. :(|
+T Lost Deathstalkers|QID|428|M|53.5,13.4|N|To Rane Yorick at the Ivar Patch.|
+A Wild Hearts|QID|429|M|53.46,13.43|N|From Rane Yorick.|PRE|428|
+C Wild Hearts|QID|429|M|55.67,12.56|QO|1|N|Kill Mottled Worgs to collect the Discolored Worg Hearts.|S|
+A Escorting Erland|QID|435|M|56.2,9.2|N|From Deathstalker Erland inside the house at Malden's Orchard.|
+C Escorting Erland|QID|435|M|54.07,13.56|N|He complains about Worgs coming out of the woodwork to attack him. This isn't an exaggeration. Erland is also about as physically fit as an 82 year old cancer patient, so make sure he doesn't wind up tanking more than one, or he goes squish and you wind up with a small army of angry dogs on you.|
+T Escorting Erland|QID|435|M|53.46,13.43|N|To Rane Yorick.|
+A The Deathstalkers' Report|QID|449|M|53.46,13.43|N|From Rane Yorick.|PRE|435|
+C Wild Hearts|QID|429|M|55.67,12.56|QO|1|N|Finish collecting the Discolored Worg Hearts.|US|
+R The Sepulcher|QID|421|M|46.21,41.59|N|Run back to the Sepulcher.|
 
-T Lost Deathstalkers|QID|428|M|53.5,13.4|
-A Wild Hearts|QID|429|PRE|428|M|53.5,13.4|
-A Escorting Erland|QID|435|M|56.2,9.2|N|Make certain to kill any and all Mottled Worgs that you see for their hearts while heading slightly North.|
-C Escorting Erland|QID|435|M|56.2,9.2|N|He complains about Worgs coming out of the woodwork to attack him. This isn't an exaggeration. Erland is also about as physically fit as an 82 year old cancer patient, so make sure he doesn't wind up tanking more than one, or he goes squish and you wind up with a small army of angry dogs on you.|
-T Escorting Erland|QID|435|M|53.5,13.4|
-A The Deathstalkers' Report|QID|449|PRE|435|M|53.5,13.4|
-C Wild Hearts|QID|429|M|55.67,12.56|N|Head north and kill the furry little buggers until you collect the rest of the hearts and/or your vengeance has been sated.|
-R The Sepulcher|QID|421|M|46.21,41.59|
+T Prove Your Worth|QID|421|M|44.20,39.78|N|To Dalar Dawnweaver.|
+A Arugal's Folly|QID|422|M|44.20,39.78|N|From Dalar Dawnweaver.|PRE|421|
+T Wild Hearts|QID|429|M|42.87,40.86|N|To Apothecary Renferrel.|
+A Return to Quinn|QID|430|M|42.87,40.86|N|From Apothecary Renferrel.|PRE|429|
+T The Deathstalkers' Report|QID|449|M|43.43,40.86|N|To High Executor Hadrec inside the Crypt.|
+A Speak with Renferrel|QID|3221|M|43.43,40.86|N|From High Executor Hadrec.|PRE|449|
+T Speak with Renferrel|QID|3221|M|42.87,40.86|N|To Apothecary Renferrel.|
+A Zinge's Delivery|QID|1359|M|42.87,40.86|N|From Apothecary Renferrel.|PRE|3221|
 
-T Prove Your Worth|QID|421|M|44.2,39.8|
-A Arugal's Folly |QID|422|PRE|421|M|44.2,39.8|
-T Wild Hearts|QID|429|M|42.8,40.9|
-A Return to Quinn|QID|430|PRE|429|M|42.8,40.9|
-T The Deathstalkers' Report|QID|449|M|43.4,40.9|
-A Speak with Renferrel|QID|3221|PRE|449|M|43.4,40.9|
-T Speak with Renferrel|QID|3221|M|42.8,40.9|
-A Zinge's Delivery|QID|1359|PRE|3221|
+C Arugal's Folly|QID|422|M|52.82,28.58|QO|1|N|Go to Valgan's Field and up to the second floor of the house. Click on the Dusty Spellbooks to collect the Remedy of Arugal.\nBe prepared, a Moonrage Darkrunner will spawn and attack you.|
+T Return to Quinn|QID|430|M|53.43,12.59|N|To Quinn Yorick on the 2nd floor of the house in the Ivar Patch.|
+A Ivar the Foul|QID|425|M|53.46,13.43|N|From Rane Yorick.|PRE|430|
+C Ivar the Foul|QID|425|M|51.52,13.89|QO|1|N|Head into the barn at the end of the field; killing any mobs as you get to them. If you do not clear them as you go, you will become overwhelmed very QUICKLY with adds.\n\nWhen you enter the barn, stay against the outside wall and wait for the mob to path up to you. Kill him quickly, then proceed around the corner to Ivar the Foul. He will have a mob protecting him. If you pull one, you pull both of them.|
+T Ivar the Foul|QID|425|M|53.46,13.43|N|To Rane Yorick.|
+C The Dead Fields|QID|437|M|45,21|QO|1;2|N|Head SW to the Dead Fields. Nightlash might already be spawned, but if she isn't, kill all the Rot Hide Gnolls you see until she does.\nNOTE: Much like Ivar, you will want to clear the mobs as you go.|
+C A Recipe for Death|QID|447|M|36,15|QO|1;2|N|Head SW from here and finish killing the spiders and bears for their Skittering Bloods and Grizzled Bear Hearts.|US|
+H The Sepulcher|QID|422|N|Hearth back to The Sepulcher|
 
-C Arugal's Folly |QID|422|M|52,28|N|Go to  and head to the second floor of the building. Touch the Dusty Spellbooks and grab the Remedy of Arugal (52.84,28.57).|
+T Arugal's Folly|QID|422|M|44.20,39.78|N|To Dalar Dawnweaver.|
+A Arugal's Folly|QID|423|M|44.20,39.78|N|From Dalar Dawnweaver.|PRE|422|
+T The Dead Fields|QID|437|M|43.14,41.37;43.43,40.86|CS|N|To High Executor Hadrec inside the Crypt.|
+A The Decrepit Ferry|QID|438|M|43.43,40.86|N|From High Executor Hadrec.|PRE|437|
 
-T Return to Quinn|QID|430|M|53.4,12.6|
-A Ivar the Foul|QID|425|PRE|430|
+A Supplying the Sepulcher|QID|6321|R|Undead|M|43.43,41.69|N|From Deathguard Podrig at the Crypt entrance.|
+T Supplying the Sepulcher|QID|6321|R|Undead|M|45.62,42.60|N|To Karos Razok.|
+A Ride to the Undercity|QID|6323|R|Undead|M|45.62,42.60|N|From Karos Razok.|PRE|6321|
+F Undercity|QID|447|M|45.62,42.60|N|Fly to Undercity.|
 
-C Ivar the Foul|QID|425|M|51.52,13.89|N|Head to the barnyard at the end of the field . When you enter said barnyard, make sure to press your back against the wall and wait for a mob to path up to you. Kill him quickly, then proceed around the corner to Ivar the Foul.|
-T Ivar the Foul|QID|425|
+T Ride to the Undercity|QID|6323|R|Undead|M|61.51,41.81|Z|Undercity|N|To Gordon Wendham.|
+A Michael Garrett|QID|6322|R|Undead|M|61.51,41.81|Z|Undercity|N|From Gordon Wendham.|PRE|6323|
+T Michael Garrett|QID|6322|R|Undead|M|63.27,48.55|Z|Undercity|N|To Michael Garrett.|
+A Return to Podrig|QID|6324|R|Undead|M|63.27,48.55|Z|Undercity|N|From Michael Garrett.|PRE|6322|
+F The Sepulcher|ACTIVE|6324|R|Undead|M|63.27,48.55|Z|Undercity|N|Fly back to The Sepulcher.|
+T Return to Podrig|QID|6324|R|Undead|M|43.43,41.69|N|To Deathguard Podrig at the Crypt entrance.|
+F Undercity|AVAILABLE|-6324|R|Undead|M|45.62,42.60|N|Return to Undercity.|
 
-C The Dead Fields|QID|437|M|45,21|N|Head SW to the Dead Fields at . Nightlash might already be spawned, but if she isn't, kill all the Rot Hide Gnolls you see until she does.|
-
-C A Recipe for Death |QID|447|M|36,15|N|Head to the -ish area and kill whatever spiders and bears you see for their Skittering Bloods and Grizzled Bear Hearts. Watch out for another Son of Arugal that likes to path around and ninja-gank unsuspecting adventurers.|
-H The Sepulcher|QID|422|N|(43.17,41.29)|
-
-T Arugal's Folly |QID|422|M|44.2,39.9|
-A Arugal's Folly |QID|423|PRE|422|M|44.2,39.8|
-T The Dead Fields|QID|437|M|43.4,40.9|
-A The Decrepit Ferry|QID|438|PRE|437|M|43.4,40.9|
-
-F Undercity|QID|447|M|45.60,42.57|
-T A Recipe for Death |QID|447|M|48.8,69.3|
-A A Recipe for Death |QID|450|PRE|447|M|48.8,69.3|
-T Zinge's Delivery|QID|1359|
-A Sample for Helbrim|QID|1358|PRE|1359|
+T A Recipe for Death|QID|447|M|51.32,44.66;47.00,59.79;43.29,68.68;48.81,69.29|Z|Undercity|CC|N|To Master Apothecary Faranell in The Apothecarium area.|
+A A Recipe for Death|QID|450|M|48.81,69.29|Z|Undercity|N|From Master Apothecary Faranell.|PRE|447|
+T Zinge's Delivery|QID|1359|M|50.15,67.93|Z|Undercity|N|To Apothecary Zinge.|
+A Sample for Helbrim|QID|1358|M|50.15,67.93|Z|Undercity|N|From Apothecary Zinge.|PRE|1359|
 ]]
 end)
