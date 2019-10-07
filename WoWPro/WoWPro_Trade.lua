@@ -144,8 +144,9 @@ WoWPro.ProfessionSkillLines = {
     [2513] = { exp = 1, name = 'Outland Inscription' },
     [2514] = { exp = 0, name = 'Inscription' },
 
-    --  Archaeology is not included in GetTradeSkillLineInfoByID()
-     [794] = { name = 'Archaeology' }
+    --  Not included in GetTradeSkillLineInfoByID()
+     [794] = { name = 'Archaeology' },
+     [960] = { name = 'Runeforging' }
 }
 
 -- mapping of profession categories to tradeskill lines we are interested in
@@ -333,7 +334,7 @@ else
         if C_TradeSkillUI.IsTradeSkillLinked() then
             return
         end
-        WoWPro:dbp("ScanTrade() opened %s window", skillLineName)
+        WoWPro:dbp("ScanTrade() opened %s/%d window", skillLineName, skillLineID)
 
         -- update tradeskill information directly
         local tradeInfo = WoWProCharDB.Tradeskills[skillLineID] or {}
