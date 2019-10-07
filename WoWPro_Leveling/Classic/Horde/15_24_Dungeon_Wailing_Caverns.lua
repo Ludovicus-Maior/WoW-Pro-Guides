@@ -27,8 +27,8 @@ A Hamuul Runetotem|QID|1489|PRE|880|M|52.24,31.92|N|From Tonga Runetotem.|FACTIO
 F Thunder Bluff|QID|1489|M|51.51,30.34|FACTION|Horde|
 T Hamuul Runetotem|QID|1489|M|78.61,28.57|Z|Thunder Bluff|N|At the Elder Rise.|FACTION|Horde|
 A Nara Wildmane|QID|1490|PRE|1489|M|78.61,28.57|Z|Thunder Bluff|N|From Hamuul Runetotem.|FACTION|Horde|
-T Nara Wildmane|QID|1490|M|75.67,31.57|Z|Thunder Bluff|N|To Nara Wildmane.|FACTION|Horde|
-A Leaders of the Fang|QID|914|PRE|1490|M|78.61,28.57|Z|Thunder Bluff|N|From Nara Wildmane.|FACTION|Horde|
+T Nara Wildmane|QID|1490|M|75.61,31.57|Z|Thunder Bluff|N|To Nara Wildmane.|FACTION|Horde|
+A Leaders of the Fang|QID|914|PRE|1490|M|78.61,31.57|Z|Thunder Bluff|N|From Nara Wildmane.|FACTION|Horde|
 ; One stop
 A Serpentbloom|QID|962|M|22.90,21.03|Z|Thunder Bluff|N|From Apothecary Zamah, Spirit Rise. (Dungeon Quest)|FACTION|Horde|
 
@@ -54,7 +54,7 @@ T Deviate Hides|QID|1486|M|46,35|N|To Nalpak, in the skull.|
 T Deviate Eradication|QID|1487|M|46,35|N|To Ebru, in the skull.|
 
 ; Horde Turnins
-T Leaders of the Fang|QID|914|PRE|1490|M|78.61,28.57|Z|Thunder Bluff|N|To Nara Wildmane.|FACTION|Horde|
+T Leaders of the Fang|QID|914|PRE|1490|M|75.61,31.57|Z|Thunder Bluff|N|To Nara Wildmane.|FACTION|Horde|
 T Serpentbloom|QID|962|M|22.90,21.03|Z|Thunder Bluff|N|To Apothecary Zamah, Spirit Rise. (Dungeon Quest)|FACTION|Horde|
 
 T Smart Drinks|QID|1491|PRE|865|M|62.37,37.62|N|From Mebox Mizzyrix, Ratchet.|
