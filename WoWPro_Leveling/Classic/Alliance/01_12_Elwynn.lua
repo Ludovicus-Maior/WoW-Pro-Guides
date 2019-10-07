@@ -172,7 +172,6 @@ C The Jasperlode Mine|QID|76|M|61.0,54.1;60.5,50.1|CS|NC|N|Head up to Jasperlode
 T Further Concerns|QID|35|M|74.0,72.2|N|To Guard Thomas|
 A Find the Lost Guards|QID|37|M|74.0,72.2|PRE|35|N|From Guard Thomas|
 A Protect the Frontier|QID|52|M|74.0,72.2|N|From Guard Thomas|
-A Bounty on Murlocs|QID|46|M|74.0,72.2|N|From Guard Thomas|ELITE|
 
 C Protect the Frontier|QID|52|S|M|84.1,61.6|N|Kill the Prowlers and Young Forest Bears|
 
@@ -195,10 +194,8 @@ A Discover Rolf's Fate|QID|45|PRE|37|M|72.7,60.3|N|From A half-eaten body|
 T Discover Rolf's Fate|QID|45|M|79.8,55.5|N|To Rolf's corpse. Kill the Murlocs patroling the area around Rolf's corpse first. Then, pull the two Murlocs standing next to his corpse. Go all out with cooldowns and potions on the weakest one (lower level, less HP), then if needed, run. Come back and kill the remaining Murloc.|
 A Report to Thomas|QID|71|PRE|45|M|79.8,55.5|N|From Rolf's corpse|
 
-C Bounty on Murlocs|QID|46|M|79,55|US|N|Kill murlocs until you collect the torn fins needed.|
 C Protect the Frontier|QID|52|US|M|87,70|N|Finish killing the Prowlers and Young Forest Bears|
 
-T Bounty on Murlocs|QID|46|M|74.0,72.2|N|To Guard Thomas.|
 T Report to Thomas|QID|71|M|74.0,72.2|N|To Guard Thomas.|
 A Deliver Thomas' Report|QID|39|PRE|71|M|74.0,72.2|N|From Guard Thomas.|
 T Protect the Frontier|QID|52|M|74.0,72.2|N|To Guard Thomas.|
@@ -370,12 +367,18 @@ T The Tome of Divinity|QID|1781|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|To Ga
 A The Tome of Divinity|QID|1786|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|From Gazin Tenorm.|PRE|1781|
 
 T Stormpike's Order|QID|1338|M|58.1,16.57|Z|Stormwind City|N|To Furen Longbeard, in the Dwarven District|
+A Bounty on Murlocs|QID|46|M|74.0,72.2|N|From Guard Thomas|PRE|39|
+
 R Stone Cairn Lake|ACTIVE|1786|M|67,58|N|Run to the island in the middle of Stone Cairn Lake.|
+C Bounty on Murlocs|QID|46|M|79,55|US|N|Kill murlocs until you collect the torn fins needed.|
+
 C The Tome of Divinity|QID|1786|C|Paladin|M|72.59,51.41|U|6866|NC|T|Henze Faulk|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|
 T The Tome of Divinity|QID|1786|C|Paladin|M|72.59,51.41|N|To Henze Faulk.|
 A The Tome of Divinity|QID|1787|C|Paladin|M|72.59,51.41|N|From Henze Faulk.|PRE|1786|
 C The Tome of Divinity|QID|1787|C|Paladin|M|74.03,51.84|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|
 T Cloth and Leather Armor|QID|59|M|79.5,68.8|N|To Sara Timberlain in Eastvale Logging Camp|
+T Bounty on Murlocs|QID|46|M|74.0,72.2|N|To Guard Thomas.|
+
 K Morgan the Collector|ACTIVE|147|M|71,80|QO|1|T|Morgan the Collector|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which agro at the same time.|
 
 R Redridge Mountains|QID|244|M|8.98,71.72|Z|Redridge Mountains|N|Go to Redridge Mountains|
