@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('ElidionDun_Mara', 'Leveling', 'Desolace', 'Elidion', 'Alliance', 1)
 WoWPro:GuideLevels(guide,48, 54)
-WoWPro:GuideNextGuide(guide, 'JamSea5051')
+WoWPro:GuideNextGuide(guide, 'ElidionAlli_III')
 WoWPro:GuideName(guide, 'Dungeon: Maraudon')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
 WoWPro:GuideSteps(guide, function()
