@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('ElidionDun_ZF', 'Leveling', 'Tanaris', 'Elidion', 'Alliance', 1)
 WoWPro:GuideLevels(guide,46, 52)
-WoWPro:GuideNextGuide(guide, 'JamSea5051')
+WoWPro:GuideNextGuide(guide, 'ElidionAlli_III')
 WoWPro:GuideName(guide, 'Dungeon: Zul\'Farrak')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
 WoWPro:GuideSteps(guide, function()
