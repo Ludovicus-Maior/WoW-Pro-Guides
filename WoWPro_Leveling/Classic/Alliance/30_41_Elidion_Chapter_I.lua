@@ -703,12 +703,12 @@ A Sunken Treasure|QID|668|M|33.86,80.45|Z|Arathi Highlands|N|From Doctor Draxleg
 T Sunken Treasure|QID|668|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen.|
 A Sunken Treasure|QID|669|M|32.29,81.36|Z|Arathi Highlands|N|From Shakes O'Breen.|PRE|668|
 
-H Ironforge|QID|512|M|50.57,57.09|Z|Hillsbrad Foothills|N|Hearth back to Ironforge, or run back the way you came in, to Refuge Pointe if you went rogue on hearths.|
+H Ironforge|QID|554|M|50.57,57.09|Z|Hillsbrad Foothills|N|Hearth back to Ironforge, or run back the way you came in, to Refuge Pointe if you went rogue on hearths.|
 r Repair, Restock, check the AH|QID|707|M|32.19,64.72|Z|Ironforge|N|Do your town stuff. We are going to be gone for a while.|
 B Frost Oil|QID|713|L|3829|N|Crafted with Alchemy. Make sure you have these with you now.|ITEM|3829|
 B Gyrochronatom|QID|714|L|4389||N|Crafted with Engineering. Make sure you have these with you now.|ITEM|4389|
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing. Make sure you have these with you now.|ITEM|2868|
-B Healing Potoion|QID|715|L|929|N|Crafted by Alchemists and looted from NPCs. Make sure you have at least 1 with you now.|ITEM|929|
+B Healing Potion|QID|715|L|929|N|Crafted by Alchemists and looted from NPCs. Make sure you have at least 1 with you now.|ITEM|929|
 B Lesser Invisibility Potion|QID|715|L|3823|N|Crafted by Alchemists. Make sure you have at least 1 with you now.|ITEM|3823|
 
 T The Stormpike's Deciphering|QID|554|M|74.6,11.76|Z|Ironforge|N|To Prospoctor Stormpike.|
