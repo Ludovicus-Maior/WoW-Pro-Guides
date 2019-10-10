@@ -31,6 +31,7 @@
 	<Script file="53_53_Feralas.lua"/>
 	<Script file="53_54_Felwood.lua"/>
 	<Script file="54_56_Ungoro_Crater.lua"/>
+	<Script file="53_60_Dungeon_Blackrock_Depths.lua"/>
 	<Script file="56_56_Winterspring.lua"/>
 	<Script file="58_59_Western_Plaguelands.lua"/>
 	<Script file="59_60_Eastern_Plaguelands.lua"/>
