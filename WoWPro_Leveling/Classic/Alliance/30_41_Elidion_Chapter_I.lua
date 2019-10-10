@@ -14,7 +14,7 @@ B Gyrochronatom|QID|714|L|4389|N|Crafted with Engineering.|ITEM|4389|
 B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing.|ITEM|2868|
 
 R Theramore Isle|QID|1282|M|58.40,94.00|Z|Dustwallow Marsh|N|Fly/Boat/Run or otherwise make your way to Theramore.|
-f Theramore Flightpoint|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Get the Flightpoint from Baldruc.|
+f Theramore|QID|1039|M|67.48,51.30|Z|Dustwallow Marsh|N|Get the Flightpoint from Baldruc.|
 B Soothing Spices|QID|1218|M|66.44,51.46|Z|Dustwallow Marsh|N|Buy from Helenia Olden.|L|3713 3|
 h Theramore Isle|QID|1282|M|66.60,45.20|Z|Dustwallow Marsh|N|Make Theramore your home location.|
 r Sell junk, repair, restock.|QID|1282|N|Sell junk, repair, restock.|
@@ -208,7 +208,7 @@ T Supply and Demand|QID|575|M|28.3,77.6|Z|Stranglethorn Vale|N|To Drizzlik.|
 
 N Sell junk, repair, restock|QID|186|N|Sell junk, repair, restock|Z|Stranglethorn Vale|
 
-F Duskwood|ACTIVE|222|M|27.4,77.6|Z|Stranglethorn Vale|N|At Gyll.|
+F Darkshire|ACTIVE|222|M|27.4,77.6|Z|Stranglethorn Vale|N|At Gyll.|
 T Worgen in the Woods|QID|222|Z|Duskwood|M|75.29,48.05|N|To Calor.|
 A Worgen in the Woods|QID|223|Z|Duskwood|M|75.29,48.05|N|From Calor.|PRE|222|
 T Worgen in the Woods|QID|223|M|75.32,49.03|Z|Duskwood|N|To Jonathan Carevin.|
@@ -631,7 +631,7 @@ T Deliver the Shipment|QID|1425|M|66.52,21.38|Z|Blasted Lands|N|To Quartermaster
 T The Lost Supplies|QID|1423|M|66.52,21.38|Z|Blasted Lands|N|To Quartermaster Lungertz.|
 f Nethergarde Keep|ACTIVE|1448|M|65.54,24.34|Z|Blasted Lands|N|Get the flight-path from Alexandra Constantine at the top of the tower.|
 
-F Stormwind City|ACTIVE|1448|M|65.54,24.34|Z|Blasted Lands|N|Fly to Stormwind.|
+F Stormwind|ACTIVE|1448|M|65.54,24.34|Z|Blasted Lands|N|Fly to Stormwind.|
 T In Search of The Temple|QID|1448|M|64.34,20.62|Z|Stormwind City|N|To Brohann Caskbelly, in the Dwarven District. Don't take follow-up.|
 R Deeprun Tram|QID|1467|M|63.85,8.19|Z|Stormwind City|N|Run to the Deeprun tram.|
 R Tinker Town|QID|1467|N|Take the tram ride and then run into Ironforge.|
