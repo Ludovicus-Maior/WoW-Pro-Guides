@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('ElidionAlli_III', 'Leveling', 'Tanaris', 'Elidion', 'Alliance', 1)
 WoWPro:GuideLevels(guide,50, 55)
-WoWPro:GuideNextGuide(guide, 'JamEas5960')
+WoWPro:GuideNextGuide(guide, 'ElidionDun_BRD')
 WoWPro:GuideName(guide, 'Elidion\'s Leveling - Ch. 3')
 WoWPro:GuideIcon(guide, "ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0.50,0.75})
 WoWPro:GuideSteps(guide, function()
