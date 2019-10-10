@@ -63,17 +63,48 @@ T Supplying the Sepulcher|QID|6321|R|Undead|M|45.62,42.60|N|To Karos Razok.|
 A Ride to the Undercity|QID|6323|R|Undead|M|45.62,42.60|N|From Karos Razok.|PRE|6321|
 F Undercity|QID|447|M|45.62,42.60|N|Fly to Undercity.|
 
-T Ride to the Undercity|QID|6323|R|Undead|M|61.51,41.81|Z|Undercity|N|To Gordon Wendham.|
-A Michael Garrett|QID|6322|R|Undead|M|61.51,41.81|Z|Undercity|N|From Gordon Wendham.|PRE|6323|
-T Michael Garrett|QID|6322|R|Undead|M|63.27,48.55|Z|Undercity|N|To Michael Garrett.|
-A Return to Podrig|QID|6324|R|Undead|M|63.27,48.55|Z|Undercity|N|From Michael Garrett.|PRE|6322|
-F The Sepulcher|ACTIVE|6324|R|Undead|M|63.27,48.55|Z|Undercity|N|Fly back to The Sepulcher.|
-T Return to Podrig|QID|6324|R|Undead|M|43.43,41.69|N|To Deathguard Podrig at the Crypt entrance.|
-F Undercity|AVAILABLE|-6324|R|Undead|M|45.62,42.60|N|Return to Undercity.|
-
 T A Recipe for Death|QID|447|M|51.32,44.66;47.00,59.79;43.29,68.68;48.81,69.29|Z|Undercity|CC|N|To Master Apothecary Faranell in The Apothecarium area.|
 A A Recipe for Death|QID|450|M|48.81,69.29|Z|Undercity|N|From Master Apothecary Faranell.|PRE|447|
 T Zinge's Delivery|QID|1359|M|50.15,67.93|Z|Undercity|N|To Apothecary Zinge.|
 A Sample for Helbrim|QID|1358|M|50.15,67.93|Z|Undercity|N|From Apothecary Zinge.|PRE|1359|
+
+T Ride to the Undercity|QID|6323|R|Undead|M|61.51,41.81|Z|Undercity|N|To Gordon Wendham.|
+A Michael Garrett|QID|6322|R|Undead|M|61.51,41.81|Z|Undercity|N|From Gordon Wendham.|PRE|6323|
+T Michael Garrett|QID|6322|R|Undead|M|63.27,48.55|Z|Undercity|N|To Michael Garrett.|
+A Return to Podrig|QID|6324|R|Undead|M|63.27,48.55|Z|Undercity|N|From Michael Garrett.|PRE|6322|
+F The Sepulcher|QID|438|M|63.27,48.55|Z|Undercity|N|Fly back to The Sepulcher.|
+
+T Return to Podrig|QID|6324|R|Undead|M|43.43,41.69|N|To Deathguard Podrig at the Crypt entrance.|
+C Arugal's Folly|QID|423|M|44.20,39.78|QO|1;2|N|Kill Moonrage Gluttons and Darksouls for their Shackles.|S|
+R The Decrepit Ferry|ACTIVE|438|M|50.57,34.87;58.34,34.95|CC|N|Go to the Decrepit Ferry.|
+T The Decrepit Ferry|QID|438|M|58.34,34.95|N|Click the Decrepit Ferry.|
+A Rot Hide Clues|QID|439|M|58.34,34.95|N|From the Decrepit Ferry.|PRE|438|
+
+T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.|
+A The Engraved Ring|QID|440|M|43.43,40.86|N|From High Executor Hadrec.|PRE|439|
+C Arugal's Folly|QID|423|M|51.24,36.81;52.60,47.35;56.44,46.06|CC|QO|1;2|N|Head to Deep Elm Mine and kill Moonrage Gluttons and Darksouls for their Shackles.\nYou'll find the Darksouls inside the mine. Stay close to the entrance as they have a quick respawn rate.|US|
+C Border Crossings|QID|477|M|40.92,60.28|CC|N|To the Dalaran Crate.|NC|
+A Maps and Runes|QID|478|M|40.92,60.28|N|From the Dalaran Crate.|PRE|477|
+H The Sepulcher|QID|478|N|Hearth back to The Sepulcher.|
+
+T Maps and Runes|QID|478|M|43.97,40.93|N|To Shadow Priest Allister.|
+A Dalar's Analysis|QID|481|M|43.97,40.93|N|From Shadow Priest Allister.|PRE|478|
+T Arugal's Folly|QID|423|M|44.20,39.78|N|To Dalar Dawnweaver.|
+A Arugal's Folly|QID|424|M|44.20,39.78|N|From Dalar Dawnweaver.|PRE|423|
+T Dalar's Analysis|QID|481|M|44.20,39.78|N|To Dalar Dawnweaver.|
+A Dalar's Intentions|QID|482|M|44.20,39.78|N|From Dalar Dawnweaver.|PRE|481|
+T Dalar's Intentions|QID|482|M|43.97,40.93|N|To Shadow Priest Allister.|
+A Ambermill Investigations|QID|479|M|43.97,40.93|N|From Shadow Priest Allister.|PRE|482|
+C Arugal's Folly|QID|424|M|51.24,36.81;52.60,47.35;56.44,46.06;58.6,44.8|CC|QO|1|N|Run to Deep Elm Mine, fight your way to the back of the mine and kill Grimson the Pale.\nBe prepared to fight your way back out again.|
+T The Engraved Ring|QID|440|M|61.26,50.84|Z|Tirisfal Glades|N|To Magistrate Sevren in Brill.|
+
+; A Rot Hide Ichor|QID|439|M|58.34,34.95|N|From High Executor Hadrec.|PRE|439|
+; R Fenris Isle|ACTIVE|439|M|64.02,33.65|N|Located east of the Decrepit Ferry.|
+; C Rot Hide Ichor|QID|439|QO|1|N|Kill the Rot Hides to collect the Ichor.|
+; T Rot Hide Ichor|QID|439|M|42.87,40.86|N|To Apothecary Renferrel.|
+; A Rot Hide Origins|QID|444|M|42.87,40.86|N|From Apothecary Renferrel.|PRE|439|
+; F Undercity|ACTIVE|444|M|45.62,42.60|N|Fly to Undercity.|
+; T Rot Hide Origins|QID|444|M|84.4,17.6|N|To Bethor Iceshard.|
+;A Thule Ravenclaw|QID|446|M|43.43,40.86|N|From High Executor Hadrec.|PRE|444|
 ]]
 end)
