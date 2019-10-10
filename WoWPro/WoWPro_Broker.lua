@@ -1623,7 +1623,7 @@ function WoWPro.NextStep(k,i)
             local flop = true
             local stop = WoWPro.taxi[k]
             if string.sub(stop,1,1) == "-" then
-                flop = false
+                flop = nil
                 stop = string.sub(stop,2)
             end
             skip = WoWProCharDB.Taxi[stop] ~= flop
