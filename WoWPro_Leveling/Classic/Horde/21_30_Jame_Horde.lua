@@ -42,9 +42,9 @@ A Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|N|From Seereth Stonebreak
 R Stonetalon Mountains|QID|6284|M|34.10,27.60|Z|The Barrens|N|If you have the flight point to Sun Rock Retreat, fly there instead and skip this step.|
 A Arachnophobia|QID|6284|M|59.10,75.80|Z|Stonetalon Mountains|N|from the Wanted Poster. This is an level 21 elite, if you cannot do it, skip it.|ELITE|
 C Arachnophobia|QID|6284|M|52.45,74.30;53.65,72.22|Z|Stonetalon Mountains|CN|N|Clear your way into the valley until you see a big orange spider called "Besseleth".|T|Besseleth|
-T Arachnophobia|QID|6284|M|47.20,61.20|Z|Stonetalon Mountains|N|Back to Sun Rock Retreat at Maggran Earthbinder.|
-f Sun Rock Retreat|QID|1483|M|45.20,59.80|Z|Stonetalon Mountains|
-A Boulderslide Ravine|QID|6421|M|47.20,64.20|Z|Stonetalon Mountains|N|From Mor'rogal|
+T Arachnophobia|QID|6284|M|47.20,61.16|Z|Stonetalon Mountains|N|Back to Sun Rock Retreat at Maggran Earthbinder.|
+f Sun Rock Retreat|QID|1483|M|45.13,59.84|Z|Stonetalon Mountains|
+A Boulderslide Ravine|QID|6421|M|44.85,61.15;44.81,63.21;47.23,64.05|Z|Stonetalon Mountains|CS|N|From Mor'rogal, up the back exit.|
 
 T Ziz Fizziks|QID|1483|M|59.00,62.60|Z|Stonetalon Mountains|N|At the little goblin house.|
 A Super Reaper 6000|QID|1093|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz Fizziks|
