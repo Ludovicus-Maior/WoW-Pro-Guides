@@ -13,8 +13,8 @@ A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|N|From Vidra Hearthstove.|
 A Rat Catching|QID|416|M|34.8,47.1|N|From Mountianeer Kadrell patrols all throughout Thelsamar.|
 A Mountaineer Stormpike's Task|QID|1339|M|34.8,47.1|N|From Mountianeer Kadrell patrols all throughout Thelsamar.|
 A Honor Students|QID|6387|M|37.02,47.81|N|From Brock Stoneseeker.|R|Gnome,Dwarf|
-T Honor Students|QID|6387|M|3.8,50.8|N|To Thorgrum Borrelson.|
-A Ride to Ironforge|QID|6391|M|3.8,50.8|N|From Thorgrum Borrelson.|PRE|6387|
+T Honor Students|QID|6387|M|33.8,50.8|N|To Thorgrum Borrelson.|
+A Ride to Ironforge|QID|6391|M|33.8,50.8|N|From Thorgrum Borrelson.|PRE|6387|
 R Algaz Station|AVAILABLE|307|M|24.50,18.00|N|Continue along the road north to Algaz Station, killing and looting all the spiders, bears and boars you see.|
 A Filthy Paws|QID|307|M|24.77,18.39|N|From Mountaineer Stormpike.|
 T Mountaineer Stormpike's Task|QID|1339|M|24.77,18.39|N|To Mountaineer Stormpike.|
@@ -53,7 +53,7 @@ T Gryth Thurden|QID|6388|M|55.49,47.76|Z|Ironforge|N|To Gryth Thurden, inside th
 A Return to Brock|QID|6392|M|55.49,47.76|Z|Ironforge|N|From Gryth Thurden. Its worth 1050XP to fly to Thelsemar and back, but it has to be done soon, as it goes grey at level 16.|PRE|6388|
 F Thelsamar|ACTIVE|6392|M|55.49,47.76|Z|Ironforge|N|At Gryth Thurden.|
 T Return to Brock|QID|6392|M|37.02,47.81|N|To Brock Stoneseeker, inside the building.|
-F Ironforge|ACTIVE|1338|M|3.8,50.8|N|At Thorgrum Borrelson.|
+F Ironforge|ACTIVE|1338|M|33.8,50.8|N|At Thorgrum Borrelson.|
 R Deeprun Tram|QID|6661|N|Go to the Deeprun Tram|Z|Ironforge|M|76.50,51.10|
 A Deeprun Rat Roundup|QID|6661|N|Get this quest from Monty in the Tram.|
 C Deeprun Rat Roundup|QID|6661|U|17117|T|Deeprun Rat|N|Use the flute to catch five Deeprun Rats.|
