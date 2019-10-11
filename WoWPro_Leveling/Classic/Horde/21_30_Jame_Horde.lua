@@ -14,10 +14,10 @@ f Orgrimmar|QID|1483|M|45.30,63.90|Z|Orgrimmar|N|If you don't have this flight p
 A Call of Water|QID|1528|C|Shaman|M|38.06,37.38|Z|Orgrimmar|N|From Searn Firewarder.|
 
 F Ratchet|AVAILABLE|1483|M|45.2,63.8|Z|Orgrimmar|N|Fly to Ratchet.|TAXI|Ratchet|
-F Crossroads|AVAILABLE|1483|M|45.2,63.8|Z|Orgrimmar|TAXI|The Crossroads|
-R The Barrens|QID|1483|M|34.20,42.20|Z|The Barrens|N|Its a bit of a run, but reasonably safe.|TAXI|-The Crossroads|
-R The Crossroads|QID|1483|M|52.00,30.60|Z|The Barrens|TAXI|-The Crossroads|
-f The Crossroads|QID|1483|M|51.50,30.30|Z|The Barrens|
+F Crossroads|AVAILABLE|1483|M|45.2,63.8|Z|Orgrimmar|TAXI|Crossroads|TZ|The Crossroads|
+R The Barrens|QID|1483|M|34.20,42.20|Z|The Barrens|N|Its a bit of a run, but reasonably safe.|TAXI|-Crossroads|
+R The Crossroads|QID|1483|M|52.00,30.60|Z|The Barrens|TAXI|-Crossroads|
+f Crossroads|QID|1483|M|51.50,30.30|Z|The Barrens|
 
 R Ratchet|QID|1483|M|62.00,37.00|Z|The Barrens|TAXI|-Ratchet|
 f Ratchet|QID|1483|M|63.10,37.20|Z|The Barrens|
@@ -36,12 +36,12 @@ A Call of Water|QID|1536|PRE|1535|C|Shaman|M|43.46,77.41|Z|The Barrens|N|From Br
 F Crossroads|QID|1492|C|Shaman|M|51.50,30.30|Z|The Barrens|
 ; -----------------------------------------------------------------------------
 
-f The Crossroads|QID|1062|M|51.50,30.30|Z|The Barrens|
-A Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|N|From Seereth Stonebreak|
+F Crossroads|AVAILABLE|1062|M|51.50,30.30|Z|The Barrens|
+A Goblin Invaders|QID|1062|M|35.20,27.80|Z|The Barrens|N|From Seereth Stonebreak, West of the Crossroads.|
 
 R Stonetalon Mountains|QID|6284|M|34.10,27.60|Z|The Barrens|N|If you have the flight point to Sun Rock Retreat, fly there instead and skip this step.|
-A Arachnophobia|QID|6284|M|59.10,75.80|Z|Stonetalon Mountains|N|from the Wanted Poster. This is an elite, if you cannot do it, skip it.|
-C Arachnophobia|QID|6284|M|54.60,71.90|Z|Stonetalon Mountains|N|Clear your way into the valley until you see a big orange spider called "Besseleth".|
+A Arachnophobia|QID|6284|M|59.10,75.80|Z|Stonetalon Mountains|N|from the Wanted Poster. This is an level 21 elite, if you cannot do it, skip it.|ELITE|
+C Arachnophobia|QID|6284|M|52.45,74.30;53.65,72.22|Z|Stonetalon Mountains|CN|N|Clear your way into the valley until you see a big orange spider called "Besseleth".|T|Besseleth|
 T Arachnophobia|QID|6284|M|47.20,61.20|Z|Stonetalon Mountains|N|Back to Sun Rock Retreat at Maggran Earthbinder.|
 f Sun Rock Retreat|QID|1483|M|45.20,59.80|Z|Stonetalon Mountains|
 A Boulderslide Ravine|QID|6421|M|47.20,64.20|Z|Stonetalon Mountains|N|From Mor'rogal|
