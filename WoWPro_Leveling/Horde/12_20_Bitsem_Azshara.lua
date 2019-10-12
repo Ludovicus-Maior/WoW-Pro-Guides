@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2019-10-12 15:55
+-- Who: Ludovicus_Maior
+-- Log: Fix [Stone Cold] BUFF
+
+-- URL: http://wow-pro.com/node/3217/revisions/30343/view
 -- Date: 2019-07-31 20:24
 -- Who: Fluclo
 -- Log: Warchief's Command doesn't show when you've done a couple other quests, so added LEAD tag for those quest IDs; Warchief's Command turn-in shows even when you don't have it, therefore added ACTIVE tag; loot Scout's Order shouldn't show if you've already looted then accepted quest, so don't show if quest is active in your quest log; A Quota to Meet and Refleshification are non-combat quests; Added step to clarify Stone Cold requirements, auto-detecting the buff once you are carrying the goblin; Military Breakthrough is a two-part quest, therefore split into individual steps; Clarified Hand-me-downs requirements; Added the SFG quest item to In The Face!
@@ -191,7 +196,7 @@ A A Quota to Meet|QID|14197|M|29.21,66.44|N|From Foreman Fisk, who wanders.|
 C A Quota to Meet|QID|14197|S|M|23.20,67.44|N|Gather 20 ingots of Mountainfoot Iron.|NC|
 
 C Basilisk Bashin'|QID|14161|M|25.50,68.50|N|Kill Greystone Basilisks while you search for a stonified Mountainfoot Miner at the Mountainfoot Strip Mine.|
-N Stone Cold|QID|14165|NC|M|26.56,68.50|N|Seek out a Mountainfoot Miner.|BUFF|67032;91695;69619|
+N Stone Cold|QID|14165|NC|M|26.56,68.50|N|Seek out a Mountainfoot Miner.|BUFF|67032^91695^69619|
 C Stone Cold|QID|14165|NC|M|26.56,68.50|N|With the Goblin on your back, head back to Horzak Zignibble. \nNote: You will lose the goblin if you mount. |
 
 T Basilisk Bashin'|QID|14161|M|29.15,66.24|N|To Horzak Zignibble.|
