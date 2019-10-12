@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-10-12 15:57
+-- Who: Ludovicus_Maior
+-- Log: Add missing N tags
+
+-- URL: http://wow-pro.com/node/3761/revisions/30422/view
 -- Date: 2019-09-25 11:44
 -- Who: Emmaleah
 -- Log: 8.25 additions (and Heart of Azeroth Additons that were actually 8.2)
@@ -246,11 +251,6 @@
 -- Date: 2018-09-05 05:17
 -- Who: elidion
 -- Log: Moved the level gated quest chains under the foothold quest chains.
-
--- URL: http://wow-pro.com/node/3761/revisions/29678/view
--- Date: 2018-09-05 04:16
--- Who: elidion
--- Log: Added the Warfront quest chain.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -1212,12 +1212,12 @@ T Enter the Dreamway|QID|55392|M|44.02,30.79|Z|Emerald Dreamway!Instance1471|N|T
 A Shards of Emerald|QID|55394|M|44.02,30.79|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream.|PRE|55392|
 A Null the Void|QID|55393|M|44.02,30.79|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream.|PRE|55392|
 C Null the Void|QID|55393|M|44.18,46.55|Z|Emerald Dreamway!Instance1471|S|N|Kill Invaders as you head towards the other quest.|
-C Shards of Emerald|QID|55394|M|65.76,41.41|Z|Emerald Dreamway!Instance1471|S|NC|Pick up small glowing Emerald Shards.|
+C Shards of Emerald|QID|55394|M|65.76,41.41|Z|Emerald Dreamway!Instance1471|S|NC|N|Pick up small glowing Emerald Shards.|
 A Don't Close Your Eyes|QID|55395|M|27.07,55.86|Z|Emerald Dreamway!Instance1471|N|From Valithria Dreamwalker.|PRE|55392|
 C Don't Close Your Eyes|QID|55395|M|28.76,75.16|Z|Emerald Dreamway!Instance1471|QO|1|NC|N|Awaken Thessera.|
 C Don't Close Your Eyes|QID|55395|M|43.98,50.25|Z|Emerald Dreamway!Instance1471|QO|2|NC|N|Awaken Verdisa.|
 C Don't Close Your Eyes|QID|55395|M|70.27,45.00|Z|Emerald Dreamway!Instance1471|QO|3|NC|N|Awaken Karkarius.|
-C Shards of Emerald|QID|55394|M|65.76,41.41|Z|Emerald Dreamway!Instance1471|US|NC|Pick up small glowing Emerald Shards.|
+C Shards of Emerald|QID|55394|M|65.76,41.41|Z|Emerald Dreamway!Instance1471|US|NC|N|Pick up small glowing Emerald Shards.|
 C Null the Void|QID|55393|M|44.18,46.55|Z|Emerald Dreamway!Instance1471|US|N|Continue killing Void invaders until quest completes.|
 T Shards of Emerald|QID|55394|M|44.05,30.64|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream.|
 T Null the Void|QID|55393|M|44.05,30.64|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream.|
