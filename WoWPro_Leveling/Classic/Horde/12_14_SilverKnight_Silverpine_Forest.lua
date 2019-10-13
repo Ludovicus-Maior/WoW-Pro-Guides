@@ -108,9 +108,22 @@ C Raleigh and the Undercity|QID|441|Z|Tirisfal Glades|N|Bring Deliah's Ring to R
 T Raleigh and the Undercity|QID|441|M|62,43|Z|Undercity|N|To Raleigh Andrean.|
 
 ; Make sure you have the Barrens breadcrumb.
-A Sample for Helbrim|AVAILABLE|1358|M|50,68.4|Z|Undercity|N|From Apothecary Zinge.|LVL|10|PRE|1359|
-R Leave Undercity|ACTIVE|1358|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|
+A Sample for Helbrim|AVAILABLE|1358|M|50.15,67.93|Z|Undercity|N|From Apothecary Zinge.|LVL|10|PRE|1359|
+R Leave Undercity|QID|1358|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|
 
-; Nothing else can be added after this point that doesn't require a higher level to complete
+; --- Travel to Durotar and get FP in Orgrimmar -------------------------------
+b Durotar|QID|1358|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|
+R Orgrimmar|QID|1358|M|49.01,94.35|Z|Orgrimmar|N|Run into Orgrimmar.|
+f Origrimmar|QID|1358|M|45.35,63.92|Z|Orgrimmar|N|Doras|
+; -----------------------------------------------------------------------------
+
+; --- Breadcrumb to The Crossroads/The Barrens --------------------------------
+R Razor Hill|QID|1358|M|52.36,40.03|Z|Durotar|N|Run to Razor Hill.|
+A Conscript of the Horde|QID|840|M|50.8,43.6|Z|Durotar|N|From Takrin Pathseeker.|LVL|10|
+R Far Watch Outpost|QID|840|M|34.62,42.32|Z|Durotar|CC|N|Follow the western road from Razor Hill to the bridge over the Southfury River.|
+T Conscript of the Horde|QID|840|M|62.26,19.38|N|To Kargal Battlescar at Far Watch Outpost.|
+A Crossroads Conscription|QID|842|M|62.26,19.38|N|From Kargal Battlescar.|LVL|10|PRE|840|
+T Crossroads Conscription|QID|842|M|52.2,31|N|To Sergra Darkthorn in The Crossroads.|
+; -----------------------------------------------------------------------------
 ]]
 end)
