@@ -107,7 +107,10 @@ A Raleigh and the Undercity|QID|441|M|61.2,50.8|Z|Tirisfal Glades|N|From Magistr
 C Raleigh and the Undercity|QID|441|Z|Tirisfal Glades|N|Bring Deliah's Ring to Raleigh in the Trade Quarter of Undercity.|
 T Raleigh and the Undercity|QID|441|M|62,43|Z|Undercity|N|To Raleigh Andrean.|
 
-; Nothing else can be added after this point that doesn't require a higher level to complete.
-; My additions have increased the level by about 2.
+; Make sure you have the Barrens breadcrumb.
+A Sample for Helbrim|AVAILABLE|1358|M|50,68.4|Z|Undercity|N|From Apothecary Zinge.|LVL|10|PRE|1359|
+R Leave Undercity|ACTIVE|1358|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|
+
+; Nothing else can be added after this point that doesn't require a higher level to complete
 ]]
 end)
