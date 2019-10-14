@@ -55,7 +55,7 @@ C Goblin Invaders|QID|1062|M|65.00,50.00|Z|Stonetalon Mountains|US|N|Kill the re
 T Super Reaper 6000|QID|1093|M|59.00,62.60|Z|Stonetalon Mountains|
 A Further Instructions |QID|1094|PRE|1093|M|59.00,62.60|Z|Stonetalon Mountains|N|From Ziz Fizziks|
 
-R Boulderslide Cavern|QID|6421|M|61.50,93.20|
+R Boulderslide Cavern|QID|6421|M|66.85,88.96;61.50,93.20|CS|N|
 C Boulderslide Ravine|QID|6421|M|58.90,90.30|Z|Stonetalon Mountains|N|Collect the purple Resonite Crystals and follow the waypoint to explore the cave.|
 
 R The Barrens|QID|1094|M|78.95,89.66;82.79,96.93|N|Walk to the Stonetalon Mountains and Barrens border, en route to The Crossroads.|CS|Z|Stonetalon Mountains|
@@ -72,14 +72,16 @@ T Boulderslide Ravine|QID|6421|M|45.03,61.12;44.66,62.92;47.18,64.06|Z|Stonetalo
 
 F Splintertree Post|QID|6383|M|45.20,59.80|Z|The Barrens|N|Fly to Splintertree Post.|TAXI|Splintertree Post|
 F Crossroads|QID|6383|M|45.20,59.80|Z|The Barrens|N|Since you don't have the Splintertree Post, we will get as close as we can.|TAXI|-Splintertree Post|
-R Splintertree Post|QID|6383|M|45.20,59.80|Z|The Barrens|N|Follow the path north until you reach Ashenvale Forest. Continue further north until the path forks, there go east until you reach Splintertree Post.|TAXI|-Splintertree Post|
+R Ashenvale|QID|6383|M|48.17,4.0|Z|The Barrens|N|Follow the path north until you reach Ashenvale Forest.|TAXI|-Splintertree Post|
+R Splintertree Post|QID|6383|M|67.26,71.39;73.20,61.60|Z|Ashenvale|CS|N|Continue further north until the path forks, there go east until you reach Splintertree Post.|TAXI|-Splintertree Post|
+
 f Splintertree Post|QID|235|M|73.20,61.60|Z|Ashenvale|
 C The Ashenvale Hunt|QID|235|Z|Ashenvale|M|73.74,61.46|
 T The Ashenvale Hunt|QID|235^742^6382|Z|Ashenvale|M|73.74,61.46|
 A The Ashenvale Hunt|QID|6383|PRE|235|N|At Senani Thunderheart.|M|73.75,61.47|Z|Ashenvale|
 
 F Zoram'gar Outpost|QID|6442|M|73.23,61.58|Z|Ashenvale|N|Fly to Zoram'gar Outpost.|TAXI|Zoram'gar Outpost|
-R Zoram'gar Outpost|QID|6442|N|Follow the road all the way to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.2,47.28;26.43,42.33;16.51,30.27;12,34|CS|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
+R Zoram'gar Outpost|QID|6442|N|Follow the road all the way to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|75.02,65.16;67.17,71.25;44.94,56.20;36.90,55.01;32.53,49.76;30.2,47.28;26.43,42.33;16.51,30.27;12,34|CS|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
 f Zoram'gar Outpost|QID|6442|M|12.20,33.80|Z|Ashenvale|
 A Naga at the Zoram Strand|QID|6442|M|11.69,34.90|Z|Ashenvale|N|From Marukai.|
 N Things to do...|QID|6504|N|Keep any Shredder Operating Manual pages you find from now on.|S!US|
@@ -132,8 +134,8 @@ C Call of Water |QID|1536|C|Shaman|U|7768|M|62.20,20.80|Z|Hillsbrad Foothills|N|
 
 C Elixir of Suffering|QID|496|S|N|Kill every bear and spider you encounter.|
 
-R Durnholde Keep|QID|498|M|77.90,45.50|Z|Hillsbrad Foothills|
-K Jailor Marlgen for Burnished Gold Key|QID|498|L|3499|M|78.00,40.00|Z|Hillsbrad Foothills|N|Kill everything in the area until you find Jailor Marlgen.  Kill him and loot the key.|
+R Durnholde Keep|QID|498|M|57.37,36.39;74.90,48.28;77.90,45.50|CS|Z|Hillsbrad Foothills|
+K Jailor Marlgen for Burnished Gold Key|QID|498|L|3499|M|78.00,40.00|Z|Hillsbrad Foothills|T|Jailor Marlgen|N|Kill everything in the area until you find Jailor Marlgen.  Kill him and loot the key.|
 C Free Thog'thar|QID|498|QO|2|NC|M|79.70,39.70|Z|Hillsbrad Foothills|
 K Jailor Eston|QID|498|L|3467|M|75.30,42.00|Z|Hillsbrad Foothills|N|Find Jailor Eston in the area (he does wander) to get the Dull Iron Key for the other prisoner, Drull, but if Jailor Eston isn't there he is probably in one of the houses on the lower level of the fortress.  Start clearing the way to the wooden houses, watch out, mobs run away here.|
 C Free Drull|QID|498|QO|1|NC|M|75.40,41.60|Z|Hillsbrad Foothills|
