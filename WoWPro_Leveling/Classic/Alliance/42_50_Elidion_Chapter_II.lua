@@ -222,7 +222,7 @@ R Gadgetzan|ACTIVE|1691|M|52.5,28.5|Z|Tanaris|N|Ride west to Gadgetzan. When you
 T More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 T WANTED: Caliph Scorpidsting|QID|2781|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 H Stormwind City|QID|49|M|PLAYER|Z|Tanaris|N|Hearth back to Stormwind. You didn't set it here right? If you did then make it back the old fashioned way.|
-r Repair, Restock, Train|QID|49|M|55.34,59.82|Z|Stormwind City|N|Take care of your big city stuff, be sure to get that thorium bar, we need it as soon as we leave.|
+r Repair, Restock, Train|QID|49|M|55.34,59.82|Z|Stormwind City|N|Take care of your big city stuff, be sure to get that truesilver bar, we need it as soon as we leave.|
 B Truesilver Bar|QID|49|N|You will also need a Truesilver Bar.|L|6037|ITEM|6037|
 F Sentinel Hill|QID|49|M|66.2,62.4|Z|Stormwind City|N|Fly to Sentinel Hill in Westfall.|
 R Sweet Amber|QID|49|M|52.56,72.21;44.6,80.2|CC|Z|Westfall|N|Toward the mountain behind Deadmines.|
