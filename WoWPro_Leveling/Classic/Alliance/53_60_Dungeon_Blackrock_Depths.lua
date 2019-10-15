@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('ElidionDun_BRD', 'Leveling', 'Burning Steppes', 'Elidion', 'Alliance', 1)
 WoWPro:GuideLevels(guide,53, 60)
-WoWPro:GuideNextGuide(guide, 'JamEas5960')
+WoWPro:GuideNextGuide(guide, 'ElidionAlli_IV')
 WoWPro:GuideName(guide, 'Dungeon: Blackrock Depths')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
 WoWPro:GuideSteps(guide, function()
