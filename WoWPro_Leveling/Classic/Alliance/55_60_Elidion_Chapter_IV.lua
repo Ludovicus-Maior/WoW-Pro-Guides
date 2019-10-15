@@ -98,6 +98,7 @@ C Villains of Darrowshire 2|QID|5181|M|53.91,65.76|Z|Eastern Plaguelands|QO|2|N|
 T Villains of Darrowshire|QID|5181|M|81.51,59.77|Z|Eastern Plaguelands|N|To Carlin Redpath. Head Southwest to get out of the Infected Scar.\n\nDon't get follow-up|
 
 H Ironforge|QID|5159|M|PLAYER|Z|Eastern Plaguelands|N|Hearth or otherwise make your way to Ironforge.|
+B Thorium Bar|QID|6026|Z|Ironforge|N|If you plan on following the questline to get the Scholomance key, (part of which costs 15 gold) you will need to buy or make 2 Thorium Bars.|L|12359 2|
 A A Little Slime Goes a Long Way|QID|4513|M|75.74,23.38|Z|Ironforge|N|From Laris Geardawdle.|PRE|4512|
 F Menethil Harbor|QID|5159|M|55.54,47.75|Z|Ironforge|N|Fly to Menethil Harbor.|
 b Theramore Isle|QID|5159|M|4.98,63.41|Z|Wetlands|N|Take the boat to Theramore.|
@@ -107,7 +108,7 @@ T Seeking Spiritual Aid|QID|5158|M|65.83,43.78|Z|The Barrens|N|To Islen Watersee
 A Cleansed Water Returns to Felwood|QID|5159|M|65.83,43.78|Z|The Barrens|N|From Islen Waterseer.|PRE|5158|
 
 F Talrendis Point|QID|5159|M|63.08,37.16|Z|The Barrens|N|Fly to Talrendis Point in the in Azshara.
-C Fragments of the Past 1|QID|5246|M|41.51,52.53|Z|Azshara|QO|1|N|Collect the Sacred Highborne Writings. It's a tin book on a ledge behind the warlord.|
+C Fragments of the Past|QID|5246|M|41.51,52.53|Z|Azshara|QO|1|N|Collect the Sacred Highborne Writings. It's a tin book on a ledge behind the warlord.|
 A Kim'jael Indeed!|QID|3601|M|53.45,21.82|Z|Azshara|N|From Kim'jael.|LVL|47|
 C Kim'jael Indeed!|QID|3601|M|56.1,30.1|Z|Azshara|N|Goto the base camp and loot the items from random chests scattered around..|
 T Kim'jael Indeed!|QID|3601|M|53.45,21.82|Z|Azshara|N|To Kim'jael.|
@@ -239,8 +240,8 @@ C Pawn Captures Queen|QID|4507|M|43.53,81.07|Z|Un'Goro Crater|N|Clear room, then
 
 C Volcanic Activity|QID|4502|M|45,48.4|Z|Un'Goro Crater|S|N|Collect Un'Goro Ash from the fire elementals.|
 C Fire Plume Forged|QID|5801|M|49.14,47.54|Z|Un'Goro Crater|N|Take the 2 Thorium Bars and use the Skeleton Key Mold by the lava lake.|U|14644|
-C It's Dangerous to Go Alone 1|QID|3962|M|49.28,49.15|Z|Un'Goro Crater|QO|1|N|Equip the totem and use the ability to dispel Blazerunner. Once dispeled (equip your normal Off-Hand real quick) and kill him. Fight in cave to negate his knockback.|U|11522|
-C It's Dangerous to Go Alone 2|QID|3962|M|50.20,49.97|Z|Un'Goro Crater|QO|2|N|In the cave grab the Golden Flame from the chest.|
+K Blazerunner|QID|3962|M|49.28,49.15|Z|Un'Goro Crater|QO|1|N|Equip the totem and use the ability to dispel Blazerunner's shield. Once dispeled (equip your normal Off-Hand real quick) and kill him. Fight in cave to negate his knockback.|U|11522|
+C It's Dangerous to Go Alone|QID|3962|M|50.20,49.97|Z|Un'Goro Crater|QO|2|N|In the cave grab the Golden Flame from the chest.|
 C Volcanic Activity|QID|4502|M|49.14,47.54|Z|Un'Goro Crater|US|N|Collect Un'Goro Ash from the fire elementals.|
 T Lost!|QID|4492|M|51.90,49.85|Z|Un'Goro Crater|N|To Ringo. Be ready for a timed escort quest back to Marshal's Refuge.|
 A A Little Help From My Friends|QID|4491|M|51.90,49.85|Z|Un'Goro Crater|N|From Ringo. Be ready for a timed escort quest back to Marshal's Refuge.|LVL|50|PRE|4492|
@@ -334,13 +335,33 @@ T Heroes of Old|QID|2701|M|33.5,66|Z|Swamp of Sorrows|N|To Spectral Lockbox.|
 
 H Ironforge|M|PLAYER|Z|Swamp of Sorrows|N|Hearth back to Ironforge, or if for some reason you don't have it set or ready, fly to Western Plaguelands.|
 F Chillwind Camp|M|55.54,47.75|Z|Ironforge|N|Fly to Western Plaguelands.|
-T Fire Plume Forged|QID|5801|M|42.6,83.8|Z|Western Plaguelands|N|To Alchemist Arbington.|
+T Fire Plume Forged|QID|5801|M|42.66,83.77|Z|Western Plaguelands|N|To Alchemist Arbington. Hold on follow-up until you're ready to do scholomance and you can convice the group to kill Araj the Summoner to get your key. When you do, don't forget your Attuned Dampener.|
 T Flint Shadowmore|QID|6184|M|43.6,84.4|Z|Western Plaguelands|N|To Flint Shadowmore.|
-C Poisoned Water|QID|6804|M|58.2,78.2|Z|Eastern Plaguelands|N|Use the Aspect of Neptulon on poisoned elementals of Eastern Plaguelands. Bring 12 Discordant Bracers and the Aspect of Neptulon to Duke Hydraxis in Azshara.|
-C Poisoned Water 1|QID|6804|M|58.2,78.2|Z|Eastern Plaguelands|QO|1|N|Discordant Bracers.|
-C Poisoned Water 2|QID|6804|M|55.8,79.6|Z|Eastern Plaguelands|QO|2|N|Aspect of Neptulon.|
+A The Eastern Plagues|QID|6185|M|43.6,84.4|Z|Western Plaguelands|N|From Flint Shadowmore.|LVL|56|PRE|6184|
+
+F Light's Hope Chapel|QID|5246|M|42.93,85.06|Z|Western Plaguelands|N|Fly to Eastern Plaguelands.|
+T Fragments of the Past|QID|5246|M|53.51,21.99|Z|Eastern Plaguelands|N|To Aurora Skycaller. The follow-up will be out of scope for this guide. The chain continues in Feralas, back to Eastern Plaguelands, to winterspring and then Darnassus. Grab it if you would like, you will probably manage to complete it eventually between Dire Maul and Strat runs.|
+
+C Poisoned Water|QID|6804|M|63,80|Z|Eastern Plaguelands|QO|1|N|Use the Aspect of Neptulon on the various plagued water elementals and loot their Discordant Bracers.|U|17310|
+C Rutger|QID|6185|M|26.4,74.8|Z|Eastern Plaguelands|QO|1|NC|N|SI:7 Insignia.|
+C Fredo|QID|6185|M|27.3,75|Z|Eastern Plaguelands|QO|2|NC|N|SI:7 Insignia.|
+C Turyen|QID|6185|M|28.8,74.9|Z|Eastern Plaguelands|QO|3|NC|N|SI:7 Insignia.|
+C The Eastern Plagues|QID|6185|M|26,74|Z|Eastern Plaguelands|N|The Blightcaller Uncovered. You don't have to actually fight him, just get close enough.|
+
+R Western Plaguelands|QID|5152|M|10.71,72.62|Z|Eastern Plaguelands|N|Make your way to Western Plaguelands.
+T The Eastern Plagues|QID|6185|M|43.6,84.4|Z|Western Plaguelands|N|To Flint Shadowmore.|
+A The Blightcaller Cometh|QID|6186|M|43.6,84.4|Z|Western Plaguelands|N|From Flint Shadowmore.|LVL|56|PRE|6185|
+
+F Menethil Harbor|ACTIVE|6804^6805|M|42.93,85.06|Z|Western Plaguelands|N|Fly to Menethil Harbor.|
+b Darkshore|ACTIVE|6804^6805|M|4.59,57.13|Z|Wetlands|N|Take the boat to Darkshore.|
+F Talrendis Point|ACTIVE|6804^6805|M|36.34,45.58|Z|Darkshore|N|Fly to Azshara.|
 T Poisoned Water|QID|6804|M|79.26,73.73|Z|Azshara|N|To Duke Hydraxis.|
 T Stormers and Rumblers|QID|6805|M|79.26,73.73|Z|Azshara|N|To Duke Hydraxis.|
+
+H Ironforge|ACTIVE|6186|M|PLAYER|Z|Azshara|N|Hearth back to Ironforge.|
+R Deeprun Tram|ACTIVE|6186|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
+R Stormwind City|ACTIVE|6186|N|Take the tram ride and then run into Stormwind.|
+T The Blightcaller Cometh|QID|6186|M|78.22,18.01|Z|Stormwind City|N|To Highlord Bolvar Fordragon. Follow-up is a world raid quest to kill Blightcaller and is out of scope for the guide.|
 
 N The End|N|This is the end.|
 ]]
