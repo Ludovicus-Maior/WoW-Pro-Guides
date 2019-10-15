@@ -6,14 +6,17 @@ WoWPro:GuideName(guide, 'The Barrens')
 WoWPro:GuideLevels(guide, 12, 21, 13)
 WoWPro:GuideNextGuide(guide, 'Jame-HordeGuide-1')
 WoWPro:GuideSteps(guide, function() return [[
-h The Crossroads|QID|844|M|52.0,29.9|
-; --- carry over quests from last guide ---------------------------------------
+; --- Carry over quests from last guide ---------------------------------------
 A Plainstrider Menace|AVAILABLE|844|M|52.23,31.01|N|From Sergra Darkthorn.|
+f The Crossroads|QID|1358|M|51.50,30.34|N|Devrak|
+T Sample for Helbrim|QID|1358|M|51.46,30.16|N|To Apothecary Helbrim.|
 ; -----------------------------------------------------------------------------
+
+h The Crossroads|QID|844|M|52.0,29.9|
 
 A Raptor Thieves|QID|869|M|51.93,30.32|N|From Gazrog.|
 A Disrupt the Attacks|QID|871|M|51.50,30.87|N|From Thork.|
-A Supplies for the Crossroads|QID|5041|PRE|871|M|51.50,30.87|N|From Thork.|
+A Supplies for the Crossroads|QID|5041|M|51.50,30.87|N|From Thork.|
 ; A Harpy Raiders|QID|867|M|51.62,30.90|N|From Darsok Swiftdagger at the top of the tower.| TODO: C&T steps!
 
 C Raptor Thieves|QID|869|S|N|Kill Raptors you encounter for their heads.\nThese are all around this area.|
