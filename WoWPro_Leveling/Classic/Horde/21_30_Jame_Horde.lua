@@ -125,14 +125,12 @@ A Battle of Hillsbrad |QID|527|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Exe
 A WANTED: Syndicate Personnel|QID|549|M|62.58,20.71|Z|Hillsbrad Foothills|N|Wanted Poster Near High Executor Darthalia.|
 A The Rescue|QID|498|M|63.2,20.6|Z|Hillsbrad Foothills|N|From Krusk.|
 A Dangerous!|QID|567|M|62.53,19.75|Z|Hillsbrad Foothills|N|Wanted Poster on the inn's wall.|
-A Elixir of Suffering |QID|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon, Part 1.|
-A Elixir of Pain |QID|501|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+A Elixir of Suffering |QID|496|M|61.44,19.05|Z|Hillsbrad Foothills|N|From Apothecary Lydon, Part 1.|
+A Elixir of Pain |QID|501|M|61.44,19.05|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
 
 ; --Shaman Class Quest---------------------------------------------------------------------------
 C Call of Water |QID|1536|C|Shaman|U|7768|M|62.20,20.80|Z|Hillsbrad Foothills|N|Use the Empty Red Waterskin at the well.|
 ; -----------------------------------------------------------------------------
-
-C Elixir of Suffering|QID|496|S|N|Kill every bear and spider you encounter.|
 
 R Durnholde Keep|QID|498|M|57.37,36.39;74.90,48.28;77.90,45.50|CS|Z|Hillsbrad Foothills|
 K Jailor Marlgen for Burnished Gold Key|QID|498|L|3499|M|78.00,40.00|Z|Hillsbrad Foothills|T|Jailor Marlgen|N|Kill everything in the area until you find Jailor Marlgen.  Kill him and loot the key.|
@@ -141,37 +139,39 @@ K Jailor Eston|QID|498|L|3467|M|75.30,42.00|Z|Hillsbrad Foothills|N|Find Jailor 
 C Free Drull|QID|498|QO|1|NC|M|75.40,41.60|Z|Hillsbrad Foothills|
 C WANTED: Syndicate Personnel|QID|549|M|76.70,42.80|Z|Hillsbrad Foothills|N|Make your way out of Durnholde while finishing this quest.|
 
-C Elixir of Suffering |QID|496|M|54.80,8.90|US|Z|Hillsbrad Foothills|
+C Gray Bear |QID|496|QO|1|M|34.00,32.40;35.80,49.00;54.40,45.20;71.40,56.60;23.95,39.80;63.38,26.63;16.88,45.48;21.90,55.12;67.68,29.32;66.81,37.59;63.51,12.04;57.18,24.38;18.97,50.72;55.49,11.98;26.71,43.84;58.99,35.65;61.18,40.17;60.55,22.20;59.23,28.46;54.48,29.71;69.12,9.15;30.28,47.10;65.37,16.35;64.09,32.01;56.80,17.77;64.72,6.19;66.85,23.98;28.80,36.84;67.10,45.95;21.84,45.64|Z|Hillsbrad Foothills|CN|N|33% Drop rate.|
+C Forest Moss Creeper|QID|496|QO|2|M|32.80,41.60;66.40,43.40;67.20,16.60;74.50,33.40;63.70,17.00;26.15,37.28;62.61,26.55;71.27,34.06;65.74,4.74;63.45,9.12;22.95,54.23;72.59,41.43;29.05,49.23;56.55,17.04;28.10,45.49;60.11,28.44;60.07,38.17;65.29,21.45;71.46,37.37;19.49,48.01;76.88,50.64;24.94,45.86;53.58,14.14;67.94,12.97;27.00,40.21;70.39,9.17;23.42,41.94;58.50,34.11;67.04,8.36;63.44,30.67;60.22,17.50;55.67,10.31;58.07,21.00;62.85,13.43;20.13,43.57;71.53,45.04;58.04,24.91;68.43,40.49;20.34,51.81;63.37,34.91;58.28,13.63;66.51,27.17;61.99,40.52;56.82,29.40|Z|Hillsbrad Foothills|CN|N|9% Drop rate.|
 
 T The Rescue|QID|498|M|63.18,20.66|Z|Hillsbrad Foothills|N|At Krusk.|
 T WANTED: Syndicate Personnel|QID|549|M|62.1,20.34|Z|Hillsbrad Foothills|N|At High Executor Darthalia.|
-T Elixir of Suffering |QID|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|At Apothecary Lydon.|
-A Elixir of Suffering |QID|499|PRE|496|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon, Part 2.|
-T Elixir of Suffering |QID|499|M|61.40,19.10|Z|Hillsbrad Foothills|N|At Umpi.|
+T Elixir of Suffering |QID|496|M|61.44,19.05|Z|Hillsbrad Foothills|N|At Apothecary Lydon.|
+A Elixir of Suffering |QID|499|PRE|496|M|61.44,19.05|Z|Hillsbrad Foothills|N|From Apothecary Lydon, Part 2.|
+T Elixir of Suffering |QID|499|M|61.44,19.05|Z|Hillsbrad Foothills|N|At Umpi.|
 
-C Elixir of Pain|QID|501|S|N|Kill every Starving Mountain Lion you find.|
+C Elixir of Pain|QID|501|M|44.75,48.45;48.50,35.00;58.85,39.82;47.22,27.04;55.12,28.55;55.50,25.27;55.65,51.12;44.94,36.22;43.15,39.67;51.90,47.74;56.39,41.59;49.36,30.62;54.21,31.92;40.29,42.19;51.95,35.34;49.13,46.23;45.75,44.08;56.70,35.30;54.13,38.25;38.45,45.23;51.09,42.49;54.75,44.20;47.08,40.65;40.45,36.09|Z|Hillsbrad Foothills|CN|N|Kill every Starving Mountain Lion you find.|
 R Hillsbrad Fields|ACTIVE|527|M|32.20,41.30|Z|Hillsbrad Foothills|
-C Battle of Hillsbrad |QID|527|QO|1|S|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
-C Battle of Hillsbrad |QID|527|QO|2|S|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers or Farmhands you still need.|
-K Kill Farmer Getz|QID|527|QO|4|M|34.00,40.00|Z|Hillsbrad Foothills|N|If Farmer Getz is not in his house, he's either in the field right next to it or in the barn|
-K Kill Farmer Ray|QID|527|QO|3|M|33.00,34.00|Z|Hillsbrad Foothills|N|Clear the way inside this house. On the 2nd floor you'll find Farmer Ray.  He may also be found on the first floor, and also around it, and in the field next to it|
-K Hillsbrad Farmers|QID|527|US|QO|1|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers you still need.|
-K Hillsbrad Farmhand|QID|527|US|QO|2|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmhands you still need.|
-C Elixir of Pain |QID|501|M|48.00,42.00|Z|Hillsbrad Foothills|N|Kill mountain lions and collect their blood. Complete the quest on your way back to Tarren Mill.|
+K Hillsbrad Farmers|QID|527|US|QO|1|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmers you still need.|S!US|
+K Hillsbrad Farmhand|QID|527|US|QO|2|M|32.20,41.30|Z|Hillsbrad Foothills|N|Kill Farmhands you still need.|S!US|
+K Kill Farmer Getz|QID|527|QO|4|M|36.69,39.47;35.13,37.99;35.27,40.60|CS|Z|Hillsbrad Foothills|N|If Farmer Getz is not in his house, he's either in the field right next to it or in the barn|T|Farmer Getz|
+K Kill Farmer Ray|QID|527|QO|3|M|33.00,34.00|Z|Hillsbrad Foothills|N|Clear the way inside this house. On the 2nd floor you'll find Farmer Ray.  He may also be found on the first floor, and also around it, and in the field next to it|T|Farmer Ray|
+
 
 T Battle of Hillsbrad |QID|527|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 A Battle of Hillsbrad |QID|528|PRE|527|M|62.40,20.30|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
-T Elixir of Pain |QID|501|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
-A Elixir of Pain |QID|502|PRE|501|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+T Elixir of Pain |QID|501|M|61.44,19.05|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+A Elixir of Pain |QID|502|PRE|501|M|61.44,19.05|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
 A Souvenirs of Death|QID|546|PRE|527|M|62,19.8|Z|Hillsbrad Foothills|N|From Deathguard Samsa.|
 
 T Elixir of Pain |QID|502|M|32.61,35.41|Z|Hillsbrad Foothills|N|Make sure you are full health before turning in the quest.  Kill Stanley once he transforms.\nKilling Enraged Stanley gives a lot of xp. If you group up it will be shared among party members.|
-K Farmer Kalaba|QID|567|QO|4|M|35.00,46.00|Z|Hillsbrad Foothills|N|She's at the first field next to the road.|
+K Farmer Kalaba|QID|567|QO|4|M|35.00,46.00|Z|Hillsbrad Foothills|N|She's at the first field next to the road.|T|Farmer Kalaba|
+; K Miner Hackett|QID|567|QO|3|M|26.00,59.00|Z|Hillsbrad Foothills|N|Inside Azurelode Mine, different spawn locations.|T|Miner Hackett|
+; K Citizen Wilkes|QID|567|QO|2|M|30.00,40.00|Z|Hillsbrad Foothills|N|She's outside the town hall, walks back and forward to the Forge.|T|Citizen Wilkes|
+; K Clerk Horrace Whitesteed|QID|567|QO|1|M|30.00,42.00|Z|Hillsbrad Foothills|N|Inside the town hall|T|Clerk Horrace Whitesteed|
 C Battle of Hillsbrad |QID|528|M|34.90,46.19|Z|Hillsbrad Foothills|
 
 T Battle of Hillsbrad |QID|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 A Battle of Hillsbrad |QID|529|PRE|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-A Elixir of Agony |QID|509|M|61.40,19.10|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
+A Elixir of Agony |QID|509|M|61.44,19.05|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
 
 F The Sepulcher|QID|516|M|60.20,18.70|Z|Hillsbrad Foothills|
 T Beren's Peril|QID|516|M|44,41|Z|Silverpine Forest|N|To Shadow Priest Allister.|
