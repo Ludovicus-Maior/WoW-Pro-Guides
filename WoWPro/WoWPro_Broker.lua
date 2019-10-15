@@ -778,7 +778,11 @@ function WoWPro:RowUpdate(offset)
 		end
 
 		if WoWProDB.profile.showcoords and coord then
-		    note = note.." ("..coord..")"
+			local coords = coord
+			if string.len(coord) > 64 then
+				coords = string.sub(coord, 1, 64) .. "..."
+			end
+		    note = note.." ("..coords..")"
 		    if zone then
 		        note = note .. "@" ..zone
 		    end
