@@ -78,8 +78,7 @@ H Sentinel Hill|ACTIVE|132|N|Hearth back to Sentinel Hill.|
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|PRE|132|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle.|
 
-F Stormwind City|ACTIVE|116|N|And back to Stormwind, they like giving you the run around.|;M|56.55,52.65|Westfall| or M|77.50,44.30|Z|Duskwood|N|At Felicia Maline.| depending on which guide you came in from
-R Goldshire|ACTIVE|116|M|44.00,65.70|Z|Elwynn Forest|N|Go to Goldshire.|
+F Stormwind|ACTIVE|116|N|And back to Stormwind, they like giving you the run around.|TZ|Stormwind City|
 B Skin of Sweet Rum|ACTIVE|116|M|44.00,65.70|Z|Elwynn Forest|QO|4|NC|N|Buy a Skin of Sweet Rum from Barkeep Dobbins.|
 T The Price of Shoes|QID|118|M|41.71,65.55|Z|Elwynn Forest|N|To Smith Argus.|;if you didnt do elwyn guide
 A Return to Verner|QID|119|M|41.71,65.55|Z|Elwynn Forest|N|From Smith Argus.|PRE|118|
