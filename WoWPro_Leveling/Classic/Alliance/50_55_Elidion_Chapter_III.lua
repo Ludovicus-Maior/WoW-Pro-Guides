@@ -499,7 +499,6 @@ A Mystery Goo|QID|5085|M|60.20,5.85|Z|Felwood|N|From Deadwood Cauldron.|PRE|5084
 R Winterspring|ACTIVE|5085|M|64.27,14.92;65.10,8.09;65.40,6.88;64.66,3.13;66.44,2.99;68.49,5.98|Z|Felwood|CC|N|Run back through Timbermaw hold back to Winterspring.|
 T Mystery Goo|QID|5085|M|31.27,45.18|Z|Winterspring|N|To Donova Snowden.|
 A Toxic Horrors|QID|5086|M|31.27,45.18|Z|Winterspring|N|From Donova Snowden.|PRE|5085|
-A Strange Sources|QID|4842|M|31.27,45.18|Z|Winterspring|N|From Donova Snowden.|PRE|980|
 C Second Relic Fragment|QID|5245|M|50.88,41.71|Z|Winterspring|QO|2|NC|N|Use the Pick to collect the Relic Fragment|U|12891|
 C Fourth Relic Fragment|QID|5245|M|52.42,41.50|Z|Winterspring|QO|4|NC|N|Use the Pick to collect the Relic Fragment|U|12891|
 C Third Relic Fragment|QID|5245|M|53.31,43.44|Z|Winterspring|QO|3|NC|N|Use the Pick to collect the Relic Fragment|U|12891|
