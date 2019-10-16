@@ -98,7 +98,7 @@ C Villains of Darrowshire 2|QID|5181|M|53.91,65.76|Z|Eastern Plaguelands|QO|2|N|
 T Villains of Darrowshire|QID|5181|M|81.51,59.77|Z|Eastern Plaguelands|N|To Carlin Redpath. Head Southwest to get out of the Infected Scar.\n\nDon't get follow-up|
 
 H Ironforge|QID|5159|M|PLAYER|Z|Eastern Plaguelands|N|Hearth or otherwise make your way to Ironforge.|
-B Thorium Bar|QID|6026|Z|Ironforge|N|If you plan on following the questline to get the Scholomance key, (part of which costs 15 gold) you will need to buy or make 2 Thorium Bars.|L|12359 2|
+B Thorium Bar|QID|5538|Z|Ironforge|N|If you plan on following the questline to get the Scholomance key, (part of which costs 15 gold) you will need to buy or make 2 Thorium Bars.|L|12359 2|
 A A Little Slime Goes a Long Way|QID|4513|M|75.74,23.38|Z|Ironforge|N|From Laris Geardawdle.|PRE|4512|
 F Menethil Harbor|QID|5159|M|55.54,47.75|Z|Ironforge|N|Fly to Menethil Harbor.|
 b Theramore Isle|QID|5159|M|4.98,63.41|Z|Wetlands|N|Take the boat to Theramore.|
@@ -322,47 +322,110 @@ A A Tale of Sorrow|QID|2801|M|34.28,66.14|Z|Swamp of Sorrows|N|From Fallen Hero 
 C A Tale of Sorrow|QID|2801|M|34.28,66.14|Z|Swamp of Sorrows|CHAT|N|Listen to the Fallen Hero of the Horde tell his story.|
 T A Tale of Sorrow|QID|2801|M|34.28,66.14|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde.|
 A The Stones That Bind Us|QID|2681|M|34.28,66.14|Z|Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2801|
-N Warning|N|The rest of the guide are bits and followups I haven't strung together and vetted perfectly. I just wanted to get this out ASAP.|
+
 C Servants of Grol|QID|2681|M|41.2,14|Z|Blasted Lands|QO|2|N|Servants of Grol Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Sevine|QID|2681|M|42.82,41.38|Z|Blasted Lands|QO|4<1|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Sevine|QID|2681|M|41.29,39.66|Z|Blasted Lands|QO|4<1|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Sevine|QID|2681|M|38.2,33.4|Z|Blasted Lands|QO|4<1|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
 C Servants of Sevine|QID|2681|M|38.2,33.4|Z|Blasted Lands|QO|4|N|Servants of Sevine Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Razelikh|QID|2681|M|51.2,57.6|Z|Blasted Lands|QO|1|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
-C Servants of Allistarj|QID|2681|M|64,40.4|Z|Blasted Lands|QO|3|N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|51.26,57.71|Z|Blasted Lands|QO|1<1|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|53.24,59.70|Z|Blasted Lands|QO|1<2|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|54.01,53.58|Z|Blasted Lands|QO|1<3|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|55.37,50.58|Z|Blasted Lands|QO|1<4|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|58.01,49.21|Z|Blasted Lands|QO|1<5|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|60.03,49.96|Z|Blasted Lands|QO|1<6|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|62.19,51.61|Z|Blasted Lands|QO|1<7|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|63.78,55.90|Z|Blasted Lands|QO|1<8|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Razelikh|QID|2681|M|63.15,57.26|Z|Blasted Lands|QO|1<9|N|Servants of Razelikh Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Allistarj|QID|2681|M|63.94,40.52|Z|Blasted Lands|QO|3<1|N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Allistarj|QID|2681|M|64.97,34.51|Z|Blasted Lands|QO|3<2|N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
+C Servants of Allistarj|QID|2681|M|63.94,40.52|Z|Blasted Lands|QO|3<3|N|Servants of Allistarj Freed. Fight near the red crystal, once their health gets low click the crystal to set them free.|
 T The Stones That Bind Us|QID|2681|M|34.28,66.14|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde.|
 A Heroes of Old|QID|2702|M|34.28,66.14|Z|Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2681|
-T Heroes of Old|QID|2702|M|33.4,66|Z|Swamp of Sorrows|N|To Corporal Thund Splithoof.
-A Heroes of Old|QID|2701|M|33.4,66|Z|Swamp of Sorrows|N|From Corporal Thund Splithoof.|LVL|45|PRE|2702|
-T Heroes of Old|QID|2701|M|33.5,66|Z|Swamp of Sorrows|N|To Spectral Lockbox.|
+T Heroes of Old|QID|2702|M|33.35,65.97|Z|Swamp of Sorrows|N|To Corporal Thund Splithoof.
+A Heroes of Old|QID|2701|M|33.35,65.97|Z|Swamp of Sorrows|N|From Corporal Thund Splithoof.|LVL|45|PRE|2702|
+T Heroes of Old|QID|2701|M|33.39,66.13|Z|Swamp of Sorrows|N|To Spectral Lockbox.|
+A Kirth|QID|2721|M|34.28,66.14|Z|Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde.|LVL|45|PRE|2701|
+C Kirith|QID|2721|Z|Swamp of Sorrows|N|Find out what became of Lieutenant Kirith.|
+T Kirith|QID|2721|M|68.93,31.00|Z|Blasted Lands|N|To Spirit of Kirith.|
+A The Cover of Darkness|QID|2743|M|68.4,31.2|Z|Blasted Lands|N|From Spirit of Kirith.|LVL|45|PRE|2721|
+T The Cover of Darkness|QID|2743|M|34.28,66.14|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde.|
+A The Demon Hunter|QID|2744|M|34.28,66.12|Z|Swamp of Sorrows|N|From Fallen Hero of the Horde.|LVL|45|PRE|2743|
 
-H Ironforge|M|PLAYER|Z|Swamp of Sorrows|N|Hearth back to Ironforge, or if for some reason you don't have it set or ready, fly to Western Plaguelands.|
-F Chillwind Camp|M|55.54,47.75|Z|Ironforge|N|Fly to Western Plaguelands.|
+H Ironforge|QID|6184|M|PLAYER|Z|Swamp of Sorrows|N|Hearth back to Ironforge, or if for some reason you don't have it set or ready, fly to Western Plaguelands.|
+F Chillwind Camp|QID|6184|M|55.54,47.75|Z|Ironforge|N|Fly to Western Plaguelands.|
 T Fire Plume Forged|QID|5801|M|42.66,83.77|Z|Western Plaguelands|N|To Alchemist Arbington. Hold on follow-up until you're ready to do scholomance and you can convice the group to kill Araj the Summoner to get your key. When you do, don't forget your Attuned Dampener.|
-T Flint Shadowmore|QID|6184|M|43.6,84.4|Z|Western Plaguelands|N|To Flint Shadowmore.|
-A The Eastern Plagues|QID|6185|M|43.6,84.4|Z|Western Plaguelands|N|From Flint Shadowmore.|LVL|56|PRE|6184|
+T Flint Shadowmore|QID|6184|M|43.61,84.50|Z|Western Plaguelands|N|To Flint Shadowmore.|
+A The Eastern Plagues|QID|6185|M|43.61,84.50|Z|Western Plaguelands|N|From Flint Shadowmore.|LVL|56|PRE|6184|
 
 F Light's Hope Chapel|QID|5246|M|42.93,85.06|Z|Western Plaguelands|N|Fly to Eastern Plaguelands.|
 T Fragments of the Past|QID|5246|M|53.51,21.99|Z|Eastern Plaguelands|N|To Aurora Skycaller. The follow-up will be out of scope for this guide. The chain continues in Feralas, back to Eastern Plaguelands, to winterspring and then Darnassus. Grab it if you would like, you will probably manage to complete it eventually between Dire Maul and Strat runs.|
 
 C Poisoned Water|QID|6804|M|63,80|Z|Eastern Plaguelands|QO|1|N|Use the Aspect of Neptulon on the various plagued water elementals and loot their Discordant Bracers.|U|17310|
-C Rutger|QID|6185|M|26.4,74.8|Z|Eastern Plaguelands|QO|1|NC|N|SI:7 Insignia.|
-C Fredo|QID|6185|M|27.3,75|Z|Eastern Plaguelands|QO|2|NC|N|SI:7 Insignia.|
-C Turyen|QID|6185|M|28.8,74.9|Z|Eastern Plaguelands|QO|3|NC|N|SI:7 Insignia.|
+C Rutger|QID|6185|M|28.81,79.87|Z|Eastern Plaguelands|QO|1|NC|N|Loot Rutgers SI:7 Insignia.|
+C Turyen|QID|6185|M|28.80,74.88|Z|Eastern Plaguelands|QO|3|NC|N|Loot Turyens SI:7 Insignia.|
+C Fredo|QID|6185|M|27.15,74.97|Z|Eastern Plaguelands|QO|2|NC|N|Loot Fredos SI:7 Insignia.|
 C The Eastern Plagues|QID|6185|M|26,74|Z|Eastern Plaguelands|N|The Blightcaller Uncovered. You don't have to actually fight him, just get close enough.|
 
-R Western Plaguelands|QID|5152|M|10.71,72.62|Z|Eastern Plaguelands|N|Make your way to Western Plaguelands.
-T The Eastern Plagues|QID|6185|M|43.6,84.4|Z|Western Plaguelands|N|To Flint Shadowmore.|
-A The Blightcaller Cometh|QID|6186|M|43.6,84.4|Z|Western Plaguelands|N|From Flint Shadowmore.|LVL|56|PRE|6185|
+R Western Plaguelands|QID|6185|M|10.71,72.62|Z|Eastern Plaguelands|N|Make your way to Western Plaguelands.
+T The Eastern Plagues|QID|6185|M|43.62,84.50|Z|Western Plaguelands|N|To Flint Shadowmore.|
+A The Blightcaller Cometh|QID|6186|M|43.62,84.50|Z|Western Plaguelands|N|From Flint Shadowmore.|LVL|56|PRE|6185|
 
-F Menethil Harbor|ACTIVE|6804^6805|M|42.93,85.06|Z|Western Plaguelands|N|Fly to Menethil Harbor.|
+F Menethil Harbor|ACTIVE|6804^6805|M|42.93,85.06|Z|Western Plaguelands|N|Fly to Menethil Harbor. Do NOT Hearth!|
 b Darkshore|ACTIVE|6804^6805|M|4.59,57.13|Z|Wetlands|N|Take the boat to Darkshore.|
 F Talrendis Point|ACTIVE|6804^6805|M|36.34,45.58|Z|Darkshore|N|Fly to Azshara.|
+C The Demon Hunter |QID|2744|M|60.82,66.35|Z|Swamp of Sorrows|CHAT|N|Speak with Loramus Thalipedes.|
+T The Demon Hunter|QID|2744|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes.|
+A Loramus|QID|3141|M|60.82,66.35|Z|Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|2744|
+C Loramus|QID|3141|M|60.82,66.35|Z|Azshara|CHAT|N|Listen to Loramus Thalipedes tell his story.|
+T Loramus|QID|3141|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes.|
+A Breaking the Ward|QID|3508|M|60.82,66.35|Z|Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3141|
+T Breaking the Ward|QID|3508|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes. Give him a few seconds to do his thing before you can turn it in.|
+A The Name of the Beast|QID|3509|M|60.82,66.35|Z|Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3508|
+T The Name of the Beast|QID|3509|M|77.13,42.81|Z|Azshara|N|To Lord Arkkoroc.|
+A The Name of the Beast|QID|3510|M|77.13,42.81|Z|Azshara|ELITE|N|[color=ff8000]Elite: [/color]From Lord Arkkoroc.|LVL|45|PRE|3509|
+C Beaten Head|QID|3510|M|56.53,44.35|Z|Azshara|N|Loot Hetaera's Beaten Head.|T|Hetaera|
+C Bloodied Head|QID|3510|Z|Azshara|QO|2|N|Loot Hetaera's Bloodied Head.|
+C Bruised Head|QID|3510|Z|Azshara|QO|3|N|Loot Hetaera's Bruised Head.|
+T The Name of the Beast|QID|3510|M|77.13,42.81|Z|Azshara|N|To Lord Arkkoroc.|
+A The Name of the Beast|QID|3511|M|77.13,42.81|Z|Azshara|N|From Lord Arkkoroc.|LVL|45|PRE|3510|
+C The Name of the Beast|QID|3511|Z|Azshara|N|Take the temper back to Loramus Thalipedes.|
+C The Name of the Beast 1|QID|3511|Z|Azshara|QO|1|N|Hetaera's Blood.|
+T The Name of the Beast|QID|3511|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes.|
+A Azsharite|QID|3602|M|60.82,66.35|Z|Azshara|ELITE|N|[color=ff8000]Elite: [/color]From Loramus Thalipedes.|LVL|45|PRE|3511|
+l Fel Orb|QID|3602|M|PLAYER|Z|Azshara|N|Get the Orb from the bag you just got.|L|10831|U|10834|
+C Azsharite|QID|3602|M|45.7,69.5;51.82,76.63;53.54,74.45;55.39,73.87;53.80,78.88;56.07,78.74;54.30,82.09;51.96,84.35;50.40,81.48;50.20,87.15;55.19,86.79;56.42,88.79;57.29,86.98;59.38,84.88;60.17,83.36;57.78,83.74;56.12,83.35|CN|Z|Azshara|N|Summon our Felhound Tracker, you will need to target it, and /roar for it to find the Crystallized Azsharite you need. Though not necessary, just loot the blue crystals and statues you see around|U|10831|
+T Azsharite|QID|3602|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes.|
+A The Formation of Felbane|QID|3621|M|60.8,66.4|Z|Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3602|
+
 T Poisoned Water|QID|6804|M|79.26,73.73|Z|Azshara|N|To Duke Hydraxis.|
 T Stormers and Rumblers|QID|6805|M|79.26,73.73|Z|Azshara|N|To Duke Hydraxis.|
-
+A Eye of the Emberseer|QID|6821|M|79.2,73.6|Z|Azshara|N|From Duke Hydraxis.|LVL|55|PRE|6804&6804|
 H Ironforge|ACTIVE|6186|M|PLAYER|Z|Azshara|N|Hearth back to Ironforge.|
 R Deeprun Tram|ACTIVE|6186|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|ACTIVE|6186|N|Take the tram ride and then run into Stormwind.|
 T The Blightcaller Cometh|QID|6186|M|78.22,18.01|Z|Stormwind City|N|To Highlord Bolvar Fordragon. Follow-up is a world raid quest to kill Blightcaller and is out of scope for the guide.|
 
+F Darkshire|ACTIVE|3621|M|66.29,62.13|Z|Stormwind City|N|Fly to Duskwood.|
+R Stranglethorn Vale|ACTIVE|3621|M|37.8,3.4|N|Run to Stranglethorn.|
+T The Formation of Felbane|QID|3621|M|50.6,20.4|Z|Stranglethorn Vale|N|To Galvan the Ancient.|
+A Enchanted Azsharite Fel Weaponry|QID|3625|M|50.6,20.4|Z|Stranglethorn Vale|N|From Galvan the Ancient.|LVL|45|PRE|3621|
+T Enchanted Azsharite Fel Weaponry|QID|3625|M|50.6,20.4|Z|Stranglethorn Vale|N|To Galvan the Ancient.|
+A Return to the Blasted Lands|QID|3626|M|50.6,20.4|Z|Stranglethorn Vale|N|From Galvan the Ancient.|LVL|45|PRE|3625|
+T Return to the Blasted Lands|QID|3626|M|34.2,66|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde. Save the weapon you chose because you need it for the next part.|
+A Uniting the Shattered Amulet|QID|3627|M|34.2,66|Z|Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde.|LVL|45|PRE|3626|
+C Uniting the Shattered Amulet 1|QID|3627|M|42.4,12.2|Z|Blasted Lands|QO|1|N|Amulet of Allistarj. You need to use the ability from the fel weapon you chose to be able to kill.|
+C Uniting the Shattered Amulet 2|QID|3627|M|66.8,29.4|Z|Blasted Lands|QO|2|N|Amulet of Grol. You need to use the ability from the fel weapon you chose to be able to kill.|
+C Uniting the Shattered Amulet 3|QID|3627|M|40.6,30.2|Z|Blasted Lands|QO|3|N|Amulet of Sevine. You need to use the ability from the fel weapon you chose to be able to kill.|
+T Uniting the Shattered Amulet|QID|3627|M|34.2,66|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde.|
+
 N The End|N|This is the end. Hopefully you're at least a bit into level 59 but there's really no more quests aside the rest of that 'Fragments of the Past' chain. At this point since we've done pretty much everything, the lingering quests are your dungeon quests. Go pick them up, run Strat, Scholomance, Blackrock Spire or even finish up BRD if you haven't yet. You have lots of quests for those places. Dungeon Guides for them will follow soon, Scholomance guide will include the final parts of the key. If you went that route you can also do the 'Alas, Andorhal' quest along with it. |
+
+;A Araj's Scarab|QID|5803|M|42.66,83.77|Z|Western Plaguelands|ELITE|N|[color=ff8000]Elite: [/color]From Alchemist Arbington.|LVL|55|PRE|5801|
+;A Alas, Andorhal|QID|211|M|42.70,84.03|Z|Western Plaguelands|ELITE|N|[color=ff8000]Elite: [/color]From Commander Ashlam Valorfist.|LVL|50|PRE|5097|
+;C Alas, Andorhal|QID|211|M|45.4,69|Z|Western Plaguelands|N|Loot Araj's Phylactery Shard.|
+;C Araj's Scarab|QID|5803|M|45,68.9|Z|Western Plaguelands|N|Destroy Araj the Summoner and loot Araj's Scarab.|
+;T Alas, Andorhal|QID|211|M|42.70,84.03|Z|Western Plaguelands|N|To Commander Ashlam Valorfist.|
+;T Araj's Scarab|QID|5803|M|42.6,83.8|Z|Western Plaguelands|N|To Alchemist Arbington.|
 ]]
 end)
