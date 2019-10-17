@@ -84,7 +84,6 @@ A Mazzranache|QID|766|M|46.99,57.07|N|From Maur Raincaller.|
 
 h Bloodhoof Village|QID|1656|M|46.70,61.00|N|At Innkeeper Kauth.|
 T A Task Unfinished|QID|1656|M|46.62,61.09|N|To Innkeeper Kauth.|
-A Dwarven Digging|QID|746|M|47.51,60.17|N|From Baine Bloodhoof.|
 C Poison Water|QID|748|QO|1;2|N|Kill Prairie Wolves and Plainstriders on your way.|R|Tauren|S|
 C Swoop Hunting|QID|761|QO|1|N|Kill Swoops you encounter on your way for their Trophy Quills.|S|
 C Mazzranache|QID|766|QO|1;3;4|N|Kill Prairie Wolves, Plainstriders and Swoops on the way until you get the parts.|S|
@@ -117,6 +116,7 @@ T Winterhoof Cleansing|QID|754|M|48.53,60.39|N|To Mull Thunderhorn.|
 A Thunderhorn Totem|QID|756|M|48.53,60.39|N|From Mull Thunderhorn.|PRE|754|
 T Dangers of the Windfury|QID|743|M|47.35,62.01|N|From Ruul Eagletalon.|
 T Sharing the Land|QID|745|M|47.51,60.17|N|To Baine Bloodhoof.|
+A Dwarven Digging|QID|746|M|47.51,60.17|N|From Baine Bloodhoof.|
 T Mazzranache|QID|766|M|46.99,57.07|N|To Maur Raincaller.|
 r Sell Junk and Repair|QID|756|M|45.90,58.73|N|Sell Junk and repair and train your skills before heading out again.|
 
@@ -196,10 +196,10 @@ R Exit Thunder Bluff|QID|759|M|67.42,28.69;50.85,32.38|Z|Thunder Bluff|CS|N|Use 
 C Wildmane Totem|QID|759|QO|1|N|Kill Prairie Wolf Alphas on the way.|S|
 C The Hunter's Way|QID|861|QO|1|N|Kill Flatland Prowlers on the way.|S|
 C Preparation for Ceremony|QID|744|M|51.87,6.26;54.82,11.00;56.06,15.82|CC|QO|1;2|N|Kill Windfury Matriarchs and Sorceresses for their Feathers at these locations.|
-C Rites of the Earthmother|QID|776|M|51.22,13.51;56.55,29.44;53.12,14.89;54.48,19.67;53.96,23.12;55.20,31.05;54.50,32.29;52.94,32.13;52.10,31.46;51.94,27.58;50.81,25.20;49.54,20.95;49.10,16.60|CN|QO|1|N|Kill Arra'chea for his Horn. He travels clockwise.|
+C Rites of the Earthmother|QID|776|M|51.22,13.51;56.55,29.44;53.12,14.89;54.48,19.67;53.96,23.12;55.20,31.05;54.50,32.29;52.94,32.13;52.10,31.46;51.94,27.58;50.81,25.20;49.54,20.95;49.10,16.60|CC|QO|1|N|Kill Arra'chea for his Horn. He travels clockwise.|
 C Wildmane Totem|QID|861|M|56.55,29.44|QO|1|N|Kill Flatland Prowlers on the way.|US|
 C The Hunter's Way|QID|861|M|53.19,34.87|QO|1|N|Kill Flatland Prowlers.|US|
-R Venture Co. Mine|QID|764|M|60.58,49.77|N|Run to the Venture Co. Mine.|
+R Venture Co. Mine|QID|764|M|60.58,49.77|CC|N|Run to the Venture Co. Mine.|
 C The Venture Co.|QID|764|QO|1;2|N|Kill Venture Co. Workers and Supervisors on the way.|S|
 K Supervisor Fizsprocket|QID|765|M|61.45,47.22;64.83,43.40|CS|L|4819|N|Carefully work your way into the mine and kill Supervisor Fizsprocket and loot his Clipboard. He is level 12.|
 C The Venture Co.|QID|764|QO|1;2|N|Kill the remaining Venture Co. Workers and Supervisors for this quest.|US|
@@ -213,7 +213,7 @@ T The Hunter's Way|QID|861|M|61.52,80.92|Z|Thunder Bluff|N|To Melor Stonehoof.|
 A Sergra Darkthorn|QID|860|M|61.52,80.92|Z|Thunder Bluff|N|From Melor Stonehoof.|PRE|861|
 T Rites of the Earthmother|QID|776|M|60.26,51.69|Z|Thunder Bluff|N|To Cairne Bloodhoof.|
 R Exit Thunder Bluff|QID|760|M|50.85,32.38|Z|Thunder Bluff|N|Use the lifts on the north side to exit Thunder Bluff.|
-C Wildmane Cleansing|QID|760|M|42.65,14.23|U|5416|N|Clear your way to the well and use the Wildmane Totem.|
+C Wildmane Cleansing|QID|760|M|42.65,14.23|U|5416|N|Clear your way to the well and use the Wildmane Totem.|NC|
 H Bloodhoof Village|QID|760|
 T Wildmane Cleansing|QID|760|M|48.53,60.39|N|To Mull Thunderhorn.|R|Tauren|
 R Camp Taurajo|QID|886|M|69.70,60.50;75.90,61.00|CS|N|Run to Camp Taurajo.|
