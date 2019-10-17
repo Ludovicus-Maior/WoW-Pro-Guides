@@ -384,9 +384,7 @@ T Breaking the Ward|QID|3508|M|60.82,66.35|Z|Azshara|N|To Loramus Thalipedes. Gi
 A The Name of the Beast|QID|3509|M|60.82,66.35|Z|Azshara|N|From Loramus Thalipedes.|LVL|45|PRE|3508|
 T The Name of the Beast|QID|3509|M|77.13,42.81|Z|Azshara|N|To Lord Arkkoroc.|
 A The Name of the Beast|QID|3510|M|77.13,42.81|Z|Azshara|ELITE|N|[color=ff8000]Elite: [/color]From Lord Arkkoroc.|LVL|45|PRE|3509|
-C Beaten Head|QID|3510|M|56.53,44.35|Z|Azshara|N|Loot Hetaera's Beaten Head.|T|Hetaera|
-C Bloodied Head|QID|3510|Z|Azshara|QO|2|N|Loot Hetaera's Bloodied Head.|
-C Bruised Head|QID|3510|Z|Azshara|QO|3|N|Loot Hetaera's Bruised Head.|
+C Beaten Head|QID|3510|M|56.53,44.35|Z|Azshara|N|[color=ff8000]Elite: [/color]Kill Hetaera and loot her 3 heads.|T|Hetaera|
 T The Name of the Beast|QID|3510|M|77.13,42.81|Z|Azshara|N|To Lord Arkkoroc.|
 A The Name of the Beast|QID|3511|M|77.13,42.81|Z|Azshara|N|From Lord Arkkoroc.|LVL|45|PRE|3510|
 C The Name of the Beast|QID|3511|Z|Azshara|N|Take the temper back to Loramus Thalipedes.|
@@ -408,17 +406,24 @@ T The Blightcaller Cometh|QID|6186|M|78.22,18.01|Z|Stormwind City|N|To Highlord 
 
 F Darkshire|ACTIVE|3621|M|66.29,62.13|Z|Stormwind City|N|Fly to Duskwood.|
 R Stranglethorn Vale|ACTIVE|3621|M|37.8,3.4|N|Run to Stranglethorn.|
-T The Formation of Felbane|QID|3621|M|50.6,20.4|Z|Stranglethorn Vale|N|To Galvan the Ancient.|
-A Enchanted Azsharite Fel Weaponry|QID|3625|M|50.6,20.4|Z|Stranglethorn Vale|N|From Galvan the Ancient.|LVL|45|PRE|3621|
-T Enchanted Azsharite Fel Weaponry|QID|3625|M|50.6,20.4|Z|Stranglethorn Vale|N|To Galvan the Ancient.|
-A Return to the Blasted Lands|QID|3626|M|50.6,20.4|Z|Stranglethorn Vale|N|From Galvan the Ancient.|LVL|45|PRE|3625|
-T Return to the Blasted Lands|QID|3626|M|34.2,66|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde. Save the weapon you chose because you need it for the next part.|
-A Uniting the Shattered Amulet|QID|3627|M|34.2,66|Z|Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde.|LVL|45|PRE|3626|
-C Uniting the Shattered Amulet 1|QID|3627|M|42.4,12.2|Z|Blasted Lands|QO|1|N|Amulet of Allistarj. You need to use the ability from the fel weapon you chose to be able to kill.|
-C Uniting the Shattered Amulet 2|QID|3627|M|66.8,29.4|Z|Blasted Lands|QO|2|N|Amulet of Grol. You need to use the ability from the fel weapon you chose to be able to kill.|
-C Uniting the Shattered Amulet 3|QID|3627|M|40.6,30.2|Z|Blasted Lands|QO|3|N|Amulet of Sevine. You need to use the ability from the fel weapon you chose to be able to kill.|
-T Uniting the Shattered Amulet|QID|3627|M|34.2,66|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde.|
+T The Formation of Felbane|QID|3621|M|50.61,20.48|Z|Stranglethorn Vale|N|To Galvan the Ancient.|
+A Enchanted Azsharite Fel Weaponry|QID|3625|M|50.61,20.48|Z|Stranglethorn Vale|N|From Galvan the Ancient.|LVL|45|PRE|3621|
+T Enchanted Azsharite Fel Weaponry|QID|3625|M|50.61,20.48|Z|Stranglethorn Vale|N|To Galvan the Ancient.|
+A Return to the Blasted Lands|QID|3626|M|50.61,20.48|Z|Stranglethorn Vale|N|From Galvan the Ancient.|LVL|45|PRE|3625|
 
+R Duskwood|ACTIVE|3626|M|39.37,5.52;40.77,4.13;40.58,3.08|Z|Stranglethorn Vale|CS|N|Run to Duskwood. After this next turn-in, you will need a group. Next quests are impossible to solo unfortunately if you've been soloing up to this point.|
+F Nethergarde Keep|ACTIVE|3626|M|77.48,44.29|Z|Duskwood|N|Fly to the Blasted Lands. After this next turn-in, you will need a group. Next quests are impossible to solo unfortunately if you've been soloing up to this point.|
+T Return to the Blasted Lands|QID|3626|M|34.28,66.14|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde. After this next turn-in, you will need a group. Next quests are impossible to solo unfortunately if you've been soloing up to this point.|
+A Uniting the Shattered Amulet|QID|3627|M|34.28,66.14|Z|Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde. You will need a group for this!|LVL|45|PRE|3626|
+l Fel Salve|ACTIVE|3627|M|34.28,66.14|Z|Swamp of Sorrows|N|Talk to The Fallen Hero again and tell him you destroyed your weapon, even if you didn't and you will get a Fel Salve you can use on the boss instead of equiping the weapon.|L|11582|
+K Grol|QID|3627|M|42.58,12.97|Z|Blasted Lands|QO|2|N|[color=ff8000]Elite: [/color]Amulet of Grol.|U|11582||
+K Sevine|QID|3627|M|40.6,30.2|Z|Blasted Lands|QO|3|N|[color=ff8000]Elite: [/color]Amulet of Sevine.|U|11582|
+K Allistarj|QID|3627|M|66.75,29.24|Z|Blasted Lands|QO|1|N|[color=ff8000]Elite: [/color]Amulet of Allistarj.|U|11582|
+T Uniting the Shattered Amulet|QID|3627|M|34.28,66.14|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde.|
+A You Are Rakh'likh, Demon|QID|3628|M|34.2,66|Z|Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde.|LVL|45|PRE|3627|
+C You Are Rakh'likh, Demon|QID|3628|M|48,23|Z|Blasted Lands|N|[color=ff8000]Elite: [/color]Talk to the ghost at the waypoint who will teleport you up top. Destroy Razelikh the Defiler. Boss requires a tank and heals, he also has a massive cleave so he has to be tanked away from the group.|U|10757|
+
+T You Are Rakh'likh, Demon|QID|3628|M|34.2,66|Z|Swamp of Sorrows|N|To Fallen Hero of the Horde.|
 N The End|N|This is the end. Hopefully you're at least a bit into level 59 but there's really no more quests aside the rest of that 'Fragments of the Past' chain. At this point since we've done pretty much everything, the lingering quests are your dungeon quests. Go pick them up, run Strat, Scholomance, Blackrock Spire or even finish up BRD if you haven't yet. You have lots of quests for those places. Dungeon Guides for them will follow soon, Scholomance guide will include the final parts of the key. If you went that route you can also do the 'Alas, Andorhal' quest along with it. |
 
 ;A Araj's Scarab|QID|5803|M|42.66,83.77|Z|Western Plaguelands|ELITE|N|[color=ff8000]Elite: [/color]From Alchemist Arbington.|LVL|55|PRE|5801|
