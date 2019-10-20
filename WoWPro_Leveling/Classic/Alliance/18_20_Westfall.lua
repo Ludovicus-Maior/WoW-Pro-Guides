@@ -65,7 +65,7 @@ A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the S
 N The Deadmines|ACTIVE|167|N|You may do the Deadmines at this point. Otherwise grind until you're level 20.|
 
 F Lakeshire|ACTIVE|116|M|66.28,62.16|Z|Stormwind City|N|Fly to Redridge.|TZ|Redridge Mountains|
-t Return to Verner|QID|119|M|30.97,47.27|N|To Verner Osgood.|;if not done elwynn guide --
+t Return to Verner|QID|119|M|30.97,47.27|Z|Redridge Mountains|N|To Verner Osgood.|;if not done elwynn guide --
 t Messenger to Stormwind|QID|121|M|29.99,44.44|Z|Redridge Mountains|N|To Magistrate Solomon.|
 A Messenger to Westfall|QID|143|M|29.99,44.44|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|121|
 T Dry Times|QID|116|M|26.49,43.95|Z|Redridge Mountains|N|To Barkeep Daniels.|
