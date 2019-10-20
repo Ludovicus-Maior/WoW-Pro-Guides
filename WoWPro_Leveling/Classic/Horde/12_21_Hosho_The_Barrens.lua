@@ -162,11 +162,13 @@ T Samophlange|QID|901|N|At this point, you can throw away the Control Console Op
 A Samophlange|QID|902|PRE|901|M|52.4,11.7|
 
 C Echeyakee|QID|881|U|10327|N|Go to the kodo bones to the south. Clear the area and use the horn to summon Echeyakee|M|55.9,17.1|
-K Razormane Defenders|QID|872|M|59.6,24.4|QO|1|N|Kill Razormane Defenders.|S!US|
-K Razormane Geomancers|QID|872|M|59.4,27.6|QO|2|N|Kill Razormane Geomancers|S!US|
+K Razormane Defenders|QID|872|M|59.6,24.4|QO|1|N|Kill Razormane Defenders.|S|
+K Razormane Geomancers|QID|872|M|59.4,27.6|QO|2|N|Kill Razormane Geomancers|S|
 C Supplies for the Crossroads|QID|5041|S|N|Check for the crates. If they aren't there, they are probably across the way near Kreenig Snarlsnout.|M|59.5,24;58.53,25.89|CN|
 K Kreenig Snarlsnout|ACTIVE|872|QO|3|T|Kreenig Snarlsnout|N|Kreenig Snarlsnout patrolls around. Kill him and loot his tusk.|M|58.6,27|
 C Supplies for the Crossroads|QID|5041|US|N|Check for the crates. If they aren't there, they are probably across the way near Kreenig Snarlsnout.|M|59.5,24;58.53,25.89|CN|
+K Razormane Defenders|QID|872|M|59.6,24.4|QO|1|N|Kill Razormane Defenders.|US|
+K Razormane Geomancers|QID|872|M|59.4,27.6|QO|2|N|Kill Razormane Geomancers|US|
 T Samophlange|QID|902|N|Head south again, towards Ratchet.|M|63.0,37.2|
 A Wenikee Boltbucket|QID|3921|PRE|902|M|63.0,37.2|
 
