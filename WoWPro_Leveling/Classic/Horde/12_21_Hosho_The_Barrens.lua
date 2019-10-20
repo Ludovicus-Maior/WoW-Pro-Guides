@@ -236,10 +236,8 @@ A The Escape|QID|863|PRE|858|M|56.4,7.4|N|From Wizzlecrank's Shredder.|
 C The Escape|QID|863|M|56,7|N|When we first start, make long pulls and killing the Drudgers and Mercenaries to the west of you. Continue to make long pulls while he heads west. Stay close to him, so that he will help you fight your attackers. Try not to let things run away. After a short while, the shredder will turn north up a ramp, and stop. Two Venture Co. mobs will spawn and attack you.|
 C Nugget Slugs|QID|3922|M|56,7|N|Now, patrol the area looting any more Nugget Slugs you need.|US|
 
-R Ogrimmar|QID|3922|M|62.9,7.7;63.2,2.9|CS|N|Tauren, it is time for you to visit the Horde's capital if you haven't already. (If you already have, skip this part). Walk East, and don't stop walking until you reach a river. When you hit the river, turn north. You will come to a bridge, cross over the bridge, you will find the Orgrimmar West Gate.|TAXI|-Ogrimmar|
-f Orgrimmar|QID|3922|R|Tauren|N|He is at the top of the Skytower in the Valley of Strength|M|45.2,64.6|Z|Orgrimmar|
-R The Barrens|QID|3922|R|Tauren|N|Head back to the Barrens|M|15.6,61.7|Z|Orgrimmar|
-R Sludge Fen|QID|3922|R|Tauren|N|Go back to the Sludge Fen by the same route you came by|M|56.4,7.7|
+R Orgrimmar|QID|3922|M|62.9,7.7;63.2,2.9|CS|N|It is time for you to visit the Horde's capital and get the flight point. Walk East, and don't stop walking until you reach a river. When you hit the river, turn north. You will come to a bridge, cross over the bridge, you will find the Orgrimmar West Gate.|TAXI|-Orgrimmar|
+f Orgrimmar|QID|3922|N|He is at the top of the Skytower in the Valley of Strength|M|45.2,64.6|Z|Orgrimmar|
 
 T Nugget Slugs|QID|3922|M|49,11.2|N|To Wenikee Boltbucket.|
 A Rilli Greasygob|QID|3923|PRE|3922|M|49,11.2|N|From Wenikee Boltbucket.|
