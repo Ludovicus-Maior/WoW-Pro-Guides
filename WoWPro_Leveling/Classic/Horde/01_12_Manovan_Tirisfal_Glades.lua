@@ -180,8 +180,6 @@ A Speak with Anastasia|QID|1881|C|Mage|M|61.96,52.45|N|From Cain Firesong at the
 A Mennet Carkad|QID|1885|C|Rogue|M|61.74,52.01|N|From Marion Cal upstairs at the Tavern.|LVL|10|
 ; Warlock
 A Halgar's Summons|QID|1478|C|Warlock|M|61.62,52.66|N|From Ageron Kargal upstairs at the Tavern.|LVL|10|
-; Priest
-A Touch of Weakness|QID|5663|C|Priest|M|61.58,52.20|N|From Dark Cleric Beryl upstairs at the Tavern.|LVL|10|
 ; Warrior
 A Speak with Dillinger|QID|1818|C|Warrior|M|61.9,52.5|N|From Austil de Mon inside the Tavern.|LVL|10|
 T Speak with Dillinger|QID|1818|C|Warrior|M|58.20,51.45|N|To Deathguard Dillinger.|LVL|10|
@@ -209,6 +207,9 @@ A The Lich's Identity|QID|357|M|84.05,17.37|Z|Undercity|N|From Bethor Iceshard.|
 ;Mage
 T Speak with Anastasia|QID|1881|C|Mage|M|85.13,10.07|Z|Undercity|N|To Anastasia Hartwell in the Magic Quarter.|
 A The Balnir Farmstead|QID|1882|C|Mage|M|85.13,10.07|Z|Undercity|N|From Anastasia Hartwell.|PRE|1881|
+; Priest
+A Touch of Weakness|QID|5658|C|Priest|R|Undead|M|49.28,18.36|Z|Undercity|N|From Aelthalyste.|LVL|10|
+T Touch of Weakness|QID|5658|C|Priest|R|Undead|M|49.28,18.36|Z|Undercity|N|Turn into Aelthalyste.|LVL|10|
 ; Rogue
 T Mennet Carkad|QID|1885|C|Rogue|M|83.51,69.10|Z|Undercity|N|To Mennet Carkad in the Rogues' Quarter.|
 A The Deathstalkers|QID|1886|C|Rogue|M|83.51,69.10|Z|Undercity|N|From Mennet Carkad.|PRE|1885|
