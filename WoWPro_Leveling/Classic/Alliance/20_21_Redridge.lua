@@ -60,7 +60,7 @@ T A Baying of Gnolls|QID|124|M|30.96,47.27|N|To Verner Osgood.|
 T Selling Fish|QID|127|M|27.8,47.3|N|To Dockmaster Baren.|
 T Murloc Poachers|QID|150|M|27.8,47.3|N|To Dockmaster Baren.|
 
-H Stormwind City|ACTIVE|347|M|PLAYER|N|Hearth, or otherwise return to Stormwind.|
+H Stormwind City|ACTIVE|347|M|31.00,59.00|N|Hearth, or otherwise return to Stormwind.|
 T Rethban Ore|QID|347|M|49.6,40.3|Z|Elwynn Forest|N|To Brother Paxton in Northshire.|LVL|20|
 A Return to Kristoff|QID|346|M|49.6,40.3|Z|Elwynn Forest|N|From Brother Paxton in Northshire.|PRE|347|LVL|20|
 = Train|N|If needed, Don't forget to train while you are in town. (check step off manually)|

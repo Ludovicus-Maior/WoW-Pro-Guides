@@ -96,7 +96,7 @@ A Winterhoof Cleansing|QID|754|M|48.53,60.39|N|From Mull Thunderhorn.|R|Tauren|P
 T Rite of Vision|QID|771|M|47.76,57.54|N|To Zarlman Two-Moons.|
 A Rite of Vision|QID|772|M|47.76,57.54|N|From Zarlman Two-Moons.|PRE|771|
 N Rite of Vision|QID|772|U|4823|N|Use the Water of the Seers, a 30 second cast. Ignore the Plains Vision. You can't destroy the Water, doing so will automatically cancel the quest. Right-Click this step to continue.|
-;t Mazzranache|QID|766|M|46.99,57.07|N|To Maur Raincaller.|
+; --- Commented out to improve guide flow without removing it.  t Mazzranache|QID|766|M|46.99,57.07|N|To Maur Raincaller.|
 r Sell Junk and Repair|QID|754|M|45.90,58.73|N|Sell Junk and repair before heading out again.|
 C Winterhoof Cleansing|QID|754|M|53.67,66.34|QO|1|U|5411|N|Clear your way to the well and use the provided Winterhoof Cleansing Totem.|
 C Sharing the Land|QID|745|M|53.60,73.13;48.56,73.11|CN|QO|1;2;3|N|There are multiple Palemane camps to choose from, but only the east one has Poachers. Watch out for Snagglespear, a rare that hits relatively hard.|
@@ -212,23 +212,23 @@ T Preparation for Ceremony|QID|744|M|37.69,59.57|Z|Thunder Bluff|N|To Eyahn Eagl
 T The Hunter's Way|QID|861|M|61.52,80.92|Z|Thunder Bluff|N|To Melor Stonehoof.|
 A Sergra Darkthorn|QID|860|M|61.52,80.92|Z|Thunder Bluff|N|From Melor Stonehoof.|PRE|861|
 T Rites of the Earthmother|QID|776|M|60.26,51.69|Z|Thunder Bluff|N|To Cairne Bloodhoof.|
-R Exit Thunder Bluff|QID|760|M|50.85,32.38|Z|Thunder Bluff|N|Use the lifts on the north side to exit Thunder Bluff.|
-C Wildmane Cleansing|QID|760|M|42.65,14.23|U|5416|N|Clear your way to the well and use the Wildmane Totem.|NC|
+R Exit Thunder Bluff|QID|760|M|50.85,32.38|Z|Thunder Bluff|CC|N|Use the lifts on the north side to exit Thunder Bluff.|
+C Wildmane Cleansing|QID|760|M|42.65,14.23|QO|1|U|5416|N|Clear your way to the well and use the Wildmane Totem.\n\n[color=FF0000]NOTE: [/color]Pulling the Supervisor will draw EVERYONE around him.|NC|
 H Bloodhoof Village|QID|760|
 T Wildmane Cleansing|QID|760|M|48.53,60.39|N|To Mull Thunderhorn.|R|Tauren|
 R Camp Taurajo|QID|886|M|69.70,60.50;75.90,61.00|CS|N|Run to Camp Taurajo.|
 f Camp Taurajo|QID|886|M|44.44,59.15|Z|The Barrens|N|Get the flight point at Omusa Thunderhorn.|
 A Journey to the Crossroads|QID|854|M|44.88,58.61|Z|The Barrens|N|From Kirge Sternhorn.|R|Tauren|
-R The Crossroads|QID|886|M|47.31,57.64;51.07,49.00;52.06,32.10|CS|Z|The Barrens|N|Run to the Crossroads while staying on the road.|
+R The Crossroads|QID|886|M|47.31,57.64;51.07,49.00;52.06,32.10|CS|Z|The Barrens|N|Run to the Crossroads while staying on the road.\n\n[color=FF0000]NOTE: [/color]If you stray from the road, you will die. Some of the mobs will be up to 5+ levels above you.|
 T The Barrens Oases|QID|886|M|52.26,31.93|Z|The Barrens|N|To Tonga Runetotem.|
 A The Forgotten Pools|QID|870|M|52.26,31.93|Z|The Barrens|N|From Tonga Runetotem.|PRE|886|
 T Sergra Darkthorn|QID|860|M|52.23,31.01|Z|The Barrens|N|To Sergra Darkthorn.|
-A Plainstrider Menace|QID|844|M|52.23,31.01|Z|The Barrens|N|From Sergra Darkthorn.|
+A Plainstrider Menace|QID|844|M|52.23,31.01|Z|The Barrens|N|From Sergra Darkthorn.|PRE|860|
 T Journey to the Crossroads|QID|854|M|51.50,30.87|Z|The Barrens|N|To Thork.|R|Tauren|
 A A Bundle of Hides|QID|6361|M|51.21,29.05|Z|The Barrens|N|From Jahan Hawkwing.|R|Tauren|
 f The Crossroads|QID|6361|M|51.50,30.33|Z|The Barrens|N|At Devrak.|
 T A Bundle of Hides|QID|6361|M|51.50,30.33|Z|The Barrens|N|To Devrak.|
-A Ride to Thunder Bluff|QID|6362|PRE|6361|M|51.50,30.33|Z|The Barrens|N|From Devrak.|R|Tauren|
+A Ride to Thunder Bluff|QID|6362|M|51.50,30.33|Z|The Barrens|N|From Devrak.|PRE|6361|R|Tauren|
 F Thunder Bluff|QID|6362|Z|The Barrens|R|Tauren|
 T Ride to Thunder Bluff|QID|6362|M|45.73,55.83|Z|Thunder Bluff|N|To Ahanu, in a tent at the lowest level from the tower.|
 A Tal the Wind Rider Master|QID|6363|M|45.73,55.83|Z|Thunder Bluff|N|From Ahanu.|PRE|6362|R|Tauren|
