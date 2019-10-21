@@ -623,7 +623,12 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
         WoWPro.Guides[GID].acnt_level = WoWPro.Guides[GID].acnt_level + 1
 	end
 
-	WoWPro.why[i] = "I dunno."
+    if WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].completion and WoWProCharDB.Guide[GID].completion[i] then
+        WoWPro.why[i] = WoWProCharDB.Guide[GID].completion[i]
+    else
+        WoWPro.why[i] = "I dunno."
+    end
+
 
     -- If there is a note, expand any markup.
     if WoWPro.note[i] then
