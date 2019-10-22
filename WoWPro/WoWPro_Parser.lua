@@ -521,6 +521,9 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	    WoWPro:GrailCheckQuestName(GID,WoWPro.QID[i],WoWPro.step[i])
 	    WoWPro:GrailIsQuestObsolete(GID,WoWPro.QID[i],WoWPro.step[i])
 	end
+    if WoWPro.action[i] == "h" then
+        WoWPro.step[i] = L[WoWPro.step[i]]
+    end
 	if WoWPro.map[i] then
 		if (WoWPro.map[i] == "PLAYER") then
 			local x, y, z = WoWPro:GetPlayerZonePosition()

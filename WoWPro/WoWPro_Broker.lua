@@ -3065,7 +3065,7 @@ function WoWPro:GrailCheckQuestName(guide,QID,myname)
     end
 end
 
-function WoWPro:GrailLocalizeQuestName(guide,QID, old_name)
+function WoWPro:GrailLocalizeQuestName(guide, QID, old_name)
     if not Grail then return old_name end
 	if QID == "*" then return old_name end
 	if strsub(GetLocale(), 1, 2) == "en" then return old_name end
@@ -3075,8 +3075,7 @@ function WoWPro:GrailLocalizeQuestName(guide,QID, old_name)
 	end
 	local qid = tonumber(QID)
 	if not qid then return old_name end
-    local gName = Grail:QuestName(qid)
-	return gName
+	return Grail:QuestName(qid) or old_name
 end
 
 
