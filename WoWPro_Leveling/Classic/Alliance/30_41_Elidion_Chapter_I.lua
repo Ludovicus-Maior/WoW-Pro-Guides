@@ -177,11 +177,11 @@ C Panther Mastery|QID|191|M|30.00,9.00|Z|Stranglethorn Vale|N|Kill "Panthers", n
 C Tiger Mastery|QID|186|M|30.00,9.00|Z|Stranglethorn Vale|US|N|Finish killing Tigers before you move on.|
 C Raptor Mastery|QID|194|M|27.80,14.80|Z|Stranglethorn Vale|US|N|Go southwest and kill 10 Stranglethorn Raptors.|
 C Bloodscalp Ears|QID|189|M|29.00,20.00|Z|Stranglethorn Vale|S|N|Get 15 bloodscalp ears from the Trolls here.|
-C The Emperor's Tomb|QID|207|QO|4|M|24.70,8.90|NC|N|Inside the ruins up to the top and go right.|
-C Fall of Gurubashi|QID|207|QO|3|M|22.96,12.02|NC|N|Back out to the main road, stay left, don't go down.|
+C The Emperor's Tomb|QID|207|QO|4|M|24.70,8.90|NC|Z|Stranglethorn Vale|N|Inside the ruins up to the top and go right.|
+C Fall of Gurubashi|QID|207|QO|3|M|22.96,12.02|NC|Z|Stranglethorn Vale|N|Back out to the main road, stay left, don't go down.|
 C The Stone of the Tides|QID|578|M|21.00,22.00|Z|Stranglethorn Vale|N|Swim to the island until you get the quest complete message for The Stone of the Tides.|
-C "Gri"lek the Wanderer|QID|207|QO|2|M|24.75,22.86|NC|N|Loot the scroll from the tablet underwater at this location.|
-C Moon Over the Vale|QID|207|QO|1|M|29.49,19.15|NC|N|Loot the scroll from the Tablet at this location.|
+C "Gri"lek the Wanderer|QID|207|QO|2|M|24.75,22.86|NC|Z|Stranglethorn Vale|N|Loot the scroll from the tablet underwater at this location.|
+C Moon Over the Vale|QID|207|QO|1|M|29.49,19.15|NC|Z|Stranglethorn Vale|N|Loot the scroll from the Tablet at this location.|
 C Singing Blue Shards|QID|605|M|26.80,18.70|Z|Stranglethorn Vale|S|N|Feel free to kill Basilisks to the west if you are waiting for respawns.|
 C Bloodscalp Ears|QID|189|M|29.00,20.00|Z|Stranglethorn Vale|US|N|Get 15 bloodscalp ears from the Trolls here.|
 C Singing Blue Shards|QID|605|M|26.80,18.70|Z|Stranglethorn Vale|US|N|Go west and kill Basilisks until you get ten Singing Crystal Shards.|
@@ -194,7 +194,7 @@ C Supply and Demand|QID|575|M|40.6,13.3|Z|Stranglethorn Vale|US|N|Kill River Cro
 A The Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|Stranglethorn Vale|N|From Barnil Stonepot. You must have this quest for the chapter quests to show up.|PRE|583|
 N Green Hills of Stranglethorn|QID|338|M|35.66,10.53|Z|Stranglethorn Vale|N|In an effort to not clutter your quest log, only accept any Green Hills of Stranglethorn quests that you can turn in while you are here. You won't be directed to accept any of these quests.\n\nChapter 1: Pages 1, 4, 6, 8\nChapter 2: Pages 10, 11, 14, 16\nChapter 3: Pages 18, 20, 21, 24\nChapter 4: Pages 25, 26, 27|
 r Repair and Sell|QID|605|M|35.76,10.66|Z|Stranglethorn Vale|N|Bags will get full quickly here. |
-T Kurzen's Mystery|QID|207|M|37.83,3.56|N|To Brother Nimetz.|
+T Kurzen's Mystery|QID|207|M|37.83,3.56|Z|Stranglethorn Vale|N|To Brother Nimetz.|
 
 H The Salty Sailor Tavern|QID|605|N|Hearth to Booty Bay.|Z|Stranglethorn Vale|
 T Singing Blue Shards|QID|605|M|27.12,77.21|Z|Stranglethorn Vale|N|To Crank Fizzlebub. Skip follow-up for now.|
