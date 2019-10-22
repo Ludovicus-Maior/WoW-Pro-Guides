@@ -3065,6 +3065,21 @@ function WoWPro:GrailCheckQuestName(guide,QID,myname)
     end
 end
 
+function WoWPro:GrailLocalizeQuestName(guide,QID, old_name)
+    if not Grail then return old_name end
+	if QID == "*" then return old_name end
+	if strsub(GetLocale(), 1, 2) == "en" then return old_name end
+    if not QID then
+        WoWPro:Warning("In guide %s, quest [%s]  does not have a QID",guide,tostring(old_name))
+        return old_name
+	end
+	local qid = tonumber(QID)
+	if not qid then return old_name end
+    local gName = Grail:QuestName(qid)
+	return gName
+end
+
+
 local GrailQuestLevelOK = nil
 
 function WoWPro.GrailQuestLevelOK()
