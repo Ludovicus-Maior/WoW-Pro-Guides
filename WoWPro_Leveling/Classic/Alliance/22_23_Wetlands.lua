@@ -36,6 +36,7 @@ C The Algaz Gauntlet|QID|455|M|55,83.5;49,79;47.6,76.1|CS|N|Go to the orc camp a
 A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|R|-NightElf|
 T The Algaz Gauntlet|QID|455|M|10.09,56.9|N|To Valstag Ironjaw.|
 T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|R|-NightElf|
+F Menethil Harbor|QID|270|M|55.3,47.6|N|Fly to Menethil Harbor.|R|NightElf|
 A Young Crocolisk Skins|QID|484|M|8.49,55.7|N|From James Halloran.|
 A Claws from the Deep|QID|279|M|8.33,58.52|N|From Karl Boran.|
 f Menethil Harbor|QID|279|N|Get the flight path.|M|9.50, 59.70|
