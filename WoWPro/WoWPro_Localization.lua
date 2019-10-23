@@ -30,6 +30,9 @@ if loc == "deDE" then L = {
 	PART_FIND = "(.+)%s%(Teil %d+%)",
 	["(.*) is now your home."] = "(.*) ist jetzt Euer Zuhause.",
 	["^You .*Hitem:(%d+).*(%[.+%])"] = "^Ihr .*Hitem:(%d+).*(%[.+%])",
+    
+    ["Goldshire"] = "Goldhain",
+    
 } end
 
 ----------------------
