@@ -75,7 +75,7 @@ A Grape Manifest|QID|3905|M|50.7,39.3|PRE|3904|N|From Milly Osworth|
 
 T Skirmish at Echo Ridge|QID|21|M|48.9,41.6|N|To Marshal McBride|
 A Report to Goldshire|QID|54|PRE|21|M|48.9,41.6|N|From Marshal McBride|
-T Grape Manifest|QID|3905|M|49.5,41.6|N|To Brother Neals, inside the abbey up the spiral staircase to the top floor.|
+T Grape Manifest|QID|3905|M|49.53,41.75;49.47,41.57|CS|N|To Brother Neals, inside the abbey up the spiral staircase to the top floor.|
 
 L Level 5|AVAILABLE|5623|C|Priest|M|47.93,40.75|LVL|5|N|You must be level 5 at this point. This is the point you will get your next class quest.\nGrind until you reach level 5.|
 A In Favor of the Light|QID|5623|M|49.8,39.5|C|Priest|R|Human|N|Level 5 class quest from Priestess Anetta.|
