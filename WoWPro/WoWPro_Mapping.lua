@@ -553,7 +553,8 @@ function WoWPro:MapPoint(row)
 				    minimap_icon_size = 20,
 				    worldmap_icon = "Interface\\AddOns\\WoWPro\\Textures\\TriRing",
 				    worldmap_icon_size = 16,
-				    persistent=false
+					persistent=false,
+					from="WoWPro"
 				}
 				WoWPro:print("WoWPro:MapPoint:TomTom(%s@%s/%s)",jcoord,tostring(zone),tostring(zm))
 				uid = TomTom:AddWaypoint(zm, x/100, y/100, options)
