@@ -52,7 +52,7 @@ C The Everstill Bridge|QID|89|M|37.41,50.35|S|N|Kill Gnolls until you get the it
 K Redridge Brute|QID|124|QO|1|M|20.20,40.80;37.50,29.50;33.45,25.30;22.96,37.55;39.42,33.31;35.65,38.23;28.67,37.49;21.34,31.92|CN|N|Kill Brutes until you finish this quest.|
 K Redridge Mystic|QID|124|QO|2|M|35.00,39.40;17.10,17.50;24.50,31.90;35.50,28.10;20.80,40.20;19.90,32.45;22.82,36.26;28.66,23.26;33.23,24.39;38.42,34.01;29.99,29.36;27.86,36.41;24.04,25.40|CN|N|Kill Gnolls until you finish this quest.|
 C The Everstill Bridge|QID|89|M|37.41,50.35|US|N|Kill Gnolls until you get the items for this quest.|
-C Rethban Ore|QID|347|M|20,29|N|Kill Redridge Drudgers to collect the ore.|
+C Rethban Ore|QID|347|M|22.70,18.70;19.50,31.15;19.65,26.35;18.20,16.00;20.53,28.85;16.32,18.05;19.60,13.97;22.00,22.20;19.49,23.05;18.90,19.90;21.85,15.70;16.62,21.77|CN|N|Kill Redridge Drudgers in the cave to collect the ore.|
 C Underbelly Scales|QID|122|M|43.00,31.60; 44.00,39.00; 34.5,72.5|CN|US|N|Kill Black Dragon Whelps.|
 T The Everstill Bridge|QID|89|M|32.14,48.64|N|To Foreman Oslow.|
 T Underbelly Scales|QID|122|M|30.96,47.27|N|To Verner Osgood.|
