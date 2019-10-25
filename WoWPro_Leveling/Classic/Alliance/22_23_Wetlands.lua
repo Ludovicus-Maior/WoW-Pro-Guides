@@ -71,8 +71,8 @@ C Young Crocolisk Skins|QID|484|M|51.00,36.00|US|N|Kill and loot Young Wetlands 
 A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|
 C Ormer's Revenge|QID|294|M|28.8,43.4|S|N|Kill raptors until you complete this quest.|
 C The Absent Minded Prospector|QID|943|M|28.8,43.4|QO|1|N|Kill Raptors for the Stone.|
-C Ormer's Revenge|QID|294|M|28.8,43.4;25.7,48.00;22.4,50.5;24.3,52.5|CN|US|N|Kill raptors until you complete this quest.|
-T Ormer's Revenge|QID|294|M|34,41;37,43.6;38.07,51.18|CS|N|To Ormer Ironbraid.|
+C Ormer's Revenge|QID|294|M|28.8,43.4;25.7,48.00;22.4,50.5;24.3,52.5|CC|US|N|Kill raptors until you complete this quest.|
+T Ormer's Revenge|QID|294|M|34,41;37,43.6;38.07,51.18|CC|N|To Ormer Ironbraid.|
 A Ormer's Revenge|QID|295|M|38.1,51.2|N|From Ormer Ironbraid.|PRE|294|
 H Deepwater Tavern|QID|279|N|Hearth or Run back to town.|
 T The Absent Minded Prospector|QID|943|M|10.84,60.43|Z|Wetlands|N|From Archaeologist Flagongut.|
@@ -82,7 +82,6 @@ T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|
 T Young Crocolisk Skins|QID|484|M|8.49,55.7|N|To James Halloran.|
 T Claws from the Deep|QID|279|M|8.33,58.52|N|To Karl Boran.|
 b Darkshore|QID|3765|M|4.61,57.07|N|Take Boat to Auberdine.|
-f Auberdine|QID|3765|N|Get the flight path|M|36.30,45.60|Z|Darkshore|
 T The Corruption Abroad|QID|3765|M|38.33,43.04|N|To Gershala Nightwhisper.|
 A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|PRE|3765|
 ]]end)
