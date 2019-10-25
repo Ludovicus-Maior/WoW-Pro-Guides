@@ -6,6 +6,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 ; Outside Instance
+B Elixir of Water Breathing|AVAILABLE|6921|L|5996 2|N|If you dont have a Warlock in the group, get at least two of these.|
 A Trouble in the Deeps|QID|6562|LEAD|66563|M|47.34,64.25|Z|Stonetalon Mountains|N|From Tsunaman, the water elemental.|
 T Trouble in the Deeps|QID|6562|M|11.56,34.29|Z|Ashenvale|N|To Je'neu Sancrea|
 A The Essence of Aku'Mai|QID|6563|M|11.56,34.29|Z|Ashenvale|N|From Je'neu Sancrea|
@@ -31,7 +32,8 @@ C Head of Kelris|QID|6561|N|Loot from Twilight Lord Kelris.|
 T The Essence of Aku'Mai|QID|6563|M|11.56,34.29|Z|Ashenvale|N|To Je'neu Sancrea|
 T Baron Aquanis|QID|6922|M|11.56,34.29|Z|Ashenvale|N|To Je'neu Sancrea|
 T Allegiance to the Old Gods|QID|6565|M|11.56,34.29|Z|Ashenvale|N|To Je'neu Sancrea|
-T Amongst the Ruins|QID|6921|M|70.8,33.8|Z|Thunder Bluff|N|To Bashana Runetotem, Elder Rise, Thunder Bluff.|
+T Amongst the Ruins|QID|6921|M|71.08,34.23|Z|Thunder Bluff|N|To Bashana Runetotem, Elder Rise, Thunder Bluff.|
+T Blackfathom Villainy|QID|6561|M|71.08,34.23|Z|Thunder Bluff|N|To Bashana Runetotem, Elder Rise, Thunder Bluff.|
 
 
 ]]
