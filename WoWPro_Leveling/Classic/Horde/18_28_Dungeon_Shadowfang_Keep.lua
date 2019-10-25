@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Ludovicus_SFK', 'Leveling', 'Silverpine Forest', 'Ludovicus', 'Neutral', 1)
+local guide = WoWPro:RegisterGuide('Ludovicus_SFK', 'Leveling', 'Silverpine Forest', 'Ludovicus', 'Horde', 1)
 WoWPro:GuideLevels(guide,18, 28)
 WoWPro:GuideName(guide, 'Dungeon: Shadowfang Keep')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
