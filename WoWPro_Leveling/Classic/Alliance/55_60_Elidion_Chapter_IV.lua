@@ -135,7 +135,7 @@ C Extinguish the Brazier of Malice|QID|5165|M|37.67,52.69|Z|Felwood|QO|2|NC|N|Ex
 l Blood Red Key|QID|5202|US|N|Kill mobs until you get a Blood Red Key.|L|13140|
 A A Strange Red Key|QID|5202|M|PLAYER|Z|Felwood|N|Click the key to accept the quest.|U|13140|
 T A Strange Red Key|QID|5202|M|36.2,55.5|Z|Felwood|N|To a Captured Arko'narin. Go towards the cave entrance, she's in a cage.|
-A Rescue From Jaedenar|QID|5203|M|36.2,55.5|Z|Felwood|N|From the Captured Arko'narin. Escort quest. try and clear the path before starting the escort and it should go pretty well, she tanks pretty well.|
+A Rescue From Jaedenar|QID|5203|M|36.2,55.5|Z|Felwood|N|From the Captured Arko'narin. Escort quest. try and clear the path before starting the escort and it should go pretty well, she tanks pretty well.|PRE|5202|
 C Rescue From Jaedenar|QID|5203|M|35.43,58.91|Z|Felwood|N|Escort the Arko'narin to her gear, and back out. A couple ambushes will happen as well as an elite at the end. She tanks well so let her absorb the damage while you pick them off 1 at a time. Watch out for regular spawns, clearing prior is helpful.\n\nOnce you get outside an Elite will spawn at the end. Give her about 20 seconds to build up threat tanking it then burst him down. Make sure you're full health and mana before you step outside.|
 
 
@@ -398,7 +398,7 @@ A The Formation of Felbane|QID|3621|M|60.8,66.4|Z|Azshara|N|From Loramus Thalipe
 
 T Poisoned Water|QID|6804|M|79.26,73.73|Z|Azshara|N|To Duke Hydraxis.|
 T Stormers and Rumblers|QID|6805|M|79.26,73.73|Z|Azshara|N|To Duke Hydraxis.|
-A Eye of the Emberseer|QID|6821|M|79.2,73.6|Z|Azshara|N|From Duke Hydraxis.|LVL|55|PRE|6804&6804|
+A Eye of the Emberseer|QID|6821|M|79.2,73.6|Z|Azshara|N|From Duke Hydraxis.|LVL|55|PRE|6804&6805|
 H Ironforge|ACTIVE|6186|M|PLAYER|Z|Azshara|N|Hearth back to Ironforge.|
 R Deeprun Tram|ACTIVE|6186|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|ACTIVE|6186|N|Take the tram ride and then run into Stormwind.|
