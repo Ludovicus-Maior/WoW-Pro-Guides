@@ -139,7 +139,7 @@ T Troll Necklace Bounty|QID|2880|M|14.83,44.57|Z|The Hinterlands|N|To Fraggar Th
 T Witherbark Cages|QID|2988|M|9.74,44.47|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|
 
 F Refuge Pointe|ACTIVE|670|M|11.07,46.16|Z|The Hinterlands|N|Fly to Arathi Highlands.|
-R Faldir's Cove|QID|670|M|31.32,64.59;23.61,70.02;21.57,75.52|CC|Z|Arathi Highlands|N|At first waypoint, find a path going beside/behind Stromgarde Keep, follow that path west to the 2nd waypoint. To your left is a cave, go through it to find Faldir's Cove.|
+R Faldir's Cove|ACTIVE|670|M|31.32,64.59;23.61,70.02;21.57,75.52|CC|Z|Arathi Highlands|N|At first waypoint, find a path going beside/behind Stromgarde Keep, follow that path west to the 2nd waypoint. To your left is a cave, go through it to find Faldir's Cove.|
 T Sunken Treasure|QID|670|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen. Be sure to read the note before accepting the next quest.|
 A Death From Below|QID|667|M|32.29,81.36|Z|Arathi Highlands|N|From Shakes O'Breen.\n\nWhen you start this, you will need to run up the ramp onto the boat and interact with the cannon to make it fire. When naga spawn and run into your sights, click to fire. Easiest quest in the game.|PRE|670|
 C Death From Below|QID|667|M|32.09,80.70|Z|Arathi Highlands|N|Run up the ramp and click the cannon to take out the naga as they spawn.|
