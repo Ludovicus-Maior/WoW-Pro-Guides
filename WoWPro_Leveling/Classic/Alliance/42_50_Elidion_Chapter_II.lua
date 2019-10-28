@@ -486,7 +486,7 @@ A Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|From Kalaran Windbl
 C Dark Iron|QID|7729|M|37.63,26.53|Z|Searing Gorge|S|N|Kill Taskmasters and Slavers and loot their daggers.|
 C Smithing Tuyre|QID|7728|M|40.03,48.58|Z|Searing Gorge|QO|1|N|Kill Steamsmiths until you get the Tuyre.|
 C Lookout's Spyglass|QID|7728|M|33.14,53.33|Z|Searing Gorge|QO|2|N|Kill Lookouts until you get the Spyglass.|
-C Sweet Amber|QID|53|M|44.62,80.25|Z|Westfall|N|From The Charred Oak on the other side of the gorge. Top side.|PRE|51|
+C Sweet Amber|QID|53|M|54.59,50.66|Z|Searing Gorge|N|From The Charred Oak on the other side of the gorge. Top side.|
 C Caught!|QID|4449|M|63.93,60.98|Z|Searing Gorge|N|Kill the Geologists in the area.|
 A The Key to Freedom|QID|4451|M|PLAYER|Z|Searing Gorge|N|Use the key to accept the quest.|U|11818|
 T Caught!|QID|4449|M|65.61,62.06|Z|Searing Gorge|N|To the Wooden Outhouse. Don't get follow-up|
