@@ -6,7 +6,6 @@ WoWPro:GuideIcon(guide, "ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcon
 WoWPro:GuideSteps(guide, function()
 return [[
 
-;N Test|QID|1000|N|This is a test [color=FF40C7EB]Mage[color=]|
 B Shopping List|QID|3842|N|Crafted by an alchemist. Check the AH or otherwise acquire 2 Elixirs of Fortitude at a reasonable price. You will need them for a quest at Mirage Raceway when you are level 45.|L|3825 2|
 B Truesilver Bar|QID|49|N|You will also need a Truesilver Bar.|L|6037|ITEM|6037|
 B Silk Cloth|QID|4449|N|You shouldn't need to buy these, but a reminder to keep 15 of them handy once you're in the level 46-47 range.|L|4306 15|ITEM|4306|
@@ -140,7 +139,7 @@ T Witherbark Cages|QID|2988|M|9.74,44.47|Z|The Hinterlands|N|To Gryphon Master T
 
 F Refuge Pointe|ACTIVE|670|M|11.07,46.16|Z|The Hinterlands|N|Fly to Arathi Highlands.|
 R Faldir's Cove|ACTIVE|670|M|31.32,64.59;23.61,70.02;21.57,75.52|CC|Z|Arathi Highlands|N|At first waypoint, find a path going beside/behind Stromgarde Keep, follow that path west to the 2nd waypoint. To your left is a cave, go through it to find Faldir's Cove.|
-T Sunken Treasure|QID|670|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen. Be sure to read the note before accepting the next quest.|
+T Sunken Treasure|QID|670|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen. Be sure to read the next steps note before accepting the next quest.|
 A Death From Below|QID|667|M|32.29,81.36|Z|Arathi Highlands|N|From Shakes O'Breen.\n\nWhen you start this, you will need to run up the ramp onto the boat and interact with the cannon to make it fire. When naga spawn and run into your sights, click to fire. Easiest quest in the game.|PRE|670|
 C Death From Below|QID|667|M|32.09,80.70|Z|Arathi Highlands|N|Run up the ramp and click the cannon to take out the naga as they spawn.|
 T Death From Below|QID|667|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen.|
@@ -161,13 +160,13 @@ A Zanzil's Mixture and a Fool's Stout|QID|1119|M|27.1,77.2|N|From Crank Fizzlebu
 b Ratchet|QID|623|M|25.80,73.10|N|Take the boat to Ratchet.|
 
 F Theramore Isle|QID|623|Z|The Barrens|M|63.10,37.15|N|Fly to Theramore.|
-T Akiris by the Bundle|QID|623|M|67.71,51.71|Z|Dustwallow Marsh|N|To Privateer Groy.|
+T Akiris by the Bundle|QID|623|M|67.71,51.71|Z|Dustwallow Marsh|N|To Privateer Groy. He walks around but stays stationary the longest at the waypoint.|
 t Alliance Trauma|QID|6625|M|67.8,49.0|Z|Dustwallow Marsh|N|Breadcrumb quest is optional. Turns in to Doctor Gustaf VanHowzen.|
 A Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|From Doctor Gustaf VanHowzen.|P|First Aid;129;0+225|
 C Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|Prioritize the Critically Injured, then Badly and lastly Injured.  Position yourself in the middle of the room when all patients are in range, hot key the bandages, If you dont have Friendly Nameplates on, CTRL-V. Save 15 before 6 die.|
 T Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|To Doctor Gustaf VanHowzen.|
 
-F Gadgetzan|QID|2872|Z|Dustwallow Marsh|M|65.50,51.30|N|Fly to Gadgetzan.|
+F Gadgetzan|QID|2872|M|67.48,51.30|Z|Dustwallow Marsh|N|Fly to Gadgetzan.|
 A Wastewander Justice|QID|1690|M|52.46,28.51|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|
 A Water Pouch Bounty|QID|1707|M|52.48,28.44|Z|Tanaris|N|From Spigot Operator Luglunket.|
 A Handle With Care|QID|3022|M|52.36,26.90|Z|Tanaris|N|From Curgle Cranklehop.|
@@ -486,7 +485,7 @@ A Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|From Kalaran Windbl
 C Dark Iron|QID|7729|M|37.63,26.53|Z|Searing Gorge|S|N|Kill Taskmasters and Slavers and loot their daggers.|
 C Smithing Tuyre|QID|7728|M|40.03,48.58|Z|Searing Gorge|QO|1|N|Kill Steamsmiths until you get the Tuyre.|
 C Lookout's Spyglass|QID|7728|M|33.14,53.33|Z|Searing Gorge|QO|2|N|Kill Lookouts until you get the Spyglass.|
-C Sweet Amber|QID|53|M|54.59,50.66|Z|Searing Gorge|N|From The Charred Oak on the other side of the gorge. Top side.|
+C Sweet Amber|QID|53|M|54.59,50.66|Z|Searing Gorge|N|From The Charred Oak on the other side of the gorge. Top side.|PRE|51|
 C Caught!|QID|4449|M|63.93,60.98|Z|Searing Gorge|N|Kill the Geologists in the area.|
 A The Key to Freedom|QID|4451|M|PLAYER|Z|Searing Gorge|N|Use the key to accept the quest.|U|11818|
 T Caught!|QID|4449|M|65.61,62.06|Z|Searing Gorge|N|To the Wooden Outhouse. Don't get follow-up|
