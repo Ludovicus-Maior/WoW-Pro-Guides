@@ -78,13 +78,13 @@ R Splintertree Post|QID|6383|M|67.26,71.39;73.20,61.60|Z|Ashenvale|CS|N|Continue
 f Splintertree Post|QID|235|M|73.20,61.60|Z|Ashenvale|
 C The Ashenvale Hunt|QID|235|Z|Ashenvale|M|73.74,61.46|
 T The Ashenvale Hunt|QID|235^742^6382|Z|Ashenvale|M|73.74,61.46|
-A The Ashenvale Hunt|QID|6383|PRE|235|N|At Senani Thunderheart.|M|73.75,61.47|Z|Ashenvale|
+A The Ashenvale Hunt|QID|6383|PRE|235|N|At Senani Thunderheart.|M|73.78,61.46|Z|Ashenvale|
 
 F Zoram'gar Outpost|QID|6442|M|73.23,61.58|Z|Ashenvale|N|Fly to Zoram'gar Outpost.|TAXI|Zoram'gar Outpost|
 R Zoram'gar Outpost|QID|6442|N|Follow the road all the way to Zoram'gar Outpost, being very careful to avoid Astranaar, the major Alliance settlement in this zone.|M|75.02,65.16;67.17,71.25;44.94,56.20;36.90,55.01;32.53,49.76;30.2,47.28;26.43,42.33;16.51,30.27;12,34|CS|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
 f Zoram'gar Outpost|QID|6442|M|12.20,33.80|Z|Ashenvale|
 A Naga at the Zoram Strand|QID|6442|M|11.69,34.90|Z|Ashenvale|N|From Marukai.|
-N Things to do...|QID|6504|N|Keep any Shredder Operating Manual pages you find from now on.|S!US|
+N Things to do...|QID|6504|N|Keep any Shredder Operating Manual pages you find from now on.|S!US|IZ|Ashenvale|
 C Naga at the Zoram Strand|QID|6442|M|13.49,25.82|Z|Ashenvale|N|Kill Nagas for their Wrathtail Heads.|
 T Naga at the Zoram Strand|QID|6442|M|11.69,34.90|Z|Ashenvale|N|To Marukai.|
 
@@ -197,44 +197,44 @@ F Splintertree Post|QID|1534|C|Shaman|M|44.50,59.10|Z|The Barrens|
 
 F Splintertree Post|QID|6641|M|45.30,63.90|Z|Orgrimmar|
 A Satyr Horns|QID|6441|M|73.10,61.50|Z|Ashenvale|N|From Pixel|
-A Stonetalon Standstill|QID|25|M|73.70,60.00|Z|Ashenvale|N|From Mastok Wrilehiss.|
-A Ashenvale Outrunners|QID|6503|M|71.10,68.10|Z|Ashenvale|N|From Kuray'bin|
+A Stonetalon Standstill|QID|25|M|73.67,60.00|Z|Ashenvale|N|From Mastok Wrilehiss.|
+A Ashenvale Outrunners|QID|6503|M|71.11,68.11|Z|Ashenvale|N|From Kuray'bin|
 A Warsong Supplies|QID|6571|M|71.4,67.60|Z|Ashenvale|N|From Locke Okarr|
-A The Lost Pages|QID|6504|M|70.00,71.10|Z|Ashenvale|N|From Gurda Ragescar. Bind chapters together when you have the right pages, it will free up bag space.|
+A The Lost Pages|QID|6504|M|70.01,71.16|Z|Ashenvale|N|From Gurda Ragescar. Bind chapters together when you have the right pages, it will free up bag space.|
 
 F Zoram'gar Outpost|QID|6641|M|73.20,61.60|Z|Ashenvale|
-A Vorsha the Lasher|QID|6641|M|12.10,34.60|Z|Ashenvale|N|From Muglash|
+A Vorsha the Lasher|QID|6641|M|12.10,34.60|Z|Ashenvale|N|From Muglash, who is sometimes this escort.|
 C Vorsha the Lasher|QID|6641|M|9.60,27.70|Z|Ashenvale|N|Follow Muglash to . Click the brazier.  Prepare for 3 waves of monsters.  Vorsha will be in the 3rd wave. If you die, don't release, the NPC can sometimes finish him off without you and you'll get credit for the quest.|
 T Vorsha the Lasher|QID|6641|M|12.20,34.20|Z|Ashenvale|N|To Warsong Runner|
 A Between a Rock and a Thistlefur|QID|216|M|11.90,34.50|Z|Ashenvale|N|Karang Amakkar|
 A Troll Charm|QID|6462|M|11.70,34.90|Z|Ashenvale|N|From Mitsuwa|
 
-R Thistlefur Village|QID|216|M|30.90,45.60|Z|Ashenvale|
+R Thistlefur Village|QID|216|M|31.31,46.67|CS|Z|Ashenvale|
 C Between a Rock and a Thistlefur|QID|216|M|36.00,33.00|Z|Ashenvale|N|Kill Thistlefur Avengers and Shamans around.|
 C Troll Charm|QID|6462|M|38.40,30.60|Z|Ashenvale|N|Go north, following the path inside the village. Pass the wooden gate. A bit futher along the path, if you face north, you'll see a stone arch. Go through this arch and you'll soon find the entrance to a cave.  Inside the cave, search for Troll Chests.  Open and loot Troll Charms.|
-A Freedom to Ruul|QID|6482|M|41.50,34.50|Z|Ashenvale|N|From Ruul Snowhoof. He is left off the forn as you enter the cave in a cage.|
+A Freedom to Ruul|QID|6482|M|41.50,34.50|Z|Ashenvale|N|From Ruul Snowhoof. He is on the left path in the cave in a cage.|
 C Freedom to Ruul|QID|6482|M|41.50,34.50|Z|Ashenvale|N|Follow Ruul as he makes his way out of the cave. Thistelfurs respawn very quickly, so stay on top of things. Be especially careful once he gets outside, he likes to aggro whole camps of mobs at once, and sometimes a rare besides.|
 
 T Between a Rock and a Thistlefur|QID|216|M|11.90,34.50|Z|Ashenvale|N|To Karang Amakkar|
 T Troll Charm|QID|6462|M|11.70,34.90|Z|Ashenvale|N|To Mitsuwa|
 
 F Splintertree Post|QID|6482|M|12.20,33.80|Z|Ashenvale|
-T Freedom to Ruul|QID|6482|M|74.00,61.00|Z|Ashenvale|N|To Yama Snowhoof|
-C Ashenvale Outrunners|QID|6503|M|70.00,76.00|Z|Ashenvale|N|Kill outrunners. They are night elf hunters who are stealthed in the area south of Splintertree Post, around.|
+T Freedom to Ruul|QID|6482|M|74.12,60.92|Z|Ashenvale|N|To Yama Snowhoof|
+C Ashenvale Outrunners|QID|6503|M|72.20,76.40;73.60,74.75;68.60,73.00;70.05,75.30;76.05,68.25;73.69,69.85;71.78,73.35;75.47,71.91|CN|Z|Ashenvale|N|Kill outrunners. They are night elf hunters who are stealthed in the area south of Splintertree Post, around.|
 
 R Silverwing Outpost|QID|6544|M|66.00,73.00|Z|Ashenvale|
 N Things to do...|QID|6544|Z|Ashenvale|N|Kill all the nightelves on the path and inside the house, as soon as this is done, sprint to Torek|
 A Torek's Assault|QID|6544|M|68.34,75.29|Z|Ashenvale|N|Once you accept the quest: Follow Torek into the house.  When inside, 4 elves spawn - Focus on one, let the orcs tank the rest.  If you die, don't release immediately.  You will still get the complete message if Torrek survives and wins the battle.|
 C Torek's Assault|QID|6544|M|68.34,75.29|Z|Ashenvale|N|Follow Torek into the house.  When inside, 4 elves spawn - Focus on one, let the orcs tank the rest.  If you die, don't release immediately.  You will still get the complete message if Torrek survives and wins the battle.|
 
-R Mystral Lake|ACTIVE|25|M|52.00,70.00|Z|Ashenvale|
+R Mystral Lake|ACTIVE|25|M|63.57,70.05;61.41,68.39;52.00,70.00|CS|Z|Ashenvale|
 C Stonetalon Standstill|QID|25|QO|1|M|48.90,69.60|Z|Ashenvale|S|N|Kill the the elementals as you approch the center of the lake.|
-N Scout the gazebo...|QID|25|QO|2|M|48.90,69.60|Z|Ashenvale|N|Swim to the island at the center of the lake.|
-K Tideress|AVAILABLE|1918|L|16408|M|49.00,71.00|Z|Ashenvale|T|Tideress|N|This drops from Tideress, a big elemental, usually down at the bottom of the lake.|
+N Scout the gazebo...|QID|25|QO|2|M|48.93,69.58|Z|Ashenvale|N|Swim to the island at the center of the lake.|
+K Tideress|AVAILABLE|1918|L|16408|M|49.00,71.00|Z|Ashenvale|T|Tideress|N|This drops from Tideress, a big elemental. Spawns on island and then patrols around it.|
 A The Befouled Element|QID|1918|U|16408|M|47.70,69.70|Z|Ashenvale|N|Right-click the Befouled Water Globe to start the quest|
 C Stonetalon Standstill|QID|25|QO|1|M|48.90,69.60|Z|Ashenvale|US|N|Kill the rest of the elementals you need before leaving the lake.|
-K Ursangous|AVAILABLE|23|L|16303|M|41.00,67.00|Z|Ashenvale|T|Ursangous|N|Ursangous can be found roaming around . He's a bear with swirly marks on his shoulders.|
-A Ursangous's Paw|QID|23|PRE|6383|U|16303|M|42.30,65.60|Z|Ashenvale|N|Click Ursangous's Paw to begin the quest.|
+K Ursangous|AVAILABLE|23|L|16303|M|44,69;37.20,61.80;40.20,61.80;40.40,69.60;39.20,67.30;42.40,68.64;41.32,66.08;43.12,63.71;39.59,64.67|CN|Z|Ashenvale|T|Ursangous|N|Ursangous can be found roaming around, spawns near the lake. He's a bear with swirly marks on his shoulders.|
+A Ursangous's Paw|QID|23|PRE|6383|U|16303|M|73.78,61.46|Z|Ashenvale|N|Click Ursangous's Paw to begin the quest.|
 
 ; ----Class Quest-------------------------------------------------------------------------
 C Call of Water |QID|1534|C|Shaman|U|7767|M|33.00,67.00|Z|Ashenvale|N|Use the Empty Blue Waterskin at the fountain in the Ruins of Stardust|
@@ -243,12 +243,12 @@ C Call of Water |QID|1534|C|Shaman|U|7767|M|33.00,67.00|Z|Ashenvale|N|Use the Em
 K Kill Foulwealds and Thistlefurs for Logging Rope|QID|6571|L|16743 1|M|55.00,63.00|Z|Ashenvale|N|If you haven't already looted the Logging Rope, kill Foulwealds and Thistlefurs until it drops.|
 
 R Splintertree Post|QID|6503|M|73.20,61.60|Z|Ashenvale|
-T Ashenvale Outrunners|QID|6503|M|71.10,68.10|Z|Ashenvale|N|To Kuray'bin|
-T Torek's Assault|QID|6544|M|73.00,62.50|Z|Ashenvale|N|To Ertog Ragetusk|
-T Ursangous's Paw|QID|23|M|73.80,61.50|Z|Ashenvale|N|To Senani Thunderheart|
-T Stonetalon Standstill|QID|25|M|73.70,60.00|Z|Ashenvale|N|To Mastok Wrilehiss|
-T The Befouled Element|QID|1918|M|73.70,60.00|Z|Ashenvale|N|To Mastok Wrilehiss|
-A Je'neu of the Earthen Ring|QID|824|PRE|1918|M|73.70,60.00|Z|Ashenvale|N|From Mastok Wrilehiss|
+T Ashenvale Outrunners|QID|6503|M|71.11,68.11|Z|Ashenvale|N|To Kuray'bin|
+T Torek's Assault|QID|6544|M|73.03,62.46|Z|Ashenvale|N|To Ertog Ragetusk|
+T Ursangous's Paw|QID|23|M|73.78,61.46|Z|Ashenvale|N|To Senani Thunderheart|
+T Stonetalon Standstill|QID|25|M|73.67,60.00|Z|Ashenvale|N|To Mastok Wrilehiss|
+T The Befouled Element|QID|1918|M|73.67,60.00|Z|Ashenvale|N|To Mastok Wrilehiss|
+A Je'neu of the Earthen Ring|QID|824|PRE|1918|M|73.67,60.00|Z|Ashenvale|N|From Mastok Wrilehiss|
 
 F Zoram'gar Outpost|QID|824|M|73.20,61.60|Z|Ashenvale|
 T A Je'neu of the Earthen Ring|QID|824|M|11.60,34.30|Z|Ashenvale|N|To Je'neu Sancrea|
@@ -400,7 +400,7 @@ C Waters of Xavian|QID|1944|C|Mage|U|7269|M|76.0,41.0|Z|Ashenvale|O|N|Head east 
 K Kill Sharptalon for Sharptalon's Claw|QID|2|L|16305|M|75.00,71.00|Z|Ashenvale|N|Sharptalon: It is unlikely you will be able to kill Sharptalon at your present level. Once you spot Sharptalon, keep him in sight and wait till he is close enough to the Forsaken Camp. Next, pull him with the lowest aggro spell/shot you have (a simple bow shoot, or rank 1 nuke).  Bring him to the Forsaken Camp. DO NOTHING.  Let the NPCs aggro it and take it off you. Once they have Sharptalon down to 90%, start attacking again, you must do as much damage as possible, but don't use high aggro spells.  Help them finish it off, then loot Sharptalon's Claw|
 A Sharptalon's Claw|QID|2|PRE|6383|U|16305|M|74.00,70.00|Z|Ashenvale|N|Click Sharptalon's Claw to start the quest.|
 
-T The Lost Pages|QID|6504|M|70.00,71.10|Z|Ashenvale|N|To Gurda Ragescar|
+T The Lost Pages|QID|6504|M|70.01,71.16|Z|Ashenvale|N|To Gurda Ragescar|
 T Warsong Supplies|QID|6571|Z|Ashenvale|N|To locke Okarr|
 T Shadumbra's Head|QID|24|M|73.80,61.50|Z|Ashenvale|N|To Senani Thunderheart|
 T Sharptalon's Claw|QID|2|M|73.80,61.50|Z|Ashenvale|N|To Senani Thunderheart|
