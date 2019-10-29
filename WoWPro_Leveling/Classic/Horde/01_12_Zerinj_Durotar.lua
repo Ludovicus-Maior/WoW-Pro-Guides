@@ -252,11 +252,11 @@ A Skull Rock|QID|827|PRE|828|M|56.41,20.03|N|From Margoz.|
 R Skull Rock|QID|827|M|55.00,9.74|CC|N|Run north to the cave entrance of Skull Rock.\nThe quests in here are hard to solo. Group up or be prepared to die.|
 C Call of Fire|QID|1525|C|Shaman|R|Orc,Troll|QO|2|S|N|Kill Burning Blade Cultists for the Reagent Pouch.|
 C Skull Rock|QID|827|S|N|Kill Burning Blade for the Searing Collars.|
-C Hidden Enemies|QID|5730|S|N|Kill Burning Blade Apprentices and Fanatics for the Lieutenants Insignia.|
+C Hidden Enemies|QID|5726|S|N|Kill Burning Blade Apprentices and Fanatics for the Lieutenants Insignia.|
 K Gazz'uz|QID|832|L|4903|U|4945|M|51.62,9.76|N|Keep right in the cave and kill Gazz'uz. If he isn't at the top of the ledge he may be below. Use your glowing skull if you need to.|
 C Creature of the Void|QID|1501|C|Warlock|R|Orc,Troll|M|51.62,9.76|N|Loot the tablet from the chest.|
 A Burning Shadows|QID|832|U|4903|N|Start the quest from the Eye of Burning Shadow.|
-C Hidden Enemies|QID|5730|US|N|Kill Burning Blade Apprentices and Fanatics until you have thee Lieutenants Insignia.|
+C Hidden Enemies|QID|5726|US|N|Kill Burning Blade Apprentices and Fanatics until you have thee Lieutenants Insignia.|
 C Skull Rock|QID|827|US|N|Kill Burning Blade until you have 6 Searing Collars and a Lieutenant's Insignia.|
 C Call of Fire|QID|1525|C|Shaman|QO|2|US|N|Kill Burning Blade Cultists for the Reagent Pouch.|
 T Skull Rock|QID|827|M|56.40,20.10|N|To Margoz.|
