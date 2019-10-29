@@ -1516,6 +1516,19 @@ function WoWPro.NextStep(k,i)
 			end
         end
 
+		-- Skip InZone steps if we are not in the right zone
+		if WoWPro.inzone[k] then
+			local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
+			local inzone = WoWPro.inzone[k]
+			if (inzone == zonetext) or (inzone == subzonetext) then
+				WoWPro:dbp("Step %s [%s/%s] not skipped as InZone %s/%s",WoWPro.action[k],WoWPro.step[k],tostring(QID), zonetext, subzonetext)
+			else
+				WoWPro:dbp("Step %s [%s/%s] skipped as not InZone %s/%s",WoWPro.action[k],WoWPro.step[k],tostring(QID), zonetext, subzonetext)
+				skip = true
+				break
+			end
+		end
+
         -- Complete Treasure steps if we dont want them
         if WoWPro.action[k] == "$" and (not WoWPro.rare[k]) and (not  WoWProCharDB.EnableTreasures) then
             WoWPro.CompleteStep(k,"No Treasures desired")
