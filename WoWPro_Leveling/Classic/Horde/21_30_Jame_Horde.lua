@@ -118,7 +118,7 @@ A Time To Strike|QID|494|M|20.80,47.40|Z|Hillsbrad Foothills|N|From Deathstalker
 
 R Tarren Mill|QID|493|M|31.69,50.42;56.25,36.89;60.20,18.70|CS|Z|Hillsbrad Foothills|
 f Tarren Mill|QID|493|M|60.20,18.70|Z|Hillsbrad Foothills|
-T Journey to Hillsbrad Foothills|QID|493|M|61.4,19.2|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
+T Journey to Hillsbrad Foothills|QID|493|M|61.44,19.05|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
 T Time To Strike|QID|494|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 
 A Battle of Hillsbrad |QID|527|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
@@ -264,10 +264,10 @@ C The Shattered Salute|QID|2460|C|Rogue|Z|The Barrens|O|N|Target Senthul and typ
 T The Shattered Salute|QID|2460|C|Rogue|Z|The Barrens|O|
 A Deep Cover|QID|2458|PRE|2460|C|Rogue|Z|The Barrens|O|
 
-A Speak with Ruga|QID|1823|C|Warrior|M|80.20,32.40|Z|Orgrimmar|
+A Speak with Ruga|QID|1823|C|Warrior|M|80.20,32.40|Z|Orgrimmar|N|From Sorek, sans !|
 ; -----------------------------------------------------------------------------
 
-F Crossroads|QID|5052|M|45.30,63.90|Z|Orgrimmar|
+F The Crossroads|QID|5052|M|45.30,63.90|Z|Orgrimmar|
 A Egg Hunt|QID|868|M|51.10,29.60|Z|The Barrens|N|From Korran|
 
 ; -----Class Quest------------------------------------------------------------------------
@@ -282,12 +282,13 @@ C Mission: Possible But Not Probable|QID|2478|C|Rogue|QO|6|Z|The Barrens|N|Pick 
 T Mission: Possible But Not Probable|QID|2478|C|Rogue|U|8066|Z|The Barrens|N|Out of the tower and back to Fizzule. Use the whistle to call him.|
 ; -----------------------------------------------------------------------------
 
-F Camp Taurajo|QID|5052|M|51.50,30.30|Z|The Barrens|N|For those who don't have the flight path: From The Crossroads follow the path all the way south until the road forks. Camp Taurajo is right between the two paths.|
+F Camp Taurajo|QID|5052|M|51.50,30.30|Z|The Barrens|N|Fly away baby!|
+R Camp Taurajo|QID|5052|M|51.50,30.30|Z|The Barrens|N|From The Crossroads follow the path all the way south until the road forks. Camp Taurajo is right between the two paths.|TAXI|-Camp Taurajo|
 A Tribes at War|QID|878|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
 
 ; -----Class Quest------------------------------------------------------------------------
-T Speak with Ruga|QID|1823|C|Warrior|Z|The Barrens|N|To Ragu Ragetotem|
-A Trial at the Field of Giants|QID|1824|C|Warrior|Z|The Barrens|N|From Ragu Ragetotem|
+T Speak with Ruga|QID|1823|M|44.67,59.43|C|Warrior|Z|The Barrens|N|To Ragu Ragetotem|
+A Trial at the Field of Giants|QID|1824|M|44.67,59.43|C|Warrior|Z|The Barrens|N|From Ragu Ragetotem|
 ; -----------------------------------------------------------------------------
 
 C Tribes at War|QID|878|M|51.00,54.00|Z|The Barrens|N|Kill Water Seekers, Thornweavers, and Geomancers around|
@@ -295,7 +296,7 @@ N Tip...|QID|5052|Z|The Barrens|N|Do not sell your blood shards.  Blood Shards f
 
 T Tribes at War|QID|878|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
 A Blood Shards of Agamaggan|QID|5052|PRE|878|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
-K Kill Bristlebacks for Blood Shard|QID|5052|QO|1|M|51.00,54.00|Z|The Barrens|N|You will have collected several Blood Shards from [21]Tribes at War.  In the unlikely case you sold them, kill Bristlebacks until you loot a Blood Shard.|
+K Kill Bristlebacks for Blood Shard|ACTIVE|5052|QO|1|M|51.00,54.00|Z|The Barrens|N|You will have collected several Blood Shards from {Tribes at War}.  In the unlikely case you sold them, kill Bristlebacks until you loot a Blood Shard.|
 T Blood Shards of Agamaggan|QID|5052|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
 A Betrayal from Within |QID|879|PRE|5052|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
 A Weapons of Choice|QID|893|M|45.10,57.70|Z|The Barrens|N|From Tatternack Steelforge|
@@ -313,19 +314,20 @@ C Weapons of Choice|QID|893|M|44.40,80.20|Z|The Barrens|N|Kill Stalkers for a Ba
 
 A Gann's Reclamation|QID|843|M|46.00,79.10|Z|The Barrens|N|To find Gann Stonespire, he walks up and down the forked-road that leads from Dustwallow marsh to Bael Modan.|
 
-C Gann's Reclamation|QID|843|M|47.00,85.00|Z|The Barrens|QO|1,2|N|Excavators and Foremen are all over the area, kill them until you complete the quest.|S!US|
+C Gann's Reclamation|QID|843|M|47.00,85.00|Z|The Barrens|QO|1|N|Excavators are all over the area, kill them until you complete the quest.|S!US|
+C Gann's Reclamation|QID|843|M|47.00,85.00|Z|The Barrens|QO|2|N|Foremen are all over the area, kill them until you complete the quest.|S!US|
 K Prospector Khazgorm|QID|843|M|47.6,85.2|Z|The Barrens|QO|3|N|Prospector Khazgorm can be found in this area.|T|Prospector Khazgorm|
 
 T Gann's Reclamation|QID|843|M|46.00,79.10|Z|The Barrens|N|He will be walking up and down the road|
 A Revenge of Gann |QID|846|PRE|843|M|46.00,79.10|Z|The Barrens|N|From Gann|
 
 N Optional Quest: Tear of the Moons|QID|857|M|48.90,86.30|Z|The Barrens|N|If you are in a group or would just like a challenge, you can accept the quest "The Tear of the Moons" from Feegly the Exiled at . This quest is pretty difficult, and will require you kill a level 30 mob who comes with many adds.|
-A The Tear of the Moons|QID|857|Z|The Barrens|O|N|From Feegly the Exiled|
+A The Tear of the Moons|QID|857|M|48.90,86.30|Z|The Barrens|O|N|From Feegly the Exiled|
 
 C The Tear of the Moons|QID|857|M|49.10,84.20|Z|The Barrens|O|N|The strongbox with the Tear of the Moons inside can be found inside Bael'Dun at . There are a couple possible methods of getting to it without actually killing all of the mobs in the room. You can die and rez next to the chest in the fireplace, where only the rifleman will be able to hit you. As a rogue, you can stealth down and sap the riflemen. Also, anyone with a pet to distract the rest of the room can do so, while he or she loots the chest. This is a very difficult quest for this level range - if you can't complete it, just abandon it and move on.|
 C Revenge of Gann |QID|846|M|49.00,84.00|Z|The Barrens|N|Head inside Bael'Dun and kill dwaves until you get all the quest items.|
 
-T The Tear of the Moons|QID|857|Z|The Barrens|O|N|To Feegly the Exiled|
+T The Tear of the Moons|QID|857|M|48.90,86.30|Z|The Barrens|O|N|To Feegly the Exiled|
 T Revenge of Gann |QID|846|M|46.00,79.10|Z|The Barrens|N|To Gann Stonespire|
 A Revenge of Gann |QID|849|PRE|846|M|46.00,79.10|Z|The Barrens|N|From Gann Stonespire|
 
@@ -452,8 +454,8 @@ C Collect: Mudsnout Blossoms|QID|509|QO|1|NC|M|65.00,60.00|Z|Hillsbrad Foothills
 T Dangerous!|QID|567|M|62.2,20.2|Z|Hillsbrad Foothills|N|High Executor Darthalia|
 T Battle of Hillsbrad |QID|539|M|62.2,20.2|Z|Hillsbrad Foothills|N|High Executor Darthalia|
 A Battle of Hillsbrad |QID|541|PRE|539|M|62.2,20.2|Z|Hillsbrad Foothills|N|High Executor Darthalia|
-T Elixir of Agony |QID|509|M|61.4,19.2|Z|Hillsbrad Foothills|N|Apothecary Lydon|
-A Elixir of Agony |QID|513|PRE|509|M|61.4,19.2|Z|Hillsbrad Foothills|N|Apothecary Lydon|
+T Elixir of Agony |QID|509|M|61.44,19.05|Z|Hillsbrad Foothills|N|Apothecary Lydon|
+A Elixir of Agony |QID|513|PRE|509|M|61.44,19.05|Z|Hillsbrad Foothills|N|Apothecary Lydon|
 
 ; === 28_30_Jame_Thousand_Needles.lua ===
 
