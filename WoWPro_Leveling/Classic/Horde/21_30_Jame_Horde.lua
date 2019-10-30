@@ -164,9 +164,6 @@ A Souvenirs of Death|QID|546|PRE|527|M|62,19.8|Z|Hillsbrad Foothills|N|From Deat
 
 T Elixir of Pain |QID|502|M|32.61,35.41|Z|Hillsbrad Foothills|N|Make sure you are full health before turning in the quest.  Kill Stanley once he transforms.\nKilling Enraged Stanley gives a lot of xp. If you group up it will be shared among party members.|
 K Farmer Kalaba|QID|567|QO|4|M|35.00,46.00|Z|Hillsbrad Foothills|N|She's at the first field next to the road.|T|Farmer Kalaba|
-; K Miner Hackett|QID|567|QO|3|M|26.00,59.00|Z|Hillsbrad Foothills|N|Inside Azurelode Mine, different spawn locations.|T|Miner Hackett|
-; K Citizen Wilkes|QID|567|QO|2|M|30.00,40.00|Z|Hillsbrad Foothills|N|She's outside the town hall, walks back and forward to the Forge.|T|Citizen Wilkes|
-; K Clerk Horrace Whitesteed|QID|567|QO|1|M|30.00,42.00|Z|Hillsbrad Foothills|N|Inside the town hall|T|Clerk Horrace Whitesteed|
 C Battle of Hillsbrad |QID|528|M|34.90,46.19|Z|Hillsbrad Foothills|
 
 T Battle of Hillsbrad |QID|528|M|62.40,20.30|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
@@ -267,7 +264,7 @@ A Deep Cover|QID|2458|PRE|2460|C|Rogue|Z|The Barrens|O|
 A Speak with Ruga|QID|1823|C|Warrior|M|80.20,32.40|Z|Orgrimmar|N|From Sorek, sans !|
 ; -----------------------------------------------------------------------------
 
-F The Crossroads|QID|5052|M|45.30,63.90|Z|Orgrimmar|
+F Crossroads|QID|5052|M|45.30,63.90|Z|Orgrimmar|
 A Egg Hunt|QID|868|M|51.10,29.60|Z|The Barrens|N|From Korran|
 
 ; -----Class Quest------------------------------------------------------------------------
@@ -284,21 +281,20 @@ T Mission: Possible But Not Probable|QID|2478|C|Rogue|U|8066|Z|The Barrens|N|Out
 
 F Camp Taurajo|QID|5052|M|51.50,30.30|Z|The Barrens|N|Fly away baby!|
 R Camp Taurajo|QID|5052|M|51.50,30.30|Z|The Barrens|N|From The Crossroads follow the path all the way south until the road forks. Camp Taurajo is right between the two paths.|TAXI|-Camp Taurajo|
-A Tribes at War|QID|878|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
+A Tribes at War|QID|878|M|44.55,59.24|Z|The Barrens|N|Mangletooth|
 
 ; -----Class Quest------------------------------------------------------------------------
 T Speak with Ruga|QID|1823|M|44.67,59.43|C|Warrior|Z|The Barrens|N|To Ragu Ragetotem|
-A Trial at the Field of Giants|QID|1824|M|44.67,59.43|C|Warrior|Z|The Barrens|N|From Ragu Ragetotem|
 ; -----------------------------------------------------------------------------
 
 C Tribes at War|QID|878|M|51.00,54.00|Z|The Barrens|N|Kill Water Seekers, Thornweavers, and Geomancers around|
 N Tip...|QID|5052|Z|The Barrens|N|Do not sell your blood shards.  Blood Shards for useful buffs like run speed.|
 
-T Tribes at War|QID|878|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
-A Blood Shards of Agamaggan|QID|5052|PRE|878|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
+T Tribes at War|QID|878|M|44.55,59.24|Z|The Barrens|N|Mangletooth|
+A Blood Shards of Agamaggan|QID|5052|PRE|878|M|44.55,59.24|Z|The Barrens|N|Mangletooth|
 K Kill Bristlebacks for Blood Shard|ACTIVE|5052|QO|1|M|51.00,54.00|Z|The Barrens|N|You will have collected several Blood Shards from {Tribes at War}.  In the unlikely case you sold them, kill Bristlebacks until you loot a Blood Shard.|
-T Blood Shards of Agamaggan|QID|5052|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
-A Betrayal from Within |QID|879|PRE|5052|M|44.60,59.20|Z|The Barrens|N|Mangletooth|
+T Blood Shards of Agamaggan|QID|5052|M|44.55,59.24|Z|The Barrens|N|Mangletooth|
+A Betrayal from Within |QID|879|PRE|5052|M|44.55,59.24|Z|The Barrens|N|Mangletooth|
 A Weapons of Choice|QID|893|M|45.10,57.70|Z|The Barrens|N|From Tatternack Steelforge|
 A Mahren Skyseer|QID|874|PRE|913|Z|The Barrens|O|N|From Jorn Skyseer|
 
@@ -307,9 +303,10 @@ T Call of Water |QID|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
 A Call of Water |QID|220|PRE|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
 ; -----------------------------------------------------------------------------
 
-K Kuz for Kuz's Skull|ACTIVE|879|QO|1|M|44.00,79.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|
-K Nak for Nak's Skull|ACTIVE|879|QO|2|M|43.00,83.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|
-K Lok Orcbane for Lok's Skull|ACTIVE|879|QO|3|M|40.00,80.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|
+K Kuz for Kuz's Skull|ACTIVE|879|QO|1|M|44.00,79.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Kaz|
+K Nak for Nak's Skull|ACTIVE|879|QO|2|M|43.00,83.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Nak|
+K Lok Orcbane for Lok's Skull|ACTIVE|879|QO|3|M|40.00,80.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Lok Orcbane| 
+
 C Weapons of Choice|QID|893|M|44.40,80.20|Z|The Barrens|N|Kill Stalkers for a Backstabber, Seers for a Wand, and Warfenzies for a War Shield.|
 
 A Gann's Reclamation|QID|843|M|46.00,79.10|Z|The Barrens|N|To find Gann Stonespire, he walks up and down the forked-road that leads from Dustwallow marsh to Bael Modan.|
@@ -334,11 +331,11 @@ A Revenge of Gann |QID|849|PRE|846|M|46.00,79.10|Z|The Barrens|N|From Gann Stone
 C Revenge of Gann |QID|849|M|47.00,85.70|Z|The Barrens|N|The Helipad is midway down the slope going to the excavation site.  Go up the helipad. Right-click the Flying Machine to destroy it.|
 T Revenge of Gann |QID|849|M|46.00,79.10|Z|The Barrens|N|To Gann Stonespire|
 
-N Collect: Silithid Eggs|QID|868|L|5058 12|M|43.00,70.00|Z|The Barrens|N|Look for Silithid Mounds.  Clear any bug around it and then click them to gather Silithis Eggs. If you happen to find a Silithid Harvester, kill it and loot it's head.|
-
 ; -----Class Quest------------------------------------------------------------------------
+A Trial at the Field of Giants|QID|1824|M|44.67,59.43|C|Warrior|Z|The Barrens|N|From Ragu Ragetotem, you have 30 minutes.|
+C Collect: Silithid Eggs|QID|868|U|5059|L|5058 12|M|43.00,70.00|Z|The Barrens|N|Look for Silithid Mounds.  Clear any bug around it and then click them to gather Silithis Eggs. If you happen to find a Silithid Harvester, kill it and loot it's head.|
 C Trial at the Field of Giants|QID|1824|C|Warrior|M|44.50,59.10|Z|The Barrens|N|On your way back to Camp Taurajo , kill silithid in the Field of Giants and loot their antenna. You need to do this within 15 minutes or the antenna will stop twitching.|
-T Trial at the Field of Giants|QID|1824|C|Warrior|Z|The Barrens|
+T Trial at the Field of Giants|QID|1824|M|44.67,59.43|C|Warrior|Z|The Barrens|
 N Brutal Armor Quest Chain|QID|1838|C|Warrior|Z|The Barrens|N|If you are interested in the Brutal Armor quest chain, you can pick it up at this point. This quest requires running Razorfen Kraul, and will not be covered in this guide. It does provide some decent armor, but if you are leveling quickly it may not be worth it.|
 A Speak with Thun'grim|QID|1825|PRE|1824|C|Warrior|Z|The Barrens|O|
 ; -----------------------------------------------------------------------------
@@ -346,17 +343,17 @@ A Speak with Thun'grim|QID|1825|PRE|1824|C|Warrior|Z|The Barrens|O|
 A The Harvester|QID|897|U|5138|Z|The Barrens|O|N|SILVER ELITE...Click the head to start the quest.|
 
 T Weapons of Choice|QID|893|M|45.10,57.70|Z|The Barrens|N|To Tatternack Steelforge|
-T Betrayal from Within |QID|879|M|44.60,59.20|Z|The Barrens|N|To Mangletooth|
-A Betrayal from Within |QID|906|PRE|879|M|44.60,59.20|Z|The Barrens|N|From Mangletooth|
+T Betrayal from Within |QID|879|M|44.55,59.24|Z|The Barrens|N|To Mangletooth|
+A Betrayal from Within |QID|906|PRE|879|M|44.55,59.24|Z|The Barrens|N|From Mangletooth|
 T The Harvester|QID|897|Z|The Barrens|O|
 
-F Crossroads|QID|868|M|44.40,59.10|Z|The Barrens|N|To Jorn Skyseer|
+F Crossroads|QID|868|M|44.40,59.10|Z|The Barrens|N|To Jorn Skyseer|TZ|The Crossroads|
 T Egg Hunt|QID|868|M|51.10,29.60|Z|The Barrens|N|To Korran|
 T Betrayal from Within |QID|906|PRE|879|M|51.50,30.90|Z|The Barrens|N|To Thork|
 
 ; -----Class Quest------------------------------------------------------------------------
-T Speak with Thun'grim|QID|1825|C|Warrior|Z|The Barrens|O|
-A Brutal Armor|QID|1838|PRE|1825|C|Warrior|Z|The Barrens|O|
+T Speak with Thun'grim|QID|1825|M|57.23,30.34|C|Warrior|Z|The Barrens|
+A Brutal Armor|QID|1838|PRE|1825|M|57.23,30.34|C|Warrior|Z|The Barrens|
 ; -----------------------------------------------------------------------------
 
 F Ratchet|QID|6571|M|51.50,30.30|Z|The Barrens|
@@ -372,8 +369,8 @@ K Isha Awak for Heart of Isha Awak|ACTIVE|873|QO|1|M|64.00,50.00|Z|The Barrens|
 T Isha Awak|QID|873|M|65.8,43.8|Z|The Barrens|N|To Mahren Skyseer|
 
 b Booty Bay|QID|6571|M|63.70,38.60|Z|The Barrens|N||
-C Loot Warsong Axe Shipment|QID|6571|QO|2|M|26.40,73.30|Z|Stranglethorn Vale|
 f Booty Bay|QID|6571|M|26.90,77.10|Z|Stranglethorn Vale|N|The flight point can be found outside the top floor of the inn.|
+C Loot Warsong Axe Shipment|QID|6571|QO|2|M|26.40,73.30|Z|Stranglethorn Vale|
 
 ; === 26_27_Jame_Ashenvale.lua ===
 H Orgrimmar|QID|6581|U|6948|Z|Ashenvale|
