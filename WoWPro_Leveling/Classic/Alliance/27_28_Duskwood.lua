@@ -22,7 +22,7 @@ T The Legend of Stalvan|QID|66|M|72.5,46.8|N|To Clerk Daltry.|
 A The Legend of Stalvan|QID|67|M|72.5,46.8|N|From Clerk Daltry.|PRE|66|
 N Level 27|QID|175|N|You should be level 27 or close. If you are behind, keep following the guide normally, but kill more stuff on the way. Close this step.|LVL|-27|
 h Darkshire|QID|175|N|Set your home location to Darkshire.|M|73.90,44.40|
-A Seasoned Wolf Kabobs|QID|90|M|73.77,43.51|N|From Chef Graul|
+A Seasoned Wolf Kabobs|QID|90|M|73.77,43.51|P|Cooking;185;0+50|N|From Chef Graul|
 A Return to Jitters|QID|240|M|73.77,43.51|N|From Chef Graul|PRE|93|
 N Sell junk and repair|QID|175|N|Close this step when you're done.|M|74,48.55|
 K Spiders|QID|101|M|81.8,59.3|S|QO|2|N|From now on kill any type of spider you see along the way.|

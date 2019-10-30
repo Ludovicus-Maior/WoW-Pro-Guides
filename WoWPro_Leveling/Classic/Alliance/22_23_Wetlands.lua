@@ -32,7 +32,7 @@ A The Test of Righteousness|QID|1654|M|52.6,36.8|Z|Dun Morogh|N|From Jordan Stil
 F Thelsamar|QID|455|M|55.49,47.72|Z|Ironforge|N|Fly to Thalsamar, Loch Modan|R|-NightElf|
 A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|Loch Modan|N|From Mountaineer Rockgar.|R|-NightElf|
 R Wetlands|QID|455|N|Go through the tunnel to Wetlands|M|25.25, 0.20|Z|Loch Modan|R|-NightElf|
-C The Algaz Gauntlet|QID|455|M|55,83.5;49,79;47.6,76.1|CS|N|Go to the orc camp and kill the orcs needed for the quest. Then go back to the tunnel and continue down the path until you complete this quest.|R|-NightElf|
+C The Algaz Gauntlet|QID|455|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest. Then go back to the tunnel and continue down the path until you complete this quest.|R|-NightElf|
 A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|R|-NightElf|
 T The Algaz Gauntlet|QID|455|M|10.09,56.9|N|To Valstag Ironjaw.|
 T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|R|-NightElf|
@@ -50,29 +50,29 @@ A Digging Through the Ooze|QID|470|M|11.8,58|N|From Sida.|
 A In Search of The Excavation Team|QID|305|M|11.5,52.16|N|From Tarrel Rockweaver.|
 C Young Crocolisk Skins|QID|484|M|51.00,36.00|S|N|Kill and loot Young Wetlands Crocolisks.|
 C Claws from the Deep|QID|279|M|20,40.6|S|QO|1|N|Kill Bluegill Murlocs.|
-C Gobbler's Head|QID|279|M|14.96,40.9;13.44,38.64;18.10,40.10|CS|QO|2|N|Kill Gobbler and loot his head. He walks back and forth between the first 2 Murloc dwellings along the road.|
+C Gobbler's Head|QID|279|M|18.10,40.10|QO|2|N|Kill Gobbler and loot his head. He walks back and forth between the first 2 Murloc dwellings along the road.|
 C Claws from the Deep|QID|279|M|20,40.6|US|QO|1|N|Kill Bluegill Murlocs.|
 C Digging Through the Ooze|QID|470|M|44.00,24.00|S|N|Kill black oozes until you get Sida's Bag|
-A Ormer's Revenge|QID|294|M|34,41;37,43.6;38.07,51.18|CS|N|To Ormer Ironbraid. Follow the path up until you find a cave.|
+A Ormer's Revenge|QID|294|M|38.07,51.18|N|To Ormer Ironbraid. Follow the path up until you find a cave.|
 T In Search of The Excavation Team |QID|305|M|38.91,52.34|N|To Merrin Rockweaver.|
 A In Search of The Excavation Team |QID|306|M|38.91,52.34|N|From Merrin Rockweaver.|PRE|305|
 C The Absent Minded Prospector|QID|943|M|38.86,52.2|QO|2|N|Loot the Fossil on the ground in front of the dwarves.|
-T The Greenwarden|QID|463|M|34,41;34.9,38.3;56.34,40.41|CS|N|To Rethiel the Greenwarden.|
+T The Greenwarden|QID|463|M|56.34,40.41|N|To Rethiel the Greenwarden.|
 A Tramping Paws|QID|276|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|463|
 C Tramping Paws|QID|276|M|62.00,70.00|N|Kill the mobs needed for this quest.|
 T Tramping Paws|QID|276|M|56.34,40.41|N|To Rethiel the Greenwarden.|
 N Level 23|QID|277|N|You should be level 23 or close. If that's not the case, don't panic. Keep following the guide normally, but try to kill more mobs on the way if you're behind. Close this step.|R|-NightElf|
 A Fire Taboo|QID|277|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|276|
 C Digging Through the Ooze|QID|470|M|44.00,24.00|US|N|Kill black oozes until you get Sida's Bag|
-C Fire Taboo|QID|277|M|32.3,33.2;39,34;44,34.2|CS|N|Follow the arrows and kill gnolls until you get 9 Crude Flints. Target Fenrunners, Mistweavers and Trappers preferably, as they are lower level.|
+C Fire Taboo|QID|277|M|32.3,33.2;39,34;44,34.2|CN|N|Kill gnolls until you get 9 Crude Flints. Target Fenrunners, Mistweavers and Trappers preferably, as they are lower level.|
 T Fire Taboo|QID|277|M|56.34,40.41|N|To Rethiel the Greenwarden.|
 A Blisters on The Land|QID|275|M|56.34,40.41|N|From Rethiel the Greenwarden.|PRE|277|
 C Young Crocolisk Skins|QID|484|M|51.00,36.00|US|N|Kill and loot Young Wetlands Crocolisks.|
 A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|
 C Ormer's Revenge|QID|294|M|28.8,43.4|S|N|Kill raptors until you complete this quest.|
 C The Absent Minded Prospector|QID|943|M|28.8,43.4|QO|1|N|Kill Raptors for the Stone.|
-C Ormer's Revenge|QID|294|M|28.8,43.4;25.7,48.00;22.4,50.5;24.3,52.5|CN|US|N|Kill raptors until you complete this quest.|
-T Ormer's Revenge|QID|294|M|34,41;37,43.6;38.07,51.18|CS|N|To Ormer Ironbraid.|
+C Ormer's Revenge|QID|294|M|24.3,52.5|US|N|Kill raptors until you complete this quest.|
+T Ormer's Revenge|QID|294|M|38.07,51.18|N|To Ormer Ironbraid.|
 A Ormer's Revenge|QID|295|M|38.1,51.2|N|From Ormer Ironbraid.|PRE|294|
 H Deepwater Tavern|QID|279|N|Hearth or Run back to town.|
 T The Absent Minded Prospector|QID|943|M|10.84,60.43|Z|Wetlands|N|From Archaeologist Flagongut.|
@@ -82,7 +82,6 @@ T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|
 T Young Crocolisk Skins|QID|484|M|8.49,55.7|N|To James Halloran.|
 T Claws from the Deep|QID|279|M|8.33,58.52|N|To Karl Boran.|
 b Darkshore|QID|3765|M|4.61,57.07|N|Take Boat to Auberdine.|
-f Auberdine|QID|3765|N|Get the flight path|M|36.30,45.60|Z|Darkshore|
 T The Corruption Abroad|QID|3765|M|38.33,43.04|N|To Gershala Nightwhisper.|
 A Researching the Corruption|QID|1275|M|38.33,43.04|N|This is a dungeon quest for BFD. If you're not interested skip this step, this guide won't follow through with this quest.|PRE|3765|
 ]]end)
