@@ -266,7 +266,7 @@ T Avenge My Village|QID|6548|M|35.2,27.8|N|To Makaba Flathoof at the border.|
 A Kill Grundig Darkcloud|QID|6629|PRE|6548|M|35.2,27.8|N|From Makaba Flathoof.|
 R Stonetalon Mountains|QID|6629|M|31.6,26.7|
 C Kill Grundig Darkcloud|QID|6629|M|71.5,89.1;73,86|CS|T|Grundig Darkcloud|N|Follow the road west until waypoint, then turn northeast and follow the road into the grimtotem settlement, killing as you go. At 2nd waypoint you'll find a tent. Standing at the entrance to this tent is Grundig Darkcloud. Kill him. Before you leave, kill 6 Grimtotem Brutes to complete the quest, then walk into the tent where you found Grundig.|Z|Stonetalon Mountains|
-A Protect Kaya|QID|6523|M|23.5,85.6|N|From Kaya Flathoof.|
+A Protect Kaya|QID|6523|M|73.5,85.63|Z|Stonetalon Mountains|N|From Kaya Flathoof.|
 C Protect Kaya|QID|6523|N|This is an escort mission. She will walk West out of the grimtotem settlement, then start following the road Southast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
 T Kill Grundig Darkcloud|QID|6629|M|35.2,27.8|N|To Makaba Flathoof at the border.|
 T Protect Kaya|QID|6523|M|35.2,27.8|N|To Makaba Flathoof.|
