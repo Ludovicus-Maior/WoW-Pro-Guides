@@ -31,9 +31,8 @@ K Gooey Spider Leg|QID|93|M|12,49|N|Kill any spiders around until you get 6 Gooe
 T Eight-Legged Menaces|QID|245|M|21.37,60;45.12,67.02|CS|N|Get back on the road and then go turn in to Watcher Dodds.|
 H Darkshire|QID|5|M|73.77,43.51|N|Hearth or Run back to Darkshire.|
 T Jitters' Growling Gut|QID|5|M|73.77,43.51|N|To Chef Graul at the Inn.|
-A Dusky Crab Cakes|QID|93|M|73.77,43.51|N|From Chef Graul|PRE|5|
-T Dusky Crab Cakes|QID|93|M|73.77,43.51|N|To Chef Graul|
-A Return to Jitters|QID|240|M|73.77,43.51|N|From Chef Graul|PRE|93|
+A Dusky Crab Cakes|QID|93|M|73.77,43.51|N|From Chef Graul.|PRE|5|
+T Dusky Crab Cakes|QID|93|M|73.77,43.51|N|To Chef Graul. Don't get the follow-up for now.|
 T Supplies from Darkshire|QID|148|M|75.77,45.29|N|To Madame Eva.|
 A Ghost Hair Thread|QID|149|M|75.77,45.29|N|From Madame Eva.|PRE|148|
 A The Night Watch|QID|56|M|73.56,46.86|N|From Commander Althea Ebonlocke.|
