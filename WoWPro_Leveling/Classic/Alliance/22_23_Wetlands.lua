@@ -22,24 +22,29 @@ T The Tome of Valor|QID|1651|M|41.6,88.6|Z|Westfall|N|To Daphne Stilwell.|C|Pala
 A The Tome of Valor|QID|1652|M|41.6,88.6|Z|Westfall|N|From Daphne Stilwell.|PRE|1651|C|Paladin|
 T The Tome of Valor|QID|1652|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
 A The Test of Righteousness|QID|1653|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
-N Sell junk and repair - WARNING|QID|1078|N|Don't sell the Lean Wolf Flanks if you have any. We'll need 10 for a quest at level 27, if you don't have 10 it's ok, we'll get them later in the guide. Also train new skills, visit the AH, re-stock consumables. Close this step when you're done.|R|-NightElf|
+N Sell junk and repair - WARNING|QID|1078|N|Don't sell the Lean Wolf Flanks if you have any. We'll need 10 for a quest at level 27, if you don't have 10 it's ok, we'll get them later in the guide. Also train new skills, visit the AH, re-stock consumables. Close this step when you're done.|
 A Retrieval for Mauren|QID|1078|M|43.08,80.34|Z|Stormwind City|N|To Collin Mauren.|
-R Deeprun Tram|QID|455|N|Run to the Deeprun Tram|M|68.50, 31.50|Z|Stormwind City|R|-NightElf|
-R Tinker Town|QID|455|N|Take the tram to Ironforge.|R|-NightElf|
-A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|N|Another quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|R|-NightElf|
+R Deeprun Tram|QID|455|N|Run to the Deeprun Tram|M|68.50, 31.50|Z|Stormwind City|
+R Tinker Town|QID|455|N|Take the tram to Ironforge.|
+A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|N|Another quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
 T The Test of Righteousness|QID|1653|M|52.6,36.8|Z|Dun Morogh|N|To Jordan Stilwell right outside of the gates of Ironforge.|C|Paladin|
 A The Test of Righteousness|QID|1654|M|52.6,36.8|Z|Dun Morogh|N|From Jordan Stilwell. We won't follow the rest of this quest as it takes you all over the world to complete, but you now have the quest in your logs to complete as you see fit.|C|Paladin|PRE|1653|
 F Thelsamar|QID|455|M|55.49,47.72|Z|Ironforge|N|Fly to Thalsamar, Loch Modan|R|-NightElf|
+F Thelsamar|QID|455|M|55.49,47.72|Z|Ironforge|N|Fly to Thalsamar, Loch Modan|R|NightElf|RANK|3|
 A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|Loch Modan|N|From Mountaineer Rockgar.|R|-NightElf|
+A The Algaz Gauntlet|QID|455|M|25.5,10.5|Z|Loch Modan|N|From Mountaineer Rockgar.|R|NightElf|RANK|3|
 R Wetlands|QID|455|N|Go through the tunnel to Wetlands|M|25.25, 0.20|Z|Loch Modan|R|-NightElf|
-C The Algaz Gauntlet|QID|455|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest. Then go back to the tunnel and continue down the path until you complete this quest.|R|-NightElf|
+R Wetlands|QID|455|N|Go through the tunnel to Wetlands|M|25.25, 0.20|Z|Loch Modan|R|NightElf|RANK|3|
+C The Algaz Gauntlet|QID|455|M|47.6,76.1|N|Go to the orc camp and kill the orcs needed for the quest. Then go back to the tunnel and continue down the path until you complete this quest.|
 A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|R|-NightElf|
+A Daily Delivery|QID|469|M|50,39.5|N|From Einar Stonegrip.|R|NightElf|RANK|3|
 T The Algaz Gauntlet|QID|455|M|10.09,56.9|N|To Valstag Ironjaw.|
-T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|R|-NightElf|
-F Menethil Harbor|QID|270|M|55.3,47.6|N|Fly to Menethil Harbor.|R|NightElf|
+T Daily Delivery|QID|469|M|8.49,55.7|N|To James Halloran.|
+F Menethil Harbor|QID|270|M|55.54,47.75|Z|Ironforge|N|Fly to Menethil Harbor.|R|NightElf|RANK|-2|
+F Menethil Harbor|QID|270|M|55.54,47.75|Z|Ironforge|N|Fly to Menethil Harbor.|R|NightElf|RANK|-1|
 A Young Crocolisk Skins|QID|484|M|8.49,55.7|N|From James Halloran.|
 A Claws from the Deep|QID|279|M|8.33,58.52|N|From Karl Boran.|
-f Menethil Harbor|QID|279|N|Get the flight path.|M|9.50, 59.70|
+f Menethil Harbor|QID|279|N|Get the flight path.|M|9.50, 59.70|R|-NightElf|
 A The Greenwarden|QID|463|M|10.9,59.66|N|From First Mate Fitzsimmons.|
 A The Third Fleet|QID|288|M|10.9,59.66|N|From First Mate Fitzsimmons.|
 h Deepwater Tavern|QID|288|M|10.7,60.96|N|Make Deepwater Tavern your home location.|
