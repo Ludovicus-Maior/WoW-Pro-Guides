@@ -8,9 +8,9 @@ b Wetlands|QID|299|M|32.42,43.74|Z|Darkshore|N|Run back to Auberdine. and get on
 A Reclaiming Goods|QID|281|M|8.3,58.6|N|From Karl Boran.|PRE|279|
 A Apprentice's Duties|QID|471|M|8.49,55.7|N|From James Halloran.|PRE|484|
 A Fall of Dun Modr|QID|472|M|10.84,55.89|N|From Harlo Barnaby.|
-A Report to Captain Stoutfist|QID|473|M|10.09,56.9|N|From Valstag Ironjaw.|
-T Report to Captain Stoutfist|QID|473|M|9.86,57.48|N|To Captain Stoutfist, On the 2nd floor|
-A War Banners|QID|464|M|9.86,57.48|N|From Captain Stoutfist, On the 2nd floor|PRE|473|
+A Report to Captain Stoutfist|QID|473|M|10.09,56.9|N|From Valstag Ironjaw.|R|-NightElf,-Human|
+T Report to Captain Stoutfist|QID|473|M|9.86,57.48|N|To Captain Stoutfist, On the 2nd floor|R|-NightElf,-Human|
+A War Banners|QID|464|M|9.86,57.48|N|From Captain Stoutfist, On the 2nd floor
 A The Third Fleet|QID|288|M|10.9,59.66|N|From First Mate Fitzsimmons.|
 h Deepwater Tavern|QID|299|M|10.7,60.96|N|Make Deepwater Tavern your home location.|
 B Flagon of Dwarven Honeymead|QID|288|M|10.7,60.96|L|2594|N|Buy a Flagon of Dwarven honeymead from Inkeeper Helbrek. Hint: It's on the second page.|
