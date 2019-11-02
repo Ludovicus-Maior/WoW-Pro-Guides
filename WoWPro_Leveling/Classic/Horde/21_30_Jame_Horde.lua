@@ -386,9 +386,10 @@ F Splintertree Post|QID|6581|M|45.30,63.90|Z|Orgrimmar|
 A Warsong Saw Blades|QID|6581|M|73,61.4|Z|Ashenvale|N|From Pixel|
 T Warsong Saw Blades|QID|6581|M|73,61.4|Z|Ashenvale|N|To Pixel|
 
-K Kill Shadumbra for Shadumbra's Head|QID|24|L|16304|M|62.00,50.00;53.00,55.00|CN|Z|Ashenvale|N|Follow the road west. Shadumbra patrols between those points. Kill him and loot Shadumbra's Head.|
+K Kill Shadumbra for Shadumbra's Head|QID|24|T|Shadumbra|L|16304|M|62.00,50.00;53.00,55.00|CN|Z|Ashenvale|N|Follow the road west. Shadumbra patrols between those points. Kill him and loot Shadumbra's Head.|
 A Shadumbra's Head|QID|24|PRE|6383|U|16304|M|58.70,56.10|Z|Ashenvale|N|Click Shadumbra's Head to start the quest.|
 
+R Night Run|ACTIVE|6441|M|72.50,50.0;66.6,57.00|Z|Ashenvale|CS|N|Head up the river and then head west.|
 C Satyr Horns|QID|6441|M|66.60,56.30|Z|Ashenvale|N|Kill all Satyrs for Satyr Horns . Look for pitchers containing Warsong Oil.  Loot one for [27]Warsong Supplies.|
 C Collect: Warsong Oil for Warsong Supplies|QID|6571|QO|3|NC|M|66.00,55.00|Z|Ashenvale|N|Look for pitchers containing Warsong Oil.  Loot one for [27]Warsong Supplies.|
 
@@ -396,11 +397,11 @@ C Collect: Warsong Oil for Warsong Supplies|QID|6571|QO|3|NC|M|66.00,55.00|Z|Ash
 C Waters of Xavian|QID|1944|C|Mage|U|7269|M|76.0,41.0|Z|Ashenvale|O|N|Head east to the river, and go north to the waterfall there. Use Deino's Flask at the waterfall.|
 ; -----------------------------------------------------------------------------
 
-K Kill Sharptalon for Sharptalon's Claw|QID|2|L|16305|M|75.00,71.00|Z|Ashenvale|N|Sharptalon: It is unlikely you will be able to kill Sharptalon at your present level. Once you spot Sharptalon, keep him in sight and wait till he is close enough to the Forsaken Camp. Next, pull him with the lowest aggro spell/shot you have (a simple bow shoot, or rank 1 nuke).  Bring him to the Forsaken Camp. DO NOTHING.  Let the NPCs aggro it and take it off you. Once they have Sharptalon down to 90%, start attacking again, you must do as much damage as possible, but don't use high aggro spells.  Help them finish it off, then loot Sharptalon's Claw|
+K Kill Sharptalon for Sharptalon's Claw|QID|2|L|16305|M|75.00,71.00|Z|Ashenvale|N|Sharptalon: It is unlikely you will be able to kill Sharptalon at your present level. Once you spot Sharptalon, keep him in sight and wait till he is close enough to the Forsaken Camp. Next, pull him with the lowest aggro spell/shot you have (a simple bow shoot, or rank 1 nuke).  Bring him to the Forsaken Camp. DO NOTHING.  Let the NPCs aggro it and take it off you. Once they have Sharptalon down to 90%, start attacking again, you must do as much damage as possible, but don't use high aggro spells.  Help them finish it off, then loot Sharptalon's Claw|T|Sharptalon|
 A Sharptalon's Claw|QID|2|PRE|6383|U|16305|M|74.00,70.00|Z|Ashenvale|N|Click Sharptalon's Claw to start the quest.|
 
 T The Lost Pages|QID|6504|M|70.01,71.16|Z|Ashenvale|N|To Gurda Ragescar|
-T Warsong Supplies|QID|6571|Z|Ashenvale|N|To locke Okarr|
+T Warsong Supplies|QID|6571|M|71.4,67.6|Z|Ashenvale|N|To Locke Okarr|
 T Shadumbra's Head|QID|24|M|73.80,61.50|Z|Ashenvale|N|To Senani Thunderheart|
 T Sharptalon's Claw|QID|2|M|73.80,61.50|Z|Ashenvale|N|To Senani Thunderheart|
 A The Hunt Completed|QID|247|M|73.80,61.50|Z|Ashenvale|N|To Senani Thunderheart|
@@ -414,13 +415,13 @@ H Orgrimmar|QID|5052|U|6948|Z|Ashenvale|
 R Undercity|QID|529|Z|Hillsbrad Foothills|N|Take the Zepplin to Tirisfal then run to Undercity|
 
 ; -----Class Quest--------------------------------------------------------------
-F Sepulchur|QID|63|C|Shaman|M|63.30,48.40|Z|Undercity|
+F Sepulcher|QID|63|C|Shaman|M|63.30,48.40|Z|Undercity|
 C Call of Water |QID|63|C|Shaman|U|7811|M|38.80,44.20|Z|Silverpine Forest|N|Run here to 38,44 - its on the coast behind the Sepulchur. Use the water sapta. Kill the attackable elemental, then turn in the quest to the brazier.|
 T Call of Water |QID|63|C|Shaman|M|38.30,44.60|Z|Silverpine Forest|
 A Call of Water |QID|100|PRE|63|C|Shaman|M|38.30,44.60|Z|Silverpine Forest|
 T Call of Water |QID|100|C|Shaman|M|38.80,44.60|Z|Silverpine Forest|
 A Call of Water |QID|96|PRE|100|C|Shaman|M|38.80,44.60|Z|Silverpine Forest|
-R Sepulchur|QID|96|C|Shaman|M|45.60,42.50|Z|Silverpine Forest|
+R Sepulcher|QID|96|C|Shaman|M|45.60,42.50|Z|Silverpine Forest|
 F Tarren Mill|QID|96|C|Shaman|M|45.60,42.50|Z|Silverpine Forest|
 ; -----------------------------------------------------------------------------
 
