@@ -73,7 +73,7 @@ A Inquire at the Inn|QID|266|M|72.5,46.8|N|From Clerk Daltry.|PRE|265|
 T Inquire at the Inn|QID|266|M|73.79,44.49|N|To Tavernkeep Smitts.|
 A Finding the Shadowy Figure|QID|453|M|73.79,44.49|N|From Tavernkeep Smitts.|PRE|266|
 N Level 28|QID|453|N|You should be level 28 or close by now. We're about to go to Stormwind and train new skills, so if you're not 28, I suggest you go grind for it.|LVL|-28|
-F Trade District|QID|453|M|77.50,44.30|N|Fly to Stormwind City.|
+F Stormwind|QID|453|M|77.50,44.30|N|Fly to Stormwind City.|
 T The Tome of Valor|QID|1652|M|40,29.8|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
 A The Test of Righteousness|QID|1653|M|40,29.8|Z|Stormwind City|N|From Duthorian Rall.|C|Paladin|PRE|1652|
 T Klaven's Tower|QID|2359|M|76,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|C|Rogue|
@@ -110,7 +110,7 @@ A Morgan Ladimore|QID|227|M|72.65,47.64|N|From Sirra Von'lndi.|PRE|225|
 T Morgan Ladimore|QID|227|M|73.56,46.85|N|To Commander Althea Ebonlocke. Don't get follow up.|
 N Trash the book|QID|221|N|Destroy The Story of Morgan Ladimore, it is useless and wastes precious bag space. Skip this step when done.|PRE|227|
 T Worgen in the Woods|QID|221|M|75.29,48.04|N|To Calor. Don't get the follow up.|
-F Trade District|QID|72|N|Fly to Stormwind City.|M|77.50,44.30|
+F Stormwind|QID|72|N|Fly to Stormwind City.|M|77.50,44.30|
 N Sell junk, repair, etc|QID|72|N|Close this step when you're done.|
 T The Legend of Stalvan|QID|70|M|29.53,61.93|Z|Stormwind City|N|To Caretaker Folsom.|
 A The Legend of Stalvan|QID|72|M|29.53,61.93|Z|Stormwind City|N|From Caretaker Folsom.|PRE|70|
