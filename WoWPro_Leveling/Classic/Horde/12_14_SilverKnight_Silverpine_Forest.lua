@@ -83,8 +83,8 @@ A Rot Hide Clues|QID|439|M|58.34,34.95|N|From the Decrepit Ferry.|PRE|438|
 T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.|
 A The Engraved Ring|QID|440|M|43.43,40.86|N|From High Executor Hadrec.|PRE|439|
 C Arugal's Folly|QID|423|M|51.24,36.81;56.60,44.66;56.44,46.06|CC|QO|1;2|N|Head to Deep Elm Mine and kill Moonrage Gluttons and Darksouls for their Shackles.\nYou'll find the Darksouls inside the mine. Stay close to the entrance as they have a quick respawn rate.|US|
-C Border Crossings|QID|477|M|40.92,60.28|CC|N|To the Dalaran Crate.|NC|
-A Maps and Runes|QID|478|M|40.92,60.28|N|From the Dalaran Crate.|PRE|477|
+C Border Crossings|QID|477|M|49.92,60.28|CC|N|To the Dalaran Crate.|NC|
+A Maps and Runes|QID|478|M|49.92,60.28|N|From the Dalaran Crate.|PRE|477|
 H The Sepulcher|QID|478|N|Hearth back to The Sepulcher.|
 
 T Maps and Runes|QID|478|M|43.97,40.93|N|To Shadow Priest Allister.|
@@ -122,8 +122,8 @@ R Razor Hill|QID|1358|M|52.36,40.03|Z|Durotar|N|Run to Razor Hill.|
 A Conscript of the Horde|QID|840|M|50.8,43.6|Z|Durotar|N|From Takrin Pathseeker.|LVL|10|
 R Far Watch Outpost|QID|840|M|34.62,42.32|Z|Durotar|CC|N|Follow the western road from Razor Hill to the bridge over the Southfury River.|
 T Conscript of the Horde|QID|840|M|62.26,19.38|N|To Kargal Battlescar at Far Watch Outpost.|
-A Crossroads Conscription|QID|842|M|62.26,19.38|N|From Kargal Battlescar.|LVL|10|PRE|840|
-T Crossroads Conscription|QID|842|M|52.2,31|N|To Sergra Darkthorn in The Crossroads.|
+A Crossroads Conscription|QID|842|M|62.26,19.38|Z|The Barrens|N|From Kargal Battlescar.|LVL|10|PRE|840|
+T Crossroads Conscription|QID|842|M|52.2,31|Z|The Barrens|N|To Sergra Darkthorn in The Crossroads.|
 ; -----------------------------------------------------------------------------
 ]]
 end)
