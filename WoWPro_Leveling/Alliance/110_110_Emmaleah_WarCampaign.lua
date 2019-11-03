@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-11-04 00:45
+-- Who: Ludovicus_Maior
+-- Log: 50973, 53405, 53406 now obsolete.
+
+-- URL: http://wow-pro.com/node/3760/revisions/30323/view
 -- Date: 2019-07-23 19:58
 -- Who: Emmaleah
 -- Log: commented out the 4 quests with Magni that seem to have been eliminated [A Brother's Help; Stubborn as a Bronzebeard; Necessity is the MOTHER;One Way Ticket to the Heart]
@@ -248,11 +253,6 @@
 -- Date: 2018-09-09 11:15
 -- Who: elidion
 -- Log: Accuracy pass on First Assult
-
--- URL: http://wow-pro.com/node/3760/revisions/29705/view
--- Date: 2018-09-09 01:03
--- Who: elidion
--- Log: Incorrect Note Tag
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -611,14 +611,14 @@ C Blood on the Sand|QID|52146|M|39.65,83.91|Z|Vol'dun|QO|2|NC|N|Wait for Kelsey 
 C Blood on the Sand|QID|52146|M|38.68,83.02|Z|Vol'dun|QO|1|NC|N|Click on 7th Legion Spyglass and watch cinematic.|
 T Blood on the Sand|QID|52146|M|39.65,83.91|Z|Vol'dun|N|To Halford Wyrmbane.|
 
-;Heart of Azeroth questline
-P Silithis|QID|50973|M|69.75,15.66|Z|Boralus|N|Travel to Silithis to upgrade your Necklace' ilevel. One character on your account must have at least friendly rep for this quest to be available.|ACH|12947;5;;true|PRE|52451^51916|
-A The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|REP|Champions of Azeroth;2164;Friendly-Exalted|PRE|52451^51916|
-T The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
-A Unlocking the Heart|QID|53405|PRE|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
-T Unlocking the Heart|QID|53405|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
-A The Chamber of Heart|QID|53406|PRE|53405|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
-T The Chamber of Heart|QID|53406|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+;Heart of Azeroth questline - Gone as of 8.2.5
+;P Silithis|QID|50973|M|69.75,15.66|Z|Boralus|N|Travel to Silithis to upgrade your Necklace' ilevel. One character on your account must have at least friendly rep for this quest to be available.|ACH|12947;5;;true|PRE|52451^51916|
+;A The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|REP|Champions of Azeroth;2164;Friendly-Exalted|PRE|52451^51916|
+;T The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+;A Unlocking the Heart|QID|53405|PRE|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
+;T Unlocking the Heart|QID|53405|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+;A The Chamber of Heart|QID|53406|PRE|53405|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
+;T The Chamber of Heart|QID|53406|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
 ; Obsolete?https://www.wowhead.com/quest=54938/a-brothers-help
 ;A A Brother's Help|QID|54938|N|Autoaccepted when entering Boralus.|PRE|53406|ACH|12955;;;true|
 ;F Fort Victory|ACTIVE|54938|M|67.94,26.70|Z|Boralus|CHAT|N|Speak with Grand Admiral Jes-Tereth or otherwise travel to Nazmir.|
