@@ -667,7 +667,7 @@ N Again With the Zapped Giants|QID|3127|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandaz
 H Camp Mojache|QID|3124|U|6948|
 T Hippogryph Muisek|QID|3124|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
 A Faerie Dragon Muisek|QID|3125|PRE|3124|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|
-C Faerie Dragon Muisek|QID|3125|U|9620|M|70,47|N|Head west to the Sprite Darters. Kill them and use the Muisek Vessel on their corpses.|
+C Faerie Dragon Muisek|QID|3125|U|9620|M|68.70,49.00;68.90,44.95;67.05,47.72;70.11,46.81;64.88,48.05|CN|N|Head souht-west to the Sprite Darters. Kill them and use the Muisek Vessel on their corpses. Do not skin them skinners!|
 T Faerie Dragon Muisek|QID|3125|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
 A Treant Muisek|QID|3126|PRE|3125|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|
 C Treant Muisek|QID|3126|U|9606|M|71,57;58,48;57,73;73,40|CN|Z|Feralas|N|You're looking for Wandering Forest Walkers, which spawn and wander around near: The Grimtotem compound and Camp Mojache,The gnoll camps, Dire Maul, Hippogyph area.|
