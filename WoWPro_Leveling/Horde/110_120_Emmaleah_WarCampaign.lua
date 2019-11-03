@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-11-04 00:47
+-- Who: Ludovicus_Maior
+-- Log: 50973, 53405, 53406 gone now
+
+-- URL: http://wow-pro.com/node/3761/revisions/30430/view
 -- Date: 2019-10-12 15:57
 -- Who: Ludovicus_Maior
 -- Log: Add missing N tags
@@ -246,11 +251,6 @@
 -- Date: 2018-09-05 11:40
 -- Who: Emmaleah
 -- Log: Corrected 2nd A [A Mission of Unity] to "t". Moved Warfronts after Uniting Zandalar because that was the order I got them in. First load screen after 120 gave me A mission of Unity, then next load screen, warfronts popped up.
-
--- URL: http://wow-pro.com/node/3761/revisions/29679/view
--- Date: 2018-09-05 05:17
--- Who: elidion
--- Log: Moved the level gated quest chains under the foothold quest chains.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -556,14 +556,14 @@ A The Bridgeport Ride|QID|51601|M|77.01,49.19|Z|Tiragarde Sound|N|From Lilian Vo
 C The Bridgeport Ride|QID|51601|M|75.49,49.86;75.55,51.96;74.22,52.88|QO|1;2|Z|Tiragarde Sound|CS|V|N|Hop on the horse, make a circle thru town, be sure you ran past the Captain, and then ride out across the low bridge to where you set the bombs.|
 T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|NC|N|To Nathanos Blightcaller.|
 
-;Heart of Azeroth questline
-P Silithis|QID|50973|M|73.97,85.62|Z|The Great Seal!Dazar'alor|N|Travel to Silithis to upgrade your Necklace' ilevel. One character on your account must have at least friendly rep for this quest to be available.|ACH|12947;5;;true|PRE|52451^51916|
-A The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|REP|Champions of Azeroth;2164;Friendly-Exalted|PRE|52451^51916|
-T The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
-A Unlocking the Heart|QID|53405|PRE|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
-T Unlocking the Heart|QID|53405|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
-A The Chamber of Heart|QID|53406|PRE|53405|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
-T The Chamber of Heart|QID|53406|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+;Heart of Azeroth questline - gone as of 8.2.5
+; P Silithis|QID|50973|M|73.97,85.62|Z|The Great Seal!Dazar'alor|N|Travel to Silithis to upgrade your Necklace' ilevel. One character on your account must have at least friendly rep for this quest to be available.|ACH|12947;5;;true|PRE|52451^51916|
+; A The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|REP|Champions of Azeroth;2164;Friendly-Exalted|PRE|52451^51916|
+; T The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+; A Unlocking the Heart|QID|53405|PRE|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
+; T Unlocking the Heart|QID|53405|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+; A The Chamber of Heart|QID|53406|PRE|53405|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
+; T The Chamber of Heart|QID|53406|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
 ; This may be obsolete:https://www.wowhead.com/quest=54938/a-brothers-help
 ;A A Brother's Help|QID|54938|N|Autoaccepted when entering Dazar'alor.|PRE|53406|ACH|12955;;;true|
 ;F Gloom Hollow|ACTIVE|54938|M|51.93,41.21|Z|Dazar'alor|N|at Paku'ai Rokota, or otherwise travel to Nazmir.|
