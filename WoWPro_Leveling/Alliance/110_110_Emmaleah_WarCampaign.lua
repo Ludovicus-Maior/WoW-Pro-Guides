@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-11-05 12:44
+-- Who: Ludovicus_Maior
+-- Log: Playthough tweaks
+
+-- URL: http://wow-pro.com/node/3760/revisions/30438/view
 -- Date: 2019-11-04 00:45
 -- Who: Ludovicus_Maior
 -- Log: 50973, 53405, 53406 now obsolete.
@@ -248,11 +253,6 @@
 -- Date: 2018-09-10 07:34
 -- Who: elidion
 -- Log: Accuracy pass on the 4.5k friendly questline
-
--- URL: http://wow-pro.com/node/3760/revisions/29707/view
--- Date: 2018-09-09 11:15
--- Who: elidion
--- Log: Accuracy pass on First Assult
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -661,7 +661,7 @@ C They Can't Stay Here|QID|52172|M|41.15,30.02|Z|Nazmir|S|N|Kill 12 Horde Soldie
 C One Option: Fire|QID|52171|M|41.27,27.49|Z|Nazmir|QO|3|NC|N|Food Cache destroyed.|
 C One Option: Fire|QID|52171|M|39.96,28.49|Z|Nazmir|QO|1|NC|N|Bwonsamdi offerings destroyed.|
 C One Option: Fire|QID|52171|M|37.68,28.92|Z|Nazmir|QO|2|NC|N|Medicinal Supplies destroyed.|
-K Ranger Captain Areiel|ACTIVE|52170|M|35.87,29.32|Z|Nazmir|T|Ranger Captain Areiel|N|Kill Ranger Captain Areiel and loot the Horde Missive.|
+K Ranger Captain Areiel|ACTIVE|52170|QO|1|M|35.87,29.32|Z|Nazmir|T|Ranger Captain Areiel|N|Kill Ranger Captain Areiel and loot the Horde Missive.|
 C One Option: Fire|QID|52171|M|37.89,32.31|Z|Nazmir|QO|4|NC|N|Armory Supplies destroyed.|
 C They Can't Stay Here|QID|52172|M|41.15,30.02|Z|Nazmir|US|N|Finish killing Horde Soldiers.|
 T One Option: Fire|QID|52171|M|51.27,21.88|Z|Nazmir|N|To John J. Keeshan.|
@@ -1069,7 +1069,7 @@ A Outpost Upgrade: Castaway Point|QID|54288|M|69.27,27.00|Z|Boralus|N|From Halfo
 T Outpost Upgrade: Castaway Point|QID|54288|M|86.31,81.29|Z|Tiragarde Sound|N|To Dynamite Jack.|
 
 ; Darkshore pre-warfront questline.
-A On Whispered Winds|QID|53847|M|70.12,16.79|Z|Boralus|N|From Dori'thur.|
+A On Whispered Winds|QID|53847|M|26.99,52.72|Z|Boralus|N|From Dori'thur.|
 T On Whispered Winds|QID|53847|M|86.63,35.73|Z|Stormwind City|N|To Maiev Shadowsong.|
 A Waning Hope|QID|53849|M|86.63,35.73|Z|Stormwind City|N|From Maiev Shadowsong.|PRE|53847|
 C Waning Hope|QID|53849|M|86.54,36.49|Z|Stormwind City|CHAT|QO|1|N|Speak to Prophet Velen.|
@@ -1214,7 +1214,7 @@ R Zuldazar|ACTIVE|53307|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take y
 T Jungle Escort|QID|53307|M|64.46,47.29|Z|Zuldazar|N|Fly to Mistvine Ledge and turn in to Neva.|
 
 ;Vol'dun quests
-A WANTED: Sandscout Vesarik|QID|51165|M|27.36,53.28|Z|Vol'dun|LVL|120|N|From Notice Board at the Terrace of the Devoted in Vol'dun.|PRE|51969|RANK|2|
+A WANTED: Sandscout Vesarik|QID|51165|M|26.99,52.72|Z|Vol'dun|LVL|120|N|From Notice Board at the Terrace of the Devoted in Vol'dun.|PRE|51969|RANK|2|
 K Sandscout Vesarik|ACTIVE|51165|M|42.44,46.19|Z|Vol'dun|QO|1|T|Sandscout Vesarik|N|You need to kill Sandscout Vesarik, this one will require a group as he is quite difficult to solo for "most" classes.|
 t WANTED: Sandscout Vesarik|QID|51165|M|26.79,52.87|Z|Vol'dun|N|To Zareen.|
 
