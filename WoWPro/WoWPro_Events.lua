@@ -661,8 +661,8 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
     if WoWProCharDB.AutoTurnin then
         WoWPro.QuestCount = npcCount
         for index=1,npcCount do
-            -- name, level, isTrivial, isComplete, isLegendary, isIgnored
-            local name = npcQuests[((index-1)*6)+1]
+            -- name, level, isTrivial, isComplete, isLegendary, isIgnored, qid*
+            local name = npcQuests[((index-1)*7)+1]
             WoWPro:print("%s: considering turnin %d for [%s] .vs. [%s]", event, index, name, tostring(WoWPro.step[qidx]))
 	        if WoWPro.action[qidx] == "T" and name == WoWPro.step[qidx] then
 	            WoWPro.QuestStep = qidx
