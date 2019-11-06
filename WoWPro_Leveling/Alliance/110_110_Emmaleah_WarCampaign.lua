@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-11-06 22:20
+-- Who: Ludovicus_Maior
+-- Log: Playthough [Mischief Managed]
+
+-- URL: http://wow-pro.com/node/3760/revisions/30440/view
+-- Date: 2019-11-05 12:44
+-- Who: Ludovicus_Maior
+-- Log: Playthough tweaks
+
+-- URL: http://wow-pro.com/node/3760/revisions/30438/view
 -- Date: 2019-11-04 00:45
 -- Who: Ludovicus_Maior
 -- Log: 50973, 53405, 53406 now obsolete.
@@ -243,16 +253,6 @@
 -- Date: 2018-09-10 20:40
 -- Who: Emmaleah
 -- Log: change note of [The War Campaign]
-
--- URL: http://wow-pro.com/node/3760/revisions/29712/view
--- Date: 2018-09-10 07:34
--- Who: elidion
--- Log: Accuracy pass on the 4.5k friendly questline
-
--- URL: http://wow-pro.com/node/3760/revisions/29707/view
--- Date: 2018-09-09 11:15
--- Who: elidion
--- Log: Accuracy pass on First Assult
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
