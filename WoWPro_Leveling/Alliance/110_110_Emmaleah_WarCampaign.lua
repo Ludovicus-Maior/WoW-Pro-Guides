@@ -661,7 +661,7 @@ C They Can't Stay Here|QID|52172|M|41.15,30.02|Z|Nazmir|S|N|Kill 12 Horde Soldie
 C One Option: Fire|QID|52171|M|41.27,27.49|Z|Nazmir|QO|3|NC|N|Food Cache destroyed.|
 C One Option: Fire|QID|52171|M|39.96,28.49|Z|Nazmir|QO|1|NC|N|Bwonsamdi offerings destroyed.|
 C One Option: Fire|QID|52171|M|37.68,28.92|Z|Nazmir|QO|2|NC|N|Medicinal Supplies destroyed.|
-K Ranger Captain Areiel|ACTIVE|52170|M|35.87,29.32|Z|Nazmir|T|Ranger Captain Areiel|N|Kill Ranger Captain Areiel and loot the Horde Missive.|
+K Ranger Captain Areiel|ACTIVE|52170|M|35.87,29.32|Z|Nazmir|QO|1|T|Ranger Captain Areiel|N|Kill Ranger Captain Areiel and loot the Horde Missive.|
 C One Option: Fire|QID|52171|M|37.89,32.31|Z|Nazmir|QO|4|NC|N|Armory Supplies destroyed.|
 C They Can't Stay Here|QID|52172|M|41.15,30.02|Z|Nazmir|US|N|Finish killing Horde Soldiers.|
 T One Option: Fire|QID|52171|M|51.27,21.88|Z|Nazmir|N|To John J. Keeshan.|
@@ -746,15 +746,15 @@ P Wind's Redemption|ACTIVE|52261|M|20.94,60.48|Z|Azshara|N|Use the void portal t
 T Gallywix Got Away|QID|52261|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 
 ; 7.5k Honored with The 7th Legion
-A Operation: Cutpurse|QID|53070|M|69.28,27.00|Z|Boralus|N|Autoaccepted.|O|REP|7th Legion;2159;honored;7500|PRE|52261|
-T Operation: Cutpurse|QID|53070|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
+A Operation: Gryphon's Claw|QID|53071|M|69.28,27.00|Z|Boralus|N|Autoaccepted.|O|REP|7th Legion;2159;honored;7500|LEAD|52308|
+T Operation: Gryphon's Claw|QID|53071|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Intercepted Orders|QID|52308|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|REP|7th Legion;2159;honored;7500|PRE|52261|
 C Intercepted Orders|QID|52308|M|69.28,27.00|Z|Boralus|NC|N|Wait for conversation to end.|
 T Intercepted Orders|QID|52308|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-A Intercepted Orders|QID|52489|M|69.28,27.00|Z|Boralus|N|From Shandris Feathermoon.|PRE|52308|
-C Intercepted Orders|QID|52489|M|69.28,27.00|Z|Boralus|QO|1|NC|N|Mount Swiftwing.|
-C Intercepted Orders|QID|52489|M|37.42,43.30|Z|1156|QO|2|NC|N|Locate Horde ships.|
-T Intercepted Orders|QID|52489|M|37.42,43.30|Z|1156|N|Turn in Shandris Feathermoon on the Griffin next to you.|
+A Hunting Blood Prince Dreven|QID|52489|M|69.28,27.00|Z|Boralus|N|From Shandris Feathermoon.|PRE|52308|
+C Hunting Blood Prince Dreven|QID|52489|M|69.28,27.00|Z|Boralus|QO|1|NC|N|Mount Swiftwing.|
+C Hunting Blood Prince Dreven|QID|52489|M|37.42,43.30|Z|1156|QO|2|NC|N|Locate Horde ships.|
+T Hunting Blood Prince Dreven|QID|52489|M|37.42,43.30|Z|1156|N|Turn in Shandris Feathermoon on the Griffin next to you.|
 A Behind Enemy Boats|QID|52490|M|37.42,43.30|Z|1156|N|From Shandris Feathermoon.|PRE|52489|
 C Behind Enemy Boats|QID|52490|M|36.57,52.15|Z|1156|QO|1|NC|N|Use the "1" key to signal Halford to drop you off and then, climb in the Banshee's Wail gunport.|
 C Kill the Sailors|QID|52490|M|36.59,53.08|Z|1156|QO|2|S|N|Kill 10 sailors.|
@@ -794,9 +794,9 @@ T A Clean Escape|QID|52496|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 ; Revered with The 7th Legion
 B Vindicator Jaelaana|QID|53746^53747^53748^53749^53750^53751|M|69.33,24.96|Z|Boralus|S|N|Now that you're Revered you can purchase and use four more Scouting Reports. The sooner you start those missions, the sooner you will have more flightpoints in Zandalar.|REP|7th Legion;2159;revered-exalted|AVAILABLE|53746^53748^53749^53751|
 
-A Operation: Heartstrike|QID|53072|M|69.28,27.00|Z|Boralus|N|Autoaccepted|O|REP|7th Legion;2159;revered;0|PRE|52496|
+A Operation: Heartstrike|QID|53072|M|69.28,27.00|Z|Boralus|N|Autoaccepted|O|LEAD|52473|; REP|7th Legion;2159;revered;0|
 T Operation: Heartstrike|QID|53072|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-A Bringing Down the Fleet|QID|52473|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane|REP|7th Legion;2159;revered;0|PRE|52496|
+A Bringing Down the Fleet|QID|52473|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane|; REP|7th Legion;2159;revered;0|PRE|52496|
 C Bringing Down the Fleet|QID|52473|M|67.94,26.70|Z|Boralus|CHAT|N|Speak with Grand Admiral Jes-Tereth to sail for Zuldazar|
 T Bringing Down the Fleet|QID|52473|M|40.77,70.85|Z|Zuldazar|N|To Halford Wyrmbane.|
 A How to Sink a Zandalari Battleship|QID|52282|M|40.76,70.85|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52473|
@@ -850,7 +850,7 @@ T Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Spea
 
 ; Patch 8.1 quests
 ; War Marches On
-A Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|From Vindicator Jaelaana.|REP|7th Legion;2159;revered-exalted|PRE|52790|
+A Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|From Vindicator Jaelaana.|; REP|7th Legion;2159;revered-exalted|PRE|52790|
 t Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|To Vindicator Jaelaana.|
 A The Calm Before|QID|53986|M|70.71,27.07|Z|Boralus|N|From Master Mathias Shaw.|PRE|53098|
 F Proudmoore Keep|ACTIVE|53986|M|67.0,15.0|Z|Boralus|N|At Joan Weber. Take a flight or run over to Proudmoore Keep to meet up with Jaina.|
@@ -916,7 +916,9 @@ H Boralus|ACTIVE|53887|M|36.42,30.78|Z|Tiragarde Sound|TZ|Snug Harbor Inn|N|Hear
 T War Marches On|QID|53887|M|69.29,26.97|Z|Boralus|N|To Halford Wyrmbane.|
 
 ; The Sleeper Agent
-A Sensitive Intel|QID|54192|M|69.29,27.01|Z|Boralus|N|From Halford Wyrmbane.|PRE|53887|REP|7th Legion;2159;revered;7000|
+A Changing Course|QID|54191|M|69.29,27.01|Z|Boralus|N|From Halford Wyrmbane.|LEAD|54192|; REP|7th Legion;2159;revered;7000|
+T Changing Course|QID|54191|M|69.29,27.01|Z|Boralus|N|To Halford Wyrmbane.|
+A Sensitive Intel|QID|54192|M|69.29,27.01|Z|Boralus|N|From Halford Wyrmbane.|PRE|53887|; REP|7th Legion;2159;revered;7000|
 C Sensitive Intel|QID|54192|M|67.94,26.70|Z|Boralus|CHAT|QO|1|N|Speak to Grand Admiral Jes-Tereth to sail to Zuldazar.|
 T Sensitive Intel|QID|54192|M|41.08,70.66|Z|Zuldazar|N|To Kelsey Steelspark.|
 A This is Huge!|QID|54193|M|41.08,70.66|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|54192|
@@ -972,7 +974,7 @@ H Boralus|ACTIVE|54206|M|41.15,70.68|Z|Zuldazar|N|Use your hearthstone or otherw
 T The Sleeper Agent|QID|54206|M|69.29,26.99|Z|Boralus|N|To Halford Wyrmbane.|
 
 ; Mischief Managed
-A The Abyssal Scepter|QID|54171|M|69.29,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54206|REP|7th Legion;2159;revered;14000|
+A The Abyssal Scepter|QID|54171|M|69.29,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54206| ; REP|7th Legion;2159;revered;14000|
 T The Abyssal Scepter|QID|54171|M|40.60,70.70|Z|Zuldazar|N|To Lady Jaina Proudmoore.|
 A The Treasury Heist|QID|54169|M|40.60,70.70|Z|Zuldazar|N|From Lady Jaina Proudmoore.|PRE|54171|
 C The Treasury Heist|QID|54169|M|40.60,70.70|Z|Zuldazar|CHAT|QO|1|N|Speak with Jaina Proudmoore and then click on the void portal when it appears to enter the scenario.|
@@ -1041,12 +1043,12 @@ A He Who Walks in the Light|QID|54459|M|50.36,84.17|Z|Nazmir|N|From Lady Jaina P
 P Sanctum of the Sages|ACTIVE|54459|M|50.37,84.08|Z|Nazmir|N|Use the portal that Jaina has provided you.|
 T He Who Walks in the Light|QID|54459|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
 A Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane. This is a raid quest.|NA|PRE|54459|
-t Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
-A As the Dust Settles|QID|54163|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane. This is a raid quest.|PRE|54485|
+A As the Dust Settles|QID|54163|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane. This is a raid quest.|PRE|54459|
 T As the Dust Settles|QID|54163|M|49.32,85.51|Z|Boralus|N|Fly to Proudmoore Keep and meet Anduin in Unity Square.|
 A Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|N|From Anduin in Unity Square.|PRE|54163|
 C Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|CHAT|N|Talk with Anduin and attend the meeting.|
 T Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|N|To Anduin.|
+t Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
 
 B More upgrade missions|QID|54292&54293&543305|M|68.97,24.73|Z|Boralus|S!US|N|Three more missions to upgrade your outposts purchased from the Vindicator Jaelaana. Unlike the previous missions, these need to be purchased (and done) by each character who wants the upgrade.|REP|7th Legion;2159;Exalted;0|
 
@@ -1069,7 +1071,7 @@ A Outpost Upgrade: Castaway Point|QID|54288|M|69.27,27.00|Z|Boralus|N|From Halfo
 T Outpost Upgrade: Castaway Point|QID|54288|M|86.31,81.29|Z|Tiragarde Sound|N|To Dynamite Jack.|
 
 ; Darkshore pre-warfront questline.
-A On Whispered Winds|QID|53847|M|70.12,16.79|Z|Boralus|N|From Dori'thur.|
+A On Whispered Winds|QID|53847|M|70.73,26.81|Z|Boralus|N|From Dori'thur.|
 T On Whispered Winds|QID|53847|M|86.63,35.73|Z|Stormwind City|N|To Maiev Shadowsong.|
 A Waning Hope|QID|53849|M|86.63,35.73|Z|Stormwind City|N|From Maiev Shadowsong.|PRE|53847|
 C Waning Hope|QID|53849|M|86.54,36.49|Z|Stormwind City|CHAT|QO|1|N|Speak to Prophet Velen.|
@@ -1214,7 +1216,7 @@ R Zuldazar|ACTIVE|53307|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take y
 T Jungle Escort|QID|53307|M|64.46,47.29|Z|Zuldazar|N|Fly to Mistvine Ledge and turn in to Neva.|
 
 ;Vol'dun quests
-A WANTED: Sandscout Vesarik|QID|51165|M|27.36,53.28|Z|Vol'dun|LVL|120|N|From Notice Board at the Terrace of the Devoted in Vol'dun.|PRE|51969|RANK|2|
+A WANTED: Sandscout Vesarik|QID|51165|M|26.99,52.72|Z|Vol'dun|LVL|120|N|From Notice Board at the Terrace of the Devoted in Vol'dun.|PRE|51969|RANK|2|
 K Sandscout Vesarik|ACTIVE|51165|M|42.44,46.19|Z|Vol'dun|QO|1|T|Sandscout Vesarik|N|You need to kill Sandscout Vesarik, this one will require a group as he is quite difficult to solo for "most" classes.|
 t WANTED: Sandscout Vesarik|QID|51165|M|26.79,52.87|Z|Vol'dun|N|To Zareen.|
 
