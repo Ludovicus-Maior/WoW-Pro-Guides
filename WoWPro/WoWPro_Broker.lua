@@ -1704,7 +1704,7 @@ function WoWPro.NextStep(k,i)
                     WoWPro.why[k] = "NextStep(): Permanently skipping step because player does not have the profession."
                     WoWProCharDB.Guide[GID].skipped[k] = true
                     WoWPro:SetQIDsInTable(QID, WoWProCharDB.skippedQIDs)
-                    WoWPro:dbp("Prof permaskip qid %s for no %s", (WoWPro.QID[k] or "NONE"), prof)
+                    WoWPro:dbp("Prof permaskip qid %s for no %s", (WoWPro.QID[k] or "NONE"), profName)
                     skip = true
                     break
                 else
