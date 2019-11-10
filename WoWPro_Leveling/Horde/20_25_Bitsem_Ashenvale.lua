@@ -290,8 +290,8 @@ T Satyr Horns|QID|6441|M|73.84,62.45|N|To Pixel.|
 
 F Orgrimmar|QID|13841|M|73.21,61.54|N|Fly to Orgrimmar|
 
-T All Apologies|QID|13841|M|50.79,63.38;48.12,70.72|Z|Orgrimmar@Orgrimmar|CC|N|Take the lift down, then turn in to Vol'jin.|
-A Dread Head Redemption|QID|13842|PRE|13841|M|48.12,70.72|Z|Orgrimmar@Orgrimmar|N|From Vol'jin.|
+T All Apologies|QID|13841|M|50.79,63.38;49.15,72.25|Z|Orgrimmar@Orgrimmar|CC|N|Take the lift down, then turn in to Eitrigg.|
+A Dread Head Redemption|QID|13842|PRE|13841|M|49.15,72.25|Z|Orgrimmar@Orgrimmar|N|From Eitrigg.|
 
 F Splintertree Outpost|QID|13842|M|49.6,59.17|N|Fly back to Splintertree...again. (Or hearth)|Z|Orgrimmar|
 
@@ -343,29 +343,29 @@ T The Essence of Aku'Mai|QID|26890|M|11.54,35.29|N|To Dagrun Ragehammer.|
 F Hellscream's Watch|QID|13923|M|11.20,34.40|N|Talk to Andruk for free flight.|
 A Troll Charm|QID|6462|RANK|2|M|38.83,42.40|N|From Mitsuwa.|
 h Hellscream's Watch|QID|13923|M|38.60,42.32|N|At Innkeeper Linkasa.|
-T To Hellscream's Watch|QID|13923|M|38.34,42.96|N|To Captain Goggath.|
+T To Hellscream's Watch|QID|13923|M|38.34,42.96|N|To Captain Goggath he roams around.|
 
-A Tweedle's Dumb|QID|13936|PRE|13923|RANK|1|M|38.34,42.96|N|From Captain Goggath.|
+A Tweedle's Dumb|QID|13936|PRE|13923|RANK|1|M|38.34,42.96|N|From Captain Goggath he roams around.|
 A Between a Rock and a Thistlefur|QID|216|RANK|2|M|37.82,43.50|N|From Karang Amakkar.|
 T Tweedle's Dumb|QID|13936|M|37.97,43.83|N|To Tweedle.|
 A Set Us Up the Bomb|QID|13942|PRE|13936|RANK|1|M|37.97,43.83|N|From Tweedle.|
-A Breathing Room|QID|13943|PRE|13936|RANK|1|M|38.31,43.10|N|From Captain Goggath.|
+A Breathing Room|QID|13943|PRE|13936|RANK|1|M|38.31,43.10|N|From Captain Goggath he roams around.|
 
 C Set Us Up the Bomb|QID|13942|S|M|39.51,47.54|N|Collect Moon Kissed Clay from the ground.|
 C Breathing Room|QID|13943|M|34.96,45.77|N|Kill Astranaar Skirmishers and Officers.|
 C Set Us Up the Bomb|QID|13942|US|M|39.51,47.54|
 
-T Breathing Room|QID|13943|M|38.07,42.92|N|To Captain Goggath.|
+T Breathing Room|QID|13943|M|38.07,42.92|N|To Captain Goggath he roams around.|
 T Set Us Up the Bomb|QID|13942|M|37.99,43.86|N|To Tweedle.|
 A Small Hands, Short Fuse|QID|13944|PRE|13942|RANK|1|M|37.99,43.86|N|From Tweedle.|
 
 C Small Hands, Short Fuse|QID|13944|U|46701|M|38.35,44.23|N|Use Tweedle's Improvisd Explosive on the wagon.|
-T Small Hands, Short Fuse|QID|13944|M|38.00,42.84|N|To Captain Goggath.|
-A Blastranaar!|QID|13947|PRE|13944|RANK|1|M|38.00,42.84|N|From Captain Goggath.|
+T Small Hands, Short Fuse|QID|13944|M|38.00,42.84|N|To Captain Goggath he roams around.|
+A Blastranaar!|QID|13947|PRE|13944|RANK|1|M|38.00,42.84|N|From Captain Goggath he roams around.|
 
 C Blastranaar!|QID|13947|M|38.10,42.18|N|Talk to Thraka when you're ready to bomb some stuff!|
-T Blastranaar!|QID|13947|M|38.33,43.73|N|To Captain Goggath.|
-A Condition Critical!|QID|13958|PRE|13947|RANK|1|M|38.33,43.73|N|From Captain Goggath.|
+T Blastranaar!|QID|13947|M|38.33,43.73|N|To Captain Goggath he roams around.|
+A Condition Critical!|QID|13958|PRE|13947|RANK|1|M|38.33,43.73|N|From Captain Goggath he roams around.|
 A Tweedle's Tiny Package|QID|13974|PRE|13947|RANK|1|M|38.02,43.83|N|From Tweedle.|
 A Thunder Peak|QID|13879|PRE|13947|RANK|1|M|38.84,43.37|N|From Broyk.|
 
