@@ -17,7 +17,6 @@ A Scarlet Diversions|QID|5096|
 N Get a Flame in a Bottle|L|12814|N|From the Box of Incendiaries|
 T The Everlook Report|QID|6029|
 N Get a Commission|L|12846|N|Talk to the quartermaster and get a commission, you should have this equipped any time you are in the plaguelands. Turn in any scourgestones you get when you are in town if you have a full stack.|
-A The So-Called Mark of the Lightbringer|QID|9443|
 A A Plague Upon Thee|QID|5901|
 
 C Scarlet Diversions|QID|5096|N|Burn the tent, plant the banner. Note that if you have a partner he will not get credit, you must wait for the tent to respawn.|
@@ -72,8 +71,6 @@ T The Wildlife Suffers Too|QID|4984|
 A The Wildlife Suffers Too|QID|4985|PRE|4984|
 C The Wildlife Suffers Too|QID|4985|
 
-f New flight point!|M|69.20,49.70|N|There is now a flight point on the east end of the road. Zip over there and fly back to the BULWARK!|
-F Bulwark|M|69.20,49.70|N|At the new flighpoint.|
 T Return to the Bulwark|QID|5234|
 A Target: Gahrron's Withering|QID|5235|PRE|5234|
 
