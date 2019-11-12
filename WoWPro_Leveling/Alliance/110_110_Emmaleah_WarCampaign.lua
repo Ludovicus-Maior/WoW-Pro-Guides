@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-11-12 18:06
+-- Who: Ludovicus_Maior
+-- Log: PRE tweak.
+
+-- URL: http://wow-pro.com/node/3760/revisions/30441/view
 -- Date: 2019-11-06 22:20
 -- Who: Ludovicus_Maior
 -- Log: Playthough [Mischief Managed]
@@ -248,11 +253,6 @@
 -- Date: 2018-09-11 23:59
 -- Who: jovieve
 -- Log: Recorded War Campaign at the Revered rep gate and added to the guide.
-
--- URL: http://wow-pro.com/node/3760/revisions/29714/view
--- Date: 2018-09-10 20:40
--- Who: Emmaleah
--- Log: change note of [The War Campaign]
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
