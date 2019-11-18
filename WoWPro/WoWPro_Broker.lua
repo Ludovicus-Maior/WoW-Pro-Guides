@@ -1789,10 +1789,12 @@ function WoWPro.NextStep(k,i)
                 end
                 WoWPro:dbp("Special replvl %s vs hasBonusRepGain %s, skip is %s",tostring(replvl),tostring(hasBonusRepGain),tostring(skip))
             end
-
+			WoWPro:dbp("ConsiderRep type(replvl)=%s, repmin=%d, standingId=%d, repmax=%d, replvl=%s",
+					   type(replvl), repmin, standingId, repmax, tostring(replvl))
 			if type(replvl) == "number" and (repmin <= standingId) and (repmax >= standingId) and (replvl == 0) then
 				skip = false
-				WoWPro.why[k] = "NextStep(): RepStep within reputation range " .. WoWPro.rep[k]
+				WoWPro.why[k] = "NextStep(): RepStep within reputation range " .. temprep
+				WoWPro:dbp(WoWPro.why[k])
 			end
 			if type(replvl) == "number" and (replvl > 0) then
 			    -- replvl modifies the minimal reputation rank to activate
@@ -1821,6 +1823,10 @@ function WoWPro.NextStep(k,i)
 			if flip then
 			    skip = not skip
 			    WoWPro:dbp("!? Processed flip: skip=%s", tostring(skip))
+			end
+			WoWPro:dbp("ConsiderRep skip = %s", tostring(skip))
+			if skip then
+				break
 			end
         end
 
