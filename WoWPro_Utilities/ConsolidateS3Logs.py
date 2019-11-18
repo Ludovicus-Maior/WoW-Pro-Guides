@@ -46,7 +46,7 @@ def process_s3_logs(bucketName="WoW-Pro"):
                 continue
             # Do not process the current day.
             if now.year == timeStamp.year and now.month == timeStamp.month and now.day == timeStamp.day:
-                continue
+                break
             # OK, lets process this file
             data = entry.get_contents_as_string()
             if not timeStamp.year in megaLog:
