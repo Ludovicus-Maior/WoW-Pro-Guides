@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_alliance
+-- Date: 2019-11-18 20:58
+-- Who: Ludovicus_Maior
+-- Log: Playthough up to [Sea Slug Liquidation]
+
+-- URL: http://wow-pro.com/node/3790/revisions/30402/view
 -- Date: 2019-09-03 17:44
 -- Who: Ludovicus_Maior
 -- Log: Cleaned up the 5678456779 QID!
@@ -135,9 +140,9 @@ T Insight into Our Enemies|QID|55593|M|38.98,54.62|N|To Blademaster Okani.|
 A Deteriorating Knowledge|QID|55595|M|38.98,54.62|N|From Blademaster Okani.|PRE|55593|
 A Bound by Honor|QID|55597|M|38.98,54.62|N|From Blademaster Okani.|PRE|55593|
 C Bound by Honor|QID|55597|M|47.66,44.54|S|N|Kill naga as you look for the Ankoan to rescue.|
-C Deteriorating Knowledge|QID|55595|M|60.68,47.26|QO|1|N|Attack the mind-shackled ankoen to rescue Imara.|
-C Deteriorating Knowledge|QID|55595|M|47.66,44.54|QO|2|N|Attack the mind-shackled ankoen to rescue Adaru.|
-C Deteriorating Knowledge|QID|55595|M|45.10,25.38|QO|3|N|Attack the mind-shackled ankoen to rescue Umai.|
+C Deteriorating Knowledge|QID|55595|M|61.66,53.40|QO|1|N|Attack the mind-shackled ankoen to rescue Imara.|
+C Deteriorating Knowledge|QID|55595|M|47.05,41.91|QO|2|N|Attack the mind-shackled ankoen to rescue Adaru.|
+C Deteriorating Knowledge|QID|55595|M|50.15,14.73|QO|3|N|Attack the mind-shackled ankoen to rescue Umai.|
 C Bound by Honor|QID|55597|M|47.66,44.54|US|N|Finish off the quota of Naga forces.|
 T Bound by Honor|QID|55597|M|38.97,30.38|N|To Ezra.|
 T Deteriorating Knowledge|QID|55595|M|38.96,30.37|N|To Adaru.|
@@ -162,8 +167,8 @@ A Stealing the Naga's Secrets|QID|56037|M|34.68,21.13|N|From Weapons Chest.|PRE|
 C Stealing the Naga's Secrets|QID|56037|M|34.68,21.13|QO|1|NC|N|Pick up the Azerite Trident.|
 C Stealing the Naga's Secrets|QID|56037|M|38.64,24.08|QO|2|N|Advance forward and kill Zanj'ir.|
 T Stealing the Naga's Secrets|QID|56037|M|38.92,30.52|N|To Lady Jaina Proudmoore.|
-A Sea Slug Liquidation|QID|55860|M|38.86,30.41|N|From Blademaster Okani.|PRE|55860|
-A Coveted Crystals|QID|55601|M|38.86,30.41|N|From Blademaster Okani.|PRE|55860|
+A Sea Slug Liquidation|QID|55860|M|38.86,30.41|N|From Blademaster Okani.|PRE|56037|
+A Coveted Crystals|QID|55601|M|38.86,30.41|N|From Blademaster Okani.|PRE|56037|
 C Sea Slug Liquidation|QID|55860|M|25.95,30.31|S|NC|N|Collect slugs for their bioluminescent ooze.|
 K Hoarder Moarrgl|ACTIVE|55601|M|27.09,27.13|QO|1|T|Hoarder Moarrgl|N|Kill Hoarder Moarrgl and loot the Deepsea Crystal.|
 C Sea Slug Liquidation|QID|55860|M|25.95,30.31|US|NC|N|Finish collecting the bioluminescent ooze.|
@@ -329,7 +334,7 @@ C Elemental Fury|QID|39335|M|48.51,52.85|US|N|Finish pacifying the Tide Surgers.
 T Elemental Fury|QID|55362|M|43.54,49.72|N|To Farseer Ori.|
 T Rescue The Farseer|QID|55363|M|39.67,46.55;39.37,53.46|CC|N|To Bladesman Inowari.|;WQs Unlocked
 A A Tempered Blade|QID|56156|M|39.37,53.46|N|From Bladesman Inowari.|PRE|55363
-C A Tempered Blade|QID|56156|M|39.37,53.46|QO|1|N|Kill Naga forces.|
+C A Tempered Blade|QID|56156|M|39.92,37.19|QO|1|N|Kill Naga forces.|
 C A Tempered Blade|QID|56156|M|39.51,53.38|QO|2|N|Return to Mezzamere|
 T A Tempered Blade|QID|56156|M|39.51,53.38|N|To Bladesman Inowari.|
 
@@ -453,9 +458,9 @@ C Snap Back|QID|56118|M|69.57,49.73|US|U|168947|N|Finish killing snapdragons.|
 T Snap Back|QID|56118|M|66.50,47.46|N|To Collector Kojo.|
 T Legacy of Nar'anan|QID|56095|M|66.50,47.46|N|To Collector Kojo.|
 A The Fate of Professor Elryna|QID|56143|M|66.50,47.46|N|From Collector Kojo.|PRE|56118&56095|
-C The Fate of Professor Elryna|QID|56143|M|68.72,50.26|QO|1|N|Kill the Snapdragon Matriarch.|
-C The Fate of Professor Elryna|QID|56143|M|68.32,50.65|QO|2|NC|N|Pick up the Memory Core.|
-C The Fate of Professor Elryna|QID|56143|M|66.46,47.40|QO|3|NC|N|Witness the fate of Professor Elryna.|
+C The Fate of Professor Elryna|QID|56143|M|68.24,50.65|QO|1|N|Kill the Snapdragon Matriarch. Use the scroll first.|U|169209|
+C The Fate of Professor Elryna|QID|56143|M|68.24,50.65|QO|2|NC|N|Pick up the Memory Core from the chest.|
+C The Fate of Professor Elryna|QID|56143|M|66.48,47.27|QO|3|NC|N|Witness the fate of Professor Elryna.  Use the memory pylon next to Kojo.|
 T The Fate of Professor Elryna|QID|56143|M|66.46,47.40|N|To Collector Kojo.|
 f Elun'alor Temple|ACTIVE|56241|M|74.08,40.03|N|From Orise. The area is actually named Orise's Vigil.|
 
@@ -463,11 +468,11 @@ A Relics of the Sundering|QID|55659|M|78.84,42.44|N|From Shirelle McFadden.|O|PR
 C Relics of the Sundering|QID|55659|M|78.84,42.44|NC|N|Pick up the relics in the area.|
 T Relics of the Sundering|QID|55659|M|78.82,42.43|N|To Shirelle McFadden.|
 
-A City of the Drowned Friends|QID|56309|M|76.26,45.56|N|From Shandris Feathermoon.|PRE|56156|
-C City of the Drowned Friends|QID|56309|M|75.93,48.33|QO|1|T|Weeping Sanya|N|Weeping Sanya inside op the stairs.|
-C City of the Drowned Friends|QID|56309|M|73.67,43.77|QO|2|NC|N|Swiftfinger Tynala.|
-C City of the Drowned Friends|QID|56309|M|71.57,41.91|QO|3|T|Merchant Renrotta|N|Find and Kill Merchant Renrotta.|
-T City of the Drowned Friends|QID|56309|M|73.98,41.76|N|To Shandris Feathermoon.|
+A City of Drowned Friends|QID|56309|M|76.26,45.56|N|From Shandris Feathermoon.|PRE|56156|
+C City of Drowned Friends|QID|56309|M|75.93,48.33|QO|1|T|Weeping Sanya|N|Weeping Sanya inside op the stairs.|
+C City of Drowned Friends|QID|56309|M|73.67,43.77|QO|2|NC|N|Swiftfinger Tynala.|
+C City of Drowned Friends|QID|56309|M|71.57,41.91|QO|3|T|Merchant Renrotta|N|Find and Kill Merchant Renrotta.|
+T City of Drowned Friends|QID|56309|M|73.98,41.76|N|To Shandris Feathermoon.|
 A The Ever Drowning|QID|56311|M|73.98,41.76|N|From Shandris Feathermoon.|PRE|56309|
 C The Ever Drowning|QID|56311|M|73.98,41.76|QO|1|CHAT|N|Mount up and tell her you are ready. Stay with her as she runs.|
 C The Ever Drowning|QID|56311|M|79.78,44.94|QO|2|NC|N|Stay right beside her so you are in her bubble when she casts it (3 times).|
@@ -505,9 +510,10 @@ A Arcane Cache|QID|55662|M|53.2,28.3|N|From Arcane Cache.|O|
 C Arcane Cache|QID|55662|M|53.2,28.3|N|Key dropped by nearby Azsh'ari Naga.|
 T Arcane Cache|QID|55662|M|53.2,28.3|N|To Arcane Cache.|
 
-f Utama's Stand|ACTIVE|57086|M|61.67,36.50|N|At Hiramo.|
+F Utama's Stand|ACTIVE|57086|M|61.67,36.50|N|At Hiramo.|
 A Legacy of the Mad Mage|QID|57086|N|From Dropped Lesser Benthic Arcanocrystal.|O|PRE|56247|
-C Legacy of the Mad Mage|QID|57086|M|60.31,33.60|QO|2|NC|N|Place the Arcanocrystal.|
+C Legacy of the Mad Mage|QID|57086|M|60.7, 31.9|QO|1|NC|N|Find the Mage's SECRET cave.|
+C Legacy of the Mad Mage|QID|57086|M|60.29,33.63|QO|2|NC|N|Place the Arcanocrystal.|
 C Legacy of the Mad Mage|QID|57086|M|59.84,33.91|QO|3|NC|N|Activate the Amalgamator.|
 K Watery Amalgamation|ACTIVE|57086|M|59.73,34.52|QO|4|T|Watery Amalgamation.|N|Kill Watery Amalgamation.|
 T Legacy of the Mad Mage|QID|57086|M|60.49,33.56|N|To Arcane Cache.|
@@ -519,7 +525,7 @@ K Champion Qalina, Spear of Ice|ACTIVE|55888|M|60.25,28.69|T|Champion Qalina|N|K
 C Time to Krill|QID|56078|M|63.70,50.41;72.39,48.67;63.58,50.48|CN|N|Click on Murky's Egg. Note.|
 C Time to Krill|QID|56078|M|63.57,50.47|N|Use Murky's abilities to kill Snapdragons.|
 
-C Bounty: Fathom Rays|QID|55825^55834|M|38.11,15.57|N|Kill Fathom Rays.|
+C Bounty: Fathom Rays|QID|55825^55834|M|38.11,15.57|N|Kill Fathom Rays.|T|Fathom Rays|
 A Feed Them All|QID|56149|M|55.6,47|N|From Harvester Akaro.|O|
 C Feed Them All|QID|56149|M|58.61,52.17|N|Kill and loot Fathom Rays.|
 T Feed Them All|QID|56149|M|55.6,47|N|To Harvester Akaro.|
