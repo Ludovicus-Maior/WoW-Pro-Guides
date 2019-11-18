@@ -13,7 +13,7 @@ A The Mindless Ones|QID|364|PRE|363|M|30.84,66.20|
 C The Mindless Ones|QID|364|M|32.22,63.16|QO|1;2|N|Kill Mindless Zombies and Wretched Zombies outside.|
 
 T The Mindless Ones|QID|364|M|30.80,66.20|N|From Shadow Priest Sarvis in the chapel.|
-A Encrypted Scroll|QID|3096|PRE|364|C|Rogue|M|30.80,66.20|N|From Shadow Priest Sarvis in the chapel.|
+A Encrypted Scroll|QID|3096|PRE|364|M|30.80,66.20|N|From Shadow Priest Sarvis in the chapel.|R|Undead|C|Rogue|
 A Glyphic Scroll|QID|3098|PRE|364|C|Mage|M|30.80,66.20|N|From Shadow Priest Sarvis in the chapel.|
 A Hallowed Scroll|QID|3097|PRE|364|C|Priest|M|30.80,66.20|N|From Shadow Priest Sarvis in the chapel.|
 A Simple Scroll|QID|3095|PRE|364|C|Warrior|M|30.80,66.20|N|FFrom Shadow Priest Sarvis in the chapel.|
@@ -21,7 +21,7 @@ A Tainted Scroll|QID|3099|PRE|364|C|Warlock|M|30.80,66.20|N|From Shadow Priest S
 A Rattling the Rattlecages|QID|3901|PRE|364|M|30.80,66.20|N|From Shadow Priest Sarvis|
 A The Damned|QID|376|M|30.85,66.05|N|From Novice Elreth.|
 
-T Encrypted Scroll|QID|3096|C|Rogue|M|32.50,65.70|N|Turn in your class quest in the bigger house across the chapel at David Trias.|
+T Encrypted Scroll|QID|3096|M|32.50,65.70|N|Turn in your class quest in the bigger house across the chapel at David Trias.|R|Undead|C|Rogue|
 T Glyphic Scroll|QID|3098|C|Mage|M|30.90,66.10|N|Turn in your class quest in the chapel at Isabella.|
 T Hallowed Scroll|QID|3097|C|Priest|M|31.10,66.00|N|Turn in your class quest in the chapel at Dark Cleric Duesten.|
 T Simple Scroll|QID|3095|C|Warrior|M|32.70,65.60|N|Go to the bigger house across the chapel at Dannal Stern.|
@@ -177,7 +177,7 @@ L Level 10|LVL|10|N|You need to be level 10 to continue forward. Go grind until 
 ; Mage
 A Speak with Anastasia|QID|1881|C|Mage|M|61.96,52.45|N|From Cain Firesong at the top of the stairs in the Tavern.|LVL|10|
 ; Rogue
-A Mennet Carkad|QID|1885|C|Rogue|M|61.74,52.01|N|From Marion Cal upstairs at the Tavern.|LVL|10|
+A Mennet Carkad|QID|1885|M|61.74,52.01|N|From Marion Cal upstairs at the Tavern.|R|Undead|C|Rogue|LVL|10|
 ; Warlock
 A Halgar's Summons|QID|1478|C|Warlock|M|61.62,52.66|N|From Ageron Kargal upstairs at the Tavern.|LVL|10|
 ; Warrior
@@ -211,19 +211,20 @@ A The Balnir Farmstead|QID|1882|C|Mage|M|85.13,10.07|Z|Undercity|N|From Anastasi
 A Touch of Weakness|QID|5658|C|Priest|R|Undead|M|49.28,18.36|Z|Undercity|N|From Aelthalyste.|LVL|10|
 T Touch of Weakness|QID|5658|C|Priest|R|Undead|M|49.28,18.36|Z|Undercity|N|Turn into Aelthalyste.|LVL|10|
 ; Rogue
-T Mennet Carkad|QID|1885|C|Rogue|M|83.51,69.10|Z|Undercity|N|To Mennet Carkad in the Rogues' Quarter.|
-A The Deathstalkers|QID|1886|C|Rogue|M|83.51,69.10|Z|Undercity|N|From Mennet Carkad.|PRE|1885|
-T The Deathstalkers|QID|1886|C|Rogue|M|83.51,69.10|Z|Undercity|N|To Mennet Carkad.|
-A The Deathstalkers|QID|1898|C|Rogue|M|83.51,69.10|Z|Undercity|N|From Mennet Carkad.|PRE|1886|
-T The Deathstalkers|QID|1898|C|Rogue|M|54.82,76.30|Z|Undercity|N|To Andron Grant in the Apothecarium.|
-A The Deathstalkers|QID|1899|C|Rogue|M|54.82,76.30|Z|Undercity|N|From Andron Grant.|PRE|1898|
-l Andron's Ledger|QID|1899|C|Rogue|M|55.42,76.74|Z|Undercity|L|7294|N|Take the book from the bookcase behind him|
-T The Deathstalkers|QID|1899|C|Rogue|M|83.51,69.10|Z|Undercity|N|To Mennet Carkad.|
-A The Deathstalkers|QID|1978|C|Rogue|M|83.51,69.10|Z|Undercity|N|From Mennet Carkad.|PRE|1899|
-T The Deathstalkers|QID|1978|C|Rogue|M|56.24,92.13|Z|Undercity|N|To Varimathras in the Royal Chamber.|
-C The Deathstalkers|QID|1886|C|Rogue|N|Leave Undercity through the Sewers and take the road south to Silverpine Forest. Astor Hadren is patrolling the road. Defeat him, get Astor's Letter of Introduction.|
-R The Sepulcher|QID|1898|C|Rogue|M|45.60,42.50|Z|Silverpine Forest|N|Head south to the Sepulcher.|
-F Undercity|QID|1898|C|Rogue|
+T Mennet Carkad|QID|1885|M|83.51,69.10|Z|Undercity|N|To Mennet Carkad in the Rogues' Quarter.|R|Undead|C|Rogue|
+A The Deathstalkers|QID|1886|M|83.51,69.10|Z|Undercity|N|From Mennet Carkad.|PRE|1885|R|Undead|C|Rogue|
+C The Deathstalkers|QID|1886|C|Rogue|N|Leave Undercity through the Sewers and take the road south to Silverpine Forest. Astor Hadren is patrolling the road. Defeat him, get Astor's Letter of Introduction.|R|Undead|C|Rogue|
+R The Sepulcher|QID|1898|M|45.60,42.50|Z|Silverpine Forest|N|Head south to the Sepulcher.|R|Undead|C|Rogue|
+f The Sepulcher|QID|1898|M|45.62,42.60|Z|Silverpine Forest|N|Karos Razok|TAXI|-The Sepulcher|R|Undead|C|Rogue|
+F Undercity|QID|447|M|45.62,42.60|N|Fly to Undercity.|R|Undead|C|Rogue|
+T The Deathstalkers|QID|1886|M|83.51,69.10|Z|Undercity|N|To Mennet Carkad.|R|Undead|C|Rogue|
+A The Deathstalkers|QID|1898|M|83.51,69.10|Z|Undercity|N|From Mennet Carkad.|PRE|1886|R|Undead|C|Rogue|
+T The Deathstalkers|QID|1898|M|54.82,76.30|Z|Undercity|N|To Andron Grant in the Apothecarium.|R|Undead|C|Rogue|
+A The Deathstalkers|QID|1899|M|54.82,76.30|Z|Undercity|N|From Andron Grant.|PRE|1898|R|Undead|C|Rogue|
+l Andron's Ledger|QID|1899|M|55.42,76.74|Z|Undercity|L|7294|N|Take the book from the bookcase behind him|R|Undead|C|Rogue|
+T The Deathstalkers|QID|1899|M|83.51,69.10|Z|Undercity|N|To Mennet Carkad.|R|Undead|C|Rogue|
+A The Deathstalkers|QID|1978|M|83.51,69.10|Z|Undercity|N|From Mennet Carkad.|PRE|1899|R|Undead|C|Rogue|
+T The Deathstalkers|QID|1978|M|56.24,92.13|Z|Undercity|N|To Varimathras in the Royal Chamber.|R|Undead|C|Rogue|
 ; Warlock
 T Halgar's Summons|QID|1478|C|Warlock|M|85.00,26.00|Z|Undercity|N|To Carendin Halgar in the Magic Quarter.|
 A Creature of the Void|QID|1473|C|Warlock|M|85.00,26.00|Z|Undercity|N|From Carendin Halgar.|PRE|1478|
