@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-11-18 21:00
+-- Who: Ludovicus_Maior
+-- Log:  Heart of Azeroth questline - Level 54/60, [Feathers Before the Storm], 8.1.5 War Campaign bits.
+
+-- URL: http://wow-pro.com/node/3760/revisions/30446/view
+-- Date: 2019-11-13 13:34
+-- Who: Ludovicus_Maior
+-- Log: Add 8.1.5 WC quests.
+
+-- URL: http://wow-pro.com/node/3760/revisions/30445/view
 -- Date: 2019-11-12 18:06
 -- Who: Ludovicus_Maior
 -- Log: PRE tweak.
@@ -243,16 +253,6 @@
 -- Date: 2018-09-12 00:54
 -- Who: jovieve
 -- Log: Added PRE tags
-
--- URL: http://wow-pro.com/node/3760/revisions/29734/view
--- Date: 2018-09-12 00:28
--- Who: jovieve
--- Log: Fixed bad X coord
-
--- URL: http://wow-pro.com/node/3760/revisions/29733/view
--- Date: 2018-09-11 23:59
--- Who: jovieve
--- Log: Recorded War Campaign at the Revered rep gate and added to the guide.
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -635,6 +635,68 @@ T Blood on the Sand|QID|52146|M|39.65,83.91|Z|Vol'dun|N|To Halford Wyrmbane.|
 ;C A One-Way Ticket to the Heart|QID|54964|M|49.91,58.21|Z|The Oblivion Door@Uldir!Dungeon1154|QO|1|N|Fight the creatures from the void, culminating with K'thxx the Void Hunter to open the waygate.|
 ;C A One-Way Ticket to the Heart|QID|54964|M|50.76,53.72|Z|The Oblivion Door@Uldir!Dungeon1154|QO|2|NC|N|Click on MOTHER to Activate the Waygate and teleport to the Chamber of Heart.|
 ;T A One-Way Ticket to the Heart|QID|54964|M|50.19,53.72|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard. Thats all of this quest line for now. I'm sure there is more to come in a future patch. Hearth or take the portal out.|
+
+; Heart of Azeroth questline - Level 54
+A In Darkness, I Dream|QID|55390|N|From Kalecgos, in the Chamber of the Heart after HoA 54.|O|
+P Dalaran|ACTIVE|55390|N|Use your Dalaran hearthstone.|
+F Garden of the Moon|ACTIVE|55390|N|Now fly to Val'sharah|
+T In Darkness, I Dream|QID|55390|M|51.62,57.22|Z|Val'sharah|N|To Merithra of the Dream, at the Temple of Elune.|
+A Enter the Dreamway|QID|55392|M|51.62,57.22|Z|Val'sharah|N|From Merithra of the Dream|PRE|55390|
+C Merithra of the Dream|QID|55392|M|51.62,57.22|Z|Val'sharah|NC|CHAT|N|Ask Merithra to go to the Dreamway.|
+T Enter the Dreamway|QID|55392|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream|
+A Shards of Emerald|QID|55394|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream|PRE|55392|
+A Null the Void|QID|55393|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream|PRE|55392|
+A Don't Close Your Eyes|QID|55395|M|27.10,55.94|Z|Emerald Dreamway!Instance1471|N|From Valithria Dreamwalker|PRE|55392|
+K Void invaders|QID|55393|QO|1|M|38.6,37.0|Z|Emerald Dreamway!Instance1471|N|Kill anything voidy.|S!US|
+C Emerald Shards|QID|55394|QO|1|M|37.5,60.0;63.2,33.8|CN|N|The Emerald Shards are one the ground next to the dragons bodies.|S|
+C Karkarius|QID|55395|QO|3|M|70.6,45.6|Z|Emerald Dreamway!Instance1471|NC|CHAT|N|Wakey waykey!|
+C Verdisa|QID|55395|QO|2|M|44.81,50.43|Z|Emerald Dreamway!Instance1471|NC|CHAT|N|Wakey waykey!|
+C Thessera|QID|55395|QO|1|M|28.55,75.89|Z|Emerald Dreamway!Instance1471|NC|CHAT|N|Wakey waykey!|
+C Emerald Shards|QID|55394|QO|1|M|37.5,60.0;63.2,33.8|CN|N|The Emerald Shards are one the ground next to the dragons bodies.|US|
+T Shards of Emerald|QID|55394|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream|
+T Null the Void|QID|55393|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream|
+T Don't Close Your Eyes|QID|55395|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream|
+A We Must Go Deeper|QID|55465|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream|PRE|55393&55394&55395|
+C Merithra of the Dream|QID|55465|M|44.04,30.672|Z|Emerald Dreamway!Instance1471|NC|CHAT|N|Ask to go to the Emerald Dream.|
+T We Must Go Deeper|QID|55465|M|46.57,39.66|Z|The Emerald Dream!Instance|N|To Merithra of the Dream|
+A Before I Wake|QID|55397|M|46.57,39.66|Z|The Emerald Dream!Instance|N|From Merithra of the Dream|PRE|55465|
+C Void Horror|QID|55397|QO|1|M|58.78,47.15;55.08,72.85;42.33,62.31|CN|Z|The Emerald Dream!Instance|
+C Grip of Horror|QID|55397|QO|2|M|51.62,55.66|Z|The Emerald Dream!Instance|
+T Before I Wake|QID|55397|M|46.57,39.66|Z|The Emerald Dream!Instance|N|To Merithra of the Dream|
+A The Stuff Dreams Are Made Of|QID|55396|M|46.57,39.66|Z|The Emerald Dream!Instance|N|From Merithra of the Dream|PRE|55397|
+U Emerald Shards|QID|55396|QO|1|M|54.44,52.28|Z|The Emerald Dream!Instance|U|167831|N|Use the shards in the lake.|
+C Reforged Dreamglow Dragonscale|QID|55396|QO|3|M|50.35,49.41|Z|The Emerald Dream!Instance|N|Click on the Dragonscale.|
+T The Stuff Dreams Are Made Of|QID|55396|M|46.57,39.66|Z|The Emerald Dream!Instance|N|To Merithra of the Dream|
+A The Long Awake|QID|55398|M|46.57,39.66|Z|The Emerald Dream!Instance|N|From Merithra of the Dream|
+P Chamber of Heart|QID|55398|M|46.57,39.66|Z|The Emerald Dream!Instance|NC|CHAT|N|Ask Merithra to leave the Emerald Dream to Val'sharah or get to the Chamber of Heart however.|
+N Afterwards|ACTIVE|55398|N|Merithra will make a speech and leave you with a Scale.  Open the Heart Forge and then click on the scale to upgrade to rank 2|
+T The Long Awake|QID|55398|M|53.85,62.11|Z|Chamber of Heart!Dungeon1473|N|To Merithra of the Dream|
+
+; Heart of Azeroth questline - Level 60
+A Investigating the Highlands|QID|56167|M|52.54,69.95|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos.|O|PRE|55398|
+P Twilight Highlands|ACTIVE|56167|N|Get thee to Twilight Highlands|
+T Investigating the Highlands|QID|56167|M|35.95,50.49|Z|Twilight Highlands|N|To Kalecgos.|
+A In the Shadow of Crimson Wings|QID|55657|M|35.95,50.49|Z|Twilight Highlands|N|From Kalecgos.|PRE|56167|
+C In the Shadow of Crimson Wings|QID|55657|M|35.95,50.49|Z|Twilight Highlands|QO|1|NC|CHAT|N|Speak with Kalecgos to start the scenario.|
+C Enemy threat reduced|M|59.93,23.38|Z|Twilight Highlands!Instance|SO|1;1|N|Kill the Void-Twisted attackers till threat reduced to 100%.|
+C Meet Alexstrasza atop the Vermillion Redoubt|M|64.16,29.93|Z|Twilight Highlands!Instance|SO|2;1|NC|CHAT|N|Meet Alexstrasza atop the Vermillion Redoubt and chat with her to start the next phase.|
+C Stemming the Corruption|Z|Twilight Highlands|SO|3|S|N|Free the corrupted drakes atop the Vermillion Redoubt.|
+C In the Shadow of Crimson Wings|QID|55657|M|64.16,29.93|Z|Twilight Highlands!Instance|QO|2|N|1/1 Alexstrasza reached|
+C In the Shadow of Crimson Wings|QID|55657|M|67.03,35.23|Z|Twilight Highlands!Instance|QO|3|N|1/1 Threat discovered|
+C Vermillion Sentinels rescued|M|66.97,40.22|Z|Twilight Highlands!Instance|SO|3;1|N|Vermillion Sentinels rescued|
+C Stemming the Corruption|Z|Twilight Highlands|SO|3|US|N|Free the corrupted drakes atop the Vermillion Redoubt.|
+C Take to the Skies!|Z|Twilight Highlands|SO|4|S|N|Mount Kalecgos atop the ridge at the Vermillion Redoubt.|
+C Kalecgos mounted|M|62.81,44.06|Z|Twilight Highlands!Instance|SO|4;1|N|Kalecgos mounted|
+C Take to the Skies!|Z|Twilight Highlands|SO|4|US|N|Mount Kalecgos atop the ridge at the Vermillion Redoubt.|
+C From the Shadows|Z|Twilight Highlands|SO|5|S|N|Confront Vexiona outside of Grim Batol.|
+C In the Shadow of Crimson Wings|QID|55657|M|47.06,86.16|Z|Twilight Highlands!Instance|QO|4|N|1/1 Vexiona confronted|
+C Vexiona confronted|M|47.06,86.16|Z|Twilight Highlands!Instance|SO|5;1|N|Vexiona confronted|
+C From the Shadows|Z|Twilight Highlands|SO|5|US|N|nil|
+C nil|Z|Twilight Highlands|SO|0|S|N|nil|
+C In the Shadow of Crimson Wings|QID|55657|M|45.78,86.30|Z|Twilight Highlands!Instance|QO|5|N|Loot the Lost Scale of the Scarlet Broodmother|
+C In the Shadow of Crimson Wings|QID|55657|M|46.44,86.44|Z|Twilight Highlands!Instance|QO|6|N|Ride Corastrasza to Silithus|
+N Afterwards|ACTIVE|55657|N|Alexstrasza will make a speech and leave you with a Scale.  Open the Heart Forge and then click on the scale to upgrade to rank 3|
+T In the Shadow of Crimson Wings|QID|55657|M|54.18,65.96|Z|Chamber of Heart!Dungeon1473|N|To Alexstrasza the Life-Binder.|
 
 ; 4.5k Friendly with The 7th Legion
 A Operation: Blood Arrow|QID|53069|M|69.28,27.00|Z|Boralus|N|Autoaccepted.|O|REP|7th Legion;2159;friendly;4500|PRE|52146|
@@ -1050,7 +1112,77 @@ C Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|CHAT|N|Talk with Anduin and a
 T Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|N|To Anduin.|
 t Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
 
+; Feathers Before the Storm , after he who walks in the light
+A Whatever Happened to Saffy Flivvers?|QID|53815|M|67.93,26.28|Z|Boralus|N|From Kelsey Steelspark, belowdeck Wind's Redemption.|PRE|54183|
+F Tanaris|ACTIVE|53815|N|Make your way near the Caverns of Time.|
+T Whatever Happened to Saffy Flivvers?|QID|53815|M|62.18,45.33|Z|Tanaris|N|To Feathers|
+A Some Reassembly Required|QID|53816|M|62.18,45.33|Z|Tanaris|N|From Feathers|PRE|53815|
+C Mechanical Parts|QID|53816|QO|1|M|61.48,46.12;63.10,44.25|CN|Z|Tanaris|N|Kill Venture Co. personnel for their "parts".|
+T Some Reassembly Required|QID|53816|M|62.18,45.33|Z|Tanaris|N|To Feathers|
+A Re-parrot|QID|53818|M|62.18,45.33|Z|Tanaris|N|From Feathers|PRE|53816|
+C Feathers|QID|53818|M|62.18,45.33|Z|Tanaris|N|Tell Feathers to start debugging.\nJust follow the directions and hit the buttons.|NC|CHAT|
+T Re-parrot|QID|53818|M|62.18,45.33|Z|Tanaris|N|To Feathers|
+A Return to the Nest|QID|53819|M|62.18,45.33|Z|Tanaris|N|From Feathers|PRE|53818|
+C Recall Subroutine|QID|53819|M|PLAYER|N|Activate the recall subroutine and fly back.|NC|CHAT|
+T Return to the Nest|QID|53819|M|27.13,60.07|Z|Tanaris|N|To Sapphronetta Flivvers|
+A She's in a Happier Place|QID|53820|M|27.13,60.07|Z|Tanaris|N|From Sapphronetta Flivvers|PRE|53819|
+F Boralus|ACTIVE|53820|N|Make your way back to Boralus to meet Kelsey.|
+T She's in a Happier Place|QID|53820|M|67.93,26.28|Z|Boralus|N|To Kelsey Steelspark|
+
 B More upgrade missions|QID|54292&54293&543305|M|68.97,24.73|Z|Boralus|S!US|N|Three more missions to upgrade your outposts purchased from the Vindicator Jaelaana. Unlike the previous missions, these need to be purchased (and done) by each character who wants the upgrade.|REP|7th Legion;2159;Exalted;0|
+
+; 8.1.5 War Campaign
+A Loose Ends|QID|55118|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane|PRE|54183|
+F Kennings Lodge|ACTIVE|55118|M|80.0,75.0|N|Fly or run over to Kennings Lodge.|
+T Loose Ends|QID|55118|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark|
+A Ashes to Ashvane|QID|55033|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark|PRE|55118|
+A Correspondence Conundrum|QID|55117|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark|PRE|55118|
+K Loyalists|QID|55033|QO|1|M|78.6,77.8;77.8,76.4;79.0,78.8;78.2,78.8|CN|Z|Tiragarde Sound|N|Get rid of those loyalists.|S!US|
+C Correspondence|QID|55117|M|77.5,77.4|Z|Tiragarde Sound|N|Look on your minimap for the random locations of the correspondence.|
+T Ashes to Ashvane|QID|55033|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark|
+T Correspondence Conundrum|QID|55117|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark|
+A Getting a Clue|QID|55116|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark|PRE|55117|
+C Haughton Francis|QID|55116|M|76.91,75.60|Z|Tiragarde Sound|
+T Getting a Clue|QID|55116|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark|
+A Reporting In!|QID|55119|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark|PRE|55116|
+F Tradewinds Market|ACTIVE|55119|M|76.67,65.42|Z|Tiragarde Sound|TZ|Boralus Harbor|N|Fly back to Tradewinds Market at Finnia Hawkshot.|
+C Halford Wyrmbane|QID|55119|M|69.28,26.98|Z|Boralus|NC|CHAT|N|Report in!|
+T Reporting In!|QID|55119|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane|
+A Don't Shoot the Messenger|QID|55044|M|69.43,27.19|Z|Boralus|N|From Master Mathias Shaw|PRE|55119|
+C Valeera Sanguinar|QID|55044|M|69.47,26.79|Z|Boralus|NC|CHAT|N|Listen to her message.|
+T Don't Shoot the Messenger|QID|55044|M|69.33,27.14|Z|Boralus|N|To Lady Jaina Proudmoore|
+A My Brother's Keeper|QID|55045|M|69.33,27.14|Z|Boralus|N|From Lady Jaina Proudmoore|PRE|55044|
+C Master Mathias Shaw|QID|55045|QO|1|M|69.43,27.19|Z|Boralus|NC|CHAT|N|Ask Shaw to set sail to Theramore.|
+C Lady Jaina Proudmoore|QID|55045|QO|2|M|70.07,41.75|Z|Dustwallow Marsh|N|Tell Jaina the horde ship is there.|
+C Master Mathias Shaw|QID|55045|QO|4|M|70.2,41.39|Z|Dustwallow Marsh|NC|CHAT|N|Ask Shaw to set sail to Boralus.|
+T My Brother's Keeper|QID|55045|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane|
+A Spy Versus Spy|QID|55171|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane|PRE|55045|
+T Spy Versus Spy|QID|55171|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane|
+A The Gathering Storm|QID|55087|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane|PRE|55171|
+T The Gathering Storm|QID|55087|M|45.22,62.61|Z|Boralus|N|To Lady Jaina Proudmoore|
+A Retaliation Coordination|QID|55179|M|45.22,62.61|Z|Boralus|N|From Lady Jaina Proudmoore|PRE|55087|
+F Deadwash|ACTIVE|55179|M|47.75,65.3|Z|Boralus|N|Fly up to Deadwash.|
+T Retaliation Coordination|QID|55179|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steelspark|
+A Lost in the Field|QID|55088|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55179|
+A Reassembly Required|QID|55182|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55179|
+C Salvaged Parts|QID|55182|S!US|N|Things in Saltstone Mine.|
+C Injured Operative|QID|55088|M|48.50,37.21|Z|Stormsong Valley|N|Look for Injured Operative in the area.|
+T Lost in the Field|QID|55088|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steelspark|
+T Reassembly Required|QID|55182|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steelspark|
+A Seeking Higher Ground|QID|55183|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55182|
+T Seeking Higher Ground|QID|55183|M|52.13,39.26|Z|Stormsong Valley|N|To Kelsey Steelspark|
+A Listen Up!|QID|55185|M|52.13,39.26|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55183|
+C Goblin Shredder|QID|55185|M|52.2,39.2|Z|Stormsong Valley|
+T Listen Up!|QID|55185|M|52.13,39.26|Z|Stormsong Valley|N|To Kelsey Steelspark|
+A Shaw's Shank Redemption|QID|55089|M|52.13,39.26|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55185|
+R Screaming Pit|ACTIVE|55089|M|44.60,38.20;46.58,35.40;48.48,33.17|CS|Z|Stormsong Valley|N|Run along the ridge to get to the pit ABOVE Warsong Hold.|
+K Giles Deathstrike|QID|55089|QO|2|M|47.66,33.82|Z|Stormsong Valley|NC|N|Kill Giles|
+T Shaw's Shank Redemption|QID|55089|M|48.84,32.75|Z|Stormsong Valley|N|To Master Mathias Shaw|
+A A Gathering of Foes|QID|55090|M|48.84,32.75|Z|Stormsong Valley|N|From Master Mathias Shaw|PRE|55089|
+C Horde gathering witnessed|QID|55090|M|48.85,32.70|Z|Stormsong Valley|NC|N|Use the telescope next to Shaw|
+T A Gathering of Foes|QID|55090|M|69.33,27.15|Z|Boralus|N|To Lady Jaina Proudmoore|
+
+; 8.2.0 War Campaign
 
 ;exalted upgrade mission Brennadan
 A Mission Report: Brennadam|QID|54262|M|70.51,27.20|Z|Boralus|N|From UI Alert.|PRE|5429
