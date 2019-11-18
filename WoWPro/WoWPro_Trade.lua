@@ -146,7 +146,8 @@ WoWPro.ProfessionSkillLines = {
 
     --  Not included in GetTradeSkillLineInfoByID()
      [794] = { name = 'Archaeology' },
-     [960] = { name = 'Runeforging' }
+     [960] = { name = 'Runeforging' },
+     [2720] = { name = 'Junkyard Tinkering'}
 }
 
 -- mapping of profession categories to tradeskill lines we are interested in
