@@ -96,7 +96,7 @@ A Bloody Bone Necklaces|QID|596|M|32.20,27.70|Z|Stranglethorn Vale|N|From Kin'we
 A The Vile Reef|QID|629|M|32.20,27.70|Z|Stranglethorn Vale|N|From Kin'weelay.|
 N Things to do|QID|338|Z|Stranglethorn Vale|N|From now on, whenever you kill something in Stranglethorn Vale, you might find "Green Hills of Stranglethorn" pages, make sure you keep one of each page.|
 
-R Nesingwary Expedition|ACTIVE|5762|M|35.71,10.65|N|Exit the east side of Grom'gol and follow the road, over the first bridge and just before the 2nd bridge, go down the hill to Nesingwary's camp.|
+R Nesingwary Expedition|ACTIVE|5762|M|35.71,10.65|Z|Stranglethorn Vale|N|Exit the east side of Grom'gol and follow the road, over the first bridge and just before the 2nd bridge, go down the hill to Nesingwary's camp.|
 T Hemet Nesingwary|QID|5762|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
 A Welcome to the Jungle|QID|583|M|35.60,10.60|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
 T Welcome to the Jungle|QID|583|M|35.60,10.60|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
