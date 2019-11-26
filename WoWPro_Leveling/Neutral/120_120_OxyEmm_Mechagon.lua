@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mechagon_neutral
+-- Date: 2019-11-26 20:34
+-- Who: Ludovicus_Maior
+-- Log: [More Recycling] no longer uses soulbound items for the first pass
+
+-- URL: http://wow-pro.com/node/3791/revisions/30444/view
 -- Date: 2019-11-12 18:03
 -- Who: Ludovicus_Maior
 -- Log: Play through corrections through [Collaborative Construction]
@@ -449,14 +454,16 @@ C Goldenbot XD|ACTIVE|56395|M|60.74,56.53|N|Defeat Goldenbot XD in a pet battle.
 A Flashing Siren|QID|56438|M|60.74,56.53|N|From item dropped the first time you defeat Goldenbot XD in a pet battle.|PRE|56395|
 C CK-9 Micro-Oppression Unit|QID|56397|M|65.39,57.68|QO|1|N|Defeat CK-9 Micro-Oppression Unit in a pet battle.|
 A Can of Critter Spray|QID|56440|M|65.39,57.68|N|From item dropped first time you defeat CK-9 Micro-Oppression Unit in a pet battle.|PRE|56397|
-A Recyclable Parts|QID|56117|M|56.45,58.88|N|From Drix Blackwrench.|
-l Tempered Plating|QID|56168|M|55.77,59.81|L|168216 10|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
-l Machined Gear Assembly|QID|56168|M|55.77,59.81|L|168215 5|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
-l Hardened Springs|QID|56168|M|55.77,59.81|L|168217 30|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
-C Factory Refurbished|QID|56168|M|56.45,58.88|QO|1|U|168952|N|Click to combine the collected scraps to create Bundle of Recycled Parts. Note these are the soulbound - unique(X) versions, not the ones you can buy in the AH. If you put some in the bank, better go get them.|
+l Tempered Plating|AVAILABLE|56117|M|55.77,59.81|L|168216 10|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
+l Machined Gear Assembly|AVAILABLE|56117|M|55.77,59.81|L|168215 5|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
+l Hardened Springs|AVAILABLE|56117|M|55.77,59.81|L|168217 30|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
+C Factory Refurbished|AVAILABLE|56168|M|56.45,58.88|QO|1|U|168952|N|Click to combine the collected scraps to create your first Bundle of Recycled Parts.|
+A Recyclable Parts|QID|56117|M|56.45,58.88|N|From Drix Blackwrench.|U|168258|
 T Recyclable Parts|QID|56117|M|58.83,59.22|N|To any of the 4 Recyclerizer DX-82's around the Junkwatt Depot.|
 A More Recycling|QID|55743|M|55.92,62.51|PRE|56117|N|Available daily for faction, (and multiple times for the reward box) but requires a lot of killing in the heap to collect the parts. They are tradable.|
-C Factory Refurbished|QID|56168|M|58.83,59.22|QO|2|U|168266|NC|N|Click the provided Strange Recycling Requisition to obtain a Recycled Crawler Manifold. You can do the followup if you want to collect more, but not necesary for the quest.|
+l Tempered Plating|QID|55743|M|55.77,59.81|L|168216 10|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
+l Machined Gear Assembly|QID|55743|M|55.77,59.81|L|168215 5|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
+l Hardened Springs|QID|55743|M|55.77,59.81|L|168217 30|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
 C More Recycling|QID|55743|M|55.47,56.25|U|168215|N|When all mats collected, click to create Bundle of Recyclable Parts.|
 t More Recycling|QID|55743|M|54.58,56.45|N|To Recyclerizer DX-82.|
 
