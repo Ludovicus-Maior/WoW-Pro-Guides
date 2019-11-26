@@ -9,7 +9,7 @@ WoWPro:GuideSteps(guide, function() return [[
 ; === 002_31_31_Jame_Thousand_Needles.lua ===
 F Orgrimmar|QID|5088|
 
-B Shopping List|QID|5088|S!US|L|3388|N|One Strong Troll's Blood Elixir - Needed at level 34. Crafted by Alchemists shouldn't cost much more tham 1 gold.|
+B Shopping List|QID|5088|S!US|L|3388|N|One Strong Troll's Blood Potion - Needed at level 34. Crafted by Alchemists shouldn't cost much more tham 1 gold.|
 B 3 Stacks of Silk Cloth|QID|7827|S!US|L|4306 60|N|OPTIONAL: 9 more stacks of Silk Cloth. This is for the cloth donation quests. When you get to one of the big cities, you can turn in 3 stacks for some exp.|
 B Potions of Water Breathing|QID|666|S!US|L|5996 2|C|-Warlock,-Shaman,-Druid|R|-Undead|N|Unless you can breathe underwater, buying 2-5 Elixer's of Water Breathing will be very handy for a quest at lvl 37.|
 h Orgrimmar|ACTIVE|5088|M|54,68.6|Z|Orgrimmar|N|Set your hearthstone in Orgrimmar at Innkeeper Gryshka.|
@@ -139,7 +139,7 @@ T Investigate the camp|QID|201|M|27.00,77.20|Z|Stranglethorn Vale|N|To Krazek.|
 T Singing Blue Shards|QID|605|M|27.10,77.20|Z|Stranglethorn Vale|N|To Crank Fizzlebub.(skip followup)|
 T Bloodscalp Ears|QID|189|M|27.00,77.20|Z|Stranglethorn Vale|N|To Kebok.|
 H Orgimmar|ACTIVE|187|N|Hearth to Orgrimmar, restock, visit trainers, etc.|
-B Shopping List|QID|5088|L|3388|N|Buy, craft, or rummage thru your inventory and make sure you have one Strong Troll's Blood Elixir, we are headed off for that quest in this next circuit.|
+B Shopping List|QID|5088|L|3388|N|Buy, craft, or rummage thru your inventory and make sure you have one Strong Troll's Blood Potion, we are headed off for that quest in this next circuit.|
 N Cooking|QID|577|M|57.6,53.2|Z|Orgrimmar|P|Cooking;185;0+1;1|N|Go learn it. You don't need to level cooking up, you just need to train the profession and to become an Apprentice Cook, it will unlock some cooking quests for easy XP. Grab the 10 Turtle Meat you saved when we were in the Shimmering Flats, and you're finally ready to go again.|
 T A Donation of Silk |QID|7827|Z|Orgrimmar|N|You should have the cloth stacks from the shopping list by now, if you don't have them, buy as much as you still need from the AH. Go to the Horde Cloth Quartermaster Vehena in the Valley of Spirits in Orgrimmar.|
 
