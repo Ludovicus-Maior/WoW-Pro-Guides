@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_alliance
+-- Date: 2019-11-26 20:32
+-- Who: Ludovicus_Maior
+-- Log: Finished [Changing Tides]
+
+-- URL: http://wow-pro.com/node/3790/revisions/30447/view
 -- Date: 2019-11-18 20:58
 -- Who: Ludovicus_Maior
 -- Log: Playthough up to [Sea Slug Liquidation]
@@ -194,28 +199,29 @@ K Kil'karrok|ACTIVE|55560|M|63.77,34.65|QO|1|T|Kil'karrok|N|Kill Kil'karrok.|
 T Utama's Vengeance|QID|55560|M|62.58,36.12|N|To Blademaster Okani.|
 K Eye of the Corruptor|ACTIVE|55694|M|70.04,28.63|QO|1|T|Eye of the Corruptor|N|Kill Eye of the Corruptor.|
 T There's Something in the Water|QID|55694|M|74.66,25.76|N|To Blademaster Okani.|
-T What Remains of Zin-Azshari|QID|55561|M|74.70,25.86|N|To Shandris Feathermoon.|
-A Secrets in the Ruins|QID|55570|M|74.70,25.86|N|From Shandris Feathermoon.|PRE|55561|
-A Shoring Up Mana Reserves|QID|55565|M|74.70,25.86|N|From Shandris Feathermoon.|PRE|55561|
-A Echoes of Pain|QID|55569|M|74.70,25.86|N|From Shandris Feathermoon.|PRE|55561|
+T What Remains of Zin-Azshari|QID|55561|M|66.10,43.79|N|To Shandris Feathermoon.|
+A Shoring Up Mana Reserves|QID|55565|M|66.10,43.79|N|From Shandris Feathermoon.|PRE|55561|
+A Secrets in the Ruins|QID|55570|M|74.68,25.87|N|From Shandris Feathermoon, near Kelya's Grave FP.|PRE|55561|
+A Echoes of Pain|QID|55569|M|74.68,25.87|N|From Shandris Feathermoon.|PRE|55561|
 C Secrets in the Ruins|QID|55570|M|75.42,25.04|QO|1|S|N|Find Texts scattered about.|
 C Echoes of Pain|QID|55569|M|76.45,26.45|QO|1|S|N|Release Highborne Echos.|
 C Secrets in the Ruins|QID|55570|M|79.58,31.55|QO|2|CHAT|N|Question the Highborn nobles' spirits.|
 C Echoes of Pain|QID|55569|M|76.45,26.45|QO|1|US|N|Release Highborne Echos.|
 C Secrets in the Ruins|QID|55570|M|75.42,25.04|QO|1|US|N|Find Texts scattered about.|
 C Shoring Up Mana Reserves|QID|55565|M|71.08,33.25|QO|1|N|Kill and loot the water elementals.|
-T Secrets in the Ruins|QID|55570|M|74.67,25.82|N|To Shandris Feathermoon.|
-T Shoring Up Mana Reserves|QID|55565|M|74.67,25.82|N|To Shandris Feathermoon.|
-T Echoes of Pain|QID|55569|M|74.67,25.82|N|To Shandris Feathermoon.|
-A Help Them See the Truth|QID|55571|M|74.67,25.82|N|From Shandris Feathermoon.|PRE|55565&55569&55570|
-A Purging the Defilers|QID|55573|M|74.67,25.82|N|From Shandris Feathermoon.|PRE|55565&55569&55570|
-C Purging the Defilers|QID|55573|M|73.27,35.72|QO|1|S|N|Purge the Defilement of Elun'alor by killing everything in the area.|
-C Help Them See the Truth|QID|55571|M|56.34,22.74|Z||QO|1|N|Confront the ghosts of Elun'alor.
-T Help Them See the Truth|QID|55571|M|53.78,20.56|Z||N|To Riathia Silverstar.|
-A The Power of Worship|QID|56739|M|53.78,20.56|Z||N|From Riathia Silverstar.|PRE|55571|
-C The Power of Worship|QID|56739|M|59.29,84.91|Z||QO|1|N|Destroy the Arcane Energy Transmuters.|
-T The Power of Worship|QID|56739|M|53.84,20.45|Z||N|To Riathia Silverstar.|
-C Purging the Defilers|QID|55573|M|73.27,35.72|QO|1|US|N|Purge the Defilement of Elun'alor by killing everything in the area.|
+T Shoring Up Mana Reserves|QID|55565|M|74.68,25.87|N|To Shandris Feathermoon.|
+T Secrets in the Ruins|QID|55570|M|74.68,25.87|N|To Shandris Feathermoon.|
+T Echoes of Pain|QID|55569|M|74.68,25.87|N|To Shandris Feathermoon.|
+A Help Them See the Truth|QID|55571|M|74.68,25.87|N|From Shandris Feathermoon.|PRE|55565&55569&55570|
+A Purging the Defilers|QID|55573|M|74.68,25.87|N|From Shandris Feathermoon.|PRE|55565&55569&55570|
+C Purging the Defilers|QID|55573|M|77.27,37.72|QO|1|S|N|Purge the Defilement of Elun'alor by killing everything in the area.|
+R Highborne Arcanist|ACTIVE|55571|M|82.26,35.88|N|The Highborne Arcanist's building.|
+C Help Them See the Truth|QID|55571|M|56.25,22.80|Z|1499|QO|1|N|Confront the ghosts of Elun'alor.
+T Help Them See the Truth|QID|55571|M|53.79,20.51|Z|1499|N|To Riathia Silverstar.|
+A The Power of Worship|QID|56739|M|53.79,20.51|Z|1499|N|From Riathia Silverstar.|PRE|55571|
+C The Power of Worship|QID|56739|M|59.29,84.91|Z|1499|QO|1|N|Destroy the Arcane Energy Transmuters. The furthest one is marked.|
+T The Power of Worship|QID|56739|M|53.84,20.45|Z|1499|N|To Riathia Silverstar.|
+C Purging the Defilers|QID|55573|M|77.27,37.72|QO|1|US|N|Purge the Defilement of Elun'alor by killing everything in the area.|
 T Purging the Defilers|QID|55573|M|74.30,40.10|N|To Shandris Feathermoon.|
 A The Javelins of Azshara|QID|55574|M|74.30,40.10|N|From Shandris Feathermoon.|PRE|55573|
 K Lady Silazsi|ACTIVE|55574|M|77.63,36.26|QO|1|T|Lady Silazsi|N|Kill Lady Silazsi.|
@@ -231,8 +237,8 @@ C Changing Tides|QID|56325|M|51.82,34.09|QO|2|US|N|Assault the Gorgonian Overloo
 C Changing Tides|QID|56325|M|51.14,31.91|QO|4|NC|N|Throw the Javelin of Suramar|
 K Lady Zharessa|ACTIVE|56325|M|50.47,23.69|QO|5|T|Lady Zharessa|N|Kill Lady Zharessa.|
 T Changing Tides|QID|56325|M|50.10,24.48|N|To Lady Jaina Proudmoore.|
+f The Tidal Conflux|AVAILIBLE|56358|M|49.80,23.61|N|At Nobu.|
 A The Eternal Palace: Queen's Gambit|QID|56358|M|50.38,24.09|NA|N|From Lady Jaina Proudmoore.|PRE|56325|
-f The Tidal Conflux|ACTIVE|56358|M|49.80,23.61|N|At Nobu.|
 
 ;zone intro
 A The Wolf's Offensive|QID|56031|N|Auto accept on login after 8.2|
@@ -645,6 +651,7 @@ C Runelocked Chest|QID|56021|M|37.31,15.92|NC|N|Click on the arcane device to op
 C Runelocked Chest|QID|56022|M|37.27,16.00|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 31 yellow runes, by matching 3 or more in a row.|
 K Lady Naz'jess|ACTIVE|55750|M|36.50,17.75|QO|1|T|Lady Naz'jess|N|Kill Lady Naz'jess and claim her Head as proof.|
 
+R Platform on the left|ACTIVE|55770|M|44.02, 27.44;44.17,20.26|CS|N|Go up the path, it will curve around to your right. You can sneak around the outside of the building to the left to get to him.|
 K Commander Sarj'eth|ACTIVE|55770|M|44.17,20.26|QO|1|T|Commander Sarj'eth|N|Kill Commander Sarj'eth and take his Head.|
 A Reinforced Cache|QID|55728|M|45.11,22.20|N|From Reinforced Cache sitting on the balcony.|O|
 C Reinforced Cache|QID|55728|M|45.11,22.20|N|Kill and loot Zanj'ir Naga in the area until you get the key to drop.|
@@ -740,6 +747,7 @@ A An Abyssal Opportunity|QID|56347|M|38,53|N|From Instructor Ulooaka.|PRE|56346|
 T A Gift From The Clan|QID|56777|M|38.00,55.75|N|To Speaker Utia.|
 T The Waveblade Ankoan|QID|56119|M|38.01,55.70|N|To Speaker Utia.|
 T The Speaker's Gift|QID|56782|M|38.01,55.70|N|To Speaker Utia.|
+T Helpful Provisions|QID|56784|M|38.03,55.70|N|To Speaker Utia.|
 T Bounty: Elite Naga Forces|QID|55836|M|38.01,55.70|N|To Speaker Utia.|
 T Bounty: Dangerous Creatures|QID|55837|M|38.00,55.75|N|To Speaker Utia.|
 T Bounty: A Few Crabs|QID|55823|M|38.01,55.68|N|To Speaker Utia.|
@@ -770,7 +778,6 @@ T Requisition: More Carp|QID|55789|M|38.03,55.70|N|To Speaker Utia.|
 T Requisition: A Few Cone Shells|QID|55726|M|38.03,55.70|N|To Speaker Utia.|
 T Requisition: More Cone Shells|QID|55792|M|38.03,55.70|N|To Speaker Utia.|
 T A Gift of Supplies|QID|56789|M|38.03,55.70|N|To Speaker Utia.|
-T Helpful Provisions|QID|56784|M|38.03,55.70|N|To Speaker Utia.|
 T A Valorous Reward|QID|56779|M|38.03,55.70|N|To Speaker Utia.|
 
 T A Worthy Ally|QID|57006|M|37.89,55.84|N|To Artisan Okata.|
