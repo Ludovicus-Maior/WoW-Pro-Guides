@@ -519,7 +519,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	end
 	if (WoWPro.action[i] == "A" or WoWPro.action[i] == "T") then
 		WoWPro.step[i] = WoWPro:GrailLocalizeQuestName(GID,WoWPro.QID[i],WoWPro.step[i])
-	    WoWPro:GrailCheckQuestName(GID,WoWPro.QID[i],WoWPro.step[i])
+	    WoWPro:GrailCheckQuestName(GID,WoWPro.QID[i],WoWPro.step[i], WoWPro.action[i])
 	    WoWPro:GrailIsQuestObsolete(GID,WoWPro.QID[i],WoWPro.step[i])
 	end
     if WoWPro.action[i] == "h" then

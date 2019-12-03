@@ -3057,11 +3057,11 @@ function WoWPro.GrailBreadcrumbsFor(QID)
 end
 
 
-function WoWPro:GrailCheckQuestName(guide,QID,myname)
+function WoWPro:GrailCheckQuestName(guide,QID,myname, action)
     if not Grail or not WoWProCharDB.EnableGrailQuestName then return nil end
     if QID == "*" then return QID end
     if not QID then
-        WoWPro:Warning("In guide %s, quest [%s]  does not have a QID",guide,tostring(myname))
+        WoWPro:Warning("In guide %s, quest %s[%s]  does not have a QID",guide, action, tostring(myname))
         return false
     end
     local numQIDs = select("#", string.split("^", QID))
@@ -3077,8 +3077,8 @@ function WoWPro:GrailCheckQuestName(guide,QID,myname)
                 -- just punt
                 gName = gName
             end
-            if   gName ~=  gName then
-                WoWPro:Warning("In guide %s, quest %s's name [%s] does not match Grail's database [%s].",guide,tostring(qid),myname,gName)
+            if myname ~= gName then
+                WoWPro:Warning("In guide %s, quest %s %s's name [%s] does not match Grail's database [%s].",guide,action,tostring(qid),myname,gName)
             end
         end
     end
