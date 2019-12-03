@@ -248,7 +248,7 @@ T The Befouled Element|QID|1918|M|73.67,60.00|Z|Ashenvale|N|To Mastok Wrilehiss|
 A Je'neu of the Earthen Ring|QID|824|PRE|1918|M|73.67,60.00|Z|Ashenvale|N|From Mastok Wrilehiss|
 
 F Zoram'gar Outpost|QID|824|M|73.20,61.60|Z|Ashenvale|
-T A Je'neu of the Earthen Ring|QID|824|M|11.60,34.30|Z|Ashenvale|N|To Je'neu Sancrea|
+T Je'neu of the Earthen Ring|QID|824|M|11.60,34.30|Z|Ashenvale|N|To Je'neu Sancrea|
 
 ; === 25_26_Jame_The_Barrens.lua ===
 H Orgrimmar|QID|5052|U|6948|Z|The Barrens|
