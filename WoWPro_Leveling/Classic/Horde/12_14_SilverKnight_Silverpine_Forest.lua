@@ -17,13 +17,13 @@ h The Sepulcher|QID|445|M|43.16,41.27|N|Innkeeper Bates|
 A Lost Deathstalkers|QID|428|M|43.43,40.86|N|You'll find High Executor Hadrec down the stairs inside the crypt.|
 A The Dead Fields|QID|437|M|43.43,40.86|N|From High Executor Hadrec.|
 T Delivery to Silverpine Forest|QID|445|M|42.87,40.86|N|Head back upstairs and walk around to the side of the entrance. To Apothecary Renferrel.|
-A A Recipe for Death|QID|447|M|42.87,40.86|N|From Apothecary Renferrel.|
+A A Recipe For Death|QID|447|M|42.87,40.86|N|From Apothecary Renferrel.|
 A Border Crossings|QID|477|M|43.97,40.93|N|From Shadow Priest Allister.|
 A Prove Your Worth|QID|421|M|44.20,39.78|N|From Dalar Dawnweaver.|
 
 r Housekeeping|QID|428|M|45.01,39.30|N|Go see Nadia Vernon to repair and sell before you leave.|
 
-C A Recipe for Death|QID|447|M|36,15|QO|1;2|N|Kill any spiders or bears you come across for their Skittering Bloods and Grizzled Bear Hearts.\nDo not go out of your way to get them. You will come to a good spot later.|S|
+C A Recipe For Death|QID|447|M|36,15|QO|1;2|N|Kill any spiders or bears you come across for their Skittering Bloods and Grizzled Bear Hearts.\nDo not go out of your way to get them. You will come to a good spot later.|S|
 C Prove Your Worth|QID|421|M|47.97,40.43|QO|1|N|Kill five Moonrage Whitescalps.\nMake sure to avoid the woodland area directly west of the road, as level 21 elites like to path around and eat you. They apparently like the taste of lowbie in the morning. :(|
 T Lost Deathstalkers|QID|428|M|53.5,13.4|N|To Rane Yorick at the Ivar Patch.|
 A Wild Hearts|QID|429|M|53.46,13.43|N|From Rane Yorick.|PRE|428|
@@ -50,7 +50,7 @@ A Ivar the Foul|QID|425|M|53.46,13.43|N|From Rane Yorick.|PRE|430|
 C Ivar the Foul|QID|425|M|51.52,13.89|QO|1|N|Head into the barn at the end of the field; killing any mobs as you get to them. If you do not clear them as you go, you will become overwhelmed very QUICKLY with adds.\n\nWhen you enter the barn, stay against the outside wall and wait for the mob to path up to you. Kill him quickly, then proceed around the corner to Ivar the Foul. He will have a mob protecting him. If you pull one, you pull both of them.|
 T Ivar the Foul|QID|425|M|53.46,13.43|N|To Rane Yorick.|
 C The Dead Fields|QID|437|M|45,21|QO|1;2|N|Head SW to the Dead Fields. Nightlash might already be spawned, but if she isn't, kill all the Rot Hide Gnolls you see until she does.\nNOTE: Much like Ivar, you will want to clear the mobs as you go.|
-C A Recipe for Death|QID|447|M|36,15|QO|1;2|N|Head SW from here and finish killing the spiders and bears for their Skittering Bloods and Grizzled Bear Hearts.|US|
+C A Recipe For Death|QID|447|M|36,15|QO|1;2|N|Head SW from here and finish killing the spiders and bears for their Skittering Bloods and Grizzled Bear Hearts.|US|
 H The Sepulcher|QID|422|N|Hearth back to The Sepulcher|
 
 T Arugal's Folly|QID|422|M|44.20,39.78|N|To Dalar Dawnweaver.|
@@ -63,7 +63,7 @@ T Supplying the Sepulcher|QID|6321|R|Undead|M|45.62,42.60|N|To Karos Razok.|
 A Ride to the Undercity|QID|6323|R|Undead|M|45.62,42.60|N|From Karos Razok.|PRE|6321|
 F Undercity|QID|447|M|45.62,42.60|N|Fly to Undercity.|
 
-T A Recipe for Death|QID|447|M|51.32,44.66;47.00,59.79;43.29,68.68;48.81,69.29|Z|Undercity|CC|N|To Master Apothecary Faranell in The Apothecarium area.|
+T A Recipe For Death|QID|447|M|51.32,44.66;47.00,59.79;43.29,68.68;48.81,69.29|Z|Undercity|CC|N|To Master Apothecary Faranell in The Apothecarium area.|
 ;A A Recipe for Death|QID|450|M|48.81,69.29|Z|Undercity|N|From Master Apothecary Faranell.|PRE|447|ELITE|
 T Zinge's Delivery|QID|1359|M|50.15,67.93|Z|Undercity|N|To Apothecary Zinge.|
 A Sample for Helbrim|QID|1358|M|50.15,67.93|Z|Undercity|N|From Apothecary Zinge.|PRE|1359|
@@ -92,8 +92,8 @@ A Dalar's Analysis|QID|481|M|43.97,40.93|N|From Shadow Priest Allister.|PRE|478|
 T Arugal's Folly|QID|423|M|44.20,39.78|N|To Dalar Dawnweaver.|
 A Arugal's Folly|QID|424|M|44.20,39.78|N|From Dalar Dawnweaver.|PRE|423|
 T Dalar's Analysis|QID|481|M|44.20,39.78|N|To Dalar Dawnweaver.|
-A Dalar's Intentions|QID|482|M|44.20,39.78|N|From Dalar Dawnweaver.|PRE|481|
-T Dalar's Intentions|QID|482|M|43.97,40.93|N|To Shadow Priest Allister.|
+A Dalaran's Intentions|QID|482|M|44.20,39.78|N|From Dalar Dawnweaver.|PRE|481|
+T Dalaran's Intentions|QID|482|M|43.97,40.93|N|To Shadow Priest Allister.|
 A Ambermill Investigations|QID|479|M|43.97,40.93|N|From Shadow Priest Allister.|PRE|482|
 C Arugal's Folly|QID|424|M|51.24,36.81;56.60,44.66;56.44,46.06;58.6,44.8|CC|QO|1|N|Run to Deep Elm Mine, fight your way to the back of the mine and kill Grimson the Pale.\nBe prepared to fight your way back out again.|
 T Arugal's Folly|QID|424|M|44.20,39.78|N|To Dalar Dawnweaver.|
