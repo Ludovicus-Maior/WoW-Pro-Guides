@@ -124,7 +124,7 @@ C Thunderhorn Totem|QID|756|QO|1;2|N|Kill Prairie Stalkers and Flatland Cougars 
 C Dwarven Digging|QID|746|M|31.26,49.83|L|4702 5|N|Kill Dwarves for the Prospector's Picks.|
 C Dwarven Digging|QID|746|M|31.26,49.83|QO|1|U|4702|N|Use the Picks at the forge to destroy them.|
 T Rite of Vision|QID|772|M|34.60,37.77;32.72,36.09|CS|N|To Seer Wiserunner inside the cave.|
-A Rite of Vision|QID|773|M|32.72,36.09|N|From Seer Wiserunner.|PRE|772|
+A Rite of Wisdom|QID|773|M|32.72,36.09|N|From Seer Wiserunner.|PRE|772|
 C Swoop Hunting|QID|761|N|Kill Swoops to complete the quest on your way back to Bloodhoof Village.|
 C Thunderhorn Totem|QID|756|M|42.12,47.80|QO|1;2|N|Kill Stalkers and Cougars on the way back to Bloodhoof Village.|US|
 T Swoop Hunting|QID|761|M|48.71,59.32|N|To Harken Windtotem.|
