@@ -290,7 +290,7 @@ K Undead|AVAILABLE|361|L|2839|N|Kill undead mobs until you loot "A Letter to Yve
 A A Letter Undelivered|QID|361|U|2839|N|Click on the letter to accept the quest.|
 N Corpse Hearth|QID|408|N|Hearth back to Brill. If your Hearthstone is on cooldown, die and rez at Brill's graveyard. Either way, close this step when you are done.|
 
-T Letter Undelivered|QID|361|M|61.57,52.60|N|To Yvette Farthing in the Tavern.|
+T A Letter Undelivered|QID|361|M|61.57,52.60|N|To Yvette Farthing in the Tavern.|
 T Agamand Heirlooms|QID|1821|C|Warrior|M|61.71,52.31|N|To Coleman Farthing in the Tavern.|
 A Heirloom Weapon|QID|1822|C|Warrior|N|From Coleman Farthing.|PRE|1821|
 T Heirloom Weapon|QID|1822|C|Warrior|N|To Coleman Farthing.|
