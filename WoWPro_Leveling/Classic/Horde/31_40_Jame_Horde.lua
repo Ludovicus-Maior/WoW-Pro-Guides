@@ -21,9 +21,9 @@ T Call of Air|QID|1531|C|Shaman|M|53.60,42.70|N|Turning this in will give you a 
 R Darkcloud Pinnacle|ACTIVE|5088|M|46.69,47.05;31.00,36.00;33.16,35.44;32.87,32.45;32.29,28.38;34.64,30.88;36.93,31.81|CS|N|Go down the lift and follow the road west until Darkcloud Pinnacle, find the slope going up on the northwestern side of the mesa. Go up and across 3 wooden bridges, you'll end up at the top of a mesa with 2 bridges, take the one on your left (going east), at the next mesa there will be 2 bridges again, take the one on your right (going southeast).|
 K Arikara|ACTIVE|5088|QO|1|M|38.00,35.30|N|You should arrive at a mesa, with a bonfire in the middle named "Sacred Fire of Life". Clear everything on the mesa, get back to full health/mana. Right-click the bonfire, it will summon Arikara, a level 28 elite mob.|
 R Destroyed Caravan|ACTIVE|5151|M|31.00,36.00;22,24|CS|N|Go back the way you came, until you get off Darkcloud Pinnacle. Make sure your 5 minute special ability is up and that you have health pots ready etc. The next part is best done by 2 players so if you can group up with someone for the kill do so, solo it will be a bit hard, but try it anyway.|
-C Hypercapacitator Gizmo|QID|5151|M|22.00,24.00|N|Go northwest until you find a destroyed caravan  with a panther in a cage in the middle. Open the lock, kill the panther and loot the Hypercapacitator Gyzmo, then go south to Whitereach Post.|
+C Hypercapacitor Gizmo|QID|5151|M|22.00,24.00|N|Go northwest until you find a destroyed caravan  with a panther in a cage in the middle. Open the lock, kill the panther and loot the Hypercapacitor, then go south to Whitereach Post.|
 T Arikara|QID|5088|M|21.50,32.40|N|To Motega Firemane at Whitereach Post.|
-T Hypercapacitator Gyzmo|QID|5151|N|To Whizlo Bearingshiner. (if you didn't kill the panther, abandon that quest.)|
+T Hypercapacitor Gyzmo|QID|5151|N|To Whizlo Bearingshiner. (if you didn't kill the panther, abandon that quest.)|
 K Steelsnap|ACTIVE|1131|QO|1|M|17.06,18.79;13.00,28.00|CN|T|Steelnap|N|Go west/northwest, we're now gonna look for a named hyena named Steelsnap. She Spawns at the First marker and pats down past the second marker, Steelsnap always passes by that spot. She's a level 30 hyena with two hyena guarding her. Just kill her quickly and run away, that's the easiest option, but any class can manage it with a bit of strategy.|
 R Roguefeather Den|ACTIVE|1150|M|26.00,55.00|N|Go southeast along the mountain until you reach the harpy cave called Roguefeather Den. Clear your way inside the cave until you reach the bottom.|
 C Test of Endurance|QID|1150|M|26.00,55.00|N|When you click on the crates in the corner. When you click them a named harpy will spawn. Tough but possible to solo, much easier with company.|
@@ -135,7 +135,7 @@ T Bloody Bone Necklaces|QID|596|M|32.20,27.70|Z|Stranglethorn Vale|N|To Kin'weel
 F Booty Bay|ACTIVE|575|M|32.4,29.2|Z|Stranglethorn Vale|N|At Thysta, Wind Rider Master.|
 T Supply and Demand|QID|575|M|28.30,77.60|Z|Stranglethorn Vale|N|To Drizzlik.|
 A Some Assembly Required|QID|577|PRE|575|M|28.30,77.60|Z|Stranglethorn Vale|N|From Drizzlik.|
-T Investigate the camp|QID|201|M|27.00,77.20|Z|Stranglethorn Vale|N|To Krazek.|
+T Investigate the Camp|QID|201|M|27.00,77.20|Z|Stranglethorn Vale|N|To Krazek.|
 T Singing Blue Shards|QID|605|M|27.10,77.20|Z|Stranglethorn Vale|N|To Crank Fizzlebub.(skip followup)|
 T Bloodscalp Ears|QID|189|M|27.00,77.20|Z|Stranglethorn Vale|N|To Kebok.|
 H Orgimmar|ACTIVE|187|N|Hearth to Orgrimmar, restock, visit trainers, etc.|
@@ -146,7 +146,7 @@ T A Donation of Silk |QID|7827|Z|Orgrimmar|N|You should have the cloth stacks fr
 ; === 002_31_32_Jame_Hillsbrad_Foothills.lua ===
 ; === 002_34_34_Jame_Hillsbrad_Foothills.lua ===
 b Undercity|ACTIVE|577|M|50.8,13.6|Z|Durotar|N|Take the Zeppelin to the Undercity.|
-A To Steal from Thieves|QID|1164|M|63.80,49.50|Z|Undercity|N|From Genavie Callow, next to the Bat Handler.|
+A To Steal From Thieves|QID|1164|M|63.80,49.50|Z|Undercity|N|From Genavie Callow, next to the Bat Handler.|
 T Elixir of Agony |QID|513|M|48.8,69.3|Z|Undercity|N|To Master Apothecary Faranell inside the Apothecarium.|
 A Elixir of Agony |QID|515|PRE|513|M|48.8,69.3|Z|Undercity|N|From Master Apothecary Faranell.|
 F Tarren Mill|ACTIVE|515|M|63.6,48.6|Z|Undercity|N|At Michael Garrett, Bat Handler.|
@@ -225,7 +225,7 @@ L Level Check|ACTIVE|550|LVL|35;64600|N|This should make you nearly 36, if not, 
 R Tarren Mill|ACTIVE|550|Z|Hillsbrad Foothills|N|Run back to Tarren Mill.|
 F Undercity|ACTIVE|550|M|60.2,18.6|Z|Hillsbrad Foothills|N|At Zarise, Bat Handler.|
 T Battle of Hillsbrad |QID|550|M|56.2,91.8|Z|Undercity|N|Go speak to Varimathras, he is in the same room as Sylvana, the banshee queen. This room is behind the Apothecarium, you have to use the gate of the Apothecarium to access it.|
-A Into the Scarlet Monastery |QID|1048|M|56.2,91.8|Z|Undercity|N|From Varimathras.|
+A Into The Scarlet Monastery |QID|1048|M|56.2,91.8|Z|Undercity|N|From Varimathras.|
 r Repair, Sell Junk, etc.|ACTIVE|545|N|If you need to go to Orgrimmar and train.|
 F Tarren Mill|ACTIVE|545|M|63.6,48.6|Z|Undercity|N|At Michael Garrett, Bat Handler.|
 R Alterac Mountains|ACTIVE|545|Z|Alterac Mountains|N|Go west and then north into Alterac Mountains, as if you were going to the Lordamere Internment camp.|
@@ -278,7 +278,7 @@ T Call to Arms |QID|678|M|74.20,33.90|Z|Arathi Highlands|N|To Drum Fel.|
 A Call to Arms |QID|679|PRE|678|M|74.20,33.90|Z|Arathi Highlands|N|From Drum Fel.|
 T Sigil of Strom|QID|639|M|73.8,33.8|Z|Arathi Highlands|N|To Zengu.|
 F Undercity|ACTIVE|1164|M|73,32.6|Z|Arathi Highlands|N|At Urda, Wind Rider Master.|
-T To Steal from Thieves|QID|1164|M|63.80,49.50|Z|Undercity|N|Genavie Callow.|
+T To Steal From Thieves|QID|1164|M|63.80,49.50|Z|Undercity|N|Genavie Callow.|
 b Orgrimmar|ACTIVE|1136|M|60.8,58.8|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|
 h Orgrimmar|QID|1431|M|54,68.6|Z|Orgrimmar|N|Set your hearthstone in Orgrimmar at Innkeeper Gryshka.|
 A Alliance Relations |QID|1431|M|45.30,51.60|Z|Orgrimmar|N|Go to the Cleft of Shadows, and find Craven Drok, an orc NPC who roams in between the two slopes there.|
@@ -291,7 +291,7 @@ A Family Tree|QID|5361|M|45.60,50.80|N|From Cliffwatcher Longhorn.|
 F Thunder Bluff|ACTIVE|1136|M|45.2,49.2|Z|Thousand Needles|N|At Nyse, Wind Rider Master.|
 T Frostmaw|QID|1136|M|61.50,80.90|Z|Thunder Bluff|N|To Melor Stonehoof on Hunters Rise.|
 L Level Check|LVL|37|
-A Dreadmire|QID|1205|M|61.50,80.90|Z|Thunder Bluff|N|From Melor Stonehoof.|RANK|2| ;Jame said skip this... putting it in, but at Rank 2 for now
+A Deadmire|QID|1205|M|61.50,80.90|Z|Thunder Bluff|N|From Melor Stonehoof.|RANK|2| ;Jame said skip this... putting it in, but at Rank 2 for now
 
 ; === 002_37_38_Jame_Desolace.lua ===
 F Sun Rock Retreat|ACTIVE|5361|M|46.8,50|Z|Thunder Bluff|N|At Tal, Wind Rider Master.|
@@ -329,7 +329,7 @@ C Kodo Roundup|QID|5561|U|13892|S!US|M|55.60,62.60|Z|Desolace|N|Go west to the K
 C Bone Collector|QID|5501|M|55.60,62.60|Z|Desolace|N|Go to the Kodo Graveyard, look for kodo skulls on the floor, they are labelled as "Kodo Bones" on your tooltip and they shimmer. Gather 10 kodo bones, watch out though, clicking the skulls sometimes spawns a Kodo Apparition, which are easy to kill at your level but just don't click a skull if you are low on health.|
 T Kodo Roundup|QID|5561|M|60.90,61.90|Z|Desolace|N|To Smeed Scrabblescrew.|
 R Kolkar Village|ACTIVE|1365|M|73.00,47.00|Z|Desolace|N|Go east to the Kolkar Village|
-K Khan Dez'Hepah|ACTIVE|1365|QO|1|M|73.00,47.00|Z|Desolace|T|Khan Dez'Hepah|N|Kill Khan Dez'Hepah, who spawns in several places around the camp. The target button may help you find him. Loot his head.|
+K Khan Dez'hepah|ACTIVE|1365|QO|1|M|73.00,47.00|Z|Desolace|T|Khan Dez'Hepah|N|Kill Khan Dez'Hepah, who spawns in several places around the camp. The target button may help you find him. Loot his head.|
 T Khan Dez'Hepah|QID|1365|M|56.20,59.60|Z|Desolace|N|To Felgor Twocuts at Ghostwalker Post.|
 T Catch of the Day|QID|5386|M|55.40,55.80|Z|Desolace|N|To Nakata Longhorn.|
 T Bone Collector|QID|5501|M|62.2,38.8|Z|Desolace|N|To Bibbly F'utzbuckle.|
@@ -429,10 +429,10 @@ A Land Ho!|QID|663|M|31.6,82.6|Z|Arathi Highlands|N|From Lolo the Lookout.|
 T Land Ho!|QID|663|M|32.2,81.4|Z|Arathi Highlands|N|To Shakes O'Breen.|
 A Deep Sea Salvage|QID|662|PRE|663|M|32.6,81.4|Z|Arathi Highlands|N|From First Mate Nilzlix.|
 A Drowned Sorrows|QID|664|M|33.8,80.8|Z|Arathi Highlands|N|From Captain Steelgut.|
-A Sunken Treaasure|QID|665|M|33.8,80.6|Z|Arathi Highlands|N|Don't pick this up until you are ready to escort Professor Phizzlethorpe into a fight.|
-C Sunken Treaasure|QID|665|M|29,81|Z|Arathi Highlands|N|Escort the gnome to the cave, stay at the entrance to the cave (to avoid multiple spawns) where two level 40 elemental will attack you.|
-T Sunken Treaasure|QID|665|M|33.8,80.4|Z|Arathi Highlands|N|To Dr. Draxlegauge, it may take a few seconds after the fighting ends.|
-A Sunken Treaasure|QID|666|PRE|665|M|33.8,80.4|Z|Arathi Highlands|N|From Dr. Draxlegauge.|
+A Sunken Treasure|QID|665|M|33.8,80.6|Z|Arathi Highlands|N|Don't pick this up until you are ready to escort Professor Phizzlethorpe into a fight.|
+C Sunken Treasure|QID|665|M|29,81|Z|Arathi Highlands|N|Escort the gnome to the cave, stay at the entrance to the cave (to avoid multiple spawns) where two level 40 elemental will attack you.|
+T Sunken Treasure|QID|665|M|33.8,80.4|Z|Arathi Highlands|N|To Dr. Draxlegauge, it may take a few seconds after the fighting ends.|
+A Sunken Treasure|QID|666|PRE|665|M|33.8,80.4|Z|Arathi Highlands|N|From Dr. Draxlegauge.|
 C Drowned Sorrows|QID|664|M|23,84.4|Z|Arathi Highlands|S|N|Kill Naga as you go.|
 C Maiden's Folly Charts|QID|662|QO|2|M|23,84.4|Z|Arathi Highlands|N|Swim west, Use potion and dive down at first waypoint. Go down stairs from the deck to find log. Its a brown book, inside a cauldren.|
 C Maiden's Folly Log|QID|662|QO|1|M|23.4,85|Z|Arathi Highlands|N|On the same level of the ship, more to the mid part of the shop, charts are against the center wall (mast).|
@@ -440,9 +440,9 @@ C Spirit of Silverpine Charts|QID|662|QO|3|M|20.5,85.5|Z|Arathi Highlands|N|Down
 C Spirit of Silverpine Log|QID|662|QO|4|M|20.6,85.1|Z|Arathi Highlands|N|Down to the lowest level of the ship, Log lying in sand, with 3 naga in the area with it. CC one and it shouldnt be too bad, but a partner will certainly make it easier.|
 C Sunken Treasures|QID|666|M|20.6,85.1|Z|Arathi Highlands|U|4491|N|with goggles equipped, you can now detect (and pick up) Calcified Elven Gems. (big white rocks). Collect 10.|
 C Drowned Sorrows|QID|664|M|23,84.4|Z|Arathi Highlands|US|N|Finish off any Naga needed for this quest.|
-T A Deep Sea Salvage|QID|662|M|32.6,81.4|Z|Arathi Highlands|N|To First Mate Nilzlix.|
+T Deep Sea Salvage|QID|662|M|32.6,81.4|Z|Arathi Highlands|N|To First Mate Nilzlix.|
 T Drowned Sorrows|QID|664|M|33.8,80.8|Z|Arathi Highlands|N|To Captain Steelgut.|
-T Sunken Treaasure|QID|666|M|33.8,80.4|Z|Arathi Highlands|N|To Dr. Draxlegauge. Don't forget to re-equip your normal hat.|
+T Sunken Treasure|QID|666|M|33.8,80.4|Z|Arathi Highlands|N|To Dr. Draxlegauge. Don't forget to re-equip your normal hat.|
 A Sunken Treasure|QID|668|PRE|666|M|33.8,80.4|Z|Arathi Highlands|N|From Dr. Draxlegauge.|
 T Sunken Treasure|QID|668|M|32.2,81.4|Z|Arathi Highlands|N|To Shakes O'Breen.|
 A Sunken Treasure|QID|669|PRE|668|M|32.2,81.4|Z|Arathi Highlands|N|From Shakes O'Breen.|
