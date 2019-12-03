@@ -23,7 +23,7 @@ K Arikara|ACTIVE|5088|QO|1|M|38.00,35.30|N|You should arrive at a mesa, with a b
 R Destroyed Caravan|ACTIVE|5151|M|31.00,36.00;22,24|CS|N|Go back the way you came, until you get off Darkcloud Pinnacle. Make sure your 5 minute special ability is up and that you have health pots ready etc. The next part is best done by 2 players so if you can group up with someone for the kill do so, solo it will be a bit hard, but try it anyway.|
 C Hypercapacitor Gizmo|QID|5151|M|22.00,24.00|N|Go northwest until you find a destroyed caravan  with a panther in a cage in the middle. Open the lock, kill the panther and loot the Hypercapacitor, then go south to Whitereach Post.|
 T Arikara|QID|5088|M|21.50,32.40|N|To Motega Firemane at Whitereach Post.|
-T Hypercapacitor Gyzmo|QID|5151|N|To Whizlo Bearingshiner. (if you didn't kill the panther, abandon that quest.)|
+T Hypercapacitor Gizmo|QID|5151|N|To Whizlo Bearingshiner. (if you didn't kill the panther, abandon that quest.)|
 K Steelsnap|ACTIVE|1131|QO|1|M|17.06,18.79;13.00,28.00|CN|T|Steelnap|N|Go west/northwest, we're now gonna look for a named hyena named Steelsnap. She Spawns at the First marker and pats down past the second marker, Steelsnap always passes by that spot. She's a level 30 hyena with two hyena guarding her. Just kill her quickly and run away, that's the easiest option, but any class can manage it with a bit of strategy.|
 R Roguefeather Den|ACTIVE|1150|M|26.00,55.00|N|Go southeast along the mountain until you reach the harpy cave called Roguefeather Den. Clear your way inside the cave until you reach the bottom.|
 C Test of Endurance|QID|1150|M|26.00,55.00|N|When you click on the crates in the corner. When you click them a named harpy will spawn. Tough but possible to solo, much easier with company.|
@@ -330,7 +330,7 @@ C Bone Collector|QID|5501|M|55.60,62.60|Z|Desolace|N|Go to the Kodo Graveyard, l
 T Kodo Roundup|QID|5561|M|60.90,61.90|Z|Desolace|N|To Smeed Scrabblescrew.|
 R Kolkar Village|ACTIVE|1365|M|73.00,47.00|Z|Desolace|N|Go east to the Kolkar Village|
 K Khan Dez'hepah|ACTIVE|1365|QO|1|M|73.00,47.00|Z|Desolace|T|Khan Dez'Hepah|N|Kill Khan Dez'Hepah, who spawns in several places around the camp. The target button may help you find him. Loot his head.|
-T Khan Dez'Hepah|QID|1365|M|56.20,59.60|Z|Desolace|N|To Felgor Twocuts at Ghostwalker Post.|
+T Khan Dez'hepah|QID|1365|M|56.20,59.60|Z|Desolace|N|To Felgor Twocuts at Ghostwalker Post.|
 T Catch of the Day|QID|5386|M|55.40,55.80|Z|Desolace|N|To Nakata Longhorn.|
 T Bone Collector|QID|5501|M|62.2,38.8|Z|Desolace|N|To Bibbly F'utzbuckle.|
 
