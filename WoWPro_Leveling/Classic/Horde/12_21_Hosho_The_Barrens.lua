@@ -337,17 +337,17 @@ N Fresh Zhevra Carcas|QID|882|L|10338 1|M|60,30|N|Head north to the dead tree. O
 C Ishamuhale|QID|882|M|59.72,30.18|N|When you get to the tree, Right-Click the Carcas in your inventory. This should summon Ishamuhale. Kill it.|U|10338|
 R The Crossroads|QID|899|M|52,30|
 
-T Consumed By Hatred|QID|899|M|52,31.6|N|To the infamous Mankrik.|
+T Consumed by Hatred|QID|899|M|52,31.6|N|To the infamous Mankrik.|
 
 F Camp Taurajo|QID|882|M|51.52,30.36|N|Hearth of Fly back to Camp T.|
 T Ishamuhale|QID|882|M|44.84,59.11|N|To Jorn Skyseer.|
 A Enraged Thunder Lizards|QID|907|PRE|882|M|44.8,59|N|From Jorn Skyseer.|
 
 C Enraged Thunder Lizards|QID|907|M|46,50|N|Look for a gray Kodo named Lakota'mani. He has a long-ish patrol route and a long respawn time, so you might not find him. If you do find him, kill him, and loot his hoof. Skip it if you don't. He isn't really worth camping the area for.|
-A Lakoto'mani|QID|883|U|5099|O|
+A Lakota'mani|QID|883|U|5099|O|
 
 T Enraged Thunder Lizards|QID|907|M|44.86,59.09|N|To Jorn Skyseer back to Camp Taurajo.|
-t Lakoto'mani|QID|883|M|44.86,59.09|N|To Jorn Skyseer.|
+t Lakota'mani|QID|883|M|44.86,59.09|N|To Jorn Skyseer.|
 A Cry of the Thunderhawk |QID|913|PRE|907|M|44.86,59.09|N|From Jorn Skyseer.|
 
 R Southern Barrens|QID|913|M|45.23,59.03;46.6,61.5|CC|
