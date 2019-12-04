@@ -76,7 +76,7 @@ F Morgan's Vigil|QID|4223|M|30.59,59.41|Z|Redridge Mountains|N|Fly to Burning St
 T The True Masters|QID|4223|M|84.74,69.01|Z|Burning Steppes|N|To Marshal Maxwell. Don't get follow-up.|
 A The True Masters|QID|4224|M|84.74,69.01|Z|Burning Steppes|N|From Marshal Maxwell.|PRE|4223|
 C The Smoldering Ruins of Thaurissan|QID|3701|M|54.37,38.30|Z|Burning Steppes|NC|S|N|Find and click on Thaurissan Relics to recover the information.|
-t Return to Trinkee|QID|4810|M|65.29,23.93|Z|Burning Steppes|N|To Tinkee Steamboil.|
+t Return to Tinkee|QID|4810|M|65.29,23.93|Z|Burning Steppes|N|To Tinkee Steamboil.|
 A The Heart of the Mountain|QID|4123|M|65.18,23.9|Z|Burning Steppes|N|From Maxwort Uberglint.|
 A Ribbly Screwspigot|QID|4136|M|66.05,21.95|Z|Burning Steppes|N|From Yuka Screwspigot.|
 C The True Masters|QID|4224|M|65.02,23.74|Z|Burning Steppes|CHAT|N|Talk with Ragged John.|

@@ -10,7 +10,7 @@ A Power in Uldaman|QID|1956|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=e6cc
 ;Quests to grab before leaving Ironforge
 h Ironforge|QID|2278|M|18.14,51.43|Z|Ironforge|N|Recommend setting your Hearthstone in Ironforge before getting started.|
 A Reclaimed Treasures|QID|1360|M|74.19,9.38|Z|Ironforge|N|From Krom Stoutarm.|
-A The lost Dwarves|QID|2398|M|74.6,11.76|Z|Ironforge|N|From Prospoctor Stormpike. This quest is shareable with your group.|
+A The Lost Dwarves|QID|2398|M|74.6,11.76|Z|Ironforge|N|From Prospoctor Stormpike. This quest is shareable with your group.|
 
 ;Pre Group from Chapter 1 Guide
 A Ironband Wants You!|QID|707|M|74.6,11.76|Z|Ironforge|N|From Prospoctor Stormpike.|

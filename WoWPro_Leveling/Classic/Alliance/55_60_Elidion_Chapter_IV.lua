@@ -345,7 +345,7 @@ A Heroes of Old|QID|2702|M|34.28,66.14|Z|Swamp of Sorrows|N|From Fallen Hero of 
 T Heroes of Old|QID|2702|M|33.35,65.97|Z|Swamp of Sorrows|N|To Corporal Thund Splithoof.
 A Heroes of Old|QID|2701|M|33.35,65.97|Z|Swamp of Sorrows|N|From Corporal Thund Splithoof.|LVL|45|PRE|2702|
 T Heroes of Old|QID|2701|M|33.39,66.13|Z|Swamp of Sorrows|N|To Spectral Lockbox.|
-A Kirth|QID|2721|M|34.28,66.14|Z|Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde.|LVL|45|PRE|2701|
+A Kirith|QID|2721|M|34.28,66.14|Z|Swamp of Sorrows|ELITE|N|[color=ff8000]Elite: [/color]From Fallen Hero of the Horde.|LVL|45|PRE|2701|
 C Kirith|QID|2721|Z|Swamp of Sorrows|N|Find out what became of Lieutenant Kirith.|
 T Kirith|QID|2721|M|68.93,31.00|Z|Blasted Lands|N|To Spirit of Kirith.|
 A The Cover of Darkness|QID|2743|M|68.4,31.2|Z|Blasted Lands|N|From Spirit of Kirith.|LVL|45|PRE|2721|

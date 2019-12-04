@@ -289,9 +289,9 @@ F Ironforge|QID|637|M|49.34,52.28|Z|Hillsbrad Foothills|N|Fly to Ironforge to ta
 T Sully Balloo's Letter|QID|637|M|63.50,67.32|Z|Ironforge|N|To Sara Balloo.|
 A Sara Balloo's Plea|QID|683|M|63.50,67.32|Z|Ironforge|N|From Sara Balloo.|PRE|637|
 T Sara Balloo's Plea|QID|683|M|39.11,56.21|Z|Ironforge|N|To King Magni Bronzebeard.|
-A King's Tribute|QID|686|M|39.11,56.21|Z|Ironforge|N|From King Magni Bronzebeard.|PRE|683|
-T King's Tribute|QID|686|M|38.74,87.05|Z|Ironforge|N|To Grand Mason Marblesten.|
-A King's Tribute|QID|689|M|38.74,87.05|Z|Ironforge|N|From Grand Mason Marblesten.|PRE|686|
+A A King's Tribute|QID|686|M|39.11,56.21|Z|Ironforge|N|From King Magni Bronzebeard.|PRE|683|
+T A King's Tribute|QID|686|M|38.74,87.05|Z|Ironforge|N|To Grand Mason Marblesten.|
+A A King's Tribute|QID|689|M|38.74,87.05|Z|Ironforge|N|From Grand Mason Marblesten.|PRE|686|
 C Bolt of Woolen Cloth|QID|565|M|38.74,87.05|Z|Ironforge|QO|1|S|NC|
 C Fine Thread|QID|565|M|38.74,87.05|Z|Ironforge|QO|2|S|NC|
 C Hillmans' cloak|QID|565|M|38.74,87.05|Z|Ironforge|QO|3|S|NC|
@@ -306,9 +306,9 @@ C Bolt of Woolen Cloth|QID|565|M|38.74,87.05|Z|Ironforge|QO|1|US|NC|
 F Southshore|QID|565|M|49.34,52.28|Z|Ironforge|N|Fly back to Southshore.|
 A Crushridge Bounty|QID|500|M|49.47,58.73|Z|Hillsbrad Foothills|N|From Marshal Redpath.|
 A Syndicate Assassins|QID|505|M|48.13,59.10|Z|Hillsbrad Foothills|N|From Magistrate Henry Maleb.|
-C King's Tribute|QID|689|M|46,32|Z|Hillsbrad Foothills|S|N|Click the Alterac Granite inside the cave. They look like white shark teeth sticking out of the ground along the walls.|NC|
+C A King's Tribute|QID|689|M|46,32|Z|Hillsbrad Foothills|S|N|Click the Alterac Granite inside the cave. They look like white shark teeth sticking out of the ground along the walls.|NC|
 C Bartolo's Yeti Fur Cloak|QID|565|M|46,32|Z|Hillsbrad Foothills|N|Run to the cave and kill the yetis.|
-C King's Tribute|QID|689|M|46,32|Z|Hillsbrad Foothills|US|N|Click the Alterac Granite inside the cave. They look like white shark teeth sticking out of the ground along the walls.|NC|
+C A King's Tribute|QID|689|M|46,32|Z|Hillsbrad Foothills|US|N|Click the Alterac Granite inside the cave. They look like white shark teeth sticking out of the ground along the walls.|NC|
 
 R Alterac Mountains|QID|564|M|54.60,8.00|Z|Hillsbrad Foothills|N|Out of the cave and make your way to Alterac Mountains.|
 C Costly Menace|QID|564|M|38.00,85.00|Z|Alterac Mountains|S|N|Kill Lions on your way.|
@@ -347,9 +347,9 @@ A James Hyal|QID|1302|M|10.82,60.41|Z|Wetlands|N|From Vincent Hyal.|
 
 F Ironforge|QID|563|M|49.34,52.28|Z|Hillsbrad Foothills|N|Fly to Ironforge to take care of a few things.|
 A The Brassbolts Brothers|QID|1179|M|72.73,94.00|Z|Ironforge|N|From Pilot Longbeard.|
-T King's Tribute|QID|689|M|38.74,87.05|Z|Ironforge|N|To Grand Mason Marblesten.|
-A King's Tribute|QID|700|M|38.74,87.05|Z|Ironforge|N|From Grand Mason Marblesten. \n\nNeed to wait about a minute while he goes downstairs and builds the thing, feel free to follow him and watch.|PRE|689|
-T King's Tribute|QID|700|M|39.11,56.21|Z|Ironforge|N|To King Magni Bronzebeard.|
+T A King's Tribute|QID|689|M|38.74,87.05|Z|Ironforge|N|To Grand Mason Marblesten.|
+A A King's Tribute|QID|700|M|38.74,87.05|Z|Ironforge|N|From Grand Mason Marblesten. \n\nNeed to wait about a minute while he goes downstairs and builds the thing, feel free to follow him and watch.|PRE|689|
+T A King's Tribute|QID|700|M|39.11,56.21|Z|Ironforge|N|To King Magni Bronzebeard.|
 A Reclaimers' Business in Desolace|QID|1453|Z|Ironforge|M|69.9,21.3|N|From Roetten Stonehammer.|
 T Letter to Stormpike|QID|514|M|74.7,11.7|Z|Ironforge|N|To Prospector Stormpike. Don't get the followup.|
 
@@ -592,7 +592,7 @@ N Train up|QID|1396|N|Do your big city stuff, train, auction, repair, sell ect.|
 A Mazen's Behest|QID|1363|M|41.51,64.34|Z|Stormwind City|N|From Mazen Mac'Nadir.|
 T Mazen's Behest|QID|1363|M|41.00,63.82|Z|Stormwind City|N|Just up the stairs for turn in to Acolyte Dellis.|
 A Mazen's Behest|QID|1364|M|41.00,63.82|Z|Stormwind City|N|From Acolyte Dellis.|
-A In Search of the Temple|QID|1448|M|64.35,20.64|Z|Stormwind City|N|From Brohann Caskbelly, inside a pub in the Dwarven District.|
+A In Search of The Temple|QID|1448|M|64.35,20.64|Z|Stormwind City|N|From Brohann Caskbelly, inside a pub in the Dwarven District.|
 
 F Darkshire|QID|1396|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longdrink.|
 R Deadwind Pass|QID|1396|M|91.35,41.54|Z|Duskwood|N|Run east through Duskwood to Deadwind Pass.|
@@ -673,7 +673,7 @@ R Western Plaguelands|QID|512|M|66.64,47.08;78.07,45.88;80.70,33.95|CC|Z|Alterac
 f Chillwind Camp|QID|512|M|42.93,85.06|Z|Western Plaguelands|N|From Bilbifaz Featherwhistle.|
 F Southshore|QID|512|M|42.93,85.06|Z|Western Plaguelands|N|Fly back to Southshore.|
 T The Ensorcelled Parchment|QID|551|M|50.57,57.09|Z|Hillsbrad Foothills|N|To Loremaster Dibbs.|
-A The Stormpike's Deciphering|QID|554|M|50.57,57.09|Z|Hillsbrad Foothills|N|From Loremaster Dibbs.|PRE|551|
+A Stormpike's Deciphering|QID|554|M|50.57,57.09|Z|Hillsbrad Foothills|N|From Loremaster Dibbs.|PRE|551|
 T Noble Deaths|QID|512|M|48.14,59.11|Z|Hillsbrad Foothills|N|To Magistrate Henry Maleb.|
 T Dark Council|QID|537|M|48.14,59.11|Z|Hillsbrad Foothills|N|To Magistrate Henry Maleb.|
 T Baron's Demise|QID|523|M|48.14,59.11|Z|Hillsbrad Foothills|N|To Magistrate Henry Maleb.|
@@ -684,11 +684,11 @@ A Land Ho!|QID|663|M|31.8,82.73|Z|Arathi Highlands|N|From Lolo the Lookout.|
 T Land Ho!|QID|663|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen.|
 A Deep Sea Salvage|QID|662|M|32.75,81.43|Z|Arathi Highlands|N|From First Mate Nilzlix.|PRE|663|
 A Drowned Sorrows|QID|664|M|34.00,80.79|Z|Arathi Highlands|N|From Captain Steelgut.|
-A Sunken Treaasure|QID|665|M|33.87,80.55|Z|Arathi Highlands|N|Don't pick this up until you are ready to escort Professor Phizzlethorpe into a fight.|
-C Sunken Treaasure|QID|665|M|35.14,80.47|Z|Arathi Highlands|N|Escort the gnome to the cave, stay at the entrance to the cave (to avoid multiple spawns) where two level 40 elemental will attack you.|
-T Sunken Treaasure|QID|665|M|33.86,80.45|Z|Arathi Highlands|N|To Dr. Draxlegauge, it may take a few seconds after the fighting ends.|
-A Sunken Treaasure|QID|666|M|33.86,80.45|Z|Arathi Highlands|N|From Dr. Draxlegauge.|PRE|665|
-C Sunken Treasures|QID|666|M|20.6,85.1|Z|Arathi Highlands|S|N|Use the goggles so you can detect and pick up Calcified Elven Gems. (big white rocks).|U|4491|
+A Sunken Treasure|QID|665|M|33.87,80.55|Z|Arathi Highlands|N|Don't pick this up until you are ready to escort Professor Phizzlethorpe into a fight.|
+C Sunken Treasure|QID|665|M|35.14,80.47|Z|Arathi Highlands|N|Escort the gnome to the cave, stay at the entrance to the cave (to avoid multiple spawns) where two level 40 elemental will attack you.|
+T Sunken Treasure|QID|665|M|33.86,80.45|Z|Arathi Highlands|N|To Dr. Draxlegauge, it may take a few seconds after the fighting ends.|
+A Sunken Treasure|QID|666|M|33.86,80.45|Z|Arathi Highlands|N|From Dr. Draxlegauge.|PRE|665|
+C Sunken Tresures|QID|666|M|20.6,85.1|Z|Arathi Highlands|S|N|Use the goggles so you can detect and pick up Calcified Elven Gems. (big white rocks).|U|4491|
 C Drowned Sorrows|QID|664|M|23,84.4|Z|Arathi Highlands|S|N|Kill Naga as you go.|
 C Maiden's Folly Charts|QID|662|QO|2|M|23.40,85.09|Z|Arathi Highlands|N|Swim west, Use potion and dive down at first waypoint. Go down stairs from the deck to find log. Its a brown book, inside a cauldren.|
 C Maiden's Folly Log|QID|662|QO|1|M|23.03,84.51|Z|Arathi Highlands|N|On the same level of the ship, more to the mid part of the shop, charts are against the center wall (mast).|
@@ -696,9 +696,9 @@ C Spirit of Silverpine Charts|QID|662|QO|3|M|20.46,85.61|Z|Arathi Highlands|N|Do
 C Spirit of Silverpine Log|QID|662|QO|4|M|20.65,85.11|Z|Arathi Highlands|N|Down to the lowest level of the ship, Log lying in sand.|
 C Sunken Treasures|QID|666|M|20.6,85.1|Z|Arathi Highlands|US|N|Use the goggles so you can detect and pick up Calcified Elven Gems. (big white rocks).|U|4491|
 C Drowned Sorrows|QID|664|M|23,84.4|Z|Arathi Highlands|US|N|Finish off any Naga needed for this quest.|
-T A Deep Sea Salvage|QID|662|M|32.75,81.43|Z|Arathi Highlands|N|To First Mate Nilzlix.|
+T Deep Sea Salvage|QID|662|M|32.75,81.43|Z|Arathi Highlands|N|To First Mate Nilzlix.|
 T Drowned Sorrows|QID|664|M|34.00,80.79|Z|Arathi Highlands|N|To Captain Steelgut.|
-T Sunken Treaasure|QID|666|M|33.86,80.45|Z|Arathi Highlands|N|To Doctor Draxlegauge. Don't forget to re-equip your normal hat.|
+T Sunken Treasure|QID|666|M|33.86,80.45|Z|Arathi Highlands|N|To Doctor Draxlegauge. Don't forget to re-equip your normal hat.|
 A Sunken Treasure|QID|668|M|33.86,80.45|Z|Arathi Highlands|N|From Doctor Draxlegauge.|PRE|666|
 T Sunken Treasure|QID|668|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen.|
 A Sunken Treasure|QID|669|M|32.29,81.36|Z|Arathi Highlands|N|From Shakes O'Breen.|PRE|668|
@@ -711,7 +711,7 @@ B Patterned Bronze Bracers|QID|716|L|2868|N|Crafted with Blacksmithing. Make sur
 B Healing Potion|QID|715|L|929|N|Crafted by Alchemists and looted from NPCs. Make sure you have at least 1 with you now.|ITEM|929|
 B Lesser Invisibility Potion|QID|715|L|3823|N|Crafted by Alchemists. Make sure you have at least 1 with you now.|ITEM|3823|
 
-T The Stormpike's Deciphering|QID|554|M|74.6,11.76|Z|Ironforge|N|To Prospoctor Stormpike.|
+T Stormpike's Deciphering|QID|554|M|74.6,11.76|Z|Ironforge|N|To Prospoctor Stormpike.|
 A Ironband Wants You!|QID|707|M|74.6,11.76|Z|Ironforge|N|From Prospoctor Stormpike.|
 F Thelsamar|ACTIVE|707|M|55.50,47.80|Z|Ironforge|TAXI|Thelsamar|N|Fly to Thelsamar, Loch Modan.|
 R Thelsamar|ACTIVE|707|M|33.93,50.95|Z|Loch Modan|TAXI|-Thelsamar|N|Goto Thelsamar, Loch Modan. If you don't have the flight path, rake the road east out of Ironforge, go thru the tunnel at South Gate Outpost, follow the road northeast to Thelsamar.|

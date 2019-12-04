@@ -218,7 +218,7 @@ T Princess Must Die!|QID|88|M|34.6,84.5|N|To Ma Stonefield.|
 
 T Westbrook Garrison Needs Help!|QID|239|M|24.3,74.8|N|To Deputy Rainer.|
 A Riverpaw Gnoll Bounty|QID|11|PRE|239|M|24.3,74.8|N|From Deputy Rainer.|
-A Wanted: "Hogger"|QID|176|M|24.52,74.65|N|This Elite level quest is available from the Wanted Poster in Forests Edge, one on the road to the tower, and one at the northern tower.|
+A Wanted:  "Hogger"|QID|176|M|24.52,74.65|N|This Elite level quest is available from the Wanted Poster in Forests Edge, one on the road to the tower, and one at the northern tower.|
 K Hogger|ACTIVE|176|QO|1|M|27.5,92.5|N|This Level 11 Elite has a few span points. Group up with whoever is around to make this simple.|S!US|T|Hogger|
 C Riverpaw Gnoll Bounty|QID|11|M|26.1,87.5|N|Kill and loot the Gnolls for the Painted Gnoll Armbands.|
 L Level Check|ACTIVE|11|M|26.1,87.5|LVL|9;-840|N|Grind at the gnolls if you aren't yet 10.|
@@ -228,7 +228,7 @@ T Riverpaw Gnoll Bounty|QID|11|M|24.3,74.8|N|To Deputy Rainer.|
 
 T The Collector|QID|123|M|42.1,65.9|N|To Marshall Dughan.|
 A Manhunt|QID|147|PRE|123|M|42.1,65.9|N|From Marshall Dughan.|
-T Wanted: "Hogger"|QID|176|M|42.1,65.9|N|To Marshall Dughan.|
+T Wanted:  "Hogger"|QID|176|M|42.1,65.9|N|To Marshall Dughan.|
 
 A Speak with Jennea|QID|1860|C|Mage|M|43.2,66.2|ITEM|9513|N|From Zaldimar Wefhellt. Requires lvl 10. Rewards a nice 2H staff, so you may want to do it, even though its a bit out of the direct path.|
 T Speak with Jennea|QID|1860|C|Mage|M|38.6,79.4|Z|Stormwind City|N|To Jennea Cannon, inside the Mage Tower.|
@@ -237,7 +237,7 @@ C Mirror Lake|QID|1861|C|Mage|M|28.6,61.4|U|7207|N|Go to Mirror Lake, just outsi
 T Mirror Lake|QID|1861|C|Mage|M|38.6,79.4|Z|Stormwind City|N|To Jennea Cannon.|
 
 A Desperate Prayer|QID|5635|M|43.2,65.6|C|Priest|R|Human|N|From Priestess Josetta.|
-A Seek out SI:7|QID|2205|C|Rogue|R|Human|M|43.8,65.8|N|From Keryn Sylvius, upstairs in the Goldshire inn.|
+A Seek out SI: 7|QID|2205|C|Rogue|R|Human|M|43.8,65.8|N|From Keryn Sylvius, upstairs in the Goldshire inn.|
 
 A Gakin's Summons|QID|1685|C|Warlock|M|44.4,66.2|R|Human, Gnome|N|From Remen Marcot, in the basement of the Goldshire inn.|
 T Gakin's Summons|QID|1685|C|Warlock|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder, in the basement of an inn, in the Mage Quarter.|
@@ -286,7 +286,7 @@ F Stormwind City |QID|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|
 T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
 A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|Stormwind City|N|From Osric Strang.|PRE|6281|
 T Desperate Prayer|QID|5635|M|38.8,26.4|Z|Stormwind City|N|To High Priestess Laurena in the Cathedral of Light.|
-T Seek out SI:7|QID|2205|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|
+T Seek out SI: 7|QID|2205|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|
 A Snatch and Grab|QID|2206|M|76.0,59.8|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|2205|
 C Snatch and Grab|QID|2206|M|47,87|N|Head south east of Goldshire. As you approach the docks, stealth, then pickpocket the dockmaster. If the weapon isn't an upgrade, you may want to skip or leave this quest 'til next time you are conveniently in Goldshire.|ITEM|7298|
 T Snatch and Grab|QID|2206|M|76.0,59.8|Z|Stormwind City|N|To Master Mathias Shaw.|
@@ -350,7 +350,8 @@ L Level 12|LVL|12|N|You should now be a couple of bars into level 12.|
 F Stormwind|QID|1338|ACTIVE|1338|M|33.9,50.95|Z|Loch Modan|N|Fly to Stormwind from Thelsamar.|
 T Dungar Longdrink|QID|6261|M|66.28,62.09|Z|Stormwind City|N|To Dungar Longdrink.|
 A Return to Lewis|QID|6285|PRE|6261|M|66.28,62.09|Z|Stormwind City|N|From Dungar Longdrink.|
-A Tome of Divinity|QID|399|M|49.21, 30.27|C|Paladin|R|Human|N|From Baros Alexston, in Cathedral Square.|Z|Stormwind City|
+; LFO:  Is this next QID right?
+A Tome of Divinity|QID|2998|M|49.21, 30.27|C|Paladin|R|Human|N|From Baros Alexston, in Cathedral Square.|Z|Stormwind City|
 A Humble Beginnings|QID|399|Z|Stormwind City|M|49.21, 30.27|N|From Baros Alexston, in Cathedral Square.|
 
 T Tome of Divinity|QID|2998|C|Paladin|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|
