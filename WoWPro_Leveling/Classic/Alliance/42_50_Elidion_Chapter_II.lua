@@ -334,7 +334,7 @@ T Thalanaar Delivery|QID|4281|M|89.64,46.57|Z|Feralas|N|To Falfindel Waywarder.|
 F Gadgetzan|ACTIVE|2941|N|Fly to Gadgetzan.|M|89.50,45.85|Z|Feralas|
 T The Borrower|QID|2941|M|52.36,26.91|Z|Tanaris|N|To Curgle Cranklehop.|
 A The Super Snapper FX|QID|2944|M|52.36,26.91|Z|Tanaris|N|From Curgle Cranklehop.|PRE|2941|
-A Egg-O-Matic|QID|2741|M|52.38,26.97|Z|Tanaris|U|8564|N|Click the Egg-O-Matic. Complete the quest, open the egg crate, turn the quest in corresponding to the egg you got.|
+A The Super Egg-O-Matic|QID|2741|M|52.38,26.97|Z|Tanaris|U|8564|N|Click the Egg-O-Matic. Complete the quest, open the egg crate, turn the quest in corresponding to the egg you got.|
 r Sell junk, repair, restock|QID|3520|N|Sell junk, repair, restock.|
 
 K Roc Gizzard|ACTIVE|1452|QO|1|M|45.80,39.60|Z|Tanaris|S|N|Kill Fire Rocs until you get their Gizzards.|
@@ -472,7 +472,7 @@ f Thorium Point|QID|4449|M|37.94,30.85|Z|Searing Gorge|N|Grab the flightpath fro
 A Curse These Fat Fingers|QID|7723|M|38.58,27.81|Z|Searing Gorge|N|From Hansel Heavyhands.|
 A Fiery Menace!|QID|7724|M|38.58,27.81|Z|Searing Gorge|N|From Hansel Heavyhands.|
 A Incendosaurs? Whateverosaur is More Like It|QID|7727|M|38.58,27.81|Z|Searing Gorge|N|From Hansel Heavyhands.|
-A What the Flux|QID|7722|M|38.81,28.51|Z|Searing Gorge|N|From Master Smith Burninate.|
+A What the Flux?|QID|7722|M|38.81,28.51|Z|Searing Gorge|N|From Master Smith Burninate.|
 A STOLEN: Smithing Tuyere and Lookout's Spyglass|QID|7728|M|37.63,26.53|Z|Searing Gorge|N|From the job board.|
 A JOB OPPORTUNITY: Culling the Competition|QID|7729|M|37.63,26.53|Z|Searing Gorge|N|From the job board.|
 A WANTED: Overseer Maltorius|QID|7701|M|37.64,26.53|Z|Searing Gorge|ELITE|N|[color=ff8000]Elite: [/color]From the Wanted board.\n\nThis is an Elite quest that can be done while you're doing 'What the Flux' but you will need a partner.|
@@ -496,21 +496,21 @@ T Suntara Stones|QID|3367|M|74.44,19.28|Z|Searing Gorge|N|At the Singed Letter.|
 A Suntara Stones|QID|3368|M|74.44,19.28|Z|Searing Gorge|N|From the Singed Letter.|PRE|3367|
 R Drop down|QID|7701|M|48.76,43.93;49.80,45.86|Z|Searing Gorge|CC|N|Run up from the top of the gorge and drop down onto the platforms to enter the top tunnel.|
 C Incendosaurs? Whateverosaur is More Like It|QID|7727|M|38.58,27.81|Z|Searing Gorge|S|N|Kill Incendosaurs down at the bottom of the pits around lava.|
-C Wanted: Overseer Maltorius|QID|7701|M|40.70,35.87|Z|Searing Gorge|N|On the ledge with 2 body guards, this is extremely tough solo, try and find a partner or skip this.|
-C What the Flux|QID|7722|M|40.70,35.87|Z|Searing Gorge|N|On the table behind Overseer Maltorius. If you aren't trying to kill him for the quest you can distract them while you grab the plans by fears, roots, freezes, suicide pets, cheat bubble ect.|
+C WANTED: Overseer Maltorius|QID|7701|M|40.70,35.87|Z|Searing Gorge|N|On the ledge with 2 body guards, this is extremely tough solo, try and find a partner or skip this.|
+C What the Flux?|QID|7722|M|40.70,35.87|Z|Searing Gorge|N|On the table behind Overseer Maltorius. If you aren't trying to kill him for the quest you can distract them while you grab the plans by fears, roots, freezes, suicide pets, cheat bubble ect.|
 C Incendosaurs? Whateverosaur is More Like It|QID|7727|M|51.23,37.78|Z|Searing Gorge|US|N|Kill Incendosaurs down at the bottom of the pits around lava.|
 C Forging the Shaft|QID|3443|M|47.13,41.49|Z|Searing Gorge|N|Continue colleting the daggers off Slavers and Taskmasters.|
 C Dark Iron|QID|7729|M|47.13,41.49|Z|Searing Gorge|US|N|Kill Taskmasters and Slavers at the camps scattered around or you can go inside the tunnels.|
 C Curse These Fat Fingers|QID|7723|M|47.13,41.49|US|Z|Searing Gorge|N|Finish killing the Heavy War Golems.|
 C Fiery Menace!|QID|7724|M|28.16,54.40|Z|Searing Gorge|US|N|Kill Greater Lava Spiders you find roaming around.|
 T Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|To Kalaran Windblade. Skip follow-up.|
-T What the Flux|QID|7722|M|38.81,28.51|Z|Searing Gorge|N|To Master Smith Burninate.|
+T What the Flux?|QID|7722|M|38.81,28.51|Z|Searing Gorge|N|To Master Smith Burninate.|
 T Curse These Fat Fingers|QID|7723|M|38.58,27.81|Z|Searing Gorge|N|To Hansel Heavyhands.|
 T Fiery Menace!|QID|7724|M|38.58,27.81|Z|Searing Gorge|N|To Hansel Heavyhands.|
 T Incendosaurs? Whateverosaur is More Like It|QID|7727|M|38.58,27.81|Z|Searing Gorge|N|To Hansel Heavyhands.|
 T STOLEN: Smithing Tuyere and Lookout's Spyglass|QID|7728|M|38.97,27.51|Z|Searing Gorge|N|To Taskmaster Scrange.|
 T JOB OPPORTUNITY: Culling the Competition|QID|7729|M|38.97,27.51|Z|Searing Gorge|N|To Taskmaster Scrange.|
-T Wanted: Overseer Maltorius|QID|7701|M|37.73,26.56|Z|Searing Gorge|N|To Lookout Captain Lolo LongStriker.|
+T WANTED: Overseer Maltorius|QID|7701|M|37.73,26.56|Z|Searing Gorge|N|To Lookout Captain Lolo LongStriker.|
 A Shadoweaver|QID|3379|M|40.99,74.93|Z|Searing Gorge|N|From Nilith Lokrav.|P|Tailoring;197;0+230;0|
 C Shadoweaver|QID|3379|M|59.00,25.82|Z|Searing Gorge|N|Kill the Shadoweave Poachers. Really easy. Just attack one while they are attacking a spider, run off agro once that target is dead. Pick em off 1 at a time.|P|Tailoring;197;0+230;0|
 T Shadoweaver|QID|3379|M|40.99,74.93|Z|Searing Gorge|N|To Nilith Lokrav.|P|Tailoring;197;0+230;0|
@@ -656,7 +656,7 @@ F Nethergarde Keep|AVAILABLE|2583|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longd
 
 A The Basilisk's Bite|QID|2601|M|50.64,14.30|Z|Blasted Lands|N|From Bloodmage Lynnore.|
 A Vulture's Vigor|QID|2603|M|50.64,14.30|Z|Blasted Lands|N|From Bloodmage Lynnore.|
-A Snickefang Jowls|QID|2581|M|50.55,14.21|Z|Blasted Lands|N|From Bloodmage Drazial.|
+A Snickerfang Jowls|QID|2581|M|50.55,14.21|Z|Blasted Lands|N|From Bloodmage Drazial.|
 A A Boar's Vitality|QID|2583|M|50.55,14.21|Z|Blasted Lands|N|From Bloodmage Drazial.|
 A The Decisive Striker|QID|2585|M|50.55,14.21|Z|Blasted Lands|N|From Bloodmage Drazial.|
 
@@ -672,7 +672,7 @@ l Vultures|QID|1000|ACTIVE|2601^2583|M|PLAYER|Z|Blasted Lands|US|N|Kill Vultures
 
 T The Basilisk's Bite|QID|2601|M|50.64,14.30|Z|Blasted Lands|N|To Bloodmage Lynnore.|
 T Vulture's Vigor|QID|2603|M|50.64,14.30|Z|Blasted Lands|N|To Bloodmage Lynnore.|
-T Snickefang Jowls|QID|2581|M|50.55,14.21|Z|Blasted Lands|N|To Bloodmage Drazial.|
+T Snickerfang Jowls|QID|2581|M|50.55,14.21|Z|Blasted Lands|N|To Bloodmage Drazial.|
 T A Boar's Vitality|QID|2583|M|50.55,14.21|Z|Blasted Lands|N|To Bloodmage Drazial.|
 T The Decisive Striker|QID|2585|M|50.55,14.21|Z|Blasted Lands|N|To Bloodmage Drazial.|
 A Everything Counts In Large Amounts|QID|3501|M|51,35|Z|Blasted Lands|N|From Kum'isha the Collector.|U|10593|

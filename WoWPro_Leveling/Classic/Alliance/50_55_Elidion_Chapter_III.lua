@@ -184,7 +184,7 @@ A Deadwood of the North|QID|8461|M|64.77,8.14|Z|Felwood|N|From Nafien.|
 C Deadwood of the North|QID|8461|M|64.77,8.14|Z|Felwood|N|Kill the Furbolgs needed for the quest.|
 T Deadwood of the North|QID|8461|M|64.77,8.14|Z|Felwood|N|To Nafien.|
 N Timbermaw Hold Rep|QID|3908|M|PLAYER|Z|Felwood|N|If you aren't unfriendly yet with Timbermaw I would suggest getting the few more kills you need, unless you ignored the 2 timbermaw quests in which case you probably have a lot more to do. It just makes the next part a bit easier if they don't agro on you.|REP|Timbermaw Hold;576;Unfriendly;0;true|
-A Speak with Salfa|QID|8465|M|64.77,8.14|Z|Felwood|N|From Nafien.|REP|Timbermaw Hold;576;Unfriendly-Exalted|PRE|8461|
+A Speak to Salfa|QID|8465|M|64.77,8.14|Z|Felwood|N|From Nafien.|REP|Timbermaw Hold;576;Unfriendly-Exalted|PRE|8461|
 
 R Moonglade|QID|8465|M|65.44,2.77;65.45,1.03|CC|Z|Felwood|N|Run to Moonglade and grab the flightpath.|
 R Moonglade|QID|8465|M|35.75,72.51|Z|Moonglade|N|Run to Moonglade and grab the flightpath.|
@@ -192,7 +192,7 @@ t Seed of Life|QID|7066|M|36.21,41.81|Z|Moonglade|N|To Keeper Remulos.|
 f Moonglade|QID|8465|M|48.10,67.34|Z|Moonglade|N|Get the Flightpath.|
 R Felwood|QID|8465|M|35.42,65.78;35.75,72.51|Z|Moonglade|CC|N|Now lets make our way to winterspring.|
 R Winterspring|QID|8465|M|65.83,3.56;68.50,5.98|Z|Felwood|CN|N|Now lets make our way to winterspring.|
-T Speak with Salfa|QID|8465|M|27.74,34.50|Z|Winterspring|N|To Saifa.|
+T Speak to Salfa|QID|8465|M|27.74,34.50|Z|Winterspring|N|To Saifa.|
 T It's a Secret to Everybody|QID|3908|M|31.27,45.18|Z|Winterspring|N|To Donova Snowden.|
 T The New Springs|QID|980|M|31.27,45.18|Z|Winterspring|N|To Donova Snowden.|
 
@@ -226,7 +226,7 @@ T Jonespyre's Request|QID|3788|M|32.45,43.79|Z|Feralas|N|To Quintis Jonespyre. A
 A The Mystery of Morrowgrain|QID|3791|M|32.45,43.79|Z|Feralas|N|From Quintis Jonespyre. At the top of the tower.|PRE|3788|
 T The Mystery of Morrowgrain|QID|3791|M|32.45,43.79|Z|Feralas|N|To Quintis Jonespyre. At the top of the tower.\n\nHopefully you have enough Morrowgrain, you've been remembering to use the Evergreen pouch right? If not just manually skip this quest.\n\nJust an FYI, this should be your 2nd quest for Morrowgrain, you need a total of 20 to complete this and the one in Darnassus. Don't do the the repeatable unless you plan on farming this or you have 25 or more morrowgrain. Leave 10 for Darnassus.|
 
-T Visit to Gregan|QID|4142|M|45.12,25.56|Z|Feralas|N|To Gregan Brewspewer. Skip follow-up unless you intend on going to Sunken Temple soon.|
+T A Visit to Gregan|QID|4142|M|45.12,25.56|Z|Feralas|N|To Gregan Brewspewer. Skip follow-up unless you intend on going to Sunken Temple soon.|
 l Evoroot|QID|3909|M|44.51,9.82|Z|Feralas|N|Get exactly to the waypoint, get up on the ledge at the back of (North facing) the building. Get a running start and jump toward the break in the wall where the pillar collapsed onto the tree is. If can be done without speed buffs or mount, but if you got them it makes it easy.\n\nIf you really have trouble with this, Gregan sells bait to get Miblon to move. Once inside, loot te Evoroot.|L|11242|
 C The Videre Elixir|QID|3909|M|45.12,25.56|Z|Feralas|NC|N|Go back to Gregan Brewspewer and do his 'Videre Elixir' turn-in quest.|
 
@@ -510,7 +510,7 @@ C Moontouched Wildkin|QID|978|M|PLAYER|Z|Winterspring|US|N|Pick up the Blue Wild
 
 T Are We There, Yeti?|QID|3783|M|60.89,37.62|Z|Winterspring|N|To Uml Rumplesnicker. Don't get follow-up.|
 T Chillwind Horns|QID|4809|M|61.63,38.61|Z|Winterspring|N|To Felnok Steelspring.|
-A Return to Trinkee|QID|4810|M|61.63,38.61|Z|Winterspring|N|From Felnok Steelspring.|PRE|4809| 
+A Return to Tinkee|QID|4810|M|61.63,38.61|Z|Winterspring|N|From Felnok Steelspring.|PRE|4809| 
 A Duke Nicholas Zverenhoff|QID|6030|M|61.35,38.97|Z|Winterspring|N|From Gregor Grestone.|
 A Sister Pamela|QID|5601|M|61.28,38.98|Z|Winterspring|N|From Jessica Redpath.|
 
