@@ -239,6 +239,7 @@ DefineTag("NPC","NPC","string",validate_old_list_of_ints,nil)
 DefineTag("M","map","string",nil,nil)
 DefineTag("Z","zone","string",nil,nil)
 DefineTag("TZ","targetzone","string",nil,nil)
+DefineTag("IZ","inzone","string",nil,nil)
 DefineTag("CC","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 1; end)
 DefineTag("CS","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 2; end)
 DefineTag("CN","waypcomplete","boolean",nil,function (value,i) WoWPro.waypcomplete[i] = 0; end)
@@ -517,9 +518,13 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	    WoWPro.conditional[i] = true
 	end
 	if (WoWPro.action[i] == "A" or WoWPro.action[i] == "T") then
-	    WoWPro:GrailCheckQuestName(GID,WoWPro.QID[i],WoWPro.step[i])
+		WoWPro.step[i] = WoWPro:GrailLocalizeQuestName(GID,WoWPro.QID[i],WoWPro.step[i])
+	    WoWPro:GrailCheckQuestName(GID,WoWPro.QID[i],WoWPro.step[i], WoWPro.action[i])
 	    WoWPro:GrailIsQuestObsolete(GID,WoWPro.QID[i],WoWPro.step[i])
 	end
+    if WoWPro.action[i] == "h" then
+        WoWPro.step[i] = L[WoWPro.step[i]]
+    end
 	if WoWPro.map[i] then
 		if (WoWPro.map[i] == "PLAYER") then
 			local x, y, z = WoWPro:GetPlayerZonePosition()
@@ -623,7 +628,12 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
         WoWPro.Guides[GID].acnt_level = WoWPro.Guides[GID].acnt_level + 1
 	end
 
-	WoWPro.why[i] = "I dunno."
+    if WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].completion and WoWProCharDB.Guide[GID].completion[i] then
+        WoWPro.why[i] = WoWProCharDB.Guide[GID].completion[i]
+    else
+        WoWPro.why[i] = "I dunno."
+    end
+
 
     -- If there is a note, expand any markup.
     if WoWPro.note[i] then

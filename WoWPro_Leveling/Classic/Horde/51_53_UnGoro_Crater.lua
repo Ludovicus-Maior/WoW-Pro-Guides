@@ -99,10 +99,10 @@ R Cenarion Hold|M|51,39|Z|Silithus|N|Follow the road southwest.|
 f Cenarion Hold|M|50.6,34.4|Z|Silithus|N|Get the flight path up the big hill, from Runk Windtamer.|
 F Gadgetzan|M|48.8,36.6|Z|Silithus|N|At Runk Windtamer.|
 T Bungle in the Jungle|QID|4496|M|50.8,27|Z|Tanaris|N|To Alchemist Pestlezugg. (Skip follow-up)|
-T Super Sticky|QID|4505|M|51.6,26.8|Z|Tanaris|N|To Tran'rek.|
+T Super Sticky|QID|4504|M|51.6,26.8|Z|Tanaris|N|To Tran'rek.|
 
 H Thunder Bluff|AVAILABLE|3761|M|51.6,25.4|Z|Tanaris|N|Hearth or Fly to Thunder Bluff.|
-A Assisting Archdruid Runetotem|QID|3762|M|45.6,64.2|Z|Thunder Bluff|N|From Innkeeper Pala.|
+A Assisting Arch Druid Runetotem|QID|3762|M|45.6,64.2|Z|Thunder Bluff|N|From Innkeeper Pala.|
 A Un'Goro Soil|QID|3761|M|78.4,28.4|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem On Elder Rise|
 T Un'Goro Soil|QID|3761|M|77.4,22.4|Z|Thunder Bluff|N|To Ghede.|
 A Morrowgrain Research|QID|3782|PRE|3761|M|78.4,28.4|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem.|

@@ -10,7 +10,7 @@ WoWPro:GuideSteps(guide, function() return [[
 t The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|142|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|141|
 l Flask of Oil|QID|103|M|38,51|S|N|Kill Harvest Watchers to collect Flask of Oil|L|814 5|
-l Hops|QID|117|M|38,51|N|Kill Harvest Watchers to collect Hops.|L|1274 5|
+l Hops|AVAILABLE|117|M|38,51|N|Kill Harvest Watchers to collect Hops.|L|1274 5|
 l Flask of Oil|QID|103|M|38,51|US|N|Kill Harvest Watchers to collect Flask of Oil|L|814 5|
 C Humble Beginnings|QID|399|M|36.25,54.50|Z|Westfall|NC|N|Loot the Compass from the chest at this location.|
 C The People's Militia|QID|13|Z|Westfall|M|38.20,57.00;34.61,43.38|CN|N|Kill Defias Looters and Pillagers until you finish this quest. Move to the Quarry if this area is overcamped.|
@@ -18,9 +18,9 @@ T The People's Militia|QID|13|M|56.3,47.5|N|To Gryan Stoutmantle.|
 A The People's Militia|QID|14|M|56.3,47.5|N|From Gryan Stoutmantle.|PRE|13|
 R Moonbrook|ACTIVE|14|M|43,69|N|Run to Moonbrook to find the next set of Defias mobs.|
 C The People's Militia|QID|14|M|37,81.87|S|N|Kill Defias mobs until you finish this quest|
-A Thunderbrew Lager|QID|117|M|44.61,74.46;44.63,80.26|CS|N|From Grimbooze Thunderbrew, path up into The Dagger Hills starts behind Moonbrook.|ACTIVE|116|
-C Thunderbrew Lager|QID|117|M|38,51|N|If you skipped it earlier, Kill Harvest Watchers to collect Hops.|
-T Thunderbrew Lager|QID|117|M|44.63,80.26|N|To Grimbooze Thunderbrew. Save this for the Barkeep in Westfall.|
+A Thunderbrew|QID|117|M|44.61,74.46;44.63,80.26|CS|N|From Grimbooze Thunderbrew, path up into The Dagger Hills starts behind Moonbrook.|ACTIVE|116|
+C Thunderbrew|QID|117|M|38,51|N|If you skipped it earlier, Kill Harvest Watchers to collect Hops.|
+T Thunderbrew|QID|117|M|44.63,80.26|N|To Grimbooze Thunderbrew. Save this for the Barkeep in Westfall.|
 C The People's Militia|QID|14|M|37,81.87|US|N|Kill Defias mobs until you finish this quest|
 C Red Leather Bandanas|QID|153|M|37,81.87|N|Continue killing defias mobs until you finish your bandana collection.|
 A Keeper of the Flame|QID|103|M|30.01,86.02|N|From Captain Grayson.|
@@ -29,8 +29,11 @@ A The Coastal Menace|QID|104|M|30.01,86.02|N|From Captain Grayson.|
 T Keeper of the Flame|QID|103|M|30.01,86.02|N|To Captain Grayson.|
 C The Coastal Menace|QID|104|M|35.00,86.00|Z|Westfall|N|Kill murlocs here until you find Old Murk-Eye. Kill him and loot the scale.|
 N Treasure Map|L|1357|S!US|ACTIVE|152|N|Kill murlocs as you head north up the coast. If you find a treasure map, take the quest right away, remember to destroy the treasure maps after you're done to save precious bag space. Check off manually if you don't find it and want to move on.|
-C The Coast Isn't Clear|QID|152|QO|1;2|M|34.00,21.00|Z|Westfall|S!US|N|Go further north and kill the rest of the murlocs for this quest.|
-C The Coast Isn't Clear|QID|152|QO|3;4|M|35.00,86.00|Z|Westfall|S!US|N|Go further south and kill the rest of the murlocs for this quest.|
+C The Coast Isn't Clear|QID|152|QO|3|M|35.8,85.8|Z|Westfall|N|Tidehunters are near Murk-Eye, watch out for his re-spawn.|
+C The Coast Isn't Clear|QID|152|QO|4|M|27.6,74.4|Z|Westfall|N|Oracles are north of Murk-Eye, watch out for his re-spawn.|
+C The Coast Isn't Clear|QID|152|QO|2|M|29.8,31.8|Z|Westfall|N|Warriors are on the west coast of Westfall.|
+C The Coast Isn't Clear|QID|152|QO|1|M|48.0,10.0|Z|Westfall|N|Coastrunners are north of Jangolode mine.|
+
 A Captain Sander's Hidden Treasure|QID|136|U|1357|N|Start the quest from the map you looted.|
 T Captain Sander's Hidden Treasure|M|25.91,47.77|QID|136|N|To Captain Sander's Foot Locker, on the beach guarded by murlocs.|
 A Captain Sander's Hidden Treasure|M|25.91,47.77|QID|138|N|From Captain Sander's Foot Locker.|PRE|136|
@@ -54,8 +57,7 @@ T The Defias Brotherhood|QID|155|M|56.3,47.5|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|166|M|56.3,47.5|N|From Gryan Stoutmantle.|PRE|155|;kill vancleef
 A Red Silk Bandanas|QID|214|M|56.67,47.34|N|From Scout Riell on top of the tower.|PRE|155|;can be done just outside or in instane
 
-F Stormwind|QID|121|M|56.55,52.65|N|Fly to Stormwind.|
-r Sell, Train, repair, restock|QID|121|N|Sell junk, repair, restock, train skills.|
+F Stormwind|QID|399|M|56.55,52.65|N|Fly to Stormwind.|
 T Humble Beginnings|QID|399|M|49.19,30.27|Z|Stormwind City|N|To Baros Alexston.|
 A Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle, who can be found inside a tavern in the Dwarven District. Dungeon quest for Deadmines, skip if you're not interested.|
 A Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
@@ -63,7 +65,7 @@ A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the S
 N The Deadmines|ACTIVE|167|N|You may do the Deadmines at this point. Otherwise grind until you're level 20.|
 
 F Lakeshire|ACTIVE|116|M|66.28,62.16|Z|Stormwind City|N|Fly to Redridge.|TZ|Redridge Mountains|
-t Return to Verner|QID|119|M|30.97,47.27|N|To Verner Osgood.|;if not done elwynn guide --
+t Return to Verner|QID|119|M|30.97,47.27|Z|Redridge Mountains|N|To Verner Osgood.|;if not done elwynn guide --
 t Messenger to Stormwind|QID|121|M|29.99,44.44|Z|Redridge Mountains|N|To Magistrate Solomon.|
 A Messenger to Westfall|QID|143|M|29.99,44.44|Z|Redridge Mountains|N|From Magistrate Solomon.|PRE|121|
 T Dry Times|QID|116|M|26.49,43.95|Z|Redridge Mountains|N|To Barkeep Daniels.|

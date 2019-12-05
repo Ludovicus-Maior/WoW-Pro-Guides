@@ -80,7 +80,7 @@ function WoWPro.TakeTaxiRetail(destination)
     for i, taxiNodeData in ipairs(taxiNodes) do
         -- nodeID=1613, slotIndex=1, type=3, x=0.34, y=0.53, name="Azurewing Repose, Azuna"
         local location,zone = string.split(",", taxiNodeData.name)
-        WoWPro:dbp("TakeTaxiRetail(%d): Location=%s, zone=%s", taxiNodeData.slotIndex, location, zone)
+        WoWPro:dbp("TakeTaxiRetail(%d): Location=%s, zone=%s", taxiNodeData.slotIndex, tostring(location), tostring(zone))
         if strfind(location, destination,1,true) or (taxiNodeData.name == destination) then
             if taxiNodeData.state ~= Enum.FlightPathState.Reachable then
                 WoWPro:Warning("Flight point [%s] is not reachable (%d)", location, taxiNodeData.state)
@@ -657,12 +657,13 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
 
     local npcCount = GetNumGossipActiveQuests();
     local npcQuests =  {GetGossipActiveQuests()};
+    local step = #npcQuests / npcCount
     WoWPro:print("%s: ActiveQuests npcCount=%d", event, npcCount)
     if WoWProCharDB.AutoTurnin then
         WoWPro.QuestCount = npcCount
         for index=1,npcCount do
-            -- name, level, isTrivial, isComplete, isLegendary, isIgnored
-            local name = npcQuests[((index-1)*6)+1]
+            -- name, level, isTrivial, isComplete, isLegendary, isIgnored, qid*
+            local name = npcQuests[((index-1)*step)+1]
             WoWPro:print("%s: considering turnin %d for [%s] .vs. [%s]", event, index, name, tostring(WoWPro.step[qidx]))
 	        if WoWPro.action[qidx] == "T" and name == WoWPro.step[qidx] then
 	            WoWPro.QuestStep = qidx
@@ -676,13 +677,14 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
 
     local npcQuests = {GetGossipAvailableQuests()};
     local npcCount = GetNumGossipAvailableQuests();
+    local step = #npcQuests / npcCount
     index = 0
     WoWPro:print("%s: AvailableQuests npcCount=%d", event, npcCount)
     if WoWProCharDB.AutoSelect then
         WoWPro.QuestCount = npcCount
         for index=1,npcCount do
             -- titleText, level, isTrivial, frequency, isRepeatable, isLegendary, isIgnored
-            local name = npcQuests[((index-1)*7)+1]
+            local name = npcQuests[((index-1)*step)+1]
             WoWPro:dbp("ZT: %s index %d/%d, considering [%s]",event,index,npcCount,name)
             if WoWPro.action[qidx] == "A" then
 		        if WoWPro.QID[qidx] == "*" and WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then

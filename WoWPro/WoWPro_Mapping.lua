@@ -70,6 +70,7 @@ local function WoWProMapping_tooltip(event, tooltip, uid, dist)
 	local desc = cache[iactual].desc
 	local jcoord = cache[iactual].j
 	
+
 	tooltip:SetText(desc or L["WoWPro waypoint"])
 	if dist and tonumber(dist) then
 		tooltip:AddLine(string.format(L["%s yards away"], math.floor(dist)), 1, 1, 1)
@@ -79,6 +80,9 @@ local function WoWProMapping_tooltip(event, tooltip, uid, dist)
 	tooltip:AddLine(string.format(L["%s (%.2f, %.2f)"], zone, x, y), 0.7, 0.7, 0.7)
 	if #cache > 1 then
 		tooltip:AddLine(string.format(L["Waypoint %d of %d"], jcoord, #cache), 1, 1, 1)
+	end
+	if desc then
+		tooltip:AddLine(L["WoWPro waypoint"])
 	end
 	tooltip:Show()
 end
@@ -553,7 +557,8 @@ function WoWPro:MapPoint(row)
 				    minimap_icon_size = 20,
 				    worldmap_icon = "Interface\\AddOns\\WoWPro\\Textures\\TriRing",
 				    worldmap_icon_size = 16,
-				    persistent=false
+					persistent=false,
+					from="WoWPro"
 				}
 				WoWPro:print("WoWPro:MapPoint:TomTom(%s@%s/%s)",jcoord,tostring(zone),tostring(zm))
 				uid = TomTom:AddWaypoint(zm, x/100, y/100, options)

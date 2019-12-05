@@ -65,7 +65,7 @@ A Scalding Mornbrew Delivery|QID|3364|PRE|179|M|24.98,75.94|N|From Nori Pridedri
 T Scalding Mornbrew Delivery|QID|3364|M|28.78,66.66|N|To Durnan Furcutter, at the back of Anvilmar|
 A Bring Back the Mug|QID|3365|PRE|3364|M|28.78,66.66|N|From Durnan Furcutter|
 r Sell and Repair|ACTIVE|3361|M|28.78,66.66|N|Repair and sell your junk to Durnan furcutter.|
-T Refugee's Quandary|QID|3361|M|28.52,67.68|N|To Felix Whindlebolt|
+T A Refugee's Quandary|QID|3361|M|28.52,67.68|N|To Felix Whindlebolt|
 
 N Level 4 class training|ACTIVE|183|C|Rogue|R|Dwarf|M|28.37,67.51|N|Go see Solm Hargrin to get your level 4 spell/skill.|
 N Level 4 class training|ACTIVE|183|C|Hunter|R|Dwarf|M|29.17,67.45|N|Go see Thorgas Grimson to get your level 4 spell/skill.|

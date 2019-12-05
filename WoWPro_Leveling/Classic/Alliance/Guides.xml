@@ -5,6 +5,7 @@
 	<Script file="12_14_LochModan.lua"/>
 	<Script file="12_20_Darkshore.lua"/>
 	<Script file="13_15_Westfall.lua"/>
+	<Script file="14_24_Dungeon_Deadmines.lua"/>
 	<Script file="15_17_Redridge.lua"/>
 	<Script file="16_18_LochModan.lua"/>
 	<Script file="18_20_Westfall.lua"/>
@@ -24,13 +25,7 @@
 	<Script file="41_50_Jame_Chapter_II.lua"/>
 	<Script file="49_50_Dungeon_Zul_Farrak.lua"/>
 	<Script file="50_51_Dungeon_Maraudon.lua"/>
-	<Script file="50_51_Searing_Gorge.lua"/>
-	<Script file="51_52_Azshara.lua"/>
-	<Script file="52_53_Felwood.lua"/>
-	<Script file="53_53_Feralas.lua"/>
-	<Script file="53_54_Felwood.lua"/>
-	<Script file="54_56_Ungoro_Crater.lua"/>
-	<Script file="56_56_Winterspring.lua"/>
-	<Script file="58_59_Western_Plaguelands.lua"/>
-	<Script file="59_60_Eastern_Plaguelands.lua"/>
+	<Script file="50_55_Elidion_Chapter_III.lua"/>
+	<Script file="53_60_Dungeon_Blackrock_Depths.lua"/>
+	<Script file="55_60_Elidion_Chapter_IV.lua"/>
 </Ui>

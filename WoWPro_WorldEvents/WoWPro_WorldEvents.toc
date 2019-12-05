@@ -4,7 +4,7 @@
 ## Notes: World Event guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 8.2.5-A1
+## Version: 8.2.5-A6
 #classic ## Version: 1.13.2-L1
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.

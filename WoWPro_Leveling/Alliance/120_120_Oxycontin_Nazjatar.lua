@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_alliance
+-- Date: 2019-11-26 20:32
+-- Who: Ludovicus_Maior
+-- Log: Finished [Changing Tides]
+
+-- URL: http://wow-pro.com/node/3790/revisions/30447/view
+-- Date: 2019-11-18 20:58
+-- Who: Ludovicus_Maior
+-- Log: Playthough up to [Sea Slug Liquidation]
+
+-- URL: http://wow-pro.com/node/3790/revisions/30402/view
 -- Date: 2019-09-03 17:44
 -- Who: Ludovicus_Maior
 -- Log: Cleaned up the 5678456779 QID!
@@ -135,9 +145,9 @@ T Insight into Our Enemies|QID|55593|M|38.98,54.62|N|To Blademaster Okani.|
 A Deteriorating Knowledge|QID|55595|M|38.98,54.62|N|From Blademaster Okani.|PRE|55593|
 A Bound by Honor|QID|55597|M|38.98,54.62|N|From Blademaster Okani.|PRE|55593|
 C Bound by Honor|QID|55597|M|47.66,44.54|S|N|Kill naga as you look for the Ankoan to rescue.|
-C Deteriorating Knowledge|QID|55595|M|60.68,47.26|QO|1|N|Attack the mind-shackled ankoen to rescue Imara.|
-C Deteriorating Knowledge|QID|55595|M|47.66,44.54|QO|2|N|Attack the mind-shackled ankoen to rescue Adaru.|
-C Deteriorating Knowledge|QID|55595|M|45.10,25.38|QO|3|N|Attack the mind-shackled ankoen to rescue Umai.|
+C Deteriorating Knowledge|QID|55595|M|61.66,53.40|QO|1|N|Attack the mind-shackled ankoen to rescue Imara.|
+C Deteriorating Knowledge|QID|55595|M|47.05,41.91|QO|2|N|Attack the mind-shackled ankoen to rescue Adaru.|
+C Deteriorating Knowledge|QID|55595|M|50.15,14.73|QO|3|N|Attack the mind-shackled ankoen to rescue Umai.|
 C Bound by Honor|QID|55597|M|47.66,44.54|US|N|Finish off the quota of Naga forces.|
 T Bound by Honor|QID|55597|M|38.97,30.38|N|To Ezra.|
 T Deteriorating Knowledge|QID|55595|M|38.96,30.37|N|To Adaru.|
@@ -162,8 +172,8 @@ A Stealing the Naga's Secrets|QID|56037|M|34.68,21.13|N|From Weapons Chest.|PRE|
 C Stealing the Naga's Secrets|QID|56037|M|34.68,21.13|QO|1|NC|N|Pick up the Azerite Trident.|
 C Stealing the Naga's Secrets|QID|56037|M|38.64,24.08|QO|2|N|Advance forward and kill Zanj'ir.|
 T Stealing the Naga's Secrets|QID|56037|M|38.92,30.52|N|To Lady Jaina Proudmoore.|
-A Sea Slug Liquidation|QID|55860|M|38.86,30.41|N|From Blademaster Okani.|PRE|55860|
-A Coveted Crystals|QID|55601|M|38.86,30.41|N|From Blademaster Okani.|PRE|55860|
+A Sea Slug Liquidation|QID|55860|M|38.86,30.41|N|From Blademaster Okani.|PRE|56037|
+A Coveted Crystals|QID|55601|M|38.86,30.41|N|From Blademaster Okani.|PRE|56037|
 C Sea Slug Liquidation|QID|55860|M|25.95,30.31|S|NC|N|Collect slugs for their bioluminescent ooze.|
 K Hoarder Moarrgl|ACTIVE|55601|M|27.09,27.13|QO|1|T|Hoarder Moarrgl|N|Kill Hoarder Moarrgl and loot the Deepsea Crystal.|
 C Sea Slug Liquidation|QID|55860|M|25.95,30.31|US|NC|N|Finish collecting the bioluminescent ooze.|
@@ -189,28 +199,29 @@ K Kil'karrok|ACTIVE|55560|M|63.77,34.65|QO|1|T|Kil'karrok|N|Kill Kil'karrok.|
 T Utama's Vengeance|QID|55560|M|62.58,36.12|N|To Blademaster Okani.|
 K Eye of the Corruptor|ACTIVE|55694|M|70.04,28.63|QO|1|T|Eye of the Corruptor|N|Kill Eye of the Corruptor.|
 T There's Something in the Water|QID|55694|M|74.66,25.76|N|To Blademaster Okani.|
-T What Remains of Zin-Azshari|QID|55561|M|74.70,25.86|N|To Shandris Feathermoon.|
-A Secrets in the Ruins|QID|55570|M|74.70,25.86|N|From Shandris Feathermoon.|PRE|55561|
-A Shoring Up Mana Reserves|QID|55565|M|74.70,25.86|N|From Shandris Feathermoon.|PRE|55561|
-A Echoes of Pain|QID|55569|M|74.70,25.86|N|From Shandris Feathermoon.|PRE|55561|
+T What Remains of Zin-Azshari|QID|55561|M|66.10,43.79|N|To Shandris Feathermoon.|
+A Shoring Up Mana Reserves|QID|55565|M|66.10,43.79|N|From Shandris Feathermoon.|PRE|55561|
+A Secrets in the Ruins|QID|55570|M|74.68,25.87|N|From Shandris Feathermoon, near Kelya's Grave FP.|PRE|55561|
+A Echoes of Pain|QID|55569|M|74.68,25.87|N|From Shandris Feathermoon.|PRE|55561|
 C Secrets in the Ruins|QID|55570|M|75.42,25.04|QO|1|S|N|Find Texts scattered about.|
 C Echoes of Pain|QID|55569|M|76.45,26.45|QO|1|S|N|Release Highborne Echos.|
 C Secrets in the Ruins|QID|55570|M|79.58,31.55|QO|2|CHAT|N|Question the Highborn nobles' spirits.|
 C Echoes of Pain|QID|55569|M|76.45,26.45|QO|1|US|N|Release Highborne Echos.|
 C Secrets in the Ruins|QID|55570|M|75.42,25.04|QO|1|US|N|Find Texts scattered about.|
 C Shoring Up Mana Reserves|QID|55565|M|71.08,33.25|QO|1|N|Kill and loot the water elementals.|
-T Secrets in the Ruins|QID|55570|M|74.67,25.82|N|To Shandris Feathermoon.|
-T Shoring Up Mana Reserves|QID|55565|M|74.67,25.82|N|To Shandris Feathermoon.|
-T Echoes of Pain|QID|55569|M|74.67,25.82|N|To Shandris Feathermoon.|
-A Help Them See the Truth|QID|55571|M|74.67,25.82|N|From Shandris Feathermoon.|PRE|55565&55569&55570|
-A Purging the Defilers|QID|55573|M|74.67,25.82|N|From Shandris Feathermoon.|PRE|55565&55569&55570|
-C Purging the Defilers|QID|55573|M|73.27,35.72|QO|1|S|N|Purge the Defilement of Elun'alor by killing everything in the area.|
-C Help Them See the Truth|QID|55571|M|56.34,22.74|Z||QO|1|N|Confront the ghosts of Elun'alor.
-T Help Them See the Truth|QID|55571|M|53.78,20.56|Z||N|To Riathia Silverstar.|
-A The Power of Worship|QID|56739|M|53.78,20.56|Z||N|From Riathia Silverstar.|PRE|55571|
-C The Power of Worship|QID|56739|M|59.29,84.91|Z||QO|1|N|Destroy the Arcane Energy Transmuters.|
-T The Power of Worship|QID|56739|M|53.84,20.45|Z||N|To Riathia Silverstar.|
-C Purging the Defilers|QID|55573|M|73.27,35.72|QO|1|US|N|Purge the Defilement of Elun'alor by killing everything in the area.|
+T Shoring Up Mana Reserves|QID|55565|M|74.68,25.87|N|To Shandris Feathermoon.|
+T Secrets in the Ruins|QID|55570|M|74.68,25.87|N|To Shandris Feathermoon.|
+T Echoes of Pain|QID|55569|M|74.68,25.87|N|To Shandris Feathermoon.|
+A Help Them See the Truth|QID|55571|M|74.68,25.87|N|From Shandris Feathermoon.|PRE|55565&55569&55570|
+A Purging the Defilers|QID|55573|M|74.68,25.87|N|From Shandris Feathermoon.|PRE|55565&55569&55570|
+C Purging the Defilers|QID|55573|M|77.27,37.72|QO|1|S|N|Purge the Defilement of Elun'alor by killing everything in the area.|
+R Highborne Arcanist|ACTIVE|55571|M|82.26,35.88|N|The Highborne Arcanist's building.|
+C Help Them See the Truth|QID|55571|M|56.25,22.80|Z|1499|QO|1|N|Confront the ghosts of Elun'alor.
+T Help Them See the Truth|QID|55571|M|53.79,20.51|Z|1499|N|To Riathia Silverstar.|
+A The Power of Worship|QID|56739|M|53.79,20.51|Z|1499|N|From Riathia Silverstar.|PRE|55571|
+C The Power of Worship|QID|56739|M|59.29,84.91|Z|1499|QO|1|N|Destroy the Arcane Energy Transmuters. The furthest one is marked.|
+T The Power of Worship|QID|56739|M|53.84,20.45|Z|1499|N|To Riathia Silverstar.|
+C Purging the Defilers|QID|55573|M|77.27,37.72|QO|1|US|N|Purge the Defilement of Elun'alor by killing everything in the area.|
 T Purging the Defilers|QID|55573|M|74.30,40.10|N|To Shandris Feathermoon.|
 A The Javelins of Azshara|QID|55574|M|74.30,40.10|N|From Shandris Feathermoon.|PRE|55573|
 K Lady Silazsi|ACTIVE|55574|M|77.63,36.26|QO|1|T|Lady Silazsi|N|Kill Lady Silazsi.|
@@ -226,8 +237,8 @@ C Changing Tides|QID|56325|M|51.82,34.09|QO|2|US|N|Assault the Gorgonian Overloo
 C Changing Tides|QID|56325|M|51.14,31.91|QO|4|NC|N|Throw the Javelin of Suramar|
 K Lady Zharessa|ACTIVE|56325|M|50.47,23.69|QO|5|T|Lady Zharessa|N|Kill Lady Zharessa.|
 T Changing Tides|QID|56325|M|50.10,24.48|N|To Lady Jaina Proudmoore.|
+f The Tidal Conflux|AVAILIBLE|56358|M|49.80,23.61|N|At Nobu.|
 A The Eternal Palace: Queen's Gambit|QID|56358|M|50.38,24.09|NA|N|From Lady Jaina Proudmoore.|PRE|56325|
-f The Tidal Conflux|ACTIVE|56358|M|49.80,23.61|N|At Nobu.|
 
 ;zone intro
 A The Wolf's Offensive|QID|56031|N|Auto accept on login after 8.2|
@@ -329,7 +340,7 @@ C Elemental Fury|QID|39335|M|48.51,52.85|US|N|Finish pacifying the Tide Surgers.
 T Elemental Fury|QID|55362|M|43.54,49.72|N|To Farseer Ori.|
 T Rescue The Farseer|QID|55363|M|39.67,46.55;39.37,53.46|CC|N|To Bladesman Inowari.|;WQs Unlocked
 A A Tempered Blade|QID|56156|M|39.37,53.46|N|From Bladesman Inowari.|PRE|55363
-C A Tempered Blade|QID|56156|M|39.37,53.46|QO|1|N|Kill Naga forces.|
+C A Tempered Blade|QID|56156|M|39.92,37.19|QO|1|N|Kill Naga forces.|
 C A Tempered Blade|QID|56156|M|39.51,53.38|QO|2|N|Return to Mezzamere|
 T A Tempered Blade|QID|56156|M|39.51,53.38|N|To Bladesman Inowari.|
 
@@ -453,9 +464,9 @@ C Snap Back|QID|56118|M|69.57,49.73|US|U|168947|N|Finish killing snapdragons.|
 T Snap Back|QID|56118|M|66.50,47.46|N|To Collector Kojo.|
 T Legacy of Nar'anan|QID|56095|M|66.50,47.46|N|To Collector Kojo.|
 A The Fate of Professor Elryna|QID|56143|M|66.50,47.46|N|From Collector Kojo.|PRE|56118&56095|
-C The Fate of Professor Elryna|QID|56143|M|68.72,50.26|QO|1|N|Kill the Snapdragon Matriarch.|
-C The Fate of Professor Elryna|QID|56143|M|68.32,50.65|QO|2|NC|N|Pick up the Memory Core.|
-C The Fate of Professor Elryna|QID|56143|M|66.46,47.40|QO|3|NC|N|Witness the fate of Professor Elryna.|
+C The Fate of Professor Elryna|QID|56143|M|68.24,50.65|QO|1|N|Kill the Snapdragon Matriarch. Use the scroll first.|U|169209|
+C The Fate of Professor Elryna|QID|56143|M|68.24,50.65|QO|2|NC|N|Pick up the Memory Core from the chest.|
+C The Fate of Professor Elryna|QID|56143|M|66.48,47.27|QO|3|NC|N|Witness the fate of Professor Elryna.  Use the memory pylon next to Kojo.|
 T The Fate of Professor Elryna|QID|56143|M|66.46,47.40|N|To Collector Kojo.|
 f Elun'alor Temple|ACTIVE|56241|M|74.08,40.03|N|From Orise. The area is actually named Orise's Vigil.|
 
@@ -463,11 +474,11 @@ A Relics of the Sundering|QID|55659|M|78.84,42.44|N|From Shirelle McFadden.|O|PR
 C Relics of the Sundering|QID|55659|M|78.84,42.44|NC|N|Pick up the relics in the area.|
 T Relics of the Sundering|QID|55659|M|78.82,42.43|N|To Shirelle McFadden.|
 
-A City of the Drowned Friends|QID|56309|M|76.26,45.56|N|From Shandris Feathermoon.|PRE|56156|
-C City of the Drowned Friends|QID|56309|M|75.93,48.33|QO|1|T|Weeping Sanya|N|Weeping Sanya inside op the stairs.|
-C City of the Drowned Friends|QID|56309|M|73.67,43.77|QO|2|NC|N|Swiftfinger Tynala.|
-C City of the Drowned Friends|QID|56309|M|71.57,41.91|QO|3|T|Merchant Renrotta|N|Find and Kill Merchant Renrotta.|
-T City of the Drowned Friends|QID|56309|M|73.98,41.76|N|To Shandris Feathermoon.|
+A City of Drowned Friends|QID|56309|M|76.26,45.56|N|From Shandris Feathermoon.|PRE|56156|
+C City of Drowned Friends|QID|56309|M|75.93,48.33|QO|1|T|Weeping Sanya|N|Weeping Sanya inside op the stairs.|
+C City of Drowned Friends|QID|56309|M|73.67,43.77|QO|2|NC|N|Swiftfinger Tynala.|
+C City of Drowned Friends|QID|56309|M|71.57,41.91|QO|3|T|Merchant Renrotta|N|Find and Kill Merchant Renrotta.|
+T City of Drowned Friends|QID|56309|M|73.98,41.76|N|To Shandris Feathermoon.|
 A The Ever Drowning|QID|56311|M|73.98,41.76|N|From Shandris Feathermoon.|PRE|56309|
 C The Ever Drowning|QID|56311|M|73.98,41.76|QO|1|CHAT|N|Mount up and tell her you are ready. Stay with her as she runs.|
 C The Ever Drowning|QID|56311|M|79.78,44.94|QO|2|NC|N|Stay right beside her so you are in her bubble when she casts it (3 times).|
@@ -505,9 +516,10 @@ A Arcane Cache|QID|55662|M|53.2,28.3|N|From Arcane Cache.|O|
 C Arcane Cache|QID|55662|M|53.2,28.3|N|Key dropped by nearby Azsh'ari Naga.|
 T Arcane Cache|QID|55662|M|53.2,28.3|N|To Arcane Cache.|
 
-f Utama's Stand|ACTIVE|57086|M|61.67,36.50|N|At Hiramo.|
+F Utama's Stand|ACTIVE|57086|M|61.67,36.50|N|At Hiramo.|
 A Legacy of the Mad Mage|QID|57086|N|From Dropped Lesser Benthic Arcanocrystal.|O|PRE|56247|
-C Legacy of the Mad Mage|QID|57086|M|60.31,33.60|QO|2|NC|N|Place the Arcanocrystal.|
+C Legacy of the Mad Mage|QID|57086|M|60.7, 31.9|QO|1|NC|N|Find the Mage's SECRET cave.|
+C Legacy of the Mad Mage|QID|57086|M|60.29,33.63|QO|2|NC|N|Place the Arcanocrystal.|
 C Legacy of the Mad Mage|QID|57086|M|59.84,33.91|QO|3|NC|N|Activate the Amalgamator.|
 K Watery Amalgamation|ACTIVE|57086|M|59.73,34.52|QO|4|T|Watery Amalgamation.|N|Kill Watery Amalgamation.|
 T Legacy of the Mad Mage|QID|57086|M|60.49,33.56|N|To Arcane Cache.|
@@ -519,7 +531,7 @@ K Champion Qalina, Spear of Ice|ACTIVE|55888|M|60.25,28.69|T|Champion Qalina|N|K
 C Time to Krill|QID|56078|M|63.70,50.41;72.39,48.67;63.58,50.48|CN|N|Click on Murky's Egg. Note.|
 C Time to Krill|QID|56078|M|63.57,50.47|N|Use Murky's abilities to kill Snapdragons.|
 
-C Bounty: Fathom Rays|QID|55825^55834|M|38.11,15.57|N|Kill Fathom Rays.|
+C Bounty: Fathom Rays|QID|55825^55834|M|38.11,15.57|N|Kill Fathom Rays.|T|Fathom Rays|
 A Feed Them All|QID|56149|M|55.6,47|N|From Harvester Akaro.|O|
 C Feed Them All|QID|56149|M|58.61,52.17|N|Kill and loot Fathom Rays.|
 T Feed Them All|QID|56149|M|55.6,47|N|To Harvester Akaro.|
@@ -639,6 +651,7 @@ C Runelocked Chest|QID|56021|M|37.31,15.92|NC|N|Click on the arcane device to op
 C Runelocked Chest|QID|56022|M|37.27,16.00|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 31 yellow runes, by matching 3 or more in a row.|
 K Lady Naz'jess|ACTIVE|55750|M|36.50,17.75|QO|1|T|Lady Naz'jess|N|Kill Lady Naz'jess and claim her Head as proof.|
 
+R Platform on the left|ACTIVE|55770|M|44.02, 27.44;44.17,20.26|CS|N|Go up the path, it will curve around to your right. You can sneak around the outside of the building to the left to get to him.|
 K Commander Sarj'eth|ACTIVE|55770|M|44.17,20.26|QO|1|T|Commander Sarj'eth|N|Kill Commander Sarj'eth and take his Head.|
 A Reinforced Cache|QID|55728|M|45.11,22.20|N|From Reinforced Cache sitting on the balcony.|O|
 C Reinforced Cache|QID|55728|M|45.11,22.20|N|Kill and loot Zanj'ir Naga in the area until you get the key to drop.|
@@ -734,6 +747,7 @@ A An Abyssal Opportunity|QID|56347|M|38,53|N|From Instructor Ulooaka.|PRE|56346|
 T A Gift From The Clan|QID|56777|M|38.00,55.75|N|To Speaker Utia.|
 T The Waveblade Ankoan|QID|56119|M|38.01,55.70|N|To Speaker Utia.|
 T The Speaker's Gift|QID|56782|M|38.01,55.70|N|To Speaker Utia.|
+T Helpful Provisions|QID|56784|M|38.03,55.70|N|To Speaker Utia.|
 T Bounty: Elite Naga Forces|QID|55836|M|38.01,55.70|N|To Speaker Utia.|
 T Bounty: Dangerous Creatures|QID|55837|M|38.00,55.75|N|To Speaker Utia.|
 T Bounty: A Few Crabs|QID|55823|M|38.01,55.68|N|To Speaker Utia.|
@@ -764,7 +778,6 @@ T Requisition: More Carp|QID|55789|M|38.03,55.70|N|To Speaker Utia.|
 T Requisition: A Few Cone Shells|QID|55726|M|38.03,55.70|N|To Speaker Utia.|
 T Requisition: More Cone Shells|QID|55792|M|38.03,55.70|N|To Speaker Utia.|
 T A Gift of Supplies|QID|56789|M|38.03,55.70|N|To Speaker Utia.|
-T Helpful Provisions|QID|56784|M|38.03,55.70|N|To Speaker Utia.|
 T A Valorous Reward|QID|56779|M|38.03,55.70|N|To Speaker Utia.|
 
 T A Worthy Ally|QID|57006|M|37.89,55.84|N|To Artisan Okata.|

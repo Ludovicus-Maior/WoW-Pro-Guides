@@ -43,7 +43,7 @@ C The Balance of Nature|QID|457|S|N|Kill Mangy Nightsabers and Thistle Boars alo
 T A Good Friend|QID|4495|M|54.60,32.99|N|To Iverron.|
 A A Friend in Need|QID|3519|PRE|4495|M|54.60,32.99|N|From Iverron.|
 r Sell and Repair|QID|3519|S|M|59.31,41.09|ACTIVE|3519|N|Sell and Repair with Keina in Aldrassil.|
-T A Friend In Need|QID|3519|M|60.90,41.97|N|To Dirania Silvershine.|
+T A Friend in Need|QID|3519|M|60.90,41.97|N|To Dirania Silvershine.|
 
 A Iverron's Antidote|QID|3521|PRE|3519|M|60.90,41.96|N|From Dirania Silvershine.|
 C Iverron's Antidote|QID|3521|NC|S|L|10639 7|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees.|

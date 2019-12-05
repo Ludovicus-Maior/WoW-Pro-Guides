@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mechagon_neutral
+-- Date: 2019-11-26 20:34
+-- Who: Ludovicus_Maior
+-- Log: [More Recycling] no longer uses soulbound items for the first pass
+
+-- URL: http://wow-pro.com/node/3791/revisions/30444/view
+-- Date: 2019-11-12 18:03
+-- Who: Ludovicus_Maior
+-- Log: Play through corrections through [Collaborative Construction]
+
+-- URL: http://wow-pro.com/node/3791/revisions/30391/view
 -- Date: 2019-08-26 20:51
 -- Who: Emmaleah
 -- Log: missing quests added
@@ -222,11 +232,12 @@ t Drive It Away Today|QID|55622|M|71.49,38.77|N|To Recycler Kerchunk.|
 
 T Blueprint: Mechanocat Laser Pointer|QID|55056|M|71.30,32.38|N|To Pascal-K1N6.|
 T Blueprint: Beastbot Powerpack|QID|55066|M|71.30,32.38|N|To Pascal-K1N6.|
-A S.P.A.R.E. Crate|QID|56740|M|71.26,32.64|N|From Pascal.|PRE|55056|
-T S.P.A.R.E. Crate|QID|56740|M|71.26,32.64|N|To Pascal. You can turn in immediately if you have collected more than 250 parts.|
+A S.P.A.R.E. Crates|QID|56740|M|71.26,32.64|N|From Pascal.|PRE|55056|
+T S.P.A.R.E. Crates|QID|56740|M|71.26,32.64|N|To Pascal. You can turn in immediately if you have collected more than 250 parts.|
 
+C Microcogs|QID|55708|M|74.40,30.80;80.20,28.40;85.60,15.20;78.40,30.30;82.55,16.85;81.25,18.43;86.92,20.27;86.35,24.92;84.88,29.73;81.50,31.40;85.54,27.29;86.32,17.86|CN|N|Kill spiders for their tiny cogs.|
 T Upgraded|QID|55708|M|69.81,32.44|N|To Christy Punchcog.|
-A First One's Free|QID|55707|M|69.81,32.44|N|From Christy Punchcog.|PRE|55707|
+A First One's Free|QID|55707|M|69.81,32.44|N|From Christy Punchcog.|PRE|55708|
 
 A The Quickcharge Contract|QID|56319|M|70.73,38.42|N|From Pristy Quickcharge.|REP|Rustbolt Resistance;2391;honored-exalted|
 C The Quickcharge Contract|QID|56319|M|70.73,38.42|CHAT|N|Talk to Pristy Quickcharge. Agaist my better judgement...I agreed. for science and ...|
@@ -240,7 +251,7 @@ A Redistribution of Power|QID|55880|M|70.73,38.41|N|From Pristy Quickcharge.|O|
 C Redistribution of Power|QID|55880|M|70.72,38.57|QO|1|NC|N|Click on the NRG-100, beside Pristy.|
 
 A Real Ultimate Power|QID|56621|M|70.81,39.18|N|From Flip Quickcharge.|O|
-A Batteries Not Included|QID|55210|M|70.95,38.96|N|From Flip Quickcharge.|REP|Rustbolt Resistance;2391;friendly-exalted|
+A Batteries Not Included|QID|55210|M|70.95,38.96|N|From Flip Quickcharge.|REP|Rustbolt Resistance;2391;friendly-exalted|PRE|55707|
 C Batteries Not Included|QID|55210|M|73.30,34.21|NC|N|Pick up the Damaged Energy Cells lying around Rustbolt.|
 T Batteries Not Included|QID|55210|M|70.93,38.84|N|To Flip Quickcharge.|
 A Your First Charge is Free!|QID|56320|M|70.93,38.84|N|From Flip Quickcharge.|PRE|55210|
@@ -253,7 +264,7 @@ C Prototypes for Inspiration|QID|57327|M|74.00,36.97|S!US|N|Note, quest requires
 C Prototypes for Profit|QID|57326|M|74.12,36.75|S!US|N|Note, quest requires Warmode ON, Abandon or check step off manually if you so choose.|
 A Cogfrenzy's Construction Frenzy|QID|56405|M|73.51,33.38|N|From Walton Cogfrenzy.|O|
 C Cogfrenzy's Construction Frenzy|QID|56405|M|58.59,25.67|QO|1|S!US|NC|N|Fly around looking for cogs on your minimap, then contribute to construction projects.|O|
-A Collaborative Construction|QID|55153|M|73.10,33.56|N|From Waren Gearhart.|REP|Rustbolt Resistance;2391;friendly-exalted|
+A Collaborative Construction|QID|55153|M|73.10,33.56|N|From Waren Gearhart.|REP|Rustbolt Resistance;2391;friendly-exalted|PRE|55707|
 C Collaborative Construction|QID|55153|M|73.10,33.56|S!US|N|Ask Waren what projects are currently available, and then head out to one. These are scattered around the zone, you may need to look around. When you find one, contribute. If you contributed to both of the available projects today, but before you had the quest, you will need to do it after the next quest reset.|
 A Clues Abound|QID|55658|M|70.47,31.01|N|From Elise Starseeker.|O|
 A One Gnome's Trash|QID|55575|M|73.72,34.32|N|From Moxie Lockspinner.|O|
@@ -443,14 +454,16 @@ C Goldenbot XD|ACTIVE|56395|M|60.74,56.53|N|Defeat Goldenbot XD in a pet battle.
 A Flashing Siren|QID|56438|M|60.74,56.53|N|From item dropped the first time you defeat Goldenbot XD in a pet battle.|PRE|56395|
 C CK-9 Micro-Oppression Unit|QID|56397|M|65.39,57.68|QO|1|N|Defeat CK-9 Micro-Oppression Unit in a pet battle.|
 A Can of Critter Spray|QID|56440|M|65.39,57.68|N|From item dropped first time you defeat CK-9 Micro-Oppression Unit in a pet battle.|PRE|56397|
-A Recyclable Parts|QID|56117|M|56.45,58.88|N|From Drix Blackwrench.|
-l Tempered Plating|QID|56168|M|55.77,59.81|L|168216 10|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
-l Machined Gear Assembly|QID|56168|M|55.77,59.81|L|168215 5|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
-l Hardened Springs|QID|56168|M|55.77,59.81|L|168217 30|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
-C Factory Refurbished|QID|56168|M|56.45,58.88|QO|1|U|168952|N|Click to combine the collected scraps to create Bundle of Recycled Parts. Note these are the soulbound - unique(X) versions, not the ones you can buy in the AH. If you put some in the bank, better go get them.|
+l Tempered Plating|AVAILABLE|56117|M|55.77,59.81|L|168216 10|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
+l Machined Gear Assembly|AVAILABLE|56117|M|55.77,59.81|L|168215 5|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
+l Hardened Springs|AVAILABLE|56117|M|55.77,59.81|L|168217 30|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
+C Factory Refurbished|AVAILABLE|56168|M|56.45,58.88|QO|1|U|168952|N|Click to combine the collected scraps to create your first Bundle of Recycled Parts.|
+A Recyclable Parts|QID|56117|M|56.45,58.88|N|From Drix Blackwrench.|U|168258|
 T Recyclable Parts|QID|56117|M|58.83,59.22|N|To any of the 4 Recyclerizer DX-82's around the Junkwatt Depot.|
 A More Recycling|QID|55743|M|55.92,62.51|PRE|56117|N|Available daily for faction, (and multiple times for the reward box) but requires a lot of killing in the heap to collect the parts. They are tradable.|
-C Factory Refurbished|QID|56168|M|58.83,59.22|QO|2|U|168266|NC|N|Click the provided Strange Recycling Requisition to obtain a Recycled Crawler Manifold. You can do the followup if you want to collect more, but not necesary for the quest.|
+l Tempered Plating|QID|55743|M|55.77,59.81|L|168216 10|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
+l Machined Gear Assembly|QID|55743|M|55.77,59.81|L|168215 5|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
+l Hardened Springs|QID|55743|M|55.77,59.81|L|168217 30|S!US|N|Kill the mobs in Junkwatt Depot to collect.|
 C More Recycling|QID|55743|M|55.47,56.25|U|168215|N|When all mats collected, click to create Bundle of Recyclable Parts.|
 t More Recycling|QID|55743|M|54.58,56.45|N|To Recyclerizer DX-82.|
 

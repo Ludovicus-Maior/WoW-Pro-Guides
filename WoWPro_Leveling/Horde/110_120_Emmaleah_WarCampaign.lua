@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-11-04 00:47
+-- Who: Ludovicus_Maior
+-- Log: 50973, 53405, 53406 gone now
+
+-- URL: http://wow-pro.com/node/3761/revisions/30430/view
+-- Date: 2019-10-12 15:57
+-- Who: Ludovicus_Maior
+-- Log: Add missing N tags
+
+-- URL: http://wow-pro.com/node/3761/revisions/30422/view
 -- Date: 2019-09-25 11:44
 -- Who: Emmaleah
 -- Log: 8.25 additions (and Heart of Azeroth Additons that were actually 8.2)
@@ -241,16 +251,6 @@
 -- Date: 2018-09-05 11:40
 -- Who: Emmaleah
 -- Log: Corrected 2nd A [A Mission of Unity] to "t". Moved Warfronts after Uniting Zandalar because that was the order I got them in. First load screen after 120 gave me A mission of Unity, then next load screen, warfronts popped up.
-
--- URL: http://wow-pro.com/node/3761/revisions/29679/view
--- Date: 2018-09-05 05:17
--- Who: elidion
--- Log: Moved the level gated quest chains under the foothold quest chains.
-
--- URL: http://wow-pro.com/node/3761/revisions/29678/view
--- Date: 2018-09-05 04:16
--- Who: elidion
--- Log: Added the Warfront quest chain.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -556,14 +556,14 @@ A The Bridgeport Ride|QID|51601|M|77.01,49.19|Z|Tiragarde Sound|N|From Lilian Vo
 C The Bridgeport Ride|QID|51601|M|75.49,49.86;75.55,51.96;74.22,52.88|QO|1;2|Z|Tiragarde Sound|CS|V|N|Hop on the horse, make a circle thru town, be sure you ran past the Captain, and then ride out across the low bridge to where you set the bombs.|
 T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|NC|N|To Nathanos Blightcaller.|
 
-;Heart of Azeroth questline
-P Silithis|QID|50973|M|73.97,85.62|Z|The Great Seal!Dazar'alor|N|Travel to Silithis to upgrade your Necklace' ilevel. One character on your account must have at least friendly rep for this quest to be available.|ACH|12947;5;;true|PRE|52451^51916|
-A The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|REP|Champions of Azeroth;2164;Friendly-Exalted|PRE|52451^51916|
-T The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
-A Unlocking the Heart|QID|53405|PRE|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
-T Unlocking the Heart|QID|53405|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
-A The Chamber of Heart|QID|53406|PRE|53405|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
-T The Chamber of Heart|QID|53406|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+;Heart of Azeroth questline - gone as of 8.2.5
+; P Silithis|QID|50973|M|73.97,85.62|Z|The Great Seal!Dazar'alor|N|Travel to Silithis to upgrade your Necklace' ilevel. One character on your account must have at least friendly rep for this quest to be available.|ACH|12947;5;;true|PRE|52451^51916|
+; A The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|REP|Champions of Azeroth;2164;Friendly-Exalted|PRE|52451^51916|
+; T The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+; A Unlocking the Heart|QID|53405|PRE|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
+; T Unlocking the Heart|QID|53405|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
+; A The Chamber of Heart|QID|53406|PRE|53405|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|
+; T The Chamber of Heart|QID|53406|M|42.22,44.27|Z|Silithus|N|To Magni Bronzebeard.|
 ; This may be obsolete:https://www.wowhead.com/quest=54938/a-brothers-help
 ;A A Brother's Help|QID|54938|N|Autoaccepted when entering Dazar'alor.|PRE|53406|ACH|12955;;;true|
 ;F Gloom Hollow|ACTIVE|54938|M|51.93,41.21|Z|Dazar'alor|N|at Paku'ai Rokota, or otherwise travel to Nazmir.|
@@ -1212,12 +1212,12 @@ T Enter the Dreamway|QID|55392|M|44.02,30.79|Z|Emerald Dreamway!Instance1471|N|T
 A Shards of Emerald|QID|55394|M|44.02,30.79|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream.|PRE|55392|
 A Null the Void|QID|55393|M|44.02,30.79|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream.|PRE|55392|
 C Null the Void|QID|55393|M|44.18,46.55|Z|Emerald Dreamway!Instance1471|S|N|Kill Invaders as you head towards the other quest.|
-C Shards of Emerald|QID|55394|M|65.76,41.41|Z|Emerald Dreamway!Instance1471|S|NC|Pick up small glowing Emerald Shards.|
+C Shards of Emerald|QID|55394|M|65.76,41.41|Z|Emerald Dreamway!Instance1471|S|NC|N|Pick up small glowing Emerald Shards.|
 A Don't Close Your Eyes|QID|55395|M|27.07,55.86|Z|Emerald Dreamway!Instance1471|N|From Valithria Dreamwalker.|PRE|55392|
 C Don't Close Your Eyes|QID|55395|M|28.76,75.16|Z|Emerald Dreamway!Instance1471|QO|1|NC|N|Awaken Thessera.|
 C Don't Close Your Eyes|QID|55395|M|43.98,50.25|Z|Emerald Dreamway!Instance1471|QO|2|NC|N|Awaken Verdisa.|
 C Don't Close Your Eyes|QID|55395|M|70.27,45.00|Z|Emerald Dreamway!Instance1471|QO|3|NC|N|Awaken Karkarius.|
-C Shards of Emerald|QID|55394|M|65.76,41.41|Z|Emerald Dreamway!Instance1471|US|NC|Pick up small glowing Emerald Shards.|
+C Shards of Emerald|QID|55394|M|65.76,41.41|Z|Emerald Dreamway!Instance1471|US|NC|N|Pick up small glowing Emerald Shards.|
 C Null the Void|QID|55393|M|44.18,46.55|Z|Emerald Dreamway!Instance1471|US|N|Continue killing Void invaders until quest completes.|
 T Shards of Emerald|QID|55394|M|44.05,30.64|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream.|
 T Null the Void|QID|55393|M|44.05,30.64|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream.|

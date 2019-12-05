@@ -51,7 +51,7 @@ A On Guard in Stonetalon|QID|1070|M|34.90,49.79|Z|Ashenvale|N|From Sentinel Then
 A Journey to Stonetalon Peak|QID|1056|M|35.76,49.11|Z|Ashenvale|N|From Faldreas Goeth'Shael.|
 T Raene's Cleansing|QID|1023|M|36.6,49.6|N|To Raene Wolfrunner. Don't get follow up yet|
 N Trash the Journal|QID|1024|N|Destroy Teronis' Journal, it is useless and wastes precious bag space. Skip this step when done.|PRE|1023|
-R Stonetalon Mountains|QID|1070|CN|M|43,71.52;42.3,71.09|Z|Ashenvale|N|Head to the Stonetalon cave.|
+R Stonetalon Mountains|QID|1070|CS|M|43,71.52;42.3,71.09|Z|Ashenvale|N|Head to the Stonetalon cave.|
 R Windshear Crag|QID|1070|M|76,46.21|Z|Stonetalon Mountains|N|Follow the path with lanterns throught the cave.|
 A Super Reaper 6000|QID|1093|M|59.0,62.6|Z|Stonetalon Mountains|N|From Ziz Fizziks.|
 T On Guard in Stonetalon |QID|1070|M|59.90,66.84|Z|Stonetalon Mountains|N|To Kaela Shadowspear.|

@@ -6,14 +6,17 @@ WoWPro:GuideName(guide, 'The Barrens')
 WoWPro:GuideLevels(guide, 12, 21, 13)
 WoWPro:GuideNextGuide(guide, 'Jame-HordeGuide-1')
 WoWPro:GuideSteps(guide, function() return [[
-h The Crossroads|QID|844|M|52.0,29.9|
-; --- carry over quests from last guide ---------------------------------------
+; --- Carry over quests from last guide ---------------------------------------
 A Plainstrider Menace|AVAILABLE|844|M|52.23,31.01|N|From Sergra Darkthorn.|
+f The Crossroads|QID|1358|M|51.50,30.34|N|Devrak|
+T Sample for Helbrim|QID|1358|M|51.46,30.16|N|To Apothecary Helbrim.|
 ; -----------------------------------------------------------------------------
+
+h The Crossroads|QID|844|M|52.0,29.9|
 
 A Raptor Thieves|QID|869|M|51.93,30.32|N|From Gazrog.|
 A Disrupt the Attacks|QID|871|M|51.50,30.87|N|From Thork.|
-A Supplies for the Crossroads|QID|5041|PRE|871|M|51.50,30.87|N|From Thork.|
+A Supplies for the Crossroads|QID|5041|M|51.50,30.87|N|From Thork.|
 ; A Harpy Raiders|QID|867|M|51.62,30.90|N|From Darsok Swiftdagger at the top of the tower.| TODO: C&T steps!
 
 C Raptor Thieves|QID|869|S|N|Kill Raptors you encounter for their heads.\nThese are all around this area.|
@@ -159,11 +162,13 @@ T Samophlange|QID|901|N|At this point, you can throw away the Control Console Op
 A Samophlange|QID|902|PRE|901|M|52.4,11.7|
 
 C Echeyakee|QID|881|U|10327|N|Go to the kodo bones to the south. Clear the area and use the horn to summon Echeyakee|M|55.9,17.1|
-K Razormane Defenders|QID|872|M|59.6,24.4|QO|1|N|Kill Razormane Defenders.|S!US|
-K Razormane Geomancers|QID|872|M|59.4,27.6|QO|2|N|Kill Razormane Geomancers|S!US|
+K Razormane Defenders|QID|872|M|59.6,24.4|QO|1|N|Kill Razormane Defenders.|S|
+K Razormane Geomancers|QID|872|M|59.4,27.6|QO|2|N|Kill Razormane Geomancers|S|
 C Supplies for the Crossroads|QID|5041|S|N|Check for the crates. If they aren't there, they are probably across the way near Kreenig Snarlsnout.|M|59.5,24;58.53,25.89|CN|
 K Kreenig Snarlsnout|ACTIVE|872|QO|3|T|Kreenig Snarlsnout|N|Kreenig Snarlsnout patrolls around. Kill him and loot his tusk.|M|58.6,27|
 C Supplies for the Crossroads|QID|5041|US|N|Check for the crates. If they aren't there, they are probably across the way near Kreenig Snarlsnout.|M|59.5,24;58.53,25.89|CN|
+K Razormane Defenders|QID|872|M|59.6,24.4|QO|1|N|Kill Razormane Defenders.|US|
+K Razormane Geomancers|QID|872|M|59.4,27.6|QO|2|N|Kill Razormane Geomancers|US|
 T Samophlange|QID|902|N|Head south again, towards Ratchet.|M|63.0,37.2|
 A Wenikee Boltbucket|QID|3921|PRE|902|M|63.0,37.2|
 
@@ -233,10 +238,8 @@ A The Escape|QID|863|PRE|858|M|56.4,7.4|N|From Wizzlecrank's Shredder.|
 C The Escape|QID|863|M|56,7|N|When we first start, make long pulls and killing the Drudgers and Mercenaries to the west of you. Continue to make long pulls while he heads west. Stay close to him, so that he will help you fight your attackers. Try not to let things run away. After a short while, the shredder will turn north up a ramp, and stop. Two Venture Co. mobs will spawn and attack you.|
 C Nugget Slugs|QID|3922|M|56,7|N|Now, patrol the area looting any more Nugget Slugs you need.|US|
 
-R Ogrimmar|QID|3922|M|62.9,7.7;63.2,2.9|CS|N|Tauren, it is time for you to visit the Horde's capital if you haven't already. (If you already have, skip this part). Walk East, and don't stop walking until you reach a river. When you hit the river, turn north. You will come to a bridge, cross over the bridge, you will find the Orgrimmar West Gate.|TAXI|-Ogrimmar|
-f Orgrimmar|QID|3922|R|Tauren|N|He is at the top of the Skytower in the Valley of Strength|M|45.2,64.6|Z|Orgrimmar|
-R The Barrens|QID|3922|R|Tauren|N|Head back to the Barrens|M|15.6,61.7|Z|Orgrimmar|
-R Sludge Fen|QID|3922|R|Tauren|N|Go back to the Sludge Fen by the same route you came by|M|56.4,7.7|
+R Orgrimmar|QID|3922|M|62.9,7.7;63.2,2.9|CS|N|It is time for you to visit the Horde's capital and get the flight point. Walk East, and don't stop walking until you reach a river. When you hit the river, turn north. You will come to a bridge, cross over the bridge, you will find the Orgrimmar West Gate.|TAXI|-Orgrimmar|
+f Orgrimmar|QID|3922|N|He is at the top of the Skytower in the Valley of Strength|M|45.2,64.6|Z|Orgrimmar|
 
 T Nugget Slugs|QID|3922|M|49,11.2|N|To Wenikee Boltbucket.|
 A Rilli Greasygob|QID|3923|PRE|3922|M|49,11.2|N|From Wenikee Boltbucket.|
@@ -263,7 +266,7 @@ T Avenge My Village|QID|6548|M|35.2,27.8|N|To Makaba Flathoof at the border.|
 A Kill Grundig Darkcloud|QID|6629|PRE|6548|M|35.2,27.8|N|From Makaba Flathoof.|
 R Stonetalon Mountains|QID|6629|M|31.6,26.7|
 C Kill Grundig Darkcloud|QID|6629|M|71.5,89.1;73,86|CS|T|Grundig Darkcloud|N|Follow the road west until waypoint, then turn northeast and follow the road into the grimtotem settlement, killing as you go. At 2nd waypoint you'll find a tent. Standing at the entrance to this tent is Grundig Darkcloud. Kill him. Before you leave, kill 6 Grimtotem Brutes to complete the quest, then walk into the tent where you found Grundig.|Z|Stonetalon Mountains|
-A Protect Kaya|QID|6523|M|23.5,85.6|N|From Kaya Flathoof.|
+A Protect Kaya|QID|6523|M|73.5,85.63|Z|Stonetalon Mountains|N|From Kaya Flathoof.|
 C Protect Kaya|QID|6523|N|This is an escort mission. She will walk West out of the grimtotem settlement, then start following the road Southast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
 T Kill Grundig Darkcloud|QID|6629|M|35.2,27.8|N|To Makaba Flathoof at the border.|
 T Protect Kaya|QID|6523|M|35.2,27.8|N|To Makaba Flathoof.|
@@ -275,7 +278,7 @@ A Arachnophobia|QID|6284|M|59.1,75.8|Z|Stonetalon Mountains|N|From Wanted Poster
 R Sishir Canyon|ACTIVE|-6284|M|59.1,75.8|Z|Stonetalon Mountains|N||
 C Blood Feeders|QID|6461|M|57,76|Z|Stonetalon Mountains|S|N|Kill spiders until the quest is done.|
 C Deepmoss Spider Eggs|QID|1069|M|57,76|Z|Stonetalon Mountains|S|NC|N|Pick up the spider eggs from around the area.|
-K Bessaleth|ACTIVE|6284|M|52,71|Z|Stonetalon Mountains|T|Bessaleth|N|Bessaleth will be locoated somewhere near here.|
+K Bessaleth|ACTIVE|6284|M|52,71|Z|Stonetalon Mountains|T|Bessaleth|N|Bessaleth will be located somewhere near here.|
 C Deepmoss Spider Eggs|QID|1069|M|57,76|Z|Stonetalon Mountains|US|NC|N|Pick up the spider eggs from around the area.|
 C Blood Feeders|QID|6461|M|57,76|Z|Stonetalon Mountains|US|N|Finish up the spiders needed.|
 f Sun Rock Retreat|QID|6401|M|45.2,59.9|Z|Stonetalon Mountains|N|At Tharm.|
@@ -334,17 +337,17 @@ N Fresh Zhevra Carcas|QID|882|L|10338 1|M|60,30|N|Head north to the dead tree. O
 C Ishamuhale|QID|882|M|59.72,30.18|N|When you get to the tree, Right-Click the Carcas in your inventory. This should summon Ishamuhale. Kill it.|U|10338|
 R The Crossroads|QID|899|M|52,30|
 
-T Consumed By Hatred|QID|899|M|52,31.6|N|To the infamous Mankrik.|
+T Consumed by Hatred|QID|899|M|52,31.6|N|To the infamous Mankrik.|
 
 F Camp Taurajo|QID|882|M|51.52,30.36|N|Hearth of Fly back to Camp T.|
 T Ishamuhale|QID|882|M|44.84,59.11|N|To Jorn Skyseer.|
 A Enraged Thunder Lizards|QID|907|PRE|882|M|44.8,59|N|From Jorn Skyseer.|
 
 C Enraged Thunder Lizards|QID|907|M|46,50|N|Look for a gray Kodo named Lakota'mani. He has a long-ish patrol route and a long respawn time, so you might not find him. If you do find him, kill him, and loot his hoof. Skip it if you don't. He isn't really worth camping the area for.|
-A Lakoto'mani|QID|883|U|5099|O|
+A Lakota'mani|QID|883|U|5099|O|
 
 T Enraged Thunder Lizards|QID|907|M|44.86,59.09|N|To Jorn Skyseer back to Camp Taurajo.|
-t Lakoto'mani|QID|883|M|44.86,59.09|N|To Jorn Skyseer.|
+t Lakota'mani|QID|883|M|44.86,59.09|N|To Jorn Skyseer.|
 A Cry of the Thunderhawk |QID|913|PRE|907|M|44.86,59.09|N|From Jorn Skyseer.|
 
 R Southern Barrens|QID|913|M|45.23,59.03;46.6,61.5|CC|

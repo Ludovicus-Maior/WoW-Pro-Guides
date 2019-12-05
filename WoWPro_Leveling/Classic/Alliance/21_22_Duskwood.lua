@@ -3,7 +3,7 @@
 
 local guide = WoWPro:RegisterGuide('ClassicDuskwood2122', 'Leveling', 'Duskwood', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Duskwood 21-22')
-WoWPro:GuideLevels(guide, 21, 22, 21)
+WoWPro:GuideLevels(guide, 17, 20, 21)
 WoWPro:GuideNextGuide(guide, 'ClassicWetlands2223')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -14,10 +14,10 @@ A Messenger to Darkshire|QID|146|M|71.93,46.43|N|From Lord Ello Ebonlocke.|PRE|1
 A Raven Hill|QID|163|M|75.33,48.71|N|From Elaine Carevin.|
 A Deliveries to Sven|QID|164|M|75.33,48.71|N|From Elaine Carevin.|
 A The Hermit|QID|165|M|75.33,48.71|N|From Elaine Carevin.|
-A Eight-Legged Menaces|QID|245|M|72.0,58.9;45.12,67.02|CS|N|Follow the road.|
+A Eight-Legged Menaces|QID|245|M|72.0,58.9;45.12,67.02|CS|N|Follow the road to Watcher Dodds, who sometimes is dead and needs to respawn.|
 T Raven Hill|QID|163|M|18.33,56.24|N|Follow the road, turn in to Jitters.|
 A Jitters' Growling Gut|QID|5|M|18.33,56.24|N|From Jitters.|PRE|163|
-C Eight-Legged Menaces|QID|245|M|9.7,55.9|S|N|Kill Pygmy Venom Web Spiders on sight. Keep any Gooey Spider Legs you find, you will need them later.|
+C Eight-Legged Menaces|QID|245|M|9.7,55.9|S|N|Kill Pygmy Venom Web Spiders on sight; they are near the water on the west and north coast. Keep any Gooey Spider Legs you find, you will need them later.|
 T Deliveries to Sven|QID|164|M|7.79,34.12|N|To Sven Yorgen.|
 A Sven's Revenge|QID|95|M|7.79,34.12|N|From Sven Yorgen.|
 A Wolves at Our Heels|QID|226|M|7.73,33.26|N|From Lars.|
@@ -31,9 +31,8 @@ K Gooey Spider Leg|QID|93|M|12,49|N|Kill any spiders around until you get 6 Gooe
 T Eight-Legged Menaces|QID|245|M|21.37,60;45.12,67.02|CS|N|Get back on the road and then go turn in to Watcher Dodds.|
 H Darkshire|QID|5|M|73.77,43.51|N|Hearth or Run back to Darkshire.|
 T Jitters' Growling Gut|QID|5|M|73.77,43.51|N|To Chef Graul at the Inn.|
-A Dusky Crab Cakes|QID|93|M|73.77,43.51|N|From Chef Graul|PRE|5|
-T Dusky Crab Cakes|QID|93|M|73.77,43.51|N|To Chef Graul|
-A Return to Jitters|QID|240|M|73.77,43.51|N|From Chef Graul|PRE|93|
+A Dusky Crab Cakes|QID|93|M|73.77,43.51|N|From Chef Graul.|PRE|5|
+T Dusky Crab Cakes|QID|93|M|73.77,43.51|N|To Chef Graul. Don't get the follow-up for now.|
 T Supplies from Darkshire|QID|148|M|75.77,45.29|N|To Madame Eva.|
 A Ghost Hair Thread|QID|149|M|75.77,45.29|N|From Madame Eva.|PRE|148|
 A The Night Watch|QID|56|M|73.56,46.86|N|From Commander Althea Ebonlocke.|

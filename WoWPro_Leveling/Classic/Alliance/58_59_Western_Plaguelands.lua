@@ -30,7 +30,6 @@ A Scholomance|QID|5533|M|42.7,84.0|
 T Scholomance|QID|5533|M|42.7,84.0|
 T Return to Chillwind Camp |QID|5217|M|42.9,84.5|
 A Target: Dalson's Tears|QID|5219|M|42.9,84.5|
-A The Mark of the Lightbringer|QID|9474|M|42.9,84.5|
 C Target: Dalson's Tears|N|Kill Lord Malvinious and loot the key.|QID|5219|M|46.10,52.40|
 T Target: Dalson's Tears|QID|5219|M|46.20,52.00|
 A Return to Chillwind Camp |QID|5220|M|46.2,52.4|
@@ -45,13 +44,12 @@ T Unfinished Business |QID|6004|M|51.9,28.0|
 A Unfinished Business |QID|6023|M|51.9,28.0|
 N Huntsman Radley|QID|6023|N|Kill Huntsman Radley.|M|57.00,35.00|
 C Unfinished Business |QID|6023|
-C The Mark of the Lightbringer|N|Go to the top of the tower and loot the item from the chest.|QID|9474|M|55.20,23.50|
 T Unfinished Business |QID|6023|M|51.9,28.0|
 A Unfinished Business |QID|6025|
 C Unfinished Business |N|Go to the top of the tower here and complete this quest.|QID|6025|M|45.80,18.30|
 T Unfinished Business |QID|6025|
 H Stormwind City|QID|5022|N|Hearth to Stormwind.|
-T Better Late Than Never |QID|5022|Z|Stormwind City|M|57.2,48.1|
+T Better Late Than Never |QID|5022|Z|Stormwind City|M|48.51,30.60|
 A Good Natured Emma|QID|5048|Z|Stormwind City|M|57.2,48.1|
 T Good Natured Emma|N|This NPC wanders so search the Trade District and Cathedral district.|QID|5048|Z|Stormwind City|M|60.2,57.0|
 A Good Luck Charm|QID|5050|Z|Stormwind City|M|60.2,57.0|
@@ -61,14 +59,11 @@ N Make sure you have 30 Dark Iron Scraps|QID|9131|N|Make sure you have 30 Dark I
 F Chillwind Camp|QID|5220|N|Fly to Chillwind Camp.|Z|Stormwind City|M|66.30,62.10|
 T Return to Chillwind Camp |QID|5220|M|42.9,84.5|
 A Target: Writhing Haunt|QID|5222|M|42.9,84.5|
-T The Mark of the Lightbringer|QID|9474|M|42.9,84.5|
-A Tomb of the Lightbringer|QID|9446|M|42.90,84.50|
-C Tomb of the Lightbringer|N|Do this escort quest.|QID|9446|M|42.9,84.5|
 C Target: Writhing Haunt|N|Kill Lord Razarch and loot the key.|QID|5222|M|53.00,66.10|
 T Target: Writhing Haunt|QID|5222|M|53.00,65.70|
 A Return to Chillwind Camp |QID|5223|M|53.0,66.0|
 A The Wildlife Suffers Too |QID|4984|M|53.7,64.7|
-C The Wildlife Suffers Too |N|Kill wolves and spiders until you complete this quest.|QID|4984|M|45.00,40.00|
+C The Wildlife Suffers Too |N|Kill Diseased wolves until you complete this quest.|QID|4984|M|45.00,40.00|
 T Good Luck Charm|QID|5050|M|38.4,54.0|
 A Two Halves Become One|QID|5051|M|38.4,54.0|
 N Good Luck Other-Half-Charm|QID|5051|N|Look for Jabbering Ghoul.  Kill it and loot the Good Luck Other-Half-Charm|L|12722 1|
@@ -76,11 +71,10 @@ C Two Halves Become One|N|Use the charm in your inventory to combine the two hal
 T Two Halves Become One|QID|5051|M|38.4,54.0|
 T Return to Chillwind Camp |QID|5223|M|42.9,84.5|
 A Target: Gahrron's Withering|QID|5225|M|42.9,84.5|
-T Tomb of the Lightbringer|QID|9446|M|42.9,84.5|
 T The Wildlife Suffers Too |QID|4984|M|53.7,64.7|
 A The Wildlife Suffers Too |QID|4985|M|53.7,64.7|
 N From now on...|QID|4985|N|From now on, kill Diseased Grizzlies.|
-C Target: Gahrron's Withering|N|Kill Lord Soulwrath and take the key.|QID|5225|M|62.00,57.00|
+C Target: Gahrron's Withering|N|Kill Lord Soulwrath and take the key.|QID|5225|M|62.60,58.40|
 T Target: Gahrron's Withering|QID|5225|M|62.60,58.40|
 A Return to Chillwind Camp |QID|5226|M|62.6,59.9|
 C The Wildlife Suffers Too |N|Kill Diseased Grizzlies until you finish this quest.|QID|4985|M|54.00,51.00|
@@ -90,7 +84,6 @@ A Blood Tinged Skies|QID|5543|M|4.7,38.4|
 A Carrion Grubbage|QID|5544|M|4.7,38.4|
 N From now on...|QID|5544|N|From now on, kill Carrion Worms, Plaguebats and Plaguehound Runts.|
 
-f Western Plaguelands|QID|5601|N|Get the flight-path.|M|69.2,49.7|
 R Eastern Plaguelands|QID|5601|N|Run to Eastern Plaguelands|
 ]]
 end)

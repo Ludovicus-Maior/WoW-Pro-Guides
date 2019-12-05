@@ -778,7 +778,11 @@ function WoWPro:RowUpdate(offset)
 		end
 
 		if WoWProDB.profile.showcoords and coord then
-		    note = note.." ("..coord..")"
+			local coords = coord
+			if string.len(coord) > 64 then
+				coords = string.sub(coord, 1, 64) .. "..."
+			end
+		    note = note.." ("..coords..")"
 		    if zone then
 		        note = note .. "@" ..zone
 		    end
@@ -1512,6 +1516,19 @@ function WoWPro.NextStep(k,i)
 			end
         end
 
+		-- Skip InZone steps if we are not in the right zone
+		if WoWPro.inzone[k] then
+			local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
+			local inzone = WoWPro.inzone[k]
+			if (inzone == zonetext) or (inzone == subzonetext) then
+				WoWPro:dbp("Step %s [%s/%s] not skipped as InZone %s/%s",WoWPro.action[k],WoWPro.step[k],tostring(QID), zonetext, subzonetext)
+			else
+				WoWPro:dbp("Step %s [%s/%s] skipped as not InZone %s/%s",WoWPro.action[k],WoWPro.step[k],tostring(QID), zonetext, subzonetext)
+				skip = true
+				break
+			end
+		end
+
         -- Complete Treasure steps if we dont want them
         if WoWPro.action[k] == "$" and (not WoWPro.rare[k]) and (not  WoWProCharDB.EnableTreasures) then
             WoWPro.CompleteStep(k,"No Treasures desired")
@@ -1623,7 +1640,7 @@ function WoWPro.NextStep(k,i)
             local flop = true
             local stop = WoWPro.taxi[k]
             if string.sub(stop,1,1) == "-" then
-                flop = false
+                flop = nil
                 stop = string.sub(stop,2)
             end
             skip = WoWProCharDB.Taxi[stop] ~= flop
@@ -1687,7 +1704,7 @@ function WoWPro.NextStep(k,i)
                     WoWPro.why[k] = "NextStep(): Permanently skipping step because player does not have the profession."
                     WoWProCharDB.Guide[GID].skipped[k] = true
                     WoWPro:SetQIDsInTable(QID, WoWProCharDB.skippedQIDs)
-                    WoWPro:dbp("Prof permaskip qid %s for no %s", (WoWPro.QID[k] or "NONE"), prof)
+                    WoWPro:dbp("Prof permaskip qid %s for no %s", (WoWPro.QID[k] or "NONE"), profName)
                     skip = true
                     break
                 else
@@ -1772,10 +1789,12 @@ function WoWPro.NextStep(k,i)
                 end
                 WoWPro:dbp("Special replvl %s vs hasBonusRepGain %s, skip is %s",tostring(replvl),tostring(hasBonusRepGain),tostring(skip))
             end
-
+			WoWPro:dbp("ConsiderRep type(replvl)=%s, repmin=%d, standingId=%d, repmax=%d, replvl=%s",
+					   type(replvl), repmin, standingId, repmax, tostring(replvl))
 			if type(replvl) == "number" and (repmin <= standingId) and (repmax >= standingId) and (replvl == 0) then
 				skip = false
-				WoWPro.why[k] = "NextStep(): RepStep within reputation range " .. WoWPro.rep[k]
+				WoWPro.why[k] = "NextStep(): RepStep within reputation range " .. temprep
+				WoWPro:dbp(WoWPro.why[k])
 			end
 			if type(replvl) == "number" and (replvl > 0) then
 			    -- replvl modifies the minimal reputation rank to activate
@@ -1804,6 +1823,10 @@ function WoWPro.NextStep(k,i)
 			if flip then
 			    skip = not skip
 			    WoWPro:dbp("!? Processed flip: skip=%s", tostring(skip))
+			end
+			WoWPro:dbp("ConsiderRep skip = %s", tostring(skip))
+			if skip then
+				break
 			end
         end
 
@@ -3034,11 +3057,11 @@ function WoWPro.GrailBreadcrumbsFor(QID)
 end
 
 
-function WoWPro:GrailCheckQuestName(guide,QID,myname)
+function WoWPro:GrailCheckQuestName(guide,QID,myname, action)
     if not Grail or not WoWProCharDB.EnableGrailQuestName then return nil end
     if QID == "*" then return QID end
     if not QID then
-        WoWPro:Warning("In guide %s, quest [%s]  does not have a QID",guide,tostring(myname))
+        WoWPro:Warning("In guide %s, quest %s[%s]  does not have a QID",guide, action, tostring(myname))
         return false
     end
     local numQIDs = select("#", string.split("^", QID))
@@ -3054,12 +3077,26 @@ function WoWPro:GrailCheckQuestName(guide,QID,myname)
                 -- just punt
                 gName = gName
             end
-            if   gName ~=  gName then
-                WoWPro:Warning("In guide %s, quest %s's name [%s] does not match Grail's database [%s].",guide,tostring(qid),myname,gName)
+            if myname ~= gName then
+                WoWPro:Warning("In guide %s, quest %s %s's name [%s] does not match Grail's database [%s].",guide,action,tostring(qid),myname,gName)
             end
         end
     end
 end
+
+function WoWPro:GrailLocalizeQuestName(guide, QID, old_name)
+    if not Grail then return old_name end
+	if QID == "*" then return old_name end
+	if strsub(GetLocale(), 1, 2) == "en" then return old_name end
+    if not QID then
+        WoWPro:Warning("In guide %s, quest [%s]  does not have a QID",guide,tostring(old_name))
+        return old_name
+	end
+	local qid = tonumber(QID)
+	if not qid then return old_name end
+	return Grail:QuestName(qid) or old_name
+end
+
 
 local GrailQuestLevelOK = nil
 

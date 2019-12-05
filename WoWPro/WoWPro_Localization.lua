@@ -2,7 +2,7 @@
 --      WoWPro_Localization.lua      --
 ---------------------------------------
 
-local L = {}
+local L = nil
 local loc = GetLocale()
 
 
@@ -30,6 +30,9 @@ if loc == "deDE" then L = {
 	PART_FIND = "(.+)%s%(Teil %d+%)",
 	["(.*) is now your home."] = "(.*) ist jetzt Euer Zuhause.",
 	["^You .*Hitem:(%d+).*(%[.+%])"] = "^Ihr .*Hitem:(%d+).*(%[.+%])",
+    
+    ["Goldshire"] = "Goldhain",
+    
 } end
 
 ----------------------
@@ -59,12 +62,12 @@ if loc == "ruRU" then L = {
 --      Korean      --
 ----------------------
 
-if loc == "koKR" then localized = {
+if loc == "koKR" then L = {
 	PART_GSUB = "%s%(파트 %d+%)",
 	PART_FIND = "(.+)%s%(파트 %d+%)",
 	["(.*) is now your home."] = "이제부터 (.*) 여관에 머무릅니다.",
 	["^You .*Hitem:(%d+).*(%[.+%])"] = "^아이템을 획득했습니다: .*Hitem:(%d+).*(%[.+%])",
 } end
 
-WoWPro_Locale = localized and setmetatable(localized, {__index = function(t,i) return english[i] or i end})
+WoWPro_Locale = L and setmetatable(L, {__index = function(t,i) return english[i] or i end})
 	or setmetatable(english, {__index = function(t,i) return i end})

@@ -76,13 +76,13 @@ N Get to level 14|QID|1003|LVL|-14|N|Grind mobs until you are level 14. Finish a
 N Sell junk, train, etc.|QID|730|N|Head back to Darnassus to train up, grab a quest, do some banking, profession work and sell/repair.|
 F Rut'theran Village|QID|730|M|36.34,45.58|N|Take a ride to the village.|
 R Darnassus|QID|730|M|55.88,89.55|Z|Teldrassil|
-A Trouble in Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of the Moon except don't go inside. Take the right path around the building and you'll run into a dwarf.|
+A Trouble In Darkshore?|QID|730|M|31.25,84.45|Z|Darnassus|N|Go to The Temple of the Moon except don't go inside. Take the right path around the building and you'll run into a dwarf.|
 A Lessons Anew|QID|6121|C|Druid|M|35,8|Z|Darnassus|N|From Mathrengyl Bearwalker on the second floor. Teleport to Moonglade after accepting.|
 T Lessons Anew|QID|6121|C|Druid|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze.|
 A The Principal Source|QID|6122|C|Druid|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|6121|
 F Rut'theran Village|ACTIVE|6122|M|44.15,45.22|Z|Moonglade|N|Fly back using Silva, the Darnassus Flight Master.|
 F Auberdine|ACTIVE|730|M|58.40,94.01|Z|Teldrassil|N|Go back through the portal to Vesprystus and fly back to Auberdine.|
-T Trouble in Darkshore?|QID|730|M|37.5,41.9|N|To Archaeologist Hollee.|
+T Trouble In Darkshore?|QID|730|M|37.5,41.9|N|To Archaeologist Hollee.|
 T As Water Cascades|QID|4812|M|47.3,48.7|N|At the Mysterious Red Crystal|
 A The Fragments Within|QID|4813|M|47.3,48.7|N|At the Mysterious Red Crystal|PRE|4812|
 T Bashal'Aran|QID|957|M|44.2,36.3|N|To Asterion.|
@@ -107,6 +107,7 @@ T Beached Sea Turtle|QID|4722|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Creature|QID|4723|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4727|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
 T Beached Sea Turtle|QID|4725|M|36.62,45.59|N|To Gwennyth Bly'Leggonde.|
+N Get to level 15|QID|1004|LVL|-15|N|Grind mobs until you are level 15.|    
 A WANTED: Murkdeep!|QID|4740|M|37.23,44.23|N|From Board, no quest symbol above it.|
 T The Fragments Within|QID|4813|M|37.7, 43.4|N|To Sentinel Glynda Nal'Shea.|
 T Cleansing of the Infected|QID|2138|M|38.84,43.42|N|To Tharnariun Treetender.|

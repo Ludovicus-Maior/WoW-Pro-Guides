@@ -11,7 +11,7 @@ N Shopping List|QID|3842|N|Crafted by an alchemist. Check the AH or otherwise ac
 N First Aid|N|If you are using first aid, the quest to train artisan skill level is in Theramore, requires level 35 and 225 skill. Ideally you would have 15 mageweave with you, so you could skill up to 240 after and learn Heavy Mageweave Bandages.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock. Train riding and buy your mount if you haven't.|
 R Dwarven District|QID|1448|M|63,24|Z|Stormwind City|N|Head to the Dwarven district in Stormwind.|
-A In Search of the Temple|QID|1448|M|63,24|Z|Stormwind City|N|From Brohann Caskbelly, inside a pub in the Dwarven District.|
+A In Search of The Temple|QID|1448|M|63,24|Z|Stormwind City|N|From Brohann Caskbelly, inside a pub in the Dwarven District.|
 R The Stockades|ACTIVE|1448|M|40,63|Z|Stormwind City|N|Next quest located inside a building just south of The Stockades entrance.|
 A Mazen's Behest|QID|1363|M|40.99,63.81|Z|Stormwind City|N|From Mazen Mac'Nadir.|
 T Mazen's Behest|QID|1363|M|40.99,63.81|Z|Stormwind City|N|Just up the stairs for turn in to Acolyte Dellis.|
@@ -206,7 +206,7 @@ A More Wastewander Justice|QID|1691|PRE|1690|M|52.5,28.5|Z|Tanaris|N|From Chief 
 R Thousand Needles|ACTIVE|1137|M|51.00,18.00|Z|Tanaris|N|Run north to Thousand Needles.|
 R Mirage Raceway|ACTIVE|1137|M|80,75|Z|Thousand Needles|N|Continue North to the Mirage Raceway.|
 T News for Fizzle|QID|1137|M|78.1,77.1|Z|Thousand Needles|N|To Fizzle Brassbolts.|
-A Gahz'Rilla|QID|2770|M|78.1,77.1|Z|Thousand Needles|N|To Wizzle Brassbolts.|
+A Gahz'rilla|QID|2770|M|78.1,77.1|Z|Thousand Needles|N|To Wizzle Brassbolts.|
 T Parts for Kravel|QID|1112|M|77.8,77.3|Z|Thousand Needles|N|From Fizzle Brassbolts. (skip followup)|
 T Goblin Sponsorship |QID|1183|M|80.2,75.9|Z|Thousand Needles|N|To Pozzik.|
 A Keeping Pace|QID|1190|PRE|1137|M|80.2,75.9|Z|Thousand Needles|N|From Pozzik.|
@@ -314,7 +314,7 @@ F Gadgetzan|ACTIVE|2941|N|Fly to Gadgetzan.|M|89.50,45.85|Z|Feralas|
 
 T The Borrower|QID|2941|M|52.4,26.9|Z|Tanaris|N|To Curgle Cranklehop.|
 A The Super Snapper FX|QID|2944|PRE|2941|M|52.4,26.9|Z|Tanaris|N|From Curgle Cranklehop.|
-A Egg-O-Matic|QID|2741|M|52.4,26.9|Z|Tanaris|U|8647|N|Click the Egg-O-Matic. Complete the quest, open the egg crate, turn the quest in corresponding to the egg you got.|
+A The Super Egg-O-Matic|QID|2741|M|52.4,26.9|Z|Tanaris|U|8647|N|Click the Egg-O-Matic. Complete the quest, open the egg crate, turn the quest in corresponding to the egg you got.|
 r Sell junk, repair, restock|QID|2944|N|Sell junk, repair, restock.|
 C More Wastewander Justice|QID|1691|M|59.00,37.00|Z|Tanaris|S|N|Kill mobs around here to finish this quest.|
 K Caliph Scorpidsting|ACTIVE|2781|QO|1|M|63.00,37.00|Z|Tanaris|T|Caliph Scorpidsting|N|Find and kill Caliph Scorpidsting around this location. He has 2 stealthed bodyguards.|
@@ -345,7 +345,7 @@ b Wetlands|ACTIVE|1449|M|71.40,56.30|Z|Dustwallow Marsh|N|Take the boat to Menet
 F Ironforge|ACTIVE|1449|M|9.50,59.70|Z|Wetlands|N|Fly to Ironforge.|
 A Portents of Uldum|QID|2963|PRE|2439|M|70.6,18|Z|Ironforge|N|To High Explorer Magellas.|
 T Portents of Uldum|QID|2963|M|76.8,10.2|Z|Ironforge|N|To Historian Karnik.|
-A Seeing what Happens|QID|2946|M|76.8,10.2|Z|Ironforge|N|From Historian Karnik.|PRE|2963|
+A Seeing What Happens|QID|2946|M|76.8,10.2|Z|Ironforge|N|From Historian Karnik.|PRE|2963|
 r Sell junk, repair, restock and Train.|ACTIVE|1449|N|Sell junk, repair, restock. Don't forget class trainers.|
 F Southshore|ACTIVE|1449|M|55.6,48.2|Z|Ironforge|N|At Gryth Thurden, in the Great Forge.|
 R The Hinterlands|ACTIVE|1449|M|84.00,32.00|Z|Hillsbrad Foothills|N|Run to The Hinterlands -- path here|
@@ -387,12 +387,12 @@ r Sell junk, repair, restock|N|Sell junk, repair, restock|
 R Altar of Zul|ACTIVE|2989|M|49,64|Z|The Hinterlands|N|Run to the Alter of Zul and ask in zone chat if anyone else is interested in doing [The Altar of Zul]. Ideally 2 other people, higher level (50).|
 K Qiaga the Keeper|ACTIVE|2989|M|49.00,68.00|Z|The Hinterlands|T|Qiaga the Keeper|L|9241 1|N|Loot the Sacred Mallet from Qiaga the Keeper. This is optional, only needed to summon a mob in Zul'Farrak Dungeon. Skip this objective if you can't find anyone to help.|
 C The Altar of Zul|QID|2989|M|49.00,68.00|Z|The Hinterlands|NC|N|Go to the altar to get the quest complete message. (stealth, invis, etc, it all works)|
-A Jammalan the Prophet|QID|1446|M|32,74|Z|The Hinterlands|N|Optionally, particularly if you plan to do the Sunken Temple dungeon instance, go over to Shadra'Alor and get this quest from the Atalai' Exile. (check off manually if you choose not to go get it)|
+A Jammal'an the Prophet|QID|1446|M|32,74|Z|The Hinterlands|N|Optionally, particularly if you plan to do the Sunken Temple dungeon instance, go over to Shadra'Alor and get this quest from the Atalai' Exile. (check off manually if you choose not to go get it)|
 L Level Check|ACTIVE|2989|N|Stay here grinding on trolls and wolves at the base of the alter or in Shadra'alor until about a bubble from 47.|LVL|46;117040|
 H Wildhammer Keep|ACTIVE|2989|N|Hearth back to Aerie Peak, if it's available, or just run.|
 T The Altar of Zul|QID|2989|M|9.8,44.5|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|
 A Thadius Grimshade|QID|2990|PRE|2989|M|9.8,44.5|Z|The Hinterlands|N|From Gryphon Master Talonaxe.|
-A Turn in Troll Necklaces|QID|2881|PRE|2880|Z|The Hinterlands|N|Turn in any extra Troll Necklaces you have at the inn.|
+A Troll Necklace Bounty|QID|2881|PRE|2880|Z|The Hinterlands|N|Turn in any extra Troll Necklaces you have at the inn.|
 F Ironforge|ACTIVE|2944|N|Fly to Ironforge.|M|11.10,46.20|Z|The Hinterlands|
 B Make sure you have two Elixirs of Fortitude.|AVAILABLE|3842|L|3825 2|N|Make sure you have two Elixirs of Fortitude in your inventory, bank or mailbox, you are about to need them.|
 r Sell junk, repair, restock, train skills.|ACTIVE|2944|N|Sell junk, repair, restock, train skills.|
@@ -434,7 +434,7 @@ T The Giant Guardian|QID|2844|M|38.20,10.20|Z|Feralas|N|To Shay Leafrunner.|
 A Wandering Shay|QID|2845|PRE|2844|M|38.20,10.30|Z|Feralas|N|From Shay Leafrunner.|
 N Loot Shay's bell|ACTIVE|2845|M|38.20,10.30|Z|Feralas|L|9189|N|Click on the chest beside Shay to get her bell.|
 C Wandering Shay|QID|2845|M|42,21|Z|Feralas|U|9189|N|This is a timed quest. Run a bit ahead and use the bell in your inventory to have Shay run to you to make her follow you to this location. The bell has a cooldown, but Shay will continue to run to you until actually reaching you (and then you will have to ring the bell again), so keep running towards the arrow, staying a little ahead of her.|
-T Wandering Shay|QID|284|M|42.4,22.0|Z|Feralas|N|To Rockbiter.|
+T Wandering Shay|QID|2845|M|42.4,22.0|Z|Feralas|N|To Rockbiter.|
 A Find OOX-22/FE!|U|8705|QID|2766|N|If you found a Distress Beacon, right click it to get this quest.(If not, right click to skip this step)|
 T Find OOX-22/FE!|QID|2766|M|53.30,55.60|Z|Feralas|N|To Homing Robot OOX-22/FE.|
 A Rescue OOX-22/FE!|QID|2767|M|53.30,55.60|Z|Feralas|N|From Homing Robot OOX-22/FE.|PRE|2766|
@@ -570,13 +570,13 @@ T The Divination|QID|2992|M|66.9,19.5|Z|Blasted Lands|N|Wait for him to finish t
 A Return to the Hinterlands|QID|2993|PRE|2992|M|66.9,19.5|Z|Blasted Lands|N|From Thadius Grimshade.|
 R Ride West|AVAILABLE|2583|M|50,14|Z|Blasted Lands|N|Ride out of Nethergarde Keep, go west / northwest until you find the two Blood Elves with quests for you.|
 A A Boar's Vitality|QID|2583|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. Gives +25 Stamina for 1 hour when turned in.|
-A Snickefang Jowls|QID|2581|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. Gives +25 Strength for 1 hour when turned in.|
+A Snickerfang Jowls|QID|2581|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. Gives +25 Strength for 1 hour when turned in.|
 A The Basilisk's Bite|QID|2601|M|50,14|Z|Blasted Lands|N|From Bloodmage Lynnore. Gives +25 Intellect for 1 hour when turned in.|
 A The Decisive Striker|QID|2585|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. Gives +25 Agility for 1 hour when turned in.|
 A Vulture's Vigor|QID|2603|M|50,14|Z|Blasted Lands|N|From Bloodmage Lynnore.|
 C Kill animals|QID|2581&2583&2585&2601&2603|M|50,14|Z|Blasted Lands|N|Kill in the area to collect the various parts. Be strategic about turning in as each one gives a 1 hour, Non Stacking buff, so don't turn in two at the same time that give you useful stats.|
 T Quests to the Bloodmages|QID|2581&2583&2585&2601&2603|M|50,14|Z|Blasted Lands|N|Turn them in, in the order you choose to maximize the buffs. Don't get the followups unless you are having lots of fun here. They are repeatable, so it's not a bad place to grind and get a buff.|
-A Draenethyst Fragment|QID|3501|M|51,35|Z|Blasted Lands|N|If you get any Draenethyst Fragments, go here to turn in, its a pretty rare drop, dont try to farm for it. check off manually if you didnt find any.|
+A Everything Counts In Large Amounts|QID|3501|M|51,35|Z|Blasted Lands|N|If you get any Draenethyst Fragments, go here to turn in, its a pretty rare drop, dont try to farm for it. check off manually if you didnt find any.|
 L Level Check|QID|2993|N|You should be about 4 bubbles from level 50 now, take some time to grind here or in Jintha'Alor if you aren't.|LVL|49;112960|
 H Wildhammer Keep|ACTIVE|2993|N|Hearth to Aerie Peak.|
 T Return to the Hinterlands|QID|2993|M|10,44.6|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|

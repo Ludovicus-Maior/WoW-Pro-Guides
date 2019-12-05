@@ -244,7 +244,7 @@ b Zeppalin|ACTIVE|589|M|31.6,29.4|N|Head off to your choice of Undercity or Orgr
 H The Salty Sailor Tavern|QID|621|N|Booty Bay. Run there if your hearth isn't up yet .|M|29.52,72.53|
 
 A Zanzil's Secret|QID|621|M|27.1,77.2|N|From Crank Fizzlebub.|
-T Venture Company Mining|ACTIVE|589|N|This this quest in on the first floor of the inn.|M|27.1,77.2|
+T Venture Company Mining|ACTIVE|600|N|This this quest in on the first floor of the inn.|M|27.1,77.2|
 T Skullsplitter Tusks|QID|209|N|This this in on the top floor of the inn.|
 A Voodoo Dues|QID|609|PRE|607|M|27.8,77.1|N|From "Sea Wolf" MacKinley.|
 T Excelsior|QID|628|N|Use the top floor exit of the inn and head for the leather working shop to turn this in.|M|28.3,77.6|
@@ -341,8 +341,8 @@ A More Wastewander Justice|QID|1691|PRE|1690|M|52.5,28.5|Z|Tanaris|N|From Chief 
 R Thousand Needles|ACTIVE|1137|M|51.00,18.00|Z|Tanaris|N|Run north to Thousand Needles.|
 R Mirage Raceway|ACTIVE|1137|M|80,75|Z|Thousand Needles|N|Continue North to the Mirage Raceway.|
 T News for Fizzle|QID|1137|M|78.1,77.1|Z|Thousand Needles|N|To Fizzle Brassbolts.|
-A Gahz'Rilla|QID|2770|M|78.1,77.1|Z|Thousand Needles|N|To Wizzle Brassbolts.|
-T Goblin Sponsorship |
+A Gahz'rilla|QID|2770|M|78.1,77.1|Z|Thousand Needles|N|To Wizzle Brassbolts.|
+; T Goblin Sponsorship |
 A Keeping Pace|QID|1190|PRE|1137|M|80.2,75.9|Z|Thousand Needles|N|From Pozzik.|
 C Keeping Pace|QID|1190|M|79.80,77.00|Z|Thousand Needles|N|Talk to Zamek to get him to start moving. Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.|
 T Keeping Pace|QID|1190|M|77.2,77.4|Z|Thousand Needles|N|To Unguarded Plans.|
@@ -363,7 +363,7 @@ A War on the Woodpaw|QID|2862|N|Get this from Hadoken Swiftstrider, who's across
 A The Mark of Quality|QID|2822|N|Get this from Jangdor Swifstrider inside the big tent building across the road from the inn.|M|74.4,42.9|Z|Feralas|
 A A Strange Request|QID|3121|N|Get this from Witch Doctor Uzer'l right outside that tent building.|M|74.4,43.4|Z|Feralas|
 h Camp Mojache|ACTIVE|3121|M|74.8,45|Z|Feralas|N|Stop in the inn and set your hearthstone with Innkeeper Greul.|
-A The Ogres of Feralas |M|75.9,43.6|Z|Feralas|
+A The Ogres of Feralas|QID|2975|M|75.9,43.6|Z|Feralas|
 C War on the Woodpaw|QID|2862|N|Ride west out of town then turn left (down hill from the road) into the lower wides (71,54). Kill gnolls until you have 10 Woodpaw Gnoll Manes.|M|72.5,40.2|Z|Feralas|
 L Level Check|QID|2864|N|You should now be level 46, If you didnt go to Uldaman, you may need to grind a bit.|LVL|46|
 R Camp Mojache|QID|3121|M|74,45|Z|Feralas|N|Ride back to Camp Mojache. Do NOT turn in [32] War on the Woodpaw (the followup is a timed quest) which we'll start a little later.|
@@ -667,7 +667,7 @@ N Again With the Zapped Giants|QID|3127|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandaz
 H Camp Mojache|QID|3124|U|6948|
 T Hippogryph Muisek|QID|3124|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
 A Faerie Dragon Muisek|QID|3125|PRE|3124|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|
-C Faerie Dragon Muisek|QID|3125|U|9620|M|70,47|N|Head west to the Sprite Darters. Kill them and use the Muisek Vessel on their corpses.|
+C Faerie Dragon Muisek|QID|3125|U|9620|M|68.70,49.00;68.90,44.95;67.05,47.72;70.11,46.81;64.88,48.05|CN|N|Head souht-west to the Sprite Darters. Kill them and use the Muisek Vessel on their corpses. Do not skin them skinners!|
 T Faerie Dragon Muisek|QID|3125|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
 A Treant Muisek|QID|3126|PRE|3125|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|
 C Treant Muisek|QID|3126|U|9606|M|71,57;58,48;57,73;73,40|CN|Z|Feralas|N|You're looking for Wandering Forest Walkers, which spawn and wander around near: The Grimtotem compound and Camp Mojache,The gnoll camps, Dire Maul, Hippogyph area.|
@@ -717,13 +717,13 @@ F Stonard|ACTIVE|3504|M|26.8,77|Z|Stranglethorn Vale|N|At Gringer, Wind Rider Ma
 R Blasted Lands|ACTIVE|3504|M|35.3,60.1;33.1,72.4|CS|Z|Swamp of Sorrows|N|Follow the road West, turning south at the first waypoint and head into The Blasted Lands.|
 
 A A Boar's Vitality|QID|2583|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. Gives +25 Stamina for 1 hour when turned in.|
-A Snickefang Jowls|QID|2581|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. Gives +25 Strength for 1 hour when turned in.|
+A Snickerfang Jowls|QID|2581|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. Gives +25 Strength for 1 hour when turned in.|
 A The Basilisk's Bite|QID|2601|M|50,14|Z|Blasted Lands|N|From Bloodmage Lynnore. Gives +25 Intellect for 1 hour when turned in.|
 A The Decisive Striker|QID|2585|M|50,14|Z|Blasted Lands|N|From Bloodmage Drazial. Gives +25 Agility for 1 hour when turned in.|
 A Vulture's Vigor|QID|2603|M|50,14|Z|Blasted Lands|N|From Bloodmage Lynnore.|
 C Kill animals|QID|2581&2583&2585&2601&2603|M|44.8,29.7;54.7,36.5;60.1,27.7;50.6,15.1|CN|Z|Blasted Lands|N|Kill in the area roughly bounded by the waypoints to collect the various parts. Be strategic about turning in as each one gives a 1 hour, Non Stacking buff, so don't turn in two at the same time that give you useful stats.|
 T Quests to the Bloodmages|QID|2581&2583&2585&2601&2603|M|50,14|Z|Blasted Lands|N|Turn them in, in the order you choose to maximize the buffs. Don't get the followups unless you are having lots of fun here. They are repeatable, so it's not a bad place to grind and get a buff.|
-A Draenethyst Fragment|QID|3501|M|51,35|Z|Blasted Lands|N|If you get any Draenethyst Fragments, go here to turn in, its a pretty rare drop, dont try to farm for it. check off manually if you didnt find any.|
+A Everything Counts In Large Amounts|QID|3501|M|51,35|Z|Blasted Lands|N|If you get any Draenethyst Fragments, go here to turn in, its a pretty rare drop, dont try to farm for it. check off manually if you didnt find any.|
 L Level Check|LVL|51|N|You should be level 51, if not stay and grind here abit.|
 
 

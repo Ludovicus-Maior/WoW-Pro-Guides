@@ -6,7 +6,6 @@ WoWPro:GuideIcon(guide, "ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcon
 WoWPro:GuideSteps(guide, function()
 return [[
 
-;N Test|QID|1000|N|This is a test [color=FF40C7EB]Mage[color=]|
 B Shopping List|QID|3842|N|Crafted by an alchemist. Check the AH or otherwise acquire 2 Elixirs of Fortitude at a reasonable price. You will need them for a quest at Mirage Raceway when you are level 45.|L|3825 2|
 B Truesilver Bar|QID|49|N|You will also need a Truesilver Bar.|L|6037|ITEM|6037|
 B Silk Cloth|QID|4449|N|You shouldn't need to buy these, but a reminder to keep 15 of them handy once you're in the level 46-47 range.|L|4306 15|ITEM|4306|
@@ -139,8 +138,8 @@ T Troll Necklace Bounty|QID|2880|M|14.83,44.57|Z|The Hinterlands|N|To Fraggar Th
 T Witherbark Cages|QID|2988|M|9.74,44.47|Z|The Hinterlands|N|To Gryphon Master Talonaxe.|
 
 F Refuge Pointe|ACTIVE|670|M|11.07,46.16|Z|The Hinterlands|N|Fly to Arathi Highlands.|
-R Faldir's Cove|QID|670|M|31.32,64.59;23.61,70.02;21.57,75.52|CC|Z|Arathi Highlands|N|At first waypoint, find a path going beside/behind Stromgarde Keep, follow that path west to the 2nd waypoint. To your left is a cave, go through it to find Faldir's Cove.|
-T Sunken Treasure|QID|670|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen. Be sure to read the note before accepting the next quest.|
+R Faldir's Cove|ACTIVE|670|M|31.32,64.59;23.61,70.02;21.57,75.52|CC|Z|Arathi Highlands|N|At first waypoint, find a path going beside/behind Stromgarde Keep, follow that path west to the 2nd waypoint. To your left is a cave, go through it to find Faldir's Cove.|
+T Sunken Treasure|QID|670|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen. Be sure to read the next steps note before accepting the next quest.|
 A Death From Below|QID|667|M|32.29,81.36|Z|Arathi Highlands|N|From Shakes O'Breen.\n\nWhen you start this, you will need to run up the ramp onto the boat and interact with the cannon to make it fire. When naga spawn and run into your sights, click to fire. Easiest quest in the game.|PRE|670|
 C Death From Below|QID|667|M|32.09,80.70|Z|Arathi Highlands|N|Run up the ramp and click the cannon to take out the naga as they spawn.|
 T Death From Below|QID|667|M|32.29,81.36|Z|Arathi Highlands|N|To Shakes O'Breen.|
@@ -161,13 +160,13 @@ A Zanzil's Mixture and a Fool's Stout|QID|1119|M|27.1,77.2|N|From Crank Fizzlebu
 b Ratchet|QID|623|M|25.80,73.10|N|Take the boat to Ratchet.|
 
 F Theramore Isle|QID|623|Z|The Barrens|M|63.10,37.15|N|Fly to Theramore.|
-T Akiris by the Bundle|QID|623|M|67.71,51.71|Z|Dustwallow Marsh|N|To Privateer Groy.|
+T Akiris by the Bundle|QID|623|M|67.71,51.71|Z|Dustwallow Marsh|N|To Privateer Groy. He walks around but stays stationary the longest at the waypoint.|
 t Alliance Trauma|QID|6625|M|67.8,49.0|Z|Dustwallow Marsh|N|Breadcrumb quest is optional. Turns in to Doctor Gustaf VanHowzen.|
 A Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|From Doctor Gustaf VanHowzen.|P|First Aid;129;0+225|
 C Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|Prioritize the Critically Injured, then Badly and lastly Injured.  Position yourself in the middle of the room when all patients are in range, hot key the bandages, If you dont have Friendly Nameplates on, CTRL-V. Save 15 before 6 die.|
 T Triage|QID|6624|M|67.8,49.0|Z|Dustwallow Marsh|N|To Doctor Gustaf VanHowzen.|
 
-F Gadgetzan|QID|2872|Z|Dustwallow Marsh|M|65.50,51.30|N|Fly to Gadgetzan.|
+F Gadgetzan|QID|2872|M|67.48,51.30|Z|Dustwallow Marsh|N|Fly to Gadgetzan.|
 A Wastewander Justice|QID|1690|M|52.46,28.51|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|
 A Water Pouch Bounty|QID|1707|M|52.48,28.44|Z|Tanaris|N|From Spigot Operator Luglunket.|
 A Handle With Care|QID|3022|M|52.36,26.90|Z|Tanaris|N|From Curgle Cranklehop.|
@@ -222,7 +221,7 @@ R Gadgetzan|ACTIVE|1691|M|52.5,28.5|Z|Tanaris|N|Ride west to Gadgetzan. When you
 T More Wastewander Justice|QID|1691|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 T WANTED: Caliph Scorpidsting|QID|2781|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
 H Stormwind City|QID|49|M|PLAYER|Z|Tanaris|N|Hearth back to Stormwind. You didn't set it here right? If you did then make it back the old fashioned way.|
-r Repair, Restock, Train|QID|49|M|55.34,59.82|Z|Stormwind City|N|Take care of your big city stuff, be sure to get that thorium bar, we need it as soon as we leave.|
+r Repair, Restock, Train|QID|49|M|55.34,59.82|Z|Stormwind City|N|Take care of your big city stuff, be sure to get that truesilver bar, we need it as soon as we leave.|
 B Truesilver Bar|QID|49|N|You will also need a Truesilver Bar.|L|6037|ITEM|6037|
 F Sentinel Hill|QID|49|M|66.2,62.4|Z|Stormwind City|N|Fly to Sentinel Hill in Westfall.|
 R Sweet Amber|QID|49|M|52.56,72.21;44.6,80.2|CC|Z|Westfall|N|Toward the mountain behind Deadmines.|
@@ -328,14 +327,14 @@ A Delivering the Relic|QID|2871|M|30.38,46.17|Z|Feralas|N|From Latronicus Moonsp
 T Delivering the Relic|QID|2871|M|30.08,45.06|Z|Feralas|N|To Vestia Moonspear.|
 
 C Rhapsody's Kalimdor Kocktail|QID|1452|QO|2|S|N|While traveling, kill Ironfur Bears that you see, they spawn throughout the whole path.|
-A An Orphan Looking For a Home|QID|3841|Z|Feralas|M|65.9,45.6|N|From Kindal Moonweaver. Take the boat back to the mainland.|PRE|2972|
+A An Orphan Looking For a Home|QID|3841|Z|Feralas|M|65.94,45.65|N|From Kindal Moonweaver. Take the boat back to the mainland.|PRE|2972|
 C Rhapsody's Kalimdor Kocktail|QID|1452|M|72.06,42.34|Z|Feralas|QO|2|US|N|Finish killing Ironfur Bears until you have all Livers.|
-T Thalanaar Delivery|QID|4281|M|65.94,45.65|Z|Feralas|N|To Falfindel Waywarder.|
+T Thalanaar Delivery|QID|4281|M|89.64,46.57|Z|Feralas|N|To Falfindel Waywarder.|
 
 F Gadgetzan|ACTIVE|2941|N|Fly to Gadgetzan.|M|89.50,45.85|Z|Feralas|
 T The Borrower|QID|2941|M|52.36,26.91|Z|Tanaris|N|To Curgle Cranklehop.|
 A The Super Snapper FX|QID|2944|M|52.36,26.91|Z|Tanaris|N|From Curgle Cranklehop.|PRE|2941|
-A Egg-O-Matic|QID|2741|M|52.38,26.97|Z|Tanaris|U|8564|N|Click the Egg-O-Matic. Complete the quest, open the egg crate, turn the quest in corresponding to the egg you got.|
+A The Super Egg-O-Matic|QID|2741|M|52.38,26.97|Z|Tanaris|U|8564|N|Click the Egg-O-Matic. Complete the quest, open the egg crate, turn the quest in corresponding to the egg you got.|
 r Sell junk, repair, restock|QID|3520|N|Sell junk, repair, restock.|
 
 K Roc Gizzard|ACTIVE|1452|QO|1|M|45.80,39.60|Z|Tanaris|S|N|Kill Fire Rocs until you get their Gizzards.|
@@ -385,7 +384,7 @@ F Menethil Harbor|QID|1000|ACTIVE|3841^625|M|55.50,47.75|Z|Ironforge|N|Fly to We
 b Theramore Isle|QID|1000|ACTIVE|3841^625|M|4.99,63.47|Z|Wetlands|N|Take the boat to Theramore|
 R The Quagmire|QID|1000|ACTIVE|625^2861|M|55.69,50.16;46.06,57.09|CC|Z|Dustwallow Marsh|N|It's faster to swim, opening up at waypoint.|
 T Tabetha's Task|QID|2861|LEAD|2846|M|46.06,57.09|Z|Dustwallow Marsh|N|To Tabetha.|
-A Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|N|From Tabetha.|
+A Tiara of the Deep|QID|2846|M|46.06,57.09|Z|Dustwallow Marsh|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tabetha.|
 T Cortello's Riddle|QID|625|M|31.10,66.13|Z|Dustwallow Marsh|N|Click on the scroll in the cave behind Goreclaw to complete this quest.|
 A Cortello's Riddle|QID|626|M|31.10,66.13|Z|Dustwallow Marsh|PRE|625|
 
@@ -408,7 +407,7 @@ T Gadgetzan Water Survey|QID|992|M|50.2,27.5|Z|Tanaris|N|To Senior Survey Fizzle
 R Thousand Needles|ACTIVE|3841|M|51.00,19.00|Z|Tanaris|N|Go north to Thousand Needles.|
 R Mirage Raceway|ACTIVE|3841|M|78.3,74.7|Z|Thousand Needles|N|Continue north to the Mirage Raceway.|
 T The Brassbolts Brothers|QID|2769|M|78.14,77.13|Z|Thousand Needles|N|To Wizzle Brassbolts.|
-A Gahz'rilla|QID|2770|M|78.14,77.13|Z|Thousand Needles|N|From Wizzle Brassbolts.|
+A Gahz'rilla|QID|2770|M|78.14,77.13|Z|Thousand Needles|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Wizzle Brassbolts.|
 T An Orphan Looking For a Home|QID|3841|M|78.35,74.72|Z|Thousand Needles|N|To Quentin.|
 A A Short Incubation|QID|3842|M|78.35,74.72|Z|Thousand Needles|N|From Quentin.|PRE|3841|
 T A Short Incubation|QID|3842|M|78.35,74.72|Z|Thousand Needles|N|To Quentin.|
@@ -473,10 +472,10 @@ f Thorium Point|QID|4449|M|37.94,30.85|Z|Searing Gorge|N|Grab the flightpath fro
 A Curse These Fat Fingers|QID|7723|M|38.58,27.81|Z|Searing Gorge|N|From Hansel Heavyhands.|
 A Fiery Menace!|QID|7724|M|38.58,27.81|Z|Searing Gorge|N|From Hansel Heavyhands.|
 A Incendosaurs? Whateverosaur is More Like It|QID|7727|M|38.58,27.81|Z|Searing Gorge|N|From Hansel Heavyhands.|
-A What the Flux|QID|7722|M|38.81,28.51|Z|Searing Gorge|N|From Master Smith Burninate.|
+A What the Flux?|QID|7722|M|38.81,28.51|Z|Searing Gorge|N|From Master Smith Burninate.|
 A STOLEN: Smithing Tuyere and Lookout's Spyglass|QID|7728|M|37.63,26.53|Z|Searing Gorge|N|From the job board.|
 A JOB OPPORTUNITY: Culling the Competition|QID|7729|M|37.63,26.53|Z|Searing Gorge|N|From the job board.|
-A WANTED: Overseer Maltorius|QID|7701|M|37.64,26.53|Z|Searing Gorge|N|From the Wanted board.\n\nThis is an Elite quest that can be done while you're doing 'What the Flux' but you will need a partner.|
+A WANTED: Overseer Maltorius|QID|7701|M|37.64,26.53|Z|Searing Gorge|ELITE|N|[color=ff8000]Elite: [/color]From the Wanted board.\n\nThis is an Elite quest that can be done while you're doing 'What the Flux' but you will need a partner.|
 
 C Fiery Menace!|QID|7724|M|38.58,27.81|Z|Searing Gorge|S|N|Kill Greater Lava Spiders you find roaming around.|
 C Curse These Fat Fingers|QID|7723|M|38.58,27.81|S|Z|Searing Gorge|N|Kill Heavy War Golems.|
@@ -486,7 +485,7 @@ A Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|From Kalaran Windbl
 C Dark Iron|QID|7729|M|37.63,26.53|Z|Searing Gorge|S|N|Kill Taskmasters and Slavers and loot their daggers.|
 C Smithing Tuyre|QID|7728|M|40.03,48.58|Z|Searing Gorge|QO|1|N|Kill Steamsmiths until you get the Tuyre.|
 C Lookout's Spyglass|QID|7728|M|33.14,53.33|Z|Searing Gorge|QO|2|N|Kill Lookouts until you get the Spyglass.|
-C Sweet Amber|QID|53|M|44.62,80.25|Z|Westfall|N|From The Charred Oak on the other side of the gorge. Top side.|PRE|51|
+C Sweet Amber|QID|53|M|54.59,50.66|Z|Searing Gorge|N|From The Charred Oak on the other side of the gorge. Top side.|PRE|51|
 C Caught!|QID|4449|M|63.93,60.98|Z|Searing Gorge|N|Kill the Geologists in the area.|
 A The Key to Freedom|QID|4451|M|PLAYER|Z|Searing Gorge|N|Use the key to accept the quest.|U|11818|
 T Caught!|QID|4449|M|65.61,62.06|Z|Searing Gorge|N|To the Wooden Outhouse. Don't get follow-up|
@@ -497,21 +496,21 @@ T Suntara Stones|QID|3367|M|74.44,19.28|Z|Searing Gorge|N|At the Singed Letter.|
 A Suntara Stones|QID|3368|M|74.44,19.28|Z|Searing Gorge|N|From the Singed Letter.|PRE|3367|
 R Drop down|QID|7701|M|48.76,43.93;49.80,45.86|Z|Searing Gorge|CC|N|Run up from the top of the gorge and drop down onto the platforms to enter the top tunnel.|
 C Incendosaurs? Whateverosaur is More Like It|QID|7727|M|38.58,27.81|Z|Searing Gorge|S|N|Kill Incendosaurs down at the bottom of the pits around lava.|
-C Wanted: Overseer Maltorius|QID|7701|M|40.70,35.87|Z|Searing Gorge|N|On the ledge with 2 body guards, this is extremely tough solo, try and find a partner or skip this.|
-C What the Flux|QID|7722|M|40.70,35.87|Z|Searing Gorge|N|On the table behind Overseer Maltorius. If you aren't trying to kill him for the quest you can distract them while you grab the plans by fears, roots, freezes, suicide pets, cheat bubble ect.|
+C WANTED: Overseer Maltorius|QID|7701|M|40.70,35.87|Z|Searing Gorge|N|On the ledge with 2 body guards, this is extremely tough solo, try and find a partner or skip this.|
+C What the Flux?|QID|7722|M|40.70,35.87|Z|Searing Gorge|N|On the table behind Overseer Maltorius. If you aren't trying to kill him for the quest you can distract them while you grab the plans by fears, roots, freezes, suicide pets, cheat bubble ect.|
 C Incendosaurs? Whateverosaur is More Like It|QID|7727|M|51.23,37.78|Z|Searing Gorge|US|N|Kill Incendosaurs down at the bottom of the pits around lava.|
 C Forging the Shaft|QID|3443|M|47.13,41.49|Z|Searing Gorge|N|Continue colleting the daggers off Slavers and Taskmasters.|
 C Dark Iron|QID|7729|M|47.13,41.49|Z|Searing Gorge|US|N|Kill Taskmasters and Slavers at the camps scattered around or you can go inside the tunnels.|
 C Curse These Fat Fingers|QID|7723|M|47.13,41.49|US|Z|Searing Gorge|N|Finish killing the Heavy War Golems.|
 C Fiery Menace!|QID|7724|M|28.16,54.40|Z|Searing Gorge|US|N|Kill Greater Lava Spiders you find roaming around.|
 T Forging the Shaft|QID|3443|M|39.04,38.99|Z|Searing Gorge|N|To Kalaran Windblade. Skip follow-up.|
-T What the Flux|QID|7722|M|38.81,28.51|Z|Searing Gorge|N|To Master Smith Burninate.|
+T What the Flux?|QID|7722|M|38.81,28.51|Z|Searing Gorge|N|To Master Smith Burninate.|
 T Curse These Fat Fingers|QID|7723|M|38.58,27.81|Z|Searing Gorge|N|To Hansel Heavyhands.|
 T Fiery Menace!|QID|7724|M|38.58,27.81|Z|Searing Gorge|N|To Hansel Heavyhands.|
 T Incendosaurs? Whateverosaur is More Like It|QID|7727|M|38.58,27.81|Z|Searing Gorge|N|To Hansel Heavyhands.|
 T STOLEN: Smithing Tuyere and Lookout's Spyglass|QID|7728|M|38.97,27.51|Z|Searing Gorge|N|To Taskmaster Scrange.|
 T JOB OPPORTUNITY: Culling the Competition|QID|7729|M|38.97,27.51|Z|Searing Gorge|N|To Taskmaster Scrange.|
-T Wanted: Overseer Maltorius|QID|7701|M|37.73,26.56|Z|Searing Gorge|N|To Lookout Captain Lolo LongStriker.|
+T WANTED: Overseer Maltorius|QID|7701|M|37.73,26.56|Z|Searing Gorge|N|To Lookout Captain Lolo LongStriker.|
 A Shadoweaver|QID|3379|M|40.99,74.93|Z|Searing Gorge|N|From Nilith Lokrav.|P|Tailoring;197;0+230;0|
 C Shadoweaver|QID|3379|M|59.00,25.82|Z|Searing Gorge|N|Kill the Shadoweave Poachers. Really easy. Just attack one while they are attacking a spider, run off agro once that target is dead. Pick em off 1 at a time.|P|Tailoring;197;0+230;0|
 T Shadoweaver|QID|3379|M|40.99,74.93|Z|Searing Gorge|N|To Nilith Lokrav.|P|Tailoring;197;0+230;0|
@@ -657,7 +656,7 @@ F Nethergarde Keep|AVAILABLE|2583|M|66.2,62.4|Z|Stormwind City|N|At Dungar Longd
 
 A The Basilisk's Bite|QID|2601|M|50.64,14.30|Z|Blasted Lands|N|From Bloodmage Lynnore.|
 A Vulture's Vigor|QID|2603|M|50.64,14.30|Z|Blasted Lands|N|From Bloodmage Lynnore.|
-A Snickefang Jowls|QID|2581|M|50.55,14.21|Z|Blasted Lands|N|From Bloodmage Drazial.|
+A Snickerfang Jowls|QID|2581|M|50.55,14.21|Z|Blasted Lands|N|From Bloodmage Drazial.|
 A A Boar's Vitality|QID|2583|M|50.55,14.21|Z|Blasted Lands|N|From Bloodmage Drazial.|
 A The Decisive Striker|QID|2585|M|50.55,14.21|Z|Blasted Lands|N|From Bloodmage Drazial.|
 
@@ -673,13 +672,13 @@ l Vultures|QID|1000|ACTIVE|2601^2583|M|PLAYER|Z|Blasted Lands|US|N|Kill Vultures
 
 T The Basilisk's Bite|QID|2601|M|50.64,14.30|Z|Blasted Lands|N|To Bloodmage Lynnore.|
 T Vulture's Vigor|QID|2603|M|50.64,14.30|Z|Blasted Lands|N|To Bloodmage Lynnore.|
-T Snickefang Jowls|QID|2581|M|50.55,14.21|Z|Blasted Lands|N|To Bloodmage Drazial.|
+T Snickerfang Jowls|QID|2581|M|50.55,14.21|Z|Blasted Lands|N|To Bloodmage Drazial.|
 T A Boar's Vitality|QID|2583|M|50.55,14.21|Z|Blasted Lands|N|To Bloodmage Drazial.|
 T The Decisive Striker|QID|2585|M|50.55,14.21|Z|Blasted Lands|N|To Bloodmage Drazial.|
 A Everything Counts In Large Amounts|QID|3501|M|51,35|Z|Blasted Lands|N|From Kum'isha the Collector.|U|10593|
 T Everything Counts In Large Amounts|QID|3501|M|51,35|Z|Blasted Lands|N|From Kum'isha the Collector.|
-l Alterac Swiss|QID|6610|M|63.51,17.01|Z|Blasted Lands|N|Make sure you have the Alterac Swiss for the Clamlette Surprise. From Vendor Bernie Heisten located on the floor level of the Keep. If you already have this banked, manually skip this step.|L|8932 20|
-A Nekrum's Medallion|QID|2991|M|66.90,19.46|Z|Blasted Lands|N|From Thadius Grimshade. Up at the top of the tower.|PRE|2990|
+l Alterac Swiss|ACTIVE|6610|M|63.51,17.01|Z|Blasted Lands|N|Make sure you have the Alterac Swiss for the Clamlette Surprise. From Vendor Bernie Heisten located on the floor level of the Keep. If you already have this banked, manually skip this step.|L|8932 20|
+A Nekrum's Medallion|QID|2991|M|66.90,19.46|Z|Blasted Lands|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Thadius Grimshade. Up at the top of the tower.|PRE|2990|
 
 F Booty Bay|QID|3444|M|65.53,24.34|Z|Blasted Lands|N|Fly to booty bay, though if you have some business to handle in Stormwind like training, go ahead and stop there first.|
 T Deliver to MacKinley|QID|2874|M|27.78,77.07|Z|Stranglethorn Vale|N|To "Sea Wolf" MacKinley.|
@@ -694,12 +693,12 @@ C The Stone Circle|QID|3444|M|62.50,38.55|Z|The Barrens|N|Mavon's Chest on the g
 F Gadgetzan|QID|3444|M|63.08,37.16|Z|The Barrens|N|Fly back to Tanaris|
 C Clamlette Surprise|QID|6610|M|52.63,28.11|Z|Tanaris|S|N|Time to finish this up. If you have stuff banked, remember there is a bank in Gadgetzan.|
 T The Stone Circle|QID|3444|M|52.71,45.92|Z|Tanaris|N|From Mavon Rivetseeker.|PRE|3445|
-A The Prophecy of Mosh'aru|QID|3527|M|67.0,22.4|Z|Tanaris|N|From Yeh'kinya.|PRE|3520|
+A The Prophecy of Mosh'aru|QID|3527|M|67.0,22.4|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Yeh'kinya.|PRE|3520|
 C Clamlette Surprise|QID|6610|M|52.63,28.11|Z|Tanaris|US|N|Time to finish this up. If you have stuff banked, remember there is a bank in Gadgetzan.|
 T Clamlette Surprise|QID|6610|M|52.63,28.11|Z|Tanaris|N|To Dirge Quikcleave. Congrats!|
-A Scarab Shells|QID|2865|M|51.57,26.76|Z|Tanaris|N|From Tran'rek.|
-A Troll Temper|QID|3042|M|51.41,28.75|Z|Tanaris|N|From Trenton Lighthammer.|
-A Divino-matic Rod|QID|2768|M|52.46,28.51|Z|Tanaris|N|From Chief Engineer Bilgewhizzle.|
+A Scarab Shells|QID|2865|M|51.57,26.76|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Tran'rek.|
+A Troll Temper|QID|3042|M|51.41,28.75|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Trenton Lighthammer.|
+A Divino-matic Rod|QID|2768|M|52.46,28.51|Z|Tanaris|ELITE|N|[color=e6cc80]Dungeon: Zul'Farrak[/color]\nFrom Chief Engineer Bilgewhizzle.|
 N Chapter Complete|QID|2770|M|PLAYER|Z|Tanaris|N|You now have everything you need to run Zul'Farrak. This is part of the guide scope, as dungeons are required. This will unlock new quests and will be assumed you did this in Chapter 3.|
 ]]
 end)
