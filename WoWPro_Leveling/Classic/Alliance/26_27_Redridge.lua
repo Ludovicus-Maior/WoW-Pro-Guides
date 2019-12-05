@@ -22,13 +22,13 @@ A An Unwelcome Guest|QID|34|M|21.9,46.3|N|From Martie Jainrose.|
 C An Unwelcome Guest|QID|34|M|16.27,49|N|Kill Bellgrub.|
 T An Unwelcome Guest|QID|34|M|21.9,46.3|N|To Martie Jainrose.|
 C Blackrock Menace|QID|20|M|29.2,11.60|S|N|Kill Orcs until you get the items for this quest.|
-A Missing in Action|QID|219|M|28.4,12.56|N|From Corporal Keeshan.|
-C Missing in Action|QID|219|M|33.4,48.94|N|Escort him out of the cave and back to town.|
-T Missing in Action|QID|219|M|33.4,48.94|N|To Marshal Marris.|
+A Missing In Action|QID|219|M|28.4,12.56|N|From Corporal Keeshan.|
+C Missing In Action|QID|219|M|33.4,48.94|N|Escort him out of the cave and back to town.|
+T Missing In Action|QID|219|M|33.4,48.94|N|To Marshal Marris.|
 C Blackrock Bounty|QID|128|M|29.2,11.60|N|Kill Blackrock Champions.|
 C Blackrock Menace|QID|20|M|47.46,29.39;42.10,12.40|CN|US|N|Kill Orcs until you get the items for this quest.|
 T Blackrock Menace|QID|20|M|33.49,48.99|N|To Marshal Marris.|
-A Tharil'Zun|QID|19|M|33.49,48.99|N|From Marshal Marris.|PRE|20|
+A Tharil'zun|QID|19|M|33.49,48.99|N|From Marshal Marris.|PRE|20|
 A Shadow Magic|QID|115|M|33.49,48.99|N|From Marshal Marris.|PRE|20|
 T Blackrock Bounty|QID|128|M|31.54,57.86|N|To Guard Howe.|
 A Wanted: Gath'Ilzogg|QID|169|M|29.62,46.18|N|From the wanted poster on the townhall archway.|
@@ -47,7 +47,7 @@ C Tharil'Zun|QID|19|M|68.31,59.41|N|Kill Tharil'Zun and loot his head. Elite sur
 C Wanted: Gath'Ilzogg|QID|169|M|67,55|N|Kill and loot Gath'Ilzogg. He is upstairs within Stonewatch Keep.|
 T Looking Further|QID|248|M|63.2,49.8|N|To An Empty Jar, At the top of the tower.|
 C Shadow Magic|QID|115|M|66.77,53.82|US|N|Kill the Blackrock Shadowcasters in the area and loot their orbs.|
-T Tharil'Zun|QID|19|M|33.49,48.99|N|To Marshal Marris.|
+T Tharil'zun|QID|19|M|33.49,48.99|N|To Marshal Marris.|
 T Shadow Magic|QID|115|M|33.49,48.99|N|To Marshal Marris.|
 T Howling in the Hills|QID|126|M|30.96,47.27|N|To Verner Osgood.|
 T Solomon's Law|QID|91|M|29.72,44.26|N|To Bailiff Conacher.|
