@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_alliance
+-- Date: 2019-12-03 21:09
+-- Who: Ludovicus_Maior
+-- Log: AVAILABLE, you idiot.
+
+-- URL: http://wow-pro.com/node/3790/revisions/30449/view
 -- Date: 2019-11-26 20:32
 -- Who: Ludovicus_Maior
 -- Log: Finished [Changing Tides]
@@ -237,7 +242,7 @@ C Changing Tides|QID|56325|M|51.82,34.09|QO|2|US|N|Assault the Gorgonian Overloo
 C Changing Tides|QID|56325|M|51.14,31.91|QO|4|NC|N|Throw the Javelin of Suramar|
 K Lady Zharessa|ACTIVE|56325|M|50.47,23.69|QO|5|T|Lady Zharessa|N|Kill Lady Zharessa.|
 T Changing Tides|QID|56325|M|50.10,24.48|N|To Lady Jaina Proudmoore.|
-f The Tidal Conflux|AVAILIBLE|56358|M|49.80,23.61|N|At Nobu.|
+f The Tidal Conflux|AVAILABLE|56358|M|49.80,23.61|N|At Nobu.|
 A The Eternal Palace: Queen's Gambit|QID|56358|M|50.38,24.09|NA|N|From Lady Jaina Proudmoore.|PRE|56325|
 
 ;zone intro
