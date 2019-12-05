@@ -399,7 +399,7 @@ R Ruins of Zuuldaia|ACTIVE|582|M|20,12|N|Go southwest around the plateau and the
 C Headhunting|QID|582|M|20.00,12.00|Z|Stranglethorn Vale|N|Kill trolls in the area until quest is complete.|
 
 T Headhunting|QID|582|M|32.20,27.70|Z|Stranglethorn Vale|N|To Nimboya, back at Grom'gol base camp.|
-A Bloodscalp Clan Heads|QID|584|PRE|582|Z|Stranglethorn Vale|N|From Nimboya.|
+A Bloodscalp Clan Heads|QID|584|PRE|582|M|32.20,27.70|Z|Stranglethorn Vale|N|From Nimboya.|
 T The Defense of Grom'gol |QID|568|M|32.20,28.90|Z|Stranglethorn Vale|N|To Commander Aggro'gosh.|
 A The Defense of Grom'gol |QID|569|PRE|568|M|32.20,28.90|Z|Stranglethorn Vale|N|From Commander Aggro'gosh.|
 T Mok'thardin's Enchantment |QID|570|M|32.10,29.20|Z|Stranglethorn Vale|N|To Far Seer Mok'thardin.|
