@@ -3,7 +3,7 @@
 
 local guide = WoWPro:RegisterGuide('ClassicRedridge2021', 'Leveling', 'Redridge Mountains', 'Boston', 'Alliance', 1)
 WoWPro:GuideName(guide, 'Redridge 20-21')
-WoWPro:GuideLevels(guide, 14, 20, 20)
+WoWPro:GuideLevels(guide, 20, 20, 20)
 WoWPro:GuideNextGuide(guide, 'ClassicDuskwood2122')
 WoWPro:GuideSteps(guide, function() return [[
 
