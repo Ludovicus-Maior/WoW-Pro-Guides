@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mechagon_neutral
+-- Date: 2019-12-05 21:59
+-- Who: Ludovicus_Maior
+-- Log: Wrong QO for [The Other Place]
+
+-- URL: http://wow-pro.com/node/3791/revisions/30450/view
 -- Date: 2019-11-26 20:34
 -- Who: Ludovicus_Maior
 -- Log: [More Recycling] no longer uses soulbound items for the first pass
@@ -306,7 +311,7 @@ A The Other Place|QID|55816|M|70.19,30.91|N|From Chromie.|O|
 C The Other Place|QID|55816|M|70.22,30.92|QO|1|CHAT|N|Speak with Chromie.|
 A Adapt, Improve, Overcome!|QID|56142|ACTIVE|55816|M|71.84,35.85|N|From Christy Punchcog.|
 C Adapt, Improve, Overcome!|QID|56142|M|73.59,42.33|QO|1|N|Kill Scraphounds to collect Pristine Hound Bolts.|
-C The Other Place|QID|55816|M|41.71,26.30|U|168813|S!US|QO|3|N|Kill Giant Clockworks located all over the island, use the Device Chromie gave you to scan their memory banks.|
+C The Other Place|QID|55816|M|41.71,26.30|U|168813|S!US|QO|2|N|Kill Giant Clockworks located all over the island, use the Device Chromie gave you to scan their memory banks.|
 C Adapt, Improve, Overcome!|QID|56142|M|68.89,26.72|QO|2|N|Kill Sentries to collect Sentry Heel Nut.|
 C Adapt, Improve, Overcome!|QID|56142|M|68.31,31.21|N|Collect Leg Strut XSs.|
 T Adapt, Improve, Overcome!|QID|56142|M|71.84,35.77|N|To Christy Punchcog.|
