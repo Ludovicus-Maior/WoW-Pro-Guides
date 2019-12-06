@@ -27,7 +27,7 @@ R Deadwind Pass|ACTIVE|669|M|44,67;72.7,57.8;81.7,51.2;86.9,39.4|CS|Z|Duskwood|N
 R Swamp of Sorrows|ACTIVE|669|M|37,33;46,32;51,41;58,41|CS|Z|Deadwind Pass|N|Continue East followingg the road thru Deadwind Pass.|
 f Stonard|QID|1393|M|46,54.6|Z|Swamp of Sorrows|N|get the flight point at Breyk.|
 A Neeka Bloodscar|QID|1418|M|47.7,55.2|Z|Swamp of Sorrows|N|From Helgrum the Swift.|
-A Lack of Surplus|QID|698|M|47,54|Z|Swamp of Sorrows|N|From Tok'Kar.|
+A Lack of Surplus|QID|698|M|44.8,57|Z|Swamp of Sorrows|N|From Dar.|
 A Pool of Tears|QID|1424|M|47.9,54.8|Z|Swamp of Sorrows|N|From Fel'zerul.|
 
 R North|QID|698|M|48,41|CC|Z|Swamp of Sorrows|N|First "island" north of Stonard|
