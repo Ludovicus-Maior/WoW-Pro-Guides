@@ -115,9 +115,10 @@ C Investigate the Alchemist Shop|QID|1960|M|51.47,74.48|Z|Undercity|U|7308|N|Use
 C Investigate the Alchemist Shop|QID|1960|M|51.47,74.48|Z|Undercity|U|7247|QO|1|N|Subdue the creatures with your spells and use a coffer to capture them.|R|Undead,Troll|C|Mage|
 T Investigate the Alchemist Shop|QID|1960|M|85.13,10.07|Z|Undercity|N|To Anastasia Hartwell.|R|Undead,Troll|C|Mage|
 A Gathering Materials|QID|1961|M|85.13,10.07|Z|Undercity|N|From Anastasia Hartwell.|PRE|1960|R|Undead,Troll|C|Mage|
+F The Sepulcher|QID|438|M|63.27,48.55|Z|Undercity|N|Fly back to The Sepulcher.|
 
 C Gathering Materials|QID|1961|QO|1,2|N|Collect the Linen and Dalaran Gems you need.|R|Undead,Troll|C|Mage|S|
-C Ambermill Investigations|QID|479|M|55.71,64.46|CC|QO|1|N|Head to Ambermill and kill the residents to collect your Dalaran pendants.\n\n[color=FF0000]NOTE: [/color]The Dalaran Apprentice don't drop them.\nStick to the hillside and it's a little easier to pull them.|
+C Ambermill Investigations|QID|479|M|55.71,64.46|CC|QO|1|N|Head to Ambermill and kill the residents to collect your Dalaran pendants.\n\n[color=FF0000]NOTE: [/color]The Dalaran Apprentice don't drop the pendants.\nStick to the hillside and it's a little easier to pull them.|
 
 L Level 14|QID|479|N|Make sure you are within 4 bubbles of level 14 before heading back to the Sepulcher. You'll be picking up your class quest when you get to Undercity shortly.|LVL|14;-2310|R|Tauren|C|Druid|
 
