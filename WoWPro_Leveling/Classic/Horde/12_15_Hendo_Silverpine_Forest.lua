@@ -84,7 +84,7 @@ C Arugal's Folly|QID|423|M|51.24,36.81;56.60,44.66;56.44,46.06|CC|QO|1;2|N|Head 
 T Border Crossings|QID|477|M|49.92,60.28|CC|N|To the Dalaran Crate.|NC|
 A Maps and Runes|QID|478|M|40.92,60.28|N|From the Dalaran Crate.|PRE|477|
 L Level 15|QID|478|N|Make sure you are within 4.5 bubbles of level 14 before heading back to the Sepulcher. You'll be picking up your class quest when you get to Undercity shortly.|LVL|15;-2970|R|Undead,Troll|C|Mage|
-H The Sepulcher|QID|478|N|Hearth back to The Sepulcher.|
+H The Sepulcher|QID|478|N|Hearth back to The Sepulcher.\nIf you want to save your hearth for Deep Elm Mine, run back to Sepulcher.|
 
 T Maps and Runes|QID|478|M|43.97,40.93|N|To Shadow Priest Allister.|
 A Dalar's Analysis|QID|481|M|43.97,40.93|N|From Shadow Priest Allister.|PRE|478|
@@ -94,26 +94,31 @@ T Dalar's Analysis|QID|481|M|44.20,39.78|N|To Dalar Dawnweaver.|
 A Dalaran's Intentions|QID|482|M|44.20,39.78|N|From Dalar Dawnweaver.|PRE|481|
 T Dalaran's Intentions|QID|482|M|43.97,40.93|N|To Shadow Priest Allister.|
 A Ambermill Investigations|QID|479|M|43.97,40.93|N|From Shadow Priest Allister.|PRE|482|
-C Arugal's Folly|QID|424|M|51.24,36.81;56.60,44.66;56.44,46.06;58.6,44.8|CC|QO|1|N|Run to Deep Elm Mine, fight your way to the back of the mine and kill Grimson the Pale.\nBe prepared to fight your way back out again.|
+C Arugal's Folly|QID|424|M|51.24,36.81;56.60,44.66;56.44,46.06;58.6,44.8|CC|QO|1|N|Run to Deep Elm Mine, fight your way to the back of the mine and kill Grimson the Pale.\nIf your hearth is on CD, be prepared to fight your way back out again.|
 T Arugal's Folly|QID|424|M|44.20,39.78|N|To Dalar Dawnweaver.|
 
 ;-- Mage 'Spellfire Robe' Lv 15 class quest chain
 L Level 15|AVAILABLE|1959|N|You must be lv 15.|LVL|15|R|Undead,Troll|C|Mage|
-F Orgrimmar|AVAILABLE|1959|M|45.50,63.84|N|Fly to Orgrimmar.|R|Undead,Troll|C|Mage|
-A Report to Anastasia|QID|1959|M|39,86|Z|Orgrimmar|N|From Uthel'nay in the Valley of Spirits.|LVL|15|R|Undead,Troll|C|Mage|
-R Leave Orgrimmar|ACTIVE|1959|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|R|Undead,Troll|C|Mage|
-b Tirisfal Glade|ACTIVE|1959|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|R|Undead,Troll|C|Mage|
-R Undercity|ACTIVE|1959|M|61.86,65.04|N|Enter Undercity.|R|Undead,Troll|C|Mage|
-T Report to Anastasia|QID|1959|M|85.13,10.07|Z|Undercity|N|To Anastasia Hartwell in the Magic Quarter.|R|Undead,Troll|C|Mage|
+b Durotar|QID|1358|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|
+R Enter Orgrimmar|QID|1358|M|45.52,12.07|Z|Durotar|CC|N|Make your way to the south entrance.|
+f Origrimmar|QID|1358|M|45.35,63.92|Z|Orgrimmar|N|Doras|TAXI|-Orgrimmar|
+A Report to Anastasia|QID|1959|M|45.35,63.92;39.16,86.27|Z|Orgrimmar|CC|N|From Uthel'nay in the Valley of Spirits.|LVL|15|R|Undead,Troll|C|Mage|
+R Leave Orgrimmar|ACTIVE|1959|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.\nDrop to the lower level using the building roofs|R|Undead,Troll|C|Mage|
+b Tirisfal Glades|ACTIVE|1959|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|R|Undead,Troll|C|Mage|
+R Undercity|ACTIVE|1959|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|R|Undead,Troll|C|Mage|
+T Report to Anastasia|QID|1959|M|69.95,44.19;69.79,41.95;68.41,40.53;66.12,22.61;85.13,10.07|Z|Undercity|CC|N|To Anastasia Hartwell in the Magic Quarter.|R|Undead,Troll|C|Mage|
 A Investigate the Alchemist Shop|QID|1960|M|85.13,10.07|Z|Undercity|N|From Anastasia Hartwell.|PRE|1959|R|Undead,Troll|C|Mage|
-l Quest items|ACTIVE|1960|M|85.13,10.07|Z|Undercity|L|7247,7308|N|Obtain a Cantation of Manifestation and a Chest of Containment Coffers from behind Anastasia. |R|Undead,Troll|C|Mage|
-R Algernon'a alchemist shop|ACTIVE|1960|M|57.3,66.1|Z|Undercity|N|Make your way to Algernon's shop in the Apothecarium|R|Undead,Troll|C|Mage|
-C Investigate the Alchemist Shop|QID|1960|M|85.13,10.07|Z|Undercity|N|R|Undead,Troll|C|Mage|
+l Chest of Containment Coffers|ACTIVE|1960|M|85.13,10.07|Z|Undercity|L|7247|N|Obtain a Chest of Containment Coffers from behind Anastasia.|R|Undead,Troll|C|Mage|
+l Cantation of Manifestation|ACTIVE|1960|M|85.13,10.07|Z|Undercity|L|7308|N|Obtain a Cantation of Manifestation from behind Anastasia.|R|Undead,Troll|C|Mage|
+R Algernon's Alchemist Shop|ACTIVE|1960|M|79.46,23.49;56.68,67.73;51.47,74.48|Z|Undercity|CC|N|Follow the outer ring clockwise to Algernon's shop in the Apothecarium.|R|Undead,Troll|C|Mage|
+C Investigate the Alchemist Shop|QID|1960|M|51.47,74.48|Z|Undercity|U|7308|N|Use the Cantation of Manifestation at the shop to make the creatures visible.|R|Undead,Troll|C|Mage|
+C Investigate the Alchemist Shop|QID|1960|M|51.47,74.48|Z|Undercity|U|7247|QO|1|N|Subdue the creatures with your spells and use a coffer to capture them.|R|Undead,Troll|C|Mage|
 T Investigate the Alchemist Shop|QID|1960|M|85.13,10.07|Z|Undercity|N|To Anastasia Hartwell.|R|Undead,Troll|C|Mage|
 A Gathering Materials|QID|1961|M|85.13,10.07|Z|Undercity|N|From Anastasia Hartwell.|PRE|1960|R|Undead,Troll|C|Mage|
+F The Sepulcher|QID|438|M|63.27,48.55|Z|Undercity|N|Fly back to The Sepulcher.|
 
 C Gathering Materials|QID|1961|QO|1,2|N|Collect the Linen and Dalaran Gems you need.|R|Undead,Troll|C|Mage|S|
-C Ambermill Investigations|QID|479|M|55.71,64.46|CC|QO|1|N|Head to Ambermill and kill the residents to collect your Dalaran pendants.\n\n[color=FF0000]NOTE: [/color]The Dalaran Apprentice don't drop them.\nStick to the hillside and it's a little easier to pull them.|
+C Ambermill Investigations|QID|479|M|55.71,64.46|CC|QO|1|N|Head to Ambermill and kill the residents to collect your Dalaran pendants.\n\n[color=FF0000]NOTE: [/color]The Dalaran Apprentice don't drop the pendants.\nStick to the hillside and it's a little easier to pull them.|
 
 L Level 14|QID|479|N|Make sure you are within 4 bubbles of level 14 before heading back to the Sepulcher. You'll be picking up your class quest when you get to Undercity shortly.|LVL|14;-2310|R|Tauren|C|Druid|
 
