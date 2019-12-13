@@ -72,7 +72,7 @@ T Report to Anastasia|QID|1959|M|85.13,10.07|Z|Undercity|N|To Anastasia Hartwell
 A Investigate the Alchemist Shop|QID|1960|M|85.13,10.07|Z|Undercity|N|From Anastasia Hartwell.|PRE|1959|R|Undead,Troll|C|Mage|
 l Quest items|ACTIVE|1960|M|85.13,10.07|Z|Undercity|L|7247,7308|N|Obtain a Cantation of Manifestation and a Chest of Containment Coffers from behind Anastasia. |R|Undead,Troll|C|Mage|
 R Algernon'a alchemist shop|ACTIVE|1960|M|57.3,66.1|Z|Undercity|N|Make your way to Algernon's shop in the Apothecarium|R|Undead,Troll|C|Mage|
-C Investigate the Alchemist Shop|QID|1960|M|85.13,10.07|Z|Undercity|N|R|Undead,Troll|C|Mage|
+C Investigate the Alchemist Shop|QID|1960|M|85.13,10.07|Z|Undercity|R|Undead,Troll|C|Mage|
 T Investigate the Alchemist Shop|QID|1960|M|85.13,10.07|Z|Undercity|N|To Anastasia Hartwell.|R|Undead,Troll|C|Mage|
 A Gathering Materials|QID|1961|M|85.13,10.07|Z|Undercity|N|From Anastasia Hartwell.|PRE|1960|R|Undead,Troll|C|Mage|
 
