@@ -294,7 +294,7 @@ A Identifying the Brood|QID|1169|M|37.2,33.1|Z|Dustwallow Marsh|N|Get this quest
 R The Den of Flame|ACTIVE|1166|M|40,67|Z|Dustwallow Marsh|N|Ride south to The Den of Flame.|
 C Army of the Black Dragon|QID|1168|M|40,67|Z|Dustwallow Marsh|S|N|Kill every Dragonkin you see, but you can avoid the elites if they are too tough, there are other non-elite scalebanes elsewher.|
 C Identifying the Brood|QID|1169|M|41.8,73.3|Z|Dustwallow Marsh|S|N|Kill whelps and hatchlings until this quest is finished. Lots can be found east and southeast of town.|
-C Mok'Morokk's Grog|QID|1166|QO|1|M|39,66|Z|Dustwallow Marsh|NC|N|Get Mok'Morokk's Grog just outside the cave.|
+C Mok'Morokk's Grog|QID|1166|QO|2|M|39,66|Z|Dustwallow Marsh|NC|N|Get Mok'Morokk's Grog just outside the cave.|
 C Mok'Morokk's Strongbox|QID|1166|QO|3|M|36.63,69.55|Z|Dustwallow Marsh|NC|N|Continue into the cave to find the strong box.|
 R Stonemaul Ruins|ACTIVE|1166|M|40,67|Z|Dustwallow Marsh|N|After you have all the Scalebanes, go next door to the Stonemaul Ruins.|
 C Mok'Morokk's Snuff|QID|1166|QO|1|M|44.50,65.98|Z|Dustwallow Marsh|N|Head for the center of the fortress. That's where Mok'Morokk's snuff is. Keep killing whelps too.|
