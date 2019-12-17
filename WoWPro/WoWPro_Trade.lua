@@ -201,7 +201,8 @@ if WoWPro.CLASSIC then
         ['Leatherworking'] = 2108,
         ['Mining'] = 2575,
         ['Skinning'] = 8613,
-        ['Tailoring'] = 3908
+        ['Tailoring'] = 3908,
+        ['Lockpicking'] = 1809
     }
 
     -- generate a list of localized profession names via GetSpellInfo()
