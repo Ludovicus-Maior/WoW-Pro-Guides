@@ -405,7 +405,7 @@ r Restock, Repair, Sell Junk|ACTIVE|7731|N|Get ready for another circuit of ques
 R The Writhing Deep|QID|7731|N|Bug hunt! Head to Writhing Deep . Kill any wandering treants on the way.|M|75,60|Z|Feralas|
 C Stinglasher|QID|7731|N|Go to the eastern cave entrance and you should find Stinglasher there roaming in and out of the entrance. Kill other insects in the area for the Zukk'Ash carapaces too.|M|75.81,60.92|Z|Feralas|
 C Zukk'ash Infestation|QID|7730|N|Keep killing insects until you have 20 Zukk'Ash carapaces.|M|72.8,62.8|Z|Feralas|
-R Grimtotem Compound|QID|2974|N|Ride back north across the road (killing and looting any wandering treants you see) to the Grimtotem Village. (69.50, 42.00)|Z|Feralas|
+R Grimtotem Compound|QID|2974|N|Ride back north across the road (killing and looting any wandering treants you see) to the Grimtotem Village.|M|69.50,42.00|Z|Feralas|
 C A Grim Discovery |QID|2974|N|Kill grimtotems until you've collected 20 Grimtotem Horns.|M|69.6,47.7|Z|Feralas|
 R Ruins of Isildien|QID|2980|N|Ride back to the road then follow it west to the Ruins of Isildien to kill more orgres.|M|62.00,54.00|Z|Feralas|
 C The Ogres of Feralas |QID|2980|N|You are going to be hunting Maulers, Warlocks, and Shamans and to get the Shamans, you'll have to head south go the big temple at . Once there kill Gordunni Mage-Lords too until one of them drops a Gordunni Orb which starts a quest.|M|59,73|Z|Feralas|
@@ -544,7 +544,7 @@ R Shaol'watha|ACTIVE|7839|QO|1|M|77,61;72.6,53|CS|Z|The Hinterlands|N|Ride to th
 K Trolls|QID|7839|QO|1|M|71,48.6|Z|The Hinterlands|N|Kill the trolls you find in and around the wooden bunker just north of Shaol'watha. Look for the tools here too. There's another bunker just northwest of this one, go there and clear it. Click off this step when you are done.|
 K Razorbeak Skylord|ACTIVE|7830|QO|1|M|59.4,53.7|Z|The Hinterlands|S!US|T|Razorbeak Skylord|N|Keep your eye out for a somewhat rare Razorbeak Skylord.|
 R Skulk Rock|ACTIVE|7829|QO|1|M|57.4,42.6|Z|The Hinterlands|N|On the way to Skull Rock, hunt Savage Owlbeasts, Silvermane Stalkers and Razorbeak Skylord as needed. If you don't get enough, we'll be back later. Clear slimes on top of skulk rock and look for Slagtree's Lost Tools (if you haven't found them already).|
-K Trolls|QID|7839|QO|1|M|70.8,49.5|Z|The Hinterlands|N|Clear slimes and look for Slagtree's Lost Tools (if you haven't found them already). (58,43) West of Skulk Rock you should find another of those wooden bunkers (54,40), clear it.|
+K Trolls|QID|7839|QO|1|M|70.8,49.5|Z|The Hinterlands|N|Clear slimes and look for Slagtree's Lost Tools (if you haven't found them already). West of Skulk Rock you should find another of those wooden bunkers, clear it.|M|58,43;54,40|CN|
 R Agol'watha|ACTIVE|77|M|46,40|Z|The Hinterlands|N|Ride to Agol'watha and clear Oozes and look for Horde Supply Crates.|
 C A Sticky Situation|QID|77|M|47.2,40.3|Z|The Hinterlands|N|Open Horde Supply Crates until you've 10 bottles of Hinterlands Honey Ripple. There's a crate outside too.|
 C Vilebranch Hooligans|QID|7839|M|53.3,38.8;66.4,44.7|CN|Z|The Hinterlands|N|You should have found Smith Slagtree's tools by now, if not, there are two more places to look, if still no tools, you mucst have missed them, go back to Shaol'watha and Skulk Rock and look again.|
@@ -559,7 +559,7 @@ T A Sticky Situation|QID|77|M|20.2,48.3;26.7,48.6|CS|Z|The Hinterlands|N|To Gilv
 A Ripple Delivery|QID|81|PRE|77|M|26.7,48.6|Z|The Hinterlands|N|From Gilveradin Sunchaser.|
 R Valorwind Lake|QID|2641|N|Ride to Valorwind Lake|M|40,61|Z|The Hinterlands|
 C Sprinkle's Secret Ingredient|QID|2641|M|40.04,59.87|Z|The Hinterlands|N|Dive into the lake. On bottom is a mushroom named "Violet Tragan". Loot it but DON'T eat it by mistake or you'll have to run back here for another.|
-R The Altar of Zul|QID|7828|N|Ride to Altar of Zul and, around the base, kill all the Soothsayers you need. We'll get the Scalpers elsewhere).(48,67)|
+R The Altar of Zul|QID|7828|N|Ride to Altar of Zul and, around the base, kill all the Soothsayers you need. We'll get the Scalpers elsewhere).|M|48,67|
 K Vilebranch Soothsayers|QID|7844|QO|2|M|70.8,49.5|Z|The Hinterlands|N|Kill Soothsayers until you have all you need, we'll have another chance at Scalpers later.|
 K Silvermane Howlers|QID|7828|QO|1|M|70.3,58.9|Z|The Hinterlands|N|Heading generally northeast, kill Silvermane Howlers until you have 10.|
 C Stalking the Stalkers|QID|7828|M|80,48|Z|The Hinterlands|N|Head generally northwest toward the waterfall, killing Silvermane Stalkers and Savage Owlbeasts until you've completed both quests.|
