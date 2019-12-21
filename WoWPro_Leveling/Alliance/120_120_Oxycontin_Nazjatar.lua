@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_alliance
+-- Date: 2019-12-21 18:31
+-- Who: Ludovicus_Maior
+-- Log: Newly boosted starter errors.
+
+-- URL: http://wow-pro.com/node/3790/revisions/30451/view
 -- Date: 2019-12-03 21:09
 -- Who: Ludovicus_Maior
 -- Log: AVAILABLE, you idiot.
@@ -242,7 +247,7 @@ C Changing Tides|QID|56325|M|51.82,34.09|QO|2|US|N|Assault the Gorgonian Overloo
 C Changing Tides|QID|56325|M|51.14,31.91|QO|4|NC|N|Throw the Javelin of Suramar|
 K Lady Zharessa|ACTIVE|56325|M|50.47,23.69|QO|5|T|Lady Zharessa|N|Kill Lady Zharessa.|
 T Changing Tides|QID|56325|M|50.10,24.48|N|To Lady Jaina Proudmoore.|
-f The Tidal Conflux|AVAILABLE|56358|M|49.80,23.61|N|At Nobu.|
+f Tidal Conflux|QID|56358|M|49.80,23.61|N|At Nobu.|PRE|56325|
 A The Eternal Palace: Queen's Gambit|QID|56358|M|50.38,24.09|NA|N|From Lady Jaina Proudmoore.|PRE|56325|
 
 ;zone intro
@@ -253,7 +258,7 @@ C Send the Fleet|QID|56043|M|67.99,21.91|Z|Boralus|CHAT|N|Speak to Harbormaster 
 T Send the Fleet|QID|56043|M|48.34,92.61|N|To Genn Greymane.|
 A Upheaval|QID|55095|M|48.34,92.61|N|From Genn Greymane.|PRE|56043|
 T Upheaval|QID|55095|M|48.80,89.33|N|To Lady Jaina Proudmoore.|
-A Descent|QID|54969|M|48.80,89.33|N|From Lady Jaina Proudmoore.|PRE|54969|
+A Descent|QID|54969|M|48.80,89.33|N|From Lady Jaina Proudmoore.|PRE|55095|
 C Descent|QID|54969|M|48.38,88.12|NC|N|Leap off the waterfall.|
 T Descent|QID|54969|M|48.80,87.04|N|To Lady Jaina Proudmoore.|
 A Fortunate Souls|QID|56640|M|48.82,86.89|N|From Shandris Feathermoon.|PRE|54969|
@@ -350,7 +355,7 @@ C A Tempered Blade|QID|56156|M|39.51,53.38|QO|2|N|Return to Mezzamere|
 T A Tempered Blade|QID|56156|M|39.51,53.38|N|To Bladesman Inowari.|
 
 N Requisition/Bounty Quests|N|These are mostly not set to be "sticky", so that the arrow can guide you to the correct area. If you want to make them sticky, you can right click on the step text and choose that option. This note will need to be manually clicked off.|
-U Deepflame Campfire|QID|57040^57041^57042|M|39.43,53.53|N|Be sure and stop by the Deepflame Campfire to pick up your companion.|
+U Deepflame Campfire|QID|57040^57041^57042|M|39.43,53.53|N|Be sure and stop by the Deepflame Campfire to pick up your companion.|PRE|56156|
 N Curse of Tides|BUFF|-304606|M|39.02,57.99|N|If you are affected by the Curse of tides, go to Gloomseeker Yarga to have it removed. He can be found in an underwater cave, located under the shortest waterfall. He trades your cursed item for a bag of gold.|;-304611^304612^-304614^-304619
 
 A WANTED: Lady Naz'jess|QID|55750|M|39.09,54.20|N|From Wanted Poster.|O|;daily
