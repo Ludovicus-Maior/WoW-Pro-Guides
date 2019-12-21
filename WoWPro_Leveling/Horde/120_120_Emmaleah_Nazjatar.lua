@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_horde
+-- Date: 2019-12-21 18:28
+-- Who: Ludovicus_Maior
+-- Log: Playing errors on my boosted Hordie.
+
+-- URL: http://wow-pro.com/node/3789/revisions/30419/view
 -- Date: 2019-09-24 09:20
 -- Who: Emmaleah
 -- Log: minor tweaks. use # for zone in Deteriorating Knowledge
@@ -228,7 +233,7 @@ A A Disturbance Beneath the Earth|QID|55374|M|48.41,72.06|Z|Chamber of Heart!Dun
 C A Disturbance Beneath the Earth|QID|55374|M|48.41,72.06|Z|Chamber of Heart!Dungeon1473|QO|1|CHAT|N|Speak to MOTHER to travel to Highmountain (Optional).|
 C A Disturbance Beneath the Earth|QID|55374|M|49.54,68.37|Z|Highmountain|QO|2|CHAT|N|Ask Spiritwalker Ebonhorn to help you investigate.|
 T A Disturbance Beneath the Earth|QID|55374|M|49.54,68.37|Z|Highmountain|N|To Spiritwalker Ebonhorn.|
-A Take My Hand|QID|55400|M|49.54,68.37|Z|Highmountain|N|From Spiritwalker Ebonhorn.|PRE|53374|
+A Take My Hand|QID|55400|M|49.54,68.37|Z|Highmountain|N|From Spiritwalker Ebonhorn.|PRE|55374|
 C Take My Hand|QID|55400|M|49.63,68.41|Z|Highmountain|CHAT|N|Speak to Navarrogg|
 T Take My Hand|QID|55400|M|26.72,46.20|Z|The Dragon's Spine!Instance|N|To Spiritwalker Ebonhorn.|
 A Calming the Spine|QID|55407|M|26.72,46.20|Z|The Dragon's Spine!Instance|N|From Spiritwalker Ebonhorn.|PRE|55400|
@@ -279,7 +284,7 @@ C Save A Friend|QID|55500|M|35.54,43.46|QO|2|NC|N|Click on Mak to heal.|
 T Save A Friend|QID|55500|M|39.48,46.79;41.13,50.51;52.03,53.22;50.11,65.27|CS|N|To Poen Gillbrack. This is the quest that opens up world quests.|
 
 N Requisition/Bounty Quests|N|These are mostly not set to be "sticky", so that the arrow can guide you to the correct area. If you want to make them sticky, you can right click on the step text and choose that option. This note will need to be manually clicked off.|
-U Calling Conch|QID|57040^57041^57042|M|49.81,64.59|N|Be sure and stop by the Calling Conch to pick up your companion.|
+U Calling Conch|QID|57040^57041^57042|M|49.81,64.59|N|Be sure and stop by the Calling Conch to pick up your companion.|PRE|55500|
 N Curse of Tides|BUFF|-304606|M|39.02,57.99|N|If you are affected by the Curse of tides, go to Gloomseeker Yarga to have it removed. He can be found in an underwater cave, located under the shortest waterfall. He trades your cursed item for a bag of gold.|;-304611^304612^-304614^-304619
 
 A Becoming a Friend|QID|57005|M|50.97,65.22|N|From Atolia Seapearl.|PRE|55500|
@@ -328,7 +333,7 @@ A Rumors of Mechagon|QID|57024|M|48.41,60.63|PRE|55500|N|Disgruntled Laborer. Th
 A The Missing Crew|QID|56379|PRE|55500|M|58.46,62.98|Z|Zuldazar|N|Check this off manually (and pick it up later) if you aren't headed off to Mechagon now or don't find Champions important). From Dread-Admiral Tattersail. This quest is completed in Nazjatar.|NA|
 
 C Scrying Stones|QID|56210|M|49.23,62.06|QO|1|N|Use the Scrying Stone.|
-A Strange Silver Knife|QID|56240|M|39.71,49.16|N|From knife looted in treasure chest you just found.|
+A Strange Silver Knife|QID|56240|M|39.71,49.16|N|From knife looted in treasure chest you just found.|PRE|55500|
 C Scrying Stones|QID|56210|M|46.81,55.99;43.48,53.65;40.28,49.00|CS|QO|2|N|Keep using the scrying stone (extra action button) until you find 3 Hidden Treasures.|
 C The Unshackled|QID|56120|S!US|N|The Unshackled emisary is up, so Complete 4 world quests in Nazjatar.|
 C Bounty: Naga|QID|55827^55818|N|Today you have a bounty for killing Naga, so don't avoid them in your travels.|
@@ -374,7 +379,7 @@ C Making Kelpberry Wine|QID|55638|M|57.84,40.83|QO|2|N|Deliver the Kelpberries t
 C Making Kelpberry Wine|QID|55638|M|57.84,40.83|QO|3|N|Pick up Cask of Kelpberry Juice.|
 T Making Kelpberry Wine|QID|55638|M|57.21,39.52;58.15,35.22|CS|N|To Maedin in underwater cave.|
 
-f Ekka's Hideaway|QID|55530|M|64.00,51.77|N|At Ekka Crimsonscale.|
+f Ekka's Hideaway|ACTIVE|55530|M|64.00,51.77|N|At Ekka Crimsonscale.|
 F Newhome|ACTIVE|55530|M|64.00,51.77|N|At Ekka Crimsonscale.|
 T Scrying Stones|QID|56210|M|49.11,62.16|N|To Finder Pruc.|
 T Strange Silver Knife|QID|56240|M|49.22,62.08|N|To Finder Palta.|
@@ -382,10 +387,10 @@ A Preserved Clues|QID|56242|M|49.22,62.08|N|From Finder Palta.|PRE|56240|
 C A Safer Place|QID|55530|M|47.28,61.17|N|Be sure and swing by the road into Newhome, so Mrrl will notice he is safely here.|
 T A Safer Place|QID|55530|M|46.94,61.45|N|To Mrrl.|
 A No Backs|QID|55529|M|46.94,61.45|N|From Mrrl.|PRE|55530|
-B No Backs|QID|55529|M|46.97,62.38|QO|2|T|Flrgrrl|N|Purchase the Unidentified Mass from Flrgrrl who is swimming in the pond nearby.|
-B No Backs|QID|55529|M|47.72,61.44|QO|3|T|Grrmrlg|N|Purchase the Flatulent Fish from Grrmrlg nearby.|
-B No Backs|QID|55529|M|47.78,63.12|QO|1|T|Hurlgrl|N|Purchase a Sweet Sea Vegetable from Hurlgrl nearby.|
-B No Backs|QID|55529|M|48.28,62.58|QO|4|T|Mrrglrlr|N|Purchase Slimy Naga Eyeball from Mrrglrlr nearby.|
+B No Backs|ACTIVE|55529|M|46.97,62.38|QO|2|T|Flrgrrl|N|Purchase the Unidentified Mass from Flrgrrl who is swimming in the pond nearby.|
+B No Backs|ACTIVE|55529|M|47.72,61.44|QO|3|T|Grrmrlg|N|Purchase the Flatulent Fish from Grrmrlg nearby.|
+B No Backs|ACTIVE|55529|M|47.78,63.12|QO|1|T|Hurlgrl|N|Purchase a Sweet Sea Vegetable from Hurlgrl nearby.|
+B No Backs|ACTIVE|55529|M|48.28,62.58|QO|4|T|Mrrglrlr|N|Purchase Slimy Naga Eyeball from Mrrglrlr nearby.|
 T No Backs|QID|55529|M|46.95,61.44|N|To Mrrl.|
 
 F Ekka's Hideaway|QID|56118|M|47.48,63.24|N|At Iina Bluegill.|
