@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mechagon_neutral
+-- Date: 2019-12-21 18:25
+-- Who: Ludovicus_Maior
+-- Log: CapatilizaTion ErrOrs.
+
+-- URL: http://wow-pro.com/node/3791/revisions/30452/view
 -- Date: 2019-12-05 21:59
 -- Who: Ludovicus_Maior
 -- Log: Wrong QO for [The Other Place]
@@ -402,9 +407,9 @@ T Grounded|QID|56380|M|42.82,29.37|N|To Brian Pitchspark.|;Daily
 C A Direct Approach|QID|56493|M|44.74,34.51|S|N|Kill Tech-Scavengers. If [Waste Not] isn't an available quest today, be sure to get the named Venture Co Goblins for the followup quest.|
 K Lifting Specialist Gogo|ACTIVE|56493|LEAD|56508|M|42,41|L|168682|T|Lifting Specialist Gogo|N|Counts towardsd Direct Approach and gives a chance at a drop to start another quest if [Waste Not] isn't available today. Check off manually after killing if box does not drop.|
 A Waste Not|QID|56508|M|42.18,47.79|N|From Useful Bits and Pieces on the ground.|ACTIVE|56493|LEAD|56501|
-A Taking the Air Out|QID|56501|N|From item dropped by named Venture Co Goblins, mutually exclusive with [Waste Not].|ACTIVE|56493|LEAD|56508|
+A Taking The Air Out|QID|56501|N|From item dropped by named Venture Co Goblins, mutually exclusive with [Waste Not].|ACTIVE|56493|LEAD|56508|
 C Waste Not|QID|56508|M|42.72,33.32|S|NC|N|Pick up the Useful Bits and Pieces.|
-C Taking the Air Out|QID|56501|S!US|U|169681|N|Use the Boom-Tastic 3000 to shoot down the Venture Co. hot air balloons.|
+C Taking The Air Out|QID|56501|S!US|U|169681|N|Use the Boom-Tastic 3000 to shoot down the Venture Co. hot air balloons.|
 K Pummeller Red|ACTIVE|56471|M|43.54,46.76|QO|2|T|Pummeller Red|N|Kill Pummeller Red.|
 K Share Stealer Wonka|ACTIVE|56493|LEAD|56508|M|45.56,47.21|L|168682|T|Share Stealer Wonka|N|Counts towardsd Direct Approach and gives a chance at a drop to start another quest if [Waste Not] isn't available today. Check off manually after killing if box does not drop.|
 K Pummeller Orange|ACTIVE|56471|M|43.54,46.76|QO|3|T|Pummeller Orange|N|Kill Pummeller Orange.|
@@ -595,7 +600,7 @@ T Rico's Rescue|QID|55885|M|75.89,34.36|N|To Razak Ironsides.|
 T One Gnome's Trash|QID|55575|M|73.73,34.29|N|To Moxie Lockspinner.|
 T Unprofitable Ventures|QID|56471|M|72.10,37.11|N|To Moakka.|
 T A Direct Approach|QID|56493|M|72.24,37.31|N|To Scrollsage Nola.|
-T Taking the Air Out|QID|56501|M|72.24,37.31|N|To Scrollsage Nola.|
+T Taking The Air Out|QID|56501|M|72.24,37.31|N|To Scrollsage Nola.|
 T Aid From Nordrassil|QID|55463|M|72.18,37.26|N|To Mylune.|
 T Pirates? I Hate Those Guys!|QID|56469|M|70.47,30.92|N|To Reno Jackson.|
 
