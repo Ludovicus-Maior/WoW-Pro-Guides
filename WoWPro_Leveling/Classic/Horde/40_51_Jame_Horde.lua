@@ -369,8 +369,9 @@ L Level Check|QID|2864|N|You should now be level 46, If you didnt go to Uldaman,
 R Camp Mojache|QID|3121|M|74,45|Z|Feralas|N|Ride back to Camp Mojache. Do NOT turn in [32] War on the Woodpaw (the followup is a timed quest) which we'll start a little later.|
 F Thunder Bluff|ACTIVE|2440|N|Fly to Thunder Bluff (optional) if you did Uldaman and [47] The Platinum Discs quest.|
 t The Platinum Discs|QID|2440|N|Optional: If you've done this quest in Uldaman: Turn it in to Sage Truthseeker on the lower rise, close to the auction house.|
-A Portents of Uldum|QID|2965|PRE|2440|
-T Portents of Uldum|QID|2965|N|To Nara Wildmane on Elder Rise and get the follow up.|
+A Portents of Uldum|QID|2965|PRE|2440|M|34.6,47.2|Z|Thunder Bluff|
+T Portents of Uldum|QID|2965|M|75.6,31.2|Z|Thunder Bluff|N|To Nara Wildmane on Elder Rise and get the follow up.|
+A Seeing What Happens|QID|2966|M|75.6,31.2|Z|Thunder Bluff|N|From Nara Wildmane on Elder Rise.|
 F Orgrimmar|ACTIVE|3121|N|If you are a druid, you can train here, but you still need to go to Orgrimmar to turn in the quest.|
 r Repair, Restock, Sell Junk|ACTIVE|2862|N|Don't forget to Train the new skills.|
 T A Strange Request|QID|3121|N|Find Neeru Fireblade in the Cleft of Shadows and turn in this quest.|M|77.0,37.2|Z|Orgrimmar|
