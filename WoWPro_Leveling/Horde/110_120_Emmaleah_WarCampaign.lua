@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2019-12-21 18:06
+-- Who: Ludovicus_Maior
+-- Log: Kaylynn: This step of the war campign horde side guide has a typo it should be Tell Tattersail, not Tail Tattersail.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30458/view
+-- Date: 2019-12-21 18:05
+-- Who: Ludovicus_Maior
+-- Log: Kaylynn: Horde Warcampaign line 1101 is missing the zone tag.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30439/view
 -- Date: 2019-11-04 00:47
 -- Who: Ludovicus_Maior
 -- Log: 50973, 53405, 53406 gone now
@@ -242,16 +252,6 @@
 -- Who: elidion
 -- Log: One more PRE adjusment, and moved the 4.5k friendly note down with the rest of them.
 
--- URL: http://wow-pro.com/node/3761/revisions/29686/view
--- Date: 2018-09-06 21:01
--- Who: elidion
--- Log: Made a final pass, re-organized the order for optimal display, checked every PRE tag for mistakes, checked that every |S| had a |US| to follow it.
-
--- URL: http://wow-pro.com/node/3761/revisions/29683/view
--- Date: 2018-09-05 11:40
--- Who: Emmaleah
--- Log: Corrected 2nd A [A Mission of Unity] to "t". Moved Warfronts after Uniting Zandalar because that was the order I got them in. First load screen after 120 gave me A mission of Unity, then next load screen, warfronts popped up.
-
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
 WoWPro:GuideName(guide,'War Campaign')
@@ -338,7 +338,7 @@ A A Trip Across the Ocean|QID|51332|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Bli
 T A Trip Across the Ocean|QID|51332|M|58.45,62.64|Z|Zuldazar|N|To Trade Prince Gallywix below deck.|
 A Drustvar Ho!|QID|51340|M|58.45,62.64|Z|Zuldazar|N|From Trade Prince Gallywix.|PRE|51332|
 C Drustvar Ho!|QID|51340|M|58.55,62.72|Z|Zuldazar|QO|1|CHAT|N|Speak with Eitrigg, who is one level above you.|
-C Drustvar Ho!|QID|51340|M|58.46,62.99|Z|Zuldazar|QO|2|CHAT|N|Tail Tattersail you are ready to sail to Drustvar.|
+C Drustvar Ho!|QID|51340|M|58.46,62.99|Z|Zuldazar|QO|2|CHAT|N|Tell Tattersail you are ready to sail to Drustvar.|
 T Drustvar Ho!|QID|51340|M|20.79,43.85|Z|Drustvar|N|To Eitrigg.|
 A Profit and Reconnaissance|QID|51224|M|20.79,43.85|Z|Drustvar|N|From Eitrigg.|PRE|51340|
 f Anyport|ACTIVE|51224|M|19.12,43.32|Z|Drustvar|N|At Tan Lotuswind.|
@@ -1098,7 +1098,7 @@ C None Shall Escape|QID|54269|M|32.58,44.51|Z|Nazmir|QO|1<3|T|Telaamon's Mirror 
 C Breaking Mirrors|QID|54270|QO|1|M|31.40,45.54;30.98,45.09|CS|Z|Nazmir|T|Telaamon's Mirror Image|N|Kill Telaamon's Mirror Image to aid Witch Doctor Kejabu.|
 C None Shall Escape|QID|54269|M|30.78,48.32|Z|Nazmir|QO|1|NC|N|Destroy the last mole machine.|
 C Zandalari Justice|QID|54249|M|30.61,47.84|Z|Nazmir|US|N|Finish your quota of alliance.|
-R The Fall|ACTIVE|54269|M|31.61,46.51;31.25,46.83|CS|N|Run down into Hir'eek's lair to turn in.|
+R The Fall|ACTIVE|54269|M|31.61,46.51;31.25,46.83|Z|Nazmir|CS|N|Run down into Hir'eek's lair to turn in.|
 T Zandalari Justice|QID|54249|M|31.25,46.83|Z|Nazmir|N|To Rokhan.|
 T None Shall Escape|QID|54269|M|31.25,46.83|Z|Nazmir|N|To Rokhan.|
 T Breaking Mirrors|QID|54270|M|31.25,46.83|Z|Nazmir|N|To Rokhan.|
