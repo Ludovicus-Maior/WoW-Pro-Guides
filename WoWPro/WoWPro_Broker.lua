@@ -201,6 +201,17 @@ function WoWPro:QuestAvailible(QIDs, debug, why)
     return value
 end
 
+function WoWPro:QuestFailed(QIDs, debug, why)
+    if debug or quids_debug then
+        WoWPro:dbp("WoWPro:QuestFailed(%s)",tostring(QIDs))
+    end
+    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return WoWPro.QuestLog[qid] and tonumber(WoWPro.QuestLog[qid]['complete']) and WoWPro.QuestLog[qid]['complete'] < 0; end, why or "QuestFailed", debug or quids_debug)
+    if debug or quids_debug then
+        WoWPro:dbp("WoWPro:QuestFailed(%s) return %s",tostring(QIDs),tostring(value))
+    end
+    return value
+end
+
 local OBJECTIVE_PATTERN = "^(%d+)([<=>]*)(%d*)$"
 function WoWPro.ValidObjective(questtext)
     local objective, operator, target = string.match(questtext,OBJECTIVE_PATTERN)
@@ -1367,7 +1378,21 @@ function WoWPro.NextStep(k,i)
     		end
     	end
 
-        -- Select the right C step with the QG tag that matches the gossip
+        -- A FAIL step is skipped unless the quest is failed
+        if WoWPro:QIDsInTable(QID,WoWPro.QuestLog) and
+           WoWPro.fail[k] then
+            if WoWPro:QuestFailed(QID) then
+                WoWPro:dbp("Step %s [%s] has failed %s",WoWPro.action[k],WoWPro.step[k],QID)
+                WoWPro.why[k] = "Quest has been failed!"
+            else
+                WoWPro:dbp("Step %s [%s] has not failed %s",WoWPro.action[k],WoWPro.step[k],QID)
+                WoWPro.why[k] = "Quest has not failed yet"
+                skip = true
+                break
+            end
+        end
+
+		-- Select the right C step with the QG tag that matches the gossip
         if WoWPro.GossipText and WoWPro.gossip[k] and  not WoWProCharDB.Guide[GID].completion[k] then
             -- is gossip in GossipText?
             if string.find(WoWPro.GossipText, WoWPro.gossip[k], 1 , true) then
