@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2019-12-29 22:37
+-- Who: Ludovicus_Maior
+-- Log: Heart of Azeroth questline - Level 65
+
+-- URL: http://wow-pro.com/node/3760/revisions/30448/view
 -- Date: 2019-11-18 21:00
 -- Who: Ludovicus_Maior
 -- Log:  Heart of Azeroth questline - Level 54/60, [Feathers Before the Storm], 8.1.5 War Campaign bits.
@@ -248,11 +253,6 @@
 -- Date: 2018-09-13 06:15
 -- Who: elidion
 -- Log: Added Honored Outpost missions
-
--- URL: http://wow-pro.com/node/3760/revisions/29735/view
--- Date: 2018-09-12 00:54
--- Who: jovieve
--- Log: Added PRE tags
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -697,6 +697,21 @@ C In the Shadow of Crimson Wings|QID|55657|M|45.78,86.30|Z|Twilight Highlands!In
 C In the Shadow of Crimson Wings|QID|55657|M|46.44,86.44|Z|Twilight Highlands!Instance|QO|6|N|Ride Corastrasza to Silithus|
 N Afterwards|ACTIVE|55657|N|Alexstrasza will make a speech and leave you with a Scale.  Open the Heart Forge and then click on the scale to upgrade to rank 3|
 T In the Shadow of Crimson Wings|QID|55657|M|54.18,65.96|Z|Chamber of Heart!Dungeon1473|N|To Alexstrasza the Life-Binder.|
+
+; Heart of Azeroth questline - Level 65
+A Back to the Chamber|QID|56262|M|75.05,14.97|Z|Boralus|N|From Earthen Guardian.|
+T Supplies Needed: Shimmerscale|QID|51032|M|41.41,45.19|Z|Silithus|
+T Back to the Chamber|QID|56262|M|50.12,59.17|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
+A An Old Scar|QID|55732|M|50.12,59.17|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|
+P Maelstrom|QID|123|M|48.17,72.28|N|Ask MOTHER for a portal to the scenario|
+C An Old Scar|QID|55732|M|48.18,72.28|Z|Chamber of Heart!Dungeon1473|QO|1|N|1/1 Speak to MOTHER to Travel to the Maelstrom|
+T An Old Scar|QID|55732|M|33.72,54.58|Z|The Maelstrom - Heart of Azeroth!Instance|N|To Magni Bronzebeard.|
+A Defending the Maelstrom|QID|55735|M|33.72,54.58|Z|The Maelstrom - Heart of Azeroth!Instance|N|From Magni Bronzebeard.|
+C Defending the Maelstrom|QID|55735|M|30.80,53.44|Z|The Maelstrom - Heart of Azeroth!Instance|QO|2|N|1/1 Azerite Giant slain|
+C Defending the Maelstrom|QID|55735|M|28.39,29.36|Z|The Maelstrom - Heart of Azeroth!Instance|QO|1|N|Defend the Maelstrom by defeating enemies and healing wounds|
+T Defending the Maelstrom|QID|55735|M|33.74,54.55|Z|The Maelstrom - Heart of Azeroth!Instance|N|To Magni Bronzebeard.|
+A At the Azerite Time|QID|55737|M|33.74,54.55|Z|The Maelstrom - Heart of Azeroth!Instance|N|From Magni Bronzebeard.|
+T At the Azerite Time|QID|55737|M|48.11,72.24|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
 
 ; 4.5k Friendly with The 7th Legion
 A Operation: Blood Arrow|QID|53069|M|69.28,27.00|Z|Boralus|N|Autoaccepted.|O|REP|7th Legion;2159;friendly;4500|PRE|52146|
