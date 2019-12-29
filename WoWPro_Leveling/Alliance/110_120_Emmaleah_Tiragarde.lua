@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2019-12-29 22:38
+-- Who: Ludovicus_Maior
+-- Log: Playthrough corrections
+
+-- URL: http://wow-pro.com/node/3769/revisions/30235/view
 -- Date: 2019-03-15 23:28
 -- Who: Ludovicus_Maior
 -- Log: Added coords for [Black-Eyed Bart] and corrected [A Bundle of Furs]
@@ -547,7 +552,6 @@ $ Scrimshaw Cache|QID|52870|Z|Boralus|M|64.79,12.39;62.85,11.84;61.72,10.61|CS|N
 A A Bundle of Furs|QID|51144|M|74.81,23.65|N|From "Risky" Liz Seminario.|RANK|2|
 A Trouble at Greystone Keep|QID|49715|M|74.12,22.55|N|From Courier Gerald.|LEAD|49733^51226|RANK|3|
 T A Bad Deal|QID|49523|M|75.47,22.18|N|To Roko. This has a followup to come back for at 120.|
-A The Long Con|QID|49223|LVL|120|M|75.47,22.18|N|From Roko.|RANK|3|PRE|49523|
 T Proudmoore's Parley|QID|50972|M|73.81,25.12|N|To Genn Greymane.|
 
 A Tol Dagor: The Ashvane Overseer|QID|52800|M|73.80,25.08|NA|N|From Cyrus Crestfall. This is a dungeon quest.|LVL|115|RANK|2|
@@ -853,8 +857,8 @@ A Warm and Cozy|QID|49431|M|44.93,15.48|N|From Griddon.|RANK|2|PRE|49418|
 C Warm and Cozy|QID|49431|M|45.38,14.38|S|N|Kill Steam Elementals for their Steamy Essence. Also can be picked up from the ground is 'steamy shards'.|
 C Frozen|QID|49419|M|48.42,14.55|N|Kill Prince Rathaw to loot his Fiery Essence.|T|Prince Rathaw|
 C Warm and Cozy|QID|49431|M|45.38,14.38|US|N|Finish collecting the Steamy Essences.|
-T Frozen|QID|49419|M|43.69,15.22|N|To "Helpless" Henry.|
 T Warm and Cozy|QID|49431|M|44.90,15.53|N|To Griddon.|
+T Frozen|QID|49419|M|43.69,15.22|N|To "Helpless" Henry.|
 C Where'd They Go?|QID|49435|M|41.55,13.91|QO|3|NC|N|Search for more clues|
 C Where'd They Go?|QID|49435|M|39.67,13.38|QO|4|NC|N|Find the Roughneck's last location|
 T Where'd They Go?|QID|49435|M|39.67,13.38|N|To Boss Tak.|
@@ -866,7 +870,7 @@ C Wendies|QID|49433|M|39.82,13.11|US|N|Finish kill Wendigos.|
 T Wendies|QID|49433|M|40.42,13.75|N|To Boss Tak.|
 A Getting Paid|QID|49719|M|40.42,13.75|N|From Boss Tak.|RANK|2|PRE|49439&49433|
 T Getting Paid|QID|49719|M|42.39,22.28|N|To Tagart.|
-$ Smugglar's Cache|QID|50097|M|38.47,20.77|N|Click on the Smugglar's Cache to start short vignette - Ends with Captain Wintersail - Silver Elite to kill and loot for reasources and treasure.|RARE|ITEM|155422|RANK|3|
+$ Smuggler's Cache|QID|50097|M|38.8,22.0;38.47,20.77|CC|N|Inside a cave. Click on the Smuggler's Cache to start short vignette - Ends with Captain Wintersail - Silver Elite to kill and loot for reasources and treasure.|RARE|ITEM|155422|RANK|3|
 
 R Anglepoint Wharf|ACTIVE|48347|M|40.94,24.41;42.30,27.25|CS|N|Take the footpath down the hill to Anglepoint Wharf.|
 $ Buried Treasure-Soggy Treasure Map|QID|52807|M|54.99,46.08|Z|Tiragarde Sound|N|If you have looted the Soggy Treasure Map, this treasure can be found on the ocean floor.|PRE|52853|RANK|3|
@@ -951,6 +955,7 @@ T Those Aren't Fish Eggs|QID|48367|M|34.95,24.21|N|To Rosaline Madison, back up 
 T Eldritch Invocations|QID|48372|M|35.21,24.19|N|To Brannon Stormsong.|
 T Death in the Depths|QID|48370|M|35.21,24.19|N|To Brannon Stormsong.|
 T Deep Sea Defilement|QID|48368|M|35.24,24.27|N|To Brother Therold.|
+t WANTED: Quartermaster Ssylis|QID|51384|M|35.25,24.18|N|To Keegan Alby.|
 A The Deadliest Catch|QID|49302|M|34.94,24.21|N|From Rosaline Madison.|PRE|48370&48372&48368&48367|
 
 C The Deadliest Catch|QID|49302|M|35.29,24.57|QO|1|CHAT|N|Speak to Okri for a ride.|
@@ -959,11 +964,10 @@ C The Deadliest Catch|QID|49302|M|36.32,29.82|QO|3|NC|N|Shoot down the Erupting 
 C The Deadliest Catch|QID|49302|M|36.37,29.45|QO|4|CHAT|N|Tell the Outrigger Engineer to fire!.|
 C The Deadliest Catch|QID|49302|M|36.77,29.71|QO|5|NC|N|Hop on the Outrigger Gryphon for a ride to town.|
 T The Deadliest Catch|QID|49302|M|42.46,29.34|N|To Brannon Stormsong.|
-t WANTED: Quartermaster Ssylis|QID|51384|M|42.43,29.31|N|To Keegan Alby.|
 H Tradewinds Market|TZ|Snug Harbor Inn|N|Hearth or take the nearby ferry back to Boralus.|
-A The Long Con|QID|49223|LVL|120|M|75.47,22.18|N|From Roko.|RANK|3|PRE|49523|
-K Carentan|ACTIVE|49223|QO|1|LVL|120|M|61.3,41.7|T|Carentan|N|Kill Carentan.|RANK|3|
-T The Long Con|QID|49223|LVL|120|M|75.47,22.18|N|To Roko.|RANK|3|
+A The Long Con|QID|49223|LVL|120|M|75.47,22.18|Z|Boralus|N|From Roko.|RANK|3|PRE|49523|
+K Carentan|ACTIVE|49223|QO|1|LVL|120|M|61.44,39.10|Z|Boralus|T|Carentan|N|Kill Carentan.|RANK|3|
+T The Long Con|QID|49223|LVL|120|M|75.47,22.18|Z|Boralus|N|To Roko.|RANK|3|
 
 D This ends the Tiragarde Sound Guide.|
 
