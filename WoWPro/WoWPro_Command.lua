@@ -48,7 +48,7 @@ local function handler(msg, editbox)
 		end
         local msg = string.format("WoWPro taint report logged to debug log.")
         ChatFrame1:AddMessage(msg)
-        msg = string.format("Global taint log in: <World\ of\ Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua ")
+        msg = string.format("Global taint log in: <World of Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua ")
         ChatFrame1:AddMessage(msg)
     elseif ltoken == "buffs" then
         for i=1,40 do
@@ -77,7 +77,7 @@ local function handler(msg, editbox)
                 end
             end
         end
-        local msg = string.format("Blizzard API stored in: <World\ of\ Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua ")
+        local msg = string.format("Blizzard API stored in: <World of Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua ")
         ChatFrame1:AddMessage(msg)
     else
         local msg = string.format("%s or %s [where¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe]", SLASH_WOWPRO1, SLASH_WOWPRO2)

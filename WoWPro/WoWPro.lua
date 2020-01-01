@@ -790,7 +790,7 @@ function WoWPro:GuideClassSpecific(guide,class)
     local locClass, engClass = UnitClass("player")
 
     class = strupper(class)
-    guide.icon = "Interface\Glues\CharacterCreate\UI-CharacterCreate-Classes"
+    guide.icon = "Interface\\Glues\\CharacterCreate\\UI-CharacterCreate-Classes"
     guide.icon_offsets = CLASS_ICON_TCOORDS[class]
     guide.class = class
 
