@@ -6,33 +6,49 @@ WoWPro:GuideLevels(guide,1, 12)
 WoWPro:GuideNextGuide(guide, 'Classic-12-15-Hendo-Silverpine-Forest')
 WoWPro:GuideSteps(guide, function() return [[
 
-N Hey|QID|4641|N|This is a new written guide by TheRealHendo.  If you find a problem, please report it on Discord in #classic-bug-reports .  Enjoy and thanks!|
+N Welcome!|QID|4641|N|This is a new guide written by TheRealHendo.\nIf you find a problem, please report it on Discord in #classic-bug-reports .  Enjoy and thanks!|
 A Your Place In The World|QID|4641|M|43.29,68.57|N|From Kaltunk.|
 T Your Place In The World|QID|4641|M|42.10,68.35|N|To Gornek.|
 A Cutting Teeth|QID|788|M|42.10,68.35|N|From Gornek.|
-C Cutting Teeth|QID|788|M|44.23,66.39|CC|QO|1|N|Kill Mottled boars. They are all over this area.|
+C Cutting Teeth|QID|788|M|44.23,66.39|CC|QO|1|N|Kill Mottled boars. They are all over this area.|S|
+A Vile Familiars|QID|1485|M|42.59,69.00|N|From Ruzan. This is your first Warlock class quest to unlock your Imp.|R|Orc,Troll|C|Warlock|
+C Vile Familiars|QID|1485|M|45.17,57.12|QO|1|N|Kill the Vile Familiars in front of the cave.\nDon't worry about their level. They don't hit very hard if you are using your Demon Skin buff.|R|Orc,Troll|C|Warlock|
+C Cutting Teeth|QID|788|M|44.23,66.39|CC|QO|1|N|Kill Mottled boars. They are all over this area.|US|
 
-r Sell junk|QID|788|M|42.61,67.36|N|At Duokna to pay for your upcoming training.|
+r Sell junk/reload|QID|788|M|42.61,67.36|N|At Duokna to pay for your upcoming training. Do not go to the vendors inside the Den. You will need the money that will be spent on repairs.\nRight-click to close this step.|
+T Vile Familiars|QID|1485|M|42.59,69.00|N|To Ruzan.|R|Orc,Troll|C|Warlock|
+A Vile Familiars|QID|1499|M|42.59,69.00|N|From Ruzan.|PRE|1485|R|Orc,Troll|C|Warlock|
+T Vile Familiars|QID|1499|M|42.89,69.13|N|To Zureetha Fargaze.|R|Orc,Troll|C|Warlock|
+A Burning Blade Medallion|QID|794|M|42.89,69.13|N|From Zureetha Fargaze.|PRE|792^1499|C|Warlock|
+
 T Cutting Teeth|QID|788|M|42.06,68.33|N|To Gornek.|
 A Sting of the Scorpid|QID|789|M|42.06,68.33|N|From Gornek.|
 C Sting of the Scorpid|QID|789|M|41.61,63.61|CC|QO|1|N|Kill Scorpid Workers for their tails.|S|
 
 ; --- First class quests
-A Simple Parchment|QID|2383|M|42.06,68.33|N|From Gornek.|PRE|788|R|Orc,Troll|C|Warrior|
-A Etched Tablet|QID|3082|M|42.06,68.33|N|From Gornek.|PRE|788|R|Orc,Troll|C|Hunter|
-A Encrypted Tablet|QID|3083|M|42.06,68.33|N|From Gornek.|PRE|788|R|Orc,Troll|C|Rogue|
-A Rune-Inscribed Tablet|QID|3084|M|42.06,68.33|N|From Gornek.|PRE|788|R|Orc,Troll|C|Shaman|
+A Simple Parchment|QID|2383|M|42.06,68.33|N|From Gornek.|PRE|788|R|Orc|C|Warrior|
+A Simple Tablet|QID|3065|M|42.06,68.33|N|From Gornek.|PRE|788|R|Troll|C|Warrior|
+A Etched Tablet|QID|3082|M|42.06,68.33|N|From Gornek.|PRE|788|R|Troll|C|Hunter|
+A Encrypted Tablet|QID|3083|M|42.06,68.33|N|From Gornek.|PRE|788|R|Troll|C|Rogue|
+A Rune-Inscribed Tablet|QID|3084|M|42.06,68.33|N|From Gornek.|PRE|788|R|Troll|C|Shaman|
 A Hallowed Tablet|QID|3085|M|42.06,68.33|N|From Gornek.|PRE|788|R|Troll|C|Priest|
 A Glyphic Tablet|QID|3086|M|42.06,68.33|N|From Gornek.|PRE|788|R|Troll|C|Mage|
+A Etched Parchment|QID|3087|M|42.06,68.33|N|From Gornek.|PRE|788|R|Orc|C|Hunter|
+A Encrypted Parchment|QID|3088|M|42.06,68.33|N|From Gornek.|PRE|788|R|Orc|C|Rogue|
+A Rune-Inscribed Parchment|QID|3089|M|42.06,68.33|N|From Gornek.|PRE|788|R|Orc|C|Shaman|
 A Tainted Parchment|QID|3090|M|42.06,68.33|N|From Gornek.|PRE|788|R|Orc|C|Warlock|
 
-T Simple Parchment|QID|2383|M|42.89,69.44|N|To Frang. Also train your new skills.|R|Orc,Troll|C|Warrior|
-T Etched Tablet|QID|3082|M|42.83,69.33|N|To Jen'shan. Also train your new skills.|R|Orc,Troll|C|Hunter|
-T Encrypted Tablet|QID|3083|M|41.27,68.00|N|To Rwag. Also train your new skills.|R|Orc,Troll|C|Rogue|
-T Rune-Inscribed Tablet|QID|3084|M|42.39,69.00|N|To Shikrik. Also train your new skills.|R|Orc,Troll|C|Shaman|
+T Simple Parchment|QID|2383|M|42.89,69.44|N|To Frang. Also train your new skills.|R|Orc|C|Warrior|
+T Simple Tablet|QID|3065|M|42.89,69.44|N|To Frang. Also train your new skills.|R|Troll|C|Warrior|
+T Etched Tablet|QID|3082|M|42.83,69.33|N|To Jen'shan. Also train your new skills.|R|Troll|C|Hunter|
+T Encrypted Tablet|QID|3083|M|41.27,68.00|N|To Rwag about halfway in the Den. Also train your new skills.|R|Troll|C|Rogue|
+T Rune-Inscribed Tablet|QID|3084|M|42.39,69.00|N|To Shikrik. Also train your new skills.|R|Troll|C|Shaman|
 T Hallowed Tablet|QID|3085|M|42.37,68.81|N|To Ken'jai. Also train your new skills.|R|Troll|C|Priest|
 T Glyphic Tablet|QID|3086|M|42.51,69.04|N|To Mai'ah. Also train your new skills.|R|Troll|C|Mage|
-T Tainted Parchment|QID|3090|M|40.65,68.50|N|To Nartok deep inside the cave. Also train your new skills.|R|Orc|C|Warlock|
+T Etched Parchment|QID|3087|M|42.83,69.33|N|To Jen'shan. Also train your new skills.|R|Orc|C|Hunter|
+T Encrypted Parchment|QID|3088|M|41.27,68.00|N|To Rwag about halfway in the Den. Also train your new skills.|R|Orc|C|Rogue|
+T Rune-Inscribed Parchment|QID|3089|M|42.39,69.00|N|To Shikrik. Also train your new skills.|R|Orc|C|Shaman|
+T Tainted Parchment|QID|3090|N|To Nartok at the very back of the Den. Also train your new skills.|R|Orc|C|Warlock|
 ; ---
 
 A Galgar's Cactus Apple Surprise|QID|4402|M|42.72,67.25|N|From Galgar.|
@@ -46,20 +62,19 @@ C Galgar's Cactus Apple Surprise|QID|4402|QO|1|N|Finish collecting your Cactus a
 L Level 4|N|Grind until your xp bar is at least halfway to level 4. The three quests we are about to turn in will make you level.|LVL|3;-700|
 
 T Galgar's Cactus Apple Surprise|QID|4402|M|42.76,67.28|N|To Galgar.|
-r Sell junk|QID|789^804|M|42.59,67.39|N|At Duokna. Make sure you have room to turn in your quests.|
+r Sell junk/reload|QID|789^804|M|42.59,67.39|N|At Duokna. Make sure you have room to turn in your quests.\nRight-click this step when you're done.|
 T Sting of the Scorpid|QID|789|M|42.09,68.34|N|To Gornek.|
 T Sarkoth|QID|804|M|42.09,68.34|N|To Gornek.|
-N Train|QID|5441|N|Go visit your trainer and learn your level 4 skills/spells.|
-A Vile Familiars|QID|792|M|42.85,69.08|N|From Zureetha Fargaze.|
+N Train|QID|5441|N|Go visit your trainer and learn your level 4 skills/spells.\nRight-click this step when you are done.|
+A Vile Familiars|QID|792|M|42.85,69.08|N|From Zureetha Fargaze.|C|-Warlock|
 A Lazy Peons|QID|5441|M|44.62,68.65|N|From Foreman Thazz'ril.|
 C Lazy Peons|QID|5441|QO|1|U|16114|T|Lazy Peon|N|Target sleeping Lazy Peons and use the Foreman's Blackjack on them. Look for the piles of wood logs.|S|NC|
-
-C Vile Familiars|QID|792|M|45.17,57.12|N|Kill Vile Familiars in front of the cave.|
+C Vile Familiars|QID|792|M|45.17,57.12|QO|1|N|Kill Vile Familiars in front of the cave.|
 C Lazy Peons|QID|5441|QO|1|U|16114|T|Lazy Peon|N|Finish waking the Lazy Peons.|US|NC|
 T Lazy Peons|QID|5441|M|44.61,68.57|N|To Foreman Thazz'ril.|
 A Thazz'ril's Pick|QID|6394|M|44.61,68.57|N|From Foreman Thazz'ril.|PRE|5441|
-T Vile Familiars|QID|792|M|42.89,69.13|N|To Zureetha Fargaze.|
-A Burning Blade Medallion|QID|794|M|42.89,69.13|N|From Zureetha Fargaze.|PRE|792|
+T Vile Familiars|QID|792|M|42.89,69.13|N|To Zureetha Fargaze.|C|-Warlock|
+A Burning Blade Medallion|QID|794|M|42.89,69.13|N|From Zureetha Fargaze.|PRE|792^1499|
 
 ; --- Shaman Earth Totem quest
 T Call of Earth|QID|1516|M|42.41,69.16|N|To Canaga Earthcaller.|R|Orc,Troll|C|Shaman|
@@ -69,8 +84,8 @@ A Call of Earth|QID|1518|M|44.02,76.17|N|From Minor Manifestation of Earth.|PRE|
 T Call of Earth|QID|1518|M|42.41,69.16|N|To Canaga Earthcaller.|R|Orc,Troll|C|Shaman|
 ; ---
 
-r Repair/Restock|QID|794|M|42.59,67.39|N|At Duokna.|
-R Cave Entrance|QID|6394|M|45.33,56.43|CC|
+r Sell junk/reload|QID|794|M|42.59,67.39|N|At Duokna.\nRight-click this step when done.|
+R Cave Entrance|QID|6394|M|45.33,56.43|CC|N|Head back to the cave entrance you were just at.|
 C Burning Blade Medallion|QID|794|M|43.74,52.55;42.70,52.91|CC|QO|1|N|Follow the stream down to the waterfall. Kill Yarrog Baneshadow and loot the Burning Blade Medallion from him.|
 C Thazz'ril's Pick|QID|6394|M|42.96,53.30;43.00,53.51;43.75,53.77|CC|QO|1|N|Drop off the ledge. Make your way to the other side, atop the waterfall. Follow the stream to the pool at the top. On the far side of the pool, you'll find the Pick leaning against a spire.|NC|
 T Thazz'ril's Pick|QID|6394|M|44.63,68.59|N|Leave the cave and return to Foreman Thazz'ril.|
@@ -275,7 +290,7 @@ C Hidden Enemies|QID|5726|QO|1|N|Kill Burning Blade Apprentices and Fanatics for
 T Skull Rock|QID|827|M|56.41,20.00|N|To Margoz.|
 A Neeru Fireblade|QID|829|M|56.41,20.00|N|From Margoz.|
 N Eye of the Burning Shadow|AVAILABLE|832|N|If you are lucky enough to get this item to drop for you, accept the quest.\nOtherwise, carry on with the guide.|
-A Burning Shadows|AVAILABLE|832|U|4903|N|Accept the quest from the Eye of Burning Shadow.|
+A Burning Shadows|QID|832|U|4903|N|Accept the quest from the Eye of Burning Shadow.|
 
 R Orgrimmar|QID|5726|M|45.52,12.07|CC|N|Head back to Orgrimmar.|
 T Hidden Enemies|QID|5726|M|52.33,84.15;49.66,60.39;52.65,57.20;59.28,47.18;55.59,37.06;31.92,37.80|Z|Orgrimmar|CC|N|To Thrall.|
