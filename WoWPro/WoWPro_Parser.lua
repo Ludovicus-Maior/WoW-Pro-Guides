@@ -1,3 +1,7 @@
+-- luacheck: globals tostring tonumber strsplit strtrim
+-- luacheck: globals max min
+-- luacheck: globals pairs select type
+
 -----------------------------
 --      WoWPro_Parser      --
 -----------------------------
@@ -32,7 +36,7 @@ WoWPro.actiontypes = {
 	d = "Interface\\AddOns\\WoWPro\\Textures\\dead.tga",
 	s = "Interface\\Icons\\Spell_Shadow_DeathScream",
 }
-if UnitFactionGroup("player") == 'Alliance' then
+if _G.UnitFactionGroup("player") == 'Alliance' then
     WoWPro.actiontypes['P'] = "Interface\\MINIMAP\\Vehicle-AllianceMagePortal"
 else
     WoWPro.actiontypes['P'] = "Interface\\MINIMAP\\Vehicle-HordeMagePortal"
@@ -645,15 +649,15 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     if WoWPro.ach[i] and not WoWPro.note[i] then
         WoWPro.note[i] = ""
     	local achnum, achitem = string.split(";",WoWPro.ach[i])
-    	local count = GetAchievementNumCriteria(achnum)
-    	local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = GetAchievementInfo(achnum)
+    	local count = _G.GetAchievementNumCriteria(achnum)
+    	local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = _G.GetAchievementInfo(achnum)
     	if WoWPro.step[i] == "Achievement" and count == 0 then
     		WoWPro.step[i] = Name
     		WoWPro.note[i] = Description.."\n\n"..WoWPro.note[i]
     	end
     	if WoWPro.step[i] == "Achievement" and count > 0 then
     		WoWPro.step[i] = Name
-    		local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
+    		local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = _G.GetAchievementCriteriaInfo(achnum, achitem)
     		WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i]
     	end
     end
@@ -776,9 +780,9 @@ function WoWPro.ParseSteps(steps)
 	WoWPro:dbp("Parsing Guide, %d steps",#steps)
 	local GID = WoWProDB.char.currentguide
 	local i = 2  -- Leave room the the L step
-	local myclassL, myclass = UnitClass("player")
-	local myraceL, myrace = UnitRace("player")
-	local myFaction = strupper(UnitFactionGroup("player"))
+	local myclassL, myclass = _G.UnitClass("player")
+	local myraceL, myrace = _G.UnitRace("player")
+	local myFaction = strupper(_G.UnitFactionGroup("player"))
 	local zone = strtrim(string.match(WoWPro.Guides[GID].zone or "", "([^%(]+)"))
 
     if WoWPro.Recorder then
@@ -825,7 +829,7 @@ function WoWPro.ParseSteps(steps)
             end
 			if (class == nil or WoWPro.SemiMatch(class, myclass)) and
 			   (race == nil or WoWPro.SemiMatch(race, myrace))  and
-			   (gender == nil or gender == UnitSex("player")) and
+			   (gender == nil or gender == _G.UnitSex("player")) and
 			   (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
 				if WoWPro.ParseQuestLine(faction, zone, i, text) then
 				    WoWPro.RecordStuff(i)

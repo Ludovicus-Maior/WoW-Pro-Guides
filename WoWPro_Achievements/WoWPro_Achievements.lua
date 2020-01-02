@@ -1,11 +1,13 @@
+-- luacheck: globals pairs strtrim
+
 -------------------------------
 --      WoWPro_Achievements      --
 -------------------------------
 
 WoWPro.Achievements = WoWPro:NewModule("Achievements")
-local myUFG = UnitFactionGroup("player")
+local myUFG = _G.UnitFactionGroup("player")
 WoWPro:Embed(WoWPro.Achievements)
-local bucket = LibStub("AceBucket-3.0")
+local bucket = _G.LibStub("AceBucket-3.0")
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Achievements:OnInitialize()

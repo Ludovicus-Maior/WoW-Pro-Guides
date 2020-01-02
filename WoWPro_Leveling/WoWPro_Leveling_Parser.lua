@@ -8,7 +8,7 @@ local L = WoWPro_Locale
 -- This function is called by the main NextStep function in the core broker --
 function WoWPro.Leveling:NextStep(k, skip)
 	local GID = WoWProDB.char.currentguide
-	local myFaction = strupper(UnitFactionGroup("player"))
+	local myFaction = strupper(_G.UnitFactionGroup("player"))
 
 	-- Skip Faction qualified steps 
 	if WoWPro.faction[k] then
@@ -31,7 +31,7 @@ end
 -- Left-Click Row Function --
 function WoWPro.Leveling:RowLeftClick(i)
 	if WoWPro.QID[WoWPro.rows[i].index] and WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]] then
-		QuestLog_OpenToQuest(WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]].index)
+		_G.QuestLog_OpenToQuest(WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]].index)
 	end
 	WoWPro.rows[i]:SetChecked(nil)
 end

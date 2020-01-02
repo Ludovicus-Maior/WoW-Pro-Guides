@@ -1,3 +1,6 @@
+-- luacheck: globals tostring
+-- luacheck: globals pairs unpack tinsert
+
 --
 --      WoWPro_Selector     --
 --
@@ -102,7 +105,7 @@ function WoWPro:SelectorOptionsTable()
 end
 
 
-WOWPRO_SELECTOR = "Show the WoW-Pro Guide Selector"
+_G.WOWPRO_SELECTOR = "Show the WoW-Pro Guide Selector"
 
 function WoWPro:UpdateGuideScores ()
     WoWPro:dbp("UpdateGuideScores()")
@@ -133,7 +136,7 @@ function WoWPro:SelectTopGuides()
     table.sort(scores, scoref)
     WoWPro.scores = scores -- Debugging
     for idx=1,8 do
-        local item = WoWProSelector_Frame.button[idx]
+        local item = _G.WoWProSelector_Frame.button[idx]
         local GID = scores[idx].GID
         local score = scores[idx].score
         local guide = WoWPro.Guides[GID]
@@ -156,30 +159,30 @@ function WoWPro:SelectTopGuides()
 end
 
 function WoWPro:Selector()
-    if WoWProSelector_Frame:IsVisible() then
-        print("Pick next")
-        WoWProSelector_Frame.button[WoWProSelector_Frame.selection]:SetButtonState("NORMAL",false)
-        WoWProSelector_Frame.selection = WoWProSelector_Frame.selection + 1
-        if WoWProSelector_Frame.selection > 8 then
-            WoWProSelector_Frame.selection = 1
+    if _G.WoWProSelector_Frame:IsVisible() then
+        WoWPro:dbp("Pick next")
+        _G.WoWProSelector_Frame.button[_G.WoWProSelector_Frame.selection]:SetButtonState("NORMAL",false)
+        _G.WoWProSelector_Frame.selection = _G.WoWProSelector_Frame.selection + 1
+        if _G.WoWProSelector_Frame.selection > 8 then
+            _G.WoWProSelector_Frame.selection = 1
         end
-        WoWProSelector_Frame.button[WoWProSelector_Frame.selection]:SetButtonState("PUSHED",false)
+        _G.WoWProSelector_Frame.button[_G.WoWProSelector_Frame.selection]:SetButtonState("PUSHED",false)
     else
         WoWPro:SelectTopGuides()
-        WoWProSelector_Frame:Show()
-        print("Opening WPGS")
-        WoWProSelector_Frame.selection = 1
-        WoWProSelector_Frame.button[WoWProSelector_Frame.selection]:SetButtonState("PUSHED",false)
+        _G.WoWProSelector_Frame:Show()
+        WoWPro:dbp("Opening WPGS")
+        _G.WoWProSelector_Frame.selection = 1
+        _G.WoWProSelector_Frame.button[_G.WoWProSelector_Frame.selection]:SetButtonState("PUSHED",false)
     end
 end
  	
-function WoWProSelector_CloseButton_OnClick()
-    WoWProSelector_Frame:Hide()
+function _G.WoWProSelector_CloseButton_OnClick()
+    _G.WoWProSelector_Frame:Hide()
 end
 
-function WoWPro_SelectorButton_OnMouseDown(self)
+function _G.WoWPro_SelectorButton_OnMouseDown(self)
     local state = self:GetButtonState()
-    print("WoWPro_Selector_OnMouseDown, state=",state,self.GID)
+    WoWPro:dbp("WoWPro_Selector_OnMouseDown, state=",state,self.GID)
     if state == "NORMAL" then
         self:SetButtonState("PUSHED",false)
         return
@@ -187,55 +190,55 @@ function WoWPro_SelectorButton_OnMouseDown(self)
         self:SetButtonState("NORMAL",false)
         return
     else
-        print("Huh?")
+        WoWPro:dbp("Huh?")
     end
 end
 
 function WoWPro:OfferGuideSwitch(nGID, quest)
     WoWPro:dbp("OfferGuideSwitch(%s, %s)", tostring(nGID), tostring(quest))
     WoWProCharDB.Guide[nGID] = WoWProCharDB.Guide[nGID] or {}
-    StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"] = {
+    _G.StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"] = {
         text = "Would you like to switch to the guide for the quest you just accepted?",
 	    OnAccept = function (self, data, data2) WoWPro:dbp("WOWPRO_SWITCH_GUIDE(YES)"); WoWPro:LoadGuide(nGID); end ,
 	    OnCancel = function (self, data, why) WoWPro:dbp("WOWPRO_SWITCH_GUIDE(NO,%s)", why); end,
 	    OnAlt = function(self, data, why) WoWPro:dbp("WOWPRO_SWITCH_GUIDE('leave me alone',%s)", why); WoWProCharDB.Guide[nGID].NoSelect = true ; end,
 	    OnShow = function(self)
 	        self.button3:SetScript("OnEnter",function (self)
-                                              GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
-                                              GameTooltip:SetText("Stop asking to switch to this guide.\nResetting the guide will re-enable asking to switch.");
+                                              _G.GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
+                                              _G.GameTooltip:SetText("Stop asking to switch to this guide.\nResetting the guide will re-enable asking to switch.");
                                               end);
-	        self.button3:SetScript("OnLeave",function (self) GameTooltip:Hide(); end);
+	        self.button3:SetScript("OnLeave",function (self) _G.GameTooltip:Hide(); end);
 	    end,
 	    timeout = 30,
-	    button1 = YES,
-	    button2 = NO,
+	    button1 = _G.YES,
+	    button2 = _G.NO,
 	    button3 = "Don't ask"
 	}
 
 	if quest then
-	    StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"].text = string.format("Would you like to switch to the guide %s for the quest [%s]?", nGID, quest)
+	    _G.StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"].text = string.format("Would you like to switch to the guide %s for the quest [%s]?", nGID, quest)
 	end
-	StaticPopup_Show("WOWPRO_SWITCH_GUIDE")
+	_G.StaticPopup_Show("WOWPRO_SWITCH_GUIDE")
 end
 
-function WoWPro_Selector_OnLoad()
-    WoWProSelector_Frame.button = {}
+function _G.WoWPro_Selector_OnLoad()
+    _G.WoWProSelector_Frame.button = {}
     
-    tinsert(UISpecialFrames, WoWProSelector_Frame:GetName());
+    tinsert(_G.UISpecialFrames, _G.WoWProSelector_Frame:GetName());
     
     for idx=1,8 do
-      local item = CreateFrame("Button","WoWProSelector_Button" .. idx, WoWProSelector_Frame , "WoWProSelector_ButtonTemplate")
-        WoWProSelector_Frame.button[idx] = item
+      local item = _G.CreateFrame("Button","WoWProSelector_Button" .. idx, _G.WoWProSelector_Frame , "WoWProSelector_ButtonTemplate")
+        _G.WoWProSelector_Frame.button[idx] = item
         if idx == 1 then
-            item:SetPoint("TOPLEFT",WoWProSelector_Frame,20,-50)
+            item:SetPoint("TOPLEFT",_G.WoWProSelector_Frame,20,-50)
         else
-            item:SetPoint("TOPLEFT",  WoWProSelector_Frame.button[idx-1], "TOPRIGHT", 12,0)
+            item:SetPoint("TOPLEFT",  _G.WoWProSelector_Frame.button[idx-1], "TOPRIGHT", 12,0)
         end
         item:RegisterForClicks("AnyDown")
     end
 
     -- Single Guide Offer
-    StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"] = {
+    _G.StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"] = {
         text = "Would you like to switch to the guide for the quest you just accepted?",
 	    OnAccept = function () end ,
 	    OnCancel = function (why) end,
@@ -301,14 +304,14 @@ function WoWPro:SelectGuide(GID, quest, QID)
     end
 end
 
-function WoWPro_Selector_OnShow()
+function _G.WoWPro_Selector_OnShow()
     for idx=1,8 do
-        WoWProSelector_Frame.button[idx]:Show()
+        _G.WoWProSelector_Frame.button[idx]:Show()
     end
 end
 
-function WoWPro_Selector_OnHide()
+function _G.WoWPro_Selector_OnHide()
     for idx=1,8 do
-        WoWProSelector_Frame.button[idx]:Hide()
+        _G.WoWProSelector_Frame.button[idx]:Hide()
     end
 end

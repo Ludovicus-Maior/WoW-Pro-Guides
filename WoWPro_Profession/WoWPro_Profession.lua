@@ -1,9 +1,12 @@
+-- luacheck: globals WoWPro_ProfessionDB
+-- luacheck: globals pairs strtrim
+
 -------------------------------
 --      WoWPro_Profession      --
 -------------------------------
 
 WoWPro.Profession = WoWPro:NewModule("Profession")
-local myUFG = UnitFactionGroup("player")
+local myUFG = _G.UnitFactionGroup("player")
 WoWPro:Embed(WoWPro.Profession)
 
 

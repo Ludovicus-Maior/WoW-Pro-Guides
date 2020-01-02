@@ -4,8 +4,8 @@
 
 local L = WoWPro_Locale
 
-local config = LibStub("AceConfig-3.0")
-local dialog = LibStub("AceConfigDialog-3.0")
+local config = _G.LibStub("AceConfig-3.0")
+local dialog = _G.LibStub("AceConfigDialog-3.0")
 
 local function createBlizzOptions()
     local args = {
@@ -71,7 +71,7 @@ function WoWPro.Dailies:CreateConfig()
 
 	table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
 	table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Dailies", isTitle = true} )
-	table.insert(WoWPro.DropdownMenu, {text = "About", func = function() InterfaceOptionsFrame_OpenToCategory("WoW-Pro Dailies"); end} )
+	table.insert(WoWPro.DropdownMenu, {text = "About", func = function() _G.InterfaceOptionsFrame_OpenToCategory("WoW-Pro Dailies"); end} )
 	table.insert(WoWPro.DropdownMenu, {text = "Reload Guide", func = function() WoWPro:LoadGuide(); end} )
 
 end

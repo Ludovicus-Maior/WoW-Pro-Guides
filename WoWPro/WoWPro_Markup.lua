@@ -1,3 +1,4 @@
+-- luacheck: globals tonumber tostring select
 
 WoWPro.MarkupTags = {}
 
@@ -6,7 +7,7 @@ local function RegisterMarkup(tag, func)
 end
 
 function WoWPro.ExpandAbility(ability,want_icon, want_text)
-    local name, icon = C_PetJournal.GetPetAbilityInfo(tonumber(ability))
+    local name, icon = _G.C_PetJournal.GetPetAbilityInfo(tonumber(ability))
     local expanded = ""
     if name then
         if want_icon then
@@ -23,7 +24,7 @@ end
 RegisterMarkup("ability", WoWPro.ExpandAbility)
 
 function WoWPro.ExpandItem(item,want_icon, want_text)
-    local name, link, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture = GetItemInfo(tonumber(item))
+    local name, link, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture = _G.GetItemInfo(tonumber(item))
     local expanded = ""
     if name then
         if want_icon then
@@ -41,7 +42,7 @@ RegisterMarkup("item", WoWPro.ExpandItem)
 
 
 function WoWPro.ExpandMoney(money,want_icon, want_text)
-    local expanded = GetCoinTextureString(tonumber(money)*100*100)
+    local expanded = _G.GetCoinTextureString(tonumber(money)*100*100)
     return expanded
 end
 RegisterMarkup("money", WoWPro.ExpandMoney)

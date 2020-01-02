@@ -1,11 +1,14 @@
+-- luacheck: globals WoWPro_DailiesDB Grail
+-- luacheck: globals tonumber pairs
+
 ------------------------------
 --      WoWPro_Dailies      --
 ------------------------------
 
 WoWPro.Dailies = WoWPro:NewModule("Dailies")
-local myUFG = UnitFactionGroup("player")
+local myUFG = _G.UnitFactionGroup("player")
 WoWPro:Embed(WoWPro.Dailies)
-local bucket = LibStub("AceBucket-3.0")
+local bucket = _G.LibStub("AceBucket-3.0")
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Dailies:OnInitialize()
@@ -62,13 +65,13 @@ end
 -- Use Grail to go a crude guide for a zone.  Pass in the mapID and it will find all the quests that start/end in that zone.
 function WoWPro.Dailies:DumpInfo()
     local zoneID = 951
-    WoWPro.Dailies.eBox = WoWPro.Dailies.eBox or CreateFrame("EditBox", nil, UIParent, "ChatFrameEditBoxTemplate")
+    WoWPro.Dailies.eBox = WoWPro.Dailies.eBox or _G.CreateFrame("EditBox", nil, _G.UIParent, "ChatFrameEditBoxTemplate")
     local eBox = WoWPro.Dailies.eBox
     eBox:SetWidth(512)
     eBox:SetHeight(256)
     eBox:SetMultiLine(true)
     eBox:SetAutoFocus(true)
-    eBox:SetFontObject(GameFontHighlight)
+    eBox:SetFontObject(_G.GameFontHighlight)
     local text=""
     Grail:CreateIndexedQuestList()
     -- Ask for the list of quests in the zone 

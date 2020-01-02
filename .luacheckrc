@@ -9,4 +9,10 @@ unused_args = false
 std = "none"
 globals = {
     "_G",
+    "WoWPro",
+    "WoWPro_Locale",
+    "WoWProDB",
+    "WoWProCharDB",
+
+    "TourGuide",
 }

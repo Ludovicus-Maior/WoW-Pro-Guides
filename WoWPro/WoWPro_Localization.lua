@@ -1,9 +1,11 @@
+-- luacheck: globals WoWPro_Locale setmetatable
+
 ---------------------------------------
 --      WoWPro_Localization.lua      --
 ---------------------------------------
 
 local L = nil
-local loc = GetLocale()
+local loc = _G.GetLocale()
 
 
 -----------------------
@@ -69,5 +71,9 @@ if loc == "koKR" then L = {
 	["^You .*Hitem:(%d+).*(%[.+%])"] = "^아이템을 획득했습니다: .*Hitem:(%d+).*(%[.+%])",
 } end
 
-WoWPro_Locale = L and setmetatable(L, {__index = function(t,i) return english[i] or i end})
-	or setmetatable(english, {__index = function(t,i) return i end})
+WoWPro_Locale = nil
+if L then
+	WoWPro_Locale = setmetatable(L, {__index = function(t,i) return english[i] or i end})
+else
+	WoWPro_Locale = setmetatable(english, {__index = function(t,i) return i end})
+end

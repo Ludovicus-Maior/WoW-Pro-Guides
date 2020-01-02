@@ -1,3 +1,5 @@
+-- luacheck: globals pairs tostring unpack
+
 ---------------------------------------------
 --      WoWPro_Leveling_GuideList.lua      --
 ---------------------------------------------
@@ -71,16 +73,16 @@ WoWPro.Leveling.GuideList.Format={{"Zone",0.35,zoneSort},{"Range",0.15,rangeSort
 -- Fancy tooltip!
 function WoWPro.Leveling.GuideTooltipInfo(row, tooltip, guide)
     WoWPro:ResolveIcon(guide)
-    GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
-    GameTooltip:AddLine(guide.zone)
+    _G.GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
+    _G.GameTooltip:AddLine(guide.zone)
     if guide.icon then
-        GameTooltip:AddTexture(guide.icon,1,1,1,1)
+        _G.GameTooltip:AddTexture(guide.icon,1,1,1,1)
     else
-        GameTooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
+        _G.GameTooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
     end
-    GameTooltip:AddDoubleLine("Start Level:",tostring(guide.startlevel),1,1,1,unpack(WoWPro.LevelColor(guide.startlevel)))
-    GameTooltip:AddDoubleLine("Mean Level:",string.format("%.2f",guide.level or 0),1,1,1,unpack(WoWPro.LevelColor(guide)))
-    GameTooltip:AddDoubleLine("End Level:",tostring(guide.endlevel),1,1,1,unpack(WoWPro.LevelColor(guide.endlevel)))
+    _G.GameTooltip:AddDoubleLine("Start Level:",tostring(guide.startlevel),1,1,1,unpack(WoWPro.LevelColor(guide.startlevel)))
+    _G.GameTooltip:AddDoubleLine("Mean Level:",string.format("%.2f",guide.level or 0),1,1,1,unpack(WoWPro.LevelColor(guide)))
+    _G.GameTooltip:AddDoubleLine("End Level:",tostring(guide.endlevel),1,1,1,unpack(WoWPro.LevelColor(guide.endlevel)))
 end
 
 function WoWPro.Leveling:UpdateGuideScores()
@@ -88,15 +90,15 @@ function WoWPro.Leveling:UpdateGuideScores()
     for guidID,guide in pairs(WoWPro.Guides) do
 	    if guide.guidetype == "Leveling" then
 	        WoWPro:ResolveIcon(guide)
-	        if UnitLevel("player") < guide.startlevel then
+	        if _G.UnitLevel("player") < guide.startlevel then
 	            guide.score = 0
 	        elseif WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].done then
 	            guide.score = 0
-	        elseif UnitLevel("player") > guide.endlevel then
-	            guide.score = 100 * (guide.endlevel / UnitLevel("player"))
+	        elseif _G.UnitLevel("player") > guide.endlevel then
+	            guide.score = 100 * (guide.endlevel / _G.UnitLevel("player"))
 	            WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; endlevel %f", guidID, guide.endlevel) 
 	        else
-	            guide.score = 100 * (guide.level / UnitLevel("player"))
+	            guide.score = 100 * (guide.level / _G.UnitLevel("player"))
 	            WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; level %f", guidID, guide.level)
 	        end
         end

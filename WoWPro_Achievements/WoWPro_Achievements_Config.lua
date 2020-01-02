@@ -4,8 +4,8 @@
 
 local L = WoWPro_Locale
 
-local config = LibStub("AceConfig-3.0")
-local dialog = LibStub("AceConfigDialog-3.0")
+local config = _G.LibStub("AceConfig-3.0")
+local dialog = _G.LibStub("AceConfigDialog-3.0")
 
 local function createBlizzOptions()
     local args = {
@@ -64,16 +64,12 @@ local function createBlizzOptions()
 		args = args})
 	dialog:SetDefaultSize("WoWPro-Achievements-Bliz", 600, 400)
 	dialog:AddToBlizOptions("WoWPro-Achievements-Bliz", "WoW-Pro Achievements")
-
-	return blizzPanel
 end
 
 function WoWPro.Achievements:CreateConfig()
-	blizzPanel = createBlizzOptions()
-	
 	table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
 	table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Achievements", isTitle = true} )
 	table.insert(WoWPro.DropdownMenu, {text = "About", func = function() 
-			InterfaceOptionsFrame_OpenToCategory("WoW-Pro Achievements") 
-		end} )
+		_G.InterfaceOptionsFrame_OpenToCategory("WoW-Pro Achievements") 
+	end} )
 end

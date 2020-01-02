@@ -1,3 +1,5 @@
+-- luacheck: globals tonumber
+
 -------------------------------------
 --      WoWPro_Dailies_Parser      --
 -------------------------------------
@@ -14,7 +16,7 @@ end
 function WoWPro.Dailies:RowLeftClick(i)
 	if WoWPro.QID[WoWPro.rows[i].index] and not WoWPro.action[WoWPro.rows[i].index]=="A"
 	and WoWPro.QuestLog[tonumber(WoWPro.QID[WoWPro.rows[i].index])] then
-		QuestLog_OpenToQuest(WoWPro.QuestLog[tonumber(WoWPro.QID[WoWPro.rows[i].index])].index)
+		_G.QuestLog_OpenToQuest(WoWPro.QuestLog[tonumber(WoWPro.QID[WoWPro.rows[i].index])].index)
 	end
 	WoWPro.rows[i]:SetChecked(false)
 end

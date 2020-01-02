@@ -1,12 +1,13 @@
+-- luacheck: globals pairs strtrim
 
 -------------------------------
 --      WoWPro_WorldEvents      --
 -------------------------------
 
 WoWPro.WorldEvents = WoWPro:NewModule("WorldEvents")
-local myUFG = UnitFactionGroup("player")
+local myUFG = _G.UnitFactionGroup("player")
 WoWPro:Embed(WoWPro.WorldEvents)
-local bucket = LibStub("AceBucket-3.0")
+local bucket = _G.LibStub("AceBucket-3.0")
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.WorldEvents:OnInitialize()

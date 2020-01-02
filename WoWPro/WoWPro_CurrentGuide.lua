@@ -1,3 +1,5 @@
+-- luacheck: globals tostring ipairs
+
 -----------------------------------
 --      WoWPro_CurrentGuide      --
 -----------------------------------
@@ -8,7 +10,7 @@ local offset, rows, shownrows = 0, {}, NUMROWS
 WoWPro.CreateCurrentGuideTitle = true
 local title, subtitle
 
-local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
+local frame = _G.CreateFrame("Frame", nil, _G.InterfaceOptionsFramePanelContainer)
 frame.name = L["Current Guide"]
 frame.parent = "WoW-Pro"
 frame:Hide()
@@ -40,7 +42,7 @@ frame:SetScript("OnShow", function()
 		subtitle:SetText(L["The module for your current guide is not loaded."])
 		return 
 	else
-	    local faction = UnitFactionGroup("player")
+	    local faction = _G.UnitFactionGroup("player")
 	    local guide = WoWProDB.char.currentguide
 		subtitle:SetText("Faction: "..faction.."\nGuide ID: "..guide)
 	end
@@ -52,7 +54,7 @@ frame:SetScript("OnShow", function()
 	
 	local scrollbar = WoWPro:CreateScrollbar(box, 6)
 
-	local tooltip = CreateFrame("Frame", nil, frame)
+	local tooltip = _G.CreateFrame("Frame", nil, frame)
 	tooltip:SetBackdrop( {
 		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
 		edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
@@ -77,7 +79,7 @@ frame:SetScript("OnShow", function()
 	frame.tooltip.tooltiptext = tooltiptext
 
 	for i=1,NUMROWS do
-		local row = CreateFrame("Frame", nil, box)
+		local row = _G.CreateFrame("Frame", nil, box)
 		local GID = WoWProDB.char.currentguide
 
 		if i == 1 then 
@@ -241,7 +243,7 @@ function WoWPro:GuideBugReport()
     local LogBox = WoWPro.LogBox
     local text
     local GID = WoWProDB.char.currentguide
-    text = string.format("Version: %s, Class: %s, Race: %s, Faction: %s, Guide: %s\n\n", WoWPro.Version, UnitClass("player"), UnitRace("player"), UnitFactionGroup("player"), tostring(GID))
+    text = string.format("Version: %s, Class: %s, Race: %s, Faction: %s, Guide: %s\n\n", WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), _G.UnitFactionGroup("player"), tostring(GID))
     text = text .. WoWPro:QuestLogStatus() .. "\n"
     text = text .. WoWPro:GuideStatus() .. "\n"
     LogBox.Box:SetText( text )

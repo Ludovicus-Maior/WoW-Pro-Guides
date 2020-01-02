@@ -1,10 +1,13 @@
+-- luacheck: globals WoWPro_RecorderDB
+-- luacheck: globals ipairs pairs tonumber tostring type
+
 -----------------------------------
 --      WoWPro.Recorder.lua      --
 -----------------------------------
 
 local L = WoWPro_Locale
-local config = LibStub("AceConfig-3.0")
-local dialog = LibStub("AceConfigDialog-3.0")
+local config = _G.LibStub("AceConfig-3.0")
+local dialog = _G.LibStub("AceConfigDialog-3.0")
 
 WoWPro.Recorder = WoWPro:NewModule("Recorder")
 WoWPro:Embed(WoWPro.Recorder)
@@ -43,8 +46,8 @@ function WoWPro.Recorder:OnDisable()
 end
 
 function WoWPro.Recorder:RegisterSavedGuides()
-	local myUFG = UnitFactionGroup("player")
-	for GID,guideInfo in pairs(WoWPro_RecorderDB) do
+	local myUFG = _G.UnitFactionGroup("player")
+	for GID, guideInfo in pairs(WoWPro_RecorderDB) do
 		if WoWPro.Guides[GID] then
 		    -- We have a guide by this name already
 		    local original = WoWPro.Guides[GID]
@@ -76,8 +79,8 @@ return [[
 end
 
 local function checkClassQuest(QID, questTable)
-	if UnitClass("player") == questTable[QID].header then 
-		return UnitClass("player")
+	if _G.UnitClass("player") == questTable[QID].header then 
+		return _G.UnitClass("player")
 	else
 		return nil
 	end
@@ -111,7 +114,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 				map = mapxy,
 				zone = zonetag
 			}
-			if GetUnitName("target") then stepInfo.note = "At "..GetUnitName("target").."." end
+			if _G.GetUnitName("target") then stepInfo.note = "At ".._G.GetUnitName("target").."." end
 			WoWPro.Recorder:dbp("Adding hearth location "..loc)
 			WoWPro.Recorder.AddStep(stepInfo)
 		end
@@ -134,16 +137,16 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 	elseif event == "UI_INFO_MESSAGE" then
 		WoWPro.Recorder:dbp("UI_INFO_MESSAGE detected.")
 		local _, msg = ...
-		if msg == ERR_NEWTAXIPATH then
+		if msg == _G.ERR_NEWTAXIPATH then
 			local stepInfo = {
 				action = "f",
-				step = GetSubZoneText() or GetZoneText(),
+				step = _G.GetSubZoneText() or _G.GetZoneText(),
 				QID = WoWPro.Recorder.lastStep,
 				map = mapxy,
 				zone = zonetag
 			}
-			if GetUnitName("target") then stepInfo.note = "At "..GetUnitName("target").."." end
-			WoWPro.Recorder:dbp("Adding get FP "..GetSubZoneText() or GetZoneText())
+			if _G.GetUnitName("target") then stepInfo.note = "At ".._G.GetUnitName("target").."." end
+			WoWPro.Recorder:dbp("Adding get FP ".._G.GetSubZoneText() or _G.GetZoneText())
 			WoWPro.Recorder.AddStep(stepInfo)
 		    WoWPro:AutoCompleteGetFP(event, ...)
 		end
@@ -162,7 +165,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 				zone = zonetag,
 				class = checkClassQuest(WoWPro.newQuest,WoWPro.QuestLog)
 			}
-			if GetUnitName("target") then stepInfo.note = "From "..GetUnitName("target").."." end
+			if _G.GetUnitName("target") then stepInfo.note = "From ".._G.GetUnitName("target").."." end
 			WoWPro.Recorder.lastStep = WoWPro.newQuest
 			WoWPro.Recorder:dbp("Adding new quest "..WoWPro.newQuest)
 			WoWPro.Recorder.AddStep(stepInfo)
@@ -178,7 +181,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 				zone = zonetag,
 				class = checkClassQuest(WoWPro.missingQuest,WoWPro.oldQuests)
 			}
-			if GetUnitName("target") then stepInfo.note = "To "..GetUnitName("target").."." end
+			if _G.GetUnitName("target") then stepInfo.note = "To ".._G.GetUnitName("target").."." end
 			WoWPro.Recorder:dbp("Turning in quest "..stepInfo.QID)
 			WoWPro.Recorder.AddStep(stepInfo)
 			WoWPro:AutoCompleteQuestUpdate()
@@ -253,8 +256,8 @@ function WoWPro.Recorder.ProcessScenarioStage(scenario)
 
     local GID = WoWProDB.char.currentguide
     local zonetag
-    if GetZoneText() ~= WoWPro.Guides[GID].zone then
-        zonetag = GetZoneText()
+    if _G.GetZoneText() ~= WoWPro.Guides[GID].zone then
+        zonetag = _G.GetZoneText()
     else
         zonetag = nil
     end

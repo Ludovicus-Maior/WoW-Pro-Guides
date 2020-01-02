@@ -1,3 +1,5 @@
+-- luacheck: globals pairs
+
 ---------------------------------------------
 --      WoWPro_WorldEvents_GuideList.lua      --
 ---------------------------------------------
@@ -87,13 +89,13 @@ end
 -- Fancy tooltip!
 function WoWPro.WorldEvents.GuideTooltipInfo(row, tooltip, guide)
     WoWPro:ResolveIcon(guide)
-    GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
-    GameTooltip:AddLine(guide.name)
+    _G.GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
+    _G.GameTooltip:AddLine(guide.name)
     if guide.icon then
-        GameTooltip:AddTexture(guide.icon,1,1,1,1)
-        GameTooltip:AddLine(guide.icon)
+        _G.GameTooltip:AddTexture(guide.icon,1,1,1,1)
+        _G.GameTooltip:AddLine(guide.icon)
     else
-        GameTooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
+        _G.GameTooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
     end
 end
   

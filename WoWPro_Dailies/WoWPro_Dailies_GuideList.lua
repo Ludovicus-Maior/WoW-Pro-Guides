@@ -1,3 +1,5 @@
+-- luacheck: globals tonumber tostring pairs unpack
+
 --------------------------------------------
 --      WoWPro_Dailies_GuideList.lua      --
 --------------------------------------------
@@ -20,7 +22,7 @@ local function AddInfo(guide)
     
     local name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild
     if tonumber(guide.faction) then
-        name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(guide.faction)
+        name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = _G.GetFactionInfoByID(guide.faction)
     end
     if not name then
         WoWPro.Dailies:Error("Guide %s: bad faction [%s]",guide.GID,tostring(guide.faction))
@@ -104,19 +106,19 @@ WoWPro.Dailies.GuideList.Format={{"Name",0.35,nameSort},{"Category",0.15,categor
 WoWPro.Dailies.GuideList.Init = Init
 -- Fancy tooltip!
 function WoWPro.Dailies.GuideTooltipInfo(row, tooltip, guide)
-    GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
-    GameTooltip:AddLine(guide.side)
-    GameTooltip:AddLine(guide.name)
+    _G.GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
+    _G.GameTooltip:AddLine(guide.side)
+    _G.GameTooltip:AddLine(guide.name)
     if guide.icon then
-        GameTooltip:AddTexture(guide.icon,1,1,1,1)
-        GameTooltip:AddLine(guide.icon)
+        _G.GameTooltip:AddTexture(guide.icon,1,1,1,1)
+        _G.GameTooltip:AddLine(guide.icon)
     else
-        GameTooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
+        _G.GameTooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
     end
     if guide.startlevel and guide.level and guide.endlevel then
-        GameTooltip:AddDoubleLine("Start Level:",tostring(guide.startlevel),1,1,1,unpack(WoWPro.LevelColor(guide.startlevel)))
-        GameTooltip:AddDoubleLine("Mean Level:",string.format("%.2f",guide.level or 0),1,1,1,unpack(WoWPro.LevelColor(guide.level)))
-        GameTooltip:AddDoubleLine("End Level:",tostring(guide.endlevel),1,1,1,unpack(WoWPro.LevelColor(guide.endlevel)))
+        _G.GameTooltip:AddDoubleLine("Start Level:",tostring(guide.startlevel),1,1,1,unpack(WoWPro.LevelColor(guide.startlevel)))
+        _G.GameTooltip:AddDoubleLine("Mean Level:",string.format("%.2f",guide.level or 0),1,1,1,unpack(WoWPro.LevelColor(guide.level)))
+        _G.GameTooltip:AddDoubleLine("End Level:",tostring(guide.endlevel),1,1,1,unpack(WoWPro.LevelColor(guide.endlevel)))
     end
 end
 

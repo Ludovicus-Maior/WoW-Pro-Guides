@@ -1,3 +1,8 @@
+-- luacheck: globals Grail TomTom Nx
+-- luacheck: globals select ipairs pairs next type
+-- luacheck: globals tostring tonumber strtrim
+-- luacheck: globals debugstack
+
 -----------------------------
 --      WoWPro_Broker      --
 -----------------------------
@@ -363,9 +368,9 @@ WoWPro.PetsOwned = nil
 function WoWPro:PetOwned(npcID)
     if not WoWPro.PetsOwned then
         WoWPro.PetsOwned = {}
-        WoWPro:dbp("WoWPro:PetOwned() Polling for %d pets.",C_PetJournal.GetNumPets())
-        for i = 1,C_PetJournal.GetNumPets() do
-            local petID, speciesID, isOwned, customName, level, favorite, isRevoked, name, icon, petType, creatureID, sourceText, description, isWildPet, canBattle = C_PetJournal.GetPetInfoByIndex(i);
+        WoWPro:dbp("WoWPro:PetOwned() Polling for %d pets.", _G.C_PetJournal.GetNumPets())
+        for i = 1, _G.C_PetJournal.GetNumPets() do
+            local petID, speciesID, isOwned, customName, level, favorite, isRevoked, name, icon, petType, creatureID, sourceText, description, isWildPet, canBattle = _G.C_PetJournal.GetPetInfoByIndex(i);
                 -- WoWPro:dbp("%s: %d@%d",name,creatureID,i)
                 if WoWPro.PetsOwned[creatureID] then
                     WoWPro.PetsOwned[creatureID] = WoWPro.PetsOwned[creatureID] + 1
@@ -461,7 +466,7 @@ function WoWPro.LoadGuideReal()
 
 	-- If the current guide can not be found, see if it was renamed.
 	if not WoWPro.Guides[GID] then
-	    local myUFG = UnitFactionGroup("player"):sub(1,1)
+	    local myUFG = _G.UnitFactionGroup("player"):sub(1,1)
 	    local name,levels = GID:match("([A-Za-z]+)([0-9]+)")
 	    levels = levels or ""
 	    name = name or ""
@@ -516,7 +521,7 @@ function WoWPro.LoadGuideReal()
 end
 
 function WoWPro:NextGuide(GID)
-	local myUFG = UnitFactionGroup("player")
+	local myUFG = _G.UnitFactionGroup("player")
     if not WoWPro.Guides[GID].nextGID then
         -- If there is no next guide defined, see if we can pop something off the stack
         local pop = WoWPro:PopCurrentGuide(GID, false)
@@ -553,7 +558,7 @@ function WoWPro:UpdateGuide(From)
 end
 
 -- Guide Update --
-local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
+local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
 WoWPro.GuideOffset = nil
 
 -- Update Quest Tracker --
@@ -591,7 +596,7 @@ function WoWPro.UpdateQuestTrackerRow(row)
 				for l=1,#WoWPro.QuestLog[qid].leaderBoard do
 					if WoWPro.QuestLog[qid].leaderBoard[l] then
 						track = track.."\n- "..WoWPro.QuestLog[qid].leaderBoard[l]
-						if select(3,GetQuestLogLeaderBoard(l, j)) then
+						if select(3, _G.GetQuestLogLeaderBoard(l, j)) then
 							track =  track.." (C)"
 						end
 					end
@@ -674,7 +679,7 @@ function WoWPro:CheckFunction(row, button, down)
 	    row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 	    WoWPro:dbp("WoWPro:CheckFunction: User marked step %d as complete.", row.index)
 		if WoWProDB.profile.checksound then
-			PlaySoundFile(WoWProDB.profile.checksoundfile)
+			_G.PlaySoundFile(WoWProDB.profile.checksoundfile)
 		end
 		-- if CompleteStep() did a LoadGuide, skip out.
 	    if WoWPro.CompleteStep(row.index,"Right-Click") then
@@ -703,7 +708,7 @@ function WoWPro:RowUpdate(offset)
 	local itemkb = false
 	local targetkb = false
 	local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
-	ClearOverrideBindings(WoWPro.MainFrame)
+	_G.ClearOverrideBindings(WoWPro.MainFrame)
 	WoWPro.RowDropdownMenu = {}
 
 	local step_limit = WoWProDB.profile.numsteps + 5
@@ -834,13 +839,13 @@ function WoWPro:RowUpdate(offset)
 			)
 			if not WoWPro.CLASSIC then
 			    -- TODO: Is this needed at all?
-			    QuestMapUpdateAllQuests()
-			    QuestPOIUpdateIcons()
+			    _G.QuestMapUpdateAllQuests()
+			    _G.QuestPOIUpdateIcons()
 			end
 			local _, x, y, obj
 			-- TODO: Is this needed at all?
 			if QID and tonumber(QID) and (not WoWPro.CLASSIC) then
-			    _, x, y, obj = QuestPOIGetIconInfo(tonumber(QID))
+			    _, x, y, obj = _G.QuestPOIGetIconInfo(tonumber(QID))
 			end
 			if coord or x then
 				table.insert(dropdown,
@@ -853,7 +858,7 @@ function WoWPro:RowUpdate(offset)
 			if tonumber(QID) and WoWPro.QuestLog[tonumber(QID)] and WoWPro.QuestLog[tonumber(QID)].index and WoWPro.GetNumPartyMembers() > 0 then
 				table.insert(dropdown,
 					{text = "Share Quest", func = function()
-						QuestLogPushQuest(WoWPro.QuestLog[QID].index)
+						_G.QuestLogPushQuest(WoWPro.QuestLog[QID].index)
 					end}
 				)
 			end
@@ -879,14 +884,14 @@ function WoWPro:RowUpdate(offset)
 		-- Item Button --
 		if action == "H" and not use then use = 6948 end
 
-		if use and GetItemInfo(use) then
+		if use and _G.GetItemInfo(use) then
 			row.itembutton:Show()
-			row.itemicon:SetTexture(GetItemIcon(use))
+			row.itemicon:SetTexture(_G.GetItemIcon(use))
 			row.itembutton:SetAttribute("type1", "item")
 			row.itembutton:SetAttribute("item1", "item:"..use)
 			WoWPro:dbp("RowUpdate: enabled use: %s", use)
 			row.cooldown:SetScript("OnUpdate", function()
-					local start, duration, enabled = GetItemCooldown(use)
+					local start, duration, enabled = _G.GetItemCooldown(use)
 					if enabled then
 						row.cooldown:Show()
 						row.cooldown:SetCooldown(start, duration)
@@ -894,18 +899,18 @@ function WoWPro:RowUpdate(offset)
 					    row.cooldown:Hide()
 					end
 				end)
-			local start, duration, enabled = GetItemCooldown(use)
+			local start, duration, enabled = _G.GetItemCooldown(use)
 			if enabled then
 				row.cooldown:Show()
 				row.cooldown:SetCooldown(start, duration)
 			else row.cooldown:Hide() end
 			if not itemkb and row.itembutton:IsVisible() then
-				local key1, key2 = GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
+				local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
 				if key1 then
-					SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembutton"..i..":LeftButton")
+					_G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembutton"..i..":LeftButton")
 				end
 				if key2 then
-					SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembutton"..i..":LeftButton")
+					_G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_itembutton"..i..":LeftButton")
 				end
 				itemkb = true
 			end
@@ -916,7 +921,7 @@ function WoWPro:RowUpdate(offset)
 		    local switch = WoWPro.switch[k]
 		    local kk = k
 		    row.itembutton.SwitchPet = function ()
-		        C_PetBattles.ChangePet(switch)
+		        _G.C_PetBattles.ChangePet(switch)
 		        WoWPro.CompleteStep(kk, "Clicked pet switch")
 		    end
 		else row.itembutton:Hide() end
@@ -958,12 +963,12 @@ function WoWPro:RowUpdate(offset)
             row.targetbutton.Position(use)
 
 			if not targetkb and row.targetbutton:IsVisible() then
-				local key1, key2 = GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
+				local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
 				if key1 then
-					SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_targetbutton"..i..":LeftButton")
+					_G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_targetbutton"..i..":LeftButton")
 				end
 				if key2 then
-					SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_targetbutton"..i..":LeftButton")
+					_G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_targetbutton"..i..":LeftButton")
 				end
 				targetkb = true
 			end
@@ -990,8 +995,8 @@ end
 -- Left-Click Row Function --
 function WoWPro:RowLeftClick(i)
     local QID = tonumber(WoWPro.QID[WoWPro.rows[i].index])
-	if  QID and WoWPro.QuestLog[QID] and QuestMapFrame_OpenToQuestDetails then
-	    QuestMapFrame_OpenToQuestDetails(QID)
+	if  QID and WoWPro.QuestLog[QID] and _G.QuestMapFrame_OpenToQuestDetails then
+	    _G.QuestMapFrame_OpenToQuestDetails(QID)
 	end
 	WoWPro.rows[i]:SetChecked(nil)
 end
@@ -1063,9 +1068,9 @@ function WoWPro.UpdateGuideReal(From)
 						WoWPro.rows[i]:SetChecked(nil)
 						if WoWPro.Recorder then
 						    WoWPro:RowLeftClick(i)
-						    EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+						    _G.EasyMenu(WoWPro.Recorder.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
 						else
-						    EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
+						    _G.EasyMenu(WoWPro.RowDropdownMenu[i], menuFrame, "cursor", 0 , 0, "MENU")
 						end
 					end
 				end)
@@ -1216,7 +1221,7 @@ function WoWPro.NextStep(k,i)
 			WoWPro.why[k] = "NextStep(): Optional steps default to skipped."
 			-- Checking Use Items --
 			if WoWPro.use and WoWPro.use[k] then
-				if GetItemCount(WoWPro.use[k]) >= 1 then
+				if _G.GetItemCount(WoWPro.use[k]) >= 1 then
 					skip = false -- If the optional quest has a use item and it's in the bag, it's NOT skipped --
 					WoWPro.why[k] = "NextStep(): Optional steps with an item to use that is present is not skipped."
 				end
@@ -1235,7 +1240,7 @@ function WoWPro.NextStep(k,i)
             break
         end
 	if WoWPro.action[k] == "A" and WoWPro.use[k] then
-		if GetItemCount(WoWPro.use[k]) == 0 then
+		if _G.GetItemCount(WoWPro.use[k]) == 0 then
 			local why = "You don't have the item to start this quest."
 			WoWPro.why[k] = why
 			WoWPro:dbp(why)
@@ -1244,7 +1249,7 @@ function WoWPro.NextStep(k,i)
 		end
 	end
 
-	if (WoWPro.group[k] and (GetNumGroupMembers() == 0) and WoWPro.action[k] == "A") then
+	if (WoWPro.group[k] and (_G.GetNumGroupMembers() == 0) and WoWPro.action[k] == "A") then
        		local why = "You are not in a group."
 		WoWPro.why[k] = why
 		WoWPro:dbp(why)
@@ -1252,7 +1257,7 @@ function WoWPro.NextStep(k,i)
 		break
     	end
 
-	if (WoWPro.group[k] and (GetNumGroupMembers() >= 0) and WoWPro.action[k] == "N") then
+	if (WoWPro.group[k] and (_G.GetNumGroupMembers() >= 0) and WoWPro.action[k] == "N") then
        		local why = "You are in a group, note not needed."
 		WoWPro.why[k] = why
 		WoWPro:dbp(why)
@@ -1457,7 +1462,7 @@ function WoWPro.NextStep(k,i)
                     break
                  end
             else
-                local name, currentStage, numStages,  flags, x, y, completed, xp, money, scenarioType = C_Scenario.GetInfo()
+                local name, currentStage, numStages,  flags, x, y, completed, xp, money, scenarioType = _G.C_Scenario.GetInfo()
                 -- Not in a scenario
                 if not name then
                     skip = true
@@ -1534,7 +1539,7 @@ function WoWPro.NextStep(k,i)
         -- Complete Travel steps if we are in the right zone already
         if WoWPro.action[k] == "F" or WoWPro.action[k] == "H" or WoWPro.action[k] == "b" or WoWPro.action[k] == "P" or WoWPro.action[k] == "R" then
             local step = WoWPro.step[k]
-            local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
+            local zonetext, subzonetext = _G.GetZoneText(), string.trim(_G.GetSubZoneText())
 		    if (step == zonetext or step == subzonetext) and ( i == 1) and not WoWProCharDB.Guide[GID].completion[k] then
 			    WoWPro.CompleteStep(k,"AutoCompleteZoneBroker")
 			    skip = true
@@ -1544,7 +1549,7 @@ function WoWPro.NextStep(k,i)
 
 		-- Skip InZone steps if we are not in the right zone
 		if WoWPro.inzone[k] then
-			local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
+			local zonetext, subzonetext = _G.GetZoneText(), string.trim(_G.GetSubZoneText())
 			local inzone = WoWPro.inzone[k]
 			if (inzone == zonetext) or (inzone == subzonetext) then
 				WoWPro:dbp("Step %s [%s/%s] not skipped as InZone %s/%s",WoWPro.action[k],WoWPro.step[k],tostring(QID), zonetext, subzonetext)
@@ -1576,16 +1581,16 @@ function WoWPro.NextStep(k,i)
             offset = tonumber(offset)
             if WoWPro.action[k] == "L" then
                 -- The simple case
-                if (level <= UnitLevel("player")) and not offset then
+                if (level <= _G.UnitLevel("player")) and not offset then
                     skip = true
                     WoWPro.CompleteStep(k,"Player level exceeds step limit")
                     break
                 end
-                -- If level == UnitLevel(), then see if there is an offset to look at
+                -- If level == _G.UnitLevel(), then see if there is an offset to look at
                 if offset then
-                    if level == UnitLevel("player") then
+                    if level == _G.UnitLevel("player") then
                         if offset < 0 then
-                            local togo = UnitXPMax("player") - UnitXP("player")
+                            local togo = _G.UnitXPMax("player") - _G.UnitXP("player")
                             if togo <= -offset then
                                 skip = true
                                 WoWPro:dbp("Skip %s [%s] because %d <= %d XP (%s)).",WoWPro.action[k],WoWPro.step[k], togo, offset, WoWPro.level[k])
@@ -1594,7 +1599,7 @@ function WoWPro.NextStep(k,i)
                             end
                         end
                         if offset > 0 then
-                            local done = UnitXP("player")
+                            local done = _G.UnitXP("player")
                             if done >= offset then
                                 skip = true
                                 WoWPro:dbp("Skip %s [%s] because %d >= %d XP (%s)).",WoWPro.action[k],WoWPro.step[k], done, offset, WoWPro.level[k])
@@ -1602,9 +1607,9 @@ function WoWPro.NextStep(k,i)
                                 break
                             end
                         end
-                    elseif level < UnitLevel("player") then
+                    elseif level < _G.UnitLevel("player") then
                         skip = true
-                        WoWPro:dbp("Skip %s [%s] because %d < %d Level (%s)).",WoWPro.action[k],WoWPro.step[k], level, UnitLevel("player"), WoWPro.level[k])
+                        WoWPro:dbp("Skip %s [%s] because %d < %d Level (%s)).",WoWPro.action[k],WoWPro.step[k], level, _G.UnitLevel("player"), WoWPro.level[k])
                         WoWPro.CompleteStep(k, "NextStep():  Completed LVL step because " .. WoWPro.level[k] .. " was met.")
                         break
                     end
@@ -1613,7 +1618,7 @@ function WoWPro.NextStep(k,i)
             if WoWPro.action[k] ~= "L" then
                 if level > 0 then
                     -- Positive levels then bound the level to being >
-                    if (level > UnitLevel("player")) and not offset then
+                    if (level > _G.UnitLevel("player")) and not offset then
                         skip = true
                         WoWPro:dbp("Skip %s [%s] because its level %d is too high.",WoWPro.action[k],WoWPro.step[k],level)
                         WoWPro.why[k] = "NextStep(): Skipping step because player level not high enough."
@@ -1621,9 +1626,9 @@ function WoWPro.NextStep(k,i)
                     end
                     -- If level == UnitLevel(), then see if there is an offset to look at
                     if offset then
-                        if level == UnitLevel("player") then
+                        if level == _G.UnitLevel("player") then
                             if offset < 0 then
-                                local togo = UnitXPMax("player") - UnitXP("player")
+                                local togo = _G.UnitXPMax("player") - _G.UnitXP("player")
                                 if togo <= -offset then
                                     skip = true
                                     WoWPro:dbp("Skip %s [%s] because %d <= %d XP (%s)).",WoWPro.action[k],WoWPro.step[k], togo, offset, WoWPro.level[k])
@@ -1632,7 +1637,7 @@ function WoWPro.NextStep(k,i)
                                 end
                             end
                             if offset > 0 then
-                                local done = UnitXP("player")
+                                local done = _G.UnitXP("player")
                                 if done >= offset then
                                     skip = true
                                     WoWPro:dbp("Skip %s [%s] because %d >= %d XP (%s)).",WoWPro.action[k],WoWPro.step[k], done, offset, WoWPro.level[k])
@@ -1640,18 +1645,18 @@ function WoWPro.NextStep(k,i)
                                     break
                                 end
                             end
-                        elseif level < UnitLevel("player") then
+                        elseif level < _G.UnitLevel("player") then
                             skip = true
-                            WoWPro:dbp("Skip %s [%s] because %d < %d Level (%s)).",WoWPro.action[k],WoWPro.step[k], level, UnitLevel("player"), WoWPro.level[k])
+                            WoWPro:dbp("Skip %s [%s] because %d < %d Level (%s)).",WoWPro.action[k],WoWPro.step[k], level, _G.UnitLevel("player"), WoWPro.level[k])
                             WoWPro.CompleteStep(k, "NextStep():  Completed LVL step because " .. WoWPro.level[k] .. " was met.")
                             break
                         end
                     end
                 else
                     -- Negative levels bound the level to being |level| <=
-                    if -level <= UnitLevel("player") then
+                    if -level <= _G.UnitLevel("player") then
                         skip = true
-                        WoWPro:dbp("Skip %s [%s] because player level %d is too high.",WoWPro.action[k],WoWPro.step[k],UnitLevel("player"))
+                        WoWPro:dbp("Skip %s [%s] because player level %d is too high.",WoWPro.action[k],WoWPro.step[k],_G.UnitLevel("player"))
                         WoWPro.why[k] = "NextStep(): Skipping step because player level was too high."
                         break
                     end
@@ -1796,14 +1801,14 @@ function WoWPro.NextStep(k,i)
 			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, hasBonusRepGain, _
 			local friendID, friendRep, friendMaxRep, friendName, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold
 			if Friendship then
-			    friendID, friendRep, friendMaxRep, name, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold = GetFriendshipReputation(factionIndex);
+			    friendID, friendRep, friendMaxRep, name, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold = _G.GetFriendshipReputation(factionIndex);
 			    friendTextLevel = string.lower(friendTextLevel)
 			    standingId = Rep2IdAndClass[friendTextLevel][1]
 			    earnedValue = friendRep - friendThreshold
 			    bottomValue = 0
 			    WoWPro:dbp("NPC %s is a %s: standing %d, earned %d",name,friendTextLevel,standingId,earnedValue)
 			else
-			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, _, hasBonusRepGain = GetFactionInfoByID(factionIndex)
+			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, _, hasBonusRepGain = _G.GetFactionInfoByID(factionIndex)
                 WoWPro:dbp("Faction %s: standing %d, earned %d, bottomValue %d, bonus %s",name,standingId,earnedValue,bottomValue,tostring(hasBonusRepGain))
                 earnedValue = earnedValue - bottomValue
 			end
@@ -1875,7 +1880,7 @@ function WoWPro.NextStep(k,i)
 				achall = WoWPro.toboolean(achall)
 				if achitem == "" or achitem == "0" then achitem = nil end
 				if not achitem then
-					local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch, wasEarnedByMe = GetAchievementInfo(achnum)
+					local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch, wasEarnedByMe = _G.GetAchievementInfo(achnum)
 					if achall then
 						wasEarnedByMe = Completed
 					end
@@ -1928,9 +1933,9 @@ function WoWPro.NextStep(k,i)
 						end
 					end
 				else
-					local count = GetAchievementNumCriteria(achnum)
+					local count = _G.GetAchievementNumCriteria(achnum)
 					if tonumber(achitem) <= count then
-						local description, type, completed = GetAchievementCriteriaInfo(achnum, achitem)
+						local description, type, completed = _G.GetAchievementCriteriaInfo(achnum, achitem)
 						WoWPro:dbp("ACH %s/%s Completed=%s, Flip=%s", achnum, achitem, tostring(completed), tostring(achflip))
 						if achflip then completed = not completed end
 						if completed then
@@ -1993,7 +1998,7 @@ function WoWPro.NextStep(k,i)
 
 	if WoWPro.ilvl and WoWPro.ilvl[k] then
     		local ilvlID,ilvlFlip = string.split(";",WoWPro.ilvl[k])
-    		local avgIlvl = GetAverageItemLevel()
+    		local avgIlvl = _G.GetAverageItemLevel()
 		local ilvlMatch
 		ilvlFlip = WoWPro.toboolean(ilvlFlip)
 		if tonumber(ilvlID) >= avgIlvl then
@@ -2017,8 +2022,8 @@ function WoWPro.NextStep(k,i)
     	-- This tests for Spells you can put on a button, essentially.
     	if WoWPro.spell and WoWPro.spell[k] then
     	    local spellNick,spellID,spellFlip = string.split(";",WoWPro.spell[k])
-    	    local spellName = GetSpellInfo(tonumber(spellID))
-    	    local spellKnown = GetSpellInfo(spellName)
+    	    local spellName = _G.GetSpellInfo(tonumber(spellID))
+    	    local spellKnown = _G.GetSpellInfo(spellName)
     	    spellKnown = spellKnown ~= nil
     	    spellFlip = WoWPro.toboolean(spellFlip)
     	    if spellFlip then spellKnown = not spellKnown end
@@ -2042,30 +2047,30 @@ function WoWPro.NextStep(k,i)
 					flyFlip = true
 				end
 				if expansion == "BFA" then
-					spellName = GetSpellInfo(278833)
-					local name, rank, icon, castTime, minRange, maxRange, spellID = GetSpellInfo(spellName)
+					spellName = _G.GetSpellInfo(278833)
+					local name, rank, icon, castTime, minRange, maxRange, spellID = _G.GetSpellInfo(spellName)
 					if (spellID == "278833") then
 						spellKnown = true
 					else
 						spellKnown = false
 					end
 				elseif expansion == "LEGION" then
-					spellName = GetSpellInfo(233368)
-					spellKnown = GetSpellInfo(spellName)
+					spellName = _G.GetSpellInfo(233368)
+					spellKnown = _G.GetSpellInfo(spellName)
 				elseif expansion == "WOD" then
-					spellName = GetSpellInfo(233368)
-					spellKnown = GetSpellInfo(spellName)
+					spellName = _G.GetSpellInfo(233368)
+					spellKnown = _G.GetSpellInfo(spellName)
 				elseif expansion == "OLD" then
-					local eSkill = GetSpellInfo(34090)
-					local aSkill = GetSpellInfo(34091)
-					local mSkill = GetSpellInfo(90265)
-					if GetSpellInfo(eSkill) then
+					local eSkill = _G.GetSpellInfo(34090)
+					local aSkill = _G.GetSpellInfo(34091)
+					local mSkill = _G.GetSpellInfo(90265)
+					if _G.GetSpellInfo(eSkill) then
 						spellKnown = true
 						spellName = eSkill
-					elseif GetSpellInfo(aSkill) then
+					elseif _G.GetSpellInfo(aSkill) then
 						spellKnown = true
 						spellName = aSkill
-					elseif GetSpellInfo(mSkill) then
+					elseif _G.GetSpellInfo(mSkill) then
 						spellKnown = true
 						spellName = mSkill
 					end
@@ -2134,7 +2139,7 @@ function WoWPro.NextStep(k,i)
             end
             Name = string.lower(Name)
             if Name == "townhall" then
-                local level, mapTexture, townHallX, townHallY = C_Garrison.GetGarrisonInfo(LE_GARRISON_TYPE_6_0)
+                local level, mapTexture, townHallX, townHallY = _G.C_Garrison.GetGarrisonInfo(_G.LE_GARRISON_TYPE_6_0)
                 if ( not level or not townHallX or not townHallY ) then
                     -- if no garrison yet, then stop.
                     skip = true
@@ -2145,7 +2150,7 @@ function WoWPro.NextStep(k,i)
                     WoWPro.why[k] = "NextStep(): TownHall not right level"
                 end
             elseif  Name == "townhallonly" then
-                local buildings = C_Garrison.GetBuildings(LE_GARRISON_TYPE_6_0);
+                local buildings = _G.C_Garrison.GetBuildings(_G.LE_GARRISON_TYPE_6_0);
                 if #buildings > 0 then
         		    WoWPro.why[k] = "NextStep(): Buildings owned already."
                     skip = true
@@ -2162,13 +2167,13 @@ function WoWPro.NextStep(k,i)
     		        end
     		        idHash[bid] = true
     		    end
-    		    local buildings = C_Garrison.GetBuildings(LE_GARRISON_TYPE_6_0);
+    		    local buildings = _G.C_Garrison.GetBuildings(_G.LE_GARRISON_TYPE_6_0);
     		    WoWPro.why[k] = "NextStep(): Building not owned."
     		    local owned = false
                 for i = 1, #buildings do
                     local building = buildings[i];
                     if idHash[building.buildingID] then
-                        local id, name, texPrefix, icon, rank, isBuilding, timeStart, buildTime, canActivate, canUpgrade, isPrebuilt = C_Garrison.GetOwnedBuildingInfoAbbrev(building.plotID);
+                        local id, name, texPrefix, icon, rank, isBuilding, timeStart, buildTime, canActivate, canUpgrade, isPrebuilt = _G.C_Garrison.GetOwnedBuildingInfoAbbrev(building.plotID);
                         owned = true
                         WoWPro.why[k] = "NextStep(): " .. name .." owned."
                         WoWPro:dbp("Building %d is owned",building.buildingID)
@@ -2207,7 +2212,7 @@ function WoWPro.NextStep(k,i)
         -- Do we have enough loot in bags?
 		if (WoWPro.lootitem and WoWPro.lootitem[k]) then
 		    WoWPro:dbp("Checking %s [%s/%s] step %s for loot %s",WoWPro.action[k],WoWPro.step[k],tostring(QID),k, WoWPro.lootitem[k])
-		    if GetItemCount(WoWPro.lootitem[k]) >= (WoWPro.lootqty[k] or 1) then
+		    if _G.GetItemCount(WoWPro.lootitem[k]) >= (WoWPro.lootqty[k] or 1) then
 		        if WoWPro.action[k] == "T" then
 		            -- Special for T steps, do NOT skip.  Like Darkmoon [Test Your Strength]
 		            WoWPro.why[k] = "NextStep(): enough loot to turn in quest."
@@ -2230,7 +2235,7 @@ function WoWPro.NextStep(k,i)
 		else
     		-- Special for Buy steps where the step name is the item to buy and no |L| specified
     		if WoWPro.action[k] == "B" then
-    		    if GetItemCount(WoWPro.step[k]) > 0 then
+    		    if _G.GetItemCount(WoWPro.step[k]) > 0 then
     			    WoWPro.CompleteStep(k, "NextStep(): completed cause you bought enough named loot.")
     			    skip = true
     			end
@@ -2318,7 +2323,7 @@ function WoWPro.NextStep(k,i)
             end
             -- if the step is conditionalized by the NPC tag for the opponent, then skip if not opponent.
             -- useful when Blizzard changes up the order of the NPCs in pet battles
-            if WoWPro.NPC[k] and C_PetBattles.GetActivePet(LE_BATTLE_PET_ENEMY) ~= WoWPro.NPC[k] then
+            if WoWPro.NPC[k] and _G.C_PetBattles.GetActivePet(_G.LE_BATTLE_PET_ENEMY) ~= WoWPro.NPC[k] then
                 WoWPro.why[k] = "NextStep(): not active enemy " ..  tostring(WoWPro.NPC[k])
                 skip = true
                 break
@@ -2369,7 +2374,7 @@ function WoWPro.CompleteStep(step, why)
 	local GID = WoWProDB.char.currentguide
 	if WoWProCharDB.Guide[GID].completion[step] then return end
 	if WoWProDB.profile.checksound then
-		PlaySoundFile(WoWProDB.profile.checksoundfile)
+		_G.PlaySoundFile(WoWProDB.profile.checksoundfile)
 	end
 	why = tostring(why)
 	WoWPro:print("WoWPro.CompleteStep(%d,%s[%s],'%s')",step, tostring(WoWPro.action[step]), tostring(WoWPro.step[step]), why)
@@ -2471,7 +2476,7 @@ function WoWPro.PopulateQuestLog()
 	-- Generating the Quest Log table --
 	WoWPro.QuestLog = tablecopy(WoWPro.FauxQuestLog) -- Reinitiallizing the Quest Log table
 	local i
-	local entries, numQuests = GetNumQuestLogEntries()
+	local entries, numQuests = _G.GetNumQuestLogEntries()
 	local lastCollapsed, currentHeader
 	local num = 0
 	local delta = 0
@@ -2481,7 +2486,7 @@ function WoWPro.PopulateQuestLog()
     i=1
 	while(true) do
 		local questTitle, level, suggestedGroup, isHeader, isCollapsed, isComplete, frequency,
-		    questID, startEvent, displayQuestID, isOnMap, hasLocalPOI, isTask, isStory = GetQuestLogTitle(i)
+		    questID, startEvent, displayQuestID, isOnMap, hasLocalPOI, isTask, isStory = _G.GetQuestLogTitle(i)
 		local leaderBoard
 		local ocompleted
 		local ncompleted
@@ -2496,11 +2501,11 @@ function WoWPro.PopulateQuestLog()
         end
 
 		if (not isHeader) and questTitle and not WoWPro.QuestLog[questID] then
-			if GetNumQuestLeaderBoards(i) and GetQuestLogLeaderBoard(1, i) then
+			if _G.GetNumQuestLeaderBoards(i) and _G.GetQuestLogLeaderBoard(1, i) then
 				leaderBoard = {}
 				ocompleted = {}
 				ncompleted = {}
-				local objective_info = C_QuestLog.GetQuestObjectives(questID)
+				local objective_info = _G.C_QuestLog.GetQuestObjectives(questID)
 				for j=1,#objective_info do
 					leaderBoard[j] = objective_info[j].text
 					ocompleted[j] = objective_info[j].finished
@@ -2618,7 +2623,7 @@ local ScenarioSerial = 0
 
 function WoWPro.ProcessScenarioStage(flag)
     WoWPro:print("WoWPro.ProcessScenarioStage(%s)",tostring(flag))
-    local name, currentStage, numStages,  flags, x, y, completed, xp, money, scenarioType = C_Scenario.GetInfo()
+    local name, currentStage, numStages,  flags, x, y, completed, xp, money, scenarioType = _G.C_Scenario.GetInfo()
     if not name then
         WoWPro:dbp("WoWPro.ProcessScenarioStage: C_Scenario.GetInfo() inactive.")
         WoWPro.Scenario = nil
@@ -2639,7 +2644,7 @@ function WoWPro.ProcessScenarioStage(flag)
     WoWPro:print("name='%s', currentStage=%s, numStages=%s, flags=%s, x=%s, y=%s, completed=%s, xp=%s, money=%s, scenarioType=%s = C_Scenario.GetInfo()",
                  name, tostring(currentStage), tostring(numStages), tostring(flags), tostring(x), tostring(y), tostring(completed), tostring(xp), tostring(money),
                  tostring(scenarioType))
-    local stageName, stageDescription, numCriteria = C_Scenario.GetStepInfo();
+    local stageName, stageDescription, numCriteria = _G.C_Scenario.GetStepInfo();
     WoWPro.Scenario.stageName = stageName
     WoWPro.Scenario.stageDescription = stageDescription
     WoWPro.Scenario.numCriteria = numCriteria
@@ -2660,7 +2665,7 @@ function WoWPro.ProcessScenarioCriteria(punt)
         WoWPro.ProcessScenarioStage("ProcessScenarioCriteria_noScenario")
         return
     end
-    local name, currentStage, numStages,  flags, x, y, completed, xp, money, scenarioType = C_Scenario.GetInfo()
+    local name, currentStage, numStages,  flags, x, y, completed, xp, money, scenarioType = _G.C_Scenario.GetInfo()
     if WoWPro.Scenario.name ~= name or WoWPro.Scenario.currentStage ~= currentStage then
         WoWPro:print("WoWPro.ProcessScenarioCriteria(): Crypto Stage update. Calling WoWPro.ProcessScenarioStage().")
         WoWPro.ProcessScenarioStage("ProcessScenarioCriteria_updatedScenario")
@@ -2673,7 +2678,7 @@ function WoWPro.ProcessScenarioCriteria(punt)
     ScenarioSerial = ScenarioSerial + 1
     WoWPro:print("WoWPro.ProcessScenarioCriteria: Serial %d, found %d criteria",WoWPro.Scenario.Criteria.serial, WoWPro.Scenario.numCriteria)
     for criteriaIndex = 1, WoWPro.Scenario.numCriteria do
-        local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, quantityString, criteriaID, duration, elapsed, criteriaFailed, isWeightedProgress = C_Scenario.GetCriteriaInfo(criteriaIndex);
+        local criteriaString, criteriaType, completed, quantity, totalQuantity, flags, assetID, quantityString, criteriaID, duration, elapsed, criteriaFailed, isWeightedProgress = _G.C_Scenario.GetCriteriaInfo(criteriaIndex);
         if (criteriaString) then
             WoWPro.Scenario.Criteria[criteriaIndex] = WoWPro.Scenario.Criteria[criteriaIndex] or {}
             WoWPro.Scenario.Criteria[criteriaIndex].criteriaString = criteriaString
@@ -2765,7 +2770,7 @@ function WoWPro:IsQuestFlaggedCompleted(qid,force)
     end
     if QID > 0 then
         if is_int(QID) then
-            WoWProCharDB.completedQIDs[QID] = IsQuestFlaggedCompleted(QID) or false
+            WoWProCharDB.completedQIDs[QID] = _G.IsQuestFlaggedCompleted(QID) or false
             return WoWProCharDB.completedQIDs[QID]
         else
             QID = math.floor(QID)
@@ -2773,7 +2778,7 @@ function WoWPro:IsQuestFlaggedCompleted(qid,force)
             return WoWProCharDB.completedQIDs[QID]
         end
     else
-        WoWProCharDB.completedQIDs[-QID] = IsQuestFlaggedCompleted(-QID) or false
+        WoWProCharDB.completedQIDs[-QID] = _G.IsQuestFlaggedCompleted(-QID) or false
         return not WoWProCharDB.completedQIDs[-QID]
     end
 end
@@ -2913,7 +2918,7 @@ function WoWPro:Questline(qid)
     WoWPro:LoadGuide(nil)
 end
 
-StaticPopupDialogs["WOWPRO_PICKQUEST"] = {
+_G.StaticPopupDialogs["WOWPRO_PICKQUEST"] = {
     text = "Please enter the quest ID to select and then click GO!",
     button1 = "Go!",
     button2 = "Never Mind",
@@ -2924,7 +2929,7 @@ StaticPopupDialogs["WOWPRO_PICKQUEST"] = {
     OnShow = function (self, data) self.editBox:SetText("quest id #") end
 }
 
-StaticPopupDialogs["WOWPRO_CONFIRMPICK"] = {
+_G.StaticPopupDialogs["WOWPRO_CONFIRMPICK"] = {
     text = "Please enter the quest ID to select and then click GO!",
     button1 = "Go!",
     button2 = "Never Mind",
@@ -2937,10 +2942,10 @@ StaticPopupDialogs["WOWPRO_CONFIRMPICK"] = {
 
 function WoWPro.PickQuestline(qid, step)
     if step then
-        StaticPopupDialogs["WOWPRO_CONFIRMPICK"].text = string.format("Select quest [%s] (QID %s) and all prerequisites?",step,tostring(qid))
-        StaticPopup_Show("WOWPRO_CONFIRMPICK")
+        _G.StaticPopupDialogs["WOWPRO_CONFIRMPICK"].text = string.format("Select quest [%s] (QID %s) and all prerequisites?",step,tostring(qid))
+        _G.StaticPopup_Show("WOWPRO_CONFIRMPICK")
     else
-        StaticPopup_Show("WOWPRO_PICKQUEST")
+        _G.StaticPopup_Show("WOWPRO_PICKQUEST")
     end
 end
 
@@ -3119,7 +3124,7 @@ end
 function WoWPro:GrailLocalizeQuestName(guide, QID, old_name)
     if not Grail then return old_name end
 	if QID == "*" then return old_name end
-	if strsub(GetLocale(), 1, 2) == "en" then return old_name end
+	if strsub(_G.GetLocale(), 1, 2) == "en" then return old_name end
     if not QID then
         WoWPro:Warning("In guide %s, quest [%s]  does not have a QID",guide,tostring(old_name))
         return old_name
@@ -3175,7 +3180,7 @@ end
 
 function WoWPro.Cannonball()
     WoWPro:LogClear("Cannonball")
-    SelectGossipOption(2)
+    _G.SelectGossipOption(2)
     WoWPro.TrackerTimer = 14
 end
 
@@ -3243,7 +3248,7 @@ function WoWPro:CarboniteProfileHack()
 				},
 			}
 
-			WoWPro:Print('Patched Carbonite\'s fake TomTom profile')
+			WoWPro:Print("Patched Carbonite's fake TomTom profile")
 		end
 	end
 end

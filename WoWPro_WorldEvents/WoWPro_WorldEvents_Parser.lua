@@ -23,7 +23,7 @@ end
 -- Left-Click Row Function --
 function WoWPro.WorldEvents:RowLeftClick(i)
 	if WoWPro.QID[WoWPro.rows[i].index] and WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]] then
-		QuestLog_OpenToQuest(WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]].index)
+		_G.QuestLog_OpenToQuest(WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]].index)
 	end
 	WoWPro.rows[i]:SetChecked(nil)
 end

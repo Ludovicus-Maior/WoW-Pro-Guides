@@ -1,20 +1,24 @@
+-- luacheck: globals TomTom LightHeaded Nx
+-- luacheck: globals ipairs select wipe sqrt type
+-- luacheck: globals tonumber tostring strtrim
+
 ----------------------------------
 --      WoWPro_Mapping.lua      --
 ----------------------------------
 
 local L = WoWPro_Locale
 local cache = {}
-local HBD = LibStub("HereBeDragons-2.0")
+local HBD = _G.LibStub("HereBeDragons-2.0")
 WoWPro.HBD = HBD
 
 
 -- Local HBD:GetPlayerZonePosition() substitute
 function WoWPro:GetPlayerZonePosition()
-    local mapID = C_Map.GetBestMapForUnit("player")
+    local mapID = _G.C_Map.GetBestMapForUnit("player")
     if not mapID then
         return nil, nil, nil
     end
-    local pmp = C_Map.GetPlayerMapPosition(mapID, "player")
+    local pmp = _G.C_Map.GetPlayerMapPosition(mapID, "player")
     if not pmp then
         return nil, nil, mapID
     end
@@ -40,7 +44,7 @@ local SHOW_WORLDMAP_TOOLTIP = true
 local function WoWProMapping_minimap_onclick(event, uid, self, button)
 	if SHOW_MINIMAP_MENU then
 		TomTom:InitializeDropdown(uid)
-		ToggleDropDownMenu(1, nil, TomTom.dropdown, "cursor", 0, 0)
+		_G.ToggleDropDownMenu(1, nil, TomTom.dropdown, "cursor", 0, 0)
 	end
 end
 
@@ -49,7 +53,7 @@ end
 local function WoWProMapping_worldmap_onclick(event, uid, self, button)
 	if SHOW_WORLDMAP_MENU then
 		TomTom:InitializeDropdown(uid)
-		ToggleDropDownMenu(1, nil, TomTom.dropdown, "cursor", 0, 0)
+		_G.ToggleDropDownMenu(1, nil, TomTom.dropdown, "cursor", 0, 0)
 	end
 end
 
@@ -123,7 +127,7 @@ local OldCleardistance	-- saves TomTom's option to restore it
 -- Function to handle the distance callback in TomTom, when player gets to the final destination
 local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
 
-	if UnitOnTaxi("player") then
+	if _G.UnitOnTaxi("player") then
 	    return
 	end
 
@@ -452,8 +456,8 @@ function WoWPro:MapPoint(row)
 	if (WoWPro.action[i]=="T" or WoWPro.action[i]=="C") and WoWPro.QID and WoWPro.QID[i] and not coords then
 	    if not WoWPro.CLASSIC then
 	        -- TODO: Is this needed at all?
-		    QuestMapUpdateAllQuests()
-		    QuestPOIUpdateIcons()
+		    _G.QuestMapUpdateAllQuests()
+		    _G.QuestPOIUpdateIcons()
 		end
 		local x, y = WoWPro:findBlizzCoords(WoWPro.QID[i])
 		if x and y then coords = tostring(x)..","..tostring(y) end
@@ -463,7 +467,7 @@ function WoWPro:MapPoint(row)
 	if WoWPro.QID and WoWPro.QID[i] then
 	    local qid = tonumber(WoWPro.QID[i])
 	    if qid then
-                SetSuperTrackedQuestID(qid)
+            _G.SetSuperTrackedQuestID(qid)
 	    end
 	end
 
@@ -677,16 +681,16 @@ function  WoWPro.CheckHBDData(force)
         return
     end
     -- Hey!  No data!
-	WoWPro:print("You discovered new map %d info for %s:%s. Please report this on the WoWPro.com website.", mapId, GetZoneText(), string.trim(GetSubZoneText()))
+	WoWPro:print("You discovered new map %d info for %s:%s. Please report this on the WoWPro.com website.", mapId, _G.GetZoneText(), string.trim(_G.GetSubZoneText()))
 end
 
 function WoWPro:LogLocation()
     local x, y, mapId = WoWPro:GetPlayerZonePosition()
 
     if not (x and y) then
-        WoWPro:print("Player [?,?@%d] WPZone=%q, Zone=%q, SubZone=%q", mapId, WoWPro.GetZoneText(), GetZoneText(), GetSubZoneText() )
+        WoWPro:print("Player [?,?@%d] WPZone=%q, Zone=%q, SubZone=%q", mapId, WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText() )
     else
-        WoWPro:print("Player [%.2f,%.2f@%d] WPZone=%q, Zone=%q, SubZone=%q", x*100 , y*100, mapId, WoWPro.GetZoneText(), GetZoneText(), GetSubZoneText() )
+        WoWPro:print("Player [%.2f,%.2f@%d] WPZone=%q, Zone=%q, SubZone=%q", x*100 , y*100, mapId, WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText() )
     end
 end
 

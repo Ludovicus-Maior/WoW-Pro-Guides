@@ -1,3 +1,6 @@
+-- luacheck: globals tostring
+-- luacheck: globals pairs unpack
+
 ---------------------------------------------
 --      WoWPro_Achievements_GuideList.lua      --
 ---------------------------------------------
@@ -20,7 +23,7 @@ local function AddInfo(guide)
     WoWPro.Achievements:dbp("Guide %s: ach %s",guide.GID,tostring(guide.ach))
     if not WoWProDB.global.Achievements.Achievement[guide.ach] then
         -- Not categorized?  Just make it misc
-        local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(guide.ach)
+        local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = _G.GetAchievementInfo(guide.ach)
         guide.name = name
         guide.category = name
         guide.sub = ""
@@ -124,11 +127,11 @@ end
 
 -- Fancy tooltip!
 function WoWPro.Achievements.GuideTooltipInfo(row, tooltip, guide)
-    GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
-    GameTooltip:AddLine(guide.name.."      ")
-    GameTooltip:AddLine("")
-    GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
-    GameTooltip:AddDoubleLine("SubCategory:",guide.sub,1,1,1,unpack(WoWPro.LevelColor(guide)))
+    _G.GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
+    _G.GameTooltip:AddLine(guide.name.."      ")
+    _G.GameTooltip:AddLine("")
+    _G.GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
+    _G.GameTooltip:AddDoubleLine("SubCategory:",guide.sub,1,1,1,unpack(WoWPro.LevelColor(guide)))
 end
     
 

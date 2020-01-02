@@ -1,8 +1,12 @@
+-- luacheck: globals ipairs unpack
+-- luacheck: globals strtrim
+-- luacheck: globals ceil max
+
 ---------------------------------
 --      WoWPro_Frames.lua      --
 ---------------------------------
 local L = WoWPro_Locale
-local AceGUI = LibStub("AceGUI-3.0")
+local AceGUI = _G.LibStub("AceGUI-3.0")
 
 -- Frame Update Functions --
 function WoWPro.GetSide(frame)
@@ -11,8 +15,8 @@ function WoWPro.GetSide(frame)
 	if (not x) or (not y) then
 	    return nil , nil
 	end
-	if x > (UIParent:GetWidth()/2) then horizontal = "RIGHT" else horizontal = "LEFT" end
-	if y > (UIParent:GetHeight()/2) then vertical = "TOP" else vertical = "BOTTOM" end
+	if x > (_G.UIParent:GetWidth()/2) then horizontal = "RIGHT" else horizontal = "LEFT" end
+	if y > (_G.UIParent:GetHeight()/2) then vertical = "TOP" else vertical = "BOTTOM" end
 	return horizontal, vertical
 end
 
@@ -20,11 +24,11 @@ function WoWPro.ResetMainFramePosition()
 	local top = WoWPro.Titlebar:GetTop()
 	local left = WoWPro.Titlebar:GetLeft()
 	WoWPro.MainFrame:ClearAllPoints()
-	WoWPro.MainFrame:SetPoint("TOPLEFT", UIParent, "BOTTOMLEFT", left, top)
+	WoWPro.MainFrame:SetPoint("TOPLEFT", _G.UIParent, "BOTTOMLEFT", left, top)
 end
 
 function WoWPro:MinimapSet()
-	local icon = LibStub("LibDBIcon-1.0")
+	local icon = _G.LibStub("LibDBIcon-1.0")
 	if not WoWProDB.profile.minimap.hide then
 		icon:Show("WoWProIcon")
 	else
@@ -46,13 +50,13 @@ function WoWPro:ResizeSet()
 end
 function WoWPro:DragSet()
 	-- Drag Customization --
-	local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
+	local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
 	if WoWProDB.profile.drag then
 		WoWPro.Titlebar:SetScript("OnMouseDown", function(self, button)
 			if button == "LeftButton" and WoWProDB.profile.drag then
 				WoWPro.MainFrame:StartMoving()
 			elseif button == "RightButton" then
-				EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+				_G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
 			end
 		end)
 		WoWPro.Titlebar:SetScript("OnMouseUp", function(self, button)
@@ -64,7 +68,7 @@ function WoWPro:DragSet()
 	else
 		WoWPro.Titlebar:SetScript("OnMouseDown", function(self, button)
 			if button == "RightButton" then
-				EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+				_G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
 			end
 		end)
 		WoWPro.Titlebar:SetScript("OnMouseUp", function(self, button)
@@ -304,8 +308,8 @@ function WoWPro.AnchorSet()
 			local hcenter = (left + right) / 2
 			local anchorpoint = WoWProDB.profile.anchorpoint
 			local hquadrant, vquadrant = WoWPro.GetSide(WoWPro.MainFrame)
-			local width = UIParent:GetWidth()
-			local height = UIParent:GetHeight()
+			local width = _G.UIParent:GetWidth()
+			local height = _G.UIParent:GetHeight()
 
             WoWPro:dbp("SetPoint:OnUpdate(): top=%.2f bottom=%.2f left=%.2f right=%.2f width=%.2f height=%.2f", top, bottom, left, right, width, height)
 			-- Setting anchor point based on the quadrant if it's set to auto --
@@ -314,23 +318,23 @@ function WoWPro.AnchorSet()
 			WoWPro.MainFrame:ClearAllPoints()
             local anchor
 			if anchorpoint == "TOPLEFT" then
-				anchor = {"TOPLEFT", UIParent, "TOPLEFT", left, top-height}
+				anchor = {"TOPLEFT", _G.UIParent, "TOPLEFT", left, top-height}
 			elseif anchorpoint == "TOP" then
-				anchor = {"TOP", UIParent, "TOP", hcenter, top-height}
+				anchor = {"TOP", _G.UIParent, "TOP", hcenter, top-height}
 			elseif anchorpoint == "TOPRIGHT" then
-				anchor = {"TOPRIGHT", UIParent, "TOPRIGHT",right-width,  top-height}
+				anchor = {"TOPRIGHT", _G.UIParent, "TOPRIGHT",right-width,  top-height}
 			elseif anchorpoint == "LEFT" then
-				anchor = {"LEFT", UIParent, "LEFT", left, vcenter}
+				anchor = {"LEFT", _G.UIParent, "LEFT", left, vcenter}
 			elseif anchorpoint == "CENTER" then
-				anchor = {"CENTER", UIParent, "CENTER", hcenter, vcenter}
+				anchor = {"CENTER", _G.UIParent, "CENTER", hcenter, vcenter}
 			elseif anchorpoint == "RIGHT" then
-				anchor = {"RIGHT", UIParent, "RIGHT", right-width, vcenter}
+				anchor = {"RIGHT", _G.UIParent, "RIGHT", right-width, vcenter}
 			elseif anchorpoint == "BOTTOMLEFT" then
-				anchor = {"BOTTOMLEFT", UIParent, "BOTTOMLEFT", left, bottom}
+				anchor = {"BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", left, bottom}
 			elseif anchorpoint == "BOTTOM" then
-				anchor = {"BOTTOM", UIParent, "BOTTOM", hcenter, bottom}
+				anchor = {"BOTTOM", _G.UIParent, "BOTTOM", hcenter, bottom}
 			elseif anchorpoint == "BOTTOMRIGHT" then
-				anchor = {"BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", right-width, bottom}
+				anchor = {"BOTTOMRIGHT", _G.UIParent, "BOTTOMRIGHT", right-width, bottom}
 			end
 			WoWPro:dbp("SetPoint:OnUpdate() point=%q, UIParent, relativePoint=%q, ofsx=%.2f, ofsy=%.2f",
 			           anchor[1], anchor[3], anchor[4], anchor[5])
@@ -368,7 +372,7 @@ end
 
 -- Create Dialog Box --
 function WoWPro:CreateDialogBox(name, w, h)
-	local frame = CreateFrame("Frame", name, UIParent)
+	local frame = _G.CreateFrame("Frame", name, _G.UIParent)
 	frame:SetPoint("CENTER", 0, 100)
 	frame:SetBackdrop( {
 		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
@@ -394,24 +398,24 @@ end
 
 -- Main Frame --
 function WoWPro:CreateMainFrame()
-	local frame = CreateFrame("Button", "WoWPro.MainFrame", UIParent)
+	local frame = _G.CreateFrame("Button", "WoWPro.MainFrame", _G.UIParent)
 	frame:SetMovable(true)
 	frame:SetResizable(true)
 	frame:SetClampedToScreen(true)
 	frame:SetHeight(300)
 	frame:SetWidth(200)
 	frame:SetMinResize(150,40)
-	frame:SetPoint("TOPLEFT", UIParent, "RIGHT", -210, 175)
+	frame:SetPoint("TOPLEFT", _G.UIParent, "RIGHT", -210, 175)
 	frame:EnableMouseWheel()
 	WoWPro.MainFrame = frame
 	-- Menu --
-	local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
+	local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
 	-- Scripts --
 	WoWPro.MainFrame:SetScript("OnMouseDown", function(self, button)
 		if button == "LeftButton" and WoWProDB.profile.drag then
 			WoWPro.MainFrame:StartMoving()
 		elseif button == "RightButton" then
-			EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+			_G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
 		end
 	end)
 	WoWPro.MainFrame:SetScript("OnMouseUp", function(self, button)
@@ -422,13 +426,13 @@ function WoWPro:CreateMainFrame()
 	end)
 
 	-- Set initial keybindings frames
-	WoWPro.FauxItemButton = CreateFrame("Frame", "WoWPro_FauxItemButton", UIParent)
+	WoWPro.FauxItemButton = _G.CreateFrame("Frame", "WoWPro_FauxItemButton", _G.UIParent)
 	WoWPro.FauxItemButton:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" then
 			WoWPro:dbp("Clicking FauxItemButton")
 		end
 	end)
-	WoWPro.FauxTargetButton = CreateFrame("Frame", "WoWPro_FauxTargetButton", UIParent)
+	WoWPro.FauxTargetButton = _G.CreateFrame("Frame", "WoWPro_FauxTargetButton", _G.UIParent)
 	WoWPro.FauxTargetButton:SetScript("OnMouseUp", function(self, button)
 		if button == "LeftButton" then
 			WoWPro:dbp("Clicking FauxTargetButton")
@@ -438,7 +442,7 @@ end
 
 -- Resize Button --
 function WoWPro:CreateResizeButton()
-	local resizebutton = CreateFrame("Button", "WoWPro.ResizeButton", WoWPro.MainFrame)
+	local resizebutton = _G.CreateFrame("Button", "WoWPro.ResizeButton", WoWPro.MainFrame)
 	resizebutton:SetHeight(20)
 	resizebutton:SetWidth(20)
 	resizebutton:SetFrameLevel(WoWPro.MainFrame:GetFrameLevel()+3)
@@ -462,7 +466,7 @@ end
 
 -- Title Bar --
 function WoWPro:CreateTitleBar()
-	local titlebar = CreateFrame("Button", nil, WoWPro.MainFrame)
+	local titlebar = _G.CreateFrame("Button", nil, WoWPro.MainFrame)
 	titlebar:SetHeight(22)
 	titlebar:SetWidth(200)
 	titlebar:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT")
@@ -478,17 +482,17 @@ function WoWPro:CreateTitleBar()
 	local titletext = WoWPro.Titlebar:CreateFontString()
 	titletext:SetPoint("TOPRIGHT", WoWPro.Titlebar, "TOPRIGHT", -5, -7)
 	titletext:SetPoint("TOPLEFT", WoWPro.Titlebar, "TOPLEFT", 5, -7)
-	titletext:SetFontObject(GameFontNormal)
+	titletext:SetFontObject(_G.GameFontNormal)
 	titletext:SetText("WoW-Pro Guides")
 	titletext:SetTextColor(1, 1, 1)
 	WoWPro.TitleText = titletext
 	-- Scripts --
-	local menuFrame = CreateFrame("Frame", "WoWProDropMenu", UIParent, "UIDropDownMenuTemplate")
+	local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
 	WoWPro.Titlebar:SetScript("OnMouseDown", function(self, button)
 		if button == "LeftButton" and WoWProDB.profile.drag then
 			WoWPro.MainFrame:StartMoving()
 		elseif button == "RightButton" then
-			EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
+			_G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
 		end
 	end)
 	WoWPro.Titlebar:SetScript("OnMouseUp", function(self, button)
@@ -523,7 +527,7 @@ end
 
 -- Sticky Frame --
 function WoWPro:CreateStickyFrame()
-	local sticky = CreateFrame("Frame", "WoWPro.StickyFrame", WoWPro.MainFrame)
+	local sticky = _G.CreateFrame("Frame", "WoWPro.StickyFrame", WoWPro.MainFrame)
 	sticky:SetHeight(1)
 	sticky:Hide()
 	WoWPro.StickyFrame = sticky
@@ -540,7 +544,7 @@ end
 
 -- Guide Frame --
 function WoWPro:CreateGuideFrame()
-	WoWPro.GuideFrame = CreateFrame("Frame", "WoWPro.GuideFrame", WoWPro.MainFrame)
+	WoWPro.GuideFrame = _G.CreateFrame("Frame", "WoWPro.GuideFrame", WoWPro.MainFrame)
 end
 
 -- Scrollbar --
@@ -573,7 +577,7 @@ end
 function WoWPro:CreateRows()
 	WoWPro.rows = {}
 	for i=1,15 do
-		local row = CreateFrame("CheckButton", nil, WoWPro.GuideFrame)
+		local row = _G.CreateFrame("CheckButton", nil, WoWPro.GuideFrame)
 		row:SetBackdrop( {
 			bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
 			tile = true, tileSize = 16
@@ -593,15 +597,15 @@ function WoWPro:CreateRows()
 
 		row.check = WoWPro:CreateCheck(row)
 		row.check:SetScript("OnEnter", function(self)
-			GameTooltip:SetOwner(self, "CheckButton")
-			GameTooltip:AddLine("RIGHT-Click:", 1, 1, 1, 1)
-			GameTooltip:AddLine("   Manually check this step off.", 0.7, 0.7, 0.7, 0.7)
-			GameTooltip:AddLine("LEFT-Click:", 1, 1, 1, 1)
-			GameTooltip:AddLine("   Skip this step.", 0.7, 0.7, 0.7, 0.7)
-			GameTooltip:Show()
+			_G.GameTooltip:SetOwner(self, "CheckButton")
+			_G.GameTooltip:AddLine("RIGHT-Click:", 1, 1, 1, 1)
+			_G.GameTooltip:AddLine("   Manually check this step off.", 0.7, 0.7, 0.7, 0.7)
+			_G.GameTooltip:AddLine("LEFT-Click:", 1, 1, 1, 1)
+			_G.GameTooltip:AddLine("   Skip this step.", 0.7, 0.7, 0.7, 0.7)
+			_G.GameTooltip:Show()
 		end)
 		row.check:SetScript("OnLeave", function(self)
-			GameTooltip:Hide()
+			_G.GameTooltip:Hide()
 		end)
 		row.action = WoWPro:CreateAction(row, row.check)
 		row.step = WoWPro:CreateStep(row, row.action)
@@ -626,7 +630,7 @@ end
 function WoWPro:CreateMouseNotes()
 	WoWPro.mousenotes = {}
 	for i=1,15 do
-		local row = CreateFrame("Frame", nil, WoWPro.GuideFrame)
+		local row = _G.CreateFrame("Frame", nil, WoWPro.GuideFrame)
 		row:SetBackdrop( {
 			bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
 			edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
@@ -654,8 +658,8 @@ end
 
 -- Mini-map Button --
 function WoWPro:CreateMiniMapButton()
-	local ldb = LibStub:GetLibrary("LibDataBroker-1.1")
-	local icon = LibStub("LibDBIcon-1.0")
+	local ldb = _G.LibStub:GetLibrary("LibDataBroker-1.1")
+	local icon = _G.LibStub("LibDBIcon-1.0")
 
 	WoWPro.MinimapButton = ldb:NewDataObject("WoW-Pro", {
 		type = "launcher",
@@ -670,7 +674,7 @@ function WoWPro:CreateMiniMapButton()
 				    WoWPro:Enable()
 				end
 			elseif button == "RightButton" then
-				InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
+				_G.InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
 			end
 		end,
 		OnTooltipShow = function(self)
@@ -690,30 +694,30 @@ function WoWPro:CreateSkipStepsDialog()
 	local explanation = frame:CreateFontString()
 	explanation:SetPoint("TOPLEFT", frame, "TOPLEFT", 10, -70-titletext:GetHeight())
 	explanation:SetJustifyH("LEFT")
-	explanation:SetFontObject(GameFontNormal)
+	explanation:SetFontObject(_G.GameFontNormal)
 	explanation:SetWidth(frame:GetWidth()-20)
 	explanation:SetTextColor(1, 1, 1)
 
-	local button1 = CreateFrame("Button", "WoWPro_SkipOkay", frame, "OptionsButtonTemplate")
+	local button1 = _G.CreateFrame("Button", "WoWPro_SkipOkay", frame, "OptionsButtonTemplate")
 	button1:SetPoint("TOP", titletext, "BOTTOM", 0, -5)
 	button1:SetHeight(25)
 	button1:SetWidth(160)
 	local button1text = button1:CreateFontString()
 	button1text:SetPoint("TOP", button1,"TOP", 0, -7)
-	button1text:SetFontObject(GameFontNormalSmall)
+	button1text:SetFontObject(_G.GameFontNormalSmall)
 	button1text:SetText("Okay")
 	button1text:SetTextColor(1, 1, 1)
 	button1:SetScript("OnClick", function(self, button)
 		WoWPro.SkipStepsDialog:Hide()
 	end)
 
-	local button2 = CreateFrame("Button", "WoWPro_SkipCancel", frame, "OptionsButtonTemplate")
+	local button2 = _G.CreateFrame("Button", "WoWPro_SkipCancel", frame, "OptionsButtonTemplate")
 	button2:SetPoint("TOP", titletext, "BOTTOM", 0, -30)
 	button2:SetHeight(25)
 	button2:SetWidth(160)
 	local button2text = button2:CreateFontString()
 	button2text:SetPoint("TOP", button2, "TOP", 0, -7)
-	button2text:SetFontObject(GameFontNormalSmall)
+	button2text:SetFontObject(_G.GameFontNormalSmall)
 	button2text:SetText("Cancel")
 	button2text:SetTextColor(1, 1, 1)
 	button2:SetScript("OnClick", function(self, button)
@@ -745,13 +749,13 @@ function WoWPro:CreateNextGuideDialog()
 
 	local frame, titletext = WoWPro:CreateDialogBox("WoWPro_GuideCompleted", 180, 150)
 
-	local button1 = CreateFrame("Button", "WoWPro_LoadNextGuide", frame, "OptionsButtonTemplate")
+	local button1 = _G.CreateFrame("Button", "WoWPro_LoadNextGuide", frame, "OptionsButtonTemplate")
 	button1:SetPoint("BOTTOMLEFT", 10, 80)
 	button1:SetHeight(25)
 	button1:SetWidth(160)
 	local button1text = button1:CreateFontString()
 	button1text:SetPoint("TOP", button1, "TOP", 0, -7)
-	button1text:SetFontObject(GameFontNormalSmall)
+	button1text:SetFontObject(_G.GameFontNormalSmall)
 	button1text:SetText("Load Next Guide")
 	button1text:SetTextColor(1, 1, 1)
 	button1:SetScript("OnClick", function(self, button)
@@ -759,28 +763,28 @@ function WoWPro:CreateNextGuideDialog()
 		WoWPro.NextGuideDialog:Hide()
 	end)
 
-	local button2 = CreateFrame("Button", "WoWPro_OpenLevelingGuidelist", frame, "OptionsButtonTemplate")
+	local button2 = _G.CreateFrame("Button", "WoWPro_OpenLevelingGuidelist", frame, "OptionsButtonTemplate")
 	button2:SetPoint("BOTTOMLEFT", 10, 45)
 	button2:SetHeight(25)
 	button2:SetWidth(160)
 	local button2text = button2:CreateFontString()
 	button2text:SetPoint("TOP", button2, "TOP", 0, -7)
-	button2text:SetFontObject(GameFontNormalSmall)
+	button2text:SetFontObject(_G.GameFontNormalSmall)
 	button2text:SetText("Choose Guide From List")
 	button2text:SetTextColor(1, 1, 1)
 	button2:SetScript("OnClick", function(self, button)
-		InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling")
-		InterfaceOptionsFrame_OpenToCategory("Guide List")
+		_G.InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling")
+		_G.InterfaceOptionsFrame_OpenToCategory("Guide List")
 		WoWPro.NextGuideDialog:Hide()
 	end)
 
-	local button3 = CreateFrame("Button", "WoWPro_ResetGuide", frame, "OptionsButtonTemplate")
+	local button3 = _G.CreateFrame("Button", "WoWPro_ResetGuide", frame, "OptionsButtonTemplate")
 	button3:SetPoint("BOTTOMLEFT", 10, 10)
 	button3:SetHeight(25)
 	button3:SetWidth(160)
 	local button3text = button3:CreateFontString()
 	button3text:SetPoint("TOP", button3, "TOP", 0, -7)
-	button3text:SetFontObject(GameFontNormalSmall)
+	button3text:SetFontObject(_G.GameFontNormalSmall)
 	button3text:SetText("Reset Current Guide")
 	button3text:SetTextColor(1, 1, 1)
 	button3:SetScript("OnClick", function(self, button)
@@ -813,8 +817,8 @@ end
 
 function WoWPro.InterfaceOptionsFrame_OpenToCategory(menu)
     -- Hack!
-    InterfaceOptionsFrame_OpenToCategory(menu)
-    InterfaceOptionsFrame_OpenToCategory(menu)
+    _G.InterfaceOptionsFrame_OpenToCategory(menu)
+    _G.InterfaceOptionsFrame_OpenToCategory(menu)
 end
 
 -- Dropdown Menu --

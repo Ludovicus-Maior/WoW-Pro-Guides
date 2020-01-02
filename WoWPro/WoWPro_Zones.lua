@@ -1,3 +1,6 @@
+-- luacheck: globals select pairs ipairs next type
+-- luacheck: globals tonumber tostring
+
 ----------------------------------
 --      WoWPro_Zones.lua      --
 ----------------------------------
@@ -7,6 +10,7 @@
 WoWPro.MapInfo = {}
 WoWPro.Zone2MapID = {}
 WoWPro.LegacyZone2MapID = {}
+local UIMapType = _G.Enum.UIMapType
 
 function WoWPro.DefineLegacyZone(legacy_zone, modern_mapId)
     WoWPro.LegacyZone2MapID[legacy_zone] = WoWPro.LegacyZone2MapID[legacy_zone] or {}
@@ -110,7 +114,7 @@ function WoWPro:IsInstanceZone(zone)
         WoWPro:Error("Zone [%s] is invalid.  Please report!",zone)
         return false
     end
-    return (WoWPro.MapInfo[mapID].mapType == Enum.UIMapType.Dungeon) or (WoWPro.MapInfo[mapID].mapType == Enum.UIMapType.Orphan)
+    return (WoWPro.MapInfo[mapID].mapType == UIMapType.Dungeon) or (WoWPro.MapInfo[mapID].mapType == UIMapType.Orphan)
 end
 
 local function pack_kv(...)
@@ -215,13 +219,13 @@ function WoWPro.DebugZones()
 end
 
 local MapType2Name = {
-    [Enum.UIMapType.Cosmic] = "Enum.UIMapType.Cosmic",
-    [Enum.UIMapType.World] = "Enum.UIMapType.World",
-    [Enum.UIMapType.Continent] = "Enum.UIMapType.Continent",
-    [Enum.UIMapType.Zone] = "Enum.UIMapType.Zone",
-    [Enum.UIMapType.Dungeon] = "Enum.UIMapType.Dungeon",
-    [Enum.UIMapType.Micro] = "Enum.UIMapType.Micro",
-    [Enum.UIMapType.Orphan] = "Enum.UIMapType.Orphan",
+    [UIMapType.Cosmic] = "Enum.UIMapType.Cosmic",
+    [UIMapType.World] = "Enum.UIMapType.World",
+    [UIMapType.Continent] = "Enum.UIMapType.Continent",
+    [UIMapType.Zone] = "Enum.UIMapType.Zone",
+    [UIMapType.Dungeon] = "Enum.UIMapType.Dungeon",
+    [UIMapType.Micro] = "Enum.UIMapType.Micro",
+    [UIMapType.Orphan] = "Enum.UIMapType.Orphan",
 }
 
 function WoWPro.EmitZones(release)
@@ -251,7 +255,7 @@ end
 
 
 function WoWPro.CollectMap(id)
-    local mapInfo = C_Map.GetMapInfo(id)
+    local mapInfo = _G.C_Map.GetMapInfo(id)
     if not mapInfo then return; end
     local w, h = WoWPro.HBD:GetZoneSize(id)
     if (w == 0) or (h == 0) then
@@ -265,9 +269,9 @@ function WoWPro.CollectMap(id)
     if wip_map_info[id].mapType == 6 then
         wip_map_info[id].name = wip_map_info[id].name .. "!Instance"
     end
-    wip_map_info[id].GroupID = C_Map.GetMapGroupID(id)
+    wip_map_info[id].GroupID = _G.C_Map.GetMapGroupID(id)
     if wip_map_info[id].GroupID then
-        wip_group_info[wip_map_info[id].GroupID] = C_Map.GetMapGroupMembersInfo(wip_map_info[id].GroupID)
+        wip_group_info[wip_map_info[id].GroupID] = _G.C_Map.GetMapGroupMembersInfo(wip_map_info[id].GroupID)
         -- Find the matching entry for us in the group member table
         for index, mapGroupMemberInfo in ipairs(wip_group_info[wip_map_info[id].GroupID]) do
             if id == mapGroupMemberInfo.mapID then
@@ -277,7 +281,7 @@ function WoWPro.CollectMap(id)
             end
         end
     end
-    local children = C_Map.GetMapChildrenInfo(id)
+    local children = _G.C_Map.GetMapChildrenInfo(id)
     wip_map_info[id].children = {}
     if children and #children > 0 then
         for i = 1, #children do
@@ -394,7 +398,7 @@ end
 
 function WoWPro.ProcessGroupMembers(id, map_info)
     if map_info.GroupID then
-        wip_group_info[map_info.GroupID] = wip_group_info[map_info.GroupID] or C_Map.GetMapGroupMembersInfo(map_info.GroupID)
+        wip_group_info[map_info.GroupID] = wip_group_info[map_info.GroupID] or _G.C_Map.GetMapGroupMembersInfo(map_info.GroupID)
         -- If all the group members have the name name, use the height as a suffix
         local clones = wip_group_info[map_info.GroupID].clones
         if clones == nil then
@@ -442,26 +446,26 @@ function WoWPro.ProcessGroupMembers(id, map_info)
 end    
 
 local overrides = {
-    [125] = {mapType = Enum.UIMapType.Zone}, -- Dalaran
-    [126] = {mapType = Enum.UIMapType.Micro},
+    [125] = {mapType = UIMapType.Zone}, -- Dalaran
+    [126] = {mapType = UIMapType.Micro},
     [195] = {suffix = "1"}, -- Kaja'mine
     [196] = {suffix = "2"}, -- Kaja'mine
     [197] = {suffix = "3"}, -- Kaja'mine
-    [501] = {mapType = Enum.UIMapType.Zone}, -- Dalaran
-    [502] = {mapType = Enum.UIMapType.Micro},
+    [501] = {mapType = UIMapType.Zone}, -- Dalaran
+    [502] = {mapType = UIMapType.Micro},
     [579] = {suffix = "1"}, -- Lunarfall Excavation
     [580] = {suffix = "2"}, -- Lunarfall Excavation
     [581] = {suffix = "3"}, -- Lunarfall Excavation
     [585] = {suffix = "1"}, -- Frostwall Mine
     [586] = {suffix = "2"}, -- Frostwall Mine
     [587] = {suffix = "3"}, -- Frostwall Mine
-    [625] = {mapType = Enum.UIMapType.Orphan}, -- Dalaran
-    [626] = {mapType = Enum.UIMapType.Micro}, -- Dalaran
-    [627] = {mapType = Enum.UIMapType.Zone},
-    [628] = {mapType = Enum.UIMapType.Micro},
-    [629] = {mapType = Enum.UIMapType.Micro},
-    [943] = {suffix = FACTION_HORDE}, -- Arathi Highlands
-    [1044] = {suffix = FACTION_ALLIANCE},
+    [625] = {mapType = UIMapType.Orphan}, -- Dalaran
+    [626] = {mapType = UIMapType.Micro}, -- Dalaran
+    [627] = {mapType = UIMapType.Zone},
+    [628] = {mapType = UIMapType.Micro},
+    [629] = {mapType = UIMapType.Micro},
+    [943] = {suffix = _G.FACTION_HORDE}, -- Arathi Highlands
+    [1044] = {suffix = _G.FACTION_ALLIANCE},
 }
 
 function WoWPro.ProcessMapAndKids(id, root)
@@ -469,7 +473,7 @@ function WoWPro.ProcessMapAndKids(id, root)
         -- WoWPro:Warning("ProcessMapAndKids(%d): map already processed.",id)
         return
     end
-    local map_info = C_Map.GetMapInfo(id)
+    local map_info = _G.C_Map.GetMapInfo(id)
     if not map_info then
         -- WoWPro:Warning("ProcessMapAndKids(%d): no map for you!", id)
         return
@@ -495,7 +499,7 @@ function WoWPro.ProcessMapAndKids(id, root)
     register_name(nomen, id)
 
     -- If we are in a group, first set the name according to the group rules.
-    map_info.GroupID = C_Map.GetMapGroupID(id)
+    map_info.GroupID = _G.C_Map.GetMapGroupID(id)
     if map_info.GroupID then
         WoWPro.ProcessGroupMembers(id, map_info)
     end
@@ -514,7 +518,7 @@ function WoWPro.ProcessMapAndKids(id, root)
     end
 
     -- <zone>!parent might work
-    if map_info.parentMapID > 0 and (map_info.mapType == Enum.UIMapType.Zone or map_info.mapType == Enum.UIMapType.Micro) then
+    if map_info.parentMapID > 0 and (map_info.mapType == UIMapType.Zone or map_info.mapType == UIMapType.Micro) then
         local daddy = wip_map_info[map_info.parentMapID]
         if daddy then
             nomen = map_info.name .. "!" .. daddy.name
@@ -531,7 +535,7 @@ function WoWPro.ProcessMapAndKids(id, root)
     end
     
     -- <zone>!Dungeon or <zone>!Dungeon<mapid> might work
-    if map_info.mapType == Enum.UIMapType.Dungeon then
+    if map_info.mapType == UIMapType.Dungeon then
         -- Give up the name sans Dungeon
         unregister_name(map_info.name, id)
         nomen = map_info.name .. "!Dungeon"
@@ -544,7 +548,7 @@ function WoWPro.ProcessMapAndKids(id, root)
     end
 
     -- <zone>!Instance or <zone>!Instance<mapid> might work
-    if map_info.mapType == Enum.UIMapType.Orphan then
+    if map_info.mapType == UIMapType.Orphan then
         -- Give up the name sans Instance
         unregister_name(map_info.name, id)
         nomen = map_info.name .. "!Instance"
@@ -558,7 +562,7 @@ function WoWPro.ProcessMapAndKids(id, root)
 
     -- Now record the current map info and prepare to recurse
     wip_map_info[id] = map_info
-    local children = C_Map.GetMapChildrenInfo(id)
+    local children = _G.C_Map.GetMapChildrenInfo(id)
     map_info.children = {}
     if children and #children > 0 then
         for i = 1, #children do

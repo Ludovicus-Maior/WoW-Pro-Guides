@@ -1,3 +1,5 @@
+-- luacheck: globals tostring
+
 ----------------------------------
 --WoWPro_ZoneData.lua:  This are the old 7.X map names
 ----------------------------------
@@ -5,7 +7,7 @@
 -- function WoWPro.DefineLegacyZone(legacy_zone, legacy_floor, modern_mapId)
 local DefineLegacyZone = WoWPro.DefineLegacyZone
 local DefineLegacyZoneFloor = WoWPro.DefineLegacyZoneFloor
-local hbdm = LibStub("HereBeDragons-Migrate")
+local hbdm = _G.LibStub("HereBeDragons-Migrate")
 
 -- DefineDungeonArea( 321, 1,"Orgrimmar@Orgrimmar","Orgrimmar","Orgrimmar")
 local function DefineDungeonArea(mapID, floor, zi, dungeon, mapName)

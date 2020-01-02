@@ -1,3 +1,5 @@
+-- luacheck: globals ipairs
+
 --------------------------------------------
 --      WoWPro_Achievements_CurrentGuide      --
 --------------------------------------------
@@ -8,7 +10,7 @@ local offset, rows, shownrows = 0, {}, NUMROWS
 WoWPro.Achievements.CreateCurrentGuideTitle = true
 local title, subtitle
 
-local frame = CreateFrame("Frame", "WoWPro_Achievements_CurrentGuide", _G.InterfaceOptionsFramePanelContainer)
+local frame = _G.CreateFrame("Frame", "WoWPro_Achievements_CurrentGuide", _G.InterfaceOptionsFramePanelContainer)
 frame.name = L["Current Guide"]
 frame.parent = "WoW-Pro Achievements"
 frame:Hide()
@@ -47,7 +49,7 @@ frame:SetScript("OnShow", function()
 	local scrollbar = WoWPro:CreateScrollbar(box, 6)
 
 	for i=1,NUMROWS do
-		local row = CreateFrame("Frame", nil, box)
+		local row = _G.CreateFrame("Frame", nil, box)
 		
 		if i == 1 then 
 			row:SetPoint("TOP", 0, -12)

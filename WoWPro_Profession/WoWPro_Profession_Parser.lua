@@ -1,3 +1,5 @@
+-- luacheck: globals select tonumber tostring type
+
 --------------------------------------
 --      WoWPro_Profession_Parser      --
 --------------------------------------
@@ -60,10 +62,10 @@ function WoWPro.Profession:PreRowUpdate(row)
 		profmaxskill = tonumber(profmaxskill) or 0
 		if (k == WoWPro.rows[WoWPro.ActiveStickyCount+1].index) and (tonumber(profmaxlvl) > 0) then
 			local profs = {}
-			profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = GetProfessions()
+			profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = _G.GetProfessions()
 			for p=1,6 do
 				if profs[p] then
-					local skillName, skillLoc, skillRank, maxskill, _, _, skillnum, rankModifier = GetProfessionInfo(profs[p])
+					local skillName, skillLoc, skillRank, maxskill, _, _, skillnum, rankModifier = _G.GetProfessionInfo(profs[p])
 					if (tonumber(skillnum) == tonumber(profnum)) then
 					    if WoWPro.action[k] == "M" then
 							proflvl = math.max(proflvl-rankModifier,1)
@@ -127,7 +129,7 @@ end
 -- Left-Click Row Function --
 function WoWPro.Profession:RowLeftClick(i)
 	if WoWPro.QID[WoWPro.rows[i].index] and WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]] then
-		QuestLog_OpenToQuest(WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]].index)
+		_G.QuestLog_OpenToQuest(WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]].index)
 	end
 	WoWPro.rows[i]:SetChecked(nil)
 end
@@ -139,7 +141,7 @@ function WoWPro.Profession:EventHandler(self, event, ...)
 	-- Noting that a quest is being completed for quest log update events --
 	if event == "QUEST_COMPLETE" then
 		WoWPro.Profession.CompletingQuest = true
-		WoWPro:AutoCompleteQuestUpdate(GetQuestID())
+		WoWPro:AutoCompleteQuestUpdate(_G.GetQuestID())
 	end
 	
 	if event == "TRAINER_UPDATE" then

@@ -1,10 +1,12 @@
+-- luacheck: globals pairs
+
 ------------------------------------------
 --      WoWPro_Profession_Frames.lua      --
 ------------------------------------------
 
 -- Spells available reminder --
 function WoWPro.Profession.CreateSpellFrame()
-	local spellbutton = CreateFrame("Button", nil, WoWPro.MainFrame)
+	local spellbutton = _G.CreateFrame("Button", nil, WoWPro.MainFrame)
 	spellbutton:SetFrameStrata("LOW")
 	spellbutton:SetHeight(20)
 	spellbutton:SetWidth(20)
@@ -17,7 +19,7 @@ function WoWPro.Profession.CreateSpellFrame()
 	spellbookicon:SetTexture("Interface\\Icons\\INV_Misc_Book_09")
 	spellbookicon:SetAllPoints(WoWPro.Profession.SpellButton)
 	
-	local tooltip = CreateFrame("Frame", nil, WoWPro.GuideFrame)
+	local tooltip = _G.CreateFrame("Frame", nil, WoWPro.GuideFrame)
 	tooltip:SetBackdrop( {
 		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
 		edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
@@ -49,7 +51,7 @@ function WoWPro.Profession.CreateSpellFrame()
 		if button == "LeftButton" then
 			WoWPro.Profession:SpellListDialogCall()
 		elseif button == "RightButton" then
-			ToggleSpellBook("spell")
+			_G.ToggleSpellBook("spell")
 		end
 	end)
 	
@@ -70,17 +72,17 @@ function WoWPro.Profession.CreateSpellListFrame()
 	local explanation = frame:CreateFontString()
 	explanation:SetPoint("TOPLEFT", frame, "TOPLEFT", 10, -15-titletext:GetHeight())
 	explanation:SetJustifyH("LEFT")
-	explanation:SetFontObject(GameFontNormal)
+	explanation:SetFontObject(_G.GameFontNormal)
 	explanation:SetWidth(frame:GetWidth()-20)
 	explanation:SetTextColor(1, 1, 1)
 
-	local button1 = CreateFrame("Button", nil, frame, "OptionsButtonTemplate")
+	local button1 = _G.CreateFrame("Button", nil, frame, "OptionsButtonTemplate")
 	button1:SetPoint("BOTTOM", 0, 10)
 	button1:SetHeight(25)
 	button1:SetWidth(160)
 	local button1text = button1:CreateFontString()
 	button1text:SetPoint("TOP", button1, "TOP", 0, -7)
-	button1text:SetFontObject(GameFontNormalSmall)
+	button1text:SetFontObject(_G.GameFontNormalSmall)
 	button1text:SetText("Okay")
 	button1text:SetTextColor(1, 1, 1)
 	button1:SetScript("OnClick", function(self, button)

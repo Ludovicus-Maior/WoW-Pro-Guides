@@ -23,17 +23,17 @@ end
 
 
 function WoWPro.Achievements:DumpInfo(achnum)
-    local count = GetAchievementNumCriteria(achnum)
-    WoWPro.Achievements.eBox = WoWPro.Achievements.eBox or CreateFrame("EditBox", nil,UIParent,ChatFrameEditBoxTemplate)
+    local count = _G.GetAchievementNumCriteria(achnum)
+    WoWPro.Achievements.eBox = WoWPro.Achievements.eBox or _G.CreateFrame("EditBox", nil, _G.UIParent, _G.ChatFrameEditBoxTemplate)
     local eBox = WoWPro.Achievements.eBox
     eBox:SetWidth(512)
     eBox:SetHeight(256)
     eBox:SetMultiLine(true)
     eBox:SetAutoFocus(true)
-    eBox:SetFontObject(GameFontHighlight)
+    eBox:SetFontObject(_G.GameFontHighlight)
     local text=""
     for achitem=1, count do
-        local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = GetAchievementCriteriaInfo(achnum, achitem)
+        local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = _G.GetAchievementCriteriaInfo(achnum, achitem)
         local line = string.format("F %s|QID|%d|M|0.00,0.00|ACH|%d;%d|",description,900000000+10000*achnum+achitem,achnum,achitem)
         text = text .. line .. "\n"
     end
@@ -47,7 +47,7 @@ end
 -- Left-Click Row Function --
 function WoWPro.Achievements:RowLeftClick(i)
 	if WoWPro.QID[WoWPro.rows[i].index] and WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]] then
-		QuestLog_OpenToQuest(WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]].index)
+		_G.QuestLog_OpenToQuest(WoWPro.QuestLog[WoWPro.QID[WoWPro.rows[i].index]].index)
 	end
 	WoWPro.rows[i]:SetChecked(nil)
 end

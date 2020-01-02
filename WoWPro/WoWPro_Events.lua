@@ -1,8 +1,11 @@
+-- luacheck: globals tostring tonumber strtrim
+-- luacheck: globals select ipairs
+
 --------------------------
 --  WoWPro_Events.lua   --
 --------------------------
 
-local L = WoWPro_Locale
+local L =  WoWPro_Locale
 
 -- Are we ready to roll?
 function WoWPro.Ready(who)
@@ -25,9 +28,9 @@ end
 function WoWPro:RecordTaxiLocations(...)
     local _event = ...
     local index = WoWPro.rows[1].index
-    for i = 1, NumTaxiNodes() do
-        local nomen = TaxiNodeName(i)
-        local typo = TaxiNodeGetType(i)
+    for i = 1, _G.NumTaxiNodes() do
+        local nomen = _G.TaxiNodeName(i)
+        local typo = _G.TaxiNodeGetType(i)
         local location,zone = string.split(",",nomen)
         if (typo ~= "NONE" and typo ~= "DISTANT") and not WoWProCharDB.Taxi[location] then
             WoWProCharDB.Taxi[location] = true
@@ -46,21 +49,21 @@ end
 
 -- Auto-Complete: Use flight point --
 function WoWPro.TakeTaxiClassic(destination)
-    for i = 1, NumTaxiNodes() do
-        local nomen = TaxiNodeName(i)
+    for i = 1, _G.NumTaxiNodes() do
+        local nomen = _G.TaxiNodeName(i)
         local location,zone = string.split(",",nomen)
         WoWPro:dbp("TakeTaxiClassic(%d): Location=%s, zone=%s", i, location, zone)
         if strfind(location, destination,1,true) or (nomen == destination) then
             WoWPro:Print("Taking flight to: [%s]",location)
-            if IsMounted() then
-                Dismount()
+            if _G.IsMounted() then
+                _G.Dismount()
             end
-            for routeIndex = 1, GetNumRoutes(i) do
-                local sourceSlotIndex = TaxiGetNodeSlot(i, routeIndex, true)
-                local destinationSlotIndex = TaxiGetNodeSlot(i, routeIndex, false)
-                WoWPro:Print("Taking flight to: [%s] Hop %s => %s",location, TaxiNodeName(sourceSlotIndex), TaxiNodeName(destinationSlotIndex) )
+            for routeIndex = 1, _G.GetNumRoutes(i) do
+                local sourceSlotIndex = _G.TaxiGetNodeSlot(i, routeIndex, true)
+                local destinationSlotIndex = _G.TaxiGetNodeSlot(i, routeIndex, false)
+                WoWPro:Print("Taking flight to: [%s] Hop %s => %s",location, _G.TaxiNodeName(sourceSlotIndex), _G.TaxiNodeName(destinationSlotIndex) )
             end
-            TakeTaxiNode(i)
+            _G.TakeTaxiNode(i)
             -- wait till we see PLAYER_CONTROL_LOST and UnitOnTaxi("player") to complete this step.
             return
         end
@@ -76,21 +79,21 @@ function WoWPro.TakeTaxiRetail(destination)
         return
     end
 
-    local taxiNodes = C_TaxiMap.GetAllTaxiNodes(mapId)
+    local taxiNodes = _G.C_TaxiMap.GetAllTaxiNodes(mapId)
     for i, taxiNodeData in ipairs(taxiNodes) do
         -- nodeID=1613, slotIndex=1, type=3, x=0.34, y=0.53, name="Azurewing Repose, Azuna"
         local location,zone = string.split(",", taxiNodeData.name)
         WoWPro:dbp("TakeTaxiRetail(%d): Location=%s, zone=%s", taxiNodeData.slotIndex, tostring(location), tostring(zone))
         if strfind(location, destination,1,true) or (taxiNodeData.name == destination) then
-            if taxiNodeData.state ~= Enum.FlightPathState.Reachable then
+            if taxiNodeData.state ~= _G.Enum.FlightPathState.Reachable then
                 WoWPro:Warning("Flight point [%s] is not reachable (%d)", location, taxiNodeData.state)
                 return
             end
             WoWPro:Print("Taking flight to: [%s]",location)
-            if IsMounted() then
-                Dismount()
+            if _G.IsMounted() then
+                _G.Dismount()
             end
-            TakeTaxiNode(taxiNodeData.slotIndex)
+            _G.TakeTaxiNode(taxiNodeData.slotIndex)
             -- wait till we see PLAYER_CONTROL_LOST and UnitOnTaxi("player") to complete this step.
             return
         end
@@ -111,7 +114,7 @@ function WoWPro:AutoCompleteGetFP(...)
     local _event, _idx, msg = ...
     -- ERR_NEWTAXIPATH = "New flight path discovered!";
     WoWPro:dbp("AutoCompleteGetFP(%s,%s,%s): Start.", tostring(_event), tostring(_idx), msg)
-    if msg == ERR_NEWTAXIPATH then
+    if msg == _G.ERR_NEWTAXIPATH then
          for i = 1,15 do
              local index = WoWPro.rows[i].index
              local msg = string.format("AutoCompleteGetFP(%s): Step %s/%d [%s]?", msg, tostring(WoWPro.action[index]), index, tostring(WoWPro.step[index]))
@@ -132,7 +135,7 @@ function WoWPro:CheckPlayerForBuffs(buffs)
 	-- Build table of all active buffs
     local BuffIndex = 1
     local BuffString = ""
-    local BuffName, _, _, _, _, _, _, _, _, BuffSpellId = UnitAura("player",BuffIndex,"HARMFUL|HELPFUL")
+    local BuffName, _, _, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,"HARMFUL|HELPFUL")
     while BuffName do
         buffies[BuffSpellId] = true
         if BuffIndex > 1 then
@@ -140,7 +143,7 @@ function WoWPro:CheckPlayerForBuffs(buffs)
         end
         BuffString = BuffString .. string.format("%s(%d)", BuffName, BuffSpellId)
         BuffIndex = BuffIndex + 1
-        BuffName, _, _, _, _, _, _, _, _, BuffSpellId = UnitAura("player",BuffIndex,"HARMFUL|HELPFUL")
+        BuffName, _, _, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,"HARMFUL|HELPFUL")
 	end
     WoWPro:dbp("CheckPlayerForBuffs(%s): %s", buffs, BuffString)
 	return WoWPro:QIDInTable(buffs, buffies)
@@ -162,7 +165,7 @@ end
 function WoWPro:AutoCompleteDeath(...)
 	--
 	local index = WoWPro.rows[1].index
-	local dead = UnitIsDeadOrGhost("player")
+	local dead = _G.UnitIsDeadOrGhost("player")
 	if (WoWPro.action[index] == "d" and dead) or (WoWPro.action[index] == "s" and not dead)then
 		WoWPro.CompleteStep(index, "AutoCompleteDeath")
 	end
@@ -176,10 +179,10 @@ function WoWPro.GetLootTrackingInfo(lootitem,lootqty)
 	- how many the user needs
 	- a complete symbol if the ammount the user has is equal to the ammount they need
 ]]
-	if not GetItemInfo(lootitem) then return "" end
+	if not _G.GetItemInfo(lootitem) then return "" end
 	local track = "" 												--If the function did have a track string, adds a newline
-	track = track.." - "..GetItemInfo(lootitem)..": " 	--Adds the item's name to the string
-	local numinbag = GetItemCount(lootitem)		--Finds the number in the bag, and adds a count if supplied
+	track = track.." - ".. _G.GetItemInfo(lootitem)..": " 	--Adds the item's name to the string
+	local numinbag = _G.GetItemCount(lootitem)		--Finds the number in the bag, and adds a count if supplied
 	track = track..numinbag										--Adds the number in bag to the string
 	track = track.."/"..lootqty								--Adds the total number needed to the string
 	if lootqty == numinbag then
@@ -200,7 +203,7 @@ function WoWPro.AutoCompleteLoot()
     			WoWPro.rows[i].track:SetText(strtrim(track))
     			WoWPro:dbp("AutoCompleteLoot: Update tracking text to %s",track)
     		end
-    		local itemCount = GetItemCount(WoWPro.lootitem[index])
+    		local itemCount = _G.GetItemCount(WoWPro.lootitem[index])
     		if itemCount >= lootqtyi and not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
     		    WoWPro:dbp("AutoCompleteLoot: Time to complete step.")
     			WoWPro.CompleteStep(index,"AutoCompleteLoot")
@@ -219,13 +222,13 @@ function WoWPro.SaveGarrisonBuildings()
     if (zone == 'Lunarfall') or (zone == 'Frostwall') then
         WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
         -- We just moved into the zone
-        local numPOIs = GetNumMapLandmarks();
+        local numPOIs = _G.GetNumMapLandmarks();
         for i=2, numPOIs do
             local landmarkType, name, description, textureIndex, x, y, mapLinkID, inBattleMap, graveyardID, areaID, poiID, isObjectIcon, atlasIcon
             if WoWPro.WOL then
-                landmarkType, name, description, textureIndex, x, y, mapLinkID, inBattleMap, graveyardID, areaID, poiID, isObjectIcon, atlasIcon = GetMapLandmarkInfo(i)
+                landmarkType, name, description, textureIndex, x, y, mapLinkID, inBattleMap, graveyardID, areaID, poiID, isObjectIcon, atlasIcon = _G.GetMapLandmarkInfo(i)
             else
-                name, description, textureIndex, x, y, mapLinkID, inBattleMap, graveyardID, areaID, poiID, isObjectIcon, atlasIcon = GetMapLandmarkInfo(i)
+                name, description, textureIndex, x, y, mapLinkID, inBattleMap, graveyardID, areaID, poiID, isObjectIcon, atlasIcon = _G.GetMapLandmarkInfo(i)
             end
             WoWProCharDB.BuildingLocations[name] = {x=(100*x), y=(100*y)}
             WoWPro:dbp("Building %s @ %g,%g", name, 100*x, 100*y)
@@ -344,7 +347,7 @@ function WoWPro.AutoCompleteZone()
 	local action = WoWPro.action[currentindex] or "?"
 	local step = WoWPro.step[currentindex] or "?"
 	local targetzone = WoWPro.targetzone[currentindex] or "!"
-	local zonetext, subzonetext = GetZoneText(), string.trim(GetSubZoneText())
+	local zonetext, subzonetext = _G.GetZoneText(), string.trim(_G.GetSubZoneText())
 	WoWPro:dbp("AutoCompleteZone: [%s] or [%s] .vs. %s [%s]/[%s]", zonetext, subzonetext, action, step, targetzone)
 	if action == "F" or action == "H" or action == "b" or action == "P" or action == "R" then
 		if not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
@@ -394,7 +397,7 @@ end
 
 -- Auto-Complete: Level based --
 function WoWPro:AutoCompleteLevel(...)
-	local newlevel = ... or UnitLevel("player")
+	local newlevel = ... or _G.UnitLevel("player")
 	if WoWProCharDB.Guide then
 		local GID = WoWProDB.char.currentguide
 		if not WoWProCharDB.Guide[GID] then return end
@@ -491,12 +494,12 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function (event,...)
 	    if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
 	        guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
 	    end
-	    if WoWPro.zone[qidx] and (WoWPro:IsInstanceZone(WoWPro.zone[qidx]) or WoWPro.sobjective[qidx]) and IsInInstance() then
+	    if WoWPro.zone[qidx] and (WoWPro:IsInstanceZone(WoWPro.zone[qidx]) or WoWPro.sobjective[qidx]) and _G.IsInInstance() then
 	        WoWPro:Print("|cff33ff33 Suppressing Instance Auto Hide, turn it on after you are done with this guide.|r")
 	        WoWProCharDB.AutoHideWorldEventsInsideInstances = false
 	        return
 	    end
-		if IsInInstance() then
+		if _G.IsInInstance() then
 			WoWPro:Print("|cff33ff33Instance Auto Hide|r: %s Module",guidetype)
 			WoWPro.MainFrame:Hide()
 			WoWPro.Titlebar:Hide()
@@ -579,7 +582,7 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_CLOSE", function (event,...)
 		WoWPro.Hidden = nil
 	end
 
-	if not C_PetBattles.IsInBattle() then
+	if not _G.C_PetBattles.IsInBattle() then
 	    WoWPro.PetBattleActive = false
 	    WoWPro:dbp("C_PetBattles.IsInBattle() = false")
 	else
@@ -641,7 +644,7 @@ end)
 -- Merchant?
 WoWPro.RegisterEventHandler("MERCHANT_SHOW" , function (event,...)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-    if CanMerchantRepair() and WoWPro.action[qidx] == "r" then
+    if _G.CanMerchantRepair() and WoWPro.action[qidx] == "r" then
         WoWPro.CompleteStep(qidx,"Talked to Repairing Merchant")
     end
     end)
@@ -652,14 +655,14 @@ WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function (event,...)
         WoWPro.RegisterAllEvents()
         WoWPro.QuestCount = 0
         WoWPro.QuestDialogActive = event
-        C_Timer.After(WoWProDB.global.QuestEngineDelay, function() WoWPro.GOSSIP_SHOW_PUNTED(event.."PUNTED"); end)
+        _G.C_Timer.After(WoWProDB.global.QuestEngineDelay, function() WoWPro.GOSSIP_SHOW_PUNTED(event.."PUNTED"); end)
     else
         WoWPro:print("GOSSIP_SHOW while %s was active: suppressed.", WoWPro.QuestDialogActive)
     end
     end)
 
 function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
-    WoWPro.GossipText = strupper(GetGossipText())
+    WoWPro.GossipText = strupper(_G.GetGossipText())
     WoWPro:print("GetGossipText: %s",WoWPro.GossipText)
 
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
@@ -670,8 +673,8 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
         return
     end
 
-    local npcCount = GetNumGossipActiveQuests();
-    local npcQuests =  {GetGossipActiveQuests()};
+    local npcCount = _G.GetNumGossipActiveQuests();
+    local npcQuests =  {_G.GetGossipActiveQuests()};
     local step = #npcQuests / npcCount
     WoWPro:print("%s: ActiveQuests npcCount=%d", event, npcCount)
     if WoWProCharDB.AutoTurnin then
@@ -682,7 +685,7 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
             WoWPro:print("%s: considering turnin %d for [%s] .vs. [%s]", event, index, name, tostring(WoWPro.step[qidx]))
 	        if WoWPro.action[qidx] == "T" and name == WoWPro.step[qidx] then
 	            WoWPro.QuestStep = qidx
-	            SelectGossipActiveQuest(index)
+	            _G.SelectGossipActiveQuest(index)
 	            WoWPro:print("%s: selected turnin %d for [%s]", event, index, name)
 	            return
 	        end
@@ -690,8 +693,8 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
         WoWPro.QuestCount = 0
     end
 
-    local npcQuests = {GetGossipAvailableQuests()};
-    local npcCount = GetNumGossipAvailableQuests();
+    local npcQuests = {_G.GetGossipAvailableQuests()};
+    local npcCount = _G.GetNumGossipAvailableQuests();
     local step = #npcQuests / npcCount
     local index = 0
     WoWPro:print("%s: AvailableQuests npcCount=%d", event, npcCount)
@@ -705,12 +708,12 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
 		        if WoWPro.QID[qidx] == "*" and WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
 		            WoWPro:dbp("ZZZT %d: %s Inhale %s, prev qcount was %d, new is %d",qidx, event,name, WoWPro.QuestCount, npcCount)
 		            WoWPro.QuestStep = qidx
-		            SelectGossipAvailableQuest(index)
+		            _G.SelectGossipAvailableQuest(index)
 		            return
 		        end
 		        if WoWPro.action[qidx] == "A" and name == WoWPro.step[qidx] then
 		            WoWPro:dbp("ZZZT %d: %s Name matches [%s], selecting.",index,event,name)
-		            SelectGossipAvailableQuest(index)
+		            _G.SelectGossipAvailableQuest(index)
 		            return
 		        end
 		    end
@@ -733,7 +736,7 @@ WoWPro.RegisterEventHandler("GOSSIP_CLOSED" ,function (event,...)
 WoWPro.RegisterEventHandler("QUEST_GREETING", function (event,...)
     WoWPro.QuestDialogActive = event
     WoWPro.RegisterAllEvents()
-    C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
+    _G.C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
         WoWPro.QUEST_GREETING_PUNTED(event.."_PUNTED")
         end)
     end)
@@ -747,8 +750,8 @@ WoWPro.RegisterEventHandler("QUEST_FINISHED", function (event,...)
     end)
 
 function WoWPro.QUEST_GREETING_PUNTED(event,...)
-    local numAvailableQuests = GetNumAvailableQuests()
-    local numActiveQuests = GetNumActiveQuests()
+    local numAvailableQuests = _G.GetNumAvailableQuests()
+    local numActiveQuests = _G.GetNumActiveQuests()
     WoWPro:print("%s: numActiveQuests=%d, numAvailableQuests=%d", event, numActiveQuests, numAvailableQuests)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
     local myNPC = WoWPro:TargetNpcId()
@@ -761,10 +764,10 @@ function WoWPro.QUEST_GREETING_PUNTED(event,...)
     if WoWProCharDB.AutoTurnin  then
         -- Match from the top down
         for i=numActiveQuests,1,-1  do
-            if WoWPro.action[qidx] == "T" and GetActiveTitle(i) == WoWPro.step[qidx] then
+            if WoWPro.action[qidx] == "T" and _G.GetActiveTitle(i) == WoWPro.step[qidx] then
                 WoWPro.QuestStep = qidx
                 WoWPro:print("Turning in [%s]",WoWPro.step[qidx])
-    	        SelectActiveQuest(i)
+    	        _G.SelectActiveQuest(i)
     	        return
     	    end
     	end
@@ -776,20 +779,20 @@ function WoWPro.QUEST_GREETING_PUNTED(event,...)
         for i=numAvailableQuests,1,-1  do
             if WoWPro.action[qidx] == "A" then
                 if WoWPro.QID[qidx] == "*" and WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
-                    WoWPro:dbp("ZZZT %d: %s Inhale %s, prev qcount was %d, new is %d",qidx, event, GetAvailableTitle(i), WoWPro.QuestCount, numAvailableQuests)
+                    WoWPro:dbp("ZZZT %d: %s Inhale %s, prev qcount was %d, new is %d",qidx, event, _G.GetAvailableTitle(i), WoWPro.QuestCount, numAvailableQuests)
                     WoWPro.QuestCount = numAvailableQuests
                     WoWPro.QuestStep = qidx
-    	            SelectAvailableQuest(i)
+    	            _G.SelectAvailableQuest(i)
     	            WoWPro.QUEST_GREETING(event)
     	            return
                 end
                 -- Look forward up to #numAvailableQuests steps for A steps, so the order does not matter much.
                 for j=0,numAvailableQuests-1 do
-                    if GetAvailableTitle(i) == WoWPro.step[qidx+j] then
+                    if _G.GetAvailableTitle(i) == WoWPro.step[qidx+j] then
                         WoWPro.QuestStep = qidx+j
                         WoWPro:dbp("ZZZT %d: %s Name matches [%s], selecting.", i, event, WoWPro.step[WoWPro.QuestStep])
                         WoWPro.QuestCount = numAvailableQuests
-        	            SelectAvailableQuest(i)
+        	            _G.SelectAvailableQuest(i)
         	            return
         	        end
         	    end
@@ -800,7 +803,7 @@ function WoWPro.QUEST_GREETING_PUNTED(event,...)
 end
 
 WoWPro.RegisterEventHandler("QUEST_DETAIL", function (event,...)
-    C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
+    _G.C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
         WoWPro.QUEST_DETAIL_PUNTED(event.."_PUNTED")
         end)
     end)
@@ -809,7 +812,7 @@ function WoWPro.QUEST_DETAIL_PUNTED(event,...)
     if not WoWProCharDB.AutoAccept then return; end
 
     local qidx = WoWPro.QuestStep
-    local questtitle = GetTitleText();
+    local questtitle = _G.GetTitleText();
     local myNPC = WoWPro:TargetNpcId()
 
     if not qidx then
@@ -837,12 +840,12 @@ function WoWPro.QUEST_DETAIL_PUNTED(event,...)
 		        return
 		    end
 	    end
-	    AcceptQuest()
-	    if QuestFrameDetailPanel:IsShown() then
-	        HideUIPanel(QuestFrameDetailPanel)
-	        QuestFrameDetailPanel:Hide();
-	        QuestFrameGreetingPanel:Hide();
-		    QuestFrameGreetingPanel:Show();
+	    _G.AcceptQuest()
+	    if _G.QuestFrameDetailPanel:IsShown() then
+	        _G.HideUIPanel(_G.QuestFrameDetailPanel)
+	        _G.QuestFrameDetailPanel:Hide();
+	        _G.QuestFrameGreetingPanel:Hide();
+		    _G.QuestFrameGreetingPanel:Show();
 	    end
 	    WoWPro.QuestStep = nil
 	else
@@ -852,7 +855,7 @@ function WoWPro.QUEST_DETAIL_PUNTED(event,...)
 end
 
 WoWPro.RegisterEventHandler("QUEST_PROGRESS", function (event,...)
-    C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
+    _G.C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
         WoWPro.QUEST_PROGRESS_PUNTED(event)
         end)
     end)
@@ -861,31 +864,31 @@ function WoWPro.QUEST_PROGRESS_PUNTED(event,...)
     if not WoWProCharDB.AutoTurnin then return; end
 
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-    local questtitle = GetTitleText();
+    local questtitle = _G.GetTitleText();
     WoWPro:dbp("Quest is [%s], matching [%s]",tostring(questtitle),tostring(WoWPro.step[qidx]))
 	if WoWPro.action[qidx] == "T" and questtitle == WoWPro.step[qidx] then
-	    CompleteQuest()
+	    _G.CompleteQuest()
 	end
 end
 
 -- Noting that a quest is being completed for AutoTurnin --
 WoWPro.RegisterEventHandler("QUEST_COMPLETE", function (event,...)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-    local questtitle = GetTitleText();
+    local questtitle = _G.GetTitleText();
     WoWPro:dbp("Quest is [%s], matching %s[%s]",tostring(questtitle),tostring(WoWPro.action[qidx]), tostring(WoWPro.step[qidx]))
 	if WoWProCharDB.AutoTurnin == true and
 	   WoWPro.action[qidx] == "T" and
 	   questtitle == WoWPro.step[qidx] then
-	    if (GetNumQuestChoices() <= 1) then
-	        GetQuestReward(1)
+	    if (_G.GetNumQuestChoices() <= 1) then
+	        _G.GetQuestReward(1)
 	    end
     end
     -- Some quests are auto-turnin on accept
     if WoWProCharDB.AutoAccept == true and
 	   WoWPro.action[qidx] == "A" and
 	   questtitle == WoWPro.step[qidx] then
-	    if (GetNumQuestChoices() <= 1) then
-	        GetQuestReward(1)
+	    if (_G.GetNumQuestChoices() <= 1) then
+	        _G.GetQuestReward(1)
 	    end
     end
     end)
@@ -902,7 +905,7 @@ WoWPro.RegisterEventHandler("QUEST_ACCEPTED", function (event,...)
     local qlidx, qid = ...
     WoWPro:dbp("%s(qidx=%d,qid=%d)",event,qlidx,qid)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-    local questtitle = GetTitleText();
+    local questtitle = _G.GetTitleText();
 	if WoWProCharDB.AutoTurnin == true and
 	   WoWPro.action[qidx] == "A" and
 	   questtitle == WoWPro.step[qidx] then
@@ -930,7 +933,7 @@ WoWPro.RegisterEventHandler("TAXIMAP_OPENED", function (event,...)
     end)
 
 WoWPro.RegisterEventHandler("PLAYER_CONTROL_LOST", function (event,...)
-    C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
+    _G.C_Timer.After(WoWProDB.global.QuestEngineDelay, function()
         WoWPro.PLAYER_CONTROL_LOST_PUNTED(event)
         end)
     end)
@@ -938,7 +941,7 @@ WoWPro.RegisterEventHandler("PLAYER_CONTROL_LOST", function (event,...)
 function WoWPro.PLAYER_CONTROL_LOST_PUNTED(event,...)
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
     if (WoWPro.action[qidx] == "F" or WoWPro.action[qidx] == "b") then
-        if UnitOnTaxi("player") then
+        if _G.UnitOnTaxi("player") then
             WoWPro:dbp("PLAYER_CONTROL_LOST_PUNTED: UnitOnTaxi! calling CompleteStep")
             WoWPro.CompleteStep(qidx,"Took a taxi")
         else
@@ -988,7 +991,7 @@ WoWPro.RegisterEventHandler("PLAYER_UNGHOST", function (event,...)
     end)
 
 function WoWPro.DelayedEventHandler(frame,event)
-    C_Timer.After(WoWProDB.global.QuestEngineDelay, function ()
+    _G.C_Timer.After(WoWProDB.global.QuestEngineDelay, function ()
         WoWPro.EventHandler(frame,event)
         end)
 end
@@ -1016,13 +1019,13 @@ function WoWPro.EventHandler(frame, event, ...)
 
     -- debug
     if WoWPro.QuestDialogActive == "QUEST_GREETING" then
-        local numAvailableQuests = GetNumAvailableQuests()
-        local numActiveQuests = GetNumActiveQuests()
+        local numAvailableQuests = _G.GetNumAvailableQuests()
+        local numActiveQuests = _G.GetNumActiveQuests()
         WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
     end
     if WoWPro.QuestDialogActive == "GOSSIP_SHOW" then
-        local numAvailableQuests = GetNumGossipAvailableQuests()
-        local numActiveQuests = GetNumGossipActiveQuests()
+        local numAvailableQuests = _G.GetNumGossipAvailableQuests()
+        local numActiveQuests = _G.GetNumGossipActiveQuests()
         WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
     end
 

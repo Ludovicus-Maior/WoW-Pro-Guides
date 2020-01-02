@@ -1,5 +1,8 @@
-SLASH_WOWPRO1 = "/wp"
-SLASH_WOWPRO2 = "/wow-pro"
+-- luacheck: globals date pairs type issecurevariable
+-- luacheck: globals tostring
+
+_G.SLASH_WOWPRO1 = "/wp"
+_G.SLASH_WOWPRO2 = "/wow-pro"
 
 
 local function handler(msg, editbox)
@@ -12,11 +15,11 @@ local function handler(msg, editbox)
     if ltoken == "where" then
         local X, Y, mapId = WoWPro:GetPlayerZonePosition()
         if (not X) or (not Y) then
-            local msg = string.format("Player at ?/%s@%q aka %q aka %q", tostring(mapId), WoWPro.GetZoneText(), GetZoneText(), GetSubZoneText())
-            ChatFrame1:AddMessage(msg)
+            local msg = string.format("Player at ?/%s@%q aka %q aka %q", tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText())
+            _G.ChatFrame1:AddMessage(msg)
         else
-            local msg = string.format("Player at %.2f,%.2f/%s@%q aka %q aka %q", X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), GetZoneText(), GetSubZoneText())
-            ChatFrame1:AddMessage(msg)
+            local msg = string.format("Player at %.2f,%.2f/%s@%q aka %q aka %q", X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText())
+            _G.ChatFrame1:AddMessage(msg)
         end
     elseif ltoken == 'etrace-start' then
         WoWPro:print(ltoken)
@@ -47,18 +50,18 @@ local function handler(msg, editbox)
             end
 		end
         local msg = string.format("WoWPro taint report logged to debug log.")
-        ChatFrame1:AddMessage(msg)
+        _G.ChatFrame1:AddMessage(msg)
         msg = string.format("Global taint log in: <World of Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua ")
-        ChatFrame1:AddMessage(msg)
+        _G.ChatFrame1:AddMessage(msg)
     elseif ltoken == "buffs" then
         for i=1,40 do
-            local name, icon, count, debuffType, duration, expirationTime, unitCaster, canStealOrPurge, nameplateShowPersonal, spellId, canApplyAura, isBossDebuff, isCastByPlayer, nameplateShowAll, timeMod = UnitAura("player", i, nil)
+            local name, icon, count, debuffType, duration, expirationTime, unitCaster, canStealOrPurge, nameplateShowPersonal, spellId, canApplyAura, isBossDebuff, isCastByPlayer, nameplateShowAll, timeMod = _G.UnitAura("player", i, nil)
             if name then
                 local msg = string.format("|r#%d |cFF0000FFName: |cFFFF0000%q, |cFF0000FFspellId: |cFFFF0000%d", i, name, spellId)
-                ChatFrame1:AddMessage(msg)
+                _G.ChatFrame1:AddMessage(msg)
             end
         end
-        ChatFrame1:AddMessage("|rEnd_of_Buffs")
+        _G.ChatFrame1:AddMessage("|rEnd_of_Buffs")
     elseif ltoken == "api_probe" then
         WoWProDB.global.Blizz = {}
         for key in pairs(_G) do
@@ -78,11 +81,11 @@ local function handler(msg, editbox)
             end
         end
         local msg = string.format("Blizzard API stored in: <World of Warcraft>/WTF/Account/<#>/SavedVariables/WoWPro.lua ")
-        ChatFrame1:AddMessage(msg)
+        _G.ChatFrame1:AddMessage(msg)
     else
-        local msg = string.format("%s or %s [where¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe]", SLASH_WOWPRO1, SLASH_WOWPRO2)
-        ChatFrame1:AddMessage(msg)
+        local msg = string.format("%s or %s [where¦reset¦guide-bug¦taint¦etrace-start¦etrace-end¦clear-log¦log¦api-probe]", _G.SLASH_WOWPRO1, _G.SLASH_WOWPRO2)
+        _G.ChatFrame1:AddMessage(msg)
     end
 end
 
-SlashCmdList["WOWPRO"] = handler
+_G.SlashCmdList["WOWPRO"] = handler

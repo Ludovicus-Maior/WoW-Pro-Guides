@@ -1,3 +1,5 @@
+-- luacheck: globals pairs unpack
+
 ---------------------------------------------
 --      WoWPro_Profession_GuideList.lua      --
 ---------------------------------------------
@@ -54,11 +56,11 @@ end
 
 -- Fancy tooltip!
 function WoWPro.Profession.GuideTooltipInfo(row, tooltip, guide)
-    GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
-    GameTooltip:AddLine(guide.name.."      ")
-    GameTooltip:AddLine("")
-    GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
-    GameTooltip:AddDoubleLine("Name:",guide.name,1,1,1,unpack(WoWPro.LevelColor(guide)))
+    _G.GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
+    _G.GameTooltip:AddLine(guide.name.."      ")
+    _G.GameTooltip:AddLine("")
+    _G.GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
+    _G.GameTooltip:AddDoubleLine("Name:",guide.name,1,1,1,unpack(WoWPro.LevelColor(guide)))
 end
 
 

@@ -1,9 +1,15 @@
+-- luacheck: globals _NPCScan
+-- luacheck: globals pairs ipairs tinsert
+-- luacheck: globals tostring tonumber strsplit strtrim
+-- luacheck: globals date type
+-- luacheck: globals debugstack debuglocals geterrorhandler seterrorhandler
+
 --------------------------
 --      WoWPro.lua      --
 --------------------------
 
-WoWPro = LibStub("AceAddon-3.0"):NewAddon("WoWPro","AceEvent-3.0", "AceBucket-3.0")
-WoWPro.Version = GetAddOnMetadata("WoWPro", "Version")
+WoWPro = _G.LibStub("AceAddon-3.0"):NewAddon("WoWPro","AceEvent-3.0", "AceBucket-3.0")
+WoWPro.Version = _G.GetAddOnMetadata("WoWPro", "Version")
 WoWPro.DebugLevel = 0
 WoWPro.Guides = {}
 WoWPro.InitLockdown = false  -- Set when the addon is loaded
@@ -20,12 +26,12 @@ function WoWPro:Embed(target)
 end
 
 function WoWPro:Export(target)
-    table.insert(WoWPro.mixins,target)
+    tinsert(WoWPro.mixins,target)
 end
 
 -- WoWPro keybindings name descriptions --
 _G["BINDING_NAME_CLICK WoWPro_FauxItemButton:LeftButton"] = "Use quest item"
-BINDING_HEADER_BINDING_WOWPRO = "WoWPro Keybindings"
+_G.BINDING_HEADER_BINDING_WOWPRO = "WoWPro Keybindings"
 _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 
 WoWPro.Serial = 99999
@@ -33,7 +39,7 @@ WoWPro.Serial = 99999
 function WoWPro:Add2Log(level,msg)
     msg = date("%H%M%S ") .. msg
     if WoWPro.DebugLevel >= level then
-        DEFAULT_CHAT_FRAME:AddMessage( msg )
+        _G.DEFAULT_CHAT_FRAME:AddMessage( msg )
     end
 	WoWPro.Serial = WoWPro.Serial + 1
 	if WoWPro.Serial > 2500 then
@@ -234,7 +240,7 @@ local function LogGrow(frame, elapsed)
         if coroutine.resume(LogCo) then return end
         -- false return implies we are done
         LogFrame:SetScript("OnUpdate",nil)
-        DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogDump(): Generating window")
+        _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogDump(): Generating window")
         LogCall(Log)
         Log = nil
     end
@@ -242,10 +248,10 @@ end
 
 function WoWPro:LogDump(callback)
     if (not WoWProDB) or (not WoWProDB.global) or (not WoWProDB.global.Log) then return "" end
-    DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogDump(): Generating log")
+    _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LogDump(): Generating log")
     WoWPro:LogLocation()
     if not LogFrame then
-        LogFrame = CreateFrame("Frame",nil,UIParent)
+        LogFrame = _G.CreateFrame("Frame", nil, _G.UIParent)
     end
     Log = nil
     LogCall = callback
@@ -259,8 +265,8 @@ function WoWPro:LogClear(where)
     WoWPro.Serial = 999999999
     WoWPro:Print("Log Reset from %s, WoWPro Version %s.", where, WoWPro.Version)
     WoWPro:print("Class: %s, Race: %s, Faction: %s, Level %d, XP %d",
-                 UnitClass("player"), UnitRace("player"),
-                 UnitFactionGroup("player"), UnitLevel("player"), UnitXP("player"))
+                 _G.UnitClass("player"), _G.UnitRace("player"),
+                 _G.UnitFactionGroup("player"), _G.UnitLevel("player"), _G.UnitXP("player"))
 end
 
 WoWPro:LogClear("Addon Load")
@@ -350,7 +356,7 @@ local defaults = { profile = {
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro:OnInitialize()
-	WoWProDB = LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
+	WoWProDB = _G.LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
 	-- Setting up callbacks for use with profiels --
 	WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
 	WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
@@ -431,7 +437,7 @@ function WoWPro:RESET()
 end
 
 function WoWPro.MaybeCombatLockdown()
-    return InCombatLockdown() and (not WoWProDB.global.RecklessCombat)
+    return _G.InCombatLockdown() and (not WoWProDB.global.RecklessCombat)
 end
 
 -- Setting up event handler
@@ -447,7 +453,7 @@ function WoWPro:OnEnable()
 	if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
 		WoWPro:CreateFrames()
 		WoWPro:CreateConfig()
-		WoWPro.EventFrame=CreateFrame("Button", "WoWPro.EventFrame", UIParent)
+		WoWPro.EventFrame = _G.CreateFrame("Button", "WoWPro.EventFrame", _G.UIParent)
 		WoWPro.FramesLoaded = true
 	else -- Addon was previously disabled, so no need to create frames, just turn them back on
 		WoWPro:AbleFrames()
@@ -467,18 +473,18 @@ function WoWPro:OnEnable()
 	WoWPro:CustomizeFrames()	-- Applies profile display settings
 
 	-- Keybindings Initial Setup --
-	local keys = GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
+	local keys = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
 	if not keys then
-		SetBinding("CTRL-SHIFT-I", "CLICK WoWPro_FauxItemButton:LeftButton")
+		_G.SetBinding("CTRL-SHIFT-I", "CLICK WoWPro_FauxItemButton:LeftButton")
 	end
-	local keys = GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
+	local keys = _G.GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
 	if not keys then
-		SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
+		_G.SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
 	end
-    local keys = GetBindingKey("WOWPRO_SELECTOR")
+    local keys = _G.GetBindingKey("WOWPRO_SELECTOR")
 	if keys then
 	    -- Do NOT release with this binding until it works!
-		SetBinding("ALT-G", "WOWPRO_SELECTOR")
+		_G.SetBinding("ALT-G", "WOWPRO_SELECTOR")
 	end
 
 	-- Event Setup --
@@ -530,7 +536,7 @@ function WoWPro:OnDisable()
 
 	WoWPro:AbleFrames()								-- Hides all frames
 	WoWPro.EventFrame:UnregisterAllEvents()	-- Unregisters all events
-	local bucket = LibStub("AceBucket-3.0")
+	local bucket = _G.LibStub("AceBucket-3.0")
 	WoWPro:UnregisterAllBuckets()
 	WoWPro:RemoveMapPoint()							-- Removes any active map points
 	WoWPro:Print("|cffff3333Disabled|r: Version %s", WoWPro.Version)
@@ -604,14 +610,14 @@ end
 -- https://github.com/Rainrider/KlaxxiKillOrder/issues/1
 -- New syntax for UnitGUID() in WoD
 function WoWPro:TargetNpcId()
-    local unitType, _, serverID, instanceID, zoneID, npcID, spawnID = strsplit("-", UnitGUID("target") or "")
+    local unitType, _, serverID, instanceID, zoneID, npcID, spawnID = strsplit("-", _G.UnitGUID("target") or "")
     if not unitType then
         WoWPro:dbp("No target");
         return nil
     end
 
     if unitType == "Player" then
-        unitType, serverID, npcID = strsplit("-", UnitGUID("target"))
+        unitType, serverID, npcID = strsplit("-", _G.UnitGUID("target"))
         WoWPro:dbp("Your target is a " .. unitType.. " ID %s",npcID);
         return npcID
     else
@@ -683,7 +689,7 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
         WoWPro:NoCache(guide)
     end
 
-    if faction and faction ~= UnitFactionGroup("player") and faction ~= "Neutral" then
+    if faction and faction ~= _G.UnitFactionGroup("player") and faction ~= "Neutral" then
         -- If the guide is not of the correct side, don't register it
         return guide
     end
@@ -760,7 +766,7 @@ function WoWPro:NewGuideLevels(guide,lowerLevel,upperLevel, sortLevel)
 end
 
 function WoWPro:GuideRaceSpecific(guide,race)
-    local locRace, engRace = UnitRace("player")
+    local locRace, engRace = _G.UnitRace("player")
     if WoWPro.DebugLevel > 0 then
         return -- Allow developers to check everything
     end
@@ -789,11 +795,11 @@ RegisterClass("MONK")
 RegisterClass("DEMONHUNTER")
 
 function WoWPro:GuideClassSpecific(guide,class)
-    local locClass, engClass = UnitClass("player")
+    local locClass, engClass = _G.UnitClass("player")
 
     class = strupper(class)
     guide.icon = "Interface\\Glues\\CharacterCreate\\UI-CharacterCreate-Classes"
-    guide.icon_offsets = CLASS_ICON_TCOORDS[class]
+    guide.icon_offsets = _G.CLASS_ICON_TCOORDS[class]
     guide.class = class
 
     if not ValidClass[class] then
@@ -851,7 +857,7 @@ function WoWPro:GuideQuestTriggers(guide, ...)
 end
 
 function WoWPro:GuideAutoSwitch(guide, state)
-    local locClass, engClass = UnitClass("player")
+    local locClass, engClass = _G.UnitClass("player")
 
     if state == false then
         -- A clear request
@@ -893,7 +899,7 @@ function WoWPro:BuyersGuide(guide)
 end
 
 function WoWPro:GuidePickGender(male,female)
-    if UnitSex("player") <= 2 then
+    if _G.UnitSex("player") <= 2 then
         return male
     else
         return female
@@ -956,12 +962,12 @@ function WoWPro:HSL2RGB(h,s,l)
 
         p = (2 * l) - q
 
-    r = hue2rgb(p, q, h + 1/3)
-    g = hue2rgb(p, q, h)
-    b = hue2rgb(p, q, h - 1/3)
-  end
+        r = hue2rgb(p, q, h + 1/3)
+        g = hue2rgb(p, q, h)
+        b = hue2rgb(p, q, h - 1/3)
+    end
 
-  return r, g, b
+    return r, g, b
 end
 
 local Difficulty = {}
@@ -983,9 +989,9 @@ end
 
 
 function WoWPro:PlayerLevel()
-    local UL = UnitLevel("player")
-    local XP = UnitXP("player")
-    local XPMax = UnitXPMax("player")
+    local UL = _G.UnitLevel("player")
+    local XP = _G.UnitXP("player")
+    local XPMax = _G.UnitXPMax("player")
     local playerLevel = UL
     if XPMax > 0 then
         playerLevel = UL + (XP/XPMax)
@@ -1025,7 +1031,7 @@ function WoWPro:TestQuestColor(a,b,c,d)
     for ql=a,b,c do
         local r, g, b =  WoWPro:QuestColor(ql, d)
         local msg = string.format("|c%2x%2x%2x%2xLevel %f .vs. %f|r",255,255*r,255*g,255*b,ql,50)
-        DEFAULT_CHAT_FRAME:AddMessage( msg )
+        _G.DEFAULT_CHAT_FRAME:AddMessage( msg )
     end
 end
 
@@ -1062,15 +1068,15 @@ function WoWPro.AchievementsScrape()
     WoWProDB.global.Achievements.Category = {}
     WoWProDB.global.Achievements.Achievement = {}
 
-    local categories = GetCategoryList()
+    local categories = _G.GetCategoryList()
     for i, cid in ipairs(categories) do
-        local name, parentID, flags = GetCategoryInfo(cid)
+        local name, parentID, flags = _G.GetCategoryInfo(cid)
         WoWProDB.global.Achievements.Category[cid] = { ['name'] = name, ['parentID'] = parentID}
     end
     for cid, cinfo in pairs(WoWProDB.global.Achievements.Category) do
-        local numItems, numCompleted = GetCategoryNumAchievements(cid)
+        local numItems, numCompleted = _G.GetCategoryNumAchievements(cid)
         for index = 1,numItems do
-            local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(cid, index)
+            local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = _G.GetAchievementInfo(cid, index)
             WoWProDB.global.Achievements.Achievement[id] = {['cid'] = cid, ['name'] = name, ['icon'] = icon }
         end
     end
@@ -1081,19 +1087,19 @@ function WoWPro:ResolveIcon(guide)
         return
     end
     if guide['ach'] and not WoWPro.CLASSIC then
-        local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(guide.ach)
+        local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = _G.GetAchievementInfo(guide.ach)
         guide.icon = icon
         return
     end
     if guide['spell'] then
-        local name, rank, icon, castingTime, minRange, maxRange, spellID = GetSpellInfo(guide.spell)
+        local name, rank, icon, castingTime, minRange, maxRange, spellID = _G.GetSpellInfo(guide.spell)
         guide.icon = icon
         return
     end
     if guide['mount'] and not WoWPro.CLASSIC then
-        local mountIDs = C_MountJournal.GetMountIDs()
+        local mountIDs = _G.C_MountJournal.GetMountIDs()
         for i, mountID in ipairs(mountIDs) do
-            local creatureName, spellID, icon, active, isUsable, sourceType = C_MountJournal.GetMountInfoByID(mountID)
+            local creatureName, spellID, icon, active, isUsable, sourceType = _G.C_MountJournal.GetMountInfoByID(mountID)
             if guide.mount == spellID then
                 guide.icon = icon
                 return
@@ -1103,10 +1109,10 @@ function WoWPro:ResolveIcon(guide)
     end
     if guide['pro'] then
         -- prof1, prof2, archaeology, fishing, cooking, firstAid
-        local profs = {GetProfessions()}
+        local profs = {_G.GetProfessions()}
         for index = 1,#profs do
             if profs[index] then
-                local name, texture, rank, maxRank, numSpells, spelloffset, skillLine, rankModifier, specializationIndex, specializationOffset = GetProfessionInfo(profs[index])
+                local name, texture, rank, maxRank, numSpells, spelloffset, skillLine, rankModifier, specializationIndex, specializationOffset = _G.GetProfessionInfo(profs[index])
                 if skillLine == tonumber(guide['pro']) then
                     guide.icon = texture
                 end
@@ -1215,16 +1221,16 @@ local function LoadNext(frame, elapsed)
         if coroutine.resume(WoWPro.LoadAll.Co) then return end
         -- false return implies we are done
         WoWPro.LoadAll.Frame:SetScript("OnUpdate",nil)
-        DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LoadAllGuides(): Done.")
+        _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LoadAllGuides(): Done.")
         WoWPro.LoadAll.Call()
         WoWPro.LoadAll.Load = nil
     end
 end
 
 function WoWPro:LoadTestAsync(callback)
-    DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LoadAllGuides(): Test Load of All Guides")
+    _G.DEFAULT_CHAT_FRAME:AddMessage("WoWPro:LoadAllGuides(): Test Load of All Guides")
     if not WoWPro.LoadAll.Frame then
-        WoWPro.LoadAll.Frame = CreateFrame("Frame",nil,UIParent)
+        WoWPro.LoadAll.Frame = _G.CreateFrame("Frame", nil, _G.UIParent)
     end
     WoWPro.LoadAll.Load = nil
 
@@ -1255,7 +1261,7 @@ end
 
 
 --- Release Function Compatability Section
-local wversion, wbuild, wdata, winterface = GetBuildInfo()
+local wversion, wbuild, wdata, winterface = _G.GetBuildInfo()
 WoWPro.CLASSIC = (winterface < 20000 and winterface > 11300)
 WoWPro.MOP = (winterface >= 50000)
 WoWPro.WOD = (winterface >= 60000)
@@ -1274,9 +1280,9 @@ if WoWPro.FakeClassic then
 end
 
 if WoWPro.MOP or WoWPro.CLASSIC then
-    WoWPro.GetNumPartyMembers = GetNumGroupMembers
+    WoWPro.GetNumPartyMembers = _G.GetNumGroupMembers
 else
-    WoWPro.GetNumPartyMembers = GetNumPartyMembers
+    WoWPro.GetNumPartyMembers = _G.GetNumPartyMembers
 end
 
 
