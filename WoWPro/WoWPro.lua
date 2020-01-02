@@ -179,6 +179,7 @@ local function orderedNext(t, state)
     -- order. We use a temporary ordered key table that is stored in the
     -- table being iterated.
 
+    local key
     if state == nil then
         -- the first time, generate the index
         t._orderedIndex = _generateOrderedIndex( t )
@@ -187,6 +188,7 @@ local function orderedNext(t, state)
         key = t._orderedIndex[t._orderedOffset]
         return key, t[key]
     end
+
     -- fetch the next value
     key = nil
     t._orderedOffset = t._orderedOffset + 1
@@ -906,7 +908,7 @@ function WoWPro:RGB2HSL(r,g,b)
 
     l = (cmax + cmin) / 2.0
 
-    if max == min then
+    if cmax == cmin then
         h, s = 0, 0 -- A shade of white/black
     else
         local c = cmax - cmin
@@ -931,27 +933,28 @@ function WoWPro:RGB2HSL(r,g,b)
     return h, s, l
 end
 
+local function hue2rgb(p, q, t)
+    if t < 0 then t = t + 1 end
+    if t > 1 then t = t - 1 end
+    if t < 1/6 then return p + (q - p) * 6 * t end
+    if t < 1/2 then return q end
+    if t < 2/3 then return p + (q - p) * (2/3 - t) * 6 end
+    return p
+end
 function WoWPro:HSL2RGB(h,s,l)
-  local r, g, b, p, q
+    local r, g, b, p, q
 
-  if s == 0 then
-    r, g, b = l, l, l -- white
-  else
-    function hue2rgb(p, q, t)
-      if t < 0 then t = t + 1 end
-      if t > 1 then t = t - 1 end
-      if t < 1/6 then return p + (q - p) * 6 * t end
-      if t < 1/2 then return q end
-      if t < 2/3 then return p + (q - p) * (2/3 - t) * 6 end
-      return p
-    end
-
-    if l < 0.5 then
-        q = l * (1 + s)
+    if s == 0 then
+        r, g, b = l, l, l -- white
     else
-        q = l + s - (l * s)
-    end
-    p = (2 * l) - q
+
+        if l < 0.5 then
+            q = l * (1 + s)
+        else
+            q = l + s - (l * s)
+        end
+
+        p = (2 * l) - q
 
     r = hue2rgb(p, q, h + 1/3)
     g = hue2rgb(p, q, h)
@@ -1282,7 +1285,7 @@ TourGuide = TourGuide or {}
 
 if not TourGuide['RegisterGuide'] then
     function TourGuide:RegisterGuide(GIDvalue, zonename, authorname, lowerLevel, upperLevel, nextGID, faction, steps)
-        guide = WoWPro:RegisterGuide(GIDvalue, "Leveling", zonename, authorname, faction, 1)
+        local guide = WoWPro:RegisterGuide(GIDvalue, "Leveling", zonename, authorname, faction, 1)
         WoWPro:GuideLevels(guide, tonumber(lowerLevel), tonumber(upperLevel))
         WoWPro:GuideNextGuide(guide, nextGID)
         WoWPro:GuideName(guide, zonename)

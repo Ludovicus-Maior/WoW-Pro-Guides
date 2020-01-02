@@ -64,12 +64,10 @@ local function createBlizzOptions()
 		args = args })
 	dialog:SetDefaultSize("WoWPro-Dailies-Bliz", 600, 400)
 	dialog:AddToBlizOptions("WoWPro-Dailies-Bliz", "WoW-Pro Dailies")
-
-	return blizzPanel
 end
 
 function WoWPro.Dailies:CreateConfig()
-	blizzPanel = createBlizzOptions()
+	createBlizzOptions()
 
 	table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
 	table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Dailies", isTitle = true} )

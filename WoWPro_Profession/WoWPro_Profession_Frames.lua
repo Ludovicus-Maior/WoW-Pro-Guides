@@ -4,7 +4,7 @@
 
 -- Spells available reminder --
 function WoWPro.Profession.CreateSpellFrame()
-	local spellbutton = CreateFrame("Button", "WoWPro.AvailableSpellButton", WoWPro.MainFrame)
+	local spellbutton = CreateFrame("Button", nil, WoWPro.MainFrame)
 	spellbutton:SetFrameStrata("LOW")
 	spellbutton:SetHeight(20)
 	spellbutton:SetWidth(20)
@@ -17,7 +17,7 @@ function WoWPro.Profession.CreateSpellFrame()
 	spellbookicon:SetTexture("Interface\\Icons\\INV_Misc_Book_09")
 	spellbookicon:SetAllPoints(WoWPro.Profession.SpellButton)
 	
-	local tooltip = CreateFrame("Frame", "tooltip", WoWPro.GuideFrame)
+	local tooltip = CreateFrame("Frame", nil, WoWPro.GuideFrame)
 	tooltip:SetBackdrop( {
 		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
 		edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
@@ -74,7 +74,7 @@ function WoWPro.Profession.CreateSpellListFrame()
 	explanation:SetWidth(frame:GetWidth()-20)
 	explanation:SetTextColor(1, 1, 1)
 
-	local button1 = CreateFrame("Button", "Okay", frame, "OptionsButtonTemplate")
+	local button1 = CreateFrame("Button", nil, frame, "OptionsButtonTemplate")
 	button1:SetPoint("BOTTOM", 0, 10)
 	button1:SetHeight(25)
 	button1:SetWidth(160)

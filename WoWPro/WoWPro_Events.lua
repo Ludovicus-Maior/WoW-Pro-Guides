@@ -179,7 +179,7 @@ function WoWPro.GetLootTrackingInfo(lootitem,lootqty)
 	if not GetItemInfo(lootitem) then return "" end
 	local track = "" 												--If the function did have a track string, adds a newline
 	track = track.." - "..GetItemInfo(lootitem)..": " 	--Adds the item's name to the string
-	numinbag = GetItemCount(lootitem)		--Finds the number in the bag, and adds a count if supplied
+	local numinbag = GetItemCount(lootitem)		--Finds the number in the bag, and adds a count if supplied
 	track = track..numinbag										--Adds the number in bag to the string
 	track = track.."/"..lootqty								--Adds the total number needed to the string
 	if lootqty == numinbag then
@@ -299,7 +299,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 				        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[i]))
 				        local lcomplete = false
 				        if WoWPro.ValidObjective(lquesttext) then
-				            lcomplete = WoWPro.QuestObjectiveStatus(qid, lquesttext)
+				            lcomplete = WoWPro.QuestObjectiveStatus(QID, lquesttext)
     				    end
 				        if not lcomplete then complete = false end --if one of the listed objectives isn't complete, then the step is not complete.
 			        end
@@ -461,6 +461,11 @@ WoWPro.RegisterEventHandler("PLAYER_ENTERING_WORLD", function (event,...)
     WoWPro.LockdownTimer = 1.5
     -- WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA")
     if WoWPro.Hidden == "PLAYER_ENTERING_BATTLEGROUND" then
+        local guidetype = "WoWPro"
+        if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
+            guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
+        end
+
         WoWPro:Print("|cff33ff33Battleground Exit Auto Show|r: %s Module", guidetype)
 		WoWPro.MainFrame:Show()
 		WoWPro:TitlebarShow()
@@ -592,7 +597,12 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_CLOSE", function (event,...)
 
 
 WoWPro.RegisterEventHandler("PLAYER_ENTERING_BATTLEGROUND", function (event,...)
-    WoWPro:Print("|cff33ff33Battleground Auto Hide|r: %s Module",guidetype)
+    local guidetype = "WoWPro"
+    if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
+        guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
+    end
+
+    WoWPro:Print("|cff33ff33Battleground Auto Hide|r: %s Module", guidetype)
     WoWPro.MainFrame:Hide()
     WoWPro.Titlebar:Hide()
     WoWPro.Hidden = event
@@ -683,7 +693,7 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
     local npcQuests = {GetGossipAvailableQuests()};
     local npcCount = GetNumGossipAvailableQuests();
     local step = #npcQuests / npcCount
-    index = 0
+    local index = 0
     WoWPro:print("%s: AvailableQuests npcCount=%d", event, npcCount)
     if WoWProCharDB.AutoSelect then
         WoWPro.QuestCount = npcCount
@@ -954,7 +964,7 @@ WoWPro.RegisterEventHandler("QUEST_LOG_UPDATE", function (event,...)
         -- OK, now get the next quest if QuestCount is set
             if WoWPro.QuestCount ~= 0 and WoWPro.QuestDialogActive then
                 WoWPro:dbp("ZZZT Faking %s, QuestCount is %d", WoWPro.QuestDialogActive, WoWPro.QuestCount)
-                WoWPro.DelayedEventHandler(frame,WoWPro.QuestDialogActive)
+                WoWPro.DelayedEventHandler(WoWPro.EventFrame, WoWPro.QuestDialogActive)
             end
         end
     end
@@ -1037,11 +1047,12 @@ function WoWPro.EventHandler(frame, event, ...)
 
 	-- Module Event Handlers --
 	for name, module in WoWPro:IterateModules() do
-		if WoWPro[name].EventHandler
-		and WoWProDB.char.currentguide
-		and WoWPro.Guides[WoWProDB.char.currentguide]
-		and guidetype == name
-		then
+        local guidetype = "WoWPro"
+        if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
+            guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
+        end
+
+		if WoWPro[name].EventHandler and guidetype == name then
 		    WoWPro:dbp("Now calling event handler for %s",name)
 		    WoWPro[name]:EventHandler(frame, event, ...)
 		end

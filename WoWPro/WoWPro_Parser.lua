@@ -675,7 +675,7 @@ function WoWPro:GuideStatus()
     for i = 1,15 do
         local index = WoWPro.rows[i].index
         if WoWPro.rows[i]:IsVisible() then
-            line = WoWPro.EmitStep(index)
+            local line = WoWPro.EmitStep(index)
             line = line:gsub("||", "¦")
             text = text .. line .. "\n"
         end
@@ -841,7 +841,7 @@ function WoWPro.ParseSteps(steps)
 	if not WoWPro.Recorder then
     	min_level = WoWPro.Guides[GID].startlevel or 1
     	init = string.format("L Level %d|LVL|%d|N|You need to be level %d to start this guide.|",min_level,min_level,min_level)
-    	WoWPro.ParseQuestLine(faction, zone, 1, init)
+    	WoWPro.ParseQuestLine(myFaction, zone, 1, init)
 	end
 
 	-- OK, now add a standard D step at the end of every guide, if there is none there
@@ -853,7 +853,7 @@ function WoWPro.ParseSteps(steps)
     	else
     	    fini = string.format("D Fini|N|This ends %s. There is no next guide, so you can pick the next from the control panel.|",WoWPro:GetGuideName(GID))
     	end
-    	WoWPro.ParseQuestLine(faction, zone, i, fini)
+    	WoWPro.ParseQuestLine(myFaction, zone, i, fini)
         WoWPro.stepcount = i
     else
         WoWPro.stepcount = i - 1
@@ -945,7 +945,7 @@ function WoWPro:PushCurrentGuide(GID)
         end
         index = index - 1
     end
-    WoWPro[guideType]:dbp("Recorded load for guide %s",GID, when)
+    WoWPro[guideType]:dbp("Recorded load for guide %s", GID)
 end
 
 function WoWPro:PopCurrentGuide(current, pop)

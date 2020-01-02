@@ -4,7 +4,7 @@
 
 -- Spells available reminder --
 function WoWPro.Leveling.CreateSpellFrame()
-	local spellbutton = CreateFrame("Button", "WoWPro.AvailableSpellButton", WoWPro.MainFrame)
+	local spellbutton = CreateFrame("Button", nil, WoWPro.MainFrame)
 	spellbutton:SetFrameStrata("LOW")
 	spellbutton:SetHeight(20)
 	spellbutton:SetWidth(20)
@@ -17,7 +17,7 @@ function WoWPro.Leveling.CreateSpellFrame()
 	spellbookicon:SetTexture("Interface\\Icons\\INV_Misc_Book_09")
 	spellbookicon:SetAllPoints(WoWPro.Leveling.SpellButton)
 	
-	local tooltip = CreateFrame("Frame", "tooltip", WoWPro.GuideFrame)
+	local tooltip = CreateFrame("Frame", nil, WoWPro.GuideFrame)
 	tooltip:SetBackdrop( {
 		bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
 		edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],

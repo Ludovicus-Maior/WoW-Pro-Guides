@@ -262,7 +262,7 @@
 local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong Valley', 'MateusFreitas', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 111)
 WoWPro:GuideAutoSwitch(guide)
-WoWPro:GuideNextGuide(guide, EmmAWarCampaign)
+WoWPro:GuideNextGuide(guide, "EmmAWarCampaign")
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Stormsongvalley")
 WoWPro:GuideSteps(guide, function()
 return [[

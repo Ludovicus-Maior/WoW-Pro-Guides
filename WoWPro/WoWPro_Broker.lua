@@ -76,6 +76,7 @@ local function QidMapReduce(list,default,or_string,and_string,func, why, debug, 
             return val
         end
 
+        local do_and
         if do_and and not val then
             if debug then
                 WoWPro:dbp("QidMapReduce(%s): do_and return false",why)
@@ -228,11 +229,11 @@ end
 
 function WoWPro.ValidObjectives(objectives, debug, why)
     if debug or quids_debug then
-        WoWPro:dbp("WoWPro:ValidObjectives(%s)",tostring(QIDs))
+        WoWPro:dbp("WoWPro:ValidObjectives(%s)",tostring(objectives))
     end
-    local value = QidMapReduce(QIDs,false,"^","&",function (objective) return (not WoWPro.ValidObjective(objective)) ; end, why or "ValidObjectives", debug or quids_debug)
+    local value = QidMapReduce(objectives,false,"^","&",function (objective) return (not WoWPro.ValidObjective(objective)) ; end, why or "ValidObjectives", debug or quids_debug)
     if debug or quids_debug then
-        WoWPro:dbp("WoWPro:ValidObjectives(%s) return %s",tostring(QIDs),tostring(value))
+        WoWPro:dbp("WoWPro:ValidObjectives(%s) return %s",tostring(objectives),tostring(value))
     end
     return not value
 end
@@ -351,7 +352,7 @@ function WoWPro.ScenarioObjectiveStatus(stage, objective)
     if (not WoWPro.Scenario) or not (WoWPro.Scenario.currentStage == stage) then
         return false, "Scenario stage "..tostring(stage).." not active"
     end
-    done, status = predicate(qid, objective, target)
+    done, status = predicate(stage, objective, target)
     return done, status
 end
 
@@ -1792,7 +1793,7 @@ function WoWPro.NextStep(k,i)
 
 			skip = true --reputation steps skipped by default
 			WoWPro.why[k] = "NextStep(): Reputation steps skipped by default"
-			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, hasBonusRepGain
+			local name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, hasBonusRepGain, _
 			local friendID, friendRep, friendMaxRep, friendName, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold
 			if Friendship then
 			    friendID, friendRep, friendMaxRep, name, friendText, friendTexture, friendTextLevel, friendThreshold, nextFriendThreshold = GetFriendshipReputation(factionIndex);
@@ -1802,7 +1803,7 @@ function WoWPro.NextStep(k,i)
 			    bottomValue = 0
 			    WoWPro:dbp("NPC %s is a %s: standing %d, earned %d",name,friendTextLevel,standingId,earnedValue)
 			else
-			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild , _, hasBonusRepGain = GetFactionInfoByID(factionIndex)
+			    name, description, standingId, bottomValue, topValue, earnedValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild, _, hasBonusRepGain = GetFactionInfoByID(factionIndex)
                 WoWPro:dbp("Faction %s: standing %d, earned %d, bottomValue %d, bonus %s",name,standingId,earnedValue,bottomValue,tostring(hasBonusRepGain))
                 earnedValue = earnedValue - bottomValue
 			end
@@ -1930,7 +1931,7 @@ function WoWPro.NextStep(k,i)
 					local count = GetAchievementNumCriteria(achnum)
 					if tonumber(achitem) <= count then
 						local description, type, completed = GetAchievementCriteriaInfo(achnum, achitem)
-						WoWPro:dbp("ACH %s/%s Completed=%s, Flip=%s", achnum, achitem, tostring(Completed), tostring(achflip))
+						WoWPro:dbp("ACH %s/%s Completed=%s, Flip=%s", achnum, achitem, tostring(completed), tostring(achflip))
 						if achflip then completed = not completed end
 						if completed then
 							if achflip then
@@ -2042,7 +2043,7 @@ function WoWPro.NextStep(k,i)
 				end
 				if expansion == "BFA" then
 					spellName = GetSpellInfo(278833)
-					name, rank, icon, castTime, minRange, maxRange, spellId = GetSpellInfo(spellName)
+					local name, rank, icon, castTime, minRange, maxRange, spellID = GetSpellInfo(spellName)
 					if (spellID == "278833") then
 						spellKnown = true
 					else
@@ -2433,16 +2434,16 @@ function WoWPro:AddFauxQuest(questID, questTitle, level, suggestedGroup, isCompl
 	WoWPro.FauxQuestLog[questID] = {
 		title = questTitle,
 		level = level,
-		tag = questTag or "Standard",
+		tag = "Standard",
 		group = suggestedGroup or false,
 		complete = isComplete or false,
 		ocompleted = ocompleted or false,
 		daily = isDaily or false,
 		leaderBoard = leaderBoard,
-		header = currentHeader,
-		use = use,
-		coords = coords,
-		index = i
+		header = nil,
+		use = nil,
+		coords = nil,
+		index = nil
 	}
 	WoWPro:SendMessage("WoWPro_PuntedQLU")
 end
@@ -2471,7 +2472,7 @@ function WoWPro.PopulateQuestLog()
 	WoWPro.QuestLog = tablecopy(WoWPro.FauxQuestLog) -- Reinitiallizing the Quest Log table
 	local i
 	local entries, numQuests = GetNumQuestLogEntries()
-	local lastCollapsed = nil
+	local lastCollapsed, currentHeader
 	local num = 0
 	local delta = 0
 	WoWPro:dbp("PopulateQuestLog: Entries %d, Quests %d.",entries,numQuests)
@@ -2490,6 +2491,10 @@ function WoWPro.PopulateQuestLog()
 		     break
 		end
 
+        if isHeader then
+            currentHeader = questTitle
+        end
+
 		if (not isHeader) and questTitle and not WoWPro.QuestLog[questID] then
 			if GetNumQuestLeaderBoards(i) and GetQuestLogLeaderBoard(1, i) then
 				leaderBoard = {}
@@ -2506,18 +2511,20 @@ function WoWPro.PopulateQuestLog()
 			    ocompleted = nil
 			    ncompleted = nil
 			end
+
+            local _, itemID = _G.GetQuestLogSpecialItemInfo(i)
 			WoWPro.QuestLog[questID] = {
 				title = questTitle,
 				level = level,
-				tag = questTag or "Standard",
+				tag = "Standard",
 				group = suggestedGroup,
 				complete = isComplete or false,
 				ocompleted = ocompleted,
 				ncompleted = ncompleted,
-				daily = isDaily or false,
+				daily = frequency == _G.LE_QUEST_FREQUENCY_DAILY,
 				leaderBoard = leaderBoard,
 				header = currentHeader,
-				use = use,
+				use = itemID,
 				index = i
 			}
 		end

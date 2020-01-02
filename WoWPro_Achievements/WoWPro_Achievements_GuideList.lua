@@ -44,6 +44,7 @@ end
     
     
 -- Creating a Table of Guides for the Guide List and sorting based on level --
+local guides
 local function Init()
     guides = {}
     if not WoWProDB.global.Achievements.Category then

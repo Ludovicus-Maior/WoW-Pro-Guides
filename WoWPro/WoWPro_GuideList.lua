@@ -206,7 +206,7 @@ function WoWPro:UpdateGuideList()
 					
 			if WoWPro[iGuide.guide.guidetype].GuideTooltipInfo then
     		    row:SetScript("OnEnter", function(self)      
-        		    WoWPro[iGuide.guide.guidetype].GuideTooltipInfo(row,tooltip,iGuide.guide)		            
+        		    WoWPro[iGuide.guide.guidetype].GuideTooltipInfo(row, GameTooltip, iGuide.guide)		            
         		    GameTooltip:Show()
         		    if iGuide.guide.icon then
                         WoWPro:ShowTooltipIcon(iGuide.guide.icon, iGuide.guide.icon_offsets)
@@ -351,7 +351,7 @@ function WoWPro:CreateGuideTabFrame_Rows(frame)
 		
 		if WoWPro[iGuide.guide.guidetype].GuideTooltipInfo then
 		    row:SetScript("OnEnter", function(self)      
-    		    WoWPro[iGuide.guide.guidetype].GuideTooltipInfo(row,tooltip,iGuide.guide)		            
+    		    WoWPro[iGuide.guide.guidetype].GuideTooltipInfo(row, GameTooltip, iGuide.guide)		            
     		    GameTooltip:Show()
     		    if iGuide.guide.icon then
     		        WoWPro:ShowTooltipIcon(iGuide.guide.icon, iGuide.guide.icon_offsets)

@@ -8,7 +8,7 @@ local offset, rows, shownrows = 0, {}, NUMROWS
 WoWPro.WorldEvents.CreateCurrentGuideTitle = true
 local title, subtitle
 
-local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
+local frame = CreateFrame("Frame", "WoWPro_WorldEvents_CurrentGuide", InterfaceOptionsFramePanelContainer)
 frame.name = L["Current Guide"]
 frame.parent = "WoW-Pro WorldEvents"
 frame:Hide()
@@ -190,7 +190,3 @@ frame:SetScript("OnShow", function()
 		scrollbar:SetValue(WoWPro.rows[1].index - 3) 
 	end)
 end )
-
-
-
-WoWPro_WorldEvents_CurrentGuide = frame

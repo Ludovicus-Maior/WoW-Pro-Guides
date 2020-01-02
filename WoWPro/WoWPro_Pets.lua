@@ -137,7 +137,7 @@ function WoWPro.GetPetByNameOrID(name, id, limits, pet1, pet2)
         local ok = false 
         local speciesID, customName, level, xp, maxXp, displayID, isFavorite, petName, petIcon, petType, creatureID, sourceText, description, isWild, canBattle, tradable, unique = C_PetJournal.GetPetInfoByPetID(petID);
         if (creatureID == id) or (petName == name) or (id == nil) or (name == "") then
-            if ((id == nil) or (name == "")) and (82464 == companionID) then
+            if ((id == nil) or (name == "")) and (82464 == creatureID) then
                 -- No Elekk Plushie on wildcard slotting
                 canBattle = false
             end
@@ -158,7 +158,7 @@ function WoWPro.GetPetByNameOrID(name, id, limits, pet1, pet2)
             if ok then
                 WoWPro:dbp("WoWPro.GetPetByNameOrID: Found Candidate %s aka %s/%d", petID, petName, creatureID)
                 pids = pids or {}
-                pids[petID] = {speciesName, companionID}
+                pids[petID] = {petName, creatureID}
             end
         end
     end
@@ -200,14 +200,14 @@ function WoWPro.GetLevelingPet(limits, pet1, pet2, max_level)
         if ok then
             if petID_worst == nil then
                 petID_worst = petID
-                speciesName_worst = speciesID
-                companionID_worst = companionID
+                speciesName_worst = petName
+                companionID_worst = creatureID
             else
                 local best, worst = WoWPro.ComparePets(petID_worst, petID)
                 if best == petID_worst then
                     petID_worst = petID
-                    speciesName_worst = speciesID
-                    companionID_worst = companionID
+                    speciesName_worst = petName
+                    companionID_worst = creatureID
                 end
             end
         end
@@ -247,7 +247,7 @@ function WoWPro.GetPetByAbilities(abilities, limits, pet1, pet2)
         -- name="Core Hound Pup", icon="Interface\Ability\Hunter_Pet_CoreHound.blp", petType=7,
         -- companionID=36871, Source="Promotion...", 
         local speciesID, customName, level, xp, maxXp, displayID, isFavorite, petName, petIcon, petType, creatureID, sourceText, description, isWild, canBattle, tradable, unique = C_PetJournal.GetPetInfoByPetID(petID);
-        idTable, levelTable = C_PetJournal.GetPetAbilityList(speciesID)
+        local idTable, levelTable = C_PetJournal.GetPetAbilityList(speciesID)
         local score = 0
         local ok = false
         slots = {}
@@ -274,7 +274,7 @@ function WoWPro.GetPetByAbilities(abilities, limits, pet1, pet2)
                     score = score + 1
                     if score >= target_score then
                         WoWPro:dbp("WoWPro.GetPetByAbilities: Found Candidate %s aka %s/%d", petID, petName, creatureID)
-                        pids[petID] = {speciesName, companionID}
+                        pids[petID] = {petName, creatureID}
                     end
                 end
             end

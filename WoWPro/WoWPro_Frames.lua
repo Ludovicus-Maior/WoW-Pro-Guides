@@ -446,7 +446,7 @@ function WoWPro:CreateResizeButton()
 	resizebutton:SetNormalTexture("Interface\\Addons\\WoWPro\\Textures\\ResizeGripRight.tga")
 	-- Scripts --
 		resizebutton:SetScript("OnMouseDown", function()
-			WoWPro.MainFrame:StartSizing(TOPLEFT)
+			WoWPro.MainFrame:StartSizing("TOPLEFT")
 			WoWPro:UpdateGuide("ResizeStart")
 			WoWPro.MainFrame:SetScript("OnSizeChanged", function(self, width, height)
 				WoWPro.RowSizeSet()

@@ -48,7 +48,6 @@ local function DefineTerrain(cont, zonei, mapID, numFloors, zone, mapName)
     local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, 0)
     if map_id then
         DefineLegacyZone(zone, map_id)
-        DefineLegacyZoneFloor(tostring(mapID), floor, map_id)
     else
         WoWPro:print("DefineTerrain(%d,%d,%d,%d,%q): No mapping found.",cont, zonei, mapID, numFloors, zone)
     end

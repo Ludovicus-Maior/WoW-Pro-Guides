@@ -45,7 +45,6 @@ end
 function WoWPro.Recorder:RegisterSavedGuides()
 	local myUFG = UnitFactionGroup("player")
 	for GID,guideInfo in pairs(WoWPro_RecorderDB) do
-		if factionname and factionname ~= myUFG and factionname ~= "Neutral" then return end
 		if WoWPro.Guides[GID] then
 		    -- We have a guide by this name already
 		    local original = WoWPro.Guides[GID]
@@ -198,7 +197,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
         							QID = QID,
                                     map = mapxy,
         							zone = zonetag,
-        							noncombat = nc,
+        							noncombat = WoWPro.QuestLog[QID].nc, -- TODO: Does this actually exist?
         							use = WoWPro.QuestLog[QID].use,
         							note = WoWPro.QuestLog[QID].leaderBoard[idx],
         							questtext = tostring(idx),
@@ -476,7 +475,7 @@ function WoWPro.Recorder.AddStep(stepInfo,position)
 	end
 	WoWPro.Recorder:dbp("Adding new step %d %s [%s]", pos+1, stepInfo.action, stepInfo.step)
 	for key,tag in pairs(WoWPro.Tags) do
-		value = stepInfo[key]
+		local value = stepInfo[key]
 		if not value then value = false end
 		table.insert(WoWPro[key], pos+1, value)
 --		WoWPro.Recorder:dbp("Adding key "..key.." at position "..pos+1)

@@ -114,8 +114,8 @@ function WoWPro:IsInstanceZone(zone)
 end
 
 local function pack_kv(...)
-    t = {}
-    for i=1, select("#", ...), 2 do
+    local t, k, v = {}
+    for i = 1, select("#", ...), 2 do
         k = select(i, ...)
         v = select(i+1, ...)
         t[k] = v
@@ -124,7 +124,7 @@ local function pack_kv(...)
 end
 
 local function pack_v(...)
-    t = {}
+    local t, k, v = {}
     for i=1, select("#", ...), 2 do
         k = select(i, ...)
         v = select(i+1, ...)
@@ -193,7 +193,7 @@ local function ptable_inner(item)
         end
         table.insert(ptable_buf, "}")
     else
-        table.insert(ptable_buf, string.format("%q",tostring(t)))
+        table.insert(ptable_buf, string.format("%q", tostring(item)))
         return
     end
 end
@@ -371,7 +371,7 @@ function WoWPro.InferGoodNicknames()
         if type(info) == "number" then
             -- A unique name
             if wip_map_info[info].nick then
-                WoWPro:dbp("InferGoodNicknames(%04d): Collision on %q and %q",id, wip_map_info[info].nick, name)
+                WoWPro:dbp("InferGoodNicknames(%04d): Collision on %q and %q", info, wip_map_info[info].nick, name)
                 --- Choose the shortest unique nickname
                 if string.len(name) < string.len(wip_map_info[info].nick) then
                     WoWPro:dbp("InferGoodNicknames(%04d): Choosing %q", info, name)
@@ -386,7 +386,8 @@ function WoWPro.InferGoodNicknames()
             end
         elseif type(info) == "table" then
             -- Whoops!
-            WoWPro:dbp("InferGoodNicknames(%04d): Collision on %q in %s", id, name , ptable(info))
+            local id = 404
+            WoWPro:dbp("InferGoodNicknames(%04d): Collision on %q in %s", id, name, ptable(info))
         end
     end
 end
@@ -413,7 +414,7 @@ function WoWPro.ProcessGroupMembers(id, map_info)
             WoWPro:dbp("ProcessGroupMembers(%04d): group %d are clones",id, map_info.GroupID)
             for index, mapGroupMemberInfo in ipairs(wip_group_info[map_info.GroupID]) do
                 if id == mapGroupMemberInfo.mapID then
-                    nomen = mapGroupMemberInfo.name .. tostring(mapGroupMemberInfo.relativeHeightIndex)
+                    local nomen = mapGroupMemberInfo.name .. tostring(mapGroupMemberInfo.relativeHeightIndex)
                     WoWPro:dbp("ProcessGroupMembers(%04d): clone group %d map %d is now %q", id, map_info.GroupID, mapGroupMemberInfo.mapID, nomen)
                     register_name(nomen, id)
                     unregister_name(map_info.name, id)
@@ -426,7 +427,7 @@ function WoWPro.ProcessGroupMembers(id, map_info)
             for index, mapGroupMemberInfo in ipairs(wip_group_info[map_info.GroupID]) do
                 if id == mapGroupMemberInfo.mapID then
                     if mapGroupMemberInfo.name ~= map_info.name then
-                        nomen = mapGroupMemberInfo.name .. "@" .. map_info.name
+                        local nomen = mapGroupMemberInfo.name .. "@" .. map_info.name
                         WoWPro:dbp("ProcessGroupMembers(%04d): group %d %q => %q",id, map_info.GroupID, map_info.name, nomen)
                         register_name(nomen, id)
                         unregister_name(map_info.name, id)

@@ -656,7 +656,7 @@ function WoWPro:RemoveMapPoint()
 	elseif Nx then
 		while cache[1] do
 		    local catch = table.remove(cache)
-		    WoWPro:print("WoWPro:RemoveMapPoint Nx(%d:%.2f,%.2f@%s=%s)",i,catch.x,catch.y,tostring(catch.zone),tostring(catch.map))
+		    WoWPro:print("WoWPro:RemoveMapPoint Nx(%d:%.2f,%.2f@%s=%s)", 1, catch.x, catch.y, tostring(catch.zone), tostring(catch.map))
 		    Nx:TTRemoveWaypoint(catch.uid)
 		end
 	end
@@ -672,7 +672,8 @@ function  WoWPro.CheckHBDData(force)
     local width, height = WoWPro.HBD:GetZoneSize(mapId)
     if (not force) and width > 0 and height > 0 then
         -- We have data
-        WoWPro:dbp("Map data present for %d-%d", mapId, mapType)
+        local mapInfo = _G.C_Map.GetMapInfo(mapId)
+        WoWPro:dbp("Map data present for %d-%d", mapId, mapInfo and mapInfo.mapType)
         return
     end
     -- Hey!  No data!

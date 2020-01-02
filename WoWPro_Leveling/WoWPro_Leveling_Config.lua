@@ -64,12 +64,10 @@ local function createBlizzOptions()
 		args = args })
 	dialog:SetDefaultSize("WoWPro-Leveling-Bliz", 600, 400)
 	dialog:AddToBlizOptions("WoWPro-Leveling-Bliz", "WoW-Pro Leveling")
-
-	return blizzPanel
 end
 
 function WoWPro.Leveling:CreateConfig()
-	blizzPanel = createBlizzOptions()
+	createBlizzOptions()
 	
 	table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
 	table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Leveling", isTitle = true} )

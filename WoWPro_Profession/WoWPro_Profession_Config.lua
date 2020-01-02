@@ -64,12 +64,10 @@ local function createBlizzOptions()
 		args = args })
 	dialog:SetDefaultSize("WoWPro-Profession-Bliz", 600, 400)
 	dialog:AddToBlizOptions("WoWPro-Profession-Bliz", "WoW-Pro Profession")
-
-	return blizzPanel
 end
 
 function WoWPro.Profession:CreateConfig()
-	blizzPanel = createBlizzOptions()
+	createBlizzOptions()
 	
 	table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
 	table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Profession", isTitle = true} )

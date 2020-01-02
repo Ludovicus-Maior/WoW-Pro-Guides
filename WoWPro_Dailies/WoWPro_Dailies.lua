@@ -55,14 +55,14 @@ function WoWPro.Dailies:GuideNameAndCategory(guide,name,cat)
     if cat then  
         guide.category = cat
     else
-        guide.category = zone
+        guide.category = guide.zone
     end
 end
 
 -- Use Grail to go a crude guide for a zone.  Pass in the mapID and it will find all the quests that start/end in that zone.
 function WoWPro.Dailies:DumpInfo()
     local zoneID = 951
-    WoWPro.Dailies.eBox = WoWPro.Dailies.eBox or CreateFrame("EditBox", nil,UIParent,ChatFrameEditBoxTemplate)
+    WoWPro.Dailies.eBox = WoWPro.Dailies.eBox or CreateFrame("EditBox", nil, UIParent, "ChatFrameEditBoxTemplate")
     local eBox = WoWPro.Dailies.eBox
     eBox:SetWidth(512)
     eBox:SetHeight(256)

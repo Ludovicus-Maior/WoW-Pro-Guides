@@ -8,7 +8,7 @@ local offset, rows, shownrows = 0, {}, NUMROWS
 WoWPro.Achievements.CreateCurrentGuideTitle = true
 local title, subtitle
 
-local frame = CreateFrame("Frame", nil, InterfaceOptionsFramePanelContainer)
+local frame = CreateFrame("Frame", "WoWPro_Achievements_CurrentGuide", _G.InterfaceOptionsFramePanelContainer)
 frame.name = L["Current Guide"]
 frame.parent = "WoW-Pro Achievements"
 frame:Hide()
@@ -189,7 +189,3 @@ frame:SetScript("OnShow", function()
 		scrollbar:SetValue(WoWPro.rows[1].index - 3) 
 	end)
 end )
-
-
-
-WoWPro_Achievements_CurrentGuide = frame

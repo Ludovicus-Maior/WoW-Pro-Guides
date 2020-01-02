@@ -1043,7 +1043,7 @@ local function createBlizzOptions()
 		},
 	}
 	
-	profiles = LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB)
+	local profiles = LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB)
 	
 	dialog:SetDefaultSize("WoWPro-Bliz", 600, 400)
 	dialog:AddToBlizOptions("WoWPro-Bliz", "WoW-Pro")
@@ -1063,12 +1063,10 @@ local function createBlizzOptions()
     -- Expert Options
     config:RegisterOptionsTable("WoWPro-Expert", expert)
     dialog:AddToBlizOptions("WoWPro-Expert", "WoW-Pro Expert", "WoW-Pro")
-
-	return blizzPanel
 end
 
 function WoWPro.CreateConfig()
-	blizzPanel = createBlizzOptions()
+	createBlizzOptions()
 	InterfaceOptions_AddCategory(WoWPro.GuideList)
 	InterfaceOptions_AddCategory(WoWPro.CurrentGuideFrame)
 end
