@@ -1,4 +1,4 @@
--- luacheck: globals tostring ipairs
+-- luacheck: globals tostring ipairs max floor
 
 -----------------------------------
 --      WoWPro_CurrentGuide      --
@@ -97,7 +97,7 @@ frame:SetScript("OnShow", function()
 		    if row.index and WoWPro.why and WoWPro.why[row.index] then
 		        tooltip:SetPoint("TOPLEFT", row, "BOTTOMLEFT", -10, 10)
 		        tooltiptext:SetHeight(125)
-		        tooltiptext:SetText(string.format("Step %d/QID %s: %s",row.index,tostring(WoWPro.QID[row.index]),WoWPro.why[row.index]))
+		        tooltiptext:SetText(("Step %d/QID %s: %s"):format(row.index, tostring(WoWPro.QID[row.index]), WoWPro.why[row.index]))
 		        tooltiptext:SetHeight(tooltiptext:GetStringHeight())
 		        tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
 		        tooltip:Show()
@@ -151,7 +151,7 @@ frame:SetScript("OnShow", function()
 			if step then row.check:Show() else row.check:Hide() end
 			if optional[index] then step = step.." (optional)" end
 			if WoWPro.prof[index] then
-				local prof, proflvl = string.split(";", WoWPro.prof[index]) 
+				local prof, proflvl = (";"):split(WoWPro.prof[index]) 
 				step = step.." ("..prof..")"
 			end
 			if WoWPro.rank[index] then
@@ -212,14 +212,14 @@ frame:SetScript("OnShow", function()
 			index = index + 1
 		end
 
-		scrollbar:SetMinMaxValues(0, math.max(0, #steplist - shownrows))
+		scrollbar:SetMinMaxValues(0, max(0, #steplist - shownrows))
 		frame:SetScript("OnMouseWheel", function(self, val) scrollbar:SetValue(scrollbar:GetValue() - val*shownrows/3) end)
 
 	end
 
 	local f = scrollbar:GetScript("OnValueChanged")
 	scrollbar:SetScript("OnValueChanged", function(self, value, ...)
-		offset = math.floor(value)
+		offset = floor(value)
 		WoWPro.UpdateCurrentGuidePanel()
 		return f(self, value, ...)
 	end)
@@ -243,7 +243,7 @@ function WoWPro:GuideBugReport()
     local LogBox = WoWPro.LogBox
     local text
     local GID = WoWProDB.char.currentguide
-    text = string.format("Version: %s, Class: %s, Race: %s, Faction: %s, Guide: %s\n\n", WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), _G.UnitFactionGroup("player"), tostring(GID))
+    text = ("Version: %s, Class: %s, Race: %s, Faction: %s, Guide: %s\n\n"):format(WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), _G.UnitFactionGroup("player"), tostring(GID))
     text = text .. WoWPro:QuestLogStatus() .. "\n"
     text = text .. WoWPro:GuideStatus() .. "\n"
     LogBox.Box:SetText( text )

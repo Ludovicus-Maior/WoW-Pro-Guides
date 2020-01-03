@@ -1,3 +1,5 @@
+-- luacheck: globals tinsert
+
 --------------------------------------
 --      WoWPro_Achievements_Config      --
 --------------------------------------
@@ -67,9 +69,9 @@ local function createBlizzOptions()
 end
 
 function WoWPro.Achievements:CreateConfig()
-	table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
-	table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Achievements", isTitle = true} )
-	table.insert(WoWPro.DropdownMenu, {text = "About", func = function() 
+	tinsert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
+	tinsert(WoWPro.DropdownMenu, {text = "WoW-Pro Achievements", isTitle = true} )
+	tinsert(WoWPro.DropdownMenu, {text = "About", func = function() 
 		_G.InterfaceOptionsFrame_OpenToCategory("WoW-Pro Achievements") 
 	end} )
 end

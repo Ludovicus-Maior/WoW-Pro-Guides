@@ -91,20 +91,20 @@ function WoWPro.Dailies:DumpInfo()
         end
         if accept_m then
             
-            accept_m = string.format("%s,%s",accept_m[1].x,accept_m[1].y)
+            accept_m = ("%s, %s"):format(accept_m[1].x, accept_m[1].y)
         else
             accept_m = "unknown"
         end
         if turnin_m then         
-            turnin_m = string.format("%s,%s",turnin_m[1].x,turnin_m[1].y)
+            turnin_m = ("%s, %s"):format(turnin_m[1].x, turnin_m[1].y)
         else
             turnin_m = "unknown"
         end
         accept_npc = (accept_npc and accept_npc[1] and Grail:NPCName(accept_npc[1])) or "???"
         turnin_npc = (turnin_npc and turnin_npc[1] and Grail:NPCName(turnin_npc[1])) or "???"
-        line = string.format("A %s|QID|%d|M|%s||%sN|From %s.|",name,quid,accept_m,pre,accept_npc)
+        line = ("A %s|QID|%d|M|%s||%sN|From %s.|"):format(name, quid, accept_m, pre, accept_npc)
         text = text .. line .. "\n"
-        line = string.format("T %s|QID|%d|M|%s||N|To %s.|",name,quid,turnin_m,turnin_npc)
+        line = ("T %s|QID|%d|M|%s||N|To %s.|"):format(name, quid, turnin_m, turnin_npc)
         text = text .. line .. "\n"
     end
     eBox:SetText(text)

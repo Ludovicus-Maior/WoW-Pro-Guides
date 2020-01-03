@@ -1,4 +1,4 @@
--- luacheck: globals select pairs
+-- luacheck: globals select pairs max
 -- luacheck: globals tonumber tostring
 
 ---local speciesID, customName, level, xp, maxXp, displayID, isFavorite, name, icon, petType = C_PetJournal.GetPetInfoByPetID(petID);
@@ -30,7 +30,7 @@ WoWPro.PetFamilyMap = {}
 local function RegisterPDM(pet_basic, pet_type, pet_strong, pet_weak)
     WoWPro.PetDamageMap[pet_basic*20+pet_strong] = 1.5
     WoWPro.PetDamageMap[pet_basic*20+pet_weak] = 0.66
-    WoWPro.PetFamilyMap[string.upper(pet_type)] = pet_basic
+    WoWPro.PetFamilyMap[pet_type:upper()] = pet_basic
 end
 RegisterPDM(9,"Aquatic",7,6)
 RegisterPDM(8,"Beast",5,3)
@@ -57,22 +57,22 @@ function WoWPro.PetMeetsLimit(petID, limit)
         limit = "L>24"
     end
 
-    limit = string.upper(limit)
-    local limit_type = string.sub(limit, 1, 2)
+    limit = limit:upper()
+    local limit_type = limit:sub(1, 2)
 
     if limit_type == "L>" then
-        local min_level = tonumber(string.sub(limit, 3, -1))
+        local min_level = tonumber(limit:sub(3, -1))
 --        WoWPro:dbp("PetMeetsLimit: Level %d > %d ?",level, min_level)
         return level > min_level
     elseif limit_type == "H>" then
-        local min_health = tonumber(string.sub(limit, 3, -1))
+        local min_health = tonumber(limit:sub(3, -1))
         if min_health == nil then
             -- perhaps we have a modifer?
-            min_health = tonumber(string.sub(limit, 3, -2))
+            min_health = tonumber(limit:sub(3, -2))
             if min_health then
                 -- Yup!
-                local factor = WoWPro.LookupHealthModifier(string.sub(limit, -1, -1), petType)
---                WoWPro:dbp("PetMeetslimit: Modified health from %g to %g enemy %s, pet %d",min_health,min_health*factor,string.sub(limit, -1, -1), petType)
+                local factor = WoWPro.LookupHealthModifier(limit:sub(-1, -1), petType)
+--                WoWPro:dbp("PetMeetslimit: Modified health from %g to %g enemy %s, pet %d",min_health,min_health*factor,limit:sub(-1, -1), petType)
                 min_health = min_health * factor
             else
                 WoWPro:Error("WoWPro.PetMeetsLimit: Bad limit string [%s]", limit)
@@ -81,16 +81,16 @@ function WoWPro.PetMeetsLimit(petID, limit)
         end
         return maxHealth > min_health
     elseif limit_type == "P>" then
-        local min_power = tonumber(string.sub(limit, 3, -1))
+        local min_power = tonumber(limit:sub(3, -1))
         return power > min_power
     elseif limit_type == "S>" then
-        local min_speed = tonumber(string.sub(limit, 3, -1))
+        local min_speed = tonumber(limit:sub(3, -1))
         return speed > min_speed
     elseif limit_type == "I>" then
-        local min_injury = tonumber(string.sub(limit, 3, -1))
+        local min_injury = tonumber(limit:sub(3, -1))
         return min_injury > (maxHealth - health)
     elseif limit_type == "F=" then
-        local family_key = string.sub(limit, 3, -1)
+        local family_key = limit:sub(3, -1)
         if not WoWPro.PetFamilyMap[family_key] then
                 WoWPro:Error("WoWPro.PetMeetsLimit: Bad limit string [%s]", limit)
                 return false
@@ -98,7 +98,7 @@ function WoWPro.PetMeetsLimit(petID, limit)
         local family_id = WoWPro.PetFamilyMap[family_key]
         return petType == family_id
     elseif limit_type == "F~" then
-        local family_key = string.sub(limit, 3, -1)
+        local family_key = limit:sub(3, -1)
         if not WoWPro.PetFamilyMap[family_key] then
                 WoWPro:Error("WoWPro.PetMeetsLimit: Bad limit string [%s]", limit)
                 return false
@@ -111,9 +111,9 @@ function WoWPro.PetMeetsLimit(petID, limit)
 end
 
 function WoWPro.PetMeetsLimits(petID, limits)
-    local numList = select("#", string.split("+", limits))
+    local numList = select("#", ("+"):split(limits))
     for i=1,numList do
-        local limit = select(numList-i+1, string.split("+", limits))
+        local limit = select(numList-i+1, ("+"):split(limits))
         if not WoWPro.PetMeetsLimit(petID, limit) then
             return false
         end
@@ -458,14 +458,14 @@ end
 
 function WoWPro.PetLoadBySpec(slot, spec, pet1, pet2)
     -- |Iron Starlette;77221;1+1+1|
-    local name,id,pick_spec,limits  = string.split(";",spec)
-    local pick = { string.split("+",(pick_spec or "")) }
+    local name, id, pick_spec, limits = (";"):split(spec)
+    local pick = { ("+"):split(pick_spec or "") }
     pick[0] = -1
-    for i = 1,3 do
+    for i = 1, 3 do
         pick[i] = tonumber(pick[i]) or 0
-        pick[0] = math.max(pick[0], pick[i])
+        pick[0] = max(pick[0], pick[i])
     end
-    return WoWPro.PetLoadAndPick(slot, name, tonumber(id) , pick, limits, pet1, pet2)
+    return WoWPro.PetLoadAndPick(slot, name, tonumber(id), pick, limits, pet1, pet2)
 end
 
 function WoWPro.PetSelectStep(k)
@@ -496,7 +496,7 @@ function WoWPro.PetSelect(pet)
 end
 
 function WoWPro.PetDead(pet)
-    local petOwner, petIndex = string.split(",",pet)
+    local petOwner, petIndex = (","):split(pet)
     petOwner = tonumber(petOwner)
     petIndex = tonumber(petIndex)
     local health = _G.C_PetBattles.GetHealth(petOwner, petIndex)

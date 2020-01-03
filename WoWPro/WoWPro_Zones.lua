@@ -1,5 +1,5 @@
--- luacheck: globals select pairs ipairs next type
--- luacheck: globals tonumber tostring
+-- luacheck: globals table tinsert sort select pairs ipairs next
+-- luacheck: globals tonumber tostring type
 
 ----------------------------------
 --      WoWPro_Zones.lua      --
@@ -52,7 +52,7 @@ end
 function WoWPro.GetZoneText()
     local x, y, mapId = WoWPro:GetPlayerZonePosition()
     if WoWPro.MapInfo[mapId] then
-        return string.format("%s",  WoWPro.MapInfo[mapId].name), mapId
+        return ("%s"):format(WoWPro.MapInfo[mapId].name), mapId
     else
         return tostring(mapId), mapId
     end
@@ -85,7 +85,7 @@ function WoWPro:ValidZone(zone)
 	        return WoWPro.MapInfo[mapId].name, mapId
 	    elseif zone:match("/") then
 	        -- Zone is a legacy zone avec floor
-	        local nzone , floor = string.split("/",zone)
+	        local nzone , floor = ("/"):split(zone)
 	        floor = tonumber(floor)
 	        if not WoWPro.LegacyZone2MapID[nzone] then
 	            WoWPro:print("ValidZone: Legacy Zone [%s] is not registered.", zone)
@@ -132,7 +132,7 @@ local function pack_v(...)
     for i=1, select("#", ...), 2 do
         k = select(i, ...)
         v = select(i+1, ...)
-        table.insert(t,v)
+        tinsert(t,v)
     end
     return t
 end
@@ -143,30 +143,30 @@ local ptable_buf
 local function ptable_inner(item)
     local item_type =  type(item)
     if item_type == "number" then
-        table.insert(ptable_buf, tostring(item))
+        tinsert(ptable_buf, tostring(item))
         return
     end
     if item_type == "string" then
-        table.insert(ptable_buf, string.format("%q",item))
+        tinsert(ptable_buf, ("%q"):format(item))
         return
     end
     if item_type == "number" then
-        table.insert(ptable_buf, tostring(item))
+        tinsert(ptable_buf, tostring(item))
         return
     end
     if item_type == "boolean" then
-        table.insert(ptable_buf, tostring(item))
+        tinsert(ptable_buf, tostring(item))
         return
     end
     if item == nil then
-        table.insert(ptable_buf, "nil")
+        tinsert(ptable_buf, "nil")
         return
     end
     local last_i = 0
     if item_type == "table" then
-        table.insert(ptable_buf, "{")
+        tinsert(ptable_buf, "{")
         for i,v in ipairs(item) do
-            if i > 1 then table.insert(ptable_buf, ",") end
+            if i > 1 then tinsert(ptable_buf, ",") end
             ptable_inner(v)
             last_i  = i
         end
@@ -176,28 +176,28 @@ local function ptable_inner(item)
         for k,v in pairs(item) do
             local k_type = type(k)
             if k_type == "string" then
-                if comma_p then table.insert(ptable_buf, ",") end
+                if comma_p then tinsert(ptable_buf, ",") end
                 comma_p = true
-                if string.match(k, "^[%a_][%a%d_]*$") then
-                    table.insert(ptable_buf, k)
-                    table.insert(ptable_buf, "=")
+                if k:match("^[%a_][%a%d_]*$") then
+                    tinsert(ptable_buf, k)
+                    tinsert(ptable_buf, "=")
                 else
-                    table.insert(ptable_buf, string.format("[%q]=",k))
+                    tinsert(ptable_buf, ("[%q]="):format(k))
                 end
                 ptable_inner(v)
             else
                 --
                 if k_type ~= "number" or k >= last_i or k < 1 or ( k % 1 ~= 0) then
-                    if comma_p then table.insert(ptable_buf, ",") end
+                    if comma_p then tinsert(ptable_buf, ",") end
                     comma_p = true
-                    table.insert(ptable_buf, string.format("[%s]=",tostring(k)))
+                    tinsert(ptable_buf, ("[%s]="):format(tostring(k)))
                     ptable_inner(v)
                 end
             end
         end
-        table.insert(ptable_buf, "}")
+        tinsert(ptable_buf, "}")
     else
-        table.insert(ptable_buf, string.format("%q", tostring(item)))
+        tinsert(ptable_buf, ("%q"):format(tostring(item)))
         return
     end
 end
@@ -236,10 +236,10 @@ function WoWPro.EmitZones(release)
             WoWPro:Print("%s",ptable(info))
             local nomen = info.nick or info.name
             local mapType = MapType2Name[info.mapType] or tostring(info.mapType)
-            temp = string.format("DefineZone%d(%04d, %q, %s, %04d, %s", release, info.mapID, nomen, mapType, info.parentMapID, tostring(info.GroupID))
+            temp = ("DefineZone%d(%04d, %q, %s, %04d, %s"):format(release, info.mapID, nomen, mapType, info.parentMapID, tostring(info.GroupID))
             if info.children and #(info.children) > 0 then
                 for i = 1, #(info.children) do
-                    temp = temp .. string.format(", %04d",info.children[i])
+                    temp = temp .. (", %04d"):format(info.children[i])
                 end
             end
             temp = temp .. ")"
@@ -288,7 +288,7 @@ function WoWPro.CollectMap(id)
             wip_map_info[id].children[i] = children[i].mapID
         end
     end
-    table.sort(wip_map_info[id].children)
+    sort(wip_map_info[id].children)
 end
 
 function WoWPro.NameZones()
@@ -377,7 +377,7 @@ function WoWPro.InferGoodNicknames()
             if wip_map_info[info].nick then
                 WoWPro:dbp("InferGoodNicknames(%04d): Collision on %q and %q", info, wip_map_info[info].nick, name)
                 --- Choose the shortest unique nickname
-                if string.len(name) < string.len(wip_map_info[info].nick) then
+                if name:len() < wip_map_info[info].nick:len() then
                     WoWPro:dbp("InferGoodNicknames(%04d): Choosing %q", info, name)
                     unregister_name(wip_map_info[info].nick, info)
                 else
@@ -570,7 +570,7 @@ function WoWPro.ProcessMapAndKids(id, root)
             register_name(children[i].name, children[i].mapID)
         end
     end
-    table.sort(map_info.children)
+    sort(map_info.children)
 
     for i = 1, #(map_info.children) do
         WoWPro.ProcessMapAndKids(map_info.children[i], root)

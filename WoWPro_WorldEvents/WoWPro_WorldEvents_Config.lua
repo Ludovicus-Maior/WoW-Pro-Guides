@@ -1,3 +1,5 @@
+-- luacheck: globals tinsert
+
 --------------------------------------
 --      WoWPro_WorldEvents_Config      --
 --------------------------------------
@@ -69,9 +71,9 @@ end
 function WoWPro.WorldEvents:CreateConfig()
 	createBlizzOptions()
 	
-	table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
-	table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro WorldEvents", isTitle = true} )
-	table.insert(WoWPro.DropdownMenu, {text = "About", func = function() 
+	tinsert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
+	tinsert(WoWPro.DropdownMenu, {text = "WoW-Pro WorldEvents", isTitle = true} )
+	tinsert(WoWPro.DropdownMenu, {text = "About", func = function() 
 		_G.InterfaceOptionsFrame_OpenToCategory("WoW-Pro WorldEvents") 
 	end})
 end

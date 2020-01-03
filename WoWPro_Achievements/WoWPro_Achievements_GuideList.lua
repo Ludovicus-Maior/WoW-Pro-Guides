@@ -1,5 +1,5 @@
 -- luacheck: globals tostring
--- luacheck: globals pairs unpack
+-- luacheck: globals tinsert sort pairs unpack
 
 ---------------------------------------------
 --      WoWPro_Achievements_GuideList.lua      --
@@ -63,7 +63,7 @@ local function Init()
     	        return ""
     	    end
     	    AddInfo(guide)
-    		table.insert(guides, {
+    		tinsert(guides, {
     			GID = guidID,
     			guide = guide,
     			Name = guide.name,
@@ -74,7 +74,7 @@ local function Init()
     		})
     	end
     end
-    table.sort(guides, function(a,b) return a.Name < b.Name end)
+    sort(guides, function(a,b) return a.Name < b.Name end)
     WoWPro.Achievements.GuideList.Guides = guides
 end
 
@@ -82,44 +82,44 @@ end
 local sorttype = "Default"
 local function authorSort()
 	if sorttype == "AuthorAsc" then
-		table.sort(guides, function(a,b) return a.Author > b.Author end)
+		sort(guides, function(a,b) return a.Author > b.Author end)
 		WoWPro.Achievements:UpdateGuideList()
 		sorttype = "AuthorDesc"
 	else
-		table.sort(guides, function(a,b) return a.Author < b.Author end)
+		sort(guides, function(a,b) return a.Author < b.Author end)
 		WoWPro.Achievements:UpdateGuideList()
 		sorttype = "AuthorAsc"
 	end
 end
 local function nameSort()
 	if sorttype == "NameAsc" then
-		table.sort(guides, function(a,b) return a.Name > b.Name end)
+		sort(guides, function(a,b) return a.Name > b.Name end)
 		WoWPro.Achievements:UpdateGuideList()
 		sorttype = "NameDesc"
 	else
-		table.sort(guides, function(a,b) return a.Name < b.Name end)
+		sort(guides, function(a,b) return a.Name < b.Name end)
 		WoWPro.Achievements:UpdateGuideList()
 		sorttype = "NameAsc"
 	end
 end
 local function categorySort()
 	if sorttype == "CategoryAsc" then
-		table.sort(guides, function(a,b) return a.Category > b.Category end)
+		sort(guides, function(a,b) return a.Category > b.Category end)
 		WoWPro.Achievements:UpdateGuideList()
 		sorttype = "CategoryDesc"
 	else
-		table.sort(guides, function(a,b) return a.Category < b.Category end)
+		sort(guides, function(a,b) return a.Category < b.Category end)
 		WoWPro.Achievements:UpdateGuideList()
 		sorttype = "CategoryAsc"
 	end
 end
 local function subSort()
 	if sorttype == "SubAsc" then
-		table.sort(guides, function(a,b) return a.Sub > b.Sub end)
+		sort(guides, function(a,b) return a.Sub > b.Sub end)
 		WoWPro.Achievements:UpdateGuideList()
 		sorttype = "SubDesc"
 	else
-		table.sort(guides, function(a,b) return a.Sub < b.Sub end)
+		sort(guides, function(a,b) return a.Sub < b.Sub end)
 		WoWPro.Achievements:UpdateGuideList()
 		sorttype = "SubAsc"
 	end
@@ -127,11 +127,11 @@ end
 
 -- Fancy tooltip!
 function WoWPro.Achievements.GuideTooltipInfo(row, tooltip, guide)
-    _G.GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
-    _G.GameTooltip:AddLine(guide.name.."      ")
-    _G.GameTooltip:AddLine("")
-    _G.GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
-    _G.GameTooltip:AddDoubleLine("SubCategory:",guide.sub,1,1,1,unpack(WoWPro.LevelColor(guide)))
+    tooltip:SetOwner(row, "ANCHOR_TOPLEFT")
+    tooltip:AddLine(guide.name.."      ")
+    tooltip:AddLine("")
+    tooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
+    tooltip:AddDoubleLine("SubCategory:",guide.sub,1,1,1,unpack(WoWPro.LevelColor(guide)))
 end
     
 

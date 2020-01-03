@@ -1,5 +1,5 @@
+-- luacheck: globals pairs unpack tinsert sort
 -- luacheck: globals tostring
--- luacheck: globals pairs unpack tinsert
 
 --
 --      WoWPro_Selector     --
@@ -129,11 +129,11 @@ function WoWPro:SelectTopGuides()
     WoWPro:UpdateGuideScores ()
     for guidID,guide in pairs(WoWPro.Guides) do
         if guide.score then
-            table.insert(scores, {score = guide.score, GID = guidID })
+            tinsert(scores, {score = guide.score, GID = guidID })
         end
     end
     local scoref = function (a,b) return a.score > b.score end
-    table.sort(scores, scoref)
+    sort(scores, scoref)
     WoWPro.scores = scores -- Debugging
     for idx=1,8 do
         local item = _G.WoWProSelector_Frame.button[idx]
@@ -216,7 +216,7 @@ function WoWPro:OfferGuideSwitch(nGID, quest)
 	}
 
 	if quest then
-	    _G.StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"].text = string.format("Would you like to switch to the guide %s for the quest [%s]?", nGID, quest)
+	    _G.StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"].text = ("Would you like to switch to the guide %s for the quest [%s]?"):format(nGID, quest)
 	end
 	_G.StaticPopup_Show("WOWPRO_SWITCH_GUIDE")
 end

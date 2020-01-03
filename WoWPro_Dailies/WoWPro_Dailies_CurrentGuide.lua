@@ -1,4 +1,4 @@
--- luacheck: globals ipairs
+-- luacheck: globals ipairs floor max
 
 --------------------------------------------
 --      WoWPro_Dailies_CurrentGuide      --
@@ -95,7 +95,7 @@ frame:SetScript("OnShow", function()
 			if step then row.check:Show() else row.check:Hide() end
 			if optional[index] then step = step.." (optional)" end
 			if WoWPro.prof[index] then
-				local prof, _ = string.split(";", WoWPro.prof[index]) 
+				local prof, _ = (";"):split(WoWPro.prof[index]) 
 				step = step.." ("..prof..")"
 			end
 			if WoWPro.rank[index] then
@@ -159,14 +159,14 @@ frame:SetScript("OnShow", function()
 			index = index + 1
 		end
 	
-		scrollbar:SetMinMaxValues(0, math.max(0, #steplist - shownrows))
+		scrollbar:SetMinMaxValues(0, max(0, #steplist - shownrows))
 		frame:SetScript("OnMouseWheel", function(self, val) scrollbar:SetValue(scrollbar:GetValue() - val*shownrows/3) end)
 		
 	end
 	
 	local f = scrollbar:GetScript("OnValueChanged")
 	scrollbar:SetScript("OnValueChanged", function(self, value, ...)
-		offset = math.floor(value)
+		offset = floor(value)
 		WoWPro.Dailies.UpdateCurrentGuidePanel()
 		return f(self, value, ...)
 	end)

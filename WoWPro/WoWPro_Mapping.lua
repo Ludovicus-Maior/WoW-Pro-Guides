@@ -1,6 +1,6 @@
 -- luacheck: globals TomTom LightHeaded Nx
--- luacheck: globals ipairs select wipe sqrt type
--- luacheck: globals tonumber tostring strtrim
+-- luacheck: globals ipairs select wipe tremove tinsert
+-- luacheck: globals tonumber tostring floor sqrt type
 
 ----------------------------------
 --      WoWPro_Mapping.lua      --
@@ -77,13 +77,13 @@ local function WoWProMapping_tooltip(event, tooltip, uid, dist)
 
 	tooltip:SetText(desc or L["WoWPro waypoint"])
 	if dist and tonumber(dist) then
-		tooltip:AddLine(string.format(L["%s yards away"], math.floor(dist)), 1, 1, 1)
+		tooltip:AddLine(L["%s yards away"]:format(floor(dist)), 1, 1, 1)
 	else
 		tooltip:AddLine(L["Unknown distance"])
 	end
-	tooltip:AddLine(string.format(L["%s (%.2f, %.2f)"], zone, x, y), 0.7, 0.7, 0.7)
+	tooltip:AddLine(L["%s (%.2f, %.2f)"]:format(zone, x, y), 0.7, 0.7, 0.7)
 	if #cache > 1 then
-		tooltip:AddLine(string.format(L["Waypoint %d of %d"], jcoord, #cache), 1, 1, 1)
+		tooltip:AddLine(L["Waypoint %d of %d"]:format(jcoord, #cache), 1, 1, 1)
 	end
 	if desc then
 		tooltip:AddLine(L["WoWPro waypoint"])
@@ -113,7 +113,7 @@ end
 -- (could be changed later so they can be different)
 local function WoWProMapping_tooltip_update_both(event, tooltip, uid, dist)
 	if dist and tonumber(dist) then
-		tooltip.lines[2]:SetFormattedText(L["%s yards away"], math.floor(dist), 1, 1, 1)
+		tooltip.lines[2]:SetFormattedText(L["%s yards away"], floor(dist), 1, 1, 1)
 	else
 		tooltip.lines[2]:SetText(L["Unknown distance"])
 	end
@@ -165,7 +165,7 @@ local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
 		    if cache[i] then
 			    WoWPro:dbp("Mapping(AA1): removing uid #%d %s.", i, tostring(cache[i].uid))
 			    TomTom:RemoveWaypoint(cache[i].uid)
-			    table.remove(cache,i)
+			    tremove(cache,i)
 			end
 		end
 
@@ -185,7 +185,7 @@ local function WoWProMapping_distance(event, uid, range, distance, lastdistance)
 		    WoWPro:dbp("Mapping(AA2): removing uid #%d %s.", iactual, tostring(cache[iactual].uid))
 			TomTom:RemoveWaypoint(cache[iactual].uid)
 			TomTom:SetCrazyArrow(cache[iactual-1].uid, TomTom.db.profile.arrow.arrival, cache[iactual-1].desc)
-			table.remove(cache)
+			tremove(cache)
 			for i=1,#cache,1 do
 				cache[i].j = cache[i].j - 1
 			end
@@ -350,8 +350,8 @@ function WoWPro.DistanceBetweenSteps(i,j)
     if WoWProCharDB.Guide[GID].skipped[i] and WoWProCharDB.Guide[GID].skipped[j] then return 0 end
     if WoWProCharDB.Guide[GID].completion[i] and WoWProCharDB.Guide[GID].skipped[j] then return 9e-5 end
     if WoWProCharDB.Guide[GID].skipped[i] and WoWProCharDB.Guide[GID].completion[j] then return 9e-5 end
-    local icoord = select(1, string.split(";", WoWPro.map[i]))
-    local jcoord = select(1, string.split(";", WoWPro.map[j]))
+    local icoord = select(1, (";"):split(WoWPro.map[i]))
+    local jcoord = select(1, (";"):split(WoWPro.map[j]))
     local ix = tonumber(icoord:match("([^|]*),"))/100
     local iy = tonumber(icoord:match(",([^|]*)"))/100
     local jx = tonumber(jcoord:match("([^|]*),"))/100
@@ -369,10 +369,10 @@ function WoWPro.DistanceToStep(i)
     local GID = WoWProDB.char.currentguide
     if WoWProCharDB.Guide[GID].completion[i] then return 1e-6 end
     if WoWProCharDB.Guide[GID].skipped[i] then return 1e-5 end
-    local icoord = select(1, string.split(";", WoWPro.map[i]))
+    local icoord = select(1, (";"):split(WoWPro.map[i]))
 --    WoWPro:Print("Step %d is at %s/%s",i,tostring(icoord),tostring(WoWPro.zone[i]))
-    local ix = select(1, string.split(",", icoord))
-    local iy = select(2, string.split(",", icoord))
+    local ix = select(1, (","):split(icoord))
+    local iy = select(2, (","):split(icoord))
     local im
     ix = tonumber(ix) / 100
     iy = tonumber(iy) / 100
@@ -390,9 +390,9 @@ end
 
 function WoWPro:ValidateMapCoords(guide,action,step,coords)
 	if coords then
-		local numcoords = select("#", string.split(";", coords))
+		local numcoords = select("#", (";"):split(coords))
 		for j=1,numcoords do
-			local jcoord = select(numcoords-j+1, string.split(";", coords))
+			local jcoord = select(numcoords-j+1, (";"):split(coords))
 			if not jcoord or jcoord == "" then
 				WoWPro:Error("Missing coordinate, %d/%d in guide %s, line [%s %s].",numcoords-j+1,numcoords,guide,action,step)
 				return
@@ -449,7 +449,7 @@ function WoWPro:MapPoint(row)
 	end
 	local desc = WoWPro.step[i]
 	local zone
-	zone = WoWPro.zone[i] or strtrim(string.match(WoWPro.Guides[GID].zone, "([^%(]+)"))
+	zone = WoWPro.zone[i] or WoWPro.Guides[GID].zone:match("([^%(]+)"):trim()
 	autoarrival = WoWPro.waypcomplete[i]
 
 	-- Loading Blizzard Coordinates for this objective, if coordinates aren't provided --
@@ -535,11 +535,11 @@ function WoWPro:MapPoint(row)
 
 		-- Parsing and mapping coordinates --
 		WoWPro:print("WoWPro:MapPoint1(%d,%s@%s=%s)",i,coords,tostring(zone),tostring(zm))
-		local numcoords = select("#", string.split(";", coords))
+		local numcoords = select("#", (";"):split(coords))
         FinalCoord = nil
 		for j=1,numcoords do
 			local waypoint = {}
-			local jcoord = select(numcoords-j+1, string.split(";", coords))
+			local jcoord = select(numcoords-j+1, (";"):split(coords))
 			local x = tonumber(jcoord:match("([^|]*),"))
 			local y = tonumber(jcoord:match(",([^|]*)"))
 			if not x or x > 100 or not y or y > 100 then
@@ -550,7 +550,7 @@ function WoWPro:MapPoint(row)
 				local uid
 				local title
 				if numcoords > 1 then
-				    title = string.format("%s: %d/%d",desc,numcoords-j+1,numcoords)
+				    title = ("%s: %d/%d"):format(desc, numcoords - j + 1, numcoords)
 				else
 				    title = desc
 				end
@@ -578,13 +578,13 @@ function WoWPro:MapPoint(row)
 				waypoint.desc = desc
 				waypoint.j = numcoords-j+1
 
-				table.insert(cache, waypoint)
+				tinsert(cache, waypoint)
 				FinalCoord = { x , y }
 			elseif Nx then
 				local uid
 				local title
 				if numcoords > 1 then
-				    title = string.format("%s: %d/%d",desc,numcoords-j+1,numcoords)
+				    title = ("%s: %d/%d"):format(desc, numcoords - j + 1, numcoords)
 				else
 				    title = desc
 				end
@@ -606,7 +606,7 @@ function WoWPro:MapPoint(row)
 				waypoint.desc = desc
 				waypoint.j = numcoords-j+1
 
-				table.insert(cache, waypoint)
+				tinsert(cache, waypoint)
 				FinalCoord = { x , y }
 			end
 		end
@@ -659,7 +659,7 @@ function WoWPro:RemoveMapPoint()
 		wipe(WoWProMapping_callbacks_tomtom.distance)
 	elseif Nx then
 		while cache[1] do
-		    local catch = table.remove(cache)
+		    local catch = tremove(cache)
 		    WoWPro:print("WoWPro:RemoveMapPoint Nx(%d:%.2f,%.2f@%s=%s)", 1, catch.x, catch.y, tostring(catch.zone), tostring(catch.map))
 		    Nx:TTRemoveWaypoint(catch.uid)
 		end
@@ -681,7 +681,7 @@ function  WoWPro.CheckHBDData(force)
         return
     end
     -- Hey!  No data!
-	WoWPro:print("You discovered new map %d info for %s:%s. Please report this on the WoWPro.com website.", mapId, _G.GetZoneText(), string.trim(_G.GetSubZoneText()))
+	WoWPro:print("You discovered new map %d info for %s:%s. Please report this on the WoWPro.com website.", mapId, _G.GetZoneText(), _G.GetSubZoneText():trim())
 end
 
 function WoWPro:LogLocation()

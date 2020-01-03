@@ -1,6 +1,6 @@
--- luacheck: globals tostring tonumber strsplit strtrim
--- luacheck: globals max min
--- luacheck: globals pairs select type
+-- luacheck: globals tostring tonumber
+-- luacheck: globals max min abs type
+-- luacheck: globals pairs select tinsert tremove
 
 -----------------------------
 --      WoWPro_Parser      --
@@ -111,9 +111,9 @@ function WoWPro.SkipStep(index, list_only)
 
 	if WoWPro.action[index] == "D" then return "" end -- No skipping this type
 	if WoWPro.QID[index] then
-	    local numqids = select("#", string.split("^&", WoWPro.QID[index]))
+	    local numqids = select("#", ("^&"):split(WoWPro.QID[index]))
 	    for k=1,numqids do
-	        local kqid = select(numqids-k+1, string.split("^&", WoWPro.QID[index]))
+	        local kqid = select(numqids-k+1, ("^&"):split(WoWPro.QID[index]))
 	        if tonumber(kqid) then
 	            if list_only then
 	                skippedQIDs[tonumber(kqid)] = true
@@ -167,9 +167,9 @@ function WoWPro.UnSkipStep(index)
 	local GID = WoWProDB.char.currentguide
 	WoWProCharDB.Guide[GID].completion[index] = nil
 	if WoWPro.QID[index] then
-		local numqids = select("#", string.split("^&", WoWPro.QID[index]))
+		local numqids = select("#", ("^&"):split(WoWPro.QID[index]))
 	    for k=1,numqids do
-	        local kqid = select(numqids-k+1, string.split("^&", WoWPro.QID[index]))
+	        local kqid = select(numqids-k+1, ("^&"):split(WoWPro.QID[index]))
 	        if tonumber(kqid) then
 	            WoWProCharDB.skippedQIDs[tonumber(kqid)] = nil
 	            WoWPro:dbp("UnSkipStep(): unskipping QID %s",kqid)
@@ -183,9 +183,9 @@ function WoWPro.UnSkipStep(index)
 
 	local function unskipstep(currentstep)
 		for j = 1,WoWPro.stepcount do if WoWPro.prereq[j] then
-			local numprereqs = select("#", string.split("^&", WoWPro.prereq[j]))
+			local numprereqs = select("#", ("^&"):split(WoWPro.prereq[j]))
 			for k=1,numprereqs do
-				local kprereq = select(numprereqs-k+1, string.split("^&", WoWPro.prereq[j]))
+				local kprereq = select(numprereqs-k+1, ("^&"):split(WoWPro.prereq[j]))
 				if tonumber(kprereq) and tonumber(kprereq) == WoWPro.QID[currentstep] then
 					if WoWPro.action[j] == "A"
 					or WoWPro.action[j] == "C"
@@ -211,7 +211,7 @@ local function DefineTag(action, key, vtype, validator, setter)
     if key then
         WoWPro.Tags[key]=action
         WoWPro[key] = {}
-        table.insert(WoWPro.TagList, action)
+        tinsert(WoWPro.TagList, action)
     end
 end
 
@@ -271,7 +271,7 @@ DefineTag("CHAT","chat","boolean",nil,nil)
 DefineTag("V","vehichle","boolean",nil,nil) -- Yeah, that is how blizzard spelled it!
 DefineTag("LVL","level","string",validate_old_list_of_ints,nil)
 DefineTag("T","target","string",nil,nil)
-DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = strupper(value) end)
+DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = value:upper() end)
 DefineTag("NOCACHE", "nocache","boolean",nil,nil)
 DefineTag("ELITE", "elite","boolean",nil,nil)
 
@@ -399,7 +399,7 @@ end
 function WoWPro.ParseQuestLine(faction, zone, i, text)
 	local GID = WoWProDB.char.currentguide
 
-	text = string.trim(text)
+	text = text:trim()
 	-- Printing anything with a | is dangerous.  Map it to a ¦
 	local atext = text:gsub("|", "¦")
 	if text == "" then
@@ -408,10 +408,10 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 	end
 
     -- Handle comment lines specially
-    if string.sub(text,1,1) == ";" then
+    if text:sub(1, 1) == ";" then
         if WoWPro.DebugLevel > 0 then
-            WoWPro.action[i] = string.sub(atext,1,1)
-            WoWPro.step[i] = string.sub(atext,2)
+            WoWPro.action[i] = atext:sub(1, 1)
+            WoWPro.step[i] = atext:sub(2)
             WoWPro.step[i] = WoWPro.step[i]:trim()
             return i
         end
@@ -419,29 +419,29 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     end
 
     -- Split the line up on the pipes
-    local tags = { strsplit("|", text) }
+    local tags = { ("|"):split(text) }
 
 	-- The first tag is is the Action followed by the Step name
 	local primo = tags[1]
-	if string.len(primo) < 3 then
+	if primo:len() < 3 then
 	    -- Too short to be valid
-	    WoWPro:Error("Line %d in guide %s has too short a preamble.  Only %d characters. '%s'",i,GID, string.len(primo), primo)
+	    WoWPro:Error("Line %d in guide %s has too short a preamble.  Only %d characters. '%s'", i, GID, primo:len(), primo)
 	    return nil
 	end
-	if string.sub(primo,2,2) ~= " " then
+	if primo:sub(2, 2) ~= " " then
 	    -- Second needs to be a blank
-	    WoWPro:Error("Line %d in guide %s must have a blank as the 2nd character: '%s' is not right.",i,GID, primo)
+	    WoWPro:Error("Line %d in guide %s must have a blank as the 2nd character: '%s' is not right.", i, GID, primo)
 	    return nil
 	end
 
     -- Now extract the action and step
-	WoWPro.action[i] = string.sub(primo,1,1)
-	WoWPro.step[i] = string.sub(primo,3)
+	WoWPro.action[i] = primo:sub(1, 1)
+	WoWPro.step[i] = primo:sub(3)
 	WoWPro.step[i] = WoWPro.step[i]:trim()
 
     -- Now make sure it is a valid action!
     if not WoWPro.actionlabels[WoWPro.action[i]] then
-	    WoWPro:Error("Line %d in guide %s has an invalid action: '%s'",i,GID,WoWPro.action[i])
+	    WoWPro:Error("Line %d in guide %s has an invalid action: '%s'", i, GID, WoWPro.action[i])
 	    return i
     end
 
@@ -534,7 +534,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
 		if (WoWPro.map[i] == "PLAYER") then
 			local x, y, z = WoWPro:GetPlayerZonePosition()
 			if (x  and y) then
-				WoWPro.map[i]= string.format("%.2f",x*100) .. ',' .. string.format("%.2f",y*100)
+				WoWPro.map[i]= ("%.2f"):format(x * 100) .. ',' .. ("%.2f"):format(y * 100)
 			else
 				WoWPro.map[i]= nil
 			end
@@ -648,7 +648,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     -- If the step is "Achievement" there is no note use the name and description from the server ...
     if WoWPro.ach[i] and not WoWPro.note[i] then
         WoWPro.note[i] = ""
-    	local achnum, achitem = string.split(";",WoWPro.ach[i])
+    	local achnum, achitem = (";"):split(WoWPro.ach[i])
     	local count = _G.GetAchievementNumCriteria(achnum)
     	local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = _G.GetAchievementInfo(achnum)
     	if WoWPro.step[i] == "Achievement" and count == 0 then
@@ -723,9 +723,9 @@ function WoWPro.RecordStuff(i)
     if WoWPro.action[i] == "!" and NPCs then
         -- NPC triggered QID
         -- ! Brutus/Ruckus|NPC|85561;85655|QID|85561.1|
-        local numNPCs = select("#", string.split(";", NPCs))
+        local numNPCs = select("#", (";"):split(NPCs))
     	for j=1,numNPCs do
-    		local npc = select(numNPCs-j+1, string.split(";", NPCs))
+    		local npc = select(numNPCs-j+1, (";"):split(NPCs))
     		local NPC = tonumber(npc)
     		if NPC then
     			WoWProDB.global.NpcFauxQuests[NPC] = {qid = tonumber(QIDs), title = WoWPro.step[i], guide = GID}
@@ -734,10 +734,10 @@ function WoWPro.RecordStuff(i)
         end
     else
         -- Regular quest declaration
-        local numQIDs = select("#", string.split("^&", QIDs))
+        local numQIDs = select("#", ("^&"):split(QIDs))
         if WoWPro.action[i] == "A" or WoWPro.action[i] == "C" or WoWPro.action[i] == "T" then
     	    for j=1,numQIDs do
-    		    local qid = select(numQIDs-j+1, string.split("^&", QIDs))
+    		    local qid = select(numQIDs-j+1, ("^&"):split(QIDs))
     		    local QID = tonumber(qid)
     		    if QID then
 --    		       WoWPro:Print("Recorded QID %s to GID %s",qid,GID)
@@ -749,14 +749,14 @@ function WoWPro.RecordStuff(i)
 end
 
 function WoWPro.SemiMatch(big,little)
-	local possible = select("#", string.split(",", big))
+	local possible = select("#", (","):split(big))
 	local lmatch = false;
 	for j=1,possible do
-		local jpossible = select(possible-j+1, string.split(",", big))
+		local jpossible = select(possible-j+1, (","):split(big))
 		local flip
-		if string.sub(jpossible,1,1) == "-" then
+		if jpossible:sub(1, 1) == "-" then
 		    flip = true
-		    jpossible = string.sub(jpossible,2)
+		    jpossible = jpossible:sub(2)
 		else
 		    flip = false
 		end
@@ -782,8 +782,8 @@ function WoWPro.ParseSteps(steps)
 	local i = 2  -- Leave room the the L step
 	local myclassL, myclass = _G.UnitClass("player")
 	local myraceL, myrace = _G.UnitRace("player")
-	local myFaction = strupper(_G.UnitFactionGroup("player"))
-	local zone = strtrim(string.match(WoWPro.Guides[GID].zone or "", "([^%(]+)"))
+	local myFaction = _G.UnitFactionGroup("player"):upper()
+	local zone = (WoWPro.Guides[GID].zone or ""):match("([^%(]+)"):trim()
 
     if WoWPro.Recorder then
         i = 1 -- No extra steps for recorder guides
@@ -797,7 +797,7 @@ function WoWPro.ParseSteps(steps)
 	    WoWPro.Guides[GID].acnt_level = 0
 	    WoWPro.Guides[GID].asum_level = 0
 	end
-	for j=1,#steps do
+	for j = 1, #steps do
 		local text = steps[j]
 		text = text:trim()
 		if text ~= "" then
@@ -805,15 +805,15 @@ function WoWPro.ParseSteps(steps)
 			local gender, faction = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?")
 			if class then
 				-- deleting whitespaces and capitalizing, to compare with Blizzard's class tokens
-				class = strupper(string.gsub(class, " ", ""))
+				class = class:gsub(" ", ""):upper()
 			end
 			if race then
 				-- deleting whitespaces to compare with Blizzard's race tokens
-				race = string.gsub(race, " ", "")
+				race = race:gsub(" ", "")
 			end
 			if gender then
 				-- deleting leading/trailing whitespace and then canonicalize the case
-				gender=strupper(strtrim(gender))
+				gender = gender:trim():upper()
 				-- map the text to the gender code
 				if gender == "FEMALE" then
 					gender = 3
@@ -825,7 +825,7 @@ function WoWPro.ParseSteps(steps)
 			end
 			if faction then
 				-- deleting leading/trailing whitespace and then canonicalize the case
-				faction=strupper(strtrim(faction))
+				faction = faction:trim():upper()
             end
 			if (class == nil or WoWPro.SemiMatch(class, myclass)) and
 			   (race == nil or WoWPro.SemiMatch(race, myrace))  and
@@ -838,13 +838,13 @@ function WoWPro.ParseSteps(steps)
 			end
 		end
 	end
-	local last_i = i -1
+	local last_i = i - 1
 
 	-- OK, now add a standard L step at the start of every guide
 	local init,min_level
 	if not WoWPro.Recorder then
     	min_level = WoWPro.Guides[GID].startlevel or 1
-    	init = string.format("L Level %d|LVL|%d|N|You need to be level %d to start this guide.|",min_level,min_level,min_level)
+    	init = ("L Level %d|LVL|%d|N|You need to be level %d to start this guide.|"):format(min_level, min_level, min_level)
     	WoWPro.ParseQuestLine(myFaction, zone, 1, init)
 	end
 
@@ -853,9 +853,9 @@ function WoWPro.ParseSteps(steps)
     if not  WoWPro.Recorder and WoWPro.action[last_i] ~= "D" then
     	nguide = WoWPro:NextGuide(GID)
     	if nguide then
-    	    fini = string.format("D Onwards|N|This ends %s. %s is next.|GUIDE|%s|",WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide), nguide)
+    	    fini = ("D Onwards|N|This ends %s. %s is next.|GUIDE|%s|"):format(WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide), nguide)
     	else
-    	    fini = string.format("D Fini|N|This ends %s. There is no next guide, so you can pick the next from the control panel.|",WoWPro:GetGuideName(GID))
+    	    fini = ("D Fini|N|This ends %s. There is no next guide, so you can pick the next from the control panel.|"):format(WoWPro:GetGuideName(GID))
     	end
     	WoWPro.ParseQuestLine(myFaction, zone, i, fini)
         WoWPro.stepcount = i
@@ -876,7 +876,7 @@ function WoWPro.ParseSteps(steps)
         	if not WoWPro.Guides[GID].level and WoWPro.Guides[GID].acnt_level > 1 then
         	    WoWPro:Warning("Guide %s %d/%d meanlevel=%g",GID, WoWPro.Guides[GID].asum_level , WoWPro.Guides[GID].acnt_level, amean_level)
         	end
-        	if WoWPro.Guides[GID].level and WoWPro.Guides[GID].acnt_level > 1 and math.abs(WoWPro.Guides[GID].level-amean_level) > 0.001 then
+        	if WoWPro.Guides[GID].level and WoWPro.Guides[GID].acnt_level > 1 and abs(WoWPro.Guides[GID].level-amean_level) > 0.001 then
         	    WoWPro:Warning("Guide %s level= %g but meanlevel=%g",GID, WoWPro.Guides[GID].level, amean_level)
         	end
         end
@@ -912,7 +912,7 @@ function WoWPro.LoadGuideStepsReal()
 	    WoWPro:Error("Guide %s sequence function returned nothing!",GID,sequence)
 	    return
 	end
-	local steps = { string.split("\n", sequence ) }
+	local steps = { ("\n"):split(sequence) }
 
     WoWProCharDB.Guide[GID].done = false
 	WoWPro.ParseSteps(steps)
@@ -940,12 +940,12 @@ end
 -- Push the guide on to the list of active guides
 function WoWPro:PushCurrentGuide(GID)
     local guideType = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
-    table.insert(WoWProCharDB.GuideStack,GID)
+    tinsert(WoWProCharDB.GuideStack,GID)
     local index = #WoWProCharDB.GuideStack - 1
     -- Remove any duplicates
     while (index > 0) do
         if WoWProCharDB.GuideStack[index] == GID then
-            table.remove(WoWProCharDB.GuideStack,index)
+            tremove(WoWProCharDB.GuideStack,index)
         end
         index = index - 1
     end
@@ -956,11 +956,11 @@ function WoWPro:PopCurrentGuide(current, pop)
     -- Get rid of the current guide
     for idx = 1, #WoWProCharDB.GuideStack do
         while WoWProCharDB.GuideStack[idx] == current do
-            table.remove(WoWProCharDB.GuideStack,idx)
+            tremove(WoWProCharDB.GuideStack,idx)
         end
     end
     if pop then
-        return table.remove(WoWProCharDB.GuideStack)
+        return tremove(WoWProCharDB.GuideStack)
     else
         return WoWProCharDB.GuideStack[#WoWProCharDB.GuideStack]
     end
@@ -1006,7 +1006,7 @@ function WoWPro.SetupGuideReal()
     WoWPro.AutoCompleteZone()
 
 	-- Scrollbar Settings --
-	WoWPro.Scrollbar:SetMinMaxValues(1, math.max(1, WoWPro.stepcount - WoWPro.ShownRows))
+	WoWPro.Scrollbar:SetMinMaxValues(1, max(1, WoWPro.stepcount - WoWPro.ShownRows))
 
 	WoWPro.GuideLoaded = true
 	WoWPro:AutoCompleteQuestUpdate(nil)

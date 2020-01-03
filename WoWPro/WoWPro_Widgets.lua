@@ -214,7 +214,7 @@ function WoWPro:CreateLootsButton(parent, id)
             return name
         else
             self.lootsicon:SetTexture("Interface\\ICONS\\INV_Misc_QuestionMark")
-            return string.format("Unknown item [%s]",tostring(ID))        
+            return ("Unknown item [%s]"):format(tostring(ID))        
         end
     end
 	

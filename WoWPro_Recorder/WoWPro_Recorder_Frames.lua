@@ -1,6 +1,6 @@
 -- luacheck: globals WoWPro_RecorderDB
--- luacheck: globals ipairs pairs
--- luacheck: globals tostring tonumber strjoin
+-- luacheck: globals ipairs pairs tinsert
+-- luacheck: globals tostring tonumber
 
 ------------------------------------------
 --      WoWPro.Recorder_Frames.lua      --
@@ -139,7 +139,7 @@ local function CreateButton(name, texture, anchor)
 	button:SetSize(20,20)
 	button:SetPoint("LEFT", anchor, "RIGHT", 0, 0)
 	button:SetNormalTexture(texture)
---    button:SetText(name:sub(1,1))
+    -- button:SetText(name:sub(1,1))
 	return button
 end
 
@@ -182,7 +182,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 
 	-- RecordButton --
 	local function CreateRecordButton()
-	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Record.tga"
+		-- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Record.tga"
 		WoWPro.RecordButton = CreateButton("Record", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Record.tga", WoWPro.RecordText)
 		-- Scripts --
 		WoWPro.RecordButton:SetScript("OnMouseUp", function(self, button)
@@ -289,7 +289,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 							action = "r",
 							step = "Repair/Restock",
 							QID = WoWPro.Recorder.lastStep,
-							map = string.format("%.2f,%.2f", x*100,y*100),
+							map = ("%.2f,%.2f"):format(x * 100, y * 100),
 							zone = zonetag,
 							note = note,
 							waycomplete = 1,
@@ -324,7 +324,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 					values = function()
 						local questList = {}
 						for QID, info in pairs(WoWPro.QuestLog) do
-							table.insert(questList, QID, info.title)
+							tinsert(questList, QID, info.title)
 						end
 						return questList
 					end,
@@ -481,7 +481,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						if WoWPro.Recorder.QIDtoAdd and WoWPro.QuestLog[WoWPro.Recorder.QIDtoAdd].leaderBoard then
 							local text = ""
 							for i,objective in pairs(WoWPro.QuestLog[WoWPro.Recorder.QIDtoAdd].leaderBoard) do
-								if i== 1 then text = objective else text = strjoin(";",text,objective) end
+								if i== 1 then text = objective else text = (";"):join(text, objective) end
 							end
 							WoWPro.Recorder.stepInfo.questtext = text
 							return text
@@ -969,7 +969,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                         	end
                             local mapxy = nil
                             if x and y then
-                                mapxy = string.format("%.2f,%.2f", x*100,y*100)
+                                mapxy = ("%.2f,%.2f"):format(x * 100, y * 100)
                             end
                             WoWPro.map[WoWPro.Recorder.SelectedStep] = mapxy
                             WoWPro.zone[WoWPro.Recorder.SelectedStep] = zonetag

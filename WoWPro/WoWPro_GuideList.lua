@@ -1,6 +1,5 @@
--- luacheck: globals ipairs pairs unpack type
--- luacheck: globals tostring
--- luacheck: globals max floor
+-- luacheck: globals ipairs pairs tinsert unpack
+-- luacheck: globals tostring type max floor
 
 ---------------------------------
 --      WoWPro_Guide_List      --
@@ -44,7 +43,7 @@ function WoWPro.CreateGuideList()
     			WoWPro.ActivateTab(name)
     		end) 
     		prev = tabs[name]
-    		table.insert(tabhashtable,name)
+    		tinsert(tabhashtable,name)
     		maxFormatItems = max(maxFormatItems, #(WoWPro[name].GuideList.Format))
 		end
 	end
@@ -351,7 +350,7 @@ function WoWPro:CreateGuideTabFrame_Rows(frame)
     
 	local prevrow
 	for i,iGuide in ipairs(self.GuideList.Guides) do
-		local row = _G.CreateFrame("CheckButton", string.format("%s_Guide_Row%d",self.name,i), frame)
+		local row = _G.CreateFrame("CheckButton", ("%s_Guide_Row%d"):format(self.name, i), frame)
 		
 		if WoWPro[iGuide.guide.guidetype].GuideTooltipInfo then
 		    row:SetScript("OnEnter", function(self)      

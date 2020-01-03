@@ -1,6 +1,5 @@
 -- luacheck: globals ipairs unpack
--- luacheck: globals strtrim
--- luacheck: globals ceil max
+-- luacheck: globals ceil max floor
 
 ---------------------------------
 --      WoWPro_Frames.lua      --
@@ -557,7 +556,7 @@ function WoWPro:CreateGuideWindowScrollbar()
 	local f = WoWPro.Scrollbar:GetScript("OnValueChanged")
 	local oldOffset = 0
 	WoWPro.Scrollbar:SetScript("OnValueChanged", function(self, value, ...)
-		local offset = math.floor(value)
+		local offset = floor(value)
 		if not WoWProDB.profile.guidescroll then return end
 		if offset ~= oldOffset then
 			oldOffset = offset
@@ -731,7 +730,7 @@ function WoWPro:CreateSkipStepsDialog()
 
 	function WoWPro:SkipStepDialogCall(index, steplist, checkbox)
 		WoWPro.SkipStepsDialogText:SetText("Skipping the step "..WoWPro.step[index].." will also cause the following steps to skip: \n\n"
-			..strtrim(steplist))
+			..steplist:trim())
 		WoWPro.SkipStepsDialog:SetHeight(120+WoWPro.SkipStepsDialogText:GetHeight())
 		WoWPro.SkipStepsOkayButton:SetScript("OnClick", function(self, button)
 			WoWPro.SkipStepsDialog:Hide()

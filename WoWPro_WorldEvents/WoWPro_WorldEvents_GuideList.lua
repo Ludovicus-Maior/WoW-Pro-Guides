@@ -1,4 +1,4 @@
--- luacheck: globals pairs
+-- luacheck: globals tinsert sort pairs
 
 ---------------------------------------------
 --      WoWPro_WorldEvents_GuideList.lua      --
@@ -35,7 +35,7 @@ local function Init()
     	    return ""
     	end
     	AddInfo(guide)
-      	table.insert(guides, {
+      	tinsert(guides, {
       		GID = guidID,
     		Zone = guide.zone,
     		guide = guide,
@@ -46,7 +46,7 @@ local function Init()
       	})
       	end
       end
-    table.sort(guides, function(a,b) return a.Name < b.Name end)
+    sort(guides, function(a,b) return a.Name < b.Name end)
     WoWPro.WorldEvents.GuideList.Guides = guides  
 end
 
@@ -54,33 +54,33 @@ end
 local sorttype = "Default"
 local function authorSort()
 	if sorttype == "AuthorAsc" then
-		table.sort(guides, function(a,b) return a.Author > b.Author end)
+		sort(guides, function(a,b) return a.Author > b.Author end)
 		WoWPro.WorldEvents:UpdateGuideList()
 		sorttype = "AuthorDesc"
 	else
-		table.sort(guides, function(a,b) return a.Author < b.Author end)
+		sort(guides, function(a,b) return a.Author < b.Author end)
 		WoWPro.WorldEvents:UpdateGuideList()
 		sorttype = "AuthorAsc"
   	end
 end
 local function nameSort()
 	if sorttype == "NameAsc" then
-		table.sort(guides, function(a,b) return a.Name > b.Name end)
+		sort(guides, function(a,b) return a.Name > b.Name end)
 		WoWPro.WorldEvents:UpdateGuideList()
 		sorttype = "NameDesc"
 	else
-		table.sort(guides, function(a,b) return a.Name < b.Name end)
+		sort(guides, function(a,b) return a.Name < b.Name end)
 		WoWPro.WorldEvents:UpdateGuideList()
 		sorttype = "NameAsc"
   	end
 end
 local function categorySort()
 	if sorttype == "CategoryAsc" then
-		table.sort(guides, function(a,b) return a.Category > b.Category end)
+		sort(guides, function(a,b) return a.Category > b.Category end)
 		WoWPro.WorldEvents:UpdateGuideList()
 		sorttype = "CategoryDesc"
 	else
-		table.sort(guides, function(a,b) return a.Category < b.Category end)
+		sort(guides, function(a,b) return a.Category < b.Category end)
 		WoWPro.WorldEvents:UpdateGuideList()
 		sorttype = "CategoryAsc"
 	end
@@ -89,13 +89,13 @@ end
 -- Fancy tooltip!
 function WoWPro.WorldEvents.GuideTooltipInfo(row, tooltip, guide)
     WoWPro:ResolveIcon(guide)
-    _G.GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
-    _G.GameTooltip:AddLine(guide.name)
+    tooltip:SetOwner(row, "ANCHOR_TOPLEFT")
+    tooltip:AddLine(guide.name)
     if guide.icon then
-        _G.GameTooltip:AddTexture(guide.icon,1,1,1,1)
-        _G.GameTooltip:AddLine(guide.icon)
+        tooltip:AddTexture(guide.icon,1,1,1,1)
+        tooltip:AddLine(guide.icon)
     else
-        _G.GameTooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
+        tooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
     end
 end
   

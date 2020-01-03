@@ -1,5 +1,6 @@
 -- luacheck: globals WoWPro_RecorderDB
--- luacheck: globals ipairs pairs tonumber tostring type
+-- luacheck: globals table ipairs pairs tinsert
+-- luacheck: globals tonumber tostring type
 
 -----------------------------------
 --      WoWPro.Recorder.lua      --
@@ -79,8 +80,9 @@ return [[
 end
 
 local function checkClassQuest(QID, questTable)
-	if _G.UnitClass("player") == questTable[QID].header then 
-		return _G.UnitClass("player")
+    local className = _G.UnitClass("player")
+	if className == questTable[QID].header then 
+		return className
 	else
 		return nil
 	end
@@ -99,9 +101,10 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 	end
     local mapxy = nil
     if x and y then
-        mapxy = string.format("%.2f,%.2f", x*100,y*100)
+        mapxy = ("%.2f,%.2f"):format(x * 100, y * 100)
     end
 
+    local targetName = _G.GetUnitName("target")
 	if event == "CHAT_MSG_SYSTEM" then
 		WoWPro.Recorder:dbp("CHAT_MSG_SYSTEM detected.")
 		local msg = ...
@@ -114,7 +117,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 				map = mapxy,
 				zone = zonetag
 			}
-			if _G.GetUnitName("target") then stepInfo.note = "At ".._G.GetUnitName("target").."." end
+			if targetName then stepInfo.note = "At "..targetName.."." end
 			WoWPro.Recorder:dbp("Adding hearth location "..loc)
 			WoWPro.Recorder.AddStep(stepInfo)
 		end
@@ -145,7 +148,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 				map = mapxy,
 				zone = zonetag
 			}
-			if _G.GetUnitName("target") then stepInfo.note = "At ".._G.GetUnitName("target").."." end
+			if targetName then stepInfo.note = "At "..targetName.."." end
 			WoWPro.Recorder:dbp("Adding get FP ".._G.GetSubZoneText() or _G.GetZoneText())
 			WoWPro.Recorder.AddStep(stepInfo)
 		    WoWPro:AutoCompleteGetFP(event, ...)
@@ -165,7 +168,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 				zone = zonetag,
 				class = checkClassQuest(WoWPro.newQuest,WoWPro.QuestLog)
 			}
-			if _G.GetUnitName("target") then stepInfo.note = "From ".._G.GetUnitName("target").."." end
+			if targetName then stepInfo.note = "From "..targetName.."." end
 			WoWPro.Recorder.lastStep = WoWPro.newQuest
 			WoWPro.Recorder:dbp("Adding new quest "..WoWPro.newQuest)
 			WoWPro.Recorder.AddStep(stepInfo)
@@ -181,7 +184,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 				zone = zonetag,
 				class = checkClassQuest(WoWPro.missingQuest,WoWPro.oldQuests)
 			}
-			if _G.GetUnitName("target") then stepInfo.note = "To ".._G.GetUnitName("target").."." end
+			if targetName then stepInfo.note = "To "..targetName.."." end
 			WoWPro.Recorder:dbp("Turning in quest "..stepInfo.QID)
 			WoWPro.Recorder.AddStep(stepInfo)
 			WoWPro:AutoCompleteQuestUpdate()
@@ -338,10 +341,10 @@ function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
                         step = scenario.Criteria[criteriaIndex].criteriaString,
                         zone = zonetag,
                         note = scenario.Criteria[criteriaIndex].criteriaString,
-                        sobjective = string.format("%d;%d", scenario.currentStage, criteriaIndex),
+                        sobjective = ("%d;%d"):format(scenario.currentStage, criteriaIndex),
                     }
                     if x and y then
-                        stepInfo.map = string.format("%.2f,%.2f", x*100,y*100)
+                        stepInfo.map = ("%.2f,%.2f"):format(x * 100, y * 100)
                     end
                     WoWPro.Recorder:Print("Completed criteria: %s", stepInfo.step)
                     WoWPro.Recorder.AddStep(stepInfo)
@@ -358,10 +361,10 @@ function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
                            step = old_scenario.Criteria[criteriaIndex].criteriaString,
                            zone = zonetag,
                            note = old_scenario.Criteria[criteriaIndex].criteriaString,
-                           sobjective = string.format("%d;%d", old_scenario.currentStage, criteriaIndex),
+                           sobjective = ("%d;%d"):format(old_scenario.currentStage, criteriaIndex),
                     }
                     if x and y then
-                        stepInfo.map = string.format("%.2f,%.2f", x*100,y*100)
+                        stepInfo.map = ("%.2f,%.2f"):format(x * 100, y * 100)
                     end
                     WoWPro.Recorder:Print("Assuming Completed criteria: %s", stepInfo.step)
                     WoWPro.Recorder.AddStep(stepInfo)
@@ -435,7 +438,7 @@ function WoWPro.Recorder:RowUpdate(offset)
 				local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
 				for key,tag in pairs(WoWPro.Tags) do
 					if not WoWPro[key][pos] then WoWPro[key][pos] = false end
-					table.insert(WoWPro[key], pos+1, WoWPro[key][pos])
+					tinsert(WoWPro[key], pos+1, WoWPro[key][pos])
 				end
 				WoWPro.stepcount = WoWPro.stepcount+1
 			    WoWPro.Recorder:CheckpointCurrentGuide("Clone")
@@ -480,7 +483,7 @@ function WoWPro.Recorder.AddStep(stepInfo,position)
 	for key,tag in pairs(WoWPro.Tags) do
 		local value = stepInfo[key]
 		if not value then value = false end
-		table.insert(WoWPro[key], pos+1, value)
+		tinsert(WoWPro[key], pos+1, value)
 --		WoWPro.Recorder:dbp("Adding key "..key.." at position "..pos+1)
 	end
 	WoWPro.stepcount = WoWPro.stepcount+1
@@ -554,7 +557,7 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
 
 	for i,action in pairs(WoWPro.action) do
 	    local line = WoWPro.EmitStep(i)
-		table.insert(sequence,line)
+		tinsert(sequence,line)
 	end
 
 	local sequence_string = table.concat(sequence,"\n")

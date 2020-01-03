@@ -1,4 +1,4 @@
--- luacheck: globals select tonumber tostring type
+-- luacheck: globals select tonumber tostring type max
 
 --------------------------------------
 --      WoWPro_Profession_Parser      --
@@ -30,13 +30,13 @@ function WoWPro.Profession:ParseQuestLine(text,k)
     end
     WoWPro.mat[k] = WoWPro.note[k]
     -- Verify the mat line
-    local numMATs = select("#", string.split(":", WoWPro.mat[k]))
+    local numMATs = select("#", (":"):split(WoWPro.mat[k]))
     local m = {}
-    m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = string.split(":",WoWPro.mat[k])
+    m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = (":"):split(WoWPro.mat[k])
     for j=1,tonumber(numMATs) do
-        local numItem = select("#", string.split(";", m[j]))
+        local numItem = select("#", (";"):split(m[j]))
 		if numItem > 1 then
-			local Qty, Item, Mats, Tot = string.split(";",m[j])
+			local Qty, Item, Mats, Tot = (";"):split(m[j])
 			if tonumber(Qty) == nil or type(Item) ~= "string" or tonumber(Mats) == nil or tonumber(Tot) == nil then
 			    WoWPro.Profession:Error("Line [%s] tag N malformed at [%s]",text,m[j]) 
 			end									
@@ -55,7 +55,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 
 	-- Break down the current step and re-create
 	if prof then
-		local profname, profnum, proflvl, profmaxlvl, profmaxskill = string.split(";",prof)
+		local profname, profnum, proflvl, profmaxlvl, profmaxskill = (";"):split(prof)
 		if proflvl == '*' then proflvl = 801 end -- Set to the maximum level obtainable in the expansion plus 1
 		proflvl = tonumber(proflvl) or 1
 		profmaxlvl = tonumber(profmaxlvl) or 0
@@ -68,20 +68,20 @@ function WoWPro.Profession:PreRowUpdate(row)
 					local skillName, skillLoc, skillRank, maxskill, _, _, skillnum, rankModifier = _G.GetProfessionInfo(profs[p])
 					if (tonumber(skillnum) == tonumber(profnum)) then
 					    if WoWPro.action[k] == "M" then
-							proflvl = math.max(proflvl-rankModifier,1)
-							profmaxlvl = math.max(profmaxlvl-rankModifier,1)
+							proflvl = max(proflvl-rankModifier,1)
+							profmaxlvl = max(profmaxlvl-rankModifier,1)
 						end
-						local craft, skill = string.split(":",step)
+						local craft, skill = (":"):split(step)
 						row.targeticon:SetTexture(skillLoc)
 						-- How take racial bonuses into account using rankModifier
-						local numMATs = select("#", string.split(":", mat))
+						local numMATs = select("#", (":"):split(mat))
 						local m = {}
-						m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = string.split(":",mat)
+						m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = (":"):split(mat)
 						WoWPro.note[k] = 'Materials: '
 						for j=1,tonumber(numMATs) do
-							local numItem = select("#", string.split(";", m[j]))
+							local numItem = select("#", (";"):split(m[j]))
 							if numItem > 1 then
-								local Qty, Item, Mats, Tot = string.split(";",m[j])
+								local Qty, Item, Mats, Tot = (";"):split(m[j])
 								if tonumber(Qty) == nil or type(Item) ~= "string" or tonumber(Mats) == nil or tonumber(Tot) == nil then
 								    WoWPro.Profession:Error("N step %s tag N for [%s] malformed at [%s]",step, mat,m[j]) 
 								end
@@ -112,13 +112,13 @@ function WoWPro.Profession:RowUpdateTarget(row)
 	local mat = WoWPro.mat[k]
 	local target = WoWPro.target[k]
 	
-	local target, spell, amt = string.split(";",target)
+	local target, spell, amt = (";"):split(target)
 	spell = tonumber(spell) or 0
 	amt = tonumber(amt) or 1
 
 	row.targetbutton:Show() 
 	if spell == 1 then
-		local prof, proflvl, profmaxlvl, profmaxskill = string.split(";",WoWPro.prof[k])
+		local prof, proflvl, profmaxlvl, profmaxskill = (";"):split(WoWPro.prof[k])
 		row.targetbutton:SetAttribute("macrotext", "/run CloseTradeSkill()\n/Cast "..prof.."\n/run for i=1,GetNumTradeSkills() do local na,_,n,_,_,p=GetTradeSkillInfo(i)if na=='"..target.."' then DoTradeSkill(i,'"..amt.."') end end ")
 	else
 		row.targetbutton:SetAttribute("macrotext", "/cleartarget\n/targetexact "..target

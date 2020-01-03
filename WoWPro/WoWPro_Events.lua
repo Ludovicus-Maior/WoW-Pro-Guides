@@ -1,4 +1,4 @@
--- luacheck: globals tostring tonumber strtrim
+-- luacheck: globals tostring tonumber
 -- luacheck: globals select ipairs
 
 --------------------------
@@ -31,7 +31,7 @@ function WoWPro:RecordTaxiLocations(...)
     for i = 1, _G.NumTaxiNodes() do
         local nomen = _G.TaxiNodeName(i)
         local typo = _G.TaxiNodeGetType(i)
-        local location,zone = string.split(",",nomen)
+        local location,zone = (","):split(nomen)
         if (typo ~= "NONE" and typo ~= "DISTANT") and not WoWProCharDB.Taxi[location] then
             WoWProCharDB.Taxi[location] = true
             WoWPro:Print("Discovered Flight Point: [%s]",location )
@@ -51,9 +51,9 @@ end
 function WoWPro.TakeTaxiClassic(destination)
     for i = 1, _G.NumTaxiNodes() do
         local nomen = _G.TaxiNodeName(i)
-        local location,zone = string.split(",",nomen)
+        local location,zone = (","):split(nomen)
         WoWPro:dbp("TakeTaxiClassic(%d): Location=%s, zone=%s", i, location, zone)
-        if strfind(location, destination,1,true) or (nomen == destination) then
+        if location:find(destination, 1, true) or (nomen == destination) then
             WoWPro:Print("Taking flight to: [%s]",location)
             if _G.IsMounted() then
                 _G.Dismount()
@@ -82,9 +82,9 @@ function WoWPro.TakeTaxiRetail(destination)
     local taxiNodes = _G.C_TaxiMap.GetAllTaxiNodes(mapId)
     for i, taxiNodeData in ipairs(taxiNodes) do
         -- nodeID=1613, slotIndex=1, type=3, x=0.34, y=0.53, name="Azurewing Repose, Azuna"
-        local location,zone = string.split(",", taxiNodeData.name)
+        local location,zone = (","):split(taxiNodeData.name)
         WoWPro:dbp("TakeTaxiRetail(%d): Location=%s, zone=%s", taxiNodeData.slotIndex, tostring(location), tostring(zone))
-        if strfind(location, destination,1,true) or (taxiNodeData.name == destination) then
+        if location:find(destination, 1, true) or (taxiNodeData.name == destination) then
             if taxiNodeData.state ~= _G.Enum.FlightPathState.Reachable then
                 WoWPro:Warning("Flight point [%s] is not reachable (%d)", location, taxiNodeData.state)
                 return
@@ -117,7 +117,7 @@ function WoWPro:AutoCompleteGetFP(...)
     if msg == _G.ERR_NEWTAXIPATH then
          for i = 1,15 do
              local index = WoWPro.rows[i].index
-             local msg = string.format("AutoCompleteGetFP(%s): Step %s/%d [%s]?", msg, tostring(WoWPro.action[index]), index, tostring(WoWPro.step[index]))
+             local msg = ("AutoCompleteGetFP(%s): Step %s/%d [%s]?"):format(msg, tostring(WoWPro.action[index]), index, tostring(WoWPro.step[index]))
              WoWPro:dbp(msg)
              if WoWPro.rows[i]:IsVisible() and WoWPro.action[index] == "f" then
                 if not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
@@ -141,7 +141,7 @@ function WoWPro:CheckPlayerForBuffs(buffs)
         if BuffIndex > 1 then
             BuffString = BuffString .. ","
         end
-        BuffString = BuffString .. string.format("%s(%d)", BuffName, BuffSpellId)
+        BuffString = BuffString .. ("%s(%d)"):format(BuffName, BuffSpellId)
         BuffIndex = BuffIndex + 1
         BuffName, _, _, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,"HARMFUL|HELPFUL")
 	end
@@ -200,7 +200,7 @@ function WoWPro.AutoCompleteLoot()
     		if tonumber(WoWPro.lootqty[index]) ~= nil then lootqtyi = tonumber(WoWPro.lootqty[index]) else lootqtyi = 1 end
     		if WoWProDB.profile.track then
     			local track = WoWPro.GetLootTrackingInfo(WoWPro.lootitem[index],lootqtyi)
-    			WoWPro.rows[i].track:SetText(strtrim(track))
+    			WoWPro.rows[i].track:SetText(track:trim())
     			WoWPro:dbp("AutoCompleteLoot: Update tracking text to %s",track)
     		end
     		local itemCount = _G.GetItemCount(WoWPro.lootitem[index])
@@ -252,9 +252,9 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 		local completion = WoWProCharDB.Guide[GID].completion[i]
 
 		if WoWPro.QID[i] then
-			local numQIDs = select("#", string.split("^&", WoWPro.QID[i]))
+			local numQIDs = select("#", ("^&"):split(WoWPro.QID[i]))
 			for j=1,numQIDs do
-				local QID = select(numQIDs-j+1, string.split("^&", WoWPro.QID[i]))
+				local QID = select(numQIDs-j+1, ("^&"):split(WoWPro.QID[i]))
 				if not tonumber(QID) then
 				    WoWPro:Error("Bad QID [%s] in Guide %s", WoWPro.QID[i], GID)
 				    return
@@ -296,10 +296,10 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 		        -- Partial Completion --
 		        if WoWPro.QuestLog[QID] and WoWPro.QuestLog[QID].leaderBoard and WoWPro.questtext[i] 
 		        and not WoWProCharDB.Guide[GID].completion[i] then 
-			        local numquesttext = select("#", string.split(";", WoWPro.questtext[i]))
+			        local numquesttext = select("#", (";"):split(WoWPro.questtext[i]))
 			        local complete = true
 			        for l=1,numquesttext do
-				        local lquesttext = select(numquesttext-l+1, string.split(";", WoWPro.questtext[i]))
+				        local lquesttext = select(numquesttext-l+1, (";"):split(WoWPro.questtext[i]))
 				        local lcomplete = false
 				        if WoWPro.ValidObjective(lquesttext) then
 				            lcomplete = WoWPro.QuestObjectiveStatus(QID, lquesttext)
@@ -347,7 +347,7 @@ function WoWPro.AutoCompleteZone()
 	local action = WoWPro.action[currentindex] or "?"
 	local step = WoWPro.step[currentindex] or "?"
 	local targetzone = WoWPro.targetzone[currentindex] or "!"
-	local zonetext, subzonetext = _G.GetZoneText(), string.trim(_G.GetSubZoneText())
+	local zonetext, subzonetext = _G.GetZoneText(), _G.GetSubZoneText():trim()
 	WoWPro:dbp("AutoCompleteZone: [%s] or [%s] .vs. %s [%s]/[%s]", zonetext, subzonetext, action, step, targetzone)
 	if action == "F" or action == "H" or action == "b" or action == "P" or action == "R" then
 		if not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[currentindex] then
@@ -662,7 +662,7 @@ WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function (event,...)
     end)
 
 function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
-    WoWPro.GossipText = strupper(_G.GetGossipText())
+    WoWPro.GossipText = _G.GetGossipText():upper()
     WoWPro:print("GetGossipText: %s",WoWPro.GossipText)
 
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index

@@ -1,4 +1,5 @@
 -- luacheck: globals Grail
+-- luacheck: globals tinsert
 
 --------------------------------------
 --      WoWPro_Leveling_Config      --
@@ -71,13 +72,13 @@ end
 function WoWPro.Leveling:CreateConfig()
 	createBlizzOptions()
 	
-	table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
-	table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Leveling", isTitle = true} )
-	table.insert(WoWPro.DropdownMenu, {text = "About", func = function() 
+	tinsert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
+	tinsert(WoWPro.DropdownMenu, {text = "WoW-Pro Leveling", isTitle = true} )
+	tinsert(WoWPro.DropdownMenu, {text = "About", func = function() 
 		_G.InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling") 
 	end} )
 
 	if Grail then
-	    table.insert(WoWPro.DropdownMenu, {text = "Quest Picker", func = WoWPro.PickQuestline } )
+	    tinsert(WoWPro.DropdownMenu, {text = "Quest Picker", func = WoWPro.PickQuestline } )
 	end	
 end

@@ -1,4 +1,4 @@
--- luacheck: globals WoWPro_Locale setmetatable
+-- luacheck: globals setmetatable
 
 ---------------------------------------
 --      WoWPro_Localization.lua      --

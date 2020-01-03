@@ -1,4 +1,4 @@
--- luacheck: globals pairs unpack
+-- luacheck: globals tinsert sort pairs unpack
 
 ---------------------------------------------
 --      WoWPro_Profession_GuideList.lua      --
@@ -16,7 +16,7 @@ for guidID,guide in pairs(WoWPro.Guides) do
 	        end
 	        return ""
 	    end	
-		table.insert(guides, {
+		tinsert(guides, {
 			GID = guidID,
 			guide = guide,
 			Zone = guide.zone,
@@ -26,29 +26,29 @@ for guidID,guide in pairs(WoWPro.Guides) do
 		})
 	end
 end
-table.sort(guides, function(a,b) return a.Name < b.Name end)
+sort(guides, function(a,b) return a.Name < b.Name end)
 WoWPro.Profession.GuideList.Guides = guides
 
 -- Sorting Functions --
 local sorttype = "Default"
 local function authorSort()
 	if sorttype == "AuthorAsc" then
-		table.sort(guides, function(a,b) return a.Author > b.Author end)
+		sort(guides, function(a,b) return a.Author > b.Author end)
 		WoWPro.Profession:UpdateGuideList()
 		sorttype = "AuthorDesc"
 	else
-		table.sort(guides, function(a,b) return a.Author < b.Author end)
+		sort(guides, function(a,b) return a.Author < b.Author end)
 		WoWPro.Profession:UpdateGuideList()
 		sorttype = "AuthorAsc"
 	end
 end
 local function nameSort()
 	if sorttype == "NameAsc" then
-		table.sort(guides, function(a,b) return a.Name > b.Name end)
+		sort(guides, function(a,b) return a.Name > b.Name end)
 		WoWPro.Profession:UpdateGuideList()
 		sorttype = "NameDesc"
 	else
-		table.sort(guides, function(a,b) return a.Name < b.Name end)
+		sort(guides, function(a,b) return a.Name < b.Name end)
 		WoWPro.Profession:UpdateGuideList()
 		sorttype = "NameAsc"
 	end
@@ -56,11 +56,11 @@ end
 
 -- Fancy tooltip!
 function WoWPro.Profession.GuideTooltipInfo(row, tooltip, guide)
-    _G.GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
-    _G.GameTooltip:AddLine(guide.name.."      ")
-    _G.GameTooltip:AddLine("")
-    _G.GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
-    _G.GameTooltip:AddDoubleLine("Name:",guide.name,1,1,1,unpack(WoWPro.LevelColor(guide)))
+    tooltip:SetOwner(row, "ANCHOR_TOPLEFT")
+    tooltip:AddLine(guide.name.."      ")
+    tooltip:AddLine("")
+    tooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
+    tooltip:AddDoubleLine("Name:",guide.name,1,1,1,unpack(WoWPro.LevelColor(guide)))
 end
 
 

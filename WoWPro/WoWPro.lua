@@ -1,7 +1,7 @@
 -- luacheck: globals _NPCScan
--- luacheck: globals pairs ipairs tinsert
--- luacheck: globals tostring tonumber strsplit strtrim
--- luacheck: globals date type
+-- luacheck: globals pairs ipairs tinsert tremove sort
+-- luacheck: globals tostring tonumber
+-- luacheck: globals date type max min coroutine
 -- luacheck: globals debugstack debuglocals geterrorhandler seterrorhandler
 
 --------------------------
@@ -56,9 +56,9 @@ function WoWPro:Add2Log(level,msg)
 	end
 end
 -- Debug print function. log, never console --
-function WoWPro:dbp(message,...)
+function WoWPro:dbp(message, ...)
 	if WoWPro.DebugLevel > 0 and message ~= nil then
-	    local msg = string.format("|c7f007f00%s|r: "..message, self.name or "Wow-Pro",...)
+        local msg = ("|c7f007f00%s|r: %s"):format(self.name or "Wow-Pro", message, ...)
 	    WoWPro:Add2Log(2,msg)
 	end
 end
@@ -67,7 +67,7 @@ WoWPro:Export("dbp")
 --  Print function. log, never console --
 function WoWPro:print(message,...)
 	if message ~= nil then
-	    local msg = string.format("|c7f0000ff%s|r: "..message, self.name or "Wow-Pro",...)
+        local msg = ("|c7f0000ff%s|r: %s"):format(self.name or "Wow-Pro", message, ...)
 	    WoWPro:Add2Log(2,msg)
 	end
 end
@@ -76,7 +76,7 @@ WoWPro:Export("print")
 -- WoWPro print function, log and console --
 function WoWPro:Print(message,...)
 	if message ~= nil then
-	    local msg = string.format("|c7fffff7f%s|r: "..message, self.name or "Wow-Pro",...)
+        local msg = ("|c7fffff7f%s|r: %s"):format(self.name or "Wow-Pro", message, ...)
         WoWPro:Add2Log(0,msg)
 	end
 end
@@ -85,7 +85,7 @@ WoWPro:Export("Print")
 -- WoWPro warning function, log and console --
 function WoWPro:Warning(message,...)
 	if message ~= nil then
-	    local msg = string.format("|cffffff00%s|r: "..message, self.name or "Wow-Pro",...)
+        local msg = ("|cffffff00%s|r: %s"):format(self.name or "Wow-Pro", message, ...)
         WoWPro:Add2Log(0,msg)
 	end
 end
@@ -94,7 +94,7 @@ WoWPro:Export("Warning")
 -- WoWPro error function, log and console --
 function WoWPro:Error(message,...)
 	if message ~= nil then
-	    local msg = string.format("|cffff7d0a%s|r: "..message, self.name or "Wow-Pro",...)
+        local msg = ("|cffff7d0a%s|r: %s"):format(self.name or "Wow-Pro", message, ...)
         WoWPro:Add2Log(0,msg)
 --        error(msg)
 	end
@@ -103,9 +103,9 @@ WoWPro:Export("Error")
 
 -- WoWPro Event function, only log --
 function WoWPro:LogEvent(event,...)
-    local msg = string.format("|cffff7d0a%s|r: %s(", self.name or "Wow-Pro",tostring(event))
+    local msg = ("|cffff7d0a%s|r: %s"):format(self.name or "Wow-Pro", tostring(event))
     local arg = {...}
-    local argn = table.getn(arg)
+    local argn = #arg
     for i=1,argn do
         if type(arg[i]) == "string" then
             msg = msg .. '"' .. arg[i] .. '"'
@@ -116,7 +116,7 @@ function WoWPro:LogEvent(event,...)
             msg = msg .. ", "
         end
     end
-    msg = msg .. string.format(") InitLockdown=%s",tostring(WoWPro.InitLockdown))
+    msg = msg .. (") InitLockdown=%s"):format(tostring(WoWPro.InitLockdown))
     WoWPro:Add2Log(3,msg)
 end
 
@@ -127,13 +127,13 @@ local DEBUG_LEVEL = 4
 function WoWPro.LogError(error_msg)
     logerror_lock = error_msg
 
-    local msg = string.format("|cffff7d0a%s|r: Error: %s", "Wow-Pro",tostring(error_msg))
+    local msg = ("|cffff7d0a%s|r: Error: %s"):format("Wow-Pro", tostring(error_msg))
     WoWPro:Add2Log(3,msg)
 
-    msg = string.format("|cffff7d0a%s|r: Stack: %s", "Wow-Pro", debugstack(DEBUG_LEVEL, 5, 5))
+    msg = ("|cffff7d0a%s|r: Stack: %s"):format("Wow-Pro", debugstack(DEBUG_LEVEL, 5, 5))
     WoWPro:Add2Log(3,msg)
 
-    msg = string.format("|cffff7d0a%s|r: Locals: %s", "Wow-Pro", debuglocals(DEBUG_LEVEL) or "Nada")
+    msg = ("|cffff7d0a%s|r: Locals: %s"):format("Wow-Pro", debuglocals(DEBUG_LEVEL) or "Nada")
     WoWPro:Add2Log(3,msg)
     logerror_lock = nil
 end
@@ -173,9 +173,9 @@ local function _generateOrderedIndex(t)
     -- DEFAULT_CHAT_FRAME:AddMessage(string.format("_generateOrderedIndex(%s)",tostring(t)))
     local orderedIndex = {}
     for key in pairs(t) do
-        table.insert( orderedIndex, key )
+        tinsert( orderedIndex, key )
     end
-    table.sort( orderedIndex )
+    sort( orderedIndex )
     return orderedIndex
 end
 
@@ -189,7 +189,7 @@ local function orderedNext(t, state)
     if state == nil then
         -- the first time, generate the index
         t._orderedIndex = _generateOrderedIndex( t )
-        t._orderedOffset = table.getn(t._orderedIndex) - 2500
+        t._orderedOffset = #t._orderedIndex - 2500
         if t._orderedOffset < 1 then t._orderedOffset = 1 end
         key = t._orderedIndex[t._orderedOffset]
         return key, t[key]
@@ -198,7 +198,7 @@ local function orderedNext(t, state)
     -- fetch the next value
     key = nil
     t._orderedOffset = t._orderedOffset + 1
-    if t._orderedOffset <= table.getn(t._orderedIndex) then
+    if t._orderedOffset <= #t._orderedIndex then
         key = t._orderedIndex[t._orderedOffset]
         return key, t[key]
     end
@@ -226,7 +226,7 @@ local function LogGrow(frame, elapsed)
         LogCo = coroutine.create(function ()
                                         local loops = 25
                                         for key, val in ipairs(WoWProDB.global.Log) do
-                                            Log = Log .. string.format("%05d ~ %s\n",key,val)
+                                            Log = Log .. ("%05d ~ %s\n"):format(key, val)
                                             loops = loops - 1
                                             if loops < 0 then
                                                 coroutine.yield(true)
@@ -287,7 +287,7 @@ end
 
 function WoWPro.toboolean(v)
     if type(v) == "string" then
-        v = strlower(v)
+        v = v:lower()
         if v == "true" then
             return true
         end
@@ -610,14 +610,14 @@ end
 -- https://github.com/Rainrider/KlaxxiKillOrder/issues/1
 -- New syntax for UnitGUID() in WoD
 function WoWPro:TargetNpcId()
-    local unitType, _, serverID, instanceID, zoneID, npcID, spawnID = strsplit("-", _G.UnitGUID("target") or "")
+    local unitType, _, serverID, instanceID, zoneID, npcID, spawnID = ("-"):split(_G.UnitGUID("target") or "")
     if not unitType then
         WoWPro:dbp("No target");
         return nil
     end
 
     if unitType == "Player" then
-        unitType, serverID, npcID = strsplit("-", _G.UnitGUID("target"))
+        unitType, serverID, npcID = ("-"):slpit(_G.UnitGUID("target"))
         WoWPro:dbp("Your target is a " .. unitType.. " ID %s",npcID);
         return npcID
     else
@@ -712,11 +712,11 @@ function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
     local playerLevel = WoWPro:PlayerLevel()
     -- Supply dynamic levels if not all the parameters are suppplied.
     if not lowerLevel then
-        lowerLevel = math.max(playerLevel-1, 1)
+        lowerLevel = max(playerLevel-1, 1)
         guide['level_float'] = true
     end
     if not upperLevel then
-        upperLevel = math.min(playerLevel+1, 110)
+        upperLevel = min(playerLevel+1, 110)
         guide['level_float'] = true
     end
     if not meanLevel then
@@ -737,11 +737,11 @@ function WoWPro:NewGuideLevels(guide,lowerLevel,upperLevel, sortLevel)
     local playerLevel = WoWPro:PlayerLevel()
     -- Supply dynamic levels if not all the parameters are suppplied.
     if not lowerLevel then
-        lowerLevel = math.max(playerLevel-1, 1)
+        lowerLevel = max(playerLevel-1, 1)
         guide['level_float'] = true
     end
     if not upperLevel then
-        upperLevel = math.min(playerLevel+1, 110)
+        upperLevel = min(playerLevel+1, 110)
         guide['level_float'] = true
     end
 
@@ -770,8 +770,8 @@ function WoWPro:GuideRaceSpecific(guide,race)
     if WoWPro.DebugLevel > 0 then
         return -- Allow developers to check everything
     end
-    race = strupper(race)
-    engRace = strupper(engRace)
+    race = race:upper()
+    engRace = engRace:upper()
     if engRace ~= race then
         WoWPro:UnRegisterGuide(guide,"Guide %s is race specific and you don't match")
     end
@@ -797,7 +797,7 @@ RegisterClass("DEMONHUNTER")
 function WoWPro:GuideClassSpecific(guide,class)
     local locClass, engClass = _G.UnitClass("player")
 
-    class = strupper(class)
+    class = class:upper()
     guide.icon = "Interface\\Glues\\CharacterCreate\\UI-CharacterCreate-Classes"
     guide.icon_offsets = _G.CLASS_ICON_TCOORDS[class]
     guide.class = class
@@ -805,7 +805,7 @@ function WoWPro:GuideClassSpecific(guide,class)
     if not ValidClass[class] then
         WoWPro:Error("For guide %s, Invalid class of %s used in GuideClassSpecific()", guide.GID, class)
     end
-    engClass = strupper(engClass)
+    engClass = engClass:upper()
 
     if WoWPro.DebugClasses then
         return -- Allow developers to check everything, if they want
@@ -877,7 +877,7 @@ function WoWPro:GuideAutoSwitch(guide, state)
     WoWPro.Guides2Register = WoWPro.Guides2Register or {}
     -- Only do if guide is registered!
     if WoWPro.Guides[guide.GID] then
-        table.insert(WoWPro.Guides2Register, guide.GID)
+        tinsert(WoWPro.Guides2Register, guide.GID)
     end
 end
 
@@ -909,7 +909,7 @@ end
 -- http://en.wikipedia.org/wiki/HSL_color_space
 -- Inputs are [0..1], outputs in [0..1]
 function WoWPro:RGB2HSL(r,g,b)
-    local cmax, cmin = math.max(r, g, b), math.min(r, g, b)
+    local cmax, cmin = max(r, g, b), min(r, g, b)
     local h, s, l
 
     l = (cmax + cmin) / 2.0
@@ -1030,7 +1030,7 @@ end
 function WoWPro:TestQuestColor(a,b,c,d)
     for ql=a,b,c do
         local r, g, b =  WoWPro:QuestColor(ql, d)
-        local msg = string.format("|c%2x%2x%2x%2xLevel %f .vs. %f|r",255,255*r,255*g,255*b,ql,50)
+        local msg = ("|c%2x%2x%2x%2xLevel %f .vs. %f|r"):format(255,255*r,255*g,255*b,ql,50)
         _G.DEFAULT_CHAT_FRAME:AddMessage( msg )
     end
 end
@@ -1123,7 +1123,7 @@ end
 
 
 function WoWPro:GuideIcon(guide,gtype,gsubtype,extras)
-    gtype = strupper(gtype)
+    gtype = gtype:upper()
     if gtype == "ACH" then
         guide['ach'] = tonumber(gsubtype)
     elseif gtype == "PRO" then
@@ -1183,7 +1183,7 @@ local function TestGuideLoad(guidID)
     WoWPro:LoadGuideStepsReal()
     local nextG = WoWPro:NextGuide(guidID)
     if WoWPro.Guides[guidID].zone then
-        local zed = strtrim(string.match(WoWPro.Guides[guidID].zone, "([^%(%-]+)" ))
+        local zed = WoWPro.Guides[guidID].zone:match("([^%(%-]+)" ):trim()
         if not WoWPro:ValidZone(zed) then
 	        WoWPro:Warning("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
 	    end
@@ -1208,7 +1208,7 @@ local function LoadNext(frame, elapsed)
        WoWPro.LoadAll.Co = coroutine.create(function ()
                                         local guidID
                                         repeat
-                                            guidID = table.remove(WoWPro.LoadAll.List)
+                                            guidID = tremove(WoWPro.LoadAll.List)
                                             TestGuideLoad(guidID)
                                             coroutine.yield(guidID)
                                         until not guidID
@@ -1251,7 +1251,7 @@ function WoWPro:LoadAllGuides()
     WoWPro.LoadAll.Count=0
     WoWPro.LoadAll.List = {}
  	for guidID,guide in pairs(WoWPro.Guides) do
- 	    table.insert(WoWPro.LoadAll.List, guidID)
+ 	    tinsert(WoWPro.LoadAll.List, guidID)
 	end
 	WoWPro.LoadAllGuidesActive = true
 	WoWPro:Print("LoadAllGuides: %d guides scheduled to load.", #(WoWPro.LoadAll.List))

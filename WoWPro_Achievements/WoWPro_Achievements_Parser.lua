@@ -34,7 +34,7 @@ function WoWPro.Achievements:DumpInfo(achnum)
     local text=""
     for achitem=1, count do
         local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = _G.GetAchievementCriteriaInfo(achnum, achitem)
-        local line = string.format("F %s|QID|%d|M|0.00,0.00|ACH|%d;%d|",description,900000000+10000*achnum+achitem,achnum,achitem)
+        local line = ("F %s|QID|%d|M|0.00,0.00|ACH|%d;%d|"):format(description, 900000000 + 10000 * achnum + achitem, achnum, achitem)
         text = text .. line .. "\n"
     end
     eBox:SetText(text)

@@ -1,4 +1,4 @@
--- luacheck: globals pairs strtrim
+-- luacheck: globals pairs
 
 -------------------------------
 --      WoWPro_Achievements      --
@@ -72,7 +72,7 @@ function WoWPro.Achievements:LoadAllGuides()
 	    if WoWPro.Guides[guidID].guidetype == "Achievements" then
             self:Print("Test Loading " .. guidID)
 	        WoWPro:LoadGuide(guidID)
-	        zed = strtrim(string.match(WoWPro.Guides[guidID].zone, "([^%(%-]+)" ))
+	        zed = WoWPro.Guides[guidID].zone:match("([^%(%-]+)" ):trim()
 	        if not WoWPro:ValidZone(zed) then
 			    self:Error("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
 			end
@@ -81,5 +81,5 @@ function WoWPro.Achievements:LoadAllGuides()
 	        if WoWPro.Guides[guidID].faction == "Horde"    then hCount = hCount + 1 end
 	    end
 	end
-        self:Print(string.format("Done! %d A, %d N, %d H guides present", aCount, nCount, hCount))
+        self:Print(("Done! %d A, %d N, %d H guides present"):format(aCount, nCount, hCount))
 end

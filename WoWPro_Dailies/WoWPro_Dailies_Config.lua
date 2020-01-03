@@ -1,3 +1,5 @@
+-- luacheck: globals tinsert
+
 --------------------------------------
 --      WoWPro_Dailies_Config      --
 --------------------------------------
@@ -69,9 +71,8 @@ end
 function WoWPro.Dailies:CreateConfig()
 	createBlizzOptions()
 
-	table.insert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
-	table.insert(WoWPro.DropdownMenu, {text = "WoW-Pro Dailies", isTitle = true} )
-	table.insert(WoWPro.DropdownMenu, {text = "About", func = function() _G.InterfaceOptionsFrame_OpenToCategory("WoW-Pro Dailies"); end} )
-	table.insert(WoWPro.DropdownMenu, {text = "Reload Guide", func = function() WoWPro:LoadGuide(); end} )
-
+	tinsert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
+	tinsert(WoWPro.DropdownMenu, {text = "WoW-Pro Dailies", isTitle = true} )
+	tinsert(WoWPro.DropdownMenu, {text = "About", func = function() _G.InterfaceOptionsFrame_OpenToCategory("WoW-Pro Dailies"); end} )
+	tinsert(WoWPro.DropdownMenu, {text = "Reload Guide", func = function() WoWPro:LoadGuide(); end} )
 end

@@ -64,38 +64,42 @@ function WoWPro.Leveling:OnEnable()
 	end
 	
 	-- Loading Initial Guide --
-	local locClass, engClass = _G.UnitClass("player")
-	local locRace, engRace = _G.UnitRace("player")
+	if not WoWProDB.char.currentguide then
+		local locClass, engClass = _G.UnitClass("player")
+		local locRace, engRace = _G.UnitRace("player")
+	    local currentLevel = _G.UnitLevel("player")
+	    local currentXP = _G.UnitXP("player")
 
-	-- New Level 1 Character --	
-	if _G.UnitLevel("player") == 1 and _G.UnitXP("player") < 100 and (not WoWProDB.char.currentguide) then
-		WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
-		if WoWPro.CLASSIC then
-			WoWProDB.char.currentguide = WoWPro.Leveling.ClassicStartGuides[engRace]
-		else
-			WoWProDB.char.currentguide = WoWPro.Leveling.StartGuides[engRace]
+		-- New Level 1 Character --
+		if currentLevel == 1 and currentXP < 100 then
+			WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
+			if WoWPro.CLASSIC then
+				WoWProDB.char.currentguide = WoWPro.Leveling.ClassicStartGuides[engRace]
+			else
+				WoWProDB.char.currentguide = WoWPro.Leveling.StartGuides[engRace]
+			end
+			WoWPro:LoadGuide(WoWProDB.char.currentguide)
+		-- New Death Knight --
+		elseif currentLevel == 55 and currentXP < 2000 and engClass == "DEATHKNIGHT" then
+		    WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
+			WoWPro:LoadGuide("JamScar5558")
+		elseif currentLevel == 58 and currentXP < 2000 and engClass == "DEATHKNIGHT" and WoWPro.Leveling.AlliedStartGuides[engRace] then
+			WoWPro.Leveling:dbp("Loading Allied DK starter %s guide",locClass)
+			WoWProDB.char.currentguide = "LudoAlliedDK"
+		    WoWPro:LoadGuide(WoWProDB.char.currentguide)
+		elseif currentLevel == 98 and currentXP < 2000 and engClass == "DEMONHUNTER" then
+			WoWPro.Leveling:dbp("Loading DH starter %s guide",locClass)
+			WoWProDB.char.currentguide =  "LinksMardum098099"
+		    WoWPro:LoadGuide(WoWProDB.char.currentguide)
+		elseif currentLevel == 20 and currentXP < 300 and WoWPro.Leveling.AlliedStartGuides[engRace] then
+		    WoWPro.Leveling:dbp("Loading Allied starter %s guide",engRace)
+		    WoWProDB.char.currentguide = WoWPro.Leveling.AlliedStartGuides[engRace]
+		    WoWPro:LoadGuide(WoWProDB.char.currentguide)
+		-- No current guide, but a guide was stored for later use --
+		elseif WoWProDB.char.lastlevelingguide then
+		    WoWPro.Leveling:dbp("Loading last leveling guide.")
+			WoWPro:LoadGuide(WoWProDB.char.lastlevelingguide)
 		end
-		WoWPro:LoadGuide(WoWProDB.char.currentguide)
-	-- New Death Knight --
-	elseif _G.UnitLevel("player") == 55 and _G.UnitXP("player") < 2000 and engClass == "DEATHKNIGHT" and (not WoWProDB.char.currentguide) then
-	    WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
-		WoWPro:LoadGuide("JamScar5558")
-	elseif _G.UnitLevel("player") == 58 and _G.UnitXP("player") < 2000 and engClass == "DEATHKNIGHT" and WoWPro.Leveling.AlliedStartGuides[engRace] and (not WoWProDB.char.currentguide) then
-		WoWPro.Leveling:dbp("Loading Allied DK starter %s guide",locClass)
-		WoWProDB.char.currentguide = "LudoAlliedDK"
-	    WoWPro:LoadGuide(WoWProDB.char.currentguide)
-	elseif _G.UnitLevel("player") == 98 and _G.UnitXP("player") < 2000 and engClass == "DEMONHUNTER" and (not WoWProDB.char.currentguide) then
-		WoWPro.Leveling:dbp("Loading DH starter %s guide",locClass)
-		WoWProDB.char.currentguide =  "LinksMardum098099"
-	    WoWPro:LoadGuide(WoWProDB.char.currentguide)
-	elseif _G.UnitLevel("player") == 20 and _G.UnitXP("player") < 300 and WoWPro.Leveling.AlliedStartGuides[engRace] and (not WoWProDB.char.currentguide) then
-	    WoWPro.Leveling:dbp("Loading Allied starter %s guide",engRace)
-	    WoWProDB.char.currentguide = WoWPro.Leveling.AlliedStartGuides[engRace]
-	    WoWPro:LoadGuide(WoWProDB.char.currentguide)
-	-- No current guide, but a guide was stored for later use --
-	elseif WoWProDB.char.lastlevelingguide and not WoWProDB.char.currentguide then
-	    WoWPro.Leveling:dbp("Loading last leveling guide.")
-		WoWPro:LoadGuide(WoWProDB.char.lastlevelingguide)
 	end
 	
 	WoWPro.FirstMapCall = true
