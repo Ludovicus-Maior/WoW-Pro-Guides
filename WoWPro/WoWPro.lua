@@ -36,7 +36,7 @@ _G["BINDING_NAME_CLICK WoWPro_FauxTargetButton:LeftButton"] = "Target quest mob"
 
 WoWPro.Serial = 99999
 -- Add message to internal debug log
-function WoWPro:Add2Log(level,msg)
+function WoWPro:Add2Log(level, msg)
     msg = date("%H%M%S ") .. msg
     if WoWPro.DebugLevel >= level then
         _G.DEFAULT_CHAT_FRAME:AddMessage( msg )
@@ -57,52 +57,52 @@ function WoWPro:Add2Log(level,msg)
 end
 -- Debug print function. log, never console --
 function WoWPro:dbp(message, ...)
-	if WoWPro.DebugLevel > 0 and message ~= nil then
-        local msg = ("|c7f007f00%s|r: %s"):format(self.name or "Wow-Pro", message, ...)
-	    WoWPro:Add2Log(2,msg)
-	end
+    if WoWPro.DebugLevel > 0 and message ~= nil then
+        local msg = ("|c7f007f00%s|r: "..message):format(self.name or "Wow-Pro", ...)
+        WoWPro:Add2Log(2, msg)
+    end
 end
 WoWPro:Export("dbp")
 
 --  Print function. log, never console --
-function WoWPro:print(message,...)
-	if message ~= nil then
-        local msg = ("|c7f0000ff%s|r: %s"):format(self.name or "Wow-Pro", message, ...)
-	    WoWPro:Add2Log(2,msg)
-	end
+function WoWPro:print(message, ...)
+    if message ~= nil then
+        local msg = ("|c7f0000ff%s|r: "..message):format(self.name or "Wow-Pro", ...)
+        WoWPro:Add2Log(2, msg)
+    end
 end
 WoWPro:Export("print")
 
 -- WoWPro print function, log and console --
-function WoWPro:Print(message,...)
-	if message ~= nil then
-        local msg = ("|c7fffff7f%s|r: %s"):format(self.name or "Wow-Pro", message, ...)
-        WoWPro:Add2Log(0,msg)
-	end
+function WoWPro:Print(message, ...)
+    if message ~= nil then
+        local msg = ("|c7fffff7f%s|r: "..message):format(self.name or "Wow-Pro", ...)
+        WoWPro:Add2Log(0, msg)
+    end
 end
 WoWPro:Export("Print")
 
 -- WoWPro warning function, log and console --
-function WoWPro:Warning(message,...)
-	if message ~= nil then
-        local msg = ("|cffffff00%s|r: %s"):format(self.name or "Wow-Pro", message, ...)
-        WoWPro:Add2Log(0,msg)
-	end
+function WoWPro:Warning(message, ...)
+    if message ~= nil then
+        local msg = ("|cffffff00%s|r: "..message):format(self.name or "Wow-Pro", ...)
+        WoWPro:Add2Log(0, msg)
+    end
 end
 WoWPro:Export("Warning")
 
 -- WoWPro error function, log and console --
-function WoWPro:Error(message,...)
-	if message ~= nil then
-        local msg = ("|cffff7d0a%s|r: %s"):format(self.name or "Wow-Pro", message, ...)
-        WoWPro:Add2Log(0,msg)
---        error(msg)
+function WoWPro:Error(message, ...)
+    if message ~= nil then
+        local msg = ("|cffff7d0a%s|r: "..message):format(self.name or "Wow-Pro", ...)
+        WoWPro:Add2Log(0, msg)
+        -- error(msg)
 	end
 end
 WoWPro:Export("Error")
 
 -- WoWPro Event function, only log --
-function WoWPro:LogEvent(event,...)
+function WoWPro:LogEvent(event, ...)
     local msg = ("|cffff7d0a%s|r: %s"):format(self.name or "Wow-Pro", tostring(event))
     local arg = {...}
     local argn = #arg
@@ -617,7 +617,7 @@ function WoWPro:TargetNpcId()
     end
 
     if unitType == "Player" then
-        unitType, serverID, npcID = ("-"):slpit(_G.UnitGUID("target"))
+        unitType, serverID, npcID = ("-"):split(_G.UnitGUID("target"))
         WoWPro:dbp("Your target is a " .. unitType.. " ID %s",npcID);
         return npcID
     else
