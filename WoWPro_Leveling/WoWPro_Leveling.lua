@@ -59,7 +59,7 @@ function WoWPro.Leveling:OnEnable()
 	local locRace, engRace = UnitRace("player")
 
 	-- New Level 1 Character --	
-	if UnitLevel("player") == 1 and UnitXP("player") < 100 then
+	if UnitLevel("player") == 1 and UnitXP("player") < 100 and (not WoWProDB.char.currentguide) then
 		WoWPro.Leveling:dbp("Loading starter %s guide: %s",engRace,tostring(WoWPro.Leveling.StartGuides[engRace]))
 		if WoWPro.CLASSIC then
 			WoWProDB.char.currentguide = WoWPro.Leveling.ClassicStartGuides[engRace]
@@ -68,13 +68,13 @@ function WoWPro.Leveling:OnEnable()
 		end
 		WoWPro:LoadGuide(WoWProDB.char.currentguide)
 	-- New Death Knight --
-	elseif UnitLevel("player") == 55 and UnitXP("player") < 2000 and engClass == "DEATHKNIGHT" then
+	elseif UnitLevel("player") == 55 and UnitXP("player") < 2000 and engClass == "DEATHKNIGHT" and (not WoWProDB.char.currentguide) then
 	    WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
 		WoWPro:LoadGuide("JamScar5558")
-	elseif UnitLevel("player") == 98 and UnitXP("player") < 2000 and engClass == "DEMONHUNTER" then
+	elseif UnitLevel("player") == 98 and UnitXP("player") < 2000 and engClass == "DEMONHUNTER" and (not WoWProDB.char.currentguide) then
 	    WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
 	    WoWPro:LoadGuide("LinksMardum098099")
-	elseif UnitLevel("player") == 20 and UnitXP("player") < 300 and WoWPro.Leveling.AlliedStartGuides[engRace] then
+	elseif UnitLevel("player") == 20 and UnitXP("player") < 300 and WoWPro.Leveling.AlliedStartGuides[engRace] and (not WoWProDB.char.currentguide) then
 	    WoWPro.Leveling:dbp("Loading starter %s guide",engRace)
 	    WoWProDB.char.currentguide = WoWPro.Leveling.AlliedStartGuides[engRace]
 	    WoWPro:LoadGuide(WoWProDB.char.currentguide)
