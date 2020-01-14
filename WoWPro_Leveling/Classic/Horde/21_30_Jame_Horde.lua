@@ -383,7 +383,7 @@ A Waters of Xavian|QID|1944|PRE|1943|C|Mage|Z|Ashenvale|O|
 ; -----------------------------------------------------------------------------
 
 F Splintertree Post|QID|6581|M|45.30,63.90|Z|Orgrimmar|
-A Warsong Saw Blades|QID|6581|M|73,61.4|Z|Ashenvale|N|From Pixel|
+A Warsong Saw Blades|QID|6581|M|73,61.4|Z|Ashenvale|N|From Pixel|ACTIVE|6571|
 T Warsong Saw Blades|QID|6581|M|73,61.4|Z|Ashenvale|N|To Pixel|
 
 K Kill Shadumbra for Shadumbra's Head|QID|24|T|Shadumbra|L|16304|M|62.00,50.00;53.00,55.00|CN|Z|Ashenvale|N|Follow the road west. Shadumbra patrols between those points. Kill him and loot Shadumbra's Head.|
@@ -427,7 +427,10 @@ F Tarren Mill|QID|96|C|Shaman|M|45.60,42.50|Z|Silverpine Forest|
 
 F Tarren Mill|QID|529|C|-Shaman|M|63.30,48.40|Z|Undercity|
 
-C Battle of Hillsbrad |QID|529|M|32.00,44.00|Z|Hillsbrad Foothills|N|Kill Blacksmith Verringtan and his apprentices and collect the shipment of iron, at|
+C Battle of Hillsbrad |QID|529|M|32.00,44.00|Z|Hillsbrad Foothills|QO|2|N|Kill Blacksmith Apprentices, spawn in and around the smithy.|S!US|T|Hillsbrad Apprentice|
+K Blacksmith Verringtan|ACTIVE|529|M|32.00,44.00|Z|Hillsbrad Foothills|QO|1|T|Blacksmith Verringtan|S!US|N|Likely inside the smithy.}
+l Shipment of Iron|ACTIVE|529|M|32.01,45.47|Z|Hillsbrad Foothills|QO|3|N|Get that Iron, in the smithy.|
+
 T Battle of Hillsbrad |QID|529|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
 A Battle of Hillsbrad |QID|532|PRE|529|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia|
 
@@ -435,7 +438,7 @@ C Battle of Hillsbrad |QID|532|M|29.00,41.00|Z|Hillsbrad Foothills|N|Clear your 
 K Clerk Horrace Whitesteed|QID|567|QO|1|M|28.00,42.00|Z|Hillsbrad Foothills|
 
 
-K Citizen Wilkes|QID|567|QO|2|M|33.00,41.00|Z|Hillsbrad Foothills|
+K Citizen Wilkes|QID|567|QO|2|M|33.00,41.00|Z|Hillsbrad Foothills|T|Citizen Wilkes|
 C Souvenirs of Death|QID|546|M|34.00,46.00|Z|Hillsbrad Foothills|N|Kill all humans in the area for Hillsbrad Human Skulls|
 
 T Battle of Hillsbrad |QID|532|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia|
@@ -443,7 +446,7 @@ A Battle of Hillsbrad |QID|539|PRE|532|M|62.2,20.2|Z|Hillsbrad Foothills|N|From 
 T Souvenirs of Death|QID|546|M|62,19.8|Z|Hillsbrad Foothills|N|To Deathguard Samsa|
 
 R Azurelode Mine|QID|539|M|26.00,58.00|Z|Hillsbrad Foothills|
-K Miner Hackett|QID|567|QO|3|M|27.30,58.70|Z|Hillsbrad Foothills|N|Enter the mine, killing miners as you go. After awhile, you will come to a fork. To the left are Foreman Bonds and Miner Hackett. (31,53)|
+K Miner Hackett|QID|567|QO|3|M|27.30,58.70|Z|Hillsbrad Foothills|N|Enter the mine, killing miners as you go. After awhile, you will come to a fork. To the left are Foreman Bonds and Miner Hackett.|
 K Foreman Bonds|QID|539|QO|4|M|30.00,55.00|Z|Hillsbrad Foothills|N|At 20% health he summons 2 dwarves to guard him.  Those dwarves can stun, so it is unlikely, at this level, you can kill all 3. If you are a rogue, kill Foreman Bonds, then vanish. For other classes, clear the way behind you towards the exit.  Next, engage and finish Foreman Bonds fast, then run for the exit, the 2 dwarves will follow, but eventually give up and return. If you are about to die, be sure you get the kill on Foreman Bonds first.|
 C Battle of Hillsbrad |QID|539|Z|Hillsbrad Foothills|N|Stay in the mine and kill any miners you still need.|
 
