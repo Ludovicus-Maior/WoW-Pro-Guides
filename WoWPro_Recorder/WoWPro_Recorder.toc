@@ -1,4 +1,4 @@
-## Interface: 80205
+## Interface: 80300
 #classic ## Interface: 11303
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Recorder
 ## Notes: Record and edit guides for use with the WoW-Pro Addon
