@@ -355,7 +355,12 @@ function WoWPro.AutoCompleteZone()
 	        if (targetzone == zonetext) or (targetzone == subzonetext) then
 	            WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
 	            return true
-	        end
+            end
+            local x, y, mapId = WoWPro:GetPlayerZonePosition()
+            if (tonumber(targetzone) and tonumber(targetzone) == mapId) then
+                WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
+                return true
+            end
 		end
 	end
 	return false
