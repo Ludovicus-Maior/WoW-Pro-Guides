@@ -25,7 +25,14 @@ WoWPro.Leveling.AlliedStartGuides = {
 			VoidElf = "LudoTelogrus",
 			LightforgedDraenei = "LudoLightforged",
 			HighmountainTauren = "LudoHighTauren",
-			Nightborne = "LudoNightborne"
+			Nightborne = "LudoNightborne",
+			KulTiran = nil ,
+			ZandalariTroll = nil,
+			DarkIronDwarf = nil,
+			MagharOrc = nil,
+			Vulpera = nil,
+			Mechagnome = nil,
+			Pandaren = "LudoAlliedDK", -- Yes, this is wrong, but it works!
 		}
 WoWPro.Leveling.ClassicStartGuides = {
 	Dwarf = 'ClassicDunMorogh0112',
@@ -71,11 +78,16 @@ function WoWPro.Leveling:OnEnable()
 	elseif UnitLevel("player") == 55 and UnitXP("player") < 2000 and engClass == "DEATHKNIGHT" and (not WoWProDB.char.currentguide) then
 	    WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
 		WoWPro:LoadGuide("JamScar5558")
+	elseif UnitLevel("player") == 58 and UnitXP("player") < 2000 and engClass == "DEATHKNIGHT" and WoWPro.Leveling.AlliedStartGuides[engRace] and (not WoWProDB.char.currentguide) then
+		WoWPro.Leveling:dbp("Loading Allied DK starter %s guide",locClass)
+		WoWProDB.char.currentguide = "LudoAlliedDK"
+	    WoWPro:LoadGuide(WoWProDB.char.currentguide)
 	elseif UnitLevel("player") == 98 and UnitXP("player") < 2000 and engClass == "DEMONHUNTER" and (not WoWProDB.char.currentguide) then
-	    WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
-	    WoWPro:LoadGuide("LinksMardum098099")
+		WoWPro.Leveling:dbp("Loading DH starter %s guide",locClass)
+		WoWProDB.char.currentguide =  "LinksMardum098099"
+	    WoWPro:LoadGuide(WoWProDB.char.currentguide)
 	elseif UnitLevel("player") == 20 and UnitXP("player") < 300 and WoWPro.Leveling.AlliedStartGuides[engRace] and (not WoWProDB.char.currentguide) then
-	    WoWPro.Leveling:dbp("Loading starter %s guide",engRace)
+	    WoWPro.Leveling:dbp("Loading Allied starter %s guide",engRace)
 	    WoWProDB.char.currentguide = WoWPro.Leveling.AlliedStartGuides[engRace]
 	    WoWPro:LoadGuide(WoWProDB.char.currentguide)
 	-- No current guide, but a guide was stored for later use --
