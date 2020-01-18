@@ -13,7 +13,7 @@ return
 ; Guide started by Elidion and neutralized and finished by Ludovicus
 ; Alliance Start
 A An Unwelcome Advisor|QID|58496|M|PLAYER|Z|Boralus|N|Lead in from Anduin Wrynn.|FACTION|Alliance|
-A A Gathering of Champions|QID|58674|M|70.72,27.08|Z|Boralus|N|From Master Mathias Shaw.|FACTION|Alliance|
+;A A Gathering of Champions|QID|58674|M|70.72,27.08|Z|Boralus|N|From Master Mathias Shaw.|FACTION|Alliance|
 P Stormwind City|ACTIVE|58496|M|70.11,16.80|Z|Boralus|N|Take Portal to Stormwind.|FACTION|Alliance|
 R Mage Quarter|ACTIVE|58496|M|49.40,86.83|Z|Stormwind City|N|Take Portal out into Mage Quarter.|FACTION|Alliance|
 T A Gathering of Champions|QID|58674|M|53.26,14.88|Z|Stormwind City|N|To Master Mathias Shaw.|FACTION|Alliance|
@@ -52,7 +52,10 @@ T A Titanic Problem|QID|56374|M|69.85,52.18|Z|Uldum|N|To Magni Bronzebeard.|
 A The Halls of Origination|QID|56209|M|69.85,52.18|Z|Uldum|N|From Magni Bronzebeard.|
 R Halls of Origination Instance|QID|56209|M|69.09,53.00|Z|Uldum|TZ|1540|N|Zone into the Halls of Origination.|
 C Unwelcome Guests|QID|56209|M|53.38,62.78|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|1|N|Reach the inner chambers of the Halls of Origination.|
-C Ever Watching|QID|56209|M|57.91,66.67;58.53,66.68;57.92,59.39;58.53,59.43|Z|The Vault of Lights@Halls of Origination!Dungeon1540|CN|SO|2|N|Disable the defensive systems in the Chamber of Prophecy.\nGo down the side stairs and each pylon has a pair of consoles.|
+C Ever Watching|ACTIVE|56209|M|57.91,66.67|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|2;1<1|N|Disable the defensive systems in the Chamber of Prophecy.|
+C Ever Watching|ACTIVE|56209|M|58.53,66.68|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|2;1<2|N|Disable the defensive systems in the Chamber of Prophecy.|
+C Ever Watching|ACTIVE|56209|M|57.92,59.39|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|2;1<3|N|Disable the defensive systems in the Chamber of Prophecy.|
+C Ever Watching|ACTIVE|56209|M|58.53,59.43|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|2|N|Disable the defensive systems in the Chamber of Prophecy.|
 C Hostile Halls|QID|56209|M|67.74,49.53|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|3|N|Reach the lift|
 K Watcher Aum-Ka|ACTIVE|56209|M|67.46,49.95|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|4|N|Defeat Watcher Aum-Ka and activate the lift in the Maker's Rise.|
 C Underpowered|QID|56209|M|49.72,32.55|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|5|N|Locate the power terminal for the Maker's Rise in the Vault of Lights.|
