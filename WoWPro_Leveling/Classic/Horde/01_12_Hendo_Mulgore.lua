@@ -10,6 +10,7 @@ WoWPro:GuideSteps(guide, function() return [[
 A The Hunt Begins|QID|747|M|44.87,77.08|N|From Grull Hawkwind.|
 A A Humble Task|QID|752|M|44.19,76.06|N|From Chief Hawkwind.|
 C The Hunt Begins|QID|747|M|47.87,77.76|QO|1|N|Kill Plainstriders around the camp.|
+; lv 2
 T A Humble Task|QID|752|M|50.03,81.16|N|To Greatmother Hawkwind.|
 A A Humble Task|QID|753|M|50.03,81.16|N|From Greatmother Hawkwind.|PRE|752|
 C Water Pitcher|QID|753|L|4755|M|50.22,81.37|N|Click the Water Pitcher on the fountain.|
@@ -32,10 +33,12 @@ T Etched Note|QID|3092|M|44.26,75.70|N|To Lanka Farshot.|R|Tauren|C|Hunter|
 C The Hunt Continues|QID|750|N|Kill Mountain Cougars for their pelts.|S|
 T Rites of the Earthmother|QID|755|M|42.57,92.17|N|To Seer Graytongue.|
 A Rite of Strength|QID|757|M|42.57,92.17|N|From Seer Graytongue.|PRE|755|
+; lv 3
 C The Hunt Continues|QID|750|M|44.21,89.06|QO|1|N|Kill Mountain Cougars until you have all 10 Mountain Cougar Pelts.|US|
 L Level 4|N|Grind to level 4. The quest we turn in gives 250 XP, so you can stop at 1150 XP.|LVL|3;1150|
 
 T The Hunt Continues|QID|750|M|44.87,77.08|N|To Grull Hawkwind.|
+; lv 4
 A The Battleboars|QID|780|M|44.87,77.08|N|From Grull Hawkwind.|PRE|750|
 r Sell Junk|QID|780|M|45.29,76.52|
 A Break Sharptusk!|QID|3376|M|44.80,76.86|N|From Brave Windfeather, who walks around the camp.|
@@ -45,6 +48,7 @@ N Train level 4 skills/spells|QID|780|N|Before heading out go to your trainer an
 C The Battleboars|QID|780|M|56.98,85.95|QO|1;2|N|Kill the Battleboars in front of the tunnel until you complete the Quest.|
 C Rite of Strength|QID|757|QO|1|N|Kill Quillboars for their Bristleback Belts on the way.|S|
 C Break Sharptusk!|QID|3376|M|58.05,85.10;62.24,81.49;62.51,78.81;64.65,77.71|CS|QO|1|N|Work your way to Sharptusk inside the big tent and kill him.|
+; lv 5
 l Dirt-stained Map|AVAILABLE|781|M|63.24,82.70|L|4851|N|Inside this cave is a Dirt-stained Map. Loot it. There may be a rare called "Squeler" Thornmantle in the cave.|
 A Attack on Camp Narache|AVAILABLE|781|U|4851|N|Right-click the Dirt-stained Map.|
 C Rite of Strength|QID|757|N|Kill the Quillboars until you have all Bristleback Belts.|US|
@@ -69,7 +73,7 @@ N Train other skills|QID|1521|N|You can train the remaining skills.|R|Tauren|C|S
 
 A A Task Unfinished|QID|1656|M|41.46,81.86;38.52,81.56|CS|N|From Antur Fallow.|
 
-R Bloodhoof Village|AVAILABLE|743|M|38.00,81.46;36.09,78.65;36.12,75.60;38.32,73.57;42.72,69.24;49.35,64.24;48.59,62.15|CS|N|Run to Bloodhoof|
+R Bloodhoof Village|AVAILABLE|743|M|38.00,81.46;36.09,78.65;36.12,75.60;38.32,73.57;42.72,69.24;49.35,64.24;48.95,63.00|CS|N|Run to Bloodhoof|
 A Dangers of the Windfury|QID|743|M|47.35,62.01|N|From Ruul Eagletalon.|
 
 A Poison Water|QID|748|M|48.53,60.39|N|From Mull Thunderhorn.|R|Tauren|
@@ -85,6 +89,8 @@ A Mazzranache|QID|766|M|46.99,57.07|N|From Maur Raincaller.|
 
 h Bloodhoof Village|QID|1656|M|46.70,61.00|N|At Innkeeper Kauth.|
 T A Task Unfinished|QID|1656|M|46.62,61.09|N|To Innkeeper Kauth.|
+N First Aid|ACTIVE|766|P|First Aid;129;0+0|M|46.80,60.84|N|From Vira Younghoof, just inside the Inn.\nIf you don't have enough money to pay for it, wait until you can.|
+; lv 6
 C Poison Water|QID|748|QO|1;2|N|Kill Prairie Wolves and Plainstriders on your way.|R|Tauren|S|
 C Swoop Hunting|QID|761|QO|1|N|Kill Swoops you encounter on your way for their Trophy Quills.|S|
 C Mazzranache|QID|766|QO|1;3;4|N|Kill Prairie Wolves, Plainstriders and Swoops on the way until you get the parts.|S|
@@ -101,8 +107,9 @@ N Rite of Vision|QID|772|U|4823|N|Use the Water of the Seers, a 30 second cast. 
 r Sell Junk and Repair|QID|754|M|45.90,58.73|N|Sell Junk and repair before heading out again.|
 C Winterhoof Cleansing|QID|754|M|53.67,66.34|QO|1|U|5411|N|Clear your way to the well and use the provided Winterhoof Cleansing Totem.|
 C Sharing the Land|QID|745|M|53.60,73.13;48.56,73.11|CN|QO|1;2;3|N|There are multiple Palemane camps to choose from, but only the east one has Poachers. Watch out for Snagglespear, a rare that hits relatively hard.|
+; lv 7
 C Mazzranache|QID|766|QO|1;3;4|N|Kill Prairie Wolves, Plainstriders and Swoops on the way until you get the parts.|US|
-C Mazzranache|QID|766|QO|2|N|Kill Flatland Cougars on the way until one drops a Femur.|S|
+C Mazzranache|QID|766|QO|2|N|Kill Flatland Cougars until one drops a Femur.|S|
 C Dangers of the Windfury|QID|743|M|62.22,71.05|QO|1|N|Kill Windfury Harpies.|
 R Camp Taurajo|QID|754|M|69.70,60.50|CS|N|Run to Camp Taurajo to get the flight point early. You will need it later for your Bear quest. Watch out for the level 10 wolves.|C|Druid|
 f Camp Taurajo|QID|754|M|44.44,59.15|Z|The Barrens|N|Get the flight point at Omusa Thunderhorn.|C|Druid|
@@ -112,7 +119,7 @@ A The Ravaged Caravan|QID|751|M|53.74,48.17|N|From the Sealed Supply Crate.|PRE|
 T The Ravaged Caravan|QID|751|M|59.82,62.51;57.45,61.25;52.03,59.66|CC|N|To Morin Cloudstalker, who patrols the road.|
 A Supervisor Fizsprocket|QID|765|M|59.82,62.51;57.45,61.25;52.03,59.66|CC|N|To Morin Cloudstalker, who patrols the road.|PRE|751|
 A The Venture Co.|QID|764|M|61.30,63.30;57.45,61.25;52.03,59.66|CC|N|To Morin Cloudstalker, who patrols the road.|PRE|751|
-C Mazzranache|QID|766|QO|2|N|Kill Flatland Cougars one drops a Femur.|US|
+C Mazzranache|QID|766|QO|2|N|Kill Flatland Cougars until one drops a Femur.|US|
 T Winterhoof Cleansing|QID|754|M|48.53,60.39|N|To Mull Thunderhorn.|
 A Thunderhorn Totem|QID|756|M|48.53,60.39|N|From Mull Thunderhorn.|PRE|754|
 T Dangers of the Windfury|QID|743|M|47.35,62.01|N|From Ruul Eagletalon.|
