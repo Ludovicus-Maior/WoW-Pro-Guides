@@ -3,7 +3,7 @@
 
 local guide = WoWPro:RegisterGuide('Classic-15-21-Hendo-TheBarrens', 'Leveling', 'The Barrens', 'Hendo72', 'Horde', 1)
 WoWPro:GuideName(guide, 'The Barrens')
-WoWPro:GuideLevels(guide, 15, 21, 13)
+WoWPro:GuideLevels(guide, 10, 17, 13)
 WoWPro:GuideNextGuide(guide, 'Jame-HordeGuide-1')
 WoWPro:GuideSteps(guide, function() return [[
 
@@ -44,14 +44,14 @@ A Fungal Spores|QID|848|M|51.45,30.15|N|From Apothecary Helbrim.|
 
 R Unnamed Watch Post|QID|850|M|45.49,28.41|CC|N|Follow the road west out of the Crossroads.|
 A Centaur Bracers|QID|855|M|45.34,28.42|N|From Regthar Deathgate.|
-C Centaur Bracers|QID|855|L|5030 15|N|Kill centaurs and loot their bracers|S|
+C Centaur Bracers|QID|855|QO|1|N|Kill centaurs and loot their bracers|S|
 A Kolkar Leaders|QID|850|M|45.34,28.42|N|From Regthar Deathgate.|
 
 C Fungal Spores|QID|848|M|44.8,22.9|QO|1|N|Head north to the pool and pick up mushrooms. Try to avoid the big packs of centaurs.|NC|
 C The Forgotten Pools|QID|870|M|45.08,22.53|QO|1|N|Get into the lake, and look for a crack in the floor with some bubbles flowing out of it. Swim over the bubbles.|NC|
 C Kolkar Leaders|QID|850|M|42.8,23.6|QO|1|N|Head west towards a small gazeebo-like building up on a hill. Just outside that building will be Barak Kodobane, with one patroller nearby. CAREFULLY pull the patroller, and kill him one on one, then Kill Barak Kodobane. It's a tough fight, try coming back after you gain a level if you can't get him at first.|
 
-C Harpy Raiders|QID|867|M|41.65,20.24|QO|1|N|Kill the Harpies until you collect 8 Witchwing Talons. Be aware that they will run before you kill them.|
+K Harpy Raiders|QID|867|M|41.65,20.24|QO|1|N|Kill the Harpies until you collect 8 Witchwing Talons. Be aware that they will run before you kill them.|
 
 T Kolkar Leaders|QID|850|M|45.34,28.42|N|To Regthar Deathgate.|
 A Verog the Dervish|QID|851|M|45.34,28.42|N|From Regthar Deathgate|PRE|850|
@@ -64,7 +64,7 @@ A The Stagnant Oasis|QID|877|M|52.26,31.93|N|From Tonga Runetotem.|PRE|870|
 T Fungal Spores|QID|848|M|51.44,30.15|N|To Apothecary Helbrim.\nDon't take the follow up... yet. It's a timed quest you'll do later.|
 A Wharfmaster Dizzywig|QID|1492|M|51.45,30.15|N|From Apothecary Helbrim.|LEAD|896|
 
-; --- Finish up Druid class quest
+; --- Finish up Druid Cure Poison quest
 C Curing the Sick|QID|6129|U|15826|T|Sickly Gazelle|QO|1|N|Use the salve on 10 Sickly Gazelle. You'll find them all around the northern end of The Barrens.|R|Tauren|C|Druid|US|
 P Moonglade|ACTIVE|6129|N|Use your Teleport: Moonglade.|R|Tauren|C|Druid|
 T Curing the Sick|QID|6129|M|56.19,30.65|Z|Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
@@ -94,7 +94,7 @@ R Ratchet|QID|1492|M|59.80,38.89|CC|N|Take the east road out of The Crossroads t
 A Southsea Freebooters|QID|887|M|62.68,36.23|N|From Gazlowe.|
 f Ratchet|QID|1492|M|63.09,37.17|N|From Bragok.|TAXI|-Ratchet|
 A Samophlange|QID|894|M|62.98,37.22|N|From Sputtervalve|
-A WANTED: Baron Longshore|QID|895|M|62.59,37.47|N|From WANTED poster.|
+A WANTED: Baron Longshore|QID|895|M|62.59,37.47|N|From WANTED poster on Bank wall.|
 T Wharfmaster Dizzywig|QID|1492|M|63.35,38.45|N|To Wharfmaster Dizzywig.|
 
 C The Shattered Hand|QID|1963|M|63.8,44.5|N|Tazan patrols to the south. Kill him and loot his satchel.|R||Orc,Troll|C|Rogue|
@@ -119,6 +119,21 @@ A Stolen Silver|QID|3281|M|51.93,30.32|N|From Gazrog.|PRE|869|
 T Disrupt the Attacks|QID|871|M|51.50,30.87|N|To Thork.|
 A The Disruption Ends|QID|872|M|51.50,30.87|N|From Thork.|PRE|871|
 
+; --- Druid Aquatic class quest
+; Druid class quest line to gain swim form
+A A Lesson to Learn|QID|27|M|76.48,27.25|Z|Thunder Bluff|N|From Turak Runetotem on Elder Rise. This begins your class quest line to learn Aquatic form.|LVL|16|R|Tauren|C|Druid|
+P Moonglade|QID|27|C|Druid|Z|Moonglade|N|Use your Moonglade portal spell.|R|Tauren|C|Druid|
+T A Lesson to Learn|QID|27|M|56.19,30.65|Z|Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
+A Trial of the Lake|QID|28|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze. This a 30 minute timed quest.\n[color=FF0000]NOTE: [/color]If you fail the quest, you will have to go to back to Dendrite Starblaze and restart it.|PRE|27|R|Tauren|C|Druid|
+; A Trial of the Lake|QID|28|M|56.21,30.62|Z|Moonglade|N|[color=FF0000]NOTE: [/color]You failed the quest. Go back to Dendrite Starblaze to restart the quest.\nRemember, you only have 30 minutes to complete the quest.|PRE|27|R|Tauren|C|Druid|FAIL|
+R Lake Elune'ara|ACTIVE|28|M|52.72,37.91|Z|Moonglade|N|Run to this rock ledge and JUMP into the water. Make sure you jump or you will take falling damage.|R|Tauren|C|Druid|
+l Shrine Bauble|QID|28|L|15877|N|Search the lake bed for a Bauble Container. They can be anywhere on the lake bed. There is a fissure at the bottom of the lake to replenish your breath with.\nClick on the Bauble Container to loot the Shrine Bauble.|NC|R|Tauren|C|Druid|
+C Trial of the Lake|QID|28|M|36.40,42.02|U|15877|QO|1|N|[color=FF0000]NOTE: [/color]The Bauble has a 5 minute timer attached to it.\nMake your way to the Shrine of Remulos (NW of the lake) and use the Shrine Bauble within the boundaries of the Shrine.|NC|R|Tauren|C|Druid|
+T Trial of the Lake|QID|28|M|36.51,40.12|Z|Moonglade|N|To Tajarri.\n[color=FF0000]NOTE: [/color]The quest timer continues running until you speak with her.\nYou will fail the quest if the timer expires.|R|Tauren|C|Druid|
+A Trial of the Sea Lion|QID|30|M|36.51,40.12|Z|Moonglade|N|From Tajarri.|PRE|28|R|Tauren|C|Druid|
+F Thunder Bluff|ACTIVE|30|M|44.70,34.41;44.28,45.87|Z|Moonglade|CC|N|Fly to Thunder Bluff.\nThis flight takes about 9 minutes.|R|Tauren|C|Druid|
+; --- You will continue this later.
+
 ; --- Rogue class quest
 F Orgrimmar|QID|1963|M|51.50,30.34|N|Fly to Orgrimmar.|R|Orc,Troll,Undead|C|Rogue|
 T The Shattered Hand|QID|1963|M|42.74,53.55|Z|Orgrimmar|N|To Therzok inside Cleft of Shadow.|R|Orc,Troll|C|Rogue|
@@ -135,12 +150,12 @@ F Crossroads|AVAILABLE|853|M|38.44,53.98;45.15,63.90|Z|Orgrimmar|CC|N|Fly back t
 A Apothecary Zamah|QID|853|M|51.44,30.15|N|From Apothecary Helbrim.\n[color=FF0000]NOTE: [/color]This is a timed quest (45 minutes).|PRE|848|
 F Camp Taurajo|QID|853|M|51.54,30.35|N|Fly to Camp Taurajo.|
 ; --- If quest failed
-A Apothecary Zamah|QID|853|M|51.44,30.15|N|[color=FF0000]NOTE: [/color]You failed the quest. Go back to Apothecary Helbrim in The Crossroads to restart it.|PRE|848|FAIL|
+;A Apothecary Zamah|QID|853|M|51.44,30.15|N|[color=FF0000]NOTE: [/color]You failed the quest. Go back to Apothecary Helbrim in The Crossroads to restart it.|PRE|848|FAIL|
 F Camp Taurajo|QID|853|M|51.54,30.35|N|Fly to Camp Taurajo.|
 
 C Lost in Battle|QID|4921|M|49.33,50.34|QO|1|N|Mankrik's wife is the "Beaten Corpse" found near a few small tauren buildings.\nClick on the body to inspect it.|NC|
 
-R Camp Taurajo|QID|853|M|47.31,57.64;46.29,58.00|CC|N|Run to Camp Taurajo. Stick to the road unless you want to do some grinding.|
+R Camp Taurajo|QID|853|M|47.40,57.53;46.29,58.00|CC|N|Run to Camp Taurajo. Stick to the road unless you want to do some grinding.|
 F Thunder Bluff|QID|853|M|44.44,59.15|N|Fly to Thundar Bluff.|
 T Apothecary Zamah|QID|853|M|30.04,29.83;22.90,21.03|CC|Z|Thunder Bluff|N|To Apothecary Zamah.\nHead to the Pools of Vision, beneath Spirit Rise.|
 A Serpentbloom|QID|962|M|22.90,21.03|Z|Thunder Bluff|ELITE|N|[color=e6cc80]Dungeon: Wailing Caverns[/color]\nFrom Apothecary Zamah, Spirit Rise.|
@@ -193,7 +208,7 @@ T Plundering the Plunderers|QID|2381|M|63.07,36.32|N|To Wrenix the Wretched.|R|O
 C The Stagnant Oasis|QID|877|M|55.60,42.72|QO|1|N|Now head southwest towards the Stagnant Oasis. When you get to the water, start looking for another Bubbling Fissure. Click on it to plant the seeds.|NC|
 
 K Verog the Dervish|QID|851|M|53.1,41.7|QO|1|N|Find the gazeebo on the side of the hill. Kill centaurs in the area until one says "I am slain! Summon Verog!" When you see this shout, head back to the gazeebo. Verog should be standing there. Kill him and loot his head.|
-C Centaur Bracers|QID|855|L|5030 15|N|Get any last centaur bracers you need.|US|
+C Centaur Bracers|QID|855|QO|1|N|Get any last centaur bracers you need.|US|
 N Kolkar's Booty|QID|851|M|52.73,41.83|U|5020|N|If you were lucky enough to get a Kolkar Booty Key to drop, use it on the chest before you leave.|
 
 T Centaur Bracers|QID|855|M|45.4,28.39|N|Make your way west to Regthar Deathgate's Bunker.|
@@ -219,16 +234,18 @@ F Camp Taurajo|QID|852|M|46.89,49.77|Z|Thunder Bluff|N|Fly back to Camp Taurajo.
 
 h Camp Taurajo|QID|852|M|45.6,59.0|N|Set your Hearthstone to Camp Taurajo.|
 R Raptor Grounds|ACTIVE|3281|M|50.80,50.42;57,52|CC|N|Head to the Raptor Grounds. You'll want to avoid the Bristleback Quilboar camps for now.\nYour best route is to take the road north to about the bridge and then follow the dry river bed east.|
-C Stolen Silver|QID|3281|M|58.05,53.85|QO|1|N|Clear your way through the grounds, picking off raptors one by one. The stolen silver is in a chest at the back of the grounds, guarded by three raptors. One of these can be pulled solo.|
-C Raptor Horns|QID|865|QO|1|N|Stay at the Raptor Grounds until you finish this quest|
-l Sunscale Feathers|QID|905|M|58,53|L|5165 3|N|Continue killng until you also have 3 Sunscale Feathers for the next quest, The Angry Scytheclaws.|
+C Raptor Horns|QID|865|QO|1|N|Loot these from killing Scytheclaws.|S|
+C Stolen Silver|QID|3281|M|58.05,53.85|QO|1|N|Clear your way through the grounds, picking off raptors one by one. The stolen silver is in a chest at the back of the grounds, guarded by three raptors. One of these can be pulled solo.|NC|
+C Raptor Horns|QID|865|QO|1|N|Stay at the Raptor Grounds until you finish this quest|US|
+l Sunscale Feathers|AVAILABLE|905|M|58,53|L|5165 3|N|Continue killng until you also have 3 Sunscale Feathers for the next quest, The Angry Scytheclaws.|
 C The Angry Scytheclaws|QID|905|M|52.45,46.57;52.03,46.48;52.60,46.10|CC|QO|1;2;3|N|Go to the raptor nests. Clear the area, then right-click each of the nests.|NC|
 
 C Altered Beings|QID|880|M|48.24,40.48|QO|1|N|Go to the Lushwater Oasis. Kill Oasis Snapjaws and loot their shells.|
 C Hezrul Bloodmark|QID|852|M|46.15,36.84|QO|1|N|Hezrul Bloodmark and his guards spawn outside the Wailing Caverns and patrol clockwise around the Oasis.\nOnce you've located him, take a look at his guards and decide which of the two guards is the WEAKEST. If you are able, polymorph, sap, root, or use any other crowd control you have on Hezrul. Kill the weakest guard and then run away until they stop chasing you. Go back to where you first fought them. Replenish and then rinse and repeat with the second guard. This will leave Hezrul all alone. Replenish and attack him directly.\n[color=FF0000]NOTE: [/color]Raid target Hezrul to make it easier to find him again after you escape.|
 T Hezrul Bloodmark|QID|852|M|45.34,28.42|N|To Regthar at his Bunker.|
 C Harpy Lieutenants|QID|875|M|40.48,15.84|QO|1|N|Make your way into The Dry Hills. Kill Witchwing Slayers to collect the rings.|
-F Ratchet|QID|865|M|51.54,30.35|N|Run to The Crossroads and fly to Ratchet.|
+R The Crossroads|QID|865|M|50.61,29.01|N|Run to the Crossroads.|
+F Ratchet|QID|865|M|51.54,30.35|N|Fly to Ratchet.|
 
 T Raptor Horns|QID|865|M|62.37,37.62|N|To Mebox Mizzyrix.|
 A Smart Drinks|QID|1491|M|62.37,37.62|ELITE|N|[color=e6cc80]Dungeon: Wailing Caverns[/color]\nFrom Mebox Mizzyrix.|PRE|865|
@@ -251,6 +268,9 @@ R The Sludge Fen|ACTIVE|3922|M|49.22,12.41;50.65,9.92;53.13,6.45;55.55,7.44|CC|N
 C Nugget Slugs|QID|3922|M|56,7|QO|1|N|Loot Nugget Slugs from tool buckets.|NC|S|
 A Ignition|QID|858|M|56.51,7.45|N|From Wizzlecrank's Shredder.\n[color=FF0000]NOTE: [/color]If it's not available, someone is already on it and you have to wait.|
 K Supervisor Lugwizzle|QID|858|M|56.3,8.2|L|5050|N|You'll find Supervisor Lugwizzle up in the tower. Kill him and loot the Ignition Key.|
+; --- Druid Aquatic class quest
+l Strange Lockbox|QID|30|M|56.69,8.30|L|15883|N|Before you leave, you can do the next step in your Aquatic class quest.\nSwim to the bottom and loot the Half Pendant of Aquatic Agility from the Lockbox.|NC|R|Tauren|C|Druid|
+; ---
 T Ignition|QID|858|M|56.51,7.45|N|To Wizzlecrank's Shredder.|
 A The Escape|QID|863|M|56.51,7.45|N|From Wizzlecrank's Shredder.|PRE|858|
 C The Escape|QID|863|M|55.34,7.89|QO|1|N|When we first start, make long pulls and killing the Drudgers and Mercenaries to the west of you. Continue to make long pulls while he heads west. Stay close to him, so that he will help you fight your attackers. Try not to let things run away. After a short while, the shredder will turn north up a ramp, and stop. Two Venture Co. mobs will spawn and attack you.|
@@ -271,6 +291,17 @@ C Warsong Outrider Update|QID|6543|M|73.50,63.76;75.41,64.25;76.68,58.48;78.80,5
 R Zoram'gar Outpost|QID|6548|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.20,47.28;26.43,42.33;16.51,30.27;12.73,33.29|Z|Ashenvale|CC|N|Follow the road all the way west to Zoram'gar Outpost.  Watch out for the higher level mobs along the way.\nWhen you get to Astranaar, you can either follow the shoreline to the south, or swim. Swimming means less fighting.|
 C Warsong Runner Update|QID|6543|M|12.22,34.21|Z|Ashenvale|QO|2|N|Hand out the last report to the Warsong Runner.|NC|
 f Zoram'gar Outpost|QID|6548|M|12.19,33.82|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
+A Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|From Marukai.|
+C Naga at the Zoram Strand|QID|6442|QO|1|N|Kill Nagas to collect Wrathtail Heads.\nI recommend using Muglash to kill as many Nagas as you can. Avoid the Priestesses; they fully heal from almost dead.|S|
+A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|N|[color=FF0000]NOTE: [/color]Escort quest.\nFrom Muglash. If he's not there, just wait because someone is already doing the quest.|
+;A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED [/color]\Go back to Muglash to restart thequest.\nIf he's not there, just wait because someone is already doing the quest.|FAIL|
+
+; Vorsha the Lasher seems to be 'glitched' and you don't have to actually defeat Vorsha.
+;C Vorsha the Lasher|QID|6641|M|9.63,27.66|Z|Ashenvale|QO|1|N|Accompany Muglash to the brazier. Right-click the brazier to extinguish the flame. Protect Muglash as you fight against 2 waves of 3 Nagas and then Vorsha in the final wave.\nMake sure you kill the Priestesses first, as they will heal everyone fully.
+C Vorsha the Lasher|QID|6641|M|9.63,27.66|Z|Ashenvale|QO|1|N|\n[color=FF0000]NOTE: [/color]This quest is a bit glitched. All you have to do is escort Muglash to the Brazier, extinguish the flame and then die. Do NOT release your body until Muglash dies. Release and recover your body. Run back to Muglash in Zoram'gar Outpost to restart the quest. When you reach the base of the first hill, Muglash will stop and thank you for helping. At this point, the quest will be completed.|
+C Naga at the Zoram Strand|QID|6442|QO|1|N|Finish collecting Wrathtail Heads.|US|
+T Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|To Marukai.|
+T Vorsha the Lasher|QID|6641|M|12.22,34.21|Z|Ashenvale|N|To Warsong Runner.|
 F Crossroads|QID|6548|M|12.19,33.82|Z|Ashenvale|N|Time to head back to The Barrens.|
 
 T Harpy Lieutenants|QID|875|M|51.62,30.90|N|To Darsok Swiftdagger.|
@@ -296,7 +327,7 @@ C Grimtotem Brutes|QID|6629|QO|2|N|Kill them as you go.|S|
 K Kill Grundig Darkcloud|QID|6629|M|71.44,89.45;73.70,86.33|Z|Stonetalon Mountains|CC|T|Grundig Darkcloud|QO|1|N|Follow the road into Grimtotem Post. You'll find him standing in the doorway of the tent.\nIf he's not there, clear the area while waiting for him to respawn.|
 A Protect Kaya|QID|6523|M|73.5,85.63|Z|Stonetalon Mountains|N|From Kaya Flathoof inside the tent.|
 C Protect Kaya|QID|6523|QO|1|N|This is an escort mission. She will walk West out of the grimtotem settlement, then start following the road Southast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 Grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
-A Protect Kaya|QID|6523|M|73.5,85.63|Z|Stonetalon Mountains|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Kaya Flathoof inside the tent to restart the quest.\nYou may have to wait for her to respawn|FAIL|
+;A Protect Kaya|QID|6523|M|73.5,85.63|Z|Stonetalon Mountains|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Kaya Flathoof inside the tent to restart the quest.\nYou may have to wait for her to respawn|FAIL|
 C Grimtotem Brutes|QID|6629|QO|2|N|Finish killing them before you leave the area.|US|
 T Kill Grundig Darkcloud|QID|6629|M|35.2,27.8|N|To Makaba Flathoof at the border.|
 T Protect Kaya|QID|6523|M|35.2,27.8|N|To Makaba Flathoof.|
@@ -412,24 +443,25 @@ T The Binding|QID|1513|M|48.24,45.28|Z|Orgrimmar|N|To Gan'rul Bloodeye.|R|Orc,Un
 T Rilli Greasygob|QID|3923|M|76.51,24.43|Z|Orgrimmar|N|Head to the Valley of Honor and look for Rilli Greasygob. You'll find him inside Nogg's Machine Shop.|
 A Samophlange Manual|QID|3924|M|76.51,24.43|Z|Orgrimmar|N|From Rilli Greasygob.|PRE|3923|
 R Southfury River|ACTIVE|3924|N|Leave Orgrimmar through the west gate.|M|11.45,67.06|Z|Orgrimmar|
-C Samophlange Manual|ACTIVE|3924|M|63.66,4.43;62.74,4.75;60.0,4.1|CC|L|11148|N|Very close by you should find Boulder Lode Mine. Fight your way into the mine, and be VERY careful. This area is full of 17-18 mobs that run away at low health and are packed incredibly tightly. Also, because the area is so small inside the cave, respawn can and will bite you.|
-C Samophlange Manual|ACTIVE|3924|M|59,4|L|11147|N|At the back of the cave, you'll find Boss Copperplug.|
-L Samophlange Manual Pages|ACTIVE|3924|L|11148 5|N|Keep killing them until you have 5 pages.|
-C Samophlange Manual|ACTIVE|3924|M|60.0,4.1|U|11148|QO|1|N|Click the pages to combine into a manual.|
-C Miner's Fortune|QID|896|M|60.0,4.1|QO|1|N|Keep killing goblins until the Cate's Eye Emerald drops.|
+C Samophlange Manual Pages|ACTIVE|3924|M|63.66,4.43;62.74,4.75;60.0,4.1|CC|L|11148 5|N|Make your way to Boulder Lode Mine. Kill Venture Co. Enforcers and Overseers to collect the pages.|S|
+C Miner's Fortune|QID|896|QO|1|N|The Cat's Eye Emerald drops from one of the Venture Co. Enforcers or Overseers.|S|
+C Samophlange Manual Cover|ACTIVE|3924|M|59,4|L|11147|N|At the back of the cave, you'll find Boss Copperplug. Kill him for the Manual Cover.|
+C Samophlange Manual Pages|ACTIVE|3924|L|11148 5|N|Keep killing them until you have 5 pages.|US|
+C Samophlange Manual|ACTIVE|3924|U|11148|QO|1|N|Combine the cover and the pages together to make the manual.|
+C Miner's Fortune|QID|896|QO|1|N|Continue killing the Venture Co. Enforcers or Overseers until the Cat's Eye Emerald drops.|US|
 
-T The Warsong Reports|QID|6543|M|61.52,7.62;49.43,13.69;48.12,5.42|CC|N|To Kadrak, back at Mor'shan Rampart.|
+T The Warsong Reports|QID|6543|M|62.22,7.44;49.43,13.69;48.12,5.42|CC|N|To Kadrak, back at Mor'shan Rampart.|
 H Camp Taurajo|QID|3261|M|51.5,30.3|N|If your hearth isn't up, run back to the Crossroads and then fly there.|
 T Jorn Skyseer|QID|3261|M|44.8,59|N|To Jorn Skyseer.|
-A Ishamuhale|QID|882|PRE|3261|M|44.8,59|N|From Jorn Skyseer.|
+A Ishamuhale|QID|882|M|44.8,59|N|From Jorn Skyseer.|PRE|3261|
 A Tribes at War|QID|878|M|44.6,59.2|N|From Mangletooth.|
 
 C Tribes at War|QID|878|M|43,51;42,48|CS|N|Move north. Move back and forth between this camp and the other until you have killed the necessary number of Bristlebacks of each type.|
-C Consumed by Hatred|QID|899|M|44.75,57.99;43,51;42,48|CS|N|Keep killing Bristlebacks until you have enough tusks.|
+C Consumed by Hatred|QID|899|M|44.75,57.99;43,51;42,48|CS|N|Continue killing Bristlebacks until you have enough tusks.|
 N Blood Shards|QID|5052|L|5075 11|N|Continue to kill until you have at least 11 Blood Shards.|
 
 T Tribes at War|QID|878|M|44.6,59.2|N|To Mangletooth, back to Camp Taurajo.|
-A Blood Shards of Agamaggan|QID|5052|PRE|878|M|44.6,59.2|N|From Mangletooth.|
+A Blood Shards of Agamaggan|QID|5052|M|44.6,59.2|N|From Mangletooth.|PRE|878|
 T Blood Shards of Agamaggan|QID|5052|M|44.6,59.2|N|To Mangletooth.|
 A Spirit of the Wind|QID|889|PRE|5052|M|44.6,59.2|N|From Mangletooth for a speed buff.|
 R Northwatch Hold|QID|891|M|60.4,53.0|N|Spirit of the Wind which gives a nifty speed buff, which will help with this run! Go north along the road, and then turn east towards Northwatch Hold. Stay on the road for as long as you can. Be careful to avoid the Bristlebacks on your way, the Thornweavers will root you, making it impossible to run from them.|
@@ -437,9 +469,9 @@ N Theramore Medals|QID|891|QO|4|S|N|Kill Dwarves, Loot 10 Theramore Medals.|
 K Cannoneer Smythe|QID|891|T|Cannoneer Smythe|QO|3|M|63.1,56.7|N|Follow the path from the entrance, at top of the hill, turn right and approach the West tower. Clear mobs around the tower. Inside are 3 mobs, one of which is a cloth-wearing healer. This is a tricky fight, but possible. If you have to, use the same tactic we used for Hezrul Bloodmark. Once all 3 of them are dead, climb the tower. Canoneer Smythe is at the top with a guard.|
 K Cannoneer Whessan|QID|891|T|Cannoneer Whessan|QO|2|M|60.5,54.8|N|Now head to the East tower. Same routine as before, three guards on the ground level. Take them down, climb the tower, use any tactics you have and bring down Cannoneer Whessan, and leave the tower.|
 K Captain Fairmount|QID|891|M|61.8,54.7|QO|1|T|Captain Fairmount|N|Head back down the hill, clear mobs around the keep, mana/CDs ready. There are 4 mobs in this room, but they will pull 2 at a time. Range the healer then run around a corner to break her line of sight, and she'll come to get you. Do not take the Blood Elf's quest yet. Once the guards are dead, continue fighting  your way to the top of the tower, moving slowly and carefully. At the top of the tower, you will find ~ 4 regular mobs, and Captain Fairmount. The regular mobs should singly, so clear the area off until Fairmount is alone. Then simply kill her.|
-A Free From the Hold|QID|898|M|61.93,54.92|N|After Cptn Fairmount is dead, Head back down for the escort quest.|
+A Free From the Hold|QID|898|M|61.93,54.92|N|After Captain Fairmount is dead, head back down for the escort quest.|
 C Free From the Hold|QID|898|N|Escort Gilthares. Try to stay close to him. Don't let him tank things for too long if you can help it. He will walk to the main gates of Northwatch, then heading north through the pirate camps. Escort him all the way to Ratchet.|
-C Theramore Medals|QID|891|QO|4|US|N|Loot 10 Theramore Medals.|
+C Theramore Medals|QID|891|QO|4|N|Loot 10 Theramore Medals.|US|
 T The Guns of Northwatch|QID|891|M|62.29,39.03|N|To Captain Thalo'thas Brightsun.|
 T Free From the Hold|QID|898|M|62.29,39.03|N|To Captain Thalo'thas Brightsun.|
 T Deepmoss Spider Eggs|QID|1069|M|62.4,37.6|N|To Mebox Mizzyrix.|
