@@ -117,6 +117,7 @@ A The Ravaged Caravan|QID|749|M|59.82,62.51;57.45,61.25;52.03,59.66|CN|N|From Mo
 T The Ravaged Caravan|QID|749|M|53.74,48.17|N|Work your way into the camp and right-click the Sealed Supply Crate.|
 A The Ravaged Caravan|QID|751|M|53.74,48.17|N|From the Sealed Supply Crate.|PRE|749|
 T The Ravaged Caravan|QID|751|M|59.82,62.51;57.45,61.25;52.03,59.66|CC|N|To Morin Cloudstalker, who patrols the road.|
+; lv 8
 A Supervisor Fizsprocket|QID|765|M|59.82,62.51;57.45,61.25;52.03,59.66|CC|N|To Morin Cloudstalker, who patrols the road.|PRE|751|
 A The Venture Co.|QID|764|M|61.30,63.30;57.45,61.25;52.03,59.66|CC|N|To Morin Cloudstalker, who patrols the road.|PRE|751|
 C Mazzranache|QID|766|QO|2|N|Kill Flatland Cougars until one drops a Femur.|US|
@@ -130,7 +131,8 @@ r Sell Junk and Repair|QID|756|M|45.90,58.73|N|Sell Junk and repair and train yo
 
 C Thunderhorn Totem|QID|756|QO|1;2|N|Kill Prairie Stalkers and Flatland Cougars on the way.|S|
 C Dwarven Digging|QID|746|M|31.26,49.83|L|4702 5|N|Kill Dwarves for the Prospector's Picks.|
-C Dwarven Digging|QID|746|M|31.26,49.83|QO|1|U|4702|N|Use the Picks at the forge to destroy them.|
+C Dwarven Digging|QID|746|M|31.26,49.83|QO|1|U|4702|N|Use the Picks at the forge to destroy them.|NC|
+; lv 9
 T Rite of Vision|QID|772|M|34.60,37.77;32.72,36.09|CS|N|To Seer Wiserunner inside the cave.|
 A Rite of Vision|QID|773|M|32.72,36.09|N|From Seer Wiserunner.|PRE|772|
 C Swoop Hunting|QID|761|N|Kill Swoops to complete the quest on your way back to Bloodhoof Village.|
@@ -138,7 +140,7 @@ C Thunderhorn Totem|QID|756|M|42.12,47.80|QO|1;2|N|Kill Stalkers and Cougars on 
 T Swoop Hunting|QID|761|M|48.71,59.32|N|To Harken Windtotem.|
 T Thunderhorn Totem|QID|756|M|48.53,60.39|N|From Mull Thunderhorn.|
 A Thunderhorn Cleansing|QID|758|M|48.53,60.39|N|From Mull Thunderhorn.|PRE|756|R|Tauren|
-T Dwarven Digging|QID|746|M|47.51,60.17|N|To Baine Bloodhoof.|
+T Dwarven Digging|QID|746|M|47.51,60.17|N|To Baine Bloodhoof. Dispose of any leftover Prospector's Picks.|
 r Sell Junk and Repair|QID|758|M|45.90,58.73|N|Sell Junk and repair and train your skills before heading out again.|
 
 C Thunderhorn Cleansing|QID|758|M|44.33,45.33|QO|1|U|5415|N|Clear the way to the well and use the totem.|
@@ -161,7 +163,7 @@ A Veteran Uzzek|QID|1505|M|49.51,60.58|N|From Krang Stonehoof.|R|Tauren|C|Warrio
 ; --- Shaman
 A Call of Fire|QID|2984|M|48.39,59.16|N|From Narm Skychaser.|R|Tauren|C|Shaman|
 ; --- Druid
-A Heeding the Call|QID|5928^5926^5927|M|48.48,59.65|N|From Gennia Runetotem.|R|Tauren|C|Druid| ; Multiple QIDs... 5928 is the primary one.
+A Heeding the Call|QID|5928|M|48.48,59.65|N|From Gennia Runetotem.|R|Tauren|C|Druid| ; Multiple QIDs... 5928 is the primary one.
 ; --- Hunter {Tame pet quest chain}
 A Taming the Beast|QID|6061|M|47.82,55.68|N|From Yaw Sharpmane.|R|Tauren|C|Hunter|
 C Taming the Beast|QID|6061|M|43.55,51.80|U|15914|N|Use the Taming Rod on an Adult Plainstrider, either north or south of Either north or south of Bloodhoof Village.|R|Tauren|C|Hunter|
@@ -187,15 +189,16 @@ A Searching for the Lost Satchel|QID|5722|M|70.53,31.77|Z|Thunder Bluff|N|Pick t
 A The Barrens Oases|QID|886|M|78.57,28.57|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem on Elder Rise.|
 
 ; --- Druid Bear form (Feral Combat) quest chain
-T Heeding the Call|QID|5926|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|R|Tauren|C|Druid|
+T Heeding the Call|QID|5926^5927^5928|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|R|Tauren|C|Druid|
 A Moonglade|QID|5922|M|76.47,27.26|Z|Thunder Bluff|N|From Turak Runetotem.|PRE|5926|R|Tauren|C|Druid|
-T Moonglade|QID|5922|M|56.21,30.62|Z|Moonglade|N|Use the Teleport: Moonglade spell you learned from Turak Runetotem. To Dendrite Starblaze.|R|Tauren|C|Druid|
+P Moonglade|ACTIVE|5922|N|Use the Teleport: Moonglade spell you learned from Turak Runetotem.|R|Tauren|C|Druid|
+T Moonglade|QID|5922|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze.|R|Tauren|C|Druid|
 A Great Bear Spirit|QID|5930|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|5922|R|Tauren|C|Druid|
 C Great Bear Spirit|QID|5930|M|53.39,31.16;45.03,26.67;39.31,27.44|Z|Moonglade|CC|QO|1|N|Talk to the bear spirit until quest is complete.|CHAT|R|Tauren|C|Druid|
 T Great Bear Spirit|QID|5930|M|56.21,30.62|Z|Moonglade|N|To Dendrite Starblaze. Use Teleport: Moonglade again instead of running back.|R|Tauren|C|Druid|
 A Back to Thunder Bluff|QID|5932|M|56.21,30.62|Z|Moonglade|N|From Dendrite Starblaze.|PRE|5930|C|Druid|
 F Thunder Bluff|QID|5932|M|44.29,45.85|Z|Moonglade|N|Speak with Bumthen Plainswind to fly back to Thunder Bluff.\nGo grab a coffee. It's a looong flight.|R|Tauren|C|Druid|
-T Heeding the Call|QID|5932|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|R|Tauren|C|Druid|
+T Back to Thunder Bluff|QID|5932|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|R|Tauren|C|Druid|
 A Body and Heart|QID|6002|M|76.47,27.26|Z|Thunder Bluff|N|From Turak Runetotem.|PRE|5932|R|Tauren|C|Druid|
 F Camp Taurajo|QID|6002|M|46.98,49.84|Z|Thunder Bluff|R|Tauren|C|Druid|
 C Body and Heart|QID|6002|M|42.28,59.97;42.00,60.90|Z|The Barrens|CC|QO|1|U|15710|N|Use the Cenarion Lunardust at the Moonkin Stone to summon Lunaclaw. Kill him and talk to his ghost to complete the quest. Be careful of the level 20 Thunderheads that roam the area.|R|Tauren|C|Druid|
