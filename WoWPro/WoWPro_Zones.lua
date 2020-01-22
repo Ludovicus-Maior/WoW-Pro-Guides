@@ -277,7 +277,7 @@ function WoWPro.NameZones()
         if not wip_name_info[nomen] then
             -- Whee the name is free!
             wip_name_info[nomen] = id
-        elseif wip_name_info[nomen] == id then
+        elseif wip_name_info[nomen] == id then -- luacheck: ignore
             -- Whew, our name is still unique
         else
             -- Collision! Tack on ancestors till we are unique.

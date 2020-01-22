@@ -173,11 +173,11 @@ frame:SetScript("OnShow", function()
 		
 	end
 	
-	local f = scrollbar:GetScript("OnValueChanged")
+	local onValueChanged = scrollbar:GetScript("OnValueChanged")
 	scrollbar:SetScript("OnValueChanged", function(self, value, ...)
 		offset = floor(value)
 		WoWPro.Leveling.UpdateCurrentGuidePanel()
-		return f(self, value, ...)
+		return onValueChanged(self, value, ...)
 	end)
 
 	frame:EnableMouseWheel()

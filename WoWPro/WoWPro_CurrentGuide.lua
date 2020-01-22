@@ -215,11 +215,11 @@ frame:SetScript("OnShow", function()
 
 	end
 
-	local f = scrollbar:GetScript("OnValueChanged")
+	local onValueChanged = scrollbar:GetScript("OnValueChanged")
 	scrollbar:SetScript("OnValueChanged", function(self, value, ...)
 		offset = floor(value)
 		WoWPro.UpdateCurrentGuidePanel()
-		return f(self, value, ...)
+		return onValueChanged(self, value, ...)
 	end)
 
 	frame:EnableMouseWheel()
@@ -244,7 +244,7 @@ function WoWPro:GuideBugReport()
     text = ("Version: %s, Class: %s, Race: %s, Faction: %s, Guide: %s\n\n"):format(WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), _G.UnitFactionGroup("player"), tostring(GID))
     text = text .. WoWPro:QuestLogStatus() .. "\n"
     text = text .. WoWPro:GuideStatus() .. "\n"
-    LogBox.Box:SetText( text )
+    LogBox.Box:SetText(text)
     LogBox.Scroll:UpdateScrollChildRect()
     LogBox:Show()
     WoWPro:Print("WoWPro:GuideBugReport(): ready to copy/paste!")

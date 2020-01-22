@@ -676,14 +676,10 @@ function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
     guide['startlevel'] = tonumber(lowerLevel)
     guide['endlevel'] = tonumber(upperLevel)
     guide['level'] = tonumber(meanLevel)
-    guide['sortlevel'] = guide['level']
 end
 
 -- This function should be called AFTER WoWPro:GuideLevels() to override the settings from WoWPro:GuideLevels()
 function WoWPro:NewGuideLevels(guide, lowerLevel, upperLevel, sortLevel)
-    if not WoWPro.NewLevels then
-        return
-    end
     local playerLevel = WoWPro:PlayerLevel()
     -- Supply dynamic levels if not all the parameters are suppplied.
     if not lowerLevel then
@@ -712,7 +708,6 @@ function WoWPro:NewGuideLevels(guide, lowerLevel, upperLevel, sortLevel)
     guide['startlevel'] = tonumber(lowerLevel)
     guide['endlevel'] = tonumber(upperLevel)
     guide['level'] = tonumber(meanLevel)
-    guide['sortlevel'] = tonumber(sortLevel) or tonumber(meanLevel)
 end
 
 function WoWPro:GuideRaceSpecific(guide, race)
@@ -1215,7 +1210,6 @@ WoWPro.RETAIL = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_MAINLINE
 WoWPro.FakeClassic = false
 if WoWPro.FakeClassic then
     WoWPro.CLASSIC = true
-    WoWPro.NewLevels = false
 end
 
 -- TourGuide for CLASSIC
