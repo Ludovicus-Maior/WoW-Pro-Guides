@@ -255,7 +255,7 @@ else
 
         -- first scan all profession tradeskill lines that are learned
         for _, skillLineID in ipairs(_G.C_TradeSkillUI.GetAllProfessionTradeSkillLines()) do
-            local _, skillLineRank, skillLineMaxRank, skillLineModifier, parentSkillLineID = _G.C_TradeSkillUI.GetTradeSkillLineInfoByID(skillLineID)
+            local _, skillLineRank, skillLineMaxRank, skillLineModifier = _G.C_TradeSkillUI.GetTradeSkillLineInfoByID(skillLineID)
             if skillLineRank > 0 and WoWPro.ProfessionSkillLines[skillLineID] then
                 tradeskills[skillLineID] = {
                     name = WoWPro.ProfessionSkillLines[skillLineID].name,
@@ -353,11 +353,11 @@ else
         for _, catID in ipairs({_G.C_TradeSkillUI.GetCategories()}) do
 
             -- only scan category IDs we are interested in
-            local skillLineID = WoWPro.ProfessionSkillLines[catID]
+            skillLineID = WoWPro.ProfessionSkillLines[catID]
             if skillLineID then
                 _G.C_TradeSkillUI.GetCategoryInfo(catID, catInfo)
                 if catInfo.hasProgressBar and catInfo.skillLineCurrentLevel and catInfo.skillLineMaxLevel then
-                    local tradeInfo = WoWProCharDB.Tradeskills[skillLineID] or {}
+                    tradeInfo = WoWProCharDB.Tradeskills[skillLineID] or {}
                     tradeInfo.name = WoWPro.ProfessionSkillLines[skillLineID].name
                     tradeInfo.skillLvl = skillLineRank
                     tradeInfo.skillMax = skillLineMaxRank
@@ -399,7 +399,7 @@ end
 
 -- learn recipe from NEW_RECIPE_LEARNED event
 function WoWPro.LearnRecipe(spellID)
-    local spellID = tonumber(spellID)
+    spellID = tonumber(spellID)
     if spellID then
         if WoWProCharDB.Trades[spellID] then
             -- You managed to learn something you already knew?

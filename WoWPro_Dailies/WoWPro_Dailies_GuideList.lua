@@ -21,9 +21,9 @@ local function AddInfo(guide)
         return
     end
     
-    local name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild
+    local name
     if tonumber(guide.faction) then
-        name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = _G.GetFactionInfoByID(guide.faction)
+        name = _G.GetFactionInfoByID(guide.faction)
     end
     if not name then
         WoWPro.Dailies:Error("Guide %s: bad faction [%s]",guide.GID,tostring(guide.faction))

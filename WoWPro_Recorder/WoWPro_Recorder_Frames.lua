@@ -48,73 +48,82 @@ local function CreateInitSpecMenu(module)
     WoWPro.Recorder:dbp("CreateInitSpecMenu(%s): Start", module)
     -- Insert guidetype selector
     optionsTable["guidetype"] = {
-            					order = 0,
-            					type = "select",
-            					name = "Select the guide's type:",
-            					desc = "The guide's type determines what kind of events will be listened for.",
-            					width = "full",
-            					values = function()
-            						WoWPro.Recorder.ModuleTable = {}
-            						local i = 1
-            						for name, module in WoWPro:IterateModules() do
-            							if name ~= "Recorder" and WoWPro.Recorder.initSpecs[name] then
-            								WoWPro.Recorder.ModuleTable[i] = name
-            								i = i+1
-            							end
-            						end
-            						return WoWPro.Recorder.ModuleTable
-            					end,
-            					get = function(info) return WoWPro.Recorder.CurrentGuide.TypeVal end,
-            					set = function(info,val)
-            							WoWPro.Recorder.CurrentGuide.Type = WoWPro.Recorder.ModuleTable[val]
-            							WoWPro.Recorder.CurrentGuide.TypeVal = val
-            							dialog:Close("WoWPro Recorder - New Guide");
-            							dialog:Open("WoWPro Recorder - New Guide - " .. WoWPro.Recorder.CurrentGuide.Type , WoWPro.DialogFrame)
-            						end
-            			      }
+		order = 0,
+		type = "select",
+		name = "Select the guide's type:",
+		desc = "The guide's type determines what kind of events will be listened for.",
+		width = "full",
+		values = function()
+			WoWPro.Recorder.ModuleTable = {}
+			local i = 1
+			for name in WoWPro:IterateModules() do
+				if name ~= "Recorder" and WoWPro.Recorder.initSpecs[name] then
+					WoWPro.Recorder.ModuleTable[i] = name
+					i = i + 1
+				end
+			end
+			return WoWPro.Recorder.ModuleTable
+		end,
+		get = function(info) return WoWPro.Recorder.CurrentGuide.TypeVal end,
+		set = function(info,val)
+			WoWPro.Recorder.CurrentGuide.Type = WoWPro.Recorder.ModuleTable[val]
+			WoWPro.Recorder.CurrentGuide.TypeVal = val
+			dialog:Close("WoWPro Recorder - New Guide");
+			dialog:Open("WoWPro Recorder - New Guide - " .. WoWPro.Recorder.CurrentGuide.Type , WoWPro.DialogFrame)
+		end
+    }
 
     -- For each input (1..*)
     local idxMax = 1
     for idx,value in ipairs(initSpecs[module]) do
         WoWPro.Recorder:dbp("SpecLine %d %s {%s} %s %s", idx, value[1], value[2], value[3], tostring(value[4])  ) 
-        optionsTable[value[3]] = { order = idx , type = "input", name = value[1], desc = value[2] ,
-                                   get = function (info) return WoWPro.Recorder.CurrentGuide[value[3]] end,
-                                   set = function(info,val) WoWPro.Recorder.CurrentGuide[value[3]] = val end, }
+        optionsTable[value[3]] = {
+            order = idx,
+            type = "input",
+            name = value[1],
+            desc = value[2] ,
+            get = function (info)
+                return WoWPro.Recorder.CurrentGuide[value[3]]
+            end,
+            set = function(info,val)
+                WoWPro.Recorder.CurrentGuide[value[3]] = val
+            end,
+        }
         idxMax = idx
     end
 
     -- Register Guide
     optionsTable["registerguide"] = {
-					order = idxMax+1,
-					type = "execute",
-					name = "Register Guide",
-					desc = "Registers the guide to be used. Current guide will be lost unless saved.",
-					width = "full",
-					func = function(info,val) 
-                            local fail = false
+		order = idxMax+1,
+		type = "execute",
+		name = "Register Guide",
+		desc = "Registers the guide to be used. Current guide will be lost unless saved.",
+		width = "full",
+		func = function(info,val) 
+            local fail = false
 
-							for idx,value in ipairs(initSpecs[module]) do
-							    if not WoWPro.Recorder.CurrentGuide[value[3]] then
-							        WoWPro:Error("Oops! Looks like the recorder thinks you didn't fill out %s.",value[3])
-							        fail = true
-							    end
-							end
-							if fail then return; end
+			for idx,value in ipairs(initSpecs[module]) do
+			    if not WoWPro.Recorder.CurrentGuide[value[3]] then
+			        WoWPro:Error("Oops! Looks like the recorder thinks you didn't fill out %s.",value[3])
+			        fail = true
+			    end
+			end
+			if fail then return; end
 
-							local optArgs = {}
-							for idx,value in ipairs(initSpecs[module]) do
-                                if value[4] then
-                                    optArgs[value[4]] = WoWPro.Recorder.CurrentGuide[value[3]]
-                                    WoWPro.Recorder:Print("Setting %s to '%s'",value[4], WoWPro.Recorder.CurrentGuide[value[3]])
-                                else
-                                    WoWPro.Recorder:Print("Skipped %s",value[3])
-                                end
-							end
-							WoWPro.Recorder:InitGuide(WoWPro.Recorder.CurrentGuide.GID,WoWPro.Recorder.CurrentGuide.Type, optArgs)
-							WoWPro:LoadGuide(WoWPro.Recorder.CurrentGuide.GID);
-							dialog:Close("WoWPro Recorder - New Guide - "..module);
-						end,
-				}
+			local optArgs = {}
+			for idx,value in ipairs(initSpecs[module]) do
+                if value[4] then
+                    optArgs[value[4]] = WoWPro.Recorder.CurrentGuide[value[3]]
+                    WoWPro.Recorder:Print("Setting %s to '%s'",value[4], WoWPro.Recorder.CurrentGuide[value[3]])
+                else
+                    WoWPro.Recorder:Print("Skipped %s",value[3])
+                end
+			end
+			WoWPro.Recorder:InitGuide(WoWPro.Recorder.CurrentGuide.GID,WoWPro.Recorder.CurrentGuide.Type, optArgs)
+			WoWPro:LoadGuide(WoWPro.Recorder.CurrentGuide.GID);
+			dialog:Close("WoWPro Recorder - New Guide - "..module);
+		end,
+	}
 	WoWPro.Recorder:dbp("Registering new options dialog: {%s}","WoWPro Recorder - New Guide - "..module)
     config:RegisterOptionsTable("WoWPro Recorder - New Guide - "..module, {
         name = "Create New ".. module.. " Guide",
@@ -158,13 +167,13 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	recorderframe:RegisterForClicks("AnyUp")
 	WoWPro.RecorderFrame = recorderframe
 	-- Scripts --
-	WoWPro.RecorderFrame:SetScript("OnMouseDown", function(self, button)
+	WoWPro.RecorderFrame:SetScript("OnMouseDown", function(this, button)
 		if button == "LeftButton" and WoWProDB.profile.drag then
 			WoWPro.ResetMainFramePosition()
 			WoWPro.MainFrame:StartMoving()
 		end
 	end)
-	WoWPro.RecorderFrame:SetScript("OnMouseUp", function(self, button)
+	WoWPro.RecorderFrame:SetScript("OnMouseUp", function(this, button)
 		if button == "LeftButton" and WoWProDB.profile.drag then
 			WoWPro.MainFrame:StopMovingOrSizing()
 			WoWPro.AnchorSet()
@@ -185,21 +194,21 @@ function WoWPro.Recorder:CreateRecorderFrame()
 		-- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Record.tga"
 		WoWPro.RecordButton = CreateButton("Record", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Record.tga", WoWPro.RecordText)
 		-- Scripts --
-		WoWPro.RecordButton:SetScript("OnMouseUp", function(self, button)
+		WoWPro.RecordButton:SetScript("OnMouseUp", function(this, button)
 			if button == "LeftButton" then
 				WoWPro.Recorder.status = "REC"
 				WoWPro.RecordText:SetText(WoWPro.Recorder.status)
 			end
 		end)
-		WoWPro.RecordButton:SetScript("OnEnter", function(self)
-			_G.GameTooltip:SetOwner(self, "ANCHOR_CURSOR")
+		WoWPro.RecordButton:SetScript("OnEnter", function(this)
+			_G.GameTooltip:SetOwner(this, "ANCHOR_CURSOR")
 			_G.GameTooltip:ClearAllPoints()
-			_G.GameTooltip:SetPoint("TOP", self, "BOTTOM", 0, 0)
+			_G.GameTooltip:SetPoint("TOP", this, "BOTTOM", 0, 0)
 			_G.GameTooltip:AddLine("Record", 1, 1, 1, 1)
 			_G.GameTooltip:AddLine("Click to record.", 0.7, 0.7, 0.7, 0.7)
 			_G.GameTooltip:Show()
 		end)
-		WoWPro.RecordButton:SetScript("OnLeave", function(self)
+		WoWPro.RecordButton:SetScript("OnLeave", function(this)
 			_G.GameTooltip:Hide()
 		end)
 	end
@@ -210,21 +219,21 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Stop.tga"
 		WoWPro.StopButton = CreateButton("Stop", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Stop.tga", WoWPro.RecordButton)
 		-- Scripts --
-		WoWPro.StopButton:SetScript("OnMouseUp", function(self, button)
+		WoWPro.StopButton:SetScript("OnMouseUp", function(this, button)
 			if button == "LeftButton" then
 				WoWPro.Recorder.status = "STOP"
 				WoWPro.RecordText:SetText(WoWPro.Recorder.status)
 			end
 		end) 
-		WoWPro.StopButton:SetScript("OnEnter", function(self)
-			_G.GameTooltip:SetOwner(self, "ANCHOR_CURSOR")
+		WoWPro.StopButton:SetScript("OnEnter", function(this)
+			_G.GameTooltip:SetOwner(this, "ANCHOR_CURSOR")
 			_G.GameTooltip:ClearAllPoints()
-			_G.GameTooltip:SetPoint("TOP", self, "BOTTOM", 0, 0)
+			_G.GameTooltip:SetPoint("TOP", this, "BOTTOM", 0, 0)
 			_G.GameTooltip:AddLine("Stop", 1, 1, 1, 1)
 			_G.GameTooltip:AddLine("Click to stop recording.", 0.7, 0.7, 0.7, 0.7)
 			_G.GameTooltip:Show()
 		end)
-		WoWPro.StopButton:SetScript("OnLeave", function(self)
+		WoWPro.StopButton:SetScript("OnLeave", function(this)
 			_G.GameTooltip:Hide()
 		end)
 	end
@@ -235,20 +244,20 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Add.tga"
 		WoWPro.AddButton = CreateButton("Add", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Add.tga", WoWPro.StopButton)
 		-- Scripts --
-		WoWPro.AddButton:SetScript("OnMouseUp", function(self, button)
+		WoWPro.AddButton:SetScript("OnMouseUp", function(this, button)
 			if button == "LeftButton" then
 				dialog:Open("WoWPro Recorder - Add Step", WoWPro.DialogFrame)
 			end
 		end)
-		WoWPro.AddButton:SetScript("OnEnter", function(self)
-			_G.GameTooltip:SetOwner(self, "ANCHOR_CURSOR")
+		WoWPro.AddButton:SetScript("OnEnter", function(this)
+			_G.GameTooltip:SetOwner(this, "ANCHOR_CURSOR")
 			_G.GameTooltip:ClearAllPoints()
-			_G.GameTooltip:SetPoint("TOP", self, "BOTTOM", 0, 0)
+			_G.GameTooltip:SetPoint("TOP", this, "BOTTOM", 0, 0)
 			_G.GameTooltip:AddLine("Add Step", 1, 1, 1, 1)
 			_G.GameTooltip:AddLine("Click to insert a new step after the selected step.", 0.7, 0.7, 0.7, 0.7)
 			_G.GameTooltip:Show()
 		end)
-		WoWPro.AddButton:SetScript("OnLeave", function(self)
+		WoWPro.AddButton:SetScript("OnLeave", function(this)
 			_G.GameTooltip:Hide()
 		end)
 
@@ -698,20 +707,20 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Subtract.tga"
 		WoWPro.SubtractButton = CreateButton("Subtract", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Subtract.tga", WoWPro.AddButton)
 		-- Scripts --
-		WoWPro.SubtractButton:SetScript("OnMouseUp", function(self, button)
+		WoWPro.SubtractButton:SetScript("OnMouseUp", function(this, button)
 			if button == "LeftButton" then
 				dialog:Open("WoWPro Recorder - Subtract Step", WoWPro.DialogFrame)
 			end
 		end)  
-		WoWPro.SubtractButton:SetScript("OnEnter", function(self)
-			_G.GameTooltip:SetOwner(self, "ANCHOR_CURSOR")
+		WoWPro.SubtractButton:SetScript("OnEnter", function(this)
+			_G.GameTooltip:SetOwner(this, "ANCHOR_CURSOR")
 			_G.GameTooltip:ClearAllPoints()
-			_G.GameTooltip:SetPoint("TOP", self, "BOTTOM", 0, 0)
+			_G.GameTooltip:SetPoint("TOP", this, "BOTTOM", 0, 0)
 			_G.GameTooltip:AddLine("Subtract", 1, 1, 1, 1)
 			_G.GameTooltip:AddLine("Click to subtract the selected step.", 0.7, 0.7, 0.7, 0.7)
 			_G.GameTooltip:Show()
 		end)
-		WoWPro.SubtractButton:SetScript("OnLeave", function(self)
+		WoWPro.SubtractButton:SetScript("OnLeave", function(this)
 			_G.GameTooltip:Hide()
 		end)
 		config:RegisterOptionsTable("WoWPro Recorder - Subtract Step", {
@@ -766,21 +775,21 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Edit.tga"
 		WoWPro.EditButton = CreateButton("Edit", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Edit.tga", WoWPro.SubtractButton)
 		-- Scripts --
-		WoWPro.EditButton:SetScript("OnMouseUp", function(self, button)
+		WoWPro.EditButton:SetScript("OnMouseUp", function(this, button)
 			if button == "LeftButton" then
 				dialog:Open("WoWPro Recorder - Edit Step", WoWPro.DialogFrame)
 			end
 		end)
-		WoWPro.EditButton:SetScript("OnEnter", function(self)
-			_G.GameTooltip:SetOwner(self, "ANCHOR_CURSOR")
+		WoWPro.EditButton:SetScript("OnEnter", function(this)
+			_G.GameTooltip:SetOwner(this, "ANCHOR_CURSOR")
 			_G.GameTooltip:ClearAllPoints()
-			_G.GameTooltip:SetPoint("TOP", self, "BOTTOM", 0, 0)
+			_G.GameTooltip:SetPoint("TOP", this, "BOTTOM", 0, 0)
 			_G.GameTooltip:AddLine("Edit", 1, 1, 1, 1)
 			_G.GameTooltip:AddLine("Click to open the step editor", 0.7, 0.7, 0.7, 0.7)
 			_G.GameTooltip:AddLine("for the selected step.", 0.7, 0.7, 0.7, 0.7)
 			_G.GameTooltip:Show()
 		end)
-		WoWPro.EditButton:SetScript("OnLeave", function(self)
+		WoWPro.EditButton:SetScript("OnLeave", function(this)
 			_G.GameTooltip:Hide()
 		end)
 		config:RegisterOptionsTable("WoWPro Recorder - Edit Step", {
@@ -1045,18 +1054,6 @@ function WoWPro.Recorder:CreateRecorderFrame()
 						WoWPro.Recorder:SaveGuide()
 					end,
 				},
-				noncombat = {
-					order = 15,
-					type = "toggle",
-					name = "Non-combat Step",
-					desc = "Check if this is a non-combat step.",
-					get = function(info) return WoWPro.noncombat[WoWPro.Recorder.SelectedStep] end,
-					set = function(info,val)
-						WoWPro.noncombat[WoWPro.Recorder.SelectedStep] = val
-						WoWPro:UpdateGuide()
-						WoWPro.Recorder:SaveGuide()
-					end,
-				},
 				waypcomplete1 = {
 					order = 16,
 					type = "toggle",
@@ -1212,21 +1209,21 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Note.tga"
 		WoWPro.NoteButton = CreateButton("Note", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Note.tga", WoWPro.EditButton)
 		-- Scripts --
-		WoWPro.NoteButton:SetScript("OnMouseUp", function(self, button)
+		WoWPro.NoteButton:SetScript("OnMouseUp", function(this, button)
 			if button == "LeftButton" then
 				dialog:Open("WoWPro Recorder - Edit Note", WoWPro.DialogFrame)
 			end
 		end) 
-		WoWPro.NoteButton:SetScript("OnEnter", function(self)
-			_G.GameTooltip:SetOwner(self, "ANCHOR_CURSOR")
+		WoWPro.NoteButton:SetScript("OnEnter", function(this)
+			_G.GameTooltip:SetOwner(this, "ANCHOR_CURSOR")
 			_G.GameTooltip:ClearAllPoints()
-			_G.GameTooltip:SetPoint("TOP", self, "BOTTOM", 0, 0)
+			_G.GameTooltip:SetPoint("TOP", this, "BOTTOM", 0, 0)
 			_G.GameTooltip:AddLine("Edit Note", 1, 1, 1, 1)
 			_G.GameTooltip:AddLine("Click to open the note editor", 0.7, 0.7, 0.7, 0.7)
 			_G.GameTooltip:AddLine("for the selected step.", 0.7, 0.7, 0.7, 0.7)
 			_G.GameTooltip:Show()
 		end)
-		WoWPro.NoteButton:SetScript("OnLeave", function(self)
+		WoWPro.NoteButton:SetScript("OnLeave", function(this)
 			_G.GameTooltip:Hide()
 		end) 
 		config:RegisterOptionsTable("WoWPro Recorder - Edit Note", {
@@ -1258,20 +1255,20 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\New.tga"
 		WoWPro.NewButton = CreateButton("New", "Interface\\Addons\\WoWPro_Recorder\\Textures\\New.tga", WoWPro.NoteButton)
 		-- Scripts --
-		WoWPro.NewButton:SetScript("OnMouseUp", function(self, button)
+		WoWPro.NewButton:SetScript("OnMouseUp", function(this, button)
 			if button == "LeftButton" then
 				dialog:Open("WoWPro Recorder - New Guide", WoWPro.DialogFrame)
 			end
 		end)  
-		WoWPro.NewButton:SetScript("OnEnter", function(self)
-			_G.GameTooltip:SetOwner(self, "ANCHOR_CURSOR")
+		WoWPro.NewButton:SetScript("OnEnter", function(this)
+			_G.GameTooltip:SetOwner(this, "ANCHOR_CURSOR")
 			_G.GameTooltip:ClearAllPoints()
-			_G.GameTooltip:SetPoint("TOP", self, "BOTTOM", 0, 0)
+			_G.GameTooltip:SetPoint("TOP", this, "BOTTOM", 0, 0)
 			_G.GameTooltip:AddLine("New", 1, 1, 1, 1)
 			_G.GameTooltip:AddLine("Click to setup a new guide.", 0.7, 0.7, 0.7, 0.7)
 			_G.GameTooltip:Show()
 		end)
-		WoWPro.NewButton:SetScript("OnLeave", function(self)
+		WoWPro.NewButton:SetScript("OnLeave", function(this)
 			_G.GameTooltip:Hide()
 		end)
 		config:RegisterOptionsTable("WoWPro Recorder - New Guide", {
@@ -1318,20 +1315,20 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Open.tga"
 		WoWPro.OpenButton = CreateButton("Open", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Open.tga", WoWPro.NewButton)
 		-- Scripts --
-		WoWPro.OpenButton:SetScript("OnMouseUp", function(self, button)
+		WoWPro.OpenButton:SetScript("OnMouseUp", function(this, button)
 			if button == "LeftButton" then
 				dialog:Open("WoWPro Recorder - Open Guide", WoWPro.DialogFrame)
 			end
 		end) 
-		WoWPro.OpenButton:SetScript("OnEnter", function(self)
-			_G.GameTooltip:SetOwner(self, "ANCHOR_CURSOR")
+		WoWPro.OpenButton:SetScript("OnEnter", function(this)
+			_G.GameTooltip:SetOwner(this, "ANCHOR_CURSOR")
 			_G.GameTooltip:ClearAllPoints()
-			_G.GameTooltip:SetPoint("TOP", self, "BOTTOM", 0, 0)
+			_G.GameTooltip:SetPoint("TOP", this, "BOTTOM", 0, 0)
 			_G.GameTooltip:AddLine("Open Guide", 1, 1, 1, 1)
 			_G.GameTooltip:AddLine("Click to open a guide to edit.", 0.7, 0.7, 0.7, 0.7)
 			_G.GameTooltip:Show()
 		end)
-		WoWPro.OpenButton:SetScript("OnLeave", function(self)
+		WoWPro.OpenButton:SetScript("OnLeave", function(this)
 			_G.GameTooltip:Hide()
 		end) 
 		config:RegisterOptionsTable("WoWPro Recorder - Open Guide", {
@@ -1373,20 +1370,20 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Save.tga"
 		WoWPro.SaveButton = CreateButton("Save", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Save.tga", WoWPro.OpenButton)
 		-- Scripts --
-		WoWPro.SaveButton:SetScript("OnMouseUp", function(self, button)
+		WoWPro.SaveButton:SetScript("OnMouseUp", function(this, button)
 			if button == "LeftButton" then
 				WoWPro.Recorder:SaveGuide(true)
 			end
 		end) 
-		WoWPro.SaveButton:SetScript("OnEnter", function(self)
-			_G.GameTooltip:SetOwner(self, "ANCHOR_CURSOR")
+		WoWPro.SaveButton:SetScript("OnEnter", function(this)
+			_G.GameTooltip:SetOwner(this, "ANCHOR_CURSOR")
 			_G.GameTooltip:ClearAllPoints()
-			_G.GameTooltip:SetPoint("TOP", self, "BOTTOM", 0, 0)
+			_G.GameTooltip:SetPoint("TOP", this, "BOTTOM", 0, 0)
 			_G.GameTooltip:AddLine("Save", 1, 1, 1, 1)
 			_G.GameTooltip:AddLine("Click to save the current guide.", 0.7, 0.7, 0.7, 0.7)
 			_G.GameTooltip:Show()
 		end)
-		WoWPro.SaveButton:SetScript("OnLeave", function(self)
+		WoWPro.SaveButton:SetScript("OnLeave", function(this)
 			_G.GameTooltip:Hide()
 		end)
 	end
@@ -1397,20 +1394,20 @@ function WoWPro.Recorder:CreateRecorderFrame()
 	    -- "Interface\\Addons\\WoWPro_Recorder\\Textures\\Trash.tga"
 		WoWPro.DeleteButton = CreateButton("Delete", "Interface\\Addons\\WoWPro_Recorder\\Textures\\Trash.tga", WoWPro.SaveButton)
 		-- Scripts --
-		WoWPro.DeleteButton:SetScript("OnMouseUp", function(self, button)
+		WoWPro.DeleteButton:SetScript("OnMouseUp", function(this, button)
 			if button == "LeftButton" then
 				dialog:Open("WoWPro Recorder - Delete Guide", WoWPro.DialogFrame)
 			end
 		end)
-		WoWPro.DeleteButton:SetScript("OnEnter", function(self)
-			_G.GameTooltip:SetOwner(self, "ANCHOR_CURSOR")
+		WoWPro.DeleteButton:SetScript("OnEnter", function(this)
+			_G.GameTooltip:SetOwner(this, "ANCHOR_CURSOR")
 			_G.GameTooltip:ClearAllPoints()
-			_G.GameTooltip:SetPoint("TOP", self, "BOTTOM", 0, 0)
+			_G.GameTooltip:SetPoint("TOP", this, "BOTTOM", 0, 0)
 			_G.GameTooltip:AddLine("Delete Guide", 1, 1, 1, 1)
 			_G.GameTooltip:AddLine("Click to delete the current guide.", 0.7, 0.7, 0.7, 0.7)
 			_G.GameTooltip:Show()
 		end)
-		WoWPro.DeleteButton:SetScript("OnLeave", function(self)
+		WoWPro.DeleteButton:SetScript("OnLeave", function(this)
 			_G.GameTooltip:Hide()
 		end)
 		config:RegisterOptionsTable("WoWPro Recorder - Delete Guide", {

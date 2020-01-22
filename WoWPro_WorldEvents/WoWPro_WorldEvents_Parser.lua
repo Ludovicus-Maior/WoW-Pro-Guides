@@ -2,13 +2,9 @@
 --      WoWPro_WorldEvents_Parser      --
 --------------------------------------
 
-local L = WoWPro_Locale
-
 -- Determine Next Active Step (WorldEvents Module Specific)--
 -- This function is called by the main NextStep function in the core broker --
 function WoWPro.WorldEvents:NextStep(k, skip)
-	local GID = WoWProDB.char.currentguide
-
 	-- Optional Quests --
 	if WoWPro.optional[k] and WoWPro.QID[k] then
 		-- Checking Quest Log --

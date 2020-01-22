@@ -6,7 +6,6 @@
 -------------------------------
 
 WoWPro.Profession = WoWPro:NewModule("Profession")
-local myUFG = _G.UnitFactionGroup("player")
 WoWPro:Embed(WoWPro.Profession)
 
 

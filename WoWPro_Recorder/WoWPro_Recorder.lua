@@ -47,7 +47,6 @@ function WoWPro.Recorder:OnDisable()
 end
 
 function WoWPro.Recorder:RegisterSavedGuides()
-	local myUFG = _G.UnitFactionGroup("player")
 	for GID, guideInfo in pairs(WoWPro_RecorderDB) do
 		if WoWPro.Guides[GID] then
 		    -- We have a guide by this name already

@@ -1,4 +1,4 @@
--- luacheck: globals select pairs max
+-- luacheck: globals select pairs max wipe
 -- luacheck: globals tonumber tostring
 
 ---local speciesID, customName, level, xp, maxXp, displayID, isFavorite, name, icon, petType = C_PetJournal.GetPetInfoByPetID(petID);
@@ -49,8 +49,8 @@ function WoWPro.LookupHealthModifier(opponent_key, defender_type)
 end
 
 function WoWPro.PetMeetsLimit(petID, limit)
-    local speciesID, customName, level, xp, maxXp, displayID, isFavorite, name, icon, petType = _G.C_PetJournal.GetPetInfoByPetID(petID);
-    local health, maxHealth, power, speed, rarity = _G.C_PetJournal.GetPetStats(petID)
+    local _, _, level, _, _, _, _, _, _, petType = _G.C_PetJournal.GetPetInfoByPetID(petID);
+    local health, maxHealth, power, speed = _G.C_PetJournal.GetPetStats(petID)
 
     if limit == "" or limit == nil then
         -- no limit implies L25
@@ -62,7 +62,7 @@ function WoWPro.PetMeetsLimit(petID, limit)
 
     if limit_type == "L>" then
         local min_level = tonumber(limit:sub(3, -1))
---        WoWPro:dbp("PetMeetsLimit: Level %d > %d ?",level, min_level)
+        -- WoWPro:dbp("PetMeetsLimit: Level %d > %d ?",level, min_level)
         return level > min_level
     elseif limit_type == "H>" then
         local min_health = tonumber(limit:sub(3, -1))
@@ -72,7 +72,7 @@ function WoWPro.PetMeetsLimit(petID, limit)
             if min_health then
                 -- Yup!
                 local factor = WoWPro.LookupHealthModifier(limit:sub(-1, -1), petType)
---                WoWPro:dbp("PetMeetslimit: Modified health from %g to %g enemy %s, pet %d",min_health,min_health*factor,limit:sub(-1, -1), petType)
+                -- WoWPro:dbp("PetMeetslimit: Modified health from %g to %g enemy %s, pet %d",min_health,min_health*factor,limit:sub(-1, -1), petType)
                 min_health = min_health * factor
             else
                 WoWPro:Error("WoWPro.PetMeetsLimit: Bad limit string [%s]", limit)
@@ -136,7 +136,7 @@ function WoWPro.GetPetByNameOrID(name, id, limits, pet1, pet2)
         -- name="Core Hound Pup", icon="Interface\Ability\Hunter_Pet_CoreHound.blp", petType=7,
         -- companionID=36871, Source="Promotion...",
         local ok = false 
-        local speciesID, customName, level, xp, maxXp, displayID, isFavorite, petName, petIcon, petType, creatureID, sourceText, description, isWild, canBattle, tradable, unique = _G.C_PetJournal.GetPetInfoByPetID(petID);
+        local _, _, _, _, _, _, _, petName, _, _, creatureID, _, _, _, canBattle = _G.C_PetJournal.GetPetInfoByPetID(petID);
         if (creatureID == id) or (petName == name) or (id == nil) or (name == "") then
             if ((id == nil) or (name == "")) and (82464 == creatureID) then
                 -- No Elekk Plushie on wildcard slotting
@@ -169,10 +169,7 @@ end
 
 function WoWPro.GetLevelingPet(limits, pet1, pet2, max_level)
     local numPets, numOwned = _G.C_PetJournal.GetNumPets();
-    local pids = nil
-    local petID_worst = nil
-    local speciesName_worst = nil
-    local companionID_worst = nil
+    local pids, petID_worst, speciesName_worst, companionID_worst
 
     if numPets == 0 then
         WoWPro:dbp("GetLevelingPet():No pets!")
@@ -184,7 +181,7 @@ function WoWPro.GetLevelingPet(limits, pet1, pet2, max_level)
         -- petID="BattlePet-0-0000027C0B08", speciesID=244, isOwned=true, customName=nil, level=1, favorite=false, isRevoked=false
         -- name="Core Hound Pup", icon="Interface\Ability\Hunter_Pet_CoreHound.blp", petType=7,
         -- companionID=36871, Source="Promotion...",
-        local speciesID, customName, level, xp, maxXp, displayID, isFavorite, petName, petIcon, petType, creatureID, sourceText, description, isWild, canBattle, tradable, unique = _G.C_PetJournal.GetPetInfoByPetID(petID);
+        local _, _, level, _, _, _, _, petName, _, _, creatureID, _, _, _, canBattle = _G.C_PetJournal.GetPetInfoByPetID(petID);
         local ok = false
         if canBattle and level < max_level then
             if limits then
@@ -204,7 +201,7 @@ function WoWPro.GetLevelingPet(limits, pet1, pet2, max_level)
                 speciesName_worst = petName
                 companionID_worst = creatureID
             else
-                local best, worst = WoWPro.ComparePets(petID_worst, petID)
+                local best = WoWPro.ComparePets(petID_worst, petID)
                 if best == petID_worst then
                     petID_worst = petID
                     speciesName_worst = petName
@@ -247,11 +244,12 @@ function WoWPro.GetPetByAbilities(abilities, limits, pet1, pet2)
         -- petID="BattlePet-0-0000027C0B08", speciesID=244, isOwned=true, customName=nil, level=1, favorite=false, isRevoked=false
         -- name="Core Hound Pup", icon="Interface\Ability\Hunter_Pet_CoreHound.blp", petType=7,
         -- companionID=36871, Source="Promotion...", 
-        local speciesID, customName, level, xp, maxXp, displayID, isFavorite, petName, petIcon, petType, creatureID, sourceText, description, isWild, canBattle, tradable, unique = _G.C_PetJournal.GetPetInfoByPetID(petID);
+        local speciesID, _, level, _, _, _, _, petName, _, _, creatureID, _, _, _, canBattle = _G.C_PetJournal.GetPetInfoByPetID(petID);
         local idTable, levelTable = _G.C_PetJournal.GetPetAbilityList(speciesID)
         local score = 0
         local ok = false
-        slots = {}
+
+        wipe(slots)
         if canBattle then
             if limits then
                 if WoWPro.PetMeetsLimits(petID, limits) then
@@ -289,8 +287,8 @@ function WoWPro.ComparePets(pet1,pet2)
     if pet1 and not pet2 then return pet1, pet1; end
     if pet2 and not pet1 then return pet2, pet2; end
     
-    local speciesID1, customName1, level1, xp1, maxXp1, displayID1, isFavorite1, name1, icon1, petType1 = _G.C_PetJournal.GetPetInfoByPetID(pet1);
-    local speciesID2, customName2, level2, xp2, maxXp2, displayID2, isFavorite2, name2, icon2, petType2 = _G.C_PetJournal.GetPetInfoByPetID(pet2);
+    local _, _, level1, _, _, _, isFavorite1, name1 = _G.C_PetJournal.GetPetInfoByPetID(pet2);
+    local _, _, level2, _, _, _, isFavorite2, name2 = _G.C_PetJournal.GetPetInfoByPetID(pet2);
     local health1, maxHealth1, power1, speed1, rarity1 = _G.C_PetJournal.GetPetStats(pet1)
     local health2, maxHealth2, power2, speed2, rarity2 = _G.C_PetJournal.GetPetStats(pet2)
      
@@ -354,7 +352,7 @@ end
 
 -- Translate a 1+2+1 style spell pick into real spells
 function WoWPro.MapPetSpellPicks(pet,pick)
-    local speciesID, customName, level, xp, maxXp, displayID, isFavorite, name, icon, petType = _G.C_PetJournal.GetPetInfoByPetID(pet)
+    local speciesID, _, level = _G.C_PetJournal.GetPetInfoByPetID(pet)
     if not speciesID then
         WoWPro:Error("MapPetSpellPicks(): No speciesID (%s) returned from GetPetInfoByPetID()",tostring(speciesID))
         speciesID = speciesID + 1
@@ -447,10 +445,10 @@ function WoWPro.PetLoadAndPick(slot, name, id, pick, limits, pet1, pet2)
     _G.C_PetJournal.SetPetLoadOutInfo(slot, pet)
     WoWPro.SetPetAbilities(slot, abilities)
     if name == "Leveling" then
-        local _, customName, level, _, _, _, _, name = _G.C_PetJournal.GetPetInfoByPetID(pet)
+        local _, customName, level = _G.C_PetJournal.GetPetInfoByPetID(pet)
         WoWPro:Print("Selected level %d [%s] as your leveling pet.",level, customName or name)
     else
-        local _, customName, level, _, _, _, _, name = _G.C_PetJournal.GetPetInfoByPetID(pet)
+        local _, customName, level = _G.C_PetJournal.GetPetInfoByPetID(pet)
         WoWPro:Print("Selected level %d [%s] as your battle pet.",level, customName or name)
     end
     return pet

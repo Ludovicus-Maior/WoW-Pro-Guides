@@ -5,7 +5,6 @@
 -------------------------------
 
 WoWPro.Leveling = WoWPro:NewModule("Leveling")
-local myUFG = _G.UnitFactionGroup("player")
 WoWPro:Embed(WoWPro.Leveling)
 
 WoWPro.Leveling.StartGuides = {
@@ -66,7 +65,7 @@ function WoWPro.Leveling:OnEnable()
 	-- Loading Initial Guide --
 	if not WoWProDB.char.currentguide then
 		local locClass, engClass = _G.UnitClass("player")
-		local locRace, engRace = _G.UnitRace("player")
+		local _, engRace = _G.UnitRace("player")
 	    local currentLevel = _G.UnitLevel("player")
 	    local currentXP = _G.UnitXP("player")
 

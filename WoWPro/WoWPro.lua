@@ -168,53 +168,6 @@ function WoWPro.ShallowCopyTable(orig)
 end
 
 
--- Generate an ordered Index
-local function _generateOrderedIndex(t)
-    -- DEFAULT_CHAT_FRAME:AddMessage(string.format("_generateOrderedIndex(%s)",tostring(t)))
-    local orderedIndex = {}
-    for key in pairs(t) do
-        tinsert( orderedIndex, key )
-    end
-    sort( orderedIndex )
-    return orderedIndex
-end
-
-local function orderedNext(t, state)
-    -- DEFAULT_CHAT_FRAME:AddMessage(string.format("orderedNext(%s,%s)",tostring(t),tostring(state)))
-    -- Equivalent of the next function, but returns the keys in the alphabetic
-    -- order. We use a temporary ordered key table that is stored in the
-    -- table being iterated.
-
-    local key
-    if state == nil then
-        -- the first time, generate the index
-        t._orderedIndex = _generateOrderedIndex( t )
-        t._orderedOffset = #t._orderedIndex - 2500
-        if t._orderedOffset < 1 then t._orderedOffset = 1 end
-        key = t._orderedIndex[t._orderedOffset]
-        return key, t[key]
-    end
-
-    -- fetch the next value
-    key = nil
-    t._orderedOffset = t._orderedOffset + 1
-    if t._orderedOffset <= #t._orderedIndex then
-        key = t._orderedIndex[t._orderedOffset]
-        return key, t[key]
-    end
-
-    -- no more value to return, cleanup
-    t._orderedIndex = nil
-    t._orderedOffset = nil
-    return
-end
-
-local function orderedPairs(t)
-    -- DEFAULT_CHAT_FRAME:AddMessage(string.format("orderedPairs(%s)",tostring(t)))
-    -- Equivalent of the pairs() function on tables. Allows to iterate in order
-    return orderedNext, t, nil
-end
-
 local Log = nil
 local LogCo = nil
 local LogCall = nil
@@ -473,16 +426,13 @@ function WoWPro:OnEnable()
 	WoWPro:CustomizeFrames()	-- Applies profile display settings
 
 	-- Keybindings Initial Setup --
-	local keys = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
-	if not keys then
+	if not _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton") then
 		_G.SetBinding("CTRL-SHIFT-I", "CLICK WoWPro_FauxItemButton:LeftButton")
 	end
-	local keys = _G.GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
-	if not keys then
+	if not _G.GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton") then
 		_G.SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
 	end
-    local keys = _G.GetBindingKey("WOWPRO_SELECTOR")
-	if keys then
+	if _G.GetBindingKey("WOWPRO_SELECTOR") then
 	    -- Do NOT release with this binding until it works!
 		_G.SetBinding("ALT-G", "WOWPRO_SELECTOR")
 	end
@@ -536,7 +486,6 @@ function WoWPro:OnDisable()
 
 	WoWPro:AbleFrames()								-- Hides all frames
 	WoWPro.EventFrame:UnregisterAllEvents()	-- Unregisters all events
-	local bucket = _G.LibStub("AceBucket-3.0")
 	WoWPro:UnregisterAllBuckets()
 	WoWPro:RemoveMapPoint()							-- Removes any active map points
 	WoWPro:Print("|cffff3333Disabled|r: Version %s", WoWPro.Version)
@@ -610,19 +559,20 @@ end
 -- https://github.com/Rainrider/KlaxxiKillOrder/issues/1
 -- New syntax for UnitGUID() in WoD
 function WoWPro:TargetNpcId()
-    local unitType, _, serverID, instanceID, zoneID, npcID, spawnID = ("-"):split(_G.UnitGUID("target") or "")
+    local GUID = _G.UnitGUID("target")
+    local unitType = ("-"):split(GUID)
     if not unitType then
         WoWPro:dbp("No target");
         return nil
     end
 
     if unitType == "Player" then
-        unitType, serverID, npcID = ("-"):split(_G.UnitGUID("target"))
-        WoWPro:dbp("Your target is a " .. unitType.. " ID %s",npcID);
-        return npcID
+        local _, _, playerUID = ("-"):split(GUID)
+        WoWPro:dbp("Your target is a " .. unitType.. " ID %s", playerUID);
+        return playerUID
     else
-        npcID = tonumber(npcID)
-        WoWPro:dbp("Your target is a " .. unitType.. " ID %d",npcID);
+        local _, _, _, _, _, npcID = ("-"):split(GUID)
+        WoWPro:dbp("Your target is a " .. unitType .. " ID %s", npcID);
         return npcID
     end
 end
@@ -730,7 +680,7 @@ function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
 end
 
 -- This function should be called AFTER WoWPro:GuideLevels() to override the settings from WoWPro:GuideLevels()
-function WoWPro:NewGuideLevels(guide,lowerLevel,upperLevel, sortLevel)
+function WoWPro:NewGuideLevels(guide, lowerLevel, upperLevel, sortLevel)
     if not WoWPro.NewLevels then
         return
     end
@@ -745,7 +695,7 @@ function WoWPro:NewGuideLevels(guide,lowerLevel,upperLevel, sortLevel)
         guide['level_float'] = true
     end
 
-    local meanLevel = upperLevel
+    local meanLevel
     if upperLevel < playerLevel then
         -- We are higher level than the guide
         meanLevel = upperLevel
@@ -765,8 +715,8 @@ function WoWPro:NewGuideLevels(guide,lowerLevel,upperLevel, sortLevel)
     guide['sortlevel'] = tonumber(sortLevel) or tonumber(meanLevel)
 end
 
-function WoWPro:GuideRaceSpecific(guide,race)
-    local locRace, engRace = _G.UnitRace("player")
+function WoWPro:GuideRaceSpecific(guide, race)
+    local _, engRace = _G.UnitRace("player")
     if WoWPro.DebugLevel > 0 then
         return -- Allow developers to check everything
     end
@@ -795,7 +745,7 @@ RegisterClass("MONK")
 RegisterClass("DEMONHUNTER")
 
 function WoWPro:GuideClassSpecific(guide,class)
-    local locClass, engClass = _G.UnitClass("player")
+    local _, engClass = _G.UnitClass("player")
 
     class = class:upper()
     guide.icon = "Interface\\Glues\\CharacterCreate\\UI-CharacterCreate-Classes"
@@ -857,7 +807,7 @@ function WoWPro:GuideQuestTriggers(guide, ...)
 end
 
 function WoWPro:GuideAutoSwitch(guide, state)
-    local locClass, engClass = _G.UnitClass("player")
+    local _, engClass = _G.UnitClass("player")
 
     if state == false then
         -- A clear request
@@ -918,7 +868,6 @@ function WoWPro:RGB2HSL(r,g,b)
         h, s = 0, 0 -- A shade of white/black
     else
         local c = cmax - cmin
-        local s
         if l > 0.5 then
             s = c / (2 - cmax - cmin)
         else
@@ -1027,10 +976,10 @@ function WoWPro:QuestColor(questLevel, playerLevel)
     return  WoWPro:HSL2RGB(c[1], c[2], c[3])
 end
 
-function WoWPro:TestQuestColor(a,b,c,d)
-    for ql=a,b,c do
-        local r, g, b =  WoWPro:QuestColor(ql, d)
-        local msg = ("|c%2x%2x%2x%2xLevel %f .vs. %f|r"):format(255,255*r,255*g,255*b,ql,50)
+function WoWPro:TestQuestColor(startLevel, endLevel, increment, playerLevel)
+    for questLevel = startLevel, endLevel, increment do
+        local r, g, b =  WoWPro:QuestColor(questLevel, playerLevel)
+        local msg = ("|c%2x%2x%2x%2xLevel %f .vs. %f|r"):format(255, 255*r, 255*g, 255*b, questLevel, 50)
         _G.DEFAULT_CHAT_FRAME:AddMessage( msg )
     end
 end
@@ -1061,8 +1010,6 @@ function WoWPro.LevelColor(guide)
 end
 
 -- Creating a Table of Guides for the Guide List and sorting based on level --
-local guides
-
 function WoWPro.AchievementsScrape()
     WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
     WoWProDB.global.Achievements.Category = {}
@@ -1070,13 +1017,13 @@ function WoWPro.AchievementsScrape()
 
     local categories = _G.GetCategoryList()
     for i, cid in ipairs(categories) do
-        local name, parentID, flags = _G.GetCategoryInfo(cid)
+        local name, parentID = _G.GetCategoryInfo(cid)
         WoWProDB.global.Achievements.Category[cid] = { ['name'] = name, ['parentID'] = parentID}
     end
     for cid, cinfo in pairs(WoWProDB.global.Achievements.Category) do
-        local numItems, numCompleted = _G.GetCategoryNumAchievements(cid)
+        local numItems = _G.GetCategoryNumAchievements(cid)
         for index = 1,numItems do
-            local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = _G.GetAchievementInfo(cid, index)
+            local id, name, _, _, _, _, _, _, _, icon = _G.GetAchievementInfo(cid, index)
             WoWProDB.global.Achievements.Achievement[id] = {['cid'] = cid, ['name'] = name, ['icon'] = icon }
         end
     end
@@ -1087,19 +1034,19 @@ function WoWPro:ResolveIcon(guide)
         return
     end
     if guide['ach'] and not WoWPro.CLASSIC then
-        local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = _G.GetAchievementInfo(guide.ach)
+        local _, _, _, _, _, _, _, _, _, icon = _G.GetAchievementInfo(guide.ach)
         guide.icon = icon
         return
     end
     if guide['spell'] then
-        local name, rank, icon, castingTime, minRange, maxRange, spellID = _G.GetSpellInfo(guide.spell)
+        local _, _, icon = _G.GetSpellInfo(guide.spell)
         guide.icon = icon
         return
     end
     if guide['mount'] and not WoWPro.CLASSIC then
         local mountIDs = _G.C_MountJournal.GetMountIDs()
         for i, mountID in ipairs(mountIDs) do
-            local creatureName, spellID, icon, active, isUsable, sourceType = _G.C_MountJournal.GetMountInfoByID(mountID)
+            local _, spellID, icon = _G.C_MountJournal.GetMountInfoByID(mountID)
             if guide.mount == spellID then
                 guide.icon = icon
                 return
@@ -1112,7 +1059,7 @@ function WoWPro:ResolveIcon(guide)
         local profs = {_G.GetProfessions()}
         for index = 1,#profs do
             if profs[index] then
-                local name, texture, rank, maxRank, numSpells, spelloffset, skillLine, rankModifier, specializationIndex, specializationOffset = _G.GetProfessionInfo(profs[index])
+                local _, texture, _, _, _, _, skillLine = _G.GetProfessionInfo(profs[index])
                 if skillLine == tonumber(guide['pro']) then
                     guide.icon = texture
                 end
@@ -1261,30 +1208,15 @@ end
 
 
 --- Release Function Compatability Section
-local wversion, wbuild, wdata, winterface = _G.GetBuildInfo()
-WoWPro.CLASSIC = (winterface < 20000 and winterface > 11300)
-WoWPro.MOP = (winterface >= 50000)
-WoWPro.WOD = (winterface >= 60000)
-WoWPro.WOL = (winterface >= 70000)
-WoWPro.NewLevels = (wversion == "7.3.5" or (winterface > 70300))
+WoWPro.CLASSIC = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC
+WoWPro.RETAIL = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_MAINLINE
 
 -- Change this to fake out a classic load on retail
 WoWPro.FakeClassic = false
-
 if WoWPro.FakeClassic then
     WoWPro.CLASSIC = true
-    WoWPro.MOP = false
-    WoWPro.WOD = false
-    WoWPro.WOL = false
     WoWPro.NewLevels = false
 end
-
-if WoWPro.MOP or WoWPro.CLASSIC then
-    WoWPro.GetNumPartyMembers = _G.GetNumGroupMembers
-else
-    WoWPro.GetNumPartyMembers = _G.GetNumPartyMembers
-end
-
 
 -- TourGuide for CLASSIC
 TourGuide = TourGuide or {}

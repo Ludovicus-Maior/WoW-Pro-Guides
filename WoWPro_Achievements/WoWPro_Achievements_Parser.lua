@@ -2,13 +2,9 @@
 --      WoWPro_Achievements_Parser      --
 --------------------------------------
 	
-local L = WoWPro_Locale
-
 -- Determine Next Active Step (Achievements Module Specific)--
 -- This function is called by the main NextStep function in the core broker --
 function WoWPro.Achievements:NextStep(k, skip)
-	local GID = WoWProDB.char.currentguide
-
 	-- Optional Quests --
 	if WoWPro.optional[k] and WoWPro.QID[k] then 
 		
@@ -33,14 +29,14 @@ function WoWPro.Achievements:DumpInfo(achnum)
     eBox:SetFontObject(_G.GameFontHighlight)
     local text=""
     for achitem=1, count do
-        local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = _G.GetAchievementCriteriaInfo(achnum, achitem)
+        local description = _G.GetAchievementCriteriaInfo(achnum, achitem)
         local line = ("F %s|QID|%d|M|0.00,0.00|ACH|%d;%d|"):format(description, 900000000 + 10000 * achnum + achitem, achnum, achitem)
         text = text .. line .. "\n"
     end
     eBox:SetText(text)
     eBox:SetPoint("CENTER")
     eBox:Show()
-    eBox:SetScript("OnEscapePressed", function (self) self:Hide() end)
+    eBox:SetScript("OnEscapePressed", function(this) this:Hide() end)
 end
 
 

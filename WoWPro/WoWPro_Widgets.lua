@@ -176,20 +176,20 @@ function WoWPro:CreateLootsButton(parent, id)
 	lootsbutton:SetWidth(24)
 	lootsbutton:SetPoint("TOPRIGHT", parent, "TOPRIGHT", 0, 0)
 	lootsbutton.ID = nil
-    lootsbutton:SetScript("OnEnter", function(self)
-                    _G.GameTooltip:SetOwner(lootsbutton,'ANCHOR_LEFT')
-                    if lootsbutton.ID and lootsbutton.ID:len() > 1 and lootsbutton.ID:sub(1,1) == "$" then
-                        _G.GameTooltip:SetCurrencyByID(tonumber(lootsbutton.ID:sub(2)))
-                        _G.GameTooltip:Show()
-                    elseif tonumber(lootsbutton.ID) then
-                        _G.GameTooltip:SetItemByID(tonumber(lootsbutton.ID))
-                        _G.GameTooltip:Show()
-                    end               
+    lootsbutton:SetScript("OnEnter", function(this)
+        _G.GameTooltip:SetOwner(this, 'ANCHOR_LEFT')
+        if this.ID and this.ID:len() > 1 and this.ID:sub(1,1) == "$" then
+            _G.GameTooltip:SetCurrencyByID(tonumber(this.ID:sub(2)))
+            _G.GameTooltip:Show()
+        elseif tonumber(this.ID) then
+            _G.GameTooltip:SetItemByID(tonumber(this.ID))
+            _G.GameTooltip:Show()
+        end               
     end)
-    lootsbutton:SetScript("OnLeave", function(self)
-                    if lootsbutton.ID then
-        		        _G.GameTooltip:Hide()
-        		    end
+    lootsbutton:SetScript("OnLeave", function(this)
+        if this.ID then
+	        _G.GameTooltip:Hide()
+	    end
     end)
     
 
@@ -202,12 +202,11 @@ function WoWPro:CreateLootsButton(parent, id)
 
     function lootsbutton:SetItemByID(ID)
         self.ID = ID
-        local name, amount, texturePath, earnedThisWeek, weeklyMax, totalMax, isDiscovered
-        local link, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture, vendorPrice
+        local name, texture, _
         if ID and ID:len() > 1 and ID:sub(1,1) == "$" then
-            name, amount, texture, earnedThisWeek, weeklyMax, totalMax, isDiscovered = _G.GetCurrencyInfo(tonumber(ID:sub(2)))
+            name, _, texture = _G.GetCurrencyInfo(tonumber(ID:sub(2)))
         elseif tonumber(ID) then
-            name, link, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture, vendorPrice = _G.GetItemInfo(tonumber(ID))
+            name, _, _, _, _, _, _, _, _, texture = _G.GetItemInfo(tonumber(ID))
         end
         if texture then
             self.lootsicon:SetTexture(texture)
@@ -300,8 +299,8 @@ function WoWPro:CreateScrollbar(parent, offset, step, where)
 		insets = { left = 0, right = 0, top = 5, bottom = 5 }
 	}
 
-	local f = _G.CreateFrame("Slider", nil, parent)
-	f:SetWidth(16)
+	local slider = _G.CreateFrame("Slider", nil, parent)
+	slider:SetWidth(16)
 
     local offsetX, offsetY = offset, offset
     if type(offset) == "table" then
@@ -310,15 +309,15 @@ function WoWPro:CreateScrollbar(parent, offset, step, where)
     end
 
     if not where then
-	    f:SetPoint("TOPRIGHT", 0 - (offsetX or 0), -16 - (offsetY or 0))
-	    f:SetPoint("BOTTOMRIGHT", 0 - (offsetX or 0), 16 + (offsetY or 0))
+	    slider:SetPoint("TOPRIGHT", 0 - (offsetX or 0), -16 - (offsetY or 0))
+	    slider:SetPoint("BOTTOMRIGHT", 0 - (offsetX or 0), 16 + (offsetY or 0))
 	elseif where == "Outside" then
-	    f:SetPoint("TOPLEFT",parent,"TOPRIGHT",0 - (offsetX or 0), -16 - (offsetY or 0)) 
-	    f:SetPoint("BOTTOMLEFT", parent,"BOTTOMRIGHT",0 - (offsetX or 0), 16 + (offsetY or 0))    
+	    slider:SetPoint("TOPLEFT",parent,"TOPRIGHT",0 - (offsetX or 0), -16 - (offsetY or 0)) 
+	    slider:SetPoint("BOTTOMLEFT", parent,"BOTTOMRIGHT",0 - (offsetX or 0), 16 + (offsetY or 0))    
     end	
 
-	local up = _G.CreateFrame("Button", nil, f)
-	up:SetPoint("BOTTOM", f, "TOP")
+	local up = _G.CreateFrame("Button", nil, slider)
+	up:SetPoint("BOTTOM", slider, "TOP")
 	up:SetWidth(16) up:SetHeight(16)
 	up:SetNormalTexture("Interface\\Buttons\\UI-ScrollBar-ScrollUpButton-Up")
 	up:SetPushedTexture("Interface\\Buttons\\UI-ScrollBar-ScrollUpButton-Down")
@@ -331,14 +330,13 @@ function WoWPro:CreateScrollbar(parent, offset, step, where)
 	up:GetHighlightTexture():SetTexCoord(1/4, 3/4, 1/4, 3/4)
 	up:GetHighlightTexture():SetBlendMode("ADD")
 
-	up:SetScript("OnClick", function(self)
-		local parent = self:GetParent()
-		parent:SetValue(parent:GetValue() - (step or parent:GetHeight()/2))
+	up:SetScript("OnClick", function(this)
+		slider:SetValue(slider:GetValue() - (step or slider:GetHeight()/2))
 		_G.PlaySound(_G.SOUNDKIT.U_CHAT_SCROLL_BUTTON)
 	end)
 
-	local down = _G.CreateFrame("Button", nil, f)
-	down:SetPoint("TOP", f, "BOTTOM")
+	local down = _G.CreateFrame("Button", nil, slider)
+	down:SetPoint("TOP", slider, "BOTTOM")
 	down:SetWidth(16) down:SetHeight(16)
 	down:SetNormalTexture("Interface\\Buttons\\UI-ScrollBar-ScrollDownButton-Up")
 	down:SetPushedTexture("Interface\\Buttons\\UI-ScrollBar-ScrollDownButton-Down")
@@ -351,30 +349,29 @@ function WoWPro:CreateScrollbar(parent, offset, step, where)
 	down:GetHighlightTexture():SetTexCoord(1/4, 3/4, 1/4, 3/4)
 	down:GetHighlightTexture():SetBlendMode("ADD")
 
-	down:SetScript("OnClick", function(self)
-		local parent = self:GetParent()
-		parent:SetValue(parent:GetValue() + (step or parent:GetHeight()/2))
+	down:SetScript("OnClick", function(this)
+		slider:SetValue(slider:GetValue() + (step or slider:GetHeight()/2))
 		_G.PlaySound(_G.SOUNDKIT.U_CHAT_SCROLL_BUTTON)
 	end)
 
-	f:SetThumbTexture("Interface\\Buttons\\UI-ScrollBar-Knob")
-	local thumb = f:GetThumbTexture()
+	slider:SetThumbTexture("Interface\\Buttons\\UI-ScrollBar-Knob")
+	local thumb = slider:GetThumbTexture()
 	thumb:SetWidth(16) thumb:SetHeight(24)
 	thumb:SetTexCoord(1/4, 3/4, 1/8, 7/8)
 
-	f:SetScript("OnValueChanged", function(self, value)
-		local min, max = self:GetMinMaxValues()
+	slider:SetScript("OnValueChanged", function(this, value)
+		local min, max = this:GetMinMaxValues()
 		if value == min then up:Disable() else up:Enable() end
 		if value == max then down:Disable() else down:Enable() end
 	end)
 
-	local border = _G.CreateFrame("Frame", nil, f)
+	local border = _G.CreateFrame("Frame", nil, slider)
 	border:SetPoint("TOPLEFT", up, -5, 5)
 	border:SetPoint("BOTTOMRIGHT", down, 5, -3)
 	border:SetBackdrop(bg)
 	border:SetBackdropBorderColor(_G.TOOLTIP_DEFAULT_COLOR.r, _G.TOOLTIP_DEFAULT_COLOR.g, _G.TOOLTIP_DEFAULT_COLOR.b, 0.5)
 
-	return f, up, down, border
+	return slider, up, down, border
 end
 
 local ErrorLog = nil

@@ -9,7 +9,6 @@ local L = WoWPro_Locale
 
 
 function WoWPro.CreateGuideList()
-    local GAP, EDGEGAP = 35, 16
 	local frame = _G.CreateFrame("Frame", nil, _G.InterfaceOptionsFramePanelContainer)
 	frame.name = L["Guide List"]
 	frame.parent = "WoW-Pro"
@@ -68,30 +67,29 @@ function WoWPro.CreateGuideList()
     scrollBox:SetPoint("BOTTOM",frame,"BOTTOM",0,5)
     frame.scrollBox = scrollBox
 
-	local scrollBar,_,_,scrollBorder = WoWPro:CreateScrollbar(scrollBox,{-4,6},nil,"Outside")
+	local scrollBar = WoWPro:CreateScrollbar(scrollBox,{-4,6},nil,"Outside")
 	frame.scrollBar = scrollBar
 
 	frame.ScrollFrame = _G.CreateFrame("ScrollFrame",nil,scrollBox)
 	frame.ScrollFrame:SetPoint("TOPLEFT",10,-10)
 	frame.ScrollFrame:SetPoint("BOTTOMRIGHT",-10,10)
 
-	local f = scrollBar:GetScript("OnValueChanged")
+	local onValueChanged = scrollBar:GetScript("OnValueChanged")
 	scrollBar:SetScript("OnValueChanged", function(self, value, ...)
 		WoWPro.GuideList.ScrollFrame:SetVerticalScroll(self:GetValue())
-		return f(self, value, ...)
+		return onValueChanged(self, value, ...)
 	end)
 
     frame.ScrollFrame:EnableMouseWheel()
 	frame.ScrollFrame:SetScript("OnMouseWheel", function(self, val)
-	    local minValue, maxValue = scrollBar:GetMinMaxValues()
-        scrollBar:SetValue(scrollBar:GetValue() - val*maxValue/10)
+	    local _, maxValue = scrollBar:GetMinMaxValues()
+        scrollBar:SetValue(scrollBar:GetValue() - val * maxValue / 10)
     end)
 
 	local function OnShow(self)
 		local GID = WoWProDB.char.currentguide
 		local first = nil
 		if GID and WoWPro.Guides[GID] then
-			first = first or WoWPro.Guides[GID].guidetype
 			WoWPro.ActivateTab(WoWPro.Guides[GID].guidetype)
 			return
 		end
@@ -208,14 +206,14 @@ function WoWPro:UpdateGuideList()
 			row:SetChecked(WoWProDB.char.currentguide == GID)
 					
 			if WoWPro[iGuide.guide.guidetype].GuideTooltipInfo then
-    		    row:SetScript("OnEnter", function(self)      
+    		    row:SetScript("OnEnter", function(this)      
         		    WoWPro[iGuide.guide.guidetype].GuideTooltipInfo(row, _G.GameTooltip, iGuide.guide)		            
         		    _G.GameTooltip:Show()
         		    if iGuide.guide.icon then
                         WoWPro:ShowTooltipIcon(iGuide.guide.icon, iGuide.guide.icon_offsets)
         		    end
         		end)
-        		row:SetScript("OnLeave", function(self)
+        		row:SetScript("OnLeave", function(this)
         		    _G.GameTooltip:Hide()
         		    WoWPro:HideTooltipIcon()
         		end)
@@ -338,7 +336,6 @@ end
 
 WoWPro:Export("CreateGuideTabFrame_Rows")
 function WoWPro:CreateGuideTabFrame_Rows(frame)
-    local GAP = 8 
     self.GuideList.Rows = {}
     self.GuideList.Offset = 0
     
@@ -353,14 +350,14 @@ function WoWPro:CreateGuideTabFrame_Rows(frame)
 		local row = _G.CreateFrame("CheckButton", ("%s_Guide_Row%d"):format(self.name, i), frame)
 		
 		if WoWPro[iGuide.guide.guidetype].GuideTooltipInfo then
-		    row:SetScript("OnEnter", function(self)      
+		    row:SetScript("OnEnter", function(this)      
     		    WoWPro[iGuide.guide.guidetype].GuideTooltipInfo(row, _G.GameTooltip, iGuide.guide)		            
     		    _G.GameTooltip:Show()
     		    if iGuide.guide.icon then
     		        WoWPro:ShowTooltipIcon(iGuide.guide.icon, iGuide.guide.icon_offsets)
     		    end
     		end)
-    		row:SetScript("OnLeave", function(self)
+    		row:SetScript("OnLeave", function(this)
     		    _G.GameTooltip:Hide()
     		    WoWPro:HideTooltipIcon()
     		end)

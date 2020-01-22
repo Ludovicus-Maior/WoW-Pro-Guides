@@ -287,8 +287,9 @@ local zidmap = {
 }
 
 function WoWPro:findBlizzCoords(questId)
-	local POIFrame
---[[
+    --[[
+        local POIFrame
+
     	-- Try to find the correct quest frame
     	for i = 1, MAX_NUM_QUESTS do
         	local questFrame = _G["WorldMapQuestFrame"..i];
@@ -323,7 +324,7 @@ function WoWPro:findBlizzCoords(questId)
 
     	return cx * 100, cy * 100
 ]]
-        return nil, nil
+    return nil, nil
 end
 
 local FinalCoord
@@ -423,62 +424,62 @@ function WoWPro:MapPoint(row)
 	if WoWPro.InitLockdown then return end
 
 	-- Loading Variables for this step --
-	local i
+	local stepIndex
 	if row then
-	    i = WoWPro.rows[row].index 
+	    stepIndex = WoWPro.rows[row].index 
 	else 
-		i = WoWPro.NextStepNotSticky(WoWPro.ActiveStep)
+		stepIndex = WoWPro.NextStepNotSticky(WoWPro.ActiveStep)
 	end
 
 
 	-- Removing old map point --
-	if LastMapPoint and LastMapPoint == i and #cache > 0 and cache[1].index == i then
+	if LastMapPoint and LastMapPoint == stepIndex and #cache > 0 and cache[1].index == stepIndex then
 	    WoWPro:print("MapPoint: LastMapPoint=%d [%.2f,%.2f@%d] in %s. No update needed.", LastMapPoint, cache[1].x, cache[1].y, cache[1].map, cache[1].zone)
 	    return
 	else
-        WoWPro:dbp("MapPoint: LastMapPoint=%s, #cache=%d, cache[1].index=%s, i=%d", tostring(LastMapPoint),  #cache, tostring(#cache > 0 and cache[1].index), i)
+        WoWPro:dbp("MapPoint: LastMapPoint=%s, #cache=%d, cache[1].index=%s, stepIndex=%d", tostring(LastMapPoint),  #cache, tostring(#cache > 0 and cache[1].index), stepIndex)
 	end
 	WoWPro:RemoveMapPoint()
 
 
 	local coords
 	if WoWPro.map then
-	    coords = WoWPro.map[i]
+	    coords = WoWPro.map[stepIndex]
 	else
 	    coords = nil
 	end
-	local desc = WoWPro.step[i]
+	local desc = WoWPro.step[stepIndex]
 	local zone
-	zone = WoWPro.zone[i] or WoWPro.Guides[GID].zone:match("([^%(]+)"):trim()
-	autoarrival = WoWPro.waypcomplete[i]
+	zone = WoWPro.zone[stepIndex] or WoWPro.Guides[GID].zone:match("([^%(]+)"):trim()
+	autoarrival = WoWPro.waypcomplete[stepIndex]
 
 	-- Loading Blizzard Coordinates for this objective, if coordinates aren't provided --
-	if (WoWPro.action[i]=="T" or WoWPro.action[i]=="C") and WoWPro.QID and WoWPro.QID[i] and not coords then
+	if (WoWPro.action[stepIndex]=="T" or WoWPro.action[stepIndex]=="C") and WoWPro.QID and WoWPro.QID[stepIndex] and not coords then
 	    if not WoWPro.CLASSIC then
 	        -- TODO: Is this needed at all?
 		    _G.QuestMapUpdateAllQuests()
 		    _G.QuestPOIUpdateIcons()
 		end
-		local x, y = WoWPro:findBlizzCoords(WoWPro.QID[i])
+		local x, y = WoWPro:findBlizzCoords(WoWPro.QID[stepIndex])
 		if x and y then coords = tostring(x)..","..tostring(y) end
 	end
 
 	-- Set working objective based on QID
-	if WoWPro.QID and WoWPro.QID[i] then
-	    local qid = tonumber(WoWPro.QID[i])
+	if WoWPro.QID and WoWPro.QID[stepIndex] then
+	    local qid = tonumber(WoWPro.QID[stepIndex])
 	    if qid then
             _G.SetSuperTrackedQuestID(qid)
 	    end
 	end
 
 	-- Using LightHeaded if the user has it and if there aren't coords from anything else --
-	if LightHeaded and WoWPro.QID and WoWPro.QID[i] and not coords then
-		if type(WoWPro.QID[i]) ~= "number" then return end
-		local _, npcid, npcname, stype
-		if WoWPro.action[i]=="A" then
-		     _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[i])
+	if LightHeaded and WoWPro.QID and WoWPro.QID[stepIndex] and not coords then
+		if type(WoWPro.QID[stepIndex]) ~= "number" then return end
+		local _, npcid, _, stype
+		if WoWPro.action[stepIndex]=="A" then
+		     _, _, _, _, stype, _, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[stepIndex])
 		else
-		     _, _, _, _, _, _, _, stype, npcname, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[i])
+		     _, _, _, _, _, _, _, stype, _, npcid = LightHeaded:GetQuestInfo(WoWPro.QID[stepIndex])
 		end
 		if stype == "npc" then
 			local data = LightHeaded:LoadNPCData(tonumber(npcid))
@@ -494,7 +495,7 @@ function WoWPro:MapPoint(row)
 
 	-- If there aren't coords to map, ending map function --
 	if not coords then
-        WoWPro:dbp("MapPoint: No coords for step %d",i)
+        WoWPro:dbp("MapPoint: No coords for step %d",stepIndex)
 	    return
 	end
 
@@ -515,26 +516,26 @@ function WoWPro:MapPoint(row)
 	end
 
 	if TomTom or Nx then
-		    TomTom.db.profile.arrow.setclosest = true
-    		OldCleardistance = TomTom.db.profile.persistence.cleardistance
+	    TomTom.db.profile.arrow.setclosest = true
+		OldCleardistance = TomTom.db.profile.persistence.cleardistance
 
-    		-- arrival distance, so TomTom can call our customized distance function when player
-    		-- gets to the waypoints
-    		local arrivaldistance
-    		if (not OldCleardistance) or (OldCleardistance == 0) then
-    			arrivaldistance = 10
-    		else
-    			arrivaldistance = OldCleardistance + 1
-    		end
-    		WoWProMapping_callbacks_tomtom.distance[arrivaldistance] = WoWProMapping_distance
+		-- arrival distance, so TomTom can call our customized distance function when player
+		-- gets to the waypoints
+		local arrivaldistance
+		if (not OldCleardistance) or (OldCleardistance == 0) then
+			arrivaldistance = 10
+		else
+			arrivaldistance = OldCleardistance + 1
+		end
+		WoWProMapping_callbacks_tomtom.distance[arrivaldistance] = WoWProMapping_distance
 
-    		-- prevents TomTom from clearing waypoints that are not final destination
-    		if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
-    		WoWPro:dbp("MapPoint: autoarrival = %s, arrivaldistance=%s, TomTom..cleardistance = %d, OldCleardistance == %d",
-    		             tostring(autoarrival),tostring(arrivaldistance),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
+		-- prevents TomTom from clearing waypoints that are not final destination
+		if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
+		WoWPro:dbp("MapPoint: autoarrival = %s, arrivaldistance=%s, TomTom..cleardistance = %d, OldCleardistance == %d",
+		             tostring(autoarrival),tostring(arrivaldistance),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
 
 		-- Parsing and mapping coordinates --
-		WoWPro:print("WoWPro:MapPoint1(%d,%s@%s=%s)",i,coords,tostring(zone),tostring(zm))
+		WoWPro:print("WoWPro:MapPoint1(%d,%s@%s=%s)",stepIndex,coords,tostring(zone),tostring(zm))
 		local numcoords = select("#", (";"):split(coords))
         FinalCoord = nil
 		for j=1,numcoords do
@@ -567,10 +568,10 @@ function WoWPro:MapPoint(row)
 				WoWPro:print("WoWPro:MapPoint:TomTom(%s@%s/%s)",jcoord,tostring(zone),tostring(zm))
 				uid = TomTom:AddWaypoint(zm, x/100, y/100, options)
 				if not uid then
-				    WoWPro:Error("Failed to set waypoint!  Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
+				    WoWPro:Error("Failed to set waypoint!  Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[stepIndex],WoWPro.step[stepIndex])
 				end
 				waypoint.uid = uid
-				waypoint.index = i
+				waypoint.index = stepIndex
 				waypoint.zone = zone
 				waypoint.map = zm
 				waypoint.x = x
@@ -595,10 +596,10 @@ function WoWPro:MapPoint(row)
 				WoWPro:print("WoWPro:MapPoint:Nx(%s@%s/%s)",jcoord,tostring(zone),tostring(zm))
 				uid = Nx:TTSetTarget (zm, x, y, title, callbackT)
 				if not uid then
-				    WoWPro:Error("Failed to set waypoint!  Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
+				    WoWPro:Error("Failed to set waypoint!  Please report a bug: Guide %s, Step %s [%s]",GID,WoWPro.action[stepIndex],WoWPro.step[stepIndex])
 				end
 				waypoint.uid = uid
-				waypoint.index = i
+				waypoint.index = stepIndex
 				waypoint.zone = zone
 				waypoint.map = zm
 				waypoint.x = x
@@ -610,7 +611,7 @@ function WoWPro:MapPoint(row)
 				FinalCoord = { x , y }
 			end
 		end
-		LastMapPoint = i
+		LastMapPoint = stepIndex
 
 		if autoarrival and #cache > 0 then
 			if autoarrival == 1 then
@@ -619,13 +620,15 @@ function WoWPro:MapPoint(row)
 
 				if closest_uid then
 					local iactual
-					for i,waypoint in ipairs(cache) do
+					for i, waypoint in ipairs(cache) do
 						if (waypoint.uid == closest_uid) then 
-							iactual = i break end
+							iactual = i
+                            break
+                        end
 					end
 
 					if iactual then
-						for i=iactual+1,#cache,1 do
+						for i = iactual + 1, #cache, 1 do
 						    if TomTom and not Nx then
 							    TomTom:RemoveWaypoint(cache[i].uid)
 							elseif Nx then
@@ -634,7 +637,7 @@ function WoWPro:MapPoint(row)
 						end
 					end
 				else
-				    WoWPro:Warning("No closest waypoint? Please report a bug if the arrow is not working: Guide %s, Step %s [%s]",GID,WoWPro.action[i],WoWPro.step[i])
+				    WoWPro:Warning("No closest waypoint? Please report a bug if the arrow is not working: Guide %s, Step %s [%s]",GID,WoWPro.action[stepIndex],WoWPro.step[stepIndex])
 				end
 			elseif autoarrival == 2 then
 				TomTom.db.profile.arrow.setclosest = false

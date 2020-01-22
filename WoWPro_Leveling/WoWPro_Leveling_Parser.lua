@@ -2,12 +2,9 @@
 --      WoWPro_Leveling_Parser      --
 --------------------------------------
 	
-local L = WoWPro_Locale
-
 -- Determine Next Active Step (Leveling Module Specific)--
 -- This function is called by the main NextStep function in the core broker --
 function WoWPro.Leveling:NextStep(k, skip)
-	local GID = WoWProDB.char.currentguide
 	local myFaction = _G.UnitFactionGroup("player"):upper()
 
 	-- Skip Faction qualified steps 

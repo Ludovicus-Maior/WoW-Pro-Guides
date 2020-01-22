@@ -16,3 +16,6 @@ globals = {
 
     "TourGuide",
 }
+ignore = {
+    "211/_.*", -- Unused local variable starting with _
+}

@@ -23,8 +23,8 @@ function WoWPro.ExpandAbility(ability,want_icon, want_text)
 end
 RegisterMarkup("ability", WoWPro.ExpandAbility)
 
-function WoWPro.ExpandItem(item,want_icon, want_text)
-    local name, link, quality, iLevel, reqLevel, class, subclass, maxStack, equipSlot, texture = _G.GetItemInfo(tonumber(item))
+function WoWPro.ExpandItem(item, want_icon, want_text)
+    local name, link, _, _, _, _, _, _, _, texture = _G.GetItemInfo(tonumber(item))
     local expanded = ""
     if name then
         if want_icon then

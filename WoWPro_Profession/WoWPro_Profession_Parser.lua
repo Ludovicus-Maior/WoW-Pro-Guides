@@ -4,13 +4,9 @@
 --      WoWPro_Profession_Parser      --
 --------------------------------------
 	
-local L = WoWPro_Locale
-
 -- Determine Next Active Step (Profession Module Specific)--
 -- This function is called by the main NextStep function in the core broker --
 function WoWPro.Profession:NextStep(k, skip)
-	local GID = WoWProDB.char.currentguide
-
 	-- Optional Quests --
 	if WoWPro.optional[k] and WoWPro.QID[k] then 
 		
@@ -49,29 +45,27 @@ function WoWPro.Profession:PreRowUpdate(row)
 
 	local step = WoWPro.step[k]
 	local mat = WoWPro.mat[k]
-	local target = WoWPro.target[k]
 	local prof = WoWPro.prof[k]
 
 
 	-- Break down the current step and re-create
 	if prof then
-		local profname, profnum, proflvl, profmaxlvl, profmaxskill = (";"):split(prof)
+		local _, profnum, proflvl, profmaxlvl = (";"):split(prof)
 		if proflvl == '*' then proflvl = 801 end -- Set to the maximum level obtainable in the expansion plus 1
 		proflvl = tonumber(proflvl) or 1
 		profmaxlvl = tonumber(profmaxlvl) or 0
-		profmaxskill = tonumber(profmaxskill) or 0
 		if (k == WoWPro.rows[WoWPro.ActiveStickyCount+1].index) and (tonumber(profmaxlvl) > 0) then
 			local profs = {}
 			profs[1], profs[2], profs[3], profs[4], profs[5], profs[6] = _G.GetProfessions()
 			for p=1,6 do
 				if profs[p] then
-					local skillName, skillLoc, skillRank, maxskill, _, _, skillnum, rankModifier = _G.GetProfessionInfo(profs[p])
+					local _, skillLoc, skillRank, _, _, _, skillnum, rankModifier = _G.GetProfessionInfo(profs[p])
 					if (tonumber(skillnum) == tonumber(profnum)) then
 					    if WoWPro.action[k] == "M" then
 							proflvl = max(proflvl-rankModifier,1)
 							profmaxlvl = max(profmaxlvl-rankModifier,1)
 						end
-						local craft, skill = (":"):split(step)
+						local craft = (":"):split(step)
 						row.targeticon:SetTexture(skillLoc)
 						-- How take racial bonuses into account using rankModifier
 						local numMATs = select("#", (":"):split(mat))
@@ -107,18 +101,13 @@ end
 
 function WoWPro.Profession:RowUpdateTarget(row)
     local k = row.index
-	local step = WoWPro.step[k]
-	local note = ' '
-	local mat = WoWPro.mat[k]
-	local target = WoWPro.target[k]
-	
-	local target, spell, amt = (";"):split(target)
+	local target, spell, amt = (";"):split(WoWPro.target[k])
 	spell = tonumber(spell) or 0
 	amt = tonumber(amt) or 1
 
 	row.targetbutton:Show() 
 	if spell == 1 then
-		local prof, proflvl, profmaxlvl, profmaxskill = (";"):split(WoWPro.prof[k])
+		local prof = (";"):split(WoWPro.prof[k])
 		row.targetbutton:SetAttribute("macrotext", "/run CloseTradeSkill()\n/Cast "..prof.."\n/run for i=1,GetNumTradeSkills() do local na,_,n,_,_,p=GetTradeSkillInfo(i)if na=='"..target.."' then DoTradeSkill(i,'"..amt.."') end end ")
 	else
 		row.targetbutton:SetAttribute("macrotext", "/cleartarget\n/targetexact "..target
@@ -135,7 +124,7 @@ function WoWPro.Profession:RowLeftClick(i)
 end
 
 -- Event Response Logic --
-function WoWPro.Profession:EventHandler(self, event, ...)
+function WoWPro.Profession:EventHandler(event, ...)
 	WoWPro:dbp("Running: Profession Event Handler")
 		
 	-- Noting that a quest is being completed for quest log update events --

@@ -77,10 +77,9 @@ frame:SetScript("OnShow", function()
 		local completion = WoWProCharDB.Guide[GID].completion
 		local totalh = 0
 		local maxh = box:GetHeight() - 12
-		local i = 1
-		local index = i + offset
+		local index = 1 + offset
 		shownrows = NUMROWS
-		for i,row in ipairs(rows) do
+		for i, row in ipairs(rows) do
 			row.index = index
 			
 			if completion[index] or WoWProCharDB.Guide[GID].skipped[index] or WoWProCharDB.skippedQIDs[WoWPro.QID[index]] then
@@ -150,10 +149,10 @@ frame:SetScript("OnShow", function()
 			row.check:SetScript("OnClick", function(self, button, down)
 				row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check")
 				if button == "LeftButton" and row.check:GetChecked() then
-					local steplist = WoWPro.SkipStep(row.index)
+					local list = WoWPro.SkipStep(row.index)
 					row.check:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
-					if steplist ~= "" then 
-						WoWPro.SkipStepDialogCall(row.index, steplist)
+					if list ~= "" then 
+						WoWPro.SkipStepDialogCall(row.index, list)
 					end
 				elseif button == "RightButton" and row.check:GetChecked() then
 					completion[row.index] = true

@@ -1,5 +1,5 @@
 -- luacheck: globals tostring tonumber
--- luacheck: globals select ipairs
+-- luacheck: globals select ipairs next
 
 --------------------------
 --  WoWPro_Events.lua   --
@@ -31,7 +31,7 @@ function WoWPro:RecordTaxiLocations(...)
     for i = 1, _G.NumTaxiNodes() do
         local nomen = _G.TaxiNodeName(i)
         local typo = _G.TaxiNodeGetType(i)
-        local location,zone = (","):split(nomen)
+        local location = (","):split(nomen)
         if (typo ~= "NONE" and typo ~= "DISTANT") and not WoWProCharDB.Taxi[location] then
             WoWProCharDB.Taxi[location] = true
             WoWPro:Print("Discovered Flight Point: [%s]",location )
@@ -73,7 +73,7 @@ end
 
 function WoWPro.TakeTaxiRetail(destination)
     -- As of 8.1.0.28833, we need to know where we are to know where we can go.
-    local x,y,mapId = WoWPro:GetPlayerZonePosition()
+    local _, _, mapId = WoWPro:GetPlayerZonePosition()
     if not mapId then
         WoWPro:Warning("Unable to find flight point to: [%s]. Where am I?",destination)
         return
@@ -117,7 +117,7 @@ function WoWPro:AutoCompleteGetFP(...)
     if msg == _G.ERR_NEWTAXIPATH then
          for i = 1,15 do
              local index = WoWPro.rows[i].index
-             local msg = ("AutoCompleteGetFP(%s): Step %s/%d [%s]?"):format(msg, tostring(WoWPro.action[index]), index, tostring(WoWPro.step[index]))
+             msg = ("AutoCompleteGetFP(%s): Step %s/%d [%s]?"):format(msg, tostring(WoWPro.action[index]), index, tostring(WoWPro.step[index]))
              WoWPro:dbp(msg)
              if WoWPro.rows[i]:IsVisible() and WoWPro.action[index] == "f" then
                 if not WoWProCharDB.Guide[WoWProDB.char.currentguide].completion[index] then
@@ -217,22 +217,15 @@ end
 
 -- Save Garrison Building Locations for the BUILDING tag
 function WoWPro.SaveGarrisonBuildings()
-    local zone, mapId = WoWPro.GetZoneText()
-    -- NOTE:  This wont work right on non EnUS clients!  Use mapIds.
-    if (zone == 'Lunarfall') or (zone == 'Frostwall') then
-        WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
-        -- We just moved into the zone
-        local numPOIs = _G.GetNumMapLandmarks();
-        for i=2, numPOIs do
-            local landmarkType, name, description, textureIndex, x, y, mapLinkID, inBattleMap, graveyardID, areaID, poiID, isObjectIcon, atlasIcon
-            if WoWPro.WOL then
-                landmarkType, name, description, textureIndex, x, y, mapLinkID, inBattleMap, graveyardID, areaID, poiID, isObjectIcon, atlasIcon = _G.GetMapLandmarkInfo(i)
-            else
-                name, description, textureIndex, x, y, mapLinkID, inBattleMap, graveyardID, areaID, poiID, isObjectIcon, atlasIcon = _G.GetMapLandmarkInfo(i)
-            end
-            WoWProCharDB.BuildingLocations[name] = {x=(100*x), y=(100*y)}
-            WoWPro:dbp("Building %s @ %g,%g", name, 100*x, 100*y)
-        end
+    local _, mapID = WoWPro.GetZoneText()
+
+    WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
+    local garrisonPlotInstances = _G.C_Garrison.GetGarrisonPlotsInstancesForMap(mapID)
+    for i, plotInfo in next, garrisonPlotInstances do
+        local x, y = plotInfo.position:GetXY()
+        x, y = x * 100, y * 100
+        WoWProCharDB.BuildingLocations[plotInfo.name] = {x = x, y = y}
+        WoWPro:dbp("Building %s @ %g, %g", plotInfo.name, x, y)
     end
 end
 
@@ -359,7 +352,7 @@ function WoWPro.AutoCompleteZone()
 	            WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
 	            return true
             end
-            local x, y, mapId = WoWPro:GetPlayerZonePosition()
+            local _, _, mapId = WoWPro:GetPlayerZonePosition()
             if (tonumber(targetzone) and tonumber(targetzone) == mapId) then
                 WoWPro.CompleteStep(currentindex,"AutoCompleteZone:"..targetzone)
                 return true
@@ -374,7 +367,6 @@ function WoWPro.AutoCompleteCriteria()
     if not WoWProDB.char.currentguide then return end
 
 	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-	local GID = WoWProDB.char.currentguide
 	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
 	    WoWPro.CompleteStep(qidx,"AutoCompleteCriteria-Quest")
 	else
@@ -385,13 +377,13 @@ end
 -- Auto-Complete: Chest Loot, for the silly timeless isle chests
 function WoWPro.AutoCompleteChest()
     if not WoWProDB.char.currentguide then return end
-    local zone, map = WoWPro.GetZoneText()
+
+    local zone = WoWPro.GetZoneText()
     if zone == "Timeless Isle" then
-	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
-	local GID = WoWProDB.char.currentguide
-	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
+    	local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
+    	if WoWPro.QID[qidx] and WoWPro:IsQuestFlaggedCompleted(WoWPro.QID[qidx],true) then
 	        WoWPro.CompleteStep(qidx,"AutoCompleteChest")
-	end
+    	end
     end
 end
 
@@ -536,11 +528,9 @@ WoWPro.RegisterModernEventHandler("CRITERIA_COMPLETE",WoWPro.SCENARIO_CRITERIA_U
 
 -- Noticing if we are doing a pet battle!
 WoWPro.RegisterModernEventHandler("PET_BATTLE_OPENING_START", function (event,...)
-	local guidetype = "WoWPro"
 	local battleHide = false
 
 	if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] and WoWPro.Guides[WoWProDB.char.currentguide].guidetype then
-	    guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
 	    battleHide = not WoWPro.Guides[WoWProDB.char.currentguide].PetBattle
 	end
 
@@ -551,8 +541,8 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_OPENING_START", function (event,..
         WoWPro.Hidden = event
     end
 	WoWPro.PetBattleActive = true
---	WoWPro.RegisterAllEvents()
-    end)
+    -- WoWPro.RegisterAllEvents()
+end)
 
 WoWPro.RegisterModernEventHandler("PET_BATTLE_PET_ROUND_RESULTS", function (event,...)
     WoWPro:UpdateGuide(event)
@@ -693,14 +683,13 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event,...)
         WoWPro.QuestCount = 0
     end
 
-    local npcQuests = {_G.GetGossipAvailableQuests()};
-    local npcCount = _G.GetNumGossipAvailableQuests();
-    local step = #npcQuests / npcCount
-    local index = 0
+    npcCount = _G.GetNumGossipAvailableQuests();
+    npcQuests = {_G.GetGossipAvailableQuests()};
+    step = #npcQuests / npcCount
     WoWPro:print("%s: AvailableQuests npcCount=%d", event, npcCount)
     if WoWProCharDB.AutoSelect then
         WoWPro.QuestCount = npcCount
-        for index=1,npcCount do
+        for index=1, npcCount do
             -- titleText, level, isTrivial, frequency, isRepeatable, isLegendary, isIgnored
             local name = npcQuests[((index-1)*step)+1]
             WoWPro:dbp("ZT: %s index %d/%d, considering [%s]",event,index,npcCount,name)
@@ -1056,8 +1045,8 @@ function WoWPro.EventHandler(frame, event, ...)
         end
 
 		if WoWPro[name].EventHandler and guidetype == name then
-		    WoWPro:dbp("Now calling event handler for %s",name)
-		    WoWPro[name]:EventHandler(frame, event, ...)
+		    WoWPro:dbp("Now calling event handler for %s", name)
+		    WoWPro[name]:EventHandler(event, ...)
 		end
 	end
 end

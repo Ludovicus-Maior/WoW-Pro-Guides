@@ -6,9 +6,7 @@
 ------------------------------
 
 WoWPro.Dailies = WoWPro:NewModule("Dailies")
-local myUFG = _G.UnitFactionGroup("player")
 WoWPro:Embed(WoWPro.Dailies)
-local bucket = _G.LibStub("AceBucket-3.0")
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Dailies:OnInitialize()
@@ -110,5 +108,5 @@ function WoWPro.Dailies:DumpInfo()
     eBox:SetText(text)
     eBox:SetPoint("CENTER")
     eBox:Show()
-    eBox:SetScript("OnEscapePressed", function (self) self:Hide() end)
+    eBox:SetScript("OnEscapePressed", function (this) this:Hide() end)
 end

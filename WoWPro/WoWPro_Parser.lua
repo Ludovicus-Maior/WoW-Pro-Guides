@@ -532,7 +532,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     end
 	if WoWPro.map[i] then
 		if (WoWPro.map[i] == "PLAYER") then
-			local x, y, z = WoWPro:GetPlayerZonePosition()
+			local x, y = WoWPro:GetPlayerZonePosition()
 			if (x  and y) then
 				WoWPro.map[i]= ("%.2f"):format(x * 100) .. ',' .. ("%.2f"):format(y * 100)
 			else
@@ -650,14 +650,14 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
         WoWPro.note[i] = ""
     	local achnum, achitem = (";"):split(WoWPro.ach[i])
     	local count = _G.GetAchievementNumCriteria(achnum)
-    	local IDNumber, Name, Points, Completed, Month, Day, Year, Description, Flags, Image, RewardText, isGuildAch = _G.GetAchievementInfo(achnum)
+    	local _, Name, _, _, _, _, _, Description = _G.GetAchievementInfo(achnum)
     	if WoWPro.step[i] == "Achievement" and count == 0 then
     		WoWPro.step[i] = Name
     		WoWPro.note[i] = Description.."\n\n"..WoWPro.note[i]
     	end
     	if WoWPro.step[i] == "Achievement" and count > 0 then
     		WoWPro.step[i] = Name
-    		local description, type, completed, quantity, requiredQuantity, characterName, flags, assetID, quantityString, criteriaID = _G.GetAchievementCriteriaInfo(achnum, achitem)
+    		local description, _, _, _, requiredQuantity, _, _, _, quantityString = _G.GetAchievementCriteriaInfo(achnum, achitem)
     		WoWPro.note[i] = description.. " ("..quantityString.." of "..requiredQuantity..")\n\n"..WoWPro.note[i]
     	end
     end
@@ -780,8 +780,8 @@ function WoWPro.ParseSteps(steps)
 	WoWPro:dbp("Parsing Guide, %d steps",#steps)
 	local GID = WoWProDB.char.currentguide
 	local i = 2  -- Leave room the the L step
-	local myclassL, myclass = _G.UnitClass("player")
-	local myraceL, myrace = _G.UnitRace("player")
+	local _, myclass = _G.UnitClass("player")
+	local _, myrace = _G.UnitRace("player")
 	local myFaction = _G.UnitFactionGroup("player"):upper()
 	local zone = (WoWPro.Guides[GID].zone or ""):match("([^%(]+)"):trim()
 
@@ -977,7 +977,6 @@ function WoWPro.SetupGuideReal()
     local GID = WoWProDB.char.currentguide
     local guideType = WoWPro.Guides[GID].guidetype
     local guide_nocache = WoWPro.Guides[GID].nocache
-    local guideClass = WoWPro[guideType]
 
     WoWPro:dbp("SetupGuideReal(%s): Type: %s",GID,guideType)
 

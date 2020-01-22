@@ -5,9 +5,7 @@
 -------------------------------
 
 WoWPro.Achievements = WoWPro:NewModule("Achievements")
-local myUFG = _G.UnitFactionGroup("player")
 WoWPro:Embed(WoWPro.Achievements)
-local bucket = _G.LibStub("AceBucket-3.0")
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro.Achievements:OnInitialize()

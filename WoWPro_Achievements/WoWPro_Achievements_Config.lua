@@ -69,6 +69,8 @@ local function createBlizzOptions()
 end
 
 function WoWPro.Achievements:CreateConfig()
+	createBlizzOptions()
+
 	tinsert(WoWPro.DropdownMenu, {text = "", isTitle = true} )
 	tinsert(WoWPro.DropdownMenu, {text = "WoW-Pro Achievements", isTitle = true} )
 	tinsert(WoWPro.DropdownMenu, {text = "About", func = function() 

@@ -77,10 +77,9 @@ frame:SetScript("OnShow", function()
 		local completion = WoWProCharDB.Guide[GID].completion
 		local totalh = 0
 		local maxh = box:GetHeight() - 12
-		local i = 1
-		local index = i + offset
+		local index = 1 + offset
 		shownrows = NUMROWS
-		for i,row in ipairs(rows) do
+		for i, row in ipairs(rows) do
 			row.index = index
 			
 			if completion[index] then

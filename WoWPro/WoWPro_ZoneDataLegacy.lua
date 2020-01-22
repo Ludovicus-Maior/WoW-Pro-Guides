@@ -16,7 +16,7 @@ local function DefineDungeonArea(mapID, floor, zi, dungeon, mapName)
     if map_id then
         DefineLegacyZone(zi, map_id)
         DefineLegacyZoneFloor(tostring(mapID), floor, map_id)
-        local child , parent = ("@"):split(zi)
+        local _, parent = ("@"):split(zi)
         if parent then
             DefineLegacyZoneFloor(parent, floor, map_id)
         end
@@ -68,7 +68,7 @@ local function DefineTerrainFloor(cont, zonei, mapID, floor, zone, mapName)
     local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, floor)
     if map_id then
         DefineLegacyZone(zone, map_id)
-        local child , parent = ("@"):split(zone)
+        local _, parent = ("@"):split(zone)
         if parent then
             DefineLegacyZoneFloor(parent, floor, map_id)
         end

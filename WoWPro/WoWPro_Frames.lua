@@ -5,7 +5,6 @@
 --      WoWPro_Frames.lua      --
 ---------------------------------
 local L = WoWPro_Locale
-local AceGUI = _G.LibStub("AceGUI-3.0")
 
 -- Frame Update Functions --
 function WoWPro.GetSide(frame)
@@ -51,26 +50,26 @@ function WoWPro:DragSet()
 	-- Drag Customization --
 	local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
 	if WoWProDB.profile.drag then
-		WoWPro.Titlebar:SetScript("OnMouseDown", function(self, button)
+		WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
 			if button == "LeftButton" and WoWProDB.profile.drag then
 				WoWPro.MainFrame:StartMoving()
 			elseif button == "RightButton" then
 				_G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
 			end
 		end)
-		WoWPro.Titlebar:SetScript("OnMouseUp", function(self, button)
+		WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
 			if button == "LeftButton" and WoWProDB.profile.drag then
 				WoWPro.MainFrame:StopMovingOrSizing()
 				WoWPro.AnchorSet()
 			end
 		end)
 	else
-		WoWPro.Titlebar:SetScript("OnMouseDown", function(self, button)
+		WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
 			if button == "RightButton" then
 				_G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
 			end
 		end)
-		WoWPro.Titlebar:SetScript("OnMouseUp", function(self, button)
+		WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
 		end)
 	end
 end
@@ -192,7 +191,6 @@ function WoWPro.RowSizeSet()
 
 	-- Auto Resizing - Horizontal --
 	if WoWProDB.profile.autoresize and biggeststep and biggeststep ~= 0 then
-		local extraw = WoWPro.MainFrame:GetWidth()
 		local totalw = biggeststep + 50 + pad*2
 		totalw = max(totalw,WoWProDB.profile.hminresize)
 		if WoWPro.Titlebar:IsShown() then totalw = max(totalw,ceil(WoWPro.TitleText:GetStringWidth()+pad*2+10)) end
@@ -276,16 +274,13 @@ function WoWPro.RowSizeSet()
 	if WoWProDB.profile.autoresize then
 		local titleheight = 0
 		if WoWPro.Titlebar:IsShown() then titleheight = WoWPro.Titlebar:GetHeight() end
-		local totalh = totalh + pad*2 + WoWPro.StickyFrame:GetHeight() + titleheight
+		totalh = totalh + pad*2 + WoWPro.StickyFrame:GetHeight() + titleheight
 		WoWPro.MainFrame:SetHeight(totalh)
 	end
 	if WoWPro.Recorder then WoWPro.Recorder:CustomizeFrames() end
 end
 
 function WoWPro.AnchorSet()
-	local w = WoWPro.Titlebar:GetWidth()
-	local h = WoWPro.Titlebar:GetHeight()
-
 	for i,row in ipairs(WoWPro.rows) do
 		if WoWPro.GetSide(WoWPro.MainFrame) == "RIGHT" then
 			WoWPro.mousenotes[i]:SetPoint("TOPRIGHT", row, "TOPLEFT", -10, 10)
@@ -410,29 +405,29 @@ function WoWPro:CreateMainFrame()
 	-- Menu --
 	local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
 	-- Scripts --
-	WoWPro.MainFrame:SetScript("OnMouseDown", function(self, button)
+	WoWPro.MainFrame:SetScript("OnMouseDown", function(this, button)
 		if button == "LeftButton" and WoWProDB.profile.drag then
-			WoWPro.MainFrame:StartMoving()
+			this:StartMoving()
 		elseif button == "RightButton" then
 			_G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
 		end
 	end)
-	WoWPro.MainFrame:SetScript("OnMouseUp", function(self, button)
+	WoWPro.MainFrame:SetScript("OnMouseUp", function(this, button)
 		if button == "LeftButton" and WoWProDB.profile.drag then
-			WoWPro.MainFrame:StopMovingOrSizing()
+			this:StopMovingOrSizing()
 			WoWPro.AnchorSet()
 		end
 	end)
 
 	-- Set initial keybindings frames
 	WoWPro.FauxItemButton = _G.CreateFrame("Frame", "WoWPro_FauxItemButton", _G.UIParent)
-	WoWPro.FauxItemButton:SetScript("OnMouseUp", function(self, button)
+	WoWPro.FauxItemButton:SetScript("OnMouseUp", function(this, button)
 		if button == "LeftButton" then
 			WoWPro:dbp("Clicking FauxItemButton")
 		end
 	end)
 	WoWPro.FauxTargetButton = _G.CreateFrame("Frame", "WoWPro_FauxTargetButton", _G.UIParent)
-	WoWPro.FauxTargetButton:SetScript("OnMouseUp", function(self, button)
+	WoWPro.FauxTargetButton:SetScript("OnMouseUp", function(this, button)
 		if button == "LeftButton" then
 			WoWPro:dbp("Clicking FauxTargetButton")
 		end
@@ -451,7 +446,7 @@ function WoWPro:CreateResizeButton()
 		resizebutton:SetScript("OnMouseDown", function()
 			WoWPro.MainFrame:StartSizing("TOPLEFT")
 			WoWPro:UpdateGuide("ResizeStart")
-			WoWPro.MainFrame:SetScript("OnSizeChanged", function(self, width, height)
+			WoWPro.MainFrame:SetScript("OnSizeChanged", function(this, width, height)
 				WoWPro.RowSizeSet()
 			end)
 		end)
@@ -487,29 +482,26 @@ function WoWPro:CreateTitleBar()
 	WoWPro.TitleText = titletext
 	-- Scripts --
 	local menuFrame = _G.CreateFrame("Frame", "WoWProDropMenu", _G.UIParent, "UIDropDownMenuTemplate")
-	WoWPro.Titlebar:SetScript("OnMouseDown", function(self, button)
+	WoWPro.Titlebar:SetScript("OnMouseDown", function(this, button)
 		if button == "LeftButton" and WoWProDB.profile.drag then
 			WoWPro.MainFrame:StartMoving()
 		elseif button == "RightButton" then
 			_G.EasyMenu(WoWPro.DropdownMenu, menuFrame, "cursor", 0 , 0, "MENU");
 		end
 	end)
-	WoWPro.Titlebar:SetScript("OnMouseUp", function(self, button)
+	WoWPro.Titlebar:SetScript("OnMouseUp", function(this, button)
 		if button == "LeftButton" and WoWProDB.profile.drag then
 			WoWPro.MainFrame:StopMovingOrSizing()
 			WoWPro.AnchorSet()
 		end
 	end)
-	WoWPro.Titlebar:SetScript ("OnDoubleClick", function (self, button)
-		local anchorpoint = WoWProDB.profile.anchorpoint
-		local hquadrant, vquadrant = WoWPro.GetSide(WoWPro.MainFrame)
-		if anchorpoint == "AUTO" or anchorpoint == nil then anchorpoint = vquadrant..hquadrant end
+	WoWPro.Titlebar:SetScript ("OnDoubleClick", function (this, button)
 		if WoWPro.GuideFrame:IsVisible() then
 			if WoWPro.StickyFrame:IsShown() then WoWPro.StickyFrame:Hide(); WoWPro.StickyHide = true end
 			WoWPro.GuideFrame:Hide()
 			WoWPro.OldHeight = WoWPro.MainFrame:GetHeight()
 			WoWPro.MainFrame:StartSizing("TOP")
-			WoWPro.MainFrame:SetHeight(WoWPro.Titlebar:GetHeight())
+			WoWPro.MainFrame:SetHeight(this:GetHeight())
 			WoWPro.MainFrame:StopMovingOrSizing()
 			WoWPro.AnchorSet()
 		else
@@ -553,9 +545,9 @@ function WoWPro:CreateGuideWindowScrollbar()
 	WoWPro.Scrollbar:SetPoint("BOTTOMRIGHT", WoWPro.MainFrame, "BOTTOMRIGHT", 20, 20)
 
 	WoWPro.Scrollbar:SetValueStep(1)
-	local f = WoWPro.Scrollbar:GetScript("OnValueChanged")
+	local onValueChanged = WoWPro.Scrollbar:GetScript("OnValueChanged")
 	local oldOffset = 0
-	WoWPro.Scrollbar:SetScript("OnValueChanged", function(self, value, ...)
+	WoWPro.Scrollbar:SetScript("OnValueChanged", function(this, value, ...)
 		local offset = floor(value)
 		if not WoWProDB.profile.guidescroll then return end
 		if offset ~= oldOffset then
@@ -563,9 +555,9 @@ function WoWPro:CreateGuideWindowScrollbar()
 			WoWPro.GuideOffset = offset
 			WoWPro:UpdateGuide("ScrollBar")
 		end
-		return f(self, value, ...)
+		return onValueChanged(this, value, ...)
 	end)
-	WoWPro.MainFrame:SetScript("OnMouseWheel", function(self, val)
+	WoWPro.MainFrame:SetScript("OnMouseWheel", function(this, val)
 		if WoWProDB.profile.guidescroll then
 			WoWPro.Scrollbar:SetValue(WoWPro.Scrollbar:GetValue() - val)
 		end
@@ -595,15 +587,15 @@ function WoWPro:CreateRows()
 		row:RegisterForClicks("AnyUp");
 
 		row.check = WoWPro:CreateCheck(row)
-		row.check:SetScript("OnEnter", function(self)
-			_G.GameTooltip:SetOwner(self, "CheckButton")
+		row.check:SetScript("OnEnter", function(this)
+			_G.GameTooltip:SetOwner(this, "CheckButton")
 			_G.GameTooltip:AddLine("RIGHT-Click:", 1, 1, 1, 1)
 			_G.GameTooltip:AddLine("   Manually check this step off.", 0.7, 0.7, 0.7, 0.7)
 			_G.GameTooltip:AddLine("LEFT-Click:", 1, 1, 1, 1)
 			_G.GameTooltip:AddLine("   Skip this step.", 0.7, 0.7, 0.7, 0.7)
 			_G.GameTooltip:Show()
 		end)
-		row.check:SetScript("OnLeave", function(self)
+		row.check:SetScript("OnLeave", function(this)
 			_G.GameTooltip:Hide()
 		end)
 		row.action = WoWPro:CreateAction(row, row.check)
@@ -676,11 +668,11 @@ function WoWPro:CreateMiniMapButton()
 				_G.InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
 			end
 		end,
-		OnTooltipShow = function(self)
-			self:AddLine("WoW-Pro")
-			self:AddLine("Left-click to enable/disable addon", 1, 1, 1)
-			self:AddLine("Right-click to open config panel", 1, 1, 1)
-			end,
+		OnTooltipShow = function(this)
+			this:AddLine("WoW-Pro")
+			this:AddLine("Left-click to enable/disable addon", 1, 1, 1)
+			this:AddLine("Right-click to open config panel", 1, 1, 1)
+		end,
 	})
 	icon:Register("WoWProIcon", WoWPro.MinimapButton, WoWProDB.profile.minimap)
 end
@@ -706,7 +698,7 @@ function WoWPro:CreateSkipStepsDialog()
 	button1text:SetFontObject(_G.GameFontNormalSmall)
 	button1text:SetText("Okay")
 	button1text:SetTextColor(1, 1, 1)
-	button1:SetScript("OnClick", function(self, button)
+	button1:SetScript("OnClick", function(this, button)
 		WoWPro.SkipStepsDialog:Hide()
 	end)
 
@@ -719,7 +711,7 @@ function WoWPro:CreateSkipStepsDialog()
 	button2text:SetFontObject(_G.GameFontNormalSmall)
 	button2text:SetText("Cancel")
 	button2text:SetTextColor(1, 1, 1)
-	button2:SetScript("OnClick", function(self, button)
+	button2:SetScript("OnClick", function(this, button)
 		WoWPro.SkipStepsDialog:Hide()
 	end)
 
@@ -732,7 +724,7 @@ function WoWPro:CreateSkipStepsDialog()
 		WoWPro.SkipStepsDialogText:SetText("Skipping the step "..WoWPro.step[index].." will also cause the following steps to skip: \n\n"
 			..steplist:trim())
 		WoWPro.SkipStepsDialog:SetHeight(120+WoWPro.SkipStepsDialogText:GetHeight())
-		WoWPro.SkipStepsOkayButton:SetScript("OnClick", function(self, button)
+		WoWPro.SkipStepsOkayButton:SetScript("OnClick", function(this, button)
 			WoWPro.SkipStepsDialog:Hide()
 			WoWPro.SkipStep(index, false)
 			checkbox:SetCheckedTexture("Interface\\Buttons\\UI-CheckBox-Check-Disabled")
@@ -746,7 +738,7 @@ end
 -- Next Guide Dialog --
 function WoWPro:CreateNextGuideDialog()
 
-	local frame, titletext = WoWPro:CreateDialogBox("WoWPro_GuideCompleted", 180, 150)
+	local frame = WoWPro:CreateDialogBox("WoWPro_GuideCompleted", 180, 150)
 
 	local button1 = _G.CreateFrame("Button", "WoWPro_LoadNextGuide", frame, "OptionsButtonTemplate")
 	button1:SetPoint("BOTTOMLEFT", 10, 80)
@@ -757,7 +749,7 @@ function WoWPro:CreateNextGuideDialog()
 	button1text:SetFontObject(_G.GameFontNormalSmall)
 	button1text:SetText("Load Next Guide")
 	button1text:SetTextColor(1, 1, 1)
-	button1:SetScript("OnClick", function(self, button)
+	button1:SetScript("OnClick", function(this, button)
 		WoWPro:LoadGuide(WoWPro:NextGuide(WoWProDB.char.currentguide))
 		WoWPro.NextGuideDialog:Hide()
 	end)
@@ -771,7 +763,7 @@ function WoWPro:CreateNextGuideDialog()
 	button2text:SetFontObject(_G.GameFontNormalSmall)
 	button2text:SetText("Choose Guide From List")
 	button2text:SetTextColor(1, 1, 1)
-	button2:SetScript("OnClick", function(self, button)
+	button2:SetScript("OnClick", function(this, button)
 		_G.InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling")
 		_G.InterfaceOptionsFrame_OpenToCategory("Guide List")
 		WoWPro.NextGuideDialog:Hide()
@@ -786,7 +778,7 @@ function WoWPro:CreateNextGuideDialog()
 	button3text:SetFontObject(_G.GameFontNormalSmall)
 	button3text:SetText("Reset Current Guide")
 	button3text:SetTextColor(1, 1, 1)
-	button3:SetScript("OnClick", function(self, button)
+	button3:SetScript("OnClick", function(this, button)
 		WoWProCharDB.Guide[WoWProDB.char.currentguide] = nil
 		WoWProCharDB.skippedQIDs = {}
 		WoWPro:Print("Guide Reset from UI, WoWPro Version %s.", WoWPro.Version);

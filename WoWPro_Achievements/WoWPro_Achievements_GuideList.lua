@@ -23,7 +23,7 @@ local function AddInfo(guide)
     WoWPro.Achievements:dbp("Guide %s: ach %s",guide.GID,tostring(guide.ach))
     if not WoWProDB.global.Achievements.Achievement[guide.ach] then
         -- Not categorized?  Just make it misc
-        local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = _G.GetAchievementInfo(guide.ach)
+        local _, name, _, _, _, _, _, _, _, icon = _G.GetAchievementInfo(guide.ach)
         guide.name = name
         guide.category = name
         guide.sub = ""

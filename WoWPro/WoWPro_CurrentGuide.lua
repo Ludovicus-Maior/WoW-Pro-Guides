@@ -80,7 +80,6 @@ frame:SetScript("OnShow", function()
 
 	for i=1,NUMROWS do
 		local row = _G.CreateFrame("Frame", nil, box)
-		local GID = WoWProDB.char.currentguide
 
 		if i == 1 then 
 			row:SetPoint("TOP", 0, -12)
@@ -129,10 +128,9 @@ frame:SetScript("OnShow", function()
 		local completion = (WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].completion) or 0
 		local totalh = 0
 		local maxh = box:GetHeight() - 12
-		local i = 1
-		local index = i + offset
+		local index = 1 + offset
 		shownrows = NUMROWS
-		for i,row in ipairs(rows) do
+		for i, row in ipairs(rows) do
 			row.index = index
 
 			if completion[index] or WoWProCharDB.Guide[GID].skipped[index] or WoWProCharDB.skippedQIDs[WoWPro.QID[index]] then
@@ -151,7 +149,7 @@ frame:SetScript("OnShow", function()
 			if step then row.check:Show() else row.check:Hide() end
 			if optional[index] then step = step.." (optional)" end
 			if WoWPro.prof[index] then
-				local prof, proflvl = (";"):split(WoWPro.prof[index]) 
+				local prof = (";"):split(WoWPro.prof[index]) 
 				step = step.." ("..prof..")"
 			end
 			if WoWPro.rank[index] then

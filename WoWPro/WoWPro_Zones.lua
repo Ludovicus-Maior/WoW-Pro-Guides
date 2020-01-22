@@ -50,7 +50,7 @@ function WoWPro.DefineZone8(mapId, zone, mapType, parent_map, group_id, ... )
 end
 
 function WoWPro.GetZoneText()
-    local x, y, mapId = WoWPro:GetPlayerZonePosition()
+    local _, _, mapId = WoWPro:GetPlayerZonePosition()
     if WoWPro.MapInfo[mapId] then
         return ("%s"):format(WoWPro.MapInfo[mapId].name), mapId
     else
@@ -116,27 +116,6 @@ function WoWPro:IsInstanceZone(zone)
     end
     return (WoWPro.MapInfo[mapID].mapType == UIMapType.Dungeon) or (WoWPro.MapInfo[mapID].mapType == UIMapType.Orphan)
 end
-
-local function pack_kv(...)
-    local t, k, v = {}
-    for i = 1, select("#", ...), 2 do
-        k = select(i, ...)
-        v = select(i+1, ...)
-        t[k] = v
-    end
-    return t
-end
-
-local function pack_v(...)
-    local t, k, v = {}
-    for i=1, select("#", ...), 2 do
-        k = select(i, ...)
-        v = select(i+1, ...)
-        tinsert(t,v)
-    end
-    return t
-end
-
 
 local ptable_buf
 

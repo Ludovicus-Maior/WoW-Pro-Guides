@@ -197,17 +197,29 @@ end
 function WoWPro:OfferGuideSwitch(nGID, quest)
     WoWPro:dbp("OfferGuideSwitch(%s, %s)", tostring(nGID), tostring(quest))
     WoWProCharDB.Guide[nGID] = WoWProCharDB.Guide[nGID] or {}
+    local function OnEnter(this)
+        _G.GameTooltip:SetOwner(this, "ANCHOR_RIGHT");
+        _G.GameTooltip:SetText("Stop asking to switch to this guide.\nResetting the guide will re-enable asking to switch.");
+    end
+    local function OnLeave(this)
+        _G.GameTooltip:Hide()
+    end
+
     _G.StaticPopupDialogs["WOWPRO_SWITCH_GUIDE"] = {
         text = "Would you like to switch to the guide for the quest you just accepted?",
-	    OnAccept = function (self, data, data2) WoWPro:dbp("WOWPRO_SWITCH_GUIDE(YES)"); WoWPro:LoadGuide(nGID); end ,
-	    OnCancel = function (self, data, why) WoWPro:dbp("WOWPRO_SWITCH_GUIDE(NO,%s)", why); end,
-	    OnAlt = function(self, data, why) WoWPro:dbp("WOWPRO_SWITCH_GUIDE('leave me alone',%s)", why); WoWProCharDB.Guide[nGID].NoSelect = true ; end,
-	    OnShow = function(self)
-	        self.button3:SetScript("OnEnter",function (self)
-                                              _G.GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
-                                              _G.GameTooltip:SetText("Stop asking to switch to this guide.\nResetting the guide will re-enable asking to switch.");
-                                              end);
-	        self.button3:SetScript("OnLeave",function (self) _G.GameTooltip:Hide(); end);
+	    OnAccept = function(this, data, data2)
+            WoWPro:dbp("WOWPRO_SWITCH_GUIDE(YES)"); WoWPro:LoadGuide(nGID);
+        end ,
+	    OnCancel = function(this, data, why)
+            WoWPro:dbp("WOWPRO_SWITCH_GUIDE(NO,%s)", why);
+        end,
+	    OnAlt = function(this, data, why)
+            WoWPro:dbp("WOWPRO_SWITCH_GUIDE('leave me alone',%s)", why);
+            WoWProCharDB.Guide[nGID].NoSelect = true;
+        end,
+	    OnShow = function(this)
+	        this.button3:SetScript("OnEnter", OnEnter);
+	        this.button3:SetScript("OnLeave", OnLeave);
 	    end,
 	    timeout = 30,
 	    button1 = _G.YES,
