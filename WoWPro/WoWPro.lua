@@ -559,7 +559,7 @@ end
 -- https://github.com/Rainrider/KlaxxiKillOrder/issues/1
 -- New syntax for UnitGUID() in WoD
 function WoWPro:TargetNpcId()
-    local GUID = _G.UnitGUID("target")
+    local GUID = _G.UnitGUID("target") or ""
     local unitType = ("-"):split(GUID)
     if not unitType then
         WoWPro:dbp("No target");
