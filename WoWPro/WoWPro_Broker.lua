@@ -812,7 +812,7 @@ function WoWPro:RowUpdate(offset)
         end
 
         currentRow.check:SetScript("OnClick", function(this, button, down)
-            WoWPro:CheckFunction(this, button, down)
+            WoWPro:CheckFunction(currentRow, button, down)
         end)
 
         -- Right-Click Drop-Down --
