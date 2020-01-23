@@ -110,7 +110,7 @@
 -- URL: http://wow-pro.com/node/3295/revisions/24757/view
 -- Date: 2011-10-10 17:34
 -- Who: Crackerhead22
--- Log: Created neutral guide, credit to Gethe. 
+-- Log: Created neutral guide, credit to Gethe.
 
 -- URL: http://wow-pro.com/node/3295/revisions/24750/view
 -- Date: 2011-09-21 08:37

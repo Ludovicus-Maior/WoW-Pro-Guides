@@ -57,12 +57,12 @@
 -- URL: http://wow-pro.com/node/3407/revisions/27710/view
 -- Date: 2016-09-07 03:57
 -- Who: Emmaleah
--- Log: added guide name registration, changed the registered zone to Orgrimmar and deleted all instances of '|Z|Orgrimmar'.  
+-- Log: added guide name registration, changed the registered zone to Orgrimmar and deleted all instances of '|Z|Orgrimmar'.
 
 -- URL: http://wow-pro.com/node/3407/revisions/26847/view
 -- Date: 2014-11-07 20:33
 -- Who: Emmaleah
--- Log: deleted duplicate tags per Ludo's list o' errors 
+-- Log: deleted duplicate tags per Ludo's list o' errors
 
 -- URL: http://wow-pro.com/node/3407/revisions/26574/view
 -- Date: 2014-07-06 16:03

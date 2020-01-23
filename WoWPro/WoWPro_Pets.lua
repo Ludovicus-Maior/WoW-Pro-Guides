@@ -135,7 +135,7 @@ function WoWPro.GetPetByNameOrID(name, id, limits, pet1, pet2)
         -- petID="BattlePet-0-0000027C0B08", speciesID=244, isOwned=true, customName=nil, level=1, favorite=false, isRevoked=false
         -- name="Core Hound Pup", icon="Interface\Ability\Hunter_Pet_CoreHound.blp", petType=7,
         -- companionID=36871, Source="Promotion...",
-        local ok = false 
+        local ok = false
         local _, _, _, _, _, _, _, petName, _, _, creatureID, _, _, _, canBattle = _G.C_PetJournal.GetPetInfoByPetID(petID);
         if (creatureID == id) or (petName == name) or (id == nil) or (name == "") then
             if ((id == nil) or (name == "")) and (82464 == creatureID) then
@@ -236,14 +236,14 @@ function WoWPro.GetPetByAbilities(abilities, limits, pet1, pet2)
         if abilities[j] > 2 then
             target_score = target_score + 1
             spells[abilities[j]] = true
---            WoWPro:dbp("WoWPro.GetPetByAbilities: spells[%d]=true",abilities[j])
+            -- WoWPro:dbp("WoWPro.GetPetByAbilities: spells[%d]=true",abilities[j])
         end
     end
     WoWPro:dbp("GetPetByAbilities(): Searching out of %d/%d, target_score is %d",numPets, numOwned, target_score)
     for _,petID in LibPetJournal:IteratePetIDs() do
         -- petID="BattlePet-0-0000027C0B08", speciesID=244, isOwned=true, customName=nil, level=1, favorite=false, isRevoked=false
         -- name="Core Hound Pup", icon="Interface\Ability\Hunter_Pet_CoreHound.blp", petType=7,
-        -- companionID=36871, Source="Promotion...", 
+        -- companionID=36871, Source="Promotion...",
         local speciesID, _, level, _, _, _, _, petName, _, _, creatureID, _, _, _, canBattle = _G.C_PetJournal.GetPetInfoByPetID(petID);
         local idTable, levelTable = _G.C_PetJournal.GetPetAbilityList(speciesID)
         local score = 0
@@ -264,9 +264,9 @@ function WoWPro.GetPetByAbilities(abilities, limits, pet1, pet2)
         end
         -- Possible candidate?
         if ok then
---            WoWPro:dbp("WoWPro.GetPetByAbilities: Considering Candidate %s aka %s/%d", petID, petName, creatureID)
+            -- WoWPro:dbp("WoWPro.GetPetByAbilities: Considering Candidate %s aka %s/%d", petID, petName, creatureID)
             for j = 1,6 do
---                WoWPro:dbp("WoWPro.GetPetByAbilities: idTable[j] = %s, levelTable[j] = %s",tostring(idTable[j]), tostring(levelTable[j]))
+                -- WoWPro:dbp("WoWPro.GetPetByAbilities: idTable[j] = %s, levelTable[j] = %s",tostring(idTable[j]), tostring(levelTable[j]))
                 if spells[idTable[j]] and levelTable[j] <= level  and not slots[j] then
                     pids = pids or {}
                     slots[j+3] = true
@@ -286,12 +286,12 @@ function WoWPro.ComparePets(pet1,pet2)
 --    WoWPro:dbp("ComparePets():  %s to %s",tostring(pet1), tostring(pet2))
     if pet1 and not pet2 then return pet1, pet1; end
     if pet2 and not pet1 then return pet2, pet2; end
-    
+
     local _, _, level1, _, _, _, isFavorite1, name1 = _G.C_PetJournal.GetPetInfoByPetID(pet2);
     local _, _, level2, _, _, _, isFavorite2, name2 = _G.C_PetJournal.GetPetInfoByPetID(pet2);
     local health1, maxHealth1, power1, speed1, rarity1 = _G.C_PetJournal.GetPetStats(pet1)
     local health2, maxHealth2, power2, speed2, rarity2 = _G.C_PetJournal.GetPetStats(pet2)
-     
+
     isFavorite1 = isFavorite1 or (name1 == "Leveling")
     isFavorite2 = isFavorite2 or (name2 == "Leveling")
 
@@ -346,7 +346,7 @@ function WoWPro.PickBestPet(candidates)
         best = WoWPro.ComparePets(best, pet)
     end
     WoWPro:dbp("PickBestPet(): Selected %s",tostring(best))
-    return best 
+    return best
 end
 
 
@@ -362,8 +362,8 @@ function WoWPro.MapPetSpellPicks(pet,pick)
         WoWPro:Error("Unable to GetPetAbilityList(%s)",tostring(speciesID))
         idTable = idTable + 1
     end
-   
---    WoWPro:dbp("MapPetSpellPicks() for [%s] species %s, level %d", name, tostring(speciesID), level)
+
+    -- WoWPro:dbp("MapPetSpellPicks() for [%s] species %s, level %d", name, tostring(speciesID), level)
     local slots = {}
     local ability = {}
 
@@ -398,7 +398,7 @@ function WoWPro.MapPetSpellPicks(pet,pick)
     -- Next set the toggles
     for j = 1,6 do
         if levelTable[j] <= level  and not slots[j] then
---            WoWPro:dbp("MapPetSpellPicks(): ability %d is availible level %d", j, levelTable[j])
+            -- WoWPro:dbp("MapPetSpellPicks(): ability %d is availible level %d", j, levelTable[j])
             -- Ability is availible
             if j < 4 and pick[j] == 1 then
                 ability[j] = idTable[j]
@@ -408,11 +408,11 @@ function WoWPro.MapPetSpellPicks(pet,pick)
             if j > 3 and pick[j-3] == 2 then
                 ability[j-3] = idTable[j]
                 slots[j-3] = true
---                WoWPro:dbp("MapPetSpellPicks(): pick2 spell %d",idTable[j])
+                -- WoWPro:dbp("MapPetSpellPicks(): pick2 spell %d",idTable[j])
             end
         end
     end
-    return ability        
+    return ability
 end
 
 function WoWPro.SetPetAbilities(slot, abilities)
@@ -479,7 +479,7 @@ function WoWPro.PetSelectStep(k)
     if WoWPro.pet3[k] then
         pet3 = WoWPro.PetLoadBySpec(3, WoWPro.pet3[k],pet1,pet2)
     end
-    return pet1 and pet2 and pet3     
+    return pet1 and pet2 and pet3
 end
 
 function WoWPro.PetSelect(pet)
@@ -506,14 +506,14 @@ end
 
 function WoWPro.PetIcon(who)
     local icon = _G.C_PetBattles.GetIcon(1, who)
-	return icon or "Interface\\ICONS\\INV_Misc_QuestionMark"
+    return icon or "Interface\\ICONS\\INV_Misc_QuestionMark"
 end
-	
+
 function WoWPro.ProcessFinalRound(winner, qidx)
     local QID = WoWPro.QID[qidx]
     local GID = WoWProDB.char.currentguide
     if not GID or not QID then return; end
-    
+
     if winner == 1 then
         -- We won!  Mark all uncompleted pet steps that share the same QID as completed so we can move on to the next quest cleanly
         WoWPro:dbp("ProcessFinalRound: We won with strategy %s QID %s.  Moving on to next strategy.", tostring(WoWPro.current_strategy), tostring(QID))
@@ -536,7 +536,7 @@ function WoWPro.ProcessFinalRound(winner, qidx)
         end
     end
 end
-	
+
 function WoWPro.NpcCheck()
     local myNPC = WoWPro:TargetNpcId()
     if WoWProDB.global.NpcFauxQuests[myNPC] then

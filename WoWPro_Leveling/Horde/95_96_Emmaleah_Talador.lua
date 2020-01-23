@@ -59,7 +59,7 @@
 -- URL: http://wow-pro.com/node/3598/revisions/27181/view
 -- Date: 2015-03-22 00:31
 -- Who: Emmaleah
--- Log: Finally finished checking all my talador changes. Hopefully its also mistake free. Main change of note is the correct hearthstone is used to go to Vol'jin's Pride, 
+-- Log: Finally finished checking all my talador changes. Hopefully its also mistake free. Main change of note is the correct hearthstone is used to go to Vol'jin's Pride,
 
 -- URL: http://wow-pro.com/node/3598/revisions/27180/view
 -- Date: 2015-03-16 10:27

@@ -124,7 +124,7 @@
 -- Date: 2011-06-01 00:40
 -- Who: Crackerhead22
 -- Log: Removed lines "A It's Gotta be the Horn|QID|865|RANK|1|M|56.41,56.05|Z|", "
---	A Take it up with Tony|QID|14052|RANK|1|M|56.53,56.13|Z|" as they were redundant. 
+--	A Take it up with Tony|QID|14052|RANK|1|M|56.53,56.13|Z|" as they were redundant.
 
 -- URL: http://wow-pro.com/node/3214/revisions/24454/view
 -- Date: 2011-05-30 16:03

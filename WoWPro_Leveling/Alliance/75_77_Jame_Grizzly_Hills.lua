@@ -101,7 +101,7 @@
 -- URL: http://wow-pro.com/node/3293/revisions/25649/view
 -- Date: 2013-05-14 19:26
 -- Who: Ludovicus_Maior
--- Log: MIssing QID on T Fate and Coincidence 
+-- Log: MIssing QID on T Fate and Coincidence
 
 -- URL: http://wow-pro.com/node/3293/revisions/25620/view
 -- Date: 2013-05-14 11:45

@@ -111,12 +111,12 @@
 -- Date: 2011-02-08 01:08
 -- Who: Ludovicus_Maior
 -- Log: Submitted by andyarnolduk on Mon, 2011-02-07 15:20.
---	
+--
 --	The waypoint for step 10 is a little off... it should be:
 --	A Disturbance at Umbrafen Lake|QID|9716|M|78.40,62.10|N|From Ysiel Windsinger.|
 --	Cheers
 --	Andy
---	
+--
 --	[And lo, WowHead agrees.  Looks like a typo]
 
 -- URL: http://wow-pro.com/node/3273/revisions/23945/view

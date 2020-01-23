@@ -184,7 +184,7 @@
 -- URL: http://wow-pro.com/node/3599/revisions/26771/view
 -- Date: 2014-11-02 09:07
 -- Who: Emmaleah
--- Log: moved tangleheart quest section, fixed all |Z|tags, fixed many missing explanations, S/US, etc.  The lumberyard doesn't flow as well as the sparring arena and I don't think its because im trying to combine both in the same guide, I think it just flows poorly... 
+-- Log: moved tangleheart quest section, fixed all |Z|tags, fixed many missing explanations, S/US, etc.  The lumberyard doesn't flow as well as the sparring arena and I don't think its because im trying to combine both in the same guide, I think it just flows poorly...
 
 -- URL: http://wow-pro.com/node/3599/revisions/26671/view
 -- Date: 2014-09-18 23:56

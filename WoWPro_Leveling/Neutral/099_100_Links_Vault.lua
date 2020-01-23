@@ -45,7 +45,7 @@
 -- URL: http://wow-pro.com/node/3656/revisions/27545/view
 -- Date: 2016-08-10 06:54
 -- Who: Emmaleah
--- Log: Changes only made to the Mardum (1st) guide. Added Item Tags, added NC tags, deleted NC tags so the CHAT tags would show. 
+-- Log: Changes only made to the Mardum (1st) guide. Added Item Tags, added NC tags, deleted NC tags so the CHAT tags would show.
 
 -- URL: http://wow-pro.com/node/3656/revisions/27543/view
 -- Date: 2016-08-10 04:34

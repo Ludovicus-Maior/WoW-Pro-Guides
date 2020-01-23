@@ -6,7 +6,7 @@
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
 -- Date: 2018-10-30 18:11
 -- Who: Emmaleah
--- Log: Added N Fair Warning|N|This guide is out of date with current changes in Ghostlands and needs serious work. Use at your own risk.| at beginning of guide due to the multitude of comments about it's shortcomings. 
+-- Log: Added N Fair Warning|N|This guide is out of date with current changes in Ghostlands and needs serious work. Use at your own risk.| at beginning of guide due to the multitude of comments about it's shortcomings.
 
 -- URL: http://wow-pro.com/node/3221/revisions/30070/view
 -- Date: 2018-10-23 01:50

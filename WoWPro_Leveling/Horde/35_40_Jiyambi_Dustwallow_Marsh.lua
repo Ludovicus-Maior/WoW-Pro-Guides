@@ -51,7 +51,7 @@
 -- URL: http://wow-pro.com/node/3242/revisions/25579/view
 -- Date: 2013-03-23 19:06
 -- Who: Ludovicus_Maior
--- Log: QID correction on [Warchief's Command: Dustwallow Marsh!] 
+-- Log: QID correction on [Warchief's Command: Dustwallow Marsh!]
 
 -- URL: http://wow-pro.com/node/3242/revisions/25476/view
 -- Date: 2013-01-13 19:37

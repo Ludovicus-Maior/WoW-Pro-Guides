@@ -6,7 +6,7 @@
 -- URL: http://wow-pro.com/wiki/source_code_elwynn_forest
 -- Date: 2019-02-16 01:50
 -- Who: Ludovicus_Maior
--- Log: Silly fixes.  
+-- Log: Silly fixes.
 
 -- URL: http://wow-pro.com/node/3197/revisions/30226/view
 -- Date: 2019-02-15 22:31
@@ -81,12 +81,12 @@
 -- URL: http://wow-pro.com/node/3197/revisions/27613/view
 -- Date: 2016-08-29 20:42
 -- Who: Fluclo
--- Log: Reformatted the repair remainders so they are sticky information that auto-complete on handing in quest. Changed coords for Protect the Frontier to where there are more bears, changed QID on Hearthstone as step would not show, added CC coords in Stormwind to assist those unfamiliar with the zone. 
+-- Log: Reformatted the repair remainders so they are sticky information that auto-complete on handing in quest. Changed coords for Protect the Frontier to where there are more bears, changed QID on Hearthstone as step would not show, added CC coords in Stormwind to assist those unfamiliar with the zone.
 
 -- URL: http://wow-pro.com/node/3197/revisions/27612/view
 -- Date: 2016-08-29 20:34
 -- Who: Fluclo
--- Log: Turn-in of Dungar Longdrink and start of Return to Argus is with Dungar Longdrink. 
+-- Log: Turn-in of Dungar Longdrink and start of Return to Argus is with Dungar Longdrink.
 
 -- URL: http://wow-pro.com/node/3197/revisions/27611/view
 -- Date: 2016-08-29 20:00

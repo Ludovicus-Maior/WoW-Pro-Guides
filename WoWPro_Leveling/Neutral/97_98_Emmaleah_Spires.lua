@@ -36,7 +36,7 @@
 -- URL: http://wow-pro.com/node/3602/revisions/29379/view
 -- Date: 2018-06-30 05:03
 -- Who: Emmaleah
--- Log: Add turning in News from Spires of Arak and Picking up Arakkoa Exodus in the garrison, since it wasnt in the alliance Talador guide,  Added Horde steps also incase you didnt do the Talador guide.  
+-- Log: Add turning in News from Spires of Arak and Picking up Arakkoa Exodus in the garrison, since it wasnt in the alliance Talador guide,  Added Horde steps also incase you didnt do the Talador guide.
 
 -- URL: http://wow-pro.com/node/3602/revisions/29377/view
 -- Date: 2018-06-29 20:37
@@ -149,7 +149,7 @@
 -- URL: http://wow-pro.com/node/3602/revisions/27093/view
 -- Date: 2014-12-08 10:31
 -- Who: Emmaleah
--- Log: moved A Pinchwhistle Gearworks later in the guide. it appears Bliz changed it to lvl 97.  
+-- Log: moved A Pinchwhistle Gearworks later in the guide. it appears Bliz changed it to lvl 97.
 
 -- URL: http://wow-pro.com/node/3602/revisions/27092/view
 -- Date: 2014-12-08 10:00

@@ -99,7 +99,7 @@
 -- Date: 2011-06-25 00:57
 -- Who: Crackerhead22
 -- Log: ! Missing A step for step T qid 13636 - Added in accept step.
---	! Line 169 has missing space after step ;: [;F Thelsamar|QID|26128|N|Fly back to Thelsamar. Ignore quests at this new hub for now.|] - Removed line. 
+--	! Line 169 has missing space after step ;: [;F Thelsamar|QID|26128|N|Fly back to Thelsamar. Ignore quests at this new hub for now.|] - Removed line.
 
 -- URL: http://wow-pro.com/node/3216/revisions/24589/view
 -- Date: 2011-06-25 00:54
@@ -109,7 +109,7 @@
 -- URL: http://wow-pro.com/node/3216/revisions/24514/view
 -- Date: 2011-06-07 21:46
 -- Who: Crackerhead22
--- Log: Removed unneeded zone tags, added in breadcrumb quest from Ironforge, added in missing quests, re-arranged certain quests to better flow for those coming from Dun Morogh. Added missing notes, missing cords. Fixed a few notes and cords. 
+-- Log: Removed unneeded zone tags, added in breadcrumb quest from Ironforge, added in missing quests, re-arranged certain quests to better flow for those coming from Dun Morogh. Added missing notes, missing cords. Fixed a few notes and cords.
 
 -- URL: http://wow-pro.com/node/3216/revisions/24427/view
 -- Date: 2011-05-27 16:45
@@ -134,7 +134,7 @@
 --	Added a "R"un to the mountain trail to kill troggs.
 --	Added an explicit path to [WANTED: The Dark Iron Spy].
 --	Added a warning about the Dark Iron Courier.
---	
+--
 
 -- URL: http://wow-pro.com/node/3216/revisions/23968/view
 -- Date: 2011-01-09 17:41

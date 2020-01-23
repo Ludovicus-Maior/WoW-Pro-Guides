@@ -6,7 +6,7 @@
 -- URL: http://wow-pro.com/wiki/time_forgotten_hippogryph_mount
 -- Date: 2017-06-12 23:30
 -- Who: Ludovicus_Maior
--- Log: Change Icon to a MOUNT instead of spell.  
+-- Log: Change Icon to a MOUNT instead of spell.
 
 -- URL: http://wow-pro.com/node/3728/revisions/28671/view
 -- Date: 2017-05-26 18:27

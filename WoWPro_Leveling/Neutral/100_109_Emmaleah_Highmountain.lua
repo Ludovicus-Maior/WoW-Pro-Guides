@@ -76,7 +76,7 @@
 -- URL: http://wow-pro.com/node/3678/revisions/27998/view
 -- Date: 2016-11-08 06:18
 -- Who: Emmaleah
--- Log: part 2 of 3 Play thru tweaks. 
+-- Log: part 2 of 3 Play thru tweaks.
 
 -- URL: http://wow-pro.com/node/3678/revisions/27997/view
 -- Date: 2016-11-07 10:22
@@ -148,7 +148,7 @@
 -- URL: http://wow-pro.com/node/3678/revisions/27816/view
 -- Date: 2016-09-19 20:19
 -- Who: Emmaleah
--- Log: The order of quests has been rearranged for what I think is more efficient. (which I had planned to do for the last 3 weeks, just not been able to get to it). It does not involve the backtracking to Skyhorn that it had before. If you are currently in progress on this guide, i hope it isnt too much inconvenience. Also, moved all bonus objectives, treasures and rares that were on rank 1 to rank 2. 
+-- Log: The order of quests has been rearranged for what I think is more efficient. (which I had planned to do for the last 3 weeks, just not been able to get to it). It does not involve the backtracking to Skyhorn that it had before. If you are currently in progress on this guide, i hope it isnt too much inconvenience. Also, moved all bonus objectives, treasures and rares that were on rank 1 to rank 2.
 
 -- URL: http://wow-pro.com/node/3678/revisions/27810/view
 -- Date: 2016-09-17 21:32
@@ -163,13 +163,13 @@
 -- URL: http://wow-pro.com/node/3678/revisions/27803/view
 -- Date: 2016-09-16 22:43
 -- Who: Emmaleah
--- Log: change registration levels to 100-109 and next guide to Blanc_Suramar 
+-- Log: change registration levels to 100-109 and next guide to Blanc_Suramar
 
 -- URL: http://wow-pro.com/node/3678/revisions/27772/view
 -- Date: 2016-09-14 09:54
 -- Who: Emmaleah
 -- Log: Added LVL|-109| to A XXX-Bonus Objectives
---	Added Icon Registration 
+--	Added Icon Registration
 --	DID NOT YET move treasure/rares/Bonus Objectives out of rank 1
 --	also there are some z tags incorrect s/b Highmountain/6 (ThundertotemInterior) instead of Thundertotem. waiting to test the guide to correct them.
 

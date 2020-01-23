@@ -16,7 +16,7 @@
 -- URL: http://wow-pro.com/node/3441/revisions/30106/view
 -- Date: 2018-10-31 11:01
 -- Who: Emmaleah
--- Log: corrections to MoP and Outlands 
+-- Log: corrections to MoP and Outlands
 
 -- URL: http://wow-pro.com/node/3441/revisions/30103/view
 -- Date: 2018-10-30 20:13
@@ -97,7 +97,7 @@
 -- Date: 2014-10-26 00:26
 -- Who: Emmaleah
 -- Log: switched iron summit and fuselight, because if you are flying on your own (not flightpath) it mades a lot more sense and if you are on a flightpath you are having to go multiple times thru new kargath either way.
---	
+--
 --	removed duplicate "|" in cata guide x3, and put in a missing "|M|" - hopefully allowing the mapping to work for the deepholm portal in orgrimmar
 
 -- URL: http://wow-pro.com/node/3441/revisions/26760/view

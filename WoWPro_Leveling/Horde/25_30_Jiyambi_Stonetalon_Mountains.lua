@@ -104,8 +104,8 @@
 --	A Seek and Destroy|QID|26009|M|66.07,63.75|RANK|3|N|From Overlord Krom'gar.|
 --	C Seek and Destroy|QID|26009|M|61.42,64.88|S|RANK|3|N|From Overlord Krom'gar.|
 --	T Seek and Destroy|QID|26009|M|66.09,63.75|RANK|3|N|To Overlord Krom'gar.|
---	
---	
+--
+--
 
 -- URL: http://wow-pro.com/node/3234/revisions/23347/view
 -- Date: 2010-12-03 10:47

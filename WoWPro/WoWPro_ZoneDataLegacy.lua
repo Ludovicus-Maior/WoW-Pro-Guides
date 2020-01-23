@@ -41,7 +41,7 @@ local function DefineInstance(mapID, numFloors, zi, mapName)
     end
     if first then
         WoWPro:print("DefineInstance(%d,%d,%q): No mapping found.",mapID, numFloors, zi)
-    end 
+    end
 end
 
 -- DefineTerrain(1, 4, 182, 0,"Felwood")

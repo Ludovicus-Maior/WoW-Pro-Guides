@@ -6,7 +6,7 @@
 -- URL: http://wow-pro.com/node/3670
 -- Date: 2019-08-26 20:45
 -- Who: Fluclo
--- Log: Update to the notes on some steps, added an extra step during Never Hunt Alone to seperate the teleport and fly steps, Ride Huey was auto-completing, therefore changed step to Flight instead. Added extra waypoint for Tactical Matters for those doing quest for first time to know where entrance is. Added Level step to differentiate between the Level 101+ quests, corrected FIXME placement for Pledge of Loyalty. Added Active tag for Spinetusk Piglet to only show whilst on quest, added Active task to Run Stony Highlands so only show whilst on quest. 
+-- Log: Update to the notes on some steps, added an extra step during Never Hunt Alone to seperate the teleport and fly steps, Ride Huey was auto-completing, therefore changed step to Flight instead. Added extra waypoint for Tactical Matters for those doing quest for first time to know where entrance is. Added Level step to differentiate between the Level 101+ quests, corrected FIXME placement for Pledge of Loyalty. Added Active tag for Spinetusk Piglet to only show whilst on quest, added Active task to Run Stony Highlands so only show whilst on quest.
 
 -- URL: http://wow-pro.com/node/3670/revisions/30222/view
 -- Date: 2019-02-12 00:12

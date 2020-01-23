@@ -126,7 +126,7 @@
 -- URL: http://wow-pro.com/node/3469/revisions/24950/view
 -- Date: 2012-02-13 10:50
 -- Who: Estelyen
--- Log: -Updated version (though still work in progress) 
+-- Log: -Updated version (though still work in progress)
 --	-Unrelated quests removed
 
 -- URL: http://wow-pro.com/node/3469/revisions/24948/view

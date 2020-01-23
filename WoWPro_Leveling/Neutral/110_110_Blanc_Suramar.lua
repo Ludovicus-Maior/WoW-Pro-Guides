@@ -57,7 +57,7 @@
 -- Date: 2017-12-04 22:44
 -- Who: cameljon
 -- Log: Rep gating removed on Aug 29.
---	
+--
 --	https://worldofwarcraft.com/en-us/news/21025532/hotfixes-august-29
 
 -- URL: http://wow-pro.com/node/3687/revisions/28760/view
@@ -217,7 +217,7 @@
 -- URL: http://wow-pro.com/node/3687/revisions/28169/view
 -- Date: 2016-12-20 20:31
 -- Who: Blanckaert
--- Log: adjustment of the quest for today, Scenario quests objectives might need some work... 
+-- Log: adjustment of the quest for today, Scenario quests objectives might need some work...
 
 -- URL: http://wow-pro.com/node/3687/revisions/28168/view
 -- Date: 2016-12-20 06:34

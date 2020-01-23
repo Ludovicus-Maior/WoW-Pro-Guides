@@ -31,7 +31,7 @@
 -- URL: http://wow-pro.com/node/3222/revisions/27672/view
 -- Date: 2016-08-31 23:52
 -- Who: Fluclo
--- Log: Added Rank 2 to quests that don't need to be done for zone progression. Added PRE tags to quests that have another quest that needs to be done first. Added Active tags to steps that should only display when you're on the indicated quest. 
+-- Log: Added Rank 2 to quests that don't need to be done for zone progression. Added PRE tags to quests that have another quest that needs to be done first. Added Active tags to steps that should only display when you're on the indicated quest.
 
 -- URL: http://wow-pro.com/node/3222/revisions/27615/view
 -- Date: 2016-08-29 21:52

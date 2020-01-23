@@ -115,10 +115,10 @@
 -- URL: http://wow-pro.com/node/3199/revisions/27283/view
 -- Date: 2015-06-13 18:53
 -- Who: Fluclo
--- Log: Added |PRE| to quests only available when you've finished earlier quests; 
+-- Log: Added |PRE| to quests only available when you've finished earlier quests;
 --	Added |S| to Invaders in Our Home and Galgar's Cactus Apple can be done at the same time;
---	Hearthstone to Den was generating a "No closest waypoint?" error, therefore removed |CC|; 
---	Added |ACTIVE| tags where the steps only make sense if you are doing a particular quest; 
+--	Hearthstone to Den was generating a "No closest waypoint?" error, therefore removed |CC|;
+--	Added |ACTIVE| tags where the steps only make sense if you are doing a particular quest;
 --	Added |T| to couple quests to make them easier;
 --	Corrected |QO| tag for Burning Blade Medallion;
 
@@ -159,24 +159,24 @@
 -- URL: http://wow-pro.com/node/3199/revisions/26959/view
 -- Date: 2014-11-09 19:12
 -- Who: Fluclo
--- Log: Added PRE tags; 
---	Couple quests that are not essential for the zone marked as RANK 2; 
---	F Orgrimmar changed to N as the guide would not auto-complete the |CC| step with F, and the R Valley of Strength auto-completes in-flight; 
---	Clarified Kul Tiras treasure as inside the keep; 
---	Removed Concript of the Horde, player can accept this on going to The Barrens instead; 
---	Moved Winds in the Deserts back to after The Burning Blade; 
+-- Log: Added PRE tags;
+--	Couple quests that are not essential for the zone marked as RANK 2;
+--	F Orgrimmar changed to N as the guide would not auto-complete the |CC| step with F, and the R Valley of Strength auto-completes in-flight;
+--	Clarified Kul Tiras treasure as inside the keep;
+--	Removed Concript of the Horde, player can accept this on going to The Barrens instead;
+--	Moved Winds in the Deserts back to after The Burning Blade;
 --	Removed Azshara alerts to The Barrens guide.
 
 -- URL: http://wow-pro.com/node/3199/revisions/26957/view
 -- Date: 2014-11-09 13:33
 -- Who: Fluclo
--- Log: Added CHAT and NC where appropriate; 
---	Added minimum level info at Level 3; 
---	Removed all other level info since it's not required (players can still proceed without being that level); 
---	Corrected a few PRE IDs; 
---	Made Crab Fishin' RANK 2 and moved it (since it isn't mutual with other quests); 
---	Changed Ancient Enemy location instruction inside the |N| tag so that it auto-completes; 
---	Advise of dialog wait with Vanira; 
+-- Log: Added CHAT and NC where appropriate;
+--	Added minimum level info at Level 3;
+--	Removed all other level info since it's not required (players can still proceed without being that level);
+--	Corrected a few PRE IDs;
+--	Made Crab Fishin' RANK 2 and moved it (since it isn't mutual with other quests);
+--	Changed Ancient Enemy location instruction inside the |N| tag so that it auto-completes;
+--	Advise of dialog wait with Vanira;
 --	Added a step to catch quest skipping.
 
 -- URL: http://wow-pro.com/node/3199/revisions/26937/view
@@ -220,15 +220,15 @@
 -- URL: http://wow-pro.com/node/3199/revisions/26793/view
 -- Date: 2014-11-05 15:26
 -- Who: Fluclo
--- Log: Changed Attack Plan from N to C steps; 
---	Added a run to Northwatch Foothold prior to the two quests there; 
---	Updated notes for a few quests to help better explain what needs doing; 
+-- Log: Changed Attack Plan from N to C steps;
+--	Added a run to Northwatch Foothold prior to the two quests there;
+--	Updated notes for a few quests to help better explain what needs doing;
 --	Added PRE tags;
---	Updated QO tags to the new number system; 
---	Changed Profession Trainer to a self-completing step; 
---	Coordinates on Orgrimmar parts were not in right places (|Z|Orgrimmar| doesn't seem to be working) so changed them to Durotar Coordinates; 
---	Added step for the Lift to help new players find it better; 
---	Split the quest From Bad to Worse into three parts, using K step for Lieutenant Palliter; 
+--	Updated QO tags to the new number system;
+--	Changed Profession Trainer to a self-completing step;
+--	Coordinates on Orgrimmar parts were not in right places (|Z|Orgrimmar| doesn't seem to be working) so changed them to Durotar Coordinates;
+--	Added step for the Lift to help new players find it better;
+--	Split the quest From Bad to Worse into three parts, using K step for Lieutenant Palliter;
 --	Added NC to the non-combat quests.
 
 -- URL: http://wow-pro.com/node/3199/revisions/26792/view

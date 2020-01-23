@@ -93,7 +93,7 @@
 -- Date: 2016-08-31 03:18
 -- Who: Emmaleah
 -- Log: Per Tubera's post. PRE Tag on A The New Blood, and N tag correction for U Return to Dalaran|QID|40712|
---	As to scenario steps, I think its still a bit rocky.  I know I made some mistakes in formatting (which have hopefully all been fixed now) because I had never made a guide that used scenario steps before. 
+--	As to scenario steps, I think its still a bit rocky.  I know I made some mistakes in formatting (which have hopefully all been fixed now) because I had never made a guide that used scenario steps before.
 
 -- URL: http://wow-pro.com/node/3679/revisions/27645/view
 -- Date: 2016-08-30 22:15

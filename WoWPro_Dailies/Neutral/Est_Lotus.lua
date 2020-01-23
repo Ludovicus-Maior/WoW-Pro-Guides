@@ -71,7 +71,7 @@
 -- URL: http://wow-pro.com/node/3502/revisions/25278/view
 -- Date: 2013-01-06 02:17
 -- Who: Emmaleah
--- Log: Changed LEAD quests for the Whitepetal Lake attacked hub, so it will not require manually checking the hub off. 
+-- Log: Changed LEAD quests for the Whitepetal Lake attacked hub, so it will not require manually checking the hub off.
 
 -- URL: http://wow-pro.com/node/3502/revisions/25271/view
 -- Date: 2012-12-27 11:30

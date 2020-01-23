@@ -59,8 +59,8 @@ function WoWPro.GetZoneText()
 end
 
 function WoWPro:ValidZone(zone)
-	if zone then
-	    if tonumber(zone) then
+    if zone then
+        if tonumber(zone) then
             -- Using a numeric zone ID
             if WoWPro.MapInfo[tonumber(zone)] then
                 return tostring(zone), tonumber(zone)
@@ -68,42 +68,42 @@ function WoWPro:ValidZone(zone)
                 WoWPro:Error("ValidZone: Numeric Zone [%s] is unknown.", zone)
                 return nil
             end
-	    elseif WoWPro.Zone2MapID[zone] then
-	        -- Zone found in DB
-	        return zone, WoWPro.Zone2MapID[zone]
-	    elseif WoWPro.LegacyZone2MapID[zone] then
-	        -- Zone is a legacy zone sans floor
-	        local mapId = WoWPro.LegacyZone2MapID[zone]["default"]
-	        if not WoWPro.MapInfo[mapId] then
-	            WoWPro:print("ValidZone: Legacy Zone [%s] with default floor is not registered.", zone)
-	            return nil
-	        end
-	        if not WoWPro.MapInfo[mapId].name then
-	            WoWPro:print("ValidZone: Legacy Zone [%s]/%d with default floor has no name!.", zone, mapId)
-	            return nil
-	        end
-	        return WoWPro.MapInfo[mapId].name, mapId
-	    elseif zone:match("/") then
-	        -- Zone is a legacy zone avec floor
-	        local nzone , floor = ("/"):split(zone)
-	        floor = tonumber(floor)
-	        if not WoWPro.LegacyZone2MapID[nzone] then
-	            WoWPro:print("ValidZone: Legacy Zone [%s] is not registered.", zone)
-	            return nil
-	        end
-	        if not floor then
-	            WoWPro:print("ValidZone: Legacy Zone [%s] has a malformed floor", zone)
-	            return nil
-	        end
-	        if not WoWPro.LegacyZone2MapID[nzone][floor] then
-	            WoWPro:print("ValidZone: Legacy Zone [%s] has an unknown floor", zone)
-	            return nil
-	        end
-	        local mapId = WoWPro.LegacyZone2MapID[nzone][floor]
-	        return WoWPro.MapInfo[mapId].name, mapId
-	    else
-	        WoWPro:Error("ValidZone: Zone [%s] is unknown.", zone)
-	    end
+        elseif WoWPro.Zone2MapID[zone] then
+            -- Zone found in DB
+            return zone, WoWPro.Zone2MapID[zone]
+        elseif WoWPro.LegacyZone2MapID[zone] then
+            -- Zone is a legacy zone sans floor
+            local mapId = WoWPro.LegacyZone2MapID[zone]["default"]
+            if not WoWPro.MapInfo[mapId] then
+                WoWPro:print("ValidZone: Legacy Zone [%s] with default floor is not registered.", zone)
+                return nil
+            end
+            if not WoWPro.MapInfo[mapId].name then
+                WoWPro:print("ValidZone: Legacy Zone [%s]/%d with default floor has no name!.", zone, mapId)
+                return nil
+            end
+            return WoWPro.MapInfo[mapId].name, mapId
+        elseif zone:match("/") then
+            -- Zone is a legacy zone avec floor
+            local nzone , floor = ("/"):split(zone)
+            floor = tonumber(floor)
+            if not WoWPro.LegacyZone2MapID[nzone] then
+                WoWPro:print("ValidZone: Legacy Zone [%s] is not registered.", zone)
+                return nil
+            end
+            if not floor then
+                WoWPro:print("ValidZone: Legacy Zone [%s] has a malformed floor", zone)
+                return nil
+            end
+            if not WoWPro.LegacyZone2MapID[nzone][floor] then
+                WoWPro:print("ValidZone: Legacy Zone [%s] has an unknown floor", zone)
+                return nil
+            end
+            local mapId = WoWPro.LegacyZone2MapID[nzone][floor]
+            return WoWPro.MapInfo[mapId].name, mapId
+        else
+            WoWPro:Error("ValidZone: Zone [%s] is unknown.", zone)
+        end
     end
     return nil, nil
 end
@@ -338,7 +338,7 @@ local function unregister_name(name, mapID)
                 wip_name_info[name] = next(wip_name_info[name], nil)
             end
         else
-			if wip_name_info[name] == mapID then
+            if wip_name_info[name] == mapID then
                 wip_name_info[name] = nil
             end
         end
@@ -422,7 +422,7 @@ function WoWPro.ProcessGroupMembers(id, map_info)
         end
     end
     return map_info.name
-end    
+end
 
 local overrides = {
     [125] = {mapType = UIMapType.Zone}, -- Dalaran
@@ -467,13 +467,13 @@ function WoWPro.ProcessMapAndKids(id, root)
 
     -- Default name
     local nomen = map_info.name
-    
+
     -- Do we have a suffix ?
     if map_info.suffix then
         nomen = map_info.name .. " " .. map_info.suffix
         map_info.name = nomen
     end
-    
+
     WoWPro:dbp("ProcessMapAndKids(%04d): %s",id, nomen)
     register_name(nomen, id)
 
@@ -482,7 +482,7 @@ function WoWPro.ProcessMapAndKids(id, root)
     if map_info.GroupID then
         WoWPro.ProcessGroupMembers(id, map_info)
     end
-    
+
     -- Now record a few standard aliases and see which will stick
 
     -- <zone>#<mapid> should always work
@@ -508,11 +508,11 @@ function WoWPro.ProcessMapAndKids(id, root)
             if grandpa then
                 nomen = map_info.name .. "!" .. daddy.name .. "!" .. grandpa.name
                 WoWPro:dbp("ProcessMapAndKids(%04d): %s => %s",id, map_info.name, nomen)
-                register_name(nomen, id) 
+                register_name(nomen, id)
             end
         end
     end
-    
+
     -- <zone>!Dungeon or <zone>!Dungeon<mapid> might work
     if map_info.mapType == UIMapType.Dungeon then
         -- Give up the name sans Dungeon

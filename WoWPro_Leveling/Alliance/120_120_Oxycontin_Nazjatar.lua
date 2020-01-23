@@ -71,7 +71,7 @@
 -- URL: http://wow-pro.com/node/3790/revisions/30293/view
 -- Date: 2019-06-30 11:04
 -- Who: Emmaleah
--- Log: Fixes per today's bug reports on Discord. 
+-- Log: Fixes per today's bug reports on Discord.
 
 -- URL: http://wow-pro.com/node/3790/revisions/30292/view
 -- Date: 2019-06-29 21:40

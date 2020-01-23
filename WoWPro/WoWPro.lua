@@ -41,19 +41,19 @@ function WoWPro:Add2Log(level, msg)
     if WoWPro.DebugLevel >= level then
         _G.DEFAULT_CHAT_FRAME:AddMessage( msg )
     end
-	WoWPro.Serial = WoWPro.Serial + 1
-	if WoWPro.Serial > 2500 then
-	    WoWPro.Serial = 1
-	end
-	if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
-	    if WoWPro.Log then
-	        WoWProDB.global.Log = WoWPro.Log
-	        WoWPro.Log = nil
-	    end
-	    WoWProDB.global.Log[WoWPro.Serial] = msg
-	else
-	    WoWPro.Log[WoWPro.Serial] = msg
-	end
+    WoWPro.Serial = WoWPro.Serial + 1
+    if WoWPro.Serial > 2500 then
+        WoWPro.Serial = 1
+    end
+    if WoWProDB and WoWProDB.global and WoWProDB.global.Log then
+        if WoWPro.Log then
+            WoWProDB.global.Log = WoWPro.Log
+            WoWPro.Log = nil
+        end
+        WoWProDB.global.Log[WoWPro.Serial] = msg
+    else
+        WoWPro.Log[WoWPro.Serial] = msg
+    end
 end
 -- Debug print function. log, never console --
 function WoWPro:dbp(message, ...)
@@ -97,7 +97,7 @@ function WoWPro:Error(message, ...)
         local msg = ("|cffff7d0a%s|r: "..message):format(self.name or "Wow-Pro", ...)
         WoWPro:Add2Log(0, msg)
         -- error(msg)
-	end
+    end
 end
 WoWPro:Export("Error")
 
@@ -176,17 +176,18 @@ local function LogGrow(frame, elapsed)
     if Log == nil then
         -- Start coroutine
         Log = ""
-        LogCo = coroutine.create(function ()
-                                        local loops = 25
-                                        for key, val in ipairs(WoWProDB.global.Log) do
-                                            Log = Log .. ("%05d ~ %s\n"):format(key, val)
-                                            loops = loops - 1
-                                            if loops < 0 then
-                                                coroutine.yield(true)
-                                                loops = 25
-                                            end
-                                        end
-                                    end)
+        LogCo = coroutine.create(function()
+            local loops = 25
+            for key, val in ipairs(WoWProDB.global.Log) do
+                Log = Log .. ("%05d ~ %s\n"):format(key, val)
+                loops = loops - 1
+                if loops < 0 then
+                    coroutine.yield(true)
+                    loops = 25
+                end
+            end
+        end)
+
         return
     end
     if Log then
@@ -231,10 +232,10 @@ function WoWPro:LogShow()
     LogBox:Hide()
     LogBox.Box:SetText("")
     WoWPro:LogDump( function(text)
-                        LogBox.Box:SetText(text)
-                        LogBox.Scroll:UpdateScrollChildRect()
-                        LogBox:Show()
-                    end )
+        LogBox.Box:SetText(text)
+        LogBox.Scroll:UpdateScrollChildRect()
+        LogBox:Show()
+    end)
 end
 
 
@@ -256,79 +257,79 @@ function WoWPro.toboolean(v)
         return v
     end
     return nil
-  end
+end
 WoWPro:Export("toboolean")
 
 
 
 -- Default profile options --
 local defaults = { profile = {
-	drag = true,
-	anchorpoint = "AUTO",
-	pad = 5,
-	space = 5,
-	mousenotes = false,
-	minimap = { hidden = false, },
-	track = true,
-	showcoords = false,
-	autoload = true,
-	guidescroll = false,
-	checksound = true,
-	checksoundfile = 567416, -- MapPing
-	rank = 2,
-	resize = false,
-	autoresize = true,
-	numsteps = 1,
-	hminresize = 200,
-	vminresize = 100,
-	titlebar = true,
-	titlecolor = {0.5, 0.5, 0.5, 1},
-	bgtexture = [[Interface\Tooltips\UI-Tooltip-Background]],
-	bgcolor = {0.2, 0.2, 0.2, 0.7},
-	bordertexture = [[Interface\Tooltips\UI-Tooltip-Border]],
-	border = true,
-	stickytexture = [[Interface\Tooltips\UI-Tooltip-Background]],
-	stickycolor = {0.8, 0.8, 0.8, 0.7},
-	stepfont = [[Fonts\FRIZQT__.TTF]],
-	steptextsize = 13,
-	steptextcolor = {1, 1, 1},
-	notefont = [[Fonts\FRIZQT__.TTF]],
-	notetextsize = 11,
-	notetextcolor = {1, 1, 0},
-	trackfont = [[Fonts\FRIZQT__.TTF]],
-	tracktextsize = 10,
-	tracktextcolor = {1, 1, 0},
-	titlefont = [[Fonts\FRIZQT__.TTF]],
-	titletextsize = 15,
-	titletextcolor = {1, 1, 1},
-	stickytitlefont = [[Fonts\FRIZQT__.TTF]],
-	stickytitletextsize = 13,
-	stickytitletextcolor = {1, 1, 1},
+    drag = true,
+    anchorpoint = "AUTO",
+    pad = 5,
+    space = 5,
+    mousenotes = false,
+    minimap = { hidden = false, },
+    track = true,
+    showcoords = false,
+    autoload = true,
+    guidescroll = false,
+    checksound = true,
+    checksoundfile = 567416, -- MapPing
+    rank = 2,
+    resize = false,
+    autoresize = true,
+    numsteps = 1,
+    hminresize = 200,
+    vminresize = 100,
+    titlebar = true,
+    titlecolor = {0.5, 0.5, 0.5, 1},
+    bgtexture = [[Interface\Tooltips\UI-Tooltip-Background]],
+    bgcolor = {0.2, 0.2, 0.2, 0.7},
+    bordertexture = [[Interface\Tooltips\UI-Tooltip-Border]],
+    border = true,
+    stickytexture = [[Interface\Tooltips\UI-Tooltip-Background]],
+    stickycolor = {0.8, 0.8, 0.8, 0.7},
+    stepfont = [[Fonts\FRIZQT__.TTF]],
+    steptextsize = 13,
+    steptextcolor = {1, 1, 1},
+    notefont = [[Fonts\FRIZQT__.TTF]],
+    notetextsize = 11,
+    notetextcolor = {1, 1, 0},
+    trackfont = [[Fonts\FRIZQT__.TTF]],
+    tracktextsize = 10,
+    tracktextcolor = {1, 1, 0},
+    titlefont = [[Fonts\FRIZQT__.TTF]],
+    titletextsize = 15,
+    titletextcolor = {1, 1, 1},
+    stickytitlefont = [[Fonts\FRIZQT__.TTF]],
+    stickytitletextsize = 13,
+    stickytitletextcolor = {1, 1, 1},
 } }
 
 
 -- Called before all addons have loaded, but after saved variables have loaded. --
 function WoWPro:OnInitialize()
-	WoWProDB = _G.LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
-	-- Setting up callbacks for use with profiels --
-	WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
-	WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
-	WoWProDB.RegisterCallback(self, "OnProfileReset", "SetDefaults")
+    WoWProDB = _G.LibStub("AceDB-3.0"):New("WoWProData", defaults, true) -- Creates DB object to use with Ace
+    -- Setting up callbacks for use with profiels --
+    WoWProDB.RegisterCallback(self, "OnProfileChanged", "RefreshConfig")
+    WoWProDB.RegisterCallback(self, "OnProfileCopied", "RefreshConfig")
+    WoWProDB.RegisterCallback(self, "OnProfileReset", "SetDefaults")
 
 
-	-- Creating empty user settings if none exist --
-	WoWProCharDB = WoWProCharDB or {}
-	WoWProCharDB.Guide = WoWProCharDB.Guide or {}
-	WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
-	WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
-	WoWProDB.global.QID2Guide = WoWProDB.global.QID2Guide  or {}
-	WoWProDB.global.Guide2QIDs = WoWProDB.global.Guide2QIDs  or {}
-	WoWProDB.global.RecklessCombat = false
-	WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
-	WoWProDB.global.NpcFauxQuests = WoWProDB.global.NpcFauxQuests or {}
-	WoWProDB.global.QuestEngineDelay = WoWProDB.global.QuestEngineDelay or 0.25
+    -- Creating empty user settings if none exist --
+    WoWProCharDB = WoWProCharDB or {}
+    WoWProCharDB.Guide = WoWProCharDB.Guide or {}
+    WoWProCharDB.completedQIDs = WoWProCharDB.completedQIDs or {}
+    WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
+    WoWProDB.global.QID2Guide = WoWProDB.global.QID2Guide  or {}
+    WoWProDB.global.Guide2QIDs = WoWProDB.global.Guide2QIDs  or {}
+    WoWProDB.global.RecklessCombat = false
+    WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
+    WoWProDB.global.NpcFauxQuests = WoWProDB.global.NpcFauxQuests or {}
+    WoWProDB.global.QuestEngineDelay = WoWProDB.global.QuestEngineDelay or 0.25
 
-	WoWProCharDB.EnableGrail = nil
+    WoWProCharDB.EnableGrail = nil
     WoWProCharDB.EnableGrailQuestline = WoWProCharDB.EnableGrailQuestline or true
     WoWProCharDB.EnableGrailCheckPrereq = WoWProCharDB.EnableGrailCheckPrereq or false
     WoWProCharDB.EnableGrailBreadcrumbs = WoWProCharDB.EnableGrailBreadcrumbs or false
@@ -336,40 +337,40 @@ function WoWPro:OnInitialize()
     WoWProCharDB.EnableGrailQuestLevel = WoWProCharDB.EnableGrailQuestLevel or false
     WoWProCharDB.EnableGrailQuestObsolete = WoWProCharDB.EnableGrailQuestObsolete or true
 
-	WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
-	WoWProCharDB.GuideStack  = WoWProCharDB.GuideStack or {}
-	WoWProCharDB.GuideVersion = WoWProCharDB.GuideVersion or {}
-	WoWProCharDB.Guide2QIDs = nil -- wipe it.
+    WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
+    WoWProCharDB.GuideStack  = WoWProCharDB.GuideStack or {}
+    WoWProCharDB.GuideVersion = WoWProCharDB.GuideVersion or {}
+    WoWProCharDB.Guide2QIDs = nil -- wipe it.
     WoWProCharDB.QID2Guide = WoWProCharDB.QID2Guide or {}
     WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
     WoWProDB.global.QID2Guide = nil
     WoWProDB.global.Guide2QIDs = nil
-	if WoWProCharDB.Enabled == nil then
-	    WoWProCharDB.Enabled = true
-	end
-	WoWProDB.global.Log = {}
-	WoWProCharDB.DebugLevel = WoWProCharDB.DebugLevel or WoWPro.DebugLevel
-	if not WoWProCharDB.DebugLevel then
-		WoWProDB.global.Deltas = {}
-	end
-	if WoWProCharDB.AutoHideInsideInstances == nil then
-	    WoWProCharDB.AutoHideInsideInstances = true
-	end
-	if WoWProCharDB.AutoHideInCombat == nil then
-	    WoWProCharDB.AutoHideInCombat = false
-	end
-	if WoWProCharDB.EnablePetBattles == nil then
-	    WoWProCharDB.EnablePetBattles = true
-	end
-	if WoWProCharDB.EnableRares == nil then
-	    WoWProCharDB.EnableRares = true
-	end
-	if WoWProCharDB.EnableTreasures == nil then
-	    WoWProCharDB.EnableTreasures = true
-	end
-	if WoWProCharDB.EnableFlight == nil then
-	    WoWProCharDB.EnableFlight = true
-	end
+    if WoWProCharDB.Enabled == nil then
+        WoWProCharDB.Enabled = true
+    end
+    WoWProDB.global.Log = {}
+    WoWProCharDB.DebugLevel = WoWProCharDB.DebugLevel or WoWPro.DebugLevel
+    if not WoWProCharDB.DebugLevel then
+        WoWProDB.global.Deltas = {}
+    end
+    if WoWProCharDB.AutoHideInsideInstances == nil then
+        WoWProCharDB.AutoHideInsideInstances = true
+    end
+    if WoWProCharDB.AutoHideInCombat == nil then
+        WoWProCharDB.AutoHideInCombat = false
+    end
+    if WoWProCharDB.EnablePetBattles == nil then
+        WoWProCharDB.EnablePetBattles = true
+    end
+    if WoWProCharDB.EnableRares == nil then
+        WoWProCharDB.EnableRares = true
+    end
+    if WoWProCharDB.EnableTreasures == nil then
+        WoWProCharDB.EnableTreasures = true
+    end
+    if WoWProCharDB.EnableFlight == nil then
+        WoWProCharDB.EnableFlight = true
+    end
     WoWPro.DebugLevel = WoWProCharDB.DebugLevel
     WoWPro.DebugClasses = (WoWPro.DebugLevel > 0) and WoWProCharDB.DebugClasses
     WoWPro.GossipText = nil
@@ -398,97 +399,96 @@ WoWPro.EventTable = {}
 
 -- Called when the addon is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro:OnEnable()
-	WoWPro:Print("|cff33ff33Enabled|r: Version %s", WoWPro.Version)
+    WoWPro:Print("|cff33ff33Enabled|r: Version %s", WoWPro.Version)
     if  WoWProDB.global.RecklessCombat then
         WoWPro:Warning("Achtung!  Beware! Peligro!  Reckless Combat mode enabled.  InCombat interlocks disabled!")
     end
-	-- Loading Frames --
-	if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
-		WoWPro:CreateFrames()
-		WoWPro:CreateConfig()
-		WoWPro.EventFrame = _G.CreateFrame("Button", "WoWPro.EventFrame", _G.UIParent)
-		WoWPro.FramesLoaded = true
-	else -- Addon was previously disabled, so no need to create frames, just turn them back on
-		WoWPro:AbleFrames()
-	end
+    -- Loading Frames --
+    if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
+        WoWPro:CreateFrames()
+        WoWPro:CreateConfig()
+        WoWPro.EventFrame = _G.CreateFrame("Button", "WoWPro.EventFrame", _G.UIParent)
+        WoWPro.FramesLoaded = true
+    else -- Addon was previously disabled, so no need to create frames, just turn them back on
+        WoWPro:AbleFrames()
+    end
 
-	--Initiallizing base tags, before we enable each module or they might see missing tags or odd events! --
-	for i,tag in pairs(WoWPro.Tags) do
-		WoWPro[tag] = WoWPro[tag] or {}
-	end
+    --Initiallizing base tags, before we enable each module or they might see missing tags or odd events! --
+    for i,tag in pairs(WoWPro.Tags) do
+        WoWPro[tag] = WoWPro[tag] or {}
+    end
 
-	-- Module Enabling --
-	for name, module in WoWPro:IterateModules() do
-		WoWPro:dbp("Enabling "..name.." module...")
-		module:Enable()
-	end
+    -- Module Enabling --
+    for name, module in WoWPro:IterateModules() do
+        WoWPro:dbp("Enabling "..name.." module...")
+        module:Enable()
+    end
 
-	WoWPro:CustomizeFrames()	-- Applies profile display settings
+    WoWPro:CustomizeFrames()    -- Applies profile display settings
 
-	-- Keybindings Initial Setup --
-	if not _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton") then
-		_G.SetBinding("CTRL-SHIFT-I", "CLICK WoWPro_FauxItemButton:LeftButton")
-	end
-	if not _G.GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton") then
-		_G.SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
-	end
-	if _G.GetBindingKey("WOWPRO_SELECTOR") then
-	    -- Do NOT release with this binding until it works!
-		_G.SetBinding("ALT-G", "WOWPRO_SELECTOR")
-	end
+    -- Keybindings Initial Setup --
+    if not _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton") then
+        _G.SetBinding("CTRL-SHIFT-I", "CLICK WoWPro_FauxItemButton:LeftButton")
+    end
+    if not _G.GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton") then
+        _G.SetBinding("CTRL-SHIFT-T", "CLICK WoWPro_FauxTargetButton:LeftButton")
+    end
+    if _G.GetBindingKey("WOWPRO_SELECTOR") then
+        -- Do NOT release with this binding until it works!
+        _G.SetBinding("ALT-G", "WOWPRO_SELECTOR")
+    end
 
-	-- Event Setup --
-	WoWPro:dbp("Registering Events: Core Addon")
-	WoWPro:RegisterEvents(nil)
-	WoWPro:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
-	if not WoWPro.CLASSIC then
-	    WoWPro:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
-	end
-	WoWPro:RegisterBucketEvent({"LOOT_CLOSED"}, 0.250, WoWPro.AutoCompleteChest)
-	WoWPro:RegisterBucketEvent({"TRADE_SKILL_SHOW", "TRADE_SKILL_LIST_UPDATE"}, 0.250, WoWPro.ScanTrade)
-	WoWPro:RegisterBucketMessage("WoWPro_LoadGuide",0.25,WoWPro.LoadGuideReal)
-	WoWPro:RegisterBucketMessage("WoWPro_LoadGuideSteps",0.25,WoWPro.LoadGuideStepsReal)
-	WoWPro:RegisterBucketMessage("WoWPro_GuideSetup",0.25,WoWPro.SetupGuideReal)
-	WoWPro:RegisterBucketMessage("WoWPro_UpdateGuide",0.333,WoWPro.UpdateGuideReal)
-	WoWPro:RegisterBucketMessage("WoWPro_PuntedQLU",0.333,WoWPro.PuntedQLU)
-	WoWPro:RegisterBucketMessage("WoWPro_GuideSelect",0.333,WoWPro.SelectGuideReal)
-	if WoWPro.Recorder then
-	    WoWPro:RegisterBucketMessage("WoWPro_PostQuestLogUpdate",0.1,WoWPro.Recorder.PostQuestLogUpdate)
-	    WoWPro:RegisterBucketMessage("WoWPro_PostLoadGuide",0.1,WoWPro.Recorder.PostGuideLoad)
-	    WoWPro:RegisterBucketMessage("WoWPro_PostUpdateGuide",0.1,WoWPro.Recorder.PostUpdateGuide)
-	else
-	    WoWPro:RegisterBucketMessage("WoWPro_PostQuestLogUpdate",0.1,WoWPro.PostQuestLogUpdate)
-	end
+    -- Event Setup --
+    WoWPro:dbp("Registering Events: Core Addon")
+    WoWPro:RegisterEvents(nil)
+    WoWPro:RegisterBucketEvent({"CHAT_MSG_LOOT", "BAG_UPDATE"}, 0.333, WoWPro.AutoCompleteLoot)
+    if not WoWPro.CLASSIC then
+        WoWPro:RegisterBucketEvent({"CRITERIA_UPDATE"}, 0.250, WoWPro.AutoCompleteCriteria)
+    end
+    WoWPro:RegisterBucketEvent({"LOOT_CLOSED"}, 0.250, WoWPro.AutoCompleteChest)
+    WoWPro:RegisterBucketEvent({"TRADE_SKILL_SHOW", "TRADE_SKILL_LIST_UPDATE"}, 0.250, WoWPro.ScanTrade)
+    WoWPro:RegisterBucketMessage("WoWPro_LoadGuide",0.25,WoWPro.LoadGuideReal)
+    WoWPro:RegisterBucketMessage("WoWPro_LoadGuideSteps",0.25,WoWPro.LoadGuideStepsReal)
+    WoWPro:RegisterBucketMessage("WoWPro_GuideSetup",0.25,WoWPro.SetupGuideReal)
+    WoWPro:RegisterBucketMessage("WoWPro_UpdateGuide",0.333,WoWPro.UpdateGuideReal)
+    WoWPro:RegisterBucketMessage("WoWPro_PuntedQLU",0.333,WoWPro.PuntedQLU)
+    WoWPro:RegisterBucketMessage("WoWPro_GuideSelect",0.333,WoWPro.SelectGuideReal)
+    if WoWPro.Recorder then
+        WoWPro:RegisterBucketMessage("WoWPro_PostQuestLogUpdate",0.1,WoWPro.Recorder.PostQuestLogUpdate)
+        WoWPro:RegisterBucketMessage("WoWPro_PostLoadGuide",0.1,WoWPro.Recorder.PostGuideLoad)
+        WoWPro:RegisterBucketMessage("WoWPro_PostUpdateGuide",0.1,WoWPro.Recorder.PostUpdateGuide)
+    else
+        WoWPro:RegisterBucketMessage("WoWPro_PostQuestLogUpdate",0.1,WoWPro.PostQuestLogUpdate)
+    end
 
-	WoWPro.LockdownTimer = nil
-	WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
-	WoWPro:dbp("Setting Timer OnEnable")
-	WoWPro.EventFrame:SetScript("OnUpdate", WoWPro.LockdownHandler)
+    WoWPro.LockdownTimer = nil
+    WoWPro.LockdownCounter = 5  -- times until release and give up to wait for other addons
+    WoWPro:dbp("Setting Timer OnEnable")
+    WoWPro.EventFrame:SetScript("OnUpdate", WoWPro.LockdownHandler)
 
-	WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
+    WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
 
---	WoWPro:MapPoint()				-- Maps the active step
-	-- If the base addon was disabled by the user, put it to sleep now.
-	if not WoWProCharDB.Enabled then
-	    WoWPro:Disable()
-	    return
-	end
-
+    -- WoWPro:MapPoint()               -- Maps the active step
+    -- If the base addon was disabled by the user, put it to sleep now.
+    if not WoWProCharDB.Enabled then
+        WoWPro:Disable()
+        return
+    end
 end
 
 -- Called when the addon is disabled --
 function WoWPro:OnDisable()
-	-- Module Disabling --
-	for name, module in WoWPro:IterateModules() do
-		WoWPro:dbp("Disabling "..name.." module...")
-		module:Disable()
-	end
+    -- Module Disabling --
+    for name, module in WoWPro:IterateModules() do
+        WoWPro:dbp("Disabling "..name.." module...")
+        module:Disable()
+    end
 
-	WoWPro:AbleFrames()								-- Hides all frames
-	WoWPro.EventFrame:UnregisterAllEvents()	-- Unregisters all events
-	WoWPro:UnregisterAllBuckets()
-	WoWPro:RemoveMapPoint()							-- Removes any active map points
-	WoWPro:Print("|cffff3333Disabled|r: Version %s", WoWPro.Version)
+    WoWPro:AbleFrames()                             -- Hides all frames
+    WoWPro.EventFrame:UnregisterAllEvents() -- Unregisters all events
+    WoWPro:UnregisterAllBuckets()
+    WoWPro:RemoveMapPoint()                         -- Removes any active map points
+    WoWPro:Print("|cffff3333Disabled|r: Version %s", WoWPro.Version)
 end
 
 -- Core Tag Setup --
@@ -497,54 +497,54 @@ WoWPro.Tags = { action=true, step=true, lootqty=true, why=true, qcount=true, con
 
 -- Tag Registration Function --
 function WoWPro:RegisterTags(tagtable)
---[[ Purpose: Can be called by modules to add tags to the WoWPro.Tags table.
-This table is iterated on in several key functions within the addon.
-]]--
-	if not WoWPro.Tags then return end			-- If the table doesn't exist for some reason (function called too early), end.
-	for i=1,#tagtable do
-	    WoWPro.Tags[tagtable[i]]=true -- Insert each tag from the table supplied into the WoWPro.Tags table.
-	end
+    --[[ Purpose: Can be called by modules to add tags to the WoWPro.Tags table.
+    This table is iterated on in several key functions within the addon.
+    ]]--
+    if not WoWPro.Tags then return end          -- If the table doesn't exist for some reason (function called too early), end.
+    for i=1,#tagtable do
+        WoWPro.Tags[tagtable[i]]=true -- Insert each tag from the table supplied into the WoWPro.Tags table.
+    end
 end
 
 -- Event Registration Function --
 function WoWPro:RegisterEvents(eventtable)
---[[Purpose: Iterates through the supplied table of events, and registers each
-event to the guide frame.
-]]--
+    --[[Purpose: Iterates through the supplied table of events, and registers each
+    event to the guide frame.
+    ]]--
     if not eventtable then
         eventtable = WoWPro.EventTable
     end
-	for key,value in pairs(eventtable) do
-	    if type(key) == "string" then
-		    WoWPro.EventFrame:RegisterEvent(key)
-		    WoWPro.EventTable[key]=true
-		end
-	    if type(value) == "string" then
-		    WoWPro.EventFrame:RegisterEvent(value)
-		    WoWPro.EventTable[value]=true
-		end
-	end
+    for key,value in pairs(eventtable) do
+        if type(key) == "string" then
+            WoWPro.EventFrame:RegisterEvent(key)
+            WoWPro.EventTable[key]=true
+        end
+        if type(value) == "string" then
+            WoWPro.EventFrame:RegisterEvent(value)
+            WoWPro.EventTable[value]=true
+        end
+    end
 end
 
 -- Event Un-Registration Function --
 function WoWPro:UnregisterEvents(eventtable)
---[[Purpose: Iterates through the supplied table of events, and removes each
-event from the guide frame.
-]]--
+    --[[Purpose: Iterates through the supplied table of events, and removes each
+    event from the guide frame.
+    ]]--
     if not eventtable then
         WoWPro.UnregisterAllEvents()
         return
     end
-	for key,value in pairs(eventtable) do
-	    if type(key) == "string" then
-		    WoWPro.EventFrame:UnregisterEvent(key)
-		    WoWPro.EventTable[value]=false
-		end
-	    if type(value) == "string" then
-		    WoWPro.EventFrame:UnregisterEvent(value)
-		    WoWPro.EventTable[value]=false
-		end
-	end
+    for key,value in pairs(eventtable) do
+        if type(key) == "string" then
+            WoWPro.EventFrame:UnregisterEvent(key)
+            WoWPro.EventTable[value]=false
+        end
+        if type(value) == "string" then
+            WoWPro.EventFrame:UnregisterEvent(value)
+            WoWPro.EventTable[value]=false
+        end
+    end
 end
 
 function WoWPro.RegisterAllEvents()
@@ -628,12 +628,12 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
     end
 
     local guide = {
-		guidetype = gtype,
-		zone = zonename,
-		author = authorname,
-		faction = faction,
-		GID = GIDvalue
-	}
+        guidetype = gtype,
+        zone = zonename,
+        author = authorname,
+        faction = faction,
+        GID = GIDvalue
+    }
 
     if 'Dailies' == gtype then
         WoWPro:NoCache(guide)
@@ -923,7 +923,7 @@ Difficulty[4] = {120/360,0.9,0.5} -- Green
 Difficulty[5] = {180/360,0.7,0.3} -- Green/Teal
 
 function WoWPro:InterpolateHSL(l,h,r)
---    WoWPro:dbp("WoWPro:InterpolateHSL([%f, %f, %f], [%f, %f, %f], %f)", l[1], l[2], l[3], h[1], h[2], h[3], r)
+    -- WoWPro:dbp("WoWPro:InterpolateHSL([%f, %f, %f], [%f, %f, %f], %f)", l[1], l[2], l[3], h[1], h[2], h[3], r)
     if (r < 0) then r = 0 end
     if (r > 1) then r = 1 end
     local ir = 1 - r
@@ -951,7 +951,7 @@ function WoWPro:QuestColor(questLevel, playerLevel)
 
     local diff = questLevel - playerLevel
     local c
---    WoWPro:dbp("WoWPro:QuestColor(%s,%s) diff %f",tostring(questLevel),tostring(playerLevel), diff)
+    -- WoWPro:dbp("WoWPro:QuestColor(%s,%s) diff %f",tostring(questLevel),tostring(playerLevel), diff)
     if diff > 5 then
         -- Red/Gray => Red
         c = WoWPro:InterpolateHSL(Difficulty[1], Difficulty[0], (diff-5)/90)
@@ -982,12 +982,12 @@ end
 function WoWPro.LevelColor(guide)
     local playerLevel = WoWPro:PlayerLevel()
     if type(guide) == "number" then
---        WoWPro:dbp("WoWPro.LevelColor(%f)",guide)
+        -- WoWPro:dbp("WoWPro.LevelColor(%f)",guide)
         return {WoWPro:QuestColor(guide)}
     end
 
     if type(guide) == "table" then
---         WoWPro:dbp("WoWPro.LevelColor(%s)",guide.GID)
+        -- WoWPro:dbp("WoWPro.LevelColor(%s)",guide.GID)
         playerLevel = playerLevel + WoWProDB.profile.Selector.QuestHard
         if (playerLevel < guide['startlevel']) then
             return {WoWPro:QuestColor(guide['level'] or guide['endlevel'])}
@@ -1088,11 +1088,11 @@ end
 
 -- Finish all delayed guide initializiation
 function WoWPro:FinalizeGuides()
-	for name, module in WoWPro:IterateModules() do
+    for name, module in WoWPro:IterateModules() do
         if WoWPro[name].GuideList.Init then
-		    WoWPro[name].GuideList.Init()
-		end
-	end
+            WoWPro[name].GuideList.Init()
+        end
+    end
 end
 
 WoWPro.LoadAll = {}
@@ -1115,21 +1115,21 @@ local function TestGuideLoad(guidID)
     WoWPro:Print("Test Loading " .. guidID)
     WoWProDB.char.currentguide = guidID
     --Re-initiallizing tags and counts--
-	for i,tag in pairs(WoWPro.Tags) do
-		WoWPro[tag] = {}
-	end
-	WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
-	WoWProCharDB.Guide[guidID] = {}
-	WoWProCharDB.Guide[guidID].completion =  {}
+    for i,tag in pairs(WoWPro.Tags) do
+        WoWPro[tag] = {}
+    end
+    WoWPro.stepcount, WoWPro.stickycount, WoWPro.optionalcount = 0, 0 ,0
+    WoWProCharDB.Guide[guidID] = {}
+    WoWProCharDB.Guide[guidID].completion =  {}
     WoWProCharDB.Guide[guidID].skipped =  {}
     WoWPro:LoadGuideStepsReal()
     local nextG = WoWPro:NextGuide(guidID)
     if WoWPro.Guides[guidID].zone then
         local zed = WoWPro.Guides[guidID].zone:match("([^%(%-]+)" ):trim()
         if not WoWPro:ValidZone(zed) then
-	        WoWPro:Warning("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
-	    end
-	end
+            WoWPro:Warning("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
+        end
+    end
     if nextG and WoWPro.Guides[nextG] == nil then
         WoWPro:Error("Successor to " .. guidID .. " which is " .. tostring(nextG) .. " is invalid.")
     end
@@ -1147,15 +1147,16 @@ end
 local function LoadNext(frame, elapsed)
     if WoWPro.LoadAll.Load == nil then
         -- Start coroutine
-       WoWPro.LoadAll.Co = coroutine.create(function ()
-                                        local guidID
-                                        repeat
-                                            guidID = tremove(WoWPro.LoadAll.List)
-                                            TestGuideLoad(guidID)
-                                            coroutine.yield(guidID)
-                                        until not guidID
-                                        WoWPro:Print("Exiting coroutine.")
-                                    end)
+       WoWPro.LoadAll.Co = coroutine.create(function()
+            local guidID
+            repeat
+                guidID = tremove(WoWPro.LoadAll.List)
+                TestGuideLoad(guidID)
+                coroutine.yield(guidID)
+            until not guidID
+            WoWPro:Print("Exiting coroutine.")
+        end)
+
         WoWPro.LoadAll.Load = true
         return
     end
@@ -1192,12 +1193,12 @@ function WoWPro:LoadAllGuides()
     WoWPro.LoadAll.nCount=0
     WoWPro.LoadAll.Count=0
     WoWPro.LoadAll.List = {}
- 	for guidID,guide in pairs(WoWPro.Guides) do
- 	    tinsert(WoWPro.LoadAll.List, guidID)
-	end
-	WoWPro.LoadAllGuidesActive = true
-	WoWPro:Print("LoadAllGuides: %d guides scheduled to load.", #(WoWPro.LoadAll.List))
-	WoWPro:LoadTestAsync(WoWPro.LoadAllGuidesDone)
+    for guidID,guide in pairs(WoWPro.Guides) do
+        tinsert(WoWPro.LoadAll.List, guidID)
+    end
+    WoWPro.LoadAllGuidesActive = true
+    WoWPro:Print("LoadAllGuides: %d guides scheduled to load.", #(WoWPro.LoadAll.List))
+    WoWPro:LoadTestAsync(WoWPro.LoadAllGuidesDone)
 end
 
 

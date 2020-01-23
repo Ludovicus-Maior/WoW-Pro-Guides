@@ -127,7 +127,7 @@
 -- URL: http://wow-pro.com/node/3489/revisions/25055/view
 -- Date: 2012-08-28 19:14
 -- Who: Ludovicus_Maior
--- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
+-- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07.
 
 local guide = WoWPro:RegisterGuide('EmmKra8788', "Leveling", 'Krasarang Wilds', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,86,87,86.0091)

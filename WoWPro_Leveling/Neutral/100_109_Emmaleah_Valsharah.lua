@@ -86,7 +86,7 @@
 -- URL: http://wow-pro.com/node/3665/revisions/28238/view
 -- Date: 2017-01-10 21:36
 -- Who: Blanckaert
--- Log: minor adjustments... 
+-- Log: minor adjustments...
 
 -- URL: http://wow-pro.com/node/3665/revisions/28186/view
 -- Date: 2016-12-28 23:56
@@ -168,7 +168,7 @@
 -- URL: http://wow-pro.com/node/3665/revisions/27805/view
 -- Date: 2016-09-16 22:38
 -- Who: Emmaleah
--- Log: change registration levels to 100-109 and next guide to Blanc_Suramar 
+-- Log: change registration levels to 100-109 and next guide to Blanc_Suramar
 
 -- URL: http://wow-pro.com/node/3665/revisions/27748/view
 -- Date: 2016-09-13 03:41

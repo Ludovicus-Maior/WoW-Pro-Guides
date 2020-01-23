@@ -237,7 +237,7 @@
 -- Date: 2018-05-11 08:56
 -- Who: STrek
 -- Log:  should be removed here-- added comment before line to see if this is needed or not (will be checked later)
---	
+--
 --	added few white lines for clear reading - player moves to differnt place in game here
 
 -- URL: http://wow-pro.com/node/3763/revisions/29290/view

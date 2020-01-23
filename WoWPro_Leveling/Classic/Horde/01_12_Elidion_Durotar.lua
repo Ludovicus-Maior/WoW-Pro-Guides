@@ -156,7 +156,7 @@ C Practical Prey|QID|817|US|N|Kill Durotar Tigers. They are on the north and on 
 C Break a Few Eggs|QID|815|US|N|Loot the remaining Raptor Nests.|
 T Minshina's Skull|QID|808|M|55.95,74.72|N|To Master Gadrin.|
 T Zalazane|QID|826|M|55.95,74.72|N|To Master Gadrin.|
-T Practical Prey|QID|817|M|55.95,73.93|N|To Vel'rin Fang.| 
+T Practical Prey|QID|817|M|55.95,73.93|N|To Vel'rin Fang.|
 L Level 8|QID|825|LVL|8|N|You should be level 8 or shortly before. Grind a bit on the Quillboars if not.|
 C Encroachment|QID|837|QO|1;2|M|50.58,49.11|N|Go to the southwest of Razor Hill and kill Razormane Quillboars and Razormane Scouts.|
 T From The Wreckage....|QID|825|M|51.95,43.50|N|To Gar'Thok.|

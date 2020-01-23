@@ -122,7 +122,7 @@
 -- URL: http://wow-pro.com/node/3289/revisions/24015/view
 -- Date: 2011-01-18 19:23
 -- Who: Fluclo
--- Log: Added NonCombat tag to quest Khu'nok Will Know 
+-- Log: Added NonCombat tag to quest Khu'nok Will Know
 
 -- URL: http://wow-pro.com/node/3289/revisions/24014/view
 -- Date: 2011-01-18 19:04

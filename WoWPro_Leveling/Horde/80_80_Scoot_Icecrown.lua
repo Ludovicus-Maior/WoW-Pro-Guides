@@ -31,7 +31,7 @@
 -- URL: http://wow-pro.com/node/3302/revisions/28219/view
 -- Date: 2017-01-10 20:19
 -- Who: Ludovicus_Maior
--- Log: Removed spurious '1s' 
+-- Log: Removed spurious '1s'
 
 -- URL: http://wow-pro.com/node/3302/revisions/28152/view
 -- Date: 2016-12-14 15:17

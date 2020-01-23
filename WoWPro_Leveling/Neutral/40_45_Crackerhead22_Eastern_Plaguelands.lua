@@ -20,7 +20,7 @@
 -- URL: http://wow-pro.com/node/3251/revisions/30335/view
 -- Date: 2019-07-28 10:37
 -- Who: Hendo72
--- Log: - Streamlined Pamela's Doll quest for flow and clarity. 
+-- Log: - Streamlined Pamela's Doll quest for flow and clarity.
 --	- Adjusted coordinates for Villains/Heroes/Marauders of Darrowshire quest to show a clear path to the destinations.
 --	- Added a note about destroying leftover skulls/bone dust.
 --	- Rephrased a couple quests and added/removed NC/CHAT tags where needed.

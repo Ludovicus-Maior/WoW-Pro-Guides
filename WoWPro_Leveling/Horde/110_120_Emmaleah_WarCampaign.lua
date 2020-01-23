@@ -206,7 +206,7 @@
 -- URL: http://wow-pro.com/node/3761/revisions/29771/view
 -- Date: 2018-09-20 08:25
 -- Who: elidion
--- Log: Updated some of the notes for the warfront scenario. 
+-- Log: Updated some of the notes for the warfront scenario.
 
 -- URL: http://wow-pro.com/node/3761/revisions/29759/view
 -- Date: 2018-09-16 19:58

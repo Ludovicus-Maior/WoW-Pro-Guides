@@ -87,7 +87,7 @@
 -- Who: Emmaleah
 -- Log: Lack of revision control was bugging me more and more, so moved to wiki page.
 --	7/31 changes added sganab
---	8/2 changes added druid, 
+--	8/2 changes added druid,
 --	-alphabetized classes, and specs within classes
 --	-changed Scenario C steps to have QID tag instead of ACTIVE tag
 

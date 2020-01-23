@@ -21,7 +21,7 @@
 -- URL: http://wow-pro.com/node/3766/revisions/30124/view
 -- Date: 2018-11-13 10:16
 -- Who: Emmaleah
--- Log: corrected coords for tainted guardian; fixed missing US on Conduit Interruption;  fixed corpse maker yon'gi s/b QO|2 
+-- Log: corrected coords for tainted guardian; fixed missing US on Conduit Interruption;  fixed corpse maker yon'gi s/b QO|2
 
 -- URL: http://wow-pro.com/node/3766/revisions/30112/view
 -- Date: 2018-11-05 09:17
@@ -90,12 +90,12 @@
 -- URL: http://wow-pro.com/node/3766/revisions/29479/view
 -- Date: 2018-08-07 04:27
 -- Who: Emmaleah
--- Log: I apparently didn't keep good version control and overwrote the end of this guide. Will test soonest! Recovered a great deal of it from my backup on 7/19; this wasn't the final copy and undoubtedly needs more work. 
+-- Log: I apparently didn't keep good version control and overwrote the end of this guide. Will test soonest! Recovered a great deal of it from my backup on 7/19; this wasn't the final copy and undoubtedly needs more work.
 
 -- URL: http://wow-pro.com/node/3766/revisions/29475/view
 -- Date: 2018-08-04 20:29
 -- Who: Emmaleah
--- Log: Delete the quests from the beginning that are properly part of Zuldazar guide, improve registration 
+-- Log: Delete the quests from the beginning that are properly part of Zuldazar guide, improve registration
 
 -- URL: http://wow-pro.com/node/3766/revisions/29419/view
 -- Date: 2018-07-11 08:53
