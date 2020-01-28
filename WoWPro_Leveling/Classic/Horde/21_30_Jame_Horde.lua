@@ -305,7 +305,7 @@ A Call of Water |QID|220|PRE|1534|C|Shaman|M|43.40,77.40|Z|The Barrens|
 
 K Kuz for Kuz's Skull|ACTIVE|879|QO|1|M|44.00,79.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Kaz|
 K Nak for Nak's Skull|ACTIVE|879|QO|2|M|43.00,83.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Nak|
-K Lok Orcbane for Lok's Skull|ACTIVE|879|QO|3|M|40.00,80.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Lok Orcbane| 
+K Lok Orcbane for Lok's Skull|ACTIVE|879|QO|3|M|40.00,80.00|Z|The Barrens|N|He can be found around . Kill other quilboar as you go and look for their weapons.|T|Lok Orcbane|
 
 C Weapons of Choice|QID|893|M|44.40,80.20|Z|The Barrens|N|Kill Stalkers for a Backstabber, Seers for a Wand, and Warfenzies for a War Shield.|
 

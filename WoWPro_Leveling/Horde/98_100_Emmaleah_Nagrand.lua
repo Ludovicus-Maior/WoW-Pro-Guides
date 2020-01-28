@@ -89,7 +89,7 @@
 -- URL: http://wow-pro.com/node/3605/revisions/27087/view
 -- Date: 2014-12-08 02:01
 -- Who: Emmaleah
--- Log: updated coords in The Underpale, added N tags to those steps also (most shamelessly stolen from Ludo's Alliance Nagrand guide) 
+-- Log: updated coords in The Underpale, added N tags to those steps also (most shamelessly stolen from Ludo's Alliance Nagrand guide)
 
 -- URL: http://wow-pro.com/node/3605/revisions/27086/view
 -- Date: 2014-12-08 00:11
@@ -118,7 +118,7 @@
 -- URL: http://wow-pro.com/node/3605/revisions/27023/view
 -- Date: 2014-11-20 03:22
 -- Who: Emmaleah
--- Log: added |Z|The Underpale to the steps inside oshu'gun, Starting with T [Dark Binding] I did it from memory, so I may have added it to extra steps that shouldn't have it. 
+-- Log: added |Z|The Underpale to the steps inside oshu'gun, Starting with T [Dark Binding] I did it from memory, so I may have added it to extra steps that shouldn't have it.
 
 -- URL: http://wow-pro.com/node/3605/revisions/26965/view
 -- Date: 2014-11-11 23:43

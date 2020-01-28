@@ -135,13 +135,13 @@
 -- Date: 2015-01-25 05:58
 -- Who: Ludovicus_Maior
 -- Log: Aldavor:  Incorrect QID; the line (615) in Shadowmoon levelling guide should be changed from:
---	
+--
 --	l Mushroom-Covered Chest |QID|33869|N|Mushroom-Covered Chest: Lootable object found at the bottom of the lake in Umbrafen.|M|52.87,24.85|RANK|3|
---	
+--
 --	to:
---	
+--
 --	l Mushroom-Covered Chest |QID|37254|N|Mushroom-Covered Chest: Lootable object found at the bottom of the lake in Umbrafen.|M|52.87,24.85|RANK|3|
---	
+--
 
 -- URL: http://wow-pro.com/node/3604/revisions/27117/view
 -- Date: 2015-01-04 23:31

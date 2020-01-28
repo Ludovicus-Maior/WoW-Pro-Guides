@@ -188,8 +188,8 @@
 -- Who: Ludovicus_Maior
 -- Log: Added Quest giver/turnin information for many steps.
 --	Altered sequences of steps to allow you to use quest reward armor sooner.
---	Corrected several coordinates. 
---	Added two auto-turnin quests as 'N' steps.  
+--	Corrected several coordinates.
+--	Added two auto-turnin quests as 'N' steps.
 --	An "A" step by itself does not work.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24072/view

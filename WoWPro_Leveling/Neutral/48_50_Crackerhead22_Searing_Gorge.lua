@@ -16,7 +16,7 @@
 -- URL: http://wow-pro.com/node/3255/revisions/30322/view
 -- Date: 2019-07-23 10:29
 -- Who: Hendo72
--- Log: Made some minor tweaks to wording and added extra coordinates to help with pathing. 
+-- Log: Made some minor tweaks to wording and added extra coordinates to help with pathing.
 --	Changed a few steps from 'l' to 'C' and changed some of the icons to NC, CHAT, etc.
 --	Reorganized the 'Set Them Ablaze!' quest steps for better flow with the other quests in the area.
 

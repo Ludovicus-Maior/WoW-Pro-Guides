@@ -16,7 +16,7 @@
 -- URL: http://wow-pro.com/node/3305/revisions/29811/view
 -- Date: 2018-09-23 20:38
 -- Who: jovieve
--- Log: Changed N to C for better QID validation (plus it's a fighting step anyway). Added a QO. 
+-- Log: Changed N to C for better QID validation (plus it's a fighting step anyway). Added a QO.
 
 -- URL: http://wow-pro.com/node/3305/revisions/29809/view
 -- Date: 2018-09-23 20:18

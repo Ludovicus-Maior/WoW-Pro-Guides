@@ -186,9 +186,9 @@ A WANTED: Andre Firebeard|QID|2875|M|66.81,22.30|Z|Tanaris|N|From Wanted Poster.
 A Southsea Shakedown|QID|8366|M|67.06,23.89|Z|Tanaris|N|From Security Chief Bilgewhizzle.|
 T Stoley's Debt|QID|2872|M|67.11,23.98|Z|Tanaris|N|To Stoley.|
 A Stoley's Shipment|QID|2873|M|67.11,23.98|Z|Tanaris|N|From Stoley.|PRE|2872|
-C Wastewander Justice|QID|1690|M|60.22,23.21|Z|Tanaris|S|N|Kill the Wastewander Bandits and Thieves.| 
-C Water Pouch Bounty|QID|1707|M|60.22,23.21|Z|Tanaris|N|Kill Bandits here to get the water pouches.| 
-C Wastewander Justice|QID|1690|M|60.22,23.21|Z|Tanaris|US|N|Finish killing the Wastewander Bandits and Thieves.| 
+C Wastewander Justice|QID|1690|M|60.22,23.21|Z|Tanaris|S|N|Kill the Wastewander Bandits and Thieves.|
+C Water Pouch Bounty|QID|1707|M|60.22,23.21|Z|Tanaris|N|Kill Bandits here to get the water pouches.|
+C Wastewander Justice|QID|1690|M|60.22,23.21|Z|Tanaris|US|N|Finish killing the Wastewander Bandits and Thieves.|
 L Level Check|QID|2864|N|You should now be level 43 by now, try killing a bit more NPCs along the way during your travels.|LVL|43|
 T Water Pouch Bounty|QID|1707|M|52.48,28.44|Z|Tanaris|N|To Spigot Operator Luglunket. Now repeatable for 10 faction, but no XP so not recommended.|
 T Wastewander Justice|QID|1690|M|52.46,28.51|Z|Tanaris|N|To Chief Engineer Bilgewhizzle.|
@@ -200,12 +200,12 @@ C Sweet Amber|QID|49|M|65.74,36.73|Z|Tanaris|QO|2|N|Click on the Sack of Corn.|
 C More Wastewander Justice|QID|1691|M|64.50,37.97|Z|Tanaris|US|N|Finish killing the Wastewanders.|
 
 R Lost Rigger Cove|ACTIVE|8366|M|68,41|Z|Tanaris|N|Go through the tunnel to find the cove.|
-C Pirate Hats Ahoy!|QID|8365|M|70.4,42.7|Z|Tanaris|S|N|Collect Pirate Hats off the Southsea you kill.| 
+C Pirate Hats Ahoy!|QID|8365|M|70.4,42.7|Z|Tanaris|S|N|Collect Pirate Hats off the Southsea you kill.|
 C Southsea Shakedown|QID|8366|M|73.00,47.00|Z|Tanaris|S|N|Kill the Southsea NPCs.|
 K Andre Firebeard|ACTIVE|2875|QO|1|M|73.37,47.10|Z|Tanaris|T|Andre Firebeard|N|Kill Andre Firebeard and take his head.|
 C Stoley's Shipment|QID|2873|M|72.17,46.77|Z|Tanaris|NC|N|Go to the top floor of the house at this location and get Stoley's Shipment.|
 C Southsea Shakedown|QID|8366|M|73.00,47.00|Z|Tanaris|US|N|Finish killing the Southsea NPCs.|
-C Pirate Hats Ahoy!|QID|8365|M|70.4,42.7|Z|Tanaris|US|N|Finish collecting the Pirate hats Pirate Hats.| 
+C Pirate Hats Ahoy!|QID|8365|M|70.4,42.7|Z|Tanaris|US|N|Finish collecting the Pirate hats Pirate Hats.|
 
 R Steamwheedle Port|ACTIVE|8366|M|67.1,23.9|Z|Tanaris|N|Ride North to Steamwheedle Port.|
 A Ship Schedules|QID|2876|U|9250|N|Right-click the Ship Schedules to get this quest if you have the item (it can be in a Pirate Footlocker).|

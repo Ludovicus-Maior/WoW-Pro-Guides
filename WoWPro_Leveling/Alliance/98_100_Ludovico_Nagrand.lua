@@ -92,7 +92,7 @@
 -- URL: http://wow-pro.com/node/3618/revisions/27484/view
 -- Date: 2016-07-30 16:47
 -- Who: tubera
--- Log: Fix T Removing the Reinforcements. Not D'kaan, but Thaelin. 
+-- Log: Fix T Removing the Reinforcements. Not D'kaan, but Thaelin.
 
 -- URL: http://wow-pro.com/node/3618/revisions/27399/view
 -- Date: 2015-12-31 23:34

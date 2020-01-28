@@ -86,7 +86,7 @@
 -- Who: STrek
 -- Log: added code:
 --	C War is Hell |QID|11270|U|33278|US|N|Burn the Forsaken and Alliance corpses with the Burning Torch.|
---	
+--
 --	so sticky gets unsticked and quest is completed before the 'turn in' step is presented
 
 -- URL: http://wow-pro.com/node/3288/revisions/23826/view

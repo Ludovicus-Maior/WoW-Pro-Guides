@@ -46,7 +46,7 @@
 -- URL: http://wow-pro.com/node/3767/revisions/29774/view
 -- Date: 2018-09-20 18:50
 -- Who: Emmaleah
--- Log: rearranged a few quests, added RANKS, tested at Rank 1, tested thru battle of Brennadam on rank 2, added PREs, added all missing QIDs (but a few were gotten with lvl 120, so may not be correct) added all treasure - except Weathered treasure is commented out and doesn't have a QID as it is REALLY far out of the way and I was hoping to find a better place for it in the quide. 
+-- Log: rearranged a few quests, added RANKS, tested at Rank 1, tested thru battle of Brennadam on rank 2, added PREs, added all missing QIDs (but a few were gotten with lvl 120, so may not be correct) added all treasure - except Weathered treasure is commented out and doesn't have a QID as it is REALLY far out of the way and I was hoping to find a better place for it in the quide.
 
 -- URL: http://wow-pro.com/node/3767/revisions/29677/view
 -- Date: 2018-09-05 04:07
@@ -231,13 +231,13 @@
 --	Changed F step to H.
 --	Added |QO| and |T| tags to first several rare quests (although QO won't work until QIDs are corrected).
 --	Added |QO| tags to Detective Mildenhall quest steps to eliminate manual clicking.
---	
+--
 --	Still working on rest of the guide.
 
 -- URL: http://wow-pro.com/node/3767/revisions/29535/view
 -- Date: 2018-08-16 23:40
 -- Who: Ludovicus_Maior
--- Log: Shifted K [Wagga Snarltusk] till after turnin of [A Question of Quillpower] as per notcyf 
+-- Log: Shifted K [Wagga Snarltusk] till after turnin of [A Question of Quillpower] as per notcyf
 
 -- URL: http://wow-pro.com/node/3767/revisions/29530/view
 -- Date: 2018-08-15 21:58
@@ -262,7 +262,7 @@
 local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong Valley', 'MateusFreitas', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 111)
 WoWPro:GuideAutoSwitch(guide)
-WoWPro:GuideNextGuide(guide, EmmAWarCampaign)
+WoWPro:GuideNextGuide(guide, "EmmAWarCampaign")
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Stormsongvalley")
 WoWPro:GuideSteps(guide, function()
 return [[

@@ -36,7 +36,7 @@
 -- URL: http://wow-pro.com/node/3762/revisions/30062/view
 -- Date: 2018-10-20 21:10
 -- Who: elidion
--- Log: removed spaces between 
+-- Log: removed spaces between
 
 -- URL: http://wow-pro.com/node/3762/revisions/30060/view
 -- Date: 2018-10-20 20:48

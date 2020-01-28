@@ -46,7 +46,7 @@
 -- URL: http://wow-pro.com/node/3776/revisions/29524/view
 -- Date: 2018-08-15 03:09
 -- Who: Chromaflo
--- Log: Changed further map ids and coordinates, especially from "Tiragarde Sound" to "Boralus". This will fix the waypoints with |CC| or |CS| tags. 
+-- Log: Changed further map ids and coordinates, especially from "Tiragarde Sound" to "Boralus". This will fix the waypoints with |CC| or |CS| tags.
 
 -- URL: http://wow-pro.com/node/3776/revisions/29522/view
 -- Date: 2018-08-15 01:07

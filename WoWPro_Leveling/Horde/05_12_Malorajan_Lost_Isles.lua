@@ -16,7 +16,7 @@
 -- URL: http://wow-pro.com/node/3212/revisions/30340/view
 -- Date: 2019-07-29 13:36
 -- Who: Fluclo
--- Log: Path is to the north, not to the south. 
+-- Log: Path is to the north, not to the south.
 
 -- URL: http://wow-pro.com/node/3212/revisions/30220/view
 -- Date: 2019-02-12 00:00

@@ -136,7 +136,7 @@
 -- URL: http://wow-pro.com/node/3769/revisions/29637/view
 -- Date: 2018-09-02 19:25
 -- Who: Emmaleah
--- Log: moved the first quest into this guide (as it should have been). 
+-- Log: moved the first quest into this guide (as it should have been).
 
 -- URL: http://wow-pro.com/node/3769/revisions/29633/view
 -- Date: 2018-09-02 17:08
@@ -181,7 +181,7 @@
 -- URL: http://wow-pro.com/node/3769/revisions/29323/view
 -- Date: 2018-05-25 20:19
 -- Who: Emmaleah
--- Log: stub 
+-- Log: stub
 
 local guide = WoWPro:RegisterGuide('EmmTiragarde', 'Leveling', 'Tiragarde Sound', 'Emmaleah', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 111)

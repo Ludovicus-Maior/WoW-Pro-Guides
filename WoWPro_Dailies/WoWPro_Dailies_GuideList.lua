@@ -1,3 +1,6 @@
+-- luacheck: globals tonumber tostring
+-- luacheck: globals tinsert sort pairs unpack
+
 --------------------------------------------
 --      WoWPro_Dailies_GuideList.lua      --
 --------------------------------------------
@@ -17,10 +20,10 @@ local function AddInfo(guide)
         guide.category = guide.zone
         return
     end
-    
-    local name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild
+
+    local name
     if tonumber(guide.faction) then
-        name, description, standingID, barMin, barMax, barValue, atWarWith, canToggleAtWar, isHeader, isCollapsed, hasRep, isWatched, isChild = GetFactionInfoByID(guide.faction)
+        name = _G.GetFactionInfoByID(guide.faction)
     end
     if not name then
         WoWPro.Dailies:Error("Guide %s: bad faction [%s]",guide.GID,tostring(guide.faction))
@@ -38,63 +41,63 @@ local function Init()
     end
     guides = {}
     for guidID,guide in pairs(WoWPro.Guides) do
-    	if guide.guidetype == "Dailies" then
-    	    local function progress ()
-    	        if WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].progress and WoWProCharDB.Guide[guidID].total then
-    	            return WoWProCharDB.Guide[guidID].progress.."/"..WoWProCharDB.Guide[guidID].total
-    	        end
-    	        return ""
-    	    end
-    	    AddInfo(guide)
-    		table.insert(guides, {
-    			GID = guidID,
-    			guide = guide,
-    			Zone = guide.zone,
-    			Name = guide.name,
-    		    Author = guide.author,
-    			Category = guide.category or guide.zone,
-    			Progress = progress
-    		})
-    	end
+        if guide.guidetype == "Dailies" then
+            local function progress ()
+                if WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].progress and WoWProCharDB.Guide[guidID].total then
+                    return WoWProCharDB.Guide[guidID].progress.."/"..WoWProCharDB.Guide[guidID].total
+                end
+                return ""
+            end
+            AddInfo(guide)
+            tinsert(guides, {
+                GID = guidID,
+                guide = guide,
+                Zone = guide.zone,
+                Name = guide.name,
+                Author = guide.author,
+                Category = guide.category or guide.zone,
+                Progress = progress
+            })
+        end
     end
-    table.sort(guides, function(a,b) return a.Name < b.Name end)
+    sort(guides, function(a,b) return a.Name < b.Name end)
     WoWPro.Dailies.GuideList.Guides = guides
 end
 
 -- Sorting Functions --
 local sorttype = "Default"
 local function authorSort()
-	if sorttype == "AuthorAsc" then
-		table.sort(guides, function(a,b) return a.Author > b.Author end)
-		WoWPro.Dailies:UpdateGuideList()
-		sorttype = "AuthorDesc"
-	else
-		table.sort(guides, function(a,b) return a.Author < b.Author end)
-		WoWPro.Dailies:UpdateGuideList()
-		sorttype = "AuthorAsc"
-	end
+    if sorttype == "AuthorAsc" then
+        sort(guides, function(a,b) return a.Author > b.Author end)
+        WoWPro.Dailies:UpdateGuideList()
+        sorttype = "AuthorDesc"
+    else
+        sort(guides, function(a,b) return a.Author < b.Author end)
+        WoWPro.Dailies:UpdateGuideList()
+        sorttype = "AuthorAsc"
+    end
 end
 local function nameSort()
-	if sorttype == "ZoneAsc" then
-		table.sort(guides, function(a,b) return a.Name > b.Name end)
-		WoWPro.Dailies:UpdateGuideList()
-		sorttype = "ZoneDesc"
-	else
-		table.sort(guides, function(a,b) return a.Name < b.Name end)
-		WoWPro.Dailies:UpdateGuideList()
-		sorttype = "ZoneAsc"
-	end
+    if sorttype == "ZoneAsc" then
+        sort(guides, function(a,b) return a.Name > b.Name end)
+        WoWPro.Dailies:UpdateGuideList()
+        sorttype = "ZoneDesc"
+    else
+        sort(guides, function(a,b) return a.Name < b.Name end)
+        WoWPro.Dailies:UpdateGuideList()
+        sorttype = "ZoneAsc"
+    end
 end
 local function categorySort()
-	if sorttype == "RangeAsc" then
-		table.sort(guides, function(a,b) return a.Category > b.Category end)
-		WoWPro.Dailies:UpdateGuideList()
-		sorttype = "RangeDesc"
-	else
-		table.sort(guides, function(a,b) return a.Category < b.Category end)
-		WoWPro.Dailies:UpdateGuideList()
-		sorttype = "RangeAsc"
-	end
+    if sorttype == "RangeAsc" then
+        sort(guides, function(a,b) return a.Category > b.Category end)
+        WoWPro.Dailies:UpdateGuideList()
+        sorttype = "RangeDesc"
+    else
+        sort(guides, function(a,b) return a.Category < b.Category end)
+        WoWPro.Dailies:UpdateGuideList()
+        sorttype = "RangeAsc"
+    end
 end
 
 
@@ -104,19 +107,19 @@ WoWPro.Dailies.GuideList.Format={{"Name",0.35,nameSort},{"Category",0.15,categor
 WoWPro.Dailies.GuideList.Init = Init
 -- Fancy tooltip!
 function WoWPro.Dailies.GuideTooltipInfo(row, tooltip, guide)
-    GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
-    GameTooltip:AddLine(guide.side)
-    GameTooltip:AddLine(guide.name)
+    tooltip:SetOwner(row, "ANCHOR_TOPLEFT")
+    tooltip:AddLine(guide.side)
+    tooltip:AddLine(guide.name)
     if guide.icon then
-        GameTooltip:AddTexture(guide.icon,1,1,1,1)
-        GameTooltip:AddLine(guide.icon)
+        tooltip:AddTexture(guide.icon,1,1,1,1)
+        tooltip:AddLine(guide.icon)
     else
-        GameTooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
+        tooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
     end
     if guide.startlevel and guide.level and guide.endlevel then
-        GameTooltip:AddDoubleLine("Start Level:",tostring(guide.startlevel),1,1,1,unpack(WoWPro.LevelColor(guide.startlevel)))
-        GameTooltip:AddDoubleLine("Mean Level:",string.format("%.2f",guide.level or 0),1,1,1,unpack(WoWPro.LevelColor(guide.level)))
-        GameTooltip:AddDoubleLine("End Level:",tostring(guide.endlevel),1,1,1,unpack(WoWPro.LevelColor(guide.endlevel)))
+        tooltip:AddDoubleLine("Start Level:", tostring(guide.startlevel), 1, 1, 1, unpack(WoWPro.LevelColor(guide.startlevel)))
+        tooltip:AddDoubleLine("Mean Level:", ("%.2f"):format(guide.level or 0), 1, 1, 1, unpack(WoWPro.LevelColor(guide.level)))
+        tooltip:AddDoubleLine("End Level:", tostring(guide.endlevel), 1, 1, 1, unpack(WoWPro.LevelColor(guide.endlevel)))
     end
 end
 

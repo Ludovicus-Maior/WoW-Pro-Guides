@@ -166,7 +166,7 @@
 -- URL: http://wow-pro.com/node/3683/revisions/27804/view
 -- Date: 2016-09-16 22:35
 -- Who: Emmaleah
--- Log: change registration levels to 100-109 and next guide to Blanc_Suramar 
+-- Log: change registration levels to 100-109 and next guide to Blanc_Suramar
 
 -- URL: http://wow-pro.com/node/3683/revisions/27753/view
 -- Date: 2016-09-13 18:37

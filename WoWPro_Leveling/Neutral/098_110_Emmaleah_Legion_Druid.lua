@@ -115,7 +115,7 @@
 local guide = WoWPro:RegisterGuide('EmmLegionDruid', 'Leveling', 'TheDreamgrove', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Druid Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 103.076)
-WoWPro:GuideNextGuide(guide, Blanc_Suramar)
+WoWPro:GuideNextGuide(guide, "Blanc_Suramar")
 WoWPro:GuideClassSpecific(guide,"Druid")
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\ClassIcon_Druid")

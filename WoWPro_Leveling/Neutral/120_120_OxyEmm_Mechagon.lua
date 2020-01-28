@@ -46,7 +46,7 @@
 -- URL: http://wow-pro.com/node/3791/revisions/30315/view
 -- Date: 2019-07-15 03:42
 -- Who: Emmaleah
--- Log: Nearly all dailies now included. 
+-- Log: Nearly all dailies now included.
 
 -- URL: http://wow-pro.com/node/3791/revisions/30310/view
 -- Date: 2019-07-06 12:17

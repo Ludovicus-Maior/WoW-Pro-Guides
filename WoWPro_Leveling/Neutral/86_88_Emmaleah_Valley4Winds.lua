@@ -146,7 +146,7 @@
 -- URL: http://wow-pro.com/node/3485/revisions/25059/view
 -- Date: 2012-08-28 19:47
 -- Who: Ludovicus_Maior
--- Log: Test play by Laotseu on Sun, 2012-08-26 22:33. 
+-- Log: Test play by Laotseu on Sun, 2012-08-26 22:33.
 
 -- URL: http://wow-pro.com/node/3485/revisions/25048/view
 -- Date: 2012-08-28 18:26

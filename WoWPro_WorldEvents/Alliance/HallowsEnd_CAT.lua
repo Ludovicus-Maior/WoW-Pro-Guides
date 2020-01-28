@@ -123,7 +123,7 @@
 -- URL: http://wow-pro.com/node/3440/revisions/25489/view
 -- Date: 2013-01-13 23:44
 -- Who: Ludovicus_Maior
--- Log: Added CS/CN tags, removed odd coord for Step F [Lakeshire:12342] 
+-- Log: Added CS/CN tags, removed odd coord for Step F [Lakeshire:12342]
 
 -- URL: http://wow-pro.com/node/3440/revisions/25434/view
 -- Date: 2013-01-13 15:23
@@ -138,7 +138,7 @@
 -- URL: http://wow-pro.com/node/3440/revisions/25152/view
 -- Date: 2012-10-22 20:33
 -- Who: Ludovicus_Maior
--- Log: Submitted by Hendo72 on Mon, 2012-10-22 04:35. 
+-- Log: Submitted by Hendo72 on Mon, 2012-10-22 04:35.
 
 -- URL: http://wow-pro.com/node/3440/revisions/25015/view
 -- Date: 2012-06-30 19:28

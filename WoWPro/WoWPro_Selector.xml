@@ -25,39 +25,39 @@
             <OnMouseDown function="WoWPro_SelectorButton_OnMouseDown" />
         </Scripts>    
     </Button>
-	<Frame name="WoWProSelector_Frame" toplevel="true" frameStrata="DIALOG" enableMouse="true" hidden="true" parent="UIParent">
-		<Size x="640" y="144"/>
-		<Anchors>
-			<Anchor point="CENTER"/>
-		</Anchors>
-		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
-			<BackgroundInsets>
-				<AbsInset left="11" right="12" top="12" bottom="11"/>
-			</BackgroundInsets>
-			<TileSize>
-				<AbsValue val="32"/>
-			</TileSize>
-			<EdgeSize>
-				<AbsValue val="32"/>
-			</EdgeSize>
-		</Backdrop>
-		<Layers>
-			<Layer level="ARTWORK">
-				<Texture name="WoWProSelector_Header" file="Interface\DialogFrame\UI-DialogBox-Header">
-					<Size x="320" y="64"/>
-					<Anchors>
-						<Anchor point="TOP" x="0" y="12"/>
-					</Anchors>
-				</Texture>
-				<FontString inherits="GameFontNormal" text="WoW-Pro Guide Picker">
-					<Anchors>
-						<Anchor point="TOP" relativeTo="WoWProSelector_Header" x="0" y="-14"/>
-					</Anchors>
-				</FontString>
-			</Layer>
-		</Layers>		
-		<Frames>
-		    <Button name="WoWProSelector_CloseButton" inherits="UIPanelCloseButton">
+    <Frame name="WoWProSelector_Frame" toplevel="true" frameStrata="DIALOG" enableMouse="true" hidden="true" parent="UIParent">
+        <Size x="640" y="144"/>
+        <Anchors>
+            <Anchor point="CENTER"/>
+        </Anchors>
+        <Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+            <BackgroundInsets>
+                <AbsInset left="11" right="12" top="12" bottom="11"/>
+            </BackgroundInsets>
+            <TileSize>
+                <AbsValue val="32"/>
+            </TileSize>
+            <EdgeSize>
+                <AbsValue val="32"/>
+            </EdgeSize>
+        </Backdrop>
+        <Layers>
+            <Layer level="ARTWORK">
+                <Texture name="WoWProSelector_Header" file="Interface\DialogFrame\UI-DialogBox-Header">
+                    <Size x="320" y="64"/>
+                    <Anchors>
+                        <Anchor point="TOP" x="0" y="12"/>
+                    </Anchors>
+                </Texture>
+                <FontString inherits="GameFontNormal" text="WoW-Pro Guide Picker">
+                    <Anchors>
+                        <Anchor point="TOP" relativeTo="WoWProSelector_Header" x="0" y="-14"/>
+                    </Anchors>
+                </FontString>
+            </Layer>
+        </Layers>       
+        <Frames>
+            <Button name="WoWProSelector_CloseButton" inherits="UIPanelCloseButton">
                 <Anchors>
                     <Anchor point="TOPRIGHT" relativePoint="TOPRIGHT">
                         <Offset x="-4" y="-4"/>
@@ -67,11 +67,11 @@
                     <OnClick function="WoWProSelector_CloseButton_OnClick" />
                 </Scripts>
             </Button>
-		</Frames>
-		<Scripts>
-		    <OnLoad function="WoWPro_Selector_OnLoad" />
-			<OnShow function="WoWPro_Selector_OnShow" />
-			<OnHide function="WoWPro_Selector_OnHide" />
-		</Scripts>
-	</Frame>
+        </Frames>
+        <Scripts>
+            <OnLoad function="WoWPro_Selector_OnLoad" />
+            <OnShow function="WoWPro_Selector_OnShow" />
+            <OnHide function="WoWPro_Selector_OnHide" />
+        </Scripts>
+    </Frame>
 </Ui>

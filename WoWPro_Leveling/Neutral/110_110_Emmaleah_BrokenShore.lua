@@ -91,7 +91,7 @@
 -- URL: http://wow-pro.com/node/3724/revisions/28625/view
 -- Date: 2017-03-29 17:57
 -- Who: Blanckaert
--- Log: updates... added C Steps for WQ (yes just replaced WHOLE guide... ;) 
+-- Log: updates... added C Steps for WQ (yes just replaced WHOLE guide... ;)
 
 -- URL: http://wow-pro.com/node/3724/revisions/28624/view
 -- Date: 2017-03-29 16:06

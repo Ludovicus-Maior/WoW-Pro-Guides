@@ -124,7 +124,7 @@
 -- URL: http://wow-pro.com/node/3218/revisions/23868/view
 -- Date: 2010-12-30 19:46
 -- Who: Fluclo
--- Log: Changed to K for Shatterspear Overseer, and the resulting Overseer's Orders 
+-- Log: Changed to K for Shatterspear Overseer, and the resulting Overseer's Orders
 
 -- URL: http://wow-pro.com/node/3218/revisions/23867/view
 -- Date: 2010-12-30 17:48

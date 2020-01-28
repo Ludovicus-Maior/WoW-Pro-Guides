@@ -94,7 +94,7 @@
 -- URL: http://wow-pro.com/node/3490/revisions/25771/view
 -- Date: 2013-10-07 00:13
 -- Who: Fluclo
--- Log: Corrected the Edit link on page; Added NC to appropriate steps, changed valuable rare loots to Rank 3 steps, syncronised similar quests for each faction; made the steps for Fire Camp Ordo individual to help guide user to each spot needed; fixed faulty steps around At the Yak Wash; 
+-- Log: Corrected the Edit link on page; Added NC to appropriate steps, changed valuable rare loots to Rank 3 steps, syncronised similar quests for each faction; made the steps for Fire Camp Ordo individual to help guide user to each spot needed; fixed faulty steps around At the Yak Wash;
 
 -- URL: http://wow-pro.com/node/3490/revisions/25766/view
 -- Date: 2013-09-25 01:50
@@ -172,7 +172,7 @@
 -- Who: Emmaleah
 -- Log: 3 Nov 2012 - Emmaleah - changed coords/note for C Do a Barrel Roll, added change log.
 --	TO DO: I notice the loot grey items worth gold/xp arent autochecking off. (when there in no item (doh!) going to try adding CC tags. will update if that works.  Anyone else have any other ideas?
---	
+--
 
 -- URL: http://wow-pro.com/node/3490/revisions/25177/view
 -- Date: 2012-11-02 04:12
@@ -238,7 +238,7 @@
 -- URL: http://wow-pro.com/node/3490/revisions/25057/view
 -- Date: 2012-08-28 19:31
 -- Who: Ludovicus_Maior
--- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
+-- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07.
 
 local guide = WoWPro:RegisterGuide('EmmKun8889', "Leveling", 'Kun-Lai Summit', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,87,89,87.007)

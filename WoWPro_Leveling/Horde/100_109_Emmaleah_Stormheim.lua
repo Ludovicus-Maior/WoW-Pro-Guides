@@ -90,7 +90,7 @@
 -- URL: http://wow-pro.com/node/3680/revisions/28106/view
 -- Date: 2016-12-06 20:14
 -- Who: Emmaleah
--- Log: minor tweaks, replaces lost |US| step on Turn the keys. 
+-- Log: minor tweaks, replaces lost |US| step on Turn the keys.
 
 -- URL: http://wow-pro.com/node/3680/revisions/28105/view
 -- Date: 2016-12-06 16:36

@@ -134,7 +134,7 @@
 -- Who: Ludovicus_Maior
 -- Log: Eliminated sequence [Reborn From The Ashes], [Fate, Up Against Your Will],
 --	 [A Royal Coup], [The Killing Time], [The Battle For The Undercity].
---	
+--
 --	Kudos to Dez, seeyabye91, and exace for being persistent.
 
 -- URL: http://wow-pro.com/node/3291/revisions/23474/view

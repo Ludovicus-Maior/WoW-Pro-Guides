@@ -156,7 +156,7 @@
 -- Date: 2012-12-08 10:31
 -- Who: Emmaleah
 -- Log: corrected QID - Haohans Vote-mellons for felons
---	Divided Old Man thistle's treasure into two steps, 
+--	Divided Old Man thistle's treasure into two steps,
 --	Added Note about cooking and other minor changes to notes
 
 -- URL: http://wow-pro.com/node/3508/revisions/25241/view
@@ -167,8 +167,8 @@
 -- URL: http://wow-pro.com/node/3508/revisions/25239/view
 -- Date: 2012-12-06 11:45
 -- Who: Emmaleah
--- Log: RC2 - many changes from my Emma. Ludo. and Tepes playing thru RC1 12/1 to 12/5 
---	Moved food prep to the order in the cookbook. 
+-- Log: RC2 - many changes from my Emma. Ludo. and Tepes playing thru RC1 12/1 to 12/5
+--	Moved food prep to the order in the cookbook.
 --	Clarified some comments on the 15 min "timer-buff" for growing the farm.
 --	Clarified picking up quests in the market
 --	fixed many typos, etc.

@@ -85,7 +85,7 @@
 -- URL: http://wow-pro.com/node/3235/revisions/24419/view
 -- Date: 2011-05-25 18:34
 -- Who: Fluclo
--- Log: Missing quest 
+-- Log: Missing quest
 
 -- URL: http://wow-pro.com/node/3235/revisions/24300/view
 -- Date: 2011-04-29 14:34

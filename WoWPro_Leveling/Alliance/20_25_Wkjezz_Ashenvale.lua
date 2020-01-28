@@ -150,7 +150,7 @@
 -- URL: http://wow-pro.com/node/3225/revisions/23797/view
 -- Date: 2010-12-19 21:54
 -- Who: Crackerhead22
--- Log: Fixed issues with steps not auto-completing, missing waypoints. Added in a few |QO|, |L| steps for more auto-completing. 
+-- Log: Fixed issues with steps not auto-completing, missing waypoints. Added in a few |QO|, |L| steps for more auto-completing.
 
 -- URL: http://wow-pro.com/node/3225/revisions/23755/view
 -- Date: 2010-12-16 03:24

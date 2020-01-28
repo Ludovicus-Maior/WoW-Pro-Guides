@@ -26,7 +26,7 @@
 -- URL: http://wow-pro.com/node/3300/revisions/27605/view
 -- Date: 2016-08-28 05:42
 -- Who: tubera
--- Log: Add a lot of N|QO|S|M|US tags; Add missing Quest Hodir's spear; Remove a lot of unnecessary F lines; 
+-- Log: Add a lot of N|QO|S|M|US tags; Add missing Quest Hodir's spear; Remove a lot of unnecessary F lines;
 
 -- URL: http://wow-pro.com/node/3300/revisions/27167/view
 -- Date: 2015-03-09 17:45

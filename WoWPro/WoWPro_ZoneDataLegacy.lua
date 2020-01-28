@@ -1,3 +1,5 @@
+-- luacheck: globals tostring
+
 ----------------------------------
 --WoWPro_ZoneData.lua:  This are the old 7.X map names
 ----------------------------------
@@ -5,7 +7,7 @@
 -- function WoWPro.DefineLegacyZone(legacy_zone, legacy_floor, modern_mapId)
 local DefineLegacyZone = WoWPro.DefineLegacyZone
 local DefineLegacyZoneFloor = WoWPro.DefineLegacyZoneFloor
-local hbdm = LibStub("HereBeDragons-Migrate")
+local hbdm = _G.LibStub("HereBeDragons-Migrate")
 
 -- DefineDungeonArea( 321, 1,"Orgrimmar@Orgrimmar","Orgrimmar","Orgrimmar")
 local function DefineDungeonArea(mapID, floor, zi, dungeon, mapName)
@@ -14,7 +16,7 @@ local function DefineDungeonArea(mapID, floor, zi, dungeon, mapName)
     if map_id then
         DefineLegacyZone(zi, map_id)
         DefineLegacyZoneFloor(tostring(mapID), floor, map_id)
-        local child , parent = string.split("@",zi)
+        local _, parent = ("@"):split(zi)
         if parent then
             DefineLegacyZoneFloor(parent, floor, map_id)
         end
@@ -39,7 +41,7 @@ local function DefineInstance(mapID, numFloors, zi, mapName)
     end
     if first then
         WoWPro:print("DefineInstance(%d,%d,%q): No mapping found.",mapID, numFloors, zi)
-    end 
+    end
 end
 
 -- DefineTerrain(1, 4, 182, 0,"Felwood")
@@ -48,7 +50,6 @@ local function DefineTerrain(cont, zonei, mapID, numFloors, zone, mapName)
     local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, 0)
     if map_id then
         DefineLegacyZone(zone, map_id)
-        DefineLegacyZoneFloor(tostring(mapID), floor, map_id)
     else
         WoWPro:print("DefineTerrain(%d,%d,%d,%d,%q): No mapping found.",cont, zonei, mapID, numFloors, zone)
     end
@@ -67,12 +68,12 @@ local function DefineTerrainFloor(cont, zonei, mapID, floor, zone, mapName)
     local map_id = hbdm:GetUIMapIDFromMapAreaId(mapID, floor)
     if map_id then
         DefineLegacyZone(zone, map_id)
-        local child , parent = string.split("@",zone)
+        local _, parent = ("@"):split(zone)
         if parent then
             DefineLegacyZoneFloor(parent, floor, map_id)
         end
     else
-        WoWPro:print("DefineTerrainFloor(%d,%d,%d,%d,%q): No mapping found.",cont, zonei, mapID, floor, zone)
+        WoWPro:print("DefineTerrainFloor(%d,%d,%d,%d,%q): No mapping found.", cont, zonei, mapID, floor, zone)
     end
 end
 

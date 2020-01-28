@@ -6,7 +6,7 @@
 -- URL: http://wow-pro.com/wiki/garrison_daily_pet_battles
 -- Date: 2017-09-12 21:28
 -- Who: Ludovicus_Maior
--- Log: Replaced strategy for Rockbiter, Stonechewer, and Acidtooth 
+-- Log: Replaced strategy for Rockbiter, Stonechewer, and Acidtooth
 
 -- URL: http://wow-pro.com/node/3719/revisions/28756/view
 -- Date: 2017-08-27 18:47

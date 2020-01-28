@@ -48,7 +48,7 @@
 -- URL: http://wow-pro.com/node/3600/revisions/27011/view
 -- Date: 2014-11-16 12:30
 -- Who: Emmaleah
--- Log: I will get Bled Dry right yet. 
+-- Log: I will get Bled Dry right yet.
 
 -- URL: http://wow-pro.com/node/3600/revisions/26979/view
 -- Date: 2014-11-14 04:36
@@ -84,9 +84,9 @@
 -- URL: http://wow-pro.com/node/3600/revisions/26780/view
 -- Date: 2014-11-02 23:30
 -- Who: Fluclo
--- Log: Removed Beta Notes; 
+-- Log: Removed Beta Notes;
 --	Steps requiring more than one kill or collect, and have different quest IDs for factions split into two lines to make the counter display;
---	swapped the cages for Bled Dry around for smoother questing; 
+--	swapped the cages for Bled Dry around for smoother questing;
 --	Umbral Hall coords changed as the |Z|TanaanJungleIntro/1| ones only seem to work if you have loaded up the map (pressing M) first;
 --	Gunpowder plot, indicated it's end hut to collect from;
 --	Trip to Top of Tank, indicate a slight wait for Thaelin to catch-up;

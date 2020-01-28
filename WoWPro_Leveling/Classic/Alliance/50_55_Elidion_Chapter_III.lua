@@ -5,7 +5,7 @@ WoWPro:GuideName(guide, 'Elidion\'s Leveling - Ch. 3')
 WoWPro:GuideIcon(guide, "ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0.50,0.75})
 WoWPro:GuideSteps(guide, function()
 return [[
-N Level Check: 50|M|PLAYER|N|You really do have to be level 50 to start this guide, the opening quests require you to be level 50 to even see them. If you're not quite there, you need to either grind it out or do the dungeon recommendations.|LVL|-50| 
+N Level Check: 50|M|PLAYER|N|You really do have to be level 50 to start this guide, the opening quests require you to be level 50 to even see them. If you're not quite there, you need to either grind it out or do the dungeon recommendations.|LVL|-50|
 N Quest Log|M|PLAYER|N|During this guide we will need 15 slots free in the quest log by the time we hit Un'Goro which is just a couple dozen steps away. I always try to keep it under 10 but it's just not possible this go around without having to double efforts.\n\nBy the end of this guide you will have 11 parts of chains that you can't simply drop without disrupting the flow of the guide. By chapter 4 they will quickly get wrapped up.|
 A Assisting Arch Druid Staghelm|QID|3790|M|18.15,51.44|Z|Ironforge|N|From Inkeeper Firebrew.\nYou either didn't follow chapter 2 or you abandonded/ignored this. This quest is just a breadcrumb and can be safely ignored unless you're already in Ironforge.|
 A Arcane Runes|QID|3449|M|30.95,4.84|Z|Ironforge|N|From Tymor. \nYou either didn't follow chapter 2 or you abandonded/ignored this. This quest will be required as it is part of our first leg of questing. Advise to travel to Ironforge and grab it if you haven't already.|PRE|3448|
@@ -15,7 +15,7 @@ A Signal for Pickup|QID|3451|M|70.86,94.54|Z|Ironforge|N|From Xiggs Fuselighter.
 T Signal for Pickup|QID|3451|M|70.86,94.54|Z|Ironforge|N|To Xiggs Fuselighter.|
 A Rise of the Silithid|QID|162|M|50.21,27.48|Z|Tanaris|N|From Senior Surveyor Fizzledowser.\nYou either didn't follow chapter 2 or you abandonded/ignored this. If you are seeing this that means you did the chain but skipped the follow-up. I would recommend grabbing this as it's worth quite a bit of experience for a simple hand-in.|PRE|113|
 
-R Darnassus|QID|3449|M|55.92,89.66|Z|Teldrassil|N|Make your way to Darnassus by whatever means.| 
+R Darnassus|QID|3449|M|55.92,89.66|Z|Teldrassil|N|Make your way to Darnassus by whatever means.|
 B Mithril Casing|QID|4244|M|PLAYER|Z|Darnassus|N|Made by engineers, buy or make a Mithril Casing before you leave.|L|10561|ITEM|10561|
 B Portal: DarnassusQID|3449|M|40.57,82.15|Z|Darnassus|N|[color=40C7EB]Mages:[/color]While you're here be sure to get your Portal:Darnassus. (Teleport as well if you haven't already)|LVL|50|C|Mage|SPELL|11419|
 T Rise of the Silithid|QID|162|M|41.82,85.63|Z|Darnassus|N|To Gracina Spiritmight.|
@@ -510,7 +510,7 @@ C Moontouched Wildkin|QID|978|M|PLAYER|Z|Winterspring|US|N|Pick up the Blue Wild
 
 T Are We There, Yeti?|QID|3783|M|60.89,37.62|Z|Winterspring|N|To Uml Rumplesnicker. Don't get follow-up.|
 T Chillwind Horns|QID|4809|M|61.63,38.61|Z|Winterspring|N|To Felnok Steelspring.|
-A Return to Tinkee|QID|4810|M|61.63,38.61|Z|Winterspring|N|From Felnok Steelspring.|PRE|4809| 
+A Return to Tinkee|QID|4810|M|61.63,38.61|Z|Winterspring|N|From Felnok Steelspring.|PRE|4809|
 A Duke Nicholas Zverenhoff|QID|6030|M|61.35,38.97|Z|Winterspring|N|From Gregor Grestone.|
 A Sister Pamela|QID|5601|M|61.28,38.98|Z|Winterspring|N|From Jessica Redpath.|
 

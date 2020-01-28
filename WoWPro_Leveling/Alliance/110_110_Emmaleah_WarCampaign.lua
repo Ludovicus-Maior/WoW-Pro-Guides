@@ -95,7 +95,7 @@
 -- URL: http://wow-pro.com/node/3760/revisions/30192/view
 -- Date: 2019-01-19 03:16
 -- Who: Emmaleah
--- Log: turns out the final segment is available at lower faction than I originally thought. Guessing at 17k into revered as it was available to char at 17172, may be lower and I will update when it is known. 
+-- Log: turns out the final segment is available at lower faction than I originally thought. Guessing at 17k into revered as it was available to char at 17172, may be lower and I will update when it is known.
 
 -- URL: http://wow-pro.com/node/3760/revisions/30191/view
 -- Date: 2019-01-19 00:20

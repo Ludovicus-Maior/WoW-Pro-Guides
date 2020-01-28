@@ -75,7 +75,7 @@
 -- URL: http://wow-pro.com/node/3487/revisions/25794/view
 -- Date: 2013-11-10 19:49
 -- Who: Emmaleah
--- Log: Changed NC tags to CHAT tags as needed, added a two new C steps with CHAT. (Last Piece of the Puzzle and Jade Temple Grounds); modified or added a few explanations (amazing what not looking at this for a year lets me see) and a few typo corrections.  
+-- Log: Changed NC tags to CHAT tags as needed, added a two new C steps with CHAT. (Last Piece of the Puzzle and Jade Temple Grounds); modified or added a few explanations (amazing what not looking at this for a year lets me see) and a few typo corrections.
 
 -- URL: http://wow-pro.com/node/3487/revisions/25712/view
 -- Date: 2013-06-18 00:46
@@ -145,7 +145,7 @@
 -- URL: http://wow-pro.com/node/3487/revisions/25051/view
 -- Date: 2012-08-28 19:05
 -- Who: Ludovicus_Maior
--- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
+-- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07.
 
 local guide = WoWPro:RegisterGuide('EmmJad8586', "Leveling", 'The Jade Forest', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,85,86, 85.0022)

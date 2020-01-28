@@ -26,7 +26,7 @@
 -- URL: http://wow-pro.com/node/3607/revisions/26875/view
 -- Date: 2014-11-07 23:49
 -- Who: Emmaleah
--- Log: corrected correction :) 
+-- Log: corrected correction :)
 
 -- URL: http://wow-pro.com/node/3607/revisions/26864/view
 -- Date: 2014-11-07 21:53
@@ -51,7 +51,7 @@
 -- URL: http://wow-pro.com/node/3607/revisions/26729/view
 -- Date: 2014-10-15 12:19
 -- Who: Fluclo
--- Log: Wrong QO for Gar Steelcrush 
+-- Log: Wrong QO for Gar Steelcrush
 
 -- URL: http://wow-pro.com/node/3607/revisions/26728/view
 -- Date: 2014-10-15 12:14

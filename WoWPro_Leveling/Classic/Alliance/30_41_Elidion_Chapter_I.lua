@@ -5,7 +5,7 @@ WoWPro:GuideName(guide, 'Elidion\'s Leveling - Ch. 1')
 WoWPro:GuideIcon(guide,"ICON","Interface\\AddOns\\WoWPro\\Textures\\ChapterIcons", {0,0.25,0,0.25})
 WoWPro:GuideSteps(guide, function()
 return [[
-;This is based on the Jame guide but polished, reorganized, most grind steps removed, more efficent quest grouping, additional quests. 
+;This is based on the Jame guide but polished, reorganized, most grind steps removed, more efficent quest grouping, additional quests.
 
 N Things to Buy|QID|1282|N|There are some items that you need to buy off of the Auction House or otherwise acquire.  The guide will remind you each time you are in town until you aquire them, check off manually if you aren't going to at that time and it will pop up again, next time you're in town. first one for a quest in stranglethorn and the other three are needed for Badlands quest - approx level 38-40. These quests are not essential for dungeons, just a fair chunk of XP, so if you can't find the items at a reasonable price, you can skip the quests and grind to make it up.|
 B Lesser Bloodstone Ore|QID|627|L|4278 4|N|For Quest ~ lvl 34 in Stranglethorn.|ITEM|4278|
@@ -526,7 +526,7 @@ C Down the Scarlet Path|QID|261|M|63.40,91.40|Z|Desolace|US|N|Kill 30 Undead Rav
 C Strange Alliance|QID|1382|M|70.00,70.00|Z|Desolace|REP|Gelkis Clan Centaur;91;hated-neutral|N|Kill Magrim Centaurs until you are friendly with the Gelkis faction. It will take 50 centaurs, 46 if you are human.|
 C Centaur Bounty|QID|1387|Z|Desolace|US|N|Get the rest of the Centaur Ears if you haven't already.|
 C Reagents for Reclaimers Inc.|QID|1459|M|66.2,9.6|Z|Desolace|N|Time to finish this up if you haven't already.|
-L Level Check|N|You should be over level 37 by now.|LVL|37| 
+L Level Check|N|You should be over level 37 by now.|LVL|37|
 T Ghost-o-plasm Round Up|QID|6134|M|47.83,61.83|Z|Desolace|N|To Hornizz Brimbuzzle.|
 T Strange Alliance|QID|1382|M|36.23,79.24|Z|Desolace|N|To Uthek the Wise.|
 A Raid on the Kolkar|QID|1384|M|36.23,79.24|Z|Desolace|N|To Uthek the Wise.|PRE|1382|

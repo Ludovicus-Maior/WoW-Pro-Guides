@@ -116,7 +116,7 @@
 -- URL: http://wow-pro.com/node/3459/revisions/25324/view
 -- Date: 2013-01-10 16:37
 -- Who: Ludovicus_Maior
--- Log: Rearrange eating and drinking as per  Bearzerker 
+-- Log: Rearrange eating and drinking as per  Bearzerker
 
 -- URL: http://wow-pro.com/node/3459/revisions/25323/view
 -- Date: 2013-01-10 14:00
@@ -128,7 +128,7 @@
 -- Log: Added Spawn of JubJub quest.
 --	moved B step for archy quest to very top of guide, since it is a shame for them to be in thunder bluff then reallize they should go back to Vale of Eternal Blossoms
 --	moved N and sticked C steps for tailering to immediatedly after A step
---	moved N and sticked C steps for enchanting quest to immediately after A step 
+--	moved N and sticked C steps for enchanting quest to immediately after A step
 --	removed some extraneous |M|tags
 --	added NC tags where I must have missed them yesterday.
 

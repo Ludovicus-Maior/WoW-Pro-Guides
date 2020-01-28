@@ -221,12 +221,12 @@
 -- URL: http://wow-pro.com/node/3657/revisions/27870/view
 -- Date: 2016-10-04 10:13
 -- Who: Emmaleah
--- Log: added |NA| to A Wrath of Azshara (I know, this isn't an autoswitching guide.. but just in case someone changes it) 
+-- Log: added |NA| to A Wrath of Azshara (I know, this isn't an autoswitching guide.. but just in case someone changes it)
 
 -- URL: http://wow-pro.com/node/3657/revisions/27866/view
 -- Date: 2016-10-04 03:15
 -- Who: Emmaleah
--- Log: 2nd C Minion! Kill Them!|QID|38232|M|62.01,50.10|S 
+-- Log: 2nd C Minion! Kill Them!|QID|38232|M|62.01,50.10|S
 
 -- URL: http://wow-pro.com/node/3657/revisions/27862/view
 -- Date: 2016-10-02 20:07
@@ -237,7 +237,7 @@
 -- URL: http://wow-pro.com/node/3657/revisions/27802/view
 -- Date: 2016-09-16 22:45
 -- Who: Emmaleah
--- Log: change registration levels to 100-109 and next guide to Blanc_Suramar 
+-- Log: change registration levels to 100-109 and next guide to Blanc_Suramar
 
 -- URL: http://wow-pro.com/node/3657/revisions/27771/view
 -- Date: 2016-09-14 09:47

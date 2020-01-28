@@ -6,7 +6,7 @@
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
 -- Date: 2019-07-28 17:09
 -- Who: Fluclo
--- Log: Added Friendly to the Aldor and Scryers tags as the steps are not available when neutral with Aldor/Scryers; Added Active tag to the Loot and Kill steps to ensure they only show when you're on the relevant quests. 
+-- Log: Added Friendly to the Aldor and Scryers tags as the steps are not available when neutral with Aldor/Scryers; Added Active tag to the Loot and Kill steps to ensure they only show when you're on the relevant quests.
 
 -- URL: http://wow-pro.com/node/3285/revisions/30334/view
 -- Date: 2019-07-28 01:07

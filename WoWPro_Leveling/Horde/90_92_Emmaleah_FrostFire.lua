@@ -243,7 +243,7 @@
 -- URL: http://wow-pro.com/node/3587/revisions/27008/view
 -- Date: 2014-11-16 06:38
 -- Who: Emmaleah
--- Log: Fix two dup'd N tags that snuck in and correct the spelling of ravine 
+-- Log: Fix two dup'd N tags that snuck in and correct the spelling of ravine
 
 -- URL: http://wow-pro.com/node/3587/revisions/27007/view
 -- Date: 2014-11-16 06:32

@@ -75,7 +75,7 @@
 -- URL: http://wow-pro.com/node/3501/revisions/25617/view
 -- Date: 2013-05-09 22:29
 -- Who: Ludovicus_Maior
--- Log: Some horrid editors change ... into a proper ellipses (sp?) character and change ' into a proper quote.  
+-- Log: Some horrid editors change ... into a proper ellipses (sp?) character and change ' into a proper quote.
 
 -- URL: http://wow-pro.com/node/3501/revisions/25508/view
 -- Date: 2013-01-24 20:29
