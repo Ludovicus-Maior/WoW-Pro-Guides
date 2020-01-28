@@ -111,8 +111,8 @@ C Sharing the Land|QID|745|M|53.60,73.13;48.56,73.11|CN|QO|1;2;3|N|There are mul
 C Mazzranache|QID|766|QO|1;3;4|N|Kill Prairie Wolves, Plainstriders and Swoops on the way until you get the parts.|US|
 C Mazzranache|QID|766|QO|2|N|Kill Flatland Cougars until one drops a Femur.|S|
 C Dangers of the Windfury|QID|743|M|62.22,71.05|QO|1|N|Kill Windfury Harpies.|
-R Camp Taurajo|QID|754|M|69.70,60.50|CS|N|Run to Camp Taurajo to get the flight point early. You will need it later for your Bear quest. Watch out for the level 10 wolves.|C|Druid|
-f Camp Taurajo|QID|754|M|44.44,59.15|Z|The Barrens|N|Get the flight point at Omusa Thunderhorn.|C|Druid|
+R Camp Taurajo|QID|754|M|69.70,60.50|CS|N|While you're in the area, run to Camp Taurajo to get the flight point. Watch out for the level 10 wolves.|TAXI|-Camp Taurajo|
+f Camp Taurajo|QID|754|M|44.44,59.15|Z|The Barrens|N|Get the flight point at Omusa Thunderhorn.|TAXI|-Camp Taurajo|
 A The Ravaged Caravan|QID|749|M|59.82,62.51;57.45,61.25;52.03,59.66|CN|N|From Morin Cloudstalker, who patrols the road.|
 T The Ravaged Caravan|QID|749|M|53.74,48.17|N|Work your way into the camp and right-click the Sealed Supply Crate.|
 A The Ravaged Caravan|QID|751|M|53.74,48.17|N|From the Sealed Supply Crate.|PRE|749|
@@ -185,7 +185,7 @@ T Training the Beast|QID|6089|M|57.29,89.75|Z|Thunder Bluff|N|To Holt Thunderhor
 T Journey into Thunder Bluff|QID|775|M|60.26,51.69|Z|Thunder Bluff|N|To Cairne Bloodhoof.|
 A Rites of the Earthmother|QID|776|M|60.26,51.69|Z|Thunder Bluff|N|From Cairne Bloodhoof.|PRE|775|
 A Testing an Enemy's Strength|QID|5723|M|61.30,40.38;70.53,31.77|Z|Thunder Bluff|CC|N|Pick this quest up from Rahauro if you are planning to run the dungeon Ragefire Chasm.|RANK|3|
-A Searching for the Lost Satchel|QID|5722|M|70.53,31.77|Z|Thunder Bluff|N|Pick this quest up from Rahauro if you are planning to run the dungeon Ragefire Chasm.|RANK|3|
+A Searching for the Lost Satchel|QID|5722|M|70.53,31.77|Z|Thunder Bluff|ELITE|N|[color=e6cc80]Dungeon: 'Dungeon'[/color]\nPick this quest up from Rahauro if you are planning to run the dungeon Ragefire Chasm.|RANK|3|
 A The Barrens Oases|QID|886|M|78.57,28.57|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem on Elder Rise.|
 
 ; --- Druid Bear form (Feral Combat) quest chain
@@ -201,18 +201,19 @@ F Thunder Bluff|QID|5932|M|44.29,45.85|Z|Moonglade|N|Speak with Bumthen Plainswi
 T Back to Thunder Bluff|QID|5932|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|R|Tauren|C|Druid|
 A Body and Heart|QID|6002|M|76.47,27.26|Z|Thunder Bluff|N|From Turak Runetotem.|PRE|5932|R|Tauren|C|Druid|
 F Camp Taurajo|QID|6002|M|46.98,49.84|Z|Thunder Bluff|R|Tauren|C|Druid|
-C Body and Heart|QID|6002|M|42.28,59.97;42.00,60.90|Z|The Barrens|CC|QO|1|U|15710|N|Use the Cenarion Lunardust at the Moonkin Stone to summon Lunaclaw. Kill him and talk to his ghost to complete the quest. Be careful of the level 20 Thunderheads that roam the area.|R|Tauren|C|Druid|
+C Body and Heart|QID|6002|M|41.96,59.78;42.00,60.90|Z|The Barrens|CC|QO|1|U|15710|N|Be careful of the level 20 Thunderheads that roam the area. Stay on the road until you pass the house. Use the Cenarion Lunardust at the Moonkin Stone to summon Lunaclaw. Kill him and talk to his ghost to complete the quest.\n[color=FF0000]NOTE: [/color]The Cenarion Lunardust is a one-time use item. If you die, run back as fast you can. If Lunaclaw despawns, you will have to go back to Turak Runetotem in Thunder Bluff, abandon the quest and restart it.|R|Tauren|C|Druid|
 F Thunder Bluff|QID|6002|M|44.44,59.15|Z|The Barrens|R|Tauren|C|Druid|
 T Body and Heart|QID|6002|M|76.47,27.26|Z|Thunder Bluff|N|To Turak Runetotem.|R|Tauren|C|Druid|
 ; ---
 
 R Exit Thunder Bluff|QID|759|M|67.42,28.69;50.85,32.38|Z|Thunder Bluff|CS|N|Use the lifts on the north side to exit Thunder Bluff.|
-C Wildmane Totem|QID|759|QO|1|N|Kill Prairie Wolf Alphas on the way.|S|
+C Wildmane Totem|QID|759|QO|1|N|Kill Prairie Wolf Alphas to collect their teeth.|S|
 C The Hunter's Way|QID|861|QO|1|N|Kill Flatland Prowlers on the way.|S|
-C Preparation for Ceremony|QID|744|M|51.87,6.26;54.82,11.00;56.06,15.82|CC|QO|1;2|N|Kill Windfury Matriarchs and Sorceresses for their Feathers at these locations.|
+C Preparation for Ceremony|QID|744|M|51.87,6.26;54.82,11.00;56.06,15.82|CC|QO|1;2|N|Kill Windfury Matriarchs for the Bronze Feathers and Sorceresses for the Azure Feathers at these locations.\n[color=FF0000]NOTE: [/color]Watch for Sister Hatelash, a lv 11 rare elite. She spawns around the 2nd camp.|
+; lv 11
 C Rites of the Earthmother|QID|776|M|51.22,13.51;56.55,29.44;53.12,14.89;54.48,19.67;53.96,23.12;55.20,31.05;54.50,32.29;52.94,32.13;52.10,31.46;51.94,27.58;50.81,25.20;49.54,20.95;49.10,16.60|CC|QO|1|N|Kill Arra'chea for his Horn. He travels clockwise.|
-C Wildmane Totem|QID|861|M|56.55,29.44|QO|1|N|Kill Flatland Prowlers on the way.|US|
-C The Hunter's Way|QID|861|M|53.19,34.87|QO|1|N|Kill Flatland Prowlers.|US|
+C Wildmane Totem|QID|759|QO|1|N|Finish collecting your Prairie Wolf Alpha Teeth.|US|
+C The Hunter's Way|QID|861|M|53.19,34.87|QO|1|N|Finish collecting your Flatland Prowler Claws.|US|
 R Venture Co. Mine|QID|764|M|60.58,49.77|CC|N|Run to the Venture Co. Mine.|
 C The Venture Co.|QID|764|QO|1;2|N|Kill Venture Co. Workers and Supervisors on the way.|S|
 K Supervisor Fizsprocket|QID|765|M|61.45,47.22;64.83,43.40|CS|L|4819|N|Carefully work your way into the mine and kill Supervisor Fizsprocket and loot his Clipboard. He is level 12.|
@@ -220,6 +221,7 @@ C The Venture Co.|QID|764|QO|1;2|N|Kill the remaining Venture Co. Workers and Su
 T The Venture Co.|QID|764|M|55.17,60.66|N|To Morin Cloudstalker, who patrols the road.|
 T Supervisor Fizsprocket|QID|765|M|55.17,60.66|N|To Morin Cloudstalker.|
 T Wildmane Totem|QID|759|M|48.53,60.39|N|To Mull Thunderhorn.|R|Tauren|
+; lv 12
 A Wildmane Cleansing|QID|760|M|48.53,60.39|N|From Mull Thunderhorn.|PRE|759|R|Tauren|
 R Thunder Bluff|QID|744|M|36.11,28.92|N|Run to Thunder Bluff and go up the lift.|
 T Preparation for Ceremony|QID|744|M|37.69,59.57|Z|Thunder Bluff|N|To Eyahn Eagletalon.|
@@ -228,10 +230,11 @@ A Sergra Darkthorn|QID|860|M|61.52,80.92|Z|Thunder Bluff|N|From Melor Stonehoof.
 T Rites of the Earthmother|QID|776|M|60.26,51.69|Z|Thunder Bluff|N|To Cairne Bloodhoof.|
 R Exit Thunder Bluff|QID|760|M|50.85,32.38|Z|Thunder Bluff|CC|N|Use the lifts on the north side to exit Thunder Bluff.|
 C Wildmane Cleansing|QID|760|M|42.65,14.23|QO|1|U|5416|N|Clear your way to the well and use the Wildmane Totem.\n\n[color=FF0000]NOTE: [/color]Pulling the Supervisor will draw EVERYONE around him.|NC|
-H Bloodhoof Village|QID|760|
+H Bloodhoof Village|QID|760|N|Hearth back to Bloodhoof Village.|
 T Wildmane Cleansing|QID|760|M|48.53,60.39|N|To Mull Thunderhorn.|R|Tauren|
-R Camp Taurajo|QID|886|M|69.70,60.50;75.90,61.00|CS|N|Run to Camp Taurajo.|
-f Camp Taurajo|QID|886|M|44.44,59.15|Z|The Barrens|N|Get the flight point from Omusa Thunderhorn.|
+R Camp Taurajo|QID|886|M|69.70,60.50;75.90,61.00|CS|N|Run to Camp Taurajo. There is no way to fly from Bloodhoof. You can run back to Thunder Bluff if you REALLY want to fly.|TAXI|Camp Taurajo|
+R Camp Taurajo|QID|886|M|69.70,60.50;75.90,61.00|CS|N|Run to Camp Taurajo.|TAXI|-Camp Taurajo|
+f Camp Taurajo|QID|886|M|44.44,59.15|Z|The Barrens|N|Get the flight point from Omusa Thunderhorn.|TAXI|-Camp Taurajo|
 A Journey to the Crossroads|QID|854|M|44.88,58.61|Z|The Barrens|N|From Kirge Sternhorn.|R|Tauren|
 R The Crossroads|QID|886|M|47.31,57.64;51.07,49.00;52.06,32.10|CS|Z|The Barrens|N|Run to the Crossroads while staying on the road.\n\n[color=FF0000]NOTE: [/color]If you stray from the road, you will die. Some of the mobs will be up to 5+ levels above you.|
 T The Barrens Oases|QID|886|M|52.26,31.93|Z|The Barrens|N|To Tonga Runetotem.|
@@ -239,16 +242,16 @@ A The Forgotten Pools|QID|870|M|52.26,31.93|Z|The Barrens|N|From Tonga Runetotem
 T Sergra Darkthorn|QID|860|M|52.23,31.01|Z|The Barrens|N|To Sergra Darkthorn.|
 A Plainstrider Menace|QID|844|M|52.23,31.01|Z|The Barrens|N|From Sergra Darkthorn.|PRE|860|
 T Journey to the Crossroads|QID|854|M|51.50,30.87|Z|The Barrens|N|To Thork.|R|Tauren|
-f The Crossroads|QID|6361|M|51.50,30.33|Z|The Barrens|N|At Devrak.|
+f Crossroads|QID|6361|M|51.50,30.33|Z|The Barrens|N|At Devrak.|TAXI|-Crossroads|
 A A Bundle of Hides|QID|6361|M|51.21,29.05|Z|The Barrens|N|From Jahan Hawkwing.|R|Tauren|
 T A Bundle of Hides|QID|6361|M|51.50,30.33|Z|The Barrens|N|To Devrak.|
 A Ride to Thunder Bluff|QID|6362|M|51.50,30.33|Z|The Barrens|N|From Devrak.|PRE|6361|R|Tauren|
-F Thunder Bluff|QID|6362|Z|The Barrens|R|Tauren|
+F Thunder Bluff|QID|6362|M|51.50,30.33|Z|The Barrens|N|Fly to Thunder Bluff.|R|Tauren|
 T Ride to Thunder Bluff|QID|6362|M|45.73,55.83|Z|Thunder Bluff|N|To Ahanu, in a tent at the lowest level from the tower.|
 A Tal the Wind Rider Master|QID|6363|M|45.73,55.83|Z|Thunder Bluff|N|From Ahanu.|PRE|6362|R|Tauren|
 T Tal the Wind Rider Master|QID|6363|M|46.98,49.84|Z|Thunder Bluff|N|To Tal at the top of the tower.|R|Tauren|
 A Return to Jahan|QID|6364|M|46.98,49.84|Z|Thunder Bluff|N|From Tal.|PRE|6363|R|Tauren|
-F The Crossroads|QID|6364|R|Tauren|
+F Crossroads|QID|6364|M|47.02,49.83|Z|Thunder Bluff|N|Fly back to The Crossroads.|R|Tauren|
 T Return to Jahan|QID|6364|M|51.21,29.05|Z|The Barrens|N|To Jahan Hawkwing.|R|Tauren|
 
 N A very long run|AVAILABLE|445|N|The trek from The Crossroads to Orgrimmar is a long run. The simplest route is to just stick to the road and follow the signs.\nIt's faster, and a little more perilous, to take shortcuts off the main road.\nI have found a route that it is a little faster and less likely to get you killed.|
