@@ -185,7 +185,7 @@ T Training the Beast|QID|6089|M|57.29,89.75|Z|Thunder Bluff|N|To Holt Thunderhor
 T Journey into Thunder Bluff|QID|775|M|60.26,51.69|Z|Thunder Bluff|N|To Cairne Bloodhoof.|
 A Rites of the Earthmother|QID|776|M|60.26,51.69|Z|Thunder Bluff|N|From Cairne Bloodhoof.|PRE|775|
 A Testing an Enemy's Strength|QID|5723|M|61.30,40.38;70.53,31.77|Z|Thunder Bluff|CC|N|Pick this quest up from Rahauro if you are planning to run the dungeon Ragefire Chasm.|RANK|3|
-A Searching for the Lost Satchel|QID|5722|M|70.53,31.77|Z|Thunder Bluff|ELITE|N|[color=e6cc80]Dungeon: 'Dungeon'[/color]\nPick this quest up from Rahauro if you are planning to run the dungeon Ragefire Chasm.|RANK|3|
+A Searching for the Lost Satchel|QID|5722|M|70.53,31.77|Z|Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: 'Dungeon'[/color]\nPick this quest up from Rahauro if you are planning to run the dungeon Ragefire Chasm.|RANK|3|
 A The Barrens Oases|QID|886|M|78.57,28.57|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem on Elder Rise.|
 
 ; --- Druid Bear form (Feral Combat) quest chain
