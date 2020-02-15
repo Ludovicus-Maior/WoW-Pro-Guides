@@ -201,7 +201,7 @@ A Gan'rul's Summons|QID|1506|M|54.37,41.29|N|From Ophek.|R|Orc|C|Warlock|
 A Veteran Uzzek|QID|1505|M|54.19,42.47|N|From Tarshaw Jaggedscar.|R|Orc,Troll|C|Warrior|
 ; --- Shaman
 A Call of Fire|QID|2983|M|54.42,42.59|N|From Swart.|R|Orc,Troll|C|Shaman|
-
+ 
 A Conscript of the Horde|QID|840|M|50.89,43.56|N|From Takrin Pathseeker.|
 A Need for a Cure|QID|812|M|41.53,18.62|L|-4904|N|From Rhinag.\n\n[color=FF0000]NOTE: [/color]This quest is on a 45 min timer. The exp/min is low for this quest. You can skip this quest if you so choose.|RANK|3|
 R Orgrimmar|QID|812|M|45.51,12.06|CC|N|Follow the road north out of Razor Hill to the gates of Orgrimmar.|
@@ -301,7 +301,7 @@ T Burning Shadows|ACTIVE|832|M|49.57,50.43|Z|Orgrimmar|N|To Neeru Fireblade.|
 A Ak'Zeloth|QID|809|M|49.57,50.43|Z|Orgrimmar|N|From Neeru Fireblade.|
 C Hidden Enemies|QID|5727|M|49.57,50.43|Z|Orgrimmar|QO|1|N|Chat with Neeru Fireblade.|CHAT|
 T Hidden Enemies|QID|5727|M|55.74,41.06;56.51,36.82;32.06,37.78|Z|Orgrimmar|CC|N|To Thrall.|
-A Hidden Enemies|QID|5728|M|31.75,37.82|Z|Orgrimmar|ELITE|N|[color=e6cc80]Dungeon: Ragefire Chasm[/color]\nFrom Thrall.\nAccept this quest if you are planning on running the RFC dungeon. Otherwise, skip it.|PRE|5727|RANK|3|
+A Hidden Enemies|QID|5728|M|31.75,37.82|Z|Orgrimmar|ELITE|N|[color=E6CC80]Dungeon: Ragefire Chasm[/color]\nFrom Thrall.\nAccept this quest if you are planning on running the RFC dungeon. Otherwise, skip it.|PRE|5727|RANK|3|
 N Lieutenant's Insignia|QID|809|N|You can destroy the Lieutenant's Insignia now. Right-click this step off.|
 N Training/Shopping|QID|809|N|Make sure you do all of your training, shopping, etc. before leaving.|
 R Leave Orgrimmar|QID|809|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
