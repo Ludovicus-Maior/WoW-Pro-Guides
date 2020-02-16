@@ -26,9 +26,11 @@ C Prove Your Worth|QID|421|M|47.97,40.43|QO|1|N|Kill five Moonrage Whitescalps.\
 T Lost Deathstalkers|QID|428|M|53.47,13.43|N|To Rane Yorick at the Ivar Patch.|
 A Wild Hearts|QID|429|M|53.46,13.43|N|From Rane Yorick.|PRE|428|
 C Wild Hearts|QID|429|M|55.67,12.56|QO|1|N|Kill Mottled Worgs to collect the Discolored Worg Hearts.|S|
-A Escorting Erland|QID|435|M|56.2,9.2|N|From Deathstalker Erland inside the house at Malden's Orchard.|
+A Escorting Erland|QID|435|M|56.2,9.2|N|[color=FF0000]NOTE: [/color]Escort Quest\nFrom Deathstalker Erland inside the house at Malden's Orchard.\nIf he's not there, someone is already on the quest and you have to wait for them to finish.|
 C Escorting Erland|QID|435|M|54.07,13.56|N|He complains about Worgs coming out of the woodwork to attack him. This isn't an exaggeration. Erland is also about as physically fit as an 82 year old cancer patient, so make sure he doesn't wind up tanking more than one, or he goes squish and you wind up with a small army of angry dogs on you.|
+A Escorting Erland|QID|435|M|56.2,9.2|N|[color=FF0000]NOTE: [/color]You failed the quest. Go back to Deathstalker Erland and restart the quest.\nHis respawn rate seems a little long.|FAIL|
 T Escorting Erland|QID|435|M|53.46,13.43|N|To Rane Yorick.|
+; lv 13
 A The Deathstalkers' Report|QID|449|M|53.46,13.43|N|From Rane Yorick.|PRE|435|
 C Wild Hearts|QID|429|M|55.67,12.56|QO|1|N|Finish collecting the Discolored Worg Hearts.|US|
 R The Sepulcher|QID|421|M|46.21,41.59|N|Run back to the Sepulcher.|
@@ -53,6 +55,7 @@ H The Sepulcher|QID|422|N|Hearth back to The Sepulcher|
 
 T Arugal's Folly|QID|422|M|44.20,39.78|N|To Dalar Dawnweaver.|
 A Arugal's Folly|QID|423|M|44.20,39.78|N|From Dalar Dawnweaver.|PRE|422|
+; lv 14
 T The Dead Fields|QID|437|M|43.14,41.37;43.43,40.86|CS|N|To High Executor Hadrec inside the Crypt.|
 A The Decrepit Ferry|QID|438|M|43.43,40.86|N|From High Executor Hadrec.|PRE|437|
 
@@ -62,7 +65,7 @@ A Ride to the Undercity|QID|6323|R|Undead|M|45.62,42.60|N|From Karos Razok.|PRE|
 F Undercity|QID|447|M|45.62,42.60|N|Fly to Undercity.|
 
 T A Recipe For Death|QID|447|M|51.32,44.66;47.00,59.79;44.78,66.03;48.81,69.29|Z|Undercity|CC|N|To Master Apothecary Faranell in The Apothecarium area.|
-A A Recipe For Death|QID|450|M|48.81,69.29|Z|Undercity|N|From Master Apothecary Faranell.|PRE|447|ELITE|O|
+A A Recipe For Death|QID|450|M|48.81,69.29|Z|Undercity|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Master Apothecary Faranell.|PRE|447|
 T Zinge's Delivery|QID|1359|M|50.15,67.93|Z|Undercity|N|To Apothecary Zinge.|
 A Sample for Helbrim|QID|1358|M|50.15,67.93|Z|Undercity|N|From Apothecary Zinge.|PRE|1359|
 
@@ -74,17 +77,17 @@ F The Sepulcher|QID|438|M|63.27,48.55|Z|Undercity|N|Fly back to The Sepulcher.|
 
 T Return to Podrig|QID|6324|R|Undead|M|43.43,41.69|N|To Deathguard Podrig at the Crypt entrance.|
 C Arugal's Folly|QID|423|M|44.20,39.78|QO|1;2|N|Kill Moonrage Gluttons and Darksouls for their Shackles.|S|
-R The Decrepit Ferry|ACTIVE|438|M|50.57,34.87;58.34,34.95|CC|N|Go to the Decrepit Ferry.|
+R The Decrepit Ferry|ACTIVE|438|M|51.21,36.73;52.05,38.40;58.34,34.95|CC|N|Go to the Decrepit Ferry.\nBy sticking to the hillside around the edge, you can avoid some unnecessary fighting. The mobs in this area (Hand of Ravenclaw) can hit hard and they roam considerably.|
 T The Decrepit Ferry|QID|438|M|58.34,34.95|N|Click the Decrepit Ferry.|
 A Rot Hide Clues|QID|439|M|58.34,34.95|N|From the Decrepit Ferry.|PRE|438|
 
-T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.|
+T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.\nFollow the hillside just like you did to get here.|
 A The Engraved Ring|QID|440|M|43.43,40.86|N|From High Executor Hadrec.|PRE|439|
-C Arugal's Folly|QID|423|M|51.24,36.81;56.60,44.66;56.44,46.06|CC|QO|1;2|N|Head to Deep Elm Mine and kill Moonrage Gluttons and Darksouls for their Shackles.\nYou'll find the Darksouls inside the mine. Stay close to the entrance as they have a quick respawn rate.|US|
-T Border Crossings|QID|477|M|49.92,60.28|CC|N|To the Dalaran Crate.|NC|
+C Arugal's Folly|QID|423|M|51.24,36.81;56.60,44.66;56.44,46.06|CC|QO|1;2|N|Head to Deep Elm Mine and kill Moonrage Gluttons and Darksouls for their Shackles.\nYou'll find the Darksouls inside the mine. Stay close to the entrance as they have a quick respawn rate.\n[color=FF0000]NOTE: [/color]This is not an easy quest. Just be aware of your surroundings and watch for adds.|US|
+T Border Crossings|QID|477|M|49.92,60.28|CC|N|To the Dalaran Crate.\nIt's best to work your way around to the back of the camp and try pulling\picking them off from there. There are at least 4 Frost mages that you WILL need to take out. Be warned, they will run and you will be frost slowed. That's why it's a good idea to start with the furthest and work your way in. Or, just go for it and hope for the best.|NC|
 A Maps and Runes|QID|478|M|40.92,60.28|N|From the Dalaran Crate.|PRE|477|
 L Level 15|QID|478|N|Make sure you are within 4.5 bubbles of level 14 before heading back to the Sepulcher. You'll be picking up your class quest when you get to Undercity shortly.|LVL|15;-2970|R|Undead,Troll|C|Mage|
-H The Sepulcher|QID|478|N|Hearth back to The Sepulcher.\nIf you want to save your hearth for Deep Elm Mine, run back to Sepulcher.|
+H The Sepulcher|QID|478|N|Hearth back to The Sepulcher.\n[color=FF0000]NOTE: [/color]If you want to save your hearth for Deep Elm Mine, run back to Sepulcher. (I strongly recommend it)|
 
 T Maps and Runes|QID|478|M|43.97,40.93|N|To Shadow Priest Allister.|
 A Dalar's Analysis|QID|481|M|43.97,40.93|N|From Shadow Priest Allister.|PRE|478|
@@ -95,13 +98,15 @@ A Dalaran's Intentions|QID|482|M|44.20,39.78|N|From Dalar Dawnweaver.|PRE|481|
 T Dalaran's Intentions|QID|482|M|43.97,40.93|N|To Shadow Priest Allister.|
 A Ambermill Investigations|QID|479|M|43.97,40.93|N|From Shadow Priest Allister.|PRE|482|
 C Arugal's Folly|QID|424|M|51.24,36.81;56.60,44.66;56.44,46.06;58.6,44.8|CC|QO|1|N|Run to Deep Elm Mine, fight your way to the back of the mine and kill Grimson the Pale.\nIf your hearth is on CD, be prepared to fight your way back out again.|
+; lv 15
 T Arugal's Folly|QID|424|M|44.20,39.78|N|To Dalar Dawnweaver.|
 
 ;-- Mage 'Spellfire Robe' Lv 15 class quest chain
-L Level 15|AVAILABLE|1959|N|You must be lv 15.|LVL|15|R|Undead,Troll|C|Mage|
-b Durotar|QID|1358|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|
-R Enter Orgrimmar|QID|1358|M|45.52,12.07|Z|Durotar|CC|N|Make your way to the south entrance.|
-f Origrimmar|QID|1358|M|45.35,63.92|Z|Orgrimmar|N|Doras|TAXI|-Orgrimmar|
+F Undercity|AVAILABLE|1959|M|45.62,42.60|N|Fly to Undercity.|R|Undead,Troll|C|Mage|
+R Leave Undercity|AVAILABLE|1959|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|R|Undead,Troll|C|Mage|
+b Durotar|AVAILABLE|1959|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|R|Undead,Troll|C|Mage|
+R Enter Orgrimmar|AVAILABLE|1959|M|45.52,12.07|Z|Durotar|CC|N|Make your way to the south entrance.|R|Undead,Troll|C|Mage|
+f Origrimmar|AVAILABLE|1959|M|45.35,63.92|Z|Orgrimmar|N|Doras|TAXI|-Orgrimmar|R|Undead,Troll|C|Mage|
 A Report to Anastasia|QID|1959|M|45.35,63.92;39.16,86.27|Z|Orgrimmar|CC|N|From Uthel'nay in the Valley of Spirits.|LVL|15|R|Undead,Troll|C|Mage|
 R Leave Orgrimmar|ACTIVE|1959|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.\nDrop to the lower level using the building roofs|R|Undead,Troll|C|Mage|
 b Tirisfal Glades|ACTIVE|1959|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|R|Undead,Troll|C|Mage|
@@ -115,10 +120,12 @@ C Investigate the Alchemist Shop|QID|1960|M|51.47,74.48|Z|Undercity|U|7308|N|Use
 C Investigate the Alchemist Shop|QID|1960|M|51.47,74.48|Z|Undercity|U|7247|QO|1|N|Subdue the creatures with your spells and use a coffer to capture them.|R|Undead,Troll|C|Mage|
 T Investigate the Alchemist Shop|QID|1960|M|85.13,10.07|Z|Undercity|N|To Anastasia Hartwell.|R|Undead,Troll|C|Mage|
 A Gathering Materials|QID|1961|M|85.13,10.07|Z|Undercity|N|From Anastasia Hartwell.|PRE|1960|R|Undead,Troll|C|Mage|
-F The Sepulcher|QID|438|M|63.27,48.55|Z|Undercity|N|Fly back to The Sepulcher.|
+F The Sepulcher|QID|479|M|63.27,48.55|Z|Undercity|N|Fly back to The Sepulcher.|R|Undead,Troll|C|Mage|
+; ---
 
 C Gathering Materials|QID|1961|QO|1,2|N|Collect the Linen and Dalaran Gems you need.|R|Undead,Troll|C|Mage|S|
 C Ambermill Investigations|QID|479|M|55.71,64.46|CC|QO|1|N|Head to Ambermill and kill the residents to collect your Dalaran pendants.\n\n[color=FF0000]NOTE: [/color]The Dalaran Apprentice don't drop the pendants.\nStick to the hillside and it's a little easier to pull them.|
+C Gathering Materials|QID|1961|QO|1,2|N|Finish collecting the Linen and Dalaran Gems you need.|R|Undead,Troll|C|Mage|US|
 
 L Level 14|QID|479|N|Make sure you are within 4 bubbles of level 14 before heading back to the Sepulcher. You'll be picking up your class quest when you get to Undercity shortly.|LVL|14;-2310|R|Tauren|C|Druid|
 
@@ -127,21 +134,22 @@ F Undercity|QID|440|M|45.62,42.60|N|Fly to Undercity.|
 T Gathering Materials|QID|1961|M|70.6,30.6|Z|Undercity|N|To Josef Gregorian, Artisan Tailor.|R|Undead,Troll|C|Mage|
 R Leave Undercity|QID|440|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|
 T The Engraved Ring|QID|440|M|61.26,50.84|Z|Tirisfal Glades|N|To Magistrate Sevren in Brill.|
-A Raleigh and the Undercity|QID|441|M|61.2,50.8|Z|Tirisfal Glades|N|From Magistrate Sevren.|LVL|10|PRE|440|
+A Raleigh and the Undercity|QID|441|M|61.2,50.8|Z|Tirisfal Glades|N|From Magistrate Sevren.|PRE|440|
 C Raleigh and the Undercity|QID|441|Z|Tirisfal Glades|N|Bring Deliah's Ring to Raleigh in the Trade Quarter of Undercity.|
 T Raleigh and the Undercity|QID|441|M|62,43|Z|Undercity|N|To Raleigh Andrean.|
 
-; --- Make sure you have the Barrens breadcrumb.
-A Sample for Helbrim|AVAILABLE|1358|M|50,68.4|Z|Undercity|N|From Apothecary Zinge.|LVL|10|PRE|1359|
+; --- Making sure you have the Barrens breadcrumb.
+A Sample for Helbrim|AVAILABLE|1358|M|50,68.4|Z|Undercity|N|From Apothecary Zinge.|PRE|1359|
 R Leave Undercity|ACTIVE|1358|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|
 
 ; --- Travel to Durotar (Orgrimmar)
-b Durotar|QID|1358|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|
-R Enter Orgrimmar|QID|1358|M|45.52,12.07|Z|Durotar|CC|
-f Origrimmar|QID|1358|M|45.35,63.92|Z|Orgrimmar|N|Doras|TAXI|-Orgrimmar|
+b Durotar|ACTIVE|1358|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|
+R Enter Orgrimmar|ACTIVE|1358|M|45.52,12.07|Z|Durotar|CC|
+R The Valley of Wisdom|AVAILABLE|1061||M|42.37,36.75|N|Go to The Valley of Wisdom.|
+A The Spirits of Stonetalon|QID|1061|M|38.93,38.37|From Zor Lonetree (just inside Grommash Hold).\n[color=FF0000]NOTE: [/color]Probably the only time you'll have to grab this quest. It leads to a quest we will be doing in the next guide.|LEAD|1062|
+f Origrimmar|ACTIVE|1358|M|45.35,63.92|Z|Orgrimmar|N|Doras|TAXI|-Orgrimmar|
 
 ; --- Druid 'Cure Poison' lv 14 class quest
-L Level 14|AVAILABLE|6126|N|You must be lv 14.|LVL|14|R|Tauren|C|Druid|
 F Thunder Bluff|AVAILABLE|6126|M|51.54,30.35|Z|The Barrens|N|Fly to Thunder Bluff.|R|Tauren|C|Druid|
 N Quest Items|AVAILABLE|6126|L|-2449 5|N|You will need to bring 5 Earthroot with you for one of the quests in this series.|R|Tauren|C|Druid|
 A Lessons Anew|AVAILABLE|6126|M|76.6,27.6|Z|Thunder Bluff|N|From Turak Runetotem on Elder Rise.|R|Tauren|C|Druid|
@@ -152,23 +160,11 @@ F Thunder Bluff|ACTIVE|6127|M|44.28,45.87|Z|Moonglade|N|Fly to Thunder Bluff.\nT
 ; ---
 
 ; --- Travel to The Barrens (The Crossroads)
-F The Crossroads|QID|1358|M|45.35,63.92|Z|Orgrimmar|N|Doras|TAXI|Crossroads|
-R Leave Orgrimmar|QID|1358|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|TAXI|-Crossroads|
-R Far Watch Outpost|QID|1358|M|45.54,12.08;36.17,23.14;34.16,42.30|CC|N|As you exit the gate, turn right and follow the wall west to the river. Follow the shoreline south to the bridge and cross over to the Barrens.|TAXI|-Crossroads|
-R The Crossroads|QID|1358|M|52.34,29.34|Z|The Barrens|CC|N|Take the road to the east and follow the signs. Sticking to the road is a safe bet. There may be mobs that are a few levels above you along your route.|TAXI|-Crossroads|
+F Crossroads|ACTIVE|1358|M|45.35,63.92|Z|Orgrimmar|N|Doras|TAXI|Crossroads|
+R Leave Orgrimmar|ACTIVE|1358|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|TAXI|-Crossroads|
+R Far Watch Outpost|ACTIVE|1358|M|45.54,12.08;36.17,23.14;34.16,42.30|CC|N|As you exit the gate, turn right and follow the wall west to the river. Follow the shoreline south to the bridge and cross over to the Barrens.|TAXI|-Crossroads|
+R Crossroads|ACTIVE|1358|M|52.34,29.34|Z|The Barrens|CC|N|Take the road to the east and follow the signs. Sticking to the road is a safe bet. There may be mobs that are a few levels above you along your route.|TAXI|-Crossroads|
 ; ---
-
-; --- Druid 'Cure Poison' lv 14 class quest cont.
-R Dreadmist Peak|QID|6127|M|52.34,29.33;51.05,22.63;48.30,18.96|Z|The Barrens|CC|N|Leave the Crossroads by the north road, head for the mountain on your left and climb it. Once you're at the top, locate the small pond on Dreadmist Peak.|R|Tauren|C|Druid|
-C The Principal Source|QID|6127|U|15842|QO|1|N|Fill the Dreadmist Peak Sampler.\n\n[color=FF0000]NOTE: [/color]Be prepared for a fight because 2-3 mobs will spawn and attack you. You can either stand and fight or use an HoT and Bear form to escape.|R|Tauren|C|Druid|NC|
-T The Principal Source|QID|6127|M|52.26,31.93|Z|The Barrens|N|To Tonga Runetotem in the Crossroads.|R|Tauren|C|Druid|
-A Gathering the Cure|QID|6128|M|52.26,31.93|Z|The Barrens|N|From Tonga Runetotem.|PRE|6127|R|Tauren|C|Druid|
-K Lost Plain Kodos|QID|6128|M|50.06,40.85|Z|The Barrens|L|15852 5|N|Leave the Crossroads from the south gate and head towards the 2 mountain peaks. You'll find the Kodos on either side of the road. Kill them and loot their horns.|
-R The Crossroads|QID|6128|M|52.06,32.24|Z|The Barrens|N|Run back to the Crossroads.|R|Tauren|C|Druid|
-T Gathering the Cure|QID|6128|M|52.26,31.93|Z|The Barrens|N|To Tonga Runetotem.|R|Tauren|C|Druid|
-A Curing the Sick|QID|6129|M|52.26,31.93|Z|The Barrens|N|From Tonga Runetotem.|PRE|6128|R|Tauren|C|Druid|
-C Curing the Sick|QID|6129|U|15826|T|Sickly Gazelle|QO|1|N|Use the salve on 10 Sickly Gazelle. You'll find them spread out across the northern end of The Barrens.|R|Tauren|C|Druid|S|
-N Carry on|ACTIVE|6129|N|As the Sickly Gazelle are spread all over, you might as well resume the guide.|R|Tauren|C|Druid|
 
 ]]
 end)
