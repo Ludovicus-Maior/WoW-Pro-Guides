@@ -335,6 +335,7 @@ A Letter to Jin'Zil|QID|1060|M|51.62,30.90|N|From Darsok Swiftdagger.|PRE|876|
 N Sun Rock Retreat (Stonetalon) FP|QID|1060|N|Another side trip to get the flight path in Sun Rock Retreat (Stonetalon).|
 R Stonetalon Mountains border|QID|6548|M|35.66,27.48|CC|N|Leave the Crossroads through the west gate and follow the road until you come to the Stonetalon Mountains border.|
 A Avenge My Village|QID|6548|M|35.19,27.79|N|From Makaba Flathoof.|
+T The Spirits of Stonetalon|QID|1061|M|35.26,27.88|N|To Seereth Stonebreak.|
 A Goblin Invaders|QID|1062|M|35.26,27.88|N|From Seereth Stonebreak.|
 
 R Stonetalon Mountains|QID|6548|M|34.12,27.60|N|Follow the road further west into Stonetalon Mountains.|
