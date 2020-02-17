@@ -146,7 +146,7 @@ R Leave Undercity|ACTIVE|1358|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC
 b Durotar|ACTIVE|1358|M|60.75,58.77|Z|Tirisfal Glades|N|Take the zeppelin to Orgrimmar.|
 R Enter Orgrimmar|ACTIVE|1358|M|45.52,12.07|Z|Durotar|CC|
 R The Valley of Wisdom|AVAILABLE|1061||M|42.37,36.75|N|Go to The Valley of Wisdom.|
-A The Spirits of Stonetalon|QID|1061|M|38.93,38.37|From Zor Lonetree (just inside Grommash Hold).\n[color=FF0000]NOTE: [/color]Probably the only time you'll have to grab this quest. It leads to a quest we will be doing in the next guide.|LEAD|1062|
+A The Spirits of Stonetalon|QID|1061|M|38.93,38.37|N|From Zor Lonetree (just inside Grommash Hold).\n[color=FF0000]NOTE: [/color]Probably the only time you'll have to grab this quest. It leads to a quest we will be doing in the next guide.|LEAD|1062|
 f Origrimmar|ACTIVE|1358|M|45.35,63.92|Z|Orgrimmar|N|Doras|TAXI|-Orgrimmar|
 
 ; --- Druid 'Cure Poison' lv 14 class quest
