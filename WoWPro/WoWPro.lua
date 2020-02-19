@@ -561,18 +561,18 @@ end
 function WoWPro:TargetNpcId()
     local GUID = _G.UnitGUID("target") or ""
     local unitType = ("-"):split(GUID)
-    if not unitType then
+    if unitType == "" then
         WoWPro:dbp("No target");
         return nil
     end
 
     if unitType == "Player" then
         local _, _, playerUID = ("-"):split(GUID)
-        WoWPro:dbp("Your target is a " .. unitType.. " ID %s", playerUID);
+        WoWPro:dbp("Your target " .. GUID.. " ID %s", playerUID);
         return playerUID
     else
         local _, _, _, _, _, npcID = ("-"):split(GUID)
-        WoWPro:dbp("Your target is a " .. unitType .. " ID %s", npcID);
+        WoWPro:dbp("Your target  " .. GUID .. " ID %s", npcID);
         return npcID
     end
 end
