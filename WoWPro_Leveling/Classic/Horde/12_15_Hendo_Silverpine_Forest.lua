@@ -22,7 +22,7 @@ A Border Crossings|QID|477|M|43.97,40.93|N|From Shadow Priest Allister.|
 A Prove Your Worth|QID|421|M|44.20,39.78|N|From Dalar Dawnweaver.|
 
 C A Recipe For Death|QID|447|M|36,15|QO|1;2|N|Kill any spiders or bears you come across for their Skittering Bloods and Grizzled Bear Hearts.\nDo not go out of your way to get them. You will come to a good spot later.|S|
-C Prove Your Worth|QID|421|M|47.97,40.43|QO|1|N|Kill five Moonrage Whitescalps.\nMake sure to avoid the woodland area directly west of the road, as level 21 elites like to path around and eat you. They apparently like the taste of lowbie in the morning. :(|
+C Prove Your Worth|QID|421|M|47.97,40.43|QO|1|N|Kill five Moonrage Whitescalps.\n[color=FF0000]NOTE: [/color]Make sure to avoid the woodland area directly west of the road, there's a level 21 elite that paths around that area.|S|
 T Lost Deathstalkers|QID|428|M|53.47,13.43|N|To Rane Yorick at the Ivar Patch.|
 A Wild Hearts|QID|429|M|53.46,13.43|N|From Rane Yorick.|PRE|428|
 C Wild Hearts|QID|429|M|55.67,12.56|QO|1|N|Kill Mottled Worgs to collect the Discolored Worg Hearts.|S|
@@ -33,6 +33,7 @@ T Escorting Erland|QID|435|M|53.46,13.43|N|To Rane Yorick.|
 ; lv 13
 A The Deathstalkers' Report|QID|449|M|53.46,13.43|N|From Rane Yorick.|PRE|435|
 C Wild Hearts|QID|429|M|55.67,12.56|QO|1|N|Finish collecting the Discolored Worg Hearts.|US|
+C Prove Your Worth|QID|421|QO|1|N|Finish killing the Moonrage Whitescalps.|US|
 R The Sepulcher|QID|421|M|46.21,41.59|N|Run back to the Sepulcher.|
 
 T Prove Your Worth|QID|421|M|44.20,39.78|N|To Dalar Dawnweaver.|
