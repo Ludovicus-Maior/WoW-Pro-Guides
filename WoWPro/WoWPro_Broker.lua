@@ -2506,7 +2506,7 @@ function WoWPro.PopulateQuestLog()
 
             local _, itemID = nil, nil
             if _G.GetQuestLogSpecialItemInfo then
-                _, itemID = _G.GetQuestLogSpecialItemInfo
+                _, itemID = _G.GetQuestLogSpecialItemInfo(i)
             end
             WoWPro.QuestLog[questID] = {
                 title = questTitle,
