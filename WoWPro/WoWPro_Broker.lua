@@ -11,7 +11,7 @@
 -- Is a table when a scenario is ongoing
 WoWPro.Scenario = nil
 
-local quids_debug = false
+local quids_debug = true
 
 local function QidMapReduce(list, default, or_string, and_string, func, why, debug, abs_quid)
     if not list then
@@ -232,7 +232,7 @@ function WoWPro.ValidObjectives(objectives, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:ValidObjectives(%s)",tostring(objectives))
     end
-    local value = QidMapReduce(objectives,false,"^","&",function (objective) return (not WoWPro.ValidObjective(objective)) ; end, why or "ValidObjectives", debug or quids_debug)
+    local value = QidMapReduce(objectives,false,";",";",function (objective) return (not WoWPro.ValidObjective(objective)) ; end, why or "ValidObjectives", debug or quids_debug)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:ValidObjectives(%s) return %s",tostring(objectives),tostring(value))
     end
