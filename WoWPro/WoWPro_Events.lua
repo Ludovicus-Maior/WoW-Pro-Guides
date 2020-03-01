@@ -217,6 +217,7 @@ end
 
 -- Save Garrison Building Locations for the BUILDING tag
 function WoWPro.SaveGarrisonBuildings()
+    if not _G.C_Garrison then return; end
     local _, mapID = WoWPro.GetZoneText()
 
     WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
