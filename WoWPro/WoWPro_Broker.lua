@@ -232,7 +232,7 @@ function WoWPro.ValidObjectives(objectives, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:ValidObjectives(%s)",tostring(objectives))
     end
-    local value = QidMapReduce(objectives,false,";",";",function (objective) return (not WoWPro.ValidObjective(objective)) ; end, why or "ValidObjectives", debug or quids_debug)
+    local value = QidMapReduce(objectives,false,";","",function (objective) return (not WoWPro.ValidObjective(objective)) ; end, why or "ValidObjectives", debug or quids_debug)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:ValidObjectives(%s) return %s",tostring(objectives),tostring(value))
     end
@@ -2504,7 +2504,10 @@ function WoWPro.PopulateQuestLog()
                 ncompleted = nil
             end
 
-            local _, itemID = _G.GetQuestLogSpecialItemInfo(i)
+            local _, itemID = nil, nil
+            if _G.GetQuestLogSpecialItemInfo then
+                _, itemID = _G.GetQuestLogSpecialItemInfo
+            end
             WoWPro.QuestLog[questID] = {
                 title = questTitle,
                 level = level,
