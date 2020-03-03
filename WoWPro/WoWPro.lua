@@ -345,6 +345,7 @@ function WoWPro:OnInitialize()
     WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
     WoWProDB.global.QID2Guide = nil
     WoWProDB.global.Guide2QIDs = nil
+    WoWProCharDB.Taxi = WoWProCharDB.Taxi or {}
     if WoWProCharDB.Enabled == nil then
         WoWProCharDB.Enabled = true
     end

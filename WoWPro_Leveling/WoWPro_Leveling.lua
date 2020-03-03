@@ -102,7 +102,6 @@ function WoWPro.Leveling:OnEnable()
     end
 
     WoWPro.FirstMapCall = true
-    WoWProCharDB.Taxi = WoWProCharDB.Taxi or {}
 end
 
 -- Validate that all start guides are present and accounted for
