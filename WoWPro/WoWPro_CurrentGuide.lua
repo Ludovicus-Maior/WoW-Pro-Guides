@@ -125,7 +125,7 @@ frame:SetScript("OnShow", function()
         if not module or not module:IsEnabled() then return end
         local steplist = WoWPro.step
         local optional = WoWPro.optional
-        local completion = (WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].completion) or 0
+        local completion = (WoWProCharDB.Guide[GID] and WoWProCharDB.Guide[GID].completion) or {}
         local totalh = 0
         local maxh = box:GetHeight() - 12
         local index = 1 + offset
