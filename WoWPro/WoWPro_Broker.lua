@@ -1661,7 +1661,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- WoWPro:dbp("Checkpoint Beth for step %d",guideIndex)
 
             -- Taxi Tests WoWProCharDB.Taxi[location]
-            if WoWPro.taxi[guideIndex] and (next(WoWProCharDB.Taxi) ~= nil) and not skip then
+            if WoWPro.taxi[guideIndex] and WoWProCharDB.Taxi and not skip then
                 local flop = true
                 local stop = WoWPro.taxi[guideIndex]
                 if stop:sub(1,1) == "-" then
