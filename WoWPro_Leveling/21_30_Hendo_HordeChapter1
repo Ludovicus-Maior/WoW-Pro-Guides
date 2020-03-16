@@ -163,7 +163,7 @@ C Cycle of Rebirth|QID|6301|M|49.20,43.39|CC|QO|1|N|Loot any gaea seeds you find
 T Cycle of Rebirth|QID|6301|M|47.48,58.39|N|To Tammra Windfield.|
 A New Life|QID|6381|M|47.48,58.39|N|From Tammra Windfield.|
 A Harpies Threaten|QID|6282|M|47.15,61.10|N|From Maggran Earthbinder.|
-T Earthen Arise|QID|6481|M|44.96,61.13;45.54,63.96;47.22,64.04|CC|N|To Mor'rogal, on top of the hill.|
+T Earthen Arise|QID|6481|M|44.96,61.13;45.54,63.96;47.22,64.04|CC|N|To Mor'rogal, on top of the hill.\nOnce you have turned in this quest, you can safely destroy the Encanted Resonite Crystal.|
 A Elemental War|QID|6393|M|47.30,64.26|N|From Tsunaman.|
 R The Charred Vale|QID|6381|M|44.55,63.01;37.99,68.08|CC|N|Head back to the main trail. Follow the torch-marked path south over the mountain to the bottom.\n[color=FF0000]NOTE: [/color]There is a longer route that brings you in through the north entrance. That route requires you to go back north up through Mirkfallon Lake and then west with a curve south into the Charred Vale. That route has less fighting and the mobs are level 23-25 at the top end. Whichever route you choose, you will be covering all 4 corners of the Charred Vale to complete this round of quests. The suggested route gets you there faster.|
 C New Life|QID|6381|QO|1|N|Gaea seed planted.|NC|S|
@@ -190,6 +190,8 @@ C Jin'Zil's Forest Magic|QID|1058|QO|2|N|Kill Twilight Runners to collect Twilig
 C Jin'Zil's Forest Magic|QID|1058|QO|1|N|Kill Sap Beasts to collect Stonetalon Sap.\nThey are in southern half of Stonetalon Peak.|US|
 C Jin'Zil's Forest Magic|QID|1058|QO|4|N|Kill a Fey Dragon to collect a Fey Dragon Scale.\nThey are spread out over Stonetalon Peak.|US|
 C Jin'Zil's Forest Magic|QID|1058|QO|3|N|Kill Coursers for their eyes.\nYou'll find them everywhere north of Mirkfallon Lake.|US|
+R Malaka'jin|QID|6421|M|71.82,91.70|CC|N|Follow the road south to Malaka'jin.|
+T Jin'Zil's Forest Magic|QID|1058|M|74.52,97.84|N|To Witch Doctor Jin'Zil.|
 R Sun Rock Retreat|QID|1087|M|49.58,60.99|
 T Cenarius' Legacy|QID|1087|M|46.01,60.37|N|To Braelyn Firehand.|
 A Ordanus|QID|1088|M|46.01,60.37|N|From Braelyn Firehand.|
@@ -200,6 +202,7 @@ T The Flying Machine Airport|QID|1086|M|23.06,21.07|Z|Thunder Bluff|N|To Apothec
 N Train|QID|496|N|Do whatever training you need to do now. From here, we will be headed back to Tarren Mill and you won't be able to train until you return to Kalimdor.|C|Druid|
 
 ; --- Hillsbrad Foothills
+F Orgrimmar|QID|496|M|47.02,49.83|Z|Thunder Bluff|
 R Leave Orgrimmar|QID|496|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
 b Tirisfal Glades|QID|496|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|
 R Undercity|QID|496|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
@@ -218,9 +221,10 @@ A Battle of Hillsbrad|QID|528|M|62.27,20.32|Z|Hillsbrad Foothills|N|From High Ex
 A Souvenirs of Death|QID|546|M|62.19,19.86|Z|Hillsbrad Foothills|N|From Deathguard Samsa.|
 C Souvenirs of Death|QID|546|QO|1|N|Basically, go kill human mobs to collect Hillsbrad Human Skulls.|S|
 A Dangerous!|QID|567|M|62.55,19.69|Z|Hillsbrad Foothills|N|From the wanted poster hanging beside the Inn's front door.|
+
 C Battle of Hillsbrad|QID|528|QO|1|N|Kill Hillsbrad Peasants.|S|
 K Farmer Kalaba|QID|567|M|34.6,45|Z|Hillsbrad Foothills|QO|4|N|Kill Farmer Kalaba in the SE orchard.|
-K Citizen Wilkes|QID|567|M|29.4,40.2|Z|Hillsbrad Foothills|QO|2|N|Citizen Wilkes who patrols the north end of the main road in Hillsbrad.|
+K Citizen Wilkes|QID|567|M|29.4,40.2|Z|Hillsbrad Foothills|QO|2|N|Kill Citizen Wilkes. He patrols the north branch of the main road in Hillsbrad Fields from the Forge up to the last house; stopping briefly at each building as he passes.|
 C Battle of Hillsbrad|QID|528|QO|1|N|Finish killing Hillsbrad Peasants.|US|
 C Elixir of Pain|QID|501|QO|1|N|Finish collecting Mountain Lion Blood.|US|
 R Nethander Stead|QID|509|M|62.29,41.41;63.77,57.82|Z|Hillsbrad Foothills|CC|N|Make your way south to Nethander Stead.|
@@ -237,18 +241,85 @@ A Elixir of Pain|QID|502|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary L
 T Battle of Hillsbrad|QID|528|M|62.28,20.28|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 A Battle of Hillsbrad|QID|529|M|62.28,20.28|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|PRE|528|
 
-N Under Construction|QID567|N|From this point on, the guide is incomplete.|
+T Elixir of Pain|QID|502|M|32.68,35.35|Z|Hillsbrad Foothills|N|To Stanley. You'll find him beside his doghouse at the northern most house in Hillsbrad Fields.\n[color=FF0000]NOTE: [/color]Stanley won't appreciate you giving him the elixir. He becomes enraged and attacks you. The quest completes once you defeat him.|
+C Battle of Hillsbrad|QID|529|M|32,46|Z|Hillsbrad Foothills|QO|2|N|Kill Hillsbrad Apprentice Blacksmiths. There are 3 inside the forge and 1 outside.|S|
+K Blacksmith Verringtan|QID|529|M|31.4,47|Z|Hillsbrad Foothills|QO|1|N|Kill Blacksmith Verringtan inside the Forge.\n[color=FF0000]NOTE: [/color]If you approach from the south entrance, you'll aggro all 4 mobs inside. If you approach from the north entrance, you'll only aggro 3 of them. Run around to the rear of the building to avoid aggoing anyone else and to prevent the runners from doing the same. Verrington will be one of the mobs that attack you.|
+l Shipment of Iron|QID|529|M|31.99,45.43|Z|Hillsbrad Foothills|L|3564|N|Pick up the Shipment of Iron inside the forge.|
+C Battle of Hillsbrad|QID|529|QO|2|N|Finish killing the Hillsbrad Apprentice Blacksmiths. You should be able to pull the one outside by himself.|US|
 
-R Azurelode Mine|QID|567|M|27.50,59.30|Z|Hillsbrad Foothills|N|Run to the upper entrance of Azurelode Mine.|
-K Miner Hackett|QID|567|M|27.27,58.63;28.61,52.80;29.77,54.13;29.78,55.63|Z|Hillsbrad Foothills|CC|QO|3|N|Work your way inside the mine and kill Miner Hackett.\n[color=FF0000]NOTE: [/color]He is level 29 and not alone.|
-N Clerk Horrace Whitesteed|QID|567|N|He is not alone and you'll have to clear the room slowly to avoid getting overwhelmed with adds. You will have to pull the 2 mobs on the left side of the room from the entrance. The moment you enter the room, you will aggro everyone. I recommend using the front foyer as a pull area. Put as much distance between the main room and the runner as possible; and they will run. This will limit the chance of runners making it worse for you.\nIMO, because of the way it's set up, this one is the toughest of all 4.|
-K Clerk Horrace Whitesteed|QID|567|M|29.4,42.2|Z|Hillsbrad Foothills|QO|1|N|Kill Clerk Horrace Whitesteed, inside the Inn. He's just inside the main room against the near wall to the right of the doorway.[color=FF0000]NOTE: [/color]Focus your attack on him. He is your primary target. If you die after killing him, you can just rez and leave.|
-T Dangerous!|QID|567|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+R Tarren Mill|QID|529|M|32.08,50.30;57.65,36.61;55.86,19.60|Z|Hillsbrad Foothills|CC|N|Return to Tarren Mill. If you wish to do some grinding, run through the grass area.|
+t Souvenirs of Death|QID|546|M|62.10,19.82|Z|Hillsbrad Foothills|N|To Deathguard Samsa.|
+T Elixir of Agony|QID|509|M|61.47,19.22|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
+A Elixir of Agony|QID|513|M|61.47,19.22|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|509|
+T Battle of Hillsbrad|QID|529|M|62.29,20.31|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Battle of Hillsbrad|QID|532|M|62.29,20.31|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
+
+; --- Undercity
+N Too tough|QID|567|N|This area has gotten a little too tough for your current level. We will temporarily move on for now. We are going to head back to The Barrens.|
+F Undercity|QID|513|M|60.19,18.69|Z|Hillsbrad Foothills|N|Fly to Undercity.|
+T Elixir of Agony|QID|513|M|48.68,69.25|Z|Undercity|N|To Master Apothecary Faranell.|
+A Elixir of Agony|QID|515|M|48.68,69.25|Z|Undercity|N|From Master Apothecary Faranell.|PRE|513|
+
+; --- The Barrens
+H Sun Rock Retreat|QID|1058|
+F Crossroads|QID|868|M|45.13,59.84|
+A Egg Hunt|QID|868|M|51.09,29.60|Z|The Barrens|N|From Korran.|
+F Camp Taurajo|QID|868|M|51.50,30.33|Z|The Barrens|
+
+A Betrayal from Within|QID|879|M|44.55,59.23|Z|The Barrens|N|From Mangletooth.|
+C Egg Hunt|QID|868|M|46.13,69.67|CC|Z|The Barrens|QO|1|N|Collect Silithid Eggs from the Silithid Mounds found on both sides of the road in Field of Giants.|
+A Gann's Reclamation|QID|843|M|46.11,81.23|Z|The Barrens|N|From Gann Stonespire. You may find him sooner walking along on Southern Gold Road. This is the furthest south he travels.|
+C Weapons of Choice|QID|893|M|45.60,79.57|Z|The Barrens|QO|1;2;3|N|Kill Razormane Pathfinder/Stalker for the Razormane Backstabber, Razormane Seer for the Charred Razormane Wand, and Razormane Warfrenzy drop the Razormane War Shield.\nYou'll find them in Blackthorn Ridge. The Pathfinders are near the entrance. You'll find the Seers and Warfrenzy along the sides as you go in deeper.|S|
+K Kuz|QID|879|M|43.8,83.2|Z|The Barrens|QO|1|N|Kill Kuz and loot his Skull. He patrols in a wide circle around the camp in the middle.|
+K Lok Orcbane|QID|879|M|40.13,80.69|Z|The Barrens|QO|3|N|Kill Lok and loot his Skull. He is at the top of the hill at the back of Blackthorn Ridge.|
+K Nak|QID|879|M|43.96,83.44|Z|The Barrens|QO|2|U|5103|N|Kill Nak and loot his Skull. Follow the cliff wall east and you'll run into him.|
+C Charred Razormane Wand|QID|893|QO|2|N|Kill Razormane Seers until one drops a Charred Razormane Wand.|US|
+C Razormane War Shield|QID|893|QO|3|N|Kill Razormane Warfrenzys until one drops a Razormane War Shield.|US|
+C Razormane Backstabber|QID|893|QO|1|N|Kill Razormane Pathfinders/Stalkers until one drops a Razormane Backstabber.|US|
+R Bael Modan|QID|843|M|46.35,85.00|Z|The Barrens|N|Simply, just run across the road.|
+C Gann's Reclamation|QID|843|QO|1;2|N|Kill Bael'dun Excavators and Foremen.|S|
+C Gann's Reclamation|QID|843|M|47.49,85.01|Z|The Barrens|QO|3|N|Kill Prospector Khazgorm and loot his Journal. He's in the center at the bottom of the dig site.|
+C Gann's Reclamation|QID|843|QO|1;2|N|Finish killing Bael'dun Excavators and Foremen.|US|
+T Gann's Reclamation|QID|843|M|46.14,75.39|Z|The Barrens|N|To Gann Stonespire on Southern Gold Road. As before, you may meet him earlier depending upon where he is on the road.|
+A Revenge of Gann|QID|846|M|46.14,75.39|Z|The Barrens|N|From Gann Stonespire.|PRE|843|
+R Bael Modan|QID|846|M|46.35,85.00|Z|The Barrens|
+
+N Washte Pawne|AVAILABLE|885|N|Before leaving this area, have a look around and see if you can locate this mob. It has a rare spawn timer and drops a quest starter.\nManually check this step off once you've killed it or giving up waiting.|
+A Washte Pawne|QID|885|U|5103|N|Right-click on Washte Pawne's Feather to accept the quest.\n[color=FF0000]NOTE: [/color]This is a tameable beast and if you see a hunter in the area, be repectful and ask before killing it.|O|
+N The Harvester|AVAILABLE|897|N|Before leaving this area, have a look around and see if you can locate this mob. It has a rare spawn timer and drops a quest starter.\nManually check this step off once you've killed it or giving up waiting.|
+A The Harvester|QID|897|U|5138|N|Right-click on the Harvester's Head to accept the quest.|O|
+N Owatanka|AVAILABLE|884|N|Before leaving this area, have a look around and see if you can locate this mob. It has a rare spawn timer and drops a quest starter.\nManually check this step off once you've killed it or giving up waiting.|
+A Owatanka|QID|884|U|5102|N|Right-click on Owatanka's Tailspike to accept the quest.|O|
 
 
 
+N Under Construction|QID|567|N|From this point on, the guide is incomplete.|
+
+L Level 29|QID|567|LVL|29|
+; --- Silverpine Forest
+;F The Sepulcher|ACTIVE|442|M|60.19,18.69|Z|Hillsbrad Foothills|N|Fly to The Sepulcher.|
 ;R Fenris Isle|QID|442|M|52.34,37.21;58.75,35.43;64.79,34.60;65.63,32.89|Z|Silverpine Forest|CC|N|Sticking to the hills to avoid unnecessary fighting, make your way to the lake and swim across.|
-;C Assault on Fenris Isle|QID|442|M|65.4,24.4|Z|Silverpine Forest|QO|1|N|Make your way inside Fenris Keep to the main room. Kill Thule and loot his head. Just like earlier, work your way in slowly.|
+;C Assault on Fenris Isle|QID|442|M|65.4,24.4|Z|Silverpine Forest|QO|1|N|Make your way inside Fenris Keep to the main room. Kill Thule and loot his head. Just like the last time you were here, work your way in slowly.|
 
+;R Hillsbrad Fields|QID|567|M|55.86,19.60;57.65,36.61;32.08,50.30|Z|Hillsbrad Foothills|CC|N|The Town Hall is contained within a wall that has only one entrance facing the main road. Your best bet is to approach from the south behind the Forge. You can pull the mobs out front towards you away from the road. You'll need to clear a path to the Town Hall.\n[color=FF0000]NOTE: [/color]Make sure you clear the patrolers before moving forward.|
+;N Clerk Horrace Whitesteed|QID|567|N|He is not alone and you'll have to clear the room slowly to avoid getting overwhelmed with adds. You will have to pull the 2 mobs on the left side of the room from the entrance. The moment you enter the room, you will aggro everyone. I recommend using the front foyer as a pull area. Put as much distance between the main room and the runner as possible; and they will run. This will limit the chance of runners making it worse for you.\nIMO, because of the way it's set up, this one is the toughest of all 4.|
+;C Battle of Hillsbrad|QID|532|M|29.4,40|Z|Hillsbrad Foothills|QO|2|N|Kill Hillsbrad Councilman.|S|
+;K Clerk Horrace Whitesteed|QID|567|M|29.4,42.2|Z|Hillsbrad Foothills|QO|1|N|Kill Clerk Horrace Whitesteed, inside the Inn. He's just inside the main room against the near wall to the right of the doorway.|
+;C Battle of Hillsbrad|QID|532|M|29.4,42|Z|Hillsbrad Foothills|QO|1;3;4|N|Kill Magistrate Burnside and  destroy the Hillsbrad Proclamation and Hillsbrad Town Registry. These are done inside the town Hall.|
+;C Battle of Hillsbrad|QID|532|M|29.4,40|Z|Hillsbrad Foothills|QO|2|N|Finish killing Hillsbrad Councilmen.|US|
+
+;R Tarren Mill|QID|532|M|32.08,50.30;57.65,36.61;55.86,19.60|Z|Hillsbrad Foothills|CC|N|Return to Tarren Mill. If you wish to do some grinding, run through the grass area.|
+;T Battle of Hillsbrad|QID|532|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+;A Battle of Hillsbrad|QID|539|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|PRE|532|
+
+;R Azurelode Mine|QID|567|M|27.50,59.30|Z|Hillsbrad Foothills|N|Run to the upper entrance of Azurelode Mine.|
+;C Battle of Hillsbrad|QID|539|QO|2|N|Kill Hillsbrad Miners. This shouldn't take long, as they're every where.|S|
+;K Miner Hackett|QID|567|M|27.27,58.63;28.61,52.80;29.77,54.13;29.78,55.63|Z|Hillsbrad Foothills|CC|QO|3|N|Work your way inside the mine and kill Miner Hackett.\n[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots. If he is not at this location, he's either dead, or he's down where Foreman Bonds is located. If you look over the ledge, you should see him below you.|
+;C Battle of Hillsbrad|QID|539|M|26.4,58.6|Z|Hillsbrad Foothills|QO|1|N|Kill Foreman Bonds.|
+;C Battle of Hillsbrad|QID|539|M|30.4,56.2|Z|Hillsbrad Foothills|QO|2|N|Finish killing Hillsbrad Miners.|US|
+
+;N Clerk Horrace Whitesteed|QID|567|N|He is not alone and you'll have to clear the room slowly to avoid getting overwhelmed with adds. You will have to pull the 2 mobs on the left side of the room from the entrance. The moment you enter the room, you will aggro everyone. I recommend using the front foyer as a pull area. Put as much distance between the main room and the runner as possible; and they will run. This will limit the chance of runners making it worse for you.\nIMO, because of the way it's set up, this one is the toughest of all 4.|
+;K Clerk Horrace Whitesteed|QID|567|M|29.4,42.2|Z|Hillsbrad Foothills|QO|1|N|Kill Clerk Horrace Whitesteed, inside the Inn. He's just inside the main room against the near wall to the right of the doorway.[color=FF0000]NOTE: [/color]Focus your attack on him. He is your primary target. If you die after killing him, you can just rez and leave.|
+;T Dangerous!|QID|567|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 ]]
 end)
