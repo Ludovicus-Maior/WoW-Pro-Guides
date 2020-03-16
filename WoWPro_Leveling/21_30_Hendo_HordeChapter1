@@ -325,9 +325,7 @@ F The Sepulcher|QID|442|M|63.27,48.55|Z|Undercity|N|Fly to The Sepulcher.|
 R Fenris Isle|QID|442|M|52.34,37.21;58.75,35.43;64.79,34.60;65.63,32.89|Z|Silverpine Forest|CC|N|Sticking to the hills to avoid unnecessary fighting, make your way to the lake and swim across.|
 C Assault on Fenris Isle|QID|442|M|65.4,24.4|Z|Silverpine Forest|QO|1|N|Make your way inside Fenris Keep to the main room. Kill Thule and loot his head. Just like the last time you were here, work your way in slowly.|
 
-
 N Under Construction|QID|567|N|From this point on, the guide is incomplete.|
-
 
 ;R Hillsbrad Fields|QID|567|M|55.86,19.60;57.65,36.61;32.08,50.30|Z|Hillsbrad Foothills|CC|N|The Town Hall is contained within a wall that has only one entrance facing the main road. Your best bet is to approach from the south behind the Forge. You can pull the mobs out front towards you away from the road. You'll need to clear a path to the Town Hall.\n[color=FF0000]NOTE: [/color]Make sure you clear the patrolers before moving forward.|
 ;N Clerk Horrace Whitesteed|QID|567|N|He is not alone and you'll have to clear the room slowly to avoid getting overwhelmed with adds. You will have to pull the 2 mobs on the left side of the room from the entrance. The moment you enter the room, you will aggro everyone. I recommend using the front foyer as a pull area. Put as much distance between the main room and the runner as possible; and they will run. This will limit the chance of runners making it worse for you.\nIMO, because of the way it's set up, this one is the toughest of all 4.|
@@ -335,6 +333,7 @@ N Under Construction|QID|567|N|From this point on, the guide is incomplete.|
 ;K Clerk Horrace Whitesteed|QID|567|M|29.4,42.2|Z|Hillsbrad Foothills|QO|1|N|Kill Clerk Horrace Whitesteed, inside the Inn. He's just inside the main room against the near wall to the right of the doorway.|
 ;C Battle of Hillsbrad|QID|532|M|29.4,42|Z|Hillsbrad Foothills|QO|1;3;4|N|Kill Magistrate Burnside and  destroy the Hillsbrad Proclamation and Hillsbrad Town Registry. These are done inside the town Hall.|
 ;C Battle of Hillsbrad|QID|532|M|29.4,40|Z|Hillsbrad Foothills|QO|2|N|Finish killing Hillsbrad Councilmen.|US|
+
 
 ;R Tarren Mill|QID|532|M|32.08,50.30;57.65,36.61;55.86,19.60|Z|Hillsbrad Foothills|CC|N|Return to Tarren Mill. If you wish to do some grinding, run through the grass area.|
 ;T Battle of Hillsbrad|QID|532|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
