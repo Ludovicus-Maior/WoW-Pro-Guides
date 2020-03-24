@@ -2081,9 +2081,10 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     end
                 end
             end
+            -- WoWPro.recipe a number
             if WoWPro.recipe and WoWPro.recipe[guideIndex] then
-                WoWPro:dbp("Step %d Recipe %s",guideIndex,WoWPro.recipe[guideIndex])
-                if WoWProCharDB.Trades and WoWPro:AllIDsInTable(WoWPro.recipe[guideIndex],WoWProCharDB.Trades) then
+                WoWPro:dbp("Step %d Recipe %d",guideIndex,WoWPro.recipe[guideIndex])
+                if WoWProCharDB.Trades and WoWProCharDB.Trades[WoWPro.recipe[guideIndex]] then
                     local why = ("recipe #%d %s/%d is known: %s"):format(guideIndex, step, WoWPro.recipe[guideIndex], tostring(WoWProCharDB.Trades[WoWPro.recipe[guideIndex]]))
                     WoWPro.CompleteStep(guideIndex, why)
                     skip = true
