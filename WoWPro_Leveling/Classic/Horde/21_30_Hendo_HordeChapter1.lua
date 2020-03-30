@@ -6,7 +6,7 @@ WoWPro:GuideLevels(guide,21, 30)
 WoWPro:GuideNextGuide(guide, 'Classic-31-40-Hendo-HordeChapter2')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Welcome!|QID|4641|N|This is a new guide written by TheRealHendo. It is currently a work-in-progress.\nIf you find a problem, please report it on Discord in #classic-bug-reports .  Enjoy and thanks!|
+N Welcome!|QID|4641|N|This is a new guide written by TheRealHendo. It is currently in beta and ready for release testing.\nIf you find a problem, please report it on Discord in #classic-bug-reports .  Enjoy and thanks!|
 
 C Goblin Invaders|QID|1062|QO|1|N|Kill Venture Co. Loggers. Deforesters and Operators do not count.|S|
 A Boulderslide Ravine|QID|6421|M|44.84,63.26;47.15,64.06|CC|N|From Mor'rogal. You'll find him just off the path to the Charred Vale.|
