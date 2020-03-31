@@ -6,7 +6,7 @@ WoWPro:GuideLevels(guide,21, 30)
 WoWPro:GuideNextGuide(guide, 'Classic-31-40-Hendo-HordeChapter2')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Welcome!|QID|4641|N|This is a new guide written by TheRealHendo. It is currently a work-in-progress.\nIf you find a problem, please report it on Discord in #classic-bug-reports .  Enjoy and thanks!|
+N Welcome!|QID|4641|N|This is a new guide written by TheRealHendo. It is currently a beta version.\nIf you find a problem, please report it on Discord in #classic-bug-reports .  Enjoy and thanks!|
 
 C Goblin Invaders|QID|1062|QO|1|N|Kill Venture Co. Loggers. Deforesters and Operators do not count.|S|
 A Boulderslide Ravine|QID|6421|M|44.84,63.26;47.15,64.06|CC|N|From Mor'rogal. You'll find him just off the path to the Charred Vale.|
@@ -30,6 +30,7 @@ R Exit the Cave|QID|6421|M|61.72,93.13;67.76,86.64|CC|N|Exit the cave and make y
 R Malaka'jin|QID|6421|M|71.82,91.70|CC|N|Follow the road south to Malaka'jin.|
 A Jin'Zil's Forest Magic|QID|1058|M|74.52,97.84|N|From Witch Doctor Jin'Zil.|
 
+; --- The Barrens
 R The Barrens|QID|6401|M|71.82,91.70;34.14,27.59|CC|N|Exit Malaka'jin and follow the road south to The Barrens border.|
 T Goblin Invaders|QID|1062|M|35.27,27.88|Z|The Barrens|N|To Seereth Stonebreak.|
 A The Elder Crone|QID|1063|M|35.27,27.88|Z|The Barrens|N|From Seereth Stonebreak.|PRE|1062|
@@ -44,8 +45,13 @@ A Forsaken Aid|QID|1064|M|70.02,30.90|Z|Thunder Bluff|N|From Magatha Grimtotem.|
 T Forsaken Aid|QID|1064|M|22.84,20.93|Z|Thunder Bluff|N|To Apothecary Zamah.|
 A Journey to Tarren Mill|QID|1065|M|22.84,20.93|Z|Thunder Bluff|N|From Apothecary Zamah.|PRE|1064|
 
+; --- Ashenvale
+F Splintertree Post|AVAILABLE|6571|M|47.02,49.83|Z|Thunder Bluff|
+A Warsong Supplies|AVAILABLE|6571|M|71.44,67.67|Z|Ashenvale|N|From Locke Okarr; by the south watchtower.|
+
 ; --- Silverpine Forest
-F Orgrimmar|QID|1094|M|47.02,49.83|Z|Thunder Bluff|N|Fly to Orgrimmar.|
+F Orgrimmar|QID|443|M|47.02,49.83|Z|Thunder Bluff|N|Fly to Orgrimmar.|
+h Orgrimmar|QID|443|M|54.61,67.78|Z|Orgrimmar|N|At Barkeeper Morag.\nThis will be a better option the next time you need to use your hearth.|
 R Leave Orgrimmar|AVAILABLE|443|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
 b Tirisfal Glades|AVAILABLE|443|M|50.88,13.83|Z|Durotar|N|Take the Zeppelin to Tirisfal Glades.|
 R Undercity|AVAILABLE|443|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
@@ -123,7 +129,7 @@ R Silverpine Forest|QID|1067|N|We are running back to The Sepulcher instead of f
 ; --- Silverpine Forest
 R The Sepulcher|QID|516|M|51.24,36.76;45.83,41.61|Z|Silverpine Forest|CC|N|Run back to The Sepulcher.|
 T Beren's Peril|QID|516|M|44.01,40.84|Z|Silverpine Forest|N|To Shadow Priest Allister.|
-;L Level 24|QID|480|LVL|24|N|You should be around level 24 by this point.|
+L Level 24|QID|480|LVL|24|N|You should be around level 24 by this point.|
 T The Weaver|QID|480|M|44.01,40.84|Z|Silverpine Forest|N|To Shadow Priest Allister.|
 
 ; --- Undercity
@@ -132,7 +138,7 @@ T A Husband's Revenge|QID|530|M|62.00,42.73|Z|Undercity|N|To Raleigh Andrean.|
 
 ; --- Thunder Bluff
 N Quick visit back to the Barrens|ACTIVE|1067|N|This is probably the best time to make a quick trip back to Thunder Bluff to turn in a quests and to do any training (especially Druids). The goal is to be lv 25 when you return to Silverpine Forest.|
-H Sun Rock Retreat|ACTIVE|1067|N|Hearth to Sun Rock Retreat. This is why we didn't change our hearthstone.\n[color=FF0000]NOTE: [/color]If your hearthstone is on CD, you're going to have to do it the long way by taking the zeppelin from Tirisfal Glade and flying from Orgrimmar to Thunder Bluff.|
+H Orgrimmar|ACTIVE|1067|N|This is why we changed our hearthstone.\n[color=FF0000]NOTE: [/color]If your hearthstone is on CD, you're going to have to do it the long way by taking the zeppelin from Tirisfal Glade and flying from Orgrimmar to Thunder Bluff.|
 F Thunder Bluff|M|45.13,59.84|N|Fly to Thunder Bluff.|
 T Return to Thunder Bluff|QID|1067|M|22.84,20.93|Z|Thunder Bluff|N|To Apothecary Zamah.|
 A The Flying Machine Airport|QID|1086|M|22.84,20.93|Z|Thunder Bluff|N|From Apothecary Zamah.|
@@ -141,6 +147,12 @@ A The Flying Machine Airport|QID|1086|M|22.84,20.93|Z|Thunder Bluff|N|From Apoth
 F Ratchet|ACTIVE|1094|M|47.02,49.83|Z|Thunder Bluff|
 T Further Instructions|QID|1094|M|62.98,37.18|Z|The Barrens|N|To Sputtervalve.|
 A Further Instructions|QID|1095|M|62.98,37.18|Z|The Barrens|N|From Sputtervalve.|PRE|1094|
+N Booty Bay|ACTIVE|6571|N|Before returning to Stonetalon Mountains, we're taking a side trip to Booty Bay to pick up a quest item. This is the last time we will be in Ratchet to make this trip.|
+
+; --- Booty Bay
+b Booty Bay|ACTIVE|6571|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
+C Warsong Supplies|QID|6571|M|26.46,73.38|Z|Stranglethorn Vale|QO|2|N|You'll find the crate at the back of the first stack of cargo on the dock.\nDo this quick enough and you won't have to wait for the next boat to go back.|
+b Ratchet|M|25.80,73.10|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|
 
 ; --- Stonetalon Mountains
 F Sun Rock Retreat|ACTIVE|1095|M|63.11,37.10|Z|The Barrens|
@@ -199,6 +211,7 @@ A Ordanus|QID|1088|M|46.01,60.37|N|From Braelyn Firehand.|
 ; --- Thunder Bluff
 F Thunder Bluff|QID|1086|M|45.13,59.84|
 T The Flying Machine Airport|QID|1086|M|23.06,21.07|Z|Thunder Bluff|N|To Apothecary Zamah.|
+A The Sacred Flame|QID|1195|M|54.74,51.41|Z|Thunder Bluff|N|From Zangen Stonehoof.|
 N Train|QID|496|N|Do whatever training you need to do now. From here, we will be headed back to Tarren Mill and you won't be able to train until you return to Kalimdor.|C|Druid|
 
 ; --- Hillsbrad Foothills
@@ -261,11 +274,10 @@ T Elixir of Agony|QID|513|M|48.68,69.25|Z|Undercity|N|To Master Apothecary Faran
 A Elixir of Agony|QID|515|M|48.68,69.25|Z|Undercity|N|From Master Apothecary Faranell.|PRE|513|
 
 ; --- The Barrens
-H Sun Rock Retreat|QID|1058|
-F Crossroads|QID|868|M|45.13,59.84|
+H Orgrimmar|QID|868|
+F Crossroads|QID|868|M|45.50,63.84|Z|Orgrimmar|
 A Egg Hunt|QID|868|M|51.09,29.60|Z|The Barrens|N|From Korran.|
 F Camp Taurajo|QID|868|M|51.50,30.33|Z|The Barrens|
-
 A Betrayal from Within|QID|879|M|44.55,59.23|Z|The Barrens|N|From Mangletooth.|
 C Egg Hunt|QID|868|M|46.13,69.67|CC|Z|The Barrens|QO|1|N|Collect Silithid Eggs from the Silithid Mounds found on both sides of the road in Field of Giants.|
 A Gann's Reclamation|QID|843|M|46.11,81.23|Z|The Barrens|N|From Gann Stonespire. You may find him sooner walking along on Southern Gold Road. This is the furthest south he travels.|
@@ -303,50 +315,138 @@ A A New Ore Sample|QID|1153|M|45.10,57.73|Z|The Barrens|N|From Tatternack Steelf
 T Washte Pawne|QID|885|M|44.87,59.09|Z|The Barrens|N|To Jorn Skyseer.|
 T Owatanka|QID|884|M|44.87,59.09|Z|The Barrens|N|To Jorn Skyseer.|
 T The Harvester|QID|897|M|44.87,59.09|Z|The Barrens|N|To Jorn Skyseer.|
-F Crossroads|QID|852|51.54,30.35|Z|The Barrens|C|Warlock,Rogue|
-
-; --- Level 28 visit for everyone except Warlocks and Rogues (they can wait until we get to Orgrimmar shortly)
-F Thunder Bluff|QID|852|M|51.54,30.35|Z|The Barrens|N|Fly to Thunder Bluff to do training and whatever else you need to do.|C|-Warlock,-Rogue|LVL|28|
-F Crossroads|QID|852|M|46.89,49.77|Z|Thunder Bluff|C|-Warlock,-Rogue|
-; ---
-
-T Egg Hunt|QID|868|M|51.10,29.63|Z|The Barrens|N|To Korran.|
+F Crossroads|QID|852|M|51.54,30.35|Z|The Barrens|
+T Egg Hunt|QID|868|M|51.10,29.63|Z|The Barrens|N|To Korran.\n[color=FF0000]NOTE: [/color]Destroy an Silithid eggs you have leftover.|
 T Betrayal from Within|QID|906|M|51.49,30.81|Z|The Barrens|N|To Thork.|
+F Orgrimmar|QID|567|M|51.50,30.33|Z|The Barrens|
+N Level 28 Training|QID|567|N|Do your training before you leave.|
+N Deadly Blunderbuss|ACTIVE|6571|N|Beg, borrow, or steal. Before leaving, make sure you bring one of these with you. \nIf you have level 105 Engineering, you can make it yourself. Otherwise, a friend or the AH are your only options.|
 
-; Leaving Kalimdor
-F Orgrimmar|QID|442|M|51.50,30.33|Z|The Barrens|
-N Level 28 Training|QID|442|N|Do your training before you leave.|C|Priest,Warlock|
-R Leave Orgrimmar|QID|442|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
-b Tirisfal Glades|QID|442|M|50.88,13.83|Z|Durotar|N|Take the Zeppelin to Tirisfal Glades.|
+; --- Ashenvale
+F Splintertree Post|M|45.50,63.84|Z|Orgrimmar|
+A Satyr Horns|QID|6441|M|73.11,61.49|Z|Ashenvale|N|From Pixel.|
+A Warsong Saw Blades|QID|6581|ACTIVE|6571|M|73.11,61.49|Z|Ashenvale|N|From Pixel.|PRE|6571|O|
+T Warsong Saw Blades|QID|6581|M|73.11,61.49|Z|Ashenvale|N|To Pixel.|
+A Stonetalon Standstill|QID|25|M|73.62,60.02|Z|Ashenvale|N|From Mastok Wrilehiss.|
+A Ashenvale Outrunners|QID|6503|M|71.15,68.17|Z|Ashenvale|N|From Kuray'bin.|
+A The Lost Pages|QID|6504|M|69.98,71.09|Z|Ashenvale|N|From Gurda Ragescar.|
+N Sharptalon|QID|2|AVAILABLE|-6383^235^742^6382|N|While you are in the area south of Splintertree Post, keep an eye out for Sharptalon, a blue hippogryph that paths in that area. He is part of the 'Ashenvale Hunt' quest.|
+A Sharptalon's Claw|QID|2|U|16305|N|Right-click the item to activate the quest.|PRE|6383^235^742^6382|O|
+K Ashenvale Outrunners|QID|6503|M|76.25,67.18|Z|Ashenvale|QO|1|N|Kill Ashenvale Outrunners.|
+A Torek's Assault|QID|6544|M|68.33,75.33|Z|Ashenvale|ELITE|N|[color=FF00FF]Escort Quest:[/color]\nFrom Torek.\nThis is an 'escort' quest... sort of. Basically, you follow him and his troops as they kill things.|
+R Greenpaw Village|QID|6571|M|64.30,70.43;58.33,61.52;56.89,62.47|Z|Ashenvale|CC|
+C Warsong Supplies|QID|6571|QO|4|N|Collect the Logging Rope randomly dropped by Foulweald Furbolgs. This could take quite a few kills to get. Work your way west through the village until you get it.|
+R Mystral Lake|QID|25|M|50.65,64.62;51.62,66.50;51.51,67.86|Z|Ashenvale|CC|N|Make your way to the lake. Give the building at Silverwind Refuge a wide berth, unless you enjoy PvP and getting your butt kicked by Alliance guards.|
+K Stonetalon Standstill|QID|25|QO|1|N|Kill Befouled Water Elementals|S|
+C Stonetalon Standstill|QID|25|M|49.03,69.65|Z|Ashenvale|QO|2|N|Go to the gazebo on the island in Mystral Lake.|
+K Tideress|QID|25|M|49.03,69.65|Z|Ashenvale|L|16408 1|N|Wait for Tidress to appear and kill it for a drop quest item, Befouled Water Globe.|
+A The Befouled Element|QID|1918|U|16408|N|Click the item to activate the quest.|O|
+K Stonetalon Standstill|QID|25|QO|1|US|N|Finish killing Befouled Water Elementals|
+R Talondeep Path|QID|23|AVAILABLE|-6383^235^742^6382|M|42.65,70.10|Z|Ashenvale|CC|
+N Ursangous|QID|23|AVAILABLE|-6383^235^742^6382|N|Have a look around this area for a light-colored bear named Ursangous. He is part of the 'Ashenvale Hunt' quest.|
+A Ursangous's Paw|QID|23|U|16303|N|Right-click the item to activate the quest.|PRE|6383^235^742^6382|O|
+R Raynewood Retreat|QID|1088|M|51.53,67.46;51.27,58.14;56.25,59.75;56.49,56.52|Z|Ashenvale|CC|N|There are at least 3 paths to get where you are going. This one is the most straight forward with the least resistance.\nYou will also be using a back way in to avoid the Alliance tower leading into the area. There is a guard that you cannot avoid aggroing.|
+l Etched Phial|ACTIVE|1195|L|5867|N|Kill Laughing Sisters until one of them drops it.|S|
+N Shadumbra|QID|24|AVAILABLE|-6383^235^742^6382|N|While you are in the area of Raynewood Retreat, keep an eye out for Shadumbra, a nightsaber cat that paths in that area. She is part of the 'Ashenvale Hunt' quest.|
+A Shadumbra's Head|QID|24|U|16304|N|Right-click the item to activate the quest.|PRE|6383^235^742^6382|O|
+C Ordanus|QID|1088|M|62,51.2|Z|Ashenvale|QO|1|N|Climb to the top of the 'tower' and kill Ordanus and loot his head. You will encounter four lv 25-26 Druids (bear form) on your way up. Each one can be handled/pulled individually.\n[color=FF0000]NOTE: [/color]When you get to the top floor, Ordanus is inside flanked by two lv 26 Vindicators. There is no pulling them separately. Rush Ordanus and kill him as quickly as possibly. If you do not have any CC options, I recommend drawing them outside. If you die after killing Ordanus, you can return and loot his head without worrying about the other two.|
+l Etched Phial|ACTIVE|1195|L|5867|N|Kill Laughing Sisters until one of them drops it.|US|
+C Moonwell|QID|1195|M|61.53,68.33;59.77,69.73;60.10,72.85|Z|Ashenvale|CC|QO|1|U|5867|N|Make your way to the Moonwell. You can follow the path all the way there, or just take the short cut.|NC|
+R Splintertree Post|QID|6503|M|71.16,69.13|Z|Ashenvale|N|How you get here is entirely up to you. You can either take the safe route and follow the road or take the shortcut and run straight through (aka grind your way there).|
+T Ashenvale Outrunners|QID|6503|M|71.12,68.15|Z|Ashenvale|N|To Kuray'bin.|
+T Torek's Assault|QID|6544|M|73.03,62.47|Z|Ashenvale|N|To Ertog Ragetusk.|
+L Level 29|QID|24|LVL|29|N|You should be around level 29 by this point.|
+T Shadumbra's Head|QID|24|M|73.76,61.51|Z|Ashenvale|N|To Senani Thunderheart.|
+T Sharptalon's Claw|QID|2|M|73.76,61.51|Z|Ashenvale|N|To Senani Thunderheart.|
+T Ursangous's Paw|QID|23|M|73.76,61.51|Z|Ashenvale|N|To Senani Thunderheart.|
+T The Hunt Completed|QID|247|M|73.76,61.51|Z|Ashenvale|N|To Senani Thunderheart.\n[color=FF0000]NOTE: [/color]This quest will activate as soon as you turn in the last quest of the special kill quests.|
+R Satyrnaar|QID|6441|M|74.98,65.20;81.77,52.08|Z|Ashenvale|CC|
+C Satyr Horns|QID|6441|QO|1|N|Kill Satyrs to collect Satyr Horns.\nThese guys like to run.|S|
+C Warsong Supplies|QID|6571|QO|3|N|Collect the Warsong Oil from the pitcher that spawns on the ground in multiple locations near the camps in Satyrnaar.|NC|
+C Satyr Horns|QID|6441|QO|1|N|Finish collecting your Satyr Horns.\nThese guys like to run.|US|
+R Splintertree Post|QID|6441|M|75.16,64.32|Z|Ashenvale|
+T Satyr Horns|QID|6441|M|73.09,61.48|Z|Ashenvale|N|To Pixel.|
+F The Zoram'gar Strand|QID|824|M|73.25,61.67|Z|Ashenvale|
+T Je'neu of the Earthen Ring|QID|824|M|11.61,34.28|Z|Ashenvale|N|To Je'neu Sancrea.|
+A Between a Rock and a Thistlefur|QID|216|M|11.87,34.50|Z|Ashenvale|N|From Karang Amakkar.|
+A Troll Charm|QID|6462|M|11.68,34.82|Z|Ashenvale|N|From Mitsuwa.|
+R Thistlefur Village|QID|216|M|30.87,45.69|
+C Between a Rock and a Thistlefur|QID|216|QO|1;2|N|Kill Thistlefur Avengers and Shaman.\nKill them as you run into them. You'll have plenty of time to work on this.|S|
+R Thistlefur Hold|QID|6462|M|37.49,32.27;38.46,30.63|Z|Ashenvale|CC|
+C Troll Charm|QID|6462|M|39.68,32.95;40.76,32.81;40.94,31.59;41.36,32.18;41.76,32.93;41.77,33.68;42.05,34.17;41.73,34.48|Z|Ashenvale|CS|QO|1|NC|N|Loot the Troll Charms from the chests found in Thistlefur Hold.\nAdvance cautiously as you look for the chests.|
+R Drop down|QID|6482|M|41.59,34.49|Z|Ashenvale|N|Walk off the ledge and drop to the ground below where Ruul Snowhoof is. \n[color=FF0000]NOTE: [/color]If, for whatever reason, you haven't finished collecting Troll Charms, finish that before starting the escort quest. You won't have time to finish it on your way out.|
+A Freedom to Ruul|QID|6482|M|41.59,34.49|Z|Ashenvale|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ruul Snowhoof.\nThis a really, long escort course. |
+A Freedom to Ruul|QID|6482|M|41.59,34.49|Z|Ashenvale|ELITE|N|[color=CC00FF]QUEST FAILED[/color]\n[color=80FF00]Escort Quest:[/color]\nHead back inside Thistlefur Hold to Ruul Snowhoof to restart it.\n By this time, the mobs have started respawning and you will have to fight your way back in. If you are quick, you may not have to fight as much on the way out.|FAIL|
+C Freedom to Ruul|QID|6482|M|40.00,31.98;38.48,36.53;38.57,37.21|Z|Ashenvale|CC|QO|1|N|Follow Ruul out of Thistlefur Hold and through Thistlefur Village.\nAs you make your way along, you'll be attacked by a trio of Thistlefurs on two occassions. First one is inside the Hold and the second is just outside the east gate. Fairly easy to handle, unless they run too far.\nFocus on keeping alive. Ruul can handle himself fairly well. Avoid pulling unnecessarily; Ruul will be pulling plenty on his own.\nIf you die, the quest is over. You will not make it back in time.|
+C Between a Rock and a Thistlefur|QID|216|QO|1;2|N|Finish killing Thistlefur Avengers and Shaman. No need to focus on one area as you'll find plenty on your way out.|US|
+R The Zoram Strand|QID|216|M|37.74,35.17;13.48,32.21|Z|Ashenvale|CC|N|Run back to Zoram'gar Outpost. Feel free to take whatever path you desire.|
+T Between a Rock and a Thistlefur|QID|216|M|11.91,34.52|Z|Ashenvale|N|To Karang Amakkar.\n[color=FF0000]NOTE: [/color]Do NOT accept the follow-up quest. It's not worth the effort.|
+T Troll Charm|QID|6462|M|11.69,34.81|Z|Ashenvale|N|To Mitsuwa.|
+N The Lost Pages|ACTIVE|6504|N|At this point in time, take a look at which pages you have. You have 2 chooses now. You can either grind until you get them, or just buy them from the AH in Orgrimmar.\nSeeing as you probably don't want to spend too much time looking for them, we're off to Orgrimmar.\nUse this opportunity to AH any extra pages you may have.|
+
+; --- Orgrimmar
+F Orgrimmar|ACTIVE|6504|M|12.19,33.82|Z|Ashenvale|
+C Chapter 1|QID|6504|Z|Ashenvale|QO|1|U|16645|L|16642|N|Combine Pages 1-4|
+C Chapter 2|QID|6504|Z|Ashenvale|QO|2|U|16649|L|16643|N|Combine Pages 5-8|
+C Chapter 3|QID|6504|Z|Ashenvale|QO|3|U|16653|L|16644|N|Combine Pages 9-12|
+
+; --- Ashenvale
+F Splintertree Post|M|12.19,33.82|Z|Ashenvale|N|Back to Ashenvale.|
+T Warsong Supplies|QID|6571|M|71.44,67.67|Z|Ashenvale|N|To Locke Okarr; by the south watchtower.|
+T The Lost Pages|QID|6504|M|70.01,71.14|Z|Ashenvale|N|To Gurda Ragescar.|
+L Level 30|QID|1088|LVL|30|N|You should be around level 30 by this point.|
+
+; --- Stonetalon Mountains
+F Sun Rock Retreat|QID|1088|M|73.25,61.67|Z|Ashenvale| ; from Splintertree Post
+T Ordanus|QID|1088|M|46.01,60.37|N|To Braelyn Firehand.|
+R Charred Vale|QID|6283|ACTIVE|6283|M|34.51,60.13|CC|N|Choose your own path to get there. I suggest going over the mountain.|
+K Bloodfury Bloodline|QID|6283|M|30.71,61.15|QO|1|N|Clear any potential adds in the area. When you're ready, kill Bloodfury Ripper and loot her remains. She paths around a little. I highly recommend kiting her into the mountains away from the others.\n[color=FF0000]NOTE: [/color]She is a level 26 Elite with a 5 minute respawn timer.|
+R Sun Rock Retreat|QID|6283|M|49.58,60.99|
+T Bloodfury Bloodline|QID|6283|M|47.18,61.10|N|To Maggran Earthbinder.|
 
 ; --- Silverpine Forest
+F Orgrimmar|ACTIVE|442|M|45.13,59.84| ; from Sun Rock Retreat
+B Strong Troll's Blood Potion|ACTIVE|515|L|3388|N|Unless you can make them, or know a guy, purchase one from the AH before leaving.|
+R Leave Orgrimmar|QID|442|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
+b Tirisfal Glades|QID|442|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|
 R Undercity|QID|442|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
 F The Sepulcher|QID|442|M|63.27,48.55|Z|Undercity|N|Fly to The Sepulcher.|
 R Fenris Isle|QID|442|M|52.34,37.21;58.75,35.43;64.79,34.60;65.63,32.89|Z|Silverpine Forest|CC|N|Sticking to the hills to avoid unnecessary fighting, make your way to the lake and swim across.|
 C Assault on Fenris Isle|QID|442|M|65.4,24.4|Z|Silverpine Forest|QO|1|N|Make your way inside Fenris Keep to the main room. Kill Thule and loot his head. Just like the last time you were here, work your way in slowly.|
+R The Sepulcher|QID|442|M|46.30,41.55|Z|Silverpine Forest|N|Run back to The Sepulcher. Choose your own path.|
+T Assault on Fenris Isle|QID|442|M|43.35,40.88|Z|Silverpine Forest|N|To High Executor Hadrec; down in the crypt.|
 
-N Under Construction|QID|567|N|From this point on, the guide is incomplete.|
+; --- Hillsbrad Foothills
+F Tarren Mill|QID|567|M|45.62,42.59|Z|Silverpine Forest|
+R Hillsbrad Fields|QID|567|M|55.86,19.60;57.65,36.61;32.08,50.30|Z|Hillsbrad Foothills|CC|N|The Town Hall is contained within a wall that has only one entrance facing the main road. Your best bet is to approach from the south behind the Forge. You can pull the mobs out front towards you away from the road. You'll need to clear a path to the Town Hall.\n[color=FF0000]NOTE: [/color]Make sure you clear the patrolers before moving forward.|
+N Clerk Horrace Whitesteed|QID|567|N|He is not alone and you'll have to clear the room slowly to avoid getting overwhelmed with adds. You will have to pull the 2 mobs on the left side of the room from the entrance. The moment you enter the room, you will aggro everyone. I recommend using the front foyer as a pull area. Put as much distance between the main room and the runner as possible; and they will run. This will limit the chance of runners making it worse for you.\nIMO, because of the way it's set up, this one is the toughest of all 4.|
+C Battle of Hillsbrad|QID|532|QO|2|N|Kill Hillsbrad Councilmen.|S|
+K Clerk Horrace Whitesteed|QID|567|M|30.08,42.01|Z|Hillsbrad Foothills|QO|1|N|Kill Clerk Horrace Whitesteed inside the Townhall. He's just inside the main room against the near wall to the right of the doorway.|
+C Magistrate Burnside|QID|532|M|29.65,41.70|Z|Hillsbrad Foothills|QO|1;3;4|N|Kill Magistrate Burnside standing at the pulpit inside the townhall.|
+C Battle of Hillsbrad|QID|532|M|29.65,41.70|Z|Hillsbrad Foothills|QO|3|N|Destroy the Hillsbrad Proclamation on the railing.|NC|
+C Battle of Hillsbrad|QID|532|M|29.59,41.64|Z|Hillsbrad Foothills|QO|4|N|Destroy the Hillsbrad Town Registry on the floor by the book shelf in the corner.|NC|
+C Battle of Hillsbrad|QID|532|QO|2|N|Finish killing Hillsbrad Councilmen.|US|
+R Tarren Mill|QID|532|M|32.08,50.30;57.65,36.61;55.86,19.60|Z|Hillsbrad Foothills|CC|N|Return to Tarren Mill. If you wish to do some grinding, run through the grass area.|
+T Battle of Hillsbrad|QID|532|M|62.22,20.33|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+A Battle of Hillsbrad|QID|539|M|62.22,20.33|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|PRE|532|
+R Azurelode Mine|QID|567|M|27.50,59.30|Z|Hillsbrad Foothills|N|Run to the upper entrance of Azurelode Mine.|
+C Battle of Hillsbrad|QID|539|QO|2|N|Kill Hillsbrad Miners. This shouldn't take long, as they're everywhere.|S|
+K Miner Hackett|QID|567|M|27.27,58.63;28.61,52.80;29.77,54.13;29.78,55.63;29.94,54.58|Z|Hillsbrad Foothills|CC|QO|3|N|Work your way inside the mine and kill Miner Hackett. Clear any potential adds before you attack him.\n[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots. If he is not at this location, he's either dead, or he's down where Foreman Bonds is located. If you look over the ledge, you should see him below you.|
+C Battle of Hillsbrad|QID|539|M|31.22,55.76|Z|Hillsbrad Foothills|QO|1|N|Kill Foreman Bonds. Clear any potential adds before attacking him. Any added distractions will greatly reduce your chances of success.\n[color=FF0000]NOTE: [/color]When he is almost dead, two lv 29 guards will spawn. Be aware that they both will take turns interrupting any spellcasting. Focus on killing Foreman Bonds. Don't worry about dying once he is dead. You can ressurect outside the mine and go back in if you have to.|
+C Battle of Hillsbrad|QID|539|QO|2|N|Finish killing Hillsbrad Miners.|US|
+R Western Strand|QID|515|ACTIVE|515|M|25.00,63.79;34.53,65.42|Z|Hillsbrad Foothills|CC|N|Head east from the Azurelode Mine and then turn south towards the shoreline.|
+C Torn Fin Eye|ACTIVE|515|QO|3|N|Working your way east along the coast, kill the Murlocs to collect Torn Fin Eyes.\nMuckdwellers are a better choice over Coastrunners (range attack).\nIf you prefer, you can do this in the water as you swim east.\n[color=FF0000]NOTE: [/color]Avoid letting the Coastrunners get to far away from you when they run, they will aggro another Murloc and range attack you.|
+N Southshore|ACTIVE|515|N|Southshore is Alliance controlled. So, unless you enjoy running from PvP guards, I'd steer clear of it.|
+R Dun Garok|ACTIVE|541|M|57.65,36.61;79.17,55.79;71.94,68.53|Z|Hillsbrad Foothills|CC|N|Follow the road to Dun Garok.|
+R Eastern Strand|ACTIVE|541|M|66.82,77.60|Z|Hillsbrad Foothills|CC|N|Continue south Follow the road to Dun Garok.|
+C Daggerspine Scale|ACTIVE|515|QO|2|N|Kill the Nagas to collect Daggerspine Scales.\nAs you get closer to Southshore, the levels start to get a little higher.|
+R Tarren Mill|QID|515||M|62.81,41.59;63.31,29.84|Z|Hillsbrad Foothills|CC|N|Return to Tarren Mill.\nYou can either follow the road, or weave your way to the river and follow the EAST bank north. The Southshore guards will leave you alone as long as you don't go in the water.|
+T Elixir of Agony|QID|515|M|61.47,19.17|Z|Hillsbrad Foothills|N|To Apothecary Lydon.\n[color=FF0000]NOTE: [/color]Do not accept the follow up. It's an Elite quest and not really worth the effort.|
+T Dangerous!|QID|567|M|62.36,20.32|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
+T Battle of Hillsbrad|QID|539|M|62.36,20.32|Z|Hillsbrad Foothills|N|To High Executor Darthalia.\n[color=FF0000]NOTE: [/color]Do not accept the follow up. It's an Elite quest and not really worth the effort.|
 
-;R Hillsbrad Fields|QID|567|M|55.86,19.60;57.65,36.61;32.08,50.30|Z|Hillsbrad Foothills|CC|N|The Town Hall is contained within a wall that has only one entrance facing the main road. Your best bet is to approach from the south behind the Forge. You can pull the mobs out front towards you away from the road. You'll need to clear a path to the Town Hall.\n[color=FF0000]NOTE: [/color]Make sure you clear the patrolers before moving forward.|
-;N Clerk Horrace Whitesteed|QID|567|N|He is not alone and you'll have to clear the room slowly to avoid getting overwhelmed with adds. You will have to pull the 2 mobs on the left side of the room from the entrance. The moment you enter the room, you will aggro everyone. I recommend using the front foyer as a pull area. Put as much distance between the main room and the runner as possible; and they will run. This will limit the chance of runners making it worse for you.\nIMO, because of the way it's set up, this one is the toughest of all 4.|
-;C Battle of Hillsbrad|QID|532|M|29.4,40|Z|Hillsbrad Foothills|QO|2|N|Kill Hillsbrad Councilman.|S|
-;K Clerk Horrace Whitesteed|QID|567|M|29.4,42.2|Z|Hillsbrad Foothills|QO|1|N|Kill Clerk Horrace Whitesteed, inside the Inn. He's just inside the main room against the near wall to the right of the doorway.|
-;C Battle of Hillsbrad|QID|532|M|29.4,42|Z|Hillsbrad Foothills|QO|1;3;4|N|Kill Magistrate Burnside and  destroy the Hillsbrad Proclamation and Hillsbrad Town Registry. These are done inside the town Hall.|
-;C Battle of Hillsbrad|QID|532|M|29.4,40|Z|Hillsbrad Foothills|QO|2|N|Finish killing Hillsbrad Councilmen.|US|
+; --- The Barrens
+H Orgrimmar|QID|5881|N|Hearth back to Orgrimmar to take care of training and anything else you wish to do before starting the next chapter.|
 
-
-;R Tarren Mill|QID|532|M|32.08,50.30;57.65,36.61;55.86,19.60|Z|Hillsbrad Foothills|CC|N|Return to Tarren Mill. If you wish to do some grinding, run through the grass area.|
-;T Battle of Hillsbrad|QID|532|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
-;A Battle of Hillsbrad|QID|539|M|62.2,20.2|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|PRE|532|
-
-;R Azurelode Mine|QID|567|M|27.50,59.30|Z|Hillsbrad Foothills|N|Run to the upper entrance of Azurelode Mine.|
-;C Battle of Hillsbrad|QID|539|QO|2|N|Kill Hillsbrad Miners. This shouldn't take long, as they're every where.|S|
-;K Miner Hackett|QID|567|M|27.27,58.63;28.61,52.80;29.77,54.13;29.78,55.63|Z|Hillsbrad Foothills|CC|QO|3|N|Work your way inside the mine and kill Miner Hackett.\n[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots. If he is not at this location, he's either dead, or he's down where Foreman Bonds is located. If you look over the ledge, you should see him below you.|
-;C Battle of Hillsbrad|QID|539|M|26.4,58.6|Z|Hillsbrad Foothills|QO|1|N|Kill Foreman Bonds.|
-;C Battle of Hillsbrad|QID|539|M|30.4,56.2|Z|Hillsbrad Foothills|QO|2|N|Finish killing Hillsbrad Miners.|US|
-
-;N Clerk Horrace Whitesteed|QID|567|N|He is not alone and you'll have to clear the room slowly to avoid getting overwhelmed with adds. You will have to pull the 2 mobs on the left side of the room from the entrance. The moment you enter the room, you will aggro everyone. I recommend using the front foyer as a pull area. Put as much distance between the main room and the runner as possible; and they will run. This will limit the chance of runners making it worse for you.\nIMO, because of the way it's set up, this one is the toughest of all 4.|
-;K Clerk Horrace Whitesteed|QID|567|M|29.4,42.2|Z|Hillsbrad Foothills|QO|1|N|Kill Clerk Horrace Whitesteed, inside the Inn. He's just inside the main room against the near wall to the right of the doorway.[color=FF0000]NOTE: [/color]Focus your attack on him. He is your primary target. If you die after killing him, you can just rez and leave.|
-;T Dangerous!|QID|567|M|62.2,20.2|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 ]]
 end)
