@@ -539,7 +539,7 @@ end
 
 function WoWPro.NpcCheck()
     local myNPC = WoWPro:TargetNpcId()
-    if WoWProDB.global.NpcFauxQuests[myNPC] then
+    if myNPC and WoWProDB.global.NpcFauxQuests[myNPC] then
         WoWPro:AddFauxQuest(WoWProDB.global.NpcFauxQuests[myNPC].qid, WoWProDB.global.NpcFauxQuests[myNPC].title, 100)
     end
 end
