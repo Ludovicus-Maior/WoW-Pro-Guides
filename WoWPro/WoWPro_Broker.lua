@@ -11,7 +11,7 @@
 -- Is a table when a scenario is ongoing
 WoWPro.Scenario = nil
 
-local quids_debug = true
+local quids_debug = false
 
 local function QidMapReduce(list, default, or_string, and_string, func, why, debug, abs_quid)
     if not list then
