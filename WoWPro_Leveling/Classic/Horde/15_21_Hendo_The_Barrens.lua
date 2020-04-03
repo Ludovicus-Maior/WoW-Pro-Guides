@@ -4,7 +4,7 @@
 local guide = WoWPro:RegisterGuide('Classic-15-21-Hendo-TheBarrens', 'Leveling', 'The Barrens', 'Hendo72', 'Horde', 1)
 WoWPro:GuideName(guide, 'The Barrens')
 WoWPro:GuideLevels(guide, 10, 17, 13)
-WoWPro:GuideNextGuide(guide, 'Jame-HordeGuide-1')
+WoWPro:GuideNextGuide(guide, 'Classic-21-30-Hendo-HordeChapter1')
 WoWPro:GuideSteps(guide, function() return [[
 
 N Hey|QID|1358|N|This is a new written guide by TheRealHendo. This guide is dungeon-run free. Although, you will have the option to accept the quests if you so wish. If you find a problem, please report it on Discord in #classic-bug-reports .  Enjoy and thanks!|
