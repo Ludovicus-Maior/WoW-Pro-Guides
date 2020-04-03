@@ -1198,13 +1198,13 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- !/; Steps --
             if stepAction == "!" then
                 -- These had their effect when the guide was parsed
-                WoWPro.CompleteStep(guideIndex,"NPC Mapping completed")
+                WoWPro.CompleteStep(guideIndex,"NPC Mapping completed", true)
                 skip = true
                 break
             end
             if stepAction == ";" then
                 -- These have no effect
-                WoWPro.CompleteStep(guideIndex,"Comment")
+                WoWPro.CompleteStep(guideIndex,"Comment", true)
                 skip = true
                 break
             end
@@ -2363,10 +2363,10 @@ function WoWPro.NextStepNotSticky(guideIndex)
 end
 
 -- Step Completion Tasks --
-function WoWPro.CompleteStep(step, why)
+function WoWPro.CompleteStep(step, why, noUpdate)
     local GID = WoWProDB.char.currentguide
     if WoWProCharDB.Guide[GID].completion[step] then return end
-    if WoWProDB.profile.checksound then
+    if WoWProDB.profile.checksound and not noUpdate then
         _G.PlaySoundFile(WoWProDB.profile.checksoundfile)
     end
     why = tostring(why)
@@ -2412,7 +2412,9 @@ function WoWPro.CompleteStep(step, why)
         end
     end
     WoWPro.why[step] = why
-    WoWPro.UpdateGuideReal({["WoWPro.CompleteStep"]=1})
+    if not noUpdate then
+        WoWPro.UpdateGuideReal({["WoWPro.CompleteStep"]=1})
+    end
 end
 
 WoWPro.QuestLog = {}
