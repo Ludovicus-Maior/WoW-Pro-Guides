@@ -415,6 +415,7 @@ R Fenris Isle|QID|442|M|52.34,37.21;58.75,35.43;64.79,34.60;65.63,32.89|Z|Silver
 C Assault on Fenris Isle|QID|442|M|65.4,24.4|Z|Silverpine Forest|QO|1|N|Make your way inside Fenris Keep to the main room. Kill Thule and loot his head. Just like the last time you were here, work your way in slowly.|
 R The Sepulcher|QID|442|M|46.30,41.55|Z|Silverpine Forest|N|Run back to The Sepulcher. Choose your own path.|
 T Assault on Fenris Isle|QID|442|M|43.35,40.88|Z|Silverpine Forest|N|To High Executor Hadrec; down in the crypt.|
+N Bethor's Potion|AVAILABLE|-442|ACTIVE|-442|N|Having killed Thule and completed the quest, unless you plan on doing it again, you can safely destroy it to free up bag space.|
 
 ; --- Hillsbrad Foothills
 F Tarren Mill|QID|567|M|45.62,42.59|Z|Silverpine Forest|
