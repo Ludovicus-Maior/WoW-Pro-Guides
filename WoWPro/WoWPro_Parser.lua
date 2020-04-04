@@ -33,6 +33,7 @@ WoWPro.actiontypes = {
     ["$"] = "Interface\\Worldmap\\TreasureChest_64",
     ["="] = "Interface\\Icons\\Spell_lightning_lightningbolt01",
     [";"] = "Interface\\AddOns\\WoWPro\\Textures\\INV_Scroll_11",
+    ["*"] = "Interface\\AddOns\\WoWPro\\Textures\\Delete",
     d = "Interface\\AddOns\\WoWPro\\Textures\\dead.tga",
     s = "Interface\\Icons\\Spell_Shadow_DeathScream",
 }
@@ -69,6 +70,7 @@ WoWPro.actionlabels = {
     ["$"] = "Treasure",
     ["="] = "Train",
     [";"] = "Comment",
+    ["*"] = "Trash",
     d = "Die",
     s = "Take Spirit Healer",
 }
