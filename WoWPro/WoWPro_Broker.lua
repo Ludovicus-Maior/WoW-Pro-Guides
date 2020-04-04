@@ -684,6 +684,43 @@ function WoWPro:CheckFunction(row, button, down)
     end
 end
 
+StaticPopupDialogs["WOWPRO_DELETE_ITEM"] = {
+	text = "Would you like to trash %s?" ,
+	button1 = OKAY,
+	button2 = CANCEL,
+	whileDead = true,
+	hideOnEscape = true,
+	timeout = 15,
+	data =  0, -- Step number
+	data2 = "", -- Item id
+    OnAccept = function (self)
+        local itype, data, subType = GetCursorInfo()
+        DeleteCursorItem()
+        WoWPro.CompleteStep(self.data, "Trashed item: " .. self.data2)
+    end,
+    OnCancel = function (self, data, why)
+        ClearCursor()
+        WoWPro.CompleteStep(self.data, "Canceled Item trash: " .. self.data2)
+    end,
+    hideOnEscape = true
+}
+
+function WoWPro.TrashItem(use, step)
+    for bag=BACKPACK_CONTAINER, NUM_BAG_SLOTS do
+        local slots = GetContainerNumSlots(bag)
+        for slot=1,slots do
+            local id=GetContainerItemID(bag,slot)
+            if id == use then
+                local itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,itemEquipLoc, itemTexture, itemSellPrice = GetItemInfo(id)
+                ClearCursor()
+                PickupContainerItem(bag,slot)
+                local dialog = StaticPopup_Show("WOWPRO_DELETE_ITEM", itemName)
+                dialog.data = step
+                dialog.data2 = itemName
+            end
+        end
+    end
+end
 
 -- Row Content Update --
 function WoWPro:RowUpdate(offset)
@@ -869,7 +906,16 @@ function WoWPro:RowUpdate(offset)
         -- Item Button --
         if action == "H" and not use then use = 6948 end
 
-        if use and _G.GetItemInfo(use) then
+        if action == "*" and use and _G.GetItemInfo(use) then
+            currentRow.itembutton:Show()
+            currentRow.itemicon:SetTexture(_G.GetItemIcon(use))
+            currentRow.itembutton:SetAttribute("type1", "click1")
+            currentRow.itembutton:SetAttribute("click", "clickbutton")
+            currentRow.itembutton:SetScript("OnClick", function ()
+                WoWPro.TrashItem(use, k)
+                end)
+            WoWPro:dbp("RowUpdate: enabled trash: %s", use)
+        elseif use and _G.GetItemInfo(use) then
             currentRow.itembutton:Show()
             currentRow.itemicon:SetTexture(_G.GetItemIcon(use))
             currentRow.itembutton:SetAttribute("type1", "item")
@@ -1207,6 +1253,20 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 WoWPro.CompleteStep(guideIndex,"Comment", true)
                 skip = true
                 break
+            end
+
+            -- Trash step
+            if stepAction == "*" then
+                if WoWPro.use and WoWPro.use[guideIndex] then
+                    if _G.GetItemCount(WoWPro.use[guideIndex]) >= 1 then
+                        skip = false -- If the trash step has a use item and it's in the bag, it's NOT skipped --
+                        WoWPro.why[guideIndex] = "NextStep(): Trash steps with an item to use that is present is not skipped."
+                    else
+                        skip = true -- No item, skip!
+                        WoWPro.why[guideIndex] = "NextStep(): Trash steps with no item to use that is present is skipped."
+                        break
+                    end
+                end
             end
 
             -- Optional Quests --
