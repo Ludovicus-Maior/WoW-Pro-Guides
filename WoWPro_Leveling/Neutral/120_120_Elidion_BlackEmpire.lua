@@ -13,11 +13,9 @@ return
 ; Guide started by Elidion and neutralized and finished by Ludovicus
 ; Alliance Start
 A An Unwelcome Advisor|QID|58496|M|PLAYER|Z|Boralus|N|Lead in from Anduin Wrynn.|FACTION|Alliance|
-;A A Gathering of Champions|QID|58674|M|70.72,27.08|Z|Boralus|N|From Master Mathias Shaw.|FACTION|Alliance|
 P Stormwind City|ACTIVE|58496|M|70.11,16.80|Z|Boralus|N|Take Portal to Stormwind.|FACTION|Alliance|
 R Mage Quarter|ACTIVE|58496|M|49.40,86.83|Z|Stormwind City|N|Take Portal out into Mage Quarter.|FACTION|Alliance|
-T A Gathering of Champions|QID|58674|M|53.26,14.88|Z|Stormwind City|N|To Master Mathias Shaw.|FACTION|Alliance|
-A The Price of Peace|QID|58675|M|53.26,14.88|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|58674|FACTION|Alliance|
+; A The Price of Peace|QID|58675|M|53.26,14.88|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|58674|FACTION|Alliance|
 C The Price of Peace|QID|58675|M|53.26,14.88|Z|Stormwind City|CHAT|N|Speak with Mathias Shaw.|FACTION|Alliance|
 T The Price of Peace|QID|58675|M|53.89,14.55|Z|Stormwind City|N|To Master Mathias Shaw.|FACTION|Alliance|
 C An Unwelcome Advisor|QID|58496|M|85.91,31.58|Z|Stormwind City|CHAT|N|Speak with Anduin Wrynn.|FACTION|Alliance|
@@ -64,7 +62,7 @@ C Defeat Sun Prophet Tenhamen|QID|56209|M|56.20,22.52|Z|The Vault of Lights@Hall
 C Rebooting Origination|QID|56209|M|49.13,42.88;45.11,42.58;47.09,43.82|Z|The Four Seats@Halls of Origination!Dungeon1542|CN|SO|8|N|Take the lift to the upper chamber of the Maker's Rise and reactivate the Forge of Origination. Do the two side consoles first. Do the central console when MOTHER tells you to.|
 T The Halls of Origination|QID|56209|M|PLAYER|Z|The Four Seats@Halls of Origination!Dungeon1542|N|To Magni Bronzebeard.|
 A To Ramkahen|QID|56375|M|PLAYER|Z|The Four Seats@Halls of Origination!Dungeon1542|N|From Magni Bronzebeard.|PRE|56209|
-R Uldum|ACTIVE|56375|M|50.73,93.67|Z|1540|N|Take the transporter out and run out of dungeon to Uldum.|
+R Uldum|ACTIVE|56375|M|47.0,53.8|Z|1542|N|Take the transporter out and run out of dungeon to Uldum.|
 T To Ramkahen|QID|56375|M|54.91,32.76|Z|Uldum|N|To King Phaoris.|
 A The Uldum Accord|QID|56472|M|54.91,32.76|Z|Uldum|N|From King Phaoris.|
 C The Uldum Accord|QID|56472|M|54.90,32.95|Z|Uldum|NC|QO|1|N|Click on the Map on top of the table.|
