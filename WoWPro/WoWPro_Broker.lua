@@ -694,7 +694,6 @@ _G.StaticPopupDialogs["WOWPRO_DELETE_ITEM"] = {
 	data =  0, -- Step number
 	data2 = "", -- Item id
     OnAccept = function (self)
-        local itype, data, subType = _G.GetCursorInfo()
         _G.DeleteCursorItem()
         WoWPro.CompleteStep(self.data, "Trashed item: " .. self.data2)
     end,
