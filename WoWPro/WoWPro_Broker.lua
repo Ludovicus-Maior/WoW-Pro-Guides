@@ -684,37 +684,36 @@ function WoWPro:CheckFunction(row, button, down)
     end
 end
 
-StaticPopupDialogs["WOWPRO_DELETE_ITEM"] = {
+_G.StaticPopupDialogs["WOWPRO_DELETE_ITEM"] = {
 	text = "Would you like to trash %s?" ,
-	button1 = OKAY,
-	button2 = CANCEL,
+	button1 = _G.OKAY,
+	button2 = _G.CANCEL,
 	whileDead = true,
 	hideOnEscape = true,
 	timeout = 15,
 	data =  0, -- Step number
 	data2 = "", -- Item id
     OnAccept = function (self)
-        local itype, data, subType = GetCursorInfo()
-        DeleteCursorItem()
+        local itype, data, subType = _G.GetCursorInfo()
+        _G.DeleteCursorItem()
         WoWPro.CompleteStep(self.data, "Trashed item: " .. self.data2)
     end,
     OnCancel = function (self, data, why)
-        ClearCursor()
+        _G.ClearCursor()
         WoWPro.CompleteStep(self.data, "Canceled Item trash: " .. self.data2)
-    end,
-    hideOnEscape = true
+    end
 }
 
 function WoWPro.TrashItem(use, step)
-    for bag=BACKPACK_CONTAINER, NUM_BAG_SLOTS do
-        local slots = GetContainerNumSlots(bag)
+    for bag=_G.BACKPACK_CONTAINER, _G.NUM_BAG_SLOTS do
+        local slots = _G.GetContainerNumSlots(bag)
         for slot=1,slots do
-            local id=GetContainerItemID(bag,slot)
+            local id=_G.GetContainerItemID(bag,slot)
             if id == use then
-                local itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount,itemEquipLoc, itemTexture, itemSellPrice = GetItemInfo(id)
-                ClearCursor()
-                PickupContainerItem(bag,slot)
-                local dialog = StaticPopup_Show("WOWPRO_DELETE_ITEM", itemName)
+                local itemName = _G.GetItemInfo(id)
+                _G.ClearCursor()
+                _G.PickupContainerItem(bag,slot)
+                local dialog = _G.StaticPopup_Show("WOWPRO_DELETE_ITEM", itemName)
                 dialog.data = step
                 dialog.data2 = itemName
             end
