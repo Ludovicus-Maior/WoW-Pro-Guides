@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2020-04-05 21:01
+-- Who: Ludovicus_Maior
+-- Log: Keegan Alby is phased.  Need to check where in this guide.
+
+-- URL: http://wow-pro.com/node/3769/revisions/30464/view
 -- Date: 2019-12-29 22:38
 -- Who: Ludovicus_Maior
 -- Log: Playthrough corrections
@@ -955,7 +960,7 @@ T Those Aren't Fish Eggs|QID|48367|M|34.95,24.21|N|To Rosaline Madison, back up 
 T Eldritch Invocations|QID|48372|M|35.21,24.19|N|To Brannon Stormsong.|
 T Death in the Depths|QID|48370|M|35.21,24.19|N|To Brannon Stormsong.|
 T Deep Sea Defilement|QID|48368|M|35.24,24.27|N|To Brother Therold.|
-t WANTED: Quartermaster Ssylis|QID|51384|M|35.25,24.18|N|To Keegan Alby.|
+T WANTED: Quartermaster Ssylis|QID|51384|M|35.25,24.18;42.44,29.30|N|To Keegan Alby. One of two locations.  Sorry!|RANK|3|
 A The Deadliest Catch|QID|49302|M|34.94,24.21|N|From Rosaline Madison.|PRE|48370&48372&48368&48367|
 
 C The Deadliest Catch|QID|49302|M|35.29,24.57|QO|1|CHAT|N|Speak to Okri for a ride.|
