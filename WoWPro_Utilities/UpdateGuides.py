@@ -26,6 +26,9 @@ import string
 import urlparse
 import urllib
 
+from retry import retry
+
+
 FORMAT = '%(asctime)-15s %(levelname)s %(message)s'
 logging.basicConfig(format=FORMAT, level=logging.INFO)
 
@@ -59,6 +62,11 @@ def ParseArgs():
     parser.add_option('-T',"--test",dest="test",action='store_true',default=False,help='Test updating one guide')
     (options,args) = parser.parse_args()
     return options
+
+
+@retry(IOError, tries=4, delay=3, backoff=2)
+def urlopen_with_retry(page):
+    return urllib.urlopen(page)
 
 class FindGuides(HTMLParser):
 
@@ -134,11 +142,11 @@ class FindSource(HTMLParser):
         self._Done = False
         self._data = None
         try:
-            self._rootHandle =urllib.urlopen(self._page)
+            self._rootHandle =urlopen_with_retry(self._page)
             logging.info("Opened Source URL "+self._page)
         except IOError:
             logging.error("Failed to open Source URL: "+self._page)
-            pass
+            raise
 
 
     def handle_starttag(self, tag, attrs):
@@ -230,7 +238,7 @@ class FindRevisions(HTMLParser):
         try:
 	    self._Page = Page
             Page = Page + "/revisions"
-            self._rootHandle =urllib.urlopen(Page)
+            self._rootHandle =urlopen_with_retry(Page)
             logging.info("Opened Revision URL "+Page)
             self._inTable = False
             self._inThead = False
@@ -250,7 +258,7 @@ class FindRevisions(HTMLParser):
             self._RevisionLog = ""
         except IOError:
             logging.error("Failed to open Revision URL: "+Page) 
-            pass
+            raise
 
     def dprint(self,*args):
 	    if self._Test:
@@ -336,7 +344,7 @@ class FindRevisions(HTMLParser):
         if self._inProfile:
             self._RevisionWho = data
         if self._inLog:
-            self._RevisionLog = data
+            self._RevisionLog = data.lstrip()
         who=re.search("by (.+)",data)
         if  self._RevisionDate != "" and self._RevisionWho == "" and who:
             self._RevisionWho = who.group(1)
@@ -465,7 +473,8 @@ def UpdateGuideFile(guide):
 	print >> file , "-- Date: %s" % logEntry['Date'] 
 	print >> file , "-- Who: %s" % logEntry['Who'] 
 	if logEntry['Log'] != "":
-	     entry = "\n--\t".join(logEntry['Log'].splitlines())
+	     entry = "\n--".join(["\t"+line.rstrip() if len(line.strip())>0 else "" for line in logEntry['Log'].splitlines()])
+	     entry = entry.lstrip()
 	     print >> file , "-- Log: %s" % entry
 	print >> file , "" 
     for line in Guides[guide]:
@@ -488,12 +497,12 @@ if __name__ == "__main__":
         logging.info("Able to access %s alright." % pa.root)
     if pa.test == True:
         logging.info("Running short test")
-        ScrapeWoWProLua("/Users/lfo/WoW/WoW-Pro-Guides_Master/WoWPro_Achievements/General/Emmaleah_Jani.lua")
-        fs=FindSource("http://wow-pro.com/node/3782")
+        ScrapeWoWProLua("/Users/lfo/WoW/WoW-Pro-Guides_Master/WoWPro_Achievements/Garrison_Alliance/Ludo_BuildA.lua")
+        fs=FindSource("http://wow-pro.com/node/3631")
         src=fs.ReadGuide()
-        fs=FindRevisions("http://wow-pro.com/node/3782",True)
+        fs=FindRevisions("http://wow-pro.com/node/3631",True)
         src=fs.ReadGuide()
-        UpdateGuideFile("Emm_Jani")
+        UpdateGuideFile("LudoBuildingsAlliance")
         exit(0)
     ScrapeWoWProLeveling(pa.root)
     ScrapeGuideFromWoWPro(pa.url)
