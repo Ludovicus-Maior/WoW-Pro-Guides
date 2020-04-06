@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2020-04-05 20:55
+-- Who: Ludovicus_Maior
+-- Log: Cagome: Alpaca Hides wrong.  Hoping it was Y digit transposition.
+
+-- URL: http://wow-pro.com/node/3772/revisions/30453/view
 -- Date: 2019-12-13 01:27
 -- Who: Ludovicus_Maior
 -- Log: Cagomei: Missing zone tag
@@ -51,7 +56,7 @@
 -- URL: http://wow-pro.com/node/3772/revisions/29743/view
 -- Date: 2018-09-13 06:40
 -- Who: Emmaleah
--- Log:  $
+-- Log: $
 
 -- URL: http://wow-pro.com/node/3772/revisions/29681/view
 -- Date: 2018-09-05 11:08
@@ -422,7 +427,7 @@ A Stolen Goods|QID|48790|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48846|
 A Bandit Blades|QID|51602|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48846|
 C Bandit Blades|QID|51602|M|40.44,76.37|S|NC|N|Pick up the blades from the ground, they also can drop from the mobs in the area.|
 K Tongo|ACTIVE|48850|M|40.65,76.02|QO|1|T|Tongo|N|Kill Tongo and loot his head.|RANK|2|
-C Stolen Goods|QID|48790|M|40.74,47.76|QO|1<3|NC|N|You can find Alpaca Hides, Alpaca Butter, and Sezahjin's Meat Pies in this house.|
+C Stolen Goods|QID|48790|M|40.74,74.76|QO|1<3|NC|N|You can find Alpaca Hides, Alpaca Butter, and Sezahjin's Meat Pies in this house.|
 C Stolen Goods|QID|48790|M|40.42,75.29|QO|1<5|NC|N|Hyena Jerky and Medicinal Herbs can be found thru this underground entrance.|
 C Stolen Goods|QID|48790|M|40.02,75.67|QO|1<6|NC|N|Pick up the Fresh Water here (last of the stolen supplies).|
 C Bandit Blades|QID|51602|M|40.79,76.04|S|N|Finish collecting the blades.|
