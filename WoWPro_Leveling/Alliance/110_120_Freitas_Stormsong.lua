@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2020-04-05 22:39
+-- Who: Ludovicus_Maior
+-- Log: Missing quotes
+
+-- URL: http://wow-pro.com/node/3767/revisions/30465/view
 -- Date: 2019-12-29 22:40
 -- Who: Ludovicus_Maior
 -- Log: Playthrough tweaks
@@ -253,11 +258,6 @@
 -- Date: 2018-08-13 22:29
 -- Who: Lemmer
 -- Log: Playtesting through middle 1/3rd of guide and bug fixes (up to step 405).
-
--- URL: http://wow-pro.com/node/3767/revisions/29502/view
--- Date: 2018-08-13 13:02
--- Who: Ludovicus_Maior
--- Log: Added missing CS tags
 
 local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong Valley', 'MateusFreitas', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 111)
