@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2020-03-30 07:55
+-- Who: Emmaleah
+-- Log: fixes and tweaks thru the end.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30482/view
+-- Date: 2020-03-29 09:06
+-- Who: Emmaleah
+-- Log: Added rest of the Chamber of Heart quest lines, other minor tweaks. thru Battle of Dazar'alor.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30459/view
 -- Date: 2019-12-21 18:06
 -- Who: Ludovicus_Maior
 -- Log: Kaylynn: This step of the war campign horde side guide has a typo it should be Tell Tattersail, not Tail Tattersail.
@@ -242,15 +252,6 @@
 -- Date: 2018-09-07 08:47
 -- Who: elidion
 -- Log: Added a CHAT tag for tattersail on the friendly rep mission
-
--- URL: http://wow-pro.com/node/3761/revisions/29689/view
--- Date: 2018-09-07 02:35
--- Who: elidion
-
--- URL: http://wow-pro.com/node/3761/revisions/29687/view
--- Date: 2018-09-06 22:30
--- Who: elidion
--- Log: One more PRE adjusment, and moved the 4.5k friendly note down with the rest of them.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -854,7 +855,7 @@ T Champion: Lilian Voss|QID|52861|M|58.40,62.71|Z|Zuldazar|N|To Lilian Voss.|
 H The Great Seal|ACTIVE|53003|M|58.40,62.71|Z|Zuldazar|N|Hearth, or otherwise get yourself to a portal to Orgrimmar.|
 P Orgrimmar|ACTIVE|53003|M|51.54,45.89|Z|Dazar'alor|N|Take the portal to Orgrimmar|
 T A Cycle of Hatred|QID|53003|M|48.39,71.16|Z|Orgrimmar|N|To Sylvanas Windrunner. If you just received the quest, A Way Out from Sylvanas, you will need to exit Grommash Hold, then return to turn this one in.|
-A Our War Continues|QID|53850|M|48.39,71.16|Z|Orgrimmar|N|From Sylvanas Windrunner.|PRE|53003|
+A Our War Continues|QID|53850|M|48.39,71.16|Z|Orgrimmar|N|From Sylvanas Windrunner.If she doesn't offer it, go back to Zuldazar and Nathanos (on the ship) will offer it.|PRE|53003|
 P Dazar'alor|ACTIVE|53850|M|47.51,60.06|Z|Orgrimmar|N|Use the portal or otherwise return to Zandalar|PRE|53003|
 
 ; 8.1 Quests
@@ -965,7 +966,7 @@ T A Mech for a Goblin|QID|53941|M|36.30,72.02|Z|Zuldazar|N|To Trade Prince Gally
 A It Belongs in My Mech!|QID|54123|M|36.30,72.02|Z|Zuldazar|N|From Trade Prince Gallywix.|PRE|53941|
 A Avoiding Lawsuits 101|QID|54124|M|36.25,72.03|Z|Zuldazar|N|From Patch.|PRE|53941|
 C It Belongs in My Mech!|QID|54123|M|35.63,69.54|Z|Zuldazar|S|U|166309|T|Azerite Muck|NC|N|Target the mucks and use the vacuumizer on living mobs.|
-C Avoiding Lawsuits 101|QID|54124|M|34.13,69.77|Z|Zuldazar|NC|N|Uninsured Goblin Worker healed.|
+C Avoiding Lawsuits 101|QID|54124|M|34.13,69.77|Z|Zuldazar|NC|N|Uninsured Goblin Worker healed.The vacuumizer still works even if the quest is done.|U|166309|
 C It Belongs in My Mech!|QID|54123|M|35.63,69.54|Z|Zuldazar|US|U|166309|T|Azerite Muck|NC|N|Finish fueling up the azerite pack by using the vacuumizer on the groups of azerite mucks.|
 T Avoiding Lawsuits 101|QID|54124|M|36.25,72.02|Z|Zuldazar|N|To Patch.|
 T It Belongs in My Mech!|QID|54123|M|36.31,72.02|Z|Zuldazar|N|To Trade Prince Gallywix.|
@@ -999,7 +1000,7 @@ T Insurance Renewal|QID|54008|M|54.60,64.59|Z|Tiragarde Sound|N|To Trade Prince 
 T Killing on the Side|QID|54009|M|54.60,64.59|Z|Tiragarde Sound|N|To Trade Prince Gallywix.|
 T Mekkatorque's Battle Plans|QID|54022|M|54.60,64.59|Z|Tiragarde Sound|N|To Trade Prince Gallywix.|
 A Mech versus Airship|QID|54028|M|54.60,64.59|Z|Tiragarde Sound|N|From Trade Prince Gallywix.|PRE|54008&54009&54022|
-C Mech versus Airship|QID|54028|M|54.60,64.59|Z|Tiragarde Sound|QO|1|NC|N|Board G.M.O.D.|
+C Mech versus Airship|QID|54028|M|54.60,64.59|Z|Tiragarde Sound|QO|1|V|N|Board G.M.O.D.|
 C Mech versus Airship|QID|54028|M|54.54,64.58|Z|Tiragarde Sound|QO|2|N|Use the "1" key to wreck the Alliance Airship.|
 C Mech versus Airship|QID|54028|M|68.04,84.09|Z|Tiragarde Sound|QO|3|CHAT|N|Speak with Gallywix to sound the SOS.|
 C Mech versus Airship|QID|54028|M|67.91,84.21|Z|Tiragarde Sound|QO|4|N|Confront Mekkatorque.|
@@ -1045,7 +1046,7 @@ R Port of Zuldazar|ACTIVE|54179|M|87.85,51.17|Z|Tiragarde Sound|TZ|The Banshee's
 T Through the Front Door|QID|54179|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
 ; Fly out to Meet Them
-A War Is Here|QID|54139|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller. Not available until 22 January 2019.|
+A War Is Here|QID|54139|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|
 F The Great Seal|ACTIVE|54139|N|Hearth, Fly or otherwise return to the Great Seal. The King is near the scouting map, not up at his throne.|
 C War Is Here|QID|54139|M|40.07,70.27|Z|Hall of Croniclers!Dazar'alor|QO|1|CHAT|N|Speak with King Rastakhan.|
 T War Is Here|QID|54139|M|41.24,66.68|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
@@ -1141,7 +1142,7 @@ C Outpost Upgrade: Zul'jan Ruins|QID|54240|M|39.15,77.64|Z|Nazmir|QO|1|NC|N|Hono
 T Outpost Upgrade: Zul'jan Ruins|QID|54240|M|39.15,77.64|Z|Nazmir|N|To UI Alert.|
 
 ; Saurfang found
-A The Dark Lady Calls|QID|54097|Z|Zuldazar|N|From Dark Ranger Alina.|PRE|50606|
+A The Dark Lady Calls|QID|54097|M|58.4,62.7|Z|Zuldazar|N|From Dark Ranger Alina.|PRE|54282|
 F The Great Seal|ACTIVE|54097|M|52.10,90.13|Z|Dazar'alor|N|Fly or otherwise travel up to the Great Seal.|FLY|BFA|
 P Orgrimmar|ACTIVE|54097|M|74,69.83|Z|The Great Seal!Dazar'alor|N|Take the portal or otherwise travel to Orgrimmar.|
 T The Dark Lady Calls|QID|54097|M|48.31,71.08|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
@@ -1198,11 +1199,11 @@ T For the Queen|QID|54754|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunne
 A The Battle of Dazar'alor|QID|54282|M|58.44,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|NA|
 C The Battle of Dazar'alor|QID|54282|N|You need to defeat Jaina at the Battle of Dazar'alor to continue with the war campaign.|
 
-A Return to the Heart|QID|55522|M|50.98,88.86|Z|Dazar'alor|N|From Earthen Guardian, after getting your necklace to 55.|PRE|56161|
+A Return to the Heart|QID|55522|M|50.98,88.86|Z|Dazar'alor|N|From Earthen Guardian, after getting your necklace to 55.|PRE|56161|;pre is Back out to Sea--from Najzatar guide
 P Silithus|ACTIVE|55522|M|73.80,85.65|Z|The Great Seal!Dazar'alor|N|Take the portal to Silithus.|
 T Return to the Heart|QID|55522|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard, inside the Chamber of Heart.|
-A A Fresh Trauma|QID|55519|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|55519|
-A In Darkness, I Dream|QID|55390|M|52.55,70.05|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos, after getting your necklace to 54.|PRE|56161|
+A A Fresh Trauma|QID|55519|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|55522|
+A In Darkness, I Dream|QID|55390|M|52.55,70.05|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos, after getting your necklace to 54.|PRE|56161|;pre is Back out to Sea--from Najzatar guide
 P Orgrimmar|ACTIVE|55390|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Return to Zuldazar, and then take Portal to Orgrimmar.|
 P Azsuna|QID|55390|M|58.87,89.54|Z|Orgrimmar|N|Take the Portal to Azsuna.|
 T In Darkness, I Dream|QID|55390|M|51.61,57.22|Z|Val'sharah|N|To Merithra of the Dream, in the Temple of Elune, in Val'Sharah.|
@@ -1237,15 +1238,62 @@ T The Stuff Dreams Are Made Of|QID|55396|M|46.37,38.73|Z|The Emerald Dream!Insta
 A The Long Awake|QID|55398|M|46.37,38.73|Z|The Emerald Dream!Instance|N|From Merithra of the Dream.|PRE|55396|
 H The Great Seal|ACTIVE|55398|M|46.37,38.73|Z|The Emerald Dream!Instance|N|Hearth or Ask Merithra for a portal back to Val'Sharah.|
 P Orgrimmar|ACTIVE|55398|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Return to Zuldazar, (or Dalaran if you prefer that route) and then take Portal to Orgrimmar.|
-P Nordrassil|ACTIVE|55519|
+
+;a fresh trauma
+P Nordrassil|ACTIVE|55519|M|51.18,38.29|Z|Orgrimmar|N|Take the Earthern Ring portal to Nordrassil or just fly up to there.|
+T A Fresh Trauma|QID|55519|M|62.03,24.92|Z|Mount Hyjal|N|To Magni Bronzebeard.|
+A Healing Nordrassil|QID|55520|M|62.03,24.92|Z|Mount Hyjal|N|From Magni Bronzebeard.|PRE|55519|
+C Healing Nordrassil|QID|55520|M|60.71,25.84|Z|Mount Hyjal|N|Kill the Azerite Leviathan and other azerite mobs around the lake. You can also sooth fairy dragons and heal azerite wounds for quest credit.|
+T Healing Nordrassil|QID|55520|M|62.03,24.92|Z|Mount Hyjal|N|To Magni Bronzebeard.|
+A Do it the Azerite Way|QID|55521|M|62.03,24.92|Z|Mount Hyjal|N|From Magni Bronzebeard.|PRE|55520|
+H The Great Seal|ACTIVE|55521|62.03,24.92|Z|Mount Hyjal|N|Hearth or otherwise travel to Silithus and the Chamber of Heart.|
+P Silithus|ACTIVE|55521|M|73.89,85.58|Z|The Great Seal!Dazar'alor|N|Travel to Silithus and then the Chamber of Heart.|
+T Do it the Azerite Way|QID|55521|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
+T The Long Awake|QID|55398|M|53.92,62.11|Z|Chamber of Heart!Dungeon1473|N|To Merithra.|
+
+A Investigating the Highlands|QID|56167|M|52.63,70.21|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos. After your Necklace has reached Lvl 60.|
+P Silithus|ACTIVE|56167|M|50.17,30.42|Z|Chamber of Heart!Dungeon1473|N|Travel by method of choice to Twilight Highlands.|
+P Dazar'alorACTIVE|56167|M|41.62,45.21|Z|Silithus|N|Travel by method of choice to Twilight Highlands.|
+P OrgrimmarACTIVE|56167|M|73.72,69.75|Z|The Great Seal!Dazar'alor|N|Travel by method of choice to Twilight Highlands.|
+P Twilight Highlands|ACTIVE|56167|M|50.23,39.52|Z|Orgrimmar|N|Take the Earthen Ring Portal to Twilight Highlands.|
+T Investigating the Highlands|QID|56167|M|35.94,50.50|Z|Twilight Highlands|N|To Kalecgos.|
+A In the Shadow of Crimson Wings|QID|55657|M|35.94,50.50|Z|Twilight Highlands|N|From Kalecgos.|PRE|56167|
+C In the Shadow of Crimson Wings|QID|55657|M|35.94,50.50|Z|Twilight Highlands|N|Tell Kalecgos you are ready and and Instance confirmation box will come up that you have to click on, then Kalac will fly you there.|CHAT|
+C Defending the Vermillion Redoubt|SO|1|ACTIVE|55657|M|64.15,29.96|Z|Twilight Highlands!Instance|N|Head up the hill towards Alexstrasza, killing stuff as you go.|
+C The Life Binder|SO|2|ACTIVE|55657|M|64.15,29.96|Z|Twilight Highlands!Instance|N|Mount up and continue up the hill to Alexstraxza. Chat with Alex when you arrive.|CHAT|
+C Stemming the Corruption|SO|3|ACTIVE|55657|M|60.80,42.22|Z|Twilight Highlands!Instance|N|You can find the sentinals further up the hill, kill the void dragonkin guarding them and then click on the sentinals to rescue them.|
+C Take to the skies|SO|4|ACTIVE|55657|M|62.79,44.02|Z|Twilight Highlands!Instance|N|Back to Kalecgos for a ride up to Vexiona.|V|
+C From the Shadows|SO|5|ACTIVE|55657|M|46.41,86.27|Z|Twilight Highlands!Instance|N|Mount up and run over to Vexiona and fight thr void touched invaders that are preventing Alexstraza from fighting Vexiona.|
+C In the Shadow of Crimson Wings|QID|55657|M|45.80,86.32|Z|Twilight Highlands!Instance|N|Pick up the Lost Red Scale.|NC|
+C In the Shadow of Crimson Wings|QID|55657|QO|6|M|46.38,86.44|Z|Twilight Highlands!Instance|N|Hop on Corastrasza for a ride out or otherwise return to the Chamber of Heart.|V|
+T In the Shadow of Crimson Wings|QID|55657|M|54.25,66.28|Z|Chamber of Heart!Dungeon1473|N|To Alexstrasza.|
+
+A An Old Scar|QID|57632|M|50.15,59.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard. Necklace needs to be level 65.|PRE|55398|
+C An Old Scar|QID|57632|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|Tell MOTHER you are ready to travel to the Maelstrom.|CHAT|
+T An Old Scar|QID|57632|M|33.74,54.56|Z|The Maelstrom|N|To Magni Bronzebeard.|
+A Defending the Maelstrom|QID|55735|M|33.74,54.56|Z|The Maelstrom|N|From Magni Bronzebeard.|PRE|57632|
+C Defending the Maelstrom|QID|55735|M|29.63,52.91|Z|The Maelstrom|N|Defend the Maelstrom by defeating the Azerite Giant and the other Azerite creatures and healing azerite wounds.|
+T Defending the Maelstrom|QID|55735|M|33.74,54.56|Z|The Maelstrom|N|To Magni Bronzebeard.|
+A At the Azerite Time|QID|55737|M|33.74,54.56|Z|The Maelstrom|N|From Magni Bronzebeard.|PRE|55735|
+C At the Azerite Time|QID|55737|M|33.74,54.56|Z|The Maelstrom|N|Use the Titan Waygate to return to Chamber of Heart.|
+T At the Azerite Time|QID|55737|M|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
+
+A A Bolt from the Blue|QID|56401|M|52.60,69.99|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos. Neck must be level 70.|PRE|55737|
+P Crystalsong Forest|M|56.22,91.76|Z|Orgrimmar|N|Travel to Nexus via means of your choosing, most likely via the Orgrimmar portal to Crystalsong Forest, Alternatively zep to Borean Tundra.|
+C A Bolt from the Blue|QID|56401|QO|1|M|27.97,26.27|Z|Borean Tundra|N|Fly up to the top level of the Nexus (NOT in the Instance) and stand next to Kalecgos and use the extra action button to charge the scale.|
+C A Bolt from the Blue|QID|56401|QO|2|M|27.53,26.72|Z|Borean Tundra|N|Fly out to the bubble a little ways in front of you (center of the ring) and take the scale.|
+T A Bolt from the Blue|QID|56401|M|27.97,26.27|Z|Borean Tundra|N|To Kalecgos. It has been fixed, you can take his ride before or after you turn the quest in. Don't forget to go to the Heart Forge and apply it.|
+A We stand United|QID|55752|M|50.20,59.11|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|56401|
+T We stand United|QID|55752|M|50.20,59.11|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 
 t The Battle of Dazar'alor|QID|54282|M|58.44,62.68|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A The King's Death|QID|54164|M|58.42,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|54282|
+A The King's Death|QID|54164|M|58.42,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|
 C The King's Death|QID|54164|M|49.92,39.02|Z|Dazar'alor|NC|N|Pay respects to King Rastakhan by clicking on the table where he lies in state.|
 T The King's Death|QID|54164|M|49.98,38.89|Z|Dazar'alor|N|To Lady Sylvanas Windrunner.|
 A The Return of Derek Proudmoore|QID|54165|M|49.98,38.89|Z|Dazar'alor|N|From Lady Sylvanas Windrunner.|PRE|54164|
 C The Return of Derek Proudmoore|QID|54165|M|49.98,38.89|Z|Dazar'alor|QO|1|NC|N|Observe Lady Sylvanas Windrunner and Princess Talanji|
-C The Return of Derek Proudmoore|QID|54165|M|58.42,62.51|Z|Zuldazar|QO|2|CHAT|N|Speak with Lady Sylvanas Windrunner onboard the Banshee's
+C The Return of Derek Proudmoore|QID|54165|M|58.42,62.51|Z|Zuldazar|QO|2|CHAT|N|Speak with Lady Sylvanas Windrunner onboard the Banshee's Wail.|
+T The Return of Derek Proudmoore|QID|54165|M|58.45,62.68|Z|Zuldazar|
 A Righting Wrongs|QID|54961^55124|M|49.82,95.88|Z|Dazar'alor|N|From Bluffwatcher Proudscar.|PRE|54165|
 C Righting Wrongs|QID|54961|M|58.45,62.68|Z|Zuldazar|QO|1|CHAT|N|Report to Nathanos Blightcaller, either of the last two options complete the quest.You only get this choice if you previously betrayed Sylvanas over Saurfang. |
 P Tiragarde Sound|ACTIVE|54961^55124|M|58.45,62.98|Z|Zuldazar|N|Ask Captain Tattersail for a ride to Tiragarde Sound.|
@@ -1275,8 +1323,8 @@ C Under False Colors|QID|55034^54999|M|51.53,99.73|Z|Dazar'alor|QO|2|NC|N|Go to 
 T Under False Colors|QID|55034^54999|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
 ;Securing Warfang Hold
-A Securing Warfang Hold|QID|55052|M|58.40,62.72|Z|Zuldazar|N|From Nathanos Blightcaller (you may need to go out of the area and come back to make this quest available.|PRE|55034|
-A Securing Warfang Hold|QID|55047|M|58.40,62.72|Z|Zuldazar|N|From Dark Ranger Alina.|PRE|54999|
+A Securing Warfang Hold|QID|55052|M|58.40,62.72|Z|Zuldazar|N|From Nathanos Blightcaller (you may need to go out of the area and come back to make this quest available.)|PRE|55034|
+A Securing Warfang Hold|QID|55047|M|58.40,62.72|Z|Zuldazar|N|From Dark Ranger Alina.(you may need to go out of the area and come back to make this quest available.)|PRE|54999|
 P Stormsong Valley|ACTIVE|55047^55052|M|58.45,62.98|Z|Zuldazar|N|Ask Captain Tattersail for a ride to Stormsong Valley.|
 T Securing Warfang Hold|QID|55047^55052|M|50.98,32.86|Z|Stormsong Valley|N|To Boss Mida.|
 A Spy Games|QID|55048|M|50.98,32.86|Z|Stormsong Valley|N|From Boss Mida.|PRE|55047^55052|
@@ -1297,8 +1345,8 @@ T A Display of Power|QID|55051|M|50.75,32.33|Z|Stormsong Valley|N|To Lor'themar 
 ;Visions of Danger
 H Dazar'alor|AVAILABLE|55778|M|PLAYER|N|Hearth or otherwise return to Dazar'alor.|PRE|55051|
 P Nazjatar|AVAILABLE|55778|M|62.94,85.00|Z|Dazar'alor|N|Take the portal to Nazjatar.|PRE|55051|
-J Nazjatar|AVAILABLE|55869|N|To start the next step in the War Campaign, you need to progress thru Nazjatar, to the point where you find Lady Ashvane and the weapons cache. Rt Click this step to jump to Nazjatar guide.|GUIDE|EmmNazj|
-A Visions of Danger|QID|55778|M|48.51,62.18|Z|Nazjatar|N|From Lor'themar Theron.|PRE|55051&55869|;55869 is end of Nazjatar opening (Clearing out the Cache)
+N Nazjatar|AVAILABLE|55869|N|To start the next step in the War Campaign, you need to progress thru Nazjatar, to the point where you find Lady Ashvane and the weapons cache.|;55869 is end of Nazjatar opening (Clearing out the Cache)
+A Visions of Danger|QID|55778|M|48.51,62.18|Z|Nazjatar|N|From Lor'themar Theron.|PRE|55051&55869|
 C Visions of Danger|QID|55778|M|48.36,62.16|Z|Nazjatar|QO|1|CHAT|N|Speak with Spiritwalker Ussoh, then watch his vision unfold.|
 T Visions of Danger|QID|55778|M|48.50,62.18|Z|Nazjatar|N|To Lor'themar Theron.|
 A Old Allies|QID|55780^55781|M|48.50,62.18|Z|Nazjatar|N|From Lor'themar Theron.|PRE|55778|
@@ -1317,11 +1365,11 @@ C Duel Lenara|ACTIVE|55779^55782|M|39.11,21.05|Z|Baine Rescue!Instance|SO|4;1|CH
 C Inspect the troops|ACTIVE|55779|M|38.09,22.63|Z|Baine Rescue!Instance|CHAT|SO|5;1|N|Inspect the troops standing around.|
 C Follow Lenara|ACTIVE|55782|M|39.11,21.05|Z|Baine Rescue!Instance|SO|5;1|CHAT|N|Tell Lenara whas up then follow her.|
 C Speak with Lenara about the Traitors|ACTIVE|55782|M|31.90,28.14|Z|Baine Rescue!Instance|SO|5;2|CHAT|N|Tell Lenara "For the Horde".|
-C Continue deeper into the underhold|ACTIVE|55779^55782|M|49.77,32.69|Z|Baine Rescue!Instance|SO|6;1|N|Rejoin Thrall and Saurfang and continue deeper into the underhold|
+C Continue deeper into the underhold|ACTIVE|55779^55782|M|49.77,32.69|Z|Baine Rescue!Instance|SO|6;1|NC|N|Rejoin Thrall and Saurfang and continue deeper into the underhold|
 C Speak with Thrall|ACTIVE|55779^55782|M|50.19,32.83|Z|Baine Rescue!Instance|SO|7;1|CHAT|N|Speak with Thrall (any of the options works)|
-C Reach the end of the corridor|ACTIVE|55779^55782|M|67.55,32.13|Z|Baine Rescue!Instance|SO|7;2|N|Reach the end of the corridor|
+C Reach the end of the corridor|ACTIVE|55779^55782|M|67.55,32.13|Z|Baine Rescue!Instance|SO|7;2|NC|N|Reach the end of the corridor|
 C Defeat Rowa Bloodstrike|ACTIVE|55779^55782|M|73.23,44.03|Z|Baine Rescue!Instance|SO|8;1|N|Defeat Rowa Bloodstrike|
-C Check on Baine Bloodhoof|ACTIVE|55779^55782|M|78.54,55.51|Z|Baine Rescue!Instance|SO|9;1|N|Check on Baine Bloodhoof|
+C Check on Baine Bloodhoof|ACTIVE|55779^55782|M|78.54,55.51|Z|Baine Rescue!Instance|SO|9;1|NC|N|Check on Baine Bloodhoof|
 C Defeat Sylvanas's forces|ACTIVE|55779^55782|M|82.30,61.06|S|Z|Baine Rescue!Instance|SO|10;1|N|Defeat Sylvanas's forces, first the ones right in front of you, then the mages at each inhibitor crystal.|
 C Destroy Inhibitor Crystals|ACTIVE|55779^55782|M|85.03,60.47|Z|Baine Rescue!Instance|SO|10;2|N|Destroy Inhibitor Crystals.|
 C Defeat Sylvanas's forces|ACTIVE|55779^55782|M|82.30,61.06|Z|Baine Rescue!Instance|SO|10;1|N|And finally defeat Magister Hathorel.|
@@ -1348,8 +1396,8 @@ A Strategic Deployment|QID|57092|M|41.60,55.72|Z|1535|N|From Varok Saurfang.|PRE
 C Saving the Siege|QID|57090|M|28.31,67.11|Z|1535|S|NC|N|Click to remove the Suspicious Crates.|
 C Already Among Us|QID|57091|M|30.94,69.56|Z|1535|S|N|Kill Loyalist combatants.|
 C Strategic Deployment|QID|57092|M|48.97,55.60|Z|1535|QO|1|CHAT|N|Speak with First Arcanist Thalyssra.|
-C Strategic Deployment|QID|57092|M|36.11,64.08|Z|1535|QO|2|CHAT|N|Speak with Lor'themar.|
-C Strategic Deployment|QID|57092|M|32.08,82.79|Z|1535|QO|1|CHAT|N|Speak with Mayla Highmountain.|
+C Strategic Deployment|QID|57092|M|36.11,64.08|Z|1535|QO|3|CHAT|N|Speak with Lor'themar.|
+C Strategic Deployment|QID|57092|M|32.08,82.79|Z|1535|QO|2|CHAT|N|Speak with Mayla Highmountain.|
 C Already Among Us|QID|57091|M|30.94,69.56|Z|1535|N|Continue killing Loyalists until the quest completes.|
 C Saving the Siege|QID|57090|M|28.31,67.11|Z|1535|QO|1|N|Continue pickup up Suspicious Crates until the quest completes.|
 T Saving the Siege|QID|57090|M|41.64,55.71|Z|1535|N|To Varok Saurfang.|
@@ -1383,7 +1431,6 @@ T Traitors In Our Midst|QID|57130|M|50.45,76.17|Z|1534|N|To Nathanos Blightcalle
 A Siegebreakers|QID|57148|M|50.45,76.17|Z|1534|N|From Nathanos Blightcaller.|PRE|57130|
 A Propaganda Takedown|QID|57149|M|50.45,76.17|Z|1534|N|From Nathanos Blightcaller.|PRE|57130|
 A Militia|QID|57150|M|50.45,76.17|Z|1534|N|From Nathanos Blightcaller.|PRE|57130|
-A Propaganda Takedown|QID|57149|M|50.45,76.17|Z|1534|N|From Nathanos Blightcaller.|
 C Militia|QID|57150|M|58.04,56.90|Z|1534|S|NC|N|Use special action button to rally Citizens.|
 C Propaganda Takedown|QID|57149|M|57.58,51.78|Z|1534|NC|N|Burn the Propaganda posters. Dismayed citizens nearby may attack.|
 C Militia|QID|57150|M|58.04,56.90|Z|1534|NC|US|N|Rally Citizens until the quest completes.|
@@ -1391,7 +1438,7 @@ C Siegebreakers|QID|57148|M|32.59,66.46|Z|1535|U|171635|NC|N|Use the disguise, a
 T Siegebreakers|QID|57148|M|50.11,91.30|Z|1534|N|To Nathanos Blightcaller.|
 T Propaganda Takedown|QID|57149|M|50.11,91.30|Z|1534|N|To Nathanos Blightcaller.|
 T Militia|QID|57150|M|50.11,91.30|Z|1534|N|To Nathanos Blightcaller.|PRE|57148&57149&57150|
-A A Line in the Sand|QID|57151|M|50.11,91.30|Z|1534|N|From Nathanos Blightcaller.|
+A A Line in the Sand|QID|57151|M|50.11,91.30|Z|1534|N|From Nathanos Blightcaller.|PRE|57150|
 C A Line in the Sand|QID|57151|M|50.11,91.30|Z|1534|CHAT|N|Speak with Nathanos.|
 T A Line in the Sand|QID|57151|M|49.99,91.33|Z|1534|N|To Dark Ranger Lenara.|
 A Most Loyal|QID|57152|M|49.99,91.33|Z|1534|N|From Dark Ranger Lenara.|PRE|57151|
