@@ -80,8 +80,8 @@ A Dolanaar Delivery|QID|2159|M|61.16,47.64|N|From Porthannius, on the road to Do
 
 L Level 4|ACTIVE|2159|LVL|4|N|You'll want to be level 4 to accept the next quest. Grind until you are.|
 
-A Zenn's Bidding|AVAILABLE|488|M|60.43,56.25|N|From Zenn Foulhoof. If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest)|
-C Zenn's Bidding|ACTIVE|488|S|N|Kill and loot Webwood Lurkers, Nightsabers and Strigid Owls along the way.|
+A Zenn's Bidding|QID|488|M|60.43,56.25|N|From Zenn Foulhoof. If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest)|
+C Zenn's Bidding|QID|488|S|N|Kill and loot Webwood Lurkers, Nightsabers and Strigid Owls along the way.|
 A A Troubling Breeze|QID|475|M|55.96,57.28|N|From Athridas Bearmantle in Dolanaar.|
 T In Favor of Elune|QID|5622|C|Priest|M|55.56,56.75|N|To Laurna Morninglight.|
 A Garments of the Moon|QID|5621|PRE|5622|C|Priest|M|55.56,56.75|N|From Laurna Morninglight.|
@@ -95,10 +95,10 @@ T Dolanaar Delivery|QID|2159|M|55.70,59.80|N|To the innkeeper.|
 h Dolanaar|QID|928|N|Set your Hearthstone to Dolanaar.|
 
 T In Favor of Elune|ACTIVE|5622|C|Priest|M|55.56,56.75|N|To Laurna Morninglight.|
-A Garments of the Moon|AVAILABLE|5621|C|Priest|M|55.56,56.75|N|From Laurna Morninglight.|
-A A Troubling Breeze|AVAILABLE|475|M|55.96,57.28|N|From Athridas Bearmantle.|
-A The Emerald Dreamcatcher|AVAILABLE|2438|M|55.58,56.95|N|At the top of the building from Tallonkai Swiftroot.|
-A Twisted Hatred|AVAILABLE|932|M|55.58,56.95|N|From Tallonkai Swiftroot.|
+A Garments of the Moon|QID|5621|C|Priest|M|55.56,56.75|N|From Laurna Morninglight.|
+A A Troubling Breeze|QID|475|M|55.96,57.28|N|From Athridas Bearmantle.|
+A The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|N|At the top of the building from Tallonkai Swiftroot.|
+A Twisted Hatred|QID|932|M|55.58,56.95|N|From Tallonkai Swiftroot.|
 
 A Recipe of the Kaldorei|QID|4161|M|57.11,61.28|N|Speak to Zarrin and learn cooking - this will unlock the quest.|
 T Crown of the Earth|QID|928|M|56.15,61.71|N|To Corithras Moonrage.|
@@ -128,7 +128,7 @@ C Zenn's Bidding|QID|488|US|M|62.43,59.89|N|Kill Webwood Lurkers, Nightsabers an
 T Zenn's Bidding|QID|488|M|60.43,56.25|N|To Zenn Foulhoof. If he is a frog, wait up to 1 minute (another player has just done a later stage of the quest).|
 C Recipe of the Kaldorei|QID|4161|M|63,63|US|N|Kill spiders until you have 7 Small Spider Legs.|
 
-A Seek Redemption!|AVAILABLE|489|PRE|488|M|56.10,57.73|N|From Syral Bladeleaf|
+A Seek Redemption!|QID|489|PRE|488|M|56.10,57.73|N|From Syral Bladeleaf|
 A Denalan's Earth|QID|997|M|56.09,57.72|N|From Syral Bladeleaf.|
 C Seek Redemption!|ACTIVE|489|NC|S|L|3418 3|N|Look out for Fel Cones below trees. Green smoke comes out of them.|
 
