@@ -134,7 +134,7 @@
 -- URL: http://wow-pro.com/node/3602/revisions/27097/view
 -- Date: 2014-12-18 02:56
 -- Who: Blanckaert
--- Log:  35670 turnins up in the guide to clear them from the log
+-- Log: 35670 turnins up in the guide to clear them from the log
 
 -- URL: http://wow-pro.com/node/3602/revisions/27095/view
 -- Date: 2014-12-14 04:58

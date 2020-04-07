@@ -46,7 +46,7 @@
 -- URL: http://wow-pro.com/node/3443/revisions/25633/view
 -- Date: 2013-05-14 17:01
 -- Who: Ludovicus_Maior
--- Log:  roasted
+-- Log: roasted
 
 -- URL: http://wow-pro.com/node/3443/revisions/24817/view
 -- Date: 2011-11-20 23:35

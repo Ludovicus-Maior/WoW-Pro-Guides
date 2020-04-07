@@ -41,7 +41,7 @@
 -- URL: http://wow-pro.com/node/3254/revisions/27556/view
 -- Date: 2016-08-16 16:29
 -- Who: tubera
--- Log:  the Bold
+-- Log: the Bold
 
 -- URL: http://wow-pro.com/node/3254/revisions/26448/view
 -- Date: 2014-06-02 15:07

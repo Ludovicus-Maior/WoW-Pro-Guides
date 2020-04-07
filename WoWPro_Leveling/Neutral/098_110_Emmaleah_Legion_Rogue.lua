@@ -26,7 +26,7 @@
 -- URL: http://wow-pro.com/node/3675/revisions/28706/view
 -- Date: 2017-06-13 22:53
 -- Who: Ludovicus_Maior
--- Log:  Darnassus
+-- Log: Darnassus
 
 -- URL: http://wow-pro.com/node/3675/revisions/28687/view
 -- Date: 2017-06-12 21:27

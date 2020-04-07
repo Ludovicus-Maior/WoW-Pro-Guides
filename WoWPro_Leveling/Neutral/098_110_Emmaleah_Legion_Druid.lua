@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3669
+-- Date: 2020-04-06 21:42
+-- Who: Ludovicus_Maior
+-- Log: Added GuideNextGuide quotes
+
+-- URL: http://wow-pro.com/node/3669/revisions/30121/view
 -- Date: 2018-11-12 01:56
 -- Who: Emmaleah
 -- Log: add PREs to dungeon quests.

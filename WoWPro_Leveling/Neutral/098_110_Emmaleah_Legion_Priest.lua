@@ -120,7 +120,7 @@
 -- URL: http://wow-pro.com/node/3674/revisions/27930/view
 -- Date: 2016-10-17 16:23
 -- Who: tubera
--- Log:  void
+-- Log: void
 
 -- URL: http://wow-pro.com/node/3674/revisions/27880/view
 -- Date: 2016-10-05 22:52

@@ -36,7 +36,7 @@
 -- URL: http://wow-pro.com/node/3302/revisions/28152/view
 -- Date: 2016-12-14 15:17
 -- Who: tubera
--- Log:  N tags;Guide should be closer to today's standard again.
+-- Log: N tags;Guide should be closer to today's standard again.
 
 -- URL: http://wow-pro.com/node/3302/revisions/28151/view
 -- Date: 2016-12-14 05:59
@@ -46,7 +46,7 @@
 -- URL: http://wow-pro.com/node/3302/revisions/28088/view
 -- Date: 2016-12-02 23:16
 -- Who: tubera
--- Log:  overall cleanup.
+-- Log: overall cleanup.
 
 -- URL: http://wow-pro.com/node/3302/revisions/28056/view
 -- Date: 2016-11-27 14:57

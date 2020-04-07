@@ -26,7 +26,7 @@
 -- URL: http://wow-pro.com/node/3687/revisions/29855/view
 -- Date: 2018-09-28 21:28
 -- Who: elidion
--- Log:  f steps.
+-- Log: f steps.
 
 -- URL: http://wow-pro.com/node/3687/revisions/29824/view
 -- Date: 2018-09-24 07:47
@@ -83,7 +83,7 @@
 -- URL: http://wow-pro.com/node/3687/revisions/28675/view
 -- Date: 2017-05-25 22:46
 -- Who: Ludovicus_Maior
--- Log:  CS and use ACH tags for silver kills that dont have tracking quests.
+-- Log: CS and use ACH tags for silver kills that dont have tracking quests.
 
 -- URL: http://wow-pro.com/node/3687/revisions/28674/view
 -- Date: 2017-05-25 17:36

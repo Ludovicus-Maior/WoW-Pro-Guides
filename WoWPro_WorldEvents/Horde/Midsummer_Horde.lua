@@ -16,7 +16,7 @@
 -- URL: http://wow-pro.com/node/3407/revisions/29440/view
 -- Date: 2018-07-19 15:32
 -- Who: Ludovicus_Maior
--- Log:  Durotar
+-- Log: Durotar
 
 -- URL: http://wow-pro.com/node/3407/revisions/28794/view
 -- Date: 2017-09-13 00:15

@@ -11,7 +11,7 @@
 -- URL: http://wow-pro.com/node/3760/revisions/30448/view
 -- Date: 2019-11-18 21:00
 -- Who: Ludovicus_Maior
--- Log:  Heart of Azeroth questline - Level 54/60, [Feathers Before the Storm], 8.1.5 War Campaign bits.
+-- Log: Heart of Azeroth questline - Level 54/60, [Feathers Before the Storm], 8.1.5 War Campaign bits.
 
 -- URL: http://wow-pro.com/node/3760/revisions/30446/view
 -- Date: 2019-11-13 13:34
@@ -150,7 +150,7 @@
 -- URL: http://wow-pro.com/node/3760/revisions/30094/view
 -- Date: 2018-10-28 11:29
 -- Who: Emmaleah
--- Log:  ACTIVE on K Dark Chronicler and K Third Telemancer Syranel
+-- Log: ACTIVE on K Dark Chronicler and K Third Telemancer Syranel
 
 -- URL: http://wow-pro.com/node/3760/revisions/30081/view
 -- Date: 2018-10-23 22:21

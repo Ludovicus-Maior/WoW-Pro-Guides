@@ -55,7 +55,7 @@
 -- URL: http://wow-pro.com/node/3260/revisions/24352/view
 -- Date: 2011-04-29 18:11
 -- Who: Ludovicus_Maior
--- Log:  Line 150 for step C Bad coord In the center of the desert:
+-- Log: Line 150 for step C Bad coord In the center of the desert:
 
 -- URL: http://wow-pro.com/node/3260/revisions/23402/view
 -- Date: 2010-12-03 11:49

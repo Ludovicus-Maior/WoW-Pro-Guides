@@ -21,7 +21,7 @@
 -- URL: http://wow-pro.com/node/3665/revisions/29853/view
 -- Date: 2018-09-28 20:52
 -- Who: elidion
--- Log:  f steps.
+-- Log: f steps.
 
 -- URL: http://wow-pro.com/node/3665/revisions/29823/view
 -- Date: 2018-09-24 07:46
@@ -198,7 +198,7 @@
 -- URL: http://wow-pro.com/node/3665/revisions/27736/view
 -- Date: 2016-09-11 05:54
 -- Who: Blanckaert
--- Log:  stream
+-- Log: stream
 
 -- URL: http://wow-pro.com/node/3665/revisions/27733/view
 -- Date: 2016-09-10 04:51

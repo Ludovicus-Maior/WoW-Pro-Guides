@@ -70,7 +70,7 @@
 -- URL: http://wow-pro.com/node/3776/revisions/29500/view
 -- Date: 2018-08-13 12:55
 -- Who: Ludovicus_Maior
--- Log:  "Chamber of Heart"
+-- Log: "Chamber of Heart"
 
 -- URL: http://wow-pro.com/node/3776/revisions/29488/view
 -- Date: 2018-08-08 21:31

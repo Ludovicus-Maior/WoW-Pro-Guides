@@ -160,7 +160,7 @@
 -- URL: http://wow-pro.com/node/3490/revisions/25217/view
 -- Date: 2012-11-27 18:46
 -- Who: Emmaleah
--- Log:  added NC) Added to check off manually on the rare "lost" items.
+-- Log: added NC) Added to check off manually on the rare "lost" items.
 
 -- URL: http://wow-pro.com/node/3490/revisions/25215/view
 -- Date: 2012-11-25 22:21

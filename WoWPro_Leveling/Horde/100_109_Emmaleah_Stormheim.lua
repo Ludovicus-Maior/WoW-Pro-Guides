@@ -11,7 +11,7 @@
 -- URL: http://wow-pro.com/node/3680/revisions/29851/view
 -- Date: 2018-09-28 20:45
 -- Who: elidion
--- Log:  f steps.
+-- Log: f steps.
 
 -- URL: http://wow-pro.com/node/3680/revisions/29826/view
 -- Date: 2018-09-24 07:49

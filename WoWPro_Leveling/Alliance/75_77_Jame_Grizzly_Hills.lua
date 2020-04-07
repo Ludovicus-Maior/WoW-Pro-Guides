@@ -16,7 +16,7 @@
 -- URL: http://wow-pro.com/node/3293/revisions/29501/view
 -- Date: 2018-08-13 12:59
 -- Who: Ludovicus_Maior
--- Log:  |NC|N|Blah
+-- Log: |NC|N|Blah
 
 -- URL: http://wow-pro.com/node/3293/revisions/29242/view
 -- Date: 2018-04-24 19:34
