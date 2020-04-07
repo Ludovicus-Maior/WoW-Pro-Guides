@@ -239,7 +239,7 @@ function WoWPro.ValidObjectives(objectives, debug, why)
         if WoWPro.ValidObjective(lobjective) then
             value = true
         else
-            WoWPro:dbp("ValidObjectives: Not a valid quest objective %q [%s]", QID, objectives)
+            WoWPro:dbp("ValidObjectives: Not a valid quest objective %q [%s]", WoWProDB.char.currentguide, objectives)
             return false
         end
     end
