@@ -7,7 +7,7 @@ WoWPro:GuideLevels(guide, 12, 21, 13)
 WoWPro:GuideNextGuide(guide, 'Jame-HordeGuide-1')
 WoWPro:GuideSteps(guide, function() return [[
 ; --- Carry over quests from last guide ---------------------------------------
-A Plainstrider Menace|AVAILABLE|844|M|52.23,31.01|N|From Sergra Darkthorn.|
+A Plainstrider Menace|QID|844|M|52.23,31.01|N|From Sergra Darkthorn.|
 f The Crossroads|QID|1358|M|51.50,30.34|N|Devrak|
 T Sample for Helbrim|QID|1358|M|51.46,30.16|N|To Apothecary Helbrim.|
 ; -----------------------------------------------------------------------------

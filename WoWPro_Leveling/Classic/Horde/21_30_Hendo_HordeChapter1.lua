@@ -19,7 +19,7 @@ C Goblin Invaders|QID|1062|QO|1|N|Kill Venture Co. Loggers. Deforesters and Oper
 l Super Reaper 6000|QID|1062|PRE|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|US|
 T Super Reaper 6000|QID|1093|PRE|1093|M|59.79,71.43;67.69,86.82;66.24,89.37|CC|N|To Ziz Fizziks.|
 A Further Instructions|QID|1094|M|63.12,93.80;61,93|CC|N|From Ziz Fizziks.|PRE|1093|
-A Arachnophobia|AVAILABLE|6284|M|59.08,75.72|ELITE|N|Head back to the signpost at the Windshear Crag entrance and follow the road south. From the Wanted Poster, located beside the road.\n[color=FF0000]NOTE: [/color]Strongly recommended only to accept this quest if you are over level or can find a PUG to do this. Bessaleth is a lv 21 Elite mob.|
+A Arachnophobia|QID|6284|M|59.08,75.72|ELITE|N|Head back to the signpost at the Windshear Crag entrance and follow the road south. From the Wanted Poster, located beside the road.\n[color=FF0000]NOTE: [/color]Strongly recommended only to accept this quest if you are over level or can find a PUG to do this. Bessaleth is a lv 21 Elite mob.|
 K Bessaleth|ACTIVE|6284|T|Bessaleth|L|16192|N|Bessaleth is somewhere in here. She has multiple spawn points. Generally, you'll find her in one of the alcoves along the edge.|
 R Boulderslide Ravine|QID|6421|M|63.12,93.80;61.72,93.13|CC|N|Head back to the signpost at the Windshear Crag entrance and follow the road south.|
 C Boulderslide Ravine|QID|6421|QO|2|N|Collect Resonite Crystals.|NC|S|
@@ -47,7 +47,7 @@ A Journey to Tarren Mill|QID|1065|M|22.84,20.93|Z|Thunder Bluff|N|From Apothecar
 
 ; --- Ashenvale
 F Splintertree Post|AVAILABLE|6571|M|47.02,49.83|Z|Thunder Bluff|
-A Warsong Supplies|AVAILABLE|6571|M|71.44,67.67|Z|Ashenvale|N|From Locke Okarr; by the south watchtower.|
+A Warsong Supplies|QID|6571|M|71.44,67.67|Z|Ashenvale|N|From Locke Okarr; by the south watchtower.|
 
 ; --- Silverpine Forest
 F Orgrimmar|QID|443|M|47.02,49.83|Z|Thunder Bluff|N|Fly to Orgrimmar.|

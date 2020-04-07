@@ -45,7 +45,7 @@ C The Battleboars|QID|780|M|56.98,85.95|QO|1;2|N|Kill the Battleboars in front o
 C Rite of Strength|QID|757|QO|1|N|Kill Quillboars for their Bristleback Belts on the way.|S|
 C Break Sharptusk!|QID|3376|M|58.05,85.10;62.24,81.49;62.51,78.81;64.65,77.71|CS|QO|1|N|Work your way to Sharptusk inside the big tent and kill him.|
 l Dirt-stained Map|AVAILABLE|781|M|63.24,82.70|L|4851|N|Inside this cave is a Dirt-stained Map. Loot it. There may be a rare called "Squeler" Thornmantle in the cave.|
-A Attack on Camp Narache|AVAILABLE|781|U|4851|N|Right-click the Dirt-stained Map.|
+A Attack on Camp Narache|QID|781|U|4851|N|Right-click the Dirt-stained Map.|
 C Rite of Strength|QID|757|N|Kill the Quillboars until you have all Bristleback Belts.|US|
 C Call of Earth|QID|1519|M|64.80,79.20|N|Make sure you have the 2 Ritual Salves.|R|Tauren|C|Shaman|
 H Camp Narache|QID|757|

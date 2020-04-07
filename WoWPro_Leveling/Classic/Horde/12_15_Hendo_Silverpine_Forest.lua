@@ -140,7 +140,7 @@ C Raleigh and the Undercity|QID|441|Z|Tirisfal Glades|N|Bring Deliah's Ring to R
 T Raleigh and the Undercity|QID|441|M|62,43|Z|Undercity|N|To Raleigh Andrean.|
 
 ; --- Making sure you have the Barrens breadcrumb.
-A Sample for Helbrim|AVAILABLE|1358|M|50,68.4|Z|Undercity|N|From Apothecary Zinge.|PRE|1359|
+A Sample for Helbrim|QID|1358|M|50,68.4|Z|Undercity|N|From Apothecary Zinge.|PRE|1359|
 R Leave Undercity|ACTIVE|1358|M|65.99,36.85;66.22,0.90;66.22,1.27|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|
 
 ; --- Travel to Durotar (Orgrimmar)

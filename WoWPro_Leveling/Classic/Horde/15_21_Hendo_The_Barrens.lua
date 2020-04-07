@@ -292,6 +292,7 @@ A The Warsong Reports|QID|6543|M|48.12,5.42|N|From Kadrak.|
 R Ashenvale|QID|6548|M|68.63,86.82|Z|Ashenvale|N|Follow the road north until you reach Ashenvale (Nightsong Woods).|
 R Splintertree Post|QID|6548|M|68.60,84.23;67.24,71.58;70.15,70.09;71.1,67.5|Z|Ashenvale|CC|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.\n[color=FF0000]NOTE: [/color]Be VERY aware of the much higher level mobs if you choose to venture off the road.|
 C Warsong Reports|QID|6543|U|16783|L|16746|N|Open your Bundle of Reports.|
+; Quest is [The Warsong Reports], presuming this is to avoid automatic turn-in.
 T Warsong Scout Update|QID|6543|M|71.04,68.22|Z|Ashenvale|QO|1|N|Give one of the Reports to the Warsong Scout with a Blue question mark over her head. She sometimes spawns at the base of the tower.\n[color=FF0000]NOTE: [/color]Be careful not to give more than one, or you won't have enough to finish the quest.|NC|
 f Splintertree Post|QID|6548|M|73.25,61.67|Z|Ashenvale|N|Head into Splintertree Post and get the flight path.|TAXI|-Splinter Tree|
 C Warsong Outrider Update|QID|6543|M|73.50,63.76;75.41,64.25;76.68,58.48;78.80,55.48;94,47|Z|Ashenvale|CC|QO|3|N|Locate the Warsong Outrider and get the Warsong Outrider Update. S/he patrols on a wolf mount along the road northeast of Splintertree.|NC|
@@ -520,7 +521,7 @@ R The dead tree|QID|882|M|60.01,30.36|CS|N|Head for the dead tree.|
 C Ishamuhale|QID|882|U|10338|QO|1|N|When you get to the tree, Right-Click the Carcas in your inventory. This should summon Ishamuhale. Kill it.|
 R The Crossroads|QID|899|M|52.63,30.98|N|Run back to the Crossroads. If you maneuver well enough, you can just go over the mountain instead of around it.|
 
-T Consumed By Hatred|QID|899|M|52,31.6|N|To the infamous Mankrik.|
+T Consumed by Hatred|QID|899|M|52,31.6|N|To the infamous Mankrik.|
 ; lv 22
 F Camp Taurajo|QID|882|M|51.52,30.36|N|Fly back to Camp Taurajo.|
 
@@ -549,13 +550,13 @@ N The Ashenvale Hunt|AVAILABLE|-6383|N|This quest unlocks 3 drop loot item quest
 
 N Vorsha the Lasher|AVAILABLE|6641|N|Now that you are level 20, you can do the Vorsha the Lasher quest for a Stamina/Spirit Ring reward and 2300 xp.|
 F Zoram'gar|M|73.25,61.67|Z|Ashenvale|N|Fly to Zoram'gar.|
-A Vorsha the Lasher|AVAILABLE|6641|M|12.06,34.64|Z|Ashenvale|N|[color=FF0000]NOTE: [/color]Escort quest.\nFrom Muglash. If he's not there, just wait because someone is already doing the quest.|
-A Vorsha the Lasher|AVAILABLE|6641|M|12.06,34.64|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED [/color]\Go back to Muglash to restart thequest.\nIf he's not there, just wait because someone is already doing the quest.|FAIL|
+A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|N|[color=FF0000]NOTE: [/color]Escort quest.\nFrom Muglash. If he's not there, just wait because someone is already doing the quest.|
+A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED [/color]\Go back to Muglash to restart thequest.\nIf he's not there, just wait because someone is already doing the quest.|FAIL|
 
 ; Vorsha the Lasher seems to be 'glitched' and you don't have to actually defeat Vorsha.
 ;C Vorsha the Lasher|QID|6641|M|9.63,27.66|Z|Ashenvale|QO|1|N|Accompany Muglash to the brazier. Right-click the brazier to extinguish the flame. Protect Muglash as you fight against 2 waves of 3 Nagas and then Vorsha in the final wave.\nMake sure you kill the Priestesses first, as they will heal everyone fully.
 C Vorsha the Lasher|QID|6641|M|9.63,27.66|Z|Ashenvale|QO|1|N|\n[color=FF0000]NOTE: [/color]This quest is a bit glitched. All you have to do is escort Muglash to the Brazier, extinguish the flame and then die. Do NOT release your body until Muglash dies. Release and recover your body. Run back to Muglash in Zoram'gar Outpost to restart the quest. When you reach the base of the first hill, Muglash will stop and thank you for helping. At this point, the quest will be completed.|
-;T Vorsha the Lasher|QID|6641|M|12.22,34.21|Z|Ashenvale|N|To Warsong Runner.|
+T Vorsha the Lasher|QID|6641|M|12.22,34.21|Z|Ashenvale|N|To Warsong Runner.|
 
 F Sun Rock Retreat|M|73.25,61.67|Z|Ashenvale|N|Fly to Sun Rock Retreat.|
 ]]

@@ -545,7 +545,7 @@ R Shaol'watha|ACTIVE|7839|QO|1|M|77,61;72.6,53|CS|Z|The Hinterlands|N|Ride to th
 K Trolls|QID|7839|QO|1|M|71,48.6|Z|The Hinterlands|N|Kill the trolls you find in and around the wooden bunker just north of Shaol'watha. Look for the tools here too. There's another bunker just northwest of this one, go there and clear it. Click off this step when you are done.|
 K Razorbeak Skylord|ACTIVE|7830|QO|1|M|59.4,53.7|Z|The Hinterlands|S!US|T|Razorbeak Skylord|N|Keep your eye out for a somewhat rare Razorbeak Skylord.|
 R Skulk Rock|ACTIVE|7829|QO|1|M|57.4,42.6|Z|The Hinterlands|N|On the way to Skull Rock, hunt Savage Owlbeasts, Silvermane Stalkers and Razorbeak Skylord as needed. If you don't get enough, we'll be back later. Clear slimes on top of skulk rock and look for Slagtree's Lost Tools (if you haven't found them already).|
-K Trolls|QID|7839|QO|1|M|70.8,49.5|Z|The Hinterlands|N|Clear slimes and look for Slagtree's Lost Tools (if you haven't found them already). West of Skulk Rock you should find another of those wooden bunkers, clear it.|M|58,43;54,40|CN|
+K Trolls|QID|7839|QO|1|M|70.8,49.5;58,43;54,40|CN|Z|The Hinterlands|N|Clear slimes and look for Slagtree's Lost Tools (if you haven't found them already). West of Skulk Rock you should find another of those wooden bunkers, clear it.|
 R Agol'watha|ACTIVE|77|M|46,40|Z|The Hinterlands|N|Ride to Agol'watha and clear Oozes and look for Horde Supply Crates.|
 C A Sticky Situation|QID|77|M|47.2,40.3|Z|The Hinterlands|N|Open Horde Supply Crates until you've 10 bottles of Hinterlands Honey Ripple. There's a crate outside too.|
 C Vilebranch Hooligans|QID|7839|M|53.3,38.8;66.4,44.7|CN|Z|The Hinterlands|N|You should have found Smith Slagtree's tools by now, if not, there are two more places to look, if still no tools, you mucst have missed them, go back to Shaol'watha and Skulk Rock and look again.|
@@ -664,7 +664,7 @@ C Zapped Giants|QID|7003|M|44.6,51.4|Z|Feralas|U|18904|N|Head south along the co
 C Fuel for the Zapping|QID|7721|M|44.6,51.4|Z|Feralas|N|Keep going up and down the coast, getting any other water elementals you need.|
 T Zapped Giants|QID|7003|M|45,44|Z|Feralas|N|To Zorbin Fandazzle.|
 T Fuel for the Zapping|QID|7721|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandazzle.|
-N Again With the Zapped Giants|QID|3127|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandazzle. We aren't actually going to complete this. we just want the zapper for a later quest.|
+A Again With the Zapped Giants|QID|7725|M|44.8,43.4|Z|Feralas|N|To Zorbin Fandazzle. We aren't actually going to complete this. we just want the zapper for a later quest.|
 H Camp Mojache|QID|3124|U|6948|
 T Hippogryph Muisek|QID|3124|M|74.4,43.4|Z|Feralas|N|To Witch Doctor Uzer'i.|
 A Faerie Dragon Muisek|QID|3125|PRE|3124|M|74.4,43.4|Z|Feralas|N|From Witch Doctor Uzer'i.|
@@ -680,7 +680,7 @@ A Rescue OOX-22/FE!|QID|2767|M|52,57|Z|Feralas|N|From OOX-22/FE.|PRE|2766|
 C Rescue OOX-22/FE!|QID|2767|M|52,57|Z|Feralas|
 C Mountain Giant Muisek|QID|3127|M|48.6,45.4|U|18904|N|Head northwest along the road to the dwarf camp at (42,25), then head northwest from there to find the giants. Use the shrinker on them and kill them, then use the muisek vessel (you'll need to put this on an action key since we are using the normal one for the shrinker).|
 N Gather Splintered Logs|QID|3128|QO|1|N|There are treants in the area if you still need Splintered Logs.|
-T Again with the Zapped Giants|QID|3127|N|abandon (not turn in) this quest.|
+T Again with the Zapped Giants|QID|7725|N|abandon (not turn in) this quest.|
 C Improved Quality|QID|7734|M|51.66,32.14|Z|Feralas|N|Head to the yeti cave to the southwest and gather 10 Rage Scar Yeti Hide from the yetis.|
 K Rage Scar Yetis|QID|7738|L|18972|N|Until you get a Perfect Yeti Hide.|
 A Perfect Yeti Hide|QID|7738|U|18972|Z|Feralas|N|From item that just dropped.|
