@@ -232,11 +232,18 @@ function WoWPro.ValidObjectives(objectives, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:ValidObjectives(%s)",tostring(objectives))
     end
-    local value = QidMapReduce(objectives,false,";","",function (objective) return (not WoWPro.ValidObjective(objective)) ; end, why or "ValidObjectives", debug or quids_debug)
-    if debug or quids_debug then
-        WoWPro:dbp("WoWPro:ValidObjectives(%s) return %s",tostring(objectives),tostring(value))
+    local numObjectives = select("#", (";"):split(objectives))
+    local value = false -- default to false if objective string is empty
+    for l=1,numObjectives do
+        local lobjective = select(numObjectives-l+1, (";"):split(objectives))
+        if WoWPro.ValidObjective(lobjective) then
+            value = true
+        else
+            WoWPro:dbp("ValidObjectives: Not a valid quest objective %q [%s]", QID, objectives)
+            return false
+        end
     end
-    return not value
+    return value
 end
 
 
