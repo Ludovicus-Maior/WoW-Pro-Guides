@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_felwood_horde
+-- Date: 2020-04-08 17:45
+-- Who: Ludovicus_Maior
+-- Log: [WANTED: The Demon Hunter]
+
+-- URL: http://wow-pro.com/node/3258/revisions/29978/view
 -- Date: 2018-10-17 02:27
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -231,7 +236,7 @@ T The Core of Kroshius|QID|28359|M|43.98,27.89|N|To Hurak Wildhorn.|
 C Weeding the Lawn|QID|28374|NC|M|44.88,32.70|N|Right-click the lashers to check them, they are found all around the grove. Occassionally one will attack after you check it.|
 T Weeding the Lawn|QID|28374|M|43.30,30.41|N|To Tender Puregrove.|
 A Nature and Nurture|QID|28229|PRE|28374|M|43.91,28.17|N|From Isural Forestsworn.|
-A Wanted: The Demon Hunter|QID|28217|PRE|28374|M|43.49,28.19|N|From Huntress Selura.|
+A WANTED: The Demon Hunter|QID|28217|PRE|28374|M|43.49,28.19|N|From Huntress Selura.|
 U Fill Vial|QID|28229|U|63332|M|44.05,28.42|N|Fill the empty vial in the moonwell water at the center of Whisperwind Grove.|L|63387|
 C Nature and Nurture|QID|28229|U|63387|M|48.68,25.17|N|Use the moonwell water on the hill in the Irontree Woods.|
 T Nature and Nurture|QID|28229|M|48.68,25.17|N|The turn-in should pop up automatically.|
@@ -257,8 +262,8 @@ T The Last Protector|QID|28224|N|To Flourishing Protector.|
 A Rejoining the Forest|QID|28228|PRE|28224|N|From Flourishing Protector.|
 C Rejoining the Forest|QID|28228|NC|M|48.72,25.23|N|Head back to the hill at the center of the Irontree Woods.|
 T Rejoining the Forest|QID|28228|N|The turn-in will pop up automatically.|
-C Wanted: The Demon Hunter|QID|28217|M|45.59,20.17|N|Talk to him and tell him you are there to kill him. Then defeat him in combat.|
-T Wanted: The Demon Hunter|QID|28217|M|45.58,20.16|N|To Feronas Sindweller.|
+C WANTED: The Demon Hunter|QID|28217|M|45.59,20.17|N|Talk to him and tell him you are there to kill him. Then defeat him in combat.|
+T WANTED: The Demon Hunter|QID|28217|M|45.58,20.16|N|To Feronas Sindweller.|
 A A Destiny of Flame and Sorrow|QID|28218|PRE|28217|M|45.58,20.16|N|From Feronas Sindweller.|
 C A Destiny of Flame and Sorrow|QID|28218|M|45.33,19.80|N|During the event, help Illidan fight Arthas.|
 T A Destiny of Flame and Sorrow|QID|28218|M|45.53,20.11|N|To Feronas Sindweller.|
