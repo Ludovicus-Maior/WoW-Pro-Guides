@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_horde
+-- Date: 2020-04-08 17:53
+-- Who: Ludovicus_Maior
+-- Log: [The Warchief's Order], [What Will It Grow?], [A Friend Indeed], [That's What Friends Are For]
+
+-- URL: http://wow-pro.com/node/3789/revisions/30461/view
 -- Date: 2019-12-21 18:28
 -- Who: Ludovicus_Maior
 -- Log: Playing errors on my boosted Hordie.
@@ -181,7 +186,7 @@ A The Eternal Palace: Queen's Gambit|QID|56356|M|50.62,24.14|NA|N|From Lor'thema
 f The Tidal Conflux|QID|56356|M|51.11,23.61|N|At Kobo Rayfriend.|PRE|55799|
 
 ;zone intro
-A The Warcheif's Order|QID|56030|N|Auto accepted when logging in after 6/25/19 and able to do WQs.|
+A The Warchief's Order|QID|56030|N|Auto accepted when logging in after 6/25/19 and able to do WQs.|
 T The Warchief's Order|QID|56030|M|58.44,62.66|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Send the Fleet|QID|56044|M|58.44,62.66|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|56030|
 C Send the Fleet|QID|56044|M|44.49,95.42|Z|Dazar'alor|CHAT|N|Speak to Captain Rez'okun to set sail. This starts a cut scene that ends with you in Nazjatar.|
@@ -430,12 +435,12 @@ C Broken Controller|QID|55663|M|60.09,58.37|QO|2|T|Merciless Controller|N|Mercil
 C Silence|QID|56383|M|58.33,48.13|NC|N|Defeat Silence in a pet battle.|
 A Half-Digested Deepcoral Pod|QID|56459|M|58.33,48.13|N|From item dropped the first time you defeat Silence in a pet battle.|PRE|56383|
 C To Soar Like a Ray|QID|55883|M|58.33,48.13|U|168425|NC|N|If you can't fly yet, use provided swim jet or deepcoral pods to get on top of the corals and pick up the eggs.
-A What will it Grow?|QID|55426|N|From Germinating Seed, often contained in a Waterlogged Toolbox.|O|;drop
-C What will it Grow?|QID|55426|M|54.70,41.71|QO|1|U|167786|NC|N|Plant the seed in fertile soil.|
-C What will it Grow?|QID|55426|M|54.70,41.71|QO|2|NC|N|Click on the Bloated Seaflies to capture one.|
-C What will it Grow?|QID|55426|M|54.70,41.71|QO|3|NC|N|Use special action button to feed the Carniverous Lasher.|
-C What will it Grow?|QID|55426|M|54.70,41.71|QO|4|NC|N|Catch them one a time and come back and feed it.|
-C What will it Grow?|QID|55426|M|54.70,41.71|QO|5|N|Uht Oh, it's tired of flies, Kill it and loot the Coral Petal.|
+A What Will It Grow?|QID|55426|N|From Germinating Seed, often contained in a Waterlogged Toolbox.|O|;drop
+C What Will It Grow?|QID|55426|M|54.70,41.71|QO|1|U|167786|NC|N|Plant the seed in fertile soil.|
+C What Will It Grow?|QID|55426|M|54.70,41.71|QO|2|NC|N|Click on the Bloated Seaflies to capture one.|
+C What Will It Grow?|QID|55426|M|54.70,41.71|QO|3|NC|N|Use special action button to feed the Carniverous Lasher.|
+C What Will It Grow?|QID|55426|M|54.70,41.71|QO|4|NC|N|Catch them one a time and come back and feed it.|
+C What Will It Grow?|QID|55426|M|54.70,41.71|QO|5|N|Uht Oh, it's tired of flies, Kill it and loot the Coral Petal.|
 
 A City of Drowned Friends|QID|56310|M|73.51,47.90|N|From First Arcanist Thalyssra.|PRE|55500|
 C City of Drowned Friends|QID|56310|M|75.84,47.78|QO|1|N|Find Weeping Sanya.|
@@ -712,7 +717,7 @@ T An Unexpected Friend|QID|56813|M|50.97,65.28|N|To Atolia Seapearl.|
 T Becoming a Friend|QID|57005|M|50.97,65.28|N|To Atolia Seapearl.|
 T We're Going To Be Friends|QID|56808|M|51.00,65.27|N|To Atolia Seapearl.|
 T Just A Friend|QID|56803|M|50.98,65.26|N|To Atolia Seapearl.|
-A Friend Indeed|QID|56810|M|50.98,65.26|N|To Atolia Seapearl.|
+A A Friend Indeed|QID|56810|M|50.98,65.26|N|To Atolia Seapearl.|
 T With A Little Help From My Friends|QID|56815|M|50.98,65.26|N|To Atolia Seapearl.|
 T Bounty: A Few Crabs|QID|55823|M|50.99,65.24|N|To Atolia Seapearl.|
 T Bounty: More Crabs|QID|55832|M|50.99,65.24|N|To Atolia Seapearl.|
@@ -750,7 +755,7 @@ T Requisition: A Few Starfish|QID|55719|M|50.99,65.23|N|To Atolia Seapearl.|
 T Requisition: More Starfish|QID|55785|M|50.99,65.23|N|To Atolia Seapearl.|
 T Requisition: We Need It All|QID|55801|M|50.97,65.28|N|To Atolia Seapearl.|
 T Eel Filet|QID|56971|M|49.47,65.32|N|Item found randomly (rarely) when killing eels. Turns in to Vim Brineheart.|
-T Thats What Friends Are For|QID|56805|M|50.97,65.28|N|To Atolia Seapearl.|
+T That's What Friends Are For|QID|56805|M|50.97,65.28|N|To Atolia Seapearl.|
 T The Missing Crew|QID|56379|M|58.46,62.98|Z|Zuldazar|N|Don't forget to turn in to Dread-Admiral Tattersail next time you are at the port in Zuldazar.|
 ]]
 
