@@ -3165,15 +3165,40 @@ function WoWPro:GrailCheckQuestName(guide,QID,myname, action)
     for j=1,numQIDs do
         local qid = select(numQIDs-j+1, ("^"):split(QID))
         local gName = Grail:QuestName(qid)
-
+        local function starts_with(str, start)
+            if str:sub(1, #start) == start then
+                return true , str:sub((1+#start))
+            else
+                return false, str
+            end
+        end
+        local function ends_with(str, ending)
+            if str:sub(-#ending) == ending then
+                return true, str:sub(1, -(1+#ending))
+            else
+                return false, str
+            end
+        end
         if gName then
             gName = gName:trim()
-            if gName:find("FLAG %- ") then
-                -- just punt
-                gName = gName
+            -- Some quests have junk appended or suffixed.  Get rid of it.
+            local test, alternate = starts_with(gName, "FLAG - ")
+            if test then
+                gName = alternate
+            end
+            if myname == gName then
+                return true
+            end
+            -- Optional things
+            test, alternate = ends_with(gName, "-Bonus Objective")
+            if test then
+                gName = alternate
             end
             if myname ~= gName then
                 WoWPro:Warning("In guide %s, quest %s %s's name [%s] does not match Grail's database [%s].",guide,action,tostring(qid),myname,gName)
+                return false
+            else
+                return true
             end
         end
     end
