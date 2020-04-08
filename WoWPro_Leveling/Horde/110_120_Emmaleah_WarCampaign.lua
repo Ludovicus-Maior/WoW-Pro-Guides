@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2020-04-08 19:10
+-- Who: Ludovicus_Maior
+-- Log: [Foothold: Tiragarde Sound], [The Wicker Totem], [Battle of Dazar'alor], [Do It the Azerite Way], [We Stand United]
+--	Syntax fixes for [Do It the Azerite Way].
+
+-- URL: http://wow-pro.com/node/3761/revisions/30483/view
 -- Date: 2020-03-30 07:55
 -- Who: Emmaleah
 -- Log: fixes and tweaks thru the end.
@@ -248,11 +254,6 @@
 -- Who: elidion
 -- Log: Removed code tags - no change in guide.
 
--- URL: http://wow-pro.com/node/3761/revisions/29693/view
--- Date: 2018-09-07 08:47
--- Who: elidion
--- Log: Added a CHAT tag for tattersail on the friendly rep mission
-
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
 WoWPro:GuideName(guide,'War Campaign')
@@ -306,7 +307,7 @@ A The Ongoing Campaign|QID|51979|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blight
 C Pick next Foothold|QID|51979|M|58.44,62.62|NC|Z|Zuldazar|N|Choose which zone you want to build your second foothold at the Kul'Tiras Campaign Table.|
 t Foothold: Drustvar|QID|51801|M|58.44,62.67|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Stormsong Valley|QID|51802|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
-t Foothold: Tiraguarde Sound|QID|51800|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
+t Foothold: Tiragarde Sound|QID|51800|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
 T The Ongoing Campaign|QID|51979|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
 ;Island Expedition unlock
@@ -331,7 +332,7 @@ A The Final Foothold|QID|52444|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightca
 C Pick last Foothold|QID|52444|M|58.44,62.62|NC|Z|Zuldazar|N|Choose the last available zone to build a foothold at the Kul'Tiras Campaign Table.|
 t Foothold: Drustvar|QID|51801|M|58.44,62.67|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Stormsong Valley|QID|51802|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
-t Foothold: Tiraguarde Sound|QID|51800|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
+t Foothold: Tiragarde Sound|QID|51800|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
 T The Final Foothold|QID|52444|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
 ;Foothold: Drustvar
@@ -770,7 +771,7 @@ A Mission Report: Into The Wicker|QID|53125|M|51.51,99.63|Z|Dazar'alor|PRE|52314
 T Mission Report: Into The Wicker|QID|53125|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A The Wicker Totem|QID|53126|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53125|
 R Drustvar|ACTIVE|53126|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Drustvar or get there through other means.|
-T Mudfisher Cove|QID|53126|M|62.43,17.01|Z|Drustvar|N|Fly to Mudfisher Cove, turn in to Garn Blackwolf.|
+T The Wicker Totem|QID|53126|M|62.43,17.01|Z|Drustvar|N|Fly to Mudfisher Cove, turn in to Garn Blackwolf.|
 
 ; The Revered Repuation Mission Report: Stonetusk Watch;part2
 R Stormsong Valley|ACTIVE|52777|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
@@ -1196,8 +1197,8 @@ b Orgrimmar|ACTIVE|54109^54754|M|37.19,52.28|Z|Northern Stranglethorn|N|Return t
 T Queen's Favor|QID|54109|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
 T For the Queen|QID|54754|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
 ; possibly missing some steps here...
-A The Battle of Dazar'alor|QID|54282|M|58.44,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|NA|
-C The Battle of Dazar'alor|QID|54282|N|You need to defeat Jaina at the Battle of Dazar'alor to continue with the war campaign.|
+A Battle of Dazar'alor|QID|54282|M|58.44,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|NA|
+C Battle of Dazar'alor|QID|54282|N|You need to defeat Jaina at the Battle of Dazar'alor to continue with the war campaign.|
 
 A Return to the Heart|QID|55522|M|50.98,88.86|Z|Dazar'alor|N|From Earthen Guardian, after getting your necklace to 55.|PRE|56161|;pre is Back out to Sea--from Najzatar guide
 P Silithus|ACTIVE|55522|M|73.80,85.65|Z|The Great Seal!Dazar'alor|N|Take the portal to Silithus.|
@@ -1245,16 +1246,16 @@ T A Fresh Trauma|QID|55519|M|62.03,24.92|Z|Mount Hyjal|N|To Magni Bronzebeard.|
 A Healing Nordrassil|QID|55520|M|62.03,24.92|Z|Mount Hyjal|N|From Magni Bronzebeard.|PRE|55519|
 C Healing Nordrassil|QID|55520|M|60.71,25.84|Z|Mount Hyjal|N|Kill the Azerite Leviathan and other azerite mobs around the lake. You can also sooth fairy dragons and heal azerite wounds for quest credit.|
 T Healing Nordrassil|QID|55520|M|62.03,24.92|Z|Mount Hyjal|N|To Magni Bronzebeard.|
-A Do it the Azerite Way|QID|55521|M|62.03,24.92|Z|Mount Hyjal|N|From Magni Bronzebeard.|PRE|55520|
+A Do It the Azerite Way|QID|55521|M|62.03,24.92|Z|Mount Hyjal|N|From Magni Bronzebeard.|PRE|55520|
 H The Great Seal|ACTIVE|55521|62.03,24.92|Z|Mount Hyjal|N|Hearth or otherwise travel to Silithus and the Chamber of Heart.|
 P Silithus|ACTIVE|55521|M|73.89,85.58|Z|The Great Seal!Dazar'alor|N|Travel to Silithus and then the Chamber of Heart.|
-T Do it the Azerite Way|QID|55521|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
+T Do It the Azerite Way|QID|55521|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
 T The Long Awake|QID|55398|M|53.92,62.11|Z|Chamber of Heart!Dungeon1473|N|To Merithra.|
 
 A Investigating the Highlands|QID|56167|M|52.63,70.21|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos. After your Necklace has reached Lvl 60.|
 P Silithus|ACTIVE|56167|M|50.17,30.42|Z|Chamber of Heart!Dungeon1473|N|Travel by method of choice to Twilight Highlands.|
-P Dazar'alorACTIVE|56167|M|41.62,45.21|Z|Silithus|N|Travel by method of choice to Twilight Highlands.|
-P OrgrimmarACTIVE|56167|M|73.72,69.75|Z|The Great Seal!Dazar'alor|N|Travel by method of choice to Twilight Highlands.|
+P Dazar'alor|ACTIVE|56167|M|41.62,45.21|Z|Silithus|N|Travel by method of choice to Twilight Highlands.|
+P Orgrimmar|ACTIVE|56167|M|73.72,69.75|Z|The Great Seal!Dazar'alor|N|Travel by method of choice to Twilight Highlands.|
 P Twilight Highlands|ACTIVE|56167|M|50.23,39.52|Z|Orgrimmar|N|Take the Earthen Ring Portal to Twilight Highlands.|
 T Investigating the Highlands|QID|56167|M|35.94,50.50|Z|Twilight Highlands|N|To Kalecgos.|
 A In the Shadow of Crimson Wings|QID|55657|M|35.94,50.50|Z|Twilight Highlands|N|From Kalecgos.|PRE|56167|
@@ -1276,17 +1277,17 @@ C Defending the Maelstrom|QID|55735|M|29.63,52.91|Z|The Maelstrom|N|Defend the M
 T Defending the Maelstrom|QID|55735|M|33.74,54.56|Z|The Maelstrom|N|To Magni Bronzebeard.|
 A At the Azerite Time|QID|55737|M|33.74,54.56|Z|The Maelstrom|N|From Magni Bronzebeard.|PRE|55735|
 C At the Azerite Time|QID|55737|M|33.74,54.56|Z|The Maelstrom|N|Use the Titan Waygate to return to Chamber of Heart.|
-T At the Azerite Time|QID|55737|M|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
+T At the Azerite Time|QID|55737|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
 
 A A Bolt from the Blue|QID|56401|M|52.60,69.99|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos. Neck must be level 70.|PRE|55737|
 P Crystalsong Forest|M|56.22,91.76|Z|Orgrimmar|N|Travel to Nexus via means of your choosing, most likely via the Orgrimmar portal to Crystalsong Forest, Alternatively zep to Borean Tundra.|
 C A Bolt from the Blue|QID|56401|QO|1|M|27.97,26.27|Z|Borean Tundra|N|Fly up to the top level of the Nexus (NOT in the Instance) and stand next to Kalecgos and use the extra action button to charge the scale.|
 C A Bolt from the Blue|QID|56401|QO|2|M|27.53,26.72|Z|Borean Tundra|N|Fly out to the bubble a little ways in front of you (center of the ring) and take the scale.|
 T A Bolt from the Blue|QID|56401|M|27.97,26.27|Z|Borean Tundra|N|To Kalecgos. It has been fixed, you can take his ride before or after you turn the quest in. Don't forget to go to the Heart Forge and apply it.|
-A We stand United|QID|55752|M|50.20,59.11|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|56401|
-T We stand United|QID|55752|M|50.20,59.11|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
+A We Stand United|QID|55752|M|50.20,59.11|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|56401|
+T We Stand United|QID|55752|M|50.20,59.11|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 
-t The Battle of Dazar'alor|QID|54282|M|58.44,62.68|Z|Zuldazar|N|To Nathanos Blightcaller.|
+t Battle of Dazar'alor|QID|54282|M|58.44,62.68|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A The King's Death|QID|54164|M|58.42,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|
 C The King's Death|QID|54164|M|49.92,39.02|Z|Dazar'alor|NC|N|Pay respects to King Rastakhan by clicking on the table where he lies in state.|
 T The King's Death|QID|54164|M|49.98,38.89|Z|Dazar'alor|N|To Lady Sylvanas Windrunner.|
