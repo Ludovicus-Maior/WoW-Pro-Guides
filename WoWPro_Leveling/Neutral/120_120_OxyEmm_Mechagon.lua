@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mechagon_neutral
+-- Date: 2020-04-08 18:00
+-- Who: Ludovicus_Maior
+-- Log: [Operation: Mechagon - The Mechoriginator], [Wanna Charge? Gotta Pay!], [Let's Fish!], [Deck 'Em], [Blueprint: Rustbolt Gramophone], [Blueprint: Encrypted Black Market Radio], [WANTED: Junkbrat and Roadtrogg]
+
+-- URL: http://wow-pro.com/node/3791/revisions/30460/view
 -- Date: 2019-12-21 18:25
 -- Who: Ludovicus_Maior
 -- Log: CapatilizaTion ErrOrs.
@@ -207,7 +212,7 @@ C Welcome to the Resistance|QID|55736|M|71.44,33.88|NC|N|Tour Rustbolt with Prin
 T Welcome to the Resistance|QID|55736|M|74.09,36.92|N|To Prince Erazmin.|
 N Dailies|AVAILABLE|55609|N|you have now opened up dailies. There is no Emmisary quest for this faction, instead there are dailies. 3 to 4 will be available every day, starting with next reset. Enjoy!|LEAD|54086|
 N Elite Pet Battles|ACH|13625|N|The first time you do any of the elite pet battles, they will drop an item that will among other things reward 75 Rustbolt Resistance faction. So, if you are in a hurry to get that faction you may want to do those, if not, manually check them off in the guide. No strategies provided here, get those from Wowhead or Xu-Fu's or wherever you prefer. Guide contains only accept and turn of the item.|
-A Operation: Mechagon - The Mechoriginator.|QID|55609|N|From Prince Erazmin. This is a dungeon quest.|REP|Rustbolt Resistance;2391;revered-exalted|
+A Operation: Mechagon - The Mechoriginator|QID|55609|N|From Prince Erazmin. This is a dungeon quest.|REP|Rustbolt Resistance;2391;revered-exalted|
 A Junkyard Tinkering and You|QID|55101|M|71.26,32.64|N|From Pascal.|
 C Junkyard Tinkering and You|QID|55101|M|71.41,32.35|NC|N|Craft Scrap Grenades at Pascal-K1N6.|
 T Junkyard Tinkering and You|QID|55101|M|71.41,32.35|N|To Pascal.|
@@ -336,7 +341,7 @@ T More Power|QID|54082|M|70.84,39.15|N|To Flip Quickcharge.|
 
 ;Bondo's yard
 C Your First Charge is Free!|QID|56320|M|61.17,37.82|QO|1|N|Find Charging Station.|
-A Wanna Charge, Gotta Pay|QID|56335|ACTIVE|53630|M|61.30,37.41|N|From Flux.|
+A Wanna Charge? Gotta Pay!|QID|56335|ACTIVE|53630|M|61.30,37.41|N|From Flux.|
 C Your First Charge is Free!|QID|56320|M|61.30,37.41|QO|2|N|Access bought from Flux (so much for free).|
 C Your First Charge is Free!|QID|56320|M|61.30,37.41|QO|3|N|Energy Cell charged.|
 C Abduction Reduction|QID|55905|M|61.46,39.28|QO|1|S!US|U|168430|N|Use provided item to shoot down the Mechagon Containment crates, then stand in the circle where it will land, If you are lucky it contained a gnome which you can catch.|
@@ -392,9 +397,9 @@ t Your First Charge is Free!|QID|56320|M|70.62,38.47|N|To Pristy Quickcharge.|
 C Build A Bigger Fish Trap|QID|55055|M|71.33,32.28|NC|N|Craft the Hundred-Fathom Lure at Pascal-K1N6. (note: uses 2 crates of spare parts)|
 T Collaborative Construction|QID|55153|M|73.08,33.51|N|To Waren Gearhart.|
 T Build A Bigger Fish Trap|QID|55055|M|36.98,47.02|N|To Danielle Anglers.|
-A Let's Fish|QID|56305|M|36.98,47.02|N|From Danielle Anglers.|PRE|55055|
-C Let's Fish|QID|56305|M|37.25,43.70|N|Click on the Lure to summon the Deepwater Maw and then kill it. (suggested 3 people)|
-T Let's Fish|QID|56305|M|36.98,47.02|N|To Danielle Anglers.|
+A Let's Fish!|QID|56305|M|36.98,47.02|N|From Danielle Anglers.|PRE|55055|
+C Let's Fish!|QID|56305|M|37.25,43.70|N|Click on the Lure to summon the Deepwater Maw and then kill it. (suggested 3 people)|
+T Let's Fish!|QID|56305|M|36.98,47.02|N|To Danielle Anglers.|
 
 R The Fleeting Forest|ACTIVE|55696|M|43.54,46.76|U|168270|N|When you get in the area, summon your rusty mechaspider.|
 C Test Drive|QID|55696|M|43.35,56.31|QO|3|N|Drive along to Checkpoint one.|
@@ -491,9 +496,9 @@ C A Historical Mess|QID|55672|M|81.49,67.73|US|N|Collect the Tortollan Relics gr
 T A Historical Mess|QID|55672|M|81.23,68.09|N|To Sir Finley Mrrgglton.|
 C Time for Heroics|QID|55717|M|74.02,58.92|QO|1|CHAT|N|Rescue Leona Mistcaller.|
 C Time for Heroics|QID|55717|M|75.27,69.96|QO|3|CHAT|N|Rescue Adalin Halfheight.|
-A Deck'Em|QID|56049|ACTIVE|55717|M|75.27,69.96|N|From Adalin Halfheight, after you rescue him. If you are in a group, you will need to share this quest.|
+A Deck 'Em|QID|56049|ACTIVE|55717|M|75.27,69.96|N|From Adalin Halfheight, after you rescue him. If you are in a group, you will need to share this quest.|
 K Gluttonous Ooze|ACTIVE|56049|M|75.6,73.6|T|Gluttonous Ooze|N|Kill the Gluttonous Ooze and loot Adalin's cards.|
-T Deck'Em|QID|56049|M|75.27,69.96|N|To Adalin Halfheight.|
+T Deck 'Em|QID|56049|M|75.27,69.96|N|To Adalin Halfheight.|
 C Time for Heroics|QID|55717|M|85.77,73.87|QO|2|CHAT|N|Rescue Dunkin Crackjaw.|
 T Time for Heroics|QID|55717|M|85.52,73.48|N|To Sir Finley Mrrgglton.|
 
@@ -567,9 +572,9 @@ T Blueprint: Scrap Trap|QID|55030|M|71.34,32.28|N|To Pascal-K1N6.|
 T Blueprint: Canned Minnows|QID|55057|M|71.34,32.28|N|To Pascal-K1N6.|
 T Blueprint: Experimental Adventurer Augment|QID|56087|M|71.33,32.28|N|To Pascal-K1N6.|
 T Blueprint: Vaultbot Key|QID|55058|M|71.33,32.28|N|To Pascal-K1N6.|
-T Blueprint: Rustbolt Gramaphone|QID|55064|M|71.33,32.28|N|To Pascal-K1N6.|
+T Blueprint: Rustbolt Gramophone|QID|55064|M|71.33,32.28|N|To Pascal-K1N6.|
 T Blueprint: Vaultbot Key|QID|55058|M|71.35,32.20|N|To Pascal-K1N6.|
-T Blueprint: Encrypted Blackmarket Radio|QID|55084|M|71.34,32.28|N|To Pascal-K1N6.|
+T Blueprint: Encrypted Black Market Radio|QID|55084|M|71.34,32.28|N|To Pascal-K1N6.|
 T Blueprint: Re-Procedurally Generated Punchcard|QID|55067|M|71.34,32.28|N|To Pascal-K1N6.|
 T Blueprint: Emergency Powerpack|QID|55060|M|71.34,32.28|N|To Pascal-K1N6.|
 T Blueprint: Emergency Repair Kit|QID|55059|M|71.34,32.28|N|To Pascal-K1N6.|
@@ -588,8 +593,8 @@ T Off-the-Books Brawlin'|QID|56552|M|70.05,31.06|N|To Usha Eyegouge.|FACTION|Hor
 T Off-the-Books Brawlin'|QID|56558|M|70.17,30.48|N|To Grumbol Grimhammer.|FACTION|Alliance|
 T Pirates, Sea Monsters, Robots|QID|56184|M|71.74,38.85|N|To Dread Captain DeMeza.|
 T Real Ultimate Power|QID|56621|M|70.85,39.13|N|To Flip Quickcharge.|
-T Wanted: Junkbrat and Roadtrogg|QID|56434|M|73.56,35.76|N|To Izira Gearsworn.|
-t Operation: Mechagon - The Mechoriginator.|QID|55609|N|To Prince Erazmin. This is a dungeon quest.|
+T WANTED: Junkbrat and Roadtrogg|QID|56434|M|73.56,35.76|N|To Izira Gearsworn.|
+t Operation: Mechagon - The Mechoriginator|QID|55609|N|To Prince Erazmin. This is a dungeon quest.|
 T Strange Discovery|QID|55718|M|70.47,31.01|N|To Elise Starseeker.|
 T Abduction Reduction|QID|55905|M|70.97,37.64|N|To Penny Clobberbottom.|
 T First One's Free|QID|55707|M|69.74,32.34|N|To Christy Punchcog.|
