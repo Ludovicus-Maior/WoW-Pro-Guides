@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_ghostlands
+-- Date: 2020-04-08 17:48
+-- Who: Ludovicus_Maior
+-- Log: [WANTED: Knucklerot and Luzran]
+
+-- URL: http://wow-pro.com/node/3221/revisions/30101/view
 -- Date: 2018-10-30 18:11
 -- Who: Emmaleah
 -- Log: Added N Fair Warning|N|This guide is out of date with current changes in Ghostlands and needs serious work. Use at your own risk.| at beginning of guide due to the multitude of comments about it's shortcomings.
@@ -188,7 +193,7 @@ A Return to Arcanist Vandril|QID|9758|PRE|9327^9329|M|44.84,32.43|N|From High Ex
 T Return to Arcanist Vandril|QID|9758|M|46.33,28.45|N|To Arcanist Vandril.|
 A Suncrown Village|QID|9138|PRE|9758|M|46.33,28.45|N|From Arcanist Vandril.|
 
-A Wanted: Knucklerot and Luzran|QID|9156|M|48.30,31.64|N|From the Wanted Poster. This is a group quest, the 2 mobs are 21 elites. If you see anyone looking for help, or offering help, take them up on it.|RANK|3|
+A WANTED: Knucklerot and Luzran|QID|9156|M|48.30,31.64|N|From the Wanted Poster. This is a group quest, the 2 mobs are 21 elites. If you see anyone looking for help, or offering help, take them up on it.|RANK|3|
 h Tranquillien|QID|9157|M|48.87,32.38|N|At Innkeeper Kalarin.|
 r Training/Repair/Sell Junk|QID|9157|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n\nClick this step to continue.|
 
@@ -381,7 +386,7 @@ T Dar'Khan's Lieutenants|QID|9170|M|54.91,48.38|N|To Magister Idonis.|
 T Captives at Deatholme|QID|9164|M|54.91,48.38|N|To Arcanist Janeda.|
 K Luzran |QID|9156|M|39.5,32;37.3,67.5|CN|N|If you have help or can solo Luzran look for him where the waypoints are. If not, go ahead and skip.|
 K Knucklerot |QID|9156|M|25.4,16.3;29.4,21;27.7,29.9;30.4,35.9;27.5,38.1;22.2,40.4;22.6,49.1;25.6,55.4;33.1,53.1;41.7,45.2|CN|N|If you have help or can solo Knucklerot, look for him where the waypoints are. If not, go ahead and skip.|RANK|3|
-T Wanted: Knucklerot and Luzran|QID|9156|M|46.02,33.56|N|To Deathstalker Rathiel.|RANK|3|
+T WANTED: Knucklerot and Luzran|QID|9156|M|46.02,33.56|N|To Deathstalker Rathiel.|RANK|3|
 R Tranquillien|QID|9328|M|46,33|N|Run to Tranquillien.|
 
 F Eversong Woods|QID|9328|M|46,30|N|Fly to Silvermoon City flight hub.|
