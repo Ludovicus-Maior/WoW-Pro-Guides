@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_horde
+-- Date: 2020-04-08 18:06
+-- Who: Ludovicus_Maior
+-- Log: [Drudges... ]:  What looks like an HTML directive called Sigh keeps disappearing!
+
+-- URL: http://wow-pro.com/node/3246/revisions/30056/view
 -- Date: 2018-10-17 23:01
 -- Who: Ludovicus_Maior
 -- Log: And/Or
@@ -194,6 +199,7 @@ T An Audience with the Highlord|QID|27002|M|42.03,14.75|N|To Highlord Tirion For
 A Taelan Fordring's Legacy|QID|27151|PRE|27002|M|42.17,14.98|N|From Daria L'Rayne.|
 C It's About Time!|QID|27156|M|42.81,16.35|N|Talk to trainies outside the keep, and challenge them to duels.|
 T It's About Time!|QID|27156|M|43.19,15.95|N|To Lieutenant Myner.|
+; The Angle brackets and Sigh keep disappearing.
 A Drudges...|QID|27157|PRE|27156|M|43.19,15.95|N|From Lieutenant Myner.|
 r Repair/Restock|QID|27157|M|44.85,12.51|N|At Outfitter Mendelev.|
 C Drudges...|QID|27157|M|45.83,11.89;45.47,9.36|CS|N|Head into the cave and kill the spider.|
