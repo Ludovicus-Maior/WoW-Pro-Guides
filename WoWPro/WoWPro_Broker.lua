@@ -2445,19 +2445,6 @@ function WoWPro.CompleteStep(step, why, noUpdate)
             row.check:SetChecked(false)
         end
     end
-
-    local Delta = WoWPro:MapPointDelta()
-    if Delta then
-        local qid="nil"
-        if WoWPro.QID[step] then
-            qid = WoWPro.QID[step]
-        end
-        local line = ("Action=%s|Step=%s|M0=%.2f,%.2f|M1=%.2f,%.2f|Error=%.2f|QID=%s|Vers=%s|Guide=%s"):format(WoWPro.action[step], WoWPro.step[step], Delta[2], Delta[3], Delta[4], Delta[5], Delta[1], qid, WoWPro.Version, GID)
-        WoWProDB.global.Deltas = WoWProDB.global.Deltas or {}
-        tinsert(WoWProDB.global.Deltas, line)
-        line = line:gsub("|", "¦")
-        WoWPro:dbp(line)
-    end
     if WoWPro.action[step] == "D" then
         local nGID = WoWPro.guide[step]
         WoWProCharDB.Guide[GID].done = true
