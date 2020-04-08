@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
+-- Date: 2020-04-07 22:30
+-- Who: Ludovicus_Maior
+-- Log: [WANTED: Uvuros, Scourge of Shadowmoon]
+
+-- URL: http://wow-pro.com/node/3285/revisions/30337/view
 -- Date: 2019-07-28 17:09
 -- Who: Fluclo
 -- Log: Added Friendly to the Aldor and Scryers tags as the steps are not available when neutral with Aldor/Scryers; Added Active tag to the Loot and Kill steps to ensure they only show when you're on the relevant quests.
@@ -212,7 +217,7 @@ T Besieged!|QID|10562|M|39.57,53.70|N|To Wing Commander Nuainn.|
 
 A To Legion Hold|QID|10563|PRE|10562|M|39.57,53.70|N|From Wing Commander Nuainn.|
 A The Sketh'lon Wreckage|QID|10569|M|38.74,54.10|N|From Gryphonrider Kieran.|
-A Wanted: Uvuros, Scourge of Shadowmoon|QID|10648|M|38.30,53.93|N|From the Wanted Poster.|
+A WANTED: Uvuros, Scourge of Shadowmoon|QID|10648|M|38.30,53.93|N|From the Wanted Poster.|
 f Wildhammer Stronghold|QID|10680|M|37.66,55.33|N|At Brubeck Stormfoot.|
 A Spleendid!|QID|10661|M|36.62,55.18|N|From Gnomus.|
 
@@ -537,12 +542,12 @@ C Zuluhed the Whacked|QID|10866|M|69.86,61.23|N|Click on the ball and chain that
 T Zuluhed the Whacked|QID|10866|M|69.86,61.23|N|To Karynaku.|
 A Ally of the Netherwing|QID|10870|PRE|10866|M|69.86,61.23|N|From Karynaku.|
 T Ally of the Netherwing|QID|10870|M|59.33,58.65|N|To Mordenai.|
-C Wanted: Uvuros, Scourge of Shadowmoon|QID|10648|M|55.08,49.41|N|Kill the giant puppy.|
+C WANTED: Uvuros, Scourge of Shadowmoon|QID|10648|M|55.08,49.41|N|Kill the giant puppy.|
 T The Cipher of Damnation - Borak's Charge|QID|10578|M|47.50,57.22|N|To Borak, Son of Oronok.|
 A The Cipher of Damnation - The Third Fragment Recovered|QID|10579|PRE|10578|M|47.50,57.22|N|From Borak, Son of Oronok.|
 C Dissension Amongst the Ranks...|QID|10776|U|31279|M|42.11,70.51|N|Use the Tabard that you were given and kill 5 Crazed Colossus. If you don't have the Tabard use the flare gun and ask the NPC for another.|
 
-T Wanted: Uvuros, Scourge of Shadowmoon|QID|10648|M|38.28,53.99|N|To Warcaller Beersnout.|
+T WANTED: Uvuros, Scourge of Shadowmoon|QID|10648|M|38.28,53.99|N|To Warcaller Beersnout.|
 T Teron Gorefiend, I am...|QID|10645|M|36.79,56.57|N|To Zorus the Judicator.|
 T Dissension Amongst the Ranks...|QID|10776|M|36.29,56.90|N|To Thane Yoregar.|
 r Repair/Restock|QID|10781|M|36.85,54.80|N|At Ordinn Thunderfist.|
