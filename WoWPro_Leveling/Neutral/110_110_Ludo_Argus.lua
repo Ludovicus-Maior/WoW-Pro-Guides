@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadows_argus
+-- Date: 2020-04-08 19:24
+-- Who: Ludovicus_Maior
+-- Log: QID Errors on [The Speaker Listens] and [Visions of Fear].
+--	[Reinforce Light's Purchase], [Void Inoculation], [Relics of the Ancient Eredar]
+
+-- URL: http://wow-pro.com/node/3741/revisions/30132/view
 -- Date: 2018-11-18 17:01
 -- Who: Ludovicus_Maior
 -- Log: Removed WoWPro.Achievements:GuideMisc()
@@ -264,7 +270,7 @@ t Reinforce the Veiled Den|QID|48202|M|68.78,26.13|Z|ArgusCore|N|To Illidan Stor
 A Sizing Up The Opposition|QID|48929|PRE|48202|M|68.78,26.10|Z|ArgusCore|N|From Illidan Stormrage.|;not spurious; can't be done before you find Illidan at Veiled Den, true you don't have to turn in reinforce veiled den, but you may as well.
 F Vindicaar, Antoran Wastes|QID|48929|M|70.59,25.46|Z|ArgusCore|N|Use the portal in the Veiled Den to return to the Vindicaar.|ACTIVE|48929|
 C Reinforce Light's Purchase|QID|48201|M|72.4,74.8|Z|ArgusCore|CHAT|N|Speak with Alleria Windrunner at Light's Purchase.|
-t C Reinforce Light's Purchase|QID|48201|M|72.4,74.8|Z|ArgusCore|N|To Alleria Windrunner.|
+t Reinforce Light's Purchase|QID|48201|M|72.4,74.8|Z|ArgusCore|N|To Alleria Windrunner.|
 A Sizing Up The Opposition|QID|47473|PRE|48201|M|72.4,74.8|Z|ArgusCore|N|From Alleria Windrunner.|;not spurious; can't be done before you find Illidan at Veiled Den, true you don't have to turn in reinforce light's purchase, but you may as well.
 F Vindicaar, Antoran Wastes|QID|47473|M|72.4,74.8|Z|ArgusCore|N|Use the portal to in Light's Purchase to return to the Vindicaar.|ACTIVE|47473|
 T Sizing Up The Opposition|QID|48929^47473|M|33.50,58.28|Z|Upper Deck@ArgusCore|N|To High Exarch Turalyon.|
@@ -318,12 +324,12 @@ t Nath'raxas Hold: Rescue Mission|QID|48443|M|56.58,67.57|N|To Chieftain Hatuun.
 A The Ruins of Oronaar|QID|48445|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|From Alleria Windrunner.|PRE|47654|
 C Scouting Map|QID|48445|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the mission, "Inches from Madness". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
 t The Ruins of Oronaar|QID|48445|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|To Alleria Windrunner.|
-A Relics of Ancient Eredar|QID|48446|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|From Alleria Windrunner. Missions will now appear for you to earn 925 ilvl armor for your champions.|PRE|48445|
+A Relics of the Ancient Eredar|QID|48446|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|From Alleria Windrunner. Missions will now appear for you to earn 925 ilvl armor for your champions.|PRE|48445|
 A Beneath Oronaar|QID|48654|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|From Alleria Windrunner.|PRE|48445|
 T Beneath Oronaar|QID|48654|M|42.65,65.39;43.98,60.92|CS|Z|ArgusMacAree|N|Use the Navigation Console to go to Mac'Aree City Center and find Nabiru who is located directly underneath the Ruins of Oronaar.|
-A Void Innoculation|QID|48911|M|43.98,60.92|Z|ArgusMacAree|N|From Nabiru. This is a weekly repeatable quest for an extra minion Nabiru is located near the MacAree City Center, beneath the ruins of Oronaar.|PRE|48654|;not spurious-ignore grail integration.
-T Void Innoculation|QID|48911|M|43.98,60.92|Z|ArgusMacAree|N|To Nabiru. Check off manually if you don't plan on doing the quest. There is a followup, but it is considerably more expensive. Get the 2nd minion if you need it and/or resources are not in short supply for you!|
-t Relics of Ancient Eredar|QID|48446|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|To Alleria Windrunner.|
+A Void Inoculation|QID|48911|M|43.98,60.92|Z|ArgusMacAree|N|From Nabiru. This is a weekly repeatable quest for an extra minion Nabiru is located near the MacAree City Center, beneath the ruins of Oronaar.|PRE|48654|;not spurious-ignore grail integration.
+T Void Inoculation|QID|48911|M|43.98,60.92|Z|ArgusMacAree|N|To Nabiru. Check off manually if you don't plan on doing the quest. There is a followup, but it is considerably more expensive. Get the 2nd minion if you need it and/or resources are not in short supply for you!|
+t Relics of the Ancient Eredar|QID|48446|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|To Alleria Windrunner.|
 A Shadowguard Dispersion|QID|48447|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|From Alleria Windrunner.|PRE|48446|
 C Scouting Map|QID|48447|M|69.56,54.30|Z|Lower Deck@ArgusSurface|NC|N|When convenient, Head to your scouting map and complete the mission, "Shadowguard Dispersion". You will need to manually check this step off while the mission is in progress to move forward in the guide.|
 t Shadowguard Dispersion|QID|48447|M|38.86,25.64|Z|Upper Deck@ArgusSurface|N|To Alleria Windrunner.|
@@ -587,11 +593,11 @@ A The Netherlight Crucible|QID|49224|PRE|48560|M|57.28,68.50|Z|Lower Deck@ArgusM
 C The Netherlight Crucible|QID|49224|M|56.20,68.40|Z|Lower Deck@ArgusMacAree|QO|1|NC|N|Imbue a relic (or all your relics) with Netherlight Fortification.|
 T The Netherlight Crucible|QID|49224|M|57.28,68.50|Z|Lower Deck@ArgusMacAree|N|To Artificer Shela'na.|
 
-A The Speaker Listens|QID|40273|M|45.66,23.86|Z|Upper Deck@ArgusMacAree|N|From High Exarch Turalyon.|
-T The Speaker Listens|QID|40273|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To Magni Bronzebeard.|
-A Visions of Fear|QID|40272|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|
-C Visions of Fear|QID|40272|M|57.07,65.58|Z|ArgusSurface|NC|N|Place your hand on the 'sacred stone' to view the next vision.|
-T Visions of Fear|QID|40272|M|56.98,65.68|Z|ArgusSurface|N|To Magni Bronzebeard.|
+A The Speaker Listens|QID|48273|M|45.66,23.86|Z|Upper Deck@ArgusMacAree|N|From High Exarch Turalyon.|
+T The Speaker Listens|QID|48273|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To Magni Bronzebeard.|
+A Visions of Fear|QID|48272|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|
+C Visions of Fear|QID|48272|M|57.07,65.58|Z|ArgusSurface|NC|N|Place your hand on the 'sacred stone' to view the next vision.|
+T Visions of Fear|QID|48272|M|56.98,65.68|Z|ArgusSurface|N|To Magni Bronzebeard.|
 A The Speaker Seeks|QID|48277|PRE|48272|M|45.66,23.86|Z|Upper Deck@ArgusMacAree|N|From High Exarch Turalyon.|
 T The Speaker Seeks|QID|48277|M|56.86,66.61;56.98,65.68|CS|Z|ArgusSurface|N|To Magni Bronzebeard.|
 A Visions of Another|QID|48280|M|56.98,65.68|Z|ArgusSurface|N|From Magni Bronzebeard.|PRE|48277|
