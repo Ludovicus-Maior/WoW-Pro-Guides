@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2020-04-07 22:32
+-- Who: Ludovicus_Maior
+-- Log: Bunch of WANTED quests.
+
+-- URL: http://wow-pro.com/node/3604/revisions/30231/view
 -- Date: 2019-03-06 18:42
 -- Who: Emmaleah
 -- Log: updated comments for Escape from Shaz'gul
@@ -248,11 +253,6 @@
 -- Who: Ludovicus_Maior
 -- Log: Played through and tweaked as usual.
 
--- URL: http://wow-pro.com/node/3604/revisions/26973/view
--- Date: 2014-11-13 10:25
--- Who: Fluclo
--- Log: Added Bloodthorn Hill quest and lootable; added PRE tag to F Lunarfall after visit to Ashran; Added more Level 94 quests; Added placeholder for Level 100 quests.
-
 local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley@Draenor', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90,92,91)
 WoWPro:NewGuideLevels(guide,90,100)
@@ -363,9 +363,9 @@ C Migrant Workers |QID|34778|N|Speak with Zipfizzle and tell him to Move Out.|CH
 
 A A Hero's Welcome |QID|33075|N|From Yrel|PRE|34692|M|47.2,50.9|Z|Lunarfall|
 
-A Wanted: Kuu'rat's Tusks |QID|33833|N|From the notice board in Moonflower Valley. This is a 3-party group quest.|M|33.2,30.7|RANK|3|
-C Wanted: Kuu'rat's Tusks |QID|33833|N|Kill Kuu'rat, and loot the tusks. This is flagged as a 3-party group quest but can be solo'd by many. Don't forget to use your newly acquired Call to Arms to aid you in the battle.|M|34.6,26.9|
-T Wanted: Kuu'rat's Tusks |QID|33833|N|To Eremor in Embaari Village|M|45.5,37.7|
+A WANTED: Kuu'rat's Tusks |QID|33833|N|From the notice board in Moonflower Valley. This is a 3-party group quest.|M|33.2,30.7|RANK|3|
+C WANTED: Kuu'rat's Tusks |QID|33833|N|Kill Kuu'rat, and loot the tusks. This is flagged as a 3-party group quest but can be solo'd by many. Don't forget to use your newly acquired Call to Arms to aid you in the battle.|M|34.6,26.9|
+T WANTED: Kuu'rat's Tusks |QID|33833|N|To Eremor in Embaari Village|M|45.5,37.7|
 
 A Artificer Romuul|QID|35614|M|42.86,40.36|N|Speak to Romuul, offer to defend him, defeat three waves of wolves, including an elite at the end, and then accept him as a new follower.|RANK|2|
 T Artificer Romuul|QID|35614|M|42.86,40.36|
@@ -581,7 +581,7 @@ T The Southern Wilds |QID|35459|N|To Prelate Reenu, south along the road in Draa
 T The Southern Wilds |QID|35450|N|To Prelate Reenu, south along the road in Draakorium|M|56.95,57.49|ACTIVE|35450|
 
 A Crippled Caravan|QID|33786|LEAD|33787|M|56.95,57.49|N|From Prelate Reenu.|
-A Wanted: Maa'run's Hoof |QID|33836|N|From the Wanted Poster at The Draakorium. This is a 3-party group quest.|RANK|3|M|57.46,57.27|
+A WANTED: Maa'run's Hoof |QID|33836|N|From the Wanted Poster at The Draakorium. This is a 3-party group quest.|RANK|3|M|57.46,57.27|
 f The Draakorium |QID|33786|N|With Morfax|M|57.03,56.63|
 C Crippled Caravan|QID|33786|N|Head to Fiona's Caravan|M|53.60,57.27|NC|
 T Crippled Caravan|QID|33786|N|To Fiona|M|53.60,57.27|
@@ -589,7 +589,7 @@ T Crippled Caravan|QID|33786|N|To Fiona|M|53.60,57.27|
 A Fiona's Solution|QID|33787|M|53.60,57.27|N|From Fiona.|
 A Swamplighter Queen|QID|33808|M|53.60,57.27|N|From Fiona.|
 
-C Wanted: Maa'run's Hoof |QID|33836|N|Kill and loot Maa'run for her hoof. This is a 3-party group quest.|RANK|3|M|51.8,54.4|
+C WANTED: Maa'run's Hoof |QID|33836|N|Kill and loot Maa'run for her hoof. This is a 3-party group quest.|RANK|3|M|51.8,54.4|
 C Swamplighter Queen|QID|33808|N|Head into Swamplight Cave, then kill and loot Swamplighter Queen for her tail.|M|51.5,55.6|
 
 C Moonlit Herb|QID|33787|N|Pick up the Moonlit Herb from the ground of Swamplight Trail.|QO|4|M|51.8,58.5|NC|S|
@@ -649,7 +649,7 @@ T Poison Paralysis|QID|35006|M|53.60,57.29|N|To Fiona.|
 A Fiona |QID|35617|M|53.60,57.29|N|From Fiona.|PRE|35015|
 T Fiona |QID|35617|M|53.60,57.29|N|To Fiona.|
 
-T Wanted: Maa'run's Hoof|QID|33836|M|58.04,57.64|N|To Orrin.|RANK|3|
+T WANTED: Maa'run's Hoof|QID|33836|M|58.04,57.64|N|To Orrin.|RANK|3|
 
 R Twilight Glade|QID|33072|N|Run to Twilight Glade.|ACTIVE|33072|M|40.53,54.91|
 f Twilight Glade |QID|33072|N|With Gotuun|M|40.73,55.28|
@@ -780,8 +780,8 @@ C Across the Stars|QID|33795|N|Finish picking up the Star Readings from the floo
 C The Clothes on Their Backs|QID|36266|N|Finish killing and loot the Shadowmoon Forces for their Ceremonial Shadowmoon Robes.|US|
 C On the Offensive|QID|33083|N|Finish killing the Shadowmoon Forces|US|
 
-A Wanted: Kliaa's Stinger|QID|33834|N|From the poster in Bloodthorn Hill. This is a 3-party group quest.|M|26.40,32.84|RANK|3|
-C Wanted: Kliaa's Stinger|QID|33834|N|Kill and loot Kliaa for her Massive Stinger|M|24.61,36.34|RANK|3|
+A WANTED: Kliaa's Stinger|QID|33834|N|From the poster in Bloodthorn Hill. This is a 3-party group quest.|M|26.40,32.84|RANK|3|
+C WANTED: Kliaa's Stinger|QID|33834|N|Kill and loot Kliaa for her Massive Stinger|M|24.61,36.34|RANK|3|
 
 R Bloodthorn Cave |QID|33419|N|Head to Bloodthorn Cave.|M|24.03,33.06|RANK|3|
 A A Matter of Life and Death|QID|33419|N|From Roona in the Bloodthorn Cave.|M|60.09,32.01|Z|Bloodthorn Cave|RANK|3|
@@ -809,7 +809,7 @@ T Across the Stars|QID|33795|M|46.37,38.68|N|To Prophet Velen|
 
 A Darkness Falls|QID|33837|N|From Prophet Velen.|M|46.37,38.68|PRE|34054&33083&33793&33795&33794|
 
-T Wanted: Kliaa's Stinger|QID|33834|N|To Dyuna|ACTIVE|33834|M|44.91,38.50|
+T WANTED: Kliaa's Stinger|QID|33834|N|To Dyuna|ACTIVE|33834|M|44.91,38.50|
 
 F Fey Landing |QID|36266|N|Fly to Fey Landing in Elodor.|ACTIVE|36266|
 T The Clothes on Their Backs|QID|36266|N|To Ameeka.|M|58.2,26.5|
