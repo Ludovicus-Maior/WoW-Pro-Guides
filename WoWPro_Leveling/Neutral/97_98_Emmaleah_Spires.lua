@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/neutral_spires_arak_guide_source
+-- Date: 2020-04-08 18:36
+-- Who: Ludovicus_Maior
+-- Log: [Warchief's Command: Spires of Arak!], [WANTED: Keeho's Severed Paw], WANTED: Spineslicer's Husk], [WANTED: Venombarb]
+
+-- URL: http://wow-pro.com/node/3602/revisions/30379/view
 -- Date: 2019-08-24 23:56
 -- Who: Fluclo
 -- Log: Added Coinbender's Payment treasure
@@ -237,7 +242,7 @@ F Spires of Arak|ACTIVE|34653^36951|M|47.96,49.78|Z|Lunarfall|CC|CHAT|N|Take the
 
 T News from Spires of Arak|QID|35537|M|45.93,42.86|Z|Frostwall|N|To Rokhan.|FACTION|Horde|
 A Arakkoa Exodus|QID|34653|PRE|35537|M|45.93,42.86|Z|Frostwall|N|From Rokhan.|LEAD|34655|FACTION|Horde|
-A Warchief's Command:Spires of Arak!|QID|49548|LEAD|34653^34655|M|49.09,41.62|Z|Frostwall|N|From Warchief's Command Board.|FACTION|Horde|
+A Warchief's Command: Spires of Arak!|QID|49548|LEAD|34653^34655|M|49.09,41.62|Z|Frostwall|N|From Warchief's Command Board.|FACTION|Horde|
 F Spires of Arak|ACTIVE|36951|M|45.85,51.01|Z|Frostwall|CC|CHAT|N|Take the chat option from Brom.|FACTION|Horde|
 
 T Arakkoa Exodus|QID|36951^34653|M|37.89,18.02|N|To Azik.|
@@ -446,8 +451,8 @@ T Not Here, Not Now|QID|37329^37331|M|39.89,60.84|N|To Lieutenant Willem.|FACTIO
 ; 37331 leads to Milly\Tinkertoss (Smugglers)
 A Attempted Murder|QID|35915|M|39.65,60.85|N|From Hulda Shadowblade.|PRE|37329|FACTION|Alliance|
 A The Tinkertoss Twins|QID|35713|M|39.51,61.33|N|From Milly Osgood.|PRE|37331|FACTION|Alliance|
-A Wanted: Keeho's Severed Paw|QID|35674|M|39.46,61.66|N|From Wanted Poster inside the building.|FACTION|Alliance|PRE|35286|RANK|3|
-A Wanted: Spineslicer's Husk|QID|35675|M|39.46,61.66|N|From Wanted Poster.|FACTION|Alliance|PRE|35286|RANK|3|
+A WANTED: Keeho's Severed Paw|QID|35674|M|39.46,61.66|N|From Wanted Poster inside the building.|FACTION|Alliance|PRE|35286|RANK|3|
+A WANTED: Spineslicer's Husk|QID|35675|M|39.46,61.66|N|From Wanted Poster.|FACTION|Alliance|PRE|35286|RANK|3|
 F Veil Terokk|QID|35634|M|39.07,61.80|N|At Firn Swiftbreeze.|FACTION|Alliance|RANK|2|
 ;horde
 T Not Here, Not Now|QID|37328^37330|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|
@@ -455,8 +460,8 @@ T Not Here, Not Now|QID|37328^37330|M|40.18,43.50|N|To Taskmaster Gornek.|FACTIO
 ; 37330 leads Galgar/Best Deals(Smugglers)
 A Attempted Murder|QID|35907|M|40.09,43.28|N|From Dark Ranger Velonara.|PRE|37328|FACTION|Horde|
 A Best Deals Anywhere|QID|35705|M|40.06,43.19|N|From Provisioner Galgar.|PRE|37330&35550|FACTION|Horde|
-A Wanted: Keeho's Severed Paw|QID|35669|M|40.11,43.05|N|From Wanted Poster inside the building.|FACTION|Horde|PRE|35277|RANK|3|
-A Wanted: Spineslicer's Husk|QID|35670|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|RANK|3|
+A WANTED: Keeho's Severed Paw|QID|35669|M|40.11,43.05|N|From Wanted Poster inside the building.|FACTION|Horde|PRE|35277|RANK|3|
+A WANTED: Spineslicer's Husk|QID|35670|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|RANK|3|
 F Veil Terokk|QID|35634|M|39.53,43.36|N|At Hutou Featherwind.|FACTION|Horde|RANK|2|
 
 T Control is King|QID|35634|M|47.12,45.84|N|To Darkscryer Raastok.|RANK|2|
@@ -557,9 +562,9 @@ C Ralshiara's Demise|QID|34938|U|112681|T|Ralshiara|M|50.00,59.81|RANK|2|N|Kill 
 C The Egg Thieves|QID|34924|NC|US|M|50.00,63.06|RANK|2|N|Finish picking up eggs.|
 C Declawing The Bloodmane|QID|34939|US|M|51.44,58.14|RANK|2|N|Finish gathering paws.|
 C The Initiate's Revenge|QID|36790|US|M|43.16,50.83|RANK|2|N|Finish killings Bloodmanes.|
-C Wanted: Spineslicer's Husk|QID|35675^35670|M|53.28,69.40|RANK|3|N|Kill and loot Spineslicer.|
+C WANTED: Spineslicer's Husk|QID|35675^35670|M|53.28,69.40|RANK|3|N|Kill and loot Spineslicer.|
 A Leorajh, the Enlightened|QID|37168|M|54.82,68.53;55.68,65.34;54.97,65.53;54.2,62.91|CS|RANK|3|N|You will probably have to kill up to 10 extra mobs to get this follower.  But, he does grant you access to your mission table anywhere on Draenor if you use him as your bodyguard. Start by running up the rocks beside Leorajh's Den and follow the path up to the Apexis Chamber. Inside othe chamber you will find Leorajh.|
-C Wanted: Keeho's Severed Paw|QID|35674^35669|M|50.23,78.38|N|This is as good as time as any to detour over and get this last wanted poster quest done. You can also do the bonus objective quest if you want.|RANK|3|
+C WANTED: Keeho's Severed Paw|QID|35674^35669|M|50.23,78.38|N|This is as good as time as any to detour over and get this last wanted poster quest done. You can also do the bonus objective quest if you want.|RANK|3|
 
 R Nest of the Ravenspeakers|ACTIVE|34938|M|52.12,49.91|RANK|2|
 T The Egg Thieves|QID|34924|M|52.09,49.41|N|To Vakora of the Flock.|RANK|2|
@@ -583,9 +588,9 @@ A Victory is Within Reach|QID|36316|M|46.49,46.67|N|From Reshad. This is a dunge
 
 ;alliance-brewery
 H Southport|ACTIVE|35915|M|46.49,46.67|FACTION|Alliance|RANK|2|N|If your hearthstone is unavailable/not set to Southport, the closest flight point is in Veil Terok at Skytalon Meshaal.|
-A Wanted: Venombarb|QID|35676|M|39.46,61.66|N|From Wanted Poster.|FACTION|Alliance|PRE|35286|RANK|3|
-T Wanted: Keeho's Severed Paw|QID|35674|M|39.89,60.85|N|To Lieutenant Willem.|FACTION|Alliance|RANK|3|
-T Wanted: Spineslicer's Husk|QID|35675|M|39.35,59.81|N|To Quartermaster Jolie.|FACTION|Alliance|RANK|3|
+A WANTED: Venombarb|QID|35676|M|39.46,61.66|N|From Wanted Poster.|FACTION|Alliance|PRE|35286|RANK|3|
+T WANTED: Keeho's Severed Paw|QID|35674|M|39.89,60.85|N|To Lieutenant Willem.|FACTION|Alliance|RANK|3|
+T WANTED: Spineslicer's Husk|QID|35675|M|39.35,59.81|N|To Quartermaster Jolie.|FACTION|Alliance|RANK|3|
 C Attempted Murder|QID|35915|M|39.08, 61.81|CHAT|N|Talk to Firn Swiftbreeze for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Alliance|
 T Attempted Murder|QID|35915|M|52.10,23.54|N|To Hulda Shadowblade.|FACTION|Alliance|
 A Assassin's Mark|QID|35926|M|52.10,23.54|PRE|35915|N|From Hulda Shadowblade.|FACTION|Alliance|
@@ -608,9 +613,9 @@ T We Have Him Now|QID|36048|M|57.14,34.49|N|To Hulda Shadowblade.|FACTION|Allian
 A No Time to Waste|QID|36165|M|57.14,34.49|PRE|36048|N|From Hulda Shadowblade.|FACTION|Alliance|
 ;horde-brewery
 H Axefall|ACTIVE|35907|M|46.53,46.80|FACTION|Horde|RANK|2|
-A Wanted: Venombarb|QID|35672|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|RANK|3|
-T Wanted: Keeho's Severed Paw|QID|35669|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|RANK|3|
-T Wanted: Spineslicer's Husk|QID|35670|M|41.21,42.93|N|To Killga.|FACTION|Horde|RANK|3|
+A WANTED: Venombarb|QID|35672|M|40.11,43.05|N|From Wanted Poster.|FACTION|Horde|PRE|35277|RANK|3|
+T WANTED: Keeho's Severed Paw|QID|35669|M|40.18,43.50|N|To Taskmaster Gornek.|FACTION|Horde|RANK|3|
+T WANTED: Spineslicer's Husk|QID|35670|M|41.21,42.93|N|To Killga.|FACTION|Horde|RANK|3|
 C Attempted Murder|QID|35907|M|39.51,43.36|CHAT|N|Talk to Hutou Featherwind for a (non flightpath) option to fly to Shadow's Vigil.|FACTION|Horde|
 T Attempted Murder|QID|35907|M|52.10,23.54|N|To Dark Ranger Velonara.|FACTION|Horde|
 A Assassin's Mark|QID|35924|M|52.10,23.54|PRE|35907|N|From Dark Ranger Velonara.|FACTION|Horde|
@@ -679,7 +684,7 @@ T The Ebon Hunter|QID|35797|M|60.08,53.64|N|To Trixxy Weldblast.|FACTION|Horde|
 
 R The Howling Crag|RANK|3|M|61,18|N|Despite being in a hurry to revive our poisoned barkeep, we are NOT taking the provided ride and instead we are going to take a side trip for our traveling convenience. Go North and somewhat east.|ACTIVE|36165^36166|
 R The Howling Crag|ACTIVE|35676^35672|RANK|3|M|61,18|N|Its a bit of a run but this is as close as we get to this area in the guide, Go North and somewhat east.|PRE|35835&35797|;not actually a prereq, but I only want the step to show if you finished one of those quests
-C Wanted: Venombarb|QID|35676^35672|M|61.11,19.05|RANK|3|N|Kill and loot Venombarb.|
+C WANTED: Venombarb|QID|35676^35672|M|61.11,19.05|RANK|3|N|Kill and loot Venombarb.|
 
 ;alliance
 H Southport|AVAILABLE|35619|ACTIVE|35676^36165|FACTION|Alliance|
@@ -690,7 +695,7 @@ A Standing United|QID|37281|M|39.72,60.91|PRE|36165|N|To/From Hulda Shadowblade 
 A Cleaning House|QID|37287|M|39.51,61.68|PRE|36165|N|From Kolrigg Stokton.|FACTION|Alliance|
 C Cleaning House|QID|37287|M|38.37,62.64|CHAT|N|After you talk to him, he becomes hostile and you must kill him.|FACTION|Alliance|
 T Cleaning House|QID|37287|M|39.51,61.68|N|To Kolrigg Stokton.|FACTION|Alliance|
-T Wanted: Venombarb|QID|35676|M|39.24,62.86|N|To Falrogh the Drunk.|FACTION|Alliance|RANK|3|
+T WANTED: Venombarb|QID|35676|M|39.24,62.86|N|To Falrogh the Drunk.|FACTION|Alliance|RANK|3|
 C Pinchwhistle Gearworks|QID|35619|M|39.09, 61.81|CHAT|N|Talk to Firn Swiftbreeze for a flight to Pinchwhistle Gearworks.|FACTION|Alliance|
 ;horde
 H Axefall|AVAILABLE|35620|ACTIVE|35672^36166|FACTION|Horde|
@@ -701,7 +706,7 @@ A Not In Your Army|QID|37292|M|40.08,42.66|PRE|36166|N|From Lunzul.|FACTION|Hord
 C Not In Your Army|QID|37292|M|39.45,41.72|CHAT|N|After you talk to her, she becomes hostile and you must kill her.|FACTION|Horde|
 T Not In Your Army|QID|37292|M|40.08,42.66|N|To Lunzul.|FACTION|Horde|
 A Pinchwhistle Gearworks|QID|35620|PRE|35277|M|40.01,43.97|N|From Scout Cel. If this quest isn't available to you, check to see if you have the quest offered at your garrison, (also called Pinchwhistle Gearworks) If you do, drop it and accept this one. (so you can fly from here... or go back to your garrison if you prefer).|FACTION|Horde|LVL|96|
-T Wanted: Venombarb|QID|35672|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|RANK|3|
+T WANTED: Venombarb|QID|35672|M|39.51,43.36|N|To Hutou Featherwind.|FACTION|Horde|RANK|3|
 C Pinchwhistle Gearworks|QID|35620|M|39.50,43.38|CHAT|N|Talk to Hotou Featherwind for a flight to Pinchwhistle Gearworks.|FACTION|Horde|
 
 ; 36861;36862 The Garrison Versions of [Pinchwhistle Gearworks]
