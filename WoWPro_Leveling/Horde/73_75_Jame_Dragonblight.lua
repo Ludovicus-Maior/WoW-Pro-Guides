@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
+-- Date: 2020-04-08 18:39
+-- Who: Ludovicus_Maior
+-- Log: [WANTED: Dreadtalon], [WANTED: Gigantaur], [WANTED: Magister Keldonus], [WANTED: The Scarlet Onslaught]
+
+-- URL: http://wow-pro.com/node/3292/revisions/29989/view
 -- Date: 2018-10-17 02:28
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -135,9 +140,9 @@ A Agmar's Hammer |QID|12008|M|12.8,48.5|PRE|11983|N|From Emissary Brighthoof.|
 T Agmar's Hammer |QID|12008|M|38.1,46.3|N|To Overlord Agmar.|
 A Victory Nears... |QID|12034|M|38.1,46.3|N|From Overlord Agmar.|
 A Rifle the Bodies |QID|11999|PRE|11996|M|38.1,46.2|N|From the Image of Archmage Aethas Sunreaver.|
-A Wanted: Dreadtalon |QID|12091|N|From the Wanted! Poster.|M|37.66,46.56|
-A Wanted: Gigantaur |QID|12090|N|From the Wanted! Poster.|M|37.66,46.56|
-A Wanted: Magister Keldonus |QID|12089|N|From the Wanted! Poster.|M|37.66,46.56|
+A WANTED: Dreadtalon |QID|12091|N|From the Wanted! Poster.|M|37.66,46.56|
+A WANTED: Gigantaur |QID|12090|N|From the Wanted! Poster.|M|37.66,46.56|
+A WANTED: Magister Keldonus |QID|12089|N|From the Wanted! Poster.|M|37.66,46.56|
 A Message from the West |QID|12033|M|37.3,46.8|O|N|From Messenger Torvus.|
 C Message from the West |QID|12033|N|Use the firepot right next to the quest NPC.|M|37.4,46.7|PRE|11916|O|
 T Message from the West |QID|12033|M|37.3,46.8|PRE|11916|O|N|To Messenger Torvus.|
@@ -194,11 +199,11 @@ C Avenge this Atrocity! |QID|12006|S|N|Kill any Blue Dragonflight Force mob you 
 K Wind Trader Mu'fah |QID|12005|L|35800|N|Clear the way to the other side of the crater. Find and kill Wind Trader Mu'fah . He's standing infront of the door of that big stone building. Loot Wind Trader Mu'fah's Remains.|M|18.44,58.88|
 K Goramosh |QID|12005|L|35801|N|Go inside the building, take the slope going up left. Kill Goramosh, loot The Scales of Goramosh and Goramosh's Strange Device. |M|19.50,58.16|
 A A Strange Device |QID|12059|PRE|12055|U|36746|N|Right-click A Strange Device to start the quest.|M|19.4,58.1|
-C Wanted: Magister Keldonus |QID|12089|N|Kill Magister Keldonus.|M|21,63.4|
+C WANTED: Magister Keldonus |QID|12089|N|Kill Magister Keldonus.|M|21,63.4|
 C Avenge this Atrocity! |QID|12006|US|N|Finish killing the needed mobs.|M|19,58|
 T Avenge this Atrocity! |QID|12006|N|To Ethenial Moonshadow.|M|24.00,60.00|
 A End Arcanimus |QID|12013|PRE|12006|M|24.2,60.1|N|From Ethenial Moonshadow.|
-T Wanted: Magister Keldonus |QID|12089|N|To Captain Gort.|M|35.8,48.4|
+T WANTED: Magister Keldonus |QID|12089|N|To Captain Gort.|M|35.8,48.4|
 T The Flesh-Bound Tome |QID|12057|N|To Captain Gort.|
 
 A Koltira and the Language of Death |QID|12115|M|35.8,48.4|PRE|12057|N|From Captain Gort.|
@@ -249,7 +254,7 @@ h Moa'ki Harbor |QID|11960|N|Make this inn your home location.|
 A Let Nothing Go To Waste |QID|11958|N|From Elder Ko'nani.|M|48.10,74.90|
 l Snowfall Glade Pups |QID|11960|S|QO|1|N|Right-click 12 Snowfall Glade Pups, try not to do AoEs near them as it can kill the pups.|M|43.6,71.3|; Snowfall Glade Pup: 12/12
 C Let Nothing Go To Waste|QID|11958|N|Kill and loot Snowfall Glade Wolvars or Denmothers until you get 6 Stolen Moa'ki Goods.|M|43.6,71.3|S|
-C Wanted: Gigantaur |QID|12090|N|Kill Gigantuar. He wanders around the Snowfall Glade.|M|47,65|T|Gigantaur|
+C WANTED: Gigantaur |QID|12090|N|Kill Gigantuar. He wanders around the Snowfall Glade.|M|47,65|T|Gigantaur|
 C Let Nothing Go To Waste|QID|11958|N|Kill and loot Snowfall Glade Wolvars or Denmothers until you get 6 Stolen Moa'ki Goods.|M|43.6,71.3|US|
 l Snowfall Glade Pups |QID|11960|US|QO|1|N|Finishing getting Snowfall Glade Pups.|M|43.6,71.3|; Snowfall Glade Pup: 12/12
 T Planning for the Future |QID|11960|N|To Trapper Mau'i.|M|48.30,74.30|
@@ -294,7 +299,7 @@ K Tu'u'gwar |QID|12017|QO|1|U|35838|N|Follow the fishing line (which actually lo
 T Meat on the Hook |QID|12017|N|To Tua'kea.|M|47.7,76.6|
 T Conversing With the Depths |QID|12032|N|To Toalu'u The Mystic.|M|49.12,75.68|
 F Agmar's Hammer|QID|12090|N|Fly to Agmar's Hammer.|M|48.51,74.38|
-T Wanted: Gigantaur |QID|12090|N|To Captain Gort.|M|35.8,48.2|
+T WANTED: Gigantaur |QID|12090|N|To Captain Gort.|M|35.8,48.2|
 T The End of the Line |QID|12110|M|38.1,46.2|N|To the Image of Archmage Aethas Sunreaver.|
 A Gaining an Audience |QID|12122|M|38.1,46.2|PRE|12110|N|From the Image of Archmage Aethas Sunreaver.|
 A Imbeciles Abound! |QID|12189|PRE|12182|M|36.1,48.8|N|From Doctor Sintar Malefious.|
@@ -326,7 +331,7 @@ A Blighted Last Rites |QID|12206|M|77.0,62.9|N|From Apothecary Vicky Levine.|
 C Blighted Last Rites |QID|12206|U|37129|N|Go stand next to the Scarlet Onslaught Prisoner, then use the Flask of Blight.|
 T Blighted Last Rites |QID|12206|M|77.0,62.9|N|To Apothecary Vicky Levine.|
 A Let Them Not Rise! |QID|12211|M|77.0,62.9|N|From Apothecary Vicky Levine.|
-A Wanted: The Scarlet Onslaught |QID|12205|M|77.0,62.8|N|From the Wanted Poster.|
+A WANTED: The Scarlet Onslaught |QID|12205|M|77.0,62.8|N|From the Wanted Poster.|
 T The High Executor Needs You |QID|12488|N|To High Executor Wroth.|
 
 A To Conquest Hold, But Be Careful! |QID|12487|PRE|12488|M|76.8,63.3|N|From High Executor Wroth.|
@@ -347,12 +352,12 @@ T Emerald Dragon Tears |QID|12200|M|77.7,62.8|N|To Chief Plaguebringer Middleton
 
 A Spread the Good Word |QID|12218|M|77.7,62.8|PRE|12200|N|From Chief Plaguebringer Middleton.|
 C Materiel Plunder |QID|12209|S|M|72.6,69.7|N|Pick up the armor and weapons that are on racks all around Hearthglen.|
-C Wanted: The Scarlet Onslaught |QID|12205|S|N|Kill any member of the Scarlet Onslaught.|M|72.6,69.7|
+C WANTED: The Scarlet Onslaught |QID|12205|S|N|Kill any member of the Scarlet Onslaught.|M|72.6,69.7|
 C Let Them Not Rise! |QID|12211|U|37187|N|Head to New Hearthglen, to the southwest. Kill Scarlet Onslaught mobs and use the Containter of Rats on their corpse.|M|71,75|
 C Materiel Plunder |QID|12209|US|N|Pick up the armor and weapons that are on racks all around Hearthglen.|M|72.6,69.7|
-C Wanted: The Scarlet Onslaught |QID|12205|US|N|Kill any Scarlet Onslaught member you still need.|M|72.6,69.7|
+C WANTED: The Scarlet Onslaught |QID|12205|US|N|Kill any Scarlet Onslaught member you still need.|M|72.6,69.7|
 T Let Them Not Rise! |QID|12211|M|77.0,62.9|N|To Apothecary Vicky Levine.|
-T Wanted: The Scarlet Onslaught |QID|12205|M|76.8,63.3|N|To High Executor Wroth.|
+T WANTED: The Scarlet Onslaught |QID|12205|M|76.8,63.3|N|To High Executor Wroth.|
 T Materiel Plunder |QID|12209|M|76.0,63.3|N|To Quartermaster Bartlett.|
 A Fresh Remounts |QID|12214|M|75.9,61.9|N|From Hansel Bauer.|
 A Stealing from the Siegesmiths |QID|12230|M|77.5,62.0|N|From Deathguard Molder. He wanders around.|
@@ -383,7 +388,7 @@ T Galakrond and the Scourge |QID|12497|N|To Torastrasza.|M|59.5,53.3|
 A On Ruby Wings |QID|12498|PRE|12497|M|59.5,53.3|N|From Torastrasza.|
 C On Ruby Wings |QID|12498|N|Use your Beacon and fly north to Galakron's Rest. Ability 1 and 2 are damage abilities. Use ability 3 when near a Wastes Scavenger to regain mana/HP (you eat them). If you have one, equip your PvP trinket once you've killed the 30 Scavengers, the miniboss we're about to kill does a 10 second fear. Kill the giant Thiassi, at the northwestern tip of Galakron's Rest (use the dragon to make it easy), dismount, then kill Grand Necrolord Antiok, and loot the Scythe that appears.|M|56,35|
 C That Which Creates Can Also Destroy |QID|12459|S|QO|1|U|37887|N|It'll be up in the sky, use the Seeds of Nature's Wrath on it and finish it.|M|55.2,45.7|; Weakened Reanimated Frost Wyrm slain: 1/1
-C Wanted: Dreadtalon |QID|12091|M|45.67,43.61|N|Kill Dreadtalon.|
+C WANTED: Dreadtalon |QID|12091|M|45.67,43.61|N|Kill Dreadtalon.|
 
 A Pest Control |QID|12144|N|From Kontokanis.|M|46.69,33.49|
 C Pest Control |QID|12144|M|55,41;56,52|CN|N|Kill the Snobolds and Magnataur needed.|
@@ -482,7 +487,7 @@ C In Search of the Ruby Lilac |QID|12102|N|It's in the same cave.|M|47.7,49.1|
 C Through Fields of Flame |QID|12450|N|Kill necromancers around the tree.|M|47.7,49.1|
 T Through Fields of Flame |QID|12450|M|43.0,50.9|N|To Vargastrasz.|
 A The Steward of Wyrmrest Temple |QID|12769|M|43.0,50.9|PRE|12450|N|From Vargastrasz.|
-T Wanted: Dreadtalon |QID|12091|N|To Captain Gort.|M|35.8,48.2|
+T WANTED: Dreadtalon |QID|12091|N|To Captain Gort.|M|35.8,48.2|
 A To Dragon's Fall|QID|12095|N|From Captain Gort.|M|35.8,48.2|
 T In Service of Frost |QID|12127|N|To Koltira Deathweaver.|M|37.1,46.5|
 T In Service of the Unholy |QID|12126|M|37.1,46.5|N|To Koltira Deathweaver.|
