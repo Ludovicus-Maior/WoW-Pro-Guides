@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
+-- Date: 2020-04-08 18:53
+-- Who: Ludovicus_Maior
+-- Log: I think the QID and PRE for Fen Tao are all wrong.
+--	[WANTED: Gutsmash the Destroyer], [WANTED: Grondo's Bounty], [Thunderlord Invasion!]
+
+-- URL: http://wow-pro.com/node/3587/revisions/29997/view
 -- Date: 2018-10-17 02:28
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -245,11 +251,6 @@
 -- Who: Emmaleah
 -- Log: Fix two dup'd N tags that snuck in and correct the spelling of ravine
 
--- URL: http://wow-pro.com/node/3587/revisions/27007/view
--- Date: 2014-11-16 06:32
--- Who: Emmaleah
--- Log: Some changes for live. some more clean up
-
 local guide = WoWPro:RegisterGuide('EmmFrostfire', 'Leveling', 'Frostfire Ridge', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,91, 92, 90.7)
 WoWPro:NewGuideLevels(guide,90,100)
@@ -371,7 +372,7 @@ C Moving In|QID|33657|M|66.52,56.51|NC|N|Hop on the wolf next to Durotan and it 
 T Moving In|QID|33657|M|42.94,41.60|N|To Durotan.|Z|Bladespire Citadel@FrostfireRidge|
 A Save Wolf Home|QID|33468|PRE|33527|M|42.94,41.60|N|From Durotan.|Z|Bladespire Citadel@FrostfireRidge|
 
-A Wanted: Gutsmash the Destroyer|QID|33919|PRE|33527|M|28.9,44.8|N|From Bounty Board.|Z|Bladespire Citadel@FrostfireRidge|RANK|2|
+A WANTED: Gutsmash the Destroyer|QID|33919|PRE|33527|M|28.9,44.8|N|From Bounty Board.|Z|Bladespire Citadel@FrostfireRidge|RANK|2|
 A Mopping Up|QID|33412|PRE|33657|M|28.29,45.72|N|From Snowrunner Rolga.|Z|Bladespire Citadel@FrostfireRidge|RANK|2|
 A Slavery and Strife|QID|33119|PRE|33657|M|24.36, 37.37|N|From Guse.|RANK|2|
 f Bladespire Citadel|ACTIVE|33412|M|19.9,51.8|N|At Roark the Airwolf.|
@@ -421,7 +422,7 @@ T Shivertail's Den|QID|33929|M|19.53,51.01|N|To Shivertail.|RANK|2|
 C Bladespire Fortress|QID|33473|M|21.57,56.15|CHAT|N|At Pul Windcarver. Take the chat option, not the flight path.|
 
 R Frostboar Drifts|ACTIVE|33412|M|17.76,41.96|N|Head away from the Citadel and take a right at Gormaul Tower, down into the valley.|RANK|2|FLY|WOD|
-C Wanted: Gutsmash the Destroyer|QID|33919|M|15.88,41.74|T|Gutsmash the Destroyer|N|This claims to be an elite quest that should take more than one person. However, some classes can solo him.|RANK|2|
+C WANTED: Gutsmash the Destroyer|QID|33919|M|15.88,41.74|T|Gutsmash the Destroyer|N|This claims to be an elite quest that should take more than one person. However, some classes can solo him.|RANK|2|
 
 C From Their Cold Dead Hands|QID|36417|M|24.30,28.30|S|P|Tailoring;197|N|From the ogres you have been killing, You don't need to get them all in this area.|
 T Mopping Up|QID|33412|M|24.30,28.30|N|To Igrimar the Resolute.|RANK|2|
@@ -481,7 +482,7 @@ T The Fall of the Warlord|QID|33467|M|28.29,45.72|N|To Snowrunner Rolga.|Z|Blade
 T Back to Bladespire Citadel|QID|33473|M|43.13,41.23|Z|Bladespire Citadel@FrostfireRidge|N|To Durotan.|
 A Ga'nar's Vengeance|QID|32783|PRE|33473|M|43.13,41.23|Z|Bladespire Citadel@FrostfireRidge|N|From Durotan.|
 A Securing the South|QID|32989|PRE|33473|M|43.13,41.23|Z|Bladespire Citadel@FrostfireRidge|N|From Durotan.|RANK|2|
-T Wanted: Gutsmash the Destroyer|QID|33919|M|43.0,44.7|Z|Bladespire Citadel@FrostfireRidge|N|To Der'shway.|RANK|2|
+T WANTED: Gutsmash the Destroyer|QID|33919|M|43.0,44.7|Z|Bladespire Citadel@FrostfireRidge|N|To Der'shway.|RANK|2|
 
 R Daggermaw Ravine|ACTIVE|32783|M|30.89,25.84|N|Run roughly northeast from the Ring of Blood to Daggermaw Ravine.|FLY|WOD|
 T Ga'nar's Vengeance|QID|32783|M|30.89,25.84|N|To Ga'nar|
@@ -544,6 +545,7 @@ A Warspear Welcome|QID|36707|PRE|36706|M|45.48,34.66|Z|Warspear|N|From Stomphoof
 T Warspear Welcome|QID|36707|M|44.15,45.42|Z|Warspear|N|To Lieutenant Kragil inside the Brokenspear Tavern.|RANK|2|
 A Inspiring Ashran|QID|36708|PRE|36707|M|44.15,45.42|Z|Warspear|N|From Lieutenant Kragil.|RANK|2|
 C Inspiring Ashran|QID|36708|QO|1|M|45.0,43.2|Z|Warspear|CHAT|N|In the same building you are in. She is the innkeeper if you would prefer to be bound here.  Subsequent guides advise you for time saving reasons to be bound at your inn in that zone.|RANK|2|
+; I think the QID and PRE for Fen Tao are all wrong.
 A Fen Tao|QID|32989|PRE|33473|M|46.97,45.22|Z|Warspear|CHAT|RANK|2|N|This is a follower you get for free, all that is needed is to talk to him.|
 C Inspiring Ashran|QID|36708|QO|2|M|58.9,52.0|Z|Warspear|CHAT|N|Inside the Tower of Elements. There is also a portal to Orgrimmar in this building.|RANK|2|
 C Inspiring Ashran|QID|36708|QO|3|M|53.86,61.13|Z|Warspear|CHAT|N|Inside Warspear Hold.  This is where the bankers and quartermasters are located also.|RANK|2|
@@ -608,8 +610,8 @@ A Frosted Fury|QID|34346|M|52.52,40.43|N|From Shadow Hunter Mala.|RANK|2|
 C Poulticide|QID|34345|M|56.12,37.83|S|NC|N|These are ground spawn in the area.|RANK|2|
 C Lurkers|QID|34344|M|54.01,31.36|S|N|These drop off the Snow Lurkers.|RANK|2|
 C Frosted Fury|QID|34346|M|59.46,35.37|S|N|These drop off the Ice Furies.|RANK|2|
-A Wanted: Grondo's Bounty|QID|33918|M|53.73,42.34|N|Get near Grondo for the quest to pop.|RANK|2|
-C Wanted: Grondo's Bounty|QID|33918|M|53.73,42.34|T|Grondo|RANK|2|
+A WANTED: Grondo's Bounty|QID|33918|M|53.73,42.34|N|Get near Grondo for the quest to pop.|RANK|2|
+C WANTED: Grondo's Bounty|QID|33918|M|53.73,42.34|T|Grondo|RANK|2|
 A Smeltcraft|QID|33838|M|65.06,39.52|N|From Initiate Na'Shra.|RANK|2|
 C Smeltcraft|QID|33838|M|66.66,38.06|NC|N|These are lying around on the ground in the gate of the breakers area.|RANK|2|
 T Smeltcraft|QID|33838|M|65.06,39.52|N|To Initiate Na'Shra.|RANK|2|
@@ -707,7 +709,7 @@ T The Master Siegesmith|QID|33828|M|62.53,74.91|N|To Lokra.|RANK|2|
 A Return to the Pack|QID|33493|PRE|32994|M|62.53,74.91|N|From Lokra.|RANK|2|
 C "Spare" Parts|QID|36594|M|56.74,71.82|P|Engineering;202|N|Kill and loot for the shells or pick them up from the ground. Use the provided bomb to blow up the siege cannons and pick up the parts. There is a treasure chest here also with some garrison resources, (and hopefully sometimes something better).|
 H Town Hall (Frostwall)|ACTIVE|33918|M|41.58,53.06|U|110560|Z|Frostwall|CC|RANK|2|
-T Wanted: Grondo's Bounty|QID|33918|M|45.88,42.80|N|To Rokhan.|RANK|2|Z|Frostwall|
+T WANTED: Grondo's Bounty|QID|33918|M|45.88,42.80|N|To Rokhan.|RANK|2|Z|Frostwall|
 
 T "Spare" Parts|QID|36594|M|50.03,68.90|P|Engineering;202|N|To Blizthraz Blastcharge.|
 A Big Frostfire Gun|QID|36627|M|50.03,68.90|PRE|36594|P|Engineering;202|N|From Blizthraz Blastcharge.|
@@ -813,7 +815,7 @@ T Breaking into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|N|To Farmer Lok'
 T Return to the Pack|QID|33493|M|50.17,37.82|N|To Durotan.|RANK|2|Z|Frostwall|
 A Thunderlord Invasion!|QID|37291|PRE|32796|M|50.17,37.82|N|From Durotan.|RANK|2|Z|Frostwall|
 C Thunderlord Invasion!|QID|37291|M|43.61,47.91|CHAT|N|Chat with Sargeant Grimjaw to start the scenario. You can take up to two groupmates with you if they come to your garrison. It will take around 10 min.|RANK|2|Z|Frostwall|
-t Thunderlord Invasion|QID|37291|M|43.61,47.91|N|To Sargeant Grimjaw.|RANK|2|Z|Frostwall|
+t Thunderlord Invasion!|QID|37291|M|43.61,47.91|N|To Sargeant Grimjaw.|RANK|2|Z|Frostwall|
 A The Iron Wolf|QID|33010|PRE|37291|M|50.17,37.82|N|From Durotan.|RANK|2|Z|Frostwall|
 
 A Services of Dagg|QID|34733|M|48.23,17.32|N|If you found Dagg while out and about questing (in daggermaw ravine and in grom'gar) he has come to pledge his service.|PRE|34654&34651|RANK|2|Z|Frostwall|
