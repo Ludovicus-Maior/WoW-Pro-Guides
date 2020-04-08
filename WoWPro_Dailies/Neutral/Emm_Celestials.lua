@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/august_celestials_reputation
+-- Date: 2020-04-08 18:25
+-- Who: Ludovicus_Maior
+-- Log: Ken-Ken]
+
+-- URL: http://wow-pro.com/node/3503/revisions/29901/view
 -- Date: 2018-10-17 02:21
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -221,6 +226,7 @@ T The Torch of Strength|QID|31492|M|68.4,56.4|Z|Kun-Lai Summit|N|To Lin Tenderpa
 T Contending With Bullies|QID|31517|M|70.8,51.8|Z|Kun-Lai Summit|N|To Xuen.|
 C Round 1: Brewmaster Chani|QID|30879|M|70.8,51.8|Z|Kun-Lai Summit|N|Challenge Chani to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
 T Round 1: Brewmaster Chani|QID|30879|M|70.8,51.8|Z|Kun-Lai Summit|N|To Xuen.|
+; The spaces around the&get eaten up by the scraper.  May need an escape sequence
 A Round 2: Clever Ashyo&Ken-Ken|QID|30881|PRE|30879|M|70.8,51.8|Z|Kun-Lai Summit|N|From Xuen.|
 C Round 2: Clever Ashyo&Ken-Ken|QID|30881|M|71.6,45.2|Z|Kun-Lai Summit|N|Challenge Ashyo or Ken-Ken to a fight. If someone else is already fighting join in, you will get quest credit, even without the tag credit.|
 T Round 2: Clever Ashyo&Ken-Ken|QID|30881|M|71.6,45.0|Z|Kun-Lai Summit|N|To Xuen.|
