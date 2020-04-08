@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_zuldazar
+-- Date: 2020-04-08 19:12
+-- Who: Ludovicus_Maior
+-- Log: [Held For Observation], Who Seeks the Seekers?], [Inform the Horde!]
+
+-- URL: http://wow-pro.com/node/3762/revisions/30239/view
 -- Date: 2019-03-18 20:52
 -- Who: Emmaleah
 -- Log: deleted out sections covered by Endgame Guide added J to same. Reworked Rares and Treasures Notes.
@@ -478,9 +483,9 @@ R Savagelands|ACTIVE|52855|M|70.50,35.27|N|Mount up its a bit of a run to find t
 C Alchemy is an Inexact Science|QID|52855|M|70.50,35.27|NC|N|Click on Incandescent Duskwings to collect the dust.|
 C Alchemy is an Inexact Science|QID|52855|M|70.45,34.59|NC|N|Pick the flower after you have all the duskwings, it sometimes bugs out otherwise.|
 T Alchemy is an Inexact Science|QID|52855|M|66.81,42.58|N|To Trader Alexxi Cruzpot.|
-A Held for Observation|QID|52857|M|66.81,42.56|N|From Trader Alexxi Cruzpot.|PRE|52855|
-C Held for Observation|QID|52857|M|68.14,41.81|U|162589|NC|N|Give your Direhorn Juvenile the remedy.|
-T Held for Observation|QID|52857|M|66.81,42.56|N|To Beastlord L'kala.|
+A Held For Observation|QID|52857|M|66.81,42.56|N|From Trader Alexxi Cruzpot.|PRE|52855|
+C Held For Observation|QID|52857|M|68.14,41.81|U|162589|NC|N|Give your Direhorn Juvenile the remedy.|
+T Held For Observation|QID|52857|M|66.81,42.56|N|To Beastlord L'kala.|
 
 F Scaletrader Post|ACTIVE|49768|M|67.26,43.03|N|At Paku'ai Verraki.|
 R Nesingwary's Trek|ACTIVE|49768|M|69.23,27.56;68.53,23.01;67.91,21.19;67.54,18.00|CS|N|And on to find Nesingwary.|RANK|2|
@@ -692,10 +697,10 @@ C Hope's Blue Light|QID|49884|M|57.78,76.68;60.84,75.27|CS|V|N|Hop on the Captai
 T Hope's Blue Light|QID|49884|M|44.49,95.43|Z|Dazar'alor|N|To Captain Rez'okun.|
 
 F Port of Zandalar|ACTIVE|51101|M|51.91,41.20|Z|Dazar'alor|N|At Paku'ai the Ro'kata.|TZ|Grand Bazaar|RANK|-1|
-A Who Seeks the Seeker|QID|49283|M|57.76,92.28|Z|Dazar'alor|N|From Sholo.|RANK|2|
+A Who Seeks the Seekers?|QID|49283|M|57.76,92.28|Z|Dazar'alor|N|From Sholo.|RANK|2|
 b Seekers' Outpost|ACTIVE|51101|M|52.79,95.77|Z|Dazar'alor|N|Ask Wavesinger De'zan for a ride in his boat.|
 f Seekers' Outpost|ACTIVE|49283|M|70.42,65.32|N|At Scroll of Flight.|RANK|2|
-T Who Seeks the Seeker|QID|49283|M|70.49,65.21|N|To Batu.|
+T Who Seeks the Seekers?|QID|49283|M|70.49,65.21|N|To Batu.|
 A Perfect Tidings|QID|49284|M|70.49,65.21|N|From Batu.|RANK|2|PRE|49283|
 A Tiny Treasures|QID|49285|M|70.31,65.06|N|From Koba.|RANK|2|PRE|49283|
 A Dreadpearl Collusion|QID|49315|M|80.83,58.94|O|LVL|-120|N|Bonus Objective - Autoaccepted.|RANK|2|
@@ -760,7 +765,7 @@ K Summoner Siavass|QID|48026|M|83.60,44.20|QO|2|T|Summoner Siavass|N|Kill Summon
 T Beneath the Waves|QID|48026|M|83.60,44.20|N|To Spirit of Gral.|
 A Word from the Deep|QID|51538|M|83.60,44.20|N|From Spirit of Gral.|PRE|48026|RANK|2|
 T Word from the Deep|QID|51538|M|79.19,42.09|N|To Scrollsage Goji.|
-A Inform the Horde|QID|51539|M|79.19,42.09|N|From Scrollsage Goji.|PRE|51538|RANK|2|
+A Inform the Horde!|QID|51539|M|79.19,42.09|N|From Scrollsage Goji.|PRE|51538|RANK|2|
 T Saving for Later|QID|48025|M|79.19,42.09|N|To Scrollsage Goji.|
 
 K Kiboku|QID|50159|M|75.67,35.96|RARE|ITEM|161112|QO|1|T|Kiboku|N|Silver Elite to kill for azerite power and resources.|RANK|3|
@@ -873,7 +878,7 @@ t The Great Sea Scrolls|QID|53476|M|71.50,30.38|N|To Collector Kojo|
 f Scaletrader Post|ACTIVE|51111|M|70.77,29.59|N|At Scroll of Flight.|RANK|-1|
 H The Great Seal|ACTIVE|51111|M|70.77,29.59|N|Use your hearthstone or take the flightpath at Scroll of Flight.|
 
-T Inform the Horde|QID|51539|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|RANK|2|
+T Inform the Horde!|QID|51539|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|RANK|2|
 T King or Prey|QID|51111|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 A Hunting Zul|QID|49421|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|
 R The Zocalo|ACTIVE|49421|M|42.58,27.97|Z|Dazar'alor|N|Run down the stairs and down and down, till you get to ground level and cross the bridge to The Zocalo.|
