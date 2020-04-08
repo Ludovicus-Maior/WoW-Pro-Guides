@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dustwallow_marsh_horde
+-- Date: 2020-04-08 18:02
+-- Who: Ludovicus_Maior
+-- Log: [Enemies Abroad] may be obsolete
+
+-- URL: http://wow-pro.com/node/3242/revisions/30054/view
 -- Date: 2018-10-17 22:59
 -- Who: Ludovicus_Maior
 -- Log: And/Or
@@ -203,7 +208,8 @@ A Identifying the Brood|RANK|1|QID|27414|M|37.11,33.01|N|From Draz'Zilb.|
 A Army of the Black Dragon|RANK|1|QID|1168|M|37.30,31.43|N|From Tharg.|
 A Overlord Mok'Morokk's Concern|RANK|1|QID|27424|M|36.34,31.36|N|From Overlord Mok'Morokk.|
 A Check Up on Tabetha|RANK|1|QID|11213|M|35.29,30.63|N|From Nazeer Bloodpike.|
-A Enemies Abroad|RANK|1|QID|26991|M|35.29,30.63|N|From Nazeer Bloodpike. Pick this up if you'd like to do the Scarlet Monastery dungeon.|
+; Obsolete?
+; A Enemies Abroad|RANK|1|QID|26991|M|35.29,30.63|N|From Nazeer Bloodpike. Pick this up if you'd like to do the Scarlet Monastery dungeon.|
 A Help Mudsprocket|RANK|1|QID|11215|M|35.29,30.63|N|From Nazeer Bloodpike.|
 T Inspecting the Ruins|RANK|3|QID|27253|M|29.78,47.60|N|To Inspector Tarem, at the inn on the western edge of the zone.|
 
