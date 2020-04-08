@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2020-04-08 19:01
+-- Who: Ludovicus_Maior
+-- Log: Wrong QID on [Nature's Remedy].
+--	[Crabby Crew Stew], [The Captain's Cache], [WANTED: Za'roco]
+
+-- URL: http://wow-pro.com/node/3772/revisions/30484/view
 -- Date: 2020-04-05 20:55
 -- Who: Ludovicus_Maior
 -- Log: Cagome: Alpaca Hides wrong.  Hoping it was Y digit transposition.
@@ -331,7 +337,7 @@ T Knowledge of the Past|QID|48896|M|47.69,82.13|N|To Warguard Rakera.|
 A Searching the Ruins|QID|47716|M|47.69,82.13|N|From Warguard Rakera.|PRE|48896|
 T Searching the Ruins|QID|47716|M|47.07,75.66|N|To Julwaba.|
 A Creeping Death|QID|48314|M|47.05,75.60|N|From Kiro.|PRE|47716|
-A Nature's Remedy|QID|48314|M|47.05,75.60|N|From Kiro.|PRE|47716|
+A Nature's Remedy|QID|48313|M|47.05,75.60|N|From Kiro.|PRE|47716|
 C Creeping Death|QID|48314|M|48.65,71.73|S|N|Kill Scorpashis and collect their Stingers as you go.|
 C Nature's Remedy|QID|48313|M|47.29,71.39|S|NC|N|Pluck the Prickly Plum Cactus from the ground as you go.|
 K Relic Hunter Hazaak|QID|50554^51126|M|49.03,72.15|QO|1|RARE|ITEM|160956|T|Relic Hunter Hazaak|N|Silver Elite to kill and loot for some artifact power and resources.|RANK|2|
@@ -480,16 +486,16 @@ T Dead Men Tell No Tales|QID|47870|M|44.66,86.98|N|To Randall Redmond.|
 T Seafaring Necessities|QID|47871|M|44.66,86.98|N|To Randall Redmond.|
 A Captain Hartford|QID|51810|M|44.66,86.98|N|From First Mate Redmond.|RANK|2|
 A Gang Bustin'|QID|49262|M|44.79,87.57;44.61,88.24|CS|U|160735|N|From Dockmaster Herrington. Must be in Ashvane disguise.|RANK|2|PRE|47871&47870|
-A Crabby Crab Stew|QID|49261|M|44.61,88.24|N|From Dockmaster Herrington.|RANK|2|PRE|47871&47870|
-C Crabby Crab Stew|QID|49261|M|44.61,88.24|S|N|Kill Crabs and loot their meet as you travel towards the Siren's Call (ship at docks).|
+A Crabby Crew Stew|QID|49261|M|44.61,88.24|N|From Dockmaster Herrington.|RANK|2|PRE|47871&47870|
+C Crabby Crew Stew|QID|49261|M|44.61,88.24|S|N|Kill Crabs and loot their meet as you travel towards the Siren's Call (ship at docks).|
 C Gang Bustin'|QID|49262|M|44.61,88.24|S|U|160735|NC|N|Question the Shady Dockhands as you travel towards and while on the ship. Sometimes they become hostile. Must be in Ashvane disguise.|
 K Captain Hartford|ACTIVE|51810|QO|1|M|43.13,90.85|T|Captain Hartford|N|Captain Hartford can be found on The Siren's Call.|RANK|2|
 T Captain Hartford|QID|51810|M|43.20,90.90|N|To Captain Redmond who can be found one deck above you.|
-A The Captain's Lockbox|QID|47873|M|43.20,90.90|N|From Captain Redmond.|RANK|2|PRE|47939&47871&49227&47870|
-T The Captain's Lockbox|QID|47873|M|43.20,90.77|N|To Captain Hartford's Lockbox.|
+A The Captain's Cache|QID|47873|M|43.20,90.90|N|From Captain Redmond.|RANK|2|PRE|47939&47871&49227&47870|
+T The Captain's Cache|QID|47873|M|43.20,90.77|N|To Captain Hartford's Cache.|
 C Gang Bustin'|QID|49262|M|44.61,88.24|U|160735|US|NC|N|Finish questioning the Shady Dockhands as you return to Dockmaster Herrington. Must be in Ashvane disguise.|
-C Crabby Crab Stew|QID|49261|M|44.61,88.24|US|N|Finish Collecting the crab meat as you travel back towards Dockmaster Herrington.|
-T Crabby Crab Stew|QID|49261|M|44.61,88.24|U|160735|N|To Dockmaster Herrington. Must be in Ashvane disguise.|
+C Crabby Crew Stew|QID|49261|M|44.61,88.24|US|N|Finish Collecting the crab meat as you travel back towards Dockmaster Herrington.|
+T Crabby Crew Stew|QID|49261|M|44.61,88.24|U|160735|N|To Dockmaster Herrington. Must be in Ashvane disguise.|
 T Gang Bustin'|QID|49262|M|44.61,88.24|N|To Dockmaster Herrington.|
 $ Nez'ara|QID|50898|M|44.12,87.55;43.79,86.27|CS|QO|1|RARE|ITEM|161024|N|Cut the ropes to release the Ashvane's prisoner. She's rather ungreatful. Kill and loot for artifact power and resources.|RANK|2|
 
@@ -551,7 +557,7 @@ $ Deadwood Chest|QID|52994|M|38.84,82.90;40.57,85.74|CS|N|Follow this path to fi
 T WANTED: Taz'raka the Traitor|QID|51162|M|38.88,77.32|N|To Norah.|
 T Escaping Zem'lan|QID|51062|M|38.88,77.29|N|To Norah.|
 A A Strange Delivery|QID|48327|M|38.88,77.29|N|From Norah.|RANK|2|PRE|51062|
-T Za'roco|QID|51161|M|43.41,75.36|N|To Razgari.|
+T WANTED: Za'roco|QID|51161|M|43.41,75.36|N|To Razgari.|
 R Zul'Ahjin|ACTIVE|47324|M|46.73,71.85|N|Run back to Zul'Ahjin to take a ride to your next area.|RANK|2|
 
 ;The Three Keepers
