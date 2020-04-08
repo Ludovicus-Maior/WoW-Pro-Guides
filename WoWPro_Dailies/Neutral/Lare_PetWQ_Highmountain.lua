@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_world_quests_highmountain
+-- Date: 2020-04-08 19:26
+-- Who: Ludovicus_Maior
+-- Log: [Snail Fight!]
+
+-- URL: http://wow-pro.com/node/3734/revisions/28733/view
 -- Date: 2017-08-03 22:02
 -- Who: Ludovicus_Maior
 -- Log: Work of just World QIDs
@@ -56,7 +61,7 @@ C Strat by Hazelnuttygames@Youtube|QID|41624|STRATEGY|Hazel@YT|N|1) Dodge\n2) Pa
 
 ;Snail Fight, nearest FP is The Witchwood - Highmountain
 ;TESTED once
-A Snail Fight|QID|41687|CC|M|42.57, 25.48;44.55, 22.58|Z|Highmountain|N|Inside the cave. Talk to Odrogg to start the battle.|O|
+A Snail Fight!|QID|41687|CC|M|42.57, 25.48;44.55, 22.58|Z|Highmountain|N|Inside the cave. Talk to Odrogg to start the battle.|O|
 C Odrogg|QID|41687|PET1|Leveling;;;|PET2|Spirebound Crab;63005;1+2+1|PET3|Flayer Youngling;62555;2+2+2|STRATEGY|Hazel@YT|
 C Strat by Hazelnuttygames@Youtube|QID|41687|STRATEGY|Hazel@YT|N|1) Use any move\n2) Switch to your Spirebound Crab|SELECT|1|SWITCH|2|
 C Strat by Hazelnuttygames@Youtube|QID|41687|STRATEGY|Hazel@YT|N|1) Shell Shield (keep refreshing it on you)\n2) Use Healing Wave any time you reach about half health.\n3) Spam Snap as filler.\n4) Switch to your Flayer Youngling to finish the fight in case your Crab dies.|SELECT|2|SWITCH|3|
