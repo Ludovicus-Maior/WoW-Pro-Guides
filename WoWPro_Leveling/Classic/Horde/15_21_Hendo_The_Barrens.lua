@@ -536,6 +536,7 @@ A Cry of the Thunderhawk|QID|913|M|44.86,59.09|N|From Jorn Skyseer.|PRE|907|
 ; R Southern Barrens|QID|913|M|45.23,59.03;46.6,61.5|CC|
 C Cry of the Thunderhawk|QID|913|QO|1|N|Kill a Thunderhawk and loot its wings. You will find them all around the outside edge of Camp Taurajo.|
 T Cry of the Thunderhawk |QID|913|M|44.86,59.09|N|To Jorn Skyseer back to Camp Taurajo.|
+A Mahren Skyseer|QID|874|M|44.86,59.09|N|From Jorn Skyseer.|PRE|913|
 A The Ashenvale Hunt |QID|6382^235^742|M|44.86,59.09|N|From Jorn Skyseer.|
 F Orgrimmar|QID|3924|M|44.47,59.13|N|Fly to Orgrimmar.|
 T Samophlange Manual|QID|3924|M|76.4,24.4|Z|Orgrimmar|N|Head back to Rilli Greasygob and give the Samophlange manual to him.|
