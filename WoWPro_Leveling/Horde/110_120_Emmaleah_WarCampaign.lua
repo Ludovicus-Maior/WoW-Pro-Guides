@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2020-04-09 23:25
+-- Who: Ludovicus_Maior
+-- Log: Missing M tag
+
+-- URL: http://wow-pro.com/node/3761/revisions/30510/view
 -- Date: 2020-04-08 19:10
 -- Who: Ludovicus_Maior
 -- Log: [Foothold: Tiragarde Sound], [The Wicker Totem], [Battle of Dazar'alor], [Do It the Azerite Way], [We Stand United]
@@ -248,11 +253,6 @@
 -- Date: 2018-09-08 10:08
 -- Who: elidion
 -- Log: Re-arranged warfronts and initial 120 quest once again to be friendly for new players.
-
--- URL: http://wow-pro.com/node/3761/revisions/29696/view
--- Date: 2018-09-07 22:34
--- Who: elidion
--- Log: Removed code tags - no change in guide.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -1247,7 +1247,7 @@ A Healing Nordrassil|QID|55520|M|62.03,24.92|Z|Mount Hyjal|N|From Magni Bronzebe
 C Healing Nordrassil|QID|55520|M|60.71,25.84|Z|Mount Hyjal|N|Kill the Azerite Leviathan and other azerite mobs around the lake. You can also sooth fairy dragons and heal azerite wounds for quest credit.|
 T Healing Nordrassil|QID|55520|M|62.03,24.92|Z|Mount Hyjal|N|To Magni Bronzebeard.|
 A Do It the Azerite Way|QID|55521|M|62.03,24.92|Z|Mount Hyjal|N|From Magni Bronzebeard.|PRE|55520|
-H The Great Seal|ACTIVE|55521|62.03,24.92|Z|Mount Hyjal|N|Hearth or otherwise travel to Silithus and the Chamber of Heart.|
+H The Great Seal|ACTIVE|55521|M|62.03,24.92|Z|Mount Hyjal|N|Hearth or otherwise travel to Silithus and the Chamber of Heart.|
 P Silithus|ACTIVE|55521|M|73.89,85.58|Z|The Great Seal!Dazar'alor|N|Travel to Silithus and then the Chamber of Heart.|
 T Do It the Azerite Way|QID|55521|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
 T The Long Awake|QID|55398|M|53.92,62.11|Z|Chamber of Heart!Dungeon1473|N|To Merithra.|
