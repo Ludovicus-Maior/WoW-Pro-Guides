@@ -538,8 +538,16 @@ C Cry of the Thunderhawk|QID|913|QO|1|N|Kill a Thunderhawk and loot its wings. Y
 T Cry of the Thunderhawk |QID|913|M|44.86,59.09|N|To Jorn Skyseer back to Camp Taurajo.|
 A Mahren Skyseer|QID|874|M|44.86,59.09|N|From Jorn Skyseer.|PRE|913|
 A The Ashenvale Hunt |QID|6382^235^742|M|44.86,59.09|N|From Jorn Skyseer.|
+A Melor Sends Word|QID|1130|M|44.86,59.09|N|From Jorn Skyseer.|
+
+; --- Thunder Bluff
+F Thunder Bluff|M|44.46,59.14|
+T Melor Sends Word|QID|1130|M|61.49,80.83|Z|Thunder Bluff|N|To Melor Stonehoof.|
+A Steelsnap|QID|1131|M|61.49,80.83|Z|Thunder Bluff|N|From Melor Stonehoof.|PRE|1130|
 F Orgrimmar|QID|3924|M|44.47,59.13|N|Fly to Orgrimmar.|
 T Samophlange Manual|QID|3924|M|76.4,24.4|Z|Orgrimmar|N|Head back to Rilli Greasygob and give the Samophlange manual to him.|
+
+; --- Ashenvale
 F Splintertree Post|ACTIVE|6382^235^742|M|45.50,63.84|Z|Orgrimmar|N|Fly to Splintertree Post.|
 T The Ashenvale Hunt|QID|6382^235^742|M|73.77,61.46|Z|Ashenvale|N|To Senani Thunderheart.|
 A The Ashenvale Hunt|QID|6383|M|73.77,61.46|Z|Ashenvale|N|From Senani Thunderheart.|PRE|6382^235^742|
