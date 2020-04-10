@@ -28,7 +28,7 @@ C Pacify the Centaur|QID|4841|QO|1;2;3|N|Finish killing Galak Scouts, Wranglers,
 A Test of Faith|QID|1149|M|48.41,42.92;54.63,44.68;53.60,42.82|CC|N|From Dorn Plainstalker.|
 C Test of Faith|QID|1149|N|Simple... jump off the planks sticking out. You'll be teleported back to the cave as you fall.|NC|
 T Test of Faith|QID|1149|M|53.60,42.82|N|To Dorn Plainstalker.|
-A Test of Endurance|QID|1150|M|3.60,42.82|ELITE|N|[color=00FFFF]Group suggested or level up to solo[/color]\nFrom Dorn Plainstalker.|
+A Test of Endurance|QID|1150|M|53.60,42.82|ELITE|N|[color=00FFFF]Group suggested or level up to solo[/color]\nFrom Dorn Plainstalker.|
 l Alien Egg|QID|4821|ACTIVE|4821|M|52.35,55.22;56.34,50.39|CN|L|12467|N|Look for the Alien Egg on the ground at one of two locations. There is a rumor of a third location. They have a fairly long respawn timer.|
 R Freewind Post|QID|1197|M|46.84,47.18|N|Run back to Freewind and take the lift up.|
 T Alien Egg|QID|4821|M|44.69,50.27|N|To Hagar Lightninghoof.|
@@ -56,17 +56,12 @@ R Whitereach Post|QID|4770|M|14.92,33.04;17.82,35.63;19.42,33.14|CC|
 T Homeward Bound|QID|4770|M|21.54,32.33|N|To Motega Firemane.|
 A Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wizlo Bearingshiner.\n[color=FF0000]NOTE: [/color]This quest is not easy for some classes, especially at this level. Feel free to accept this quest and do it later if you so wish.\nThe exp and reward make this quest worth doing, even in a couple levels.|
 C Hypercapacitor Gizmo|QID|5151|M|22.17,26.17;22.81,24.45|CC|QO|1|N|Make your way to the area where the cage is. Once you are there, clear the area of any and all mobs. When you are ready, open the cage and prepare to fight.\n[color=FF0000]NOTE: [/color]If you're delaying doing this quest, left-click the check box to skip this step for now.|
-N Galak Messenger|QID|4881|N|Before leaving the area, take a look around and see if you can locate him. The item he drops starts a quest. You'll find him circling the western loop of the road.\nIf you stand still on the road, he'll attack you as he passes.|
+C Galak Messenger|QID|4881|M|22.04,31.52|N|If you wait (5-10 mins max) at this location facing the road east, he will come to you. Kill him and loot the Assassination note from him.\nIf you don't feel like waiting, You can either follow the road west to Camp E'thok or east to Splithoof Crag. He patrols along the road between the 2 camps.|
 A Assassination Plot|QID|4881|U|12564|N|Click on the Assassination Note to start the quest.|O|
 T Assassination Plot|QID|4881|M|21.31,32.01|N|To Kanati Greycloud.|
 A Protect Kanati Greycloud|QID|4966|M|21.31,32.01|N|From Kanati Greycloud.|
 C Protect Kanati Greycloud|QID|4966|QO|1|N|A group of 3 Galak Assassins will spawn and attack you and Kanati. Defeat them to complete the quest.|
 T Protect Kanati Greycloud|QID|4966|M|21.30,31.95|N|To Kanati Greycloud.|
-
-; --- The quest was attempted at this point and found to be too difficult to solo.
-;R Roguefeather Den|QID|1150|M|27.47,49.57;27.44,51.07|N|Make your way to The Screeching Canyon and walk up the ramp to Roguefeather Den.|
-;C Test of Endurance|QID|1150|M|26,55.4|QO|1|N|Work your way to the back of the cave. Break the crates ONE at a time. Every time you break a crate, a group of 3-4 various harpies will spawn. Make sure you clear them before breaking the next crate. Breaking the third crate will spawn a final group with Grenka. Kill her and loot Grenka's Claw.|
-
 l Incendia Agave|QID|5062|M|33.69,34.09;33.36,32.88;34.96,33.20;36.05,33.51;34.87,34.82;35.61,36.17;36.63,36.23;36.06,37.40;36.59,38.77|CN|L|12732 10|N|Loot these around and in the pond.|
 R Freewind Post|QID|4904|M|46.84,47.18|N|Run back to Freewind and take the lift up.|
 T Wind Rider|QID|4767|M|44.91,49.04|N|To Elu.|
@@ -89,9 +84,45 @@ T Arikara|QID|5088|M|21.61,32.25|N|To Motega Firemane.|
 l Hypercapacitor Gizmo|QID|5151|M|22.17,26.17;22.81,24.45|CC|L|12946|N|Make your way to the area where the cage is. Once you are there, clear the area of any and all mobs. When you are ready, open the cage and prepare to fight.\n[color=FF0000]NOTE: [/color]If you're delaying doing this quest, left-click the check box to skip this step for now.|
 R Whitereach Post|QID|5088|M|22.28,31.56|N|Run back to Whitereach Post.|
 T Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|N|To Wizlo Bearingshiner.|
+C Steelsnap|QID|1131|M|13.54,19.88|QO|1|N|Find Steelsnap patrolling the area NW of the Great Lift. Kill him and loot Steelsnap's Rib.\n[color=FF0000]NOTE: [/color]He is lv 30 and travels with 2 other lv 29 hyenas. None of them are elite.\nMuch like the Galak Messenger, if you just wait here facing east (towards Camp E'thok), he will come to you. At this location, there are no other mobs to worry about.|
+R Roguefeather Den|QID|1150|M|27.47,49.57;27.44,51.07|CC|N|Make your way to The Screeching Canyon and walk up the ramp to Roguefeather Den.|
+C Test of Endurance|QID|1150|M|26,55.4|QO|1|N|Work your way to the back of the cave. Break the crates ONE at a time. Every time you break a crate, a group of 3-4 various harpies will spawn. Always kill the Harpy first, the Windcaller second and then whatever is left last. Make sure you clear them before breaking the next crate. Breaking the third crate will spawn a final group with Grenka. Kill her and loot Grenka's Claw. Killing Grenka should be your priority.\n\n You can heal up between breaking crates. But, the longer it takes you, the more you risk the original group respawning. If that happens, kill them before you break the next crate.\n[color=FF0000]NOTE: [/color]You can get lucky sometimes and Grenka has already spawned. If that's the case, focus your attack on killing her first.|
+H Freewind Post|QID|1150|N|Unless you plan on fighting your way out, run to the VERY back of the cave beside the crates. There is a small nook in the wall where nothing can attack you, even if they are aggroed. Jump up into the nook and use your hearthstone in there.|
+R The Weathered Nook|QID|1150|M|54.66,44.61|CC|
+T Test of Endurance|QID|1150|M|53.90,41.60|N|To Dorn Plainstalker.|
+A Test of Strength|QID|1151|M|53.90,41.60|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Dorn Plainstalker.|PRE|1150|
+R Highperch|QID|1151|M|44.85,58.81;29.67,51.23;18.04,37.81|CC|
+C Test of Strength|QID|1151|M|17.27,37.07|QO|1|N|Continue west until you find Rok'Alim. Kill him and loot the fragments.|
+R The Weathered Nook|QID|1151|M|54.66,44.61|N|Choose your own path back.|
+T Test of Strength|QID|1151|M|53.60,42.82|N|To Dorn Plainstalker.|
+A Test of Lore|QID|1152|M|53.60,42.82|N|From Dorn Plainstalker.|PRE|1151|
 l A New Ore Sample|QID|1153|L|5842|N|Kill Gravelsnout Surveyors and Diggers until one drops an Unrefined Ore Sample. They are spread out over the east and west ends of Thousand Needles.|US|
-R Freewind Post|QID|1197|M|46.84,47.18|N|Run back to Freewind and take the lift up.|
-F Camp Taurajo|M|45.05,49.16|
+
+; --- The Barrens
+R Freewind Post|QID|1153|M|46.84,47.18|N|Run back to Freewind and take the lift up.|
+F Camp Taurajo|QID|1153|M|45.05,49.16|
+T A New Ore Sample|QID|1153|M|45,57.6|Z|The Barrens|N|To Tatternack Steelforge.|
+
+; --- Thunder Bluff
+F Thunder Bluff|QID|1131|M|44.46,59.14|Z|The Barrens|
+T Steelsnap|QID|1131|M|61.53,80.89|Z|Thunder Bluff|N|To Melor Stonehoof.|
+A Frostmaw|QID|1136|M|61.53,80.89|Z|Thunder Bluff|N|From Melor Stonehoof.|PRE|1131|
+
+; --- Stonetalon Mountains
+F Sun Rock Retreat|QID|1152|M|47.02,49.83|Z|Thunder Bluff|
+R Windshear Crag|QID|1152|M|49.51,61.02;53.15,61.61;59.97,71.14|Z|Stonetalon Mountains|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
+T Test of Lore|QID|1152|M|78.79,45.67|Z|Stonetalon Mountains|N|To Braug Dimspirit near the entrance to Talondeep Path in Stonetalon Mountains.|
+A Test of Lore|QID|1154|M|78.79,45.67|Z|Stonetalon Mountains|N|From Braug Dimspirit.|PRE|1152|
+
+; --- Ashenvale
+R The Dor'Danil Barrow Den|QID|1154|M|42.28,71.07;53.71,58.89;71.71,70.28;75.02,76.38;75.84,75.38|Z|Ashenvale|CC|N|Take the Talondeep Path to Ashenvale. Follow the path to the road and continue east until you get to the path leading to The Dor'Danil Barrow Den.|
+l Legacy of the Aspects|QID|1154|M|77.32,75.18;76.60,74.86;75.56,74.36|Z|Ashenvale|CC|L|5860|N|Find the Legacy of the Aspects.|
+
+; --- Stonetalon Mountains
+R The Talondeep Path|QID|1154|CC|N|Make your way out The Dor'Danil Barrow Den. Head to the Ashenvale entrance to The Talondeep Path and go through to Stonetalon Mountains.|
+T Test of Lore|QID|1154|M|78.75,45.62|Z|Stonetalon Mountains|N|To Braug Dimspirit.|
+A Test of Lore|QID|6627|M|78.75,45.62|Z|Stonetalon Mountains|N|From Braug Dimspirit.|
+
 
 
 N Under Construction|QID|1118|N|From this point on, the guide is incomplete.|
