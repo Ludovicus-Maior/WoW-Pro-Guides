@@ -147,6 +147,10 @@ A The Flying Machine Airport|QID|1086|M|22.84,20.93|Z|Thunder Bluff|N|From Apoth
 F Ratchet|ACTIVE|1094|M|47.02,49.83|Z|Thunder Bluff|
 T Further Instructions|QID|1094|M|62.98,37.18|Z|The Barrens|N|To Sputtervalve.|
 A Further Instructions|QID|1095|M|62.98,37.18|Z|The Barrens|N|From Sputtervalve.|PRE|1094|
+T Mahren Skyseer|QID|874|M|65.84,43.86|Z|The Barrens|N|To Mahren Skyseer at The Tidus Stair.\nYou can either swim there, or follow the road. Running along the shoreline will take longer because the shore isn't a straight line and you'll end up swimming at several points along the way.|
+A Isha Awak|QID|873|M|65.84,43.86|Z|The Barrens|N|From Mahren Skyseer.|PRE|874|
+K Isha Awak|QID|873|M|65.39,46.91;63.56,53.93|Z|The Barrens|CN|QO|1|N|Jump into the water and start swimming east. Locate Isha Awak, kill it and loot its heart.\nIt can be found in the water between the next point and Northwatch Hold.\n[color=FF0000]NOTE: [/color]If you don't want to swim, the targeting button works from the shore. ;)|T|Isha Awak|
+T Isha Awak|QID|873|M|65.84,43.86|Z|The Barrens|N|Choosing your own path of travel, make your way back to Mahren Skyseer.|
 N Booty Bay|ACTIVE|6571|N|Before returning to Stonetalon Mountains, we're taking a side trip to Booty Bay to pick up a quest item. This is the last time we will be in Ratchet to make this trip.|
 
 ; --- Booty Bay
@@ -386,9 +390,9 @@ N The Lost Pages|ACTIVE|6504|N|At this point in time, take a look at which pages
 
 ; --- Orgrimmar
 F Orgrimmar|ACTIVE|6504|M|12.19,33.82|Z|Ashenvale|
-C Chapter 1|QID|6504|Z|Ashenvale|QO|1|U|16645|L|16642|N|Combine Pages 1-4|
-C Chapter 2|QID|6504|Z|Ashenvale|QO|2|U|16649|L|16643|N|Combine Pages 5-8|
-C Chapter 3|QID|6504|Z|Ashenvale|QO|3|U|16653|L|16644|N|Combine Pages 9-12|
+C Chapter 1|QID|6504|QO|1|U|16645|L|16642|N|Combine Pages 1-4|NC|
+C Chapter 2|QID|6504|QO|2|U|16649|L|16643|N|Combine Pages 5-8|NC|
+C Chapter 3|QID|6504|QO|3|U|16653|L|16644|N|Combine Pages 9-12|NC|
 
 ; --- Ashenvale
 F Splintertree Post|M|12.19,33.82|Z|Ashenvale|N|Back to Ashenvale.|
