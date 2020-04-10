@@ -1327,7 +1327,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Availible quests: not complete  --
             if WoWPro.available[guideIndex] then
                 local available = WoWPro.available[guideIndex]
-                if not WoWPro:QuestAvailible(available, true) then
+                if not WoWPro:QuestAvailible(available) then
                     skip = true
                     WoWPro.CompleteStep(guideIndex,"NextStep(): Available quest is currently complete or active")
                     break
