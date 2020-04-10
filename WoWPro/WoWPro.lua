@@ -103,7 +103,7 @@ WoWPro:Export("Error")
 
 -- WoWPro Event function, only log --
 function WoWPro:LogEvent(event, ...)
-    local msg = ("|cffff7d0a%s|r: %s"):format(self.name or "Wow-Pro", tostring(event))
+    local msg = ("|cffff7d0a%s|r: %s("):format(self.name or "Wow-Pro", tostring(event))
     local arg = {...}
     local argn = #arg
     for i=1,argn do
