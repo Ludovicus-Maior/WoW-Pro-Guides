@@ -567,11 +567,11 @@ function WoWPro:TargetNpcId()
 
     if unitType == "Player" then
         local _, _, playerUID = ("-"):split(GUID)
-        WoWPro:dbp("Your target " .. GUID.. " ID %s", playerUID);
+        WoWPro:dbp("Your target " .. GUID.. " ID %s", tostring(playerUID))
         return tonumber(playerUID)
     else
         local _, _, _, _, _, npcID = ("-"):split(GUID)
-        WoWPro:dbp("Your target  " .. GUID .. " ID %s", npcID);
+        WoWPro:dbp("Your target  " .. GUID .. " ID %s", tostring(npcID))
         return tonumber(npcID)
     end
 end
