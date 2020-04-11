@@ -2596,50 +2596,51 @@ function WoWPro.PopulateQuestLog()
         for QID, questInfo in pairs(WoWPro.QuestLog) do
             if not WoWPro.oldQuests[QID] then
                 WoWPro.newQuest = QID
-                WoWPro:print("New Quest %s: [%s]", tostring(QID), WoWPro.QuestLog[QID].title)
+                WoWPro:print("New Quest %s: [%s]", tostring(QID), questInfo.title)
                 delta = delta + 1
                 -- Is this an auto-switch quest?
                 if WoWProCharDB.QID2Guide[QID] and WoWProDB.char.currentguide ~= WoWProCharDB.QID2Guide[QID] then
-                    WoWPro:SelectGuide(WoWProCharDB.QID2Guide[QID], WoWPro.QuestLog[QID].title, QID)
-                    WoWPro:print("AutoSwitch?: [%s] => %s", WoWPro.QuestLog[QID].title, WoWProCharDB.QID2Guide[QID])
+                    WoWPro:SelectGuide(WoWProCharDB.QID2Guide[QID], questInfo.title, QID)
+                    WoWPro:print("AutoSwitch?: [%s] => %s", questInfo.title, WoWProCharDB.QID2Guide[QID])
                 end
             end
         end
     end
 
     -- Finding WoWPro.missingQuest --
-    for QID, questInfo in pairs(WoWPro.oldQuests) do
+    for QID, oldQuestInfo in pairs(WoWPro.oldQuests) do
         if not WoWPro.QuestLog[QID] then
             if WoWPro:IsQuestFlaggedCompleted(QID) then
                 WoWPro.missingQuest = QID
-                WoWPro:print("Completed Quest: %d [%s]",QID, tostring(WoWPro.oldQuests[QID].title))
+                WoWPro:print("Completed Quest: %d [%s]", QID, tostring(oldQuestInfo.title))
             else
                 WoWPro.missingQuest = QID
-                WoWPro:print("Missing Quest: %d [%s]",QID, tostring(WoWPro.oldQuests[QID].title))
+                WoWPro:print("Missing Quest: %d [%s]", QID, tostring(oldQuestInfo.title))
             end
             delta = delta + 1
         end
     end
 
     -- Print updated objectives --
-    for QID, questInfo in pairs(WoWPro.oldQuests) do
+    for QID, oldQuestInfo in pairs(WoWPro.oldQuests) do
         if WoWPro.QuestLog[QID] then
+            local questInfo = WoWPro.QuestLog[QID]
             -- WoWPro:print("Quest %s: [%s]",tostring(QID),WoWPro.QuestLog[QID].title)
-            if WoWPro.oldQuests[QID].leaderBoard and WoWPro.QuestLog[QID].leaderBoard then
-                if WoWPro.oldQuests[QID].complete ~= WoWPro.QuestLog[QID].complete then
-                    WoWPro:print("Quest Completion: %d [%s] %s => %s",QID, tostring(WoWPro.oldQuests[QID].title),
-                                 tostring(WoWPro.oldQuests[QID].complete), tostring(WoWPro.QuestLog[QID].complete))
+            if oldQuestInfo.leaderBoard and questInfo.leaderBoard then
+                if oldQuestInfo.complete ~= questInfo.complete then
+                    WoWPro:print("Quest Completion: %d [%s] %s => %s",QID, tostring(oldQuestInfo.title),
+                                 tostring(oldQuestInfo.complete), tostring(questInfo.complete))
                     delta = delta + 1
                 end
-                for idx, status in pairs(WoWPro.QuestLog[QID].leaderBoard) do
+                for idx, status in pairs(questInfo.leaderBoard) do
                     -- Same Objective
                     -- WoWPro:dbp("idx %d, status %s",idx,status)
-                    if (not WoWPro.oldQuests[QID].ocompleted[idx]) and WoWPro.QuestLog[QID].ocompleted[idx] then
-                        WoWPro:print("Completed objective #%d (%s) on quest [%s]", idx, WoWPro.QuestLog[QID].leaderBoard[idx], WoWPro.QuestLog[QID].title)
+                    if (not oldQuestInfo.ocompleted[idx]) and questInfo.ocompleted[idx] then
+                        WoWPro:print("Completed objective #%d (%s) on quest [%s]", idx, questInfo.leaderBoard[idx], questInfo.title)
                         delta = delta + 1
                     end
-                    if WoWPro.oldQuests[QID].leaderBoard[idx] ~= WoWPro.QuestLog[QID].leaderBoard[idx] then
-                        WoWPro:print("Updated objective #%d (%s) on quest [%s]", idx, WoWPro.QuestLog[QID].leaderBoard[idx], WoWPro.QuestLog[QID].title)
+                    if oldQuestInfo.leaderBoard[idx] ~= questInfo.leaderBoard[idx] then
+                        WoWPro:print("Updated objective #%d (%s) on quest [%s]", idx, questInfo.leaderBoard[idx], questInfo.title)
                         delta = delta + 1
                     end
                 end
