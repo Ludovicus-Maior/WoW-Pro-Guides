@@ -2523,70 +2523,61 @@ function WoWPro.PopulateQuestLog()
 
     -- Generating the Quest Log table --
     WoWPro.QuestLog = tablecopy(WoWPro.FauxQuestLog) -- Reinitiallizing the Quest Log table
-    local i
-    local entries, numQuests = _G.GetNumQuestLogEntries()
+    local numEntries, numQuests = _G.GetNumQuestLogEntries()
     local currentHeader
     local delta = 0
-    WoWPro:dbp("PopulateQuestLog: Entries %d, Quests %d.",entries,numQuests)
+    WoWPro:dbp("PopulateQuestLog: Entries %d, Quests %d.", numEntries, numQuests)
 
     -- In spite of the above data, we still have to iterate until we hit the end
-    i=1
-    while(true) do
-        local questTitle, level, suggestedGroup, isHeader, _, isComplete, frequency, questID = _G.GetQuestLogTitle(i)
+    local numLoggedQuests = 0
+    for questLogIndex = 1, numEntries do
+        local questTitle, level, suggestedGroup, isHeader, _, isComplete, frequency, questID, _, _, _, _, isTask, isBounty, _, isHidden = _G.GetQuestLogTitle(questLogIndex)
         local leaderBoard, ocompleted, ncompleted
-
-        if not questTitle then
-             break
-        end
 
         if isHeader then
             currentHeader = questTitle
-        end
-
-        if (not isHeader) and questTitle and not WoWPro.QuestLog[questID] then
-            if _G.GetNumQuestLeaderBoards(i) and _G.GetQuestLogLeaderBoard(1, i) then
-                leaderBoard = {}
-                ocompleted = {}
-                ncompleted = {}
-                local objective_info = _G.C_QuestLog.GetQuestObjectives(questID)
-                for j=1,#objective_info do
-                    leaderBoard[j] = objective_info[j].text
-                    ocompleted[j] = objective_info[j].finished
-                    ncompleted[j] = objective_info[j].numFulfilled
+        elseif not isTask and not isHidden and not isBounty then
+            if not WoWPro.QuestLog[questID] then
+                if _G.GetNumQuestLeaderBoards(questLogIndex) and _G.GetQuestLogLeaderBoard(1, questLogIndex) then
+                    leaderBoard = {}
+                    ocompleted = {}
+                    ncompleted = {}
+                    local objective_info = _G.C_QuestLog.GetQuestObjectives(questID)
+                    for j=1,#objective_info do
+                        leaderBoard[j] = objective_info[j].text
+                        ocompleted[j] = objective_info[j].finished
+                        ncompleted[j] = objective_info[j].numFulfilled
+                    end
+                else
+                    leaderBoard = nil
+                    ocompleted = nil
+                    ncompleted = nil
                 end
-            else
-                leaderBoard = nil
-                ocompleted = nil
-                ncompleted = nil
-            end
 
-            local _, itemID = nil, nil
-            if _G.GetQuestLogSpecialItemInfo then
-                _, itemID = _G.GetQuestLogSpecialItemInfo(i)
+                local _, itemID = nil, nil
+                if _G.GetQuestLogSpecialItemInfo then
+                    _, itemID = _G.GetQuestLogSpecialItemInfo(questLogIndex)
+                end
+                numLoggedQuests = numLoggedQuests + 1
+                WoWPro.QuestLog[questID] = {
+                    title = questTitle,
+                    level = level,
+                    tag = "Standard",
+                    group = suggestedGroup,
+                    complete = isComplete or false,
+                    ocompleted = ocompleted,
+                    ncompleted = ncompleted,
+                    daily = frequency == _G.LE_QUEST_FREQUENCY_DAILY,
+                    leaderBoard = leaderBoard,
+                    header = currentHeader,
+                    use = itemID,
+                    index = questLogIndex
+                }
             end
-            WoWPro.QuestLog[questID] = {
-                title = questTitle,
-                level = level,
-                tag = "Standard",
-                group = suggestedGroup,
-                complete = isComplete or false,
-                ocompleted = ocompleted,
-                ncompleted = ncompleted,
-                daily = frequency == _G.LE_QUEST_FREQUENCY_DAILY,
-                leaderBoard = leaderBoard,
-                header = currentHeader,
-                use = itemID,
-                index = i
-            }
-        end
-        i = i + 1
-        if ( i > 50 ) then
-            WoWPro:dbp("PopulateQuestLog: Too many quests,")
-            break
         end
     end
 
-    WoWPro:print("Quest Log populated. "..(i-1).." quests found.")
+    WoWPro:print("Quest Log populated. "..numLoggedQuests.." quests found.")
 
     -- If there are no old Quests, then we are starting up.  No new or missing quest processing.
     local oldQuestCount = 0
@@ -2604,7 +2595,7 @@ function WoWPro.PopulateQuestLog()
     for QID, questInfo in pairs(WoWPro.QuestLog) do
         if not WoWPro.oldQuests[QID] then
             WoWPro.newQuest = QID
-            WoWPro:print("New Quest %s: [%s]",tostring(QID),WoWPro.QuestLog[QID].title)
+            WoWPro:print("New Quest %s: [%s]",tostring(QID), WoWPro.QuestLog[QID].title)
             delta = delta + 1
             -- Is this an auto-switch quest?
             if WoWProCharDB.QID2Guide[QID] and WoWProDB.char.currentguide ~= WoWProCharDB.QID2Guide[QID] then
