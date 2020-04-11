@@ -1211,6 +1211,10 @@ end
 WoWPro.CLASSIC = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC
 WoWPro.RETAIL = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_MAINLINE
 
+-- Any check for SHADOWLANDS should be changed to RETAIL once live
+local _, _, _, TOC = _G.GetBuildInfo()
+WoWPro.SHADOWLANDS = WoWPro.RETAIL and TOC >= 90001
+
 -- Change this to fake out a classic load on retail
 WoWPro.FakeClassic = false
 if WoWPro.FakeClassic then

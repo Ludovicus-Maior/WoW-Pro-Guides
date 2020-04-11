@@ -674,11 +674,14 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
 
     local npcCount = _G.GetNumGossipActiveQuests();
     local npcQuests =  {_G.GetGossipActiveQuests()};
-    local step = #npcQuests / npcCount
+    local step = 0
+    if npcCount > 0 then
+        npcCount = #npcQuests / npcCount
+    end
     WoWPro:print("%s: ActiveQuests npcCount=%d", event, npcCount)
     if WoWProCharDB.AutoTurnin then
         WoWPro.QuestCount = npcCount
-        for index=1,npcCount do
+        for index = 1, npcCount do
             -- name, level, isTrivial, isComplete, isLegendary, isIgnored, qid*
             local name = npcQuests[((index-1)*step)+1]
             WoWPro:print("%s: considering turnin %d for [%s] .vs. [%s]", event, index, name, tostring(WoWPro.step[qidx]))
@@ -694,7 +697,10 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
 
     npcCount = _G.GetNumGossipAvailableQuests();
     npcQuests = {_G.GetGossipAvailableQuests()};
-    step = #npcQuests / npcCount
+    step = 0
+    if npcCount > 0 then
+        npcCount = #npcQuests / npcCount
+    end
     WoWPro:print("%s: AvailableQuests npcCount=%d", event, npcCount)
     if WoWProCharDB.AutoSelect then
         WoWPro.QuestCount = npcCount

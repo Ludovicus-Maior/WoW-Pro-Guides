@@ -2530,7 +2530,12 @@ function WoWPro.PopulateQuestLog()
 
     -- Generating the Quest Log table --
     WoWPro.QuestLog = tablecopy(WoWPro.FauxQuestLog) -- Reinitiallizing the Quest Log table
-    local numEntries, numQuests = _G.GetNumQuestLogEntries()
+    local numEntries, numQuests
+    if WoWPro.SHADOWLANDS then
+        numEntries, numQuests = _G.C_QuestLog.GetNumQuestLogEntries()
+    else
+        numEntries, numQuests = _G.GetNumQuestLogEntries()
+    end
     local currentHeader
     local delta = 0
     WoWPro:dbp("PopulateQuestLog: Entries %d, Quests %d.", numEntries, numQuests)
@@ -2542,7 +2547,23 @@ function WoWPro.PopulateQuestLog()
     local numLoggedQuests, questLogIndex = 0, 0
     while true do
         questLogIndex = questLogIndex + 1
-        questTitle, level, suggestedGroup, isHeader, _, isComplete, frequency, questID, _, _, _, _, isTask, isBounty, _, isHidden = _G.GetQuestLogTitle(questLogIndex)
+        if WoWPro.SHADOWLANDS then
+            local questInfo = _G.C_QuestLog.GetInfo(questLogIndex)
+            if questInfo then
+                questTitle = questInfo.title
+                level = questInfo.level
+                suggestedGroup = questInfo.suggestedGroup
+                isHeader = questInfo.isHeader
+                isComplete = questInfo.isComplete
+                frequency = questInfo.frequency
+                questID = questInfo.questID
+                isTask = questInfo.isTask
+                isHidden = questInfo.isHidden
+                isBounty = questInfo.isBounty
+            end
+        else
+            questTitle, level, suggestedGroup, isHeader, _, isComplete, frequency, questID, _, _, _, _, isTask, isBounty, _, isHidden = _G.GetQuestLogTitle(questLogIndex)
+        end
         if not questTitle then break end
 
         if isHeader then
