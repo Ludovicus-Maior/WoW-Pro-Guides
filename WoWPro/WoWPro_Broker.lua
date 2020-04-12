@@ -2528,11 +2528,13 @@ function WoWPro.PopulateQuestLog()
     local delta = 0
     WoWPro:dbp("PopulateQuestLog: Entries %d, Quests %d.", numEntries, numQuests)
 
-    -- In spite of the above data, we still have to iterate until we hit the end
-    local numLoggedQuests = 0
-    for questLogIndex = 1, numEntries do
+    -- numEntries may vary depending on collapsed headers, so we need to itereate th whole list.
+    local numLoggedQuests, questLogIndex = 0, 0
+    while true do
+        questLogIndex = questLogIndex + 1
         local questTitle, level, suggestedGroup, isHeader, _, isComplete, frequency, questID, _, _, _, _, isTask, isBounty, _, isHidden = _G.GetQuestLogTitle(questLogIndex)
         local leaderBoard, ocompleted, ncompleted
+        if not questTitle then break end
 
         if isHeader then
             currentHeader = questTitle
