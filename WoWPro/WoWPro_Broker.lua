@@ -2528,12 +2528,14 @@ function WoWPro.PopulateQuestLog()
     local delta = 0
     WoWPro:dbp("PopulateQuestLog: Entries %d, Quests %d.", numEntries, numQuests)
 
+    local questTitle, level, suggestedGroup, isHeader, isComplete, frequency, questID, isTask, isBounty, isHidden
+    local leaderBoard, ocompleted, ncompleted, itemID, _
+
     -- numEntries may vary depending on collapsed headers, so we need to itereate th whole list.
     local numLoggedQuests, questLogIndex = 0, 0
     while true do
         questLogIndex = questLogIndex + 1
-        local questTitle, level, suggestedGroup, isHeader, _, isComplete, frequency, questID, _, _, _, _, isTask, isBounty, _, isHidden = _G.GetQuestLogTitle(questLogIndex)
-        local leaderBoard, ocompleted, ncompleted
+        questTitle, level, suggestedGroup, isHeader, _, isComplete, frequency, questID, _, _, _, _, isTask, isBounty, _, isHidden = _G.GetQuestLogTitle(questLogIndex)
         if not questTitle then break end
 
         if isHeader then
@@ -2556,8 +2558,7 @@ function WoWPro.PopulateQuestLog()
                     ncompleted = nil
                 end
 
-                local _, itemID = nil, nil
-                if _G.GetQuestLogSpecialItemInfo then
+                if WoWPro.RETAIL then
                     _, itemID = _G.GetQuestLogSpecialItemInfo(questLogIndex)
                 end
                 numLoggedQuests = numLoggedQuests + 1
