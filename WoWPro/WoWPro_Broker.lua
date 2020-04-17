@@ -2560,6 +2560,8 @@ function WoWPro.PopulateQuestLog()
                 isTask = questInfo.isTask
                 isHidden = questInfo.isHidden
                 isBounty = questInfo.isBounty
+            else
+                questTitle = nil
             end
         else
             questTitle, level, suggestedGroup, isHeader, _, isComplete, frequency, questID, _, _, _, _, isTask, isBounty, _, isHidden = _G.GetQuestLogTitle(questLogIndex)
