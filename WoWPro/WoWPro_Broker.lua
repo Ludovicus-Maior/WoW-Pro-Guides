@@ -2546,11 +2546,11 @@ function WoWPro.PopulateQuestLog()
                     leaderBoard = {}
                     ocompleted = {}
                     ncompleted = {}
-                    local objective_info = _G.C_QuestLog.GetQuestObjectives(questID)
-                    for j=1,#objective_info do
-                        leaderBoard[j] = objective_info[j].text
-                        ocompleted[j] = objective_info[j].finished
-                        ncompleted[j] = objective_info[j].numFulfilled
+                    local objectives = _G.C_QuestLog.GetQuestObjectives(questID)
+                    for objIndex = 1, #objectives do
+                        leaderBoard[objIndex] = objectives[objIndex].text
+                        ocompleted[objIndex] = objectives[objIndex].finished
+                        ncompleted[objIndex] = objectives[objIndex].numFulfilled
                     end
                 else
                     leaderBoard = nil
