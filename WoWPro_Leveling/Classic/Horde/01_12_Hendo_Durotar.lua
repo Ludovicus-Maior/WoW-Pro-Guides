@@ -66,10 +66,13 @@ r Sell junk/reload|QID|789^804|M|42.59,67.39|N|At Duokna. Make sure you have roo
 T Sting of the Scorpid|QID|789|M|42.09,68.34|N|To Gornek.|
 T Sarkoth|QID|804|M|42.09,68.34|N|To Gornek.|
 N Train|QID|5441|N|Go visit your trainer and learn your level 4 skills/spells.\nRight-click this step when you are done.|
+A Call of Earth|QID|1516|M|42.41,69.16|N|From Canaga Earthcaller.|R|Orc,Troll|C|Shaman|
 A Vile Familiars|QID|792|M|42.85,69.08|N|From Zureetha Fargaze.|C|-Warlock|
 A Lazy Peons|QID|5441|M|44.62,68.65|N|From Foreman Thazz'ril.|
 C Lazy Peons|QID|5441|QO|1|U|16114|T|Lazy Peon|N|Target sleeping Lazy Peons and use the Foreman's Blackjack on them. Look for the piles of wood logs.|S|NC|
+l Call of Earth|QID|1516|L|6640 2|N|Kill Felstalkers to loot their hooves.\nYou'll find them inside the cave.|R|Orc,Troll|C|Shaman|S|
 C Vile Familiars|QID|792|M|45.17,57.12|QO|1|N|Kill Vile Familiars in front of the cave.|
+l Call of Earth|QID|1516|L|6640 2|N|Continue killing Felstalkers until you are done.|R|Orc,Troll|C|Shaman|US|
 C Lazy Peons|QID|5441|QO|1|U|16114|T|Lazy Peon|N|Finish waking the Lazy Peons.|US|NC|
 T Lazy Peons|QID|5441|M|44.61,68.57|N|To Foreman Thazz'ril.|
 A Thazz'ril's Pick|QID|6394|M|44.61,68.57|N|From Foreman Thazz'ril.|PRE|5441|
