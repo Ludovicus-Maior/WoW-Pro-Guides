@@ -49,17 +49,17 @@ R Silithus: The Wound|QID|56374|M|50.14,30.47|Z|Chamber of Heart!Dungeon1473|N|R
 T A Titanic Problem|QID|56374|M|69.85,52.18|Z|Uldum|N|To Magni Bronzebeard.|
 A The Halls of Origination|QID|56209|M|69.85,52.18|Z|Uldum|N|From Magni Bronzebeard.|
 R Halls of Origination Instance|QID|56209|M|69.09,53.00|Z|Uldum|TZ|1540|N|Zone into the Halls of Origination.|
-C Unwelcome Guests|QID|56209|M|53.38,62.78|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|1|N|Reach the inner chambers of the Halls of Origination.|
+C Unwelcome Guests|ACTIVE|56209|M|53.38,62.78|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|1|N|Reach the inner chambers of the Halls of Origination.|
 C Ever Watching|ACTIVE|56209|M|57.91,66.67|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|2;1<1|N|Disable the defensive systems in the Chamber of Prophecy.|
 C Ever Watching|ACTIVE|56209|M|58.53,66.68|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|2;1<2|N|Disable the defensive systems in the Chamber of Prophecy.|
 C Ever Watching|ACTIVE|56209|M|57.92,59.39|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|2;1<3|N|Disable the defensive systems in the Chamber of Prophecy.|
 C Ever Watching|ACTIVE|56209|M|58.53,59.43|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|2|N|Disable the defensive systems in the Chamber of Prophecy.|
-C Hostile Halls|QID|56209|M|67.74,49.53|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|3|N|Reach the lift|
+C Hostile Halls|ACTIVE|56209|M|67.74,49.53|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|3|N|Reach the lift|
 K Watcher Aum-Ka|ACTIVE|56209|M|67.46,49.95|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|4|N|Defeat Watcher Aum-Ka and activate the lift in the Maker's Rise.|
-C Underpowered|QID|56209|M|49.72,32.55|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|5|N|Locate the power terminal for the Maker's Rise in the Vault of Lights.|
-C Rise Up|QID|56209|M|47.98,32.52;56.20,22.52|Z|The Vault of Lights@Halls of Origination!Dungeon1540|CN|SO|6|N|Re-route the power circuits in the Vault of Lights to the Maker's Rise terminal. Click on the console first and then the power circuits until Magni asks MOTHER for help.|
-C Defeat Sun Prophet Tenhamen|QID|56209|M|56.20,22.52|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|7|N|Defeat Sun Prophet Tenhamen|
-C Rebooting Origination|QID|56209|M|49.13,42.88;45.11,42.58;47.09,43.82|Z|The Four Seats@Halls of Origination!Dungeon1542|CN|SO|8|N|Take the lift to the upper chamber of the Maker's Rise and reactivate the Forge of Origination. Do the two side consoles first. Do the central console when MOTHER tells you to.|
+C Underpowered|ACTIVE|56209|M|49.72,32.55|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|5|N|Locate the power terminal for the Maker's Rise in the Vault of Lights.|
+C Rise Up|ACTIVE|56209|M|47.98,32.52;56.20,22.52|Z|The Vault of Lights@Halls of Origination!Dungeon1540|CN|SO|6|N|Re-route the power circuits in the Vault of Lights to the Maker's Rise terminal. Click on the console first and then the power circuits until Magni asks MOTHER for help.|
+C Defeat Sun Prophet Tenhamen|ACTIVE|56209|M|56.20,22.52|Z|The Vault of Lights@Halls of Origination!Dungeon1540|SO|7|N|Defeat Sun Prophet Tenhamen|
+C Rebooting Origination|ACTIVE|56209|M|49.13,42.88;45.11,42.58;47.09,43.82|Z|The Four Seats@Halls of Origination!Dungeon1542|CN|SO|8|N|Take the lift to the upper chamber of the Maker's Rise and reactivate the Forge of Origination. Do the two side consoles first. Do the central console when MOTHER tells you to.|
 T The Halls of Origination|QID|56209|M|PLAYER|Z|The Four Seats@Halls of Origination!Dungeon1542|N|To Magni Bronzebeard.|
 A To Ramkahen|QID|56375|M|PLAYER|Z|The Four Seats@Halls of Origination!Dungeon1542|N|From Magni Bronzebeard.|PRE|56209|
 R Uldum|ACTIVE|56375|M|47.0,53.8|Z|1542|N|Take the transporter out and run out of dungeon to Uldum.|
@@ -106,13 +106,13 @@ T Proof of Tenacity|QID|56540|M|45.32,74.34|Z|1530|N|To Ra-Den.|
 ; Thanks Sipder2 @ WhowHead! zone name is incomplete and needs a run-through.
 A The Engine of Nalak'sha|QID|56541|M|45.14,74.43|Z|1530|N|From Ra-Den|PRE|56540|
 R Mogu'shan Palace|ACTIVE|56541|M|80.83,30.76|Z|1530|N|Go to the Mogu'shan Palace to start the instance. It will take about 20 minutes.|
-C A Way Down|QID|56541|SO|1|M|40.51,59.30|Z|The Crimson Assembly Hall@Mogu'Shan Palace!Dungeon|N|Kill 4 Animated Guardians to open the first door and four more to open the second door.\nJump over rows of runed tiles to avoid traps.|
-C Watch Your Step|QID|56541|SO|2|M|40.30,70.80|Z|The Crimson Assembly Hall@Mogu'Shan Palace!Dungeon|N|Make your way to the Ancient Lever. The runes form a maze. When you step on one, the next step will be one without a visual effect. You may have to backtrack.|
-C A Weighty Problem|QID|56541|SO|3|M|20.50,44.39|Z|Vaults of Kings Past@Mogu'Shan Palace!Dungeon|N|Take the stairwell down, killing as you go.\nWhen you reach a glowing Mogu statue, you need to move it to the empty concrete block on the floor and then the door will open.|
-C The Long Walk|QID|56541|SO|4|M|44.65,46.81|Z|The Repository@Mogu'Shan Vaults!Dungeon|N|Go upstairs and enter the secret door to kill Depthcaller Xith'el.|
-C Madness Manifest|QID|56541|SO|5|M|42.54,52.53|Z|The Repository@Mogu'Shan Vaults!Dungeon|N|Destroy the manifestations of N'Zoth until the progress bar reaches 100%.|
-C The Hall of the Shapers|QID|56541|SO|6|M|33.30,50.93|Z|Forge of the Endless@Mogu'Shan Vaults!Dungeon|N|Go down the now unlocked stairs and follow the corridor until you reach the Swarmguard Kzaz, your next target.|
-C The Final Summoning|QID|56541|SO|7|M|27.88,51.52|Z|Forge of the Endless@Mogu'Shan Vaults!Dungeon|N|Defeat Yox'ith. Killing the tentacles around can help.|
+C A Way Down|ACTIVE|56541|SO|1|M|40.51,59.30|Z|The Crimson Assembly Hall@Mogu'Shan Palace!Dungeon|N|Kill 4 Animated Guardians to open the first door and four more to open the second door.\nJump over rows of runed tiles to avoid traps.|
+C Watch Your Step|ACTIVE|56541|SO|2|M|40.30,70.80|Z|The Crimson Assembly Hall@Mogu'Shan Palace!Dungeon|N|Make your way to the Ancient Lever. The runes form a maze. When you step on one, the next step will be one without a visual effect. You may have to backtrack.|
+C A Weighty Problem|ACTIVE|56541|SO|3|M|20.50,44.39|Z|Vaults of Kings Past@Mogu'Shan Palace!Dungeon|N|Take the stairwell down, killing as you go.\nWhen you reach a glowing Mogu statue, you need to move it to the empty concrete block on the floor and then the door will open.|
+C The Long Walk|ACTIVE|56541|SO|4|M|44.65,46.81|Z|The Repository@Mogu'Shan Vaults!Dungeon|N|Go upstairs and enter the secret door to kill Depthcaller Xith'el.|
+C Madness Manifest|ACTIVE|56541|SO|5|M|42.54,52.53|Z|The Repository@Mogu'Shan Vaults!Dungeon|N|Destroy the manifestations of N'Zoth until the progress bar reaches 100%.|
+C The Hall of the Shapers|ACTIVE|56541|SO|6|M|33.30,50.93|Z|Forge of the Endless@Mogu'Shan Vaults!Dungeon|N|Go down the now unlocked stairs and follow the corridor until you reach the Swarmguard Kzaz, your next target.|
+C The Final Summoning|ACTIVE|56541|SO|7|M|27.88,51.52|Z|Forge of the Endless@Mogu'Shan Vaults!Dungeon|N|Defeat Yox'ith. Killing the tentacles around can help.|
 P Vale of Eternal Blossoms|ACTIVE|56541|M|14.52,51.34|Z|Forge of the Endless@Mogu'Shan Vaults!Dungeon|N|Take the portal to the start of the instance and then exit.|
 T The Engine of Nalak'sha|QID|56541|M|45.14,74.43|Z|1530|N|To Ra-Den|
 A Restored Hope|QID|56542|M|45.14,74.43|Z|1530|N|From Ra-Den|PRE|56541|
@@ -138,28 +138,28 @@ T Investigating the Halls|QID|57222|M|46.55,63.58|Z|Chamber of Heart!Dungeon1473
 ;  Legendary Cloak
 A Beginning the Descent|QID|57290|M|46.55,63.58|Z|Chamber of Heart!Dungeon1473|N|From Wrathion. This will be another 15 minute scenario.|PRE|57222|
 R Blackwing Descent Instance|ACTIVE|57290|M|47.54,68.93|Z|Eastern Kingdoms|TZ|1538|N|Fly to the Blackwing Descent instance atop Blackrock Mountain. When you get there, enter the instance to start the scenario.|
-C Forced Entry|QID|57290|SO|1|M|46.92,42.92|Z|The Broken Hall@Blackwing Descent!Dungeon1538|N|Work your way forward to the Vault of the Shadowflame, take the elevator down and wait by Wrathion for completion.|
-C Something must be done|QID|57290|SO|2|M|47.88,84.09|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|CHAT|N|Speak with Wrathion.|
+C Forced Entry|ACTIVE|57290|SO|1|M|46.92,42.92|Z|The Broken Hall@Blackwing Descent!Dungeon1538|N|Work your way forward to the Vault of the Shadowflame, take the elevator down and wait by Wrathion for completion.|
+C Something must be done|ACTIVE|57290|SO|2|M|47.88,84.09|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|CHAT|N|Speak with Wrathion.|
 K Extractor Thelsara|ACTIVE|57290|SO|3;1|M|71.46,69.77|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Work your way torward the right and then kill Thelsara.|
 K Spawn of Shad'har|ACTIVE|57290|SO|3;2|M|22.95,70.03|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Now work your way across and kill the Spawn.|
-C Curious Magic|QID|57290|SO|4|M|47.60,47.16|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Meet up with Wrathion.|
-C Defend|QID|57290|SO|5|M|47.39,50.60|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Defend Wrathion while he brings down the barrier.|
-C The Athenaeum|QID|57290|SO|6|M|47.09,33.73|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Let's go investigate!|
+C Curious Magic|ACTIVE|57290|SO|4|M|47.60,47.16|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Meet up with Wrathion.|
+C Defend|ACTIVE|57290|SO|5|M|47.39,50.60|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Defend Wrathion while he brings down the barrier.|
+C The Athenaeum|ACTIVE|57290|SO|6|M|47.09,33.73|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Let's go investigate!|
 K Velnaria|ACTIVE|57290|SO|7;1|M|44.35,30.91|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Kill the handler and then the dragon!|
 K Dreliana|ACTIVE|57290|SO|7;2|M|50.49,30.07|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Kill the handler and then the dragon!|
-C Free from Darkness|QID|57290|SO|8|M|48.05,50.78|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Go back out to main vault and kill the Darkwhisper Ritualists with the beams on Wrathion.|T|Darkwhisper|
-C Ritual of Flame|QID|57290|SO|9|M|47.40,78.44|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|CHAT|N|Ask Wrathion to start.|
-C Scales of Corruption|QID|57290|SO|10|M|48.28,69.14|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Jump down. Click on the Dragon Remains to destroy them. Then pick up the dragonscale.|
+C Free from Darkness|ACTIVE|57290|SO|8|M|48.05,50.78|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Go back out to main vault and kill the Darkwhisper Ritualists with the beams on Wrathion.|T|Darkwhisper|
+C Ritual of Flame|ACTIVE|57290|SO|9|M|47.40,78.44|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|CHAT|N|Ask Wrathion to start.|
+C Scales of Corruption|ACTIVE|57290|SO|10|M|48.28,69.14|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Jump down. Click on the Dragon Remains to destroy them. Then pick up the dragonscale.|
 P Chamber of Heart|ACTIVE|57290|N|Now make your way back to the Chamber.|
 T Beginning the Descent|QID|57290|M|46.07,63.65|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|
 
 ; Visions of N'zoth Introduction Questline
 A Deeper Into the Darkness|QID|57362|M|46.07,63.65|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|PRE|57290|
 C MOTHER|QID|57362|QO|1|M|48.15,71.83|Z|Chamber of Heart!Dungeon1473|CHAT|N|Ask MOTHER to send you to the Halls of Origination for a 5 minute scenario.\nNOTE: You gotta have the new cloak on!|
-C Into the Vision|QID|57362|SO|1|M|38.94,49.46|Z|Tomb of the Earthrager@Halls of Origination!Dungeon1541|N|Up the stairs and across the sands, to the purple glowing thingy.|
-C Descent into Madness|QID|57362|SO|2|M|87.90,49.77|Z|The Vault of Lights@Halls of Origination!Dungeon1540|N|Make your way across the plaza and to the downward ramp and click on the barrier to open.|
-C Dark Manefestations|QID|57362|SO|3|M|67.50,49.73|Z|The Vault of Lights@Halls of Origination!Dungeon1540|N|Make your way down to the Terror Tendril and kill it.|
-C Final Ascent||QID|57362|SO|4|M|66.49,47.82|Z|The Vault of Lights@Halls of Origination!Dungeon1540|NC|N|Click on the Titan Elevator control and select the third floor.\nBe prepared to fight. Your next foe is near the elevator controls.|
+C Into the Vision|ACTIVE|57362|SO|1|M|38.94,49.46|Z|Tomb of the Earthrager@Halls of Origination!Dungeon1541|N|Up the stairs and across the sands, to the purple glowing thingy.|
+C Descent into Madness|ACTIVE|57362|SO|2|M|87.90,49.77|Z|The Vault of Lights@Halls of Origination!Dungeon1540|N|Make your way across the plaza and to the downward ramp and click on the barrier to open.|
+C Dark Manefestations|ACTIVE|57362|SO|3|M|67.50,49.73|Z|The Vault of Lights@Halls of Origination!Dungeon1540|N|Make your way down to the Terror Tendril and kill it.|
+C Final Ascent|ACTIVE|57362|SO|4|M|66.49,47.82|Z|The Vault of Lights@Halls of Origination!Dungeon1540|NC|N|Click on the Titan Elevator control and select the third floor.\nBe prepared to fight. Your next foe is near the elevator controls.|
 K Ysedra the Darkener|ACTIVE|57362|SO|5|M|45.82,46.68|Z|The Vault of Lights@Halls of Origination!Dungeon1540|N|Kill Ysedra.|
 P Chamber of Heart|ACTIVE|57290|M|47.08,53.35|Z|The Vault of Lights@Halls of Origination!Dungeon1540|N|Take the teleporter back to the Chamber of Heart.|
 T Deeper Into the Darkness|QID|57362|M|46.10,63.58|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
