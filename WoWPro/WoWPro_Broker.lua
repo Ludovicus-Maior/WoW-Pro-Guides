@@ -2430,7 +2430,8 @@ end
 -- Step Completion Tasks --
 function WoWPro.CompleteStep(step, why, noUpdate)
     local GID = WoWProDB.char.currentguide
-    if WoWProCharDB.Guide[GID].completion[step] then return end
+    WoWProCharDB.Guide[GID] = WoWProCharDB.Guide[GID] or {}
+    WoWProCharDB.Guide[GID].completion = WoWProCharDB.Guide[GID].completion or {}
     if WoWProDB.profile.checksound and not noUpdate then
         _G.PlaySoundFile(WoWProDB.profile.checksoundfile)
     end
