@@ -1,6 +1,6 @@
 -- luacheck: globals WoWPro_RecorderDB
--- luacheck: globals table ipairs pairs tinsert
--- luacheck: globals tonumber tostring type
+-- luacheck: globals table ipairs pairs tinsert tremove
+-- luacheck: globals tonumber tostring type max
 
 -----------------------------------
 --      WoWPro.Recorder.lua      --
@@ -332,7 +332,7 @@ function WoWPro.Recorder.ProcessScenarioCriteria(scenario)
         if old_scenario.currentStage == scenario.currentStage then
             WoWPro.Recorder:dbp("WoWPro.Recorder.ProcessScenario: Scanning stage: %d for completed criteria", scenario.currentStage )
             for criteriaIndex = 1, scenario.numCriteria do
---                WoWPro.Recorder:dbp("W.R.PS: cI=%d os.C.completed=%s, s.C.completed=%s",criteriaIndex, tostring(old_scenario.Criteria[criteriaIndex].completed),tostring(scenario.Criteria[criteriaIndex].completed))
+                -- WoWPro.Recorder:dbp("W.R.PS: cI=%d os.C.completed=%s, s.C.completed=%s",criteriaIndex, tostring(old_scenario.Criteria[criteriaIndex].completed),tostring(scenario.Criteria[criteriaIndex].completed))
                 if (not old_scenario.Criteria[criteriaIndex].completed) and scenario.Criteria[criteriaIndex].completed then
                     -- Incremental completion!
                     local stepInfo = {
@@ -458,7 +458,7 @@ function WoWPro.Recorder:RowLeftClick(i)
     WoWPro.Recorder:RowUpdate(true)
 end
 
-function WoWPro.Recorder.AddStep(stepInfo,position)
+function WoWPro.Recorder.AddStep(stepInfo, position)
     if not WoWPro.GuideLoaded then
         WoWPro.Recorder:Warning("Hey, no guide is loaded!")
         return
@@ -479,11 +479,11 @@ function WoWPro.Recorder.AddStep(stepInfo,position)
         pos = WoWPro.stepcount
     end
     WoWPro.Recorder:dbp("Adding new step %d %s [%s]", pos+1, stepInfo.action, stepInfo.step)
-    for key,tag in pairs(WoWPro.Tags) do
+    for key, tag in pairs(WoWPro.Tags) do
         local value = stepInfo[key]
         if not value then value = false end
         tinsert(WoWPro[key], pos+1, value)
---      WoWPro.Recorder:dbp("Adding key "..key.." at position "..pos+1)
+        -- WoWPro.Recorder:dbp("Adding key "..key.." at position "..pos+1)
     end
     WoWPro.stepcount = WoWPro.stepcount+1
     if WoWPro.Recorder.SelectedStep then
@@ -504,14 +504,15 @@ function WoWPro.Recorder:RemoveStep(position)
         return
     end
     local pos = position or WoWPro.stepcount
-    WoWPro.Recorder:dbp("Deleteing step %d %s [%s]",pos, WoWPro.action[pos], WoWPro.step[pos])
-    for key,tag in pairs(WoWPro.Tags) do
-        WoWPro[key][pos] = nil
---      WoWPro.Recorder:dbp("Removing key "..key.." at position "..pos)
+    WoWPro.Recorder:dbp("Deleteing step %d %s [%s]", pos, WoWPro.action[pos], WoWPro.step[pos])
+    for key, tag in pairs(WoWPro.Tags) do
+        tremove(WoWPro[key], pos)
+        -- WoWPro.Recorder:dbp("Removing key "..key.." at position "..pos)
     end
-    WoWPro.stepcount = WoWPro.stepcount-1
-    if WoWPro.Recorder.SelectedStep then
-        WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep - 1
+
+    WoWPro.stepcount = WoWPro.stepcount - 1
+    if position then
+        WoWPro.Recorder.SelectedStep = max(position - 1, 1)
     else
         WoWPro.Recorder.SelectedStep = WoWPro.stepcount
     end
@@ -598,5 +599,4 @@ function WoWPro.Recorder:SaveGuide(window)
     })
     dialog:SetDefaultSize("WoWPro Recorder - Save Guide", 750, 400)
     if window then dialog:Open("WoWPro Recorder - Save Guide", WoWPro.DialogFrame) end
-
 end
