@@ -237,7 +237,7 @@ class FindRevisions(HTMLParser):
     def __init__(self,Page, Test=False):
         HTMLParser.__init__(self)
         try:
-	    self._Page = Page
+            self._Page = Page
             Page = Page + "/revisions"
             self._rootHandle =urlopen_with_retry(Page)
             logging.info("Opened Revision URL "+Page)
@@ -251,9 +251,9 @@ class FindRevisions(HTMLParser):
             self._inSource = False
             self._inProfile = False
             self._inLog = False
-	    self._WebLog = []
-	    self._Test = Test
-	    self._RevisionHref = ""
+            self._WebLog = []
+            self._Test = Test
+            self._RevisionHref = ""
             self._RevisionDate = ""
             self._RevisionWho = ""
             self._RevisionLog = ""
@@ -262,8 +262,8 @@ class FindRevisions(HTMLParser):
             raise
 
     def dprint(self,*args):
-	    if self._Test:
-		print(args)
+        if self._Test:
+        print(args)
 
     def handle_starttag(self, tag, attrs):
         if tag == "table":
@@ -282,7 +282,7 @@ class FindRevisions(HTMLParser):
             return
         if self._inRevisionTable and tag == "tbody":
             self._inTbody = True
-	    logging.debug("Found Revision log body")
+            logging.debug("Found Revision log body")
             return
         if self._inRevisionTable and self._inTbody and tag == "tr":
             self._inTr = True
@@ -318,8 +318,8 @@ class FindRevisions(HTMLParser):
             return
         if self._inRevisionTable and self._inTd and tag == "td" and self._RevisionHref != "":
             self._inTd = False
-	    self._WebLog.append({ 'URL': self._RevisionHref, 'Date': self._RevisionDate, 'Who': self._RevisionWho, 'Log':self._RevisionLog})
-	    self.dprint(str.format("URL: {0} Date: {1} Who: {2} Log: {3}",self._RevisionHref,self._RevisionDate,  self._RevisionWho , self._RevisionLog ))
+            self._WebLog.append({ 'URL': self._RevisionHref, 'Date': self._RevisionDate, 'Who': self._RevisionWho, 'Log':self._RevisionLog})
+            self.dprint(str.format("URL: {0} Date: {1} Who: {2} Log: {3}",self._RevisionHref,self._RevisionDate,  self._RevisionWho , self._RevisionLog ))
             self._RevisionHref = ""
             self._RevisionDate = ""
             self._RevisionWho = ""
@@ -356,7 +356,7 @@ class FindRevisions(HTMLParser):
         while( self._lump != ""): 
             self.feed(self._lump)
             self._lump = self._rootHandle.read()
-	Web2Log[self._Page] = self._WebLog
+        Web2Log[self._Page] = self._WebLog
         return self._WebLog
         
 def ScrapeGuideFromWoWPro(RootSourceNode):
@@ -460,7 +460,7 @@ def UpdateGuideFile(guide):
     file=open(Guide2File[guide],"wb")
     eol = GuideEOL[guide]
     if not isinstance(eol,basestring):
-	eol = '\n'
+        eol = '\n'
 
     print("", file=file)
     print("-- WoWPro Guides by \"The WoW-Pro Community\" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.", file=file)
@@ -470,14 +470,14 @@ def UpdateGuideFile(guide):
 
 
     for logEntry in Web2Log[Guide2Web[guide]]:
-	print("-- URL: %s" % ("http://wow-pro.com"+logEntry['URL']), file=file)
-	print("-- Date: %s" % logEntry['Date'], file=file)
-	print("-- Who: %s" % logEntry['Who'], file=file)
-	if logEntry['Log'] != "":
-	     entry = "\n--".join(["\t"+line.rstrip() if len(line.strip())>0 else "" for line in logEntry['Log'].splitlines()])
-	     entry = entry.lstrip()
-	     print("-- Log: %s" % entry, file=file)
-	print("", file=file)
+        print("-- URL: %s" % ("http://wow-pro.com"+logEntry['URL']), file=file)
+        print("-- Date: %s" % logEntry['Date'], file=file)
+        print("-- Who: %s" % logEntry['Who'], file=file)
+        if logEntry['Log'] != "":
+            entry = "\n--".join(["\t"+line.rstrip() if len(line.strip())>0 else "" for line in logEntry['Log'].splitlines()])
+            entry = entry.lstrip()
+            print("-- Log: %s" % entry, file=file)
+        print("", file=file)
     for line in Guides[guide]:
         file.write(line + eol)
     file.close()
