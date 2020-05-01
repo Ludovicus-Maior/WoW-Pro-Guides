@@ -1,0 +1,6 @@
+boto
+boto3
+matplotlib
+pandas
+ipython[ALL]
+HTMLParser
