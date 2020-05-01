@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3763
+-- Date: 2020-05-01 20:49
+-- Who: Ludovicus_Maior
+-- Log: Fixed a few K steps missing ACTIVE tags
+
+-- URL: http://wow-pro.com/node/3763/revisions/30470/view
 -- Date: 2020-01-18 17:42
 -- Who: Ludovicus_Maior
 -- Log: Played it and found some tweaks
@@ -241,18 +246,15 @@
 -- URL: http://wow-pro.com/node/3763/revisions/29293/view
 -- Date: 2018-05-11 08:56
 -- Who: STrek
--- Log: should be removed here-- added comment before line to see if this is needed or not (will be checked later)
+-- Log: quest war campain and warcache moved to intro guide. It is logicial to do this before first zone choose is made.
+--
+--	Choice for zone (here Drustvar) is already made in intro guide --> should be removed here-- added comment before line to see if this is needed or not (will be checked later)
 --
 --	added few white lines for clear reading - player moves to differnt place in game here
 
 -- URL: http://wow-pro.com/node/3763/revisions/29290/view
 -- Date: 2018-05-10 20:35
 -- Who: STrek
-
--- URL: http://wow-pro.com/node/3763/revisions/29289/view
--- Date: 2018-05-10 20:34
--- Who: STrek
--- Log: first draft of the Drustvar guide  - part 1 - Fallhaven
 
 local guide = WoWPro:RegisterGuide('STrekDrustvar', 'Leveling', 'Drustvar', 'STrek', 'Alliance')
 WoWPro:GuideLevels(guide,110, 120, 111)
@@ -359,7 +361,7 @@ C Big Bad Wolves|QID|47947|N|Kill 10 spellbound beasts as you go.|S|
 C Save Their Bacon|QID|47946|QO|1|M|64.23,28.32|NC|N|Free Trevor Hightide - on the left off the road. He is one of the pigs that is bound to a pole.|
 C Save Their Bacon|QID|47946|QO|2|M|63.61,29.33|NC|N|Free Travis Daybreak - somewhat down the road on the right.|
 A That's Not My Fetish|QID|47949|M|63.35,30.10|N|From Pig Effigy - Inside the building, on the right attached to rope hanging from ceiling.|RANK|2|
-K Roland Hacksaw|QID|47948|QO|1|M|63.84,31.15|N|He is in the open-air part of the building.|T|Roland Hacksaw|RANK|2|
+K Roland Hacksaw|ACTIVE|47948|QO|1|M|63.84,31.15|N|He is in the open-air part of the building.|T|Roland Hacksaw|RANK|2|
 C Save Their Bacon|QID|47946|QO|4|M|64.07,31.52|NC|N|Free Burke Stevenson - around other side of wall from Roland.|
 C Save Their Bacon|QID|47946|QO|3|M|64.70,30.17|NC|N|Free Kyle Sailford.|
 C Big Bad Wolves|QID|47947|N|Finish killing the Spellbound beasts.|US|
@@ -752,7 +754,7 @@ A WANTED: The Crimson Cutthroats|QID|51390|M|26.42,72.16|N|From Wanted Poster.|R
 A Bramblethorn|QID|50238|M|26.99,71.39|N|From Lynn Sweet.|RANK|2|
 A A Missing Master|QID|50903|M|25.54,70.10|N|From Marten Webb.|
 C Village Repair|QID|50091|M|25.77,70.27|S|N|Destroy Charms and Banners, kill Briarthorn mobs to do this bonus objective.|
-K Bramblethorn|QID|50238|QO|1|M|24.79,69.01;24.88,68.65|CS|N|Kill Bramblethorn to rescue Lord Sharptooth.|T|Bramblethorn|RANK|2|
+K Bramblethorn|ACTIVE|50238|QO|1|M|24.79,69.01;24.88,68.65|CS|N|Kill Bramblethorn to rescue Lord Sharptooth.|T|Bramblethorn|RANK|2|
 C A Missing Master|QID|50903|QO|1|M|25.59,67.97|NC|N|Go down into cellar and find Master Ashton.|
 C A Missing Master|QID|50903|QO|2|M|25.29,67.89|CHAT|N|Speak to Master Ashton|
 T A Missing Master|QID|50903|M|25.29,67.89|N|To Warren Ashton.|

@@ -187,7 +187,7 @@
 -- URL: http://wow-pro.com/node/3761/revisions/30097/view
 -- Date: 2018-10-28 23:33
 -- Who: Emmaleah
--- Log: t on same quest.
+-- Log: changed the AVAILABLE|53065 to > 51784; added ILVL 320 to QO|2 step of battle for stromgard and T>t on same quest.
 
 -- URL: http://wow-pro.com/node/3761/revisions/30096/view
 -- Date: 2018-10-28 22:38
@@ -197,7 +197,7 @@
 -- URL: http://wow-pro.com/node/3761/revisions/30063/view
 -- Date: 2018-10-20 21:17
 -- Who: elidion
--- Log: s
+-- Log: fixed spaces around the &s
 
 -- URL: http://wow-pro.com/node/3761/revisions/29961/view
 -- Date: 2018-10-17 02:26
@@ -1269,10 +1269,10 @@ C In the Shadow of Crimson Wings|QID|55657|M|45.80,86.32|Z|Twilight Highlands!In
 C In the Shadow of Crimson Wings|QID|55657|QO|6|M|46.38,86.44|Z|Twilight Highlands!Instance|N|Hop on Corastrasza for a ride out or otherwise return to the Chamber of Heart.|V|
 T In the Shadow of Crimson Wings|QID|55657|M|54.25,66.28|Z|Chamber of Heart!Dungeon1473|N|To Alexstrasza.|
 
-A An Old Scar|QID|55732|M|50.15,59.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard. Necklace needs to be level 65.|PRE|55398|
-C An Old Scar|QID|55732|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|Tell MOTHER you are ready to travel to the Maelstrom.|CHAT|
-T An Old Scar|QID|55732|M|33.74,54.56|Z|The Maelstrom|N|To Magni Bronzebeard.|
-A Defending the Maelstrom|QID|55735|M|33.74,54.56|Z|The Maelstrom|N|From Magni Bronzebeard.|PRE|55732|
+A An Old Scar|QID|57632|M|50.15,59.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard. Necklace needs to be level 65.|PRE|55398|
+C An Old Scar|QID|57632|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|Tell MOTHER you are ready to travel to the Maelstrom.|CHAT|
+T An Old Scar|QID|57632|M|33.74,54.56|Z|The Maelstrom|N|To Magni Bronzebeard.|
+A Defending the Maelstrom|QID|55735|M|33.74,54.56|Z|The Maelstrom|N|From Magni Bronzebeard.|PRE|57632|
 C Defending the Maelstrom|QID|55735|M|29.63,52.91|Z|The Maelstrom|N|Defend the Maelstrom by defeating the Azerite Giant and the other Azerite creatures and healing azerite wounds.|
 T Defending the Maelstrom|QID|55735|M|33.74,54.56|Z|The Maelstrom|N|To Magni Bronzebeard.|
 A At the Azerite Time|QID|55737|M|33.74,54.56|Z|The Maelstrom|N|From Magni Bronzebeard.|PRE|55735|
@@ -1371,8 +1371,8 @@ C Speak with Thrall|ACTIVE|55779^55782|M|50.19,32.83|Z|Baine Rescue!Instance|SO|
 C Reach the end of the corridor|ACTIVE|55779^55782|M|67.55,32.13|Z|Baine Rescue!Instance|SO|7;2|NC|N|Reach the end of the corridor|
 C Defeat Rowa Bloodstrike|ACTIVE|55779^55782|M|73.23,44.03|Z|Baine Rescue!Instance|SO|8;1|N|Defeat Rowa Bloodstrike|
 C Check on Baine Bloodhoof|ACTIVE|55779^55782|M|78.54,55.51|Z|Baine Rescue!Instance|SO|9;1|NC|N|Check on Baine Bloodhoof|
-C Defeat Sylvanas's forces|ACTIVE|55779^55782|M|82.30,61.06|S|Z|Baine Rescue!Instance|SO|10;1|N|Defeat Sylvanas's forces, first the ones right in front of you, then the mages at each inhibitor crystal.|T|Lyani Shadestalker|
-C Destroy Inhibitor Crystals|ACTIVE|55779^55782|M|79.4,64.8|Z|Baine Rescue!Instance|SO|10;2|N|Destroy Inhibitor Crystals, after Thalyssra brings down the shield, one by one.|
+C Defeat Sylvanas's forces|ACTIVE|55779^55782|M|82.30,61.06|S|Z|Baine Rescue!Instance|SO|10;1|N|Defeat Sylvanas's forces, first the ones right in front of you, then the mages at each inhibitor crystal.|
+C Destroy Inhibitor Crystals|ACTIVE|55779^55782|M|85.03,60.47|Z|Baine Rescue!Instance|SO|10;2|N|Destroy Inhibitor Crystals.|
 C Defeat Sylvanas's forces|ACTIVE|55779^55782|M|82.30,61.06|Z|Baine Rescue!Instance|SO|10;1|N|And finally defeat Magister Hathorel.|
 C Stay of Execution|QID|55779^55782|M|82.30,61.06|Z|Baine Rescue!Instance|CHAT|N|Enjoy the cinematic. Afterwards, talk to Lor'Themar to complete the quest.|
 T Stay of Execution|QID|55779|M|48.50,62.18|Z|Nazjatar|N|To Lor'themar Theron.|

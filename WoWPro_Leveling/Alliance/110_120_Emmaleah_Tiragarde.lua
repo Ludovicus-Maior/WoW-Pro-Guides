@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2020-05-01 20:48
+-- Who: Ludovicus_Maior
+-- Log: Fixed a few K steps with missing ACTIVE tags
+
+-- URL: http://wow-pro.com/node/3769/revisions/30495/view
 -- Date: 2020-04-07 22:36
 -- Who: Ludovicus_Maior
 
@@ -226,8 +231,8 @@ C Labor Dispute|QID|47487|M|78.77,78.92|S|N|Kill the mobs that attack you as you
 A Message from the Management|QID|50573|M|79.02,45.77|N|from the posted notice.|PRE|47485|
 C Suspicious Shipments|QID|47486|M|78.77,78.92|NC|S|N|Click on the glowing boxes to inspect them.|
 C Small Haulers|QID|47488|M|78.77,78.92|CHAT|S|N|Tell the urchins they are free to go.|
-K Taskmaster Williams|QID|50573|M|79.18,46.69|QO|2|T|Taskmaster Williams|N|Kill and loot Taskmaster Williams inside this warehouse.|
-K Forgemaster Farthing|QID|50573|M|82.19,48.66|QO|1|T|Forgemaster Farthing|N|Kill and loot Forgemaster Farthing.|
+K Taskmaster Williams|ACTIVE|50573|M|79.18,46.69|QO|2|T|Taskmaster Williams|N|Kill and loot Taskmaster Williams inside this warehouse.|
+K Forgemaster Farthing|ACTIVE|50573|M|82.19,48.66|QO|1|T|Forgemaster Farthing|N|Kill and loot Forgemaster Farthing.|
 C Small Haulers|QID|47488|M|78.77,78.92|CHAT|US|N|Finish freeing the Urchin Workers.|
 C Suspicious Shipments|QID|47486|M|78.77,78.92|US|NC|N|Finish inspecting the Marked Goods.|
 C Labor Dispute|QID|47487|M|78.77,78.92|US|N|Finish killing the Ashvane Company guards.|
@@ -315,7 +320,7 @@ C A Sweater for Rupert|QID|49028|M|76.50,63.05|S|N|Kill Quillrats and Raccoons i
 C Pardon Our Rust|QID|48874|M|76.50,63.05|S|NC|N|Arm the Sprung Beartraps.|
 C A Grizzly End|QID|48873|M|76.50,63.05|S|U|152800|N|Kill Grizzlies and use the skinning knife to collect the pelts.|
 C A Hunt for Hawk Eggs|QID|48879|M|76.50,63.05|S|NC|N|Pick up the eggs from the nest, Understandably, any Hawks nearby will attack.|
-K Ol' Frostclaw|QID|49069|M|79.98,65.63|QO|1|N|Kill Old Frostclaw in small cave.|T|Old Frostclaw|RANK|2|
+K Ol' Frostclaw|ACTIVE|49069|M|79.98,65.63|QO|1|N|Kill Old Frostclaw in small cave.|T|Old Frostclaw|RANK|2|
 C A Sweater for Rupert|QID|49028|QO|1|M|76.50,63.05|US|N|Finish collecting sturdy quills from the Quillrats.|
 C A Sweater for Rupert|QID|49028|QO|2|M|76.50,63.05|US|N|Finish collecting fuzzy tails from the Racoons.|
 C Pardon Our Rust|QID|48874|M|76.50,63.05|US|NC|N|Finish arming the Sprung Beartraps.|
@@ -369,8 +374,8 @@ C Local Flavor|QID|49230|M|85.47,80.82|S|N|Kill Lurkers and loot them as you go.
 C My Favorite Things|QID|49178|M|88.26,78.14|QO|5|NC|N|Pick up the Silver Compass|
 C My Favorite Things|QID|49178|M|87.68,75.13|QO|6|NC|N|Pick up Tin Robot.|
 A Glimmering Locket|QID|49181|M|87.97,75.00|N|From a glimmering pile of seaweed.|RANK|2|
-K Patheope|QID|49226|M|86.21,72.22|QO|1|N|Kill the siren sisters in this cave. I don't think it is possible to get them singly, even with CC, Stabby Jane goes and wakes up the second one before you have the first dead.|T|Patheope|
-K Nolpe|QID|49226|M|86.51,72.88|QO|2|T|Nolpe|
+K Patheope|ACTIVE|49226|M|86.21,72.22|QO|1|N|Kill the siren sisters in this cave. I don't think it is possible to get them singly, even with CC, Stabby Jane goes and wakes up the second one before you have the first dead.|T|Patheope|
+K Nolpe|ACTIVE|49226|M|86.51,72.88|QO|2|T|Nolpe|
 C My Favorite Things|QID|49178|M|88.28,72.90|QO|4|NC|N|Pick up the Steel Lunchbox.|
 C Lured and Allured|QID|48419|QO|3|M|90.06,74.48|N|Kill the siren to set Flynn free.|T|Lugeia|
 K Fowlmouth|QID|50155|M|90.45,77.11|QO|1|T|Fowlmouth|RARE|ITEM|154467|N|Silver elite mob to kill for Azerite Power and resources.|RANK|2|
@@ -633,7 +638,7 @@ A WANTED: Gryphon 'Nappers|QID|51358|M|66.85,24.37|N|From a Wanted Poster.|RANK|
 T A Bundle of Furs|QID|51144|M|66.24,24.29|N|To Dandy Jones.|
 A Worker's Rights|QID|50699|M|67.40,24.14|N|From Davey Brindle.|RANK|3|
 f Hatherford|ACTIVE|50699|M|66.93,23.07|N|At Mariah McKee.|RANK|3|
-K Gryphon 'Nappers|QID|51358|QO|1|M|67.45,22.08|N|Kill the Gryphon Nappers in a small cave|T|Silent Boris|RANK|3|
+K Gryphon 'Nappers|ACTIVE|51358|QO|1|M|67.45,22.08|N|Kill the Gryphon Nappers in a small cave|T|Silent Boris|RANK|3|
 T Worker's Rights|QID|50699|M|68.93,20.59|N|To Maynard Algerson.|
 A Maximizing Resources|QID|49465|M|68.93,20.59|N|From Maynard Algerson.|RANK|3|
 A Inventory Deficit|QID|49452|M|68.93,20.59|N|From Maynard Algerson.|RANK|3|
@@ -666,7 +671,7 @@ C Required Webinar|QID|49468|M|70.66,17.99|NC|S|N|Click on the Webbed lumps to f
 C Incident Reports|QID|49450|M|71.99,17.33|S|N|Kill the enthralled beasts.|
 C Pest Prevention|QID|49454|M|71.83,17.03|S|N|Destroy Mossfang Eggs.|
 A The Witch's Pet|QID|50058|M|72.96,17.54|N|From Terrence Foster.|RANK|3|
-K Mossfang Matriarch|QID|50058|QO|1|M|73.25,18.25|T|Mossfang Matriarch|N|Kill the Mossfang Matriarch.|RANK|3|
+K Mossfang Matriarch|ACTIVE|50058|QO|1|M|73.25,18.25|T|Mossfang Matriarch|N|Kill the Mossfang Matriarch.|RANK|3|
 T The Witch's Pet|QID|50058|M|73.29,18.36|N|To UI Alert.|
 C Pest Prevention|QID|49454|M|71.83,17.03|US|N|Finish destroying Mossfang Eggs.|
 C Incident Reports|QID|49450|M|71.99,17.33|US|N|Finish killing the enthralled beasts.|
@@ -746,7 +751,7 @@ A Anglepoint Wharf|QID|48347|M|53.11,28.41|N|From Help Wanted Poster.|LEAD|48540
 C Be Our Guest|QID|48005|M|53.30,28.30|QO|4|NC|N|Click on Terry Rigglesmith to get credit for visiting the inn.|
 C Be Our Guest|QID|48005|M|53.50,28.78|QO|3|NC|N|Out the back door of the inn and to the right is the Smithy Click on George Mitchell to get credit for visiting.|
 $ Precarious Noble Cache|QID|52866|M|52.90,30.24;54.42,30.48;56.05,33.17|CS|N|Out across the rocks for this treasure. Loot for a bit of Azerite Power and resources.|RANK|2|
-K Raging Earthguard|QID|51367|QO|1|M|47.25,32.47|T|Raging Earthguard|N|Kill the Raging Earthguard.|RANK|3|
+K Raging Earthguard|ACTIVE|51367|QO|1|M|47.25,32.47|T|Raging Earthguard|N|Kill the Raging Earthguard.|RANK|3|
 C Lucky Charm|QID|48898|M|48.63,28.14|QO|1|N|Ock! he got away, go find him again.|T|Lucktail|
 C Safety First|QID|48899|M|49.41,21.97|S|NC|N|Pick up Durable Seashells from the ground.|
 C Monstrous Energy|QID|48902|M|47.87,23.77|S|N|Kill and loot the Venomscale Slitherers for Pulsating Extracts.|
@@ -830,7 +835,7 @@ C The Bears and the Bees|QID|49395|M|48.73,17.44|QO|1|NC|S|N|Pick up the Honeyco
 C The Bears and the Bees|QID|49395|M|47.36,19.39|QO|2|S|N|Kill Scruffhide Bears.|
 C Hold Still|QID|49394|M|48.19,19.79|U|153596|S|N|Use the shears to collect Goat Fur, they don't like it much, must be done before killing them.|
 K Totes|QID|50095|QO|1|M|46.87,20.60|T|Totes|RARE|ITEM|160452|N|Silver Elite inside small cave to kill for Azerite Power and resources.|RANK|2|
-K The Hornet|QID|51368|M|47.37,18.18;47.48,18.01|CS|QO|1|T|The Hornet|N|Kill The Hornet in this small cave.|RANK|3|
+K The Hornet|ACTIVE|51368|M|47.37,18.18;47.48,18.01|CS|QO|1|T|The Hornet|N|Kill The Hornet in this small cave.|RANK|3|
 A Helping Henry|QID|49412|M|47.71,17.63|N|From "Helpless" Henry.|RANK|2|
 C Helping Henry|QID|49412|M|48.71,18.01|N|Kill Brawr.|
 T Helping Henry|QID|49412|M|47.75,17.61|N|To "Helpless" Henry.|
@@ -950,8 +955,8 @@ R Krakenbane Cove|ACTIVE|49300|M|33.74,23.48|N|Run out to sea to find the eggs a
 C Creature Corruption|QID|49300|M|35.20,24.20|S|N|Bonus Objective - Kill stuff as you go along (like you have a choice).|
 C Those Aren't Fish Eggs|QID|48367|M|32.25,27.34|S|N|Attack the eggs.|
 C Death in the Depths|QID|48370|M|33.01,26.19|S|N|Kill Deepwarden Followers.|
-K Quartermaster Ssylis|QID|51384|M|30.13,17.62|QO|1|N|Up on the shore, in a small cave, find and kill Quartermaster Ssylis.|T|Quartermaster Ssylis|RANK|3|
-K Director Deepwarden|QID|48372|M|30.86,21.56;30.08,19.59|CS|QO|1|N|Kill Director Deepwarden inside the underwater cave.|T|Director Deepwarden|
+K Quartermaster Ssylis|ACTIVE|51384|M|30.13,17.62|QO|1|N|Up on the shore, in a small cave, find and kill Quartermaster Ssylis.|T|Quartermaster Ssylis|RANK|3|
+K Director Deepwarden|ACTIVE|48372|M|30.86,21.56;30.08,19.59|CS|QO|1|N|Kill Director Deepwarden inside the underwater cave.|T|Director Deepwarden|
 C Deep Sea Defilement|QID|48368|M|30.00,19.33|QO|3|NC|N|Destroy the Western Corrupting Pylon.|
 C Deep Sea Defilement|QID|48368|M|31.35,29.13;30.36,31.14|CS|QO|1|NC|N|Destroy the Southern Corrupting Pylon in an underwater cave.|
 C Deep Sea Defilement|QID|48368|M|33.94,25.45;35.38,24.32|CS|QO|2|NC|N|Destroy the Eastern Corrupting Pylon in an underwater cave.|

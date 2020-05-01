@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2020-05-01 20:29
+-- Who: Ludovicus_Maior
+-- Log: Corrected two K steps.
+
+-- URL: http://wow-pro.com/node/3766/revisions/30241/view
 -- Date: 2019-03-18 21:15
 -- Who: Emmaleah
 -- Log: add |V| tags, update wording on rares and treasures intro steps  ... to make them even more wordy. /sigh.
@@ -31,7 +36,7 @@
 -- URL: http://wow-pro.com/node/3766/revisions/30109/view
 -- Date: 2018-11-04 11:14
 -- Who: Emmaleah
--- Log: ACTIVE and commented out Mala'kili cuz that was a terrible place for her. What silly person did that .. Hopefully I will find a better place soon.
+-- Log: Changed a few more C's to K's (including adding |T|s and QID>ACTIVE and commented out Mala'kili cuz that was a terrible place for her. What silly person did that .. Hopefully I will find a better place soon.
 
 -- URL: http://wow-pro.com/node/3766/revisions/29959/view
 -- Date: 2018-10-17 02:26
@@ -346,7 +351,7 @@ T That Which Haunts the Dead|QID|47247|M|39.57,24.65|N|To Bwonsamdi.|
 T The Forlorn Soul|QID|49432|M|39.57,24.65|N|To Bwonsamdi.|
 A Soulbound|QID|47249|M|39.57,24.65|N|From Bwonsamdi.|PRE|49432&49348&47491&47247|
 C Soulbound|QID|47249|M|39.58,29.79|QO|1|CHAT|N|Go down to the alter in the middle of the lower courtyart and tell Bwonsamdi you are ready.|
-K Grand Ma'da Ateena|QID|47249|M|39.72,30.23|QO|2|N|Kill Grand Ma'da Ateena.|T|Grand Ma'da Ateena|
+K Grand Ma'da Ateena|ACTIVE|47249|M|39.72,30.23|QO|2|N|Kill Grand Ma'da Ateena.|T|Grand Ma'da Ateena|
 T Soulbound|QID|47249|M|39.59,30.23|N|To Bwonsamdi.|
 A We'll Meet Again|QID|47250|M|39.59,30.23|N|From Bwonsamdi.|PRE|47249|
 T 'Til Death Do Us Part|QID|47248|M|36.65,27.39|N|To Theurgist Salazae.|
@@ -415,8 +420,8 @@ T Stopping Zardrax|QID|48852|M|32.41,56.13|N|Bonus Objective - Autocompleted.|
 T Humbling the Terrors|QID|48855|M|30.95,52.13|N|To Shadow Hunter Da'jul.|
 T Conduit Interruption|QID|48856|M|30.95,52.13|N|To Shadow Hunter Da'jul.|
 T All Hope is Lost|QID|48857|M|30.95,52.13|N|To Shadow Hunter Da'jul.|
-K Zardrax the Empowerer|QID|48869|M|31.33,57.65|N|Kill Zardrax the Empowerer.|T|Zardrax the Empowerer|QO|1|RANK|2|
 A Payback's a Lich|QID|48869|M|30.95,52.13|N|From Shadow Hunter Da'jul.|RANK|2|PRE|48855&48856&48857|
+K Zardrax the Empowerer|ACTIVE|48869|M|31.33,57.65|N|Kill Zardrax the Empowerer.|T|Zardrax the Empowerer|QO|1|RANK|2|
 T Payback's a Lich|QID|48869|M|30.95,52.12|N|To Shadow Hunter Da'jul.|
 A An Unfortunate Event|QID|50933|M|29.22,52.05|N|From Imperial Guard.|RANK|2|
 T An Unfortunate Event|QID|50933|M|24.12,53.20|N|To Zaluto.|

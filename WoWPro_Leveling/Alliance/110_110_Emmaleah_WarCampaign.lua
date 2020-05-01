@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_war_campaign
+-- Date: 2020-05-01 20:47
+-- Who: Ludovicus_Maior
+-- Log: Fixed a few K steps missing ACTIVE tags
+
+-- URL: http://wow-pro.com/node/3760/revisions/30463/view
 -- Date: 2019-12-29 22:37
 -- Who: Ludovicus_Maior
 -- Log: Heart of Azeroth questline - Level 65
@@ -150,7 +155,7 @@
 -- URL: http://wow-pro.com/node/3760/revisions/30094/view
 -- Date: 2018-10-28 11:29
 -- Who: Emmaleah
--- Log: ACTIVE on K Dark Chronicler and K Third Telemancer Syranel
+-- Log: QID > ACTIVE on K Dark Chronicler and K Third Telemancer Syranel
 
 -- URL: http://wow-pro.com/node/3760/revisions/30081/view
 -- Date: 2018-10-23 22:21
@@ -248,11 +253,6 @@
 -- Date: 2018-09-13 08:23
 -- Who: elidion
 -- Log: Added the Zuldazar quests.
-
--- URL: http://wow-pro.com/node/3760/revisions/29742/view
--- Date: 2018-09-13 06:15
--- Who: elidion
--- Log: Added Honored Outpost missions
 
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -647,7 +647,7 @@ T Enter the Dreamway|QID|55392|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|T
 A Shards of Emerald|QID|55394|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream|PRE|55392|
 A Null the Void|QID|55393|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream|PRE|55392|
 A Don't Close Your Eyes|QID|55395|M|27.10,55.94|Z|Emerald Dreamway!Instance1471|N|From Valithria Dreamwalker|PRE|55392|
-K Void invaders|QID|55393|QO|1|M|38.6,37.0|Z|Emerald Dreamway!Instance1471|N|Kill anything voidy.|S!US|
+K Void invaders|ACTIVE|55393|QO|1|M|38.6,37.0|Z|Emerald Dreamway!Instance1471|N|Kill anything voidy.|S!US|
 C Emerald Shards|QID|55394|QO|1|M|37.5,60.0;63.2,33.8|CN|N|The Emerald Shards are one the ground next to the dragons bodies.|S|
 C Karkarius|QID|55395|QO|3|M|70.6,45.6|Z|Emerald Dreamway!Instance1471|NC|CHAT|N|Wakey waykey!|
 C Verdisa|QID|55395|QO|2|M|44.81,50.43|Z|Emerald Dreamway!Instance1471|NC|CHAT|N|Wakey waykey!|
@@ -1152,7 +1152,7 @@ F Kennings Lodge|ACTIVE|55118|M|80.0,75.0|N|Fly or run over to Kennings Lodge.|
 T Loose Ends|QID|55118|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark|
 A Ashes to Ashvane|QID|55033|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark|PRE|55118|
 A Correspondence Conundrum|QID|55117|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark|PRE|55118|
-K Loyalists|QID|55033|QO|1|M|78.6,77.8;77.8,76.4;79.0,78.8;78.2,78.8|CN|Z|Tiragarde Sound|N|Get rid of those loyalists.|S!US|
+K Loyalists|ACTIVE|55033|QO|1|M|78.6,77.8;77.8,76.4;79.0,78.8;78.2,78.8|CN|Z|Tiragarde Sound|N|Get rid of those loyalists.|S!US|
 C Correspondence|QID|55117|M|77.5,77.4|Z|Tiragarde Sound|N|Look on your minimap for the random locations of the correspondence.|
 T Ashes to Ashvane|QID|55033|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark|
 T Correspondence Conundrum|QID|55117|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark|
@@ -1191,7 +1191,7 @@ C Goblin Shredder|QID|55185|M|52.2,39.2|Z|Stormsong Valley|
 T Listen Up!|QID|55185|M|52.13,39.26|Z|Stormsong Valley|N|To Kelsey Steelspark|
 A Shaw's Shank Redemption|QID|55089|M|52.13,39.26|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55185|
 R Screaming Pit|ACTIVE|55089|M|44.60,38.20;46.58,35.40;48.48,33.17|CS|Z|Stormsong Valley|N|Run along the ridge to get to the pit ABOVE Warsong Hold.|
-K Giles Deathstrike|QID|55089|QO|2|M|47.66,33.82|Z|Stormsong Valley|NC|N|Kill Giles|
+K Giles Deathstrike|ACTIVE|55089|QO|2|M|47.66,33.82|Z|Stormsong Valley|NC|N|Kill Giles|
 T Shaw's Shank Redemption|QID|55089|M|48.84,32.75|Z|Stormsong Valley|N|To Master Mathias Shaw|
 A A Gathering of Foes|QID|55090|M|48.84,32.75|Z|Stormsong Valley|N|From Master Mathias Shaw|PRE|55089|
 C Horde gathering witnessed|QID|55090|M|48.85,32.70|Z|Stormsong Valley|NC|N|Use the telescope next to Shaw|

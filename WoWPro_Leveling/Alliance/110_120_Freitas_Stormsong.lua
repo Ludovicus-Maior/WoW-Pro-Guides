@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2020-05-01 20:50
+-- Who: Ludovicus_Maior
+-- Log: Fixed two K steps missing ACTIVE tags.
+
+-- URL: http://wow-pro.com/node/3767/revisions/30486/view
 -- Date: 2020-04-05 22:39
 -- Who: Ludovicus_Maior
 -- Log: Missing quotes
@@ -254,11 +259,6 @@
 -- Who: Lemmer
 -- Log: Final playthrough on live including substantial edits to final 1/3 of guide.  Added hidden beta quests at end. Many optimizations.
 
--- URL: http://wow-pro.com/node/3767/revisions/29508/view
--- Date: 2018-08-13 22:29
--- Who: Lemmer
--- Log: Playtesting through middle 1/3rd of guide and bug fixes (up to step 405).
-
 local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong Valley', 'MateusFreitas', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 111)
 WoWPro:GuideAutoSwitch(guide)
@@ -501,7 +501,7 @@ T Detective Mildenhall|QID|50070|M|70.79,69.61|N|To Ancel Mildenhall.|
 T Cleanup Duty|QID|50359|M|70.79,69.61|N|To Ancel Mildenhall.|
 A Don't Go in the Basement|QID|50064|M|70.79,69.61|N|From Ancel Mildenhall.|RANK|2|PRE|50070&50359|
 C Don't Go in the Basement|QID|50064|QO|1|M|70.75,69.15;70.81,69.08|CS|NC|N|Go down in the basement and click on the barrel.|
-K The Brue|QID|50064|M|70.79,69.61|QO|2|T|The Brue|N|Kill the Brue.|
+K The Brue|ACTIVE|50064|M|70.79,69.61|QO|2|T|The Brue|N|Kill the Brue.|
 T Don't Go in the Basement|QID|50064|M|71.04,69.25|N|To Ancel Mildenhall.|
 A Recovering Raimond|QID|50161|M|71.04,69.25|N|From Ancel Mildenhall.|RANK|2|PRE|50064|
 C Recovering Raimond|QID|50161|M|71.63,67.99|QO|1|NC|N|Back outside. Pick up the other boot.|
@@ -512,7 +512,7 @@ T Recovering Raimond|QID|50161|M|74.12,72.72|N|To Raimond Mildenhall in the cave
 A Royal Succession|QID|50168|M|74.12,72.72|N|From Raimond Mildenhall.|RANK|2|PRE|50161|
 A Sticky Situation|QID|50162|M|74.12,72.72|N|From Raimond Mildenhall.|RANK|2|PRE|50161|
 C Sticky Situation|QID|50162|M|73.29,72.30|S|N|Click on the hives and kill bees on your way.|
-K Hive Mother|QID|50168|QO|1|M|74.77,71.43|T|Hive Mother|N|Kill the Queen inside the cave.|
+K Hive Mother|ACTIVE|50168|QO|1|M|74.77,71.43|T|Hive Mother|N|Kill the Queen inside the cave.|
 C Sticky Situation|QID|50162|M|73.16,70.23|US|N|Finish up with the hives and bees.|
 T Royal Succession|QID|50168|M|74.12,72.72|N|To Raimond Mildenhall.|
 T Sticky Situation|QID|50162|M|74.12,72.72|N|To Raimond Mildenhall.|

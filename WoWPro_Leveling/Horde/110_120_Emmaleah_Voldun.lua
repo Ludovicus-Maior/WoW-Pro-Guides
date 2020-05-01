@@ -62,7 +62,7 @@
 -- URL: http://wow-pro.com/node/3772/revisions/29743/view
 -- Date: 2018-09-13 06:40
 -- Who: Emmaleah
--- Log: $
+-- Log: Update for new functionality with RARE & $
 
 -- URL: http://wow-pro.com/node/3772/revisions/29681/view
 -- Date: 2018-09-05 11:08
