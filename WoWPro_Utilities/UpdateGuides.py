@@ -15,6 +15,7 @@
 #
 #   Questions:   Ask Ludovicus aka <LuisOrtiz@Verizon.NET>
 
+from __future__ import print_function
 from HTMLParser import HTMLParser
 import glob
 import logging
@@ -41,16 +42,16 @@ if os.name == 'nt':
     elif os.access("D:\\World of Warcraft",os.F_OK):
         DEFAULT_ROOT="D:\\World of Warcraft\\Interface\\Addons"
     else:
-        print "! Warning, no default install of World of Warcraft detected, better use --root"
+        print("! Warning, no default install of World of Warcraft detected, better use --root")
         DEFAULT_ROOT="C:\temp"
 elif os.name == 'posix':
     if os.access("/Applications/World of Warcraft",os.F_OK):
         DEFAULT_ROOT="/Applications/World of Warcraft/Interface/Addons"
     else:
-        print "! Warning, no default install of World of Warcraft detected, better use --root"
+        print("! Warning, no default install of World of Warcraft detected, better use --root")
         DEFAULT_ROOT="/tmp"
 else:
-    print "! Warning, no default install of World of Warcraft detected, better use --root"
+    print("! Warning, no default install of World of Warcraft detected, better use --root")
     DEFAULT_ROOT="."
     
 
@@ -187,7 +188,7 @@ class FindSource(HTMLParser):
                 self._sawBrackets = False
                 logging.info("Found Guide %s inside %s" % (self._guideID, self._page))
                 self._guideIDs.append(self._guideID)
-                if Guide2Web.has_key(self._guideID):
+                if self._guideID in Guide2Web:
                     logging.warning( "Web page %s and %s both reference %s" % (Guide2Web[self._guideID], self._page , self._guideID))
                     GuideDuplicates.append(self._guideID)
                 Guide2Web[self._guideID] = self._page
@@ -262,7 +263,7 @@ class FindRevisions(HTMLParser):
 
     def dprint(self,*args):
 	    if self._Test:
-		print args
+		print(args)
 
     def handle_starttag(self, tag, attrs):
         if tag == "table":
@@ -402,7 +403,7 @@ def ScrapeWoWProLua(lua):
             mo = re.search("""WoWPro:RegisterGuide\s*\(\s*["']([^"']+)["']""",line)
         if mo:
             _guideID = mo.group(1)
-            if Guide2File.has_key(_guideID):
+            if _guideID in Guide2File:
                 logging.error("Duplicate guide ID discovered in %s and %s for %s " % (Guide2File[_guideID], lua, _guideID))
                 GuideDups.append(_guideID)
             Guide2File[_guideID] = lua
@@ -427,7 +428,7 @@ def CrossCheck():
     _guides = Guide2File.keys()
     _guides.sort()
     for guide in _guides:
-        if not Guides.has_key(guide):
+        if guide not in Guides:
             logging.warning("Guide %s is inside file %s but is not in the web site" % ( guide, Guide2File[guide]))
             foundError = foundError + 1
         else:
@@ -435,7 +436,7 @@ def CrossCheck():
     _guides = Guides.keys()
     _guides.sort()
     for guide in _guides:
-        if not Guide2File.has_key(guide):
+        if guide not in Guide2File:
             logging.warning("Guide %s in on the web in %s, but is not on the local disk" % ( guide, Guide2Web[guide]))
             foundError = foundError + 1
         else:     
@@ -461,22 +462,22 @@ def UpdateGuideFile(guide):
     if not isinstance(eol,basestring):
 	eol = '\n'
 
-    print >> file , ""
-    print >> file , "-- WoWPro Guides by \"The WoW-Pro Community\" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License."
-    print >> file , "-- Based on a work at github.com."
-    print >> file , "-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License."
-    print >> file , ""
+    print("", file=file)
+    print("-- WoWPro Guides by \"The WoW-Pro Community\" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.", file=file)
+    print("-- Based on a work at github.com.", file=file)
+    print("-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.", file=file)
+    print("", file=file)
 
 
     for logEntry in Web2Log[Guide2Web[guide]]:
-	print >> file , "-- URL: %s" % ("http://wow-pro.com"+logEntry['URL'])
-	print >> file , "-- Date: %s" % logEntry['Date'] 
-	print >> file , "-- Who: %s" % logEntry['Who'] 
+	print("-- URL: %s" % ("http://wow-pro.com"+logEntry['URL']), file=file)
+	print("-- Date: %s" % logEntry['Date'], file=file)
+	print("-- Who: %s" % logEntry['Who'], file=file)
 	if logEntry['Log'] != "":
 	     entry = "\n--".join(["\t"+line.rstrip() if len(line.strip())>0 else "" for line in logEntry['Log'].splitlines()])
 	     entry = entry.lstrip()
-	     print >> file , "-- Log: %s" % entry
-	print >> file , "" 
+	     print("-- Log: %s" % entry, file=file)
+	print("", file=file)
     for line in Guides[guide]:
         file.write(line + eol)
     file.close()
