@@ -263,7 +263,7 @@ class FindRevisions(HTMLParser):
 
     def dprint(self,*args):
         if self._Test:
-        print(args)
+            print(args)
 
     def handle_starttag(self, tag, attrs):
         if tag == "table":
