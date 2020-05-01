@@ -440,6 +440,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     WoWPro.action[i] = primo:sub(1, 1)
     WoWPro.step[i] = primo:sub(3)
     WoWPro.step[i] = WoWPro.step[i]:trim()
+    WoWPro.step[i] = WoWPro.step[i]:gsub("\\n","\n")
 
     -- Now make sure it is a valid action!
     if not WoWPro.actionlabels[WoWPro.action[i]] then
