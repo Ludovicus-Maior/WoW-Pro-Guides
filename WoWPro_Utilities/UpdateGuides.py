@@ -16,7 +16,7 @@
 #   Questions:   Ask Ludovicus aka <LuisOrtiz@Verizon.NET>
 
 from __future__ import print_function
-from HTMLParser import HTMLParser
+from html.parser import HTMLParser
 import glob
 import logging
 import optparse
@@ -24,9 +24,8 @@ import os.path
 import os
 import re
 import string
-import urlparse
-import urllib
-
+import urllib.parse as urlparse
+import urllib.request as urllib
 from retry import retry
 
 
@@ -119,10 +118,10 @@ class FindGuides(HTMLParser):
 
     def GuidesList(self):
 #        print "## Reading URL"
-        self._lump = self._rootHandle.read()
+        self._lump = self._rootHandle.read().decode('utf-8')
         while( self._lump != ""):
             self.feed(self._lump)
-            self._lump = self._rootHandle.read()
+            self._lump = self._rootHandle.read().decode('utf-8')
         logging.info("URL yielded %d items" % len(self._list))
         logging.debug(", ".join(self._list))
         return self._list
@@ -177,7 +176,7 @@ class FindSource(HTMLParser):
 
     def handle_data(self,data):
         if self._Done: return
-        data = string.strip(data)
+        data = data.strip()
         if not self._inGuide :
             mo = re.search("""WoWPro.[A-Z][A-Za-z]+:RegisterGuide\s*\(\s*["']([^"']+)["']""",data)
             if not mo:
@@ -224,10 +223,10 @@ class FindSource(HTMLParser):
 
     def ReadGuide(self):
 #        print "## Reading URL"
-        self._lump = self._rootHandle.read()
+        self._lump = self._rootHandle.read().decode('utf-8')
         while( self._lump != ""):
             self.feed(self._lump)
-            self._lump = self._rootHandle.read()
+            self._lump = self._rootHandle.read().decode('utf-8')
         return self._guideIDs
 
 Web2Log = {}
@@ -352,10 +351,10 @@ class FindRevisions(HTMLParser):
  
     def ReadGuide(self):
 #        print "## Reading URL"
-        self._lump = self._rootHandle.read()
+        self._lump = self._rootHandle.read().decode('utf-8')
         while( self._lump != ""): 
             self.feed(self._lump)
-            self._lump = self._rootHandle.read()
+            self._lump = self._rootHandle.read().decode('utf-8')
         Web2Log[self._Page] = self._WebLog
         return self._WebLog
         
@@ -425,7 +424,7 @@ def ScrapeWoWProLeveling(RootDir):
 ValidGuides={}
 def CrossCheck():
     foundError = 0
-    _guides = Guide2File.keys()
+    _guides = list(Guide2File.keys())
     _guides.sort()
     for guide in _guides:
         if guide not in Guides:
@@ -433,7 +432,7 @@ def CrossCheck():
             foundError = foundError + 1
         else:
             ValidGuides[guide] = 1
-    _guides = Guides.keys()
+    _guides = list(Guides.keys())
     _guides.sort()
     for guide in _guides:
         if guide not in Guide2File:
@@ -457,10 +456,10 @@ def CrossCheck():
 
 def UpdateGuideFile(guide):
     logging.info("Updating guide %s in File %s from %s" % (guide, Guide2File[guide], Guide2Web[guide]))
-    file=open(Guide2File[guide],"wb")
     eol = GuideEOL[guide]
-    if not isinstance(eol,basestring):
+    if not isinstance(eol,str):
         eol = '\n'
+    file=open(Guide2File[guide],"wt", newline=eol)
 
     print("", file=file)
     print("-- WoWPro Guides by \"The WoW-Pro Community\" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.", file=file)
@@ -484,7 +483,7 @@ def UpdateGuideFile(guide):
 
     
 def UpdateFiles():
-    _guides = ValidGuides.keys()
+    _guides = list(ValidGuides.keys())
     _guides.sort()
     for guide in _guides:
         if ValidGuides[guide] == 2:
