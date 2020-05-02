@@ -86,33 +86,53 @@ T It's Never Easy|QID|56536|M|59.82,39.05|Z|Kun-Lai Summit|N|To Magni Bronzebear
 A The Mysterious Sigil|QID|56537|M|59.62,39.18|Z|Kun-Lai Summit|N|From Mogu Warrior.|PRE|56536|
 T The Mysterious Sigil|QID|56537|M|83.80,27.15|Z|1530|N|To Lorewalker Cho, above Mogu'Shan Palace in Vale of Eternal Blossoms.|
 A Clans of the Mogu|QID|56538|M|83.80,27.15|Z|1530|N|From Lorewalker Cho.|PRE|56537|
-C Clans of the Mogu|QID|56538|M|83.73,27.97|Z|1530|NC|QO|1|N|The Serpent Masters read.|
-C Clans of the Mogu|QID|56538|M|83.13,26.95|Z|1530|NC|QO|2|N|Power Through Blood read.|
-C Clans of the Mogu|QID|56538|M|83.27,28.43|Z|1530|NC|QO|3|N|Will of Stone read.|
-C Clans of the Mogu|QID|56538|M|84.26,29.15|Z|1530|NC|QO|4|N|Origins of the Mogu read.|
+C Clans of the Mogu|QID|56538|M|83.69,27.97|Z|1530|QO|1|NC|N|Read "The Serpent Masters" on the table.|
+C Clans of the Mogu|QID|56538|M|83.10,26.96|Z|1530|QO|2|N|Read "Power through Blood" lying on the bookcase.|
+C Clans of the Mogu|QID|56538|M|83.27,28.44|Z|1530|QO|3|NC|N|Read "Will of Stone" lying on the floor against a trunk.|
+C Clans of the Mogu|QID|56538|M|84.27,29.14|Z|1530|QO|4|NC|N|Read "Origins of the Mogu" displayed on a wall shelf.|
 T Clans of the Mogu|QID|56538|M|83.80,27.17|Z|1530|N|To Lorewalker Cho.|
 A Finding the Rajani|QID|56539|M|83.80,27.17|Z|1530|N|From Lorewalker Cho.|PRE|56538|
 C Finding the Rajani|QID|56539|M|34.03,37.39|Z|1530|QO|1|N|Kill Mogu for the Scouting Report|
 T Finding the Rajani|QID|56539|M|83.79,27.17|Z|1530|N|To Lorewalker Cho.|
 A Time-Lost Warriors|QID|56771|M|83.10,27.30|Z|1530|N|From Magni Bronzebeard.|PRE|56539|
+f Mistfall Village|QID|56771|M|38.91,72.75|Z|1530|N|At Ryuxi.|
 C Time-Lost Warriors|QID|56771|M|39.39,75.12|Z|1530|NC|QO|1|N|Find the Rajani, near Mistfall Village.|
-C Time-Lost Warriors|QID|56771|M|44.53,74.46|Z|1530|CHAT|QO|2|N|Chat with Stormspeaker Tian to follow him in instance.|
+C Time-Lost Warriors|QID|56771|M|44.53,74.46|Z|1530|CHAT|QO|2|N|Chat with Stormspeaker Qian to follow him in instance.|
 C Time-Lost Warriors|QID|56771|M|45.32,74.34|Z|1530|CHAT|QO|3|N|Speak with Ra-Den.|
 T Time-Lost Warriors|QID|56771|M|44.74,73.90|Z|1530|N|To Stormspeaker Qian.|
 A Proof of Tenacity|QID|56540|M|44.74,73.90|Z|1530|N|From Stormspeaker Qian.|
-C Proof of Tenacity|QID|56540|M|44.09,13.75|Z|1530|N|Complete a Swarm Assault.|
+C Proof of Tenacity|QID|56540|M|44.09,13.75|S!US|Z|1530|N|Complete a Swarm Assault. You should also pick up whatever dailies are available.||
+C Blades of Amber|QID|58760|M|18.72,66.53|S!US|Z|1530|N|Kill Vil'thik Mantid to collect the Amber Blades.|
+C Halting Production|QID|58763|M|18.72,66.53|S!US|Z|1530|NC|N|Click to destroy the yellow globe-like groundspawn 'Amber Vessel'.|
+C Rampaging Destroyers|QID|58758|M|18.72,66.53|S!US|Z|1530|N|Kill Kunchong Destroyers, you probably want help.|
+C The Strongest Among Them|QID|58423|M|51.86,41.36|S!US|Z|1530|N|Kill Rare N'Zoth minions.|;daily
+C Corruption Manifest|QID|58465|M|85.05,39.15|S!US|Z|1530|N|Kill Putrid Ichor.|;daily
+C Torment From Beyond|QID|58466|M|42.54,68.34|S!US|Z|1530|N|Release Ancient Pandaren Spirits|;daily
+C Tomes of Ancient Madness|QID|58461|M|76.92,49.92|S!US|Z|1530|N|Tome of Ancient Madness are dropped by Drowned Zeolots and Tidal Corruptors.|
+C Proof of Tenacity|QID|56540|ACTIVE|56064|M|12.36,72.40|Z|1530|QO|1|N|Entrance to underground vault where Vil'raxx can be found... and killed.|
+C Proof of Tenacity|QID|56540|ACTIVE|57728|M|13.48,55.77|Z|1530|QO|1|N|Kri'vin can be found in front of the Gate of the Setting Sun.|
+T Assault: The Endless Swarm|QID|57728|M|37.22,79.26|Z|1530|N|To Taoshi.|
+T Halting Production|QID|58763|M|37.22,79.26|Z|1530|N|To Taoshi.|
+T Rampaging Destroyers|QID|58758|M|38.44,74.99|Z|1530|N|To Anji Autumnlight.|
+T Blades of Amber|QID|58760|M|43.91,71.75|Z|1530|N|To Forgemaster Han.|
+T The Strongest Among Them|QID|58423|M|44.69,73.97|Z|1530|N|To Stormspeaker Qian.|
 T Proof of Tenacity|QID|56540|M|45.32,74.34|Z|1530|N|To Ra-Den.|
+T Torment From Beyond|QID|58466|M|66.38,40.71|Z|1530|N|To Taran Zhu.|
+T Corruption Manifest|QID|58465|M|66.38,40.71|Z|1530|N|To Taran Zhu.|
+T Assault: The Black Empire|QID|56064|M|83.81,27.19|Z|1530|N|To Lorewalker Cho.|
+T Tomes of Ancient Madness|QID|58461|M|83.81,27.19|Z|1530|N|To Lorewalker Cho.|
 
 ; Thanks Sipder2 @ WhowHead! zone name is incomplete and needs a run-through.
 A The Engine of Nalak'sha|QID|56541|M|45.14,74.43|Z|1530|N|From Ra-Den|PRE|56540|
 R Mogu'shan Palace|ACTIVE|56541|M|80.83,30.76|Z|1530|N|Go to the Mogu'shan Palace to start the instance. It will take about 20 minutes.|
 C A Way Down|ACTIVE|56541|SO|1|M|40.51,59.30|Z|The Crimson Assembly Hall@Mogu'Shan Palace!Dungeon|N|Kill 4 Animated Guardians to open the first door and four more to open the second door.\nJump over rows of runed tiles to avoid traps.|
 C Watch Your Step|ACTIVE|56541|SO|2|M|40.30,70.80|Z|The Crimson Assembly Hall@Mogu'Shan Palace!Dungeon|N|Make your way to the Ancient Lever. The runes form a maze. When you step on one, the next step will be one without a visual effect. You may have to backtrack.|
-C A Weighty Problem|ACTIVE|56541|SO|3|M|20.50,44.39|Z|Vaults of Kings Past@Mogu'Shan Palace!Dungeon|N|Take the stairwell down, killing as you go.\nWhen you reach a glowing Mogu statue, you need to move it to the empty concrete block on the floor and then the door will open.|
+C A Weighty Problem|ACTIVE|56541|SO|3|M|48.71,74.88|Z|Vaults of Kings Past@Mogu'Shan Palace!Dungeon|N|Take the stairwell down, killing as you go.\nWhen you reach a glowing Mogu statue, you need to move it to the empty concrete block on the floor and then the door will open.|
 C The Long Walk|ACTIVE|56541|SO|4|M|44.65,46.81|Z|The Repository@Mogu'Shan Vaults!Dungeon|N|Go upstairs and enter the secret door to kill Depthcaller Xith'el.|
 C Madness Manifest|ACTIVE|56541|SO|5|M|42.54,52.53|Z|The Repository@Mogu'Shan Vaults!Dungeon|N|Destroy the manifestations of N'Zoth until the progress bar reaches 100%.|
 C The Hall of the Shapers|ACTIVE|56541|SO|6|M|33.30,50.93|Z|Forge of the Endless@Mogu'Shan Vaults!Dungeon|N|Go down the now unlocked stairs and follow the corridor until you reach the Swarmguard Kzaz, your next target.|
 C The Final Summoning|ACTIVE|56541|SO|7|M|27.88,51.52|Z|Forge of the Endless@Mogu'Shan Vaults!Dungeon|N|Defeat Yox'ith. Killing the tentacles around can help.|
+C Reviving the Engine|ACTIVE|56541|SO|8|M|27.04,51.46|Z|Forge of the Endless@Mogu'Shan Vaults!Dungeon|N|Click on the console to link the Engine of Nalak'sha to the Chamber of Heart.|
 P Vale of Eternal Blossoms|ACTIVE|56541|M|14.52,51.34|Z|Forge of the Endless@Mogu'Shan Vaults!Dungeon|N|Take the portal to the start of the instance and then exit.|
 T The Engine of Nalak'sha|QID|56541|M|45.14,74.43|Z|1530|N|To Ra-Den|
 A Restored Hope|QID|56542|M|45.14,74.43|Z|1530|N|From Ra-Den|PRE|56541|
@@ -122,18 +142,18 @@ A Magni's Findings|QID|58737|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|N|From
 C Findings|QID|58737|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|CHAT|N|Ask Magni what he found out.|
 T Magni's Findings|QID|58737|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A Power Protocol Initiation|QID|57220|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|58737|
-C Chamber of Heart Relay|QID|57220|QO|1|M|56.90,64.74|Z|Chamber of Heart!Dungeon1473|N|Click to activate the Chamber of Heart Relay|
-C Engine of Nalak'sha Relay|QID|57220|QO|2|M|50.12,74.75|Z|Chamber of Heart!Dungeon1473|N|Click to activate the Engine of Nalak'sha Relay|
-C Origination Relay|QID|57220|QO|3|M|43.35,64.74|Z|Chamber of Heart!Dungeon1473|N|Click to activate the Origination Relay|
-C Power Up|QID|57220|QO|4|M|48.45,71.30|Z|Chamber of Heart!Dungeon1473|N|Ask MOTHER to power it up!|
+C Chamber of Heart Relay|QID|57220|QO|1|M|56.90,64.74|Z|Chamber of Heart!Dungeon1473|NC|N|Click to activate the Chamber of Heart Relay|
+C Engine of Nalak'sha Relay|QID|57220|QO|2|M|50.12,74.75|Z|Chamber of Heart!Dungeon1473|NC|N|Click to activate the Engine of Nalak'sha Relay|
+C Origination Relay|QID|57220|QO|3|M|43.35,64.74|Z|Chamber of Heart!Dungeon1473|NC|N|Click to activate the Origination Relay|
+C Power Up|QID|57220|QO|4|M|48.45,71.30|Z|Chamber of Heart!Dungeon1473|CHAT|N|Ask MOTHER to power it up!|
 T Power Protocol Initiation|QID|57220|M|49.95,59.75|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 A Re-Origination|QID|57221|M|49.95,59.75|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|57220|
 R Halls of Origination|ACTIVE|57221|M|71.92,52.16|Z|Uldum|N|Leave the Chamber of Heart and meet Magni at the Halls of Origination, southeast of Ramkahn.|
-T Re-Origination|QID|57221|M|68.98,52.74|Z|Uldum|N|To Magni Bronzebeard, right at the instance entrance.|
+T Re-Origination|QID|57221|M|71.61,52.19;68.98,52.74|CS|Z|Uldum|N|To Magni Bronzebeard, right at the instance entrance.|
 A Investigating the Halls|QID|57222|M|68.98,52.74|Z|Uldum|N|From Magni Bronzebeard.|
-C Entry Halls|QID|57222|QO|1|M|48.25,87.62|Z|The Vault of Lights@Halls of Origination!Dungeon1540|N|Enter the dungeon and make your way to the door till Magni finishes investigating.|
-C The Anomaly|QID|57222|QO|2|M|38.94,49.46|Z|Tomb of the Earthrager@Halls of Origination!Dungeon1541|N|Up the stairs and across the sands, investigate the purple glowing thingy (click on it).|
-C Calm the Whispers|QID|57222|M|PLAYER|QO|3|T|Endless Suffering|N|Find your lost mind and click on it to calm the whispers.|
+C Entry Halls|QID|57222|QO|1|M|48.25,87.62|Z|The Vault of Lights@Halls of Origination!Dungeon1540|NC|N|Enter the dungeon and make your way to the door till Magni finishes investigating.|
+C The Anomaly|QID|57222|QO|2|M|38.94,49.46|Z|Tomb of the Earthrager@Halls of Origination!Dungeon1541|NC|N|Up the stairs and across the sands, investigate the purple glowing thingy (click on it).|
+C Calm the Whispers|QID|57222|M|PLAYER|QO|3|T|Endless Suffering|NC|N|Find your lost mind and click on it to calm the whispers.|
 T Investigating the Halls|QID|57222|M|46.55,63.58|Z|Chamber of Heart!Dungeon1473|N|To Wrathion|
 ;  Legendary Cloak
 A Beginning the Descent|QID|57290|M|46.55,63.58|Z|Chamber of Heart!Dungeon1473|N|From Wrathion. This will be another 15 minute scenario.|PRE|57222|
@@ -142,30 +162,31 @@ C Forced Entry|ACTIVE|57290|SO|1|M|46.92,42.92|Z|The Broken Hall@Blackwing Desce
 C Something must be done|ACTIVE|57290|SO|2|M|47.88,84.09|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|CHAT|N|Speak with Wrathion.|
 K Extractor Thelsara|ACTIVE|57290|SO|3;1|M|71.46,69.77|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Work your way torward the right and then kill Thelsara.|
 K Spawn of Shad'har|ACTIVE|57290|SO|3;2|M|22.95,70.03|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Now work your way across and kill the Spawn.|
-C Curious Magic|ACTIVE|57290|SO|4|M|47.60,47.16|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Meet up with Wrathion.|
+C Curious Magic|ACTIVE|57290|SO|4|M|47.60,47.16|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|NC|N|Meet up with Wrathion.|
 C Defend|ACTIVE|57290|SO|5|M|47.39,50.60|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Defend Wrathion while he brings down the barrier.|
 C The Athenaeum|ACTIVE|57290|SO|6|M|47.09,33.73|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Let's go investigate!|
 K Velnaria|ACTIVE|57290|SO|7;1|M|44.35,30.91|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Kill the handler and then the dragon!|
 K Dreliana|ACTIVE|57290|SO|7;2|M|50.49,30.07|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Kill the handler and then the dragon!|
 C Free from Darkness|ACTIVE|57290|SO|8|M|48.05,50.78|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Go back out to main vault and kill the Darkwhisper Ritualists with the beams on Wrathion.|T|Darkwhisper|
 C Ritual of Flame|ACTIVE|57290|SO|9|M|47.40,78.44|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|CHAT|N|Ask Wrathion to start.|
-C Scales of Corruption|ACTIVE|57290|SO|10|M|48.28,69.14|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Jump down. Click on the Dragon Remains to destroy them. Then pick up the dragonscale.|
-P Chamber of Heart|ACTIVE|57290|N|Now make your way back to the Chamber.|
+C Scales of Corruption|ACTIVE|57290|SO|10|M|48.28,69.14|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|NC|N|Jump down. Click on the Dragon Remains to destroy them.|
+C Corrupt Black Dragonscales|ACTIVE|57290|SO|11|M|48.28,69.14|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|NC|N|Pick up the Dragonscale.|
+P Chamber of Heart|ACTIVE|57290|M|48.2,66.11|Z|Vault of the Shadowflame@Blackwing Descent!Dungeon1539|N|Wait a second for a ride to Silithus, Hop on the dragon and then make your way back to the Chamber.|
 T Beginning the Descent|QID|57290|M|46.07,63.65|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|
 
 ; Visions of N'zoth Introduction Questline
 A Deeper Into the Darkness|QID|57362|M|46.07,63.65|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|PRE|57290|
 C MOTHER|QID|57362|QO|1|M|48.15,71.83|Z|Chamber of Heart!Dungeon1473|CHAT|N|Ask MOTHER to send you to the Halls of Origination for a 5 minute scenario.\nNOTE: You gotta have the new cloak on!|
-C Into the Vision|ACTIVE|57362|SO|1|M|38.94,49.46|Z|Tomb of the Earthrager@Halls of Origination!Dungeon1541|N|Up the stairs and across the sands, to the purple glowing thingy.|
+C Into the Vision|ACTIVE|57362|SO|1|M|38.94,49.46|Z|Tomb of the Earthrager@Halls of Origination!Dungeon1541|NC|N|Up the stairs and across the sands, to the purple glowing thingy.|
 C Descent into Madness|ACTIVE|57362|SO|2|M|87.90,49.77|Z|The Vault of Lights@Halls of Origination!Dungeon1540|N|Make your way across the plaza and to the downward ramp and click on the barrier to open.|
 C Dark Manefestations|ACTIVE|57362|SO|3|M|67.50,49.73|Z|The Vault of Lights@Halls of Origination!Dungeon1540|N|Make your way down to the Terror Tendril and kill it.|
 C Final Ascent|ACTIVE|57362|SO|4|M|66.49,47.82|Z|The Vault of Lights@Halls of Origination!Dungeon1540|NC|N|Click on the Titan Elevator control and select the third floor.\nBe prepared to fight. Your next foe is near the elevator controls.|
 K Ysedra the Darkener|ACTIVE|57362|SO|5|M|45.82,46.68|Z|The Vault of Lights@Halls of Origination!Dungeon1540|N|Kill Ysedra.|
-P Chamber of Heart|ACTIVE|57290|M|47.08,53.35|Z|The Vault of Lights@Halls of Origination!Dungeon1540|N|Take the teleporter back to the Chamber of Heart.|
+P Chamber of Heart|ACTIVE|57362|M|47.14,53.13|Z|The Vault of Lights@Halls of Origination!Dungeon1540|N|Take the teleporter back to the Chamber of Heart.|
 T Deeper Into the Darkness|QID|57362|M|46.10,63.58|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
 
 A Descending Into Madness|QID|57373|M|46.07,63.65|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|PRE|57362|
-C Vision of N'Zoth|QID|57373|QO|1|N|Pop open your quest log and see where if Vale of Eternal Blossoms or Uldum is your destination. The quest objective circle indicates where the gateway is.  Go exploring, but get out befoe you go insane!|
+C Vision of N'Zoth|QID|57373|NC|N|Pop open your quest log and see where if Vale of Eternal Blossoms or Uldum is your destination. The quest objective circle indicates where the gateway is.  Go exploring, but get out befoe you go insane!|
 T Descending Into Madness|QID|57373|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
 
 A Opening the Gateway|QID|58634|M|46.10,63.58|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|PRE|57373|
@@ -173,8 +194,9 @@ C MOTHER|QID|58634|QO|1|M|48.15,71.83|Z|Chamber of Heart!Dungeon1473|CHAT|N|Ask 
 C Activated|QID|58634|QO|2|M|50.15,72.54|Z|Chamber of Heart!Dungeon1473|NC|N|Click on the Gateway to activate it.|
 T Opening the Gateway|QID|58634|M|46.07,63.65|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
 
-A Into the Darkest Depths|QID|57374|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion. This quest may bug out if you buy a "Vessel Horrific Vision", so don't.|PRE|58634|
-C Horrific Vision of ?|QID|57374|QO|2|M|50.15,72.54|Z|Chamber of Heart!Dungeon1473|N|Click on the Gateway to queue for the solo scenario.\nOnce you are in, talk to the Image of Wrathion, to enter.\nYou can explore and kill the disciple indicated on your map or just leave the instance.|
+A Into the Darkest Depths|QID|57374|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|PRE|58634|
+B Vessel of Horrific Visions|QID|57374|QO|1|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|
+C Horrific Vision of ?|QID|57374|QO|2|NC||M|50.15,72.54|Z|Chamber of Heart!Dungeon1473|N|Click on the Gateway to queue for the solo scenario.\nOnce you are in, talk to the Image of Wrathion, to enter.\nYou can explore and kill the disciple indicated on your map or just leave the instance.|
 T Into the Darkest Depths|QID|57374|M|45.98,63.35|Z|1604|N|To Wrathion.|
 
 A Whispers in the Dark|QID|58615|M|50.15,57.54|Z|1604|N|From Magni Bronzebeard.|PRE|57374|
@@ -187,15 +209,14 @@ C MOTHER|QID|58631|QO|1|M|48.15,71.83|Z|Chamber of Heart!Dungeon1473|CHAT|N|Ask 
 T Into Dreams|QID|58631|M|50.10,59.23|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 
 A Accessing the Archives|QID|57524|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion.|PRE|58631|
-C Titranic Research Archive|QID|57524|QO|1|M|48.15,71.83|Z|Chamber of Heart!Dungeon1473|N|Ask mother to bring the database online.|
-C Titranic Research Archive|QID|57524|QO|2|M|46.38,70.44|Z|Chamber of Heart!Dungeon1473|N|Then click on the Archive to activate it.|
+C Titanic Research Archive|QID|57524|QO|1|M|48.15,71.83|Z|Chamber of Heart!Dungeon1473|N|Ask mother to bring the database online.|
+C Titanic Research Archive|QID|57524|QO|2|M|46.38,70.44|Z|Chamber of Heart!Dungeon1473|N|Then click on the Archive to activate it.|
 T Accessing the Archives|QID|57524|M|48.15,71.83|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
 
 A Remnants of a Shattered World|QID|57378|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion. You will need to enter a Horrific Vision and kill a boss.|PRE|57524|
-C Cusrse of Stone||QID|57378|QO|1|N|Just use your map and make your way to the skull. Kill and then collect your loot and exit the vision. PROFIT!|
-T Remnants of a Shattered World|QID|57378|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
+C Curse of Stone||QID|57378|QO|1|N|Just use your map and make your way to the skull. \nYou now have a reset button for your sanity, it can't be used in combat. Kill and then collect your loot and exit the vision. PROFIT! \nKilling the boss ends the scenario, killing more of the trash first, increases your corrupted currency rewards a bit.|T Remnants of a Shattered World|QID|57378|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
 
-A Ny'alotha, the Waking City: The Corruptor's End|QID|58632|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.\nDefeat N'zoth in the Ny'alotha raid instance.|
+A Ny'alotha, the Waking City:\nThe Corruptor's End|QID|58632|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.\nDefeat N'zoth in the Ny'alotha raid instance.|
 
 ]]
 end)
