@@ -1014,4 +1014,5 @@ function WoWPro.SetupGuideReal()
     WoWPro:AutoCompleteQuestUpdate(nil)
     WoWPro:UpdateGuide("WoWPro:LoadGuideSteps()")
     WoWPro:SendMessage("WoWPro_PostLoadGuide")
+    WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA_GUIDE_LOAD")
 end
