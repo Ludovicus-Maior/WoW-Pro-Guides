@@ -486,11 +486,11 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
         if WoWProDB.char.currentguide and WoWPro.Guides[WoWProDB.char.currentguide] then
             guidetype = WoWPro.Guides[WoWProDB.char.currentguide].guidetype
         end
-        WoWPro:dbp("%s: qidx=%s, guidetype=%s, currentguide=%s", event, qidx, guidetype, WoWProDB.char.currentguide)
+        WoWPro:dbp("%s: qidx=%s, guidetype=%s, currentguide=%s", event, tostring(qidx), tostring(guidetype), tostring(WoWProDB.char.currentguide))
         WoWPro:dbp("%s: WoWPro.zone[qidx]=%s, WoWPro:IsInstanceZone()=%s, WoWPro.sobjective=%s, IsInInstance()=%s",
                    event,  tostring(WoWPro.zone[qidx]), tostring(WoWPro:IsInstanceZone(WoWPro.zone[qidx])),
                    tostring(WoWPro.sobjective[qidx]), tostring(_G.IsInInstance()))
-        if WoWPro.zone[qidx] and (WoWPro:IsInstanceZone(WoWPro.zone[qidx]) or WoWPro.sobjective[qidx]) and _G.IsInInstance() then
+        if qidx and WoWPro.zone[qidx] and (WoWPro:IsInstanceZone(WoWPro.zone[qidx]) or WoWPro.sobjective[qidx]) and _G.IsInInstance() then
             WoWPro:Print("|cff33ff33 Suppressing Instance Auto Hide, turn it on after you are done with this guide.|r")
             WoWProCharDB.AutoHideWorldEventsInsideInstances = false
             return
