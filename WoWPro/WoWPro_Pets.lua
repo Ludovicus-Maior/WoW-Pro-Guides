@@ -445,11 +445,11 @@ function WoWPro.PetLoadAndPick(slot, name, id, pick, limits, pet1, pet2)
     _G.C_PetJournal.SetPetLoadOutInfo(slot, pet)
     WoWPro.SetPetAbilities(slot, abilities)
     if name == "Leveling" then
-        local _, customName, level = _G.C_PetJournal.GetPetInfoByPetID(pet)
-        WoWPro:Print("Selected level %d [%s] as your leveling pet.",level, customName or name)
+        local _, customName, level, _, _, _, _, lname = _G.C_PetJournal.GetPetInfoByPetID(pet)
+        WoWPro:Print("Selected level %d [%s] as your leveling pet.",level, customName or lname)
     else
-        local _, customName, level = _G.C_PetJournal.GetPetInfoByPetID(pet)
-        WoWPro:Print("Selected level %d [%s] as your battle pet.",level, customName or name)
+        local _, customName, level, _, _, _, _, lname = _G.C_PetJournal.GetPetInfoByPetID(pet)
+        WoWPro:Print("Selected level %d [%s] as your battle pet.",level, customName or lname)
     end
     return pet
 end
