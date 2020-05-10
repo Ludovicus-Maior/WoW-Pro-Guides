@@ -14,18 +14,19 @@ h Sun Rock Retreat|QID|1483|N|Set your hearthstone to Sun Rock Retreat.|
 R Windshear Crag|QID|1483|M|49.51,61.02;53.15,61.61;59.97,71.14|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
 T Ziz Fizziks|QID|1483|M|61.36,63.19;58.99,62.61|CC|QO|1|N|Follow the road into Windshear Crag. Ziz Fizziks is inside a hut in a SW alcove.|
 A Super Reaper 6000|QID|1093|M|58.99,62.61|N|From Ziz Fizziks.|
-l Super Reaper 6000|QID|1062|L|5734 1|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|S|
-C Goblin Invaders|QID|1062|QO|1|N|Kill Venture Co. Loggers. Deforesters and Operators do not count.|US|
-l Super Reaper 6000|QID|1062|PRE|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|US|
-T Super Reaper 6000|QID|1093|PRE|1093|M|59.79,71.43;67.69,86.82;66.24,89.37|CC|N|To Ziz Fizziks.|
-A Further Instructions|QID|1094|M|63.12,93.80;61,93|CC|N|From Ziz Fizziks.|PRE|1093|
-A Arachnophobia|QID|6284|M|59.08,75.72|ELITE|N|Head back to the signpost at the Windshear Crag entrance and follow the road south. From the Wanted Poster, located beside the road.\n[color=FF0000]NOTE: [/color]Strongly recommended only to accept this quest if you are over level or can find a PUG to do this. Bessaleth is a lv 21 Elite mob.|
+l Super Reaper 6000|QID|1093|L|5734 1|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|S|
+C Goblin Invaders|QID|1062|M|63.35,57.72|QO|1|N|Kill Venture Co. Loggers. Deforesters and Operators do not count.|US|
+l Super Reaper 6000|QID|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|US|
+T Super Reaper 6000|QID|1093|M|58.99,62.61|N|To Ziz Fizziks.|
+A Further Instructions|QID|1094|M|58.99,62.61|N|From Ziz Fizziks.|PRE|1093|
+A Arachnophobia|AVAILABLE|6284|M|59.79,71.43;59.08,75.72|CC|ELITE|N|Head back to the signpost at the Windshear Crag entrance and follow the road south. From the Wanted Poster, located beside the road.\n[color=FF0000]NOTE: [/color]Strongly recommended only to accept this quest if you are over level or can find a PUG to do this. Bessaleth is a lv 21 Elite mob.|
 K Bessaleth|ACTIVE|6284|T|Bessaleth|L|16192|N|Bessaleth is somewhere in here. She has multiple spawn points. Generally, you'll find her in one of the alcoves along the edge.|
-R Boulderslide Ravine|QID|6421|M|63.12,93.80;61.72,93.13|CC|N|Head back to the signpost at the Windshear Crag entrance and follow the road south.|
+R Boulderslide Ravine|QID|6421|ACTIVE|-6284|M|59.79,71.43;67.69,86.82;66.24,89.37|CC|N|Head back to the signpost at the Windshear Crag entrance and follow the road south.|
+R Boulderslide Ravine|QID|6421|ACTIVE|6284|M|67.69,86.82;66.24,89.37|CC|N|Head back to the road and follow it south.|
 C Boulderslide Ravine|QID|6421|QO|2|N|Collect Resonite Crystals.|NC|S|
 R Investigate Cave|QID|6421|M|58.95,90.12|N|Make your way to the water at the back of the cave to complete this step.|
-L Level 23|QID|6421|N|You should be around level 23 by this point.|
-C Boulderslide Ravine|QID|6421|QO|2|N|Finish collecting the Resonite Crystals.|US|
+;L Level 23|QID|6421|N|You should be around level 23 by this point.|
+C Boulderslide Ravine|QID|6421|QO|2|N|Finish collecting the Resonite Crystals.|NC|US|
 R Exit the Cave|QID|6421|M|61.72,93.13;67.76,86.64|CC|N|Exit the cave and make your way back to the road.|
 R Malaka'jin|QID|6421|M|71.82,91.70|CC|N|Follow the road south to Malaka'jin.|
 A Jin'Zil's Forest Magic|QID|1058|M|74.52,97.84|N|From Witch Doctor Jin'Zil.|
@@ -56,7 +57,18 @@ R Leave Orgrimmar|AVAILABLE|443|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar th
 b Tirisfal Glades|AVAILABLE|443|M|50.88,13.83|Z|Durotar|N|Take the Zeppelin to Tirisfal Glades.|
 R Undercity|AVAILABLE|443|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
 F The Sepulcher|AVAILABLE|443|M|63.27,48.55|Z|Undercity|N|Fly to The Sepulcher.|
-A Rot Hide Ichor|QID|443|M|43.17,41.38;43.41,40.87|Z|Silverpine Forest|CC|N|From High Executor Hadrec inside the crypt.|
+; --- Get and complete prequels if not done yet
+A The Dead Fields|QID|437|M|43.43,40.86|N|You'll find High Executor Hadrec down the stairs inside the crypt.|
+C The Dead Fields|QID|437|M|45,21|QO|1;2|N|Head SW to the Dead Fields. Nightlash might already be spawned, but if she isn't, kill all the Rot Hide Gnolls you see until she does.\n[color=FF0000]NOTE: [/color]You will want to clear the mobs as you go. They can overwhelm you quite easily.|
+R The Sepulcher|QID|437|M|46.30,41.55|Z|Silverpine Forest|N|Make your way back to The Sepulcher. Dealer's choice on how you wish to get there.|
+T The Dead Fields|QID|437|M|43.14,41.37;43.43,40.86|CS|N|To High Executor Hadrec inside the Crypt.|
+A The Decrepit Ferry|QID|438|M|43.43,40.86|N|From High Executor Hadrec.|PRE|437|
+R The Decrepit Ferry|ACTIVE|438|M|51.21,36.73;52.05,38.40;58.34,34.95|CC|N|Go to the Decrepit Ferry.\nBy sticking to the hillside around the edge, you can avoid some unnecessary fighting. The mobs in this area (Hand of Ravenclaw) can hit hard and they roam considerably.|
+T The Decrepit Ferry|QID|438|M|58.34,34.95|N|Click the Decrepit Ferry.|
+A Rot Hide Clues|QID|439|M|58.34,34.95|N|From the Decrepit Ferry.|PRE|438|
+T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.\nFollow the hillside just like you did to get here.|
+; ---
+A Rot Hide Ichor|QID|443|M|43.43,40.86|Z|Silverpine Forest|CC|N|From High Executor Hadrec inside the crypt.|PRE|439|
 R Fenris Isle|QID|443|M|52.34,37.21;58.75,35.43;64.79,34.60;65.63,32.89|Z|Silverpine Forest|CC|N|Sticking to the hills to avoid unnecessary fighting, make your way to the lake and swim across.|
 C Rot Hide Ichor|QID|443|QO|1|N|Kill Rot Hide Gnolls for the Ichor.|
 A Resting in Pieces|QID|460|U|3317|N|Click on the 'Talking Head' to start the quest.|O|
@@ -129,7 +141,7 @@ R Silverpine Forest|QID|1067|N|We are running back to The Sepulcher instead of f
 ; --- Silverpine Forest
 R The Sepulcher|QID|516|M|51.24,36.76;45.83,41.61|Z|Silverpine Forest|CC|N|Run back to The Sepulcher.|
 T Beren's Peril|QID|516|M|44.01,40.84|Z|Silverpine Forest|N|To Shadow Priest Allister.|
-L Level 24|QID|480|LVL|24|N|You should be around level 24 by this point.|
+;L Level 24|QID|480|LVL|24|N|You should be around level 24 by this point.|
 T The Weaver|QID|480|M|44.01,40.84|Z|Silverpine Forest|N|To Shadow Priest Allister.|
 
 ; --- Undercity
@@ -164,7 +176,7 @@ R Windshear Crag|QID|1483|M|49.51,61.02;53.15,61.61;59.97,71.14|CC|N|Head to the
 K XT:9|QID|1068|M|62.06,55.75|QO|2|N|Kill XT:9. It patrols the south side of the river.|S|
 C The Flying Machine Airport|QID|1086|QO|1|N|Place the Toxic Fogger here.|NC|
 C Gerenzo Wrenchwhistle|QID|1096|M|70.40,40.93;67.99,37.79;64.61,37.96;62.84,40.49|CC|QO|1|N|Make your way to the path leading up to the structure. Once you are there, work your way over to where Gerenzo is and kill him to loot his arm.|
-L Level 25|QID|509|LVL|25|N|You should be around level 25 by this point.|
+;L Level 25|QID|509|LVL|25|N|You should be around level 25 by this point.|
 R Shortcut down|QID|1096|N|Jump into the water and swim to shore.|
 K XT:4|QID|1068|QO|1|T|XT:4|N|Kill XT:4. It patrols the north side of the river.|US|
 T Gerenzo Wrenchwhistle|QID|1096|M|58.99,62.57|N|To Ziz Fizziks.|
@@ -198,7 +210,7 @@ R Mirkfallon Lake|QID|1087|N|Leave Sun Rock retreat and follow the road north to
 C Jin'Zil's Forest Magic|QID|1058|QO|3|N|Kill Coursers for their eyes.\nYou'll find them everywhere north of Mirkfallon Lake.|S|
 R Stonetalon Peak|QID|1087|M|44.31,17.78|N|Continue north out of Mirkfallon Lake until you reach Stonetalon Peak.|
 C Cenarius' Legacy|QID|1087|M|37.44,13.63|QO|1;2;3|N|Kill Sons of Cenarius, Daughters of Cenarius and Cenarion Botanists.\nYou'll find them in the woods on either side of the road.|
-L Level 26|QID|1087|LVL|26|N|You should be around level 26 by this point.|
+;L Level 26|QID|1087|LVL|26|N|You should be around level 26 by this point.|
 C Jin'Zil's Forest Magic|QID|1058|QO|1|N|Kill Sap Beasts to collect Stonetalon Sap.|S|
 C Jin'Zil's Forest Magic|QID|1058|QO|2|N|Kill Twilight Runners to collect Twilight Whiskers.|S|
 C Jin'Zil's Forest Magic|QID|1058|QO|4|N|Kill a Fey Dragon to collect a Fey Dragon Scale.|S|
@@ -252,7 +264,7 @@ R Tarren Mill|QID|496|M|61.35,20.04|Z|Hillsbrad Foothills|N|Head back to Tarren 
 T Elixir of Suffering|QID|496|M|61.44,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
 A Elixir of Suffering|QID|499|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|496|
 T Elixir of Suffering|QID|499|M|61.49,19.16|Z|Hillsbrad Foothills|N|To Umpi behind you.|
-L Level 27|QID|567|LVL|27|N|You should be around level 27 by this point.|
+;L Level 27|QID|567|LVL|27|N|You should be around level 27 by this point.|
 T Elixir of Pain|QID|501|M|61.44,19.07|Z|Hillsbrad Foothills|N|To Apothecary Lydon.|
 A Elixir of Pain|QID|502|M|61.44,19.07|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|PRE|501|
 T Battle of Hillsbrad|QID|528|M|62.28,20.28|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
@@ -359,7 +371,7 @@ C Moonwell|QID|1195|M|61.53,68.33;59.77,69.73;60.10,72.85|Z|Ashenvale|CC|QO|1|U|
 R Splintertree Post|QID|6503|M|71.16,69.13|Z|Ashenvale|N|How you get here is entirely up to you. You can either take the safe route and follow the road or take the shortcut and run straight through (aka grind your way there).|
 T Ashenvale Outrunners|QID|6503|M|71.12,68.15|Z|Ashenvale|N|To Kuray'bin.|
 T Torek's Assault|QID|6544|M|73.03,62.47|Z|Ashenvale|N|To Ertog Ragetusk.|
-L Level 29|QID|24|LVL|29|N|You should be around level 29 by this point.|
+;L Level 29|QID|24|LVL|29|N|You should be around level 29 by this point.|
 T Shadumbra's Head|QID|24|M|73.76,61.51|Z|Ashenvale|N|To Senani Thunderheart.|
 T Sharptalon's Claw|QID|2|M|73.76,61.51|Z|Ashenvale|N|To Senani Thunderheart.|
 T Ursangous's Paw|QID|23|M|73.76,61.51|Z|Ashenvale|N|To Senani Thunderheart.|
@@ -398,7 +410,7 @@ C Chapter 3|QID|6504|QO|3|U|16653|L|16644|N|Combine Pages 9-12|NC|
 F Splintertree Post|M|12.19,33.82|Z|Ashenvale|N|Back to Ashenvale.|
 T Warsong Supplies|QID|6571|M|71.44,67.67|Z|Ashenvale|N|To Locke Okarr; by the south watchtower.|
 T The Lost Pages|QID|6504|M|70.01,71.14|Z|Ashenvale|N|To Gurda Ragescar.|
-L Level 30|QID|1088|LVL|30|N|You should be around level 30 by this point.|
+;L Level 30|QID|1088|LVL|30|N|You should be around level 30 by this point.|
 
 ; --- Stonetalon Mountains
 F Sun Rock Retreat|QID|1088|M|73.25,61.67|Z|Ashenvale| ; from Splintertree Post
@@ -409,7 +421,7 @@ R Sun Rock Retreat|QID|6283|M|49.58,60.99|
 T Bloodfury Bloodline|QID|6283|M|47.18,61.10|N|To Maggran Earthbinder.|
 
 ; --- Silverpine Forest
-F Orgrimmar|ACTIVE|442|M|45.13,59.84| ; from Sun Rock Retreat
+F Orgrimmar|ACTIVE|442|M|45.13,59.84|
 B Strong Troll's Blood Potion|ACTIVE|515|L|3388|N|Unless you can make them, or know a guy, purchase one from the AH before leaving.|
 R Leave Orgrimmar|QID|442|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
 b Tirisfal Glades|QID|442|M|50.88,13.83|Z|Durotar|N|Take the Zepplin to Tirisfal Glade.|
