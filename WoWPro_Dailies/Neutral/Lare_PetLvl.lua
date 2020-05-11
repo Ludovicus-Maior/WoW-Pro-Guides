@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/battle_pet_levelup_125
+-- Date: 2020-05-11 21:26
+-- Who: Ludovicus_Maior
+-- Log: Correct location for [Grand Master Mo'ruk].  Update [ Burning Pandaren Spirit] with better alternatives and text.
+
+-- URL: http://wow-pro.com/node/3642/revisions/28277/view
 -- Date: 2017-03-05 18:34
 -- Who: Ludovicus_Maior
 -- Log: Fix Shu's RANK setting
@@ -69,13 +74,13 @@ C Whiskers .vs. Crow|QID|31958|STRATEGY|Elfuego/Aki|N|1) [ability=256/call-darkn
 T Grand Master Aki|QID|31958|M|31.2,74.2|Z|Vale of Eternal Blossoms|N|To Aki the Chosen|
 
 N Grand Master Mo'ruk|AVAILABLE|31954|PET1|Emerald Proto-Whelp;68850;2+2+2|PET2|Anubisath Idol;68659;1+1+1|PET3|Leveling;;;|STRATEGY|BroBeforeFoe@wowhead.com|
-A Grand Master Mo'ruk|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|N|From Mo'ruk|
+A Grand Master Mo'ruk|QID|31954|M|65.11,42.73|Z|Krasarang Wilds|N|From Mo'ruk|
 C Woodcarver|QID|31954|STRATEGY|BroBeforeFoe@wowhead.com|N|1) [ability=525/emerald-bite]\n2) Repeat until Woodcarver dies:\n  A) [ability=597/emerald-presence]\n  B) [ability=598/emerald-dream]\n  C) [ability=525/emerald-bite]\n  D) [ability=525/emerald-bite]\n|SELECT|1|DEAD|2,1|
 C Lightstalker|QID|31954|STRATEGY|BroBeforeFoe@wowhead.com|N|1) Repeat this rotation:\nA) [ability=597/emerald-presence] on refresh\nB) [ability=525/emerald-bite] until Lightstalker dies.|SELECT|1|DEAD|2,2|
 C Needleback .vs. Whelp|QID|31954|STRATEGY|BroBeforeFoe@wowhead.com|N|1) [ability=525/emerald-bite] until your Emerald Proto-Whelp dies.\n2) Switch to Level Pet|SELECT|1|DEAD|1,1|SWITCH|3|
 C Leveling |QID|31954|STRATEGY|BroBeforeFoe@wowhead.com|N|1) Switch to Anubisath Idol|SELECT|3|SWITCH|2|
 C Needleback .vs. Idol|QID|31954|STRATEGY|BroBeforeFoe@wowhead.com|N|From here on, cast:\n1) [ability=490/deflection] when Needleback has Headbutt off cooldown,\n2) [ability=453/sandstorm] when off cooldown,\n3) [ability=406/crush] as a filler.|SELECT|2|DEAD|2,3|
-T Grand Master Mo'ruk|QID|31954|M|62.2,45.8|Z|Krasarang Wilds|N|To Mo'ruk|
+T Grand Master Mo'ruk|QID|31954|M|65.11,42.73|Z|Krasarang Wilds|N|To Mo'ruk|
 
 N Grand Master Nishi|AVAILABLE|31955|PET1|Leveling;;;H>200E|PET2|Eternal Strider;61088;1+2+2;P>270|PET3|Darkmoon Tonk;55356;1+1+2|STRATEGY|sirinad@wowhead.com/Nishi|
 A Grand Master Nishi|QID|31955|M|46.0,43.6|Z|Valley of the Four Winds|N|From Farmer Nishi|
@@ -91,9 +96,10 @@ N Flowing Pandaren Spirit|AVAILABLE|32439|PET1|Crow;67443;2+2+2|PET2|Anubisath I
 A Flowing Pandaren Spirit|QID|32439|M|61.2,87.6|Z|Dread Wastes|N|From Flowing Pandaren Spirit|
 C Marley|QID|32439|STRATEGY|Elfuego/Flowing|N|1) [ability=256/call-darkness].\n2) [ability=517/nocturnal-strike]\n3) [ability=504/alpha-strike] spam until the fish is dead, re-upping the [ability=256/call-darkness] and [ability=517/nocturnal-strike] when you can.|SELECT|1|DEAD|2,1|
 C Tiptoe|QID|32439|STRATEGY|Elfuego/Flowing|N|1) Tiptoe will usually start with AOE waves, so use the raven as far as you can into the fight.\n2) When it goes down, switch into Anubisath.\n|SELECT|1|DEAD|1,1|SWITCH|2|
-C Tiptoe|QID|32439|STRATEGY|Elfuego/Flowing|N|1) Start with [ability=453/sandstorm].\n2) From here, just re-up [ability=453/sandstorm] and [ability=406/crush] spam until he’s dead.|SELECT|2|DEAD|2,2|SWITCH|3|
-C Leveling|QID|32439|STRATEGY|Elfuego/Flowing|N|1) Flip to your Level Pet.\n2) Flip back into Anubisath after she sets [ability=513/whirlpool].|SELECT|3|SWITCH|2|
-C Spirit|QID|32439|STRATEGY|Elfuego/Flowing|N|1) When you have 1 round left before [ability=513/whirlpool] and [ability=418/geyser] resolve. It’s [ability=490/deflection] time! \n2) She will re-up her [ability=513/whirlpool] and [ability=418/geyser] and spam [ability=419/tidal-wave].\nFrom here on out it's [ability=406/crush] spam and [ability=453/sandstorm] on CD.|SELECT|2|DEAD|2,3|
+C Tiptoe|QID|32439|STRATEGY|Elfuego/Flowing|N|1) Start with [ability=453/sandstorm].\n2) From here, just re-up [ability=453/sandstorm] and [ability=406/crush] spam until he’s dead.|SELECT|2|DEAD|2,2|
+C Anubisath => Leveling|QID|32439|STRATEGY|Elfuego/Flowing|N|Flip to your Level Pet.|SWITCH|3|
+C Leveling => Anubisath|QID|32439|STRATEGY|Elfuego/Flowing|N|Flip back into Anubisath after she sets [ability=513/whirlpool].|SWITCH|2|
+C Spirit|QID|32439|STRATEGY|Elfuego/Flowing|N|1) [ability=490/deflection] when you have 1 round left before [ability=418/geyser] resolves.\n2) She will re-up her [ability=513/whirlpool] and [ability=418/geyser] and spam [ability=419/tidal-wave].\nFrom here on out it's [ability=406/crush] spam and [ability=453/sandstorm] on CD.|SELECT|2|DEAD|2,3|
 T Flowing Pandaren Spirit|QID|32439|M|61.2,87.6|Z|Dread Wastes|N|To Flowing Pandaren Spirit|
 
 N Grand Master Shu|AVAILABLE|31957|PET1|Leveling;;;H>800M|PET2|Szechuan Chicken;63585;1+1+2|PET3|Red Cricket;63370;1+2+1|STRATEGY|Ludovicus/Shu|RANK|3|
@@ -113,13 +119,13 @@ C Mollus .vs. Owl|QID|31991|STRATEGY|sirinad@Wowhead.com/Zusshi|N|1) [ability=16
 C Skimmer|QID|31991|STRATEGY|sirinad@Wowhead.com/Zusshi|N|1) [ability=202/thrash], [ability=202/thrash]\n2) [ability=170/lift-off],\n3) [ability=162/adrenaline-rush]\n4) [ability=202/thrash] until death|SELECT|2|DEAD|2,3|
 T Grand Master Zusshi|QID|31991|M|36.32,52.21|Z|Townlong Steppes|N|To Master Zusshi|RANK|2|
 
-N Burning Pandaren Spirit|AVAILABLE|32434|PET1|Anubisath Idol;68659;1+1+1|PET2|Strand Crab;61312;2+2+1|PET3|Leveling;;;H>200C|STRATEGY|Elfuego/Burning|
+N Burning Pandaren Spirit|AVAILABLE|32434|PET1|Anubisath Idol;68659;1+1+1|PET2|Chrominius;68662;2+1+2|PET3|Leveling;;;H>200C|STRATEGY|Elfuego/Burning|
 A Burning Pandaren Spirit|QID|32434|M|57.0,42.2|Z|Townlong Steppes|N|From Burning Pandaren Spirit|
 C Crimson|QID|32434|STRATEGY|Elfuego/Burning|N|1) Use [ability=406/crush].\n2) [ability=453/sandstorm].\n3) Use [ability=490/deflection] next.\n4) Now just lay into him with [ability=406/crush] till he’s dead.|SELECT|1|DEAD|2,1|
-C Pandaren Fire Spirit|QID|32434|STRATEGY|Elfuego/Burning|N|1) Starts off with Immolate, so your [ability=490/deflection] should be up. \n2) Either way, either [ability=490/deflection] or [ability=406/crush] for the start of round 2.\n3) Her next move is Cauterize, followed by Immolate then she stands there for 2 turns.\nSo here's where you just keep wailing away with [ability=406/crush] and [ability=453/sandstorm], using Deflect after every third attack, as that's her cool down process.\n It will always be an attack, cauterize, attack, cd, cd. [ability=406/crush] spam till she’s dead.|SELECT|1|DEAD|2,2|
+C Pandaren Fire Spirit|QID|32434|STRATEGY|Elfuego/Burning|N|1) Use [ability=490/deflection]\n2)Next [ability=453/sandstorm].\n3) When [ability=453/sandstorm] is off cooldown, use [ability=490/deflection] and then [ability=453/sandstorm].\n4) [ability=406/crush] repeatedly for the win!|SELECT|1|DEAD|2,2|
 C Glowy|QID|32434|STRATEGY|Elfuego/Burning|N|1) Start off with [ability=453/sandstorm]. Then [ability=490/deflection] the toxin.\n2) When she goes into her Swarm, switch to the pet you’re going to level.|SELECT|1|SWITCH|3|
-C Leveling|QID|32434|STRATEGY|Elfuego/Burning|N|1) [ability=453/sandstorm] should negates most incoming damage from the swarm.\n2) Switch back Anubisath|SELECT|3|SWITCH|1|
-C Glowy|QID|32434|STRATEGY|Elfuego/Burning|N|1) Just [ability=453/sandstorm] - [ability=406/crush] spam till she’s dead.\nCrab is for safety.|SELECT|1|DEAD|2,3|
+C Leveling|QID|32434|STRATEGY|Elfuego/Burning|N|1) [ability=453/sandstorm] should negates most incoming damage from the swarm.\n2) Switch back Anubisath|SELECT|3|SWITCH|2|
+C Glowy|QID|32434|STRATEGY|Elfuego/Burning|N|1) Just [ability=299/arcane-explosion] till low.\n) Then [ability=362/howl] [ability=593/surge-of-power] for the win.|SELECT|1|DEAD|2,3|
 T Burning Pandaren Spirit|QID|32434|M|57.0,42.2|Z|Townlong Steppes|N|To Burning Pandaren Spirit|
 
 N Grand Master Yon|AVAILABLE|31956|PET1|Anubisath Idol;68659;1+1+1|PET2|Leveling;;;|PET3|Leveling;;;|STRATEGY|jjanchan/Yon|
