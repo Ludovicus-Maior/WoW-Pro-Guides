@@ -64,6 +64,9 @@ function WoWPro.ExpandMarkup(text)
     -- [tag=%d;{text|icon|itext|}] or [tag=%d] with a default of itext
     -- [money=%f]  for displaying Gold
     -- [/color] for closing context
+    if WoWPro.Recorder then
+        return text
+    end
     local want_icon, want_text
     -- WoWPro:dbp("ExpandMarkup starting on %s",text:gsub("|", "¦"))
     while true do

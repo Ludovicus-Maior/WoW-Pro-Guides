@@ -111,7 +111,6 @@ end
 function WoWPro:IsInstanceZone(zone)
     local nzone, mapID  = WoWPro:ValidZone(zone)
     if not nzone then
-        WoWPro:Error("Zone [%s] is invalid.  Please report!",zone)
         return false
     end
     return (WoWPro.MapInfo[mapID].mapType == UIMapType.Dungeon) or (WoWPro.MapInfo[mapID].mapType == UIMapType.Orphan)

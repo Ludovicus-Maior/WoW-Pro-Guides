@@ -440,6 +440,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     WoWPro.action[i] = primo:sub(1, 1)
     WoWPro.step[i] = primo:sub(3)
     WoWPro.step[i] = WoWPro.step[i]:trim()
+    WoWPro.step[i] = WoWPro.step[i]:gsub("\\n","\n")
 
     -- Now make sure it is a valid action!
     if not WoWPro.actionlabels[WoWPro.action[i]] then
@@ -1013,4 +1014,5 @@ function WoWPro.SetupGuideReal()
     WoWPro:AutoCompleteQuestUpdate(nil)
     WoWPro:UpdateGuide("WoWPro:LoadGuideSteps()")
     WoWPro:SendMessage("WoWPro_PostLoadGuide")
+    WoWPro.ZONE_CHANGED_NEW_AREA("ZONE_CHANGED_NEW_AREA_GUIDE_LOAD")
 end
