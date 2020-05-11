@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2020-05-11 21:28
+-- Who: Ludovicus_Maior
+-- Log: Path for [The Humanoid Cannonball] has moved again.  Corrected.
+
+-- URL: http://wow-pro.com/node/3459/revisions/30347/view
 -- Date: 2019-08-01 22:05
 -- Who: Ludovicus_Maior
 -- Log: BUFF update
@@ -265,7 +270,7 @@ T It's Hammer Time|QID|29463|N|To Mola.|RANK|2|
 
 A The Humanoid Cannonball|QID|29436|M|52.67,56.09|N|From Maxima Blastenheimer.|RANK|2|
 N Blastenheimer Bullseye|ACTIVE|29436|ACH|6021|N|Score a bullseye when launched from the Darkmoon Cannon.|M|57.25,89.85|S|RANK|2|
-C The Humanoid Cannonball|QID|29436|M|55.80, 80.26|NC|N|Talk to Maxima again picking Launch me!. Change your view till you are looking down, then try to release (key 1) right when you are about to go past the waypoint.\nTalk to Teleportologist Fozlebub for a return trip.|RANK|2|
+C The Humanoid Cannonball|QID|29436|M|54.98,81.21|NC|N|Talk to Maxima again picking Launch me!. Change your view till you are looking down, then try to release (key 1) right when you are about to go past the waypoint.\nTalk to Teleportologist Fozlebub for a return trip.|RANK|2|
 T The Humanoid Cannonball|QID|29436|N|To Maxima Blastenheimer.|RANK|2|
 
 T The Enemy's Insignia|QID|29457|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
