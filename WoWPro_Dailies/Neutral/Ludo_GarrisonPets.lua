@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/garrison_daily_pet_battles
+-- Date: 2020-05-11 21:31
+-- Who: Ludovicus_Maior
+-- Log: Add a [Bronze Whelpling]+[Widget the Departed] strategy for Deebs, Tyri, and Puzzle.
+
+-- URL: http://wow-pro.com/node/3719/revisions/28790/view
 -- Date: 2017-09-12 21:28
 -- Who: Ludovicus_Maior
 -- Log: Replaced strategy for Rockbiter, Stonechewer, and Acidtooth
@@ -36,9 +41,16 @@ return
 
 ; Day 1: Deebs, Tyri, and Puzzle  ** 2393 XP!!!!
 ! Deebs, Tyri, and Puzzle|NPC|79180;79181;79182|QID|79180.1|
+C WoW-PetGuide.COM|QID|79180.1|PET1|Bronze Whelpling;7546;2+1+1;S>275|PET2|Widget the Departed;86067;1+2+2|PET3|Leveling;;|STRATEGY|WoW-PetGuide.COM|
 C Sepsis@Warcraftpets|QID|79180.1|PET1|Enchanted Broom;33227;2+2+2|PET2|Leveling;;|PET3|Weebomination;78421;1+1+1|STRATEGY|Sepsis@Warcraftpets|
 C Wee/MPD|QID|79180.1|PET1|Weebomination;78421;1+1+1|PET2|Leveling;;|PET3|Mechanical Pandaren Dragonling;64899;1+2+2|STRATEGY|Wee/MPD|
-C Weebomination|QID|79180.1|STRATEGY|Wee/MPD|N|Cleave until Weebomination dies|SELECT|1|DEAD|1,1|SWITCH|3|
+C Whelpling + Deebs|QID|79180.1|STRATEGY|WoW-PetGuide.COM|N|[ability=122/tail-sweep] until Deebs dies.|DEAD|2,1|
+C Whelpling + Tyri|QID|79180.1|STRATEGY|WoW-PetGuide.COM|N|[ability=405/early-advantage] and Whelpling dies. Bring in Widget.|DEAD|1,1|SWITCH|2|
+C Widget + Tyri|QID|79180.1|STRATEGY|WoW-PetGuide.COM|N|[ability=442/spectral-strike] and Tyri dies.|DEAD|2,2|
+C Widget -> Level|QID|79180.1|STRATEGY|WoW-PetGuide.COM|N|Swap to your level pet.|SWITCH|3|
+C Level -> Widget|QID|79180.1|STRATEGY|WoW-PetGuide.COM|N|Swap to your Widget.|SWITCH|2|
+C Widget + Puzzel |QID|79180.1|STRATEGY|WoW-PetGuide.COM|N|1) [ability=536/prowl]\n2) [ability=442/spectral-strike]\n3) [ability=535/pounce] if needed.|DEAD|2,3|
+C Weebomination|QID|79180.1|STRATEGY|Wee/MPD|N|[ability=1273/cleave] until Weebomination dies|SELECT|1|DEAD|1,1|SWITCH|3|
 C Deebs|QID|79180.1|STRATEGY|Wee/MPD|N|1) Thunderbolt on cooldown\n2) Breath as a filler till Deebs dies.|SELECT|3|DEAD|2,1|
 C Tyri|QID|79180.1|STRATEGY|Wee/MPD|N|1) Decoy\n2) Thunderbolt on cooldown\n3) Breath as a filler till Tyri dies.|SELECT|3|DEAD|2,2|SWITCH|2|
 C Leveling|QID|79180.1|STRATEGY|Wee/MPD|N|1) Switch your leveling pet in and then bring back the Dragonling|SELECT|2|SWITCH|3|
