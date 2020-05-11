@@ -137,8 +137,8 @@ WoWPro:GuideIcon(guide,"ACH",4935)
 WoWPro:GuideSteps(guide, function()
 return [[
 
-R Thousand Needles |QID|27446|M|75.95,74.58|N|This quest starts with a single lead-in quest from Fizzle&Pozzik's Speedbarge in Thousand Needles.  \n\nIf you have not quested in Thousand Needles before this point, you should fly to Shadebough, Feralas or Mudsprocket, Dustwallow Marsh.  From there, get the quest To New Thalanaar, fly to New Thalanaar, do the quest The Grimtotem are Coming, then the quest Two If By Boat.|Z|Thousand Needles|
-R Fizzle&Pozzik's Speedbarge |QID|27446|N|This guide starts with a single lead-in quest from Fizzle&Pozzik's Speedbarge in Thousand Needles, so head there first.|
+R Thousand Needles |QID|27446|M|75.95,74.58|N|This quest starts with a single lead-in quest from Fizzle & Pozzik's Speedbarge in Thousand Needles.  \n\nIf you have not quested in Thousand Needles before this point, you should fly to Shadebough, Feralas or Mudsprocket, Dustwallow Marsh.  From there, get the quest To New Thalanaar, fly to New Thalanaar, do the quest The Grimtotem are Coming, then the quest Two If By Boat.|Z|Thousand Needles|
+R Fizzle & Pozzik's Speedbarge |QID|27446|N|This guide starts with a single lead-in quest from Fizzle & Pozzik's Speedbarge in Thousand Needles, so head there first.|
 
 A Tanaris is Calling|QID|27446|LEAD|25048|M|75.95,74.58|Z|Thousand Needles|N|From Fizzle Brassbolts.|
 F Gadgetzan|QID|27446|M|79.11,71.85|Z|Thousand Needles|N|Fly to Gadgetzan from Tilly Topspin.|

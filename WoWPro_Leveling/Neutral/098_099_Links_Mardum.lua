@@ -121,7 +121,7 @@ C Set Them Free|QID|38759|QO|4|M|38.62,67.90|NC|N|Find Izal Whitemoon and free h
 C Set Them Free|QID|38759|QO|5|M|41.59,66.67|NC|N|Find Mannethrel Darkstar and free him by clicking on his cell.|
 C Enter the Illidari: Coilskar|QID|40379|QO|1|M|43.43,72.68|NC|N|Click on the Ashtoung Mystic to sacrifice his Soul.|
 C Enter the Illidari: Coilskar|QID|40379|QO|2|M|43.79,72.04|NC|N|Click on the Legion Gateway Activator.|
-K Inquisitor Baleful|QID|39049|QO|1|M|42.62,79.17|N|Kill Baleful&stand near his corpse to take his power.|T|Inquisitor Baleful|
+K Inquisitor Baleful|QID|39049|QO|1|M|42.62,79.17|N|Kill Baleful & stand near his corpse to take his power.|T|Inquisitor Baleful|
 T Enter the Illidari: Coilskar|QID|40379|M|38.80,60.63|N|To Jace Darkweaver.|
 T Eye On the Prize|QID|39049|M|38.80,60.63|N|To Jace Darkweaver.|
 T Set Them Free|QID|38759|M|38.80,60.63|N|To Jace Darkweaver.|
@@ -132,7 +132,7 @@ C Meeting With the Queen|QID|39050|QO|1|M|38.80,60.64|NC|N|Click on the kettle.|
 T Meeting With the Queen|QID|39050|M|38.80,60.64|N|To Jace Darkweaver.|
 A Enter the Illidari: Shivarra|QID|38765|PRE|39050|M|38.80,60.64|N|From Jace Darkweaver.|
 A Before We're Overrun|QID|38766|PRE|39050|M|38.80,60.64|N|From Jace Darkweaver.|
-K Doom Commander Beliash|QID|38766|QO|1|M|34.71,39.21|N|Kill Beliash&take his power|T|Doom Commander Beliash|
+K Doom Commander Beliash|QID|38766|QO|1|M|34.71,39.21|N|Kill Beliash & take his power|T|Doom Commander Beliash|
 C Enter the Illidari: Shivarra|QID|38765|QO|1|M|39.70,39.49|NC|N|Sacrifice the dude.|
 C Enter the Illidari: Shivarra|QID|38765|QO|2|M|40.35,38.41|NC|N|Click on the Legion Gateway Activator.|
 T Enter the Illidari: Shivarra|QID|38765|M|60.52,44.75|N|To Kayn Sunfury.|
@@ -145,10 +145,10 @@ C Orders for Your Captains|QID|38813|QO|1|M|62.18,46.29|N|Find Battlelord Gaardo
 T Orders for Your Captains|QID|38813|M|60.51,44.76|N|To Kayn Sunfury.|
 A Give Me Sight Beyond Sight|QID|39262|PRE|38813|M|60.51,44.76|N|From Kayn Sunfury.|
 C Give Me Sight Beyond Sight|QID|39262|QO|1|M|64.05,52.30|N|Speak with Jace Darkweaver|CHAT|
-C Give Me Sight Beyond Sight|QID|39262|QO|2|M|64.05,52.30|N|Face the Cave&Use Spectral Sight|NC|
+C Give Me Sight Beyond Sight|QID|39262|QO|2|M|64.05,52.30|N|Face the Cave & Use Spectral Sight|NC|
 T Give Me Sight Beyond Sight|QID|39262|M|64.05,52.30|N|To Jace Darkweaver.|
 A Hidden No More|QID|39495|PRE|39262|M|64.05,52.30|N|From Jace Darkweaver.|
-K Fel Lord Caza|QID|39495|QO|1|M|64.64,58.91|N|Kill Caza&take its power. Keep on spiraling up the cave to find him.|
+K Fel Lord Caza|QID|39495|QO|1|M|64.64,58.91|N|Kill Caza & take its power. Keep on spiraling up the cave to find him.|
 l Mardum Lord Signet|QID|39495|M|64.02,58.46|L|128946|N|In a treasure chest, replace your Illidari Ring.|ITEM|128946|
 T Hidden No More|QID|39495|M|60.51,44.75|N|To Kayn Sunfury, jump down the fel river for a quick exit next to the skeleton.|
 A Stop the Bombardment|QID|38727|PRE|39495|M|60.51,44.75|N|From Kayn Sunfury.|
@@ -170,7 +170,7 @@ T The Imp Mother's Tome|QID|40222|M|60.52,44.82|N|To Kor'vas Bloodthorn.|
 T Stop the Bombardment|QID|38727|M|60.51,44.75|N|To Kayn Sunfury.|
 T Their Numbers Are Legion|QID|38819|M|60.51,44.75|N|To Kayn Sunfury.|
 A Fel Secrets|QID|40051|PRE|40222|M|60.51,44.82|N|From Kor'vas Bloodthorn.|
-C Fel Secrets|QID|40051|QO|1|M|60.56,44.76|NC|N|Click on the floating Book and choose between Havoc (DPS)&Vengeance (Tank)|
+C Fel Secrets|QID|40051|QO|1|M|60.56,44.76|NC|N|Click on the floating Book and choose between Havoc (DPS) & Vengeance (Tank)|
 T Fel Secrets|QID|40051|M|60.51,44.75|N|To Kayn Sunfury.|
 A Cry Havoc or Vengeance Will Be Mine!|QID|39516^39515|M|60.51,44.75|N|From Kayn Sunfury.|
 C Cry Havoc or Vengeance Will Be Mine!|QID|39516^39515|QO|2|M|60.55,44.86|N|Teach Cyana|CHAT|

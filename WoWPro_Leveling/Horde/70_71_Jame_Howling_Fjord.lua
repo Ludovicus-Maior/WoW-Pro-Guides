@@ -31,7 +31,7 @@
 -- URL: http://wow-pro.com/node/3288/revisions/27970/view
 -- Date: 2016-10-31 06:43
 -- Who: tubera
--- Log: ACTIVE tags to bugged New Agamand Questline;And a few other tweaks
+-- Log: Fix QOs;Added PRE & ACTIVE tags to bugged New Agamand Questline;And a few other tweaks
 
 -- URL: http://wow-pro.com/node/3288/revisions/26913/view
 -- Date: 2014-11-08 05:34

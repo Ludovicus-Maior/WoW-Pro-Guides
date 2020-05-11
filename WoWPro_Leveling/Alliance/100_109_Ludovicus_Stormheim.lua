@@ -21,7 +21,7 @@
 -- URL: http://wow-pro.com/node/3683/revisions/29850/view
 -- Date: 2018-09-28 20:44
 -- Who: elidion
--- Log: f steps.
+-- Log: Reverted to old guide before RARE edits were made and went through manually adding RARE and FLY tags, cleaned up the ACTIVE/AVILABLE/PRE tags on N,R,H,h,P,F & f steps.
 
 -- URL: http://wow-pro.com/node/3683/revisions/29825/view
 -- Date: 2018-09-24 07:48
@@ -254,7 +254,7 @@ return [[
 N Starting in Dalaran|QID|39735|U|140192|N|This guide assumes you are starting in Dalaran. |
 N Treasure|QID|39735|N|All treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 1. If you are using handy notes treasures, there treasure symbol will show over the tomtom green dot, obscuring it, the arrow will still work fine.|
 N Rares (Silver Elite)|QID|39735|N|All of the Silver mobs are also included. The item displayed has a high chance to drop but not guarenteed. Blizzard has marked these mobs on the minimap with a star.|
-N Ranks|QID|39735|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every questand rare in the zone.|
+N Ranks|QID|39735|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest&treasure and rare in the zone.|
 
 ; Greymane's Gambit Leadin
 R The Violet Citadel|QID|39735|M|29.10,46.93|Z|Dalaran!Dalaran!Dungeon|N|At Sky Admiral Rogers.|FLY|LEGION|
@@ -496,7 +496,7 @@ C Dances With Ravenbears|QID|42447|M|53.70,30.20|CHAT|N|Tell him you are ready (
 T Dances With Ravenbears|QID|42447|M|54.03,30.23|N|To Cukkaw.|RANK|2|
 f Stormtorn Foothills|ACTIVE|39787|M|51.98,34.80|N|At Hillevi the Scalekeeper.|RANK|2|
 F Lorna's Watch|ACTIVE|39787|M|51.98,34.81|N|Fly back to Lorna's Watch at Hillevi the Scalekeepter.|RANK|2|FLY|LEGION|
-K Hook|QID|38625|M|42.05,57.84|QO|1|ITEM|129109|T|Hook|N|Silver - Kill and loot for a bit of loot and Treasure.|RANK|2|RARE|
+K Hook&Sinker|QID|38625|M|42.05,57.84|QO|1|ITEM|129109|T|Hook|N|Silver - Kill and loot for a bit of loot and Treasure.|RANK|2|RARE|
 T Rigging the Wager|QID|39787|M|51.33,56.98|N|To Snaggle Sixtrigger.|RANK|2|
 T Only the Finest|QID|39793|M|51.36,57.28|N|To Rax Sixtrigger.|RANK|2|
 A A Stack of Racks|QID|39792|PRE|39787&39793|M|51.36,57.28|N|From Rax Sixtrigger.|RANK|2|

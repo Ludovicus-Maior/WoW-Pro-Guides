@@ -46,7 +46,7 @@
 -- URL: http://wow-pro.com/node/3458/revisions/25679/view
 -- Date: 2013-05-17 20:52
 -- Who: Ludovicus_Maior
--- Log: [A Smokywood Pastures' Thank You!]
+-- Log: [Smokywood Pastures' Thank You!] => [A Smokywood Pastures' Thank You!]
 
 -- URL: http://wow-pro.com/node/3458/revisions/25642/view
 -- Date: 2013-05-14 19:07

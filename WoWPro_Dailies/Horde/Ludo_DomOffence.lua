@@ -66,7 +66,7 @@ f Domination Point|M|9.69,52.51|N|Get your new flight point from Kromthar.|
 ; Daily Quest Hub selection
 A Gro'tash's Quests|QID|*|NPC|67880|M|10.07,53.86|N|From Blood Guard Gro'tash. He gives Domination Point, Ruins of Ogudei, or Lion's Landing. Skip if none.|
 A Wanted: ???|QID|32222^32223|M|12.74,56.70|N|From Bounty Board for quests at Bilgewater Operations? Skip if none.|
-; ACTIVE|-32235&-32449&-32450
+; ACTIVE|-32235 & -32449 & -32450
 
 ; ;;;;;;;;;;;;;;;;;;;;;;
 ; Daily Quests - Domination Point

@@ -61,7 +61,7 @@
 -- URL: http://wow-pro.com/node/3204/revisions/27504/view
 -- Date: 2016-07-31 01:11
 -- Who: tubera
--- Log: Fell Moss Corruption. Fix note A Priestess of the Moon.
+-- Log: Remove class quests. Switch T Demonic Thieves & Fell Moss Corruption. Fix note A Priestess of the Moon.
 
 -- URL: http://wow-pro.com/node/3204/revisions/27447/view
 -- Date: 2016-06-25 22:13

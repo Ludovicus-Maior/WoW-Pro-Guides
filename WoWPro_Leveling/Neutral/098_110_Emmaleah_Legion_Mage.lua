@@ -101,7 +101,7 @@
 -- URL: http://wow-pro.com/node/3671/revisions/27851/view
 -- Date: 2016-09-28 22:03
 -- Who: Ludovicus_Maior
--- Log: The Guardian's Library@MageClassShrine
+-- Log: MageClassShrine/2 => The Guardian's Library@MageClassShrine
 
 -- URL: http://wow-pro.com/node/3671/revisions/27850/view
 -- Date: 2016-09-28 22:00

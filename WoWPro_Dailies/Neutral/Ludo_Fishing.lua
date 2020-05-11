@@ -21,7 +21,7 @@
 -- URL: http://wow-pro.com/node/3752/revisions/28965/view
 -- Date: 2018-02-02 20:53
 -- Who: Ludovicus
--- Log: added [Nat Pagle, Angler Extreme]
+-- Log: Fixed the Horde Quests & added [Nat Pagle, Angler Extreme]
 
 -- URL: http://wow-pro.com/node/3752/revisions/28833/view
 -- Date: 2018-01-15 18:52

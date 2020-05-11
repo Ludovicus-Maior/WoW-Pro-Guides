@@ -200,7 +200,7 @@
 -- URL: http://wow-pro.com/node/3441/revisions/25778/view
 -- Date: 2013-10-25 22:50
 -- Who: Ludovicus_Maior
--- Log: Ibanozzle
+-- Log: YYY => Ibanozzle
 
 -- URL: http://wow-pro.com/node/3441/revisions/25162/view
 -- Date: 2012-10-24 21:10

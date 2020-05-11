@@ -142,7 +142,7 @@
 -- URL: http://wow-pro.com/node/3289/revisions/23975/view
 -- Date: 2011-01-10 15:07
 -- Who: Crackerhead22
--- Log: ;
+-- Log: Fixed a few errors from when I condensed the code.  <_<;
 
 -- URL: http://wow-pro.com/node/3289/revisions/23946/view
 -- Date: 2011-01-07 22:46

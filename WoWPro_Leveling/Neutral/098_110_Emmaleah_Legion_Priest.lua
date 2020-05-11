@@ -86,7 +86,7 @@
 -- URL: http://wow-pro.com/node/3674/revisions/28101/view
 -- Date: 2016-12-05 07:14
 -- Who: Blanckaert
--- Log: =7
+-- Log: moved the AK>=10 down under the AK>=7
 
 -- URL: http://wow-pro.com/node/3674/revisions/28087/view
 -- Date: 2016-12-02 03:09
@@ -120,7 +120,7 @@
 -- URL: http://wow-pro.com/node/3674/revisions/27930/view
 -- Date: 2016-10-17 16:23
 -- Who: tubera
--- Log: void
+-- Log: Set level on falling star to 101; Add ACTIVE tags a few R tags; Fix PRE tag on Light & void
 
 -- URL: http://wow-pro.com/node/3674/revisions/27880/view
 -- Date: 2016-10-05 22:52

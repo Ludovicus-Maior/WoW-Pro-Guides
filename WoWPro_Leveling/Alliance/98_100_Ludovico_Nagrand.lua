@@ -61,7 +61,7 @@
 -- URL: http://wow-pro.com/node/3618/revisions/27548/view
 -- Date: 2016-08-11 14:36
 -- Who: tubera
--- Log: King of the BreezeStriders
+-- Log: Add missing C&T Queen of the Clefthoof & King of the BreezeStriders
 --	Add missing US throughout the last part.
 
 -- URL: http://wow-pro.com/node/3618/revisions/27542/view
@@ -82,7 +82,7 @@
 -- URL: http://wow-pro.com/node/3618/revisions/27502/view
 -- Date: 2016-07-30 21:12
 -- Who: Ludovicus_Maior
--- Log: Stonecrag Gorge@NagrandDraenor ???
+-- Log: Vault of the Titan@NagrandDraenor => Stonecrag Gorge@NagrandDraenor ???
 
 -- URL: http://wow-pro.com/node/3618/revisions/27491/view
 -- Date: 2016-07-30 19:07

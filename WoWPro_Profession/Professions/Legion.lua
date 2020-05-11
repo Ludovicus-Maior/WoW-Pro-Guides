@@ -415,7 +415,7 @@ C Catriona Macrae|QID|40530|QO|1|M|49.48, 32.27|Z|Dalaran@Dalaran70|CHAT|N|Catri
 C Catriona's Gem|QID|40530|QO|2|M|49.52, 38.15|Z|Dalaran@Dalaran70|N|Examine the gem on the pillow on the night stand.|
 C Didi the Wrench|QID|40530|QO|3|M|38.83, 24.71|Z|Dalaran@Dalaran70|CHAT|N|Chat with Didi at Like Clockwork.|
 C Gem Chips|QID|40530|QO|4|M|38.75, 24.42|Z|Dalaran@Dalaran70|N|Examine the chips on the table behind Didi.|
-C Debbi Moore|QID|40530|QO|5|M|49.36, 55.22|Z|Dalaran@Dalaran70|CHAT|N|Chat with Debbi at Curiosities&Moore|
+C Debbi Moore|QID|40530|QO|5|M|49.36, 55.22|Z|Dalaran@Dalaran70|CHAT|N|Chat with Debbi at Curiosities & Moore|
 C Bag of Jewels|QID|40530|QO|6|M|49.49, 55.63|Z|Dalaran@Dalaran70|N|Examine the Bag of Jewels on a stand in front of her.|
 C Bring the Bag|QID|40530|QO|7|M|40.28,34.70|Z|Dalaran@Dalaran70|N|Bring them back to Tiffany|
 T An Eye for Detail|QID|40530|M|40.28,34.70|Z|Dalaran@Dalaran70|N|To Tiffany Cartier|

@@ -56,7 +56,7 @@
 -- URL: http://wow-pro.com/node/3234/revisions/25932/view
 -- Date: 2014-04-14 19:36
 -- Who: Ludovicus_Maior
--- Log: CS tag
+-- Log: CN->CS tag
 
 -- URL: http://wow-pro.com/node/3234/revisions/25908/view
 -- Date: 2014-03-06 23:45

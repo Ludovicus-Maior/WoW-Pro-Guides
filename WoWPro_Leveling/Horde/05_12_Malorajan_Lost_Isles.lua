@@ -334,9 +334,9 @@ T Warchief's Revenge|QID|14243|M|35.86,66.72|N|To Thrall who has now moved to th
 A Farewell, For Now|QID|14445|M|35.86,66.72|N|From Thrall.|PRE|14243|
 T Farewell, For Now|QID|14445|M|36.00,67.49|N|To Sassy Hardwrench, who is now in the Wild Overlook.|
 
-A Up, Up!|QID|14244|M|36.00,67.49|N|From Sassy Hardwrench.|PRE|14445|
-C Up, Up!|QID|14244|M|36.32,66.63|N|Click on the Rocket Sling, and select Up, Up!|NC|
-T Up, Up!|QID|14244|M|44.51,64.36|N|To Foreman Dampwick, who is now in the Landing Site.|
+A Up, Up&Away!|QID|14244|M|36.00,67.49|N|From Sassy Hardwrench.|PRE|14445|
+C Up, Up&Away!|QID|14244|M|36.32,66.63|N|Click on the Rocket Sling, and select Up, Up&Away!|NC|
+T Up, Up&Away!|QID|14244|M|44.51,64.36|N|To Foreman Dampwick, who is now in the Landing Site.|
 
 A It's a Town-In-A-Box|QID|14245|M|44.51,64.36|N|From Foreman Dampwick.|PRE|14244|
 C It's a Town-In-A-Box|QID|14245|M|45.46,65.35|N|Click on the plunger to create Town-In-A-Box.|NC|

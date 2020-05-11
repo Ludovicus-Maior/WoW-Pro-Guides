@@ -11,7 +11,7 @@
 -- URL: http://wow-pro.com/node/3200/revisions/30170/view
 -- Date: 2018-12-27 01:50
 -- Who: Ludovicus_Maior
--- Log: Frostmane Hovel
+-- Log: Coldridge Valley/9 => Frostmane Hovel
 
 -- URL: http://wow-pro.com/node/3200/revisions/30046/view
 -- Date: 2018-10-17 22:38
@@ -101,7 +101,7 @@
 -- URL: http://wow-pro.com/node/3200/revisions/27507/view
 -- Date: 2016-07-31 16:09
 -- Who: tubera
--- Log: Meet the High Tinker for hunter. Remove class ability training quests.
+-- Log: Add The Future of Gnomeregan & Meet the High Tinker for hunter. Remove class ability training quests.
 
 -- URL: http://wow-pro.com/node/3200/revisions/27503/view
 -- Date: 2016-07-31 00:10

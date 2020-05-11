@@ -21,7 +21,7 @@
 -- URL: http://wow-pro.com/node/3213/revisions/29159/view
 -- Date: 2018-02-24 20:39
 -- Who: Ludovicus_EditBot
--- Log: Varian
+-- Log: LEVEL & Varian
 
 -- URL: http://wow-pro.com/node/3213/revisions/29147/view
 -- Date: 2018-02-24 17:49

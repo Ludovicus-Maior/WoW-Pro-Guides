@@ -459,9 +459,9 @@ A The Denouncement |QID|12273|M|76.8,63.3|PRE|12271|N|From High Executor Wroth.|
 T The Truth Will Out |QID|12283|M|76.8,63.3|N|To High Executor Wroth.|
 A Do Unto Others |QID|12285|N|From High Executor Wroth.|M|76.0,63.0|PRE|12283|
 C Do Unto Others|QID|12285|N|Kill and loot High General Abbendis. Don't worry about the Admiral.|M|71,76|
-N Blacksmith Goodman |QID|12273|QO|3|U|37438|N|Use the rod of compulsion, then finish him off. He's at the blacksmith. |M|71,70|; Blacksmith Goodman's denouncement&death: 1/1
-N Commander Jordan |QID|12273|QO|1|U|37438|N|Use the rod of compulsion, then finish him off. He's upstairs in the barracks. |M|69.7,71.8|; Commander Jordan's denouncement&death: 1/1
-N Stable Master Mercer |QID|12273|QO|4|U|37438|N|Use the rod of compulsion, then finish him off. He's at the stables. |M|68,75|; Stable Master Mercer's denouncement&death: 1/1
+N Blacksmith Goodman |QID|12273|QO|3|U|37438|N|Use the rod of compulsion, then finish him off. He's at the blacksmith. |M|71,70|; Blacksmith Goodman's denouncement & death: 1/1
+N Commander Jordan |QID|12273|QO|1|U|37438|N|Use the rod of compulsion, then finish him off. He's upstairs in the barracks. |M|69.7,71.8|; Commander Jordan's denouncement & death: 1/1
+N Stable Master Mercer |QID|12273|QO|4|U|37438|N|Use the rod of compulsion, then finish him off. He's at the stables. |M|68,75|; Stable Master Mercer's denouncement & death: 1/1
 C The Denouncement |QID|12273|U|37438|N|Use the rod of compulsion, then finish him off. He's halfway down to the coast by all the cannons. |M|73,78|
 l Onslaught Riding Crop |QID|12214|L|37202|N|Make sure you kill the Knight, and not the horse. Loot the Riding Crop.|T|Onslaught Knight|
 C Fresh Remounts |QID|12214|U|37202|NC|N|Use the Riding crop on the horse and ride it back to Hansel Bauer. Use ability 1 to hand the final horse in. |M|75.9,61.9|

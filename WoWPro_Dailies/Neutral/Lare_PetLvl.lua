@@ -21,7 +21,7 @@
 -- URL: http://wow-pro.com/node/3642/revisions/27909/view
 -- Date: 2016-10-13 23:15
 -- Who: Ludovicus_Maior
--- Log: 500F
+-- Log: [Whispering Pandaren Spirit] hits the leveling pet for H>500F
 
 -- URL: http://wow-pro.com/node/3642/revisions/27554/view
 -- Date: 2016-08-15 22:22

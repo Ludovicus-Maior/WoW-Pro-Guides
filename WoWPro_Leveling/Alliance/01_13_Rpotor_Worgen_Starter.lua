@@ -152,7 +152,7 @@
 -- URL: http://wow-pro.com/node/3211/revisions/24586/view
 -- Date: 2011-06-25 00:39
 -- Who: Crackerhead22
--- Log: T qid 24472 -Added in accept step.
+-- Log: ! Missing A step for step C & T qid 24472 -Added in accept step.
 
 -- URL: http://wow-pro.com/node/3211/revisions/24433/view
 -- Date: 2011-05-28 10:59

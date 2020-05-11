@@ -661,7 +661,7 @@ T Last of Her Kind|QID|28247|M|59.12,69.91|N|To Lirastrasza.|
 A Victors' Point|QID|28248|PRE|28247|M|59.12,69.91|N|From Lirastrasza.|
 T Victors' Point|QID|28248|M|43.39,57.48|N|To Kurdran Wildhammer.|
 
-A Ogres&Ettins|QID|27492|PRE|28248|M|43.39,57.48|N|From Kurdran Wildhammer.|
+A Ogres & Ettins|QID|27492|PRE|28248|M|43.39,57.48|N|From Kurdran Wildhammer.|
 A Call in the Artillery|QID|27496|PRE|28248|M|43.39,57.48|N|From Cassius the White.|
 A SI:7 Drop|QID|27490|PRE|28248|M|43.39,57.48|N|From Cassius the White.|
 
@@ -670,16 +670,16 @@ r Sell junk, Repair/Restock|QID|27499|M|43.81,57.74|
 
 C SI:7 Drop|QID|27490|QO|1|M|43.82,57.31|N|Talk to Angus, just left of the flight master, to pick up your squad.|; Get Wildhammer squad: 1/1
 C SI:7 Drop|QID|27490|M|39.24,64.58|N|Head to the waypoint and land on the blue X that is on the ground.|
-C Ogres&Ettins|QID|27492|M|43.03,63.11|S|N|Kill Twilight Ogres and Ettins.|
+C Ogres & Ettins|QID|27492|M|43.03,63.11|S|N|Kill Twilight Ogres and Ettins.|
 N Southwestern building targeted|QID|27496|QO|3|U|61363|M|39.66,69.23|N|Southwestern building targeted.|; Southwestern building targeted: 1/1
 N Southern building targeted|QID|27496|QO|1|U|61363|M|41.36,73.73|N|Southern building targeted.|; Southern building targeted: 1/1
 N Northeastern building targeted|QID|27496|QO|1|U|61363|M|41.02,64.30|N|Northeasterb building targeted.|; Northeastern building targeted: 1/1
 C Call in the Artillery|QID|27496|U|61363|M|38.87,61.16|N|Northern building targeted.|
-C Ogres&Ettins|QID|27492|M|43.03,63.11|US|N|Finish killing Twilight Ogres and Ettins.|
+C Ogres & Ettins|QID|27492|M|43.03,63.11|US|N|Finish killing Twilight Ogres and Ettins.|
 
 T SI:7 Drop|QID|27490|M|43.41,57.48|N|To Cassius the White.|
 T Call in the Artillery|QID|27496|M|43.41,57.48|N|To Cassius the White.|
-T Ogres&Ettins|QID|27492|M|43.41,57.48|N|To Kurdran Wildhammer.|
+T Ogres & Ettins|QID|27492|M|43.41,57.48|N|To Kurdran Wildhammer.|
 
 A Move the Mountain|QID|27494|PRE|27490&27492&27496|M|43.41,57.48|N|From Kurdran Wildhammer.|
 C Move the Mountain|QID|27494|M|38.05,66.08|N|Click on the Hidden Explosives to detonate them.|

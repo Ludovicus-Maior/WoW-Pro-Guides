@@ -41,7 +41,7 @@
 -- URL: http://wow-pro.com/node/3254/revisions/27556/view
 -- Date: 2016-08-16 16:29
 -- Who: tubera
--- Log: the Bold
+-- Log: Fix serveral QOs; Add h & H lines where they would be handy; Expand some N texts; Add LVL on dungeon quest; Remove PRE on Brave & the Bold
 
 -- URL: http://wow-pro.com/node/3254/revisions/26448/view
 -- Date: 2014-06-02 15:07
@@ -119,7 +119,7 @@ T The Grimtotem are Coming|QID|25487|M|10.56,8.51|N|To Motega Firemane.|
 A Two If By Boat|QID|25489|PRE|25487|M|10.56,8.51|N|From Motega Firemane.|
 
 ;insert flight point get
-f Fizzle&Pozzik's Speedbarge|QID|25489|M|79.13,71.9|N|Get the flight point at Zazzik Boomride.|
+f Fizzle & Pozzik's Speedbarge|QID|25489|M|79.13,71.9|N|Get the flight point at Zazzik Boomride.|
 T Two If By Boat|QID|25489|M|75.94,74.68|N|To Pozzik. He can be found at the very top front room of the barge.|
 A Do Me a Favor?|QID|25505|PRE|25489|M|75.94,74.68|N|From Pozzik.|
 T Do Me a Favor?|QID|25505|M|77.16,74.47|N|To Razzeric.|

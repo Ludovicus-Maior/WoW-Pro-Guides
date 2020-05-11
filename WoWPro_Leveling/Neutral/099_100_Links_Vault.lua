@@ -115,7 +115,7 @@ T Vault of the Wardens|QID|39742|M|71.23,35.63|Z|Illidari Ward@VaultOfTheWardens
 T Fel Infusion|QID|38689|M|49.67,49.29|Z|Illidari Ward@VaultOfTheWardensDH|N|To Altruis the Sufferer.|
 T Rise of the Illidari|QID|38690|M|49.19,49.46|Z|Illidari Ward@VaultOfTheWardensDH|N|To Kayn Sunfury.|
 A Stop Gul'dan!|QID|38723^40253|M|49.47,49.78|Z|Illidari Ward@VaultOfTheWardensDH|N|From Maiev Shadowsong.|
-C Stop Gul'dan!|QID|38723^40253|QO|2|M|51.55,78.49|Z|Illidari Ward@VaultOfTheWardensDH|N|1/1 Crusher&Sledge slain&power taken|
+C Stop Gul'dan!|QID|38723^40253|QO|2|M|51.55,78.49|Z|Illidari Ward@VaultOfTheWardensDH|N|1/1 Crusher & Sledge slain & power taken|
 T Stop Gul'dan!|QID|38723^40253|M|50.78,72.81|Z|Illidari Ward@VaultOfTheWardensDH|N|To Kayn Sunfury.|
 A Grand Theft Felbat|QID|39682|PRE|38723^40253|M|50.78,72.81|Z|Illidari Ward@VaultOfTheWardensDH|N|From Kayn Sunfury.|
 K Kethrazor|QID|39682|M|48.64,32.44|L|128945|Z|Illidari Ward@VaultOfTheWardensDH|N|Kill Kethrazor for a necklace "Inquisitor's Glowering Eye". Run back out of the Vault of the Betrayer and go up to the Tomb of the Penitent.|T|Kethrazor|

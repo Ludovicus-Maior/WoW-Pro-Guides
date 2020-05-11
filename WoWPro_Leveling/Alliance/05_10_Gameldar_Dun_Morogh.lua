@@ -11,7 +11,7 @@
 -- URL: http://wow-pro.com/node/3200/revisions/30170/view
 -- Date: 2018-12-27 01:50
 -- Who: Ludovicus_Maior
--- Log: Frostmane Hovel
+-- Log: Coldridge Valley/9 => Frostmane Hovel
 
 -- URL: http://wow-pro.com/node/3200/revisions/30046/view
 -- Date: 2018-10-17 22:38
@@ -101,7 +101,7 @@
 -- URL: http://wow-pro.com/node/3200/revisions/27507/view
 -- Date: 2016-07-31 16:09
 -- Who: tubera
--- Log: Meet the High Tinker for hunter. Remove class ability training quests.
+-- Log: Add The Future of Gnomeregan & Meet the High Tinker for hunter. Remove class ability training quests.
 
 -- URL: http://wow-pro.com/node/3200/revisions/27503/view
 -- Date: 2016-07-31 00:10
@@ -279,7 +279,7 @@ A Bound for Kharanos|QID|26380|M|49.89,45.01|N|From Ciara Deepstone.|R|Dwarf,Hum
 
 A Ride to Ironforge |RANK|2|QID|6391|PRE|6387|M|53.80,52.75|N|The next three quests see you ride to Ironforge and back, and is worth 1,580 XP and some reputation with Ironforge and Gnomeregan.|R|Gnome,Dwarf|
 F Ironforge |RANK|2|QID|6391|M|53.80,52.75|N|Speak with Brolan Galebeard and ask him to fly you to Ironforge|R|Gnome,Dwarf|
-T Ride to Ironforge |RANK|2|QID|6391|M|51.37,26.27|N|To Golnir Bouldertoe, inside the Deepmountain Mining&Jewelcrafting shop (climb steps to first floor, then go downstairs to him)|R|Gnome,Dwarf|Z|Ironforge|
+T Ride to Ironforge |RANK|2|QID|6391|M|51.37,26.27|N|To Golnir Bouldertoe, inside the Deepmountain Mining & Jewelcrafting shop (climb steps to first floor, then go downstairs to him)|R|Gnome,Dwarf|Z|Ironforge|
 A Gryth Thurden |RANK|2|QID|6388|M|51.37,26.27|N|From Golnir Bouldertoe|PRE|6391|R|Gnome,Dwarf|Z|Ironforge|
 T Gryth Thurden |RANK|2|QID|6388|M|55.42,47.80|N|Back to the flight master, Gryth Thurden|PRE|6391|R|Gnome,Dwarf|Z|Ironforge|
 A Return to Gremlock |RANK|2|QID|6392|PRE|6388|M|55.42,47.80|N|From Gryth Thurden|R|Gnome,Dwarf|Z|Ironforge|

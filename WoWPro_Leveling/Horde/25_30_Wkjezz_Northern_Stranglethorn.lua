@@ -286,7 +286,7 @@ H Grom'gol Base Camp|QID|26350|N|Hearth Back|
 C Big Game Hunter|QID|208|M|46.26,58.65|
 ;fix QID
 R Grom'gol Base Camp|QID|26350|CC|M|39.54,50.25|N|Run back to Camp|
-;fix QID&name
+;fix QID & name
 F Bambala|QID|26350|N|Fly back across the zone.|
 A The Mosh'Ogg Bounty|QID|26399|M|63.09,40.66|N|From Skeezy Whillzap.|
 T Priestess Hu'rala|QID|26350|M|63.38,39.03|N|To Priestess Hu'rala.|

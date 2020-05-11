@@ -60,7 +60,7 @@
 -- URL: http://wow-pro.com/node/3300/revisions/24609/view
 -- Date: 2011-06-25 02:55
 -- Who: Crackerhead22
--- Log: T step for qid 12907 - QID for "A Certain Prisoner" was wrong.
+-- Log: ! Duplicate A & T step for qid 12907 - QID for "A Certain Prisoner" was wrong.
 --	! Missing A step for step C qid 12954 - Fixed, was wrong QID for C step.
 
 -- URL: http://wow-pro.com/node/3300/revisions/24353/view

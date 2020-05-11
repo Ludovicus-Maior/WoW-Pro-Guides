@@ -337,7 +337,7 @@ A Bounty: More Fathom Rays|QID|55834|M|47.47,63.26|N|From Iina Bluegill.|O|
 A Rumors of Mechagon|QID|57024|M|48.41,60.63|PRE|55500|N|Disgruntled Laborer. This is the quest that opens up Mechagon if you are wanting to head there.|
 A The Missing Crew|QID|56379|PRE|55500|M|58.46,62.98|Z|Zuldazar|N|Check this off manually (and pick it up later) if you aren't headed off to Mechagon now or don't find Champions important). From Dread-Admiral Tattersail. This quest is completed in Nazjatar.|NA|
 
-C Scrying Stones|QID|56210|M|49.23,62.06|QO|1|N|Use the Scrying Stone.|U|169817|
+C Scrying Stones|QID|56210|M|49.23,62.06|QO|1|N|Use the Scrying Stone.|
 A Strange Silver Knife|QID|56240|M|39.71,49.16|N|From knife looted in treasure chest you just found.|PRE|55500|
 C Scrying Stones|QID|56210|M|46.81,55.99;43.48,53.65;40.28,49.00|CS|QO|2|N|Keep using the scrying stone (extra action button) until you find 3 Hidden Treasures.|
 C The Unshackled|QID|56120|S!US|N|The Unshackled emisary is up, so Complete 4 world quests in Nazjatar.|
@@ -404,7 +404,7 @@ C Fighting Venomous With Venom|QID|55661|M|64.54,48.58|S|N|Kill Snapdragons unti
 A Snap Back|QID|56118|M|66.43,47.24|N|From Collector Kojo.|PRE|55500|
 A Legacy of Nar'anan|QID|56095|M|66.43,47.24|N|From Collector Kojo.|PRE|55500|
 C Snap Back|QID|56118|M|69.57,49.73|S|U|168947|N|Kill snapdragons. use the Scroll of Bursting Power on the Elite Terrormaw Snapdragons before you agro them.|
-C Legacy of Nar'anan|QID|56095|M|67.45,47.14;70.66,50.85;71.87,50.47|CS|NC|N|Click on the pylons to witness the memories.|
+C Legacy of Nar'anan|QID|56095|M|67.45,47.14;70.66,50.85;71.87,50.47|CS|N|Click on the pylons to witness the memories.|
 C Snap Back|QID|56118|M|69.57,49.73|US|U|168947|N|Finish killing snapdragons.|
 T Snap Back|QID|56118|M|66.50,47.46|N|To Collector Kojo.|
 T Legacy of Nar'anan|QID|56095|M|66.50,47.46|N|To Collector Kojo.|
@@ -621,7 +621,7 @@ T Turn the Scale|QID|55980|M|34.13,37.63|N|To Krato Flipperfoot.|
 A She Sells These Shells|QID|55766|M|37.94,48.71|N|From Bren Inkfin.|O|
 C She Sells These Shells|QID|55766|M|37.73,41.16|NC|N|Pick up Seashells.|
 A Emergent Sea Weeds|QID|55768|M|37.94,48.71|N|From Bren Inkfin.|O|
-C Emergent Sea Weeds|QID|55768|M|43.97,48.54|NC|N|Pick up Vent Kelp growing in the area.|
+C Emergent Sea Weeds|QID|55768|M|37.9,48.7|NC|N|Pick up Vent Kelp growing in the area.|
 A Plug the Geysers|QID|55875|M|33.51,47.94|N|From Scout Tambrine.|O|
 C Plug the Geysers|QID|55875|M|33.48,48.82|U|168482|NC|N|Click the sealent, target the geyser, repeat till all plugged.|
 T Plug the Geysers|QID|55875|M|33.51,47.94|N|To Scout Tambrine.|
@@ -679,7 +679,7 @@ f Wreck of the Hungry Riverbeast|QID|55864|M|36.13,82.31|QO|3|N|At Markona.|
 
 A Anytime You Need A Friend|QID|56814|M|59.88,28.05|N|From Neri Sharpfin.|O|
 T Anytime You Need A Friend|QID|56814|M|36.12,70.24|N|Cleverly Concealed Supplies, don't forget to open the bag after looting.|
-T A Kelfin's Best Friend|QID|56816|M|44.97,60.96|N|You can find this up above (on top) of the rocky pillers. You can walk there, but much easier to find with flying.|
+
 T WANTED: Lady Naz'jess|QID|56222|M|48.06,61.34|N|To Seacaller Unow.|
 T WANTED: Commander Sarj'eth|QID|56223|M|48.06,61.33|N|To Seacaller Unow.|
 T WANTED: Lord Ha'kass|QID|56224|M|48.06,61.33|N|To Seacaller Unow.|
@@ -717,7 +717,7 @@ T An Unexpected Friend|QID|56813|M|50.97,65.28|N|To Atolia Seapearl.|
 T Becoming a Friend|QID|57005|M|50.97,65.28|N|To Atolia Seapearl.|
 T We're Going To Be Friends|QID|56808|M|51.00,65.27|N|To Atolia Seapearl.|
 T Just A Friend|QID|56803|M|50.98,65.26|N|To Atolia Seapearl.|
-T A Friend Indeed|QID|56810|M|50.98,65.26|N|To Atolia Seapearl.|
+A A Friend Indeed|QID|56810|M|50.98,65.26|N|To Atolia Seapearl.|
 T With A Little Help From My Friends|QID|56815|M|50.98,65.26|N|To Atolia Seapearl.|
 T Bounty: A Few Crabs|QID|55823|M|50.99,65.24|N|To Atolia Seapearl.|
 T Bounty: More Crabs|QID|55832|M|50.99,65.24|N|To Atolia Seapearl.|

@@ -11,7 +11,7 @@
 -- URL: http://wow-pro.com/node/3678/revisions/29854/view
 -- Date: 2018-09-28 21:19
 -- Who: elidion
--- Log: f steps.
+-- Log: Reverted to old guide before RARE edits were made and went through manually adding RARE and FLY tags, cleaned up the ACTIVE/AVILABLE/PRE tags on N,R,H,h,P,F & f steps.
 
 -- URL: http://wow-pro.com/node/3678/revisions/29822/view
 -- Date: 2018-09-24 07:45
@@ -213,7 +213,7 @@ return [[
 N Starting in Dalaran|QID|39733|U|140192|N|This guide assumes you are starting in Dalaran. |
 N Treasure|QID|39733|N|All the treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 3.|
 N Rares (Silver Elite)|QID|39733|N|A significant number,(21/25) of the Silver mobs are listed.  The item displayed has a high chance to drop but not guarenteed.  Blizzard has marked these mobs on the minimap with a star.|
-N Ranks|QID|39733|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest&treasure in the zone.*no treasures, rares or bonus objectives are included on rank 1*|
+N Ranks|QID|39733|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest & treasure in the zone.*no treasures, rares or bonus objectives are included on rank 1*|
 T The Lone Mountain|QID|39733|M|71.13,43.96|Z|Dalaran!Dalaran!Dungeon|N|To Warbrave Oro.|
 A Keepers of the Hammer|QID|38907|M|71.13,43.96|Z|Dalaran!Dalaran!Dungeon|N|From Warbrave Oro.|PRE|39733|
 F Thunder Totem|QID|38907|M|69.95,51.20|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Fly to Thunder Totem in Highmountain at Aludane Whitecloud. (the normal way you use a flight path, not a chat option).|FLY|LEGION|
@@ -405,7 +405,7 @@ T No Time to Talk|QID|39133|M|49.03,55.27|N|To Warbrave Nava.|RANK|2|
 T Wrathshard|QID|39134|M|49.03,55.27|N|To Warbrave Nava.|RANK|2|
 
 R Pinerock Basin|QID|38912|M|47.91,52.64|N|Take this road to Find Cliff's Edge.|FLY|LEGION|
-$ Beastmaster Pao'lek&Arru|QID|39784|M|48.68,50.08|ITEM|131756|N|Beastmaster Pao'lek wants your help taming Arru. After he accomplishes it, and you curse at ungreatful hunters, go inside the now empty cave and loot the Thunder Totem Stolen Goods.|RANK|2|
+$ Beastmaster Pao'lek & Arru|QID|39784|M|48.68,50.08|ITEM|131756|N|Beastmaster Pao'lek wants your help taming Arru. After he accomplishes it, and you curse at ungreatful hunters, go inside the now empty cave and loot the Thunder Totem Stolen Goods.|RANK|2|
 $ Floating Treasure|QID|39494|M|42.09,52.68|ITEM|131763|N|You can cross over on this log, or just swim, be on the lookout for a Treasure chest that comes to rest here briefly.|RANK|2|
 A Amateur Hour|QID|40170|M|40.03,52.24|N|From Hemet Nesingwary.|RANK|2|
 A Note-Eating Goats|QID|39859|M|39.93,52.22|N|From Addie Fizzlebog.|RANK|2|

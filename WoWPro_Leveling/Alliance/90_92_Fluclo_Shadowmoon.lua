@@ -214,7 +214,7 @@
 -- URL: http://wow-pro.com/node/3604/revisions/27036/view
 -- Date: 2014-11-22 19:20
 -- Who: Fluclo
--- Log: Enchanting; Added another Rank 3 kill.
+-- Log: Reordered Enchanting quest for better flow for those with Tailoring & Enchanting; Added another Rank 3 kill.
 
 -- URL: http://wow-pro.com/node/3604/revisions/27003/view
 -- Date: 2014-11-15 23:01
