@@ -51,15 +51,24 @@ F Splintertree Post|AVAILABLE|6571|M|47.02,49.83|Z|Thunder Bluff|
 A Warsong Supplies|QID|6571|M|71.44,67.67|Z|Ashenvale|N|From Locke Okarr; by the south watchtower.|
 
 ; --- Silverpine Forest
-F Orgrimmar|QID|443|M|47.02,49.83|Z|Thunder Bluff|N|Fly to Orgrimmar.|
+F Orgrimmar|QID|443|M|73.25,61.67|Z|Ashenvale|N|Fly to Orgrimmar.|
 h Orgrimmar|QID|443|M|54.61,67.78|Z|Orgrimmar|N|At Barkeeper Morag.\nThis will be a better option the next time you need to use your hearth.|
-R Leave Orgrimmar|AVAILABLE|443|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
-b Tirisfal Glades|AVAILABLE|443|M|50.88,13.83|Z|Durotar|N|Take the Zeppelin to Tirisfal Glades.|
-R Undercity|AVAILABLE|443|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
-F The Sepulcher|AVAILABLE|443|M|63.27,48.55|Z|Undercity|N|Fly to The Sepulcher.|
+R Leave Orgrimmar|QID|443|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
+b Tirisfal Glades|QID|443|M|50.88,13.83|Z|Durotar|N|Take the Zeppelin to Tirisfal Glades.|
+R Leave Orgrimmar|QID|443|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
+b Tirisfal Glades|QID|443|M|50.88,13.83|Z|Durotar|N|Take the Zeppelin to Tirisfal Glades.|
+R Undercity|QID|443|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
+f Undercity|QID|443|M|63.86,48.04|Z|Undercity|N|Grab the FP from Michael Garrett.|TAXI|-Undercity|
+F The Sepulcher|QID|443|M|63.27,48.55|Z|Undercity|N|Fly to The Sepulcher.|TAXI|The Sepulcher|
+; --- If you do not have the FP in The Sepulcher
+R Leave Undercity|QID|443|M|65.99,36.85;66.22,0.90|Z|Undercity|CC|N|Take the elevator up and leave Undercity through the front gates.|TAXI|-The Sepulcher|
+R Silverpine Forest|QID|443|M|54.46,74.62|Z|Tirisfal Glades|CC|N|Head over to the road and follow it south into Silverpine Forest.|TAXI|-The Sepulcher|
+R The Sepulcher|QID|443|M|46.21,41.59|CC|N|Head south until you reach the Sepulcher.|TAXI|-The Sepulcher|
+f The Sepulcher|QID|443|M|45.62,42.60|N|Karos Razok|TAXI|-The Sepulcher|
+; ---
 ; --- Get and complete prequels if not done yet
 A The Dead Fields|QID|437|M|43.43,40.86|N|You'll find High Executor Hadrec down the stairs inside the crypt.|
-C The Dead Fields|QID|437|M|45,21|QO|1;2|N|Head SW to the Dead Fields. Nightlash might already be spawned, but if she isn't, kill all the Rot Hide Gnolls you see until she does.\n[color=FF0000]NOTE: [/color]You will want to clear the mobs as you go. They can overwhelm you quite easily.|
+C The Dead Fields|QID|437|M|45,21|QO|1;2|N|Head SW to the Dead Fields. Nightlash may already be spawned in the middle of the field. But, if she isn't, kill all the Rot Hide Gnolls you see until she does.\n[color=FF0000]NOTE: [/color]You will want to clear the mobs as you go. They can overwhelm you quite easily.|
 R The Sepulcher|QID|437|M|46.30,41.55|Z|Silverpine Forest|N|Make your way back to The Sepulcher. Dealer's choice on how you wish to get there.|
 T The Dead Fields|QID|437|M|43.14,41.37;43.43,40.86|CS|N|To High Executor Hadrec inside the Crypt.|
 A The Decrepit Ferry|QID|438|M|43.43,40.86|N|From High Executor Hadrec.|PRE|437|
