@@ -246,7 +246,7 @@ T Gunship Down|QID|26245|M|49.6,53|N|To Maruut Stonebinder.|
 T Captain's Log|QID|26246|M|49.6,53|N|To Maruut Stonebinder.|
 T The Earth Claims All|QID|26244|M|49.7,53|N|To Seer Kormo.|
 T Elemental Energy|QID|27136|M|49.7,53|N|To Seer Kormo.|
-A Diplomacy First|QID|26247|PRE|26244 & 26246 & 26245|M|49.6,53|N|From Maruut Stonebinder.|
+A Diplomacy First|QID|26247|PRE|26244&26246&26245|M|49.6,53|N|From Maruut Stonebinder.|
 A Where's Goldmine?|QID|26409|M|49.52,53.40|N|From Earthcaller Yevaa.|
 
 T Diplomacy First|QID|26247|M|62.2,47|N|Fly up to the Alliance Gunship. To Stormcaller Mylra.|
@@ -312,7 +312,7 @@ C To Catch a Dragon|QID|26768|M|55.77,88.58|N|Find and kill Twilight Dragonstalk
 C Big Game, Big Bait|QID|26766|US|U|60382|M|56.30,85.57|N|Kill 5 Jadecrest Basilisk and use Mylra's Knife on their corpses.|
 T Big Game, Big Bait|QID|26766|M|64.48,82.23|N|To Stormcaller Mylra.|
 T To Catch a Dragon|QID|26768|M|64.48,82.23|N|To Stormcaller Mylra.|
-A Testing the Trap|QID|26771|PRE|26766 & 26768|M|64.48,82.23|N|From Stormcaller Mylra.|
+A Testing the Trap|QID|26771|PRE|26766&26768|M|64.48,82.23|N|From Stormcaller Mylra.|
 C Testing the Trap|QID|26771|U|60773|M|51.11,85.47|N|Fly far west, to the Matriarch's Feeding Grounds. Use the Trapped basilisk Meat in the center of the feeding ground to bring the Stonescale Matriarch down. She is a level 82 elite, and can hit quite hard. The trick to beating her is to rotate around her while doing damage, only staying in one spot as long as is necessary. This is simple if you are playing a melee class. Casters should only cast 2 or 3 spells before moving to a different position.|
 T Testing the Trap|QID|26771|M|64.50,82.19|N|To Stormcaller Mylra.|
 A Abyssion's Minions|QID|26857|PRE|26771|M|64.50,82.19|N|From Stormcaller Mylra.|
@@ -323,7 +323,7 @@ C Block the Gates|QID|26861|U|60501|M|71.14,75.03|N|Fly to the Elemental Gate an
 C Abyssion's Minions|QID|26857|US|M|69.72,77.39|N|Kill any of the cultists or dragonspawn.|
 T Block the Gates|QID|26861|M|64.49,82.25|N|To Seer Galekk.|
 T Abyssion's Minions|QID|26857|M|64.49,82.25|N|To Stormcaller Mylra.|
-A The World Pillar Fragment|QID|26876|PRE|26857 & 26861|M|64.49,82.25|N|From Stormcaller Mylra.|
+A The World Pillar Fragment|QID|26876|PRE|26857&26861|M|64.49,82.25|N|From Stormcaller Mylra.|
 C The World Pillar Fragment|QID|26876|U|60810|M|69.73,76.72|N|Fly to the center of Abyssion's Lair. Use the Earthen Ring Banner there to summon Abyssion. You will fight him the same way that you fought the Stonescale Matriarch. You will also have some NPCs there to help you out. When you see the warning that Abyssion is casting a powerful shadow nova, run away, preferably behind the pillar. It hits for about 20k, which could kill you if you are low.|
 T Blood of the Earthwarder|QID|26259|RANK|2|M|49.66,53.02|N|To Seer Kormo.|
 T The World Pillar Fragment|QID|26876|M|49.66,53.02|N|To Maruut Stonebinder.|
@@ -351,7 +351,7 @@ C The Axe of Earthly Sundering|QID|27932|U|60490|M|38.96,85.86|N|Find an Emerald
 C Elemental Ore|QID|27933|US|M|35.41,79.06|N|Kill Jade Ragers in the area until you get 6 Elemental Ore.|
 T The Axe of Earthly Sundering|QID|27932|M|30.69,77.77|N|To Slate Quicksand.|
 T Elemental Ore|QID|27933|M|30.69,77.77|N|To Slate Quicksand.|
-A One With the Ground|QID|27934|PRE|27932 & 27933|M|30.69,77.77|N|From Slate Quicksand.|
+A One With the Ground|QID|27934|PRE|27932&27933|M|30.69,77.77|N|From Slate Quicksand.|
 C One With the Ground|QID|27934|M|47.11,90.17|N|Talk to Slate and tell him you are ready to complete the ritual. You will go tunneling through the ground into Avalanchion's Vault.|
 T One With the Ground|QID|27934|M|47.11,90.17|N|Click the notification box to turn in One With the Ground.|
 A Bring Down the Avalanche|QID|27935^27936|PRE|27934|RANK|1|M|47.11,90.17|N|Accept the followup, Bring Down the Avalanche.|
@@ -376,7 +376,7 @@ T Sealing the Way|QID|26501|M|24.55,62.41|N|To Gravel Longslab.|
 A Shatter Them!|QID|26537|PRE|26501|M|24.55,62.41|N|From Gravel Longslab.|
 T Thunder Stones|QID|26502|M|24.72,62.14|N|To Clay Mudaxle.|
 A Fixer Upper|QID|26564|PRE|26502|M|24.72,62.14|N|From Clay Mudaxle.|
-A Battlefront Triage|QID|26591|PRE|26501 & 26502|M|24.63,62.11|N|From Earthmender Deepvein.|
+A Battlefront Triage|QID|26591|PRE|26501&26502|M|24.63,62.11|N|From Earthmender Deepvein.|
 C Fixer Upper|QID|26564|S|M|21.01,57.78|N|Collect 6 Catapult Parts.|
 C Battlefront Triage|QID|26591|S|U|58965|M|23.62,61.32|N|Use Deepvein's Patch Kit on the Inured Earthen.|
 C Shatter Them!|QID|26537|M|23.31,60.51|N|Kill 12 Stone Troggs.|
@@ -384,7 +384,7 @@ C Fixer Upper|QID|26564|US|M|21.01,57.78|N|Collect 6 Catapult Parts.|
 T Battlefront Triage|QID|26591|M|24.59,62.14|N|To Earthmender Deepvein.|
 T Fixer Upper|QID|26564|M|24.75,62.13|N|To Clay Mudaxle.|
 T Shatter Them!|QID|26537|M|24.52,62.41|N|To Gravel Longslab.|
-A Troggzor the Earthinator|QID|26625|PRE|26537 & 26564 & 26591|M|24.52,62.41|N|From Gravel Longslab.|
+A Troggzor the Earthinator|QID|26625|PRE|26537&26564&26591|M|24.52,62.41|N|From Gravel Longslab.|
 C Troggzor the Earthinator|QID|26625|M|22.51,56.74|N|Troggzor is located on a small rise. Kill him and loot The Earthinator's Cudgel.|
 T Troggzor the Earthinator|QID|26625|M|24.52,62.40|N|To Gravel Longslab.|
 A Rush Delivery|QID|27126|PRE|26625|M|24.72,62.17|N|From Clay Mudaxle.|
@@ -402,7 +402,7 @@ C Mystic Masters|QID|26770|M|24.00,48.00|N|Slay 5 Needlerock Mystics.|
 C Reactivate the Constructs|QID|26762|US|M|24.00,48.00|N|Finish reactivate the 5 Deactivated War Constructs.|
 T Reactivate the Constructs|QID|26762|N|To Pyrium Lodestone.|
 T Mystic Masters|QID|26770|N|To Flint Oremantle.|
-A Down Into the Chasm|QID|26834|PRE|26762 & 26770|M|22.6,52.1|N|From Pyrium Lodestone.|
+A Down Into the Chasm|QID|26834|PRE|26762&26770|M|22.6,52.1|N|From Pyrium Lodestone.|
 T Down Into the Chasm|QID|26834|M|27.6,44.9|N|To Slate Quicksand.|
 A Sprout No More|QID|26791|PRE|26834|M|27.6,44.9|N|From Slate Quicksand.|
 A Fungal Monstrosities|QID|26792|PRE|26834|M|27.6,44.9|N|From Slate Quicksand.|
@@ -411,8 +411,8 @@ C Fungal Monstrosities|QID|26792|M|27.5,38.3|N|Destroy Fungal Monstrosities.|
 C Sprout No More|QID|26791|M|27.6,35.6|US|N|Finish destroying Giant Shrooms.|
 T Sprout No More|QID|26791|M|27.6,44.9|N|To Slate Quicksand.|
 T Fungal Monstrosities|QID|26792|M|27.6,44.9|N|To Slate Quicksand.|
-A A Slight Problem|QID|26835|PRE|26791 & 26792|M|27.6,44.9|N|From Slate Quickand.|
-T A Slight Problem|QID|26835|PRE|26791 & 26792|M|22.6,52.1|N|To Pyrium Lodestone.|
+A A Slight Problem|QID|26835|PRE|26791&26792|M|27.6,44.9|N|From Slate Quickand.|
+T A Slight Problem|QID|26835|PRE|26791&26792|M|22.6,52.1|N|To Pyrium Lodestone.|
 A Rescue the Stonefather... and Flint|QID|26836|PRE|26835|M|22.6,52.1|N|From Pyrium Lodestone.|
 C Rescue the Stonefather... and Flint|QID|26836|M|24.64,32.41;24.57,30.94|CC|N|Fly to this bridge and then kill Bouldergut.|
 T Rescue the Stonefather... and Flint|QID|26836|M|22.6,52.1|N|To Pyrium Lodestone.|
@@ -421,7 +421,7 @@ T The Hero Returns|QID|27937|M|28,68.6|N|To Stonefather Oremantle.|
 A The Middle Fragment|QID|27938|PRE|27937|M|28,68.6|N|From Stonefather Oremantle.|
 C The Middle Fragment|QID|27938|M|28,68.72|N|In The Stonefather's Safe, right behind Oremantle.|
 T The Middle Fragment|QID|27938|M|49.5,53.3|N|To Earthcaller Yevaa.|
-A The Very Earth Beneath Our Feet|QID|26326|PRE|27938 & 26876|RANK|1|M|49.6,53|N|From Maruut Stonebinder.|
+A The Very Earth Beneath Our Feet|QID|26326|PRE|27938&26876|RANK|1|M|49.6,53|N|From Maruut Stonebinder.|
 T The Very Earth Beneath Our Feet|QID|26326|M|46.1, 45.7|N|To Earthcaller Torunscar.|
 A Crumbling Defenses|QID|26312|PRE|26326|M|46.1,45.7|N|From Earthcaller Torunscar.|
 A On Even Ground|QID|26314|PRE|26326|M|46.1,45.7|N|From Earthcaller Torunscar.|
@@ -434,7 +434,7 @@ C Core of Our Troubles|QID|26313|US|M|45.1,40.5|N|Finish collecting 6 Irestone C
 T Crumbling Defenses|QID|26312|M|46.1,45.7|N|To Earthcaller Torunscar.|
 T On Even Ground|QID|26314|M|46.1,45.7|N|To Earthcaller Torunscar.|
 T Core of Our Troubles|QID|26313|M|46.1,45.7|N|To Earthmender Norsala.|
-A Imposing Confrontation|QID|26315|PRE|26312 & 26313 & 26314|M|46.1,45.7|N|From Earthmender Norsala.|
+A Imposing Confrontation|QID|26315|PRE|26312&26313&26314|M|46.1,45.7|N|From Earthmender Norsala.|
 C Imposing Confrontation|QID|26315|M|49.00,40.00|U|58177|N|Read the Earthen Ring Proclamation to Boden the Imposing.|
 T Imposing Confrontation|QID|26315|M|46.1,45.7|N|To Earthmender Norsala.|
 A Rocky Relations|QID|26328|PRE|26315|M|46.1,45.7|N|From Earthmender Norsala.|
@@ -454,7 +454,7 @@ C Loose Stones|QID|26375|U|58254|M|59.00,42.00|US|N|Finish releasing Quartz Rock
 T Loose Stones|QID|26375|M|56.5,41.1|N|To Quartz Stonetender.|
 T Unsolid Ground|QID|26377|M|56.50,41.20|N|To Diamant the Patient.|
 T Hatred Runs Deep|QID|26376|M|56.50,41.20|N|To Diamant the Patient.|
-A Violent Gale|QID|26426|M|56.50,41.20|PRE|26375 & 26376 & 26377|N|From Diamant the Patient.|
+A Violent Gale|QID|26426|M|56.50,41.20|PRE|26375&26376&26377|N|From Diamant the Patient.|
 N Felsen the Enduring|QID|26426|M|52,32|QO|1|N|Find Felsen the Enduring at the waypoint.|; Find Felsen the Enduring: 1/1
 C Violent Gale|QID|26426|M|58.00,25.00|N|Find the entrance to Crumbling Depths.|
 T Violent Gale|QID|26426|N|(UI Alert)|
@@ -489,8 +489,8 @@ C Petrified Delicacies|QID|26507|RANK|1|M|39.1,28.8|N|Head to the shelf to the n
 T Petrified Delicacies|QID|26507|RANK|1|N|To Pebble, who should still be following you around.|
 C Rock Bottom|QID|26575|M|47.5,27.00|N|Try to dodge the boulders he chucks. If you get the message that Gorgonite’s eyes begin to glow, you must quickly break line-of-sight with him or you will be stunned for several seconds.|
 T Rock Bottom|QID|26575|M|34.12,34.19|N|Back to Kor the Immovable.|
-A Steady Hand|QID|26576|PRE|26575 & 26507|RANK|1|M|34.12,34.19|N|From Kor.|
-A Rocky Upheaval|QID|26577|PRE|26575 & 26507|M|34.12,34.19|N|From Kor.|
+A Steady Hand|QID|26576|PRE|26575&26507|RANK|1|M|34.12,34.19|N|From Kor.|
+A Rocky Upheaval|QID|26577|PRE|26575&26507|M|34.12,34.19|N|From Kor.|
 T Steady Hand|QID|26576|RANK|1|N|To Terrath the Steady.|
 A Don't. Stop. Moving.|QID|26656|PRE|26576|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
 C Don't. Stop. Moving.|QID|26656|RANK|1|M|39.94,19.41;43.03,16.33;46.07,13.60;50.56,13.79|CS|N|You need to do this on a ground mount. Speak to Terrath and tell him you are ready. A group of Opalescent Guardians will spawn. This group will follow you and you need to get 5 across the eastern section of the Pale Roost, past all the stone dragons. The best way I have found is to run directly east to the stone circle at (50.60, 13.00)|
@@ -502,7 +502,7 @@ C Fragile Values|QID|26658|RANK|1|U|60266|M|35.8,26.4|N|Search the area until yo
 C Hard Falls|QID|26657|US|RANK|1|M|33.6,21.4|N|Go west, out into the Pale Roost. You will see Stone Dragons falling to the ground. Attack them before they manage to take off again.|
 T Hard Falls|QID|26657|RANK|1|M|39.94,19.41|N|To Terrath the Steady.|
 T Fragile Values|QID|26658|RANK|1|M|39.94,19.41|N|To Terrath the Steady.|
-A Resonating Blow|QID|26659|PRE|26657 & 26658|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
+A Resonating Blow|QID|26659|PRE|26657&26658|RANK|1|M|39.94,19.41|N|From Terrath the Steady.|
 C Resonating Blow|QID|26659|RANK|1|U|60266|M|32.60,24.30|N| Terrath will come and toss you up onto some floating rocks. Jump from rock to rock until you reach a cluster of rocks all on the same level. You will attack Aeosera from these rocks. When she targets the platform you are standing on, jump to another and continue to attack. Continue attacking and jumping from rock to rock until she surrenders.|
 T Resonating Blow|QID|26659|RANK|1|M|39.94,19.41|N|To Terrath the Steady.|
 T Rocky Upheaval|QID|26577|M|72.30,54.10|N|To Gorsik the Tumultuous.|
@@ -532,7 +532,7 @@ T Wrath of the Fungalmancer|QID|26583|RANK|2|M|68.50,26.30|N|Once Glop makes his
 C Corruption Destruction|QID|26585|M|73.00,27.00|N|Loot Verlok Miracle-Grow, which will be on the ground and in crates all over this area.|
 T Corruption Destruction|QID|26585|M|72.2,53.9|N|Back to Gorsik.|
 T Shaken and Stirred|QID|26584|M|72.2,53.9|N|To Gorsik.|
-A At the Stonemother's Call|QID|26750|PRE|26584 & 26585 & 26659|M|72.2,53.9|N|From Gorsik the Tumultuous.|
+A At the Stonemother's Call|QID|26750|PRE|26584&26585&26659|M|72.2,53.9|N|From Gorsik the Tumultuous.|
 T At the Stonemother's Call|QID|26750|M|56.30,12.20|N|To Therazane.|
 A Audience with the Stonemother|QID|26752|PRE|26750|M|56.1,13.4|N|Watch event that takes place.|
 T Audience with the Stonemother|QID|26752|M|56.1,13.4|N|To Earthcaller Torunscar. He is off to the side and toward the back of Therazane's throne.|
@@ -552,7 +552,7 @@ T The Twilight Flight|QID|26831|M|64.1,36.9|N|To Terath.|
 C The Stone March|QID|26829|M|62,35.6|US|N|Finish killing Cultists.|
 T The Stone March|QID|26829|M|63.3,25.1|N|To Therazane.|
 T Therazane's Mercy|QID|26832|M|63.3,25.1|N|To Therazane.|
-A Word In Stone|QID|26833|PRE|26829 & 26831 & 26832|N|From Therazane.|
+A Word In Stone|QID|26833|PRE|26829&26831&26832|N|From Therazane.|
 
 A The Explorers|QID|27952|LEAD|27004|M|49.52,53.40|N|From Earthcaller Yevaa.|FACTION|Alliance|
 T The Explorers|QID|27952|M|47.34,51.4|N|To Explorer Mowi.|FACTION|Alliance|
@@ -577,8 +577,8 @@ C The Twilight Plot|QID|27004|M|41.00,69.00|N|Kill Twilight Cultist in the area 
 C Fly Over|QID|27006|M|39.10,73.90|N|Fly to the Masters' Gate.|FACTION|Alliance|
 T The Twilight Plot|QID|27004|M|47.4,51.4|N|To Explorer Mowi.|FACTION|Alliance|
 T Fly Over|QID|27006|M|47.4,51.4|N|To Prospector Brewer.|FACTION|Alliance|
-A Fight Fire and Water and Air with...|QID|27042|PRE|27004 & 27006|RANK|2|M|47.4,51.4|N|From Prospector Brewer.|FACTION|Alliance|
-A Decryption Made Easy|QID|27040|PRE|27004 & 27006|N|From Explorer Mowi.|FACTION|Alliance|
+A Fight Fire and Water and Air with...|QID|27042|PRE|27004&27006|RANK|2|M|47.4,51.4|N|From Prospector Brewer.|FACTION|Alliance|
+A Decryption Made Easy|QID|27040|PRE|27004&27006|N|From Explorer Mowi.|FACTION|Alliance|
 C Decryption Made Easy|QID|27040|S|M|38,69.9;39.6,73.8;41.2,71.8|CN|N|Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Alliance|
 C Water Ward|QID|27042|RANK|2|M|40.80,66.30|QO|2|N|Kill the Bound Water Elemental.|FACTION|Alliance|; Water Ward acquired: 1/1
 C Fire Ward|QID|27042|RANK|2|M|36.10,67.40|QO|1|N|Kill the Bound Fire Elemental.|FACTION|Alliance|; Fire Ward acquired: 1/1
@@ -605,8 +605,8 @@ C The Twilight Plot|QID|27005|M|41.00,69.00|N|Kill Twilight Cultist in the area 
 C Fly Over|QID|27008|M|39.10,73.90|N|Fly to the Titan Waygate.|FACTION|Horde|
 T The Twilight Plot|QID|27005|M|51.20,50.10|N|To Examiner Rowe.|FACTION|Horde|
 T Fly Over|QID|27008|M|51.20,50.10|N|To Reliquary Jes'ca Darksun.|FACTION|Horde|
-A Fight Fire and Water and Air with...|QID|27043|PRE|27005 & 27008|M|51.20,50.10|N|From Reliquary Jes'ca Darksun.|FACTION|Horde|
-A Decryption Made Easy|QID|27041|PRE|27005 & 27008|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
+A Fight Fire and Water and Air with...|QID|27043|PRE|27005&27008|M|51.20,50.10|N|From Reliquary Jes'ca Darksun.|FACTION|Horde|
+A Decryption Made Easy|QID|27041|PRE|27005&27008|M|51.20,50.10|N|From Examiner Rowe.|FACTION|Horde|
 C Decryption Made Easy|S|QID|27041|N| Look for the One-Time Decryption Engines. Use them to decrypt the Twilight Plans. Do this 6 times.|FACTION|Horde|
 C Water Ward|QID|27043|M|40.80,66.30|QO|2|N|Kill the Bound Water Elemental to get the Water Ward.|FACTION|Horde|; Water Ward acquired: 1/1
 C Fire Ward|QID|27043|M|36.10,67.40|QO|1|N|Kill the Bound Fire Elemental to get the Fire Ward.|FACTION|Horde|; Fire Ward acquired: 1/1

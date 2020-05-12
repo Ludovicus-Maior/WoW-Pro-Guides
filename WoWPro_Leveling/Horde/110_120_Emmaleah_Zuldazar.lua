@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_zuldazar
+-- Date: 2020-05-12 23:39
+-- Who: Ludovicus_Maior
+-- Log: Pomegranate of Pain: ravasaur needs a rank|2 and [Pet Opportunity] needs a PRE|47310 .
+
+-- URL: http://wow-pro.com/node/3762/revisions/30532/view
+-- Date: 2020-05-12 21:21
+-- Who: Ludovicus_Maior
+-- Log: @Pomegranate of Pain: [The Zanchuli Counci] is required for the zone acheiv.  Remove RANK|2
+
+-- URL: http://wow-pro.com/node/3762/revisions/30523/view
 -- Date: 2020-05-01 20:27
 -- Who: Ludovicus_Maior
 -- Log: Cagomei: Put ACTIVE tags instead of QID tags on lots of K steps.
@@ -223,7 +233,7 @@ R The Golden Throne|ACTIVE|49615|M|22.83,72.75;29.17,63.33|Z|Hall of Croniclers!
 T Trust of a King|QID|49615|M|49.94,46.64|Z|Dazar'alor|N|To King Rastakhan.|
 A Tal'gurub|QID|49488|M|49.94,46.64|Z|Dazar'alor|N|From King Rastakhan.|PRE|49615|
 A The Port of Zandalar|QID|50835|M|49.82,46.55|Z|Dazar'alor|N|From Zolani.|LEAD|46926|PRE|47514|
-A The Zanchuli Council|QID|47445|M|49.72,46.51|Z|Dazar'alor|N|From Yazma.|RANK|2|PRE|47514|
+A The Zanchuli Council|QID|47445|M|49.72,46.51|Z|Dazar'alor|N|From Yazma.|PRE|47514|
 F Port of Zandalar|ACTIVE|50835|M|51.89,41.21|N|at Paku'ai Rokota who can be found by heading back down the elevator, on the level with Talanji, the scouting map, etc.|TZ|Grand Bazaar|
 T The Port of Zandalar|QID|50835|M|50.05,85.09|Z|Dazar'alor|N|To Zolani.|
 A Shakedown|QID|46926|M|50.05,85.09|Z|Dazar'alor|N|From Zolani.|PRE|47514|
@@ -445,8 +455,8 @@ A Queenfeather|QID|47312|M|69.02,40.72|N|From Wingrider Nivek.|RANK|2|
 C Headbutting 101|QID|47311|M|70.42,40.31|S|N|Use the Extra Action button to command your Hatchling to fight your target.|
 C Direhorn Growth Hormone|QID|47272|M|70.62,40.58|S|NC|N|Pick up the Steaming Fresh Carrion from the ground as you go.|
 C Queenfeather|QID|47312|M|71.37,40.69|N|Kill Queenfeather and loot her Plume.|
-K Ravasaurs|QID|50311^50308|M|71.69,41.28|L|156963|N|Keep looting the ravasaur mobs until you pick up a "Golden Ravasaur Egg."|
-$ Mysterious Trashpile|QID|50311^50308|M|71.69,41.28|ITEM|156963|N|Click on the trashpile to attract Jani. when he arrives offer to give him the shiny. He leaves a treasure for you in exchange.|
+K Ravasaurs|QID|50311^50308|M|71.69,41.28|L|156963|N|Keep looting the ravasaur mobs until you pick up a "Golden Ravasaur Egg."|RANK|2|
+$ Mysterious Trashpile|QID|50311^50308|M|71.69,41.28|ITEM|156963|N|Click on the trashpile to attract Jani. when he arrives offer to give him the shiny. He leaves a treasure for you in exchange.|RANK|2|
 C Direhorn Growth Hormone|QID|47272|M|70.62,40.58|US|NC|N|Finish collecting the Steaming Fresh Carrion.|
 C Headbutting 101|QID|47311|M|70.42,40.31|US|N|Command your Hatchling to fight|
 T Queenfeather|QID|47312|M|69.01,40.71|N|To Wingrider Nivek.|
@@ -480,7 +490,7 @@ T A Good Spanking|QID|48581|M|66.81,42.51|N|To Beastlord L'kala.|
 A Naptime|QID|47310|M|66.81,42.51|N|From Beastlord L'kala.|RANK|2|PRE|48581|
 C Naptime|QID|47310|M|68.29,42.05|NC|N|Click on the gates to send your Juvenile Direhorn into the "stable"|
 T Naptime|QID|47310|M|66.79,42.50|N|To Beastlord L'kala.|
-N Pet Opportunity|QID|47260|LVL|120|N|After you are lvl 120, you will get a letter inviting you back and in 3 more quests you will have your new pet.|
+N Pet Opportunity|QID|47260|LVL|120|N|After you are lvl 120, you will get a letter inviting you back and in 3 more quests you will have your new pet.|PRE|47310|
 A Side Effects May Include...|QID|47260|M|68.14,41.81|N|From Direhorn Juvinile where you left him taking a nap.|LVL|120|PRE|47310|
 T Side Effects May Include...|QID|47260|M|66.81,42.56|N|To Beastlord L'kala.|
 A Alchemy is an Inexact Science|QID|52855|M|66.81,42.56|N|From Trader Alexxi Cruzpot.|PRE|47260|
