@@ -78,7 +78,7 @@ T Lost!|QID|4492|M|51.00,49.00|N|To Ringo, in the cave on the south side of the 
 A A Little Help From My Friends|QID|4491|M|51.9,49.85|N|From Ringo.|PRE|4492|
 C A Little Help From My Friends|QID|4491|M|43.6,8.5|U|11804|N|Use the canteen on him if he faints. Run back to Marshal's Refuge.|
 T A Little Help From My Friends|QID|4491|M|43.6,8.5|N|To Spraggle Frock.|
-T Beware of Pterrordax|M|43.6,8.5|N|To Spraggle Frock.|
+T Beware of Pterrordax|QID|4501|M|43.6,8.5|N|To Spraggle Frock.|
 T Shizzle's Flyer|QID|4503|M|44.4, 11.8|N|To Shizzle.|
 T Roll the Bones|QID|3882|M|43.60,7.40|N|To Spark Nilminer.|
 T Alien Ecology|QID|3883|M|43.9,7.2|N|To Hol'anyee Marshall.|
