@@ -214,7 +214,8 @@ C Titanic Research Archive|QID|57524|QO|2|M|46.38,70.44|Z|Chamber of Heart!Dunge
 T Accessing the Archives|QID|57524|M|48.15,71.83|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
 
 A Remnants of a Shattered World|QID|57378|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|From Wrathion. You will need to enter a Horrific Vision and kill a boss.|PRE|57524|
-C Curse of Stone||QID|57378|QO|1|N|Just use your map and make your way to the skull. \nYou now have a reset button for your sanity, it can't be used in combat. Kill and then collect your loot and exit the vision. PROFIT! \nKilling the boss ends the scenario, killing more of the trash first, increases your corrupted currency rewards a bit.|T Remnants of a Shattered World|QID|57378|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
+C Curse of Stone||QID|57378|QO|1|N|Just use your map and make your way to the skull. \nYou now have a reset button for your sanity, it can't be used in combat. Kill and then collect your loot and exit the vision. PROFIT! \nKilling the boss ends the scenario, killing more of the trash first, increases your corrupted currency rewards a bit.|
+T Remnants of a Shattered World|QID|57378|M|45.98,63.35|Z|Chamber of Heart!Dungeon1473|N|To Wrathion.|
 
 A Ny'alotha, the Waking City:\nThe Corruptor's End|QID|58632|M|50.27,59.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.\nDefeat N'zoth in the Ny'alotha raid instance.|
 
