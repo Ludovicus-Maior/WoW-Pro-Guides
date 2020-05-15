@@ -324,7 +324,7 @@ R Alterac Mountains|ACTIVE|1136|M|55.60,19.41;54.49,9.46|Z|Hillsbrad Foothills|C
 l Mountain Lion Carcass|ACTIVE|1136|M|49.18,71.50|Z|Alterac Mountains|L|5810|N|Kill a Mountain Lion and loot it's carcass. You'll need this to spawn Frostmaw.\nAny type of Mountain Lion will do.\n[color=FF0000]NOTE: [/color]The Fresh Carcass has a time limit of 30 minutes before it despawns and you have to get another one.|
 R Growless Cave|ACTIVE|1136|M|49.95,63.13;37.58,68.29|Z|Alterac Mountains|CC|N|Head back to the road and continue north to Gallow's Corner. From here, head west to the Growless Cave entrance.|
 l Fresh Carcass|ACTIVE|1136|L|5810|N|You need to go kill a Mountain Lion to get another Fresh Carcass.\n[color=FF0000]NOTE: [/color]Remember, the Fresh Carcass has a time limit of 30 minutes before it despawns.|
-C Frostmaw|QID|1136|M|37.52,66.36|Z|Alterac Mountains|QO|1|U|5810|N|Clear all of the Yetis inside the cave. Once cleared, enter the cave and place [use] the Fresh Carcass on the Flame of Uzel. When Frostmaw spawns, kill him and loot his Mane.|
+C Frostmaw|QID|1136|M|37.52,66.36|Z|Alterac Mountains|QO|1|U|5810|N|Clear all of the Yetis inside the cave. Once cleared, enter the cave and place (use) the Fresh Carcass on the Flame of Uzel. When Frostmaw spawns, kill him and loot his Mane.|
 
 ; --- Thunder Bluff
 H Orgrimmar|ACTIVE|1136|N|Use your hearth to save time. If it's on CD, run back to Tarren Mills, fly to Undercity and take the Zeppelin to Orgrimmar.|
