@@ -4,7 +4,7 @@
 local guide = WoWPro:RegisterGuide('Classic-01-12-Hendo-Tirisfal-Glades', "Leveling", 'Tirisfal Glades', 'Hendo72', 'Horde', 1)
 WoWPro:GuideName(guide, 'Tirisfal Glades')
 WoWPro:GuideLevels(guide, 1, 12, 2)
-WoWPro:GuideNextGuide(guide, 'Classic-12-14-Hendo-Silverpine-Forest')
+WoWPro:GuideNextGuide(guide, 'Classic-12-15-Hendo-Silverpine-Forest')
 WoWPro:GuideSteps(guide, function() return [[
 
 N Hey|QID|363|N|This is a new written guide by TheRealHendo.  If you find a problem, please report it on Discord in #classic-bug-reports .  Enjoy and thanks!|
