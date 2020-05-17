@@ -291,9 +291,9 @@ T Report to Kadrak|QID|6541|M|48.12,5.42|N|To Kadrak on the first floor of the g
 A The Warsong Reports|QID|6543|M|48.12,5.42|N|From Kadrak.|
 R Ashenvale|QID|6548|M|68.63,86.82|Z|Ashenvale|N|Follow the road north until you reach Ashenvale (Nightsong Woods).|
 R Splintertree Post|QID|6548|M|68.60,84.23;67.24,71.58;70.15,70.09;71.1,67.5|Z|Ashenvale|CC|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.\n[color=FF0000]NOTE: [/color]Be VERY aware of the much higher level mobs if you choose to venture off the road.|
-C Warsong Reports|QID|6543|U|16783|L|16746|N|Open your Bundle of Reports.|
+C Warsong Reports|QID|6543|U|16783|L|16746|N|Open your Bundle of Reports.|NC|
 ; Quest is [The Warsong Reports], presuming this is to avoid automatic turn-in.
-T Warsong Scout Update|QID|6543|M|71.04,68.22|Z|Ashenvale|QO|1|N|Give one of the Reports to the Warsong Scout with a Blue question mark over her head. She sometimes spawns at the base of the tower.\n[color=FF0000]NOTE: [/color]Be careful not to give more than one, or you won't have enough to finish the quest.|NC|
+C Warsong Scout Update|QID|6543|M|71.04,68.22|Z|Ashenvale|QO|1|N|Give one of the Reports to the Warsong Scout with a Blue question mark over her head. She sometimes spawns at the base of the tower.\n[color=FF0000]NOTE: [/color]Be careful not to give more than one, or you won't have enough to finish the quest.|NC|
 f Splintertree Post|QID|6548|M|73.25,61.67|Z|Ashenvale|N|Head into Splintertree Post and get the flight path.|TAXI|-Splinter Tree|
 C Warsong Outrider Update|QID|6543|M|73.50,63.76;75.41,64.25;76.68,58.48;78.80,55.48;94,47|Z|Ashenvale|CC|QO|3|N|Locate the Warsong Outrider and get the Warsong Outrider Update. S/he patrols on a wolf mount along the road northeast of Splintertree.|NC|
 R Zoram'gar Outpost|QID|6548|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.20,47.28;26.43,42.33;16.51,30.27;12.73,33.29|Z|Ashenvale|CC|N|Follow the road all the way west to Zoram'gar Outpost.  Watch out for the higher level mobs along the way.\nWhen you get to Astranaar, you can either follow the shoreline to the south, or swim. Swimming means less fighting.|
