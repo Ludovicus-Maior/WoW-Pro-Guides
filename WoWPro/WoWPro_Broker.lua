@@ -398,6 +398,12 @@ function WoWPro:LoadGuide(guideID)
     WoWPro:dbp("Signaled for LoadGuide %s",tostring(guideID))
     if guideID then
         WoWProDB.char.currentguide = guideID
+    else
+        guideID = WoWProDB.char.currentguide
+    end
+    if WoWPro.GuideLoaded and WoWProDB.char.currentguide == guideID then
+        WoWPro:print("Guide %s already loaded. Recycle!", guideID)
+        return
     end
     WoWPro.GuideLoaded = false
     WoWPro.current_strategy = nil
