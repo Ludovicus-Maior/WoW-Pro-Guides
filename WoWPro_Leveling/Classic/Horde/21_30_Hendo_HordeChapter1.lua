@@ -19,7 +19,7 @@ C Goblin Invaders|QID|1062|M|63.35,57.72|QO|1|N|Kill Venture Co. Loggers. Defore
 l Super Reaper 6000|QID|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|US|
 T Super Reaper 6000|QID|1093|M|58.99,62.61|N|To Ziz Fizziks.|
 A Further Instructions|QID|1094|M|58.99,62.61|N|From Ziz Fizziks.|PRE|1093|
-A Arachnophobia|AVAILABLE|6284|M|59.79,71.43;59.08,75.72|CC|ELITE|N|Head back to the signpost at the Windshear Crag entrance and follow the road south. From the Wanted Poster, located beside the road.\n[color=FF0000]NOTE: [/color]Strongly recommended only to accept this quest if you are over level or can find a PUG to do this. Bessaleth is a lv 21 Elite mob.|
+A Arachnophobia|QID|6284|M|59.79,71.43;59.08,75.72|CC|ELITE|N|Head back to the signpost at the Windshear Crag entrance and follow the road south. From the Wanted Poster, located beside the road.\n[color=FF0000]NOTE: [/color]Strongly recommended only to accept this quest if you are over level or can find a PUG to do this. Bessaleth is a lv 21 Elite mob.|
 K Bessaleth|ACTIVE|6284|T|Bessaleth|L|16192|N|Bessaleth is somewhere in here. She has multiple spawn points. Generally, you'll find her in one of the alcoves along the edge.|
 R Boulderslide Ravine|QID|6421|ACTIVE|-6284|M|59.79,71.43;67.69,86.82;66.24,89.37|CC|N|Head back to the signpost at the Windshear Crag entrance and follow the road south.|
 R Boulderslide Ravine|QID|6421|ACTIVE|6284|M|67.69,86.82;66.24,89.37|CC|N|Head back to the road and follow it south.|
