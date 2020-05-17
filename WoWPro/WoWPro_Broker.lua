@@ -402,8 +402,6 @@ function WoWPro:LoadGuide(guideID)
     end
     if guideID then
         WoWProDB.char.currentguide = guideID
-    else
-        guideID = WoWProDB.char.currentguide
     end
     WoWPro.GuideLoaded = false
     WoWPro.current_strategy = nil
