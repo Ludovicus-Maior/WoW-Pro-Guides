@@ -244,7 +244,7 @@ A The Corrupter|QID|1480|U|20310|N|Click on the Flayed Demon Skin to start the q
 * Excess Flayed Demon Skin|AVAILABLE|-1480|U|20310|N|Once you've accepted the quest, you no longer need to loot these items. If you loot any more, safely destroy them.|
 ;L Level 34|QID|1107|N|You should be around level 34 by this point.|
 C Sceptre of Light|QID|5741|M|55.17,30.09|Z|Desolace|QO|1|N|Head north into Thunder Axe Fortress and kill the Burning Blade Seer to loot the Sceptre of Light.\nYou'll find the Seer at the top of the Watchtower just inside the entrance. He has 2 Felsworn standing guard outside and an Augur inside with him. You can easily pull the outside guards one at a time.|
-l The Burning of Spirits|QID|1435|L|6435 15|U|6436|US|N|Finish collecting the Infused Burning Gems.|
+l The Burning of Spirits|QID|1435|L|6435 15|U|6436|N|Finish collecting the Infused Burning Gems.|US|
 T Sceptre of Light|QID|5741|M|38.89,27.19|Z|Desolace|N|Make your way west back to Azore Aldamort in Ethel Rethor.|
 A Book of the Ancients|QID|6027|M|38.89,27.19|Z|Desolace|N|From Azore Aldamort.|
 T The Burning of Spirits|QID|1435|M|52.24,53.44|Z|Desolace|N|Make your way back to Maurin Bonesplitter at Ghost Walker Post.|
@@ -300,8 +300,8 @@ l Clam Bait|ACTIVE|6142|L|15924 10|N|Finish collecting the Soft-shelled Clam Mea
 C Other Fish to Fry|QID|6143|M|34.17,25.21|Z|Desolace|QO|1;2;3|N|Slay Slitherblade Myrmidons, Nagas, and Sorceresses.|
 l Rackmore's Golden Key|ACTIVE|6161|L|15881|N|Kill Nagas until they drop one.|US|
 T Claim Rackmore's Treasure!|QID|6161|M|29.98,8.72|Z|Desolace|N|Clear all mobs around the chest. Open the chest to complete the quest.|
-K Lord Kargaru|QID|6027|M|28.66,7.09|Z|Desolace|L|15803 1|N|Right-click on the Serpent Statue to summon Lord Kargaru. Kill him and loot the Book of the Ancients.\n|
-l Oracle Crystal|QID|1482|ACTIVE|1482|L|6442 1|US|N|Kill Slitherblade Oracles until one drops an Oracle Crystal.\n21% drop rate|
+K Lord Kargaru|QID|6027|M|28.66,7.09|Z|Desolace|L|15803|N|Right-click on the Serpent Statue to summon Lord Kargaru. Kill him and loot the Book of the Ancients.\n|
+l Oracle Crystal|ACTIVE|1482|L|6442|N|Kill Slitherblade Oracles until one drops an Oracle Crystal.\n21% drop rate|US|
 T Book of the Ancients|QID|6027|M|40.96,29.08;38.88,27.16|Z|Desolace|CC|N|Swim back to shore and climb the ramp to Azore Aldamort at Ethel Rethor.|
 R Kormek's Hut|QID|8521|M|60.33,38.11|Z|Desolace|N|Follow the road east to Kormek's Hut.\nYou are going to go and look for Cork Gizelton and his caravan.|
 N Gizelton Caravan|QID|8521|N|Depending on where they are, it takes the caravan ~12 minutes (a little longer if someone does the north quest) to travel from the south to the north and another 10 minutes before they leave to start the trip south. If no one accepts the quest after 5 minutes, they continue south where the process starts over for the north escort quest.|
@@ -361,7 +361,6 @@ f Grom'gol Base Camp|QID|568|M|32.54,29.36|Z|Stranglethorn Vale|N|At Thysta.|TAX
 A Bloody Bone Necklaces|QID|596|M|32.23,27.77|Z|Stranglethorn Vale|N|From Kin'weelay.|
 A The Vile Reef|QID|629|M|32.23,27.77|Z|Stranglethorn Vale|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Kin'weelay.|
 A Hunt for Yenniku|QID|581|M|32.19,27.73|Z|Stranglethorn Vale|N|From Nimboya.|
-C The Defense of Grom'gol|QID|568|QO|1|N|Lashtail Raptor slain.|S|
 R Investigate the Camp|ACTIVE|201|M|35.66,10.53|Z|Stranglethorn Vale|N|Make your way north to Nesingwary's Expedition, killing as you go. |
 A Welcome to the Jungle|QID|583|M|35.65,10.80|Z|Stranglethorn Vale|N|From Barnil Stonepot.|
 T Hemet Nesingwary|QID|5762|N|To Hemet Nesingwary.|
@@ -372,12 +371,27 @@ A Tiger Mastery|QID|185|M|35.61,10.63|Z|Stranglethorn Vale|N|From Ajeck Rouack.|
 A Panther Mastery|QID|190|M|35.56,10.54|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|
 A The Green Hills of Stranglethorn|QID|338|N|From Barnil Stonepot.|
 C Tiger Mastery|QID|185|M|32.61,9.55;33.68,11.64;36.40,13.05|Z|Stranglethorn Vale|CC|QO|1|N|Heading in a westerly direction from the camp, kill Young Stranglethorn Tigers. In a looping arc, make your way east to the bridge.|
-C Panther Mastery|QID|190|M|37.69,14.85;39.75,13.70;41.23,12.99;41.27,8.56|Z|Stranglethorn Vale|CC|QO|1|US|N|As you make your way east under the bridge, kill Young Sranglethorn Panthers. Cross the river to the north side and work your way west in a sweeping arc towards the road.|
+C Panther Mastery|QID|190|M|37.69,14.85;39.75,13.70;41.23,12.99;41.27,8.56|Z|Stranglethorn Vale|CC|QO|1|N|As you make your way east under the bridge, kill Young Sranglethorn Panthers. Cross the river to the north side and work your way west in a sweeping arc towards the road.|US|
 T Panther Mastery|QID|190|M|35.56,10.54|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
 A Panther Mastery|QID|191|M|35.56,10.54|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|190|
 T Tiger Mastery|QID|185|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
 A Tiger Mastery|QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|185|
+R Venture Co. Base Camp|ACTIVE|570|M|37.21,13.47;40.00,14.97;40.84,14.76;42.61,16.70|Z|Stranglethorn Vale|CC|N|Make your way east under the bridge and head for the north side of the lake.|
+l Hostile Takeover|ACTIVE|213|L|4106 8|N|Kill Venture Co. Geologists to loot Tumbled Crystals.\n[color=FF0000]NOTE: [/color]They are spellcasters.|S|
+K Foreman Cozzle|QID|1182|M|42.72,18.37|Z|Stranglethorn Vale|L|5851|N|Head up to the top floor of the Venture Co. Operations Center, kill Foreman Cozzle inside the office, and loot his key to unlock his footlocker.\n[color=FF0000]NOTE: [/color]You'll need to pull each mob as there isn't much spacing between them and they will run. Try to avoid the ones out on the first level platform. They tend to pull as a group.|
+C Cozzle's Footlocker|QID|1182|M|43.35,20.35|Z|Stranglethorn Vale|QO|1|N|Once you have the key, drop down into the water and head for the little house beside the mill. Click on the chest to open it and loot the Fuel Regulator Blueprints.\n[color=FF0000]NOTE: [/color]There is no one inside.|NC|
+l Hostile Takeover|ACTIVE|213|L|4106 8|N|Kill Venture Co. Geologists to loot Tumbled Crystals.\n[color=FF0000]NOTE: [/color]They are spellcasters.|US|
+l Mok'thardin's Enchantment|QID|570|QO|1|N|Kill Shadowmaw Panthers to loot Shadowmaw Claws.|S|
+C Tiger Mastery|QID|186|QO|1|N|Kill Stranglethorn Tiger.|S|
+l Mok'thardin's Enchantment|ACTIVE|570|M|47.25,22.74|Z|Stranglethorn Vale|L|3839|N|Head up into the hills on the east side of Venture Co, Base Camp. Kill Stranglethorn Tigresses until one drops a Pristine Tigress Fang.\n[color=FF0000]NOTE: [/color]Watch out for the Elite Mosh'Ogg south of the road.|
+l Mok'thardin's Enchantment|QID|570|QO|1|N|Kill Shadowmaw Panthers to loot Shadowmaw Claws. You'll find them in the same area. Just listen for the 'stealth sound'.|US|
+C Tiger Mastery|QID|186|M|47.16,17.48|Z|Stranglethorn Vale|CN|QO|1|N|Kill Stranglethorn Tiger. They are spread out through the north end of the hills.|US|
+R Nesingwary's Expedition|ACTIVE|186|M|37.56,11.73|Z|Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
+T Tiger Mastery|QID|186|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
+A Tiger Mastery|QID|187|M|35.62,10.62|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|186|
 
+
+;C The Defense of Grom'gol|QID|568|QO|1|N|Lashtail Raptor slain.|S|
 ;l Bloodscalp Tusk|ACTIVE|581|L|3901 9|N|Kill any Bloodscalp to loot them.|S|
 ;l Bloody Bone Necklaces|ACTIVE|596|L|3915 25|N|Kill any Bloodscalp to loot them.|S|
 
