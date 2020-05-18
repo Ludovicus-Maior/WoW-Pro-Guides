@@ -128,7 +128,7 @@ A Elixir of Pain|QID|501|M|61.47,19.13|Z|Hillsbrad Foothills|N|From Apothecary L
 A Elixir of Agony|QID|509|M|61.47,19.13|Z|Hillsbrad Foothills|N|From Apothecary Lydon.|
 T Time To Strike|QID|494|M|62.28,20.25|Z|Hillsbrad Foothills|N|To High Executor Darthalia.|
 A Battle of Hillsbrad|QID|527|M|62.28,20.25|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
-A WANTED: Syndicate Personnel|QID|549|M|62.62,20.73|Z|Hillsbrad Foothills|N|From High Executor Darthalia.|
+A WANTED: Syndicate Personnel|QID|549|M|62.62,20.73|Z|Hillsbrad Foothills|N|From the Wanted post beside the Chapel entrance.|
 A The Rescue|QID|498|M|63.20,20.66|Z|Hillsbrad Foothills|N|From Krusk.|
 C Elixir of Suffering|QID|496|QO|1;2|N|Kill Gray Bears for their Tongue and Moss Creepers for Creeper Ichor.|S|
 C Elixir of Pain|QID|501|QO|1|N|Kill Mountain Lions for vials of their blood.|S|
