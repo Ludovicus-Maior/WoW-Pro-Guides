@@ -478,23 +478,35 @@ function WoWPro.Recorder.AddStep(stepInfo, position)
     if pos > WoWPro.stepcount then
         pos = WoWPro.stepcount
     end
-    WoWPro.Recorder:dbp("Adding new step %d %s [%s]", pos+1, stepInfo.action, stepInfo.step)
+
+    pos = pos + 1
+    WoWPro.Recorder:dbp("Adding new step %d %s [%s]", pos, stepInfo.action, stepInfo.step)
     for key, tag in pairs(WoWPro.Tags) do
         local value = stepInfo[key]
         if not value then value = false end
-        tinsert(WoWPro[key], pos+1, value)
-        -- WoWPro.Recorder:dbp("Adding key "..key.." at position "..pos+1)
+
+        -- reverse iterate the key table, and shift all values up one
+        for i = WoWPro.stepcount, pos, -1 do
+            WoWPro[key][i + 1] = WoWPro[key][i]
+        end
+
+        -- insert the new step
+        WoWPro[key][pos] = value
+        -- WoWPro.Recorder:dbp("Adding key "..key.." at position "..pos)
     end
-    WoWPro.stepcount = WoWPro.stepcount+1
+
+    WoWPro.stepcount = WoWPro.stepcount + 1
     if WoWPro.Recorder.SelectedStep then
         WoWPro.Recorder.SelectedStep = WoWPro.Recorder.SelectedStep + 1
     else
         WoWPro.Recorder.SelectedStep = WoWPro.stepcount
     end
-    WoWPro.Recorder:CheckpointCurrentGuide("AddStep")
-    local line = WoWPro.EmitStep(pos+1)
+
+    local line = WoWPro.EmitStep(pos)
     line = line:gsub("||", "¦") -- Change the ||'s into fancy unicode ¦'s for display only
     WoWPro.Recorder:Print(line)
+
+    WoWPro.Recorder:CheckpointCurrentGuide("AddStep")
     WoWPro:UpdateGuide("WoWPro.Recorder.AddStep()")
 end
 
@@ -506,7 +518,18 @@ function WoWPro.Recorder:RemoveStep(position)
     local pos = position or WoWPro.stepcount
     WoWPro.Recorder:dbp("Deleteing step %d %s [%s]", pos, WoWPro.action[pos], WoWPro.step[pos])
     for key, tag in pairs(WoWPro.Tags) do
-        tremove(WoWPro[key], pos)
+        -- delete the step
+        WoWPro[key][pos] = nil
+
+        if pos < WoWPro.stepcount then
+            -- iterate the key table, and shift all values down one
+            for i = pos + 1, WoWPro.stepcount do
+                WoWPro[key][i - 1] = WoWPro[key][i]
+            end
+
+            -- also delete the last value, this prevents the last step from being duplicated
+            WoWPro[key][WoWPro.stepcount] = nil
+        end
         -- WoWPro.Recorder:dbp("Removing key "..key.." at position "..pos)
     end
 
