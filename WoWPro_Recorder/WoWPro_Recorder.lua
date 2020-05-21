@@ -410,12 +410,14 @@ function WoWPro.Recorder:RowUpdate(offset)
             {text = "Move Earlier", func = function()
                 local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
                 if pos == 1 then return end
-                for key,tag in pairs(WoWPro.Tags) do
+
+                for key, tag in pairs(WoWPro.Tags) do
                     local a = WoWPro[key][pos]
                     local b = WoWPro[key][pos-1]
                     WoWPro[key][pos] = b
                     WoWPro[key][pos-1] = a
                 end
+
                 WoWPro.Recorder.SelectedStep = pos-1
                 WoWPro.Recorder:CheckpointCurrentGuide("MoveEarlier")
                 WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveEarlier)")
@@ -423,25 +425,26 @@ function WoWPro.Recorder:RowUpdate(offset)
             {text = "Move Later", func = function()
                 local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
                 if pos == WoWPro.stepcount then return end
+
                 for key,tag in pairs(WoWPro.Tags) do
                     local a = WoWPro[key][pos]
                     local b = WoWPro[key][pos+1]
                     WoWPro[key][pos] = b
                     WoWPro[key][pos+1] = a
                 end
+
                 WoWPro.Recorder.SelectedStep = pos+1
                 WoWPro.Recorder:CheckpointCurrentGuide("MoveLater")
                 WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(MoveLater)")
             end},
             {text = "Clone Step", func = function()
                 local pos = WoWPro.Recorder.SelectedStep or WoWPro.stepcount
-                for key,tag in pairs(WoWPro.Tags) do
-                    if not WoWPro[key][pos] then WoWPro[key][pos] = false end
-                    tinsert(WoWPro[key], pos+1, WoWPro[key][pos])
+                local stepInfo = {}
+                for key, tag in pairs(WoWPro.Tags) do
+                    stepInfo[key] = WoWPro[key][pos]
                 end
-                WoWPro.stepcount = WoWPro.stepcount+1
-                WoWPro.Recorder:CheckpointCurrentGuide("Clone")
-                WoWPro:UpdateGuide("WoWPro.Recorder:RowUpdate(Clone)")
+
+                WoWPro.Recorder.AddStep(stepInfo, pos)
             end}
         }
         WoWPro.Recorder.RowDropdownMenu[i] = dropdown
