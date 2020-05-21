@@ -400,9 +400,8 @@ function WoWPro:LoadGuide(guideID)
         WoWPro:print("Guide %s already loaded. Recycle!", guideID)
         return
     end
-    if guideID then
-        WoWProDB.char.currentguide = guideID
-    end
+
+    WoWProDB.char.currentguide = guideID
     WoWPro.GuideLoaded = false
     WoWPro.current_strategy = nil
     WoWPro:SendMessage("WoWPro_LoadGuide")

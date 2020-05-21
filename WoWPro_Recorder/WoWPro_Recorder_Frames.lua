@@ -1230,7 +1230,6 @@ function WoWPro.Recorder:CreateRecorderFrame()
                             WoWPro.Guides[WoWProDB.char.currentguide] = WoWPro.Guides[WoWProDB.char.currentguide].original
                         end
                         WoWPro_RecorderDB[WoWProDB.char.currentguide] = nil
-                        WoWProDB.char.currentguide = nil
                         WoWPro:LoadGuide()
                         dialog:Close("WoWPro Recorder - Delete");
                     end,
