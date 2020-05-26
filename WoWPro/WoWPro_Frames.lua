@@ -803,7 +803,8 @@ function WoWPro.ResetCurrentGuide()
     end
     WoWPro.ClearNpcFauxQuests(GID)
     WoWPro.ClearQID2Guide(GID)
-    WoWPro:LoadGuide()
+    WoWPro.GuideLoaded = false
+    WoWPro:LoadGuide(GID)
 end
 
 function WoWPro.InterfaceOptionsFrame_OpenToCategory(menu)
