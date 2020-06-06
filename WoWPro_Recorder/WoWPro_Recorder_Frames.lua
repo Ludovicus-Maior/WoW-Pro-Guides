@@ -582,10 +582,19 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     type = "input",
                     name = "Looted Item Quantity:",
                     desc = "If the step compeltes when you loot a certain number of items, put the number here.",
-                    get = function(info,val) return WoWPro.Recorder.stepInfo.lootqty end,
+                    get = function(info,val)
+                        if WoWPro.Recorder.stepInfo.lootqty then
+                            return tostring(WoWPro.Recorder.stepInfo.lootqty)
+                        else
+                            return ""
+                        end
+                    end
                     set = function(info,val)
-                        if val == "" then val = nil end
-                        WoWPro.Recorder.stepInfo.lootqty = val
+                        if (val == "") or (val == nil) then
+                            WoWPro.Recorder.stepInfo.lootqty = nil
+                        else
+                            WoWPro.Recorder.stepInfo.lootqty = tonumber(val)
+                        end
                     end,
                 },
                 level = {
