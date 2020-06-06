@@ -168,6 +168,7 @@ K The Swarm Grows|QID|1147|M|71.33,83.15;66.52,86.15|CN|QO|1;2;3|N|At the Rustma
 l Parts of the Swarm|QID|1148|L|5855 1|N|Kill Silithids to collect a Silithid Heart.|US|
 l Parts of the Swarm|QID|1148|L|5854 5|N|Kill Silithids to collect Silithid Talons.|US|
 l Parts of the Swarm|QID|1148|L|5853 3|N|Kill Silithids to collect Intact Silithid Carapaces.|US|
+l Turtle Meat|QID|1105|L|3712 10|N|Keep 10 pieces of Turtle Meat. You will need these for a quest much later in this guide.|
 T A Bump in the Road|QID|1175|M|81.63,78.08|N|To Trackmaster Zherin.|
 T Load Lightening|QID|1176|M|80.11,75.83|N|To Pozzik.|
 A Goblin Sponsorship|QID|1178|M|80.11,75.83|N|From Pozzik.|PRE|1176|
@@ -202,7 +203,7 @@ F Ratchet|QID|1111|M|45.50,63.84|Z|Orgrimmar|
 b Booty Bay|QID|1181|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|
 T Goblin Sponsorship|QID|1181|M|27.06,77.59;27.04,77.14;27.23,76.88|Z|Stranglethorn Vale|CC|N|To Baron Revilgaz. Work your way through the Salty Sailor Tavern up to the deck.|
 A Goblin Sponsorship|QID|1182|M|27.23,76.88|Z|Stranglethorn Vale|N|From Baron Revilgaz.|
-f Booty Bay|QID|1112|M|27.52,77.67|Z|Stranglethorn Vale|N|At Gringer.|TAXI|-Booty Bay|
+f Booty Bay|QID|1112|M|26.87,77.09|Z|Stranglethorn Vale|N|At Gringer.|TAXI|-Booty Bay|
 b Ratchet|QID|1112|M|25.80,73.10|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|
 F Freewind Post|QID|5088|M|63.11,37.10|Z|The Barrens|
 T Parts for Kravel|QID|1112|M|77.79,77.25|N|To Kravel Koalbeard at Mirage Raceway.|
@@ -309,27 +310,66 @@ A Bodyguard for Hire |QID|5821|M|66.55,37.48;67.25,56.55|Z|Desolace|CC|ELITE|N|[
 T Bodyguard for Hire |QID|5821|M|60.86,61.88|Z|Desolace|N|Head to Smeed Scrabblescrew at Scrabblescrew's Camp.|
 R Ghost Walker Post|QID|1482|M|58.59,57.04|Z|Desolace|
 T The Corrupter|QID|1482|M|52.25,53.50|Z|Desolace|N|To Maurin Bonesplitter.|
-A The Corrupter|QID|1484|M|52.25,53.50|Z|Desolace|N|After a brief cinematic, accept the follow up from Maurin Bonesplitter.|PRE|1482|
-T The Corrupter|QID|1484|M|52.57,54.34|Z|Desolace|N|To Takata Steelblade.To Takata Steelblade.\n[color=FF0000]NOTE: [/color]Do not pick up the follow up quest... yet.|
+A The Corrupter|QID|1484|M|52.25,53.50|Z|Desolace|N|After a brief cinematic, accept the follow-up quest from Maurin Bonesplitter.|PRE|1482|
+T The Corrupter|QID|1484|M|52.57,54.34|Z|Desolace|N|To Takata Steelblade.To Takata Steelblade.\n[color=FF0000]NOTE: [/color]Do not pick up the follow-up quest... yet.|
 R Shadowprey Village|QID|6143|M|26.50,75.15|Z|Desolace|N|Return to Shadowprey Village.|
 A Hunting in Stranglethorn|QID|5763|M|25.05,72.26|Z|Desolace|N|From Roon Wildmane.|
 T Other Fish to Fry|QID|6143|N|To Drulzegar Skraghook.|
 T Clam Bait|QID|6142|N|To Mai'Lahii.|
 
 ; --- Hillsbrad Foothills/Alterac
-F Orgrimmar|ACTIVE|1136|M|21.60,74.05|Z|Desolace|N|You're done with this area for now. You are now headed to STV.|
-b Tirisfal Glades|ACTIVE|1136|M|50.8,13.6|Z|Durotar|N|Take the Zeppelin to Undercity.\nA side trip to free up some space in your quest log.|
+F Orgrimmar|ACTIVE|1136|M|21.60,74.05|Z|Desolace|N|You're done with this area for now. You are now headed to Hillsbrad and Alterac.|
+b Tirisfal Glades|ACTIVE|1136|M|50.8,13.6|Z|Durotar|N|Take the Zeppelin to Undercity.|
+N Turtle Meat|QID|7371|L|3712 10|N|Make sure you have the 10 pieces of Turtle Meat you were told to keep earlier. You'll need them now.|
 F Tarren Mill|ACTIVE|1136|M|62.89,48.16|Z|Undercity|N|Enter Undercity and fly to Tarren Mill.|
-R Alterac Mountains|ACTIVE|1136|M|55.60,19.41;54.49,9.46|Z|Hillsbrad Foothills|CC|N|Head out of Tarren Mill and take the road north.|
+A Prison Break In|QID|544|M|61.59,20.83|Z|Hillsbrad Foothills|N|From Magus Wordeen Voidglare.|
+A Stone Tokens|QID|556|M|61.50,20.94|Z|Hillsbrad Foothills|N|From Keeper Bel'varil.|
+A Soothing Turtle Bisque|QID|7321|M|62.31,19.09|Z|Hillsbrad Foothills|N|From Christoph Jeffcoat.|
+B Soothing Spices|ACTIVE|7321|M|62.29,19.04|Z|Hillsbrad Foothills|L|3713|N|From Christoph Jeffcoat.|
+t Soothing Turtle Bisque|QID|7321|M|62.31,19.09|Z|Hillsbrad Foothills|N|To Christoph Jeffcoat.|
+A Helcular's Revenge|QID|552|M|63.88,19.67|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
+A Infiltration|QID|533|M|63.23,20.66|Z|Hillsbrad Foothills|N|From Krusk.|
+R Darrow Hill|QID|552|M|49.10,32.22|Z|Hillsbrad Foothills|N|Run to the Cave in Darrow Hill.|
+l Helcular's Revenge|ACTIVE|552|L|3708|N|Kill Yetis at Darrow Hill to loot Helcular's Rod|
+T Helcular's Revenge|QID|552|M|63.88,19.65|Z|Hillsbrad Foothills|N|To Novice Thaivand.|
+A Helcular's Revenge|QID|553|M|63.88,19.65|Z|Hillsbrad Foothills|N|From Novice Thaivand.|
+R Darrow Hill|QID|553|M|49.10,32.22|Z|Hillsbrad Foothills|N|Return to the Cave in Darrow Hill.|
+C Flame of Azel|QID|553|M|43.89,28.06|Z|Hillsbrad Foothills|QO|1|N|Click on Flame of Azel to charge Helcular's Rod.|NC|
+C Flame of Veraz|QID|553|M|44.03,26.56|Z|Hillsbrad Foothills|QO|2|N|Click on Flame of Veraz to charge Helcular's Rod.|NC|
+R Alterac Mountains|ACTIVE|1136^553|M|55.60,19.41;54.49,9.46|Z|Hillsbrad Foothills|CC|N|Head out of Tarren Mill and take the road north.|
 l Mountain Lion Carcass|ACTIVE|1136|M|49.18,71.50|Z|Alterac Mountains|L|5810|N|Kill a Mountain Lion and loot it's carcass. You'll need this to spawn Frostmaw.\nAny type of Mountain Lion will do.\n[color=FF0000]NOTE: [/color]The Fresh Carcass has a time limit of 30 minutes before it despawns and you have to get another one.|
 R Growless Cave|ACTIVE|1136|M|49.95,63.13;37.58,68.29|Z|Alterac Mountains|CC|N|Head back to the road and continue north to Gallow's Corner. From here, head west to the Growless Cave entrance.|
+N Flame of Uzel|ACTIVE|1136&553|N|This item is used for both 'Frostmaw' and 'Helcular's Revenge'. That being said, if you click on it, I cannot say for certain which quest will activate first. Clicking on the 'Fresh Carcass' will guarantee you start Frostmaw.|
 l Fresh Carcass|ACTIVE|1136|L|5810|N|You need to go kill a Mountain Lion to get another Fresh Carcass.\n[color=FF0000]NOTE: [/color]Remember, the Fresh Carcass has a time limit of 30 minutes before it despawns.|
-C Frostmaw|QID|1136|M|37.52,66.36|Z|Alterac Mountains|QO|1|U|5810|N|Clear all of the Yetis inside the cave. Once cleared, enter the cave and place (use) the Fresh Carcass on the Flame of Uzel. When Frostmaw spawns, kill him and loot his Mane.|
+C Frostmaw|QID|1136|M|37.52,66.36|Z|Alterac Mountains|QO|1|U|5810|N|Clear all of the Yetis inside the cave. Once cleared, click on (use) the Fresh Carcass at Flame of Uzel. When Frostmaw spawns, kill him and loot his Mane.|
+C Flame of Uzel|QID|553|Z|Hillsbrad Foothills|QO|3|N|Click on Flame of Uzel to charge Helcular's Rod.|
+R Lordamere Internment Camp|QID|544|M|33.87,69.92|Z|Alterac Mountains|N|Exit the cave and head west to Dalaran.|
+l Stone Tokens|ACTIVE|556|M|21.70,82.83|Z|Alterac Mountains|L|3714 10|QO|1|S|N|Kill Dalaran Shield Guards and Theurgists to loot the Stone Tokens.\n[color=FF0000]NOTE: [/color]Keep an eye on your health because the Shield Guards can hit quite hard.|
+K Ricter|QID|544|M|19.96,84.43|Z|Alterac Mountains|QO|2|N|Kill Ricter to loot the Bloodstone Marble.\n[color=FF0000]NOTE: [/color]All of the targets involved in this quest are non-hostile and you can clear the area without fear of aggroing them.|
+K Alina|QID|544|M|20.33,86.34|Z|Alterac Mountains|QO|3|N|Kill Alina to loot the Bloodstone Shard.|
+K Dermot|QID|544|M|19.90,85.93|Z|Alterac Mountains|QO|1|N|Kill Dermot to loot the Bloodstone Wedge.|
+K Kegan Darkmar|QID|544|M|17.86,83.10|Z|Alterac Mountains|QO|4|N|ork your way into the house and up to the top floor. Each 'room' has 2 mobs in it.\nOnce you have dispatached the 2 guards at the top of the stairs, target Warden Belamoore and take her out first. Once the the room is clear, kill Kegan Darkmar to loot the Bloodstone Oval.|
+l Stone Tokens|ACTIVE|556|M|21.70,82.83|Z|Alterac Mountains|L|3714 10|N|Kill Dalaran Shield Guards and Theurgists to loot the Stone Tokens.\n[color=FF0000]NOTE: [/color]Keep an eye on your health because the Shield Guards can hit quite hard.|US|
+R Corrahn's Dagger|QID|533|M|29.01,79.39;40.50,84.48;44.09,77.70|Z|Alterac Mountains|CC|N|Leave the camp and head east into the hills. Continue east making sure to stay clear of the Alliance fort at The Headlands.|
+N Sofera's Naze|ACTIVE|533|N|If you find this area busy, you can find more mobs east of here, across the road.|
+l Infiltration|ACTIVE|533|L|3601|N|Kill Syndicate Thieves and Footpads until one drops the Syndicate Missive.|
+R Tarren Mill|QID|533|M|55.81,19.71|Z|Hillsbrad Foothills|N|Make your way back to Tarren Mill.|
+T Prison Break In|QID|544|M|61.60,20.84|Z|Hillsbrad Foothills|N|To Magus Wordeen Voidglare.\n[color=FF0000]NOTE: [/color]Do not get the follow-up.|
+T Stone Tokens|QID|556|M|61.49,20.94|Z|Hillsbrad Foothills|N|To Keeper Bel'varil.\n[color=FF0000]NOTE: [/color]Do not get the follow-up.|
+T Infiltration|QID|533|M|63.24,20.66|Z|Hillsbrad Foothills|N|To Krusk.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
+R The River|ACTIVE|7321^553|M|67.66,19.73|Z|Hillsbrad Foothills|CC|N|Head east to the river.|
+l Turtle Meat|ACTIVE|7321|L|3712 10|N|Kill Turtles to loot their meat.|S|
+R Southshore|ACTIVE|553|M|54.47,51.56|Z|Hillsbrad Foothills|N|Follow the river south to Southshore.\n[color=FF0000]NOTE: [/color]Keep your distance from the Alliance guards patroling the edge of Southshore.|
+T Helcular's Revenge|QID|553|M|52.76,53.34|Z|Hillsbrad Foothills|N|Click on Helcular's tombstone to turn in the quest.\n[color=FF0000]NOTE: [/color]Do not stick around as this area is patrolled by a couple Alliance guards.|
+l Turtle Meat|ACTIVE|7321|L|3712 10|N|Finish collecting your Turtle meat as you make your way north along the river towards Tarren Mill.\n[color=FF0000]NOTE: [/color]You may have to travel up and down the river to kill enough turtles.|US|
+R Tarren Mill|ACTIVE|7321|M|67.69,21.35|Z|Hillsbrad Foothills|N|Make your way back to Tarren Mill.|
+T Soothing Turtle Bisque|QID|7321|M|62.32,19.06|Z|Hillsbrad Foothills|N|To Christoph Jeffcoat.|
 
 ; --- Thunder Bluff
 H Orgrimmar|ACTIVE|1136|N|Use your hearth to save time. If it's on CD, run back to Tarren Mills, fly to Undercity and take the Zeppelin to Orgrimmar.|
 F Thunder Bluff|ACTIVE|1136|M|45.50,63.84|Z|Orgrimmar|
 T Frostmaw|QID|1136|M|61.54,80.92|Z|Thunder Bluff|N|To Melor Stonehoof on Hunter Rise.\nDo not get Deadmire.|
+* Kodo Skin Scroll|QID|1136|U|5838|N|You safely delete your Kodo Skin Scroll now.|
 
 ; --- Stranglethorn Vale
 N Stranglethorn Vale|ACTIVE|5762|N|If you have the Booty Bay FP already, this is going to be a lot quicker.|
@@ -344,14 +384,14 @@ A Bloodscalp Ears|QID|189|M|27.00,77.13|Z|Stranglethorn Vale|N|From Kebok, just 
 A Hostile Takeover|QID|213|M|27.00,77.13|Z|Stranglethorn Vale|N|From Kebok.|TAXI|Booty Bay|
 A Investigate the Camp|QID|201|M|26.94,77.20|Z|Stranglethorn Vale|N|From Krazek, who is standing beside Kebok.|TAXI|Booty Bay|
 A Supply and Demand|QID|575|M|27.45,77.54;28.29,77.59|Z|Stranglethorn Vale|CC|N|From Drizzlik.|TAXI|Booty Bay|
-F Grom'gol Base Camp|QID|5762|M|27.52,77.67|Z|Stranglethorn Vale|TAXI|Grom'gol Base Camp|
+F Grom'gol Base Camp|QID|5762|M|26.87,77.09|Z|Stranglethorn Vale|TAXI|Grom'gol Base Camp|
 ; --- Missing Booty Bay FP
 F Ratchet|QID|5762|M|47.02,49.83|Z|Thunder Bluff|N|Let's get back on track. On to STV.|TAXI|-Booty Bay|
 b Booty Bay|QID|5762|M|63.70,38.63|Z|The Barrens|N|Take the boat to Booty Bay.|TAXI|-Booty Bay|
 A Supply and Demand|QID|575|M|27.99,76.59;28.32,77.00;28.29,77.59|Z|Stranglethorn Vale|CC|N|From Drizzlik.|TAXI|-Booty Bay|
 A Investigate the Camp|QID|201|M|27.15,77.70;26.95,77.21|Z|Stranglethorn Vale|CC|N|From Krazek.|TAXI|-Booty Bay|
-f Booty Bay|QID|5762|M|27.52,77.67|Z|Stranglethorn Vale|N|Go around the corner to Gringer and pick up the flight path.|TAXI|-Booty Bay|
-F Grom'gol Base Camp|QID|5762|M|27.52,77.67|Z|Stranglethorn Vale|TAXI|Grom'gol Base Camp| ; --- If, for some reason, they had that FP without Booty Bay
+f Booty Bay|QID|5762|M|26.87,77.09|Z|Stranglethorn Vale|N|Go around the corner to Gringer and pick up the flight path.|TAXI|-Booty Bay|
+F Grom'gol Base Camp|QID|5762|M|26.87,77.09|Z|Stranglethorn Vale|TAXI|Grom'gol Base Camp| ; --- If, for some reason, they had that FP without Booty Bay
 b Ratchet|QID|5762|ACTIVE|-570|M|25.80,73.10|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|TAXI|-Grom'gol Base Camp|
 F Orgrimmar|QID|5762|ACTIVE|-570|M|63.11,37.10|Z|The Barrens|TAXI|-Grom'gol Base Camp|
 b Grom'gol Base Camp|QID|5762|ACTIVE|-570|M|32.39,43.82|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|TAXI|-Grom'gol Base Camp|
@@ -370,6 +410,7 @@ A Raptor Mastery|QID|194|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingw
 A Tiger Mastery|QID|185|M|35.61,10.63|Z|Stranglethorn Vale|N|From Ajeck Rouack.|PRE|583|
 A Panther Mastery|QID|190|M|35.56,10.54|Z|Stranglethorn Vale|N|From Sir S. J. Erlgadin.|PRE|583|
 A The Green Hills of Stranglethorn|QID|338|N|From Barnil Stonepot.|PRE|583|
+N Chapter quests|ACTIVE|338|N|From this point forward, every time you return to the Camp, check in with Barnil Stonepot to see if you have enough pages to finish a chapter quest.\n[color=FF0000]NOTE: [/color]To save log space do not accept the Chapter quests until you can complete them.|
 C Tiger Mastery|QID|185|M|32.61,9.55;33.68,11.64;36.40,13.05|Z|Stranglethorn Vale|CC|QO|1|N|Heading in a westerly direction from the camp, kill Young Stranglethorn Tigers. In a looping arc, make your way east to the bridge.|
 C Panther Mastery|QID|190|M|37.69,14.85;39.75,13.70;41.23,12.99;41.27,8.56|Z|Stranglethorn Vale|CC|QO|1|N|As you make your way east under the bridge, kill Young Stranglethorn Panthers. Cross the river to the north side and work your way west in a sweeping arc towards the road.|
 T Panther Mastery|QID|190|M|35.56,10.54|Z|Stranglethorn Vale|N|To Sir S. J. Erlgadin.|
@@ -424,21 +465,24 @@ A Mok'thardin's Enchantment|QID|572|M|32.12,29.23|Z|Stranglethorn Vale|N|From Fa
 F Booty Bay|ACTIVE|1182|M|32.50,29.33|Z|Stranglethorn Vale|
 T Goblin Sponsorship|QID|1182|M|27.23,76.87|Z|Stranglethorn Vale|N|To Baron Revilgaz.|
 A Goblin Sponsorship|QID|1183|M|27.23,76.87|Z|Stranglethorn Vale|N|From Baron Revilgaz.|PRE|1182|
-t Bloodscalp Ears|QID|189|M|27.00,77.13|Z|Stranglethorn Vale|N|To Kebok.|
+T Bloodscalp Ears|QID|189|M|27.00,77.13|Z|Stranglethorn Vale|N|To Kebok.|
 T Hostile Takeover|QID|213|M|27.00,77.13|Z|Stranglethorn Vale|N|To Kebok.|
 T Investigate the Camp|QID|201|M|26.94,77.21|Z|Stranglethorn Vale|N|To Krazek.|
 T Supply and Demand|QID|575|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
 A Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|From Drizzlik.|PRE|575|
 A Singing Blue Shards|QID|605|M|27.12,77.22|Z|Stranglethorn Vale|N|From Crank Fizzlebub.|
+; --- Thousand Needles
 b Ratchet|QID|1183|M|25.80,73.10|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|
 F Freewind Post|QID|605|M|45.05,49.16|
 R Mirage Raceway|QID|1183|N|Leave Freewind Post and follow the road east into The Shimmering Flats to Mirage Raceway.|
 T Goblin Sponsorship|QID|1183|M|80.18,75.89|N|To Pozzik.|
 A The Eighteenth Pilot|QID|1186|M|80.18,75.89|N|From Pozzik.|PRE|1183|
 T The Eighteenth Pilot|QID|1186|M|80.31,76.06|N|To Razzeric.\n[color=FF0000]NOTE: [/color]Do not get the follow-up quest.|
+; --- The Barrens
 H Orgrimmar|QID|605|N|Hearth to Orgrimmar to do training, etc. before heading back to STV.|
 F Thunder Bluff|QID|605|M|45.50,63.84|Z|Orgrimmar|C|Druid|
 F Orgrimmar|QID|605|M|47.02,49.83|Z|Thunder Bluff|C|Druid|
+; --- STV
 b Grom'gol Base Camp|QID|605|M|50.59,12.67|Z|Durotar|N|Take the Zeppelin to Grom'gol Base Camp.|
 R Mizjah Ruins|QID|569|M|37.05,28.25|Z|Stranglethorn Vale|N|Use the east exit and follow the road.|
 l Some Assembly Required|ACTIVE|577|L|4104 5|N|Kill Snapjaw Crocolisks to loot them. You'll find them along the river edge.|S|
@@ -449,25 +493,43 @@ T The Defense of Grom'gol|QID|569|M|32.20,28.86|Z|Stranglethorn Vale|N|To Comman
 ;L Level 37|LVL|37|N|You should be around level 37 by this point.|
 l Singing Blue Shards|ACTIVE|605|Z|Stranglethorn Vale|L|3918 10|N|Kill Crystal Spine Basilisks to loot the Singing Crystal Shards.|S|
 R Zuuldaia Ruins|QID|582|M|26.97,19.00;23.14,16.56|Z|Stranglethorn Vale|CC|N|Using the north exit, leave Grom'gol and follow the Savage Coast north to the Zuuldaia Ruins.|
-N Bloodscalp Headhunters|ACTIVE|582|N|There are not very many of them around the ruins. If you make your way to the arch in the NE corner and walk up it, you'll find several in this area.|
+N Bloodscalp Headhunters|ACTIVE|582|N|There are not very many of them around the ruins. If you make your way to the arch in the NE corner and walk up the ramp, you'll find several in this area.|
 l Headhunting|ACTIVE|582|L|1532 20|N|Kill Bloodscalp Headhunters to loot the Shrunken Heads. (50% drop rate)|
-R Grom'gol Base Camp|QID|582|M|23.10,16.49;26.99,18.82;31.80,26.57|Z|Stranglethorn Vale|CC|N|Return to Grom'gol.|
+l Bloody Bone Necklaces|ACTIVE|596|L|3915 25|N|Kill any Bloodscalp to loot them.|US|
+R The Vile Reef|QID|629|M|23.10,16.49;26.99,18.82;26.54,21.21|Z|Stranglethorn Vale|CC|N|Return to Grom'gol.|
+N Giant Clams|ACTIVE|1107|N|While you're in the area, keep an eye out for Giant Clams. They may contain a 'Blue Pearl'. It's a quest item that can be sold in the AH, if you don't use them for the 'Pearl Diving' quest.|
+l Encrusted Tail Fins|QID|1107|L|5796 10|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]These mobs are Elite and may be too tough for you at this point in time. Skip this step if they are.|S|
+C The Vile Reef|QID|629|M|24.8,22.8|Z|Stranglethorn Vale|QO|1|N|Loot the Tablet Shard. It's leaning against the outside wall.\n[color=FF0000]NOTE: [/color]You can get this without aggroing the 2 Elite mobs on the other side. Swim along the surface to the location and dive straight down.\nIf you do it quick, you'll resurface with 1/3 of your breath left.|NC|
+l Encrusted Tail Fins|QID|1107|L|5796 10|N|Kill Saltscale Murlocs to loot Encrusted Tail Fins.\n[color=FF0000]NOTE: [/color]These mobs are Elite and may be too tough for you at this point in time. Skip this step if they are.|US|
+R Nesingwary's Expedition|ACTIVE|195|M|37.49,11.69|Z|Stranglethorn Vale|N|Head back to Nesingwary's Expedition.|
+T Raptor Mastery|QID|195|M|35.66,10.81|Z|Stranglethorn Vale|N|To Hemet Nesingwary.|
+A Raptor Mastery|QID|196|M|35.66,10.81|Z|Stranglethorn Vale|N|From Hemet Nesingwary.|PRE|195|
+T Tiger Mastery|QID|188|M|35.62,10.62|Z|Stranglethorn Vale|N|To Ajeck Rouack.|
+R Grom'gol Base Camp|QID|582|M|35.55,15.18;38.49,23.63;34.33,28.18|Z|Stranglethorn Vale|CC|N|Return to Grom'gol.|
 T Headhunting|QID|582|M|32.16,27.72|Z|Stranglethorn Vale|N|To Nimboya.|
 * Leftover Shrunken Heads|QID|582|U|1532|N|Delete any leftover Shrunken Heads.|
-t Bloody Bone Necklaces|QID|596|M|32.28,27.71|Z|Stranglethorn Vale|N|To Kin'weelay.|
+T Bloody Bone Necklaces|QID|596|M|32.28,27.71|Z|Stranglethorn Vale|N|To Kin'weelay.|
 A Bloodscalp Clan Heads|QID|584|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|PRE|582|
-R Ruins of Zul'Kunda|QID|584|M|26.97,19.00;23.14,16.56|Z|Stranglethorn Vale|CC|N|Head back to the rear entrance to Zul'Kunda.|
-
-
-;R Nesingwary's Expedition|QID|188|N|Use the north exit and make your way back to the camp.\n[color=FF0000]NOTE: [/color]Cut through the ruins to continue working on your Bloodscalp collection quests.|
-
-;l Bloodscalp Ears|ACTIVE|189|L|1519 15|N|Kill any Bloodscalp troll to loot them.|US|
-;l Hunt for Yenniku|ACTIVE|581|L|3901 9|N|Kill any Bloodscalp troll to loot them.|US|
-;l Bloodscalp Tusk|ACTIVE|581|L|3901 9|N|Kill any Bloodscalp to loot them.|S|
-;l Bloody Bone Necklaces|ACTIVE|596|L|3915 25|N|Kill any Bloodscalp to loot them.|S|
+A Trollbane|QID|638|M|32.16,27.72|Z|Stranglethorn Vale|N|From Nimboya.|
+N Leveling up|QID|638|N|We need to gain a few more levels to continue in STV. Off to Arathi Highlands.|
+F Booty Bay|QID|577|M|32.50,29.33|Z|Stranglethorn Vale|N|To turn in a quest to make room in your log and your bag.|
+T Some Assembly Required|QID|577|M|28.29,77.59|Z|Stranglethorn Vale|N|To Drizzlik.|
+N Bank/AH|ACTIVE|638|N|Before leaving, take this opportunity to unload any items you won't need until you return to STV. Also, use the AH to sell any extra 'The Green Hills of Stranglethorn manuscript pages' you may have.|
+; --- Kalimdor
+F Grom'gol Base Camp|QID|638|M|26.87,77.09|Z|Stranglethorn Vale|
+b Tirisfal Glades|QID|638|M|31.57,29.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Undercity.|
+F Tarren Mill|QID|638|M|62.89,48.16|Z|Undercity|N|Fly from Undercity to Tarren Mill.|
 
 
 N Under Construction|QID|4742|N|From this point on, the guide is incomplete.|
+
+;R Ruins of Zul'Kunda|QID|584|M|26.97,19.00;23.14,16.56|Z|Stranglethorn Vale|CC|N|Head back to the rear entrance to Zul'Kunda.|
+;A Excelsior|QID|628|M|28.29,77.59|Z|Stranglethorn Vale|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Drizzlik.|PRE|577|
+;A Scaring Shaky|QID|606|M|27.78,77.07|Z|Stranglethorn Vale|N|From "Sea Wolf" MacKinley.|
+;A The Bloodsail Buccaneers|QID|595|M|28.09,76.22|Z|Stranglethorn Vale|N|From First Mate Crazz.|
+;R The Cape of Stranglethorn|QID|595|M|27.95,73.74;29.38,72.85;26.86,73.58|Z|Stranglethorn Vale|CC|N|Head up the ramps to the tunnel and go though it to the other side.|
+
+
 ]]
 
 end)
