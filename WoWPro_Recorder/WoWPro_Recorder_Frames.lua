@@ -588,7 +588,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                         else
                             return ""
                         end
-                    end
+                    end,
                     set = function(info,val)
                         if (val == "") or (val == nil) then
                             WoWPro.Recorder.stepInfo.lootqty = nil
