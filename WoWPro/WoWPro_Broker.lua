@@ -845,6 +845,9 @@ function WoWPro:RowUpdate(offset)
         if WoWPro.noncombat[k] and WoWPro.action[k] == "C" then
             currentRow.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
             currentRow.action.tooltip.text:SetText("No Combat")
+        elseif WoWPro.lootitem[k] and WoWPro.action[k] == "C" then
+            currentRow.action:SetTexture(WoWPro.actiontypes['l'])
+            currentRow.action.tooltip.text:SetText("Loot Complete")
         elseif WoWPro.chat[k] then
             currentRow.action:SetTexture("Interface\\GossipFrame\\Gossipgossipicon")
             currentRow.action.tooltip.text:SetText("Chat")
