@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('RkdlAchBrofAl', "Achievements", 'DarkmoonFai
 WoWPro:GuideLevels(guide,20,120)
 WoWPro:GuideIcon(guide,"ACH",9252)
 WoWPro:GuideSteps(guide, function()
-return [[ 
+return [[
 R 1|M|42.89,55.96|N|1|CC|
 R 2|M|48.33,49.35|N|2|CC|
 R 3|M|50.85,44.30|N|3|CC|
