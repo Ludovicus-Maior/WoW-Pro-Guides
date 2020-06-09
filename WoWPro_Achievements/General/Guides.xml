@@ -14,6 +14,7 @@
 	<Script file="Ludo_FishFry.lua"/>
 	<Script file="Ludo_Lucid.lua"/>
 	<Script file="Ludo_Treasure.lua"/>
+    <Script file="Rkdl_Brood_of_Alysrazor.lua"/>
 	<Script file="Twists_Cared.lua"/>
 	<Script file="TwoToad_Caressed.lua"/>
 </Ui>
