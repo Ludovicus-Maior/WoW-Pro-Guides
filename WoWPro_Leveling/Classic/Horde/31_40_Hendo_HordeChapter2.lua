@@ -519,7 +519,40 @@ N Bank/AH|ACTIVE|638|N|Before leaving, take this opportunity to unload any items
 F Grom'gol Base Camp|QID|638|M|26.87,77.09|Z|Stranglethorn Vale|
 b Tirisfal Glades|QID|638|M|31.57,29.15|Z|Stranglethorn Vale|N|Take the Zeppelin to Undercity.|
 F Tarren Mill|QID|638|M|62.89,48.16|Z|Undercity|N|Fly from Undercity to Tarren Mill.|
+A The Hammer May Fall|QID|676|M|61.87,19.57|Z|Hillsbrad Foothills|N|From Tallow.|
 
+; --- Arathi Highlands
+R Arathi Highlands|QID|676|M|63.32,41.78;81.13,56.04;82.62,57.63|Z|Hillsbrad Foothills|CC|N|Follow the road to Thoradin's Wall in the east. Arathi is on the other side of this wall.|
+R Boulder'gor|QID|676|M|30.51,49.08|Z|Arathi Highlands|N|Enter Arathi Highlands and follow the road east.|
+;L Level 38|LVL|38|N|You should be around level 38 by this point.|
+C The Hammer May Fall|QID|676|QO|1|N|You'll find the Boulderfist Ogres all around the base of the hill.\nIgnore the Witherbarks.|
+R Boulderfist Outpost|QID|676|M|34.88,44.21|Z|Arathi Highlands|CC|N|Enter the cave on the north side of the hill.|
+C The Hammer May Fall|QID|676|QO|2|N|You'll find the Boulderfist Enforcers inside the cave.|
+R Hammerfall|QID|676|M|36.17,52.56;45.26,59.08;51.18,59.63;71.23,42.77|Z|Arathi Highlands|CC|N|Head back to the road and follow it east.|
+A Foul Magics|QID|671|M|74.71,36.30|Z|Arathi Highlands|N|From Tor'gan.|
+A Hammerfall|QID|655|M|72.63,33.94|Z|Arathi Highlands|N|From Gor'mul.|
+f Hammerfall|QID|655|M|73.05,32.68|Z|Arathi Highlands|N|At Urda.|
+T Trollbane|QID|638|M|73.80,33.96|Z|Arathi Highlands|N|To Zengu.|
+T The Hammer May Fall|QID|676|M|74.25,33.92|Z|Arathi Highlands|N|To Drum Fel.|
+A Call to Arms|QID|677|M|74.25,33.92|Z|Arathi Highlands|N|From Drum Fel.|PRE|676|
+T Hammerfall|QID|655|M|74.71,36.30|Z|Arathi Highlands|N|To Tor'gan.|
+A Raising Spirits|QID|672|M|74.71,36.30|Z|Arathi Highlands|N|From Tor'gan.|PRE|655|
+l Raising Spirits|QID|672|L|4512 10|S|N|Kill Highland Striders and Thrashers to loot 10 Highland Raptor Eyes.|
+R Shards of Myzrael|QID|642|M|62.54,33.77|Z|Arathi Highlands|N|It's in Circle of East Binding,  directly west of Hammerfall.|
+A The Princess Trapped|QID|642|M|62.54,33.75|Z|Arathi Highlands|N|Click on Shards of Myzrael to accept the quest.|
+R Witherbark Village|QID|677|M|67.42,57.10|Z|Arathi Highlands|N|Head straight south to Witherbark Village|
+C Call to Arms|QID|677|QO|1;2;3|N|Circle around the lake until you finish. Be aware that they run when dying.\nThe Headhunters are closer to the mountains than the lake.|
+R Hammerfall|QID|677|M|71.23,42.77|Z|Arathi Highlands|N|Head back to Hammerfall.|
+T Call to Arms|QID|677|M|74.25,33.94|Z|Arathi Highlands|N|To Drum Fel.|
+A Call to Arms|QID|678|PRE|677|M|74.25,33.94|Z|Arathi Highlands|N|From Drum Fel.|
+R Drywhisker Gorge|QID|642|M|73.48,30.38;77.69,35.63;81.06,39.93|Z|Arathi Highlands|CC|N|Exit through the back door and work your way along the mountains to the east side. There is a hidden path that leads up to the cave.|
+C The Princess Trapped|QID|642|L|4435 12|N|As you work your way up the path and into the cave, kill Drywhisker Kobolds, Surveyors and Diggers to loot the Motes of Myzrael.\n[color=FF0000]NOTE: [/color]They run away quickly when they get down to ~30% health. Don't chase them. Stand back and wait for them to return - they don't always pull adds.|
+T The Princess Trapped|QID|642|M|84.32,30.92|Z|Arathi Highlands|N|Click on the Iridescent Shards to turn in the quest.|
+A Stones of Binding|QID|651|M|84.32,30.92|Z|Arathi Highlands|PRE|642|
+R Circle of East Binding|ACTIVE|651|M|71.26,31.80|Z|Arathi Highlands|N|Hang a right as you exit the cave and walk down the hill/cliff. There is less fighting as opposed to going left and down the way you came up.\nCircle behind Hammerfall and make your way to Circle of East Binding.|
+C Stone of East Binding|QID|651|M|66.74,29.68|Z|Arathi Highlands|QO|2|N| Once you have cleared the center stone, click on it to loot the Cresting Key.|NC|
+R Circle of Outer Binding|ACTIVE|651|N|Head SW to the next ring of stones.\nYou'll want to clear this area as you approach. These guys hit hard and multiple pulls are going to be bad.|
+C Stone of Outer Binding|QID|651|M|52.00,50.74|Z|Arathi Highlands|QO|3|N|Go slow and try pulling 1 at a time. Once you have cleared the center stone, click on it to loot the key.|NC|
 
 N Under Construction|QID|4742|N|From this point on, the guide is incomplete.|
 
