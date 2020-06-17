@@ -183,7 +183,7 @@ b Ratchet|M|25.80,73.10|Z|Stranglethorn Vale|N|Take the boat to Ratchet.|
 F Sun Rock Retreat|ACTIVE|1095|M|63.11,37.10|Z|The Barrens|
 R Windshear Crag|QID|1483|M|49.51,61.02;53.15,61.61;59.97,71.14|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
 K XT:9|QID|1068|M|62.06,55.75|QO|2|N|Kill XT:9. It patrols the south side of the river.|S|
-C The Flying Machine Airport|QID|1086|QO|1|N|Place the Toxic Fogger here.|NC|
+C The Flying Machine Airport|QID|1086|M|66.48,45.40|QO|1|N|Place the Toxic Fogger here.|NC|
 C Gerenzo Wrenchwhistle|QID|1096|M|70.40,40.93;67.99,37.79;64.61,37.96;62.84,40.49|CC|QO|1|N|Make your way to the path leading up to the structure. Once you are there, work your way over to where Gerenzo is and kill him to loot his arm.|
 ;L Level 25|QID|509|LVL|25|N|You should be around level 25 by this point.|
 R Shortcut down|QID|1096|N|Jump into the water and swim to shore.|
