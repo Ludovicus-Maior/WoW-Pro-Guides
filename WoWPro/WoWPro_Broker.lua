@@ -2602,7 +2602,7 @@ function WoWPro.PopulateQuestLog()
 
     -- Generating table WoWPro.newQuest --
     WoWPro:SelectGuideStart()
-    if oldQuestCount > 0 then
+    if numLoggedQuests > 0 then
         for QID, questInfo in pairs(WoWPro.QuestLog) do
             if not WoWPro.oldQuests[QID] then
                 WoWPro.newQuest = QID
