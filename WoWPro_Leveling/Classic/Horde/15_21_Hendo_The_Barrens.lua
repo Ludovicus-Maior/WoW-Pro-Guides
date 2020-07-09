@@ -109,6 +109,8 @@ R The Great Sea|ACTIVE|30|N|Follow the path north out of The Sepulcher and your 
 l Strange Lockbox|QID|30|M|29.57,29.36|L|15882|N|Swim out to the coordinates. Then, swim to the bottom and loot the Half Pendant of Aquatic Endurance from the Lockbox.|NC|R|Tauren|C|Druid|
 H The Crossroads|QID|30|N|Hearth back to The Crossroads.|R|Tauren|C|Druid|
 ; ---
+C Raptor Thieves|QID|869|QO|1|N|Finish collecting the raptor heads as you make your way back to the Crossroads.|US|
+C Centaur Bracers|QID|855|QO|1|N|Get any last centaur bracers you need.|US|
 
 R Ratchet|QID|1492|M|59.80,38.89|CC|N|Take the east road out of The Crossroads to Ratchet.|
 A Southsea Freebooters|QID|887|M|62.68,36.23|N|From Gazlowe.|
