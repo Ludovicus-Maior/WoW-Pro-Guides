@@ -129,7 +129,7 @@ T Garments of Spirituality|QID|5648|C|Priest|R|Orc,Troll|M|54.26,42.93|N|To Tai'
 C Vanquish the Betrayers|QID|784|S|N|Kill Kul Tiras Sailors and Marines on the way.|
 C Carry Your Weight|QID|791|S|N|Loot Canvas Scraps from Kul Tiras Sailors and Marines on the way.|
 K Lieutenant Benedict|QID|784|QO|3|L|4882|M|59.40,58.30|N|Make your way into the castle. Inside go upstairs and work your way to the main room. Kill Lieutenant Benedict. Loot his key for the next chest.|
-N Aged Envelope|QID|830|L|4881|NC|N|Go up to the top of the castle and open Benedict's Chest.|
+l Aged Envelope|AVAILABLE|830|M|59.26,57.65|L|4881|NC|N|Go up to the top of the castle and open Benedict's Chest.|
 A The Admiral's Orders|QID|830|U|4881|N|Start the quest from the Aged Envelope.|
 C Carry Your Weight|QID|791|US|N|Loot the remaining Canvas Scraps from Kul Tiras Sailors and Marines.|
 C Vanquish the Betrayers|QID|784|US|N|Kill the remaining Kul Tiras Sailors and Marines.|
@@ -153,13 +153,13 @@ C Thwarting Kolkar Aggression|QID|786|QO|3|M|46.23,78.95|NC|N|Burn the Orgrimmar
 C Thwarting Kolkar Aggression|QID|786|QO|2|M|47.66,77.34|NC|N|Burn the Sen'jin Village Attack Plans.|
 T Thwarting Kolkar Aggression|QID|786|M|54.24,73.27;54.44,74.36;54.53,75.20;54.07,76.53|CN|N|To Lar Prowltusk, who wanders.|
 T A Solvent Spirit|QID|818|M|55.95,74.40|N|To Master Vornal.|
-C Break a Few Eggs|QID|815|S|N|Loot Raptor Nests on the way.|
-C Practical Prey|QID|817|S|N|Kill Durotar Tigers on the way.|
-K Zalazane|QID|826|QO|3|L|4866|M|67.40,86.99|N|Kill Zalazane and loot his head. He wanders around the compound.|
-C Minshina's Skill|QID|808|L|4864|M|67.46,87.81|N|Loot Minshina's Skull from the pile.|
-C Zalazane|QID|826|S|N|Kill the remaining Voodoo Trolls and Hexed Trolls in the area.|
-C Practical Prey|QID|817|US|N|Kill Durotar Tigers. They are on the north and on the small islands.|
-C Break a Few Eggs|QID|815|US|N|Loot the remaining Raptor Nests.|
+C Break a Few Eggs|QID|815|S|M|62.10,96.30;63.90,86.80;69.20,82.20;68.45,86.95;63.05,94.45;61.15,78.55;67.60,80.53;69.95,70.65;69.18,74.60;59.88,83.25;67.50,88.80;63.98,73.86;67.82,70.69;64.40,83.08;59.90,88.80|CN|N|Loot Raptor Nests on the way.|
+C Practical Prey|QID|817|S|M|68.70,80.57;60.20,79.62;59.58,84.10;64.62,84.84;67.62,74.12;59.20,90.10;69.20,84.88;60.50,82.16;61.00,91.28;65.00,87.81;69.90,72.65;60.66,88.71;68.53,70.47;62.83,95.75;65.22,80.35|CN|N|Kill Durotar Tigers on the way.|
+C Trolls|QID|826|S!US|M|65.70,85.40;67.01,88.00;67.88,85.66;66.35,83.15|CN|N|Kill the remaining Voodoo Trolls and Hexed Trolls in the area.|
+K Zalazane|ACTIVE|826|QO|3|L|4866|M|67.40,86.99|N|Kill Zalazane and loot his head. He wanders around the compound.|
+C Minshina's Skull|QID|808|L|4864|M|67.46,87.81|N|Loot Minshina's Skull from the pile.|
+C Practical Prey|QID|817|US|M|68.70,80.57;60.20,79.62;59.58,84.10;64.62,84.84;67.62,74.12;59.20,90.10;69.20,84.88;60.50,82.16;61.00,91.28;65.00,87.81;69.90,72.65;60.66,88.71;68.53,70.47;62.83,95.75;65.22,80.35|CN|N|Kill Durotar Tigers on the way.|
+C Break a Few Eggs|QID|815|US|M|62.10,96.30;63.90,86.80;69.20,82.20;68.45,86.95;63.05,94.45;61.15,78.55;67.60,80.53;69.95,70.65;69.18,74.60;59.88,83.25;67.50,88.80;63.98,73.86;67.82,70.69;64.40,83.08;59.90,88.80|CN|N|Loot Raptor Nests on the way.|
 T Minshina's Skull|QID|808|M|55.95,74.72|N|To Master Gadrin.|
 T Zalazane|QID|826|M|55.95,74.72|N|To Master Gadrin.|
 T Practical Prey|QID|817|M|55.95,73.93|N|To Vel'rin Fang.|
@@ -249,7 +249,7 @@ C Securing the Lines|QID|835|N|Kill Dustwind Savages and Storm Witches.|
 T Securing the Lines|QID|835|M|46.37,22.94|N|To Rezlak.|
 T Margoz|QID|828|M|56.41,20.03|N|To Margoz.|
 A Skull Rock|QID|827|PRE|828|M|56.41,20.03|N|From Margoz.|
-R Skull Rock|QID|827|M|55.00,9.74|CC|N|Run north to the cave entrance of Skull Rock.\nThe quests in here are hard to solo. Group up or be prepared to die.|
+R Skull Rock|ACTIVE|827|M|55.00,9.74|N|Run north to the cave entrance of Skull Rock.\nThe quests in here are hard to solo. Group up or be prepared to die.|
 C Call of Fire|QID|1525|C|Shaman|R|Orc,Troll|QO|2|S|N|Kill Burning Blade Cultists for the Reagent Pouch.|
 C Skull Rock|QID|827|S|N|Kill Burning Blade for the Searing Collars.|
 C Hidden Enemies|QID|5726|S|N|Kill Burning Blade Apprentices and Fanatics for the Lieutenants Insignia.|
