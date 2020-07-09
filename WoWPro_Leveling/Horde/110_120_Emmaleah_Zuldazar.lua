@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_zuldazar
+-- Date: 2020-07-10 00:43
+-- Who: Ludovicus_Maior
+-- Log: Oh, Seeker's Outpost
+
+-- URL: http://wow-pro.com/node/3762/revisions/30569/view
+-- Date: 2020-07-10 00:39
+-- Who: Ludovicus_Maior
+-- Log: Add missing Z tag to Spoils of Pandaria|QID|49936
+
+-- URL: http://wow-pro.com/node/3762/revisions/30533/view
 -- Date: 2020-05-12 23:39
 -- Who: Ludovicus_Maior
 -- Log: Pomegranate of Pain: ravasaur needs a rank|2 and [Pet Opportunity] needs a PRE|47310 .
