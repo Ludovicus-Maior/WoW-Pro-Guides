@@ -135,8 +135,8 @@ C Elixir of Pain|QID|501|QO|1|N|Kill Mountain Lions for vials of their blood.|S|
 R Durnholde Keep|ACTIVE|498|M|76.08,47.11|Z|Hillsbrad Foothills|N|Make your way to the Durnholde Keep entrance.|
 C WANTED: Syndicate Personnel|QID|549|QO|1;2|N|Kill Syndicate Rogues and Watchmen.|S|
 l Vials of Innocent Blood|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|S|
-K Jailor Marlgen|QID|498|L|3499|N|Kill Jailor Marlgen to loot the Burnished Gold Key to free Tog'thar.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
-K Jailer Eston|QID|498|L|3467|N|Kill Jailer Eston to loot the Dull Iron Key to free Drull.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
+K Jailor Marlgen|ACTIVE|498|L|3499|N|Kill Jailor Marlgen to loot the Burnished Gold Key to free Tog'thar.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
+K Jailer Eston|ACTIVE|498|L|3467|N|Kill Jailer Eston to loot the Dull Iron Key to free Drull.\n[color=FF0000]NOTE: [/color]He has multiple spawn locations.|
 C The Rescue|QID|498|M|79.42,40.44|Z|Hillsbrad Foothills|QO|2|N|Rescue Tog'thar.|NC|
 C The Rescue|QID|498|M|75.18,41.64|Z|Hillsbrad Foothills|QO|1|N|Rescue Drull.\n[color=FF0000]NOTE: [/color]He has a rogue, mage and a Watchmen guarding him. If you approach by the rear door, you'll only have to pull the Watchmen. As long as the Watchmen doesn't run back inside and you stick to the west wall, you shouldn't aggro the other two.|NC|
 l Vials of Innocent Blood|QID|1066|L|5620 5|N|Kill Syndicate Mages to loot the Vials of Innocent Blood.|US|
