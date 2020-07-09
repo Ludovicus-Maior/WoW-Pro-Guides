@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2020-07-10 00:33
+-- Who: Ludovicus_Maior
+-- Log: Corrected Holy scenario zone and some obsolete cleanups.
+
+-- URL: http://wow-pro.com/node/3673/revisions/30091/view
 -- Date: 2018-10-24 20:02
 -- Who: Ludovicus_Maior
 -- Log: Update default zone
