@@ -486,7 +486,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 13,
                     type = "input",
                     name = "Prerequisite QID:",
-                    desc = "If the quest has a prerequisite, list it's QID here. Seperate multiple prerequisites with semicolons (;)",
+                    desc = "If the quest has a prerequisite, list it's QID here. Seperate multiple prerequisites with AND/OR (&^)",
                     get = function(info,val) return WoWPro.Recorder.stepInfo.prereq end,
                     set = function(info,val)
                         if val == "" then val = nil end
@@ -918,7 +918,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 13,
                     type = "input",
                     name = "Prerequisite QID:",
-                    desc = "If the quest has a prerequisite, list it's QID here. Seperate multiple prerequisites with semicolons (;)",
+                    desc = "If the quest has a prerequisite, list it's QID here. Seperate multiple prerequisites with AND/OR (&^)",
                     get = function(info) return WoWPro.prereq[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
                         if val == "" then val = nil end
@@ -931,7 +931,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     order = 13,
                     type = "input",
                     name = "Active QID:",
-                    desc = "If a particular quest must be active, list it's QID here. Seperate multiple actives with semicolons (;)",
+                    desc = "If a particular quest must be active, list it's QID here. Seperate multiple actives with AND/OR (&^)",
                     get = function(info) return WoWPro.active[WoWPro.Recorder.SelectedStep] end,
                     set = function(info,val)
                         if val == "" then val = nil end
