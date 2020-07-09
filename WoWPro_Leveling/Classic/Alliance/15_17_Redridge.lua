@@ -61,7 +61,7 @@ C Assessing the Threat|QID|246|M|29.00,83.00|N|Kill gnolls until you finish this
 T Assessing the Threat|QID|246|M|30.7,60.0|N|To Deputy Feldon.|
 K Kill Spiders|ACTIVE|92|M|11.94,77.5|QO|3|N|Make sure you have 5 Crisp Spider Meat from the Tarantulas|
 K Kill Goretusks|ACTIVE|92|M|34.00,71.00|QO|1|N|Kill Goretusks until you get 5 Great Goretusk Snout.|
-K Kill Condors|ACTIVE|92|M|46.00,76.00|QO|2|N|Kill Condors until you get 5 Tough Condor Meat|
+K Kill Condors|ACTIVE|92|M|46.00,76.00|QO|2|N|Kill Condors until you get 5 Tough Condor Meat|T|Dire Condor|
 C The Lost Tools|QID|125|M|41.60,54.70|NC|N|Loot the tools from the chest at the bottom of the lake.|
 T The Lost Tools|QID|125|M|32.1,48.6|N|To Foreman Oslow.|
 t Underbelly Scales|QID|122|M|31.00,47.30|N|To Verner Osgood.|;t because its ok if they arent done with it, catch it next time
