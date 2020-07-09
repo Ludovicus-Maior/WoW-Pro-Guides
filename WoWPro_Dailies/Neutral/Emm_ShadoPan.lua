@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/shadopan_reputation
+-- Date: 2020-07-10 00:24
+-- Who: Ludovicus_Maior
+-- Log: Errors corrected when playing with commendation.
+
+-- URL: http://wow-pro.com/node/3501/revisions/29902/view
 -- Date: 2018-10-17 02:21
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
