@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_townlong_steppes_neutral
+-- Date: 2020-07-10 00:34
+-- Who: Ludovicus_Maior
+-- Log: Chao's Sword is not an item anymore.   Use the QO.
+
+-- URL: http://wow-pro.com/node/3492/revisions/30030/view
 -- Date: 2018-10-17 02:31
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
