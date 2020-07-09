@@ -5,7 +5,7 @@
 
 local guide = WoWPro:RegisterGuide("BlancExpBfA","Achievements","Kul Tiras","Blanckaert", "Neutral")
 WoWPro:GuideLevels(guide,110,110,120)
-WoWPro:GuideIcon(guide,"ACH",12988) 
+WoWPro:GuideIcon(guide,"ACH",12988)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -49,6 +49,3 @@ N End of Guide|N|Just pick a guide to continue where you were.|
 
 ]]
 end)
-
-
-
