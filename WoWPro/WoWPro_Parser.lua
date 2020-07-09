@@ -851,9 +851,9 @@ function WoWPro.ParseSteps(steps)
         WoWPro.ParseQuestLine(myFaction, zone, 1, init)
     end
 
-    -- OK, now add a standard D step at the end of every guide, if there is none there
+    -- OK, now add a standard D step at the end of every Leveling guide, if there is none there
     local fini, nguide
-    if not  WoWPro.Recorder and WoWPro.action[last_i] ~= "D" then
+    if (not  WoWPro.Recorder) and WoWPro.action[last_i] ~= "D" and WoWPro.Guides[GID].guidetype == "Leveling" then
         nguide = WoWPro:NextGuide(GID)
         if nguide then
             fini = ("D Onwards|N|This ends %s. %s is next.|GUIDE|%s|"):format(WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide), nguide)
