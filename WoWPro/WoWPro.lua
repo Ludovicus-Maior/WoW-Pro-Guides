@@ -636,6 +636,7 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
 
     if 'Dailies' == gtype then
         WoWPro:NoCache(guide)
+        WoWPro:NoCoordsOK(guide)
     end
 
     if faction and faction ~= _G.UnitFactionGroup("player") and faction ~= "Neutral" then
@@ -832,6 +833,10 @@ end
 
 function WoWPro:NoCache(guide)
     guide['nocache'] = true
+end
+
+function WoWPro:NoCoordsOK(guide)
+    guide['NoCoordsOK'] = true
 end
 
 function WoWPro:GuideSteps(guide,steps)

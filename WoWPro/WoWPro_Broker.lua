@@ -834,9 +834,9 @@ function WoWPro:RowUpdate(offset)
             if zone then
                 note = note .. "@" ..zone
             end
-        elseif not coord then
+        elseif not coord and not WoWPro.Guides[GID].NoCoordsOK then
             -- No coordinates, let them know!
-            note = note.." (No coordinates)"
+            note = note.."\n(No coordinates)"
         end
 
         currentRow.note:SetText(note)
@@ -2889,6 +2889,21 @@ function WoWPro:CompleteAtEnd()
             end
             WoWPro.SwapSteps(i,last)
             WoWPro.why[last] = "Skipped for now"
+            last = last - 1
+        end
+    end
+    for i=1, WoWPro.stepcount do
+        if not WoWPro.map[i] then
+            -- find the unmapped step
+            while not WoWPro.map[i] and (last > i) do
+                last = last - 1
+            end
+            if last <= i then
+                -- no more room, done
+                break
+            end
+            WoWPro.SwapSteps(i,last)
+            WoWPro.why[last] = "Unmapped at end"
             last = last - 1
         end
     end
