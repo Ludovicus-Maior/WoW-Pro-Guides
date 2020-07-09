@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/darkmoon_faire
+-- Date: 2020-07-10 00:31
+-- Who: Ludovicus_Maior
+-- Log: Some people moved in the DMF.
+
+-- URL: http://wow-pro.com/node/3459/revisions/30530/view
 -- Date: 2020-05-11 21:28
 -- Who: Ludovicus_Maior
 -- Log: Path for [The Humanoid Cannonball] has moved again.  Corrected.
