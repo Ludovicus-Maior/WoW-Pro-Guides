@@ -30,7 +30,7 @@ A The Zoram Strand|QID|1008|M|34.68,48.84|Z|Ashenvale|N|From Shindrell Swiftfire
 A Raene's Cleansing |QID|991|M|36.6,49.6|N|From Raene Wolfrunner|
 h Astranaar|QID|991|N|Make Astranaar your home location.|M|36.97,49.26|
 A The Tower of Althalaxx|QID|970|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Purifier.|PRE|967|
-C The Tower of Althalaxx|QID|970|M|32.6,29.2|Z|Ashenvale|N|Kill the Dark Strand until you get the Flowing Soul Gem.|
+C The Tower of Althalaxx|QID|970|M|32.6,29.2|Z|Ashenvale|N|Kill the Dark Strand until you get the Glowing Soul Gem.|
 T The Tower of Althalaxx|QID|970|M|26.2,38.7|Z|Ashenvale|N|To Delgren the Purifier.|
 A The Tower of Althalaxx|QID|973|M|26.2,38.7|Z|Ashenvale|N|From Delgren the Purifier.|PRE|970|
 A Bathran's Hair|QID|1010|M|26.4,38.6|N|From Orendil Broadleaf.|
