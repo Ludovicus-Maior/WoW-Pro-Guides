@@ -634,7 +634,7 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
         GID = GIDvalue
     }
 
-    if 'Dailies' == gtype then
+    if 'Leveling' ~= gtype then
         WoWPro:NoCache(guide)
         WoWPro:NoCoordsOK(guide)
     end
