@@ -1,4 +1,4 @@
--- luacheck: globals pairs ipairs tonumber
+-- luacheck: globals pairs ipairs tonumber tostring
 
 --------------------------------------
 --      WoWPro_Profession_Trade     --
