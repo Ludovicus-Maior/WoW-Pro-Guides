@@ -587,6 +587,8 @@ WoWPro.RegisterModernEventHandler("PET_BATTLE_CLOSE", function(event, ...)
         WoWPro.current_strategy = nil
         WoWPro:dbp("WoWPro.current_strategy = nil")
     end
+    -- Unsummon the first pet loaded
+    _G.C_PetJournal.SummonPetByGUID(_G.C_PetJournal.GetSummonedPetGUID())
     WoWPro:UpdateGuide(event)
 --  WoWPro.UnregisterAllEvents()
 --  WoWPro:RegisterEvents()
