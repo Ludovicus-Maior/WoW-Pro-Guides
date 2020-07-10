@@ -1803,11 +1803,11 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         skip = true
                         break
                     else
-                        WoWPro.why[guideIndex] = "NextStep(): Prof default to skipped."
+                        WoWPro.why[guideIndex] = ("NextStep(): No %s, skip for now."):format(profName)
                         WoWPro:dbp(WoWPro.why[guideIndex])
                     end
                 else
-                    WoWPro:Error("Warning: malformed profession tag [%s] at step %d", WoWPro.prof[guideIndex], guideIndex)
+                    WoWPro:Warning("Malformed profession tag [%s] at step %d", WoWPro.prof[guideIndex], guideIndex)
                 end
             end
 
