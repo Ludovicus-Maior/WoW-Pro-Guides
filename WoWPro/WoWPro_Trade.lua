@@ -254,8 +254,11 @@ else
         local tradeskills = {}
 
         -- first scan all profession tradeskill lines that are learned
+        -- LUDO: Does this actually do anything?  GetAllProfessionTradeSkillLines() seems to return 100 random lines and is not used in Blizzard code.
         for _, skillLineID in ipairs(_G.C_TradeSkillUI.GetAllProfessionTradeSkillLines()) do
-            local _, skillLineRank, skillLineMaxRank, skillLineModifier = _G.C_TradeSkillUI.GetTradeSkillLineInfoByID(skillLineID)
+            -- WoWPro:dbp("UpdateTradeSkills() scanning %d", skillLineID)
+            local displayName, skillLineRank, skillLineMaxRank, skillLineModifier = _G.C_TradeSkillUI.GetTradeSkillLineInfoByID(skillLineID)
+            -- WoWPro:dbp("UpdateTradeSkills() scanned %d/%s", skillLineID, displayName)
             if skillLineRank > 0 and WoWPro.ProfessionSkillLines[skillLineID] then
                 tradeskills[skillLineID] = {
                     name = WoWPro.ProfessionSkillLines[skillLineID].name,
@@ -263,23 +266,25 @@ else
                     skillMax = skillLineMaxRank,
                     skillMod = skillLineModifier
                 }
+                WoWPro:dbp("UpdateTradeSkills() added %d/%s", skillLineID, displayName)
                 scanned = scanned + 1
             end
         end
 
         -- scan with GetProfessions()
-        for _, profID in ipairs({_G.GetProfessions()}) do
+        for _, profID in pairs({_G.GetProfessions()}) do
+            WoWPro:dbp("UpdateTradeSkills() scan profession %d", profID)
             local name, _, skillLineRank, skillLineMaxRank, _, _, skillLineID, skillLineModifier, _, _, subName = _G.GetProfessionInfo(profID)
-
-            -- skillLineID is always the parent ID, so once you learn an expansion
-            -- GetProfessionInfo() is no longer useful except for Archaeology
-            if WoWPro.ProfessionSkillLines[skillLineID] and (not subName or name == subName) then
+            WoWPro:dbp("UpdateTradeSkills() scanning %s/%s/%d", name, tostring(subName), skillLineID)
+            -- skillLineID is always the parent ID, so once you learn an expansion, ...
+            if WoWPro.ProfessionSkillLines[skillLineID] then
                 tradeskills[skillLineID] = {
                     name = WoWPro.ProfessionSkillLines[skillLineID].name,
                     skillLvl = skillLineRank,
                     skillMax = skillLineMaxRank,
                     skillMod = skillLineModifier
                 }
+                WoWPro:dbp("UpdateTradeSkills() added %d/%s", skillLineID, name)
                 scanned = scanned + 1
             end
         end
@@ -301,14 +306,17 @@ function WoWPro.UpdateTradeSkillsTable(tradeskills)
     for trade in pairs(WoWProCharDB.Tradeskills) do
         local skillLine = WoWPro.ProfessionSkillLines[trade]
         if not skillLine then
+            WoWPro:dbp("UpdateTradeSkillsTable(): Deleted unavailable %d/%s", trade, trade.name)
             WoWProCharDB.Tradeskills[trade] = nil
         elseif tradeskills[trade] == nil and trade ~= 185 and skillLine.parent ~= 185 and trade ~= 356 and skillLine.parent ~= 356 then
+            WoWPro:dbp("UpdateTradeSkillsTable(): Deleted unlearned %d/%s", trade, trade.name)
             WoWProCharDB.Tradeskills[trade] = nil
         end
     end
 
     -- add/update learned professions
     for trade, info in pairs(tradeskills) do
+        WoWPro:dbp("UpdateTradeSkillsTable(): Update learned %d/%s", trade, info.name)
         WoWProCharDB.Tradeskills[trade] = info
     end
 end
