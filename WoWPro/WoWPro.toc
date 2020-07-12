@@ -1,5 +1,5 @@
 ## Interface: 80300
-#classic ## Interface: 11304
+#classic ## Interface: 11305
 ## Title: |cffFF9900WoW-|r|cff46921APro|r
 ## Notes: Guides created by the WoW-Pro Community.  |cffFF0000You will need either TomTom or Carbonite installed for full functionality.|r
 ## Author: Jiyambi,Ludovicus
@@ -7,7 +7,7 @@
 ## SavedVariablesPerCharacter: WoWProCharDB
 ## OptionalDeps: Carbonite, TomTom
 ## Version: 8.3.0-B2
-#classic ## Version: 1.13.4-B0
+#classic ## Version: 1.13.4-B2
 ## X-Category: Compilations
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
 
