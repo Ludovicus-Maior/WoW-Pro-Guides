@@ -566,7 +566,7 @@ T Unlikely Allies|QID|47324|M|27.22,53.94|N|To Serrik.|
 A A Powerful Prisoner|QID|49334|M|27.22,53.94|N|From Serrik.|PRE|47324|
 A Break Their Ranks|QID|50641|M|27.20,53.85|N|From Zissiah.|PRE|47324|
 A Push Them Back!|QID|49327|M|27.20,53.85|N|From Zissiah.|PRE|47324|
-A WANTED: Sandscout Vesarik|QID|51165|M|27.36,53.29|N|From Wanted Poster.|RANK|2|
+A WANTED: Sandscout Vesarik|QID|51165|M|26.98,52.71|N|From Wanted Poster.|RANK|2|
 C Break Their Ranks|QID|50641|M|29.78,52.02|S|N|Kill the Faithless as you go.|
 A A Lost Flute|QID|50818|M|27.40,53.95;28.97,54.65|CS|N|From a Desert Flute lying on the ground.|RANK|2|
 C Push Them Back!|QID|49327|M|28.87,51.41|QO|3|S|NC|N|Click the spires to shatter them.|
