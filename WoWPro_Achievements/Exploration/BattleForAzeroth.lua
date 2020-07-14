@@ -1,15 +1,18 @@
--- first crack, need some polishing
+--  Nothing fancy, just the map points needed for the achievements.
+--  Contains ALL zones needed for Pathfinder, without regard if you can get there or not.
 -- QID are made up, '1' added to the ACH plus Step padded to 4 digit.
 -- not sure on actual level to complete but figured you might need to be at least 110
 
 
-local guide = WoWPro:RegisterGuide("BlancExpBfA","Achievements","BattleforAzeroth","Blanckaert", "Neutral")
+local guide = WoWPro:RegisterGuide("BlancExpBfA","Achievements","Battle for Azeroth Pathfinder","Blanckaert", "Neutral")
 WoWPro:GuideLevels(guide,110,110,120)
 WoWPro:GuideIcon(guide,"ACH",12988)
 WoWPro:GuideProximitySort(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
-N Notes|N| This guide JUST has locations to get the achievement for the BfA Explorer.  This Achievement is Account Wide, so if done on one toon, it's done on all. You will probably get most of the main areas questing but this will help get any you missed.  Guide does not care if you are Horde or Alliance, OR if you have opened the areas it's sending you to.|
+N Notes|N| This guide JUST has locations to get the achievement for the BfA Pathfinder, Part One AND Part Two.  Guide ASSUMES you can get to the areas, be sure to Unlock required zones before using.|
+N Areas|N|This guide will take you to the areas to Explore Kul'Tiras, Zandalar, Nazjatar, and Mechagon.  Guide does not care if you are Horde or Alliance.|
+N Achievement Note|N|This Achievement is Account Wide, so if done on one toon, it's done on all. You will probably get most of the main areas questing but this will help get any you missed.|
 N Risk|N|THIS GUIDE IS USE AT YOUR OWN RISK! You will (maybe) die using it.|
 
 ; Kul'Tiras areas
@@ -87,6 +90,36 @@ R The Brine Basin, Vol'dun|QID|1125600010|M|57.13,41.45|Z|Vol'dun|ACH|12560;10|
 R The Cracked Coast, Vol'dun|QID|1125600011|M|24.04,66.45|Z|Vol'dun|ACH|12560;11|
 R Tortaka Refuge, Vol'dun|QID|1125600012|M|61.63,21.33|Z|Vol'dun|ACH|12560;12|
 R Whistlebloom Oasis, Vol'dun|QID|1125600013|M|42.88,61.42|Z|Vol'dun|ACH|12560;13|
+
+; Nazjatar Areas
+
+R Ashen Strand, Nazjatar|QID|1137120001|M|33.81,42.98|Z|Nazjatar|ACH|13712;1|
+R Azsh'ari Terrace, Nazjatar|QID|1137120002|M|56.95,30.06|Z|Nazjatar|ACH|13712;2|
+R Coral Forest, Nazjatar|QID|1137120003|M|58.90,43.57|Z|Nazjatar|ACH|13712;3|
+R Deepcoil Tunnels, Nazjatar|QID|1137120004|M|65.65,22.02|Z|Nazjatar|ACH|13712;4|
+R Dragon's Teeth Basin, Nazjatar|QID|1137120005|M|46.04,48.23|Z|Nazjatar|ACH|13712;5|
+R The Drowned Market, Nazjatar|QID|1137120006|M|75.60,45.70|Z|Nazjatar|ACH|13712;6|
+R Elun'alor Temple, Nazjatar|QID|1137120007|M|77.89,39.92|Z|Nazjatar|ACH|13712;7|
+R The Empress's Approach, Nazjatar|QID|1137120008|M|47.47,40.60|Z|Nazjatar|ACH|13712;8|
+R Gate of the Queen, Nazjatar|QID|1137120009|M|53.29,15.41|Z|Nazjatar|ACH|13712;9|
+R The Hanging Reef, Nazjatar|QID|1137120010|M|40.16,58.14|Z|Nazjatar|ACH|13712;10|
+R Kal'methir, Nazjatar|QID|1137120011|M|65.67,43.43|Z|Nazjatar|ACH|13712;11|
+R Shirakess Repository, Nazjatar|QID|1137120012|M|59.33,14.48|Z|Nazjatar|ACH|13712;12|
+R Spears of Azshara, Nazjatar|QID|1137120013|M|37.79,75.30|Z|Nazjatar|ACH|13712;13|
+R Zanj'ir Terrace, Nazjatar|QID|1137120014|M|37.69,26.85|Z|Nazjatar|ACH|13712;14|
+R Zanj'ir Wash, Nazjatar|QID|1137120015|M|43.65,39.06|Z|Nazjatar|ACH|13712;15|
+R Zin-Azshari, Nazjatar|QID|1137120016|M|83.21,34.76|Z|Nazjatar|ACH|13712;16|
+
+; Mechagon Areas
+
+R Rustbolt, Mechagon|QID|1137760001|M|72.03,33.72|Z|Mechagon Island|ACH|13776;1|
+R Junkwatt Depot, Mechagon|QID|1137760002|M|53.25,62.96|Z|Mechagon Island|ACH|13776;2|
+R Scrapbone Den, Mechagon|QID|1137760003|M|59.47,27.17|Z|Mechagon Island|ACH|13776;3|
+R The Outflow, Mechagon|QID|1137760004|M|70.84,68.67|Z|Mechagon Island|ACH|13776;4|
+R Sparkweaver Point, Mechagon|QID|1137760005|M|87.90,22.68|Z|Mechagon Island|ACH|13776;5|
+R The Heaps, Mechagon|QID|1137760006|M|69.19,53.25|Z|Mechagon Island|ACH|13776;6|
+R Western Spray, Mechagon|QID|1137760007|M|19.49,66.96|Z|Mechagon Island|ACH|13776;7|
+R The Fleeting Forest, Mechagon|QID|1137760008|M|46.57,38.02|Z|Mechagon Island|ACH|13776;8|
 
 N End of Guide|N|Just pick a guide to continue where you were.|
 
