@@ -577,7 +577,7 @@ C A Powerful Prisoner|QID|49334|M|30.00,51.98|NC|N|Let Vorrik out of the cage.|
 C Push Them Back!|QID|49327|M|29.41,51.17|QO|1|US|NC|N|Finish burning Banners.|
 C Push Them Back!|QID|49327|M|28.87,51.41|QO|3|US|NC|N|Finish shattering spires.|
 C Break Their Ranks|QID|50641|M|29.78,52.02|US|N|Finish killing the Faithless.|
-f Terrace of the Devoted|ACTIVE|50641|M|27.65,50.33|N|At Vethiss.|
+f Sanctuary of the Devoted|ACTIVE|50641|M|27.65,50.33|N|At Vethiss.|
 T Break Their Ranks|QID|50641|M|27.20,53.85|N|To Zissiah.|
 T Push Them Back!|QID|49327|M|27.20,53.85|N|To Zissiah.|
 T A Powerful Prisoner|QID|49334|M|27.61,52.57|N|To Vorrik.|
