@@ -31,6 +31,7 @@ Libraries\HereBeDragons\HereBeDragons-Migrate.lua
 Libraries\LibPetJournal-2.0\LibPetJournal-2.0.lua
 
 WoWPro.lua
+WoWPro_CompatUtil.lua
 WoWPro_Widgets.lua
 WoWPro_Localization.lua
 WoWPro_CurrentGuide.lua
