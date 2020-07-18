@@ -1,5 +1,5 @@
 -- luacheck: globals tostring tonumber
--- luacheck: globals select ipairs next
+-- luacheck: globals select ipairs next tinsert
 
 --------------------------
 --  WoWPro_Events.lua   --
@@ -646,7 +646,7 @@ WoWPro.RegisterEventHandler("MERCHANT_SHOW" , function(event, ...)
     if _G.CanMerchantRepair() and WoWPro.action[qidx] == "r" then
         WoWPro.CompleteStep(qidx,"Talked to Repairing Merchant")
     end
-    end)
+end)
 
 -- Lets see what quests the NPC has:
 WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function(event, ...)
@@ -658,11 +658,65 @@ WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function(event, ...)
     else
         WoWPro:print("GOSSIP_SHOW while %s was active: suppressed.", WoWPro.QuestDialogActive)
     end
-    end)
+end)
+
+local function GetGossipActiveQuests()
+    if WoWPro.SHADOWLANDS then
+        return _G.C_GossipInfo.GetActiveQuests()
+    else
+        -- Conform old API to new format
+        local result = {}
+        local npcQuests =  {_G.GetGossipActiveQuests()}
+        local numActiveQuestData = #npcQuests
+        for i = 1, numActiveQuestData, 7 do
+            -- titleText, level, isTrivial, isComplete, isLegendary, isIgnored, questID
+            tinsert(result, {
+                title = npcQuests[i],
+                questLevel = npcQuests[i + 1],
+                isTrivial = npcQuests[i + 2],
+                --frequency = nil,
+                --repeatable = nil,
+                isComplete = npcQuests[i + 3],
+                isLegendary = npcQuests[i + 4],
+                isIgnored = npcQuests[i + 5],
+                questID = npcQuests[i + 6],
+            })
+        end
+
+        return result
+    end
+end
+local function GetGossipAvailableQuests()
+    if WoWPro.SHADOWLANDS then
+        return _G.C_GossipInfo.GetAvailableQuests()
+    else
+        -- Conform old API to new format
+        local result = {}
+        local npcQuests =  {_G.GetGossipAvailableQuests()}
+        local numActiveQuestData = #npcQuests
+        for i = 1, numActiveQuestData, 8 do
+            -- titleText, level, isTrivial, frequency, isRepeatable, isLegendary, isIgnored, questID
+            tinsert(result, {
+                title = npcQuests[i],
+                questLevel = npcQuests[i + 1],
+                isTrivial = npcQuests[i + 2],
+                frequency = npcQuests[i + 3],
+                repeatable = npcQuests[i + 4],
+                --isComplete = nil,
+                isLegendary = npcQuests[i + 5],
+                isIgnored = npcQuests[i + 6],
+                questID = npcQuests[i + 7],
+            })
+        end
+
+        return result
+    end
+end
 
 function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
-    WoWPro.GossipText = _G.GetGossipText():upper()
-    WoWPro:print("GetGossipText: %s",WoWPro.GossipText)
+    WoWPro.GossipText = WoWPro.SHADOWLANDS and _G.C_GossipInfo.GetText() or _G.GetGossipText()
+    WoWPro.GossipText = WoWPro.GossipText:upper()
+    WoWPro:print("GetGossipText: %s", WoWPro.GossipText)
 
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
     local myNPC = WoWPro:TargetNpcId()
@@ -672,56 +726,61 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
         return
     end
 
-    local npcCount = _G.GetNumGossipActiveQuests();
-    local npcQuests =  {_G.GetGossipActiveQuests()};
-    local step = 0
-    if npcCount > 0 then
-        npcCount = #npcQuests / npcCount
-    end
+    local npcQuests = GetGossipActiveQuests()
+    local npcCount = #npcQuests
+
     WoWPro:print("%s: ActiveQuests npcCount=%d", event, npcCount)
     if WoWProCharDB.AutoTurnin then
         WoWPro.QuestCount = npcCount
-        for index = 1, npcCount do
-            -- name, level, isTrivial, isComplete, isLegendary, isIgnored, qid*
-            local name = npcQuests[((index-1)*step)+1]
-            WoWPro:print("%s: considering turnin %d for [%s] .vs. [%s]", event, index, name, tostring(WoWPro.step[qidx]))
-            if WoWPro.action[qidx] == "T" and name == WoWPro.step[qidx] then
+        for index, questInfo in ipairs(npcQuests) do
+            WoWPro:print("%s: considering turnin %d for [%s] .vs. [%s]", event, index, questInfo.name, tostring(WoWPro.step[qidx]))
+            if WoWPro.action[qidx] == "T" and questInfo.name == WoWPro.step[qidx] then
                 WoWPro.QuestStep = qidx
-                _G.SelectGossipActiveQuest(index)
-                WoWPro:print("%s: selected turnin %d for [%s]", event, index, name)
+                if WoWPro.SHADOWLANDS then
+                    _G.C_GossipInfo.SelectActiveQuest(index)
+                else
+                    _G.SelectGossipActiveQuest(index)
+                end
+                WoWPro:print("%s: selected turnin %d for [%s]", event, index, questInfo.name)
                 return
             end
         end
         WoWPro.QuestCount = 0
     end
 
-    npcCount = _G.GetNumGossipAvailableQuests();
-    npcQuests = {_G.GetGossipAvailableQuests()};
-    step = 0
-    if npcCount > 0 then
-        npcCount = #npcQuests / npcCount
-    end
+    npcQuests = GetGossipAvailableQuests()
+    npcCount = #npcQuests
+
     WoWPro:print("%s: AvailableQuests npcCount=%d", event, npcCount)
     if WoWProCharDB.AutoSelect then
         WoWPro.QuestCount = npcCount
-        for index=1, npcCount do
-            -- titleText, level, isTrivial, frequency, isRepeatable, isLegendary, isIgnored
-            local name = npcQuests[((index-1)*step)+1]
-            WoWPro:dbp("ZT: %s index %d/%d, considering [%s]",event,index,npcCount,name)
+        local selectIndex
+        for index, questInfo in ipairs(npcQuests) do
+            WoWPro:dbp("ZT: %s index %d/%d, considering [%s]", event, index, npcCount, questInfo.name)
             if WoWPro.action[qidx] == "A" then
                 if WoWPro.QID[qidx] == "*" and WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
-                    WoWPro:dbp("ZZZT %d: %s Inhale %s, prev qcount was %d, new is %d",qidx, event,name, WoWPro.QuestCount, npcCount)
+                    WoWPro:dbp("ZZZT %d: %s Inhale %s, prev qcount was %d, new is %d",qidx, event, questInfo.name, WoWPro.QuestCount, npcCount)
                     WoWPro.QuestStep = qidx
-                    _G.SelectGossipAvailableQuest(index)
-                    return
+                    selectIndex = index
+                    break
                 end
-                if WoWPro.action[qidx] == "A" and name == WoWPro.step[qidx] then
-                    WoWPro:dbp("ZZZT %d: %s Name matches [%s], selecting.",index,event,name)
-                    _G.SelectGossipAvailableQuest(index)
-                    return
+                if questInfo.name == WoWPro.step[qidx] then
+                    WoWPro:dbp("ZZZT %d: %s Name matches [%s], selecting.", index, event, questInfo.name)
+                    selectIndex = index
+                    break
                 end
             end
         end
+
+        if selectIndex then
+            if WoWPro.SHADOWLANDS then
+                _G.C_GossipInfo.SelectAvailableQuest(selectIndex)
+            else
+                _G.SelectGossipAvailableQuest(selectIndex)
+                return
+            end
+        end
+
         WoWPro.QuestCount = 0
     end
 
@@ -1028,8 +1087,15 @@ function WoWPro.EventHandler(frame, event, ...)
         WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
     end
     if WoWPro.QuestDialogActive == "GOSSIP_SHOW" then
-        local numAvailableQuests = _G.GetNumGossipAvailableQuests()
-        local numActiveQuests = _G.GetNumGossipActiveQuests()
+        local numAvailableQuests, numActiveQuests
+        if WoWPro.SHADOWLANDS then
+            numAvailableQuests = _G.C_GossipInfo.GetNumAvailableQuests()
+            numActiveQuests = _G.C_GossipInfo.GetNumActiveQuests()
+        else
+            numAvailableQuests = _G.GetNumGossipAvailableQuests()
+            numActiveQuests = _G.GetNumGossipActiveQuests()
+        end
+
         WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
     end
 
