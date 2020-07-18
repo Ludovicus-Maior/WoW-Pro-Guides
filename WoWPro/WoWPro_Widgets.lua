@@ -30,7 +30,7 @@ function WoWPro:CreateAction(parent, anchor)
     action.frame = frame
     action:SetAllPoints()
 
-    local tooltip = _G.CreateFrame("Frame", nil, frame)
+    local tooltip = _G.CreateFrame("Frame", nil, frame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     tooltip:SetBackdrop( {
         bgFile = [[Interface\CHARACTERFRAME\UI-Party-Background]],
         edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
@@ -248,7 +248,7 @@ function WoWPro:CreateBG(parent)
         edgeSize = 16,
         insets = { left = 5, right = 5, top = 5, bottom = 5 }
     }
-    local box = _G.CreateFrame('Frame', nil, parent)
+    local box = _G.CreateFrame('Frame', nil, parent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     box:SetBackdrop(bg)
     box:SetBackdropBorderColor(0.2, 0.2, 0.2)
     box:SetBackdropColor(0.1, 0.2, 0.1, 0.5)
@@ -264,7 +264,7 @@ function WoWPro:CreateTab(name, parent)
         tileSize = 16,
         insets = { left = 5, right = 5, top = 5, bottom = 5 }
     }
-    local tab = _G.CreateFrame('Button', nil, parent)
+    local tab = _G.CreateFrame('Button', nil, parent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     tab:SetBackdrop(bg)
     tab:SetBackdropColor(0.1, 0.1, 0.1, 1)
     tab:RegisterForClicks("anyUp")
@@ -364,7 +364,7 @@ function WoWPro:CreateScrollbar(parent, offset, step, where)
         if value == max then down:Disable() else down:Enable() end
     end)
 
-    local border = _G.CreateFrame("Frame", nil, slider)
+    local border = _G.CreateFrame("Frame", nil, slider, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     border:SetPoint("TOPLEFT", up, -5, 5)
     border:SetPoint("BOTTOMRIGHT", down, 5, -3)
     border:SetBackdrop(bg)

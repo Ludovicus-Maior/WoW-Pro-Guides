@@ -366,7 +366,7 @@ end
 
 -- Create Dialog Box --
 function WoWPro:CreateDialogBox(name, w, h)
-    local frame = _G.CreateFrame("Frame", name, _G.UIParent)
+    local frame = _G.CreateFrame("Frame", name, _G.UIParent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     frame:SetPoint("CENTER", 0, 100)
     frame:SetBackdrop( {
         bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
@@ -392,7 +392,7 @@ end
 
 -- Main Frame --
 function WoWPro:CreateMainFrame()
-    local frame = _G.CreateFrame("Button", "WoWPro.MainFrame", _G.UIParent)
+    local frame = _G.CreateFrame("Button", "WoWPro.MainFrame", _G.UIParent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     frame:SetMovable(true)
     frame:SetResizable(true)
     frame:SetClampedToScreen(true)
@@ -460,7 +460,7 @@ end
 
 -- Title Bar --
 function WoWPro:CreateTitleBar()
-    local titlebar = _G.CreateFrame("Button", nil, WoWPro.MainFrame)
+    local titlebar = _G.CreateFrame("Button", nil, WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     titlebar:SetHeight(22)
     titlebar:SetWidth(200)
     titlebar:SetPoint("TOPLEFT", WoWPro.MainFrame, "TOPLEFT")
@@ -518,7 +518,7 @@ end
 
 -- Sticky Frame --
 function WoWPro:CreateStickyFrame()
-    local sticky = _G.CreateFrame("Frame", "WoWPro.StickyFrame", WoWPro.MainFrame)
+    local sticky = _G.CreateFrame("Frame", "WoWPro.StickyFrame", WoWPro.MainFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     sticky:SetHeight(1)
     sticky:Hide()
     WoWPro.StickyFrame = sticky
@@ -568,7 +568,7 @@ end
 function WoWPro:CreateRows()
     WoWPro.rows = {}
     for i=1,15 do
-        local row = _G.CreateFrame("CheckButton", nil, WoWPro.GuideFrame)
+        local row = _G.CreateFrame("CheckButton", nil, WoWPro.GuideFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
         row:SetBackdrop( {
             bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
             tile = true, tileSize = 16
@@ -621,7 +621,7 @@ end
 function WoWPro:CreateMouseNotes()
     WoWPro.mousenotes = {}
     for i=1,15 do
-        local row = _G.CreateFrame("Frame", nil, WoWPro.GuideFrame)
+        local row = _G.CreateFrame("Frame", nil, WoWPro.GuideFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
         row:SetBackdrop( {
             bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
             edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],
