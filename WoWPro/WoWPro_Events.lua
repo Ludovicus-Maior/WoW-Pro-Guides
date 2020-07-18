@@ -661,8 +661,7 @@ WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function(event, ...)
 end)
 
 function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
-    WoWPro.GossipText = WoWPro.SHADOWLANDS and _G.C_GossipInfo.GetText() or _G.GetGossipText()
-    WoWPro.GossipText = WoWPro.GossipText:upper()
+    WoWPro.GossipText = WoWPro.GossipInfo_GetText():upper()
     WoWPro:print("GetGossipText: %s", WoWPro.GossipText)
 
     local qidx = WoWPro.rows[WoWPro.ActiveStickyCount+1].index
@@ -683,11 +682,7 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
             WoWPro:print("%s: considering turnin %d for [%s] .vs. [%s]", event, index, questInfo.name, tostring(WoWPro.step[qidx]))
             if WoWPro.action[qidx] == "T" and questInfo.name == WoWPro.step[qidx] then
                 WoWPro.QuestStep = qidx
-                if WoWPro.SHADOWLANDS then
-                    _G.C_GossipInfo.SelectActiveQuest(index)
-                else
-                    _G.SelectGossipActiveQuest(index)
-                end
+                WoWPro.GossipInfo_SelectActiveQuest(index)
                 WoWPro:print("%s: selected turnin %d for [%s]", event, index, questInfo.name)
                 return
             end
@@ -701,30 +696,18 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
     WoWPro:print("%s: AvailableQuests npcCount=%d", event, npcCount)
     if WoWProCharDB.AutoSelect then
         WoWPro.QuestCount = npcCount
-        local selectIndex
         for index, questInfo in ipairs(npcQuests) do
             WoWPro:dbp("ZT: %s index %d/%d, considering [%s]", event, index, npcCount, questInfo.name)
             if WoWPro.action[qidx] == "A" then
                 if WoWPro.QID[qidx] == "*" and WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
                     WoWPro:dbp("ZZZT %d: %s Inhale %s, prev qcount was %d, new is %d",qidx, event, questInfo.name, WoWPro.QuestCount, npcCount)
                     WoWPro.QuestStep = qidx
-                    selectIndex = index
-                    break
+                    return WoWPro.GossipInfo_SelectAvailableQuest(index)
                 end
                 if questInfo.name == WoWPro.step[qidx] then
                     WoWPro:dbp("ZZZT %d: %s Name matches [%s], selecting.", index, event, questInfo.name)
-                    selectIndex = index
-                    break
+                    return WoWPro.GossipInfo_SelectAvailableQuest(index)
                 end
-            end
-        end
-
-        if selectIndex then
-            if WoWPro.SHADOWLANDS then
-                _G.C_GossipInfo.SelectAvailableQuest(selectIndex)
-            else
-                _G.SelectGossipAvailableQuest(selectIndex)
-                return
             end
         end
 
@@ -1034,15 +1017,8 @@ function WoWPro.EventHandler(frame, event, ...)
         WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
     end
     if WoWPro.QuestDialogActive == "GOSSIP_SHOW" then
-        local numAvailableQuests, numActiveQuests
-        if WoWPro.SHADOWLANDS then
-            numAvailableQuests = _G.C_GossipInfo.GetNumAvailableQuests()
-            numActiveQuests = _G.C_GossipInfo.GetNumActiveQuests()
-        else
-            numAvailableQuests = _G.GetNumGossipAvailableQuests()
-            numActiveQuests = _G.GetNumGossipActiveQuests()
-        end
-
+        local numAvailableQuests = WoWPro.GossipInfo_GetNumAvailableQuests()
+        local numActiveQuests = WoWPro.GossipInfo_GetNumActiveQuests()
         WoWPro:print("%s:%s: numActiveQuests=%d, numAvailableQuests=%d", WoWPro.QuestDialogActive, event, numActiveQuests, numAvailableQuests)
     end
 
