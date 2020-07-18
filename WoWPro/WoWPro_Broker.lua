@@ -2530,30 +2530,34 @@ function WoWPro.PopulateQuestLog()
 
     -- Generating the Quest Log table --
     WoWPro.QuestLog = tablecopy(WoWPro.FauxQuestLog) -- Reinitiallizing the Quest Log table
-    local numEntries, numQuests = _G.GetNumQuestLogEntries()
+    local numEntries, numQuests
+    if WoWPro.SHADOWLANDS then
+        numEntries, numQuests = _G.C_QuestLog.GetNumQuestLogEntries()
+    else
+        numEntries, numQuests = _G.GetNumQuestLogEntries()
+    end
     local currentHeader
     local delta = 0
     WoWPro:dbp("PopulateQuestLog: Entries %d, Quests %d.", numEntries, numQuests)
 
-    local questTitle, level, suggestedGroup, isHeader, isComplete, frequency, questID, isTask, isBounty, isHidden
     local leaderBoard, ocompleted, ncompleted, itemID, _
 
     -- numEntries may vary depending on collapsed headers, so we need to itereate th whole list.
     local numLoggedQuests, questLogIndex = 0, 0
     while true do
         questLogIndex = questLogIndex + 1
-        questTitle, level, suggestedGroup, isHeader, _, isComplete, frequency, questID, _, _, _, _, isTask, isBounty, _, isHidden = _G.GetQuestLogTitle(questLogIndex)
-        if not questTitle then break end
+        local questInfo = WoWPro.QuestLog_GetInfo(questLogIndex)
+        if not questInfo.title then break end
 
-        if isHeader then
-            currentHeader = questTitle
-        elseif not isTask and not isHidden and not isBounty then
-            if not WoWPro.QuestLog[questID] then
+        if questInfo.isHeader then
+            currentHeader = questInfo.title
+        elseif not questInfo.isTask and not questInfo.isHidden and not questInfo.isBounty then
+            if not WoWPro.QuestLog[questInfo.questID] then
                 if _G.GetNumQuestLeaderBoards(questLogIndex) and _G.GetQuestLogLeaderBoard(1, questLogIndex) then
                     leaderBoard = {}
                     ocompleted = {}
                     ncompleted = {}
-                    local objectives = _G.C_QuestLog.GetQuestObjectives(questID)
+                    local objectives = _G.C_QuestLog.GetQuestObjectives(questInfo.questID)
                     for objIndex = 1, #objectives do
                         leaderBoard[objIndex] = objectives[objIndex].text
                         ocompleted[objIndex] = objectives[objIndex].finished
@@ -2569,15 +2573,17 @@ function WoWPro.PopulateQuestLog()
                     _, itemID = _G.GetQuestLogSpecialItemInfo(questLogIndex)
                 end
                 numLoggedQuests = numLoggedQuests + 1
-                WoWPro.QuestLog[questID] = {
-                    title = questTitle,
-                    level = level,
+
+                -- TODO: Maybe at some point just change this to use questInfo?
+                WoWPro.QuestLog[questInfo.questID] = {
+                    title = questInfo.title,
+                    level = questInfo.level,
                     tag = "Standard",
-                    group = suggestedGroup,
-                    complete = isComplete or false,
+                    group = questInfo.suggestedGroup,
+                    complete = WoWPro.QuestLog_IsComplete(questInfo.questID),
                     ocompleted = ocompleted,
                     ncompleted = ncompleted,
-                    daily = frequency == _G.LE_QUEST_FREQUENCY_DAILY,
+                    daily = questInfo.frequency == _G.LE_QUEST_FREQUENCY_DAILY,
                     leaderBoard = leaderBoard,
                     header = currentHeader,
                     use = itemID,

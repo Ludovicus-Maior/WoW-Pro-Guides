@@ -507,7 +507,7 @@ function WoWPro.Recorder.AddStep(stepInfo, position)
 
     local line = WoWPro.EmitStep(pos)
     line = line:gsub("||", "¦") -- Change the ||'s into fancy unicode ¦'s for display only
-    line = line:gsub("%", "⁒") -- Change the %'s into fancy unicode ⁒'s for display only
+    line = line:gsub("%%", "⁒") -- Change the %'s into fancy unicode ⁒'s for display only
     WoWPro.Recorder:Print(line)
 
     WoWPro.Recorder:CheckpointCurrentGuide("AddStep")
