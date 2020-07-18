@@ -660,59 +660,6 @@ WoWPro.RegisterEventHandler("GOSSIP_SHOW" , function(event, ...)
     end
 end)
 
-local function GetGossipActiveQuests()
-    if WoWPro.SHADOWLANDS then
-        return _G.C_GossipInfo.GetActiveQuests()
-    else
-        -- Conform old API to new format
-        local result = {}
-        local npcQuests =  {_G.GetGossipActiveQuests()}
-        local numActiveQuestData = #npcQuests
-        for i = 1, numActiveQuestData, 7 do
-            -- titleText, level, isTrivial, isComplete, isLegendary, isIgnored, questID
-            tinsert(result, {
-                title = npcQuests[i],
-                questLevel = npcQuests[i + 1],
-                isTrivial = npcQuests[i + 2],
-                --frequency = nil,
-                --repeatable = nil,
-                isComplete = npcQuests[i + 3],
-                isLegendary = npcQuests[i + 4],
-                isIgnored = npcQuests[i + 5],
-                questID = npcQuests[i + 6],
-            })
-        end
-
-        return result
-    end
-end
-local function GetGossipAvailableQuests()
-    if WoWPro.SHADOWLANDS then
-        return _G.C_GossipInfo.GetAvailableQuests()
-    else
-        -- Conform old API to new format
-        local result = {}
-        local npcQuests =  {_G.GetGossipAvailableQuests()}
-        local numActiveQuestData = #npcQuests
-        for i = 1, numActiveQuestData, 8 do
-            -- titleText, level, isTrivial, frequency, isRepeatable, isLegendary, isIgnored, questID
-            tinsert(result, {
-                title = npcQuests[i],
-                questLevel = npcQuests[i + 1],
-                isTrivial = npcQuests[i + 2],
-                frequency = npcQuests[i + 3],
-                repeatable = npcQuests[i + 4],
-                --isComplete = nil,
-                isLegendary = npcQuests[i + 5],
-                isIgnored = npcQuests[i + 6],
-                questID = npcQuests[i + 7],
-            })
-        end
-
-        return result
-    end
-end
-
 function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
     WoWPro.GossipText = WoWPro.SHADOWLANDS and _G.C_GossipInfo.GetText() or _G.GetGossipText()
     WoWPro.GossipText = WoWPro.GossipText:upper()
@@ -726,7 +673,7 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
         return
     end
 
-    local npcQuests = GetGossipActiveQuests()
+    local npcQuests = WoWPro.GossipInfo_GetActiveQuests()
     local npcCount = #npcQuests
 
     WoWPro:print("%s: ActiveQuests npcCount=%d", event, npcCount)
@@ -748,7 +695,7 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
         WoWPro.QuestCount = 0
     end
 
-    npcQuests = GetGossipAvailableQuests()
+    npcQuests = WoWPro.GossipInfo_GetAvailableQuests()
     npcCount = #npcQuests
 
     WoWPro:print("%s: AvailableQuests npcCount=%d", event, npcCount)
