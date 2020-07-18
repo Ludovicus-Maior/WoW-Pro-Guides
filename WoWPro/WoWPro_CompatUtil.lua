@@ -58,3 +58,43 @@ function WoWPro.GossipInfo_GetAvailableQuests()
         return result
     end
 end
+
+
+--[[ C_QuestLog ]]--
+function WoWPro.QuestLog_GetInfo(questLogIndex)
+    if WoWPro.SHADOWLANDS then
+        return _G.C_QuestLog.GetInfo(questLogIndex)
+    else
+        local questTitle, level, suggestedGroup, isHeader, isCollapsed, _, frequency, questID, startEvent, _, isOnMap, hasLocalPOI, isTask, isBounty, isStory, isHidden, isScaling = _G.GetQuestLogTitle(questLogIndex)
+        return {
+            title = questTitle,
+            questLogIndex = questLogIndex,
+            questID = questID,
+            --campaignID = nil,
+            level = level,
+            --difficultyLevel = nil,
+            suggestedGroup = suggestedGroup,
+            frequency = frequency,
+            isHeader = isHeader,
+            isCollapsed = isCollapsed,
+            startEvent = startEvent,
+            isTask = isTask,
+            isBounty = isBounty,
+            isStory = isStory,
+            isScaling = isScaling,
+            isOnMap = isOnMap,
+            hasLocalPOI = hasLocalPOI,
+            isHidden = isHidden,
+            --isAutoComplete = nil,
+            --overridesSortOrder = nil,
+            --readyForTranslation = nil,
+        }
+    end
+end
+function WoWPro.QuestLog_IsComplete(questID)
+    if WoWPro.SHADOWLANDS then
+        return _G.C_QuestLog.IsComplete(questID)
+    else
+        return select(6, _G.GetQuestLogTitle(_G.GetQuestLogIndexByID(questID)))
+    end
+end
