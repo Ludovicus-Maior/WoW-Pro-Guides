@@ -679,11 +679,11 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
     if WoWProCharDB.AutoTurnin then
         WoWPro.QuestCount = npcCount
         for index, questInfo in ipairs(npcQuests) do
-            WoWPro:print("%s: considering turnin %d for [%s] .vs. [%s]", event, index, questInfo.name, tostring(WoWPro.step[qidx]))
-            if WoWPro.action[qidx] == "T" and questInfo.name == WoWPro.step[qidx] then
+            WoWPro:print("%s: considering turnin %d for [%s] .vs. [%s]", event, index, questInfo.title, tostring(WoWPro.step[qidx]))
+            if WoWPro.action[qidx] == "T" and questInfo.title == WoWPro.step[qidx] then
                 WoWPro.QuestStep = qidx
                 WoWPro.GossipInfo_SelectActiveQuest(index)
-                WoWPro:print("%s: selected turnin %d for [%s]", event, index, questInfo.name)
+                WoWPro:print("%s: selected turnin %d for [%s]", event, index, questInfo.title)
                 return
             end
         end
@@ -697,15 +697,15 @@ function WoWPro.GOSSIP_SHOW_PUNTED(event, ...)
     if WoWProCharDB.AutoSelect then
         WoWPro.QuestCount = npcCount
         for index, questInfo in ipairs(npcQuests) do
-            WoWPro:dbp("ZT: %s index %d/%d, considering [%s]", event, index, npcCount, questInfo.name)
+            WoWPro:dbp("ZT: %s index %d/%d, considering [%s]", event, index, npcCount, questInfo.title)
             if WoWPro.action[qidx] == "A" then
                 if WoWPro.QID[qidx] == "*" and WoWPro.NPC[qidx] and tonumber(WoWPro.NPC[qidx]) == myNPC then
-                    WoWPro:dbp("ZZZT %d: %s Inhale %s, prev qcount was %d, new is %d",qidx, event, questInfo.name, WoWPro.QuestCount, npcCount)
+                    WoWPro:dbp("ZZZT %d: %s Inhale %s, prev qcount was %d, new is %d",qidx, event, questInfo.title, WoWPro.QuestCount, npcCount)
                     WoWPro.QuestStep = qidx
                     return WoWPro.GossipInfo_SelectAvailableQuest(index)
                 end
-                if questInfo.name == WoWPro.step[qidx] then
-                    WoWPro:dbp("ZZZT %d: %s Name matches [%s], selecting.", index, event, questInfo.name)
+                if questInfo.title == WoWPro.step[qidx] then
+                    WoWPro:dbp("ZZZT %d: %s Name matches [%s], selecting.", index, event, questInfo.title)
                     return WoWPro.GossipInfo_SelectAvailableQuest(index)
                 end
             end
