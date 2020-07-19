@@ -2542,7 +2542,7 @@ function WoWPro.PopulateQuestLog()
     while true do
         questLogIndex = questLogIndex + 1
         local questInfo = WoWPro.QuestLog_GetInfo(questLogIndex)
-        if not questInfo.title then break end
+        if not questInfo then break end
 
         if questInfo.isHeader then
             currentHeader = questInfo.title

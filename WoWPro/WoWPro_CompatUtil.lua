@@ -101,29 +101,31 @@ function WoWPro.QuestLog_GetInfo(questLogIndex)
         return _G.C_QuestLog.GetInfo(questLogIndex)
     else
         local questTitle, level, suggestedGroup, isHeader, isCollapsed, _, frequency, questID, startEvent, _, isOnMap, hasLocalPOI, isTask, isBounty, isStory, isHidden, isScaling = _G.GetQuestLogTitle(questLogIndex)
-        return {
-            title = questTitle,
-            questLogIndex = questLogIndex,
-            questID = questID,
-            --campaignID = nil,
-            level = level,
-            --difficultyLevel = nil,
-            suggestedGroup = suggestedGroup,
-            frequency = frequency,
-            isHeader = isHeader,
-            isCollapsed = isCollapsed,
-            startEvent = startEvent,
-            isTask = isTask,
-            isBounty = isBounty,
-            isStory = isStory,
-            isScaling = isScaling,
-            isOnMap = isOnMap,
-            hasLocalPOI = hasLocalPOI,
-            isHidden = isHidden,
-            --isAutoComplete = nil,
-            --overridesSortOrder = nil,
-            --readyForTranslation = nil,
-        }
+        if questTitle then
+            return {
+                title = questTitle,
+                questLogIndex = questLogIndex,
+                questID = questID,
+                --campaignID = nil,
+                level = level,
+                --difficultyLevel = nil,
+                suggestedGroup = suggestedGroup,
+                frequency = frequency,
+                isHeader = isHeader,
+                isCollapsed = isCollapsed,
+                startEvent = startEvent,
+                isTask = isTask,
+                isBounty = isBounty,
+                isStory = isStory,
+                isScaling = isScaling,
+                isOnMap = isOnMap,
+                hasLocalPOI = hasLocalPOI,
+                isHidden = isHidden,
+                --isAutoComplete = nil,
+                --overridesSortOrder = nil,
+                --readyForTranslation = nil,
+            }
+        end
     end
 end
 function WoWPro.QuestLog_GetNumQuestLogEntries()
