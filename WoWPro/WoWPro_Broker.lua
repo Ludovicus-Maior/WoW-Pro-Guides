@@ -256,19 +256,22 @@ function WoWPro.ObjectiveOperators.QuestDone(qid, objective)
 end
 
 function WoWPro.ObjectiveOperators.QuestLess(qid, objective, target)
-    local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective] >= target
+    local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective]
+    done = done and WoWPro.QuestLog[qid].ncompleted[objective] >= target
     local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
 
 function WoWPro.ObjectiveOperators.QuestEqual(qid, objective, target)
-    local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective] == target
+    local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective]
+    done = done and WoWPro.QuestLog[qid].ncompleted[objective] == target
     local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
 
 function WoWPro.ObjectiveOperators.QuestGreater(qid, objective, target)
-    local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective] <= target
+    local done = WoWPro.QuestLog[qid].ncompleted and WoWPro.QuestLog[qid].ncompleted[objective]
+    done = done and WoWPro.QuestLog[qid].ncompleted[objective] <= target
     local status = (WoWPro.QuestLog[qid].leaderBoard and WoWPro.QuestLog[qid].leaderBoard[objective]) or "?"
     return done , status
 end
@@ -284,7 +287,8 @@ function WoWPro.ObjectiveOperators.ScenarioDone(stage, objective)
 end
 
 function WoWPro.ObjectiveOperators.ScenarioLess(stage, objective, target)
-    local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity >= target
+    local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity
+    done = done and WoWPro.Scenario.Criteria[objective].quantity >= target
     local status = "?"
     if WoWPro.Scenario.Criteria[objective] then
         status = ("%s: %d/%d"):format(WoWPro.Scenario.Criteria[objective].criteriaString, WoWPro.Scenario.Criteria[objective].quantity, WoWPro.Scenario.Criteria[objective].totalQuantity)
@@ -293,7 +297,8 @@ function WoWPro.ObjectiveOperators.ScenarioLess(stage, objective, target)
 end
 
 function WoWPro.ObjectiveOperators.ScenarioEqual(stage, objective, target)
-    local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity == target
+    local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity
+    done = done and WoWPro.Scenario.Criteria[objective].quantity == target
     local status = "?"
     if WoWPro.Scenario.Criteria[objective] then
         status = ("%s: %d/%d"):format(WoWPro.Scenario.Criteria[objective].criteriaString, WoWPro.Scenario.Criteria[objective].quantity, WoWPro.Scenario.Criteria[objective].totalQuantity)
@@ -302,7 +307,8 @@ function WoWPro.ObjectiveOperators.ScenarioEqual(stage, objective, target)
 end
 
 function WoWPro.ObjectiveOperators.ScenarioGreater(qid, objective, target)
-    local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity <= target
+    local done = WoWPro.Scenario.Criteria[objective] and WoWPro.Scenario.Criteria[objective].quantity
+    done = done and WoWPro.Scenario.Criteria[objective].quantity <= target
     local status = "?"
     if WoWPro.Scenario.Criteria[objective] then
         status = ("%s: %d/%d"):format(WoWPro.Scenario.Criteria[objective].criteriaString, WoWPro.Scenario.Criteria[objective].quantity, WoWPro.Scenario.Criteria[objective].totalQuantity)
