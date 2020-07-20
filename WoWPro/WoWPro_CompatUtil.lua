@@ -17,9 +17,13 @@ function WoWPro.GossipInfo_GetActiveQuests()
         local numQuestData = #npcQuests
 
         local npcCount = _G.GetNumGossipActiveQuests()
+        if npcCount == 0 then
+            return result
+        end
         local numInfos = numQuestData / npcCount
 
         -- classic has 6, BfA has 7
+        WoWPro:dbp("WoWPro.GossipInfo_GetActiveQuests(): numQuestData=%d, npcCount=%d, numInfos=%d", numQuestData, npcCount, numInfos)
         for i = 1, numQuestData, numInfos do
             -- titleText, level, isTrivial, isComplete, isLegendary, isIgnored
             tinsert(result, {
@@ -47,9 +51,13 @@ function WoWPro.GossipInfo_GetAvailableQuests()
         local numQuestData = #npcQuests
 
         local npcCount = _G.GetNumGossipAvailableQuests()
+        if npcCount == 0 then
+            return result
+        end
         local numInfos = numQuestData / npcCount
 
         -- classic has 7, BfA has 8
+        WoWPro:dbp("WoWPro.GossipInfo_GetAvailableQuests(): numQuestData=%d, npcCount=%d, numInfos=%d", numQuestData, npcCount, numInfos)
         for i = 1, numQuestData, numInfos do
             -- titleText, level, isTrivial, frequency, isRepeatable, isLegendary, isIgnored
             tinsert(result, {
