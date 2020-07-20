@@ -14,9 +14,14 @@ function WoWPro.GossipInfo_GetActiveQuests()
     else
         local result = {}
         local npcQuests =  {_G.GetGossipActiveQuests()}
-        local numActiveQuestData = #npcQuests
-        for i = 1, numActiveQuestData, 7 do
-            -- titleText, level, isTrivial, isComplete, isLegendary, isIgnored, questID
+        local numQuestData = #npcQuests
+
+        local npcCount = _G.GetNumGossipActiveQuests()
+        local numInfos = numQuestData / npcCount
+
+        -- classic has 6, BfA has 7
+        for i = 1, numQuestData, numInfos do
+            -- titleText, level, isTrivial, isComplete, isLegendary, isIgnored
             tinsert(result, {
                 title = npcQuests[i],
                 questLevel = npcQuests[i + 1],
@@ -26,7 +31,7 @@ function WoWPro.GossipInfo_GetActiveQuests()
                 isComplete = npcQuests[i + 3],
                 isLegendary = npcQuests[i + 4],
                 isIgnored = npcQuests[i + 5],
-                questID = npcQuests[i + 6],
+                --questID = nil,
             })
         end
 
@@ -39,9 +44,14 @@ function WoWPro.GossipInfo_GetAvailableQuests()
     else
         local result = {}
         local npcQuests =  {_G.GetGossipAvailableQuests()}
-        local numActiveQuestData = #npcQuests
-        for i = 1, numActiveQuestData, 8 do
-            -- titleText, level, isTrivial, frequency, isRepeatable, isLegendary, isIgnored, questID
+        local numQuestData = #npcQuests
+
+        local npcCount = _G.GetNumGossipAvailableQuests()
+        local numInfos = numQuestData / npcCount
+
+        -- classic has 7, BfA has 8
+        for i = 1, numQuestData, numInfos do
+            -- titleText, level, isTrivial, frequency, isRepeatable, isLegendary, isIgnored
             tinsert(result, {
                 title = npcQuests[i],
                 questLevel = npcQuests[i + 1],
@@ -51,7 +61,7 @@ function WoWPro.GossipInfo_GetAvailableQuests()
                 --isComplete = nil,
                 isLegendary = npcQuests[i + 5],
                 isIgnored = npcQuests[i + 6],
-                questID = npcQuests[i + 7],
+                --questID = nil,
             })
         end
 
