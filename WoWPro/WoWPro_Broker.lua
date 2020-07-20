@@ -2530,12 +2530,7 @@ function WoWPro.PopulateQuestLog()
 
     -- Generating the Quest Log table --
     WoWPro.QuestLog = tablecopy(WoWPro.FauxQuestLog) -- Reinitiallizing the Quest Log table
-    local numEntries, numQuests
-    if WoWPro.SHADOWLANDS then
-        numEntries, numQuests = _G.C_QuestLog.GetNumQuestLogEntries()
-    else
-        numEntries, numQuests = _G.GetNumQuestLogEntries()
-    end
+    local numEntries, numQuests = WoWPro.QuestLog_GetNumQuestLogEntries()
     local currentHeader
     local delta = 0
     WoWPro:dbp("PopulateQuestLog: Entries %d, Quests %d.", numEntries, numQuests)
@@ -2547,7 +2542,7 @@ function WoWPro.PopulateQuestLog()
     while true do
         questLogIndex = questLogIndex + 1
         local questInfo = WoWPro.QuestLog_GetInfo(questLogIndex)
-        if not questInfo.title then break end
+        if not questInfo then break end
 
         if questInfo.isHeader then
             currentHeader = questInfo.title

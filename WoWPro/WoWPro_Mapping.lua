@@ -467,11 +467,7 @@ function WoWPro:MapPoint(row)
     if WoWPro.QID and WoWPro.QID[stepIndex] then
         local qid = tonumber(WoWPro.QID[stepIndex])
         if qid then
-            if WoWPro.SHADOWLANDS then
-                _G.C_SuperTrack.SetSuperTrackedQuestID(qid)
-            else
-                _G.SetSuperTrackedQuestID(qid)
-            end
+            WoWPro.SuperTrack_SetSuperTrackedQuestID(qid)
         end
     end
 
