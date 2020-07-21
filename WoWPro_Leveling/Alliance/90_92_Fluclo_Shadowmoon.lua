@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2020-07-17 18:47
+-- Who: Ludovicus_Maior
+-- Log: Added [Founded Garrison: 36797] to follower invite quests.  Did not add  [Vignette: Embaari Defense Crystal: 33038] to [Artificer Romuul:35614].
+--	[Shadows Awaken:34019] has to be left as is due to a bug, which I am not going to confirm still exists.
+
+-- URL: http://wow-pro.com/node/3604/revisions/30493/view
 -- Date: 2020-04-07 22:32
 -- Who: Ludovicus_Maior
 -- Log: Bunch of WANTED quests.
@@ -248,11 +254,6 @@
 -- Date: 2014-11-14 11:47
 -- Who: Ludovicus_Maior
 
--- URL: http://wow-pro.com/node/3604/revisions/26978/view
--- Date: 2014-11-14 04:10
--- Who: Ludovicus_Maior
--- Log: Played through and tweaked as usual.
-
 local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley@Draenor', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90,92,91)
 WoWPro:NewGuideLevels(guide,90,100)
@@ -294,6 +295,7 @@ C Establish Your Garrison|QID|34586|N|Speak to Baros Alexston and tell him you h
 f Lunarfall |QID|34586|N|With Dungar Longdrink.  If your Arrow disappeared, a /reload or a quick look at the map will fix things.|PRE|34585|M|47.8,49.8|Z|Lunarfall|
 l Pippers' Buried Supplies|QID|35382|N|Pippers' Burried Supplies: Lootable object for Garrison Resources. Behind Blacksmith Rachelle Black's stall next to the Gryphon master.|M|50.63,48.46|RANK|3|Z|Lunarfall|
 T Establish Your Garrison|QID|34586|N|To Baros Alexston|M|41.4,49.2|Z|Lunarfall|
+; This sets  [Founded Garrison: 36797] as completed
 
 A Keeping it Together |QID|35176|N|From Baros Alexston|PRE|34586|M|41.4,49.2|Z|Lunarfall|
 A Ship Salvage|QID|35166|N|From Baros Alexston|PRE|34586|M|41.4,49.2|Z|Lunarfall|
@@ -329,7 +331,7 @@ C Build Your Barracks |QID|34587|N|Go back to the Barracks construction site, an
 l Pippers' Buried Supplies|QID|35384|N|Pippers' Burried Supplies: Lootable object for Garrison Resources. Behind the two trees near the tent after you've rezoned ouside the garrison when completing the barracks.|M|49.13,76.86|RANK|3|Z|Lunarfall|
 T Build Your Barracks |QID|34587|N|To Vindicator Maraad.|M|44.10,53.35|Z|Lunarfall|
 
-A Qiana Moonshadow |QID|34646|N|From Vindicator Maraad.|PRE|34587|M|44.10,53.35|Z|Lunarfall|
+A Qiana Moonshadow |QID|34646|N|From Vindicator Maraad.|PRE|34587&36797|M|44.10,53.35|Z|Lunarfall|
 C Qiana Moonshadow |QID|34646|N|Head to Qiana Moonshadow in Moonflower Valley (south of your garrison) and speak to her.|CHAT|M|29.94,29.21|
 T Qiana Moonshadow |QID|34646|N|To Qiana Moonshadow (she's now at to your garrison)|M|40.5,53.9|Z|Lunarfall|
 
@@ -354,7 +356,7 @@ T Inspiring Ashran |QID|36629|N|To Lieutenant Howell|M|38.30,96.88|Z|Ashran|
 
 A A Surly Dwarf |QID|36630|N|From Lieutenant Howell|M|38.30,96.88|Z|Ashran|PRE|36629|
 T A Surly Dwarf |QID|36630|N|To Delvar Ironfist, inside Stormshield Barracks|M|41.05,86.93|Z|Ashran|
-A Delvar Ironfist |QID|36633|N|From Delvar Ironfist|M|41.05,86.93|Z|Ashran|PRE|36630|
+A Delvar Ironfist |QID|36633|N|From Delvar Ironfist|M|41.05,86.93|Z|Ashran|PRE|36630&36797|
 T Delvar Ironfist |QID|36633|N|To Delvar Ironfist|M|41.05,86.93|Z|Ashran|PRE|36630|
 F Lunarfall|AVAILABLE|34778|N|Fly back to Lunarfall (or hearthstone)|M|37.23,90.88|Z|Ashran|U|110560|PRE|36630|
 
@@ -367,7 +369,8 @@ A WANTED: Kuu'rat's Tusks |QID|33833|N|From the notice board in Moonflower Valle
 C WANTED: Kuu'rat's Tusks |QID|33833|N|Kill Kuu'rat, and loot the tusks. This is flagged as a 3-party group quest but can be solo'd by many. Don't forget to use your newly acquired Call to Arms to aid you in the battle.|M|34.6,26.9|
 T WANTED: Kuu'rat's Tusks |QID|33833|N|To Eremor in Embaari Village|M|45.5,37.7|
 
-A Artificer Romuul|QID|35614|M|42.86,40.36|N|Speak to Romuul, offer to defend him, defeat three waves of wolves, including an elite at the end, and then accept him as a new follower.|RANK|2|
+; Grail adds [Vignette: Embaari Defense Crystal: 33038], naww
+A Artificer Romuul|QID|35614|PRE|36797|M|42.86,40.36|N|Speak to Romuul, offer to defend him, defeat three waves of wolves, including an elite at the end, and then accept him as a new follower.|RANK|2|
 T Artificer Romuul|QID|35614|M|42.86,40.36|
 
 f Embaari Village |QID|33075|N|With Eonor|M|45.68,38.86|
@@ -646,7 +649,7 @@ T Forever Young|QID|34994|M|53.45,57.29|N|To Beezil Linkspanner.|
 T Botani Beatdown|QID|34995|M|53.68,57.24|N|To Tarenar Sunstrike.|
 T Poison Paralysis|QID|35006|M|53.60,57.29|N|To Fiona.|
 
-A Fiona |QID|35617|M|53.60,57.29|N|From Fiona.|PRE|35015|
+A Fiona |QID|35617|M|53.60,57.29|N|From Fiona.|PRE|35015&36797|
 T Fiona |QID|35617|M|53.60,57.29|N|To Fiona.|
 
 T WANTED: Maa'run's Hoof|QID|33836|M|58.04,57.64|N|To Orrin.|RANK|3|
@@ -722,7 +725,7 @@ l Shadowmoon Exile Treasure |QID|33570|M|45.81,24.58|N|Shadowmoon Exile Treasure
 T Ancestor's Memory|QID|33082|M|45.84,25.57|N|Wait for the dialog to finish, then To Rulkan|
 
 A Darkest Night|QID|34043|M|45.84,25.58|N|From Rulkan.|PRE|33082|
-A Rulkan |QID|35631|M|45.84,25.58|N|Ask Rulkan to become your follower.|PRE|33082|
+A Rulkan |QID|35631|M|45.84,25.58|N|Ask Rulkan to become your follower.|PRE|33082& 36797 |
 
 R Mount Kra'gor |QID|35553|N|Head east outside of the cave, then head up the hill of Mount Kra'gor|M|47.26,23.43|RANK|3|
 K Rai'vosh |QID|35553|N|Kill Rai'vosh for a Rare piece to slow falling and some Garrison Resources. When you first reach him, you need to allow the dialog between Turog and Rai'vosh to play out before he is attackable.|M|48.81,22.64|RANK|3|
@@ -844,7 +847,7 @@ A Lost Lumberjacks|QID|34820|PRE|33059|M|48.92,42.24|Z|Lunarfall|N|From Ken Logg
 A Gloomshade Game Hunter |QID|33461|PRE|33059|N|From the list of ingredients attached to the side of the cart.|M|48.44,41.00|Z|Lunarfall|
 
 T Fast Expansion|QID|33814|M|41.53,49.27|Z|Lunarfall|N|To Baros Alexston.|
-A Bigger is Better |QID|36592|M|41.53,49.27|Z|Lunarfall|N|From Baros Alexston.|
+A Bigger is Better |QID|36592|PRE|33814|M|41.53,49.27|Z|Lunarfall|N|From Baros Alexston.|
 C Bigger is Better |QID|36592|M|41.4,49.0|Z|Lunarfall|N|Select the Architect Table, and select "Upgrade" for the Town Hall.|NC|
 T Bigger is Better |QID|36592|M|31.66,31.16|Z|Lunarfall|N|To Baros Alexston.|
 T Supply Drop|QID|35905|M|31.8,31.2|Z|Lunarfall|N|To Baros Alexston.|
@@ -892,7 +895,7 @@ T Prune the Podlings|QID|34806|M|47.05,14.39|N|Auto-Complete|
 
 C Game of Thorns|QID|33271|N|Follow the path up to King Deathbloom, and kill him.|M|37.89,21.07;35.7,19.7|CN|
 T Game of Thorns|QID|33271|N|To Shelly Hamby|M|36.39,19.27|
-A Shelly Hamby |QID|35625|N|From Shelly Hamby|M|36.39,19.27|PRE|33271|
+A Shelly Hamby |QID|35625|N|From Shelly Hamby|M|36.39,19.27|PRE|33271&36797|
 T Shelly Hamby |QID|35625|N|From Shelly Hamby|M|36.39,19.27|
 
 T Gloomshade Game Hunter|QID|33461|M|37.92,63.49|Z|Lunarfall|N|To Arsenio Zerep just outside your Garrison. Use your Garrison Hearthstone to get you back to your garrison.|U|110560|
