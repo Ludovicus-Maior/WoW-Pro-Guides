@@ -4,6 +4,13 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_shadowmoon_valley_alliance
+-- Date: 2020-07-17 17:25
+-- Who: Ludovicus_Maior
+-- Log: Added PRE to [Besieged!:10562],
+--	PRE to [Divination: Gorefiend's Cloak:10635], [Divination: Gorefiend's Truncheon:10636], [Divination: Gorefiend's Armor:10634]
+--	PRE to [Teron Gorefiend, I am...:10645]
+
+-- URL: http://wow-pro.com/node/3285/revisions/30492/view
 -- Date: 2020-04-07 22:30
 -- Who: Ludovicus_Maior
 -- Log: [WANTED: Uvuros, Scourge of Shadowmoon]
@@ -211,7 +218,7 @@ T Building a Better Gryphon|QID|11043|M|37.6,56.0|N|To Brunn Flamebeard|ACTIVE|1
 T Hero's Call: Shadowmoon Valley!|QID|49550|M|39.56,53.68|N|To Wing Commander Nuainn|ACTIVE|49550|
 T Visions of Destruction|QID|11044|M|39.56,53.68|N|To Wing Commander Nuainn.|ACTIVE|11044|
 
-A Besieged!|QID|10562|M|39.56,53.68|N|From Wing Commander Nuainn, outside the gates to the east.|
+A Besieged!|QID|10562|PRE|11044|M|39.56,53.68|N|From Wing Commander Nuainn, outside the gates to the east.|
 C Besieged!|QID|10562|M|40.48,52.53|N|Kill 10 of the Infernal Attackers.|
 T Besieged!|QID|10562|M|39.57,53.70|N|To Wing Commander Nuainn.|
 
@@ -353,9 +360,9 @@ H Wildhammer Stronghold|QID|10744|M|37.06,58.12|N|Hearth to Wildhammer Stronghol
 T News of Victory|QID|10744|M|35.76,57.77|N|To Kurdran Wildhammer. He is downstairs.|
 C Thwart the Dark Conclave|QID|10808|U|31386|M|40.75,60.15|N|Kill the four Dark Conclave Ritualists then use the staff.|
 T Teron Gorefiend - Lore and Legend|QID|10644|M|58.16,70.82|N|To Ancient Shadowmoon Spirit.|
-A Divination: Gorefiend's Cloak|QID|10635|M|58.16,70.82|N|From Ancient Shadowmoon Spirit.|
-A Divination: Gorefiend's Truncheon|QID|10636|M|58.16,70.82|N|From Ancient Shadowmoon Spirit.|
-A Divination: Gorefiend's Armor|QID|10634|M|58.16,70.82|N|From Ancient Shadowmoon Spirit.|
+A Divination: Gorefiend's Cloak|QID|10635|PRE|10644|M|58.16,70.82|N|From Ancient Shadowmoon Spirit.| ; 10633 is the horde PRE
+A Divination: Gorefiend's Truncheon|QID|10636|PRE|10644|M|58.16,70.82|N|From Ancient Shadowmoon Spirit.|
+A Divination: Gorefiend's Armor|QID|10634|PRE|10644|M|58.16,70.82|N|From Ancient Shadowmoon Spirit.|
 C Enraged Spirits of Air|QID|10481|U|30094|M|59.85,69.71|N|Use the totem and kill the Enraged Air Spirit. They tend to be a bit spread out.|
 C The Main Course!|QID|10678|M|56.38,45.33|N|Go to the waypoint and kill Felspine the Greater to get his hide.|
 f Sanctum of the Stars|QID|10687|M|56.32,57.81|N|At Alieshor.|REP|Scryers;934;Friendly|
@@ -531,8 +538,8 @@ C Divination: Gorefiend's Truncheon|QID|10636|M|61.4,52.8;55.8,56.8;47.4,47.4;35
 C Divination: Gorefiend's Armor|QID|10634|M|69.78,85.85|N|Wear your Spectrecles. Vhel'kur wanders in the air. Everyone needs the Spectrecles and have done, or on the quest to see him.|
 T Divination: Gorefiend's Truncheon|QID|10636|M|58.28,70.92|N|To Ancient Shadowmoon Spirit.|
 T Divination: Gorefiend's Armor|QID|10634|M|58.30,70.89|N|To Ancient Shadowmoon Spirit.|
-N Teron Gorefiend, I am...|QID|10645|M|58.29,70.90|N|Dismount and dismiss pets, or this quest will bug out.|
-A Teron Gorefiend, I am...|QID|10645|M|58.29,70.90|N|From Ancient Shadowmoon Spirit.|
+N Teron Gorefiend, I am...|AVAILABLE|10645|M|58.29,70.90|N|Dismount and dismiss pets, or this quest will bug out.|
+A Teron Gorefiend, I am...|QID|10645|PRE|10635&10636&10634|M|58.29,70.90|N|From Ancient Shadowmoon Spirit.|
 C Teron Gorefiend, I am...|QID|10645|M|58.24,71.04|N|Use the any Ability that is not on cooldown, though save the health stealing one for a moment till you take a bit of damage.|
 C The Cipher of Damnation - Borak's Charge|QID|10578|M|61.08,56.60|N|Find and kill Ruul the Darkener, he is in the Netherwing Fields.|
 T Karynaku|QID|10858|M|69.83,61.36|N|To Karynaku.|
