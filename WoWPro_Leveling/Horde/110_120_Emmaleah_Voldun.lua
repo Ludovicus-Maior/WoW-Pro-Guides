@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2020-07-14 23:04
+-- Who: Ludovicus_Maior
+-- Log: Correct location for Sandscout Vesarik quest.
+--	Terrace of the Devoted => Sanctuary of the Devoted
+
+-- URL: http://wow-pro.com/node/3772/revisions/30509/view
 -- Date: 2020-04-08 19:01
 -- Who: Ludovicus_Maior
 -- Log: Wrong QID on [Nature's Remedy].
