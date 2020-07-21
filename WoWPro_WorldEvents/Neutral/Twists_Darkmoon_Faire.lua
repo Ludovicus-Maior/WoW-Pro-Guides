@@ -268,39 +268,39 @@ N Create your Banner|QID|29520|N|Use your Darkmoon Banner Kit.|U|72048|L|72049|
 C Banners, Banners Everywhere!|QID|29520|M|50.99,86.23|U|72049|NC|N|Look for a sparkling dirt pile "base" for the banner.|
 T Banners, Banners Everywhere!|QID|29520|M|55.50,54.63|N|To Selina Dourman.|
 
-A It's Hammer Time|QID|29463|M|53.35,54.73|N|From Mola.|RANK|2|
+A It's Hammer Time|QID|29463|M|53.29,54.37|N|From Mola.|RANK|2|
 N That's Whack!|ACTIVE|29463|ACH|9983|N|Score 45 points in one session of Whack-a-Gnoll.|S|ITEM|123862|
-C It's Hammer Time|QID|29463|NC|N|Talk to Mola again picking Ready to whack! Go in and wack. Avoid dolls and hitting Hogger (big brown) grants 3 points.|RANK|2|
-T It's Hammer Time|QID|29463|N|To Mola.|RANK|2|
+C It's Hammer Time|QID|29463|NC|N|Talk to Mola again picking Ready to whack! Go in and wack. Avoid dolls. Hitting Hogger (big brown) grants 3 points.|RANK|2|
+T It's Hammer Time|QID|29463|M|53.29,54.37|N|To Mola.|RANK|2|
 
-A The Humanoid Cannonball|QID|29436|M|52.67,56.09|N|From Maxima Blastenheimer.|RANK|2|
+A The Humanoid Cannonball|QID|29436|M|52.51,56.15|N|From Maxima Blastenheimer.|RANK|2|
 N Blastenheimer Bullseye|ACTIVE|29436|ACH|6021|N|Score a bullseye when launched from the Darkmoon Cannon.|M|57.25,89.85|S|RANK|2|
 C The Humanoid Cannonball|QID|29436|M|54.98,81.21|NC|N|Talk to Maxima again picking Launch me!. Change your view till you are looking down, then try to release (key 1) right when you are about to go past the waypoint.\nTalk to Teleportologist Fozlebub for a return trip.|RANK|2|
-T The Humanoid Cannonball|QID|29436|N|To Maxima Blastenheimer.|RANK|2|
+T The Humanoid Cannonball|QID|29436|M|52.51,56.15|N|To Maxima Blastenheimer.|RANK|2|
 
-T The Enemy's Insignia|QID|29457|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
-T The Captured Journal|QID|29458|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
-T A Captured Banner|QID|29456|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
-T A Curious Crystal|QID|29443|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
-T A Wondrous Weapon|QID|29446|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
-T The Master Strategist|QID|29451|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
-T Tools of Divination|QID|29464|M|51.76,60.55|N|To Professor Thaddeus Paleo.|
-A Fun for the Little Ones|QID|29507|M|51.76,60.55|N|From Professor Thaddeus Paleo.|P|Archaeology;794;75|
-T Fun for the Little Ones|QID|29507|M|51.76,60.55|N|From Professor Thaddeus Paleo.|P|Archaeology;794;75|
+T The Enemy's Insignia|QID|29457|M|51.89,60.92|N|To Professor Thaddeus Paleo.|
+T The Captured Journal|QID|29458|M|51.89,60.92|N|To Professor Thaddeus Paleo.|
+T A Captured Banner|QID|29456|M|51.89,60.92|N|To Professor Thaddeus Paleo.|
+T A Curious Crystal|QID|29443|M|51.89,60.92|N|To Professor Thaddeus Paleo.|
+T A Wondrous Weapon|QID|29446|M|51.89,60.92|N|To Professor Thaddeus Paleo.|
+T The Master Strategist|QID|29451|M|51.89,60.92|N|To Professor Thaddeus Paleo.|
+T Tools of Divination|QID|29464|M|51.89,60.92|N|To Professor Thaddeus Paleo.|
+A Fun for the Little Ones|QID|29507|M|51.89,60.92|N|From Professor Thaddeus Paleo.|P|Archaeology;794;75|
+T Fun for the Little Ones|QID|29507|M|51.89,60.92|N|From Professor Thaddeus Paleo.|P|Archaeology;794;75|
 
-A He Shoots, He Scores!|QID|29438|M|49.41,60.83|N|From Rinling.|RANK|2|
-A Rearm, Reuse, Recycle|QID|29518|M|49.41,60.83|N|From Rinling.|P|Mining;186;75|
-A Talkin' Tonks|QID|29511|M|49.41,60.83|N|From Rinling.|P|Engineering;202;75|
+A He Shoots, He Scores!|QID|29438|M|49.25,60.79|N|From Rinling.|RANK|2|
+A Rearm, Reuse, Recycle|QID|29518|M|49.25,60.79|N|From Rinling.|P|Mining;186;75|
+A Talkin' Tonks|QID|29511|M|49.25,60.79|N|From Rinling.|P|Engineering;202;75|
 
-A Eyes on the Prizes|QID|29517|M|49.41,60.83|N|From Rinling.|P|Leatherworking;165;75|
+A Eyes on the Prizes|QID|29517|M|49.25,60.79|N|From Rinling.|P|Leatherworking;165;75|
 C Eyes on the Prizes|QID|29517|NC|N|Use your Darkmoon Craftsman's Kit.|U|71977|
-T Eyes on the Prizes|QID|29517|M|49.41,60.83|N|From Rinling.|
+T Eyes on the Prizes|QID|29517|M|49.25,60.79|N|From Rinling.|
 
 N Quick Shot|ACTIVE|29438|ACH|6022|N|Score a Quick Shot at the Shooting Gallery.|S|
 C He Shoots, He Scores!|QID|29438|NC|N|Talk to Rinling again picking Let's shoot! Aim at a target and press 1 to fire. You can get 2 shots in per target.|RANK|2|
 T He Shoots, He Scores!|QID|29438|N|To Rinling.|RANK|2|
 
-A Darkmoon Pet Battle!|QID|32175|SPELL|Revive Battle Pets;125439;true|M|47.04,62.74|N|From Jeremy Feasel.|
+A Darkmoon Pet Battle!|QID|32175|SPELL|Revive Battle Pets;125439;true|M|47.05,62.74|N|From Jeremy Feasel.|
 ; Judgement (H1588, P329, S277), Honky Tonk(H1745, P294, S280), Fezwick (H1570, P312, S294)
 N Feasel|ACTIVE|32175|PET1|Mechanical Pandaren Dragonling;64899;1+2+2|PET2|Leveling;;;|PET3|Cogblade Raptor;68841;2+1+1;P>270|STRATEGY|LudoFeaselLevel|
 C MPD .vs. Judgement|QID|32175|STRATEGY|LudoFeaselLevel|N|1) [ability=779/Thunderbolt]\n2) Spam [ability=115/breath]|SELECT|1|DEAD|2,1|
@@ -331,34 +331,34 @@ T A New Darkmoon Challenger!|QID|36471|M|47.29,61.98|N|To Christoph VonFeasel.|
 C Rearm, Reuse, Recycle|QID|29518|NC|N|Look for Tonk Scrap. Look between the tents.|S|
 C Talkin' Tonks|QID|29511|NC|N|Repair tonks.|U|72110|S|
 
-A Tonk Commander|QID|29434|M|50.51,64.77|N|From Finlay Coolshot.|RANK|2|
+A Tonk Commander|QID|29434|M|50.70,65.16|N|From Finlay Coolshot.|RANK|2|
 N Ace Tonk Commander|ACTIVE|29434|ACH|9885|N|Score 45 hits in one session of the Tonk Challenge.|ITEM|122122|S|
 C Tonk Commander|QID|29434|NC|N|Talk to Finlay again and pick Ready to play! Drive through the targets and hit '1' when they're behind you. If you get targeted (ping sound) hit '2" for speed.|RANK|2|
-T Tonk Commander|QID|29434|M|50.51,64.77|N|To Finlay Coolshot.|RANK|2|
+T Tonk Commander|QID|29434|M|50.70,65.16|N|To Finlay Coolshot.|RANK|2|
 
 T The Darkmoon Faire|QID|7905|M|48.10,64.88|N|To Gelvas Grimegate.|FACTION|Alliance|
 T The Darkmoon Faire|QID|7926|M|48.10,64.88|N|To Gelvas Grimegate.|FACTION|Horde|
 
-t Test Your Strength|QID|29433|M|48.06,67.05|N|To Kerri Hicks.|
-A Test Your Strength|QID|29433|M|48.06,67.05|N|From Kerri Hicks.|
+t Test Your Strength|QID|29433|M|47.91,67.12|N|To Kerri Hicks.|
+A Test Your Strength|QID|29433|M|47.91,67.12|N|From Kerri Hicks.|
 
-A Putting the Crunch in the Frog|QID|29509|M|52.88,67.92|N|From Stamp Thunderhorn.|P|Cooking;185;75|
-A Spoilin' for Salty Sea Dogs|QID|29513|M|52.88,67.92|N|From Stamp Thunderhorn.|P|Fishing;356;75|
+A Putting the Crunch in the Frog|QID|29509|M|52.89,67.94|N|From Stamp Thunderhorn.|P|Cooking;185;75|
+A Spoilin' for Salty Sea Dogs|QID|29513|M|52.89,67.94|N|From Stamp Thunderhorn.|P|Fishing;356;75|
 
 U Coat the Frogs in Flour|QID|29509|L|72057|U|72056|
 C Putting the Crunch in the Frog|QID|29509|NC|N|Throw the breaded frogs into the green bubbling pot next to Stamp Thunderhorn.|U|72057|
-T Putting the Crunch in the Frog|QID|29509|M|52.88,67.92|N|To Stamp Thunderhorn.|
+T Putting the Crunch in the Frog|QID|29509|M|52.89,67.94|N|To Stamp Thunderhorn.|
 
-B Darkmoon Dog|QID|99602603|ACH|6026;3|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19223|LVL|5|RANK|3|
-B Pickled Kodo Foot|QID|99602607|ACH|6026;7|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19305|LVL|15|RANK|3|
-B Crunchy Frog|QID|960260002|ACH|6026;2|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19306|LVL|35|RANK|3|
-B Funnel Cake|QID|99602606|ACH|6026;6|M|52.88,67.92|N|From Stamp Thunderhorn.|L|33246|LVL|55|RANK|3|
-B Corn-Breaded Sausage|QID|99602601|ACH|6026;1|M|52.88,67.92|N|From Stamp Thunderhorn.|L|44940|LVL|75|RANK|3|
-B Spiced Beef Jerky|QID|99602610|ACH|6026;10|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19304|LVL|5|RANK|3|
-B Red Hot Wings|QID|99602608|ACH|6026;8|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19224|LVL|25|RANK|3|
-B Deep Fried Candybar|QID|99602605|ACH|6026;4|M|52.88,67.92|N|From Stamp Thunderhorn.|L|19225|LVL|45|RANK|3|
-B Forest Strider Drumstick|QID|99602605|ACH|6026;5|M|52.88,67.92|N|From Stamp Thunderhorn.|L|33254|LVL|65|RANK|3|
-B Salty Sea Dog|QID|99602609|ACH|6026;9|M|52.88,67.92|N|From Stamp Thunderhorn.|L|73260|LVL|85|RANK|3|
+B Darkmoon Dog|QID|99602603|ACH|6026;3|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19223|LVL|5|RANK|3|
+B Pickled Kodo Foot|QID|99602607|ACH|6026;7|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19305|LVL|15|RANK|3|
+B Crunchy Frog|QID|960260002|ACH|6026;2|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19306|LVL|35|RANK|3|
+B Funnel Cake|QID|99602606|ACH|6026;6|M|52.89,67.94|N|From Stamp Thunderhorn.|L|33246|LVL|55|RANK|3|
+B Corn-Breaded Sausage|QID|99602601|ACH|6026;1|M|52.89,67.94|N|From Stamp Thunderhorn.|L|44940|LVL|75|RANK|3|
+B Spiced Beef Jerky|QID|99602610|ACH|6026;10|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19304|LVL|5|RANK|3|
+B Red Hot Wings|QID|99602608|ACH|6026;8|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19224|LVL|25|RANK|3|
+B Deep Fried Candybar|QID|99602605|ACH|6026;4|M|52.89,67.94|N|From Stamp Thunderhorn.|L|19225|LVL|45|RANK|3|
+B Forest Strider Drumstick|QID|99602605|ACH|6026;5|M|52.89,67.94|N|From Stamp Thunderhorn.|L|33254|LVL|65|RANK|3|
+B Salty Sea Dog|QID|99602609|ACH|6026;9|M|52.89,67.94|N|From Stamp Thunderhorn.|L|73260|LVL|85|RANK|3|
 N Eat Darkmoon Dog|QID|99602603|ACH|6026;3|U|19223|LVL|5|RANK|3|
 N Eat Spiced Beef Jerky|QID|99602610|ACH|6026;10|U|19304|LVL|5|RANK|3|
 N Eat Pickled Kodo Foot|QID|99602607|ACH|6026;7|U|19305|LVL|15|RANK|3|
@@ -388,33 +388,33 @@ T Spawn of Jubjub|QID|7946|M|55.8,70.6|PET|14878;1|N|You will recieved an egg, i
 B Taking the Show on the Road: Darkmoon Fireworks (6)|QID|99603000|M|48.50,71.76|N|Buy 6 from Boomie Sparks. Skip step to skip the achievement.|ACH|6030|L|74142 6|FACTION|Alliance|RANK|3|
 B Taking the Show on the Road: Darkmoon Fireworks (6)|QID|99603100|M|48.50,71.76|N|Buy 6 from Boomie Sparks. Skip step to skip the achievement.|ACH|6031|L|74142 6|FACTION|Horde|RANK|3|
 
-T An Intriguing Grimoire|QID|29445|M|52.94,75.94|N|To Sayge.|
-A Putting Trash to Good Use|QID|29510|M|52.94,75.94|N|From Sayge.|P|Enchanting;333;75|
-A Writing the Future|QID|29515|M|52.94,75.94|N|From Sayge.|P|Inscription;773;75|
+T An Intriguing Grimoire|QID|29445|M|53.24,75.83|N|To Sayge.|
+A Putting Trash to Good Use|QID|29510|M|53.24,75.83|N|From Sayge.|P|Enchanting;333;75|
+A Writing the Future|QID|29515|M|53.24,75.83|N|From Sayge.|P|Inscription;773;75|
 
 N Create 5 Prophetic Ink|QID|29515|N|Use the Bundle of Exotic Herbs.|L|71972|U|71971|
 C Writing the Future|QID|29515|NC|N|Use the Prophetic Ink. Repeat until completed.|U|71972|
-T Writing the Future|QID|29515|M|52.94,75.94|N|To Sayge.|
+T Writing the Future|QID|29515|M|53.24,75.83|N|To Sayge.|
 
-N Sayge's Dark Fortunes|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Sayge offers different 2 hour buffs.  Pick one and elect to get a written fortune for a chance at a quest item! We pre-select based on your class.|RANK|3|
-N Sayge's Dark Fortune of Stamina|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Confiscate the corn, Speak against your brother openly|RANK|3|
-N Sayge's Dark Fortune of Agility|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Hunter,Rogue,Druid,Shaman,Monk|N|Confiscate the corn, Keep your brother out without letting him know|RANK|3|
-N Sayge's Dark Fortune of Intelligence|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Druid,Mage,Paladin,Priest,Monk,Shaman,Warlock|N|Turn him over to liege, Show not so quiet defiance|RANK|3|
-N Sayge's Dark Fortune of Spirit|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Priest,Druid,Monk,Shaman,Paladin|N|Give corn to the man, Take credit and Share the gold|RANK|3|
-N Sayge's Dark Fortune of Strength|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Warrior,Death Knight,Paladin|N|Confiscate the corn, Help your brother in|RANK|3|
-N Sayge's Dark Fortune of Armor|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Slay the man, Let your friend go|RANK|3|
-N Sayge's Dark Fortune of Damage|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Slay the man, Execute your friend painfully|RANK|3|
-N Sayge's Dark Fortune of Resistance|QID|99023735|M|52.94,75.94|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Turn him over to liege, Remain quiet|RANK|3|
+N Sayge's Dark Fortunes|QID|99023735|M|53.24,75.83|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Sayge offers different 2 hour buffs.  Pick one and elect to get a written fortune for a chance at a quest item! We pre-select based on your class.|RANK|3|
+N Sayge's Dark Fortune of Stamina|QID|99023735|M|53.24,75.83|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Confiscate the corn, Speak against your brother openly|RANK|3|
+N Sayge's Dark Fortune of Agility|QID|99023735|M|53.24,75.83|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Hunter,Rogue,Druid,Shaman,Monk|N|Confiscate the corn, Keep your brother out without letting him know|RANK|3|
+N Sayge's Dark Fortune of Intelligence|QID|99023735|M|53.24,75.83|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Druid,Mage,Paladin,Priest,Monk,Shaman,Warlock|N|Turn him over to liege, Show not so quiet defiance|RANK|3|
+N Sayge's Dark Fortune of Spirit|QID|99023735|M|53.24,75.83|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Priest,Druid,Monk,Shaman,Paladin|N|Give corn to the man, Take credit and Share the gold|RANK|3|
+N Sayge's Dark Fortune of Strength|QID|99023735|M|53.24,75.83|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|C|Warrior,Death Knight,Paladin|N|Confiscate the corn, Help your brother in|RANK|3|
+N Sayge's Dark Fortune of Armor|QID|99023735|M|53.24,75.83|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Slay the man, Let your friend go|RANK|3|
+N Sayge's Dark Fortune of Damage|QID|99023735|M|53.24,75.83|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Slay the man, Execute your friend painfully|RANK|3|
+N Sayge's Dark Fortune of Resistance|QID|99023735|M|53.24,75.83|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Turn him over to liege, Remain quiet|RANK|3|
 
 N Collect 6 Discarded Weapon|QID|29510|N|Around the faire|L|72018 6|S|
 
-A Target: Turtle|QID|29455|M|51.45,77.77|N|Jessica Rogers.|RANK|2|
+A Target: Turtle|QID|29455|M|51.51,77.70|N|Jessica Rogers.|RANK|2|
 N Triumphant Turtle Tossing|ACTIVE|29455|ACH|9894|N|Successfully toss 10 rings onto Dubenko the Darkmoon Turtle in one session of the Ring Toss.|ITEM|122123|S|
 C Target: Turtle|QID|29455|NC|N|Talk to Jessica Rogers and select Ready to play! Press 1, aim the middle ring of the big ring on the pole of the turtle. Once you're in position spam 1->click. If he moves wait a moment, aim and spam.|RANK|2|
-T Target: Turtle|QID|29455|M|51.45,77.77|N|Jessica Rogers.|RANK|2|
+T Target: Turtle|QID|29455|M|51.51,77.70|N|Jessica Rogers.|RANK|2|
 
-T An Exotic Egg|QID|29444|M|50.87,81.80|N|To Yebb Neblegear.|
-A Baby Needs Two Pair of Shoes|QID|29508|M|50.87,81.80|N|From Yebb Neblegear.|P|Blacksmithing;164;75|
+T An Exotic Egg|QID|29444|M|51.10,82.04|N|To Yebb Neblegear.|
+A Baby Needs Two Pair of Shoes|QID|29508|M|51.10,82.04|N|From Yebb Neblegear.|P|Blacksmithing;164;75|
 
 N I Was Promised a Pony|QID|99602501|M|50.75,81.63;56.67,81.68|CS|N|Follow the maze and hop on a pony at the end.|ACH|6025|RANK|3|
 
@@ -432,14 +432,14 @@ C Keeping the Faire Sparkling|QID|29516|NC|N|Convert to Sparkling 'Gemstone'|U|7
 C Rearm, Reuse, Recycle|QID|29518|NC|N|Look for Tonk Scrap.|US|
 C Talkin' Tonks|QID|29511|U|72110|US|NC|
 
-T Rearm, Reuse, Recycle|QID|29518|M|49.41,60.83|N|From Rinling.|
-T Talkin' Tonks|QID|29511|M|49.41,60.83|N|From Rinling.|
+T Rearm, Reuse, Recycle|QID|29518|M|49.25,60.79|N|From Rinling.|
+T Talkin' Tonks|QID|29511|M|49.25,60.79|N|From Rinling.|
 T Keeping the Faire Sparkling|QID|29516|M|54.84,70.66|N|From Chronos.|
-T Putting Trash to Good Use|QID|29510|M|52.94,75.94|N|To Sayge.|
-T Spoilin' for Salty Sea Dogs|QID|29513|M|52.88,67.92|N|To Stamp Thunderhorn.|
+T Putting Trash to Good Use|QID|29510|M|53.24,75.83|N|To Sayge.|
+T Spoilin' for Salty Sea Dogs|QID|29513|M|52.89,67.94|N|To Stamp Thunderhorn.|
 
-C Baby Needs Two Pair of Shoes|QID|29508|NC|M|50.87,81.80|N|Shoe Baby.|U|71967|
-T Baby Needs Two Pair of Shoes|QID|29508|M|50.87,81.80|N|From Yebb Neblegear.|
+C Baby Needs Two Pair of Shoes|QID|29508|NC|M|51.10,82.04|N|Shoe Baby.|U|71967|
+T Baby Needs Two Pair of Shoes|QID|29508|M|51.10,82.04|N|From Yebb Neblegear.|
 
 T Tan My Hide|QID|29519|M|54.84,70.66|N|From Chronos.|
 
