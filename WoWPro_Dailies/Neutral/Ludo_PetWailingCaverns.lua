@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/pet_battles_wailing_caverns
+-- Date: 2020-07-10 00:26
+-- Who: Ludovicus_Maior
+-- Log: Teroclaw Hatchling was nerfed.  Starting to compensate.
+
+-- URL: http://wow-pro.com/node/3756/revisions/30088/view
 -- Date: 2018-10-23 23:32
 -- Who: Ludovicus_Maior
 -- Log: And/Or Mark II
@@ -18,7 +23,7 @@
 -- Who: Ludovicus_Maior
 -- Log: Initial Upload
 
-local guide = WoWPro:RegisterGuide("LudoPetWailingCaverns","Dailies","Wailing Caverns@WailingCaverns","Ludovicus","Neutral")
+local guide = WoWPro:RegisterGuide("LudoPetWailingCaverns","Dailies","Wailing Caverns!Dungeon825","Ludovicus","Neutral")
 WoWPro:GuideLevels(guide,110, 110, 110)
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Pet_BabyBlizzardBear")
 WoWPro.Dailies:GuideNameAndCategory(guide,"Wailing Caverns Pet Dungeon","Pets")
@@ -39,29 +44,26 @@ A Wailing Critters|QID|45423|PRE|45540|M|38.96,68.11|Z|Northern Barrens|N|From M
 
 N Lets get started|ACTIVE|45423|M|38.96,68.11|Z|Northern Barrens|CHAT|QO|1|N|Ask Muyani to be teleported to the Dungeon.|
 C Deviate Dangers|QID|45423|SO|1|S|N|Your first three fights|
-
 ; Deviate Smallclaw Section
 ! Deviate Smallclaw|NPC|116786|QID|116786.1|
-N Deviate Smallclaw|QID|116786.1|SO|1;1|PET1|Lifelike Mechanical Frostboar;80329;2+1+1|PET2|Emerald Proto-Whelp;68850;2+2+2|PET3|Teroclaw Hatchling;81431;2+2+2|STRATEGY|Smallclaw-Kewlzilbot@WowHead|
-A Deviate Smallclaw|QID|116786.1|SO|1;1|M|61.86,66.72|Z|WailingCavernsPetBattle/1|T|Deviate Smallclaw|STRATEGY|Smallclaw-Kewlzilbot@WowHead|
-C Frostboar .vs. Smallclaw|QID|116786.1|STRATEGY|Smallclaw-Kewlzilbot@WowHead|SELECT|1|DEAD|2,1|N|1) [ability=334/decoy]\n2) [ability=777/missile] until you win.|
-C Frostboar Recovery|QID|116786.1|STRATEGY|Smallclaw-Kewlzilbot@WowHead|SELECT|1|SWITCH|2|N|1) [ability=533/rebuild]\n2) Switch to Whelp|
-C Proto-Whelp|QID|116786.1|STRATEGY|Smallclaw-Kewlzilbot@WowHead|SELECT|2|SWITCH|3|DEAD|2,2|N|1) [ability=597/emerald-presence]\n2) [ability=525/emerald-bite] x3 \n3) [ability=598/emerald-dream] to heal up.|
-C Hatchling|QID|116786.1|STRATEGY|Smallclaw-Kewlzilbot@WowHead|SELECT|3|DEAD|2,3|N|1) [ability=504/alpha-strike]\n2) [ability=312/dodge]\n3) [ability=574/natures-ward] to heal up.|
+N Deviate Smallclaw|QID|116786.1|SO|1;1|PET1|Moth1;;420+506+508|PET2|Moth2;;420+506+508|PET3|Moth3;;420+506+508|STRATEGY|DeviateSmallclaw@XuFu@www.wow-petguide.com|
+A Deviate Smallclaw|QID|116786.1|SO|1;1|M|61.86,66.72|Z|WailingCavernsPetBattle|T|Deviate Smallclaw|STRATEGY|DeviateSmallclaw@XuFu@www.wow-petguide.com|
+C Moth1 |QID|116786.1|STRATEGY|DeviateSmallclaw@XuFu@www.wow-petguide.com|SWITCH|2|DEAD|1,1|N|1) [ability=508/moth-dust]\n2) [ability=506/cocoon-strike]\n3) 2x [ability=420/slicing-wind]\n4) Repeat until death.|
+C Moth2 |QID|116786.1|STRATEGY|DeviateSmallclaw@XuFu@www.wow-petguide.com|SWITCH|3|DEAD|1,1|N|1) [ability=508/moth-dust]\n2) [ability=506/cocoon-strike]\n3) 2x [ability=420/slicing-wind]\n4) Repeat until death.|
+C Moth3 |QID|116786.1|STRATEGY|DeviateSmallclaw@XuFu@www.wow-petguide.com|N|1) [ability=508/moth-dust]\n2) [ability=506/cocoon-strike]\n3) 2x [ability=420/slicing-wind]\n4) Repeat until death.|
 
 ; Deviate Chomper Section
 ! Deviate Chomper|NPC|116788|QID|116788.1|
-N Deviate Chomper|QID|116788.1|SO|1;3|PET1|Teroclaw Hatchling;81431;2+2+2|PET2|Lifelike Mechanical Frostboar;80329;2+1+1|PET3|Emerald Proto-Whelp;68850;2+2+2|STRATEGY|Chomper-Kewlzilbot@WowHead|
-A Deviate Chomper|QID|116788.1|SO|1;3|M|61.05,69.88|Z|WailingCavernsPetBattle/1|T|Deviate Chomper|STRATEGY|Chomper-Kewlzilbot@WowHead|
-C Hatchling .vs. Chomper|QID|116788.1|STRATEGY|Chomper-Kewlzilbot@WowHead|SELECT|1|DEAD|2,1|N|1) [ability=504/alpha-strike]\n2) [ability=312/dodge]\n3) [ability=504/alpha-strike] to win|
-C Hatchling Recovery|QID|116788.1|STRATEGY|Chomper-Kewlzilbot@WowHead|SELECT|1|SWITCH|2|N|1)[ability=574/natures-ward] to heal up.|
-C Frostboar|QID|116788.1|STRATEGY|Chomper-Kewlzilbot@WowHead|SELECT|2|DEAD|2,2|SWITCH|3|N|1) [ability=334/decoy]\n2) [ability=777/missile] until you win.\n3) [ability=533/rebuild] to heal up.|
-C Proto-Whelp|QID|116788.1|STRATEGY|Chomper-Kewlzilbot@WowHead|SELECT|3|DEAD|2,3|N|1) [ability=597/emerald-presence]\n2) [ability=525/emerald-bite] x3 \n3) [ability=598/emerald-dream] to heal up.|
+N Deviate Chomper|QID|116788.1|SO|1;3|PET1|Moth1;;420+506+508|PET2|Moth2;;420+506+508|PET3|Moth3;;420+506+508|STRATEGY|DeviateSmallclaw@XuFu@www.wow-petguide.com|
+A Deviate Chomper|QID|116788.1|SO|1;3|M|61.05,69.88|Z|WailingCavernsPetBattle|T|Deviate Chomper|STRATEGY|DeviateSmallclaw@XuFu@www.wow-petguide.com|
+C Moth1 |QID|116786.1|STRATEGY|DeviateSmallclaw@XuFu@www.wow-petguide.com|SWITCH|2|DEAD|1,1|N|1) [ability=508/moth-dust]\n2) [ability=506/cocoon-strike]\n3) 2x [ability=420/slicing-wind]\n4) Repeat until death.|
+C Moth2 |QID|116786.1|STRATEGY|DeviateSmallclaw@XuFu@www.wow-petguide.com|SWITCH|3|DEAD|1,1|N|1) [ability=508/moth-dust]\n2) [ability=506/cocoon-strike]\n3) 2x [ability=420/slicing-wind]\n4) Repeat until death.|
+C Moth3 |QID|116786.1|STRATEGY|DeviateSmallclaw@XuFu@www.wow-petguide.com|N|1) [ability=508/moth-dust]\n2) [ability=506/cocoon-strike]\n3) 2x [ability=420/slicing-wind]\n4) Repeat until death.|
 
 ; Deviate Flapper Section
 ! Deviate Flapper|NPC|116787|QID|116787.1|
 N Deviate Flapper|QID|116787.1|SO|1;2|PET1|Emerald Proto-Whelp;68850;2+2+2|PET2|Teroclaw Hatchling;81431;2+2+2|PET3|Lifelike Mechanical Frostboar;80329;2+1+1|STRATEGY|Flapper-Kewlzilbot@WowHead|
-A Deviate Flapper|QID|116787.1|SO|1;2|M|62.09,74.58|Z|WailingCavernsPetBattle/1|T|Deviate Flapper|STRATEGY|Flapper-Kewlzilbot@WowHead|
+A Deviate Flapper|QID|116787.1|SO|1;2|M|62.09,74.58|Z|WailingCavernsPetBattle|T|Deviate Flapper|STRATEGY|Flapper-Kewlzilbot@WowHead|
 C Proto-Whelp .vs. Flapper|QID|116787.1|STRATEGY|Flapper-Kewlzilbot@WowHead|SELECT|2|SWITCH|3|DEAD|2,1|N|1) [ability=597/emerald-presence]\n2) [ability=525/emerald-bite] x3 for the win|
 C Proto-Whelp Recovery|QID|116787.1|STRATEGY|Flapper-Kewlzilbot@WowHead|SELECT|1|SWITCH|2|N|1)  [ability=598/emerald-dream]\n2) Switch to Hatchling|
 C Hatchling|QID|116787.1|STRATEGY|Flapper-Kewlzilbot@WowHead|SELECT|2|DEAD|2,2|SWITCH|3|N|1) [ability=504/alpha-strike]\n2) [ability=312/dodge]\n3) [ability=574/natures-ward] to heal up.|
@@ -75,7 +77,7 @@ C Skum Healing|STRATEGY|Skum-Healing|N|1) With Frostboar do [ability=334/decoy]\
 C Son of Skum|QID|45423|SO|2|S|N|You remember him!|
 ! Son of Skum|NPC|116789|QID|116789.1|
 N Son of Skum|QID|116789.1|PET1|Lifelike Mechanical Frostboar;80329;2+1+1|PET2|Emerald Proto-Whelp;68850;2+2+2|PET3|Teroclaw Hatchling;81431;2+2+2|STRATEGY|Skum-Kewlzilbot@WowHead|
-A Son of Skum|QID|116789.1|SO|2;1|M|61.34,79.40|Z|WailingCavernsPetBattle/1|T|Son of Skum|STRATEGY|Skum-Kewlzilbot@WowHead|
+A Son of Skum|QID|116789.1|SO|2;1|M|61.34,79.40|Z|WailingCavernsPetBattle|T|Son of Skum|STRATEGY|Skum-Kewlzilbot@WowHead|
 
 C Son of Skum|QID|45423|SO|2|US|N|You remember him!|
 
