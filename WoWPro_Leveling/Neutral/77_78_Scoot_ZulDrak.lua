@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
+-- Date: 2020-07-17 22:10
+-- Who: Ludovicus_Maior
+-- Log: Quest 12954 is obsolete.
+--	But the P:X9977 tag in Grail is a mystery.  Ignore.
+
+-- URL: http://wow-pro.com/node/3295/revisions/30491/view
 -- Date: 2020-04-07 22:28
 -- Who: Ludovicus_Maior
 -- Log: corrected [WANTED: Ragemane's Flipper]
@@ -552,10 +558,11 @@ A Unfinished Business |QID|29833|N|From Har'koa. This quest is optional as it le
 N Amphitheater of Anguish |QID|12948|N|If you haven't gotten the achievement yet (and you know you want it), get a group up for the Amphitheater of Anguish. |
 
 t The Champion's Call! |QID|12974|N|To Gurgthock.|M|48.43,56.35|
-A The Amphitheater of Anguish: Yggdras!|QID|12932^12954|M|48.43,56.35|N|Welcome Champion of The Ring of Blood. From Gurgthock|
-C The Amphitheater of Anguish: Yggdras!|QID|12932^12954|M|48.00,57.00|N|L75 Worm.|
-T The Amphitheater of Anguish: Yggdras!|QID|12954^12932|M|48.48,56.42|N|To Wodin the Troll-Servant.|
-A The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.43,56.35|N|From Gurgthock.|PRE|12932^12954|
+; Grail has a  P:X9977 tag for 12932, and I dunno what it means.
+A The Amphitheater of Anguish: Yggdras!|QID|12932|M|48.43,56.35|N|Welcome Champion of The Ring of Blood. From Gurgthock|
+C The Amphitheater of Anguish: Yggdras!|QID|12932|M|48.00,57.00|N|L75 Worm.|
+T The Amphitheater of Anguish: Yggdras!|QID|12932|M|48.48,56.42|N|To Wodin the Troll-Servant.|
+A The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.43,56.35|N|From Gurgthock.|PRE|12932|
 C The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.00,57.00|N|L75 Stinky Magnataur.|
 T The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.48,56.42|N|To Wodin the Troll-Servant.|
 A The Amphitheater of Anguish: From Beyond!|QID|12934|M|48.43,56.35|N|From Gurgthock.|PRE|12933|
