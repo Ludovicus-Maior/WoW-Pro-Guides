@@ -704,7 +704,7 @@ K Quartermaster Garza|ACTIVE|49775|QO|1|M|51.65,86.89|T|Quartermaster Garza|N|Ki
 T Key to the Brig|QID|49775|M|44.06,50.75|Z|Upper Deck!Breath Of Pa'ku|N|Go down the stairs in the Quartermaster's anteroom to find and turn in to Wavemaster Lanfa.|
 A Not "Only Zul"|QID|49754|M|44.06,50.75|Z|Upper Deck!Breath Of Pa'ku|N|From Wavemaster Lanfa.|RANK|2|
 C Not "Only Zul"|QID|49754|M|49.69,63.50|Z|Lower Deck!Breath Of Pa'ku!Dungeon|S|N|Purge Zul's forces as you head to the treasure.|
-$ Spoils of Pandaria|QID|49936|M|23.69,24.89|N|All the way at the back of the lowest level of the ship (stairs are behind brig) you can find a treasure to loot.|RANK|2|
+$ Spoils of Pandaria|QID|49936|M|23.69,24.89|Z|Lower Deck!Breath Of Pa'ku!Dungeon|N|All the way at the back of the lowest level of the ship (stairs are behind brig) you can find a treasure to loot.|RANK|2|
 C Not "Only Zul"|QID|49754|M|49.69,63.50|Z|Lower Deck!Breath Of Pa'ku!Dungeon|US|N|Finish purging your quota of Zul's forces.|
 T Not "Only Zul"|QID|49754|M|54.39,87.04|N|To Wavemaster Lanfa.|
 A Against the Tide|QID|49871|M|54.39,87.04|N|From Wavemaster Lanfa.|RANK|2|
@@ -723,8 +723,8 @@ T Hope's Blue Light|QID|49884|M|44.49,95.43|Z|Dazar'alor|N|To Captain Rez'okun.|
 
 F Port of Zandalar|ACTIVE|51101|M|51.91,41.20|Z|Dazar'alor|N|At Paku'ai the Ro'kata.|TZ|Grand Bazaar|RANK|-1|
 A Who Seeks the Seekers?|QID|49283|M|57.76,92.28|Z|Dazar'alor|N|From Sholo.|RANK|2|
-b Seekers' Outpost|ACTIVE|51101|M|52.79,95.77|Z|Dazar'alor|N|Ask Wavesinger De'zan for a ride in his boat.|
-f Seekers' Outpost|ACTIVE|49283|M|70.42,65.32|N|At Scroll of Flight.|RANK|2|
+b Seeker's Outpost|ACTIVE|51101|M|52.79,95.77|Z|Dazar'alor|N|Ask Wavesinger De'zan for a ride in his boat.|
+f Seeker's Outpost|ACTIVE|49283|M|70.42,65.32|N|At Scroll of Flight.|RANK|2|
 T Who Seeks the Seekers?|QID|49283|M|70.49,65.21|N|To Batu.|
 A Perfect Tidings|QID|49284|M|70.49,65.21|N|From Batu.|RANK|2|PRE|49283|
 A Tiny Treasures|QID|49285|M|70.31,65.06|N|From Koba.|RANK|2|PRE|49283|
