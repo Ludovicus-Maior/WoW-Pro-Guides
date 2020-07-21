@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/legion_intro_guidealliance
+-- Date: 2020-07-17 17:59
+-- Who: Ludovicus_Maior
+-- Log: Added the DH variant quest  [Demons Among Them: 44463] and corrected  [Demons Among Us:40593]
+
+-- URL: http://wow-pro.com/node/3662/revisions/30388/view
 -- Date: 2019-08-26 17:33
 -- Who: Fluclo
 -- Log: Amended guide step as it was not moving on, added the pre-req quests to Illidari Allies and In the Blink of an Eye, added additional instruction on getting to Dalaran (Legion)
@@ -129,15 +134,21 @@ C The Fallen Lion|QID|40517|QO|1|M|85.56,31.82|Z|Stormwind City|NC|N|Mount a Gry
 C The Fallen Lion|QID|40517|QO|2|M|85.90,31.60|Z|Stormwind City|CHAT|N|Speak to Anduin Wrynn and deliver the letter, then wait for the dialog to play out.|
 T The Fallen Lion|QID|40517|M|85.90,31.60|Z|Stormwind City|N|To Anduin Wrynn.|
 
-A Demons Among Us|QID|40593|M|85.30,32.30|Z|Stormwind City|N|From Jace Darkweaver.|PRE|40517|
-C Demons Among Us|QID|40593|QO|1|M|85.30,32.30|Z|Stormwind City|N|Speak to Jace Darkweaver and ask him for the proof.|CHAT|
-C Demons Among Us|QID|40593|QO|2|M|80.51,35.27|Z|Stormwind City|N|Kill infiltrators.|S|
-C Demons Among Us|QID|40593|QO|4|M|80.59,33.38|Z|Stormwind City|NC|N|Destroy the Petitioner's Chamber Legion Portal (down the hall, then to the right).|
-C Demons Among Us|QID|40593|QO|3|M|82.40,28.03|Z|Stormwind City|NC|N|Destroy the Courtyard Legion Portal.|
-C Demons Among Us|QID|40593|QO|2|M|80.51,35.27|Z|Stormwind City|N|Finish killing the infiltrators.|US|
-T Demons Among Us|QID|40593|M|85.76,31.75|Z|Stormwind City|N|To Anduin Wrynn.|
+A Demons Among Us|QID|40593|M|85.30,32.30|Z|Stormwind City|N|From Jace Darkweaver.|PRE|40517|C|-DemonHunter|
+C Demons Among Us|QID|40593|QO|1|M|85.30,32.30|Z|Stormwind City|N|Speak to Jace Darkweaver and ask him for the proof.|CHAT|C|-DemonHunter|
+C Demons Among Us|QID|40593|QO|2|M|80.51,35.27|Z|Stormwind City|N|Kill infiltrators.|S|C|-DemonHunter|
+C Demons Among Us|QID|40593|QO|4|M|80.59,33.38|Z|Stormwind City|NC|N|Destroy the Petitioner's Chamber Legion Portal (down the hall, then to the right).|C|-DemonHunter|
+C Demons Among Us|QID|40593|QO|3|M|82.40,28.03|Z|Stormwind City|NC|N|Destroy the Courtyard Legion Portal.|C|-DemonHunter|
+C Demons Among Us|QID|40593|QO|2|M|80.51,35.27|Z|Stormwind City|N|Finish killing the infiltrators.|US|C|-DemonHunter|
+T Demons Among Us|QID|40593|M|85.76,31.75|Z|Stormwind City|N|To Anduin Wrynn.|C|-DemonHunter|
 
-A Illidari Allies|QID|44120|PRE|40593|M|85.76,31.75|Z|Stormwind City|N|From Anduin Wrynn.|
+A Demons Among Them|QID|44463|M|85.30,32.30|Z|Stormwind City|N|From Jace Darkweaver.|PRE|40517|C|DemonHunter|
+C Warn Anduin Wrynn|QID|44463|QO|1|M|85.9, 31.6|Z|Stormwind City|N|Speak to Anduin Wrynn.|CHAT|C|DemonHunter|
+C Demons Among Them |QID|44463|QO|2|M|80.51,35.27|Z|Stormwind City|N|Kill infiltrators.|C|DemonHunter|
+T Demons Among Them |QID|44463|M|85.76,31.75|Z|Stormwind City|N|To Anduin Wrynn.|C|DemonHunter|
+
+; Grail also has [Fel Secrets - Havoc Spec Tracking Event: 39517] as a PRE, but we ignore.
+A Illidari Allies|QID|44120|PRE|40593^44463|M|85.76,31.75|Z|Stormwind City|N|From Anduin Wrynn.|
 T Illidari Allies|QID|44120|M|40.26,77.70|Z|Stormwind City|N|To Elerion Bladedancer, located just outside the Mage Quarter.|
 A In the Blink of an Eye|QID|44663^44184|PRE|44120|M|40.44,77.89|Z|Stormwind City|N|From Elerion Bladedancer.|
 F Wizard's Sanctum|QID|44663|ACTIVE|44663|M|49.34,86.91|Z|Stormwind City|NC|N|Head up to the Wizard's Sanctum.|
