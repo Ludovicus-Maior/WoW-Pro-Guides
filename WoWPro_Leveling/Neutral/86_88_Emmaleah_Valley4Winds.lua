@@ -4,6 +4,10 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2020-07-17 17:38
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3485/revisions/30295/view
 -- Date: 2019-06-30 22:29
 -- Who: Hendo72
 -- Log: Corrected a couple spelling typos (virmin and goind)
@@ -199,6 +203,7 @@ T A Seemingly Endless Nuisance|QID|29908|M|83.69,21.01|N|To Pang Thunderfoot.|;*
 A Low Turnip Turnout|QID|29909|PRE|29877&29908|M|83.69,21.01|N|From Pang Thunderfoot.|;***
 A The Search for the Hidden Master|QID|30086|PRE|29877&29908|M|84.08,21.04|N|From Xiao.|;***
 T The Search for the Hidden Master|QID|30086|M|84.08,21.04|N|To Xiao.|
+; We ignore Grail dependency on 30087, which does not seem obtainable.
 A Ken-Ken|QID|29873|LEAD|30079|PRE|30086|M|84.08,21.04|N|From Xiao.|
 A Clever Ashyo|QID|29871|LEAD|29577|PRE|30086|M|84.08,21.04|N|From Xiao.|
 A Kang Bramblestaff|QID|29875|PRE|30086|M|84.08,21.04|FACTION|Horde|N|From Xiao.|
