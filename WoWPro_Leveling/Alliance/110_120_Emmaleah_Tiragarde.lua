@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
+-- Date: 2020-07-17 20:50
+-- Who: Ludovicus_Maior
+-- Log: Added PRE to [Sampling the Goods:53041], [Stow and Go:47489], [Righteous Retribution:49741], [Bearers of Bad News:50110], [Proudmoore's Parley:50972], [Tol Dagor: The Ashvane Overseer:52800], [Frozen:49419]
+--	Added LEAD to [An Explosive Opportunity:50542], [A Letter to the League:51151], [Worker's Rights:50699]
+
+-- URL: http://wow-pro.com/node/3769/revisions/30526/view
 -- Date: 2020-05-01 20:48
 -- Who: Ludovicus_Maior
 -- Log: Fixed a few K steps with missing ACTIVE tags
@@ -244,7 +250,7 @@ A Under Their Noses|QID|50531|M|78.10,47.94|N|From Flynn Fairwind.|PRE|47487&474
 R Bridgeport|ACTIVE|50531|M|76.903,49.14|N|On to the next area.|
 T Under Their Noses|QID|50531|M|75.85,49.13|N|To Flynn Fairwind.|
 
-A Sampling the Goods|QID|53041|M|75.85,49.13|N|From Flynn Fairwind.|
+A Sampling the Goods|QID|53041|PRE|50531|M|75.85,49.13|N|From Flynn Fairwind.|
 f Bridgeport|ACTIVE|53041|M|75.78,48.59|N|At Jeb Johnson.|
 A Left at the Port|QID|51149|M|75.06,49.72|N|From Dockmaster Leighton.|RANK|2|
 C Sampling the Goods|QID|53041|QO|2|M|74.75,50.14|NC|N|Pick up the Raw Azerite Sample from near the table.|
@@ -252,13 +258,13 @@ C Sampling the Goods|QID|53041|QO|1|M|75.18,50.75|NC|N|Pick up the Chemist's Not
 A An Overrun Mine|QID|50349|M|75.69,50.61|N|From Junior Miner Joe.|RANK|2|
 A The Hunters of Kennings Lodge|QID|50544|M|75.55,49.94|N|From Help Wanted Poster.|LEAD|48873^48874^48879|RANK|2|
 T Sampling the Goods|QID|53041|M|75.85,49.14|N|To Flynn Fairwind.|
-A Stow and Go|QID|47489|M|75.85,49.14|N|From Flynn Fairwind.|PRE|50531|
+A Stow and Go|QID|47489|M|75.85,49.14|N|From Flynn Fairwind.|PRE|53041|
 
 R Old Drust Road|ACTIVE|51149|M|76.52,48.97;77.27,49.52;76.02,50.02;73.60,48.91|CS|N|Back up to get to the overhead road to Old Drust Road.|RANK|2|
 R Southwind Station|ACTIVE|51149|M|66.58,51.26|N|Continue down the road until you see Southwind Station on your right.|RANK|2|
-A An Explosive Opportunity|QID|50542|M|66.69,50.03|N|From Lead Guide Zipwrench.|RANK|2|
+A An Explosive Opportunity|QID|50542|LEAD|49531|M|66.69,50.03|N|From Lead Guide Zipwrench.|RANK|2|
 T Left at the Port|QID|51149|M|65.84,50.10|N|To Dockmaster Tyndall.|
-A A Letter to the League|QID|51151|M|65.84,50.10|N|From Dockmaster Tyndall.|RANK|2|
+A A Letter to the League|QID|51151|LEAD|49225|M|65.84,50.10|N|From Dockmaster Tyndall.|RANK|2|
 A The Norwington Festival|QID|48070|M|66.08,50.40|N|Formal Invitation|LEAD|48616^48077^48080|RANK|2|
 K Teres|QID|49942|QO|1|M|63.55,50.44|Z|Tiragarde Sound|T|Teres|N|Kill this Silver Elite near the waterfall for Azerite Power and resources.|RARE|ITEM|158556|RANK|3|;Wanderer's Cove
 K Maison the Portable|QID|51880|QO|1|M|58.09,48.70|Z|Tiragarde Sound|T|Maison the Portable|N|Kill this Silver Elite and loot for Azerite Power and resources.|RARE|ITEM|154458|RANK|3|
@@ -277,6 +283,7 @@ C The Beauty of Marketing|QID|49531|M|66.67,59.38|NC|U|155009|QO|5|N|Use Camera,
 C The Beauty of Marketing|QID|49531|M|70.15,55.87|NC|U|155009|QO|3|N|Use Camera, then the 1 key to take a selfie of you and the waterfall.|
 K Tort Jaw|QID|51835|QO|1|M|70.18,55.91|T|Tort Jaw|N|Silver Elite to kill for Azerite Power and resources.|RARE|ITEM|159349|RANK|2|
 C The Beauty of Marketing|QID|49531|M|65.10,61.08|NC|U|155009|QO|4|N|Use Camera, then the 1 key to take a selfie of you and the Ruined Robot.|
+; Grails says the next two need [Trouble at Greystone Keep:49715]
 A Inspection Gadget|QID|51426|M|64.99,60.62|N|From Parin Tinklocket.|RANK|2|;this wasn't available 2nd time - person tried to share it with me and it said I wasn't eligible
 A Reverse Tinkering|QID|51430|M|64.99,60.62|N|From Parin Tinklocket.|RANK|2|;ditto
 C Inspection Gadget|QID|51426|M|64.92,63.59|NC|U|160245|S|N|Use the R.A.D.A.R. to survey as you are walking around (no it is not channeled, but it does slow your walking speed.|
@@ -505,12 +512,12 @@ C Air Raid|QID|49737|M|56.79,59.81|US|N|Finish killing Irontide Skyriders.|
 T Numbing the Pain|QID|52787|M|56.47,61.70|N|To Taelia.|
 T Air Raid|QID|49737|M|56.67,61.18|N|To Lieutenant Tarenfold.|
 T Farmers Who Fight|QID|52750|M|56.67,61.18|N|To Lieutenant Tarenfold.|
-A Hands Off My Booty!|QID|49738|M|56.67,61.18|N|From Lieutenant Tarenfold.|PRE|52750&49737&52787|
+A Hands Off My Booty!|QID|49738|M|56.67,61.18|N|From Lieutenant Tarenfold.|PRE|52750&49737|
 C Hands Off My Booty!|QID|49738|M|56.12,64.44|NC|N|Use the Cannon to fire on the looters.|
 T Hands Off My Booty!|QID|49738|M|56.67,61.16|N|To Lieutenant Tarenfold.|
 A For Kul Tiras!|QID|49736|M|56.67,61.16|N|From Lieutenant Tarenfold.|PRE|49738|
 A Cease Fire!|QID|49740|M|56.67,61.16|N|From Lieutenant Tarenfold.|PRE|49738|
-A Righteous Retribution|QID|49741|M|56.48,61.72|N|From Taelia.|PRE|49738|
+A Righteous Retribution|QID|49741|M|56.48,61.72|N|From Taelia.|PRE|49738&49741|
 A Cat on a Hot Copper Roof|QID|49757|M|58.60,61.52|N|From Meredith.|PRE|49869|RANK|2|
 C Cat on a Hot Copper Roof|QID|49757|M|58.84,61.32|QO|1|N|Start at the lowest ring (if you are a short race you will have to jump to reach it). Work your way around the house from ring to ring, till you get to the upstairs porch where Scratchy is.|
 T Cat on a Hot Copper Roof|QID|49757|M|58.60,61.52|N|To Meredith.|
@@ -537,7 +544,7 @@ A Freehold: A Pirate's End|QID|52148|M|56.50,61.72|NA|N|From Flynn Fairwind. Thi
 T Cease Fire!|QID|49740|M|56.68,61.17|N|To Lieutenant Tarenfold.|
 T For Kul Tiras!|QID|49736|M|56.68,61.17|N|To Lieutenant Tarenfold.|
 T Righteous Retribution|QID|49741|M|56.51,61.27|N|To Taelia.|
-A Bearers of Bad News|QID|50110|M|56.51,61.27|N|From Taelia.|PRE|49740&49736|
+A Bearers of Bad News|QID|50110|M|56.51,61.27|N|From Taelia.|PRE|49741&49740&49736|
 
 ; Enemies Within Arc
 C Bearers of Bad News|QID|50110|M|56.51,61.27|NC|N|Hop on Galeheart for a ride back to Boralus.|
@@ -559,7 +566,7 @@ A Hot Pursuit|QID|50790|M|48.14,82.87|Z|1161|N|From  UI Alert.|PRE|50789&50788|
 C Hot Pursuit|QID|50790|M|47.75,81.36|Z|1161|QO|1|NC|N|Hop on the Proudmoore Charger.|
 C Hot Pursuit|QID|50790|M|39.91,51.89|Z|1161|QO|2|NC|N|*1 Key to Jump obstacles, else short stun, 2 key for a burst of speed. Take a wild ride to Proudmoore Keep in pursuit of Priscilla Ashvane.|
 T Hot Pursuit|QID|50790|M|48.27,80.64|Z|1161|N|To Taelia.|
-A Proudmoore's Parley|QID|50972|M|48.44,80.93|Z|1161|N|From Katherine Proudmoore.|
+A Proudmoore's Parley|QID|50972|PRE|50790|M|48.44,80.93|Z|1161|N|From Katherine Proudmoore.|
 f Proudmoore Keep|ACTIVE|50972|M|47.65,65.42|Z|1161|N|At Jessica Clarke.|
 F Tradewinds Market|ACTIVE|50972|M|47.70,65.40|Z|1161|N|At Jessica Clarke.|
 $ Scrimshaw Cache|QID|52870|Z|Boralus|M|64.79,12.39;62.85,11.84;61.72,10.61|CS|N|Down the stairs and over the wall into a little cave for some Azerite Power and resources. You can return the same way you came.|RANK|2|
@@ -568,7 +575,7 @@ A Trouble at Greystone Keep|QID|49715|M|74.12,22.55|N|From Courier Gerald.|LEAD|
 T A Bad Deal|QID|49523|M|75.47,22.18|N|To Roko. This has a followup to come back for at 120.|
 T Proudmoore's Parley|QID|50972|M|73.81,25.12|N|To Genn Greymane.|
 
-A Tol Dagor: The Ashvane Overseer|QID|52800|M|73.80,25.08|NA|N|From Cyrus Crestfall. This is a dungeon quest.|LVL|115|RANK|2|
+A Tol Dagor: The Ashvane Overseer|QID|52800|PRE|50972|M|73.80,25.08|NA|N|From Cyrus Crestfall. This is a dungeon quest.|LVL|115|RANK|2|
 N What follows|ACTIVE|49715|N|The quest you just finished has a zone finale feel to it, but not to worry the guide does not end here. This is a good spot to take a break for war campaign if you want, but there are 2 more areas for the zone achievement and a LOT of quests not part of the achievement on the other side of the bay. If you want you can set guide to rank 3 to get "everything".|
 
 b Eastpoint Station|ACTIVE|49715|M|75.29,25.77|N|Take the ferry to Eastpoint Station.|
@@ -636,7 +643,7 @@ T A Marine Out of Water|QID|49234|M|62.82,29.88|N|To Recruit Brutis.|
 R Hatherford|ACTIVE|51144|M|65.49,26.03|N|Follow the road northeast to Hatherford.|RANK|3|
 A WANTED: Gryphon 'Nappers|QID|51358|M|66.85,24.37|N|From a Wanted Poster.|RANK|3|
 T A Bundle of Furs|QID|51144|M|66.24,24.29|N|To Dandy Jones.|
-A Worker's Rights|QID|50699|M|67.40,24.14|N|From Davey Brindle.|RANK|3|
+A Worker's Rights|QID|50699|LEAD|49465^49452^49451|M|67.40,24.14|N|From Davey Brindle.|RANK|3|
 f Hatherford|ACTIVE|50699|M|66.93,23.07|N|At Mariah McKee.|RANK|3|
 K Gryphon 'Nappers|ACTIVE|51358|QO|1|M|67.45,22.08|N|Kill the Gryphon Nappers in a small cave|T|Silent Boris|RANK|3|
 T Worker's Rights|QID|50699|M|68.93,20.59|N|To Maynard Algerson.|
@@ -845,6 +852,7 @@ C The Bears and the Bees|QID|49395|M|47.36,19.39|US|QO|1|N|Finish collecting the
 T Hold Still|QID|49394|M|42.36,22.28|N|To Tagart.|
 T The Bears and the Bees|QID|49395|M|42.36,22.28|N|To Tagart.|
 t WANTED: The Hornet|QID|51368|M|42.36,22.28|N|To Tagart.|
+; Grail claims only 49394 is needed. Someone ought to test.
 A Protect the Nests|QID|49735|M|42.48,22.71|N|From Rulf.|PRE|49395&49394|RANK|2|
 A An Offering of Eggs|QID|49710|M|42.48,22.71|N|From Rulf.|PRE|49395&49394|RANK|2|
 C Protect the Nests|QID|49735|M|43.65,17.00|S|N|Kill the Hungry Dewscales as you go.|
@@ -865,7 +873,7 @@ A Wendies|QID|49433|M|41.99,16.76|N|From Boss Tak.|RANK|2|PRE|49418|
 A Where'd They Go?|QID|49435|M|41.99,16.76|N|From Boss Tak.|RANK|2|PRE|49418|
 C Wendies|QID|49433|M|39.82,13.11|S|N|Kill Wendigos as you go.|
 C Where'd They Go?|QID|49435|M|42.27,15.54|QO|1|NC|N|Find evidence of the missing Roughnecks.|
-A Frozen|QID|49419|M|43.67,15.20|N|From "Helpless" Henry.|RANK|2|
+A Frozen|QID|49419|PRE|49412&49418|M|43.67,15.20|N|From "Helpless" Henry.|RANK|2|
 C Where'd They Go?|QID|49435|M|43.73,14.66|QO|2|NC|N|Find the Supply Cart.|
 A Warm and Cozy|QID|49431|M|44.93,15.48|N|From Griddon.|RANK|2|PRE|49418|
 C Warm and Cozy|QID|49431|M|45.38,14.38|S|N|Kill Steam Elementals for their Steamy Essence. Also can be picked up from the ground is 'steamy shards'.|
@@ -882,6 +890,7 @@ T Boss' Revenge|QID|49439|M|39.35,12.59|N|To Boss Tak.|
 K Pack Leader Asenya|QID|49923|QO|1|M|39.89,14.89;38.86,15.29|CS|T|Pack Leader Asenya|RARE|ITEM|160263|N|In her underground den, you will find a Silver Elite to kill for Azerite Power and resources.|RANK|2|
 C Wendies|QID|49433|M|39.82,13.11|US|N|Finish kill Wendigos.|
 T Wendies|QID|49433|M|40.42,13.75|N|To Boss Tak.|
+; Grail claims only 49439 is needed.
 A Getting Paid|QID|49719|M|40.42,13.75|N|From Boss Tak.|RANK|2|PRE|49439&49433|
 T Getting Paid|QID|49719|M|42.39,22.28|N|To Tagart.|
 $ Smuggler's Cache|QID|50097|M|38.8,22.0;38.47,20.77|CC|N|Inside a cave. Click on the Smuggler's Cache to start short vignette - Ends with Captain Wintersail - Silver Elite to kill and loot for reasources and treasure.|RARE|ITEM|155422|RANK|3|
