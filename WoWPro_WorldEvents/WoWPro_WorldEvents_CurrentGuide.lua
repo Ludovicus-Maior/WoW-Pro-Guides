@@ -49,7 +49,7 @@ frame:SetScript("OnShow", function()
     local scrollbar = WoWPro:CreateScrollbar(box, 6)
 
     for i=1,NUMROWS do
-        local row = _G.CreateFrame("Frame", nil, box)
+        local row = _G.CreateFrame("Frame", nil, box, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
 
         if i == 1 then
             row:SetPoint("TOP", 0, -12)

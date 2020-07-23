@@ -19,7 +19,7 @@ function WoWPro.Profession.CreateSpellFrame()
     spellbookicon:SetTexture("Interface\\Icons\\INV_Misc_Book_09")
     spellbookicon:SetAllPoints(WoWPro.Profession.SpellButton)
 
-    local tooltip = _G.CreateFrame("Frame", nil, WoWPro.GuideFrame)
+    local tooltip = _G.CreateFrame("Frame", nil, WoWPro.GuideFrame, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     tooltip:SetBackdrop( {
         bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
         edgeFile = [[Interface\Tooltips\UI-Tooltip-Border]],

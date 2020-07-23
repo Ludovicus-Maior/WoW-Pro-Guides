@@ -379,7 +379,7 @@ local ErrorLog = nil
 function WoWPro:CreateErrorLog(title)
     if ErrorLog then return ErrorLog end
 
-    ErrorLog = _G.CreateFrame("Frame", "WoWProErrorLog", _G.UIParent)
+    ErrorLog = _G.CreateFrame("Frame", "WoWProErrorLog", _G.UIParent, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     ErrorLog:Hide()
     ErrorLog:SetPoint("CENTER", "UIParent", "CENTER")
     ErrorLog:SetFrameStrata("TOOLTIP")

@@ -239,7 +239,7 @@ function WoWPro:Setup_TitleRow(frame)
 
     local TitleRow = WoWPro.GuideList.TitleRow
 
-    TitleRow.buffer = TitleRow.buffer or _G.CreateFrame("CheckButton", self.name .. "TitleRow.buffer", TitleRow)
+    TitleRow.buffer = TitleRow.buffer or _G.CreateFrame("CheckButton", self.name .. "TitleRow.buffer", TitleRow, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
     TitleRow.buffer:SetBackdrop(titlerowBG)
     TitleRow.buffer:SetBackdropColor(0.2, 0.2, 0, 1)
     TitleRow.buffer:SetPoint("TOPLEFT", 4, 0)
@@ -253,7 +253,7 @@ function WoWPro:Setup_TitleRow(frame)
 
     -- Create a button for each field
     for i,colDesc in pairs(self.GuideList.Format) do
-        local button = TitleRow[i] or _G.CreateFrame("CheckButton", self.name .. "TitleRowButtton" .. tostring(i), TitleRow)
+        local button = TitleRow[i] or _G.CreateFrame("CheckButton", self.name .. "TitleRowButtton" .. tostring(i), TitleRow, _G.BackdropTemplateMixin and "BackdropTemplate" or nil)
         TitleRow[colDesc[1]] = button
         TitleRow[i] = button
         TitleRow[i]:SetNormalFontObject("GameFontWhite")
