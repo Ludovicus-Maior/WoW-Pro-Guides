@@ -665,7 +665,7 @@ function WoWPro:CreateMiniMapButton()
                     WoWPro:Enable()
                 end
             elseif button == "RightButton" then
-                _G.InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
+                WoWPro.InterfaceOptionsFrame_OpenToCategory("WoW-Pro")
             end
         end,
         OnTooltipShow = function(this)
@@ -764,8 +764,8 @@ function WoWPro:CreateNextGuideDialog()
     button2text:SetText("Choose Guide From List")
     button2text:SetTextColor(1, 1, 1)
     button2:SetScript("OnClick", function(this, button)
-        _G.InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling")
-        _G.InterfaceOptionsFrame_OpenToCategory("Guide List")
+        WoWPro.InterfaceOptionsFrame_OpenToCategory("WoW-Pro Leveling")
+        WoWPro.InterfaceOptionsFrame_OpenToCategory("Guide List")
         WoWPro.NextGuideDialog:Hide()
     end)
 
