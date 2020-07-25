@@ -104,7 +104,6 @@ N Nazjatar First|AVAILABLE|55646&54088|N|You must have done Nazjatar thru openin
 T Rumors of Mechagon|QID|57024|M|53.09,43.27|Z|Dazar'alor|N|To Gazlowe.|FACTION|Horde|
 A The Legend of Mechagon|QID|55646|PRE|55500|M|53.09,43.27|Z|Dazar'alor|N|From Gazlowe.|FACTION|Horde|
 A The Missing Crew|QID|56379|PRE|55500|M|58.46,62.98|Z|Zuldazar|N|From Dread-Admiral Tattersail. This quest is completed in Nazjatar, but this is the logical place to pick it up.|NA|FACTION|Horde|
-F Timberfell Outpost|ACTIVE|55646|M|87.27,50.66|Z|Tiragarde Sound|N|at Skrash.|FACTION|Horde|FLY|BFA|
 P Tiragarde Sound|ACTIVE|55646|M|58.46,62.98|Z|Zuldazar|N|Make your way to the Banshee's Wail and then ask the Admiral for Transport to Tiragarde Sound. |FACTION|Horde|
 F Timberfell Outpost|ACTIVE|55646|M|87.27,50.66|Z|Tiragarde Sound|N|at Skrash.|FACTION|Horde|FLY|BFA|
 T The Legend of Mechagon|QID|55646|M|72.05,54.61;74.44,56.71;66.47,61.89;65.63,64.61|Z|Tiragarde Sound|CS|N|To Gazlowe. He can be found in the Abandoned Junkheap.|FACTION|Horde|
@@ -151,9 +150,9 @@ T Machinations for Mechagon|QID|55649|M|42.06,87.84|Z|Dazar'alor|N|To Gazlowe.|F
 A Only the Best Will Do|QID|55650|M|42.18,87.84|Z|Dazar'alor|N|From Skaggit.|FACTION|Horde|
 F The Sliver|QID|55650|M|53.34,57.32|Z|Zuldazar|N|Run to your preferred flightmaster and fly to The Sliver.|FACTION|Horde|FLY|BFA|
 R The Zocalo|QID|55650|M|42.40,25.73|Z|Dazar'alor|N|Run up thru Terrace of the Chosen to The Zocalo.|FACTION|Horde|
-C Only the Best Will Do|QID|55650|M|45.14,40.58|Z|Dazar'alor|QO|1|CHAT|N|Continue on to the Terrace of the Crafters and find Shuga Blastcaps, (beside the Shred Master Mk1) and ask her for supplies for Gazlowe.|FACTION|Horde|
 C Only the Best Will Do|QID|55650|M|42.41,25.73|Z|Dazar'alor|QO|3|CHAT|N|Tell Ricket that Gazlowe has found Mechagon.|FACTION|Horde|
 C Only the Best Will Do|QID|55650|M|35.86,16.65|Z|Dazar'alor|QO|2|CHAT|N|Continue deeper into the Zocalo and find the Greasemonkey Union Rep, inside The Drunken Drummer and pick any of the chat options until negotiations are completed.|FACTION|Horde|
+C Only the Best Will Do|QID|55650|M|45.14,40.58|Z|Dazar'alor|QO|1|CHAT|N|Continue on to the Terrace of the Crafters and find Shuga Blastcaps, (beside the Shred Master Mk1) and ask her for supplies for Gazlowe.|FACTION|Horde|
 F Port of Zandalar|ACTIVE|52342|M|35.86,16.65|Z|Dazar'alor|U|141605|NC|LVL|120|N|Use your flightmaster's whistle and then fly back to the port to meet up with Skaggit.|FACTION|Horde|
 T Only the Best Will Do|QID|55650|M|42.20,87.85|Z|Dazar'alor|N|To Skaggit.|FACTION|Horde|
 A To Mechagon!|QID|55651|M|42.06,87.82|Z|Dazar'alor|N|From Gazlowe.|FACTION|Horde|
