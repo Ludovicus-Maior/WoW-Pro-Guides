@@ -2,7 +2,7 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 local guide = WoWPro:RegisterGuide('Classic-12-15-Hendo-Silverpine-Forest', 'Leveling', 'Silverpine Forest', 'Hendo72', 'Horde', 1)
-WoWPro:GuideLevels(guide,12, 20)
+WoWPro:GuideLevels(guide, 10, 15)
 WoWPro:GuideNextGuide(guide, 'Classic-15-21-Hendo-TheBarrens')
 WoWPro:GuideSteps(guide, function() return [[
 
@@ -21,24 +21,25 @@ A A Recipe For Death|QID|447|M|42.87,40.86|N|From Apothecary Renferrel.|
 A Border Crossings|QID|477|M|43.97,40.93|N|From Shadow Priest Allister.|
 A Prove Your Worth|QID|421|M|44.20,39.78|N|From Dalar Dawnweaver.|
 
-C A Recipe For Death|QID|447|M|36,15|QO|1;2|N|Kill any spiders or bears you come across for their Skittering Bloods and Grizzled Bear Hearts.\nDo not go out of your way to get them. You will come to a good spot later.|S|
+C A Recipe For Death|QID|447|L|3253 6|N|Kill any bears you come across to loot the Grizzled Bear Hearts.\nDo not go out of your way to get them. You will come to a good spot later.|S|
+C A Recipe For Death|QID|447|L|3254 6|N|Kill any spiders you come across to loot the Skittering Bloods.\nDo not go out of your way to get them. You will come to a good spot later.|S|
 C Prove Your Worth|QID|421|M|47.97,40.43|QO|1|N|Kill five Moonrage Whitescalps.\n[color=FF0000]NOTE: [/color]Make sure to avoid the woodland area directly west of the road, there's a level 21 elite that paths around that area.|S|
 T Lost Deathstalkers|QID|428|M|53.47,13.43|N|To Rane Yorick at the Ivar Patch.|
 A Wild Hearts|QID|429|M|53.46,13.43|N|From Rane Yorick.|PRE|428|
-C Wild Hearts|QID|429|M|55.67,12.56|QO|1|N|Kill Mottled Worgs to collect the Discolored Worg Hearts.|S|
-A Escorting Erland|QID|435|M|56.2,9.2|N|[color=FF0000]NOTE: [/color]Escort Quest\nFrom Deathstalker Erland inside the house at Malden's Orchard.\nIf he's not there, someone is already on the quest and you have to wait for them to finish.|
+C Wild Hearts|QID|429|M|55.67,12.56|L|3564 6|N|Kill Mottled Worgs to collect the Discolored Worg Hearts.|S|
+A Escorting Erland|QID|435|M|56.18,9.18|N|[color=FF0000]NOTE: [/color]Escort Quest\nFrom Deathstalker Erland inside the house at Malden's Orchard.\nIf he's not there, someone is already on the quest and you have to wait for them to finish.|
 C Escorting Erland|QID|435|M|54.07,13.56|N|He complains about Worgs coming out of the woodwork to attack him. This isn't an exaggeration. Erland is also about as physically fit as an 82 year old cancer patient, so make sure he doesn't wind up tanking more than one, or he goes squish and you wind up with a small army of angry dogs on you.|
-A Escorting Erland|QID|435|M|56.2,9.2|N|[color=FF0000]NOTE: [/color]You failed the quest. Go back to Deathstalker Erland and restart the quest.\nHis respawn rate seems a little long.|FAIL|
+A Escorting Erland|ACTIVE|435|AVAILABLE|-435|M|56.18,9.18|N|[color=FF0000]NOTE: [/color]You failed the quest. Go back to Deathstalker Erland and restart the quest.\nHis respawn rate seems a little long.|FAIL|
 T Escorting Erland|QID|435|M|53.46,13.43|N|To Rane Yorick.|
 ; lv 13
 A The Deathstalkers' Report|QID|449|M|53.46,13.43|N|From Rane Yorick.|PRE|435|
 C Wild Hearts|QID|429|M|55.67,12.56|QO|1|N|Finish collecting the Discolored Worg Hearts.|US|
-C Prove Your Worth|QID|421|QO|1|N|Finish killing the Moonrage Whitescalps.|US|
+C Prove Your Worth|QID|421|M|55.75,18.26|QO|1|N|Finish killing the Moonrage Whitescalps.|US|
 R The Sepulcher|QID|421|M|46.21,41.59|N|Run back to the Sepulcher.|
 
 T Prove Your Worth|QID|421|M|44.20,39.78|N|To Dalar Dawnweaver.|
 A Arugal's Folly|QID|422|M|44.20,39.78|N|From Dalar Dawnweaver.|PRE|421|
-T Wild Hearts|QID|429|M|42.87,40.86|N|To Apothecary Renferrel.|
+T Wild Hearts|QID|429|M|42.87,40.86|N|To Apothecary Renferrel.\n[color=FF0000]NOTE: [/color]If you have any leftover, do not destroy them. They are not soulbound and can be auctioned/trade/mailed.|
 A Return to Quinn|QID|430|M|42.87,40.86|N|From Apothecary Renferrel.|PRE|429|
 T The Deathstalkers' Report|QID|449|M|43.43,40.86|N|To High Executor Hadrec inside the Crypt.|
 A Speak with Renferrel|QID|3221|M|43.43,40.86|N|From High Executor Hadrec.|PRE|449|
@@ -77,18 +78,17 @@ A Return to Podrig|QID|6324|R|Undead|M|63.27,48.55|Z|Undercity|N|From Michael Ga
 F The Sepulcher|QID|438|M|63.27,48.55|Z|Undercity|N|Fly back to The Sepulcher.|
 
 T Return to Podrig|QID|6324|R|Undead|M|43.43,41.69|N|To Deathguard Podrig at the Crypt entrance.|
-C Arugal's Folly|QID|423|M|44.20,39.78|QO|1;2|N|Kill Moonrage Gluttons and Darksouls for their Shackles.|S|
 R The Decrepit Ferry|ACTIVE|438|M|51.21,36.73;52.05,38.40;58.34,34.95|CC|N|Go to the Decrepit Ferry.\nBy sticking to the hillside around the edge, you can avoid some unnecessary fighting. The mobs in this area (Hand of Ravenclaw) can hit hard and they roam considerably.|
 T The Decrepit Ferry|QID|438|M|58.34,34.95|N|Click the Decrepit Ferry.|
 A Rot Hide Clues|QID|439|M|58.34,34.95|N|From the Decrepit Ferry.|PRE|438|
 
 T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.\nFollow the hillside just like you did to get here.|
 A The Engraved Ring|QID|440|M|43.43,40.86|N|From High Executor Hadrec.|PRE|439|
-C Arugal's Folly|QID|423|M|51.24,36.81;56.60,44.66;56.44,46.06|CC|QO|1;2|N|Head to Deep Elm Mine and kill Moonrage Gluttons and Darksouls for their Shackles.\nYou'll find the Darksouls inside the mine. Stay close to the entrance as they have a quick respawn rate.\n[color=FF0000]NOTE: [/color]This is not an easy quest. Just be aware of your surroundings and watch for adds.|US|
+R Deep Elem Mine|QID|423|M|51.24,36.81;56.60,44.66;56.44,46.06|CC|N|Head to Deep Elem Mine. We are taking a shortcut to get to the mine entrance. It's not necessary to go all the way around.|
+C Arugal's Folly|QID|423|QO|1;2|N|Kill Moonrage Gluttons to loot the Glutton Shackles.\nKill Moonrage Darksouls to loot the Darksoul Shackles.\nYou'll find them inside the mine. Stay close to the entrance as they have a quick respawn rate.\n[color=FF0000]NOTE: [/color]This is not an easy quest. Just be aware of your surroundings and watch for adds.\nIf offered, accept the party invite. It will make things a lot easier.|
 T Border Crossings|QID|477|M|49.92,60.28|CC|N|To the Dalaran Crate.\nIt's best to work your way around to the back of the camp and try pulling\picking them off from there. There are at least 4 Frost mages that you WILL need to take out. Be warned, they will run and you will be frost slowed. That's why it's a good idea to start with the furthest and work your way in. Or, just go for it and hope for the best.|NC|
 A Maps and Runes|QID|478|M|40.92,60.28|N|From the Dalaran Crate.|PRE|477|
-L Level 15|QID|478|N|Make sure you are within 4.5 bubbles of level 14 before heading back to the Sepulcher. You'll be picking up your class quest when you get to Undercity shortly.|LVL|15;-2970|R|Undead,Troll|C|Mage|
-H The Sepulcher|QID|478|N|Hearth back to The Sepulcher.\n[color=FF0000]NOTE: [/color]If you want to save your hearth for Deep Elm Mine, run back to Sepulcher. (I strongly recommend it)|
+H The Sepulcher|QID|478|N|Hearth back to The Sepulcher.\n[color=FF0000]NOTE: [/color]If you want to save your hearth for Deep Elem Mine, run back to Sepulcher. (I strongly recommend it)|
 
 T Maps and Runes|QID|478|M|43.97,40.93|N|To Shadow Priest Allister.|
 A Dalar's Analysis|QID|481|M|43.97,40.93|N|From Shadow Priest Allister.|PRE|478|
@@ -98,8 +98,10 @@ T Dalar's Analysis|QID|481|M|44.20,39.78|N|To Dalar Dawnweaver.|
 A Dalaran's Intentions|QID|482|M|44.20,39.78|N|From Dalar Dawnweaver.|PRE|481|
 T Dalaran's Intentions|QID|482|M|43.97,40.93|N|To Shadow Priest Allister.|
 A Ambermill Investigations|QID|479|M|43.97,40.93|N|From Shadow Priest Allister.|PRE|482|
-C Arugal's Folly|QID|424|M|51.24,36.81;56.60,44.66;56.44,46.06;58.6,44.8|CC|QO|1|N|Run to Deep Elm Mine, fight your way to the back of the mine and kill Grimson the Pale.\nIf your hearth is on CD, be prepared to fight your way back out again.|
+C Arugal's Folly|QID|424|M|51.24,36.81;56.60,44.66;56.44,46.06;58.6,44.8|CC|QO|1|N|Run to Deep Elem Mine and fight your way to the back of the mine. Kill Grimson the Pale and loot his head.\n[color=FF0000]NOTE: [/color]The faster you do this, the less likely you are to get as many repops should you have to fight your way out.|
 ; lv 15
+L Level 15|QID|478|N|Make sure you are within 1.5 bubbles of level 15 before heading back to the Sepulcher. You'll be picking up your class quest when you head to Undercity shortly.|LVL|15;-1050|R|Undead,Troll|C|Mage|
+H The Sepulcher|QID|424|N|Hearth back to The Sepulcher.\n[color=FF0000]NOTE: [/color]If your hearth is on cooldown, be prepared to fight your way back out again.|
 T Arugal's Folly|QID|424|M|44.20,39.78|N|To Dalar Dawnweaver.|
 
 ;-- Mage 'Spellfire Robe' Lv 15 class quest chain
