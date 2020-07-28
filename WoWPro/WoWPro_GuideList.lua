@@ -1,4 +1,4 @@
--- luacheck: globals ipairs pairs tinsert unpack
+-- luacheck: globals ipairs pairs tinsert unpack sort
 -- luacheck: globals tostring type max floor
 
 ---------------------------------
@@ -7,9 +7,113 @@
 
 local L = WoWPro_Locale
 
+local FALLBACK_ICON = 134400
+local tabIndexByName = {}
+local GuideListMixin = {}
+function GuideListMixin:SetDisplay()
+    local GID = WoWProDB.char.currentguide
+    if GID and WoWPro.Guides[GID] then
+        self:SelectTab(tabIndexByName[WoWPro.Guides[GID].guidetype])
+        return
+    end
+
+    -- Select the first one, if none selected
+    self:SelectTab(1)
+end
+function GuideListMixin:SelectListItem(itemIndex)
+    local guide = self.guides[itemIndex]
+    if _G.IsShiftKeyDown() then
+        WoWProCharDB.Guide[guide.GID] = nil
+        WoWPro.Resetting = true
+        WoWPro:LoadGuide(guide.GID)
+        WoWPro.Resetting = false
+        WoWPro:LoadGuide(guide.GID)
+    else
+        WoWPro:LoadGuide(guide.GID)
+    end
+end
+do -- GuideListMixin:SetTooltip
+    local tooltipIcon = _G.GameTooltip:CreateTexture(nil, "ARTWORK")
+    tooltipIcon:SetTexCoord(.08, .92, .08, .92)
+    tooltipIcon:SetPoint("TOPRIGHT", -6, -6)
+    tooltipIcon:SetSize(22, 22)
+
+    function GuideListMixin:SetTooltip(listItem)
+        local guide = self.guides[listItem:GetID()].guide
+        _G.GameTooltip:SetText(WoWPro:GetGuideName(guide.GID))
+        _G.GameTooltip:SetPadding(20, 0)
+
+        tooltipIcon:SetTexture(guide.icon or FALLBACK_ICON)
+        tooltipIcon:Show()
+
+        self.module:SetTooltip(guide)
+    end
+end
+function GuideListMixin:SelectTab(tabIndex)
+    if not tabIndex then
+        local GID = WoWProDB.char.currentguide
+        if GID and WoWPro.Guides[GID] and WoWPro.Guides[GID].guidetype then
+            tabIndex = tabIndexByName[WoWPro.Guides[GID].guidetype]
+        else
+            tabIndex = 1
+        end
+    end
+
+    local tab = self.Tabs[tabIndex]
+    if not tab then return end
+
+    if self.module then
+        -- store sort settings for current module
+        self.module.sortIndex, self.module.sortInverted = self:GetSort()
+    end
+
+    local module = WoWPro[tab.name]
+    for i = 1, #self.headers do
+        self.headers[i]:Hide()
+        if i == module.sortIndex then
+            self.headers[i].isInverted = module.sortInverted
+        end
+    end
+
+    _G.PanelTemplates_SetTab(self, tabIndex)
+
+    if module.GetGuideListInfo then
+        local listInfo = module:GetGuideListInfo()
+        self.guides = listInfo.guides
+
+        local buttons = _G.HybridScrollFrame_GetButtons(self)
+        for buttonIndex = 1, #buttons do
+            local button = buttons[buttonIndex]
+
+            local text
+            for index = 1, #self.headers do
+                text = button[index]
+                if not text then
+                    text = button:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+                    text:SetPoint("TOP")
+                    text:SetPoint("BOTTOM")
+                    text:SetPoint("LEFT", self.headers[index], 6, 0)
+                    text:SetPoint("RIGHT", self.headers[index], -6, 0)
+
+                    button[index] = text
+                end
+            end
+        end
+
+        self:SetHeaderInfo(listInfo.headerInfo)
+        self:SetSort(module.sortIndex, true)
+    else
+        WoWPro.ActivateTab(tab)
+    end
+    self.module = module
+end
+
+local function Tab_OnClick(self, button)
+    self:GetParent():GetParent():SelectTab(self:GetID())
+end
 
 function WoWPro.CreateGuideList()
-    local frame = _G.CreateFrame("Frame", nil, _G.InterfaceOptionsFramePanelContainer)
+    local frame = _G.CreateFrame("Frame", "WoWPro_GuideList", _G.InterfaceOptionsFramePanelContainer)
     frame.name = L["Guide List"]
     frame.parent = "WoW-Pro"
     frame:Hide()
@@ -21,119 +125,81 @@ function WoWPro.CreateGuideList()
     frame.title = title
     frame.subtitle = subtitle
 
-    local prev = nil
+
+    local scrollBox = _G.CreateFrame("ScrollFrame", nil, frame, "WoWPro_SortableScrollListTemplate")
+    scrollBox:SetPoint("TOPLEFT", frame, 10, -130)
+    scrollBox:SetPoint("BOTTOMRIGHT", frame, -30, 10)
+    _G.Mixin(scrollBox, GuideListMixin)
+    frame.scrollBox = scrollBox
+
+    local prev
     local tabs = {}
-    local tabhashtable = {}
-    local firstTab = nil
-    local maxFormatItems = 0
 
     -- Create tab for each module --
     for name, module in WoWPro:IterateModules() do
         if WoWPro[name].GuideList then
-            tabs[name] = WoWPro:CreateTab(name, frame)
+            local tab = WoWPro:CreateTab(name, scrollBox.titleRow)
             if prev then
-                tabs[name]:SetPoint("LEFT", prev, "RIGHT", 0, 0)
+                tab:SetPoint("BOTTOMLEFT", prev, "BOTTOMRIGHT", 0, 0)
             else
-                tabs[name]:SetPoint("TOPLEFT", subtitle, "BOTTOMLEFT", -2, -5)
-                firstTab = tabs[name]
+                tab:SetPoint("BOTTOMLEFT", scrollBox.titleRow, "TOPLEFT", 5, -2)
             end
-            tabs[name].name = name
-            tabs[name]:SetScript("OnClick", function(self, button)
-                WoWPro.ActivateTab(name)
-            end)
-            prev = tabs[name]
-            tinsert(tabhashtable,name)
-            maxFormatItems = max(maxFormatItems, #(WoWPro[name].GuideList.Format))
+            tab.name = name
+            tab:SetScript("OnClick", Tab_OnClick)
+            prev = tab
+
+            tinsert(tabs, tab)
+            tab:SetID(#tabs)
+            tabIndexByName[name] = #tabs
         end
     end
-    WoWPro.GuideList.TabTable = tabs
+    scrollBox.Tabs = tabs -- Tabs table needs to be capitalized for the PanelTemplate functions
+    _G.PanelTemplates_SetNumTabs(scrollBox, #tabs)
 
-    if not tabhashtable[1] then
+    if not tabs[1] then
         subtitle:SetText(L["Looks like you don't have any Wow-Pro guide modules loaded!"
             .."\nLog out to the character selection screen and open your addons menu there to select some to load."])
         frame:Hide()
     end
-    WoWPro.GuideList.TabHashTable = tabhashtable
 
-    local TitleRow = WoWPro:CreateBG(frame)
-    TitleRow:SetHeight(25)
-    TitleRow:SetWidth(_G.InterfaceOptionsFramePanelContainer:GetWidth()-44)
-    TitleRow:SetPoint("TOPLEFT", firstTab, "BOTTOMLEFT")
-    frame.TitleRow = TitleRow
-
-    local scrollBox = WoWPro:CreateBG(frame)
-    scrollBox:SetPoint("TOPLEFT", TitleRow, "BOTTOMLEFT")
-    scrollBox:SetPoint("TOPRIGHT", TitleRow, "BOTTOMRIGHT")
-    scrollBox:SetPoint("BOTTOM",frame,"BOTTOM",0,5)
-    frame.scrollBox = scrollBox
-
-    local scrollBar = WoWPro:CreateScrollbar(scrollBox,{-4,6},nil,"Outside")
-    frame.scrollBar = scrollBar
-
-    frame.ScrollFrame = _G.CreateFrame("ScrollFrame",nil,scrollBox)
-    frame.ScrollFrame:SetPoint("TOPLEFT",10,-10)
-    frame.ScrollFrame:SetPoint("BOTTOMRIGHT",-10,10)
-
-    local onValueChanged = scrollBar:GetScript("OnValueChanged")
-    scrollBar:SetScript("OnValueChanged", function(self, value, ...)
-        WoWPro.GuideList.ScrollFrame:SetVerticalScroll(self:GetValue())
-        return onValueChanged(self, value, ...)
-    end)
-
-    frame.ScrollFrame:EnableMouseWheel()
-    frame.ScrollFrame:SetScript("OnMouseWheel", function(self, val)
-        local _, maxValue = scrollBar:GetMinMaxValues()
-        scrollBar:SetValue(scrollBar:GetValue() - val * maxValue / 10)
-    end)
-
-    local function OnShow(self)
-        local GID = WoWProDB.char.currentguide
-        local first = nil
-        if GID and WoWPro.Guides[GID] then
-            WoWPro.ActivateTab(WoWPro.Guides[GID].guidetype)
-            return
-        end
-        -- Select the first one, if none selected
-        WoWPro.ActivateTab(first)
-    end
-    scrollBox:SetScript("OnShow", OnShow)
---  OnShow(WoWPro.GuideList)
-
+    --OnShow(WoWPro.GuideList)
 end
 
-function WoWPro.ActivateTab(tabname)
-    local tab
-    if not tabname then
-        local GID = WoWProDB.char.currentguide
-        if GID and WoWPro.Guides[GID] and WoWPro.Guides[GID].guidetype then
-            tabname = WoWPro.Guides[GID].guidetype
-        else
-            tabname = WoWPro.GuideList.TabHashTable[1]
-        end
+
+
+
+local TooltipButton, TooltipIcon
+function WoWPro:ShowTooltipIcon(icon, offsets)
+    if not TooltipButton then
+         TooltipButton, TooltipIcon = WoWPro:CreateLootsButton(_G.GameTooltip, 99)
     end
-
-    if not WoWPro.GuideList.TabTable[tabname] then
-        tabname = WoWPro.GuideList.TabHashTable[1]
+    TooltipButton:SetParent(_G.GameTooltip)
+    TooltipIcon:SetTexture(icon)
+    if offsets then
+        local x1, x2, y1, y2 = unpack(offsets)
+        TooltipIcon:SetTexCoord(x1, x2, y1, y2)
     end
+    TooltipButton:SetPoint("TOPRIGHT", _G.GameTooltip, "TOPRIGHT", -4, -4)
+    TooltipButton:Show()
+end
 
-    if not tabname then return end
-
-    tab = WoWPro.GuideList.TabTable[tabname]
-
-    -- Deactivating tabs --
-    for name, module in WoWPro:IterateModules() do
-        if WoWPro.GuideList.TabTable[name] then
-            WoWPro.DeactivateTab(WoWPro.GuideList.TabTable[name])
-        end
+function WoWPro:HideTooltipIcon()
+    if TooltipButton then
+        TooltipButton:Hide()
+        TooltipButton:SetParent(nil)
     end
-    tab:SetBackdrop({
-            bgFile = "Interface\\ChatFrame\\ChatFrameBackground",
-            tile = true,
-            tileSize = 16,
-            insets = { left = 5, right = 5, top = 10, bottom = -3 }
-        })
-    tab:SetBackdropColor(0.1, 0.1, 0.1, 1)
-    tab.border:SetAllPoints(tab)
+end
+
+
+
+
+
+
+
+
+
+--[[ OLD ]]--
+function WoWPro.ActivateTab(tab)
     if not WoWPro[tab.name].GuideList then
         WoWPro[tab.name].GuideList = {}
     end
@@ -158,22 +224,7 @@ function WoWPro.ActivateTab(tabname)
     WoWPro.GuideList.ScrollFrame:SetVerticalScroll(0)
     WoWPro.GuideList.ScrollFrame:Show()
     WoWPro[tab.name].GuideList.Frame:Show()
-
 end
-
-function WoWPro.DeactivateTab(tab)
-    tab:SetBackdrop({
-            bgFile = "Interface\\ChatFrame\\ChatFrameBackground",
-            tile = true,
-            tileSize = 16,
-            insets = { left = 5, right = 5, top = 10, bottom = 3 }
-        })
-    tab:SetBackdropColor(0.1, 0.1, 0.1, 1)
-    tab.border:SetPoint("BOTTOM", 0, 5)
-
-    if WoWPro[tab.name].GuideList and WoWPro[tab.name].GuideList.Frame  then WoWPro[tab.name].GuideList.Frame:Hide() end
-end
-
 
 -- Populating Guide List --
 WoWPro:Export("UpdateGuideList")
@@ -224,7 +275,6 @@ function WoWPro:UpdateGuideList()
         end
     end
 end
-
 
 WoWPro:Export("Setup_TitleRow")
 function WoWPro:Setup_TitleRow(frame)
@@ -311,29 +361,6 @@ function WoWPro:GuideTabFrame_RowOnClick()
     self.module:UpdateGuideList()
 end
 
-
-local TooltipButton, TooltipIcon
-function WoWPro:ShowTooltipIcon(icon, offsets)
-    if not TooltipButton then
-         TooltipButton, TooltipIcon = WoWPro:CreateLootsButton(_G.GameTooltip, 99)
-    end
-    TooltipButton:SetParent(_G.GameTooltip)
-    TooltipIcon:SetTexture(icon)
-    if offsets then
-        local x1, x2, y1, y2 = unpack(offsets)
-        TooltipIcon:SetTexCoord(x1, x2, y1, y2)
-    end
-    TooltipButton:SetPoint("TOPRIGHT", _G.GameTooltip, "TOPRIGHT", -4, -4)
-    TooltipButton:Show()
-end
-
-function WoWPro:HideTooltipIcon()
-    if TooltipButton then
-        TooltipButton:Hide()
-        TooltipButton:SetParent(nil)
-    end
-end
-
 WoWPro:Export("CreateGuideTabFrame_Rows")
 function WoWPro:CreateGuideTabFrame_Rows(frame)
     self.GuideList.Rows = {}
@@ -367,10 +394,10 @@ function WoWPro:CreateGuideTabFrame_Rows(frame)
 
         if iGuide.guide.level then
             r, g, b =  unpack(WoWPro.LevelColor(iGuide.guide))
---            WoWPro:dbp("Guide %s Level %d: %f, %f, %f",iGuide.GID, iGuide.guide.level, r , g , b)
+            --WoWPro:dbp("Guide %s Level %d: %f, %f, %f",iGuide.GID, iGuide.guide.level, r , g , b)
         else
             r, g, b = 1 , 1, 1
---            WoWPro:dbp("Defaulted Guide %s Level %s: %f, %f, %f",iGuide.GID, tostring(iGuide.guide.level), r , g , b)
+            --WoWPro:dbp("Defaulted Guide %s Level %s: %f, %f, %f",iGuide.GID, tostring(iGuide.guide.level), r , g , b)
         end
 
         for _,colDesc in pairs(self.GuideList.Format) do
