@@ -8,29 +8,22 @@ local Leveling = WoWPro.Leveling
 Leveling.GuideList = {}
 
 
-local progressFormat = "%d/%d"
-local function GetGuideProgress(guide)
-    if guide and guide.progress and guide.total then
-        return progressFormat:format(guide.progress, guide.total)
-    end
-    return
-end
-
 local rangeFormat = "%d - %d"
 local function GetGuides()
     local guides = {}
-    for guidID, guide in pairs(WoWPro.Guides) do
+    for guideID, guide in pairs(WoWPro.Guides) do
         if guide.guidetype == "Leveling" then
             WoWPro:ResolveIcon(guide)
             tinsert(guides, {
-                GID = guidID,
+                GID = guideID,
                 guide = guide,
-                Zone = WoWPro:GetGuideName(guidID),
+                Zone = WoWPro:GetGuideName(guideID),
                 Author = guide.author,
                 Range = rangeFormat:format(guide.startlevel, guide.endlevel),
-                Progress = GetGuideProgress(WoWProCharDB.Guide[guidID]),
                 level = guide.level
             })
+
+            guides[#guides].progress, guides[#guides].Progress = WoWPro:GetGuideProgress(guideID)
         end
     end
 
@@ -44,13 +37,17 @@ local function zoneSort(a, b)
     return a.Zone < b.Zone
 end
 local function rangeSort(a, b)
-    if a.guide.startlevel ~= b.guide.startlevel then
-        return a.guide.startlevel < b.guide.startlevel
+    if a.level == b.level then
+        if a.guide.startlevel ~= b.guide.startlevel then
+            return a.guide.startlevel < b.guide.startlevel
+        end
+
+        if a.guide.endlevel ~= b.guide.endlevel then
+            return a.guide.endlevel < b.guide.endlevel
+        end
     end
 
-    if a.guide.endlevel ~= b.guide.endlevel then
-        return a.guide.endlevel < b.guide.endlevel
-    end
+    return a.level < b.level
 end
 local function authorSort(a, b)
     if a.Author == b.Author then return end
@@ -58,13 +55,13 @@ local function authorSort(a, b)
     return a.Author < b.Author
 end
 local function progressSort(a, b)
-    if a.Progress == b.Progress then return end
+    if a.progress == b.progress then return end
 
-    if a.Progress and b.Progress then
-        return a.Progress < b.Progress
+    if a.progress and b.progress then
+        return a.progress < b.progress
     end
 
-    return a.Progress and true or false
+    return a.progress and true or false
 end
 
 function Leveling:SetTooltip(guide)

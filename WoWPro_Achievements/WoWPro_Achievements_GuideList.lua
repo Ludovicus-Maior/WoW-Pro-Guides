@@ -44,13 +44,6 @@ local function AddInfo(guide)
     end
     WoWPro.Achievements:dbp("%s: [%s] [%s/%s]",guide.GID, guide.name, guide.category, guide.sub)
 end
-local progressFormat = "%d/%d"
-local function GetGuideProgress(guide)
-    if guide and guide.progress and guide.total then
-        return progressFormat:format(guide.progress, guide.total)
-    end
-    return
-end
 
 local function GetGuides()
     local guides = {}
@@ -58,18 +51,19 @@ local function GetGuides()
         WoWPro.AchievementsScrape()
     end
 
-    for guidID,guide in pairs(WoWPro.Guides) do
+    for guideID, guide in pairs(WoWPro.Guides) do
         if guide.guidetype == "Achievements" then
             AddInfo(guide)
             tinsert(guides, {
-                GID = guidID,
+                GID = guideID,
                 guide = guide,
                 Name = guide.name,
                 Author = guide.author,
                 Category = guide.category,
                 Sub = guide.sub,
-                Progress = GetGuideProgress(WoWProCharDB.Guide[guidID]),
             })
+
+            guides[#guides].progress, guides[#guides].Progress = WoWPro:GetGuideProgress(guideID)
         end
     end
 
@@ -90,13 +84,13 @@ local function subSort(a, b)
     return a.Sub < b.Sub
 end
 local function progressSort(a, b)
-    if a.Progress == b.Progress then return end
+    if a.progress == b.progress then return end
 
-    if a.Progress and b.Progress then
-        return a.Progress < b.Progress
+    if a.progress and b.progress then
+        return a.progress < b.progress
     end
 
-    return a.Progress and true or false
+    return a.progress and true or false
 end
 
 
