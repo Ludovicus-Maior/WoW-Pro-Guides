@@ -64,6 +64,7 @@ local function progressSort(a, b)
     return a.progress and true or false
 end
 
+
 function Leveling:SetTooltip(guide)
     _G.GameTooltip:AddDoubleLine("Start Level:", tostring(guide.startlevel), 1, 1, 1, unpack(WoWPro.LevelColor(guide.startlevel)))
     _G.GameTooltip:AddDoubleLine("Avg. Level:", ("%.2f"):format(guide.level or 0), 1, 1, 1, unpack(WoWPro.LevelColor(guide)))
@@ -93,15 +94,19 @@ function Leveling:UpdateGuideScores()
     end
 end
 
+local listInfo
 function Leveling:GetGuideListInfo()
-    return {
-        guides = GetGuides(),
-        headerInfo = {
-            sorts = {zoneSort, rangeSort, authorSort, progressSort},
-            names = {"Zone", "Range", "Author", "Progress"},
-            size = {0.35, 0.15, 0.30, 0.20},
-        },
-    }
+    if not listInfo then
+        listInfo = {
+            guides = GetGuides(),
+            headerInfo = {
+                sorts = {zoneSort, rangeSort, authorSort, progressSort},
+                names = {"Zone", "Range", "Author", "Progress"},
+                size = {0.35, 0.15, 0.30, 0.20},
+            },
+        }
+    end
+    return listInfo
 end
 Leveling.sortIndex = 2
 

@@ -3,12 +3,11 @@
 ---------------------------------------------
 --      WoWPro_WorldEvents_GuideList.lua      --
 ---------------------------------------------
+local WorldEvents = WoWPro.WorldEvents
+WorldEvents.GuideList = {}
 
-WoWPro.WorldEvents.GuideList = {}
 
 -- Creating a Table of Guides for the Guide List and sorting based on name --
-local guides = {}
-
 local function AddInfo(guide)
     -- If no holiday is specified, the category better be!
     if not guide.holiday and  not guide.category then
@@ -25,88 +24,67 @@ local function AddInfo(guide)
     end
 end
 
-local function Init()
-    for guidID,guide in pairs(WoWPro.Guides) do
-      if guide.guidetype == "WorldEvents" then
-        local function progress ()
-            if WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].progress and WoWProCharDB.Guide[guidID].total then
-                return WoWProCharDB.Guide[guidID].progress.."/"..WoWProCharDB.Guide[guidID].total
-            end
-            return ""
+local function GetGuides()
+    local guides = {}
+    for guideID, guide in pairs(WoWPro.Guides) do
+        if guide.guidetype == "WorldEvents" then
+            AddInfo(guide)
+            tinsert(guides, {
+                GID = guideID,
+                guide = guide,
+                Zone = guide.zone,
+                Name = guide.name,
+                Author = guide.author,
+                Category = guide.category,
+            })
+
+            guides[#guides].progress, guides[#guides].Progress = WoWPro:GetGuideProgress(guideID)
         end
-        AddInfo(guide)
-        tinsert(guides, {
-            GID = guidID,
-            Zone = guide.zone,
-            guide = guide,
-            Name = guide.name,
-            Author = guide.author,
-            Category = guide.category,
-            Progress = progress
-        })
-        end
-      end
-    sort(guides, function(a,b) return a.Name < b.Name end)
-    WoWPro.WorldEvents.GuideList.Guides = guides
+    end
+
+    return guides
 end
+
 
 -- Sorting Functions --
-local sorttype = "Default"
-local function authorSort()
-    if sorttype == "AuthorAsc" then
-        sort(guides, function(a,b) return a.Author > b.Author end)
-        WoWPro.WorldEvents:UpdateGuideList()
-        sorttype = "AuthorDesc"
-    else
-        sort(guides, function(a,b) return a.Author < b.Author end)
-        WoWPro.WorldEvents:UpdateGuideList()
-        sorttype = "AuthorAsc"
-    end
+local function nameSort(a, b)
+    return a.Name < b.Name
 end
-local function nameSort()
-    if sorttype == "NameAsc" then
-        sort(guides, function(a,b) return a.Name > b.Name end)
-        WoWPro.WorldEvents:UpdateGuideList()
-        sorttype = "NameDesc"
-    else
-        sort(guides, function(a,b) return a.Name < b.Name end)
-        WoWPro.WorldEvents:UpdateGuideList()
-        sorttype = "NameAsc"
-    end
+local function categorySort(a, b)
+    return a.Category < b.Category
 end
-local function categorySort()
-    if sorttype == "CategoryAsc" then
-        sort(guides, function(a,b) return a.Category > b.Category end)
-        WoWPro.WorldEvents:UpdateGuideList()
-        sorttype = "CategoryDesc"
-    else
-        sort(guides, function(a,b) return a.Category < b.Category end)
-        WoWPro.WorldEvents:UpdateGuideList()
-        sorttype = "CategoryAsc"
-    end
+local function authorSort(a, b)
+    return a.Author < b.Author
 end
+local function progressSort(a, b)
+    if a.progress == b.progress then return end
 
--- Fancy tooltip!
-function WoWPro.WorldEvents.GuideTooltipInfo(row, tooltip, guide)
-    WoWPro:ResolveIcon(guide)
-    tooltip:SetOwner(row, "ANCHOR_TOPLEFT")
-    tooltip:AddLine(guide.name)
-    if guide.icon then
-        tooltip:AddTexture(guide.icon,1,1,1,1)
-        tooltip:AddLine(guide.icon)
-    else
-        tooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
+    if a.progress and b.progress then
+        return a.progress < b.progress
     end
+
+    return a.progress and true or false
 end
 
 
--- Describe the table to the Core Module
-WoWPro.WorldEvents.GuideList.Format={
-    {"Name",0.35,nameSort},
-    {"Category",0.20,categorySort},
-    {"Author",0.20,authorSort},
-    {"Progress",0.15,nil}
-}
-WoWPro.WorldEvents.GuideList.Init = Init
+function WorldEvents:SetTooltip(guide)
+end
 
-WoWPro.WorldEvents:dbp("Guide Setup complete")
+
+local listInfo
+function WorldEvents:GetGuideListInfo()
+    if not listInfo then
+        listInfo = {
+            guides = GetGuides(),
+            headerInfo = {
+                sorts = {nameSort, categorySort, authorSort, progressSort},
+                names = {"Name", "Category", "Author", "Progress"},
+                size = {0.35, 0.15, 0.30, 0.20},
+            },
+        }
+    end
+    return listInfo
+end
+WorldEvents.sortIndex = 1
+
+WorldEvents:dbp("Guide Setup complete")

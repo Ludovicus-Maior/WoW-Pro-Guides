@@ -70,10 +70,8 @@ local function GetGuides()
     return guides
 end
 
+
 -- Sorting Functions --
-local function authorSort(a, b)
-    return a.Author < b.Author
-end
 local function nameSort(a, b)
     return a.Name < b.Name
 end
@@ -82,6 +80,9 @@ local function categorySort(a, b)
 end
 local function subSort(a, b)
     return a.Sub < b.Sub
+end
+local function authorSort(a, b)
+    return a.Author < b.Author
 end
 local function progressSort(a, b)
     if a.progress == b.progress then return end
@@ -100,15 +101,19 @@ function Achievements:SetTooltip(guide)
     _G.GameTooltip:AddDoubleLine("SubCategory:",guide.sub,1,1,1,unpack(WoWPro.LevelColor(guide)))
 end
 
+local listInfo
 function Achievements:GetGuideListInfo()
-    return {
-        guides = GetGuides(),
-        headerInfo = {
-            sorts = {nameSort, categorySort, subSort, authorSort, progressSort},
-            names = {"Name", "Category", "Sub", "Author", "Progress"},
-            size = {0.30, 0.15, 0.25, 0.15, 0.15},
-        },
-    }
+    if not listInfo then
+        listInfo = {
+            guides = GetGuides(),
+            headerInfo = {
+                sorts = {nameSort, categorySort, subSort, authorSort, progressSort},
+                names = {"Name", "Category", "Sub", "Author", "Progress"},
+                size = {0.30, 0.15, 0.25, 0.15, 0.15},
+            },
+        }
+    end
+    return listInfo
 end
 Achievements.sortIndex = 1
 

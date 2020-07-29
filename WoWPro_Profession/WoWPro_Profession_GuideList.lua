@@ -3,70 +3,72 @@
 ---------------------------------------------
 --      WoWPro_Profession_GuideList.lua      --
 ---------------------------------------------
+local Profession = WoWPro.Profession
+Profession.GuideList = {}
 
-WoWPro.Profession.GuideList = {}
+local function GetGuides()
+    local guides = {}
+    for guideID, guide in pairs(WoWPro.Guides) do
+        if guide.guidetype == "Profession" then
+            WoWPro:ResolveIcon(guide)
+            tinsert(guides, {
+                GID = guideID,
+                guide = guide,
+                Zone = guide.zone,
+                Name = guide.name,
+                Author = guide.author,
+            })
 
--- Creating a Table of Guides for the Guide List and sorting based on level --
-local guides = {}
-for guidID,guide in pairs(WoWPro.Guides) do
-    if guide.guidetype == "Profession" then
-        local function progress ()
-            if WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].progress and WoWProCharDB.Guide[guidID].total then
-                return WoWProCharDB.Guide[guidID].progress.."/"..WoWProCharDB.Guide[guidID].total
-            end
-            return ""
+            guides[#guides].progress, guides[#guides].Progress = WoWPro:GetGuideProgress(guideID)
         end
-        tinsert(guides, {
-            GID = guidID,
-            guide = guide,
-            Zone = guide.zone,
-            Name = guide.name,
-            Author = guide.author,
-            Progress = progress
-        })
     end
+
+    return guides
 end
-sort(guides, function(a,b) return a.Name < b.Name end)
-WoWPro.Profession.GuideList.Guides = guides
+
 
 -- Sorting Functions --
-local sorttype = "Default"
-local function authorSort()
-    if sorttype == "AuthorAsc" then
-        sort(guides, function(a,b) return a.Author > b.Author end)
-        WoWPro.Profession:UpdateGuideList()
-        sorttype = "AuthorDesc"
-    else
-        sort(guides, function(a,b) return a.Author < b.Author end)
-        WoWPro.Profession:UpdateGuideList()
-        sorttype = "AuthorAsc"
+local function nameSort(a, b)
+    if a.Name == b.Name then return end
+
+    return a.Name < b.Name
+end
+local function authorSort(a, b)
+    if a.Author == b.Author then return end
+
+    return a.Author < b.Author
+end
+local function progressSort(a, b)
+    if a.progress == b.progress then return end
+
+    if a.progress and b.progress then
+        return a.progress < b.progress
     end
+
+    return a.progress and true or false
 end
-local function nameSort()
-    if sorttype == "NameAsc" then
-        sort(guides, function(a,b) return a.Name > b.Name end)
-        WoWPro.Profession:UpdateGuideList()
-        sorttype = "NameDesc"
-    else
-        sort(guides, function(a,b) return a.Name < b.Name end)
-        WoWPro.Profession:UpdateGuideList()
-        sorttype = "NameAsc"
+
+
+function Profession:SetTooltip(guide)
+    _G.GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
+    _G.GameTooltip:AddDoubleLine("Name:",guide.name,1,1,1,unpack(WoWPro.LevelColor(guide)))
+end
+
+local listInfo
+function Profession:GetGuideListInfo()
+    if not listInfo then
+        listInfo = {
+            guides = GetGuides(),
+            headerInfo = {
+                sorts = {nameSort, authorSort, progressSort},
+                names = {"Name", "Author", "Progress"},
+                size = {0.45, 0.35, 0.20},
+            },
+        }
     end
+    return listInfo
 end
+Profession.sortIndex = 1
 
--- Fancy tooltip!
-function WoWPro.Profession.GuideTooltipInfo(row, tooltip, guide)
-    tooltip:SetOwner(row, "ANCHOR_TOPLEFT")
-    tooltip:AddLine(guide.name.."      ")
-    tooltip:AddLine("")
-    tooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
-    tooltip:AddDoubleLine("Name:",guide.name,1,1,1,unpack(WoWPro.LevelColor(guide)))
-end
-
-
-
--- Describe the table to the Core Module
-WoWPro.Profession.GuideList.Format={{"Name",0.45,nameSort},{"Author",0.35,authorSort},{"Progress",0.20,nil}}
-
-WoWPro.Profession:dbp("Guide Setup complete")
+Profession:dbp("Guide Setup complete")
 
