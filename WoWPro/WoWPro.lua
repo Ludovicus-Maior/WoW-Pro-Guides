@@ -768,6 +768,15 @@ function WoWPro:GuideName(guide, name)
     guide['name']=name
 end
 
+local progressFormat = "%d/%d"
+function WoWPro:GetGuideProgress(guideID)
+    local guideDB = WoWProCharDB.Guide[guideID]
+    if guideDB and guideDB.progress and guideDB.total then
+        return guideDB.progress / guideDB.total, progressFormat:format(guideDB.progress, guideDB.total)
+    end
+    return
+end
+
 function WoWPro:GetGuideName(GID)
     if GID and WoWPro.Guides[GID] then
         return WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone or GID

@@ -68,6 +68,8 @@ function GuideListMixin:SelectTab(tabIndex)
     end
 
     local module = WoWPro[tab.name]
+    self.module = module
+
     for i = 1, #self.headers do
         self.headers[i]:Hide()
         if i == module.sortIndex then
@@ -105,7 +107,6 @@ function GuideListMixin:SelectTab(tabIndex)
     else
         WoWPro.ActivateTab(tab)
     end
-    self.module = module
 end
 
 local function Tab_OnClick(self, button)
