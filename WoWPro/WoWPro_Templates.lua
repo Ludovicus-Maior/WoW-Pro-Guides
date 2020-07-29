@@ -145,11 +145,10 @@ function SortableScrollListMixin:OnLoad()
     if WoWPro.SHADOWLANDS then
         _G.Mixin(self.titleRow, _G.BackdropTemplateMixin)
         self.titleRow:OnBackdropLoaded()
-    else
-        self.titleRow:SetBackdrop(backdrop)
-        self.titleRow:SetBackdropColor(backdrop.backdropColor:GetRGB())
-        self.titleRow:SetBackdropBorderColor(backdrop.backdropBorderColor:GetRGB())
     end
+    self.titleRow:SetBackdrop(backdrop)
+    self.titleRow:SetBackdropColor(backdrop.backdropColor:GetRGB())
+    self.titleRow:SetBackdropBorderColor(backdrop.backdropBorderColor:GetRGB())
 
     self.headers = {}
     for index = 1, MAX_HEADERS do
