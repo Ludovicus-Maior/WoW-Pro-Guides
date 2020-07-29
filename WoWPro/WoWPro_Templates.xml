@@ -1,0 +1,67 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/..\FrameXML\UI.xsd">
+    <Script file="WoWPro_Templates.lua"/>
+
+    <ScopedModifier scriptsUseGivenEnv="true">
+        <Button name="WoWPro_ScrollListButtonTemplate" mixin="ScrollListButtonMixin" virtual="true">
+            <Size x="0" y="17"/>
+            <Layers>
+                <Layer level="HIGHLIGHT">
+                    <Texture parentKey="highlight" setAllPoints="true" alphaMode="ADD">
+                        <Color r="1" g="0.75" b="0" a="0.2"/>
+                    </Texture>
+                </Layer>
+            </Layers>
+            <Scripts>
+                <OnLoad method="OnLoad"/>
+                <OnClick method="OnClick"/>
+                <OnEnter method="OnEnter"/>
+                <OnLeave method="OnLeave"/>
+            </Scripts>
+        </Button>
+        <Button name="WoWPro_SortHeaderButtonTemplate" mixin="SortHeaderButtonMixin" virtual="true">
+            <Layers>
+                <Layer level="HIGHLIGHT">
+                    <Texture parentKey="highlight" setAllPoints="true" alphaMode="ADD">
+                        <Color r="1" g="0.75" b="0" a="0.2"/>
+                    </Texture>
+                </Layer>
+            </Layers>
+            <ButtonText parentKey="text">
+                <Anchors>
+                    <Anchor point="CENTER"/>
+                </Anchors>
+            </ButtonText>
+            <NormalFont style="GameFontHighlightSmall"/>
+            <NormalTexture parentKey="arrow" file="Interface\Buttons\UI-SortArrow">
+                <Size x="9" y="8"/>
+                <Anchors>
+                    <Anchor point="LEFT" relativeKey="$parent.text" relativePoint="RIGHT" x="2" y="0"/>
+                </Anchors>
+                <TexCoords left="0" right="0.5625" top="0" bottom="1.0"/>
+            </NormalTexture>
+            <Scripts>
+                <OnLoad method="OnLoad"/>
+                <OnClick method="OnClick"/>
+            </Scripts>
+        </Button>
+
+        <ScrollFrame name="WoWPro_ScrollListTemplate" inherits="MinimalHybridScrollFrameTemplate" mixin="ScrollListMixin" virtual="true">
+            <Scripts>
+                <OnLoad method="OnLoad"/>
+                <OnShow method="OnShow"/>
+            </Scripts>
+        </ScrollFrame>
+
+        <ScrollFrame name="WoWPro_SortableScrollListTemplate" inherits="WoWPro_ScrollListTemplate" mixin="SortableScrollListMixin" virtual="true">
+            <Frames>
+                <Frame parentKey="titleRow">
+                    <Size x="0" y="26"/>
+                    <Anchors>
+                        <Anchor point="BOTTOMLEFT" relativePoint="TOPLEFT" x="0" y="0"/>
+                        <Anchor point="BOTTOMRIGHT" relativePoint="TOPRIGHT" x="0" y="0"/>
+                    </Anchors>
+                </Frame>
+            </Frames>
+        </ScrollFrame>
+    </ScopedModifier>
+</Ui>

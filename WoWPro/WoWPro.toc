@@ -32,6 +32,7 @@ Libraries\LibPetJournal-2.0\LibPetJournal-2.0.lua
 
 WoWPro.lua
 WoWPro_CompatUtil.lua
+WoWPro_Templates.xml
 WoWPro_Widgets.lua
 WoWPro_Localization.lua
 WoWPro_CurrentGuide.lua
