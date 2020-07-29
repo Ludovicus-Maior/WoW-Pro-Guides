@@ -107,6 +107,11 @@ function ScrollListMixin:RefreshLayout()
         else
             button:Hide()
         end
+
+        if button:IsMouseOver() then
+            -- Update tooltip while scrolling
+            button:OnEnter()
+        end
     end
 
     -- The last step is to ensure the scroll range is updated appropriately.
