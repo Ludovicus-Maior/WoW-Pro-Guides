@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_gilneas
+-- Date: 2020-07-27 21:20
+-- Who: Ludovicus_Maior
+-- Log: Coords touchup. Confirmed https://github.com/Ludovicus-Maior/WoW-Pro-Guides/issues/856 was bogus.
+
+-- URL: http://wow-pro.com/node/3211/revisions/29913/view
 -- Date: 2018-10-17 02:22
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -292,40 +297,40 @@ A Safety in Numbers |QID|14289|Z|GilneasCity|M|70.5,65.2|C|Priest|N|From Sister 
 A Safety in Numbers |QID|14288|Z|GilneasCity|M|68.2,64.8|C|Mage|N|From Myriam Spellwaker.|PRE|14277|
 A Safety in Numbers |QID|14291|Z|GilneasCity|M|70.2,65.7|C|Druid|N|From Celestine of the Harvest.|PRE|14280|
 
-T Safety in Numbers |QID|14286|Z|GilneasCity|M|65.9,77.4|C|Warrior|N|To King Genn Greymane.|
-T Safety in Numbers |QID|14285|Z|GilneasCity|M|65.9,77.4|C|Rogue|N|To King Genn Greymane.|
-T Safety in Numbers |QID|14287|Z|GilneasCity|M|65.9,77.4|C|Warlock|N|To King Genn Greymane.|
-T Safety in Numbers |QID|14290|Z|GilneasCity|M|65.9,77.4|C|Hunter|N|To King Genn Greymane.|
-T Safety in Numbers |QID|14289|Z|GilneasCity|M|65.9,77.4|C|Priest|N|To King Genn Greymane.|
-T Safety in Numbers |QID|14288|Z|GilneasCity|M|65.9,77.4|C|Mage|N|To King Genn Greymane.|
-T Safety in Numbers |QID|14291|Z|GilneasCity|M|65.9,77.4|C|Druid|N|To King Genn Greymane.|
+T Safety in Numbers |QID|14286|Z|GilneasCity|M|65.80,77.67|C|Warrior|N|To King Genn Greymane.|
+T Safety in Numbers |QID|14285|Z|GilneasCity|M|65.80,77.67|C|Rogue|N|To King Genn Greymane.|
+T Safety in Numbers |QID|14287|Z|GilneasCity|M|65.80,77.67|C|Warlock|N|To King Genn Greymane.|
+T Safety in Numbers |QID|14290|Z|GilneasCity|M|65.80,77.67|C|Hunter|N|To King Genn Greymane.|
+T Safety in Numbers |QID|14289|Z|GilneasCity|M|65.80,77.67|C|Priest|N|To King Genn Greymane.|
+T Safety in Numbers |QID|14288|Z|GilneasCity|M|65.80,77.67|C|Mage|N|To King Genn Greymane.|
+T Safety in Numbers |QID|14291|Z|GilneasCity|M|65.80,77.67|C|Druid|N|To King Genn Greymane.|
 
-A Old Divisions |QID|14157|Z|GilneasCity|M|65.9,77.4|N|From King Genn Greymane.|PRE|14285^14286^14287^14288^14289^14290^14291|
-A While You're At It |QID|24930|Z|GilneasCity|M|65.5,77.4|N|From Lord Godfrey.|PRE|14285^14286^14287^14288^14289^14290^14291|
+A Old Divisions |QID|14157|Z|GilneasCity|M|65.80,77.67|N|From King Genn Greymane.|PRE|14285^14286^14287^14288^14289^14290^14291|
+A While You're At It |QID|24930|Z|GilneasCity|M|65.29,77.67|N|From Lord Godfrey.|PRE|14285^14286^14287^14288^14289^14290^14291|
 
 C While You're At It |QID|24930|Z|GilneasCity|M|58.0,72.0|N|Kill Bloodfang Worgen on your way to the tower|S|
-T Old Divisions |QID|14157|Z|GilneasCity|M|58.0,72.0;57.9,75.3|CS|N|Head into Stoneward Prison, then To Captain Broderick.|
+T Old Divisions |QID|14157|Z|GilneasCity|M|58.0,72.0;57.94,75.60|CS|N|Head into Stoneward Prison, then To Captain Broderick.|
 
-A The Prison Rooftop |QID|28850|Z|GilneasCity|M|57.9,75.3|N|From Captain Broderick.|PRE|14157|
-T The Prison Rooftop |QID|28850|Z|GilneasCity|M|55.0,63.1|N|Go up the stairs and then follow the ledge. To Lord Darius Crowley.|
+A The Prison Rooftop |QID|28850|Z|GilneasCity|M|57.94,75.60|N|From Captain Broderick.|PRE|14157|
+T The Prison Rooftop |QID|28850|Z|GilneasCity|M|55.21,62.90|N|Go up the stairs and then follow the ledge. To Lord Darius Crowley.|
 
-A By the Skin of His Teeth |QID|14154|Z|GilneasCity|M|55.0,63.1|N|From Lord Darius Crowley.|PRE|28850|
-C By the Skin of His Teeth |QID|14154|Z|GilneasCity|M|55.0,63.1|N|Fight off the attacking Worgen for 2 minutes to complete the quest.|
-T By the Skin of His Teeth |QID|14154|Z|GilneasCity|M|55.0,63.1|N|To Lord Darius Crowley.|
+A By the Skin of His Teeth |QID|14154|Z|GilneasCity|M|55.21,62.90|N|From Lord Darius Crowley.|PRE|28850|
+C By the Skin of His Teeth |QID|14154|Z|GilneasCity|M|55.21,62.90|N|Fight off the attacking Worgen for 2 minutes to complete the quest.|
+T By the Skin of His Teeth |QID|14154|Z|GilneasCity|M|55.21,62.90|N|To Lord Darius Crowley.|
 
-A Brothers In Arms |QID|26129|Z|GilneasCity|M|55.0,63.1|N|From Lord Darius Crowley.|PRE|14154|
+A Brothers In Arms |QID|26129|Z|GilneasCity|M|55.21,62.90|N|From Lord Darius Crowley.|PRE|14154|
 C While You're At It |QID|24930|Z|GilneasCity|M|58.0,72.0|N|Go back down to the Military District and finish off killing Bloodfang Worgen|US|
-T While You're At It |QID|24930|Z|GilneasCity|M|65.5,77.4|N|To Lord Godfrey.|
-T Brothers In Arms |QID|26129|Z|GilneasCity|M|65.9,77.4|N|To King Genn Greymane.|
+T While You're At It |QID|24930|Z|GilneasCity|M|65.29,77.67|N|To Lord Godfrey.|
+T Brothers In Arms |QID|26129|Z|GilneasCity|M|65.80,77.67|N|To King Genn Greymane.|
 
-A The Rebel Lord's Arsenal |QID|14159|Z|GilneasCity|M|65.9,77.4|N|From King Genn Greymane.|PRE|26129&24930|
-T The Rebel Lord's Arsenal |QID|14159|Z|GilneasCity|M|55.61,81.55|N|Follow the path around to the break in the houses, and you'll find a cellar door. Click it and it will open, revealing a staircase. Go down the stairs to Josiah Avery.|
+A The Rebel Lord's Arsenal |QID|14159|Z|GilneasCity|M|65.80,77.67|N|From King Genn Greymane.|PRE|26129&24930|
+T The Rebel Lord's Arsenal |QID|14159|Z|GilneasCity|M|56.77,85.48|N|Follow the path around to the break in the houses, and you'll find a cellar door. Click it and it will open, revealing a staircase. Go down the stairs to Josiah Avery.|
 
-A From the Shadows |QID|14204|Z|GilneasCity|M|56.9,81.7|N|Turn around and get this quest from Lorna Crowley.|PRE|14159|
+A From the Shadows |QID|14204|Z|GilneasCity|M|56.87,81.49|N|Turn around and get this quest from Lorna Crowley.|PRE|14159|
 C From the Shadows |QID|14204|Z|GilneasCity|M|54.6,81.5|N|Use the pet ability Attack Lurker to reveal hidden Bloodfang Lurkers in the alleys.|
-T From the Shadows |QID|14204|Z|GilneasCity|M|56.7,81.4|N|Return to Lorna Crowley.|
+T From the Shadows |QID|14204|Z|GilneasCity|M|56.87,81.49|N|Return to Lorna Crowley.|
 
-A Message to Greymane |QID|14214|Z|GilneasCity|M|56.7,81.4|N|From Lorna Crowley.|PRE|14204|
+A Message to Greymane |QID|14214|Z|GilneasCity|M|56.87,81.49|N|From Lorna Crowley.|PRE|14204|
 T Message to Greymane |QID|14214|Z|GilneasCity|M|58.9,83.6|N|Return to King Genn Greymane.|
 
 A Save Krennan Aranas |QID|14293|Z|GilneasCity|M|58.9,83.6|N|From King Genn Greymane.|PRE|14214|
