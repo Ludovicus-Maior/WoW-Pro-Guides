@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mechagon_neutral
+-- Date: 2020-07-25 03:42
+-- Who: Blanckaert
+-- Log: Removed duplicate F step (was in wrong spot), and changed flow of C step for QID 55650, and fixed QID for step F
+
+-- URL: http://wow-pro.com/node/3791/revisions/30500/view
 -- Date: 2020-04-08 18:00
 -- Who: Ludovicus_Maior
 -- Log: [Operation: Mechagon - The Mechoriginator], [Wanna Charge? Gotta Pay!], [Let's Fish!], [Deck 'Em], [Blueprint: Rustbolt Gramophone], [Blueprint: Encrypted Black Market Radio], [WANTED: Junkbrat and Roadtrogg]
@@ -153,7 +158,7 @@ R The Zocalo|QID|55650|M|42.40,25.73|Z|Dazar'alor|N|Run up thru Terrace of the C
 C Only the Best Will Do|QID|55650|M|42.41,25.73|Z|Dazar'alor|QO|3|CHAT|N|Tell Ricket that Gazlowe has found Mechagon.|FACTION|Horde|
 C Only the Best Will Do|QID|55650|M|35.86,16.65|Z|Dazar'alor|QO|2|CHAT|N|Continue deeper into the Zocalo and find the Greasemonkey Union Rep, inside The Drunken Drummer and pick any of the chat options until negotiations are completed.|FACTION|Horde|
 C Only the Best Will Do|QID|55650|M|45.14,40.58|Z|Dazar'alor|QO|1|CHAT|N|Continue on to the Terrace of the Crafters and find Shuga Blastcaps, (beside the Shred Master Mk1) and ask her for supplies for Gazlowe.|FACTION|Horde|
-F Port of Zandalar|ACTIVE|52342|M|35.86,16.65|Z|Dazar'alor|U|141605|NC|LVL|120|N|Use your flightmaster's whistle and then fly back to the port to meet up with Skaggit.|FACTION|Horde|
+F Port of Zandalar|ACTIVE|55650|M|35.86,16.65|Z|Dazar'alor|U|141605|NC|LVL|120|N|Use your flightmaster's whistle and then fly back to the port to meet up with Skaggit.|FACTION|Horde|
 T Only the Best Will Do|QID|55650|M|42.20,87.85|Z|Dazar'alor|N|To Skaggit.|FACTION|Horde|
 A To Mechagon!|QID|55651|M|42.06,87.82|Z|Dazar'alor|N|From Gazlowe.|FACTION|Horde|
 C To Mechagon!|QID|55651|M|41.82,87.60|Z|Dazar'alor|QO|1|CHAT|N|Tell Captain Krooz you are ready to go.|FACTION|Horde|
