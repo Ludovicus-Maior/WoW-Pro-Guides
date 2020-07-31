@@ -4,6 +4,26 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2020-07-31 01:58
+-- Who: Blanckaert
+-- Log: added some PREs, moved a line, and other 'minor' adjustments.   REP info is incorrect needs to be fixed as figured out
+
+-- URL: http://wow-pro.com/node/3761/revisions/30601/view
+-- Date: 2020-07-30 04:29
+-- Who: Blanckaert
+-- Log: changed QID for An Old Scar from 57632 to 55732.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30600/view
+-- Date: 2020-07-30 01:15
+-- Who: Blanckaert
+-- Log: added C step, to talk to Magni
+
+-- URL: http://wow-pro.com/node/3761/revisions/30599/view
+-- Date: 2020-07-29 01:48
+-- Who: Blanckaert
+-- Log: minor adjustment of coords and capitalization
+
+-- URL: http://wow-pro.com/node/3761/revisions/30515/view
 -- Date: 2020-04-09 23:25
 -- Who: Ludovicus_Maior
 -- Log: Missing M tag
@@ -234,26 +254,6 @@
 -- Who: elidion
 -- Log: Updated Horde Arathi quests from my guesses to reality.
 
--- URL: http://wow-pro.com/node/3761/revisions/29752/view
--- Date: 2018-09-15 06:27
--- Who: Emmaleah
--- Log: Added FPs to the upgrade quest step of first two purchased missions.
-
--- URL: http://wow-pro.com/node/3761/revisions/29709/view
--- Date: 2018-09-10 00:17
--- Who: elidion
--- Log: Added the Horde Warfront Scenerio "The battle for Stromgarde"
-
--- URL: http://wow-pro.com/node/3761/revisions/29706/view
--- Date: 2018-09-09 01:06
--- Who: elidion
--- Log: Estimated Horde warfront quests, could be incorrect.
-
--- URL: http://wow-pro.com/node/3761/revisions/29700/view
--- Date: 2018-09-08 10:08
--- Who: elidion
--- Log: Re-arranged warfronts and initial 120 quest once again to be friendly for new players.
-
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
 WoWPro:GuideName(guide,'War Campaign')
@@ -460,7 +460,7 @@ C Uniting Zandalar|QID|52451^51916|M|58.44,62.67|Z|Zuldazar|S|N|Requires at leas
 ;Warfront at lvl 120
 A The Warfront Looms|QID|53207|N|Autoaccepted after turning level 120|LVL|120|O|
 T The Warfront Looms|QID|53207|M|52.93,94.47|Z|Dazar'alor|N|To Throk.|
-A To the Front|QID|53208|M|52.93,94.47|Z|Dazar'alor|N|From Throk.|LVL|120|PRE|53207|
+A To the Front|QID|53208|M|52.93,94.47|Z|Dazar'alor|LVL|120|PRE|53207|AVAILABLE|53220|N|From Throk.|  ; only once per Account/Faction, 53220 is flag QID.
 A Warfront Contribution|QID|53209|M|52.93,94.47|Z|Dazar'alor|N|From Throk.|LVL|120|PRE|53207|
 P Arathi Highlands|ACTIVE|53208|M|51.83,94.46|Z|Dazar'alor|CHAT|N|Talk to Druza Netherfang for a port to Arathi Highlands|
 T To the Front|QID|53208|M|26.07,35.56|Z|Arathi Highlands|N|To Wistel Silversnitch.|
@@ -586,9 +586,9 @@ T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|NC|N|To Nathanos
 ;T A One-Way Ticket to the Heart|QID|54964|M|50.19,53.72|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard. That's all of this quest line for now. I'm sure there is more to come in a future patch. Hearth or take the portal out.|
 
 ; The Marshal's Grave - 4.5k Friendly with The Honorbound
-A Operation: Grave Digger|QID|53065|N|Autoaccepted|PRE|51601|REP|The Honorbound;2157;friendly;4500|O|
+A Operation: Grave Digger|QID|53065|N|Autoaccepted|PRE|51601|REP|The Honorbound;2157;friendly;4000|O|
 T Operation: Grave Digger|QID|53065|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A A Stroll Through a Cemetery|QID|51784|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51601|REP|The Honorbound;2157;friendly;4500|
+A A Stroll Through a Cemetery|QID|51784|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51601|REP|The Honorbound;2157;friendly;3500| ; requires less rep, might have had rep gate removed.
 C A Stroll Through a Cemetery|QID|51784|QO|1|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to Drustvar.|
 F Krazzlefrazz Outpost|ACTIVE|51784|M|19.16,43.31|Z|Drustvar|N|Fly to Krazzlefrazz Outpost.|
 R Barrowknoll Cemetery|ACTIVE|51784|M|37.69,33.30;48.19,32.30;52.61,39.67|CS|Z|Drustvar|N|Across the river, run generally east towards Barrowknoll cemetery|
@@ -615,6 +615,9 @@ C What Remains of Marshal M. Valentine|QID|51789|QO|4|M|61.11,48.99|Z|Drustvar|N
 C What Remains of Marshal M. Valentine|QID|51789|QO|5|M|61.11,48.99|Z|Drustvar|NC|N|pick up the book when it becomes interactive.|
 T What Remains of Marshal M. Valentine|QID|51789|M|61.17,48.73|Z|Drustvar|N|To Nathanos Blightcaller, who is with you at the crypt.|
 
+A Expanding our Influence|QID|54494|M|58.06,62.65|Z|Zuldazar|N|From Ransa Greyfeather.|REP|The Honorbound;2157;honored;0|
+T Expanding our Influence|QID|54494|M|58.06,62.65|Z|Zuldazar|N|To Ransa Greyfeather.|
+B Scounting Missions|AVAILABLE|53739^53744|M|58.06,62.65|Z|Zuldazar|N|Now that you're Honored you can purchase two Scouting Reports from Ransa Greyfeather (Emissary) that become available at Honored. Use the Scouting Reports to cause a mission to be available at your table. Complete the table missions to start quest chains that unlock outposts (additional flight paths!).\nNOTE:You will have to right click this step off, till you complete the missions.|REP|The Honorbound;2157;honored-exalted|
 ; The Honored Repuation Mission Report: Swiftwind Post
 A Mission Report: Swiftwind Post|QID|52275|M|51.56,99.77|Z|Dazar'alor|REP|The Honorbound;2157;honored;0|PRE|53744|O|
 T Mission Report: Swiftwind Post|QID|52275|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
@@ -1047,7 +1050,7 @@ R Port of Zuldazar|ACTIVE|54179|M|87.85,51.17|Z|Tiragarde Sound|TZ|The Banshee's
 T Through the Front Door|QID|54179|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
 ; Fly out to Meet Them
-A War Is Here|QID|54139|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|
+A War Is Here|QID|54139|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|54179|  ; per wowhead comments
 F The Great Seal|ACTIVE|54139|N|Hearth, Fly or otherwise return to the Great Seal. The King is near the scouting map, not up at his throne.|
 C War Is Here|QID|54139|M|40.07,70.27|Z|Hall of Croniclers!Dazar'alor|QO|1|CHAT|N|Speak with King Rastakhan.|
 T War Is Here|QID|54139|M|41.24,66.68|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
@@ -1197,7 +1200,7 @@ b Orgrimmar|ACTIVE|54109^54754|M|37.19,52.28|Z|Northern Stranglethorn|N|Return t
 T Queen's Favor|QID|54109|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
 T For the Queen|QID|54754|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
 ; possibly missing some steps here...
-A Battle of Dazar'alor|QID|54282|M|58.44,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|NA|
+A Battle of Dazar'alor|QID|54282|M|58.44,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|NA|PRE|54280|  ; Offered by Princess Talanji not Nathanos, listed already in guide, added PRE from that line.
 C Battle of Dazar'alor|QID|54282|N|You need to defeat Jaina at the Battle of Dazar'alor to continue with the war campaign.|
 
 A Return to the Heart|QID|55522|M|50.98,88.86|Z|Dazar'alor|N|From Earthen Guardian, after getting your necklace to 55.|PRE|56161|;pre is Back out to Sea--from Najzatar guide
@@ -1263,16 +1266,16 @@ C In the Shadow of Crimson Wings|QID|55657|M|35.94,50.50|Z|Twilight Highlands|N|
 C Defending the Vermillion Redoubt|SO|1|ACTIVE|55657|M|64.15,29.96|Z|Twilight Highlands!Instance|N|Head up the hill towards Alexstrasza, killing stuff as you go.|
 C The Life Binder|SO|2|ACTIVE|55657|M|64.15,29.96|Z|Twilight Highlands!Instance|N|Mount up and continue up the hill to Alexstraxza. Chat with Alex when you arrive.|CHAT|
 C Stemming the Corruption|SO|3|ACTIVE|55657|M|60.80,42.22|Z|Twilight Highlands!Instance|N|You can find the sentinals further up the hill, kill the void dragonkin guarding them and then click on the sentinals to rescue them.|
-C Take to the skies|SO|4|ACTIVE|55657|M|62.79,44.02|Z|Twilight Highlands!Instance|N|Back to Kalecgos for a ride up to Vexiona.|V|
+C Take to the Skies|SO|4|ACTIVE|55657|M|63.05,44.01|Z|Twilight Highlands!Instance|N|Back to Kalecgos for a ride up to Vexiona.|V|
 C From the Shadows|SO|5|ACTIVE|55657|M|46.41,86.27|Z|Twilight Highlands!Instance|N|Mount up and run over to Vexiona and fight thr void touched invaders that are preventing Alexstraza from fighting Vexiona.|
 C In the Shadow of Crimson Wings|QID|55657|M|45.80,86.32|Z|Twilight Highlands!Instance|N|Pick up the Lost Red Scale.|NC|
 C In the Shadow of Crimson Wings|QID|55657|QO|6|M|46.38,86.44|Z|Twilight Highlands!Instance|N|Hop on Corastrasza for a ride out or otherwise return to the Chamber of Heart.|V|
 T In the Shadow of Crimson Wings|QID|55657|M|54.25,66.28|Z|Chamber of Heart!Dungeon1473|N|To Alexstrasza.|
 
-A An Old Scar|QID|57632|M|50.15,59.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard. Necklace needs to be level 65.|PRE|55398|
-C An Old Scar|QID|57632|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|Tell MOTHER you are ready to travel to the Maelstrom.|CHAT|
-T An Old Scar|QID|57632|M|33.74,54.56|Z|The Maelstrom|N|To Magni Bronzebeard.|
-A Defending the Maelstrom|QID|55735|M|33.74,54.56|Z|The Maelstrom|N|From Magni Bronzebeard.|PRE|57632|
+A An Old Scar|QID|55732|M|50.15,59.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard. Necklace needs to be level 65.|PRE|55398|
+C An Old Scar|QID|55732|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|Tell MOTHER you are ready to travel to the Maelstrom.|CHAT|
+T An Old Scar|QID|55732|M|33.74,54.56|Z|The Maelstrom|N|To Magni Bronzebeard.|
+A Defending the Maelstrom|QID|55735|M|33.74,54.56|Z|The Maelstrom|N|From Magni Bronzebeard.|PRE|55732|
 C Defending the Maelstrom|QID|55735|M|29.63,52.91|Z|The Maelstrom|N|Defend the Maelstrom by defeating the Azerite Giant and the other Azerite creatures and healing azerite wounds.|
 T Defending the Maelstrom|QID|55735|M|33.74,54.56|Z|The Maelstrom|N|To Magni Bronzebeard.|
 A At the Azerite Time|QID|55737|M|33.74,54.56|Z|The Maelstrom|N|From Magni Bronzebeard.|PRE|55735|
@@ -1280,15 +1283,16 @@ C At the Azerite Time|QID|55737|M|33.74,54.56|Z|The Maelstrom|N|Use the Titan Wa
 T At the Azerite Time|QID|55737|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
 
 A A Bolt from the Blue|QID|56401|M|52.60,69.99|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos. Neck must be level 70.|PRE|55737|
-P Crystalsong Forest|M|56.22,91.76|Z|Orgrimmar|N|Travel to Nexus via means of your choosing, most likely via the Orgrimmar portal to Crystalsong Forest, Alternatively zep to Borean Tundra.|
+P Crystalsong Forest|ACTIVE|56401|M|56.22,91.76|Z|Orgrimmar|N|Travel to Nexus via means of your choosing, most likely via the Orgrimmar portal to Crystalsong Forest, Alternatively zep to Borean Tundra.|
 C A Bolt from the Blue|QID|56401|QO|1|M|27.97,26.27|Z|Borean Tundra|N|Fly up to the top level of the Nexus (NOT in the Instance) and stand next to Kalecgos and use the extra action button to charge the scale.|
 C A Bolt from the Blue|QID|56401|QO|2|M|27.53,26.72|Z|Borean Tundra|N|Fly out to the bubble a little ways in front of you (center of the ring) and take the scale.|
 T A Bolt from the Blue|QID|56401|M|27.97,26.27|Z|Borean Tundra|N|To Kalecgos. It has been fixed, you can take his ride before or after you turn the quest in. Don't forget to go to the Heart Forge and apply it.|
 A We Stand United|QID|55752|M|50.20,59.11|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|56401|
+C We Stand United|QID|55752|M|50.20,59.11|Z|Chamber of Heart!Dungeon1473|CHAT|
 T We Stand United|QID|55752|M|50.20,59.11|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
 
 t Battle of Dazar'alor|QID|54282|M|58.44,62.68|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A The King's Death|QID|54164|M|58.42,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|
+A The King's Death|QID|54164|M|58.42,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|54282|  ; wowhead comments says needs to be done first
 C The King's Death|QID|54164|M|49.92,39.02|Z|Dazar'alor|NC|N|Pay respects to King Rastakhan by clicking on the table where he lies in state.|
 T The King's Death|QID|54164|M|49.98,38.89|Z|Dazar'alor|N|To Lady Sylvanas Windrunner.|
 A The Return of Derek Proudmoore|QID|54165|M|49.98,38.89|Z|Dazar'alor|N|From Lady Sylvanas Windrunner.|PRE|54164|
@@ -1318,7 +1322,7 @@ T Dead in the Water|QID|54997|M|85.88,45.91|Z|Tiragarde Sound|N|To Baine Bloodho
 A A Bitter Reunion|QID|54960|M|85.88,45.91|Z|Tiragarde Sound|N|From Baine Bloodhoof.|PRE|54997&54959|
 C A Bitter Reunion|QID|54960|M|86.10,45.51|Z|Tiragarde Sound|CHAT|N|Tell Thomas Zelling you are ready.|
 T A Bitter Reunion|QID|54960|M|76.56,42.89|Z|Dustwallow Marsh|N|To Baine Bloodhoof.|
-A Under False Colors|QID|55034^54999|M|76.33,42.74|Z|Dustwallow Marsh|N|From Thomas Zelling.|
+A Under False Colors|QID|55034^54999|M|76.33,42.74|Z|Dustwallow Marsh|N|From Thomas Zelling.|PRE|54960| ; per wowhead comments
 C Under False Colors|QID|55034^54999|M|76.33,42.79|Z|Dustwallow Marsh|QO|1|U|167228|NC|N|Use the Charm of Returning.|
 C Under False Colors|QID|55034^54999|M|51.53,99.73|Z|Dazar'alor|QO|2|NC|N|Go to your mission table and start "Casting the Bait".|
 T Under False Colors|QID|55034^54999|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
@@ -1380,7 +1384,7 @@ T Stay of Execution|QID|55782|M|50.91,45.65|Z|Nazjatar|N|To Nathanos Blightcalle
 ;veteran of the 4th war
 A The Eve of Battle|QID|56496|M|50.20,96.01|Z|Dazar'alor|N|From Lor'themar Theron, on the dock in the Port of Zandalar.|PRE|55779|
 C The Eve of Battle|QID|56496|M|50.20,96.01|Z|Dazar'alor|QO|1|CHAT|N|Listen to Lor'themar.|
-P The Eve of Battle|QID|56496|M|50.25,95.99|Z|Dazar'alor|QO|2|N|Ask Thalyssra for a teleport.|
+P The Eve of Battle|ACTIVE|56496|M|50.25,95.99|Z|Dazar'alor|QO|2|N|Ask Thalyssra for a teleport.|
 T The Eve of Battle|QID|56496|M|54.09,42.41|Z|Durotar|N|To Varok Saurfang.|
 A This Ain't Mine|QID|57088|M|54.09,42.41|Z|Durotar|N|From Varok Saurfang.|PRE|56496|
 C This Ain't Mine|QID|57088|M|52.77,40.35|Z|Durotar|QO|1|NC|N|Click on the controlls to enter the Mine-Bot 5000.|
@@ -1407,10 +1411,10 @@ T Strategic Deployment|QID|57092|M|41.64,55.71|Z|1535|N|To Varok Saurfang.|
 A Before the Gates of Orgrimmar|QID|57093|M|41.64,55.71|Z|1535|N|From Varok Saurfang.|PRE|57090&57091&57092|
 C Before the Gates of Orgrimmar|QID|57093|M|35.80,64.76|Z|1535|CHAT|N|Speak with Saurfang to begin the battle|
 T Before the Gates of Orgrimmar|QID|57093|M|36.14,64.11|Z|1535|N|To Lor'themar Theron.|
-A The Price of Victory|QID|57094|M|36.14,64.11|Z|1535|N|From Lor'themar Theron.|
+A The Price of Victory|QID|57094|M|36.14,64.11|Z|1535|PRE|57093|N|From Lor'themar Theron.|
 C The Price of Victory|QID|57094|M|76.45,29.18|Z|Thunder Bluff|QO|1|CHAT|N|Speak with Baine Bloodhoof.|
 T The Price of Victory|QID|57094|M|34.90,60.14|Z|1535|N|To Lor'themar Theron.|
-A Old Soldier|QID|57095|M|34.90,60.14|Z|1535|N|From Lor'themar Theron.|
+A Old Soldier|QID|57095|M|34.90,60.14|Z|1535|N|PRE|57094|From Lor'themar Theron.|
 C Old Soldier|QID|57095|M|34.90,60.14|Z|1535|CHAT|N|Speak with Lor'themar to begin honoring Saurfang.|
 T Old Soldier|QID|57095|M|50.04,76.53|Z|Orgrimmar|N|To Thrall.|
 ;if you are on slyvanas side
@@ -1453,7 +1457,7 @@ N Come back at level 116|QID|53062|LVL|-116|N|Island Adventures can be done when
 N Come back at level 118|QID|52444|LVL|-118|N|Last foothold can be done when you are level 118.|PRE|51979|
 N Come back at level 120|QID|51589|LVL|-120|N|First assault can be done when you are level 120.|PRE|52444|
 N Rep Gated until 4.5K into Friendly|QID|51784|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 4.5K into friendly. IF you are sitting in Bridgeport wondering how to get home, fly to Plunder Harbor and ask Erul Dawnbrook, on the dock for a ride back to Zuldazar.|PRE|51601|REP|The Honorbound;2157;friendly;4500;true|
-B Scounting Missions|AVAILABLE|53739^53744|M|58.06,62.65|Z|Zuldazar|N|Now that you're Honored you can purchase two Scouting Reports from Ransa Greyfeather (Emissary) that become available at Honored. Use the Scouting Reports to cause a mission to be available at your table. Complete the table missions to start quest chains that unlock outposts (additional flight paths!).|REP|The Honorbound;2157;honored-exalted|
+; B Scounting Missions|AVAILABLE|53739^53744|M|58.06,62.65|Z|Zuldazar|N|Now that you're Honored you can purchase two Scouting Reports from Ransa Greyfeather (Emissary) that become available at Honored. Use the Scouting Reports to cause a mission to be available at your table. Complete the table missions to start quest chains that unlock outposts (additional flight paths!).|REP|The Honorbound;2157;honored-exalted|   ; moved higher in guide
 N Rep Gated until 3K into Honored|QID|51797|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 3K into Honored.|PRE|51789|REP|The Honorbound;2157;honored;3000;true|
 N Rep Gated until 7.5K into Honored|QID|52764|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 7.5k into honored.|PRE|52122|REP|The Honorbound;2157;honored;7500;true|
 N More Scouting Missions|QID|53739^53740^53741^53742^53743^53744^53745|M|58.06,62.65|Z|Zuldazar|US|N|Get those scouting missions (from the table) done so you can open up more flightpaths.|REP|The Honorbound;2157;revered-exalted|
