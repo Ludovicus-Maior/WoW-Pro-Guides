@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2020-08-01 00:15
+-- Who: Blanckaert
+-- Log: oops.. put PRE in wrong spot errored the N
+
+-- URL: http://wow-pro.com/node/3761/revisions/30602/view
 -- Date: 2020-07-31 01:58
 -- Who: Blanckaert
 -- Log: added some PREs, moved a line, and other 'minor' adjustments.   REP info is incorrect needs to be fixed as figured out
@@ -248,11 +253,6 @@
 -- Date: 2018-09-20 08:25
 -- Who: elidion
 -- Log: Updated some of the notes for the warfront scenario.
-
--- URL: http://wow-pro.com/node/3761/revisions/29759/view
--- Date: 2018-09-16 19:58
--- Who: elidion
--- Log: Updated Horde Arathi quests from my guesses to reality.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -1414,7 +1414,7 @@ T Before the Gates of Orgrimmar|QID|57093|M|36.14,64.11|Z|1535|N|To Lor'themar T
 A The Price of Victory|QID|57094|M|36.14,64.11|Z|1535|PRE|57093|N|From Lor'themar Theron.|
 C The Price of Victory|QID|57094|M|76.45,29.18|Z|Thunder Bluff|QO|1|CHAT|N|Speak with Baine Bloodhoof.|
 T The Price of Victory|QID|57094|M|34.90,60.14|Z|1535|N|To Lor'themar Theron.|
-A Old Soldier|QID|57095|M|34.90,60.14|Z|1535|N|PRE|57094|From Lor'themar Theron.|
+A Old Soldier|QID|57095|M|34.90,60.14|Z|1535|PRE|57094|N|From Lor'themar Theron.|
 C Old Soldier|QID|57095|M|34.90,60.14|Z|1535|CHAT|N|Speak with Lor'themar to begin honoring Saurfang.|
 T Old Soldier|QID|57095|M|50.04,76.53|Z|Orgrimmar|N|To Thrall.|
 ;if you are on slyvanas side
