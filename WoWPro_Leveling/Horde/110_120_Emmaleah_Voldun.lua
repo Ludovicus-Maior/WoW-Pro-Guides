@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2020-07-28 03:30
+-- Who: Blanckaert
+-- Log: fix transposed coord for 51093^51094 coord set 3  changed 46.66 to 64.66
+
+-- URL: http://wow-pro.com/node/3772/revisions/30575/view
 -- Date: 2020-07-14 23:04
 -- Who: Ludovicus_Maior
 -- Log: Correct location for Sandscout Vesarik quest.
@@ -920,7 +925,7 @@ $ Lost Offerings of Kimbul|QID|52992|M|58.05,10.87;56.75,10.06;57.04,11.19|CS|N|
 
 R Tortaka Refuge|ACTIVE|50703|M|57.25,13.83;57.64,16.74;59.91,20.26;61.10,21.02|CS|N|Remember that treasure at Atul'Aman. Time to go get it now.|RANK|3|
 F Goldtusk Inn|ACTIVE|50703|M|61.92,21.67|TZ|Whistlebloom Oasis|N|At Scroll of Flight.|RANK|3|
-$ Grayal's Last Offering|QID|51093^51094|M|43.58,62.11;48.25,61.81;49.16,46.66;48.20,64.69|CS|N|Up to the entrance of Atul'Aman, thru the doorway behind Grozztok is Grayal's Last Offering. Commune with the alter to cause the treasure to appear. Loot for artifact power and resources.|RANK|3|
+$ Grayal's Last Offering|QID|51093^51094|M|43.58,62.11;48.25,61.81;49.16,64.66;48.20,64.69|CS|N|Up to the entrance of Atul'Aman, thru the doorway behind Grozztok is Grayal's Last Offering. Commune with the alter to cause the treasure to appear. Loot for artifact power and resources.|RANK|3|
 H The Great Seal|ACTIVE|50703|N|Return to the Great Seal.|RANK|3|
 A Pick next zone|AVAILABLE|47512^47513^47514|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.|
 
