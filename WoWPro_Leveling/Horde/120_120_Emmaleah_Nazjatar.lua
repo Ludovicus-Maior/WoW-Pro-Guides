@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_horde
+-- Date: 2020-07-29 00:14
+-- Who: Blanckaert
+-- Log: had A step, but says 'to', so changed to T step, there is no A
+
+-- URL: http://wow-pro.com/node/3789/revisions/30597/view
+-- Date: 2020-07-28 21:39
+-- Who: Blanckaert
+-- Log: change name of Flight Path
+
+-- URL: http://wow-pro.com/node/3789/revisions/30499/view
 -- Date: 2020-04-08 17:53
 -- Who: Ludovicus_Maior
 -- Log: [The Warchief's Order], [What Will It Grow?], [A Friend Indeed], [That's What Friends Are For]
@@ -460,7 +470,7 @@ T They Made Their Choice|QID|56316|M|79.77,44.93|N|To First Arcanist Thalyssra.|
 
 T Preserved Clues|QID|56242|M|81.45,45.50|N|To Preserved Journal on the ground.|
 A Diaries of the Dead|QID|56244|M|81.45,45.50|PRE|56242|
-f Elun'alor Temple|QID|56244|M|79.54,37.91|N|At Gizzik Kelpears.|
+f Zin'Azshari|QID|56244|M|79.54,37.91|N|At Gizzik Kelpears.|
 C Diaries of the Dead|QID|56244|M|83.22,32.91|QO|1|NC|N|Find another journal in the city ruins.|
 C The Missing Crew|QID|56379|M|83.64,32.94|QO|3|NC|N|Find Captain Jalazko in Zin-Ashari.|
 C Diaries of the Dead|QID|56244|M|81.30,40.03|QO|2|NC|N|Continue searching the city ruins.|
@@ -485,7 +495,7 @@ C Saving Corin|QID|56321|M|80.73,32.09|T|Shadowcaster Vixtris|N|Kill Shadowcaste
 T Saving Corin|QID|56321|M|80.22,31.88|N|To Kelya Moonfall.|
 A On Ghostly Wings|QID|56422|M|80.22,31.88|N|From Kelya Moonfall.|PRE|56321|
 T On Ghostly Wings|QID|56422|M|74.16,24.91|N|To Kelya Moonfall. She becomes the flight master, don't miss getting the flightpoint.|
-f Zin-Azshari|AVAILABLE|56560|M|74.16,25.02|N|At Kelya Moonfall.|
+f Kelya's Grave|AVAILABLE|56560|M|74.16,25.02|N|At Kelya Moonfall.|
 
 A A Curious Discovery|QID|56560|M|71.79,25.81|N|From a Strange Crystal on the ground.|
 A Plug the Geysers|QID|55878|M|71.4,32.4|N|From Scout Barbscale.|O|
@@ -717,7 +727,7 @@ T An Unexpected Friend|QID|56813|M|50.97,65.28|N|To Atolia Seapearl.|
 T Becoming a Friend|QID|57005|M|50.97,65.28|N|To Atolia Seapearl.|
 T We're Going To Be Friends|QID|56808|M|51.00,65.27|N|To Atolia Seapearl.|
 T Just A Friend|QID|56803|M|50.98,65.26|N|To Atolia Seapearl.|
-A A Friend Indeed|QID|56810|M|50.98,65.26|N|To Atolia Seapearl.|
+T A Friend Indeed|QID|56810|M|50.98,65.26|N|To Atolia Seapearl.|
 T With A Little Help From My Friends|QID|56815|M|50.98,65.26|N|To Atolia Seapearl.|
 T Bounty: A Few Crabs|QID|55823|M|50.99,65.24|N|To Atolia Seapearl.|
 T Bounty: More Crabs|QID|55832|M|50.99,65.24|N|To Atolia Seapearl.|
