@@ -16,8 +16,8 @@ jobs:
 
     - name: Install the python dependencies and do the scraping
       run: |
-        python -V
+        python3 -V
         git config user.name github-actions
         git config user.email github-actions@github.com
-        sudo pip install -r WoWPro_Utilities/requirements.txt
+        sudo pip3 install -r WoWPro_Utilities/requirements.txt
         bash -x WoWPro_Utilities/AutoUpdateGuides.sh
