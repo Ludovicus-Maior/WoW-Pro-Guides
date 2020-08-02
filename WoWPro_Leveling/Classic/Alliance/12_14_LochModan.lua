@@ -90,7 +90,7 @@ T Westfall Stew |QID|36|M|56.4,30.5|Z|Westfall|N|To Salma Saldean.|
 A Westfall Stew |QID|38|PRE|36|M|56.4,30.5|Z|Westfall|N|From Salma Saldean.|
 A Goretusk Liver Pie|QID|22|M|56.4,30.5|Z|Westfall|N|From Salma Saldean.|
 
-R Sentinel Hill|ACTIVE|109|M|7.61,44.45|Z|Westfall|N|Continue along the road to Sentinel Hill, taking the left hand road at the junction (it has signposts if you are unsure)|
+R Sentinel Hill|ACTIVE|109|M|57.61,44.45|Z|Westfall|N|Continue along the road to Sentinel Hill, taking the left hand road at the junction (it has signposts if you are unsure)|
 T Report to Gryan Stoutmantle|QID|109|M|56.33,47.52|Z|Westfall|N|To Gryan Stoutmantle. (you can accept The People's militia now, or wait for questlog space later.)|
 A A Swift Message|QID|6181|M|57.00,47.17|Z|Westfall|R|Human|N|From Quartermaster Lewis.|
 h Sentinel Hill|ACTIVE|64|M|52.86,53.71|Z|Westfall|N|At Innkeeper Heather.|
