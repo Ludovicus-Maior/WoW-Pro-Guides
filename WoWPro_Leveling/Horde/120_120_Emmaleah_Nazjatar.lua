@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_horde
+-- Date: 2020-08-04 23:46
+-- Who: Blanckaert
+-- Log: adjust to quest text for 55874, and location of 56379 QO 1
+
+-- URL: http://wow-pro.com/node/3789/revisions/30598/view
 -- Date: 2020-07-29 00:14
 -- Who: Blanckaert
 -- Log: had A step, but says 'to', so changed to T step, there is no A
@@ -368,7 +373,7 @@ A Feed Them All|QID|55715|M|57.46,45.54|N|From Oben Sandfin.|O|
 C Feed Them All|QID|55715|M|58.61,52.17|N|Kill and loot Fathom Rays.|
 T Feed Them All|QID|55715|M|57.47,45.54|N|To Oben Sandfin.|
 A Plug the Geysers|QID|55874|M|60.60,52.81|N|From Scout Kleda.|O|
-C Plug the Geysers|QID|55874|M|62.53,53.55|QO|1|N|Kill crabs to get they shells and plug the unstable geyser.|
+C Plug the Geysers|QID|55874|M|62.53,53.55|U|168482|NC|N|Use the sealent provided and target the unstable Geysers.|
 K Disturbed Algan|ACTIVE|55874|M|62.45,53.20|QO|2|T|Disturbed Algan|N|Disturbed Algan will spawn when you plug the last geyser. Kill him.|
 T Plug the Geysers|QID|55874|M|60.64,52.86|N|To Scout Kleda.|
 K Lord Ha'kass|ACTIVE|56224|M|44,37|QO|1|T|Lord Ha'kass|N|Kill Lord Ha'kass and take his head.|
@@ -640,7 +645,7 @@ C A Little Edge|QID|55993|M|39.48,12.59|N|Run back to Chitterspine Caverns and k
 T A Little Edge|QID|55993|M|25.79,41.87|N|To Kade Makreef.|
 C Ravenous Scalespawn|QID|56387|M|29.60,49.64|N|Defeat Ravenous Scalespawn in a pet batle.|
 A Mottled Hydra Scale|QID|56463|M|29.60,49.64|N|From item dropped when defeating pet battle Ravenous Scalespawn.|PRE|56387|
-C The Missing Crew|QID|56379|M|29.98,44.79|QO|1|NC|N|Find Captain Dawnsail in the Ashen Strand.|
+C The Missing Crew|QID|56379|M|28.98,44.79|QO|1|NC|N|Find Captain Dawnsail in the Ashen Strand.|
 C Bounty: Hydras|QID|55820^55829|M|30.03,40.64|N|Kill Hydras.|
 C Giant Opaline Conch|QID|56392|M|28.24,26.86|QO|1|N|Defeat the Giant Opaline Conch in a pet battle.|
 A Opaline Conch|QID|56458|M|28.24,26.86|N|From item dropped the first time you defeat the Giant Opaline Conch in a pet battle.|PRE|56392|
