@@ -1317,9 +1317,9 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 skip = true
                 break
             end
-            if stepAction == "A" and WoWPro.use[guideIndex] then
+            if (stepAction == "A" or stepAction == "U") and WoWPro.use[guideIndex] then
                 if _G.GetItemCount(WoWPro.use[guideIndex]) == 0 then
-                    local why = "You don't have the item to start this quest."
+                    local why = "You don't have the item for this step."
                     WoWPro.why[guideIndex] = why
                     WoWPro:dbp(why)
                     skip = true
