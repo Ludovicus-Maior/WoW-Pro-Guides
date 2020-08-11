@@ -147,14 +147,6 @@ WoWPro.ProfessionSkillLines = {
         [2514] = { exp = 0, name = 'Inscription' },
 
     [129] = { name = 'First Aid'},
-        [2507] = { exp = 7, name = 'Battle for Azeroth First Aid' },
-        [2508] = { exp = 6, name = 'Legion First Aid' },
-        [2509] = { exp = 5, name = 'Draenor First Aid' },
-        [2510] = { exp = 4, name = 'Pandaria First Aid' },
-        [2511] = { exp = 3, name = 'Cataclysm First Aid' },
-        [2512] = { exp = 2, name = 'Northrend First Aid' },
-        [2513] = { exp = 1, name = 'Outland First Aid' },
-        [2514] = { exp = 0, name = 'First Aid' },
 
     --  Not included in GetTradeSkillLineInfoByID()
     [794] = { name = 'Archaeology' },
