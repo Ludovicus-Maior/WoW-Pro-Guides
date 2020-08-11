@@ -1774,7 +1774,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     profLvl = 175+1
                 end
                 local proflvl = tonumber(profLvl or profExp) or 1
-                local profexp = tonumber((profLvl and profExp) or 0)
+                -- Still to be fixed: local profexp = tonumber((profLvl and profExp) or 0)
                 profmaxskill = tonumber(profmaxskill) or 0
                 profflip = tonumber(profflip) or 0
                 if type(WoWProCharDB.Tradeskills) == 'table' and profID > 0 then
@@ -1796,7 +1796,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                             skip = false
                         end
                         if ((profmaxskill > 0) and (profmaxskill < tradeskill.skillMax)) then
-                            WoWPro.why[guideIndex] = ("NextStep(): profflip > 0 and profmaxskill%d < maxskill%d");format(profmaxskill, tradeskill.skillMax)
+                            WoWPro.why[guideIndex] = ("NextStep(): profflip > 0 and profmaxskill%d < maxskill%d"):format(profmaxskill, tradeskill.skillMax)
                             WoWPro:dbp(WoWPro.why[guideIndex])
                             skip = true
                         end
