@@ -1245,9 +1245,9 @@ DefineZone8(1521, "Karazhan Catacombs#1521!Instance", UIMapType.Orphan, 0000, ni
 DefineZone8(1522, "Crumbling Cavern", UIMapType.Micro, 1462, nil)
 DefineZone8(1523, "Solesa Naksu [DNT]#1523", UIMapType.Zone, 0000, nil)
 DefineZone8(1524, "", UIMapType.Micro, 1355, nil) -- Collided {[1500]=true,[1524]=true,[1499]=true,count=3}
-DefineZone8(1527, "Uldum", UIMapType.Zone, 0012, nil) -- Collided {[1527]=true,[249]=true,count=2}
+DefineZone8(1527, "Uldum!Visions", UIMapType.Zone, 0012, nil) -- Collided {[1527]=true,[249]=true,count=2}
 DefineZone8(1528, "Nazjatar!Instance", UIMapType.Orphan, 0947, nil)
-DefineZone8(1530, "Vale of Eternal Blossoms", UIMapType.Zone, 0424, nil, 1579, 1600) -- Collided {[1530]=true,[390]=true,count=2}
+DefineZone8(1530, "Vale of Eternal Blossoms!Visions", UIMapType.Zone, 0424, nil, 1579, 1600) -- Collided {[1530]=true,[390]=true,count=2}
 DefineZone8(1531, "Crapopolis!Instance1531", UIMapType.Orphan, 0194, nil)
 DefineZone8(1532, "Crapopolis!Instance1532", UIMapType.Orphan, 0194, nil)
 DefineZone8(1534, "Orgrimmar!Instance", UIMapType.Orphan, 0012, nil)
@@ -2508,9 +2508,9 @@ DefineZone9(1522, "Crumbling Cavern", UIMapType.Micro, 1462, nil)
 DefineZone9(1523, "Solesa Naksu [DNT]#1523", UIMapType.Zone, 0000, nil)
 DefineZone9(1524, "", UIMapType.Micro, 1355, nil) -- Collided {[1500]=true,[1524]=true,[1499]=true,count=3}
 DefineZone9(1525, "Revendreth", UIMapType.Zone, 1550, nil, 1644, 1663, 1664, 1665, 1675, 1676, 1699, 1700, 1735)
-DefineZone9(1527, "Uldum", UIMapType.Zone, 0012, nil) -- Collided {[1527]=true,[249]=true,count=2}
+DefineZone9(1527, "Uldum!Visions", UIMapType.Zone, 0012, nil) -- Collided {[1527]=true,[249]=true,count=2}
 DefineZone9(1528, "Nazjatar!Instance", UIMapType.Orphan, 0947, nil)
-DefineZone9(1530, "Vale of Eternal Blossoms", UIMapType.Zone, 0424, nil, 1579, 1600) -- Collided {[1530]=true,[390]=true,count=2}
+DefineZone9(1530, "Vale of Eternal Blossoms!Visions", UIMapType.Zone, 0424, nil, 1579, 1600) -- Collided {[1530]=true,[390]=true,count=2}
 DefineZone9(1531, "Crapopolis!Instance1531", UIMapType.Orphan, 0194, nil)
 DefineZone9(1532, "Crapopolis!Instance1532", UIMapType.Orphan, 0194, nil)
 DefineZone9(1533, "Bastion", UIMapType.Zone, 1550, nil, 1667, 1668, 1690, 1692, 1693, 1694, 1695, 1707, 1708, 1711, 1713, 1714)
