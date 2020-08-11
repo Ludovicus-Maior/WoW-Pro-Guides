@@ -1768,12 +1768,13 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 local profExp, profLvl = ("+"):split(proflvlmain or "0+1")
 
                 profID = tonumber(profID) or 0
-                if proflvl == '*' then
+                if profLvl == '*' then
                     -- Set to the maximum level obtainable in the expansion plus 1
-                    proflvl = 801
+                    profExp = 7
+                    profLvl = 175+1
                 end
-                proflvl = tonumber(profLvl or profExp) or 1
-                profexp = tonumber((profLvl and profExp) or 0)
+                local proflvl = tonumber(profLvl or profExp) or 1
+                local profexp = tonumber((profLvl and profExp) or 0)
                 profmaxskill = tonumber(profmaxskill) or 0
                 profflip = tonumber(profflip) or 0
                 if type(WoWProCharDB.Tradeskills) == 'table' and profID > 0 then
