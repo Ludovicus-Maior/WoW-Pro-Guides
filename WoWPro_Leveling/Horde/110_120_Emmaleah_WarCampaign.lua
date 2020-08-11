@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2020-08-07 00:10
+-- Who: Blanckaert
+-- Log: revert a PRE tag, added note on line
+
+-- URL: http://wow-pro.com/node/3761/revisions/30605/view
+-- Date: 2020-08-06 21:02
+-- Who: Blanckaert
+-- Log: Changed REP gate numbers, commented reasons, also changed order of a quest turnin, as it effects getting follow up quest.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30603/view
 -- Date: 2020-08-01 00:15
 -- Who: Blanckaert
 -- Log: oops.. put PRE in wrong spot errored the N
@@ -243,16 +253,6 @@
 -- Date: 2018-10-02 18:43
 -- Who: Emmaleah
 -- Log: various tweaks, added NCs, moved Lilian Voss as follower to before going to Orgrimmar, added a -120 level tag.
-
--- URL: http://wow-pro.com/node/3761/revisions/29772/view
--- Date: 2018-09-20 08:26
--- Who: elidion
--- Log: One more typo
-
--- URL: http://wow-pro.com/node/3761/revisions/29771/view
--- Date: 2018-09-20 08:25
--- Who: elidion
--- Log: Updated some of the notes for the warfront scenario.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -654,9 +654,9 @@ F Wolf's Den|ACTIVE|53152|M|87.27,50.67|Z|Tiragarde Sound|N|At Skrash.|
 T Wolves for the Den|QID|53152|M|62.49,12.48|Z|Tiragarde Sound|N|To Mukkral Blackvein in Tiragarde sound. It should be easier now that you have the flight path directly there.|
 
 ; Death of a Tidesage - 3k/12k Honored The Honorbound
-A Operation: Water Wise|QID|53066|N|Autoaccepted|PRE|51789|REP|The Honorbound;2157;honored;3000|O|
+A Operation: Water Wise|QID|53066|N|Autoaccepted|PRE|51789|REP|The Honorbound;2157;honored;3000|O|  ; You dont get until 3000, but you can do the rest of the chain without this LEAD
 T Operation: Water Wise|QID|53066|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Tracking Tidesages|QID|51797|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51789|REP|The Honorbound;2157;honored;3000|
+A Tracking Tidesages|QID|51797|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51789|REP|The Honorbound;2157;honored;250| ; I think REP gates removed, 250 was my current REP at time running guide.
 C Tracking Tidesages|QID|51797|QO|1|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to Stormsong Valley|
 T Tracking Tidesages|QID|51797|M|52.08,33.64|Z|Stormsong Valley|N|To Rexxar.|
 A No Price Too High|QID|51798|M|52.08,33.65|Z|Stormsong Valley|N|From Rexxar.|PRE|51797|
@@ -692,9 +692,9 @@ H The Great Seal|ACTIVE|52122|M|51.45, 33.67|Z|Stormsong Valley|N|Hearth or tell
 T To Be Forsaken|QID|52122|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
 ; At the Bottom of the Sea - 7.5k/12k The Honorbound
-A Operation: Bottom Feeder|QID|53067|N|Autoaccepted|PRE|52122|REP|The Honorbound;2157;honored;7500|O|
+A Operation: Bottom Feeder|QID|53067|N|Autoaccepted|PRE|52122|REP|The Honorbound;2157;honored;7500|O|  ; dont get until you hit 7500, but you can do the chain without this LEAD
 T Operation: Bottom Feeder|QID|53067|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A Journey to the Middle of Nowhere|QID|52764|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52122|REP|The Honorbound;2157;honored;7500|
+A Journey to the Middle of Nowhere|QID|52764|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52122|REP|The Honorbound;2157;honored;5500|   ; currnet rep when I hit this spot, BUT was already avail
 C Journey to the Middle of Nowhere|QID|52764|QO|1|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to the middle of the Great Sea.|
 T Journey to the Middle of Nowhere|QID|52764|M|40.52,67.31|Z|The Great Sea!Instance!Azeroth|N|To Nathanos Blightcaller.|;need correct zone name|
 A Deep Dive|QID|52765|M|40.52,67.13|Z|The Great Sea!Instance!Azeroth|N|From Nathanos Blightcaller.|PRE|52764|
@@ -725,10 +725,11 @@ T Water-Breathing Dragon|QID|52773|M|68.33,54.76|Z|The Great Sea!Instance!Azerot
 A Grab and Go|QID|52774|M|68.33,54.76|Z|The Great Sea!Instance!Azeroth|N|Autoaccepted|PRE|52773|
 C Grab and Go|QID|52774|QO|1|M|68.23,55.61|Z|The Great Sea!Instance!Azeroth|N|Pick up Valentine's body|
 C Grab and Go|QID|52774|QO|2|M|68.62,55.88|Z|The Great Sea!Instance!Azeroth|N|Oh, look this body may prove useful too, take it.|
-T Grab and Go|QID|52774|M|40.11,67.98|Z|The Great Sea!Instance!Azeroth|N|To Nathanos Blightcaller, back on the Banshee's Wail UNDER the deck.|
-A Siege of Boralus|QID|53121|M|41.47,66.57|Z|The Great Sea!Instance!Azeroth|N|From Lilian Voss.|PRE|52774|
+C Grab and Go|QID|52774|M|41.47,66.57|Z|The Great Sea!Instance!Azeroth|N|Head back to Banshee's Wail.|   ; hope this step works added as after thought during edit, to get you back to the ship to continue, since T step moved.
+A Siege of Boralus|QID|53121|M|41.47,66.57|Z|The Great Sea!Instance!Azeroth|N|From Lilian Voss.|PRE|52773|  ; Avail before turning in 52774, changed to 52773, as this one needs to be turned in (any toon), before you get 52978.
 T Siege of Boralus|QID|53121|M|41.47,66.57|Z|The Great Sea!Instance!Azeroth|N|To Lilian Voss. This unlocks mythic Siege of Boralus.|
-A With Prince in Tow|QID|52978|M|40.10,67.99|Z|The Great Sea!Instance!Azeroth|N|From Nathanos Blightcaller still under the main deck.|PRE|52774|
+T Grab and Go|QID|52774|M|40.11,67.98|Z|The Great Sea!Instance!Azeroth|N|To Nathanos Blightcaller, back on the Banshee's Wail UNDER the deck.|
+A With Prince in Tow|QID|52978|M|40.10,67.99|Z|The Great Sea!Instance!Azeroth|N|From Nathanos Blightcaller still under the main deck.|PRE|52774|  ; Need to have 53121 turned in to get this quest, on ANY toon.  Reverted PRE to 52774
 C With Prince in Tow|ACTIVE|52978|M|39.90,68.31|Z|The Great Sea!Instance!Azeroth|CHAT|N|Tell Tattersail you want to return to Zandalar.|
 T With Prince in Tow|QID|52978|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 
@@ -805,9 +806,9 @@ f Windfall Cavern|ACTIVE|52320|M|52.77,80.13|Z|Stormsong Valley|N|At Allabas.|
 T Windfall Cavern|QID|52320|M|60.21,24.98|Z|Stormsong Valley|N|To Morn Ironhorn.|
 
 ; The Strike on Boralus - Revered with The Honorbound
-A Operation: Hook and Line|QID|53068|N|Autoaccepted|PRE|52978|REP|The Honorbound;2157;revered;0|O|
+A Operation: Hook and Line|QID|53068|N|Autoaccepted|PRE|52978|REP|The Honorbound;2157;revered;0|O|  ; LEAD not avail till you hit this gate, but following quest already avail
 T Operation: Hook and Line|QID|53068|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A When a Plan Comes Together|QID|52183|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52978|REP|The Honorbound;2157;revered;0|
+A When a Plan Comes Together|QID|52183|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52978|REP|The Honorbound;2157;honored;9000|  ; avail already, REP gate seems to be removed, at time of running 9000 Honoured was my current rep
 C When a Plan Comes Together|QID|52183|QO|1|M|58.44,62.67|Z|Zuldazar|CHAT|N|Listen to Nathanos' plans.|
 C When a Plan Comes Together|QID|52183|QO|2|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to the middle of Tiragarde Sound|
 C When a Plan Comes Together|QID|52183|QO|3|M|86.95,53.08|Z|Tiragarde Sound|NC|N|Meet Nathanos in Plunder Harbor|

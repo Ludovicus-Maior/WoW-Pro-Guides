@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_horde
+-- Date: 2020-08-09 02:56
+-- Who: Blanckaert
+-- Log: adjusting of spelling mistake of sealent to sealant
+
+-- URL: http://wow-pro.com/node/3789/revisions/30604/view
+-- Date: 2020-08-04 23:46
+-- Who: Blanckaert
+-- Log: adjust to quest text for 55874, and location of 56379 QO 1
+
+-- URL: http://wow-pro.com/node/3789/revisions/30598/view
 -- Date: 2020-07-29 00:14
 -- Who: Blanckaert
 -- Log: had A step, but says 'to', so changed to T step, there is no A
@@ -368,7 +378,7 @@ A Feed Them All|QID|55715|M|57.46,45.54|N|From Oben Sandfin.|O|
 C Feed Them All|QID|55715|M|58.61,52.17|N|Kill and loot Fathom Rays.|
 T Feed Them All|QID|55715|M|57.47,45.54|N|To Oben Sandfin.|
 A Plug the Geysers|QID|55874|M|60.60,52.81|N|From Scout Kleda.|O|
-C Plug the Geysers|QID|55874|M|62.53,53.55|QO|1|N|Kill crabs to get they shells and plug the unstable geyser.|
+C Plug the Geysers|QID|55874|M|62.53,53.55|U|168482|NC|N|Use the sealant provided and target the unstable Geysers.|
 K Disturbed Algan|ACTIVE|55874|M|62.45,53.20|QO|2|T|Disturbed Algan|N|Disturbed Algan will spawn when you plug the last geyser. Kill him.|
 T Plug the Geysers|QID|55874|M|60.64,52.86|N|To Scout Kleda.|
 K Lord Ha'kass|ACTIVE|56224|M|44,37|QO|1|T|Lord Ha'kass|N|Kill Lord Ha'kass and take his head.|
@@ -379,7 +389,7 @@ A Pearlescent Shell|QID|56461|M|50.55,50.10|N|From item dropped the first time y
 
 K Inquisitor Ithriza|ACTIVE|56227|M|48.37,47.56|QO|1|T|Inquisitor Ithriza|N|Loot Inquisitor Ithriza's Head.|
 A Plug the Geysers|QID|55877|M|47.98,46.47|N|From Scout Tuli.|O|
-C Plug the Geysers|QID|55877|M|47.27,49.30|U|168482|NC|N|Use the sealent provided and target the unstable Geysers.|
+C Plug the Geysers|QID|55877|M|47.27,49.30|U|168482|NC|N|Use the sealant provided and target the unstable Geysers.|
 T Plug the Geysers|QID|55877|M|48.00,46.48|N|To Scout Tuli.|
 
 A A Steamy Situation|QID|56036|M|42.03,46.59|N|From Finder Palta.|O|
@@ -499,7 +509,7 @@ f Kelya's Grave|AVAILABLE|56560|M|74.16,25.02|N|At Kelya Moonfall.|
 
 A A Curious Discovery|QID|56560|M|71.79,25.81|N|From a Strange Crystal on the ground.|
 A Plug the Geysers|QID|55878|M|71.4,32.4|N|From Scout Barbscale.|O|
-C Plug the Geysers|QID|55878|M|71.4,32.4|U|164482|NC|N|Use the sealent provided and target the unstable Geysers.|
+C Plug the Geysers|QID|55878|M|71.4,32.4|U|164482|NC|N|Use the sealant provided and target the unstable Geysers.|
 T Plug the Geysers|QID|55878|M|71.4,32.4|N|To Scout Barbscale.|
 C Leylocked Chest|QID|56023|M|67.15,35.83|NC|N|Click on the Arcane Device to open a puzzle-game. Uncross the ley lines (they will turn lighter color when uncrossed) to unlock the chest.|;WQ
 K Gler'thogg|ACTIVE|56226|M|67.79,23.04|QO|1|T|Gler'thogg|N|Kill and loot Gler'thogg.|
@@ -633,14 +643,14 @@ C She Sells These Shells|QID|55766|M|37.73,41.16|NC|N|Pick up Seashells.|
 A Emergent Sea Weeds|QID|55768|M|37.94,48.71|N|From Bren Inkfin.|O|
 C Emergent Sea Weeds|QID|55768|M|37.9,48.7|NC|N|Pick up Vent Kelp growing in the area.|
 A Plug the Geysers|QID|55875|M|33.51,47.94|N|From Scout Tambrine.|O|
-C Plug the Geysers|QID|55875|M|33.48,48.82|U|168482|NC|N|Click the sealent, target the geyser, repeat till all plugged.|
+C Plug the Geysers|QID|55875|M|33.48,48.82|U|168482|NC|N|Click the sealant, target the geyser, repeat till all plugged.|
 T Plug the Geysers|QID|55875|M|33.51,47.94|N|To Scout Tambrine.|
 A A Little Edge|QID|55993|M|26.16,42.52|N|From Kade Makreef.|O|
 C A Little Edge|QID|55993|M|39.48,12.59|N|Run back to Chitterspine Caverns and kill Chitterspines and loot their Spines.|
 T A Little Edge|QID|55993|M|25.79,41.87|N|To Kade Makreef.|
 C Ravenous Scalespawn|QID|56387|M|29.60,49.64|N|Defeat Ravenous Scalespawn in a pet batle.|
 A Mottled Hydra Scale|QID|56463|M|29.60,49.64|N|From item dropped when defeating pet battle Ravenous Scalespawn.|PRE|56387|
-C The Missing Crew|QID|56379|M|29.98,44.79|QO|1|NC|N|Find Captain Dawnsail in the Ashen Strand.|
+C The Missing Crew|QID|56379|M|28.98,44.79|QO|1|NC|N|Find Captain Dawnsail in the Ashen Strand.|
 C Bounty: Hydras|QID|55820^55829|M|30.03,40.64|N|Kill Hydras.|
 C Giant Opaline Conch|QID|56392|M|28.24,26.86|QO|1|N|Defeat the Giant Opaline Conch in a pet battle.|
 A Opaline Conch|QID|56458|M|28.24,26.86|N|From item dropped the first time you defeat the Giant Opaline Conch in a pet battle.|PRE|56392|
@@ -678,7 +688,7 @@ C Requisition: More Seaweed|QID|55786|M|37.64,82.89|NC|N|Pick up the Sticky Seaw
 C Elderspawn of Nalaada|ACTIVE|56386|M|51.26,74.92|N|Defeat the Elderspawn of Nalaada in a pet battle.|
 A Eel Jelly|QID|56462|M|51.26,74.92|N|From item dropped first time you defeat the Elderspawn of Nalaada in a pet battle.|PRE|56386|
 A Plug the Geysers|QID|55876|M|48.2,73.8|N|From Scout Newly.|O|
-C Plug the Geysers|QID|55876|M|48.2,73.8|U|168482|NC|N|Use the sealent provided and target the unstable Geysers.|
+C Plug the Geysers|QID|55876|M|48.2,73.8|U|168482|NC|N|Use the sealant provided and target the unstable Geysers.|
 T Plug the Geysers|QID|55876|M|48.2,73.8|N|To Scout Newly.|
 C The Lords of Water|QID|55982|M|36.11,72.01|QO|1|N|Choose a Water Lord.|
 C The Lords of Water|QID|55982|M|36.26,72.01|QO|2|N|Using the Water Lord's abilities, slay Naga.|
