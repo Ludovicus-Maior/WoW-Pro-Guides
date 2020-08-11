@@ -42,35 +42,37 @@ A The Barrens Oases|QID|886|M|78.57,28.57|Z|Thunder Bluff|N|From Arch Druid Hamu
 f Thunder Bluff|QID|886|M|46.89,49.77|Z|Thunder Bluff|N|Get the flight point from Tal.|TAXI|-Thunder Bluff|LEAD|870|
 F Crossroads|QID|886|M|46.89,49.77|Z|Thunder Bluff|N|Fly to The Crossroads.|LEAD|870|
 
-C Plainstrider Menace|QID|844|QO|1|N|Kill Plainstriders on the way for their beaks.|S|
-C Raptor Thieves|QID|869|QO|1|N|Kill Raptors you encounter for their heads.\nThese are all around this area.|S|
-
-C Disrupt The Attack|QID|871|QO|1;2;3|N|Head north out of The Crossroads. On your right, you should find a small camp of Razormane Quillboars.|M|54,25|
-C Plainstrider Menace|QID|844|QO|1|N|Kill Plainstriders on the way for their beaks.|US|
+C Plainstrider Menace|QID|844|L|5087 7|N|Kill Plainstriders on the way for their beaks.|S|
+C Raptor Thieves|QID|869|L|5062 12|N|Kill any Raptors you encounter for their heads. They have a 100% drop rate.\nYou'll find them all over the Barrens.\n[color=FF0000]NOTE: [/color]Kill them as you see them. You don't want to end up having to roam around looking for them later.|S|
+R Thorn Hill|ACTIVE|871|M|53.57,24.46|N|Follow the road north out of Crossroads to the the small camp on the right.|
+C Disrupt The Attack|QID|871|QO|1;2;3|N|You'll find several camps in the area to the southeast containing the Razormane Quillboars.|
+C Plainstrider Menace|QID|844|L|5087 7|N|Kill Plainstriders on the way for their beaks.|US|
 
 T Plainstrider Menace|QID|844|M|52.23,31.01|N|Get back into town, talk to Sergra Darkthorn.|
 A The Zhevra|QID|845|M|52.23,31.01|N|From Sergra Darkthorn.|PRE|844|
-C The Zhevra|QID|845|QO|1|N|Kill Zhevra and loot their hooves|S|
+C The Zhevra|QID|845|L|5086 4|N|Kill Zhevra to loot their hooves|S|
 T The Barrens Oases|QID|886|M|52.26,31.93|N|To Tonga Runetotem.|
 A The Forgotten Pools|QID|870|M|52.26,31.93|N|From Tonga Runetotem.|PRE|886|
 A Fungal Spores|QID|848|M|51.45,30.15|N|From Apothecary Helbrim.|
 
 R Unnamed Watch Post|QID|850|M|45.49,28.41|CC|N|Follow the road west out of the Crossroads.|
 A Centaur Bracers|QID|855|M|45.34,28.42|N|From Regthar Deathgate.|
-C Centaur Bracers|QID|855|QO|1|N|Kill centaurs and loot their bracers|S|
+C Centaur Bracers|QID|855|L|5030 15|N|Kill centaurs and loot their bracers|S|
 A Kolkar Leaders|QID|850|M|45.34,28.42|N|From Regthar Deathgate.|
 
-C Fungal Spores|QID|848|M|44.8,22.9|QO|1|N|Head north to the pool and pick up mushrooms. Try to avoid the big packs of centaurs.|NC|
+R The Forgotten Pools|QID|848|M|44.8,22.9|N|Head north to the pool in the center of The Forgotten Pools.|
+C Fungal Spores|QID|848|L|5012 4|N|Loot the blue mushrooms around the edge of the pool.\nTry to avoid the big packs of centaurs.|
 C The Forgotten Pools|QID|870|M|45.08,22.53|QO|1|N|Get into the lake, and look for a crack in the floor with some bubbles flowing out of it. Swim over the bubbles.|NC|
 C Kolkar Leaders|QID|850|M|42.8,23.6|QO|1|N|Head west towards a small gazebo-like building up on a hill. Just outside that building will be Barak Kodobane, with one patroller nearby. CAREFULLY pull the patroller, and kill him one on one, then Kill Barak Kodobane. It's a tough fight, try coming back after you gain a level if you can't get him at first.|
 N Kolkar's Booty|QID|850|M|43.00,23.50|U|5020|N|If you were lucky enough to get a Kolkar Booty Key to drop, use it on the chest before you leave.|
 
-K Harpy Raiders|QID|867|M|41.65,20.24|QO|1|N|Kill the Harpies until you collect 8 Witchwing Talons. Be aware that they will run before you kill them.|
+R The Dry Hills|ACTIVE|867|M|41.65,20.24|N|Head northwest from The Forgotten Pools.|
+K Harpy Raiders|QID|867|L|5064 8|N|Kill the Harpies until you collect 8 Witchwing Talons.\nBe aware that they will run before you kill them.|
 ; lv 16
 T Kolkar Leaders|QID|850|M|45.34,28.42|N|To Regthar Deathgate.|
 A Verog the Dervish|QID|851|M|45.34,28.42|N|From Regthar Deathgate|PRE|850|
 
-C The Zhevra|QID|845|QO|1|N|Finish collecting your Zhevra hooves.|US|
+C The Zhevra|QID|845|L|5086 4|N|Finish collecting your Zhevra hooves.|US|
 T The Zhevra|QID|845|M|52.23,31.01|N|To Sergra Darkthorn.|
 A Prowlers of the Barrens|QID|903|M|52.23,31.01|N|From Sergra Darkthorn.|PRE|845|
 T The Forgotten Pools|QID|870|M|52.26,31.93|N|To Tonga Runetotem.|
@@ -109,27 +111,26 @@ R The Great Sea|ACTIVE|30|N|Follow the path north out of The Sepulcher and your 
 l Strange Lockbox|QID|30|M|29.57,29.36|L|15882|N|Swim out to the coordinates. Then, swim to the bottom and loot the Half Pendant of Aquatic Endurance from the Lockbox.|NC|R|Tauren|C|Druid|
 H The Crossroads|QID|30|N|Hearth back to The Crossroads.|R|Tauren|C|Druid|
 ; ---
-C Raptor Thieves|QID|869|QO|1|N|Finish collecting the raptor heads as you make your way back to the Crossroads.|US|
-C Centaur Bracers|QID|855|QO|1|N|Get any last centaur bracers you need.|US|
-
-R Ratchet|QID|1492|M|59.80,38.89|CC|N|Take the east road out of The Crossroads to Ratchet.|
+R Ratchet|QID|1492|M|59.80,38.89|N|Take the east road out of The Crossroads to Ratchet.|
 A Southsea Freebooters|QID|887|M|62.68,36.23|N|From Gazlowe.|
 f Ratchet|QID|1492|M|63.09,37.17|N|From Bragok.|TAXI|-Ratchet|
 A Samophlange|QID|894|M|62.98,37.22|N|From Sputtervalve|
 A WANTED: Baron Longshore|QID|895|M|62.59,37.47|N|From WANTED poster on Bank wall.|
 T Wharfmaster Dizzywig|QID|1492|M|63.35,38.45|N|To Wharfmaster Dizzywig.|
 
-C The Shattered Hand|QID|1963|M|63.8,44.5|N|Tazan patrols to the south. Kill him and loot his satchel.|R|Orc,Troll|C|Rogue|
-C Southsea Freebooters|QID|887|M|63.30,42.88|QO|1;2|N|Head south along the path out of Ratchet.\nYou'll find the pirates all along The Merchant Coast. Be prepared to chase them when they run.\nThe Southsea Cannoneers are little more spaced out than the Brigands. You may have to travel a bit to find enough of them to kill.\n[color=FF0000]NOTE: [/color]If you come across Baron Longshore, you can try your luck; but, I'd suggest waiting until our next trip through here. He hits hard and has 2 adds that can be a little overwhelming at this point in time.|
-T Southsea Freebooters|QID|887|N|Head back to Gazlowe.|M|62.68,36.23|
+R The Merchant Coast|QID|887|M|62.73,40.17|N|Head south out of Ratchet using the path along the water.
+C Southsea Freebooters|QID|887|QO|1;2|N|Continue along the path until you clear the hills.\nYou'll find the pirates all along The Merchant Coast. Be prepared to chase them when they run.\nThe Southsea Cannoneers are little more spaced out than the Brigands. You may have to travel a bit to find enough of them to kill.\n[color=FF0000]NOTE: [/color]If you come across Baron Longshore, you can try your luck; but, I'd suggest waiting until our next trip through here. He hits hard and has 2 adds that can be a little overwhelming at this point in time.|
+C The Shattered Hand|QID|1963|L|7209|N|Tazan patrols in The Merchant Coast. Kill him and loot his satchel.|R|Orc,Troll|C|Rogue|
+T Southsea Freebooters|QID|887|M|62.68,36.23|N|Head back to Gazlowe.|
 A The Missing Shipment|QID|890|M|62.68,36.23|N|From Gazlowe.|PRE|887|
 T The Missing Shipment|QID|890|M|63.35,38.45|N|To Wharfmaster Dizzywig.|
-A The Missing Shipment|QID|892|PRE|890|M|63.35,38.45|N|From Wharfmaster Dizzywig.|
+A The Missing Shipment|QID|892|M|63.35,38.45|N|From Wharfmaster Dizzywig.|PRE|890|
 T The Missing Shipment|QID|892|M|62.68,36.23|N|To Gazlowe.|
-A Stolen Booty|QID|888|PRE|892|M|62.68,36.23|N|From Gazlowe.|
+A Stolen Booty|QID|888|M|62.68,36.23|N|From Gazlowe.|PRE|892|
 
-C Prowlers of the Barrens|QID|903|M|58.59,38.42|CC|QO|1|N|Follow the road west out of Ratchet. At the top of the hill, look for the Savannah Prowlers in the bushes to the north and south of the road.|
-C Raptor Thieves|QID|869|QO|1|N|Finish collecting the raptor heads as you make your way back to the Crossroads.|US|
+R Exit Ratchet|QID|903|M|58.59,38.42|CC|N|Follow the road west out of Ratchet.|
+C Prowlers of the Barrens|QID|903|L|5096 7|N|At the top of the hill, look for the Savannah Prowlers in the bushes to the north and south of the road.|
+C Raptor Thieves|QID|869|L|5062 12|N|Finish collecting the raptor heads as you make your way back to the Crossroads.|US|
 ; lv 17
 L Level 16|QID|903|N|At this point, you'll want to be within 4 bubbles of reaching level 16 to start your next set of Class quests.|LVL|15;2870|C|Rogue|
 A Lost in Battle|QID|4921|M|51.95,31.58|N|Look for Mankrik in The Crossroads. He's near the South gate.|TAXI|Camp Taurajo|
@@ -175,18 +176,18 @@ T Lost in Battle|QID|4921|M|51.96,31.57|N|To Mankrik.|
 R Control Console|QID|894|M|52.40,11.65|CC|N|Follow the road north out of The Crossroads. Look for the big piece of machinery.|
 T Samophlange|QID|894|M|52.40,11.65|N|Access the Control Console to turn in the quest. It's beside the machinery.\n[color=FF0000]NOTE: [/color]To avoid problems, clear any peons around you. Be aware that they will run.|
 A Samophlange|QID|900|M|52.40,11.65|N|You can destroy the Control Console Operating Manual.|PRE|894|
-C Samophlange|QID|900|QO|1;2;3|N|Circle around the machinery, turning the valves off. There are three in all, one at the left side, one at the right side, and one at the back.\nClear out any peons around the valve and then use it. A couple Peons will spawn when you turn the last valve.|NC|
+C Samophlange|QID|900|QO|1;2;3|N|Circle around the machinery, turning the valves off. There are three in total, one at the left side, one at the right side, and one at the back.\nClear out any peons around the valve and then use it.\nThere is a chance a couple Peons will spawn when you turn one of the valves.|NC|
 T Samophlange|QID|900|M|52.40,11.65|N|Access the Control Console once more to turn in the quest.|
 A Samophlange|QID|901|M|52.40,11.65|PRE|900|
 K Tinkerer Sniggles|QID|901|M|52.91,10.54|L|5089|N|Kill Tinkerer Sniggles inside the hut and loot the Console Key from him.|
 T Samophlange|QID|901|M|52.40,11.65|N|Go back and access the control panel once again.|
-A Samophlange|QID|902|M|52.40,11.65|N|At this point, you can destroy the Control Console Operating Manual in your inventory.|PRE|901|
-
+A Samophlange|QID|902|M|52.40,11.65|PRE|901|
+* Control Console Operating Manual|AVAILABLE|-902|U|5088|N|At this point, you can destroy the Control Console Operating Manual in your inventory.|
 C Echeyakee|QID|881|M|55.9,17.1|U|10327|QO|1|N|Go to the kodo bones to the south. Clear the area and use the horn to summon Echeyakee|
 K Razormane Geomancers & Defenders|QID|872|M|58.00,24.00|QO|1;2|N|Kill Razormane Geomancers and Defenders|S|
-C Supplies for the Crossroads|QID|5041|M|59.5,24;58.53,25.89|CN|QO|1|N|Check for the crates. If they aren't there, they are probably across the way near Kreenig Snarlsnout.|S|NC|
+C Supplies for the Crossroads|QID|5041|M|59.5,24;58.53,25.89|CN|L|12078|N|Check for the crates. If they aren't there, they are probably across the way near Kreenig Snarlsnout.|S|NC|
 K Kreenig Snarlsnout|ACTIVE|872|M|58.67,26.99|QO|3|N|Kreenig Snarlsnout patrols around. Kill him and loot his tusk.|T|Kreenig Snarlsnout|
-C Supplies for the Crossroads|QID|5041|M|58.6,27|QO|1|N|Check for the crates.|US|NC|
+C Supplies for the Crossroads|QID|5041|M|59.5,24;58.53,25.89|CN|L|12078|N|Check both locations for the crates.|US|NC|
 K Razormane Geomancers & Defenders|QID|872|QO|1;2|N|Finish up killing Razormane Geomancers and Defenders|US|
 T Samophlange|QID|902|M|61.79,31.11;62.84,30.65;62.98,37.22|CC|N|Head south again, towards Ratchet. There are fewer mobs if you drop down below the cliff.|
 A Wenikee Boltbucket|QID|3921|M|62.98,37.22|N|From Sputtervalve.|PRE|902|
@@ -205,9 +206,9 @@ N Lockpicking|QID|2381|M|65.00,45.41|N|You require a minimum of 75 skill in lock
 R Jewel of the Southsea|QID|2381|M|64.46,45.45;64.95,45.44|CS|N|Head all the way to the bottom of the boat and locate the locked crate containing the Jewel of the Southsea. When you pick the lock and open it, Polly will appear.|R|Orc,Troll,Undead|C|Rogue|
 K Polly|QID|2381|M|64.20,45.49;64.85,45.37|CC|QO|1|U|7970|T|Polly|N|Target Polly and use the E.C.A.C. When Polly becomes attackable, kill it and loot the Jewel of the Southsea.\n[color=FF0000]NOTE: [/color]The E.C.A.C. is a one-time use item. If you die, you'll have to get a new one from Wrenix's Gizmotronic Apparatus.|R|Orc,Troll,Undead|C|Rogue|
 ; ---
-C Boots|QID|888|M|62.63,49.64|QO|1|N|The boots is in a box close to the hills. Kill Baron Longshore, if you see him.|NC|
-C Lens|QID|888|M|63.58,49.25|QO|2|N|The lens is in a box close to the water. Kill Baron Longshore, if you see him.|NC|
-K WANTED: Baron Longshore|QID|895|M|63.40,49.20|QO|1|N|If you haven't found Baron Longshore yet, keep checking the pirate camps. Kill him and loot his head.|T|Baron Longshore|US|
+C Stolen Booty|QID|888|M|62.63,49.64|L|5076|N|The Shipment of Boots is in a box close to the hills.\nKill Baron Longshore, if you see him.|
+C Stolen Booty|QID|888|M|63.58,49.25|L|5077|N|The Telescopic Lens is in a box close to the water.\nKill Baron Longshore, if you see him.|
+K WANTED: Baron Longshore|QID|895|M|63.40,49.20|CC|QO|1|N|If you haven't found Baron Longshore yet, keep checking the pirate camps. Kill him and loot his head.|T|Baron Longshore|US|
 
 T WANTED: Baron Longshore|QID|895|M|62.68,36.23|N|To Gazlowe back in Ratchet.|
 T Stolen Booty|QID|888|M|62.68,36.23|N|To Gazlowe.|
@@ -216,10 +217,10 @@ A Miner's Fortune|QID|896|M|63.35,38.42|N|From Wharfmaster Dizzywig.|
 T Plundering the Plunderers|QID|2381|M|63.07,36.32|N|To Wrenix the Wretched.|R|Orc,Troll,Undead|C|Rogue|
 
 C The Stagnant Oasis|QID|877|M|55.60,42.72|QO|1|N|Now head southwest towards the Stagnant Oasis. When you get to the water, start looking for another Bubbling Fissure. Click on it to plant the seeds.|NC|
-K Verog the Dervish|QID|851|M|53.1,41.7|QO|1|N|Find the gazeebo on the side of the hill. Kill centaurs in the area until one says "I am slain! Summon Verog!" When you see this shout, head back to the gazeebo. Verog should be standing there. Kill him and loot his head.|
+K Verog the Dervish|QID|851|M|53.1,41.7|QO|1|N|Find the gazebo on the side of the hill. Kill centaurs in the area until one says "I am slain! Summon Verog!" When you see this shout, head back to the gazebo. Verog should be standing there. Kill him and loot his head.|
 ; lv 18
-C Centaur Bracers|QID|855|QO|1|N|Get any last centaur bracers you need.|US|
-N Kolkar's Booty|QID|851|M|52.73,41.83|U|5020|N|If you were lucky enough to get a Kolkar Booty Key to drop, use it on the chest before you leave.|
+N Kolkar's Booty|QID|851|M|52.73,41.83|U|5020|N|If you were lucky enough to get a Kolkar Booty Key to drop, use it on the chest before you leave.|O|
+C Centaur Bracers|QID|855|L|5030 15|N|Get any last centaur bracers you need.\n[color=FF0000]NOTE: [/color]As you need to be in the area to turn in the quest, you may want to finish this up at Lushwater Oasis. The walk isn't as noticeable if you are doing something.|US|
 
 T Centaur Bracers|QID|855|M|45.4,28.39|N|Make your way west to Regthar Deathgate's Bunker.|
 T Verog the Dervish|QID|851|M|45.34,28.42|N|To Regthar Deathgate.|
@@ -242,23 +243,26 @@ F Camp Taurajo|QID|852|M|46.89,49.77|Z|Thunder Bluff|N|Fly back to Camp Taurajo.
 
 h Camp Taurajo|QID|852|M|45.6,59.0|N|Set your Hearthstone to Camp Taurajo.|
 R Raptor Grounds|ACTIVE|3281|M|50.80,50.42;57,52|CC|N|Head to the Raptor Grounds. You'll want to avoid the Bristleback Quilboar camps for now.\nYour best route is to take the road north to about the bridge and then follow the dry river bed east.|
-C Raptor Horns|QID|865|QO|1|N|Loot these from killing Scytheclaws.|S|
+C Raptor Horns|QID|865|L|5055 5|N|Loot these from killing Scytheclaws.|S|
 C Stolen Silver|QID|3281|M|58.05,53.85|QO|1|N|Clear your way through the grounds, picking off raptors one by one. The stolen silver is in a chest at the back of the grounds, guarded by three raptors. One of these can be pulled solo.|NC|
-C Raptor Horns|QID|865|QO|1|N|Stay at the Raptor Grounds until you finish this quest|US|
-l Sunscale Feathers|AVAILABLE|905|M|58,53|L|5165 3|N|Continue killng until you also have 3 Sunscale Feathers for the next quest, The Angry Scytheclaws.|
-C The Angry Scytheclaws|QID|905|M|52.45,46.57;52.03,46.48;52.60,46.10|CC|QO|1;2;3|N|Go to the raptor nests. Clear the area, then right-click each of the nests.|NC|
-
-C Altered Beings|QID|880|M|48.24,40.48|QO|1|N|Go to the Lushwater Oasis. Kill Oasis Snapjaws and loot their shells.|
+C Raptor Horns|QID|865|L|5055 5|N|Stay at the Raptor Grounds until you finish this quest|US|
+l Sunscale Feathers|AVAILABLE|905|L|5165 3|N|Continue killing Raptors until you also have 3 Sunscale Feathers for the next quest, The Angry Scytheclaws.|
+C The Angry Scytheclaws|QID|905|M|52.45,46.57;52.03,46.48;52.60,46.10|CC|QO|1;2;3|N|Go to the raptor nests. Clear the area, then right-click each of the nests. They do not have to be done in any particular order.|NC|
+* Sunscale Feathers|QID|905|U|5165|N|Once you have visited all 3 nests, discard any leftover Sunscale Feathers you may have. They are quest items can neither be traded, mailed nor sold and are now useless.
+R Lushwater Oasis|QID|880|M|48.24,40.48|N|Go to the Lushwater Oasis.|
+C Altered Beings|QID|880|L|5098 8|N|Kill Oasis Snapjaws and loot their shells.|
 C Hezrul Bloodmark|QID|852|M|46.15,36.84|QO|1|N|Hezrul Bloodmark and his guards spawn outside the Wailing Caverns and patrol clockwise around the Oasis.\nOnce you've located him, take a look at his guards and decide which of the two guards is the WEAKEST. If you are able, polymorph, sap, root, or use any other crowd control you have on Hezrul. Kill the weakest guard and then run away until they stop chasing you. Go back to where you first fought them. Replenish and then rinse and repeat with the second guard. This will leave Hezrul all alone. Replenish and attack him directly.\n[color=FF0000]NOTE: [/color]Raid target Hezrul to make it easier to find him again after you escape.|
+N Kolkar's Booty|QID|852|M|44.33,37.66|ITEM|5020|N|If you were lucky enough to get a Kolkar Booty Key to drop, use it on the chest before you leave.|O|
 T Hezrul Bloodmark|QID|852|M|45.34,28.42|N|To Regthar at his Bunker.|
-C Harpy Lieutenants|QID|875|M|40.48,15.84|QO|1|N|Make your way into The Dry Hills. Kill Witchwing Slayers to collect the rings.|
-R The Crossroads|QID|865|M|50.61,29.01|N|Run to the Crossroads.|
-F Ratchet|QID|865|M|51.54,30.35|N|Fly to Ratchet.|
+R The Dry Hills|QID|875|M|40.48,15.84|N|Make your way into The Dry Hills.|
+C Harpy Lieutenants|QID|875|L|5065 6|N|Kill Witchwing Slayers to collect the rings. You'll find them deeper in the area.|
+H Camp Taurajo|QID|865|N|Hearth back to Camp Taurajo to make this quicker.|
+F Ratchet|QID|865|M|44.46,59.14|N|Fly to Ratchet.|
 
 T Raptor Horns|QID|865|M|62.37,37.62|N|To Mebox Mizzyrix.|
-A Smart Drinks|QID|1491|M|62.37,37.62|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Mebox Mizzyrix.|PRE|865|
+A Smart Drinks|QID|1491|M|62.37,37.62|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Mebox Mizzyrix.|PRE|865|O|
 A Deepmoss Spider Eggs|QID|1069|M|62.37,37.62|N|From Mebox Mizzyrix.|
-A Trouble at the Docks|QID|959|M|63.09,37.60|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Crane Operator Bigglefuzz.|
+A Trouble at the Docks|QID|959|M|63.09,37.60|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Crane Operator Bigglefuzz.|O|
 A The Guns of Northwatch|QID|891|M|62.29,39.03|N|From Captain Thalo'thas Brightsun.|
 F Crossroads|QID|880|M|63.11,37.10|N|Fly back to The Crossroads.|
 
@@ -269,8 +273,12 @@ T The Angry Scytheclaws|QID|905|M|52.22,31.02|N|To Sergra Darkthorn.\n[color=FF0
 A Jorn Skyseer|QID|3261|M|52.21,31.02|N|From Sergra Darkthorn.|PRE|905|
 T Stolen Silver|QID|3281|M|51.95,30.36|N|To Gazrog.|
 A Report to Kadrak|QID|6541|M|51.52,30.87|N|From Thork.|LEAD|6543|
-
-T Wenikee Boltbucket|QID|3921|M|49.05,11.18|N|Follow the road north to find Wenikee Boltbucket.|
+T Harpy Lieutenants|QID|875|M|51.62,30.90|N|To Darsok Swiftdagger.|
+A Serena Bloodfeather|QID|876|M|51.62,30.90|N|From Darsok Swiftdagger.|PRE|875|
+R The Dry Hills|QID|876|M|42.67,12.56|N|Make your way back to The Dry Hills. This is a shortcut into the back of Dry Hill.|
+K Serena Bloodfeather|QID|876|M|42.28,11.88;40.63,10.29;39.40,11.44|CC|QO|1|N|Continue up the hillside. You may have to do some wiggling to clear the crest at the top. Once at the top, simply walk across the plateau and down the other side of the hill.\nAfter clearing out the mobs around her, kill Serena and loot her head.|
+R Mor'shan Base Camp|QID|3921|M|39.82,12.38;45.91,9.30|CC|N|Go back over the hill the way you came in. This will take a little 'fancy footwork' as there are a couple spots that you have to wiggle to get past. Once you have reached the plateau, follow the flat ridge east until you reach Mor'shan.|
+T Wenikee Boltbucket|QID|3921|M|49.05,11.18|N|Climb down the hill and cross the road to find Wenikee Boltbucket.|
 A Nugget Slugs|QID|3922|M|49.05,11.18|N|From Wenikee Boltbucket.|PRE|3921|
 
 R The Sludge Fen|ACTIVE|3922|M|49.22,12.41;50.65,9.92;53.13,6.45;55.55,7.44|CC|N|You can either hug the mountain and follow it east, or go over the mountain and save some time. I vote we go over.|
@@ -315,10 +323,6 @@ t Vorsha the Lasher|QID|6641|M|12.22,34.21|Z|Ashenvale|N|To Warsong Runner.|
 T Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|To Marukai.|
 F Crossroads|QID|875|M|12.19,33.82|Z|Ashenvale|N|Time to head back to The Barrens.|
 
-T Harpy Lieutenants|QID|875|M|51.62,30.90|N|To Darsok Swiftdagger.|
-A Serena Bloodfeather|QID|876|M|51.62,30.90|N|From Darsok Swiftdagger.|PRE|875|
-C Serena Bloodfeather|QID|876|M|38.69,12.08|QO|1|N|You'll find her at the very back of The Dry Hills. After clearing out the mobs around her, kill Serena and loot her head.|
-
 ; --- Druid Aquatic class quest completion
 P Moonglade|ACTIVE|30|N|Use your Teleport: Moonglade.|R|Tauren|C|Druid|
 R Shrine of Remulos|ACTIVE|30|M|36.26,41.02|Z|Moonglade|N|Run to Shrine of Remulos.|R|Tauren|C|Druid|
@@ -351,7 +355,7 @@ C Grimtotem Brutes|QID|6629|QO|2|N|Kill them as you go.|S|
 ; lv 20
 K Kill Grundig Darkcloud|QID|6629|M|71.44,89.45;73.70,86.33|Z|Stonetalon Mountains|CC|T|Grundig Darkcloud|QO|1|N|Follow the road into Grimtotem Post. You'll find him standing in the doorway of the tent.\nIf he's not there, clear the area while waiting for him to respawn.|
 A Protect Kaya|QID|6523|M|73.5,85.63|Z|Stonetalon Mountains|N|From Kaya Flathoof inside the tent.|
-C Protect Kaya|QID|6523|QO|1|N|This is an escort mission. She will walk West out of the grimtotem settlement, then start following the road Southast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 Grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
+C Protect Kaya|QID|6523|QO|1|N|This is an escort mission. She will walk west out of the Grimtotem settlement and then start following the road southeast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 Grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
 ;A Protect Kaya|QID|6523|M|73.5,85.63|Z|Stonetalon Mountains|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Kaya Flathoof inside the tent to restart the quest.\nYou may have to wait for her to respawn|FAIL|
 C Grimtotem Brutes|QID|6629|QO|2|N|Finish killing them before you leave the area.|US|
 T Kill Grundig Darkcloud|QID|6629|M|35.2,27.8|N|To Makaba Flathoof at the border.|
@@ -468,7 +472,7 @@ R Camp Taurajo|QID|1512|M|47.31,57.64|N|Run back to Camp Taurajo. It's closer th
 F Orgrimmar|QID|1512|M|44.46,59.14|N|Fly to Orgrimmar.|R|Orc,Undead|C|Warlock|
 T Love's Gift|QID|1512|M|48.24,45.28|Z|Orgrimmar|N|To Gan'rul Bloodeye in Cleft of Shadows.|R|Orc,Undead|C|Warlock|
 A The Binding|QID|1513|M|48.24,45.28|Z|Orgrimmar|N|From Gan'rul Bloodeye.|PRE|1512|R|Orc,Undead|C|Warlock|
-C The Binding|QID|1513|M|49.47,50.02|Z|Orgrimmar|QO|1|U|6626|N|Go to the Summoning Circle in Neeru's tent. While standing in the Sunmmoning Circle, use Dogran's Pendant to summon a Succubus and then kill it.|R|Orc,Undead|C|Warlock|
+C The Binding|QID|1513|M|49.47,50.02|Z|Orgrimmar|QO|1|U|6626|N|Go to the Summoning Circle in Neeru's tent. While standing in the Summoning Circle, use Dogran's Pendant to summon a Succubus and then kill it.|R|Orc,Undead|C|Warlock|
 T The Binding|QID|1513|M|48.24,45.28|Z|Orgrimmar|N|To Gan'rul Bloodeye.|R|Orc,Undead|C|Warlock|
 ; ---
 
@@ -505,7 +509,7 @@ A Spirit of the Wind|QID|889|ACTIVE|891|M|44.56,59.24|N|From Mangletooth for a s
 R Northwatch Hold|QID|891|M|50.80,50.42;56.95,50.77|CS|N|Take the road east out of the camp. Go north at the intersection and follow the road to the bridge. Turn east and follow the dry river bed to Northwatch Hold.\n[color=FF0000]NOTE: [/color]Stay on the road for as long as you can. Be careful to avoid the Bristlebacks on your way, the Thornweavers will root you, making it impossible to run from them.|
 C Theramore Medals|QID|891|QO|4|N|Kill Theramore Marines to loot Theramore Medals.|S|
 R Northwatch Hold Entrance|QID|891|M|62.24,53.34|CS|N|Continue down the hill to the entrance to Northwatch Hold.\n[color=FF0000]NOTE: [/color]Kill the 2 guards outside before going in. There are 3 more just inside the entrance.|
-K Cannoneer Smythe|QID|891|T|Cannoneer Smythe|QO|3|M|63.1,56.7|N|Follow the path up the hill from the entrance; staying close to the hillside to reduce the number of fights along the way.\nSkip the first tower for now and head for the 2nd tower. Clear the mobs around the tower to avoid adds for the next fight.\nInside are 3 mobs, one of which is a cloth-wearing healer. This is a tricky fight, but possible. If you have to, use the same tactic we used for Hezrul Bloodmark. Once all 3 of them are dead, climb the tower and kill Canoneer Smythe and his guard.|
+K Cannoneer Smythe|QID|891|T|Cannoneer Smythe|QO|3|M|63.1,56.7|N|Follow the path up the hill from the entrance; staying close to the hillside to reduce the number of fights along the way.\nSkip the first tower for now and head for the 2nd tower. Clear the mobs around the tower to avoid adds for the next fight.\nInside are 3 mobs, one of which is a cloth-wearing healer. This is a tricky fight, but possible. If you have to, use the same tactic we used for Hezrul Bloodmark. Once all 3 of them are dead, climb the tower and kill Cannoneer Smythe and his guard.|
 K Cannoneer Whessan|QID|891|T|Cannoneer Whessan|QO|2|M|60.5,54.8|N|Head back down and follow the path to the 3rd tower. Use the same process of clearing the entrance and main floor of the tower as you did earlier. Once they are dead, climb the tower and kill Cannoneer Whessan.|
 C Theramore Medals|QID|891|QO|4|N|Finish looting the Theramore Medals.|US|
 K Captain Fairmount|QID|891|M|61.8,54.7|QO|1|T|Captain Fairmount|N|Now head back down the hill to the tower we skipped.\nAs with the others, clear the mobs around the outside first. There are 4 mobs in this room, but they will pull 2 at a time. Do not take the Blood Elf's quest yet. Once the guards are dead, continue fighting your way to the top of the tower, moving slowly and carefully. At the top of the tower, you will find 3-4 Theramore Marines, a Theramore Perserver and Captain Fairmount. The Marines should pull singly. So, clear the area until Fairmount and the perserver are left. Kill them and head back down.|
@@ -518,9 +522,9 @@ T The Escape|QID|863|M|63,37.2|N|To Sputtervalve.|
 A Ziz Fizziks |QID|1483|M|63,37.2|N|From Sputtervalve.|
 T Miner's Fortune|QID|896|M|63.2,38.4|N|To Wharfmaster Dizzywig.|
 
-l Fresh Zhevra Carcas|QID|882|L|10338 1|M|60.97,35.77|N|Head north out of Ratchet. Kill the first Zhevra you see.|
+l Fresh Zhevra Carcass|QID|882|L|10338 1|M|60.97,35.77|N|Head north out of Ratchet. Kill the first Zhevra you see.|
 R The dead tree|QID|882|M|60.01,30.36|CS|N|Head for the dead tree.|
-C Ishamuhale|QID|882|U|10338|QO|1|N|When you get to the tree, Right-Click the Carcas in your inventory. This should summon Ishamuhale. Kill it.|
+C Ishamuhale|QID|882|U|10338|QO|1|N|When you get to the tree, place the carcass on the ground. This should summon Ishamuhale. Kill it.|
 R The Crossroads|QID|899|M|52.63,30.98|N|Run back to the Crossroads. If you maneuver well enough, you can just go over the mountain instead of around it.|
 
 T Consumed by Hatred|QID|899|M|52,31.6|N|To the infamous Mankrik.|
