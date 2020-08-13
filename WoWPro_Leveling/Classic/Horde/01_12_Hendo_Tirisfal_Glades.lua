@@ -3,7 +3,7 @@
 
 local guide = WoWPro:RegisterGuide('Classic-01-12-Hendo-Tirisfal-Glades', "Leveling", 'Tirisfal Glades', 'Hendo72', 'Horde', 1)
 WoWPro:GuideName(guide, 'Tirisfal Glades')
-WoWPro:GuideLevels(guide, 1, 12, 2)
+WoWPro:GuideLevels(guide, 1, 10, 2)
 WoWPro:GuideNextGuide(guide, 'Classic-12-15-Hendo-Silverpine-Forest')
 WoWPro:GuideSteps(guide, function() return [[
 
@@ -297,12 +297,12 @@ R Scarlet Watch Post|ACTIVE|372|M|77.64,29.85|N|Go north-east to the Scarlet Cru
 K At War With The Scarlet Crusade|QID|372|M|79.50,25.91|QO|1;2|U|3434|N|As you approach the tower, it's best to pull the mobs singly. If you wait, one of the pairs will start to path and you can then pull them without the other. Make sure you clear ALL around the tower before proceeding further.\n[color=FF0000]NOTE: [/color]Captain Melrache has the two bodyguards next to him. If you have any Slumber Sand left, use it to crowd control one of them. Be careful here as the mobs respawn rather quickly.|
 H Gallows' End Tavern|QID|372|N|Hearthstone back to Brill.|
 T At War With The Scarlet Crusade|QID|372|M|60.57,51.77|N|To Executor Zygand.|
-
-C The Family Crypt|QID|408|M|52.25,27.18|QO|1;2;3|N|Go to the north-eastern part of Agamand Mills and enter the crypt. Don't go out of your way killing the ancestors and wailing. There are plenty in the crypt. You will find Captain Dargol on the bottom floor.\nNOTE: He's a level 13 melee badass surrounded by a couple of mobs. If you're careful, you should be able to kill all adds in the room without pulling him. Kill him and loot Dargol's Skull.|
-C Agamand Heirlooms|QID|1821|C|Warrior|N|You can find weapon racks everywhere in the crypt.|
-K Undead|AVAILABLE|361|L|2839|N|Kill undead mobs until you loot "A Letter to Yvette"|
+R Agamand Mills|ACTIVE|408|M|46.75,44.38|N|Head west out of Brill. You can either take the road (to avoid fighting) or cut through Stillwater Pond.|
+C The Family Crypt|QID|408|M|52.25,27.18|QO|1;2;3|N|Head to the north-eastern part of Agamand Mills and enter the crypt. Don't go out of your way killing the ancestors and wailing. There are plenty in the crypt. You will find Captain Dargol on the bottom floor.\nNOTE: He's a level 13 melee badass surrounded by a couple of mobs. If you're careful, you should be able to kill all adds in the room without pulling him. Kill him and loot Dargol's Skull.|
+C Agamand Heirlooms|QID|1821|N|You can find weapon racks everywhere in the crypt.|C|Warrior|
+K Undead|AVAILABLE|361|L|2839|N|Before leaving Agamand Mills, kill Darkeyed Bonecasters, Rattlecaged Soldiers and Cracked Skull Soldiers until you loot "A Letter to Yvette".|
 A A Letter Undelivered|QID|361|U|2839|N|Click on the letter to accept the quest.|
-N Corpse Hearth|QID|408|N|Hearth back to Brill. If your Hearthstone is on cooldown, die and rez at Brill's graveyard. Either way, right-click this step when you are done.|
+H Gallows' End Tavern|QID|408|N|Hearth back to Brill.\n[color=FF0000]NOTE: [/color]If your Hearthstone is on cooldown, die and rez at Brill's graveyard.\nYou can do the run back if you don't want the repair bill.|
 
 T A Letter Undelivered|QID|361|M|61.57,52.60|N|To Yvette Farthing in the Tavern.|
 T Agamand Heirlooms|QID|1821|M|61.71,52.31|N|To Coleman Farthing in the Tavern.|C|Warrior|
@@ -313,8 +313,8 @@ T The Family Crypt|QID|408|M|61.26,50.84|N|To Magistrate Sevren in the town hall
 A Delivery to Silverpine Forest|QID|445|M|59.44,52.39|N|From Apothecary Johaan. We won't complete that quest in this guide though.|
 
 R Undercity|ACTIVE|411|M|61.86,65.04|N|Head to Undercity.|
-T The Prodigal Lich Returns|QID|411|M|69.86,44.16;73.44,44.19;68.11,40.67;84.26,42.55;84.05,17.37|Z|Undercity|CS|N|To Bethor Iceshard in the Magic Quarter, Undercity|
-R Leave Undercity|QID|445|M|65.99,36.85;66.22,0.90|CC|Z|Undercity|N|Take the elevator up and leave Undercity through the front gates.|
+T The Prodigal Lich Returns|QID|411|M|69.86,44.16;73.44,44.19;68.11,40.67;84.26,42.55;84.05,17.37|Z|Undercity|CS|N|To Bethor Iceshard in the Magic Quarter, Undercity.|
+R Leave Undercity|QID|445|M|65.99,36.85;66.22,0.90|CC|Z|Undercity|N|After doing any training or housekeeping, take the elevator up and leave Undercity through the front gates.|
 
 ]]
 end)
