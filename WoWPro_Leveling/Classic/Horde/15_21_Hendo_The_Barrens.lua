@@ -64,7 +64,7 @@ R The Forgotten Pools|QID|848|M|44.8,22.9|N|Head north to the pool in the center
 C Fungal Spores|QID|848|L|5012 4|N|Loot the blue mushrooms around the edge of the pool.\nTry to avoid the big packs of centaurs.|
 C The Forgotten Pools|QID|870|M|45.08,22.53|QO|1|N|Get into the lake, and look for a crack in the floor with some bubbles flowing out of it. Swim over the bubbles.|NC|
 C Kolkar Leaders|QID|850|M|42.8,23.6|QO|1|N|Head west towards a small gazebo-like building up on a hill. Just outside that building will be Barak Kodobane, with one patroller nearby. CAREFULLY pull the patroller, and kill him one on one, then Kill Barak Kodobane. It's a tough fight, try coming back after you gain a level if you can't get him at first.|
-N Kolkar's Booty|QID|850|M|43.00,23.50|U|5020|N|If you were lucky enough to get a Kolkar Booty Key to drop, use it on the chest before you leave.|
+U Kolkar's Booty|M|43.00,23.50;44.33,37.66;52.73,41.83|CN|U|5020|N|Lucky you. You got a Kolkar Booty Key to drop. Use it on the Kolkar Booty Chest before you leave the area.\n[color=FF0000]NOTE: [/color]Make sure you empty the chest. If you don't and reopen the same chest, it will contain your leftovers.|
 
 R The Dry Hills|ACTIVE|867|M|41.65,20.24|N|Head northwest from The Forgotten Pools.|
 K Harpy Raiders|QID|867|L|5064 8|N|Kill the Harpies until you collect 8 Witchwing Talons.\nBe aware that they will run before you kill them.|
@@ -219,7 +219,6 @@ T Plundering the Plunderers|QID|2381|M|63.07,36.32|N|To Wrenix the Wretched.|R|O
 C The Stagnant Oasis|QID|877|M|55.60,42.72|QO|1|N|Now head southwest towards the Stagnant Oasis. When you get to the water, start looking for another Bubbling Fissure. Click on it to plant the seeds.|NC|
 K Verog the Dervish|QID|851|M|53.1,41.7|QO|1|N|Find the gazebo on the side of the hill. Kill centaurs in the area until one says "I am slain! Summon Verog!" When you see this shout, head back to the gazebo. Verog should be standing there. Kill him and loot his head.|
 ; lv 18
-N Kolkar's Booty|QID|851|M|52.73,41.83|U|5020|N|If you were lucky enough to get a Kolkar Booty Key to drop, use it on the chest before you leave.|O|
 C Centaur Bracers|QID|855|L|5030 15|N|Get any last centaur bracers you need.\n[color=FF0000]NOTE: [/color]As you need to be in the area to turn in the quest, you may want to finish this up at Lushwater Oasis. The walk isn't as noticeable if you are doing something.|US|
 
 T Centaur Bracers|QID|855|M|45.4,28.39|N|Make your way west to Regthar Deathgate's Bunker.|
@@ -252,7 +251,6 @@ C The Angry Scytheclaws|QID|905|M|52.45,46.57;52.03,46.48;52.60,46.10|CC|QO|1;2;
 R Lushwater Oasis|QID|880|M|48.24,40.48|N|Go to the Lushwater Oasis.|
 C Altered Beings|QID|880|L|5098 8|N|Kill Oasis Snapjaws and loot their shells.|
 C Hezrul Bloodmark|QID|852|M|46.15,36.84|QO|1|N|Hezrul Bloodmark and his guards spawn outside the Wailing Caverns and patrol clockwise around the Oasis.\nOnce you've located him, take a look at his guards and decide which of the two guards is the WEAKEST. If you are able, polymorph, sap, root, or use any other crowd control you have on Hezrul. Kill the weakest guard and then run away until they stop chasing you. Go back to where you first fought them. Replenish and then rinse and repeat with the second guard. This will leave Hezrul all alone. Replenish and attack him directly.\n[color=FF0000]NOTE: [/color]Raid target Hezrul to make it easier to find him again after you escape.|
-N Kolkar's Booty|QID|852|M|44.33,37.66|ITEM|5020|N|If you were lucky enough to get a Kolkar Booty Key to drop, use it on the chest before you leave.|O|
 T Hezrul Bloodmark|QID|852|M|45.34,28.42|N|To Regthar at his Bunker.|
 R The Dry Hills|QID|875|M|40.48,15.84|N|Make your way into The Dry Hills.|
 C Harpy Lieutenants|QID|875|L|5065 6|N|Kill Witchwing Slayers to collect the rings. You'll find them deeper in the area.|
@@ -282,38 +280,38 @@ T Wenikee Boltbucket|QID|3921|M|49.05,11.18|N|Climb down the hill and cross the 
 A Nugget Slugs|QID|3922|M|49.05,11.18|N|From Wenikee Boltbucket.|PRE|3921|
 
 R The Sludge Fen|ACTIVE|3922|M|49.22,12.41;50.65,9.92;53.13,6.45;55.55,7.44|CC|N|You can either hug the mountain and follow it east, or go over the mountain and save some time. I vote we go over.|
-C Nugget Slugs|QID|3922|M|56,7|QO|1|N|Loot Nugget Slugs from tool buckets.|NC|S|
+C Nugget Slugs|QID|3922|L|11143 15|N|Loot Nugget Slugs from tool buckets.|S|
 A Ignition|QID|858|M|56.51,7.45|N|From Wizzlecrank's Shredder.\n[color=FF0000]NOTE: [/color]If it's not available, someone is already on it and you have to wait.|
 K Supervisor Lugwizzle|QID|858|M|56.3,8.2|L|5050|N|You'll find Supervisor Lugwizzle up in the tower. Kill him and loot the Ignition Key.|
 ; --- Druid Aquatic class quest
 l Strange Lockbox|QID|30|M|56.69,8.30|L|15883|N|Before you leave, you can do the next step in your Aquatic class quest.\nSwim to the bottom and loot the Half Pendant of Aquatic Agility from the Lockbox.|NC|R|Tauren|C|Druid|
 ; ---
-T Ignition|QID|858|M|56.51,7.45|N|To Wizzlecrank's Shredder.|
+T Ignition|QID|858|M|56.51,7.45|N|To Wizzlecrank's Shredder. As when you accepted this quest, if he's not here, you'll have to wait.|
 A The Escape|QID|863|M|56.51,7.45|N|From Wizzlecrank's Shredder.|PRE|858|
 C The Escape|QID|863|M|55.34,7.89|QO|1|N|When we first start, make long pulls and killing the Drudgers and Mercenaries to the west of you. Continue to make long pulls while he heads west. Stay close to him, so that he will help you fight your attackers. Try not to let things run away. After a short while, the shredder will turn north up a ramp, and stop. Two Venture Co. mobs will spawn and attack you.|
-C Nugget Slugs|QID|3922|QO|1|N|Now, patrol the area looting any more Nugget Slugs you need.|US|
+C Nugget Slugs|QID|3922|L|11143 15|N|Now, patrol the area looting any more Nugget Slugs you need.|US|
 T Nugget Slugs|QID|3922|M|54.66,6.85;53.13,6.45;50.65,9.92;49.05,11.18|CC|N|To Wenikee Boltbucket. Once again, you can either, run around the mountain, or go over. We'll be going over.\nWhen you get to the first point, you may have to 'zigzag' in order to continue up.\n[color=FF0000]NOTE: [/color]Discard any leftover Nugget Slugs.|
 A Rilli Greasygob|QID|3923|M|49.05,11.18|N|From Wenikee Boltbucket.|PRE|3922|
-
+* Nugget Slugs|AVAILABLE|-3922|U|11143|N|Discard any leftover Nugget Slugs you may have.|
 N Ashenvale FPs|ACTIVE|6541|N|A little side trip to grab the Flight paths in Ashenvale while we are here.|
 R The Mor'shan Rampart|ACTIVE|6541|M|48.02,5.58|CC|N|Follow the road north to the Mor'shan Rampart.|
 T Report to Kadrak|QID|6541|M|48.12,5.42|N|To Kadrak on the first floor of the guard tower on your right.|
 A The Warsong Reports|QID|6543|M|48.12,5.42|N|From Kadrak.|
 R Ashenvale|QID|6548|M|68.63,86.82|Z|Ashenvale|N|Follow the road north until you reach Ashenvale (Nightsong Woods).|
 R Splintertree Post|QID|6548|M|68.60,84.23;67.24,71.58;70.15,70.09;71.1,67.5|Z|Ashenvale|CC|N|Our first stop will be on the middle floor of a guard tower, just outside Splintertree Post.\n[color=FF0000]NOTE: [/color]Be VERY aware of the much higher level mobs if you choose to venture off the road.|
-C Warsong Reports|QID|6543|U|16783|L|16746|N|Open your Bundle of Reports.|NC|
+U Warsong Reports|U|16783|L|16746|N|Open your Bundle of Reports.|
 ; Quest is [The Warsong Reports], presuming this is to avoid automatic turn-in.
-C Warsong Scout Update|QID|6543|M|71.04,68.22|Z|Ashenvale|QO|1|N|Give one of the Reports to the Warsong Scout with a Blue question mark over her head. She sometimes spawns at the base of the tower.\n[color=FF0000]NOTE: [/color]Be careful not to give more than one, or you won't have enough to finish the quest.|NC|
+C Warsong Scout Update|QID|6543|M|71.04,68.22|Z|Ashenvale|QO|1|N|Give one of the Reports to the Warsong Scout with a Blue question mark over her head. She sometimes spawns at the base of the tower.\n[color=FF0000]NOTE: [/color]Be careful not to give more than one, or you won't have enough to finish the quest.|CHAT|
 f Splintertree Post|QID|6548|M|73.25,61.67|Z|Ashenvale|N|Head into Splintertree Post and get the flight path.|TAXI|-Splinter Tree|
-C Warsong Outrider Update|QID|6543|M|73.50,63.76;75.41,64.25;76.68,58.48;78.80,55.48;94,47|Z|Ashenvale|CC|QO|3|N|Locate the Warsong Outrider and get the Warsong Outrider Update. S/he patrols on a wolf mount along the road northeast of Splintertree.|NC|
-R Zoram'gar Outpost|QID|6548|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.20,47.28;26.43,42.33;16.51,30.27;12.73,33.29|Z|Ashenvale|CC|N|Follow the road all the way west to Zoram'gar Outpost.  Watch out for the higher level mobs along the way.\nWhen you get to Astranaar, you can either follow the shoreline to the south, or swim. Swimming means less fighting.|
-C Warsong Runner Update|QID|6543|M|12.22,34.21|Z|Ashenvale|QO|2|N|Hand out the last report to the Warsong Runner.|NC|
+C Warsong Outrider Update|QID|6543|M|73.50,63.76;75.41,64.25;76.68,58.48;78.80,55.48;94,47|Z|Ashenvale|CC|QO|3|N|Locate the Warsong Outrider and get the Warsong Outrider Update. S/he patrols on a wolf mount along the road northeast of Splintertree.|CHAT|
+R Zoram'gar Outpost|QID|6548|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;32.53,49.76;30.20,47.28;26.43,42.33;16.51,30.27;12.73,33.29|Z|Ashenvale|CC|N|Follow the road all the way west to Zoram'gar Outpost.  Watch out for the higher level mobs along the way.\nWhen you get to Astranaar, you can either follow the shoreline to the south, or swim. Swimming means less fighting.\n[color=FF0000]NOTE: [/color]Keep your distance from Astranaar or you will more than likely die.|
+C Warsong Runner Update|QID|6543|M|12.22,34.21|Z|Ashenvale|QO|2|N|Hand out the last report to the Warsong Runner.|CHAT|
 f Zoram'gar Outpost|QID|6548|M|12.19,33.82|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
 A Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|From Marukai.|
 C Naga at the Zoram Strand|QID|6442|QO|1|N|Kill Nagas to collect Wrathtail Heads.\nI recommend using Muglash to kill as many Nagas as you can. Avoid the Priestesses; they fully heal from almost dead.|S|
 N Level 20|QID|6641|ACTIVE|6442|N|If you are level 20, you can do the Vorsha the Lasher quest for a Stamina/Spirit Ring reward and 2300 xp.|
-A Vorsha the Lasher|QID|6641|ACTIVE|6442|M|12.06,34.64|Z|Ashenvale|N|[color=FF0000]NOTE: [/color]Escort quest.\nFrom Muglash. If he's not there, just wait because someone is already doing the quest.|
-A Vorsha the Lasher|QID|6641|ACTIVE|6642|M|12.06,34.64|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED [/color]\Go back to Muglash to restart thequest.\nIf he's not there, just wait because someone is already doing the quest.|FAIL|
+A Vorsha the Lasher|QID|6641|ACTIVE|6442|M|12.06,34.64|Z|Ashenvale|N|[color=FF0000]NOTE: [/color]Escort quest.\nFrom Muglash. If he's not there, just wait because someone is already doing the quest.|LVL|20|
+A Vorsha the Lasher|QID|6641|ACTIVE|6642|M|12.06,34.64|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED [/color]\Go back to Muglash to restart the quest.\nIf he's not there, just wait because someone is already doing the quest.|FAIL|LVL|20|
 
 ; Vorsha the Lasher seems to be 'glitched' and you don't have to actually defeat Vorsha.
 ;C Vorsha the Lasher|QID|6641|M|9.63,27.66|Z|Ashenvale|QO|1|N|Accompany Muglash to the brazier. Right-click the brazier to extinguish the flame. Protect Muglash as you fight against 2 waves of 3 Nagas and then Vorsha in the final wave.\nMake sure you kill the Priestesses first, as they will heal everyone fully.
