@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2020-08-14 15:19
+-- Who: Ludovicus_Maior
+-- Log: Step C [Taking Precautions:29402] in TwiHollEK has a bad QO¦Blood Nettle: 5/5¦ tag.
+
+-- URL: http://wow-pro.com/node/3440/revisions/30089/view
 -- Date: 2018-10-23 23:53
 -- Who: Ludovicus_Maior
 -- Log: Add [Refuge Point] and [Stonetalon Peak].
