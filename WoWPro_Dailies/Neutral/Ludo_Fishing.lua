@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/dailies_fishing_dailies_capitol_cities_shattrath_dalaran
+-- Date: 2020-08-14 15:39
+-- Who: Ludovicus_Maior
+-- Log: Wrong QID for Moat Monster!
+
+-- URL: http://wow-pro.com/node/3752/revisions/29547/view
 -- Date: 2018-08-18 21:00
 -- Who: Ludovicus_Maior
 -- Log: Correct L steps to l.
@@ -171,11 +176,11 @@ l Corpse Worm|ACTIVE|29320|M|61.75,68.40;64.40,15.18;67.80,15.11|CN|Z|Tirisfal G
 C Corpse-Fed Pike|QID|29320|M|66.80,45.60;67.70,40.70;70.20,48.10;64.85,46.35;68.65,44.65;67.29,51.08;68.97,53.22;66.30,48.92|CN|Z|Tirisfal Glades|N|Head out to Brightwater Lake and fish up your pike.  Equip your fishing rod and then use the worm as a lure.|U|69907|FACTION|Horde|
 T Like Pike?|QID|29320|M|81,31.2|Z|Undercity|N|To Armand Cromwell|FACTION|Horde|
 
-A Moat Monster!|QID|29320|M|81,31.2|Z|Undercity|N|From Armand Cromwell|O|FACTION|Horde|
-U Moat Monster Feeding Kit|ACTIVE|29320|M|61.75,68.40|Z|Tirisfal Glades|N|Head up to the Ruins of Lordaeron courtyard and open then Feeding Kit|U|69999|FACTION|Horde|
-U Alliance Decoy Kit|ACTIVE|29320|M|61.75,68.40|Z|Tirisfal Glades|N|Now use the Decoy Kit.|U|69998|FACTION|Horde|
-C Feed Me!|QID|29320|M|61.75,68.40|Z|Tirisfal Glades|N|Now feed the Monster her frogs.|U|69995|FACTION|Horde|
-T Moat Monster!|QID|29320|M|81,31.2|Z|Undercity|N|To Armand Cromwell|FACTION|Horde|
+A Moat Monster!|QID|29361|M|81,31.2|Z|Undercity|N|From Armand Cromwell|O|FACTION|Horde|
+U Moat Monster Feeding Kit|ACTIVE|29361|M|61.75,68.40|Z|Tirisfal Glades|N|Head up to the Ruins of Lordaeron courtyard and open then Feeding Kit|U|69999|FACTION|Horde|
+U Alliance Decoy Kit|ACTIVE|29361|M|61.75,68.40|Z|Tirisfal Glades|N|Now use the Decoy Kit.|U|69998|FACTION|Horde|
+C Feed Me!|QID|29361|M|61.75,68.40|Z|Tirisfal Glades|N|Now feed the Monster her frogs.|U|69995|FACTION|Horde|
+T Moat Monster!|QID|29361|M|81,31.2|Z|Undercity|N|To Armand Cromwell|FACTION|Horde|
 
 A Tadpole Terror|QID|29319|M|81,31.2|Z|Undercity|N|From Armand Cromwell|O|FACTION|Horde|
 C Giant Flesh-Eating Tadpole|QID|29319|M|48.91,56.13;50.44,53.84;49.60,51.25|CN|Z|Tirisfal Glades|N|Get out to Stillwater Pond and fish them up!|FACTION|Horde|
