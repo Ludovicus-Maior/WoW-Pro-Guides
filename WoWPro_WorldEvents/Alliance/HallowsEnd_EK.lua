@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/hallows_end_alliance
+-- Date: 2020-08-14 15:19
+-- Who: Ludovicus_Maior
+-- Log: Step C [Taking Precautions:29402] in TwiHollEK has a bad QO¦Blood Nettle: 5/5¦ tag.
+
+-- URL: http://wow-pro.com/node/3440/revisions/30089/view
 -- Date: 2018-10-23 23:53
 -- Who: Ludovicus_Maior
 -- Log: Add [Refuge Point] and [Stonetalon Peak].
@@ -223,7 +228,7 @@ A Shopping Around|QID|29399|PRE|29398|M|61.19,70.84|N|From Auctioneer Finch.|Z|S
 C Shopping Around|QID|29399|M|63.62,47.42|N|Seach the Shady Lady. Takes a while.|Z|Stormwind City|
 T Shopping Around|QID|29399|M|64.17,46.46|N|To Hudson Barnes.|Z|Stormwind City|
 A Taking Precautions|QID|29402|PRE|29399|M|64.17,46.46|N|From Hudson Barnes.|Z|Stormwind City|
-C Taking Precautions|QID|29402|QO|Blood Nettle: 5/5|M|54.76,14.63|N|Around the pumpkin patch.|Z|Stormwind City|
+C Taking Precautions|QID|29402|QO|3|M|54.76,14.63|N|Around the pumpkin patch.|Z|Stormwind City|
 C Taking Precautions|QID|29402|M|62.8,74.8|N|Purchase From Keldric Boucher at the Pestle's Apothecary.|Z|Stormwind City|
 T Taking Precautions|QID|29402|M|64.17,46.46|N|To Hudson Barnes.|Z|Stormwind City|
 
