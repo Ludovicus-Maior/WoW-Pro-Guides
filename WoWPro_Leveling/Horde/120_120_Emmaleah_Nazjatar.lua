@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_horde
+-- Date: 2020-08-19 02:44
+-- Who: Blanckaert
+-- Log: added flight points, added note on T step turn in that varies.
+
+-- URL: http://wow-pro.com/node/3789/revisions/30607/view
 -- Date: 2020-08-09 02:56
 -- Who: Blanckaert
 -- Log: adjusting of spelling mistake of sealent to sealant
@@ -169,6 +174,7 @@ A Down But Not Out|QID|56236|M|48.51,62.19|N|From Lor'themar Theron.|PRE|55869|
 ;quest chain after getting 3000 follower points.
 t Down But Not Out|QID|56236|M|48.50,62.20|N|To Lor'themar Theron.|
 A To Zin-Azshari|QID|55469|M|48.50,62.20|N|From Lor'themar Theron.|PRE|56236|
+F Ekka's Hideaway|ACTIVE|55469|M|47.49,63.24|N|At Iina Bluegill.|
 T To Zin-Azshari|QID|55469|M|64.21,52.09|N|To First Arcanist Thalyssra.|
 A Making the Connection|QID|55482|M|64.21,52.09|N|From First Arcanist Thalyssra.|PRE|55469|
 C Making the Connection|QID|55482|M|63.15,48.41|QO|2|NC|N|Find Discarded Staff on lower level.|
@@ -193,6 +199,7 @@ A The Handmaiden's Tale|QID|55489|M|76.47,29.92|N|From Image of Thalyssra.|PRE|5
 K Lady Silazsi|ACTIVE|55489|M|77.54,36.69|QO|1|T|Lady Silazsi|N|Kill Lady Silazsi and take the Javelin of Suramar.|
 T The Handmaiden's Tale|QID|55489|M|79.88,38.88|N|To Image of Thalyssra.|
 A We'll Poke Their Eye Out|QID|55490|M|79.88,38.88|N|From Image of Thalyssra.|PRE|55489|
+F Newhome|ACTIVE|55490|M|79.54,37.91|N|At Gizzik Kelpears.|
 T We'll Poke Their Eye Out|QID|55490|M|48.53,62.18|N|To Lor'themar Theron.|
 A The Tide Turns|QID|55799|M|48.53,62.18|N|From Lor'themar Theron.|PRE|55490|
 C The Tide Turns|QID|55799|M|50.20,44.73|QO|1|N|Sound the advance.|
@@ -201,7 +208,7 @@ K Commander Kresh|ACTIVE|55799|M|51.26,32.36|QO|3|T|Commander Kresh|N|Kill Comma
 C The Tide Turns|QID|55799|M|51.56,34.34|QO|2|US|N|Continue killing everything in the Gorgonian Overlook until the bar gets to 100%.|
 C The Tide Turns|QID|55799|M|51.26,32.36|QO|4|N|Throw the Javelin of Suramar.|
 K Lady Zharessa|ACTIVE|55799|M|50.45,24.12|QO|5|T|Lady Zharessa|N|Kill Lady Zharessa.|
-T The Tide Turns|QID|55799|M|50.62,23.37|N|To First Arcanist Thalyssra.|
+T The Tide Turns|QID|55799|M|50.62,23.37|N|To First Arcanist Thalyssra. \nLocation dependent on where she's standing when you kill Lady Zharessa.|
 A The Eternal Palace: Queen's Gambit|QID|56356|M|50.62,24.14|NA|N|From Lor'themar Theron.|PRE|55799|
 f The Tidal Conflux|QID|56356|M|51.11,23.61|N|At Kobo Rayfriend.|PRE|55799|
 
