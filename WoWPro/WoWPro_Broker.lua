@@ -1313,9 +1313,21 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- A/$ Steps --
             if (stepAction == "A" or stepAction == "$") and WoWPro:QIDsInTable(QID, WoWPro.QuestLog) then
-                WoWPro.CompleteStep(guideIndex,"Quest in QuestLog")
-                skip = true
-                break
+                if WoWPro.fail[guideIndex] then
+                    if WoWPro:QuestFailed(QID) then
+                        -- Time to turn this on!
+                        skip = false
+                        WoWPro.why[guideIndex] = "NextStep(): noskip, FAIL and quest failed!"
+                    else
+                        skip = true
+                        WoWPro.why[guideIndex] = "NextStep(): skip, FAIL and quest not failed."
+                        break
+                    end
+                else
+                    WoWPro.CompleteStep(guideIndex,"Quest in QuestLog")
+                    skip = true
+                    break
+                end
             end
             if (stepAction == "A" or stepAction == "U") and WoWPro.use[guideIndex] then
                 if _G.GetItemCount(WoWPro.use[guideIndex]) == 0 then
