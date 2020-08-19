@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mechagon_neutral
+-- Date: 2020-08-19 02:46
+-- Who: Blanckaert
+-- Log: added note for a C Step
+
+-- URL: http://wow-pro.com/node/3791/revisions/30594/view
 -- Date: 2020-07-25 03:42
 -- Who: Blanckaert
 -- Log: Removed duplicate F step (was in wrong spot), and changed flow of C step for QID 55650, and fixed QID for step F
@@ -339,7 +344,7 @@ C Discs of Norgannon|QID|56410|M|66.50,43.04|QO|1|S!US|N|Go about the normal kil
 C Redistribution of Power|QID|55880|M|65.97,46.81|QO|2|S!US|N|Kill mobs, it will charge the cells automatically.|
 C More Power|QID|54082|M|64.37,39.13;65.73,38.52|CS|QO|1|NC|N|Attach Alpha Wire to Alpha Pylon.|
 C More Power|QID|54082|M|65.88,38.48;67.03,38.31|CS|QO|2|NC|N|Attach Beta Wire to Beta Pylon.|
-C More Power|QID|54082|M|67.13,38.26;68.72,38.06|CS|QO|3|NC|N|Attach Gamma Wire to Gamma Pylon.|
+C More Power|QID|54082|M|67.13,38.26;68.72,38.06|CS|QO|3|NC|N|Attach Gamma Wire to Gamma Pylon. Run up the pipe beside you.|
 C More Power|QID|54082|M|68.84,38.12;70.38,39.28|CS|QO|4|NC|N|Attach Delta Wire to Delta Pylon.|
 T More Power|QID|54082|M|70.84,39.15|N|To Flip Quickcharge.|
 
