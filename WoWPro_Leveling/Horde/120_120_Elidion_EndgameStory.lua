@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_endgame_storylines
+-- Date: 2020-08-19 02:48
+-- Who: Blanckaert
+-- Log: Case adjustment on F step 52114
+
+-- URL: http://wow-pro.com/node/3783/revisions/30153/view
 -- Date: 2018-12-05 06:05
 -- Who: elidion
 -- Log: 8.1 Questline
@@ -94,7 +99,7 @@ C Vengeance for Vol'jin|QID|51515|M|36.74,68.97|Z|Echo Isles|N|Kill Zalazane, th
 T Vengeance for Vol'jin|QID|51515|M|59.44,51.49|Z|Echo Isles|N|To Master Gadrin.|
 A Honoring a True Leader|QID|52114|M|59.44,51.49|Z|Echo Isles|N|From Master Gadrin.|PRE|51515|
 b Zuldazar|ACTIVE|52114|M|70.91,38.21|Z|Echo Isles|TZ|The Great Seal|N|You can go back to the boat or use your hearthstone here if it's up and your hearth is set at The Great Seal.|
-F Atal'dazar|ACTIVE|52114|Z|Zuldazar|TZ|The Golden Road|N|Goto your nearest flightmaster and fly to the Atal'Dazar flight point near the dungeon entrance.|
+F Atal'Dazar|ACTIVE|52114|Z|Zuldazar|TZ|The Golden Road|N|Goto your nearest flightmaster and fly to the Atal'Dazar flight point near the dungeon entrance.|
 T Honoring a True Leader|QID|52114|M|45.52,35.81|Z|Zuldazar|N|To Master Gadrin.|
 A Vol'jin, Son of Sen'jin|QID|52113|M|45.52,35.81|Z|Zuldazar|N|From Master Gadrin.|PRE|52114|
 C Vol'jin, Son of Sen'jin|QID|52113|M|45.78,36.17|Z|Zuldazar|QO|1|NC|N|Vision of the Bargain witnessed.|
