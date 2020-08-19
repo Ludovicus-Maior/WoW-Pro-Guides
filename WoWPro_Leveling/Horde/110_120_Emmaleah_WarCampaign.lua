@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2020-08-19 02:42
+-- Who: Blanckaert
+-- Log: Travel adjustments, added F steps, changed Note wording on some quest steps.
+
+-- URL: http://wow-pro.com/node/3761/revisions/30606/view
 -- Date: 2020-08-07 00:10
 -- Who: Blanckaert
 -- Log: revert a PRE tag, added note on line
@@ -248,11 +253,6 @@
 -- Date: 2018-10-02 19:42
 -- Who: Emmaleah
 -- Log: update warfront scenario to use |Z|943 so arrow will show.  Update Warfront Scenario to replace ACTIVE|53416| with PRE|51082 for all but 51082, since the quests remain available after 53416 has been turned in. (left the first one so the guide would flow right, it would technically be PRE or ACTIVE 53416 but I don't think that is an option.
-
--- URL: http://wow-pro.com/node/3761/revisions/29864/view
--- Date: 2018-10-02 18:43
--- Who: Emmaleah
--- Log: various tweaks, added NCs, moved Lilian Voss as follower to before going to Orgrimmar, added a -120 level tag.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -761,48 +761,56 @@ A Windfall Cavern|QID|52320|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcalle
 
 ; The Revered Repuation Mission Report: Hillcrest Pasture;part2
 R Stormsong Valley|ACTIVE|52479|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
-F Wolf's Den|ACTIVE|52479|M|51.43,33.74|Z|Stormsong Valley|N|Wolf's Den is the closest flightpoint, if you don't want to run and do WQs on the way.|
+F Wolf's Den|ACTIVE|52479|M|51.43,33.74|Z|Stormsong Valley|N|Wolf's Den is the closest flightpoint, unless you want to run and do WQ's. \n\nThis step will work from any Flight Master.|
 C Hillcrest Pasture|QID|52479|M|53.42,77.66|Z|Stormsong Valley|NC|N|Make your way to the outpost to claim it.|
 f Hillcrest Pasture|ACTIVE|52479|M|52.77,80.13|Z|Stormsong Valley|N|At Hosan Cloudhoof.|
 T Hillcrest Pasture|QID|52479|M|54.19,78.65|Z|Stormsong Valley|N|To Ruknoz Greyfang.|
 
 ; The Revered Repuation Mission Report: Mudfisher Cove-part2
 R Drustvar|ACTIVE|52314|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Drustvar or get there through other means.|
-C Mudfisher Cove|QID|52314|M|61.83,16.33|Z|Drustvar|NC|N|Closest flightpoint is Waning Glacier, make your way to the outpost to claim it.|
+F Waning Glacier|ACTIVE|52314|M|19.15,43.31|Z|Drustvar|N|Fly to Waning Glacier (Tiragarde Sound), unless you want to run and do WQ's. \n\nThis step will work from any Flight Master.|
+C Mudfisher Cove|QID|52314|M|61.83,16.33|Z|Drustvar|NC|N|Make your way to the outpost to claim it.|
 f Mudfisher Cove|ACTIVE|52314|M|62.03,16.88|Z|Drustvar|N|At Drasha Windspear.|
 T Mudfisher Cove|QID|52314|M|62.43,17.01|Z|Drustvar|N|To Garn Blackwolf.|
 A Mission Report: Into The Wicker|QID|53125|M|51.51,99.63|Z|Dazar'alor|PRE|52314|REP|The Honorbound;2157;revered;0|O|
 T Mission Report: Into The Wicker|QID|53125|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A The Wicker Totem|QID|53126|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53125|
 R Drustvar|ACTIVE|53126|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Drustvar or get there through other means.|
-T The Wicker Totem|QID|53126|M|62.43,17.01|Z|Drustvar|N|Fly to Mudfisher Cove, turn in to Garn Blackwolf.|
+F Mudfisher Cove|ACTIVE|53126|M|19.15,43.31|Z|Drustvar|N|Fly to Mudfisher Cove, unless you want to run and do WQ's. \n\nThis step will work from any Flight Master.|
+T The Wicker Totem|QID|53126|M|62.43,17.01|Z|Drustvar|N|To Garn Blackwolf.|
 
 ; The Revered Repuation Mission Report: Stonetusk Watch;part2
 R Stormsong Valley|ACTIVE|52777|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
-C Stonetusk Watch|QID|52777|M|39.07,64.94;39.09,66.98;39.38,68.34|CS|Z|Stormsong Valley|NC|N|Closest flightpoint is Diretusk Hollow. Follow the arrows to the cave entrance, enter and claim the outpost.|
+F Diretusk Hollow|ACTIVE|52777|M|51.43,33.76|Z|Stormsong Valley|N|Fly to Diretusk Hollow, unless you want to run and do WQ's. \n\nThis step will work from any Flight Master.|
+C Stonetusk Watch|QID|52777|M|39.07,64.94;39.09,66.98;39.38,68.34|CS|Z|Stormsong Valley|NC|N|Follow the arrows to the cave entrance, enter and claim the outpost.|
 f Stonetusk Watch|ACTIVE|52777|M|38.84,66.64|Z|Stormsong Valley|N|At Wyna Breezehorn.|
 T Stonetusk Watch|QID|52777|M|39.41,68.59|Z|Stormsong Valley|N|To Garn Blackwolf.|
 A Mission Report: Giant Slaying|QID|53100|M|51.51,99.63|Z|Dazar'alor|PRE|52777|REP|The Honorbound;2157;revered;0|O|
 T Mission Report: Giant Slaying|QID|53100|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Nettin' Ettin|QID|53101|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53100|
 R Stormsong Valley|ACTIVE|53101|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
-T Nettin' Ettin|QID|53101|M|38.84,66.63|Z|Stormsong Valley|N|Fly to Stonetusk Watch, turn in to Wyna Breezehorn.|
+F Stonetusk Watch|ACTIVE|53101|M|51.43,33.76|Z|Stormsong Valley|N|Fly to Stonetusk Watch, unless you want to run and do WQ's. \n\nThis step will work from any Flight Master.|
+T Nettin' Ettin|QID|53101|M|38.84,66.63|Z|Stormsong Valley|N|To Wyna Breezehorn.|
 
 ; The Revered Repuation Mission Report: Stonefist Watch-part2
 R Tiragarde Sound|ACTIVE|52222|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Tiragarde Sound or get there through other means.|
-C Stonefist Watch|QID|52222|M|53.28,63.26|Z|Tiragarde Sound|NC|N|Closest flightpoint is Timberfell Outpost, make your way to the outpost to claim it. Road from NW of island is best path there.|
+F Timberfell Outpost|ACTIVE|52222|M|87.27,50.66|Z|Tiragarde Sound|N|Fly to Timberfall Outpost, unless you want to run and do WQ's. \n\nThis step will work from any Flight Master.|TAXI|-Swiftwind Post|
+F Swiftwind Post|ACTIVE|52222|M|87.27,50.66|Z|Tiragarde Sound|N|Fly to Swiftwind Post, unless you want to run and do WQ's. \n\nThis step will work from any Flight Master.|TAXI|Swiftwind Post|
+C Stonefist Watch|QID|52222|M|53.28,63.26|Z|Tiragarde Sound|NC|N|Make your way to the outpost to claim it. Road from NW of island is best path there.|
 f Stonefist Watch|ACTIVE|52222|M|53.14,63.17|Z|Tiragarde Sound|N|At Munovuth Boldcleaver.|
 T Stonefist Watch|QID|52222|M|53.63,63.35|Z|Tiragarde Sound|N|To Kora Gorekill.|
 A Mission Report: Spare Parts|QID|53081|M|51.51,99.63|Z|Dazar'alor|PRE|52222|REP|The Honorbound;2157;revered;0|O|
 T Mission Report: Spare Parts|QID|53081|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Spare Parts|QID|53082|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53081|
 R Tiragarde Sound|ACTIVE|53082|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Tiragarde Sound or get there through other means.|
-T Spare Parts|QID|53082|M|52.86,62.25|Z|Tiragarde Sound|N|Fly to Stonefist Watch, turn in to Grizvek Gearsnap.|
+F Stonefist Watch|ACTIVE|53082|M|87.27,50.66|Z|Tiragarde Sound|N|Fly to Stonefist Watch, unless you want to run and do WQ's. \n\nThis step will work from any Flight Master.|
+T Spare Parts|QID|53082|M|52.86,62.25|Z|Tiragarde Sound|N|To Grizvek Gearsnap.|
 
 ; The Revered Repuation Mission Report: Windfall Cavern-part2
 R Stormsong Valley|ACTIVE|52320|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
-C Windfall Cavern|QID|52320|M|60.70,26.71;60.33,25.28|CS|Z|Stormsong Valley|NC|N|Closest flightpoint is Warfang hold. Follow arrow to cave entrance, enter and claim the outpost.|
-f Windfall Cavern|ACTIVE|52320|M|52.77,80.13|Z|Stormsong Valley|N|At Allabas.|
+F Warfang Hold|ACTIVE|52320|M|51.43,33.76|Z|Stormsong Valley|N|Fly to Warfang Hold. Skip if you just came off the boat to Stormsong Valley. \n\nThis step will work from any Flight Master.|
+C Windfall Cavern|QID|52320|M|60.70,26.71;60.33,25.28|CS|Z|Stormsong Valley|NC|N|Follow arrow to cave entrance, enter and claim the outpost.|
+f Windfall Cavern|ACTIVE|52320|M|60.84,27.12|Z|Stormsong Valley|N|At Allabas.|
 T Windfall Cavern|QID|52320|M|60.21,24.98|Z|Stormsong Valley|N|To Morn Ironhorn.|
 
 ; The Strike on Boralus - Revered with The Honorbound
@@ -860,8 +868,10 @@ T Champion: Lilian Voss|QID|52861|M|58.40,62.71|Z|Zuldazar|N|To Lilian Voss.|
 H The Great Seal|ACTIVE|53003|M|58.40,62.71|Z|Zuldazar|N|Hearth, or otherwise get yourself to a portal to Orgrimmar.|
 P Orgrimmar|ACTIVE|53003|M|51.54,45.89|Z|Dazar'alor|N|Take the portal to Orgrimmar|
 T A Cycle of Hatred|QID|53003|M|48.39,71.16|Z|Orgrimmar|N|To Sylvanas Windrunner. If you just received the quest, A Way Out from Sylvanas, you will need to exit Grommash Hold, then return to turn this one in.|
-A Our War Continues|QID|53850|M|48.39,71.16|Z|Orgrimmar|N|From Sylvanas Windrunner.If she doesn't offer it, go back to Zuldazar and Nathanos (on the ship) will offer it.|PRE|53003|
+
+A Our War Continues|QID|53850^53851|M|48.39,71.16|Z|Orgrimmar|N|From Sylvanas Windrunner. \n\nIf she doesn't offer it, go back to Zuldazar and Nathanos (on the ship) will offer it.\nRight Click to Skip.|PRE|53003|
 P Dazar'alor|ACTIVE|53850|M|47.51,60.06|Z|Orgrimmar|N|Use the portal or otherwise return to Zandalar|PRE|53003|
+P Dazar'alor|AVAILABLE|53851|M|47.51,60.06|Z|Orgrimmar|N|Use the portal or otherwise return to Zandalar|PRE|53003|
 
 ; 8.1 Quests
 
