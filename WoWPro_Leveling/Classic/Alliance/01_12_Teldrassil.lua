@@ -38,7 +38,7 @@ A The Woodland Protector|QID|459|PRE|458|M|57.75,45.02|N|From Tarindrella.|
 C The Woodland Protector|QID|459|M|55.91,45.79|N|Kill and loot the Grell for the Moss.|
 T The Woodland Protector|QID|459|M|57.75,45.02|N|To Tarindrella.|
 A Webwood Venom|QID|916|LVL|3|M|57.81,41.65|N|From Gilshalan Windwalker.|
-C Webwood Venom|QID|916|S|N|Kill and loot Webwood Spiders.|
+C Webwood Venom|QID|916|M|56.55,30.85;57.03,26.01;56.16,28.43;57.30,33.19|CN|S!US|QO|1|N|Kill and loot Webwood Spiders.|
 C The Balance of Nature|QID|457|S|N|Kill Mangy Nightsabers and Thistle Boars along the way.|
 T A Good Friend|QID|4495|M|54.60,32.99|N|To Iverron.|
 A A Friend in Need|QID|3519|PRE|4495|M|54.60,32.99|N|From Iverron.|
@@ -46,12 +46,10 @@ r Sell and Repair|QID|3519|S|M|59.31,41.09|ACTIVE|3519|N|Sell and Repair with Ke
 T A Friend in Need|QID|3519|M|60.90,41.97|N|To Dirania Silvershine.|
 
 A Iverron's Antidote|QID|3521|PRE|3519|M|60.90,41.96|N|From Dirania Silvershine.|
-C Iverron's Antidote|QID|3521|NC|S|L|10639 7|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees.|
+C Hyacinth Mushrooms|QID|3521|M|62.20,38.60;59.40,35.55;57.90,33.40;56.48,34.88;55.02,44.17;55.33,38.86;61.80,35.15|CN|S!US|QO|1|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|
 C The Balanche of Nature|QID|457|US|M|62.38,38.36|N|Kill Mangy Nightsabers and Thistle Boars.|
-C Iverron's Antidote|QID|3521|M|57.91,33.36|QO|3|N|Kill Spiders until you get the Webwood Ichor.|
-C Moonpetal Lilies|QID|3521|M|57.69,37.59|QO|2|L|10641 4|N|You should find plenty of Moonpetal Lilies at the lake.|
-C Iverron's Antidote|QID|3521|NC|US|L|10639 7|N|Finish picking up Hyacinth Mushrooms. They are purple brown and are found at the base of the trees.|
-C Webwood Venom|QID|916|US|M|57.91,33.36|N|Kill and loot Webwood Spiders for the Webwood Venom Sacs|
+C Webwood Ichor|QID|3521|M|56.55,30.85;57.03,26.01;56.16,28.43;57.30,33.19|CN|QO|3|N|Kill Spiders until you get the Webwood Ichor.|
+C Moonpetal Lilies|QID|3521|M|57.69,37.59|QO|2|N|You should find plenty of Moonpetal Lilies at the lake.|
 
 T Webwood Venom|QID|916|M|57.81,41.65|N|To Gilshalan Windwalker.|
 A Webwood Egg|QID|917|PRE|916|M|57.81,41.65|N|From Gilshalan Windwalker.|
@@ -61,7 +59,7 @@ r Sell and Repair|QID|3521|M|59.31,41.09|ACTIVE|3521|N|Sell and Repair with Kein
 T Iverron's Antidote|QID|3521|M|60.90,41.96|N|To Dirania Silvershine.|
 A Iverron's Antidote|QID|3522|PRE|3521|M|60.90,41.96|N|From Dirania Silvershine. Accepting this quest will start a 5 minute timer.|
 T Iverron's Antidote|QID|3522|M|54.60,32.99|N|To Iverron.|
-R Shadowthread Cave|QID|917|ACTIVE|917|M|56.77,31.72;56.66,29.33;56.87,27.24;55.72,25.12;56.43,25.14|CS|N|Take the middle path and then left.|
+R Shadowthread Cavern|QID|917|ACTIVE|917|M|56.77,31.72;56.66,29.33;56.87,27.24;55.72,25.12;56.43,25.14|CS|QO|1|N|Take the middle path and then left.|
 C Webwood Egg|QID|917|M|56.750,26.46|N|Loot an egg from the ground.|
 H Shadowglen|QID|917|ACTIVE|917|N|Hearthstone out of the cave.|
 r Sell and Repair|QID|917|M|59.31,41.09|ACTIVE|917|N|Sell and Repair with Keina in Aldrassil.|
@@ -85,7 +83,7 @@ C Zenn's Bidding|QID|488|S|N|Kill and loot Webwood Lurkers, Nightsabers and Stri
 A A Troubling Breeze|QID|475|M|55.96,57.28|N|From Athridas Bearmantle in Dolanaar.|
 T In Favor of Elune|QID|5622|C|Priest|M|55.56,56.75|N|To Laurna Morninglight.|
 A Garments of the Moon|QID|5621|PRE|5622|C|Priest|M|55.56,56.75|N|From Laurna Morninglight.|
-N Learn Apprentice First Aid |QID|2159|ACTIVE|2159|M|55.29,56.82|S|N|If you want to learn First Aid, now is your chance with Byancle, inside the building on the lowest floor.|
+N Learn Apprentice First Aid |QID|2159|ACTIVE|2159|M|55.29,56.82|P|First Aid;129;0+0;1|N|If you want to learn First Aid, now is your chance with Byancle, inside the building on the lowest floor.|
 A The Emerald Dreamcatcher|QID|2438|M|55.58,56.95|N|From Tallonkai Swiftroot, at the very top of the building|
 A Twisted Hatred|QID|932|M|55.58,56.95|N|From Tallonkai Swiftroot.|
 
@@ -106,7 +104,6 @@ A Crown of the Earth|QID|929|PRE|928|M|56.15,61.71|N|From Corithras Moonrage.|
 C Garments of the Moon|QID|5621|C|Priest|M|57.24,63.50|N|Heal Sentinel Shaya with Lesser Heal, then use Power Word: Fortitude.|
 T Garments of the Moon|QID|5621|C|Priest|M|55.56,56.75|N|To Laurana Morninglight.|
 N Professions|QID|475|S|M|57.47,60.60|N|This is a good time to consider your professions. If this is your first character you may want two gathering professions to make more money. The Herbalist and Alchemist Trainers are on the southern side of town. If you want Skinning, Leather Working or Mining, I highly recommend that you wait until after the next circuit (or you will have one hell of a detour to take). Others are in Darnassus.|
-
 C Recipe of the Kaldorei|QID|4161|S|N|Kill spiders along the way until you have 7 Small Spider Legs.|
 C Crown of the Earth|QID|929|M|63.35,58.11|NC|U|5619|N|At the moonwell to the east.|
 T A Troubling Breeze|QID|475|M|66.26,58.55|N|To Gaerolas Talvethren, Second floor of the first building to your right.|
@@ -292,7 +289,7 @@ A The Enchanted Glade|QID|937|M|38.32,34.37|N|From Sentinel Arynia Cloudsbreak.|
 
 R Wellspring River|QID|937|ACTIVE|937|M|41.79,29.37|CC|N|Go in direction of the Wellspring river.|
 
-N Blackmoss the Fetid|AVAILABLE|927|M|43.37,27.75|N|Blackmoss the Fetid is a Level 13 rare beast that spawns on the NE bank of the Wellspring Lake. If he's not there, skip this quest as he has a 2hr+ respawn timer.|
+N Blackmoss the Fetid|AVAILABLE|927|M|43.37,27.75|T|Blackmoss the Fetid|N|Blackmoss the Fetid is a Level 13 rare beast that spawns on the NE bank of the Wellspring Lake. If he's not there, skip this quest as he has a 2hr+ respawn timer.|
 A The Moss-twined Heart|QID|927|M|43.37,27.75|U|5179|N|This item is dropped by Blackmoss. Use it to accept the quest.|O|
 C Tears of the Moon|QID|2518|T|Lady Sathrah|M|41.81,25.24;48.01,25.11;39.15,25.27|CN|N|Kill and loot the spider Lady Sathrah for the Silvery Spinnerets. She spawns in multiple locations.|
 C Destiny Calls|QID|2242|C|Rogue|M|37,21|N|Stealth up, sneak behind him and pickpocket Sethir's Journal.|
@@ -322,14 +319,14 @@ T Return to Denalan|QID|2498|M|60.90,68.50|N|To Denalan.|
 A Oakenscowl|QID|2499|PRE|2498|M|60.90,68.50|N|From Denalan. Note this is a Level 9 Elite quest.|
 T The Shimmering Frond|QID|931|M|60.90,68.50|N|To Denalan.|
 
-A The Sprouted Fronds|QID|2399|PRE|931|M|60.79,68.58|N|Right click one of the sprouted plants to show this quest.|
-T The Moss-twined Heart|QID|927|O|M|60.90,68.50|N|To Denalan.|
+T The Moss-twined Heart|QID|927|M|60.90,68.50|N|To Denalan.|
 A Planting the Heart|QID|941|PRE|927|N|Plant the Tainted Heart in Denalan's Planter. This will complete the quest.|
-
+; something is wrong with the next quest
+A The Sprouted Fronds|QID|2399|PRE|931|M|60.79,68.58|N|Click on the trough and then right click one of the sprouted plants to show this quest.|
 C Oakenscowl|QID|2499|M|53.05,74.49|N|Inside the cave. He is Level 9 elite, but shouldn't be any problem to kill at your level. If you would accidentally pull an add or two, just curse him with your Severed Voodoo Claw (if you have charges left) to reduce his damage. Kill him and loot Gargantuan Tumor.|
 R Strange Fruited Plant|QID|930|ACTIVE|2499|M|51.27,75.74|CC|N|Go up this path.|
 A The Glowing Fruit|QID|930|M|42.62,76.11|N|Right-click the glowing plant.|
-C Ursal the Mauler|QID|486|M|39.04,80.08|N|He's level 12 and can be difficult for some classes. Try to single pull him: Watch his patrolling route and clear out a few of the other Furbolgs beforehand. Use your Severed Voodoo Claw to curse him (if you still have charges left) and the fight shouldn't be any problem.|
+K Ursal the Mauler|QID|486|QO|1|M|39.04,80.08|T|Ursal the Mauler|N|He's level 12 and can be difficult for some classes. Try to single pull him: Watch his patrolling route and clear out a few of the other Furbolgs beforehand. Use your Severed Voodoo Claw to curse him (if you still have charges left) and the fight shouldn't be any problem.|
 T Oakenscowl|QID|2499|M|60.90,68.50|N|To Denalan.|
 T The Glowing Fruit|QID|930|M|60.90,68.50|N|To Denalan. Wait for a bit, as Denalan will plant the fruit and three Boglings spawn. Kill them, they have a Bogling Root which increases damage by 1 for 10 minutes. Put your pet on passive if you are a hunter.|
 
