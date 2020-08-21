@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2020-08-21 01:04
+-- Who: Blanckaert
+-- Log: made changes that Grail was screaming about, pushed to Github, and repasted whole file here.
+
+-- URL: http://wow-pro.com/node/3687/revisions/30360/view
 -- Date: 2019-08-08 15:55
 -- Who: Fluclo
 -- Log: Masquerade quest to Non-Combat
@@ -250,11 +255,6 @@
 -- Who: Blanckaert
 -- Log: interrupts flow, but moved the Waning Crescent Arc up then go to Jandvik, and other side quests to fill time till Honoured.
 
--- URL: http://wow-pro.com/node/3687/revisions/28154/view
--- Date: 2016-12-15 06:36
--- Who: Emmaleah
--- Log: Various adjustments.
-
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
 WoWPro:NewGuideLevels(guide,110,110)
@@ -274,7 +274,7 @@ N Treasures and Rares|QID|39987|N|As with other guides all treasures and rares a
 
 A Khadgar's Discovery|QID|44555^39985|LVL|110|N|Auto Accepted from UI upon entering Dalaran. Or get from your Adventure Guide (Shift - J Default keybinding)|LEAD|39986|
 T Khadgar's Discovery|QID|44555^39985|M|28.47,48.31|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar in the Violet Citadel.|
-A Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|44555&39985|
+A Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|44555&39985| ; 44555 is Demonhunter quest, 39985 everyone else
 C Magic Message|QID|39986|M|29.32,48.80|Z|Dalaran!Dalaran!Dungeon|NC|N|Click on the Arcane Anomaly and watch the dialog.|
 T Magic Message|QID|39986|M|28.47,48.31|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
 A Trail of Echoes|QID|39987|M|28.47,48.31|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|39986|
@@ -313,7 +313,7 @@ C Ancient Mana|QID|44672|M|34.81,55.09|S|N|Pick up the ancient mana as you trave
 R Ambervale|QID|40012|M|33.20,47.92;31.40,45.25|CS|N|Take the road to the northwest under the rock arch towards Ambervale.|FLY|LEGION|
 T An Old Ally|QID|40012|M|30.24,39.66|N|To an Enchanted Scroll. *Watch out for Nighthuntress Syrenne, Level 110 Elite*|
 A Scattered Memories|QID|40326|M|30.24,39.66|N|From an Enchanted Scroll.|PRE|40012|
-A A Re-Warding Effort|QID|41149|M|30.62,40.06|N|From an Arcane Ward.|PRE|42229|
+A A Re-Warding Effort|QID|41149|M|30.62,40.06|N|From an Arcane Ward.|PRE|40012|
 C Scattered Memories|QID|40326|M|26.42,44.52|S|NC|N|Read Kel'danath's Notes.|
 C A Re-Warding Effort|QID|41149|M|24.97,44.24|S|NC|N|Activate the Arcane Wards.|
 K Kill Shal'an|QID|42831|QO|1|M|26.24,41.16|N|Silver - Kill Shal'an for a bit of treasure and resources.|ITEM|139926|T|Shal'an|RANK|2|RARE|
@@ -393,7 +393,7 @@ C Hungry Work|QID|44691|M|36.58,46.97|NC|N|Chief Telemancer Oculeth fed.|
 T Hungry Work|QID|44691|M|36.58,46.97|N|To Chief Telemancer Oculeth.|
 A Survey Says...|QID|40956|M|36.58,46.97|N|From Chief Telemancer Oculeth.|PRE|44691|
 R Ambervale|ACTIVE|40956|M|33.96,48.99;32.70,46.26|CS|N|Out of the cave and around to your right.|
-A Lingering on the Edge|QID|40796|M|30.39,47.78|N|From Absolon. Need 100 Ancient Mana.|PRE|42229|RANK|2|
+A Lingering on the Edge|QID|40796|M|30.39,47.78|N|From Absolon. Need 100 Ancient Mana.|RANK|2|
 T Lingering on the Edge|QID|40796|M|30.39,47.78|N|To Absolon.|
 R Ruins of Elune'eth|QID|40956|M|33.39,45.48;34.77,43.83|CS|N|Across the river and around to your right to find the Ruins of Elune'eth.|FLY|LEGION|
 C Survey Says...|QID|40956|M|36.64,45.56|NC|U|133897|N|Use the Telemetry Beacon. Occasionaly some pesky anomaly will spawn and you will need to kill it (and possibly close the portal, to stop more).|
@@ -405,7 +405,7 @@ A Tapping the Leylines|QID|40010|M|36.54,46.87|N|From First Arcanist Thalyssra.|
 
 P Ruins of Elune'eth|ACTIVE|40010|M|36.33,44.93|N|Click on the newly active teleporter.|
 R Anora Hollow|QID|40010|M|38.18,44.83;41.38,40.90|CS|N|Follow the path to Anora Hollow.|FLY|LEGION|
-A Turtle Powered|QID|40368|M|43.38,41.72|N|From Morhun Rivertamer.|PRE|42229|RANK|2|
+A Turtle Powered|QID|40368|M|43.38,41.72|N|From Morhun Rivertamer.|RANK|2|
 C Turtle Powered|QID|40368|M|37.11,38.20|S|N|Kill turtles to collect the Shimmering Snapper Scales.|RANK|2|
 C Tapping the Leylines|QID|40010|M|41.30,39.41|QO|1|NC|N|Explore Anora Hollow.|
 C Tapping the Leylines|QID|40010|M|41.58,38.75|QO|2|NC|N|Step on Ancient Switch.|
@@ -442,7 +442,7 @@ T Bad Intentions|QID|40227|M|49.15,43.83|N|To Thaedris Feathersong.|
 A Tools of the Trade|QID|40300|M|49.15,43.83|N|From Thaedris Feathersong.|PRE|40227|
 C Tools of the Trade|QID|40300|M|50.05,39.00|QO|1|NC|N|Gather the jar of Sacred Oil|
 $ Small Treasure Chest|QID|43855^43857|M|51.50,38.61|N|Loot for a bit of treasure and resources.|RANK|2|
-A Fragments of Memory|QID|40308|M|49.09,34.35|N|From a Shattered Burial Urn.|PRE|42229|
+A Fragments of Memory|QID|40308|M|49.09,34.35|N|From a Shattered Burial Urn.|PRE|40744&40266|
 C Fragments of Memory|QID|40308|M|51.96,29.95|S|N|You have a chance of collecting Tel'anor Mementos from all the mobs in this cave.|
 C Tools of the Trade|QID|40300|M|52.50,31.39|QO|3|NC|N|Pick up the Chest of Shrouds|
 $ Treasure|QID|43854|M|52.27,29.90|N|Loot for a bit of treasure and resources.|RANK|2|
@@ -513,26 +513,26 @@ R The Grand Promanade|ACTIVE|42147|M|39.26,71.41|CC|N|Reapply your mask via the 
 ; Adding (some) Tailoring Quest chain here....
 
 t The Path to Suramar City|QID|38962|M|35.02,34.60|Z|Dalaran!Dalaran!Dungeon|P|Tailoring;197|N|To Tanithria|
-A The Nightborne Connection|QID|38967|PRE|38962|LVL|110|M|35.02,34.60|Z|Dalaran!Dalaran!Dungeon|P|Tailoring;197|N|From Tanithria|
+A The Nightborne Connection|QID|38967|LVL|110|M|35.02,34.60|Z|Dalaran!Dalaran!Dungeon|P|Tailoring;197|N|From Tanithria|
 t The Nightborne Connection|QID|38967|M|40.64,69.54;40.34,69.47|CS|P|Tailoring;197|N|To Leyweaver Tytallo.|
-A Proof of Loyalty|QID|38968|PRE|38967|M|40.34,69.47|P|Tailoring;197|N|From Leyweaver Tytallo.|
-A Master of Silkweave|QID|38969|PRE|38967|M|40.32,69.73|P|Tailoring;197|N|From Leyweaver Inondra.|
+A Proof of Loyalty|QID|38968|M|40.34,69.47|P|Tailoring;197|N|From Leyweaver Tytallo.|
+A Master of Silkweave|QID|38969|M|40.32,69.73|P|Tailoring;197|N|From Leyweaver Inondra.|
 C Proof of Loyalty|QID|38968|M|35.76,55.65|QO|1|P|Tailoring;197|N|Kill Withered.|
 B Master of Silkweave|QID|38969|M|40.20,69.55|L|127266 1|P|Tailoring;197|N|Buy a Shal'dorei Mannequin from Leyweaver Mithrogane.|
 C Master of Silkweave|QID|38969|M|40.20,69.55|U|127266|QO|1|P|Tailoring;197|N|Create all 8 pieces of Silkweave Cloth Armor.\nYou will need:\nShal'dorei Silk x151,\nRunic Catgut x10,\nSharp Spritethorn x2.\n\nSilkweave Gloves\nSilkweave Hood\nSilkweave Pantaloons\nSilkweave Slippers\nSilkweave Bracers\nSilkweave Robe\nSilkweave Cinch\nSilkweave Epaulets.\n\n Once you've made them use the Mannequin to create Silkweave Set.|
 t Master of Silkweave|QID|38969|M|40.32,69.73|P|Tailoring;197|N|To Leyweaver Inondra.|
 t Proof of Loyalty|QID|38968|M|40.34,69.47|P|Tailoring;197|N|To Leyweaver Tytallo.|
-A The Queen's Grace Loom|QID|38970|PRE|38969&38968|M|40.34,69.47|P|Tailoring;197|N|From Leyweaver Tytallo.|
+A The Queen's Grace Loom|QID|38970|M|40.34,69.47|P|Tailoring;197|N|From Leyweaver Tytallo.|
 C The Queen's Grace Loom|QID|38970|M|40.27,69.69|P|Tailoring;197|N|Use Teleportation Crystal|
 C The Queen's Grace Loom|QID|38970|M|40.39,69.61|P|Tailoring;197|CHAT|N|Ask Leyweaver Azayna to Tell you about the loom.|
 C The Queen's Grace Loom|QID|38970|M|40.43,69.51|P|Tailoring;197|N|Use Teleportation Crystal|
 t The Queen's Grace Loom|QID|38970|M|40.34,69.47|P|Tailoring;197|N|To Leyweaver Tytallo.|
-A The Big Bag Theory|QID|44741|PRE|38970|M|40.34,69.47|P|Tailoring;197|N|From Leyweaver Tytallo. This quest is completed in the NEW Karazhan Mythic Dungeon. \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.|
+A Return to Karazhan: The Big Bag Theory|QID|44741|M|40.34,69.47|P|Tailoring;197|N|From Leyweaver Tytallo. This quest is completed in the NEW Karazhan Mythic Dungeon. \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.|
 B Pattern: Imbued Silkeweave Flourish|PRE|38970|M|40.2,69.6|LVL|110|P|Tailoring;197|L|127280|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186109|
 B Pattern: Imbued Silkeweave Shade|PRE|38970|M|40.2,69.6|LVL|110|P|Tailoring;197|L|127279|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186106|
 B Pattern: Imbued Silkeweave Drape|PRE|38970|M|40.2,69.6|LVL|110|P|Tailoring;197|L|127278|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186115|
 B Pattern: Imbued Silkeweave Cover|PRE|38970|M|40.2,69.6|LVL|110|P|Tailoring;197|L|127277|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186112|
-A Inspire Me!|QID|38975|PRE|38970|M|40.20,69.55|P|Tailoring;197|N|From Leyweaver Mithrogane.|
+A Inspire Me!|QID|38975|M|40.20,69.55|P|Tailoring;197|N|From Leyweaver Mithrogane.|
 C Inspire Me!|QID|38975|M|40.22,69.55|P|Tailoring;197|QO|5|N|Craft the following:\nBrown Linen Robe\nWhite Woolen Dress\nSimple Black Dress\nFrostwoven Robe\nSpiritmend Robe\nAll near Leyweaver Mithrogane\n\nRight click this step off if you can't complete now, to continue the guide.  Each time you come back to the guide this is popup for you.|
 t Inspire Me!|QID|38975|M|40.22,69.55|P|Tailoring;197|N|To Leyweaver Mithrogane.|
 
@@ -551,7 +551,7 @@ A Scenes from a Memory|QID|40325|M|37.08,46.27|N|Click the memories to clear the
 C Scenes from a Memory|QID|40325|M|37.13,45.61|NC|N|Click on the memories to banish them.|
 T Scenes from a Memory|QID|40325|M|37.06,46.23|N|To First Arcanist Thalyssra.|
 A Cloaked in Moonshade|QID|42224|M|37.06,46.23|N|From First Arcanist Thalyssra.|PRE|40325|
-A Cling to Hope|QID|40798|M|37.71,47.80|N|From Absolon.(Upstairs)|PRE|40796^40325|RANK|2|
+A Cling to Hope|QID|40798|M|37.71,47.80|N|From Absolon.(Upstairs)|PRE|40796^42147|RANK|2|
 
 ; Falanaar story arc
 
@@ -573,11 +573,11 @@ T Into the Crevasse|QID|42227|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|To Vale
 A The Hidden City|QID|42228|M|48.88,43.38|Z|Falanaar Tunnels@Suramar|N|From Valewalker Farodin.|PRE|42227|
 $ Shimmering Ancient Mana Cluster|QID|43747|M|35.62,31.61|Z|Falanaar Tunnels@Suramar|ITEM|141655|N|Loot for storable, but non-stackable ancient mana. Behind Sanaar (which dispite being silver, doesn't appear to have a quest or cool loot associated, except for the world quest.)|RANK|2|
 R Falanaar South Leyline|ACTIVE|42228|M|40.99,45.47;45.03,54.61;41.80,66.64|CS|Z|Falanaar Tunnels@Suramar|N|You have to do it sometime, and now you are closest, unless you want to wait till you have a world quest in the area.|
-A Leyline Feed: Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Suramar|N|From Leyline Feed. (250 Ancient Mana)|PRE|41138|
+A Leyline Feed: Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Suramar|N|From Leyline Feed. (250 Ancient Mana)|
 T Leyline Feed: Falanaar Depths|QID|43593|M|58.00,75.20|Z|Falanaar Tunnels@Suramar|N|To Leyline Feed.|
 $ Small Treasure Chest|QID|43840|M|58.33,70.00|Z|Falanaar Tunnels@Suramar|N|Loot for treasure and resources.|
 R Falanaar North Leyline|QID|42228|M|42.49,70.68;45.03,54.61;57.26,45.16|CS|Z|Falanaar Tunnels@Suramar|N|Run to the Falanarr Tunnels to get the other Falanaar leyline.|FLY|LEGION|
-A Leyline Feed: Falanaar Arcway|QID|43592|M|66.57,52.52|Z|Falanaar Tunnels@Suramar|N|From Leyline Feed. (250 Ancient Mana)\nDispite being Silver Elite, there is no quest/reward for killing Broodmother Shu'holis unless you have it as a World Quest.|PRE|41138|
+A Leyline Feed: Falanaar Arcway|QID|43592|M|66.57,52.52|Z|Falanaar Tunnels@Suramar|N|From Leyline Feed. (250 Ancient Mana)\nDispite being Silver Elite, there is no quest/reward for killing Broodmother Shu'holis unless you have it as a World Quest.|
 T Leyline Feed: Falanaar Arcway|QID|43592|PRE|41138|M|66.57,52.52|Z|Falanaar Tunnels@Suramar|N|To Leyline Feed.|
 $ Small Treasure Chest|QID|43839|M|56.20,36.01;48.68,42.60|CS|Z|Falanaar Tunnels@Suramar|N|Run back out of this room, you will see Orathiss waiting for you. While following Orathiss, slight detour here for a chest. Loot for treasure and resources.|RANK|2|
 R Shattered Locus|ACTIVE|42228|M|56.20,36.01;53.10,26.23;47.95,14.07|CS|Z|Falanaar Tunnels@Suramar|N|Back across the webs to where you entered and continue following Orathiss to the Shattered Locus.|RANK|2|
@@ -588,9 +588,9 @@ A The Valewalker's Burden|QID|42230|M|35.21,54.35|Z|Temple of Fal'adora@Suramar|
 C The Valewalker's Burden|QID|42230|M|40.80,13.82|Z|Temple of Fal'adora@Suramar|NC|N|Follow Valewalker Farodin to find the beacon. Activate the Fal'adora Beacon.|
 T The Valewalker's Burden|QID|42230|M|36.86,46.49|N|To Seedholder.|
 A Seed of Hope|QID|44561|M|36.86,46.49|N|From Valewalker Farodin. This is completed by raising your  Faction rep to Honored with The Nightfallen.|PRE|42230|
-A Leyline Apprentice|QID|44492|PRE|41028&43593&43592|M|37.01,46.39|N|From Arcanist Valtrois. Requires 3 Leylines restored.|
+A Leyline Apprentice|QID|44492|PRE|41028|M|37.01,46.39|N|From Arcanist Valtrois. Requires 3 Leylines restored.|
 T Leyline Apprentice|QID|44492|M|37.01,46.39|N|To Arcanist Valtrois.|
-A Building an Army|QID|44636|M|36.88,46.60|N|From First Arcanist Thalyssra. Requires [Uniting the Isles]|PRE|42230&43341|
+A Building an Army|QID|44636|M|36.88,46.60|N|From First Arcanist Thalyssra. Requires [Uniting the Isles]|PRE|42230|
 
 C Building an Army|QID|44636|M|36.88,46.60|CHAT|N|Talk to Thalyssra to start a solo scenario, good for building faction and other rewards. Manually check off if you don't want to do this now.|
 t Building an Army|QID|44636|M|22.69,36.69|N|To UI Alert.|
@@ -635,7 +635,7 @@ C Not Here, Not Now, Not Ever|QID|41464|M|18.42,21.27|US|N|Destroy Darkfiend Tot
 T Not Here, Not Now, Not Ever|QID|41464|M|19.58,22.38|N|To Kalendros Irongrove.|
 A The Only Choice We Can Make|QID|41467|M|19.58,22.38|N|From Kalendros Irongrove.|PRE|41464|
 C The Only Choice We Can Make|QID|41467|M|19.84,22.36|NC|N|Incinerate Shaladrassil Root.|U|135534|
-A Redhoof the Ancient|QID|41473|M|25.69,30.92|N|From Mayruna Moonwing.|PRE|41464&41197|;actually requires 41467 completed, but doesnt require turned in
+A Redhoof the Ancient|QID|41473|M|25.69,30.92|N|From Mayruna Moonwing.|PRE|41467&41197|
 T The Only Choice We Can Make|QID|41467|M|25.69,30.92|N|To Mayruna Moonwing.|
 T Redhoof the Ancient|QID|41473|M|28.31,29.71|N|To Mythandros Irongrove.|
 A Fertilizing the Future|QID|41474|M|28.31,29.71|N|From Mythandros Irongrove.|PRE|41473|
@@ -677,7 +677,7 @@ A Leyline Feed: Ley Station Aethenar|QID|43591|M|22.52,15.64|N|From Leyline Feed
 C Leyline Feed: Ley Station Aethenar|QID|43591|M|22.39,15.69|QO|1|N|Kill wraiths to collect the Leyline Feed Fragments.|
 T Leyline Feed: Ley Station Aethenar|QID|43591|M|22.50,15.52|N|To Leyline Feed.|
 A Fate of the Guard|QID|40883|PRE|42229|M|27.83,21.17|N|From Thalrenus Rivertree.|
-A Sigil Reclamation|QID|41030|PRE|42229|M|26.68,17.20|O|U|133968|N|From Moonguard Sigil you just looted.|
+A Sigil Reclamation|QID|41030|PRE|40883|M|26.68,17.20|O|U|133968|N|From Moonguard Sigil you just looted.|
 C Sigil Reclamation|QID|41030|M|26.68,17.20|S|N|Kill Nightborne to loot more Sigils.|
 $ Small Treasure Chest|QID|43847|M|26.82,16.96|N|Loot for a bit of treasure and resources.|RANK|2|
 C Fate of the Guard|QID|40883|M|27.45,17.33|QO|1|NC|N|Find and click on Nyellus Starweaver.|
@@ -725,7 +725,7 @@ T Recovering Stolen Power|QID|40968|M|32.02,13.39|N|To UI Alert.|
 A Waiting for Revenge|QID|41109^41110|M|32.02,13.39|N|From UI Alert.|PRE|40968|
 C Waiting for Revenge|QID|41109^41110|M|32.03,13.38|QO|1|N|Hop on the Hippogryph|
 T Waiting for Revenge|QID|41109^41110|M|31.95,14.47|N|To UI Alert.|
-A Rain Death Upon Them|QID|41108^41111|M|31.50,16.47|N|From UI Alert.|PRE|41109^41110|
+A Rain Death Upon Them|QID|41108^41111|M|31.50,16.47|N|From UI Alert.|PRE|41109^41110| ; Grail say 41109 - Ally Ver, 41110 - Horde Ver
 C Rain Death Upon Them|QID|41108^41111|M|35.41,19.46|N|This is a standard bombing run EXCEPT, ONLY use the "1" key. If you accidently use the "2" key, you will return to the starting point, where you will need to farm up another 10 shards to make a new volatile crystal, to then be able to ride the hippogryph again.|
 T Rain Death Upon Them|QID|41108^41111|M|31.95,13.38|N|To UI Alert.|
 C Overwhelming Distraction|QID|40971|M|30.78,15.42|S|U|133999|N|Stand on the purple runes, target a nightborne, use the crystal. When you get the message, run to the next rune, repeat (you may want to drag this to your hotkeys to keep using after the required three for the quest).|
@@ -742,19 +742,19 @@ T The Orchestrator of Our Demise|QID|40970|M|30.10,10.37|N|And back down to turn
 T Overwhelming Distraction|QID|40971|M|30.10,10.37|N|To Syrana Starweaver.|
 A Last Stand of the Moon Guard|QID|40972|M|30.10,10.37|N|From Thalrenus Rivertree.|PRE|40970&40971|
 C Last Stand of the Moon Guard|QID|40972|M|29.71,10.66|CHAT|N|Tell Thalrenus you are ready to go. Wait a minute or so, then he ports you.|
-A Leyline Proficiency|QID|44493|PRE|44492&43590&43591|M|37.00,46.35|N|From Arcanist Valtrois. You will now get more ancient mana from kills. Requires 5 leylines restored.|
+A Leyline Proficiency|QID|44493|PRE|44492|M|37.00,46.35|N|From Arcanist Valtrois. You will now get more ancient mana from kills. Requires 5 leylines restored.| ; had other QID for laylines in 43590&43591 as pre, Grail says no.
 T Leyline Proficiency|QID|44493|M|37.00,46.35|N|To Arcanist Valtrois.|
 T Last Stand of the Moon Guard|QID|40972|M|36.89,46.60|N|To First Arcanist Thalyssra.|
 
 ;optional quests
 R Meredil|QID|40401|M|34.36,49.95|N|Run outside Shal'Aran and take the road Southeast.|PRE|40972|RANK|2|FLY|LEGION|
-A A Way Back In|QID|40401|M|34.36,56.14|N|From Iadreth.|PRE|42229|RANK|2|
+A A Way Back In|QID|40401|M|34.36,56.14|N|From Iadreth.|RANK|2|
 K Kill Mal'Dreth the Corruptor|QID|43351|M|34.21,60.94|ITEM|140386|T|Mal'Dreth|N|Silver - Mal'Dreth the Corruptor, for a bit of treasure and resources.\nAttack Fel Crystals when active.|RANK|2|RARE|
 C A Way Back In|QID|40401|M|41.36,60.68|CHAT|N|Don't forget your mask while wandering around the city. Find and Chat with Astoril.|RANK|2|
 T A Way Back In|QID|40401|M|41.36,60.68|N|To Astoril.|RANK|2|
 A Final Preparations|QID|40469|M|41.36,60.68|N|From Astoril.|PRE|40401|RANK|2|
 C Final Preparations|QID|40469|M|42.74,60.01|S|NC|N|Collect crates of Stashed Supplies.|RANK|2|
-A An Artisan's Mark|QID|41123|M|41.54,71.17|N|From Lespin Silverleaf.|PRE|40401|RANK|2|
+A An Artisan's Mark|QID|41123|M|41.54,71.17|N|From Lespin Silverleaf.|RANK|2|
 C An Artisan's Mark|QID|41123|M|42.47,64.99|CHAT|N|Find Daelar Swiftmeadow and ask for the Signet Ring.|RANK|2|
 T An Artisan's Mark|QID|41123|M|41.54,71.17|N|To Lespin Silverleaf.|RANK|2|
 A All That Glitters|QID|41307|PRE|41123|M|41.54,71.17|N|From Lespin Silverleaf.|RANK|2|
@@ -771,7 +771,7 @@ C Quality of Life|QID|40470|M|38.29,76.45|QO|1|NC|N|Follow Iadreth, by stepping 
 K Astoril|ACTIVE|40470|M|43.34,37.43|Z|Suramar/23|QO|2|N|Kill Astoril, once he's Hostile.|RANK|2|
 $ Small Treasure Chest|QID|40902|M|40.48,28.80|Z|Suramar/23|N|Loot for a bit of treasure and resources.|RANK|2|
 $ Small Treasure Chest|QID|43835|M|54.88,37.80|Z|Suramar/23|N|Loot chest for some treasure and resources.|RANK|2|
-A Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar/23|N|From Unpowered Telemancy Beacon. (100 Ancient Mana)|RANK|2|
+A Felsoul Teleporter Online!|QID|41575|PRE|40956|M|53.45,37.31|Z|Suramar/23|N|From Unpowered Telemancy Beacon. (100 Ancient Mana)|RANK|2| ; Grail says need PRE
 T Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar/23|N|To Unpowered Telemancy Beacon.|RANK|2|
 P Shal'Aran|ACTIVE|41320|M|53.45,37.31|Z|Suramar/23|N|After Killing Astoril, use portal behind you. OR Hearth.|RANK|2|
 P Lunastre Estate|ACTIVE|41320|M|36.16,45.02|N|Take the portal to Lunastre Estate.|RANK|2|
@@ -863,7 +863,7 @@ T Cling to Hope|QID|40798|M|41.59,56.16|N|To Noressa.|
 K Kill Guardian Thor'el|QID|43597|M|56.08,50.30|ITEM|140404|T|Guardian Thor'el|N|Silver - Guardian Thor'el, *Patrols Area* for a bit of treasure and resources.|RARE|
 R Crimson Thicket|ACTIVE|42223|M|60.75,52.29|N|Continue on the Grand Promenade until you get to the path to the Crimson Thicket.|FLY|LEGION|
 T Scouting the Crimson Thicket|QID|42223|M|61.88,49.05|N|To Lilryia Dawnwind.|
-A Turn Around, Nighteyes|QID|40617|M|61.88,49.05|N|From Lilryia Dawnwind. *Unavailable, if you have done 'Survival of the Fittest' in the Menagerie.*|PRE|-41216|RANK|2|
+A Turn Around, Nighteyes|QID|40617|M|61.88,49.05|N|From Lilryia Dawnwind. *Unavailable, if you have done 'Survival of the Fittest' in the Menagerie.*|PRE|-41216|RANK|2| ; Grail says no, but leaving it.
 K Kill Cadraeus|QID|43495|M|62.52,46.53;62.50,48.37|CS|T|Cadraeus|N|Silver - Up this hill for a bit of treasure and resources.|RARE|
 C Turn Around, Nighteyes|QID|40617|M|64.48,46.36|NC|QO|1|N|Locate Nighteyes.|
 C Turn Around, Nighteyes|QID|40617|M|63.63,46.81|QO|2|N|Kill and loot Trapper Rodoon.|
@@ -873,7 +873,7 @@ A They Become The Hunted|QID|41215|PRE|40617|M|61.82,49.11|N|From Nighteyes.|RAN
 C They Become The Hunted|QID|41215|M|60.95,44.93|S|N|Kill Nightborne Trappers.|
 C Trapping Evolved|QID|41230|M|61.49,43.00|NC|S|N|Click on Arcane Traps.|
 R Kel'balor|ACTIVE|41215|M|59.2,44.7;59.31,42.93|CS|N|Run into this cavern to activate another Leyline, make sure you have 200 ancient mana on hand.|
-A Leyline Feed: Kel'balor|QID|43588|PRE|41138|M|51.75,44.10|Z|Suramar/35|N|From Leyline Feed. (200 Ancient Mana)|
+A Leyline Feed: Kel'balor|QID|43588|M|51.75,44.10|Z|Suramar/35|N|From Leyline Feed. (200 Ancient Mana)| ; Grail says not need PRE|41138|
 C Leyline Feed: Kel'balor|QID|43588|M|51.80,46.01|Z|Suramar/35|N|Click on the 'Leyline Feed Primer' and then kill the three waves of withered that come at you.|
 T Leyline Feed: Kel'balor|QID|43588|M|51.75,44.10|Z|Suramar/35|N|To Leyline Feed.|
 C Trapping Evolved|QID|41230|M|61.49,43.00|NC|US|N|Back outside to finish collecting traps and killing trappers.|
@@ -884,7 +884,7 @@ $ Small Treasure Chest|QID|43857|M|63.95,48.05;63.65,49.11|CS|N|Inside a small a
 f Crimson Thicket|QID|43587|M|64.23,41.98|N|At Ancient Cloudwing.|PRE|41230|
 K Kill Hertha Grimdottir|QID|43993|M|61.30,39.70|T|Hertha Grimdottir|N|Silver - Kill Hertha Grimdottir, for a bit of treasure and resources.|RANK|2|RARE|
 R Elor'shan|QID|43587|M|65.87,41.89;65.88,42.04|CS|N|Into this cave to activate another Leyline, make sure you have 250 ancient mana on hand.|PRE|41230|
-A Leyline Feed: Elor'shan|QID|43587|M|46.93,47.18|Z|Suramar/34|N|From Leyline Feed. (250 Ancient Mana)|PRE|41138|
+A Leyline Feed: Elor'shan|QID|43587|M|46.93,47.18|Z|Suramar/34|N|From Leyline Feed. (250 Ancient Mana)| ; Grail says not need PRE|41138|
 T Leyline Feed: Elor'shan|QID|43587|M|46.93,47.18|Z|Suramar/34|N|To Leyline Feed.|
 $ Shimmering Ancient Mana Cluster|QID|43743|M|64.91,34.70|N|Before you leave Elor'shan Tunnels, loot for storable, but non-stackable ancient mana.|ITEM|141655|RANK|2|
 
@@ -978,8 +978,8 @@ T Breaking Down the Big Guns|QID|41709|M|70.68,48.79|N|To Toryl.|
 A Turning the Tidemistress|QID|40336|PRE|41426&41709|M|70.68,48.79|N|From Toryl.|
 T Timing Is Everything|QID|41409|M|70.59,49.17|N|To Brandolf.|
 T Sunken Foes|QID|41425|M|70.59,49.17|N|To Brandolf.|
-A Shatter the Sashj'tar|QID|41001|PRE|41425|M|70.59,49.17|N|From Brandolf.|RANK|2|
-A Squid Out of Water|QID|41499|PRE|41425|M|70.59,49.17|N|From Brandolf.|RANK|2|
+A Shatter the Sashj'tar|QID|41001|PRE|41426&41709&41425|M|70.59,49.17|N|From Brandolf.|RANK|2|
+A Squid Out of Water|QID|41499|PRE|41426&41709&41425|M|70.59,49.17|N|From Brandolf.|RANK|2|
 $ Small Treasure Chest|QID|43861|M|79.32,57.49;81.96,57.46|CS|N|Loot for a bit of treasure and resources.|RANK|2|
 R Sashj'tar Ruins|ACTIVE|41001|M|81.39,54.08|N|Run over to the Sashj'tar Ruins.|FLY|LEGION|
 C Shatter the Sashj'tar|QID|41001|M|80.93,57.95|S|N|Kill Sashj'tar naga.|
@@ -998,7 +998,7 @@ B Recipe: Koi-Scented Stormray|PRE|40336|M|71.61,48.87|P|Cooking;185|L|133819|N|
 H Shal'Aran|ACTIVE|42488|M|36.56,46.93|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T Thalyssra's Abode|QID|42488|M|36.88,46.61|N|To First Arcanist Thalyssra.|
 T Thalyssra's Drawers|QID|42489|M|36.88,46.61|N|To First Arcanist Thalyssra.|
-A Leyline Master|QID|44495|PRE|44493&43587&43588|M|37.00,46.35|N|From Arcanist Valtrois. You will now get the maximum amount of ancient mana from kills. Requires 7 leylines restored.|
+A Leyline Master|QID|44495|PRE|44493&43587&43588|M|37.00,46.35|N|From Arcanist Valtrois. You will now get the maximum amount of ancient mana from kills. Requires 7 leylines restored.| ; Grail says only 44493 needed, but you need the other Leylines, so left it.
 T Leyline Master|QID|44495|M|37.00,46.35|N|To Arcanist Valtrois.|
 
 ; Good Suramaritan - Breaking The Lightbreaker (Felsoul Hold) Story Line.
@@ -1020,9 +1020,9 @@ $ Small Treasure Chest|QID|43831|M|31.96,62.48|N|Loot for some treasure and reso
 ; Inserting Leatherworking / Tailoring Quests.
 
 t Demon Flesh|QID|40211|M|26.53,71.61|LVL|110|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
-A Wrong End of the Knife|QID|40212|PRE|40211|M|26.53,71.61|LVL|110|P|Leatherworking;165|N|From Stalriss Dawnrunner.|
-A Hounds Abound|QID|40213|PRE|40211|M|26.53,71.61|LVL|110|P|Leatherworking;165|N|From Stalriss Dawnrunner.|
-A Exotic Textiles|QID|38971|PRE|38970|M|26.63,71.42|LVL|110|P|Tailoring;197|N|From Leyweaver Athystro.|
+A Wrong End of the Knife|QID|40212|M|26.53,71.61|LVL|110|P|Leatherworking;165|N|From Stalriss Dawnrunner.|
+A Hounds Abound|QID|40213|M|26.53,71.61|LVL|110|P|Leatherworking;165|N|From Stalriss Dawnrunner.|
+A Exotic Textiles|QID|38971|M|26.63,71.42|LVL|110|P|Tailoring;197|N|From Leyweaver Athystro.|
 
 A A Different Source|QID|40625|M|29.38,71.78;27.34,72.89;26.78,70.82|CS|N|From Kyrtos.|RANK|2|
 $ Kyrtos's Research Notes|QID|43987|M|26.86,70.74|U|140327|ITEM|140327|N|Pick up and use Kyrtos's Research Notes to raise your ancient mana cap by 100.|
@@ -1055,13 +1055,13 @@ A The Firmament Stone|QID|38530|PRE|38528|M|30.0,53.2|LVL|110|P|Blacksmithing;16
 
 T Fresh Meat|QID|40898|M|30.86,59.17|N|To Lyana Darksorrow.|
 T Glaive Circumstances|QID|40307|M|30.86,59.17|N|To Lyana Darksorrow.|
-A Grimwing the Devourer|QID|40901|PRE|40307&40898|M|30.86,59.17|N|From Lyana Darksorrow.|
-C Grimwing the Devourer|QID|40901|M|25.76,58.62|U|133756|N|Use the bait to lure Grimwing. Kill and Loot his head.|
+A Grimwing the Devourer|QID|40901^44490|PRE|40307&40898|M|30.86,59.17|N|From Lyana Darksorrow.| ; 44490 is DH Class
+C Grimwing the Devourer|QID|40901^44490|M|25.76,58.62|U|133756|N|Use the bait to lure Grimwing. Kill and Loot his head.|
 C Discovery Requires Experimentation|QID|40683|M|27.41,61.01|US|N|Finish collecting the Felfire Spines.|
 C The Road to Fel|QID|40657|M|25.61,61.30|US|NC|N|Finish collecting the Fel-Infused Plate.|
-T Grimwing the Devourer|QID|40901|M|30.00,69.41|N|To Lyana Darksorrow (She has moved down the hill, easy to spot, just look for a couple dead Demons).|
-A A Fate Worse Than Dying|QID|40328|PRE|40901|M|30.00,69.41|N|From Lyana Darksorrow.|
-A Symbols of Power|QID|40929|PRE|40901|M|30.00,69.41|N|From Lyana Darksorrow.|
+T Grimwing the Devourer|QID|40901^44490|M|30.00,69.41|N|To Lyana Darksorrow (She has moved down the hill, easy to spot, just look for a couple dead Demons).|
+A A Fate Worse Than Dying|QID|40328|PRE|44490^40901|M|30.00,69.41|N|From Lyana Darksorrow.|  ; 44490 is DH Class
+A Symbols of Power|QID|40929|PRE|44490^40901|M|30.00,69.41|N|From Lyana Darksorrow.| ; 44490 is DH Class
 T The Road to Fel|QID|40657|M|26.77,70.86|N|To Kyrtos.|RANK|2|
 T Discovery Requires Experimentation|QID|40683|M|26.77,70.86|N|To Kyrtos.|
 A One Small Step for Magic|QID|40694|PRE|40657&40683|M|26.77,70.86|N|From Kyrtos.|RANK|2|
@@ -1084,7 +1084,7 @@ A Shard of Vorgos|QID|41097|PRE|40328&40929|M|30.02,69.39|N|From Lyana Darksorro
 A Shard of Kozak|QID|41098|PRE|40328&40929|M|30.02,69.39|N|From Lyana Darksorrow.|
 C The Black Tome|QID|40713|M|29.68,82.85|QO|1|N|Run down to the SW Corner of Felsoul Hold.\nPick up the The Black Tome floating in front of the altar.|
 C The Black Tome|QID|40713|M|29.68,82.85|QO|2|N|Kill Grand Summoner Abraxeton.|T|Grand Summoner Abraxeton|
-A The Key Is Around Here Somewhere...|QID|41139|M|28.44,82.74|N|From Angus Stormbrew, in the cage.|RANK|2|PRE|40328&40929|
+A The Key Is Around Here Somewhere...|QID|41139|M|28.44,82.74|N|From Angus Stormbrew, in the cage.|RANK|2|
 C The Key Is Around Here Somewhere...|QID|41139|M|28.64,81.29|NC|N|Loot Demonwaste Piles for Reinforced Cage Key.|
 T The Key Is Around Here Somewhere...|QID|41139|M|28.42,82.65|N|To Angus Stormbrew.|
 A Search and Rescue!|QID|41140|M|28.42,82.65|N|From Angus Stormbrew.|PRE|41139|RANK|2|
@@ -1105,7 +1105,7 @@ R Den of the Demented|QID|40713|ACTIVE|40713|M|26.79,70.79|N|Run back up to Kyrt
 T The Black Tome|QID|40713|M|26.79,70.79|N|To Kyrtos.|
 T Fel Bent for Leather|QID|40919|M|26.79,70.79|N|To Kyrtos.|
 T Power! Get The Power!|QID|40642|M|26.79,70.79|N|To Kyrtos.|
-A The Bigger They Are, The Harder They Fel|QID|42366|M|26.79,70.79|PRE|40642|N|From Kyrtos.\nUse His portal that he makes.|RANK|2|
+A The Bigger They Are, The Harder They Fel|QID|42366|M|26.79,70.79|PRE|40642&40713&40919|N|From Kyrtos.\nUse His portal that he makes.|RANK|2|
 C The Bigger They Are, The Harder They Fel|QID|42366|M|32.71,74.84|QO|1|CHAT|N|Chat with Kyrtos to start the ritual, when he decides he wants your soul, kill him.\nWhen Finished, a portal will appear to take you back to His cave.|
 C Hounds Abound|QID|40213|M|36.67,73.20|LVL|110|P|Leatherworking;165|S|T|Felsoul Ravener|N|Kill Felsoul Raveners for their Corpses.|
 C Into The Pit!|QID|41222|CS|M|30.51,80.60;33.33,74.22;34.27,74.04|NC|N|Escort Angus to Felmaw Cavern|
@@ -1129,7 +1129,7 @@ R Towards Vorgos|ACTIVE|41097|M|61.43,84.82;51.20,57.65;50.24,18.33|Z|Suramar/23
 C Shard of Vorgos|QID|41097|M|50.24,18.33|Z|Suramar/23|N|Kill Vorgos and loot his shard.|
 C Exotic Textiles|QID|38971|M|37.47,39.95|Z|Suramar/23|P|Tailoring;197|T|Djin'zal|N|Kill Djin'zal for the Fel Inscribed Shroud.|
 R The Fel Breach|ACTIVE|41097|M|53.15,72.22;42.35,67.59;43.16,40.24|CS|Z|Suramar/23|RANK|-1|
-A Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar/23|N|From Unpowered Telemancy Beacon.|RANK|-1|;Rank -1 because if you are doing the guide on rank 2 or 3, you did this earlier
+A Felsoul Teleporter Online!|QID|41575|PRE|40956|M|53.45,37.31|Z|Suramar/23|N|From Unpowered Telemancy Beacon.|RANK|-1|;Rank -1 because if you are doing the guide on rank 2 or 3, you did this earlier. Grail says need PRE
 T Felsoul Teleporter Online!|QID|41575|M|53.45,37.31|Z|Suramar/23|N|To Unpowered Telemancy Beacon.|RANK|-1|
 R Felsoul Hold|ACTIVE|41097|M|60.88,83.17|Z|Suramar/23|N|Run back outside.|
 R Felsoul Command|ACTIVE|41098|M|32.75,82.34;31.19,84.55|CS|N|Turn in both keys and wait for Lyana Darksorrow.|
@@ -1152,7 +1152,7 @@ K Kill Tallian|QID|40212|M|47.33,76.33|P|Leatherworking;165|T|Tallian|QO|2|N|Kil
 K Kill Feorias|QID|40212|M|46.15,77.14|P|Leatherworking;165|T|Feorias|QO|1|N|Kill Feorias, in the market, watch out for roving Seeing guards.|
 K Kill Syana|QID|40212|M|50.78,76.78|P|Leatherworking;165|T|Syana|QO|3|N|Kill Syana, he's over by Deline.|
 t Wrong End of the Knife|QID|40212|M|26.53,71.61|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
-A Fel Tanning|QID|40214|PRE|40212&40213|M|26.53,71.61|P|Leatherworking;165|N|From Stalriss Dawnrunner.|
+A Fel Tanning|QID|40214|M|26.53,71.61|P|Leatherworking;165|N|From Stalriss Dawnrunner.| ; Grail says dont need 40212&40213
 C Fel Tanning|QID|40214|M|26.54,71.70|P|Leatherworking;165|N|Create, at the tanning rack:\nFel Leather Cuff x2\nFel Leather Strap x10 (you make 2 each time).\n Create Felhide Bracers.|
 t Fel Tanning|QID|40214|M|26.53,71.61|P|Leatherworking;165|N|To Stalriss Dawnrunner.|
 
@@ -1169,12 +1169,12 @@ C Noressa|QID|45056|M|40.88,69.63|N|Noressa found.|RANK|2|
 T Noressa|QID|45056|M|39.05,66.24;39.58,60.06;39.52,51.17|CS|N|Run back to turn in to Absolon.|RANK|2|
 T Blast of Spice Fish|QID|41256|M|47.25,56.50|CS|N|To Keelay Moongrow, back near the Sanctum of Enlightenment.|RANK|2|
 T Bad Apples|QID|41107|M|47.25,56.50|N|To Keelay Moongrow|RANK|2|
-A Fruit of the Doom|QID|41258|PRE|41256|M|47.25,56.50|N|From Keelay Moongrow|RANK|2|
+A Fruit of the Doom|QID|41258|PRE|41256&41107|M|47.25,56.50|N|From Keelay Moongrow|RANK|2|
 C Fruit of the Doom|QID|41258|M|47.2,56.6|NC|N|Click on the bowls of fruit scattered around.|RANK|2|
 T Fruit of the Doom|QID|41258|M|47.25,56.50|N|To Keelay Moongrow|RANK|2|
 K Kill Lieutenant Strathmar|QID|40905|M|48.03,55.38;48.55,56.71|CS|T|Lieutenant Strathmar|N|Silver - Lieutenant Strathmar, for a bit of treasure and resources.|RANK|2|RARE|
 R The Menagerie|AVAILABLE|41216|M|44.27,56.60;45.23,57.72;48.95,62.18;51.61,58.71|CS|N|Head to The Menagerie|PRE|41258|RANK|2|FLY|LEGION|
-A Survival of the Fittest|QID|41216|PRE|41215|M|50.70,56.56|N|From Nighteyes, Down in the water.|RANK|2|
+A Survival of the Fittest|QID|41216|PRE|41215&41230|M|50.70,56.56|N|From Nighteyes, Down in the water.|RANK|2|
 C Survival of the Fittest|QID|41216|M|50.99,54.33;48.86,52.38|CS|U|134119|N|Target the Bound, Captive, or Confined creatures and use the overloaded coller to free them. As you move towards where you'll turn in the Quest. Some creatures will attack you.|RANK|2|
 T Survival of the Fittest|QID|41216|M|47.97,52.22|N|To Nighteyes.|RANK|2|
 A Apex Predator|QID|41231|M|47.97,52.22|N|From Nighteyes.|RANK|2|PRE|41216|
@@ -1253,7 +1253,7 @@ R Vineyard|ACTIVE|42841|M|46.71,73.25;48.05,65.37;49.87,60.16;47.50,50.83|CS|N|R
 C A Big Score|QID|42841|M|53.43,54.41|NC|N|Pick up the Thousand-Year Arcwine. Be stealthy or slaughter everything in your path.|
 T Asset Security|QID|43352|M|48.95,73.44|N|Return back to Evermoon Commons and Arluin.|
 T A Big Score|QID|42841|M|48.95,73.44|N|To Arluin.|
-A Make Your Mark|QID|42792|PRE|42841^43352|M|48.95,73.44|N|From Arluin.|
+A Make Your Mark|QID|42792|PRE|42841&43352|M|48.95,73.44|N|From Arluin.|
 C Make Your Mark|QID|42792|M|49.80,77.68|QO|1|CHAT|N|Cyrille is in the Evermoon Bazaar.|
 C Make Your Mark|QID|42792|M|48.28,78.19;47.54,77.06|CS|QO|3|CHAT|N|Sylessa Recruited, beside the Canal, in Evermoon Commens.|
 C Make Your Mark|QID|42792|M|47.48,70.60|QO|2|CHAT|N|Lorin Recruited. Careful, Mobs that see you all around.|
@@ -1263,7 +1263,7 @@ A And They Will Tremble|QID|44052|PRE|42792|M|48.37,83.33|N|From Vanthir.|
 P Shal'Aran|ACTIVE|44052|M|47.74,81.39|N|Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
 T And They Will Tremble|QID|44052|M|36.91,46.58|N|To First Arcanist Thalyssra.|
 
-A The Perfect Opportunity|QID|43309|M|36.87,46.57|N|From First Arcanist Thalyssra.|
+A The Perfect Opportunity|QID|43309|PRE|44052|M|36.87,46.57|N|From First Arcanist Thalyssra.|
 P Starcaller Retreat|QID|43309|M|36.48,44.72|N|Take the portal to the Waning Crescent. This next step requires you to have 1200 Ancient Mana.|ACTIVE|43309|
 C The Perfect Opportunity|QID|43309|M|47.85,83.06|N|Meet Ly'leth at the Waning Crescent|
 T The Perfect Opportunity|QID|43309|M|47.85,83.06|N|To Ly'leth Lunastre.|
@@ -1290,7 +1290,7 @@ T Thinly Veiled Threats|QID|43312|M|57.51,57.61|N|To Aurore.|
 A Vote of Confidence|QID|44040|M|57.51,57.61|N|From Aurore.|PRE|43312|
 T Rumor Has It|QID|43313|M|47.89,82.99|N|To Ly'leth Lunastre.|
 T Vote of Confidence|QID|44040|M|47.89,82.99|N|To Ly'leth Lunastre.|
-A In the Bag|QID|43317|M|47.89,82.99|N|From Ly'leth Lunastre.|PRE|44040|
+A In the Bag|QID|43317|M|47.89,82.99|N|From Ly'leth Lunastre.|PRE|44040&43313|
 C In the Bag|QID|43317|M|43.48,62.43|NC|N|Run to the Sanctum of Order and Witness Ly'leth's Ascension.|
 T In the Bag|QID|43317|M|43.26,62.20|N|To Ly'leth Lunastre.|
 A Ly'leth's Champion|QID|43318|M|43.26,62.20|N|From Ly'leth Lunastre.|PRE|43317|
@@ -1311,7 +1311,7 @@ T Friends With Benefits|QID|44053|M|36.56,46.77|N|To First Arcanist Thalyssra.|
 t Growing Strong|QID|44562|M|36.54,46.77|N|To Valewalker Farodin.|
 A Redemption for the Fallen|QID|44563|PRE|44562|M|36.54,46.77|N|From Valewalker Farodin.|
 
-A A Growing Crisis|QID|44152|PRE|44053&44562|M|36.54,46.77|N|From Valewalker Farodin.|
+A A Growing Crisis|QID|44152|PRE|43318|M|36.54,46.77|N|From Valewalker Farodin.|
 P Temple of Fal'adora|QID|44152|ACTIVE|44152|M|35.94,45.55|N|Take the Portal to Falanaar.|
 T A Growing Crisis|QID|44152|M|42.38,15.05|Z|Temple of Fal'adora@Suramar|N|To Valewalker Farodin.|
 A Fragments of Disaster|QID|43361|PRE|44152|M|42.38,15.05|Z|Temple of Fal'adora@Suramar|N|From Valewalker Farodin.|
@@ -1331,7 +1331,7 @@ C The Stuff of Dreams|QID|43362|M|36.51,46.75|QO|1|NA|N|Xavius slain - LFR Rift 
 C The Stuff of Dreams|QID|43362|M|36.51,46.75|QO|2|NA|NC|N|Purified Life Essence LFR Rift of Aln, After leaving the dream, near Cenarius|
 T The Stuff of Dreams|QID|43362|M|36.51,46.75|NA|N|To Valewalker Farodin.|
 
-A A Change of Seasons|QID|43502|PRE|43362|M|36.84,46.56|N|From Valewalker Farodin|
+A A Change of Seasons|QID|43502|PRE|43362&43318|M|36.84,46.56|N|From Valewalker Farodin|
 T A Change of Seasons|QID|43502|M|37.03,46.23|N|To Arcanist Valtrois|
 A Giving It All We've Got|QID|43562|PRE|43502|M|37.02,43.24|N|From Arcanist Valtrois|
 C Giving It All We've Got|QID|43562|M|37.2,46.24|CHAT|N|Talk to Arcanist Valtrois. Don't worry about the one still dark.|
@@ -1358,7 +1358,7 @@ t Redemption for the Fallen|QID|44563|M|36.84,46.51|N|To Valewalker Farodin.|
 T Bring Home the Beacon|QID|43565|M|37.14,46.64|N|To Chief Telemancer Oculeth.|
 T Flow Control|QID|43564|M|37.11,46.55|N|To Arcanist Valtrois.|
 T Ephemeral Manastorm Projector|QID|43563|M|37.09,46.55|N|To Arcanist Valtrois.|
-A All In|QID|43567|M|37.13,46.56|N|From First Arcanist Thalyssra. This kicks off the "All In" scenario, so be prepared *before* accepting the quest.|PRE|43565^43564^43563|
+A All In|QID|43567|M|37.13,46.56|N|From First Arcanist Thalyssra. This kicks off the "All In" scenario, so be prepared *before* accepting the quest.|PRE|43565&43564&43563|
 C Hitting the Books|QID|43567|M|27.95,66.22|Z|ArcwayScenario/1|SO|1|N|Duskwatch Archivist slain. ** Kill all, dont skip, or you won't hit 100% complete **|
 C The Nightflow Conduit|QID|43567|M|36.73,64.30|Z|ArcwayScenario/1|SO|2|N|Reach the door to the Nightflow Conduit.|
 C Knock Knock|QID|43567|M|36.72,63.61|Z|ArcwayScenario/1|SO|3;2|N|Defend Arluin while he opens the door. Slay the 5 waves that come at you.|
@@ -1374,7 +1374,7 @@ C Arcan'dor, Gift of the Ancient Magi|QID|43568|M|36.51,46.77|QO|1|CHAT|N|Share 
 C Arcan'dor, Gift of the Ancient Magi|QID|43568|M|36.55,46.78|QO|2|CHAT|N|Share Fruit with Valtrois. Takes a few seconds for her to eat it.|
 C Arcan'dor, Gift of the Ancient Magi|QID|43568|M|36.54,46.78|QO|3|CHAT|N|Share Fruit with Thalyssra. Takes a few seconds for her to eat it.|
 T Arcan'dor, Gift of the Ancient Magi|QID|43568|M|36.54,46.78|N|To First Arcanist Thalyssra.|
-A Arluin's Request|QID|43569|PRE|43568|M|36.46,46.62|N|From Vanthir.|
+A Arluin's Request|QID|43569|PRE|43567|M|36.46,46.62|N|From Vanthir.|
 P Starcaller Retreat|QID|43569|ACTIVE|43569|M|36.50,44.78|N|Take the Waning Crescent portal into Suramar (closest to Arluelle).|
 C Arluin's Request|QID|43569|M|47.55,66.37;48.24,66.84|CS|NC|QO|1|N|Run along the canal until you get to the dot. Go in the room and wait a few seconds.(near the WQ for freeing Prisoners (not up any stairs).|
 C Arluin's Request|QID|43569|M|48.24,66.84|QO|2|CHAT|N|Share Arcan'dor Fruit with Arluelle.|
@@ -1389,7 +1389,7 @@ B Pattern: Imbued Silkweave Slippers|PRE|38970|M|36.50,46.78|LVL|110|P|Tailoring
 
 ; Insurrection - Lockdown Storyline Quests
 
-A Insurrection|QID|45271|LEAD|45260|PRE|43568|N|Accepted from your adventurer's journal (SHIFT-J by default).|
+A Insurrection|QID|45271|LEAD|45260|PRE|43569&43568|N|Accepted from your adventurer's journal (SHIFT-J by default).|
 T Insurrection|QID|45271|M|36.51,46.80|N|To First Arcanist Thalyssra.|
 A One Day at a Time|QID|45260|PRE|43569|M|36.51,46.80|N|From First Arcanist Thalyssra.\n*Bread Crumb Quest: Check your Adventurer's Journal*|
 C One Day at a Time|QID|45260|M|37.90,45.65|QO|1|NC|U|143597|N|Click on a Suramar Refugee.|
@@ -1412,7 +1412,7 @@ C No Reason to Stay|QID|38720|M|50.55,84.99|QO|4|NC|N|Master Devlyn Evacuated, c
 C Answering Aggression|QID|38692|M|47.80,81.53|US|N|Finish killing Elisande's Forces.|
 T Answering Aggression|QID|38692|M|49.74,85.35|N|To Silgryn.|
 T No Reason to Stay|QID|38720|M|49.74,85.35|N|To Silgryn.|
-A Regroup|QID|38694|PRE|38720|M|49.74,85.35|N|From Silgryn.|
+A Regroup|QID|38694|PRE|38720&38692|M|49.74,85.35|N|From Silgryn.|
 C Regroup|QID|38694|M|51.01,87.05|QO|1|NC|N|Follow Silgryn|
 C Regroup|QID|38694|M|51.07,87.09|QO|2|NC|N|Ride on Deline's Gondola.|
 C Regroup|QID|38694|M|51.55,78.97|QO|3|NC|N|Teleport to the Top of the Terrace.|
@@ -1441,7 +1441,7 @@ C Missing Persons|QID|44724|M|53.65,71.48|N|Kill Legion Demons till you find the
 C More Like Me|QID|44723|M|54.46,69.90|US|NC|U|142065|N|Deserters Identified.|
 T More Like Me|QID|44723|M|52.05,79.13|N|To Victoire (back by the Evermoon Terrace Portal).|
 T Missing Persons|QID|44724|M|52.05,79.13|N|To Silgryn.|
-A Hostage Situation|QID|44725|PRE|44724|M|52.05,79.13|N|From Silgryn.|
+A Hostage Situation|QID|44725|PRE|44724&44723|M|52.05,79.13|N|From Silgryn.|
 C Hostage Situation|QID|44725|M|52.62,74.56|QO|1|NC|N|You can again use the rune if you want. Cross the Harbour and join Group of Captives|
 C Hostage Situation|QID|44725|M|24.88,88.90|QO|2|NC|N|Click on the last prisoner in line and just enjoy the boat ride.|
 T Hostage Situation|QID|44725|M|24.86,88.74|N|To Silgryn.|
@@ -1453,7 +1453,7 @@ C In the Business of Souls|QID|44726|M|26.65,89.07|N|Slay Aargoss|
 C Smuggled!|QID|44727|M|25.79,87.07|US|QO|2|NC|N|Finish releasing citizens from Cages.|
 T Smuggled!|QID|44727|M|24.74,88.89|N|To Maribeth.|
 T In the Business of Souls|QID|44726|M|24.86,88.72|N|To Silgryn.|
-A Waning Refuge|QID|44814|PRE|44726|M|24.86,88.72|N|From Silgryn.|
+A Waning Refuge|QID|44814|PRE|44726&44727|M|24.86,88.72|N|From Silgryn.|
 C Waning Refuge|QID|44814|M|24.62,88.90|NC|N|Hop on Deline's Gondola.|
 T Waning Refuge|QID|44814|M|52.41,80.18|N|To Silgryn.|
 P Shal'Aran|QID|45262|PRE|44814|M|51.94,79.08;52.00,78.74|CS|N|Take Portal back to Shal'Aran.\nOR: Use your Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back.|
@@ -1494,7 +1494,7 @@ t Stabilizing Suramar|QID|45316|M|36.48,46.73|N|To First Arcanist Thalyssra.|
 
 ; Insurrection - An Elven Problem - Storyline. (Horde (40362) / Alliance (40391) quest splits
 
-A Insurrection: An Elven Problem|QID|45278|PRE|45316|LEAD|45263|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+A Insurrection: An Elven Problem|QID|45278|LEAD|45263|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
 T Insurrection: An Elven Problem|QID|45278|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 A Eating Before the Meeting|QID|45263|PRE|45316|M|36.49,46.72|N|From First Arcanist Thalyssra.|
 C Eating Before the Meeting|QID|45263|M|37.45,47.42|NC|U|143597|N|Use fruit on a Suramar Refugee.|
@@ -1504,11 +1504,11 @@ R Take Me To Your Leader|ACTIVE|40632^40391|M|34.84,47.97;35.95,51.11|CS|N|Run t
 T Take Me To Your Leader|QID|40632|M|40.54,53.09|N|To Archmage Khadgar.|FACTION|HORDE|
 A Taking a Promenade|QID|41607|PRE|40632|M|40.54,53.09|N|From Grand Magister Rommath.|FACTION|HORDE|
 A Down to Business|QID|43812|PRE|40632|M|40.54,53.09|N|From Lady Liadrin.|FACTION|HORDE|
-A A Better Future|QID|41916|PRE|40632|M|40.54,53.09|N|From First Arcanist Thalyssra.|FACTION|HORDE|
+A A Better Future|QID|41916|PRE|40632|M|40.54,53.09|N|From First Arcanist Thalyssra.|FACTION|HORDE|  ;  40632 Horde, 40391 Alliance  - Quests have separate lines.
 T Take Me To Your Leader|QID|40391|M|41.66,51.64|N|To Archmage Khadgar.|FACTION|ALLIANCE|
 A Taking a Promenade|QID|44831|PRE|40391|M|41.70,51.54|N|From Vereesa Windrunner.|FACTION|ALLIANCE|
 A Down to Business|QID|43810|PRE|40391|M|41.64,51.48|N|From Tyrande Whisperwind.|FACTION|ALLIANCE|
-A A Better Future|QID|41916|PRE|40391|M|41.60,51.65|N|From First Arcanist Thalyssra.|FACTION|ALLIANCE|
+A A Better Future|QID|41916|PRE|40391|M|41.60,51.65|N|From First Arcanist Thalyssra.|FACTION|ALLIANCE|  ;  40632 Horde, 40391 Alliance  - Quests have separate lines.
 C Down to Business|QID|43812^43810|M|40.56,63.94|S|N|Slay Suramar Defenders as you go.|
 C A Better Future|QID|41916|M|41.45,61.20|S|NC|T|Shal'dorei Insurgent|N|Rally Shal'dorei Insurgents, as you go.|
 C Taking a Promenade|QID|41607|M|40.54,64.03|QO|2|NC|N|Locate Sentinel Moonshade.|FACTION|HORDE|
@@ -1533,18 +1533,18 @@ C Down to Business|QID|43812^43810|M|40.56,63.94|US|N|Finish your quota of slain
 T A Better Future|QID|41916|M|40.51,53.09|N|To First Arcanist Thalyssra.|FACTION|HORDE|
 T Down to Business|QID|43812|M|40.51,53.09|N|To Lady Liadrin.|FACTION|HORDE|
 T Taking a Promenade|QID|41607|M|40.51,53.09|N|To Grand Magister Rommath.|FACTION|HORDE|
-A Break An Arm|QID|44845|PRE|41916&41607&43812|M|40.51,53.09|N|From First Arcanist Thalyssra.|FACTION|HORDE|
+A Break An Arm|QID|44845|PRE|41916&41607&43812|M|40.51,53.09|N|From First Arcanist Thalyssra.|FACTION|HORDE|   ; Horde 41916&41607&43812, Alliance 41916&44831&43810 - Quests have separate lines
 T A Better Future|QID|41916|M|41.60,51.65|N|To First Arcanist Thalyssra.|FACTION|ALLIANCE|
 T Down to Business|QID|43810|M|41.64,51.48|N|To Tyrande Whisperwind.|FACTION|ALLIANCE|
 T Taking a Promenade|QID|44831|M|41.70,51.54|N|To Vereesa Windrunner.|FACTION|ALLIANCE|
-A Break An Arm|QID|44845|PRE|41916&44831&43810|M|41.60,51.65|N|From First Arcanist Thalyssra.|FACTION|ALLIANCE|
+A Break An Arm|QID|44845|PRE|41916&44831&43810|M|41.60,51.65|N|From First Arcanist Thalyssra.|FACTION|ALLIANCE|   ; Horde 41916&41607&43812, Alliance 41916&44831&43810 - Quests have separate lines
 C Break An Arm|QID|44845|M|46.98,50.35;57.11,48.79|CS|N|Slay the Arm of the Magistrix.|
 T Break An Arm|QID|44845|M|40.55,53.08|N|To First Arcanist Thalyssra.|FACTION|HORDE|
 T Break An Arm|QID|44845|M|41.60,51.65|N|To First Arcanist Thalyssra.|FACTION|ALLIANCE|
 
 ; Insurrection - Crafting War Storyline - (more Horde (44859) / Alliance (44743) Splits)
 
-A Insurrection: Crafting War|QID|45280|PRE|44845|LEAD|45265|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+A Insurrection: Crafting War|QID|45280|LEAD|45265|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
 T Insurrection: Crafting War|QID|45280|M|36.50,46.72|N|To First Arcanist Thalyssra.|
 A Feeding the Rebellion|QID|45265|PRE|44845|M|36.50,46.72|N|From First Arcanist Thalyssra, in Shal'Aran.|
 C Feeding the Rebellion|QID|45265|M|37.45,47.42|NC|U|143597|N|Use fruit on a Suramar Refugee.|
@@ -1572,10 +1572,10 @@ T A Dance With Dragons|QID|44876|M|36.50,46.72|N|To First Arcanist Thalyssra.|
 R Meredil|ACTIVE|44859^44743|M|34.84,47.97;35.95,51.11|CS|N|Run to Our Forces outside the City.|FLY|LEGION|
 T Liadrin's Command|QID|44859|M|40.49,53.07|N|To Lady Liadrin.|FACTION|HORDE|
 A Trolling Them|QID|44860|PRE|44859|M|40.49,53.07|N|From Lady Liadrin.|FACTION|HORDE|
-A Something's Not Quite Right...|QID|44928|PRE|44859|M|40.55,53.11|N|From Archmage Khadgar.|FACTION|HORDE|
+A Something's Not Quite Right...|QID|44928|PRE|44859|M|40.55,53.11|N|From Archmage Khadgar.|FACTION|HORDE|  ;  Horde / Alliance Spilt Quest Lines - ignore Grail
 T Tyrande's Command|QID|44743|M|41.64,51.48|N|To Tyrande Whisperwind.|FACTION|ALLIANCE|
 A Trolling Them|QID|44858|PRE|44743|M|41.64,51.48|N|From Tyrande Whisperwind.|FACTION|ALLIANCE|
-A Something's Not Quite Right...|QID|44928|PRE|44743|M|41.66,51.64|N|From Archmage Khadgar.|FACTION|ALLIANCE|
+A Something's Not Quite Right...|QID|44928|PRE|44743|M|41.66,51.64|N|From Archmage Khadgar.|FACTION|ALLIANCE|   ;  Horde / Alliance Spilt Quest Lines - ignore Grail
 C Something's Not Quite Right...|QID|44928|M|41.94,51.42|S|U|142375|N|Look for NPCs in a purple fire, use the item, and kill them. Check both camps.|
 C Trolling Them|QID|44860^44858|M|42.55,51.30|NC|N|As you run around finding Infiltrators, click on the items laying around, Check both camps.|
 C Something's Not Quite Right...|QID|44928|M|41.94,51.42|US|U|142375|N|5 Shal'dorei Infiltrators found.|
@@ -1584,11 +1584,11 @@ T Trolling Them|QID|44860|M|40.49,53.07|N|To Lady Liadrin.|FACTION|HORDE|
 A Arming the Rebels|QID|44862|PRE|44860|M|40.49,53.08|N|From Lady Liadrin.|FACTION|HORDE|
 T Something's Not Quite Right...|QID|44928|M|41.66,51.64|N|To Archmage Khadgar.|FACTION|ALLIANCE|
 T Trolling Them|QID|44858|M|41.64,51.48|N|To Tyrande Whisperwind.|FACTION|ALLIANCE|
-A Arming the Rebels|QID|44861|PRE|44858|M|41.64,51.48|N|From Tyrande Whisperwind.|FACTION|ALLIANCE|
+A Arming the Rebels|QID|44861|PRE|44858|M|41.64,51.48|N|From Tyrande Whisperwind.|FACTION|ALLIANCE|  ; Grail says Alliance 44928 need as well, but Horde's doesnt?  Ignoring Grail
 T Arming the Rebels|QID|44862^44861|M|39.80,51.18|N|To Victoire.|
-A Citizens' Army|QID|44827|PRE|44862&44861|M|39.80,51.18|N|From Victoire.|
-A We Need Weapons|QID|44829|PRE|44862&44861|M|39.90,51.39|N|From Chief Telemancer Oculeth.|
-A Learning From the Dead|QID|44830|PRE|44862&44861|M|39.93,50.96|N|From Silgryn.|
+A Citizens' Army|QID|44827|PRE|44862^44861|M|39.80,51.18|N|From Victoire.|
+A We Need Weapons|QID|44829|PRE|44862^44861|M|39.90,51.39|N|From Chief Telemancer Oculeth.|
+A Learning From the Dead|QID|44830|PRE|44862^44861|M|39.93,50.96|N|From Silgryn.|
 F Black Rook Hold|QID|44830|ACTIVE|44830|N|Click on Dusktalon for a ride to Black Rook Hold.|
 C Citizens' Army|QID|44827|M|44.13,48.62|Z|Val'sharah|S|N|Slay Black Rook forces.|
 C Learning From the Dead|QID|44830|M|42.04,52.22|Z|Val'sharah|S|NC|N|Loot Books of Tactics that are laying around.|
@@ -1599,15 +1599,15 @@ F Meredil|QID|44830|ACTIVE|44830|M|39.93,50.96|U|6948|N|Use your Hearthstone (If
 T We Need Weapons|QID|44829|M|39.90,51.36|N|To Chief Telemancer Oculeth.|
 T Citizens' Army|QID|44827|M|39.79,51.21|N|To Victoire.|
 T Learning From the Dead|QID|44830|M|39.93,50.96|N|To Silgryn.|
-A Trial by Demonfire|QID|44790|PRE|44830|M|39.93,50.96|N|From Silgryn.|
+A Trial by Demonfire|QID|44790|PRE|44830&44827&44829|M|39.93,50.96|N|From Silgryn.|
 C Trial by Demonfire|QID|44790|M|33.89,49.07|QO|1|N|Kill Rozzeleth, back near the Flight Path for Shal'Aran.|
 T Trial by Demonfire|QID|44790|M|39.93,50.96|N|To Silgryn.|
 
 ; Insurrection - March on Suramar - Storyline
 
-A Insurrection: March on Suramar|QID|45281|PRE|44790|LEAD|45266|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+A Insurrection: March on Suramar|QID|45281|LEAD|45266|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
 T Insurrection: March on Suramar|QID|45281|M|36.50,46.72|N|To First Arcanist Thalyssra.|
-A A United Front|QID|45266|PRE|44790&44876|M|36.50,46.72|N|From First Arcanist Thalyssra, in Shal'Aran.|
+A A United Front|QID|45266|PRE|44790|M|36.50,46.72|N|From First Arcanist Thalyssra, in Shal'Aran.|
 C A United Front|QID|45266|M|37.74,47.68|NC|U|143597|N|Use fruit on a Suramar Refugee.|
 T A United Front|QID|45266|M|36.50,46.72|N|To First Arcanist Thalyssra.|
 A Ready for Battle|QID|44739|PRE|45266|M|36.50,46.72|N|From First Arcanist Thalyssra.|
@@ -1630,9 +1630,9 @@ T Staging Point|QID|44740|M|54.88,72.87|N|To Archmage Khadgar.|
 
 ; Insurrection - Elisande's Retort - Storyline.
 
-A Insurrection: Elisandre's Retort|QID|45282|PRE|44740|AVAILABLE|45267|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+A Insurrection: Elisande's Retort|QID|45282|AVAILABLE|45267|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
 H Shal'Aran|QID|45267|PRE|45317|M|54.48,69.46|N|Use your Portal at this location, Hearthstone (If set to Shal'Aran), Flight Master's Whistle, or just run back to Shal'Aran.|
-T Insurrection: Elisandre's Retort|QID|45282|M|36.50,46.72|N|To First Arcanist Thalyssra.|
+T Insurrection: Elisande's Retort|QID|45282|M|36.50,46.72|N|To First Arcanist Thalyssra.|
 A Before the Siege|QID|45267|PRE|44740|M|36.50,46.72|N|From First Arcanist Thalyssra, in Shal'Aran.|
 C Before the Siege|QID|45267|M|37.74,47.68|NC|U|143597|N|Use fruit on a Suramar Refugee.|
 T Before the Siege|QID|45267|M|36.50,46.72|N|To First Arcanist Thalyssra.|
@@ -1663,7 +1663,7 @@ T The Seal's Power|QID|44833|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 
 ; Insurrection - As Strong As Our Will - Storyline
 
-A Insurrection: As Strong As Our Will|QID|45285|PRE|44833|AVAILABLE|45268|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+A Insurrection: As Strong As Our Will|QID|45285|AVAILABLE|45268|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
 T Insurrection: As Strong As Our Will|QID|45285|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 A The Advisor and the Arcanist|QID|45268|PRE|44833|M|36.50,45.83|N|From First Arcanist Thalyssra.|
 C The Advisor and the Arcanist|QID|45268|M|37.74,47.68|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
@@ -1700,7 +1700,7 @@ C Experimental Instability|QID|45066|NC|QO|3|N|Find Discarded Orbs, laying aroun
 C Experimental Instability|QID|45066|M|58.49,35.70|NC|QO|2|N|Find Telemancy Notes, lying in a box.|
 P Shal'Aran|QID|45066|ACTIVE|45066|M|59.06,36.15|N|Take portal back to Shal'Aran.|
 T Experimental Instability|QID|45066|M|36.63,45.08|N|To Chief Telemancer Oculeth.|
-A Felborne No More|QID|45064|PRE|45063&45066|M|36.49,45.83|N|From First Arcanist Thalyssra.|
+A Felborne No More|QID|45064|PRE|45062&45066|M|36.49,45.83|N|From First Arcanist Thalyssra.|
 F Crimson Thicket|ACTIVE|45064|M|34.38,49.43|N|Fly to Crimson Thicket at Ancient Cloudwing.|
 R Felborne Outpost|ACTIVE|45064|M|64.48,46.78;65.06,53.28|CS|N|Run to Felborne Outpost.|FLY|LEGION|
 C Felborne No More|QID|45064|M|65.53,54.42|QO|2|U|142491|S|N|Kill Felborne, Use Orb, or just kill outright.|
@@ -1711,7 +1711,7 @@ T Felborne No More|QID|45064|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 
 ; Insurrection - Breaking the Nighthold - Storyline
 
-A Insurrection: Breaking the Nighthold|QID|45287|PRE|45064|AVAILABLE|45269|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
+A Insurrection: Breaking the Nighthold|QID|45287|AVAILABLE|45269|N|From your adventurer's journal (Shift-J by default), its a breadcrumb and you only miss out on 1.94gp if you skip it.|
 T Insurrection: Breaking the Nighthold|QID|45287|M|36.49,45.83|N|To First Arcanist Thalyssra.|
 A A Taste of Freedom|QID|45269|PRE|45064|LEAD|45287|M|36.49,45.83|N|From First Arcanist Thalyssra.|
 C A Taste of Freedom|QID|45269|M|37.74,47.68|QO|1|U|143597|N|Use fruit on a Suramar Refugee.|
@@ -1737,12 +1737,12 @@ C Finally, Andaris|QID|44719|SO|6|M|43.69,62.33|U|142118|N|Use Withered to Drain
 C Death to Andaris|QID|44719|SO|7|M|42.61,61.79|U|142118|N|Andaris has fallen back to the breach. Slay her.|
 C Reach the entrance to the Nighthold|QID|44719|M|44.13,60.04|SO|8|N|Reach the entrance to the Nighthold (wait a minute or so after arriving for Khadgar to finish talking).|
 T Breaching the Sanctum|QID|44719|M|44.18,60.12|N|To Archmage Khadgar.|
-A Lord of the Shadow Council|QID|45417|PRE|44719|M|44.18,60.12|N|From Archmage Khadgar. *Raid Quest*|
-T Lord of the Shadow Council|QID|45417|M|44.18,60.12|N|To Archmage Khadgar. *Inside Raid!!!|
-A The Eye of Aman'thul|QID|45420|PRE|45417|N|From Archmage Khadgar. *Inside Raid!!|
-C The Eye of Aman'thul|QID|45420|CHAT|N|Talk to Khadgar.|
-T The Eye of Aman'thul|QID|45420|M|28.48,48.29|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
-A Fate of the Nightborne|QID|45372|PRE|45420|M|36.62,45.08|N|From Chief Telemancer Oculeth.|
+A The Nighthold: Lord of the Shadow Council|QID|45417|PRE|44719|M|44.18,60.12|N|From Archmage Khadgar. *Raid Quest*|
+T The Nighthold: Lord of the Shadow Council|QID|45417|M|44.18,60.12|N|To Archmage Khadgar. *Inside Raid!!!|
+A The Nighthold: The Eye of Aman'Thul|QID|45420|PRE|45417|N|From Archmage Khadgar. *Inside Raid!!|
+C The Nighthold: The Eye of Aman'Thul|QID|45420|CHAT|N|Talk to Khadgar.|
+T The Nighthold: The Eye of Aman'Thul|QID|45420|M|28.48,48.29|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
+A Fate of the Nightborne|QID|45372|M|36.62,45.08|N|From Chief Telemancer Oculeth.|
 C Fate of the Nightborne|QID|45372|M|36.62,45.08|CHAT|N|Tell Oculeth, that you are ready.|
 T Fate of the Nightborne|QID|45372|N|To First Arcanist Thalyssra. (Inside Nighthold Raid, make sure your Raid is set for Normal, or you might not see anyone)|
 
