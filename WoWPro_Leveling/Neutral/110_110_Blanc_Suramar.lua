@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2020-08-21 01:04
+-- Who: Blanckaert
+-- Log: made changes that Grail was screaming about, pushed to Github, and repasted whole file here.
+
+-- URL: http://wow-pro.com/node/3687/revisions/30360/view
 -- Date: 2019-08-08 15:55
 -- Who: Fluclo
 -- Log: Masquerade quest to Non-Combat
@@ -249,11 +254,6 @@
 -- Date: 2016-12-15 15:37
 -- Who: Blanckaert
 -- Log: interrupts flow, but moved the Waning Crescent Arc up then go to Jandvik, and other side quests to fill time till Honoured.
-
--- URL: http://wow-pro.com/node/3687/revisions/28154/view
--- Date: 2016-12-15 06:36
--- Who: Emmaleah
--- Log: Various adjustments.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
