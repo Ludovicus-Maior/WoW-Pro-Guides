@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3687
+-- Date: 2020-08-22 01:32
+-- Who: Blanckaert
+-- Log: added some notes, reverted some changes that Grail said.
+
+-- URL: http://wow-pro.com/node/3687/revisions/30615/view
 -- Date: 2020-08-21 01:04
 -- Who: Blanckaert
 -- Log: made changes that Grail was screaming about, pushed to Github, and repasted whole file here.
@@ -249,11 +254,6 @@
 -- Date: 2016-12-16 02:12
 -- Who: Ludovicus_Maior
 -- Log: One tiny line feed.
-
--- URL: http://wow-pro.com/node/3687/revisions/28156/view
--- Date: 2016-12-15 15:37
--- Who: Blanckaert
--- Log: interrupts flow, but moved the Waning Crescent Arc up then go to Jandvik, and other side quests to fill time till Honoured.
 
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
 WoWPro:GuideLevels(guide,110, 110)
@@ -533,7 +533,7 @@ B Pattern: Imbued Silkeweave Shade|PRE|38970|M|40.2,69.6|LVL|110|P|Tailoring;197
 B Pattern: Imbued Silkeweave Drape|PRE|38970|M|40.2,69.6|LVL|110|P|Tailoring;197|L|127278|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186115|
 B Pattern: Imbued Silkeweave Cover|PRE|38970|M|40.2,69.6|LVL|110|P|Tailoring;197|L|127277|N|From Leyweaver Inondra. (100 Shal'dorei Silk)|RECIPE|186112|
 A Inspire Me!|QID|38975|PRE|38970|M|40.20,69.55|P|Tailoring;197|N|From Leyweaver Mithrogane.|  ; Grail says No PRE, but you need to unlock the Loom, Ludo thinks it should be 38968.
-C Inspire Me!|QID|38975|M|40.22,69.55|P|Tailoring;197|QO|5|N|Craft the following:\nBrown Linen Robe\nWhite Woolen Dress\nSimple Black Dress\nFrostwoven Robe\nSpiritmend Robe\n[color=FF0000]All near Leyweaver Mithrogane[/color]\n\nRight click this step off if you can't complete now, to continue the guide.  Each time you come back to the guide this should popup for you.|
+C Inspire Me!|QID|38975|M|40.22,69.55|P|Tailoring;197|QO|5|N|Craft the following:\nBrown Linen Robe\nWhite Woolen Dress\nSimple Black Dress\nFrostwoven Robe\nSpiritmend Robe\nAll near Leyweaver Mithrogane\n\nRight click this step off if you can't complete now, to continue the guide.  Each time you come back to the guide this should popup for you.|
 t Inspire Me!|QID|38975|M|40.22,69.55|P|Tailoring;197|N|To Leyweaver Mithrogane.|
 
 ; might need to add more after big bag theory is done...
@@ -588,7 +588,7 @@ A The Valewalker's Burden|QID|42230|M|35.21,54.35|Z|Temple of Fal'adora@Suramar|
 C The Valewalker's Burden|QID|42230|M|40.80,13.82|Z|Temple of Fal'adora@Suramar|NC|N|Follow Valewalker Farodin to find the beacon. Activate the Fal'adora Beacon.|
 T The Valewalker's Burden|QID|42230|M|36.86,46.49|N|To Seedholder.|
 A Seed of Hope|QID|44561|M|36.86,46.49|N|From Valewalker Farodin. This is completed by raising your  Faction rep to Honored with The Nightfallen.|PRE|42230|
-A Leyline Apprentice|QID|44492|PRE|41028|M|37.01,46.39|N|From Arcanist Valtrois. Requires 3 Leylines restored.|  ; Originally had PRE|41028&43593&43592, Grail says only 41028 needed. 
+A Leyline Apprentice|QID|44492|PRE|41028|M|37.01,46.39|N|From Arcanist Valtrois. Requires 3 Leylines restored.|  ; Originally had PRE|41028&43593&43592, Grail says only 41028 needed.
 T Leyline Apprentice|QID|44492|M|37.01,46.39|N|To Arcanist Valtrois.|
 A Building an Army|QID|44636|M|36.88,46.60|N|From First Arcanist Thalyssra. Requires [Uniting the Isles]|PRE|42230| ; Originally had PRE|42230&43341|
 
