@@ -160,6 +160,13 @@ function WoWPro.QuestLog_IsComplete(questID)
         return select(6, _G.GetQuestLogTitle(_G.GetQuestLogIndexByID(questID)))
     end
 end
+function WoWPro.QuestLog_IsQuestFlaggedCompleted(questID)
+    if WoWPro.RETAIL then
+        return _G.C_QuestLog.IsQuestFlaggedCompleted(questID)
+    else
+        return _G.IsQuestFlaggedCompleted(questID)
+    end
+end
 
 
 --[[ C_SuperTrack ]]--

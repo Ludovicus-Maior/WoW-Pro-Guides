@@ -2847,7 +2847,7 @@ function WoWPro:IsQuestFlaggedCompleted(qid,force)
     end
     if QID > 0 then
         if is_int(QID) then
-            WoWProCharDB.completedQIDs[QID] = _G.IsQuestFlaggedCompleted(QID) or false
+            WoWProCharDB.completedQIDs[QID] = WoWPro.QuestLog_IsQuestFlaggedCompleted(QID) or false
             return WoWProCharDB.completedQIDs[QID]
         else
             QID = floor(QID)
@@ -2855,7 +2855,7 @@ function WoWPro:IsQuestFlaggedCompleted(qid,force)
             return WoWProCharDB.completedQIDs[QID]
         end
     else
-        WoWProCharDB.completedQIDs[-QID] = _G.IsQuestFlaggedCompleted(-QID) or false
+        WoWProCharDB.completedQIDs[-QID] = WoWPro.QuestLog_IsQuestFlaggedCompleted(-QID) or false
         return not WoWProCharDB.completedQIDs[-QID]
     end
 end
