@@ -6,43 +6,48 @@ WoWPro:GuideLevels(guide,21, 30)
 WoWPro:GuideNextGuide(guide, 'Classic-31-40-Hendo-HordeChapter2')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Welcome!|QID|4641|N|This is a new guide written by TheRealHendo. It is currently a beta version.\nIf you find a problem, please report it on Discord in #classic-bug-reports .  Enjoy and thanks!|
+N Welcome!|QID|1483|N|This is a new guide written by TheRealHendo. It is currently a beta version.\nIf you find a problem, please report it on Discord in #classic-bug-reports .  Enjoy and thanks!|
 
-C Goblin Invaders|QID|1062|QO|1|N|Kill Venture Co. Loggers. Deforesters and Operators do not count.|S|
-A Boulderslide Ravine|QID|6421|M|44.84,63.26;47.15,64.06|CC|N|From Mor'rogal. You'll find him just off the path to the Charred Vale.|
-h Sun Rock Retreat|QID|1483|N|Set your hearthstone to Sun Rock Retreat.|
+C Goblin Invaders|QID|1062|QO|1|N|Kill Venture Co. Loggers.\n[color=FF0000]NOTE: [/color]Deforesters and Operators do not count.|S|
+A Boulderslide Ravine|QID|6421|M|44.84,63.26;47.15,64.06|CC|N|From Mor'rogal. You'll find him just off the Charred Vale path.|
+h Sun Rock Retreat|QID|1483|M|47.46,62.13|N|Head back down the path to the 'Inn' and set your hearthstone to Sun Rock Retreat.|
 R Windshear Crag|QID|1483|M|49.51,61.02;53.15,61.61;59.97,71.14|CC|N|Head to the Sun Rock Retreat entrance and follow the road south to the Windshear Crag sign.|
-T Ziz Fizziks|QID|1483|M|61.36,63.19;58.99,62.61|CC|QO|1|N|Follow the road into Windshear Crag. Ziz Fizziks is inside a hut in a SW alcove.|
+T Ziz Fizziks|QID|1483|M|61.36,63.19;58.99,62.61|CC|N|Follow the road into Windshear Crag. Ziz Fizziks is inside a hut in a SW alcove.|
 A Super Reaper 6000|QID|1093|M|58.99,62.61|N|From Ziz Fizziks.|
-l Super Reaper 6000|QID|1093|L|5734 1|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|S|
-C Goblin Invaders|QID|1062|M|63.35,57.72|QO|1|N|Kill Venture Co. Loggers. Deforesters and Operators do not count.|US|
-l Super Reaper 6000|QID|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|US|
+C Super Reaper 6000|QID|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|S|
+R Head into Windshear Crag|QID|1062|M|63.35,57.72|CC|N|Head to the deforested area of Windshear Crag.|
+C Goblin Invaders|QID|1062|QO|1|N|Finish killing Venture Co. Loggers.|US|
+C Super Reaper 6000|QID|1093|L|5734|N|Kill Venture Co. Operators until they drop the blueprints. You'll find them around equipment and buildings.|US|
 T Super Reaper 6000|QID|1093|M|58.99,62.61|N|To Ziz Fizziks.|
 A Further Instructions|QID|1094|M|58.99,62.61|N|From Ziz Fizziks.|PRE|1093|
-A Arachnophobia|QID|6284|M|59.79,71.43;59.08,75.72|CC|ELITE|N|Head back to the signpost at the Windshear Crag entrance and follow the road south. From the Wanted Poster, located beside the road.\n[color=FF0000]NOTE: [/color]Strongly recommended only to accept this quest if you are over level or can find a PUG to do this. Bessaleth is a lv 21 Elite mob.|
-K Bessaleth|ACTIVE|6284|T|Bessaleth|L|16192|N|Bessaleth is somewhere in here. She has multiple spawn points. Generally, you'll find her in one of the alcoves along the edge.|
-R Boulderslide Ravine|QID|6421|ACTIVE|-6284|M|59.79,71.43;67.69,86.82;66.24,89.37|CC|N|Head back to the signpost at the Windshear Crag entrance and follow the road south.|
-R Boulderslide Ravine|QID|6421|ACTIVE|6284|M|67.69,86.82;66.24,89.37|CC|N|Head back to the road and follow it south.|
-C Boulderslide Ravine|QID|6421|QO|2|N|Collect Resonite Crystals.|NC|S|
-R Investigate Cave|QID|6421|M|58.95,90.12|N|Make your way to the water at the back of the cave to complete this step.|
-;L Level 23|QID|6421|N|You should be around level 23 by this point.|
-C Boulderslide Ravine|QID|6421|QO|2|N|Finish collecting the Resonite Crystals.|NC|US|
-R Exit the Cave|QID|6421|M|61.72,93.13;67.76,86.64|CC|N|Exit the cave and make your way back to the road.|
-R Malaka'jin|QID|6421|M|71.82,91.70|CC|N|Follow the road south to Malaka'jin.|
+R Webwinder Path|QID|1062|M|59.79,71.19|N|Make your way back to the signpost at the Windshear Crag entrance.|
+A Arachnophobia|QID|6284|M|59.08,75.72|ELITE|N|Follow the road south and get the quest from the Wanted Poster located beside the road.\n[color=FF0000]NOTE: [/color]Strongly recommended only to accept this quest if you are over level or can find a PUG to do this. Bessaleth is a lv 21 Elite mob.|
+R Sishir Canyon|ACTIVE|6284|M|58.25,75.98|N|Head over the hill into Sishir Canyon.|
+K Bessaleth|ACTIVE|6284|L|16192|N|Bessaleth is somewhere in here. She has multiple spawn points. Generally, you'll find her in one of the alcoves along the edge.|
+R Webwinder Path|QID|6421|ACTIVE|6284|M|58.25,75.98|N|Exit Sishir Canyon and head back to the road.|
+R Boulderslide Ravine|ACTIVE|6421|M|67.69,86.82;66.24,89.37|CC|N|Follow the road south.|
+C Boulderslide Ravine|QID|6421|L|16581 10|N|Collect Resonite Crystals.|S|
+R Boulderslide Cavern|ACTIVE|6421|M|61.98,93.16|N|Make your way to the cave entrance.|
+R Investigate Cave|QID|6421|M|58.95,90.12|CC|N|Make your way to the water at the back of the cave to complete this step.|
+; Level 23
+C Boulderslide Ravine|QID|6421|L|16581 10|N|Finish collecting the Resonite Crystals.|US|
+R Webwinder Path|ACTIVE|6421|M|61.72,93.13;67.76,86.64|CC|N|Exit the cave and make your way back to the road.|
+R Malaka'jin|AVAILABLE|1058|M|71.82,91.70|CC|N|Follow the road south to Malaka'jin.|
 A Jin'Zil's Forest Magic|QID|1058|M|74.52,97.84|N|From Witch Doctor Jin'Zil.|
 
 ; --- The Barrens
-R The Barrens|QID|6401|M|71.82,91.70;34.14,27.59|CC|N|Exit Malaka'jin and follow the road south to The Barrens border.|
+R The Barrens|ACTIVE|1062|M|71.82,91.70;83.46,97.10|CC|N|Exit Malaka'jin and follow the road south to The Barrens border.|
 T Goblin Invaders|QID|1062|M|35.27,27.88|Z|The Barrens|N|To Seereth Stonebreak.|
 A The Elder Crone|QID|1063|M|35.27,27.88|Z|The Barrens|N|From Seereth Stonebreak.|PRE|1062|
 A Shredding Machines|QID|1068|M|35.27,27.88|Z|The Barrens|N|From Seereth Stonebreak.|PRE|1062|
-H Sun Rock Retreat|QID|6421|N|Hearth back to Sun Rock Retreat.|
+H Sun Rock Retreat|ACTIVE|6421|N|Hearth back to Sun Rock Retreat.|
 T Arachnophobia|QID|6284|M|47.20,61.16|N|To Maggran Earthbinder.|
-T Boulderslide Ravine|QID|6421|M|44.84,63.26;47.15,64.06|CC|N|To Mor'rogal.|
+T Boulderslide Ravine|QID|6421|M|44.84,63.26;47.15,64.06|CS|N|To Mor'rogal.|
 A Earthen Arise|QID|6481|M|47.15,64.06|ELITE|N|From Mor'rogal.|PRE|6421|
-F Thunder Bluff|M|45.13,59.84|N|Fly to Thunder Bluff.|
+F Thunder Bluff|ACTIVE|1063|M|45.13,59.84|N|Fly to Thunder Bluff.|
 T The Elder Crone|QID|1063|M|70.02,30.90|Z|Thunder Bluff|N|To Magatha Grimtotem.|
 A Forsaken Aid|QID|1064|M|70.02,30.90|Z|Thunder Bluff|N|From Magatha Grimtotem.|PRE|1063|
+R The Pool of Vision|ACTIVE|1064|M|30.50,30.48|CC|Z|Thunder Bluff|
 T Forsaken Aid|QID|1064|M|22.84,20.93|Z|Thunder Bluff|N|To Apothecary Zamah.|
 A Journey to Tarren Mill|QID|1065|M|22.84,20.93|Z|Thunder Bluff|N|From Apothecary Zamah.|PRE|1064|
 
@@ -53,8 +58,6 @@ A Warsong Supplies|QID|6571|M|71.44,67.67|Z|Ashenvale|N|From Locke Okarr; by the
 ; --- Silverpine Forest
 F Orgrimmar|QID|443|M|73.25,61.67|Z|Ashenvale|N|Fly to Orgrimmar.|
 h Orgrimmar|QID|443|M|54.61,67.78|Z|Orgrimmar|N|At Barkeeper Morag.\nThis will be a better option the next time you need to use your hearth.|
-R Leave Orgrimmar|QID|443|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
-b Tirisfal Glades|QID|443|M|50.88,13.83|Z|Durotar|N|Take the Zeppelin to Tirisfal Glades.|
 R Leave Orgrimmar|QID|443|M|52.42,84.43|Z|Orgrimmar|CC|N|Exit Orgrimmar through the south gate.|
 b Tirisfal Glades|QID|443|M|50.88,13.83|Z|Durotar|N|Take the Zeppelin to Tirisfal Glades.|
 R Undercity|QID|443|M|61.86,65.04|Z|Tirisfal Glades|N|Enter Undercity.|
@@ -79,12 +82,12 @@ T Rot Hide Clues|QID|439|M|43.43,40.86|N|To High Executor Hadrec.\nFollow the hi
 ; ---
 A Rot Hide Ichor|QID|443|M|43.43,40.86|Z|Silverpine Forest|CC|N|From High Executor Hadrec inside the crypt.|PRE|439|
 R Fenris Isle|QID|443|M|52.34,37.21;58.75,35.43;64.79,34.60;65.63,32.89|Z|Silverpine Forest|CC|N|Sticking to the hills to avoid unnecessary fighting, make your way to the lake and swim across.|
-C Rot Hide Ichor|QID|443|QO|1|N|Kill Rot Hide Gnolls for the Ichor.|
-A Resting in Pieces|QID|460|U|3317|N|Click on the 'Talking Head' to start the quest.|O|
-C Rot Hide Ichor|QID|443|ACTIVE|460|QO|1|N|Kill Rot Hide Gnolls for the Ichor.|S|
+N A Talking Head|AVAILABLE|460|N|This item is drop that starts a quest chain. I highly recommend doing this chain as it rewards a half decent item and 3000 xp.|
+C Rot Hide Ichor|QID|443|L|3236 8|N|Kill Rot Hide Gnolls for the Ichor.|S|
+A Resting in Pieces|QID|460|U|3317|N|Click on the 'Talking Head' to start the quest.\n[color=FF0000]NOTE: [/color]Do this as soon as you get it.|O|
 T Resting in Pieces|QID|460|M|67.87,24.86|Z|Silverpine Forest|N|Bring Alaric's Head to the Shallow Grave.|
 A The Hidden Niche|QID|461|M|67.87,24.86|Z|Silverpine Forest|N|From the Shallow Grave.|PRE|460|
-R The Dusty Shelf|QID|461|M|65.73,24.40;65.60,23.41;65.67,23.89;65.28,23.45;65.09,23.31;65.34,24.81|Z|Silverpine Forest|CC|N|Head inside Fenris Keep and upstairs to the Dusty Shelf.\n[color=FF0000]NOTE: [/color]You can find yourself overwhelmed very easily by the number and close proximity of the mobs to each other. Take your time and advance slowly to avoid unwanted attention. These mobs don't run, but there are roamers that can sneak up on you.|
+R The Dusty Shelf|ACTIVE|461|M|65.73,24.40;65.60,23.41;65.67,23.89;65.28,23.45;65.09,23.31;65.34,24.81|Z|Silverpine Forest|CC|N|Head inside Fenris Keep and upstairs to the Dusty Shelf.\n[color=FF0000]NOTE: [/color]You can find yourself overwhelmed very easily by the number and close proximity of the mobs to each other. Take your time and advance slowly to avoid unwanted attention. These mobs don't run, but there are roamers that can sneak up on you.\nIf you happen to die, go all the way to the roof and respawn up there.|
 T The Hidden Niche|QID|461|M|65.34,24.81|Z|Silverpine Forest|N|Click on the Dusty Shelf.|
 A Wand to Bethor|QID|491|M|65.34,24.81|Z|Silverpine Forest|N|From the Dusty Shelf.|PRE|461|
 R Fight or jump|ACTIVE|491|N|You can either fight your way back out, or walk to the north edge of the roof and jump to the wall. Drop to the ground from here.|
@@ -281,7 +284,7 @@ A Battle of Hillsbrad|QID|529|M|62.28,20.28|Z|Hillsbrad Foothills|N|From High Ex
 
 T Elixir of Pain|QID|502|M|32.68,35.35|Z|Hillsbrad Foothills|N|To Stanley. You'll find him beside his doghouse at the northern most house in Hillsbrad Fields.\n[color=FF0000]NOTE: [/color]Stanley won't appreciate you giving him the elixir. He becomes enraged and attacks you. The quest completes once you defeat him.|
 C Battle of Hillsbrad|QID|529|M|32,46|Z|Hillsbrad Foothills|QO|2|N|Kill Hillsbrad Apprentice Blacksmiths. There are 3 inside the forge and 1 outside.|S|
-K Blacksmith Verringtan|QID|529|M|31.4,47|Z|Hillsbrad Foothills|QO|1|N|Kill Blacksmith Verringtan inside the Forge.\n[color=FF0000]NOTE: [/color]If you approach from the south entrance, you'll aggro all 4 mobs inside. If you approach from the north entrance, you'll only aggro 3 of them. Run around to the rear of the building to avoid aggoing anyone else and to prevent the runners from doing the same. Verrington will be one of the mobs that attack you.|
+K Blacksmith Verringtan|QID|529|M|31.4,47|Z|Hillsbrad Foothills|QO|1|N|Kill Blacksmith Verringtan inside the Forge.\n[color=FF0000]NOTE: [/color]If you approach from the south entrance, you'll aggro all 4 mobs inside. If you approach from the north entrance, you'll only aggro 3 of them. Run around to the rear of the building to avoid aggroing anyone else and to prevent the runners from doing the same. Verringtan will be one of the mobs that attack you.|
 l Shipment of Iron|QID|529|M|31.99,45.43|Z|Hillsbrad Foothills|L|3564|N|Pick up the Shipment of Iron inside the forge.|
 C Battle of Hillsbrad|QID|529|QO|2|N|Finish killing the Hillsbrad Apprentice Blacksmiths. You should be able to pull the one outside by himself.|US|
 
@@ -311,7 +314,7 @@ K Kuz|QID|879|M|43.8,83.2|Z|The Barrens|QO|1|N|Kill Kuz and loot his Skull. He p
 K Lok Orcbane|QID|879|M|40.13,80.69|Z|The Barrens|QO|3|N|Kill Lok and loot his Skull. He is at the top of the hill at the back of Blackthorn Ridge.|
 K Nak|QID|879|M|43.96,83.44|Z|The Barrens|QO|2|U|5103|N|Kill Nak and loot his Skull. Follow the cliff wall east and you'll run into him.|
 C Charred Razormane Wand|QID|893|QO|2|N|Kill Razormane Seers until one drops a Charred Razormane Wand.|US|
-C Razormane War Shield|QID|893|QO|3|N|Kill Razormane Warfrenzys until one drops a Razormane War Shield.|US|
+C Razormane War Shield|QID|893|QO|3|N|Kill Razormane Warfrenzy until one drops a Razormane War Shield.|US|
 C Razormane Backstabber|QID|893|QO|1|N|Kill Razormane Pathfinders/Stalkers until one drops a Razormane Backstabber.|US|
 R Bael Modan|QID|843|M|46.35,85.00|Z|The Barrens|N|Simply, just run across the road.|
 C Gann's Reclamation|QID|843|QO|1;2|N|Kill Bael'dun Excavators and Foremen.|S|
@@ -328,8 +331,8 @@ C Revenge of Gann|QID|849|M|47.00,85.58|Z|The Barrens|QO|1|N|Destroy the flying 
 T Revenge of Gann|QID|849|M|46.11,81.22;46.14,75.39|Z|The Barrens|CC|N|To Gann Stonespire on Southern Gold Road. As before, you may meet him earlier depending upon where he is on the road.|
 A Revenge of Gann|QID|849|N|From Gann Stonespire.|
 N 3 rare quest mobs|AVAILABLE|884^885^897|N|You are now going to head back to Camp Taurajo. As you make your way back, you may come across 3 different mobs that each drop a quest starter. As they are on a rare spawn timer, you do not have to complete them. I've included them as an option.|
-N Washte Pawne|AVAILABLE|885|N|Before leaving this area, have a look around and see if you can locate this mob. It has a rare spawn timer and drops a quest starter.\nManually check this step off once you've killed it or giving up waiting.|
-A Washte Pawne|QID|885|U|5103|N|Right-click on Washte Pawne's Feather to accept the quest.\n[color=FF0000]NOTE: [/color]This is a tameable beast and if you see a hunter in the area, be repectful and ask before killing it.|O|
+N Washte Pawne|AVAILABLE|885|N|Before leaving this area, have a look around and see if you can locate this rare spawn mob. It has a rare spawn timer and drops a quest starter.\nManually check this step off once you've killed it or giving up waiting.|RARE|
+A Washte Pawne|QID|885|U|5103|N|Right-click on Washte Pawne's Feather to accept the quest.\n[color=FF0000]NOTE: [/color]This is a tameable beast and if you see a hunter in the area, be respectful and ask before killing it.|O|
 N The Harvester|AVAILABLE|897|N|Before leaving this area, have a look around and see if you can locate this mob. It has a rare spawn timer and drops a quest starter.\nManually check this step off once you've killed it or giving up waiting.|
 A The Harvester|QID|897|U|5138|N|Right-click on the Harvester's Head to accept the quest.|O|
 N Owatanka|AVAILABLE|884|N|Before leaving this area, have a look around and see if you can locate this mob. It has a rare spawn timer and drops a quest starter.\nManually check this step off once you've killed it or giving up waiting.|
@@ -364,7 +367,7 @@ C Warsong Supplies|QID|6571|QO|4|N|Collect the Logging Rope randomly dropped by 
 R Mystral Lake|QID|25|M|50.65,64.62;51.62,66.50;51.51,67.86|Z|Ashenvale|CC|N|Make your way to the lake. Give the building at Silverwind Refuge a wide berth, unless you enjoy PvP and getting your butt kicked by Alliance guards.|
 K Stonetalon Standstill|QID|25|QO|1|N|Kill Befouled Water Elementals|S|
 C Stonetalon Standstill|QID|25|M|49.03,69.65|Z|Ashenvale|QO|2|N|Go to the gazebo on the island in Mystral Lake.|
-K Tideress|QID|25|M|49.03,69.65|Z|Ashenvale|L|16408 1|N|Wait for Tidress to appear and kill it for a drop quest item, Befouled Water Globe.|
+K Tideress|QID|25|M|49.03,69.65|Z|Ashenvale|L|16408 1|N|Wait for Tideress to appear and kill it for a drop quest item, Befouled Water Globe.|
 A The Befouled Element|QID|1918|U|16408|N|Click the item to activate the quest.|O|
 K Stonetalon Standstill|QID|25|QO|1|US|N|Finish killing Befouled Water Elementals|
 R Talondeep Path|QID|23|AVAILABLE|-6383^235^742^6382|M|42.65,70.10|Z|Ashenvale|CC|
@@ -402,7 +405,7 @@ C Troll Charm|QID|6462|M|39.68,32.95;40.76,32.81;40.94,31.59;41.36,32.18;41.76,3
 R Drop down|QID|6482|M|41.59,34.49|Z|Ashenvale|N|Walk off the ledge and drop to the ground below where Ruul Snowhoof is. \n[color=FF0000]NOTE: [/color]If, for whatever reason, you haven't finished collecting Troll Charms, finish that before starting the escort quest. You won't have time to finish it on your way out.|
 A Freedom to Ruul|QID|6482|M|41.59,34.49|Z|Ashenvale|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Ruul Snowhoof.\nThis a really, long escort course. |
 A Freedom to Ruul|QID|6482|M|41.59,34.49|Z|Ashenvale|ELITE|N|[color=CC00FF]QUEST FAILED[/color]\n[color=80FF00]Escort Quest:[/color]\nHead back inside Thistlefur Hold to Ruul Snowhoof to restart it.\n By this time, the mobs have started respawning and you will have to fight your way back in. If you are quick, you may not have to fight as much on the way out.|FAIL|
-C Freedom to Ruul|QID|6482|M|40.00,31.98;38.48,36.53;38.57,37.21|Z|Ashenvale|CC|QO|1|N|Follow Ruul out of Thistlefur Hold and through Thistlefur Village.\nAs you make your way along, you'll be attacked by a trio of Thistlefurs on two occassions. First one is inside the Hold and the second is just outside the east gate. Fairly easy to handle, unless they run too far.\nFocus on keeping alive. Ruul can handle himself fairly well. Avoid pulling unnecessarily; Ruul will be pulling plenty on his own.\nIf you die, the quest is over. You will not make it back in time.|
+C Freedom to Ruul|QID|6482|M|40.00,31.98;38.48,36.53;38.57,37.21|Z|Ashenvale|CC|QO|1|N|Follow Ruul out of Thistlefur Hold and through Thistlefur Village.\nAs you make your way along, you'll be attacked by a trio of Thistlefurs on two occasions. First one is inside the Hold and the second is just outside the east gate. Fairly easy to handle, unless they run too far.\nFocus on keeping alive. Ruul can handle himself fairly well. Avoid pulling unnecessarily; Ruul will be pulling plenty on his own.\nIf you die, the quest is over. You will not make it back in time.|
 C Between a Rock and a Thistlefur|QID|216|QO|1;2|N|Finish killing Thistlefur Avengers and Shaman. No need to focus on one area as you'll find plenty on your way out.|US|
 R The Zoram Strand|QID|216|M|37.74,35.17;13.48,32.21|Z|Ashenvale|CC|N|Run back to Zoram'gar Outpost. Feel free to take whatever path you desire.|
 T Between a Rock and a Thistlefur|QID|216|M|11.91,34.52|Z|Ashenvale|N|To Karang Amakkar.\n[color=FF0000]NOTE: [/color]Do NOT accept the follow-up quest. It's not worth the effort.|
@@ -457,7 +460,7 @@ A Battle of Hillsbrad|QID|539|M|62.22,20.33|Z|Hillsbrad Foothills|N|From High Ex
 R Azurelode Mine|QID|567|M|27.50,59.30|Z|Hillsbrad Foothills|N|Run to the upper entrance of Azurelode Mine.|
 C Battle of Hillsbrad|QID|539|QO|2|N|Kill Hillsbrad Miners. This shouldn't take long, as they're everywhere.|S|
 K Miner Hackett|QID|567|M|27.27,58.63;28.61,52.80;29.77,54.13;29.78,55.63;29.94,54.58|Z|Hillsbrad Foothills|CC|QO|3|N|Work your way inside the mine and kill Miner Hackett. Clear any potential adds before you attack him.\n[color=FF0000]NOTE: [/color]He is level 29 and has multiple spawn spots. If he is not at this location, he's either dead, or he's down where Foreman Bonds is located. If you look over the ledge, you should see him below you.|
-C Battle of Hillsbrad|QID|539|M|31.22,55.76|Z|Hillsbrad Foothills|QO|1|N|Kill Foreman Bonds. Clear any potential adds before attacking him. Any added distractions will greatly reduce your chances of success.\n[color=FF0000]NOTE: [/color]When he is almost dead, two lv 29 guards will spawn. Be aware that they both will take turns interrupting any spellcasting. Focus on killing Foreman Bonds. Don't worry about dying once he is dead. You can ressurect outside the mine and go back in if you have to.|
+C Battle of Hillsbrad|QID|539|M|31.22,55.76|Z|Hillsbrad Foothills|QO|1|N|Kill Foreman Bonds. Clear any potential adds before attacking him. Any added distractions will greatly reduce your chances of success.\n[color=FF0000]NOTE: [/color]When he is almost dead, two lv 29 guards will spawn. Be aware that they both will take turns interrupting any spellcasting. Focus on killing Foreman Bonds. Don't worry about dying once he is dead. You can resurrect outside the mine and go back in if you have to.|
 C Battle of Hillsbrad|QID|539|QO|2|N|Finish killing Hillsbrad Miners.|US|
 R Western Strand|QID|515|ACTIVE|515|M|25.00,63.79;34.53,65.42|Z|Hillsbrad Foothills|CC|N|Head east from the Azurelode Mine and then turn south towards the shoreline.|
 C Torn Fin Eye|ACTIVE|515|QO|3|N|Working your way east along the coast, kill the Murlocs to collect Torn Fin Eyes.\nMuckdwellers are a better choice over Coastrunners (range attack).\nIf you prefer, you can do this in the water as you swim east.\n[color=FF0000]NOTE: [/color]Avoid letting the Coastrunners get to far away from you when they run, they will aggro another Murloc and range attack you.|
