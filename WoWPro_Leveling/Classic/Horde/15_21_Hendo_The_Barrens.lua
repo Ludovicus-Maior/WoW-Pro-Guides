@@ -168,7 +168,7 @@ C Lost in Battle|QID|4921|M|49.33,50.34|QO|1|N|Mankrik's wife is the "Beaten Cor
 R Camp Taurajo|QID|853|M|47.40,57.53;46.29,58.00|CC|N|Run to Camp Taurajo. Stick to the road unless you want to do some grinding.|
 F Thunder Bluff|QID|853|M|44.44,59.15|N|Fly to Thunder Bluff.|
 T Apothecary Zamah|QID|853|M|30.04,29.83;22.90,21.03|CC|Z|Thunder Bluff|N|To Apothecary Zamah.\nHead to the Pools of Vision, beneath Spirit Rise.|
-A Serpentbloom|QID|962|M|22.90,21.03|Z|Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Apothecary Zamah, Spirit Rise.|
+A Serpentbloom|QID|962|M|22.90,21.03|Z|Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Apothecary Zamah, Spirit Rise.|O|
 N Weapon Master|QID|4921|M|40.92,62.70|Z|Thunder Bluff|N|While you are here, go see Ansekhwa if you wish to train in Guns, One-Handed Maces, Staves or Two-handed Maces.|
 F Crossroads|QID|4921|M|46.89,49.77|Z|Thunder Bluff|N|Fly to The Crossroads.|
 
@@ -309,8 +309,8 @@ R Zoram'gar Outpost|QID|6548|M|75.02,65.16;67.19,71.39;44.94,56.20;36.90,55.01;3
 C Warsong Runner Update|QID|6543|M|12.22,34.21|Z|Ashenvale|QO|2|N|Hand out the last report to the Warsong Runner.|CHAT|
 f Zoram'gar Outpost|QID|6548|M|12.19,33.82|Z|Ashenvale|TAXI|-Zoram'gar Outpost|
 N Vorsha the Lasher|AVAILABLE|6641|ACTIVE|-6641|N|If you are level 20, you can do the Vorsha the Lasher quest for a Stamina/Spirit Ring reward and 2300 xp.\n[color=FF0000]NOTE: [/color]I highly recommend doing this quest at the same time as you're doing 'Naga at the Zoram Strand' to make use of the assistance from Muglash.\n\nIf you are not level 20, come back as soon as you are.|
-A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|N|[color=FF0000]NOTE: [/color]Escort quest.\nFrom Muglash. If he's not there, just wait because someone is already doing the quest.|LVL|20|
-A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED [/color]Go back to Muglash to restart the quest.\nIf he's not there, just wait because someone is already doing the quest.|LVL|20|FAIL|
+A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Muglash. If he's not there, just wait because someone is either already doing the quest, or he has died and awaiting respawn.|LVL|20|
+A Vorsha the Lasher|QID|6641|M|12.06,34.64|Z|Ashenvale|N|[color=CC00FF]QUEST FAILED [/color]Go back to Muglash to restart the quest.\nIf he's not there, just wait because someone is either already doing the quest, or he has died and awaiting respawn.|LVL|20|FAIL|
 A Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|From Marukai.|
 C Naga at the Zoram Strand|QID|6442|ACTIVE|6641|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nI recommend using Muglash to kill as many Nagas as you can along the escort path. Avoid the Priestesses; they fully heal from almost dead.|S|
 C Naga at the Zoram Strand|QID|6442|ACTIVE|-6641|L|5490 20|N|Kill Nagas to collect Wrathtail Heads.\nAvoid the Priestesses; they fully heal from almost dead.|
@@ -322,9 +322,9 @@ T Vorsha the Lasher|QID|6641|M|12.22,34.21|Z|Ashenvale|N|To Warsong Runner.|
 T Naga at the Zoram Strand|QID|6442|M|11.69,34.91|Z|Ashenvale|N|To Marukai.|
 
 ; --- Hunters and Mages
-N No class quest|QID|876|N|Hunters and Mages do not have a level 20 quest.
+N No class quest|QID|876|N|Hunters and Mages do not have a level 20 quest.|C|Hunter,Mage|
 F Orgrimmar|QID|876|M|12.19,33.82|Z|Ashenvale|N|Fly to Orgrimmar to do your level 20 training.|C|Hunter,Mage|
-F Crossroads|QID|876|M|45.50,63.84|Z|Orgrimmar|N|When you are finished with your trining, fly to The Crossroads.|R|Tauren|C|Druid|
+F Crossroads|QID|876|M|45.50,63.84|Z|Orgrimmar|N|When you are finished with your training, fly to The Crossroads.|R|Tauren|C|Druid|
 ; ---
 
 ; --- Warriors level 20 class quest
@@ -460,10 +460,10 @@ A Kill Grundig Darkcloud|QID|6629|M|35.19,27.79|N|From Makaba Flathoof.|PRE|6548
 R Stonetalon Mountains|QID|6548|M|34.12,27.60|N|Follow the road further west into Stonetalon Mountains.|
 C Grimtotem Brutes|QID|6629|QO|2|N|Kill them as you go.|S|
 ; lv 20
-R Grimtotem Post|M|71.44,89.45;71.95,86.47|Z|Stonetalon Mountains|CC|N|Follow the road into Grimtotem Post.|
+R Grimtotem Post|QID|6629|M|71.44,89.45;71.95,86.47|Z|Stonetalon Mountains|CC|N|Follow the road into Grimtotem Post.|
 K Kill Grundig Darkcloud|QID|6629|M|73.70,86.33|Z|Stonetalon Mountains|QO|1|N|You'll find Grundig Darkcloud standing in the doorway of the tent.\nIf he's not there, clear the area while waiting for him to respawn.|T|Grundig Darkcloud|
-A Protect Kaya|QID|6523|M|73.5,85.63|Z|Stonetalon Mountains|N|From Kaya Flathoof inside the tent.|
-C Protect Kaya|QID|6523|QO|1|N|This is an escort mission. She will walk west out of the Grimtotem settlement and then start following the road southeast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 Grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
+A Protect Kaya|QID|6523|M|73.5,85.63|Z|Stonetalon Mountains|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Kaya Flathoof inside the tent.|
+C Protect Kaya|QID|6523|QO|1|N|Kaya will walk west out of the Grimtotem settlement and then start following the road southeast. Nothing should challenge you for this one. When she gets to the middle of Camp Aparaje, you will be ambushed by 3 Grimtotems at once. Be ready to pull aggro off Kaya as soon as this happens, as she dies very quickly. Kill them, and the mission ends.|
 A Protect Kaya|QID|6523|M|73.5,85.63|Z|Stonetalon Mountains|N|[color=CC00FF]QUEST FAILED [/color]\nGo back to Kaya Flathoof inside the tent to restart the quest.\nYou may have to wait for her to respawn|FAIL|
 C Grimtotem Brutes|QID|6629|QO|2|N|Finish killing them before you leave the area.|US|
 T Kill Grundig Darkcloud|QID|6629|M|35.2,27.8|N|To Makaba Flathoof at the border.|
@@ -475,26 +475,26 @@ T Letter to Jin'Zil|QID|1060|M|74.54,97.94|Z|Stonetalon Mountains|N|To Witch Doc
 A Blood Feeders|QID|6461|M|71.24,95.02|Z|Stonetalon Mountains|N|From Xen'zilla in Malaka'jin.|
 R Webwinder Path|QID|6461|M|59.34,75.96|Z|Stonetalon Mountains|N|Leave Malaka'jin and follow the road north.|
 A Arachnophobia|QID|6284|M|59.1,75.70|Z|Stonetalon Mountains|ELITE|N|From the Wanted Poster, located beside the road.\n[color=FF0000]NOTE: [/color]Strongly recommended only to accept this quest if you are over level or can find a PUG to do this. Bessaleth is a lv 21 Elite mob.|
-R Sishir Canyon|QID|6461|M|58.18,76.03|Z|Stonetalon Mountains|N|Follow the path west up the hill.|
+R Sishir Canyon|ACTIVE|6461^1069^6284|M|58.18,76.03|Z|Stonetalon Mountains|N|Follow the path west up the hill.|
 C Blood Feeders|QID|6461|QO|1;2|N|Kill Deepmoss Creepers and Venomspitters.|S|
 C Deepmoss Spider Eggs|QID|1069|QO|1|N|Pick up the spider eggs from around the area.\n[color=FF0000]NOTE: [/color]1-2 Deepmoss Hatchlings will spawn after opening the egg. On occassion, a Deepmoss Matriarch may also spawn after killing the Hatchlings|S|NC|
 K Bessaleth|ACTIVE|6284|T|Bessaleth|L|16192|N|Bessaleth is somewhere in here. She has multiple spawn points. Generally, you'll find her in one of the alcoves along the edge.|
 C Deepmoss Spider Eggs|QID|1069|QO|1|N|Pick up the spider eggs from around the area.|US|NC|
 C Blood Feeders|QID|6461|QO|1|N|Finish up the spiders needed.|US|
 
-R Sun Rock Retreat|QID|6401|M|59.34,75.87;59.67,71.22;53.04,61.58;49.58,60.99|Z|Stonetalon Mountains|CC|N|Head back to Webwinder Path and follow it north; taking the left forks (or just follow the signs).|
+R Sun Rock Retreat|ACTIVE|6401|M|59.34,75.87;59.67,71.22;53.04,61.58;49.58,60.99|Z|Stonetalon Mountains|CC|N|Head back to Webwinder Path and follow it north; taking the left forks (or just follow the signs).|
 t Arachnophobia|QID|6284|M|47.20,61.16|Z|Stonetalon Mountains|N|To Maggran Earthbinder.|
 T Kaya's Alive|QID|6401|M|47.4,58.4|Z|Stonetalon Mountains|N|To Tammra Windfield.|
 f Sun Rock Retreat|QID|6461|M|45.13,59.84|Z|Stonetalon Mountains|N|At Tharm.|TAXI|-Sun Rock Retreat|
-R Malaka'jin|QID|6461|M|53.18,61.66;71.55,90.59|Z|Stonetalon Mountains|CC|N|Run to Malaka'jin.|
+R Malaka'jin|ACTIVE|6461|M|53.18,61.66;71.55,90.59|Z|Stonetalon Mountains|CC|N|Run to Malaka'jin.|
 T Blood Feeders|QID|6461|M|71.24,95.02|Z|Stonetalon Mountains|N|To Xen'zilla.|
 H Camp Taurajo|QID|1489|N|The end of this side trip. Hearth back to Camp Taurajo.|
 F Thunder Bluff|QID|1489||M|44.46,59.14|N|Fly to Thunder Bluff.|
 T Hamuul Runetotem|QID|1489|M|78.4,28.4|Z|Thunder Bluff|N|To Arch Druid Hamuul Runetotem on Elder Rise.|
 A Nara Wildmane|QID|1490|M|78.4,28.4|Z|Thunder Bluff|N|From Arch Druid Hamuul Runetotem.|PRE|1489|
 T Nara Wildmane|QID|1490|M|75.6,31.2|Z|Thunder Bluff|N|To Nara Wildmane.|
-A Leaders of the Fang|QID|914|M|75.6,31.2|Z|Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Nara Wildmane.|PRE|1490|
-N Wailing Caverns|QID|914|N|Having all of the quests for Wailing Cavern, now is a good time to look for a group for this instance.\nAs this guide is dungeon-free, we won't be completing those quests in this guide. Feel free to rejoin this guide when you are done.|
+A Leaders of the Fang|QID|914|M|75.6,31.2|Z|Thunder Bluff|ELITE|N|[color=E6CC80]Dungeon: Wailing Caverns[/color]\nFrom Nara Wildmane.|PRE|1490|O|
+N Wailing Caverns|ACTIVE|914|N|Having all of the quests for Wailing Cavern, now is a good time to look for a group for this instance.\nAs this guide is dungeon-free, we won't be completing those quests in this guide. Feel free to rejoin this guide when you are done.|
 
 N Orgrimmar|QID|3923|N|[color=FF0000]NOTE: [/color]No matter what class/race you are, you should be in Orgrimmar right now.\nIf you are not, report it as a bug on Discord.|
 R Valley of Honor|QID|3923|M|65.54,40.00|Z|Orgrimmar|N|Enter Orgrimmar and make your way to the Valley of Honor.|
@@ -559,25 +559,27 @@ F Camp Taurajo|QID|882|M|51.52,30.36|N|Fly back to Camp Taurajo.|
 
 T Ishamuhale|QID|882|M|44.84,59.11|N|To Jorn Skyseer.|
 A Enraged Thunder Lizards|QID|907|M|44.8,59|N|From Jorn Skyseer.|PRE|882|
-C Enraged Thunder Lizards|QID|907|L|5143 3|N|You'll find the Thunder Lizards all around the area of Camp Taurajo. So, pick a direction and go kill Thunder Lizards to collect their blood.|
-N Lakota'mani|AVAILABLE|883|N|Look for a gray Kodo named Lakota'mani. He has a long-ish patrol route and a long respawn time, so you might not find him. If you do find him, kill him, and loot his hoof. Skip it if you don't. He isn't really worth camping the area for.|
-A Lakota'mani|QID|883|U|5099|N|From the Hoof of Lakota'mani.|O|
+C Enraged Thunder Lizards|QID|907|L|5143 3|N|You'll find the Thunder Lizards spread out all around the area of Camp Taurajo. So, pick a direction and go kill Thunder Lizards to collect their blood.|
+N Rare Spawn Kill Quests|AVAILABLE|883^884^885^897|N|Jorn Skyseer has 4 optional rare spawn quests that you can complete and turn in to him in Camp Taurajo.\n1) Lakota'mani, a gray Kodo. He has a long-ish patrol route and a long respawn time, so you might not find him.\n2) Owatanka, a blue thunder lizard. He spawns in the hills east and west of Camp Taurajo.\n3) Washte Pawne \n4) The Harvester\n\nYou will only come across the first 2 in this guide. Don't go out of your way to find them.|RARE|
+A Lakota'mani|QID|883|U|5099|N|From Hoof of Lakota'mani.|O|
+A Owatanka|QID|884|U|5102|N|From Owatanka's Tailspike.|O|
 T Enraged Thunder Lizards|QID|907|M|44.86,59.09|N|To Jorn Skyseer back at Camp Taurajo.|
 t Lakota'mani|QID|883|M|44.86,59.09|N|To Jorn Skyseer.|
+t Owatanka|QID|884|M|44.86,59.09|N|To Jorn Skyseer.|
 A Cry of the Thunderhawk|QID|913|M|44.86,59.09|N|From Jorn Skyseer.|PRE|907|
-; R Southern Barrens|QID|913|M|45.23,59.03;46.6,61.5|CC|
-C Cry of the Thunderhawk|QID|913|QO|1|N|Kill a Thunderhawk and loot its wings. You will find them all around the outside edge of Camp Taurajo.|
+C Cry of the Thunderhawk|QID|913|L|5164|N|Kill a Thunderhawk and loot its wings. You will find them all around the outside edge of Camp Taurajo.|
 T Cry of the Thunderhawk |QID|913|M|44.86,59.09|N|To Jorn Skyseer back to Camp Taurajo.|
 A Mahren Skyseer|QID|874|M|44.86,59.09|N|From Jorn Skyseer.|PRE|913|
-A The Ashenvale Hunt |QID|6382^235^742|M|44.86,59.09|N|From Jorn Skyseer.|
+A The Ashenvale Hunt|QID|6382^235^742|M|44.86,59.09|N|From Jorn Skyseer.|
 A Melor Sends Word|QID|1130|M|44.86,59.09|N|From Jorn Skyseer.|
 
 ; --- Thunder Bluff
-F Thunder Bluff|M|44.46,59.14|
+F Thunder Bluff|ACTIVE|1130|M|44.46,59.14|
 T Melor Sends Word|QID|1130|M|61.49,80.83|Z|Thunder Bluff|N|To Melor Stonehoof.|
 A Steelsnap|QID|1131|M|61.49,80.83|Z|Thunder Bluff|N|From Melor Stonehoof.|PRE|1130|
-F Orgrimmar|QID|3924|M|44.47,59.13|N|Fly to Orgrimmar.|
-T Samophlange Manual|QID|3924|M|76.4,24.4|Z|Orgrimmar|N|Head back to Rilli Greasygob and give the Samophlange manual to him.|
+F Orgrimmar|QID|3924|M|47.02,49.83|Z|Thunder Bluff|
+R Valley of Honor|QID|3924|M|65.54,40.00|Z|Orgrimmar|N|Make your way to the Valley of Honor.|
+T Samophlange Manual|QID|3924|M|76.4,24.4|Z|Orgrimmar|N|To Rilli Greasygob inside Nogg's Machine Shop.|
 
 ; --- Ashenvale
 F Splintertree Post|ACTIVE|6382^235^742|M|45.50,63.84|Z|Orgrimmar|N|Fly to Splintertree Post.|
