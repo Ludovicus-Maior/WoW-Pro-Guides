@@ -477,9 +477,9 @@ R Webwinder Path|QID|6461|M|59.34,75.96|Z|Stonetalon Mountains|N|Leave Malaka'ji
 A Arachnophobia|QID|6284|M|59.1,75.70|Z|Stonetalon Mountains|ELITE|N|From the Wanted Poster, located beside the road.\n[color=FF0000]NOTE: [/color]Strongly recommended only to accept this quest if you are over level or can find a PUG to do this. Bessaleth is a lv 21 Elite mob.|
 R Sishir Canyon|ACTIVE|6461^1069^6284|M|58.18,76.03|Z|Stonetalon Mountains|N|Follow the path west up the hill.|
 C Blood Feeders|QID|6461|QO|1;2|N|Kill Deepmoss Creepers and Venomspitters.|S|
-C Deepmoss Spider Eggs|QID|1069|QO|1|N|Pick up the spider eggs from around the area.\n[color=FF0000]NOTE: [/color]1-2 Deepmoss Hatchlings will spawn after opening the egg. On occassion, a Deepmoss Matriarch may also spawn after killing the Hatchlings|S|NC|
+C Deepmoss Spider Eggs|QID|1069|L|5570 15|N|Pick up the spider eggs from around the area.\n[color=FF0000]NOTE: [/color]1-2 Deepmoss Hatchlings will spawn after opening the egg. On occassion, a Deepmoss Matriarch may also spawn after killing the Hatchlings|S|
 K Bessaleth|ACTIVE|6284|T|Bessaleth|L|16192|N|Bessaleth is somewhere in here. She has multiple spawn points. Generally, you'll find her in one of the alcoves along the edge.|
-C Deepmoss Spider Eggs|QID|1069|QO|1|N|Pick up the spider eggs from around the area.|US|NC|
+C Deepmoss Spider Eggs|QID|1069|L|5570 15|N|Pick up the spider eggs from around the area.|US|
 C Blood Feeders|QID|6461|QO|1|N|Finish up the spiders needed.|US|
 
 R Sun Rock Retreat|ACTIVE|6401|M|59.34,75.87;59.67,71.22;53.04,61.58;49.58,60.99|Z|Stonetalon Mountains|CC|N|Head back to Webwinder Path and follow it north; taking the left forks (or just follow the signs).|
@@ -544,6 +544,7 @@ C Free From the Hold|QID|898|M|62.29,39.03|QO|1|N|Escort Gilthares to Ratchet. T
 T The Guns of Northwatch|QID|891|M|62.29,39.03|N|To Captain Thalo'thas Brightsun.|
 T Free From the Hold|QID|898|M|62.29,39.03|N|To Captain Thalo'thas Brightsun.|
 T Deepmoss Spider Eggs|QID|1069|M|62.4,37.6|N|To Mebox Mizzyrix.|
+* Deepmoss Spider Eggs|AVAILABLE|-1069|U|5570|N|You can safely delete any leftovers.|
 T The Escape|QID|863|M|63,37.2|N|To Sputtervalve.|
 A Ziz Fizziks |QID|1483|M|63,37.2|N|From Sputtervalve.|
 T Miner's Fortune|QID|896|M|63.2,38.4|N|To Wharfmaster Dizzywig.|
