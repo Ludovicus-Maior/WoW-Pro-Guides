@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/mechagon_neutral
+-- Date: 2020-08-25 16:47
+-- Who: Blanckaert
+-- Log: did PRE changes per grail, did NOT remove Spurious PREs, subject to further testing
+
+-- URL: http://wow-pro.com/node/3791/revisions/30613/view
 -- Date: 2020-08-19 02:46
 -- Who: Blanckaert
 -- Log: added note for a C Step
@@ -123,17 +128,17 @@ T A Quick Ear Hustle|QID|55647|M|65.64,64.59|Z|Tiragarde Sound|N|To Gazlowe.|FAC
 A This is Our Vault Now|QID|55648|M|65.64,64.59|Z|Tiragarde Sound|N|From Gazlowe.|FACTION|Horde|
 C This is Our Vault Now|QID|55648|M|65.87,66.43|Z|Tiragarde Sound|QO|1|NC|N|Click the door to open, walk in and wait for Jack the Hammer to secure the vault.|FACTION|Horde|
 T This is Our Vault Now|QID|55648|M|65.82,66.35|Z|Tiragarde Sound|N|To Gazlowe.|FACTION|Horde|
-A Let's Get It Started|QID|55630|M|65.82,66.35|Z|Tiragarde Sound|N|From Gazlowe.|FACTION|Horde|
+A Let's Get It Started|QID|55630|PRE|55648|M|65.82,66.35|Z|Tiragarde Sound|N|From Gazlowe.|FACTION|Horde|  ; Grail says Ally quest needs pre, so put 'equal' PRE here
 
 A The Missing Crew|QID|56378|M|67.95,26.72|Z|Boralus|N|From Grand Admiral Jes-Tereth. While this quest is done in Nazjatar, this is a more efficient place to pick it up.|NA|FACTION|Alliance|
 T Fame Waits for Gnome One|QID|57009|M|67.42,15.78|Z|Boralus|N|To Tinkmaster Overspark.|FACTION|Alliance|
-A The Legend of Mechagon|QID|54088|PRE|56156|M|67.42,15.78|Z|Boralus|N|From Tinkmaster Overspark.|FACTION|Alliance|
+A The Legend of Mechagon|QID|54088|PRE|57009|M|67.42,15.78|Z|Boralus|N|From Tinkmaster Overspark.|FACTION|Alliance|  ;  PRE|56156| was to open WQ/Nazjatar
 F Kennings Lodge|ACTIVE|54088|M|66.96,14.99|Z|Boralus|N|at Joan Weber.|FLY|BFA|
 T The Legend of Mechagon|QID|54088|M|65.63,65.04|Z|Tiragarde Sound|N|To Tinkmaster Overspark.|FACTION|Alliance|
-A Looking Inside|QID|55040|M|65.63,65.04|Z|Tiragarde Sound|N|From Tinkmaster Overspark.|FACTION|Alliance|
+A Looking Inside|QID|55040|PRE|54088|M|65.63,65.04|Z|Tiragarde Sound|N|From Tinkmaster Overspark.|FACTION|Alliance|
 C Looking Inside|QID|55040|M|65.91,66.20|Z|Tiragarde Sound|NC|N|Enter the vault.|FACTION|Alliance|
 T Looking Inside|QID|55040|M|65.86,66.32|Z|Tiragarde Sound|N|To Tinkmaster Overspark.|FACTION|Alliance|
-A Let's Get It Started|QID|54945|M|65.86,66.32|Z|Tiragarde Sound|N|From Tinkmaster Overspark.|FACTION|Alliance|
+A Let's Get It Started|QID|54945|PRE|55040|M|65.86,66.32|Z|Tiragarde Sound|N|From Tinkmaster Overspark.|FACTION|Alliance|
 
 C Let's Get It Started|QID|55630^54945|M|65.66,66.51|Z|Tiragarde Sound|QO|1|NC|N|Click control box to repair the gears.|
 C Let's Get It Started|QID|55630^54945|M|66.01,65.82|Z|Tiragarde Sound|QO|2|NC|N|Activate Electrode.|
@@ -143,8 +148,8 @@ C Let's Get It Started|QID|55630^54945|M|66.00,65.81;65.92,66.45|Z|Tiragarde Sou
 T Let's Get It Started|QID|55630|M|65.82,66.35|Z|Tiragarde Sound|N|To Gazlowe.|FACTION|Horde|
 T Let's Get It Started|QID|54945|M|65.84,66.37|Z|Tiragarde Sound|N|To Tinkmaster Overspark.|FACTION|Alliance|
 
-A You Must be This Height|QID|55632|M|65.82,66.35|Z|Tiragarde Sound|N|From Gazlowe.|FACTION|Horde|
-A You Must be This Height|QID|54087|M|65.84,66.37|Z|Tiragarde Sound|N|From Tinkmaster Overspark.|FACTION|Alliance|
+A You Must be This Height|QID|55632|PRE|55630|M|65.82,66.35|Z|Tiragarde Sound|N|From Gazlowe.|FACTION|Horde|  ; Grail says Ally quest needs pre, so put 'equal' PRE here
+A You Must be This Height|QID|54087|PRE|54945|M|65.84,66.37|Z|Tiragarde Sound|N|From Tinkmaster Overspark.|FACTION|Alliance|
 
 C You Must be This Height|QID|55632|M|65.82,66.35|Z|Tiragarde Sound|QO|1|CHAT|N|Speak with Gazlowe.|FACTION|Horde|
 C You Must be This Height|QID|54087|M|65.82,66.32|Z|Tiragarde Sound|QO|1|CHAT|N|Speak with Tinkmaster Overspark|FACTION|Alliance|
@@ -154,10 +159,10 @@ C You Must be This Height|QID|55632^54087|M|65.89,66.44|Z|Tiragarde Sound|QO|3|N
 T You Must be This Height|QID|55632|M|65.90,66.41|Z|Tiragarde Sound|N|To Gazlowe.|FACTION|Horde|
 T You Must be This Height|QID|54087|M|65.84,66.34|Z|Tiragarde Sound|N|To Tinkmaster Overspark.|FACTION|Alliance|
 
-A Machinations for Mechagon|QID|55649|M|65.90,66.41|Z|Tiragarde Sound|N|From Gazlowe.|FACTION|Horde|
+A Machinations for Mechagon|QID|55649|PRE|55632|M|65.90,66.41|Z|Tiragarde Sound|N|From Gazlowe.|FACTION|Horde|  ; Grail says Ally quest needs pre, so put 'equal' PRE here
 C Machinations for Mechagon|QID|55649|M|65.20,64.51|Z|Tiragarde Sound|V|N|Ride the Greasemonkey Skysneaker|FACTION|Horde|
 T Machinations for Mechagon|QID|55649|M|42.06,87.84|Z|Dazar'alor|N|To Gazlowe.|FACTION|Horde|
-A Only the Best Will Do|QID|55650|M|42.18,87.84|Z|Dazar'alor|N|From Skaggit.|FACTION|Horde|
+A Only the Best Will Do|QID|55650|PRE|55649|M|42.18,87.84|Z|Dazar'alor|N|From Skaggit.|FACTION|Horde|
 F The Sliver|QID|55650|M|53.34,57.32|Z|Zuldazar|N|Run to your preferred flightmaster and fly to The Sliver.|FACTION|Horde|FLY|BFA|
 R The Zocalo|QID|55650|M|42.40,25.73|Z|Dazar'alor|N|Run up thru Terrace of the Chosen to The Zocalo.|FACTION|Horde|
 C Only the Best Will Do|QID|55650|M|42.41,25.73|Z|Dazar'alor|QO|3|CHAT|N|Tell Ricket that Gazlowe has found Mechagon.|FACTION|Horde|
@@ -165,40 +170,40 @@ C Only the Best Will Do|QID|55650|M|35.86,16.65|Z|Dazar'alor|QO|2|CHAT|N|Continu
 C Only the Best Will Do|QID|55650|M|45.14,40.58|Z|Dazar'alor|QO|1|CHAT|N|Continue on to the Terrace of the Crafters and find Shuga Blastcaps, (beside the Shred Master Mk1) and ask her for supplies for Gazlowe.|FACTION|Horde|
 F Port of Zandalar|ACTIVE|55650|M|35.86,16.65|Z|Dazar'alor|U|141605|NC|LVL|120|N|Use your flightmaster's whistle and then fly back to the port to meet up with Skaggit.|FACTION|Horde|
 T Only the Best Will Do|QID|55650|M|42.20,87.85|Z|Dazar'alor|N|To Skaggit.|FACTION|Horde|
-A To Mechagon!|QID|55651|M|42.06,87.82|Z|Dazar'alor|N|From Gazlowe.|FACTION|Horde|
+A To Mechagon!|QID|55651|PRE|55650|M|42.06,87.82|Z|Dazar'alor|N|From Gazlowe.|FACTION|Horde|
 C To Mechagon!|QID|55651|M|41.82,87.60|Z|Dazar'alor|QO|1|CHAT|N|Tell Captain Krooz you are ready to go.|FACTION|Horde|
 T To Mechagon!|QID|55651|M|76.18,15.30|N|To Gazlowe.|FACTION|Horde|
-A Prospectus Bay|QID|55652|M|76.18,15.30|N|From Gazlowe.|FACTION|Horde|
+A Prospectus Bay|QID|55652|PRE|55651|M|76.18,15.30|N|From Gazlowe.|FACTION|Horde|
 C Prospectus Bay|QID|55652|M|76.03,15.39|V|N|Grab a nearby jetpack|FACTION|Horde|
 T Prospectus Bay|QID|55652|M|73.69,25.95|N|To Gazlowe.|FACTION|Horde|
-A We Come in Peace... and Profit|QID|55685|M|73.69,25.95|N|From Gazlowe.|FACTION|Horde|
+A We Come in Peace... and Profit|QID|55685|PRE|55652|M|73.69,25.95|N|From Gazlowe.|FACTION|Horde|
 C We Come in Peace... and Profit|QID|55685|M|71.31,38.01|NC|N|Go find Prince Erazmin and listen to the dialog.|FACTION|Horde|
 T We Come in Peace... and Profit|QID|55685|M|71.07,38.37|N|To Prince Erazmin.|FACTION|Horde|
 
-A Report to Gila|QID|54946|M|65.84,66.34|Z|Tiragarde Sound|N|From Tinkmaster Overspark.|FACTION|Alliance|
+A Report to Gila|QID|54946|PRE|54087|M|65.84,66.34|Z|Tiragarde Sound|N|From Tinkmaster Overspark.|FACTION|Alliance|
 H Boralus|ACTIVE|54946|M|65.84,66.34|Z|Tiragarde Sound|N|Make you way back to Boralus, hearth is great!|FACTION|Alliance|
 T Report to Gila|QID|54946|M|67.31,16.04|Z|Boralus|N|To Gila Crosswires.|FACTION|Alliance|
-A A Small Team|QID|54947|M|67.31,16.04|Z|Boralus|N|From Gila Crosswires.|FACTION|Alliance|
+A A Small Team|QID|54947|PRE|54946|M|67.31,16.04|Z|Boralus|N|From Gila Crosswires.|FACTION|Alliance|
 C A Small Team|QID|54947|M|64.07,33.64|Z|Boralus|QO|1|NC|N|Use Access Rope.(Optional)|FACTION|Alliance|
 C A Small Team|QID|54947|M|64.95,32.70|Z|Boralus|QO|2|CHAT|N|Recruit Sapphronetta Flivvers.|FACTION|Alliance|
 C A Small Team|QID|54947|M|65.03,32.82|Z|Boralus|QO|3|CHAT|N|Recruit Grizzek Fizzwrench just up the stairs.|FACTION|Alliance|
 C A Small Team|QID|54947|M|51.22,18.96|Z|Boralus|QO|4|CHAT|N|Recruit Cog Captain Winklespring.|FACTION|Alliance|
 C A Small Team|QID|54947|M|43.16,31.31|Z|Boralus|QO|5|NC|N|Reach the departure point.|FACTION|Alliance|
 T A Small Team|QID|54947|M|43.24,31.97|Z|Boralus|N|To Gila Crosswires.|FACTION|Alliance|
-A The Start of Something Bigger|QID|54992|M|43.24,31.97|Z|Boralus|N|From Gila Crosswires.|FACTION|Alliance|
+A The Start of Something Bigger|QID|54992|PRE|54947|M|43.24,31.97|Z|Boralus|N|From Gila Crosswires.|FACTION|Alliance|
 C The Start of Something Bigger|QID|54992|M|42.77,31.84|Z|Boralus|V|N|Board the Expedition Gyrocopter.|FACTION|Alliance|
 f Overspark Expedition Camp|ACTIVE|54992|M|77.93,40.84|N|At Cog Captain Winklespring.|FACTION|Alliance|
 T The Start of Something Bigger|QID|54992|M|77.74,40.50|N|To Tinkmaster Overspark.|FACTION|Alliance|
-A Princely Visit|QID|55645|M|77.74,40.50|N|From Tinkmaster Overspark.|FACTION|Alliance|
+A Princely Visit|QID|55645|PRE|54992|M|77.74,40.50|N|From Tinkmaster Overspark.|FACTION|Alliance|
 C Princely Visit|QID|55645|M|71.22,38.23|NC|N|Explore Rustbolt.|FACTION|Alliance|
 T Princely Visit|QID|55645|M|71.18,38.26|N|To Prince Erazmin.|FACTION|Alliance|
 
-A The Resistance Needs YOU!|QID|55729|M|71.18,38.26|N|From Prince Erazmin.|
+A The Resistance Needs YOU!|QID|55729|PRE|55645^55685|M|71.18,38.26|N|From Prince Erazmin.|
 C The Resistance Needs YOU!|QID|55729|M|71.05,36.99|V|N|Ride with Prince Erazmin.|
 T The Resistance Needs YOU!|QID|55729|M|59.13,55.00|N|To Prince Erazmin.|
-A Rescuing the Resistance|QID|55730|M|59.13,55.00|N|From Prince Erazmin.|
-A My Father's Armies|QID|55731|M|59.13,55.00|N|From Prince Erazmin.|
-A We Can Fix It|QID|55995|M|56.83,60.00|N|From Broken Drill Rig.|
+A Rescuing the Resistance|QID|55730|PRE|55729|M|59.13,55.00|N|From Prince Erazmin.|
+A My Father's Armies|QID|55731|PRE|55729|M|59.13,55.00|N|From Prince Erazmin.|
+A We Can Fix It|QID|55995|PRE|55729|M|56.83,60.00|N|From Broken Drill Rig.|
 C My Father's Armies|QID|55731|M|56.22,59.40|S|N|Kill Mechagon enemies.|
 C We Can Fix It|QID|55995|M|56.22,59.40|QO|1|S|N|Loot the spare parts from everything you kill.|
 C Rescuing the Resistance|QID|55730|M|56.71,62.95|QO|1|NC|N|Rescue the Scientists.|
@@ -210,22 +215,23 @@ C My Father's Armies|QID|55731|M|52.20,63.26|US|N|Finish your quota of Mechagon 
 T My Father's Armies|QID|55731|M|52.20,63.26|N|To Prince Erazmin.|
 T Rescuing the Resistance|QID|55730|M|52.20,63.26|N|To Prince Erazmin.|
 T We Can Fix It|QID|55995|M|52.20,63.26|N|To Prince Erazmin.|
-A Drill Rig Construction|QID|55734|M|52.20,63.26|N|From Prince Erazmin.|
+A Drill Rig Construction|QID|55734|PRE|55731&55995&55730|M|52.20,63.26|N|From Prince Erazmin.|
 C Drill Rig Construction|QID|55734|M|56.71,59.80|NC|N|Click on the Drill rig to view Construction project and then Use the UI to contribute.|
 T Drill Rig Construction|QID|55734|M|56.97,60.08|N|To Prince Erazmin.|
-A Send My Father a Message|QID|55096|M|56.97,60.08|N|From Prince Erazmin.|
+A Send My Father a Message|QID|55096|PRE|55734&55730|M|56.97,60.08|N|From Prince Erazmin.|
 C Send My Father a Message|QID|55096|M|57.57,62.56;60.82,60.54|CS|N|Up the ramp here, to find and hack the projector and then repel HK-8 Aerial Oppression Unit.|
 T Send My Father a Message|QID|55096|M|71.26,35.92|U|141605|N|Use flightmasters' whistle for a quicker trip back to Prince Erazmin.|
-A Welcome to the Resistance|QID|55736|M|71.26,35.92|N|From Prince Erazmin.|
+A Welcome to the Resistance|QID|55736|PRE|55096|M|71.26,35.92|N|From Prince Erazmin.|
 C Welcome to the Resistance|QID|55736|M|71.44,33.88|NC|N|Tour Rustbolt with Prince Erazmin.|
 T Welcome to the Resistance|QID|55736|M|74.09,36.92|N|To Prince Erazmin.|
 N Dailies|AVAILABLE|55609|N|you have now opened up dailies. There is no Emmisary quest for this faction, instead there are dailies. 3 to 4 will be available every day, starting with next reset. Enjoy!|LEAD|54086|
 N Elite Pet Battles|ACH|13625|N|The first time you do any of the elite pet battles, they will drop an item that will among other things reward 75 Rustbolt Resistance faction. So, if you are in a hurry to get that faction you may want to do those, if not, manually check them off in the guide. No strategies provided here, get those from Wowhead or Xu-Fu's or wherever you prefer. Guide contains only accept and turn of the item.|
 A Operation: Mechagon - The Mechoriginator|QID|55609|N|From Prince Erazmin. This is a dungeon quest.|REP|Rustbolt Resistance;2391;revered-exalted|
-A Junkyard Tinkering and You|QID|55101|M|71.26,32.64|N|From Pascal.|
+
+A Junkyard Tinkering and You|QID|55101|PRE|55736|M|71.26,32.64|N|From Pascal.|
 C Junkyard Tinkering and You|QID|55101|M|71.41,32.35|NC|N|Craft Scrap Grenades at Pascal-K1N6.|
 T Junkyard Tinkering and You|QID|55101|M|71.41,32.35|N|To Pascal.|
-A Upgraded|QID|55708|M|69.92,32.37|N|From Christy Punchcog.|
+A Upgraded|QID|55708|PRE|55736|M|69.92,32.37|N|From Christy Punchcog.|
 
 C Rustbolt Rebellion|ACTIVE|55901|S!US|N|Today's WQ is to just kill stuff till you get to 100% so, get to it. It's 850 faction with Rustbolt Resistance.|
 C Junkyard Treasures|ACTIVE|56139|S!US|N|Keep an eye out for mechanized treasure chests and opening 6 of them is the WQ Today worth 850 faction.|
@@ -235,7 +241,7 @@ C Security First|ACTIVE|56141|S!US|N|Keep an eye out for rares as killing 3 of t
 ;mount quest series
 A Shop Project|QID|55608|M|71.55,38.65|N|From Recycler Kerchunk.|PRE|55736|
 B Shop Project|QID|55608|M|63.44,42.99|QO|1|N|Purchase the Mechanobot Ignition from Cork Stuttguard. FYI, this quest is 12 days long. Day 6 requires 1000 spare parts, day 9 requires 20 empty energy cells and day 12 takes 8 ignitercoils and 12 spare crates, plan accordingly.|
-A Blueprint: Mechanocat Laser Pointer|QID|55056|M|63.44,42.99|N|From Item purchased from Cork Stuttguard.|
+A Blueprint: Mechanocat Laser Pointer|QID|55056|PRE|55736|M|63.44,42.99|N|From Item purchased from Cork Stuttguard.|
 A Right Bot for the Job|QID|54086|M|71.48,38.75|N|From Recycler Kerchunk.|PRE|55608|AVAILABLE|55161|
 A Ready to Rumble|QID|54929|M|71.47,38.78|N|From Recycler Kerchunk.|PRE|54086|AVAILABLE|55161|
 A Knock 'Em Out The Box|QID|55373|M|71.49,38.77|N|From Recycler Kerchunk.|PRE|54929|AVAILABLE|55161|
@@ -256,7 +262,7 @@ t Drive It Away Today|QID|55622|M|71.49,38.77|N|To Recycler Kerchunk.|
 
 T Blueprint: Mechanocat Laser Pointer|QID|55056|M|71.30,32.38|N|To Pascal-K1N6.|
 T Blueprint: Beastbot Powerpack|QID|55066|M|71.30,32.38|N|To Pascal-K1N6.|
-A S.P.A.R.E. Crates|QID|56740|M|71.26,32.64|N|From Pascal.|PRE|55056|
+A S.P.A.R.E. Crates|QID|56740|M|71.26,32.64|N|From Pascal.|PRE|55101|  ; Grail calls for 55101 not 55056
 T S.P.A.R.E. Crates|QID|56740|M|71.26,32.64|N|To Pascal. You can turn in immediately if you have collected more than 250 parts.|
 
 C Microcogs|QID|55708|M|74.40,30.80;80.20,28.40;85.60,15.20;78.40,30.30;82.55,16.85;81.25,18.43;86.92,20.27;86.35,24.92;84.88,29.73;81.50,31.40;85.54,27.29;86.32,17.86|CN|N|Kill spiders for their tiny cogs.|
@@ -428,7 +434,7 @@ K Pummeller Red|ACTIVE|56471|M|43.54,46.76|QO|2|T|Pummeller Red|N|Kill Pummeller
 K Share Stealer Wonka|ACTIVE|56493|LEAD|56508|M|45.56,47.21|L|168682|T|Share Stealer Wonka|N|Counts towardsd Direct Approach and gives a chance at a drop to start another quest if [Waste Not] isn't available today. Check off manually after killing if box does not drop.|
 K Pummeller Orange|ACTIVE|56471|M|43.54,46.76|QO|3|T|Pummeller Orange|N|Kill Pummeller Orange.|
 K Profit Maker Grifa|ACTIVE|56493|LEAD|56508|M|46.79,38.20|L|168682|T|Profit Maker Grifa|N|Counts towardsd Direct Approach and gives a chance at a drop to start another quest if [Waste Not] isn't available today. Check off manually after killing if box does not drop.|
-A A Gulper Ate The Rolly|QID|56373|M|37.05,47.16|N|From Danielle Anglers.|O|
+A A Gulper Ate The Rolly|QID|56373|PRE|55736|M|37.05,47.16|N|From Danielle Anglers.|O|
 K Pummeller Grey|ACTIVE|56471|M|41.29,31.88|QO|1|T|Pummeller Grey|N|Kill Pummeller Grey.|
 K Problem Solver Skitz|ACTIVE|56493|LEAD|56508|M|39.82,31.51|L|168682|T|Problem Solver Skitz|N|Counts towardsd Direct Approach and gives a chance at a drop to start another quest if [Waste Not] isn't available today. Check off manually after killing if box does not drop.|
 K Rolly Gulper|ACTIVE|56373|M|47.29,28.26|QO|1|T|Rolly Gulper|N|Kill Rolly Gulper.|
