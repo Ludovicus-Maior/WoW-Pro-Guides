@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazjatar_horde
+-- Date: 2020-08-25 16:21
+-- Who: Blanckaert
+-- Log: minor changes, coords, notes, flow issues.
+
+-- URL: http://wow-pro.com/node/3789/revisions/30612/view
 -- Date: 2020-08-19 02:44
 -- Who: Blanckaert
 -- Log: added flight points, added note on T step turn in that varies.
@@ -305,9 +310,9 @@ C Settling In|QID|55384|M|50.84,64.90|QO|2|NC|N|Take a Swig of Slen's Elixir.|
 C Settling In|QID|55384|M|49.47,65.32|QO|3|CHAT|N|Check in with Vim.|
 C Settling In|QID|55384|M|49.85,64.65|QO|4|NC|N|Test the Calling Conch.|
 T Settling In|QID|55384|M|49.80,64.56|N|To Neri Sharpfin.|
-A Scouting the Pens|QID|55385|M|49.80,64.56|N|From Neri Sharpfin.|PRE|55385|
-C Scouting the Pens|QID|55385|M|51.79,54.74;49.10,60.64;50.58,45.51;43.67,43.47|CS|QO|1|NC|N|Follow the road NE, then W to find Nelu Darkclaw.|
-C Scouting the Pens|QID|55385|M|0.74,45.37|QO|2|NC|N|Sandel Fin found.|
+A Scouting the Pens|QID|55385|M|49.80,64.56|N|From Neri Sharpfin.|PRE|55384|  ; Had PRE of 55385, which is QID
+C Scouting the Pens|QID|55385|M|51.79,54.74;50.58,45.51;43.67,43.47|CS|QO|1|NC|N|Follow the road NE, then W to find Nelu Darkclaw.|  ; extra coord had you backtracking
+C Scouting the Pens|QID|55385|M|40.69,45.40|QO|2|NC|N|Sandel Fin found.|  ; coord missing digit.
 C Scouting the Pens|QID|55385|M|38.86,42.43|QO|3|NC|N|Find Poen Gillbrack.|
 T Scouting the Pens|QID|55385|M|38.86,42.43|N|To Neri Sharpfin.|
 A Save A Friend|QID|55500|M|38.88,42.43|N|From Poen Gillbrack.|PRE|55385|
@@ -365,8 +370,8 @@ A Rumors of Mechagon|QID|57024|M|48.41,60.63|PRE|55500|N|Disgruntled Laborer. Th
 A The Missing Crew|QID|56379|PRE|55500|M|58.46,62.98|Z|Zuldazar|N|Check this off manually (and pick it up later) if you aren't headed off to Mechagon now or don't find Champions important). From Dread-Admiral Tattersail. This quest is completed in Nazjatar.|NA|
 
 C Scrying Stones|QID|56210|M|49.23,62.06|QO|1|N|Use the Scrying Stone.|
-A Strange Silver Knife|QID|56240|M|39.71,49.16|N|From knife looted in treasure chest you just found.|PRE|55500|
 C Scrying Stones|QID|56210|M|46.81,55.99;43.48,53.65;40.28,49.00|CS|QO|2|N|Keep using the scrying stone (extra action button) until you find 3 Hidden Treasures.|
+A Strange Silver Knife|QID|56240|M|39.71,49.16|N|From knife looted in treasure chest you just found. Watch OUT! mods turn red as you approach!|PRE|55500|
 C The Unshackled|QID|56120|S!US|N|The Unshackled emisary is up, so Complete 4 world quests in Nazjatar.|
 C Bounty: Naga|QID|55827^55818|N|Today you have a bounty for killing Naga, so don't avoid them in your travels.|
 C Bounty: Coral Ancients|QID|55821^55830|S!US|N|Today you have a bounty for killing Coral Ancients, these are mostly non agro (yellow) and often stationary.|
@@ -411,7 +416,7 @@ C Making Kelpberry Wine|QID|55638|M|57.84,40.83|QO|2|N|Deliver the Kelpberries t
 C Making Kelpberry Wine|QID|55638|M|57.84,40.83|QO|3|N|Pick up Cask of Kelpberry Juice.|
 T Making Kelpberry Wine|QID|55638|M|57.21,39.52;58.15,35.22|CS|N|To Maedin in underwater cave.|
 
-f Ekka's Hideaway|ACTIVE|55530|M|64.00,51.77|N|At Ekka Crimsonscale.|
+f Ekka's Hideaway|ACTIVE|55530|M|64.00,51.77|N|At Ekka Crimsonscale.  This seems out of the way, but will make things easier later.|  ; added note, as during play through I thought WTF, didnt realize till later.
 F Newhome|ACTIVE|55530|M|64.00,51.77|N|At Ekka Crimsonscale.|
 T Scrying Stones|QID|56210|M|49.11,62.16|N|To Finder Pruc.|
 T Strange Silver Knife|QID|56240|M|49.22,62.08|N|To Finder Palta.|
@@ -503,10 +508,10 @@ C Chomp|QID|56382|M|71.14,50.50|N|Defeat Chomp in a pet battle.|O|
 A Leathery Venom Gland|QID|56457|M|71.87,51.14|N|From item dropped by Chomp.|PRE|56382|
 
 A The High Life|QID|56304|M|74.16,24.91|N|From Kelya Moonfall.|
-C The High Life|QID|56304|M|77.94,26.36|QO|1|N|Click on the Ruined Mixing Stand to spawn Varal Pansong and kill him to investigate the bakery.|
+C The High Life|QID|56304|M|77.94,26.36|QO|1|N|Click on the Ruined Mixing Stand to spawn Varel Pansong and kill him to investigate the bakery.|  ; spelling error
 C The High Life|QID|56304|M|77.29,30.02|QO|2|N|Click on Corin's mug to spawn Eranor Birtris and kill to investigate the inn.|
-C The High Life|QID|56304|M|79.47,30.15|QO|3|NC|N|Stand in the Garden to get credit for investigating.|
-T The High Life|QID|56304|M|79.47,30.15|N|To Kelya Moonfall.|
+C The High Life|QID|56304|M|79.59,30.71|QO|3|NC|N|Stand in the Garden to get credit for investigating.|  ; Coord adjustment
+T The High Life|QID|56304|M|79.47,30.15|N|To Kelya Moonfall.NOTE:Do thisBEFOREkilling Shadowcaster Vixtris.|  ; added a note here, as I killed the next mob before and had to kill twice.
 A Saving Corin|QID|56321|M|80.09,31.44|N|From Kelya Moonfall.|PRE|56304|
 C Saving Corin|QID|56321|M|80.73,32.09|T|Shadowcaster Vixtris|N|Kill Shadowcaster Vixtris.|
 T Saving Corin|QID|56321|M|80.22,31.88|N|To Kelya Moonfall.|
