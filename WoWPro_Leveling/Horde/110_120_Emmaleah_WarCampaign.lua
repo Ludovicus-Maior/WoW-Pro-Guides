@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/horde_war_campaign
+-- Date: 2020-08-25 16:25
+-- Who: Blanckaert
+-- Log: minor revisions, add F step, adjusted name of P step
+
+-- URL: http://wow-pro.com/node/3761/revisions/30611/view
 -- Date: 2020-08-19 02:42
 -- Who: Blanckaert
 -- Log: Travel adjustments, added F steps, changed Note wording on some quest steps.
@@ -248,11 +253,6 @@
 -- Date: 2018-10-02 22:22
 -- Who: elidion
 -- Log: added C step back to warfront quest.
-
--- URL: http://wow-pro.com/node/3761/revisions/29865/view
--- Date: 2018-10-02 19:42
--- Who: Emmaleah
--- Log: update warfront scenario to use |Z|943 so arrow will show.  Update Warfront Scenario to replace ACTIVE|53416| with PRE|51082 for all but 51082, since the quests remain available after 53416 has been turned in. (left the first one so the guide would flow right, it would technically be PRE or ACTIVE 53416 but I don't think that is an option.
 
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
 WoWPro:NewGuideLevels(guide,110, 120, 112)
@@ -1214,13 +1214,14 @@ T For the Queen|QID|54754|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunne
 A Battle of Dazar'alor|QID|54282|M|58.44,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|NA|PRE|54280|  ; Offered by Princess Talanji not Nathanos, listed already in guide, added PRE from that line.
 C Battle of Dazar'alor|QID|54282|N|You need to defeat Jaina at the Battle of Dazar'alor to continue with the war campaign.|
 
-A Return to the Heart|QID|55522|M|50.98,88.86|Z|Dazar'alor|N|From Earthen Guardian, after getting your necklace to 55.|PRE|56161|;pre is Back out to Sea--from Najzatar guide
+A Return to the Heart|QID|55522|M|50.98,88.86|Z|Dazar'alor|N|From Earthen Guardian, after getting your necklace to 55.|PRE|56161|LEAD|55519|  ; pre is Back out to Sea--from Najzatar guide
 P Silithus|ACTIVE|55522|M|73.80,85.65|Z|The Great Seal!Dazar'alor|N|Take the portal to Silithus.|
 T Return to the Heart|QID|55522|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard, inside the Chamber of Heart.|
-A A Fresh Trauma|QID|55519|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|55522|
+A A Fresh Trauma|QID|55519|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|55522| ; dont think you have to have 55522 done, as I did this one, but not 55522, which I can't get anymore
 A In Darkness, I Dream|QID|55390|M|52.55,70.05|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos, after getting your necklace to 54.|PRE|56161|;pre is Back out to Sea--from Najzatar guide
 P Orgrimmar|ACTIVE|55390|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Return to Zuldazar, and then take Portal to Orgrimmar.|
 P Azsuna|QID|55390|M|58.87,89.54|Z|Orgrimmar|N|Take the Portal to Azsuna.|
+F Garden of the Moon|ACTIVE|55390|M|44.60,43.86|Z|Azsuna|N|At Izal Whitemoon.|
 T In Darkness, I Dream|QID|55390|M|51.61,57.22|Z|Val'sharah|N|To Merithra of the Dream, in the Temple of Elune, in Val'Sharah.|
 A Enter the Dreamway|QID|55392|M|51.61,57.22|Z|Val'sharah|N|From Merithra of the Dream.|PRE|55390|
 C Enter the Dreamway|QID|55392|M|51.61,57.22|Z|Val'sharah|CHAT|N|Speak with Merithra to Enter the Dreamway.|
@@ -1255,7 +1256,7 @@ H The Great Seal|ACTIVE|55398|M|46.37,38.73|Z|The Emerald Dream!Instance|N|Heart
 P Orgrimmar|ACTIVE|55398|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Return to Zuldazar, (or Dalaran if you prefer that route) and then take Portal to Orgrimmar.|
 
 ;a fresh trauma
-P Nordrassil|ACTIVE|55519|M|51.18,38.29|Z|Orgrimmar|N|Take the Earthern Ring portal to Nordrassil or just fly up to there.|
+P Mount Hyjal|ACTIVE|55519|M|51.18,38.29|Z|Orgrimmar|N|Take the Earthern Ring portal to Mount Hyjal or just fly up to there.|
 T A Fresh Trauma|QID|55519|M|62.03,24.92|Z|Mount Hyjal|N|To Magni Bronzebeard.|
 A Healing Nordrassil|QID|55520|M|62.03,24.92|Z|Mount Hyjal|N|From Magni Bronzebeard.|PRE|55519|
 C Healing Nordrassil|QID|55520|M|60.71,25.84|Z|Mount Hyjal|N|Kill the Azerite Leviathan and other azerite mobs around the lake. You can also sooth fairy dragons and heal azerite wounds for quest credit.|
