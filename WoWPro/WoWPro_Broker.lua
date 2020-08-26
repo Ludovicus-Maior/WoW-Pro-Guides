@@ -2572,45 +2572,43 @@ function WoWPro.PopulateQuestLog()
 
         if questInfo.isHeader then
             currentHeader = questInfo.title
-        elseif not questInfo.isTask and not questInfo.isHidden and not questInfo.isBounty then
-            if not WoWPro.QuestLog[questInfo.questID] then
-                if _G.GetNumQuestLeaderBoards(questLogIndex) and _G.GetQuestLogLeaderBoard(1, questLogIndex) then
-                    leaderBoard = {}
-                    ocompleted = {}
-                    ncompleted = {}
-                    local objectives = _G.C_QuestLog.GetQuestObjectives(questInfo.questID)
-                    for objIndex = 1, #objectives do
-                        leaderBoard[objIndex] = objectives[objIndex].text
-                        ocompleted[objIndex] = objectives[objIndex].finished
-                        ncompleted[objIndex] = objectives[objIndex].numFulfilled
-                    end
-                else
-                    leaderBoard = nil
-                    ocompleted = nil
-                    ncompleted = nil
+        elseif not WoWPro.QuestLog[questInfo.questID] then
+            if _G.GetNumQuestLeaderBoards(questLogIndex) and _G.GetQuestLogLeaderBoard(1, questLogIndex) then
+                leaderBoard = {}
+                ocompleted = {}
+                ncompleted = {}
+                local objectives = _G.C_QuestLog.GetQuestObjectives(questInfo.questID)
+                for objIndex = 1, #objectives do
+                    leaderBoard[objIndex] = objectives[objIndex].text
+                    ocompleted[objIndex] = objectives[objIndex].finished
+                    ncompleted[objIndex] = objectives[objIndex].numFulfilled
                 end
-
-                if WoWPro.RETAIL then
-                    _, itemID = _G.GetQuestLogSpecialItemInfo(questLogIndex)
-                end
-                numLoggedQuests = numLoggedQuests + 1
-
-                -- TODO: Maybe at some point just change this to use questInfo?
-                WoWPro.QuestLog[questInfo.questID] = {
-                    title = questInfo.title,
-                    level = questInfo.level,
-                    tag = "Standard",
-                    group = questInfo.suggestedGroup,
-                    complete = WoWPro.QuestLog_IsComplete(questInfo.questID),
-                    ocompleted = ocompleted,
-                    ncompleted = ncompleted,
-                    daily = questInfo.frequency == _G.LE_QUEST_FREQUENCY_DAILY,
-                    leaderBoard = leaderBoard,
-                    header = currentHeader,
-                    use = itemID,
-                    index = questLogIndex
-                }
+            else
+                leaderBoard = nil
+                ocompleted = nil
+                ncompleted = nil
             end
+
+            if WoWPro.RETAIL then
+                _, itemID = _G.GetQuestLogSpecialItemInfo(questLogIndex)
+            end
+            numLoggedQuests = numLoggedQuests + 1
+
+            -- TODO: Maybe at some point just change this to use questInfo?
+            WoWPro.QuestLog[questInfo.questID] = {
+                title = questInfo.title,
+                level = questInfo.level,
+                tag = "Standard",
+                group = questInfo.suggestedGroup,
+                complete = WoWPro.QuestLog_IsComplete(questInfo.questID),
+                ocompleted = ocompleted,
+                ncompleted = ncompleted,
+                daily = questInfo.frequency == _G.LE_QUEST_FREQUENCY_DAILY,
+                leaderBoard = leaderBoard,
+                header = currentHeader,
+                use = itemID,
+                index = questLogIndex
+            }
         end
     end
 
