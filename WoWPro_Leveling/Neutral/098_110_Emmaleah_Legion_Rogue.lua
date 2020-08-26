@@ -1,88 +1,3 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/node/3675
--- Date: 2018-10-22 06:42
--- Who: elidion
--- Log: Went through intro corrected a few issues with PREs and ACTIVEs. Restructured some of the guide for proper flow.
-
--- URL: http://wow-pro.com/node/3675/revisions/30008/view
--- Date: 2018-10-17 02:29
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3675/revisions/29267/view
--- Date: 2018-05-07 20:25
--- Who: Emmaleah
--- Log: Remove deprecated quest "hitting the books"
-
--- URL: http://wow-pro.com/node/3675/revisions/28749/view
--- Date: 2017-08-12 21:05
--- Who: Ludovicus_Maior
--- Log: Obliterum
-
--- URL: http://wow-pro.com/node/3675/revisions/28706/view
--- Date: 2017-06-13 22:53
--- Who: Ludovicus_Maior
--- Log: Darnassis => Darnassus
-
--- URL: http://wow-pro.com/node/3675/revisions/28687/view
--- Date: 2017-06-12 21:27
--- Who: Emmaleah
--- Log: Added rogue mount quest. It is different for Horde vs Alliance. scouted horde locations, but did not test as my horde rogue is still lvl 100.
-
--- URL: http://wow-pro.com/node/3675/revisions/28663/view
--- Date: 2017-05-02 05:57
--- Who: Emmaleah
--- Log: Added Legionfall Champion quest chain
-
--- URL: http://wow-pro.com/node/3675/revisions/28609/view
--- Date: 2017-03-26 01:15
--- Who: Emmaleah
--- Log: missed ";" after 43501 ... 7 times... :(
-
--- URL: http://wow-pro.com/node/3675/revisions/28593/view
--- Date: 2017-03-23 19:33
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL: http://wow-pro.com/node/3675/revisions/28535/view
--- Date: 2017-03-21 19:20
--- Who: Emmaleah
--- Log: Guide finished! added all the missing order hall and rogue campaign quests.  (Other than the "power within" chain, which is post campaign.)
-
--- URL: http://wow-pro.com/node/3675/revisions/28471/view
--- Date: 2017-03-16 22:41
--- Who: Ludovicus_Maior
--- Log: Added PREs; syntax correction.
-
--- URL: http://wow-pro.com/node/3675/revisions/28266/view
--- Date: 2017-03-04 19:10
--- Who: Blanckaert
--- Log: Fix QID 44448 PRE ; + switch
-
--- URL: http://wow-pro.com/node/3675/revisions/28233/view
--- Date: 2017-01-10 21:23
--- Who: Blanckaert
--- Log: Added: Obliterum Quest Chain
-
--- URL: http://wow-pro.com/node/3675/revisions/27768/view
--- Date: 2016-09-14 09:28
--- Who: Emmaleah
--- Log: C In the Blink of an Eye|QO|2| changed to |Z|Dalaran@DeadwindPass
---	fixed Jump to Stormheim for alliance/horde
-
--- URL: http://wow-pro.com/node/3675/revisions/27641/view
--- Date: 2016-08-30 21:46
--- Who: Ludovicus_Maior
--- Log: Change default zone to The Hall of Shadows@Dalaran70
-
--- URL: http://wow-pro.com/node/3675/revisions/27573/view
--- Date: 2016-08-20 00:38
--- Who: Emmaleah
-
 local guide = WoWPro:RegisterGuide('EmmLegionRogue', 'Leveling', 'The Hall of Shadows@Dalaran70', 'Emmaleah', 'Neutral')
 WoWPro:GuideName(guide, 'Rogue Order Hall')
 WoWPro:GuideLevels(guide,98, 110, 103.745)
@@ -102,11 +17,11 @@ C In the Blink of an Eye|QID|44663|QO|1|M|80.24,34.82|Z|Stormwind City|NC|N|Take
 C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
 
-A Call of The Uncrowned|QID|40832|M|57.06,44.98|Z|Dalaran@Dalaran70|N|From Ravenholdt Courier.|PRE|43635|
-C Call of The Uncrowned|QID|40832|QO|1|M|55.23,55.60|Z|Dalaran@Dalaran70|N|Read the letter.|U|133558|NC|
+A Call of The Uncrowned|QID|40832|M|57.06,44.98|Z|Dalaran@Dalaran70|N|From Ravenholdt Courier.|
+C Call of The Uncrowned|QID|40832|QO|1|M|53.11,70.93|Z|Dalaran@Dalaran70|N|Read the letter.|U|133558|NC|
 C Call of The Uncrowned|QID|40832|QO|2|M|53.11,70.93|Z|Dalaran@Dalaran70|N|Whispered to "Red" who can be found inside the shop 'Glorious Goods'.|CHAT|
 C Call of The Uncrowned|QID|40832|QO|3|M|53.16,69.96|Z|Dalaran@Dalaran70|N|Go thru the now opened door.|NC|
-C Call of The Uncrowned|QID|40832|QO|4|M|44.69,54.94|N|Click on the lamp holder to open the door to where the 'Uncrowned' are.|NC|
+C Call of The Uncrowned|QID|40832|QO|4|M|44.69,54.94|N|Continue down the corridor, once you reach the bottom, click on the lamp holder to open the door to where the 'Uncrowned' are.|NC|
 T Call of The Uncrowned|QID|40832|M|41.44,78.08|N|To Lord Jorach Ravenholdt.|
 A The Final Shadow|QID|40839|M|41.44,78.08|N|From Lord Jorach Ravenholdt.|PRE|40832|
 C The Final Shadow|QID|40839|QO|1|M|42.24,77.09|N|Click on the empty chair beside Princess Tess.|NC|
@@ -167,7 +82,7 @@ C A Friendly Accord|QID|40847|QO|4|M|39.99,68.39|Z|The Cape of Stranglethorn|NC|
 T A Friendly Accord|QID|40847|M|40.76,69.11|Z|The Cape of Stranglethorn|N|To Fleet Admiral Tethys.|
 A The Dreadblades|QID|40849|M|40.76,69.11|Z|The Cape of Stranglethorn|N|From Fleet Admiral Tethys.|PRE|40847|
 C The Dreadblades|QID|40849|QO|1|M|40.76,69.11|Z|The Cape of Stranglethorn|N|Tell the Admiral you are ready to set sail.|CHAT|
-C Maritime Diplomacy|SO|1|Z|Azsuna|N|As you are running across the landing area, be aware of stealthed explosive traps. Board the ship on the other side of the beach and attack First Mate DeGauza.  Be aware of the radias marks for the bombs going off during the fight.|QID|40849|
+C Maritime Diplomacy|SO|1|M|61.16,68.79|Z|Azsuna|N|As you are running across the landing area, be aware of stealthed explosive traps. Board the ship on the other side of the beach and attack First Mate DeGauza.  Be aware of the radias marks for the bombs going off during the fight.|QID|40849|
 C Find the Dread Admiral Eliza|SO|2;1|M|57.02,66.63|Z|Azsuna|N|Find the Dread Admiral Eliza|QID|40849|
 C Defeat Lord Brinebeard|SO|3;1|M|56.38,67.22|Z|Azsuna|N|Defeat Lord Brinebeard|QID|40849|
 C Pursue the Dread Admiral Eliza into the temple depths|SO|4;1|M|54.09,71.47|Z|Azsuna|N|You need to kill the three guardians (note they heal - use kick) to open the doorway to continue pursueing the Dread Admiral Eliza into the temple depths.|QID|40849|
@@ -179,20 +94,20 @@ T The Dreadblades|QID|40849|M|41.17,74.24|N|To Fleet Admiral Tethys. (back in yo
 ;SUBTLETY
 ;A The Shadows Reveal|QID|41919|M|40.84,75.16|N|From Valeera Sanguinar.|PRE|40840|
 C The Shadows Reveal|QID|41919|QO|3|M|54.46,31.51|Z|Dalaran@Dalaran70|N|Lucian Trias' can be found at 'One More Glass'.|CHAT|
-C The Shadows Reveal|QID|41919|QO|2|M|59.61,47.78;67.49,62.53|Z|Dalaran@Dalaran70|CS|N|Val'zuun can be found just inside the sewers. Tell him "the shadows reveal" then wait a moment for the dialog to complete.|CHAT|
+C The Shadows Reveal|QID|41919|QO|2|M|67.41,63.09|Z|The Underbelly@Dalaran!Broken Isles|CS|N|Val'zuun can be found just inside the sewers. Tell him "the shadows reveal" then wait a moment for the dialog to complete.|CHAT|
 C The Shadows Reveal|QID|41919|QO|1|M|27.31,64.16|Z|Dalaran@Dalaran70|N|Desmond Gravesorrowcan be found beside (and somewhat behind) the Violet Citadel.|CHAT|
 T The Shadows Reveal|QID|41919|M|51.68,70.45|Z|Dalaran@Dalaran70|N|To Valeera Sanguinar who has moved to Glorious Goods.|
 A A Matter of Finesse|QID|41920|M|51.68,70.45|Z|Dalaran@Dalaran70|N|From Valeera Sanguinar.|PRE|41919|
 C A Matter of Finesse|QID|41920|QO|1|M|53.64,47.27|Z|Dalaran@Dalaran70|N|Stealth and walk into her study (directly across from stairway to Krasus' landing) avoiding the fire and the elemental servant, then pick up the rune.|NC|
-C A Matter of Finesse|QID|41920|QO|2|M|67.27,63.08|Z|Dalaran@Dalaran70|N|Hand the rune to Val'zuun (who is still just inside the sewer).|NC|
-T A Matter of Finesse|QID|41920|M|68.03,63.12|Z|Dalaran@Dalaran70|N|To Valeera Sanguinar who comes to find you.|
-A Closing In|QID|41921|M|68.03,63.12|Z|Dalaran@Dalaran70|N|From Valeera Sanguinar.|PRE|41920|
-C Closing In|QID|41921|QO|1|M|49.18,40.98|Z|Dalaran@Dalaran70|N|Confront Akaari upstairs in The Legerdemain Lounge.|T|Akaari Shadowgore|
+C A Matter of Finesse|QID|41920|QO|2|M|67.41,63.09|Z|The Underbelly@Dalaran!Broken Isles|N|Hand the rune to Val'zuun (who is still just inside the sewer).|NC|
+T A Matter of Finesse|QID|41920|M|68.03,63.12|Z|The Underbelly@Dalaran!Broken Isles|N|To Valeera Sanguinar who comes to find you.|
+A Closing In|QID|41921|M|68.03,63.12|Z|The Underbelly@Dalaran!Broken Isles|N|From Valeera Sanguinar.|PRE|41920|
+C Closing In|QID|41921|QO|1|M|46.79,39.71|Z|Dalaran@Dalaran70|N|Confront Akaari upstairs in The Legerdemain Lounge.|T|Akaari Shadowgore|
 T Closing In|QID|41921|M|49.47,41.30|Z|Dalaran@Dalaran70|N|To Valeera Sanguinar.|
 A Traitor!|QID|41922|M|49.47,41.30|Z|Dalaran@Dalaran70|N|From Valeera Sanguinar.|PRE|41921|
-T Traitor!|QID|41922|M|67.65,62.24|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|To Valeera Sanguinar who has returned to Val'zuun to question him further.|
-A Fangs of the Devourer|QID|41924|M|67.27,62.87|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|N|From Val'zuun.|PRE|41922|
-C Fangs of the Devourer|QID|41924|QO|1|M|67.05,61.78|Z|The Underbelly!Dalaran!Dungeon!Broken Isles|NC|N|Use the Twisted Gateway.|
+T Traitor!|QID|41922|M|67.65,62.24|Z|The Underbelly@Dalaran!Broken Isles|N|To Valeera Sanguinar who has returned to Val'zuun to question him further.|
+A Fangs of the Devourer|QID|41924|M|67.27,62.87|Z|The Underbelly@Dalaran!Broken Isles|N|From Val'zuun.|PRE|41922|
+C Fangs of the Devourer|QID|41924|QO|1|M|67.05,61.78|Z|The Underbelly@Dalaran!Broken Isles|NC|N|Use the Twisted Gateway.|
 C The Unseen Blade|QID|41924|SO|1|M|64.41,53.56|Z|Upper Citadel@ArtifactSubtletyRogueAcquisition|N|Engage Akaari Shadowgore while you have the element of surprise.|T|Akaari Shadowgore|
 C Use Pick Pocket on the Soulkeeper|QID|41924|SO|2;1|M|67.37,55.25|Z|Upper Citadel@ArtifactSubtletyRogueAcquisition|T|Soulkeeper|N|Use Pick Pocket on the Soulkeeper.|
 C Escape the Jailer's Prison|QID|41924|SO|3;1|M|67.37,55.25|Z|Upper Citadel@ArtifactSubtletyRogueAcquisition|N|Escape the Jailer's Prison.|
@@ -205,13 +120,30 @@ C Find Akaari Shadowgore|QID|41924|SO|6;1|M|63.83,53.20|Z|Lower Citadel@Artifact
 C Fangs of the Devourer|QID|41924|QO|2|M|63.83,53.20|Z|Lower Citadel@ArtifactSubtletyRogueAcquisition|N|Pick up Fangs of the Devourer.|NC|
 P The Underbelly Descent|QID|41924|M|28.22,52.53|Z|Lower Citadel@ArtifactSubtletyRogueAcquisition|N|Run across the main floor and out to the portal before the citadel self destructs.|NC|ACTIVE|41924|
 R Glorious Goods|QID|41924|M|52.99,70.86|Z|Dalaran@Dalaran70|CN|N|Run into Glorious Goods and chat with "Red", he opens the door and you can run down to your class hall.|NC|ACTIVE|41924|
-T Fangs of the Devourer|QID|41924|M|40.82,75.40|N|To Valeera Sanguinar.|
+T Fangs of the Devourer|QID|41924|M|40.82,75.40|N|To Valeera Sanguinar back in the Chamber of Shadows.|
 
 ;After finishing first artifact-Class Hall
-A Honoring Success|QID|40950|M|41.38,78.22|N|From Lord Jorach Ravenholdt.|PRE|41924&40849&42627|
+A Honoring Success|QID|40950|M|41.38,78.22|N|From Lord Jorach Ravenholdt.|PRE|41924^40849^42627|
 C Honoring Success|QID|40950|QO|2|M|42.23,77.09|NC|N|Wait a bit for the dialog and then raise your glass (extra action button).|
 C Honoring Success|QID|40950|QO|3|M|43.02,73.73|N|Defeat Vanessa VanCleef.|T|Vanessa VanCleef|
 T Honoring Success|QID|40950|M|41.43,78.10|N|To Lord Jorach Ravenholdt.|
+
+;2nd spec artifact
+A Another Worthy Blade|QID|44034|M|41.41,78.21|N|2nd Artifact Weapon from Lord Jorach Ravenholdt. Skip if you want to ignore this for now.|PRE|40950|LVL|102|
+C Another Worthy Blade|QID|44034|M|41.41,78.21|NC|N|Choose your next artifact to pursue. It will confirm you want to change specs after you choose. You can do the 3rd spec immediately after finishing the 2nd.|
+T Another Worthy Blade|QID|44034|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
+A Artifact Specific Quest|QID|42501^40847|M|41.44,78.08|N|From one of the NPCs in this room for your second set of blades.|PRE|41919&44034|LVL|102|
+A Artifact Specific Quest|QID|41919^40847|M|41.44,78.08|N|From one of the NPCs in this room for your second set of blades.|PRE|42501&44034|LVL|102|
+A Artifact Specific Quest|QID|41919^42501|M|41.44,78.08|N|From one of the NPCs in this room for your second set of blades.|PRE|40847&44034|LVL|102|
+
+;3rd spec artifact
+A The Final Blade|QID|44375|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|ACH|11174;;true|LVL|102|
+C The Final Blade|QID|44375|M|41.41,78.21|N|Choose the only one left. It will confirm you want to change specs after you choose.|
+T The Final Blade|QID|44375|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
+A Finishing the Job|QID|42501|M|41.44,78.08|N|From Princess Tess Greymane for your final set of blades.|PRE|41919&40847&44375|LVL|102|
+A The Shadows Reveal|QID|41919|M|41.44,78.08|N|From Valeera Sanguinar for your final set of blades.|PRE|42501&40847&44375|LVL|102|
+A A Friendly Accord|QID|40847|M|41.44,78.08|N|From Fleet Admiral Tethys for your final set of blades.|PRE|41919&42501&44375|LVL|102|
+
 A Delegation|QID|40996|M|30.44,70.40|N|From Marin Noggenfogger.|PRE|40950|
 T Delegation|QID|40996|M|37.90,45.19|N|To Nikki the Gossip.|
 A Lethal Efficiency|QID|40997|M|37.90,45.19|N|From Nikki the Gossip.|PRE|40996|
@@ -233,7 +165,7 @@ T The School of Roguery|QID|43013|M|37.92,45.26|N|To Nikki the Gossip.|
 A The Big Bad Wolfe|QID|43014|M|37.92,45.26|N|From Nikki the Gossip.|PRE|43013|
 C The Big Bad Wolfe|QID|43014|M|37.92,45.26|NC|N|Use your scouting map to send followers on the required mission.|
 t The Big Bad Wolfe|QID|43014|M|37.92,45.26|N|To Nikki the Gossip. This one isn't near instant so don't wait around for it to complete.  Right Click to check this off manually to move to other steps in the guide, you will be reminded about it when you return to your order hall.|
-A What Winstone Suggests|QID|43015|M|37.92,45.26|N|From Nikki the Gossip.|PRE|43015|
+A What Winstone Suggests|QID|43015|M|37.92,45.26|N|From Nikki the Gossip.|PRE|43014|
 C What Winstone Suggests|QID|43015|M|46.05,69.09|NC|N|Choose your first order hall unprade from Winstone.|;not correct coords. kinda close
 T What Winstone Suggests|QID|43015|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
 A A Body of Evidence|QID|43958|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|43015|
@@ -242,9 +174,12 @@ T A Body of Evidence|QID|43958|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
 A Spy vs. Spy|QID|43829|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|43958|
 C Spy vs. Spy|QID|43829|M|37.92,45.26|NC|N|Use scouting map to send your followers on the 'Spy vs Spy' mission. This is your last order hall quest until level 103. Right Click to check this off manually to move to other steps in the guide, you will be reminded about it when you return to your order hall.|
 t Spy vs. Spy|QID|43829|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
+
+;Level 103
 A The Bloody Truth|QID|44041|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|43829|LVL|103|
 C The Bloody Truth|QID|44041|QO|1|M|41.41,78.21;83,68|CS|U|140395|NC|N|Use the provided glasses, to see the blood trail and follow it.|
 C The Bloody Truth|QID|44041|QO|2|M|47,38|Z|Dalaran@Dalaran70|NC|N|Be stealthed before you go upstairs in Legerdemain Lounge.|
+C The Bloody Truth|QID|44041|QO|3|M|47,38|Z|Dalaran@Dalaran70|NC|N|Be stealthed abd sot ib tge SI:7 Agents.|
 T The Bloody Truth|QID|44041|M|41.41,78.21|N|To Lord Jorach Ravenholdt. If you liked the sunglasses and want to keep them, you can sell to a vendor, before turning in then buy back after so you don't lose them.|
 A Mystery at Citrine Bay|QID|44116|M|41.41,78.21|N|From Lord Jorach Ravenholdt. Don't forget to re-equip your hat.|PRE|44041|
 C Mystery at Citrine Bay|QID|44116|M|77.26,55.03|Z|Stormheim|NC|N|You can wait until you quest in Stormheim if you aren't in a rush.|
@@ -482,21 +417,6 @@ T The Hunt for Illidan Stormrage|QID|45174|M|43.28,43.16|Z|Azsuna|N|To Allari th
 A Soul Prism of the Illidari|QID|45175|NA|M|43.28,43.16|Z|Azsuna|N|From Allari the Souleater. Run Dungeons until you collect the needed shards.(max 10 shards/week)|PRE|45174|
 t Soul Prism of the Illidari|QID|45175|M|43.28,43.16|Z|Azsuna|N|To Allari the Souleater.|;guessing on turn in
 
-;2nd spec artifact
-A Return to the Chamber of Shadows|QID|43007|N|Accepted from Valeera Sanguinar who follows you around in Dalaran after you reach level 102, until you accept the quest.|LVL|102|
-C Return to the Chamber of Shadows|QID|43007|N|Go to your order hall, (entrances in Glorious Goods, upstairs in Tanks for Everything-mining shop and One More Glass-cheese and wine shop) and find Lord Jorach Ravenholdt in the Chamber of Shadows.|
-T Return to the Chamber of Shadows|QID|43007|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
-A Another Worthy Blade|QID|44034|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|PRE|43007|
-C Another Worthy Blade|QID|44034|M|41.41,78.21|NC|N|Choose your next artifact to pursue. It will confirm you want to change specs after you choose. You can do the 3rd spec immediately after finishing the 2nd.|
-T Another Worthy Blade|QID|44034|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
-A Artifact Specific Quest|QID|41919^42501^40847|M|41.44,78.08|N|From one of the NPCs in this room.|PRE|44034|
-
-;3rd spec artifact
-A The Final Blade|QID|44375|M|41.41,78.21|N|From Lord Jorach Ravenholdt.|ACH|11174;;true|
-C The Final Blade|QID|44375|M|41.41,78.21|N|Choose the only one left. It will confirm you want to change specs after you choose.|
-T The Final Blade|QID|44375|M|41.41,78.21|N|To Lord Jorach Ravenholdt.|
-A Artifact Specific Quest|QID|41919^42501^40847|M|41.44,78.08|N|From one of the NPCs in this room.|PRE|44375|
-
 ; post class campaign
 A The Power Within|QID|43496^43501^43503^43505|M|31.50,63.45|N|From Image of Kalec. This appears up to 48 hours after you finish class order hall campaign|ACH|10994;;true|;prereq seems to be finishing class hall campaign. (and maybe something else... much discussion on wowhead)|
 N The Power Within|ACTIVE|43496^43501^43503^43505|M|31.50,63.45|N|This chain of quests sends you through many (all?) mythic dungeons and several raids.  The end result is an artifact appearance.|
@@ -608,5 +528,3 @@ T Hiding In Plain Sight|QID|46178^46089|M|42.01,78.67|N|To Lilian Voss.|
 
 ]]
 end)
-
-
