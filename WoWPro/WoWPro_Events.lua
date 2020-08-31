@@ -215,10 +215,30 @@ function WoWPro.AutoCompleteLoot()
     WoWPro:UpdateGuide("WoWPro.AutoCompleteLoot")
 end
 
+local LUNARFALL_MAPID
+local FROSTWALL_MAPID
+
+function WoWPro.InGarrison()
+    if WoWPro.CLASSIC then return false; end
+    if not LUNARFALL_MAPID then
+        local zone, zm = WoWPro:ValidZone("Lunarfall!Instance")
+        WoWPro:dbp("InGarrison: zone [%s] mapped to %d", zone, zm)
+        LUNARFALL_MAPID = zm
+    end
+    if not FROSTWALL_MAPID then
+        local zone, zm = WoWPro:ValidZone("Frostwall!Instance")
+        WoWPro:dbp("InGarrison: zone [%s] mapped to %d", zone, zm)
+        FROSTWALL_MAPID = zm
+    end
+    local _, mapID = WoWPro.GetZoneText()
+    return ((mapID == LUNARFALL_MAPID) or (mapID == FROSTWALL_MAPID)) and mapID
+end
+
 -- Save Garrison Building Locations for the BUILDING tag
 function WoWPro.SaveGarrisonBuildings()
     if not _G.C_Garrison then return; end
-    local _, mapID = WoWPro.GetZoneText()
+    local mapID = WoWPro.InGarrison()
+    if not mapID then return; end
 
     WoWProCharDB.BuildingLocations = WoWProCharDB.BuildingLocations or {}
     local garrisonPlotInstances = _G.C_Garrison.GetGarrisonPlotsInstancesForMap(mapID)
