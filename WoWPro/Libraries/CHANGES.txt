@@ -1,58 +1,80 @@
 ------------------------------------------------------------------------
-r1223 | nevcairiel | 2019-08-01 12:51:41 +0000 (Thu, 01 Aug 2019) | 1 line
+r1238 | nevcairiel | 2020-08-28 16:18:42 +0000 (Fri, 28 Aug 2020) | 3 lines
 Changed paths:
-   M /trunk/changelog.txt
+   M /trunk/AceAddon-3.0/AceAddon-3.0.lua
 
-Update changelog
-------------------------------------------------------------------------
-r1222 | funkydude | 2019-07-26 22:14:43 +0000 (Fri, 26 Jul 2019) | 1 line
-Changed paths:
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+AceAddon-3.0: Blacklist more Blizzard addons from triggering Ace3 load events
 
-AceConfigDialog-3.0: Make the popup not block keyboard input.
+These addons can be loaded very early by UIParent, which causes issues with loading certain addons
 ------------------------------------------------------------------------
-r1221 | nevcairiel | 2019-07-20 18:23:00 +0000 (Sat, 20 Jul 2019) | 1 line
+r1237 | nevcairiel | 2020-07-17 22:50:38 +0000 (Fri, 17 Jul 2020) | 1 line
 Changed paths:
-   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
-
-AceGUI-3.0: Clear the points before re-anchoring in Fill layout (Ticket #512)
-------------------------------------------------------------------------
-r1220 | funkydude | 2019-07-18 16:47:58 +0000 (Thu, 18 Jul 2019) | 1 line
-Changed paths:
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-
-AceConfigDialog: Make sure to hide the popup after it's created
-------------------------------------------------------------------------
-r1219 | funkydude | 2019-07-18 14:35:16 +0000 (Thu, 18 Jul 2019) | 1 line
-Changed paths:
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-
-AceConfigDialog: Replace the StaticPopup with our own custom made popup.
-------------------------------------------------------------------------
-r1218 | nevcairiel | 2019-07-15 08:29:52 +0000 (Mon, 15 Jul 2019) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
-
-AceGUI-3.0: Hide the widget early in the release process, so that OnLeave callbacks have a chance to fire (Fixes #505)
-------------------------------------------------------------------------
-r1217 | funkydude | 2019-07-11 03:06:18 +0000 (Thu, 11 Jul 2019) | 1 line
-Changed paths:
-   M /trunk/AceDB-3.0/AceDB-3.0.lua
-
-AceDB-3.0: Improve errors to provide more information.
-------------------------------------------------------------------------
-r1216 | funkydude | 2019-07-10 02:36:51 +0000 (Wed, 10 Jul 2019) | 1 line
-Changed paths:
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-DropDownGroup.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-InlineGroup.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua
    M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Keybinding.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-MultiLineEditBox.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
 
-Create our own tooltip instead of re-using the GameTooltip.
+Use BackdropTemplate in WoW 9.0
 ------------------------------------------------------------------------
-r1215 | funkydude | 2019-07-09 04:52:59 +0000 (Tue, 09 Jul 2019) | 1 line
+r1236 | nevcairiel | 2020-04-16 07:36:45 +0000 (Thu, 16 Apr 2020) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
+
+AceGUI-3.0: DropDown: Initialize the widget with an empty item list (instead of nil), this allows AddItem to be used right away (Fixes #542)
+------------------------------------------------------------------------
+r1235 | nevcairiel | 2020-04-15 10:27:55 +0000 (Wed, 15 Apr 2020) | 1 line
 Changed paths:
    M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
 
-AceGUI-3.0/widgets/AceGUIContainer-TreeGroup: Make sure to :ClearAllPoints() after changing the width using the drag handler.
+Cleanup debug
+------------------------------------------------------------------------
+r1234 | nevcairiel | 2020-04-15 10:14:35 +0000 (Wed, 15 Apr 2020) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
+
+AceGUI-3.0: TreeGroup: Remove pre-8.0 compat
+------------------------------------------------------------------------
+r1233 | nevcairiel | 2020-04-15 10:09:47 +0000 (Wed, 15 Apr 2020) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
+
+AceGUI-3.0: Label: Refresh anchoring after changing the font (Fixes #540)
+------------------------------------------------------------------------
+r1232 | nevcairiel | 2020-04-14 22:21:22 +0000 (Tue, 14 Apr 2020) | 1 line
+Changed paths:
+   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+
+AceConfigDialog-3.0: Prevent a dialog refresh when a multiselect control is closed during release (Fixes #539)
+------------------------------------------------------------------------
+r1231 | nevcairiel | 2020-04-14 22:20:36 +0000 (Tue, 14 Apr 2020) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
+
+AceGUI-3.0: Add a getter to allow callers to check if a widget is currently being released, which can be used as part of some callbacks to alter behavior
+------------------------------------------------------------------------
+r1230 | funkydude | 2020-01-14 17:01:25 +0000 (Tue, 14 Jan 2020) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+bump toc
+------------------------------------------------------------------------
+r1229 | funkydude | 2019-10-11 20:48:50 +0000 (Fri, 11 Oct 2019) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+
+bump toc
+------------------------------------------------------------------------
+r1228 | nevcairiel | 2019-09-06 08:51:17 +0000 (Fri, 06 Sep 2019) | 3 lines
+Changed paths:
+   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
+
+AceGUI-3.0: Avoid re-entrance into the Release function
+
+This can happen if a frame is released in a callback fired in the release process, and may in some cases throw errors.
 ------------------------------------------------------------------------
 
