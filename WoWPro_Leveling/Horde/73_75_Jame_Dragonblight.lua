@@ -1,130 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_dragonblight_horde
--- Date: 2020-04-08 18:39
--- Who: Ludovicus_Maior
--- Log: [WANTED: Dreadtalon], [WANTED: Gigantaur], [WANTED: Magister Keldonus], [WANTED: The Scarlet Onslaught]
-
--- URL: http://wow-pro.com/node/3292/revisions/29989/view
--- Date: 2018-10-17 02:28
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3292/revisions/29587/view
--- Date: 2018-08-23 19:42
--- Who: Emmaleah
--- Log: update old style QOs
-
--- URL: http://wow-pro.com/node/3292/revisions/29111/view
--- Date: 2018-02-22 23:06
--- Who: Ludovicus_EditBot
-
--- URL: http://wow-pro.com/node/3292/revisions/28922/view
--- Date: 2018-01-17 00:04
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3292/revisions/28462/view
--- Date: 2017-03-16 22:19
--- Who: Ludovicus_Maior
--- Log: Added a PRE.
-
--- URL: http://wow-pro.com/node/3292/revisions/28448/view
--- Date: 2017-03-16 16:53
--- Who: Ludovicus_Maior
--- Log: Added PREs
-
--- URL: http://wow-pro.com/node/3292/revisions/27207/view
--- Date: 2015-04-25 15:17
--- Who: Ludovicus_Maior
--- Log: Add Iceshatter QO's
-
--- URL: http://wow-pro.com/node/3292/revisions/26770/view
--- Date: 2014-10-30 02:47
--- Who: Emmaleah
--- Log: clarify quest A Flesh Bound tome per user's comment here http://wow-pro.com/comment/reply/3123/54199#comment-54199
-
--- URL: http://wow-pro.com/node/3292/revisions/26438/view
--- Date: 2014-06-02 14:53
--- Who: Ludovicus_Maior
--- Log: Set levels
-
--- URL: http://wow-pro.com/node/3292/revisions/26284/view
--- Date: 2014-05-26 01:03
--- Who: Ludovicus_Maior
--- Log: added guide type.
-
--- URL: http://wow-pro.com/node/3292/revisions/26158/view
--- Date: 2014-05-20 19:48
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3292/revisions/26005/view
--- Date: 2014-05-16 20:35
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3292/revisions/25572/view
--- Date: 2013-03-23 18:56
--- Who: Ludovicus_Maior
--- Log: A freq quest name corrections.
-
--- URL: http://wow-pro.com/node/3292/revisions/25470/view
--- Date: 2013-01-13 19:19
--- Who: Ludovicus_Maior
--- Log: Added CN tags
-
--- URL: http://wow-pro.com/node/3292/revisions/25317/view
--- Date: 2013-01-09 22:50
--- Who: Ludovicus_Maior
--- Log: Added some CS tags
-
--- URL: http://wow-pro.com/node/3292/revisions/24917/view
--- Date: 2012-01-23 06:23
--- Who: Crackerhead22
--- Log: Added notes, cords, missing quests, etc.
-
--- URL: http://wow-pro.com/node/3292/revisions/24859/view
--- Date: 2011-12-10 17:12
--- Who: Crackerhead22
--- Log: 4.3 updates
-
--- URL: http://wow-pro.com/node/3292/revisions/24606/view
--- Date: 2011-06-25 02:45
--- Who: Crackerhead22
--- Log: ! Duplicate A step for qid 12205 - Removed duplicate line.
-
--- URL: http://wow-pro.com/node/3292/revisions/24165/view
--- Date: 2011-03-12 18:31
--- Who: Ludovicus_Maior
--- Log: Grizz changed ID.
-
--- URL: http://wow-pro.com/node/3292/revisions/23981/view
--- Date: 2011-01-13 01:47
--- Who: brandonh6k
--- Log: Fixed Overload Agmar's location.  It was listing him in the walking around location (which isn't that often), not the sitting on the throne one.
-
--- URL: http://wow-pro.com/node/3292/revisions/23476/view
--- Date: 2010-12-03 22:23
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3292/revisions/23475/view
--- Date: 2010-12-03 22:23
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("JamDra7375", "Leveling", "Dragonblight", "Jame", "Horde")
-WoWPro:GuideLevels(guide,71,74, 71.3291)
-WoWPro:NewGuideLevels(guide,61,80)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, "JamGriH7577")
-WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
---> Original guides written/designed by [Jame]
--->
---> Last modified by [Jiyambi] 19/6/2009
 return [[
-
 A Into the Fold |QID|11978|PRE|11977^11979|M|12.8,48.5|N|From Emissary Brighthoof.|
 A Pride of the Horde |QID|11980|M|14.2,49.8|N|From Blood Guard Roh'kill.|
 C Pride of the Horde |QID|11980|N|Kill Anub'ar Ambushers.|S|M|15.5,51.2|
@@ -135,7 +13,6 @@ T Into the Fold |QID|11978|M|12.8,48.5|N|To Emissary Brighthoof.|
 A Blood Oath of the Horde |QID|11983|M|12.8,48.5|PRE|11978|N|From Emissary Brighthoof.|
 C Blood Oath of the Horde |QID|11983|N|Talk to the Taunka'le Refugees and go through the text until you complete the quest.|
 T Blood Oath of the Horde |QID|11983|M|12.8,48.5|N|To Emissary Brighthoof.|
-
 A Agmar's Hammer |QID|12008|M|12.8,48.5|PRE|11983|N|From Emissary Brighthoof.|
 T Agmar's Hammer |QID|12008|M|38.1,46.3|N|To Overlord Agmar.|
 A Victory Nears... |QID|12034|M|38.1,46.3|N|From Overlord Agmar.|
@@ -147,7 +24,6 @@ A Message from the West |QID|12033|M|37.3,46.8|O|N|From Messenger Torvus.|
 C Message from the West |QID|12033|N|Use the firepot right next to the quest NPC.|M|37.4,46.7|PRE|11916|O|
 T Message from the West |QID|12033|M|37.3,46.8|PRE|11916|O|N|To Messenger Torvus.|
 T Victory Nears... |QID|12034|M|36.6,46.6|N|To Senior Sergeant Juktok.|
-
 A From the Depths of Azjol-Nerub |QID|12036|M|36.6,46.6|PRE|12034|N|From Senior Sergeant Juktok.|
 A The High Executor Needs You |QID|12488|M|36.6,46.6|N|From Senior Sergeant Juktok.|
 A Black Blood of Yogg-Saron |QID|12039|M|36.6,47.2|N|From Borus Ironbender.|
@@ -161,7 +37,6 @@ C Marked for Death: High Cultist Zangus |QID|12056|N|Take the middle tunnel goin
 C An Enemy in Arthas |QID|12040|N|Kill Anub'ar Underlords.|M|26.5,49.6|US|
 C Black Blood of Yogg-Saron |QID|12039|M|26.5,49.6|N|Mine the samples that are needed.|US|
 T An Enemy in Arthas |QID|12040|M|26.2,50.8|N|To Kilix the Unravaler.|
-
 A The Lost Empire |QID|12041|M|26.2,50.8|PRE|12040|N|From Kilix the Unravaler.|
 l Moonrest Gardens Plans |QID|11999|S|U|35792|L|35783|N|Look for Dead Mage Hunters. Dismount and loot the corpse, you'll receive a Mage Hunter's Personal Effects. Right-click them and loot the contents. Repeat this step until you find the Moonrest Gardens Plans.|
 A Avenge this Atrocity! |QID|12006|N|From Ethenial Moonshadow.|M|24.00,60.00|
@@ -178,7 +53,6 @@ A The Might of the Horde |QID|12053|M|36.6,46.6|PRE|12036|N|From Senior Sergeant
 T Rifle the Bodies |QID|11999|M|38.1,46.2|N|To the Image of Archmage Aethas Sunreaver.|
 A Prevent the Accord |QID|12005|M|38.1,46.2|PRE|11999|N|From the Image of Archmage Aethas Sunreaver.|
 T The Lost Empire |QID|12041|M|38.1,46.3|N|To Overlord Agmar.|
-
 A Strength of Icemist |QID|12063|M|35.8,46.7|N|From Greatmother Icemist. She wanders back and forth.|
 C Scourge Armaments|QID|12048|M|26.9,43.3|N|Kill and loot Anub'ar to get the armaments.|S|
 T Strength of Icemist |QID|12063|N|To Banthok Icemist. He is actually down next to the water.|M|22.61,41.71|
@@ -190,7 +64,6 @@ C Chains of the Anub'ar |QID|12064|N|Look for Tivax, who can be at either waypoi
 K Anub'ar Cultists|QID|12057|L|36744|N|Until you get a Flesh-Bound Tome. Also drops off the three named mobs we just killed.|US|
 A The Flesh-Bound Tome |QID|12057|U|36744|M|26.9,43.3|N|From the Flesh-Bound Tome.|
 T Chains of the Anub'ar |QID|12064|N|To Banthok Icemist.|M|22.61,41.71|
-
 A Return of the High Chief |QID|12069|M|22.6,41.7|PRE|12064|N|From Banthok Icemist.|
 C Return of the High Chief |QID|12069|M|25.6,40.9|N|Click on the Mechanism to free the High Chief, then help defeat Under-King Anub'et'kan. Loot the Husk when it is dead.|
 C The Might of the Horde |QID|12053|U|36738|M|24.8,41.2|N|Drop the banner then protect it until you get the quest update.|
@@ -205,7 +78,6 @@ T Avenge this Atrocity! |QID|12006|N|To Ethenial Moonshadow.|M|24.00,60.00|
 A End Arcanimus |QID|12013|PRE|12006|M|24.2,60.1|N|From Ethenial Moonshadow.|
 T WANTED: Magister Keldonus |QID|12089|N|To Captain Gort.|M|35.8,48.4|
 T The Flesh-Bound Tome |QID|12057|N|To Captain Gort.|
-
 A Koltira and the Language of Death |QID|12115|M|35.8,48.4|PRE|12057|N|From Captain Gort.|
 T Scourge Armaments |QID|12048|M|36.6,47.2|N|To Borus Ironbender.|
 T The Might of the Horde |QID|12053|M|36.6,46.6|N|To Senior Sergeant Juktok.|
@@ -220,7 +92,6 @@ A All Hail Roanauk! |QID|12140|M|38.1,46.3|PRE|12069|N|From Overlord Agmar.|
 C All Hail Roanauk! |QID|12140|M|36.26,45.46|N|Follow Overlord Agmar. When you get to Roanauk Icemist, talk to him and go through the conversation.|
 T All Hail Roanauk! |QID|12140|N|To Overlord Agmar.|M|38.1,46.3|
 T Koltira and the Language of Death |QID|12115|M|37.1,46.5|N|To Koltira Deathweaver.|
-
 A In Service of Blood |QID|12125|M|37.1,46.5|N|From Koltira Deathweaver.|
 A In Service of Frost |QID|12127|M|37.1,46.5|N|From Koltira Deathweaver.|
 A In Service of the Unholy |QID|12126|M|37.1,46.5|N|From Koltira Deathweaver.|
@@ -234,7 +105,6 @@ A The Focus on the Beach |QID|12066|M|38.1,46.2|PRE|12061|N|From the Image of Ar
 K Captain Emmy Malin |QID|12066|L|36751|M|26,65|N|You may need to kill mobs in the area until she spawns.|
 C The Focus on the Beach |QID|12066|U|36751|N|Get close to the big arch and use the Ley Line Focus Control Ring you just looted.|M|26.4,65.0|
 T The Focus on the Beach |QID|12066|N|To the Image of Archmage Aethas Sunreaver.|M|38.1,46.2|
-
 A Atop the Woodlands |QID|12084|M|38.1,46.2|PRE|12066|N|From the Image of Archmage Aethas Sunreaver.|
 A Strengthen the Ancients |QID|12096|M|36.5,47.9|N|From Earthwarden Grife.|
 C Strengthen the Ancients |S|QID|12096|U|36786|N|Look for Woodlands Walkers. Dismount, and right click. They'll either attack or give you some bark. You can loot the bark off the ones that attack. Use the Bark on the non-aggressive Ancients.|M|31.2,59.7|
@@ -248,7 +118,6 @@ T Atop the Woodlands |QID|12084|M|38.1,46.2|N|To the Image of Archmage Aethas Su
 A Search Indu'le Village |QID|12106|M|38.1,46.2|PRE|12084|N|From the Image of Archmage Aethas Sunreaver.|
 T A Letter for Home |QID|12085|M|38.1,46.3|N|To Overlord Agmar.|
 F Moa'ki Harbor|QID|11958|M|37.5,45.7|N|Fly to Moa'ki Harbor.|
-
 A Planning for the Future |QID|11960|N|From Trapper Mau'i.|M|48.30,74.30|
 h Moa'ki Harbor |QID|11960|N|Make this inn your home location.|
 A Let Nothing Go To Waste |QID|11958|N|From Elder Ko'nani.|M|48.10,74.90|
@@ -262,7 +131,6 @@ T Let Nothing Go To Waste |QID|11958|N|To Elder Ko'nani.|M|48.10,74.90|
 A Slay Loguhn |QID|11959|PRE|11958|M|48.0,74.9|N|From Elder Ko'nani.|
 C Slay Loguhn |QID|11959|N|Go to the northernmost hut, kill then loot Loguhn. Then use the Blood of Loguhn.|M|46.00,60.00|U|35688|
 T Slay Loguhn |QID|11959|N|To Elder Ko'nani.|M|48.0,74.9|
-
 A Spiritual Insight |QID|12028|PRE|11959|N|From Toalu'u the Mystic. |M|49.10,75.70|
 C Spiritual Insight |QID|12028|U|35907|N|Outside Toalu'u the Mystic's tent you should see Toalu'u's Brazier. Use Toalu'u's Spiritual Incense. You don't have to do anything for this quest, just enjoy the flight until you get the complete message.|M|48.9,75.8|
 T Spiritual Insight |QID|12028|M|49.2,75.6|N|To Toalu'u the Mystic.|
@@ -277,7 +145,6 @@ A The End of the Line |QID|12110|M|40.3,66.9|PRE|12106|N|From the corpse of Mage
 N Ley Line Focus information retrieved |QID|12110|QO|1|U|36815|N|Stand next to the Ley Line Focus, and use the Talisman.|; Ley Line Focus information retrieved: 1/1
 C Freedom for the Lingering |QID|12031|US|N|Get out of the lake, and finish kill Indu'le Fishermen/Warriors/Mystics until you finish up.|M|37.2,65.5|
 T Freedom for the Lingering |QID|12031|N|To Elder Mana'loa.|M|36.62,64.98|
-
 A Conversing With the Depths |QID|12032|PRE|12031|M|36.62,64.98|N|From Elder Mana'loa.|
 C In Service of Blood |QID|12125|US|N|Beat a Deranged Indu'le Villager to under 35%, then use the Blood Gem on him.|U|36827|M|37.5,64.1|
 C The End of the Line |QID|12110|N|Head east.|M|53,65|QO|2|; Azure Dragonshrine observed: 1/1
@@ -293,7 +160,6 @@ C Conversing With the Depths |QID|12032|N|Follow the path up until you find The 
 H Moa'ki Harbor |QID|12009|N|Hearthstone back to Moa'ki Harbor.|
 T Tua'kea's Crab Traps |QID|12009|N|To Tua'kea.|M|47.7,76.6|
 T The Bait |QID|12016|M|47.7,76.6|N|To Tua'kea.|
-
 A Meat on the Hook |QID|12017|PRE|12016|M|47.7,76.6|N|From Tua'kea.|
 K Tu'u'gwar |QID|12017|QO|1|U|35838|N|Follow the fishing line (which actually looks more like a big rope), southwest into the water, all the way to Tua'kea's Fishing Hook. Use Tu'u'gwar's Bait, then kill Tu'u'gwar.|M|46.7,78.2|; Tu'u'gwar slain: 1/1
 T Meat on the Hook |QID|12017|N|To Tua'kea.|M|47.7,76.6|
@@ -306,7 +172,6 @@ A Imbeciles Abound! |QID|12189|PRE|12182|M|36.1,48.8|N|From Doctor Sintar Malefi
 T In Service of Blood |QID|12125|M|37.1,46.5|N|To Koltira Deathweaver.|
 F Wrymrest Temple|QID|12122|M|37.51,45.76|N|Fly to Wrymrest Temple.|
 T Gaining an Audience |QID|12122|N|Tariolstrasz, the dragon you want to see, is on the west side of Wyrmrest Temple.|M|58,54|
-
 A Speak with your Ambassador |QID|12767|M|57.9,54.2|PRE|12122|N|From Tariolstrasz.|
 A Seeds of the Lashers |QID|12458|N|Ask Tariolstrasz to send you to the top of the temple. From Lord Itharius.|M|59.6,54.4|
 A Mystery of the Infinite |QID|12470|N|From Chromie.|M|60.0,54.5|
@@ -320,7 +185,6 @@ A The Plume of Alystros |QID|12456|PRE|12454|N|From Nishera.|M|63.00,69.00|
 C The Plume of Alystros |QID|12456|U|37881|N|When ready, go to the southeastern tip of the glade. Right-click Skytalon Molts and Alystros will attack you. Loot the Plume of Alystros once it's dead.|M|65.00,78.00|
 T The Plume of Alystros |QID|12456|N|Go back to Nishera the Garden Keeper.|M|63.00,69.00|
 T Seeds of the Lashers |QID|12458|N|Ask Tariolastrasz to send you to the top floor. To Lord Itharius.|M|59.60,54.50|
-
 A That Which Creates Can Also Destroy |QID|12459|PRE|12458|M|59.6,54.4|N|From To Lord Itharius.|
 T Speak with your Ambassador |QID|12767|N|Talk to Torastrasza and get sent back down, then talk to Golluck Rockfist (he patrols the area).|M|59,56|
 A Report to the Ruby Dragonshrine |QID|12461|M|58.0,55.4|PRE|12767|N|From Golluck Rockfist.|
@@ -333,7 +197,6 @@ T Blighted Last Rites |QID|12206|M|77.0,62.9|N|To Apothecary Vicky Levine.|
 A Let Them Not Rise! |QID|12211|M|77.0,62.9|N|From Apothecary Vicky Levine.|
 A WANTED: The Scarlet Onslaught |QID|12205|M|77.0,62.8|N|From the Wanted Poster.|
 T The High Executor Needs You |QID|12488|N|To High Executor Wroth.|
-
 A To Conquest Hold, But Be Careful! |QID|12487|PRE|12488|M|76.8,63.3|N|From High Executor Wroth.|
 A Funding the War Effort |QID|12303|M|76,63.2|N|From Quartermaster Bartlett.|
 A Materiel Plunder |QID|12209|M|76.0,63.3|N|From Quartermaster Bartlett.|
@@ -349,7 +212,6 @@ T The Forsaken Blight and You: How Not to Die |QID|12188|M|77.7,62.8|N|To Chief 
 A Emerald Dragon Tears |QID|12200|M|77.7,62.8|PRE|12188|N|From Chief Plaguebringer Middleton.|
 C Emerald Dragon Tears |QID|12200|M|63.3,70.3|N|Head to the Emerald Dragonshrine. Loot the tears off of the ground (sparkling, green-glowing orbs).|
 T Emerald Dragon Tears |QID|12200|M|77.7,62.8|N|To Chief Plaguebringer Middleton.|
-
 A Spread the Good Word |QID|12218|M|77.7,62.8|PRE|12200|N|From Chief Plaguebringer Middleton.|
 C Materiel Plunder |QID|12209|S|M|72.6,69.7|N|Pick up the armor and weapons that are on racks all around Hearthglen.|
 C WANTED: The Scarlet Onslaught |QID|12205|S|N|Kill any member of the Scarlet Onslaught.|M|72.6,69.7|
@@ -362,7 +224,6 @@ T Materiel Plunder |QID|12209|M|76.0,63.3|N|To Quartermaster Bartlett.|
 A Fresh Remounts |QID|12214|M|75.9,61.9|N|From Hansel Bauer.|
 A Stealing from the Siegesmiths |QID|12230|M|77.5,62.0|N|From Deathguard Molder. He wanders around.|
 C Spread the Good Word |QID|12218|N|Hop into a Forsaken Blight Spreader at the east gate. Follow the road to the crossing. Shoot the scourge to the north, hold down the right mouse button to aim. Hop out of the vehicle when you're done.|M|77.8,61.5;86,58|CS|
-
 A The Call Of The Crusade |QID|12542|LEAD|12545|N|From Tilda Darathan, just east.|M|87,57|
 C Stealing from the Siegesmiths |NC|QID|12230|S|M|85.0,51.1|N|Loot any bombs you see.|
 C That Which Creates Can Also Destroy |QID|12459|QO|2|U|37887|N|Head into the keep in the center of the Carion Fields. Use the Seeds of Nature's Wrath on Turgid the Vile inside and kill him.|M|86,47|; Weakened Turgid the Vile slain: 1/1
@@ -376,7 +237,6 @@ A No Mercy for the Captured |QID|12245|M|76.7,63.0|N|From Spy Mistress Repine.|
 A Need to Know |QID|12234|M|76.7,63.0|N|From Spy Mistress Repine.|
 F Agmar's Hammer |QID|12224|N|Fly to Agmar's Hammer.|M|76.5,62.2|
 T The Forsaken Blight |QID|12221|M|36.1,48.9|N|To Doctor Sintar Malefious.|
-
 A The Kor'kron Vanguard! |QID|12224|M|38.2,46.3|N|From Overlord Agmar.|
 F Kor'kron Vanguard|QID|12224|M|37.52,45.77|N|Fly to Kor'kron Vanguard.|
 T The Kor'kron Vanguard! |QID|12224|N|To Saurfang the Younger.|M|41,18|
@@ -389,7 +249,6 @@ A On Ruby Wings |QID|12498|PRE|12497|M|59.5,53.3|N|From Torastrasza.|
 C On Ruby Wings |QID|12498|N|Use your Beacon and fly north to Galakron's Rest. Ability 1 and 2 are damage abilities. Use ability 3 when near a Wastes Scavenger to regain mana/HP (you eat them). If you have one, equip your PvP trinket once you've killed the 30 Scavengers, the miniboss we're about to kill does a 10 second fear. Kill the giant Thiassi, at the northwestern tip of Galakron's Rest (use the dragon to make it easy), dismount, then kill Grand Necrolord Antiok, and loot the Scythe that appears.|M|56,35|
 C That Which Creates Can Also Destroy |QID|12459|S|QO|1|U|37887|N|It'll be up in the sky, use the Seeds of Nature's Wrath on it and finish it.|M|55.2,45.7|; Weakened Reanimated Frost Wyrm slain: 1/1
 C WANTED: Dreadtalon |QID|12091|M|45.67,43.61|N|Kill Dreadtalon.|
-
 A Pest Control |QID|12144|N|From Kontokanis.|M|46.69,33.49|
 C Pest Control |QID|12144|M|55,41;56,52|CN|N|Kill the Snobolds and Magnataur needed.|
 T Pest Control |QID|12144|M|46.7,33.5|N|To Kontokanis.|
@@ -403,7 +262,6 @@ T Disturbing Implications |QID|12147|N|Turn in to Aurastrasza, who resides at th
 A One of a Kind |QID|12148|PRE|12146^12147|M|60.0,55.1|N|From Aurastrasza.|
 K Bonesunder |QID|12148|QO|1|M|50.64,58.5|N|Look for Bonesunder near the waypoint. Kill Bonesunder Loot the Emblazoned Battle Horn.|T|Bonesunder|; Emblazoned Battle Horn: 1/1
 T One of a Kind |QID|12148|M|60.0,55.1|N|To Aurastrasza.|
-
 A Mighty Magnataur |QID|12149|PRE|12148|N|From Aurastrasza.|M|60.0,55.1|
 K Drakegore |QID|12149|QO|3|M|67.4,39;68,42.4|CN|N|Kill Drakegore. He also has an aura which does 300 fire damage to enemies in his melee range, nothing too bad.|
 K Iceshatter |QID|12149|QO|1|M|67,50|N|Kill Iceshatter. He periodically casts Pulsing Shards. This is very dangerous and can't be interrupted. Either run away while he channels it or use something like cloak of shadows, divine shield, ice block.|
@@ -425,7 +283,6 @@ l Onslaught Riding Crop |QID|12214|L|37202|N|Make sure you kill the Knight, and 
 C Fresh Remounts|QID|12214|QO|1=0|U|37202|NC|N|Target the horse and use the riding crop. Then ride back to Venomspite and use ability 1 to deliver the horse to Hansel Bauer.|M|75.9,61.9|
 T Bombard the Ballistae |QID|12232|M|77.5,62.0|N|To Deathguard Molder.|
 T A Means to an End |QID|12240|M|77.0,62.9|N|To Apothecary Vicky Levine.|
-
 A Fire Upon the Waters |QID|12243|M|77.0,62.9|PRE|12240|N|From Apothecary Vicky Levine.|
 T No Mercy for the Captured |QID|12245|M|76.8,63.3|N|To High Executor Wroth.|
 A Torture the Torturer |QID|12252|M|76.8,63.3|PRE|12245|N|From High Executor Wroth.|
@@ -441,7 +298,6 @@ T Without a Prayer |QID|12254|M|73.6,73.5|N|To Argent Skully.|
 A The Perfect Dissemblance |QID|12260|M|73.6,73.5|PRE|12254|N|From Argent Skully.|
 C The Perfect Dissemblance |QID|12260|N|Go find a Onslaught Raven Priest, then use the mirror on him.|U|37381|
 T The Perfect Dissemblance |QID|12260|M|73.6,73.5|N|To Argent Skully.|
-
 A A Fall From Grace |QID|12274|M|73.6,73.5|PRE|12260|N|From Argent Skully.|
 N Ring the Bell |QID|12274|QO|1|N|The Onslaught Knights can see through your disguise, so be careful. Head into the abbey. Go right, enter the main hall and take the spiral steps up, right-click the Abbey Bell Rope.|M|72.3,73.5;73.0,73.7;72.9,73.5|CS|; Abbey bell rung: 1/1
 C A Fall From Grace |QID|12274|N|Head downstairs, talk to the abbot, he's to the left at the tip of the southeastern wing. Once you're done, head outside and follow the High Abbot.|M|73,74|
@@ -454,7 +310,6 @@ C Fresh Remounts |QID|12214|QO|1=1|U|37202|NC|N|Target the horse and use the rid
 T Fire Upon the Waters |QID|12243|M|77.0,62.9|N|To Apothecary Vicky Levine.|
 T Torture the Torturer |QID|12252|M|76.8,63.3|N|To High Executor Wroth.|
 T The Rod of Compulsion |QID|12271|M|76.8,63.3|N|To High Executor Wroth.|
-
 A The Denouncement |QID|12273|M|76.8,63.3|PRE|12271|N|From High Executor Wroth.|
 T The Truth Will Out |QID|12283|M|76.8,63.3|N|To High Executor Wroth.|
 A Do Unto Others |QID|12285|N|From High Executor Wroth.|M|76.0,63.0|PRE|12283|
@@ -470,7 +325,6 @@ T The Denouncement |QID|12273|M|76.8,63.3|N|To High Executor Wroth.|
 T Do Unto Others |QID|12285|M|70.0,76.0|N|To High Executor Wroth.|
 F Wyrmrest Temple |QID|12448|N|Fly to Wrymrest Temple.|M|76.5,62.2|
 T Report to the Ruby Dragonshrine |QID|12461|N|To Vargastrasz.|M|43,51|
-
 A Heated Battle |QID|12448|M|43.0,50.9|PRE|12461|N|From Vargastrasz.|
 C Heated Battle |QID|12448|N|Head down into the canyon, help the NPCs kill mobs. Easy.|M|43.11,51.75|
 T Heated Battle |QID|12448|M|43.0,50.9|N|To Vargastrasz.|
@@ -481,7 +335,6 @@ C Return to the Earth |QID|12449|U|37727|N|Find Ruby Acorns, then use the Ruby A
 T Return to the Earth |QID|12449|M|43.0,50.9|N|To Vargastrasz.|
 A Through Fields of Flame |QID|12450|M|43.0,50.9|PRE|12449|N|From Vargastrasz.|
 K Dahlia Suntouch |QID|12419|L|37833|N|Head west towards the huge tree in the middle of the dragonshrine. The entrance is on the southeastern side of the tree at the bottom of it . Inside you'll find Dahlia Suntouch. Kill her. Loot the Ruby Brooch.|M|48.00,50.00|
-
 A The Fate of the Ruby Dragonshrine |QID|12419|U|37833|N|Right-click the Ruby Brooch|M|47.6,49.0|
 C In Search of the Ruby Lilac |QID|12102|N|It's in the same cave.|M|47.7,49.1|
 C Through Fields of Flame |QID|12450|N|Kill necromancers around the tree.|M|47.7,49.1|
@@ -497,7 +350,6 @@ T The Power to Destroy |QID|12132|N|Click off the World of Shadows buff, make su
 A The Translated Tome |QID|12136|M|37.1,46.5|PRE|12132|N|From Koltira Deathweaver.|
 T The Translated Tome |QID|12136|M|35.8,48.4|N|To Captain Gort.|
 T In Search of the Ruby Lilac |QID|12102|M|36.1,48.9|N|To Doctor Sintar Malefious.|
-
 A Return to Soar |QID|12104|M|36.1,48.9|PRE|12102|N|From Captain Gort.|
 T Return to Soar |QID|12104|M|37.1,48.6|N|To Soar Hawkfury.|
 A Where the Wild Things Roam |QID|12111|M|37.1,48.6|PRE|12104|N|From Soar Hawkfury.|
@@ -514,7 +366,6 @@ C Nozzlerust Defense |QID|12043|S|N|Kill the needed mobs.|M|57.00,28.00|
 C Stocking Up |QID|12044|N|Go between the sites where the waypoints are until you get all the ore needed.|M|56.28,27.46;59.13,31.24;51.68,31.27|CN|
 C Nozzlerust Defense |QID|12043|US|N|Finishing killing the needed mobs.|M|57.00,28.00|
 T To Dragon's Fall|QID|12095|N|To Rokhan.|M|47.19,33.03|
-
 A Sarathstra, Scourge of the North|QID|12097|PRE|12095|N|From Rokhan.|M|47.19,33.03|
 C Sarathstra, Scourge of the North|QID|12097|N|Talk to Rokhan. He will get Sarathstra down, then kill and loot Sarathstra.|M|47.19,33.03|
 C Shaved Ice |QID|12045|N|Kill Crystalline Ice Elementals until you've looted 4 Ice shard Cluster. |M|54.00,20.00|
@@ -532,7 +383,6 @@ T Canyon Chase |QID|12143|N|To Duane.|M|64.00,28.00|
 l Splintered Bone Chunk |QID|12047|QO|1|US|N|Look for a Splintered Bone Chunk around the dragon skull and bones, and loot them|; Splintered Bone Chunk: 12/12
 T Something That Doesn't Melt |QID|12047|N|To Zivlix.|M|54.7,23.2|
 T Hard to Swallow |QID|12049|N|To Xink.|M|55.0,23.4|
-
 A Lumber Hack |QID|12050|PRE|12047|M|55.0,23.4|N|From Xink.|
 A Harp on This! |QID|12052|PRE|12047|N|From Narf.|M|54.5,23.6|
 C Harp on This! |QID|12052|S|N|Kill harpies until you finish this quest.|M|53.1,19.5|
@@ -545,7 +395,6 @@ T Lumber Hack |QID|12050|N|To Xink|M|55.0,23.4|
 T Harp on This! |QID|12052|N|To Narf.|M|54.5,23.6|
 A Stiff Negotiations |QID|12112|LEAD|12075|PRE|12052|M|54.5,23.6|N|From Narf.|
 T Stiff Negotiations |QID|12112|N|To Zort.|M|59.00,18.00|
-
 A Slim Pickings |QID|12075|M|59.4,18.2|N|From Zort.|
 C Slim Pickings |QID|12075|N|Follow the trail north while avoiding the elite giants and then go northwest to the Ice Heart Cavern, inside the cave you'll find a Ravaged Crystalline Ice Giant  close to the entrance. Right-click it to get a Sample of Rockflesh.|M|56.00,12.00|
 T Slim Pickings |QID|12075|N|Tto Zort.|M|59.00,18.00|
@@ -558,7 +407,6 @@ T Messy Business |QID|12076|N|To Zort.|M|59.00,18.00|
 A Apply This Twice A Day |QID|12077|PRE|12076|M|59.4,18.2|N|From Zort.|
 T Stomping Grounds |QID|12079|N|To Ko'char the Unbreakable.|M|59.0,17.8|
 T Apply This Twice A Day |QID|12077|M|59.0,17.8|N|To Ko'char the Unbreakable.|
-
 A Really Big Worm |QID|12080|PRE|12077|N|From Ko'char the Unbreakable.|
 A Worm Wrangler |QID|12078|PRE|12077|N|From Zort.|M|59.4,18.2|
 C Worm Wrangler |QID|12078|S|U|36771|N|It's quite easy, all you have to do is get close to a Jormungar Spawn and then: Use the Sturdy Crates on it. Then just right-click the crate on the floor. Repeat this 3 times.|M|55.3,11.0|
@@ -568,7 +416,6 @@ T Worm Wrangler |QID|12078|N|To Zort.|M|59.00,18.00|
 T Really Big Worm |QID|12080|N|To Ko'char the Unbreakable.|M|59.0,17.8|
 R Obsidian Dragonshrine |QID|12447|N|Head to the Obsidian Dragonshrine and into the cave.|M|41.20,31.80|
 T The Obsidian Dragonshrine |QID|12447|N|You'll find Serinar inside the cave called the Maw of Neltharion.|M|35.00,30.00|
-
 A No One to Save You |QID|12262|PRE|12447|M|35.2,30.0|N|From Serinar.|
 A No Place to Run |QID|12261|PRE|12447|M|35.2,30.0|N|From Serinar.|
 C No One to Save You|QID|12262|S|N|Kill what you need for this quest.|M|38.95,32|
@@ -579,7 +426,6 @@ T No Place to Run |QID|12261|N|To Serinar.|M|35.2,30.0|
 A The Best of Intentions |QID|12263|PRE|12261|M|35.2,30.0|N|From Serinar.|
 C The Best of Intentions |QID|12263|N|Serinar will give you a disguise. Go west through the cave until you find Rothin the Decaying. You'll get the complete message, then go back to Serinar. ==Note== If you lose the disguise, go back to Serinar and talk to him for a new one.|M|31.75,30.46|
 T The Best of Intentions |QID|12263|N|Go back to Serinar.|M|35.2,30.0|
-
 A Culling the Damned |QID|12264|PRE|12263|M|35.2,30.0|N|From Serinar.|
 A Defiling the Defilers |QID|12265|PRE|12263|M|35.2,30.0|N|From Serinar.|
 C Culling the Damned|QID|12264|S|N|Kill what you need for this quest.|
@@ -590,7 +436,6 @@ T Defiling the Defilers |QID|12265|M|35.2,30.0|N|To Serinar.|
 A Neltharion's Flame |QID|12267|PRE|12265|M|35.2,30.0|N|From Serinar.|
 C Neltharion's Flame |QID|12267|M|31.44,30.95|U|37539|N|Go back to Rothin the Decayed at the end of the cave. Right-click Neltharion's Flame. Kill Rothin the Decayed.|
 T Neltharion's Flame |QID|12267|M|35.2,30.0|N|To Serinar.|
-
 A Tales of Destruction |QID|12266|PRE|12267|M|35.2,30.0|N|From Serinar.|
 T The Call Of The Crusade |QID|12542|M|84.0,26.1|N|To Crusader Valus.|
 A The Cleansing Of Jintha'kalar |QID|12545|M|84.0,26.1|N|From Crusader Valus.|
@@ -604,7 +449,6 @@ N Note: |QID|12470|N|We're about to trigger an event where you'll help your "Fut
 C Mystery of the Infinite |QID|12470|U|37923|N|Right-click the Hourglass of Eternity from your inventory to start the event.|M|71.7,38.9|
 C Reclusive Runemaster |QID|12150|N|Get Dregmar Runebrand down in health, he'll eventually become immune to damage which is when the quest should update. Watch out for the purple runes he puts on the ground.|M|72.77,50.62|
 T Reclusive Runemaster |QID|12150|N|To Aurastrasza.|M|60.0,55.1|
-
 A Wanton Warlord |QID|12151|PRE|12150|N|From Aurastrasza.|M|60.0,55.1|
 C Wanton Warlord |QID|12151|U|36864|N|Go to the waypoint and use the horn to summon Grom'thar. Keep your back towards land and not the cliff, as he has a knockback that throws you far.|M|57.2,76.05|
 T Wanton Warlord |QID|12151|N|To Aurastrasza.|M|60.0,55.1|
@@ -615,7 +459,6 @@ T Tales of Destruction |QID|12266|M|60.1,54.2|N|To Nalice.|
 T Mystery of the Infinite |QID|12470|N|To Chromie.|M|60,54.49|
 T The Fate of the Ruby Dragonshrine |QID|12419|M|59.8,54.7|N|To Krasus.|
 T Informing the Queen |QID|12124|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
-
 A Report to Lord Afrasastrasz |QID|12435|PRE|12123^12124|M|59.8,54.7|N|From Alexstrasza the Life-Binder.|
 T On Ruby Wings |QID|12498|M|59.8,54.7|N|To Alexstrasza the Life-Binder.|
 A Return To Angrathar |QID|12500|M|59.8,54.7|PRE|12498|N|From Alexstrasza the Life-Binder.|
@@ -628,10 +471,6 @@ H Agmar's Hammer|QID|12097|N|Hearth to Agmar's Hammer.|
 T Sarathstra, Scourge of the North|QID|12097|N|To Captain Gort.|M|35.81,48.38|
 F Kor'kron Vanguard|QID|12500|N|Fly to Kor'kron Vanguard.|M|37.5,45.8|
 T Return To Angrathar |QID|12500|N|To Saurfang the Younger. Enjoy the cinematic. :D|M|40.7,18.1|
-
 N Thus ends Dragonblight|N|Close this step to continue onto Grizzly Hills.|
-
 ]]
 end)
-
-

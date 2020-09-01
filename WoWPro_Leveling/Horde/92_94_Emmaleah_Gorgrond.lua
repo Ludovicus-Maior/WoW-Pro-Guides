@@ -1,208 +1,11 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/horde_grogond_source_code
--- Date: 2018-10-17 02:28
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3599/revisions/29650/view
--- Date: 2018-09-03 06:05
--- Who: Emmaleah
--- Log: fixed some quests that should be skipped but guide was not skipping them if you built lumber mill.
-
--- URL: http://wow-pro.com/node/3599/revisions/29482/view
--- Date: 2018-08-07 19:19
--- Who: Emmaleah
--- Log: more minor changes, but can't find why Linkslegend is experiencing it offering wrong quests, Suspect Blizzard may be marking both building quests complete when you complete either one, which would make the guide not flow correctly.
-
--- URL: http://wow-pro.com/node/3599/revisions/29480/view
--- Date: 2018-08-07 07:51
--- Who: Emmaleah
--- Log: very minor changes. corrected ACTIVE TAG that didn't belong on N Sparring Arena
-
--- URL: http://wow-pro.com/node/3599/revisions/29216/view
--- Date: 2018-03-06 01:26
--- Who: Ludovicus_EditBot
--- Log: LVL strip
-
--- URL: http://wow-pro.com/node/3599/revisions/29120/view
--- Date: 2018-02-22 23:35
--- Who: Ludovicus_EditBot
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3599/revisions/28948/view
--- Date: 2018-01-17 00:39
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3599/revisions/28582/view
--- Date: 2017-03-23 19:16
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL: http://wow-pro.com/node/3599/revisions/28457/view
--- Date: 2017-03-16 17:08
--- Who: Ludovicus_Maior
--- Log: Added PREs
-
--- URL: http://wow-pro.com/node/3599/revisions/27919/view
--- Date: 2016-10-15 01:12
--- Who: tubera
--- Log: Add more bonus objectives; Tweak order; Add missing Vine;
-
--- URL: http://wow-pro.com/node/3599/revisions/27887/view
--- Date: 2016-10-07 14:34
--- Who: tubera
--- Log: Change treasure/resource to $ steps. Add Bonus objective. Change order on a few quests and fix pre tag on bushwacker.
-
--- URL: http://wow-pro.com/node/3599/revisions/27486/view
--- Date: 2016-07-30 18:51
--- Who: Ludovicus_Maior
--- Log: Add some @Gorgrond
-
--- URL: http://wow-pro.com/node/3599/revisions/27404/view
--- Date: 2015-12-31 23:40
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3599/revisions/27387/view
--- Date: 2015-09-07 19:27
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3599/revisions/27317/view
--- Date: 2015-07-05 17:49
--- Who: Ludovicus_Maior
--- Log: Added Icon
-
--- URL: http://wow-pro.com/node/3599/revisions/27238/view
--- Date: 2015-05-03 17:39
--- Who: Emmaleah
--- Log: removed the multiple ";" from C Leave every soldier behind, apparently it keeps trying to parse after it comes to the first one.
-
--- URL: http://wow-pro.com/node/3599/revisions/27236/view
--- Date: 2015-05-02 23:01
--- Who: Ludovicus_Maior
--- Log: Converted some --'s in the guide to ; to get rid of parsing errrors.
-
--- URL: http://wow-pro.com/node/3599/revisions/27235/view
--- Date: 2015-05-02 22:57
--- Who: Ludovicus_Maior
--- Log: quid correction
-
--- URL: http://wow-pro.com/node/3599/revisions/27234/view
--- Date: 2015-05-02 22:51
--- Who: Ludovicus_Maior
--- Log: QID for [Proof of Strength: Goren Tooth] was wrong.
-
--- URL: http://wow-pro.com/node/3599/revisions/27233/view
--- Date: 2015-05-02 22:48
--- Who: Ludovicus_Maior
--- Log: Removed reference to QID 36290, which is for Nagrand and level 100!
-
--- URL: http://wow-pro.com/node/3599/revisions/27190/view
--- Date: 2015-04-05 07:26
--- Who: Emmaleah
--- Log: suntouched spear should be rank 3 (or maybe 2... but not none like it was)
-
--- URL: http://wow-pro.com/node/3599/revisions/27176/view
--- Date: 2015-03-09 19:38
--- Who: Ludovicus_Maior
--- Log: Tag twiddles
-
--- URL: http://wow-pro.com/node/3599/revisions/27136/view
--- Date: 2015-02-01 22:23
--- Who: Ludovicus_Maior
--- Log: Played through and corrected coords and things.
-
--- URL: http://wow-pro.com/node/3599/revisions/27113/view
--- Date: 2015-01-03 01:13
--- Who: Emmaleah
--- Log: and delete change log out of header :(
-
--- URL: http://wow-pro.com/node/3599/revisions/27112/view
--- Date: 2015-01-03 01:12
--- Who: Emmaleah
--- Log: correct typo and fix incorrect garrison resouces item code (from 924 to 824)
-
--- URL: http://wow-pro.com/node/3599/revisions/27111/view
--- Date: 2015-01-03 01:10
--- Who: Emmaleah
--- Log: .
-
--- URL: http://wow-pro.com/node/3599/revisions/27110/view
--- Date: 2015-01-03 01:10
--- Who: Emmaleah
--- Log: Correct item code for Garrison Resources from 924 to 824.
-
--- URL: http://wow-pro.com/node/3599/revisions/27109/view
--- Date: 2015-01-01 06:32
--- Who: Emmaleah
--- Log: Added all treasure (with Item tags), non 100 named mobs (with item tags) and hardened vines/odd boulders. Set Rank for None, if you just want to get your book and ability to buy garrison plans.  2 is most of the quest content 3 includes all the treasure / rare mobs, etc. Added/improved a few notes, Added more R steps ... including one about avoiding Highpass. Removed all garrison building specific parts (since Ludo is making a new guide type that will include that) I left in fishing and Cordana's quest, but they should probably be deleted too.
-
--- URL: http://wow-pro.com/node/3599/revisions/27081/view
--- Date: 2014-12-05 23:34
--- Who: Emmaleah
--- Log: Bliz changed the treasure map to be soulbound. Changed note accordingly.
-
--- URL: http://wow-pro.com/node/3599/revisions/27060/view
--- Date: 2014-11-29 09:24
--- Who: Emmaleah
--- Log: took out the a (replaced with A) added note explaining those steps. Changed some QID's so R steps would stay checked off. Added Woodfist to note on Centurian Without a Cause.
-
--- URL: http://wow-pro.com/node/3599/revisions/27034/view
--- Date: 2014-11-22 13:50
--- Who: Ludovicus_Maior
--- Log: Rid of a stutter ||
-
--- URL: http://wow-pro.com/node/3599/revisions/27032/view
--- Date: 2014-11-22 12:11
--- Who: Ludovicus_Maior
--- Log: Tag Fixes
-
--- URL: http://wow-pro.com/node/3599/revisions/27027/view
--- Date: 2014-11-22 07:14
--- Who: Emmaleah
--- Log: Added note about where to get treasure map. Fixed BADd routing to Mistcreep Mire, various other improvements from run thru with sparring arena on live.
-
--- URL: http://wow-pro.com/node/3599/revisions/27021/view
--- Date: 2014-11-19 08:38
--- Who: Emmaleah
--- Log: play thru on live. added 2 more followers (tornmark and blook) - didn't check sparring arena quest line at this time.
-
--- URL: http://wow-pro.com/node/3599/revisions/26905/view
--- Date: 2014-11-08 03:53
--- Who: Emmaleah
--- Log: corrections per list o' errors
-
--- URL: http://wow-pro.com/node/3599/revisions/26772/view
--- Date: 2014-11-02 10:03
--- Who: Emmaleah
--- Log: I appear to have had a minor copy/paste error with the Moira's Rise Section. all better.
-
--- URL: http://wow-pro.com/node/3599/revisions/26771/view
--- Date: 2014-11-02 09:07
--- Who: Emmaleah
--- Log: moved tangleheart quest section, fixed all |Z|tags, fixed many missing explanations, S/US, etc.  The lumberyard doesn't flow as well as the sparring arena and I don't think its because im trying to combine both in the same guide, I think it just flows poorly...
-
--- URL: http://wow-pro.com/node/3599/revisions/26671/view
--- Date: 2014-09-18 23:56
--- Who: Ludovicus_Maior
--- Log: Copy from Emmaleah's blog
-
 local guide = WoWPro:RegisterGuide('EmmGorgrond', 'Leveling', 'Gorgrond', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,92, 94,92.3228)
-WoWPro:NewGuideLevels(guide,92,100)
-WoWPro:GuideIcon(guide,"ACH",8939)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'EmmTalador')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 N Guide begins in Gorgrond|QID|35557|N|This guide begins as you are leaving Frostfire and riding into Gorgrond. If you aren't there, the nearest flight point is Thunder Pass.|
 N Treasure|QID|35557|N|The guide mentions almost all of the treasure to be found in the zone if you set it to rank3. Depending on which building you build at your outpost, you will either have a shredder that can cut thru the hardened vines you run across or Beatface will come remove odd boulders to uncover treasure previously hidden. You can loot the treasure someone else's shredder or Beatface uncovers (for about 2 min after they uncover it.)|
 N Bonus Objectives|QID|35557|N|This guide does not include the bonus objectives. Feel free to do them as you come across them, or save them for more gold at level 100. If you are doing this with a group you will notice that some of the outpost building specific quests are for you may be where the other person(s) will have bonus objectives if they built the other outpost type building.|
-
 ;this section only applies if you have arena - optional drops you may have gotten while out and about in gorgrond
 A Proof of Strength: Ancient Branch|QID|36094|O|U|114030|M|46.29,69.31|N|From 'Ancient Branch' you just looted.|
 A Proof of Strength: Botani Bloom|QID|36086|O|U|114025|M|46.29,69.31|N|From 'Botani Bloom' you just looted.|
@@ -215,7 +18,6 @@ A Proof of Strength: Elemental Crystal|QID|36106|O|U|114038|M|46.29,69.31|N|From
 A Proof of Strength: Gronn Eye|QID|36083|O|U|114023|M|46.29,69.31|N|From 'Gronn Eye' you just looted.|
 A Proof of Strength: Ogron Horn|QID|36076|O|U|114019|M|46.29,69.31|N|From 'Worn Ogron Horn' you just looted.|
 A Proof of Strength: Ravager Claw|QID|36097|O|U|114032|M|46.29,69.31|N|From 'Ravager Claw' you just looted.|
-
 T The Secrets of Gorgrond|QID|35557|M|37.28,77.02|N|To Durotan.|
 A The Laughing Skull|QID|33543|M|37.28,77.02|N|From Durotan.|
 T The Laughing Skull|QID|33543|M|38.77,73.62|N|To Ripfist.|
@@ -243,7 +45,6 @@ T Just Another Stick in the Wall|QID|36460|M|45.87,70.30|N|To Durotan.|
 A Your Base, Your Choice|QID|35151|PRE|36460|M|45.87,70.30|N|From Durotan.|
 C Your Base, Your Choice|QID|35151|M|45.87,70.30|NC|N|Choose which building you want.|
 T Your Base, Your Choice|QID|35151|M|46.10,70.18|N|To Durotan.|
-
 A Durotan's quest|QID|36474^35880|M|46.10,70.18|N|From Durotan. This quest will vary depending on whether you chose the  Lumber Yard or the Sparring Arena in the previous step.|
 ;A The Razorbloom|QID|36474|M|46.10,70.20|N|From Durotan.| ; build lumber mill
 ;A Rage and Wisdom|QID|35880|M|46.10,70.18|N|From Durotan.| ; build sparring arena
@@ -253,7 +54,6 @@ A Tangleheart|QID|35707|M|46.36,69.64|N|From Penny Clobberbottom.|ACTIVE|36474|;
 A A Rediscovered Legend|QID|34697|PRE|35151|M|46.33,69.69|N|From Limbflayer.|ACTIVE|35880|;arena
 f Beastwatch|ACTIVE|36474^35880|M|45.98,69.23|N|At Grinslicer.|
 h Make Beastwatch your home|ACTIVE|36474^35880|M|45.98,69.72|N|At Licefeaster.|
-
 ;if sparring arena
 N Proof of Strength|ACTIVE|35880|N|To get the drops for the proof of strength bonus quests, you have to kill stuff with your champion. So use him often to improve your drop chances.|
 $ Odd Boulder|QID|36737|M|45.05,69.91|N|Call Beatface (click on the rock) to expose the Ancient Ogre Cache|RANK|3|ACTIVE|35880|
@@ -284,7 +84,6 @@ $ Odd Boulder|QID|36728|M|41.85,58.89|N|Call Beatface (click on the rock) to exp
 C On the Mend|QID|35026|M|45.89,59.30|N|These drop multiples from the steam elementals, the bigger ones (Turbulent Steamfury) drop more than thier smaller cousings (Rippling Steamfury).|
 C Basilisk Butcher|QID|35870|M|43.53,60.82|US|N|These drop from the basilisks in the area as well as groundspawn of basilisk corpses.|
 f Breaker's Crown|QID|35026|M|45.86,54.91|N|At Nisha, aren't you glad you saved her.|ACTIVE|35870|
-
 T On the Mend|QID|35026|M|45.86,54.91|N|To Nisha.|
 T Basilisk Butcher|QID|35870|M|45.86,54.91|N|To Nisha.|
 A Is This One of Yours?|QID|35036|M|46.04,54.74|N|From Rexxar.|PRE|35730|
@@ -321,13 +120,11 @@ C Xuk It!|QID|35041|NC|QO|5|M|43.16,42.3|N|There may be a couple of mobs needing
 C Xuk It!|QID|35041|NC|QO|6|M|43.0,42.5|N|Just past the Grom'kar Messenger is the last mound of dirt.|
 T Xuk It!|QID|35041|M|46.03,54.75|N|To Rexxar.|
 A Leave Every Soldier Behind|QID|35129|M|46.03,54.75|N|From Rexxar.|PRE|35041|
-
 A Fair Warning|QID|35128|M|46.03,54.75|N|From Rexxar.|PRE|36209^35041|
 A Zero Xuks Given|QID|35247|M|44,48.8|N|From Bony Xuk. Nisha will give you a ride to the area (chat option, not flightpath) if you so desire.|PRE|35041|
 C Zero Xuks Given|QID|35247|CHAT|M|44,48.8|N|Talk to Xuk and then watch the movie.|
 T Zero Xuks Given|QID|35247|M|44,48.8|N|To Spirit of Bony Xuk.|
 A Get the Xuk Out|QID|36832|M|44,48.8|N|From Spirit of Bony Xuk.|PRE|35247|
-
 $ Harvestable Precious Crystal|QID|36651|PRE|35880|M|44.55,50.76;46.12,49.95|CS|QO|1|N|Enter Glut's Burrow and you will find the crystal in the back, feel free to kill the Glut (silver elite} while you are here.|RANK|3|ITEM|$824|
 K Glut|QID|36204|M|46.2,50.8|T|Glut|L|118229|N|Kill and loot for an ilvl 534 agility trinket.|RANK|3|ITEM|118229|PRE|35880|
 $ Odd Boulder|QID|36732|M|44.17,46.65|N|Call Beatface (click on the rock) to expose the Obsidian Crystal Formation|PRE|35880|RANK|3|;8
@@ -357,13 +154,10 @@ K Rolkor|QID|36393|M|47.73,41.07|L|118211|N|Kill and loot for an ilvl 539 str tr
 K Greldrok the Cunning|QID|36186|M|46.8,43.2|T|Greldrok the Cunning|L|118210|N|Inside a cave, Kill and loot for an ilvl 534 str 1H Mace.|RANK|3|ITEM|118210|PRE|35880|
 $ Odd Boulder|QID|36735|M|47.92,39.97|N|Call Beatface (click on the rock) to expose the Ancient Titan Chest|RANK|3|PRE|35880|;12 - Gronn Canyon
 $ Warm Goren Egg|QID|36203|M|48.9,47.3|QO|1|N|In 7 days this will become a Goren Disguise (toy)|RANK|3|ACTIVE|35136^35807|ITEM|118716|PRE|35880|
-
 C Chains of Iron|QID|35136|M|49.0,45.2;49.2,44.8|CS|QO|1|N|When you enter this valley, you first see Rexxar fighting some grunts, assist him, as he works his way towards Captain Brak. Eventually Nisha flys up and brings Capt. Brak to you. Kill her, then go over and loot the artifact.|
 C Chains of Iron|QID|35136|M|49.74,43.85;49.6,44.5|CS|QO|2|CHAT|N|After you have the artifact, optionally come back down and chat with Nisha for a ride back to your outpost.|
-
 A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow. If you level, this quest will pop up, if you aren't in Beastwatch, just check it off manually, the guide will remind you to pick it up again later.|ACTIVE|35136|
 N Sparring Arena|QID|35880|N|What follows next is a running from flight path to flight path and getting a couple of followers.  If that doesn't interest you check these steps off until Run to Mistcreep Mire.  There are bonus objectives in these areas but no quests.|
-
 ;if lumber yard
 t The Razorbloom|QID|36474|M|46.59,71.49|N|To Draka.|
 A The Infested|QID|35400|M|46.59,71.49|N|From Draka.|PRE|36474|
@@ -410,7 +204,6 @@ T Pollen Power|QID|35429|M|42.05,85.89|N|To Kaz the Shrieker.|
 T Bushwhacker|QID|35432|M|42.05,85.85|N|To Draka.|
 A Cut Them Down|QID|35433|M|42.05,85.85|N|From Draka.|PRE|35536&35429&35432|
 A The Life Spring|QID|35434|M|42.06,85.90|N|From Kaz the Shrieker.|PRE|35536&35429&35432|
-
 R Evermorn Rise|QID|35434^36037|M|40.06,83.27|
 C Cut Them Down|QID|35433|M|39.81,80.80|S|
 C The Life Spring|QID|35434|M|40.68,81.76|T|Utrophis|
@@ -427,7 +220,6 @@ A Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Auto Accepted when
 C Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Kill Saberon, free Axebeak, and kill Skull Thrash who resides in back of the big cave.|RANK|3|S|
 $ Hardened Thornvine|QID|36019|ACTIVE|35707|M|45.8,89.27|N|Use Shredder (click on the vines) to expose the Forgotten Skull Cache|RANK|3|;25.1 - Tailthrasher Basin
 K Sunclaw|QID|36656|M|44.6,92.2|T|Sunclaw|L|118223|N|There are ropes you can click on to climb up the rock formation. Kill and loot for an ilvl 533 agi fist weapon.|RANK|3|ITEM|118223|;just before blook
-
 R Deeproot|QID|34279^34279|RANK|2|M|42.74,90.76|CC|N|Take the trail up here to find another follower.|
 R Blook's Overlook|QID|34279|RANK|2|M|42.30,92.16|N|Continue up the winding trail.|
 N Blook|QID|34279|RANK|2|CHAT|M|41.27,91.44|N|Chat with him to challenge him.  When you win, he will offer to be your follower. He despawns in about 15 seconds and you will have to wait to fight him again if you don't accept quick enough.|
@@ -436,7 +228,6 @@ $ Ockbar's Pack |QID|34241|M|43.1,92.9|L|118227|N|Pick up for a bit of treasure.
 C Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Kill Saberon, free Axebeak, and kill Skull Thrash who resides in back of the big cave.|RANK|3|US|
 t Tailthrasher Basin-Bonus Objective|QID|36520|M|45.8,89.27|N|Auto turned in when complete.|RANK|3|
 $ Hardened Thornvine|QID|35975|ACTIVE|35707|M|45.97,93.56|N|Use Shredder (click on the vines) to expose the Remains of Explorer Engineer Toldirk Ashlamp|RANK|3|;25 - Tailthrasher Basin/Bastian Rise
-
 R Bastion Rise|ACTIVE|36488^35667|M|46.49,93.57|
 T Thieving Dwarves|QID|36488|M|46.49,93.57|N|To Cutter.|
 A Will of the Genesaur|QID|35509|M|46.49,93.57|N|From Cutter.|PRE|36488|
@@ -456,7 +247,6 @@ T Iyu|QID|35510|M|47.71,93.31|N|To Draka.|
 A Power of the Genesaur|QID|35416|M|47.71,93.31|N|From Draka.|PRE|35510|
 A Kaz the Shrieker|QID|35511|M|47.78,93.27|N|This grants you Kaz as a follower.|PRE|35510|
 f Bastion Rise|QID|33694|M|47.44,90.79|N|Grab the flight path while you are here.|
-
 A Ruins of the First Bastion-Bonus Objective|QID|35881|M|48.96,81.07|N|Auto accept when entering the area|RANK|3|
 C Ruins of the First Bastion-Bonus Objective|QID|35881|M|48.96,81.07|N|Kill podlings, grab jars and kill Malkor. Malkor can be found inside the building in the back of the area.|S|RANK|3|
 $ Hardened Thornvine|QID|35968|ACTIVE|35707|M|49.65,78.82|N|Use Shredder (click on the vines) to expose the Forgotten Ogre Cache|RANK|3|;28 - Ruins of the First Bastian
@@ -476,7 +266,6 @@ $ Remains of Balik Orecrusher|QID|36654|M|53.1,74.5|L|118714|N|Inside Sulferscal
 $ Hardened Thornvine|QID|35967|ACTIVE|35707|M|51.64,72.24|N|Out of the cave and follow the stone path, Use Shredder (click on the vines) to expose the Unknown Petrified Egg.|RANK|3|;29 - @K Skrikka
 K Hive Queen Skrikka|QID|35908|M|52.2,70.2|T|Hive Queen Skrikka|L|118209|N|Kill and loot for an ilvl 534 int axe|RANK|3|ITEM|118209|
 K Stompalupagus |QID|36837|M|55.2,71.2|T|Stompalupagus|L|118228|N|Kill and loot for an ilvl 537 2H Mace (Agi or Str).|RANK|3|ITEM|118228|;just south of tangleheart
-
 ;for both
 H Beastwatch|QID|35667|M|47.44,90.79|N|Hearth or Fly back to Beastwatch.|RANK|2|
 A Reagents from Rakthoth|QID|33694|PRE|35151|M|46.29,69.98|N|From Marrow.|RANK|2|
@@ -533,9 +322,7 @@ $ Odd Boulder|QID|36740|M|61.55,58.55|N|Call Beatface (click on the rock) to exp
 $ Hardened Thornvine|QID|36430|ACTIVE|35707|M|63.28,57.24|N|Use Shredder (click on the vines) to expose the Mysterious Petrified Pod|RANK|3|;35 - iyun Weald
 C Iyun Weald-Bonus Objective|QID|36571|M|60.36,52.44|N|Kill Thorny Stabbers and Weald Stingers, click thorny leaflings to kick them away|US|RANK|3|
 t Iyun Weald-Bonus Objective|QID|36571|M|60.36,52.44|N|Auto turn in|RANK|3|
-
 R Tangleheart|QID|36781|M|59.61,72.79|PRE|35880|RANK|3|N|It's a bit out of the way, but if you are after all the Odd Boulders and Heardened Thornvines, run over to Tangleheart.|
-
 ;if lumber
 R Tangleheart|QID|35707|M|55.91,71.54|ACTIVE|35707|
 T Tangleheart|QID|35707|M|55.91,71.54|CS|N|To Penny Clobberbottom.|
@@ -562,7 +349,6 @@ T Chapter II: The Harvest|QID|35527|M|60.71,64.77|N|To Penny Clobberbottom.|
 T Chapter III: Ritual of the Charred|QID|35524|M|60.71,64.77|N|To Penny Clobberbottom.|
 N Optional: Use the Mole Machine|QID|36812|M|60.71,64.77|N|If you need a trip back to Beastwatch you can use the mole machine, if you prefer you can run to Dionar's demise from here.|PRE|35524|
 A Penny For Your Thoughts|QID|36812|M|46.36,69.68|N|From Penny Clobberbottom. Pick up Penny as a follower next time you are in Beastwatch.|PRE|35506&35524&35527&35508|
-
 ;for all
 R Highpass|QID|33694|M|52.39,62.58|CC|N|You don't actually want to run IN TO Highpass as it is an alliance quest hub, but you are going very near it.|RANK|2|
 K Roardan the Sky Terror|QID|35818|M|53.0,63.2|T|Roardan the Sky Terror|L|113459|N|This is an elite mob, it is meant to be killed in a group. He flys all around the Crimson Fen/Tangleheart on about a 3 minute loop and roosts here for 20 seconds or so. Kill and loot item for a bonus quest.|RANK|3|
@@ -583,12 +369,9 @@ C South Gronn Canyon-Bonus Objective|QID|36476|M|48.91,53.19|N|Kill Goren, Gronn
 t South Gronn Canyon-Bonus Objective|QID|36476|M|48.91,53.19|N|Auto tuen in.|RANK|3|
 $ Harvestable Precious Crystal|QID|36651|PRE|35707|M|44.55,50.76;46.12,49.95|CS|QO|1|N|Enter Glut's Burrow and you will find the crystal in the back, feel free to kill the Glut (silver elite} while you are here.|RANK|3|ITEM|$824|
 K Glut|QID|36204|PRE|35707|M|46.2,50.8|T|Glut|L|118229|N|Kill and loot for an ilvl 534 agility trinket.|RANK|3|ITEM|118229|
-
 $ Horned Skull|QID|35056|PRE|35707|M|42.56,46.88|QO|1|N|Loot for some Garrison Resources. At the bottom of the cave.|RANK|3|ITEM|$934|
 K Gelgor of the Blue Flame|QID|36391|PRE|35707|M|41.89,45.43|T|Gelgor the Blue Flame|L|118230|N|Kill and loot for an ilvl 534 versatility trinket.|RANK|3|ITEM|118230|Z|Fissure of Fury@Gorgrond| ;in fissure of fury
-
 $ Iron Supply Chest|QID|36618|M|42.77,44.42;43.7,42.5|PRE|35707|CS|QO|1|N|Down inside Brak's Excavation (a cave). Loot for some Garrison Resources.|RANK|3|ITEM|$824|
-
 $ Sniper's Crossbow|QID|36634|M|45.0,42.6|PRE|35707|QO|1|N|Pick up an ilvl 539 crossbow.|RANK|3|ITEM|118713|;above/across from fissure of fury
 A Valley of Destruction-Bonus Objective|QID|36480|M|45.12,42.8|N|Auto accept when entering the area.|RANK|3|
 C Valley of Destruction-Bonus Objective|QID|36480|M|45.12,42.8|N|Kill Gronn and Goren and break their eggs.|RANK|3|S|
@@ -596,12 +379,9 @@ $ Petrified Rylak Egg |QID|36521|PRE|35707|M|46.25,42.93|L|118707|N|Pick up for 
 K Rolkor|QID|36393|M|47.73,41.07|PRE|35707|L|118211|N|Kill and loot for an ilvl 539 str trinket.|RANK|3|ITEM|118211|
 K Greldrok the Cunning|QID|36186|PRE|35707|M|46.8,43.2|T|Greldrok the Cunning|L|118210|N|Inside a cave, Kill and loot for an ilvl 534 str 1H Mace.|RANK|3|ITEM|118210|
 $ Hardened Thornvine|QID|36717|PRE|35707|M|47.48,43.61|N|Use Shredder (click on the vines) to expose the Aged Stone Container|RANK|3|;22 - Valley of Destruction
-
 $ Warm Goren Egg|QID|36203|PRE|35707|M|48.9,47.3|QO|1|N|In 7 days this will become a Goren Disguise (toy)|RANK|3|ACTIVE|35136^35807|ITEM|118716|
-
 C Valley of Destruction-Bonus Objective|QID|36480|M|45.12,42.8|N|Kill Gronn and Goren and break their eggs.|RANK|3|US|
 t Valley of Destruction-Bonus Objective|QID|36480|M|45.12,42.8|N|Auto turn in.|RANK|3|
-
 R Dionor's Demise|QID|33694|M|49.36,49.70|N|If you picked up treasure as you went... you are practically there.|RANK|2|
 T Reagents from Rakthoth|QID|33694|M|49.36,49.70|N|To Rakthoth.|
 A Plant Pruning|QID|33689|M|49.36,49.70|N|From Rakthoth.|PRE|33694|RANK|2|
@@ -639,12 +419,10 @@ T Taking the Death Bloom|QID|33695|M|50.30,47.50|N|To Birchus.|
 A Laying Dionor to Rest|QID|33706|M|50.30,47.50|N|From Birchus.|PRE|33695|RANK|2|
 T Laying Dionor to Rest|QID|33706|M|50.29,47.52|N|To Birchus.|
 H Beastwatch|QID|35040|M|50.29,47.52|N|If you hearthstone isn't set to Beastwatch, you can always run.|RANK|2|
-
 ;for all
 t Heart of the Fen|QID|35040|M|46.28,69.99|N|To Marrow.|
 t Power of the Genesaur|QID|35416|M|46.10,70.19|N|To Durotan.|
 t Chains of Iron|QID|35136|M|46.09,70.19|N|To Durotan.|
-
 ;if arena
 R Stonemaul Arena|QID|34697|ACTIVE|34697|M|45.71,70.51;42.76,63.06|CS|N|Run over here to meet your champions.|
 T A Rediscovered Legend|QID|34697|M|42.76,63.06|N|To Kash'drakor.|
@@ -683,7 +461,6 @@ $ Odd Boulder|QID|36727|M|42.19,52.03|N|Call Beatface (click on the rock) to exp
 $ Broker's Sack|QID|36506|PRE|35880|M|41.7,52.9|L|118702|N|Avenge Broker, then you can have his treasure|RANK|3|ITEM|118702|
 H Beastwatch|QID|36573^36574|PRE|35880|M|46.29,69.27|N|If you heartstone isn't set to Beastwatch you can always run.|
 t The Sparring Arena|QID|35152|M|46.29,69.27|N|To Limbflayer.|
-
 ;both outpost buildings
 A Strike While the Iron is Hot|QID|36573^36574|M|46.10,70.20|N|From Durotan.|PRE|35152^35416|LEAD|36494|
 t Trophy of Glory: Biolante|QID|36503|M|37.28,77.02|N|To Durotan.|
@@ -710,23 +487,20 @@ C Strike While the Iron is Hot|QID|36573^36574|QO|2|M|44.7,17.8|CHAT|N|Talk to D
 f The Iron Approach|QID|36573^36574|M|43.02,20.22|N|At Nisha.|ACTIVE|36573^36574|
 F Beastwatch|QID|36573^36574|M|43.02,20.22|N|At Nisha. Fly back to Beastwatch to turn in. It's a little faster to hearth if you want.|ACTIVE|36573^36574|
 T Strike While the Iron is Hot|QID|36573^36574|M|46.09,70.19|N|To Durotan. Your reward is a book that allows the purchase of a level 2 small or medium garrison building plan in Ashran. There is a breadcrumb quest to lead you there in a few steps.|
-
-L Level 94|QID|37290|LVL|94|N|You are probably close to, or already 95, but you need to be at least 94 to get the next few quests.|
+L Level 94|QID|37290|N|You are probably close to, or already 95, but you need to be at least 94 to get the next few quests.|
 A News from Talador|QID|36494|LEAD|36953|M|46.09,70.19|N|From Durotan.|
 N Gorgrond substantially done|QID|37290|N|This pretty much finishes Gorgrond. Take some time to finish up the bonus objectives if you want, the guide next sends you back to your garrison to do the quests that have opened up while you were gone, and then ends.|ACTIVE|36494|RANK|2|
 H Town Hall|QID|37290|U|110560|M|46.09,70.19|ACTIVE|36494|N|Hearth to your Garrison.|
-
 A Upgrades in Ashran|QID|37290|M|42.18,55.57|Z|Frostwall|N|From Gazlowe.|
 A Thunderlord Invasion!|QID|37291|PRE|32796|M|43.95,47.79|Z|Frostwall|N|From Sergeant Grimjaw. This is a solo scenario to defend your garrison. You can actually do it with two groupmates if you all go to the leaders garrison. It is optional when you do it, but is is believed that you need to do it before you upgrade your garrison to level 3. |
 C Thunderlord Invasion!|QID|37291|M|43.95,47.79|Z|Frostwall|CHAT|N|Talk to Sergeant Grimjaw to begin this solo scenario. Follow the scenario promts to complete.|
 T Thunderlord Invasion!|QID|37291|M|43.95,47.79|Z|Frostwall|N|From Sergeant Grimjaw.|
-A Looking For Help|QID|34758|M|37.91,72.31|Z|Frostwall|N|The fishing shack is now available in the lake behind your fort. Mak'jin starts the chain (and will give you fishing dailies later).|LVL|94|P|Fishing;356;1|RANK|2|
+A Looking For Help|QID|34758|M|37.91,72.31|Z|Frostwall|N|The fishing shack is now available in the lake behind your fort. Mak'jin starts the chain (and will give you fishing dailies later).|P|Fishing;356;1|RANK|2|
 R Shivering Trench|QID|34758|M|49.69,60.39;53.7,64.33|CS|Z|Frostfire Ridge|N|Out the north gate of your garrison, make a right in front of the lava and down into the shivering trench.|ACTIVE|34758|RANK|2|
 A The Land Provides|QID|34960|M|54.26,67.51|Z|Frostfire Ridge|ACTIVE|34758|RANK|2|N|From the Icevine. To note there is a rarespawn (Coldtusk) that runs nears it.|
 C Looking For Help|QID|34758|M|55.4,72.6;55.71,75.32|CS|CHAT|Z|Frostfire Ridge|
 T Looking For Help|QID|34758|M|55.71,75.32|Z|Frostfire Ridge|N|To Mokugg Lagerpounder|
 A Icespine Stingers|QID|36141|M|55.71,75.32|Z|Frostfire Ridge|PRE|34758|N|From Mokugg Lagerpounder|RANK|2|
-
 C The Land Provides|QID|34960|M|54.24,69.74|Z|Frostfire Ridge|NC|N|Harvest the plants as you are killing the bugs for thier stingers. Panning the camera (or any other movement) will interupt the gather.|S|
 C Icespine Stingers|QID|36141|M|54.94,71.54|Z|Frostfire Ridge|N|Kill the Icespince Stinger bugs and loot them.|
 C The Land Provides|QID|34960|M|54.24,69.74|Z|Frostfire Ridge|NC|N|Finish harvesting plants, if you still need some.|US|
@@ -737,7 +511,6 @@ T Proving Your Worth|QID|36131|M|55.71,75.33|Z|Frostfire Ridge|U|111356|N|To Mok
 A Anglin' In Our Garrison|QID|36132|M|55.71,75.33|Z|Frostfire Ridge|N|From Mokugg Lagerpounder.|PRE|36131|RANK|2|
 T Anglin' In Our Garrison|QID|36132|M|38.03,72.34|Z|Frostwall|N|To Mak'jin. He should now have a daily for you if you want to do it.|
 t The Land Provides|QID|34960|M|42.18,55.54|Z|Frostwall|N|To Gazlowe (he's inside the town hall). If you want to you can also upgrade your fishing shack to level 2 by purchasing the blueprint from Rezlak right next to Gazlowe.|
-
 F Warspear|QID|37290|M|45.83,50.89|Z|Frostwall|N|Fly to Warspear to buy a garrison blueprint with the quest reward you got from the final quest in Gorgrond.|
 T Upgrades in Ashran|QID|37290|M|42.53,36.44|Z|Warspear|N|To Torgg Flexington, this is the only way you can get level 2 blueprints until after you finish Talador (then you will be able to purchase for gold).  You only have the currency for one, choose wisely.|
 B Treasure Map|QID|36494|M|74.6,31.8|Z|Warspear|L|118729|U|118729|N|You can buy treasure maps for all the zones you have completed (100g each). This will show the location of all unfound treasure on your full size and mini map. Check this off manually if you previously learned the map or choose not to buy it.|
@@ -745,7 +518,6 @@ H Town Hall|QID|36494|U|110560|M|74.6,31.8|Z|Warspear|ACTIVE|36494|N|Hearth to y
 T News from Talador|QID|36494|M|6.14,72.96|N|To Rokhan.|Z|Frostwall|
 A It's a Matter of Strategy|QID|34681|PRE|36573^36574|NC|M|6.14,72.96|N|From Rokhan.|Z|Frostwall|
 A Vouchsafe Our Arrival|QID|34209|M|49.49,36.39|N|From Cordana Felsong.|Z|Frostwall|RANK|3|
-
 R Frostwind Crag|QID|34209|M|31.4,16.2|Z|Frostfire Ridge|N|Bladespire Fortress is the closest flight path, (unless you went exploring on your own, then Throm'var is) then you have to run the rest of the way.|RANK|3|ACTIVE|34209|
 T Vouchsafe Our Arrival|QID|34209|M|31.4,16.2|Z|Frostfire Ridge|N|To Cordana Felsong.|
 A Safe Passage|QID|34216|M|31.4,16.2|Z|Frostfire Ridge|N|From Cordana Felsong.|PRE|34209|RANK|3|
@@ -795,17 +567,9 @@ C To Capture Gul'dan|QID|34295|M|18.8,12.6|Z|Frostfire Ridge|N|Confront Gul'dan,
 R Ruins of Ata'gar|QID|34295|M|19.9,14.8|CC|Z|Frostfire Ridge|N|Run out of the cave and use the portal Khadgar has prepared for you.|RANK|3|ACTIVE|34295|
 T Eliminate the Shadow Council|QID|34292|M|31.8,11.8|Z|Frostfire Ridge|N|To Cordana Felsong.|
 T To Capture Gul'dan|QID|34295|M|31.7,11.9|Z|Frostfire Ridge|N|To Archmage Khadgar.|
-
 H Town Hall|QID|34681|U|110560|M|31.7,11.9|Z|Frostfire Ridge|RANK|3|
-
 N Finalize your buildings|QID|34681|M|51.63,63.03|N|Click on the scrolls for each of the buildings to finalize them.  Most will then have NPC's that will offer a quest. This step will need manually checked off.|
-
 C It's a Matter of Strategy|QID|34681|M|45.7,51.0|Z|Frostwall|N|Talk to Bron Skyhorn for a free ride to Talador.|CHAT|
-
 D Gorgrond Done|QID|34681|N|Check off this step and the next guide will load.|
-
 ]]
-
 end)
-
-

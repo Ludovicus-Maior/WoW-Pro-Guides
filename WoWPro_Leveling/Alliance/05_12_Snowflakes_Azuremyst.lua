@@ -1,264 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_azuremyst_isle
--- Date: 2018-10-17 22:45
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL: http://wow-pro.com/node/3206/revisions/29722/view
--- Date: 2018-09-10 22:05
--- Who: Ludovicus_Maior
--- Log: Level tweaks
-
--- URL: http://wow-pro.com/node/3206/revisions/29665/view
--- Date: 2018-09-04 20:24
--- Who: Ludovicus
--- Log: Azuremyst edits
-
--- URL: http://wow-pro.com/node/3206/revisions/29664/view
--- Date: 2018-09-04 20:23
--- Who: Ludovicus
--- Log: Ammen Vale edits
-
--- URL: http://wow-pro.com/node/3206/revisions/29591/view
--- Date: 2018-08-24 00:52
--- Who: jovieve
--- Log: Removed old style QO tag and fixed weird A step per Ludo's recommendation. Thanks, Ludo!
-
--- URL: http://wow-pro.com/node/3206/revisions/29010/view
--- Date: 2018-02-19 23:16
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3206/revisions/29005/view
--- Date: 2018-02-19 23:12
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags - Ammen Vale
-
--- URL: http://wow-pro.com/node/3206/revisions/28896/view
--- Date: 2018-01-16 23:49
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3206/revisions/28375/view
--- Date: 2017-03-15 21:07
--- Who: Ludovicus_Maior
--- Log: Added PREs to SnoAmmen0105
-
--- URL: http://wow-pro.com/node/3206/revisions/28347/view
--- Date: 2017-03-11 20:14
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL: http://wow-pro.com/node/3206/revisions/27650/view
--- Date: 2016-08-30 22:43
--- Who: Ludovicus_Maior
--- Log: Corrected a few typos.
-
--- URL: http://wow-pro.com/node/3206/revisions/27511/view
--- Date: 2016-08-01 00:45
--- Who: tubera
--- Log: Remove class ability quests. Move "A Vindicator Aldar", Healing the lake must be done before. Split Inoculation, it has 2 QIDs 1 for Draenei(37444) and 1 for Others(9303).
-
--- URL: http://wow-pro.com/node/3206/revisions/27394/view
--- Date: 2015-10-05 14:54
--- Who: Ludovicus_Maior
--- Log: R Odyseus' Landing was popping when it should not have.
-
--- URL: http://wow-pro.com/node/3206/revisions/27393/view
--- Date: 2015-10-05 14:53
--- Who: Ludovicus_Maior
--- Log: Small tweaks to AmmenVale
-
--- URL: http://wow-pro.com/node/3206/revisions/27380/view
--- Date: 2015-08-12 01:30
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3206/revisions/27263/view
--- Date: 2015-05-22 20:59
--- Who: Ludovicus_Maior
--- Log: Missing N tag
-
--- URL: http://wow-pro.com/node/3206/revisions/27257/view
--- Date: 2015-05-16 21:21
--- Who: Ludovicus_Maior
--- Log: Adjusted Azuremyst guide levels
-
--- URL: http://wow-pro.com/node/3206/revisions/27242/view
--- Date: 2015-05-10 23:45
--- Who: Ludovicus_Maior
--- Log: Zone tweaks for Ammen Vale.
-
--- URL: http://wow-pro.com/node/3206/revisions/27215/view
--- Date: 2015-04-28 00:47
--- Who: Ludovicus_Maior
--- Log: Split
-
--- URL: http://wow-pro.com/node/3206/revisions/27183/view
--- Date: 2015-03-27 21:18
--- Who: Aldavor
--- Log: Cleaned up, added some missing map coords, reviewed ordering of a couple of quests.
-
--- URL: http://wow-pro.com/node/3206/revisions/27182/view
--- Date: 2015-03-23 22:27
--- Who: Aldavor
--- Log: Updated second part of the guide (from Ammen Vale). Removed redundant class trainer messages, changed ordering of initial quests slightly to add in "The Prophecy of Velen" Draenei quest. Cleaned up, added map coords, added note for Hero's Call quest being an option.
-
--- URL: http://wow-pro.com/node/3206/revisions/27157/view
--- Date: 2015-03-07 22:41
--- Who: Aldavor
--- Log: Replaced Ammen Vale coords with new correct ones; removed redundant references to skill/class training; changed the 'l' step to a 'C' on Blood Elf Plans - didn't close on looting even with the 'L' tag (also amended the QID to the previous one).
-
--- URL: http://wow-pro.com/node/3206/revisions/26803/view
--- Date: 2014-11-06 12:49
--- Who: Fluclo
--- Log: Removed duplicate tag from The Missing Scout
-
--- URL: http://wow-pro.com/node/3206/revisions/26479/view
--- Date: 2014-06-02 22:12
--- Who: Ludovicus_Maior
--- Log: Icons
-
--- URL: http://wow-pro.com/node/3206/revisions/26404/view
--- Date: 2014-05-30 12:21
--- Who: Ludovicus_Maior
--- Log: Level setting
-
--- URL: http://wow-pro.com/node/3206/revisions/26374/view
--- Date: 2014-05-27 21:30
--- Who: Ludovicus_Maior
--- Log: GuideLevels corrected from "1,12" to "0,10
-
--- URL: http://wow-pro.com/node/3206/revisions/26206/view
--- Date: 2014-05-25 22:20
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3206/revisions/26142/view
--- Date: 2014-05-20 19:25
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3206/revisions/25953/view
--- Date: 2014-05-14 21:59
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3206/revisions/25931/view
--- Date: 2014-04-14 19:35
--- Who: Ludovicus_Maior
--- Log: Add missing Panda tags.
-
--- URL: http://wow-pro.com/node/3206/revisions/25723/view
--- Date: 2013-06-18 01:09
--- Who: Ludovicus_Maior
--- Log: quest 9616's name [Bandits] does not match Grail's database [Bandits!].
-
--- URL: http://wow-pro.com/node/3206/revisions/25598/view
--- Date: 2013-03-23 20:42
--- Who: Ludovicus_Maior
--- Log: Redid [Learning the Word]
-
--- URL: http://wow-pro.com/node/3206/revisions/25379/view
--- Date: 2013-01-12 20:37
--- Who: Emmaleah
--- Log: fixes for multi coordinates
-
--- URL: http://wow-pro.com/node/3206/revisions/25134/view
--- Date: 2012-10-09 00:40
--- Who: Ludovicus_Maior
--- Log: Add Monk Starter quests
-
--- URL: http://wow-pro.com/node/3206/revisions/25125/view
--- Date: 2012-10-08 19:42
--- Who: Ludovicus_Maior
--- Log: Get rid of - in zone.
-
--- URL: http://wow-pro.com/node/3206/revisions/24690/view
--- Date: 2011-07-27 01:59
--- Who: Ludovicus_Maior
--- Log: Corrected race tags on [Replenishing the Healing Crystals] and corrected QIDs for class training quests, which were odd horde ones.  Sabotage!
-
--- URL: http://wow-pro.com/node/3206/revisions/24689/view
--- Date: 2011-07-23 21:10
--- Who: Ludovicus_Maior
--- Log: Played through and tweaked.  Needs to be tested by L1-5 to finish up.
-
--- URL: http://wow-pro.com/node/3206/revisions/24667/view
--- Date: 2011-07-06 17:22
--- Who: Fluclo
--- Log: Added professions line, removed obtain flightpoint (not required, already have flightpoint for race, or from intro line)
-
--- URL: http://wow-pro.com/node/3206/revisions/24666/view
--- Date: 2011-07-06 17:13
--- Who: Fluclo
--- Log: Added some NC steps
-
--- URL: http://wow-pro.com/node/3206/revisions/24585/view
--- Date: 2011-06-25 00:36
--- Who: Crackerhead22
--- Log: ! Duplicate T step for qid 9452 - Fixed
-
--- URL: http://wow-pro.com/node/3206/revisions/24563/view
--- Date: 2011-06-20 01:37
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3206/revisions/24562/view
--- Date: 2011-06-20 01:36
--- Who: Crackerhead22
--- Log: Fixed QID for "Your First Lesson"
-
--- URL: http://wow-pro.com/node/3206/revisions/24492/view
--- Date: 2011-06-02 12:02
--- Who: Crackerhead22
--- Log: Added bunch of notes, added a couple of sticky steps, fixed some cords, added a couple cords.
-
--- URL: http://wow-pro.com/node/3206/revisions/24274/view
--- Date: 2011-04-26 22:50
--- Who: Ludovicus_Maior
--- Log: Added missing S tag and got rid of a rogue QID.
-
--- URL: http://wow-pro.com/node/3206/revisions/24123/view
--- Date: 2011-02-22 01:59
--- Who: Crackerhead22
--- Log: Fixed a race tag issue with "Medicinal Purpose".
-
--- URL: http://wow-pro.com/node/3206/revisions/24049/view
--- Date: 2011-01-25 01:28
--- Who: Fluclo
-
--- URL: http://wow-pro.com/node/3206/revisions/24048/view
--- Date: 2011-01-25 01:25
--- Who: Fluclo
--- Log: Corrected layout for An Alternative Alternative
-
--- URL: http://wow-pro.com/node/3206/revisions/23721/view
--- Date: 2010-12-10 05:17
--- Who: Crackerhead22
--- Log: Changed, "Azuremyst Isle (Draenai)", to "Azuremyst Isle - Draenai".
---	Removed the unneeded zone tags due to first change.
-
--- URL: http://wow-pro.com/node/3206/revisions/23598/view
--- Date: 2010-12-05 07:19
--- Who: Crackerhead22
--- Log: Changed the NPC names for the class quests, to the correct NPCs.
-
--- URL: http://wow-pro.com/node/3206/revisions/23597/view
--- Date: 2010-12-05 07:15
--- Who: Crackerhead22
--- Log: Added missing class quests, added spacing for easier editing.
-
 local guide = WoWPro:RegisterGuide("SnoAzu0512", "Leveling", "Azuremyst Isle", "Snowflake", "Alliance")
-WoWPro:GuideLevels(guide,5,10,6.17886)
-WoWPro:NewGuideLevels(guide,5,20)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, "SveBlo1220")
-WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Draenei_Male","Interface\\Icons\\Achievement_Character_Draenei_Female"))
 WoWPro:GuideSteps(guide, function()
 return [[
-
 A Red Snapper - Very Tasty!|QID|9452|M|61.1,54.2|N|From Diktynna.|
 N Fishing Training|O|QID|9452|N|You could take this opportunity to learn fishing if you so desire... click to close.|M|61.1,54.2|
 C Red Snapper - Very Tasty!|N|Use the Draenei Fishing Net on the Schools of Red Snapper which you can find along the shore. Sometimes, an Angry Murloc will spawn and you'll have to kill him, then loot the Red Snapper from him.|QID|9452|U|23654|M|62.31,55.11|
@@ -269,19 +13,15 @@ T Find Acteon!|QID|9453|M|49.8,51.9|N|To Acteon at Azure Watch.|C|Shaman,Paladin
 A The Great Moongraze Hunt|QID|9454|M|49.8,51.9|N|From Acteon.|
 T Travel to Azure Watch|QID|9313|M|48.7,50.3|N|To Technician Dyvuun.|
 T Word from Azure Watch|QID|9314|M|48.3,49.2|N|To Caregiver Chellan.|
-
 A Beds, Bandages, and Beyond|QID|9603|N|From Caregive Chellan.|R|Draenei|
 h Azure Watch|ACTIVE|9454|N|Set your hearth to Azure Watch with Caregive Chellan.|
 A Medicinal Purpose|QID|9463|M|48.4,51.8|N|From Anchorite Fateema.|R|Draenei|
-
 N Professions|O|ACTIVE|9463|M|48.68,52.34|N|Now's the time to learn your professions.  Valn will give you the information needed, and ability to learn your chosen professions.  Click to continue.|
 N Note!|O|ACTIVE|9463|N|From now on if you see a Blood Elf Bandit on the way, kill it for an item that gives an extra exp quest, if you don't find him though don't worry, the quest has no follow ups.|
-
 C The Great Moongraze Hunt|QID|9454|N|Kill and loot Moongraze Stags for the Tenderloin.|S|QO|1|M|54,61|T|Moongraze Stag|
 C Medicinal Purpose|QID|9463|N|Kill and loot Root Trappers for the Vines.|S|R|Draenei|QO|1|M|54,61|T|Root Trapper|
 C Medicinal Purpose|QID|9463|N|Kill and loot Root Trappers for the Vines.|US|R|Draenei|QO|1|M|54,61|T|Root Trapper|
 C The Great Moongraze Hunt|QID|9454|N|Kill and loot Moongraze Stags for the Tenderloin.|S|QO|1|M|54,61|T|Moongraze Stag|
-
 T Medicinal Purpose|QID|9463|M|48.4,51.8|N|To Anchorite Fateema.|R|Draenei|
 A An Alternative Alternative|QID|9473|PRE|9463|M|48.4,51.8|N|From Daedal.|R|Draenei|
 T The Great Moongraze Hunt|QID|9454|M|49.8,51.9|N|To Acteon.|
@@ -289,7 +29,6 @@ A The Great Moongraze Hunt|QID|10324|PRE|9454|M|49.8,51.9|N|From Acteon.|
 C An Alternative Alternative|QID|9473|N|Look for Azure Snapdragon Bulbs (shimmering, glowing plants next to trees).|R|Draenei|QO|1|M|48.5,55.1|
 T An Alternative Alternative|QID|9473|M|48.4,51.8|N|To Daedal.|R|Draenei|
 A The Prophecy of Velen|QID|9505|LEAD|9506|PRE|9473|M|48.4,51.8|N|Wait for a few moments for the short scene to complete, then get this from Daedal.|R|Draenei|
-
 T Beds, Bandages, and Beyond|QID|9603|N|Go to Zaldaan (the Flight Master).|R|Draenei|M|49.67,49.17|
 A On the Wings of a Hippogryph|QID|9604|PRE|9603|N|From Zaldaan.|R|Draenei|M|49.67,49.17|
 F The Exodar|QID|9604|N|Fly to the Exodar.|R|Draenei|
@@ -300,7 +39,6 @@ T Hippogryph Master Stephanos|QID|9605|Z|The Exodar|N|Go to Hippogryph Master St
 A Return to Caregiver Chellan|QID|9606|PRE|9605|Z|The Exodar|N|From Stephanos.|R|Draenei|
 F Azure Watch|QID|9606|M|54.33,36.73|Z|The Exodar|N|Fly back to Azure Watch.|R|Draenei|
 T Return to Caregiver Chellan|QID|9606|M|48.39,49.25|N|To Caregiver Chellan.|R|Draenei|
-
 R Odesyus' Landing|QID|9505|ACTIVE|9505|N|Take the road to the south and follow it to Odesyus' Landing|CC|M|47,69|
 T The Prophecy of Velen|QID|9505|M|47.04,70.22|N|To Admiral Odesyus.|R|Draenei|
 A A Small Start|QID|9506|M|47.04,70.22|N|From Admiral Odesyus.|
@@ -314,9 +52,7 @@ A I've Got a Plant|QID|9530|PRE|9506|M|47.04,70.22|N|From Admiral Odesyus.|
 A Reclaiming the Ruins|QID|9513|PRE|9506^9512|M|47.13,70.27|N|From Priestess Kyleen Il'dinare.|
 A Precious and Fragile Things Need Special Handling|QID|9523|PRE|9506^9512|M|47.2,70.0|N|From Archaeologist Adamant Ironheart.|
 T Cookie's Jumbo Gumbo|QID|9512|M|46.7,70.5|N|To "Cookie" McWeaksauce.|
-
 r Sell junk and repair (click to close)|QID|9530|N|At Blacksmith Calypso|M|46.4,71.1|
-
 C I've Got a Plant|QID|9530|S|N|North of Odesyus' Landing, look for glowing piles of leaves and tree trunks.|
 C Reclaiming the Ruins|QID|9513|N|To the west of the landing, kill any Naga you need for this quest. When the rune covered tablet drops, accept the quest.|S|
 C Precious and Fragile Things Need Special Handling|QID|9523|N|Go to the Wrathscale Point and collect Ancient Relics.|M|35,75|S|
@@ -329,17 +65,14 @@ T Precious and Fragile Things Need Special Handling|QID|9523|M|47.2,70.0|N|To Ar
 T Reclaiming the Ruins|QID|9513|M|47.13,70.27|N|To Priestess Kyleen Il'dinare.|
 T Rune Covered Tablet|QID|9514|M|47.13,70.27|N|To Priestess Kyleen Il'dinare.|
 A Warlord Sriss'tiz|QID|9515|PRE|9514|N|Wait a moment until the dialog is finished. Then accept this quest from Priestess Kyleen Il'dinare.|M|47.13,70.27|
-
 R Azure Watch|QID|9538|M|48,53|N|Run to Azure Watch.|
 A The Missing Fisherman|QID|10428|LEAD|9527|M|49.0,51.1|N|From Dulvi.|
-
 C The Great Moongraze Hunt|QID|10324|S|N|Kill and loot the needed Moongraze Stags for the Hides.|M|48.52,55.63|
 A Strange Findings|QID|9455|N|Kill Infected Nightstalkers until one of them drops a Faintly Glowing Crystal, then accept the quest from it.|M|48.26,41.43|
 C The Great Moongraze Hunt|QID|10324|US|N|Kill and loot the needed Moongraze Stags for the Hides.|M|48.52,55.63|
 T The Great Moongraze Hunt|QID|10324|M|49.8,51.9|N|To Acteon.|
 T Strange Findings|QID|9455|M|47.1,50.6|N|To Exarch Menelaous.|
 A Nightstalker Clean Up, Isle 2...|QID|9456|PRE|9455|M|47.1,50.6|N|From Exarch Menelaous.|
-
 A Learning the Language|QID|9538|M|49.4,51.0|N|From Cryptographer Aurren.|
 C Learning the Language|N|Read the book.|QID|9538|U|23818|
 T Learning the Language|QID|9538|M|49.4,51.0|N|To the Totem of Akida.|
@@ -358,7 +91,6 @@ T Totem of Vark|QID|9542|M|28.11,62.39|N|To the Totem of Vark.|
 A The Prophecy of Akida|QID|9544|PRE|9542|M|28.1,62.4|N|From the Totem of Vark.|
 C The Prophecy of Akida|N|Kill Bristlelimb Furbolgs in the camp and get the keys off them. Use them to unlock 8 cages.|QID|9544|M|28.5,66.4|
 C Warlord Sriss'tiz|QID|9515|N|Head to a cave in Wrathscale Point. Drop down the hole just inside the cave, then kill Warlord Sriss'Tiz.|M|27,77;26.34,73.90;25.12,74.19|CS|
-
 C Tree's Company|N|Fight your way out of the cavern then go far southwest to a Naga Flag. Use your Tree Disguise Kit and wait for the complete message.\nOnly one person at a time!|QID|9531|U|23792|M|18.48,84.33|
 A A Cry For Help|N|On the northern side of the island, behind a fallen tree. From Magwin.|QID|9528|M|13.61,73.26|
 C A Cry For Help|N|Escort Magwin across the island, defending her from the owlkin (she's VERY slow). You'll end up at the next quest NPC we need.|QID|9528|M|16.6,94.5|QO|1|
@@ -367,7 +99,6 @@ T The Missing Fisherman|QID|10428|M|16.6,94.5|N|To Cowlen.|
 A All That Remains|QID|9527|M|16.6,94.5|N|From Cowlen.|
 C All That Remains|QID|9527|N|Kill owlkins on this island until you pick up the Remains of Cowlen's Family.|M|13.41,85.29|
 T All That Remains|QID|9527|M|16.6,94.5|N|To Cowlen.|
-
 H Azure Watch|QID|9544|U|6948|N|Hearth back to Azure Watch.|
 T The Prophecy of Akida|QID|9544|M|49.4,51.0|N|To Arugoo of the Stillpine.|
 A Stillpine Hold|QID|9559|PRE|9544|M|49.4,51.0|N|From Arugoo of the Stillpine.|
@@ -383,7 +114,6 @@ H Azure Watch|QID|9602|N|Or run if your Hearthstone is on cooldown.|U|6948|
 T Deliver Them From Evil...|QID|9602|M|47.1,50.6|N|To Exarch Menelaous.|
 A Coming of Age|QID|9623|M|47.1,50.6|N|From Exarch Menelaous.|
 r Sell junk and repair|QID|9559|N|At Kioni.|M|49.69,52.75|
-
 ; Stillpine Hold
 R Stillpine Hold|QID|9559|N|To the north of Azure Watch.|M|46,20|
 A Beasts of the Apocalypse!|QID|9560|PRE|9544|M|44.77,23.90|N|From Moordo.|
@@ -397,7 +127,6 @@ A Gurf's Dignity|QID|9564|N|From Gurf's Dignity|U|23850|
 C Murlocs... Why Here? Why Now?|QID|9562|N|Kill murlocs around until you have 5 Stillpine Grain. You can also collect them from bags around the murloc huts.|M|35,13|US|
 T Murlocs... Why Here? Why Now?|QID|9562|N|To Gurf.|M|44.63,23.48|
 T Gurf's Dignity|QID|9564|M|44.63,23.48|N|To Gurf.|
-
 A Search Stillpine Hold|QID|9565|PRE|9560&9562|M|46.68,20.63|N|From High Chief Stillpine.|
 A Chieftain Oomooroo|QID|9573|PRE|9560&9562|M|46.90,21.16|N|From Stillpine the Younger.|
 C Chieftain Oomooroo|QID|9573|N|Go into Stillpine Hold and up the path on the right. Kill Crazed Wildkin and Chieftain Oomooroo|M|45.39,18.06;47.43,14.18|CS|
@@ -411,7 +140,6 @@ T The Kurken is Lurkin'|QID|9570|M|46.97,22.26|N|To Kurz the Revelator.|
 A The Kurken's Hide|QID|9571|PRE|9570|M|46.97,22.26|N|From Kurz the Revelator.|
 A Warn Your People|QID|9622|PRE|9566&9570&9573|N|From High Chief Stillpine.|M|46.68,20.63|
 T The Kurken's Hide|QID|9571|M|44.77,23.90|N|To Moordo.|
-
 T Warn Your People|QID|9622|M|47.13,50.61|N|Run (or hearth if available) back to Azure Watch and turn this in to Exarch Menelaous.|U|6948|
 T Bandits!|QID|9616|M|47.13,50.61|N|To Exarch Menelaous.|O|
 r Sell junk and repair|QID|9623|N|At Kioni.|M|49.69,52.75|
@@ -423,5 +151,3 @@ R Kessel's Crossing|QID|9625|Z|Bloodmyst Isle|N|Go north to Kessel's Crossing on
 T Elekks Are Serious Business|QID|9625|Z|Bloodmyst Isle|N|To Vorkhan the Elekk Herder.|
 ]]
 end)
-
-

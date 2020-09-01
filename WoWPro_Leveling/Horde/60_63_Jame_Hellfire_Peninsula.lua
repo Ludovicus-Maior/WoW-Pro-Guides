@@ -1,140 +1,6 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_horde
--- Date: 2018-04-22 18:46
--- Who: Ludovicus_Maior
--- Log: Fix "unknown QID for FP" for Swamprat Post.
-
--- URL: http://wow-pro.com/node/3272/revisions/29234/view
--- Date: 2018-04-11 22:53
--- Who: Ludovicus_Maior
--- Log: Switch from [Through the Dark Portal] to [Warchief's Command: Outland!] as primary entry.
-
--- URL: http://wow-pro.com/node/3272/revisions/29206/view
--- Date: 2018-02-27 17:49
--- Who: Ludovicus_EditBot
--- Log: LVL strip and ACTIVE tag
-
--- URL: http://wow-pro.com/node/3272/revisions/29103/view
--- Date: 2018-02-22 22:55
--- Who: Ludovicus_EditBot
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3272/revisions/28906/view
--- Date: 2018-01-16 23:56
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3272/revisions/28573/view
--- Date: 2017-03-23 19:02
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL: http://wow-pro.com/node/3272/revisions/28461/view
--- Date: 2017-03-16 22:14
--- Who: Ludovicus_Maior
--- Log: Added a PRE.
-
--- URL: http://wow-pro.com/node/3272/revisions/28439/view
--- Date: 2017-03-15 23:42
--- Who: Ludovicus_Maior
--- Log: Added PREs to JamHel6063
-
--- URL: http://wow-pro.com/node/3272/revisions/27837/view
--- Date: 2016-09-26 00:11
--- Who: tubera
--- Log: Revert QO to # instead of txt on Disrupt Their Reinforcements.
-
--- URL: http://wow-pro.com/node/3272/revisions/27609/view
--- Date: 2016-08-29 03:41
--- Who: Blanckaert
--- Log: Ran through on a hunter, adjusted some steps, fix error that other fixed before I uploaded this one, did make sure tubera's corrections were in this one too.  FP: Spinebreaker Post on Map, Spinebreaker Ridge for flights.
-
--- URL: http://wow-pro.com/node/3272/revisions/27526/view
--- Date: 2016-08-05 05:45
--- Who: tubera
--- Log: Fix several QO tags. Added missing "T Keep Thornfang hill clear". Fix flightpoint names.
-
--- URL: http://wow-pro.com/node/3272/revisions/26919/view
--- Date: 2014-11-08 05:57
--- Who: Emmaleah
--- Log: correct a missing "|" for H Falcon Watch
-
--- URL: http://wow-pro.com/node/3272/revisions/26421/view
--- Date: 2014-06-02 13:10
--- Who: Ludovicus_Maior
--- Log: Set Levels
-
--- URL: http://wow-pro.com/node/3272/revisions/26267/view
--- Date: 2014-05-26 00:35
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3272/revisions/26152/view
--- Date: 2014-05-20 19:43
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3272/revisions/26013/view
--- Date: 2014-05-16 21:12
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3272/revisions/25935/view
--- Date: 2014-04-14 19:40
--- Who: Ludovicus_Maior
--- Log: Coord and flight point tweaks.
-
--- URL: http://wow-pro.com/node/3272/revisions/25729/view
--- Date: 2013-06-23 11:16
--- Who: Emmaleah
--- Log: 6/22/13 by Emmaleah - added changes for new CHAT tag, changed some N steps to C steps with NC tag, few other minor adjustments.
-
--- URL: http://wow-pro.com/node/3272/revisions/25288/view
--- Date: 2013-01-09 01:23
--- Who: Ludovicus_Maior
--- Log: Touchups as I run my DK through.
-
--- URL: http://wow-pro.com/node/3272/revisions/25045/view
--- Date: 2012-08-13 01:54
--- Who: Laotseu
--- Log: Minor fixes found while play testing the guide including few quests with typos that prevented the auto-turnins from working properly.
-
--- URL: http://wow-pro.com/node/3272/revisions/25040/view
--- Date: 2012-08-05 03:21
--- Who: Laotseu
--- Log: Some fix to the guide after play testing it. Mostly quest name typos, missing coordinates and coordinate refining.
-
--- URL: http://wow-pro.com/node/3272/revisions/24864/view
--- Date: 2011-12-13 04:24
--- Who: Crackerhead22
--- Log: Added missing cords, missing notes, added missing quest, added QO steps...?
-
--- URL: http://wow-pro.com/node/3272/revisions/24828/view
--- Date: 2011-12-01 13:00
--- Who: Crackerhead22
--- Log: Added in "Checking up" quest.
-
--- URL: http://wow-pro.com/node/3272/revisions/24824/view
--- Date: 2011-11-30 19:39
--- Who: Crackerhead22
--- Log: Updated for 4.3.
-
--- URL: http://wow-pro.com/node/3272/revisions/23426/view
--- Date: 2010-12-03 12:10
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3272/revisions/23425/view
--- Date: 2010-12-03 12:10
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("JamHel6063", "Leveling", "Hellfire Peninsula", "Jame", "Horde")
-WoWPro:GuideLevels(guide,58,62,58.9286)
-WoWPro:NewGuideLevels(guide,58,80)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, "JamZan6365")
-WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideQuestTriggers(guide,9407,28705)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -154,7 +20,6 @@ T Report to Nazgrel|QID|10291|M|55.05,35.96|N|To Nazgrel.|
 A Eradicate the Burning Legion |QID|10121|PRE|10291|M|55.06,35.96|N|From Nazgrel.|
 A Bonechewer Blood |QID|10450|M|55.11,36.34|N|From Vurtok Axebreaker.|
 A I Work... For the Horde! |QID|10086|M|55.20,38.75|N|From Megzeg Nukklebust.|
-
 T Eradicate the Burning Legion |QID|10121|M|58.03,41.25|N|To Sergeant Shatterskull.|
 A Felspark Ravine |QID|10123|PRE|10121|M|58.03,41.25|N|From Sergeant Shatterskull.|
 A Invading the Citadel|QID|29542|M|58.03,41.25|N|From Sergeant Shatterskull. This quest leads into Hellfire Ramparts, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for Hellfire Ramparts if you wish.|
@@ -172,7 +37,6 @@ T Forward Base: Reaver's Fall |QID|10124|M|65.87,43.63|N|To Forward Commander To
 A Disrupt Their Reinforcements |QID|10208|PRE|10124|M|65.87,43.63|N|From Forward Commander To'arch.|
 T Apothecary Zelana |QID|10449|M|66.2,42.0|N|To Apothecary Zelana.|
 A Spinebreaker Post |QID|10242|M|66.2,42.0|N|From Apothecary Zelana.|
-
 l Demonic Rune Stones|QID|10208|L|28513 4|N|Kill demons in the area until you have 4 Demonic Rune Stones. |M|70.91,45.28|
 C Disrupt Their Reinforcements|NC|QID|10208|QO|1|N|Step inside the gates and right-click to disable Port Xilus.|M|70.82,45.44|
 l Demonic Rune Stones|QID|10208|L|28513 4|N|Kill demons in the area until you have 4 Demonic Rune Stones. |M|73.98,39.11|
@@ -193,7 +57,6 @@ A Preparing the Salve |QID|9345|M|60.93,81.66|N|From Grelag.|
 A Make Them Listen |QID|10220|M|62.79,81.72|N|From Emissary Mordiba.|
 A The Warp Rifts |QID|10278|M|61.87,81.52|N|From Ogath the Mad.|
 A Wanted: Worg Master Kruush |QID|10809|M|61.22,80.59|N|From the Wanted Poster. |
-
 C Preparing the Salve |QID|9345|N|Pick up Hellfire Spineleaf.|S|
 l Bleeding Hollow Blood|QID|10538|L|30425 12|N|Keep killing and looting orcs until you have 12 blood.|S|
 C Wanted: Worg Master Kruush |QID|10809|M|68.16,73.36|N|Kill and loot Worg Master Kruush.|
@@ -208,10 +71,9 @@ T Boiling Blood |QID|10538|M|61.15,81.78|N|To Apothecary Albreck.|
 A Apothecary Antonivich |QID|10835|PRE|10538|M|61.15,81.78|N|From Apothecary Albreck.|
 A The Eyes of Grillok |QID|10813|M|61.65,81.85|N|From Zezzak.|
 F Thrallmar|QID|10388|M|61.65,81.19|N|Fly to Thrallmar.|
-
 A Falcon Watch |QID|9498|LEAD|9340|R|Tauren, Orc, Troll, Undead, Goblin, Pandaren|M|55.23,39.10|N|From Martik Tir'seldori.|
 A Falcon Watch |QID|9499|LEAD|9340|R|Blood Elf|M|55.23,39.10|N|From Martik Tir'seldori.|
-B Expert Riding|ACTIVE|10388|M|54.16,41.61|LVL|60|N|Expert Riding may be purchased for 225g, From Wind Rider Jahubo.  If this is your first time playing, you will also need 50g for a flying mount, from Bana Wildmane. * Note all mounts are now BOA *|  ; Spell ID is 34090
+B Expert Riding|ACTIVE|10388|M|54.16,41.61|N|Expert Riding may be purchased for 225g, From Wind Rider Jahubo.  If this is your first time playing, you will also need 50g for a flying mount, from Bana Wildmane. * Note all mounts are now BOA *|  ; Spell ID is 34090
 T Return to Thrallmar |QID|10388|M|55.02,35.96|N|To Nazgrel.|
 A Forge Camp: Mageddon |QID|10390|PRE|10388|M|55.02,35.96|N|From Nazgrel.|
 A The Assassin |QID|9400|M|55.02,35.96|N|From Nazgrel.|
@@ -222,13 +84,11 @@ A Vile Plans |QID|10393|U|29590|M|64.5,32.0|N|From the Burning Legion Missive yo
 T Forge Camp: Mageddon |QID|10390|M|55.02,35.96|N|To Nazgrel.|
 A Cannons of Rage |QID|10391|PRE|10390|M|55.02,35.96|N|From Nazgrel.|
 T Vile Plans |QID|10393|M|55.13,36.03|N|To Magister Bloodhawk.|
-
 C Cannons of Rage |QID|10391|M|59,32|N|Kill the fel canons at Forge Camp: Rage. |
 T Cannons of Rage |QID|10391|M|55.02,35.96|N|To Nazgrel.|
 A Doorway to the Abyss |QID|10392|PRE|10391|M|55.02,35.96|N|From Nazgrel.|
 K Warbringer Arix'Amal|QID|10392|L|29795|M|53.06,26.43|N|Head to Invasion Point: Annihilator, kill Warbringer Arix'Amal and loot the key |
 C Doorway to the Abyss |QID|10392|M|53.03,27.74|N|Stand in the portal infront of the glyph, left-click the glyph.|
-
 A Outland Sucks! |QID|10236|M|51.37,30.51|N|From Foreman Razelcraz.|
 C Outland Sucks! |QID|10236|N|Loot the sparkling crates in the canyon to the south.|M|49.0,35.5|
 A Missing Missive |QID|9373|O|U|23338|M|48.0,66.0|N|From the Eroded Leather Case.|     ; need to kill worms for it.
@@ -241,7 +101,6 @@ C How to Serve Goblins|QID|10238|M|47.49,46.60|NC|N|Jakk is again south of Moh. 
 C A Burden of Souls |QID|10864|N|Kill any Shattered Hand Orc you come across.|M|46.91,45.59|US|
 T The Assassin |QID|9400|M|34.83,45.91;33.62,43.56|CC|N|Follow the road west through the ramparts, till you see wooden spikes beside the roads. At them, take a sharp right. To the Fel Orc Corpse.|
 A A Strange Weapon |QID|9401|PRE|9400|M|33.5,43.5|N|From the Fel Orc Corpse.|
-
 T Falcon Watch |QID|9499|R|Blood Elf|M|28.49,60.26|N|To Ranger Captain Venn'ren. He is on top of the tower. Use the orb, or fly up.|
 T Falcon Watch |QID|9498|R|Tauren, Orc, Troll, Undead, Goblin, Pandaren|M|28.49,60.26|N|To Ranger Captain Venn'ren. He is on top of the tower. Use the orb, or fly up.|
 f Falcon Watch |QID|9387|M|27.8,59.98|N|At Innalia. Get the Flight path.|
@@ -252,17 +111,14 @@ A In Need of Felblood |QID|9366|M|26.99,59.54|N|From Ryathen the Somber.|
 A Magic of the Arakkoa |QID|9396|M|27.05,59.78|N|From Arcanist Calethris Dawnstar.|
 A Source of the Corruption |QID|9387|M|26.79,59.71|N|From Apothecary Azethan.|
 A Arelion's Journal |QID|9374|M|26.37,60.32|N|From Magistrix Carinda.|
-
 C The Great Fissure |QID|9340|N|Kill Stonescythe Whelps and Alphas.|M|30,62|S|
 C Wanted: Blacktalon the Savage |QID|9466|N|Kill Blacktalon inside the cave.|M|33,63|
 C The Great Fissure |QID|9340|N|Kill Stonescythe Whelps and Alphas.|M|30,62|US|
 T Investigate the Crash |QID|10213|N|To "Sreaming" Screed Luckheed.|M|49.15,74.87|
-
 A In Case of Emergency... |QID|10161|M|49.15,74.87|N|From "Sreaming" Screed Luckheed.|
 A Ravager Egg Roundup |QID|9349|M|49.24,74.84|N|From Legassi.|
 C Ravager Egg Roundup |QID|9349|N|Get 12 Ravager eggs from the ground and the Ravagers.|M|42,83|
 T Ravager Egg Roundup |QID|9349|M|49.24,74.84|N|To Legassi.|
-
 A Helboar, the Other White Meat |QID|9361|PRE|9349|M|49.24,74.84|N|From Legassi.|
 C In Case of Emergency... |QID|10161|N|Pick up Zepplin Debris.|M|58.0,71.5|S|
 K Crust Bursters|QID|9373|S|L|23338|M|49,67|N|Kill the Crust Bursters on this area until you loot an Eroded Leather Case.|
@@ -270,7 +126,6 @@ C Helboar, the Other White Meat |QID|9361|N|Head to the NE and work your way sou
 K Crust Bursters|QID|9373|US|L|23338|M|49,67|N|Kill the Crust Bursters on this area until you loot an Eroded Leather Case.|
 A Missing Missive |QID|9373|U|23338|M|48.0,66.0|N|From Eroded Leather Case.|
 T Helboar, the Other White Meat |QID|9361|M|49.24,74.84|N|To Legassi.|
-
 A Smooth as Butter |QID|9356|PRE|9361|M|49.24,74.84|N|From Legassi.|
 C Make Them Listen |QID|10220|N|Kill Unyielding Footman, Knights and Sorcerers.|S|
 l A Mysterious Tome |QID|10229|N|Kill Unyielding Knights at the Expedition Armory until they drop the item "A Mysterious Tome".|L|28552|M|55,76|
@@ -283,7 +138,6 @@ C Burn It Up... For the Horde!|QID|10087|QO|2|U|27479|N|Go further west along th
 H Thrallmar|QID|10087|U|6948|N|Hearth to Thrallmar.|
 T Burn It Up... For the Horde! |QID|10087|M|55.17,38.79|N|To Megzeg Nukklebust.|
 T Doorway to the Abyss |QID|10392|M|55.0,36.0|N|To Nazgrel.|
-
 A Cruel's Intentions |QID|10136|N|From Nazgrel.|M|55.02,35.96|
 T A Strange Weapon |QID|9401|M|55.02,35.96|N|To Nazgrel.|
 A The Warchief's Mandate |QID|9405|PRE|9401|M|55.02,35.96|N|From Nazgrel.|
@@ -293,7 +147,6 @@ A A Spirit Guide |QID|9410|PRE|9405|M|54.23,37.90|N|From Far Seer Regulkut.|
 T A Burden of Souls |QID|10864|N|To Apothecary Antonivich.|M|52.28,36.46|
 A The Demoniac Scryer |QID|10838|PRE|10864|M|52.28,36.46|N|From Apothecary Antonivich.|
 F Spinebreaker Ridge|QID|10229|N|Fly to Spinebreaker Ridge. (AKA Spinebreaker Post)|M|56.28,36.25|
-
 T Decipher the Tome |QID|10229|M|61.74,81.79|N|To Althen the Historian.|
 A The Battle Horn |QID|10230|PRE|10229|M|61.74,81.79|N|From Althen the Historian.|
 T Make Them Listen |QID|10220|N|To Emissary Mordiba.|M|61.78,81.71|
@@ -308,7 +161,6 @@ T Voidwalkers Gone Wild |QID|9351|N|To "Sreaming" Screed Luckheed.|M|49.15,74.87
 T The Battle Horn |QID|10230|M|61.74,81.79|N|To Althen the Historian.|
 A Bloody Vengeance |QID|10250|PRE|10230|M|61.74,81.79|N|From Althen the Historian.|
 T The Warp Rifts |QID|10278|M|61.87,81.53|N|To Ogath the Mad.|
-
 A Void Ridge |QID|10294|PRE|10278|M|61.87,81.53|N|From Ogath the Mad.|
 C Bloody Vengeance |QID|10250|U|28651|N|Head to the semi-destroyed tower. Use the Unyielding Battle Horn and kill Urtrak when he spawns.|M|63.5,77.6|
 K Bleeding Hollow Peon |QID|10792|L|31347 4|N|Kill Peons until you loot 4 Bleeding Hollow Torches.|
@@ -323,7 +175,6 @@ A Grillok "Darkeye" |QID|10834|PRE|10813|M|61.66,81.86|N|From Zezzak.|
 T Bloody Vengeance |QID|10250|M|61.74,81.79|N|To Althen the Historian.|
 A Honor the Fallen |QID|10258|PRE|10250|M|61.74,81.79|N|From Althen the Historian.|
 T Zeth'Gor Must Burn! |QID|10792|M|61.21,81.32|N|To Captain Darkhowl.|
-
 R Void Ridge |QID|10294|N|Head to the Void Ridge.|M|72,67;75.5,66.5|CS|
 C Void Ridge |QID|10294|N|Kill the voidwalkers till you get 40 Soul Shards. Collapsing Voidwalkers channel a self destruct when under 10%, if you kill them they explode anyway, so run away once you see the emote. Vascillating Voidwalkers absorb the first type of spell you throw at them and gain resistance to that school for the duration of the fight, so throw something you don't normally use at them first.|M|75.5,66.5|
 H Thrallmar|QID|10238|U|6948|N|Hearth to Thrallmar.|
@@ -334,7 +185,6 @@ T Shizz Work |QID|10629|M|51.5,30.5|N|To Foreman Razelcraz. Make sure you dismis
 A Beneath Thrallmar |QID|10630|PRE|10629|M|51.5,30.5|N|From Foreman Razelcraz.|
 C Beneath Thrallmar |QID|10630|N|Enter the mine, Urga'zz is in the back of the cave.|M|54.09,31.64|
 T Beneath Thrallmar |QID|10630|M|51.5,30.5|N|To Foreman Razelcraz.|
-
 R Pools of Aggonar |QID|10389|N|Run to the Pools of Aggonar.|M|40,43|
 C In Need of Felblood |QID|9366|N|Kill and loot Terrorfiends.|M|39.5,36.0|S|
 C The Agony and the Darkness |QID|10389|N|Kill Terrorfiends.|M|39.5,36.0|S|
@@ -342,12 +192,10 @@ C Arelion's Journal |QID|9374|N|The item is in Arelion's Knapsack, which is hang
 C Cruel's Intentions |QID|10136|N|Kill Arazzius the Cruel.|
 C In Need of Felblood |QID|9366|N|Kill and loot Terrorfiends.|M|39.5,36.0|US|
 C The Agony and the Darkness |QID|10389|N|Kill Terrorfiends.|M|39.5,36.0|US|
-
 R Mag'har Post|QID|9410|U|23669|N|Go back to the Fel Orc Corpse and use the Wolf Totem and follow it.|M|33.6,43.6|
 T A Spirit Guide |QID|9410|M|32.0,28.0|N|If you can't speak to Gorkan Bloodfist, it's because you didn't follow the wolf.|
 A The Mag'har |QID|9406|PRE|9410|M|32.0,28.0|N|From Gorkan Bloodfist.|
 R Thrallmar|QID|10389|N|Run back to Thrallmar.|M|55.0,36.0|
-
 T The Agony and the Darkness |QID|10389|M|55.12,36.02|N|To Magister Bloodhawk.|
 T The Mag'har |QID|9406|M|55.02,35.96|N|To Nazgrel.|
 T Cruel's Intentions |QID|10136|M|55.02,35.96|N|To Nazgrel.|
@@ -362,7 +210,6 @@ A Helping the Cenarion Post |QID|10442|LEAD|9372|M|27.71,60.33|N|From Falconer D
 T The Great Fissure |QID|9340|M|28.49,60.24|N|To Ranger Captain Venn'ren. Top of Tower.|
 A Marking the Path |QID|9391|PRE|9340|M|28.49,60.24|N|From Ranger Captain Venn'ren.|
 T Wanted: Blacktalon the Savage |QID|9466|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
-
 A Report to Zurai |QID|10103|M|28.49,60.24|N|From Ranger Captain Venn'ren, on the top of the tower.|
 C Trueflight Arrows |QID|9381|N|Go between the points killing and looting Bonestripper Vultures until you have 8 tail feathers.|M|29,56;24.28,44.91|CN|
 C Arelion's Secret|QID|10286|CHAT|N|Go back and forth along the path between Thornfang Hill and Falcon Watch until you find Magister Aledis. Talk to him, then beat him down in health. Just to warn you, you will be put into PVP.|M|18.0,50.0|T|Magister Aledis|
@@ -376,7 +223,6 @@ A Keep Thornfang Hill Clear! |QID|10159|M|15.7,52.0|N|From Mahuram Stouthoof.|
 A The Cenarion Expedition |QID|9912|M|16.04,52.15|N|From Amythiel Mistwalker.|
 C Colossal Menace |N|Kill Raging Colossui until you have all 5 kills. As they get low in health, they get smaller and Shardlings form.|QID|10132|M|15,45|
 l Crimson Crystal Shard|QID|10134|N|Make sure you have one of these items from the giants.|L|29476|M|15,45|
-
 A Crimson Crystal Clue|N|Right-click the Shard to start the quest.|QID|10134|M|15,45|U|29476|
 T Colossal Menace|QID|10132|N|To Tola'thion.|M|15.62,52.04|
 T Crimson Crystal Clue|QID|10134|N|To Tola'thion.|M|15.62,52.04|
@@ -386,7 +232,6 @@ A Natural Remedies |QID|10351|PRE|10349|N|From Earthbinder Galandria Nightbreeze
 C Natural Remedies |N|Go here, stand on the green rune and use the seed, then kill Goliathon when it spawns.|QID|10351|M|13.64,39.11|
 T Natural Remedies |QID|10351|N|To Earthbind Galandria Nightbreeze.|M|15.89,51.59|
 C Demonic Contamination |N|Kill Hulking Helboars until you get the samples for this quest.|QID|9372|M|18.5,55.3|
-
 T The Mistress Revealed |QID|10287|M|26.37,60.32|N|To Magistrix Carinda.|
 A Arelion's Mistress |QID|9472|PRE|10287|M|26.37,60.32|N|From Magistrix Carinda.|
 T Trueflight Arrows |QID|9381|M|27.71,60.33|N|To Falconer Drenna Riverwind.|
@@ -398,14 +243,12 @@ C Marking the Path|NC|QID|9391|QO|2|N|Light the Central Beacon. Same deal as bef
 C Marking the Path|NC|QID|9391|QO|3|N|Light the final beacon, the Southern one.|M|36.14,65.38|
 T Honor the Fallen |QID|10258|N|To Commander Hogarth.|M|57,77|
 T Void Ridge |QID|10294|M|61.87,81.53|N|To Ogath the Mad.|
-
 A From the Abyss |QID|10295|PRE|10294|M|61.87,81.53|N|From Ogath the Mad.|
 C Grillok "Darkeye" |QID|10834|N|He's at the cave infront of Zeth'Gor. Kill his guards, if you use a ranged pull he won't add. Kill Grillok "Darkeye".|M|66,71|
 C From the Abyss |QID|10295|N|Head east to Void Ridge. Then head south to  the two big violet crystals. HP/Mana up, the quest NPC spawns with two adds that heal him, but die fast, so kill them first. Use the Rift generator to summon him.|U|29226|M|81,79|
 T Grillok "Darkeye" |QID|10834|M|61.66,81.86|N|To Zezzak.|
 T From the Abyss |QID|10295|M|61.87,81.53|N|To Ogath the Mad.|
 F Falcon Watch|QID|9391|N|Fly to Falcon Watch.|M|61.64,81.21|
-
 T Marking the Path |QID|9391|M|28.49,60.24|N|To Ranger Captain Venn'ren.|
 R Den of Haal'esh |QID|9396|N|It's to the south.|M|26,71|
 C Birds of a Feather |QID|9397|U|23485|M|25.5,71.5|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|S|
@@ -416,7 +259,6 @@ T Avruu's Orb |QID|9418|N|Click on the Haal'eshi Altar, Aeranas will spawn. Get 
 C Birds of a Feather |QID|9397|U|23485|M|25.5,71.5|N|Click on Kaliri Nests, if it is a Female Kaliri Hatchling, use the birdcage on it.|US|
 C Magic of the Arakkoa |QID|9396|M|25.5,70.5|N|Kill Haal'eshi Talonguards and Windwalkers until you have 4 Haal'esh Scrolls.|US|
 N READ THIS |QID|9375|N|Time for an escort. Let the NPC go first, to make sure she helps on everything. She can solo a birdman, so let her if you need to eat or drink. There's an ambush, but it's not too hard.|
-
 A The Road to Falcon Watch |QID|9375|N|From Wounded Blood Elf Pilgrim. She is on the bottom level.|M|24.54,76.04|
 C The Road to Falcon Watch |QID|9375|M|24.5,76.0|N|Follow the Wounded Blood Elf Pilgrim, keep her safe.|
 T The Road to Falcon Watch |QID|9375|M|27.0,62.0|N|To Taleris Dawngazer.|
@@ -429,7 +271,6 @@ A Testing the Antidote |QID|10255|PRE|9372|M|15.70,52.09|N|From Thiah Redmane.|
 C Testing the Antidote |QID|10255|N|Go find a Hulking Helboar, use the Cenarion Antidote on it. It'll get bigger and change its name, finish it off. The helboars can be found off to the east.|U|23337|M|25.0,54.0|
 T Testing the Antidote |QID|10255|M|15.70,52.09|N|To Thiah Redmane.|
 C Source of the Corruption |QID|9387|N|Kill the Taskmasters until you have enough essence. The Brutes will run once you kill the Taskmaster.|M|15.0,55.5|S|
-
 A Naladu|N|From Akoru the Firecaller.|QID|10403|LEAD|10367|M|15.59,58.75|
 T Naladu|QID|10403|M|16.3,65.1|N|To Naladu.|
 A A Traitor Among Us |QID|10367|M|16.3,65.1|N|From Naladu.|
@@ -447,7 +288,6 @@ C Source of the Corruption |QID|9387|N|Kill the Taskmasters until you have enoug
 C Keep Thornfang Hill Clear! |QID|10159|N|Kill the Ravagers and Venomspitters needed for this quest.|M|12,50|
 T Keep Thornfang Hill Clear!|QID|10159|M|15.66,52.15|N|To Mahuram Stouthoof.|
 R Cenarion Refuge |QID|9747|N|Follow the road west, you'll come to Cenarion Refuge.  While you are here, this guide has you pick up quests so you can fly back next time instead of running.|Z|Zangarmarsh|M|80.5,64.0|
-
 A The Umbrafen Tribe |QID|9747|Z|Zangarmarsh|M|80.5,64.0|N|From Ikeyen.|
 A Plants of Zangarmarsh |QID|9802|Z|Zangarmarsh|M|80.3,64.2|N|From Lauranna Thar'well.|
 A Leader of the Darkcrest |QID|9730|Z|Zangarmarsh|M|79.1,64.9|N|From the Wanted Poster.|
@@ -459,12 +299,10 @@ A Disturbance at Umbrafen Lake |QID|9716|Z|Zangarmarsh|M|78.5,62.0|N|From Ysiel 
 A Warden Hamoot |QID|9778|LEAD|9728|Z|Zangarmarsh|M|78.4,62.1|N|From Ysiel Windsinger.|
 A Checking Up|QID|29566|M|78.40,62.10|Z|Zangarmarsh|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|
 T Warden Hamoot |QID|9778|Z|Zangarmarsh|M|79.1,65.2|N|To Warden Hamoot.|
-
 A A Warm Welcome |QID|9728|Z|Zangarmarsh|M|79.0,65.5|N|From Warden Hamoot.|
 R Swamprat Post |ACTIVE|10103|N|To Swamprat Post in the northeast.|Z|Zangarmarsh|M|85,55|
 f Swamprat Post |ACTIVE|10103|N|Grab the flight path From Gur'zil.|M|84.77,55.11|
 T Report to Zurai |QID|10103|Z|Zangarmarsh|M|85.5,55.0|N|To Zurai.|
-
 H Falcon Watch|QID|9387|N|Hearth (or Fly) to Falcon Watch.|
 T Source of the Corruption |QID|9387|M|26.79,59.71|N|To Apothecary Azethen.|
 T A Pilgrim's Plight |QID|9376|M|27.16,61.90|N|To Taleris Dawngazer.|
@@ -473,16 +311,11 @@ T Arelion's Mistress |QID|9472|M|26.37,60.32|N|To Magistrix Carinda.|
 C The Demoniac Scryer |QID|10838|N|Time for a challenge! Head over to Hellfire Basin. Find yourself a clear spot, and HP/mana up. When you use the item, you'll have to defend the crystal from waves of very weak imps, and occasional orc spawns, which should be taken down immediately. The crystal can take some beating, though. Once smoke starts shooting upwards, talk to the crystal to finish the quest.|U|31606|M|44.9,49.2|
 R Thrallmar|QID|10838|N|Run to Thrallmar.|M|52.28,36.45|
 T The Demoniac Scryer |QID|10838|M|52.28,36.46|N|From Apothecary Antonivich.|
-
 A Report to Nazgrel|QID|10875|PRE|10838|M|52.28,36.46|N|From Apothecary Antonivich.|
 T Report to Nazgrel|QID|10875|M|55.02,35.96|N|To Nazgrel.|
 A The Foot of the Citadel|QID|10876|PRE|10875|M|55.02,35.96|N|From Nazgrel.|
 C The Foot of the Citadel|QID|10876|U|31702|M|47.43,49.71|N|Kill Force-Commander Gorax, then plant the Challenge From the Horde on his corpse. Once The Hand of Kargath appears, kill and loot him for his head.|
 T The Foot of the Citadel|QID|10876|M|55.02,35.96|N|To Nazgrel.|
-
 N This ends|N|Hellfire Peninsula. Visit Shattrath to see your trainers if you wish (Death Gate if you are a Death Knight). Close this step to head on into Zangarmarsh.|
-
 ]]
 end)
-
-

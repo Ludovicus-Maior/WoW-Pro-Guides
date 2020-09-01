@@ -1,117 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_felwood_alliance
--- Date: 2020-04-07 22:34
--- Who: Ludovicus_Maior
--- Log: [WANTED: The Demon Hunter]
-
--- URL: http://wow-pro.com/node/3257/revisions/29935/view
--- Date: 2018-10-17 02:24
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3257/revisions/29172/view
--- Date: 2018-02-26 21:38
--- Who: Ludovicus_EditBot
--- Log: Level strip
-
--- URL: http://wow-pro.com/node/3257/revisions/29044/view
--- Date: 2018-02-20 01:10
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3257/revisions/28864/view
--- Date: 2018-01-16 23:31
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3257/revisions/28835/view
--- Date: 2018-01-15 19:03
--- Who: Ludovicus
--- Log: Add tags according to Grail
-
--- URL: http://wow-pro.com/node/3257/revisions/28383/view
--- Date: 2017-03-15 21:23
--- Who: Ludovicus_Maior
--- Log: Added PREs to WkjFel4550
-
--- URL: http://wow-pro.com/node/3257/revisions/26416/view
--- Date: 2014-05-30 16:09
--- Who: Ludovicus_Maior
--- Log: Corrected syntax error
-
--- URL: http://wow-pro.com/node/3257/revisions/26388/view
--- Date: 2014-05-29 22:46
--- Who: Ludovicus_Maior
--- Log: Guide Levels corrected. Added Mean Level.
-
--- URL: http://wow-pro.com/node/3257/revisions/26254/view
--- Date: 2014-05-25 23:05
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3257/revisions/26083/view
--- Date: 2014-05-18 21:55
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3257/revisions/25977/view
--- Date: 2014-05-14 22:32
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3257/revisions/25582/view
--- Date: 2013-03-23 20:00
--- Who: Ludovicus_Maior
--- Log: quest name tweak
-
--- URL: http://wow-pro.com/node/3257/revisions/24460/view
--- Date: 2011-05-30 17:58
--- Who: Ludovicus_Maior
--- Log: ! Line 39 for step R has 1 M coords: [R Emerald Sanctuary|QID|28100|M|51.41.79.79|N|Run to Emerald Sanctuary.|]
-
--- URL: http://wow-pro.com/node/3257/revisions/24432/view
--- Date: 2011-05-28 06:51
--- Who: Crackerhead22
--- Log: Removed static 99999 QIDs, added notes, fixed a couple notes, fixed a couple cords. Added in steps for Deadwood Headdress Feathers (1 step) and Deadwood Ritual Totem (3 steps).
-
--- URL: http://wow-pro.com/node/3257/revisions/24391/view
--- Date: 2011-05-17 01:02
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3257/revisions/24186/view
--- Date: 2011-03-20 20:18
--- Who: Ludovicus_Maior
--- Log: Corrections around [Crying Violet] and quests shifted to "Andalar Shadevale".  Speling corrections and addition comments.
-
--- URL: http://wow-pro.com/node/3257/revisions/24082/view
--- Date: 2011-01-30 19:24
--- Who: Ludovicus_Maior
--- Log: Corrected Register guide to match GIT.
-
--- URL: http://wow-pro.com/node/3257/revisions/23618/view
--- Date: 2010-12-06 01:03
--- Who: wkjezz
-
--- URL: http://wow-pro.com/node/3257/revisions/23396/view
--- Date: 2010-12-03 11:45
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3257/revisions/23395/view
--- Date: 2010-12-03 11:44
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('WkjFel4550', "Leveling", 'Felwood', 'Wkjezz', 'Alliance')
-WoWPro:GuideLevels(guide,44,49,45.3277)
-WoWPro:NewGuideLevels(guide,40,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'JiyWin5055')
-WoWPro:GuideIcon(guide,"ACH",4931)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 N Note|AVAILABLE|28100|N|This guide starts in Darnassus. If you want to skip this step feel free to do so.|
 A Hero's Call: Felwood!|QID|28543|LEAD|27997|M|45.19,50.01|Z|Darnassus|N|From the Hero's Call Board. Will not appear if your level is too high.|
 F Forrest Song|QID|28100|N|in Ashenvale. If you should happen to have Emerald Sanctuary go there instead and skip this and the next step.|
@@ -123,7 +14,6 @@ A Culling the Corrupted|QID|28148|M|50.92,80.21|N|From Taronn Redfeather.|
 A A Talking Totem|QID|28100|M|51.40,80.55|N|From Grazle.|
 f Emerald Sanctuary|QID|28100|M|51.49,80.80|N|At Gorrim.|
 T A Talking Totem|QID|28100|M|51.50,83.63|N|To the Totem of Ruumbo.|
-
 A Ruumbo Demands Justice|QID|27994|PRE|28100|M|51.50,83.63|N|From the Totem of Ruumbo.|
 A Ruumbo Demands Honey|QID|27989|PRE|28100|M|51.47,83.66|N|From the Totem of Ruumbo.|
 C Ruumbo Demands Justice|QID|27994|M|48.80,89.80|N|Kill Deadwood Furbolgs.|S|
@@ -138,7 +28,6 @@ A Dance for Ruumbo!|QID|27995|PRE|27989&27994|M|51.45,83.70|N|From the Totem of 
 C Dance for Ruumbo!|QID|27995|M|51.45,83.70|N|Just hang out for a few seconds until you get a quest complete.|
 T Dance for Ruumbo!|QID|27995|M|51.38,80.46|N|To Grazle.|
 T The Corruption of the Jadefire|QID|27997|M|51.17,80.52|N|To Tenell Leafrunner.|
-
 A The Ruins of Kel'Theril|QID|28479|M|51.24,80.36|N|From Kelek Skykeeper. You may not be a high enough level to get this yet. If so skip this step and pick it up befrore you start Winterspring.|
 T Culling the Corrupted|QID|28148|M|50.93,80.15|N|To Taronn Redfeather.|
 A An Arcane Ally|QID|28150|LEAD|28000|PRE|27995&27997&28148|M|51.17,80.56|N|From Tenell Leafrunner.|
@@ -153,7 +42,6 @@ A Touch the Untouchable|QID|28044|PRE|28049|M|41.85,71.91|N|From Impsy.|
 R Touch the Untouchable|QID|28044|CC|U|62920|M|40.95,75.74|N|Run Here and use the item.|
 C Touch the Untouchable|QID|28044|U|62920|M|42.02,79.30|N|Kill and loot Vorius.|
 T Touch the Untouchable|QID|28044|M|41.95,71.95|N|(UI Alert)|
-
 A Break the Unbreakable|QID|28113|PRE|28044|M|41.94,71.94|N|From Arcanist Delaris.|
 A Fight the Power|QID|28102|PRE|28044|M|41.97,71.85|N|From Eridan Bluewind.|
 C Fight the Power|QID|28102|M|38.01,66.55|N|Kill Jadefire Rogues or Shadowstalkers.|S|
@@ -167,7 +55,6 @@ A Open Their Eyes|QID|28288|PRE|28113|M|41.96,72.03|N|From Arcanist Delaris.|
 A Jaedenar Awaits|QID|28152|LEAD|28116|PRE|28113&28102|M|42.01,71.77|N|From Eridan Bluewind.|
 C Open Their Eyes|QID|28288|U|63395|M|42.19,79.05|N|Taste the Rainbow.|
 T Open Their Eyes|QID|28288|M|41.90,71.98|N|To Arcanist Delaris.|
-
 f Wildheart Point|ACTIVE|28152|M|44.29,61.89|N|At Chyella Hushglade.|
 h Wildheart Point|ACTIVE|28152|M|43.98,61.94|N|At Innkeeper Teenycaugh. You may really want this, as the exit portal from Jaedenar is often bugged.|
 T Jaedenar Awaits|QID|28152|M|43.96,61.90|N|To Greta Mosshoof.|
@@ -181,7 +68,6 @@ T Forces of Jaedenar|QID|28121|M|36.35,58.25|N|To Andalar Shadevale.|
 A Purity From Corruption|QID|28119|PRE|28116|M|36.35,58.25|N|From Andalar Shadevale.|
 C Purity From Corruption|QID|28119|M|35.93,59.52|U|12922|N|Fill up at the moonwell.|
 T Purity From Corruption|QID|28119|M|36.35,58.25|N|To Andalar Shadevale.|
-
 A The Inner Circle|QID|28128|PRE|28119&28121|M|36.35,58.25|N|From Andalar Shadevale.|
 A The Demon Prince|QID|28129|PRE|28119&28121|M|36.35,58.25|N|From Andalar Shadevale.|
 A Dousing the Flames of Protection|QID|28126|PRE|28119&28121|M|36.35,58.25|N|From Andalar Shadevale.|
@@ -195,7 +81,6 @@ C Extinguish the Brazier of Suffering|QID|28126|QO|3|M|37.38,53.16|N|This is on 
 C Extinguish the Brazier of Malice|QID|28126|QO|2|M|38.21,52.54|N|Extinguish the last brazier.|
 C Twin Temptresses|QID|28131|M|38.33,50.86|N|Kill Moora and Salia.|
 T Twin Temptresses|QID|28131|M|38.63,50.57|N|(UI Alert)|
-
 A Shadow Lord Fel'dan|QID|28153|PRE|28131|M|38.63,50.57|N|(UI Alert)|
 C Shadow Lord Fel'dan|QID|28153|M|39.96,47.12|N|Time to kill Shadow Lord Fel'dan.|
 T Shadow Lord Fel'dan|QID|28153|M|39.81,47.10|N|(UI Alert)|
@@ -206,7 +91,6 @@ R Wildheart Point|QID|28128|N|If finished with all quests for here you should no
 T The Inner Circle|QID|28128|M|44.11,62.00|N|To Jessir Moonbow.|
 T Dousing the Flames of Protection|QID|28126|M|43.99,61.87|N|To Greta Mosshoof.|
 T Lord Banehollow|QID|28155|M|44.09,61.82|N|To Farlus Wildheart.|
-
 A The Fate of Bloodvenom Post|QID|28305|LEAD|28207|PRE|28126&28128&28155|M|44.09,61.82|N|From Farlus Wildheart.|
 T The Fate of Bloodvenom Post|QID|28305|M|41.26,49.89|N|To Kelnir Leafsong.|
 A A Slimy Situation|QID|28207|M|41.26,49.89|N|From Kelnir Leafsong.|
@@ -220,7 +104,6 @@ T A Slimy Situation|QID|28207|M|41.31,49.88|N|To Kelnir Leafsong.|
 A Winna's Kitten|QID|28208|PRE|28190&28207|M|41.29,50.01|N|From Kelnir Leafsong.|
 C Winna's Kitten|QID|28208|M|38.88,52.99|N|Kill and loot Winna's Kitten to get the eartag.|
 T Winna's Kitten|QID|28208|M|41.27,49.88|N|To Kelnir Leafsong.|
-
 A Hazzard Disposal|QID|28213|PRE|28208|M|41.27,49.88|N|From Kelnir Leafsong.|
 A Cleanup at Bloodvenom Post|QID|28214|PRE|28208|M|41.27,49.88|N|From Altsoba Ragetotem.|
 C Cleanup at Bloodvenom Post|QID|28214|M|36.17,50.46|N|Kill Bloodvenom Slimeslaves.|S|
@@ -238,7 +121,6 @@ A Hunting the Damned|QID|28358|M|44.01,27.89|N|From Hurak Wildhorn.|
 A The Core of Kroshius|QID|28359|M|43.98,27.89|N|From Hurak Wildhorn.|
 A Collecting Corruption|QID|28341|M|43.93,27.88|N|From Elessa Starbreeze.|
 A Fel To Pieces|QID|28342|M|43.94,27.88|N|From Elessa Starbreeze.|
-
 h Whisperwind Grove|QID|28342|M|44.75,29.17|N|At Innkeeper Wylaria.|
 C Running Their Course|QID|28360|S|M|44.04,34.65|N|Kill Felrot Coursers.|
 C Squirrely Clean|QID|28361|M|45.54,34.17|N|Right click on them as you see them, they are friendly.|
@@ -250,7 +132,6 @@ C The Core of Kroshius|QID|28359|M|47.55,39.43|N|Kill and loot Kroshius to get h
 C Fel To Pieces|QID|28342|US|M|44.35,41.77|N|Finish this now.|
 C Hunting the Damned|QID|28358|US|M|43.78,43.11|N|Finish this up.|
 C Collecting Corruption|QID|28341|M|44.32,43.12|N|Finish this up.|
-
 H Whisperwind Grove|QID|28360|N|Hearth. If you didn't set your hearth here (like I suggested), run back.|
 T Running Their Course|QID|28360|M|43.33,30.34|N|To Tender Puregrove.|
 T Squirrely Clean|QID|28361|M|43.33,30.34|N|To Tender Puregrove.|
@@ -266,7 +147,6 @@ A Nature and Nurture|QID|28229|PRE|28374|M|43.92,28.11|N|From Isural Forestsworn
 l Nature and Nurture|QID|28229|U|63332|L|63387|M|44.04,28.40|N|Stand in the Moonwell and fill your vial.|
 C Nature and Nurture|QID|28229|U|63387|M|48.67,25.14|N|Use your bottle of moonwell water here.|
 T Nature and Nurture|QID|28229|M|48.67,25.14|N|(UI Alert)|
-
 A Seeking Soil|QID|28220|PRE|28229|M|48.67,25.14|N|(UI Alert)|
 A Buzzers for Baby|QID|28219|PRE|28229|M|48.82,25.71|N|From Seedling Protector.|
 C Seeking Soil|QID|28220|M|47.62,28.89|N|Run the Seedling Protector over the sparkling soil mounds.|S|
@@ -281,7 +161,6 @@ C These Roots Were Made For Stompin'|QID|28221|M|51.86,23.74|N|Kill Irontree Sto
 C Singin' in the Sun|QID|28222|M|51.78,23.83|N|Move the Sapling Protector through shafts of light.|US|
 T These Roots Were Made For Stompin'|QID|28221|M|51.81,23.61|N|UI Alert, or to Sapling Protector.|
 T Singin' in the Sun|QID|28222|M|51.81,23.61|N|UI Alert, or to Sapling Protector.|
-
 A The Last Protector|QID|28224|PRE|28221&28222|M|51.81,23.61|N|UI Alert, or from Flourishing Protector.|
 C The Last Protector|QID|28224|M|52.79,23.94|N|Kill the Withered Protector.|
 T The Last Protector|QID|28224|M|52.84,24.02|N|To the Flourishing Protector.|
@@ -299,7 +178,6 @@ T The Skull of Gul'dan|QID|28256|M|45.55,20.08|N|To Feronas Sindweller.|
 A The Fall of Tichondrius|QID|28257|PRE|28256|M|45.55,20.08|N|From Feronas Sindweller.|
 C The Fall of Tichondrius|QID|28257|NC|M|45.31,20.01|N|Again, help out.|
 T The Fall of Tichondrius|QID|28257|M|45.51,20.13|N|To Feronas Sindweller.|
-
 A Deceivers In Our Midst|QID|28261|PRE|28257|M|45.51,20.13|N|From Feronas Sindweller.|
 R Deceivers In Our Midst|ACTIVE|28261|CC|U|63419|M|43.61,18.54|N|Climb up the cliff to this point, then put on the mask. (click to continue)|
 C Deceivers In Our Midst|QID|28261|U|63419|M|42.52,19.75|N|Kill Jadefire Shifters.|
@@ -309,7 +187,6 @@ C Navarax's Gambit|QID|28264|M|44.72,29.03|N|Talk to the Druid at the top of the
 T Navarax's Gambit|QID|28264|M|43.46,28.23|N|To Huntress Selura.|
 r Repair/Restock|CC|M|43.07,28.65|N|At Ciana.|AVAILABLE|28381|
 A The Denmother|QID|28381|LEAD|28382|PRE|28264|M|44.34,28.11|N|From James Hallow.|
-
 F Talonbranch Glade|QID|28381|N|Right click and talk to the Flightmaster. She will fly you there if you use the speech bubble option.|M|43.61,28.69|
 f Talonbranch Glade|QID|28381|M|60.57,25.32|N|At Mishellena.|
 T The Denmother|QID|28381|M|61.80,26.75|N|To Denmother Ulrica.|
@@ -325,7 +202,6 @@ T Into the Clearing|QID|28384|M|56.76,18.46|N|To Alton Redding.|
 A The Shredders of Irontree|QID|28337|PRE|28384|M|56.76,18.46|N|From Alton Redding.|
 C The Shredders of Irontree|QID|28337|M|53.09,14.39|N|Go around and kill Irontree Shredders.|
 T The Shredders of Irontree|QID|28337|M|56.75,18.47|N|To Alton Redding.|
-
 A Oil and Irony|QID|28385|PRE|28337|M|56.75,18.47|N|From Alton Redding.|
 A Borrowed Bombs|QID|28386|PRE|28337|M|56.75,18.47|N|From Alton Redding.|
 R Irontree Cavern|QID|28386|M|55.54,18.92|N|Entrance of the cave is here.|
@@ -340,7 +216,6 @@ C Burnout|QID|28387|U|64301|M|55.77,12.87|N|Ignite the Oil Gushers.|
 C Bloody Wages|QID|28388|M|53.83,14.85|N|Kill Panicking Workers.|US|
 T Burnout|QID|28387|M|56.78,18.50|N|To Alton Redding.|
 T Bloody Wages|QID|28388|M|56.78,18.50|N|To Alton Redding.|
-
 A Report to the Denmother|QID|28389|PRE|28387&28388|M|56.78,18.50|N|From Alton Redding.|
 T Report to the Denmother|QID|28389|M|61.82,26.67|N|To Denmother Ulrica.|
 A The Timbermaw Tribe|QID|28392|LEAD|28338|PRE|28389|M|61.82,26.67|N|From Denmother Ulrica.|
@@ -363,10 +238,6 @@ T Deadwood of the North|QID|28338|M|63.98,10.37|N|To Nafien.|
 A Speak to Salfa|QID|28521|PRE|28338&28366|M|64.07,10.39|N|From Nafien.|
 N Deadwood Headdress Feathers|QID|8470|M|63.89,10.37|N|If you have at least 5 Deadwood Headdress Feathers, go ahead and turn them into Nafien for rep.|
 T Deadwood Ritual Totem|QID|8470|M|64.61,5.22|N|To Kernda.|
-
 N This ends|N|The Felwood guide, the next guide goes to Winterfall, close this step to continue.|
 ]]
-
 end)
-
-

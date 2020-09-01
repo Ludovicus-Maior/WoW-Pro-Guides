@@ -1,40 +1,9 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/node/3667
--- Date: 2018-10-17 02:25
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3667/revisions/27929/view
--- Date: 2016-10-17 15:28
--- Who: tubera
--- Log: Fix spelling error;Add U tag to second step
-
--- URL: http://wow-pro.com/node/3667/revisions/27928/view
--- Date: 2016-10-17 15:27
--- Who: tubera
--- Log: Fix spelling error;Add U tag to second step
-
--- URL: http://wow-pro.com/node/3667/revisions/27588/view
--- Date: 2016-09-14 08:57
--- Who: Emmaleah
--- Log: Added Icon to registration; Added Jump to DH guide. changed C In the blink of an eye to Dalaran@DeadwindPass
-
--- URL: http://wow-pro.com/node/3667/revisions/27564/view
--- Date: 2016-08-20 00:02
--- Who: Emmaleah
-
 local guide = WoWPro:RegisterGuide('EmmLegionIntro_H', 'Leveling', 'Dalaran@Dalaran70', 'Emmaleah', 'Horde')
 WoWPro:GuideName(guide, 'Horde Legion Intro')
-WoWPro:GuideLevels(guide,98, 98, 98.0)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, nil)
-WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_BrokenShore")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 A The Legion Returns|QID|43926|M|49.68,76.69|Z|Orgrimmar|N|From UI Alert.|
 C Travel to Orgrimmar|QID|43926|NC|N|A clickable portal has been provided or travel by whatever means you choose.|U|132119|
 T The Legion Returns|QID|43926|M|46.01,13.94|Z|Durotar|N|To Holgar Stormaxe.|
@@ -79,7 +48,6 @@ A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadga
 C In the Blink of an Eye|QID|44663|NC|QO|1|M|45.33,62.57|Z|Orgrimmar|N|Run(Fly) down into the Cleft of Shadows and take the Portal to Dalaran.|
 C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
 T In the Blink of an Eye|QID|44663^44184|M|57.12,45.84|Z|Dalaran@Dalaran70|N|To Emissary Auldbridge.|
-
 D On to Class Halls|N|This ends the intro scenario and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends the intro scenario and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|EmmLegionDK|
 D On to Class Halls|N|This ends the intro scenario and the Demon Hunter order hall guide will load.|C|DemonHunter|GUIDE|LinksDHArtCH100100|
@@ -92,8 +60,5 @@ D On to Class Halls|N|This ends the intro scenario and the Rogue order hall guid
 D On to Class Halls|N|This ends the intro scenario and the Shaman order hall guide will load.|C|Shaman|GUIDE|EmmLegionShaman|
 D On to Class Halls|N|This ends the intro scenario and the Warlock order hall guide will load.|C|Warlock|GUIDE|EmmLegionWarlock|
 D On to Class Halls|N|This ends the intro scenario and the Warrior order hall guide will load.|C|Warrior|GUIDE|EmmLegionWarrior|
-
 ]]
 end)
-
-

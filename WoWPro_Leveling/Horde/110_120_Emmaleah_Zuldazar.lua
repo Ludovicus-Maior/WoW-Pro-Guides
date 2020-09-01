@@ -1,244 +1,19 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/bfa_zuldazar
--- Date: 2020-07-10 00:43
--- Who: Ludovicus_Maior
--- Log: Oh, Seeker's Outpost
-
--- URL: http://wow-pro.com/node/3762/revisions/30569/view
--- Date: 2020-07-10 00:39
--- Who: Ludovicus_Maior
--- Log: Add missing Z tag to Spoils of Pandaria|QID|49936
-
--- URL: http://wow-pro.com/node/3762/revisions/30533/view
--- Date: 2020-05-12 23:39
--- Who: Ludovicus_Maior
--- Log: Pomegranate of Pain: ravasaur needs a rank|2 and [Pet Opportunity] needs a PRE|47310 .
-
--- URL: http://wow-pro.com/node/3762/revisions/30532/view
--- Date: 2020-05-12 21:21
--- Who: Ludovicus_Maior
--- Log: @Pomegranate of Pain: [The Zanchuli Counci] is required for the zone acheiv.  Remove RANK|2
-
--- URL: http://wow-pro.com/node/3762/revisions/30523/view
--- Date: 2020-05-01 20:27
--- Who: Ludovicus_Maior
--- Log: Cagomei: Put ACTIVE tags instead of QID tags on lots of K steps.
-
--- URL: http://wow-pro.com/node/3762/revisions/30511/view
--- Date: 2020-04-08 19:12
--- Who: Ludovicus_Maior
--- Log: [Held For Observation], Who Seeks the Seekers?], [Inform the Horde!]
-
--- URL: http://wow-pro.com/node/3762/revisions/30239/view
--- Date: 2019-03-18 20:52
--- Who: Emmaleah
--- Log: deleted out sections covered by Endgame Guide added J to same. Reworked Rares and Treasures Notes.
-
--- URL: http://wow-pro.com/node/3762/revisions/30232/view
--- Date: 2019-03-08 19:29
--- Who: Emmaleah
--- Log: Fixed some errors Essence noted on Discord (coordinates for Wavesinger Dezan, The Zocolo, and K Warmother and R Zandalar forever being visable when they shouldn't be)
-
--- URL: http://wow-pro.com/node/3762/revisions/30214/view
--- Date: 2019-02-02 19:55
--- Who: Emmaleah
--- Log: added |V| tag (replacing NC in most cases)
-
--- URL: http://wow-pro.com/node/3762/revisions/30179/view
--- Date: 2019-01-05 09:12
--- Who: Emmaleah
--- Log: correct invalid PRE tag. Add Mugambala flight point.
-
--- URL: http://wow-pro.com/node/3762/revisions/30141/view
--- Date: 2018-11-28 19:21
--- Who: Emmaleah
--- Log: added S!US|M|71.50,30.36| to t The Great Sea Scrolls
-
--- URL: http://wow-pro.com/node/3762/revisions/30064/view
--- Date: 2018-10-20 21:24
--- Who: elidion
--- Log: reworded a line so it wouldn't end with "end"
-
--- URL: http://wow-pro.com/node/3762/revisions/30062/view
--- Date: 2018-10-20 21:10
--- Who: elidion
--- Log: removed spaces between &
-
--- URL: http://wow-pro.com/node/3762/revisions/30060/view
--- Date: 2018-10-20 20:48
--- Who: elidion
--- Log: Fixed a few AND/OR errors and rogue line error.
-
--- URL: http://wow-pro.com/node/3762/revisions/29962/view
--- Date: 2018-10-17 02:26
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3762/revisions/29806/view
--- Date: 2018-09-23 11:50
--- Who: Emmaleah
--- Log: RANK 3 play thru. Many tweaks, involving notes, NC tags,  C's converted to K steps. etc
-
--- URL: http://wow-pro.com/node/3762/revisions/29684/view
--- Date: 2018-09-06 04:41
--- Who: jovieve
--- Log: Removed QO|1 tag, even though Ludo built in fault tolerance.
-
--- URL: http://wow-pro.com/node/3762/revisions/29682/view
--- Date: 2018-09-05 11:24
--- Who: Emmaleah
--- Log: Changed lots of C go kill this thing to K Mob Name, fixed |Z| for Seeking the Seeker; various other fixes based on about 1/3 of the way thru the zone with rank 3.
-
--- URL: http://wow-pro.com/node/3762/revisions/29569/view
--- Date: 2018-08-22 20:04
--- Who: Emmaleah
--- Log: Minor tweaks, finished playtest on live - Rank 1.
-
--- URL: http://wow-pro.com/node/3762/revisions/29564/view
--- Date: 2018-08-21 03:16
--- Who: Emmaleah
--- Log: fix missing QO2 in Pa'ku's quest. Other various fixes including the accidently left off last 20 or so lines of last guide, added lvl 120 part of juvenile direhorn quest
-
--- URL: http://wow-pro.com/node/3762/revisions/29561/view
--- Date: 2018-08-19 23:54
--- Who: Ludovicus_Maior
--- Log: Add Z tag to R Terrace of the Speakers.
-
--- URL: http://wow-pro.com/node/3762/revisions/29559/view
--- Date: 2018-08-19 21:06
--- Who: Emmaleah
--- Log: PRES/RANKS all done but untested. Jani's 2 bring me shinys still 2 be added after I find QID
---	also need to check on 5 quests that may need added (3 lvl 120/2 lead in) based on comparison to wowhead(a few others on wowhead are not included as they are mutually exclusive lead in quests)
-
--- URL: http://wow-pro.com/node/3762/revisions/29558/view
--- Date: 2018-08-19 19:10
--- Who: Ludovicus_Maior
--- Log: Small playthrough tweaks.
-
--- URL: http://wow-pro.com/node/3762/revisions/29506/view
--- Date: 2018-08-13 16:56
--- Who: Emmaleah
--- Log: Minor Changes to comments, added some PREs
-
--- URL: http://wow-pro.com/node/3762/revisions/29481/view
--- Date: 2018-08-07 11:01
--- Who: Emmaleah
--- Log: Tested. Ready to go. Contains all needed for achievements for explore, treasure, rare mobs and of course the zone questing ach. The only thing left is PREs are not all consistantly entered. Leaving that for Grail to yell about. And Ranks not all done. (ie. things that ought to be rank 2 or 3 have not all been marked as such.) Also farming spots for Jani's shinys are not included. (The Jani quests are)
-
--- URL: http://wow-pro.com/node/3762/revisions/29477/view
--- Date: 2018-08-05 12:08
--- Who: Emmaleah
--- Log: Rearranged order of many areas. All rares now included. tested thru Gorilla Gorge. (about half way) Still needs RANKS/PREs
-
--- URL: http://wow-pro.com/node/3762/revisions/29476/view
--- Date: 2018-08-04 20:35
--- Who: Emmaleah
--- Log: Ttotal rewrite from the beginning. Some rearranging comments are included, for how I think it would flow better -- to test -- All Treasures, Exploration, and all but 4 rares (Syrawon, Bloodbulge, Darkspear Jo'la and Vukuba) are included. Ranks still WIP
-
--- URL: http://wow-pro.com/node/3762/revisions/29387/view
--- Date: 2018-07-03 02:45
--- Who: Emmaleah
--- Log: updated next guide
-
--- URL: http://wow-pro.com/node/3762/revisions/29371/view
--- Date: 2018-06-25 20:11
--- Who: Emmaleah
--- Log: adjust header and first few steps to match up with Intro Guide
-
--- URL: http://wow-pro.com/node/3762/revisions/29317/view
--- Date: 2018-05-25 18:58
--- Who: Emmaleah
--- Log: added source page header
-
--- URL: http://wow-pro.com/node/3762/revisions/29313/view
--- Date: 2018-05-14 23:56
--- Who: Taronlock
-
--- URL: http://wow-pro.com/node/3762/revisions/29307/view
--- Date: 2018-05-13 05:53
--- Who: Emmaleah
--- Log: added standard text at top for Wiki page
-
--- URL: http://wow-pro.com/node/3762/revisions/29299/view
--- Date: 2018-05-12 16:33
--- Who: Taronlock
-
--- URL: http://wow-pro.com/node/3762/revisions/29298/view
--- Date: 2018-05-12 16:24
--- Who: Taronlock
-
--- URL: http://wow-pro.com/node/3762/revisions/29297/view
--- Date: 2018-05-12 16:21
--- Who: Taronlock
-
--- URL: http://wow-pro.com/node/3762/revisions/29296/view
--- Date: 2018-05-12 16:18
--- Who: Taronlock
-
--- URL: http://wow-pro.com/node/3762/revisions/29294/view
--- Date: 2018-05-11 16:28
--- Who: Taronlock
-
--- URL: http://wow-pro.com/node/3762/revisions/29288/view
--- Date: 2018-05-10 19:34
--- Who: Taronlock
-
--- URL: http://wow-pro.com/node/3762/revisions/29286/view
--- Date: 2018-05-10 18:43
--- Who: Taronlock
-
--- URL: http://wow-pro.com/node/3762/revisions/29285/view
--- Date: 2018-05-10 18:19
--- Who: Taronlock
-
--- URL: http://wow-pro.com/node/3762/revisions/29284/view
--- Date: 2018-05-10 18:06
--- Who: Taronlock
-
--- URL: http://wow-pro.com/node/3762/revisions/29283/view
--- Date: 2018-05-10 17:54
--- Who: Taronlock
-
--- URL: http://wow-pro.com/node/3762/revisions/29282/view
--- Date: 2018-05-10 17:47
--- Who: Taronlock
-
--- URL: http://wow-pro.com/node/3762/revisions/29281/view
--- Date: 2018-05-10 16:16
--- Who: Taronlock
-
--- URL: http://wow-pro.com/node/3762/revisions/29280/view
--- Date: 2018-05-10 15:24
--- Who: Taronlock
-
--- URL: http://wow-pro.com/node/3762/revisions/29278/view
--- Date: 2018-05-10 14:51
--- Who: Ludovicus_Maior
-
 local guide = WoWPro:RegisterGuide('EmmZuldazar', 'Leveling', 'Zuldazar', 'Emmaleah', 'Horde')
-WoWPro:NewGuideLevels(guide,110, 120, 111)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'EmmHWarCampaign')
 WoWPro:GuideAutoSwitch(guide)
-WoWPro:GuideIcon(guide,"ACH",11861)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 t The Great Sea Scrolls|QID|53476|S!US|M|71.50,30.36|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
 N Use of Ranks|N|Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done with the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
 ;also most don't have thier QID for both QIDs. going to need to kill with a 120 and a non 120 to get that. (or wait for wowhead to have it - but it's not there now 8/12/18)
 N Rares (aka Silver Elite)|ACH|12944|N|Rares are not truely rare, they will respawn within a few minutes of being killed, so if it isn't there, stick around a minute or two and it will be. Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to. If you want the guide to not tell you about rares at all, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable rares box). |
 N Traesure|ACH|12851|N|The majority of the treasure chests in Zuldazar are first come, respawning randomly.  There are a few one time treasures, If you want the guide to skip treasures, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable treasures box).
-
 T Zuldazar|QID|47514|M|57.80,44.31|N|To Princess Talanji.|
 A Trust of a King|QID|49615|M|57.80,44.31|N|From Princess Talanji.|PRE|47514|
 A The War Campaign|QID|52749|M|40.11,71.67|Z|Hall of Croniclers!Dazar'alor|NA|N|From Nathanos Blightcaller. No rush to turn this in before level 112.|
 h The Great Seal|ACTIVE|49615|M|48.78,71.83|Z|The Great Seal!Dazar'alor|N|Set your hearthstone at Innkeeper Brillin the Beauty for convenient access to the portals and repeated trips to turn in quests.|
-
 R The Golden Throne|ACTIVE|49615|M|22.83,72.75;29.17,63.33|Z|Hall of Croniclers!Dazar'alor|CS|N|Take the Elevator up to the Throne Area.|
 T Trust of a King|QID|49615|M|49.94,46.64|Z|Dazar'alor|N|To King Rastakhan.|
 A Tal'gurub|QID|49488|M|49.94,46.64|Z|Dazar'alor|N|From King Rastakhan.|PRE|49615|
@@ -290,7 +65,6 @@ T Punishment of Tal'aman|QID|46927|M|50.02,84.76|Z|Dazar'alor|N|To Yazma.|
 T Punishment of Tal'farrak|QID|46928|M|50.10,84.78|Z|Dazar'alor|N|To Yazma.|
 T Deterrent|QID|46929|M|50.02,85.13|Z|Dazar'alor|N|To Zolani.|
 A Royal Report|QID|50881|M|50.02,85.13|Z|Dazar'alor|N|From Zolani.|PRE|46929&46927&46928|
-
 H The Great Seal|ACTIVE|47445|M|50.02,85.13|Z|Dazar'alor|N|Back up, so you can run back down..., but it really does save some time.|
 R The Sliver|ACTIVE|47445|M|50.99,39.99;50.42,37.00;51.78,36.33;50.14,35.30;52.43,35.18;54.46,37.55;54.66,31.88;58.16,25.67|Z|Dazar'alor|CS|N|Run down many MANY staircases until you arrive in The Sliver|
 $ Cache of Secrets|QID|51338|M|44.47,26.90|Z|Dazar'alor|N|Swim over to the Hall of Golems to recover a treasure.|RANK|2|
@@ -338,7 +112,6 @@ C Pa'ku, Master of Winds|QID|47440|M|71.48,49.34|QO|2|CHAT|N|Attempt to bargain 
 C Pa'ku, Master of Winds|QID|47440|M|71.06,49.16|QO|3|NC|N|Jump off the cliff.|
 T Pa'ku, Master of Winds|QID|47440|M|49.92,33.38|Z|Dazar'alor|N|To Hexlord Raal.|
 A The Bargain is Struck|QID|47432|M|49.92,33.38|Z|Dazar'alor|N|From Hexlord Raal.|PRE|47440|
-
 R Flightmaster, The Great Seal|ACTIVE|47432|PRE|47440|M|49.92,33.38|Z|Dazar'alor|TZ|Dazar'alor|N|Use Pa'ku's totem for a quick ride up to the Flightmaster.|
 H The Great Seal|ACTIVE|47439|N|Use your hearthstone (or run) to return to the Great Seal.|
 A Nesingwary's Trek|QID|49768|M|52.03,41.40|Z|Dazar'alor|N|From Huntmaster Kil'ja.|RANK|2|
@@ -383,7 +156,6 @@ C Plot Twist|QID|49905|M|65.63,30.75|QO|1|NC|N|Wait for speechifying to end.|
 K Vol'jamba|ACTIVE|49905|T|Vol'jamba|M|65.65,30.70|QO|2|N|Kill Vol'jamba, many adds during the fight, also the NPCs you freed earlier come to assist you.|
 T Plot Twist|QID|49905|M|65.58,30.50|N|To Zul the Prophet.|
 A False Prophecies|QID|49663|M|65.58,30.50|N|From Zul the Prophet.|PRE|49905|
-
 R Savagelands|AVAILABLE|49810|M|67.25,30.65|N|Down and Across the small Valley to next area.|RANK|2|
 K Umbra'jin|QID|47567|M|70.31,32.98;71.46,32.35|CS|QO|1|RARE|ITEM|161091|T|Umbra'jin|N|Silver Elite to kill for azerite power and resources.|RANK|2|
 R Scaletrader Post|AVAILABLE|49810|M|70.79,29.60|N|Up the hill to grab the flightpoint.|RANK|2|
@@ -433,7 +205,6 @@ H The Great Seal|ACTIVE|50881|M|52.09,90.14|N|Hearth or run over to The Sliver a
 R The Golden Throne|ACTIVE|50881|M|74.39,72.17;68.22,59.67|Z|Hall of Croniclers!Dazar'alor|CS|N|Up the Elevator to the Golden Throne.|
 T Royal Report|QID|50881|M|50.02,46.55|Z|Dazar'alor|N|To Habutu.|
 T False Prophecies|QID|49663|M|49.92,46.66|Z|Dazar'alor|N|To King Rastakhan.|
-
 A The Missing Handler|QID|50538|M|67.17,71.58|Z|Hall of Croniclers!Dazar'alor|N|Back down the elevator, from Natal'hakata.|RANK|2|PRE|50881|LEAD|47226|
 F Port of Zandalar|ACTIVE|50538|M|51.92,41.21|Z|Dazar'alor|N|At Paku'ai Rokota.|TZ|Grand Bazaar|
 R The Slough|ACTIVE|50538|M|83,72.87;56.10,71.77|Z|Dazar'alor|CS|N|Run up the stairs and turn right on the Terrace of the Speakers and circle around the outside edge of Dazar'alor.|
@@ -444,7 +215,6 @@ C The Great Hat Robbery|QID|50381|QO|1|M|61.93,46.95|NC|N|Ask Jani for a disguis
 C The Great Hat Robbery|QID|50381|QO|2|M|62.91,47.30|NC|N|After the third bite, Tik'su will dismount. Click on him to steal his hat.|
 C The Great Hat Robbery|QID|50381|QO|3|M|61.93,46.95|NC|N|Run back to Jani with the hat.|
 T The Great Hat Robbery|QID|50381|M|61.93,46.95|N|To Jani.|
-
 T The Missing Handler|QID|50538|M|64.25,44.58|N|To Handler Bazkoji.|LEAD|47226|
 A The Orphaned Hatchling|QID|47226|M|64.33,44.69|N|From Direhorn Hatchling.|RANK|2|
 f Warbeast Kraal|ACTIVE|47226|M|67.26,43.03|N|At Paku'ai Verraki.|
@@ -500,8 +270,8 @@ T A Good Spanking|QID|48581|M|66.81,42.51|N|To Beastlord L'kala.|
 A Naptime|QID|47310|M|66.81,42.51|N|From Beastlord L'kala.|RANK|2|PRE|48581|
 C Naptime|QID|47310|M|68.29,42.05|NC|N|Click on the gates to send your Juvenile Direhorn into the "stable"|
 T Naptime|QID|47310|M|66.79,42.50|N|To Beastlord L'kala.|
-N Pet Opportunity|QID|47260|LVL|120|N|After you are lvl 120, you will get a letter inviting you back and in 3 more quests you will have your new pet.|PRE|47310|
-A Side Effects May Include...|QID|47260|M|68.14,41.81|N|From Direhorn Juvinile where you left him taking a nap.|LVL|120|PRE|47310|
+N Pet Opportunity|QID|47260|N|After you are lvl 120, you will get a letter inviting you back and in 3 more quests you will have your new pet.|PRE|47310|
+A Side Effects May Include...|QID|47260|M|68.14,41.81|N|From Direhorn Juvinile where you left him taking a nap.|PRE|47310|
 T Side Effects May Include...|QID|47260|M|66.81,42.56|N|To Beastlord L'kala.|
 A Alchemy is an Inexact Science|QID|52855|M|66.81,42.56|N|From Trader Alexxi Cruzpot.|PRE|47260|
 R Savagelands|ACTIVE|52855|M|70.50,35.27|N|Mount up its a bit of a run to find the needed reagents.|
@@ -511,7 +281,6 @@ T Alchemy is an Inexact Science|QID|52855|M|66.81,42.58|N|To Trader Alexxi Cruzp
 A Held For Observation|QID|52857|M|66.81,42.56|N|From Trader Alexxi Cruzpot.|PRE|52855|
 C Held For Observation|QID|52857|M|68.14,41.81|U|162589|NC|N|Give your Direhorn Juvenile the remedy.|
 T Held For Observation|QID|52857|M|66.81,42.56|N|To Beastlord L'kala.|
-
 F Scaletrader Post|ACTIVE|49768|M|67.26,43.03|N|At Paku'ai Verraki.|
 R Nesingwary's Trek|ACTIVE|49768|M|69.23,27.56;68.53,23.01;67.91,21.19;67.54,18.00|CS|N|And on to find Nesingwary.|RANK|2|
 A Hunt for King K'tal|QID|47706|M|67.46,17.92|N|From Hunter's Board.|RANK|2|PRE|49768|
@@ -559,13 +328,11 @@ K Feathered Viper|QID|50431|M|62.73,20.58|L|157794|N|Kill the feathered vipers i
 $ Mysterious Trashpile|QID|50431|M|62.73,20.58|ITEM|157794|N|Click on the trashpile to attract Jani. Give him the Shiny and he will give a treasure in return.|RANK|3|
 C Trouble in the Rootway|QID|50178|M|62.87,19.95|US|N|Finish the Bonus Objective or move on.|
 T Trouble in the Rootway|QID|50178|M|62.87,19.95|N|Bonus Objective - Autocompleted.|
-
 A WANTED: Darkspeaker Jo'la|QID|51069|M|63.740,10.18|N|From Wanted Poster.|RANK|3|
 K Darkspeaker Jo'la|QID|50693^51069|M|65.28,10.28|QO|1|RARE|ITEM|160958|T|Darkspeaker Jo'la|N|Silver Elite to kill for azerite power and resources.|RANK|3|
 K Ten'gor and Nol'ixwan|ACTIVE|51091|M|61.55,24.98|QO|1|T|Ten'gor|N|This is meant to be a group quest, so you may want help.|RANK|2|
 t WANTED: Darkspeaker Jo'la|QID|51069|M|67.51,17.63|N|To Huntmaster Vol'ka.|
 t WANTED: Ten'gor and Nol'ixwan|QID|51091|M|67.51,17.63|N|To Huntmaster Vol'ka.|
-
 F The Sliver|ACTIVE|47439|M|66.18,17.58|N|At Lasa the Galerider.|
 R Garden of the Loa|ACTIVE|47439|M|35.47,4.88;52.40,30.70|CS|N|Run generally NW, up the stairs, through The Zocalo and out of the city.|
 C Gonk, Lord of the Pack|QID|47439|M|48.19,32.27|QO|1|CHAT|N|Tell Gonk you will bargain.|
@@ -576,7 +343,6 @@ A The Bargain is Struck|QID|48897|M|49.89,33.34|Z|Dazar'alor|N|To Wardruid Loti.
 R The Golden Throne|ACTIVE|48897|M|49.92,46.66|Z|Dazar'alor|N|Run up to see King Rastakhan.|
 T The Bargain is Struck|QID|47432^48897|M|49.92,46.66|Z|Dazar'alor|N|To King Rastakhan.|
 A A Port in Peril|QID|49122|M|49.92,46.66|Z|Dazar'alor|N|From King Rastakhan.|PRE|50881|
-
 F Port of Zandalar|ACTIVE|49122|M|51.92,41.20|Z|Dazar'alor|N|At Paku'ai Rokota.|TZ|Grand Bazaar|
 R The Mugambala|ACTIVE|49122|M|53.73,56.29|N|Run thru Mugambala and continue on the path to find Habutu and Zolani at Warport Rastari.|
 f The Mugambala|ACTIVE|49122|M|53.34,57.33|N|At Paku'ai Chal.|
@@ -619,7 +385,6 @@ T The Prophet's Ploy|QID|49310|M|41.28,72.33|Z|Hall of Croniclers!Dazar'alor|N|T
 A Terrace of the Chosen|QID|47509|M|41.28,72.33|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|PRE|49310|
 A The Wounded King|QID|51101|M|41.28,72.33|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|PRE|49310|
 A Kaja'mite? Kaja'must!|QID|49917|M|67.28,83.58|Z|Hall of Croniclers!Dazar'alor|N|From Nok'tal.|RANK|2|PRE|49310|
-
 ;Web of Lies
 R Terrace of Crafters|ACTIVE|47509|M|43.09,34.59|Z|Dazar'alor|N|Run down many sets of stairs until you come to the Terrace of the Crafters.|
 T Terrace of the Chosen|QID|47509|M|42.64,21.33|Z|Dazar'alor|N|To Kaza'jin the Wavebinder.|
@@ -655,13 +420,11 @@ T Rituals of Heresy|QID|47527|M|48.23,29.24|N|Bonus Objective. Autocompleted.|
 T Mistress of Lies|QID|47528|M|48.57,26.79|N|To Wardruid Loti.|
 f Garden of the Loa|ACTIVE|47528|M|49.74,26.27|N|At Paku'ai Rip'nata.|
 $ Gift of the Brokenhearted|QID|50582|M|51.43,26.61|N|No symbol on map, Click the incense to cause chest to appear. Loot for azerite power and resources.|RANK|2|
-
 R Old Merchant Road|ACTIVE|49917|M|46.91,26.71;47.47,33.47;49.21,44.98;50.68,46.27;51.01,44.39|CS|N|Follow the dotted path until you get to the Old Merchant Road. Continue down it.|;path may have some backtracking . some coords in teh middle may need deleted
 A WANTED: Prime Thumpknuckle|QID|51072|M|51.62,45.43|N|From Wanted Poster.|RANK|2|
 A WANTED: Sabertusk Empress|QID|51071|M|51.62,45.43|N|From Wanted Poster.|RANK|2|
 K Prime Thumpknuckle|ACTIVE|51072|M|52.32,45.12|QO|1|T|Prime Thumpknuckle|N|Kill Prime Thumpknuckle. He wanders around a bit, his cave is located here.  This is meant to be a group quest.|RANK|2|
 $ Riches of Tor'Nowa|QID|51624|M|52.22,48.17;52.94,47.20|CS|N|Take this small path to find some treasure. Loot for azerite power and resources.|RANK|2|
-
 R Village in the Vines|ACTIVE|49917|M|52.88,50.54|N|Run back to the Old Merchant Road and continue following it roughly south to The Village in the Vines.|
 T Kaja'mite? Kaja'must!|QID|49917|M|51.60,50.58|N|To Bently Greaseflare.|
 A Kaja'mite Ore Bust|QID|49919|M|51.60,50.58|N|From Bently Greaseflare.|RANK|2|
@@ -669,7 +432,6 @@ A King Da'ka|QID|49922|M|51.60,50.58|N|From Bently Greaseflare.|RANK|2|
 t WANTED: Prime Thumpknuckle|QID|51072|M|51.65,50.54|N|To Shaz'ki.|
 t WANTED: Sabertusk Empress|QID|51071|M|51.65,50.54|N|To Shaz'ki.|
 K Syrawon the Dominus|QID|51080|M|53.43,48.20;53.93,44.84;53.42,44.67|CS|QO|1|RARE|ITEM|161047|T|Syrawon the Dominus|N|Follow the footpath up the Kingsmouth River to assist our good friends Tehd and Marius with a Silver Elite demon. Kill her for azerite power and resources.|RANK|3|
-
 R Gorilla Gorge|ACTIVE|49919|M|52.47,51.84;51.36,53.83|CS|N|A little farther down the road and around the corner.|
 A Gorilla Gorge|QID|49918|M|51.54,52.97|N|Bonus Objective. Autoaccepted.|LVL|-120|RANK|2|
 C Gorilla Gorge|QID|49918|M|51.54,52.97|S|N|Bonus Objective. Kill Gorillas as you go.|
@@ -688,7 +450,6 @@ T Kaja'mite Ore Bust|QID|49919|M|51.60,50.57|N|To Bently Greaseflare.|
 T King Da'ka|QID|49922|M|51.60,50.57|N|To Bently Greaseflare.|
 T WANTED: Prime Thumpknuckle|QID|51072|M|51.65,50.54|N|To Shaz'ki.|
 T WANTED: Sabertusk Empress|QID|51071|M|51.65,50.54|N|To Shaz'ki.|
-
 H The Great Seal|AVAILABLE|52210|N|If your hearth is available and set to Zuldazar, if not, run to one of the nearby flightpoints.|
 A Sending Out An SOS|QID|52210|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|RANK|2|
 A Keep Them On Task|QID|51555|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|RANK|2|
@@ -720,7 +481,6 @@ T Destroy the Weapon|QID|49785|M|57.80,76.68|N|To Captain Grez'ko.|
 A Hope's Blue Light|QID|49884|M|57.80,76.68|N|From Captain Grez'ko.|RANK|2|
 C Hope's Blue Light|QID|49884|M|57.78,76.68;60.84,75.27|CS|V|N|Hop on the Captain's mount and fly up to light the Signal Fire. Press the "1" key when you are close to the top of the tower.|
 T Hope's Blue Light|QID|49884|M|44.49,95.43|Z|Dazar'alor|N|To Captain Rez'okun.|
-
 F Port of Zandalar|ACTIVE|51101|M|51.91,41.20|Z|Dazar'alor|N|At Paku'ai the Ro'kata.|TZ|Grand Bazaar|RANK|-1|
 A Who Seeks the Seekers?|QID|49283|M|57.76,92.28|Z|Dazar'alor|N|From Sholo.|RANK|2|
 b Seeker's Outpost|ACTIVE|51101|M|52.79,95.77|Z|Dazar'alor|N|Ask Wavesinger De'zan for a ride in his boat.|
@@ -763,7 +523,6 @@ T Find Their Words|QID|51407|M|70.56,64.87|N|To Akru.|
 A A Different Outcome|QID|50331|M|70.56,64.87|N|From Akru.|RANK|2|PRE|51407|
 b Atal'Gral|ACTIVE|51101|M|69.49,66.99|N|Take the boat from Wavespeaker Zara.|
 T A Different Outcome|QID|50331|M|81.35,45.80|N|To Rokor.|
-
 A The Scrolls of Gral|QID|48015|M|81.35,45.80|N|From Rokor.|RANK|2|PRE|50331|
 A Clear the Riffraff|QID|48014|M|81.35,45.80|N|From Rokor.|RANK|2|PRE|50331|
 C Clear the Riffraff|QID|48014|M|80.01,43.83|S|N|Kill the Brackfin Gilbin as you head towards the Seeker's Expidition encampment.|
@@ -792,10 +551,8 @@ A Word from the Deep|QID|51538|M|83.60,44.20|N|From Spirit of Gral.|PRE|48026|RA
 T Word from the Deep|QID|51538|M|79.19,42.09|N|To Scrollsage Goji.|
 A Inform the Horde!|QID|51539|M|79.19,42.09|N|From Scrollsage Goji.|PRE|51538|RANK|2|
 T Saving for Later|QID|48025|M|79.19,42.09|N|To Scrollsage Goji.|
-
 K Kiboku|QID|50159|M|75.67,35.96|RARE|ITEM|161112|QO|1|T|Kiboku|N|Silver Elite to kill for azerite power and resources.|RANK|3|
 K Daggerjaw|QID|50269|M|74.84,39.33;74.26,39.23|CS|RARE|ITEM|160952|QO|1|T|Daggerjaw|N|Silver Elite to kill for azerite power and resources.|RANK|3|
-
 R Talanji's Rebuke|ACTIVE|51555|M|79.51,44.42;78.28,47.65|CS|N|Follow the road southeast to Talanji's Rebuke.|RANK|2|
 T Keep Them On Task|QID|51555|M|76.61,48.54|N|To Lieutenant Dennis Grimtale.|
 A The Wreckoning|QID|51246|M|76.61,48.54|N|From Lieutenant Dennis Grimtale.|RANK|2|
@@ -821,7 +578,6 @@ C Stop the Evacuation|QID|51286|M|80.16,57.05|QO|1|NC|N|Place Seaforium Bomb in 
 T Stop the Evacuation|QID|51286|M|76.61,48.52|N|To Lieutenant Dennis Grimtale.|
 R Atal'Gral|ACTIVE|51101|M|82.44,46.83|N|Run back to the beach to catch a boat ride to Zeb'ahari.|RANK|2|
 b Zeb'ahari|ACTIVE|51101|M|82.44,46.83|N|Ask Wavesinger Rekan for a ride on his boat.|
-
 ;Among the People
 f Zeb'ahari|ACTIVE|51101|M|77.36,15.35|N|At Paku'ai Jasi.|
 T The Wounded King|QID|51101|M|76.69,16.26|N|To Zolani.|
@@ -872,7 +628,6 @@ T Zul's Mutiny|QID|47742|M|76.66,16.13|N|Up out of the ship and back to King Ras
 T Rastakhan's Might|QID|51678|M|76.66,16.13|N|To King Rastakhan.|
 T A Strange Port of Call|QID|51679|M|76.66,16.13|N|To King Rastakhan.|
 A The Temple of Rezan|QID|47737|M|76.66,16.13|N|From King Rastakhan.|PRE|51679&51678&47742|
-
 R The Preserve|ACTIVE|47737|M|73.72,20.79|N|Run up the hill to meet King Rastakhan in The Preserve.|
 T The Temple of Rezan|QID|47737|M|72.03,21.03|N|To King Rastakhan.|
 A House of the King|QID|47740|M|72.03,21.03|N|From King Rastakhan.|PRE|47737|
@@ -902,7 +657,6 @@ A King or Prey|QID|51111|M|70.98,29.90|N|From King Rastakhan.|PRE|47741|
 t The Great Sea Scrolls|QID|53476|M|71.50,30.38|N|To Collector Kojo|
 f Scaletrader Post|ACTIVE|51111|M|70.77,29.59|N|At Scroll of Flight.|RANK|-1|
 H The Great Seal|ACTIVE|51111|M|70.77,29.59|N|Use your hearthstone or take the flightpath at Scroll of Flight.|
-
 T Inform the Horde!|QID|51539|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|RANK|2|
 T King or Prey|QID|51111|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 A Hunting Zul|QID|49421|M|41.56,72.42|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof.|
@@ -929,7 +683,6 @@ C The King's Gambit|QID|49426|M|42.16,39.26|QO|1|NC|N|Follow Rezan into Atal'Daz
 C The King's Gambit|QID|49426|M|42.03,39.44|QO|2|CHAT|N|Ask Rastakhan what next?, then watch the scene play out.|
 C The King's Gambit|QID|49426|M|42.76,37.45|QO|3|NC|N|Don't stop running until you get to Gonk.|
 T The King's Gambit|QID|49426|M|42.72,37.66|N|To King Rastakhan.|
-
 A Atal'Dazar: Yazma the Fallen Priestess|QID|49901|M|42.72,37.66|NA|N|From King Rastakhan.|PRE|49426|
 A Of Dark Deeds and Dark Days|QID|50963|M|42.72,37.66|N|From King Rastakhan.|PRE|49426|
 K Hakbi the Risen|QID|50677|M|42.00,36.19|QO|1|RARE|ITEM|160978|T|Hakbi the Risen|N|Silver Elite to kill for azerite power and resources.|RANK|2|
@@ -942,7 +695,6 @@ t Atal'Dazar: Yazma the Fallen Priestess|QID|49901|M|41.22,66.92|Z|Hall of Croni
 A The Blood Gate|QID|47199|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|Baine Bloodhoof. This quest requires you have completed the zone achievement for Nazmir as well as Zandalar. The completion of this quest is included in the end game storyline guide.|PRE|50963&50808|;not spurious - necesary for guide flow
 A Sandscar Breach|QID|49940|M|67.00,71.58|Z|Hall of Croniclers!Dazar'alor|N|From Natal'hakata.|RANK|2|
 A The Bones of Xibala|QID|47257|M|69.89,47.50|Z|Hall of Croniclers!Dazar'alor|N|From Chronicler To'kini.|RANK|3|
-
 F Warport Rastari|ACTIVE|47257|M|51.89,41.21|Z|Dazar'alor|N|At Paku'ai Rokota.|RANK|3|
 b Xibala|ACTIVE|47257|M|53.69,61.56|N|Ask Wavesinger Amon for a ride to Xibala|RANK|3|
 f Xibala|ACTIVE|47257|M|44.84,72.25|N|At Eliara Duskwing.|RANK|3|
@@ -983,7 +735,6 @@ C A Dark (Iron) Tide|QID|48399|M|40.00,72.51|US|N|Finish off your share of the D
 t WANTED: Dark Chronicler|QID|51087|M|43.91,72.11|N|To Examiner Tae'shara Bloodwatcher.|
 T A Dark (Iron) Tide|QID|48399|M|44.41,72.11|N|To Apprentice Telemancer Astrandis.|
 T Grand Theft Telemancy|QID|48400|M|44.41,72.11|N|To Apprentice Telemancer Astrandis.|
-
 F Garden of the Loa|ACTIVE|49940|M|44.84,72.25|N|At Eliara Duskwing.|RANK|2|
 R Sandscar Breach|ACTIVE|49940|M|47.66,25.07|N|Follow the road Northwest to Sandscar Breach.|RANK|2|
 T Sandscar Breach|QID|49940|M|47.24,24.95|N|To Bladeguard Sonji.|
@@ -1003,13 +754,9 @@ T I Spy a Spire|QID|49678|M|47.25,24.95|N|To Bladeguard Sonji.|
 T Skycaller Soltok|QID|49680|M|47.25,24.95|N|To Bladeguard Sonji.|
 T The Sethrak Incursion|QID|49679|M|47.33,25.14|N|To Beastmother Jabati.|
 T Lil' Tika|QID|49681|M|47.33,25.14|N|To Beastmother Jabati.|
-
 ;A Bargain of Blood
 F The Sliver|ACTIVE|47199|M|49.74,26.27|N|At Paku'ai Rip'nata.|
 J End Game Storyline Guide|QID|47199|N|To continue the storyline, click here to jump to the next guide.|GUIDE|EliEndgame|
 D The End.|N|This Concludes Zuldazar. The war campaign guide will automatically load when you check this step off. If instead you want to go elsewhere, select the next area and let that guide autoload.|GUIDE|EmmHWarCampaign|
-
 ]]
 end)
-
-

@@ -1,110 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_burning_steppes_horde
--- Date: 2018-10-17 02:27
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3266/revisions/29099/view
--- Date: 2018-02-20 21:52
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3266/revisions/28894/view
--- Date: 2018-01-16 23:46
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3266/revisions/28436/view
--- Date: 2017-03-15 23:34
--- Who: Ludovicus_Maior
--- Log: Added PREs to LiaBur5052
-
--- URL: http://wow-pro.com/node/3266/revisions/27754/view
--- Date: 2016-09-13 19:44
--- Who: Ludovicus_Maior
--- Log: Added missing CS tag.
-
--- URL: http://wow-pro.com/node/3266/revisions/27699/view
--- Date: 2016-09-06 17:26
--- Who: tubera
--- Log: QOs; Reorganize a bit for UI Alerts; Remove Dungeon quest (No longer available);
-
--- URL: http://wow-pro.com/node/3266/revisions/27695/view
--- Date: 2016-09-06 03:10
--- Who: tubera
--- Log: Insert a few stickies
-
--- URL: http://wow-pro.com/node/3266/revisions/26420/view
--- Date: 2014-06-02 13:09
--- Who: Ludovicus_Maior
--- Log: Set Levels
-
--- URL: http://wow-pro.com/node/3266/revisions/26262/view
--- Date: 2014-05-26 00:30
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3266/revisions/26094/view
--- Date: 2014-05-18 22:09
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3266/revisions/26016/view
--- Date: 2014-05-16 22:04
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3266/revisions/25454/view
--- Date: 2013-01-13 17:55
--- Who: Ludovicus_Maior
--- Log: Added C* tags
-
--- URL: http://wow-pro.com/node/3266/revisions/25346/view
--- Date: 2013-01-11 23:35
--- Who: Ludovicus_Maior
--- Log: Added CS tags
-
--- URL: http://wow-pro.com/node/3266/revisions/24602/view
--- Date: 2011-06-25 01:53
--- Who: Crackerhead22
--- Log: ! Missing A step for step C qid 28233 - Fixed, C step was wrong QID.
---	! Duplicate A step for qid 28455 - Removed line.
-
--- URL: http://wow-pro.com/node/3266/revisions/24288/view
--- Date: 2011-04-28 22:32
--- Who: Chrisser000
-
--- URL: http://wow-pro.com/node/3266/revisions/24287/view
--- Date: 2011-04-28 22:02
--- Who: Chrisser000
-
--- URL: http://wow-pro.com/node/3266/revisions/23620/view
--- Date: 2010-12-06 02:08
--- Who: Liavan
-
--- URL: http://wow-pro.com/node/3266/revisions/23619/view
--- Date: 2010-12-06 01:43
--- Who: Liavan
-
--- URL: http://wow-pro.com/node/3266/revisions/23414/view
--- Date: 2010-12-03 11:59
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3266/revisions/23413/view
--- Date: 2010-12-03 11:59
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('LiaBur5052', "Leveling", 'Burning Steppes', 'Liavan', 'Horde')
-WoWPro:GuideLevels(guide,49,57,49.082)
-WoWPro:NewGuideLevels(guide,40,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'LiaSwa5255')
-WoWPro:GuideIcon(guide,"ACH",4901)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 T Mouton Flamestar|QID|28515|M|17.13,51.32|N|To Mouton Flamestar.|
 A Done Nothing Wrong|QID|28417|PRE|28515|M|17.21,51.39|N|From Mouton Flamestar.|
 A Burning Vengeance|QID|28418|PRE|28667|M|17.43,51.65|N|From Ariok.|
@@ -171,7 +69,6 @@ C The Kodocaller's Horn|QID|28435|U|63356|M|46.52,63.28|N|The kodos can attack y
 T The Kodocaller's Horn|QID|28435|M|46.66,63.30|N|To Blackrock War Kodo.|
 A Taking the Horn For Ourselves|QID|28436|PRE|28434^28435|M|46.66,63.30|N|(UI alert)|
 T Taking the Horn For Ourselves|QID|28436|M|44.58,44.49|N|To Eitrigg back at Chiselgrip.|
-
 C Scrapped Golems|QID|28226|S|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
 C Prove Yer Allegiance|QID|28225|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|They are mainly inside and around the building ruins.|
 C Scrapped Golems|QID|28226|US|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
@@ -243,7 +140,4 @@ A The Spoils of War|QID|28456|PRE|28455|M|54.61,24.61|N|From Eitrigg.|
 T The Spoils of War|QID|28456|M|54.61,24.61|N|To Eitrigg.|
 A The Bogpaddle Bullet|QID|28570|LEAD|27587|M|54.95,22.55|N|From Kibler. Accept this if you want to do Swamp of Sorrows next.|
 ]]
-
 end)
-
-
