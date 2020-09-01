@@ -1,102 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_western_plaguelands_horde
--- Date: 2020-04-08 18:06
--- Who: Ludovicus_Maior
--- Log: [Drudges... ]:  What looks like an HTML directive called Sigh keeps disappearing!
-
--- URL: http://wow-pro.com/node/3246/revisions/30056/view
--- Date: 2018-10-17 23:01
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL: http://wow-pro.com/node/3246/revisions/29094/view
--- Date: 2018-02-20 21:44
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3246/revisions/28888/view
--- Date: 2018-01-16 23:43
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3246/revisions/28431/view
--- Date: 2017-03-15 23:28
--- Who: Ludovicus_Maior
--- Log: Added PREs to JiyWes3540
-
--- URL: http://wow-pro.com/node/3246/revisions/26449/view
--- Date: 2014-06-02 15:08
--- Who: Ludovicus_Maior
--- Log: Set Levels
-
--- URL: http://wow-pro.com/node/3246/revisions/26245/view
--- Date: 2014-05-25 22:58
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3246/revisions/26090/view
--- Date: 2014-05-18 22:05
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3246/revisions/26022/view
--- Date: 2014-05-17 16:40
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3246/revisions/25792/view
--- Date: 2013-11-05 22:36
--- Who: Emmaleah
--- Log: fix based on user submission (in aug... why did we miss this?!?)
-
--- URL: http://wow-pro.com/node/3246/revisions/25747/view
--- Date: 2013-08-16 19:44
--- Who: Ludovicus_Maior
--- Log: Cleaned up some QUIDs and added a hint for [Ace in the Hole].
-
--- URL: http://wow-pro.com/node/3246/revisions/25563/view
--- Date: 2013-03-23 18:27
--- Who: Ludovicus_Maior
--- Log: quest 27157's name [Drudges...] does not match Grail's database [Drudges... ].
-
--- URL: http://wow-pro.com/node/3246/revisions/25446/view
--- Date: 2013-01-13 17:33
--- Who: Ludovicus_Maior
--- Log: Added CS tags
-
--- URL: http://wow-pro.com/node/3246/revisions/24389/view
--- Date: 2011-05-17 00:45
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3246/revisions/23832/view
--- Date: 2010-12-27 09:04
--- Who: Crackerhead22
--- Log: Fixed some waypoints.
-
--- URL: http://wow-pro.com/node/3246/revisions/23551/view
--- Date: 2010-12-04 06:34
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3246/revisions/23373/view
--- Date: 2010-12-03 11:25
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3246/revisions/23372/view
--- Date: 2010-12-03 11:25
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('JiyWes3540', "Leveling", 'Western Plaguelands', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,34,39, 35.1257)
-WoWPro:NewGuideLevels(guide,35,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'CraEas4045')
-WoWPro:GuideIcon(guide,"ACH",4893)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Andorhal|QID|26921|M|46.56,64.71|N|At the center of the Western Plaguelands.|
 f Andorhal|QID|26921|M|46.56,64.71|N|At Rhonda Molver.|
 T The Battle for Andorhal|QID|28508|LEAD|26921|M|47.78,65.18|N|To Koltira Deathweaver.|
@@ -267,5 +173,3 @@ C The Reckoning|QID|27144|NC|M|48.89,63.58|N|Watch the scene.|
 T The Reckoning|QID|27144|M|48.97,63.70|N|To Lady Sylvanas Windrunner. Congrats on the nice piece of gear!|
 ]]
 end)
-
-

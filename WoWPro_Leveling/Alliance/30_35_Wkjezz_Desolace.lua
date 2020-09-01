@@ -1,186 +1,9 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_desolace_alliance
--- Date: 2018-10-17 02:23
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3313/revisions/29170/view
--- Date: 2018-02-26 21:37
--- Who: Ludovicus_EditBot
--- Log: Level strip
-
--- URL: http://wow-pro.com/node/3313/revisions/29026/view
--- Date: 2018-02-19 23:33
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3313/revisions/28845/view
--- Date: 2018-01-16 23:18
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3313/revisions/28562/view
--- Date: 2017-03-23 17:54
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL: http://wow-pro.com/node/3313/revisions/28366/view
--- Date: 2017-03-13 17:43
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL: http://wow-pro.com/node/3313/revisions/28278/view
--- Date: 2017-03-05 18:39
--- Who: Ludovicus_Maior
--- Log: QO Cleanups.
-
--- URL: http://wow-pro.com/node/3313/revisions/27430/view
--- Date: 2016-02-08 01:03
--- Who: Ludovicus_Maior
--- Log: Added [Hero's Call: Desolace!] support.
-
--- URL: http://wow-pro.com/node/3313/revisions/26606/view
--- Date: 2014-07-25 21:45
--- Who: Ludovicus_Maior
--- Log: Add mean
-
--- URL: http://wow-pro.com/node/3313/revisions/26357/view
--- Date: 2014-05-27 20:56
--- Who: Ludovicus_Maior
--- Log: GuideLevels corrected from "0,0" to "27,34".
-
--- URL: http://wow-pro.com/node/3313/revisions/26238/view
--- Date: 2014-05-25 22:54
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3313/revisions/26076/view
--- Date: 2014-05-18 21:48
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3313/revisions/25970/view
--- Date: 2014-05-14 22:25
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3313/revisions/25399/view
--- Date: 2013-01-13 01:10
--- Who: Ludovicus_Maior
--- Log: A few CS,CC and CN tags
-
--- URL: http://wow-pro.com/node/3313/revisions/24548/view
--- Date: 2011-06-12 19:52
--- Who: Crackerhead22
--- Log: Minor fixes.
-
--- URL: http://wow-pro.com/node/3313/revisions/24415/view
--- Date: 2011-05-23 20:55
--- Who: Crackerhead22
--- Log: Condensed code, rearranged a couple quests for better flow, added notes, fixed notes, added cords, fixed cords, added breadcrumb quest to Feralas.
-
--- URL: http://wow-pro.com/node/3313/revisions/23921/view
--- Date: 2011-01-02 20:42
--- Who: Fluclo
--- Log: Added the quest Bone Collector
-
--- URL: http://wow-pro.com/node/3313/revisions/23920/view
--- Date: 2011-01-02 20:36
--- Who: Fluclo
--- Log: Added correct QID to a Nijel's Point Hearthstone so that it goes away after related quests have been handed in.
-
--- URL: http://wow-pro.com/node/3313/revisions/23919/view
--- Date: 2011-01-02 20:35
--- Who: Fluclo
--- Log: Added correct QID for Run to the small building so that it doesn't reappear after quest has been completed
-
--- URL: http://wow-pro.com/node/3313/revisions/23918/view
--- Date: 2011-01-02 20:34
--- Who: Fluclo
--- Log: Bizby's grinding quests not required for zone progression, therefore added Rank 2 to all steps
-
--- URL: http://wow-pro.com/node/3313/revisions/23917/view
--- Date: 2011-01-02 20:31
--- Who: Fluclo
--- Log: Tweaks to starting of the zone
-
--- URL: http://wow-pro.com/node/3313/revisions/23916/view
--- Date: 2011-01-02 20:08
--- Who: Fluclo
--- Log: Corrected Deep Impact
-
--- URL: http://wow-pro.com/node/3313/revisions/23915/view
--- Date: 2011-01-02 19:43
--- Who: Fluclo
--- Log: Clarified need to be Naga for a couple of quests
-
--- URL: http://wow-pro.com/node/3313/revisions/23914/view
--- Date: 2011-01-02 19:25
--- Who: Fluclo
--- Log: Added two new quests, Karnitol Shipwreck, since player already in area for the Slitherblade quest chain
-
--- URL: http://wow-pro.com/node/3313/revisions/23913/view
--- Date: 2011-01-02 19:21
--- Who: Fluclo
--- Log: Changed quest IDs on a couple of steps.
-
--- URL: http://wow-pro.com/node/3313/revisions/23912/view
--- Date: 2011-01-02 11:48
--- Who: Fluclo
--- Log: Clarified step for Ears Are Burning
-
--- URL: http://wow-pro.com/node/3313/revisions/23911/view
--- Date: 2011-01-02 11:12
--- Who: Fluclo
--- Log: Updated handling of Elune's Gifts to flow properly on the display.
-
--- URL: http://wow-pro.com/node/3313/revisions/23910/view
--- Date: 2011-01-02 10:35
--- Who: Fluclo
--- Log: Corrected quest number for Nijel's Point to allow seamless reloading of guide
-
--- URL: http://wow-pro.com/node/3313/revisions/23909/view
--- Date: 2011-01-02 10:17
--- Who: Fluclo
--- Log: Moved the set home at Nijel's Point to a more convinient place to avoid doubling back.
-
--- URL: http://wow-pro.com/node/3313/revisions/23908/view
--- Date: 2011-01-02 10:14
--- Who: Fluclo
--- Log: Changed Run to Nijel's Point to mount the provided gryphon, and moved flight point to a more appropriate place.
-
--- URL: http://wow-pro.com/node/3313/revisions/23907/view
--- Date: 2011-01-02 10:06
--- Who: Fluclo
--- Log: Improved entry for route from Stonetalon Mountains to Desolace
-
--- URL: http://wow-pro.com/node/3313/revisions/23906/view
--- Date: 2011-01-02 09:42
--- Who: Fluclo
--- Log: Corrected some |QO| tags
-
--- URL: http://wow-pro.com/node/3313/revisions/23523/view
--- Date: 2010-12-03 23:47
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3313/revisions/23522/view
--- Date: 2010-12-03 23:45
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('WkjDes3035', "Leveling", 'Desolace', 'Wkjezz', 'Alliance')
-WoWPro:GuideLevels(guide,27,34, 28.5321)
-WoWPro:NewGuideLevels(guide,30,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'WkjFer3540')
-WoWPro:GuideIcon(guide,"ACH",4930)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Farwatcher's Glen|QID|25938^28531|N|This zone's quests start from Hierophant Malyk in Farwatcher's Glen, Stonetalon Mountains. It is a Direct continuation from the Stonetalon Mountains guide, or use the Hero's Call: Desolace! quest and take that that to Officer Jankie.|Z|Stonetalon Mountains|
-
 A Help for Desolace|QID|25938^28531|LEAD|14384|M|33.09,59.63|N|From Hierophant Malyk. Alternatively, accept Hero's Call: Desolace! quest from Darnassus or The Exodar.|Z|Stonetalon Mountains|
 R The Charred Vale|QID|25938^28531|M|30.95,62.20;30.23,63.15;30.06,64.98|CS|N|Follow the waypoints to help you safely down the mountains.|Z|Stonetalon Mountains|
 T Help for Desolace|QID|25938^28531|M|54.18,9.41|N|To Officer Jankie.|
@@ -188,7 +11,6 @@ A Rerouted!|QID|14384|M|54.18,9.41|N|From Officer Jankie.|
 R Nijel's Point|QID|14384|M|54.18,9.41|N|Mount Jankie's Mount for a ride to Nijel's Point.|
 f Nijel's Point|QID|14384|M|64.72,10.39|N|At Baritanas Skyriver.|
 h Nijel's Point|QID|14384|M|66.26,6.64|N|At Innkeeper Lyshaerya. Don't forget to stock up! The food and drink vendor is next to the innkeeper.|
-
 T Rerouted!|QID|14384|M|66.75,10.90|N|To Corporal Melkins.|
 A Lay of the Land|QID|14387|PRE|14384|M|66.75,10.90|N|From Captain Pentigast.|
 T Lay of the Land|QID|14387|M|66.48,11.76|N|To Vahlarriel Demonslayer.|
@@ -200,7 +22,6 @@ N Elune's Brazier|QID|14354|M|78.77,22.98|N|Visit Elune's Brazier|QO|2|
 A Ten Pounds of Flesh|QID|14358|M|78.77,22.98|N|Started by Elune's Brazier.|
 l Ten Pounds of Flesh|QID|14358|S|L|48857 10|N|Kill and loot Satyrs for their flesh, you need 10 total.|
 C Elune's Gifts|QID|14354|M|75.97,26.57|N|Visit Handmaiden Of Elune.|QO|1|
-
 A To the Hilt!|QID|14357|M|75.97,26.57|N|Started by Elune's Handmaiden.|
 l Satyr Sabers|QID|14357|S|L|48943 20|N|From weapons racks and Satyr kills, you will need 20 total.|
 l Melonfruit|QID|14193|L|48106 8|M|77.06,18.18|N|Gather 8 Melons from the ground.|US|
@@ -213,7 +34,6 @@ l Satyr Sabers|QID|14357|S|L|48943 20|N|From weapons racks and Satyr kills.|
 C To the Hilt!|QID|14357|M|75.97,26.57|N|Head back to Elune's Handmaiden and offer the 20 Satyr Sabers there.|U|48943|
 T To the Hilt!|QID|14357|M|75.97,26.57|N|(UI Alert)|
 T Elune's Gifts|QID|14354|M|66.44,11.71|N|To Vahlarriel Demonslayer.|
-
 A Peace of Mind|QID|14361|PRE|14354|M|66.73,10.97|N|From Captain Pentigast.|
 A Ethel Rethor|QID|14365|LEAD|14256|PRE|14354|M|66.73,10.92|N|From Corporal Melkins.|
 A The Karnitol Shipwreck |QID|1454|PRE|14354|M|66.20,9.65|N|From Kreldig Ungor.|
@@ -229,7 +49,6 @@ A Ears Are Burning|QID|14362|U|49203|N|Accept the quest from the Burning Blade E
 C Ears Are Burning|QID|14362|M|53.20,27.48|S|N|Kill and loot Burning Blade mobs for their ears.|
 C Peace of Mind|QID|14361|M|53.40,33.34|N|Kohor is by a cave south of the fortress.|
 T Peace of Mind|QID|14361|M|53.40,33.34|N|(UI Alert)|
-
 A You'll Know It When You See It|QID|14363|PRE|14361|M|53.40,33.34|N|(UI Alert)|
 C You'll Know It When You See It|QID|14363|M|52.94,28.96|N|Head up to the building, and loot the Demonic Chest.|
 T You'll Know It When You See It|QID|14363|M|52.94,28.96|N|(UI Alert)|
@@ -240,7 +59,6 @@ C Ears Are Burning|QID|14362|M|53.20,27.48|US|N|Kill and loot Burning Blade mobs
 C Fletch Me Some Plumage!|QID|14253|US|M|46.33,34.99;49.68,25.62|CN|RANK|2|N|Finish collecting Dread Swoop Feathers.|
 f Ethel Rethor|QID|14365|M|39.04,27.01|N|At Korrah's Hippogryph.|
 T Ethel Rethor|QID|14365|M|38.83,26.97|N|To Cenarion Researcher Korrah.|
-
 A The Emerging Threat|QID|14256|M|38.83,26.97|N|From Cenarion Researcher Korrah.|
 C The Emerging Threat|QID|14256|M|39.07,27.43|N|Speak to the Tauren and she'll send you on a trip.|
 T The Emerging Threat|QID|14256|M|38.79,27.06|N|To Cenarion Researcher Korrah.|
@@ -250,14 +68,12 @@ T The Karnitol Shipwreck |QID|1454|M|36.13,30.49|N|Karnitol's Chest found along 
 A The Karnitol Shipwreck |QID|1455|PRE|1454|M|36.13,30.49|N|From Karnitol's Chest|
 C Slitherblade Slaughter|QID|14257|M|36.57,36.27|N|Head up and down the beach until you finish this quest.|US|
 T Slitherblade Slaughter|QID|14257|M|38.88,27.02|N|To Cenarion Researcher Korrah.|
-
 A Going Deep|QID|14260|PRE|14257|M|38.88,27.02|N|From Cenarion Researcher Korrah.|
 C Going Deep|QID|14260|U|49064|M|38.82,27.13|N|Use the Slitherblade Charm to turn you into a Naga (dismount first)|
 T Going Deep|QID|14260|M|31.06,30.94|N|To Valishj.|
 A Wetter Than Wet|QID|14264|PRE|14260|M|31.06,30.94|N|From Valishj.|
 C Wetter Than Wet|QID|14264|M|33.98,24.84|N|You must be in Naga form for the kills to count.|
 T Wetter Than Wet|QID|14264|M|31.07,30.85|N|To Valishj.|
-
 A Deep Impact|QID|14268|PRE|14264|M|31.07,30.85|N|From Valishj.|
 C Deep Impact|QID|14268|L|49102 4|M|30.04,15.89|N|Look for flat rocks around sunken ruins (they don't sparkle). Smash them and loot the shards. You need 4.|
 C Deep Impact|QID|14268|U|49102|M|33.25,11.18|N|Now combine the fragments.|
@@ -269,13 +85,10 @@ T The Enemy of Our Enemy|QID|14292|M|29.08,8.12|N|To Lord Hydronis.|
 A A Revenant's Vengeance|QID|14284|PRE|14292|M|29.08,8.12|N|From Lord Hydronis.|
 C A Revenant's Vengeance|QID|14284|M|28.05,6.69|N|Tell Hydronis when you are ready. 1,2,3 are your combat abilities the 4th ability is for Mana and Health as needed.|
 T A Revenant's Vengeance|QID|14284|M|29.04,8.02|N|To Lord Hydronis.|
-
 A Return and Report|QID|14301|PRE|14284|M|29.04,8.02|N|From Lord Hydronis.|
 T Return and Report|QID|14301|M|38.82,27.02|N|To Cenarion Researcher Korrah.|
 A Official Assessment|QID|14302|PRE|14301|M|38.82,27.02|N|From Cenarion Researcher Korrah.|
-
 F Nijel's Point|QID|14364|N|Fly back to Nijel's Point.|M|39.04,27.01|
-
 T Putting Their Heads Together|QID|14364|M|66.61,10.98|N|To Captain Pentigast.|
 T Ears Are Burning|QID|14362|M|66.61,10.98|N|To Captain Pentigast.|
 T The Karnitol Shipwreck |QID|1455|M|66.20,9.70|N|To Kreldig Ungor.|
@@ -288,7 +101,6 @@ T Fletch Me Some Plumage!|QID|14253|M|60.95,28.92|N|To Bizby.|RANK|2|
 C The Karnitol Shipwreck|QID|1456|M|30.77,10.92|N|Kill and loot Slitherblade Tidehunters and Sea Witches until the satchel drops.|U|34130|RANK|3|
 H Nijel's Point|QID|1456|N|Hearth back to Nijel's Point.|RANK|3|
 T The Karnitol Shipwreck |QID|1456|M|66.20,9.70|N|To Kreldig Ungor.|RANK|3|
-
 A Bone Collector |QID|5501|M|62.36,38.95|N|From Bibbly F'utzbuckle|RANK|3|
 A Blood Theory|QID|14304|M|58.69,46.42|N|From Thressa Amberglen.|
 r Repair and Junk Sell|QID|14302|M|58.63,46.32|N|Stronghoof Gentlebend|
@@ -296,7 +108,6 @@ T Official Assessment|QID|14302|M|57.37,47.75|N|To Karnum Marshweaver.|
 A Stubborn Winds|QID|14307|M|57.37,47.75|N|From Karnum Marshweaver.|
 f Karnum's Glade|QID|14305|M|57.68,49.67|N|At Lastrea Greengale.|
 h Karnum's Glade|QID|14305|M|56.68,50.01|N|At Innkeeper Dessina.|
-
 A A Time to Reap|QID|14305|M|58.51,48.66|N|From Botanist Ferrah.|
 A Pulling Weeds|QID|14306|M|58.51,48.66|N|From Botanist Ferrah.|
 C Stubborn Winds|QID|14307|S|M|46.85,45.97|N|Destroy 5 Whirlwind Stormwalkers.|
@@ -309,7 +120,6 @@ C Bone Collector |QID|5501|M|52.2,58.4|N|Kodo Bones from the graveyard, they loo
 C A Time to Reap|QID|14305|US|M|54.45,60.72|N|The highest concentration of this seems to be to the South West of the Oasis, the Kodo Graveyard.|
 T A Time to Reap|QID|14305|M|58.54,48.66|N|To Botanist Ferrah.|
 T Pulling Weeds|QID|14306|M|58.54,48.66|N|To Botanist Ferrah.|
-
 A Taking Part|QID|14311|PRE|14305|M|58.62,48.53|N|From Botanist Ferrah.|
 T Blood Theory|QID|14304|M|58.70,46.49|N|To Thressa Amberglen.|
 A Calming the Kodo|QID|14309|PRE|14304|M|58.63,46.47|N|From Thressa Amberglen.|
@@ -323,7 +133,6 @@ C Taking Part|QID|14311|U|49150|M|62.94,57.42|N|Finish planting seeds.|US|
 T Taking Part|QID|14311|M|58.57,48.63|N|To Botanist Ferrah.|
 A An Introduction Is In Order|QID|14312|PRE|14311|M|58.37,49.81|N|From Garren Darkwind.|
 T An Introduction Is In Order|QID|14312|M|58.32,49.99|N|To Khan Leh'Prah.|
-
 A Breakout!|QID|14314|PRE|14312|M|58.32,49.99|N|From Khan Leh'Prah.|
 A Cenarion Property|QID|14316|PRE|14312|M|58.36,49.73|N|From Garren Darkwind.|
 T Calming the Kodo|QID|14309|M|58.77,46.46|N|To Thressa Amberglen.|
@@ -336,7 +145,6 @@ A Stubborn Lands|QID|14247|M|70.43,32.89|N|From Cenarion Embassador Thunk.|
 f Thunk's Abode|QID|14246|M|70.64,32.89|N|At Thunk's Wyvern.|
 C Early Adoption|QID|14246|U|49014|M|66.27,22.38|N|Find the swoop nests. Clear the area around it for mobs. Protect the egg from attacking mobs.|
 T Stubborn Lands|QID|14247|M|69.47,21.30|N|To the Smoldering Stone.|
-
 A Heavy Metal|QID|14254|PRE|14247|M|69.47,21.30|N|From the Smoldering Stone.|
 C Heavy Metal|QID|14254|S|M|64.29,24.79|N|Little red gems on the ground.|
 C Early Adoption|QID|14246|US|U|49014|M|70.28,22.64|N|Find the swoop nests. Clear the area around it for mobs. Protect the egg from attacking mobs.|
@@ -345,7 +153,6 @@ T Heavy Metal|QID|14254|M|61.06,28.95|N|To Bizby.|
 T Early Adoption|QID|14246|M|70.49,32.98|N|To Cenarion Embassador Thunk.|
 T Cenarion Property|QID|14316|M|58.38,49.89|N|To Garren Darkwind.|
 T Breakout!|QID|14314|M|58.30,50.02|N|To Khan Leh'Prah.|
-
 A Delicate Negotiations|QID|14318|PRE|14314&14316|M|58.30,50.02|N|From Khan Leh'Prah.|
 C Delicate Negotiations|QID|14318|N|Speak to the centaur in the camp, and you will be on your way. Once there, Place the spear, and defend it.|
 T Delicate Negotiations|QID|14318|M|71.65,45.42|N|To Khan Kammah.|
@@ -354,7 +161,6 @@ C Will Work For Food|QID|14325|M|65.28,37.62|N|Kill and loot Revitalized Basilis
 T Will Work For Food|QID|14325|M|73.34,41.6|N|To Khan Kammah.|
 A My Word is My Bond|QID|14327|PRE|14325|M|73.34,41.6|N|From Khan Kammah.|
 T My Word is My Bond|QID|14327|M|58.28,50.00|N|To Khan Leh'Prah.|
-
 A Three Princes|QID|14328|PRE|14327|M|58.28,50.00|N|From Khan Leh'Prah.|
 A Thargad's Camp|QID|14372|LEAD|14373|PRE|14327|M|57.43,47.73|N|From Karnum Marshweaver.|
 A Ghost-o-plasm Round Up|QID|6134|M|47.85,61.73|N|From Hornizz Brimbuzzle.|
@@ -365,7 +171,6 @@ A Portals of the Legion|QID|14374|M|36.65,71.31|N|From Thargad.|
 K Sherik|QID|14328|QO|2|M|35.55,81.43|N|Kill Sherik.|
 K Rhoho|QID|14328|QO|1|M|41.46,82.91|N|Kill Rhoho.|
 C Three Princes|QID|14328|QO|3|M|35.66,91.21|N|Kill Joreth.|
-
 R Bolgan's Hole|QID|14328|M|38.51,91.04|N|Go down into the crevice, then around and up to the bridge, cross the bridge and enter the cave.|
 T Three Princes|QID|14328|M|40.42,95.50|N|To Khan Shodo.|
 A Not So Fast!|QID|14329|PRE|14328|M|40.42,95.50|N|From Khan Shodo.|
@@ -374,7 +179,6 @@ F Thargad's Camp|QID|14329|N|Fly here. Run if you did not Hearth.|M|57.72,49.75;
 C Not So Fast!|QID|14329|M|33.86,50.58|N|Kill 10 Maraudine Maulers. Loot the centaurs, they will drop a quest item.|
 T Not So Fast!|QID|14329|M|33.86,50.58|N|(UI Alert)|
 A Behind Closed Doors|QID|14330|PRE|14328|U|38567|M|25.88,77.06|N|From the Maraudine Prisoner Manifest.|
-
 R Gates of Mauraudon|QID|14330|CC|M|29.89,62.56;28.47,64.17|N|Enter the gates.|
 A While You're Here|QID|14333|PRE|14328|M|27.21,63.35|N|From the Broken Relic.|
 T Behind Closed Doors|QID|14330|M|27.3,63|N|To Kherrah.|
@@ -387,7 +191,6 @@ C Get Me Out of Here!|QID|6132|M|40.22,61.62|N|Follow and protect Melizza. You w
 T Get Me Out of Here!|QID|6132|M|47.85,61.80|N|To Hornizz Brimbuzzle.|
 C Infernal Encroachment|QID|14373|S|M|51.08,79.76|N|Kill 10 Lesser Infernals. Infernals will drop an item for a quest, so make sure you loot them also!|
 C Portals of the Legion|QID|14374|U|14547|M|50.72,80.92|N|Click on the Demon Portals, then kill the Guardian the spawns to close them.|
-
 A Jugkar's Undoing|QID|14376|U|49220|M|30.81,53.93|N|Accept this quest from the Infernal Power Core.|
 C Jugkar's Undoing|QID|14376|U|49199|M|53.66,77.48|N|Target the demon and use his abilities to defeat the warlock. Make sure you are stood in a safe spot as you are "Mind Controlling" and can be attacked.|
 T Jugkar's Undoing|QID|14376|M|53.66,77.48|N|(UI Alert)|
@@ -400,7 +203,6 @@ T Into the Fray!|QID|14393|M|72.30,67.39|N|To Khan Leh'Prah.|
 A Death to Agogridon|QID|14394|PRE|14393|M|72.30,67.39|N|From Khan Leh'Prah.|
 C Death to Agogridon|QID|14394|M|82.14,80.75|N|Get off of the centaur then talk to Khan to get another one. Head to the waypoint and kill Agogridon.|
 T Death to Agogridon|QID|14394|M|82.41,80.80|N|To Khan Leh'Prah.|
-
 H Karnum's Glade|QID|6134|N|Or Run all the Way to Karnum's Glade camp. If you are running, manually close this step.|
 T Ghost-o-plasm Round Up|QID|6134|N|To Hornizz Brimbuzzle.|M|47.88,61.80|
 F Thargad's Camp|QID|14373|M|57.71,49.75|N|Ask Lastrea Greengale for a flight.|
@@ -414,17 +216,12 @@ C Rock Lobstrock!|QID|14379|M|22,75;28,78|CN|US|N|Low drop rate, you may need to
 T Hunting Brendol|QID|14378|M|36.66,71.34|N|To Thargad.|
 A An Impactful Discovery|QID|14380|PRE|14378|M|36.69,71.31|N|From Thargad.|
 T Rock Lobstrock!|QID|14379|M|36.45,71.20|N|To Dumti.|
-
 F Karnum's Glade|QID|14380|N|Fly back to Karnum's Glade.|M|36.76,71.67|
 T An Impactful Discovery|QID|14380|M|57.50,47.76|N|To Karnum Marshweaver.|
 A Cleansing Our Crevasse|QID|14381|PRE|14380|M|57.50,47.76|N|From Karnum Marshweaver.|
 C Cleansing Our Crevasse|QID|14381|M|37.66,45.65|N|Jump on the Hippogryph directly behind the quest giver when you are ready. Drop lots of bombs, then fly home.|
 T Cleansing Our Crevasse|QID|14381|M|57.42,47.73|N|To Karnum Marshweaver.|
 A The Wilds of Feralas|QID|14410|LEAD|25447|PRE|14381&14394|M|73.2,73|N|From Khan Shodo.|
-
 N The end.|N|Thanks for doing Desolace with me and congrats on your zone achievement. We will be going to Ferelas next, so when you're ready click off of this step to continue. If you wish to quest somewhere else now, you can manually select a new guide by right clicking on the Addon frame. WKjezz|
 ]]
-
 end)
-
-

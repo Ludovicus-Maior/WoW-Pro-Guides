@@ -1,190 +1,24 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_ghostlands
--- Date: 2020-04-08 17:48
--- Who: Ludovicus_Maior
--- Log: [WANTED: Knucklerot and Luzran]
-
--- URL: http://wow-pro.com/node/3221/revisions/30101/view
--- Date: 2018-10-30 18:11
--- Who: Emmaleah
--- Log: Added N Fair Warning|N|This guide is out of date with current changes in Ghostlands and needs serious work. Use at your own risk.| at beginning of guide due to the multitude of comments about it's shortcomings.
-
--- URL: http://wow-pro.com/node/3221/revisions/30070/view
--- Date: 2018-10-23 01:50
--- Who: Emmaleah
--- Log: Moved a few pick up / turn ins at suncrown village/amani catacombs, but I suspect more is needed.
-
--- URL: http://wow-pro.com/node/3221/revisions/29966/view
--- Date: 2018-10-17 02:26
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3221/revisions/29586/view
--- Date: 2018-08-23 19:35
--- Who: Emmaleah
--- Log: Update old style QOs
-
--- URL: http://wow-pro.com/node/3221/revisions/29198/view
--- Date: 2018-02-27 17:41
--- Who: Ludovicus_EditBot
--- Log: LVL strip
-
--- URL: http://wow-pro.com/node/3221/revisions/29082/view
--- Date: 2018-02-20 21:03
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3221/revisions/28905/view
--- Date: 2018-01-16 23:55
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3221/revisions/28420/view
--- Date: 2017-03-15 23:12
--- Who: Ludovicus_Maior
--- Log: Added PREs to SnoGho1221
-
--- URL: http://wow-pro.com/node/3221/revisions/27310/view
--- Date: 2015-07-01 18:25
--- Who: Ludovicus_Maior
--- Log: Played through on a level locked 15 Belf Pally.
-
--- URL: http://wow-pro.com/node/3221/revisions/26429/view
--- Date: 2014-06-02 13:27
--- Who: Ludovicus_Maior
--- Log: Set Levels
-
--- URL: http://wow-pro.com/node/3221/revisions/26222/view
--- Date: 2014-05-25 22:41
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3221/revisions/26138/view
--- Date: 2014-05-20 19:11
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3221/revisions/26036/view
--- Date: 2014-05-17 17:21
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3221/revisions/25867/view
--- Date: 2014-01-12 23:34
--- Who: Ludovicus_Maior
--- Log: Error pointed out by Taraca on the Pass.  I musta been high.
-
--- URL: http://wow-pro.com/node/3221/revisions/25500/view
--- Date: 2013-01-22 18:03
--- Who: Ludovicus_Maior
--- Log: Coord tweaks, a new CS tag, and moved up turnins for Suncrown.
-
--- URL: http://wow-pro.com/node/3221/revisions/25479/view
--- Date: 2013-01-13 19:46
--- Who: Ludovicus_Maior
--- Log: Added C* tags
-
--- URL: http://wow-pro.com/node/3221/revisions/25343/view
--- Date: 2013-01-11 23:28
--- Who: Ludovicus_Maior
--- Log: Added CN tags
-
--- URL: http://wow-pro.com/node/3221/revisions/24966/view
--- Date: 2012-02-23 01:27
--- Who: Crackerhead22
--- Log: Tweaks
-
--- URL: http://wow-pro.com/node/3221/revisions/24871/view
--- Date: 2011-12-21 11:50
--- Who: Fluclo
-
--- URL: http://wow-pro.com/node/3221/revisions/24600/view
--- Date: 2011-06-25 01:42
--- Who: Crackerhead22
--- Log: ! Duplicate A step for qid 9327 - Removed line.
---	! Duplicate T step for qid 9327 - Removed line.
---	! Duplicate A step for qid 9146 - Removed line.
-
--- URL: http://wow-pro.com/node/3221/revisions/24520/view
--- Date: 2011-06-07 23:12
--- Who: Ludovicus_Maior
--- Log: ! Line 61 for step A has unknown tag [To Vandril]: [A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|To Vandril|]
-
--- URL: http://wow-pro.com/node/3221/revisions/24509/view
--- Date: 2011-06-07 03:07
--- Who: Ludovicus_Maior
--- Log: Added Race tags and new race specific quests, where needed for my poor Orc.
-
--- URL: http://wow-pro.com/node/3221/revisions/24475/view
--- Date: 2011-06-01 00:44
--- Who: Crackerhead22
--- Log: Removed "Z|Amani Catacombs|" as it was unneeded.
-
--- URL: http://wow-pro.com/node/3221/revisions/24439/view
--- Date: 2011-05-28 11:14
--- Who: Ludovicus_Maior
--- Log: Coord tweaks and added the explorer achievement step.
-
--- URL: http://wow-pro.com/node/3221/revisions/24324/view
--- Date: 2011-04-29 15:39
--- Who: Ludovicus_Maior
--- Log: Line 218 for step K has 1 M coords, Line 221 for step K has 1 M coords.
-
--- URL: http://wow-pro.com/node/3221/revisions/24212/view
--- Date: 2011-04-05 23:18
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3221/revisions/24081/view
--- Date: 2011-01-30 19:19
--- Who: Ludovicus_Maior
--- Log: Corrected RegisterGuide line to match GIT.
-
--- URL: http://wow-pro.com/node/3221/revisions/23624/view
--- Date: 2010-12-06 05:09
--- Who: Crackerhead22
--- Log: Complete update of source code from scratch.
-
--- URL: http://wow-pro.com/node/3221/revisions/23312/view
--- Date: 2010-12-03 07:36
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3221/revisions/23311/view
--- Date: 2010-12-03 07:36
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("SnoGho1221", "Leveling", "Ghostlands", "Snowflake", "Horde")
-WoWPro:GuideLevels(guide,9,19, 12.4901)
-WoWPro:NewGuideLevels(guide,10,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, "AyaHil2025")
-WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;This step will not show if you have completed A Somber Task as part of the Eversong Woods guide
 ;as you'll be closer to quest ender, and will already be carrying the two quests.
-
 N Fair Warning|N|This guide is out of date with current changes in Ghostlands and needs serious work. Use at your own risk.|
-
 R Fairbreeze Village |QID|9144|M|44.06,70.73|N|This guide begins at Fairbreeze Village, which is south-west of Silvermoon City in Eversong Woods.\n\nThere will be a few quests in Eversong Woods first, as this leads to quests in the Ghostlands.|Z|Eversong Woods|
-
 A Missing in the Ghostlands |QID|9144|LEAD|9329|M|44.06,70.73|N|From Magistrix Landra Dawnstrider.|Z|Eversong Woods|
 A Runewarden Deryan|QID|9253|LEAD|8490|PRE|9252|M|46.92,71.81|N|From Ranger Sareyn. \n\nYou have to have done the quest Defending Fairbreeze to get this, but you'll be able to get the follow up to this regardless of whether you do it.|Z|Eversong Woods|
 T Runewarden Deryan|QID|9253|PRE|9252|M|44.20,85.46|N|To Runewarden Deryan.|Z|Eversong Woods|
 A Powering our Defenses |QID|8490|M|44.20,85.46|N|From Runewarden Deryan.|Z|Eversong Woods|
 C Powering our Defenses |QID|8490|U|22693|N|Head to the Runestone Shan'dor, then use the Infused Crystal. You will then need to defend the crystal against two sets of 3 Enraged Wraiths.|Z|Eversong Woods|M|55,84|
 T Powering our Defenses |QID|8490|M|44.20,85.46|N|Back to Runewarden Deryan.|Z|Eversong Woods|
-
 T Missing in the Ghostlands |QID|9144|N|To Courier Dawnstrider.|Z|Eversong Woods|M|48.97,88.99|
 A The Fallen Courier|QID|9147|M|49.01,89.04|N|From Apothecary Thedra|Z|Eversong Woods|
 C The Fallen Courier|QID|9147|N|Head over the bridge, then kill and loot the Starving Ghostclaws, and Mistbats.|M|49.85,13.05|
 T The Fallen Courier|QID|9147|M|49.01,89.04|N|To Apothecary Thedra|Z|Eversong Woods|
 A Delivery to Tranquillien |QID|9148|PRE|9147|N|From Courier Dawnstrider.|Z|Eversong Woods|M|48.97,88.99|
 T Delivery to Tranquillien |QID|9148|N|Follow the road south to Tranquillien. To Vandril.|M|46.35,28.39|
-
 A The Forsaken |QID|9327|R|BloodElf|N|From Vandril.|M|46.35,28.39|
 A The Forsaken |QID|9329|M|46.35,28.39|R|Orc,Troll,Tauren,Undead,Goblin|N|From Vandril.|
 T The Forsaken |QID|9327|M|44.84,32.43|R|BloodElf|N|To High Executor Mavren. In the large building to your right as you enter Tranquillien from the north.|
@@ -192,33 +26,26 @@ T The Forsaken |QID|9329|M|44.84,32.43|R|Orc,Troll,Tauren,Undead,Goblin|N|To Hig
 A Return to Arcanist Vandril|QID|9758|PRE|9327^9329|M|44.84,32.43|N|From High Executor Mavren.|
 T Return to Arcanist Vandril|QID|9758|M|46.33,28.45|N|To Arcanist Vandril.|
 A Suncrown Village|QID|9138|PRE|9758|M|46.33,28.45|N|From Arcanist Vandril.|
-
 A WANTED: Knucklerot and Luzran|QID|9156|M|48.30,31.64|N|From the Wanted Poster. This is a group quest, the 2 mobs are 21 elites. If you see anyone looking for help, or offering help, take them up on it.|RANK|3|
 h Tranquillien|QID|9157|M|48.87,32.38|N|At Innkeeper Kalarin.|
 r Training/Repair/Sell Junk|QID|9157|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n\nClick this step to continue.|
-
 A Anok'suten|QID|9315|PRE|9327^9329|M|57.53,14.94|N|From Dying Blood Elf near Suncrown Village.|
 C Suncrown Village|QID|9138|S|M|57.51,11.39|N|Kill 10 Nerubis Guards.|
 C Anok'suten|QID|9315|M|61.59,12|N|Anok'suten is a Level 11 elite with 624 HP. He wanders counter-clockwise around the circle path.|T|Anok'suten|
 C Suncrown Village|QID|9138|US|M|57.51,11.39|N|Kill 10 Nerubis Guards.|
-
 H Tranquillien|QID|9138|N|Hearth back to Tranquillien.|
 T Suncrown Village|QID|9138|M|46.24,28.35|N|To Arcanist Vandril.|
 T Anok'suten|QID|9315|M|46.24,28.35|N|To Arcanist Vandril.|
-
 A Help Ranger Valanna!|QID|9145|LEAD|9143|M|45.48,32.45|N|From Ranger Lethvalin.|
 T Help Ranger Valanna!|QID|9145|M|69.30,15.20|N|From Ranger Valanna.|
 A Dealing with Zeb'Sora|QID|9143|M|69.30,15.20|N|From Ranger Valanna.|
-
 A Forgotten Rituals|QID|9157|M|72.19,18.96|N|From Geranis Whitemorn.|
 C Forgotten Rituals|QID|9157|L|22674 8|M|70.04,20.69|N|Dive into the lake, locate and loot the Glistening Mud.|NC|
 T Forgotten Rituals|QID|9157|M|72.22,19.10|N|To Geranis Whitemorn.|
-
 A Vanquishing Aquantion|QID|9174|PRE|9157|M|72.22,19.10|N|From Geranis Whitemorn.|
 C Vanquishing Aquantion|QID|9174|M|71.32,14.93|N|Jump back into the lake, head towards the sparkling statue and click on it. Kill him once he spawns.|
 T Vanquishing Aquantion|QID|9174|M|72.23,18.99|N|To Geranis Whitemorn.|
 C Dealing with Zeb'Sora|QID|9143|M|77.69,12.65|N|Kill any troll you see to get their ears.|
-
 A Bearers of the Plague|QID|9158|M|72.49,32.14|N|From Farstrider Sedina at the Farstrider Enclave.|
 A Bring Me Kel'gash's Head!|QID|9215|M|72.22,31.18|N|From the Wanted Poster.|
 A Spirits of the Drowned|QID|9274|M|72.21,29.76|N|From Ranger Krenn'an.|
@@ -228,7 +55,6 @@ A Report to Captain Helios|QID|9146|PRE|9143|M|69.34,15.10|N|From Ranger Valanna
 C Spirits of the Drowned|QID|9274|US|M|71.04,24.00|N|Kill any ghost you see floating around in the lake.|
 T Spirits of the Drowned|QID|9274|M|72.21,29.76|N|To Ranger Krenn'an.|
 T Report to Captain Helios|QID|9146|M|72.37,29.63|N|To Captain Helios.|
-
 H Tranquillien|QID|9152|N|Hearth back to Tranquillien.|
 A The Plagued Coast|QID|9149|PRE|9327^9329|M|47.66,34.86|N|From Apothecary Renzithen.|
 A Tomber's Supplies|QID|9152|PRE|9327^9329|M|47.01,28.38|N|From Rathis Tomber.|
@@ -243,13 +69,11 @@ C Down the Dead Scar|QID|9155|M|39.76,32.47|N|Head down into the Dead Scar and k
 C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders untill you have 5 Crunchy Spider Legs.|S|
 C Salvaging the Past|QID|9150|M|33.41,32.40|N|Kill Mana Shifters and Arcane Devourers until you get 8 Mana Essences.|
 C Tomber's Supplies|QID|9152|M|33.56,26.81|N|It is in the wagon.\n\nYou will most likely have to clear an area around it.|NC|
-
 C Investigate An'daroth|QID|9160|M|37.22,23.98;38.06,18.77;37.04,15.90|CS|N|Kill the Sentinel Spies around An'daroth.\nHead into the center of the area to the monument to get the investigation part.|
 ;The QO step for 'Investigate An'daroth' removed since there was no way of really making it a QO step without it completing before getting there, or just not working.
 C Goldenmist Village|QID|9139|M|26.81,15.27|N|Run/drop down to Goldenmist and kill the ghosts that are needed.|
 C The Plagued Coast|QID|9149|M|19.02,24.06|N|Kill any murlocs you see for their spines. You will need 6 spines.|
 C Culinary Crunch|QID|9171|M|28.24,27.57|N|Kill spiders untill you have 5 Crunchy Spider Legs.|US|
-
 H Tranquillien|QID|9171|N|Hearth back to Tranquillien.|
 T Culinary Crunch|QID|9171|M|48.43,30.93|N|To Master Chef Mouldier.|
 r Repair/Restock|QID|9155|M|49.07,30.33|N|At Blacksmith Frances. Do not sell any Rotting Hearts you may have.|
@@ -271,7 +95,6 @@ l The Lady's Necklace|QID|9175|L|22597|N|Kill Acolytes and Fallen Rangers until 
 A The Lady's Necklace|QID|9175|U|22597|M|11.27,57.12|N|Accept the quest from the necklace.|
 C Windrunner Village|QID|9140|M|17.95,42.65|N|Jump into the water and swim into the village. Kill Phantasms and Gargoyles until you get 6 Phantasmals Substances, and 4 Gargoyle Fragments.|
 C Into Occupied Territory|QID|9163|M|10.56,22.49|N|Night Elf Plans: An'daroth and An'owyn, can be in several spots on the isle. Night Elf Plans: Scrying on Sin'dorei, is on the boat.|
-
 H Tranquillien|QID|9140|N|Hearth back to Tranquillien.|
 r Training/Repair/Sell Junk|QID|9140|M|49.11,30.32|N|Take this opportunity to update your skills from the trainers inside the Inn, and also Repair and sell junk from Blacksmith Frances.\n\nClick this step to continue.|
 A Spinal Dust|QID|9218|M|48.95,31.35|N|From Magistrix Aminel.|
@@ -289,7 +112,6 @@ A Journey to Undercity|QID|9177|PRE|9175|M|44.82,32.37|R|Orc,Troll,Undead,Tauren
 A Investigate the Amani Catacombs|QID|9193|M|44.88,32.70|N|From Advisor Valwyn.|
 A Clearing the Way|QID|9281|M|46.44,56.43|N|From Apprentice Vor'el. Kill any Ghostclaw Lynx's you see.|
 A The Farstrider Enclave|QID|9282|LEAD|9161|M|55.07,48.89|N|From Magister Kaendris.|
-
 T Underlight Ore Samples|QID|9207|M|55.00,48.61|N|To Magister Quallestis.|
 T Deliver the Plans to An'telas|QID|9166|M|56.53,45.39;60.28,35.74|CC|N|To Magister Sylastor.|
 A Deactivate An'owyn|QID|9169|PRE|9166|M|60.27,35.74|N|From Magister Sylastor.|
@@ -301,7 +123,6 @@ A Shadowpine Weaponry|QID|9214|M|72.36,29.74|N|From Captain Helios.|
 A A Little Dash of Seasoning|QID|9275|M|72.68,31.55|N|From Apothecary Venustus. Up the right ramp.|
 T The Farstrider Enclave|QID|9282|M|71.93,32.64|N|To Ranger Vynna.|
 A The Traitor's Shadow|QID|9161|M|71.93,32.64|N|From Ranger Vynna.|
-
 R Amani Catacombs|QID|9193|M|53.46,19.15;55.21,21.09;58.18,27.30|CS|N|Off the road to Suncrown Villiage.|
 C Troll Juju|QID|9199|M|66,28|N|Kill any Troll you come across to get 8 Troll Juju.|S|
 C Investigate the Amani Catacombs|QID|9193|NC|U|22755|M|62.92,32.46|N|Burn the Troll remains as you go.|S|
@@ -333,7 +154,6 @@ C A Little Dash of Seasoning|QID|9275|M|62.82,75.13|QO|2|NC|N|Poison the Smoked 
 K Bring Me Kel'gash's Head!|QID|9215|QO|1|M|65.33,79.51|N|If you feel that you can kill Kel'gash, or if you have help, go ahead and try. He is stunnable and silenceable.|
 C Assault on Zeb'Nowa|QID|9277|M|62.90,66.38|N|Kill Shadowpine Catlords and Hexxers.|US|
 C Shadowpine Weaponry|QID|9214|M|63.86,66.49|US|N|Kill Catlords and Hexxers till you get 3 Hexxer Staves and 3 Catlord Claws.|
-
 H Tranquillien|QID|9193|U|6948|N|Hearth back to Tranquillien or fly there if you want to save your hearth.|
 A The Sanctum of the Sun|QID|9151|LEAD|9220|M|46.01,31.95|N|From Magister Darenis.|
 r Repair/Restock|M|49.07,30.33|N|At Blacksmith Frances.|
@@ -346,7 +166,6 @@ T Report to Magister Kaendris|QID|9172|M|55.01,48.93|N|To Magister Kaendris.|
 A The Twin Ziggurats|QID|9176|PRE|9172|M|55.02,48.93|N|From Magister Kaendris.|
 T The Sanctum of the Sun|QID|9151|M|54.92,48.43|N|To Magister Idonis.|
 A War on Deatholme|QID|9220|M|54.92,48.43|N|From Magister Idonis.|
-
 l Stone of Flame|QID|9176|M|40.35,49.85|N|Go inside the Howling Ziggurat and loot the Stone of Flame.|L|22599|
 C The Twin Ziggurats|QID|9176|M|34.30,47.60|N|Go inside the Bleeding Ziggurat and loot the Stone of Light.|
 C Curbing the Plague|QID|9159|M|25.25,44.36|QO|2|N|Kill the 8 Spindleweb Lurkers you need.|
@@ -363,7 +182,6 @@ T Assault on Zeb'Nowa|QID|9277|M|72.34,31.38|N|To Farstrider Solanna.|
 T Bring Me Kel'gash's Head!|QID|9215|M|72.34,29.80|N|To Captain Helios.|
 T Shadowpine Weaponry|QID|9214|M|72.34,29.80|N|To Captain Helios.|
 T A Little Dash of Seasoning|QID|9275|M|72.68,31.54|N|To Apothecary Venustus.|
-
 H Tranquillien|QID|9218|N|Hearth back to Tranquillien.|
 T Spinal Dust|QID|9218|M|48.97,31.44|N|To Magistrix Aminel.|
 r Repair/Restock|QID|9877|M|49.05,30.32|N|At Blacksmith Frances.|
@@ -388,7 +206,6 @@ K Luzran |QID|9156|M|39.5,32;37.3,67.5|CN|N|If you have help or can solo Luzran 
 K Knucklerot |QID|9156|M|25.4,16.3;29.4,21;27.7,29.9;30.4,35.9;27.5,38.1;22.2,40.4;22.6,49.1;25.6,55.4;33.1,53.1;41.7,45.2|CN|N|If you have help or can solo Knucklerot, look for him where the waypoints are. If not, go ahead and skip.|RANK|3|
 T WANTED: Knucklerot and Luzran|QID|9156|M|46.02,33.56|N|To Deathstalker Rathiel.|RANK|3|
 R Tranquillien|QID|9328|M|46,33|N|Run to Tranquillien.|
-
 F Eversong Woods|QID|9328|M|46,30|N|Fly to Silvermoon City flight hub.|
 N Getting a mount|QID|9328|R|BloodElf|M|61.3,54|Z|Eversong Woods|N|You should be at least level 20 by now. Go and get a mount. It costs 4 gold for the training, and 1 gold for the mount. Find Perascamin, and get your Apprentice Riding. Then buy a mount from Winaestra. Close to continue.|
 N Training|QID|9328|N|Visit your trainers, AH, etc. Close this step to continue.|
@@ -397,15 +214,11 @@ T Friend of the Sin'dorei|QID|9811|M|53.98,20.42|R|Orc,Troll,Tauren,Undead,Gobli
 A Envoy to the Horde|QID|9621|PRE|9328|M|53.98,20.42|R|BloodElf|Z|Silvermoon City|N|From Lor'themar Theron .|
 A Envoy to the Horde|QID|9812|PRE|9811|M|53.98,20.42|R|Orc,Troll,Tauren,Undead,Goblin|Z|Silvermoon City|N|From Lor'themar Theron .|
 R Undercity|QID|9180|M|49.49,14.76|Z|Silvermoon City|N|Go to the room behind Lor'themar, and click on the Orb of Translocation.|
-
 A Warchief's Command: Hillsbrad Foothills!|QID|28571|LEAD|28096|M|66.03,49.64|Z|Undercity|N|From the Warchief's Command Board.|
 T Envoy to the Horde|QID|9621|M|57.59,91.64|R|BloodElf|Z|Undercity|N|To Lady Sylvanas Windrunner.|
 T Envoy to the Horde|QID|9812|M|57.59,91.64|R|Orc,Troll,Tauren,Undead,Goblin|Z|Undercity|N|To Lady Sylvanas Windrunner.|
 T Journey to Undercity|QID|9180|M|57.59,91.64|R|BloodElf|Z|Undercity|N|To Lady Sylvanas Windrunner.|
 T Journey to Undercity|QID|9177|M|57.59,91.64|R|Orc,Troll,Undead,Tauren,Goblin|N|From High Executor Mavren.|
 N Next guide|QID|28571|Z|Undercity|N|The end of this guide is taking you to Hillsbrad Foothillsas well as get flightpoints. If you don't want to do that zone, go ahead and choose which zone you want. Right-click this step to continue.|
-
 ]]
 end)
-
-

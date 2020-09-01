@@ -1,122 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_cape_stranglethorn_horde
--- Date: 2018-10-17 02:27
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3238/revisions/29583/view
--- Date: 2018-08-23 18:52
--- Who: Emmaleah
--- Log: Remove old style QOs, Change Akiris by the bundle to -Goblin, to add support for new allied races.
-
--- URL: http://wow-pro.com/node/3238/revisions/29203/view
--- Date: 2018-02-27 17:44
--- Who: Ludovicus_EditBot
--- Log: Level strip
-
--- URL: http://wow-pro.com/node/3238/revisions/29091/view
--- Date: 2018-02-20 21:40
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3238/revisions/28883/view
--- Date: 2018-01-16 23:40
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3238/revisions/28428/view
--- Date: 2017-03-15 23:24
--- Who: Ludovicus_Maior
--- Log: Added PREs to WkjCap3035
-
--- URL: http://wow-pro.com/node/3238/revisions/27265/view
--- Date: 2015-05-26 21:37
--- Who: Fluclo
-
--- URL: http://wow-pro.com/node/3238/revisions/26922/view
--- Date: 2014-11-08 06:24
--- Who: Emmaleah
--- Log: Delete Dup M on It's You, Add Pandaren to Akiris by the Bundle
-
--- URL: http://wow-pro.com/node/3238/revisions/26487/view
--- Date: 2014-06-04 20:09
--- Who: Ludovicus_Maior
--- Log: Adj maxlevel
-
--- URL: http://wow-pro.com/node/3238/revisions/26452/view
--- Date: 2014-06-02 15:16
--- Who: Ludovicus_Maior
--- Log: Set Levels
-
--- URL: http://wow-pro.com/node/3238/revisions/26237/view
--- Date: 2014-05-25 22:53
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3238/revisions/26096/view
--- Date: 2014-05-18 22:11
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3238/revisions/26025/view
--- Date: 2014-05-17 16:56
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3238/revisions/25577/view
--- Date: 2013-03-23 19:03
--- Who: Ludovicus_Maior
--- Log: Cleaned up [The Holy Water of Clarity]
-
--- URL: http://wow-pro.com/node/3238/revisions/25286/view
--- Date: 2013-01-09 01:03
--- Who: Ludovicus_Maior
--- Log: Two different QIDs for [The Holy Water of Clarity]
-
--- URL: http://wow-pro.com/node/3238/revisions/24716/view
--- Date: 2011-08-06 08:20
--- Who: Gethe
--- Log: Added the quest "It's You!!" as a Goblin replacement for "Akiris by the Bundle"
-
--- URL: http://wow-pro.com/node/3238/revisions/24476/view
--- Date: 2011-06-01 00:47
--- Who: Crackerhead22
--- Log: Removed "A Nothing Left for You Here|QID|26134|M|42.83,89.89|Z|" lines, as they belonged to a different zone.
-
--- URL: http://wow-pro.com/node/3238/revisions/24331/view
--- Date: 2011-04-29 16:24
--- Who: Ludovicus_Maior
--- Log: Line 216 for step R has unknown tag [Nalk to Keebok ..]
-
--- URL: http://wow-pro.com/node/3238/revisions/24080/view
--- Date: 2011-01-30 19:17
--- Who: Ludovicus_Maior
--- Log: Corrected RegisterGuide line to match GIT.
-
--- URL: http://wow-pro.com/node/3238/revisions/23580/view
--- Date: 2010-12-04 21:02
--- Who: wkjezz
-
--- URL: http://wow-pro.com/node/3238/revisions/23357/view
--- Date: 2010-12-03 11:10
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3238/revisions/23354/view
--- Date: 2010-12-03 11:09
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('WkjCap3035', "Leveling", 'The Cape of Stranglethorn', 'Wkjezz', 'Horde')
-WoWPro:GuideLevels(guide,29,34, 30.1269)
-WoWPro:NewGuideLevels(guide,30,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'JiyWes3540')
-WoWPro:GuideIcon(guide,"ACH",4905)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 f Hardwrench Hideaway|QID|26404|M|35.15,29.24|N|At Hizzle.|
 T Above My Pay Grade|QID|26404|M|34.79,29.49|N|To Sassy Hardwrench.|
 A It's You!!|QID|26489|R|Goblin|M|34.76,29.54|N|From Sassy Hardwrench.|
@@ -124,7 +10,6 @@ A Akiris by the Bundle|QID|26487|R|-Goblin|M|34.76,29.54|N|From Sassy Hardwrench
 A If They're Just Going to Leave Them Lying Around...|QID|26450|M|34.81,29.58|N|From Sassy Hardwrench.|
 A The Holy Water of Clarity|QID|26433^26590|M|33.73,29.16|N|From Flem Gizzix.|
 h Hardwrench Hideaway|QID|26433|M|35.07,27.20|N|At Innkeeper Draxle.|
-
 C It's You!!|QID|26489|R|Goblin|S|QO|Akiris Reed: 0/6|
 C Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead,Pandaren|S|
 C If They're Just Going to Leave Them Lying Around...|QID|26450|S|
@@ -163,7 +48,6 @@ T Backdoor Dealings|QID|26550|M|34.58,28.05|N|To Chabal.|
 A Eliminate the Outcast|QID|26551|PRE|26550|M|34.57,28.02|N|From Chabal.|
 T Zanzil's Secret|QID|26533|M|35.15,27.51|N|To Mixmaster Jasper.|
 A Let's See What You've Got, Zanzil|QID|26534|PRE|26533|M|35.15,27.51|N|From Mixmaster Jasper.|
-
 C Let's See What You've Got, Zanzil|QID|26534|M|35.81,30.23|N|All of these guys are in a hut. Talk to them in turn (Do Orgus Last)|
 T Let's See What You've Got, Zanzil|QID|26534|M|35.16,27.52|N|To Mixmaster Jasper.|
 A Recipe for Disaster|QID|26535|PRE|26534|M|35.16,27.52|N|From Mixmaster Jasper.|
@@ -328,7 +212,4 @@ T Bloodsail's End|QID|26703|M|41.13,73.12|N|To Baron Revilgaz.|
 A The Battle for Andorhal|QID|28750|LEAD|26921|M|41.73,74.05|N|From Arcanist Arman.|
 T The Battle for Andorhal|QID|28750|M|47.81,65.17|Z|Western Plaguelands|N|Take the portal and hand in to Koltira Deathweaver.|
 ]]
-
 end)
-
-

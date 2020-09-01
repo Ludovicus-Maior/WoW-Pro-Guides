@@ -1,178 +1,6 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_terokkar_forest_alliance
--- Date: 2018-10-17 02:24
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3277/revisions/29177/view
--- Date: 2018-02-26 21:43
--- Who: Ludovicus_EditBot
--- Log: Level strip
-
--- URL: http://wow-pro.com/node/3277/revisions/29050/view
--- Date: 2018-02-20 01:16
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3277/revisions/28899/view
--- Date: 2018-01-16 23:51
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3277/revisions/28604/view
--- Date: 2017-03-24 00:15
--- Who: Ludovicus_Maior
--- Log: Added missing coords for Fumping
-
--- URL: http://wow-pro.com/node/3277/revisions/28390/view
--- Date: 2017-03-15 21:37
--- Who: Ludovicus_Maior
--- Log: Added PREs to JamTer6466
-
--- URL: http://wow-pro.com/node/3277/revisions/27924/view
--- Date: 2016-10-16 00:22
--- Who: Ludovicus_Maior
--- Log: Removed extra coords from [T A Hero Is Needed] and [A The Fallen Exarch]
-
--- URL: http://wow-pro.com/node/3277/revisions/27891/view
--- Date: 2016-10-09 16:04
--- Who: tubera
--- Log: Fix QOs, add coordinates. On Aldor/Neutral quests.
-
--- URL: http://wow-pro.com/node/3277/revisions/27858/view
--- Date: 2016-10-01 03:43
--- Who: tubera
--- Log: Fix QO/Zone (1st part)
-
--- URL: http://wow-pro.com/node/3277/revisions/27165/view
--- Date: 2015-03-09 17:38
--- Who: Ludovicus_Maior
--- Log: Missing N value.
-
--- URL: http://wow-pro.com/node/3277/revisions/26819/view
--- Date: 2014-11-06 13:43
--- Who: Fluclo
--- Log: Removed duplicate tags
-
--- URL: http://wow-pro.com/node/3277/revisions/26607/view
--- Date: 2014-07-25 21:46
--- Who: Ludovicus_Maior
--- Log: Add mean
-
--- URL: http://wow-pro.com/node/3277/revisions/26358/view
--- Date: 2014-05-27 20:57
--- Who: Ludovicus_Maior
--- Log: GuideLevels corrected from "64,66" to "60,65".
-
--- URL: http://wow-pro.com/node/3277/revisions/26270/view
--- Date: 2014-05-26 00:37
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3277/revisions/26148/view
--- Date: 2014-05-20 19:39
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3277/revisions/25984/view
--- Date: 2014-05-14 22:39
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3277/revisions/25745/view
--- Date: 2013-08-15 23:23
--- Who: Ludovicus_Maior
--- Log: Add missing coords around [Terokkarantula] quests.
-
--- URL: http://wow-pro.com/node/3277/revisions/25400/view
--- Date: 2013-01-13 01:12
--- Who: Ludovicus_Maior
--- Log: Some CN tags
-
--- URL: http://wow-pro.com/node/3277/revisions/24890/view
--- Date: 2012-01-18 22:02
--- Who: Ludovicus_Maior
--- Log: Add coords for [ Taken in the Night], [Auchindoun] and [Skywing].
-
--- URL: http://wow-pro.com/node/3277/revisions/24836/view
--- Date: 2011-12-05 13:28
--- Who: Crackerhead22
--- Log: 4.3 updates
-
--- URL: http://wow-pro.com/node/3277/revisions/24677/view
--- Date: 2011-07-11 22:37
--- Who: Ludovicus_Maior
--- Log: Add numeric REP tags
-
--- URL: http://wow-pro.com/node/3277/revisions/24470/view
--- Date: 2011-05-31 21:41
--- Who: Crackerhead22
--- Log: Fixed typos found by andyarnolduk.
-
--- URL: http://wow-pro.com/node/3277/revisions/24424/view
--- Date: 2011-05-27 02:13
--- Who: Crackerhead22
--- Log: Fixed typo on step "N Northern Altar|QID|10021|N|Right-click the northern altar here.|M|50.70,16.60|QO|Northern Altar: 1/1|REP|Aldor|" and fixed flight point grab for Allerian Stronghold.
-
--- URL: http://wow-pro.com/node/3277/revisions/24306/view
--- Date: 2011-04-29 14:51
--- Who: Ludovicus_Maior
--- Log: Line 55 for step N has 3 M coords, Line 248 for step C has unknown tag [52.00,58.00], Line 273 for step C has unknown tag [52.00,58.00], Line 289 for step T has unknown tag [To Magistriz Fyalenn.].
-
--- URL: http://wow-pro.com/node/3277/revisions/24208/view
--- Date: 2011-04-05 11:02
--- Who: Crackerhead22
--- Log: Fixed REP tag so it would work, fixed notes, fixed cords.  Added O tags, added couple of sticky steps.
-
--- URL: http://wow-pro.com/node/3277/revisions/24122/view
--- Date: 2011-02-21 00:07
--- Who: Crackerhead22
--- Log: Added missing zone tag.
-
--- URL: http://wow-pro.com/node/3277/revisions/24119/view
--- Date: 2011-02-20 17:24
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3277/revisions/24004/view
--- Date: 2011-01-17 03:49
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3277/revisions/24003/view
--- Date: 2011-01-17 03:25
--- Who: Crackerhead22
--- Log: Updated source code for so it includes |Rep| tags.
-
--- URL: http://wow-pro.com/node/3277/revisions/23953/view
--- Date: 2011-01-08 10:35
--- Who: Crackerhead22
--- Log: Fixed setting hearth step not auto-completing, fixed a couple missing |Z| tag issue.
-
--- URL: http://wow-pro.com/node/3277/revisions/23731/view
--- Date: 2010-12-11 02:36
--- Who: Crackerhead22
--- Log: Updated source code for Aldor and Scryers.  Added in |Z| where needed, added sticky steps, removed an outdated quest.
-
--- URL: http://wow-pro.com/node/3277/revisions/23445/view
--- Date: 2010-12-03 21:32
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3277/revisions/23442/view
--- Date: 2010-12-03 21:22
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3277/revisions/23441/view
--- Date: 2010-12-03 21:21
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("JamTer6466", "Leveling", "Terokkar Forest", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,60,65,62.2064)
-WoWPro:NewGuideLevels(guide,62,80)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, "JamNag6668")
-WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 F Shattrath City|QID|10211|N|Fly to Shattrath City.|M|41.28,28.98|Z|Zangarmarsh|
@@ -183,23 +11,19 @@ C City of Light |N|Follow the npc until you get the quest completion.|QID|10211|
 T City of Light |Z|Shattrath City|QID|10211|M|54.8,44.3|N|To Kadgar.|
 N At this point you will have to choose either Aldor or Scryers.|N|Right click the box to continue.|Z|Shattrath City|QID|10553^10554|
 N Allegiance to the ...|QID|10553^10554|N|Either turn in the quest "Allegiance to the Aldor" if you want to be with Aldor, or "Allegiance to the Scyers" if you want to be with the Scryers. Then close this step.|Z|Shattrath City|M|55.00,43.98|
-
 A Ishanah |Z|Shattrath City|QID|10554|M|54.8,44.3|N|From Khadgar.|REP|Aldor;932|
 T Ishanah |QID|10554|N|To Ishanah. You must take the elevator up to this area.|Z|Shattrath City|M|24.0,29.7|REP|Aldor;932|
 A Restoring the Light|Z|Shattrath City|QID|10021|M|24.0,29.7|N|From Ishanah.|REP|Aldor;932|
 h Shattrath City|QID|9957|Z|Shattrath City|N|Make Shattrath City (Aldor Rise) your home location.|M|28.00,49.00|REP|Aldor;932|
 r Sell junk, Repair, restock, train skills|QID|9957|N|Sell junk, Repair, restock, train skills.|M|27.92,47.45|REP|Aldor;932|Z|Shattrath City|
-
 A Voren'thal the Seer|Z|Shattrath City|QID|10553|M|54.8,44.3|N|From Khadgar.|REP|Scryers;934|
 T Voren'thal the Seer|Z|Shattrath City|N|You must take the elevator up to this area.|QID|10553|M|43.5,91.8|REP|Scryers;934|
 h Shattrath City|QID|9957|N|Make Shattrath City (Scryers Tier) your home location.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
 r Sell junk, Repair, restock, train skills|QID|9957|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
-
 N Do Underbog or Slave Pens (Optional)|N|You can do the instances in Zangarmarsh for extra XP if you wish.|
 A Rather Be Fishin'|QID|10037|M|64.0,15.5|Z|Shattrath City|N|From Seth.|
 A The Outcast's Plight|QID|10917|M|51.1,17.64;45.1,19.9|Z|Shattrath City|CN|N|From Vekax. He tends to wander between the two treehouses.|
 A The Eyes of Skettis|QID|10847|M|52.6,21.0|Z|Shattrath City|N|From Rilak the Redeemed.|
-
 R Terokkar Forest|QID|9957|N|Go out of Shattrath City.|M|39.5,9.9|
 C Rather Be Fishin'|N|Kill eels until you finish this quest.|QID|10037|M|38.00,13.00|
 T What's Wrong at Cenarion Thicket? |QID|9957|M|44.3,26.3|N|To Earthbinder Tavgren.|
@@ -217,7 +41,6 @@ T Strange Energy|QID|9968|M|44.3,26.3|N|To Earthbinder Tavgren.|
 A By Any Means Necessary|QID|9978|PRE|9968^9971|M|44.3,26.3|N|From Earthbinder Tavgren.|
 T By Any Means Necessary|QID|9978|M|47.1,27.0|N|Find Empoor on the road between Shattrath City and Tuurem. Talk to him and then fight him to low health. Turn this quest in right after this.|
 A Wind Trader Lathrai|QID|9979|PRE|9978|M|47.1,27.0|N|From Empoor.|
-
 R Allerian Stronghold|QID|9793|M|58.3,53.48|N|Run to the Allerian Stronghold.|
 A Wanted: Bonelashers Dead!|QID|10033|M|57.60,54.70|N|From the Wanted Poster.|
 A Olemba Seeds |QID|9992|M|57.4,55.4|N|From Ros'eleth.|
@@ -229,7 +52,6 @@ A Timber Worg Tails |QID|10016|M|58.3,54.8|N|From Bertelm.|
 T The Fate of Tuurem |QID|9793|M|58.5,53.6|N|To Andarl.|
 A Magical Disturbances |QID|10026|M|58.5,53.6|N|From Andarl.|
 f Allerian Stronghold|QID|10021|N|Get the flight path.|M|59.45,55.40|
-
 N From now on... |QID|10016|N|From now on, kill Timber Worgs, Timber Alphas, Warp Stalkers, and look for Olemba Seeds on the ground.|
 C Thin the Flock|N|Kill mobs for this quest.|QID|10869|S|
 C The Outcast's Plight |N|Kill Arakkoa to get their feathers.|QID|10917|S|
@@ -242,7 +64,6 @@ C Northern Altar|QID|10021|N|Right-click the northern altar here.|M|50.70,16.60|
 C Restoring the Light|N|Right-click the Altar here to complete the quest.|QID|10021|M|48.10,14.50|REP|Aldor;932|QO|3|NC|
 C Thin the Flock|N|Kill mobs until you finish this quest.|QID|10869|US|
 C The Outcast's Plight|N|Kill Arakkoa to get their feathers.|QID|10917|US|
-
 H Shattrath City|QID|10021|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 r Sell junk, Repair, restock|QID|10021|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|
 H Shattrath City|QID|10021|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
@@ -256,7 +77,6 @@ A A Cure for Zahlia |QID|10020|Z|Shattrath City|M|64.43,15.4|N|From Sha'nir.|REP
 T Wind Trader Lathrai|QID|9979|Z|Shattrath City|M|72.2,30.7|N|To Wind Trader Lathrai.|
 A A Personal Favor|QID|10112|PRE|9979|Z|Shattrath City|M|72.2,30.7|N|From Wind Trader Lathrai.|
 R Terokkar Forest|QID|10038|Z|Shattrath City|N|Exit the city to Terokkar.|M|86.33,44.76|
-
 T Speak with Private Weeks|QID|10038|M|40.5,36.2|N|To Private Weeks.|
 A Who Are They?|QID|10040|PRE|10038|M|40.5,36.2|N|From Private Weeks.|
 N Do not fight anything for now|QID|10040|N|Do not fight anything while disguised or you will lose it.|
@@ -283,7 +103,6 @@ A Veil Rhaze: Unliving Evil |QID|10848|PRE|10839|M|37.4,51.5|N|Frin Kirrik the A
 T Missing Friends |QID|10852|M|37.7,51.3|N|To Ethan.|
 A The Tomb of Lights |QID|10840|PRE|10852|M|37.5,50.8|N|From High Priest Orglum.|
 A Vengeful Souls|QID|10842|PRE|10852|N|From Hight Priest Orglum.|
-
 C Wanted: Bonelashers Dead!|N|Kill Bonelashers until you finish this quest.|QID|10033|M|42,51|S|
 C Before Darkness Falls |N|Kill Orcs until you finish this quest.|QID|10878|M|40.00,56.00|
 l Mark of Kil'jaeden|QID|10325|N|Kill orcs until you have 10 marks.|L|29425 10|M|40.00,56.00|REP|Aldor;932|
@@ -299,7 +118,6 @@ T Before Darkness Falls |QID|10878|M|37.4,51.2|N|To Mekeda.|
 T Cabal Orders |QID|10880|M|37.4,51.2|N|To Mekeda.|
 A The Shadow Tomb |QID|10881|PRE|10880|M|37.4,51.2|N|From Mekeda.|
 A Recover the Bones |QID|10030|PRE|10840&10842|N|From Soolaveen.|M|37.06,49.62|
-
 H Shattrath City|QID|10112|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 r Sell junk, Repair, restock|QID|10112|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|
 H Shattrath City|QID|10112|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
@@ -309,7 +127,6 @@ T Marks of Kil'jaeden|QID|10325|M|30.7,34.6|N|To Adyen the Lightwarden.|Z|Shattr
 T A Personal Favor |QID|10112|M|72.2,30.7|N|To Wind Trader Lathrai.|Z|Shattrath City|
 A Investigate Tuurem |QID|9990|PRE|10112|M|72.2,30.7|N|From Wind Trader Lathrai.|Z|Shattrath City|
 F Allerian Stronghold |QID|9986|N|Fly to Allerian Stronghold.|M|64.00,41.10|Z|Shattrath City|
-
 T Stymying the Arakkoa |QID|9986|M|57.8,54.3|N|To Thander.|
 T Wanted: Bonelashers Dead!|QID|10033|M|58.1,53.4|N|To Taela Everstride.|
 A Torgos!|QID|10035|PRE|10033|M|58.1,53.4|N|From Taela Everstride.|
@@ -325,7 +142,6 @@ A The Firewing Liaison|QID|10002|PRE|9998|M|69.7,44.2|N|From Theloria Shadecloak
 A Thinning the Ranks|QID|10007|PRE|9998|M|69.7,44.2|N|From Theloria Shadecloak.|
 C Thinning the Ranks |N|Kiill the mobs needed for this quest.|QID|10007|S|
 C The Firewing Liaison|N|Kill Lisaile Fireweaver.|QID|10002|M|67.00,53.00|
-
 A Fel Orc Plans|QID|10012|PRE|9998|M|67.90,53.60|N|Click on the plans on the ground.|
 C Thinning the Ranks |N|Kiill the mobs needed for this quest.|QID|10007|US|
 C Magical Disturbances |N|Kill the rest of the Warp Stalkers for this quest.|QID|10026|M|55.00,37.00|US|
@@ -341,14 +157,12 @@ C Investigate Tuurem |N|Kill the Firewing Courier and loot the box.|QID|9990|M|5
 l Vessels of Power |N|Loot the vessels you need from the ground, you will not always get a vessel.|QID|10028|QO|1|M|54.1,32.1|US|
 T Investigate Tuurem |QID|9990|M|44.3,26.3|N|To Eartbinder Tavgren.|
 A What Are These Things? |QID|9994|PRE|9990|M|44.3,26.3|N|From Earthbinder Tavgren.|
-
 H Shattrath City|QID|9994|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 r Sell junk, Repair, restock|QID|10180|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|
 H Shattrath City|QID|9994|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
 r Sell junk, Repair, restock, train skills|QID|9994|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
 A Can't Stay Away|QID|10180|Z|Shattrath City|N|From Oloraak.|M|57.85,15.47|
 F Allerian Stronghold|QID|9994|N|Fly to Allerian Stronghold. |M|63.92,41.56|Z|Shattrath City|
-
 T What Are These Things?|QID|9994|M|57.01,53.49|N|To Jeni Starwhisper.|
 A Report to the Allerian Post|QID|10444|PRE|9994|M|57.0,53.5|N|From Jenai Starwhisper.|
 T Vessels of Power|QID|10028|M|57.4,55.4|N|To Ros'eleth.|
@@ -373,7 +187,6 @@ A Letting Earthbinder Tavgren Know|QID|10005|PRE|10446|M|57.0,53.5|N|From Jenai 
 T The Elusive Ironjaw |QID|10022|M|58.3,54.8|N|To Bertelm.|
 T Escape from Firewing Point!|QID|10051|M|57.2,55.7|N|To Captain Auric Sunchaser.|
 N Sell junk, Repair, restock |QID|10896|M|56.51,54.94|
-
 C Recover the Bones |N|Loot the bones needed for this quest.|QID|10030|S|M|52.00,58.00|
 C The Infested Protectors|N|Kill treant mobs and then the spawned wood mites until you finish this quest.|QID|10896|M|52.00,58.00|
 l Trachela's Carcass|QID|10035|N|Kill Trachela and loot the carcass.|L|30618|M|43.00,51.00|T|Trachela|
@@ -400,7 +213,6 @@ C Digging Through Bones |N|Do this escort quest.|QID|10922|M|31.0,76.1|
 T Digging Through Bones |QID|10922|M|31.0,76.1|N|To Dwarfowitz.|
 A Fumping |QID|10929|PRE|10922|M|30.98,76.19|N|From Dwarfowitz.|
 C Recover the Bones |N|Loot the rest of the bones needed for this quest.|QID|10030|US|M|52.00,58.00|
-
 R Auchindoun |QID|10227|N|Enter Auchindoun from this location on the inside of the ring. |M|37.38,65.62|
 A I See Dead Draenei|QID|10227|N|From Ha'lei.|M|35.11,65.09|
 T I See Dead Draenei|QID|10227|N|To Ramdor the Mad.|M|35.16,66.18|
@@ -408,12 +220,10 @@ A Ezekiel |QID|10228|PRE|10227|N|From Ramdor the Mad.|M|35.16,66.18|
 T Recover the Bones |QID|10030|N|To Ramdor the Mad.|M|35.16,66.18|
 A Helping the Lost Find Their Way|QID|10031|PRE|10030|N|From Ramdor the Mad.|M|35.16,66.18|
 T Can't Stay Away |QID|10180|N|To Isfar just inside Sehekk Halls.|M|44.79,65.6|
-
 H Shattrath City |QID|10020|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 r Sell junk, Repair, restock|QID|10020|M|28.11,47.65|Z|Shattrath City|REP|Aldor;932|
 H Shattrath City |QID|10020|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
 r Sell junk, Repair, restock, train skills|QID|10412|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
-
 A Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|From Magistriz Fyalenn.|REP|Scryers;934|
 T Firewing Signets|QID|10412|Z|Shattrath City|M|45.35,81.23|N|To Magistriz Fyalenn.|REP|Scryers;934|
 T A Cure for Zahlia|QID|10020|Z|Shattrath City|N|To Sha'nir.|M|64.37,15.55|REP|Aldor;932|
@@ -422,7 +232,6 @@ A What Book? I Don't See Any Book.|QID|10231|PRE|10228|Z|Shattrath City|N|From E
 C What Book? I Don't See Any Book.|Z|Shattrath City|N|Talk to "Dirty" Larry in Lower City and then get him down to 1% health.|QID|10231|M|43.58,29.36|
 T What Book? I Don't See Any Book.|QID|10231|Z|Shattrath City|N|To "Dirty" Larry.|M|43.58,29.36|
 A The Master's Grand Design? |QID|10251|PRE|10231|Z|Shattrath City|M|43.58,29.36|N|From "Dirty" Larry.|
-
 T Letting Earthbinder Tavgren Know |QID|10005|M|44.3,26.3|N|To Earthbinder Tavgren.|
 T Veil Lithic: Preemptive Strike |QID|10861|M|37.4,51.5|N|To Kirrik the Awakened.|
 A Veil Shalas: Signal Fires |QID|10874|PRE|10861|M|37.4,51.5|N|From Kirrik the Awakened.|
@@ -436,7 +245,6 @@ A A Hero Is Needed|QID|10914|PRE|10913|M|31.0,76.1|N|From Commander Ra'vaj.|
 C A Hero Is Needed |N|Kill the mobs for this quest.|QID|10914|M|36.00,74.00|
 C The Dread Relic|N|Go here and loot the relic from the chest. A bunch of weak undead will spawn, but if you are quick enough, you can get away.|QID|10877|M|44.00,76.00|
 C Helping the Lost Find Their Way |N|Kill the rest of the mobs for this quest.|QID|10031|M|40.00,78.00|US|
-
 N The Big Bone Worm|N|For those used to the old way, Blizz has changed it to where, Hai'shulud will follow you into the tunnels.|QID|10930|
 C The Big Bone Worm |N|Kill a Decrepit Clefthoof and then use the Fumper on it. Keep trying the fumper until Hai'shulud spawns, then kill and loot it.|QID|10930|M|44.00,73.00|U|31825|
 A For the Fallen |QID|10920|N|From Vindicator Haylen.|M|49.71,76.18|
@@ -456,7 +264,6 @@ N Emerald Signel Fire|QID|10874|M|55.47,69.8|QO|2|N|Keep following Skywing, clic
 C Veil Shalas: Signal Fires |N|After getting all of the signal fires except sapphire, mount and fly to the next treehouse where the Sapphire Signal Fire is, then extinguish it.|QID|10874|QO|1|M|55.2,67.1|
 C Skywing|N|Follow the bird, he is quick and likes to attack everything. The mobs in the treehouse use knockback, so do not go near the edge. Turn off the fires when you get near them for the other quest.|QID|10898|US|
 T Torgos!|QID|10035|N|To Taela Everstride.|M|58.1,53.42|
-
 T Helping the Lost Find Their Way |QID|10031|N|To Soolaveen.|M|37.09,49.53|
 T Veil Shalas: Signal Fires |QID|10874|M|37.4,51.5|N|To Kirrik the Awakened.|
 A Return to Shattrath |QID|10889|PRE|10874|M|37.4,51.5|N|From Kirrik the Awakened.|
@@ -472,7 +279,6 @@ l Evil Draws Near|QID|10923|M|48.9,66.47|N|Kill Auchenai Death-Speakers and Auch
 C Evil Draws Near|QID|10923|M|48.65,67.16|N|Use the Dread Relic and the glowing purple spot and kill Teribus. He flies down from the west.|U|31811|O|
 T Evil Draws Near|QID|10923|M|31.1,76.5|N|To Oakun.|O|
 T The Fallen Exarch|QID|10915|M|31.0,76.1|N|To Commander Ra'vaj.|
-
 H Shattrath City|QID|10889|N|Hearth to Shattrath City.|M|28.09,48.88|Z|Shattrath City|REP|Aldor;932|
 H Shattrath City|QID|10889|N|Hearth to Shattrath City.|M|56.35,81.55|Z|Shattrath City|REP|Scryers;934|
 T Return to Shattrath|QID|10889|M|52.6,21.0|Z|Shattrath City|N|To Rilak the Redeemed.|
@@ -484,5 +290,3 @@ r Sell junk, Repair, restock|M|28.11,47.65|Z|Shattrath City|N|Visit your trainer
 r Sell junk, Repair, restock.|N|Visit your trainers, etc. Close this step to continue to the next guide.|M|54.6,82.4|Z|Shattrath City|REP|Scryers;934|
 ]]
 end)
-
-

@@ -1,128 +1,6 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_icecrown_alliance
--- Date: 2018-10-17 02:25
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3301/revisions/29597/view
--- Date: 2018-08-24 14:59
--- Who: Ludovicus_Maior
--- Log: Add QO's for [Bloodspattered Banners]
-
--- URL: http://wow-pro.com/node/3301/revisions/29059/view
--- Date: 2018-02-20 01:30
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3301/revisions/28919/view
--- Date: 2018-01-17 00:03
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3301/revisions/28399/view
--- Date: 2017-03-15 21:53
--- Who: Ludovicus_Maior
--- Log: Added PREs to EstIce7985
-
--- URL: http://wow-pro.com/node/3301/revisions/27786/view
--- Date: 2016-09-14 18:35
--- Who: Ludovicus_Maior
--- Log: Dalaran City@Dalaran
-
--- URL: http://wow-pro.com/node/3301/revisions/26405/view
--- Date: 2014-05-30 12:23
--- Who: Ludovicus_Maior
--- Log: Level setting
-
--- URL: http://wow-pro.com/node/3301/revisions/26347/view
--- Date: 2014-05-27 20:32
--- Who: Ludovicus_Maior
--- Log: GuideLevels corrected from "79,85" to "0,77".
-
--- URL: http://wow-pro.com/node/3301/revisions/26291/view
--- Date: 2014-05-26 01:11
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3301/revisions/26163/view
--- Date: 2014-05-20 19:54
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3301/revisions/25993/view
--- Date: 2014-05-14 22:48
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3301/revisions/25443/view
--- Date: 2013-01-13 16:23
--- Who: Ludovicus_Maior
--- Log: corrected CN
-
--- URL: http://wow-pro.com/node/3301/revisions/25383/view
--- Date: 2013-01-12 20:50
--- Who: Emmaleah
--- Log: fixes for multi coordinates
-
--- URL: http://wow-pro.com/node/3301/revisions/24967/view
--- Date: 2012-02-25 14:30
--- Who: Estelyen
--- Log: Just played through Icecrown again and wrote down some fixes while at it.
-
--- URL: http://wow-pro.com/node/3301/revisions/24849/view
--- Date: 2011-12-09 20:22
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3301/revisions/24618/view
--- Date: 2011-06-27 22:22
--- Who: Ludovicus_Maior
--- Log: ZoneError|Vers=2.1.16|Guide=EstIce7985|Line=A The Boon of A'dal|QID|13082|N|From A'dal.|Z|Shattrath City.|
-
--- URL: http://wow-pro.com/node/3301/revisions/24531/view
--- Date: 2011-06-08 03:22
--- Who: Ludovicus_Maior
--- Log: Correct Successor
-
--- URL: http://wow-pro.com/node/3301/revisions/24312/view
--- Date: 2011-04-29 15:13
--- Who: Ludovicus_Maior
--- Log: Line 65 for step A has unknown tag [82.80,72.80], Line 238 for step C has 3 M coords, Line 273 for step A has 3 M coords, Line 276 for step T has 3 M coords, Line 296 for step C has 1 M coords, Line 479 for step C Bad coord 58.o99.
-
--- URL: http://wow-pro.com/node/3301/revisions/24236/view
--- Date: 2011-04-19 17:35
--- Who: Ludovicus_Maior
--- Log: Coordinate Corrections. Breakout of objectives around [The Vile Hold]
-
--- URL: http://wow-pro.com/node/3301/revisions/24225/view
--- Date: 2011-04-05 23:40
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3301/revisions/24106/view
--- Date: 2011-02-08 12:49
--- Who: Estelyen
-
--- URL: http://wow-pro.com/node/3301/revisions/24105/view
--- Date: 2011-02-08 12:47
--- Who: Estelyen
--- Log: The previous version of this guide was little more than a TourGuide recording, not really worthy of the title "guide"
-
--- URL: http://wow-pro.com/node/3301/revisions/23494/view
--- Date: 2010-12-03 22:36
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3301/revisions/23493/view
--- Date: 2010-12-03 22:35
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("EstIce7985", "Leveling", "Icecrown", "Estelyen", "Alliance")
-WoWPro:GuideLevels(guide,77,77,77)
-WoWPro:NewGuideLevels(guide,67,80)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, "Arihyj8082")
-WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 N How to use this Guide|QID|13418|N|This guide includes many 5-Man Quests. It is unlikely that you will find a random group for those since the release of Cataclysm, but you can easily solo most of them once your character wears Cataclysm-Gear. If you already have a full equipment from any of the Cataclysm zones, you can try to do them solo, if you don't, just skip those Quests.|
@@ -143,7 +21,6 @@ C Defending The Vanguard|QID|13039|N|Kill Nerubians.|M|83.98,75.92|US|
 T Defending The Vanguard|QID|13039|N|To Crusader Lord Dalfors.|M|86.00,75.80|
 T Curing The Incurable|QID|13040|N|To Father Gustav.|M|86.80,76.60|
 T Scourge Tactics|QID|13008|N|To Crusade Commander Entari.|M|87.00,75.80|
-
 A If There Are Survivors...|QID|13044|PRE|13008|N|From Crusade Commander Entari.|
 T If There Are Survivors...|QID|13044|N|To Penumbrius.|M|87.00,79.00|
 A Into The Wild Green Yonder|QID|13045|PRE|13044|N|From Penumbrius.|
@@ -158,7 +35,6 @@ A Once More Unto The Breach, Hero|QID|13104|PRE|13086|C|Druid,Hunter,Mage,Paladi
 A Once More Unto The Breach, Hero|QID|13105|PRE|13086|C|Death Knight|N|From Highlord Tirion Fordring.|M|86.00,75.80|
 T Once More Unto The Breach, Hero|QID|13104|C|Druid,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|N|To The Ebon Watcher.|M|83.00,72.80|
 T Once More Unto The Breach, Hero|QID|13105|C|Death Knight|N|To The Ebon Watcher.|M|83.00,72.80|
-
 A The Purging Of Scourgeholme|QID|13118|PRE|13104^13105|N|From The Ebon Watcher.|
 A The Scourgestone|QID|13122|PRE|13104^13105|N|From The Ebon Watcher.|
 A It Could Kill Us All|QID|13135|PRE|13104^13105|N|From Crusade Engineer Spitzpatrick.|M|83.00,73.00|
@@ -177,7 +53,6 @@ T The Stone That Started A Revolution|QID|13130|N|To Crusade Architect Silas.|
 T The Restless Dead|QID|13110|N|To Father Gustav.|M|82.88,72.78|
 T The Purging Of Scourgeholme|QID|13118|N|To The Ebon Watcher.|M|83.00,72.80|
 T The Scourgestone|QID|13122|N|To The Ebon Watcher.|
-
 A The Air Stands Still|QID|13125|PRE|13118&13122|N|From The Ebon Watcher.|
 K Salranax the Flesh Render |QID|13125|QO|1|U|43206|N|Use the Horn to call for aid should you need it.|M|77.32,61.90|; Salranax the Flesh Render slain: 1/1
 K High Priest Yath'amon |QID|13125|QO|3|U|43206|N|Use the Horn to call for aid should you need it.|M|80.18,61.22|; High Priest Yath'amon slain: 1/1
@@ -194,7 +69,6 @@ A A Tale of Valor|QID|13068|PRE|13141|N|From Highlord Tirion Fordring.|
 T A Tale of Valor|QID|13068|N|To Crusader Bridenbrad, he's lying near a campfire far to the north.|M|79.80,30.80|
 A A Hero Remains|QID|13072|PRE|13068|N|From Crusader Bridenbrad.|
 T A Hero Remains|QID|13072|N|To Highlord Tirion Fordring.|M|79.80,71.80|
-
 A The Keeper's Favor|QID|13073|PRE|13072|N|From Highlord Tirion Fordring.|
 R Moonglade|QID|13073|N|Talk to Arch Druid Lilliandra. Ask her for a portal to Moonglade. Click on the portal, you can not be mounted.|M|87.05,77.02|
 T The Keeper's Favor|QID|13073|N|To Keeper Remulos.|Z|Moonglade|M|36.20,41.80|
@@ -210,7 +84,6 @@ T The Touch of an Aspect|QID|13077|N|To Alextrasza the Life-Binder on top of Wyr
 A Dahlia's Tears|QID|13078|PRE|13077|N|From Alexstrasza.|
 C Dahlia's Tears |QID|13078|N|Fly to the place where the Red Dragonflight is fighting the Scourge coming out of the Ruby Dragonshrine. Wait a little for the Ruby Keeper to appear and blast the Scourge with fire, a flower will bloom at that place. Collect it.|Z|Dragonblight|M|50.67,52.43|
 T Dahlia's Tears|QID|13078|N|To Alextrasza the Life-Binder on top of Wyrmrest Temple.|Z|Dragonblight|M|59.80,54.60|
-
 A The Boon of Alexstrasza|QID|13079|PRE|13078|N|From Alexstrasza.|
 T The Boon of Alexstrasza|QID|13079|N|Return to Crusader Bridenbrad.|M|79.80,30.80|
 A Hope Yet Remains|QID|13080|PRE|13079|N|From Crusader Bridenbrad.|
@@ -227,7 +100,6 @@ A The Broken Front|QID|13231|N|From High Captain Justin Bartlett.|
 A Joining the Assault|QID|13341|N|From Knight-Captain Drosche, he's standing on the raised platform at the back of the Skybreaker.|
 A Get to Ymirheim!|QID|13296|N|From Chief Engineer Boltwrench, he is located in the belly of the Skybreaker.|
 T Joining the Assault|QID|13341|N|To Ground Commander Koup. This quest is just intended to unlock his daily quests (which this guide doesn't cover).|M|62.60,51.20|
-
 A Mind Tricks|QID|13308|N|Enter the Saronite Mines (the big cave in Ymirheim) and fight your way towards Darkspeaker R'khem.|M|54.60,59.20|
 N First Elite Quest|QID|13308|N|This is your first Elite-Quest, but it's intended for 3 players instead of 5. If you're having trouble soloing him with your Cataclysm-Gear you should think about getting better equipment before attempting the 5-Man Quests later in the guide.|
 C Mind Tricks|QID|13308|N|Kill Foreman Thaldrin and loot the key.|M|55.00,59.20|
@@ -243,7 +115,6 @@ A Your Attention, Please|QID|13290|N|From High Captain Justin Bartlett.|
 T ...All the Help We Can Get.|QID|13286|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
 A Poke and Prod|QID|13287|PRE|13286|N|From Thassarian.|
 T Your Attention, Please|QID|13290|N|To Chief Engineer Boltwrench, he is located in the belly of the Skybreaker.|
-
 A Borrowed Technology|QID|13291|PRE|13290|N|From Chief Engineer Boltwrench.|
 C Poke and Prod|QID|13287|N|Kill the needed mobs.|S|M|68.80,64.40|
 N Find 3 Pile of Bones|QID|13291|L|43609 3|S|
@@ -255,7 +126,6 @@ C Borrowed Technology|QID|13291|U|44048|N|Now you can use the item. A Frostwyrm 
 C Poke and Prod|QID|13287|N|Kill the needed mobs.|US|M|68.80,64.40|
 T Borrowed Technology|QID|13291|N|To Chief Engineer Boltwrench, he is located in the belly of the Skybreaker.|
 T Poke and Prod|QID|13287|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
-
 A That's Abominable!|QID|13288|N|From Thassarian.|
 A Against the Giants|QID|13294|N|From Thassarian. This is another 3-man Quest.|
 C Against the Giants|QID|13294|N|Kill the Pustulent Horrors patrolling on top of the Death Gate and loot their spines.|M|69.00,57.40|
@@ -274,7 +144,6 @@ C Sneak Preview|QID|13315|N|Fly here.|M|51.73,34.13|
 T Sneak Preview|QID|13315|N|To Thassarian.|
 T Coprous the Defiled|QID|13298|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
 T Basic Chemistry|QID|13295|N|To Thassarian.|
-
 A Drag and Drop|QID|13318|N|From Thassarian.|
 A Chain of Command|QID|13319|N|From Thassarian.|
 A Cannot Reproduce|QID|13320|N|From Thassarian.|
@@ -289,7 +158,6 @@ N Green Sample Collected|QID|13320|U|44251|QO|1|N|Use the item near the green ca
 C Cannot Reproduce|QID|13320|U|44251|N|Use the item near the final cauldron here.|M|49.67,34.38|
 T Drag and Drop|QID|13318|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
 T Chain of Command|QID|13319|N|To Thassarian.|
-
 A Not a Bug|QID|13342|N|From Thassarian.|
 A Need More Info|QID|13345|N|Once more a 3-Man quest. From Thassarian.|
 T Cannot Reproduce|QID|13320|N|To Chief Engineer Boltwrench, he is located in the belly of the Skybreaker.|
@@ -303,7 +171,6 @@ N Need More Info|QID|13345|L|44460|N|Enter the building and loot the three Pages
 N Need More Info|QID|13345|L|44461|N|Enter the building and loot the three Pages off the researchers.|M|52.00,32.00|
 U Cult of the Damned Research|QID|13345|L|44462|U|44459|N|Combine the Pages.|
 K Enslaved Minions of Void Summoners|QID|13342|U|44433|L|44434 5|N|Get 5 Dark Matters by using the rod on the corpses of Enslaved Minions.|M|54.33,28.79|
-
 C Not a Bug|QID|13342|N|Head to the summoning stone and right click it.|M|53.80,33.60|
 T Retest Now |QID|13321|N|To Chief Engineer Boltwrench, he is located in the belly of the Skybreaker.|
 T Not a Bug|QID|13342|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
@@ -320,7 +187,6 @@ N Alumeth's Remains|QID|13346|U|44476|L|44480|N|Combine the 4 items into Alumeth
 C No Rest For The Wicked|QID|13346|U|44480|N|Use Alumeth's Remains at the Altar and kill him.|M|51.80,28.80|
 T No Rest For The Wicked|QID|13346|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
 T Raise the Barricades|QID|13332|N|To Thassarian.|
-
 A The Ironwall Rampart|QID|13337|N|Another 5-Man quest. From Thassarian.|
 A Bloodspattered Banners|QID|13334|N|From Thassarian.|
 A Get the Message|QID|13314|N|From High Captain Justin Bartlett. He's inside the back/rear/stern/aft part of the Skybreaker, just walk straight in from the main deck.|
@@ -337,7 +203,6 @@ T Bloodspattered Banners |QID|13334|N|To Thassarian.|
 A Before the Gate of Horror|QID|13335|N|Another 5-Man quest. From Thassarian.|
 C Before the Gate of Horror|QID|13335|U|44653|N|Kill Skeletal Reavers and use the item on their bones once they don't move anymore.|M|46.40,60.80|
 T Before the Gate of Horror|QID|13335|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
-
 A Shatter the Shards|QID|13339|N|Another 5-Man quest. From Thassarian.|
 A The Guardians of Corp'rethar|QID|13338|N|Another 5-Man quest. From Thassarian.|
 N Broken Shard of Horror|QID|13339|L|44319|N|Destroy this crystal on the top level.|M|47.78,68.14|
@@ -352,7 +217,6 @@ T It's All Fun and Games|QID|12887|N|Baron Sliver is hiding at the bottom of the
 A I Have an Idea, But First...|QID|12891|PRE|12887^12892|N|From Baron Sliver.|
 C I Have an Idea, But First...|QID|12891|N|Kill cultists for the Rod, Abominations for the Hook and Geists for the Rope. The essence drops from most of the mobs in the region.|
 T I Have an Idea, But First...|QID|12891|N|To Baron Sliver.|M|44.12,24.69|
-
 A Free Your Mind|QID|12893|PRE|12891|N|From Baron Sliver.|
 N Free Your Mind|QID|12893|U|41366|QO|2|N|Kill Lady Nightswood and use the Sovereign Rod on her corpse.|M|41.75,24.45|; Lady Nightswood turned: 1/1
 N Free Your Mind|QID|12893|U|41366|QO|1|N|Kill Vile and use the Sovereign Rod on his corpse.|M|44.38,26.89|; Vile turned: 1/1
@@ -366,7 +230,6 @@ T The Shadow Vault|QID|12898|N|Back to Baron Sliver, he has moved a little to th
 A The Duke|QID|12938|PRE|12898^12899|N|From Baron Sliver.|
 A Blackwatch|QID|13106|N|From Baron Sliver.|
 T The Duke|QID|12938|N|To Duke Lankral inside the Shadow Vault.|M|44.66,20.35|
-
 A Honor Challenge|QID|12939|PRE|12938|N|From Duke Lankral.|
 A Eliminate the Competition|QID|12955|PRE|12938|N|From The Leaper just outside.|M|43.45,25.06|
 C Honor Challenge|QID|12939|U|41372|N|Use the Flag on groups of fighting Vrykul on the Savage Ledge and kill the one that accepts the challenge.|S|
@@ -380,7 +243,6 @@ A The Bone Witch|QID|12999|PRE|12955|N|From The Leaper.|
 T Honor Challenge|QID|12939|N|To Duke Lankral inside the Shadow Vault.|M|44.66,20.35|
 A Shadow Vault Decree|QID|12943|PRE|12939|N|From Duke Lankral.|
 R Enter Urfang's Hall|M|39.04,23.98|CC|
-
 A Get the Key|QID|12949|N|Fight your way to the back of Urfang's Hall and get the Quest from Vaelen the Flayed.|M|41.05,23.88|
 C Shadow Vault Decree|QID|12943|U|41776|N|Stand right in front of Thane Urfang and use the Decree. He won't be too happy about what it reads, so you'll have to kill him afterwards.|M|40.20,23.80|
 C Get the Key|QID|12949|N|Kill Instructor Hroegar, he partrols among the fighters outside.|M|37.00,23.40|
@@ -397,7 +259,6 @@ C Crush Dem Vrykuls!|QID|12992|N|Kill Vrykuls.|S|
 C Ebon Blade Prisoners|QID|12982|N|When you loot a key from a Vrykul, use it to open one of the cages.|S|
 C Vandalizing Jotunheim|QID|13084|N|Burn 10 Vrykul Banners.|S|
 T The Bone Witch|QID|12999|N|The Bone Witch is hiding in a cave.|M|32.40,42.80|
-
 A Reading the Bones|QID|13092|PRE|12999|N|From the Bone Witch.|
 C Reading the Bones|QID|13092|N|Kill Vrykuls and loot their bones.|M|29.00,40.40|
 T Reading the Bones|QID|13092|N|To the Bone Witch.|M|32.40,42.80|
@@ -414,7 +275,6 @@ T The Sum is Greater than the Parts|QID|13043|N|To the Bone Witch.|M|32.40,42.80
 A The Art of Being a Water Terror|QID|13091|PRE|13043|N|From the Bone Witch.|
 C The Art of Being a Water Terror|QID|13091|N|Open the gate outside, you have to be on the ground for this to work. After you possess a Water Elemeantal, use your abilities to kill 10 Vrykul.|M|31.00,41.00|
 T The Art of Being a Water Terror|QID|13091|N|To the Bone Witch.|M|32.40,42.80|
-
 A Through the Eye|QID|13121|PRE|13091|N|From the Bone Witch.|
 C Vandalizing Jotunheim|QID|13084|N|Burn 10 Vrykul Banners.|US|
 C Ebon Blade Prisoners|QID|12982|N|When you loot a key from a Vrykul, use it to open one of the cages.|US|
@@ -428,7 +288,6 @@ T Through the Eye|QID|13121|N|To the Bone Witch.|M|32.40,42.80|
 A Find the Ancient Hero|QID|13133|PRE|13121|N|From the Bone Witch.|
 C Find the Ancient Hero|QID|13133|U|43166|N|Enter the Halls of the Ancestors and wake up Slumbering Mjordin. When the popup text tells you that you've found Iskalder, use the amulet on him. Bring him back to the Bone Witch|M|28.00,47.00|
 T Find the Ancient Hero|QID|13133|N|To the Bone Witch.|M|32.40,42.80|
-
 A Not-So-Honorable Combat|QID|13137|PRE|13133|N|This is a 5-Man Quest. From the Bone Witch.|
 C Not-So-Honorable Combat|QID|13137|N|Fly up to the platform and light the fire to summon your opponent.|M|28.70,51.90|
 T Not-So-Honorable Combat|QID|13137|N|To the Bone Witch.|M|32.40,42.80|
@@ -442,7 +301,6 @@ A Blood in the Water|QID|12810|PRE|12807|N|From Lord-Commander Arete.|
 A Intelligence Gathering|QID|12838|N|From Aurochs Grimbane. This is a daily quest but you'll have to do it to find an item you need.|M|19.80,47.60|
 C Blood in the Water|QID|12810|U|40551|N|Sharks are in the water around the island to the west and even in the harbor area. Kill them and use the item on them.|S|
 C Intelligence Gathering|QID|12838|N|Kill Scarlets to find keys, use them to open the small boxes lying around.|M|09.00,42.40|
-
 l Note from the Grand Admiral|QID|12838|L|40666|N|Open more boxes, you have to find a Note from the Grand Admiral.|M|09.00,42.40|
 A The Grand (Admiral's) Plan|QID|12839|U|40666|N|Read the Grand Admirals Note to accept this quest.|
 C Blood in the Water|QID|12810|U|40551|N|Sharks are in the water around the island and even in the harbor area. Kill them and use the item on them.|US|
@@ -458,7 +316,6 @@ l Onslaught Gryphon Reins|QID|12814|US|L|40970|N|Kill Gryphon Riders until you f
 C You'll Need a Gryphon|QID|12814|U|40970|N|Use the Reins and fly the Gryphon back to Death's Rise. Use your ability to turn in the gryphon. If you want, you can skip this step and keep the gryphon for a while, it can serve as a flying Mount in Icecrown, although you can't do the daily quest "No Fly Zone" until you handed this one in.|M|19.60,47.80|
 T You'll Need a Gryphon|QID|12814|N|To Uzo Deathcaller.|M|19.60,47.80|
 T In Strict Confidence|QID|12840|N|To Lord-Commander Arete.|M|19.60,48.00|
-
 A Second Chances|QID|12847|PRE|12840|N|This is a 5-Man quest. From Lord-Commander Arete.|
 K Archbishop Landgren slain|QID|12847|QO|1|N|Enter the cathedral on the island and kill Archbishop Landgren.|M|09.50,47.10|; Archbishop Landgren slain: 1/1
 C Second Chances|QID|12847|U|40730|N|Use the item near the corpse of the Archbishop.|
@@ -467,7 +324,6 @@ A The Admiral Revealed|QID|12852|PRE|12847|N|Another 5-Man quest from Lord-Comma
 C The Admiral Revealed|QID|12852|N|Enter The Hidden Hollow and find the Admiral deep within it. Kill him, use the Nullifier when he uses his Protection Sphere.|M|09.00,49.00;09.00,46.10|CS|
 T The Admiral Revealed|QID|12852|N|To Lord-Commander Arete.|M|19.60,48.00|
 T Banshee's Revenge|QID|13142|N|To the Bone Witch.|M|32.40,42.80|
-
 A Battle at Valhalas|QID|13213|PRE|13142|N|From the Bone Witch.|
 T Battle at Valhalas|QID|13213|N|To Geirrvif in the center of the arena.|M|30.80,29.00|
 A Battle at Valhalas: Fallen Heroes|QID|13214|N|The following arena fights are all 5-Man quests. From Geirrvif.|
@@ -488,7 +344,6 @@ T Battle at Valhalas: Thane Deathblow|QID|13218|N|To Gjonner the Merciless on th
 A Battle at Valhalas: Final Challenge|QID|13219|N|The last arena fight. From Geirrvif.|M|30.80,29.00|
 C Battle at Valhalas: Final Challenge|QID|13219|N|Defeat Prince Sandoval.|
 T Battle at Valhalas: Final Challenge|QID|13219|N|To Gjonner the Merciless on the platform above the arena.|M|31.60,30.80|
-
 A Exploiting an Opening|QID|13386|N|From Thassarian, he's standing on the left "wing" of the Skybreaker.|
 T Exploiting an Opening|QID|13386|N|To Captain Kendall, he is standing in the huge room under Icecrown Citadel. If you are searching for him among some Crusader Tents near the Meeting Stone, you're above him: Fly off the platform and look for an entrance below.|M|51.60,86.60|
 A Securing the Perimeter|QID|13387|PRE|13386|N|From Captain Kendall.|
@@ -505,7 +360,6 @@ C Time to Hide|QID|13391|N|Kill Faceless Lurkers in this cave and loot their blo
 T Time to Hide|QID|13391|N|To Matthias Lehner.|M|53.80,87.00|
 A Return to the Surface|QID|13392|PRE|13391|N|From Matthias Lehner.|
 T Blackwatch|QID|13106|N|Enter the Portal behind Matthias, then turn in this quest to Darkrider Arly on a ledge overlooking the Fleshwerks.|M|35.40,66.40|
-
 A Where Are They Coming From?|QID|13117|N|From Darkrider Arly.|
 C Where Are They Coming From?|QID|13117|N|Click on one of the Summoning Altars to the southeast.|M|36.74,70.72|
 T Where Are They Coming From?|QID|13117|N|To Darkrider Arly.|M|35.40,66.40|
@@ -525,7 +379,6 @@ C Spill Their Blood|QID|13134|N|Look for the vats of Embalming fluid as well as 
 C Jagged Shards|QID|13136|N|Kill more Spiked Ghouls for more Jagged Shards.|US|
 T Spill Their Blood|QID|13134|N|To Darkrider Arly.|M|35.40,66.40|
 T Jagged Shards|QID|13136|N|To Crusader Olakin Sainrith.|M|35.40,66.40|
-
 A I'm Smelting... Smelting!|QID|13138|N|From Crusader Olakin Sainrith.|
 A The Runesmiths of Malykriss|QID|13140|N|From Crusader Olakin Sainrith.|
 A Parting Gifts|QID|13168|N|Fly back to the Shadow Vault, there is a new questline available there. From Keritose Bloodblade.|M|44.00,24.60|
@@ -542,7 +395,6 @@ C An Undead's Best Friend|QID|13169|N|Use Ability 4 on the Plaguehounds.|M|40.20
 T An Undead's Best Friend|QID|13169|N|Leave your Vehicle, you'll be teleported back to your own body which is still at the Shadow Vault. Turn the Quest in to Keritose Bloodblade.|M|44.00,24.60|
 T From Whence They Came|QID|13171|N|To Keritose Bloodblade.|
 T Honor is for the Weak|QID|13170|N|To Keritose Bloodblade.|
-
 A Seeds of Chaos|QID|13172|N|From Keritose Bloodblade.|
 A Amidst the Confusion|QID|13174|N|From Keritose Bloodblade.|
 C Seeds of Chaos|QID|13172|N|Talk to Keritose again to hop on a Skeletal Gryphon. Bomb away at the Scourge in the Quarry. When you have completed this quest, don't wait until the gryphon returns, just leave the vehicle (you'll get a parachute), there's more to do in the quarry.|M|44.00,24.60|
@@ -557,7 +409,6 @@ T Return to the Surface|QID|13392|N|To Thassarian, he's standing on the left "wi
 A Field Repairs|QID|13393|PRE|13392|N|From Thassarian.|
 C Field Repairs|QID|13393|N|Kill Scavenging Geists in this area and loot Demolisher Parts from them.|M|65.74,52.85|
 T Field Repairs|QID|13393|N|To the Wrecked Demolisher standing around in the Valley of Lost Hope.|M|68.00,51.80|
-
 A Do Your Worst|QID|13394|N|From Matthias Lehner.|M|68.00,51.60|
 C Do Your Worst|QID|13394|N|Use the Demolisher you just repaired to blow up tons of Scourge.|M|64.40,44.00|
 T Do Your Worst|QID|13394|N|To Matthias Lehner, he has moved a little to the northwest.|M|64.40,44.00|
@@ -574,7 +425,6 @@ T Where Dragons Fell|QID|13398|N|To Matthias Lehner.|M|71.60,37.60|
 A Time for Answers|QID|13399|PRE|13398|N|From Matthias Lehner.|
 C Sindragosa's Fall|QID|13397|N|Kill the mobs you need for this quest.|US|
 T Vereth the Cunning|QID|13155|N|To Vereth the Cunning on the Rise of Suffering.|M|54.00,71.00|
-
 A New Recruit|QID|13143|PRE|13155|N|From Vereth the Cunning.|
 C New Recruit|QID|13143|N|Fly up to the ledge above and beat down a Lithe Stalker until a popup message tells it that it's weakened, then use the item on it. Lead it to this position and it'll jump off the cliff, completing the quest.|M|55.92,69.38|
 T New Recruit|QID|13143|N|To Vereth the Cunning.|M|54.00,71.00|
@@ -585,7 +435,6 @@ N Icy Lookout explored|QID|13145|QO|3|N|Scout the Icy Lookout. Just walk down th
 N Blood Forge explored|QID|13145|QO|2|N|Scout the Blood Forge. Leap down into Malykriss then head to the waypoint. |M|58.1,70.9|; Blood Forge explored: 1/1
 C The Vile Hold|QID|13145|N|Scout the Runeworks.|M|59.1,74.4|
 T The Vile Hold|QID|13145|N|To Vereth the Cunning.|M|54.00,71.00|
-
 A Generosity Abounds|QID|13146|N|From Vereth the Cunning.|
 A Matchmaker|QID|13147|N|From Vereth the Cunning.|
 A Stunning View|QID|13160|N|From Vereth the Cunning.|
@@ -609,7 +458,6 @@ C The Runesmiths of Malykriss|QID|13140|N|Kill Skeletal Runesmiths and loot Saro
 T The Rider of Blood|QID|13163|N|To Vereth the Cunning.|M|54.00,71.00|
 T The Rider of Frost|QID|13162|N|To Vereth the Cunning.|
 T The Rider of the Unholy|QID|13161|N|To Vereth the Cunning.|
-
 A The Fate of Bloodbane|QID|13164|N|A 5-Man quest. From Vereth the Cunning.|
 T Time for Answers|QID|13399|N|To Matthias Lehner, this time he's in the Court of Bones, right in front of Icecrown Citadel.|M|49.20,73.00|
 A The Hunter and the Prince|QID|13400|PRE|13399|N|From Matthias Lehner.|
@@ -629,7 +477,6 @@ T A Visit to the Doctor|QID|13152|N|To Darkrider Arly.|M|35.40,66.40|
 A Killing Two Scourge With One Skeleton|QID|13144|N|From Darkrider Arly.|
 C Killing Two Scourge With One Skeleton|QID|13144|N|Click on one of the Green Glowing Grasping Arms sticking out of the ground and lead your new pet to the Chained Abominations so they can be burned. Rinse and Repeat.|M|35.24,71.04;32.60,70.60|CN|
 T Killing Two Scourge With One Skeleton|QID|13144|N|To Darkrider Arly.|M|35.40,66.40|
-
 A He's Gone to Pieces|QID|13212|N|From Darkrider Arly after Olakin has been abducted.|
 C He's Gone to Pieces|QID|13212|N|Kill Corpulent Horrors below until you have all the body parts you need.|M|33.40,66.00|
 T He's Gone to Pieces|QID|13212|N|To Darkrider Arly.|M|35.40,66.40|
@@ -648,7 +495,6 @@ T Let's Get Out of Here|QID|13482|N|To Absalan the Pious. He patrols around on t
 T Knowledge is a Terrible Burden|QID|13401|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
 A Tirion's Help|QID|13402|PRE|13401|N|From Thassarian.|
 T Sindragosa's Fall|QID|13397|N|To Thassarian.|
-
 T Tirion's Help|QID|13402|N|To Highlord Tirion Fordring at Crusader's Pinnacle.|M|79.80,71.80|
 A Tirion's Gambit|QID|13403|PRE|13402|N|From Highlord Tirion Fordring.|
 K Cultist Acolytes|QID|13403|L|44784|N|Kill Acolytes in front of the Cathedral of Darkness until you find a Cultist Acolyte Hood.|M|46.00,76.20|
@@ -656,8 +502,5 @@ N Directions|QID|13403|U|44784|N|I'm giving instructions now so the big text fro
 C Tirion's Gambit|QID|13403|U|44784|N|Remember, use the Portal as soon as it appears.|
 T Tirion's Gambit|QID|13403|N|To Highlord Tirion Fordring at Crusader's Pinnacle.|M|79.80,71.80|
 N Task done!|QID|99999|N|This is the end of the Icecrown guide. Thanks for using it and have fun on your adventures!|
-
 ]]
 end)
-
-

@@ -1,156 +1,12 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_blasted_lands_alliance
--- Date: 2018-10-17 02:24
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3267/revisions/29570/view
--- Date: 2018-08-22 22:58
--- Who: jovieve
--- Log: Removed old style QO tag.
-
--- URL: http://wow-pro.com/node/3267/revisions/29174/view
--- Date: 2018-02-26 21:41
--- Who: Ludovicus_EditBot
--- Log: LEVEL strip
-
--- URL: http://wow-pro.com/node/3267/revisions/29048/view
--- Date: 2018-02-20 01:14
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3267/revisions/28869/view
--- Date: 2018-01-16 23:33
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3267/revisions/28387/view
--- Date: 2017-03-15 21:29
--- Who: Ludovicus_Maior
--- Log: Added PREs to CraBla5458
-
--- URL: http://wow-pro.com/node/3267/revisions/27811/view
--- Date: 2016-09-18 01:49
--- Who: tubera
--- Log: Fix QOs; Add Future of Rockpool quest (Rank 3)
-
--- URL: http://wow-pro.com/node/3267/revisions/26621/view
--- Date: 2014-07-25 22:18
--- Who: Ludovicus_Maior
--- Log: add mean
-
--- URL: http://wow-pro.com/node/3267/revisions/26373/view
--- Date: 2014-05-27 21:29
--- Who: Ludovicus_Maior
--- Log: GuideLevels corrected from "0,0" to "54,58".
-
--- URL: http://wow-pro.com/node/3267/revisions/26263/view
--- Date: 2014-05-26 00:31
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3267/revisions/26097/view
--- Date: 2014-05-18 22:12
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3267/revisions/25981/view
--- Date: 2014-05-14 22:37
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3267/revisions/25946/view
--- Date: 2014-04-28 19:31
--- Who: Hendo72
--- Log: - Corrected unsticky for 'Eliminate the Okril'lon'
---
---	- Removed extra coordinates from 'The First Step' (Not needed)
---
---	- Added coordinates and a name for the repair steps.
---
---	- Added a note about using the bloodstone to come and go from the cave.
---
---	- Added 'The Future of the Rockpool' and shuffled part of the 'Neptool's Revenge' kill quest around to work with it. (This may need some tweaking as this was done after the fact and unable to test for 100% accuracy)
---
---	- Commented out the step to set HS to Surwich. You do not use it once in this guide and one of the first steps in the next guide is to Hearth to Nethergarde, which is where it's currently set to.
---
---	- You can collect the charred granite chips by clicking on them. Removed 'U' tag, as it is no longer required.
---
---	- Reworded a few notes and changed a couple CN tags to CS.
-
--- URL: http://wow-pro.com/node/3267/revisions/25433/view
--- Date: 2013-01-13 15:22
--- Who: Ludovicus_Maior
--- Log: Added C* tags
-
--- URL: http://wow-pro.com/node/3267/revisions/24875/view
--- Date: 2011-12-28 22:11
--- Who: Fluclo
--- Log: Added Level message, target for Curtail the Darktail, and changed order/steps around Captain Metlek.
-
--- URL: http://wow-pro.com/node/3267/revisions/24862/view
--- Date: 2011-12-12 19:10
--- Who: Crackerhead22
--- Log: Added in missing quest.
-
--- URL: http://wow-pro.com/node/3267/revisions/24546/view
--- Date: 2011-06-11 23:26
--- Who: Crackerhead22
--- Log: Fixed a couple waypoints, clarified notes on the amulet quests. Added a couple more steps for "Demonic Vessel" quest, as well as adding a loot tag so it would auto-complete on creating the final item.
-
--- URL: http://wow-pro.com/node/3267/revisions/24367/view
--- Date: 2011-05-06 03:05
--- Who: Crackerhead22
--- Log: Added turn-in "Blasted Lands: The Other Side of the World" for those coming from Winterspring.
-
--- URL: http://wow-pro.com/node/3267/revisions/24366/view
--- Date: 2011-05-06 02:50
--- Who: Crackerhead22
--- Log: Added run to and turn-in for "Nethergarde Needs You!" for those coming from Silithus.
-
--- URL: http://wow-pro.com/node/3267/revisions/24305/view
--- Date: 2011-04-29 14:49
--- Who: Ludovicus_Maior
--- Log: Line 30 for step C has 1 M coords
-
--- URL: http://wow-pro.com/node/3267/revisions/23791/view
--- Date: 2010-12-19 07:48
--- Who: lunargecko
-
--- URL: http://wow-pro.com/node/3267/revisions/23548/view
--- Date: 2010-12-04 06:19
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3267/revisions/23547/view
--- Date: 2010-12-04 06:18
--- Who: Crackerhead22
--- Log: Added source code.
-
--- URL: http://wow-pro.com/node/3267/revisions/23416/view
--- Date: 2010-12-03 12:01
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3267/revisions/23415/view
--- Date: 2010-12-03 12:01
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('CraBla5458', "Leveling", 'Blasted Lands', 'Crackerhead22', 'Alliance')
-WoWPro:GuideLevels(guide,54,58, 54.2819)
-WoWPro:NewGuideLevels(guide,40,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'JamHel6062')
-WoWPro:GuideIcon(guide,"ACH",4909)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 T Hero's Call: Blasted Lands!|QID|28673|M|60.11,13.67|Z|Blasted Lands|N|Enter the building and go up one floor to Quartermaster Lungertz.|O|
 T Blasted Lands: The Other Side of the World|QID|28857|M|60.11,13.67|N|To Quartermaster Lungertz.|O|
 R Blasted Lands|QID|28867|M|53.4,33.4|Z|Silithus|N|Click on the portal by the Nethergarde Mage to go to the Blasted Lands.|O|
 T Nethergarde Needs You!|QID|28867|M|60.11,13.67|N|To Quartermaster Lungertz.|O|
-
 A Minor Distractions|QID|25710|M|60.11,13.67|N|From Quartermaster Lungertz.|
 h Nethergarde Keep|QID|25715|M|60.72,14.13|N|At Mama Morton.|
 T Onward to the Blasted Lands|QID|27919|M|61.53,18.46|N|To Enohar Thunderbrew.|O|
@@ -162,7 +18,6 @@ T A Closer Look|QID|25715|M|61.51,18.52|N|To Enohar Thunderbrew.|
 A Our Fallen Friends|QID|25708|PRE|25715|M|61.51,18.52|N|From Enohar Thunderbrew.|
 A Curtail the Darktail|QID|25709|PRE|25715|M|61.51,18.52|N|From Enohar Thunderbrew.|
 T Minor Distractions|QID|25710|M|60.13,13.67|N|To Quartermaster Lungertz.|
-
 A Eliminate the Okril'lon|QID|25711|PRE|25710|M|60.13,13.67|N|From Quartermaster Lungertz.|
 A Nethergarde Reigns|QID|25712|PRE|25710|M|60.18,13.58|N|From Leyan Steelson.|
 A Remove Their Arms|QID|25713|PRE|25710|M|60.35,13.77|N|From Buttonwillow McKittrick.|
@@ -171,13 +26,11 @@ C Our Fallen Friends|QID|25708|M|68.54,33.33|N|Kill any Drowned Gilnean you see 
 C Curtail the Darktail|QID|25709|US|U|57119|M|68.54,32.58|N|Kill any vultures you need left.|T|Darktail Bonepicker|
 T Our Fallen Friends|QID|25708|M|61.59,18.71|N|To Enohar Thunderbrew.|
 T Curtail the Darktail|QID|25709|M|61.59,18.71|N|To Enohar Thunderbrew.|
-
 C Eliminate the Okril'lon|QID|25711|M|53.06,15.91|N|Kill Okril'lon Infantry.|S|
 C Remove Their Arms|QID|25713|S|U|57117|M|53.44,13.77|N|Throw the grenade at the sparkling boxes (has a minimum range)|NC|
 C Nethergarde Reigns|QID|25712|M|51.57,12.70|N|Slay Captain Metlek at the Nethergarde Supply Camp.|
 C Remove Their Arms|QID|25713|US|U|57117|M|53.44,13.77|N|Finish throwing grenades at the sparkling boxes.|NC|
 C Eliminate the Okril'lon|QID|25711|M|53.06,15.91|N|Finish killing the Okril'lon Infantry you need.|
-
 T Remove Their Arms|QID|25713|M|60.37,13.79|N|To Buttonwillow McKittrick.|
 T Nethergarde Reigns|QID|25712|M|60.17,13.56|N|To Leyan Steelson.|
 T Eliminate the Okril'lon|QID|25711|M|60.17,13.56|N|To Quartermaster Lungertz.|
@@ -186,7 +39,6 @@ T Watcher Mahar Ba|QID|25714|M|63.11,16.77|N|Head all the way up to the top of t
 A Cultists at our Doorstep|QID|25716|PRE|25714|M|63.11,16.77|N|From Watcher Mahar Ba.|
 C Cultists at our Doorstep|QID|25716|M|62.47,22.09;64.35,26.33;61.17,31.53|CN|
 T Cultists at our Doorstep|QID|25716|M|63.09,16.77|N|To Watcher Mahar Ba.|
-
 A Kasim Sharim|QID|26157|PRE|25716|M|63.09,16.77|N|From Watcher Mahar Ba.|
 R Serpent's Coil|QID|26157|M|62.47,22.09;64.35,26.33;60.83,29.42|CS|N|Head back to the area from the previous quest and enter the cave.|
 T Kasim Sharim|QID|26157|M|62.58,26.37|N|To Kasim Sharim.|
@@ -214,7 +66,6 @@ A The Amulet of Grol|QID|26169|PRE|26160|M|62.65,26.15|
 C The Amulet of Allistarj|QID|26167|M|61.58,27.00|N|Use the teleporter to go outside, then head back inside the cave. Loot the Allistarkian Vault to get the amulet.|
 C The Amulet of Grol|QID|26169|M|70.98,35.50|N|The head is inside the ship's hold. When you pick up the amulet you will be attacked, kill and loot the Spirit of Grol.|
 C The Amulet of Sevine|QID|26168|M|73.04,47.42|N|Talk to Salt-Flop and choose to ask for the amulet.|
-
 A Home... Gone... Naga...|QID|25702|LEAD|25703|M|73.04,47.42|N|From Salt-Flop.|
 T Home... Gone... Naga...|QID|25702|M|71.01,59.91|N|To Neptool.|
 A Atrocities|QID|25703|M|71.01,59.91|N|From Neptool.|
@@ -230,7 +81,6 @@ C False Idols|QID|25705|US|M|61.20,62.76|N|Smash the idols as you go.|
 A The Future of the Rockpool|QID|25707|PRE|25703|M|60.53,62.78|N|"Talk" to the Abandoned Bloodwash Crate and chooseto start the quest.|CHAT|RANK|3|
 C The Future of the Rockpool|QID|25707|M|68.74,82.08|N|Drag the crate to the Forbidding Sea, try to avoid aggro. If you get attacked resume by talking to the chest again.|NC|
 T The Future of the Rockpool|QID|25707|M|60.53,62.78|N|(UI Alert)|
-
 T False Idols|QID|25705|M|70.99,59.90|N|To Neptool.|
 T Neptool's Revenge|QID|25706|M|70.99,59.90|N|To Neptool.|
 H Nethergarde Keep|QID|26168|N|Hearth back to Nethergarde Keep.|
@@ -238,7 +88,6 @@ r Sell junk, repair/restock.|QID|26168|
 T The Amulet of Allistarj|QID|26167|M|61.37,29.93|N|Click on the Bloodstone Telepoter to get to Kasim Sharim.|
 T The Amulet of Sevine|QID|26168|M|62.39,26.22|N|To Kasim Sharim.|
 T The Amulet of Grol|QID|26169|M|62.39,26.22|N|To Kasim Sharim.|
-
 A Time is Short|QID|26163|PRE|26167&26168&26169|M|62.39,26.22|N|From Kasim Sharim. You can also throw away the Broken Amulet that is in your inventory.|
 T Time is Short|QID|26163|M|54.98,49.62|N|To Watcher Grimeo.|
 A The Charred Granite of the Dark Portal|QID|26164|PRE|26163|M|54.98,49.62|N|From Watcher Grimeo.|
@@ -279,7 +128,6 @@ R The Dark Portal|QID|26171|M|53.7,42.85|N|Run to The Dark Portal.|
 T You Are Rakh'likh, Demon|QID|26171|M|54.98,49.59|N|To Watcher Grimeo.|
 R Surwich|QID|26175|M|53.61,41.96;62.98,40;68.22,45.45;71.95,56.88;66.28,65.47;57.46,70.17;50.16,78.33;47.17,85.47|CC|N|Follow the waypoints to Surwich.|
 T Surwich|QID|26175|M|46.41,87.09|N|To Mayor Charlton Connisport.|
-
 A Wormthorn's Dream|QID|26184|M|46.41,87.09|N|From Mayor Charlton Connisport.|
 f Surwich|QID|26184|M|47.10,89.20|N|At Graham McAllister.|
 h Surwich|QID|26184|M|44.42,87.70|N|Set your hearth with Donna Berrymore.|
@@ -295,7 +143,6 @@ C Tainted Hides|QID|26186|S|L|57177 4|M|38.33,58.23|N|Kill bears to get hides. Y
 C Screecher Brains|QID|26186|L|57179 2|M|38.33,58.23|N|Kill bats to get brains. You need two.|
 C Nightstalker Legs|QID|26186|US|L|57178 20|M|38.33,58.23|N|Kill spiders to get legs. You need 20.|
 C Tainted Hides|QID|26186|US|L|57177 4|M|38.33,58.23|N|Kill bears to get hides. You need 4.|
-
 C Screecher Brain Paste|QID|26186|U|57179|L|57182 2|M|38.33,58.23|N|Turn the Screecher Brains into a paste.|
 C Crushed Nightstalker Legs|QID|26186|U|57178|L|57181 20|M|38.33,58.23|N|Turn the Nightstalker Legs into a powder. You need 20.|
 C Tainted Hide Pouch|QID|26186|U|57177|L|57180 |M|38.33,58.23|N|Combine the Tainted Hides to create the Tainted Hide Pouch.|
@@ -305,9 +152,5 @@ T Demoniac Vessel|QID|26186|M|46.36,87.01|N|To Mayor Charlton Connisport.|
 A The Downfall of Marl Wormthorn|QID|26187|PRE|26186|M|46.36,87.01|N|From Mayor Charlton Connisport.|
 C The Downfall of Marl Wormthorn|QID|26187|U|57185|M|34.84,68.11|N|Kill the demons around him then use the vessel to snap him out of his trance, then defeat him.|
 T The Downfall of Marl Wormthorn|QID|26187|M|46.34,87.06|N|To Mayor Charlton Connisport.|
-
 ]]
-
 end)
-
-

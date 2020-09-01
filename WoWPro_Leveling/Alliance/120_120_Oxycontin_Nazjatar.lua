@@ -1,153 +1,11 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/nazjatar_alliance
--- Date: 2019-12-21 18:31
--- Who: Ludovicus_Maior
--- Log: Newly boosted starter errors.
-
--- URL: http://wow-pro.com/node/3790/revisions/30451/view
--- Date: 2019-12-03 21:09
--- Who: Ludovicus_Maior
--- Log: AVAILABLE, you idiot.
-
--- URL: http://wow-pro.com/node/3790/revisions/30449/view
--- Date: 2019-11-26 20:32
--- Who: Ludovicus_Maior
--- Log: Finished [Changing Tides]
-
--- URL: http://wow-pro.com/node/3790/revisions/30447/view
--- Date: 2019-11-18 20:58
--- Who: Ludovicus_Maior
--- Log: Playthough up to [Sea Slug Liquidation]
-
--- URL: http://wow-pro.com/node/3790/revisions/30402/view
--- Date: 2019-09-03 17:44
--- Who: Ludovicus_Maior
--- Log: Cleaned up the 5678456779 QID!
-
--- URL: http://wow-pro.com/node/3790/revisions/30361/view
--- Date: 2019-08-10 08:09
--- Who: Emmaleah
--- Log: More tweaks,
-
--- URL: http://wow-pro.com/node/3790/revisions/30344/view
--- Date: 2019-08-01 18:38
--- Who: Emmaleah
--- Log: error corrections and tweaks
-
--- URL: http://wow-pro.com/node/3790/revisions/30338/view
--- Date: 2019-07-29 10:13
--- Who: Emmaleah
--- Log: All Follower Quests, Bounty Quests and Requisitions per Wowhead are now included. Deleted the WQs that were just kill X elite.
-
--- URL: http://wow-pro.com/node/3790/revisions/30330/view
--- Date: 2019-07-24 09:39
--- Who: Emmaleah
--- Log: Played thru. Some of the order is kinda rough.
-
--- URL: http://wow-pro.com/node/3790/revisions/30327/view
--- Date: 2019-07-23 20:57
--- Who: Emmaleah
--- Log: Add a new weeks worth of dailies, opening the raid, etc. Not play tested.
-
--- URL: http://wow-pro.com/node/3790/revisions/30308/view
--- Date: 2019-07-06 12:14
--- Who: Emmaleah
--- Log: added the weeks WQs and Dailies. Various other fixes.
-
--- URL: http://wow-pro.com/node/3790/revisions/30298/view
--- Date: 2019-07-01 12:21
--- Who: Emmaleah
--- Log: um... this time with the actual correct guide!
-
--- URL: http://wow-pro.com/node/3790/revisions/30296/view
--- Date: 2019-07-01 00:54
--- Who: Emmaleah
--- Log: Added PREs, refined some text, added dropped item quests
-
--- URL: http://wow-pro.com/node/3790/revisions/30293/view
--- Date: 2019-06-30 11:04
--- Who: Emmaleah
--- Log: Fixes per today's bug reports on Discord.
-
--- URL: http://wow-pro.com/node/3790/revisions/30292/view
--- Date: 2019-06-29 21:40
--- Who: spoony
--- Log: Moved a quest up a step as closer to previous step
-
--- URL: http://wow-pro.com/node/3790/revisions/30291/view
--- Date: 2019-06-29 20:18
--- Who: spoony
-
--- URL: http://wow-pro.com/node/3790/revisions/30286/view
--- Date: 2019-06-29 14:37
--- Who: Emmaleah
--- Log: Play thru. Added some, but many dailies/WQs not there.
---	Found correct zone name for Chamber of Heart
-
--- URL: http://wow-pro.com/node/3790/revisions/30282/view
--- Date: 2019-06-29 12:26
--- Who: Ludovicus_Maior
--- Log: Z update for Chamber of Heart!Dungeon1021|
-
--- URL: http://wow-pro.com/node/3790/revisions/30279/view
--- Date: 2019-06-29 04:52
--- Who: Emmaleah
--- Log: Add Footer
-
--- URL: http://wow-pro.com/node/3790/revisions/30274/view
--- Date: 2019-06-28 09:54
--- Who: Emmaleah
--- Log: edited thru unlocking WQs.
-
--- URL: http://wow-pro.com/node/3790/revisions/30271/view
--- Date: 2019-06-27 22:40
--- Who: Ludovicus_Maior
--- Log: Hazard!
-
--- URL: http://wow-pro.com/node/3790/revisions/30262/view
--- Date: 2019-06-27 06:44
--- Who: Emmaleah
--- Log: deleted some extraneous lines and added header to page
-
--- URL: http://wow-pro.com/node/3790/revisions/30261/view
--- Date: 2019-06-26 23:55
--- Who: spoony
-
--- URL: http://wow-pro.com/node/3790/revisions/30260/view
--- Date: 2019-06-26 23:35
--- Who: spoony
-
--- URL: http://wow-pro.com/node/3790/revisions/30258/view
--- Date: 2019-06-26 14:34
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3790/revisions/30257/view
--- Date: 2019-06-26 14:33
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3790/revisions/30255/view
--- Date: 2019-06-26 14:29
--- Who: spoony
-
--- URL: http://wow-pro.com/node/3790/revisions/30254/view
--- Date: 2019-06-26 14:20
--- Who: Ludovicus_Maior
-
 local guide = WoWPro:RegisterGuide('OxyNazj', 'Leveling', 'Nazjatar', 'Oxycontin', 'Alliance')
-WoWPro:GuideLevels(guide,120, 120)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'Mechagon')
 WoWPro:GuideAutoSwitch(guide)
-WoWPro:GuideIcon(guide,"ACH",13553)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 N Draft!|ACTIVE|55851|N|This guide is under construction.  We apologize for any missing quests, fires, or other hazards.|
 N Dailies|N|Since there is no way to predict which dailies and follower quests will be available, the accept steps are not in the guide. Pick up any you see (blue !) and if they are in the guide, the completion steps and turn in steps will show up.|
-
 ;quest chain when you first get rank 3 with follower
 t A Brief Respite|QID|54975|M|40.32,55.26|N|To Lady Jaina Proudmoore.|
 A Insight into Our Enemies|QID|55593|M|40.32,55.26|N|From Lady Jaina Proudmoore.|PRE|54975|
@@ -196,7 +54,6 @@ A Clearing Out the Cache|QID|55937|M|46.05,52.05|N|From Azerite Weapons Cache.|P
 C Clearing Out the Cache|QID|55937|M|44.47,53.04|QO|1|N|Defeat 3 waves of Ashvane's forces.|
 T Clearing Out the Cache|QID|55937|M|40.31,55.23|N|To Lady Jaina Proudmoore.|
 A Friends In Need|QID|56234|M|40.31,55.23|N|From Lady Jaina Proudmoore.|PRE|55937|
-
 ;quest chain 3000 follower points
 t Friends In Need|QID|56234|M|40.31,55.23|N|To Lady Jaina Proudmoore.|
 A A Bolt Hole|QID|55558|M|40.33,55.38|N|From Shandris Feathermoon.|PRE|56234|
@@ -249,7 +106,6 @@ K Lady Zharessa|ACTIVE|56325|M|50.47,23.69|QO|5|T|Lady Zharessa|N|Kill Lady Zhar
 T Changing Tides|QID|56325|M|50.10,24.48|N|To Lady Jaina Proudmoore.|
 f Tidal Conflux|QID|56358|M|49.80,23.61|N|At Nobu.|PRE|56325|
 A The Eternal Palace: Queen's Gambit|QID|56358|M|50.38,24.09|NA|N|From Lady Jaina Proudmoore.|PRE|56325|
-
 ;zone intro
 A The Wolf's Offensive|QID|56031|N|Auto accept on login after 8.2|
 T The Wolf's Offensive|QID|56031|M|70.61,27.23|Z|Boralus|N|To Genn Greymane.|
@@ -288,7 +144,6 @@ A A Way Home|QID|54972|M|40.31,55.24|N|From Lady Jaina Proudmoore.|PRE|55175|
 f Mezzamere|ACTIVE|54972|M|39.91,54.13|N|At Ray Tamer Enaka.|
 C A Way Home|QID|54972|M|39.97,52.57|NC|N|Stand on the portal pad and use the special action button to assist Jaina.|
 T A Way Home|QID|54972|M|40.31,55.24|N|To Lady Jaina Proudmoore.|
-
 ;heart of azeroth
 A Essential Empowerment|QID|55851|M|40.02,55.13|N|From Magni Bronzebeard.|PRE|54972|
 P Boralus|ACTIVE|55851|Z|Boralus|M|40.02,55.13|N|Take the portal to Boralus (or otherwise travel to Silithus).|
@@ -325,7 +180,6 @@ A Harnessing the Power|QID|57010|M|48.39,71.26|Z|Chamber of Heart!Dungeon1473|N|
 C Harnessing the Power|QID|57010|M|50.24,65.43|Z|Chamber of Heart!Dungeon1473|QO|1|U|168611|NC|N|Activate the Petrified Ebony Scale.|
 C Harnessing the Power|QID|57010|M|50.24,65.43|Z|Chamber of Heart!Dungeon1473|QO|2|NC|N|Click on the top item in the UI to infuse the Essence into Heart of Azeroth.|
 T Harnessing the Power|QID|57010|M|50.10,59.30|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
-
 ;finalize zone intro
 A Back Out to Sea|QID|56162|M|50.10,50.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|57010|
 P Mezzamere|ACTIVE|56162|Z|Boralus|M|69.85,15.29|N|Return to Boralus, then take the portal back to Nazjatar.|
@@ -353,11 +207,9 @@ A A Tempered Blade|QID|56156|M|39.37,53.46|N|From Bladesman Inowari.|PRE|55363
 C A Tempered Blade|QID|56156|M|39.92,37.19|QO|1|N|Kill Naga forces.|
 C A Tempered Blade|QID|56156|M|39.51,53.38|QO|2|N|Return to Mezzamere|
 T A Tempered Blade|QID|56156|M|39.51,53.38|N|To Bladesman Inowari.|
-
 N Requisition/Bounty Quests|N|These are mostly not set to be "sticky", so that the arrow can guide you to the correct area. If you want to make them sticky, you can right click on the step text and choose that option. This note will need to be manually clicked off.|
 U Deepflame Campfire|QID|57040^57041^57042|M|39.43,53.53|N|Be sure and stop by the Deepflame Campfire to pick up your companion.|PRE|56156|
 N Curse of Tides|BUFF|-304606|M|39.02,57.99|N|If you are affected by the Curse of tides, go to Gloomseeker Yarga to have it removed. He can be found in an underwater cave, located under the shortest waterfall. He trades your cursed item for a bag of gold.|;-304611^304612^-304614^-304619
-
 A WANTED: Lady Naz'jess|QID|55750|M|39.09,54.20|N|From Wanted Poster.|O|;daily
 A WANTED: Commander Sarj'eth|QID|55770|M|39.09,54.20|N|From Wanted Poster.|O|;daily
 A WANTED: Lord Ha'kass|QID|55771|M|39.09,54.20|N|From Wanted Poster.|O|;daily
@@ -376,7 +228,6 @@ A Bounty: More Crabs|QID|55832|M|40.07,55.70|N|From Mikah Brewbelly.|O|
 A Bounty: A Few Hydras|QID|55820|M|40.03,55.54|N|From Lieutenant Hawkins.|O|
 A Bounty: More Hydras|QID|55829|M|40.03,55.54|N|From Lieutenant Hawkins.|O|
 A Bounty: Elite Naga Forces|QID|55836|M|40.07,55.49|N|From Lieutenant Hawkins.|O|;daily
-
 A Bounty: Dangerous Creatures|QID|55837|M|39.61,55.55|N|From Tamer Orami.|O|;daily
 A Bounty: A Few Makrura|QID|55822|M|39.61,55.55|N|From Tamer Orami.|O|;daily
 A Bounty: More Makrura|QID|55831|M|39.61,55.55|N|From Tamer Orami.|O|;daily
@@ -390,7 +241,6 @@ A More Mouths To Feed|QID|54949|M|35.03,48.96|N|From Tracker Onu.|O|
 ;Requisition More Carp; A Few Carp; A Few Cone Shells; More Cone Shells unknown who quest giver is.
 ;bounty A Few Naga;More Naga unknown who gives quest
 A A Brief Respite|QID|54975|M|40.27,55.22|N|From Lady Jaina Proudmoore.|PRE|56156|
-
 A Scrying Stones|QID|56211|M|37.92,55.81|N|From Artisan Okata.|PRE|56156|
 C Scrying Stones|QID|56211|M|37.98,55.59|QO|1|N|Use the Scrying Stone|U|169817|
 A A Worthy Ally|QID|57006|M|39.43,53.53|N|From Deepflame Campfire.|PRE|56156|
@@ -408,7 +258,6 @@ A Requisition: More Seaweed|QID|55786|M|37.76,55.35|N|From Isla.|O|
 A Requisition: A Few Spiral Leaf|QID|55725|M|37.76,55.32|N|From Isla.|O|
 A Requisition: More Spiral Leaf|QID|55791|M|37.77,55.31|N|From Isla.|O|
 A Requisition: A Few Starfish|QID|55719|M|37.94,53.47|N|From Craftsman Azama.|O|
-
 C Scrying Stones|QID|56211|M|40.26,49.02;43.66,53.51;56.81,56.02|CS|QO|2|N|Use special action button at each of the marked locations to reveal another hidden treasure.|
 A Strange Silver Knife|QID|56239|M|39.78,49.28|N|From knife looted in treasure chest you just found.|
 A A Safer Place|QID|55983|M|48.23,45.29|N|From Mrrl.|PRE|56156|
@@ -423,19 +272,16 @@ B Slimy Naga Eyeball|QID|55529|M|38.51,53.90|QO|4|T|Mrrglrrl|N|Buy the Slimy Nag
 B Flatulent Fish|QID|55529|M|37.49,53.44|QO|3|T|Grrrmrlg|N|Buy the Flatulent Fish from Grrrmrlg.|
 B Unidentified Mass|QID|55529|M|39.97,53.42|QO|2|T|Flgrrl|N|Buy an Unidentified Mass from Flgrrl.|
 T No Backs|QID|55529|M|39.10,54.32|N|To Mrrl.|
-
 C Bounty: Dangerous Creatures|QID|55837|S!US|N|Today you have a quest for killing Rares, so keep an eye out for those stars on the minimap.|
 C Bounty: Coral Ancients|QID|55821^55830|S!US|N|Today you have a bounty for killing Coral Ancients, these are mostly non agro (yellow) and often stationary.|
 C Bounty: Elite Naga Forces|QID|55836|S!US|N|Today you have a bounty for killing Elite naga forces.|
 C Bounty: Naga|QID|55818^55827|S!US|N|Today you have a bounty for killing naga forces.|
 C The Waveblade Ankoan|QID|56119|S!US|N|Complete 4 world quests in Nazjatar.|
 C Requisition: We Need It All|QID|55801|M|71.07,47.78|QO|4|NC|N|Pick up an Impregnable Cone Shell, they are scattered pretty much over the whole zone.|
-
 A Where They Hide|QID|56154|M|41.29,58.36|N|From Seeker Anagi.|O|
 C Where They Hide|QID|56154|M|46.18,59.75|U|168432|N|Use the sponge to reveal the Zanj'ir Assassin, then kill them.|
 T Where They Hide|QID|56154|M|41.30,58.33|N|To Seeker Anagi.|
 C Requisition: Deepcoral Buds|QID|55790^55724|M|59.48,46.01|N|Deepcoral Buds can be found in the Coral Forest. (they must be attacked, not a ground spawn.)|
-
 C Bounty: Crabs|QID|55823^55832|M|62.55,42.66|N|Kill Crabs in the area.|
 K Inquisitor Ithriza|ACTIVE|55774|M|47.95,46.34|QO|1|T|Inquisitor Ithriza|N|Kill Inquisitor Ithriza and claim his head.|
 C Depopulation Effort|QID|57338|M|41.48,40.57|N|
@@ -450,14 +296,11 @@ T Unchained Resistance|QID|55032|M|48.4,52.4|N|To Tracker Okaju.|
 A Plug the Geysers|QID|56158|M|45.94,76.49|N|From Apprentice Unato.|O|
 C Plug the Geysers.|QID|56158|M|47.25,76.49|U|168482|N|Use the provided Benthic Sealer, and target the geysers to seal.|
 T Plug the Geysers|QID|56158|M|45.92,76.53|N|To Apprentice Unato.|
-
 ;A Plug the Geysers|QID|12312|M|45.92,76.54|N|From Apprentice Unato.|need to figure out QIDs
-
 A Plug the Geysers.|QID|56155^56157|M|60.66,50.92|N|From Apprentice Utapo.|O|
 C Plug the Geysers.|QID|56155^56157|M|61.82,52.68|QO|1|U|168482|NC|N|Use Benthic Sealent to close the geysers.|
 K Disturbed Algan|ACTIVE|56155^56157|M|61.82,52.68|QO|2|T|Disturbed Algan|N|Kill Disturbed Algan who will spawn after you plug the last geyser.|
 T Plug the Geysers.|QID|56155^56157|M|60.66,50.92|N|To Apprentice Utapo.|
-
 A Snapdragon Claws|QID|55701|M|62.53,51.82|N|From Tracker Ikuto.|O|
 C Snapdragon Claws|QID|55701|M|68.14,46.39|N|Kill Snapdragons and loot their Claws.|
 T Snapdragon Claws|QID|55701|M|62.52,51.85|N|To Tracker Ikuto.|
@@ -479,11 +322,9 @@ C The Fate of Professor Elryna|QID|56143|M|68.24,50.65|QO|2|NC|N|Pick up the Mem
 C The Fate of Professor Elryna|QID|56143|M|66.48,47.27|QO|3|NC|N|Witness the fate of Professor Elryna.  Use the memory pylon next to Kojo.|
 T The Fate of Professor Elryna|QID|56143|M|66.46,47.40|N|To Collector Kojo.|
 f Elun'alor Temple|ACTIVE|56241|M|74.08,40.03|N|From Orise. The area is actually named Orise's Vigil.|
-
 A Relics of the Sundering|QID|55659|M|78.84,42.44|N|From Shirelle McFadden.|O|PRE|57040|;follower quest
 C Relics of the Sundering|QID|55659|M|78.84,42.44|NC|N|Pick up the relics in the area.|
 T Relics of the Sundering|QID|55659|M|78.82,42.43|N|To Shirelle McFadden.|
-
 A City of Drowned Friends|QID|56309|M|76.26,45.56|N|From Shandris Feathermoon.|PRE|56156|
 C City of Drowned Friends|QID|56309|M|75.93,48.33|QO|1|T|Weeping Sanya|N|Weeping Sanya inside op the stairs.|
 C City of Drowned Friends|QID|56309|M|73.67,43.77|QO|2|NC|N|Swiftfinger Tynala.|
@@ -500,7 +341,6 @@ A They Made Their Choice|QID|56315|M|79.78,44.94|N|From Shandris Feathermoon.|
 C They Made Their Choice|QID|56315|M|79.78,44.94|QO|1|T|Abyssal Commander Sivara|N|Attack Shivana.|
 C They Made Their Choice|QID|56315|M|80.39,45.10|QO|2|CHAT|N|Talk to Janius.|
 T They Made Their Choice|QID|56315|M|79.78,44.94|N|To Shandris Feathermoon.|;unlocks flightmaster's whistle
-
 T Preserved Clues|QID|56241|M|81.44,45.44|N|To Preserved Journal on the ground.|
 A Diaries of the Dead|QID|56243|M|81.44,45.44|N|From same journal.|PRE|56241|
 C The Missing Crew|QID|56378|M|82.8,42.4|QO|1|NC|N|Find Captain Stonestare in the Zin-Azshari.|
@@ -515,7 +355,6 @@ F Mezzamere|ACTIVE|56247|M|78.90,41.24|N|Step out side and use your newly activa
 T Treasure Tale|QID|56247|M|37.86,55.69|N|To Artisan Itanu.|
 F Elun'alor Temple|QID|57086|M|39.93,54.12|N|At Ray Tamer Enaka.|
 C A Steamy Situation|QID|56036|M|42.54,47.80|N|Kill and loot glimmershell crabs, their shells are needed to plug the Steam Fissures.|
-
 A Void Cache|QID|55714|M|56.3,15.1|N|From Void Cache.|O|
 C Void Cache|QID|55714|M|56.3,15.1|N|key dropped by nearby Shirakess Naga (behaps only voidreavers?).|
 T Void Cache|QID|55714|M|56.3,15.1|N|To Void Cache.|
@@ -525,7 +364,6 @@ C Jumping Jellies|QID|56121|M|61.20,28.72|NC|N|Walk into the purple tornado. Aim
 A Arcane Cache|QID|55662|M|53.2,28.3|N|From Arcane Cache.|O|
 C Arcane Cache|QID|55662|M|53.2,28.3|N|Key dropped by nearby Azsh'ari Naga.|
 T Arcane Cache|QID|55662|M|53.2,28.3|N|To Arcane Cache.|
-
 F Utama's Stand|ACTIVE|57086|M|61.67,36.50|N|At Hiramo.|
 A Legacy of the Mad Mage|QID|57086|N|From Dropped Lesser Benthic Arcanocrystal.|O|PRE|56247|
 C Legacy of the Mad Mage|QID|57086|M|60.7, 31.9|QO|1|NC|N|Find the Mage's SECRET cave.|
@@ -540,7 +378,6 @@ T The Laboratory of Mardivas|QID|55121|M|60.63,33.29|N|To Mardiva's Tome.|
 K Champion Qalina, Spear of Ice|ACTIVE|55888|M|60.25,28.69|T|Champion Qalina|N|Kill Champion Qalina.|
 C Time to Krill|QID|56078|M|63.70,50.41;72.39,48.67;63.58,50.48|CN|N|Click on Murky's Egg. Note.|
 C Time to Krill|QID|56078|M|63.57,50.47|N|Use Murky's abilities to kill Snapdragons.|
-
 C Bounty: Fathom Rays|QID|55825^55834|M|38.11,15.57|N|Kill Fathom Rays.|T|Fathom Rays|
 A Feed Them All|QID|56149|M|55.6,47|N|From Harvester Akaro.|O|
 C Feed Them All|QID|56149|M|58.61,52.17|N|Kill and loot Fathom Rays.|
@@ -563,7 +400,6 @@ A Half-Digested Deepcoral Pod|QID|56447|M|58.34,48.06|N|From item dropped first 
 A Crab Marks The Spot|QID|55681|M|43.81,54.70|N|From Illegible Treasure Map.|O|
 C Crab Marks The Spot|QID|55681|M|44.93,53.48|QO|1|NC|N|Pick up the Buried Treasure. Several locations nearby.|
 T Crab Marks The Spot|QID|55681|M|44.93,53.48|N|Turn in to UI.|
-
 A A Curious Discovery|QID|56561|M|71.80,25.75|N|From an Enchanting Crystal on the ground.|
 A The High Life|QID|56304|M|74.16,24.91|N|From Kelya Moonfall.|
 C The High Life|QID|56304|M|77.94,26.36|QO|1|N|Click on the Ruined Mixing Stand to spawn Varal Pansong and kill him to investigate the bakery.|
@@ -576,7 +412,6 @@ T Saving Corin|QID|56321|M|80.22,31.88|N|To Kelya Moonfall.|
 A On Ghostly Wings|QID|56422|M|80.22,31.88|N|From Kelya Moonfall.|PRE|56321|
 T On Ghostly Wings|QID|56422|M|74.16,24.91|N|To Kelya Moonfall.|
 f Zin-Azshari|QID|57006|M|74.16,25.02|N|At Kelya Moonfall.|
-
 A A Life's Work|QID|55636|M|78.44,28.64|N|From an empty bookcase.|O|
 C A Life's Work|QID|55636|M|79.67,30.14|S!US|N|Kill Vengeful Highborne to get the scrolls.|
 C A Life's Work|QID|55636|M|78.18,27.96;76.43,29.75;78.36,26.92;76.25,27.89;77.74,26.44;77.24,29.69|CS|NC|US|N|Pick up the tomes from the ground.|
@@ -585,11 +420,9 @@ T A Life's Work|QID|55636|M|78.44,28.64|N|To an empty bookcase.|
 A Forgotten Memories|QID|55683|M|78.46,26.87|N|From Arylina.|O|
 C Forgotten Memories|QID|55683|M|79.08,27.58|NC|N|Arylina's Diary can be found just about anywhere in the area.|
 T Forgotten Memories|QID|55683|M|78.46,26.88|N|To Arylina.|
-
 C Bounty: Makrura|QID|55822^55831|M|62.46,38.97|N|Kill Makrura in the area.|
 C Infestation of Madness|QID|55884|M|63.01,34.96|QO|1|N|Kill Kil'karrok makrura.|
 C Infestation of Madness|QID|55884|M|64.84,34.38|QO|2|T|Infestation of Madness|N|Use special action button to teleport up to the Infestation of Madness and kill it.|
-
 A Most Delicious Clams|QID|56153|M|45.6,19.6|N|From Tracker Otaru.|O|
 C Most Delicious Clams|QID|56153|M|47.50,22.34|NC|N|Gather Neptulian Clams.(beware the hungry fish.)Abandon [What will it Lure, if you are having phasing issues and not being able to interact with the clams.|
 T Most Delicious Clams|QID|56153|M|45.6,19.6|N|From Tracker Otaru.|
@@ -602,12 +435,10 @@ C Kelpstone|QID|56389|M|46.68,27.79|N|Defeat Kelpstone in a pet battle.|
 A Overgrown Stone|QID|56453|PRE|56389|M|46.68,27.79|N|From Item received after defeating Kelpstone in a pet battle.|
 C Frenzied Knifefang|QID|56391|M|58.30,26.79;59.06,26.59|CS|N|Frenzied Knifefang can be found in an underwater cave. Defeat Frenzied Knifefang in a pet battle.|
 A Frenzy Fang|QID|56455|M|59.06,26.59|NC|N|From item dropped when defeating Frenzied Knifefang in a pet battle for the first time.|O|
-
 A Break a Few Eggs|QID|56370|M|66.81,29.14|N|From Tracker Kenji.|O|
 C Break a Few Eggs|QID|56370|M|69.03,21.70|QO|1|N|Destroy the Deepcoil Egga0|
 T Break a Few Eggs|QID|56370|M|67.10,26.10|N|To Apprentice Anako.|
 C Deepcoil Cleansing|QID|57353|M|70.87,20.22|N|Collect Voidtinged Substances primarily from Zoatroids.|
-
 C Leylocked Chest|QID|56023|M|67.05,35.71|NC|N|Click on the Arcane Device to open a puzzle. Uncross the ley lines (they will turn lighter color when uncrossed) to unlock the chest.|;WQ
 C Requisition: Kelp Buds|QID|55787^55721|M|72.41,43.94|QO|1|N|Pick up a Fallen Kelp Bud in the area.|
 C Requisition: We Need It All|QID|55801|M|59.99,51.96|QO|2|NC|N|Pick up a Fallen Kelp Bud in the area.|
@@ -617,14 +448,12 @@ C Plug the Geysers.|QID|56160|M|71.62,31.55|U|168482|NC|N|Use Benthic Sealent to
 T Plug the Geysers.|QID|56160|M|71.62,31.55|N|To Apprentice Aonari.|
 C The Drowned Oracles|QID|56048|M|78.45,34.09|N|Kill 3 Drowned Oracle.|
 C Bounty: Snapdragons|QID|55824^55833|M|69.76,50.56|N|Kill snapdragons.|
-
 K Gler'thogg|ACTIVE|55773|M|67.79,23.04|QO|1|T|Gler'thogg|N|Kill and loot Gler'thogg.|
 C Leylocked Chest|QID|56024|M|75.32,24.53|NC|N|Click on the Arcane Device to open a puzzle. Uncross the ley lines (they will turn lighter color when uncrossed) to unlock the chest.|;WQ
 A Poor, Unfortunate Souls|QID|55637|M|74.23,24.75|N|From Elycina Starcaller.|O|
 C Poor, Unfortunate Souls|QID|55637|M|79.36,29.82|N|Click on the bones to spawn Tortured Souls and then kill them.|
 T Poor, Unfortunate Souls|QID|55637|M|74.24,24.74|N|To Elycina Starcaller.|
 A Additional Supplies|QID|56787|M|74.36,25.02|N|From Bladesman Inowari.|O|
-
 A Forbidden Rituels|QID|55846|M|56.64,29.25|N|From Apprentice Ukaro.|O|
 C Forbidden Rituels|QID|55846|M|56.64,29.25|N|Drops from Naga Casters in the area.|
 T Forbidden Rituels|QID|55846|M|56.64,29.25|N|To Apprentice Ukaro.|
@@ -637,7 +466,6 @@ C Requisition: We Need It All|QID|55801|M|60.95,24.25|QO|3|NC|N|Poisonous Spiral
 C Requisition: Spiral Leaf|QID|55791^55725|M|60.95,24.25|NC|N|Today's requisition quest is to collect Poisonous Spiral Leaf.|
 C Requisition: We Need It All|QID|55801|M|60.62,22.53|QO|1|NC|N|Angel Scale Starfish can be found in this area.|S!US|
 C Requisition: Starfish|QID|55719^55785|M|60.62,22.53|NC|N|Angel Scale Starfish can be found in this area.|S!US|
-
 C Shadowspike Lurker|QID|56384|M|42.33,14.39|N|Defeat Shadowspike Lurker in a pet battle.|
 A Molted Spineshell|QID|56448|M|42.33,14.39|N|From item dropped the first time you defeat Shadowspike Lurker in a pet battle.|PRE|56384|
 A What Will It Mine?|QID|55531|N|From Brimstone Pickaxe, often contained in a Waterlogged Toolbox.|O|
@@ -648,7 +476,6 @@ C Hungry Hungry Hydras|QID|55997|M|35.77,12.12|QO|1|N|Keep giving Theronar chitt
 C Hungry Hungry Hydras|QID|55997|M|35.60,12.43|QO|2|N|Ride Theronar.|
 C Mindshackle|QID|56388|M|56.42,8.12|QO|1|N|Defeat Mindshackle in a pet battle.|
 A Strange Organ|QID|56452|M|56.42,8.12|N|From item dropped the first time you defeat Mindshackle in a pet battle.|PRE|56388|
-
 C Voltgorger|QID|56390|M|37.52,16.68|N|Defeat Voltgorger in a pet battle.|
 A Crackling Mandible|QID|56454|M|37.52,16.68|N|From Item dropped by Voltgorger the first time you defeat him in a pet battle.|PRE|56390|
 A Plans of Attack|QID|55845|M|37.2,19.2|N|From Naga Attack Plans on the ground.|O|
@@ -660,7 +487,6 @@ C Runelocked Chest|QID|56020|M|37.31,15.92|NC|N|Click on the arcane device to op
 C Runelocked Chest|QID|56021|M|37.31,15.92|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 30 red runes, by matching 3 or more in a row.|
 C Runelocked Chest|QID|56022|M|37.27,16.00|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 31 yellow runes, by matching 3 or more in a row.|
 K Lady Naz'jess|ACTIVE|55750|M|36.50,17.75|QO|1|T|Lady Naz'jess|N|Kill Lady Naz'jess and claim her Head as proof.|
-
 R Platform on the left|ACTIVE|55770|M|44.02, 27.44;44.17,20.26|CS|N|Go up the path, it will curve around to your right. You can sneak around the outside of the building to the left to get to him.|
 K Commander Sarj'eth|ACTIVE|55770|M|44.17,20.26|QO|1|T|Commander Sarj'eth|N|Kill Commander Sarj'eth and take his Head.|
 A Reinforced Cache|QID|55728|M|45.11,22.20|N|From Reinforced Cache sitting on the balcony.|O|
@@ -674,9 +500,7 @@ C Runelocked Chest|QID|56015|M|45.67,29.59|NC|N|Click on the Arcane Device to op
 C Runelocked Chest|QID|56016|M|45.66,29.61|NC|N|Click on the arcane device to open a puzzle game.  Goal is to destroy 21 yellow runes, by matching 3 or more in a row.|
 K Lady Narjiss|ACTIVE|55772|M|45.95,30.06|QO|1|T|Lady Narjiss|N|Kill Lady Narjiss and take her head.|
 K Lord Ha'kass|ACTIVE|55771|M|44,37|QO|1|T|Lord Ha'kass|N|Kill Lord Ha'kass and take his head.|
-
 f Ashen Strand|QID|56013|M|31.92,38.13|N|At Azuku.|
-
 C Bounty: Hydras|QID|55820^55829|M|35.24,45.12|N|Keep an eye out for today's bounty quest to kill hydras.|
 A Ancient Technology|QID|56346|M|38.12,36.99|N|From Broken Abysal Focus.|P|Blacksmithing;164;7+150|
 A Ancient Technology|QID|56346|M|38.12,36.99|N|From Broken Abysal Focus.|P|Alchemy;171;7+150|
@@ -718,7 +542,6 @@ T Mgglurky's Mugglrgl|QID|56002|M|25.46,26.39|N|To King Mrgl-Mrgl.|
 C Bounty: Murlocs|QID|55819^55828|M|26.28,32.55|N|Kill murlocs.|
 C Giant Opaline Conch|QID|56392|M|28.10,26.79|N|Defeat the Giant Opaline Conch in a pet battle.|
 A Opaline Conch|QID|56456|M|28.10,26.79|N|From item dropped the first time you defeat the Giant Opaline Conch in a pet battle.|PRE|56392|
-
 f Wreck of the Old Blanchy|M|44.48,85.53|N|At Mandos Fogwing.|
 A Kill the Kritch|QID|56150|M|44.93,76.84|QO|1|N|From Rlgmrr.|O|;follower q
 K Kill the Kritch|ACTIVE|56150|M|36.32,79.94|T|Kritch|QO|1|N|Kill Kritch.|
@@ -735,7 +558,6 @@ A The Sunken Chest|QID|55633|M|45.8,83.8|N|From Sunken Chest in underwater cave.
 C The Sunken Chest|QID|55633|M|45.8,83.8|NC|N|Key is loccated somewhere nearby.|
 T The Sunken Chest|QID|55633|M|45.8,83.8|N|To Sunken Chest.|
 C Cave of Murlocs|QID|57334|M|36.92,82.99|N|Kill Necrofin Murlocs in and around the cave.|
-
 T WANTED: Lady Naz'jess|QID|55750|M|40.04,55.56|N|To Lieutenant Hawkins.|
 T WANTED: Commander Sarj'eth|QID|55770|M|40.04,55.56|N|To Lieutenant Hawkins.|
 T WANTED: Lord Ha'kass|QID|55771|M|40.04,55.56|N|To Lieutenant Hawkins.|
@@ -750,10 +572,8 @@ A A Glint in the Darkness|QID|56778|M|39.96,55.28|N|From Hunter Akana.|O|
 A The Speaker's Gift|QID|56782|M|25.44,26.36|N|From Farseer Ori.|O|
 T Giant Crab Leg|QID|56273|M|39.47,53.40|N|To Bladesman Inowari.|
 T Fathom Ray Wing|QID|57247|M|39.39,53.50|N|To Hunter Akana.|
-
 T Ancient Technology|QID|56346|M|38,53|N|To Instructor Ulooaka.|
 A An Abyssal Opportunity|QID|56347|M|38,53|N|From Instructor Ulooaka.|PRE|56346|
-
 T A Gift From The Clan|QID|56777|M|38.00,55.75|N|To Speaker Utia.|
 T The Waveblade Ankoan|QID|56119|M|38.01,55.70|N|To Speaker Utia.|
 T The Speaker's Gift|QID|56782|M|38.01,55.70|N|To Speaker Utia.|
@@ -789,14 +609,12 @@ T Requisition: A Few Cone Shells|QID|55726|M|38.03,55.70|N|To Speaker Utia.|
 T Requisition: More Cone Shells|QID|55792|M|38.03,55.70|N|To Speaker Utia.|
 T A Gift of Supplies|QID|56789|M|38.03,55.70|N|To Speaker Utia.|
 T A Valorous Reward|QID|56779|M|38.03,55.70|N|To Speaker Utia.|
-
 T A Worthy Ally|QID|57006|M|37.89,55.84|N|To Artisan Okata.|
 t What Will It Lure?|QID|55602|M|37.89,55.84|N|To Artisan Okata.|
 t What Will It Mine?|QID|55531|M|37.89,55.84|N|To Artisan Okata.|
 t What Will It Grow?|QID|55426|M|37.89,55.84|N|To Artisan Okata.|
 C An Abyssal Opportunity|QID|56347|M|37.89,55.84|NC|N|Purchase the Abyssal Shards from Artisan Okata. This quest enables the crafting of new gear, so if that's not important to you, check this off manually.|
 t An Abyssal Opportunity|QID|56347|M|38,53|N|To Instructor Ulooaka.|
-
 T Wiggletail's Poking Fork|QID|56444|M|37.85,55.71|N|To Artisan Itanu.|
 T Leathery Venom Gland|QID|56446|M|37.86,55.71|N|To Artisan Itanu.|
 T Half-Digested Deepcoral Pod|QID|56447|M|37.85,55.71|N|To Artisan Itanu.|
@@ -816,10 +634,6 @@ C Reclaimed Treasure|QID|56788|M|35.17,42.44|NC|N|Find and loot the Lambent Lock
 T Reclaimed Treasure|QID|56788|M|35.16,42.36|U|169905|N|To Bladesman Inowari. Don't forget to open the supplies.|
 C The Lambent Lockbox|QID|56783|M|45.52,32.20|NC|N|Find and loot the Lambent Lockbox.|
 T The Lambent Lockbox|QID|56783|M|45.52,32.20|U|169905|N|To UI Alert. Don't forget to open the supplies.|
-
 T The Missing Crew|QID|56378|M|67.95,26.72|Z|Boralus|N|Turn in to Grand Admiral Jes-Tereth next time you are in Boralus.|
 ]]
-
 end)
-
-

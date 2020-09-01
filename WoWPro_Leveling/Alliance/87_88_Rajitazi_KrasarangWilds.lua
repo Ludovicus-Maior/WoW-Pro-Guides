@@ -1,170 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_alliance
--- Date: 2018-10-17 02:25
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3488/revisions/29572/view
--- Date: 2018-08-22 23:37
--- Who: jovieve
--- Log: Removed comparison operator in QO in favor of simpler form.
-
--- URL: http://wow-pro.com/node/3488/revisions/29571/view
--- Date: 2018-08-22 23:17
--- Who: jovieve
--- Log: Updated old style QO to new one with comparison operator.
-
--- URL: http://wow-pro.com/node/3488/revisions/29185/view
--- Date: 2018-02-26 22:58
--- Who: Ludovicus_EditBot
--- Log: Level strip
-
--- URL: http://wow-pro.com/node/3488/revisions/29063/view
--- Date: 2018-02-20 01:37
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3488/revisions/28936/view
--- Date: 2018-01-17 00:33
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3488/revisions/28403/view
--- Date: 2017-03-15 22:12
--- Who: Ludovicus_Maior
--- Log: Added PREs to RajKra8788
-
--- URL: http://wow-pro.com/node/3488/revisions/26894/view
--- Date: 2014-11-08 01:17
--- Who: Ludovicus_Maior
--- Log: Corrections
-
--- URL: http://wow-pro.com/node/3488/revisions/26414/view
--- Date: 2014-05-30 15:33
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3488/revisions/26402/view
--- Date: 2014-05-30 12:17
--- Who: Ludovicus_Maior
--- Log: Level Adjustment
-
--- URL: http://wow-pro.com/node/3488/revisions/26339/view
--- Date: 2014-05-27 20:12
--- Who: Ludovicus_Maior
--- Log: End Level corrected from 0 to 87.
-
--- URL: http://wow-pro.com/node/3488/revisions/26303/view
--- Date: 2014-05-26 01:23
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3488/revisions/26111/view
--- Date: 2014-05-18 22:44
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3488/revisions/25997/view
--- Date: 2014-05-14 22:52
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3488/revisions/25763/view
--- Date: 2013-09-17 14:18
--- Who: Fluclo
--- Log: Fix QID on initial step, and added Level step at beginning of guide.
-
--- URL: http://wow-pro.com/node/3488/revisions/25722/view
--- Date: 2013-06-18 01:08
--- Who: Ludovicus_Maior
--- Log: quest 31410's name [Booties] does not match Grail's database [Equipment Locker].
-
--- URL: http://wow-pro.com/node/3488/revisions/25671/view
--- Date: 2013-05-17 19:21
--- Who: Ludovicus_Maior
--- Log: Misplaced |M| on Materia Medica.
-
--- URL: http://wow-pro.com/node/3488/revisions/25391/view
--- Date: 2013-01-12 21:27
--- Who: Emmaleah
--- Log: fixes for multi coordinates
-
--- URL: http://wow-pro.com/node/3488/revisions/25340/view
--- Date: 2013-01-11 20:38
--- Who: Emmaleah
--- Log: fix syntax for multi coordinates
-
--- URL: http://wow-pro.com/node/3488/revisions/25238/view
--- Date: 2012-12-03 14:25
--- Who: Fluclo
--- Log: Added a finish collecting fangs step for Why So Serious?
-
--- URL: http://wow-pro.com/node/3488/revisions/25237/view
--- Date: 2012-12-03 14:17
--- Who: Fluclo
--- Log: Added a bit to get to the cave, and corrected a bad symbol on Jar of Pigment
-
--- URL: http://wow-pro.com/node/3488/revisions/25236/view
--- Date: 2012-12-03 14:13
--- Who: Fluclo
--- Log: Correct coords of Memorial Flame of Po
-
--- URL: http://wow-pro.com/node/3488/revisions/25214/view
--- Date: 2012-11-24 21:41
--- Who: Ludovicus_Maior
--- Log: Played through and tweaked all over.  One toon found the bugs, the second tested the fixes!
-
--- URL: http://wow-pro.com/node/3488/revisions/25200/view
--- Date: 2012-11-11 00:52
--- Who: Emmaleah
--- Log: Emmaleah - 10 Nov 2012 - Added the "one time" treasure items. *and this change log*
-
--- URL: http://wow-pro.com/node/3488/revisions/25172/view
--- Date: 2012-10-27 20:54
--- Who: Ludovicus_Maior
--- Log: OK, next set of coordinate corrections, text mods, et al
-
--- URL: http://wow-pro.com/node/3488/revisions/25171/view
--- Date: 2012-10-27 16:00
--- Who: Ludovicus_Maior
--- Log: Coord fine tuning and occasional syntax fixes and duplicate step removals.
-
--- URL: http://wow-pro.com/node/3488/revisions/25122/view
--- Date: 2012-10-07 23:11
--- Who: Ludovicus_Maior
--- Log: Merged https://github.com/Emmaleah/WoW-Pro-Guides/blob/master/WoWPro_Leveling/Alliance/87_88_Rajitazi_KrasarangWilds.lua with minor tweaks by ludo
-
--- URL: http://wow-pro.com/node/3488/revisions/25079/view
--- Date: 2012-09-24 22:34
--- Who: Ludovicus_Maior
--- Log: Merged https://github.com/Emmaleah/WoW-Pro-Guides/blob/f25104bceccdf3d7adfe58ec2beaffdbabe4af07/WoWPro_Leveling/Alliance/87_88_Rajitazi_KrasarangWilds.lua
-
--- URL: http://wow-pro.com/node/3488/revisions/25062/view
--- Date: 2012-09-02 02:12
--- Who: Laotseu
--- Log: Play tested Alliance's Krasarang Wilds. Many changes mostly to do with stickies, K steps, |NS| and |T| tags.
-
--- URL: http://wow-pro.com/node/3488/revisions/25054/view
--- Date: 2012-08-28 19:11
--- Who: Ludovicus_Maior
--- Log: update urls
-
--- URL: http://wow-pro.com/node/3488/revisions/25053/view
--- Date: 2012-08-28 19:10
--- Who: Ludovicus_Maior
--- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07.
-
 local guide = WoWPro:RegisterGuide('RajKra8788', "Leveling", 'Krasarang Wilds', 'Rajitazi', 'Alliance')
-WoWPro:GuideLevels(guide,86,87,84.5738)
-WoWPro:NewGuideLevels(guide,81,90)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'EmmKun8889')
-WoWPro:GuideIcon(guide,"ACH",6975)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 F Zhu's Watch|QID|30080|M|19, 56|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
 T Ken-Ken|QID|29873|M|76.23,7.13|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
 A What's Eating Zhu's Watch?|QID|30079|M|76.22,7.06|N|From Ken-Ken.|
@@ -212,7 +50,6 @@ A Zhu's Despair|QID|30090|PRE|30089|M|76.22,7.06|N|From Ken-Ken.|
 C Zhu's Despair|QID|30090|U|79057|M|76.43,8.76|N|After you kill the little sha's, then you use the mask on Yi-Mo, who is standing by the well.|
 T Zhu's Despair|QID|30090|M|76.22,7.06|N|To Ken-Ken, after a little talking.|
 A Into the Wilds|QID|30178|PRE|30090|M|75.81,7.68|N|From Mei Barrelbottom.|
-
 A Crane Mastery|QID|30352|M|67.60,25.77|N|From Daggle Bombstrider.|
 A Profit Mastery|QID|30353|M|67.60,25.77|N|From Daggle Bombstrider.|
 A The Arcanic Oubliette|QID|30274|S|N|Head down the road till you get the UI ALert.|
@@ -269,7 +106,6 @@ A Immortality?|QID|30348|PRE|30347&30349&30351|M|67.45,32.64|N|From Lorekeeper V
 C Immortality?|QID|30348|M|67.45,32.64|N|Watch and wait.|
 T Immortality?|QID|30348|M|67.45,32.64|N|To Lorekeeper Vaeldrin.|
 A Going on the Offensive|QID|30363|PRE|30348|M|67.45,32.70|N|From Lyalia.|
-
 C Going on the Offensive|QID|30363|NC|M|43.9,43.4|N|The poor outrider is on the ground (again).|
 T Into the Wilds|QID|30178|M|44.24,43.02|N|To Koro Mistwalker.|
 A Unsafe Passage|QID|30269|PRE|30133^30178|M|44.16,43.00|N|From Koro Mistwalker.|
@@ -288,7 +124,6 @@ T Tread Lightly|QID|30694|M|40.62,33.69|N|To Koro Mistwalker.|
 A Ahead on the Way|QID|30695|PRE|30268&30270&30694|M|40.68,33.68|N|From Koro Mistwalker.|
 A Striking the Rain |QID|30272|PRE|30268&30270&30694|M|40.6,33.7|N|From Koro Mistwalker|
 A Sha Can Awe|QID|30271|PRE|30268&30270&30694|M|40.67,33.88|N|From Anduin Wrynn, who is now following you and who may be duplicated!|
-
 C Sha Can Awe|QID|30271|S|M|41.9,50.1|N|Kill Hunts and Incarnations of Despair near the Hopeless Monks|
 C Striking the Rain|QID|30272|S|M|40,45|
 C West Pagoda Cleansed|QID|30695|QO|1|M|37.82,54.26|; West Pagoda Cleansed: 1/1
@@ -301,7 +136,6 @@ T Sha Can Awe|QID|30271|M|38.01,50.89|N|To Anduin Wrynn.|
 A In the House of the Red Crane|QID|30273|PRE|30271&30272&30695|M|38.01,50.89|N|From Anduin Wrynn.|
 C In the House of the Red Crane|QID|30273|M|40.46,54.65|N|Go up the center stairs then run straight back to the stairs into the basement. Talk to Chi-Ji to start the fight. He will float up and a large sha will appear, defeat it and you win. When the adds show up, you probably want to focus on them, since deaths cause Anduin to heal you.|
 T In the House of the Red Crane|QID|30273|M|40.43,49.18|N|To Chi-Ji (back outside).|
-
 R Nayeli Lagoon|QID|30667|M|51.7,75.34|
 A Particular Plumage|QID|30667|M|51.67,75.30|N|From Tony Tuna.|
 l Stack of Papers|QID|31863|L|87798|M|52,73|N|Another of those grey items, this one doesn't sell for as much, but its free gold and XP, the path up is on the back side of the island.|
@@ -327,7 +161,6 @@ T Misery|QID|30691|M|46.27,83.42|N|To UI Alert.|
 C Wisdom Has A Price|QID|30671|US|M|46.54,77.47|N|Random drop from the sharks.|
 T Wisdom Has A Price|QID|30671|M|46.01,78.96|N|To Wise Ana Wu.|
 A Balance|QID|30672|PRE|30671|M|46.01,78.96|N|From Wise Ana Wu.|
-
 R Unga Ingoo|QID|30674|M|45.31,85.17|N|Keep jumping on your raft.|
 A Banana Infused Rum|QID|31411|M|53.2,88.7|N|East of Unga Ingoo (at the top of the hill) there may be a barrel that contains the Recipe: Banana Infused Rum. Beware of Spriggen!|
 A Equipment Locker|QID|31410|M|42.29,91.98|N|West of Unga Ingoo is a pirate ship, that may contain an Equipment Locker (in the lowest level hold) with a pair of spec specific ilvl 419 boots.|
@@ -345,10 +178,8 @@ C Buried Hozen Treasure|QID|30675|US|M|51.10,85.27|N|Click on the piles of sand 
 T Buried Hozen Treasure|QID|30675|M|51.10,85.27|N|To UI Alert.|
 R Marista|QID|30672|M|51.55,76.83|N|Keep jumpin'.|
 T Balance|QID|30672|M|51.55,76.83|N|To Jay Cloudfall.|
-
 R Explore|QID|99999|N|Explore the islands while you are out here and have the raft (its a one hour duration).|
 f Cradle of Chi-Ji|QID|30675|M|31.19,63.25|N|At Feather Keeper Li.|
-
 R Fallsong Village|M|29.66,39.0|QID|30168|N|You can take the raft up the river to avoid combat. (portage around the waterfall).|
 A Thieving Raiders|QID|30168|M|29.67,39.06|N|From Tired Shushen.|
 A Raid Leader Slovan|QID|30169|M|29.67,39.06|N|From Tired Shushen.|
@@ -357,7 +188,6 @@ K Raid Leader Slovan|T|Slovan|QID|30169|QO|1|M|31.87,29.01|Z|Valley of the Four 
 K Riverbank Flesh-Hunter|QID|30168|US|L|78958 5|M|29.55,45.17|Z|Valley of the Four Winds|
 T Thieving Raiders|QID|30168|M|29.67,39.06|N|To Tired Shushen.|
 T Raid Leader Slovan|QID|30169|M|29.67,39.06|N|To Tired Shushen.|
-
 R Sentinel Basecamp|QID|30363|M|24.76,34.00|
 T Going on the Offensive|QID|30363|M|24.70,34.04|N|To Lyalia.|
 A No Sister Left Behind|QID|30354|PRE|30363^30465|M|24.70,34.04|N|From Lyalia.|
@@ -373,7 +203,6 @@ T Re-Reclaim|QID|30355|M|25.20,34.53|N|To Kang Bramblestaff.|
 T No Sister Left Behind|QID|30354|M|24.70,34.04|N|To Lyalia.|
 T Sever Their Supply Line|QID|30356|M|24.70,34.04|N|To Lyalia.|
 A The Mantid|QID|30361|PRE|30354&30355&30356|M|24.88,34.37|N|From Ambassador Han.|
-
 C The Mantid|QID|30361|S|M|14.44,35.46|
 A The Stoneplow Convoy|QID|30357|PRE|30354&30355&30356|M|15.09,39.42|N|From Lorekeeper Vaeldrin.|
 C The Stoneplow Convoy|QID|30357|NC|U|79163|M|15.62,34.96|N|Use the poultices to heal the envoys.|
@@ -387,10 +216,8 @@ A The Waters of Youth|QID|30445|PRE|30359|M|24.70,33.98|N|From Lorekeeper Vaeldr
 C The Waters of Youth|QID|30445|M|24.70,33.98|
 T The Waters of Youth|QID|30445|M|24.70,33.98|N|To Lyalia.|
 A Warn Stoneplow|QID|30360|PRE|29990&30117&30273&30445|M|24.74,34.04|N|From Lyalia.|
-
 F Stoneplow|QID|30360|M|25.13,33.53|N|At Maylen Moonfeather.|
 T Warn Stoneplow|QID|30360|M|19.54,56.92|Z|Valley of the Four Winds|N|To Loon Mai.  Cinematic Follows.|
-
 A The Mantidote|QID|30623|PRE|30241^30360^30376|M|17.96,56.45|Z|Valley of the Four Winds|N|From Mei Barrelbottom.|
 A The Swarm Begins|QID|30622|PRE|30241^30360^30376|M|17.83,56.23|Z|Valley of the Four Winds|N|From Loon Mai.|
 A It Does You No Good In The Keg|QID|30624|PRE|30241^30360^30376|M|18.05,55.69|Z|Valley of the Four Winds|N|From Mudmug.|
@@ -418,7 +245,4 @@ T The Gratitude of Stoneplow|QID|30628|NC|M|19.85,55.94|Z|Valley of the Four Win
 F Grassy Cline|QID|31254|M|20.31, 58.62|Z|Valley of the Four Winds|N|At Dragonwing Dan.|
 N Congratulations|QID|31254|N|You have finished Krasarang Wilds. Next zone is Kun-Lai Summit.|
 ]]
-
 end)
-
-

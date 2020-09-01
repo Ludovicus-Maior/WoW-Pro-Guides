@@ -1,88 +1,11 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_hinterlands_horde
--- Date: 2018-10-17 02:27
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3240/revisions/29202/view
--- Date: 2018-02-27 17:43
--- Who: Ludovicus_EditBot
--- Log: Level strip
-
--- URL: http://wow-pro.com/node/3240/revisions/29089/view
--- Date: 2018-02-20 21:34
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3240/revisions/28884/view
--- Date: 2018-01-16 23:41
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3240/revisions/28426/view
--- Date: 2017-03-15 23:21
--- Who: Ludovicus_Maior
--- Log: Added PREs to JiyHin3035
-
--- URL: http://wow-pro.com/node/3240/revisions/27282/view
--- Date: 2015-06-09 16:21
--- Who: Fluclo
--- Log: Added minimum level information, added step to handle someone who hasn't worked on Arathi Guide before doing Hinterlands guide, removed the |O| tag on the A step as this makes the whole line redundant, reordered some quests as they are level locked, removed dungeon quest which has been removed from the game.
-
--- URL: http://wow-pro.com/node/3240/revisions/27281/view
--- Date: 2015-06-08 12:17
--- Who: Fluclo
--- Log: The Right Way was not available from Huntsman Markhor, and wowhead says This quest was marked obsolete by Blizzard and cannot be obtained or completed.
-
--- URL: http://wow-pro.com/node/3240/revisions/26453/view
--- Date: 2014-06-02 15:17
--- Who: Ludovicus_Maior
--- Log: Set Levels
-
--- URL: http://wow-pro.com/node/3240/revisions/26323/view
--- Date: 2014-05-26 19:58
--- Who: Ludovicus_Maior
--- Log: Added missing guide type.
-
--- URL: http://wow-pro.com/node/3240/revisions/26092/view
--- Date: 2014-05-18 22:07
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3240/revisions/26028/view
--- Date: 2014-05-17 17:01
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3240/revisions/25477/view
--- Date: 2013-01-13 19:40
--- Who: Ludovicus_Maior
--- Log: Added C* tags
-
--- URL: http://wow-pro.com/node/3240/revisions/23361/view
--- Date: 2010-12-03 11:14
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3240/revisions/23360/view
--- Date: 2010-12-03 11:13
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('JiyHin3035', 'Leveling', 'The Hinterlands', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,29,34, 30.6218)
-WoWPro:NewGuideLevels(guide,30,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'JiyWes3540')
-WoWPro:GuideIcon(guide,"ACH",4897)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 A Revantusk Village|QID|26430|M|69.00,34.78|Z|Arathi Highlands|N|From Drum Fel|
 A Revantusk Village|QID|26430|M|69.00,34.78|Z|Arathi Highlands|N|From Drum Fel. He can be found in Hammerfall (Arathi Highlands)\n\nIf you've not been to Hammerfall before, head along the road from Hillsbrad Foothills (watching out for one Level 30 mob walking along the road near Refuge Point)|
 F The Hinterlands|QID|26430|M|68.19,33.44|N|Speak to Urda, the Bat Handler and ask for a ride to Revantusk Village.|CHAT|
-
 f Revantusk Village|QID|26430|M|81.69,81.80|N|From Gorkas.|
 A Gammerita, Mon!|QID|26210|M|80.35,81.46|N|From Katoom the Angler.|
 A Snapjaws, Mon!|QID|26211|M|80.35,81.46|N|From Katoom the Angler.|
@@ -91,58 +14,48 @@ A Lard Lost His Lunch|QID|26212|M|78.20,81.27|N|From Lard.|
 h Revantusk Village|QID|26430|M|78.20,81.27|N|At Lard.|
 T Warchief's Command: The Hinterlands!|QID|28574|M|78.16,81.37|N|To Elder Torntusk, upstairs in the inn.|ACTIVE|28574|
 T Revantusk Village|QID|26430|M|78.16,81.37|N|To Elder Torntusk, upstairs in the inn.|
-
 C Pupellyverbos Port|QID|26225|S|NC|M|79.43,70.17|N|Loot the bottles of wine found along the coast.|
 C Snapjaws, Mon!|QID|26211|S|M|78.21,66.51|N|Kill the turtles found along the coast.|
 C Gammerita, Mon!|QID|26210|M|77.85,70.96|N|Kill and loot Gammerita, the huge turtle that patrols the area.|T|Gammerita|
 C Lard Lost His Lunch|QID|26212|M|84.03,40.82|N|Head along the coast to The Overlook Cliffs, then swim out to the island. Click on Lard's Picnic Basket. This will spawn a couple of Vilebranch Kidnappers. Kill and loot them for Lard's Lunch.|
 C Pupellyverbos Port|QID|26225|US|NC|M|79.43,70.17|N|Finish looting the bottles of wine found along the coast.|
 C Snapjaws, Mon!|QID|26211|US|M|78.21,66.51|N|Finish killing the turtles along the coast.|
-
 H Revantusk Village|QID|26212|N|Run back to Revantusk Village (or Hearthstone if it's a long way away).|M|78.20,81.30|
 T Lard Lost His Lunch|QID|26212|N|To Lard.|M|78.20,81.30|
-
 T Gammerita, Mon!|QID|26210|M|80.31,81.48|N|To Katoom the Angler.|
 T Snapjaws, Mon!|QID|26211|M|80.31,81.48|N|To Katoom the Angler.|
 T Pupellyverbos Port|QID|26225|M|77.30,79.80|N|To Grognard.|
-
 A The Savage Dwarves|QID|26238|M|78.16,81.37|N|From Elder Torntusk, upstairs in the Inn.|
 A Thornar Thunderclash|QID|26263|M|78.16,81.37|N|From Elder Torntusk.|
 A Stalking the Stalkers|QID|26223|M|79.09,79.57|N|From Huntsman Markhor.|
 A Stomp To My Beat|QID|26240|M|78.79,78.44|N|From Mystic Yayo'jin.|
-
 C Stalking the Stalkers|QID|26223|M|75.45,75.15;70.35,63.15;71.65,50.95;60.95,44.90|CC|N|Head up the path, then kill the Silvermane Stalkers.|
 C The Savage Dwarves|QID|26238|S|M|71.03,50.04|N|Kill Wildhammer Dwarves.|
 C Stomp To My Beat|QID|26240|NC|U|57920|M|71.48,50.40|N|Use the drums on Revantusk stalkers (not the casters!)|S|T|Revantusk Stalker|
 C Thornar Thunderclash|QID|26263|M|70.97,48.47|N|He's located inside a small fortified area.|
 C Stomp To My Beat|QID|26240|NC|U|57920|M|71.48,50.40|N|Use the drums on Revantusk stalkers (not the casters!)|US|T|Revantusk Stalker|
 C The Savage Dwarves|QID|26238|US|M|71.03,50.04|N|Finish killing Wildhammer Dwarves.|
-
 H Revantusk Village|QID|26263|N|Hearthstone or run back to Revantusk Village|M|71.15,64.70;78.20,81.30|CC|
 T The Savage Dwarves|QID|26238|M|78.17,81.42|N|To Elder Torntusk, upstairs.|
 T Thornar Thunderclash|QID|26263|M|78.17,81.42|N|To Elder Torntusk|
-
 A Skulk Rock Clean-Up|QID|26267|PRE|26238&26263|M|78.17,81.42|N|From Elder Torntusk.|
 A Skulk Rock Supplies|QID|26268|PRE|26238&26263|M|78.17,81.42|N|From Elder Torntusk.|
 T Stalking the Stalkers|QID|26223|M|79.12,79.51|N|To Huntsman Markhor.|
 A Hunt the Savages|QID|26224|PRE|26223|M|79.12,79.51|N|From Huntsman Markhor.|
 T Stomp To My Beat|QID|26240|M|78.79,78.41|N|To Mystic Yayo'jin.|
 A Prime Slime|QID|26283|PRE|26238&26263|M|78.03,78.24|N|From Malcom Fendelson.|
-
 C Hunt the Savages|QID|26224|M|76.33,76.38;72.78,68.80;61.05,62.40|CC|N|Follow the path, and kill any Savage Owlbeasts you find up there.|
 C Skulk Rock Clean-Up|QID|26267|S|M|57.55,39.35|N|Kill oozes in and around Skull Rock.|
 C Skulk Rock Supplies|QID|26268|S|NC|M|55.95,44.96|N|Loot the crates in and around Skull Rock. They are quite small, so look carefully!|
 C Prime Slime|QID|26283|M|57.47,38.85;57.46,41.54|CS|N|The entrance to the cave is on the north side of Skull Rock. Head inside and jump down or go down the ramp - the Direglob should be there. Kill and loot it.|
 C Skulk Rock Supplies|QID|26268|US|NC|M|55.95,44.96|N|Loot the crates in and around Skull Rock. They are quite small, so look carefully!|
 C Skulk Rock Clean-Up|QID|26267|US|M|57.55,39.35|N|Kill oozes in and around Skull Rock.|
-
 H Revantusk Village|QID|26267|N|Hearthstone or run back to Revantusk Village|M|71.15,64.70;78.20,81.30|CC|
 T Skulk Rock Clean-Up|QID|26267|M|78.16,81.40|N|To Elder Torntusk, upstairs.|
 T Skulk Rock Supplies|QID|26268|M|78.16,81.40|N|To Elder Torntusk.|
 A The Fall of Jintha'Alor|QID|26432|PRE|26267^26268^26491^26492|M|78.16,81.40|N|From Elder Torntusk.|
 T Hunt the Savages|QID|26224|M|79.07,79.60|N|To Huntsman Markhor.|
 T Prime Slime|QID|26283|M|78.13,78.24|N|To Malcom Fendelson.|
-
 R Jintha'Alor|QID|26432|M|76.01,76.02;72.77,68.68;67.79,66.38|CS|N|Head back up the cliff and to the camp near the entrance to Jintha'Alor.|
 T The Fall of Jintha'Alor|QID|26432|M|67.79,66.38|N|To Primal Torntusk.|
 A Start Taking Back|QID|26306|PRE|26432^26496|M|67.79,66.38|N|From Primal Torntusk.|
@@ -211,9 +124,5 @@ A Shadra the Venom Queen|QID|26419|PRE|26558|M|35.54,68.46|N|From Deathstalker L
 C Shadra the Venom Queen|QID|26419|M|34.59,69.70|N|Let the forsaken tank for you, and defeat the venom queen!|
 T Shadra the Venom Queen|QID|26419|M|31.96,58.33|N|To Darkcleric Marnal, back at the Hiri'Watha Research Station.|
 A The Battle for Andorhal|QID|28508|LEAD|26921|M|31.96,58.33|N|From Darkcleric Marnal. Pick this up if you'd like to do Western Plaguelands next.|
-
 ]]
-
 end)
-
-

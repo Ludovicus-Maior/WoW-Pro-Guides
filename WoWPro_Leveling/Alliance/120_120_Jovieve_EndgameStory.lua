@@ -1,28 +1,11 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/alliance_endgame_storylines
--- Date: 2018-10-20 20:50
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL: http://wow-pro.com/node/3781/revisions/29779/view
--- Date: 2018-09-21 01:45
--- Who: elidion
--- Log: Initial guide.
-
 local guide = WoWPro:RegisterGuide('JoviJaina', 'Leveling', 'Kul Tiras', 'Jovieve', 'Alliance')
-WoWPro:GuideLevels(guide,120, 120)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideName(guide,'Endgame Storylines')
 WoWPro:GuideNextGuide(guide, 'TBD')
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
-
 return [[
 N About|M|67.99,22.01|Z|Boralus|N|You must be level 120 and have the Kul Tourist achievement to start this guide. This guide is for the Jaina Proudmoore storyline in Kul'tiras. It earns the Pride of Kul'tiras achievement and unlocks the Siege of Boralus mythic-only instance.|AVAILABLE|52194|
-
 ; In Boralus
 A What You May Regret|QID|52194|M|67.99,22.01|Z|Boralus|N|From Cyrus Crestfall in the Harbormaster's Office.|
 F Proudmoore Keep|ACTIVE|52194|M|66.97,15.00|Z|Boralus|N|Fly to Proudmoore Keep.|
@@ -38,7 +21,6 @@ F Boralus Harbor|ACTIVE|52762|M|47.75,65.43|Z|Boralus|N|Fly to Tradewinds Market
 C A Local Guide|QID|52762|M|67.63,22.12|Z|Boralus|QO|1|NC|N|Make your way to the Harbormast's Office and show Flynn the Contract.|
 T A Local Guide|QID|52762|M|67.63,22.12|Z|Boralus|N|To Flynn Fairwind.|
 A An Explosive Entrance|QID|52252|M|67.63,22.12|Z|Boralus|N|From Flynn Fairwind.|PRE|52762|
-
 ; Freehold
 F Bridgeport|ACTIVE|52252|M|66.97,15.00|Z|Boralus|N|Fly to Bridgeport.|
 C An Explosive Entrance|QID|52252|M|79.72,47.41|Z|Tiragarde Sound|QO|1|N|Collect Large Azerite Grenades|
@@ -55,14 +37,12 @@ C Sweete's Strongbox|QID|52311|M|74.53,78.59|Z|Tiragarde Sound|QO|2|NC|N|Open Sw
 C Sweete's Strongbox|QID|52311|M|74.53,78.59|Z|Tiragarde Sound|QO|3|CHAT|N|Talk to Flynn|
 C Sweete's Strongbox|QID|52311|M|75.28,48.91|Z|Tiragarde Sound|QO|4|NC|N|Make a daring escape. Jump off cliff. The bird will catch you.|;Waypoint is off here, forgot to update it.
 T Sweete's Strongbox|QID|52311|M|75.35,48.85|Z|Tiragarde Sound|N|To Flynn Fairwind.|
-
 ; Tol Dagor
 A Tol Dagor: The Fourth Key|QID|52445|M|75.35,48.85|Z|Tiragarde Sound|N|From Flynn Fairwind.|PRE|52311|
 C Tol Dagor: The Fourth Key|QID|52445|M|39.27,68.79|Z|Tol Dagor|QO|2|NC|N|Now do Tol Dagor on any 'non-mythic+' difficulty. Look for the Ashvane Skeleton Key hanging on the wall in night Captain Valyris' room. If you forgot to grab it but have it cleared on mythic, entering the dungeon will put you right in front of it.|
 C Tol Dagor: The Fourth Key|QID|52445|M|39.27,68.79|Z|Tol Dagor|QO|1|N|Defeat Overseer Korgus.|
 C Tol Dagor: The Fourth Key|QID|52445|M|68.10,22.59|Z|Boralus|QO|3|CHAT|N|Tell Flynn Fairwind you have the last key.|
 T Tol Dagor: The Fourth Key|QID|52445|M|68.10,22.59|Z|Boralus|N|To Flynn Fairwind.|
-
 ; Stormsong Valley and Shrine of the Storm
 A The Mysterious Island|QID|52449|M|68.10,22.59|Z|Boralus|N|From Flynn Fairwind.|PRE|52445|
 F Proudmoore Keep|ACTIVE|52449|M|66.97,15.00|Z|Boralus|N|Fly to Proudmoore Keep.|
@@ -93,7 +73,6 @@ C Fate's End|QID|52512|M|6.49,30.59|Z|Stormsong Valley|QO|2|NC|N|Search for sign
 C Fate's End|QID|52512|M|6.49,30.59|Z|Stormsong Valley|QO|3|N|Herald of Gorak Tul slain|
 T Fate's End|QID|52512|M|6.67,31.63|Z|Stormsong Valley|N|To Brother Pike.|
 A Lost in Darkness|QID|52513|M|6.67,31.63|Z|Stormsong Valley|N|From Brother Pike.|PRE|52512|
-
 ; Drustvar and Waycrest Manor
 F Proudmoore Keep|ACTIVE|52513|M|36.31,63.06|Z|Boralus|N|Fly to Proudmoore Keep. You can take the boat back or use your Flight Master's Whistle if you need to stick around Stormsong Valley or hearth/port back to Boralus.|
 T Lost in Darkness|QID|52513|M|36.33,62.90|Z|Boralus|N|To Katherine Proudmoore.|
@@ -131,7 +110,6 @@ A Runic Resistance|QID|52488|M|27.55,58.88|Z|Drustvar|N|From Katherine Proudmoor
 C Runic Resistance|QID|52488|M|27.56,58.79|Z|Drustvar|QO|1|N|Runic symbols are etched in the stone along the wall that the effigy is on. Click on the wards in the same order as the etched runes from left to right.|
 C Runic Resistance|QID|52488|M|26.79,58.00|Z|Thros, The Blighted Lands!Dungeon|N|To Katherine Proudmoore.|
 T Runic Resistance|QID|52488|M|27.54,58.89|Z|Drustvar|N|To Katherine Proudmoore.|
-
 ; Scenerio
 A Thros, the Blighted Lands|QID|51445|M|27.54,58.89|Z|Drustvar|N|From Katherine Proudmoore.|PRE|52488|
 P Thros, the Blighted Lands|ACTIVE|51445|M|27.57,58.81|Z|Drustvar|N|Click the portal to enter a scenario.|
@@ -143,9 +121,5 @@ C Thros, the Blighted Lands|ACTIVE|51445|Z|Thros, The Blighted Lands!Dungeon|M|2
 C Thros, the Blighted Lands|ACTIVE|51445|Z|Thros, The Blighted Lands!Dungeon|M|19.36,53.68|SO|4;1|N|Run up the hill to find the real Jaina. After the dialog featuring Daelin Proudmoore, click on Jaina. After cutscene prepare to fight Gorak Tul.|
 C Thros, the Blighted Lands|ACTIVE|51445|Z|Thros, The Blighted Lands!Dungeon|M|19.49,53.69|SO|5|CHAT|N|After defeating Gorak Tul, talk with Jaina to teleport back to Proudmoore Keep.|
 T Thros, the Blighted Lands|QID|51445|M|44.76,62.78|Z|Boralus|N|To Katherine Proudmoore. After turning in this quest, you can accept the quest to do Siege of Boralus if you want, but the guide will end here.|
-
 ]]
-
 end)
-
-

@@ -1,117 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_howling_fjord_horde
--- Date: 2018-10-17 02:28
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3288/revisions/29211/view
--- Date: 2018-02-27 17:59
--- Who: Ludovicus_EditBot
--- Log: LVL strip
-
--- URL: http://wow-pro.com/node/3288/revisions/29109/view
--- Date: 2018-02-22 23:01
--- Who: Ludovicus_EditBot
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3288/revisions/28920/view
--- Date: 2018-01-17 00:04
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3288/revisions/28446/view
--- Date: 2017-03-16 16:49
--- Who: Ludovicus_Maior
--- Log: Added PREs
-
--- URL: http://wow-pro.com/node/3288/revisions/27970/view
--- Date: 2016-10-31 06:43
--- Who: tubera
--- Log: Fix QOs;Added PRE & ACTIVE tags to bugged New Agamand Questline;And a few other tweaks
-
--- URL: http://wow-pro.com/node/3288/revisions/26913/view
--- Date: 2014-11-08 05:34
--- Who: Emmaleah
--- Log: eliminate some ".|" and add an "N|" per big list o' errors
-
--- URL: http://wow-pro.com/node/3288/revisions/26430/view
--- Date: 2014-06-02 13:29
--- Who: Ludovicus_Maior
--- Log: Level Set.
-
--- URL: http://wow-pro.com/node/3288/revisions/26280/view
--- Date: 2014-05-26 00:59
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3288/revisions/26166/view
--- Date: 2014-05-20 19:57
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3288/revisions/26007/view
--- Date: 2014-05-16 21:04
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3288/revisions/25569/view
--- Date: 2013-03-23 18:44
--- Who: Ludovicus_Maior
--- Log: Correct quest name [The Offensive Begins]
-
--- URL: http://wow-pro.com/node/3288/revisions/25460/view
--- Date: 2013-01-13 18:57
--- Who: Ludovicus_Maior
--- Log: Added C* tags
-
--- URL: http://wow-pro.com/node/3288/revisions/24914/view
--- Date: 2012-01-21 04:12
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3288/revisions/24858/view
--- Date: 2011-12-10 16:03
--- Who: Crackerhead22
--- Log: 4.3 update. Plus a couple corrections from aproposknight and Diven that somehow never made it in until now.  o.O
-
--- URL: http://wow-pro.com/node/3288/revisions/24342/view
--- Date: 2011-04-29 16:48
--- Who: Ludovicus_Maior
--- Log: Line ** for step * has unknown tag [NOPOI], Line 367 for step C has 3 M coords, Line 552 for step T has 3 M coords.
-
--- URL: http://wow-pro.com/node/3288/revisions/23954/view
--- Date: 2011-01-08 18:40
--- Who: STrek
--- Log: added code:
---	C War is Hell |QID|11270|U|33278|US|N|Burn the Forsaken and Alliance corpses with the Burning Torch.|
---
---	so sticky gets unsticked and quest is completed before the 'turn in' step is presented
-
--- URL: http://wow-pro.com/node/3288/revisions/23826/view
--- Date: 2010-12-25 03:10
--- Who: Crackerhead22
--- Log: Added |US| tag for "C Baleheim Bodycount |QID|11283|N|Make sure you're in Baleheim when you kill them or you won't get credit.|"
-
--- URL: http://wow-pro.com/node/3288/revisions/23467/view
--- Date: 2010-12-03 22:09
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3288/revisions/23466/view
--- Date: 2010-12-03 22:09
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("JamHow7071", "Leveling", "Howling Fjord", "Jame", "Horde")
-WoWPro:GuideLevels(guide,68,71, 68.4672)
-WoWPro:NewGuideLevels(guide,58,80)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, "JamBor7173")
-WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
---Original guide written/designed by Jame
---Revised by ndlarsen
 return [[
-
 R Vengeance Landing |QID|11270|N|Take the Zeppelin from Undercity.|Z|Tirisfal Glades|M|59.09,59.02|
 A The New Plague |QID|11167|M|78.5,29.0|N|From Apothecary Lysander.|
 A Let Them Eat Crow |QID|11227|M|79.1,31.2|N|From Pontius.|
@@ -122,7 +13,6 @@ C Let Them Eat Crow |QID|11227|U|33238|N|Use the Crow Meat 5 times.|M|75.23,32.8
 C War is Hell |QID|11270|U|33278|US|N|Burn the Forsaken and Alliance corpses with the Burning Torch.|M|75.23,32.84|
 C The New Plague |QID|11167|N|Head southeast to the wrecked ship. The containers are on and around the ship.|M|81,35|
 T War is Hell |QID|11270|M|78.6,31.2|N|To High Executor Anselm.|
-
 A Reports from the Field |QID|11221|PRE|11270|N|From High Executor Anselm.|M|78.6,31.2|
 T Let Them Eat Crow |QID|11227|M|79.1,31.2|N|To Pontius.|
 A Sniff Out the Enemy |QID|11253|PRE|11227|N|From Pontius.|M|79.1,31.2|
@@ -133,7 +23,6 @@ T Sniff Out the Enemy |QID|11253|N|Head north along the coast, killing Giant Tid
 A The Dragonskin Map |QID|11254|PRE|11253|N|From the Dragonskin Scroll.|
 C Spiking the Mix |QID|11168|N|Kill the Giant Tidecrawlers.|US|
 T Spiking the Mix |QID|11168|M|78.5,29.0|N|To Apothecary Lysander.|
-
 A Test at Sea |QID|11170|PRE|11168|N|From Apothecary Lysander. This quest may be bugged so you won't get the followup either.|M|78.5,29.0| ;quest may be bugged
 T The Dragonskin Map |QID|11254|M|78.6,31.2|N|To High Executor Anselm.|
 A The Offensive Begins |QID|11295|PRE|11254|N|From High Executor Anselm.|M|78.6,31.2|
@@ -142,7 +31,6 @@ T Test at Sea |QID|11170|M|78.5,29.0|N|To Apothecary Lysander.|
 N Listen to Razael's Report|QID|11221|QO|1|M|77.54,34.61|N|Talk to Razael.|
 C Reports from the Field |QID|11221|QO|2|N|Dark Ranger Lyana occasionally attacks the alliance forces, the assaults last about 30-60 seconds. If she's not at the coords, just wait for her to get back.|M|78.63,37.03|
 T Reports from the Field |QID|11221|N|To High Executor Anselm.|M|78.6,31.2|
-
 A The Windrunner Fleet |QID|11229|PRE|11221|N|From High Executor Anselm.|M|78.6,31.2|
 T The Windrunner Fleet |QID|11229|N|Talk to Bat Handler Camille again, have her fly you down to the fleet. To Captain Harker.|M|79.1,29.8|
 A Ambushed! |QID|11230|PRE|11229|M|84.7,36.5|N|From Captain Harker.|
@@ -152,7 +40,6 @@ A Guide Our Sights |QID|11232|PRE|11230|N|From Captain Harker.|M|84.7,36.5|
 N Mark Eastern Cannon |QID|11232|QO|1|U|33335|N|Use the flares next while standing next to the cannon. The cannon doesn't actually have to be there for you to get quest credit, you just have to use the flare standing where the cannon usually is.|M|80.3,38.2|
 C Guide Our Sights |QID|11232|QO|2|U|33335|M|79.3,40.2|N|Use the flare next to the cannon.|
 T Guide Our Sights |QID|11232|N|Back at Dark Ranger Lyana.|M|78.63,37.03|
-
 A Landing the Killing Blow |QID|11233|PRE|11232|N|From Dark Ranger Lyana.|M|78.63,37.03|
 K Captain Olster slain |QID|11233|QO|1|M|81.5,43.4|N|Kill Captain Olster.|
 K Sergeant Lorric slain |QID|11233|QO|3|M|82.2,40.9|N|Now kill Sergeant Lorric.|
@@ -160,7 +47,6 @@ C Landing the Killing Blow |QID|11233|QO|2|M|83.2,43.1|N|Finally kill Lieutenant
 A Trail of Fire |QID|11241|N|From Apothecary Hanes. He spawns near Lieutenant Celeyne.|M|83.2,43.1|
 C Trail of Fire |QID|11241|N|Straightforward escort. You'll end up in front of Dark Ranger Lyana.|
 T Landing the Killing Blow |QID|11233|M|78.63,37.03|N|To Dark Ranger Lyana.|
-
 A Report to Anselm |QID|11234|PRE|11233|N|From Dark Ranger Lyana.|
 T Report to Anselm |QID|11234|N|To High Executor Anselm.|M|78.7,31.2|
 T Trail of Fire |QID|11241|M|78.6,29.0|N|To Apothecary Lysander.|
@@ -170,7 +56,6 @@ A A Lesson in Fear |QID|11282|PRE|11295|N|From Sergeant Gorth.|M|71.1,39.1|
 A Help for Camp Winterhoof |QID|12566|M|71.5,39.2|N|From Longrunner Nanik.|
 C A Lesson in Fear |QID|11282|U|33563|N|Head just southwest, kill the Winterskorn Defenders until their respective bosses spawn, Oric the Baelful spawns near the house in rubbles to the north; Ulf the Bloodletter spawns in the middle; Gunnar Thorvardsson spawns next to the tower. Kill them and plant the Forsaken Banner on their corspes. You don't actually have to tag them, just plant the banner.|
 T A Lesson in Fear |QID|11282|M|71.1,39.1|N|To Sergeant Gorth.|
-
 A Baleheim Bodycount |QID|11283|PRE|11282|N|From Sergeant Gorth.|M|71.1,39.1|
 A Baleheim Must Burn! |QID|11285|PRE|11282|N|From Sergeant Gorth.|M|71.1,39.1|
 C Baleheim Bodycount |QID|11283|N|Make sure you're in Baleheim when you kill them or you won't get credit.|S|
@@ -181,7 +66,6 @@ C Baleheim Must Burn! |QID|11285|QO|4|U|33472|N| The final structure is to the n
 C Baleheim Bodycount |QID|11283|N|Make sure you're in Baleheim when you kill them or you won't get credit.|US|
 T Baleheim Bodycount |QID|11283|M|71.1,39.1|N|To Sergeant Gorth.|
 T Baleheim Must Burn! |QID|11285|N|To Sergeant Gorth.|M|71.1,39.1|
-
 A The Ambush |QID|11303|PRE|11283&11285|N|From Sergeant Gorth.|M|71.1,39.1|
 T The Ambush |QID|11303|M|65.9,36.8|N|To Lydell.|
 A Adding Injury to Insult |QID|12481|PRE|11303|N|From Lydell.|M|65.9,36.8|
@@ -199,7 +83,6 @@ C Suppressing the Elements |QID|11311|N|In the snowy hills northeast of Camp Win
 C Making the Horn |QID|11275|US|N|In the snowy hills northeast of Camp Winterhoof. The elementals tend to be higher in the hills, while the rams are lower.|
 T Suppressing the Elements |QID|11311|N|To Windtamer Kagan.|M|49.0,12.0|
 T Making the Horn |QID|11275|M|49.3,12.0|N|To Nokoma Snowseer.|
-
 A Mimicking Nature's Call |QID|11281|PRE|11275|M|49.3,12.0|N|From Nokoma Snowseer.|
 A The Frozen Glade |QID|11312|LEAD|11313|PRE|11271|M|49.3,12.0|N|From Nokoma Snowseer.|
 A The Book of Runes |QID|11350|PRE|11271|M|49.2,12.2|N|From Longrunner Pembe.|
@@ -216,7 +99,6 @@ C The Book of Runes |QID|11350|U|33778|N|Kill the Iron Rune Stonecallers/Binders
 C March of the Giants |QID|11365|U|33806|N|Find Runed Stone Giants in the area here and kill them, then use your Pick on their remains.|
 T Mimicking Nature's Call |QID|11281|N|To Nokoma Snowseer.|M|49.3,12.0|
 T The Book of Runes |QID|11350|M|49.2,12.2|N|To Longrunner Pembe.|
-
 A Mastering the Runes |QID|11351|PRE|11350|N|From Longrunner Pembe.|
 T March of the Giants |QID|11365|M|48.1,10.5|N|To Sage Edan.|
 A The Lodestone |QID|11366|PRE|11365|N|From Sage Edan.|
@@ -236,7 +118,6 @@ C Burn Skorn, Burn! |QID|11258|QO|3|U|33343|N|The final structure, the Barracks,
 N Target the East Tower |QID|11259|QO|2|U|33344|N|Head southwest and follow the trail up. East of here, the East Tower.|M|46.8,32.8|
 N Target the Southeast Tower |QID|11259|QO|4|U|33344|N|Further south, the Southeast Tower.|M|47,36|
 ;l Vrykul Scroll of Ascension |QID|11260|US|L|33345|N|Until you get the Vrykul Scroll of Ascension.|
-
 C Stop the Ascension! |QID|11260|U|33346|N|Stand next to the Pyre and use the Vrykul Scroll of Ascension. Kill Halfdan the Ice-Hearted when he spawns.|M|44.9,35.3|
 C Towers of Certain Doom |QID|11259|QO|3|U|33344|N|The final tower is southwest.|M|43,36|
 C Gruesome, But Necessary |QID|11257|U|33342|US|N|When you kill a Vrykul, use The Brave's Machete on the corpse.|
@@ -249,7 +130,6 @@ C The Fallen Sisters |QID|11314|U|33606|N|Use Lurielle's Pendant on Chill Nymphs
 C Wild Vines |QID|11315|N|Kill Scarlet Ivy mobs until you complete this quest. |M|51.14,26.57|US|
 T The Fallen Sisters |QID|11314|M|61.5,22.8|N|To Lurielle.|
 T Wild Vines |QID|11315|M|61.5,22.8|N|To Lurielle.|
-
 A Spawn of the Twisted Glade |QID|11316|PRE|11314&11315|M|61.5,22.8|N|From Lurielle.|
 A Seeds of the Blacksouled Keepers |QID|11319|PRE|11314&11315|M|61.5,22.8|N|From Lurielle.|
 C The Lodestone |QID|11366|U|33819|N|Head to the Broken Tablet, use the Rune Sample while standing near it.|M|72,17|
@@ -261,7 +141,6 @@ T Spawn of the Twisted Glade |QID|11316|M|61.5,22.8|N|To Lurielle.|
 T Seeds of the Blacksouled Keepers |QID|11319|M|61.5,22.8|N|To Lurielle.|
 A Keeper Witherleaf |QID|11428|PRE|11316|M|61.5,22.8|N|From Lurielle.|
 C Keeper Witherleaf |QID|11428|N|Kill Keeper Witherleaf in the area.|M|53.82,17.48|
-
 T Mastering the Runes |QID|11351|N|To Longrunner Pembe.|M|49.2,12.2|
 A The Rune of Command |QID|11352|PRE|11351|N|From Longrunner Pembe.|
 T The Lodestone |QID|11366|M|48.1,10.5|N|To Sage Edan.|
@@ -272,7 +151,6 @@ T Stop the Ascension! |QID|11260|N|To Greatmother Ankha.|
 A Find Sage Mistwalker |QID|11287|PRE|11261|N|From Greatmother Ankha.|
 A Of Keys and Cages |QID|11265|PRE|11261|N|From Greatmother Ankha.|
 T Find Sage Mistwalker |QID|11287|N|To Sage Mistwalker.|M|31.2,24.5|
-
 A The Artifacts of Steel Gate |QID|11286|PRE|11287|N|From Sage Mistwalker.|
 A Rivenwood Captives |QID|11296|M|31.3,24.3|N|From Longrunner Skycloud.|
 C The Artifacts of Steel Gate |QID|11286|N|Head into the pit and grab 10 Steel Gate Artifacts, they look like broken tablets.|M|32.02,24.92|
@@ -295,7 +173,6 @@ T Hasty Preparations |QID|11271|M|48.4,11.0|N|To Ahota Whitefrost.|
 T The Rune of Command |QID|11352|M|49.2,12.2|N|To Longrunner Pembe.|
 F Apothecary Camp|QID|11323|M|49.6,11.6|N|Fly to the Apothecary Camp.|
 T The Cleansing |QID|11317|N|To Sage Mistwalker.|M|31.2,24.5|
-
 A In Worg's Clothing |QID|11323|PRE|11317|N|From Sage Mistwalker.|M|31.2,24.5|
 A Gjalerbron Attack Plans |QID|11266|U|33347|N|From the Gjalerbron Attack Plans.|O|
 C Rivenwood Captives |QID|11296|S|N|In the Rivenwood, open the Riven Widow Cocoons until you complete the quest.|M|29.64,17.04|
@@ -311,7 +188,6 @@ C Dealing With Gjalerbron |QID|11263|N|Kill the Vrykul you need for this quest. 
 l Gjalerbron Attack Plans |QID|11266|L|33347|N|Kill Vrykul until the attack plans drop.|
 C Of Keys and Cages |QID|11265|N|Get any prisoners you still need.|US|
 T Brother Betrayers |QID|11415|U|33618|N|To Ulfang.|M|29.64,5.72|
-
 A Eyes of the Eagle |QID|11417|PRE|11415|N|From Ulfang.|
 l Scourge Device |QID|11398|L|33962|N|Head to the beach and kill Scourge until you get a Scourge Device.|M|22,17|
 A It's a Scourge Device |QID|11398|U|33962|N|From the Scourge Device.|
@@ -324,7 +200,6 @@ A The Frost Wyrm and its Master |QID|11267|PRE|11266|N|From Celea Frozenmane.|
 T Dealing With Gjalerbron |QID|11263|M|48.0,10.7|N|To Chieftain Ashtotem.|
 A Necro Overlord Mezhen |QID|11264|PRE|11263|N|From Chieftain Ashtotem.|
 T Of Keys and Cages |QID|11265|M|48.1,10.7|N|To Greatmother Ankha.|
-
 A The Walking Dead |QID|11268|PRE|11265|N|From Greatmother Ankha.|
 A Sleeping Giants |QID|11433|PRE|11265|M|48.4,11.0|N|From Ahota Whitefrost.|
 C Eyes of the Eagle |QID|11417|N|At the bottom of the waterfall, you'll see Talonshrike's nest. Right click the egg, and kill Talonshrike.|M|38.57,35.49;41.44,37.7|CS|
@@ -341,7 +216,6 @@ T Bring Down Those Shields |QID|11399|N|To Apothecary Anastasia.|M|26.17,24.6|
 T And You Thought Murlocs Smelled Bad! |QID|11397|N|To Apothecary Anastasia.|M|26.17,24.6|
 T What's in That Brew? |QID|11298|N|To Apothecary Malthus.|M|26.43,24.5|
 T Eyes of the Eagle |QID|11417|U|33618|N|To Ulfang.|M|29.64,5.72|
-
 A Alpha Worg |QID|11324|PRE|11417|N|From Ulfang.|M|29.64,5.72|
 C Alpha Worg |QID|11324|N|Look for Garwal. You don't have to be in the Worg disguise.|M|29.2,17;27,12.8;26.4,8.4|T|Garwal|CS|
 K Deathless Watchers|S|QID|11268|QO|1|N|Kill the Deathless Watchers you need for this quest.|M|33.91,9.91|
@@ -349,7 +223,6 @@ K Putrid Wights|S|QID|11268|QO|3|N|Kill the Putrid Wights you need for this ques
 l Awakening Rods|QID|11433|L|34083 5|S|N|Kill Necrolords until you have 5 Awakening Rods.|M|33.91,9.91|
 A The Slumbering King |QID|11453|U|34091|N|From Mezhen's Writings.|O|
 l Mezhen's Writings |QID|11453|L|34091|N|Kill Necro Overlord Mezhen here and loot Mezhen's Writings.|M|38.80,13.09|
-
 C The Slumbering King |QID|11453|M|40.88,6.49|N|Head north into the big gate. Head round the back and up onto the platform and kill Queen Angerboda. You won't get attacked by the Necrolords.|
 C The Frost Wyrm and its Master |QID|11267|U|33282|N|Kill Wyrmcaller Vile here last and loot the Wyrmcaller's Horn. Use it and kill Glacion when he arrives. |M|36.43,7.33|
 K Putrid Wights|US|QID|11268|QO|3|N|Kill the Putrid Wights you need for this quest.|M|33.91,9.91|
@@ -360,7 +233,6 @@ C The Walking Dead |QID|11268|QO|2|N|Enter The Waking Halls. Kill Fearsome Horro
 C Sleeping Giants |QID|11433|U|34083|N|Use the Awakening Rods on the sleeping Vrykul.|US|
 T Alpha Worg |QID|11324|N|To Sage Mistwalker.|M|31.17,24.50|
 T Rivenwood Captives |QID|11296|M|31.26,24.35|N|To Longrunner Skycloud.|
-
 A Root Causes |QID|11182|N|Southeast in Ember Clutch, the Ember Clutch Ancient patrols around. It won't give the quest if it is fighting.|M|37,47|
 A The Dead Rise! |QID|11504|M|40.3,60.3|N|From Orfus of Kamagua.|
 T New Agamand |QID|11304|N|To Chief Plaguebringer Harris.|
@@ -371,7 +243,6 @@ A Green Eggs and Whelps |QID|11279|M|53.10,66.90|N|From Plaguebringer Tillinghas
 T Give it a Name |QID|12181|N|To Tobias Sarkhoff. Ignore the follow up.|M|52.01,67.39|
 C A Tailor-Made Formula |QID|11305|N|Kill and loot Thorvald.|M|46.77,68.24|
 T A Tailor-Made Formula |QID|11305|M|53.57,66.37|N|To Chief Plaguebringer Harris.|
-
 A Apply Heat and Stir |QID|11306|M|53.57,66.37|N|From Chief Plaguebringer Harris.|PRE|11305|
 C Apply Heat and Stir |QID|11306|N|Use the Empty Apothecary Flask next to the cauldron to the Apothecary's right. Then use the Flask of Vrykul Blood on the table on the other side. It can take a while, as the fail rate is kind of bad. It can also proc a blast which hits you you 3k and can crit.|
 T Apply Heat and Stir |QID|11306|M|53.57,66.37|N|To Chief Plaguebringer Harris.|
@@ -386,7 +257,6 @@ A Draconis Gastritis |QID|11280|PRE|11279|M|53.10,66.90|N|From Plaguebringer Til
 T Field Test |QID|11307|M|53.57,66.37|N|To Chief Plaguebringer Harris.|
 A Time for Cleanup |QID|11308|M|53.57,66.37|N|From Chief Plaguebringer Harris.|PRE|11307|
 T Time for Cleanup |QID|11308|M|53.67,65.25|N|To "Hacksaw" Jenny.|
-
 A Parts for the Job |QID|11309|M|53.67,65.25|N|From "Hacksaw" Jenny.|PRE|11308|
 N Things to do |QID|11309|N|Kill Shoveltusks on sight, they're the things that look vaguely like moose.|ACTIVE|11309|
 C Shield Hill |QID|11424|M|59.00,78.00|N|Kill and loot Risen Vrykul.|S|
@@ -395,7 +265,6 @@ l Rodin's Clue |QID|11504|QO|2|N|Loot Rodin's Clue here. |M|59.27,77.00|
 l Isuldof's Clue |QID|11504|QO|3|N|Loot Isuldof's Clue here. |M|59.79,79.39|
 C The Dead Rise! |QID|11504|QO|4|N|Loot Windan's Clue here. |M|61.97,80.06|
 C Shield Hill |QID|11424|M|59.00,78.00|N|Kill and loot Risen Vrykul.|US|
-
 A Against Nifflevar |QID|12482|N|From Ranger Captain Areiel.|M|67.45,60.59|
 A The Enemy's Legacy |QID|11423|M|67.35,60.31|N|From Scribe Seguine.|
 C Against Nifflevar |QID|12482|N|Kill Dragonflayer Warriors, Rune-Seers, and Hunting Hounds.|S|M|68.27,54.25|
@@ -409,7 +278,6 @@ l Shoveltusk Ligament |QID|11309|L|33611 6|N|Go kill Shoveltusks if you haven't 
 C Parts for the Job |QID|11309|N|Anton patrols along the road between New Agamand and the Ancient Lift. If he's dead, he respawns at the waypoint.|M|53,74|
 T Shield Hill |QID|11424|N|To "Hacksaw" Jenny.|
 T Parts for the Job |QID|11309|N|To "Hacksaw" Jenny.|
-
 A Warning: Some Assembly Required |QID|11310|M|53.68,65.22|N|From "Hacksaw" Jenny.|PRE|11309|
 A To Venomspite!|QID|12182|PRE|12181|M|52.03,67.38|N|This will take you to Dragonblight. Accept it to get the flightpoint there.|
 f Venomspite|QID|12182|M|76.52,62.23|N|Get the flightpoint at Junter Weiss.|
@@ -422,7 +290,6 @@ T The Slumbering King |QID|11453|N|To Chieftain Ashtotem.|M|48.05,10.74|
 T The Walking Dead |QID|11268|N|To Greatmother Ankha.|M|48.16,10.66|
 F New Agamand|QID|11507|M|49.6,11.6|N|Fly to New Agamand.|
 T The Dead Rise! |QID|11504|N|To Orfus of Kamagua.|M|40.3,60.3|
-
 A Elder Atuik and Kamagua |QID|11507|PRE|11504|M|40.3,60.3|N|From Orfus of Kamagua.|
 R Kamagua |QID|11507|N|Go to the Ancient Lift and take it across to the island. When the lift stops, ride north to Kamagua. |M|25.12,57.98|
 T Elder Atuik and Kamagua |QID|11507|M|25.0,57.0|N|To Elder Atuik.|
@@ -435,7 +302,6 @@ C Arming Kamagua |QID|11457|N|Kill Frostwing Chimaeras until you get 3 Chimaera 
 T Arming Kamagua |QID|11457|M|25.0,57.0|N|To Elder Atuik.|
 A Avenge Iskaal |QID|11458|PRE|11457|M|25.0,57.0|N|From Elder Atuik.|
 T Grezzix Spindlesnap |QID|11508|M|23.1,62.7|N|To Grezzix Spindlesnap.|
-
 A Street "Cred" |QID|11509|PRE|11508|M|23.1,62.7|N|From Grezzix Spindlesnap.|
 b Scalawag Point |QID|11509|N|Talk to Lou the Cabin Boy and choose his chat bubble to be ferried to Scalawag Isle. |M|23.11,62.59|
 T Street "Cred" |QID|11509|M|35.1,80.9|N|To "Silvermoon" Harry.|
@@ -447,7 +313,6 @@ C Forgotten Treasure |QID|11434|QO|1|N|Swim to the other ship here and loot the 
 T Forgotten Treasure |QID|11434|M|35.6,80.2|N|To Handsome Terry.|
 A The Fragrance of Money |QID|11455|PRE|11434|M|35.6,80.2|N|From Handsome Terry.|
 T "Scoodles" |QID|11510|M|35.1,80.9|N|To "Silvermoon" Harry.|
-
 A The Ancient Armor of the Kvaldir |QID|11567|PRE|11510|M|35.1,80.9|N|From "Silvermoon" Harry.|
 A The Frozen Heart of Isuldof |QID|11512|PRE|11510|M|35.1,80.9|N|From "Silvermoon" Harry.|
 A The Lost Shield of the Aesirites |QID|11519|PRE|11510|M|35.1,80.9|N|From "Silvermoon" Harry.|
@@ -462,7 +327,6 @@ A Dead Man's Debt |QID|11467|PRE|11466|M|36.3,80.5|N|From Taruk.|
 A Swabbin' Soap |QID|11469|M|37.8,79.6|N|From Scuttle Frostprow.|
 C The Fragrance of Money |QID|11455|N|Kill Rabid Brown Bears here until you get 4 Bear Musks. |M|34.39,77.80|
 T The Lost Shield of the Aesirites |QID|11519|N|Wait for the boat on the island here and when it arrives, hop on to turn this quest in to the captain.|M|37.2,74.8|
-
 A Mutiny on the Mercy |QID|11527|PRE|11519|M|37.2,74.8|N|From Captain Ellis.|
 C Mutiny on the Mercy |QID|11527|N|Go downstairs and kill Mutinous Sea Dogs to get 5 Barrels of Blasting Powder.|
 T Mutiny on the Mercy |QID|11527|N|To Captain Ellis.|
@@ -477,7 +341,6 @@ A Travel to Moa'ki Harbor |QID|12118|M|24.6,58.86|N|From Anuniaq.|
 b Scalawag Point |QID|11467|N|Boat to Scalawag Isle using Lou the Cabin Boy again. |M|23.11,62.59|
 T Dead Man's Debt |QID|11467|M|36.3,80.5|N|To Taruk.|
 T The Fragrance of Money |QID|11455|M|35.6,80.2|N|To Handsome Terry.|
-
 A A Traitor Among Us |QID|11473|PRE|11455|M|35.6,80.2|N|From Handsome Terry.|
 T A Traitor Among Us |QID|11473|M|35.6,80.6|N|To Zeh'gehn.|
 A Zeh'gehn Sez |QID|11459|PRE|11473|M|35.6,80.6|N|From Zeh'gehn.|
@@ -491,7 +354,6 @@ C "Crowleg" Dan |QID|11479|N|Defeat "Crowleg" Dan on the ship here. |M|35.95,83.
 T "Crowleg" Dan |QID|11479|M|35.6,80.2|N|To Handsome Terry.|
 A Meet Number Two |QID|11480|PRE|11479|M|35.6,80.2|N|From Handsome Terry.|
 T Meet Number Two |QID|11480|M|35.4,79.4|N|To Annie Bonn.|
-
 A The Jig is Up |QID|11471|PRE|11480|N|From Annie Bonn.|
 C Swabbin' Soap |QID|11469|N|Kill Big Roy here and loot Big Roy's Blubber. |M|31.33,78.68|
 C The Jig is Up |QID|11471|N|Beat "Mad" Jonah Sterling down to ~30%, then kill Hozzer when he awakens, and loot Jonah Sterling's Spyglass from Hozzer. |M|33.57,75.6;33.60,78.18|CS|
@@ -507,7 +369,6 @@ T The Frozen Heart of Isuldof |QID|11512|M|40.3,60.3|N|To Orfus of Kamagua.|
 T The Shield of the Aesirites |QID|11530|M|40.3,60.3|N|To Orfus of Kamagua.|
 T The Staff of Storm's Fury |QID|11511|M|40.3,60.3|N|To Orfus of Kamagua.|
 A A Return to Resting |QID|11568|PRE|11530&11567&11512&11511|M|40.3,60.3|N|From Orfus of Kamagua.|
-
 R Ember Clutch |QID|11280|N|Head to Ember Clutch to the north.|M|41.39,55.18|
 C Draconis Gastritis |QID|11280|U|33441|N|Use Tillinghast's Plagued Meat near a Proto-Drake, wait till you get the complete message. You will probably have to kill the drake.|M|41.39,55.18|
 R Halgrind |QID|11280|N|Go to Halgrind.|M|48.00,57.91|ACTIVE|11310|
@@ -515,7 +376,6 @@ C Warning: Some Assembly Required |QID|11310|U|33613|N|Use the Abomination Kit. 
 T Draconis Gastritis |QID|11280|N|To Plaguebringer Tillinghast.|M|53.10,66.90|
 T Warning: Some Assembly Required |QID|11310|M|53.68,65.22|N|To "Hacksaw" Jenny.|
 R Shield Hill |QID|11568|N|Go to Shield Hill.|M|56.44,75.58|
-
 N Shield of the Aesirites |QID|11568|QO|1|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|57.67,77.62|
 N Staff of Storm's Fury |QID|11568|QO|2|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|59.27,77.00|
 N Frozen Heart of Isuldof |QID|11568|QO|3|U|34624|N|Use the Bundle of Vrykul Artifacts here. |M|59.79,79.39|
@@ -523,12 +383,8 @@ C A Return to Resting |QID|11568|QO|4|U|34624|N|Use the Bundle of Vrykul Artifac
 T A Return to Resting |QID|11568|M|40.3,60.3|N|To Orfus of Kamagua.|
 A Return to Atuik |QID|11572|PRE|11568|M|40.3,60.3|N|From Orfus of Kamagua.|
 T Return to Atuik |QID|11572|M|25.0,57.0|N|To Elder Atuik.|
-
 b Moa'ki Harbor |QID|12118|N|Take the turtle to Moa'ki Harbor. This takes a bit.|M|23.55,57.79|
 T Travel to Moa'ki Harbor |QID|12118|M|48.03,74.86|N|To Elder Ko'nani.|Z|Dragonblight|
 F Warsong Hold |QID|12118|N|Fly to Warsong Hold. If you want to do Borean Tundra Next.|M|48.51,74.41|Z|Dragonblight|
-
 ]]
 end)
-
-

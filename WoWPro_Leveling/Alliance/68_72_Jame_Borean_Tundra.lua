@@ -1,179 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
--- Date: 2020-07-17 17:04
--- Who: Ludovicus_Maior
--- Log: Updated quest name [Hero's Call: Borean Tundra!] and added PRE to [Corastrasza]
-
--- URL: http://wow-pro.com/node/3289/revisions/30213/view
--- Date: 2019-01-31 19:43
--- Who: Emmaleah
--- Log: added quest Corastrasza and Aces High!
-
--- URL: http://wow-pro.com/node/3289/revisions/29943/view
--- Date: 2018-10-17 02:24
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3289/revisions/29372/view
--- Date: 2018-06-26 13:37
--- Who: Ludovicus_Maior
--- Log: Fat fingered the loot of [Prison Casing]
-
--- URL: http://wow-pro.com/node/3289/revisions/29244/view
--- Date: 2018-04-24 22:48
--- Who: Ludovicus_Maior
--- Log: Next set up updates.
-
--- URL: http://wow-pro.com/node/3289/revisions/29241/view
--- Date: 2018-04-22 18:53
--- Who: Ludovicus_Maior
--- Log: Just playing through adding U's and fixing QO's.
-
--- URL: http://wow-pro.com/node/3289/revisions/29179/view
--- Date: 2018-02-26 21:45
--- Who: Ludovicus_EditBot
--- Log: Level strip
-
--- URL: http://wow-pro.com/node/3289/revisions/29053/view
--- Date: 2018-02-20 01:22
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3289/revisions/28913/view
--- Date: 2018-01-17 00:00
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3289/revisions/28393/view
--- Date: 2017-03-15 21:41
--- Who: Ludovicus_Maior
--- Log: Added PREs to JamBor6872
-
--- URL: http://wow-pro.com/node/3289/revisions/26408/view
--- Date: 2014-05-30 15:21
--- Who: Ludovicus_Maior
--- Log: Level Adjust
-
--- URL: http://wow-pro.com/node/3289/revisions/26281/view
--- Date: 2014-05-26 01:00
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3289/revisions/26167/view
--- Date: 2014-05-20 19:58
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3289/revisions/25987/view
--- Date: 2014-05-14 22:42
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3289/revisions/25626/view
--- Date: 2013-05-14 15:40
--- Who: Ludovicus_Maior
--- Log: Corrected name of [Military?  What Military?]
-
--- URL: http://wow-pro.com/node/3289/revisions/25366/view
--- Date: 2013-01-12 18:59
--- Who: Ludovicus_Maior
--- Log: Added CN and CC tags
-
--- URL: http://wow-pro.com/node/3289/revisions/25038/view
--- Date: 2012-07-27 19:27
--- Who: Estelyen
--- Log: Rewrite of the guide to allow for starting Northrend at level 68
-
--- URL: http://wow-pro.com/node/3289/revisions/25002/view
--- Date: 2012-06-08 14:12
--- Who: Ludovicus_Maior
--- Log: Correct P tag for cooking quest note.
-
--- URL: http://wow-pro.com/node/3289/revisions/24938/view
--- Date: 2012-02-05 14:40
--- Who: Ludovicus_Maior
--- Log: Quest name corrections
-
--- URL: http://wow-pro.com/node/3289/revisions/24856/view
--- Date: 2011-12-10 15:28
--- Who: Crackerhead22
--- Log: 4.3 updates
-
--- URL: http://wow-pro.com/node/3289/revisions/24665/view
--- Date: 2011-07-06 14:37
--- Who: Crackerhead22
--- Log: Added notes in the "The Hunt is On" steps about talking to the cultists.
-
--- URL: http://wow-pro.com/node/3289/revisions/24595/view
--- Date: 2011-06-25 01:24
--- Who: Crackerhead22
--- Log: Removed "This quest needs to be manually clicked off because there is no turnin." from the line of "A A Mission Statement |QID|11864|N|From Arch Druid Lathorius.|M|57.06,44.30|"
-
--- URL: http://wow-pro.com/node/3289/revisions/24364/view
--- Date: 2011-05-04 09:35
--- Who: Crackerhead22
--- Log: Added |P| tag for cooking quest line.
-
--- URL: http://wow-pro.com/node/3289/revisions/24258/view
--- Date: 2011-04-24 00:31
--- Who: Crackerhead22
--- Log: Fixed line-! Line 363 for step A has unknown tag [3]: [A Surrounded! |QID|11944|N|From Corporal Venn.|M|82.02,46.42|3]
---	Fixed line-! Line 502 for step F Bad coord 334.14: [F Amber Ledge |QID|11704|N|Fly to Amber Ledge or take a free teleport from Librarian Tiare.|M|33.28,334.14|]
-
--- URL: http://wow-pro.com/node/3289/revisions/24015/view
--- Date: 2011-01-18 19:23
--- Who: Fluclo
--- Log: Added NonCombat tag to quest Khu'nok Will Know
-
--- URL: http://wow-pro.com/node/3289/revisions/24014/view
--- Date: 2011-01-18 19:04
--- Who: Fluclo
--- Log: Added QID to Flying so that it doesn't show each time the guide is reset
-
--- URL: http://wow-pro.com/node/3289/revisions/24013/view
--- Date: 2011-01-18 18:58
--- Who: Fluclo
--- Log: Changed Overcharged Capacity to Buy instead of Note
-
--- URL: http://wow-pro.com/node/3289/revisions/24012/view
--- Date: 2011-01-18 18:52
--- Who: Fluclo
--- Log: Added more info for Overcharged Capacitor step
-
--- URL: http://wow-pro.com/node/3289/revisions/23975/view
--- Date: 2011-01-10 15:07
--- Who: Crackerhead22
--- Log: Fixed a few errors from when I condensed the code.  <_<;
-
--- URL: http://wow-pro.com/node/3289/revisions/23946/view
--- Date: 2011-01-07 22:46
--- Who: Crackerhead22
--- Log: Cleaned up(condensed) code, added quest accept and turn-in of "Hero's Call: Northrend!" and added note about purchasing Cold Weather Flying.
-
--- URL: http://wow-pro.com/node/3289/revisions/23860/view
--- Date: 2010-12-30 03:47
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3289/revisions/23469/view
--- Date: 2010-12-03 22:16
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3289/revisions/23468/view
--- Date: 2010-12-03 22:13
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("JamBor6872", "Leveling", "Borean Tundra", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,65,70,68.4946)
-WoWPro:NewGuideLevels(guide,58,80)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, "JamHow7274")
-WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 B Overcharged Capacitor |QID|11650|N|The quest Just a Few More Things... in Borean Tundra will require an Overcharged Capacitor.  The quest pays out 4g70s and 20k XP and leads to two further quests each worth the same (and one with a 2-3g green reward), so worth while looking for this item now in Auction House if you can't find an Engineer with 4 Cobalt Bars and 1 Crystallized Earth. You can leave it in your delivery box to save space, as the questgiver above is near a mailbox.|L|39682|M|62.9,71.7|Z|Stormwind City|
 N Cold Weather Flying|QID|11672|N|Purchase Cold Weather Flying from Bralla Cloudwing for 500 gold(faction discounts apply).|M|70.29,73.37|Z|Stormwind City|
 A Hero's Call: Borean Tundra! |QID|28709|LEAD|11672|N|From the Hero's Callboard in Darnassus, Ironforge, or either Callboard in Stormwind City.  May not show if your level is too high.|M|62.9,71.7|Z|Stormwind City|
@@ -192,7 +21,6 @@ A Death From Above |QID|11889|PRE|11797|M|56.4,69.6|N|From Sergeant Hammerhill.|
 C A Soldier in Need |QID|11789|N|Downstairs in the hold of the boat at the center of town, loot the First Aid Supplies.|M|57.47,69.24|
 A Cultists Among Us |QID|11920|N|Click the Cultist Shrine to accept this quest.|M|57.55,69.13|
 T Cultists Among Us |QID|11920|N|Turn this quest in up on deck to Captain "Lefty" Lugsail.|M|57.8,69.2|
-
 A Notify Arlos |QID|11791|PRE|11920|M|57.8,69.2|N|From Admiral Cantlebree.|
 T A Soldier in Need |QID|11789|M|55,69|N|To Medic Hawthorn.|
 C Death From Above |QID|11889|U|35278|N|Use the net on the Scourged Flamespitters in the air outside town and kill them when they land.|M|55,70|
@@ -206,7 +34,6 @@ A Word on the Street |QID|11927|PRE|11897|M|56.8,69.5|N|From Mark Hanes.|
 T Notify Arlos |QID|11791|N|To General Arlos, inside the keep.|M|56.67,72.64|
 A A Diplomatic Mission |QID|12141|LEAD|11613|PRE|11791|M|56.7,72.6|N|From Counselor Talbot.|
 A Enemies of the Light |QID|11792|PRE|11791|M|56.6,72.5|N|From Harbringer Vurenn.|
-
 N Cooking Quest |QID|13088|N|If the quest is available to you, grab Northern Cooking from Rollick MacKreel here. When you finish the quest, turn it in next time you're in Valiance Keep. There will be no future reminders. Move onto the next step when ready.|M|57.9,71.5|P|Cooking;185;350|
 T Word on the Street |QID|11927|N|To Leryssa on the top floor of the inn.|M|58.72,68.32|
 A Thassarian, My Brother |QID|11599|PRE|11927|M|58.7,68.4|N|From Leryssa.|
@@ -217,7 +44,6 @@ A Military?  What Military?|QID|11901|M|58.2,62.8|N|From Gerald Green.|
 T Military?  What Military?|QID|11901|N|Head inside the mine and turn this quest in at the sack of Plagued Grain.|M|56.82,55.67|
 A Pernicious Evidence|QID|11902|PRE|11901|M|56.8,55.6|N|From Plagued Grain.|
 T Thassarian, My Brother|QID|11599|N|Go a little further into the mine to turn this one in at the corpse of William Allerton.|M|56.05,55.46|
-
 A The Late William Allerton |QID|11600|PRE|11599|M|56.0,55.4|N|From the corpse of William Allerton.|
 T Pernicious Evidence |QID|11902|N|Go back to Gerald Green at Farshire.|M|58.19,62.76|
 A It's Time for Action |QID|11903|PRE|11902|N|From Gerald Green.|M|58.19,62.76|
@@ -232,7 +58,6 @@ T It's Time for Action |QID|11903|N|Go back to Gerald Green.|M|58.19,62.76|
 A Fruits of Our Labor |QID|11904|PRE|11903|N|From Gerald Green.|M|58.19,62.76|
 T Take No Chances |QID|11913|N|To Wendy Darren.|M|58.29,62.76|
 T Reference Material |QID|11908|N|To Jeremiah Hawning.|M|58.19,62.98|
-
 A Repurposed Technology |QID|12035|PRE|11908|N|From Jeremiah Hawning.|M|58.19,62.98|
 C Repurposed Technology |QID|12035|U|35943|N|Kill Harvest Collectors and use Jeremiah's Tools on their corpses.|Z|Borean Tundra|M|58.1,61.1|S|
 C Enemies of the Light |QID|11792|N|Kill Cultist Necrolytes at the summoning circles until one drops a Cultist Communique.|M|55.24,63.35|
@@ -245,7 +70,6 @@ T Repurposed Technology |QID|12035|N|To Jeremiah Hawning.|M|58.19,62.98|
 T One Last Delivery |QID|11962|N|To Hilda Stoneforge in Valiance Keep.|M|57.31,66.59|
 A Weapons for Farshire |QID|11963|PRE|11962|N|From Hilda Stoneforge in Valiance Keep.|M|57.31,66.59|
 r Sell junk, repair and re-stock food/drink.|QID|11897|M|57.82,66.04|
-
 T Enemies of the Light |QID|11792|N|To Harbinger Vurenn inside the keep.|M|56.65,72.46|
 A Further Investigation |QID|11793|PRE|11792|N|From Harbinger Vurenn.|M|56.65,72.46|
 T Further Investigation |QID|11793|N|To Vindicator Yaala on the top floor of the inn.|M|58.55,67.30|
@@ -265,14 +89,12 @@ A Cowards and Fools |QID|11932|PRE|11604|N|From Private Brau.|M|56.7,71.5|
 T The Hunt is On |QID|11794|N|To Vindicator Yaala on the top floor of the inn.|M|58.55,67.30|
 r Sell junk, repair and re-stock food/drink. |QID|12141|M|57.82,66.04|
 T Weapons for Farshire |QID|11963|N|Go back to Gerald at Farshire.|M|58.16,62.75|
-
 A Call to Arms! |QID|11965|PRE|11963|N|From Gerald Green|M|58.19,62.76|
 C Call to Arms! |QID|11965|N|Ring the bell upstairs in the town hall.|M|57.39,59.31|
 T Call to Arms! |QID|11965|N|Go back to Gerald.|M|58.16,62.75|
 T A Diplomatic Mission |QID|12141|N|Take the road southwest out of town to Karuk.|M|47.15,75.40|
 A Karuk's Oath |QID|11613|M|47.1,75.5|N|From Karuk.|
 C Karuk's Oath |QID|11613|N|Kill the Skadir Raiders and Longboatsmen.|S|
-
 A Cruelty of the Kvaldir |QID|12471|N|Go down to Riplash Strand and head west until you see a Captured Tuskarr Prisoner fighting a Naga. Help him and quickly accept his quest.|M|44.2,77.9|
 C Karuk's Oath |QID|11613|N|Kill the Skadirs Raiders and Longboatsmen.|US|
 T Karuk's Oath |QID|11613|M|47.15,75.40|N|To Karuk.|
@@ -282,14 +104,12 @@ C Gamel the Cruel |QID|11619|N|Kill Gamal in the cave on the beach.|M|46.26,78.8
 T Gamel the Cruel |QID|11619|M|47.1,75.5|N|To Karuk.|
 A A Father's Words |QID|11620|PRE|11619|M|47.1,75.5|N|From Karuk.|
 T A Father's Words |QID|11620|N|Go to the Shrine of Scales southwest and turn the quest into Veehja.|M|43.63,80.52|
-
 A The Trident of Naz'jan |QID|11625|PRE|11620|M|43.6,80.5|N|From Veehja.|
 C The Trident of Naz'jan |QID|11625|N|Swim/fly southeast to Riplash Ruins. Kill Ragnar Drakkarlund and loot the Trident of Naz'jan.|M|53.13,90.70|
 T The Trident of Naz'jan |QID|11625|N|Back to Veehja at the Shrine of Scales.|M|43.63,80.62|
 A The Emissary |QID|11626|PRE|11625|M|43.6,80.5|N|From  Veehja.|
 C The Emissary |QID|11626|U|35850|N|Swim to the large iceberg at Riplash Ruins and dive down to find Leviroth. Use the Trident of Naz'jan on him and finish him off.|M|51.40,88.19|
 T The Emissary |QID|11626|N|To Karuk.|M|47.15,75.39|
-
 T Cowards and Fools |QID|11932|N|To Ataika in Kaskala.|M|63.81,46.10|
 A The Son of Karkut |QID|12086|PRE|11932|N|From Ataika.|M|63.81,46.10|
 A Not Without a Fight! |QID|11949|N|From Ataika.|M|63.81,46.10|
@@ -297,7 +117,6 @@ A Preparing for the Worst |QID|11945|N|From Utaik. (Daily, can be skipped)|M|64.
 C Preparing for the Worst |QID|11945|N|Pick up these supplies off the ground.|M|65.76,47.55|S|
 C Not Without a Fight! |QID|11949|N|Kill Kvaldir Raiders.|M|65.76,47.55|
 T Not Without a Fight! |QID|11949|N|To Ataika.|M|63.81,46.10|
-
 A Muahit's Wisdom |QID|11950|PRE|11949|N|From Ataika.|M|63.81,46.10|
 C Preparing for the Worst |QID|11945|N|Pick up these supplies off the ground.|M|65.76,47.55|US|
 T Preparing for the Worst |QID|11945|N|To Utaik.|M|64.0,45.7|
@@ -309,9 +128,7 @@ A The Tides Turn |QID|11968|PRE|11961|N|From Elder Muahit.|M|67.21,54.84|
 C The Tides Turn |QID|11968|N|Kill Heigarr the Horrible.|M|67.5,56.7|
 T The Tides Turn |QID|11968|N|To Elder Muahit.|M|67.21,54.84|
 A Travel to Moa'ki Harbor |QID|12117|LEAD|11958|PRE|11968|N|From Hotawa.|M|67.27,54.87|
-
 r Sell junk, repair and re-stock food/drink in Unu'pe.|QID|12117|M|77.91,52.51|
-
 A The Honored Ancestors |QID|11605|N|Folow the Road north until you see a large tuskarr statue called "Elder Atkanok" on the left side of the path. The Elder offers this quest.|M|54.69,35.69|
 A Reclaiming the Quarry |QID|11612|N|From Etaruk on the ledge above Elder Atkanok.|M|54.3,36.1|
 C Reclaiming the Quarry |QID|11612|N|Kill Beryl Treasure Hunters.|S|
@@ -323,7 +140,6 @@ A The Lost Spirits |QID|11607|PRE|11605|N|From Elder Atkanok.|M|54.69,35.69|
 C The Lost Spirits |QID|11607|U|34711|N|Kill Beryl Hounds, loot Cores of Malice from them and use those on the Tuskarr in the quarry.|M|51.5,31.4|
 C Reclaiming the Quarry |QID|11612|N|Kill Beryl Treasure Hunters.|US|
 T The Lost Spirits |QID|11607|N|To Elder Atkanok.|M|54.69,35.69|
-
 A Picking Up the Pieces |QID|11609|PRE|11607|N|From Elder Atkanok|M|54.69,35.69|
 C Picking Up the Pieces |QID|11609|N|Pick up Tuskarr Ritual Objects.|M|53.1,33.3|S|
 T Reclaiming the Quarry |QID|11612|N|To Etaruk|M|54.3,36.1|
@@ -335,7 +151,6 @@ C Picking Up the Pieces |QID|11609|N|Pick up Tuskarr Ritual Objects.|M|53.1,33.3
 T Picking Up the Pieces |QID|11609|N|To Elder Atkanok|M|54.69,35.69|
 A Leading the Ancestors Home |QID|11610|PRE|11609|N|From Elder Atkanok|M|54.69,35.69|
 T Hampering Their Escape |QID|11617|N|To Etaruk|M|54.3,36.1|
-
 A A Visit to the Curator |QID|11623|PRE|11617|N|From Etaruk|M|54.3,36.1|
 C Elder Sagani |QID|11610|QO|2|U|34715|N|Use the Tuskarr Ritual Object at Elder Sagani's stone you visited earlier. Right-clicking the Elder will NOT complete the quest.|M|52.82,34.04|; Elder Sagani's ceremony completed: 1/1
 C Elder Kesuk |QID|11610|QO|1|U|34715|N|Use the Tuskarr Ritual Object at Elder Kesuk's stone you visited earlier.|M|50.84,32.43|; Elder Kesuk's ceremony completed: 1/1
@@ -343,7 +158,6 @@ C A Visit to the Curator |QID|11623|N|Fly up the cliff and kill Curator Insivius
 C Elder Takret |QID|11610|QO|3|U|34715|N|Use the Tuskarr Ritual Object at Elder Takret's stone you visited earlier.|M|52.32,31.12|
 T A Visit to the Curator |QID|11623|N|To Etaruk.|M|54.3,36.1|
 T Leading the Ancestors Home |QID|11610|N|To Elder Atkanok.|M|54.69,35.69|
-
 K Robots |QID|11729|L|34984|N|Kill robots in this area until one drops The Ultrasonic Screwdriver. Sentries have the highest drop rate (3%).|M|58.27,22.84|
 A The Ultrasonic Screwdriver |QID|11729|U|34984|N|Right-click The Ultrasonic Screwdriver and accept the quest.|M|58.5,17.6|
 f Fizzcrank Airstrip |ACTIVE|11707|M|56.58,20.07|N|Get the flight point from Kara.|
@@ -353,7 +167,6 @@ C The Mechagnomes |QID|11708|N|Listen to Fizzcrank Fullthrottle until the quest 
 T The Mechagnomes |QID|11708|N|To Jinky Wingnut outside the inn.|M|57.44,18.74|
 A Re-Cursive |QID|11712|PRE|11708|N|From Jinky Wingnut|M|57.44,18.74|
 T The Ultrasonic Screwdriver |QID|11729|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
-
 A Master and Servant |QID|11730|PRE|11729|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 A Dirty, Stinkin' Snobolds! |QID|11645|N|From Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
 A What's the Matter with the Transmatter? |QID|11710|PRE|11708|N|From Mordle Cogspinner.|M|57.51,18.61|
@@ -373,7 +186,6 @@ C Re-Cursive |QID|11712|U|34973|N|Kill Mechagnomes and use the Re-Cursive Transm
 t What's the Matter with the Transmatter? |QID|11710|M|57.37,18.82|N|To Mordle Cogspinner.|
 t Master and Servant |QID|11730|M|57.84,18.70|N|To Crafty Wobblesprocket|
 T Re-Cursive |QID|11712|N|To Jinky Wingnut outside the inn. You'll be returning for the next quests anyway, so you might as well turn it in now even if you still have robots to kill or parts to collect.|M|57.44,18.74|
-
 A Lefty Loosey, Righty Tighty |QID|11788|PRE|11712|N|From Jinky Wingnut|M|57.45,18.74|
 A Finding Pilot Tailspin |QID|11725|PRE|11712|N|From Fizzcrank Fullthrottle in the inn on the second floor.|M|57.03,18.71|
 K Twonky |QID|11788|QO|1|N|Click the small sparkling valve on the side of the pipeline here and kill Twonky.|M|60.20,20.42|; Twonky slain: 1/1
@@ -386,7 +198,6 @@ T Finding Pilot Tailspin |QID|11725|N|To Iggy "Tailspin" Cogtoggle.|M|61.63,35.7
 A A Little Bit of Spice |QID|11726|PRE|11725|N|From Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
 C A Little Bit of Spice |QID|11726|N|Kill gorlocs here until you get 4 Gorloc Spice Pouches.|M|65,41|
 T The Son of Karkut |QID|12086|N|To Corporal Venn at Death's Stand.|M|82.02,46.42|
-
 A Surrounded! |QID|11944|PRE|12086|N|From Corporal Venn.|M|82.02,46.42|
 C Surrounded! |QID|11944|N|Kill Ziggurat Defenders.|S|
 l Rocknar's Grit |QID|11650|QO|3|N|Kill Rocknar and loot A Handful of Rocknar's Grit. Mages should be careful because he is immune to all frost spells.|M|81.47,42.49|
@@ -400,7 +211,6 @@ T Finding the Phylactery |QID|11956|N|To Thassarian inside the Ziggurat.|M|84.80
 A Buying Some Time |QID|11938|PRE|11956|N|From Thassarian.|M|84.80,41.67|
 C Buying Some Time |QID|11938|N|Head north into the Temple City of En'kilah and kill 20 En'kilah enemies. Use the Skull if you want some aid by Thassarians skeletal companion, Lurid.|M|85,26|U|35944|
 T Buying Some Time |QID|11938|N|To Thassarian inside the Ziggurat.|M|84.80,41.67|
-
 A Words of Power |QID|11942|PRE|11938|N|From Thassarian.|M|84.80,41.67|
 l High Priest Talet-Kha's Scroll |QID|11942|QO|3|N|Kill High Priest Talet-Kha (the big Nerubian) for his scroll. He becomes attackable after you killed the webs binding him.|M|89.37,28.94|; High Priest Talet-Kha's Scroll: 1/1
 l High Priest Andorath's Scroll |QID|11942|QO|1|N|Kill High Priest Andorath on the upper floor for his scroll.|M|87.81,20.71|; High Priest Andorath's Scroll: 1/1
@@ -410,7 +220,6 @@ A Last Rites |QID|12019|PRE|11942|N|From Thassarian.|M|84.80,41.67|
 C Last Rites |QID|12019|N|You'll have Thassarian's help. Take the portal up to Naxxanar in En'kilah, then take the portal above it to the top. Speak to Thassarian to start the event.|M|86.60,28.50|
 T Last Rites |QID|12019|N|To Thassarian.|M|86.60,28.50;84.80,41.67|CN|
 T A Little Bit of Spice |QID|11726|N|To Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
-
 A Lupus Pupus |QID|11728|PRE|11726|N|From Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
 C Lupus Pupus |QID|11728|U|35121|N|Target Oil-stained Wolves in the area and use the bait. After they finish eating, loot their droppings until you complete this quest.|
 T Lupus Pupus |QID|11728|N|To Iggy "Tailspin" Cogtoggle|M|61.63,35.79|
@@ -422,7 +231,6 @@ U Northwestern Wreck |QID|11796|QO|3|U|35224|N|Use the Emergency Torch on the cr
 U Southern Wreck |QID|11796|QO|2|U|35224|N|Use the Emergency Torch on the crashed plane here.|M|61.08,39.96|; Scuttle a Southern Wreck: 1/1
 U Eastern Wreck |QID|11796|QO|1|U|35224|N|Use the Emergency Torch on the crashed plane here.|M|63.38,36.91|
 T Emergency Protocol: Section 8.2, Paragraph D |QID|11796|N|To Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
-
 A Give Fizzcrank the News |QID|11873|PRE|11796|N|From Iggy "Tailspin" Cogtoggle.|M|61.63,35.79|
 C Just a Few More Things... |QID|11650|L|39682|N|Grab the Overcharged Capacitor out of your delivery box. If you don't have it, skip this and the next quest and finish them when you get it.|M|56.98,18.85|
 T Lefty Loosey, Righty Tighty |QID|11788|N|To Jinky Wingnut.|M|57.45,18.74|
@@ -435,7 +243,6 @@ A Hah... You're Not So Big Now! |QID|11653|PRE|11650|N|From Crafty Wobblesprocke
 r Sell junk, repair and re-stock food/drink. |ACTIVE|11701|M|57.07,19.85|
 T Give Fizzcrank the News |QID|11873|N|To Fizzcrank Fullthrottle in the building on the second floor.|M|56.98,18.70|
 h Fizzcrank Airstrip |QID|11713|N|Set your hearthstone here with "Charlie" Northrop in the building on the ground floor.|M|57.12,18.72|
-
 A Scouting the Sinkholes |QID|11713|N|From Abner Fizzletorque.|M|57.06,20.12|
 C Hah... You're Not So Big Now! |QID|11653|U|34812|N|Use Crafty's Ultra-Advanced Proto-Typical Shortening Blaster on Magmoth monsters north of town until you complete this quest.|M|56.37,14.55|
 C Northwest Sinkhole |U|34920|QID|11713|QO|3|N|Use the Map of the Geyser Fields at the Northwest Sinkhole.|M|66.23,32.15|; Mark Location of Northwest Sinkhole: 1/1
@@ -450,7 +257,6 @@ T Fueling the Project |QID|11715|N|To Abner Fizzletorque.|M|57.06,20.12|
 A A Bot in Mammoth's Clothing |QID|11718|PRE|11715|N|From Abner Fizzletorque.|M|57.06,20.12|
 C A Bot in Mammoth's Clothing |QID|11718|N|Kill mammoths until you get 6 Thick Mammoth Hides.|M|53.66,21.74|
 C Plan B |QID|11658|N|Grab the Warsong Banner here and loot 10 Warsong Outfits from the bodies around the area. You can take the clothing off them while on your flying mount.|M|49.57,26.55|
-
 T A Bot in Mammoth's Clothing |QID|11718|N|To Abner Fizzletorque.|M|57.06,20.12|
 A Deploy the Shake-n-Quake! |QID|11723|PRE|11718|N|From Abner Fizzletorque.|M|57.06,20.12|
 T Plan B |QID|11658|N|To Crafty Wobblesprocket who wanders a bit at the Fizzcrank Airstrip.|M|57.58,18.71;58.18,18.34|CN|
@@ -459,7 +265,6 @@ U Use Crafty's Sack |QID|11670|L|34869|N|Loot the items from Crafty's Sack.|U|34
 C It Was The Orcs, Honest! |QID|11670|U|34869|N|Go north to the cave we jumped into earlier. Use the Orc Disguise, then jump down and try to land in the water. Kill Magmothregar and plant the Warsong Banner in his corpse.|M|55.29,12.11|
 H Fizzcrank Airstrip |ACTIVE|11670|N|Hearthstone to Fizzcrank Airstrip.|
 T It Was The Orcs, Honest! |QID|11670|N|To Crafty Wobblesprocket who wanders a bit.|M|57.58,18.71;58.18,18.34|CN|
-
 T Check in With Bixie |QID|11692|N|Talk to the Air Traffic Controller and choose the free ride to Dens of Dying.|M|56.58,20.06|
 A Oh Great... Plagued Magnataur! |QID|11693|PRE|11692|N|From Bixie Wrenchshanker.|M|73.42,18.79|
 C Oh Great... Plagued Magnataur! |QID|11693|N|Kill 10 Plagued Magnataurs to complete this quest.|M|74.83,19.88|
@@ -471,7 +276,6 @@ A Rats, Tinky Went into the Necropolis! |QID|11697|PRE|11694|N|From Bixie Wrench
 A Might As Well Wipe Out the Scourge |QID|11698|PRE|11694|N|From Bixie Wrenchshanker.|M|73.42,18.79|
 C Might As Well Wipe Out the Scourge |QID|11698|N|Kill the scourge monsters you need for this quest.|M|68.2,17.0|S|
 T Rats, Tinky Went into the Necropolis! |QID|11697|N|Use the lower entrance on the southwestern side of the Necropolis and stick to the right to find her.|M|69.89,14.76|
-
 A I'm Stuck in this Damned Cage... But Not For Long! |QID|11699|PRE|11697|N|From Tinky Wickwhistle.|M|69.9,14.7|
 K Lich-Lord Chillwinter |QID|11699|QO|3|N|Go outside and around to get to the top. Kill and loot Lich-Lord Chillwinter.|M|69.73,11.85|; Piloting Scourgestone: 1/1
 K Doctor Razorgrin |QID|11699|QO|2|N|Jump down to the room below and kill and loot Doctor Razorgrin.|M|69.98,13.88|; Magical Gyroscope: 1/1
@@ -484,18 +288,15 @@ T Let Bixie Know |QID|11700|N|To Bixie Wrenchshanker.|M|73.42,18.79|
 A Back to the Airstrip |QID|11701|PRE|11700|N|From Bixie Wrenchshanker.|M|73.42,18.79|
 C The Gearmaster |QID|11798|N|Enter the small hut on top of this building, loot The Gearmaster's Manual and kill Gearmaster Mechazod when he's done talking. |M|64.50,23.40|
 C Deploy the Shake-n-Quake! |QID|11723|U|34981|N|Head down to the south sinkhole and use the Shake-n-Quake 5000 Control Unit. Kill Lord Kryxix when he spawns.|M|69.99,37.09|
-
 T Back to the Airstrip |QID|11701|N|To Fizzcrank Fullthrottle in the building on the second floor.|M|56.98,18.70|
 T The Gearmaster |QID|11798|N|To Fizzcrank Fullthrottle in the building on the second floor.|M|56.98,18.70|
 T Deploy the Shake-n-Quake! |QID|11723|N|To Abner Fizzletorque.|M|57.06,20.12|
-
 A A Mission Statement |QID|11864|N|From Arch Druid Lathorius at the D.E.H.T.A. Encampment.|M|57.06,44.30|
 A Ears of Our Enemies |QID|11866|PRE|11864|N|From Arch Druid Lathorius.|M|57.06,44.30|
 A Help Those That Cannot Help Themselves |QID|11876|PRE|11864|N|From Arch Druid Lathorius.|M|57.06,44.30|
 A Happy as a Clam |QID|11869|PRE|11864|N|From Heirophant Cenius.|M|57.33,44.08|
 A Nedar, Lord of Rhinos... |QID|11884|PRE|11864|N|From Killinger the Den Watcher, the bear that circles.|M|57.0,44.0|
 A Unfit for Death |QID|11865|PRE|11864|N|From Zaza.|M|56.80,44.03|
-
 C Ears of Our Enemies |QID|11866|N|Kill Loot Crazed enemies south of D.E.H.T.A.|M|57.57,45.49|S|
 C Unfit for Death |QID|11865|U|35127|N|In the field south of the camp, find traps and use the Fake Furs on them to complete this quest.|M|57.57,45.49|
 C Help Those That Cannot Help Themselves |QID|11876|U|35228|N|Use the D.E.H.T.A. Trap Smasher on Trapped Mammoth Calves.|M|53.73,39.87|S|
@@ -514,15 +315,12 @@ A The Abandoned Reach |QID|11870|PRE|11869|N|From Heirophant Cenius|M|57.33,44.0
 T Nedar, Lord of Rhinos... |QID|11884|N|To Killinger the Den Watcher, the bear that circles|M|57.0,44.0|
 C Khu'nok Will Know |QID|11878|N|Deliver the Orphaned Mammoth Calf here.|M|59.43,30.61|
 T Khu'nok Will Know |QID|11878|M|59.5,30.4|N|To Khu'nok.|
-
 A Kaw the Mammoth Destroyer |QID|11879|PRE|11878|M|59.5,30.4|N|From Khu'nok.|
 C Kaw the Mammoth Destroyer |QID|11879|N|Find a Wooly Mammoth Bull and right-click it to mount up. Go northwest to find Kaw the Mammoth Destroyer and kill him with the help of your mammoth. When he's dead, loot the item off the ground.  You may find it easier to clear some of the mobs first before mounting the mammoth.|M|53.68,24.37|
-
 T The Abandoned Reach |QID|11870|N|To Hierophant Liandra.|M|57.79,55.10|
 A Not On Our Watch |QID|11871|PRE|11870|N|From Hierophant Liandra.|M|57.79,55.10|
 C Not On Our Watch |QID|11871|N|Pick up Shipments of Animal Parts off the ground to complete this quest (Northsea Thugs also drop them).|M|59.1,55.9|
 T Not On Our Watch |QID|11871|N|To Hierophant Liandra.|M|57.79,55.10|
-
 A The Nefarious Clam Master... |QID|11872|PRE|11871|N|From Hierophant Liandra.|M|57.79,55.10|
 C The Nefarious Clam Master... |QID|11872|N|Remember Clam Master K at the underwater shipwreck? Now the time has come to get your revenge if you weren't able to evade him last time! In the water to the southeast.|M|61.61,66.40|
 A Nick of Time |QID|11575|LEAD|11587|N|From Midge inside the Valiance Keep in. (Move post 7.3.5?)|M|58.41,67.85|
@@ -530,11 +328,9 @@ C The Culler Cometh |QID|11868|N|Kill Karen at the far south edge of this field.
 T The Culler Cometh |QID|11868|N|To Zaza.|M|56.81,44.12|
 T The Nefarious Clam Master... |QID|11872|N|To Heirophant Cenius|M|57.3,44.1|
 T Kaw the Mammoth Destroyer |QID|11879|M|57.0,44.3|N|To Arch Druid Lathorius.|
-
 A The Assassination of Harold Lane |QID|11892|PRE|11879|N|From Arch Druid Lathorius.|M|57.06,44.30|
 C The Assassination of Harold Lane |QID|11892|U|35293|N|Use the Cenarion Horn at the start of the fight to take out a lot of his Health.|M|49.91,41.54|
 T The Assassination of Harold Lane |QID|11892|N|To Arch Druid Lathorius.|M|57.04,44.25|
-
 f Amber Ledge |ACTIVE|11575|M|45.29,34.61|N|Get the flight point from Surristraz|
 T Nick of Time |QID|11575|N|To Librarian Donathan.|M|45.27,33.36|
 A Prison Break |QID|11587|N|From Librarian Donathan.|M|45.27,33.36|
@@ -543,7 +339,6 @@ K Beryl Mage Hunters |QID|11587|L|34688|N|Kill Beryl Mage Hunters until one drop
 C Prison Break |QID|11587|N|Click an Arcane Prison to free a Mage Prisoner.|M|42.74,36.95|
 C Monitoring the Rift: Cleftcliff Anomaly |QID|11576|U|34669|N|Fly southwest to the rift and use the Arcanometer next to it.|M|34.36,42.13|
 T Prison Break |QID|11587|N|To Librarian Donathan.|M|45.27,33.36|
-
 A Abduction |QID|11590|PRE|11587|N|From Librarian Donathan.|M|45.27,33.36|
 T Monitoring the Rift: Cleftcliff Anomaly |QID|11576|N|To Librarian Garren.|M|44.98,33.38|
 A Monitoring the Rift: Sundered Chasm |QID|11582|PRE|11576|N|From Librarian Garren.|M|44.98,33.38|
@@ -562,7 +357,6 @@ T Sharing Intelligence |QID|11663|N|To Librarian Donathan.|M|45.27,33.36|
 A A Race Against Time |QID|11671|PRE|11663|N|From Librarian Donathan.|M|45.27,33.36|
 C A Race Against Time |QID|11671|U|34897|N|Head down to the large round platform, use the Beryl Shield Detonator to bring Inquisitor Salrand out and kill her. Loot Salrand's Lockbox.|M|41.79,39.22|
 T A Race Against Time |QID|11671|N|To Librarian Donathan.|M|45.27,33.36|
-
 A Reforging the Key |QID|11679|PRE|11671|N|From Librarian Donathan.|M|45.27,33.36|
 T Reforging the Key |QID|11679|N|To Surristrasz, the sleeping red dragon.|M|45.3,34.5|
 A Taking Wing |QID|11680|PRE|11679|N|From Surristrasz.|M|45.3,34.5|
@@ -574,7 +368,6 @@ T Dragonspeak |QID|11682|N|To Surristrasz.|M|45.3,34.5|
 A Traversing the Rift |QID|11733|PRE|11682|N|From Surristrasz.|M|45.3,34.5|
 N A note of caution|ACTIVE|11733|N|When flying around in this area, be careful not to fly too near the Elite Blue Dragons circling above, they will hurt you plenty. Close this step to continue.|
 T Traversing the Rift |QID|11733|N|To Archmage Berinand.|M|32.95,34.40|
-
 A Reading the Meters |QID|11900|N|From Archmage Berinand.|M|32.95,34.40|
 A Secrets of the Ancients |QID|11910|N|From Archmage Berinand.|M|32.95,34.40|
 A Basic Training |QID|11918|N|From Raelorasz.|M|33.31,34.53|
@@ -588,7 +381,6 @@ t Secrets of the Ancients |QID|11910|N|To Archmage Berinand.|M|32.95,34.40|
 t Nuts for Berries |QID|11912|N|To Librarian Serrah.|M|33.48,34.38|
 t Basic Training |QID|11918|N|To Raelorasz.|M|33.31,34.53|
 T Puzzling... |QID|11941|N|To Raelorasz.|M|33.31,34.53|
-
 A The Cell |QID|11943|PRE|11941|N|From Raelorasz.|M|33.31,34.53|
 C Southern Coldarra Reading |QID|11900|QO|2|N|Follow the path west to find a Coldarra Geological Monitor and click it.|M|28.33,34.98|; Southern Coldarra Reading: 1/1
 l Energy Core |QID|11943|QO|1|T|Warbringer Goredrak|N|Kill Warbringer Goredrak and loot the Energy Core.|M|24.24,28.92|; Energy Core: 1/1
@@ -598,7 +390,6 @@ C Northern Coldarra Reading |QID|11900|QO|3|N|Go east to find another Coldarra G
 T The Cell |QID|11943|N|To Raelorasz.|M|33.31,34.53|
 A Keristrasza |QID|11946|PRE|11943|U|35671|N|Use your Augmented Arcane Prison to make Keristrasza appear.|M|33.1,34.11|
 T Keristrasza |QID|11946|N|To Keristraza.|M|33.1,34.11|
-
 A Bait and Switch |QID|11951|PRE|11946|N|From Keristrasza.|M|33.1,34.11|
 C Bait and Switch |QID|11951|N|Loot the purple crystals all around the Nexus.|M|28.36,32.54|
 C Nuts for Berries |QID|11912|N|Pick up Frostberries.|US|
@@ -614,7 +405,6 @@ A Saragosa's End |QID|11957|PRE|11951|N|From Keristrasza.|
 C Saragosa's End |QID|11957|U|35690|N|Talk to Keristrasza tell her you're prepared. Use the Arcane Power Focus to bring out Saragosa, then kill her and loot Saragosa's Corpse.|
 T Saragosa's End |QID|11957|U|35671|N|Wait until the cooldown is up then use your Augmented Arcane Prison.|
 A Mustering the Reds |QID|11967|PRE|11957|N|From Keristrasza.|
-
 R Transitus Shield |QID|11967|N|Talk to Keristrasza for a teleport back to the Transitus Shield.|
 T Mustering the Reds |QID|11967|N|To Raelorasz.|M|33.31,34.53|
 A Springing the Trap |QID|11969|PRE|11967|N|From Raelorasz.|M|33.31,34.53|
@@ -627,7 +417,6 @@ C Keep the Secret Safe |QID|11914|N|Kill Arcane Serpents near the Nexus.|M|27.8,
 C Springing the Trap |QID|11969|U|44950|N|Get out of the ravine and go northeast to the Signal Fire at the Nexus's Northwestern Entrance. Dismount, then use Raelorasz's Spark. Stay close to Keristrasza until she takes off and run close to her when she lands.|M|25.41,21.81|
 T Keep the Secret Safe |QID|11914|N|To Librarian Serrah.|M|33.48,34.38|
 T Hatching a Plan |QID|11936|N|To Raelorasz.|M|33.31,34.53|
-
 A Drake Hunt |QID|11919|PRE|11936|N|From Raelorasz.|M|33.31,34.53|
 T Springing the Trap |QID|11969|N|To Raelorasz.|M|33.31,34.53|
 T Reading the Meters |QID|11900|N|To Archmage Berinand.|M|32.95,34.40|
@@ -642,7 +431,6 @@ T Corastrasza|QID|13412|N|To Corastrasza on the next-to-uppermost shattered ring
 A Aces High!|QID|13413|N|From Corastrasza|M|32.95,34.40|PRE|13412|
 C Aces High!|QID|13413|N|This is good practice for Eye of Eternity and the Occulus. Fly further up to find the Scalesworn elites and then control the Drake to kill them.You will want to keep Flame Shield and Revivify up on you constantly.|M|32.95,34.40|
 T Aces High!|QID|13413|N|To Corastrasza|M|32.95,34.40|
-
 T King Mrgl-Mrgl |QID|11704|N|Go north to the road, then follow it east to Winterfin Retreat.|M|43.50,13.97|
 A Learning to Communicate |QID|11571|PRE|11702^11704|N|From King Mrgl-Mrgl.|M|43.50,13.97|
 C Learning to Communicate |QID|11571|U|34598|N|Kill Scalder at the bottom of the sea. Target his corpse and use the conch. Scalder is immune to frost.|M|42.53,15.85|
@@ -655,7 +443,6 @@ A Them! |QID|11561|PRE|11559|N|From Brglmurgl.|M|42.83,13.66|
 C Oh Noes, the Tadpoles! |QID|11560|N|Free Murloc Tadpoles by clicking on the cages.|M|40.6,17.5|S|
 C Them! |QID|11561|N|Kill Winterfin murlocs.|S|
 C Monitoring the Rift: Winterfin Cavern |QID|12728|U|34669|N|Use the Arcanometer once inside the cave.|M|39.97,20.14|
-
 A Keymaster Urmgrgl |QID|11569|N|Get this quest from Glrglrglr.|M|37.8,23.2|
 C Keymaster Urmgrgl |QID|11569|N|Go downstairs and kill Urmgrgl for his key.|M|38.75,22.71|
 T Keymaster Urmgrgl |QID|11569|N|To Glrglrglr.|M|37.8,23.2|
@@ -668,7 +455,6 @@ A I'm Being Blackmailed By My Cleaner |QID|11562|PRE|11560|N|From King Mrgl-Mrgl
 T Escape from the Winterfin Caverns |QID|11570|N|To King Mrgl-Mrgl.|M|43.50,13.97|
 T Them! |QID|11561|N|To Brglmurgl.|M|42.83,13.66|
 T I'm Being Blackmailed By My Cleaner |QID|11562|N|To Mrmrglmr.|M|42.00,12.77|
-
 A Grmmurggll Mrllggrl Glrggl!!! |QID|11563|PRE|11562|N|From Mrmrglmr.|M|42.00,12.77|
 A Succulent Orca Stew |QID|11564|PRE|11562|N|From Cleaver Bmurglbrm.|M|42.03,13.15|
 C Succulent Orca Stew |QID|11564|N|Kill Glimmer Bay Orcas for their Succulent Orca Blubber.|M|40.3,12.4|S|
@@ -688,8 +474,5 @@ b Moa'ki Harbor |QID|12117|N|Take the turtle to Moa'ki Harbor in Dragonblight.|M
 T Travel to Moa'ki Harbor |QID|12117|N|To Ko'nani|Z|Dragonblight|M|48.01,74.88|
 b Kamagua |QID|11228|N|Use the pier on your left-hand side to travel to Kamagua.|Z|Dragonblight|M|49.63,78.42|
 R Valgarde |QID|11228|N|Take the Ancient Lift, then follow the waypoint arrows.|Z|Howling Fjord|M|24.70,62.27;44.3,59.1;46,50;51,44.67;52.3,47.8;59.6,61.0|CC|
-
 ]]
 end)
-
-

@@ -1,144 +1,40 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_arathi_highlands_horde
--- Date: 2018-10-17 02:26
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3230/revisions/29200/view
--- Date: 2018-02-27 17:42
--- Who: Ludovicus_EditBot
--- Log: Level strip
-
--- URL: http://wow-pro.com/node/3230/revisions/29085/view
--- Date: 2018-02-20 21:07
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3230/revisions/28879/view
--- Date: 2018-01-16 23:39
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3230/revisions/27278/view
--- Date: 2015-06-02 15:28
--- Who: Fluclo
--- Log: Updated |QO| step for the Dabyrie's as it wasn't working properly
-
--- URL: http://wow-pro.com/node/3230/revisions/27275/view
--- Date: 2015-05-31 07:55
--- Who: Fluclo
--- Log: Coords to get to Or'Kalar added
-
--- URL: http://wow-pro.com/node/3230/revisions/27267/view
--- Date: 2015-05-27 22:16
--- Who: Fluclo
--- Log: Clarifying steps for the Keep
-
--- URL: http://wow-pro.com/node/3230/revisions/27266/view
--- Date: 2015-05-26 22:08
--- Who: Fluclo
-
--- URL: http://wow-pro.com/node/3230/revisions/26442/view
--- Date: 2014-06-02 14:57
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3230/revisions/26441/view
--- Date: 2014-06-02 14:57
--- Who: Ludovicus_Maior
--- Log: Ste Levels
-
--- URL: http://wow-pro.com/node/3230/revisions/26229/view
--- Date: 2014-05-25 22:46
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3230/revisions/26105/view
--- Date: 2014-05-18 22:24
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3230/revisions/26032/view
--- Date: 2014-05-17 17:09
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3230/revisions/25449/view
--- Date: 2013-01-13 17:44
--- Who: Ludovicus_Maior
--- Log: Added CC and CS tags
-
--- URL: http://wow-pro.com/node/3230/revisions/24479/view
--- Date: 2011-06-01 00:52
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3230/revisions/24478/view
--- Date: 2011-06-01 00:51
--- Who: Crackerhead22
--- Log: Removed "Z|Crypt|" as it was unneeded.
-
--- URL: http://wow-pro.com/node/3230/revisions/23336/view
--- Date: 2010-12-03 10:09
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3230/revisions/23335/view
--- Date: 2010-12-03 10:08
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('JiyAra2530', "Leveling", 'Arathi Highlands', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,25,29, 25.800)
-WoWPro:NewGuideLevels(guide,25,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'JiyHin3035')
-WoWPro:GuideIcon(guide,"ACH",4896)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Galen's Fall|M|13.23,34.86|QID|28619^28572|N|Get Warchief's Command: Arathi Highlands! from the command board in Tarren's Mill (Hillsbrad Foothills), Undercity or Silvermoon City, then make your way to Galen's Fall which is on the border of Hillsbrad Foothills and Arathi Highlands.|
 T Warchief's Command: Arathi Highlands!|QID|28619|M|13.34,35.80|N|To Dark Ranger Alina.|ACTIVE|28619|
 T Warchief's Command: Arathi Highlands!|QID|28572|M|13.34,35.80|N|To Dark Ranger Alina.|ACTIVE|28572|
-
 A First Blood|QID|26022|M|13.34,35.80|N|From Dark Ranger Alina.|
 f Galen's Fall|QID|26022|M|13.23,34.86|N|At Rhoda Bowers.|
 A Clearing the Highlands|QID|26053|M|13.39,33.99|N|From Deathstalker Maudria.|
-
 C Clearing the Highlands|QID|26053|M|28.70,45.40|QO|1|N|Kill Boulderfist ogres around Boulder'gor.|S|
 C Clearing the Highlands|QID|26053|M|28.70,45.40|QO|2|N|Head into Boulderfist Outpost, and kill the enforcers. The cavern entrance is on the east side of the hill.|
 C Clearing the Highlands|QID|26053|M|28.70,45.40|QO|1|N|Finish killing the ogres as you head north-west.|
 C First Blood|QID|26022|M|24.64,28.56|N|Kill and loot the syndicates at the farmstead to the north-west Be aware that some are hidden by stealth.|
-
 T Clearing the Highlands|QID|26053|M|13.40,34.33|N|To Deathstalker Maudria, back at Galen's Fall. Take care when heading back, as the direct route takes you through Level 29 Elementals at the Circle of West Binding.|
 A Call to Arms|QID|26027|PRE|26053|M|13.39,34.25|N|From Deathstalker Maudria.|
-
 T First Blood|QID|26022|M|13.35,35.88|N|To Dark Ranger Alina.|
 A The Forsaken Trollbane|QID|26023|PRE|26022|M|13.35,35.88|N|From Dark Ranger Alina.|
-
 A The Traitor Orc|QID|26025|PRE|26022|M|13.35,35.88|N|From Dark Ranger Alina.|
 T The Forsaken Trollbane|QID|26023|M|13.02,36.00|N|To Galen Trollbane.|
 A Sigil of Strom|QID|26030|PRE|26023|M|13.02,36.00|N|From Galen Trollbane.|
-
 R Stromgarde Keep |QID|26025|M|19.65,61.50|N|Head along the road to Stromgarde Keep|
 C Sigil of Strom|QID|26030|S|M|22.45,62.41|N|Kill Syndicate members until you find the Sigil of Strom.|
 C The Traitor Orc|QID|26025|M|22.98,66.01|N|Turn left before the stairs, and head to the last building. Go around the side of the building, Marez Cowl is hiding at the back. Loot hersqw for the Orb.|T|Marez Cowl|
 C Sigil of Strom|QID|26030|US|M|22.45,62.41|N|Kill Syndicate members until you find the Sigil of Strom.|
-
 C Call to Arms|QID|26027|N|Head back along the path, turning left in the alleyway after the stairs. Head along there to reach the shamans and lords in the ogre section of Stromgarde. Be careful here as there is a Level 30 Apprentice that will flag you for PvP if you attack.|CC|M|17.75,62.70;17.40,67.90;14.50,69.60|
-
 T Sigil of Strom|QID|26030|M|13.04,36.10|N|To Galen Trollbane, back at Galen's Fall.|
 A Sigil of Thoradin|QID|26031|PRE|26030|M|13.04,36.10|N|From Galen Trollbane.|
 T Call to Arms|QID|26027|M|13.27,35.92|N|To Dark Ranger Alina.|
 T The Traitor Orc|QID|26025|M|13.27,35.92|N|To Dark Ranger Alina.|
 A The Real Threat|QID|26029|PRE|26025&26027|M|13.39,34.29|N|From Deathstalker Maudria.|
-
 C Sigil of Thoradin|QID|26031|M|16.59,60.88|N|Head back to Stromgarde. Turn  right to the western portion of the keep, kill and loot humans.|
 C The Real Threat|QID|26029|N|Kill and loot Or'Kalar, in the ogre section of Stromgarde.|M|17.75,62.70;17.40,67.90;14.69,67.44|CC|
 T Sigil of Thoradin|QID|26031|M|12.98,36.06|N|To Galen Trollbane, back at Galen's Fall.|
 A Sigil of Arathor|QID|26032|PRE|26031|M|12.98,36.06|N|From Galen Trollbane.|
-
 A To Steal From Thieves|QID|26428|M|13.71,34.08|N|From Genavie Callow.|
-
 T The Real Threat|QID|26029|M|13.34,33.99|N|To Deathstalker Maudria.|
 C Sigil of Arathor|QID|26032|M|37.80,56.16|N|From the human lieutenant on a horse outside Refugee Point. Be careful, the other humans in this area will flag you PvP!|
 K Marcel Dabyrie|QID|26428|QO|2|M|48.53,39.23|N|Inside the stable.|
@@ -207,9 +103,5 @@ C The Princess Unleashed|QID|26912|U|4472|M|57.35,34.61|N|Use the scroll to summ
 T The Princess Unleashed|QID|26912|M|57.34,34.63|N|To the stone in front of you.|
 A Revantusk Village|QID|26430|M|69.00,34.78|N|From Drum Fel, back at Hammerfall. Take this if you'd like to do the Hinterlands next.|RANK|3|
 A Into the Scarlet Monastery|QID|26986|M|68.46,37.76|N|From Doctor Gregory Victor. Pick this up if you'd like to run Scarlet Monestary later.|RANK|3|
-
 ]]
-
 end)
-
-

@@ -1,111 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_thousand_needles_horde
--- Date: 2018-10-17 02:27
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3254/revisions/29585/view
--- Date: 2018-08-23 19:17
--- Who: Emmaleah
--- Log: update old style QO
-
--- URL: http://wow-pro.com/node/3254/revisions/29205/view
--- Date: 2018-02-27 17:46
--- Who: Ludovicus_EditBot
--- Log: LVL strip
-
--- URL: http://wow-pro.com/node/3254/revisions/29095/view
--- Date: 2018-02-20 21:46
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3254/revisions/28891/view
--- Date: 2018-01-16 23:44
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3254/revisions/28432/view
--- Date: 2017-03-15 23:29
--- Who: Ludovicus_Maior
--- Log: Added PREs to JiyTho4045
-
--- URL: http://wow-pro.com/node/3254/revisions/27675/view
--- Date: 2016-09-01 15:06
--- Who: Ludovicus_Maior
--- Log: luisb reports that [Bar Fight] is needed for [Pirate Accuracy Increasing]
-
--- URL: http://wow-pro.com/node/3254/revisions/27556/view
--- Date: 2016-08-16 16:29
--- Who: tubera
--- Log: Fix serveral QOs; Add h & H lines where they would be handy; Expand some N texts; Add LVL on dungeon quest; Remove PRE on Brave & the Bold
-
--- URL: http://wow-pro.com/node/3254/revisions/26448/view
--- Date: 2014-06-02 15:07
--- Who: Ludovicus_Maior
--- Log: Set Levels
-
--- URL: http://wow-pro.com/node/3254/revisions/26252/view
--- Date: 2014-05-25 23:03
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3254/revisions/26080/view
--- Date: 2014-05-18 21:52
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3254/revisions/26020/view
--- Date: 2014-05-16 22:08
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3254/revisions/25748/view
--- Date: 2013-08-16 19:46
--- Who: Ludovicus_Maior
--- Log: Minor QID fixes.
-
--- URL: http://wow-pro.com/node/3254/revisions/25468/view
--- Date: 2013-01-13 19:17
--- Who: Ludovicus_Maior
--- Log: Added C* tags
-
--- URL: http://wow-pro.com/node/3254/revisions/24944/view
--- Date: 2012-02-11 17:39
--- Who: Crackerhead22
--- Log: ?
-
--- URL: http://wow-pro.com/node/3254/revisions/24333/view
--- Date: 2011-04-29 16:28
--- Who: Ludovicus_Maior
--- Log: Line 48 for step A has unknown tag [From Razzeric.], Line 163 for step A has 1 M coords, Line 199 for step A has 1 M coords.
-
--- URL: http://wow-pro.com/node/3254/revisions/23672/view
--- Date: 2010-12-07 04:52
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3254/revisions/23431/view
--- Date: 2010-12-03 12:14
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3254/revisions/23389/view
--- Date: 2010-12-03 11:39
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3254/revisions/23388/view
--- Date: 2010-12-03 11:38
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('JiyTho4045', "Leveling", 'Thousand Needles', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,38,43, 38.0718)
-WoWPro:NewGuideLevels(guide,40,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'JiyTan4550')
-WoWPro:GuideIcon(guide,"ACH",4938)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 T Warchief's Command: Thousand Needles!|O|QID|28504|LEAD|25478|M|41.86,73.85|Z|Dustwallow Marsh|N|To Nyse in Dustwallow Marsh.|
 A To the Summit|QID|25478|M|41.86,73.85|Z|Dustwallow Marsh|N|From Nyse in Dustwallow Marsh.|
 C To the Summit|QID|25478|M|42.82,72.42|N|Talk to Dyslix Silvergrub and have him send you to Westreach Summit.|
@@ -117,7 +14,6 @@ A Looming Threat|RANK|3|QID|27062|M|11.15,11.21|N|From Kanati Greycloud. Take th
 C The Grimtotem are Coming|QID|25487|M|10.56,8.51|N|Make your way down to the beach below, killing Grimtotem as you go.|
 T The Grimtotem are Coming|QID|25487|M|10.56,8.51|N|To Motega Firemane.|
 A Two If By Boat|QID|25489|PRE|25487|M|10.56,8.51|N|From Motega Firemane.|
-
 ;insert flight point get
 f Fizzle & Pozzik's Speedbarge|QID|25489|M|79.13,71.9|N|Get the flight point at Zazzik Boomride.|
 T Two If By Boat|QID|25489|M|75.94,74.68|N|To Pozzik. He can be found at the very top front room of the barge.|
@@ -130,14 +26,12 @@ h Speedbarge Bar|QID|25516|M|76.55,74.58|N|Set your hearth to Speedbarge bar. Fr
 B Bottle of Grog|QID|25518|ACTIVE|25518|M|76.55,74.58|N|Go inside and buy a Bottle of Grog from the bartender.|L|54747|
 C Bar Fight!|QID|25518|M|76.55,74.58|N|Use the Bottle of Grog on a gnome in the bar to start the fight.|U|54747|
 T Bar Fight!|QID|25518|M|78.04,73.66|N|To Zamek.|
-
 A In the Outhouse|QID|25526|PRE|25505|M|79.59,75.04|N|Swim down to the outhouse under the lake - don't worry, you have a buff that lets you breathe underwater here.|
 K Treasure Hunters|QID|25526|L|54821|M|79.58,75.03|S|N|Kill treasure hunters until you get the crowbar.|
 C Down in the Deeps|QID|25516|M|81.80,77.15|N|The rocket car parts are scattered all around the lake floor.|
 K Treasure Hunters|QID|25526|L|54821|M|79.58,75.03|US|N|Kill treasure hunters until you get the crowbar.|
 C In the Outhouse|QID|25526|U|54821|M|79.58,75.03|N|Use the crowbar on the outhouse.|
 T In the Outhouse|QID|25526|M|79.58,75.03|N|At the outhouse.|
-
 T Down in the Deeps|QID|25516|M|77.10,74.45|N|To Razzeric.|
 A Pirate Accuracy Increasing|QID|25533|PRE|25516&25518&25526|M|77.10,74.45|N|From Razzeric.|
 C Pirate Accuracy Increasing|QID|25533|M|79.18,76.61|N|Head to the dock and talk to the goblin there. He'll give you a boat that will act as a pet. Use the main ability to extinguish the fires - it's pretty difficult, just pe patient and aim for the base of the fires.|
@@ -150,12 +44,10 @@ A Where's Synge?|RANK|2|QID|25596|PRE|25543^25562|M|78.06,73.68|N|From Zamek.|
 A A Little Payback|RANK|2|QID|25589|PRE|25543^25562|M|78.21,73.60|N|From Rugfizzle.|
 A Special Delivery for Brivelthwerp|RANK|2|QID|28042|PRE|25543^25562|M|78.21,73.60|N|From Griznak.|
 A Negotiations|QID|25745|PRE|25543^25562|M|75.94,74.69|N|From Pozzik.|
-
 C A Little Payback|RANK|2|QID|25589|M|91.69,79.25|S|N|Kill Southsea Pirates.|
 C Quiet the Cannons|RANK|2|NC|QID|25586|M|91.69,79.25|S|N|Right-click the cannons to destroy them.|
 T Where's Synge?|RANK|2|QID|25596|M|91.69,79.25|N|Put your new river boat on an action button, then head for Southsea Holdfast. Find Synge and turn in the quest.|
 A Sunken Treasure|RANK|2|QID|25610|PRE|25596|M|91.69,79.25|N|From Synge.|
-
 C Sunken Treasure|RANK|2|NC|QID|25610|M|84.76,66.51|N|The treasure is located all around the area on the sea floor. Don't worry about the whale shark - it's dead.|
 T Negotiations|QID|25745|M|88.65,54.91|N|To Riznek.|
 A Get Koalbeard!|QID|25757|PRE|25745|M|88.65,54.91|N|From Riznek.|
@@ -163,7 +55,6 @@ A The Ancient Brazier|QID|25762|PRE|25744^25745|M|90.13,53.08|N|From Skycaller V
 C Get Koalbeard!|QID|25757|M|86.84,51.48|N|Attack the dwarf until he becomes dazed, then click on him again to get the item.|
 T Get Koalbeard!|QID|25757|M|88.57,54.96|N|To Riznek.|
 A Fool's Gold|QID|25775|PRE|25757|M|88.57,54.96|N|From Riznek.|
-
 T Sunken Treasure|RANK|2|QID|25610|M|91.69,79.22|N|Head back to the Holdfast and turn the quest into Synge.|
 A Two-Tusk Takedown|RANK|2|QID|25628|PRE|25610|M|91.69,79.22|N|From Synge.|
 ;add entrance to cave. expand N
@@ -178,7 +69,6 @@ K Seadog Fajardo|QID|25661|QO|2|M|88.09,73.92|N|Kill Seadog Fajardo on the next 
 C With a Little Help...|QID|25661|QO|3|M|88.46,77.03|N|Kill Lilly Landlubber on the southern most ship at the wheel (top) and loot her Liver, again using the Rope Ladder to get onto the ship.|
 T With a Little Help...|RANK|2|QID|25661|M|96.94,72.45|N|To Ajamon Ghostcaller.|
 A Carcass Collection|RANK|2|QID|25672|PRE|25661|M|96.82,72.50|N|From Ajamon Ghostcaller.|
-
 C Carcass Collection|RANK|2|QID|25672|NC|M|83.37,82.65|QO|1<5|N|You'll find five turtle carcasses floating on top of the water. We'll finish the quest in a bit.|
 T Special Delivery for Brivelthwerp|RANK|2|QID|28042|M|69.95,85.18|N|To Brivelthwerp.|
 A The Greatest Flavor in the World!|RANK|2|QID|28045|PRE|28031^28042|M|69.95,85.18|N|From Brivelthwerp.|
@@ -197,16 +87,13 @@ C Freezing the Pipes|QID|28047|QO|4|NC|U|62912|M|64.95,85.79|N|Freeze the last p
 C That Smart One's Gotta Go|RANK|2|QID|28048|M|63.85,86.26|N|At the back of the cave, you'll find the Controller.|
 T Freezing the Pipes|RANK|2|QID|28047|M|69.87,85.09|N|To Brivelthwerp, back on the surface.|
 T That Smart One's Gotta Go|RANK|2|QID|28048|M|69.87,85.09|N|To Brivelthwerp.|
-
 C Carcass Collection|RANK|2|QID|25672|NC|M|83.37,82.65;83.93,73.67|CN|N|Finish up this quest on your way back - the five turtles should have respawned by now.|
 T Carcass Collection|RANK|2|QID|25672|NC|M|96.80,72.40|N|To Ajamon Ghostcaller.|
 A The Mad Magus|RANK|2|QID|25704|PRE|25672|M|96.80,72.40|N|From Ajamon Ghostcaller.|
 C The Mad Magus|RANK|2|QID|25704|U|55230|M|97.20,72.14;85.19,91.72|CS|N|Click on her portal to teleport over to where the magus is, then kill him and use the stick on him.|
 T The Mad Magus|RANK|2|QID|25704|M|86.24,92.11;96.81,72.42|CS|N|Click on the portal to get back to Holdfast. Turn in to Ajamon Ghostcaller.|
-
 C A Little Payback|RANK|2|QID|25589|M|90.64,79.30|US|N|Finish killing Southsea Pirates.|
 C Quiet the Cannons|RANK|2|QID|25586|M|90.48,80.38|US|N|Right-click the cannons to destroy them.|
-
 C Fool's Gold|QID|25775|M|44.03,37.31|S|NC|N|Pick up Pyrite Chunks.|
 C The Ancient Brazier|QID|25762|U|55986|M|44.03,37.31;42.02,31.54|CS|N|Get on your boat and head out. The cave entrance is at the lake floor level. Use the torch on the brazier at the back of the cave, then kill the elemental and loot the flame from him.|
 C Fool's Gold|QID|25775|M|44.03,37.31|US|NC|N|Finish gathering pyrite, it can be found all around this area.|
@@ -228,12 +115,10 @@ A Go Blow that Horn|QID|25814|PRE|25799&25797|M|88.61,54.92|N|From Riznek.|
 C Go Blow that Horn|QID|25814|M|89.44,46.97|N|Right-click the horn to summon the elemental, then kill him.|
 T Go Blow that Horn|QID|25814|M|88.58,54.94|N|To Riznek.|
 A Deliver the Goods|QID|25826|PRE|25814|M|88.58,54.94|N|From Riznek.|
-
 T A Little Payback|RANK|2|QID|25589|M|78.23,73.60|N|To Rugfizzle, back on the barge.|
 T Quiet the Cannons|RANK|2|QID|25586|M|77.16,74.46|N|To Razzeric.|
 T Deliver the Goods|QID|25826|M|75.94,74.69|N|To Pozzik.|
 A Free Freewind Post|QID|25836|PRE|25704&25826|M|75.94,74.69|N|From Pozzik.|
-
 T Free Freewind Post|QID|25836|M|46.42,57.77|N|Get on your boat and head to Freewind Post. Turn in the quest to Thalia Amberhide.|
 A Grimtotem in the Post|QID|25870|PRE|25836|M|46.42,57.77|N|From Thalia Amberhide.|
 ;rm pre
@@ -247,7 +132,6 @@ T The Brave and the Bold|QID|25872|M|46.78,56.09|N|To Rau Cliffrunner.|
 A Together Again|QID|27276|PRE|25872|M|46.78,56.09|N|From Rau Cliffrunner.|
 T Grimtotem in the Post|QID|25870|M|46.34,57.69|N|To Thalia Amberhide.|
 T Horn of the Traitor|QID|25874|M|46.34,57.69|N|To Thalia Amberhide.|
-
 T Together Again|QID|27276|M|42.23,48.54|N|Climb back up the cliff and head across the bridge. The brave will appear - turn the quest in to him. (This quest may bug out, if it does go back until the brave despawns and try again)|
 A No Weapons For You!|QID|27311|PRE|27276|M|42.23,48.54|N|From the Freewind Brave.|
 A Darkcloud Grimtotem|QID|27313|PRE|27276|M|42.23,48.54|N|From the Freewind Brave.|
@@ -263,13 +147,11 @@ A The Rattle of Bones|QID|27317|PRE|27276|M|43.35,43.43|N|From The Rattle of Bon
 T The Rattle of Bones|QID|27317|M|43.35,43.43|N|To the Freewind Brave.|
 A The Writ of History|QID|27321|PRE|27317|M|43.60,43.73|N|From the Freewind Brave.|
 A The Drums of War|QID|27326|PRE|27317|M|43.60,43.73|N|From the Freewind Brave.|
-
 C The Writ of History|QID|27321|NC|M|38.74,41.81|N|Cross the bridge then click on the Writ of History that is hanging on a totem.|
 T The Writ of History|QID|27321|M|38.75,41.91|N|To the Freewind Brave.|
 C Grimtotem Chiefs: Elder Stormhoof|QID|27319|M|39.01,41.15|N|Kill Elder Stormhoof.|
 T Grimtotem Chiefs: Elder Stormhoof|QID|27319|M|39.01,41.15|N|To the Freewind Brave.|
 A Grimtotem Chiefs: Grundig Darkcloud|QID|27324|PRE|27319|M|39.01,41.15|N|From the Freewind Brave.|
-
 C Grimtotem Chiefs: Grundig Darkcloud|QID|27324|M|34.10,40.03|N|Kill Grundig Darkcloud.|
 C The Drums of War|QID|27326|NC|M|34.01,37.03|N|Click on the Drums of War to loot them.|
 T The Drums of War|QID|27326|M|33.95,36.75|N|To the Freewind Brave.|
@@ -279,17 +161,14 @@ C No Weapons For You!|QID|27311|US|N|Right-click weapon racks to burn them.|
 C Darkcloud Grimtotem|QID|27313|US|N|Kill any Grimtotems you have left.|
 T No Weapons For You!|QID|27311|N|To the Freewind Brave.|
 T Darkcloud Grimtotem|QID|27313|N|To the Freewind Brave.|
-
 C Grimtotem Chiefs: The Chief of Chiefs|QID|27328|M|37.88,26.66|N|Kill Arnak Grimtotem.|
 T Grimtotem Chiefs: The Chief of Chiefs|QID|27328|M|37.88,26.60|N|To the Freewind Brave.|
 A The Captive Bride|QID|27358|PRE|27328&27321&27326|M|37.88,26.60|N|From the Freewind Brave.|
 T The Captive Bride|QID|27358|M|39.12,25.84|N|To Lakota Windsong.|
 A Invoking the Serpent|QID|27330|PRE|27358|M|39.12,25.84|N|From Lakota Windsong.|
-
 C Invoking the Serpent|QID|27330|U|61043|M|38.09,35.40|N|Head out to the summoning fire and use the artifacts to summon Arikara. Kill the tauren when they appear, since they'll make Arikara stronger.|
 T Invoking the Serpent|QID|27330|M|39.15,25.85|N|To Lakota Windsong.|
 A Trouble at Highperch|QID|28085|PRE|27329^27330|M|39.15,25.85|N|From Lakota Windsong.|
-
 T Trouble at Highperch|QID|28085|M|12.77,33.91|N|Get in your boat, and head to Highperch. Turn in the quest to Pao'ka Swiftmountain. You can jump off the cliff to go down, use a mount to get a nice far jump so you'll land in the water.|
 A Free the Pridelings|QID|28086|PRE|28085|M|12.77,33.91|N|From Pao'ka Swiftmountain.|
 A Death to all Trappers!|QID|28087|PRE|28085|M|12.77,33.91|N|From Pao'ka Swiftmountain.|
@@ -305,7 +184,6 @@ A The Twilight Skymaster|QID|28098|PRE|28088|M|12.76,33.98|N|From Pao'ka Swiftmo
 C The Twilight Skymaster|QID|28098|M|19.40,48.68|N|RIght-click Heartrazor to get a ride up to whre the skymaster is. Fight him - when he reaches zero hit points, you'll get to see an especially cute brand of justice!|
 T The Twilight Skymaster|QID|28098|M|16.02,45.71;12.81,34.03|CC|N|Ride Heartrazor back down to Pao'ka Swiftmountain.|
 A On to the Bulwark|QID|28124|PRE|28098|M|12.81,34.03|N|From Pao'ka Swiftmountain.|
-
 T On to the Bulwark|QID|28124|M|30.44,49.21|N|Get on your boat and head to the Twilight Bulwark. Turn in your quest to Lakota Windsong.|
 A Something to Wear|QID|28125|PRE|28124|M|30.44,49.21|N|From Lakota Windsong.|
 A Break Them Out|QID|28127|PRE|28124|M|30.44,49.21|N|From Lakota Windsong.|
@@ -327,7 +205,6 @@ A The Elder Crone|QID|28140|PRE|28139&28136|M|30.42,49.22|N|From Lakota Windsong
 C The Elder Crone|QID|28140|M|35.95,60.68|NC|N|Just click on the device in front of Magatha.|
 T The Elder Crone|QID|28140|N|(UI ALert)  Note: You will lose your disguise on turning this quest in.|
 A To the Withering|QID|28142|PRE|28140|N|(UI Alert)|
-
 T To the Withering|QID|28142|M|50.15,62.62|N|Head east along the ridge until you reach the Twilight Withering. Turn in to Magatha Grimtotem.|
 A Four Twilight Elements|QID|28157|PRE|28142|M|50.15,62.62|N|From Magatha Grimtotem.|
 A Unbound|QID|28158|M|50.15,62.62|PRE|28142|N|From Magatha Grimtotem.|
@@ -350,8 +227,5 @@ T Spread the Word|QID|28161|M|75.96,74.67|N|To Pozzik. Congradulations on an awe
 A Tanaris is Calling|QID|27447|LEAD|24906|M|75.94,74.68|N|From Pozzik. Pick this up if you'd like to head to Tanaris next.|
 ;most likely doesn't have the flightpoint yet
 ;F Gadgetzan|QID|27447|M|79.19,71.89|N|Fly to Gadgetzan.|
-
 ]]
 end)
-
-

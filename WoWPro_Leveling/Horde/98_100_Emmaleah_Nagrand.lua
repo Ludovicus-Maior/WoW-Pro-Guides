@@ -1,165 +1,9 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/h_99100_nagrand_draenor
--- Date: 2018-10-23 22:16
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL: http://wow-pro.com/node/3605/revisions/29122/view
--- Date: 2018-02-22 23:36
--- Who: Ludovicus_EditBot
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3605/revisions/28950/view
--- Date: 2018-01-17 00:40
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3605/revisions/28584/view
--- Date: 2017-03-23 19:18
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL: http://wow-pro.com/node/3605/revisions/28459/view
--- Date: 2017-03-16 17:11
--- Who: Ludovicus_Maior
--- Log: Added PREs
-
--- URL: http://wow-pro.com/node/3605/revisions/27715/view
--- Date: 2016-09-07 05:11
--- Who: Emmaleah
--- Log: corrected Z tag Vault of the Titans to Stonecrag Gorge
-
--- URL: http://wow-pro.com/node/3605/revisions/27485/view
--- Date: 2016-07-30 18:49
--- Who: Ludovicus_Maior
--- Log: Added @NagrandDraenor to a few Z tags
-
--- URL: http://wow-pro.com/node/3605/revisions/27400/view
--- Date: 2015-12-31 23:35
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3605/revisions/27312/view
--- Date: 2015-07-05 17:45
--- Who: Ludovicus_Maior
--- Log: Add Icon
-
--- URL: http://wow-pro.com/node/3605/revisions/27308/view
--- Date: 2015-06-30 22:24
--- Who: Ludovicus_Maior
--- Log: Remove bogus NextGuide call.
-
--- URL: http://wow-pro.com/node/3605/revisions/27193/view
--- Date: 2015-04-11 20:05
--- Who: Blanckaert
--- Log: Removed duplicate Rank 2 from line 135 (R The Ring of Trails) and line 270 (K Bolkar the Cruel)
-
--- URL: http://wow-pro.com/node/3605/revisions/27175/view
--- Date: 2015-03-09 19:34
--- Who: Ludovicus_Maior
--- Log: Deduped some tags
-
--- URL: http://wow-pro.com/node/3605/revisions/27149/view
--- Date: 2015-02-25 00:36
--- Who: Ludovicus_Maior
--- Log: Tweaks as I played through.
-
--- URL: http://wow-pro.com/node/3605/revisions/27115/view
--- Date: 2015-01-04 02:35
--- Who: Emmaleah
--- Log: added more Rank 2 tags. I didn't think C / T steps needed them if the A step had them... but apparently they do.
-
--- URL: http://wow-pro.com/node/3605/revisions/27108/view
--- Date: 2014-12-29 10:58
--- Who: Emmaleah
--- Log: live play thru. Added many R steps, better |N|tags, Rearrange Elemental attunement/Guardian of the plateau Make K steps add |T|'s.  Fixed coords / notes in The Underpale, added notes to Warsong dispatches, Added Goldmane the skinner as Rank 3, Put almost all steps to rank 2 (after you get your garrison outpost and book to buy blueprints with). Abu'gar spelled wrong, one of Item ID's was wrong. and who knows what all else. I think I preserved all of Blankhaart's changes.
-
--- URL: http://wow-pro.com/node/3605/revisions/27089/view
--- Date: 2014-12-08 02:29
--- Who: Blanckaert
-
--- URL: http://wow-pro.com/node/3605/revisions/27088/view
--- Date: 2014-12-08 02:25
--- Who: Emmaleah
--- Log: insert missing US tags on Lighting the Darkness and Echoes of the Past
-
--- URL: http://wow-pro.com/node/3605/revisions/27087/view
--- Date: 2014-12-08 02:01
--- Who: Emmaleah
--- Log: updated coords in The Underpale, added N tags to those steps also (most shamelessly stolen from Ludo's Alliance Nagrand guide)
-
--- URL: http://wow-pro.com/node/3605/revisions/27086/view
--- Date: 2014-12-08 00:11
--- Who: Blanckaert
-
--- URL: http://wow-pro.com/node/3605/revisions/27085/view
--- Date: 2014-12-07 19:17
--- Who: Blanckaert
--- Log: adjusted step, and flow patterns
-
--- URL: http://wow-pro.com/node/3605/revisions/27084/view
--- Date: 2014-12-07 19:09
--- Who: Blanckaert
--- Log: moved a quest turn in, up a bit, since you pass it to turn in others
-
--- URL: http://wow-pro.com/node/3605/revisions/27083/view
--- Date: 2014-12-07 19:05
--- Who: Blanckaert
--- Log: change a A to T for QID 33928, add T step for QID 34893
-
--- URL: http://wow-pro.com/node/3605/revisions/27028/view
--- Date: 2014-11-22 11:49
--- Who: Ludovicus_Maior
--- Log: Hey!  Needed @Draenor
-
--- URL: http://wow-pro.com/node/3605/revisions/27023/view
--- Date: 2014-11-20 03:22
--- Who: Emmaleah
--- Log: added |Z|The Underpale to the steps inside oshu'gun, Starting with T [Dark Binding] I did it from memory, so I may have added it to extra steps that shouldn't have it.
-
--- URL: http://wow-pro.com/node/3605/revisions/26965/view
--- Date: 2014-11-11 23:43
--- Who: Emmaleah
--- Log: Correct The Dead do not forget... again...
-
--- URL: http://wow-pro.com/node/3605/revisions/26955/view
--- Date: 2014-11-09 07:35
--- Who: Emmaleah
--- Log: correct A/C/T steps in The Dead do not Forget
-
--- URL: http://wow-pro.com/node/3605/revisions/26903/view
--- Date: 2014-11-08 03:38
--- Who: Emmaleah
--- Log: corrections per List O' Errors
-
--- URL: http://wow-pro.com/node/3605/revisions/26788/view
--- Date: 2014-11-04 08:36
--- Who: Emmaleah
--- Log: only changed a few things before Beta went down.  Added a few R steps and |T| tags.  Worked on the garrison building section at the end.  Guide will need more attention when WoD goes live.
-
--- URL: http://wow-pro.com/node/3605/revisions/26705/view
--- Date: 2014-10-02 08:30
--- Who: Emmaleah
--- Log: update link in header to point to correct pages
-
--- URL: http://wow-pro.com/node/3605/revisions/26704/view
--- Date: 2014-10-02 08:28
--- Who: Emmaleah
--- Log: Emmaleah - 10/1/14 - First public draft
-
 local guide = WoWPro:RegisterGuide('EmmNagrand', 'Leveling', 'Nagrand@Draenor', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,98, 100, 98.7)
-WoWPro:NewGuideLevels(guide,98,100)
-WoWPro:GuideIcon(guide,"ACH",8942)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 N Beginnings|QID|34794|N|This guide begins at your garrison to take the free flight to Nagrand.|
 N Bonus Objectives|QID|34794|N|The bonus quests are not mentioned in this guide.  Feel free to do them if you want to.|
-
 T News from Nagrand|QID|36607^36602|M|45.82,42.96|Z|Frostwall|N|To Rokhan.|
 A Taking the Fight to Nagrand|QID|34794|LEAD|34795|M|45.82,42.96|Z|Frostwall|N|From Rokhan.|
 C Taking the Fight to Nagrand|QID|34794^36952|M|45.91,51.14|Z|Frostwall|CHAT|N|Take the chat flight option (not the flightpath) at Bron Skyhorn.|
@@ -174,7 +18,6 @@ C More Lazy Peons|QID|34808|NC|M|82.48,45.08|
 T More Lazy Peons|QID|34808|M|82.93,44.13|N|To Foreman Thazz'ril.|
 A They Call Him Lantresor of the Blade|QID|34818|PRE|34808|M|82.93,44.13|N|From Foreman Thazz'ril.|
 A The Friend of My Enemy|QID|34826|PRE|34808|M|82.84,45.07|N|From Thrall.|
-
 R Hallvalor|QID|34818|M|85.18,51.31|
 T They Call Him Lantresor of the Blade|QID|34818|M|85.41,54.58|N|To Lantresor of the Blade.|
 A The Blade Itself|QID|34849|PRE|34818|M|85.42,54.59|N|From Lantresor of the Blade.|
@@ -202,7 +45,6 @@ h Wor'var|QID|34598|M|82.56,45.41|N|At Elathriel Sunstriker.|RANK|2|
 A Shooting the Breeze|QID|35376|PRE|34899|M|82.61,43.93|N|From Stalker Ogka.|RANK|2|
 A That Pounding Sound|QID|35374|PRE|34899|M|82.55,43.99|N|To Shadow Hunter Taz.|RANK|2|
 A The Honor of a Blademaster|QID|34770|PRE|34868|M|82.59,46.75|N|From/To Lantresor of the Blade.  He is a follower with the mining trait, so if you assign him to your mine you will get higher production.|RANK|2|
-
 C That Pounding Sound|QID|35374|M|77.30,58.13|S|N|Kill the clefthoofs when its convenient.|RANK|2|
 C Shooting the Breeze|QID|35376|M|72.41,58.86|S|N|Kill the talbuk when its convenient.|RANK|2|
 R The Ring of Trials|QID|34598|M|79.82,49.71|N|Feel free to do the ring event whenever you want, It is not in the guide until much later, to give time to acquire better gear from the quests. If you gear is good its soloable at level 100, at 98, I would recommend at least one partner.|RANK|2|
@@ -210,7 +52,6 @@ A Gazmolf Futzwangler and the Highmaul Crusade|QID|34810|M|79.88,48.84|N|From Ga
 f The Ring of Trials|QID|34598|M|79.82,49.71|N|At Biggy Warprofits.|RANK|2|
 A Tastes Like Chicken|QID|34869|M|79.22,52.67|N|From Digrem Orebar.|RANK|2|
 C Tastes Like Chicken|QID|34869|M|78.53,59.13|S|N|Kill the windrocs when its convenient.|RANK|2|
-
 A The Missing Caravan|QID|34598|M|78.59,48.57|N|From Pyxni Pennypocket.|RANK|2|
 A Declawing The Competition|QID|34512|M|78.59,48.57|N|From Pyxni Pennypocket.|RANK|2|
 A The Good Doctor|QID|35146|M|77.43,47.36|N|From Marybelle Walsh.|RANK|2|
@@ -229,7 +70,6 @@ T My Precious!|QID|34516|M|74.72,61.55|N|To Bazwix.|RANK|2|
 C Declawing The Competition|QID|34512|US|M|75.10,62.18|N|KIll Saberon as you go about your other objectives.|RANK|2|
 C They've Got The Goods!|QID|34514|US|NC|M|73.33,60.15|N|Pick up the little bags around the area.|RANK|2|
 C Gobnapped|QID|34515|M|73.78,60.62|NC|US|N|Open the cages to free the goblins.|RANK|2|
-
 T Gazmolf Futzwangler and the Highmaul Crusade|QID|34810|M|71.11,52.35|N|To Gazmolf Futzwangler.|RANK|2|
 A A Lesson in Mineralogy|QID|34809|PRE|34810|M|71.11,52.35|N|From Gazmolf Futzwangler.|RANK|2|
 A Good Help is Hard to Find|QID|34811|PRE|34810|M|71.11,52.35|N|From Gazmolf Futzwangler.|RANK|2|
@@ -245,7 +85,6 @@ C A Lesson in Archaeology|QID|35632|U|113217|M|12.21,49.66;69.33,40.19|CS|NC|N|I
 C A Lesson in Teamwork|QID|35663|M|66.91,50.19|QO|1|US|N|These drop off of the ogres and exist as groundspawn.|RANK|2|
 T A Lesson in Teamwork|QID|35663|M|71.13,52.35|N|To Gazmolf Futzwangler.|RANK|2|
 T A Lesson in Archaeology|QID|35632|M|71.13,52.35|N|To Gazmolf Futzwangler.|RANK|2|
-
 C Tastes Like Chicken|QID|34869|M|78.53,59.13|US|RANK|2|
 R The Ring of Trials|QID|34869|M|78.37,52.47|RANK|2|
 T Meatgut Needs Bones|QID|35928|M|78.37,52.47|N|To Meatgut, repeatable for XP and gold.|L|113578 25|RANK|2|
@@ -255,7 +94,6 @@ T Declawing The Competition|QID|34512|M|78.59,48.57|N|To Pyxni Pennypocket.|RANK
 T WANTED: Razorpaw!|QID|34513|M|78.59,48.57|N|To Pyxni Pennypocket.|RANK|2|
 T They've Got The Goods!|QID|34514|M|78.59,48.57|N|To Pyxni Pennypocket.|RANK|2|
 T Gobnapped|QID|34515|M|78.59,48.57|N|To Pyxni Pennypocket.|RANK|2|
-
 R Wor'var|QID|35374|M|82.55,43.99|N|Run to Wor'var finishing up the Talbuks and Clefthoof on the way.|RANK|2|
 C That Pounding Sound|QID|35374|M|77.30,58.13|US|RANK|2|
 C Shooting the Breeze|QID|35376|M|72.41,58.86|US|RANK|2|
@@ -274,7 +112,6 @@ C Fruitful Ventures|QID|34819|M|79.00,39.70|US|RANK|2|
 R The Ring of Trials|QID|34819|M|79.23,52.63|N|If you want (and your hearthstone is set there) it is faster to Hearth to Wor'var and run from there.|U|6948|RANK|2|
 T Fruitful Ventures|QID|34819|M|79.23,52.63|N|To Digrem Orebar.|RANK|2|
 A New Babies|QID|34900|PRE|34819|M|79.23,52.63|N|From Digrem Orebar.|RANK|2|
-
 C New Babies|QID|34900|M|60.85,47.24|NC|S|N|The non agro baby clefthoofs are what you are looking for, you will probably have to kill the accompanying adults first.|RANK|2|
 R Telaar|QID|34914|M|68.56,64.51|RANK|2|
 T Target of Opportunity: Telaar|QID|34914|M|68.56,64.51|N|To Shadow Hunter Kajassa.|RANK|2|
@@ -305,7 +142,6 @@ R Wor'var|QID|34918|M|82.84,45.07|RANK|2|
 T Shields Down!|QID|34918|M|82.84,45.07|N|To Thrall.|RANK|2|
 T King of the Breezestriders|QID|35378|M|82.60,43.93|N|To Stalker Ogka.|RANK|2|
 T Queen of the Clefthoof|QID|35375|M|82.52,43.94|N|To Shadow Hunter Taz.|RANK|2|
-
 R Mar'gok's Overwatch|QID|35150|M|83.05,67.95|RANK|2|
 T Trouble at the Overwatch|QID|35150|M|83.05,67.95|N|To (stealthed) Akrosh.|RANK|2|
 A Obtaining Ogre Offensive Orders|QID|35157|PRE|35150|M|83.05,67.95|N|From Akrosh.|RANK|2|
@@ -328,7 +164,6 @@ T Reglakk's Research|QID|35158|M|82.83,45.06|N|To Thrall.|RANK|2|
 A Along the Riverside|QID|35095|PRE|34899|M|82.83,45.06|N|From Thrall.|RANK|2|
 A The Farseer Awaits|QID|34964|LEAD|34965|PRE|34918&35158|M|82.83,45.06|N|From Thrall.|RANK|2|
 T Removing the Reinforcements|QID|35159|M|82.93,44.13|N|To Foreman Thazz'ril.|RANK|2|
-
 R Spriteleaf Thicket|QID|35146|M|84.2,28.4|RANK|2|
 C Whacking Weeds|QID|36273|M|84.37,26.31|S|RANK|2|
 C The Good Doctor|QID|35146|CHAT|M|83.21,22.63|N|He is underground in the Spriteleaf Burrow.|RANK|2|
@@ -346,7 +181,6 @@ A Dirgemire|QID|36285|PRE|36275&36284|M|86.66,28.31|N|From Dr. Hadley Ricard.|RA
 C Dirgemire|QID|36285|CS|M|86.85,16.25;84.66,17.50|N|The entrance to the underwater cave is straight down from the first waymark.|T|Dirgemire|RANK|2|
 T Dirgemire|QID|36285|M|86.68,28.30|N|To Dr. Hadley Ricard.|RANK|2|
 C Whacking Weeds|QID|36273|M|84.27,28.31|US|RANK|2|
-
 R Skysong Lake|QID|34964|M|73.69,26.64|RANK|2|
 f Throne of the Elements|QID|34964|M|73.69,26.64|N|At Gixmo Moneycash.|RANK|2|
 T The Farseer Awaits|QID|34964|M|71.71,19.61|N|To Farseer Drek'Thar.|RANK|2|
@@ -359,7 +193,6 @@ A Guardians of the Plateau|QID|34893|M|71.34,17.83|N|From Incineratus.|RANK|2|
 A An Old Friend|QID|34943|PRE|35331|M|72.75,19.66|N|From Kalandrios.|RANK|2|
 T An Old Friend|QID|34943|M|73.75,16.56;75.07,22.75|CS|N|To Gar'rok.|RANK|2|
 A A Rare Bloom|QID|34894|PRE|34943|M|75.07,22.75|N|From Gar'rok.|RANK|2|
-
 R Elemental Plateau|QID|34881|NC|M|79.94,31.5;82.60,30.19;82.49,25.11;82.02,22.34|CS|N|Run up from where the first waymark shows on your map.|RANK|2|
 C Earth, Wind and Fire...and Water|QID|34881|M|67.18,10.48|S|N|Each area is a mix of two types of elementals. Be sure and get all of that type's drops before you leave the area. There are also ground spawns of the item you need.|RANK|2|
 C Elemental Attunement|QID|34891|NC|QO|2|M|78.32,24.42|N|Click on the rock pillar to become attuned to it.|RANK|2|
@@ -374,14 +207,12 @@ C A Rare Bloom|QID|34894|NC|M|70.59,9.91|N|In the back of Magma Cave|RANK|2|
 C Elemental Attunement|QID|34891|M|67.46,4.16|QO|3|NC|N|Click on the rock pillar to become attuned to it.|RANK|2|
 K Volatile Flame Guardian|QID|34893|QO|3|M|66.57,8.64|T|Volatile Flame Guardian|RANK|2|
 C Earth, Wind and Fire...and Water|QID|34881|M|67.18,10.48|US|RANK|2|
-
 T A Rare Bloom|QID|34894|M|75.08,22.74|N|Run past the elemental lords and back up the hill on the other side to Gar'rok.|RANK|2|
 A Guise of the Deceiver|QID|34932|PRE|34894|M|75.08,22.74|N|From Gar'rok.|RANK|2|
 C Guise of the Deceiver|QID|34932|M|75.92,21.39;77.39,20.62;77.97,23.35|CS|N|Go up the narrow path behind you where you will find Challe in a shallow cave. Talk to her, then she turns hostile and you must kill her.|RANK|2|
 T Guise of the Deceiver|QID|34932|M|75.08,22.74|N|To Gar'rok.|RANK|2|
 A The Debt We Share|QID|34941|PRE|34932|M|75.08,22.74|N|From Gar'rok.|RANK|2|
 C The Debt We Share|QID|34941|CHAT|M|75.08,22.73|RANK|2|
-
 T The Debt We Share|QID|34941|M|72.79,19.65|N|To Kalandrios.|RANK|2|
 T A Wrong of Earth and Fire|QID|33928|M|71.34,17.89|N|To Incineratus.|RANK|2|
 T Earth, Wind and Fire...and Water|QID|34881|M|71.34,17.89|N|To Incineratus.|RANK|2|
@@ -391,7 +222,6 @@ A The Ritual of Binding|QID|35265|PRE|34941&33928&34893|M|71.72,19.64|N|From Far
 C The Ritual of Binding|QID|35265|CHAT|M|72.68,19.70|RANK|2|
 T The Ritual of Binding|QID|35265|M|71.70,19.65|N|To Farseer Drek'Thar.|RANK|2|
 A The Call of Oshu'gun|QID|35232|M|71.70,19.65|N|From Farseer Drek'Thar.|RANK|2|
-
 C The Call of Oshu'gun|QID|35232|M|73.69,26.64|CHAT|N|Take the chat option NOT a flightpath.|RANK|2|
 T The Call of Oshu'gun|QID|35232|M|55.52,55.92|N|To Farseer Drek'Thar.|RANK|2|
 A Spiritual Matters|QID|35231|PRE|35232|M|55.52,55.92|N|From Farseer Drek'Thar.|RANK|2|
@@ -399,7 +229,6 @@ A Dark Binding|QID|35144|PRE|35232|M|55.52,55.92|N|From Farseer Drek'Thar.|RANK|
 A The Pale Threat|QID|35145|PRE|35232|M|55.52,55.92|N|From Farseer Drek'Thar.|RANK|2|
 A Silence the Call|QID|35084|PRE|35372|M|55.45,55.92|N|From the Shamanstone.|RANK|2|
 A Disrupt the Rituals|QID|35083|PRE|35372|M|55.45,55.92|N|From the Shamanstone.|RANK|2|
-
 R Shadowfall Canyon|QID|35145|M|55.93,56.98|CC|N|We are making a short sidetrip for Farseer Drak'Thar.|RANK|2|
 C The Pale Threat|QID|35145|S|QO|2|M|52.60,60.46|N|If you kill the pale orcs near the elemental spirits you will free them allso. Kill pale orcs as you work your way towards the tunnel into The Underpale.@NagrandDraenor|RANK|2|
 C Dark Binding|QID|35144|S|M|52.70,60.68|N|The earth spirits are freed by killing them.|RANK|2|
@@ -413,7 +242,6 @@ A The Dark Heart of Oshu'gun|QID|35317|PRE|35144&35145|M|46.02,32.72|N|From Fars
 C The Fate of Gordawg|QID|34271|M|41.21,40.82|T|Gordawg|N|Kill Gordawg|Z|The Underpale@NagrandDraenor|RANK|2|
 C The Dark Heart of Oshu'gun|QID|35317|M|17.1,66.23|T|Decimatus|N|Listen to Chogall and Gul'dan and then kill Decimatus.|Z|The Underpale@NagrandDraenor|RANK|2|
 R Spirit Woods|QID|35084|M|22.76,65.79;9.95,61.41|CS|Z|The Underpale@NagrandDraenor|N|Follow Farseer Drek'Thar out for a shortcut.|RANK|2|
-
 C Silence the Call|QID|35084|QO|2|M|55.45,55.92|S|N|It will be hard to avoid killing them as you go about the other tasks.|RANK|2|
 C Disrupt the Rituals|QID|35083|NC|QO|1|M|48.46,58.69;47.79,58.71|CN|RANK|2|
 A The Warsong Threat|QID|35271|M|51.86,62.10|N|From Warsong Attack Plans. This is a VERY SMALL yellow (quest) exclamation mark, so its easy to miss. It is a scroll on a box in this campsite.|RANK|2|
@@ -427,7 +255,6 @@ C Silence the Call|QID|35084|QO|2|M|55.45,55.92|US|N|If somehow you avoided kill
 T Disrupt the Rituals|QID|35083|M|46.77,57.46;40.43,56.80|CN|N|To the Shamanstone.|RANK|2|
 T Silence the Call|QID|35084|M|46.77,57.46|N|To the Shamanstone. (any of the 3 shamanstones work, you dont have to run to the one marked in the guide.)|RANK|2|
 A Through the Nether|QID|35085|PRE|35083&35084|M|46.77,57.46|N|From the Shamanstone.|RANK|2|
-
 C Through the Nether|QID|35085|NC|M|48.09,59.03|N|Click on the totem to enter the spirit world.|RANK|2|
 T Through the Nether|QID|35085|M|46.75,57.57|N|To the Shamanstone. (any of the 3 shamanstones work, you dont have to run to the one marked in the guide.)|RANK|2|
 A The Nether Approaches|QID|35087|PRE|35085|M|46.75,57.57|N|From the Shamanstone.|RANK|2|
@@ -443,11 +270,9 @@ T The Void March|QID|35086|M|46.81,57.53|N|To the Shamanstone.|RANK|2|
 A The Shadow of the Void|QID|35088|PRE|35086&35087|M|46.81,57.53|N|From the Shamanstone.|RANK|2|
 C The Shadow of the Void|QID|35088|M|48.09,58.59|T|Invalidus|N|Click on the crystal to summon Invalidus.|RANK|2|
 T The Shadow of the Void|QID|35088|M|46.81,57.54|N|To the Shamanstone. (any of the 3 shamanstones work, you dont have to run to the one marked in the guide.)|RANK|2|
-
 R Iron Docks|QID|35596|M|40,76|N|You can pick up a leatherworking follower here and do the bonus objective if you so desire (75gold reward @ 100 ).|RANK|3|
 K Bolkar the Cruel|QID|35596|M|40.42,76.14|L|111863|N|Goldmane the skinner is imprisoned at the top of the tower.  Kill Bolkar (who is beside the cage) to get the key.(if Goldmane is outside of the cage you can just accept him as a follower.)|RANK|3|
 A Feline Friends Forever|QID|35596|M|40.42,76.14|N|Use the key to open the cage and then Goldmane will offer to follow you.|U|111863|RANK|3|
-
 R Ancestral Grounds|QID|35231|M|40.43,56.80|RANK|2|
 T Spiritual Matters|QID|35231|M|40.43,56.80|N|To Gar'rok.|RANK|2|
 A Lighting The Darkness|QID|35022|PRE|35393|M|40.43,56.78|N|From Gar'rok.|RANK|2|
@@ -462,7 +287,6 @@ T Lighting The Darkness|QID|35022|M|40.43,56.80|N|To Gar'rok.|RANK|2|
 A Golmash Hellscream|QID|35024|PRE|35022&35023|M|40.42,56.80|N|From Gar'rok.|RANK|2|
 C Golmash Hellscream|QID|35024|M|37.25,56.69|T|Golmash Hellscream|RANK|2|
 T Golmash Hellscream|QID|35024|M|40.43,56.80|N|To Gar'rok.|RANK|2|
-
 R Riverside Post|QID|35317|M|49.56,48.04|RANK|2|
 f Riverside Post|QID|35317|M|49.56,48.04|N|At Omu Spiritbreeze.|RANK|2|
 T The Warsong Threat|QID|35271|M|49.42,47.77|N|To Blood Guard Ehanes.|RANK|2|
@@ -486,7 +310,6 @@ T Terror of Nagrand|QID|35101|M|49.43,47.82|N|To Blood Guard Ehanes.|RANK|2|
 T The Pride of Lok-rath|QID|35097|M|48.60,48.22|N|To Durotan.|RANK|2|
 A Lok-rath is Secured|QID|35098|M|48.60,48.22|N|From Durotan.|RANK|2|
 H Wor'var|QID|35098|M|48.60,48.22|N|Back to the outpost.|RANK|2|
-
 T Lok-rath is Secured|QID|35098|M|82.84,45.07|N|To Thrall.|RANK|2|
 A And Justice for Thrall|QID|35171|PRE|35098|M|82.84,45.07|N|From Thrall.|RANK|2|
 A Bread and Circuses|QID|35922|PRE|35098|M|82.84,46.84|N|From Lucy Brokerblast.|RANK|2|
@@ -512,7 +335,6 @@ C Ring of Trials: Roakk the Zealot|QID|34666|M|77.61,49.55|QO|1|CHAT|RANK|2|
 C Ring of Trials: Roakk the Zealot|QID|34666|M|78.26,50.72|QO|2|N|Turn away when he casts blinding light or else you will be stunned for several seconds.|RANK|2|
 T Ring of Trials: Roakk the Zealot|QID|34666|M|79.46,50.28|N|To Dexyl Deadblade.|RANK|2|
 T Whacking Weeds|QID|36273|M|77.42,47.37|N|To Marybelle Walsh.|RANK|2|
-
 R Silence Pond|QID|35167|M|74.15,37.55|N|To Olgra.|RANK|2|
 T Lost in Nagrand|QID|35167|M|74.15,37.55|N|To Olgra.|RANK|2|
 A Consumed by Vengeance|QID|35170|PRE|35167|M|74.15,37.55|N|From Olgra.|RANK|2|
@@ -527,7 +349,6 @@ R Gates of Grommashar|QID|35171|M|73.99,69.30|RANK|2|
 C And Justice for Thrall|QID|35171|M|74.60,69.51|CHAT|N|Talk to Duratan to start the scenario.  Follow the scenario instructions and remember that the objectives are marked on your minimap with a yellow dot.|RANK|2|
 T And Justice for Thrall|QID|35171|M|66.89,33.70|N|To Durotan.|RANK|2|
 T Consumed by Vengeance|QID|35170|M|49.30,47.98|N|To Mankrik.|RANK|2|
-
 D The End|N|You should be level 100, if not, there are still the bonus quests marked on your map. Enjoy gearing and endgame content!|RANK|2|
 ; commenting all this out in expectation of Ludo's new guide (and deleting the building ones - since they are in other guides)
 ;U Your Garrison|QID|36614|M|66.89,33.70|U|110560|N|What follows is a couple of quest to do in your garrison that become available at level 100.|
@@ -541,9 +362,5 @@ D The End|N|You should be level 100, if not, there are still the bonus quests ma
 ;C Gnawface|QID|36469|QO|3|M|62.52,27.77|Z|Frostwall|NC|N|He is an elite type critter.  Beasts work best against him.|
 ;T Pets Versus Pests|QID|36469|M|32.69,39.82|Z|Frostwall|N|To Serr'ah.|
 ;A Scrappin'|QID|36662|M|31.32,41.98|Z|Frostwall|N|From Serr'ah.|
-
 ]]
-
 end)
-
-

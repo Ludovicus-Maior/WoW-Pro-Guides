@@ -1,182 +1,24 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_jade_forest_horde
--- Date: 2018-10-17 02:28
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3487/revisions/29213/view
--- Date: 2018-03-06 01:23
--- Who: Ludovicus_EditBot
--- Log: Level strip
-
--- URL: http://wow-pro.com/node/3487/revisions/29117/view
--- Date: 2018-02-22 23:30
--- Who: Ludovicus_EditBot
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3487/revisions/28940/view
--- Date: 2018-01-17 00:35
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3487/revisions/28454/view
--- Date: 2017-03-16 17:04
--- Who: Ludovicus_Maior
--- Log: Added PREs
-
--- URL: http://wow-pro.com/node/3487/revisions/27724/view
--- Date: 2016-09-08 22:28
--- Who: tubera
--- Log: Fix QOs; Move Treasures to $ tags, rare treasures to rank 3; Split a few quests with multiple QOs on different coordinates; Reorder a few Stickies.
-
--- URL: http://wow-pro.com/node/3487/revisions/26935/view
--- Date: 2014-11-08 12:56
--- Who: Ludovicus_Maior
--- Log: Missing N
-
--- URL: http://wow-pro.com/node/3487/revisions/26907/view
--- Date: 2014-11-08 04:21
--- Who: Emmaleah
--- Log: Remove Dup NC add missing N per list o' errors.
-
--- URL: http://wow-pro.com/node/3487/revisions/26469/view
--- Date: 2014-06-02 16:31
--- Who: Ludovicus_Maior
--- Log: Added mean level
-
--- URL: http://wow-pro.com/node/3487/revisions/26301/view
--- Date: 2014-05-26 01:20
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3487/revisions/26117/view
--- Date: 2014-05-18 22:55
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3487/revisions/25999/view
--- Date: 2014-05-16 20:27
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3487/revisions/25837/view
--- Date: 2013-12-11 03:05
--- Who: Fluclo
--- Log: The Art of War has two different quest IDs, depending on progress in Vashj'ir; Added some C steps to the first few quests; Corrected some coordinates and zone placements; Added lots of notes to various steps; Fixed typos.
-
--- URL: http://wow-pro.com/node/3487/revisions/25836/view
--- Date: 2013-12-11 01:38
--- Who: Fluclo
--- Log: Added Quest ID to starting note; added guide level requirement.
-
--- URL: http://wow-pro.com/node/3487/revisions/25794/view
--- Date: 2013-11-10 19:49
--- Who: Emmaleah
--- Log: Changed NC tags to CHAT tags as needed, added a two new C steps with CHAT. (Last Piece of the Puzzle and Jade Temple Grounds); modified or added a few explanations (amazing what not looking at this for a year lets me see) and a few typo corrections.
-
--- URL: http://wow-pro.com/node/3487/revisions/25712/view
--- Date: 2013-06-18 00:46
--- Who: Ludovicus_Maior
--- Log: Bad Y coordinate 31.95,13.21., 1/1 in guide EmmJad8586, line [C Regroup!].
-
--- URL: http://wow-pro.com/node/3487/revisions/25576/view
--- Date: 2013-03-23 19:01
--- Who: Ludovicus_Maior
--- Log: Quest name corrections and a missing | char.
-
--- URL: http://wow-pro.com/node/3487/revisions/25575/view
--- Date: 2013-03-23 18:59
--- Who: Ludovicus_Maior
--- Log: quest name tweak
-
--- URL: http://wow-pro.com/node/3487/revisions/25491/view
--- Date: 2013-01-13 23:50
--- Who: Ludovicus_Maior
--- Log: Added CS tag
-
--- URL: http://wow-pro.com/node/3487/revisions/25314/view
--- Date: 2013-01-09 22:43
--- Who: Ludovicus_Maior
--- Log: Added two CS tags
-
--- URL: http://wow-pro.com/node/3487/revisions/25231/view
--- Date: 2012-12-02 19:06
--- Who: Emmaleah
--- Log: 2 Dec 2012 - Emmaleah - Bliz fixed the phasing bug with the pandaran teapot in 5.1 - editing guide to reflect that.
-
--- URL: http://wow-pro.com/node/3487/revisions/25196/view
--- Date: 2012-11-11 00:02
--- Who: Emmaleah
--- Log: Emmaleah - 10 Nov 2012 - Added in the "one time" lost treasure items(I left out the 2 in alliance territory), some minor changes when comparing the affected areas between horde and alliance.
-
--- URL: http://wow-pro.com/node/3487/revisions/25190/view
--- Date: 2012-11-08 20:16
--- Who: Emmaleah
--- Log: added coords for use boots on missed me by that much
-
--- URL: http://wow-pro.com/node/3487/revisions/25188/view
--- Date: 2012-11-08 18:54
--- Who: Emmaleah
-
--- URL: http://wow-pro.com/node/3487/revisions/25180/view
--- Date: 2012-11-04 21:22
--- Who: Emmaleah
--- Log: changed CC in R Nectarbreeze to CS
-
--- URL: http://wow-pro.com/node/3487/revisions/25129/view
--- Date: 2012-10-08 19:49
--- Who: Ludovicus_Maior
--- Log: As per  Emmaleah, Use Captain's Jack's head to get the quest.
-
--- URL: http://wow-pro.com/node/3487/revisions/25100/view
--- Date: 2012-10-02 01:55
--- Who: Ludovicus_Maior
--- Log: Emmaleah: edited with Play test on live 9/30/12 -- many many changes
---	Ludovicus: No editing on my part!  Have not yet done this on horde.
-
--- URL: http://wow-pro.com/node/3487/revisions/25052/view
--- Date: 2012-08-28 19:06
--- Who: Ludovicus_Maior
--- Log: correct urls
-
--- URL: http://wow-pro.com/node/3487/revisions/25051/view
--- Date: 2012-08-28 19:05
--- Who: Ludovicus_Maior
--- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07.
-
 local guide = WoWPro:RegisterGuide('EmmJad8586', "Leveling", 'The Jade Forest', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,85,86, 85.0022)
-WoWPro:NewGuideLevels(guide,80,90)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'EmmVal8688')
-WoWPro:GuideIcon(guide,"ACH",6351)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 N Welcome to Pandaria|QID|29611^29612|N|Head to Orgrimmar. Don't forget to train your trade-skills before you leave Orgrimmar the new trainers are not available immediately upon arriving in Pandaria.\n\nCheck off this step to continue the guide.|
-
 A The Art of War|QID|29611^29612|N|Autogiven upon entering Orgrimmar.|
 C The Art of War|QID|29611^29612|M|49.93,75.65|Z|Orgrimmar|N|Head to Grommash Hold in The Valley of Strength. Then sit back, and watch the cinematic.|NC|
 T The Art of War|QID|29611^29612|M|48.56,70.62|Z|Orgrimmar|N|To General Nazgrim.|
-
 A All Aboard!|QID|31853|PRE|29611|M|48.56,70.62|Z|Orgrimmar|N|From General Nazgrim.|
 F Hellscream's Fist|QID|31853|M|37.89,95.73|Z|Azshara|N|Fly up to the Hellscream's Fist, which is flying above the skies east of Orgrimmar.|
 T All Aboard!|QID|31853|M|37.89,95.73|Z|Azshara|N|To General Nazgrim, who has relocated to the Hellscream's Fist.|
-
 A Into the Mists|QID|29690|PRE|31853|M|37.89,95.73|Z|Azshara|N|From General Nazgrim.|
 C Into the Mists|QID|29690|M|37.89,95.73|Z|Azshara|N|Speak to General Nazgrim and tell him "I'm ready to go, General". Then sit back, and watch the cinematic.|CHAT|
 T Into the Mists|QID|29690|M|30.77,10.22|N|To General Nazgrim.|
-
 A Paint it Red!|QID|31765|PRE|29690|M|30.77,10.22|N|From General Nazgrim.|
 C Paint it Red!|QID|31765|M|31.55,11.13|N|Head to the lower level deck, and click on a Gunship Turret. Use the "Full Autofire" action to kill the required troops and cannons.|
 T Paint it Red!|QID|31765|M|31.00,11.04|N|To Rivett Clutchpop.|
-
 A Touching Ground|QID|31766|PRE|31765|M|31.00,11.04|N|From Rivett Clutchpop.|
 C Touching Ground|QID|31766|M|31.55,11.13|N|Click on the Rappelling Rope (next to the Gunship Turrets).|NC|
 T Touching Ground|QID|31766|M|31.71,11.49|N|To General Nazgrim.|
-
 A Finish Them!|QID|31767|PRE|31766|M|31.71,11.49|N|From General Nazgrim.|
 A Fire Is Always the Answer|QID|31768|PRE|31766|M|31.71,11.49|N|From General Nazgrim.|
 C Finish Them!|QID|31767|S|M|33.03,8.07|N|Kill the Thunder Hold troops (Laborers do not count)|
@@ -184,7 +26,6 @@ C Fire Is Always the Answer|QID|31768|U|89605|M|33.78,6.53|NC|N|Use Nazgrim's Fl
 C Finish Them!|QID|31767|US|M|33.03,8.07|N|Finish killing the Thunder Hold troops (Laborers do not count)|
 T Finish Them!|QID|31767|M|33.67,10.61;34.79,10.61|CC|N|To General Nazgrim, who has moved into the Thunder Hold (run up the steps).|
 T Fire Is Always the Answer|QID|31768|M|34.79,10.61|N|To General Nazgrim.|
-
 A The Final Blow!|QID|31769|PRE|31767&31768|M|34.79,10.61|N|From General Nazgrim.|
 C The Final Blow!|QID|31769|U|89769|QO|1|M|34.01,9.84|NC|N|Head to the first barricade and use Nazgrim's Flage Gun to destroy it.|
 C The Final Blow!|QID|31769|U|89769|QO|2|M|34.65,9.8|NC|N|Head up the stairs to the second barricade and use Nazgrim's Flage Gun to destroy it.|
@@ -194,7 +35,6 @@ T The Final Blow!|QID|31769|M|33.67,10.56|N|To General Nazgrim. You will need to
 A You're Either With Us Or...|QID|31770|PRE|31769|M|33.67,10.56|N|From General Nazgrim. Again, you will need to wait a minute for the dialog to finish before he will offer the quest.|
 A Regroup!|QID|29694|PRE|31769|M|33.67,10.56|N|From General Nazgrim.|
 A Face to Face With Consequence|QID|31771|PRE|31769|M|33.67,10.56|N|From Taran Zhu.|
-
 C Face to Face With Consequence|QID|31771|M|34.32,10.60|N|Head out of the building, killing the Sha's, as you head to Honeydew Glade.|
 C Regroup!|QID|29694|M|31.95,13.21|CHAT|QO|1|N|Jump into the river, then head over to Honeydew Glade and speak to Shademaster Kiryn.|
 A Priorities!|QID|31978|PRE|31769|M|31.97,13.30|N|From Gi-Oh.|
@@ -216,7 +56,6 @@ A Seeking Zin'jun|QID|31774|PRE|29694&31771&31773|M|29.13,13.76|N|From Sergeant 
 T Priorities!|QID|31978|M|29.37,13.57|N|To Ellie Honeypaw.|
 h Honeydew Village|QID|31774|M|28.53,13.33|N|Talk to Brewmother Kiki if you want to make Pandaria you new home. This as a good place to set your hearthstone, as there is a portal to Orgrimar right outside the door.|
 f Honeydew Village|QID|31774|M|28.1,15.57|N|At Wing Hya.|
-
 T Seeking Zin'jun|QID|31774|M|31.17,17.52|N|To Zin'Jun.|
 A Cryin' My Eyes Out|QID|29765|PRE|31774|M|31.17,17.52|N|From Zin'Jun.|
 A Monstrosity|QID|29743|PRE|31774|M|30.90,17.49|N|From base of statue.|
@@ -232,7 +71,6 @@ A Assault on the Airstrip|QID|31775|PRE|29804|M|31.61,21.91|N|From General Nazgr
 A Strongarm Tactics|QID|31776|PRE|29804|M|31.61,21.91|N|From General Nazgrim.|
 A Unreliable Allies|QID|31778|PRE|29804|M|31.42,21.71|N|From Merchant Zin.|
 A Choppertunity|QID|31777|PRE|29804|M|31.15,21.56|N|From Rivett Clutchpop.|
-
 C Unreliable Allies|QID|31778|S|CHAT|M|29.63,23.15|
 C Choppertunity|S|QID|31777|U|89163|M|27.92,24.14|N|Pick up the sparkly Rocket Launchers, you will need at least 6, target choppers and use (they have a very long range.|T|Strongarm Gyrocopter|
 C Assault on the Airstrip|S|QID|31775|M|27.96,24.73|
@@ -254,7 +92,6 @@ C The Darkness Within|QID|31779|T|Captain Doren|M|27.38,25.14;26.13,24.89;25.84,
 T The Darkness Within|QID|31779|M|27.52,24.15|N|To the flagpole.|
 A Nazgrim's Command|QID|31999|PRE|31779|M|27.52,24.15|
 T Nazgrim's Command|QID|31999|M|28.41,24.91|N|To General Nazgrim.|
-
 A Forensic Science|QID|29815|PRE|31999|M|28.15,24.76|N|From Shademaster Kiryn.|
 A Missed Me By... That Much!|QID|29821|PRE|31999|M|28.13,24.71|N|From Rivett Clutchpop.|
 C Forensic Science|QID|29815|S|M|26.23,30.07|NC|
@@ -269,7 +106,6 @@ A Acid Rain|QID|29827|PRE|29815|M|28.21,24.91|N|From Shademaster Kiryn.|
 C Acid Rain|QID|29827|M|28.08,24.79|NC|N|Hop on the chopper, bombing mission.|
 T Acid Rain|QID|29827|M|28.20,24.86|N|To Shademaster Kiryn.|
 A Lay of the Land|QID|29822|PRE|29827&31112|M|28.42,24.93|N|From General Nazgrim.|
-
 C Lay of the Land|QID|29822|NC|QO|1|M|32.01,27.96|
 $ Lucky Pandaren Coin|QID|31401|NC|M|32.01,27.96|N|There is a coin in the fountain worth 95g, you may want to pick it up. (once per char).|
 K Dook Ookem|T|Dook Ookem|QID|29822|QO|3|M|27.75,30.35|
@@ -293,7 +129,6 @@ T Family Tree|QID|31167|M|28.86,32.60|N|To Lorewalker Cho.|
 A Swallowed Whole|QID|29879|PRE|31167|M|28.86,32.60|N|From Lorewalker Cho.|
 C Swallowed Whole|QID|29879|M|23.43,36.65|N|Click on the speckled trout to catch them.|
 $ Pandaren Ritual Stone|QID|31404|NC|M|23.49,35|N|Pick it up, its worth 105g and more xp than a quest.|
-
 T Swallowed Whole|QID|29879|M|26.26,37.33|N|To Tooki Tooki.|
 A Orders are Orders|QID|29935|PRE|29879|M|26.26,37.33|N|From Tooki Tooki.|
 A The Bees' Knees|QID|29933|PRE|29879|M|25.91,38.01|N|From Bo Bo.|
@@ -365,7 +200,6 @@ C Boom Goes the Doonamite!|QID|29967|M|28.91,49.18|CHAT|N|Talk to Rivett, then t
 T Boom Goes the Doonamite!|QID|29967|M|28.99,49.11|N|To Rivett Clutchpop.|
 T Burning Down the House|QID|29966|M|28.62,47.51|N|To General Nazgrim.|
 A Dawn's Blossom|QID|30015|PRE|29967|M|28.65,47.55|N|From General Nazgrim.|
-
 F Dawn's Blossom|QID|30015|M|27.83,47.94|N|At Grookin Flapmaster, use the chat option.|
 f Dawn's Blossom|QID|30015|M|47.64,46.24|N|From Keg Runner Lee.|
 T Dawn's Blossom|QID|30015|M|46.82,46.17|N|To Lorewalker Cho.|
@@ -397,7 +231,6 @@ A Find the Boy|QID|29993|PRE|29866|M|47.07,46.08|N|From Kai Wanderbrew.|
 A All We Can Spare|QID|29925|PRE|29723|M|47.20,46.13|N|From Toya.|
 A An Air of Worry|QID|29576|LEAD|29578|M|48.36,46.05|N|From Old Man Misteyes.|
 A Tian Monastery|QID|29617|LEAD|29618|M|49.63,45.80|N|From Apprentice Yufi.|
-
 R The Arboretum|QID|29993|M|54.93,45.28|N|The path is just down the stairs you passed to get the last quest.|
 A The Perfect Color|QID|29881|M|54.93,45.28|N|From Inkmaster Glenzu.|
 T Find the Boy|QID|29993|M|54.92,44.83|N|To Inkmaster Wei.|
@@ -409,7 +242,6 @@ C The Perfect Color|QID|29881|NC|M|53.48,44.38|
 C Quill of Stingers|QID|29882|M|53.65,43.99|US|N|Kill Orchard Wasps for their Stingers.|
 T The Perfect Color|QID|29881|M|54.91,45.35|N|To Inkmaster Glenzu.|
 T Quill of Stingers|QID|29882|M|55.28,45.20|N|To Inkmaster Jo Po.|
-
 R Shrine of the Dawn|QID|29995|M|52.63,38.08|
 T Shrine of the Dawn|QID|29995|M|52.63,38.08|N|To Syra Goldendraft.|
 A Getting Permission|QID|29920|PRE|29995|M|52.63,38.08|N|From Syra Goldendraft.|
@@ -417,7 +249,6 @@ K Defeat Pandriarch Bramblestaff|QID|29920|T|Pandriarch Bramblestaff|QO|2|M|54.1
 K Defeat Pandriarch Goldendraft|QID|29920|T|Defeat Pandriarch|QO|3|M|53.6,36.8|; Shrine of the Dawn
 K Defeat Pandriarch Windfur|QID|29920|T|Pandriarch Windfur|QO|1|M|52.6,35.6|; Shrine of the Dawn
 T Getting Permission|QID|29920|M|52.61,38.13|N|To Lo Wanderbrew.|
-
 R Emperor's Omen|QID|29925|M|50.92,27.03|
 T All We Can Spare|QID|29925|M|50.92,27.03|N|To Lorewalker Cho.|
 f Emperor's Omen|QID|29928|M|50.84,26.86|N|At Supplier Towsa.|
@@ -433,7 +264,6 @@ C Calamity Jade|QID|29926|M|44.48,30.29|S|
 C Trapped!|QID|29929|NC|M|43.87,30.49|
 C Calamity Jade|QID|29926|M|44.48,30.29|US|
 $ Ancient Pandaren Mining Pick|QID|31399|N|It can be anywhere in the mine or not at all. Click this off when not found.|CN|RANK|3|US|
-
 T Trapped!|QID|29929|M|46.30,29.35|N|To Hao Mann.|
 A What's Mined Is Yours|QID|29930|PRE|29929|M|46.30,29.35|N|From Hao Mann.|
 C What's Mined Is Yours|QID|29930|M|46.3,29.35|N|Hop in Hao's cart, spiders will chase you, you can fight them with your normal skills/abilities while in the cart.|
@@ -486,7 +316,6 @@ T To Bridge Earth and Sky|QID|29754|M|43.74,12.70|N|To UI Alert.|
 A Pei-Back|QID|29755|PRE|29754|M|43.74,12.70|N|From UI Alert.|
 C Pei-Back|QID|29755|M|42.52,10.99|N|Two Phase fight. First kill Stonebound Colossus, to make Shan Jitong targetable. When you get seperated from your body, you need to run back and click on it to rejoin it, then try to inturupt the Colossus healing. Second phase, run to Shan Jitong and kill him.|
 T Pei-Back|QID|29755|M|43.81,12.47|N|To Pei-Zhi.|
-
 R Tian Monastery|QID|29617|M|38.17,24.17|N|Run counter-clockwise around the mountain to the waypoint.|
 f Banquet Grounds|QID|29617|M|43.52,24.55|N|Get the flightpoint at Studious Chu.|
 T Tian Monastery|QID|29617|M|45.0,25.0|N|To Lin Tenderpaw|
@@ -506,7 +335,6 @@ T Becoming Battle-Ready|QID|29632|M|43.27,24.75|N|To Master Stone Fist.|
 A Zhi-Zhi, the Dextrous|QID|29633|PRE|29632|M|43.27,24.75|N|From Master Stone Fist.|
 A Husshun, the Wizened|QID|29634|PRE|29632|M|43.27,24.75|N|From Master Stone Fist.|
 C Zhi-Zhi, the Dextrous|QID|29633|T|Zhi-Zhi|CHAT|M|43.03,25.96|N|On top of the hill. Chat with him to challenge him to a match.|
-
 T Groundskeeper Wu|QID|29626|M|41.59,23.66|N|To Groundskeeper Wu.|
 A A Proper Weapon|QID|29627|PRE|29626|M|41.59,23.66|N|From Groundskeeper Wu.|
 C A Proper Weapon|QID|29627|QO|1|NC|S|N|Sparklies scattered around.|
@@ -529,7 +357,6 @@ C Bring the cauldron to Groundskeeper Wu|QID|29628|QO|2|NC|M|41.59,23.66|N|Do no
 T A Strong Back|QID|29628|M|41.59,23.66|N|To Groundskeeper Wu.|
 T A Steady Hand|QID|29629|M|41.59,23.66|N|To Groundskeeper Wu.|
 T And a Heavy Fist|QID|29630|M|41.59,23.66|N|To Groundskeeper Wu.|
-
 T Your Training Starts Now|QID|29622|M|41.59,28.35|N|To Instructor Xann.|
 A Perfection|QID|29623|PRE|29622|M|41.59,28.35|N|From Instructor Xann.|
 C Perfection|QID|29623|M|41.34,27.52|N|You copy the instructor, when he punches one fist forward, press "1", Both arms forward is "2" and both arms back is "3".|
@@ -537,7 +364,6 @@ T Perfection|QID|29623|M|41.59,28.35|N|To Instructor Xann.|
 A Attention|QID|29624|PRE|29623|M|41.59,28.35|N|From Instructor Xann.|
 C Attention|QID|29624|M|41.11,26.98|N|Attack the right or left bag based on the yellow text in the middle of your screen.|
 T Attention|QID|29624|M|41.59,28.35|N|To Instructor Xann.|
-
 C Husshun, the Wizened|QID|29634|CHAT|M|44.54,24.08|T|Husshun|N|Chat with him to challenge him to a match.|
 T Zhi-Zhi, the Dextrous|QID|29633|M|43.27,24.75|N|To Master Stone Fist.|
 T Husshun, the Wizened|QID|29634|M|43.27,24.75|N|To Master Stone Fist.|
@@ -545,14 +371,12 @@ A Xiao, the Eater|QID|29635|PRE|29633&29634|M|43.27,24.75|N|From Master Stone Fi
 C Xiao, the Eater|QID|29635|CHAT|T|Xiao|M|43.12, 23.64|N|Chat with him to challenge him to a match.|
 T Xiao, the Eater|QID|29635|M|43.27,24.75|N|To Master Stone Fist.|
 A A Test of Endurance|QID|29636|PRE|29635|M|43.27,24.75|N|From Master Stone Fist.|
-
 T A Test of Endurance|QID|29636|M|38.99,24.06|N|To Instructor Myang.|
 A The Rumpus|QID|29637|PRE|29636|M|38.99,24.06|N|From Instructor Myang.|
 C The Rumpus|QID|29637|M|38.98,23.23|N|Set off your fireworks to signal that you are ready to begin and then stay alive for 2 minutes.|U|73369|
 T The Rumpus|QID|29637|M|38.99,24.06|N|To Instructor Myang.|
 A Flying Colors|QID|29647|PRE|29624&29628&29629&29630&29637|M|43.27,24.75|N|From Instructor Myang.|
 T Flying Colors|QID|29647|M|42.71,23.23|N|To High Elder Cloudfall.|
-
 F Dawn's Blossom|QID|29931|M|43.52,24.55|N|At Studious Chu.(or you can just ride straight to Nectarbreeze)|
 R Nectarbreeze Orchard|QID|29931|CC|M|46.67,46.76;45.83,50.25;46.72,55.25;41.52,61.13;43.37,72.76;43.54,75.91|N|The green dots will take you via roads, which is probably safer, but certainly slower than running cross-country.|
 T An Air of Worry |QID|29576|N|To Shao the Defiant|M|43.5,75.9|
@@ -572,7 +396,6 @@ T Defiance|QID|29578|M|43.48,75.96|N|To Shao the Defiant.|
 T Spitfire|QID|29585|M|43.27,75.97|N|To Gentle Mother Hanae.|
 T Orchard-Supplied Hardware|QID|29580|M|43.27,75.97|N|To Gentle Mother Hanae.|
 A The Splintered Path|QID|29586|PRE|29578&29579&29580&29585|M|43.27,75.97|N|From Traumatized Nectarbreeze Farmer.|
-
 C The Splintered Path|QID|29586|NC|M|40.71,73.87|N|There is an ambush along the way, you can outrun it if you choose.|
 T The Splintered Path|QID|29586|M|40.96,73.97|N|To Shao the Defiant.|
 A Unbound|QID|29587|PRE|29586|M|40.96,73.97|N|From Shao the Defiant.|
@@ -582,7 +405,6 @@ K Subjugator Gormal|QID|29670|T|Subjugator Gormal|QO|1|M|37.84,75.76|
 C Unbound|QID|29587|NC|US|M|39.76,75.57|N|Click on the nets to free the farmers.|
 T Unbound|QID|29587|M|41.02,73.97|N|To Shao the Defiant.|
 T Maul Gormal|QID|29670|M|41.02,73.97|N|To Shao the Defiant.|
-
 $ Ancient Jinku Staff|QID|31402|M|44.9,64.6;46.2,71.2|N|Anywhere the river between thye waypoints. Click this off if it's not there.|RANK|3|CN|
 R Serpent's Heart|QID|29931|M|42.94,60.12|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart.|
 T The Serpent's Heart|QID|29931|M|48.26,61.31|N|To Foreman Raike.|
@@ -594,7 +416,6 @@ C Delivery to Historian Dinh |QID|30495|CHAT|QO|1|M|46.4,61.8|
 T Love's Labor|QID|30495|M|48.31,61.30|N|To Foreman Raike.|
 A The Temple of the Jade Serpent|QID|29932|PRE|30495|M|48.31,61.30|N|From Foreman Raike.|
 F Jade Temple Grounds|QID|29932|M|48.2,60.0|N|Take the kite ride from kitehmaster Shoku.|
-
 C The Temple of the Jade Serpent|QID|29932|CHAT|M|55.83,57.05|N|Chat with Elder Sage Wind-Yi for transport into the temple grounds. (NOT THE INSTANCE PORTAL)|
 T The Temple of the Jade Serpent|QID|29932|M|58.13,58.65|N|To Elder Sage Rain-Zhu.|
 A The Scryer's Dilemma|QID|29997|PRE|29932|M|58.13,58.65|N|From Elder Sage Rain-Zhu.|
@@ -627,7 +448,6 @@ T The Rider's Bind|QID|29999|M|58.05,59.02|N|To Fei.|
 A The Jade Serpent|QID|30000|PRE|29999&30004&30005&30011|M|58.05,59.02|N|From Fei.|
 C The Jade Serpent|QID|30000|M|53.49,58.02|N|Cutscene and a cloadserpant ride.|
 T The Jade Serpent|QID|30000|M|55.83,57.05|N|To Elder Sage Wind-Yi.|
-
 A Get Back Here!|QID|30499|PRE|30000|M|55.83,57.05|N|From Elder Sage Wind-Yi.|
 f Jade Temple Grounds|QID|30499|M|54.60,61.75|N|At Ginsa Arroweye.|
 F Grookin Hill|QID|30499|M|56.6,6.75|N|Take the free option from the kitemaster.|
@@ -645,13 +465,11 @@ T Sufficient Motivation|QID|30466|M|28.07,47.15|N|To General Nazgrim.|
 T Gauging Our Progress|QID|30484|M|28.07,47.15|N|To General Nazgrim.|
 A Last Piece of the Puzzle|QID|30485|PRE|30466&30484|M|28.21,46.68|N|From Lorewalker Cho.|
 C Last Piece of the Puzzle|QID|30485|M|28.19,46.71;44.53,66.99|N|Talk to Mishi for a ride. *this step will not autocomplete until you finish the next step*|CN|U|80071|
-
 C Last Piece of the Puzzle|QID|30485|U|80071|M|44.51,66.97|
 f Serpent's Overlook|QID|31303|M|43.13,68.48|N|At Sky Dancer Ji. optional, but you will not be able to get back up here until lvl 90 if you don't (admittedly, you don't need to get up here again.)|
 T Last Piece of the Puzzle|QID|30485|M|44.74,67.09|N|To Lorewalker Cho.|
 A The Seal is Broken|QID|31303|PRE|30485^31362|M|44.74,67.09|N|From Lorewalker Cho.|
 C The Seal is Broken|QID|31303|CHAT|M|47.73,58.29|N|Talk to Mishi to start the "bombing run".|
-
 T The Seal is Broken|QID|31303|M|49.27,61.39|N|To Lorewalker Cho.|
 A Residual Fallout|QID|30500|PRE|31303|M|49.27,61.39|N|From Lorewalker Cho.|
 A Jaded Heart|QID|30502|PRE|31303|M|49.27,61.39|N|From Lorewalker Cho.|
@@ -672,7 +490,4 @@ C Moving On|QID|30648|CHAT|M|49.31,61.35|N|Talk to Fei.|
 T Moving On|QID|30648|N|To UI Alert (after the ride into the Valley).|
 D Congratulations|N|You finished The Jade Forest. Next zone is Valley of the Four Winds, the guide should load when you check off this step.|
 ]]
-
 end)
-
-

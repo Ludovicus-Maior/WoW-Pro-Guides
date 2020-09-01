@@ -1,142 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_krasarang_wilds_horde
--- Date: 2018-10-17 02:28
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3489/revisions/29214/view
--- Date: 2018-03-06 01:24
--- Who: Ludovicus_EditBot
--- Log: Level strip
-
--- URL: http://wow-pro.com/node/3489/revisions/29118/view
--- Date: 2018-02-22 23:33
--- Who: Ludovicus_EditBot
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3489/revisions/28941/view
--- Date: 2018-01-17 00:35
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3489/revisions/28455/view
--- Date: 2017-03-16 17:05
--- Who: Ludovicus_Maior
--- Log: Added PREs
-
--- URL: http://wow-pro.com/node/3489/revisions/26435/view
--- Date: 2014-06-02 14:11
--- Who: Ludovicus_Maior
--- Log: Set Levels
-
--- URL: http://wow-pro.com/node/3489/revisions/26304/view
--- Date: 2014-05-26 01:24
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3489/revisions/26112/view
--- Date: 2014-05-18 22:45
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3489/revisions/25998/view
--- Date: 2014-05-16 20:26
--- Who: Ludovicus_Maior
--- Log: Register Update
-
--- URL: http://wow-pro.com/node/3489/revisions/25823/view
--- Date: 2013-11-27 21:00
--- Who: Ludovicus_Maior
--- Log: Added missing CN tag
-
--- URL: http://wow-pro.com/node/3489/revisions/25819/view
--- Date: 2013-11-27 17:22
--- Who: Ludovicus_Maior
--- Log: Added the missing end) and got rid of the extra Change Log section.
-
--- URL: http://wow-pro.com/node/3489/revisions/25812/view
--- Date: 2013-11-21 03:42
--- Who: Emmaleah
--- Log: removed coord from F Zhu's watch.  We don't particularly care where you are flying from afterall.
-
--- URL: http://wow-pro.com/node/3489/revisions/25808/view
--- Date: 2013-11-21 00:10
--- Who: Emmaleah
--- Log: I lost my internet connection, so most of my edits vanished,  and the last save only had the last few.  Hopefully I redid them all correctly.
-
--- URL: http://wow-pro.com/node/3489/revisions/25807/view
--- Date: 2013-11-20 23:21
--- Who: Emmaleah
--- Log: Added |CHAT| tags, corrected a few typos, clarified some instructions (|N|)
-
--- URL: http://wow-pro.com/node/3489/revisions/25762/view
--- Date: 2013-09-17 14:18
--- Who: Fluclo
--- Log: Fix QID on initial step, and added Level step at beginning of guide.
-
--- URL: http://wow-pro.com/node/3489/revisions/25732/view
--- Date: 2013-06-24 18:47
--- Who: Twists
--- Log: Update coordinates
-
--- URL: http://wow-pro.com/node/3489/revisions/25731/view
--- Date: 2013-06-24 18:46
--- Who: Twists
--- Log: Fixed { in mapping and || for a QID
-
--- URL: http://wow-pro.com/node/3489/revisions/25709/view
--- Date: 2013-06-18 00:40
--- Who: Ludovicus_Maior
--- Log: Bad X coordinate S, 1/1 in guide EmmKra8788, line [C Materia Medica].
---	Bad X coordinate US, 1/1 in guide EmmKra8788, line [C Materia Medica].
-
--- URL: http://wow-pro.com/node/3489/revisions/25465/view
--- Date: 2013-01-13 19:10
--- Who: Ludovicus_Maior
--- Log: Added C* tags
-
--- URL: http://wow-pro.com/node/3489/revisions/25313/view
--- Date: 2013-01-09 22:41
--- Who: Ludovicus_Maior
--- Log: Added CS and CN tag
-
--- URL: http://wow-pro.com/node/3489/revisions/25199/view
--- Date: 2012-11-11 00:44
--- Who: Emmaleah
--- Log: missed a missing |
-
--- URL: http://wow-pro.com/node/3489/revisions/25198/view
--- Date: 2012-11-11 00:33
--- Who: Emmaleah
--- Log: Emmaleah 10 Nov 2012 - Added "one time" treasure items.
-
--- URL: http://wow-pro.com/node/3489/revisions/25123/view
--- Date: 2012-10-07 23:14
--- Who: Ludovicus_Maior
--- Log: Merged https://github.com/Emmaleah/WoW-Pro-Guides/blob/master/WoWPro_Leveling/Horde/87_88_Emmaleah_KrasarangWilds.lua and tweaks by Ludo
-
--- URL: http://wow-pro.com/node/3489/revisions/25056/view
--- Date: 2012-08-28 19:16
--- Who: Ludovicus_Maior
--- Log: Correct URLS
-
--- URL: http://wow-pro.com/node/3489/revisions/25055/view
--- Date: 2012-08-28 19:14
--- Who: Ludovicus_Maior
--- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07.
-
 local guide = WoWPro:RegisterGuide('EmmKra8788', "Leveling", 'Krasarang Wilds', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,86,87,86.0091)
-WoWPro:NewGuideLevels(guide,81,90)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'EmmKun8889')
-WoWPro:GuideIcon(guide,"ACH",6975)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 F Zhu's Watch|QID|30079|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
 T Ken-Ken|QID|29873|M|76.23,7.13|N|To Ken-Ken. This was accepted from Xiao at the beginning of Valley of the 4 Winds.|
 A What's Eating Zhu's Watch?|QID|30079|M|76.24,7.13|N|From Ken-Ken.|
@@ -181,7 +47,6 @@ A Zhu's Despair|QID|30090|PRE|30089|M|76.24,7.10|N|From Ken-Ken.|
 C Zhu's Despair|QID|30090|U|79057|M|76.43,8.76|N|After you kill the little sha's, then you use the mask on Yi-Mo, who is standing by the well.|
 T Zhu's Despair|QID|30090|M|76.23,7.10|N|To Ken-Ken.|
 A Into the Wilds|QID|30133|PRE|30090|M|75.85,7.59|N|From Mei Barrelbottom.|
-
 A Poisoned!|QID|30179|M|68.81,22.27|N|From Chezin Dawnchaser.|
 C Poisoned!|QID|30179|M|67.62,21.08|N|The blades are a random drop from the mogu in the area.|
 A Crane Mastery|QID|30352|M|67.60,25.77|N|From Daggle Bombstrider.|
@@ -247,7 +112,6 @@ T The Murksweats|QID|30268|M|40.44,34.58|N|To Anduin Wrynn.|
 A Sha Can Awe|QID|30271|PRE|30268&30270&30694|M|40.67,33.88|N|From Anduin Wrynn.|
 A Ahead on the Way|QID|30695|PRE|30268&30270&30694|M|40.68,33.68|N|From Koro Mistwalker.|
 A Striking the Rain|QID|30272|PRE|30268&30270&30694|M|40.68,33.68|N|From Koro Mistwalker.|
-
 C Striking the Rain|QID|30272|S|M|40,45|N|Kill them near the Hopeless Monks to get credit for Sha Can Awe also.|;something I can't figure out, the sticky shading is staying for the next several steps, reset didn't change anything, reloadUI made the shading "stay where it belonged", but the vertical spacing remained off until I logged off upon arriving at Marista.
 C Sha Can Awe|QID|30271|S|M|40,45|N|Kill Haunts and Incarnations of Despair near the Hopeless Monks to inspire them.|
 C West Pagoda Cleansed|QID|30695|QO|1|M|37.82,54.26|N|When ever you kill a sha, Anduin will heal you, so if you need heals, be sure and take out the adds, they are low hp's.|; West Pagoda Cleansed: 1/1
@@ -260,7 +124,6 @@ T Sha Can Awe|QID|30271|M|38.01,50.89|N|To Anduin Wrynn.|
 A In the House of the Red Crane|QID|30273|PRE|30271&30272&30695|M|38.01,50.89|N|From Anduin Wrynn.|
 C In the House of the Red Crane|QID|30273|M|40.46,54.65|CHAT|N|Go up the center stairs then run straight back to the other stairs down into the basement. Talk to Chi-Ji to start the fight. He will float up and a large sha will appear, defeat it and you win. When the adds show up, you probably want to focus on them, since deaths cause Anduin to heal you.|
 T In the House of the Red Crane|QID|30273|M|40.05,48.98|N|To Chi-Ji (back outside).|
-
 R Marista|QID|30667|M|51.7,75.34|
 A Particular Plumage|QID|30667|M|51.70,75.34|N|From Tony Tuna.|
 l Stack of Papers|QID|31863|L|87798|M|52.16,73.42|N|Another of those grey items, this one doesn't sell for as much, but its free gold and XP, the path up is on the back side of the island.|
@@ -286,7 +149,6 @@ T Misery|QID|30691|M|46.27,83.42|N|To UI Alert.|
 C Wisdom Has A Price|QID|30671|US|M|46.54,77.47|N|Random drop from the sharks.|
 T Wisdom Has A Price|QID|30671|M|46.01,78.96|N|To Wise Ana Wu.|
 A Balance|QID|30672|PRE|30671|M|46.01,78.96|N|From Wise Ana Wu. You don't have to stay and watch her story.|
-
 R Unga Ingoo|QID|30674|M|45.31,85.17|N|Keep jumping on your raft. In this area are two of the blue items for lost and found achievement.  East of Unga Ingoo (at the top of the hill) there may be a barrel that contains the Recipe - Bannana infused Run, and west of Unga Ingoo is a pirate ship, that may contain an Equipment Locker (in the lowest level hold) with a pair of spec specific ilvl 419 boots.|
 K Unga Fish Getter|L|80827|M|45.31,85.17|N|Be sure and loot these at least until you get the item to start the quest.|
 A Buried Hozen Treasure|O|QID|30675|U|80827|M|43.81,85.41|N|From Confusing Treasure Map - looted off of an Unga.|
@@ -301,10 +163,8 @@ C Buried Hozen Treasure|QID|30675|US|M|51.10,85.27|N|Click on the piles of sand 
 T Buried Hozen Treasure|QID|30675|M|51.10,85.27|N|To UI Alert.|
 R Marista|QID|30672|M|51.55,76.83|N|Keep jumpin'.|
 T Balance|QID|30672|M|51.55,76.83|N|To Jay Cloudfall.|
-
 R Explore|QID|99999|N|If you want, explore the islands while you are out here and have the raft. It has a 1 hour duration.|
 f Cradle of Chi-Ji|QID|30675|M|31.19,63.25|N|At Feather Keeper Li.|
-
 R Fallsong Village|M|29.66,39.0|QID|30168|N|You can take the raft up the river to avoid combat. (portage around the waterfall).|
 A Thieving Raiders|QID|30168|M|29.66,39.00|N|From Tired Shushen.|
 A Raid Leader Slovan|QID|30169|M|29.66,39.00|N|From Tired Shushen.|
@@ -313,7 +173,6 @@ K Raid Leader Slovan|T|Slovan|QID|30169|QO|1|M|31.87,29.01|Z|Valley of the Four 
 K Riverbank Flesh-Hunter|QID|30168|US|L|78958 5|M|29.55,45.17|Z|Valley of the Four Winds|
 T Thieving Raiders|QID|30168|M|29.65,38.99|N|To Tired Shushen.|
 T Raid Leader Slovan|QID|30169|M|29.65,38.99|N|To Tired Shushen.|
-
 R Dawnchaser Retreat|QID|30169|M|28.92,50.38|
 f Dawnchaser Retreat|QID|30169|M|28.92,50.38|N|At Munch Windhoof.|
 T Going West|QID|30132|M|28.72,50.86|N|To Kor Bloodtusk.|
@@ -329,7 +188,6 @@ T Re-Reclaim|QID|30230|M|28.80,50.42|N|To Kang Bramblestaff.|
 T For the Tribe|QID|30163|M|28.70,50.89|N|To Kor Bloodtusk.|
 T The Greater Danger|QID|30229|M|28.72,50.86|N|To Kor Bloodtusk.|
 A The Mantid|QID|30175|PRE|30163&30229&30230|M|29.03,51.16|N|From Ambassador Han.|
-
 C The Mantid|QID|30175|S|M|13.58,36.40|
 A The Stoneplow Convoy|QID|30164|PRE|30230|M|15.95,39.84|N|From Sunwalker Dezco.|
 C The Stoneplow Convoy|QID|30164|NC|U|79163|M|15.38,35.55|N|Use the poultices to heal the envoys.|
@@ -340,7 +198,6 @@ A For Family|QID|30174|PRE|30164&30175|M|15.92,39.80|N|From Sunwalker Dezco.|
 K Kill Groundbreaker Brojai|QID|30174|T|Groundbreaker Brojai|QO|1|M|23.35,48.80|N|Talk to Kor to start a scripted vignette where Kor must act like a typical orc and Dezco makes peace.|; Groundbreaker Brojai slain: 1/1
 T For Family|QID|30174|M|28.92,50.75|N|To Sunwalker Dezco.|
 A Warn Stoneplow|QID|30241|PRE|29990&30117&30273&30174|M|28.92,50.75|N|From Sunwalker Dezco.|
-
 F Stoneplow|QID|30241|M|28.92,50.38|N|At Munch Windhoof.|
 T Warn Stoneplow|QID|30241|M|19.53,56.95|Z|Valley of the Four Winds|N|To Loon Mai.|
 A The Mantidote|QID|30623|PRE|30241^30360^30376|M|17.97,56.34|Z|Valley of the Four Winds|N|From Mei Barrelbottom.|
@@ -370,7 +227,4 @@ T The Gratitude of Stoneplow|QID|30628|NC|M|19.86,55.86|Z|Valley of the Four Win
 F Grassy Cline|QID|31255|M|20.31, 58.62|Z|Valley of the Four Winds|N|At Dragonwing Dan.|
 N Congratulations|QID|31255|N|You have finished Krasarang Wilds. Next zone is Kun-Lai Summit.|
 ]]
-
 end)
-
-
