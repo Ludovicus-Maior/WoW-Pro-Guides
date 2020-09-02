@@ -326,7 +326,7 @@ A Owatanka|QID|884|U|5102|N|Right-click on Owatanka's Tailspike to accept the qu
 A Lakota'mani|QID|883|U|5099|N|Right-click on Hoof of Lakota'mani to accept the quest.|O|
 A The Harvester|QID|897|U|5138|N|Right-click on Harvester's Head to accept the quest.|O|
 A Washte Pawne|QID|885|U|5103|N|Right-click on Washte Pawne's Feather to accept the quest.|O|
-; --- 
+; --- Babs, where do eggs come from?
 C Egg Hunt|QID|868|L|5058 12|N|Collect Silithid Eggs from the Silithid Mounds found on both sides of the road in Field of Giants.|
 N The Harvester|AVAILABLE|897|N|Have a quick look around and see if you can locate this mob. This is one of Jorn Skyseer's rare quest kills and probably the hardest to find.\nManually check this step off once you've killed it or given up waiting.|
 A Gann's Reclamation|QID|843|M|46.11,81.23|Z|The Barrens|N|From Gann Stonespire. You may find him sooner walking along on Southern Gold Road. This is the furthest south he travels.|
