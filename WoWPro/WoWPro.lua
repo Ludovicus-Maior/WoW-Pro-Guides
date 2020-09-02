@@ -467,6 +467,22 @@ function WoWPro:OnEnable()
 
     WoWPro.EventFrame:SetScript("OnEvent",WoWPro.EventHandler)
 
+    -- Set up the Nickname -> Guide map.
+    WoWPro.Nickname2Guide = {}
+    for guidID,guide in pairs(WoWPro.Guides) do
+        local nickname = guide['nickname']
+        if nickname then
+            WoWPro.Nickname2Guide[nickname] = guidID
+        elseif guide.guidetype == 'Leveling' then
+            if WoWPro.Nickname2Guide[guide.zone] then
+                -- Collision, mark
+                WoWPro.Nickname2Guide[guide.zone] = true
+            else
+                WoWPro.Nickname2Guide[guide.zone] = guidID
+            end
+        end
+    end
+
     -- WoWPro:MapPoint()               -- Maps the active step
     -- If the base addon was disabled by the user, put it to sleep now.
     if not WoWProCharDB.Enabled then
@@ -625,12 +641,20 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
     if not WoWPro[gtype] then
         WoWPro:Error("WoWPro:RegisterGuide(%s,%s,...) has bad gtype",GIDvalue,tostring(gtype))
     end
+    -- Check for funky zones line 'Shadowglen (NightElf)'
+    local trueZone = zonename:match("([^%(]+)"):trim()
+    local name = nil
+    if trueZone ~= zonename then
+        name = zonename -- the zonename is really the guide name
+        zonename = trueZone -- the real zone name is the unparenthesized portion
+    end
 
     local guide = {
         guidetype = gtype,
         zone = zonename,
         author = authorname,
         faction = faction,
+        name = name,
         GID = GIDvalue
     }
 
@@ -656,6 +680,10 @@ end
 function WoWPro:UnRegisterGuide(guide,why)
     WoWPro:dbp(why,guide.GID)
     WoWPro.Guides[guide.GID] = nil
+end
+
+function WoWPro:GuideNickname(guide, nickname)
+    guide['nickname'] = nickname
 end
 
 function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
