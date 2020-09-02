@@ -407,7 +407,7 @@ function WoWPro:LoadGuide(guideID)
         return
     end
     if guideID then
-        WoWProDB.char.currentguide = guideID
+        WoWProDB.char.currentguide = WoWPro:GuideFormalName(guideID)
     end
     WoWPro.GuideLoaded = false
     WoWPro.current_strategy = nil
@@ -535,6 +535,19 @@ function WoWPro.LoadGuideReal()
     WoWPro:LoadGuideSteps()
 end
 
+function WoWPro:GuideFormalName(GID)
+    if WoWPro.Guides[GID] then
+        -- GID is a proper guide ID
+         WoWPro:dbp("WoWPro:GuideFormalName(%s):  GID", GID)
+        return GID
+    end
+    if type(WoWPro.Nickname2Guide[GID]) == 'string' then
+        -- GID is a nickname
+        WoWPro:dbp("WoWPro:GuideFormalName(%s):  Nickname %s ", GID, WoWPro.Nickname2Guide[GID])
+        return WoWPro.Nickname2Guide[GID]
+    end
+end
+
 function WoWPro:NextGuide(GID)
     local myUFG = _G.UnitFactionGroup("player")
     local nextGID = WoWPro.Guides[GID].nextGID
@@ -563,16 +576,8 @@ function WoWPro:NextGuide(GID)
         end
     end
 
-    if WoWPro.Guides[nextGID] then
-        -- nextGID is a proper guide ID
-         WoWPro:dbp("WoWPro:NextGuide(%s):  GID %s", GID, nextGID)
-        return nextGID
-    end
-    if type(WoWPro.Nickname2Guide[nextGID]) == 'string' then
-        -- nextGID is a nickname
-        WoWPro:dbp("WoWPro:NextGuide(%s):  Nickname %s => %s", GID, nextGID, WoWPro.Nickname2Guide[nextGID])
-        return WoWPro.Nickname2Guide[nextGID]
-    end
+    return WoWPro:GuideFormalName(nextGID)
+
 end
 
 
