@@ -432,6 +432,12 @@ function WoWPro:CreateMainFrame()
             WoWPro:dbp("Clicking FauxTargetButton")
         end
     end)
+    WoWPro.FauxJumpButton = _G.CreateFrame("Frame", "WoWPro_FauxJumpButton", _G.UIParent)
+    WoWPro.FauxJumpButton:SetScript("OnMouseUp", function(this, button)
+        if button == "LeftButton" then
+            WoWPro:dbp("Clicking FauxJumpButton")
+        end
+    end
 end
 
 -- Resize Button --
