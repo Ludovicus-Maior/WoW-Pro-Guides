@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('CagER0110', "Leveling", "Exile's Reach!Instance", 'Cagomei', 'Alliance')
-WoWPro:GuideLevels(guide,1,10,1)
+WoWPro:GuideLevels(guide,1,10)
 WoWPro:GuideNextGuide(guide, 'BurnTedrazilSTrek')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Nightelf_Male","Interface\\Icons\\Achievement_Character_Nightelf_Female"))
 WoWPro:GuideSteps(guide, function()
