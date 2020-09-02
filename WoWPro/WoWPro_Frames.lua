@@ -432,6 +432,12 @@ function WoWPro:CreateMainFrame()
             WoWPro:dbp("Clicking FauxTargetButton")
         end
     end)
+    WoWPro.FauxJumpButton = _G.CreateFrame("Frame", "WoWPro_FauxJumpButton", _G.UIParent)
+    WoWPro.FauxJumpButton:SetScript("OnMouseUp", function(this, button)
+        if button == "LeftButton" then
+            WoWPro:dbp("Clicking FauxJumpButton")
+        end
+    end)
 end
 
 -- Resize Button --
@@ -605,6 +611,7 @@ function WoWPro:CreateRows()
         row.itembutton, row.itemicon, row.cooldown = WoWPro:CreateItemButton(row, i)
         row.targetbutton, row.targeticon = WoWPro:CreateTargetButton(row, i)
         row.lootsbutton, row.lootsicon = WoWPro:CreateLootsButton(row, i)
+        row.jumpbutton, row.jumpicon = WoWPro:CreateJumpButton(row, i)
 
         local highlight = row:CreateTexture()
         highlight:SetTexture("Interface\\HelpFrame\\HelpFrameButton-Highlight")
