@@ -1001,7 +1001,7 @@ function WoWPro:RowUpdate(offset)
             currentRow.lootsbutton:Show()
             currentRow.note:SetText(note)
         else currentRow.lootsbutton:Hide() end
-        
+ 
 		--Guide Jump Button
 		if WoWPro.jump[k] then
 			local newguide = WoWPro.jump[k]
