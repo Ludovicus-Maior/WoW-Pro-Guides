@@ -1,4 +1,5 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Script file="INTRO_Exiles_Reach.lua"/>
   <Script file="01_05_Gylin_Dwarf_Starter.lua"/>
   <Script file="01_05_Gylin_Gnome_Starter.lua"/>
   <Script file="01_05_Kurich_Northsire.lua"/>
