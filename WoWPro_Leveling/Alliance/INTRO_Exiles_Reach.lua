@@ -79,7 +79,7 @@ A Who Lurks in the Pit|QID|55639|M|51.15,59.46|N|From Alaria.|
 C Trapped Expedition Member rescued from cocoons|QID|55639|QO|1|M|51.20,59.51|N||
 C Defeat Hrun to rescue Ralia Dreamchaser|QID|55639|QO|2|M|48.65,59.74|N||
 C Ride Ralia Dreamchaser to escape|QID|55639|QO|3|M|48.65,59.74|N||
-T Who Lurks in the Pit|QID|55639|M|52.34,55.29|N|Turn into Captain Garrick.| 
+T Who Lurks in the Pit|QID|55639|M|52.34,55.29|N|Turn into Captain Garrick.|
 C A Shaman's Duty|QID|59002|QO|1|M|53.09,51.51|C|Shaman|N|Click the flowers|
 C A Shaman's Duty|QID|59002|QO|2|M|52.23,55.43|C|Shaman|N|Click the fire|
 C A Shaman's Duty|QID|59002|QO|3|CC|M|54.44,58.34;55.17,52.82;55.26,50.84|C|Shaman|N|Find the Ghost Wolves|
