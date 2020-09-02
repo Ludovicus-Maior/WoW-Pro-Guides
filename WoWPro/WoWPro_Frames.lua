@@ -437,7 +437,7 @@ function WoWPro:CreateMainFrame()
         if button == "LeftButton" then
             WoWPro:dbp("Clicking FauxJumpButton")
         end
-    end
+    end)
 end
 
 -- Resize Button --
