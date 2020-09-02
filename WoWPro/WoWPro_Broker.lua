@@ -1001,7 +1001,19 @@ function WoWPro:RowUpdate(offset)
             currentRow.lootsbutton:Show()
             currentRow.note:SetText(note)
         else currentRow.lootsbutton:Hide() end
-
+        
+		--Guide Jump Button
+		if WoWPro.jump[k] then
+			local newguide = WoWPro.jump[k]
+			currentRow.jumpbutton:Show()
+			currentRow.jumpbutton:SetScript("OnClick", function()
+				WoWPro:dbp("WoWPro.CompleteStep: jumping from %s to %s.",WoWProDB.char.currentguide, newguide)
+				WoWPro:LoadGuide(newguide)
+			end)
+        else
+            currentRow.jumpbutton:Hide()
+        end
+        
         -- Target Button --
         if target then
             local mtext
