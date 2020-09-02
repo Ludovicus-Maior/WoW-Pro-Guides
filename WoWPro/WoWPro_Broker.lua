@@ -1013,7 +1013,7 @@ function WoWPro:RowUpdate(offset)
         else
             currentRow.jumpbutton:Hide()
         end
-        
+
         -- Target Button --
         if target then
             local mtext
