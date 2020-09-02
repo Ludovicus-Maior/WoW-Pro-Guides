@@ -1,167 +1,20 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/vol039dun_horde
--- Date: 2020-07-28 03:30
--- Who: Blanckaert
--- Log: fix transposed coord for 51093^51094 coord set 3  changed 46.66 to 64.66
-
--- URL: http://wow-pro.com/node/3772/revisions/30575/view
--- Date: 2020-07-14 23:04
--- Who: Ludovicus_Maior
--- Log: Correct location for Sandscout Vesarik quest.
---	Terrace of the Devoted => Sanctuary of the Devoted
-
--- URL: http://wow-pro.com/node/3772/revisions/30509/view
--- Date: 2020-04-08 19:01
--- Who: Ludovicus_Maior
--- Log: Wrong QID on [Nature's Remedy].
---	[Crabby Crew Stew], [The Captain's Cache], [WANTED: Za'roco]
-
--- URL: http://wow-pro.com/node/3772/revisions/30484/view
--- Date: 2020-04-05 20:55
--- Who: Ludovicus_Maior
--- Log: Cagome: Alpaca Hides wrong.  Hoping it was Y digit transposition.
-
--- URL: http://wow-pro.com/node/3772/revisions/30453/view
--- Date: 2019-12-13 01:27
--- Who: Ludovicus_Maior
--- Log: Cagomei: Missing zone tag
-
--- URL: http://wow-pro.com/node/3772/revisions/30240/view
--- Date: 2019-03-18 21:09
--- Who: Emmaleah
--- Log: Add |V| tags, reword rares and treasures intro steps
-
--- URL: http://wow-pro.com/node/3772/revisions/30182/view
--- Date: 2019-01-07 00:00
--- Who: Emmaleah
--- Log: missing QO|1 on Mojambo
-
--- URL: http://wow-pro.com/node/3772/revisions/30143/view
--- Date: 2018-12-02 01:30
--- Who: Ludovicus_Maior
--- Log: Move the /p up
-
--- URL: http://wow-pro.com/node/3772/revisions/30142/view
--- Date: 2018-11-28 19:25
--- Who: Emmaleah
--- Log: add t The Great Sea Scrolls
-
--- URL: http://wow-pro.com/node/3772/revisions/29960/view
--- Date: 2018-10-17 02:26
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3772/revisions/29833/view
--- Date: 2018-09-24 20:04
--- Who: Emmaleah
--- Log: add R Zocalo to Jani quest line.
-
--- URL: http://wow-pro.com/node/3772/revisions/29815/view
--- Date: 2018-09-24 01:28
--- Who: elidion
--- Log: A few tweaks after running through Rank 1, some missing ACTIVE tags.
-
--- URL: http://wow-pro.com/node/3772/revisions/29755/view
--- Date: 2018-09-15 20:19
--- Who: Emmaleah
--- Log: Restore RANK tags; also changed all C steps that had |T| to K steps; change K steps that do not have RARE tags from QID to ACTIVE
-
--- URL: http://wow-pro.com/node/3772/revisions/29743/view
--- Date: 2018-09-13 06:40
--- Who: Emmaleah
--- Log: Update for new functionality with RARE & $
-
--- URL: http://wow-pro.com/node/3772/revisions/29681/view
--- Date: 2018-09-05 11:08
--- Who: Emmaleah
--- Log: Add A [Vol'dun]; edit RANKS note; expand on ;R Zocelo. but the coordinates are still needed to make it a Run step instead of a comment.
-
--- URL: http://wow-pro.com/node/3772/revisions/29670/view
--- Date: 2018-09-04 22:54
--- Who: Ludovicus_Maior
--- Log: Typo reported by http://www.wow-pro.com/users/jeremy_billones for [Bloated Krolusk]
-
--- URL: http://wow-pro.com/node/3772/revisions/29660/view
--- Date: 2018-09-03 17:23
--- Who: Emmaleah
--- Log: add new style QOs
-
--- URL: http://wow-pro.com/node/3772/revisions/29631/view
--- Date: 2018-09-02 12:14
--- Who: Emmaleah
--- Log: Play thru on live / Rank 1 and Rank 3 tested on two diff toons. Hopefully got all the kinks worked out.
-
--- URL: http://wow-pro.com/node/3772/revisions/29560/view
--- Date: 2018-08-19 23:52
--- Who: Emmaleah
--- Log: add TZ|Terrace of the Devoted|
-
--- URL: http://wow-pro.com/node/3772/revisions/29555/view
--- Date: 2018-08-19 10:35
--- Who: Emmaleah
--- Log: Added PREs. Minor tweaks from playtesting on Rank 1.
-
--- URL: http://wow-pro.com/node/3772/revisions/29554/view
--- Date: 2018-08-19 05:59
--- Who: Emmaleah
--- Log: Fix, pick next zone... again.
-
--- URL: http://wow-pro.com/node/3772/revisions/29533/view
--- Date: 2018-08-16 05:58
--- Who: Emmaleah
--- Log: changed A Pick next zone|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.|LEAD|47512+47513+47514| to A Pick next zone|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.|LEAD|47512;47513;47514|[apparently you can't use "+" in LEAD tag]
-
--- URL: http://wow-pro.com/node/3772/revisions/29503/view
--- Date: 2018-08-13 16:36
--- Who: Emmaleah
--- Log: all rares with Item if shown on wowhead, treasures, explore, 3 quests missing, but not essential to story line. RANKS are set up per Verenne's post on Wowhead under the zone ach.
-
--- URL: http://wow-pro.com/node/3772/revisions/29460/view
--- Date: 2018-08-01 07:43
--- Who: Emmaleah
--- Log: corrections per error checker 7/31/18
-
--- URL: http://wow-pro.com/node/3772/revisions/29388/view
--- Date: 2018-07-03 02:46
--- Who: Emmaleah
--- Log: updated next guide
-
--- URL: http://wow-pro.com/node/3772/revisions/29381/view
--- Date: 2018-07-01 11:24
--- Who: Emmaleah
--- Log: Rough Draft - Take 1.
-
--- URL: http://wow-pro.com/node/3772/revisions/29326/view
--- Date: 2018-05-25 20:25
--- Who: Emmaleah
--- Log: blank stub
-
 local guide = WoWPro:RegisterGuide('EmmVoldun', 'Leveling', "Vol'dun", 'Emmaleah', 'Horde')
-WoWPro:NewGuideLevels(guide,110, 120,111)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'EmmHWarCampaign')
 WoWPro:GuideAutoSwitch(guide)
-WoWPro:GuideIcon(guide,"ACH",12943)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 N The Great Sea Scrolls|QID|53476|NA|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a spec appropriate helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 t The Great Sea Scrolls|QID|53476|S!US|M|71.50,30.36|Z|Zuldazar|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
-
 N Use of Ranks|N|Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done alongside the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
 N Rares (aka Silver Elite)|ACH|12943|N|Rares are not truely rare, they will respawn within a few minutes of being killed, so if it isn't there, stick around a minute or two and it will be. Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to. If you want the guide to not tell you about rares at all, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable rares box). |
 N Traesure|ACH|12849|N|The majority of the treasure chests in Vol'dun are first come, respawning randomly.  There are a few one time treasures, If you want the guide to skip treasures, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable treasures box).
-
 A Vol'dun|QID|47513|M|41.77,69.35|Z|Hall of Croniclers!Dazar'alor|N|Pick Vol'dun from Scouting Map.|PRE|52131|
 t Vol'dun|QID|47513|M|57.81,44.34|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
 A Discreet Discussions|QID|47313|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|PRE|47513|
 C Discreet Discussions|QID|47313|M|50.12,37.41|Z|Dazar'alor|QO|1<1|NC|N|Outside and down either long set of stairs to find first, Enforcer Sekal.|
 C Discreet Discussions|QID|47313|M|52.20,37.54|Z|Dazar'alor|QO|1<2|NC|N|Continue down to find the next Enforcer Gortok.|
 C Discreet Discussions|QID|47313|M|54.26,35.85|Z|Dazar'alor|QO|1<3|NC|N|And down some more to find Enforcer Dakanji.|
-
 ;to open up Jani's mysterious trashpiles
 R The Zocalo|AVAILABLE|47441|M|42.58,27.97|Z|Dazar'alor|N|A bit out of the way, but if you are into Achievements or pets, you want to get this quest done to open up "Get Hek'd".|RANK|3|
 A Pests|QID|47441|M|40.24,19.06|Z|Dazar'alor|N|From Nokano.|RANK|3|
@@ -172,7 +25,6 @@ A Curse of Jani|QID|47442|M|35.36,7.63|Z|Dazar'alor|N|From Jani.|RANK|3|PRE|4744
 C Curse of Jani|QID|47442|M|38.57,17.70|Z|Dazar'alor|QO|1|NC|N|Run back to Nokano.|
 C Curse of Jani|QID|47442|M|40.10,19.30|Z|Dazar'alor|QO|2|NC|N|Bite Nokano.|
 T Curse of Jani|QID|47442|M|35.46,7.71|Z|Dazar'alor|N|To Jani. You have now opened up Jani's cursed treasure quests all over Zandalar.|
-
 ;unlikely allies
 T Discreet Discussions|QID|47313|M|51.57,31.82|Z|Dazar'alor|N|To Bladeguard Kaja.|
 A Rumors of Exile|QID|47314|M|51.57,31.82|Z|Dazar'alor|N|From Bladeguard Kaja.|PRE|47313|
@@ -200,10 +52,8 @@ C An Explosive Exit|QID|51364|M|60.04,34.60|QO|2|V|N|Hop on Nisha's wagon.|
 C An Explosive Exit|QID|51364|M|59.15,37.06|QO|3|NC|N|Use Special action button to throw fire flasks and Defend Nisha's wagon.|
 T An Explosive Exit|QID|51364|M|56.79,50.53|N|To Kiro.|
 A Restorative Venom|QID|47319|M|56.79,50.53|N|From Kiro.|PRE|51364|
-
 A Freshly Squeezed|QID|51574|M|56.76,50.53|N|From Meerah.|PRE|51364|
 f Vulpera Hideaway|ACTIVE|51574|M|56.97,49.26|N|At Narishi.|
-
 ;dangers in the desert
 K Bloodwing Bonepicker|QID|51079|M|59.59,50.68;57.21,53.25;56.09,53.59|CS|QO|1|RARE|ITEM|161019|T|Bloodwing Bonepicker|N|Click on the Enormous Egg to summon the momma bird. Kill this Silver Elite for artifact power and resources.|RANK|3|
 K Gut-Gut the Glutton|QID|49270|M|61.98,47.61;62.70,47.29;63.95,48.10;64.03,47.60|CS|RARE|QO|1|T|Gut-Gut the Glutton|N|You have to be dedicated to getting adventurer of Vol'dun to run up and get this one. Up the side of the mountain, in the middle of nowhere lives this silver elite eating birds and foolish adventurers. Kill and loot for artifact power and resources (or just check off and move on.)|RANK|3|
@@ -221,7 +71,6 @@ T Restorative Venom|QID|47319|M|56.79,50.54|N|To Kiro.|
 A A Balm to Calm|QID|47320|M|56.79,50.54|N|From Kiro.|PRE|47319&51574|
 C A Balm to Calm|QID|47320|M|56.84,50.52|U|150759|T|Bladeguard Kaja|NC|N|Target Kaja and click on the potion to give Kaja the restorative balm.|
 T A Balm to Calm|QID|47320|M|56.84,50.52|N|To Bladeguard Kaja.|
-
 A Searching for Survivors|QID|47317|M|56.84,50.52|N|From Bladeguard Kaja.|PRE|47320|
 A Knickknack Takeback|QID|47321|M|56.79,50.53|N|From Kiro.|PRE|47320|
 A Secrets in the Sand|QID|47316|M|56.76,50.53|N|From Meerah.|PRE|47320|
@@ -245,7 +94,6 @@ T A Meal for Birds|QID|50755|M|54.75,42.40|N|To Mekaru.|
 T Knickknack Takeback|QID|47321|M|56.79,50.54|N|To Kiro.|
 T Searching for Survivors|QID|47317|M|56.83,50.52|N|To Bladeguard Kaja.|
 T Secrets in the Sand|QID|47316|M|56.83,50.52|N|To Bladeguard Kaja.|
-
 A The Warguard's Trail|QID|47959|M|56.83,50.52|N|From Bladeguard Kaja.|PRE|47316&47317&47321|
 C The Warguard's Trail|QID|47959|M|56.76,50.53|CHAT|N|Tell Meerah you are ready to go.|
 T The Warguard's Trail|QID|47959|M|52.97,66.54|N|To Jorak.|
@@ -255,7 +103,6 @@ C Stolen Satchels|QID|48550|M|50.30,65.05|S|N|Kill the Sandfury Assassins to col
 A Ranah's Wrench|QID|51829|M|50.69,64.67|N|From Ranah's wrench.|RANK|2|
 K Grozztok the Blackheart|ACTIVE|48549|QO|1|M|49.36,64.84|T|Grozztok the Blackheart|N|Kill Grozztok the Blackheart. FYI, behind that warded  doorway is a treasure we will come back for later.|
 C Stolen Satchels|QID|48550|M|50.30,65.05|US|N|Finish collecting the Weathered Satchels.|
-
 T Ranah's Wrench|QID|51829|M|53.89,69.39|N|To Ranah.|
 A We Can Salvage the Seeds|QID|48555|M|53.89,69.39|N|From Ranah.|RANK|2|PRE|51829|
 A Wither Without Water|QID|48551|M|53.89,69.39|N|From Ranah.|RANK|2|PRE|51829|
@@ -275,10 +122,8 @@ C The Source of the Problem|QID|48554|M|53.70,68.96;54.35,66.87;55.39,69.41|CS|Q
 C The Source of the Problem|QID|48554|M|55.39,69.41|QO|2|N|Kill the Colossal Water Cobra.|
 K Vathikur|QID|49674|QO|1|M|55.38,71.11;57.28,73.29|CS|RARE|ITEM|161097|T|Vathikur|N|Stand in the rumbling earth and Vathikur will emerge. Silver Elite to kill and loot for artifact power and resources.|RANK|2|
 T The Source of the Problem|QID|48554|M|53.88,69.40|N|To Ranah.|
-
 T Stolen Satchels|QID|48550|M|53.34,65.99|N|To Jorak.|
 T Grozztok the Blackheart|QID|48549|M|53.19,66.05|N|To Bladeguard Kaja.|
-
 ;The Warguard's Fate
 A On the Move|QID|48684|M|53.18,66.05|N|From Bladeguard Kaja.|PRE|48550&48549|
 $ Excavator's Greed|QID|51136|M|57.73,64.63|N|A short backtrack for some treasure, Inside the ruins you can find this item to loot for artifact power and resources.|RANK|3|
@@ -316,7 +161,6 @@ T Akunda Awaits|QID|48715|M|53.58,91.65|N|To Bladeguard Kaja.|
 A Valley of Sorrows|QID|48987|M|53.58,91.35|N|From Akunda the Sensible.|PRE|48715|
 K Redrock Scavenger|QID|50892|M|50.94,84.78|L|158916|N|Kill Redrock Scavengers and Howlers until the Sturdy Redrock Jaw drops.|PRE|47442|RANK|3|
 $ Mysterious Trashpile|QID|50892|M|49.35,84.41|ITEM|158916|N|Click on the mysterious trashpile to summon Jani, give Jani the shiny and he will give you treasure.|PRE|47442|RANK|2|
-
 R Valley of Sorrows|ACTIVE|48987|M|53.56,82.55|N|Make your way to the Valley of Sorrows.|
 T Valley of Sorrows|QID|48987|M|53.01,78.78|N|To Meijani.|
 A Memory Breach|QID|48988|M|53.01,78.78|N|From Meijani.|PRE|48987|
@@ -339,7 +183,6 @@ C Akunda's Blessing|QID|50913|M|53.18,92.15|NC|N|Click on the bottom of the Alta
 T Akunda's Blessing|QID|50913|M|53.18,91.71|N|To Akunda.|
 A Clearing the Fog|QID|47874|M|53.61,91.66|N|From Akunda.|PRE|50913|
 T Clearing the Fog|QID|47874|M|52.80,89.23|N|To Warguard Rakera after she walkes s.l.o.w.l.y out of the temple.|
-
 ;A City of Secrets
 A Knowledge of the Past|QID|48896|M|52.80,89.23|N|From Warguard Rakera.|PRE|47874|
 C Knowledge of the Past|QID|48896|M|52.70,89.28|QO|1|CHAT|N|Tell Meerah we are ready to go.|
@@ -360,7 +203,6 @@ A Effective Antivenom|QID|50770|M|47.05,75.60|N|From Kiro.|PRE|48313&48314|
 C Effective Antivenom|QID|50770|M|47.06,75.72|NC|U|158678|N|Target Serrik and use the restorative balm.|
 T Effective Antivenom|QID|50770|M|47.06,75.72|N|To Serrik.|
 A The Secrets of Zul'Ahjin|QID|50539|M|47.06,75.72|N|From Serrik.|PRE|50770|
-
 A Magic Decoder Device|QID|50536|M|46.87,74.21;47.01,75.09;47.31,72.72|CS|N|Up the stairs to the next level of the Terrace to find and accept this quest from Maaz.|RANK|2|
 C Magic Decoder Device|QID|50536|M|47.36,72.67|QO|1|NC|N|Pick up the scepter, which will turn you into a snake.|
 C Magic Decoder Device|QID|50536|M|48.04,74.97|QO|2|NC|N|Inspect the Statue of Korthek.|
@@ -391,7 +233,6 @@ T Sulthis' Stone|QID|50561|M|47.06,75.72|N|To Serrik.|
 A Unlikely Allies|QID|47324|M|47.06,75.72|N|From Serrik.|PRE|50561|
 A Seeking Shelter|QID|50794|M|47.07,75.66|N|From Julwaba.|PRE|50561|RANK|2|
 T Seeking Shelter|QID|50794|M|43.39,75.37|N|To Razgaji.|
-
 ;
 A I've Got Your Back|QID|51573|M|43.39,75.37|N|From Razgaji.|RANK|2|PRE|50794|
 C I've Got Your Back|QID|51573|M|43.39,75.37|CHAT|N|Tell Razgaji you are ready, then walk down with him, look menacing and listen to the dialog.|
@@ -456,20 +297,16 @@ C Arming the Tribe|QID|48847|M|42.40,76.26|CHAT|N|Run around the outpost arming 
 T Arming the Tribe|QID|48847|M|43.39,75.36|N|To Razgari.|
 A Mojambo|QID|51668|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48847|
 K Mojambo|ACTIVE|51668|M|43.39,73.84|QO|1|U|160525|T|Mojambo|N|Target Mojambo and throw down Tongo's head to start fight with Mojambo. You do not need to worry about the rest of the NPCs in the arena.|
-
 A Saurid Surprise|QID|50901|M|42.19,72.06|N|From Jani, after rummaging in her mysterious trash pile.|PRE|47442|RANK|3|
 C Saurid Surprise|QID|50901|M|42.19,72.06|QO|1|CHAT|N|Ask Jani for the disguise.|
 C Saurid Surprise|QID|50901|M|43.71,76.80|QO|2|N|Run to Sezahjin (the chef), avoiding, or outrunning everything and right click on him to steal his hat.|
 C Saurid Surprise|QID|50901|M|42.19,72.06|QO|3|N|Return to Jani.|
 T Saurid Surprise|QID|50901|M|42.19,72.06|N|To Jani.|
-
 T Mojambo|QID|51668|M|43.39,75.36|N|To Razgari.|
 A The Ashvane Threat|QID|51773|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|51668|
 A WANTED: Za'roco|QID|51161|M|43.14,76.57|N|From Wanted Poster.|RANK|2|PRE|51668|
 A The Tortaka Tribe|QID|51772|M|43.70,76.79|N|From Sezahjin.|RANK|3|PRE|51668|
-
 K Za'roco|ACTIVE|51161|M|47.30,73.69|T|Za'roco the Drifter|QO|1|N|Kill Za'roco the Drifter.|RANK|2|
-
 R Randall's Refuge|ACTIVE|51773|M|45.05,79.72;45.43,83.28|CS|N|Run down off the ruins and follow the road to Randall's Refuge.|RANK|2|
 T The Ashvane Threat|QID|51773|M|45.65,82.32|N|To Randall Redmond.|
 A Dead Men Tell No Tales|QID|47870|M|45.65,82.32|N|From Randall Redmond.|RANK|2|PRE|51773|
@@ -509,7 +346,6 @@ C Crabby Crew Stew|QID|49261|M|44.61,88.24|US|N|Finish Collecting the crab meat 
 T Crabby Crew Stew|QID|49261|M|44.61,88.24|U|160735|N|To Dockmaster Herrington. Must be in Ashvane disguise.|
 T Gang Bustin'|QID|49262|M|44.61,88.24|N|To Dockmaster Herrington.|
 $ Nez'ara|QID|50898|M|44.12,87.55;43.79,86.27|CS|QO|1|RARE|ITEM|161024|N|Cut the ropes to release the Ashvane's prisoner. She's rather ungreatful. Kill and loot for artifact power and resources.|RANK|2|
-
 R Port of Zem'lan|ACTIVE|48324|M|35.46,83.48|N|Avoid the Alliance camp, at Deadwood Cove as you follow the coast to the Port of Zem'lan.|RANK|2|
 T Lost in Zem'lan|QID|48324|M|35.46,83.48|N|To Meeki (or whats left of him.|
 A The Day the Port Fell|QID|51053|M|35.44,83.82|N|From First Mate Jamboya.|RANK|2|PRE|48324|
@@ -570,7 +406,6 @@ T Escaping Zem'lan|QID|51062|M|38.88,77.29|N|To Norah.|
 A A Strange Delivery|QID|48327|M|38.88,77.29|N|From Norah.|RANK|2|PRE|51062|
 T WANTED: Za'roco|QID|51161|M|43.41,75.36|N|To Razgari.|
 R Zul'Ahjin|ACTIVE|47324|M|46.73,71.85|N|Run back to Zul'Ahjin to take a ride to your next area.|RANK|2|
-
 ;The Three Keepers
 C Unlikely Allies|QID|47324|M|46.79,75.45|V|N|Hop on the Pterrordax and take a ride.|
 T Unlikely Allies|QID|47324|M|27.22,53.94|N|To Serrik.|
@@ -596,7 +431,6 @@ A The Keepers' Keys|QID|49340|M|27.62,52.57|N|From Vorrik.|PRE|49334&49327&50641
 C The Keepers' Keys|QID|49340|M|27.62,52.57|CHAT|N|Give Vorrik Sulthis' stone.|
 T The Keepers' Keys|QID|49340|M|27.12,52.57|N|To Vorrik.|
 A The Missing Key|QID|49662|M|27.12,52.57|N|From Vorrik.|PRE|49340|
-
 R The Cracked Coast|ACTIVE|50818|M|26.73,52.57;26.59,53.17;27.64,54.80|CS|N|Down the stairs, thru the lower level and down to the water.|
 T A Lost Flute|QID|50818|M|29.52,59.36|N|To Jenoh.|
 A A Charming Tail|QID|50817|M|29.52,59.36|N|From Jenoh.|RANK|2|PRE|50818|
@@ -618,13 +452,11 @@ A Power Problems|QID|52129|M|26.21,73.67|N|From Merd Archfeld.|RANK|2|PRE|50834|
 C Calldown: Cleaner|QID|50771|M|27.12,71.35|S|NC|N|Use the provided target painter to identify the targets.|U|158725|
 C Get Us Some Beach|QID|50775|M|27.12,71.35|S|N|Kill Siroccan to collect Piles of Sand.|
 K Sirokar|QID|51075|QO|1|M|24.70,69.86;24.57,68.46|CS|RARE|ITEM|161099|T|Sirokar|N|Silver Elite to kill and loot for artifact power and resources.|RANK|2|
-
 T Power Problems|QID|52129|M|28.45,68.59|N|To Rozzy.|
 A Charging the Batteries|QID|51991|M|28.45,68.59|N|From Rozzy.|RANK|2|PRE|52129|
 C Charging the Batteries|QID|51991|M|28.66,68.70|QO|1|NC|N|Use the Lectric Frequency Modulator.|
 C Charging the Batteries|QID|51991|M|29.81,67.43|QO|2|NC|N|Roll over the lashers (avoiding the whirlwinds and cacti) to collect food for the ranishu.|
 T Charging the Batteries|QID|51991|M|28.44,68.60|N|To Rozzy.|
-
 C Get Us Some Beach|QID|50775|M|27.12,71.35|US|N|Finish collecting the Piles of Sand.|
 C Calldown: Cleaner|QID|50771|M|27.12,71.35|US|NC|N|Finish marking the targets.|U|158725|
 T Get Us Some Beach|QID|50775|M|26.21,73.67|N|To Merd Archfeld.|
@@ -632,9 +464,7 @@ T Calldown: Cleaner|QID|50771|M|26.21,73.67|N|To Merd Archfeld.|
 A Awakened Elements|QID|50812|M|26.20,73.70|N|From Nerin Solvis.|RANK|2|PRE|50775&51991&50771|
 K Enraged Azermental|ACTIVE|50812|QO|1|M|25.87,64.77|T|Enraged Azermental|N|Kill the Enraged Azermental.|RANK|2|
 T Awakened Elements|QID|50812|M|26.20,73.70|N|To Nerin Solvis.|RANK|2|
-
 K Scorpox|QID|51076|QO|1|RARE|ITEM|161030|M|28.17,72.14;32.75,73.71;34.43,71.41;32.66,65.47|CS|N|Silver Elite to kill for artifact power and resources.|T|Scorpox|RANK|3|;no good path to middle of nowhere
-
 R Whistlebloom Oasis|ACTIVE|48327|M|39.50,61.44|N|Run across the desert to the Whistlebloom Oasis and down into a cave inside the oasis.|
 T A Strange Delivery|QID|48327|M|43.50,60.21|N|To Rhan'ka.|
 A Meet the Goldtusk Gang|QID|47497|M|43.50,60.21|N|From Rhan'ka.|RANK|2|
@@ -645,7 +475,6 @@ C Meet the Goldtusk Gang|QID|47497|M|43.65,60.35|CHAT|QO|1|N|Meet Grenja.|
 T Meet the Goldtusk Gang|QID|47497|M|43.51,60.21|N|To Rhan'ka.|
 A Dirty Work for Dirty Drinks|QID|47501|M|43.51,60.21|N|From Rhan'ka.|RANK|2|PRE|47497|
 A Rhan'ka's Lost Friend|QID|47498|M|43.51,60.21|N|From Rhan'ka.|RANK|2|PRE|47497|
-
 R Dead Man's Pass|ACTIVE|47501|M|38.85,50.90|N|And we are off to find some scorpids.|RANK|2|
 C Dirty Work for Dirty Drinks|QID|47501|M|35.90,50.25|QO|1|S|N|Kill scorpids and loot their Caustic Scorpid Blood|
 K Kamid the Trapper|QID|50528|M|36.51,50.23;35.10,51.81|CS|RARE|ITEM|161038|QO|1|T|Kamid the Trapper|N|Wind up the rocky path to find this Silver Elite to kill for artifact power and resources.|RANK|2|
@@ -695,7 +524,6 @@ C A Goldtusk Greeting|QID|48322|M|43.39,60.10|QO|4|NC|N|Click on the buffet tabl
 C A Goldtusk Greeting|QID|48322|M|43.42,59.96|QO|5|NC|N|Show Bladeguard Tarkaj his (uncomfortable) bed.|
 T A Goldtusk Greeting|QID|48322|M|43.51,60.21|N|To Rhan'ka.|
 A Ruins-Level Marketing|QID|48840|M|43.51,60.21|N|From Rhan'ka.|RANK|2|PRE|48322|
-
 R The Bone Pit|ACTIVE|48840|M|44.81,55.84|RANK|3|
 K Zunashi The Exile|QID|48319|M|44.01,52.67;43.89,54.08|CS|QO|1|RARE|ITEM|161119|T|Zunashi The Exile|N|Through the skeletal jaw and down into this underground cave to find Silver Elite and kill it. Loot for artifact power and resources.|RANK|3|
 R Court of Zak'rajan|ACTIVE|48840|M|44.49,45.30|N|Across the Desert for the next area.|RANK|2|
@@ -731,7 +559,6 @@ K Ranishu Ravager|QID|50883|M|45.90,47.68|L|158910|N|Kill the Ranishu mobs in th
 $ Mysterious Trashpile|QID|50883|M|46.98,46.55|ITEM|158910|N|Click on the mysterious trashpile to summon Jani, give Jani the shiny and he will give you treasure.|PRE|47442|
 T Zandalari Treasure Trove|QID|48330|M|45.37,46.15|N|To Omi.|
 K Sandscout Vesarik|ACTIVE|51165|QO|1|M|43.23,45.90|T|Sandscout Vesarik|US|N|If you are going to do this quest, now is the time, because we are leaving this area.|
-
 ;Storming the Spire
 R Bwoljiin's Fall|ACTIVE|49662|M|29.52,50.50;40.20,44.79;42.95,37.32|CS|N|Follow the road thru the Forward Camp, Temple Incursion and Bonetrail Gulch to find Vorrik.|RANK|-1|
 R Bwoljiin's Fall|ACTIVE|49662|M|42.86,37.48|RANK|2|N|Follow the road to Vorrik.|
@@ -791,7 +618,6 @@ A The Fall of Emperor Korthek|QID|50550|M|51.95,28.68|N|From Vorrik.|PRE|50750&5
 C The Fall of Emperor Korthek|QID|50550|M|51.95,28.68|QO|1|CHAT|N|Tell Vorrik you are ready.|
 K Emperor Korthek|ACTIVE|50550|M|52.04,27.33|QO|2|T|Emperor Korthek|N|Kill Emperor Korthek.|
 T The Fall of Emperor Korthek|QID|50550|M|51.99,27.72|N|To Vorrik.|
-
 ;
 A Sanctuary Under Siege|QID|50751|M|51.99,27.72|N|From Vorrik.|PRE|50550|
 A Bonus Objective: Skycaller Shutdown|QID|50805|M|52.03,27.85|LVL|-120|N|Autoaccepted.|RANK|2|
@@ -818,7 +644,6 @@ C Free Ride|QID|50749|M|55.24,35.22|QO|1|V|N|Hop on the Battle Krolusk and guide
 R Vorrik's Sanctum|ACTIVE|50749|M|47.98,36.51|;adding a Path would probably be useful here
 T Tattered Note|QID|49437|M|47.98,36.51|N|To Meerah.|
 T Free Ride|QID|50749|M|48.02,36.44|N|To Kiro.|
-
 ;Atul'Aman
 F Sanctuary of the Devoted|ACTIVE|50751|M|47.30,35.24|TZ|Terrace of the Devoted|N|at Lugo the Windrider.|
 t WANTED: Sandscout Vesarik|QID|51165|M|26.87,52.87|N|To Zareen.|
@@ -839,7 +664,6 @@ T Defeat Jakra'zet|QID|50702|M|27.09,52.64|N|To Warguard Rakera.|
 A Informing the Horde|QID|50703|M|27.09,52.64|N|From Warguard Rakera. Not technically part of the zone achievement but may as well get it in case it's tied to a future questline.|PRE|50702|
 A Temple of Sethraliss: Avatar of the Loa|QID|50551|M|27.09,52.56|NA|N|From Vorrik. this is a dungeon quest.|
 H The Great Seal|ACTIVE|50703|M|27.65,50.32|N|Hearth or take a flight to Zuldazar from Vethiss.|RANK|-1|
-
 R The Forgotten Marsh|ACTIVE|51772|M|27.10,50.51|N|If you wanna finish out the rest of the quests / rares/ treasures in the zone Head over to Vorrik's Sanctum for more adventure.|RANK|3|
 $ Abandaned Bobber|QID|53004^53005|M|26.49,45.35|N|Inspect the abandoned bobber, which pulls up the Sandsunken Treasure.|RANK|3|
 R Forward Camp|ACTIVE|51772|M|32.71,49.17|N|Go back up to the temple or run thru all the murlocks, you choice, but next area is Sethrak Foward Camp.|RANK|3|
@@ -857,14 +681,12 @@ C Risky Rescue|QID|50656|M|35.68,46.47|US|NC|N|Click open the cages as you come 
 T Risky Rescue|QID|50656|M|32.68,48.45|N|To Seriah.|
 T Building Our Arsenal|QID|49333|M|32.30,48.39|N|To Izarn.|
 T Skycaller Slaughter|QID|49335|M|32.30,48.39|N|To Izarn.|
-
 K King Clickyclack|QID|51424|M|37.40,40.50;38.22,41.30|CS|QO|1|RARE|ITEM|161108|T|King Clickyclack|N|A Silver Elite is in this cave to kill for artifact power and resources.|RANK|3|
 R Shatterstone Harbor|ACTIVE|51772|M|37.16,39.17;39.82,37.91|CS|N|This is probably as close as you want to get to the Alliance Base.|RANK|3|
 R Redsilt Wash|ACTIVE|51772|M|41.55,38.43;44.08,26.47|CS|N|Follow the dry riverbed (or maybe it is a roadbed) to Redsilt Wash.|RANK|3|
 K Captain Stef "Marrow" Quin|QID|51073|M|41.53,23.71|QO|1|RARE|T|Captain Stef "Marrow" Quin|N|One more (or should I say 2) Silver Elite to eliminate.|RANK|3|
 $ Stranded Cache|QID|51135|M|44.71,24.82;44.50,26.14|CS|N|Run up the fallen log to get to this treasure.|RANK|3|
 K Skycaller Teskris|QID|50637|M|46.56,27.14;46.99,25.17|CS|QO|1|RARE|ITEM|160968|T|Skycaller Teskris|N|Inside a cave you can find this Silver Elite to kill for artifact power and resources.|RANK|3|
-
 R Tortaka Refuge|ACTIVE|51772|M|46.93,20.32;59.73,20.22;61.05,21.04|CS|N|Continue down the road. Eventually you will come to a bridge on your left. Follow it to Tortaka Refuge.|RANK|3|
 f Tortaka Refuge|ACTIVE|51772|M|61.92,21.67|N|At Scroll of Flight.|RANK|3|
 T The Tortaka Tribe|QID|51772|M|62.03,22.33|N|To Torka.|
@@ -884,12 +706,10 @@ A The Elder's Wisdom|QID|47571|M|62.03,22.34|N|From Torka.|RANK|3|PRE|47577&4757
 C The Elder's Wisdom|QID|47571|M|61.60,20.52|CHAT|N|Deliver the Plans to Elder Kuppaka.|
 T The Elder's Wisdom|QID|47571|M|61.60,20.52|N|To Elder Kuppaka.|
 A The Ruined Temple|QID|47965|M|61.60,20.52|N|From Elder Kuppaka.|RANK|3|PRE|47571|
-
 R Bouldered Bluffs|ACTIVE|47965|M|56.59,16.56|N|And we are off to the very last quest area in Vol'dun.|RANK|3|
 K Ashmane|QID|47532|M|54.40,16.91;54.73,15.16|CS|QO|1|RARE|T|Ashmane|N|Silver Elite to kill for artifact power and resources.|RANK|3|
 K Ringhorn Strider|QID|50890|M|56.27,15.28|L|158915|N|Kill the Ringhorn mobs in the area to get a "Polished Ringhorn Hoof."|PRE|47442|RANK|3|
 $ Mysterious Trashpile|QID|50890|M|56.27,15.28|ITEM|158915|N|Click on the mysterious trashpile to summon Jani, give Jani the shiny and he will give you treasure.|PRE|47442|RANK|3|
-
 T The Ruined Temple|QID|47965|M|58.57,11.81|N|To Teekcha.|
 A Blessing of Kimbul|QID|47581|M|58.57,11.81|N|From Teekcha.|RANK|3|PRE|47965|
 A Jungleweb Infestation|QID|47573|M|58.49,11.70|N|From Tulu.|RANK|3|PRE|47965|
@@ -922,20 +742,14 @@ A Mark of the Loa|QID|47578|M|56.57,10.23|N|From Kimbul.|RANK|3|PRE|47576|
 C Mark of the Loa|QID|47578|M|56.25,9.76|NC|N|Click the shrine to Receive Kimbul's Blessing.|
 T Mark of the Loa|QID|47578|M|56.52,10.14|N|To Kimbul.|
 $ Lost Offerings of Kimbul|QID|52992|M|58.05,10.87;56.75,10.06;57.04,11.19|CS|N|This treasure is located on top (not inside) of the temple. Path starts here.|RANK|3|
-
 R Tortaka Refuge|ACTIVE|50703|M|57.25,13.83;57.64,16.74;59.91,20.26;61.10,21.02|CS|N|Remember that treasure at Atul'Aman. Time to go get it now.|RANK|3|
 F Goldtusk Inn|ACTIVE|50703|M|61.92,21.67|TZ|Whistlebloom Oasis|N|At Scroll of Flight.|RANK|3|
 $ Grayal's Last Offering|QID|51093^51094|M|43.58,62.11;48.25,61.81;49.16,64.66;48.20,64.69|CS|N|Up to the entrance of Atul'Aman, thru the doorway behind Grozztok is Grayal's Last Offering. Commune with the alter to cause the treasure to appear. Loot for artifact power and resources.|RANK|3|
 H The Great Seal|ACTIVE|50703|N|Return to the Great Seal.|RANK|3|
 A Pick next zone|AVAILABLE|47512^47513^47514|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.|
-
 T Informing the Horde|QID|50703|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 T Fond Farewells|QID|49040|M|40.37,19.08|Z|Dazar'alor|N|To B'wizati who can be found in the Zocalo.|RANK|2|
-
 N Zandalar Forever|N|If you have finished all three zones. This quest is offered by King Rastakhan at the Blood Gate in Zuldazar. The quest is included in the Endgame Story guide.|
-
 D War Campaign|N|When you check off this step the war campaign guide will open.|
 ]]
 end)
-
-

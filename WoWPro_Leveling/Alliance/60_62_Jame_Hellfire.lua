@@ -1,168 +1,6 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_hellfire_peninsula_alliance
--- Date: 2018-10-17 02:24
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3271/revisions/29238/view
--- Date: 2018-04-22 18:44
--- Who: Ludovicus_Maior
--- Log: Add some missing U tags to quests.
-
--- URL: http://wow-pro.com/node/3271/revisions/29233/view
--- Date: 2018-04-11 22:52
--- Who: Ludovicus_Maior
--- Log: Switch from [Through the Dark Portal] to [Hero's Call: Outland!] as primary entry.
-
--- URL: http://wow-pro.com/node/3271/revisions/29175/view
--- Date: 2018-02-26 21:41
--- Who: Ludovicus_EditBot
--- Log: Level strip
-
--- URL: http://wow-pro.com/node/3271/revisions/29049/view
--- Date: 2018-02-20 01:15
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3271/revisions/28898/view
--- Date: 2018-01-16 23:50
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3271/revisions/28815/view
--- Date: 2017-11-23 03:28
--- Who: Ludovicus
--- Log: Modernizing the guide.
-
--- URL: http://wow-pro.com/node/3271/revisions/28563/view
--- Date: 2017-03-23 17:56
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL: http://wow-pro.com/node/3271/revisions/28388/view
--- Date: 2017-03-15 21:34
--- Who: Ludovicus_Maior
--- Log: Added PREs to JamHel6062
-
--- URL: http://wow-pro.com/node/3271/revisions/27381/view
--- Date: 2015-08-28 01:07
--- Who: Ludovicus_Maior
--- Log: CHnaged [Ravager Egg Roundup] from an l to C step with a QO.
-
--- URL: http://wow-pro.com/node/3271/revisions/26817/view
--- Date: 2014-11-06 13:37
--- Who: Fluclo
--- Log: Removed duplicate M tags from QID 10047 and 9912
-
--- URL: http://wow-pro.com/node/3271/revisions/26622/view
--- Date: 2014-07-25 22:18
--- Who: Ludovicus_Maior
--- Log: add mean
-
--- URL: http://wow-pro.com/node/3271/revisions/26337/view
--- Date: 2014-05-27 20:09
--- Who: Ludovicus_Maior
--- Log: GuideLevels corrected from "60,62" to "55,61".
-
--- URL: http://wow-pro.com/node/3271/revisions/26266/view
--- Date: 2014-05-26 00:34
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3271/revisions/26151/view
--- Date: 2014-05-20 19:42
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3271/revisions/25982/view
--- Date: 2014-05-14 22:38
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3271/revisions/25744/view
--- Date: 2013-08-15 23:21
--- Who: Ludovicus_Maior
--- Log: Use a better quest for the run to Temple of Telhamat.
-
--- URL: http://wow-pro.com/node/3271/revisions/25389/view
--- Date: 2013-01-12 21:22
--- Who: Emmaleah
--- Log: fixes for multi coordinates
-
--- URL: http://wow-pro.com/node/3271/revisions/24888/view
--- Date: 2012-01-18 21:55
--- Who: Ludovicus_Maior
--- Log: Coord tweak for A Naladu|
-
--- URL: http://wow-pro.com/node/3271/revisions/24823/view
--- Date: 2011-11-30 18:32
--- Who: Crackerhead22
--- Log: Some updates for patch 4.3.
-
--- URL: http://wow-pro.com/node/3271/revisions/24808/view
--- Date: 2011-11-16 21:04
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3271/revisions/24481/view
--- Date: 2011-06-01 01:24
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3271/revisions/24450/view
--- Date: 2011-05-30 05:29
--- Who: Crackerhead22
--- Log: Correct cords for the Dark Portal and Watch Commander Relthorn Netherwane.
-
--- URL: http://wow-pro.com/node/3271/revisions/24449/view
--- Date: 2011-05-30 05:26
--- Who: Crackerhead22
--- Log: Added |Z|Blasted Lands| for the steps that were missing it, that were still in the Blasted Lands.
-
--- URL: http://wow-pro.com/node/3271/revisions/24448/view
--- Date: 2011-05-30 05:19
--- Who: Crackerhead22
--- Log: Changed step 1 so it auto-completes upon entering Blasted Lands, corrected cords for the step on buying the Nethergarde Bitter.
-
--- URL: http://wow-pro.com/node/3271/revisions/24326/view
--- Date: 2011-04-29 16:05
--- Who: Ludovicus_Maior
--- Log: Line 59 for step A has unknown tag [From Sergeant Altumus.], Line * for step N has unknown tag [Q], Line 115 for step N has unknown tag [Disrupt Their Reinforcements], Line 284 for step N has unknown tag [M5].
-
--- URL: http://wow-pro.com/node/3271/revisions/24205/view
--- Date: 2011-04-03 06:01
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3271/revisions/24197/view
--- Date: 2011-04-01 13:04
--- Who: Crackerhead22
--- Log: Fixed a misspelling, fixed cords for run to Telhamat.
-
--- URL: http://wow-pro.com/node/3271/revisions/24160/view
--- Date: 2011-03-09 15:53
--- Who: savagefool
--- Log: changed a cordinate to match the quest.
-
--- URL: http://wow-pro.com/node/3271/revisions/23685/view
--- Date: 2010-12-07 20:46
--- Who: Crackerhead22
--- Log: Added waypoints, moved a couple steps around, removed redundant steps.
-
--- URL: http://wow-pro.com/node/3271/revisions/23424/view
--- Date: 2010-12-03 12:09
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3271/revisions/23423/view
--- Date: 2010-12-03 12:09
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("JamHel6062", "Leveling", "Hellfire Peninsula", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,55,61, 58.7447)
-WoWPro:NewGuideLevels(guide,58,80)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, "JamZan6264")
-WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideQuestTriggers(guide,10119,28708)
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -186,7 +24,6 @@ A Know your Enemy |QID|10160|LEAD|10482|M|56.6,66.7|N|From Force Commander Danat
 A Waste Not, Want Not |QID|10055|M|51.2,60.0|N|From Dumphry.|
 T Know your Enemy |QID|10160|M|50.9,60.2|N|To Lieutenant Amadi.|
 A Fel Orc Scavengers |QID|10482|M|50.9,60.2|N|From Lieutenant Amadi.|
-
 N Flying|ACTIVE|10482|N|If you are level 60, Expert Riding may be purchased for 250 gold, you will also need 50 gold for a mount. Trainer is Hargen Bronzewing.|M|54.3,62.6|
 C Waste Not, Want Not|S|N|Loot Metal Cogs and Wooden Planks off the ground until you finish this quest. |QID|10055|M|60.4,52.1|
 C Fel Orc Scavengers |N|Kill Orcs until you finish this quest.|QID|10482|M|62.00,54.00|
@@ -204,7 +41,6 @@ C Burn Catapult 1 |QID|10078|N|Burn the first thrower here with the Flaming Torc
 C Burn Catapult 2 |QID|10078|N|Burn the second thrower here with the Flaming Torch. |QO|2|U|26002|M|55.85,46.75|
 C Burn Catapult 3 |QID|10078|N|Burn the third thrower here with the Flaming Torch. |QO|3|U|26002|M|53.50,47.20|
 C Laying Waste to the Unwanted |N|Burn the last thrower here.|QO|4|QID|10078|U|26002|M|52.80,47.20|
-
 R Temple of Telhamat|AVAILABLE|9390|M|46.05,44.13;34.11,45.87;28.72,45.55;23.23,40.64|CC|N|Run to the Temple of Telhamat.|
 A Deadly Predators |QID|9398|M|23.4,39.7|N|From Scout Vanura.|
 A In Search of Sedai |QID|9390|M|23.1,40.3|N|From Anchorite Obadei.|
@@ -228,7 +64,6 @@ A Helboar, the Other White Meat |QID|9361|PRE|9349|M|49.2,74.8|N|From Legassi.|
 C Helboar, the Other White Meat|QID|9361|M|50.58,74.27|N|Kill Helboars around the quest giver and loot them. Use Purification Mixture on the Tainted Helboar Meat.|U|23268|
 T Helboar, the Other White Meat |QID|9361|M|49.2,74.8|N|To Legassi.|
 A Smooth as Butter|QID|9356|PRE|9361|M|49.2,74.8|N|From Legassi.|
-
 l Zeppelin Debris|QID|10161|N|Loot Zeppelin Debris from the ground.|S|L|28116 30|
 C Smooth as Butter |N|Kill Buzzards until you get the wings for this quest.|QID|9356|M|56.00,73.00|
 C Ill Omens |N|Kill orcs until you get a Cursed Talisman for this quest.|QID|10483|M|63.00,78.00|
@@ -252,7 +87,6 @@ C Warlord of the Bleeding Hollow |N|Kill Warlord Morkh and take his armor.|QID|1
 T Warlord of the Bleeding Hollow |QID|10485|M|71.0,63.4|N|To Corporal Ironridge.|
 A Return to Honor Hold |QID|10903|PRE|10485|M|71.0,63.4|N|From Corparal Ironridge.|
 r Sell junk, repair|ACTIVE|10144|M|70.95,63.25|N|At Supply Officer Shandria.|
-
 l Demonic Rune Stone |QID|10144|N|Kill Demons until you have 4 Demonic Rune Stones.|L|28513 4|M|71.20,58.75|
 C Portal Kaalez |QID|10144|N|Disrupt the portal here by clicking on it when inside.|QO|2|M|72.70,58.95|
 l Demonic Rune Stones |QID|10144|N|Kill Demons until you have 4 Demonic Rune Stones.|L|28513 4|M|71.50,55.15|
@@ -263,7 +97,6 @@ N Seaforium PU-36 Explosive Nether Modulator |QID|10146|N|Hotkey this item, then
 C Mission: The Murketh and Shaadraz Gateways |N|Talk to Wing Commander Dabir'ee to begin flying and then use the hotkeyed bomb to destroy the gateways.|QID|10146|M|71.40,62.50|
 T Mission: The Murketh and Shaadraz Gateways |QID|10146|M|71.4,62.7|N|To Forward Commander Kingston.|
 A Shatter Point |QID|10340|PRE|10146|M|71.4,62.7|N|Foward Commander Kingston.|
-
 F Shatter Point |QID|10340|N|Talk to Wing Commander Dabir'ee and have him send you to Shatter Point. |M|71.40,62.50|
 f Shatter Point |QID|10340|N|Get the flight-path.|M|78.4,34.9|
 T Shatter Point |QID|10340|M|78.4,34.9|N|To Runetog Wildhammer.|
@@ -274,7 +107,6 @@ N Area 52 Special |QID|10163|N|Hotkey this item, then right-click the box to con
 C Mission: The Abyssal Shelf |N|Talk to Gryphoneer Windbellow and begin flying, then bomb the mobs needed for this quest.  |QID|10163|M|78.35,34.36|
 T Mission: The Abyssal Shelf |QID|10163|M|79.3,33.9|N|To Wing Commander Gryphongar.|
 A Go to the Front |QID|10382|PRE|10163|M|79.3,33.9|N|From Wing Commander Gryphongar.|
-
 T Go to the Front |QID|10382|M|78.35,34.36;68.3,28.6|CS|N|Talk to Gryphoneer Windbellow and get sent to Honor Point. Then turn the quest into Field Marshal Brock.|
 A Disruption - Forge Camp: Mageddon|QID|10394|PRE|10382|N|From Field Marshal Brock.|M|68.3,28.6|
 C Disruption - Forge Camp: Mageddon|N|Kill the mobs needed for this quest here.|QID|10394|M|65.00,31.00|
@@ -287,7 +119,6 @@ K Warbringer Arix'Amal |QID|10397|L|29795|N|The Warbringer is at the waypoint. K
 C Invasion Point: Annihilator |N|Use the key on the gate.|QID|10397|U|29795|M|53.06,27.62|
 A The Dark Missive |N|Right-click the missive to start this quest. |QID|10395|U|29588|
 T Invasion Point: Annihilator |QID|10397|N|To Field Marshal Brock.|M|68.3,28.6|
-
 H Honor Hold |QID|10903|N|Hearth to Honor Hold. |U|6948|M|54.50,63.60|
 A An Old Gift |QID|10058|PRE|10143^10483|M|54.3,63.4|N|From Father Malgor Devidicus.|
 A The Longbeards |QID|9558|LEAD|9417|PRE|10143^10483|M|54.3,63.4|N|From Sid Limbardi.|
@@ -303,7 +134,6 @@ T The Dark Missive |QID|10395|N|Head to Warp-Scryer Kryv.|M|56.69,66.52|
 A The Heart of Darkness |QID|10399|PRE|10395|N|From Warp-Scryer Kryv.|M|56.69,66.52|
 A The Path of Glory |QID|10047|PRE|10143^10483|N|From Warp-Scryer Kryv.|M|56.69,66.52|
 A Overlord |QID|10400|PRE|10395|N|From Force Commander Danath Trollbane.|M|56.64,66.69|
-
 A Unyielding Souls |QID|10050|PRE|10143^10483|M|50.9,60.2|N|From Honor Guard Wesilow.|
 A A Job for an Intelligent Man |QID|9355|PRE|10143^10483|M|52.0,62.6|N|From Foreman Biggums.|
 A When This Mine's a-Rockin' |QID|10079|PRE|10143^10483|M|52.0,62.6|N|From Foreman Biggums.|
@@ -317,7 +147,6 @@ T Smooth as Butter |QID|9356|M|49.2,74.8|N|To Legassi.|
 C Unyielding Souls |N|Kill everything needed for this quest.|QID|10050|M|55.00,76.00|
 F Shattrath City |QID|10935|N|Fly to Shattrath City if you need to train skills, visit AH, etc. |M|54.66,62.46|
 H Honor Hold |QID|10916|N|Hearth to Honor Hold.|U|6948|M|55.00,86.80|
-
 T Fel Spirits |QID|10909|M|54.3,63.6|N|To Assistant Klatu.|
 T Digging for Prayer Beads|QID|10916|M|54.3,63.6|N|To Assistant Klatu.|
 A The Exorcism of Colonel Jules|QID|10935|PRE|10909&10916|M|54.3,63.6|N|From Assistant Klatu.|
@@ -340,7 +169,6 @@ C The Path of Glory |US|N|Click Skeletal Remains on the ground around here until
 T Drill the Drillmaster|QID|10937|N|To Force Commander Danath Trollbane.|M|56.61,66.64|
 T The Path of Glory |QID|10047|M|56.7,66.5|N|To Warp-Scryer Kryv.|
 A The Temple of Telhamat |QID|10093|PRE|10047|M|56.7,66.5|N|From Warp-Scryer Kryv.|
-
 F Temple of Telhamat |QID|10093|N|Fly to The Temple of Telhamat. |M|54.70,62.35|
 T The Temple of Telhamat |QID|10093|M|23.4,36.5|N|To Amaan the Wise.|
 A Helping the Cenarion Post |QID|10443|LEAD|9372|M|23.4,36.5|N|From Amaan the Wise.|
@@ -351,7 +179,6 @@ A Demonic Contamination |QID|9372|M|15.7,52.0|N|From Thiah Redmane.|
 A Keep Thornfang Hill Clear! |QID|10159|M|15.7,52.0|N|From Mahuram Stouthoof.|
 A Colossal Menace |QID|10132|N|From Tola'thion.|M|15.59,52.13|
 A The Cenarion Expedition |QID|9912|N|From Amythiel Mistwalker.|M|16.02,52.26|
-
 C Colossal Menace |N|Kill Raging Colossui until you have all 5 kills. As they get low in health, they get smaller and Shardlings form.|QID|10132|M|15,45|
 l Crimson Crystal Shard|QID|10134|N|Make sure you have one of these items from the giants.|L|29476|M|15,45|
 A Crimson Crystal Clue|N|Right-click the Shard to start the quest.|QID|10134|M|15,45|U|29476|
@@ -362,7 +189,6 @@ T The Earthbinder |QID|10349|N|To Earthbinder Galandria Nightbreeze.|M|15.89,51.
 A Natural Remedies |QID|10351|PRE|10349|N|From Earthbinder Galandria Nightbreeze.|M|15.89,51.59|
 C Natural Remedies |N|Go here, stand on the green rune and use the seed, then kill Goliathon when it spawns.|QID|10351|M|13.64,39.11|U|29478|
 T Natural Remedies |QID|10351|N|To Earthbind Galandria Nightbreeze.|M|15.89,51.59|
-
 C Demonic Contamination |N|Kill Hulking Helboars until you get the samples for this quest.|QID|9372|M|18.5,55.3|
 T The Longbeards |QID|9558|M|24.0,72.1|N|To Gremni Longbeard.|
 A The Arakkoa Threat |QID|9417|M|24.0,72.1|N|From Gremni Longbeard.|
@@ -370,7 +196,6 @@ A Rampaging Ravagers |QID|9385|M|24.0,72.1|N|From Gremni Longbeard.|
 A Gaining Mirren's Trust |QID|9563|M|24.0,72.1|N|From Mirren Longbeard.|
 T Gaining Mirren's Trust |QID|9563|M|24.0,72.1|N|Turn it immediatly to Mirren Longbeard.|
 A The Finest Down |QID|9420|PRE|9563|M|24.0,72.1|N|From Mirren Longbeard.|
-
 C The Arakkoa Threat |N|Kill Haal'eshi Windwalkers and Talonguards until you finish this quest.|QID|9417|S|M|25.6,70.3|
 C The Finest Down |N|Kill and loot Kaliri birds until you finish this quest. You can click on nests to spawn another one.|QID|9420|M|25.6,70.3|S|
 l Avruu's Orb |QID|9418|N|Head to the waypoint above the small cave, then kill Avruu and take his Orb.|L|23580 1|M|25.7,75.14|
@@ -382,7 +207,6 @@ T The Finest Down |QID|9420|M|24.0,72.1|N|To Mirren Longbeard.|
 T The Arakkoa Threat |QID|9417|M|24.0,72.1|N|To Gremni Longbeard.|
 C Rampaging Ravagers |N|Kill the Quillfang Ravangers (Skitterers count as well) needed for this quest.|QID|9385|M|22.00,67.00|
 T Rampaging Ravagers |QID|9385|M|24.0,72.1|N|To Gremni Longbeard.|
-
 C Deadly Predators |S|N|Kill the Stonescythe Alphas and Whelps needed for this quest.|QID|9398|M|32.00,61.00|
 C The Rock Flayer Matriarch|N|Kill and loot Blacktalon in this cave.|QID|9490|M|34.00,64.00|
 C Deadly Predators |US|N|Kill the Stonescythe Alphas and Whelps needed for this quest.|QID|9398|M|32.00,61.00|
@@ -393,7 +217,6 @@ K Arch Mage Xintor|N|Kill Arch Mage Xintor.|QID|10057|M|53.60,81.00|QO|1|; Arch 
 C Looking to the Leadership|QID|10057|M|54.7,83.6|N|Kill Lieutenant Commander Thalvos.|
 C An Old Gift|N|Loot the book here.|QID|10058|M|55.00,86.80|
 T Voidwalkers Gone Wild |QID|9351|M|49.2,74.8|N|To "Screaming" Screed Luckheed.|
-
 H Honor Hold |QID|10058|N|Hearth or run to Honor Hold. |U|6948|M|54.3,63.4|
 T An Old Gift |QID|10058|M|54.3,63.4|N|To Father Malgor Devidicus.|
 T Hellfire Fortifications|QID|10106|M|56.34,62.78|N|To Warrant Officer Tracy Proudwell.|O|
@@ -403,7 +226,6 @@ T An Ambitious Plan |QID|9383|M|23.4,36.5|N|To Elsaana.|
 r Sell junk, repair, restock|QID|9383|M|23.32,39.94|N|At Talaara.|
 T Deadly Predators |QID|9398|M|23.4,39.7|N|To Scout Vanura.|
 T The Rock Flayer Matriarch |QID|9490|N|To Ikan.|M|23.13,40.26|
-
 C Makuru's Vengeance |N|Kill and loot Mag'har Grunts until you get the Beads for this quest.|QID|9424|M|35.00,35.00|
 C The Heart of Darkness |N|Kill Terrorfiends.|QID|10399|M|40.34,32.72|S|
 C The Pools of Aggonar |N|Kill Oozes and Terrorfiends.|QID|9426|M|40.34,32.72|S|
@@ -418,7 +240,6 @@ A Cleansing the Waters |QID|9427|PRE|9426|M|23.4,36.5|N|From Amaan the Wise.|
 T Atonement |QID|9543|M|23.4,36.5|N|To Amaan the Wise.|
 A Sha'naar Relics |QID|9430|PRE|9543|M|23.4,36.5|N|From Amaan the Wise.|
 C Cleansing the Waters|N|Go here and use the Cleansing Vial, then kill Aggonis.|QID|9427|M|40.00,31.20|
-
 A Outland Sucks!|QID|10236|N|From Foreman Razelcraz.|M|51.31,30.5|
 C Outland Sucks!|N|Loot wooden crates in the shallow valley until you finish this quest.|QID|10236|M|48.26,40.81|
 T Outland Sucks!|QID|10236|N|To Foreman Razelcraz.|M|51.31,30.5|
@@ -437,7 +258,6 @@ H Honor Hold |QID|10400|N|Hearth to Honor Hold.|U|6948|M|55.00,86.80|
 T The Heart of Darkness |QID|10399|N|To Warp-Scryer Kryv|M|56.61,66.49|
 T Overlord|QID|10400|N|To Force Commander Danath Trollbane.|M|56.63,66.64|
 N Check for Upgrades |QID|9427|N| Now that you should be Honored with Honor Hold you might want to check the quartermaster for upgrades.|M|56.7,62.58|
-
 F Temple of Telhamat |QID|9427|N|Fly to Temple of Telhamat.|M|54.70,62.30|
 T Cleansing the Waters |QID|9427|M|23.4,36.5|N|To Amaan the Wise.|
 T Demonic Contamination |QID|9372|M|15.7,52.0|N|To Thiah Redmane.|
@@ -448,7 +268,6 @@ l Sha'naar Relics |N|Grab the 10 relics needed for this quest.|QID|9430|M|15.1,5
 C Cruel Taskmasters |N|Kill the 10 Taskmasters needed for this quest.|QID|9399|M|15.1,55.7|S|
 A Naladu|N|From Akoru the Firecaller.|QID|10403|LEAD|10367|M|15.61,58.76|
 T Naladu|QID|10403|M|16.3,65.1|N|To Naladu.|
-
 A A Traitor Among Us |QID|10367|M|16.3,65.1|N|From Naladu.|
 C A Traitor Among Us |N|Get the key from the chest here.|QID|10367|M|14.35,63.35|
 T A Traitor Among Us |QID|10367|M|16.3,65.1|N|To Naladu.|
@@ -464,7 +283,6 @@ l Sha'naar Relics |N|Grab the 10 relics needed for this quest.|QID|9430|M|15.1,5
 C Cruel Taskmasters |N|Kill the 10 Taskmasters needed for this quest.|QID|9399|M|15.1,55.7|US|
 C Keep Thornfang Hill Clear! |N|Kill the Ravagers and Venomspitters for this quest.|QID|10159|M|10.00,52.00|
 T Keep Thornfang Hill Clear! |QID|10159|M|15.7,52.0|N|To Mahuram Stouthoof.|
-
 T Cruel Taskmasters |QID|9399|M|23.1,40.3|N|To Ikan.|
 T Sha'naar Relics |QID|9430|M|23.4,36.5|N|To Amaan the Wise.|
 A The Seer's Relic |QID|9545|PRE|9430|M|23.4,36.5|N|From Amaan the Wise.|
@@ -473,8 +291,5 @@ T The Seer's Relic |QID|9545|M|23.4,36.5|N|To Amaan the Wise.|
 h Temple of Telhamat|M|23.23,36.5|N|At Caregiver Ophera Windfury.|
 F Shattrath City|M|25.18,37.22|N|Fly to Shattrath to visit you trainers, AH, etc.|
 H Temple of Telhamat|N|Hearth back to the Temple of Telhamat, this is will continue to the next guide.|
-
 ]]
 end)
-
-

@@ -1,147 +1,14 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_northern_stranglethorn_horde
--- Date: 2018-10-17 02:26
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3232/revisions/29201/view
--- Date: 2018-02-27 17:43
--- Who: Ludovicus_EditBot
--- Log: Level strip
-
--- URL: http://wow-pro.com/node/3232/revisions/29087/view
--- Date: 2018-02-20 21:30
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3232/revisions/28880/view
--- Date: 2018-01-16 23:39
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3232/revisions/28424/view
--- Date: 2017-03-15 23:17
--- Who: Ludovicus_Maior
--- Log: Added PREs to WkjNor2530
-
--- URL: http://wow-pro.com/node/3232/revisions/27523/view
--- Date: 2016-08-04 12:51
--- Who: tubera
--- Log: A bit of a cleanup. Fixing some QOs, QIDs, some destinations and add some notes.
-
--- URL: http://wow-pro.com/node/3232/revisions/27512/view
--- Date: 2016-08-01 01:46
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3232/revisions/27466/view
--- Date: 2016-07-17 20:18
--- Who: Ludovicus_Maior
--- Log: Got rid of the use of fake QIDs
-
--- URL: http://wow-pro.com/node/3232/revisions/26459/view
--- Date: 2014-06-02 15:27
--- Who: Ludovicus_Maior
--- Log: Set Levels
-
--- URL: http://wow-pro.com/node/3232/revisions/26231/view
--- Date: 2014-05-25 22:48
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3232/revisions/26101/view
--- Date: 2014-05-18 22:16
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3232/revisions/26030/view
--- Date: 2014-05-17 17:03
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3232/revisions/25827/view
--- Date: 2013-12-01 00:10
--- Who: Ludovicus_Maior
--- Log: Just a few tweaks
-
--- URL: http://wow-pro.com/node/3232/revisions/25714/view
--- Date: 2013-06-18 00:50
--- Who: Ludovicus_Maior
--- Log: Missing coordinate, 1/1 in guide WkjNor2530, line [C Raptor Mastery].
-
--- URL: http://wow-pro.com/node/3232/revisions/25502/view
--- Date: 2013-01-22 18:09
--- Who: Ludovicus_Maior
--- Log: Cleaned up guide start to account for Ashenvale.
---	Corrected flight point names.
---	Coord Tweaks.
-
--- URL: http://wow-pro.com/node/3232/revisions/25478/view
--- Date: 2013-01-13 19:41
--- Who: Ludovicus_Maior
--- Log: Added CC tag
-
--- URL: http://wow-pro.com/node/3232/revisions/25284/view
--- Date: 2013-01-09 00:26
--- Who: Ludovicus_Maior
--- Log: Add Tethis spawn points.
-
--- URL: http://wow-pro.com/node/3232/revisions/24477/view
--- Date: 2011-06-01 00:50
--- Who: Crackerhead22
--- Log: Fixed Z tag for line "R The Zep tower.|QID|99999|CC|M|52.32,54.41|Z|Orgimmar|N|On the NE tip.|", removed line "A The Green Hills of Stranglethorn|QID|26269|M|46.43,84.64|Z|" as it was a duplicate line.
-
--- URL: http://wow-pro.com/node/3232/revisions/24096/view
--- Date: 2011-02-04 22:34
--- Who: Ludovicus_Maior
--- Log: Changed WWoWPro.Leveling to WoWPro.Leveling
-
--- URL: http://wow-pro.com/node/3232/revisions/24089/view
--- Date: 2011-01-30 19:46
--- Who: Ludovicus_Maior
--- Log: Corrected RegisterGuide line to match GIT.
-
--- URL: http://wow-pro.com/node/3232/revisions/24088/view
--- Date: 2011-01-30 19:45
--- Who: Ludovicus_Maior
--- Log: Reformatted to eliminate rich text formatting.
---	No other changes were made.
-
--- URL: http://wow-pro.com/node/3232/revisions/23571/view
--- Date: 2010-12-04 18:51
--- Who: wkjezz
-
--- URL: http://wow-pro.com/node/3232/revisions/23549/view
--- Date: 2010-12-04 06:19
--- Who: wkjezz
-
--- URL: http://wow-pro.com/node/3232/revisions/23341/view
--- Date: 2010-12-03 10:36
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3232/revisions/23340/view
--- Date: 2010-12-03 10:36
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('WkjNor2530', "Leveling", 'Northern Stranglethorn', 'Gloves', 'Horde')
-WoWPro:GuideLevels(guide,24,29, 24.4358)
-WoWPro:NewGuideLevels(guide,25,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'WkjCap3035')
-WoWPro:GuideIcon(guide,"ACH",4906)
 WoWPro:GuideSteps(guide, function()
-
 return [[
-
 A Well, Come to the Jungle|QID|26416|M|50.6,67|Z|Ashenvale|N|This guide starts in Ashenvale. Start with Cromula, who wanders up and down the hall.|
 F Orgrimmar|QID|26416|M|49.49,65.24|Z|Ashenvale|N|Wind Tamer Shosok|
 T Well, Come to the Jungle|QID|26416|M|53.94,54.42|Z|Orgrimmar|N|To Bort.|
 A Northern Stranglethorn: The Fallen Empire|QID|26417|PRE|26416|LEAD|26278|M|53.94,54.42|Z|Orgrimmar|N|From Bort.|
 N Before you fly off|QID|26278|N|Now is a good time to train up, repair and get supplies.|
 R The Zep tower.|QID|26278|CC|M|52.52,53.18|Z|Orgrimmar|N|On the NE tip.|
-
 T Northern Stranglethorn: The Fallen Empire|QID|26417|M|38.41,50.52|N|To Commander Aggro'gosh.|
 A The Defense of Grom'gol: Raptor Risk|QID|26278|M|38.41,50.52|N|From Commander Aggro'gosh.|
 h Grom'gol Base Camp|QID|26278|M|37.36,51.83|N|At Innkeeper Thulbek. Repair/Restock here also.|
@@ -179,7 +46,6 @@ A An Unusual Patron|QID|9457|PRE|9436|M|38.08,50.15|N|From Nemeth Hawkeye.|
 C A Nose for This Sort of Thing|QID|26325|U|58165|M|19.03,25.78|N|Your new best friend will complete this quest for you as you are killing trolls.  Make sure you have empty bag slots though.|
 C Headhunting|QID|26299|M|18.57,25.06|
 C An Unusual Patron|QID|9457|U|23680|M|19.39,40.35|
-
 ;fix QID
 H Grom'gol Base Camp|QID|9457|N|Hearth back to base.|
 T An Unusual Patron|QID|9457|M|38.07,50.11|N|To Nemeth Hawkeye.|
@@ -217,7 +83,6 @@ C Tiger Stalking|QID|186|M|61.02,29.43|
 T Tiger Stalking|QID|186|M|61.02,29.43|N|UI Alert|
 A Tiger Prowess|QID|187|PRE|186|M|61.02,29.43|N|UI Alert|
 C Some Assembly Required|QID|26344|M|53.55,39.21|
-
 ;fix QID
 H Grom'gol Base Camp|QID|26344|N|Run back or hearth.|
 T Population Con-Troll|QID|26338|M|38.32,50.96|N|To Far Seer Mok'thardin.|
@@ -225,7 +90,6 @@ T Who's a Big Troll?|QID|26330|M|38.52,48.73|N|To Far Seer Mok'thardin.|
 T Nezzliok Will Know|QID|26300|M|38.52,48.73|N|To Far Seer Mok'thardin.|
 A Speaking with Nezzliok|QID|26301|PRE|26300|M|38.52,48.73|N|From Far Seer Mok'thardin.|
 A Skullsplitter Mojo|QID|26332|PRE|26330|M|38.52,48.73|N|From Far Seer Mok'thardin.|
-
 ;fix QID
 r Repair/Sell Junk|QID|187|CC|M|38.69,49.30|N|Vharr|
 C Tiger Prowess|QID|187|M|38.26,32.72|
@@ -251,7 +115,6 @@ C Excelsior|QID|26345|M|48.88,52.26|
 C Panther Prowess|QID|192|S|M|48.55,58.70|
 C Raptor Prowess|QID|196|S|M|54.97,54.41|
 C Skullsplitter Mojo|QID|26332|S|U|58165|M|57.58,58.48|N|Loot these from trolls|
-
 ;change L to QO
 C Speaking with Nezzliok|QID|26069|QO|2|M|54.50,61.31|N|The pile of skulls in this camp|
 C Speaking with Nezzliok|QID|26301|QO|1|M|60.10,56.03|N|The pile of skulls in this camp|
@@ -260,14 +123,12 @@ C Raptor Prowess|QID|196|US|M|58.09,58.70|
 T Raptor Prowess|QID|196|M|58.08,58.67|N|UI Alert|
 A Raptor Mastery|QID|197|PRE|196|M|58.08,58.67|N|UI Alert|
 C Raptor Mastery|QID|197|T|Tethis|M|59.60,62.45;62.83,61.80;64.70,58.08;59.17,59.12|CN|N|Use the button to hunt Tethis in this area.|
-
 ; add US
 C Panther Prowess|QID|192|US|M|60.25,47.97|
 T Panther Prowess|QID|192|M|60.25,47.97|N|UI Alert|
 A Panther Mastery|QID|193|PRE|192|M|60.25,47.97|N|UI Alert|
 C Panther Mastery|QID|193|T|Bhag'thera|M|64.62,38.31|N|Ride around the area useing the button to help you target her.|
 f Bambala|QID|193|M|62.40,39.23|N|At Raskha. PLEASE do not pick up quests from here yet.|
-
 ; fix QID and destination
 F Grom'gol|QID|26332|N|Fly to Grom'gol Base Camp.|
 T Skullsplitter Mojo|QID|26332|M|38.43,48.55|
@@ -280,7 +141,6 @@ T Raptor Mastery|QID|197|M|44.15,23.01|N|To Hemet Nesingwary Jr..|
 T Panther Mastery|QID|193|M|43.78,22.40|N|To Sir S. J. Erlgadin.|
 T Excelsior|QID|26345|M|43.64,23.34|N|To Drizzlik.|
 A Big Game Hunter|QID|208|PRE|188&193&197|M|44.11,23.02|N|From Hemet Nesingwary Jr..|
-
 ;fix QID
 H Grom'gol Base Camp|QID|26350|N|Hearth Back|
 C Big Game Hunter|QID|208|M|46.26,58.65|
@@ -294,7 +154,6 @@ A Mind Vision|QID|26351|PRE|26350|M|63.27,38.97|N|From Priestess Hu'rala.|
 T Chasing Yenniku's Fate|QID|26302|M|63.17,41.39|N|To Kin'weelay.|
 A The Mind's Eye|QID|26303|PRE|26302|M|63.17,41.39|N|From Kin'weelay.|
 C Mind Vision|QID|26351|M|56.16,50.15|
-
 ;fix QID
 R Cave entrance|QID|26303|CC|M|66.45,49.00|N|Welcome to Orgeville|
 R The Mind's Eye|QID|26303|M|67.54,48.27;67.61,47.12;70.07,48.84|CC|N|Follow this path|
@@ -352,7 +211,4 @@ T Zul'Mamwe Mambo|QID|26405|M|63.27,38.83|N|To Surkhan.|
 A Above My Pay Grade|QID|26404|LEAD|26450|M|63.10,40.05|N|From Skeezy Whillzap.|
 F Harwrench Hideaway|QID|26404|N|Talk to the Raskha (Select the speech bubble)|
 ]]
-
 end)
-
-

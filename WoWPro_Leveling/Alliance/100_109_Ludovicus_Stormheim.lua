@@ -1,261 +1,12 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/stormheim_alliance
--- Date: 2018-10-30 07:28
--- Who: jovieve
--- Log: Added missing T step
-
--- URL: http://wow-pro.com/node/3683/revisions/29915/view
--- Date: 2018-10-17 02:22
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3683/revisions/29871/view
--- Date: 2018-10-04 03:02
--- Who: elidion
--- Log: Accuracy pass
-
--- URL: http://wow-pro.com/node/3683/revisions/29850/view
--- Date: 2018-09-28 20:44
--- Who: elidion
--- Log: Reverted to old guide before RARE edits were made and went through manually adding RARE and FLY tags, cleaned up the ACTIVE/AVILABLE/PRE tags on N,R,H,h,P,F & f steps.
-
--- URL: http://wow-pro.com/node/3683/revisions/29825/view
--- Date: 2018-09-24 07:48
--- Who: elidion
--- Log: Updated zone tags, skip F tags if you have legion flying.
-
--- URL: http://wow-pro.com/node/3683/revisions/29737/view
--- Date: 2018-09-13 00:53
--- Who: elidion
--- Log: Changes for skip rares and treasures feature.
-
--- URL: http://wow-pro.com/node/3683/revisions/29012/view
--- Date: 2018-02-19 23:19
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3683/revisions/28953/view
--- Date: 2018-01-17 00:43
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3683/revisions/28758/view
--- Date: 2017-08-27 18:50
--- Who: Ludovicus_Maior
--- Log: Changed "Talonrest" coordinates
-
--- URL: http://wow-pro.com/node/3683/revisions/28559/view
--- Date: 2017-03-23 17:49
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL: http://wow-pro.com/node/3683/revisions/28544/view
--- Date: 2017-03-22 08:05
--- Who: Emmaleah
--- Log: added path to treasure just before Stormwing Matriarch (rather than jumping off the waterfall.)
-
--- URL: http://wow-pro.com/node/3683/revisions/28531/view
--- Date: 2017-03-18 01:10
--- Who: Emmaleah
--- Log: Bunches of changes, rank 2 on all (unranked) treasure and silvers. minor change or order in Hrydsal, syntax fixes, spelling, etc. Added final quests in dungeon and after getting out.
-
--- URL: http://wow-pro.com/node/3683/revisions/28348/view
--- Date: 2017-03-11 20:43
--- Who: Ludovicus_Maior
--- Log: Syntax changes.
-
--- URL: http://wow-pro.com/node/3683/revisions/28134/view
--- Date: 2016-12-10 05:08
--- Who: Blanckaert
--- Log: Changed Leatherworking;164 to 165
-
--- URL: http://wow-pro.com/node/3683/revisions/28129/view
--- Date: 2016-12-10 02:41
--- Who: Emmaleah
--- Log: Added Hunter Quest for Champion Huntsman Blake
-
--- URL: http://wow-pro.com/node/3683/revisions/28126/view
--- Date: 2016-12-09 20:05
--- Who: Blanckaert
--- Log: Guide now if on Rank 3 will get all kill and treasures needed for achieves.
-
--- URL: http://wow-pro.com/node/3683/revisions/28124/view
--- Date: 2016-12-09 14:59
--- Who: Blanckaert
--- Log: removed the 5 K steps after end of guide, as they've been moved into guide at (approx) right areas, just forgot to remove the day before
-
--- URL: http://wow-pro.com/node/3683/revisions/28122/view
--- Date: 2016-12-09 14:53
--- Who: Blanckaert
--- Log: added pre to 39405, adjusted top level and meanlevel
-
--- URL: http://wow-pro.com/node/3683/revisions/28121/view
--- Date: 2016-12-09 04:04
--- Who: Blanckaert
--- Log: moved something, added a couple Kill silvers, that were not in guide.
-
--- URL: http://wow-pro.com/node/3683/revisions/28114/view
--- Date: 2016-12-07 05:15
--- Who: Blanckaert
--- Log: moved a quest or four around, changed the flow of one
-
--- URL: http://wow-pro.com/node/3683/revisions/28111/view
--- Date: 2016-12-07 01:07
--- Who: Blanckaert
--- Log: added PREs with Ludo's New code
-
--- URL: http://wow-pro.com/node/3683/revisions/28104/view
--- Date: 2016-12-06 16:35
--- Who: Blanckaert
--- Log: adding of PRE tags
-
--- URL: http://wow-pro.com/node/3683/revisions/28102/view
--- Date: 2016-12-05 17:46
--- Who: Blanckaert
--- Log: more PREs added. (and minor adjustments)
-
--- URL: http://wow-pro.com/node/3683/revisions/28097/view
--- Date: 2016-12-05 07:07
--- Who: Blanckaert
--- Log: minor adjustments / adding of PRE tags, and some ranks
-
--- URL: http://wow-pro.com/node/3683/revisions/28094/view
--- Date: 2016-12-04 22:14
--- Who: Blanckaert
--- Log: Trial of Might section changes, adjusted T Qid 38210, as pointed to Horde one. Also added PRE, Rank on some Treasures.
-
--- URL: http://wow-pro.com/node/3683/revisions/27935/view
--- Date: 2016-10-19 01:10
--- Who: Ludovicus_Maior
--- Log: Level Tweak
-
--- URL: http://wow-pro.com/node/3683/revisions/27914/view
--- Date: 2016-10-14 03:41
--- Who: tubera
--- Log: Move right foot before grappling up
-
--- URL: http://wow-pro.com/node/3683/revisions/27912/view
--- Date: 2016-10-14 03:23
--- Who: tubera
--- Log: Change coordinates for Havi's Test.
-
--- URL: http://wow-pro.com/node/3683/revisions/27859/view
--- Date: 2016-10-02 02:29
--- Who: tubera
--- Log: Remove QO without objective from C Singed Feathers
-
--- URL: http://wow-pro.com/node/3683/revisions/27852/view
--- Date: 2016-09-28 22:12
--- Who: Ludovicus_Maior
--- Log: Where did that Loot come from?
-
--- URL: http://wow-pro.com/node/3683/revisions/27822/view
--- Date: 2016-09-19 22:33
--- Who: Ludovicus_Maior
--- Log: Someone did a fat-fingered edit!
-
--- URL: http://wow-pro.com/node/3683/revisions/27813/view
--- Date: 2016-09-18 14:29
--- Who: tubera
--- Log: Tweak between a grapple a day-another way
-
--- URL: http://wow-pro.com/node/3683/revisions/27804/view
--- Date: 2016-09-16 22:35
--- Who: Emmaleah
--- Log: change registration levels to 100-109 and next guide to Blanc_Suramar
-
--- URL: http://wow-pro.com/node/3683/revisions/27753/view
--- Date: 2016-09-13 18:37
--- Who: Ludovicus_Maior
--- Log: A good V1.0
-
--- URL: http://wow-pro.com/node/3683/revisions/27751/view
--- Date: 2016-09-13 17:57
--- Who: tubera
--- Log: Remove QO from T Supplies From the Skies.
-
--- URL: http://wow-pro.com/node/3683/revisions/27742/view
--- Date: 2016-09-12 03:17
--- Who: Blanckaert
--- Log: Added |LVL|-109| Tags to Bonus Objectives
-
--- URL: http://wow-pro.com/node/3683/revisions/27740/view
--- Date: 2016-09-12 02:49
--- Who: Ludovicus_Maior
--- Log: Play through till T [A Stack of Racks]
-
--- URL: http://wow-pro.com/node/3683/revisions/27738/view
--- Date: 2016-09-11 21:06
--- Who: Ludovicus_Maior
--- Log: Play through to [Felskorn Warcamp]
-
--- URL: http://wow-pro.com/node/3683/revisions/27734/view
--- Date: 2016-09-10 21:47
--- Who: Ludovicus_Maior
--- Log: Play through to[Knocking on Valor's Door]. Added prototype for faction specific Skold-Ashil section.
-
--- URL: http://wow-pro.com/node/3683/revisions/27731/view
--- Date: 2016-09-10 02:30
--- Who: Ludovicus_Maior
--- Log: Played through to [A Little Kelp From My Foes]
-
--- URL: http://wow-pro.com/node/3683/revisions/27707/view
--- Date: 2016-09-07 01:49
--- Who: Ludovicus_Maior
--- Log: Play through to [Plight of the Blackfeather]
-
--- URL: http://wow-pro.com/node/3683/revisions/27701/view
--- Date: 2016-09-06 20:40
--- Who: Ludovicus_Maior
--- Log: Add a warning!
-
--- URL: http://wow-pro.com/node/3683/revisions/27694/view
--- Date: 2016-09-06 02:44
--- Who: Ludovicus_Maior
--- Log: Play-though to [Above the Winter Moonlight]
-
--- URL: http://wow-pro.com/node/3683/revisions/27691/view
--- Date: 2016-09-05 19:46
--- Who: Ludovicus_Maior
--- Log: Started Trial of might section.
-
--- URL: http://wow-pro.com/node/3683/revisions/27686/view
--- Date: 2016-09-04 00:28
--- Who: Ludovicus_Maior
--- Log: First playthrough till just before The Trial of Might section.
-
--- URL: http://wow-pro.com/node/3683/revisions/27678/view
--- Date: 2016-09-02 00:35
--- Who: Ludovicus_Maior
--- Log: Partial cross with horde version.
-
--- URL: http://wow-pro.com/node/3683/revisions/27668/view
--- Date: 2016-08-31 22:46
--- Who: Ludovicus_Maior
--- Log: Make it load sans errors.
-
--- URL: http://wow-pro.com/node/3683/revisions/27667/view
--- Date: 2016-08-31 22:25
--- Who: Ludovicus_Maior
--- Log: So far
-
 local guide = WoWPro:RegisterGuide('LudoStormheim', 'Leveling', 'Stormheim', 'Ludovicus', 'Alliance')
-WoWPro:GuideLevels(guide, 98, 110, 98.1628)
-WoWPro:NewGuideLevels(guide,98,110)
-WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\Achievements_Zone_Stormheim")
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 N Starting in Dalaran|QID|39735|U|140192|N|This guide assumes you are starting in Dalaran. |
 N Treasure|QID|39735|N|All treasures necessary for the zone treasure hunting achievement are listed if you do the guide on rank 1. If you are using handy notes treasures, there treasure symbol will show over the tomtom green dot, obscuring it, the arrow will still work fine.|
 N Rares (Silver Elite)|QID|39735|N|All of the Silver mobs are also included. The item displayed has a high chance to drop but not guarenteed. Blizzard has marked these mobs on the minimap with a star.|
 N Ranks|QID|39735|N|Setting the guide to Rank 1 will get you all of the essential questlines for the zone questing achievement. Rank 2, adds the quests you may as well do while you are there. Rank 3 gets every quest&treasure and rare in the zone.|
-
 ; Greymane's Gambit Leadin
 R The Violet Citadel|QID|39735|M|29.10,46.93|Z|Dalaran!Dalaran!Dungeon|N|At Sky Admiral Rogers.|FLY|LEGION|
 T Stormheim|QID|39735|M|29.10,46.93|Z|Dalaran!Dalaran!Dungeon|N|To Sky Admiral Rogers.|
@@ -269,7 +20,6 @@ C Making the Rounds|QID|38206|M|18.59,47.58|Z|Stormwind City|QO|2|NC|N|Use your 
 C Making the Rounds|QID|38206|M|18.62,50.90|Z|Stormwind City|QO|3|N|Click on Genn Greymane.|
 T Making the Rounds|QID|38206|M|18.67,51.12|Z|Stormwind City|N|To Genn Greymane.|
 A Greymane's Gambit|QID|39800|PRE|38206|M|18.67,51.12|Z|Stormwind City|N|From Genn Greymane.|
-
 ; Greymane's Gambit Scenario
 C Man the Deck Guns|QID|39800|M|31.94,8.43|Z|AraukNashalIntroScenario|SO|1;1|N|Click on a Deck gun and get going!|
 C Fire at Will!|QID|39800|M|53.65,21.84|Z|AraukNashalIntroScenario|SO|2;1|N|Use the Deck Guns to shoot down Forsaken Dreadwings.|
@@ -281,7 +31,6 @@ C Justice from Above|QID|39800|Z|AraukNashalIntroScenario|SO|3|US|N|Head below d
 C Bats in the Bomb Bay|QID|39800|Z|AraukNashalIntroScenario|SO|4;1|N|Remove Volatile Flares from Skyfire bomb bay.|
 C Last Stand|QID|39800|M|69.14,74.70|Z|AraukNashalIntroScenario|SO|5;1|N|Defeat Nathanos Blightcaller on the deck of the Skyfire.|
 C Greymane's Gambit|QID|39800|M|69.14,74.70|N|Greymane's mission complete. If you find yourself here in the guide without having done the scenario, it probably means the scenario didn't load, (i.e. you are still in Stormwind Harbor). Talk to Sky Admiral Rogers to restart it and immediately after the loading screen, run to one of the ships guns.|
-
 ; The Aftermath
 T Greymane's Gambit|QID|39800|M|33.71,51.02|N|To Sky Admiral Rogers.|
 A Boarded!|QID|38052|M|33.71,51.02|N|From Sky Admiral Rogers.|
@@ -317,7 +66,6 @@ $ Small Treasure Chest|QID|43196|M|32.93,48.10;32.06,47.20|CS|N|On top of the We
 C Signal Boost|QID|38060|M|32.41,49.90|QO|1|NC|N|Click on the Distress Signal.|
 C Signal Boost|QID|38060|M|32.22,49.90|QO|2|N|Defend the Transponder from fosaken and a Dragon!|
 T Signal Boost|QID|38060|M|33.81,46.03|N|To Sky Admiral Rogers.|
-
 ; The Trial of Might
 A The Ancient Trials|QID|38210|PRE|38060|M|33.74,45.80|N|From Muninn.|
 A Stormforged Grapple Launcher|QID|39775|M|33.80,45.79|N|From Stormforged Grapple Launcher.|
@@ -330,7 +78,6 @@ C Havi's Test|QID|38331|M|42.91,49.12|QO|1|NC|N|Click on the vegetables, face th
 C Havi's Test|QID|38331|M|42.91,49.41|QO|2|NC|N|Click on the crabs, face the stewpot, adjust angle if needed and press "4".|
 C Havi's Test|QID|38331|M|43.06,49.45|QO|3|NC|N|Click on the hearty grains, face the stewpot, adjust angle if needed and press "4".|
 T Havi's Test|QID|38331|M|43.14,49.21|N|To Havi.|
-
 A Ahead of the Game|QID|39590|PRE|38331|M|43.14,49.21|N|From Havi.|
 A A Worthy Challenger-Bonus Objective|QID|38442|PRE|38331|LVL|-109|M|41.83,43.06|N|Auto Accepted upon entering the area.|RANK|2|
 C A Worthy Challenger-Bonus Objective|QID|38442|M|41.83,43.06|S|N|Kill Bloodtotems, Mightstones and Felskorn and destroy totems and banners to advance the objective.|
@@ -354,7 +101,6 @@ C A Trial of Valor|QID|39591|M|50.49,44.78|QO|1|NC|N|Learn about the Trial of Va
 $ Treasure Chest|QID|38483|M|50.13,42.10;50.32,41.00|CS|N|Loot for a bit of treasure and resources.|RANK|2|
 C The Shattered Watcher|QID|39593|M|48.69,41.71|QO|4|NC|N|Yotnar's Right Foot.|
 $ Treasure Chest|QID|43246|M|48.48,41.28;48.89,40.92;49.52,40.96;50.14,40.77|CS|N|Standing at the first coordinate, look up and northeast.  Follow the grapple hook path towards the 2nd coordinate to find the chest. Loot for a bit of treasure and resources.|RANK|2|
-
 T A Trial of Valor|QID|39591|M|46.75,44.42|N|To Yotnar's Head.|
 T A Trial of Will|QID|39592|M|46.75,44.42|N|To Yotnar's Head.|
 T The Shattered Watcher|QID|39593|M|46.75,44.42|N|To Yotnar's Head.|
@@ -368,9 +114,7 @@ C A Worthy Challenger-Bonus Objective|US|QID|38442|M|49.73,40.88|N|Finish this u
 t A Worthy Challenger-Bonus Objective|QID|38442|M|42.99,41.03|N|Auto turned in when complete.|RANK|2|
 T The Blessing of the Watchers|QID|39597|M|43.17,49.15|N|To Havi.|
 A Will of the Thorignir|QID|38473|PRE|39597|M|43.17,49.15|N|From Havi.| ; Alliance 38473, Horde 38611
-
 ; The Trial of Will (Cry Thunder!)
-
 R Lorna's Watch|ACTIVE|38473|M|40.34,51.45;45.11,54.33;42.85,59.10;38.32,63.60|CS|N|Lets ride on to Hrydshal and then to the Watch.|FLY|LEGION|
 f Lorna's Watch|ACTIVE|38473|M|37.41,63.99|N|At Donovan.|
 T Will of the Thorignir|QID|38473|M|37.38,63.85|N|To Commander Lorna Crowley.|
@@ -411,7 +155,6 @@ K Another Way|ACTIVE|38342|M|46.24,72.39|QO|1|T|Gunnlaug Scaleheart|N|Kill Gunnl
 C Another Way|QID|38342|M|45.70,73.12|QO|2|N|Climb the Tower. Turn in at Top, BEFORE grappling across.|
 T Another Way|QID|38342|M|45.62,73.09|N|To Commander Lorna Crowley.|
 A Above the Winter Moonlight|QID|38412|PRE|38342|M|45.65,73.08|N|From Commander Lorna Crowley.|
-
 C Above the Winter Moonlight|QID|38412|M|46.36,74.37|QO|1|N|Grapple to the Mountain Path.|
 $ Small Treasure Chest|QID|38476|M|48.09,75.79;49.89,73.72;48.93,72.75;48.13,74.22|CS|N|Beside the waterfall, loot for a bit of treasure and resources.|RANK|2|
 K Kill Stormwing Matriarch|QID|38423|M|49.6,71.6|T|Stormwing Matriarch|QO|1|ITEM|129110|N|Silver - Kill and loot for a bit of treasure and resources. Also drops a pet.|RANK|2|RARE|
@@ -447,9 +190,7 @@ C Cry Thunder!|QID|38624|M|43.60,70.78|QO|2|NC|N|Standard bombing run, if one of
 C Cry Thunder!|QID|38624|M|47.46,54.27|QO|3|NC|N|Your ride returns to near Amberfall Mesa.|
 T Cry Thunder!|QID|38624|M|48.07,54.58|N|To Huginn.|
 A The Trials Continue|QID|39803|PRE|38624|M|47.91,54.63|N|From Huginn.|
-
 ; Side Excursions
-
 K Kill Tiptog the Lost|QID|38774|M|46.29,50.01|T|Tiptog the Lost|QO|1|ITEM|129163|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Glimmering Treasure Chest|QID|38763|M|49.70,49.20;49.69,47.28|CS|N|Dodge the energy beams, open the chest, be ready to fight.  Loot for a bit of treasure and resources.|RANK|2|
 R Talonrest|ACTIVE|39803|M|50.40,56.45|N|Run to Talonrest, for some quests.|RANK|2|FLY|LEGION|
@@ -506,9 +247,7 @@ C A Stone Cold Gamble|QID|39786|M|46.66,61.04|T|Stonefang|N|Keep moving around, 
 $ Small Treasure Chest|QID|38681|M|47.25,61.72;47.63,63.29;48.19,64.19;48.18,65.20;46.60,64.96|CS|N|Across the waterfall, inside the cave.  Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure Chest|QID|38738|M|47.97,62.37|N|Underwater and the base of the waterfall. Loot for a bit of treasure and resources.|RANK|2|
 T A Stone Cold Gamble|QID|39786|M|51.31,56.99|N|To Snaggle Sixtrigger.|RANK|2|
-
 ; Back to business - The Trial of Valor
-
 R Valdisdall|ACTIVE|39803|M|51.12,54.76;57.87,50.47|CS|N|Off to Valdisdall.|FLY|LEGION|
 h Set Hearth to Valdisdall|ACTIVE|39803|M|60.54,50.26|N|At Riala the Hearthwatcher. If you are doing this on Rank 2 or 3.  It will save you a lot of time.|RANK|2|
 f Valdisdall|ACTIVE|39803|M|60.73,50.86|N|At Garhal the Scalekeeper.|
@@ -549,7 +288,6 @@ K The Nameless King|QID|38685|M|67.26,39.93|QO|1|T|The Nameless King|N|Click on 
 C Judgment Day|QID|38811|M|66.87,45.77|QO|3|N|Judged by Oktel Dragonblood|T|Oktel Dragonblood|
 $ Small Treasure Chest|QID|43302|M|64.20,41.58;64.29,39.55|CS|N|Loot for a bit of treasure and resources.|RANK|2|
 C Lay Them to Rest|QID|39791|M|64.71,45.39|U|128772|US|N|Finish returning the Restless Ancestors to the earth.|
-
 T Judgment Day|QID|38811|M|68.18,48.69|N|To Shieldmaiden Iounn.|
 A Regal Remains|QID|38817|PRE|38811|M|68.18,48.69|N|From Shieldmaiden Iounn.|
 T Lay Them to Rest|QID|39791|M|68.18,48.69|N|To Shieldmaiden Iounn.|
@@ -626,7 +364,6 @@ A A Heavy Burden|QID|40078|PRE|39855|M|60.14,50.74|N|From Havi.|
 C A Heavy Burden|QID|40078|M|59.97,50.62;60.53,51.22|CS|NC|N|Carry Havi's fish to the fire.|
 T A Heavy Burden|QID|40078|M|60.13,50.72|N|To Havi.|
 A Knocking on Valor's Door|QID|40001|PRE|40078|M|60.13,50.72|N|From Havi.|
-
 A To Catch a Banshee|QID|39059|PRE|39855|M|59.97,51.36|N|From Ensign Ward.|
 C To Catch a Banshee|QID|39059|M|71.54,59.82|CHAT|N|Chat with Ensign Ward to take you to Greywatch.|
 f Greywatch|ACTIVE|39059|M|72.18,59.85|N|At Gryphonp-Master Clifford.|
@@ -670,7 +407,6 @@ C Becoming the Ascendant|QID|39092|M|61.36,66.75|QO|4|NC|N|Recieve Blessing at E
 C Becoming the Ascendant|QID|39092|M|61.72,68.09|QO|5|CHAT|N|Commune with the statue.|
 $ Treasure Chest|QID|40091|M|61.82,70.38;62.12,71.26;62.15,72.48;62.59,73.64|CS|N|Grapple up this path to the top of the tower. Loot for a bit of treasure and resources.|RANK|2|
 K Inquistor Ernstenbok|QID|37908|M|63.69,74.31|QO|1|ITEM|140685|T|Inquisitor Ernstenbok|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
-
 R Jotunnwood|ACTIVE|39792|M|58.94,73.97;58.36,74.35;58.20,75.19|CC|N|Run across here, then grapple up to the top.|RANK|2|FLY|LEGION|
 C A Stack of Racks|QID|39792|M|51.97,75.72|S|N|Kill the stout higlands runehorns and collect Meaty Rack of Musken Ribs.|RANK|2|
 K Kill Hannval the Butcher|QID|42591|M|51.69,74.50|QO|1|T|Hannval the Butcher|N|Silver - Kill for treasure and resources.|RANK|2|RARE|
@@ -715,7 +451,6 @@ C Stormheim's Salvation|QID|40005|M|70.94,70.16|N|God-King Skovald defeated.|
 T Stormheim's Salvation|QID|40005|M|70.25,69.24|N|Ask Vethir for a ride back down so you can turn the quest in to Havi.|
 A Securing the Aegis|QID|40072|PRE|40005|M|70.25,69.24|N|From Havi. This is a dungeon quest, so queue, call friends over or check it off and move on.|
 H Return to Dalaran|QID|40072|M|70.52,69.24|U|140192|N|If you are doing this guide on rank 1, you are done now, except for the instance quest, hearth to Dalaran and/or your class hall and continue on your adventuring.|LEAD|39792|RANK|-1|
-
 R Valdisdall|AVAILABLE|39984|M|63.00,48.61|U|6948|N|On to Valdisdall for some optional quests, silvers and treasure.|PRE|40005|RANK|2|FLY|LEGION|
 A Remnants of the Past|QID|39984|M|63.00,48.61|N|From Watcher's Journal.|RANK|2|
 C Remnants of the Past|QID|39984|M|60.75,46.12|QO|1|NC|N|Find the first clue.|RANK|2|
@@ -746,15 +481,13 @@ C To Honor the Fallen|QID|43595|M|60,43|US|N|Finish collecting the weapons.|RANK
 T Scavenging the Shallows|QID|40046|M|58.94,42.81|N|To Havi.|RANK|2|
 T To Honor the Fallen|QID|43595|M|58.94,42.81|N|To Havi.|RANK|2|
 T Shadows in the Mists|QID|40044|M|58.94,42.81|N|To Havi. Follow up is a dungeon quest and not available until you are level 110.|RANK|2|
-A Piercing the Mists|QID|43596|PRE|40046|M|58.94,42.81|N|From Havi. This is a dungeon quest. Pick it up or check it off manually.|LVL|110|
-
+A Piercing the Mists|QID|43596|PRE|40046|M|58.94,42.81|N|From Havi. This is a dungeon quest. Pick it up or check it off manually.|
 R Talonrest|ACTIVE|39792|M|53.73,53.88;51.36,57.13|CS|U|6948|N|Headed back to see those shady goblins.|RANK|2|FLY|LEGION|
 T A Stack of Racks|QID|39792|M|51.36,57.13|N|To Rax Sixtrigger.|RANK|2|
 A Put It All on Red|QID|42483|PRE|39786&39792|M|51.37,57.32|N|From Snaggle Sixtrigger.|RANK|2|
 R Inkbinder's Rise|ACTIVE|42483|M|51.85,54.48;61.93,55.03;70.55,47.98;70.73,47.56|CS|N|Run past Valdisdall, through Runewood and Field of the Fallen Kings and finally into Inkbinder's Rise.|RANK|2|FLY|LEGION|
 K Kill Kottr Vondyr|QID|40109|M|73.46,47.68|QO|1|ITEM|138419|T|Kottr Vondyr|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 $ Small Treasure Chest|QID|43194|M|73.10,45.72|N|Loot for a bit of treasure and resources.|RANK|2|
-
 R Dreygrot|ACTIVE|42483|M|72.15,47.45;72.47,51.58|CS|N|Run through Runewood to Dreygrot.|RANK|2|FLY|LEGION|
 A The Mystery of Dreyrgrot|QID|42635|M|74.93,55.57|N|From Sir Finley Mrrgglton.|RANK|2|
 A A Stone of Blood|QID|42639|M|74.93,55.57|N|From Sir Finley Mrrgglton.|RANK|2|
@@ -775,7 +508,6 @@ C What the Bonespeakers Buried|QID|42641|M|72.31,51.59|N|You have to click on hi
 C Spilling Bad Blood|QID|42645|M|72.98,55.60|N|Finish up the Blood-Crazed Swashbucklers.|RANK|2|
 T What the Bonespeakers Buried|QID|42641|M|74.91,55.59|N|To Sir Finley Mrrgglton.|RANK|2|
 T Spilling Bad Blood|QID|42645|M|74.91,55.59|N|To Sir Finley Mrrgglton.|RANK|2|
-
 A Rout the Bilgefin Invaders-Bonus Objective|QID|40111|LVL|-109|M|80.44,53.11|N|Auto-accepted as you enter the area.|RANK|2|
 A A Murky Fate|QID|40120|M|78.24,58.67|N|From Morheim Ancestor.|RANK|2|
 C Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|80.44,53.11|N|Kill Murlocks, burn the houses, break the spears, etc to advance the objective. Click to proceeed.|RANK|2|
@@ -788,17 +520,16 @@ t Rout the Bilgefin Invaders-Bonus Objective|QID|40111|M|81.12,61.30|N|Auto turn
 T A Murky Fate|QID|40120|M|78.24,58.64|N|To Morheim Ancestor.|RANK|2|
 $ Small Treasure Chest|QID|43191|M|82.40,54.51|N|Loot for a bit of treasure and resources.|RANK|2|
 C Put It All on Red|QID|42483|M|81.58,52.56|T|Steelscale|N|This is difficult to solo for most classes. You may want to bring a friend. Kill Steelscale and loot his fin.|RANK|2|
-T Baron and the Huntsman|QID|42397|M|80.62,63.14;80.13,66.22|CS|C|HUNTER|N|To Huntsman Blake. This quest comes from Trueshot Lodge and may be only a lead-in, and you can start with Awakening the Senses.|LVL|101|
-A Awakening the Senses|QID|42398|M|80.13,66.22|C|HUNTER|N|From Huntsman Blake.|PRE|42397|LVL|101|
+T Baron and the Huntsman|QID|42397|M|80.62,63.14;80.13,66.22|CS|C|HUNTER|N|To Huntsman Blake. This quest comes from Trueshot Lodge and may be only a lead-in, and you can start with Awakening the Senses.|
+A Awakening the Senses|QID|42398|M|80.13,66.22|C|HUNTER|N|From Huntsman Blake.|PRE|42397|
 C Awakening the Senses|QID|42398|M|80.80,65.63|C|HUNTER|N|Loot the small piles of bones scattered around.  Rarely, looting one will cause a skeleton to spawn which will also drop a bone or two.|
 T Awakening the Senses|QID|42398|M|80.13,66.22|C|HUNTER|N|To Huntsman Blake.|
 A Champion: Huntsman Blake|QID|42412|M|80.13,66.22|C|HUNTER|N|From/To Huntsman Blake.|PRE|42398|
 A Ready to Work|QID|42399|M|80.13,66.22|C|HUNTER|N|From Huntsman Blake.|PRE|42397|
-
 R Talonrest|ACTIVE|42483|M|51.4,57.4|U|6948|N|If you set your hearthstone to Valdisdall, this is where you want to use it!|RANK|2|FLY|LEGION|
 T Put It All on Red|QID|42483|M|51.41,57.35|N|To Snaggle's Note. (Optional) Use your reward (magnifying glass) to determine the true value of the other quest rewards.|RANK|2|
 U Dalaran|AVAILABLE|43331|U|140192|N|Return to Dalaran (via Hearthstone or however you choose).|RANK|2|PRE|42483|
-A Class Specific Quest|QID|44550^44087^42666^42516^42517^42481^42175^42186^42844^44100^43007^44544^42600^42597|Z|Dalaran!Dalaran!Dungeon|N|Someone will follow you around Dalaran until you accept this quest.|LVL|101|
+A Class Specific Quest|QID|44550^44087^42666^42516^42517^42481^42175^42186^42844^44100^43007^44544^42600^42597|Z|Dalaran!Dalaran!Dungeon|N|Someone will follow you around Dalaran until you accept this quest.|
 ;44550 Death Knight - Called to Acherus
 ;44087/42666 Demon Hunter - Return to the Fel Hammer
 ;42516 Druid - Growing Power
@@ -819,24 +550,21 @@ T The Aegis of Aggramar|QID|43349|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|
 A Pressing the Assault|QID|44545|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|
 A Isle Hopping|QID|44547|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|
 A Scouring What Remains|QID|44548|M|49.45,62.29|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|
-
-A Time to Collect|QID|43331|M|50.14,22.64|Z|Dalaran!Dalaran!Dungeon|N|From Gazrix Gearlock beside the north bank.|RANK|3|LVL|110|
-F Valdisdall|ACTIVE|43331|M|69.84,51.17|Z|Dalaran!Dalaran!Dungeon|N|This is meant to be a group quest so take a friend or two. (if you set your hearth thats an option too.)|RANK|3|LVL|110|FLY|LEGION|
-R Loch Varmad|ACTIVE|43331|M|60.52,52.14;67.08,38.84;66.01,25.52|CS|N|Run down this path and across the water to avenge those Tauren and...treasure.|RANK|3|LVL|110|FLY|LEGION|
-C Time to Collect|QID|43331|M|69.97,21.96;69,27.5|CS|N|Look straight up from first coordinate, Use Grappling Hook to get onto Island, continuing grappling upward until you are to the top. Kill them within a minute of each other, or else the first one dead may respawm. (If he does respawn, you can avoid him, but it adds difficulty).|RANK|3|LVL|110|
-$ Treasure Chest|QID|40108|M|68.42,29.60|CS|N|Chest is on the rock, path starts right behind Rax Sixtrigger. Loot for resources and treasure.|RANK|3|LVL|110|;doesnt actually require 110, but this is way too remote to come out if you arent doing the sixtriggers quest.
-T Time to Collect|QID|43331|M|68.89,26.04|N|To the Sixtriggers' Premium Stash.|LVL|110|RANK|3|
+A Time to Collect|QID|43331|M|50.14,22.64|Z|Dalaran!Dalaran!Dungeon|N|From Gazrix Gearlock beside the north bank.|RANK|3|
+F Valdisdall|ACTIVE|43331|M|69.84,51.17|Z|Dalaran!Dalaran!Dungeon|N|This is meant to be a group quest so take a friend or two. (if you set your hearth thats an option too.)|RANK|3|FLY|LEGION|
+R Loch Varmad|ACTIVE|43331|M|60.52,52.14;67.08,38.84;66.01,25.52|CS|N|Run down this path and across the water to avenge those Tauren and...treasure.|RANK|3|FLY|LEGION|
+C Time to Collect|QID|43331|M|69.97,21.96;69,27.5|CS|N|Look straight up from first coordinate, Use Grappling Hook to get onto Island, continuing grappling upward until you are to the top. Kill them within a minute of each other, or else the first one dead may respawm. (If he does respawn, you can avoid him, but it adds difficulty).|RANK|3|
+$ Treasure Chest|QID|40108|M|68.42,29.60|CS|N|Chest is on the rock, path starts right behind Rax Sixtrigger. Loot for resources and treasure.|RANK|3|;doesnt actually require 110, but this is way too remote to come out if you arent doing the sixtriggers quest.
+T Time to Collect|QID|43331|M|68.89,26.04|N|To the Sixtriggers' Premium Stash.|RANK|3|
 R Shield's Rest|ACTIVE|44545|M|71.93,16.84;76.45,10.28|CS|N|Runing to here will get you the Exploration Achievement.|RANK|3|FLY|LEGION|
 f Shield's Rest|ACTIVE|44545|M|90.02,10.28|N|Run around the island - Level 110 Elites, to get this Flight path.|RANK|3|
 N End of Stormheim|QID|99999|U|140192|N|Return to your Class Order Hall to pick your next zone and tend to your missions.|
-
 C Pressing the Assault|QID|44545|N|Go to your order hall and choose the next strike point at your scouting map.|
 C Isle Hopping|QID|44547|N|Go to your order hall and choose the next strike point at your scouting map.|
 C Scouring What Remains|QID|44548|N|Go to your order hall and choose the last strike point at your scouting map.|
 T Pressing the Assault|QID|44545|N|To UI Alert.|
 t Isle Hopping|QID|44547|N|To UI Alert.|
 t Scouring What Remains|QID|44548|N|To UI Alert.|
-
 ; Standard Class Halls redirect
 D On to Class Halls|N|This ends Stormheim and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends Stormheim and the Death Knight order hall guide will load.|C|DeathKnight|GUIDE|EmmLegionDK|
@@ -850,9 +578,5 @@ D On to Class Halls|N|This ends Stormheim and the Rogue order hall guide will lo
 D On to Class Halls|N|This ends Stormheim and the Shaman order hall guide will load.|C|Shaman|GUIDE|EmmLegionShaman|
 D On to Class Halls|N|This ends Stormheim and the Warlock order hall guide will load.|C|Warlock|GUIDE|EmmLegionWarlock|
 D On to Class Halls|N|This ends Stormheim and the Warrior order hall guide will load.|C|Warrior|GUIDE|EmmLegionWarrior|
-
 ]]
-
 end)
-
-

@@ -1,124 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_burning_steppes_alliance
--- Date: 2018-10-23 22:28
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL: http://wow-pro.com/node/3265/revisions/29046/view
--- Date: 2018-02-20 01:12
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3265/revisions/28868/view
--- Date: 2018-01-16 23:32
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3265/revisions/28385/view
--- Date: 2017-03-15 21:26
--- Who: Ludovicus_Maior
--- Log: Added PREs to CraBur5052
-
--- URL: http://wow-pro.com/node/3265/revisions/27690/view
--- Date: 2016-09-04 15:46
--- Who: tubera
--- Log: Fix: QO
-
--- URL: http://wow-pro.com/node/3265/revisions/26816/view
--- Date: 2014-11-06 13:35
--- Who: Fluclo
--- Log: Merged duplicate N tags for A Perfect Costume.
-
--- URL: http://wow-pro.com/node/3265/revisions/26623/view
--- Date: 2014-07-25 22:19
--- Who: Ludovicus_Maior
--- Log: add mean
-
--- URL: http://wow-pro.com/node/3265/revisions/26340/view
--- Date: 2014-05-27 20:14
--- Who: Ludovicus_Maior
--- Log: GuideLevels corrected from "0,0" to "49,51".
-
--- URL: http://wow-pro.com/node/3265/revisions/26261/view
--- Date: 2014-05-26 00:29
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3265/revisions/26260/view
--- Date: 2014-05-26 00:28
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3265/revisions/26093/view
--- Date: 2014-05-18 22:09
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3265/revisions/25979/view
--- Date: 2014-05-14 22:34
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3265/revisions/25743/view
--- Date: 2013-08-15 23:18
--- Who: Ludovicus_Maior
--- Log: added panda support for [A Perfect Costume].
-
--- URL: http://wow-pro.com/node/3265/revisions/25387/view
--- Date: 2013-01-12 21:17
--- Who: Emmaleah
--- Log: fixes for multi coordinates
-
--- URL: http://wow-pro.com/node/3265/revisions/24544/view
--- Date: 2011-06-11 20:38
--- Who: Crackerhead22
--- Log: Removed Hero's Call, fixed a couple of cords, added 1 or 2 sticky steps.
-
--- URL: http://wow-pro.com/node/3265/revisions/24482/view
--- Date: 2011-06-01 11:32
--- Who: Fluclo
--- Log: Added additional instruction notes for A Perfect Costume
-
--- URL: http://wow-pro.com/node/3265/revisions/24304/view
--- Date: 2011-04-29 14:48
--- Who: Ludovicus_Maior
--- Log: Line 121 for step C has 1 M coords, Line 123 for step C has 1 M coords, Line 127 for step C has 1 M coords, Line 179 for step K has 3 M coords.
-
--- URL: http://wow-pro.com/node/3265/revisions/23930/view
--- Date: 2011-01-04 20:09
--- Who: Crackerhead22
--- Log: Added missing cords.
-
--- URL: http://wow-pro.com/node/3265/revisions/23928/view
--- Date: 2011-01-04 20:07
--- Who: Crackerhead22
--- Log: Fixed several notes, steps, sticky steps.
-
--- URL: http://wow-pro.com/node/3265/revisions/23591/view
--- Date: 2010-12-05 04:41
--- Who: Crackerhead22
--- Log: Fixed spelling error which would have caused a step to not Auto-complete.
-
--- URL: http://wow-pro.com/node/3265/revisions/23412/view
--- Date: 2010-12-03 11:59
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3265/revisions/23411/view
--- Date: 2010-12-03 11:58
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('CraBur5052', "Leveling", 'Burning Steppes', 'Crackerhead22', 'Alliance')
-WoWPro:GuideLevels(guide,49,51, 49.073)
-WoWPro:NewGuideLevels(guide,40,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'CraSwa5254')
-WoWPro:GuideIcon(guide,"ACH",4901)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 H Iron Summit|QID|28514|N|Hearth back to Iron Summit, or fly if your hearth is on cooldown.|
 R Blackrock Mountain|QID|28514|M|33.49,74.91|Z|Searing Gorge|N|Run to the waypoint.|
 R Burning Steppes|QID|28514|M|19.61,24.26;17.42,29.28;19.74,34.51|CS|N|Run through Blackrock Mountain to Burning Steppes.|
@@ -127,7 +11,6 @@ T Mouton Flamestar|QID|28514|M|17.12,51.32|N|To Mouton Flamestar.|
 A Done Nothing Wrong|QID|28172|M|17.12,51.32|N|From Mouton Flamestar.|
 T Hero's Call: Burning Steppes!|QID|28666|M|17.4,52.5|N|To John J. Keeshan.|O|
 A Burning Vengeance|QID|28416^28174|M|17.31,51.98|N|From John J. Keeshan.|
-
 C Done Nothing Wrong|QID|28172|S|M|23.13,60.14|N|Free a Red, Green, Blue and Bronze Fettered Whelping.|
 C Burning Vengeance|QID|28174^28416|M|17.00,63.80|N|Kill Blackrock Whelpers and Flamescale Broodlings.|
 C Done Nothing Wrong|QID|28172|US|M|23.13,60.14|N|Free a Red, Green, Blue and Bronze Fettered Whelping.|
@@ -136,7 +19,6 @@ A Stocking Up|QID|28177|PRE|28174^28416|M|17.34,52.18|N|From John J. Keeshan.|
 A A Future Project|QID|28178|PRE|28174^28416|M|17.34,52.18|N|From John J. Keeshan.|
 A Mud Hunter|QID|28179|PRE|28174^28416|M|17.25,51.89|N|From John J. Keeshan.|
 T Done Nothing Wrong|QID|28172|M|17.04,51.52|N|To Mouton Flamestar.|
-
 C A Future Project|QID|28178|S|M|9.51,52.65|N|Kill the worgs and loot them.|
 C Stocking Up|QID|28177|M|11.59,45.41|N|Kill scorpions and loot them.|S|
 C Mud Hunter|QID|28179|M|18.39,42.83|N|Go around the edge of the lava to find the dirt mounds. Warning: The Obsidian Elementals have a 20% spell reflect (which can feel like 100% at times, so caster beware).|
@@ -147,7 +29,6 @@ T A Future Project|QID|28178|M|17.36,51.96|N|To John J. Keeshan.|
 T Mud Hunter|QID|28179|M|17.36,51.96|N|To John J. Keeshan.|
 A The Sand, the Cider, and the Orb|QID|28180|PRE|28177&28178&28179|M|17.36,51.96|N|From John J. Keeshan.|
 T The Sand, the Cider, and the Orb|QID|28180|M|8.29,35.91|N|To Gorzeeki Wildeyes.|
-
 A Warlocks Have the Neatest Stuff|QID|28181|PRE|28180|M|8.29,35.91|N|From Gorzeeki Wildeyes.|
 A Shadow Boxing|QID|28182|PRE|28180|M|8.29,35.91|N|From Gorzeeki Wildeyes.|
 C Warlocks Have the Neatest Stuff|QID|28181|M|5.25,31.15|N|The Blackrock Warlocks have the orb. Kill them until one drops.|S|
@@ -160,13 +41,11 @@ T Return to Keeshan|QID|28183|M|17.33,51.86|N|To John J. Keeshan.|
 A Chiselgrip, the Heart of the Steppes|QID|28184|PRE|28172&28183|M|17.33,51.86|N|From John J. Keeshan.|
 C Chiselgrip, the Heart of the Steppes|QID|28184|M|37.35,54.33|N|Kill 15 Blackrock mobs.|
 T Chiselgrip, the Heart of the Steppes|QID|28184|M|46.69,44.24|N|To Stebben Oreknuckle.|
-
 A Prove Yer Allegiance|QID|28225|PRE|28184|M|46.69,44.24|N|From Stebben Oreknuckle.|
 A Scrapped Golems|QID|28226|PRE|28184|M|46.69,44.24|N|From Stebben Oreknuckle.|
 f Chiselgrip|QID|28254|M|46.17,41.97|N|At Grimly Singefeather.|
 A A Needle in a Hellhole|QID|28254|PRE|28184|M|46.37,45.82|N|From John J. Keeshan.|
 T A Needle in a Hellhole|QID|28254|M|45.45,46.11|N|To Thelaron Direneedle.|
-
 A A Perfect Costume|QID|28203|PRE|28254|R|Worgen,Draenei,Pandaren|M|45.45,46.34|N|From Thelaron Direneedle.  You will need 4 hides, 1 mud and 3 thread to complete this quest.|
 A A Perfect Costume|QID|28205|PRE|28254|R|Night Elf|M|45.45,46.34|N|From Thelaron Direneedle. You will need 3 hides, 2 mud and 1 thread to complete this quest.|
 A A Perfect Costume|QID|28202|PRE|28254|R|Human,Dwarf|M|45.45,46.34|N|From Thelaron Direneedle. You will need 2 hides, 4 mud 2 thread to complete this quest.|
@@ -179,7 +58,6 @@ T A Perfect Costume|QID|28203|R|Worgen,Draenei,Pandaren|M|46.40,46.03|N|At John 
 T A Perfect Costume|QID|28205|R|Night Elf|M|46.40,46.03|N|At John H. Keeshan|
 T A Perfect Costume|QID|28202|R|Human,Dwarf|M|46.40,46.03|N|At John H. Keeshan|
 T A Perfect Costume|QID|28204|R|Gnome|M|46.40,46.03|N|At John H. Keeshan|
-
 A Into the Black Tooth Hovel|QID|28239|PRE|28202^28203^28204^28205|M|46.35,45.91|N|From John J. Keeshan.|
 T Into the Black Tooth Hovel|QID|28239|U|63357|M|45.33,51.60|N|Remember to put on your disguise. To Quartermaster Kaoshin.|
 A Grunt Work|QID|28245|PRE|28239|M|45.33,51.60|N|From Quartermaster Kaoshin.|
@@ -196,7 +74,6 @@ C The Kodocaller's Horn|QID|28252|U|63356|M|42.58,62.65|N|The kodos can attack y
 T The Kodocaller's Horn|QID|28252|M|42.69,61.85|N|(UI Alert)|
 A Taking the Horn For Ourselves|QID|28253|PRE|28246&28252|M|42.69,61.85|N|(UI Alert)|
 T Taking the Horn For Ourselves|QID|28253|M|46.33,45.79|N|To Colonel Troteman.|
-
 C Scrapped Golems|QID|28226|S|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
 C Prove Yer Allegiance|QID|28225|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|They are mainly inside and around the building ruins.|
 C Scrapped Golems|QID|28226|US|M|50.78,38.86;43.80,37.25;56.28,37.35|CN|N|When you kill a War Reaver, look around on the ground for an item that has spawned, it will be sparkling but still can be hard to see. It could be where you are standing or around the reaver, so use the force.|
@@ -207,7 +84,6 @@ C Golem Training|QID|28227|M|44.72,43.79;46.75,46.6|CN|N|Go into either tower, t
 T Golem Training|QID|28227|M|46.72,44.23|N|To Stebben Oreknuckle.|
 A General Thorg'izog|QID|28265|PRE|28227&28253|M|46.33,45.84|N|From John J. Keeshan.|
 T General Thorg'izog|QID|28265|U|63357|M|30.79,33.76;32.49,34.99;31.53,33.57|CS|N|To General Thorg'izog. Remember to put on your disguise, he is the middle of the building.|
-
 A Trial by Magma|QID|28266|PRE|28265|M|30.79,33.76|N|From General Thorg'izog.|
 C Trial by Magma|QID|28266|M|30.75,33.41|N|Talk to Wyrtle Spreelthonket and choose to fight the elmental.|
 T Trial by Magma|QID|28266|M|30.75,33.77|N|To General Thorg'izog.|
@@ -224,7 +100,6 @@ A Morgan's Vigil|QID|28310|PRE|28286|M|46.38,45.75|N|From Colonel Troteman.|
 R Morgan's Vigil|QID|28310|M|46.05,50.46;54.81,47.61;65.38,54.58;70.62,60.97;71.85,63.17|CS|N|Run to Morgan's Vigil.|
 f Morgan's Vigil|QID|28310|M|72.23,65.68|N|At Borgus Stoutarm.|
 r Sell junk, repair/restock.|QID|28310|M|72.81,65.71|N|At Felder Stover. Close this step when your done.|
-
 T Morgan's Vigil|QID|28310|M|71.98,67.97|N|To Oralius.|
 A SEVEN! YUP!|QID|28415|PRE|28310|M|71.98,67.97|N|From Oralius. Don't worry, you won't have to find Captain Winky.|
 A The Bogpaddle Bullet|QID|28569|LEAD|27587|M|71.98,67.97|N|From Oralius.|
@@ -240,7 +115,6 @@ T SEVEN! YUP!|QID|28415|M|71.97,67.99|N|To Oralius. You get a new companion pet.
 T Blackened Ashes|QID|28311|M|73.52,67.13|N|To Colonel Troteman.|
 T Latent Demons of the Land|QID|28312|M|73.52,67.13|N|To Colonel Troteman.|
 T A Heap of Delicious Worg|QID|28313|M|73.52,67.13|N|To Colonel Troteman.|
-
 A Blood Tour|QID|28314|PRE|28311&28312&28313|M|73.52,67.13|N|From John J. Keeshan.|
 A Draconic Vanguard|QID|28315|PRE|28311&28312&28313|M|73.52,67.13|N|From John J. Keeshan.|
 A A Deal With a Dragon|QID|28316|PRE|28311&28312&28313|M|73.52,67.13|N|From John J. Keeshan.|
@@ -253,7 +127,6 @@ C Draconic Vanguard|QID|28315|QO|2|M|72.29,26.73|N|Kill Terromath.|
 C Blood Tour|QID|28314|US|M|77.82,35.84|N|Kill any Black Dragonspawn or Black Wyrmkin you have you left.|
 T Blood Tour|QID|28314|M|72.29,26.73|N|To John J. Keeshan.|
 T Draconic Vanguard|QID|28315|M|72.29,26.73|N|To John J. Keeshan.|
-
 A Placing the Pawns|QID|28326|PRE|28314&28315&28316|M|72.31,26.63|N|(UI Alert)|
 T Placing the Pawns|QID|28326|M|73.58,67.07|N|To Colonel Troteman.|
 A A Delivery for Thorg'izog|QID|28317|PRE|28326|M|73.58,67.07|N|From Colonel Troteman.|
@@ -267,7 +140,6 @@ T Locked and Loaded|QID|28327|M|73.53,67.08|N|To Colonel Troteman.|
 A Assault on Dreadmaul Rock|QID|28320|PRE|28327|M|73.16,66.39|N|From John J. Keeshan.|
 C Assault on Dreadmaul Rock|QID|28320|U|63681|M|69.36,51.35|N|Only 1 button to use, have fun on the dragon.|
 T Assault on Dreadmaul Rock|QID|28320|M|73.52,67.05|N|To Colonel Troteman.|
-
 A Glory Amidst Chaos|QID|28321|PRE|28320|M|73.52,67.05|N|From Colonel Troteman.|
 K General Thorg'izog|QID|28321|QO|1|M|65.12,46.66|N|General Thorg'izog needs to be killed. Enter the cave at the waypoint, at the split head left.|
 K Dragon-Lord Neeralak|QID|28321|QO|2|M|69.52,43.10;63.79,37.81;66.31,37.96;68.88,44.14|CS|N|Dragon-Lord Neeralak's turn to die. Follow the path up, he is in the cave.|
@@ -278,7 +150,4 @@ T The Spoils of War|QID|28322|M|73.66,67.23|N|To Crate of Left Over Supplies.|
 R Swamp of Sorrows|QID|28569|N|Run to Sharon Boomgetter and talk to her to head to the Swamp of Sorrows.|M|78.39,58.85|
 T The Bogpaddle Bullet|QID|28569|M|73.10,14.72|Z|Swamp of Sorrows|N|To Trade Baron Silversnap.|
 ]]
-
 end)
-
-

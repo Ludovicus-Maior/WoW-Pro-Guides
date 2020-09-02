@@ -1,160 +1,12 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_azshara
--- Date: 2019-10-12 15:55
--- Who: Ludovicus_Maior
--- Log: Fix [Stone Cold] BUFF
-
--- URL: http://wow-pro.com/node/3217/revisions/30343/view
--- Date: 2019-07-31 20:24
--- Who: Fluclo
--- Log: Warchief's Command doesn't show when you've done a couple other quests, so added LEAD tag for those quest IDs; Warchief's Command turn-in shows even when you don't have it, therefore added ACTIVE tag; loot Scout's Order shouldn't show if you've already looted then accepted quest, so don't show if quest is active in your quest log; A Quota to Meet and Refleshification are non-combat quests; Added step to clarify Stone Cold requirements, auto-detecting the buff once you are carrying the goblin; Military Breakthrough is a two-part quest, therefore split into individual steps; Clarified Hand-me-downs requirements; Added the SFG quest item to In The Face!
-
--- URL: http://wow-pro.com/node/3217/revisions/29963/view
--- Date: 2018-10-17 02:26
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3217/revisions/29079/view
--- Date: 2018-02-20 02:00
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3217/revisions/28875/view
--- Date: 2018-01-16 23:37
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3217/revisions/28417/view
--- Date: 2017-03-15 23:09
--- Who: Ludovicus_Maior
--- Log: Added PREs to BitAzs1220
-
--- URL: http://wow-pro.com/node/3217/revisions/27330/view
--- Date: 2015-07-12 20:28
--- Who: Ludovicus_Maior
--- Log: Bitter Reaches Tweak.
-
--- URL: http://wow-pro.com/node/3217/revisions/27300/view
--- Date: 2015-06-23 22:09
--- Who: Ludovicus_Maior
--- Log: Add flight points, lots of QO changes and a few coord tweaks
-
--- URL: http://wow-pro.com/node/3217/revisions/26928/view
--- Date: 2014-11-08 06:45
--- Who: Emmaleah
--- Log: Remove Dup N from A Survey the Lakeshore, and U's from C Survey the Lakeshore.
---	Remove Dun N from A The pinnacle of learning.
-
--- URL: http://wow-pro.com/node/3217/revisions/26456/view
--- Date: 2014-06-02 15:24
--- Who: Ludovicus_Maior
--- Log: Set Levels
-
--- URL: http://wow-pro.com/node/3217/revisions/26218/view
--- Date: 2014-05-25 22:38
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3217/revisions/26143/view
--- Date: 2014-05-20 19:31
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3217/revisions/26037/view
--- Date: 2014-05-17 17:22
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3217/revisions/25856/view
--- Date: 2013-12-26 21:40
--- Who: Ludovicus_Maior
--- Log: Tag cleanup after playinmg through.
-
--- URL: http://wow-pro.com/node/3217/revisions/25840/view
--- Date: 2013-12-12 15:46
--- Who: Fluclo
--- Log: Added guide level requirement, added level to Beyond Durotar which would be for players Level 16 and over, added Accept step for Warchief's Command which is for players up to level 15.
-
--- URL: http://wow-pro.com/node/3217/revisions/25725/view
--- Date: 2013-06-18 08:53
--- Who: Emmaleah
--- Log: switch coordinates for Lady Silisthra and Lady Vesthra - per comments / and confirmed cords on wowhead
-
--- URL: http://wow-pro.com/node/3217/revisions/25497/view
--- Date: 2013-01-22 17:55
--- Who: Ludovicus_Maior
--- Log: Coord Teaks
-
--- URL: http://wow-pro.com/node/3217/revisions/25378/view
--- Date: 2013-01-12 20:04
--- Who: Ludovicus_Maior
--- Log: Added C* tags
-
--- URL: http://wow-pro.com/node/3217/revisions/24954/view
--- Date: 2012-02-13 21:44
--- Who: Crackerhead22
--- Log: ?
-
--- URL: http://wow-pro.com/node/3217/revisions/24673/view
--- Date: 2011-07-11 22:23
--- Who: Ludovicus_Maior
--- Log: Tweaks!
-
--- URL: http://wow-pro.com/node/3217/revisions/24551/view
--- Date: 2011-06-13 21:08
--- Who: Crackerhead22
--- Log: Put in completion step for "A Gigantic Snack" quest suggested by Skully0815.
-
--- URL: http://wow-pro.com/node/3217/revisions/24321/view
--- Date: 2011-04-29 15:32
--- Who: Ludovicus_Maior
--- Log: Line 47 for step C has unknown tag [n], Line 47 for step C has unknown tag [Attack one of the ...], Line 379, for step A non-decimal PRE, Line 609 for step A has 1 M coords, Line 690 for step T has unknown tag [To Kadrak.].
-
--- URL: http://wow-pro.com/node/3217/revisions/24068/view
--- Date: 2011-01-29 17:01
--- Who: Ludovicus_Maior
--- Log: Added QIDs to LVL 18,20 steps.
-
--- URL: http://wow-pro.com/node/3217/revisions/24020/view
--- Date: 2011-01-20 12:49
--- Who: Ludovicus_Maior
--- Log: Optimize quest acceptance for [Military Breakthrough].  Optimize quest ordering for [First Degree Mortar], [Hand-me-downs], and [Military Breakthrough] to minimize time in the minefield.
-
--- URL: http://wow-pro.com/node/3217/revisions/24011/view
--- Date: 2011-01-18 12:03
--- Who: Ludovicus_Maior
--- Log: Added two leadin quests to Azshara.  One in the goblin line and another you can get from the quest boards.
-
--- URL: http://wow-pro.com/node/3217/revisions/23324/view
--- Date: 2010-12-03 09:00
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3217/revisions/23304/view
--- Date: 2010-12-03 07:31
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3217/revisions/23303/view
--- Date: 2010-12-03 07:30
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('BitAzs1220', "Leveling", 'Azshara', 'Bitsem', 'Horde')
-WoWPro:GuideLevels(guide,10,18, 12.6716)
-WoWPro:NewGuideLevels(guide,10,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'BitAsh2025')
-WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 A Beyond Durotar|QID|25648|PRE|25206&25236|M|45.0,14.6|Z|Durotar|N|From Gor the Enforcer, just outside Orgrimmar's Southern Gates|
 T Beyond Durotar|QID|25648|M|26.84,77.00|N|To Ag'tor Bloodfist.|LEAD|25275^28496|
-
 A Warchief's Command: Azshara!|QID|28496|M|26.84,77.00|N|From the Warchief's Command Board.|LEAD|14129^25275^25648|
 T Warchief's Command: Azshara!|QID|28496|M|27.00,77.09|N|To Labor Captain Grabbit.|ACTIVE|28496|
-
 A Venison for the Troops|QID|14118|M|26.82,76.95|N|From Ag'tor Bloodfist.|
 A The Eyes of Ashenvale|QID|14117|M|26.82,76.95|N|From Ag'tor Bloodfist.|
 C Venison for the Troops|QID|14118|S|M|27.98,68.76|N|Kill Weakened Mosshoof Stags and Talrendis Scouts while you are doing the next few quests.|
@@ -163,7 +15,6 @@ T Report to the Labor Captain|O|QID|25275|M|27.00,77.09|N|To Labor Captain Grabb
 A Runaway Shredder!|QID|14129|M|27.00,77.09|N|From Labor Captain Grabbit.|
 C Runaway Shredder!|QID|14129|M|27.00,72.83|N|Attack one of the runaway shredders and hop inside when it's damaged enough.|
 T Runaway Shredder!|QID|14129|M|27.00,72.83|N|(UI Alert)|
-
 A The Captain's Logs|QID|14134|PRE|14129|M|27.00,72.83|N|(UI Alert)|
 C The Captain's Logs|QID|14134|M|26.45,75.40|N|Use the Reprogrammed Shredder to collect 6 piles of Azshara Lumber.|
 T The Captain's Logs|QID|14134|M|26.45,75.40|N|(UI Alert)|
@@ -173,7 +24,6 @@ T Up a Tree|QID|14135|M|23.08,74.40|N|(UI Alert)|
 A Defend the Gates!|QID|14146|PRE|14135|M|23.08,74.40|N|(UI Alert)|
 C Defend the Gates!|QID|14146|M|27.08,76.63|N|Go back to the Rear Gate of Orgrimmar to slay 20 Night Elf Raiders.|
 T Defend the Gates!|QID|14146|M|26.91,77.02|N|(UI Alert)|
-
 A Arborcide|QID|14155|PRE|14146|M|26.91,77.02|N|(UI Alert)|
 C Arborcide|QID|14155|M|21.92,75.71|N|Use the shredder to destroy the Talrendis Ancient.|
 l Scout's Orders|QID|14127|RANK|2|M|29.95,74.40|L|47039|N|Kill and loot Talrendis Scouts until this drops.|ACTIVE|-14127|
@@ -181,7 +31,6 @@ A Return of the Highborne?|QID|14127|RANK|2|M|29.95,74.40|U|47039|N|From the Sco
 C Venison for the Troops|QID|14118|US|M|27.08,72.91|N|Exit Shredder. Collect 15 Slabs of Venison from Weakened Mosshoof Stags.|
 C The Eyes of Ashenvale|QID|14117|US|M|29.80,74.71|N|Kill 8 Talrendis Scouts. |
 T Arborcide|QID|14155|M|27.00,77.09|N|To Labor Captain Grabbit.|
-
 A Report to Horzak|QID|14162|PRE|14155|M|27.00,77.09|N|From Labor Captain Grabbit.|
 T Venison for the Troops|QID|14118|M|26.82,76.95|N|To Ag'tor Bloodfist.|
 T The Eyes of Ashenvale|QID|14117|M|26.82,76.95|N|To Ag'tor Bloodfist.|
@@ -189,19 +38,15 @@ T Return of the Highborne?|QID|14127|M|26.82,76.95|N|To Ag'tor Bloodfist.|
 A Return of the Highborne?|QID|14128|PRE|14127|RANK|2|M|26.82,76.95|N|From Ag'tor Bloodfist.|
 T Return of the Highborne?|QID|14128|M|29.68,66.88|N|To Malynea Skyreaver.|
 T Report to Horzak|QID|14162|M|29.15,66.24|N|To Horzak Zignibble.|
-
 A Basilisk Bashin'|QID|14161|PRE|14162|M|29.15,66.24|N|From Horzak Zignibble.|
 A Stone Cold|QID|14165|M|29.15,66.24|N|From Horzak Zignibble.|
 A A Quota to Meet|QID|14197|M|29.21,66.44|N|From Foreman Fisk, who wanders.|
 C A Quota to Meet|QID|14197|S|M|23.20,67.44|N|Gather 20 ingots of Mountainfoot Iron.|NC|
-
 C Basilisk Bashin'|QID|14161|M|25.50,68.50|N|Kill Greystone Basilisks while you search for a stonified Mountainfoot Miner at the Mountainfoot Strip Mine.|
 N Stone Cold|QID|14165|NC|M|26.56,68.50|N|Seek out a Mountainfoot Miner.|BUFF|67032^91695^69619|
 C Stone Cold|QID|14165|NC|M|26.56,68.50|N|With the Goblin on your back, head back to Horzak Zignibble. \nNote: You will lose the goblin if you mount. |
-
 T Basilisk Bashin'|QID|14161|M|29.15,66.24|N|To Horzak Zignibble.|
 T Stone Cold|QID|14165|M|29.15,66.24|N|To Horzak Zignibble.|
-
 A The Perfect Prism|QID|14190|PRE|14165|M|29.15,66.24|N|From Horzak Zignibble.|
 t A Quota to Meet|QID|14197|M|29.15,66.27|N|To Foreman Fisk, who wanders.|
 C The Perfect Prism|QID|14190|M|21.57,66.10|N|Kill Talrendis Saboteurs until you loot a Crystal Pendant.|
@@ -213,7 +58,6 @@ A Refleshification|QID|14194|PRE|14192|M|20.09,70.06|N|From the Weapons Cabinet.
 C Refleshification|QID|14194|U|48104|M|24.56,72.63|N|Use The Refleshifier to de-stonify eight Mountainfoot Miners.|NC|
 T A Quota to Meet|QID|14197|M|29.15,66.27|N|To Foreman Fisk, who wanders.|
 T Refleshification|QID|14194|M|29.15,66.24|N|To Horzak Zignibble.|
-
 A Another Warm Body|QID|14468|PRE|14194&14197&14161|M|29.52,66.84|RANK|2|N|From Private Worcester.|
 T Another Warm Body|QID|14468|M|29.43,57.68|N|To Commander Molotov.|
 A Hand-me-downs|QID|14469|PRE|14468|RANK|2|M|29.43,57.68|N|From Commander Molotov.|
@@ -224,19 +68,15 @@ C Military Breakthrough|QID|14470|QO|2|M|27.63,51.91|N|Loot the SFG from the flo
 C Hand-me-downs|QID|14469|US|M|27.75,54.06|N|Loot the Military Supplies from the Dead Soldier corpses in the central minefield.|NC|
 T Military Breakthrough|QID|14470|M|29.38,57.61|N|To Glix Grindlock.|
 T Hand-me-downs|QID|14469|M|29.46,57.67|N|To Commander Molotov.|
-
 A First Degree Mortar|QID|14471|PRE|14468|RANK|2|M|29.10,57.94|N|From Xiz "The Eye" Salvoblast.|
 C First Degree Mortar|QID|14471|M|31.10,57.63|N|Use a Goblin Mortar to slaughter 60 Spitelash Attackers.|
 T First Degree Mortar|QID|14471|M|29.10,57.94|N|To Xiz "The Eye" Salvoblast.|
-
 A In The Face!|QID|14472|PRE|14469&14470&14471|RANK|2|M|29.38,57.61|N|From Glix Grindlock.|
 C In The Face!|QID|14472|M|31.44,60.75|N|Use an SFG to kill an Enslaved Son of Arkkoroc in the southern minefield.|U|49700|
 T In The Face!|QID|14472|M|29.38,57.61|N|To Glix Grindlock.|
-
 A Profitability Scouting|QID|24452|PRE|14472|RANK|2|M|29.46,57.67|N|From Commander Molotov.|
 C Profitability Scouting|QID|24452|NC|U|49701|M|31.31,49.92|N|Use the stealth field generator to infiltrate the Ruins of Eldarath and identify the Heart of Arkkoroc.|
 T Profitability Scouting|QID|24452|M|29.46,57.67|N|To Commander Molotov.|
-
 A Private Chat|QID|24453|PRE|24452|RANK|2|M|29.46,57.67|N|From Commander Molotov.|
 T Private Chat|QID|24453|M|29.52,66.84|N|Back to the Orgrimmar Rocketway Exchange, to Private Worcester.|
 A A Thousand Stories in the Sand|QID|14201|PRE|24453|M|29.68,66.88|N|From Malynea Skyreaver.|
@@ -247,7 +87,6 @@ C Survey East Marker|QID|14202|U|48665|QO|3|M|37.37,74.61|N|Stand next to the Su
 C Survey the Lakeshore|QID|14202|QO|1|M|34.29,76.62|U|48665|N|Stand next to the Survey Equipment and protect the Surveryor until you get the completion for that section.|
 C A Thousand Stories in the Sand|QID|14201|M|33.57,74.65|US|N|Collect Recovered Artifacts.|
 T A Thousand Stories in the Sand|QID|14201|M|29.68,66.88|N|To Malynea Skyreaver.|
-
 A Memories of the Dead|QID|14215|PRE|14201|M|29.64,66.86|N|From Malynea Skyreaver.|
 T Survey the Lakeshore|QID|14202|M|29.59,66.85|N|To Custer Clubnik, who wanders.|
 C Memories of the Dead|QID|14215|M|36.57,72.50;37.52,74.53|CS|N|Talk to the Spirit of Kalytha then follow the arrow to Archmage Selwyn.|
@@ -261,7 +100,6 @@ T Gunk in the Trunk|QID|14209|M|29.73,67.15|N|To Custer Clubnik, who wanders.|
 A Dozercism|QID|14423|PRE|14209|M|29.73,67.15|N|From Custer Clubnik, who wanders.|
 C Dozercism|QID|14423|U|49350|M|28.94,66.54|N|Use the Blessed Flaregun by Clubnik's Dozer. Be sure you have the Dozer targeted when the priest appears, or it is hard to target it afterwards.|
 T Dozercism|QID|14423|M|29.62,67.07|N|To Custer Clubnik, who wanders.|
-
 A Need More Science|QID|14424|LEAD|14308|PRE|14423|M|29.62,67.07;29.39,66.63|CS|N|From Custer Clubnik. Ride the lift to the top of the tower and talk to the goblin for a rocket ride to the Southern Rocketway Terminus.|
 F Southern Rocketway Terminus|QID|14424|M|29.47,66.22|N|Go to the top of the tower, talk to the Bilgewater Rocket-jockey and ride the rocket to Southern Rocketway Terminus.|
 f Southern Rocketway|QID|14424|M|51.49,74.28|N|Get flight point from Friz Groundspin|
@@ -276,7 +114,6 @@ C Bad Science! Bad!|QID|14322|M|44.40,79.00|N|Kill Static-Charged Hippogryphs.|
 T Bad Science! Bad!|QID|14322|M|45.06,75.53|N|To Twistex Happytongs.|
 C Nine's Plan|QID|14408|M|45.97,76.06|N|Activate the Buzzer. It looks like a torch to the right of the locked door.|
 T Nine's Plan|QID|14408|M|42.22,76.12|N|To Subject Nine.|
-
 A Raptor Raptor Rocket|QID|14422|PRE|14408|RANK|2|M|42.22,76.12|N|From Subject Nine.|
 C Raptor Raptor Rocket|QID|14422|M|42.21,76.09|N|Go back down, Free 5 raptors and return to Subject Nine with them.|
 T Raptor Raptor Rocket|QID|14422|M|42.21,76.09|N|To Subject Nine.|
@@ -289,7 +126,6 @@ T Segmentation Fault: Core Dumped|QID|14310|M|50.38,74.28|N|To Assistant Greely.
 A Mysterious Azsharite|QID|14370|PRE|14310|M|50.41,74.29|N|From Assistant Greely.|
 A A Gigantic Snack|QID|14371|PRE|14310|M|50.41,74.29|N|From Assistant Greely.|
 T Mortar the Point|QID|14258|M|52.22,74.23|N|To Bombardier Captain Smooks.|
-
 A To Gut a Fish|QID|14262|PRE|14258|M|50.68,75.30|N|From Torg Twocrush.|
 A Investigating the Sea Shrine|QID|14267|PRE|14258|M|50.68,75.30|N|From Torg Twocrush.|
 C A Gigantic Snack|QID|14371|M|46.7,72.2|N|Kill and loot Mistwing Cliffdwellers.|S|
@@ -300,7 +136,6 @@ T Investigating the Sea Shrine|QID|14267|M|58.98,71.98|N|To the Naga Power Stone
 A The Keystone Shard|QID|14270|PRE|14267|M|58.98,71.98|N|From the Naga Power Stone.|
 C The Keystone Shard|QID|14270|M|57.57,71.02|N|Pick up the Keystone Shard.|
 T The Keystone Shard|QID|14270|M|58.99,71.93|N|To the Naga Power Stone.|
-
 A Report to Twocrush|QID|14271|PRE|14270|M|58.99,71.93|N|From the Naga Power Stone.|
 C To Gut a Fish|QID|14262|M|55.49,76.45|US|N|Kill Spitelash Stormfurys and Seacallers.|
 T To Gut a Fish|QID|14262|M|50.68,75.30|N|To Torg Twocrush.|
@@ -314,7 +149,6 @@ C Sisters of the Sea|QID|14295|M|63.13,79.38|N|Kill Lady Vesthra, disable the Po
 T Sisters of the Sea|QID|14295|M|50.68,75.30|N|To Torg Twocrush.|
 C Befriending Giants|QID|14377|M|47.78,75.47|N|Talk to Gormungan.|
 T Befriending Giants|QID|14377|M|50.39,74.30|N|To Assistant Greely.|
-
 A Azsharite Experiment Number One|QID|14385|PRE|14377|M|50.41,74.29|N|From Assistant Greely.|
 A The Terrible Tinkers of the Ruined Reaches|QID|14383|PRE|14377|M|50.50,74.75|N|From Hobart Grapplehammer.|
 C The Terrible Tinkers of the Ruined Reaches|QID|14383|S|M|43.49,83.00;40.07,84.43|CS|N|Follow the lit path West, kill gnomes on your way to Bingham Gadgetspring inside the house. Kill him.|
@@ -326,7 +160,6 @@ A Azsharite Experiment Number Two|QID|14388|PRE|14385|M|50.41,74.29|N|From Assis
 T The Terrible Tinkers of the Ruined Reaches|QID|14383|M|50.51,74.74|N|To Hobart Grapplehammer.|
 C Azsharite Experiment Number Two|QID|14388|M|50.38,74.29;47.71,75.51|CS|N|Talk to Assistant Greely when you're ready to shrink. Hop on a rat and run to Gormungan.|
 T Azsharite Experiment Number Two|QID|14388|M|50.41,74.29|N|To Assistant Greely.|
-
 A A Hello to Arms|QID|24458|PRE|14383&14388|M|50.53,74.77;51.48,74.32|CS|N|From Hobart Grapplehammer.|
 F Bilgewater Harbor|QID|24458|M|51.48,74.3|N|Speak with Friz Groundspin for a free airlift.|
 f Bilgewater Harbor|QID|24458|M|52.92,49.85|N|Head down to the docks to get the flight point.|
@@ -340,7 +173,6 @@ A There Are Many Like It|QID|14479|PRE|24455|M|58.07,52.32|N|From Captain Desoto
 F The Shattered Strand|QID|14479|M|57.89,52.22|N|Hop on the Surface to Other Surface Transport rocket when you're ready to leave.|
 A First Come, First Served|QID|24437|M|39.14,51.77|N|From Ruckus.|
 T There Are Many Like It|QID|14479|M|41.50,53.63|N|To Lieutenant Drex.|
-
 A Mop Up|QID|24435|PRE|14479|M|41.50,53.63|N|From Lieutenant Drex.|
 A Halo Drops|QID|24436|M|41.41,53.92|N|From Sergeant Hort.|
 C Mop Up|QID|24435|PRE|14479|S|M|41.50,53.63|N|Kill Naga.|
@@ -353,7 +185,6 @@ C Mop Up|QID|24435|PRE|14479|US|M|41.50,53.63|N|Finish killing Nagas for this qu
 T First Come, First Served|QID|24437|M|39.14,51.77|N|To Ruckus.|
 T Mop Up|QID|24435|M|41.50,53.63|N|To Lieutenant Drex.|
 T Halo Drops|QID|24436|M|41.41,53.92|N|To Sergeant Hort.|
-
 A Field Promotion|QID|24448|PRE|24435&24436|M|41.50,53.63|N|From Lieutenant Drex.|
 T Field Promotion|QID|24448|M|34.34,44.89|N|To Captain Tork.|
 A Still Beating Heart|QID|14487|PRE|24448|M|34.34,44.89|N|From Captain Tork.|
@@ -373,7 +204,6 @@ T Head of the Snake|QID|14484|M|34.44,44.77|N|To Sergeant Zelks.|
 T Ticker Required|QID|14485|M|34.44,44.77|N|To Sergeant Zelks.|
 T Extermination|QID|14480|M|34.44,44.77|N|From Sergeant Zelks.|
 T Handling the Goods|QID|14486|M|34.52,44.71|N|To Tora Halotrix.|
-
 A Shore Leave|QID|24449|PRE|14480&14484&14485&14486&14487|M|34.33,44.88;34.48,44.59|CS|N|From Captain Tork.|
 T Shore Leave|QID|24449|M|60.59,50.57|N|To Uncle Bedlam. Hop on the Military Gyrocopter when ready to leave.|
 A Azshara Blues|QID|14407|M|59.38,50.68|N|From Teemo.|
@@ -388,7 +218,6 @@ C That's Just Rude!|QID|14132|S|M|71.58,36.23|N|Collect Kawphi Beans and kill Ma
 C A Little Pick-me-up|QID|14131|S|N|Collect 10 Kawphi Beans.|
 C Absorbent|QID|14323|M|82.13,40.46|U|49168|N|Use the Enchanted Azshari Sea Sponge and run past the Vile Splashes.|
 T Absorbent|QID|14323|M|81.91,40.71|N|(UI Alert)|
-
 A Full of Hot Water|QID|14324|PRE|14323|M|81.91,40.71|N|(UI Alert)|
 C Full of Hot Water|QID|14324|U|49176|M|81.18,30.62|N|Use the sponge, kill Scalding Water Lord, loot the Globe.|
 C A Little Pick-me-up|QID|14131|M|72.58,34.56|N|Collect 10 Kawphi Beans. lol. Kawphi...Coffee! Nice!|US|
@@ -402,7 +231,6 @@ A Dressed to Impress|QID|14340|PRE|14345|M|42.73,25.20|N|From Sorata Firespinner
 A The Blackmaw Scar|QID|14431|M|42.40,23.62|N|From Haggrum Bloodfist.|
 C The Blackmaw Scar|QID|14431|US|M|37.50,34.06|N|Slay 8 Talrendis Biologists and gather up Blackmaw Intelligence from one of the bodies.|
 T The Blackmaw Scar|QID|14431|M|42.40,23.71|N|To Haggrum Bloodfist.|
-
 A A Pale Brew|QID|14432|PRE|14431|M|42.40,23.71|N|From Haggrum Bloodfist.|
 A Diplomacy by Another Means|QID|14433|PRE|14431|M|42.40,23.71|N|From Haggrum Bloodfist.|
 C A Pale Brew|QID|14432|S|M|30.27,39.35|N|Gather up 10 samples of Briaroot Brew from Blackmaw furbolgs.|
@@ -416,7 +244,6 @@ T The Blackmaw Doublecross|QID|14435|M|42.39,23.62|N|To Haggrum Bloodfist.|
 A Amberwind's Journal|QID|14428|M|42.59,23.72|N|From Andorel Sunsworn.|
 C Dressed to Impress|QID|14340|NC|U|49201|M|47.76,18.35;47.22,20.83|CS|N|Follow the path up the hill.\nPut on your new wizard hat and then speak to the Image of Archmage Xylem.|
 T Dressed to Impress|QID|14340|M|47.22,20.83|N|To the Image of Archmage Xylem.|
-
 A Renewable Resource|QID|14250|PRE|14340|M|47.30,21.16|N|From Tharkul Ironskull.|
 A Shear Will|QID|14249|PRE|14340|M|47.13,21.10|N|From Will Robotronic.|
 A Waste of Thyme|QID|14263|PRE|14340|M|47.04,21.02|N|From Quarla Whistlebreak.|
@@ -428,7 +255,6 @@ T Amberwind's Journal|QID|14428|M|49.53,28.73|N|At the Upper Scrying Stone.|
 A Arcane De-Construction|QID|14429|PRE|14428|M|49.53,28.73|N|From the Upper Scrying Stone.|
 C Arcane De-Construction|QID|14429|M|52.49,26.79|N|Slay Apprentice Investigators and Apprentice Illuminators to collect 10 Attuned Runestones.|
 T Arcane De-Construction|QID|14429|M|52.99,29.00|N|To the Lower Scrying Stone.|
-
 A Hacking the Construct|QID|14430|PRE|14429|M|52.99,29.00|N|From the Lower Scrying Stone.|
 C Hacking the Construct|QID|14430|NC|M|52.97,29.84|N|Speak with the Arcane Construct at the Darnassian Base Camp and utter the words of arcane power.|
 C Shear Will|QID|14249|US|M|42.38,18.43|N|Obtain 80 Pristine Thunderhead Feathers from Thunderhead Hippogryphs and Stagwings.|
@@ -443,7 +269,6 @@ C Manual Labor|QID|14230|M|55.23,25.07|N|Retrieve the Abjurer's Manual from the 
 C Trouble Under Foot|QID|14226|US|M|54.17,23.96|N|Use your Personal Arcane Assistant to turn 12 Legash demons into insects and then squash them.|
 T Trouble Under Foot|QID|14226|M|47.18,20.83|N|To the Image of Archmage Xylem. Use your personal Arcane Assistant to port you back.|
 T Manual Labor|QID|14230|M|47.28,21.20|N|To Teresa Spireleaf.|
-
 A The Pinnacle of Learning|QID|14413|PRE|14226&14230|M|47.28,20.80|N|From the Image of Archmage Xylem. I found the next quest incredibly annoying, but there are quite a few after it, so it's your call.|
 T The Pinnacle of Learning|QID|14413|M|55.67,14.66|N|To the Image of Archmage Xylem.|
 A Watch Your Step|QID|14296|PRE|14413|M|55.67,14.66|N|From the Image of Archmage Xylem.|
@@ -458,7 +283,6 @@ C The Trial of Fire|QID|14300|M|32.98,23.59|N|Go through the Waning Sanity Porta
 T The Trial of Fire|QID|14300|M|32.98,23.59|N|To the Image of Archmage Xylem.|
 C The Trial of Frost|QID|24478|M|61.98,21.02|N|Go through the Waning Sanity Portal. Click on the Frost Portal Stone, then enter the portal. Collect 20 small ice orbs. Getting hit by Frostburns will lose some. Can use runes to jump straight up.|
 T The Trial of Frost|QID|24478|M|62.16,21.16|N|Go through the Waning Sanity Portal. To the Image of Archmage Xylem.|
-
 A Xylem's Asylum|QID|14299|PRE|14300&24478&24479|M|55.92,12.17|N|From the Image of Archmage Xylem.|
 T Xylem's Asylum|QID|14299|M|56.17,12.11;25.54,38.01|CS|N|To Joanna. Take the portal.|
 A Wasn't It Obvious?|QID|14389|PRE|14299|M|25.54,38.01|N|From Joanna.|
@@ -470,7 +294,6 @@ T Easy is Boring|QID|14390|M|27.88,40.21|N|To Spirit of Azuregos.|
 A Turning the Tables|QID|14391|PRE|14390|M|27.88,40.21|N|From Spirit of Azuregos.|
 T Hacking the Construct|QID|14430|M|42.58,23.72|N|Talk to Anara and rez. Turn in to Andorel Sunsworn.|
 T Turning the Tables|QID|14391|M|66.59,20.39|N|Take the Rocket to the Northern Rocketway Terminus. Turn in to Kalec.|
-
 A Fade to Black|QID|24467|PRE|14391|M|66.51,20.34|N|From Kalec.|
 A Pro-liberation|QID|14297|M|66.42,20.29|N|From Jellix Fuselighter.|
 A Ice Cold|QID|14261|M|66.57,19.63|N|From Feno Blastnoggin.|
@@ -482,7 +305,6 @@ C Pro-liberation|QID|14297|US|M|69.16,16.89|N|Kill cultists and dragonkin for Ir
 C Ice Cold|QID|14261|U|49596|US|M|69.59,19.40|N|Use the Cryomatic 16 to freeze and kill 8 Sable Drakes. Usually flying or on top of hills.|
 T Ice Cold|QID|14261|M|66.57,19.63|N|To Blastnoggin.|
 T Pro-liberation|QID|14297|M|66.42,20.29|N|To Jellix Fuselighter.|
-
 A Farewell, Minnow|QID|14392|PRE|14261&14297&24467|M|67,20.4|N|From Azuregos.|
 H Bilgewater Harbor|QID|14392|U|6948|M|67.07,21.15|N|Hearth to Bilgewater Harbor, or fly back.|
 T Farewell, Minnow|QID|14392|M|53.25,49.96|N|Speak to Sorata Firespinner in Bilgewater Harbor.|
@@ -497,7 +319,6 @@ F Orgrimmar|QID|14462|M|14.33,65.01|N|Train, repair, sell, etc. if you wish.|
 C Let Them Feast on Fear|QID|24433|S|M|12.74,74.19|N|Slay 12 Talrendis Defenders, and 6 Talrendis Sentinels.|
 C Commando Drop|QID|24434|S|M|10.06,71.18|N|Slay 5 Talrendis Lorekeepers and locate a Lorekeeper Summoning Stone somewhere within Talrendis Point.|
 T Where's My Head?|QID|14462|M|12.55,67.45|N|To Slinky Sharpshiv.|
-
 A Lightning Strike Assassination|QID|14464|PRE|14462|M|12.55,67.45|N|From Slinky Sharpshiv.|
 C Lightning Strike Assassination|QID|14464|M|11.83,68.25|N|Talk to Slinky Sharpshiv to ascend the tower and assassinate Captain Grunwald. Collect Captain Grunwald's head.|
 T Grounded!|QID|14475|M|14.51,75.56|N|Find Bombardier Captain Smooks at the southernmost night elf tower at Talrendis Point.|
@@ -512,21 +333,16 @@ C Let Them Feast on Fear|QID|24433|US|M|12.74,74.19|N|Fight your way across Talr
 T Lightning Strike Assassination|QID|14464|M|13.95,64.79|N|To Chawg.|
 T Let Them Feast on Fear|QID|24433|M|13.95,64.79|N|To Chawg.|
 T Push the Button!|QID|14477|M|14.30,64.99|N|To Kroum.|
-
 A Blacken the Skies|QID|24430|PRE|14477&24433|M|14.45,65.64|N|From Jr. Bombardier Hacke.|
 C Blacken the Skies|QID|24430|M|9.28,72.53|N|Mount a Grounded Wind Rider. Destroy 6 Talrendis Glaive Throwers and bomb the Command Center. Don't fly too low.|
 T Blacken the Skies|QID|24430|M|14.44,65.74|N|To Jr. Bombardier Hackel.|
 A The Conquest of Azshara|QID|24439|PRE|24430|M|14.05,64.86|N|From Chawg.|
 C The Conquest of Azshara|QID|24439|M|9.14,72.80|N|Slay Commander Jarrodenus in Talrendis Point and collect his head.|
 T The Conquest of Azshara|QID|24439|M|14.03,64.78|N|To Chawg.|
-
 A Probing into Ashenvale|QID|24463|PRE|24439|M|14.32,65.05|N|From Kroum.|
 T Probing into Ashenvale|QID|24463|M|94.39,46.80|Z|Ashenvale|N|Run back through all the hostile mobs and across the bridge to Kulg Gorespatter.|
 A To The Ramparts!|QID|13866|LEAD|13612|PRE|24463|M|94.39,46.80|Z|Ashenvale|N|From Kulg Gorespatter.|
 F Northern Barrens |QID|13866|M|94.39,46.80|Z|Ashenvale|N|Talk to Kulg for a free flight.|
 T To The Ramparts!|QID|13866|M|42.41,15.18|Z|Northern Barrens|N|To Kadrak.|
-
 ]]
 end)
-
-

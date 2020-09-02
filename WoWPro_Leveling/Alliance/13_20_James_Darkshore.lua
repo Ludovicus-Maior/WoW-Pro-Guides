@@ -1,191 +1,13 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_darkshore
--- Date: 2020-07-17 21:43
--- Who: Ludovicus_Maior
--- Log: Added PRE to [A Taste for Grouper:13537]
-
--- URL: http://wow-pro.com/node/3218/revisions/29923/view
--- Date: 2018-10-17 02:23
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3218/revisions/29230/view
--- Date: 2018-03-12 20:16
--- Who: Emmaleah
--- Log: Change some |L| to use QO so that they can autocomplete due to Blizzard's change to items not physically existing.
-
--- URL: http://wow-pro.com/node/3218/revisions/29162/view
--- Date: 2018-02-24 20:41
--- Who: Ludovicus_EditBot
--- Log: LEVEL strip
-
--- URL: http://wow-pro.com/node/3218/revisions/29033/view
--- Date: 2018-02-20 00:57
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3218/revisions/29016/view
--- Date: 2018-02-19 23:24
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3218/revisions/28856/view
--- Date: 2018-01-16 23:25
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3218/revisions/28352/view
--- Date: 2017-03-11 20:48
--- Who: Ludovicus_Maior
--- Log: Added PREs.
-
--- URL: http://wow-pro.com/node/3218/revisions/27620/view
--- Date: 2016-08-29 22:51
--- Who: Fluclo
--- Log: Removing redundant L step at beginning of guide
-
--- URL: http://wow-pro.com/node/3218/revisions/26808/view
--- Date: 2014-11-06 13:06
--- Who: Fluclo
--- Log: Removed duplicate tags from QID 13562, 13564, 13565, 13512 (x2) and 13605
-
--- URL: http://wow-pro.com/node/3218/revisions/26401/view
--- Date: 2014-05-30 12:16
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3218/revisions/26332/view
--- Date: 2014-05-27 19:53
--- Who: Ludovicus_Maior
--- Log: GuideLevels corrected from "13,20" to "0,17".
-
--- URL: http://wow-pro.com/node/3218/revisions/26219/view
--- Date: 2014-05-25 22:38
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3218/revisions/26065/view
--- Date: 2014-05-18 21:30
--- Who: Ludovicus_Maior
--- Log: Added Icon
-
--- URL: http://wow-pro.com/node/3218/revisions/25959/view
--- Date: 2014-05-14 22:11
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3218/revisions/25437/view
--- Date: 2013-01-13 15:33
--- Who: Ludovicus_Maior
--- Log: Added C* tags
-
--- URL: http://wow-pro.com/node/3218/revisions/25001/view
--- Date: 2012-06-08 14:11
--- Who: Ludovicus_Maior
--- Log: Update P tag to include prof #.
-
--- URL: http://wow-pro.com/node/3218/revisions/24734/view
--- Date: 2011-08-16 20:47
--- Who: Fluclo
--- Log: Added bread-crumb quest turn-in, level info and some |NC| tags
-
--- URL: http://wow-pro.com/node/3218/revisions/24729/view
--- Date: 2011-08-13 15:22
--- Who: Fluclo
--- Log: Changed the Maw of the Void quest to be Rank 2, as not necessary for zone advancement.
-
--- URL: http://wow-pro.com/node/3218/revisions/24456/view
--- Date: 2011-05-30 17:51
--- Who: Ludovicus_Maior
--- Log: Line 198 for step T has unknown tag [QlID]: [T Denying Manpower|QlID|13507|M|58.92,19.39|N|To Sentinel Tysha Moonblade.|]
-
--- URL: http://wow-pro.com/node/3218/revisions/24410/view
--- Date: 2011-05-22 00:04
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3218/revisions/24294/view
--- Date: 2011-04-29 14:23
--- Who: Ludovicus_Maior
--- Log: Line 249 for step C has unknown tag [Follow Archaeologist Hollee.]
-
--- URL: http://wow-pro.com/node/3218/revisions/23872/view
--- Date: 2010-12-31 03:04
--- Who: Fluclo
--- Log: Added step to Coax Taldan's Spirit which auto-completes on coaxing the spirit
-
--- URL: http://wow-pro.com/node/3218/revisions/23871/view
--- Date: 2010-12-31 02:51
--- Who: Fluclo
--- Log: Corrected QO tag on Thundris Windweaver's Spirit to allow auto-complete to work correctly
-
--- URL: http://wow-pro.com/node/3218/revisions/23870/view
--- Date: 2010-12-31 02:19
--- Who: Fluclo
--- Log: High Cultist Azerynn missing M tag before coordinates
-
--- URL: http://wow-pro.com/node/3218/revisions/23868/view
--- Date: 2010-12-30 19:46
--- Who: Fluclo
--- Log: Changed to K for Shatterspear Overseer, and the resulting Overseer's Orders
-
--- URL: http://wow-pro.com/node/3218/revisions/23867/view
--- Date: 2010-12-30 17:48
--- Who: Fluclo
--- Log: Included a fishing quest available in the area for those with the fishing skill
-
--- URL: http://wow-pro.com/node/3218/revisions/23866/view
--- Date: 2010-12-30 16:22
--- Who: Fluclo
--- Log: Updated steps for 'Bearer of Good Fortune', directing user to [K] instead of [A] to get the drop required to start quest, and gave details on where to find 'A Troubling Prescription'
-
--- URL: http://wow-pro.com/node/3218/revisions/23865/view
--- Date: 2010-12-30 16:17
--- Who: Fluclo
-
--- URL: http://wow-pro.com/node/3218/revisions/23760/view
--- Date: 2010-12-16 12:24
--- Who: Crackerhead22
--- Log: Added in QO steps, added in missing quest, added more quest notes, added in a few sticky steps.
-
--- URL: http://wow-pro.com/node/3218/revisions/23565/view
--- Date: 2010-12-04 16:28
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3218/revisions/23356/view
--- Date: 2010-12-03 11:10
--- Who: Jiyambi
--- Log: .
-
--- URL: http://wow-pro.com/node/3218/revisions/23355/view
--- Date: 2010-12-03 11:10
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3218/revisions/23306/view
--- Date: 2010-12-03 07:32
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3218/revisions/23305/view
--- Date: 2010-12-03 07:32
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("JamDar1320", "Leveling", "Darkshore", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,8,17,12.19)
-WoWPro:NewGuideLevels(guide,10,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, "WkjAsh2025")
-WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Lor'danel |QID|13518|N|This guide starts from Lor'danel, which can be reached by Flightpoint from Darnassus and Exodar.  The breadcrumb quest is Breaking Waves of Change from The Howling Oak in Darnassus, or Hero's Call: Darkshore! from Darnassus.|R|Worgen|
 R Lor'danel |QID|13518|N|This guide starts from Lor'danel, which can be reached by Flightpoint from Darnassus and Exodar.  The breadcrumb quest is Breaking Waves of Change from The Temple of the Moon in Darnassus, or Hero's Call: Darkshore! from Darnassus.|R|Human,Gnome,Draenei,Dwarf,Night Elf|
-
 T Breaking Waves of Change |QID|26385|M|51.80,18.10|N|To Dentaria Silverglade.|O|R|Worgen|
 T Breaking Waves of Change |QID|26383|M|51.80,18.10|N|To Dentaria Silverglade.|O|
 T Hero's Call: Darkshore! |QID|28490|M|51.80,18.10|N|To Dentaria Silverglade.|O|
-
 A The Last Wave of Survivors|QID|13518|M|51.80,18.10|N|From Dentaria Silverglade.|
 A Threat from the Water|QID|13522|M|50.39,18.75|N|From Ranger Glynda Nal'Shea.|
 h Lor'danel|QID|13831|M|50.98,18.61|N|At Innkeeper Kyteran.|
@@ -197,7 +19,6 @@ C Rescue Shaldyn|QID|13518|M|42.92,21.48|QO|3|N|Now rescue Shaldyn.|NC|; Shaldyn
 C Threat from the Water|QID|13522|M|45.50,17.64|US|N|Kill 8 Vile Sprays.|
 T Threat from the Water|QID|13522|M|50.21,19.83|N|To Ranger Glynda Nal'Shea.|
 T The Last Wave of Survivors|QID|13518|M|51.75,18.05|N|To Dentaria Silverglade.|
-
 A The Boon of the Seas|QID|13520|PRE|13518&13522|M|51.75,18.05|N|From Serendia Oakwhisper.|
 A Buzzbox 413|QID|13521|PRE|13518&13522|M|51.17,19.61|N|From Wizbang Cranktoggle.|
 A A Taste for Grouper |QID|13537|PRE|13518&13522|M|52.38,17.7|P|Fishing;356|N|From Johnathan Staats, will lead to you fishing.|
@@ -208,7 +29,6 @@ C Buzzbox 413|QID|13521|M|47.13,18.26|N|Kill Corrupted Tide Crawlers.|
 C The Boon of the Seas|QID|13520|M|49.56,18.48|N|Dive underwater and open Encrusted Clams.|US|NC|
 T The Boon of the Seas|QID|13520|M|50.93,18.75|N|To Serendia Oakwhisper.|
 T Buzzbox 413|QID|13521|M|53.23,19.58|N|To Buzzbox 413.|
-
 A No Accounting for Taste|QID|13527|PRE|13521|M|53.23,19.58|N|From Buzzbox 413.|
 C No Accounting for Taste|QID|13527|M|55.05,20.95|N|Loot the Decomposing Thistle Bear.|NC|
 T No Accounting for Taste|QID|13527|M|51.18,19.59|N|To Wizbang Cranktoggle.|
@@ -229,20 +49,17 @@ C A Cure In The Dark|QID|13554|M|58.86,32.34|N|Kill Vile Grells and Vile Corrupt
 R Bashal'Aran Collapse|QID|28529|M|52.81,32.72|N|Head outside the cave, and jump into the 'Maw of the Void'.|RANK|2|
 l Writings of the Dark Herald|QID|28529|M|52.32,31.03|L|64450|N|Run up the ramp and kill Telarius Voidstrider. Then loot the "Writings of the Dark Herald".|RANK|2|
 A Writings of the Void|QID|28529|U|64450|N|Accept the quest from the writings.|M|52.32,31.03|RANK|2|
-
 H Lor'danel|QID|13529|U|6948|N|Hearth back to Lor'danel, or run back down to Bielara Ivyshroud and tell her you'd like to leave the place, then run back.|RANK|2|
 H Lor'danel|QID|13529|U|6948|N|Hearth back to or run back to Lor'danel.|
 T The Corruption's Source|QID|13529|M|51.19,19.69|N|To Tharnariun Treetender.|
 T Bearer of Good Fortune|QID|13557|M|51.19,19.69|N|To Tharnariun Treetender.|
 T A Troubling Prescription|QID|13831|M|51.19,19.69|N|To Tharnariun Treetender.|
 T A Cure In The Dark|QID|13554|M|51.19,19.69|N|To Wizbang Cranktoggle.|
-
 A A Love Eternal|QID|13563|PRE|13529|M|50.84,17.96|N|From Cerellean Whiteclaw.|
 A A Lost Companion|QID|13564|PRE|13529|M|50.89,17.98|N|From Volcor.|
 A The Final Flame of Bashal'Aran|QID|13562|PRE|13529|M|50.31,19.59|N|From Ranger Glynda Nal'Shea.|
 T Writings of the Void|QID|28529|M|50.31,19.59|N|To Ranger Glynda Nal'Shea.|RANK|2|
 r Sell Junk and Repair|QID|13562|M|50.76,19.24|N|Close this step when you're done.|
-
 R Bashal'Aran|QID|13561|M|51.05,22.71|N|Talk to the Nightsaber Rider, then choose to travel to Bashal'Aran.|
 A Solace for the Highborne|QID|13561|M|46.80,33.23|N|From Arya Autumnlight.|
 C The Final Flame of Bashal'Aran|QID|13562|NC|M|45.97,34.25|
@@ -250,7 +67,6 @@ C Solace for the Highborne|QID|13561|M|47.27,34.59|N|Kill Cursed and Writhing Hi
 C A Love Eternal|QID|13563|M|48.29,36.54|N|Kill Anaya Dawnrunner, loot her pendant.|
 C Solace for the Highborne|QID|13561|M|47.27,34.59|US|N|Finish killing Cursed and Writhering Highbornes.|
 T Solace for the Highborne|QID|13561|M|46.76,33.28|N|To Arya Autumnlight.|
-
 C A Lost Companion|QID|13564|NC|M|43.00,38.86|N|Head to the waypoint to find Grimclaw.|
 T A Lost Companion|QID|13564|M|42.95,38.90|N|To Keeper Karithus.|
 A Unsavory Remedies|QID|13598|PRE|13564|M|42.95,38.90|N|From Keeper Karithus.|
@@ -269,7 +85,6 @@ A The Ritual Bond|QID|13569|PRE|13565&13566&13598|M|42.93,39.02|N|From Keeper Ka
 C The Ritual Bond|QID|13569|NC|M|43.74,40.34|N|Right-click the Keeper's Incense, which is right infront of Keeper Karithus. Then go talk to the Great Stag Spirit, the Great Thistle Bear Spirit, or the Great Moongrazer Spirit. Thistlebear gives a 10% Reduction in damage taken, Moonstalker gives a 10% haste bonus, and Stag gives a 10% increased movement speed. Movement speed does not stack with any other speed buff.|
 T The Ritual Bond|QID|13569|M|42.99,39.10|N|To Keeper Karithus.|
 A Grimclaw's Return|QID|13599|PRE|13569|M|42.99,39.10|N|From Keeper Karithus.|
-
 H Lor'danel|QID|13599|M|46.83,33.2|N|Hearth to Lor'danel. If it is not up, talk to Nightsaber Rider and choose to travel to Lor'danel.|
 T Grimclaw's Return|QID|13599|M|50.88,18.20|N|To Serendia Oakwhisper.|
 T A Love Eternal|QID|13563|M|50.85,18.00|N|To Cerellean Whiteclaw.|
@@ -279,7 +94,6 @@ A An Ocean Not So Deep|QID|13560|PRE|13569|M|50.97,19.23|N|From Gorbold Steelhan
 r Sell Junk and Repair|QID|13562|M|50.76,19.24|N|Close this step when you're done.|
 C An Ocean Not So Deep|QID|13560|M|52.95,11.06|N|Right-click the Decoy Bot Controle Console, walk to a bunch of murlocs and use the abiilty.|
 T An Ocean Not So Deep|QID|13560|M|51.03,19.26|N|To Gorbold Steelhand.|
-
 R Ruins of Mathystra|QID|15389|N|Talk to the Nightsaber Rider and choose to travel to the Ruins of Mathystra.|M|52.21,22.29|
 T The Shatterspear Invaders|QID|13589|M|58.96,19.48|N|To Lieutenant Morra Starbreeze.|
 A Remnants of the Highborne|QID|13505|PRE|13589|M|58.93,19.49|N|From Balthule Shadowstrike.|
@@ -296,7 +110,6 @@ T Remnants of the Highborne|QID|13505|M|58.93,19.49|N|To Balthule Shadowstrike.|
 T Shatterspear Laborers|QID|13504|M|58.93,19.49|N|To Sentinel Tysha Moonblade.|
 A War Supplies|QID|13509|PRE|13504|M|58.93,19.49|N|From Lieutenant Morra Starbreeze.|
 A Denying Manpower|QID|13507|PRE|13505|M|58.93,19.49|N|From Sentinel Tysha Moonblade.|
-
 C War Supplies|QID|13509|U|44999|M|62.42,8.08|N|Use the Sentinel Torch to burn Shatterspear Armaments on the way.|S|
 C Denying Manpower|QID|13507|M|62.23,9.31|N|Kill the Trolls needed for the quest.|S|
 T Swift Response|QID|13508|M|63.77,6.04|N|To Alanndarian Nightsong.|
@@ -304,7 +117,6 @@ A One Bitter Wish|QID|13511|PRE|13508|M|63.77,6.04|N|From Alanndarian Nightsong.
 C One Bitter Wish|QID|13511|M|64.15,5.31|N|Kill Rit'ko and loot his key.|
 A Timely Arrival|QID|13510|M|64.44,5.47|N|Open the cage to free Sentinel Aynasha, then accept her quest, you'll have to escort her.|
 C Timely Arrival|QID|13510|M|60.58,6.97|N|Excort Sentinel Aynasha to safety.|
-
 C Denying Manpower|QID|13507|M|62.23,9.31|N|Kill the Trolls needed for the quest.|US|
 C War Supplies|QID|13509|U|44999|M|62.42,8.08|US|N|Use the Sentinel Torch to burn Shatterspear Armaments.|
 T One Bitter Wish|QID|13511|M|58.92,19.49|N|To Lieutenant Morra Starbreeze.|
@@ -314,7 +126,6 @@ T Denying Manpower|QID|13507|M|58.92,19.39|N|To Sentinel Tysha Moonblade.|
 A Strategic Strikes|QID|13512|PRE|13507&13509|M|58.94,19.51|N|From Lieutenant Morra Starbreeze.|
 A On the Brink|QID|13513|PRE|13507&13509|M|58.94,19.51|N|From Balthule Shadowstrike.|
 A The Looting of Althalaxx|QID|13844|PRE|13507&13509|M|59.25,19.63|N|From Mathas Wildwood.|
-
 C On the Brink|QID|13513|M|57.33,25.86|N|Kill Shatterspear Shamans on the way and loot their amulets.|S|
 C The Looting of Althalaxx|QID|13844|M|58.28,24.01|N|Go inside the tower, find a Charred Book to the side halfway upstairs. Also Kill Teegan Holloway.|
 K Lorenth Thundercall|QID|13512|U|44995|M|56.80,25.88|QO|1|N|Use the Dryad Spear to kill him. Keep moving around to avoid the lightnings.|; Lorenth Thundercall slain: 1/1
@@ -324,7 +135,6 @@ T Strategic Strikes|QID|13512|M|58.88,19.47|N|To Lieutenant Morra Starbreeze.|
 T On the Brink|QID|13513|M|58.88,19.47|N|To Balthule Shadowstrike.|
 A The Front Line|QID|13590|PRE|13512&13513|M|58.88,19.47|N|From Lieutenant Morra Starbreeze.|
 T The Looting of Althalaxx|QID|13844|M|59.25,19.59|N|To Mathas Wildwood.|
-
 R Shatterspear Vale|QID|13508|M|58.58,20|N|Talk to the Nightsaber Rider and choose to travel to Shatterspear Vale.|
 A The Ancients' Ire|QID|13514|M|69.13,19.20|N|From Kerlonian Evershade.|
 C The Ancients' Ire|QID|13514|M|69.44,19.54;70.26,20.33;71.05,17.89;70.67,17.07|CS|N|Climb on an Vengeful Protector, follow the arrows while completing the quest.|
@@ -335,14 +145,12 @@ l Hellscream's Missive|QID|13591|M|72.21,19.06|N|Loot Jor'kil the Soulripper to 
 A Disturbing Connections|QID|13591|M|72.31,18.90|N|Right-click Hellscream's Missive and accept the quest.|U|46318|
 T Ending the Threat|QID|13515|M|72.35,18.87|N|To Huntress Sandrya Moonfall.|
 T The Ancients' Ire|QID|13514|M|69.14,19.25|N|To Kerlonian Evershade.|
-
 H Lor'danel|QID|13591|U|6948|N|Hearth to Lor'danel. If it is not up, talk to Nightsaber Rider and choose to travel to Lor'danel.|
 r Sell Junk and Repair|QID|13591|M|50.76,19.24|N|Close this step when you're done.|
 T Disturbing Connections|QID|13591|M|50.65,19.65|N|To Ranger Glynda Nal'Shea.|
 A The Twilight's Hammer|QID|13519|PRE|13591|M|50.31,20.29|N|From Sentinel Lendra.|
 A Twilight Plans|QID|13596|PRE|13591|M|50.31,20.29|N|From Sentinel Lendra.|
 T Remembrance of Auberdine |QID|13570|M|50.13,19.45|N|To Cerellean Whiteclaw.|
-
 R Bashal'Aran|QID|13523|M|51.05,22.71|N|Talk to the Nightsaber Rider, then choose to travel to Bashal'Aran.|
 C Twilight Plans|QID|13596|M|45.10,30.34|N|Loot Twilight Plans, they're small glowing scrolls scattered across this camp.|S|NC|
 C The Twilight's Hammer|QID|13519|M|44.11,32.22|N|Kill Twilight Fanatics.|S|
@@ -352,13 +160,11 @@ C Power Over the Tides|QID|13523|U|44975|M|43.97,28.54|N|Kill Enraged Tidal Spir
 C The Twilight's Hammer|QID|13519|M|44.11,32.22|US|N|Kill Twilight Fanatics.|
 C Twilight Plans|QID|13596|M|45.10,30.34|N|Loot Twilight Plans you still need.|US|NC|
 T Power Over the Tides|QID|13523|M|44.62,30.68|N|To Moon Priestess Tharill.|
-
 R Lor'danel|QID|13523|M|46.84,33.19|N|Talk to the Nightsaber Rider, then choose to travel to Lor'danel.|
 T The Twilight's Hammer|QID|13519|M|50.35,20.35|N|To Sentinel Lendra.|
 T Twilight Plans|QID|13596|M|50.35,20.35|N|To Sentinel Lendra.|
 A In Aid of the Refugees|QID|13601|PRE|13596|M|50.35,20.35|N|From Sentinel Lendra.|
 r Sell Junk and Repair|QID|13562|M|50.76,19.24|N|Close this step when you're done.|
-
 R Bashal'Aran|QID|13523|M|51.05,22.71|N|Talk to the Nightsaber Rider, then choose to travel to Bashal'Aran.|
 T In Aid of the Refugees|QID|13601|M|42.61,45.05|N|To Priestess Alinya.|
 A Against the Wind|QID|13542|M|42.56,45.16|N|From Sentinel Selarin.|
@@ -380,7 +186,6 @@ C Coaxing the Spirits|QID|13547|M|38.09,43.91|N|Talk to Caylais Moonfeather's co
 T Coaxing the Spirits|QID|13547|M|39.08,43.11|N|To Yalda.|
 A Call Down the Thunder|QID|13558|PRE|13547|M|39.08,43.11|N|From Yalda.|
 C Call Down the Thunder|QID|13558|M|37.24,41.49|N|Use the ritual orb, kill him, then loot his corpse.|
-
 T Against the Wind|QID|13542|M|42.52,45.24|N|To Sentinel Selarin.|
 T Three Hammers to Break|QID|13543|M|42.62,45.17|N|To Corvine Moonrise.|
 T Call Down the Thunder|QID|13558|M|42.62,45.17|N|To Corvine Moonrise.|
@@ -389,7 +194,6 @@ T Malfurion's Return|QID|13573|M|43.67,53.51|N|To Malfurion Stormrage.|
 A The Land Is in Their Blood|QID|13575|M|43.67,53.51|N|From Malfurion Stormrage.|
 A The Last Wildkin|QID|13577|M|43.67,53.51|N|From Malfurion Stormrage.|
 A Protector of Ameth'Aran|QID|13579|M|43.67,53.51|N|From Malfurion Stormrage.|
-
 T The Last Wildkin|QID|13577|M|45.54,48.50|N|To Aroom.|
 A Aroom's Farewell|QID|13578|PRE|13577|M|45.54,48.50|N|From Aroom.|
 C Aroom's Farewell|QID|13578|M|46.67,46.47|N|The feathers are on the ground, they are small and can be a little hard to see.|
@@ -411,7 +215,6 @@ A Soothing the Elements|QID|13580|PRE|13576|M|40.94,56.55|N|From Elder Brownpaw.
 C Soothing the Elements|QID|13580|U|46546|M|39.74,62.61|N|Go to the top of the hill, to the tip where the waypoint is, and use the totem. You will have to protect it until the quest completes.|
 T Soothing the Elements|QID|13580|M|40.94,56.59|N|To Elder Brownpaw.|
 A The Blackwood Pledge|QID|13581|PRE|13580|M|40.94,56.59|N|From Elder Brownpaw.|
-
 T The Blackwood Pledge|QID|13581|M|43.66,53.41|N|To Malfurion Stormrage.|
 T The Wildkin's Oath|QID|13583|M|43.66,53.41|N|To Malfurion Stormrage.|
 T Sworn to Protect|QID|13585|M|43.66,53.41|N|To Malfurion Stormrage.|
@@ -426,7 +229,6 @@ A The Eye of All Storms|QID|13588|PRE|13940|M|43.63,53.43|N|From Malfurion Storm
 C The Eye of All Storms|QID|13588|M|44.27,54.20|N|Jump on Thessera's back, use the #1 ability to attack the riders and the portal. Hit #6 to land when done.|
 T The Eye of All Storms|QID|13588|M|43.63,53.41|N|To Malfurion Stormrage.|
 A Mounting the Offensive|QID|13902|PRE|13588|M|43.63,53.41|N|From Malfurion Stormrage.|
-
 f Grove of the Ancients|QID|13902|M|44.39,75.39|N|At Delanea.|
 T Mounting the Offensive|QID|13902|M|45.25,75.12|N|To Balren of the Claw.|
 A Leave No Tracks|QID|13892|M|45.25,75.12|N|From Balren of the Claw.|
@@ -442,7 +244,6 @@ C Leave No Tracks|QID|13892|U|46696|M|40.74,84.58|N|Head to The Master's Glaive,
 T Leave No Tracks|QID|13892|M|40.74,84.58|N|Turn in via the quest log.|
 A Stepping Up Surveillance|QID|13948|PRE|13892|M|45.27,75.08|N|From Balren of the Claw.|
 C Stepping Up Surveillance|QID|13948|U|46696|M|39.96,84.84|NC|N|Head up, and be careful of the mobs with the blue eye above their head. Once up, listen to the conversation for the completion.|
-
 l Fleetfoot's Tailfeathers|QID|13544|M|45.49,78.85|T|Fleetfoot|L|44886|N|Kill Fleetfoot and loot his tailfeathers.|
 C The Bear's Blessing|QID|13544|M|45.30,76.82|N|Go to the bear statue and use the Bear's Paw Bundle.|U|44888|
 T Consumed|QID|13881|M|45.19,74.69|N|To Kathrena Winterwisp.|
@@ -451,7 +252,6 @@ A Unearthed Knowledge|QID|13896|PRE|13948|M|45.28,75.05|N|From Larien.|
 A The Seeds of Life|QID|13882|PRE|13881|M|45.19,74.69|N|From Kathrena Winterwisp.|
 l Seed of the Earth|QID|13882|M|45.35,74.87|N|Talk to Onu to get the Seed of the Earth.|QO|1|; Seed of the Earth: 1/1
 r Sell junk, repair/restock.|M|45.31,74.67|QID|13882|
-
 N Seed of the Sky|QID|13882|M|42.06,78.96|N|Look for a wisp and click it to get the Seed of the Sky. Can be a pain to click on.|QO|3|S|; Seed of the Sky: 1/1
 T The Bear's Blessing|QID|13544|M|43.48,80.96|N|To Elder Brolg.|
 A Cleansing the Afflicted|QID|13545|PRE|13544|M|43.48,80.96|N|From Elder Brolg.|
@@ -464,7 +264,6 @@ T Cleansing the Afflicted|QID|13545|M|43.55,80.94|N|To Elder Brolg.|
 A The Defiler|QID|13546|PRE|13545|M|43.55,80.94|N|From Elder Brolg.|
 C The Defiler|QID|13546|M|46.34,83.66|N|Head inside the cave and kill Sharax.|
 T The Defiler|QID|13546|M|43.54,80.93|N|To Elder Brolg.|
-
 C The Seeds of Life|QID|13882|M|38.06,79.14|N|Look for shells on the beach.|
 T Unearthed Knowledge|QID|13896|M|37.69,82.74|N|To Archaeologist Groff.|
 A Soggoth and Kronn|QID|13893|PRE|13896|M|37.69,82.74|N|From Archaeologist Groff.|
@@ -478,7 +277,6 @@ C Swamped Secrets|QID|13912|M|36.99,83.37|N|Go down into the water to get the di
 C Sweeping Clean the Ruins|QID|13907|M|36.99,83.38|N|Kill murlocs to finish the quest.|US|
 T Swamped Secrets|QID|13912|M|37.70,82.90|N|To Jr. Archaeologist Ferd.|
 A The Titans' Terminal|QID|13918|PRE|13912|M|37.70,82.90|N|From Jr. Archaeologist Ferd.|
-
 T Sweeping Clean the Ruins|QID|13907|M|37.70,82.90|N|To Archaeologist Groff.|
 A Got Some Flotsam?|QID|13909|PRE|13907|M|37.70,82.90|N|From Archaeologist Groff.|
 C Got Some Flotsam?|QID|13909|M|37.16,86.91|N|Look all around the beach for the wreckage.|S|
@@ -490,7 +288,6 @@ T Got Some Flotsam?|QID|13909|M|37.68,82.78|N|To Archaeologist Groff.|
 A A New Home|QID|13910|PRE|13909|M|37.68,82.78|N|From Archaeologist Groff.|
 C A New Home|QID|13910|U|46385|M|35.91,81.89|N|Go to the flag and use the Marvelous Mobile Murloc Manor Maker.|
 T A New Home|QID|13910|M|37.67,82.77|N|To Archaeologist Groff.|
-
 N Seed of the Sky|QID|13882|M|42.06,78.96|N|Look for a wisp and click it to get the Seed of the Sky. Can be a pain to click on.|QO|3|US|; Seed of the Sky: 1/1
 T The Seeds of Life|QID|13882|M|45.20,74.71|N|To Kathrena Winterwisp.|
 A An Ounce of Prevention|QID|13925|PRE|13882|M|45.20,74.71|N|From Kathrena Winterwisp.|
@@ -510,7 +307,6 @@ T In Defense of Darkshore|QID|13885|M|45.20,74.69|N|To Kathrena Winterwisp.|
 A The Devourer of Darkshore|QID|13891|PRE|13885|M|45.20,74.69|N|From Kathrena Winterwisp.|
 C The Devourer of Darkshore|QID|13891|U|46370|M|44.97,78.70|N|Go to the pond and use the Lifebringer Sapling, then kill what spawns.|
 T The Devourer of Darkshore|QID|13891|M|45.18,74.69|N|To Kathrena Winterwisp.|
-
 C The Tides Turn Against Us|QID|13898|M|31.19,84.20|N|Go into the cave and kill Naga Myrmidons as you go.|S|
 T The Darkscale Warlord|QID|13899|M|32.27,85.30|N|Kill Warlord Wrathspine, and turn this quest into his corpse.|
 A The Offering to Azshara|QID|13900|PRE|13899|M|32.25,85.13|N|From the corpse of Warlord Wrathspine.|
@@ -525,5 +321,3 @@ A Ashes in Ashenvale|QID|26408|LEAD|13594|PRE|13897|M|45.32,75.09|N|From Balren 
 N Fly to Lor'danel or Darnassus|N|To visit your trainers, AH, etc. Right click the box of this step to continue.|
 ]]
 end)
-
-

@@ -1,156 +1,13 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_thousand_needles_alliance
--- Date: 2018-10-17 02:24
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3253/revisions/29042/view
--- Date: 2018-02-20 01:08
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3253/revisions/29031/view
--- Date: 2018-02-19 23:40
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3253/revisions/28862/view
--- Date: 2018-01-16 23:29
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3253/revisions/28381/view
--- Date: 2017-03-15 21:17
--- Who: Ludovicus_Maior
--- Log: Added PREs to WkjTho4045
-
--- URL: http://wow-pro.com/node/3253/revisions/26625/view
--- Date: 2014-07-25 22:20
--- Who: Ludovicus_Maior
--- Log: add mean
-
--- URL: http://wow-pro.com/node/3253/revisions/26338/view
--- Date: 2014-05-27 20:10
--- Who: Ludovicus_Maior
--- Log: GuideLevels corrected from "0,0" to "38,43".
-
--- URL: http://wow-pro.com/node/3253/revisions/26251/view
--- Date: 2014-05-25 23:03
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3253/revisions/26079/view
--- Date: 2014-05-18 21:52
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3253/revisions/25975/view
--- Date: 2014-05-14 22:30
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3253/revisions/25594/view
--- Date: 2013-03-23 20:31
--- Who: Ludovicus_Maior
--- Log: Quest name tweak
-
--- URL: http://wow-pro.com/node/3253/revisions/25427/view
--- Date: 2013-01-13 15:09
--- Who: Ludovicus_Maior
--- Log: Added C* tags
-
--- URL: http://wow-pro.com/node/3253/revisions/24593/view
--- Date: 2011-06-25 01:14
--- Who: Crackerhead22
--- Log: ! Duplicate A step for qid 25486 - Removed line.
---	! Duplicate T step for qid 25488 - Removed line.
---	! Duplicate A step for qid 25488 - Removed line.
---	! Duplicate T step for qid 25488 - Removed line.
---	! Duplicate A step for qid 25835 - Removed line.
-
--- URL: http://wow-pro.com/node/3253/revisions/24459/view
--- Date: 2011-05-30 17:57
--- Who: Ludovicus_Maior
--- Log: ! Line 129 for step R has 1 M coords: [R The Admiral's Den|M|25627|M|92.02,83.23|N|Head to the cave that is The Admiral's Den.|]
-
--- URL: http://wow-pro.com/node/3253/revisions/24423/view
--- Date: 2011-05-26 14:21
--- Who: Crackerhead22
--- Log: Added notes, fixed a cord or two, removed the static |QID|99999|s.
-
--- URL: http://wow-pro.com/node/3253/revisions/24302/view
--- Date: 2011-04-29 14:43
--- Who: Ludovicus_Maior
--- Log: Line 78 for step C has unknown tag [Collect Rocket Car Parts from the ground.], Line 82 for step C has unknown tag [Collect Rocket Car Parts from the ground.], Line 89 for step A has unknown tag [Heads-up Accept].
-
--- URL: http://wow-pro.com/node/3253/revisions/24086/view
--- Date: 2011-01-30 19:37
--- Who: Ludovicus_Maior
--- Log: Corrected RegisterGuide line to match GIT
-
--- URL: http://wow-pro.com/node/3253/revisions/23974/view
--- Date: 2011-01-10 11:35
--- Who: Fluclo
-
--- URL: http://wow-pro.com/node/3253/revisions/23973/view
--- Date: 2011-01-10 11:33
--- Who: Fluclo
--- Log: Various updates to log to improve flow
-
--- URL: http://wow-pro.com/node/3253/revisions/23952/view
--- Date: 2011-01-07 23:57
--- Who: Fluclo
--- Log: Corrected and improved In the Outhouse quest
-
--- URL: http://wow-pro.com/node/3253/revisions/23951/view
--- Date: 2011-01-07 23:45
--- Who: Fluclo
--- Log: Corrected the starting note for In the Outhouse
-
--- URL: http://wow-pro.com/node/3253/revisions/23949/view
--- Date: 2011-01-07 23:42
--- Who: Fluclo
--- Log: Added a seperate step to buy a bottle of grog for Bar Fight, fixed typo on note
-
--- URL: http://wow-pro.com/node/3253/revisions/23947/view
--- Date: 2011-01-07 23:35
--- Who: Fluclo
--- Log: Added starting information on how to get there, the three optional breadcrumb quests, corrected turnin QID for The Grimtotem are Coming and added a note of warning for quest Two If By Boat.
-
--- URL: http://wow-pro.com/node/3253/revisions/23603/view
--- Date: 2010-12-05 07:59
--- Who: wkjezz
-
--- URL: http://wow-pro.com/node/3253/revisions/23602/view
--- Date: 2010-12-05 07:58
--- Who: wkjezz
-
--- URL: http://wow-pro.com/node/3253/revisions/23387/view
--- Date: 2010-12-03 11:37
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3253/revisions/23386/view
--- Date: 2010-12-03 11:36
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('WkjTho4045', "Leveling", 'Thousand Needles', 'Wkjezz', 'Alliance')
-WoWPro:GuideLevels(guide,38,43, 38.032)
-WoWPro:NewGuideLevels(guide,40,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'WkjTan4550')
-WoWPro:GuideIcon(guide,"ACH",4938)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 F New Thalanaar|QID|28503|N|If you already know how to get to New Thalanaar, and if your level isn't too high, you can take Hero's Call: Thousand Needles! from Darnassus or The Exodar.|Z|Feralas|M|86,45.2|
 C To New Thalanaar|QID|25479|O|M|42.84,72.42|N|Choose the speech bubble from Dyslix Silvergrub.|Z|Dustwallow Marsh|
 H Feathermoon Stronghold|QID|25481|U|6948|N|Hearth back to Feathermoon Stronghold.|O|Z|Feralas|
 F Shadebough|QID|25481|N|Fly to Shadebough.|M|46.78,45.34|Z|Feralas|O|
 C To New Thalanaar|QID|25481|N|Talk to Seyala Nightwisp and ask for the hippogryph to New Thalanaar.|Z|Feralas|O|
-
 T Hero's Call: Thousand Needles! |QID|28503|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
 T To New Thalanaar |QID|25479|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
 T To New Thalanaar |QID|25481|O|M|86.1,45.2|N|To Caryssia Moonhunter|Z|Feralas|
@@ -163,7 +20,6 @@ A Do Me a Favor?|QID|25504|PRE|25488|M|75.93,74.59|N|From Fizzle Brassbolts.|
 T Do Me a Favor?|QID|25504|M|76.46,73.66|N|To Jinky Twizzlefixxit.|
 A Down in the Deeps|QID|25515|PRE|25504|M|76.46,73.66|N|From Jinky Twizzlefixxit.|
 A Bar Fight!|QID|25517|PRE|25488|M|77.98,73.35|N|From Rizzle Brassbolts.|
-
 h Speedbarge Bar|QID|25517|M|76.52,74.74|N|At Daisy.|
 B Bottle of Grog |QID|25517|L|54746|N|Buy a Bottle of Grog from Daisy|
 C Bar Fight!|QID|25517|U|54746|N|Taget a goblin and use the grog you just bought from Daisy.|
@@ -174,7 +30,6 @@ K Pirate Treasure Hunters |QID|25524|L|54821|M|80.00, 75.00|N|Kill Pirate Treasu
 C In the Outhouse|QID|25524|U|54821|M|79.61,75.03|N|Use the Pirate's Crowbar on the Outhouse|
 T In the Outhouse|QID|25524|M|79.58,75.09|N|To Submerged Outhouse.|
 C Down in the Deeps|QID|25515|US|M|80.61,76.83|N|Collect Rocket Car Parts from the ground.|
-
 f Fizzle & Pozzik's Speedbarge|QID|25524|M|79.16,71.95|N|At Tilly Topspin, back onto the Speedbarge.|
 T Down in the Deeps|QID|25515|M|76.50,73.64|N|To Jinky Twizzlefixxit.|
 A Pirate Accuracy Increasing|QID|25532|PRE|25515&25517&25524|M|76.50,73.64|N|From Jinky Twizzlefixxit.|
@@ -190,7 +45,6 @@ A Where's Wizzle?|QID|25590|PRE|25542^25561|M|77.97,73.31|N|From Rizzle Brassbol
 A A Little Payback|QID|25588|PRE|25542^25561|M|78.04,73.13|N|From Drag Master Miglen.|
 A Special Delivery for Brivelthwerp|QID|28031|PRE|25542^25561|M|78.12,73.12|N|From Mazzer Stripscrew.|
 T Negotiations|QID|25744|M|91.33,57.74|N|To Crazzle Sprysprocket.|
-
 A Get Zherin!|QID|25756|PRE|25744|M|91.33,57.74|N|From Crazzle Sprysprocket.|
 A The Ancient Brazier|QID|25762|PRE|25744^25745|M|90.11,53.10|N|From Skycaller Vrakthris.|
 C Get Zherin!|QID|25756|M|91.15,53.76|N|Get Trackmaster Zherin down to 1hp, then steal the proposal once he is stunned.|
@@ -203,7 +57,6 @@ A Sunken Treasure|QID|25609|PRE|25590|M|91.67,78.53|N|From Wizzle Brassbolts.|
 C Quiet the Cannons|QID|25585|US|M|90.81,77.26|N|Take out the Cannons.|
 C Sunken Treasure|QID|25609|M|83.38,64.95|N|Hop into the water and search for sunken treasures to the North West.|
 T Sunken Treasure|QID|25609|U|55121|M|91.59,78.61|N|Swim to the surface then use your steamboat and go back to Wizzle Brassbolts.|
-
 A Two-Tusk Takedown|QID|25627|PRE|25609|M|91.59,78.61|N|From Wizzle Brassbolts.|
 R The Admiral's Den|QID|25627|M|92.02,83.23|N|Head to the cave that is The Admiral's Den.|
 N Two-Tusk Takedown|QID|25627|U|55158|N|Once in the cave head left. Following this left path to the NPC. Bribe all ogres on the way. (Click this step when you are about to fight Tony).|M|94.54,79.43|
@@ -226,7 +79,6 @@ T The Mad Magus|QID|25704|M|86.28,92.10;96.80,72.34|CC|N|To Ajamon Ghostcaller, 
 C Fool's Gold|QID|25774|S|M|48.05,42.85|N|Very, very big gold ore nodes. Head into the cave and collect 8 (under water).|
 C The Ancient Brazier|QID|25762|U|55986|M|43.93,37.52|N|This quest is tricky. This is actually in an UNDERWATER cave. Once you enter the cave follow the left path all the way around until you find the brazier. (The co-ords point to the cave mouth).|
 C Fool's Gold|QID|25774|US|M|48.05,42.85|N|Very, very big gold ore nodes. Head into the cave and collect 8 (under water).|
-
 H Fizzle & Pozzik's Speedbarge|QID|25774|N|Hearth. Do not turn in the quests on the steam barge yet.|
 T Fool's Gold|QID|25774|M|91.38,57.70|N|To Crazzle Sprysprocket.|
 A Fake Gold for Black Gold|QID|25778|PRE|25774|M|91.36,57.65|N|From Crazzle Sprysprocket.|
@@ -241,7 +93,6 @@ C Defend the Drill|QID|25798|U|56011|M|90.00,51.19|N|Use Oil Drilling Rig nect t
 C Eminent Domain|QID|25796|M|88.65,49.78|N|Finish killing Splithoof centaurs.|US|
 T Eminent Domain|QID|25796|M|91.35,57.70|N|To Crazzle Sprysprocket.|
 T Defend the Drill|QID|25798|M|91.35,57.70|N|To Crazzle Sprysprocket.|
-
 A Go Blow that Horn|QID|25813|PRE|25796&25798|M|91.35,57.70|N|From Crazzle Sprysprocket.|
 C Go Blow that Horn|QID|25813|M|89.42,47.00|N|Blow the horn, and then slay Whrrrl when it appears|
 T Go Blow that Horn|QID|25813|M|91.36,57.77|N|To Crazzle Sprysprocket.|
@@ -254,7 +105,6 @@ C The Greatest Flavor in the World!|QID|28045|M|70.60,82.29|N|Kill and loot any 
 C We All Scream for Ice Cream... and then Die!|QID|28051|US|M|68.53,86.35|N|Right-click on dead gnomes to attach them to the tug' tow hook.|
 T The Greatest Flavor in the World!|QID|28045|M|69.89,85.11|N|To Brivelthwerp.|
 T We All Scream for Ice Cream... and then Die!|QID|28051|M|69.89,85.11|N|To Brivelthwerp.|
-
 A Freezing the Pipes|QID|28047|PRE|28045&28051|M|69.89,85.11|N|From Brivelthwerp.|
 A That Smart One's Gotta Go|QID|28048|PRE|28045&28051|M|69.89,85.11|N|From Brivelthwerp.|
 C Freezing the Pipes|QID|28047|NC|U|62912|QO|1|M|65.95,86.41|N|Go to the bug tunnel under water to the east. First Pipe is here.|; First pipe frozen: 1/1
@@ -264,7 +114,6 @@ C Freezing the Pipes|QID|28047|NC|U|62912|M|64.95,85.79|N|Freeze the last pipe h
 C That Smart One's Gotta Go|QID|28048|M|64.57,85.73|N|Kill the Hive Controller.|
 T Freezing the Pipes|QID|28047|M|69.90,85.19|N|To Brivelthwerp.|
 T That Smart One's Gotta Go|QID|28048|M|69.90,85.19|N|To Brivelthwerp.|
-
 H Fizzle & Pozzik's Speedbarge|QID|25825|N|If it is down, just sail back.|U|55121|
 T Deliver the Goods|QID|25825|M|75.97,74.65|N|To Fizzle Brassbolts.|
 A Free Freewind Post|QID|25835|PRE|25704&25825|M|75.97,74.65|N|From Fizzle Brassbolts.|
@@ -281,7 +130,6 @@ C Grimtotem in the Post|QID|25869|US|M|42.79,51.02|N|Finish killing the Grimtote
 T Grimtotem in the Post|QID|25869|M|46.36,57.90|N|To Quentin. You can jump over the edge and into the water to avoid running all the way back down.|
 T Horn of the Traitor|QID|25873|M|46.36,57.90|N|To Quentin.|
 T Save the Sentinel|QID|25871|M|46.78,56.05|N|To Brienna Starglow.|
-
 A Together Again|QID|27275|PRE|25871|M|46.78,56.05|N|From Brienna Starglow.|
 T Together Again|QID|27275|M|42.17,47.05|N|To Feralas Sentinel.  Start crossing the bridge into Darkcloud Pinnacle and the Feralas Sentinel will appear by your side.|
 A No Weapons For You!|QID|27310|PRE|27275|M|42.22,48.20|N|From Feralas Sentinel.|
@@ -296,7 +144,6 @@ A What's that Rattle?|QID|28283|LEAD|27316|PRE|27314|M|43.33,43.63|N|From Ferala
 T What's that Rattle?|QID|28283|M|43.35,43.42|N|To the Rattle of Bones.|
 A The Rattle of Bones|QID|27316|PRE|27275|M|43.35,43.42|N|From the Rattle of Bones.|
 T The Rattle of Bones|QID|27316|M|43.12,43.66|N|To Feralas Sentinel.|
-
 A The Writ of History|QID|27320|PRE|27316|M|43.12,43.66|N|From Feralas Sentinel.|
 A The Drums of War|QID|27325|PRE|27316|M|43.12,43.67|N|From Feralas Sentinel.|
 C Grimtotem Chiefs: Elder Stormhoof|QID|27318|M|39.67,41.76|N|Kill Elder Stormhoof.|
@@ -317,7 +164,6 @@ C Darkcloud Grimtotem|US|QID|27312|M|36.16,39.58|N|Finish killing Grimtotem.|
 T No Weapons For You!|QID|27310|M|34.10,39.07|N|To Feralas Sentinel.|
 T Darkcloud Grimtotem|QID|27312|M|35.36,39.37|N|To Feralas Sentinel.|
 T The Captive Bride|QID|27357|M|39.15,25.84|N|To Lakota Windsong.|
-
 A Invoking the Serpent|QID|27329|PRE|27357|M|39.15,25.84|N|From Lakota Windsong.|
 C Invoking the Serpent|QID|27329|U|61043|M|38.07,35.40|N|Head to Arikara's Needle, then use Shu'halo Artifacts to call the wind serpent.  Kill any Grimtotem Spirit's that appear, whilst they are out, Arikara becomes immune.|
 T Invoking the Serpent|QID|27329|M|39.13,25.84|N|To Lakota Windsong.|
@@ -330,7 +176,6 @@ C Death to all Trappers!|QID|28087|M|10.20,33.86|N|Kill the Twilight Trappers an
 C Free the Pridelings|US|QID|28086|M|12.62,34.97|N|Free the pridelings.|
 T Free the Pridelings|QID|28086|M|12.83,34.05|N|To Pao'ka Swiftmountain.|
 T Death to all Trappers!|QID|28087|M|12.83,34.05|N|To Pao'ka Swiftmountain.|
-
 A Release Heartrazor|QID|28088|PRE|28086&28087|M|12.83,34.05|N|From Pao'ka Swiftmountain.|
 C Release Heartrazor|QID|28088|M|17.65,41.08;13.17,39.29|CC|N|Head up the narrow path. Kill the 4 subduers surrounding Heartrazor.|
 T Release Heartrazor|QID|28088|M|12.87,33.97|N|To Pao'ka Swiftmountain.|
@@ -340,7 +185,6 @@ C The Twilight Skymaster|QID|28098|M|19.00,48.02|N|Kill Twilight Skymaster Richt
 T The Twilight Skymaster|QID|28098|M|16.02,45.76;12.83,34.00|CC|N|Head back to Heartrazer for a lift back to Pao'ka Swiftmountain.|
 A On to the Bulwark|QID|28124|PRE|28098|M|12.83,34.00|N|From Pao'ka Swiftmountain.|
 T On to the Bulwark|QID|28124|M|30.38,49.27|N|To Lakota Windsong.|U|55121|
-
 A Something to Wear|QID|28125|PRE|28124|M|30.38,49.27|N|From Lakota Windsong.|
 A Break Them Out|QID|28127|PRE|28124|M|30.38,49.27|N|From Lakota Windsong.|
 C Something to Wear|QID|28125|S|M|26.50,57.75|N|Kill and loot Twilight Bulwark mobs.|
@@ -356,7 +200,6 @@ C Behind You!|QID|28136|U|63071|M|31.22,59.61|N|Assassinate Codemaster Deethuk.|
 C Codemaster's Code|QID|28139|M|31.14,59.76|N|Loot the big circle artifact.|
 T Codemaster's Code|QID|28139|M|30.47,49.33|N|To Lakota Windsong.|
 T Behind You!|QID|28136|M|30.47,49.33|N|To Lakota Windsong.|
-
 A The Elder Crone|QID|28140|PRE|28136&28139|M|30.47,49.33|N|From Lakota Windsong.|
 C The Elder Crone|QID|28140|U|63071|M|35.88,60.64|N|Click on Magatha's Bonds Contoller to disable it.|
 T The Elder Crone|QID|28140|M|35.88,60.64|N|(UI ALert)  Note: You will lose your disguise on turning this quest in.|
@@ -372,7 +215,6 @@ l Twilight Element of Air|QID|28157|QO|1|M|57.53,60.00|N|Up this tower you will 
 C Four Twilight Elements|QID|28157|M|60.44,64.39|N|Finally get the Fire here.|
 T Four Twilight Elements|QID|28157|M|50.08,62.63|N|To Magatha Grimtotem.|
 T Unbound|QID|28158|M|50.08,62.63|N|To Magatha Grimtotem.|
-
 A The Doomstone|QID|28159|PRE|28157&28158|M|50.08,62.63|N|From Magatha Grimtotem.|
 C The Doomstone|QID|28159|U|63104|M|54.51,62.92|N|Kill Animus.  Beware, he likes to throw people around. Don't get too carried away... epic music can make for an epic death.|
 T The Doomstone|QID|28159|M|50.11,62.62|N|To Magatha Grimtotem.|
@@ -380,10 +222,6 @@ A Spread the Word|QID|28160|PRE|28159|M|50.11,62.62|N|From Magatha Grimtotem.|
 H Fizzle & Pozzik's Speedbarge|QID|28160|N|Hearth to the barge.|
 T Spread the Word|QID|28160|M|75.92,74.57|N|To Fizzle Brassbolts.|
 A Tanaris is Calling|QID|27446|LEAD|25048|M|75.92,74.57|N|From Fizzle Brassbolts.|
-
 N The End|U|55121|N|That's It for Thousand Needles Folks. Head on south into Tanaris and join me for Wkjezz's Tanaris Guide!|
 ]]
-
 end)
-
-

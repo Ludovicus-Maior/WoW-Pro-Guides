@@ -1,269 +1,10 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/horde_war_campaign
--- Date: 2020-08-25 16:25
--- Who: Blanckaert
--- Log: minor revisions, add F step, adjusted name of P step
-
--- URL: http://wow-pro.com/node/3761/revisions/30611/view
--- Date: 2020-08-19 02:42
--- Who: Blanckaert
--- Log: Travel adjustments, added F steps, changed Note wording on some quest steps.
-
--- URL: http://wow-pro.com/node/3761/revisions/30606/view
--- Date: 2020-08-07 00:10
--- Who: Blanckaert
--- Log: revert a PRE tag, added note on line
-
--- URL: http://wow-pro.com/node/3761/revisions/30605/view
--- Date: 2020-08-06 21:02
--- Who: Blanckaert
--- Log: Changed REP gate numbers, commented reasons, also changed order of a quest turnin, as it effects getting follow up quest.
-
--- URL: http://wow-pro.com/node/3761/revisions/30603/view
--- Date: 2020-08-01 00:15
--- Who: Blanckaert
--- Log: oops.. put PRE in wrong spot errored the N
-
--- URL: http://wow-pro.com/node/3761/revisions/30602/view
--- Date: 2020-07-31 01:58
--- Who: Blanckaert
--- Log: added some PREs, moved a line, and other 'minor' adjustments.   REP info is incorrect needs to be fixed as figured out
-
--- URL: http://wow-pro.com/node/3761/revisions/30601/view
--- Date: 2020-07-30 04:29
--- Who: Blanckaert
--- Log: changed QID for An Old Scar from 57632 to 55732.
-
--- URL: http://wow-pro.com/node/3761/revisions/30600/view
--- Date: 2020-07-30 01:15
--- Who: Blanckaert
--- Log: added C step, to talk to Magni
-
--- URL: http://wow-pro.com/node/3761/revisions/30599/view
--- Date: 2020-07-29 01:48
--- Who: Blanckaert
--- Log: minor adjustment of coords and capitalization
-
--- URL: http://wow-pro.com/node/3761/revisions/30515/view
--- Date: 2020-04-09 23:25
--- Who: Ludovicus_Maior
--- Log: Missing M tag
-
--- URL: http://wow-pro.com/node/3761/revisions/30510/view
--- Date: 2020-04-08 19:10
--- Who: Ludovicus_Maior
--- Log: [Foothold: Tiragarde Sound], [The Wicker Totem], [Battle of Dazar'alor], [Do It the Azerite Way], [We Stand United]
---	Syntax fixes for [Do It the Azerite Way].
-
--- URL: http://wow-pro.com/node/3761/revisions/30483/view
--- Date: 2020-03-30 07:55
--- Who: Emmaleah
--- Log: fixes and tweaks thru the end.
-
--- URL: http://wow-pro.com/node/3761/revisions/30482/view
--- Date: 2020-03-29 09:06
--- Who: Emmaleah
--- Log: Added rest of the Chamber of Heart quest lines, other minor tweaks. thru Battle of Dazar'alor.
-
--- URL: http://wow-pro.com/node/3761/revisions/30459/view
--- Date: 2019-12-21 18:06
--- Who: Ludovicus_Maior
--- Log: Kaylynn: This step of the war campign horde side guide has a typo it should be Tell Tattersail, not Tail Tattersail.
-
--- URL: http://wow-pro.com/node/3761/revisions/30458/view
--- Date: 2019-12-21 18:05
--- Who: Ludovicus_Maior
--- Log: Kaylynn: Horde Warcampaign line 1101 is missing the zone tag.
-
--- URL: http://wow-pro.com/node/3761/revisions/30439/view
--- Date: 2019-11-04 00:47
--- Who: Ludovicus_Maior
--- Log: 50973, 53405, 53406 gone now
-
--- URL: http://wow-pro.com/node/3761/revisions/30430/view
--- Date: 2019-10-12 15:57
--- Who: Ludovicus_Maior
--- Log: Add missing N tags
-
--- URL: http://wow-pro.com/node/3761/revisions/30422/view
--- Date: 2019-09-25 11:44
--- Who: Emmaleah
--- Log: 8.25 additions (and Heart of Azeroth Additons that were actually 8.2)
-
--- URL: http://wow-pro.com/node/3761/revisions/30418/view
--- Date: 2019-09-24 09:17
--- Who: Emmaleah
--- Log: 8.2 additions
-
--- URL: http://wow-pro.com/node/3761/revisions/30324/view
--- Date: 2019-07-23 19:59
--- Who: Emmaleah
--- Log: commented out the 4 quests with Magni that seem to have been eliminated [A Brother's Help; Stubborn as a Bronzebeard; Necessity is the MOTHER;One Way Ticket to the Heart]
-
--- URL: http://wow-pro.com/node/3761/revisions/30267/view
--- Date: 2019-06-27 21:49
--- Who: Ludovicus_Maior
--- Log: 8.2 Z updates
-
--- URL: http://wow-pro.com/node/3761/revisions/30237/view
--- Date: 2019-03-18 06:37
--- Who: Emmaleah
--- Log: added heart of azeroth quest chain. (still need C steps on first 3 as I did them along time ago and don't recall exactly what they were.
-
--- URL: http://wow-pro.com/node/3761/revisions/30209/view
--- Date: 2019-01-30 07:46
--- Who: Emmaleah
--- Log: Add new |V| (vehicle) tag
-
--- URL: http://wow-pro.com/node/3761/revisions/30206/view
--- Date: 2019-01-27 22:45
--- Who: Emmaleah
--- Log: Change PRE on Adapting our Tactics
-
--- URL: http://wow-pro.com/node/3761/revisions/30204/view
--- Date: 2019-01-27 03:12
--- Who: Emmaleah
--- Log: remove deprecated warfront quests
-
--- URL: http://wow-pro.com/node/3761/revisions/30202/view
--- Date: 2019-01-27 03:10
--- Who: Emmaleah
--- Log: remove stray T|Blademaster Telaamon|
-
--- URL: http://wow-pro.com/node/3761/revisions/30194/view
--- Date: 2019-01-21 22:31
--- Who: Emmaleah
--- Log: remove rep tag on final arc of tides of vengeance as it not needed (same or less than previous arc + faction from previous arc)
-
--- URL: http://wow-pro.com/node/3761/revisions/30190/view
--- Date: 2019-01-19 03:10
--- Who: Emmaleah
--- Log: Few more tweaks and corrections.
-
--- URL: http://wow-pro.com/node/3761/revisions/30189/view
--- Date: 2019-01-18 04:50
--- Who: Emmaleah
--- Log: final segment of tides of vengeance to become available 22 Jan 2019.
-
--- URL: http://wow-pro.com/node/3761/revisions/30188/view
--- Date: 2019-01-15 02:52
--- Who: Emmaleah
--- Log: reworking choice around sylvanus vs saurfang
-
--- URL: http://wow-pro.com/node/3761/revisions/30186/view
--- Date: 2019-01-14 23:59
--- Who: Emmaleah
--- Log: Add rep gate to A Mech for a Goblin and other misc adj.
-
--- URL: http://wow-pro.com/node/3761/revisions/30185/view
--- Date: 2019-01-14 13:16
--- Who: Emmaleah
--- Log: various updates since 8.1
-
--- URL: http://wow-pro.com/node/3761/revisions/30180/view
--- Date: 2019-01-06 10:14
--- Who: Emmaleah
--- Log: add missing Z tag for Portal to return to Port of Zandalar
-
--- URL: http://wow-pro.com/node/3761/revisions/30178/view
--- Date: 2019-01-05 06:04
--- Who: Emmaleah
--- Log: It appears despite updating my personal copy weeks ago... I never put the darkshore quests here :(
-
--- URL: http://wow-pro.com/node/3761/revisions/30169/view
--- Date: 2018-12-27 01:48
--- Who: Ludovicus_Maior
--- Log: Removed some naughty |N|N| tags.
-
--- URL: http://wow-pro.com/node/3761/revisions/30167/view
--- Date: 2018-12-20 11:39
--- Who: Emmaleah
--- Log: added the purchased at exalted - missions and the finding saurfang quest line in 8.1
-
--- URL: http://wow-pro.com/node/3761/revisions/30166/view
--- Date: 2018-12-17 10:51
--- Who: Emmaleah
--- Log: The rest of the 8.1 quest lines, except for the new missions are still needed.
-
--- URL: http://wow-pro.com/node/3761/revisions/30162/view
--- Date: 2018-12-17 01:46
--- Who: Emmaleah
--- Log: Darkshore and first part of tides of vengeance
-
--- URL: http://wow-pro.com/node/3761/revisions/30154/view
--- Date: 2018-12-05 06:06
--- Who: elidion
--- Log: Added first couple lines of 8.1 War campaign.
-
--- URL: http://wow-pro.com/node/3761/revisions/30118/view
--- Date: 2018-11-06 00:11
--- Who: elidion
--- Log: Comment out PTR quests
-
--- URL: http://wow-pro.com/node/3761/revisions/30114/view
--- Date: 2018-11-05 22:35
--- Who: Emmaleah
--- Log: turns out those |O|s were important, a fact i would have realized if I had just thought about it for 2 more minutes...
-
--- URL: http://wow-pro.com/node/3761/revisions/30113/view
--- Date: 2018-11-05 20:21
--- Who: Emmaleah
--- Log: Deleting the stray -- that snuck in.
-
--- URL: http://wow-pro.com/node/3761/revisions/30110/view
--- Date: 2018-11-05 09:18
--- Who: Emmaleah
--- Log: removed False from Rep tags, reworded many notes. Added some R and F steps, corrected QIDs as needed, added coordinates that were missing in several talk to Tattersail steps, moved other quests to rank 2. (debated much about where that distinction should be.)
-
--- URL: http://wow-pro.com/node/3761/revisions/30099/view
--- Date: 2018-10-29 18:27
--- Who: elidion
--- Log: .
-
--- URL: http://wow-pro.com/node/3761/revisions/30098/view
--- Date: 2018-10-29 01:25
--- Who: Emmaleah
--- Log: Deleted travel steps after First Assault, edited note for 4.5 Friendly to include travel steps. Adjusted Rep tag on N Ransa at Honored so wouldnt show until honored and put in front of 3K into honored N Rep Gated. Added N Ransa at revered.
-
--- URL: http://wow-pro.com/node/3761/revisions/30097/view
--- Date: 2018-10-28 23:33
--- Who: Emmaleah
--- Log: changed the AVAILABLE|53065 to > 51784; added ILVL 320 to QO|2 step of battle for stromgard and T>t on same quest.
-
--- URL: http://wow-pro.com/node/3761/revisions/30096/view
--- Date: 2018-10-28 22:38
--- Who: Emmaleah
--- Log: Add ILVL|320 to C Warfront: Battle... and A Iron Stores
-
--- URL: http://wow-pro.com/node/3761/revisions/30063/view
--- Date: 2018-10-20 21:17
--- Who: elidion
--- Log: fixed spaces around the &s
-
--- URL: http://wow-pro.com/node/3761/revisions/29961/view
--- Date: 2018-10-17 02:26
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3761/revisions/29866/view
--- Date: 2018-10-02 22:22
--- Who: elidion
--- Log: added C step back to warfront quest.
-
 local guide = WoWPro:RegisterGuide('EmmHWarCampaign', 'Leveling', 'Zandalar', 'Emmaleah', 'Horde')
-WoWPro:NewGuideLevels(guide,110, 120, 112)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideName(guide,'War Campaign')
 WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideAutoSwitch(guide)
-WoWPro:GuideIcon(guide,"ACH",12555)
 WoWPro:GuideSteps(guide, function()
-
 return [[
-
 ;Starter Notes
 N The Great Sea Scrolls|QID|53476|NA|NOCACHE|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chests on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 t The Great Sea Scrolls|QID|53476|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
@@ -271,7 +12,6 @@ N Treasure Maps|N|There are four treasure maps that will drop randomly when figh
 N Ranks.|N|Rank 1 includes the steps needed for the War Campaign Achievement required for Pathfinder It also includes Warfronts and the quests that follow the purchased Table Missions to open up more outposts. Currently, there is no rank 2/3 content in this guide, but when it is added in, Rank 2 adds the Wanted Posters on Zandalar which are worth 250 faction each. Rank 3 adds other quests on Zandalar. If you want to change ranks mid-guide. You should also reset the guide (from guide title bar) or else you may miss things.|
 N Silver Elites|QID|52451^51916|N|The Silver Elites on Kul Tiras (assuming you are horde) do not scale to your level and are all level 120-122. You may want to avoid them before 120.|
 N The Banshee's Wail|QID|53079|N|All of these quest arcs start on The Banshee's Wail, a ship in Zandalar's harbor. It can be reached by taking the flightpath to the Port of Zandalar.|
-
 ;Start of the Campaign
 A The War Campaign|QID|52749|M|40.67,72.08|Z|Hall of Croniclers!Dazar'alor|NA|N|From Nathanos Blightcaller.|
 T The War Campaign|QID|52749|M|58.44,62.67|NA|Z|Zuldazar|N|To Nathanos Blightcaller. For travel efficiency, Wait to turn this in until you have 100 War Resources.|;accepted when you pick your first zone
@@ -287,11 +27,10 @@ t War of Shadows|QID|51771|M|58.54,62.26|Z|Zuldazar|N|To Garona Halforcen.|
 A Reinforcements|QID|53079|M|58.54,62.26|Z|Zuldazar|N|From Garona Halforcen.|PRE|51771|
 C Reinforcements|QID|53079|M|58.54,62.26|Z|Zuldazar|NC|N|Requistion some troops from Garona.|
 T Reinforcements|QID|53079|M|58.54,62.26|Z|Zuldazar|N|To Garona Halforcen.|
-A Adapting Our Tactics|QID|53602|M|58.56,62.73|Z|Zuldazar|N|From Eitrigg.|PRE|51984^51985^51986|LVL|114|
+A Adapting Our Tactics|QID|53602|M|58.56,62.73|Z|Zuldazar|N|From Eitrigg.|PRE|51984^51985^51986|
 C Adapting Our Tactics|QID|53602|M|58.56,62.72|Z|Zuldazar|CHAT|N|Ask Eitrigg about available upgrades and then choose between the two on the first tier.|
 T Adapting Our Tactics|QID|53602|M|58.56,62.72|Z|Zuldazar|N|To Eitrigg.|
-A The MOTHERLODE!!: Raw Deal|QID|53437|M|58.45,62.64|Z|Zuldazar|NA|LVL|115|N|From Trade Prince Gallywix who is 1 level directly below Nathanos.|PRE|53602|
-
+A The MOTHERLODE!!: Raw Deal|QID|53437|M|58.45,62.64|Z|Zuldazar|NA|N|From Trade Prince Gallywix who is 1 level directly below Nathanos.|PRE|53602|
 ;foothold quest intro
 A The Kul Tiras Campaign|QID|51803|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51770|
 C Pick a Foothold|QID|51803|M|58.44,62.62|NC|Z|Zuldazar|N|Choose which zone you want to build a foothold in first at the Kul'Tiras Campaign Table.|
@@ -299,17 +38,15 @@ t Foothold: Drustvar|QID|51801|M|58.44,62.67|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Stormsong Valley|QID|51802|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Tiragarde Sound|QID|51800|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
 T The Kul Tiras Campaign|QID|51803|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-
 ;Level 114 Foothold
-A Deeper Into Kul Tiras|QID|53050|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|LVL|114|O|
+A Deeper Into Kul Tiras|QID|53050|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|O|
 T Deeper Into Kul Tiras|QID|53050|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|;autoaccepted from UI when you lvl to 114.
-A The Ongoing Campaign|QID|51979|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|LVL|114|PRE|51803|
+A The Ongoing Campaign|QID|51979|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51803|
 C Pick next Foothold|QID|51979|M|58.44,62.62|NC|Z|Zuldazar|N|Choose which zone you want to build your second foothold at the Kul'Tiras Campaign Table.|
 t Foothold: Drustvar|QID|51801|M|58.44,62.67|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Stormsong Valley|QID|51802|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Tiragarde Sound|QID|51800|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
 T The Ongoing Campaign|QID|51979|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-
 ;Island Expedition unlock
 t The Azerite Advantage|QID|53062|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller. This quest is once per account.|O|;Autoaccepted from UI upon achieving level 116
 A Island Expedition|QID|51870|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53062|
@@ -324,17 +61,15 @@ C Off the Charts|QID|51888|M|39.96,51.31|Z|Islands!Instance|SO|5|N|Investigate t
 C Azerite Raid|QID|51888|M|39.96,51.31|Z|Islands!Instance|SO|6|N|Pick up the Azerite from the the 3 Kunzen hozen huts.|
 C Escape!|QID|51888|M|75.71,70.62|Z|Islands!Instance|SO|7|N|Escape from Uncharted Isle before the Alliance arrive. Don't worry that the quest log shows this quest incomplete, it will be complete when you get back to Zuldazar.|
 T Island Expedition|QID|51888|M|44.48,95.45|Z|Dazar'alor|N|To Captain Rez'okum.|
-
 ;Level 118 Foothold
-A Pushing Our Influence|QID|53056|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|LVL|118|O|
+A Pushing Our Influence|QID|53056|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|O|
 T Pushing Our Influence|QID|53056|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-A The Final Foothold|QID|52444|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51979|LVL|118|
+A The Final Foothold|QID|52444|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51979|
 C Pick last Foothold|QID|52444|M|58.44,62.62|NC|Z|Zuldazar|N|Choose the last available zone to build a foothold at the Kul'Tiras Campaign Table.|
 t Foothold: Drustvar|QID|51801|M|58.44,62.67|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Stormsong Valley|QID|51802|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
 t Foothold: Tiragarde Sound|QID|51800|M|58.45,62.62|Z|Zuldazar|N|To UI Alert.|
 T The Final Foothold|QID|52444|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-
 ;Foothold: Drustvar
 A A Trip Across the Ocean|QID|51332|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51801|
 T A Trip Across the Ocean|QID|51332|M|58.45,62.64|Z|Zuldazar|N|To Trade Prince Gallywix below deck.|
@@ -369,7 +104,6 @@ f Krazzlefrazz Outpost|ACTIVE|51985|M|37.37,24.03|Z|Drustvar|N|At Rixi Rocketboo
 F Anyport|ACTIVE|51985|M|37.37,24.03|Z|Drustvar|N|At Rixi Rocketboom.|
 C Return to Zuldazar|QID|51985|M|20.61,43.35|Z|Drustvar|CHAT|N|Ask Swellthrasher for a ride back to Zuldazar.|
 T Return to Zuldazar|QID|51985|M|58.43,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-
 ; Foothold: Stormsong Valley
 A The Warlord's Call|QID|51526|M|58.43,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51802|
 T The Warlord's Call|QID|51526|M|58.44,62.45|Z|Zuldazar|N|To High Warlord Cromush.|
@@ -410,7 +144,6 @@ A Return to Zuldazar|QID|51986|M|52.13,33.66|Z|Stormsong Valley|N|From Rexxar.|P
 f Warfang Hold|ACTIVE|51986|M|51.43,33.74|Z|Stormsong Valley|N|At Muka Stormbreaker.|
 C Return to Zuldazar|QID|51986|M|51.43,33.74|Z|Stormsong Valley|CHAT|N|Ask Muka Stormbreaker for a flight back to Zuldazar.|
 T Return to Zuldazar|QID|51986|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-
 ; A Foothold: Tiraguard Sound
 A Shiver Me Timbers|QID|51421|M|58.45,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|51800|
 C Shiver Me Timbers|QID|51421|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to Tiragarde Sound.|
@@ -450,18 +183,16 @@ T Champion: Shadow Hunter Ty'jin|QID|51975|M|87.28,50.01|Z|Tiragarde Sound|N|To 
 A Return to Zuldazar|QID|51984|M|87.28,50.01|Z|Tiragarde Sound|N|From Shadow Hunter Ty'jin.|PRE|51975|
 C Return to Zuldazar|QID|51984|M|87.84,51.18|Z|Tiragarde Sound|CHAT|N|Speak to Erul Dawnbrook.|
 T Return to Zuldazar|QID|51984|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-
 ;lvl 120
-A A Mission of Unity|QID|53064|N|Autoaccepted after turning level 120|LVL|120|O|
-T A Mission of Unity|QID|53064|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|LVL|120|
-A Uniting Zandalar|QID|52451^51916|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|LVL|120|
+A A Mission of Unity|QID|53064|N|Autoaccepted after turning level 120|O|
+T A Mission of Unity|QID|53064|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Uniting Zandalar|QID|52451^51916|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|
 C Uniting Zandalar|QID|52451^51916|M|58.44,62.67|Z|Zuldazar|S|N|Requires at least honored with Talanji's Expidition (Nazmir); Voldunai (Voldun); and Zandalari Empire (Zuldazar) Accountwide progress counts. |
-
 ;Warfront at lvl 120
-A The Warfront Looms|QID|53207|N|Autoaccepted after turning level 120|LVL|120|O|
+A The Warfront Looms|QID|53207|N|Autoaccepted after turning level 120|O|
 T The Warfront Looms|QID|53207|M|52.93,94.47|Z|Dazar'alor|N|To Throk.|
-A To the Front|QID|53208|M|52.93,94.47|Z|Dazar'alor|LVL|120|PRE|53207|AVAILABLE|53220|N|From Throk.|  ; only once per Account/Faction, 53220 is flag QID.
-A Warfront Contribution|QID|53209|M|52.93,94.47|Z|Dazar'alor|N|From Throk.|LVL|120|PRE|53207|
+A To the Front|QID|53208|M|52.93,94.47|Z|Dazar'alor|PRE|53207|AVAILABLE|53220|N|From Throk.|  ; only once per Account/Faction, 53220 is flag QID.
+A Warfront Contribution|QID|53209|M|52.93,94.47|Z|Dazar'alor|N|From Throk.|PRE|53207|
 P Arathi Highlands|ACTIVE|53208|M|51.83,94.46|Z|Dazar'alor|CHAT|N|Talk to Druza Netherfang for a port to Arathi Highlands|
 T To the Front|QID|53208|M|26.07,35.56|Z|Arathi Highlands|N|To Wistel Silversnitch.|
 A Touring the Front|QID|53210|M|26.07,35.57|Z|Arathi Highlands|PRE|53208|
@@ -474,48 +205,45 @@ P Zuldazar|ACTIVE|53212|M|26.68,35.80|Z|Arathi Highlands|CHAT|N|Talk to Druza Ne
 T Back to Zuldazar|QID|53212|M|52.93,94.47|Z|Dazar'alor|N|To Throk.|
 C Warfront Contribution|QID|53209|M|51.74,95.44|Z|Dazar'alor|QO|1|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g at Paymaster Grintooth|
 T Warfront Contribution|QID|53209|M|52.93,94.47|Z|Dazar'alor|N|To Throk and enjoy Warfronts!|
-
 ; Warfront Scenerio
 A Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|N|From Throk.|O|
-C Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|NC|QO|1|N|View the War Table in Zuldazar and join the queue to defeat the Alliance at the Battle for Stromgarde.|ILVL|320|
-A Iron Stores|QID|51082|ACTIVE|53416|M|70.51,36.03|Z|943|N|From Foreman Drogg. After taking the mines and killing Overseer Krix.|ILVL|320|
+C Warfront: The Battle for Stromgarde|QID|53416|M|52.91,94.52|Z|Dazar'alor|NC|QO|1|N|View the War Table in Zuldazar and join the queue to defeat the Alliance at the Battle for Stromgarde.|
+A Iron Stores|QID|51082|ACTIVE|53416|M|70.51,36.03|Z|943|N|From Foreman Drogg. After taking the mines and killing Overseer Krix.|
 C Iron Stores|QID|51082|M|61.49,25.10|Z|943|QO|1|NC|N|Back at the base, access your Iron Stores.|
 T Iron Stores|QID|51082|M|61.48,25.26|Z|943|N|To Lug'ruk.|
-A Chop, Chop!|QID|47283|PRE|51082|M|45.98,19.64|Z|943|N|From Graul. After taking Hatchet Ridge and killing Lumberjack Leo.|ILVL|320|
+A Chop, Chop!|QID|47283|PRE|51082|M|45.98,19.64|Z|943|N|From Graul. After taking Hatchet Ridge and killing Lumberjack Leo.|
 C Chop, Chop!|QID|47283|M|46.38,19.17|Z|943|QO|1|NC|N|Grab the Sturdy Axe.|
 C Chop, Chop!|QID|47283|M|46.47,18.16|Z|943|QO|2|NC|N|Chop down the Sapling.|
 C Chop, Chop!|QID|47283|M|46.47,18.16|Z|943|QO|3|NC|N|Pick up the Freshly-Chopped Wood around the tree you just chopped.|
 T Chop, Chop!|QID|47283|M|46.04,19.63|Z|943|N|To Graul.|
-A Ready for Battle|QID|53665|PRE|51082|M|60.64,28.10|Z|943|N|From Lieutenant Akaro.|ILVL|320|
+A Ready for Battle|QID|53665|PRE|51082|M|60.64,28.10|Z|943|N|From Lieutenant Akaro.|
 C Ready for Battle|QID|53665|M|60.77,28.90|Z|943|QO|1|NC|N|Recruit a troop from the Barracks, 20 Iron minimum.|
 T Ready for Battle|QID|53665|M|60.64,28.09|Z|943|N|To Lieutenant Akaro.|
-A Armor Up!|QID|53666|PRE|51082|M|58.72,25.90|Z|943|N|From Drom'kal.|ILVL|320|
+A Armor Up!|QID|53666|PRE|51082|M|58.72,25.90|Z|943|N|From Drom'kal.|
 C Armor Up!|QID|53666|M|58.60,25.40|Z|943|QO|1|NC|N|See what the Armory has to offer.|
 T Armor Up!|QID|53666|M|60.71,25.19|Z|943|N|To Wistel Silversnitch.|
-A The Altar's Power|QID|53669|PRE|51082|M|60.71,25.19|Z|943|N|From Wistel Silversnitch.|ILVL|320|
+A The Altar's Power|QID|53669|PRE|51082|M|60.71,25.19|Z|943|N|From Wistel Silversnitch.|
 C The Altar's Power|QID|53669|M|61.03,22.65|Z|943|QO|1|NC|N|See what the Altar has to offer.|
 T The Altar's Power|QID|53669|M|60.70,25.17|Z|943|N|To Wistel Silversnitch.|
-A Welcome to the Workshop|QID|53667|PRE|51082|M|58.52,21.47|Z|943|N|From Margie Slickwinch.|ILVL|320|
+A Welcome to the Workshop|QID|53667|PRE|51082|M|58.52,21.47|Z|943|N|From Margie Slickwinch.|
 C Welcome to the Workshop|QID|53667|M|57.89,21.81|Z|943|QO|1|NC|N|See what the Workshop has to offer.|
 T Welcome to the Workshop|QID|53667|M|58.52,21.47|Z|943|N|To Margie Slickwinch.|
-A Flightgineer's Network|QID|53668|PRE|51082|M|51.14,46.94|Z|943|N|From Flightgineer Krazzle after capturing High Perch.|ILVL|320|
+A Flightgineer's Network|QID|53668|PRE|51082|M|51.14,46.94|Z|943|N|From Flightgineer Krazzle after capturing High Perch.|
 C Flightgineer's Network|QID|53668|M|51.31,46.85|Z|943|QO|1|NC|N|Fly back to Ar'gorok to get your flightmaster whistle upgrade.|
 T Flightgineer's Network|QID|53668|M|61.69,26.19|Z|943|N|To Eitrigg.|
-A Beasts of Newstead|QID|53670|PRE|51082|M|42.26,39.56|Z|943|N|From Raider Zugg after capturing Newstead.|ILVL|320|
+A Beasts of Newstead|QID|53670|PRE|51082|M|42.26,39.56|Z|943|N|From Raider Zugg after capturing Newstead.|
 C Beasts of Newstead|QID|53670|M|41.50,40.55|Z|943|QO|1|NC|N|See what Kodo Rider Tanauk has to offer.|
 T Beasts of Newstead|QID|53670|M|42.62,41.53|Z|943|N|To Raider Zugg.|
-A The Circle's Power|QID|53671|PRE|51082|M|69.62,47.65|Z|943|N|From Arcanist Ilira after capturing the Circle of Elements.|ILVL|320|
+A The Circle's Power|QID|53671|PRE|51082|M|69.62,47.65|Z|943|N|From Arcanist Ilira after capturing the Circle of Elements.|
 C The Circle's Power|QID|53671|M|68.45,47.51|Z|943|NC|N|See what Kraga Tidefury has to offer.|
 T The Circle's Power|QID|53671|M|69.63,47.65|Z|943|N|To Arcanist Ilira.|
-C Warfront: The Battle for Stromgarde|QID|53416|M|49.37,72.95|Z|943|QO|2|N|Collect Iron and Wood to continue upgrading your buildings and troops or hire help. Capture the various outposts and defeat the alliance.|ILVL|320|
+C Warfront: The Battle for Stromgarde|QID|53416|M|49.37,72.95|Z|943|QO|2|N|Collect Iron and Wood to continue upgrading your buildings and troops or hire help. Capture the various outposts and defeat the alliance.|
 t Warfront: The Battle for Stromgarde|QID|53416|M|52.92,94.51|Z|Dazar'alor|N|To Throk.|
 ;End Warfront Scenerio
-
 C Uniting Zandalar|QID|52451^51916|M|58.44,62.67|Z|Zuldazar|US|N|Requires at least friendly with Talanji's Expidition (Nazmir); Voldunai (Voldun); and Zandalari Empire (Zuldazar) Accountwide progress counts. |
 T Uniting Zandalar|QID|52451^51916|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-
 ;First Assault
-A Breaking Kul Tiran Will|QID|51589|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|LVL|120|PRE|52451^51916|
+A Breaking Kul Tiran Will|QID|51589|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52451^51916|
 C Breaking Kul Tiran Will|QID|51589|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to sail to Tiragarde Sound.|
 T Breaking Kul Tiran Will|QID|51589|M|87.38,50.52|Z|Tiragarde Sound|N|To Nathanos Blightcaller.|
 A Into the Heart of Tiragarde|QID|51590|M|87.38,50.52|Z|Tiragarde Sound|N|From Nathanos Blightcaller.|PRE|51589|
@@ -557,7 +285,6 @@ T Death Trap|QID|51599|M|77.01,49.19|Z|Tiragarde Sound|N|To Lilian Voss.|
 A The Bridgeport Ride|QID|51601|M|77.01,49.19|Z|Tiragarde Sound|N|From Lilian Voss.|PRE|51599|
 C The Bridgeport Ride|QID|51601|M|75.49,49.86;75.55,51.96;74.22,52.88|QO|1;2|Z|Tiragarde Sound|CS|V|N|Hop on the horse, make a circle thru town, be sure you ran past the Captain, and then ride out across the low bridge to where you set the bombs.|
 T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|NC|N|To Nathanos Blightcaller.|
-
 ;Heart of Azeroth questline - gone as of 8.2.5
 ; P Silithis|QID|50973|M|73.97,85.62|Z|The Great Seal!Dazar'alor|N|Travel to Silithis to upgrade your Necklace' ilevel. One character on your account must have at least friendly rep for this quest to be available.|ACH|12947;5;;true|PRE|52451^51916|
 ; A The Heart's Power|QID|50973|M|42.22,44.27|Z|Silithus|N|From Magni Bronzebeard.|REP|Champions of Azeroth;2164;Friendly-Exalted|PRE|52451^51916|
@@ -584,7 +311,6 @@ T The Bridgeport Ride|QID|51601|M|72.03,51.85|Z|Tiragarde Sound|NC|N|To Nathanos
 ;C A One-Way Ticket to the Heart|QID|54964|M|50.76,53.72|Z|The Oblivion Door@Uldir!Dungeon1154|QO|2|NC|N|Click on MOTHER to Activate the Waygate and teleport to the Chamber of Heart.|
 ; Dungeon1021 or Dungeon1473
 ;T A One-Way Ticket to the Heart|QID|54964|M|50.19,53.72|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard. That's all of this quest line for now. I'm sure there is more to come in a future patch. Hearth or take the portal out.|
-
 ; The Marshal's Grave - 4.5k Friendly with The Honorbound
 A Operation: Grave Digger|QID|53065|N|Autoaccepted|PRE|51601|REP|The Honorbound;2157;friendly;4000|O|
 T Operation: Grave Digger|QID|53065|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
@@ -614,7 +340,6 @@ C What Remains of Marshal M. Valentine|QID|51789|QO|3|M|61.11,48.99|Z|Drustvar|N
 C What Remains of Marshal M. Valentine|QID|51789|QO|4|M|61.11,48.99|Z|Drustvar|NC|N|Wait for the dialog to complete.|
 C What Remains of Marshal M. Valentine|QID|51789|QO|5|M|61.11,48.99|Z|Drustvar|NC|N|pick up the book when it becomes interactive.|
 T What Remains of Marshal M. Valentine|QID|51789|M|61.17,48.73|Z|Drustvar|N|To Nathanos Blightcaller, who is with you at the crypt.|
-
 A Expanding our Influence|QID|54494|M|58.06,62.65|Z|Zuldazar|N|From Ransa Greyfeather.|REP|The Honorbound;2157;honored;0|
 T Expanding our Influence|QID|54494|M|58.06,62.65|Z|Zuldazar|N|To Ransa Greyfeather.|
 B Scounting Missions|AVAILABLE|53739^53744|M|58.06,62.65|Z|Zuldazar|N|Now that you're Honored you can purchase two Scouting Reports from Ransa Greyfeather (Emissary) that become available at Honored. Use the Scouting Reports to cause a mission to be available at your table. Complete the table missions to start quest chains that unlock outposts (additional flight paths!).\nNOTE:You will have to right click this step off, till you complete the missions.|REP|The Honorbound;2157;honored-exalted|
@@ -622,12 +347,10 @@ B Scounting Missions|AVAILABLE|53739^53744|M|58.06,62.65|Z|Zuldazar|N|Now that y
 A Mission Report: Swiftwind Post|QID|52275|M|51.56,99.77|Z|Dazar'alor|REP|The Honorbound;2157;honored;0|PRE|53744|O|
 T Mission Report: Swiftwind Post|QID|52275|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Swiftwind Post|QID|52276|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52275|
-
 ; The Honored Repuation Mission Report: The Wolf's Den
 A Mission Report: The Wolf's Den|QID|52005|M|51.56,99.77|Z|Dazar'alor|REP|The Honorbound;2157;honored;0|PRE|53739|O|
 T Mission Report: The Wolf's Den|QID|52005|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A The Wolf's Den|QID|52127|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52005|
-
 ; The Honored Repuation Mission Report: Swiftwind Post,part2
 R Tiragarde Sound|ACTIVE|52276|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Tiragarde (because it is slightly closer) or get there through other means.|
 F Timberfell Outpost|ACTIVE|52276|M|87.27,50.67|Z|Tiragarde Sound|N|Take a flight to Timberfell from Skrash.|FLY|BFA|
@@ -640,7 +363,6 @@ A Wicker Magic|QID|53103|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|
 R Drustvar|ACTIVE|53103|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Drustvar or get there through other means.|
 F Swiftwind Post|ACTIVE|53103|M|19.12,43.32|Z|Drustvar|N|At Tan Lotuswind.|
 T Wicker Magic|QID|53103|M|66.12,59.58|Z|Drustvar|N|To Toska Eaglehorn in Drustvar. It should be easier now that you have the flight path directly there.|
-
 ; The Honored Repuation Mission Report: The Wolf's Den,part2
 R Tiragarde Sound|ACTIVE|52127|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Tiragarde Sound or get there through other means.|
 C The Wolf's Den|QID|52127|M|62.21,13.44|Z|Tiragarde Sound|QO|1|N|Make your way to the outpost and claim it.|
@@ -652,7 +374,6 @@ A Wolves for the Den|QID|53152|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightca
 R Tiragarde Sound|ACTIVE|53152|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Tiragarde Sound or get there through other means.|
 F Wolf's Den|ACTIVE|53152|M|87.27,50.67|Z|Tiragarde Sound|N|At Skrash.|
 T Wolves for the Den|QID|53152|M|62.49,12.48|Z|Tiragarde Sound|N|To Mukkral Blackvein in Tiragarde sound. It should be easier now that you have the flight path directly there.|
-
 ; Death of a Tidesage - 3k/12k Honored The Honorbound
 A Operation: Water Wise|QID|53066|N|Autoaccepted|PRE|51789|REP|The Honorbound;2157;honored;3000|O|  ; You dont get until 3000, but you can do the rest of the chain without this LEAD
 T Operation: Water Wise|QID|53066|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
@@ -690,7 +411,6 @@ R Tidebreak Summit|ACTIVE|52122|M|59.91,30.49|Z|Stormsong Valley|N|Run back to t
 C To Be Forsaken|QID|52122|M|59.91,30.49|Z|Stormsong Valley|CHAT|N|Tell Lilian you want to watch the encounter.|
 H The Great Seal|ACTIVE|52122|M|51.45, 33.67|Z|Stormsong Valley|N|Hearth or tell Muka you want to return to Zandalar. (or stick around and do WQs)|
 T To Be Forsaken|QID|52122|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-
 ; At the Bottom of the Sea - 7.5k/12k The Honorbound
 A Operation: Bottom Feeder|QID|53067|N|Autoaccepted|PRE|52122|REP|The Honorbound;2157;honored;7500|O|  ; dont get until you hit 7500, but you can do the chain without this LEAD
 T Operation: Bottom Feeder|QID|53067|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
@@ -732,40 +452,33 @@ T Grab and Go|QID|52774|M|40.11,67.98|Z|The Great Sea!Instance!Azeroth|N|To Nath
 A With Prince in Tow|QID|52978|M|40.10,67.99|Z|The Great Sea!Instance!Azeroth|N|From Nathanos Blightcaller still under the main deck.|PRE|52774|  ; Need to have 53121 turned in to get this quest, on ANY toon.  Reverted PRE to 52774
 C With Prince in Tow|ACTIVE|52978|M|39.90,68.31|Z|The Great Sea!Instance!Azeroth|CHAT|N|Tell Tattersail you want to return to Zandalar.|
 T With Prince in Tow|QID|52978|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-
 B More Scouting Missions|QID|53739^53740^53741^53742^53743^53744^53745|M|58.06,62.65|Z|Zuldazar|S!US|N|Now that you're Revered you can purchase 5 more Scouting Reports from the Emissary to unlock outposts (additional flight paths!).The sooner you start those missions, the sooner you will have more flightpoints in Kul Tiras.|REP|The Honorbound;2157;revered-exalted|AVAILABLE|53739^53740^53741^53742^53743^53744^53745|
 ; The Revered Repuation Mission Report: Hillcrest Pasture
 A Mission Report: Hillcrest Pasture|QID|52478|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
 T Mission Report: Hillcrest Pasture|QID|52478|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Hillcrest Pasture|QID|52479|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52478|
-
 ; The Revered Repuation Mission Report: Mudfisher Cove
 A Mission Report: Mudfisher Cove|QID|52313|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
 T Mission Report: Mudfisher Cove|QID|52313|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Mudfisher Cove|QID|52314|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52313|
-
 ; The Revered Repuation Mission Report: Stonetusk Watch
 A Mission Report: Stonetusk Watch|QID|52776|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
 T Mission Report: Stonetusk Watch|QID|52776|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Stonetusk Watch|QID|52777|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52776|
-
 ; The Revered Repuation Mission Report: Stonefist Watch
 A Mission Report: Stonefist Watch|QID|52221|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
 T Mission Report: Stonefist Watch|QID|52221|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Stonefist Watch|QID|52222|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52221|
-
 ; The Revered Repuation Mission Report: Windfall Cavern
 A Mission Report: Windfall Cavern|QID|52319|M|51.51,99.63|Z|Dazar'alor|REP|The Honorbound;2157;revered;0|O|
 T Mission Report: Windfall Cavern|QID|52319|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Windfall Cavern|QID|52320|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|52319|
-
 ; The Revered Repuation Mission Report: Hillcrest Pasture;part2
 R Stormsong Valley|ACTIVE|52479|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
 F Wolf's Den|ACTIVE|52479|M|51.43,33.74|Z|Stormsong Valley|N|Wolf's Den is the closest flightpoint, unless you want to run and do WQ's. \n\nThis step will work from any Flight Master.|
 C Hillcrest Pasture|QID|52479|M|53.42,77.66|Z|Stormsong Valley|NC|N|Make your way to the outpost to claim it.|
 f Hillcrest Pasture|ACTIVE|52479|M|52.77,80.13|Z|Stormsong Valley|N|At Hosan Cloudhoof.|
 T Hillcrest Pasture|QID|52479|M|54.19,78.65|Z|Stormsong Valley|N|To Ruknoz Greyfang.|
-
 ; The Revered Repuation Mission Report: Mudfisher Cove-part2
 R Drustvar|ACTIVE|52314|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Drustvar or get there through other means.|
 F Waning Glacier|ACTIVE|52314|M|19.15,43.31|Z|Drustvar|N|Fly to Waning Glacier (Tiragarde Sound), unless you want to run and do WQ's. \n\nThis step will work from any Flight Master.|
@@ -778,7 +491,6 @@ A The Wicker Totem|QID|53126|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcall
 R Drustvar|ACTIVE|53126|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Drustvar or get there through other means.|
 F Mudfisher Cove|ACTIVE|53126|M|19.15,43.31|Z|Drustvar|N|Fly to Mudfisher Cove, unless you want to run and do WQ's. \n\nThis step will work from any Flight Master.|
 T The Wicker Totem|QID|53126|M|62.43,17.01|Z|Drustvar|N|To Garn Blackwolf.|
-
 ; The Revered Repuation Mission Report: Stonetusk Watch;part2
 R Stormsong Valley|ACTIVE|52777|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
 F Diretusk Hollow|ACTIVE|52777|M|51.43,33.76|Z|Stormsong Valley|N|Fly to Diretusk Hollow, unless you want to run and do WQ's. \n\nThis step will work from any Flight Master.|
@@ -791,7 +503,6 @@ A Nettin' Ettin|QID|53101|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.
 R Stormsong Valley|ACTIVE|53101|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
 F Stonetusk Watch|ACTIVE|53101|M|51.43,33.76|Z|Stormsong Valley|N|Fly to Stonetusk Watch, unless you want to run and do WQ's. \n\nThis step will work from any Flight Master.|
 T Nettin' Ettin|QID|53101|M|38.84,66.63|Z|Stormsong Valley|N|To Wyna Breezehorn.|
-
 ; The Revered Repuation Mission Report: Stonefist Watch-part2
 R Tiragarde Sound|ACTIVE|52222|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Tiragarde Sound or get there through other means.|
 F Timberfell Outpost|ACTIVE|52222|M|87.27,50.66|Z|Tiragarde Sound|N|Fly to Timberfall Outpost, unless you want to run and do WQ's. \n\nThis step will work from any Flight Master.|TAXI|-Swiftwind Post|
@@ -805,14 +516,12 @@ A Spare Parts|QID|53082|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|P
 R Tiragarde Sound|ACTIVE|53082|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Tiragarde Sound or get there through other means.|
 F Stonefist Watch|ACTIVE|53082|M|87.27,50.66|Z|Tiragarde Sound|N|Fly to Stonefist Watch, unless you want to run and do WQ's. \n\nThis step will work from any Flight Master.|
 T Spare Parts|QID|53082|M|52.86,62.25|Z|Tiragarde Sound|N|To Grizvek Gearsnap.|
-
 ; The Revered Repuation Mission Report: Windfall Cavern-part2
 R Stormsong Valley|ACTIVE|52320|M|58.46,62.99|Z|Zuldazar|CHAT|N|Tell Tattersail to take you to Stormsong Valley or get there through other means.|
 F Warfang Hold|ACTIVE|52320|M|51.43,33.76|Z|Stormsong Valley|N|Fly to Warfang Hold. Skip if you just came off the boat to Stormsong Valley. \n\nThis step will work from any Flight Master.|
 C Windfall Cavern|QID|52320|M|60.70,26.71;60.33,25.28|CS|Z|Stormsong Valley|NC|N|Follow arrow to cave entrance, enter and claim the outpost.|
 f Windfall Cavern|ACTIVE|52320|M|60.84,27.12|Z|Stormsong Valley|N|At Allabas.|
 T Windfall Cavern|QID|52320|M|60.21,24.98|Z|Stormsong Valley|N|To Morn Ironhorn.|
-
 ; The Strike on Boralus - Revered with The Honorbound
 A Operation: Hook and Line|QID|53068|N|Autoaccepted|PRE|52978|REP|The Honorbound;2157;revered;0|O|  ; LEAD not avail till you hit this gate, but following quest already avail
 T Operation: Hook and Line|QID|53068|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
@@ -868,20 +577,16 @@ T Champion: Lilian Voss|QID|52861|M|58.40,62.71|Z|Zuldazar|N|To Lilian Voss.|
 H The Great Seal|ACTIVE|53003|M|58.40,62.71|Z|Zuldazar|N|Hearth, or otherwise get yourself to a portal to Orgrimmar.|
 P Orgrimmar|ACTIVE|53003|M|51.54,45.89|Z|Dazar'alor|N|Take the portal to Orgrimmar|
 T A Cycle of Hatred|QID|53003|M|48.39,71.16|Z|Orgrimmar|N|To Sylvanas Windrunner. If you just received the quest, A Way Out from Sylvanas, you will need to exit Grommash Hold, then return to turn this one in.|
-
 A Our War Continues|QID|53850^53851|M|48.39,71.16|Z|Orgrimmar|N|From Sylvanas Windrunner. \n\nIf she doesn't offer it, go back to Zuldazar and Nathanos (on the ship) will offer it.\nRight Click to Skip.|PRE|53003|
 P Dazar'alor|ACTIVE|53850|M|47.51,60.06|Z|Orgrimmar|N|Use the portal or otherwise return to Zandalar|PRE|53003|
 P Dazar'alor|AVAILABLE|53851|M|47.51,60.06|Z|Orgrimmar|N|Use the portal or otherwise return to Zandalar|PRE|53003|
-
 ; 8.1 Quests
-
-A Trouble in Darkshore|QID|54042|M|52.98,94.33|Z|Dazar'alor|LVL|120|N|From Dark Ranger Velonara.|PRE|53003|
+A Trouble in Darkshore|QID|54042|M|52.98,94.33|Z|Dazar'alor|N|From Dark Ranger Velonara.|PRE|53003|
 A Our War Continues|QID|53851|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53003|LEAD|53850|;may have a rep requirement beyond revered, but I don't think so ... so no tag as 53003 also required revered.
 C Our War Continues|QID|53851|M|58.44,62.45|Z|Zuldazar|CHAT|N|Speak with Sylvanas Windrunner on the Banshee's Wail.|
 T Our War Continues|QID|53851|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Azerite Denied|QID|53852|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53850^53851|
 C Talk to Dread-Admiral Tattersail|ACTIVE|53852^54042|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound or Darkshore, which ever quest you want to do first.|
-
 ; Darkshore opening
 T Trouble in Darkshore|QID|54042|M|53.62,20.41|Z|Darkshore!Instance1333|N|To Nathanos Blightcaller.|
 A Black Moon Rising|QID|54044|M|53.62,20.41|Z|Darkshore!Instance1333|N|From Nathanos Blightcaller.|PRE|54042|
@@ -919,7 +624,6 @@ A Warfront Preparations|QID|54416|M|51.74,21.64|Z|Darkshore!Instance1333|N|From 
 P Warfront Preparations|ACTIVE|54416|M|52.71,21.26|Z|Darkshore!Instance1333|QO|1|N|Take the portal provided or otherwise return to the Port of Zandalar.|
 T Warfront Preparations|QID|54416|M|52.92,94.52|Z|Dazar'alor|N|To Throk.|
 N War Table|AVAILABLE|53955^53416|M|52.92,94.52|Z|Dazar'alor|N|Check the table beside Throk to determine if Horde is on Patrol Status or Siege Status and then if siege, queue for the warfront if available, if patrol status you can click on the nearby portal to go kill Darkshore rares if desired.|PRE|54416|
-
 ; darkshore quests
 A Buzzkill|QID|54845|M|46.40,35.11|Z|Darkshore!Kalimdor|N|From Zarvik Blastwix.|PRE|54416|
 A Remaining Threats|QID|54843|M|47.00,35.53|Z|Darkshore!Kalimdor|N|From Deathstalker Commander Belmont.|PRE|54416|
@@ -943,7 +647,6 @@ C Remaining Threats|QID|54843|M|39.14,61.88|Z|Darkshore!Kalimdor|US|N|Finish up 
 T Remaining Threats|QID|54843|M|46.97,35.51|Z|Darkshore!Kalimdor|N|To Deathstalker Commander Belmont.|
 T Buzzkill|QID|54845|M|46.42,35.02|Z|Darkshore!Kalimdor|N|To Zarvik Blastwix.|
 T Tapping the Breach|QID|54844|M|47.91,36.21|Z|Darkshore!Kalimdor|N|To Dark Ranger Velonara.|
-
 ; The Day is Won
 C Talk to Dread-Admiral Tattersail|QID|53852|M|58.46,62.98|Z|Zuldazar|QO|1|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound.|
 F Mudfisher Cove|ACTIVE|53852|M|87.27,50.66|Z|Tiragarde Sound|N|Nearest flight point to Rexxar's location is Mudfisher Cove.|FLY|BFA|
@@ -973,7 +676,6 @@ T Ride Out to Meet Them|QID|53973|M|47.41,21.82|Z|Tiragarde Sound|N|To Rexxar.|
 A The Day is Won|QID|53981|M|47.41,21.82|Z|Tiragarde Sound|N|From Rexxar.|PRE|53973|
 H Zuldazar|ACTIVE|53981|M|47.41,21.82|Z|Tiragarde Sound|TZ|The Great Seal|N|Hearth or otherwise return to The Banshee's Wail in the Port of Zandalar.|
 T The Day is Won|QID|53981|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-
 ; mekkatorque's battle plans
 A A Mech for a Goblin|QID|53941|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53981|REP|The Honorbound;2157;revered;7000|
 F Xibala|ACTIVE|53941|M|52.10,90.16|Z|Dazar'alor|N|Xibala is as close as you can fly, then you have to run the rest of the way.|
@@ -1023,7 +725,6 @@ T Mech versus Airship|QID|54028|M|87.65,53.48|Z|Tiragarde Sound|N|To G.M.O.D.|
 A A Goblin's Definition of Success|QID|54094|M|87.65,53.48|Z|Tiragarde Sound|N|From G.M.O.D.|PRE|54028|
 R Port of Zuldazar|ACTIVE|54094|M|87.85,51.17|Z|Tiragarde Sound|CHAT|N|Ask Erul Dawnbrook for a ride or otherwise return to Zuldazar and the Banshee's Wail.|
 T A Goblin's Definition of Success|QID|54094|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-
 ; Through the front door
 A Breaking Out Ashvane|QID|54121|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|54094|REP|The Honorbound;2157;revered;14000|
 P Tiragarde Sound|ACTIVE|54121|Z|Zuldazar|TZ|Plunder Harbor|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound (Optional).|
@@ -1059,7 +760,6 @@ C Get to the Ship|ACTIVE|54179|M|50.71,72.80|Z|Tol Dagor!Instance1349|SO|7|NC|N|
 C Through the Front Door|QID|54179|M|69.24,64.90|Z|Kul Tiras|NC|N|Wait a moment for the Scenario "Escape from Tol Dagor" to complete.|
 R Port of Zuldazar|ACTIVE|54179|M|87.85,51.17|Z|Tiragarde Sound|TZ|The Banshee's Wail|CHAT|N|Ask Erul Dawnbrook for a ride or otherwise return to Zuldazar and the Banshee's Wail.|
 T Through the Front Door|QID|54179|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-
 ; Fly out to Meet Them
 A War Is Here|QID|54139|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|54179|  ; per wowhead comments
 F The Great Seal|ACTIVE|54139|N|Hearth, Fly or otherwise return to the Great Seal. The King is near the scouting map, not up at his throne.|
@@ -1130,7 +830,6 @@ A Fly Out to Meet Them|QID|54280|M|31.35,31.97|Z|Nazmir|N|From General Rakera.|P
 C Fly Out to Meet Them|QID|54280|M|31.47,32.06|Z|Nazmir|V|N|Hop on for a ride back to Zuldazar with Hexlord Raal|
 T Fly Out to Meet Them|QID|54280|M|37.04,5.23|Z|Dazar'alor|N|To Princess Talanji.|
 A Battle of Dazar'alor|QID|54282|M|37.04,5.23|Z|Dazar'alor|N|From Princess Talanji. This is a raid quest. Accept or not as you choose.|PRE|54280|
-
 B More upgrade missions.|QID|54294&54296&54297|M|58.06,62.65|Z|Zuldazar|S!US|N|Three more missions to upgrade your outposts purchased from the Emissary. Unlike the previous missions, these need purchased by each character who wants the upgrade.|REP|The Honorbound;2157;Exalted;0|
 ; Exalted Mission Report: Vulpara Hideaway
 A Mission Report: Vulpera Hideaway|QID|54258|M|51.55,99.60|Z|Dazar'alor|PRE|54296|
@@ -1139,7 +838,6 @@ A Outpost Upgrade: Vulpera Hideaway|QID|54260|M|58.44,62.67|Z|Zuldazar|N|From Na
 F Vulpera Hideaway|ACTIVE|54260|M|52.09,90.11|Z|Zuldazar|N|at Ripa the Wind Ripper.|FLY|BFA|
 C Outpost Upgrade: Vulpera Hideaway|QID|54260|M|56.93,50.51|Z|Vol'dun|CHAT|N|Talk to the Caravan Master|
 T Outpost Upgrade: Vulpera Hideaway|QID|54260|M|56.93,50.51|Z|Vol'dun|N|To Dust. Turning in the quest will put you in the "caravan" mount, so don't turn in until you are ready to go somewhere. Can be clicked off immediately if desired.|
-
 ; Exalted Mission Report: The Great Seal
 A Mission Report: The Great Seal|QID|54225|M|51.50,99.65|Z|Dazar'alor|PRE|54294|
 T Mission Report: The Great Seal|QID|54225|M|58.44,62.68|Z|Zuldazar|N|To Nathanos Blightcaller.|
@@ -1147,7 +845,6 @@ A Outpost Upgrade: The Great Seal|QID|54231|M|58.44,62.68|Z|Zuldazar|N|From Nath
 F The Great Seal|ACTIVE|54231|M|52.10,90.13|Z|Dazar'alor|N|Fly or otherwise travel up to the Great Seal.|FLY|BFA|
 C Outpost Upgrade: The Great Seal|QID|54231|M|58.89,70.50|Z|Hall of Croniclers!Dazar'alor|QO|1|NC|N|Inspect the Mission Command Table at The Great Seal.|
 T Outpost Upgrade: The Great Seal|QID|54231|M|58.89,70.50|Z|Hall of Croniclers!Dazar'alor|N|To UI Alert.|
-
 ; Exalted Mission Report: Zul'jan Ruins
 A Mission Report: Zul'jan Ruins|QID|54239|M|51.43,85.44|Z|Dazar'alor|PRE|54297|
 T Mission Report: Zul'jan Ruins|QID|54239|M|58.44,62.68|Z|Zuldazar|N|To Nathanos Blightcaller.|
@@ -1155,7 +852,6 @@ A Outpost Upgrade: Zul'jan Ruins|QID|54240|M|58.44,62.68|Z|Zuldazar|N|From Natha
 F Zul'jan Ruins|ACTIVE|54240|M|52.10,90.13|Z|Dazar'alor|N|At Ripa the Wind Ripper. (or otherwise travel to Zul'jan Ruins-Nazmir)|FLY|BFA|
 C Outpost Upgrade: Zul'jan Ruins|QID|54240|M|39.15,77.64|Z|Nazmir|QO|1|NC|N|Honor either of the Altars at Zul'jan Ruins.|
 T Outpost Upgrade: Zul'jan Ruins|QID|54240|M|39.15,77.64|Z|Nazmir|N|To UI Alert.|
-
 ; Saurfang found
 A The Dark Lady Calls|QID|54097|M|58.4,62.7|Z|Zuldazar|N|From Dark Ranger Alina.|PRE|54282|
 F The Great Seal|ACTIVE|54097|M|52.10,90.13|Z|Dazar'alor|N|Fly or otherwise travel up to the Great Seal.|FLY|BFA|
@@ -1213,7 +909,6 @@ T For the Queen|QID|54754|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunne
 ; possibly missing some steps here...
 A Battle of Dazar'alor|QID|54282|M|58.44,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|NA|PRE|54280|  ; Offered by Princess Talanji not Nathanos, listed already in guide, added PRE from that line.
 C Battle of Dazar'alor|QID|54282|N|You need to defeat Jaina at the Battle of Dazar'alor to continue with the war campaign.|
-
 A Return to the Heart|QID|55522|M|50.98,88.86|Z|Dazar'alor|N|From Earthen Guardian, after getting your necklace to 55.|PRE|56161|LEAD|55519|  ; pre is Back out to Sea--from Najzatar guide
 P Silithus|ACTIVE|55522|M|73.80,85.65|Z|The Great Seal!Dazar'alor|N|Take the portal to Silithus.|
 T Return to the Heart|QID|55522|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard, inside the Chamber of Heart.|
@@ -1254,7 +949,6 @@ T The Stuff Dreams Are Made Of|QID|55396|M|46.37,38.73|Z|The Emerald Dream!Insta
 A The Long Awake|QID|55398|M|46.37,38.73|Z|The Emerald Dream!Instance|N|From Merithra of the Dream.|PRE|55396|
 H The Great Seal|ACTIVE|55398|M|46.37,38.73|Z|The Emerald Dream!Instance|N|Hearth or Ask Merithra for a portal back to Val'Sharah.|
 P Orgrimmar|ACTIVE|55398|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Return to Zuldazar, (or Dalaran if you prefer that route) and then take Portal to Orgrimmar.|
-
 ;a fresh trauma
 P Mount Hyjal|ACTIVE|55519|M|51.18,38.29|Z|Orgrimmar|N|Take the Earthern Ring portal to Mount Hyjal or just fly up to there.|
 T A Fresh Trauma|QID|55519|M|62.03,24.92|Z|Mount Hyjal|N|To Magni Bronzebeard.|
@@ -1266,7 +960,6 @@ H The Great Seal|ACTIVE|55521|M|62.03,24.92|Z|Mount Hyjal|N|Hearth or otherwise 
 P Silithus|ACTIVE|55521|M|73.89,85.58|Z|The Great Seal!Dazar'alor|N|Travel to Silithus and then the Chamber of Heart.|
 T Do It the Azerite Way|QID|55521|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
 T The Long Awake|QID|55398|M|53.92,62.11|Z|Chamber of Heart!Dungeon1473|N|To Merithra.|
-
 A Investigating the Highlands|QID|56167|M|52.63,70.21|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos. After your Necklace has reached Lvl 60.|
 P Silithus|ACTIVE|56167|M|50.17,30.42|Z|Chamber of Heart!Dungeon1473|N|Travel by method of choice to Twilight Highlands.|
 P Dazar'alor|ACTIVE|56167|M|41.62,45.21|Z|Silithus|N|Travel by method of choice to Twilight Highlands.|
@@ -1283,7 +976,6 @@ C From the Shadows|SO|5|ACTIVE|55657|M|46.41,86.27|Z|Twilight Highlands!Instance
 C In the Shadow of Crimson Wings|QID|55657|M|45.80,86.32|Z|Twilight Highlands!Instance|N|Pick up the Lost Red Scale.|NC|
 C In the Shadow of Crimson Wings|QID|55657|QO|6|M|46.38,86.44|Z|Twilight Highlands!Instance|N|Hop on Corastrasza for a ride out or otherwise return to the Chamber of Heart.|V|
 T In the Shadow of Crimson Wings|QID|55657|M|54.25,66.28|Z|Chamber of Heart!Dungeon1473|N|To Alexstrasza.|
-
 A An Old Scar|QID|55732|M|50.15,59.30|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard. Necklace needs to be level 65.|PRE|55398|
 C An Old Scar|QID|55732|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|Tell MOTHER you are ready to travel to the Maelstrom.|CHAT|
 T An Old Scar|QID|55732|M|33.74,54.56|Z|The Maelstrom|N|To Magni Bronzebeard.|
@@ -1293,7 +985,6 @@ T Defending the Maelstrom|QID|55735|M|33.74,54.56|Z|The Maelstrom|N|To Magni Bro
 A At the Azerite Time|QID|55737|M|33.74,54.56|Z|The Maelstrom|N|From Magni Bronzebeard.|PRE|55735|
 C At the Azerite Time|QID|55737|M|33.74,54.56|Z|The Maelstrom|N|Use the Titan Waygate to return to Chamber of Heart.|
 T At the Azerite Time|QID|55737|M|48.17,72.35|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
-
 A A Bolt from the Blue|QID|56401|M|52.60,69.99|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos. Neck must be level 70.|PRE|55737|
 P Crystalsong Forest|ACTIVE|56401|M|56.22,91.76|Z|Orgrimmar|N|Travel to Nexus via means of your choosing, most likely via the Orgrimmar portal to Crystalsong Forest, Alternatively zep to Borean Tundra.|
 C A Bolt from the Blue|QID|56401|QO|1|M|27.97,26.27|Z|Borean Tundra|N|Fly up to the top level of the Nexus (NOT in the Instance) and stand next to Kalecgos and use the extra action button to charge the scale.|
@@ -1302,7 +993,6 @@ T A Bolt from the Blue|QID|56401|M|27.97,26.27|Z|Borean Tundra|N|To Kalecgos. It
 A We Stand United|QID|55752|M|50.20,59.11|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|56401|
 C We Stand United|QID|55752|M|50.20,59.11|Z|Chamber of Heart!Dungeon1473|CHAT|
 T We Stand United|QID|55752|M|50.20,59.11|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
-
 t Battle of Dazar'alor|QID|54282|M|58.44,62.68|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A The King's Death|QID|54164|M|58.42,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|54282|  ; wowhead comments says needs to be done first
 C The King's Death|QID|54164|M|49.92,39.02|Z|Dazar'alor|NC|N|Pay respects to King Rastakhan by clicking on the table where he lies in state.|
@@ -1338,7 +1028,6 @@ A Under False Colors|QID|55034^54999|M|76.33,42.74|Z|Dustwallow Marsh|N|From Tho
 C Under False Colors|QID|55034^54999|M|76.33,42.79|Z|Dustwallow Marsh|QO|1|U|167228|NC|N|Use the Charm of Returning.|
 C Under False Colors|QID|55034^54999|M|51.53,99.73|Z|Dazar'alor|QO|2|NC|N|Go to your mission table and start "Casting the Bait".|
 T Under False Colors|QID|55034^54999|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
-
 ;Securing Warfang Hold
 A Securing Warfang Hold|QID|55052|M|58.40,62.72|Z|Zuldazar|N|From Nathanos Blightcaller (you may need to go out of the area and come back to make this quest available.)|PRE|55034|
 A Securing Warfang Hold|QID|55047|M|58.40,62.72|Z|Zuldazar|N|From Dark Ranger Alina.(you may need to go out of the area and come back to make this quest available.)|PRE|54999|
@@ -1462,7 +1151,6 @@ A Most Loyal|QID|57152|M|49.99,91.33|Z|1534|N|From Dark Ranger Lenara.|PRE|57151
 C Most Loyal|QID|57152|M|49.99,91.33|Z|1534|QO|2|U|172203|NC|N|Use Cracked Hearthstone to reach Tranquillien or travel there on your own.|
 C Most Loyal|QID|57152|M|18.79,58.55|Z|Ghostlands|QO|1|CHAT|N|Speak with Sylvanas Windrunner|
 T Most Loyal|QID|57152|M|18.63,58.36|Z|Ghostlands|N|To Dark Ranger Lenara.|
-
 ; Rep Gated Notes
 N Come back at level 114|QID|51979|LVL|-114|N|Next foothold can be done when you are level 114.|PRE|51803|
 N Come back at level 116|QID|53062|LVL|-116|N|Island Adventures can be done when you are level 116. This quest is once per account. Once unlocked on the account, Other toons on the account can do Island Adventures as early as 110.|PRE|51979|
@@ -1477,8 +1165,5 @@ N Rep Gated until Revered|QID|52183|N|So, go out Contribute to the Warfront (whe
 N Outposts and Rep|QID|53103^53152^53126^52320^52479^53101^53082^54260|N|Continue to build and upgrade your outposts and collect rep to exalted if you want the Mag'har Orc Allied Race|PRE|53003|
 N Rep Gated until 7K into Revered|QID|53941|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 7K into revered.|PRE|53981|REP|The Honorbound;2157;revered;7000;true|
 N Rep Gated until 14K into Revered|QID|54121|N|So, go out Contribute to the Warfront (when available) and do WQs that give Honorbound Faction. Next segment is available at 14K into revered.|PRE|54094|REP|The Honorbound;2157;revered;14000;true|
-
 ]]
 end)
-
-

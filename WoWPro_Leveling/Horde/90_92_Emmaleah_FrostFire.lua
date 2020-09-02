@@ -1,272 +1,14 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/horde_frostfire_ridge
--- Date: 2020-04-08 18:53
--- Who: Ludovicus_Maior
--- Log: I think the QID and PRE for Fen Tao are all wrong.
---	[WANTED: Gutsmash the Destroyer], [WANTED: Grondo's Bounty], [Thunderlord Invasion!]
-
--- URL: http://wow-pro.com/node/3587/revisions/29997/view
--- Date: 2018-10-17 02:28
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3587/revisions/29873/view
--- Date: 2018-10-04 05:44
--- Who: elidion
--- Log: Cleaned up guides N,H,h,R,P,F and f steps, added FLY tags.
-
--- URL: http://wow-pro.com/node/3587/revisions/29215/view
--- Date: 2018-03-06 01:24
--- Who: Ludovicus_EditBot
--- Log: Level and LVL strip
-
--- URL: http://wow-pro.com/node/3587/revisions/29119/view
--- Date: 2018-02-22 23:34
--- Who: Ludovicus_EditBot
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3587/revisions/28969/view
--- Date: 2018-02-04 18:05
--- Who: Ludovicus_Maior
--- Log: [Slavery and Strife] Coordinate correction from  Chuo!
-
--- URL: http://wow-pro.com/node/3587/revisions/28947/view
--- Date: 2018-01-17 00:39
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3587/revisions/28581/view
--- Date: 2017-03-23 19:13
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL: http://wow-pro.com/node/3587/revisions/28456/view
--- Date: 2017-03-16 17:07
--- Who: Ludovicus_Maior
--- Log: Added PREs
-
--- URL: http://wow-pro.com/node/3587/revisions/27855/view
--- Date: 2016-09-29 00:03
--- Who: tubera
--- Log: Remove S tag from unsticky of Enfilade
-
--- URL: http://wow-pro.com/node/3587/revisions/27604/view
--- Date: 2016-08-27 15:29
--- Who: tubera
--- Log: Tweak Thunder pass for the auto-accept of quest items. (Coil of rope)
-
--- URL: http://wow-pro.com/node/3587/revisions/27603/view
--- Date: 2016-08-27 15:00
--- Who: tubera
--- Log: Remove duplicate S tag in Enfilade
-
--- URL: http://wow-pro.com/node/3587/revisions/27602/view
--- Date: 2016-08-27 14:02
--- Who: tubera
--- Log: Tweak Grom'Gar
-
--- URL: http://wow-pro.com/node/3587/revisions/27479/view
--- Date: 2016-07-30 15:50
--- Who: Ludovicus_Maior
--- Log: Ah, Hunter's Hall changed to Grom'gar@FrostfireRidge
-
--- URL: http://wow-pro.com/node/3587/revisions/27478/view
--- Date: 2016-07-30 15:43
--- Who: Ludovicus_Maior
--- Log: Stick @FrostfireRidge on a bunch of Z tags. [Hunter's Hall] comes up as undefined.
-
--- URL: http://wow-pro.com/node/3587/revisions/27405/view
--- Date: 2015-12-31 23:42
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3587/revisions/27391/view
--- Date: 2015-10-03 00:17
--- Who: Ludovicus_Maior
--- Log: PLaythrough on Faction Changed toon
-
--- URL: http://wow-pro.com/node/3587/revisions/27389/view
--- Date: 2015-09-16 06:41
--- Who: Crackerhead22
--- Log: Fixed a QID in the PRE tag for "The Real Prey."
-
--- URL: http://wow-pro.com/node/3587/revisions/27386/view
--- Date: 2015-09-07 18:58
--- Who: Crackerhead22
--- Log: Removed "The Land Provides", not sure why I put it in.  O_o
-
--- URL: http://wow-pro.com/node/3587/revisions/27385/view
--- Date: 2015-09-06 19:44
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3587/revisions/27384/view
--- Date: 2015-09-06 16:49
--- Who: Crackerhead22
--- Log: Removed Z tag from "Wanted: Grondo's Bounty" accept line. Added Z tag to "Things Are Not Goren Our Way" quest lines.
-
--- URL: http://wow-pro.com/node/3587/revisions/27383/view
--- Date: 2015-09-06 14:37
--- Who: Crackerhead22
--- Log: Edit to where "Wanted: Grondo's Bounty" is accepted.
-
--- URL: http://wow-pro.com/node/3587/revisions/27319/view
--- Date: 2015-07-05 17:51
--- Who: Ludovicus_Maior
--- Log: Add Icon
-
--- URL: http://wow-pro.com/node/3587/revisions/27205/view
--- Date: 2015-04-20 04:56
--- Who: Emmaleah
--- Log: corrected some dup rank tags and missed deletions of M tags from my last update.  (will I ever be done with this zone?)
-
--- URL: http://wow-pro.com/node/3587/revisions/27192/view
--- Date: 2015-04-07 20:44
--- Who: Emmaleah
--- Log: added Fen Tao (6.1 change) Setup rank 1 to be minimum to progress your garrison to lvl 2. Took M tags (and Z tags) out of all the steps with BUILDING tags so Ludovicus's code can give the correct cords.
-
--- URL: http://wow-pro.com/node/3587/revisions/27177/view
--- Date: 2015-03-09 19:39
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3587/revisions/27135/view
--- Date: 2015-02-01 22:09
--- Who: Ludovicus_Maior
--- Log: Small tweaks.
-
--- URL: http://wow-pro.com/node/3587/revisions/27096/view
--- Date: 2014-12-14 22:31
--- Who: Emmaleah
--- Log: Corrected QID for [first enchanting work order]. It was incorrect for all steps except the A step.
-
--- URL: http://wow-pro.com/node/3587/revisions/27080/view
--- Date: 2014-12-05 23:30
--- Who: Emmaleah
--- Log: 12/3 hotfixes made the treasure maps soulbound (just when I add it to the guide)
-
--- URL: http://wow-pro.com/node/3587/revisions/27074/view
--- Date: 2014-12-02 04:43
--- Who: Emmaleah
--- Log: changed note about treasure map since it is now sold and tradeable/mailable instead of free and soulbound.
-
--- URL: http://wow-pro.com/node/3587/revisions/27073/view
--- Date: 2014-12-02 04:35
--- Who: Emmaleah
--- Log: updated QID for Clumsy Ogre.
-
--- URL: http://wow-pro.com/node/3587/revisions/27072/view
--- Date: 2014-12-02 03:58
--- Who: Emmaleah
--- Log: Wowhead now matches up all the various frostwolf treasure caches with their name... I have the right QID for Pale Loot Sack (I hope)
-
--- URL: http://wow-pro.com/node/3587/revisions/27071/view
--- Date: 2014-12-02 03:31
--- Who: Emmaleah
--- Log: added to JC note that the Massive slime only has one spawn point (the small ones are several places, but the quest requires both)
-
--- URL: http://wow-pro.com/node/3587/revisions/27070/view
--- Date: 2014-12-02 03:25
--- Who: Emmaleah
--- Log: reworking comments to better explain the challenges mapping bladespire citadel
-
--- URL: http://wow-pro.com/node/3587/revisions/27067/view
--- Date: 2014-12-02 01:25
--- Who: Emmaleah
--- Log: Your first leatherworking order appears to have changed from QID 36642 to 37574 (or I had a typo... but its an odd one)
-
--- URL: http://wow-pro.com/node/3587/revisions/27066/view
--- Date: 2014-12-02 00:33
--- Who: Emmaleah
--- Log: Incorrect Item ID on frozen treasure
-
--- URL: http://wow-pro.com/node/3587/revisions/27059/view
--- Date: 2014-11-29 09:09
--- Who: Emmaleah
--- Log: Changed QID for Pale Loot Sack to QID for Shivertail's Den so it will stay checked off.
-
--- URL: http://wow-pro.com/node/3587/revisions/27058/view
--- Date: 2014-11-27 21:46
--- Who: Emmaleah
--- Log: Added note about scenarios can be shared. changed name of bones of agurak flight point to Thunder Pass, note about scout ruk'gan going MIA
-
--- URL: http://wow-pro.com/node/3587/revisions/27043/view
--- Date: 2014-11-24 20:37
--- Who: Ludovicus_Maior
--- Log: Turn in [We Need An Army] before doing [Winds of Change]
-
--- URL: http://wow-pro.com/node/3587/revisions/27042/view
--- Date: 2014-11-23 23:47
--- Who: Emmaleah
--- Log: move A [Building for Professions] to AFTER you have a blueprint for a profession building :)
-
--- URL: http://wow-pro.com/node/3587/revisions/27041/view
--- Date: 2014-11-23 22:32
--- Who: Emmaleah
--- Log: Change CN to CS on T The Slavemaster's Demise
-
--- URL: http://wow-pro.com/node/3587/revisions/27037/view
--- Date: 2014-11-23 00:13
--- Who: Emmaleah
--- Log: correct engineering works level 1 from 93 to 91, add target for {At the End of your Rope]
-
--- URL: http://wow-pro.com/node/3587/revisions/27031/view
--- Date: 2014-11-22 12:07
--- Who: Ludovicus_Maior
--- Log: Some tag fixes.
-
--- URL: http://wow-pro.com/node/3587/revisions/27025/view
--- Date: 2014-11-20 11:56
--- Who: Emmaleah
--- Log: rearranged JC profession upgrade quest, Put PRE and or LEAD tags on steps to (hopefully) take care of duplicate instructions if you are JC/BS or Tailering/LW (not many of that combo)
-
--- URL: http://wow-pro.com/node/3587/revisions/27024/view
--- Date: 2014-11-20 09:56
--- Who: Emmaleah
--- Log: add note about selling blueprints, move a coord for entrance to sootstained mine, better descriptions for a couple of quests.
-
--- URL: http://wow-pro.com/node/3587/revisions/27022/view
--- Date: 2014-11-20 02:58
--- Who: Emmaleah
--- Log: changed co-ords for turn in [Heavy Hands] to match level 1 garrison
-
--- URL: http://wow-pro.com/node/3587/revisions/27016/view
--- Date: 2014-11-17 11:50
--- Who: Emmaleah
--- Log: Removed references to being 92 for certain quest, as Bliz has changed it. refined wording on veteran's treasure, moved profession quest starters to immediately after they drop from Dorogg, changed M to 0,0 no Z tag
-
--- URL: http://wow-pro.com/node/3587/revisions/27010/view
--- Date: 2014-11-16 11:45
--- Who: Emmaleah
--- Log: Fixed Igrimar's name, changed a couple of coordinates, added note re pale loot manual checkoff, changed note about sootstained mine/map layers, changed coords and note on JC quest
-
--- URL: http://wow-pro.com/node/3587/revisions/27009/view
--- Date: 2014-11-16 06:57
--- Who: Emmaleah
--- Log: change the note on time warped tower to four ogres.
-
--- URL: http://wow-pro.com/node/3587/revisions/27008/view
--- Date: 2014-11-16 06:38
--- Who: Emmaleah
--- Log: Fix two dup'd N tags that snuck in and correct the spelling of ravine
-
 local guide = WoWPro:RegisterGuide('EmmFrostfire', 'Leveling', 'Frostfire Ridge', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,91, 92, 90.7)
-WoWPro:NewGuideLevels(guide,90,100)
-WoWPro:GuideIcon(guide,"ACH",8937)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'EmmGorgrond')
 WoWPro:GuideSteps(guide, function()
 return [[
-
 ;i know you will still be 90 when you start this guide, but if i register it as 91, then it will sort after the Tanaan Jungle Intro guide
 N Getting to Frostfire Ridge|QID|33815|N|To get to Frostfire Riege in Draenor, you will first need to complete the Assault on the Dark Portal in Tanaan Jungle. Please work through that guide instead.|LEAD|34446|
-
 N Welcome to Frostfire Ridge|QID|33815|M|40.75,67.10|
 N Treasure|QID|33815|M|40.75,67.10|N|The guide mentions some but not nearly all the treasure to be found in the zone. If you have extra gold, Srikka, the archeology vender in Warspear (74,32)sells a treasure map for 100g to any character who has finished the zone (it is no longer mailable/tradeable). Otherwise if you are interested in ALL the treasure you can look on wowhead or any number of other addons.|
 N Bonus Objectives|QID|33815|M|40.75,67.10|N|This guide does not include the bonus objectives. Feel free to do them as you come across them, or save them for more gold at level 100.|
 N Rank settings|QID|33816|N|Setting the guide to Rank 1 will guide you thru the minimum necessary to advance your character's garrison to level 2 and you out of this zone.  If you do not have some accerated or alternative method of gaining xp you will not be 92, which is required for the next zone, Gorgrond.  Rank 2 includes nearly everything, with just a few out of the way quests marked as Rank 3.|
-
 t The Home of the Frostwolves|QID|33868|LEAD|33815|M|40.75,67.10|N|To Farseer Drek'Thar.|
 A A Song of Frost and Fire|QID|33815|PRE|33868|M|40.75,67.10|N|From Farseer Drek'Thar.|
 C A Song of Frost and Fire|QID|33815|M|41.81,69.64|CHAT|N|Mount up and be ready to follow Durotan.|
@@ -288,13 +30,11 @@ C The Den of Skog|QID|34765|M|48.47,70.25|T|Skog|
 T The Den of Skog|QID|34765|M|48.75,64.90|N|To Gazlowe.|
 A Establish Your Garrison|QID|34378|PRE|34765|M|48.75,64.90|N|From Gazlowe.|
 C Establish Your Garrison|QID|34378|M|46.96,66.40|NC|N|Watch the cinematic thru the telescope. The reward is a hearthstone attuned to your garrison, yes, you have two hearth locations now and they DON'T share a CD.|
-
 f Your Outpost|ACTIVE|34378|M|45.79,50.91|N|At Bron Skyhorn.|Z|Frostwall|
 T Establish Your Garrison|QID|34378|M|52.52,53.49|N|To Gazlowe.|Z|Frostwall|
 A What We Got|QID|34824|PRE|34378|M|52.47,53.43|N|From Gazlowe.|Z|Frostwall|
 A What We Need|QID|34822|PRE|34378|M|52.52,53.49|N|From Gazlowe.|Z|Frostwall|
 A The Ogron Live?|QID|34823|PRE|34378|M|51.20,51.41|N|From Rokhan.|Z|Frostwall|
-
 C What We Got|QID|34824|M|40.99,50.84|CHAT|N|Tell Skaggit to get the peons back to work.|QO|1|Z|Frostwall|
 C What We Got|QID|34824|M|49.39,16.57|CHAT|QO|3|Z|Frostwall|
 C What We Need|QID|34822|M|39.89,61.89|S|N|Kill the pack wolves or pick up the boxes off of the ground.|
@@ -302,7 +42,6 @@ C Kill Groog|QID|34823|M|49.33,59.69;40.2,59.9;41.32,58.62|CS|T|Groog|
 C What We Need|QID|34822|M|39.89,61.89|US|N|Finish gathering the salvage.|
 H Town Hall (Frostwall)|ACTIVE|34824|M|41.58,53.06|Z|Frostwall|U|110560|N|Hearth but if you can't or don't want to, it's not that far of a run back to your Garrison.|
 C What We Got|QID|34824|M|55.02,52.79|NC|QO|2|N|Open the crate next to Lady Sena.|Z|Frostwall|
-
 T The Ogron Live?|QID|34823|M|51.49,51.38|N|To Rokhan.|Z|Frostwall|
 T What We Got|QID|34824|M|52.47,53.43|N|To Gazlowe.|Z|Frostwall|
 T What We Need|QID|34822|M|52.47,53.43|N|To Gazlowe.|Z|Frostwall|
@@ -319,10 +58,8 @@ T Winds of Change|QID|34462|M|53.87,54.89|N|To Warmaster Zog.|Z|Frostwall|
 A Mission Probable|QID|34775|PRE|34462|M|53.87,54.89|N|From Warmaster Zog.|Z|Frostwall|
 C Mission Probable|QID|34775|M|53.87,54.89|NC|N|Use the table to send Olin on a mission.|Z|Frostwall|
 T Mission Probable|QID|34775|M|53.87,54.89|N|To Warmaster Zog.|Z|Frostwall|
-
 A Den of Wolves|QID|34379|PRE|34775|M|49.71,49.51|N|From Farseer Drek'Thar.|Z|Frostwall|
 C Den of Wolves|QID|34379|M|46.57,49.53|CHAT|N|Hop on the Rylak.|Z|Frostwall|
-
 f Wor'gol|ACTIVE|34379|M|21.57,56.15|N|At Pul Windcarver.|
 T Den of Wolves|QID|34379|M|20.75,57.98|N|To Durotan.|
 A Rally the Frostwolves|QID|34380|PRE|34379|M|20.75,57.97|N|From Durotan.|
@@ -332,7 +69,6 @@ T Honor Has Its Rewards|QID|33816|M|17.69,56.73|N|To Farseer Drel'Thar. if you d
 C Rally the Frostwolves|QID|34380|M|19.36,60.09|CHAT|N|Talk to Draka.|
 T Rally the Frostwolves|QID|34380|M|20.93,57.91|N|To Durotan.|
 A Gormaul Tower|QID|33784|PRE|34380|M|20.93,57.91|N|From Durotan.|
-
 C Gormaul Tower|QID|33784|M|21.08,43.93|N|Ride to Gormaul Tower then kill the ogres ending with Razortusk. You can open the fight with your extra action button if you want.|
 T Gormaul Tower|QID|33784|M|19.74,44.77|N|To Durotan.|
 A These Colors Don't Run|QID|33526|PRE|33784|M|19.74,44.77|N|From Durotan.|
@@ -358,7 +94,6 @@ A Unintelligible Intelligence|QID|36435|M|0,0|P|Inscription;773|O|U|115593|N|Fro
 A The Intricate Pendant|QID|36314|M|0,0|P|Jewelcrafting;755|O|U|115287|N|From an Intricate Crimson Pendant which should have just dropped from Dorogg.|
 A A Warrior's Shroud|QID|36505|M|0,0|P|Leatherworking;165|O|U|116173|N|From a Tattered Frostwolf Shroud which should have just dropped from Dorogg.|
 A Trega's Tailoring Kit|QID|36301|M|0,0|P|Tailoring;197|O|U|114973|N|From a Frostwolf Tailoring Kit which should have just dropped from Dorogg.|
-
 C Armed and Dangerous|QID|33344|M|52.07,21.83|NC|S|N|Click on the slaves as you work your way towards Duratan.|Z|Bladespire Courtyard@FrostfireRidge|
 C To the Slaughter|QID|33622|M|52.47,21.00|Z|Bladespire Courtyard@FrostfireRidge|
 C Armed and Dangerous|QID|33344|M|52.07,21.83|NC|US|N|Finish up giving the slaves weapons.|Z|Bladespire Courtyard@FrostfireRidge|
@@ -371,13 +106,11 @@ A Moving In|QID|33657|PRE|33527|M|66.52,56.51|N|From Durotan.|Z|Bladespire Thron
 C Moving In|QID|33657|M|66.52,56.51|NC|N|Hop on the wolf next to Durotan and it will take you to the next area.|Z|Bladespire Throne@FrostfireRidge|
 T Moving In|QID|33657|M|42.94,41.60|N|To Durotan.|Z|Bladespire Citadel@FrostfireRidge|
 A Save Wolf Home|QID|33468|PRE|33527|M|42.94,41.60|N|From Durotan.|Z|Bladespire Citadel@FrostfireRidge|
-
 A WANTED: Gutsmash the Destroyer|QID|33919|PRE|33527|M|28.9,44.8|N|From Bounty Board.|Z|Bladespire Citadel@FrostfireRidge|RANK|2|
 A Mopping Up|QID|33412|PRE|33657|M|28.29,45.72|N|From Snowrunner Rolga.|Z|Bladespire Citadel@FrostfireRidge|RANK|2|
 A Slavery and Strife|QID|33119|PRE|33657|M|24.36, 37.37|N|From Guse.|RANK|2|
 f Bladespire Citadel|ACTIVE|33412|M|19.9,51.8|N|At Roark the Airwolf.|
 F Wor'gol|ACTIVE|33468|M|24.33,37.24|N|At Roark the Airwolf.|FLY|WOD|
-
 A Free Our Brothers and Sisters|QID|33807|PRE|33527|M|21.76,56.39|N|From Duratan.|
 C Free Our Brothers and Sisters|QID|33807|M|19.03,57.36|S|N|Click on the trapped villagers to free them.|
 C Save Wolf Home|QID|33468|M|20.8,59.9|S|QO|5|N|The 3 warchiefs have large banners to make them easier to notice.|
@@ -395,22 +128,17 @@ A Pool of Visions|QID|33470|PRE|33469|M|16.79,57.83|N|From Farseer Drek'Thar.|
 C Pool of Visions|QID|33470|M|16.79,57.83|CHAT|N|Talk to Drek'Thar to start the ritual.|
 T Pool of Visions|QID|33470|M|16.79,57.83|N|To Farseer Drek'Thar.|
 A Back to Bladespire Citadel|QID|33473|PRE|33470|M|16.79,57.83|N|From Farseer Drek'Thar.|
-
 ;inscription quest
 T Unintelligible Intelligence|QID|36435|M|21.07,56.09|P|Inscription;773|N|To Raleigh Puule, inside the Inn (The Sheltered Den).|
 A Bypassing Security|QID|36457|M|21.07,56.09|P|Inscription;773|PRE|36435|N|From Raleigh Puule.|
-
 A Young Hearts|QID|33915|M|19.24,59.18|N|From Gog'rak.|RANK|2|
-
 ;leatherworking quest
 T A Warrior's Shroud|QID|36505|M|20.70,60.21|P|Leatherworking;165|N|To Gaoda Hidecleaver.|
 A Cut 'Em Out!|QID|36516|M|20.70,60.21|PRE|36505|P|Leatherworking;165|N|From Gaoda Hidecleaver.|
 ;tailoring quest
 T Trega's Tailoring Kit|QID|36301|M|20.4,60.6|P|Tailoring;197|N|To Trega.|
 A From Their Cold Dead Hands|QID|36417|PRE|36301|M|20.4,60.6|P|Tailoring;197|N|From Trega.|
-
 C Young Hearts|QID|33915|M|25.4,67.57|CHAT|N|Run out the south end of the village, to a cave with Saberon's around it, where you will find Orak, chat with him (and kill the things guarding him) so he can go home.|RANK|2|
-
 T Young Hearts|QID|33915|M|19.24,59.18|N|To Gog'rak.|RANK|2|
 A Missing Pack|QID|33955|M|21.62,55.15|N|From Kar'lak.|RANK|2|
 T Missing Pack|QID|33955|M|19.53,51.01|N|To Shivertail.|RANK|2|
@@ -420,10 +148,8 @@ C Shivertail's Den|QID|33929|M|21.4,50.2|RANK|2|
 $ Pale Loot Sack|QID|34931|M|21.7,50.7|N|Go up the path on the other side of the room for minor treasure.|RANK|2|
 T Shivertail's Den|QID|33929|M|19.53,51.01|N|To Shivertail.|RANK|2|
 C Bladespire Fortress|QID|33473|M|21.57,56.15|CHAT|N|At Pul Windcarver. Take the chat option, not the flight path.|
-
 R Frostboar Drifts|ACTIVE|33412|M|17.76,41.96|N|Head away from the Citadel and take a right at Gormaul Tower, down into the valley.|RANK|2|FLY|WOD|
 C WANTED: Gutsmash the Destroyer|QID|33919|M|15.88,41.74|T|Gutsmash the Destroyer|N|This claims to be an elite quest that should take more than one person. However, some classes can solo him.|RANK|2|
-
 C From Their Cold Dead Hands|QID|36417|M|24.30,28.30|S|P|Tailoring;197|N|From the ogres you have been killing, You don't need to get them all in this area.|
 T Mopping Up|QID|33412|M|24.30,28.30|N|To Igrimar the Resolute.|RANK|2|
 A The Cure|QID|33454|PRE|33412|M|24.30,28.30|N|From Igrimar the Resolute.|RANK|2|
@@ -437,7 +163,6 @@ T The Warlord's Guard|QID|33450|M|24.30,28.30|N|To Igrimar the Resolute.|RANK|2|
 T The Cure|QID|33454|M|24.30,28.30|N|To Igrimar the Resolute.|RANK|2|
 A The Fall of the Warlord|QID|33467|PRE|33450&33454|M|24.30,28.30|N|From Igrimar the Resolute.|RANK|2|
 C The Fall of the Warlord|QID|33467|M|23.2,26.6|N|Click on the weapon stand to summon Bult.|T|Warlord Bult|RANK|2|
-
 A Slaying Slavers|QID|33898|PRE|33657|M|24.14,39.30|N|From Gol'kosh the Axe.|RANK|2|
 C Cut 'Em Out!|QID|36516|M|27,43|QO|2|NC|S|P|Leatherworking;165|N|Pick the sootweed that is also growing in the area as you go along.|
 C Slavery and Strife|QID|33119|M|30.59,41.56|QO|1|RANK|2|S|NC|N|To release the slaves, click on the ball they are chained to.|
@@ -460,7 +185,6 @@ C Cut 'Em Out!|QID|36516|M|27,43|QO|2|NC|US|P|Leatherworking;165|N|Pick the soot
 C Cut 'Em Out!|QID|36516|M|27,43|U|116246|QO|1|S|P|Leatherworking;165|N|Kill 'Wooly Clefthoofs' and use the provided knife to skin them. (you can normal skin them afterwards). Pick the sootweed that is also growing in the area.|
 T Slaying Slavers|QID|33898|M|24.14,39.31|N|To Gol'kosh the Axe.|RANK|2|
 C Cut 'Em Out!|QID|36516|M|27,43|U|116246|QO|1|US|P|Leatherworking;165|N|Kill 'Wooly Clefthoofs' and use the provided knife to skin them. (you can normal skin them afterwards). Pick the sootweed that is also growing in the area.|
-
 R Mor'dul Tower|ACTIVE|36516|M|30.3,51.3|N|Explore the Mor'dul tower, you will get a buff called "time warped" and there are four (4) frozen ogres to loot for goodies.|RANK|2|
 $ Icebound Frost-Singer|QID|34507|M|21.12,41.02;25.3,51.87;24.19,48.6|CS|L|110689|N|In the Forbidden Cave there is a Icebound Cold-Singer with some loot for you.|RANK|2|;not 34507
 R Wor'gol|ACTIVE|36516|M|23.00,56.56|P|Leatherworking;165|
@@ -468,7 +192,6 @@ R Wor'gol|ACTIVE|36417|M|23.00,56.56|P|Tailoring;197|LEAD|36516|
 T Cut 'Em Out!|QID|36516|M|20.70,60.21|PRE|36505|P|Leatherworking;165|N|To Gaoda Hidecleaver.|
 U Learn Leatherworking skill|AVAILABLE|33484|U|115358|M|20.70,60.21|P|Leatherworking;165|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn them from a different quest and these sell for 150 gold.|PRE|36516|
 ;U Learn The Tannery Blueprints|QID|36706|U|111818|M|20.70,60.21|P|Leatherworking;165|N|After you learn check this step off manually.|
-
 T From Their Cold Dead Hands|QID|36417|M|20.47,60.60|P|Tailoring;197|N|To Trega.|
 A Dyed in the Fur|QID|36419|PRE|36417|M|20.47,60.60|P|Tailoring;197|N|From Trega.|
 C Dyed in the Fur|QID|36419|M|20.48,60.65|P|Tailoring;197|N|Use Trega's dye to infuse the cloth with magic.|
@@ -483,7 +206,6 @@ T Back to Bladespire Citadel|QID|33473|M|43.13,41.23|Z|Bladespire Citadel@Frostf
 A Ga'nar's Vengeance|QID|32783|PRE|33473|M|43.13,41.23|Z|Bladespire Citadel@FrostfireRidge|N|From Durotan.|
 A Securing the South|QID|32989|PRE|33473|M|43.13,41.23|Z|Bladespire Citadel@FrostfireRidge|N|From Durotan.|RANK|2|
 T WANTED: Gutsmash the Destroyer|QID|33919|M|43.0,44.7|Z|Bladespire Citadel@FrostfireRidge|N|To Der'shway.|RANK|2|
-
 R Daggermaw Ravine|ACTIVE|32783|M|30.89,25.84|N|Run roughly northeast from the Ring of Blood to Daggermaw Ravine.|FLY|WOD|
 T Ga'nar's Vengeance|QID|32783|M|30.89,25.84|N|To Ga'nar|
 A Let the Hunt Begin!|QID|32791|PRE|32783|M|30.89,25.84|N|From Ga'nar.|
@@ -512,7 +234,6 @@ C The Eldest|QID|32795|M|53.65,62.58|Z|Grulloc's Lair@FrostfireRidge|CHAT|N|Talk
 T The Eldest|QID|32795|M|49.30,50.46|Z|Grulloc's Lair@FrostfireRidge|N|From Ga'nar.|
 A To the Garrison|QID|32796|PRE|32795|M|49.30,50.46|Z|Grulloc's Lair@FrostfireRidge|
 H Town Hall (Frostwall)|ACTIVE|32796|M|41.58,53.06|Z|Frostwall|U|110560|N|Back to your Garrison.|
-
 A Ashran Appearance|QID|36706|M|52.45,53.35|N|From Gazlowe.|Z|Frostwall|
 A We Be Needin' Supplies|QID|34736|LEAD|34344|PRE|33527|M|51.33,51.44|N|From Rokhan.|Z|Frostwall|RANK|2|
 ;profession upgrade quests in garrison
@@ -524,20 +245,15 @@ T Heavy Arms|QID|36589|M|60.14,38.79|Z|Frostwall|P|Engineering;202|N|To Blizthra
 A "Spare" Parts|QID|36594|M|60.14,38.79|Z|Frostwall|PRE|36589|P|Engineering;202|N|From Blizthraz Blastcharge.|
 T The Mysterious Flask|QID|35058|M|45.16,51.00|Z|Frostwall|N|To Refugee Lo'nash.|P|Alchemy;171|
 A The Alchemist|QID|35103|M|45.16,51.00|PRE|35058|Z|Frostwall|N|From Refugee Lo'nash.|P|Alchemy;171|
-
 T To the Garrison|QID|32796|M|50.16,37.94|N|To Durotan.|Z|Frostwall|
-
 ;upgrade garrison level 2
 A Bigger is Better|QID|36567|M|52.53,53.13|N|From Gazlowe.|Z|Frostwall|
 C Bigger is Better|QID|36567|M|52.40,53.49|Z|Frostwall|NC|N|At the Architect's Table in front of you. This is the quest to upgrade your garrison to level 2.|
-
 t Bigger is Better|QID|36567|M|42.16,55.58|Z|Frostwall|RANK|2|N|To Gazlowe in your new town hall. Now you can upgrade your garrison with a medium and another small building. If you are 92, you can move on to Gorgrond if desired.|
 A Building for Professions|QID|37669|M|42.16,55.58|N|From Gazlowe.|Z|Frostwall|RANK|2|
 C Building for Professions|QID|37669|M|42.16,55.58|Z|Frostwall|RANK|2|NC|N|At the Architect's Table in front of you. This quest doesn't complete if you build a non profession small building (such as storehouse). You can start a profession building, get the quest complete, then cancel the building getting your resources and gold back (assuming the building is cancelled before completing) then build whatever you want.|
 T Building for Professions|QID|37669|M|42.16,55.58|N|To Gazlowe.|Z|Frostwall|RANK|2|
-
 N buildings|ACTIVE|36706|N|you just upgraded to lvl 2 garrison which means you have 1 large plat(Barracks-but you can build a differant building overtop it) 1 medium plot(your choice-Lumber Mill, Barn, Tavern, Gladiators Sanctum or Trading Post) and two small plots(all the primary crafting professions plus storehouse - no salvage yard available yet). Level 2 plans not available yet - must be finished with Gorgrond (specifically [92-Strike While the Iron is Hot]) to purchase first small/medium plan in ashran or build the Talador outpost.  Large buildings require lvl 98 or finishing core Spires of Arak questline to purchase for gold in your garrison.|
-
 ;first trip to ashran - primary purpose to get Vivianne who can be a bodyguard and Fen Tao
 C Ashran Appearance|QID|36706|M|45.67,50.12|Z|Frostwall|CHAT|N|At Bron Skyhorn. Choose the chat option, not the actual flightpath.|RANK|2|
 T Ashran Appearance|QID|36706|M|45.48,34.66|Z|Warspear|N|To Stomphoof.|RANK|2|
@@ -555,19 +271,16 @@ T Burning Beauty|QID|36709|M|62.14,22.99|Z|Warspear|N|To Vivianne, Note that the
 A The Dark Lady's Gift|QID|35243|PRE|36709|M|62.14,22.99|Z|Warspear|N|From Vivianne.|RANK|2|
 T The Dark Lady's Gift|QID|35243|M|62.14,22.99|Z|Warspear|N|To Vivianne.|RANK|2|
 H Town Hall (Frostwall)|ACTIVE|32989|M|41.58,53.06|U|110560|N|Return to your Garrison.|RANK|2|
-
 R Icewind Drifts|ACTIVE|32989|M|45.3,50.4|RANK|2|FLY|WOD|
 $ Help out the Veteran|QID|33011|CHAT|RANK|3|M|43.8,49.3;45.3,50.4|CS|N|Talk to him to start the encounter. Help him defeat the attackers and he will share his most precious treasure with you.|
 T Securing the South|QID|32989|M|38.54,52.46|N|To Lokra.|RANK|2|
 A They Who Held Fast|QID|32990|PRE|32989|M|38.54,52.46|N|From Lokra.|RANK|2|
 f Stonefang Outpost|ACTIVE|32990|M|40.11,51.84|N|At Skyhunter Donmor'gan.|RANK|2|
-
 ;JC interlude
 F Wor'gal|M|40.11,51.84|N|At Skyhunter Donmor'gan.|ACTIVE|36352|P|Jewelcrafting;755|FLY|WOD|
 T Locating the Lapidarist|QID|36352|M|20.0,56.4|P|Jewelcrafting;755|N|To Gem Grinder Orolak.|
 A No Pressure, No Diamonds|QID|36378|M|20.0,56.4|P|Jewelcrafting;755|PRE|36352|N|From Gem Grinder Orolak.|
 F Stonefang Outpost|ACTIVE|36378|M|21.57,56.15|N|At Pul Windcarver.|P|Jewelcrafting;755|
-
 C Find Karg|QID|32990|M|41.4,52.8|QO|1|CHAT|N|Talk to the warrior in the doorway.|RANK|2|
 A Of Fire and Thunder|QID|33013|M|41.67,53.00|N|From Wounded Frostwolf Shaman.|RANK|2|
 C Ask Suma|QID|32990|CHAT|QO|2|M|41.4,52.8|RANK|2|
@@ -577,7 +290,6 @@ C Ask Rota|QID|32990|CHAT|M|39.9,52.8|QO|3|RANK|2|
 C Ask Dungar|QID|32990|CHAT|M|39.18,52.46|QO|4|RANK|2|
 T They Who Held Fast|QID|32990|M|38.54,52.44|N|To Lokra.|RANK|2|
 A Into the Boneslag|QID|32991|PRE|32990|M|38.54,52.44|N|From Lokra.|RANK|2|
-
 ;alchemy profession quest
 T The Alchemist|QID|35103|M|38.03,47.45|N|To Kadar.|P|Alchemy;171|
 A The Apprentice|QID|35104|M|38.03,47.45|PRE|35103|N|From Kadar.|P|Alchemy;171|
@@ -588,7 +300,6 @@ C Avenge and Reclaim|QID|35106|M|41.86,40.28|P|Alchemy;171|T|Or'Nak|
 T Avenge and Reclaim|QID|35106|M|37.72,47.47|P|Alchemy;171|N|To Ang'kra.|
 U Learn Alchemy skill|AVAILABLE|33013|U|109558|M|37.72,47.47|P|Alchemy;171|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|PRE|35106|
 ;U Learn Alchemy Lab Blueprints|QID|33918|U|111812|M|37.72,47.47|P|Alchemy;171|N|After you learn check this step off manually.|
-
 C Into the Boneslag|QID|32991|NC|M|40.4,49|QO|1|RANK|2|
 C Into the Boneslag|QID|32991|NC|M|41.1,44.7|QO|2|RANK|2|
 C Of Fire and Thunder|QID|33013|NC|M|43.2,44.4|QO|1|RANK|2|
@@ -597,11 +308,9 @@ C Of Fire and Thunder|QID|33013|NC|M|44.71,43.43|QO|2|RANK|2|
 T Of Fire and Thunder|QID|33013|M|44.71,43.43|N|To UI Alert.|RANK|2|
 T Into the Boneslag|QID|32991|M|47.57,45.57|N|To Lokra.|RANK|2|
 A Moving Target|QID|32992|PRE|32991|M|47.57,45.57|N|From Lokra.|RANK|2|
-
 ;blacksmithing profession quest
 T Waruk the Frostforger|QID|36207|M|46.08,48.78|P|Blacksmithing;164|N|To Waruk the Frostforged.|
 A The Restless Spirit|QID|36230|M|46.08,48.78|PRE|36207|P|Blacksmithing;164|N|From Waruk the Frostforged.|
-
 f Darkspear's Edge|ACTIVE|34736|M|51.70,41.12|N|At Ja'kana.|RANK|2|
 A Poulticide|QID|34345|M|52.62,40.43|N|From Shadow Hunter Rala.|RANK|2|
 T We Be Needin' Supplies|QID|34736|M|52.62,40.43|N|To Shadow Hunter Rala.|RANK|2|
@@ -634,16 +343,13 @@ T Defection of Gronnstalker Rokash|QID|35341|M|59.46,31.79|N|From Gronnstalker R
 T Frosted Fury|QID|34346|M|52.51,40.42|N|To Shadow Hunter Mala.|RANK|2|
 T Lurkers|QID|34344|M|52.63,40.41|N|To Shadow Hunter Rala.|RANK|2|
 T Poulticide|QID|34345|M|52.63,40.41|N|To Shadow Hunter Rala.|RANK|2|
-
 A The Real Prey|QID|34348|M|52.63,40.45|N|From Shadow Hunter Rala.|PRE|34344&34345&34346|RANK|2|
 C The Real Prey|QID|34348|M|53.4,29.4;52.13,29.42|CS|T|Grosh the Mighty|RANK|2|
 f Bloodmaul Slag Mines|ACTIVE|34348|M|51.44,21.47|N|At Brenna Skymoor.As long as you are in the neighborhood, you can run up and get this explore and flight path, totally optional, for level 100 content. |RANK|3|
 $ Treasure-Clumsy Cragmaul Brute|QID|33531|M|50.1,18.7|N|More treasure just lying around to be claimed.|RANK|3|
 N Explore Cold Snap Bluffs|ACTIVE|34348|M|51.7,18.7|CC|N|Be careful of the lvl 100 mobs. Check this off manually if you don't want to explore.|RANK|3|
-
 T The Real Prey|QID|34348|M|52.61,40.42|N|To Shadow Hunter Rala.|RANK|2|
 A Oath of Shadow Hunter Rala|QID|34731|M|52.61,40.42|RANK|2|N|From Shadow Hunter Rala.|PRE|34348|
-
 ;JC/BS interlude
 F Wor'gal|ACTIVE|36378|M|51.70,41.12|P|Jewelcrafting;755|N|At Ja'kana.|FLY|WOD|
 T No Pressure, No Diamonds|QID|36378|M|20.0,56.4|P|Jewelcrafting;755|N|To Gem Grinder Orolak.|
@@ -659,7 +365,6 @@ A Mending A Broken Heart|QID|36238|M|46.08,48.78|PRE|36230|P|Blacksmithing;164|N
 T Mending A Broken Heart|QID|36238|M|41.21,52.89|P|Blacksmithing;164|N|To Axe-Shaper Kurga.|
 U Learn Blacksmithing skill|ACTIVE|32992|U|115356|M|41.21,52.89|P|Blacksmithing;164|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
 ;U Learn Blacksmith Shop Blueprints|QID|33918|U|111813|M|41.21,52.89|P|Blacksmithing;164|N|After you learn check this step off manually.|
-
 R Icewind Drifts|ACTIVE|32992|M|54.17,51.86|RANK|2|FLY|WOD|
 ;enchanting profession quest
 T The Arakkoan Enchanter|QID|36256|M|54.4,51.6|P|Enchanting;333|N|To Arcanist Delath.|
@@ -671,9 +376,7 @@ C Oru'kai's Scepter|QID|36260|M|55.2,50|U|115011|P|Enchanting;333|N|Use the ring
 T Oru'kai's Scepter|QID|36260|M|54.4,51.6|P|Enchanting;333|N|To Arcanist Delath.|
 U Learn Enchanting skill|ACTIVE|32992|U|111922|M|54.4,51.6|P|Enchanting;333|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
 ;U Learn Enchanter's Study Blueprints|QID|33918|U|111817|M|54.4,51.6|P|Enchanting;333|N|After you learn check this step off manually.|
-
 $ Frozen Treasure|QID|34476|M|57.19,52.15|N|Kill the fury's loot the treasure.|L|111554|RANK|2|
-
 C Moving Target|QID|32992|M|55.02,55.73|NC|N|Watch the scene unfold.|RANK|2|
 T Moving Target|QID|32992|M|55.49,56.63|N|To Lokra.|RANK|2|
 A The Strength of Our Bonds|QID|32993|PRE|32992|M|55.49,56.63|N|From Lokra.|RANK|2|
@@ -689,7 +392,6 @@ A Enfilade|QID|32994|PRE|33826|M|63.21,60.07|N|From Karg Bloodfury who is follow
 A The Master Siegesmith|QID|33828|PRE|33826|M|63.19,60.04|N|From Lokra. (Also following you around)|RANK|2|
 C Enfilade|QID|32994|M|61.38,71.71|S|N|The apprentices and siegesmiths drop the gunpowder you need to blow up the cannons. Also there is some as groundspawn.|RANK|2|
 C The Master Siegesmith|QID|33828|M|62.66,74.54|T|Master Siegesmith Uratok|RANK|2|
-
 ;the rest of the inscription quest
 C Bypassing Security|QID|36457|M|61.26,71.18|P|Inscription;773|U|116063|N|Use your disguise and rescue Nicholaus.|
 T Bypassing Security|QID|36457|M|61.26,71.18|P|Inscription;773|N|To Nicholaus Page.|
@@ -698,48 +400,38 @@ C Stealing the Declaration|QID|36475|M|63.10,75.75|P|Inscription;773|N|Open Urat
 T Stealing the Declaration|QID|36475|M|61.26,71.18|P|Inscription;773|N|To Nicholaus Page.|
 U Learn Inscription skill|QID|33918|U|111923|M|61.2,71.2|P|Inscription;773|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
 ;U Learn Scribe's Quarters Blueprints|QID|33918|U|111815|M|61.2,71.2|P|Inscription;773|N|After you learn check this step off manually.|
-
 C Enfilade|QID|32994|M|61.38,71.71|N|The apprentices and siegesmiths drop the gunpowder you need to blow up the cannons. Also there is some as groundspawn.|RANK|2|US|
 C Karg Unchained|QID|33785|M|63.77,68.17|N|Finish killing the orcs.|RANK|2|US|
-
 T Karg Unchained|QID|33785|M|63.21,60.07|N|To Karg Bloodfury.|RANK|2|
-
 T Enfilade|QID|32994|M|62.53,74.91|N|To Karg Bloodfury.|RANK|2|
 T The Master Siegesmith|QID|33828|M|62.53,74.91|N|To Lokra.|RANK|2|
 A Return to the Pack|QID|33493|PRE|32994|M|62.53,74.91|N|From Lokra.|RANK|2|
 C "Spare" Parts|QID|36594|M|56.74,71.82|P|Engineering;202|N|Kill and loot for the shells or pick them up from the ground. Use the provided bomb to blow up the siege cannons and pick up the parts. There is a treasure chest here also with some garrison resources, (and hopefully sometimes something better).|
 H Town Hall (Frostwall)|ACTIVE|33918|M|41.58,53.06|U|110560|Z|Frostwall|CC|RANK|2|
 T WANTED: Grondo's Bounty|QID|33918|M|45.88,42.80|N|To Rokhan.|RANK|2|Z|Frostwall|
-
 T "Spare" Parts|QID|36594|M|50.03,68.90|P|Engineering;202|N|To Blizthraz Blastcharge.|
 A Big Frostfire Gun|QID|36627|M|50.03,68.90|PRE|36594|P|Engineering;202|N|From Blizthraz Blastcharge.|
 A Things Are Not Goren Our Way|QID|35154|M|61.99,73.88|N|From Gorsol.|Z|Frostwall|
 C Things Are Not Goren Our Way|QID|35154|M|61.39,84.40|N|After completing this quest you will be able to mine here, without the mining profession.|T|Stonetooth|Z|Frostwall|
 T Things Are Not Goren Our Way|QID|35154|M|62.00,73.93|N|To Gorsol. Congratulations, you have your own personal mine, that doesnt require mining to gather in. You can harvest the ore once per day. You can immediately buy the plans from Rezlek, the goblin next to your architect table and upgrade your mine to level 2 for greater yield. (I would recoment mining first because it seems to reset the ore spawning.)|Z|Frostwall|
-
 C Big Frostfire Gun|QID|36627|M|45.13,71.75|P|Engineering;202|
 T Big Frostfire Gun|QID|36627|M|50.03,68.90|P|Engineering;202|N|To Blizthraz Blastcharge.|
 U Learn Engineering skill|ACTIVE|33493|U|111921|M|50.03,68.90|P|Engineering;202|N|After you learn check this step off manually. Don't learn the blueprints as you will also learn  them from a different quest and these sell for 150 gold.|
 ;U Learn Engineering Works Blueprints|QID|33493|U|109258|M|50.03,68.90|P|Engineering;202|N|After you learn check this step off manually.|
-
 N Finalize your buildings|ACTIVE|33493|M|51.63,63.03|N|Assuming an hour has passed since you started them, click on the scrolls for each of the buildings to finalize them.  Most will then have NPC's that will offer a quest. This step will need manually checked off.|
 ; looks like the level 2 plans arent sold yet... you can only upgrade your mine and town hall N Upgrade your garrison|QID|35557|M|51.56,35.71|N|You have probably built up enough garrison resources to upgrade some (maybe all) your small garrison buildings to level 2 now.|
-
 ;if you chose the lumber mill  MED
 A Easing into Lumberjacking|QID|36137|M|51.63,63.03|N|From Lumber Lord Okton.|BUILDING|LumberMill;40;41;138|
 C Easing into Lumberjacking|QID|36137|M|44.31,53.76|N|Fly or ride to Stonefang Outpost where you will find the tree to mark for harvest.|
 T Easing into Lumberjacking|QID|36137|M|51.63,63.03|N|To Lumber Lord Okton.|
 A Turning Timber into Profit|QID|36138|M|51.87,61.75|N|From Lumber Lord Okton.|PRE|36137|
 C Turning Timber into Profit|QID|36138|S|N|As you are out and about don't forget to mark trees.|
-
 ;if you chose the inn(tavern) MED
 A The Headhunter's Harvest|QID|37046|N|From Akanja.|BUILDING|Inn;34;35;36|
 C The Headhunter's Harvest|QID|37046|CHAT|N|Talk to Akanja and pick a follower.|
 T The Headhunter's Harvest|QID|37046|RANK|2|N|To Akanja.|
-
 ;gladiators sanctum MED
 A Warlord of Draenor|QID|36874|BUILDING|GladiatorsSantum;159;160;161|N|From Raza'kul.|
-
 ;storehouse SMALL;trading post MED
 A Lost in Transition|QID|37060|BUILDING|Storehouse;52;142;143|N|From Yorn Longhoof.|
 A Tricks of the Trade|QID|37062|BUILDING|Trading Post;111;144;145|N|From Fayla Fairfeather.|
@@ -748,49 +440,42 @@ C Tricks of the Trade|QID|37062|U|118418|M|44.51,14.48|Z|Frostwall|N|He is sleep
 T Tricks of the Trade|QID|37062|M|57.88,27.83|N|To Fayla Fairfeather.|
 N Auctioning For Parts|ACTIVE|37060|BUILDING|Trading Post;144;145|N|There is now a quest available, but you can't pick it up until you collect all the necessary items. These items will be automatically looted as you go about normal activities. For more details see Wowhead.|
 T Lost in Transition|QID|37060|N|To Yorn Longhoof.|
-
 ;tannery SMALL
 A Your First Leatherworking Work Order|QID|37574|BUILDING|Tannery;90;121;122|N|From Murne Greenhoof.|
 B Raw Beast Hide|QID|37574|BUILDING|Tannery;90;121;122|L|110609 5|N|Acquire from skinning or the Auction House or some other method.|
 C Place work order|QID|37574|QO|1|CHAT|L|110609 5|N|At Yanny.|
 C Pick up work order|QID|37574|QO|2|NC|L|110609 5|N|At Yanny.|
 t Your First Leatherworking Work Order|QID|37574|N|To Yanny.|
-
 ;tailering emporium SMALL
 A Your First Tailoring Work Order|QID|36643|BUILDING|TailoringEmporium;94;127;128|N|From ??.|
 B Sumptuous Fur|QID|36643|BUILDING|TailoringEmporium;94;127;128|L|111557 5|N|Acquire from killing and looting humanoids (saborons a very good source) or the Auction House or some other method.|
 C Place order|QID|36643|QO|1|BUILDING|TailoringEmporium;94;127;128|CHAT|N|Talk to Turga to start a work order.|
 C Pick up order|QID|36643|QO|2|BUILDING|TailoringEmporium;94;127;128|NC|N|From the bundles, barrels and boxes beside the building, called 'Tailoring Work Order' .|
 T Your First Tailoring Work Order|QID|36643|BUILDING|TailoringEmporium;94;127;128|N|From Turga.|
-
 ;the forge SMALL
 A Your First Blacksmithing Work Order|QID|35168|BUILDING|TheForge;60;117;118|N|From ??.|
 B True Iron Ore|QID|35168|BUILDING|TheForge;60;117;118|L|109118 5|N|Acquire from mining or the Auction House or some other method.|
 C Place order|QID|35168|QO|1|BUILDING|TheForge;60;117;118|CHAT|N|Talk to Kinja to start a work order.|
 C Pick up order|QID|35168|QO|2|BUILDING|TheForge;60;117;118|NC|N|From the bundles, barrels and boxes beside the building, called 'Blacksmithing Work Order' .|
 T Your First Blacksmithing Work Order|QID|35168|BUILDING|TheForge;60;117;118|N|From Kinja.|
-
 ;gem boutique SMALL
 A Your First Jewelcrafting Work Order|QID|37573|BUILDING|GemBoutique;96;131;132|N|From Dorogarr.|
 B Blackrock Ore|QID|37573|BUILDING|GemBoutique;96;131;132|L|109118 5|N|Acquire from mining or the Auction House or some other method.|
 C Place order|QID|37573|QO|1|BUILDING|GemBoutique;96;131;132|CHAT|N|Talk to Elrondir Surrion to start a work order.|
 C Pick up order|QID|37573|QO|2|BUILDING|GemBoutique;96;131;132|NC|N|From the bundles, barrels and boxes beside the building, called 'Jewelcrafting Work Order'.|
 T Your First Jewelcrafting Work Order|QID|37573|BUILDING|GemBoutique;96;131;132|N|From Elrondir Surrion.|
-
 ;if you chose alchemy lab SMALL
 A Your First Alchemy Work Order|QID|37568|BUILDING|AlchemyLab;76;119;120|N|From Albert de Hyde.|
 B Frostweed|QID|37568|BUILDING|AlchemyLab;76;119;120|L|109124 5|N|Acquire from herbalism or the Auction House or some other method.|
 C Place order|QID|37568|QO|1|BUILDING|AlchemyLab;76;119;120|CHAT|N|Talk to Keyana Tone to start a work order.|
 C Pick up order|QID|37568|QO|2|BUILDING|AlchemyLab;76;119;120|NC|N|From the bundles, barrels and boxes beside the building, called 'Alchemy Work Order'.|
 T Your First Alchemy Work Order|QID|37568|BUILDING|AlchemyLab;76;119;120|N|From Keyana Tone.|
-
 ;if you choose scribes quarters SMALL
 A Your First Inscription Work Order|QID|37572|BUILDING|ScribesQtrs;95;129;130|N|From Urgra.|
 B Cereleun Pigment|QID|37572|BUILDING|ScribesQtrs;95;129;130|L|114931 2|N|Acquire from milling Draenor herbs or the Auction House or some other method.|
 C Place order|QID|37572|QO|1|BUILDING|ScribesQtrs;95;129;130|CHAT|N|Talk to Y'rogg to start a work order.|
 C Pick up order|QID|37572|QO|2|BUILDING|ScribesQtrs;95;129;130|NC|N|From the bundles, barrels and boxes beside the building, called 'Inscription Work Order'.|
 T Your First Inscription Work Order|QID|37572|BUILDING|ScribesQtrs;95;129;130|N|From Y'rogg.|
-
 ;engineering works SMALL
 A Your First Engineering Work Order|QID|37571|BUILDING|EngineeringWorks;91;123;124|N|From Pozzlow.|Z|Frostwall|
 B True Iron Ore|QID|37571|L|109118 2|N|Mine or Acquire (from your bank/mailbox/Auction House) 2 Blackrock Ore.|BUILDING|EngineeringWorks;91;123;124|
@@ -798,26 +483,22 @@ B Blackrock Ore|QID|37571|L|109119 2|N|Mine or Acquire (from your bank/mailbox/A
 C Place work order|QID|37571|CHAT|QO|1|N|At Garbra Fizzwonk.|BUILDING|EngineeringWorks;91;123;124|Z|Frostwall|
 C Pick up work order|QID|37571|NC|QO|2|Z|Frostwall|N|At the pile of boxes and bags named 'Engineering Work Order.|BUILDING|EngineeringWorks;91;123;124|
 T Your First Engineering Work Order|QID|37571|N|To Garbra Fizzwonk.|BUILDING|EngineeringWorks;91;123;124|Z|Frostwall|
-
 ;if you chose enchanting hut SMALL
 A Your First Enchanting Work Order|QID|36645|N|From Yukla Greenshadow.|BUILDING|EnchantingHut;93;125;126|
 B Draenic Dust|QID|36645|L|109693 5|N|Use the Essence Font in you Enchanting Hut to DE some unneeded gear to get the Draenic Dust for the work order(or otherwise acquire it from bank/mailbox/AH).|BUILDING|EnchantingHut;93;125;126|
 C Place first work order|QID|36645|QO|1|CHAT|N|At Garra.|BUILDING|EnchantingHut;93;125;126|
 C Pick up work order|QID|36645|QO|2|NC|N|At the bundles and boxes called 'Enchanting Work Order'.|BUILDING|EnchantingHut;93;125;126|
 T Your First Enchanting Work Order|QID|36645|N|To Garra.|BUILDING|EnchantingHut;93;125;126|
-
 ;if you choose barn MED
 A Breaking into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|N|From Farmer Lok'lub|
 C Go trap an animal|QID|36345|QO|1|M|55,62;26,43|CN|U|113991|N|Trap a wolf (in the shivering trench ~55,62) if you want fur (cloth) and a clefthoof (nearest concentration is outside of sootstained mines ~26,46) if you are interested in leather. You can trap more if you want, up to 7 can be turned in each day.|
 C Place a work order|QID|36345|QO|2|N|At Farmer Lok'lub, sometimes he gets bored and wanders around, I have found him as far away as my garrison's graveyard.|
 T Breaking into the Trap Game|QID|36345|BUILDING|Barn;24;25;133|N|To Farmer Lok'lub|
-
 T Return to the Pack|QID|33493|M|50.17,37.82|N|To Durotan.|RANK|2|Z|Frostwall|
 A Thunderlord Invasion!|QID|37291|PRE|32796|M|50.17,37.82|N|From Durotan.|RANK|2|Z|Frostwall|
 C Thunderlord Invasion!|QID|37291|M|43.61,47.91|CHAT|N|Chat with Sargeant Grimjaw to start the scenario. You can take up to two groupmates with you if they come to your garrison. It will take around 10 min.|RANK|2|Z|Frostwall|
 t Thunderlord Invasion!|QID|37291|M|43.61,47.91|N|To Sargeant Grimjaw.|RANK|2|Z|Frostwall|
 A The Iron Wolf|QID|33010|PRE|37291|M|50.17,37.82|N|From Durotan.|RANK|2|Z|Frostwall|
-
 A Services of Dagg|QID|34733|M|48.23,17.32|N|If you found Dagg while out and about questing (in daggermaw ravine and in grom'gar) he has come to pledge his service.|PRE|34654&34651|RANK|2|Z|Frostwall|
 R Grimfrost Hill|ACTIVE|33010|M|65.14,49.45|RANK|3|FLY|WOD|
 A A Proper Parting|QID|33125|M|66.03,49.09|N|From Outrider Urukag.|RANK|3|
@@ -829,12 +510,10 @@ C A Proper Parting|QID|33125|M|62.04,50.29|NC|QO|1|RANK|3|
 C A Proper Parting|QID|33125|M|62.55,50.83|NC|QO|3|RANK|3|
 T A Proper Parting|QID|33125|M|66.04,49.10|N|To Outrider Urukag.|RANK|3|
 T Gut Guttra|QID|33132|M|66.04,49.10|N|To Outrider Urukag.|RANK|3|
-
 R The Hunter's Hall|ACTIVE|33010|M|63.39,65.67|RANK|2|FLY|WOD|
 C The Iron Wolf|QID|33010|M|58.38,58.36|Z|Grom'gar@FrostfireRidge|N|If you get caught in a net, kill the caster of the net to free yourself (before The Iron Wolf does bad AoE things.)|RANK|2|
 T The Iron Wolf|QID|33010|M|53.23,56.27|Z|Grom'gar@FrostfireRidge|N|To Thrall.|RANK|2|
 A To Thunder Pass|QID|34123|PRE|33010|M|53.23,56.27|Z|Grom'gar@FrostfireRidge|N|From Thrall.|RANK|2|
-
 f Wolf's Stand|ACTIVE|34123|M|73.63,60.03|N|At Windhunter.|RANK|2|
 T To Thunder Pass|QID|34123|M|73.43,58.83|N|To Lokra.|RANK|2|
 A The Battle of Thunder Pass|QID|34124|PRE|34123|M|73.43,58.83|N|From Lokra.|RANK|2|
@@ -844,7 +523,6 @@ A The Secrets of Gorgrond|QID|34867|M|76.16,55.16|N|From Durotan.|
 A The Frostwolves Stand Ready|QID|37563|PRE|34124|M|76.32,54.06|N|From Makar Stonebinder.|RANK|2|
 C Pick one|QID|37563|M|76.32,54.06|N|Geyah is a resto shaman, her guarenteed ability is a magic debuff counter, Kal'gor is an elemental shaman and his guarenteed ability is a counter to minion swarms, Lokra is an enhancelent shaman and her guarenteed ability is a counter to danger zones.  Pick the one you want.|RANK|2|
 T The Frostwolves Stand Ready|QID|37563|M|76.32,54.06|N|To Makar Stonebinder.|RANK|2|
-
 R Bones of Agurak|AVAILABLE|34066|M|78.38,54.95;83.62,60.88|CS|N|There is a passage thru the rocks starting at the first waypoint.|RANK|2|FLY|WOD|PRE|37563|
 f Thunder Pass|AVAILABLE|34066|M|83.62,60.88|N|At Bile Warneck.|RANK|2|PRE|37563|
 A Savage Vengeance|QID|34066|M|83.22,62.76|N|From Scout Ruk'Gan. If you happen arrive just as someone else picked up the quest it takes a minute or two for him to come back.|RANK|3|
@@ -852,10 +530,8 @@ C Savage Vengeance|QID|34066|M|83.50,65.90|S|RANK|3|
 A A Collection of Coils|QID|34067|M|86.33,63.30|U|109121|N|From UI Alert.|RANK|3|O|
 A Getting the Points|QID|34069|M|84.14,65.11|N|From Barbed Thunderlord Spear.|RANK|3|
 C A Collection of Coils|QID|34067|M|84.99,64.21|N|These drop from the Thunderlord Wranglers.|RANK|3|S|
-
 C Getting the Points|QID|34069|M|84.53,68.44|NC|RANK|3|N|Also kill Thunderlord Wranglers to get the Coil of sturdy Rope|
 ;K Thunderlord Wranglers|QID|34066|N|Kill Thunderlord Wranglers to get a Coil of Sturdy Rope|RANK|3|
-
 C A Collection of Coils|QID|34067|M|84.99,64.21|N|These drop from the Thunderlord Wranglers.|RANK|3|US|
 C Savage Vengeance|QID|34066|M|83.50,65.90|US|RANK|3|
 T Savage Vengeance|QID|34066|M|82.62,69.77|N|To Scout Ruk'Gan.|RANK|3|
@@ -880,16 +556,13 @@ T The Mark of Defiance|QID|34102|M|82.83,76.34|N|To Scout Ruk'Gan.|RANK|3|
 A Vul'gath's End|QID|34075|PRE|34073&34102|M|82.83,76.34|N|From Scout Ruk'Gan.|RANK|3|
 C Vul'gath's End|QID|34075|M|83.83,74.96|T|General Vul'gath|N|Just across the rock bridge here.|RANK|3|
 T Vul'gath's End|QID|34075|M|82.82,76.33|N|To Scout Ruk'Gan.|RANK|3|
-
 D We're outa here!|N|This concludes Frostfire Ridge, check off this step and the next guide will open.|
-
 ;This should be at the end of the Gorgrond guide  (i.e. the next time you come to your garrison)
 ;C Turning Timber into Profit|QID|36138|QO|2|M|51.99,61.68|N|Talk to Okton to place your work order.|
 ;T Turning Timber into Profit|QID|36138|M|51.68,62.51|N|To Lumber Lord Oktron.|
 ;A Sharper Blades, Bigger Timber|QID|36142|M|51.68,62.51|N|From Lumber Lord Oktron.|PRE|36138|
 ;C Sharper Blades, Bigger Timber|QID|36142|M|45.25,49.14|Z|Frostfire Ridge|N|Fly out to Stonefang Outpost for another bit of timber.|
 ;T Sharper Blades, Bigger Timber|QID|36142|M|48.81,67.59|Z|Frostwall|N|To Lumber Lord Oktron.|
-
 ;Alchemy work order in Alchemy Lab|L|10912 5|frostweeds
 ;Blacksmithing work order in The Forge|L|109119 5|true steel ore
 ;Enchanting work order in Enchanter's Study|L|109693 5|draenic dust
@@ -898,9 +571,5 @@ D We're outa here!|N|This concludes Frostfire Ridge, check off this step and the
 ;Jewelcrafting work order in Gem Boutique|L|109118|blackrock ore
 ;Leatherworking work order in The Tannery|L|110609|dranic leather --- need correct name
 ;Tailoring work order in Tailoring Emporium|L|111557|sumptuous furs
-
 ]]
-
 end)
-
-

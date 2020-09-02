@@ -1,45 +1,9 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/horde_endgame_storylines
--- Date: 2020-08-19 02:48
--- Who: Blanckaert
--- Log: Case adjustment on F step 52114
-
--- URL: http://wow-pro.com/node/3783/revisions/30153/view
--- Date: 2018-12-05 06:05
--- Who: elidion
--- Log: 8.1 Questline
-
--- URL: http://wow-pro.com/node/3783/revisions/30128/view
--- Date: 2018-11-18 14:05
--- Who: jovieve
--- Log: Added REP tag on Zalazane returns and accompanying note. Combined C steps on Vengeance for Vol'jin. Added travel steps.
-
--- URL: http://wow-pro.com/node/3783/revisions/30080/view
--- Date: 2018-10-23 22:18
--- Who: Ludovicus_Maior
--- Log: Removed empty tag.
-
--- URL: http://wow-pro.com/node/3783/revisions/30058/view
--- Date: 2018-10-20 09:14
--- Who: elidion
--- Log: Added the spirits be with you questline.
-
--- URL: http://wow-pro.com/node/3783/revisions/29816/view
--- Date: 2018-09-24 02:30
--- Who: elidion
--- Log: Initial file for patch 8.0 story content.
-
 local guide = WoWPro:RegisterGuide('EliEndgame', 'Leveling', 'Zandalar', 'Elidion', 'Horde')
-WoWPro:GuideLevels(guide,120, 120)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideName(guide,'Endgame Storylines')
 WoWPro:GuideNextGuide(guide, 'TBD')
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
-
 return [[
 N A Bargain of Blood|AVAILABLE|47199|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|The first part of the these questlines require you to have completed the zone achievement for Nazmir as well as Zandalar. Vol'dun will be required eventually you should start working on all 3. If you're trying to just go for these achievements and don't care about sidequests, try running the guide on Rank 1 with rares and treasures disabled.|ACH|11861+11868|
 A The Blood Gate|QID|47199|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|Baine Bloodhoof.|ACH|11861;;true+11868;;true|
@@ -70,9 +34,7 @@ A Prepare for a Siege|QID|47258|M|60.05,22.23|Z|Zuldazar|N|From King Rastakhan.|
 T Prepare for a Siege|QID|47258|M|41.33,72.50|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 A Zandalar Forever!|QID|50954|M|60.05,22.23|Z|Zuldazar|N|From King Rastakhan.|PRE|47229|ACH|11861;;true+11868;;true+12478;;true|
 R The Sliver|ACTIVE|50954|M|60.05,22.23|Z|Zuldazar|CHAT|N|Talk to the King to start the scenario.|
-
 N Complete Vol'dun Story|AVAILABLE|50954|N|You must finish the Vol'dun story achievment. If you're interested in completing only this zone achievement you can run the Vol'dun guide at Rank 1 with treasures and rares disabled to get through the story content.|ACH|11861+11868+12478|
-
 C Prepare the Assault|ACTIVE|50954|SO|1;1|NC|N|Click on Old K'zlotec in front of you to mount.|
 C Blood Troll Army slain|ACTIVE|50954|M|60.96,22.17|Z|Zuldazar!Instance|SO|2;1|N|Destroy the Nazmani invaders in the Sliver.\nAll three buttons are AE attacks.\n#3 requires a target.|
 C Secure the bridge to Dazar'alor|ACTIVE|50954|M|60.62,31.86|Z|Zuldazar!Instance|SO|3;1|NC|N|Just enjoy the ride to the next area.|
@@ -126,7 +88,6 @@ A The True Leader of Zandalar|QID|51521|M|49.92,39.42|Z|Dazar'alor|N|From Spirit
 C The True Leader of Zandalar|QID|51521|M|49.92,39.42|Z|Dazar'alor|QO|1|NC|N|Give Vol'jin's Glaive to Talanji and watch the cinematic.|
 T The True Leader of Zandalar|QID|51521|M|49.92,39.42|Z|Dazar'alor|N|To Spirit of Vol'jin.|
 N Zandalari Empire Rep Gate|QID|51513|N|Do WQs that give Zandalari Empire faction. Next segment is available at revered.|PRE|50954|REP|Zandalari Empire;2103;revered;0;true|
-
 ; 8.1 quests
 A The Dark Lady Calls|QID|54097|M|58.40,62.73|Z|Zuldazar|N|From Dark Ranger Alina.|PRE|53003|O|
 P Orgrimmar|ACTIVE|54097|M|51.54,45.89|Z|Dazar'alor|N|Take the portal to Orgrimmar or get there by other means.|
@@ -167,7 +128,6 @@ C Tracking Tipoff|QID|54106|M|80.76,46.41|Z|Redridge Mountains|NC|QO|1|N|Drink t
 C Tracking Tipoff|QID|54106|M|81.52,51.91|Z|Redridge Mountains|NC|QO|2|N|Approach Hunter McAlister to start the dialog.|
 C Tracking Tipoff|QID|54106|M|81.37,52.68|Z|Redridge Mountains|QO|3|N|Kill Hunter McAlister, dogs vanish when he dies.|
 T Tracking Tipoff|QID|54106|M|81.50,52.54|Z|Redridge Mountains|N|To Dark Ranger Lyana.|
-
 ;Help Saurfang
 A Grim Tidings|QID|54107|M|81.52,52.78|Z|Redridge Mountains|N|From Zekhan if you decide to ignore your orders and help Saurfang.|PRE|54106|
 T Grim Tidings|QID|54107|M|79.78,74.73|Z|Swamp of Sorrows|N|To Zekhan.|
@@ -177,9 +137,6 @@ T A Warrior's Death|QID|54108|M|80.80,78.74|Z|Swamp of Sorrows|N|To Varok Saurfa
 A Queen's Favor|QID|54109|M|80.80,78.71|Z|Swamp of Sorrows|N|From Varok Saurfang.|PRE|54108|
 C Queen's Favor|QID|54109|M|80.80,78.68|Z|Swamp of Sorrows|CHAT|QO|1|N|Tell Saurfang you are ready to take the hit.|
 T Queen's Favor|QID|54109|M|48.34,71.14|Z|Orgrimmar|N|To Lady Sylvanas Windrunner.|
-
 N Not the end|AVAILABLE|-54109|N|That's it for patch 8.1. Come back in 8.2 when the story continues.|
 ]]
 end)
-
-

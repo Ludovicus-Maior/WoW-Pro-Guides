@@ -1,112 +1,11 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_blade039s_edge_mountains_alliance
--- Date: 2018-10-17 02:24
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3281/revisions/29052/view
--- Date: 2018-02-20 01:19
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3281/revisions/28901/view
--- Date: 2018-01-16 23:52
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3281/revisions/28392/view
--- Date: 2017-03-15 21:39
--- Who: Ludovicus_Maior
--- Log: Added PREs to JamBla6870
-
--- URL: http://wow-pro.com/node/3281/revisions/26395/view
--- Date: 2014-05-30 12:06
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3281/revisions/26274/view
--- Date: 2014-05-26 00:43
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3281/revisions/26146/view
--- Date: 2014-05-20 19:37
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3281/revisions/25986/view
--- Date: 2014-05-14 22:41
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3281/revisions/25404/view
--- Date: 2013-01-13 01:22
--- Who: Ludovicus_Maior
--- Log: Added a CS tag
-
--- URL: http://wow-pro.com/node/3281/revisions/25090/view
--- Date: 2012-09-25 00:57
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3281/revisions/24892/view
--- Date: 2012-01-18 22:09
--- Who: Ludovicus_Maior
--- Log: For [The Skyguard Outpost], get from Chu'a'lor not Sky Commander Keller.
-
--- URL: http://wow-pro.com/node/3281/revisions/24847/view
--- Date: 2011-12-08 18:01
--- Who: Crackerhead22
--- Log: 4.3 updates
-
--- URL: http://wow-pro.com/node/3281/revisions/24594/view
--- Date: 2011-06-25 01:21
--- Who: Crackerhead22
--- Log: Fixed QID for "T Bombing Run|QID|11010|M|27.65,52.84|N|To Sky Sergeant Vanderlip.|C|Druid|"
-
--- URL: http://wow-pro.com/node/3281/revisions/24575/view
--- Date: 2011-06-22 02:13
--- Who: Ludovicus_Maior
--- Log: # Checking ../WoWPro_Leveling/Alliance/68_70_Jame_Blades_Edge_Mountains.lua
---	! Line 258 for step C has unknown tag [M32.66,37.52U]: [C Meeting at the Blackwing Coven|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M32.66,37.52U|31122|]
---	! Line 258 for step C has unknown tag [31122]: [C Meeting at the Blackwing Coven|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M32.66,37.52U|31122|]
-
--- URL: http://wow-pro.com/node/3281/revisions/24574/view
--- Date: 2011-06-21 20:31
--- Who: Crackerhead22
--- Log: Minor Fixes.
-
--- URL: http://wow-pro.com/node/3281/revisions/24308/view
--- Date: 2011-04-29 14:58
--- Who: Ludovicus_Maior
--- Log: Line 254 for step A has unknown tag [From Tree Warden Chawn.], Line 257 for step T has unknown tag [To Samia Inkling.], Line 273 for step T has unknown tag [To Tree Warden Chawn.]
-
--- URL: http://wow-pro.com/node/3281/revisions/23833/view
--- Date: 2010-12-27 19:40
--- Who: Crackerhead22
--- Log: Added missing quests, cords, step notes, |QO| tags, sticky steps, quests needed for quest achievement.
-
--- URL: http://wow-pro.com/node/3281/revisions/23451/view
--- Date: 2010-12-03 21:36
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3281/revisions/23450/view
--- Date: 2010-12-03 21:36
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("JamBla6870", "Leveling", "Blade's Edge Mountains", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,62,70,65.8483)
-WoWPro:NewGuideLevels(guide,65,80)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, "JamBor6872")
-WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
 H Shattrath City|QID|9794|N|Hearth to Shattrath City.|
 r Sell junk, repair, restock|N|Sell junk, repair, restock at your repective faction.|
 F Orebor Harborage|QID|9794|N|Fly to Orebor Harborage.|Z|Shattrath City|M|63.79,41.18|
-
 A No Time for Curiosity|QID|9794|M|41.2,28.7|N|From Timoth Daniels.|Z|Zangarmarsh|
 A Killing the Crawlers|QID|10927|M|32.2,91.1|N|From Sentinel Moonwhisper.|
 C Killing the Crawlers|N|Go through the cave and kill the crawlers needed for this quest.|QID|10927|M|32.93,90.35|
@@ -118,7 +17,6 @@ A The Bloodmaul Ogres |QID|10502|M|36.3,66.2|N|From Commander Skyshadow.|
 A Malaise |QID|10555|M|37.1,65.6|N|From Daranelle.|
 A Into the Draenethyst Mine |QID|10510|M|37.4,65.0|N|From Bronwyn Stouthammer.|
 A Strange Brew |QID|10511|M|37.4,64.6|N|From Borgrim Stouthammer.|
-
 f Sylvanaar |QID|10555|N|Get the flight path. |M|37.80,61.40|
 h Sylvanaar |QID|10555|N|Set your hearthstone to Sylvanaar. |M|35.80,63.90|
 C The Encroaching Wilderness |N|Kill Lynxes until you finish this quest. |S|QID|10455|M|38.00,72.00|
@@ -134,7 +32,6 @@ A Marauding Wolves|QID|10456|PRE|10455|M|36.2,67.1|N|From Rina Moonspring.|
 C Marauding Wolves|N|Kill the wolves needed for this quest.|QID|10456|M|51.00,65.00|S|
 C The Den Mother|N|Kill Rema in this cave.|QID|10690|M|52.00,75.00|
 C Marauding Wolves|N|Kill the wolves needed for this quest.|QID|10456|M|51.00,65.00|US|
-
 H Sylvanaar |QID|10690|N|Hearth to Sylvanaar.|M|35.83,63.93|
 T The Den Mother |QID|10690|M|36.3,66.2|N|To Commander Skyshadow.|
 T Marauding Wolves |QID|10456|M|36.2,67.1|N|To Rina Moonspring.|
@@ -143,7 +40,6 @@ r Sell junk, repair, restock |QID|10457|N|Sell junk, repair, restock |M|37.7,64.
 C Protecting Our Own |N|Click seedlings on the ground until you finish this quest.|QID|10457|M|40.00,69.00|
 T Protecting Our Own |QID|10457|M|36.2,67.1|N|To Rina Moonspring.|
 A A Dire Situation |QID|10506|PRE|10457|M|36.2,67.1|N|From Rina Moonspring.|
-
 C A Dire Situation |N|Use Rina's Diminution Powder on Bloodmaul Dire Wolves.|QID|10506|M|43.50,73.20|S|
 C Strange Brew |N|Loot barrels of brew until you finish this quest.|QID|10511|M|46.00,77.00|S|
 C The Bloodmaul Ogres|N|Kill any Bloodmaul Ogres you see for this quest.|QID|10502|M|42.4,79.4|S|
@@ -158,7 +54,6 @@ T Into the Draenethyst Mine |QID|10510|M|37.4,65.0|N|To Bronwyn Stouthammer.|
 T Strange Brew |QID|10511|M|37.4,64.6|N|To Borgrim Stouthammer.|
 A Getting the Bladespire Tanked |QID|10512|M|37.4,64.6|N|From Borgrim Stouthammer.|
 r Sell junk, repair, restock|QID|10516|N|Sell junk, repair, restock |M|37.7,64.86|
-
 C Getting the Bladespire Tanked|N|Use the beer ogres until you complete this quest. |QID|10512|M|40.3,53.0|S|U|30353|
 C The Bladespire Ogres |N|Kill any ogre you see for this quest.|QID|10504|M|40.3,53.0|S|
 A The Trappings of a Vindicator |QID|10516|M|44.0,51.9|N|From Vindicator Vuuleen.|
@@ -173,7 +68,6 @@ l Bladespire Clan Banner|QID|10518|N|Kill a Bladespire Champion on the second fl
 C Getting the Bladespire Tanked|N|Use the beer on more ogres until you complete this quest. |QID|10512|M|40.3,53.0|US|U|30353|
 C The Bladespire Ogres |N|Kill the rest of the ogres for this quest.|QID|10504|M|40.3,53.0|US|
 C Planting the Banner |U|30416|N|You may need a group for this quest. Plant the banner at the top of the tower here and fight the waves of mobs. Loot the helm at the end.|QID|10518|M|46.00,74.00|
-
 H Sylvanaar |QID|10504|N|Hearth to Sylvanaar.|M|35.83,63.93|
 T The Bladespire Ogres |QID|10504|M|36.3,66.2|N|To Commander Skyshadow.|
 T Planting the Banner |QID|10518|M|36.3,66.2|N|To Commander Skyshadow.|
@@ -189,7 +83,6 @@ h Toshley's Station |QID|10584|N|Set your hearthstone to Toshley's Station. |M|6
 A Test Flight: The Zephyrium Capacitorium |QID|10557|M|60.3,68.4|N|From Tally Zapnabber.|
 A Crystal Clear |QID|10608|M|60.2,68.9|N|From Nickwinkle the Metro-Gnome.|
 f Toshley's Station |QID|10557|N|Get the flight path.|M|61.15,70.45|
-
 C Test Flight: The Zephyrium Capacitorium |N|Talk to Rally Zabnapper and start the flight.|QID|10557|M|60.20,68.80|
 T Test Flight: The Zephyrium Capacitorium |QID|10557|M|60.3,68.4|N|To Tally Zapnabber.|
 A Test Flight: The Singing Ridge |QID|10710|PRE|10557|M|60.3,68.4|N|From Tally Zapnabber.|
@@ -198,7 +91,6 @@ T Picking Up Some Power Converters |QID|10584|M|60.5,69.0|N|To Toshley.|
 A Ride the Lightning |QID|10657|PRE|10584|M|60.5,69.0|N|From Toshley.|
 A Ridgespine Menace |QID|10620|M|60.4,68.8|N|From Dizzy Dina.|
 A Cutting Your Teeth |QID|10632|M|60.5,68.4|N|From Razak Ironsides.|
-
 C Test Flight: The Singing Ridge |N|Right-click Tally's Waiver, then talk to Rally and take another flight.|QID|10710|M|60.20,68.80|U|30540|
 C Ride the Lightning |U|30818|N|Use the Magneto Sphere to absorb lightning strikes from Scalewing Serpents. Kill them until you get 5 glands and absorb 25 lightning strikes.|QID|10657|M|68.00,61.00|S|
 C Cutting Your Teeth |N|Kill Daggermaw Lashtails until you get the items for this quest.|QID|10632|M|63.00,56.00|S|
@@ -217,7 +109,6 @@ A Gauging the Resonant Frequency |QID|10594|PRE|10608|M|60.2,68.9|N|From Nickwin
 T Ridgespine Menace |QID|10620|M|60.4,68.8|N|To Dizzy Dina.|
 A More than a Pound of Flesh |QID|10671|M|60.4,68.8|N|From Dizzy Dina.|
 A Test Flight: Razaan's Landing |QID|10711|M|60.3,68.4|N|From Tally Zapnabber.|
-
 r Sell junk, repair, restock |QID|10674|M|60.73,69.06|
 C Test Flight: Razaan's Landing |N|Talk to Rally and take the flight.|QID|10711|M|60.20,68.80|
 C More than a Pound of Flesh |N|Kill Flesh Beasts until you get the items for this quest.|QID|10671|M|65.8,45.8|S|
@@ -230,14 +121,12 @@ T Trapping the Light Fantastic |QID|10674|M|60.5,69.0|N|To Toshley.|
 A Show Them Gnome Mercy! |QID|10675|PRE|10674|M|60.5,69.0|N|From Toshley.|
 T More than a Pound of Flesh |QID|10671|M|60.4,68.8|N|To Dizzy Dina.|
 T Test Flight: Razaan's Landing |QID|10711|M|60.3,68.4|N|To Tally Zapnabber.|
-
 C Gauging the Resonant Frequency |N|Clear the area here and then use the Oscillating Frequency Scanner five times in different spots. You have to make a pentagon shaped placement area and then stand in the middle of it. |U|30701|QID|10594|M|61.00,76.00|
 T Gauging the Resonant Frequency |QID|10594|M|60.2,68.9|N|To Nickwinkle the Metro-Gnome.|
 R Razor Ridge|QID|10675|N|Talk to the gnome and get sent to Razaan's Landing |M|60.20,68.80|
 C Show Them Gnome Mercy!|N|Kill mobs here until Nexus-Prince Razaan shows up. Kill him and loot the Collection of Souls from the cube.|QID|10675|M|66.40,44.10|
 T Show Them Gnome Mercy!|QID|10675|M|60.5,69.0|N|To Toshley.|
 r Sell junk, repair, restock |QID|10674|M|60.73,69.06|
-
 A Test Flight: Ruuan Weald |QID|10712|M|60.3,68.4|N|From Tally Zapnabber.|
 C Test Flight: Ruuan Weald |N|Talk to Rally Zapnabber and choose to go to Ruuan. Use the Nether-weather Vane in your inventory while in the air.|QID|10712|M|60.20,68.80|U|31124|
 f Evergrove |QID|10712|N|Get the flight path.|M|61.70,39.60|
@@ -258,7 +147,6 @@ C A Time for Negotiation... |N|Find Overseer Nuaar, who wanders on the path sout
 T A Time for Negotiation... |QID|10682|M|62.0,39.5|N|To Tree Warden Chawn.|
 A ...and a Time for Action |QID|10713|PRE|10682|M|62.0,39.5|N|From Tree Warden Chawn.|
 A Poaching from Poachers |QID|10717|M|62.0,39.5|N|From Samia Inkling.|
-
 l Meeting Note |QID|10719|N|Kill Wyrmcult mobs until you get the Meeting Note.|L|31120 1|M|59.00,40.00|S|
 C Poaching from Poachers |N|Kill and loot Wyrmcult Poachers until you get 5 nets.|QID|10717|M|60.00,36.00|S|
 C ...and a Time for Action |N|Kill Wyrmcult Hewers until you finish this quest.|QID|10713|M|59.00,36.00|
@@ -270,7 +158,6 @@ C Creating the Pendant |N|Go here and use the claws to summon the harbinger, the
 l Gorgrom's Favor|QID|10797|N|Go down the path, and then go to the building at the arrow, go to the second floor, kill Dorgok and loot the item.|L|31363 1|M|55.19,24.29|
 A Favor of the Gronn |N|Right-click Gorgrom's Favor and start this quest.|QID|10797|M|55.2,24.0|U|31363|
 C Crush the Bloodmaul Camp! |N|Kill Ogres until you finish this quest.|QID|10796|
-
 H Evergrove |QID|10567|N|Hearth to Evergrove.|M|62.84,38.35|
 T Creating the Pendant |QID|10567|M|62.2,39.1|N|To Timeon.|
 A Whispers of the Raven God |QID|10607|PRE|10567|M|62.2,39.1|N|From Timeon.|
@@ -283,7 +170,6 @@ T A Date with Dorgok |QID|10795|M|62.0,38.0|N|To Commander Haephus Stonewall.|
 T Favor of the Gronn |QID|10797|M|62.0,38.0|N|To Commander Haephus Stonewall.|
 A Pay the Baron a Visit |QID|10798|PRE|10797|M|62.0,38.0|N|From Commander Haephus Stonewall.|
 T Crush the Bloodmaul Camp! |QID|10796|M|62.0,38.0|N|To Lieutenant Fairweather.|
-
 N Gas Mask |QID|10820|N|If your low on time with the Felsworn Gas Mask, destroy it. Then get a new one from Wildlord Antelarion. Close this step.|M|62.15,40.15|
 C Culling the Wild |N|Kill the mobs needed for this quest.|QID|10753|M|71.00,36.00|S|
 T Felsworn Gas Mask |U|31366|N|Go up the mountain path and then go to this location and make sure you are not mounted or shapeshifted. Put the gas mask on then turn this quest in.|QID|10819|M|73.00,40.00|
@@ -300,13 +186,11 @@ C Central Volcanic Soil|N|Click the soil.|QID|10771|M|71.6,20.32|QO|2|; Central 
 C From the Ashes |N|Click the soil to complete this quest.|QID|10771|M|71.59,18.51|
 C Little Embers |N|Kill Imps until you finish this quest.|QID|10770|M|72.00,22.00|US|
 H Evergrove |QID|10753|N|Hearth to Evergrove.|M|62.84,38.35|
-
 T Culling the Wild |QID|10753|M|62.6,38.2|N|To Faradrella.|
 T Little Embers |QID|10770|M|61.2,38.4|N|To Mosswood the Ancient.|
 T From the Ashes |QID|10771|M|61.2,38.4|N|To Mosswood the Ancient.|
 T You're Fired! |QID|10821|N|To Wildlord Antelarion.|M|61.53,39.81|
 A Death's Door |QID|10910|PRE|10821|N|From Wildlord Antelarion.|M|61.53,39.81|
-
 r Sell junk, repair, restock|QID|10798|N|Sell junk, repair, restock.|M|61.61,38.55|
 T Pay the Baron a Visit |N|To Baron Sablemane.|QID|10798|M|53.10,41.00|
 A Into the Churning Gulch |QID|10799|PRE|10798|M|53.3,41.2|N|From Baron Sablemane.|
@@ -319,7 +203,6 @@ A It's a Trap! |QID|10801|PRE|10800|M|53.3,41.2|N|From Baron Sablemane.|
 T It's a Trap! |QID|10801|M|62.0,38.0|N|To Commander Haephus Stonewall.|
 A Gorgrom the Dragon-Eater |QID|10802|PRE|10801|M|62.0,38.0|N|From Commander Haephus Stonewall.|
 A Slaughter at Boulder'mok |QID|10803|M|62.0,38.0|N|From Lieutenant Fairweather.|
-
 T Wyrmskull Watcher |QID|10894|M|49.9,35.9|N|To Watcher Moonshade.|
 A Longtail is the Lynchpin |QID|10893|PRE|10894|M|49.9,35.9|N|From Watcher Moonshade.|
 C Longtail is the Lynchpin |N|Go in the tunnel and kill Draaca Longtail.|QID|10893|M|45.00,31.00|T|Draaca Longtail|
@@ -337,7 +220,6 @@ l Costume Scraps |QID|10722|N|Go in the cave here and kill Wyrmcult mobs until y
 U Costume Scraps|QID|10722|N|Use the scraps to get an Overseer Disguise.|U|31121|M|32.00,33.00|L|31122|
 C Meeting at the Blackwing Coven|N|Use the Overseer Costume. Talk to Korphis Darkscale.|QID|10722|M|32.66,37.52|U|31122|
 C Whelps of the Wyrmcult |N|Capture the rest of the Blackwhelps for this quest by using the Blackwhelp Net.|QID|10747|M|32.3,34.9|US|U|31129|
-
 H Evergrove |QID|10607|N|Hearth to Evergrove.|M|62.84,38.35|
 T Whispers of the Raven God |QID|10607|M|62.2,39.1|N|To Timeon.|
 T Meeting at the Blackwing Coven |QID|10722|M|62.0,39.5|N|To Tree Warden Chawn.|
@@ -346,13 +228,11 @@ T The Truth Unorbed |QID|10825|M|62.0,39.5|N|To Tree Warden Chawn.|
 A Treebole Must Know |QID|10829|PRE|10825|M|62.0,39.5|N|From Tree Warden Chawn.|
 T Whelps of the Wyrmcult |QID|10747|M|62.0,39.5|N|To Samia Inkling.|
 r Sell junk, repair, restock |QID|10829|N|Sell junk, repair, restock.|M|61.61,38.55|
-
 T Treebole Must Know |QID|10829|M|36.9,22.5|N|To Treebole.|
 A Exorcising the Trees |QID|10830|PRE|10829|M|36.9,22.5|N|From Treebole.|
 l Grishnath Orb |QID|10830|N|Go to this area and get 5 Grishnath Orbs.|L|31495 5|M|40.00,17.00|
 l Dire Pinfeather |QID|10830|N|Kill Dire Ravens until you get five Dire Pinfeathers.|L|31517 5|M|37.00,29.00|
 U Exorcism Feather |QID|10830|N|Right-click the Grishnath Orb to create an Exorcism Feather.|L|31518 5|U|31495|M|37.00,29.00|
-
 C Exorcising the Trees |N|Use exorcism feathers on Raven's Wood Leafbeards, then kill the spirit that spawns.|QID|10830|M|37.00,29.00|U|31518|
 T Exorcising the Trees |QID|10830|M|36.9,22.5|N|To Treebole.|
 C Slaughter at Boulder'mok |N|Kill ogres until you finish this quest.|QID|10803|M|30.3,24.6|S|
@@ -365,7 +245,6 @@ T Maxnar Must Die! |QID|10748|M|62.0,39.5|N|To Tree Warden Chawn.|
 T Gorgrom the Dragon-Eater |QID|10802|M|62.0,38.0|N|To Commander Haephus Stonewall.|
 A Baron Sablemane Has Requested Your Presence |QID|10818|PRE|10802|M|62.0,38.0|N|From Commander Haephus Stonewall.|
 T Slaughter at Boulder'mok |QID|10803|M|62.0,38.0|N|To Lieutenant Fairweather.|
-
 r Sell junk, repair, restock |QID|10818|N|Sell junk, repair, restock.|M|61.61,38.55|
 T Baron Sablemane Has Requested Your Presence |QID|10818|M|53.3,41.2|N|To Baron Sablemane.|
 A Massacre at Gruul's Lair |QID|10805|PRE|10818|N|From Baron Sablemane.|M|53.3,41.2|
@@ -376,7 +255,6 @@ A Showdown |QID|10806|PRE|10805|N|From Baron Sablemane.|M|53.3,41.2|
 C Showdown |N|Use Sablemane's Signet then let Baron Sablemane be the one to get attacked by the elite. Kill Goc. Sablemane cannot be healed.|QID|10806|M|64.00,18.00|U|31808|
 T Showdown |QID|10806|N|To Baron Sablemane.|M|53.3,41.2|
 F Toshley's Station |QID|11672|N|Fly to Toshley's Station.|M|61.61,39.64|
-
 T Death's Door|QID|10910|U|31763|M|64.64,69.96|N|Head to Death's Door area, find a safe spot then use the Druid Signal. Wait a moment until the druid comes down then turn the quest into the Evergrove Druid.|
 A Harvesting the Fel Ammunition|QID|10904|PRE|10910|M|64.64,69.96|N|From Evergrove Druid.|
 C Harvesting the Fel Ammunition|QID|10904|M|64.19,71.74|N|Kill Deathforge Smiths, Deathforge Over-Smiths and Death's Mights until you get 5 Fel Cannonballs.|
@@ -388,9 +266,7 @@ T Fire At Will!|QID|10911|U|31763|M|65.19,69.93|N|Find a safe spot, use the sign
 A The Hound-Master|QID|10912|PRE|10911|M|65.16,69.93|N|From Evergrove Druid.|
 C The Hound-Master|QID|10912|U|31809|M|63.57,59.18|N|Head over to Baelmon, use the Evergrove Wand and then kill him.|
 T The Hound-Master|QID|10912|M|62.53,38.77|N|Find Wildlord Antelarion wandering around the moonwell.|
-
 N Note:|QID|10989|M|55.44,44.92|N|The following quests are for zone quest achievement completion, you must be level 70.|
-
 A Mog'dorg the Wizened|QID|10989|M|55.43,45.32|N|From Chort.|
 T Mog'dorg the Wizened|QID|10989|M|55.44,44.92|N|To Mog'dorg the Wizened, up the tower.|
 A Grulloc Has Two Skulls|QID|10995|PRE|10989|M|55.44,44.92|N|From Mog'dorg the Wizened.|
@@ -400,7 +276,6 @@ C Grulloc Has Two Skulls|QID|10995|M|61.17,47.60|N|Kill Grulloc then loot the Dr
 C Maggoc's Treasure Chest|QID|10996|T|Maggoc|M|67.82,58.52|N|Maggoc circles around the Death's Door area. Kill him, then loot the treasure chest from the ground.|
 R Toshley's Station|QID|10997|M|60.49,68.74|N|Head to Toshley's Station.|
 F Shattrath City|QID|10997|M|61.1,70.43|N|Fly to Shattrath City.|
-
 C Even Gronn Have Standards|QID|10997|M|20.37,18.26|Z|Terokkar Forest|N|Fly up to The Barrier Hills, enter the building. Kill Slaag, then loot his standard from the ground.|
 H Evergrove|QID|10995|M|63.83,41.26|N|Hearth back to Evergrove, or fly if your hearth is not up.|
 T Grulloc Has Two Skulls|QID|10995|M|55.41,44.93|N|To Mog'dorg the Wizened.|
@@ -413,7 +288,6 @@ A Into the Soulgrinder|QID|11000|PRE|10998|M|55.44,44.96|N|From Mog'dorg the Wiz
 C Into the Soulgrinder|QID|11000|U|32467|M|60.01,24.15|N|Go to the waypoint and use the Grimoire. Protect The Soulgrinder from the Ogres that spawn. After a while Skulloc will finally be attackable. Kill him then loot his soul from the ground.|
 T Into the Soulgrinder|QID|11000|M|55.42,44.94|N|To Mog'dorg the Wizened.|
 A Ogre Heaven|QID|11009|PRE|11022|M|55.43,45.05|N|From Mog'dorg the Wizened.|
-
 T Ogre Heaven|QID|11009|M|28.83,57.37|N|To Chu'a'lor.|
 A The Crystals|QID|11025|M|28.83,57.37|N|From Chu'a'lor.|
 C The Crystals|QID|11025|M|28.46,62.44|N|Kill mobs to get the shards, you can also find clusters now and then where the Flayers are.|
@@ -428,7 +302,6 @@ A A Father's Duty|QID|11061|PRE|11030|M|28.35,57.73|N|From Torkus.|
 T An Apexis Relic|QID|11058|M|28.67,57.40|N|To Chu'a'lor.|
 A The Skyguard Outpost|QID|11062|M|28.83,57.37|N|From Chu'a'lor.|
 T The Skyguard Outpost|QID|11062|M|27.63,52.84|N|To Sky Sergeant Vanderlip.|
-
 A Bombing Run|QID|11010|M|27.63,52.84|N|From Sky Sergeant Vanderlip.|C|Death Knight,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|
 A Bombing Run|QID|11102|PRE|11010|M|27.63,52.84|N|From Sky Sergeant Vanderlip.|C|Druid|
 C Bombing Run|QID|11010|U|32456|M|32.18,42.46|N|Hotkey the bombs, then head to where the waypoint is. When you get there you should be able to see the Fel Cannons, and right next to them, red bobbing arrows. Where the red arrows are, is where you have to bomb. The bomb can be used while moving, you can not stop moving due to the cannons.|C|Death Knight,Hunter,Mage,Paladin,Priest,Rogue,Shaman,Warlock,Warrior|
@@ -457,8 +330,5 @@ A A Fel Whip For Gahk|QID|11079|M|28.52,57.95|N|From Gahk.|
 l Apexis Shards|QID|11079|L|32569 35|N|You will need 35 shards.|
 C A Fel Whip For Gahk|QID|11079|M|26.79,83.55|N|Head to the waypoint while being careful of the Flak Cannons. Click the crystal and insert the 35 shards. Kill and loot the demon that spawns.|
 T A Fel Whip For Gahk|QID|11079|M|28.52,57.95|N|To Gahk.|
-
 ]]
 end)
-
-

@@ -1,215 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/tiragarde_sound_alliance
--- Date: 2020-07-17 20:50
--- Who: Ludovicus_Maior
--- Log: Added PRE to [Sampling the Goods:53041], [Stow and Go:47489], [Righteous Retribution:49741], [Bearers of Bad News:50110], [Proudmoore's Parley:50972], [Tol Dagor: The Ashvane Overseer:52800], [Frozen:49419]
---	Added LEAD to [An Explosive Opportunity:50542], [A Letter to the League:51151], [Worker's Rights:50699]
-
--- URL: http://wow-pro.com/node/3769/revisions/30526/view
--- Date: 2020-05-01 20:48
--- Who: Ludovicus_Maior
--- Log: Fixed a few K steps with missing ACTIVE tags
-
--- URL: http://wow-pro.com/node/3769/revisions/30495/view
--- Date: 2020-04-07 22:36
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3769/revisions/30485/view
--- Date: 2020-04-05 21:01
--- Who: Ludovicus_Maior
--- Log: Keegan Alby is phased.  Need to check where in this guide.
-
--- URL: http://wow-pro.com/node/3769/revisions/30464/view
--- Date: 2019-12-29 22:38
--- Who: Ludovicus_Maior
--- Log: Playthrough corrections
-
--- URL: http://wow-pro.com/node/3769/revisions/30235/view
--- Date: 2019-03-15 23:28
--- Who: Ludovicus_Maior
--- Log: Added coords for [Black-Eyed Bart] and corrected [A Bundle of Furs]
-
--- URL: http://wow-pro.com/node/3769/revisions/30225/view
--- Date: 2019-02-15 22:28
--- Who: Ludovicus_Maior
--- Log: [Hold My Hand] comment revision
-
--- URL: http://wow-pro.com/node/3769/revisions/30208/view
--- Date: 2019-01-28 06:21
--- Who: Emmaleah
--- Log: Fix Carenton's location.
-
--- URL: http://wow-pro.com/node/3769/revisions/30201/view
--- Date: 2019-01-26 03:36
--- Who: Emmaleah
--- Log: Mark Spring Cleaning as a bonus objective
-
--- URL: http://wow-pro.com/node/3769/revisions/30183/view
--- Date: 2019-01-13 21:57
--- Who: Emmaleah
--- Log: |US| to 2 steps in [the bears and the bees]
-
--- URL: http://wow-pro.com/node/3769/revisions/30133/view
--- Date: 2018-11-19 06:12
--- Who: jovieve
--- Log: Made turn-in steps for bonus objectives into t steps so people who choose to skip them won't have to manually skip both the C and the T steps.
-
--- URL: http://wow-pro.com/node/3769/revisions/30127/view
--- Date: 2018-11-17 23:46
--- Who: Emmaleah
--- Log: moved Squirgle to after rescuing Penny, changed Penny's note,  Changed Marianae's, Totes' and the Hornet's notes to clarify locations.
-
--- URL: http://wow-pro.com/node/3769/revisions/30120/view
--- Date: 2018-11-11 12:12
--- Who: Emmaleah
--- Log: Tirasgard !=Tiragarde
-
--- URL: http://wow-pro.com/node/3769/revisions/30119/view
--- Date: 2018-11-10 03:33
--- Who: Emmaleah
--- Log: add correct QID for Broodmother Razora, the WQ one was in the guide instead.
-
--- URL: http://wow-pro.com/node/3769/revisions/30108/view
--- Date: 2018-11-03 12:37
--- Who: jovieve
--- Log: Added description in note that describes what to do during a delay in game play.
-
--- URL: http://wow-pro.com/node/3769/revisions/30105/view
--- Date: 2018-10-31 08:42
--- Who: jovieve
--- Log: Changed intro notes to reflect new options to enable rares and treasures.
-
--- URL: http://wow-pro.com/node/3769/revisions/30095/view
--- Date: 2018-10-28 11:45
--- Who: Emmaleah
--- Log: Moved K Teres/K Maison the Portable and $ Hay Covered Chest for hopefully better flow. Added Active Tag to Treasure for Yellowed Map, so it won't pop up when you find it, but only while you are in the area.
-
--- URL: http://wow-pro.com/node/3769/revisions/29917/view
--- Date: 2018-10-17 02:22
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3769/revisions/29872/view
--- Date: 2018-10-04 03:03
--- Who: elidion
--- Log: Fixed a few errors while running through the guide.
-
--- URL: http://wow-pro.com/node/3769/revisions/29773/view
--- Date: 2018-09-20 08:48
--- Who: Emmaleah
--- Log: Added Coords to Air Raid/Numbing the Pain/Farmers who Fight
-
--- URL: http://wow-pro.com/node/3769/revisions/29762/view
--- Date: 2018-09-17 07:08
--- Who: Emmaleah
--- Log: move trouble at greystone keep to rank 3
-
--- URL: http://wow-pro.com/node/3769/revisions/29761/view
--- Date: 2018-09-17 06:50
--- Who: elidion
--- Log: Added a couple rank tags.
-
--- URL: http://wow-pro.com/node/3769/revisions/29753/view
--- Date: 2018-09-15 08:18
--- Who: Emmaleah
--- Log: Add RARE tag to Silver Elites - Change QID to ACTIVE on the K steps for Boralus Triple Threat and Targeting a Turncoat
-
--- URL: http://wow-pro.com/node/3769/revisions/29731/view
--- Date: 2018-09-11 09:11
--- Who: Emmaleah
--- Log: Play test on rank 1. Added a couple of -1 steps. Tested that the norwington festival breadcrumb can be skipped.
-
--- URL: http://wow-pro.com/node/3769/revisions/29720/view
--- Date: 2018-09-10 21:59
--- Who: Emmaleah
--- Log: sneaking in a couple of |RANK|2| changes before the update.
-
--- URL: http://wow-pro.com/node/3769/revisions/29715/view
--- Date: 2018-09-10 20:44
--- Who: Emmaleah
--- Log: correct errors introduced due to not properly testing last update...
-
--- URL: http://wow-pro.com/node/3769/revisions/29708/view
--- Date: 2018-09-09 14:24
--- Who: Emmaleah
--- Log: ADDED RANKS/PREs ALL TREASURE and RARES are now included. The ones I added may need moved a bit for better efficiency; One QID missing for looting Yellowed treasure map (so keep an eye out for that)
-
--- URL: http://wow-pro.com/node/3769/revisions/29685/view
--- Date: 2018-09-06 17:00
--- Who: Ludovicus_Maior
--- Log: Added QO|1 to [K Director Deepwarden]
-
--- URL: http://wow-pro.com/node/3769/revisions/29680/view
--- Date: 2018-09-05 06:45
--- Who: elidion
--- Log: Missing waypoint on Fairwind's Friends quest
-
--- URL: http://wow-pro.com/node/3769/revisions/29671/view
--- Date: 2018-09-04 23:45
--- Who: jovieve
--- Log: Added Z tag and changed coords to Scrimshaw Cache
-
--- URL: http://wow-pro.com/node/3769/revisions/29637/view
--- Date: 2018-09-02 19:25
--- Who: Emmaleah
--- Log: moved the first quest into this guide (as it should have been).
-
--- URL: http://wow-pro.com/node/3769/revisions/29633/view
--- Date: 2018-09-02 17:08
--- Who: Ludovicus
--- Log: Playing through!
-
--- URL: http://wow-pro.com/node/3769/revisions/29543/view
--- Date: 2018-08-18 04:05
--- Who: Emmaleah
--- Log: Make bonus Objectives LVL|-120|
-
--- URL: http://wow-pro.com/node/3769/revisions/29540/view
--- Date: 2018-08-17 19:27
--- Who: Emmaleah
--- Log: added |LVL|115 to A Tol Dagor: The Ashvane Overseer per STrek's experience. Reworded the step that followed -- and changed QID so it should show now.
-
--- URL: http://wow-pro.com/node/3769/revisions/29534/view
--- Date: 2018-08-16 21:58
--- Who: Ludovicus_Maior
--- Log: Paper audit of guide before I finish playing it!
-
--- URL: http://wow-pro.com/node/3769/revisions/29458/view
--- Date: 2018-08-01 07:13
--- Who: Emmaleah
--- Log: Add missing CS
-
--- URL: http://wow-pro.com/node/3769/revisions/29429/view
--- Date: 2018-07-15 04:51
--- Who: Emmaleah
--- Log: add sort level
-
--- URL: http://wow-pro.com/node/3769/revisions/29393/view
--- Date: 2018-07-03 02:58
--- Who: Emmaleah
--- Log: updated next guide
-
--- URL: http://wow-pro.com/node/3769/revisions/29354/view
--- Date: 2018-06-16 03:07
--- Who: Emmaleah
--- Log: Still to do: Find and add remaining rares and treasures, Add RANKs and PRE tags
-
--- URL: http://wow-pro.com/node/3769/revisions/29323/view
--- Date: 2018-05-25 20:19
--- Who: Emmaleah
--- Log: stub
-
 local guide = WoWPro:RegisterGuide('EmmTiragarde', 'Leveling', 'Tiragarde Sound', 'Emmaleah', 'Alliance')
-WoWPro:NewGuideLevels(guide,110, 120, 111)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'EmmAWarCampaign')
-WoWPro:GuideIcon(guide,"ACH",12473)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 t The War Cache|QID|52544|N|To UI Alert.|
 A Time for War|QID|53332|PRE|52544|N|From UI Alert.|
 N The Great Sea Scrolls|ACTIVE|53476|U|163852|NOCACHE|NA|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
@@ -217,7 +10,6 @@ t The Great Sea Scrolls|QID|53476|M|40.4,36.4|Z|Stormsong Valley|N|To Collector 
 N Small Treasure Chests|QID|47485|N|In this expansion, small treasure chests are found in different places each time rather than fixed spawn points. To get these, watch for the symbols on your minimap. Fixed treasures are named in this guide if you have treasures enabled.|
 N Use of Ranks|QID|47485|N|Set guide to rank 1 if you want to do the minimum to get the zone achievement. Set guide to Rank 2 to also do the quests, treasures, and rares that are conveniently located. Set the guide to Rank 3 to get all the quests, rares, and named treasures in the zone. To get rares and treasures, you need to enable those options.|
 N Treasure Maps|N|There are four treasure maps that will drop randomly when fighting pirates in Tiragarde Sound and a few other places. *Singed, Soggy, Yellowed and Fading.  Once you have those, their related treasure becomes lootable.|AVAILABLE|52854^52859^52860|;missing QID for Soggy
-
 A Tiragarde Sound|QID|47960|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 t Tiragarde Sound|QID|47960|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 A The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|From Flynn Fairwind.|PRE|47960|
@@ -225,7 +17,6 @@ C The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|Orient yourself to
 T The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|To Flynn Fairwind.|
 A The Ashvane Trading Company|QID|47485|M|73.80,25.07|Z|Tiragarde Sound|N|From Cyrus Crestfall.|PRE|47181|
 R Tradewinds Market|ACTIVE|47485|M|75.29,25.76|CC|N|Run to the Ferry Stop in Tradewind Market (optional)|
-
 ; Ashvane Trading Company arc
 b Eastpoint Station|ACTIVE|47485|M|75.29,25.76|N|Take the Ferry from Tradewinds Market to Eastpoint Station.|;need to record early steps as I seem to have lost them.
 R Eastpoint Station|ACTIVE|47485|M|76.83,43.43|CC|N|Run up the hill and grab the quests|
@@ -249,7 +40,6 @@ T Message from the Management|QID|50573|M|78.10,47.94|N|To Flynn Fairwind.|
 A Under Their Noses|QID|50531|M|78.10,47.94|N|From Flynn Fairwind.|PRE|47487&47488&47486&50573|
 R Bridgeport|ACTIVE|50531|M|76.903,49.14|N|On to the next area.|
 T Under Their Noses|QID|50531|M|75.85,49.13|N|To Flynn Fairwind.|
-
 A Sampling the Goods|QID|53041|PRE|50531|M|75.85,49.13|N|From Flynn Fairwind.|
 f Bridgeport|ACTIVE|53041|M|75.78,48.59|N|At Jeb Johnson.|
 A Left at the Port|QID|51149|M|75.06,49.72|N|From Dockmaster Leighton.|RANK|2|
@@ -259,7 +49,6 @@ A An Overrun Mine|QID|50349|M|75.69,50.61|N|From Junior Miner Joe.|RANK|2|
 A The Hunters of Kennings Lodge|QID|50544|M|75.55,49.94|N|From Help Wanted Poster.|LEAD|48873^48874^48879|RANK|2|
 T Sampling the Goods|QID|53041|M|75.85,49.14|N|To Flynn Fairwind.|
 A Stow and Go|QID|47489|M|75.85,49.14|N|From Flynn Fairwind.|PRE|53041|
-
 R Old Drust Road|ACTIVE|51149|M|76.52,48.97;77.27,49.52;76.02,50.02;73.60,48.91|CS|N|Back up to get to the overhead road to Old Drust Road.|RANK|2|
 R Southwind Station|ACTIVE|51149|M|66.58,51.26|N|Continue down the road until you see Southwind Station on your right.|RANK|2|
 A An Explosive Opportunity|QID|50542|LEAD|49531|M|66.69,50.03|N|From Lead Guide Zipwrench.|RANK|2|
@@ -269,7 +58,6 @@ A The Norwington Festival|QID|48070|M|66.08,50.40|N|Formal Invitation|LEAD|48616
 K Teres|QID|49942|QO|1|M|63.55,50.44|Z|Tiragarde Sound|T|Teres|N|Kill this Silver Elite near the waterfall for Azerite Power and resources.|RARE|ITEM|158556|RANK|3|;Wanderer's Cove
 K Maison the Portable|QID|51880|QO|1|M|58.09,48.70|Z|Tiragarde Sound|T|Maison the Portable|N|Kill this Silver Elite and loot for Azerite Power and resources.|RARE|ITEM|154458|RANK|3|
 $ Hay Covered Chest|QID|49963|M|61.51,52.33; 67.37,51.68|Z|Tiragarde Sound|CS|N|Hop of the Guardian of the Spring and then you have 40 seconds to ride him to Roan Berthold at Southwind Station. If you arrive in time, treasure will be waiting.|RANK|3|
-
 A Making Mysteries|QID|49897|M|67.50,55.81|N|From Wulferd Fizzbracket.|RANK|2|
 A Spring Cleaning|QID|49529|M|67.50,55.81|N|Bonus Objective - Autoaccepted.|RANK|2|LVL|-120|
 T An Explosive Opportunity|QID|50542|M|67.50,55.81|N|To Wulferd Fizzbracket.|
@@ -313,7 +101,6 @@ T Pinch of Azerite|QID|50352|M|75.56,59.37|N|To Ordnance Handler Prim.|
 A Rock Meet Dynamite|QID|50356|M|75.53,59.29|N|From Civil Technician Alena.|RANK|2|PRE|50352&50351|
 C Rock Meet Dynamite|QID|50356|M|75.14,60.07|N|Go down into the mine, use your special action button to blow up the Enraged Nibblers.  When you get to the bottom of the mine, kill Earthshaper Brugaw.|T|Earthshaper Brugaw|
 T Rock Meet Dynamite|QID|50356|M|78.14,55.93|N|To Chief Miner Theock.|
-
 R Kennings Lodge|ACTIVE|50544|M|78.63,56.03;77.83,61.67|CS|N|Run up the hill to Kennings Lodge.|RANK|2|
 f Kennings Lodge|ACTIVE|50544|M|76.68,65.42|N|At Finnia Hawkshot.|RANK|2|
 A A Sweater for Rupert|QID|49028|M|76.13,65.52|RANK|2|N|From Weathered Job List.|
@@ -358,7 +145,6 @@ C Encase of Emergency|QID|49066|US|M|69.30,63.13|N|Finish gathering Pristine Ice
 T Encase of Emergency|QID|49066|M|69.59,64.39|N|To Lord Kennings.|
 T Noble Responsibilities|QID|48909|M|75.84,65.88|N|To Alanna Holton.|
 F Bridgeport|ACTIVE|47489|M|76.68,65.42|N|At Finnia Hawkshot.|RANK|2|
-
 ; castaways and cutouts arc
 C Stow and Go|QID|47489|QO|1|M|75.85,49.14|CHAT|N|Tell Flynn you are ready.|
 C Stow and Go|QID|47489|QO|2|M|75.29,48.40|NC|N|Board The Maiden's Virtue.|
@@ -403,7 +189,6 @@ C Toxic Community|QID|48516|M|82.74,72.75|N|Kill marrowflys and saurolisks, then
 T Toxic Community|QID|48516|M|82.73,72.76|N|To Skinner MacGuff.|
 C Lovesick and Lost|QID|48505|M|82.74,72.75; 80.70,74.83|CS|US|NC|N|Lead/Follow him around the hill, killing Marrowflys, eventually he will wander off the correct direction.|
 T Lovesick and Lost|QID|48505|M|80.19,75.26|N|To Flynn Fairwind.|
-
 ; Freehold
 A Freehold|QID|48539|M|80.19,75.26|N|From Flynn Fairwind.|PRE|48505|
 C Freehold|QID|48539|M|80.19,75.26|NC|N|Use Flynn's Spyglass|
@@ -429,7 +214,6 @@ T Rig Robbing|QID|48776|M|79.19,76.32|N|To Geraldine.|
 K Squacks|QID|50160|QO|1|T|Squacks|M|80.81,82.55|N|Silver Elite to kill for loot and resources.|RARE|ITEM|160445|RANK|2|
 T Papers, Please|QID|48773|M|80.36,81.47|N|To Flynn Fairwind.|
 T The Irontide Crew|QID|48558|M|80.36,81.47|N|To Flynn Fairwind.|
-
 A Dress to Impress|QID|49239|M|80.36,81.47|N|From Flynn Fairwind.|PRE|48558&48773|
 N Put the hat on|ACTIVE|49239|M|80.36,81.47|BUFF|254873|N|Use your extra action button to wear the hat. Don't forget to reapply the hat if you lose the buff (like dieing).|
 A Aged to Perfection|QID|49290|M|79.70,81.86|N|From Roko.|PRE|48558&48773|RANK|2|
@@ -487,7 +271,6 @@ C Fairwind's "Friends"|QID|49404|QO|2|NC|N|Heal up and be ready for a fight afte
 C Fairwind's "Friends"|QID|49404|QO|3|N|Survive Harlan's game.|
 T Fairwind's "Friends"|QID|49404|M|77.14,82.91|N|Wait near Flynn for a bird to fly you back and then turn in to Taelia.|
 A Defenders of Daelin's Gate|QID|49405|M|77.14,82.91|N|From Taelia.|PRE|49404|
-
 ; Defenders of Daelin's Gate
 C Defenders of Daelin's Gate|QID|49405|NC|M|77.14,82.91|N|Hop on Galeheart.|
 T Defenders of Daelin's Gate|QID|49405|M|60.92,59.17|N|To Vigil Hill Refugee.|
@@ -545,7 +328,6 @@ T Cease Fire!|QID|49740|M|56.68,61.17|N|To Lieutenant Tarenfold.|
 T For Kul Tiras!|QID|49736|M|56.68,61.17|N|To Lieutenant Tarenfold.|
 T Righteous Retribution|QID|49741|M|56.51,61.27|N|To Taelia.|
 A Bearers of Bad News|QID|50110|M|56.51,61.27|N|From Taelia.|PRE|49741&49740&49736|
-
 ; Enemies Within Arc
 C Bearers of Bad News|QID|50110|M|56.51,61.27|NC|N|Hop on Galeheart for a ride back to Boralus.|
 T Bearers of Bad News|QID|50110|M|49.10,75.74|Z|1161|N|To Taelia.|
@@ -574,10 +356,8 @@ A A Bundle of Furs|QID|51144|M|74.81,23.65|N|From "Risky" Liz Seminario.|RANK|2|
 A Trouble at Greystone Keep|QID|49715|M|74.12,22.55|N|From Courier Gerald.|LEAD|49733^51226|RANK|3|
 T A Bad Deal|QID|49523|M|75.47,22.18|N|To Roko. This has a followup to come back for at 120.|
 T Proudmoore's Parley|QID|50972|M|73.81,25.12|N|To Genn Greymane.|
-
-A Tol Dagor: The Ashvane Overseer|QID|52800|PRE|50972|M|73.80,25.08|NA|N|From Cyrus Crestfall. This is a dungeon quest.|LVL|115|RANK|2|
+A Tol Dagor: The Ashvane Overseer|QID|52800|PRE|50972|M|73.80,25.08|NA|N|From Cyrus Crestfall. This is a dungeon quest.|RANK|2|
 N What follows|ACTIVE|49715|N|The quest you just finished has a zone finale feel to it, but not to worry the guide does not end here. This is a good spot to take a break for war campaign if you want, but there are 2 more areas for the zone achievement and a LOT of quests not part of the achievement on the other side of the bay. If you want you can set guide to rank 3 to get "everything".|
-
 b Eastpoint Station|ACTIVE|49715|M|75.29,25.77|N|Take the ferry to Eastpoint Station.|
 R Greystone Relief|ACTIVE|49715|M|74.85,43.88;77.88,43.28;79.08,42.18|CS|N|Run East towards Greystone Keep.|
 T Trouble at Greystone Keep|QID|49715|M|81.10,42.48|N|To Tallis Skyheart.|
@@ -607,7 +387,6 @@ T A Lesson on Trust|QID|49716|M|81.10,42.48|N|To Tallis Skyheart.|
 T Targeting a Turncoat|QID|49734|M|81.10,42.48|N|To Tallis Skyheart.|
 T A Boralus Triple Threat|QID|50249|M|81.10,42.48|N|To Tallis Skyheart.|
 H Tradewinds Market|ACTIVE|51151|M|81.10,42.48|N|Hearth or otherwise travel back to Boralus.|RANK|3|
-
 K Sawtooth|QID|51877|QO|1|M|76.02,28.87|Z|Tiragarde Sound|T|Sawtooth|N|Kill this Silver Elite swimming in the harbor for Azerite Power and resources.|RARE|ITEM|155273|RANK|3|
 $ Secret of the Depths-Scroll 2|QID|52135|M|61.52,77.72;61.18,77.90|CS|Z|Boralus|N|Pick up the Damp Scroll located in the basement of this house.|RANK|3|ITEM|161342|
 $ Secret of the Depths-Scroll 5|QID|52138|M|67.10,79.69|Z|Boralus|N|Pick up the Damp Scroll located under the wooden platform, near some candles.|RANK|3|
@@ -639,7 +418,6 @@ T I'm a Druid, Not a Priest|QID|49233|M|50.51,70.32|Z|1171|N|To Birch Tomlin.|
 C The Ruins Fought Back|QID|49229|M|55.68,59.53|Z|1171|US|N|Finish killing any needed Ancient Protectors.|
 T The Ruins Fought Back|QID|49229|M|62.73,29.93|N|To Drogrin Alewhisker.|
 T A Marine Out of Water|QID|49234|M|62.82,29.88|N|To Recruit Brutis.|
-
 R Hatherford|ACTIVE|51144|M|65.49,26.03|N|Follow the road northeast to Hatherford.|RANK|3|
 A WANTED: Gryphon 'Nappers|QID|51358|M|66.85,24.37|N|From a Wanted Poster.|RANK|3|
 T A Bundle of Furs|QID|51144|M|66.24,24.29|N|To Dandy Jones.|
@@ -692,9 +470,7 @@ $ Ritual Effigy|QID|50073|M|70.34,12.47|QO|1|T|Twin-hearted Contruct|RARE|ITEM|1
 T Witch of the Woods|QID|49467|M|68.85,13.16|N|To Maynard Algerson.|
 $ Imperiled Merchants|QID|51321|M|64.31,19.23|RARE|ITEM|160472|N|Talk to Walter Ferrell to start, Defeat 2 waves and the boss - Honey-Coated Slitherer - Silver Elite to kill for Azerite Power and resources.|RANK|3|;Appears to currently be broken.
 t WANTED: Gryphon 'Nappers|QID|51358|M|66.23,24.29|N|To Dandy Jones.|
-
 b Firebreaker Expedition|AVAILABLE|48077|M|74.23,44.34|TZ|Thovas Base-Camp|N|Over to the other side of the bay for more quests.|RANK|-1|
-
 R Foxhollow Woods|AVAILABLE|48077|M|62.62,29.37;58.61,28.70|CS|N|Follow the road to west, thru Thovas Base-Camp and on to Foxhollow Woods.|
 T The Norwington Festival|QID|48070|M|55.45,24.67|N|To Abbey Watkins.|
 A The Stoat Hunt|QID|48077|M|55.45,24.67|N|From Abbey Watkins.|
@@ -713,7 +489,6 @@ T Settle the Score|QID|48965|M|58.29,25.39|N|To Caleb Batharen.|
 T The Stoat Hunt|QID|48077|M|55.45,24.67|N|To Abbey Watkins.|
 T An Element of Danger|QID|48080|M|55.52,24.58|N|To Harold Beckett.|
 T Bolas and Birds|QID|48616|M|55.52,24.58|N|To Harold Beckett.|
-
 A Runaway Rider|QID|48670|M|55.59,24.59|N|From Melissa Kenny.|PRE|48077&48080&48616|
 T Runaway Rider|QID|48670|M|54.47,19.39|N|To Melissa Kenny.|
 A Following Eddie's Trail|QID|48196|M|54.47,19.39|N|From Melissa Kenny.|PRE|48670|
@@ -742,7 +517,6 @@ C Troublesome Troglodytes|QID|48195|M|57.13,16.32|US|N|Finish killing Grimestone
 T Saurolisk Escape|QID|48597|M|54.46,19.39|N|To Melissa Kenny.|
 T Troublesome Troglodytes|QID|48195|M|54.46,19.39|N|To Melissa Kenny.|
 A The Lord's Behest|QID|48003|M|54.46,19.39|N|From Melissa Kenny.|PRE|48597&48196&48195|
-
 R Norwington Estate|ACTIVE|48003|M|53.02,27.10|N|Run to Lord Norwington's Estate.|
 T The Lord's Behest|QID|48003|M|51.57,27.27|N|To Lord Aldrius Norwington.|
 A Be Our Guest|QID|48005|M|51.57,27.27|N|From Lord Aldrius Norwington.|PRE|48003|
@@ -803,7 +577,6 @@ T No Party Like a Trogg Party|QID|48088|M|52.53,28.49|N|To Lord Aldrius Norwingt
 A Best In Show|QID|49036|M|51.57,27.28|N|From Lord Aldrius Norwington.|PRE|48088&48089|RANK|2|
 C Best In Show|QID|49036|M|52.79,28.39|NC|N|And do it again, Mount Cooper (if you aren't already). This time goal is 300 points and you absolutely must have the multiplier from fence jumping.|T|Paper|
 T Best In Show|QID|49036|M|51.57,27.28|N|To Lord Aldrius Norwington.|
-
 A Save Our Shipmates|QID|50026|M|49.15,29.77;49.45,31.77|CS|N|From Thomas Pinker.|RANK|2|
 R Fogcliff Strand|ACTIVE|50026|M|49.46,33.42|N|Down to the beach to find the shipmates.|RANK|2|
 T Save Our Shipmates|QID|50026|M|50.31,37.23|N|To Henry Hardwick.|
@@ -831,7 +604,6 @@ C Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|US|N|Bonus Objective - Stick a
 t Shipwreck Recovery Crew|QID|50009|M|54.58,32.99|N|Bonus Objective - Autocompleted.|
 K Squirgle of the Depths|QID|51807|QO|1|M|48.89,36.94|T|Squirgle of the Depths|RARE|ITEM|155551|N|Silver Elite - loot for Azerite Power and resources. To avoid his lightning nova, jump in the water bubbles.|RANK|2|
 $ Buried Treasure-Singed Treasure Map|QID|52845|M|48.98,37.59|Z|Tiragarde Sound|N|If you have looted the Singed Treasure Map, this treasure can be found here.|RANK|3|PRE|52860|
-
 R Westwind Weald|ACTIVE|49393|M|45.94,27.77;44.20,25.05|CS|N|Run Northwest along the road to Westwind Weald.|RANK|2|
 T The Roughnecks|QID|49393|M|42.36,22.27|N|To Tagart.|
 A Hold Still|QID|49394|M|42.36,22.27|N|From Tagart.|PRE|49393|RANK|2|
@@ -857,7 +629,6 @@ A Protect the Nests|QID|49735|M|42.48,22.71|N|From Rulf.|PRE|49395&49394|RANK|2|
 A An Offering of Eggs|QID|49710|M|42.48,22.71|N|From Rulf.|PRE|49395&49394|RANK|2|
 C Protect the Nests|QID|49735|M|43.65,17.00|S|N|Kill the Hungry Dewscales as you go.|
 C An Offering of Eggs|QID|49710|M|44.71,20.19|S|NC|N|Collect some Spotted Gryphon Eggs.|
-
 K Merianae|QID|49921|QO|1|M|44.27,20.24;42.97,16.82|CS|T|Merianae|RARE|ITEM|160461|N|Silver Elite - In cave behind waterfall, kill for Azerite Power and resources.|RANK|2|
 C An Offering of Eggs|QID|49710|M|44.71,20.19|NC|US|N|Finish collecting the Spotted Gryphon Eggs.|
 C Protect the Nests|QID|49735|M|43.65,17.00|US|N|Finish killing the Hungry Dewscales.|
@@ -866,7 +637,6 @@ T An Offering of Eggs|QID|49710|M|47.95,16.40|N|To the Gryphon Nest.|
 A Roughneck Riders|QID|49417|M|47.86,16.39|N|From Shawn McClinter.|PRE|49735&49710|RANK|2|
 C Roughneck Riders|QID|49417|M|45.26,19.58|U|153679|NC|N|Use the provided 'Tether Shot' to wrangle Greatfeather. Use Abilities, based on cooldowns, with the following priority.\n'3' increase grip.\n'2' kick to subdue.\n'1' hit to subdue.|
 T Roughneck Riders|QID|49417|M|42.36,22.27|N|To Tagart.|
-
 A Big Boss|QID|49418|M|43.18,21.70;42.36,22.27|CS|N|From Tagart.|RANK|2|PRE|49417|
 T Big Boss|QID|49418|M|41.99,16.76|N|To Boss Tak.|
 A Wendies|QID|49433|M|41.99,16.76|N|From Boss Tak.|RANK|2|PRE|49418|
@@ -894,7 +664,6 @@ T Wendies|QID|49433|M|40.42,13.75|N|To Boss Tak.|
 A Getting Paid|QID|49719|M|40.42,13.75|N|From Boss Tak.|RANK|2|PRE|49439&49433|
 T Getting Paid|QID|49719|M|42.39,22.28|N|To Tagart.|
 $ Smuggler's Cache|QID|50097|M|38.8,22.0;38.47,20.77|CC|N|Inside a cave. Click on the Smuggler's Cache to start short vignette - Ends with Captain Wintersail - Silver Elite to kill and loot for reasources and treasure.|RARE|ITEM|155422|RANK|3|
-
 R Anglepoint Wharf|ACTIVE|48347|M|40.94,24.41;42.30,27.25|CS|N|Take the footpath down the hill to Anglepoint Wharf.|
 $ Buried Treasure-Soggy Treasure Map|QID|52807|M|54.99,46.08|Z|Tiragarde Sound|N|If you have looted the Soggy Treasure Map, this treasure can be found on the ocean floor.|PRE|52853|RANK|3|
 K Bashmu|QID|50094|QO|1|M|34.01,30.29|Z|Tiragarde Sound|T|Bashmu|RARE|ITEM|160467|N|Hop over the wall to find this Silver Elite and kill for Azerite Power and resources.|RANK|3|
@@ -952,7 +721,6 @@ T Betrayal of the Guard|QID|48009|M|39.51,26.75|N|To Keegan Alby.|
 T Possessive Headgear|QID|48356|M|39.50,26.67|N|To Brother Therold.|
 A Paddle to Safety|QID|48366|M|39.55,26.70|N|From Brannon Stormsong.|PRE|48009&48356&48365|
 C Paddle to Safety|QID|48366|M|39.61,27.02|NC|N|Hop in the Rowboat.|
-
 T Paddle to Safety|QID|48366|M|35.20,24.20|N|To Brannon Stormsong.|
 A Creature Corruption|QID|49300|M|35.20,24.20|N|Bonus Objective - Autoaccepted.|LVL|-120|PRE|48366|RANK|2|
 A Eldritch Invocations|QID|48372|M|35.20,24.20|N|From Brannon Stormsong.|PRE|48366|
@@ -980,7 +748,6 @@ T Death in the Depths|QID|48370|M|35.21,24.19|N|To Brannon Stormsong.|
 T Deep Sea Defilement|QID|48368|M|35.24,24.27|N|To Brother Therold.|
 T WANTED: Quartermaster Ssylis|QID|51384|M|35.25,24.18;42.44,29.30|CN|N|To Keegan Alby. One of two locations.  Sorry!|RANK|3|
 A The Deadliest Catch|QID|49302|M|34.94,24.21|N|From Rosaline Madison.|PRE|48370&48372&48368&48367|
-
 C The Deadliest Catch|QID|49302|M|35.29,24.57|QO|1|CHAT|N|Speak to Okri for a ride.|
 C The Deadliest Catch|QID|49302|M|36.33,29.82|QO|2|NC|N|Hop on the Outrigger Cannon.|
 C The Deadliest Catch|QID|49302|M|36.32,29.82|QO|3|NC|N|Shoot down the Erupting Darkness.|
@@ -988,13 +755,9 @@ C The Deadliest Catch|QID|49302|M|36.37,29.45|QO|4|CHAT|N|Tell the Outrigger Eng
 C The Deadliest Catch|QID|49302|M|36.77,29.71|QO|5|NC|N|Hop on the Outrigger Gryphon for a ride to town.|
 T The Deadliest Catch|QID|49302|M|42.46,29.34|N|To Brannon Stormsong.|
 H Tradewinds Market|TZ|Snug Harbor Inn|N|Hearth or take the nearby ferry back to Boralus.|
-A The Long Con|QID|49223|LVL|120|M|75.47,22.18|Z|Boralus|N|From Roko.|RANK|3|PRE|49523|
-K Carentan|ACTIVE|49223|QO|1|LVL|120|M|61.44,39.10|Z|Boralus|T|Carentan|N|Kill Carentan.|RANK|3|
-T The Long Con|QID|49223|LVL|120|M|75.47,22.18|Z|Boralus|N|To Roko.|RANK|3|
-
+A The Long Con|QID|49223|M|75.47,22.18|Z|Boralus|N|From Roko.|RANK|3|PRE|49523|
+K Carentan|ACTIVE|49223|QO|1|M|61.44,39.10|Z|Boralus|T|Carentan|N|Kill Carentan.|RANK|3|
+T The Long Con|QID|49223|M|75.47,22.18|Z|Boralus|N|To Roko.|RANK|3|
 D This ends the Tiragarde Sound Guide.|
-
 ]]
 end)
-
-

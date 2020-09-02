@@ -1,292 +1,30 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_vash039jir_alliance
--- Date: 2018-10-23 22:29
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL: http://wow-pro.com/node/3305/revisions/29812/view
--- Date: 2018-09-23 20:39
--- Who: jovieve
--- Log: Typo correction
-
--- URL: http://wow-pro.com/node/3305/revisions/29811/view
--- Date: 2018-09-23 20:38
--- Who: jovieve
--- Log: Changed N to C for better QID validation (plus it's a fighting step anyway). Added a QO.
-
--- URL: http://wow-pro.com/node/3305/revisions/29809/view
--- Date: 2018-09-23 20:18
--- Who: jovieve
--- Log: Added BUFF tags for the other two Naz'jar Battlemaiden buffs.
-
--- URL: http://wow-pro.com/node/3305/revisions/29808/view
--- Date: 2018-09-23 18:53
--- Who: jovieve
--- Log: Added BUFF tag to make step autocomplete. Made note shorter.
-
--- URL: http://wow-pro.com/node/3305/revisions/29804/view
--- Date: 2018-09-23 00:23
--- Who: jovieve
--- Log: Edited for brevity. Split C step into two for separate objectives.
-
--- URL: http://wow-pro.com/node/3305/revisions/29803/view
--- Date: 2018-09-22 23:18
--- Who: jovieve
--- Log: Added note to ride the seahorse.
-
--- URL: http://wow-pro.com/node/3305/revisions/29802/view
--- Date: 2018-09-22 21:51
--- Who: jovieve
--- Log: Changed ACTIVE to QID in C steps.
-
--- URL: http://wow-pro.com/node/3305/revisions/29801/view
--- Date: 2018-09-22 21:48
--- Who: jovieve
--- Log: Weeded Quel'Dormir Gardens (prereq mess) 2.
-
--- URL: http://wow-pro.com/node/3305/revisions/29800/view
--- Date: 2018-09-22 21:45
--- Who: jovieve
--- Log: .
-
--- URL: http://wow-pro.com/node/3305/revisions/29799/view
--- Date: 2018-09-22 21:44
--- Who: jovieve
--- Log: Weeded Quel'Dormir Gardens (prereq mess).
-
--- URL: http://wow-pro.com/node/3305/revisions/29798/view
--- Date: 2018-09-22 10:44
--- Who: jovieve
--- Log: N steps changed to NC C steps so they won't show up on wrong rank.
-
--- URL: http://wow-pro.com/node/3305/revisions/29797/view
--- Date: 2018-09-22 09:31
--- Who: jovieve
--- Log: Put vortex to rank 1, because the other quest in the area is much harder to do without the item to take care of the snakes.
-
--- URL: http://wow-pro.com/node/3305/revisions/29796/view
--- Date: 2018-09-22 09:15
--- Who: jovieve
--- Log: Edited unreadably long note for conciseness.
-
--- URL: http://wow-pro.com/node/3305/revisions/29795/view
--- Date: 2018-09-22 09:10
--- Who: jovieve
--- Log: Changed rank 2 quest to rank 1. It was too stupid not to do it when you needed to kill the same mobs for the other quest, anyway.
-
--- URL: http://wow-pro.com/node/3305/revisions/29794/view
--- Date: 2018-09-22 08:59
--- Who: jovieve
--- Log: Fixed note that didn't make sense on rank 1.
-
--- URL: http://wow-pro.com/node/3305/revisions/29793/view
--- Date: 2018-09-22 08:58
--- Who: jovieve
--- Log: Fixed note that didn't make sense on rank 1.
-
--- URL: http://wow-pro.com/node/3305/revisions/29792/view
--- Date: 2018-09-22 08:55
--- Who: jovieve
--- Log: Got rid of another note that was showing up on rank 1 for a rank 2 quest (and probably wouldn't autocomplete, either).
-
--- URL: http://wow-pro.com/node/3305/revisions/29791/view
--- Date: 2018-09-22 08:29
--- Who: jovieve
--- Log: Changed N step to R step so it would autocomplete.
-
--- URL: http://wow-pro.com/node/3305/revisions/29790/view
--- Date: 2018-09-22 08:18
--- Who: jovieve
--- Log: Added H step.
-
--- URL: http://wow-pro.com/node/3305/revisions/29789/view
--- Date: 2018-09-22 07:53
--- Who: jovieve
--- Log: Removed note that didn't autocomplete and combined it with the information in the C step.
-
--- URL: http://wow-pro.com/node/3305/revisions/29788/view
--- Date: 2018-09-22 07:27
--- Who: jovieve
--- Log: Made some changes that were messing up the guide on rank 1, including removing one of the QIDs in a PRE. Grail complains, but Grail seems to be wrong.
-
--- URL: http://wow-pro.com/node/3305/revisions/29182/view
--- Date: 2018-02-26 22:52
--- Who: Ludovicus_EditBot
--- Log: Level strip
-
--- URL: http://wow-pro.com/node/3305/revisions/29060/view
--- Date: 2018-02-20 01:32
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3305/revisions/28928/view
--- Date: 2018-01-17 00:10
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3305/revisions/28567/view
--- Date: 2017-03-23 18:29
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL: http://wow-pro.com/node/3305/revisions/28400/view
--- Date: 2017-03-15 22:04
--- Who: Ludovicus_Maior
--- Log: Added PREs to AriVasA8082
-
--- URL: http://wow-pro.com/node/3305/revisions/26825/view
--- Date: 2014-11-06 14:18
--- Who: Fluclo
--- Log: Removed duplicate tags, added missing M tag
-
--- URL: http://wow-pro.com/node/3305/revisions/26616/view
--- Date: 2014-07-25 22:02
--- Who: Ludovicus_Maior
--- Log: Ad levels
-
--- URL: http://wow-pro.com/node/3305/revisions/26336/view
--- Date: 2014-05-27 20:06
--- Who: Ludovicus_Maior
--- Log: GuideLevels corrected from "0,0" to "78,80".
-
--- URL: http://wow-pro.com/node/3305/revisions/26294/view
--- Date: 2014-05-26 01:13
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3305/revisions/26121/view
--- Date: 2014-05-18 23:04
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3305/revisions/25994/view
--- Date: 2014-05-14 22:49
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3305/revisions/25776/view
--- Date: 2013-10-17 19:36
--- Who: Fluclo
-
--- URL: http://wow-pro.com/node/3305/revisions/25599/view
--- Date: 2013-03-23 20:43
--- Who: Ludovicus_Maior
--- Log: Quest name tweaks
-
--- URL: http://wow-pro.com/node/3305/revisions/25538/view
--- Date: 2013-02-21 04:53
--- Who: Emmaleah
--- Log: correct capitalization on All or Nothing
-
--- URL: http://wow-pro.com/node/3305/revisions/25442/view
--- Date: 2013-01-13 16:18
--- Who: Ludovicus_Maior
--- Log: Added C* tags
-
--- URL: http://wow-pro.com/node/3305/revisions/25392/view
--- Date: 2013-01-12 21:42
--- Who: Emmaleah
--- Log: fixes for multi coordinates
-
--- URL: http://wow-pro.com/node/3305/revisions/25341/view
--- Date: 2013-01-11 23:24
--- Who: Ludovicus_Maior
--- Log: Added CS,CC and CN tags
-
--- URL: http://wow-pro.com/node/3305/revisions/25074/view
--- Date: 2012-09-15 20:24
--- Who: Ludovicus_Maior
--- Log: Tweaked some RANK2's to 1's and corrected some prerequisites so that the guide could be played at RANK1.
-
--- URL: http://wow-pro.com/node/3305/revisions/24774/view
--- Date: 2011-10-28 08:11
--- Who: Crackerhead22
--- Log: Fixed a few capitalization and punctuation errors stopping auto-accept and auto-turn in from working.
-
--- URL: http://wow-pro.com/node/3305/revisions/24596/view
--- Date: 2011-06-25 01:29
--- Who: Crackerhead22
--- Log: ! Duplicate A step for qid 26144 - Removed line
-
--- URL: http://wow-pro.com/node/3305/revisions/24564/view
--- Date: 2011-06-20 02:54
--- Who: Crackerhead22
--- Log: Removed PRE tags for "Devout Assembly", "Her Lady's Hand".
-
--- URL: http://wow-pro.com/node/3305/revisions/24532/view
--- Date: 2011-06-08 03:23
--- Who: Ludovicus_Maior
--- Log: Correct Successor.
-
--- URL: http://wow-pro.com/node/3305/revisions/24489/view
--- Date: 2011-06-02 00:38
--- Who: Fluclo
--- Log: Clarifying info on Full Circle
-
--- URL: http://wow-pro.com/node/3305/revisions/24488/view
--- Date: 2011-06-02 00:12
--- Who: Fluclo
--- Log: Moved A Breath of Fresh Air to before the flight plans, so that it makes sense that this is on surface.
-
--- URL: http://wow-pro.com/node/3305/revisions/24466/view
--- Date: 2011-05-31 21:00
--- Who: Ludovicus_Maior
--- Log: Spell Vashj'ir right!
-
--- URL: http://wow-pro.com/node/3305/revisions/24434/view
--- Date: 2011-05-28 11:03
--- Who: Ludovicus_Maior
--- Log: PLayed the zone, fixed some text, coords and zones.
-
--- URL: http://wow-pro.com/node/3305/revisions/24276/view
--- Date: 2011-04-26 23:16
--- Who: Crackerhead22
--- Log: Fixed M tag errors for "T Eye of the Storm" "N Speak to Fathom-Lord Zin'jatar" "f Voldrin's Hold". Fixed U tag error for "U Visions of the Past: Rise From The Deep".
-
--- URL: http://wow-pro.com/node/3305/revisions/24262/view
--- Date: 2011-04-24 01:00
--- Who: Crackerhead22
-
 local guide = WoWPro:RegisterGuide('AriVasA8082', "Leveling", "Vashj'ir", 'Arixan', 'Alliance')
-WoWPro:GuideLevels(guide,80,80, 79.9802)
-WoWPro:NewGuideLevels(guide,80,90)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'AriDee8283')
-WoWPro:GuideIcon(guide,"ACH",4825)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Stormwind City|QID|28825|M|74.5,19.2|Z|Stormwind City|N|Head to Stormwind City by any means possible.|
 T A Personal Summons|QID|28825|M|74.5,19.2|Z|Stormwind City|N|This quest was auto-accepted for you when you entered Stormwind. Head to Naraat the Earthspeaker who's on an island to the north-east of the city.|
-
 A The Eye of the Storm|QID|28826|M|74.5,19.2|Z|Stormwind City|N|From Naraat the Earthspeaker.|
 C The Eye of the Storm|QID|28826|NC|M|74.4,19.6|Z|Stormwind City|N|Right click the water bowl behind you, then watch the cinematic!|
 T The Eye of the Storm|QID|28826|M|74.5,19.2|Z|Stormwind City|N|To Naraat the Earthspeaker.|
-
 A To the Depths|QID|28827|LEAD|14482|PRE|28826|M|74.5,19.2|Z|Stormwind City|N|From Naraat the Earthspeaker. Not available if you have in your log Into The Abyss or Hero's Call: Vashj'ir!|
 T Hero's Call: Vashj'ir!|QID|27724|M|27.4,24.3|Z|Stormwind City|N|To Recruiter Burns.|O|
 T Into The Abyss|QID|14481|M|27.4,24.3|Z|Stormwind City|N|To Recruiter Burns.|O|
 T To the Depths|QID|28827|PRE|14481&27724|M|27.4,24.3|Z|Stormwind City|N|To Recruiter Burns.|
-
 A Call of Duty|QID|14482|M|27.39,24.16|Z|Stormwind City|N|From Recruiter Burns.|
 C Call of Duty|QID|14482|M|18.5,25.5|Z|Stormwind City|NC|N|Head to the end of the northern-most dock and board the ship. It will take 5 minutes for the ship to arrive, during which a small event will happen on the docks with soldiers talking about recent events. Once you board the ship, just sit back and watch the on-ship entertainment courtesy of Budd and Captain Taylor.|
 R The Briny Cutter|QID|14482|M|45.2,23.4|Z|Kelp'thar Forest|N|Just a little longer while the ship is attacked and you lose consiousness in the water. Patiently wait until you wake up in The Briny Cutter.|
 T Call of Duty|QID|14482|M|45.2,23.4|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
-
 A Sea Legs|QID|24432|PRE|14482|M|45.2,23.4|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 h The Briny Cutter|QID|24432|M|45.2,23.4|Z|Kelp'thar Forest|N|At Erunak Stonespeaker.|
 C Sea Legs|QID|24432|M|45.5,22.6;46.2,25.4|CN|Z|Kelp'thar Forest|N|Collect 3 Saltwater Starfish.|S|QO|1|NC|; Saltwater Starfish: 3/3
 C Sea Legs|QID|24432|M|45.2,26.7|Z|Kelp'thar Forest|N|Collect a Conch Shell.|QO|2|NC|; Conch Shell: 1/1
 C Sea Legs|QID|24432|M|45.5,22.6;46.2,25.4|CN|Z|Kelp'thar Forest|N|Collect 3 Saltwater Starfish.|US|QO|1|NC|; Saltwater Starfish: 3/3
 T Sea Legs|QID|24432|M|45.2,23.4|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
-
 A Pay It Forward|QID|25281|PRE|24432|M|45.2,23.4|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 C Pay It Forward|QID|25281|U|52710|M|46.6,23.9|Z|Kelp'thar Forest|N|Click on Drowning Soldiers and use the Enchanted Conch Shell to rescue them.|NC|T|Drowning Soldier|
 T Pay It Forward|QID|25281|M|45.2,23.4|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
-
 A Rest For the Weary|QID|25405|PRE|25281|M|45.2,23.4|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 T Rest For the Weary|QID|25405|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
 A Buy Us Some Time|QID|25357|PRE|25405|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
@@ -296,12 +34,10 @@ C Buy Us Some Time|QID|25357|M|45.3,28.1;48,21.9;40.86,34.14|Z|Kelp'thar Forest|
 C Traveling on Our Stomachs|QID|25546|US|M|42,31.9;48.3,25.8;45.6,28.9|CN|L|54845 8|Z|Kelp'thar Forest|N|Kill and loot Splitclaw Skitterers for their Succulent Crab Meat. They are found on the ground.|
 T Buy Us Some Time|QID|25357|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
 T Traveling on Our Stomachs|QID|25546|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
-
 A To Arms!|QID|25545|PRE|25357&25546|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
 A Stormwind Elite Aquatic and Land Forces|QID|25564|PRE|25357&25546|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
 C Stormwind Elite Aquatic and Land Forces|QID|25564|S|M|51.1,20.8;50.4,27.7|L|54957 6|Z|Kelp'thar Forest|CN|N|The SEAL equipment is found in large chests inside and around the sunken ships.|NC|
 C To Arms!|QID|25545|M|50.8,22.5|Z|Kelp'thar Forest|S|N|Loot the armaments from the ground. They can also drop from some Goblin Scavengers - check the tooltip for which part(s) they could drop.|
-
 A Once More, With Eeling|QID|27729|M|48,21|N|Find a Slitherfin Eel and kill it to get this quest (UI Alert).|Z|Kelp'thar Forest|
 C Once More, With Eeling|QID|27729|M|48,21|N|Kill 8 more eels.|S|Z|Kelp'thar Forest|
 C To Arms!|QID|25545|M|50.8,22.5|Z|Kelp'thar Forest|US|N|Loot the armaments from the ground. They can also drop from some Goblin Scavengers - check the tooltip for which part(s) they could drop.|
@@ -310,7 +46,6 @@ C Once More, With Eeling|QID|27729|M|48,21|N|Finish killing eels.|US|Z|Kelp'thar
 T Once More, With Eeling|QID|27729|M|48,21|N|An UI Alert will pop-up, turn it in that way.|Z|Kelp'thar Forest|
 T To Arms!|QID|25545|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
 T Stormwind Elite Aquatic and Land Forces|QID|25564|M|44.73,22.57|Z|Kelp'thar Forest|N|To Captain Taylor.|
-
 A On Our Own Terms|QID|25547|PRE|25545&25564|M|44.73,22.57|Z|Kelp'thar Forest|N|From Captain Taylor.|
 T On Our Own Terms|QID|25547|M|45,23.5|Z|Kelp'thar Forest|N|To Captain Taylor.|
 A All or Nothing|QID|25558|PRE|25547|M|45,23.5|Z|Kelp'thar Forest|N|From Captain Taylor.|
@@ -425,7 +160,6 @@ T What? What? In My Gut...?|QID|25885|M|63.84,59.66|Z|Kelp'thar Forest|N|To Priv
 T The Warden's Time|QID|27708|M|63.84,59.66|Z|Kelp'thar Forest|N|To Erunak Stonespeaker.|
 A Across the Great Divide|QID|25471|PRE|27708|M|63.8,59.7|Z|Kelp'thar Forest|N|From Erunak Stonespeaker.|
 f Kelp'thar Forest|QID|25471|M|42.39,66.12|Z|Kelp'thar Forest|N|Grab the flight point from the Swift Seahorse.|
-
 f Shimmering Expanse|QID|25471|M|57.06,17.11|Z|Shimmering Expanse|N|Grab the flight point from Francis Greene.|
 R Across the Great Divide|QID|25471|M|48.31,73.28|CC|Z|Kelp'thar Forest|N|Head to the entrance to the cave.|
 T Across the Great Divide|QID|25471|M|56.02,13.68|Z|Shimmering Expanse|N|To Farseer Gadra. Head into the cave.|
@@ -672,7 +406,6 @@ A A Breath of Fresh Air|QID|26005|PRE|25626|M|49.45,57.57|Z|Shimmering Expanse|N
 T A Breath of Fresh Air|QID|26005|M|69.61,75.34|Z|Vashj'ir|U|57412|N|Located on the surface. You can use the Boom Boots to get to the surface. Turn quest in to Captain Taylor.|
 f The Lightless Reaches|QID|26005|M|57.1,75.18|Z|Shimmering Expanse|N|Grab the flight point at the Swift Seahorse.|
 f Voldrin's Hold|QID|26005|M|69.4,75.2|Z|Vashj'ir|N|Grab the flight point from Salty McTavish.|
-
 A Full Circle|QID|26219|PRE|26005|M|69.6,75.3|Z|Vashj'ir|N|From Captain Taylor.|
 C Full Circle|QID|26219|M|69.6,75.3|Z|Vashj'ir|N|Get on board the sub once it arrives (can take 1-2 minutes to arrive, listen out for the Engineer's yelling indicating it's arrival).  Board the sub, and head downstairs and stand behind the Captain and Number 2.  Once Darkbreak Cove is secured and the sub docks, you will be automatically placed in next to Captain Glovaal on land.|
 T Full Circle|QID|26219|M|54.5,72.8|Z|Abyssal Depths|N|To Captain Glovaal.|
@@ -777,8 +510,5 @@ T Back to Darkbreak Cove|QID|26181|M|39.84,48.46;55.73,72.96|CS|Z|Abyssal Depths
 A Defending the Rift|QID|26193|PRE|26181|M|55.73,72.96|Z|Abyssal Depths|N|From Erunak Stonespeaker.|
 C Defending the Rift|QID|26193|N|Speak to Erunak again and tell him you are ready to enter the battle. Stay alive, pretty much all you have to do.|Z|Abyssal Depths|
 T Defending the Rift|QID|26193|M|69.7,34.5|Z|Abyssal Depths|N|To Captain Taylor.|
-
 ]]
 end)
-
-

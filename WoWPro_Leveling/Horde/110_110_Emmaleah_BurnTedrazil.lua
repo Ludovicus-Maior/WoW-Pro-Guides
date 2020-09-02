@@ -1,167 +1,10 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/bfa_intro_horde
--- Date: 2020-04-09 23:24
--- Who: Ludovicus_Maior
--- Log: Cagomei: [To Matters at Hand] is now obsolete
-
--- URL: http://wow-pro.com/node/3770/revisions/30268/view
--- Date: 2019-06-27 21:51
--- Who: Ludovicus_Maior
--- Log: 8.2 Z updates
-
--- URL: http://wow-pro.com/node/3770/revisions/30221/view
--- Date: 2019-02-12 00:08
--- Who: Ludovicus_Maior
--- Log: Start at [Hour of Reckoning] now for 8.1.0 .
-
--- URL: http://wow-pro.com/node/3770/revisions/30122/view
--- Date: 2018-11-12 10:03
--- Who: Emmaleah
--- Log: added directions to profession trainers. missing correct spell id for archeology and fishing, so they currently require manual check offs. (please add if you find!)
-
--- URL: http://wow-pro.com/node/3770/revisions/29958/view
--- Date: 2018-10-17 02:26
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3770/revisions/29553/view
--- Date: 2018-08-19 01:46
--- Who: Chromaflo
--- Log: Changed a confusing instruction where the NPC stands
-
--- URL: http://wow-pro.com/node/3770/revisions/29552/view
--- Date: 2018-08-19 01:25
--- Who: Emmaleah
--- Log: Deleted the dup |M| and coordinates out of Pests QO1/QO2
-
--- URL: http://wow-pro.com/node/3770/revisions/29551/view
--- Date: 2018-08-18 21:14
--- Who: Ludovicus_Maior
--- Log: Fixes for the [The War Campaign] and [Jani's Mysterious Trashpiles]
-
--- URL: http://wow-pro.com/node/3770/revisions/29541/view
--- Date: 2018-08-17 20:08
--- Who: Ludovicus_Maior
--- Log: Stupid change to force update.
-
--- URL: http://wow-pro.com/node/3770/revisions/29539/view
--- Date: 2018-08-17 19:53
--- Who: Emmaleah
--- Log: Added A The War Campaign, edited N The War Campaign
---	Added Jani's quest openers as rank 3 (because I just couldn't figure out how to gracefully put them in the Nazmir guide)
-
--- URL: http://wow-pro.com/node/3770/revisions/29532/view
--- Date: 2018-08-15 23:34
--- Who: Chromaflo
--- Log: Changed coords. works now, but the sub maps are unknown at the moment to me.
-
--- URL: http://wow-pro.com/node/3770/revisions/29527/view
--- Date: 2018-08-15 21:37
--- Who: Chromaflo
--- Log: Put in an extra P step for western earthshrine portal to uldum
-
--- URL: http://wow-pro.com/node/3770/revisions/29521/view
--- Date: 2018-08-15 00:00
--- Who: Ludovicus_Maior
--- Log: Next play-through.
-
--- URL: http://wow-pro.com/node/3770/revisions/29518/view
--- Date: 2018-08-14 19:59
--- Who: Ludovicus_Maior
--- Log: Live tweaks.
-
--- URL: http://wow-pro.com/node/3770/revisions/29515/view
--- Date: 2018-08-14 07:32
--- Who: Emmaleah
--- Log: add h step, (I could swear it was in there already) change mention of war campaign to 110, 114,118
-
--- URL: http://wow-pro.com/node/3770/revisions/29489/view
--- Date: 2018-08-09 21:44
--- Who: Ludovicus_Maior
--- Log: Play-through tweaks.
-
--- URL: http://wow-pro.com/node/3770/revisions/29484/view
--- Date: 2018-08-07 20:16
--- Who: Emmaleah
--- Log: update for todays content - testing on live. added Target buttons to help with crowding.
-
--- URL: http://wow-pro.com/node/3770/revisions/29472/view
--- Date: 2018-08-02 23:30
--- Who: Blanckaert
--- Log: Fix QID 51443 PRE from 71796 to 51796
-
--- URL: http://wow-pro.com/node/3770/revisions/29462/view
--- Date: 2018-08-01 10:13
--- Who: Emmaleah
--- Log: Changes per Grail and playthru on Live 7/31/18
-
--- URL: http://wow-pro.com/node/3770/revisions/29446/view
--- Date: 2018-07-24 18:30
--- Who: Emmaleah
--- Log: updated some comments now that the chain is live. Deleted the commented out -deprecated- quest "change in leadership"
-
--- URL: http://wow-pro.com/node/3770/revisions/29431/view
--- Date: 2018-07-16 19:44
--- Who: Emmaleah
--- Log: corrected syntax NewGuideLevels. Changed notes where I think break will be for each week. Will update when it happens.
-
--- URL: http://wow-pro.com/node/3770/revisions/29426/view
--- Date: 2018-07-15 04:46
--- Who: Emmaleah
--- Log: add sort level
-
--- URL: http://wow-pro.com/node/3770/revisions/29422/view
--- Date: 2018-07-14 23:01
--- Who: Emmaleah
--- Log: changes as of 7/14/18 hopefully what goes live 7/17/18
-
--- URL: http://wow-pro.com/node/3770/revisions/29405/view
--- Date: 2018-07-08 05:36
--- Who: Emmaleah
--- Log: Play thru as of build .26970
-
--- URL: http://wow-pro.com/node/3770/revisions/29404/view
--- Date: 2018-07-08 01:28
--- Who: Emmaleah
--- Log: 2nd part of burning of teldrassil
-
--- URL: http://wow-pro.com/node/3770/revisions/29403/view
--- Date: 2018-07-07 22:35
--- Who: STrek
--- Log: added a Turn in and a quest Accept step (see comment) + changed map coords for a R step (see comments)
-
--- URL: http://wow-pro.com/node/3770/revisions/29398/view
--- Date: 2018-07-05 23:04
--- Who: Ludovicus_Maior
--- Log: Add WoWPro:GuideQuestTriggers()
-
--- URL: http://wow-pro.com/node/3770/revisions/29395/view
--- Date: 2018-07-03 19:53
--- Who: Ludovicus_Maior
--- Log: guide name tweaks
-
--- URL: http://wow-pro.com/node/3770/revisions/29369/view
--- Date: 2018-07-03 02:50
--- Who: Emmaleah
--- Log: first draft from PTR. Prepatch
-
--- URL: http://wow-pro.com/node/3770/revisions/29324/view
--- Date: 2018-05-25 20:21
--- Who: Emmaleah
--- Log: blank stub
-
 local guide = WoWPro:RegisterGuide('BurnTedrazilEmmaleah', 'Leveling', 'Darkshore', 'Emmaleah', 'Horde')
-WoWPro:NewGuideLevels(guide,110, 110, 110.5)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideName(guide,'Battle for Azeroth Intro')
 WoWPro:GuideNextGuide(guide, 'EmmHWarCampaign')
 WoWPro:GuideSteps(guide, function()
 WoWPro:GuideQuestTriggers(guide, 53372, 53028)
 return [[
-
 A Hour of Reckoning|QID|53372|N|This quest will have been autoaccepted upon logging in (or completing the last quest).|
 P Orgrimmar|ACTIVE|53372|U|140192|N|Return to Orgrimmar to continue the story.|
 T Hour of Reckoning|QID|53372|M|50.04,75.91;48.51,70.67|CS|Z|Orgrimmar|N|Return to Saurfang in Grommash Hold. Target buttons have been added to assist with the crowd, Use your Interact with Target keybinding if its too crowded.|T|High Overlord Saurfang|
@@ -184,7 +27,6 @@ C Defeat Anduin and his Allies|QID|51796|M|46.65,88.56|Z|Undercity!Ruins of Lord
 C Follow Nathanos to safety|QID|51796|M|48.60,76.96|Z|Undercity!Ruins of Lordaeron!Instance|SO|12;1|NC|N|Follow Nathanos to safety.|
 C The Dark Lady|QID|51796|M|48.11,78.32|Z|Undercity!Ruins of Lordaeron!Instance|SO|13|NC|N|Follow Sylvanas.|
 T The Battle for Lordaeron|QID|51796|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller, on top of the Gates of Orgrimmar.|T|Nathanos Blightcaller|
-
 A A Dying World|QID|53028|M|48.89,91.50|Z|Orgrimmar|T|Nathanos Blightcaller|N|From Nathanos Blightcaller.(presumed to become available with BfA launch 13 August @3pm PST/14 August 12AM CET for Europe 06:00 am CST for Asia and 08:00 am AEST for Australian.https://worldofwarcraft.com/en-gb/news/21849061/battle-for-azeroth-one-launch-to-rule-them-all|
 R The Western Earthshrine|ACTIVE|53028|M|48.82,38.59|Z|Orgrimmar|N|Fly over to the Western Earthshrine for a shortcut to Silithus.|
 P Uldum|ACTIVE|53028|QO|1|M|48.87,38.57|Z|Orgrimmar|N|Take the Portal to Uldum.|
@@ -202,7 +44,6 @@ T Infusing the Heart|QID|52428|M|50.15,53.74|Z|Chamber of Heart!Dungeon1021|N|To
 A The Speaker's Imperative|QID|53031|M|50.15,53.74|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|PRE|52428|
 C The Speaker's Imperative|QID|53031|M|50.17,30.46|Z|Chamber of Heart!Dungeon1021|NC|N|Teleporter pad used.|
 T The Speaker's Imperative|QID|53031|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller, still on top of the Gates of Orgrimmar.|
-
 A Mission Statement|QID|51443|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE|53031|
 C Mission Statement|QID|51443|M|48.55,71.49|Z|Orgrimmar|QO|1|CHAT|N|Speak to Warchief Sylvanas Windrunner|
 C Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|QO|2|NC|N|Go to the Broken Tusk Inn and meet your team|
@@ -223,7 +64,6 @@ C Escape Cathedral Square|QID|50769|M|45.42,43.19|Z|Stormwind City!Stormwind Cit
 C No Diplomatic Solution|QID|50769|M|39.67,41.04|Z|Stormwind City!Stormwind City!Instance|SO|8;1|N|Break down the ice wall.|
 C Reach Talanji's ship|QID|50769|M|20.59,25.79|Z|Stormwind City!Stormwind City!Instance|SO|9;1|N|Continue on with your buddies, killing those pesky Alliance trying to stop you from reaching Talanji's ship|
 C Escape Stormwind Harbor|QID|50769|M|20.63,28.92|Z|Stormwind City!Stormwind City!Instance|SO|10;1|CHAT|N|Talk to Talanji on the bridge of her ship.|
-
 T The Stormwind Extraction|QID|50769|M|57.96,62.77|Z|Zuldazar|N|To Nathanos Blightcaller.|
 A Welcome to Zuldazar|QID|46957|M|57.95,62.46|Z|Zuldazar|N|From Princess Talanji|PRE|50769|
 C Welcome to Zuldazar|QID|46957|M|57.94,56.59|Z|Zuldazar|NC|N|Follow Princess Talanji|
@@ -254,10 +94,8 @@ t Zuldazar|QID|47514|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess
 A Journey to Nazmir|QID|47103|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|47512|
 A Discreet Discussions|QID|47313|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|47513|
 A Trust of a King|QID|49615|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|47514|
-
 A The War Campaign|QID|52749|M|40.67,72.08|Z|Hall of Croniclers!Dazar'alor|N|From Nathanos Blightcaller.|
 N About the War Campaign|ACTIVE|52749|N|There are quests offered at 110,114,118 on The Banshee's Wail, a ship in Zuldazar's harbor. The guide for those quests will offer to load when you accept one of those quests. As the 2nd quest requires you to gather 100 war resources before you progress, no reason to go down there until you have the first 100 resources. Also, no particular rush to get them done as long as you do it by 120.|
-
 ; professions
 N Cooking|ACTIVE|52749|M|28.44,50.42|Z|Hall of Croniclers!Dazar'alor|N|Train BfA Cooking at T'sarah the Royal Chef.|P|Cooking;185|RECIPE|259430|;
 N Archaeology|ACTIVE|52749|M|36.17,46.42|Z|Hall of Croniclers!Dazar'alor|N|Train BfA Archaeology at Examiner Alerinda who wanders around in the Vault of Kings. Check off manually when done.|P|Archaeology;794|RECIPE|278910|;need to determine correct spell ID to autocomplete
@@ -276,7 +114,6 @@ N Mining|ACTIVE|52749|M|44.13,38.97|Z|Dazar'alor|N|Train BfA Mining at Secott th
 N Blacksmithing|ACTIVE|52749|M|43.65,38.30|Z|Dazar'alor|N|Train BfA Blacksmithing at Forgemaster Zak'aal.|P|Blacksmithing;164|RECIPE|253183|;
 N Jewelcrafting|ACTIVE|52749|M|47.05,37.94|Z|Dazar'alor|N|Train BfA Jewelcrafting at Seshuli.|P|Jewelcrafting;755|RECIPE|256689|;265811
 N Enchanting|ACTIVE|52749|M|47.08,35.68|Z|Dazar'alor|N|Train BfA Enchanting at Enchantress Quinni.|P|Enchanting;333|RECIPE|255074|;
-
 ;to open up Jani's mysterious trashpiles
 N Jani's Mysterious Trashpiles|QID|47441|N|These are scattered around Zandalar. To open up interaction with them, you need to do the following two quests. Once you have completed them, when you are near one of the trashpiles, you will either see a quest "!" or see/hear a message saying "hey richmon…". Interact with the trashpile for your reward.|RANK|3|
 R The Zocalo|QID|47441|M|42.22,25.82|Z|Dazar'alor|N|Run down, down, down in the general direction of the waypoint.|RANK|3|;cant be ACTIVE as you don't have the quest yet
@@ -288,18 +125,12 @@ A Curse of Jani|QID|47442|M|35.36,7.63|Z|Dazar'alor|N|From Jani.|RANK|3|
 C Curse of Jani|QID|47442|M|38.57,17.70|Z|Dazar'alor|QO|1|NC|N|Run back to Nokano. Save sprint for just before the guard in the middle of the road. If you get caught, ask Jani for new disguise.|
 C Curse of Jani|QID|47442|M|40.10,19.30|Z|Dazar'alor|QO|2|NC|N|Right click on Nokano to bite him.|
 T Curse of Jani|QID|47442|M|35.46,7.71|Z|Dazar'alor|N|To Jani. You have now opened up Jani's cursed treasure quests all over Zandalar.|
-
 R The Sliver|ACTIVE|52749|M|45.35,23.86;50.29,21.22|Z|Dazar'alor|CS|N|Run down serveral sets of stairs to the Sliver to find the fishing trainer.|P|Fishing;356|RECIPE|271677|
 f The Sliver|ACTIVE|52749|M|53.16,19.35|Z|Dazar'alor|N|As long as you are here, grab the flight path from Zena the Feeder.|P|Fishing;356|RECIPE|271677|
 N Fishing|ACTIVE|52749|M|50.52,23.35|Z|Dazar'alor|N|Train BfA Fishing at Silent Tali. Check off manually when done.|P|Fishing;356|RECIPE|271677|;need to find correct spell id to autocomplete
 H The Great Seal|ACTIVE|52749|N|Hearth, fly or run back to the flightmaster, just outside The Great Seal to continue in the guide of your choice.|RANK|3|
-
 J On to Nazmir|QID|47103|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmNazmir|
 J On to Vol'Dun|QID|47313|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmVoldun|
 J On to Zuldazar|QID|49615|N|This ends the Battle for Azeroth opening guide.|GUIDE|EmmZuldazar|
-
 ]]
-
 end)
-
-

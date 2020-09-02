@@ -1,152 +1,19 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/nazmir_horde
--- Date: 2020-05-01 20:29
--- Who: Ludovicus_Maior
--- Log: Corrected two K steps.
-
--- URL: http://wow-pro.com/node/3766/revisions/30241/view
--- Date: 2019-03-18 21:15
--- Who: Emmaleah
--- Log: add |V| tags, update wording on rares and treasures intro steps  ... to make them even more wordy. /sigh.
-
--- URL: http://wow-pro.com/node/3766/revisions/30140/view
--- Date: 2018-11-28 19:19
--- Who: Emmaleah
--- Log: moved quests to kill crawg mada and burn huts to before grand mada ateena, (I could swear that Rokhan didn't offer the quest then, in my previous trips...) few other changes, finished this run thru the zone.
-
--- URL: http://wow-pro.com/node/3766/revisions/30125/view
--- Date: 2018-11-14 10:40
--- Who: Emmaleah
--- Log: more minor adjustments up to gloom hollow arrival.
-
--- URL: http://wow-pro.com/node/3766/revisions/30124/view
--- Date: 2018-11-13 10:16
--- Who: Emmaleah
--- Log: corrected coords for tainted guardian; fixed missing US on Conduit Interruption;  fixed corpse maker yon'gi s/b QO|2
-
--- URL: http://wow-pro.com/node/3766/revisions/30112/view
--- Date: 2018-11-05 09:17
--- Who: Emmaleah
--- Log: K Matron Shaazula
-
--- URL: http://wow-pro.com/node/3766/revisions/30109/view
--- Date: 2018-11-04 11:14
--- Who: Emmaleah
--- Log: Changed a few more C's to K's (including adding |T|s and QID>ACTIVE and commented out Mala'kili cuz that was a terrible place for her. What silly person did that .. Hopefully I will find a better place soon.
-
--- URL: http://wow-pro.com/node/3766/revisions/29959/view
--- Date: 2018-10-17 02:26
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3766/revisions/29834/view
--- Date: 2018-09-24 20:11
--- Who: Emmaleah
--- Log: put Jani's quest line in (rank 3 of course)
-
--- URL: http://wow-pro.com/node/3766/revisions/29756/view
--- Date: 2018-09-15 21:04
--- Who: Emmaleah
--- Log: Add RARE tags; Change C steps with a target, where appropriate, to K steps; Change all K steps without a RARE tag from QID to ACTIVE
-
--- URL: http://wow-pro.com/node/3766/revisions/29619/view
--- Date: 2018-08-27 23:38
--- Who: jovieve
--- Log: Moved step for killing Xak'lar to after taking the boat ride in Down by the Riverside. (It was 2000 yards away before the ride. It's 200 yards away after the ride.)
-
--- URL: http://wow-pro.com/node/3766/revisions/29614/view
--- Date: 2018-08-26 09:07
--- Who: jovieve
--- Log: Updated note about quest giver.
-
--- URL: http://wow-pro.com/node/3766/revisions/29557/view
--- Date: 2018-08-19 10:41
--- Who: Emmaleah
-
--- URL: http://wow-pro.com/node/3766/revisions/29556/view
--- Date: 2018-08-19 10:28
--- Who: Emmaleah
--- Log: Added Pre Tags - per Grail - and notes where I disagreed.  Pre's not tested
-
--- URL: http://wow-pro.com/node/3766/revisions/29542/view
--- Date: 2018-08-18 03:30
--- Who: Emmaleah
--- Log: Play tested on Rank 1 on live, various tweaks, Added Jani's trashpiles.
-
--- URL: http://wow-pro.com/node/3766/revisions/29507/view
--- Date: 2018-08-13 21:12
--- Who: Emmaleah
--- Log: Added Ranks
-
--- URL: http://wow-pro.com/node/3766/revisions/29505/view
--- Date: 2018-08-13 16:52
--- Who: Emmaleah
--- Log: Play test on Beta 10 Aug 2018 All Rares, treasures, explore included. Ranks/Pres NOT done.
-
--- URL: http://wow-pro.com/node/3766/revisions/29496/view
--- Date: 2018-08-12 19:01
--- Who: Ludovicus_Maior
--- Log: |LVL-120| aint right.
-
--- URL: http://wow-pro.com/node/3766/revisions/29479/view
--- Date: 2018-08-07 04:27
--- Who: Emmaleah
--- Log: I apparently didn't keep good version control and overwrote the end of this guide. Will test soonest! Recovered a great deal of it from my backup on 7/19; this wasn't the final copy and undoubtedly needs more work.
-
--- URL: http://wow-pro.com/node/3766/revisions/29475/view
--- Date: 2018-08-04 20:29
--- Who: Emmaleah
--- Log: Delete the quests from the beginning that are properly part of Zuldazar guide, improve registration
-
--- URL: http://wow-pro.com/node/3766/revisions/29419/view
--- Date: 2018-07-11 08:53
--- Who: Emmaleah
--- Log: Finish up Western side of Nazmir
-
--- URL: http://wow-pro.com/node/3766/revisions/29416/view
--- Date: 2018-07-10 10:31
--- Who: Emmaleah
--- Log: First part of Nazmir. 3/8 story arcs done.
-
--- URL: http://wow-pro.com/node/3766/revisions/29396/view
--- Date: 2018-07-03 19:59
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3766/revisions/29386/view
--- Date: 2018-07-03 02:47
--- Who: Emmaleah
--- Log: Added an actual stub guide that can load in Wow.
-
--- URL: http://wow-pro.com/node/3766/revisions/29320/view
--- Date: 2018-05-25 20:07
--- Who: Emmaleah
--- Log: blank stub guide
-
 local guide = WoWPro:RegisterGuide('EmmNazmir', 'Leveling', 'Nazmir', 'Emmaleah', 'Horde')
-WoWPro:NewGuideLevels(guide,110,120,111)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'EmmHWarCampaign')
 WoWPro:GuideAutoSwitch(guide)
-WoWPro:GuideIcon(guide,"ACH",11868)
 WoWPro:GuideSteps(guide, function()
-
 return [[
 N The Great Sea Scrolls|QID|53476|NA|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 t The Great Sea Scrolls|QID|53476|M|71.50,30.36|S!US|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
 N Use of Ranks|N|Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done with the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
 N Rares (aka Silver Elite)|ACH|12942|N|Rares are not truely rare, they will respawn within a few minutes of being killed, so if it isn't there, stick around a minute or two and it will be. Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to. If you want the guide to not tell you about rares at all, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable rares box). |
 N Traesure|ACH|12771|N|The majority of the treasure chests in Nazmir are first come, respawning randomly.  There are a few one time treasures, If you want the guide to skip treasures, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable treasures box).
-
 ;A Nazmir|QID|47512|N|From Scouting map
 T Nazmir|QID|47512|M|41.32,66.49|Z|Dazar'alor|N|To Princess Talanji.|
 A Journey to Nazmir|QID|47103|M|41.32,66.49|Z|Dazar'alor|N|From Princess Talanji.|PRE|47512|
-
 ;to open up Jani's mysterious trashpiles
 R The Zocalo|AVAILABLE|47441|M|42.58,27.97|N|A bit out of the way, but if you are into Achievements or pets, you want to get this quest done to open up "Get Hek'd". Run down the stairs and down and down, till you get to ground level and cross the bridge to The Zocalo.|RANK|3|
-
 A Pests|QID|47441|M|40.24,19.06|Z|Dazar'alor|N|From Nokano.|RANK|3|
 C Pests|QID|47441|M|40.58,18.88|Z|Dazar'alor|QO|1|N|Kill the little pests.|
 C Pests|QID|47441|M|35.36,7.63|Z|Dazar'alor|QO|2|NC|N|Follow the Big One.|
@@ -155,7 +22,6 @@ A Curse of Jani|QID|47442|M|35.36,7.63|Z|Dazar'alor|N|From Jani.|RANK|3|PRE|4744
 C Curse of Jani|QID|47442|M|38.57,17.70|Z|Dazar'alor|QO|1|NC|N|Run back to Nokano.|
 C Curse of Jani|QID|47442|M|40.10,19.30|Z|Dazar'alor|QO|2|NC|N|Bite Nokano.|
 T Curse of Jani|QID|47442|M|35.46,7.71|Z|Dazar'alor|N|To Jani. You have now opened up Jani's cursed treasure quests all over Zandalar.|
-
 ;Deep in the Swamp
 T Journey to Nazmir|QID|47103|Z|Dazar'alor|M|51.66,41.31|N|To Rokhan.|
 A Nazmir, the Forbidden Swamp|QID|48535|M|51.66,41.31|Z|Dazar'alor|N|From Rokhan.|PRE|47103|LEAD|47105|
@@ -185,7 +51,6 @@ A The Aid of the Loa|QID|47188|M|39.14,79.08|N|From Princess Talanji.|PRE|47263|
 C The Aid of the Loa|QID|47188|M|39.14,79.08|CHAT|N|Listen to Talanji and Rokhan|
 T The Aid of the Loa|QID|47188|M|39.14,79.08|N|To Princess Talanji.|
 A The Shadow of Death|QID|47241|M|39.14,79.08|N|From Princess Talanji.|PRE|47188|
-
 A WANTED: Tojek|QID|51089|M|39.56,79.94|N|From Scouting Map.|RANK|2|
 A Urok, Terror of the Wetlands|QID|48669|M|38.84,77.70|N|From Sur'jan.|RANK|2|PRE|47188|
 C Urok, Terror of the Wetlands|QID|48669|M|38.55,77.36|NC|N|Observe Urok, Terror of the Wetlands.|
@@ -199,7 +64,6 @@ C Crocolisk Life|QID|48573|M|34.38,77.47|U|152596|US|N|Finish absorbing Snapjaw 
 C Pulling Fangs|QID|48574|M|36.44,71.39|US|N|Finish collecting the Saurid Teeth.|
 K Primal Snapjaw|QID|50437|L|157801|M|34,75|N|Kill the crockolisk until you loot a Snapjaw Tail.|RANK|3|PRE|47442|
 $ Mysterious Trashpile|QID|50437|M|33.99,75.10|N|If you heard Jani's guttural voice (which means you found the Snapjaw Tail around here), Jani wants the shiny.|ITEM|157801|RANK|2|PRE|47442|
-
 T Crocolisk Life|QID|48573|M|34.10,78.56|N|To Sur'jan.|
 T Pulling Fangs|QID|48574|M|34.10,78.56|N|To Sur'jan.|
 A Safe Flying|QID|48576|M|34.08,78.57|N|From Sur'jan.|RANK|2|PRE|48574&48573|
@@ -233,7 +97,6 @@ A Urok's True Death|QID|48591|M|28.77,72.64|N|From Sur'jan.|RANK|2|PRE|48590&485
 C Urok's True Death|QID|48591|M|26.01,73.49|N|Kill Urok.|T|Urok|
 T Urok's True Death|QID|48591|M|28.78,72.64|N|To Sur'jan.|
 K Tojek|ACTIVE|51089|QO|1|M|27.30,67.41|T|Tojek|N|You can use the group finder if you need help for this, recommended 3 person quest to kill Tojek.|
-
 ;A Pact with Death
 C The Shadow of Death|QID|47241|M|39.63,65.00|NC|QO|1|N|Click to investigate the Weathered Shrine.|
 C The Shadow of Death|QID|47241|M|37.48,63.07|QO|2|NC|N|Pick up the spear from inside the ruins.|
@@ -270,13 +133,11 @@ $ Wunja's Trove|QID|49313|M|34.67,54.98;35.41,54.97|CS|N|Stealing from the Blind
 K Xu'ba|QID|50348|M|36.72,50.81|QO|1|RARE|ITEM|162619|T|Xu'ba|N|Silver Elite for resources and artifact power.|RANK|2|
 K Blood Witch Najima|ACTIVE|47244|M|38.46,50.12|T|Blood Witch Najima|N|Kill Blood Witch Najima.|
 T A Culling of Souls|QID|47244|M|39.52,43.87|N|To Hanzabu.|
-
 A Spiritual Restoration|QID|49278|M|39.52,43.87|N|From Hanzabu.|PRE|47244|
 f Zo'bal Ruins|ACTIVE|49278|M|40.18,42.81|N|At Du'ba.|
 C Spiritual Restoration|QID|49278|M|40.89,43.54;39.03,43.92;38.86,43.49|CN|NC|N|Click on the glowing balls to restore the Drained Spirits.|
 T Spiritual Restoration|QID|49278|M|39.53,43.83|N|To Hanzabu.|
 A The Necropolis|QID|47868|M|39.50,43.83|N|From Hanzabu.|PRE|49278|
-
 ;Undercover Sista
 A Blood Troll on the Outside|QID|49440|M|39.65,43.85|N|From Witch Doctor Kejabu.|PRE|49278|
 C Blood Troll on the Outside|QID|49440|M|39.74,43.52|QO|1|NC|N|Click on the Ritual components around the circle.|
@@ -319,7 +180,6 @@ A Upward and Onward|QID|49082|M|31.25,46.81|N|From Jo'chunga.|PRE|49081|
 C Upward and Onward|QID|49082|M|31.27,46.83|QO|1|NC|N|Take the proffered Flight out of Hir'eek's Lair(Optional).|
 C Upward and Onward|QID|49082|M|39.64,43.82|QO|2|CHAT|N|Inform Witch Doctor Kejabu.|
 T Upward and Onward|QID|49082|M|39.64,43.82|N|To Witch Doctor Kejabu.|
-
 T The Necropolis|QID|47868|M|39.58,32.57|N|To Hanzabu.|
 A A Tribute for Death|QID|47880|M|39.58,32.57|N|From Hanzabu.|PRE|47868|
 C A Tribute for Death|QID|47880|M|39.54,32.25|QO|1|NC|N|Run around the circle following the lines.|
@@ -361,7 +221,6 @@ A Catching Up|QID|49185|M|39.39,44.02|N|From Princess Talanji.|PRE|47250|
 C Catching Up|QID|49185|M|39.39,44.02|CHAT|N|Tell Talanji about Bwonsamdi and Hir'eek|
 T Catching Up|QID|49185|M|39.39,44.02|N|To Princess Talanji.|
 A Torga, the Turtle Loa|QID|49064|M|39.45,44.01|N|From Lashk.|PRE|49185|
-
 A Surprise Backup|QID|49477|M|33.97,39.62|N|From Torn Horde Missive.|RANK|3|
 K Tainted Guardian|QID|48508|QO|1|M|31.40,38.15|T|Tainted Guardian|N|Silver Elite to kill for resources and artifact power.|RANK|3|RARE|;item unknown
 T Surprise Backup|QID|49477|M|28.63,43.74|N|To Chadwick Paxton.|
@@ -389,7 +248,6 @@ T Didn't Stop to Think if They Should|QID|49479|M|25.82,36.03|N|To Chadwick Paxt
 A Return to Dust|QID|48499|M|25.82,36.03|N|From Chadwick Paxton.|RANK|3|PRE|49479|
 C Return to Dust|QID|48499|M|26.25,37.27|NC|N|Head down into the sethrak camp and use your special action button till the Sethrak are ALL dead.|
 T Return to Dust|QID|48499|M|25.82,36.03|N|To Chadwick Paxton.|
-
 K Venomjaw|QID|48626|M|30.59,51.36|QO|1|T|Venomjaw|RARE|ITEM|161028|N|Silver Elite to kill for resources and artifact power.|RANK|2|
 T Hunting Zardrax|QID|49314|M|31.05,52.08|N|To Shadow Hunter Da'jul.|
 A Offer of Power|QID|48854|M|30.97,52.18|N|From Zardrax the Empowerer.|RANK|2|PRE|49314|
@@ -451,9 +309,7 @@ T Bad To The Bone|QID|49779|M|24.13,53.23|N|To Zaluto.|
 A Catch Me if You Can|QID|49781|M|24.13,53.21|N|From Zaluto.|RANK|2|PRE|49780&49779|
 C Catch Me if You Can|QID|49781|M|28.18,53.39|V|N|Hop on Zaluto's raptor. After a bit he stops -- facing Zulajin -- use the "1" key. the rapter will run towards the puddle of tar, in a little while 2 key becomes available, use it. Run away some more and then when the 3 key becomes avaiable -- use it repeatedly until Zulajin is dead.|T|Zulajin|
 T Catch Me if You Can|QID|49781|M|28.36,52.03|N|To Jin'Tiki.|
-
 K King Kooba|QID|49317|M|53.63,42.64|QO|1|RARE|ITEM|161221|T|King Kooba|N|Silver Elite to kill for resources and artifact power.|RANK|2|
-
 ;Turtle Power
 R Natha'vor|ACTIVE|49064|M|53.31,39.30|N|Follow the road east to Nath'vor.|
 C Torga, the Turtle Loa|QID|49064|M|55.67,39.37|CHAT|QO|1|N|Meet Kisha.|
@@ -480,7 +336,6 @@ T Killing Cannibals|QID|47998|M|55.85,32.36|N|To Kajosh.|
 T Just Say No to Cannibalism|QID|47919|M|55.85,32.36|N|To Kajosh.|
 C Torga, the Turtle Loa|QID|49064|M|55.53,28.83|NC|QO|2|N|View Torga.|
 T Torga, the Turtle Loa|QID|49064|M|56.58,26.70|N|To Princess Talanji.|
-
 A Beseeching Bwonsamdi|QID|49067|M|56.58,26.70|N|From Princess Talanji.|PRE|49064|
 C Beseeching Bwonsamdi|QID|49067|M|56.58,26.70|CHAT|N|Tell Talanji you are ready.|
 T Beseeching Bwonsamdi|QID|49067|M|56.58,26.70|N|To Princess Talanji.|
@@ -513,7 +368,6 @@ A Forcing Fate's Hand|QID|49126|M|65.72,17.97|N|From Kisha.|PRE|49125&49123&4912
 C Forcing Fate's Hand|QID|49126|M|65.73,17.87|QO|1|NC|N|Use Extra Action button to summon Hand of Fate.|
 C Forcing Fate's Hand|QID|49126|M|63.30,15.31|QO|2|N|1 is a single target attack \n2 is an AE attack \n3 is a heal. \nGo forth and destroy the undead.|
 T Forcing Fate's Hand|QID|49126|M|58.48,13.78|N|To Kisha.|
-
 A Loa-Free Diet|QID|49130|M|58.48,13.78|N|From Kisha.|PRE|49126|
 A Sanctifying Ground|QID|49131|M|58.48,13.85|N|From Princess Talanji.|PRE|49126|
 A Crushing the Skullcrushers|QID|49132|M|58.52,13.89|N|From Lashk.|PRE|49126|
@@ -533,7 +387,6 @@ T Jungo, Herald of G'huun|QID|49136|M|56.57,26.68|N|To Princess Talanji.|
 A Torga's Eternal Return|QID|49160|M|56.51,26.64|N|From Lashk.|PRE|49136|
 C Torga's Eternal Return|QID|49160|M|56.51,26.64|U|153131|NC|N|Use the scroll to put Torga's spirit to rest.|
 T Torga's Eternal Return|QID|49160|M|56.59,26.75|N|To Kisha.|
-
 A To Gloom Hollow|QID|49902|M|56.59,26.75|N|From Kisha.|PRE|49160|
 R Razorjaw River|ACTIVE|49902|M|55.79,34.32|N|Follow whats left of the road across the Razorjaw river to find the Tortollans.|
 R Towards Gloom Hollow and Crez|QID|49902|M|55.65,39.40|CC|CHAT|N|Talk to Crez.|
@@ -546,7 +399,6 @@ A Getting the Message|QID|47245|M|67.44,42.30|N|From Rokhan.|PRE|49902|
 A Staying Hidden|QID|47525|M|67.40,42.03|N|From Shadow Hunter Mutumba.|PRE|49902|
 A WANTED: Ayame|QID|52477|M|67.22,40.83|N|From Wanted Poster.|RANK|2|
 C Getting the Message|QID|47245|M|68.53,43.82|QO|1|NC|N|Click on the rocket to read the message.|
-
 ;A friend of the frogs
 C Staying Hidden|QID|47525|M|68.62,46.50|NC|N|Investigate the Frogmarsh.|
 T Staying Hidden|QID|47525|M|68.59,46.75|N|To Witch Doctor Zentimo.|
@@ -607,7 +459,6 @@ C Krag'wa's Aid|QID|47697|M|67.53,42.98|NC|N|Return to Gloom Hollow.|
 T Getting the Message|QID|47245|M|67.44,42.31|N|To Rokhan.|
 A Rendezvous with the Libation|QID|47631|M|67.44,42.31|N|From Rokhan.|PRE|47245|
 T Krag'wa's Aid|QID|47697|M|67.43,42.21|N|To Princess Talanji.|
-
 ;side trip for a battle pet
 A A Chance Sighting|QID|50934|M|66.82,41.91|N|From Yash.|RANK|3|
 T A Chance Sighting|QID|50934|M|64.00,50.40|N|A Vial of Antidote.|
@@ -638,7 +489,6 @@ A It Seems You've Made a Friend|QID|49382|M|63.18,52.73|N|From Chronicler Jabari
 K Glompmaw|QID|50361|M|68.94,55.84|T|Glompmaw|QO|1|RARE|ITEM|160985|N|Silver Elite to kill for resources and artifact power.|RANK|3|
 C It Seems You've Made a Friend|QID|49382|M|74.71,55.89|NC|N|Run to Krag'wa.|
 T It Seems You've Made a Friend|QID|49382|M|75.46,56.72|N|To Krag'wa the Huge. Note, the pet is cage-able if you already have one.|
-
 ;Bring the Boom
 R Wayward Shoals|ACTIVE|47631|M|73.57,54.13;68.94,44.62|CS|N|Run generally northeast towards Wayward Shoals.|
 T Rendezvous with the Libation|QID|47631|M|74.58,38.84|N|To Patch.|
@@ -679,7 +529,6 @@ A Ready For Action|QID|47602|M|81.35,26.09|N|From Patch.|PRE|47601|
 C Ready For Action|QID|47602|M|81.27,26.28|QO|1|V|N|Obtain ride from Newt's Emergency Rocket (Optional)|
 C Ready For Action|QID|47602|M|67.27,42.78|QO|2|NC|N|Return to Talanji|
 T Ready For Action|QID|47602|M|67.42,42.24|N|To Princess Talanji.|
-
 ;Everything Contained
 A Slumber No More|QID|49932|M|67.50,41.95|N|From Lashk.|PRE|47602|
 K Ayame|ACTIVE|52477|M|60.04,33.79|QO|1|S|T|Ayame|N|Kill Ayame. Avoid, interrupt or dispell the acid spit and its not too hard. You may want to be on the lookout for a partner while you are doing this next set of quests for the Titan.|
@@ -735,7 +584,6 @@ C Return to Gloom Hollow|QID|49985|M|66.01,39.13|QO|1|V|N|Hop on Titan Keeper He
 T Return to Gloom Hollow|QID|49985|M|67.43,42.23|N|To Princess Talanji.|
 A Down by the Riverside|QID|49569|M|67.43,42.23|N|From Princess Talanji.|PRE|49985|
 t WANTED: Ayame|QID|52477|M|67.76,41.85|N|To Korkush.|
-
 ;bleeding the blood trolls
 C Down by the Riverside|QID|49569|M|65.70,45.09|QO|1|CHAT|N|Speak with Patch to board the barge|
 C Down by the Riverside|QID|49569|M|39.89,84.92|QO|2|NC|N|Use the "1" key to destroy enemies as you sail down the river, at one point, near zuldazar, use the "2" key to destroy the big water serpent.|
@@ -782,9 +630,7 @@ C Raiding the Raiders|QID|50080|M|45.34,58.59|US|N|Bonus Objective - Finish this
 T Raiding the Raiders|QID|50080|M|45.34,58.59|N|Bonus Objective - Autocompleted.|
 K Jax'teb the Reanimated|QID|50307|M|45.17,51.79|QO|1|RARE|ITEM|160969|T|Jax'teb the Reanimated|N|One more Silver Elite to kill and loot for artifact power and resources.|RANK|3|
 T A Message of Blood and Fire|QID|50085|M|44.28,54.06|N|To Rokhan. The path up from Jax'teb takes you to Rokhan.|
-
 K Mala'kili|QID|50040|M|45.67,56.83;50.17,53.91;53.06,54.30|CS|QO|1|RARE|ITEM|163703|T|Mala'kili|N|Run down the hill for this Silver Elite. Mala'kili's pet crawg, Rohn'kor, will come join in the fight. Kill and loot for artifact power and resources. After you kill it, back up the hill to find Krag'wa.|RANK|3|;there is not any very good place for this. I think this is the closest. ... Although perhaps after picking up the dungeon quest is better.
-
 C Petitioning Krag'wa|QID|52073|M|45.18,60.70|CHAT|N|Petition Krag'wa for aid. (you need to be dismounted)|
 T Petitioning Krag'wa|QID|52073|M|49.39,57.19|N|To Princess Talanji.|
 A Ateena's Fall|QID|50087|M|49.39,57.19|N|From Princess Talanji.|;pres per Grail not correct
@@ -798,7 +644,6 @@ A The Underrot: Sealing G'huun's Corruption|QID|51302|M|51.73,65.69|NA|N|From Ti
 A Halting the Empire's Fall|QID|50808|M|51.91,65.56|N|From Rokhan. If you are sticking around for the remainder of the quests and rares, don't take Rokhan's offered flight.|PRE|51244|RANK|3|
 A Halting the Empire's Fall|QID|50808|M|51.91,65.56|N|From Rokhan.|PRE|51244|
 F Zul'jan Ruins|ACTIVE|50808|M|51.91,65.56|N|Queue if you want to do the dugeon now or ask Rokhan for a ride back to Zul'jan. Alternatively check this off manually and hearth to The Great Seal.|RANK|-1|
-
 K Queen Tzxi'kik|QID|49312|M|53.07,65.50;55.60,65.91;55.84,70.15;55.77,69.23;57.69,67.67|CS|QO|1|T|Queen Tzxi'kik|RARE|ITEM|160963|N|Run up the hill to find this Silver Elite and kill for artifact power and resources.|RANK|3|
 K Overstuffed Saurolisk|QID|47827|M|62.47,64.67|QO|1|RARE|ITEM|160987|T|Overstuffed Saurolisk|N|Silver Elite, not part of the achievement, but hey, we were in the area.|RANK|3|
 A Taking the Loa Road|QID|50444|M|53.99,74.09|N|Click on the mysterious trashpile, to Summon Jani who will offer this quest.|PRE|47442|RANK|3|;not spurious
@@ -811,15 +656,10 @@ C An Ancient Curse|QID|50976|QO|1|M|52.48,73.87;51.72,71.83;54.06,72.10;54.41,70
 K Aiji the Accursed|ACTIVE|50976|QO|2|M|52.99,72.06|T|Aiji the Accursed.|N|Kill Aiji the Accursed.|
 T An Ancient Curse|QID|50976|M|52.99,72.06|N|To UI Alert.|
 K Azerite-Infused Elemental|QID|50569|M|54.01,81.15|QO|1|T|Azerite-Infused Elemental|N|Silver Elite for artifact power and resources.|RARE|RANK|3|;item unknown
-
 H The Great Seal|ACTIVE|50808|M|51.91,65.56|N|To The Great Seal to turn in the final quest.|
 T Halting the Empire's Fall|QID|50808|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|To Baine Bloodhoof.|
 A The Blood Gate|QID|47199|M|40.89,73.00|Z|Hall of Croniclers!Dazar'alor|N|From Baine Bloodhoof. This quest requires you have completed the zone achievement for Nazmir as well as Zandalar.|PRE|50963&50808|;prolly spurious as its prolly an ach it depends on instead, but...quest not avail until you turn in those 2 quests.
 A Pick next zone|QID|47512^47513^47514|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.|
-
 J Back to Zuldazar|QID|47199|N|This ends the Nazmir guide, The Blood Gate (required for Pathfinder I) is completed in the Zuldazar guide, which will open when you check off this step.|GUIDE|EmmZuldazar|
-
 ]]
 end)
-
-

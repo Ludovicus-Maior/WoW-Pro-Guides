@@ -1,78 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_tanaris_horde
--- Date: 2018-10-17 02:27
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3260/revisions/29098/view
--- Date: 2018-02-20 21:51
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3260/revisions/28893/view
--- Date: 2018-01-16 23:45
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3260/revisions/28435/view
--- Date: 2017-03-15 23:33
--- Who: Ludovicus_Maior
--- Log: Added PREs to JiyTan4550
-
--- URL: http://wow-pro.com/node/3260/revisions/26446/view
--- Date: 2014-06-02 15:04
--- Who: Ludovicus_Maior
--- Log: Level Setting
-
--- URL: http://wow-pro.com/node/3260/revisions/26257/view
--- Date: 2014-05-25 23:07
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3260/revisions/26086/view
--- Date: 2014-05-18 21:57
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3260/revisions/26017/view
--- Date: 2014-05-16 22:05
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3260/revisions/25448/view
--- Date: 2013-01-13 17:43
--- Who: Ludovicus_Maior
--- Log: Copied [A Great Idea] sequence from Alliance guide.
-
--- URL: http://wow-pro.com/node/3260/revisions/24945/view
--- Date: 2012-02-11 19:47
--- Who: Crackerhead22
--- Log: ?
-
--- URL: http://wow-pro.com/node/3260/revisions/24352/view
--- Date: 2011-04-29 18:11
--- Who: Ludovicus_Maior
--- Log: Line 150 for step C Bad coord In the center of the desert:
-
--- URL: http://wow-pro.com/node/3260/revisions/23402/view
--- Date: 2010-12-03 11:49
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3260/revisions/23401/view
--- Date: 2010-12-03 11:49
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('JiyTan4550', "Leveling", 'Tanaris', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,43,49, 44.6667)
-WoWPro:NewGuideLevels(guide,40,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'JiyUng5055')
-WoWPro:GuideIcon(guide,"ACH",4935)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 h Gadgetzan|QID|24906|M|52.59,27.00|N|Set your hearth at Innkeeper Fizzgrimble, if you'd like.|
 A Butcherbot|QID|25112|RANK|2|M|52.22,28.13|N|From Driz Plunkbow.|
 T Tanaris is Calling|O|QID|27447|M|51.26,29.93|N|To Megs Dreadshredder.|
@@ -86,7 +16,6 @@ C Puddle Stomping|QID|24907|US|M|54.82,41.24|N|Kill giants.|
 C Butcherbot|QID|25112|RANK|2|U|52715|US|M|48.78,34.15|N|Use the butcherbot on corpses of basilisks.|
 T Puddle Stomping|QID|24907|M|51.26,29.89|N|To Megs Dreadshredder.|
 T Seaside Salvage|QID|24906|M|51.23,29.94|N|To Megs Dreadshredder.|
-
 A Rocket Rescue|QID|24910|PRE|24906&24907|M|51.23,29.94|N|From Megs Dreadshredder.|
 T Butcherbot|QID|25112|RANK|2|M|52.23,28.09|N|To Driz Plunkbow.|
 A Scavengers Scavenged|QID|25111|RANK|2|PRE|25112|M|52.23,28.09|N|From Driz Plunkbow.|
@@ -95,7 +24,6 @@ T Rocket Rescue|QID|24910|M|51.26,29.91|N|To Megs Dreadshredder.|
 A Momentum|QID|24947|PRE|24910&24907|M|51.26,29.91|N|From Megs Dreadshredder.|
 C Scavengers Scavenged|QID|25111|RANK|2|M|49.43,36.07;44.19,40.97|CN|N|On the way to Megs, stop at the skeletons just outside of town and kill and use the butcherbot on Fire Rocs.|
 T Momentum|QID|24947|M|67.89,41.85;71.84,45.39|CC|N|To Megs Dreadshredder.|
-
 A Dead Man's Chest|QID|24927|PRE|24910|M|71.84,45.39|N|From Megs Dreadshredder.|
 A To The Ground!|QID|24928|PRE|24910|M|71.84,45.39|N|From Megs Dreadshredder.|
 A Booty Duty|QID|24949|PRE|24910|M|71.84,45.39|N|From Megs Dreadshredder.|
@@ -107,7 +35,6 @@ C To The Ground!|QID|24928|U|51547|M|72.76,46.15|N|The last building to torch is
 C Booty Duty|QID|24949|US|M|72.60,46.10|N|Loot the shiny items - they are mostly inside the buildings.|
 C Dead Man's Chest|QID|24927|US|M|71.22,46.67|N|Kill Southsea Pirates.|
 T Dead Man's Chest|QID|24927|M|71.86,45.41|N|To Megs Dreadshredder.|
-
 A Going Off-Task|QID|25534|PRE|24927|M|71.86,45.41|N|From Megs Dreadshredder.|
 T To The Ground!|QID|24928|M|71.86,45.41|N|To Megs Dreadshredder.|
 T Booty Duty|QID|24949|M|71.86,45.41|N|To Megs Dreadshredder.|
@@ -119,7 +46,6 @@ T Filling Our Pockets|QID|25541|M|71.85,45.38|N|To Megs Dreadshredder.|
 A Captain Dreadbeard|QID|24950|PRE|24928&25534&25541|M|71.85,45.38|N|From Megs Dreadshredder.|
 C Captain Dreadbeard|QID|24950|M|70.97,55.60|N|The captain will summon a giant to help him fight, so be ready!|
 T Captain Dreadbeard|QID|24950|M|71.85,45.39|N|Back to Megs Dreadshredder.|
-
 A Bootlegger Outpost|QID|25103|PRE|24950|M|71.85,45.39|N|From Megs Dreadshredder.|
 T Bootlegger Outpost|QID|25103|M|55.66,60.84|N|To Zeke Bootscuff.|
 A Cutting Losses|QID|24932|PRE|26889^25103|M|55.66,60.84|N|From Zeke Bootscuff.|
@@ -136,12 +62,10 @@ C Chicken of the Desert|QID|24933|M|52.10,54.14|N|From the hyenas spread out to 
 C Gazer Tag|QID|24931|RANK|2|US|M|52.51,54.90|N|From the basilisks spread out to the north of the camp.|
 T Gazer Tag|QID|24931|RANK|2|M|55.28,60.25|N|To Narain Soothfancy.|
 T Chicken of the Desert|QID|24933|M|55.63,60.79|N|To Zeke Bootscuff.|
-
 A A Great Idea|QID|24951|PRE|24933|M|55.60,60.80|N|From Zeke Bootscuff.|
 T Gazer Tag|QID|24931|M|55.27,60.19|N|To Narain Soothfancy.|
 C A Great Idea|QID|24951|U|52031|M|54.48,64.19|N|Look for the big fat beetle, they are usually accompanied by a tiny little one. Throw the bait and WALK back. Do not mount, this will de-spawn your bug.|
 T A Great Idea|QID|24951|M|55.65,60.79|N|To Zeke Bootscuff.|
-
 A Just Trying to Kill Some Bugs|QID|24953|PRE|24951|M|55.65,60.79|N|From Zeke Bootscuff.|
 R Talk to Narain Soothfancy.|QID|24953|CC|M|55.25,60.26|N|All that meat grinding was worth it, now you get to pilot a silithid!|
 R Go here|QID|24953|CC|M|54.66,69.60|N|Go to the hole here; it's the first one you see on the way down the ramp and you will be heading south west as you enter.|
@@ -149,7 +73,6 @@ R Then here...|QID|24593|CC|M|54.19,70.07|N|Go to the cave mouth here, and take 
 R Then finally here...|QID|24593|CC|M|54.02,71.85|N|Into the circle room. Get in there center, and hit button 2.|
 C Just Trying to Kill Some Bugs|QID|24953|M|54.54,72.01|N|Explode!|
 T Just Trying to Kill Some Bugs|QID|24953|M|55.65,60.83|N|To Zeke Bootscuff.|
-
 A Returning a Favor|QID|24905|LEAD|24955|PRE|24953|M|55.64,60.82|N|From Zeke Bootscuff.|
 A Find OOX-17/TN!|QID|351|O|U|8623|N|By now you should be high enough level to handle the Beacon quest. This is why I have pathed this guide like this up until now, giving you more chance to loot the Beacon. If you have not had the beacon drop please skip this step.|
 T Find OOX-17/TN!|QID|351|O|M|59.81,64.06|N|To Homing Robot OOX-17/TN.|
@@ -159,7 +82,6 @@ T Returning a Favor|QID|24905|M|44.57,52.64|N|To Megs Dreadshredder.|
 A Un-Chartered|QID|24955|M|44.57,52.64|N|From Megs Dreadshredder.|
 C Un-Chartered|QID|24955|NC|U|52038|M|38.88,52.95|N|Put on your ogre suit. Now, before you do anything else, /dance! Just talk to the ogres to get their signatures.|
 T Un-Chartered|QID|24955|M|44.58,52.65|N|Back to Megs Dreadshredder.|
-
 A Get The Centipaarty Started|QID|24957|PRE|24955|M|44.58,52.65|N|From Megs Dreadshredder.|
 C Get The Centipaarty Started|QID|24957|M|33.05,43.56|N|Kill and loot silithid in the Noxious Lair.|
 T Get The Centipaarty Started|QID|24957|M|44.57,52.64|N|Back to Megs Dreadshredder.|
@@ -168,7 +90,6 @@ C Maul 'Em With Kindness|QID|24963|U|52044|M|41.06,53.82|N|Beat the ogres down t
 T Maul 'Em With Kindness|QID|24963|M|44.55,52.65|N|To Megs Dreadshredder.|
 A Sandscraper|QID|25001|PRE|24963|M|44.55,52.65|N|From Megs Dreadshredder.|
 C Sandscraper|QID|25001|M|41.71,57.34|N|Inside the small cave.|
-
 A Sandscraper's Treasure|QID|25014|M|41.86,57.49|N|From the chest behind the ogre.|
 T Sandscraper|QID|25001|M|44.58,52.65|N|To Megs Dreadshredder.|
 T Sandscraper's Treasure|QID|25014|M|44.58,52.65|N|To Megs Dreadshredder.|
@@ -178,7 +99,6 @@ T Scavengers Scavenged|QID|25111|RANK|2|M|52.25,28.04|N|To Driz Plunkbow.|
 A Blisterpaw Butchery|QID|25115|PRE|25111|RANK|2|M|52.25,28.04|N|From Driz Plunkbow.|
 C Blisterpaw Butchery|QID|25115|RANK|2|U|52715|M|46.97,28.61|N|Use the bot on hyena corpses - you can find hyenas west of Gadgetzan.|
 T Blisterpaw Butchery|QID|25115|RANK|2|M|52.25,28.05|N|To Driz Plunkbow.|
-
 A Sandsorrow Watch|QID|25091|PRE|25115|RANK|2|M|52.25,28.05|N|From Driz Plunkbow.|
 R Sandsorrow Watch|QID|25521|RANK|2|M|42.46,24.24|N|It's located in the north-western corner of the zone.|
 T Sandsorrow Watch|QID|25091|RANK|2|M|42.44,24.10|N|To Trenton Lighthammer.|
@@ -188,7 +108,6 @@ C I'm With Scorpid|QID|25521|S|RANK|2|M|42.14,26.16|N|Kill and loot scorpids in 
 C Blood to Thrive|QID|25021|RANK|2|M|36.42,24.46|N|Kill and loot trolls. Troll zombies DON'T drop it.|
 C I'm With Scorpid|QID|25521|US|RANK|2|M|42.14,26.16|N|Kill and loot scorpids in the area.|
 T Blood to Thrive|QID|25021|RANK|2|M|42.29,23.94|N|Back to Mazoga.|
-
 A Sang'thraze the Deflector|QID|25025|PRE|25021|RANK|2|M|42.29,23.94|N|From Mazoga.|
 T I'm With Scorpid|QID|25521|RANK|2|M|42.47,24.24|N|To Gus Rustflutter.|
 A Gargantapid|QID|25522|PRE|25521|RANK|2|M|42.46,24.24|N|From Gus Rustflutter.|
@@ -203,7 +122,6 @@ C Fragments of Language|QID|25020|M|41.19,70.97|N|Right-click tablets to loot th
 C Laying Claim|QID|25019|US|M|41.41,69.61|N|Kill dwarves in the area.|
 T Fragments of Language|QID|25020|M|33.30,76.99|N|Back to Examiner Andoren Dawnrise.|
 T Laying Claim|QID|25019|M|33.30,76.99|N|To Examiner Andoren Dawnrise.|
-
 A Ancient Obstacles|QID|25017|PRE|25019&25020|M|33.30,76.99|N|From Examiner Andoren Dawnrise.|
 C Ancient Obstacles|QID|25017|M|37.24,75.11|N|Kill golems outside of Uldum.|
 T Ancient Obstacles|QID|25017|M|33.29,77.01|N|To Examiner Andoren Dawnrise.|
@@ -214,7 +132,6 @@ T The Secrets of Uldum|QID|25069|M|84.48,43.25|Z|Uldum|N|To the Antediluvean Che
 A What Lies Within|QID|25070|PRE|25069^25566|M|84.48,43.25|Z|Uldum|N|From the Antediluvean Chest. Be prepared to defend yourself!|
 C What Lies Within|QID|25070|M|84.47,43.12|Z|Uldum|N|Kill the guardian.|
 T What Lies Within|QID|25070|M|84.48,43.22|Z|Uldum|N|To the Antediluvean Chest.|
-
 A The Grand Tablet|QID|25107|PRE|25070|M|84.45,43.24|Z|Uldum|N|From the Antediluvean Chest.|
 C The Crumbling Past|QID|25068|M|84.73,41.31|Z|Uldum|US|N|Kill Earthen and loot them.|
 T The Grand Tablet|QID|25107|M|33.28,77.02|N|To Examiner Andoren Dawnrise.|
@@ -226,14 +143,12 @@ T Sang'thraze the Deflector|QID|25025|RANK|2|M|42.29,23.87|N|To Mazoga.|
 A Darkest Mojo|QID|25026|PRE|25025|RANK|2|M|42.29,23.87|N|From Mazoga.|
 C Darkest Mojo|QID|25026|RANK|2|M|38.29,23.41|N|From the zombies. You can right-click the graves to make a zombie spawn.|
 T Darkest Mojo|QID|25026|RANK|2|M|42.27,23.90|N|Back to Mazoga.|
-
 A Secrets in the Oasis|QID|25032|PRE|25026|RANK|2|M|42.27,23.90|N|From Mazoga.|
 C Secrets in the Oasis|QID|25032|RANK|2|M|39.13,35.06|N|Right-click the bit of muck in the bottom of the pool, then prepare to defend yourself!|
 T Secrets in the Oasis|QID|25032|RANK|2|M|42.45,24.04|N|To Trenton Lighthammer.|
 A Into Zul'Farrak|QID|25556|LEAD|27068|PRE|25032|RANK|2|M|42.45,24.04|N|From Trenton Lighthammer. Pick this up if you plan to do Zul'Farrak.|
 T The Thunderdrome!|QID|26896|M|51.81,28.02|N|To Dr. Dealwell.|
 N Group Quest|QID|25591|N|The last few quests require a small group to complete. They are all very fast, don't require you to leave Gadgetzan, and result in a very nice blue quality reward, so I definitely recommend trying to finish them up before you head to the next zone. That said, they are completely optional and you can simply skip the next step to move on to the next guide.|
-
 A Thunderdrome: The Ginormus!|QID|25067|M|51.81,28.02|N|From Dr. Dealwell.|
 C Thunderdrome: The Ginormus!|QID|25067|M|51.62,28.49|N|Go inside the cage and defeat Ginormous.|
 T Thunderdrome: The Ginormus!|QID|25067|M|51.66,27.97|N|To Katrina Turner.|
@@ -246,8 +161,5 @@ T Thunderdrome: Sarinexx!|QID|25095|M|51.64,27.98|N|To Katrina Turner.|
 A Thunderdrome: Grudge Match!|QID|25591|PRE|25095|M|51.80,28.04|N|From Dr. Dealwell.|
 C Thunderdrome: Grudge Match!|QID|25591|M|51.64,28.38|N|Go inside the cage and defeat Kelsey Steelspark.|
 T Thunderdrome: Grudge Match!|QID|25591|M|51.64,27.97|N|To Katrina Turner.|
-
 ]]
 end)
-
-

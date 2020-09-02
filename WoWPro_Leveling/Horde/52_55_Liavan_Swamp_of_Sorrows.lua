@@ -1,115 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_swamp_sorrows_horde
--- Date: 2018-10-17 02:27
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3250/revisions/29100/view
--- Date: 2018-02-20 21:53
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3250/revisions/28890/view
--- Date: 2018-01-16 23:44
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3250/revisions/28770/view
--- Date: 2017-08-31 21:21
--- Who: Ludovicus_Maior
--- Log: Someone forgot a ]] at the end!
-
--- URL: http://wow-pro.com/node/3250/revisions/28765/view
--- Date: 2017-08-30 01:20
--- Who: Linkslegend5
--- Log: Added breadcrumb quest at the end of the guide that leads to Blasted Lands.
-
--- URL: http://wow-pro.com/node/3250/revisions/28764/view
--- Date: 2017-08-30 00:30
--- Who: Linkslegend5
--- Log: Fixed a location error I missed last edit.
-
--- URL: http://wow-pro.com/node/3250/revisions/28763/view
--- Date: 2017-08-30 00:19
--- Who: Linkslegend5
--- Log: Forgot to put an |N| for the note in step 90 for Prayerblossom.
-
--- URL: http://wow-pro.com/node/3250/revisions/28743/view
--- Date: 2017-08-10 22:02
--- Who: Linkslegend5
--- Log: Fixed the Sunken Temple coordinate issue.
---	Changed locations on several quests to better reflect the area the mobs/items are in.
---	Added some additional notes for quests to help clarify.
-
--- URL: http://wow-pro.com/node/3250/revisions/28437/view
--- Date: 2017-03-15 23:35
--- Who: Ludovicus_Maior
--- Log: Added PREs to LiaSwa5255
-
--- URL: http://wow-pro.com/node/3250/revisions/26417/view
--- Date: 2014-06-02 13:04
--- Who: Ludovicus_Maior
--- Log: Adjusted Levels
-
--- URL: http://wow-pro.com/node/3250/revisions/26249/view
--- Date: 2014-05-25 23:01
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3250/revisions/26109/view
--- Date: 2014-05-18 22:27
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3250/revisions/26015/view
--- Date: 2014-05-16 22:04
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3250/revisions/25447/view
--- Date: 2013-01-13 17:34
--- Who: Ludovicus_Maior
--- Log: Added CN tags
-
--- URL: http://wow-pro.com/node/3250/revisions/25320/view
--- Date: 2013-01-09 22:58
--- Who: Ludovicus_Maior
--- Log: Added CS steps
-
--- URL: http://wow-pro.com/node/3250/revisions/24603/view
--- Date: 2011-06-25 01:55
--- Who: Crackerhead22
--- Log: ! Duplicate A step for qid 27598 - Removed line.
---	! Duplicate A step for qid 27600 - Removed line.
-
--- URL: http://wow-pro.com/node/3250/revisions/24337/view
--- Date: 2011-04-29 16:35
--- Who: Ludovicus_Maior
--- Log: Line 69 for step C has 1 M coords
-
--- URL: http://wow-pro.com/node/3250/revisions/23626/view
--- Date: 2010-12-06 05:51
--- Who: Liavan
-
--- URL: http://wow-pro.com/node/3250/revisions/23381/view
--- Date: 2010-12-03 11:32
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3250/revisions/23380/view
--- Date: 2010-12-03 11:31
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('LiaSwa5255', "Leveling", 'Swamp of Sorrows', 'Liavan', 'Horde')
-WoWPro:GuideLevels(guide,51,54,51.5657)
-WoWPro:NewGuideLevels(guide,40,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'JiyBla5560')
-WoWPro:GuideIcon(guide,"ACH",4904)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 T The Bogpaddle Bullet|QID|28570|M|72.97,14.78|N|To Trade Baron Silversnap.|
 A Maliciously Delicious|QID|27587|M|72.97,14.78|N|From Trade Baron Silversnap.|
 f Bogpaddle|QID|27587|M|72.14,12.13|N|At Skeezie.|
@@ -138,7 +31,6 @@ C Can't Take It With Them|QID|27599|U|62795|M|90.25,24.92|
 T Kill Gil|QID|27598|M|83.88,40.02|N|To Crazy Larry.|
 T Can't Take It With Them|QID|27599|M|83.88,40.02|N|To Crazy Larry.|
 A In With a Bang|QID|27600|PRE|27598&27599|M|83.88,40.02|N|From Crazy Larry.|
-
 C In With a Bang|QID|27600|M|83.82,37.62;98.75,26.96|CC|N|Talk to Lil'Crazy jerry, and use the cannon to launch you to the ship.|
 T In With a Bang|QID|27600|M|84.00,40.11|N|Use the cannon on the top deck to launch you back to the shore.|
 A Baba Bogbrew|QID|27740|PRE|27600|M|84.00,40.11|N|From Crazy Larry.|
@@ -214,5 +106,3 @@ T Ruag's Report|QID|27916|M|49.38,55.36|N|To Dispatch Commander Ruag.|
 A Okrilla and the Blasted Lands|QID|28553|LEAD|25674|PRE|27196|M|49.39,55.39|N|From Dispatch Commander Ruag. Take this if you're going to Blasted Lands next.|
 ]]
 end)
-
-

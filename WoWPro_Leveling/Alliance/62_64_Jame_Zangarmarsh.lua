@@ -1,170 +1,8 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_zangarmarsh_alliance
--- Date: 2020-04-07 22:44
--- Who: Ludovicus_Maior
--- Log: [WANTED: Chieftain Mummaki]
-
--- URL: http://wow-pro.com/node/3273/revisions/29240/view
--- Date: 2018-04-22 18:50
--- Who: Ludovicus_Maior
--- Log: Added [Fhwoor Smash!] for "Mysteries of Zangarmarash" achievement.
---	Misc playthrough tweaks.
-
--- URL: http://wow-pro.com/node/3273/revisions/29176/view
--- Date: 2018-02-26 21:42
--- Who: Ludovicus_EditBot
--- Log: LVL strip
-
--- URL: http://wow-pro.com/node/3273/revisions/28836/view
--- Date: 2018-01-15 19:04
--- Who: Ludovicus
--- Log: Some tweaks, to reduce quest log burden.
-
--- URL: http://wow-pro.com/node/3273/revisions/28545/view
--- Date: 2017-03-22 08:28
--- Who: Emmaleah
--- Log: change coords for poison vial in Secrets of the Daggerfen.
-
--- URL: http://wow-pro.com/node/3273/revisions/28389/view
--- Date: 2017-03-15 21:35
--- Who: Ludovicus_Maior
--- Log: Added PREs to JamZan6264
-
--- URL: http://wow-pro.com/node/3273/revisions/27832/view
--- Date: 2016-09-24 00:41
--- Who: tubera
--- Log: Restructure to be able to start at lower level (around 60); Fix QOs; Add lvl/rep tags; move fertile spore/plant parts/bog lord tendrils to N tags at start of guide.
-
--- URL: http://wow-pro.com/node/3273/revisions/27161/view
--- Date: 2015-03-09 17:25
--- Who: Ludovicus_Maior
--- Log: Added missing |N| value.
-
--- URL: http://wow-pro.com/node/3273/revisions/26818/view
--- Date: 2014-11-06 13:40
--- Who: Fluclo
--- Log: Removed duplicate tags
-
--- URL: http://wow-pro.com/node/3273/revisions/26398/view
--- Date: 2014-05-30 12:10
--- Who: Ludovicus_Maior
--- Log: Level Adjust
-
--- URL: http://wow-pro.com/node/3273/revisions/26367/view
--- Date: 2014-05-27 21:15
--- Who: Ludovicus_Maior
--- Log: Start Level corrected from 62 to 0.
-
--- URL: http://wow-pro.com/node/3273/revisions/26268/view
--- Date: 2014-05-26 00:36
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3273/revisions/26144/view
--- Date: 2014-05-20 19:34
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3273/revisions/25983/view
--- Date: 2014-05-14 22:39
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3273/revisions/25425/view
--- Date: 2013-01-13 15:05
--- Who: Ludovicus_Maior
--- Log: Added CN tag
-
--- URL: http://wow-pro.com/node/3273/revisions/25334/view
--- Date: 2013-01-11 19:59
--- Who: Emmaleah
--- Log: fix syntax for multi coordinates
-
--- URL: http://wow-pro.com/node/3273/revisions/24889/view
--- Date: 2012-01-18 21:58
--- Who: Ludovicus_Maior
--- Log: Changed Fertile Spores from a N step to an l step.
-
--- URL: http://wow-pro.com/node/3273/revisions/24865/view
--- Date: 2011-12-13 20:18
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3273/revisions/24834/view
--- Date: 2011-12-04 16:06
--- Who: Crackerhead22
--- Log: 4.3 updates
-
--- URL: http://wow-pro.com/node/3273/revisions/24556/view
--- Date: 2011-06-15 20:29
--- Who: Crackerhead22
--- Log: Minor tweaks.
-
--- URL: http://wow-pro.com/node/3273/revisions/24223/view
--- Date: 2011-04-05 23:37
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3273/revisions/24206/view
--- Date: 2011-04-04 15:00
--- Who: Crackerhead22
--- Log: Some note changes.
-
--- URL: http://wow-pro.com/node/3273/revisions/24103/view
--- Date: 2011-02-08 01:08
--- Who: Ludovicus_Maior
--- Log: Submitted by andyarnolduk on Mon, 2011-02-07 15:20.
---
---	The waypoint for step 10 is a little off... it should be:
---	A Disturbance at Umbrafen Lake|QID|9716|M|78.40,62.10|N|From Ysiel Windsinger.|
---	Cheers
---	Andy
---
---	[And lo, WowHead agrees.  Looks like a typo]
-
--- URL: http://wow-pro.com/node/3273/revisions/23945/view
--- Date: 2011-01-07 19:15
--- Who: Crackerhead22
--- Log: Fixed step sequence errors, fixed note errors, fixed missing cords, fixed missing |N| tags.
-
--- URL: http://wow-pro.com/node/3273/revisions/23941/view
--- Date: 2011-01-07 16:04
--- Who: Crackerhead22
--- Log: Added more missing |N| tags.
-
--- URL: http://wow-pro.com/node/3273/revisions/23940/view
--- Date: 2011-01-07 15:48
--- Who: Crackerhead22
--- Log: Added missing |N| tags, added sticky step.
-
--- URL: http://wow-pro.com/node/3273/revisions/23708/view
--- Date: 2010-12-09 00:11
--- Who: Crackerhead22
--- Log: Updated source with NPC notes, waypoints.
-
--- URL: http://wow-pro.com/node/3273/revisions/23686/view
--- Date: 2010-12-07 20:48
--- Who: Crackerhead22
--- Log: Corrected first line so it would auto-load.
-
--- URL: http://wow-pro.com/node/3273/revisions/23428/view
--- Date: 2010-12-03 12:12
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3273/revisions/23427/view
--- Date: 2010-12-03 12:11
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("JamZan6264", "Leveling", "Zangarmarsh", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,58,64,60.6291)
-WoWPro:NewGuideLevels(guide,60,80)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, "JamTer6466")
-WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Zangarmarsh|AVAILABLE|9777|N|Go to Zangarmarsh.|M|82.9,65.08|
 N README 1|AVAILABLE|9777|N|Fertile Spores/nSporebats, Greater Sporebats, Marsh Walkers and Fen Striders drop Fertile Spores, these will open up daily Sporreggar reputation quests so don't sell them.|
 N README 2|AVAILABLE|9777|N|Bog Lord Tendrils/nBog Lords and Withered Giants will drop Bog Lord Tendrils that'll open up more Sporreggar reputation dailies, so don't sell these either.|
@@ -175,7 +13,6 @@ A Plants of Zangarmarsh|QID|9802|M|80.30,64.20|N|From Lauranna Thar'well.|
 A The Dying Balance|QID|9895|M|78.60,63.10|N|From Lethyn Moonfire.|
 h Cenarion Refuge|QID|9777|N|Set your hearthstone to Cenarion Refuge.|M|78.50,63.00|
 T The Cenarion Expedition|QID|9912|M|78.40,62.10|N|To Ysiel Windsinger.|
-
 r Sell junk, repair, restock|M|79.27,63.78|N|Repair at Fedryen Swiftwhisper.|QID|9901|
 ; Telredor, Section B
 R Telredor|AVAILABLE|9901|N|Use the platform here to get up to Telredor.|M|70.00, 49.00|CC|
@@ -184,7 +21,6 @@ A Unfinished Business|QID|9901|M|68.6,49.4|N|From Prospector Conall.|
 A The Dead Mire|QID|9782|M|68.3,50.1|N|From Vindicator Idaar.|
 f Telredor|ACTIVE|9901|N|Get the flight-path.|M|67.80,51.5|
 A Menacing Marshfangs|QID|9791|M|67.7,48.0|N|From Noraani.|
-
 C Menacing Marshfangs|N|Kill Marshfang Rippers needed for this quest.|M|85.00,47.0|QID|9791|S|
 C Fulgor Spores|N|Loot the green mushroom looking things off the ground around Telredor, until you finish this quest.|M|67.00,50.0|QID|9777|QO|1|NC|
 C Unfinished Business|N|Go here, find, then kill Sporewing. It wanders between the waypoints.|M|77.00,45.0;79.52,47.75|CN|QID|9901|T|Sporewing|
@@ -193,7 +29,6 @@ C The Dead Mire|N|Go to either waypoint and loot the soil that should be near it
 l Withered Basidium|QID|9901|N|Kill Withered Giants until you get the Withered Basidium, it has quite a low drop chance so it might take a while.|L|24483|US|
 A Withered Basidium|N|(UI Alert).|QID|9827|U|24483|M|78.3,45.2|
 C Menacing Marshfangs|N|Kill the rest of the Marshfang Rippers for this quest.|M|85.00,47.0|QID|9791|US|
-
 ; Back to Telredor
 T Fulgor Spores|QID|9777|M|68.6,48.7|N|To Ruam.|
 T Withered Basidium|QID|9827|M|68.6,48.7|N|To Ruam.|
@@ -202,14 +37,11 @@ T Unfinished Business|QID|9901|M|68.6,49.4|N|To Prospector Conall.|
 T The Dead Mire|QID|9782|M|68.3,50.1|N|To Vindicator Idaar.|
 A An Unnatural Drought|QID|9783|PRE|9782|M|68.3,50.1|N|From Vindicator Idaar.|
 T Menacing Marshfangs|QID|9791|M|67.7,48.0|N|To Noraani.|
-
 C An Unnatural Drought|N|Kill Withered Giants until you are finished this quest.|M|82.00,39.0|QID|9783|S|
 C Withered Flesh|N|Kill and loot Hydras and Bog Lords for their various samples.|M|80.00,40.0|QID|10355|
 C Plants of Zangarmarsh|N|Keep killing and looting mobs until you get the plant parts for this quest.|QID|9802|M|80.1,73.3|
 C An Unnatural Drought|N|Kill mobs until you finish this quest.|M|82.00,39.0|QID|9783|US|
-
 l Unidentified Plant Parts|ACTIVE|9802|N|Kill mobs until you have at least 30 Unidentified Plant Parts.\n[Blessings of the Ancients] appears when you are Friendly with the Cenarion Expedition.|L|24401 30|M|82.00,39.0|
-
 ; Back to Telredor
 T Withered Flesh|QID|10355|M|68.6,48.7|N|To Ruam.|
 T An Unnatural Drought|QID|9783|M|68.3,50.1|N|To Vindicator Idaar.|
@@ -230,7 +62,6 @@ C Umbrafen Witchdoctor|QID|9747|QO|4|M|82.80,80.20;85.00,90.40;82.70,85.40|CN|N|
 ; Oh yeah, another Escort quest
 A Escape from Umbrafen|QID|9752|M|83.4,85.5|N|From Kayra Longmane. If she isn't there, someone else is doing the quest, so just be patient.|
 C Escape from Umbrafen|N|Do this Escort Quest. You will get ambushed twice by 2 Umbrafen each time.|QID|9752|M|83.4,85.5|
-
 ; Cenarion Refuge
 T The Umbrafen Tribe|QID|9747|M|80.4,64.2|N|At Ikeyen.|
 A A Damp, Dark Place|QID|9788|PRE|9747|M|80.4,64.2|N|From Ikeye.|
@@ -240,7 +71,6 @@ A Saving the Sporeloks|QID|10096|PRE|9747|M|80.4,64.2|N|From Lauranna Thar'well.
 A Safeguarding the Watchers|QID|9894|PRE|9747|M|80.4,64.7|N|From Windcaller Blackhoof.|
 T The Dying Balance|QID|9895|M|78.5,63.1|N|To Lethyn Moonfire.|
 T Escape from Umbrafen|QID|9752|M|78.4,62.0|N|To Ysiel Windsinger.|
-
 R Funggor Cavern|QID|9894|N|Go to the cave here.|M|74.80, 91.1|
 C Saving the Sporeloks|N|Kill mobs until you are finished with this quest.|QID|10096|S|
 C A Damp, Dark Place|QID|9788|N|After you enter the cave, go right at the first fork, then right again at the second fork and down the slope, Ikeyen's Belongings are down the bottom on top of a flat rock.|M|70.53,97.91|
@@ -262,7 +92,6 @@ T Umbrafen Eel Filets|QID|9780|M|67.7,48.0|N|To Noraani.|
 T Too Many Mouths to Feed|QID|9781|M|67.7,48.0|N|To Haalrun.|
 A Blacksting's Bane|QID|9896|PRE|9901|M|68.6,49.4|N|From Prospector Conall.|
 A The Boha'mu Ruins|QID|9786|M|68.2,49.4|N|From Anchorite Ahuurn.|
-
 ; Feralfen Village
 C A Warm Welcome|S|N|Kill and loot Nagas for this quest.|QID|9728|M|70.9,82.1|
 C Disturbance at Umbrafen Lake|N|Go to this spot to automatically finish this quest. Kill any Naga you come across as well.|M|69.40, 79.7|QID|9716|NC|
@@ -277,20 +106,16 @@ A Diaphanous Wings|QID|9790|PRE|9781|M|67.7,48.0|N|From Haalrun.|
 T The Boha'mu Ruins|QID|9786|M|68.2,49.4|N|To Anchorite Ahuurn.|
 A Idols of the Feralfen|QID|9787|PRE|9786|M|68.2,49.4|N|From Anchorite Ahuurn.|
 T Blacksting's Bane|QID|9896|M|68.6,49.4|N|To Prospector Conall.|
-
 ; Cenarion Refuge
 T Leader of the Bloodscale|QID|9817|M|79.10,65.20|N|To Warden Hamoot, at the top of the tower.|
 T Leader of the Darkcrest|QID|9730|M|79.10,65.20|N|To Warden Hamoot, at the top of the tower.|
-
 N Friends with the Cenarion Expedition|REP|Cenarion Expedition;942;neutral|S|N|Repeat this quest till you are friendly with the Cenarion Expedition|
 A Identify Plant Parts|QID|9784|PRE|9802|REP|Cenarion Expedition;942;neutral|M|80.4,64.2|N|From Lauranna Thar'well.|
 T Identify Plant Parts|QID|9784|M|80.4,64.2|N|To Lauranna Thar'well.|
 N Friends with the Cenarion Expedition|REP|Cenarion Expedition;942;neutral|US|N|Repeat this quest till you are friendly with the Cenarion Expedition|
-
 A Blessings of the Ancients|QID|9785|M|80.4,64.7|N|From Windcaller Blackhoof.|REP|Cenarion Expedition;942;friendly-exalted|
 C Blessings of the Ancients|N|Talk to Keleth and Ashyen, giants walking around, and get the marks from them.|QID|9785|M|78.1,63.8|
 T Blessings of the Ancients|QID|9785|M|80.4,64.7|N|To Windcaller Blackhoof.|
-
 A What's Wrong at Cenarion Thicket?|QID|9957|LEAD|9968|M|78.5,63.1|N|From Lethyn Moonfire.|REP|Cenarion Expedition;942;friendly-exalted|
 A Watcher Leesa'oh|QID|9697|LEAD|9701|M|78.5,63.1|N|From Lethyn Moonfire.|REP|Cenarion Expedition;942;friendly-exalted|
 T Disturbance at Umbrafen Lake|QID|9716|M|78.4,62.0|N|To Ysiel Windsinger.|
@@ -308,7 +133,6 @@ U Serpent Lake Controls Disabled|QID|9720|QO|3|U|24355|N|Use the Ironvine Seeds 
 C A Warm Welcome|N|Finish killing and looting Nagas for their claws.|QID|9728|M|70.9,82.1|US|
 T A Warm Welcome|QID|9728|M|79.1,65.3|N|To Warden Hamoot.|
 N Plant Parts|QID|9724|N|Turn in any plant parts you have to Lauranna Thar'well.|M|80.4,64.2|
-
 T Drain Schematics|QID|9731|M|78.4,62.0|N|To Ysiel Windsinger.|
 A Warning the Cenarion Circle|QID|9724|PRE|9731|M|78.4,62.0|N|From Ysiel Windsinger.|
 R Hellfire Peninsula|QID|9724|N|Go to Hellfire Peninsula.|M|83.00, 65.0|
@@ -316,11 +140,9 @@ T Warning the Cenarion Circle|QID|9724|M|15.7,52.0|Z|Hellfire Peninsula|N|To Amy
 A Return to the Marsh|QID|9732|PRE|9724|M|15.7,52.0|N|From Amythiel Mistwalker.|
 H Cenarion Refuge|ACTIVE|9732|N|Hearth to Cenarion Refuge.|U|6948|M|78.50,63.00|
 T Return to the Marsh|QID|9732|M|78.4,62.0|N|To Ysiel Windsinger.|
-
 ; The quest "Checking up" on the following line has wrong caps on 'Up' so it does not auto-accept since it is optional.|
 A Checking Up|QID|29566|M|78.40,62.10|N|From Ysiel Windsinger. This quest leads into The Slave Pens, this is completely optional, there will be no follow up for it. Once you take it, feel free to join queue for The Slave Pens if you wish.|RANK|3|
 A The Orebor Harborage|QID|9776|M|68.2,49.4|N|From Anchorite Ahuurn.|
-
 R Orebor Harborage|QID|9776|N|Make your way to Orebor Harborage|
 f Orebor Harborage|QID|9776|N|Get the flight-path from Halu.|M|41.25, 29.0|
 A Secrets of the Daggerfen|QID|9848|M|41.2,28.7|N|From Timothy Daniels.|
@@ -345,9 +167,7 @@ A Natural Armor|QID|9834|M|41.6,27.3|N|From Maktu.|
 A Stinger Venom|QID|9830|M|40.8,28.7|N|From Puluu.|
 A Lines of Communication|QID|9833|M|40.8,28.7|N|From Puluu.|
 A The Terror of Marshlight Lake|QID|9902|M|40.8,28.7|N|From Puluu.|
-
 C Diaphanous Wings|N|Kill bugs until you get the wings for this quest.|M|20.00,30.0|QID|9790|S|
-
 ;N From now on...|QID|9830|N|From now on, kill Umbraglow Stingers, Marshlight Bleeders, Bogflare Needlers, Marshfang Slicers, and Spore Bats|
 T Watcher Leesa'oh|M|23.30,66.2|QID|9697|N|To Watcher Leesa'oh.|
 A Observing the Sporelings|QID|9701|M|23.3,66.2|N|From Watcher Leesa'oh.|
@@ -374,7 +194,6 @@ A The Count of the Marshes|N|Right-click the Mandible to start the quest.|QID|99
 C Lines of Communication|N|Kill Slicers until you finish this quest.|QID|9833|M|32.8,59.1|US|
 l Idols of the Feralfen|N|Kill mobs and loot Idols off the ground until you finish this quest.|M|49.60,59.7|QID|9787|QO|1|
 C Natural Armor|N|Kill Fenclaw Trashers until you get the hides needed for this quest.|M|50.00,40.0|QID|9834|
-
 H Cenarion Refuge|ACTIVE|9787|N|Hearth to Cenarion Refuge.|U|6948|M|78.59,62.87|
 N Sell junk, repair, restock, turn in plant parts|QID|9787|N|Sell junk, repair, restock, turn in plant parts.|M|79.25, 63.7|
 T Idols of the Feralfen|QID|9787|M|68.2,49.4|N|To Anchorite Ahuurn.|
@@ -390,7 +209,6 @@ C Stinger Venom|N|Kill Marshlight Bleeders and bee mobs until you get the items 
 C Diaphanous Wings|N|Kill mobs until you get the wings for this quest.|M|20.00,30.0|QID|9790|US|
 C Balance Must Be Preserved|N|Go here and use the Ironvine Seeds to disable the pump.|M|25.40,42.9|QID|9720|U|24355|
 C The Terror of Marshlight Lake|N|Kill Terrorclaw here, Terrorclaw can fear.|M|22.20,45.3|QID|9902|
-
 T Sporeggar|QID|9919|M|19.7,52.1|N|To Msshi'fn.|
 A Glowcap Mushrooms|QID|9808|N|From Msshi'fn. Will disappear if you are friendly with Sporeggar.|M|19.7,52.1|
 C Glowcap Mushrooms|N|Get the rest of the glowcaps needed for this quest.|M|40.00,36.3|QID|9808|
@@ -401,7 +219,6 @@ C Gathering the Reagents|N|Kill and loot Marsh Walkers, Fen Striders and Sporeba
 T Familiar Fungi|M|23.30,66.2|QID|9708|N|To Watcher Leesa'oh.|
 A Stealing Back the Mushrooms|QID|9709|PRE|9708|M|23.3,66.2|N|From Watcher Leesa'oh.|
 T The Count of the Marshes|QID|9911|M|23.3,66.2|N|To Watcher Leesa'oh.|
-
 H Cenarion Refuge|ACTIVE|9720|N|Hearth to Cenarion Refuge.|U|6948|M|78.56,62.82|
 T Balance Must Be Preserved|QID|9720|M|78.4,62.0|N|To Ysiel Windsinger.|
 r Sell junk, repair, restock|QID|9801|N|Sell junk, repair, restock|M|79.23,63.7|
@@ -409,7 +226,6 @@ C Gathering the Reagents|N|Kill and loot Marsh Walkers, Fen Striders and Sporeba
 T Gathering the Reagents|QID|9801|M|68.2,49.4|N|To Anchorite Ahuurn.|
 A Messenger to the Feralfen|QID|9803|PRE|9801|M|68.2,49.4|N|From Anchorite Ahuurn.|
 T Diaphanous Wings|QID|9790|M|67.7,48.0|N|To Haalrun.|
-
 F Orebor Harborage|QID|9902|N|Fly to Orebor Harborage.|M|67.80,51.4|
 T Stinger Venom|QID|9830|M|40.8,28.7|N|To Puluu.|
 T The Terror of Marshlight Lake|QID|9902|M|40.8,28.7|N|To Puluu.|
@@ -431,16 +247,12 @@ C Now That We're Friends...|N|Kill Bloodscale Slavedrivers and Enchantresses nee
 T Now That We're Still Friends...|QID|9727|M|19.54,50.04|N|To Gzhun'tt.|
 T Stealing Back the Mushrooms|M|23.30,66.2|QID|9709|N|To Watcher Leesa'oh.|
 C Messenger to the Feralfen|N|Go here and use Ahuurn's Elixir, then talk to Elder Kurutiin in the building, and go through the dialogue.|M|44.00,66.0|QID|9803|U|24428|
-
 H Orebor Harborage|QID|9839|N|Hearth to Orebor Harborage.|U|6948|M|41.89,26.29|
 T Overlord Gorefist|QID|9839|M|41.9,27.2|N|To Ikuti.|
 A A Message to Telaar|QID|9792|M|41.9,27.2|N|From Ikuti take this quest if you want to do Nagrand next.|
 F Telredor|QID|9803|N|Fly to Telredor.|M|41.30,29.0|
 T Messenger to the Feralfen|QID|9803|M|68.2,49.4|N|To Anchorite Ahuurn.|
 r Sell junk, repair, restock|QID|9803|N|Sell junk, repair, restock. Close this step to go to the next guide.|M|68.5,50.14|
-
-A The Fate of Tuurem|QID|9793|LVL|62|M|68.3,50.1|N|From Vindicator Idaar take this quest if you want to do Terokkar Forest next.|
+A The Fate of Tuurem|QID|9793|M|68.3,50.1|N|From Vindicator Idaar take this quest if you want to do Terokkar Forest next.|
 ]]
 end)
-
-

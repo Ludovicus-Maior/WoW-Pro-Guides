@@ -1,114 +1,19 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_hillsbrad_foothills
--- Date: 2018-10-17 02:26
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3223/revisions/29199/view
--- Date: 2018-02-27 17:42
--- Who: Ludovicus_EditBot
--- Log: Level strip
-
--- URL: http://wow-pro.com/node/3223/revisions/29083/view
--- Date: 2018-02-20 21:05
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3223/revisions/28877/view
--- Date: 2018-01-16 23:37
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3223/revisions/28421/view
--- Date: 2017-03-15 23:14
--- Who: Ludovicus_Maior
--- Log: Added PREs to AyaHil2025
-
--- URL: http://wow-pro.com/node/3223/revisions/27264/view
--- Date: 2015-05-26 21:33
--- Who: Fluclo
--- Log: Clarity and extra steps added
-
--- URL: http://wow-pro.com/node/3223/revisions/26434/view
--- Date: 2014-06-02 14:05
--- Who: Ludovicus_Maior
--- Log: Set Levels.
-
--- URL: http://wow-pro.com/node/3223/revisions/26224/view
--- Date: 2014-05-25 22:43
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3223/revisions/26129/view
--- Date: 2014-05-20 17:35
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3223/revisions/26035/view
--- Date: 2014-05-17 17:20
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3223/revisions/25614/view
--- Date: 2013-05-09 22:16
--- Who: Ludovicus_Maior
--- Log: Fixed [*Gurgle* HELP! *Gurgle*]
-
--- URL: http://wow-pro.com/node/3223/revisions/24601/view
--- Date: 2011-06-25 01:44
--- Who: Crackerhead22
--- Log: ! Duplicate T step for qid 28325 - Removed line.
---	! Duplicate T step for qid 28330 - Removed line.
---	! Duplicate T step for qid 28324 - Removed line.
-
--- URL: http://wow-pro.com/node/3223/revisions/24084/view
--- Date: 2011-01-30 19:33
--- Who: Ludovicus_Maior
--- Log: Corrected RegisterGuide to match GIT.
-
--- URL: http://wow-pro.com/node/3223/revisions/23831/view
--- Date: 2010-12-26 06:52
--- Who: Crackerhead22
--- Log: Added steps for the missing quest "Preemptive Strike".
-
--- URL: http://wow-pro.com/node/3223/revisions/23617/view
--- Date: 2010-12-05 23:13
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3223/revisions/23316/view
--- Date: 2010-12-03 07:39
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3223/revisions/23315/view
--- Date: 2010-12-03 07:38
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('AyaHil2025', "Leveling", 'Hillsbrad Foothills', 'Shanyn', 'Horde')
-WoWPro:GuideLevels(guide,19,25,20.3378)
-WoWPro:NewGuideLevels(guide,15,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'JiyAra2530')
-WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Southpoint Gate |QID|28096|N|Head to Southpoint Gate in Hillsbrad Foothills. This is on the road east of Silverpine Forest.|M|29.23,63.35|
 f Southpoint Gate|QID|28096|N|Get the flightpoint with Pamela Stutzka|M|29.14,64.42|
-
 T Empire of Dirt|QID|27746|M|29.23,63.35|N|To High Executor Darthalia.|O|
 T Warchief's Command: Hillsbrad Foothills!|QID|28571|M|29.23,63.35|N|To High Executor Darthalia.|O|
 T Warchief's Command: Hillsbrad Foothills!|QID|28089|M|29.23,63.35|N|To High Executor Darthalia.|O|
-
 A Welcome to the Machine|QID|28096|M|29.23,63.35|N|From High Executor Darthalia.|
 N Mount the Skeletal Steed|QID|28096|N|Mount the Skeletal Steed next to High Executor Darthalia|NC|M|29.35,63.45|BUFF|88476|ACTIVE|28096|
 C Welcome to the Machine|QID|28096|QO|1|M|29.35,63.45|N|Wait for Dumass to come to you, then speak to him.|CHAT|
 C Welcome to the Machine|QID|28096|QO|2|M|29.35,63.45|N|Wait for Kingslayer Orkus to come to you, then speak to him.|CHAT|
 C Welcome to the Machine|QID|28096|QO|3|M|29.35,63.45|N|Wait for Johnny Awesome to come to you, then speak to him.|CHAT|
 T Welcome to the Machine|QID|28096|M|29.23,63.35|N|To High Executor Darthalia.|
-
 A Trouble at Azurelode|QID|28111|LEAD|28138|M|29.23,63.35|N|From High Executor Darthalia.|PRE|28096|
 A Glorious Harvest|QID|28114|M|29.20,64.04|N|From Apothecary Underhill.|PRE|28096|
 A Past Their Prime|QID|28115|M|29.20,64.04|N|From Apothecary Underhill.|PRE|28096|
@@ -120,11 +25,9 @@ C Past Their Prime|QID|28115|M|32.27,73.62|N|Infested Bears are in the field to 
 T Glorious Harvest|QID|28114|M|33.27,73.63|N|To Spider-Handler Sarus.|
 T Past Their Prime|QID|28115|M|33.27,73.63|N|To Spider-Handler Sarus.|
 A Coastal Delicacies!|QID|28146|M|33.29,73.54|N|From Spider-Handler Sarus.|
-
 T Trouble at Azurelode|QID|28111|M|33.29,73.54|N|To Captain Keyton.|
 A Thieving Little Monsters!|QID|28144|M|33.29,73.54|N|From Captain Keyton.|
 N Hungry Spider |QID|28146|M|33.29,73.54|N|Speak to Spider-Handler Sarus and tell him you've lost your spider.|CHAT|BUFF|88762|
-
 C Thieving Little Monsters!|QID|28144|M|32.10,76.60|N|Loot the barrels, they can be found along the edge of the coast.|S|NC|
 C Coastal Delicacies!|QID|28146|M|32.10,76.60|N|Kill murlocs along the coast to the southwest, then let the spider feast on their corpses. If you're missing the spider, go back to Spider-Handler Sarus to get it back.|S|
 K Muckgill|QID|28154|M|32.6,77.3|N|Muckgill has a short patrol path up and down the beach. Kill him and loot his flipper.|L|63090 1|T|Muckgill|
@@ -134,7 +37,6 @@ C Coastal Delicacies!|QID|28146|M|32.10,76.60|N|Finish killing the murlocs along
 T Coastal Delicacies!|QID|28146|M|33.29,73.54|N|To Spider-Handler Sarus.|
 T Thieving Little Monsters!|QID|28144|M|33.29,73.54|N|To Captain Keyton.|
 T Muckgill's Flipper or Something...|QID|28154|M|33.29,73.54|N|To Captain Keyton.|
-
 A Human Infestation|QID|28138|M|33.29,73.54|N|From Captain Keyton.|
 C Human Infestation|QID|28138|M|36.63,70.20|N|Bring the health of the Hillsbrad Sentry down to 35%, then use the Titanium Shackles on them.|U|63079|S|
 A Deep Mine Rescue|QID|28156|PRE|28096|M|36.63,70.20|N|Work through the mine to the north until you find Dumass.|
@@ -143,62 +45,49 @@ C Human Infestation|QID|28138|M|33.29,73.54|N|Bring the health of the Hillsbrad 
 C Deep Mine Rescue|QID|28156|M|33.29,73.54|N|Leave the mine and head back to Captain Keyton|US|NC|
 T Deep Mine Rescue|QID|28156|M|33.29,73.54|N|To Captain Keyton.|
 T Human Infestation|QID|28138|M|33.29,73.54|N|To Captain Keyton.|
-
 A Trouble at the Sludge Fields|QID|28168|LEAD|28192|M|33.29,73.54|N|From Captain Keyton.|PRE|28144|
-
 R The Sludge Fields|QID|28168|M|35.35,61.85|N|Run up the path to the right of the mines, then head towards The Sludge Fields.|
 r Sell, repair, and restock.|QID|28168|M|35.59,61.04|N|With Marcus Hagnod.|S|ACTIVE|28168|
 h The Sludge Fields |QID|28168|N|An Innkeeper is available at this location (you will not need to hearth back to this location).|M|35.9,61.1|S|ACTIVE|28168|
 T Trouble at the Sludge Fields|QID|28168|M|36.18,61.14|N|To Warden Stillwater.|
-
 A No One Here Gets Out Alive|QID|28192|M|36.18,61.14|N|From Warden Stillwater. Accepting the quest will give you a cut-scene showing you the area around Sludge Fields.|PRE|28096|
 T No One Here Gets Out Alive|QID|28192|M|36.18,61.14|N|To Warden Stillwater.|
-
 A Discretion is Key|QID|28197|M|36.18,61.14|N|From Warden Stillwater.|PRE|28192|
 A For Science!|QID|28199|M|36.34,60.25|N|From Flesh-Shaper Arnauld.|PRE|28192|
 C For Science!|QID|28199|M|39.10,63.63|N|Kill and loot the Risen Hillsbrad Peasants and Farmers.|S|
 C Discretion is Key: Clerk Horrace Whitesteed|QID|28197|QO|2|M|38.7,62.5|N|Kill and loot Clerk Horrace Whitesteed.|T|Clerk Horrace Whitesteed|
 A The Battle for Hillsbrad|QID|28196|PRE|28192|U|63250|N|Start the quest from The Battle for Hillsbrad you looted from Clerk Horrace Whitesteed.|
 C Discretion is Key: Citizen Wilkes|QID|28197|QO|2|M|38.70,64.65|N|Kill Citizen Wilkes. Head to the sourthern part of the fields, and he will jump off the tower and attack you. |
-
 A Do the Right Thing|QID|28189|PRE|28192|M|39.72,63.04|N|From the shovel in the spotlight under the arch.|
 C Do the Right Thing|QID|28189|U|63150|M|39.10,63.63|N|Click on the Human Seedlings in the ground.|NC|
 T Do the Right Thing|QID|28189|N|(UI Alert)|
-
 C For Science!|QID|28199|M|39.10,63.63|N|Finish killing and looting the Risen Hillsbrad Peasants and Farmers.|US|
 T For Science!|QID|28199|M|36.34,60.25|N|To Flesh-Shaper Arnauld.|
 T Discretion is Key|QID|28197|M|36.18,61.14|N|To Warden Stillwater.|
 T The Battle for Hillsbrad|QID|28196|M|36.18,61.14|N|To Warden Stillwater.|
-
 A Little Girl Lost|QID|28206|M|36.18,61.14|N|From Warden Stillwater.|PRE|28196&28197&28199|
 T Little Girl Lost|QID|28206|M|40.32,59.40|N|To Johnny Awesome.|
 A Freedom for Lydon|QID|28209|M|40.31,59.30|N|From Master Apothecary Lydon.|PRE|28206|
 C Freedom for Lydon|QID|28209|M|39.13,60.07|N|Kill and loot the Infected Sludge Guards until Lydon's Cage Key drops.|
 T Freedom for Lydon|QID|28209|M|40.31,59.30|N|To Master Apothecary Lydon.|
-
 A Protocol|QID|28230|N|From Master Apothecary Lydon who now follows you.|PRE|28209|
 A Do it for Twinkles|QID|28231|N|From Johnny Awesome who now follows you.|PRE|28209|
 C Protocol|QID|28230|M|38.88,57.41|N|Kill The Ray-Getz-Kalaba Monstrosity. Master Apothecary Lydon and Johnny Awesome help you with this elite.|
 T Protocol|QID|28230|N|To Master Apothecary Lydon who is with you.|
 C Do it for Twinkles|QID|28231|M|38.15,56.46|N|Kill the Blacksmith Verringtain.|
 T Do it for Twinkles|QID|28231|N|To Johnny Awesome.|
-
 A Burnside Must Fall|QID|28235|N|From Master Apothecary Lydon who is with you.|PRE|28231&28230|
 C Burnside Must Fall|QID|28235|M|36.52,58.04|N|Head to Magristrate Burnside, he will come down from his bubble. Kill him.|
 T Burnside Must Fall|QID|28235|N|To Master Apothecary Lydon who is with you.|
-
 A A Blight Upon the Land|QID|28237|N|From Master Apothecary Lydon  who is with you.|PRE|28235|
 C A Blight Upon the Land|QID|28237|M|36.41,61.16|N|Head to Warden Still water. Dialog will automatically start. Once he becomes attackable, kill him. Do not worry about the guards, just concentrate on the Warden. You will need to kill him twice during the encounter. Loot his corpse to complete the quest step.|
 T A Blight Upon the Land|QID|28237|N|To Master Apothecary Lydon.|M|36.65,61.20|
-
 A Trouble at Southshore|QID|28251|M|36.64,61.21|N|From Master Apothecary Lydon.|PRE|28237|LEAD|28324|
 T Trouble at Southshore|QID|28251|M|49.09,66.36|N|To Serge Hinott.|
-
 A Studies in Lethality|QID|28324|M|49.09,66.36|N|From Serge Hinott.|
 A Green Living|QID|28325|M|49.09,66.36|N|From Serge Hinott.|
 A Helcular's Rod Giveth...|QID|28331|M|49.15,66.34|N|From Helcular.|
 A Helcular's Command|QID|28332|M|49.15,66.34|N|From Helcular.|
-
 f Ruins of Southshore|QID|28332|M|49.02,66.19|N|From Darla Harris.|
 r Sell, repair, and restock.|QID|28332|M|49.32,66.75|N|At Zixil.|RANK|3|
 C Helcular's Command|QID|28332|M|48.21,64.05|N|Kill the worgen in the area as you go.|S|
@@ -206,11 +95,9 @@ C Helcular's Rod Giveth...|QID|28331|U|63508|M|48.21,64.05|N|Target the Dark Ran
 C Helcular's Command|QID|28332|M|48.21,64.05|N|Kill the worgen in the area as you go.|US|
 C Green Living|QID|28325|M|48.59,71.42|S|N|Pick up broken barrels on the ground.|
 C Studies in Lethality|QID|28324|U|63426|M|48.59,71.42|S|N|Use the Lethality Analyzer on the Blight Slimes.|
-
 A Angry Scrubbing Bubbles|QID|28329|N|Kill an Angry Blight Slime (they will have a red ! over their head) to get this quest.|
 C Angry Scrubbing Bubbles|QID|28329|M|48.59,71.42|N|Kill the Angry Blight Slime|
 T Angry Scrubbing Bubbles|QID|28329|N|To Serge Hinott|M|49.09,66.36|
-
 A Trail of Filth|QID|28330|N|From Serge Hinott|M|49.09,66.36|PRE|28329|
 C Trail of Filth|QID|28330|U|63426|M|47.85,72.37|N|Kill Chet the Slime-Breeder, found inside the building. Use the Lethality Analyzer to reduce the HP of Chet, otherwise you may need to find a group to help. |
 C Green Living|QID|28325|M|48.59,71.42|U|63426|US|N|Pick up broken barrels on the ground.|NC|
@@ -222,39 +109,31 @@ T Green Living|QID|28325|M|49.09,66.36|N|To Serge Hinott.|
 T Trail of Filth|QID|28330|M|49.09,66.36|N|To Serge Hinott.|
 T Studies in Lethality|QID|28324|M|49.09,66.36|N|To Serge Hinott.|
 T Preemptive Strike|QID|28356|M|49.15,66.34|N|To Helcular.|
-
 T Helcular's Rod Giveth...|QID|28331|M|49.15,66.34|N|To Helcular.|
 T Helcular's Command|QID|28332|M|49.15,66.34|N|To Helcular.|
 A Can You Smell What the Lok'tar is Cooking?|QID|28344|LEAD|28345|M|49.15,66.34|N|From Helcular.|PRE|28331&28332&28096|
 T Can You Smell What the Lok'tar is Cooking?|QID|28344|M|49.56,74.37|N|To Kingslayer Orkus.|
-
 A *Gurgle* HELP! *Gurgle*|QID|28345|M|49.56,74.37|N|From Kingslayer Orkus.|PRE|28096|
 C *Gurgle* HELP! *Gurgle*|QID|28345|M|49.56,74.37|N|Speak to Orkus, then wait for Kasha to arrive.|CHAT|
 T *Gurgle* HELP! *Gurgle*|QID|28345|M|50.00,74.35|N|To Kingslayer Orkus.|
-
 A Stormpike Rendezvous|QID|28348|M|49.99,74.38|N|From Kingslayer Orkus.|PRE|28345|
 T Stormpike Rendezvous|QID|28348|M|50.02,74.35|N|To Kingslayer Orkus.|
 A Kasha Will Fly Again|QID|28354|M|50.02,74.35|N|From Kingslayer Orkus.|PRE|28348|
 C Kasha Will Fly Again|QID|28354|M|58.46,73.85|S|N|Pick up the Mudsnout Blossoms in the field.|
-
 A Terrible Little Creatures|QID|28355|M|57.21,74.69|N|Kill a Mudsnout Gnoll or Shaman (they will have a red ! over their head)  to start this quest.|
 C Terrible Little Creatures|QID|28355|M|58.46,73.85|S|N|Kill the Mudsnout Gnoll or Shaman.|
 C Kasha Will Fly Again|QID|28354|M|58.46,73.85|US|N|Pick up the Mudsnout Blossoms in the field.|NC|
 C Terrible Little Creatures|QID|28355|M|58.46,73.85|US|N|Finish killing the Mudsnout Gnoll or Shaman.|
 T Terrible Little Creatures|QID|28355|
 T Kasha Will Fly Again|QID|28354|M|50.02,74.35|N|To Kingslayer Orkus.|
-
 A The Road to Purgation|QID|28375|M|50.02,74.35|N|From Kingslayer Orkus.|PRE|28354|
 T The Road to Purgation|QID|28375|M|29.18,84.00|N|To Kingslayer Orkus.|
-
 A They Will Never Expect This...|QID|28397|N|From Kingslayer Orkus.|PRE|28375|
 C They Will Never Expect This...|QID|28397|M|24.59,88.11|N|Climb the island while killing anything you come across on the way. Bloodfangs are perched high on the hills.|
 T They Will Never Expect This...|QID|28397|
-
 A Heroes of the Horde!|QID|28400|M|24.71,87.99|N|From Kingslayer Orkus.|PRE|28397|
 C Heroes of the Horde!|QID|28400|M|27.35,87.36|N|Speak to Orkus when he stops talking, then loot the dwarf that Orkus attacks first.|
 T Heroes of the Horde!|QID|28400|M|57.08,46.24|N|To High Warlord Cromush.|
-
 A Aid of the Frostwolf|QID|28587|M|57.08,46.24|N|From High Warlord Cromush.|PRE|28400|
 A The Heart of the Matter|QID|28484|M|57.00,45.74|N|From Keeper Bel'varil.|
 A Humbert's Personal Problems|QID|28487|M|57.16,45.52|N|From Deathguard Humbert. Through the building, up the stairs in the back.|
@@ -265,7 +144,6 @@ h Tarren Mill|QID|28620|M|57.95,47.29|N|At Innkeeper Shay.|
 A A Fighting Chance|QID|28495|M|56.74,47.48|N|From Advisor Duskingdawn.|
 f Tarren Mill|QID|28495|M|56.07,46.09|N|At Zarise.|
 r Sell, repair, and restock.|QID|28485|M|57.66,47.54|N|At Ott.|RANK|3|
-
 N Group for Yetimus|QID|28485|N|If you see a group looking to kill Yetimus, join them and deviate off the guide to do it. He hits far too hard for most classes to solo.|S|ACTIVE|28485|
 C The Heart of the Matter|QID|28484|M|46,54|N|Kill Yetis for their hearts.|S|
 C Stagwiches|QID|28489|M|48.44,54.59|N|Kill Hill Stags for their meat.|S|
@@ -283,7 +161,6 @@ T The Heart of the Matter|QID|28484|M|57.00,45.74|N|To Keeper Bel'varil.|
 T Humbert's Personal Problems|QID|28487|M|57.16,45.52|N|To Deathguard Humbert.|
 T Stagwiches|QID|28489|M|57.69,45.23|N|To Derak Nightfall.|
 T Aid of the Frostwolf|QID|28587|M|58.70,34.25|N|To Voggah Deathgrip.|
-
 A Matters of Loyalty|QID|28600|M|58.70,34.25|N|From Voggah Deathgrip.|PRE|28587|
 T Matters of Loyalty|QID|28600|M|57.08,46.24|N|To High Warlord Cromush.|
 A March of the Stormpike|QID|28506|M|57.08,46.24|N|From High Warlord Cromush.|PRE|28600|
@@ -353,9 +230,5 @@ C Extinction|QID|28634|M|64.83,68.88|N|Kill Owlbeasts as you go.|US|
 T Silence of the Dwarves|QID|28636|M|59.99,63.34|N|To Captain Jekyll.|
 T Extinction|QID|28634|M|60.00,63.73|N|To Nils Beerot.|
 A Warchief's Command: Arathi Highlands!|QID|28619|LEAD|26022|PRE|28572|M|59.91,63.51|N|From the Warchief's Command Board. You're done with Hillsbrad, so take this if you intend to do Arathi Highlands next, or choose another guide if you'd prefer another zone!|
-
 ]]
-
 end)
-
-

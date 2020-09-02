@@ -1,129 +1,14 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
--- Date: 2020-04-08 18:29
--- Who: Ludovicus_Maior
--- Log: [WANTED: Giselda the Crone], [WANTED: Zorbo the Advisor], [WANTED: Durn the Hungerer].
-
--- URL: http://wow-pro.com/node/3280/revisions/29984/view
--- Date: 2018-10-17 02:27
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3280/revisions/29208/view
--- Date: 2018-02-27 17:51
--- Who: Ludovicus_EditBot
--- Log: Altruis LVL changes
-
--- URL: http://wow-pro.com/node/3280/revisions/29106/view
--- Date: 2018-02-22 22:57
--- Who: Ludovicus_EditBot
--- Log: Upload Grail corrections to PRE/LEAD/QO tags
-
--- URL: http://wow-pro.com/node/3280/revisions/28909/view
--- Date: 2018-01-16 23:57
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3280/revisions/28576/view
--- Date: 2017-03-23 19:05
--- Who: Ludovicus_Maior
--- Log: Spelling
-
--- URL: http://wow-pro.com/node/3280/revisions/28443/view
--- Date: 2017-03-16 16:44
--- Who: Ludovicus_Maior
--- Log: Add PREs
-
--- URL: http://wow-pro.com/node/3280/revisions/27539/view
--- Date: 2016-08-08 23:35
--- Who: tubera
--- Log: Revise guide, for level requirements and prerequisites.
-
--- URL: http://wow-pro.com/node/3280/revisions/26916/view
--- Date: 2014-11-08 05:45
--- Who: Emmaleah
--- Log: remove dup M tags per list o' errors
-
--- URL: http://wow-pro.com/node/3280/revisions/26455/view
--- Date: 2014-06-02 15:22
--- Who: Ludovicus_Maior
--- Log: Ste Levels
-
--- URL: http://wow-pro.com/node/3280/revisions/26273/view
--- Date: 2014-05-26 00:41
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3280/revisions/26156/view
--- Date: 2014-05-20 19:46
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3280/revisions/26010/view
--- Date: 2014-05-16 21:09
--- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3280/revisions/25936/view
--- Date: 2014-04-14 19:41
--- Who: Ludovicus_Maior
--- Log: Coord tweaks as I played through.  Incomplete.
-
--- URL: http://wow-pro.com/node/3280/revisions/25469/view
--- Date: 2013-01-13 19:17
--- Who: Ludovicus_Maior
--- Log: Added CN tag
-
--- URL: http://wow-pro.com/node/3280/revisions/25319/view
--- Date: 2013-01-09 22:55
--- Who: Ludovicus_Maior
--- Log: Added CN and CS tags
-
--- URL: http://wow-pro.com/node/3280/revisions/24913/view
--- Date: 2012-01-20 21:15
--- Who: Crackerhead22
--- Log: Added REP tags to certain Consortium quests.
-
--- URL: http://wow-pro.com/node/3280/revisions/24882/view
--- Date: 2012-01-03 15:25
--- Who: Crackerhead22
-
--- URL: http://wow-pro.com/node/3280/revisions/24839/view
--- Date: 2011-12-07 18:19
--- Who: Crackerhead22
--- Log: 4.3 updates plus Altruis the Sufferer quest lines
-
--- URL: http://wow-pro.com/node/3280/revisions/24340/view
--- Date: 2011-04-29 16:44
--- Who: Ludovicus_Maior
--- Log: Line 26 for step A has unknown tag [71.5,40.5]
-
--- URL: http://wow-pro.com/node/3280/revisions/23449/view
--- Date: 2010-12-03 21:35
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3280/revisions/23448/view
--- Date: 2010-12-03 21:35
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("JamNag6769", "Leveling", "Nagrand", "Jame", "Horde")
-WoWPro:GuideLevels(guide,64 ,68, 64.5882)
-WoWPro:NewGuideLevels(guide,64,80)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, "JamBla6970")
-WoWPro:GuideIcon(guide,"ACH",4928)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Nagrand |QID|10109|N|Start from Shattrath City. Head out of the city, then ride south to Nagrand, the entrance is about .|Z|Terokkar Forest|M|20,56|
 N Mag'har Reputation|QID|9410|N|You MUST have completed the quest chain of "The Assassin" in Hellfire Peninsula, up until the quest A Spirit Guide before starting this guide.|
 N A Head Full of Ivory |QID|9914|N|Kill and loot only "Wild Elekks". Keep any Pairs of Ivory Tusks you find.|L|25463 3|S|REP|The Consortium;933;Neutral|T|Wild Elekk|
 l Howling Wind |QID|9861|N|Kill Dust Howlers until you get a Howling Wind.|S|L|24504|
 A I Must Have Them! |QID|10109|N|From Wazat. He's in Clan Watch in southern Nagrand.|M|62.1,67.2|
 C I Must Have Them!|N|Kill Air Elementals until you get 3x Air Elemental Gas.|QID|10109|M|69.4,56.9|S|
-
 N Kristen Dipswitch|QID|9861|M|71.42,40.6|N|If you see Kirsten Dipswitch spawn while you're at the Nesingwary campsite, rescue her from her attacker and pickup the quest, you can deliver it to Harold Lane too.|
 A Talbuk Mastery |QID|9857|M|71.6,40.5|N|From Harold Lane.|
 A Windroc Mastery |QID|9854|M|71.6,40.5|N|From Shado 'Fitz' Farstrider.|
@@ -131,7 +16,6 @@ A Clefthoof Mastery |QID|9789|M|71.6,40.5|N|From Hemet Nesingwary.|
 C Windroc Mastery  |N|Kill the Windrocs needed for this quest.|QID|9854|M|64,36|S|
 l Howling Wind |QID|9861|N|Kill Dust Howlers until you get a Howling Wind.|US|L|24504|
 A The Howling Wind |QID|9861|U|24504|M|64.0,45.0|N|Accept the quest from the Howling Wind.|
-
 h Garadar|QID|9888|M|56.7,34.2|
 f Garadar|QID|9861|M|57.22,35.24|N|Get the flight point from Gursha|
 A The Impotent Leader |QID|9888|N|From Jorin Deadeye.|M|55.57,37.62|
@@ -141,7 +25,6 @@ A The Throne of the Elements |QID|9870|N|From Elementalist Yal'hah, this NPC wan
 A Vile Idolatry |QID|9863|N|From Farseer Kurkush.|M|54.78,39.41|
 A The Missing War Party |QID|9864|N|From Farseer Corhuk.|M|54.80,39.87|
 A Murkblood Leaders... |QID|9867|N|From Farseer Margadesh.|M|54.53,39.96|
-
 T The Howling Wind |QID|9861|M|60.50,22.37|N|To Elementalist Morgh at the Throne of the Elements.|
 A Murkblood Corrupters |QID|9862|PRE|9861|M|60.50,22.37|N|From Elementalist Morgh.|
 T The Throne of the Elements |QID|9870|M|60.5,22.4|N|To Elementalist Sharvak.|
@@ -150,7 +33,6 @@ A Muck Diving |QID|9815|M|60.80,22.38|N|From Elementalist Lo'ap.|
 A The Underneath |QID|9818|M|60.66,22.65|N|From Elementalist Untrag.|
 T The Underneath |QID|9818|M|61.8,24.4|N|To Gordawg. He wanders around.|
 A The Tortured Earth |QID|9819|PRE|9818|M|61.8,24.4|N|From Gordawg.|
-
 C The Tortured Earth|N|Kill the Earth Spirits needed for this quest.|QID|9819|M|67.00,36.00;71.79,43.3;63.6,52.52;57.29,61.81;64.39,70.91;70.85,58.73|CN|
 C Windroc Mastery  |N|Kill the Windrocs needed for this quest.|QID|9854|M|64,36|US|
 C Talbuk Mastery |N|Kill the Talkbuks needed for this quest, they are around the trees.|QID|9857|M|61.00,43.00|S|
@@ -164,7 +46,6 @@ T Talbuk Mastery |QID|9857|M|71.38,40.63|N|To Harold Lane.|
 A Talbuk Mastery |QID|9858|PRE|9857|M|71.38,40.63|N|From Harold Lane.|
 T The Tortured Earth|QID|9819|M|61.8,24.4|N|To Gordawg.|
 A Eating Damnation|QID|9821|PRE|9819|M|61.8,24.4|N|From Gordawg.|
-
 C I Must Have Them!|N|Kill Air Elementals until you get 3x Air Elemental Gas.|QID|10109|M|69.4,56.9|US|
 T I Must Have Them! |QID|10109|M|61.7,67.1|N|To Wazat.|
 A Bring Me The Egg! |QID|10111|PRE|10109|N|From Wazat.|M|61.7,67.1|
@@ -177,7 +58,6 @@ T Don't Kill the Fat One |QID|9889|M|20.0,63.0|Z|Terokkar Forest|N|To Unkor the 
 A Success! |QID|9890|PRE|9889|Z|Terokkar Forest|M|20.0,63.0|N|From Unkor the Ruthless.|
 T Success! |QID|9890|Z|Terokkar Forest|M|20.0,61.0|N|To Kilrath.|
 A Because Kilrath is a Coward |QID|9891|PRE|9890|Z|Terokkar Forest|M|20.0,61.0|N|From Kilrath.|
-
 H Garadar|QID|9891|U|6948|N|Hearth to Garadar.|
 T Because Kilrath is a Coward |QID|9891|M|55.5,37.5|N|To Jorin Deadeye.|
 A Message in a Battle |QID|9906|PRE|9891|M|55.5,37.5|N|From Jorin Deadeye.|
@@ -185,7 +65,6 @@ A Standards and Practices |QID|9910|M|55.5,37.5|N|From Elkay'gan the Mystic.|
 A The Consortium Needs You! |QID|9913|LEAD|9882|M|52.0,35.0|N|From Consortium Recruiter.|
 N From now on...|QID|9872|N|If you see any Murkblood Invaders kill them until you get the Murkblood Invasion Plans. They wander the road west of Telaar.|
 A Murkblood Invaders|QID|9872|N|(UI alert).|O|
-
 T The Master's Grand Design? |QID|10251|M|51.8,56.85|N|To Nitrin the Learned.|
 A Vision of the Dead |QID|10252|PRE|10251|N|From Nitrin the Learned.|M|51.8,56.85|
 N Vision of the Dead |ACTIVE|10252|N|From now on, kill any Aged Clefthoof and Greater Windrocs for the drops.|
@@ -201,11 +80,9 @@ T A Rare Bean |QID|9800|M|60.5,22.4|N|To Elementalist Lo'ap.|
 A Agitated Spirits of Skysong |QID|9804|PRE|9800|M|60.5,22.4|N|From Elementalist Lo'ap.|
 T Eating Damnation |QID|9821|M|61.8,24.4|N|To Gordawg.|
 A Shattering the Veil |QID|9849|PRE|9821|M|61.8,24.4|N|From Gordawg.|
-
 N Nagrand Cherry and Stuff|QID|9804|N|Keep the Nagrand Cherry unless you can cast underwater breathing. Destroy Gordawg's Imprint since you do not need it.|
 C Agitated Spirits of Skysong|N|Kill Lake Spirits in the lake until you finish this quest.|QID|9804|U|24421|
 T Agitated Spirits of Skysong|QID|9804|M|60.5,22.4|N|To Elementalist Lo'ap.|
-
 A Blessing of Incineratus |QID|9805|PRE|9804|M|60.5,22.4|N|From Elementalist Lo'ap.|
 A Missing Mag'hari Procession |QID|9944|N|From Matron Drakia.|M|56.7,34.2|
 A Proving Your Strength |QID|10479|N|From Warden Bullrok |M|55.79,37.95|
@@ -219,7 +96,6 @@ U Blessing of Incineratus|QID|9805|QO|1|M|72.36,50.49|U|24467|N|Go inside the La
 U Blessing of Incineratus|QID|9805|QO|2|M|70.75,51.14|U|24467|N|Go inside the Western Hut and use the Living Fire.|
 U Blessing of Incineratus|QID|9805|QO|3|M|71.46,52.95|U|24467|N|Go inside the Southern Hut and use the Living Fire.|
 U Blessing of Incineratus|QID|9805|QO|4|M|72.76,54.72|U|24467|N|Go inside the Eastern Hut and use the Living Fire.|
-
 C Proving Your Strength |QID|10479|M|73.36,69.49|S|N|Kill and loot Ogres to get Obsidian Warbeads.|
 C Message in a Battle |QID|9906|N|Kill ogres until you finish.|S|M|73.36,69.49|
 U Standards and Practices |QID|9910|QO|1|U|25458|M|72,69|N|Place the Standard at the First Burning Blade Pyre.|
@@ -237,7 +113,6 @@ C An Audacious Advance |QID|9907|M|40.7,31.5|N|Kill Boulderfist Warriors and Mag
 C Bleeding Hollow Supply Crates |QID|9916|N|Loot supply crates off the ground.|M|40.7,31.5|US|
 C Proving Your Strength |QID|10479|M|73.36,69.49|US|N|Kill and loot Ogres to get Obsidian Warbeads.|
 C Muck Diving |N|Kill Muck mobs until you get the items for this quest.|QID|9815|M|41.00,38.00|
-
 T The Missing War Party |QID|9864|N|Head out of the exit in the northwestern side of the basin and go west to the Mag'hari Procession. To Saurfang the Younger.|M|32.44,36.05|
 A Once Were Warriors |QID|9865|PRE|9864|M|32.5,36.0|N|From Saurfang the Younger.|
 T Missing Mag'hari Procession |QID|9944|M|32.5,36.0|N|To Elder Yorley.|
@@ -247,17 +122,14 @@ N From now on... |N|From now on, kill Aged Clefthoofs and Greater Windrocs for t
 C Talbuk Mastery|QID|9859|M|29.1,33.8;26.2,50.6|CN|N|Kill Bach'lor and loot his hoof.|T|Bach'lor|S|
 C Windroc Mastery|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|CN|N|Kill Gutripper and loot his eye.|T|Gutripper|S|
 l Vision of the Dead|QID|10252|N|Go between the waypoints until a flawless beak drops.|M|36.00,19.00;32.99,22.62|CN|L|28667|ACTIVE|10252|
-
 C Windroc Mastery|QID|9856|M|36.9,20;34.3,26.5;31.2,31.5;32.2,25;33.4,20|CN|N|Kill Gutripper and loot his eye. He wanders around where the waypoints are.|T|Gutripper|US|
 l Vision of the Dead|QID|10252|N|Kill the Mountain Gronn on this path and loot the eyeball.|L|28665|M|30.00,32.00|T|Mountain Gronn|ACTIVE|10252|
 C Talbuk Mastery|QID|9859|M|29.1,33.8;26.2,50.6|CN|N|Kill Bach'lor and loot his hoof. He wanders between the waypoints.|T|Bach'lor|US|
-
 C Once Were Warriors |QID|9865|N|Kill Murkblood Scavengers and Raiders.|S|M|32.85,44.66|
 C Murkblood Corrupters |QID|9862|N|Kill Murkblood Putrifiers.|S|M|32.85,44.66|
 C Vile Idolatry |QID|9863|N|Loot Murkbloods to get the Idols.|S|M|32.85,44.66|
 C Murkblood Leaders... |QID|9867|N|Ortor is in the large building.|M|31.00,42.35|T|Ortor|
 C The Spirit Polluted |QID|9810|N|Head south through Sunspring Post. Dive into Sunspring Lake, pop a Nagrand Cherry, and kill what is needed.|U|24421|M|33.2,50.1|
-
 A The Totem of Kar'dash |QID|9868|N|From the Mag'har Captive. He's in a building. Clear all around it, there are two tough ambushes, one almost immediately. Always kill Putrifiers first.|M|31.3,44.1|
 C The Totem of Kar'dash |QID|9868|N|Always kill Putrifiers first, the Mag'har Captive can take out Scavengers on his own, but that's about it, he's fairly fragile compared to other escorts.|
 C Murkblood Corrupters |QID|9862|N|Kill Murkblood Putrifiers.|US|M|32.85,44.66|
@@ -268,7 +140,6 @@ A He Will Walk The Earth... |QID|9866|PRE|9865|M|32.5,36.0|N|From Saurfang the Y
 T The Spirit Polluted |QID|9810|M|60.5,22.4|N|To Ementalist Lo'ap.|
 T Muck Diving |QID|9815|M|60.5,22.4|N|To Ementalist Lo'ap.|
 T Murkblood Corrupters |QID|9862|M|60.5,22.4|N|To Ementalist Morgh.|
-
 T Bleeding Hollow Supply Crates |QID|9916|M|55.5,37.5|N|To Elkay'gan the Mystic.|
 T An Audacious Advance |QID|9907|M|55.5,37.5|N|To Jorin Deadeye.|
 A Diplomatic Measures |QID|10107|PRE|9907|M|55.5,37.5|N|From Jorin Deadeye.|
@@ -277,7 +148,6 @@ T Proving Your Strength |QID|10479|M|56.0,38.0|N|To Warden Bullrok.|
 T Vile Idolatry |QID|9863|M|54.5,39.5|N|To Farseer Kukush.|
 T He Will Walk The Earth... |QID|9866|M|54.5,39.5|N|To Farseer Corhuk.|
 T Murkblood Leaders... |QID|9867|M|54.5,39.5|N|To Farseer Margadesh.|
-
 C Diplomatic Measures|QID|10107|N|To Lantresor of the Blade is in the northernmost point of the Burning Blade Ruins. Listen to his tale.|M|74,63|CHAT|
 T Diplomatic Measures |QID|10107|N|Turn the quest in.|M|74,63|
 A Armaments for Deception |QID|9928|M|74.0,62.5|N|From Lantresor of the Blade.|
@@ -294,7 +164,6 @@ T The Consortium Needs You! |QID|9913|M|31.4,57.8|N|To Gezhe.|
 A Stealing from Thieves |QID|9882|M|31.4,57.8|N|From Gezhe.|REP|The Consortium;933;Neutral|
 A A Head Full of Ivory|QID|9914|N|From Shadrek.|M|31.75,56.80|REP|The Consortium;933;Neutral|
 t A Head Full of Ivory|QID|9914|N|Turn it right into Shadrek.|M|31.75,56.80|REP|The Consortium;933;Neutral|
-
 l Murkblood Invasion Plans |QID|9872|N|Kill a Murkblood Invader (they wander the road) and loot the plans.|L|24558|M|28.3,53.4;29.9,58.1;33.3,58.5;38,55.3;40.6,58.3;44.2,59.5|CN|
 l Stealing from Thieves |N|Loot the crystal fragments needed for this quest.|QID|9882|M|35.00,63.00|S|L|25416 10|REP|The Consortium;933;Neutral|
 C Matters of Security |N|Kill Voidspawns until you finish this quest.|QID|9925|M|33.00,66.00|
@@ -305,7 +174,6 @@ C Shattering the Veil |N|Use Gordawg's Boulder on Shattered Rumblers in this are
 T Gava'xi |QID|9900|M|30.8,58.1|N|To Zerid.|
 T Matters of Security |QID|9925|M|30.8,58.1|N|To Zerid.|
 T Stealing from Thieves |QID|9882|M|31.4,57.8|N|To Gezhe.|REP|The Consortium;933;Neutral|
-
 T Armaments for Deception |QID|9928|M|74.0,62.5|N|To Lantresor of the Blade.|
 T Ruthless Cunning |QID|9927|M|74.0,62.5|N|To Lantresor of the Blade.|
 A Returning the Favor |QID|9931|PRE|9928&9927|M|74.0,62.5|N|From Lantresor of the Blade.|
@@ -316,7 +184,6 @@ T Clefthoof Mastery  |QID|9851|N|To Hemet Nesingwary.|M|71.52,40.79|
 A The Ultimate Bloodsport |QID|9852|PRE|9856&9859&9851|N|From Hemet Nesingwary.|M|71.52,40.79|
 T WANTED: Giselda the Crone |QID|9935|M|56.0,38.0|N|To Warden Bullrok.|
 T Murkblood Invaders |QID|9872|N|To Garrosh.|
-
 A He Called Himself Altruis... |QID|9983|M|55.2,36.2|N|From Matron Celestine.|
 T Shattering the Veil |QID|9849|M|61.8,24.4|N|To Gordawg.|
 A Gurok the Usurper |QID|9853|PRE|9849|N|From Gordawg.|M|61.8,24.4|
@@ -326,7 +193,6 @@ C Body of Evidence |QID|9932|U|25658|N|Use the blanket at the Warmaut Pyre. Defe
 C Zorbo the Advisor |QID|9939|QO|1|U|25555|N|He's in the northernmost cave, up in the hills.|M|46.5,18.2|T|Zorbo|
 C Returning the Favor |QID|9931|U|25555|US|N|Kill the ogres and use the Kil'sorrow Banner on their corpses.|M|46.5,24.5|
 C WANTED: Zorbo the Advisor |QID|9939|N|Kill any ogres you still need.|
-
 l Warmaul Skull|QID|9853|M|27.00,23.00|N|Kill Warmaul Ogres until you get 7 skulls.|L|24502 7|S|
 C Finding the Survivors |QID|9948|N|Kill the Warmaul and use the keys they drop to open the cages. |M|27.00,23.00|S|
 C War on the Warmaul |QID|9945|M|27.00,23.00|N|Kill Warmaul Brutes and Warlocks.|
@@ -338,7 +204,6 @@ T War on the Warmaul |QID|9945|M|32.5,36.0|N|To Elder Yorley.|
 A Cho'war the Pillager |QID|9946|PRE|9945|N|From Elder Yorley.|
 C Cho'war the Pillager |QID|9946|N|He's in the northern cave on that plateau for the previous quest.|M|27,18|
 T Cho'war the Pillager |QID|9946|M|32.5,36.0|N|To Elder Yorley.|
-
 T He Called Himself Altruis...|QID|9983|M|27.29,43.1|N|To Altruis the Sufferer.|
 A Survey the Land |QID|9991|PRE|9982^9983|M|27.29,43.1|N|To Altruis the Sufferer.|
 C Survey the Land |N|Make sure you are not mounted when you accept this quest (or if you are just talk to Altruis and say you're ready to survey).  You should fly around automatically.|QID|9991|M|27.29,43.1|
@@ -351,11 +216,9 @@ C The Master Planner|QID|10001|M|23.64,34.7;17.49,50.27|CN|N|Find, kill and loot
 T The Master Planner|QID|10001|M|27.33,43.07|N|To Altruis the Sufferer.|
 A Patience and Understanding|QID|10004|PRE|10001|M|27.33,43.07|N|From Altruis the Sufferer.|RANK|3|
 ;N Altruis offers too much|QID|9932|N|The rest of the quests Altruis offers will be sone at the end of the guide for completion as they take you out of the zone.|
-
 T WANTED: Zorbo the Advisor |QID|9939|M|56.0,38.0|N|To Warden Bullrok.|
 A WANTED: Durn the Hungerer |QID|9937|N|From Warden Bullrok.|
 T Gurok the Usurper |QID|9853|M|62.0,24.5|N|To Gordawg.|
-
 T Body of Evidence |QID|9932|M|73.8,62.6|N|To Lantresor of the Blade.|
 T Returning the Favor |QID|9931|M|73.8,62.6|N|To Lantresor of the Blade.|
 A Message to Garadar |QID|9934|M|73.8,62.6|N|From Lantresor of the Blade.|
@@ -367,7 +230,6 @@ A I'm Saved! |QID|9897|N|From Kristen Dipswitch. Skip if it takes too long for h
 T I'm Saved! |QID|9897|N|To Harold Lane.|M|71.42,40.6|O|
 T WANTED: Durn the Hungerer |QID|9937|M|55.8,37.9|N|To Warden Bullrok.|
 T Message to Garadar |QID|9934|M|55.5,37.5|N|To Garrosh.|
-
 A The Ring of Blood: Brokentoe|QID|9962|M|42.78,20.73|N|From Gurgthock.  This questline can be soloed by the well geared at level 68, depending on class.  Groups of 2 or 3 are quite fine.|RANK|3|
 C Brokentoe|QID|9962|N|A ferocious Clefthoof. Just a nasty clefthoof.|QO|1|
 T The Ring of Blood: Brokentoe|QID|9962|M|42.78,20.68|N|To Wodin the Troll-Servant.|
@@ -386,7 +248,6 @@ T The Ring of Blood: The Warmaul Champion|QID|9973|M|42.78,20.68|N|To Wodin the 
 A The Ring of Blood: The Final Challenge|QID|9977|PRE|9973|M|42.78,20.73|N|From Gurgthock.|
 C Mogor|QID|9977|N|A two headed caster that self-heals (which you should interrupt).|QO|1|
 T The Ring of Blood: The Final Challenge|QID|9977|M|42.78,20.68|N|To Wodin the Troll-Servant.  Consider your choice carefully, as these are valuable for transmorg!|
-
 ; The following quests are the rest of the ones from Altruis.|
 C Patience and Understanding|QID|10004|NC|M|77.23,34.70|Z|Shattrath City|N|Head to Shattrath, talk to Sal'salabim in World's End Tavern and get him low in health.|
 T Patience and Understanding|QID|10004|M|77.23,34.70|Z|Shattrath City|N|To Sal'salabim.|
@@ -403,8 +264,7 @@ C Forge Camp: Hate Destroyed|QID|10011|QO|1|U|25770|N|Use the Fel Cannon Activat
 l Fel Cannon Activator|QID|10011|L|25771|M|19.54,51.17|N|Kill and loot Xirkos, Overseer of Fear to get the Fel Cannon Activator.|
 C Forge Camp: Annihilated|QID|10011|QO|2|U|25771|M|19.31,50.86|N|Use the Fel Cannon Activator next to the Fel Cannon: Fear.|
 T Forge Camp: Annihilated|QID|10011|M|27.32,43.07|N|To Altruis the Sufferer.|
-
-L Level 67|QID|10641|N|The following quests require level 67.|LVL|67|
+L Level 67|QID|10641|N|The following quests require level 67.|
 N The rest...|N|The following quests Altruis gives (after this note), require level 67 have pre-reqs that require you to go to Shadowmoon Vally. The quests that need to be done are, "Karabor Training Grounds", "A Necessary Distraction" and "Atruis". Those are not covered in this guide, nor will the be "Fly to" steps.|
 A Against the Legion|QID|10641|PRE|10640^10689|M|27.35,43.06|N|From Altruis the Sufferer.|
 A Against the Illidari|QID|10668|PRE|10640^10689|M|27.35,43.06|N|From Altruis the Sufferer.|
@@ -416,7 +276,6 @@ C Against the Illidari|QID|10668|M|28.2,49.8|Z|Shadowmoon Valley|N|Now all the w
 T Against the Legion|QID|10641|M|27.35,43.06|N|To Altruis the Sufferer.|
 T Against the Illidari|QID|10668|M|27.35,43.06|N|To Altruis the Sufferer.|
 T Against All Odds|QID|10669|M|27.35,43.06|N|To Altruis the Sufferer.|
-
 A Illidan's Pupil|QID|10646|PRE|10641&10668&10669|M|27.35,43.06|N|From Altruis the Sufferer.|
 C Illidan's Pupil|QID|10646|M|27.35,43.06|N|Talk to Altruis until you get the quest completion.|NC|
 T Illidan's Pupil|QID|10646|M|27.35,43.06|N|To Altruis the Sufferer.|
@@ -424,8 +283,5 @@ A The Book of Fel Names|QID|10649|PRE|10646|M|27.35,46.06|N|From Altruis the Suf
 l Book of Fel Names|QID|10649|L|30808|N|This is dropped from Blackheart the Inciter inside the Shadow Labyrinth (non-heroic or heroic) in Auchindoun.|
 T The Book of Fel Names|QID|10649|M|27.35,46.06|N|To Altruis the Sufferer.|
 N The next quest|N|he gives takes you back to Shadowmoon, so it is up to you if you want to do it.|
-
 ]]
 end)
-
-

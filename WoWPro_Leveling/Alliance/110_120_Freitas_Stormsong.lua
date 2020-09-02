@@ -1,281 +1,16 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
--- Date: 2020-05-01 20:50
--- Who: Ludovicus_Maior
--- Log: Fixed two K steps missing ACTIVE tags.
-
--- URL: http://wow-pro.com/node/3767/revisions/30486/view
--- Date: 2020-04-05 22:39
--- Who: Ludovicus_Maior
--- Log: Missing quotes
-
--- URL: http://wow-pro.com/node/3767/revisions/30465/view
--- Date: 2019-12-29 22:40
--- Who: Ludovicus_Maior
--- Log: Playthrough tweaks
-
--- URL: http://wow-pro.com/node/3767/revisions/29918/view
--- Date: 2018-10-17 02:22
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3767/revisions/29878/view
--- Date: 2018-10-09 04:48
--- Who: Emmaleah
--- Log: more rank 2/3 changes to the end of the zone... also fix weathered treasure QID typo :(
-
--- URL: http://wow-pro.com/node/3767/revisions/29877/view
--- Date: 2018-10-06 23:27
--- Who: Emmaleah
--- Log: fix weathered treasure that it appears I had overwritten with my last edit.
-
--- URL: http://wow-pro.com/node/3767/revisions/29876/view
--- Date: 2018-10-06 02:53
--- Who: Emmaleah
--- Log: Various tweaks to rank 2/3
-
--- URL: http://wow-pro.com/node/3767/revisions/29829/view
--- Date: 2018-09-24 18:16
--- Who: Emmaleah
--- Log: added QIDs per Ikibewn (from pre 120 rare kills)
-
--- URL: http://wow-pro.com/node/3767/revisions/29827/view
--- Date: 2018-09-24 08:22
--- Who: Emmaleah
--- Log: add Weathered Treasure QID
-
--- URL: http://wow-pro.com/node/3767/revisions/29775/view
--- Date: 2018-09-20 21:52
--- Who: Emmaleah
--- Log: Rearranged order slightly after Battle of Brennadam
-
--- URL: http://wow-pro.com/node/3767/revisions/29774/view
--- Date: 2018-09-20 18:50
--- Who: Emmaleah
--- Log: rearranged a few quests, added RANKS, tested at Rank 1, tested thru battle of Brennadam on rank 2, added PREs, added all missing QIDs (but a few were gotten with lvl 120, so may not be correct) added all treasure - except Weathered treasure is commented out and doesn't have a QID as it is REALLY far out of the way and I was hoping to find a better place for it in the quide.
-
--- URL: http://wow-pro.com/node/3767/revisions/29677/view
--- Date: 2018-09-05 04:07
--- Who: jovieve
--- Log: Added coords for flight master on F step
-
--- URL: http://wow-pro.com/node/3767/revisions/29676/view
--- Date: 2018-09-05 04:03
--- Who: jovieve
--- Log: Updated H step. Reversed order of two steps.
-
--- URL: http://wow-pro.com/node/3767/revisions/29675/view
--- Date: 2018-09-05 03:57
--- Who: jovieve
--- Log: QIDs of the day for Osca and Poacher Zane.
-
--- URL: http://wow-pro.com/node/3767/revisions/29674/view
--- Date: 2018-09-05 03:48
--- Who: jovieve
--- Log: Oops. I had two Waggas.
-
--- URL: http://wow-pro.com/node/3767/revisions/29673/view
--- Date: 2018-09-05 03:46
--- Who: jovieve
--- Log: More of the new QO behavior in Briar patch section. Minor refinements (I hope). Moved Wagga here since he seems to be killable as long as you do it before you get phased.
-
--- URL: http://wow-pro.com/node/3767/revisions/29659/view
--- Date: 2018-09-03 12:30
--- Who: jovieve
--- Log: Removed CC tag that was accidentally reintroduced.
-
--- URL: http://wow-pro.com/node/3767/revisions/29658/view
--- Date: 2018-09-03 12:25
--- Who: jovieve
--- Log: First set of fixes for the nasty briar patch. Mostly Anger in a Bottle. An attempt at clearer directions for the confusing Carved Wooden Chest.
-
--- URL: http://wow-pro.com/node/3767/revisions/29656/view
--- Date: 2018-09-03 09:28
--- Who: jovieve
--- Log: Updated QID and added T tag for Lichen King
-
--- URL: http://wow-pro.com/node/3767/revisions/29655/view
--- Date: 2018-09-03 09:20
--- Who: jovieve
--- Log: Updated A Reason to Stay to use new QO syntax
-
--- URL: http://wow-pro.com/node/3767/revisions/29654/view
--- Date: 2018-09-03 08:01
--- Who: jovieve
--- Log: Corrected vinespeaker Ratha QID from QuestsChanged info. Seems to be right this time. *fingers crossed*
-
--- URL: http://wow-pro.com/node/3767/revisions/29653/view
--- Date: 2018-09-03 07:31
--- Who: jovieve
--- Log: Changed coords for better TomTom
-
--- URL: http://wow-pro.com/node/3767/revisions/29652/view
--- Date: 2018-09-03 06:57
--- Who: jovieve
--- Log: Added QO|1 in Stop Vining so it didn't suddenly (and confusingly) display all objectives.
-
--- URL: http://wow-pro.com/node/3767/revisions/29651/view
--- Date: 2018-09-03 06:51
--- Who: jovieve
--- Log: Commented out Whiplash step. It requires 120 and only up during WQ. It's part of the achievement for this zone, though, which sucks. So I commented it out in case Blizzard fixes it.
-
--- URL: http://wow-pro.com/node/3767/revisions/29648/view
--- Date: 2018-09-03 05:01
--- Who: jovieve
--- Log: QID for Jakala the cruel
-
--- URL: http://wow-pro.com/node/3767/revisions/29647/view
--- Date: 2018-09-03 04:25
--- Who: jovieve
--- Log: QID for strange mushroom ring. Changed to $ step. Don't know if mushrooms spawn anymore.
-
--- URL: http://wow-pro.com/node/3767/revisions/29646/view
--- Date: 2018-09-03 02:45
--- Who: jovieve
--- Log: Removed CC tag
-
--- URL: http://wow-pro.com/node/3767/revisions/29645/view
--- Date: 2018-09-03 02:35
--- Who: jovieve
--- Log: Better fix for Honey Bear step.
-
--- URL: http://wow-pro.com/node/3767/revisions/29644/view
--- Date: 2018-09-03 02:27
--- Who: jovieve
--- Log: Added ACTIVE tag to Honey Bear note.
-
--- URL: http://wow-pro.com/node/3767/revisions/29643/view
--- Date: 2018-09-03 02:21
--- Who: jovieve
--- Log: QID for Grimscowl
-
--- URL: http://wow-pro.com/node/3767/revisions/29642/view
--- Date: 2018-09-03 02:14
--- Who: jovieve
--- Log: QID for Squall
-
--- URL: http://wow-pro.com/node/3767/revisions/29641/view
--- Date: 2018-09-03 02:09
--- Who: jovieve
--- Log: Added QID for Smuggler's Chest.
-
--- URL: http://wow-pro.com/node/3767/revisions/29640/view
--- Date: 2018-09-03 01:40
--- Who: jovieve
--- Log: Changed order of a couple steps to be more linear. Made Bombs, Away sticky. Added QID for treasure.
-
--- URL: http://wow-pro.com/node/3767/revisions/29639/view
--- Date: 2018-09-03 00:32
--- Who: jovieve
--- Log: Added A step for lvl 120 quest with a note.
-
--- URL: http://wow-pro.com/node/3767/revisions/29638/view
--- Date: 2018-09-02 23:59
--- Who: jovieve
--- Log: Added missing N tag that was making debug complain. Minor grammar and spelling corrections.
-
--- URL: http://wow-pro.com/node/3767/revisions/29635/view
--- Date: 2018-09-02 18:57
--- Who: Emmaleah
--- Log: added |LVL|-120| to Weed Wacking, and changed accept/complete steps of all three bonus objectives to be consistent.
-
--- URL: http://wow-pro.com/node/3767/revisions/29634/view
--- Date: 2018-09-02 17:23
--- Who: STrek
--- Log: .
-
--- URL: http://wow-pro.com/node/3767/revisions/29632/view
--- Date: 2018-09-02 16:48
--- Who: STrek
--- Log: commented out bonus quest weed wacking
-
--- URL: http://wow-pro.com/node/3767/revisions/29630/view
--- Date: 2018-09-02 03:24
--- Who: Chromaflo
--- Log: Minor changes. QID change, treasure and tide sage scroll, both necessary for achievemnt.
-
--- URL: http://wow-pro.com/node/3767/revisions/29629/view
--- Date: 2018-09-01 23:04
--- Who: jovieve
--- Log: Updated hearth step so it will autocomplete and added coords to nearest FP in case they don't want to hearth.
-
--- URL: http://wow-pro.com/node/3767/revisions/29628/view
--- Date: 2018-09-01 22:55
--- Who: jovieve
--- Log: Improved flow of Fetching Wrex and simultaneous quests.
-
--- URL: http://wow-pro.com/node/3767/revisions/29627/view
--- Date: 2018-09-01 20:44
--- Who: jovieve
-
--- URL: http://wow-pro.com/node/3767/revisions/29626/view
--- Date: 2018-09-01 19:32
--- Who: jovieve
--- Log: Some rare QIDs updated (hopefully fixed). Detective Mildenhall quest now uses new QO functions.
-
--- URL: http://wow-pro.com/node/3767/revisions/29620/view
--- Date: 2018-08-28 22:38
--- Who: Chromaflo
--- Log: Changed some WPs, added QIDs and notes for possible new syntax for QO
-
--- URL: http://wow-pro.com/node/3767/revisions/29567/view
--- Date: 2018-08-22 07:02
--- Who: jovieve
--- Log: Ran debug and fixed a few errors (which I should have done before last commit—sorry!).
-
--- URL: http://wow-pro.com/node/3767/revisions/29566/view
--- Date: 2018-08-22 06:39
--- Who: jovieve
--- Log: Many changes (hopefully optimizations). A lot of stickies added. Tried to fix Anger in a Bottle quest, which is now from a dropped item with new QID. Moved some steps around for improved efficiency. More hearths. Lots of rare kill QIDs fixed, with QO and T tags. Added t step for Great Sea Scrolls. And more.
-
--- URL: http://wow-pro.com/node/3767/revisions/29565/view
--- Date: 2018-08-21 21:09
--- Who: jovieve
--- Log: Added sticky for Border Issues quest.
---	Added set hearth suggestion.
---	Added H step.
---	Changed F step to H.
---	Added |QO| and |T| tags to first several rare quests (although QO won't work until QIDs are corrected).
---	Added |QO| tags to Detective Mildenhall quest steps to eliminate manual clicking.
---
---	Still working on rest of the guide.
-
--- URL: http://wow-pro.com/node/3767/revisions/29535/view
--- Date: 2018-08-16 23:40
--- Who: Ludovicus_Maior
--- Log: Shifted K [Wagga Snarltusk] till after turnin of [A Question of Quillpower] as per notcyf
-
--- URL: http://wow-pro.com/node/3767/revisions/29530/view
--- Date: 2018-08-15 21:58
--- Who: Ludovicus_Maior
--- Log: Minor tag error corrections.
-
--- URL: http://wow-pro.com/node/3767/revisions/29525/view
--- Date: 2018-08-15 03:21
--- Who: Lemmer
--- Log: Final playthrough on live including substantial edits to final 1/3 of guide.  Added hidden beta quests at end. Many optimizations.
-
 local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong Valley', 'MateusFreitas', 'Alliance')
-WoWPro:NewGuideLevels(guide,110, 120, 111)
 WoWPro:GuideAutoSwitch(guide)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, "EmmAWarCampaign")
-WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Stormsongvalley")
 WoWPro:GuideSteps(guide, function()
 return [[
 t The War Cache|QID|52544|N|To UI Alert.|
 A Time for War|QID|53332|N|From UI Alert.|
-
 N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 N Small Treasure Chests|QID|48622|N|In this expansion, small treasure chests are found in differant places each time rather than fixed spawn points. Blizzard puts a treasure map symbol on your minimap automatically. The fixed treasures are named in this guide.|
 N Use of Ranks|QID|48622|N|Set guide to rank 1 if you want to do the minimum to get the zone achievement. Set guide to Rank 2 to also do the quests, treasures and rares that are conveniently located to the places you travel for Rank 1 steps. Set the guide to Rank 3 to get all the quests, rares and named treasures in the zone.|
-
 A Stormsong Valley|QID|47962|M|68.37,22.10|Z|Boralus|N|Lead-in quest from scouting map in Harbormaster's Office (or mission table on ship).|
 T Stormsong Valley|QID|47962|M|68.37,22.10|Z|Boralus|N|To Taelia inside Harbormaster's Office.|
-
 ; Tidesages of Stormsong
 A The Missing Fleet|QID|47952|M|68.37,22.10|Z|Boralus|N|From Taelia.|PRE|47962|
 C The Missing Fleet|QID|47952|M|74.17,24.79|Z|Boralus|CHAT|N|Talk to Will Melbourne (the Ferry Master) for a ride.|
@@ -302,7 +37,6 @@ A Carry On|QID|51401|M|57.89,85.92|N|From Taelia.|PRE|51490|
 K Squall|QID|52433|QO|1|M|57.00,75.80|T|Squall|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|158224|RANK|2|
 f Brennadam|M|59.72,70.56|ACTIVE|51401|N|From Anna Skyspirit.|
 T Carry On|QID|51401|M|59.16,69.48|N|To Taelia.|
-
 ; A House in Peril
 A A Risky Ploy|QID|49725|M|59.18,69.45|N|From Taelia.|PRE|51401|
 h The Golden Flagon|ACTIVE|51401|M|58.6,70.3|N|Set your hearth in Brennadam.|
@@ -367,7 +101,6 @@ T Rest in the Depths|QID|49975|M|66.33,56.52|N|To Brother Pike.|
 A Rearmament|QID|49996|M|66.50,56.51|N|From Taelia.|PRE|49975|
 A Fabricated Fabrications|QID|49995|M|66.49,56.44|N|From Samuel Williams.|PRE|49975|
 A The Days Are Just Packed|QID|51552|M|66.79,56.48|N|From Hobbs.|PRE|49793&49791&49792&49794|
-
 R The Brineworks|AVAILABLE|50139|M|68.31,54.75|N|Run up the hill to The Brineworks.|
 A The Missing Link|QID|50139|M|68.71,54.40|N|From the book on the ground here.|
 C Fabricated Fabrications|QID|49995|M|69.30,51.49|S|N|Kill pirates and loot the blueprints.|
@@ -383,12 +116,10 @@ T Rearmament|QID|49996|M|66.50,56.51|N|To Taelia.|
 A Storm's Judgment|QID|49997|M|66.33,56.51|N|From Brother Pike.|PRE|50139&49995&49996|
 C Storm's Judgment|QID|49997|M|69.29,58.70|QO|1|CHAT|N|Speak to Brother Pike here.|
 C Storm's Judgment|QID|49997|M|66.33,56.51|QO|2|N|Defeat 3 waves of elementals and then, Riptide.|
-
 ; sidequest - Mildenhall Meadery
 R Mildenhall Meadery|ACTIVE|51582|M|68.32,65.09|N|As long as we are close, run over to Mildenhall Meadery and pick up the flightpath.|
 f Mildenhall Meadery|M|68.53,64.98|ACTIVE|51582|N|At Colony Caretaker.|RANK|2|
 K Sandfang|QID|52125|QO|1|M|72.70,60.54|T|Sandfang|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|154389|RANK|2|
-
 ; The Growing Tempest
 T Storm's Judgment|QID|49997|M|66.28,56.45|N|Run back to Brother Pike.|
 A Voices Below|QID|49998|M|66.28,56.45|N|From Brother Pike.|PRE|49997|
@@ -426,7 +157,6 @@ T Gathering Storm|QID|50610|M|66.17,47.43|N|To Brother Pike|
 A Storm's Vengeance|QID|50611|M|66.17,47.45|N|From Brother Pike.|PRE|50610&50608&50609|
 C Storm's Vengeance|QID|50611|M|66.17,47.45|NC|N|Stand in the lightning circle and click the extra action button.|
 T Storm's Vengeance|QID|50611|M|66.17,47.43|N|To Brother Pike.|
-
 ; At the Edge of Madness
 A A House Divided|QID|50612|M|66.16,47.44|N|From Brother Pike.|PRE|50611|
 R Tidebreak Foothills|ACTIVE|50612|M|64.75,46.56|N|Run up the hill to find Brother Pike's new digs.|
@@ -458,7 +188,6 @@ T Eye of the Storm|QID|50784|M|69.89,36.14|N|To Brother Pike.|
 A A Bridge Too Far|QID|50781|M|69.89,36.14|N|From Brother Pike.|PRE|50784|
 C A Bridge Too Far|QID|50781|M|70.33,36.14|NC|N|Stand on the purple rune and use the extra action button.|
 $ Weathered Treasure Chest|QID|51449|M|65.37,11.74;66.92,12.03|CS|N|Run to a rather remote island and then find an underground cave hidden in trees to find treasure.|RANK|3|
-
 T A Bridge Too Far|QID|50781|M|70.33,36.14|N|To Brother Pike.|
 A Lost and Forgotten|QID|51278|M|70.33,36.14|N|From Brother Pike.|PRE|50781|
 A Sealed Fate|QID|51320|M|73.61,37.70|N|From Brother Pike.|PRE|50781|
@@ -480,7 +209,6 @@ T Storm's End|QID|50824|M|78.32,28.85|N|To Brother Pike after he runs up.|
 A Shrine of the Storm: Whispers Below|QID|50825|M|78.32,28.85|N|This is a dungeon quest, take or not as you choose.|NA|
 A A New Dawn|QID|50733|M|78.32,28.85|N|From Taelia.|PRE|50824|
 f Shrine of the Storm|ACTIVE|50733|M|78.32,28.85|N|From Galeheart.|
-
 ; sidequest Mildenhall Meadery
 F Mildenhall Meadery|ACTIVE|51582|M|78.32,28.85|N|Fly back to Mildenhall.|RANK|2|
 T Make it Mildenhall|QID|51582|M|68.88,65.16|N|To Ancel Mildenhall.|
@@ -537,7 +265,6 @@ T Wendigo Away|QID|50534|O|N|To Raimond Mildenhall.|
 A Back to the Lab|QID|50553|N|From Raimond Mildenhall, who should still be next to you.|RANK|2|PRE|50534&50264&50165&50493|
 T Back to the Lab|QID|50553|M|70.75,69.18|N|Back to the basement "lab".|
 H The Golden Flagon|TZ|Brennadam|ACTIVE|51552|M|68.55,65.00|N|Hearth or fly back to Brennadam.\n\nGive Wrex a pat if you want. It doesn't do anything, but it makes you feel good.|
-
 ; Briarback Kraul
 T The Days Are Just Packed|QID|51552|M|57.60,66.38|N|To Sergeant Calvin.|
 A Bombs, Away|QID|49744|M|57.60,66.38|N|From Sergeant Calvin.|PRE|51552|
@@ -598,7 +325,6 @@ T Stop Vining!|QID|50135|M|51.59,65.97|N|To Farmer Burton.|
 A Farming Stimulator|QID|50136|M|51.59,65.96|N|From Farmer Burton.|PRE|50134&50135|
 C Farming Stimulator|QID|50136|M|48.25,64.19|N|Hop in the mech, and get your revenge!|
 T Farming Stimulator|QID|50136|M|51.59,65.96|N|To Farmer Burton.|
-
 f The Amber Waves|M|50.75,70.22|ACTIVE|50157|N|Pick up the flight path from Karla.|
 A Follow Your Nose|QID|49886|M|51.01,70.17|N|From Houndmaster Archibald.|RANK|2|
 A Sic 'Em!|QID|49960|M|51.01,70.17|N|From Houndmaster Archibald.|RANK|2|
@@ -678,7 +404,6 @@ T Terror of the Kraul|QID|50368|Z|Thornheart!Dungeon|M|71.22,52.33|N|To Sergeant
 A A Question of Quillpower|QID|50640|M|71.22,52.33|Z|Thornheart!Dungeon|N|From Sergeant Calvin.  Hop on the boar and ride back to Mayor Roz.|PRE|50368|
 C A Question of Quillpower|QID|50640|M|50.75,70.21|NC|N|Hop on the boar and ride out of the cave.|
 F Deadwash|ACTIVE|49818|M|50.75,70.22|N|At Karla Fairweather.|
-
 ; sidequests Millstone Hamlet
 K Osca the Bloodied|QID|52461|QO|1|M|42.12,63.13|T|Osca the Bloodied|N|Back on the road, silver Elite to kill for loot and achievement.|RARE|ITEM|159169|RANK|2|
 A Undelivered Package|QID|51218|M|38.43,62.99|N|Pick up from Marie's Package on the road.|RANK|2|
@@ -742,7 +467,6 @@ T Wheat A Minute|QID|51208|M|30.42,66.90|N|To Charles Davenport.|
 T Mighty Grokkfist|QID|51209|M|30.42,66.90|N|To Charles Davenport.|
 T Ettin It Done|QID|51207|M|30.33,66.81|N|To Marie Davenport.|
 K Kickers|QID|52318^52321|QO|1|M|31.28,61.70|T|Kickers|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|154475|RANK|2|
-
 ; From the Depths They Came
 R Seabreeze Village|ACTIVE|49818|M|37.07,61.11;31.03,60.58|CS|N|Run over to Seabreeze Village to find Lt. Bauer.|
 T Trouble at Fort Daelin|QID|49818|M|30.17,59.22|N|To Lieutenant Bauer.|
@@ -808,7 +532,6 @@ A Back to Brennadam|QID|49908|M|34.10,54.87|N|From Commander Kellam.|PRE|49831|
 A Surveying the Wharf|QID|53045|M|34.77,47.47|N|From Lieutenant Harris.|RANK|2|
 A More Fodder|QID|52069|M|33.21,45.59|N|From William.|LEAD|50810|
 T Surveying the Wharf|QID|53045|M|26.01,55.23|N|To Coxswain all the way at the top of the 'ship' building.|
-
 ; sidequest - Deadliest Cache
 A Deadliest Cache: Reel Big Fish|QID|50376|M|26.01,55.23|N|From Coxswain Hook.|RANK|2|
 C Deadliest Cache: Reel Big Fish|QID|50376|M|26.01,55.23|QO|1|CHAT|N|Coxswain Hook has a story.|
@@ -842,14 +565,12 @@ C Deadliest Cache: Carpe Diem|QID|52130|M|26.26,54.57|QO|4|NC|N|Use the spyglass
 C Deadliest Cache: Carpe Diem|QID|52130|M|26.26,54.57|QO|5|NC|N|Use your ability when the whale gets to you. Let the naga beat on you if necesary, you can no longer damage them.|
 T Deadliest Cache: Carpe Diem|QID|52130|M|25.99,55.21|N|To Hook.|
 H The Golden Flagon|TZ|Brennadam|ACTIVE|49908|M|34.26,47.18|N|Hearth to Brennadam or run back to the flight point and fly there.|RANK|2|
-
-A Ruin Has Come|QID|50417|M|59.50,68.34|LVL|120|N|If you are level 120, you can pick up this quest from A Crumbled Letter inside the house if you want. It starts the Forgotten Cove storyline. This storyline has daily requirements and is not mentioned again in this guide.|RANK|2|
+A Ruin Has Come|QID|50417|M|59.50,68.34|N|If you are level 120, you can pick up this quest from A Crumbled Letter inside the house if you want. It starts the Forgotten Cove storyline. This storyline has daily requirements and is not mentioned again in this guide.|RANK|2|
 T Back to Brennadam|QID|49908|M|59.51,69.94|N|To Squire Augustus III|RANK|2|
 T A Question of Quillpower|QID|50640|M|58.63,70.44|N|To Mayor Roz.|RANK|2|
 t WANTED: Thundersnout|QID|49730|M|58.63,70.43|N|To Mayor Roz.|
 T Totems, Totems, Totems!|QID|50111|M|57.61,66.41|N|To Sergeant Calvin.|
 T Steal Them Back|QID|50340|M|57.61,66.41|N|To Sergeant Calvin.|
-
 ; sidequest Jeweled Coast
 F Fort Daelin|ACTIVE|49832|N|Fly back to Fort Daelin.|RANK|2|
 R The Jeweled Coast|ACTIVE|49832|M|34.90,49.43;40.77,47.38|CS|N|Take the main (SW) gate out of Daelin and then follow the road around the bay for more optional quests, rares and treasure.|
@@ -912,13 +633,11 @@ A Battle Victorious|QID|51386|M|34.35,26.29|N|From Toki.|PRE|51222|
 C Battle Victorious|QID|51386|M|34.35,26.29|QO|1|N|Hop on the turtle.|
 C Battle Victorious|QID|51386|M|34.35,26.29|QO|2|N|Revenge time. Use ability 1 on the mobs. |
 T Battle Victorious|QID|51386|M|40.19,37.63|N|To Toki.|
-
 H The Golden Flagon|TZ|Brennadam|ACTIVE|49908|M|34.26,47.18|N|Hearth to Brennadam or run back to the flight point and fly there.|RANK|-1|
 T Back to Brennadam|QID|49908|M|59.51,69.94|N|To Squire Augustus III|RANK|-1|
 T A Question of Quillpower|QID|50640|M|58.63,70.44|N|To Mayor Roz.|RANK|-1|
 t WANTED: Thundersnout|QID|49730|M|58.63,70.43|N|To Mayor Roz.|RANK|-1|
 F Deadwash|M|59.74,70.58|AVAILABLE|50810|N|Fly to Deadwash.|RANK|-1|
-
 ; Treasure in Deadwash
 F Deadwash|M|40.00,37.33|AVAILABLE|50810|N|Fly to Deadwash.|RANK|2|
 T More Fodder|QID|52069|M|42.99,56.61|N|To Leo Shealds.|
@@ -991,7 +710,6 @@ T I Want It All Now|QID|50803|M|41.13,54.09|N|To Nedly Grinner.|
 T All Laid Out For Us|QID|50742|M|42.98,56.60|N|To Leo Shealds back in Deadwash.|
 A Walking-Around Money|QID|50956|M|43.02,56.53|N|From Small Coin Bag, next to Leo.|;not required... but you may as well get the gold.
 T Walking-Around Money|QID|50956|M|43.02,56.53|N|To Small Coin Bag.|
-
 ; Cycle of Hatred
 R Beacon Hill|AVAILABLE|51711|M|43.17,50.56;46.14,47.24|CS|N|Next stop Beacon Hill, you can run a little farther if you prefer roads to cross country, but its an easy hike up the hill.|
 A Grizzled|QID|51752|M|46.88,47.68|N|From Felecia Gladstone.|; Leadin [Worse Than It Looks] 52065 not used
@@ -1029,7 +747,6 @@ C Eye for an Eye|QID|51712|M|51.25,36.72;50.62,32.50|CS|U|158465|NC|N|Hop in the
 T Eye for an Eye|QID|51712|M|51.29,36.94|N|To Felecia Gladstone.|
 t WANTED: War Gore|QID|52876|M|46.69,47.97|N|To Matthew Gandorian.|
 H The Golden Flagon|TZ|Brennadam|ACTIVE|50733|M|46.69,47.97|N|Return to Brennadam.|
-
 ; Eckhart Lodge
 F Tidecross|M|59.73,70.57|ACTIVE|49998|N|Fly to Tidecross|RANK|2|
 T Survivors|QID|52067|M|57.86,55.31|N|To Patrick Eckhart in the next area.|
@@ -1054,12 +771,7 @@ t WANTED: Yarsel'ghun|QID|51217|M|57.94,54.55|N|To Lea Martinel.|
 T Smells Like Trouble|QID|50908|M|57.86,55.31|N|To Patrick Eckhart|
 T Dangerous Game|QID|50910|M|57.86,55.31|N|To Patrick Eckhart|
 F Tradewinds Market|ACTIVE|50733|M|65.57,48.01|TZ|Boralus Harbor|N|Take a flight to Boralas to turn in the final zone quest.|RANK|2|
-
 F Tradewinds Market|ACTIVE|50733|M|59.73,70.57|TZ|Boralus Harbor|N|Take a flight to Boralas to turn in the final zone quest.|RANK|-1|
 T A New Dawn|QID|50733|M|68.15,21.99|Z|Boralus|N|To Taelia in the Harbormaster's Office.|
-
 ]]
-
 end)
-
-

@@ -1,274 +1,13 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/node/3763
--- Date: 2020-05-01 20:49
--- Who: Ludovicus_Maior
--- Log: Fixed a few K steps missing ACTIVE tags
-
--- URL: http://wow-pro.com/node/3763/revisions/30470/view
--- Date: 2020-01-18 17:42
--- Who: Ludovicus_Maior
--- Log: Played it and found some tweaks
-
--- URL: http://wow-pro.com/node/3763/revisions/30215/view
--- Date: 2019-02-02 20:12
--- Who: Emmaleah
--- Log: Add |V| where appropriate and some other minor note changes.
-
--- URL: http://wow-pro.com/node/3763/revisions/30195/view
--- Date: 2019-01-22 09:55
--- Who: Emmaleah
--- Log: spelling errors, change a couple of C steps to K. and adjust coords for R Wayward Thicket.
-
--- URL: http://wow-pro.com/node/3763/revisions/30138/view
--- Date: 2018-11-20 14:34
--- Who: jovieve
--- Log: For people running guide on rank 1, added note to unsticky about skipping rank 2 quest [If Bones Could  Talk]. It's likely to become active on rank 1, because it's a drop quest. Made associated turn-in step a t instead of T.
-
--- URL: http://wow-pro.com/node/3763/revisions/30137/view
--- Date: 2018-11-20 14:08
--- Who: jovieve
--- Log: Based h step on active rank 1 quest instead of rank 2, because H step comes up later on rank 1.
-
--- URL: http://wow-pro.com/node/3763/revisions/30136/view
--- Date: 2018-11-20 13:50
--- Who: jovieve
--- Log: Fixed PRE that seemed to be another typo.
-
--- URL: http://wow-pro.com/node/3763/revisions/30135/view
--- Date: 2018-11-20 12:25
--- Who: jovieve
--- Log: Changed all T steps on bonus objectives to t, for easier skipping for people who hate them like me.
-
--- URL: http://wow-pro.com/node/3763/revisions/30134/view
--- Date: 2018-11-20 12:10
--- Who: jovieve
--- Log: Fixed typo in PRE step.
-
--- URL: http://wow-pro.com/node/3763/revisions/29919/view
--- Date: 2018-10-17 02:22
--- Who: Ludovicus_EditBot
--- Log: And/Or Edit
-
--- URL: http://wow-pro.com/node/3763/revisions/29875/view
--- Date: 2018-10-05 08:51
--- Who: elidion
--- Log: Accuracy Pass
-
--- URL: http://wow-pro.com/node/3763/revisions/29859/view
--- Date: 2018-10-01 06:50
--- Who: Emmaleah
--- Log: more rank 1 tweaks.
-
--- URL: http://wow-pro.com/node/3763/revisions/29769/view
--- Date: 2018-09-18 07:01
--- Who: elidion
--- Log: Got rid of a rogue CS coord.
-
--- URL: http://wow-pro.com/node/3763/revisions/29768/view
--- Date: 2018-09-18 06:44
--- Who: elidion
--- Log: Rank 1 Pass/fixes
-
--- URL: http://wow-pro.com/node/3763/revisions/29763/view
--- Date: 2018-09-17 09:06
--- Who: elidion
--- Log: Rank 1 pass through a few zone achievement objectives.
-
--- URL: http://wow-pro.com/node/3763/revisions/29754/view
--- Date: 2018-09-15 19:23
--- Who: Emmaleah
--- Log: Add |RARE tag to all Silver Elite Mobs, changed all C steps, that had |T|, to K steps; on those made sure had QO tag, changed QID to ACTIVE
-
--- URL: http://wow-pro.com/node/3763/revisions/29732/view
--- Date: 2018-09-11 18:30
--- Who: Emmaleah
--- Log: Add missing QO|1| to K Bramblethorn|QID|50238| - thanks Ikibewn
-
--- URL: http://wow-pro.com/node/3763/revisions/29704/view
--- Date: 2018-09-09 00:03
--- Who: Emmaleah
--- Log: QIDs for missing 6 items, other minor adjustments. Restore lost header... (oops!)
-
--- URL: http://wow-pro.com/node/3763/revisions/29702/view
--- Date: 2018-09-08 21:53
--- Who: Emmaleah
--- Log: Actually updated PRE tags! commented a whole lot NOT spurious - dispite grail's claims to the contrary.
-
--- URL: http://wow-pro.com/node/3763/revisions/29701/view
--- Date: 2018-09-08 11:35
--- Who: Emmaleah
--- Log: RANKS added, PREs checked, various other Cleanup. Checked against Wowhead, added reminder of Rares and Treasures ACH, one missing quest.
-
--- URL: http://wow-pro.com/node/3763/revisions/29697/view
--- Date: 2018-09-08 06:58
--- Who: Emmaleah
--- Log: Fix Once Bitten QO1 Coords
-
--- URL: http://wow-pro.com/node/3763/revisions/29694/view
--- Date: 2018-09-07 09:45
--- Who: Emmaleah
--- Log: missing  US on Once Bitten
-
--- URL: http://wow-pro.com/node/3763/revisions/29613/view
--- Date: 2018-08-25 03:10
--- Who: jovieve
--- Log: Fixed f step that was being skipped because it was using QID of step that had just been turned in.
-
--- URL: http://wow-pro.com/node/3763/revisions/29612/view
--- Date: 2018-08-25 01:07
--- Who: jovieve
--- Log: Typo correction.
-
--- URL: http://wow-pro.com/node/3763/revisions/29582/view
--- Date: 2018-08-23 06:52
--- Who: Emmaleah
--- Log: play thru tweaks per Jovieve
-
--- URL: http://wow-pro.com/node/3763/revisions/29529/view
--- Date: 2018-08-15 21:50
--- Who: Ludovicus_Maior
--- Log: Move mislocated N|To Zallestrasza.|
-
--- URL: http://wow-pro.com/node/3763/revisions/29519/view
--- Date: 2018-08-14 20:41
--- Who: Emmaleah
--- Log: add lost turn in for Life Preserver
-
--- URL: http://wow-pro.com/node/3763/revisions/29427/view
--- Date: 2018-07-15 04:49
--- Who: Emmaleah
--- Log: added sort level
-
--- URL: http://wow-pro.com/node/3763/revisions/29391/view
--- Date: 2018-07-03 02:54
--- Who: Emmaleah
--- Log: updated next guide
-
--- URL: http://wow-pro.com/node/3763/revisions/29368/view
--- Date: 2018-06-24 19:23
--- Who: Emmaleah
--- Log: minor changes, mostly adding NC tags, some spelling or wording corrections, etc.
-
--- URL: http://wow-pro.com/node/3763/revisions/29358/view
--- Date: 2018-06-18 22:01
--- Who: Emmaleah
--- Log: Finished clean-up phase, all identified Rares and Treasure added (list at beginning of guide of unknowns), Still needs PREs checked, RANKS added.
-
--- URL: http://wow-pro.com/node/3763/revisions/29357/view
--- Date: 2018-06-18 08:38
--- Who: Emmaleah
--- Log: Cleaned up added most rares/found treasures/PRE tags through Crimson Wood pt2
-
--- URL: http://wow-pro.com/node/3763/revisions/29356/view
--- Date: 2018-06-17 10:47
--- Who: Emmaleah
--- Log: more edits, thru Order of the Embers arc
-
--- URL: http://wow-pro.com/node/3763/revisions/29355/view
--- Date: 2018-06-16 23:34
--- Who: Emmaleah
--- Log: Added coordinates, most PRE tags added, but not comprehensive and rares thru the Barrowknoll Cemetary
-
--- URL: http://wow-pro.com/node/3763/revisions/29351/view
--- Date: 2018-06-10 17:37
--- Who: STrek
--- Log: second part of Corlain added - this ends first draft for this guide - clean up fase started
-
--- URL: http://wow-pro.com/node/3763/revisions/29350/view
--- Date: 2018-06-09 23:28
--- Who: STrek
--- Log: Teller farm and the first part for Corlain
-
--- URL: http://wow-pro.com/node/3763/revisions/29348/view
--- Date: 2018-06-07 18:12
--- Who: Emmaleah
--- Log: Changed guide name to be more descriptive
-
--- URL: http://wow-pro.com/node/3763/revisions/29337/view
--- Date: 2018-05-27 18:46
--- Who: STrek
--- Log: added parts Anyport and Crimsonwood - part 2
-
--- URL: http://wow-pro.com/node/3763/revisions/29336/view
--- Date: 2018-05-27 18:45
--- Who: STrek
--- Log: added part Crimsonwood
-
--- URL: http://wow-pro.com/node/3763/revisions/29335/view
--- Date: 2018-05-27 18:44
--- Who: STrek
--- Log: added part Falconhurst
-
--- URL: http://wow-pro.com/node/3763/revisions/29333/view
--- Date: 2018-05-26 22:21
--- Who: STrek
--- Log: added "Drust History" part
-
--- URL: http://wow-pro.com/node/3763/revisions/29332/view
--- Date: 2018-05-26 16:41
--- Who: STrek
--- Log: added "Order of Embers" part
-
--- URL: http://wow-pro.com/node/3763/revisions/29331/view
--- Date: 2018-05-26 13:02
--- Who: STrek
--- Log: added Gol Koval part
-
--- URL: http://wow-pro.com/node/3763/revisions/29316/view
--- Date: 2018-05-22 21:01
--- Who: STrek
--- Log: fishing side quests + fletcher's hollow and end of witch trial part - added
-
--- URL: http://wow-pro.com/node/3763/revisions/29314/view
--- Date: 2018-05-19 23:06
--- Who: STrek
--- Log: added seeing spirits and the witch trial
-
--- URL: http://wow-pro.com/node/3763/revisions/29311/view
--- Date: 2018-05-13 18:32
--- Who: STrek
--- Log: added 3 small side quest lines 1) Meat Quests 2) Wicker Worship and 3)Tea Party
-
--- URL: http://wow-pro.com/node/3763/revisions/29308/view
--- Date: 2018-05-13 06:12
--- Who: Emmaleah
--- Log: bunch of nit picky space removal, add ".", delete 1/1, etc. spelling corrections other minor tweaks
-
--- URL: http://wow-pro.com/node/3763/revisions/29295/view
--- Date: 2018-05-12 15:26
--- Who: STrek
--- Log: added Adventurer's Society part
-
--- URL: http://wow-pro.com/node/3763/revisions/29293/view
--- Date: 2018-05-11 08:56
--- Who: STrek
--- Log: quest war campain and warcache moved to intro guide. It is logicial to do this before first zone choose is made.
---
---	Choice for zone (here Drustvar) is already made in intro guide --> should be removed here-- added comment before line to see if this is needed or not (will be checked later)
---
---	added few white lines for clear reading - player moves to differnt place in game here
-
--- URL: http://wow-pro.com/node/3763/revisions/29290/view
--- Date: 2018-05-10 20:35
--- Who: STrek
-
 local guide = WoWPro:RegisterGuide('STrekDrustvar', 'Leveling', 'Drustvar', 'STrek', 'Alliance')
-WoWPro:GuideLevels(guide,110, 120, 111)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'EmmAWarCampaign')
-WoWPro:GuideIcon(guide,"ACH",12941)
 WoWPro:GuideSteps(guide, function()
 return [[
 t The War Cache|QID|52544|N|To UI Alert.|
 A Time for War|QID|53332|N|From UI Alert.|PRE|52544|
-
 N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 N Small Treasure Chests|QID|48622|N|In this expansion, small treasure chests are found in differant places each time rather than fixed spawn points. Blizzard puts a treasure map symbol on your minimap automatically. The fixed treasures are named in this guide.|
 N Use of Ranks|QID|48622|N|Set guide to rank 1 if you want to do the minimum to get the zone achievement. Set guide to Rank 2 to also do the quests, treasures and rares that are conveniently located to the places you travel for Rank 1 steps. Set the guide to Rank 3 to get all the quests, rares and named treasures in the zone.|
-
 ; possibly not needed because choice is already made in intro guide-never hurts to have it tho
 A Drustvar|QID|47961|M|73.89,25.10|Z|Tiragarde Sound|N|From the scouting map. Choose the zone quest Drustvar.|
 T Drustvar|QID|47961|M|73.81,25.07|Z|Tiragarde Sound|N|To Taelia.|
@@ -276,7 +15,6 @@ A The Vanishing Lord|QID|48622|M|73.81,25.07|Z|Tiragarde Sound|N|From Taelia.|PR
 R Tradewinds Market|ACTIVE|48622|M|75.29,25.76|CC|Z|Tiragarde Sound|N|Run to the Ferry Stop in Tradewind Market (optional)|FLY|BFA|
 C The Vanishing Lord|QID|48622|M|74.16,24.80|Z|Tiragarde Sound|QO|1|NC|N|Take the ferry to Drustvar - chat option.|FLY|BFA|
 R Tradewinds Market|ACTIVE|48622|M|75.29,25.76|CC|Z|Tiragarde Sound|N|Run to the Ferry Stop in Tradewind Market (optional)|FLY|BFA|
-
 ; Fallhaven
 R Fallhaven|ACTIVE|48622|M|56.18,35.30|N|You can still optionally take the boat to Fallhaven, or simply fly straight there.|FLY|-BFA|
 C The Vanishing Lord|QID|48622|QO|2|M|56.18,35.30|NC|N|Meet with Cyril White - magnify glass option|
@@ -312,13 +50,11 @@ C The Final Effigy|QID|47982|QO|1|M|55.93,35.11|N|Break Cursed Effigy.|
 K Deathcursed Terror|ACTIVE|47982|QO|2|M|55.93,35.11|N|Kill Deathcursed Terror.|T|Deathcursed Terror|
 T The Final Effigy|QID|47982|M|55.95,35.14|N|To Cyril White.|
 A The Waycrest Daughter|QID|48108|M|55.95,35.14|N|From Cyril White.|PRE|47982|
-
 A To Market, To Market|QID|47945|M|55.57,34.80|N|From Elijah Eggleton.|PRE|47982|RANK|2|
 A WANTED: Rindlewoe|QID|51547|M|55.74,34.99|N|From wanted poster.|PRE|47982|RANK|3|
 f Fallhaven|ACTIVE|48108|M|55.13,34.69|N|At Clarence Page.|
 A The North Pass Caverns|QID|48948|M|55.15,35.17|N|From Maude Rifthold.|PRE|47982|LEAD|48792^48793|RANK|2|
 h The Swine's Larder|ACTIVE|48108|M|55.50,34.26|N|At Dinah Wellard.|
-
 ; Adventurer's Society
 $ Obviously Safe Chest|QID|49481|M|50.57,30.06|T|Beshol|N|This obviously safe chest isn't quite as unprotected as it looks, kill the giant Silver Elite spider and it is yours.|RARE|ITEM|158363|RANK|3|
 K Rindlewoe|ACTIVE|51547|QO|1|M|52.28,26.66|N|Rindlewoe slain - He is found at the end of the stream at the waterfall - optional- possible alone.|T|Rindlewoe|RANK|3|
@@ -350,7 +86,6 @@ C Terminal Degree|QID|48853|QO|2|M|49.40,23.37|NC|N|Free Nigel Rifthold from abo
 T Terminal Degree|QID|48853|M|50.59,24.43|N|To Thaddeus "Gramps" Rifthold who is with the rest of the children now.|
 H The Swine's Larder|ACTIVE|51547|M|55.50,34.26|U|6948|N|Use your hearthstone to go back to Fallhaven.|
 t WANTED: Rindlewoe|QID|51547|M|55.87,35.13|N|To Mayor Cyril White.|
-
 ; Meat Quests
 R Carver's Harbor|ACTIVE|47945|M|56.88,34.21;61.72,29.70|CS|N|Take the road northeast out of town.|FLY|BFA|
 T To Market, To Market|QID|47945|M|63.22,27.10|N|To Thomas Staughton.|
@@ -372,7 +107,6 @@ T That's Not My Fetish|QID|47949|M|63.24,27.04|N|To Thomas Staughton.|
 A Cured Ham|QID|47950|M|63.24,27.04|N|From Thomas Staughton.|PRE|47946&47947&47948&47949|RANK|2|
 C Use Pig Effigy|U|153432|QID|47950|M|63.29,27.02|N|Use the item to toss it in the campfire near Thomas Staughton|
 T Cured Ham|QID|47950|M|63.24,27.04|N|To Thomas Staughton.|
-
 ; Wicker Worship
 f Barbthorn Ridge|AVAILABLE|48677|M|62.62,23.98|N|Follow the route to the north and find Anna Ridgeley before the bridge to the left.|RANK|2|
 K Whargarble the Ill-Tempered|QID|49311|QO|1|M|64.97,21.37|RARE|ITEM|155543|T|Whargarble the Ill-Tempered|N|Silver Elite to kill and loot for some azerite power and resources.|RANK|2|
@@ -398,9 +132,7 @@ A Changing Seasons|QID|48683|M|56.60,24.03|N|From Edwin Maldus.|PRE|48682|RANK|2
 C Changing Seasons|QID|48683|QO|1|M|59.35,21.99|NC|N|Run back to the wickerman.|
 C Changing Seasons|QID|48683|QO|2|M|59.29,21.92|NC|N|Click on Wicker Man to burn it.|
 T Changing Seasons|QID|48683|M|59.35,21.99|N|To Edwin Maldus.|
-
 H Fallhaven|AVAILABLE|47289|M|62.62,23.98|U|6948|N|Use your hearthstone to go back to Fallhaven. If your hearthstone isn't available you can fly at Anna Ridgeley.|PRE|48683|
-
 ; Tea Party
 A Teddies and Tea|QID|47289|M|54.51,39.34|N|At the back of Fallhaven go left over the bridge and find a little girl, Abby Lewis, singing to herself.|PRE|48622|RANK|2|
 C Teddies and Tea|QID|47289|QO|2|NC|M|55.40,39.77|N|In the house before the fire - Trunksy found.|
@@ -426,9 +158,7 @@ T Tea Party|QID|44785|M|57.76,47.76|N|To Annie Warren.|
 $ Bespelled Chest|QID|53472|M|55.60,51.83|N|Click on any of the Witch Torches to enable looting the chest.|RANK|2|
 C The Accursed Thicket|QID|45972|QO|1|M|58.18,47.91|US|N|Finish purging the woods for this bonus objective.|
 t The Accursed Thicket|QID|45972|M|58.18,47.91|N|Bonus Objective - Autocompleted.|
-
 K Longfang/Henry Breakwater|QID|48981|QO|1|M|56.5,50.5;59.36,55.40|CS|RARE|ITEM|160468|N|Decide which of them to help and talk to them to offer your help. Silver Elite to kill for azerite power and resources.|RANK|3|
-
 ; Seeing Spirits (optional)
 A Seeing Spirits|QID|48475|M|62.61,42.99|N|From Caretaker Allen.|RANK|3|
 A Crypt Keepers|QID|48474|M|62.61,42.99|N|Bonus Objective - Autoaccepted.|LVL|-120|RANK|3|
@@ -448,7 +178,6 @@ T Looking For One More|QID|48477|M|59.50,51.22|N|To Mercy Fairwater.|
 C Crypt Keepers|QID|48474|M|61.70,44.16|US|N|Finish up the bonus objective before leaving the area.|
 t Crypt Keepers|QID|48474|M|61.70,44.16|N|Bonus Objective - Autocompleted.|
 $ Emily Mayville|QID|49530|M|63.41,40.18|T|Emily Mayville|CHAT|N|Ask her why she is crying, ends with killing her - Silver Elite to loot for azerite power and resources.|RARE|ITEM|160447|RANK|3|
-
 ; The Witch Trial
 b Old Drust Road|ACTIVE|48108|M|61.70,36.56|N|Take the ferry to just across the bridge from Hangman's point.|RANK|-1|FLY|BFA|
 R Hangman's Point|ACTIVE|48108|M|69.53,42.60|N|Run east down the coast road.|RANK|2|FLY|BFA|
@@ -481,7 +210,6 @@ C Quill or Be Quilled|QID|49242|M|66.41,42.09|US|N|Finish killing the Invasive Q
 T Quill or Be Quilled|QID|49242|M|66.88,42.13|N|To Adela Hawthorne.|
 C Harmful If Swallowed|QID|48165|US|N|Finish collecting the Intact Venom Glands.|
 C Once Bitten, Twice Shy|QID|48170|QO|2|US|NC|N|Finish capturing the needed Bloodflies.|
-
 T A Pungent Solution|QID|48113|M|70.07,42.81|N|To Lucille Waycrest.|
 T Once Bitten, Twice Shy|QID|48170|M|70.07,42.81|N|To Lucille Waycrest.|
 T Harmful If Swallowed|QID|48165|M|70.07,42.81|N|To Lucille Waycrest.|
@@ -491,9 +219,7 @@ C The Burden of Proof|QID|48198|QO|2|M|70.10,42.81|NC|N|Click on Lucille to admi
 C The Burden of Proof|QID|48198|QO|3|M|70.10,42.81|NC|N|Click on Lucille to administer the second test.|
 C The Burden of Proof|QID|48198|QO|4|M|70.10,42.81|NC|N|Click on Lucille to administer the third test.|
 T The Burden of Proof|QID|48198|M|70.10,42.81|N|To Lucille Waycrest.|
-
 A The Curse of Fletcher's Hollow|QID|48171|M|70.08,42.90|N|From Lucille Waycrest.|PRE|48198|
-
 ; fishing side quests (optinal)
 A Mean Gulls|QID|48880|M|71.76,50.41|N|From Art Hughie.|RANK|3|
 A Take the Bait|QID|48904|M|71.76,50.41|N|From Art Hughie.|RANK|3|
@@ -513,7 +239,6 @@ T I Like Fish Guts and I Cannot Lie|QID|48882|M|71.76,50.46|N|To Art Hughie.|
 A Big Gulls Won't Die|QID|48883|M|71.76,50.46|N|From Art Hughie.|PRE|48880&48904|RANK|3|;not spurious
 K Brinebeak|ACTIVE|48883|QO|1|M|71.48,49.10|N|Kill Brinebeak.|T|Brinebeak|
 T Big Gulls Won't Die|QID|48883|M|71.77,50.41|N|To Art Hughie.|
-
 ; Fletcher's Hollow
 R Timbered Strand|ACTIVE|48171|M|69.22,58.51|N|Run south along the road by the riverbank to Timbered Strand.|FLY|BFA|
 f Fletcher's Hollow|ACTIVE|48171|M|70.21,60.45|N|At Bridget Bran.|
@@ -533,7 +258,6 @@ T Hope They Can't Swim|QID|48519|M|70.07,60.27|N|To Evelyn Pare.|
 A Break Them to Splinters|QID|48525|M|70.07,60.27|N|Bonus Objective - Autoaccepted.|PRE|48519|LVL|-120|
 A The Three Sisters|QID|48520|M|70.07,60.27|N|From Evelyn Pare.|PRE|48519|
 C Break Them to Splinters|QID|48525|M|70.07,60.27|S|N|Kill stuff, pick up other stuff...eventually the bonus objective gets done.|
-
 A Charming the Lifeless|QID|48521|M|70.04,62.94|N|From a Bladed Charm, lying on some bales.|PRE|48519|
 C Charming the Lifeless|QID|48521|M|68.55,63.29|NC|S|N|Use the Charm to attempt to control a Dormant Ravager. (should take several trys)|U|152590|
 K Sister Mooring|ACTIVE|48520|M|70.13,62.14|QO|3|T|Sister Mooring|N|Slay Sister Mooring.|
@@ -559,7 +283,6 @@ T The Murderous Matron|QID|48523|M|70.07,60.27|N|To Evelyn Pare.|
 T Culling the Coven|QID|48524|M|70.07,60.27|N|To Evelyn Pare.|
 A An Airtight Alibi|QID|48538|M|70.07,60.27|N|From Evelyn Pare.|PRE|48523|
 F Hangman's Point|ACTIVE|48538|M|70.21,60.45|N|At Bridget Bran.|
-
 ; The Witch Trial - part 2
 T An Airtight Alibi|QID|48538|M|70.09,42.91|N|To Constable Henry Framer.|
 A And Justice For All|QID|49259|M|70.08,42.86|N|From Lucille Waycrest.|PRE|48538|
@@ -567,7 +290,6 @@ C And Justice For All|QID|49259|QO|1|M|70.08,42.86|NC|N|Click on Lucille to unti
 C And Justice For All|QID|49259|QO|2|M|69.26,43.59|N|Defeat 3 waves then the leader of the Heartsbane ambush|
 T And Justice For All|QID|49259|M|69.67,43.27|N|To Lucille Waycrest.|
 A A Slight Detour|QID|48941|M|69.67,43.27|N|From Lucille Waycrest.|PRE|49259|
-
 ; Gol Koval
 A Gol Koval|QID|48947|M|69.52,43.71|N|From Auntie Amanda Hale.|PRE|59259|LEAD|52074|RANK|2|
 R Wayward Thicket|ACTIVE|48947|M|68.01,48.88|N|Take this small path to the right after you cross the bridge|RANK|2|FLY|BFA|
@@ -603,9 +325,7 @@ T Total Cairnage|QID|48182|M|61.89,59.37|N|To Thornspeaker Birchgrove.|
 T The Hills Are Alive|QID|48183|M|61.89,59.37|N|To Thornspeaker Birchgrove.|
 T Really Big Problem|QID|48180|M|61.89,59.37|N|To Thornspeaker Birchgrove.|
 A The High Thornspeaker|QID|53110|M|61.89,59.37|N|From Thornspeaker Birchgrove.|PRE|48183&52075&48179&48182&48180|RANK|3|
-
 H The Swine's Larder|ACTIVE|48941|TZ|Fallhaven|N|Use your heartstone to go back to Fallhaven, lacking that its a short run down the river to Fletcher's Hollow and a flight to Fallhaven.|
-
 ; Order of Embers
 R Highroad Pass|ACTIVE|48941|M|52.09,38.35;48.87,32.02|CS|N|Follow the road west out of town to Highroad Pass.|FLY|BFA|
 T A Slight Detour|QID|48941|M|46.11,33.42|N|To Lucille Waycrest.|
@@ -638,12 +358,10 @@ A The Order of Embers|QID|48946|M|42.59,25.23|N|From Lucille Waycrest.|PRE|48945
 C The Order of Embers|QID|48946|M|42.63,25.25|NC|N|Pick up the Tome of Silver and Ash.|
 T The Order of Embers|QID|48946|M|42.59,25.23|N|To Lucille Waycrest.|
 A Take the High Road|QID|48986|M|42.59,25.23|N|From Lucille Waycrest.|PRE|48946|
-
 R Highroad Pass|ACTIVE|48986|M|43.62,39.15|N|Run out of the cavern and across the valley to Highroad Pass.|FLY|BFA|
 C The High Thornspeaker|QID|53110|QO|1|M|43.62,39.15|CHAT|N|Tell Arthur you are ready to go.|
 C The High Thornspeaker|QID|53110|QO|2|M|43.62,39.15|V|N|Hop on Arthur's back for a ride up to Ulfar's Den.|
 T The High Thornspeaker|QID|53110|M|45.30,45.75|N|To Ulfar.--currently no follow up... seems odd--|
-
 A WANTED: The Rime Huntress|QID|52033|M|41.24,40.98|N|group quest - optional|RANK|2|
 K Bilgewater Incinerator|AVAILABLE|50897|L|158928|M|38.82,35.79|T|Bilgewater Incinerator|N|Kill the Bilgewater Incinerator's until you get the item that starts a quest.|RANK|2|
 A Turn the Heat Around|QID|50897|M|38.82,35.79|N|Auto accepted from the Flamethrower you just looted.|RANK|2|
@@ -652,7 +370,6 @@ T Turn the Heat Around|QID|50897|M|38.82,35.79|N|To UI Alert.|RANK|2|
 K Rime Huntress|QID|52033|M|44.22,40.99|QO|1|N|The Rime Huntress is stealthed along the mountain path that leads up to Ulfar.|T|Rime Huntress|ACTIVE|52033|
 R Arom's Stand|ACTIVE|48986|M|40.75,47.29|N|Run up the hill to Arom's Stand.|FLY|BFA|
 t WANTED: The Rime Huntress|QID|52033|M|37.14,49.39|N|To Guardsman Hayles.|
-
 T Take the High Road|QID|48986|M|36.85,50.14|N|To Lucille Waycrest, inside the house.|
 A A Lesson in Witch Hunting|QID|49443|M|36.88,50.14|N|From Lucille Waycrest.|PRE|48986|
 C  A Lesson in Witch Hunting|QID|49443|QO|1|M|36.82,50.02|NC|N|Light the candles around the room.|
@@ -683,7 +400,6 @@ A A New Order|QID|49807|M|36.93,50.14|N|From Lucille Waycrest.|PRE|49803&49804|;
 C A New Order|QID|49807|M|36.93,50.14|NC|U|156532|N|Give each of the recruits thier new regalia and then wait for Lucille to give her orders.|
 T A New Order|QID|49807|M|36.89,50.08|N|To Lucille Waycrest.|
 A The Road to Corlain|QID|49926|M|36.96,50.09|N|From Marshal Everit Reade.|
-
 ; Durst History
 A Through the Old Roads|QID|48504|M|37.28,50.35|N|From Inquisitor Cleardawn.|
 h Northwood Home|ACTIVE|48504|M|37.41,48.61|N|At Owen Northwood.|
@@ -710,10 +426,8 @@ T Drustfall|QID|49890|M|40.50,62.58|N|To Inquisitor Cleardawn, who is still with
 A To Falconhurst!|QID|49896|M|40.50,62.58|N|From Inquisitor Cleardawn.|
 C Clear Victory|QID|49898|US|M|37.30,61.99|N|Finish off the needed Drust Skeletons.|
 T Clear Victory|QID|49898|M|39.68,58.03|N|To Captain Lilian Nottley, back up at the top of the battlefield.|
-
 R Iceveil Glacier|AVAILABLE|51543|M|38.06,66.60;37.42,68.74|CS|N|Take this path out the back of the battlefield to Iceveil Glacier.|PRE|49898|
 K Arvon the Betrayed|QID|51383|QO|1|M|34.83,69.14|T|Arvon the Betrayed|N|Silver Elite to kill for azerite power and resources.|RARE|ITEM|160449|RANK|3|
-
 A Saplings in the Snow|QID|51543|M|33.45,65.09|N|From Adalyn Forestwatcher.|RANK|3|
 C Saplings in the Snow|QID|51543|M|33.73,69.54|S|NC|N|Grab hold of the Mountain Sapling and then run away with the roots trailing behind you to uproot.|
 $ Runebound Coffer|QID|53387|M|33.73,71.72|N|Click the runes in this order *RIGHT, TOP, LEFT, BOTTOM* to open the chest and loot the treasure.|ITEM|163740|RANK|3|
@@ -728,7 +442,6 @@ C Life Preserver|QID|51472|QO|2|M|42.05,81.98|CHAT|N|Tell her you are ready.|
 K Danir Emberlight|ACTIVE|51472|QO|3|M|41.88,81.97|T|Danir Emberlight|N|Kill Danir Emberlight, who seems to want to disrupt her ritual.|
 T Life Preserver|QID|51472|M|41.88,81.97|N|To Zallestrasza.|
 K Avalanche|QID|51471|QO|1|M|43.58,88.10|T|Avalanche|N|Silver Elite to kill for azerite power and resources.|RANK|3|RARE|ITEM|154447|
-
 ; Falconhurst
 R Crimson Coast|ACTIVE|49896|M|41.71,81.31;32.43,67.85;29.45,62.41|CS|N|Run generally north, back thru Iceveil Glacier where you will find the path you were on, continue through Snowmelt Foothills and on to the Crimson Coast.|FLY|BFA|
 K Sister Martha|QID|51748|QO|1|M|33.08,57.17|RARE|ITEM|155299|T|Sister Martha|N|Silver Elite to kill and loot for azerite power and resources.|RANK|2|
@@ -783,7 +496,6 @@ C Fighting With Fire|QID|50063|U|156710|M|22.80,64.20;24.45,65.55;25.51,62.39;22
 K Braedan Whitewall|QID|51922|M|27.63,59.57|QO|1|T|Braedan Whitewall|N|Silver Elite to kill and loot for azerite power and resources.|RARE|ITEM|154500|RANK|3|
 C Fighting With Fire|QID|50063|U|156710|M|22.80,64.20;24.45,65.55;25.51,62.39;22.82,68.16|CN|US|N|Slay Briarwood Bulwarks.|
 T Fighting With Fire|QID|50063|M|25.09,67.29|N|To Marten Webb.|
-
 ; Crimsonwood
 A Into the Crimsonwood|QID|50172|M|25.12,67.34|N|From Inquisitor Cleardawn.|PRE|50063|;not spurious
 R Crimson Forest|ACTIVE|50172|M|22.89,62.01|N|Out of town on the road, generally northwest.|FLY|BFA|
@@ -825,7 +537,6 @@ C Stopping the Grand Rite|QID|50325|QO|1|NC|M|24.60,59.31|N|First Focus destroye
 C Stopping the Grand Rite|QID|50325|QO|3|NC|M|26.47,51.98|N|Third Focus destroyed.|
 C Stopping the Grand Rite|QID|50325|QO|2|NC|M|25.21,50.02|N|Second Focus destroyed.|
 C Witch Way Out?|QID|50530|US|NC|M|23.39,50.01|N|Free Captive Villagers as you go.|
-
 ; Anyport - Changed first half to Rank 2 since it's a flightpath you earn.
 K Hyo'gi|QID|50688|QO|1|M|22.98,49.50|T|Hyo'gi|N|Silver Elite to kill for azerite power and resources.|RARE|ITEM|160462|RANK|3|
 A An Economic Opportunity|QID|50988|M|22.88,46.24|N|From Cesi Loosecannon. A slight detour to unlock Anyport flightpoint, skip if you don't want it.|RANK|2|
@@ -851,7 +562,6 @@ C Every Day I'm Smugglin'|QID|51001|M|19.23,45.10|US|NC|N|Finish collecting the 
 t WANTED: Anchorface|QID|51240|M|19.20,43.51|N|To Cesi Loosecannon.|
 T Every Day I'm Smugglin'|QID|51001|M|20.92,43.64|N|To Clonk Greaseybit.|
 T Asking for a Friend|QID|51018|M|20.83,46.02|N|To Kane Carlyle.|
-
 ; Crimsonwood - part 2
 R Crimson Forest|ACTIVE|50329|M|19.54,53.73|N|Run back out to Crimson Forest and finish up those quests.|FLY|BFA|
 C Matrons of Crimsonwood|QID|50329|M|19.54,53.73|U|158175|N|Use the potion to weaken them and then kill the 3 Matrons.|
@@ -871,7 +581,6 @@ C Stick It To 'Em!|QID|50533|QO|2|M|19.30,50.74|N|Use your abilities to slaughte
 C Stick It To 'Em!|QID|50533|QO|3|M|19.30,50.74|N|Work your way towards the rendezvous point.|
 C Stick It To 'Em!|QID|50533|QO|4|M|19.34,50.53|CHAT|N|When you arrive, tell Inquisitor Cleardown you are ready to go. When they arrive, hop on the gryphons for a ride back to Arom's Stand.\nNOTE: if the gryphons are bugged, exit the WoW client and restart it. It fixed it for Ludovicus!\nOtherwise just get to Arom's stand.|
 T Stick It To 'Em!|QID|50533|M|37.87,50.08|N|To Inquisitor Cleardawn.|
-
 ; sidequests Teller farm
 R Teller Farm|AVAILABLE|50970|M|37.17,49.27;30.84,41.28|CS|N|Run out the main gate and generally west towards the Teller Farm.|RANK|2|PRE|50533|FLY|BFA|
 K Talon|QID|49528|QO|1|M|31.94,40.64|T|Talon|N|Silver Elite to kill for azerite power and resources.|RANK|2|RARE|ITEM|161444|
@@ -888,7 +597,6 @@ C Those Who Remain|QID|50965|M|25.15,42.64|US|N|Finish collecting the Ashenwood 
 T A Farmer's Fate|QID|50970|M|29.92,40.44|N|To Morwin Gladeheart.|
 T Lost in the Woods|QID|50967|M|29.92,40.44|N|To Morwin Gladeheart.|
 T Those Who Remain|QID|50965|M|29.92,40.44|N|To Morwin Gladeheart.|
-
 ; Corlain
 R Corlain|ACTIVE|49926|M|30.24,33.82|N|Continue along the road generally north, towards Corlain.|FLY|BFA|
 T The Road to Corlain|QID|49926|M|32.06,30.96|N|To Marshal Everit Reade.|
@@ -974,7 +682,6 @@ $ Enchanted Chest|QID|53474|M|25.46,24.19|N|Click on any of the Witch Torches to
 $ Merchant's Chest|QID|53357|M|25.89,19.99|N|Target the Gorging Raven's and determine which one has the buff "merchant's key" and kill it to loot the key to open the treasure.|RANK|2|
 K Fungi Trio|QID|51749|M|26.11,21.38;24.88,19.86;23.67,21.87;24.10,21.93|CS|N|Run down the hill and take out this trio of Silver Elites.|RARE|ITEM|154217|RANK|2|
 R Western Watch |ACH|12557|M|19.24,11.94|CC|N|Run or swim(or fly when available) to this island Western Watch to get the explore Drustvar archiement at the end of this guide. The first set of coordinates will lead to a way down for the shortest swim|RANK|3|
-
 ; Whitegrove Chapel side quests
 R Whitegrove Chapel|ACTIVE|50754|M|23.17,20.18;24.73,21.05;23.74,17.44|CS|N|Up the hill fo meet Lucille's fiance.|FLY|BFA|
 C To Have Loved and Lost|QID|50754|M|23.31,17.45|NC|N|Place flowers on the grave.|
@@ -1013,13 +720,11 @@ C Hexed Hatchlings|QID|50456|M|31.36,24.48|NC|U|157845|N|Use the Whistle to call
 C Leaving the Nest|QID|50455|M|30.98,23.95|US|N|Finish opening Falcon Cages.|
 T Hexed Hatchlings|QID|50456|M|31.23,22.65|N|To Inquisitor Notley.|
 T Leaving the Nest|QID|50455|M|31.23,22.65|N|To Inquisitor Notley.|
-
 ; Corlain Continued.
 T Barrier Buster|QID|50453|M|30.60,21.60|N|To Inquisitor Sterntide.|
 A Break On Through|QID|50457|M|30.60,21.60|N|From Inquisitor Sterntide.|PRE|50453|;not spurious
 C Break On Through|QID|50457|M|30.60,21.60|NC|N|Click on the cannon to destroy the Corlain Barrier.|
 T Break On Through|QID|50457|M|30.98,20.27|N|To Lucille Waycrest.|
-
 ; Storming the Manor.
 A To the Other Side|QID|50583|M|30.98,20.27|N|From Lucille Waycrest.|PRE|50457|;not spurious
 A Hexecutioner|QID|50585|M|30.98,20.27|N|From Marshal Everit Reade.|PRE|50457|;not spurious
@@ -1043,7 +748,6 @@ A Storming the Manor|QID|50588^51852^51851|M|31.04,20.18|N|From Lucille Waycrest
 C Storming the Manor|QID|50588^51852^51851|M|32.67,15.35|QO|1|NC|N|Follow Lucille - enjoy ingame event.|
 K Marshal Everit Reade|ACTIVE|50588^51852^51851|M|32.58,15.34|QO|2|T|Marshal Everit Reade|N|Slay Marshal Everit Reade.|
 T Storming the Manor|QID|50588^51852^51851|M|32.76,15.35|N|To Lucille Waycrest.|
-
 ; Extra Quests
 A Waycrest Manor: The Fallen Mother|QID|50639|M|32.76,15.35|NA|N|From Lucille Waycrest. This is a dungeon Quest. You can use the LFD function or ask your guild/friends to join you|PRE|50588|RANK|2|;not spurious
 C Waycrest Manor: The Fallen Mother|QID|50639|M|33.67,12.48|Z|Drustvar|NA|N|Run the dungeon, either with friends or use LFD.|
@@ -1056,9 +760,6 @@ T Everburning|QID|52149|M|36.05,51.18|N|To Lucille Waycrest.|
 A House Waycrest|QID|53109|M|36.05,51.18|N|From Lucille Waycrest.|PRE|52149|RANK|2|;not spurious
 F Tradewinds Market|ACTIVE|53109|M|38.14,52.50|N|Take flypoint to Tradewind market (Boralus Harbor).|RANK|2|FLY|BFA|
 T House Waycrest|QID|53109|M|73.81,25.10|Z|Tiragarde Sound|N|To Taelia.|RANK|2|
-
 D End of Drustvar
 ]]
 end)
-
-

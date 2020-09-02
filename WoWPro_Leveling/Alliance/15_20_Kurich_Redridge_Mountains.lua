@@ -1,191 +1,9 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_redridge_mountains
--- Date: 2018-11-18 16:58
--- Who: Ludovicus_Maior
--- Log: Added a missing QO tag to [Detonation]
-
--- URL: http://wow-pro.com/node/3215/revisions/30082/view
--- Date: 2018-10-23 22:22
--- Who: Ludovicus_Maior
--- Log: And/Or
-
--- URL: http://wow-pro.com/node/3215/revisions/29667/view
--- Date: 2018-09-04 20:28
--- Who: Ludovicus
--- Log: Fixed WANTED caps error
-
--- URL: http://wow-pro.com/node/3215/revisions/29148/view
--- Date: 2018-02-24 17:49
--- Who: Ludovicus_EditBot
--- Log: King Anduin Wrynn
-
--- URL: http://wow-pro.com/node/3215/revisions/29017/view
--- Date: 2018-02-19 23:24
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD tags
-
--- URL: http://wow-pro.com/node/3215/revisions/28854/view
--- Date: 2018-01-16 23:24
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3215/revisions/28353/view
--- Date: 2017-03-11 20:49
--- Who: Ludovicus_Maior
--- Log: Added PREs; syntax changes.
-
--- URL: http://wow-pro.com/node/3215/revisions/27671/view
--- Date: 2016-08-31 23:11
--- Who: Fluclo
--- Log: Added Rank 2 to quests not needed for zone progression, Added PRE to quests that need previous quests to be completed first. Added LEAD to Shadowhide Extinction since you can't go back to it once Darnforth is killed in a later quest. Added NC to Bravo Company Camouflage quest. Moved Shalewind flight-path earlier in the guide. Some note updates for clarity.
-
--- URL: http://wow-pro.com/node/3215/revisions/27666/view
--- Date: 2016-08-31 21:05
--- Who: Fluclo
--- Log: Added Rank 2 to the steps not essential for zone progression. Changed Bellygrub and Nida's Necklace to Rank 3. Add PRE quest tag to those that had to have quests done to get. Added Active to Hearthstone so that it only shows when appropriate.
-
--- URL: http://wow-pro.com/node/3215/revisions/27634/view
--- Date: 2016-08-30 00:24
--- Who: Fluclo
--- Log: Clarified steps for He Who Controls the Ettins, clarified targets for Canyon Romp, added in-cavern markers to Ardo Dirtpaw, added Target tag for Canyon Ettin, moved Fart in the Wind unsticky to avoid having to return to the area to finish collecting, moved Surveying Equipment unsticky to avoid having to return to the area to finish collecting, clarified missing step in Danforth quest. Fixed couple of unexpected characters (typos). Minor clarifying notes for a few steps.
-
--- URL: http://wow-pro.com/node/3215/revisions/27617/view
--- Date: 2016-08-29 22:24
--- Who: Fluclo
--- Log: Flight points are again unknown until you first visit them, so removed ; before each of the three FlightPoints
-
--- URL: http://wow-pro.com/node/3215/revisions/27616/view
--- Date: 2016-08-29 22:01
--- Who: Fluclo
--- Log: Minimum level is 14, so updated WoWPro:GuideLevels from 12 to 14, and removed redundant L step at start of guide
-
--- URL: http://wow-pro.com/node/3215/revisions/27516/view
--- Date: 2016-08-02 17:21
--- Who: tubera
--- Log: Fix QO tags. Added some notes, mainly to clear up where the Quest givers are hiding.
-
--- URL: http://wow-pro.com/node/3215/revisions/26809/view
--- Date: 2014-11-06 13:08
--- Who: Fluclo
--- Log: Removed duplicate tag from h Lakeshire step
-
--- URL: http://wow-pro.com/node/3215/revisions/26488/view
--- Date: 2014-06-04 20:11
--- Who: Ludovicus_Maior
--- Log: Level Adj
-
--- URL: http://wow-pro.com/node/3215/revisions/26389/view
--- Date: 2014-05-30 11:53
--- Who: Ludovicus_Maior
--- Log: Level adjust
-
--- URL: http://wow-pro.com/node/3215/revisions/26216/view
--- Date: 2014-05-25 22:35
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3215/revisions/26099/view
--- Date: 2014-05-18 22:14
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3215/revisions/25961/view
--- Date: 2014-05-14 22:14
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3215/revisions/25960/view
--- Date: 2014-05-14 22:12
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3215/revisions/25806/view
--- Date: 2013-11-18 21:47
--- Who: Fluclo
--- Log: Correcting LVL and QID for Level and zone directions
-
--- URL: http://wow-pro.com/node/3215/revisions/25583/view
--- Date: 2013-03-23 20:03
--- Who: Ludovicus_Maior
--- Log: QID correction and quest name tweak
-
--- URL: http://wow-pro.com/node/3215/revisions/25518/view
--- Date: 2013-02-06 20:13
--- Who: Ludovicus_Maior
--- Log: Jorgensen tweak
-
--- URL: http://wow-pro.com/node/3215/revisions/25364/view
--- Date: 2013-01-12 18:47
--- Who: Ludovicus_Maior
--- Log: WoWPro_Leveling: Step C [Nida's Necklace:26508] in KurRed1520 is missing a CS|CC|CN tag.
-
--- URL: http://wow-pro.com/node/3215/revisions/25329/view
--- Date: 2013-01-11 19:50
--- Who: Emmaleah
--- Log: fix syntax for multi coordinates
-
--- URL: http://wow-pro.com/node/3215/revisions/25044/view
--- Date: 2012-08-13 01:48
--- Who: Laotseu
--- Log: Play testing while levelling a Monk on the Beta. Mostly l steps that were converted to C with |NC|.
-
--- URL: http://wow-pro.com/node/3215/revisions/24739/view
--- Date: 2011-08-19 12:59
--- Who: Fluclo
--- Log: Flagging Saving Foreman Oslow as non-combat
-
--- URL: http://wow-pro.com/node/3215/revisions/24738/view
--- Date: 2011-08-19 12:48
--- Who: Fluclo
--- Log: Tagged Like a Fart in the Wind as a Non-Combat, also repositioned sticky (should collect before finishing the gnolls)
-
--- URL: http://wow-pro.com/node/3215/revisions/24736/view
--- Date: 2011-08-16 21:41
--- Who: Fluclo
--- Log: Added Level info for guide
-
--- URL: http://wow-pro.com/node/3215/revisions/24444/view
--- Date: 2011-05-28 21:08
--- Who: Crackerhead22
--- Log: Added some notes, removed unneeded zone tags, fixed one or two cords.
-
--- URL: http://wow-pro.com/node/3215/revisions/24079/view
--- Date: 2011-01-30 19:13
--- Who: Ludovicus_Maior
--- Log: Fixed RegisterGuide line to match GIT.
-
--- URL: http://wow-pro.com/node/3215/revisions/23593/view
--- Date: 2010-12-05 04:50
--- Who: Crackerhead22
--- Log: Added spaces, fixed date.
-
--- URL: http://wow-pro.com/node/3215/revisions/23592/view
--- Date: 2010-12-05 04:46
--- Who: Crackerhead22
--- Log: Finished source code.
-
--- URL: http://wow-pro.com/node/3215/revisions/23300/view
--- Date: 2010-12-03 07:27
--- Who: Jiyambi
-
--- URL: http://wow-pro.com/node/3215/revisions/23299/view
--- Date: 2010-12-03 07:27
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide("KurRed1520", "Leveling", "Redridge Mountains", "Kurich", "Alliance")
-WoWPro:GuideLevels(guide,14,17, 15.1325)
-WoWPro:NewGuideLevels(guide,15,60)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, "TwiDus2025")
-WoWPro:GuideIcon(guide,"ACH",4902)
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Redridge Mountains|QID|26503|M|96.68,72.33|Z|Elwynn Forest|N|Head to Redridge Mountains, to the east of Elwynn Forest.  You can fly to Eastvale Logging Camp, then run east along the road.\n\nThe two breadcrumb quests to this zone are [Threat to the Kingdom] from Marshal Gryan Stoutmantle in Sentinel Hill for those who quested in Westfall, and [Hero's Call: Redridge Mountains!] available from both Hero's Callboards in Stormwind City, as well as from King Anduin Wrynn. |
-
 A WANTED: Redridge Gnolls|QID|26504|M|16.15,64.54|N|From the Wanted Poster board.|RANK|2|
 A Franks and Beans|QID|26506|M|15.67,65.28|N|From Darcy Parker.|RANK|2|
 T Hero's Call: Redridge Mountains!|QID|28563|M|15.32,64.86|N|To Watch Captain Parker on top of the tower.|O|
@@ -202,7 +20,6 @@ T Franks and Beans|QID|26506|M|15.71,65.27|N|To Darcy Parker.|
 T Still Assessing the Threat|QID|26503|M|15.31,64.82|N|To Watch Captain Parker on top of the tower.|
 A Parker's Report|QID|26505|PRE|26503|M|15.31,64.82|N|From Watch Captain Parker on top of the tower.|
 T WANTED: Redridge Gnolls|QID|26504|M|15.31,64.82|N|To Watch Captain Parker on top of the tower.|
-
 f Lakeshire|M|29.48,53.77|N|At Ariena Stormfeather.|QID|26761|
 r Repair, Sell Junk|QID|26505|S|ACTIVE|26505|N|Take this opportunity to sell unwanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|
 T Threat to the Kingdom|QID|26761|M|28.91,41.11|N|To Magistrate Solomon inside the town hall.|O|
@@ -210,11 +27,9 @@ T Parker's Report|QID|26505|M|28.78,41.15|N|To Magistrate Solomon inside the tow
 A We Must Prepare!|QID|26510|M|28.78,41.15|N|From Magistrate Solomon.|
 A Lake Everstill Clean Up|QID|26511|M|28.61,40.99|N|From Bailiff Conacher.|RANK|2|
 h Lakeshire|QID|26509|M|26.38,41.54|N|At Innkeeper Brianna.|ACTIVE|26510|
-
 A An Unwelcome Guest|QID|26509|M|22.03,42.79|N|From Martie Jainrose to the west of the town.|RANK|3|
 C An Unwelcome Guest|QID|26509|M|17.59,44.80|N|Find and kill Bellygrub. Loot his tusk, once he is dead.|
 T An Unwelcome Guest|QID|26509|M|21.89,42.82|N|To Martie Jainrose.|
-
 A Nida's Necklace|QID|26508|M|28.35,48.72|N|From Shawn on the second pier.|RANK|3|
 C Nida's Necklace|QID|26508|NC|M|20.43,47.21;35.6,49.6|CN|N|Jump in the water and look for Glinting Mud. It can be anywhere within the 2 waypoints.  Head to the west first, if not there then head east.|
 C Lake Everstill Clean Up|QID|26511|S|M|37.46,43.48|N|Kill any murloc you see.|
@@ -227,7 +42,6 @@ A Tuning the Gnomecorder|QID|26512|PRE|26510|M|28.74,41.10|N|From Magistrate Sol
 A Like a Fart in the Wind|QID|26513|PRE|26510|M|31.73,44.80|N|From Marshal Marris near the bridge.|RANK|2|
 C Tuning the Gnomecorder|QID|26512|NC|M|32.36,39.53|N|Head to the Lakeshire Graveyard.|
 T Tuning the Gnomecorder|QID|26512|M|32.31,39.51|N|(UI Alert)|
-
 A Canyon Romp|QID|26514|M|32.31,39.51|N|(UI Alert)|PRE|26512|
 N Wandering Elite|QID|26514|ACTIVE|26514|N|Note: There is a wandering Level 18 elite called Canyon Ettin in this area. Until you get the orb later, you should avoid him. The ground will shake when he is near you.|S|
 C Like a Fart in the Wind|QID|26513|S|M|32.27,25.10|N|Look for the sparkling supply crates, grab them when you see them.|NC|
@@ -245,12 +59,10 @@ A Saving Foreman Oslow|QID|26520|PRE|26519|M|17.93,18.53|N|From the Ettin Contro
 K Yowler Must Die!|QID|26545|U|58895|L|58937|M|27.45,22.09|N|Leave the Caverns, and look for the Canyon Ettin. When you see him, use the orb to subdue him. Once subdued, head to Yowler (waypoint location), kill him and loot the plans. You can mount up whilst controlling the Ettin.|T|Canyon Ettin|
 C Like a Fart in the Wind|QID|26513|US|M|32.27,25.10|N|Finish collecting the supply crates.|NC|
 C Saving Foreman Oslow|QID|26520|U|58895|M|31.75,44.41|N|Run to the boulder at Lakeshire Bridge.  When you get to the boulder, use the orb again to get the rock off Oslow.|NC|
-
 T Like a Fart in the Wind|QID|26513|M|31.80,44.76|N|To Marshal Marris.|
 r Repair, Sell Junk|QID|26545|S|ACTIVE|26545|N|Take this opportunity to sell unwanted junk and to repair at the Blacksmith hut as you head to the Town Hall.|
 T Yowler Must Die!|QID|26545|M|28.76,41.12|N|To Magistrate Solomon inside the town hall.|
 T Saving Foreman Oslow|QID|26520|M|28.76,41.12|N|To Magistrate Solomon.|
-
 A John J. Keeshan|QID|26567|PRE|26545|M|28.76,40.90|N|From Colonel Troteman.|
 T John J. Keeshan|QID|26567|M|26.20,39.86|N|Head to the basement of the Inn to find John J. Keeshan.|
 A This Ain't My War|QID|26568|M|26.20,39.90|N|From John J. Keeshan.|PRE|26567|
@@ -259,7 +71,6 @@ A Weapons of War|QID|26571|M|28.57,40.84|N|From Colonel Troteman.|PRE|26568|
 A In Search of Bravo Company|QID|26586|PRE|26568|M|28.58,40.90|N|From Colonel Troteman.|
 A Surveying Equipment|QID|26569|PRE|26520&26568|M|29.63,44.41|N|From Foreman Oslow outside towards the bridge.|RANK|2|
 A Render's Army|QID|26570|PRE|26568|M|29.63,44.41|N|From Marshal Marris.|RANK|2|
-
 R Alther's Mill|QID|26586|M|41.25,35.60|N|Head along the road north-east to Alther's Mill.|
 C Render's Army|QID|26570|S|M|29.35,10.76|N|Kill any and all orcs for this quest.  Except for the elites.|
 T In Search of Bravo Company|QID|26586|M|47.42,41.68|N|To Messner. |
@@ -271,7 +82,6 @@ C Breaking Out is Hard to Do|QID|26587|NC|M|49.06,37.83|N|Be careful not to be s
 T Breaking Out is Hard to Do|QID|26587|M|47.57,41.81|N|To Messner.|
 A Jorgensen|QID|26560|M|47.60,41.83|N|From Messner. It takes a few seconds after completing the previous quest before he appears next to you and offers this quest.|PRE|26587|
 C Surveying Equipment|QID|26569|M|32.46,9.82|N|Kill and loot Blackrock Trackers.|S|
-
 C Jorgensen|QID|26560|L|58969|M|43.56,11.03|N|Head back to the road then head north. Kill Utroka the Keymistress to get Jorgensen's Cage Key.|
 T Jorgensen|QID|26560|M|33.62,11.75|N|To Jorgensen, he can be found in Render's Camp to the west.|
 A Krakauer|QID|26561|M|33.63,11.37|N|From Jorgensen. Again, it takes a few seconds after completing the previous quest before he appears next to you and offers this quest.|PRE|26560|
@@ -284,7 +94,6 @@ C And Last But Not Least... Danforth|QID|26562|M|28.13,18.25|N|Kill Overlord Bar
 T And Last But Not Least... Danforth|QID|26562|M|28.21,17.11|N|Use the Chain Level, then wait for Danforth to drop into the water. To Danforth.|
 A Return of the Bravo Company|QID|26563|M|28.07,17.29|N|From Danforth. Again, it takes a few seconds after completing the previous quest before he appears next to you and offers this quest.|PRE|26562|
 C Render's Army|QID|26570|US|M|29.35,10.76|N|Finish killing any and all orcs for this quest. Except for the elites.|
-
 H Lakeshire Inn|QID|26563|N|Hearth back to Lakeshire or run if it is on cooldown.|ACTIVE|26563|
 T His Heart Must Be In It|QID|26573|M|28.51,40.85|N|To Colonel Troteman in the town hall.|
 T Return of the Bravo Company|QID|26563|M|28.51,40.85|N|To Colonel Troteman.|
@@ -296,7 +105,6 @@ T They Drew First Blood|QID|26607|M|26.29,39.90|N|Head to the basement of the in
 A It's Never Over|QID|26616|M|26.29,39.90|N|From John J. Keeshan.|PRE|26607|
 C It's Never Over|QID|26616|NC|M|34.25,45.6|N|Head to the dock just beyond the bridge, and click on the boat to head to Camp Everstill.|
 f Camp Everstill|QID|26616|M|52.87,54.51|N|At Arlen Marsters.|
-
 T It's Never Over|QID|26616|M|52.48,55.19|N|To John J. Keeshan, who is now in Camp Everstill.|
 A Point of Contact: Brubaker|QID|26639|M|52.48,55.19|N|From John J. Keeshan.|PRE|26616|
 A Hunting the Hunters|QID|26638|M|52.46,55.38|N|From Danforth.|PRE|26616|
@@ -313,23 +121,19 @@ T Bravo Company Field Kit: Camouflage|QID|26636|M|52.47,55.45|N|To Krakauer.|
 T Bravo Company Field Kit: Chloroform|QID|26637|M|52.47,55.45|N|To Messner.|
 T Hunting the Hunters|QID|26638|M|52.47,55.45|N|To Danforth.|
 T Unspeakable Atrocities|QID|26640|M|52.47,55.45|N|To John J. Keeshan.|
-
 A Prisoners of War|QID|26646|M|52.50,55.48|N|From John J. Keeshan.|PRE|26636&26637&26638&26640|
 C Blackrock Holding Pen Key|QID|26646|NC|U|60384|M|69.4,76.53|N|Use the field kit. Then use ability #1 (Camoflauge) when you get near the camp. Use #2 (Distraction) to get past guards (can backfire somewhat). Use #3 (Chloroform) on the orc where the key is.|L|59261|
 C Prisoners of War|QID|26646|U|60384|M|69.40,58.59|N|If the orc is about to wake up, use ability #3 again. Use #2 to get out of the cave. Then head to the waypoint, click on one of the cages to free the people.|
 T Prisoners of War|QID|26646|M|69.46,58.62|N|(UI Alert)|
-
 A To Win a War, You Gotta Become War|QID|26651|M|69.46,58.62|N|(UI Alert)|PRE|26646|
 C To Win a War, You Gotta Become War|QID|26651|U|60385|QO|2|M|66.4,71.43|N|Re-apply the Camouflage if it's low. Head to the waypoint and use #2 to get in the tower. Use the Chloroform to get to the top. Once inside at the top use ability #4.|
 C To Win a War, You Gotta Become War|QID|26651|U|60385|QO|1|M|63.86,70.34|N|Same deal as the Tower. Use a distraction to get in and plant a charge,|
 R Shalewind Canyon|QID|26651|U|60385|M|72.4,64.3;77.26,65.86|CC|N|Head to Shalewind Canyon. Use your field kit abilities to get there.|ACTIVE|26651|
 f Shalewind Canyon|QID|26651|M|77.91,65.85|N|At Nora Baldwin.|
 T To Win a War, You Gotta Become War|QID|26651|M|77.60,65.56|N|To John J. Keeshan.|
-
 A Detonation|QID|26668|M|77.60,65.56|N|From John J. Keeshan.|PRE|26651|
 C Detonation|QID|26668|NC|M|77.60,65.61|QO|1|N|Enjoy the brief cut scene.|
 T Detonation|QID|26668|M|77.60,65.61|N|To John J. Keeshan.|
-
 A The Dark Tower|QID|26693|M|77.57,65.57|N|From John J. Keeshan.|PRE|26668|
 A Shadowhide Extinction|QID|26692|M|77.59,65.54|N|From Danforth.|PRE|26668|RANK|2|
 C Shadowhide Extinction|QID|26692|S|N|Kill any Gnoll you come across.|
@@ -340,7 +144,6 @@ C The Grand Magus Doane|QID|26694|M|72.08,44.85|N|Run to the Tower of Ilgalar,  
 C Shadowhide Extinction|QID|26692|US|M|70.24,39.53|N|Kill any Gnoll you come across.|
 T Shadowhide Extinction|QID|26692|M|77.79,65.16|N|(UI Alert)|
 T The Grand Magus Doane|QID|26694|M|77.77,65.23|N|To John J. Keeshan.|
-
 A AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|77.29,65.80|N|From Colonel Troteman.|PRE|26694|
 C AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|60.76,36.57|N|Hop in the tank and head NORTH towards Keeshan's post. Your buddies will do the killing for you. You should have all 200 by the time you get there.|
 T AHHHHHHHHHHHH! AHHHHHHHHH!!!|QID|26708|M|60.76,36.57|N|To Colonel Troteman.|
@@ -354,9 +157,5 @@ T Darkblaze, Brood of the Worldbreaker|QID|26714|M|60.55,36.46|N|To Colonel Trot
 A Triumphant Return|QID|26726|M|60.55,36.46|N|From Colonel Troteman.|PRE|26714|
 H Lakeshire Inn|QID|26726|N|Hearth back to Lakeshire Inn, or run if your hearth is on cooldown.|ACTIVE|26726|
 T Triumphant Return|QID|26726|M|28.79,41.11|N|To Magistrate Solomon in the town hall.|
-
 ]]
-
 end)
-
-
