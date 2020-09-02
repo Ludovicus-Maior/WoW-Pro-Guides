@@ -537,7 +537,8 @@ end
 
 function WoWPro:NextGuide(GID)
     local myUFG = _G.UnitFactionGroup("player")
-    if not WoWPro.Guides[GID].nextGID then
+    local nextGID = WoWPro.Guides[GID].nextGID
+    if not nextGID then
         -- If there is no next guide defined, see if we can pop something off the stack
         local pop = WoWPro:PopCurrentGuide(GID, false)
         if pop then
@@ -551,18 +552,26 @@ function WoWPro:NextGuide(GID)
     end
     if WoWPro.Guides[GID].faction == "Neutral" then
         -- nextGIDvalue is faction dependent.   Split it and pick the right one "AllianceGUID|HordeGID"
-        local  AllianceGUID, HordeGID = ("|"):split(WoWPro.Guides[GID].nextGID)
+        local  AllianceGUID, HordeGID = ("|"):split(nextGID)
         HordeGID = HordeGID or AllianceGUID -- If the next guide is neutral, both use the same guide
         if myUFG == "Alliance" then
             WoWPro:dbp("WoWPro:NextGuide(%s): Alliance %s", GID, tostring(AllianceGUID))
-            return AllianceGUID
+            nextGID = AllianceGUID
         else
              WoWPro:dbp("WoWPro:NextGuide(%s): Horde %s", GID, tostring(HordeGID))
-            return HordeGID
+             nextGID = HordeGID
         end
-    else
-         WoWPro:dbp("WoWPro:NextGuide(%s):  %s", GID, tostring(WoWPro.Guides[GID].nextGID))
-        return WoWPro.Guides[GID].nextGID
+    end
+
+    if WoWPro.Guides[nextGID] then
+        -- nextGID is a proper guide ID
+         WoWPro:dbp("WoWPro:NextGuide(%s):  GID %s", GID, nextGID)
+        return nextGID
+    end
+    if type(WoWPro.Nickname2Guide[nextGID]) == 'string' then
+        -- nextGID is a nickname
+        WoWPro:dbp("WoWPro:NextGuide(%s):  Nickname %s => %s", GID, nextGID, WoWPro.Nickname2Guide[nextGID])
+        return WoWPro.Nickname2Guide[nextGID]
     end
 end
 
