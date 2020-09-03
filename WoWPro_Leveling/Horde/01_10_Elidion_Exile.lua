@@ -63,20 +63,20 @@ A Stocking Up on Supplies|QID|59950|M|52.17,55.34|Z|Exile's Reach!Instance|N|Fro
 C Stocking Up on Supplies|QID|59950|M|52.44,55.65|Z|Exile's Reach!Instance|NC|N|You need to buy and sell at least 1 item from/to Provisioner Jin'hake.|
 T Stocking Up on Supplies|QID|59950|M|52.17,55.34|Z|Exile's Reach!Instance|N|To Warlord Breka Grimaxe.|
 A A Rogue's End|QID|59967|M|52.03,55.45|Z|Exile's Reach!Instance|N|From Grunt Throg.|PRE|59950|C|Rogue|
-C A Rogue's End|QID|59967|M|45.65,56.13|Z|Exile's Reach!Instance|CHAT|QO|1|N|Stealth and find Drizza Sidestabber.|
-C A Rogue's End|QID|59967|M|45.17,55.68|Z|Exile's Reach!Instance|NC|QO|2|N|Collect Withering Hemlock.|
-T A Rogue's End|QID|59967|M|45.65,56.13|Z|Exile's Reach!Instance|N|To Drizza Sidestabber.|
+C A Rogue's End|QID|59967|M|45.65,56.13|Z|Exile's Reach!Instance|CHAT|QO|1|N|Stealth and find Drizza Sidestabber.|C|Rogue|
+C A Rogue's End|QID|59967|M|45.17,55.68|Z|Exile's Reach!Instance|NC|QO|2|N|Collect Withering Hemlock.|C|Rogue|
+T A Rogue's End|QID|59967|M|45.65,56.13|Z|Exile's Reach!Instance|N|To Drizza Sidestabber.|C|Rogue|
 A The Deadliest of Poisons|QID|59968|M|45.65,56.13|Z|Exile's Reach!Instance|N|From Drizza Sidestabber.|PRE|59967|C|Rogue|
-C The Deadliest of Poisons|QID|59968|M|45.65,56.13|Z|Exile's Reach!Instance|NC|QO|1|N|Cast instant poison before you go.|
-C The Deadliest of Poisons|QID|59968|M|48.26,51.07|Z|Exile's Reach!Instance|QO|2|N|Kill Gutgruk the Tough.|
-T The Deadliest of Poisons|QID|59968|M|52.03,55.45|Z|Exile's Reach!Instance|N|To Grunt Throg.|
+C The Deadliest of Poisons|QID|59968|M|45.65,56.13|Z|Exile's Reach!Instance|NC|QO|1|N|Cast instant poison before you go.|C|Rogue|
+C The Deadliest of Poisons|QID|59968|M|48.26,51.07|Z|Exile's Reach!Instance|QO|2|N|Kill Gutgruk the Tough.|C|Rogue|
+T The Deadliest of Poisons|QID|59968|M|52.03,55.45|Z|Exile's Reach!Instance|N|To Grunt Throg.|C|Rogue|
 A A Shaman's Duty|QID|59002|M|52.3,55.66|Z|Exile's Reach!Instance|N|From Ghost Wolf.|PRE|59950|C|Shaman|
-C A Shaman's Duty|QID|59002|M|52.11,51.3|Z|Exile's Reach!Instance|QO|1|NC|N|Collect Veil blossom.|
-C A Shaman's Duty|QID|59002|M|52.21,55.58|Z|Exile's Reach!Instance|QO|2|NC|N|Burn the blossoms on the campfire.|
-C A Shaman's Duty|QID|59002|M|54.38,58.44|Z|Exile's Reach!Instance|QO|3<1|NC|N|Free the captured ghost wolves.|
-C A Shaman's Duty|QID|59002|M|55.27,52.79|Z|Exile's Reach!Instance|QO|3<2|NC|N|Free the captured ghost wolves.|
-C A Shaman's Duty|QID|59002|M|55.4,50.78|Z|Exile's Reach!Instance|QO|3<3|NC|N|Free the captured ghost wolves.|
-T A Shaman's Duty|QID|59002|M|52.3,55.66|Z|Exile's Reach!Instance|N|To Ghost Wolf.|
+C A Shaman's Duty|QID|59002|M|52.11,51.3|Z|Exile's Reach!Instance|QO|1|NC|N|Collect Veil blossom.|C|Shaman|
+C A Shaman's Duty|QID|59002|M|52.21,55.58|Z|Exile's Reach!Instance|QO|2|NC|N|Burn the blossoms on the campfire.|C|Shaman|
+C A Shaman's Duty|QID|59002|M|54.38,58.44|Z|Exile's Reach!Instance|QO|3<1|NC|N|Free the captured ghost wolves.|C|Shaman|
+C A Shaman's Duty|QID|59002|M|55.27,52.79|Z|Exile's Reach!Instance|QO|3<2|NC|N|Free the captured ghost wolves.|C|Shaman|
+C A Shaman's Duty|QID|59002|M|55.4,50.78|Z|Exile's Reach!Instance|QO|3<3|NC|N|Free the captured ghost wolves.|C|Shaman|
+T A Shaman's Duty|QID|59002|M|52.3,55.66|Z|Exile's Reach!Instance|N|To Ghost Wolf.|C|Shaman|
 A Westward Bound|QID|59948|M|52.89,56.47|Z|Exile's Reach!Instance|N|From Lana Jordan.|PRE|59950|
 T Westward Bound|QID|59948|M|51.10,59.50|Z|Exile's Reach!Instance|N|To Lana Jordan.|
 A Who Lurks in the Pit|QID|59949|M|51.10,59.50|Z|Exile's Reach!Instance|N|From Lana Jordan.|PRE|59948|
@@ -85,31 +85,31 @@ C Who Lurks in the Pit|QID|59949|M|47.43,60.55|Z|Exile's Reach!Instance|QO|2|N|K
 C Who Lurks in the Pit|QID|59949|M|47.43,60.55|Z|Exile's Reach!Instance|QO|3|NC|N|Click on Crenna Earth-Daughter to ride out of the tunnel.|
 T Who Lurks in the Pit|QID|59949|M|52.17,55.34|Z|Exile's Reach!Instance|N|To Warlord Breka Grimaxe.|
 A A Druid's Form|QID|59951|M|52.33,55.43|Z|Exile's Reach!Instance|N|From Crenna Earth-Daughter.|PRE|59949|C|Druid|
-C A Druid's Form|QID|59951|M|45.37,49.25|Z|Exile's Reach!Instance|NC|N|Commune with the Druid Stone.|
-T A Druid's Form|QID|59951|M|45.51,49.25|Z|Exile's Reach!Instance|N|To Crenna Earth-Daughter.|
+C A Druid's Form|QID|59951|M|45.37,49.25|Z|Exile's Reach!Instance|NC|N|Commune with the Druid Stone.|C|Druid|
+T A Druid's Form|QID|59951|M|45.51,49.25|Z|Exile's Reach!Instance|N|To Crenna Earth-Daughter.|C|Druid|
 A A Priest's End|QID|59961|M|52.03,55.45|Z|Exile's Reach!Instance|N|From Grunt Throg.|PRE|59950|C|Priest|
-C A Priest's End|QID|59961|M|56.10,53.69|Z|Exile's Reach!Instance|NC|N|Find the corpses of the first expedition.|
-T A Priest's End|QID|59961|M|56.10,53.69|Z|Exile's Reach!Instance|N|To Sha'zul.|
+C A Priest's End|QID|59961|M|56.10,53.69|Z|Exile's Reach!Instance|NC|N|Find the corpses of the first expedition.|C|Priest|
+T A Priest's End|QID|59961|M|56.10,53.69|Z|Exile's Reach!Instance|N|To Sha'zul.|C|Priest|
 A Resurrecting the Recruits|QID|59965|M|56.10,53.69|Z|Exile's Reach!Instance|N|From Sha'zul.|PRE|59961|C|Priest|
-C Resurrecting the Recruits|QID|59965|M|56.24,53.42|Z|Exile's Reach!Instance|N|Cast Resurrect on First Expedition Recruits.|
-T Resurrecting the Recruits|QID|59965|M|56.10,53.69|Z|Exile's Reach!Instance|N|To Sha'zul.|
+C Resurrecting the Recruits|QID|59965|M|56.24,53.42|Z|Exile's Reach!Instance|N|Cast Resurrect on First Expedition Recruits.|C|Priest|
+T Resurrecting the Recruits|QID|59965|M|56.10,53.69|Z|Exile's Reach!Instance|N|To Sha'zul.|C|Priest|
 A A Paladin's Service|QID|59958|M|52.03,55.45|Z|Exile's Reach!Instance|N|From Grunt Throg.|PRE|59950|C|Paladin|
 A A Warrior's End|QID|59971|M|52.03,55.45|Z|Exile's Reach!Instance|N|From Grunt Throg.|PRE|59950|C|Warrior|
 A A Warlock's Bargain|QID|59970|M|52.03,55.45|Z|Exile's Reach!Instance|N|From Grunt Throg.|PRE|59950|C|Warlock|
 A The Harpy Problem|QID|59943|M|53.80,52.17|Z|Exile's Reach!Instance|N|From Shuja Grimaxe.|PRE|59950|
-C A Warlock's Bargain|QID|59970|M|52.53,45.85|Z|Exile's Reach!Instance|QO|1|CHAT|N|Investigate the dead warlocks body.|
-C A Warlock's Bargain|QID|59970|M|52.59,45.85|Z|Exile's Reach!Instance|QO|2|NC|N|Click on the book next to the body.|
-C A Warlock's Bargain|QID|59970|M|52.59,45.85|Z|Exile's Reach!Instance|QO|3|NC|N|Summon a voidwalker with the Grimoire.|U|174947|
-T A Warlock's Bargain|QID|59970|M|52.62,45.43|Z|Exile's Reach!Instance|N|To Summoned Voidwalker.|
-T A Warrior's End|QID|59971|M|51.57,47.84|Z|Exile's Reach!Instance|N|To Hjalmar the Undying.|
+C A Warlock's Bargain|QID|59970|M|52.53,45.85|Z|Exile's Reach!Instance|QO|1|CHAT|N|Investigate the dead warlocks body.|C|Warlock|
+C A Warlock's Bargain|QID|59970|M|52.59,45.85|Z|Exile's Reach!Instance|QO|2|NC|N|Click on the book next to the body.|C|Warlock|
+C A Warlock's Bargain|QID|59970|M|52.59,45.85|Z|Exile's Reach!Instance|QO|3|NC|N|Summon a voidwalker with the Grimoire.|U|174947|C|Warlock|
+T A Warlock's Bargain|QID|59970|M|52.62,45.43|Z|Exile's Reach!Instance|N|To Summoned Voidwalker.|C|Warlock|
+T A Warrior's End|QID|59971|M|51.57,47.84|Z|Exile's Reach!Instance|N|To Hjalmar the Undying.|C|Warrior|
 A Hjalmar's Final Execution|QID|59972|M|51.57,47.84|Z|Exile's Reach!Instance|N|From Hajalmar the Undying.|PRE|59971|C|Warrior|
-C Hjalmar's Final Execution|QID|59972|M|51.57,47.84|Z|Exile's Reach!Instance|N|Fight Hjalmar the Undying and finish him off with the Execute ability.|
-C A Paladin's Service|QID|59958|M|57.57,52.23|Z|Exile's Reach!Instance|CHAT|N|Speak with the Ghost of Daelya Twilightsbane.|
-T A Paladin's Service|QID|59958|M|57.57,52.23|Z|Exile's Reach!Instance|N|To Daelya Twilightsbane|
+C Hjalmar's Final Execution|QID|59972|M|51.57,47.84|Z|Exile's Reach!Instance|N|Fight Hjalmar the Undying and finish him off with the Execute ability.|C|Warrior|
+C A Paladin's Service|QID|59958|M|57.57,52.23|Z|Exile's Reach!Instance|CHAT|N|Speak with the Ghost of Daelya Twilightsbane.|C|Paladin|
+T A Paladin's Service|QID|59958|M|57.57,52.23|Z|Exile's Reach!Instance|N|To Daelya Twilightsbane|C|Paladin|
 A The Divine's Shield|QID|60174|M|57.57,52.23|Z|Exile's Reach!Instance|N|From Daelya Twilightsbane.|PRE|59958|C|Paladin|
-C The Divine's Shield|QID|60174|M|57.10,52.73|Z|Exile's Reach!Instance|QO|1|NC|N|Cast Divine Shield to cross the barrier and destroy the alter.|
-C The Divine's Shield|QID|60174|M|57.10,52.73|Z|Exile's Reach!Instance|QO|2|NC|N|Destroy the Necrotic Alter.|
-T The Divine's Shield|QID|60174|M|57.57,52.23|Z|Exile's Reach!Instance|N|To Daeyla Twilightsbane.|
+C The Divine's Shield|QID|60174|M|57.10,52.73|Z|Exile's Reach!Instance|QO|1|NC|N|Cast Divine Shield to cross the barrier and destroy the alter.|C|Paladin|
+C The Divine's Shield|QID|60174|M|57.10,52.73|Z|Exile's Reach!Instance|QO|2|NC|N|Destroy the Necrotic Alter.|C|Paladin|
+T The Divine's Shield|QID|60174|M|57.57,52.23|Z|Exile's Reach!Instance|N|To Daeyla Twilightsbane.|C|Paladin|
 A Freeing the Light|QID|54933|M|58.20,50.22|Z|Exile's Reach!Instance|N|From Lightspawn.|
 C Freeing the Light|QID|54933|M|57.42,49.68|Z|Exile's Reach!Instance|QO|1|NC|N|First necrotic energy dispersed.|
 C Freeing the Light|QID|54933|M|58.49,49.15|Z|Exile's Reach!Instance|QO|2|NC|N|Second necrotic energy dispersed.|
@@ -133,32 +133,32 @@ T The Rescue of Herbert Gloomburst|QID|59944|M|56.90,46.14|Z|Exile's Reach!Insta
 A Message to Base|QID|59947|M|56.82,46.18|Z|Exile's Reach!Instance|N|From Shuja Grimaxe.|PRE|59944&59945&59946|
 T Message to Base|QID|59947|M|52.18,55.34|Z|Exile's Reach!Instance|N|To Warlord Breka Grimaxe.|
 A A Hunter's Trap|QID|59952|M|52.56,55.44|Z|Exile's Reach!Instance|N|From Mithdran Dawntracker.|PRE|59947|C|Hunter|
-C A Hunter's Trap|QID|59952|M|52.15,55.49|Z|Exile's Reach!Instance|CHAT|QO|1|N|Talk with Herbert Gloomburst to get the Ice Mote.|
-C A Hunter's Trap|QID|59952|M|52.24,53.03|Z|Exile's Reach!Instance|NC|QO|2|N|Click the Rusted Chain.|
-C A Hunter's Trap|QID|59952|M|51.82,51.60|Z|Exile's Reach!Instance|NC|QO|3|N|Click Old Spring.|
-T A Hunter's Trap|QID|59952|M|52.56,55.44|Z|Exile's Reach!Instance|N|To Mithdran Dawntracker.|
+C A Hunter's Trap|QID|59952|M|52.15,55.49|Z|Exile's Reach!Instance|CHAT|QO|1|N|Talk with Herbert Gloomburst to get the Ice Mote.|C|Hunter|
+C A Hunter's Trap|QID|59952|M|52.24,53.03|Z|Exile's Reach!Instance|NC|QO|2|N|Click the Rusted Chain.|C|Hunter|
+C A Hunter's Trap|QID|59952|M|51.82,51.60|Z|Exile's Reach!Instance|NC|QO|3|N|Click Old Spring.|C|Hunter|
+T A Hunter's Trap|QID|59952|M|52.56,55.44|Z|Exile's Reach!Instance|N|To Mithdran Dawntracker.|C|Hunter|
 A Hunting the Stalker|QID|59953|M|52.56,55.44|Z|Exile's Reach!Instance|N|From Mithdran Dawntracker.|PRE|59952|C|Hunter|
-C Hunting the Stalker|QID|59953|M|52.94,55.25|Z|Exile's Reach!Instance|NC|N|Drop your Freezing trap anywhere within Ogre Ruins.|
-T Hunting the Stalker|QID|59953|M|52.56,55.45|Z|Exile's Reach!Instance|N|To Mithdran Dawntracker.|
+C Hunting the Stalker|QID|59953|M|52.94,55.25|Z|Exile's Reach!Instance|NC|N|Drop your Freezing trap anywhere within Ogre Ruins.|C|Hunter|
+T Hunting the Stalker|QID|59953|M|52.56,55.45|Z|Exile's Reach!Instance|N|To Mithdran Dawntracker.|C|Hunter|
 A The Art of Taming|QID|60162|M|52.56,55.45|Z|Exile's Reach!Instance|N|From Mithdran Dawntracker.|PRE|59953|C|Hunter|
-C The Art of Taming|QID|60162|M|52.63,55.38|Z|Exile's Reach!Instance|QO|1|NC|N|Use "Dismiss Pet" to temporarily dismiss your current pet.|
-C The Art of Taming|QID|60162|M|52.56,55.43|Z|Exile's Reach!Instance|QO|2|CHAT|N|Speak with Mithdran to summon the wolf for you to tame. Once it appears, target it and use Tame Beast.|
-C The Art of Taming|QID|60162|M|52.56,55.44|Z|Exile's Reach!Instance|QO|3|CHAT|N|Speak with Mithdran again to learn about pet stables.|
-T The Art of Taming|QID|60162|M|52.56,55.44|Z|Exile's Reach!Instance|N|To Mithdran Dawntracker.|
+C The Art of Taming|QID|60162|M|52.63,55.38|Z|Exile's Reach!Instance|QO|1|NC|N|Use "Dismiss Pet" to temporarily dismiss your current pet.|C|Hunter|
+C The Art of Taming|QID|60162|M|52.56,55.43|Z|Exile's Reach!Instance|QO|2|CHAT|N|Speak with Mithdran to summon the wolf for you to tame. Once it appears, target it and use Tame Beast.|C|Hunter|
+C The Art of Taming|QID|60162|M|52.56,55.44|Z|Exile's Reach!Instance|QO|3|CHAT|N|Speak with Mithdran again to learn about pet stables.|C|Hunter|
+T The Art of Taming|QID|60162|M|52.56,55.44|Z|Exile's Reach!Instance|N|To Mithdran Dawntracker.|C|Hunter|
 A A Mage's Knowledge|QID|59954|M|52.16,55.48|Z|Exile's Reach!Instance|N|From Herbert Gloomburst.|PRE|59947|C|Mage|
-C A Mage's Knowledge|QID|59954|M|51.94,49.82|Z|Exile's Reach!Instance|NC|N|Collect Herbert Gloomburst's spellbook from the bottom of the lake.|
-T A Mage's Knowledge|QID|59954|M|52.16,55.48|Z|Exile's Reach!Instance|N|To Herbert Gloomburst.|
+C A Mage's Knowledge|QID|59954|M|51.94,49.82|Z|Exile's Reach!Instance|NC|N|Collect Herbert Gloomburst's spellbook from the bottom of the lake.|C|Mage|
+T A Mage's Knowledge|QID|59954|M|52.16,55.48|Z|Exile's Reach!Instance|N|To Herbert Gloomburst.|C|Mage|
 A The Best Way to Use Sheep|QID|59955|M|52.16,55.48|Z|Exile's Reach!Instance|N|From Herbert Gloomburst.|PRE|59954|C|Mage|
-C The Best Way to Use Sheep|QID|59955|M|52.16,55.48|Z|Exile's Reach!Instance|CHAT|QO|1|N|Speak with Herbert to practice Polymorph.|
-C The Best Way to Use Sheep|QID|59955|M|53.46,55.09|Z|Exile's Reach!Instance|QO|2|N|Follow Herbert and Throg and then cast Polymorph on them.|
-T The Best Way to Use Sheep|QID|59955|M|52.16,55.48|Z|Exile's Reach!Instance|N|To Herbert Gloomburst.|
+C The Best Way to Use Sheep|QID|59955|M|52.16,55.48|Z|Exile's Reach!Instance|CHAT|QO|1|N|Speak with Herbert to practice Polymorph.|C|Mage|
+C The Best Way to Use Sheep|QID|59955|M|53.46,55.09|Z|Exile's Reach!Instance|QO|2|N|Follow Herbert and Throg and then cast Polymorph on them.|C|Mage|
+T The Best Way to Use Sheep|QID|59955|M|52.16,55.48|Z|Exile's Reach!Instance|N|To Herbert Gloomburst.|C|Mage|
 A A Monk's Focus|QID|59956|M|52.03,55.21|Z|Exile's Reach!Instance|N|From Bo.|PRE|59947|C|Monk|
-C A Monk's Focus|QID|59956|M|52.62,49.47|Z|Exile's Reach!Instance|CHAT|N|Meditate with Bo.|
-T A Monk's Focus|QID|59956|M|52.62,49.47|Z|Exile's Reach!Instance|N|To Bo.|
-A One Last Spar|QID|59957|M|52.62,49.47|Z|Exile's Reach!Instance|N|From Bo.|PRE|59956|C|Monk|
-C One Last Spar|QID|59957|M|53.48,49.92|Z|Exile's Reach!Instance|N|Spar with Bo and use Touch of Death on him.|
-T One Last Spar|QID|59957|M|52.17,55.33|Z|Exile's Reach!Instance|N|To Warlord Breka Grimaxe.|
-T Hjalmar's Final Execution|QID|59972|M|52.03,55.45|Z|Exile's Reach!Instance|N|To Grunt Throg.|
+C A Monk's Focus|QID|59956|M|52.62,49.47|Z|Exile's Reach!Instance|CHAT|N|Meditate with Bo.|C|Monk|
+T A Monk's Focus|QID|59956|M|52.62,49.47|Z|Exile's Reach!Instance|N|To Bo.|C|Monk|
+A One Last Spar|QID|59957|M|52.62,49.47|Z|Exile's Reach!Instance|N|From Bo.|PRE|59956|C|Monk|C|Monk|
+C One Last Spar|QID|59957|M|53.48,49.92|Z|Exile's Reach!Instance|N|Spar with Bo and use Touch of Death on him.|C|Monk|
+T One Last Spar|QID|59957|M|52.17,55.33|Z|Exile's Reach!Instance|N|To Warlord Breka Grimaxe.|C|Monk|
+T Hjalmar's Final Execution|QID|59972|M|52.03,55.45|Z|Exile's Reach!Instance|N|To Grunt Throg.|C|Warrior|
 A To Darkmaul Citadel|QID|59975|M|52.18,55.35|Z|Exile's Reach!Instance|N|From Warlord Breka Grimaxe.|PRE|60162|
 A Killclaw the Terrible|QID|56839|M|48.74,54.24|Z|Exile's Reach!Instance|N|From the sign off the road. Elite NPC.|
 C Killclaw the Terrible|QID|56839|M|46.12,54.81|Z|Exile's Reach!Instance|N|Killclaw the Terrible slain.|
@@ -187,12 +187,12 @@ T Like Ogres to the Slaughter|QID|59979|M|40.25,32.55|Z|Exile's Reach!Instance|N
 T Catapult Destruction|QID|59980|M|40.36,32.42|Z|Exile's Reach!Instance|N|To Herbert Gloomburst.|
 T Controlling their Stones|QID|59981|M|39.92,32.14|Z|Exile's Reach!Instance|N|To Warlord Mulgrin Thunderwalker.|
 A Dungeon: Darkmaul Citadel|QID|59984|M|39.94,32.15|Z|Exile's Reach!Instance|N|From Warlord Mulgrin Thunderwalker.|PRE|59981|
-C Dungeon: Darkmaul Citadel|QID|59984|Z|The Citadel@Dark Citadel!Dungeon|QO|1|N|Use the Group Finder to enter the dungeon, "Darkmaul Citadel". This isn't group, it's basically a Scenerio.sad|
-C Darkmaul Citadel|Z|Darkmaul Citadel|SO|1|N|Climb to the top of the citadel and stop Gor'groths profane ritual.|
+C Dungeon: Darkmaul Citadel|QID|59984|Z|The Citadel@Dark Citadel!Dungeon|QO|1|N|Use the Group Finder to enter the dungeon, "Darkmaul Citadel". This isn't group, it's basically a Scenerio.|
+C Darkmaul Citadel|QID|59984|SO|1|N|Climb to the top of the citadel and stop Gor'groths profane ritual.|
 C Dungeon: Darkmaul Citadel|QID|59984|M|39.03,31.57|Z|Exile's Reach!Instance|QO|3|CHAT|N|Speak with Warlord Grimaxe to leave Darkmaul Citadel.|
 T Dungeon: Darkmaul Citadel|QID|59984|M|39.67,31.99|Z|Exile's Reach!Instance|N|To Warlord Breka Grimaxe.|
 A An End to Beginnings|QID|59985|M|39.67,31.99|Z|Exile's Reach!Instance|N|From Warlord Breka Grimaxe.|PRE|59984|
-C An End to Beginnings|QID|59985|M|40.36,32.62|Z|Exile's Reach!Instance|QO|1|NC|N|click on the Horde Wyvern to ride back to Orgrimmar.|
+C An End to Beginnings|QID|59985|M|40.36,32.62|Z|Exile's Reach!Instance|NC|N|click on the Horde Wyvern to ride back to Orgrimmar.|
 T An End to Beginnings|QID|59985|M|52.51,88.06|Z|Orgrimmar|N|To Warlord Breka Grimaxe.|
 A Welcome to Orgrimmar|QID|60343|M|52.51,88.06|Z|Orgrimmar|N|From Warlord Breka Grimaxe.|PRE|59985|
 T Welcome to Orgrimmar|QID|60343|M|51.92,85.35|Z|Orgrimmar|N|To Cork Fizzlepop.|
@@ -205,46 +205,46 @@ A License to Ride|QID|60345|M|61.43,32.76|Z|Orgrimmar|N|From Rohaka Tuskmaul.|PR
 C License to Ride|QID|60345|M|61.32,34.59|Z|Orgrimmar|N|Learn the Apprentice Riding skill from Kildor.|
 T License to Ride|QID|60345|M|61.43,32.76|Z|Orgrimmar|N|To Rohaka Tuskmaul.|
 A What's Your Specialty?|QID|60346|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Druid|
-C What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|QO|1|CHAT|N|Speak with Telotha Pinegrove to learn about specializations.|
-C What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|
-T What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|N|To Telotha Pinegrove.|
+C What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|QO|1|CHAT|N|Speak with Telotha Pinegrove to learn about specializations.|C|Druid|
+C What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Druid|
+T What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|N|To Telotha Pinegrove.|C|Druid|
 A What's Your Specialty?|QID|60347|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Hunter|
-C What's Your Specialty?|QID|60347|M|73.88,43.63|Z|Orgrimmar|QO|1|CHAT|N|Speak with Tamanji to learn about specializations.|
-C What's Your Specialty?|QID|60347|M|73.88,43.63|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|
-T What's Your Specialty?|QID|60347|M|73.89,43.62|Z|Orgrimmar|N|To Tamanji.|
+C What's Your Specialty?|QID|60347|M|73.88,43.63|Z|Orgrimmar|QO|1|CHAT|N|Speak with Tamanji to learn about specializations.|C|Hunter|
+C What's Your Specialty?|QID|60347|M|73.88,43.63|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Hunter|
+T What's Your Specialty?|QID|60347|M|73.89,43.62|Z|Orgrimmar|N|To Tamanji.|C|Hunter|
 A What's Your Specialty?|QID|60348|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Mage|
-C What's Your Specialty?|QID|60348|M|74.69,43.57|Z|Orgrimmar|QO|1|CHAT|N|Speak with Feenix Arcshine to learn about specializations.|
-C What's Your Specialty?|QID|60348|M|74.69,43.57|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|
-T What's Your Specialty?|QID|60348|M|74.69,43.57|Z|Orgrimmar|N|To Feenix Arcshine.|
+C What's Your Specialty?|QID|60348|M|74.69,43.57|Z|Orgrimmar|QO|1|CHAT|N|Speak with Feenix Arcshine to learn about specializations.|C|Mage|
+C What's Your Specialty?|QID|60348|M|74.69,43.57|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Mage|
+T What's Your Specialty?|QID|60348|M|74.69,43.57|Z|Orgrimmar|N|To Feenix Arcshine.|C|Mage|
 A What's Your Specialty?|QID|60349|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Monk|
-C What's Your Specialty?|QID|60349|M|75.69,43.60|Z|Orgrimmar|QO|1|CHAT|N|Speak with Huinli Wingpaw to learn about specializations.|
-C What's Your Specialty?|QID|60349|M|75.69,43.60|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|
-T What's Your Specialty?|QID|60349|M|75.69,43.60|Z|Orgrimmar|N|To Huinli Wingpaw.|
+C What's Your Specialty?|QID|60349|M|75.69,43.60|Z|Orgrimmar|QO|1|CHAT|N|Speak with Huinli Wingpaw to learn about specializations.|C|Monk|
+C What's Your Specialty?|QID|60349|M|75.69,43.60|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Monk|
+T What's Your Specialty?|QID|60349|M|75.69,43.60|Z|Orgrimmar|N|To Huinli Wingpaw.|C|Monk|
 A What's Your Specialty?|QID|60350|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Paladin|
-C What's Your Specialty?|QID|60350|M|73.18,47.40|Z|Orgrimmar|QO|1|CHAT|N|Speak with Avaros Dawnglaive to learn about specializations.|
-C What's Your Specialty?|QID|60350|M|73.18,47.40|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|
-T What's Your Specialty?|QID|60350|M|73.18,47.40|Z|Orgrimmar|N|To Avaros Dawnglaive.|
+C What's Your Specialty?|QID|60350|M|73.18,47.40|Z|Orgrimmar|QO|1|CHAT|N|Speak with Avaros Dawnglaive to learn about specializations.|C|Paladin|
+C What's Your Specialty?|QID|60350|M|73.18,47.40|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Paladin|
+T What's Your Specialty?|QID|60350|M|73.18,47.40|Z|Orgrimmar|N|To Avaros Dawnglaive.|C|Paladin|
 A What's Your Specialty?|QID|60351|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Priest|
-C What's Your Specialty?|QID|60351|M|72.63,46.93|Z|Orgrimmar|QO|1|CHAT|N|Speak with Martin Goodchilde to learn about specializations.|
-C What's Your Specialty?|QID|60351|M|72.63,46.93|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|
-T What's Your Specialty?|QID|60351|M|72.63,46.93|Z|Orgrimmar|N|To Martin Goodchilde.|
+C What's Your Specialty?|QID|60351|M|72.63,46.93|Z|Orgrimmar|QO|1|CHAT|N|Speak with Martin Goodchilde to learn about specializations.|C|Priest|
+C What's Your Specialty?|QID|60351|M|72.63,46.93|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Priest|
+T What's Your Specialty?|QID|60351|M|72.63,46.93|Z|Orgrimmar|N|To Martin Goodchilde.|C|Priest|
 A What's Your Specialty?|QID|60352|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Rogue|
-C What's Your Specialty?|QID|60352|M|75.47,47.51|Z|Orgrimmar|QO|1|CHAT|N|Speak with Thega Graveblade to learn about specializations.|
-C What's Your Specialty?|QID|60352|M|75.47,47.51|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|
-T What's Your Specialty?|QID|60352|M|75.47,47.51|Z|Orgrimmar|N|To Thega Graveblade.|
+C What's Your Specialty?|QID|60352|M|75.47,47.51|Z|Orgrimmar|QO|1|CHAT|N|Speak with Thega Graveblade to learn about specializations.|C|Rogue|
+C What's Your Specialty?|QID|60352|M|75.47,47.51|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Rogue|
+T What's Your Specialty?|QID|60352|M|75.47,47.51|Z|Orgrimmar|N|To Thega Graveblade.|C|Rogue|
 A What's Your Specialty?|QID|60353|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Shaman|
-C What's Your Specialty?|QID|60353|M|73.41,43.12|Z|Orgrimmar|QO|1|CHAT|N|Speak with Hretar Riverspeaker to learn about specializations.|
-C What's Your Specialty?|QID|60353|M|73.41,43.12|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|
-T What's Your Specialty?|QID|60353|M|73.41,43.12|Z|Orgrimmar|N|To Hretar Riverspeaker.|
+C What's Your Specialty?|QID|60353|M|73.41,43.12|Z|Orgrimmar|QO|1|CHAT|N|Speak with Hretar Riverspeaker to learn about specializations.|C|Shaman|
+C What's Your Specialty?|QID|60353|M|73.41,43.12|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Shaman|
+T What's Your Specialty?|QID|60353|M|73.41,43.12|Z|Orgrimmar|N|To Hretar Riverspeaker.|C|Shaman|
 A What's Your Specialty?|QID|60355|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Warlock|
-C What's Your Specialty?|QID|60355|M|76.61,47.41|Z|Orgrimmar|QO|1|CHAT|N|Speak with Kazak Darkscream to learn about specializations.|
-C What's Your Specialty?|QID|60355|M|76.61,47.41|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|
-T What's Your Specialty?|QID|60355|M|76.61,47.41|Z|Orgrimmar|N|To Kazak Darkscream.|
+C What's Your Specialty?|QID|60355|M|76.61,47.41|Z|Orgrimmar|QO|1|CHAT|N|Speak with Kazak Darkscream to learn about specializations.|C|Warlock|
+C What's Your Specialty?|QID|60355|M|76.61,47.41|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Warlock|
+T What's Your Specialty?|QID|60355|M|76.61,47.41|Z|Orgrimmar|N|To Kazak Darkscream.|C|Warlock|
 A What's Your Specialty?|QID|60357|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Warrior|
-C What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|QO|1|CHAT|N|Speak with Gormok Ogrefistto learn about specializations.|
-C What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|
-T What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|N|To Gormok Ogrefist.|
-A Home Is Where the Hearth Is|QID|60359|M|73.38,45.22|Z|Orgrimmar|N|From Cork Fizzlepop.|
+C What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|QO|1|CHAT|N|Speak with Gormok Ogrefistto learn about specializations.|C|Warrior|
+C What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Warrior|
+T What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|N|To Gormok Ogrefist.|C|Warrior|
+A Home Is Where the Hearth Is|QID|60359|M|73.38,45.22|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|
 h The Wyvern's Tail|QID|60359|M|71.31,49.96|Z|Orgrimmar|QO|1|N|Make The Wyvern's Tail your home at Innkeeper Nufa.|
 T Home Is Where the Hearth Is|QID|60359|M|71.31,49.96|Z|Orgrimmar|N|To Innkeeper Nufa.|
 A An Urgent Meeting|QID|60360|M|70.86,49.53|Z|Orgrimmar|N|From Shuja Grimaxe.|PRE|60359|
