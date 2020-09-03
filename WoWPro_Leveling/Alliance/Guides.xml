@@ -1,11 +1,11 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/">
   <Script file="INTRO_Exiles_Reach.lua"/>
+  <Script file="INTRO_Chromie_Time.lua"/>
   <Script file="01_05_Gylin_Dwarf_Starter.lua"/>
   <Script file="01_05_Gylin_Gnome_Starter.lua"/>
   <Script file="01_05_Kurich_Northsire.lua"/>
   <Script file="05_10_Kurich_Elwynn.lua"/>
   <Script file="01_05_Bitsem_Shadowglen.lua"/>
-  <Script file="05_12_Bitsem_Teldrassil.lua"/>
   <Script file="01_05_Snowflakes_AmmenVale.lua"/>
   <Script file="05_12_Snowflakes_Azuremyst.lua"/>
   <Script file="01_13_Rpotor_Worgen_Starter.lua"/>
