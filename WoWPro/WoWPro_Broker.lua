@@ -877,7 +877,10 @@ function WoWPro:RowUpdate(offset)
         elseif WoWPro.chat[k] then
             currentRow.action:SetTexture("Interface\\GossipFrame\\Gossipgossipicon")
             currentRow.action.tooltip.text:SetText("Chat")
-        elseif WoWPro.vehichle[k] then
+        elseif WoWPro.jump[k] then
+            currentRow.action:SetTexture("Interface\\Icons\\spell_arcane_teleportironforge")
+            currentRow.action.tooltip.text:SetText("Jump")
+		elseif WoWPro.vehichle[k] then
             -- Yeah, that is how blizzard spelled it!
             currentRow.action:SetTexture("Interface\\CURSOR\\vehichleCursor")
             currentRow.action.tooltip.text:SetText("Take Vehicle")

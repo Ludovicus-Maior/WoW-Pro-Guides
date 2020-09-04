@@ -1,9 +1,9 @@
 local guide = WoWPro:RegisterGuide('EmmLegionWarrior', 'Leveling', 'ValhallasWarriorOrderHome', 'Emmaleah', 'Neutral')
-WoWPro:GuideName(guide, 'Warrior Order Hall')
+WoWPro:GuideName(guide, 'Warrior: Order Hall')
+WoWPro:GuideNickname(guide, "Warrior: Order Hall")
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'EmmAzsuna')
+WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
 WoWPro:GuideClassSpecific(guide, 'Warrior')
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 ;the lines starting with ";*" are copied from a differant class guide and need updated with the correct coordinates and/or NPC names
@@ -88,6 +88,9 @@ T The Eye of Odyn|QID|39214|M|59.78,13.33|N|To Skyseer Ghrent.|
 A Thus Begins the War|QID|40585|M|59.78,13.33|N|From Skyseer Ghrent.|PRE|39214|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|59.45,13.34|N|From the Eye of Odyn. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40585|LEAD|38907|
 T Thus Begins the War|QID|40585|M|59.78,13.33|N|To Skyseer Ghrent.|
+
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+
 C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|58.55,24.00|CHAT|N|Talk to the Val'kyr for transport to Dalaran.|
 ;Class hall development lvl 101 to 109
 A Odyn's Summons|QID|42597|M|60.71,45.05|Z|Dalaran!Dalaran!Dungeon|N|From Danica the Reclaimer.|PRE|40585| ; Popup when I came back to Dal after hitting 101

@@ -1,10 +1,11 @@
 local guide = WoWPro:RegisterGuide('EmmAWarCampaign', 'Leveling', 'Kul Tiras', 'Rajitazi', 'Alliance')
 WoWPro:GuideName(guide,'War Campaign')
+WoWPro:GuideNickname(guide, "War Campaign")
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'TBD')
-WoWPro:GuideAutoSwitch(guide)
+WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|S!US|N|Jump to the Guide Hub|
 ;starter notes
 N Ranks.|N|Rank 1 includes the steps needed for the War Campaign Achievement required for Pathfinder It also includes Warfronts and the quests that follow the purchased Table Missions to open up more outposts. Rank 2 adds the Wanted Posters on Zandalar which are worth 250 faction each. Rank 3 adds other quests on Zandalar. If you want to change ranks mid-guide. You should also reset the guide (from guide title bar) or else you may miss things.|
 N Silver Elites|QID|51918^52450|N|The Silver Elites on Zandalar (assuming you are alliance) do not scale to your level and are all level 120-122. You may want to avoid them before 120.|

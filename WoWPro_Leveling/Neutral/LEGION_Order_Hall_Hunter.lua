@@ -1,9 +1,9 @@
 local guide = WoWPro:RegisterGuide('EmmLegionHunter', 'Leveling', 'TrueshotLodge', 'Emmaleah', 'Neutral')
-WoWPro:GuideName(guide, 'Hunter Order Hall')
+WoWPro:GuideName(guide, 'Hunter: Order Hall')
+WoWPro:GuideNickname(guide, "Hunter: Order Hall")
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
 WoWPro:GuideClassSpecific(guide, 'Hunter')
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
@@ -131,6 +131,9 @@ A The Campaign Begins|QID|40959|M|42.82,46.95|N|From Tactician Tinderfell.|PRE|4
 C The Campaign Begins|QID|40959|M|42.82,46.95|NC|N|Choose which zone you want to do first.|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|42.62,46.84|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|
 T The Campaign Begins|QID|40959|M|42.62,46.84|N|To Tactician Tinderfell.|
+
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+
 P Krasus' Landing|QID|39718^39864^39731^39733^39735|M|45.49,45.70;48.63,43.49|CS|N|Up the ramp to take the portal to Dalaran|ACTIVE|39718^39864^39731^39733^39735|
 ;Class hall development lvl 101 to 109
 L Level 101|QID|44090|N|Your Class Hall quests continue once you have reached level 101. Change your guide to the zone you selected from the scouting map earlier, then return to this guide once you have reached level 101.|

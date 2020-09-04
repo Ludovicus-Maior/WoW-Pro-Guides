@@ -1,11 +1,11 @@
 local guide = WoWPro:RegisterGuide('EmmLegionIntro_H', 'Leveling', 'Dalaran@Dalaran70', 'Emmaleah', 'Horde')
-WoWPro:GuideName(guide, 'Horde Legion Intro')
+WoWPro:GuideName(guide, 'Legion: Intro')
+WoWPro:GuideNickname(guide, "Legion: Intro")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideSteps(guide, function()
 return [[
-A The Legion Returns|QID|43926|M|49.68,76.69|Z|Orgrimmar|N|From UI Alert.|
-C Travel to Orgrimmar|QID|43926|NC|N|A clickable portal has been provided or travel by whatever means you choose.|U|132119|
+A The Legion Returns|QID|43926|M|49.68,76.69|Z|Orgrimmar|N|From Chromie after activating Legion timeline.|
 T The Legion Returns|QID|43926|M|46.01,13.94|Z|Durotar|N|To Holgar Stormaxe.|
 A To Be Prepared|QID|44281|M|46.01,13.94|Z|Durotar|N|From Holgar Stormaxe.|PRE|43926|
 C To Be Prepared|QID|44281|NC|QO|3|M|47.76,13.46|Z|Durotar|N|Click on the food to eat your last meal.|

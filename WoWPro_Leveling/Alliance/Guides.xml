@@ -6,6 +6,7 @@
 	<Script file="BC_Terokkar.lua"/>
 	<Script file="BC_Zangarmarsh.lua"/>
 	<Script file="BFA_Drustvar.lua"/>
+	<Script file="BFA_Guide_Hub.lua"/>
 	<Script file="BFA_Endgame_Story.lua"/>
 	<Script file="BFA_INTRO.lua"/>
 	<Script file="BFA_Nazjatar.lua"/>
@@ -43,9 +44,9 @@
 	<Script file="INTRO_Dark_Iron_Dwarf.lua"/>
 	<Script file="INTRO_Draenai.lua"/>
 	<Script file="INTRO_Dwarf.lua"/>
-	<Script file="05_10_Gameldar_Dun_Morogh.lua"/>
+	<Script file="INTRO_Dwarf_Gnome_Part2.lua"/>
 	<Script file="INTRO_Exiles_Reach.lua"/>
-	<Script file="INTRO_Gnomer.lua"/>
+	<Script file="INTRO_Gnome.lua"/>
 	<Script file="INTRO_Human.lua"/>
 	<Script file="INTRO_Kul_Tiran.lua"/>
 	<Script file="INTRO_Lightforged_Draenai.lua"/>
