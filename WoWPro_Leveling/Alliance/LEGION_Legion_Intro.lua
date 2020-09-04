@@ -1,10 +1,11 @@
 local guide = WoWPro:RegisterGuide('EmmLegionIntro_A', 'Leveling', 'Dalaran@Dalaran70', 'Emmaleah', 'Alliance')
-WoWPro:GuideName(guide, 'Alliance Legion Intro')
+WoWPro:GuideName(guide, 'Legion: Intro')
+WoWPro:GuideNickname(guide, "Legion: Intro")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideSteps(guide, function()
 return [[
-A The Legion Returns|QID|40519|N|From UI Alert.|
+A The Legion Returns|QID|40519|N|From Chromie after activating Legion timeline.|
 T The Legion Returns|QID|40519|M|37.10,43.16|Z|Stormwind City|N|To Recruiter Lee. If you aren't in Stormwind you can use the provided Stormwind Portal Stone.|U|132120|
 A To Be Prepared|QID|42782|M|37.10,43.16|Z|Stormwind City|N|From Recruiter Lee.|PRE|40519|
 C To Be Prepared|QID|42782|QO|1|M|29.79,42.98|Z|Stormwind City|NC|N|Click on the kegs to polish your armor.|

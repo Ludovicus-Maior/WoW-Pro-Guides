@@ -1,7 +1,9 @@
 local guide = WoWPro:RegisterGuide("RpoGil0113", "Leveling", "Gilneas (Worgen)", "Rpotor", "Alliance")
 WoWPro:GuideLevels(guide,1,10)
 WoWPro:GuideRaceSpecific(guide,"Worgen")
-WoWPro:GuideNextGuide(guide, "JamDar1320")
+WoWPro:GuideNickname(guide, "Worgen: Intro")
+WoWPro:GuideName(guide,"Worgen: Intro")
+WoWPro:GuideNextGuide(guide, "Chromie Time")
 WoWPro:GuideSteps(guide, function()
 return [[
 ; Zone is Ruins of Gilneas City
@@ -269,6 +271,7 @@ R Rut'theran Village|QID|14434|Z|Gilneas|M|42.59,35.93|N|Speak to Admiral Nightw
 N Sequential Zone |QID|26706|N|Gilneas is a linear quest zone, it won't be possible for you to skip any quests. Please Reset Current Guide on the guide window, and work through all the quests.|
 A The Howling Oak|QID|28517|PRE|14434|M|55.22,89.15|Z|Teldrassil|N|From Krennan Aranas.|
 T The Howling Oak|QID|28517|M|41.88,48.25;46.04,34.73;49.10,19.00;47.97,14.16|Z|Darnassus|CS|N|Walk through the purple haze to the north. Once in Darnassus, to Genn Greymane in Howling Oak.|
+N It's Chromie Time!|QID|62567|M|45.00,55.5|Z|Darnassus|JUMP|Chromie Time|LVL|10|N|Congratulations Worgen.\n\nYou can now accept Chromies call at the Hero's Call board in Darnassus. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide by skipping this and continuing to darkshore, or you click the guide button next to this frame to direct you to Chromie in Stormwind!|
 A Breaking Waves of Change|QID|26385|LEAD|13518|PRE|28517|M|48.12,14.48|Z|Darnassus|N|From Genn Greymane.|
 ;f Darnassus|QID|26385|M|36.67,47.91|Z|Darnassus|N|Get the Darnassus Flight Point at Leora.|
 ;F Lor'danel|QID|26385|M|36.60,48.00|Z|Teldrassil|N|Take a Hippogryph from the Flight Master.|

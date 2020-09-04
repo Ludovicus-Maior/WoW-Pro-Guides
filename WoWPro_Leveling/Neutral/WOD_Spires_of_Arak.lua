@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmSoArak', 'Leveling', 'Spires of Arak', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'LudoNagrand|EmmNagrand')
+WoWPro:GuideNickname(guide, "Spires of Arakt")
+WoWPro:GuideName(guide,"Spires of Arak")
+WoWPro:GuideNextGuide(guide, 'Nagrand WOD')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Beginnings|AVAILABLE|34653^36951|N|If you have the quest, News from the Spires of Arak, this guide begins at your garrison to turn that in. You may also want to begin there if you do not have Draenor flying to take the free flight to Spires.|
@@ -387,7 +389,7 @@ C We Have Him Now|QID|36047|M|58.15,33.3|QO|2|US|FACTION|Horde|N|Finish looting 
 T We Have Him Now|QID|36047|M|57.14,34.49|N|To Dark Ranger Velonara.|FACTION|Horde|
 A No Time to Waste|QID|36166|M|57.14,34.49|PRE|36047|N|From Dark Ranger Velonara.|FACTION|Horde|
 ;alliance-smugglers building
-R Murkbog|ACTIVE|35713|M|56.02,40.88|N|This is pretty much exactly on the other side of the mountain, so... run north or south whichever you prefer. |FACTION|Alliance|
+R Murkbog|ACTIVE|35713|M|56.02,40.88|N|This is pretty much exactly on the other side of the mountain, so... run north or south whichever you prefer.|FACTION|Alliance|
 T The Tinkertoss Twins|QID|35713|M|56.21,42.49|N|To Filbert Tinkertoss.|FACTION|Alliance|
 A Sticky Situation|QID|35716|M|56.21,42.49|PRE|35713|N|From Filbert Tinkertoss.|FACTION|Alliance|
 A Safety Measures|QID|35878|M|56.21,42.49|PRE|35713|N|From Filbert Tinkertoss.|FACTION|Alliance|
@@ -409,7 +411,7 @@ A The Ebon Hunter|QID|35835|M|60.20,53.15|PRE|35739&35782|N|From Dilbert Tinkert
 C The Ebon Hunter|QID|35835|M|65.09,61.46|T|The Ebon Hunter|FACTION|Alliance|
 T The Ebon Hunter|QID|35835|M|60.08,53.64|N|To Dilbert Tinkertoss.|FACTION|Alliance|
 ;horde-smugglers building
-R Murkbog|ACTIVE|35705|M|56.02,40.88|N|This is pretty much exactly on the other side of the mountain, so... run north or south whichever you prefer. |FACTION|Horde|
+R Murkbog|ACTIVE|35705|M|56.02,40.88|N|This is pretty much exactly on the other side of the mountain, so... run north or south whichever you prefer.|FACTION|Horde|
 T Best Deals Anywhere|QID|35705|M|56.02,40.88|N|To Mixxy Weldblast.|FACTION|Horde|
 A Safety Measures|QID|35879|M|56.02,40.88|PRE|35705|N|From Mixxy Weldblast.|FACTION|Horde|
 A Sticky Situation|QID|35706|M|56.02,40.91|PRE|35705|N|From Mixxy Weldblast.|FACTION|Horde|

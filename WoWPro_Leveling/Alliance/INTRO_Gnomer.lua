@@ -1,10 +1,13 @@
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,10)
-WoWPro:GuideNextGuide(guide, "GamDun0510")
+WoWPro:GuideNickname(guide, "Gnome: Intro")
+WoWPro:GuideName(guide,"Gnome: Intro")
+WoWPro:GuideNextGuide(guide, 'Dwarf & Gnome: Intro (Part 2)')
 WoWPro:GuideRaceSpecific(guide,"Gnome")
 WoWPro:GuideSteps(guide, function()
 return
 [[
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
 A Pinned Down|QID|27670|M|34.10,32.22|Z|The Old Dormitory|N|From Nevin Twistwrench standing in front of you.|
 C Pinned Down|QID|27670|M|40.39,32.03|Z|The Old Dormitory|N|Kill 6 Crazed Leper Gnomes.|
 T Pinned Down|QID|27670|M|34.10,32.22|Z|The Old Dormitory|N|To Nevin Twistwrench|

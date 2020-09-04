@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('RajKra8788', "Leveling", 'Krasarang Wilds', 'Rajitazi', 'Alliance')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'EmmKun8889')
+WoWPro:GuideNickname(guide, "Krasarang Wilds")
+WoWPro:GuideName(guide,"Krasarang Wilds")
+WoWPro:GuideNextGuide(guide, 'Kun-Lai Summit')
 WoWPro:GuideSteps(guide, function()
 return [[
 F Zhu's Watch|QID|30080|M|19, 56|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
@@ -101,7 +103,7 @@ R While traveling|QID|31409|M|50.8,49.4|CC|N|You can optionally go along the coa
 ;R The Incursion|M|67.4,32|
 T Threat from Dojan|QID|30349|M|67.45,32.70|N|To Lyalia.|
 T The Pools of Youth|QID|30347|M|67.45,32.64|N|To Lorekeeper Vaeldrin.|
-T Lotus Tea|QID|30351|M|67.36,32.75|N|To Kang Bramblestaff. |
+T Lotus Tea|QID|30351|M|67.36,32.75|N|To Kang Bramblestaff.|
 A Immortality?|QID|30348|PRE|30347&30349&30351|M|67.45,32.64|N|From Lorekeeper Vaeldrin.|
 C Immortality?|QID|30348|M|67.45,32.64|N|Watch and wait.|
 T Immortality?|QID|30348|M|67.45,32.64|N|To Lorekeeper Vaeldrin.|
@@ -122,7 +124,7 @@ T The Murksweats|QID|30268|M|40.48,34.66|N|To Anduin Wrynn.|
 T Blinding the Riverblades|QID|30270|M|40.59,33.69|N|To Koro Mistwalker.|
 T Tread Lightly|QID|30694|M|40.62,33.69|N|To Koro Mistwalker.|
 A Ahead on the Way|QID|30695|PRE|30268&30270&30694|M|40.68,33.68|N|From Koro Mistwalker.|
-A Striking the Rain |QID|30272|PRE|30268&30270&30694|M|40.6,33.7|N|From Koro Mistwalker|
+A Striking the Rain|QID|30272|PRE|30268&30270&30694|M|40.6,33.7|N|From Koro Mistwalker|
 A Sha Can Awe|QID|30271|PRE|30268&30270&30694|M|40.67,33.88|N|From Anduin Wrynn, who is now following you and who may be duplicated!|
 C Sha Can Awe|QID|30271|S|M|41.9,50.1|N|Kill Hunts and Incarnations of Despair near the Hopeless Monks|
 C Striking the Rain|QID|30272|S|M|40,45|

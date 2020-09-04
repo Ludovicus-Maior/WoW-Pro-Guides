@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide("JamScar5558", "Leveling", "ScarletEnclave", "Jame", "Neutral")
 WoWPro:GuideLevels(guide,8,18)
 WoWPro:GuideName(guide,"Death Knight: Original Intro")
-WoWPro:GuideNextGuide(guide, "CraBla5458|JiyBla5560")
+WoWPro:GuideNextGuide(guide, "ChromieTime|JiyBla5560")
 WoWPro:GuideClassSpecific(guide,"DeathKnight")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -143,5 +143,6 @@ T Where Kings Walk|QID|13188|Z|Stormwind City|M|85.6,31.8|N|To King Anduin Wrynn
 A Saurfang's Blessing|QID|13189|PRE|13166|FACTION|Horde|M|83.4,49.4|N|From Highlord Darion Mograine.|
 P Durotar|QID|13189|M|84.58,50.49|Z|Eastern Plaguelands|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
 T Saurfang's Blessing|QID|13189|Z|Orgrimmar|M|48.14,70.56|N|To High Overlord Saurfang.|FACTION|Horde|
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|
 ]]
 end)
