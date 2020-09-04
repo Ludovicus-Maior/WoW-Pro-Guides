@@ -1,44 +1,16 @@
 local guide = WoWPro:RegisterGuide('LinksDHArtCH100100', 'Leveling', 'DemonHunterOrderHallTerrain', 'Linkslegend5', 'Neutral')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideName(guide, 'Demon Hunter Order Hall')
+WoWPro:GuideName(guide, 'Demon Hunter: Order Hall')
+WoWPro:GuideNickname(guide, "Demon Hunter: Order Hall")
+
 WoWPro:GuideClassSpecific(guide,"DemonHunter")
 WoWPro:GuideSteps(guide, function()
 return [[
-; Faction Specific Start
-A Audience with the Warchief|QID|40976|PRE|39690|M|52.53,88.18|Z|Orgrimmar|N|From Archmage Khadgar.|FACTION|Horde|
-C Audience with the Warchief|QID|40976|QO|1|M|50.03,75.97|Z|Orgrimmar|N|1/1 Report to Saurfang|FACTION|Horde|
-C Audience with the Warchief|QID|40976|QO|2|M|0.00,0.00|Z|Orgrimmar|N|1/1 Learn the Fate of the Horde|FACTION|Horde|
-T Audience with the Warchief|QID|40976|M|45.81,15.11|Z|Durotar|N|To Allari the Souleater.|FACTION|Horde|
-A Second Sight|QID|40982|M|45.81,15.11|Z|Durotar|N|From Allari the Souleater.|FACTION|Horde|
-C Second Sight|QID|40982|QO|1|M|45.81,15.11|Z|Durotar|N|Use your Spectral Sight|FACTION|Horde|
-T Second Sight|QID|40982|M|45.81,15.11|Z|Durotar|N|To Allari the Souleater.|FACTION|Horde|
-A Demons Among Them|QID|40983|PRE|40982|M|45.81,15.11|Z|Durotar|N|From Allari the Souleater.|FACTION|Horde|
-C Demons Among Them|QID|40983|QO|1|M|45.70,15.88|Z|Durotar|N|Warn Lady Sylvanas Windrunner about the demons.|CHAT|FACTION|Horde|
-C Demons Among Them|QID|40983|QO|2|M|45.59,15.93|Z|Durotar|N|Slay Demons|FACTION|Horde|
-T Demons Among Them|QID|40983|M|45.68,15.94|Z|Durotar|N|To Lady Sylvanas Windrunner.|FACTION|Horde|
-A A Weapon of the Horde|QID|41002|PRE|40983|M|45.68,15.94|Z|Durotar|N|From Lady Sylvanas Windrunner.|FACTION|Horde|
-T A Weapon of the Horde|QID|41002|M|52.63,56.06|Z|Orgrimmar|N|To Elthyn Da'rai.|FACTION|Horde|
-A In the Blink of an Eye|QID|44663|PRE|44120^44473|M|53.06,57.84|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|Horde|
-C In the Blink of an Eye|QID|44663|QO|1|M|0.00,0.00|Z|Orgrimmar|N|1/1 Take the Portal to Dalaran|FACTION|Horde|
-A The Call of War|QID|39691|PRE|39689|M|72.56,47.02|Z|Stormwind City|N|From Archmage Khadgar.|FACTION|Alliance|
-C The Call of War|QID|39691|M|84.14,33.68|Z|Stormwind City|QO|1|N|Go to the throne in Stormwind|FACTION|Alliance|
-T The Call of War|QID|39691|M|84.41,33.75|Z|Stormwind City|N|To Jace Darkweaver.|FACTION|Alliance|
-A Second Sight|QID|44471|PRE|39691|M|84.41,33.75|Z|Stormwind City|N|From Jace Darkweaver.|FACTION|Alliance|
-C Second Sight|QID|44471|M|84.63,33.06|Z|Stormwind City|N|Use Use your Spectral Sight.|FACTION|Alliance|
-T Second Sight|QID|44471|M|84.41,33.75|Z|Stormwind City|N|To Jace Darkweaver.|FACTION|Alliance|
-A Demons Among Them|QID|44463|PRE|44471|M|84.41,33.75|Z|Stormwind City|N|From Jace Darkweaver.|FACTION|Alliance|
-C Demons Among Them|QID|44463|M|85.89,31.59|Z|Stormwind City|QO|1|N|Warn Anduin Wrynn.|CHAT|FACTION|Alliance|
-C Demons Among Them|QID|44463|M|84.14,33.68|Z|Stormwind City|QO|2|N|Slay Demons|FACTION|Alliance|
-T Demons Among Them|QID|44463|M|85.89,31.59|Z|Stormwind City|N|To Anduin Wrynn.|FACTION|Alliance|
-A A Weapon of the Alliance|QID|44473|PRE|44463|M|85.89,31.59|Z|Stormwind City|N|From Anduin Wrynn.|FACTION|Alliance|
-T A Weapon of the Alliance|QID|44473|M|40.30,77.74|Z|Stormwind City|N|To Elerion Bladedancer.|FACTION|Alliance|
-A In the Blink of an Eye|QID|44663|PRE|44120^44473|M|53.06,57.84|Z|Stormwind City|N|From Khadgar's Upgraded Servant.|FACTION|Alliance|
-C In the Blink of an Eye|QID|44663|QO|1|M|80.26,34.84|Z|Stormwind City|N|Take the Portal to Dalaran|FACTION|Alliance|
-; Dalaran at Deadwind Pass
-C In the Blink of an Eye|QID|44663^44184|CHAT|QO|2|M|49.84,48.28|Z|Dalaran@DeadwindPass|N|Run to the area in the center of Dalaran (that used to be a park - now Chamber of the Guardians) and talk to Archmage Khadgar.|
-T In the Blink of an Eye|QID|44663|M|57.63,45.77|Z|Dalaran!Dalaran!Dungeon|N|To Emissary Auldbridge.|
+C Onward to Adventure: Broken Isles|QID|60971|M|49.36,86.93|Z|Stormwind City|NC|N|You have the option to run to the Wizard Sanctum and take the portal to Azuna but recommend that you use your new Dalaran Hearthstone.|FACTION|Alliance|U|140192|
+T Onward to Adventure: Broken Isles|QID|60971|M|PLAYER|N|Quest turn-in on quest tracker once you enter a Broken Isles zone.|
+
 ; Dalaran in
-A Call of the Illidari|QID|39047^39261|M|57.99,44.59|Z|Dalaran!Dalaran!Dungeon|N|From Kor'vas Bloodthorn, wait around for a minute and she will pop up next to you.|
+A Call of the Illidari|QID|39047^39261|M|PLAYER|Z|Dalaran!Dalaran!Dungeon|N|From Kor'vas Bloodthorn, wait around for a minute and she will pop up next to you.|
 T Call of the Illidari|QID|39047^39261|M|74.98,49.02|Z|Dalaran!Dalaran!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
 A The Power to Survive|QID|40816^40814|PRE|39047|M|74.98,49.02|Z|Dalaran!Dalaran!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|
 C The Power to Survive|QID|40816^40814|QO|1|M|74.98,49.02|Z|Dalaran!Dalaran!Dungeon|N|Choose your artifact weapon.|

@@ -40,12 +40,16 @@
 	<Script file="CATA_Westfall.lua"/>
 	<Script file="CATA_Wetlands.lua"/>
 	<Script file="INTRO_Chromie_Time.lua"/>
+	<Script file="INTRO_Dark_Iron_Dwarf.lua"/>
 	<Script file="INTRO_Draenai.lua"/>
 	<Script file="INTRO_Dwarf.lua"/>
+	<Script file="05_10_Gameldar_Dun_Morogh.lua"/>
 	<Script file="INTRO_Exiles_Reach.lua"/>
 	<Script file="INTRO_Gnomer.lua"/>
 	<Script file="INTRO_Human.lua"/>
+	<Script file="INTRO_Kul_Tiran.lua"/>
 	<Script file="INTRO_Lightforged_Draenai.lua"/>
+	<Script file="INTRO_Mechagnome.lua"/>
 	<Script file="INTRO_Night_Elf.lua"/>
 	<Script file="INTRO_VoidElf.lua"/>
 	<Script file="INTRO_Worgen.lua"/>
@@ -62,5 +66,6 @@
 	<Script file="WOTLK_Grizzly_Hills.lua"/>
 	<Script file="WOTLK_Howling_Fjord.lua"/>
 	<Script file="WOTLK_Icecrown.lua"/>
+	<Script file="WOTLK_Intro.lua"/>
 	<Script file="WOTLK_Storm_Peaks.lua"/>
 </Ui>

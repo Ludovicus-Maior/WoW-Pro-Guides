@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('CraNet6970', "Leveling", 'Netherstorm', 'Crackerhead22', 'Neutral')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'JamBor6872|JamHow7071')
+WoWPro:GuideNickname(guide, "Netherstorm")
+WoWPro:GuideName(guide,"Netherstorm")
+WoWPro:GuideNextGuide(guide, 'ChromieTime|JamHow7071')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Assist Exarch Orelis|QID|11038|LEAD|10241|M|47.44,26.61|Z|Shattrath City|N|From Vindicator Aeus.|REP|Aldor;932|

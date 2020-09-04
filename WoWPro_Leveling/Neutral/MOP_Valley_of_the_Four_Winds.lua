@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmVal8688', "Leveling", 'Valley of the Four Winds', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'RajKra8788|EmmKra8788')
+WoWPro:GuideNickname(guide, "Valley of the Four Winds")
+WoWPro:GuideName(guide,"Valley of the Four Winds")
+WoWPro:GuideNextGuide(guide, 'Krasarang Wilds')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Valley of the Four Winds|QID|29907|N|Make your way to Valley of the Four Winds. Blizzard added a new UI Element called the Special Action button. If you don?t already have a keybinding set for it, you may want to, as some quests use it. Yes, you can just click it, but I think keybindings are easier, its similar to the idea of Vehicle UI, but your regular action bars don't go away, you just get a new button.|
@@ -48,10 +50,10 @@ A The Meat They'll Eat|QID|29913|PRE|29912|M|75.22,24.05|N|From Liang Thunderfoo
 A Back to the Sty|QID|29914|PRE|29912|M|75.22,24.05|N|From Liang Thunderfoot.|
 C Kill Mushan|QID|29913|QO|1|S|M|72,29|N|Kill Mushan and loot to collect Adolescent Mushan Shoulder Steak. The meat is NOT a 100% drop.|
 C Kill Turtles|QID|29913|QO|2|S|M|67.6,30.1|N|Kill turtles for Turtle Meat Scraps.|
-C Pick up Smelly |QID|29914|QO|3|NC|T|Smelly|M|70.5,29.5|
-C Pick up Ling |QID|29914|QO|2|NC|T|Ling|M|66.8,29.0|
-C Turtle Meat Scrap |QID|29913|QO|2|US|M|67.6,30.1|N|Finish collecting the turtle meat scraps.|
-C Pick up Jian |QID|29914|QO|1|NC|T|Jian|M|69.9,24.3|
+C Pick up Smelly|QID|29914|QO|3|NC|T|Smelly|M|70.5,29.5|
+C Pick up Ling|QID|29914|QO|2|NC|T|Ling|M|66.8,29.0|
+C Turtle Meat Scrap|QID|29913|QO|2|US|M|67.6,30.1|N|Finish collecting the turtle meat scraps.|
+C Pick up Jian|QID|29914|QO|1|NC|T|Jian|M|69.9,24.3|
 f Grassy Cline|M|70.8,24.2|N|From Kom of the Mountain Winds.|
 C Kill Mushan|QID|29913|QO|1|US|M|72,29|N|Finish collecting the Adolescent Mushan Shoulder Steaks.|
 T The Meat They'll Eat|QID|29913|M|75.22,24.05|N|To Liang Thunderfoot.|
@@ -146,7 +148,7 @@ T Chen's Resolution|QID|30046|M|55.89,49.44|N|Follow Chen to Halfhill and turn i
 A Hop Hunting|QID|30053|PRE|30046|M|55.89,49.44|N|From Chen Stormstout.|
 A Li Li and the Grain|QID|30048|PRE|30046|M|55.89,49.44|N|From Chen Stormstout.|
 A Doesn't Hold Water|QID|30049|PRE|30046|M|55.89,49.44|N|From Chen Stormstout.|
-A Children of the Water |QID|32045|M|55.13,47.38|N|From Stonecarver Mac, up on Halfhill|; Halfhill
+A Children of the Water|QID|32045|M|55.13,47.38|N|From Stonecarver Mac, up on Halfhill|; Halfhill
 f Halfhill|QID|30049|M|53.81,50.92|N|From Wing Nga.If you want to this is a good time to do the fishing quest and cooking training.  Perhaps not the most efficient. But, if you are going to do it, might as well do it while you get XP.|
 A A Helping Hand|QID|30252|M|52.02,48.13|N|From Farmer Yoon. This chain for The Tillers is optional, but it opens up the Quartermaster which gives you a place to repair. (Plus its quick and easy XP.)|
 C Remove the rocks|QID|30252|M|52.8,49.81|NC|N|Click on the unbudging rocks to dig them up.|
@@ -170,9 +172,9 @@ r Repair/Restock|QID|30049|M|53.14,51.79|N|Now that we have the Quartermaster ta
 T Doesn't Hold Water|QID|30049|M|54.28,38.74|N|To Mudmug, on the northern exit of the ring road, pacing around his barrels.|
 A The Great Water Hunt|QID|30051|PRE|30049|M|54.19,38.65|N|From Mudmug.|
 C The Great Water Hunt|QID|30051|S|NC|M|53.20,31.92|N|Lead Mudmug to the pools of muddy water (yum!). Sometimes a creature will attack before Mudmug can gather his water.|
-K Kill Kracor |QID|32045|T|Kracor|QO|1|M|55.9,33.9|; Gilded Fan
-K Kill Thundergill |QID|32045|T|Thundergill|QO|2|M|55.1,25.9|; Gilded Fan
-K Kill Succula |QID|32045|T|Succula|QO|3|M|51.4,26.9|; The Heartland
+K Kill Kracor|QID|32045|T|Kracor|QO|1|M|55.9,33.9|; Gilded Fan
+K Kill Thundergill|QID|32045|T|Thundergill|QO|2|M|55.1,25.9|; Gilded Fan
+K Kill Succula|QID|32045|T|Succula|QO|3|M|51.4,26.9|; The Heartland
 K Kill Manglemaw|QID|30275|T|Manglemaw|M|57.47,25.77|L|79238|N|Killing the cute baby croc gets mom's attention, Kill her too and loot the quest item.|
 A A Crocolisk Tale|QID|30275|M|54.49,25.81|N|From Enormous Crocolisk Tail.|
 C The Great Water Hunt|QID|30051|US|NC|M|53.20,31.92|N|Lead Mudmug to the pools of muddy water (yum!). Sometimes a creature will attack before Mudmug can gather his water.|
@@ -205,7 +207,7 @@ A Stormstout's Hops|QID|30055|PRE|30050&30052&30053&30054|M|38.78,51.54|N|From U
 C Barreling Along|QID|30172|NC|M|54.19,38.69;55.7,49.2|CN|N|If you have lost Mudmug, you can get him at the place you started this quest.|
 T Barreling Along|QID|30172|M|55.89,49.43|N|To Chen Stormstout.|
 T Stormstout's Hops|QID|30055|M|55.89,49.43|N|To Chen Stormstout.|
-T Children of the Water |QID|32045|M|55.13,47.38|N|To Stonecarver Mac|; Halfhill
+T Children of the Water|QID|32045|M|55.13,47.38|N|To Stonecarver Mac|; Halfhill
 A Temple of the White Tiger|QID|31392|LEAD|31394|FACTION|Alliance|M|56.03,51.80|N|From Hopsmaster Chang.|
 A Temple of the White Tiger|QID|31393|LEAD|31395|FACTION|Horde|M|56.03,51.80|N|From Hopsmaster Chang.|
 R The Imperial Granary|QID|30048|M|56.22,52.96;52.72,62.82;55.22,58.54|CS|
@@ -255,27 +257,27 @@ T Cleaning House|QID|30078|M|36.00,69.13|N|To Chen Stormstout.|
 A Into the Brewery|QID|30085|LEAD|31327|PRE|30078|M|36.09,68.96|N|From Chen Stormstout. This is a dungeon quest|
 A Stoneplow Thirsts|QID|30117|PRE|30078|M|36.19,68.29|N|From Emmi.|
 R Nesingwary's Safari|QID|30181|M|16,83|CC|
-A Stalker Mastery |QID|30183|M|16.19,82.53|N|From Tani|
-A Mushan Mastery |QID|30181|M|16.07,82.61|N|From Hemet Nesingwary Jr.|
+A Stalker Mastery|QID|30183|M|16.19,82.53|N|From Tani|
+A Mushan Mastery|QID|30181|M|16.07,82.61|N|From Hemet Nesingwary Jr.|
 C Kill Mushan|QID|30181|S|M|11.90,68.81|N|Yes, you have to turn this in before you can get the next step, even though there are mushan among the foxes and stags.|
 C Kill Tigers|QID|30183|M|11.90,68.81|
 C Kill Mushan|QID|30181|US|M|11.90,68.81|N|Yes, you have to turn this in before you can get the next step, even though there are mushan among the foxes and stags.|
-T Mushan Mastery |QID|30181|M|16.07,82.61|N|To Hemet Nesingwary Jr.|
-T Stalker Mastery |QID|30183|M|16.19,82.53|N|To Tani|
+T Mushan Mastery|QID|30181|M|16.07,82.61|N|To Hemet Nesingwary Jr.|
+T Stalker Mastery|QID|30183|M|16.19,82.53|N|To Tani|
 A Fox Mastery|QID|30182|PRE|30183|M|16.19,82.53|N|To Tani.|
-A Stag Mastery |QID|32038|M|15.90,82.24|N|From Matt "Lucky" Gotcher|
-A Mushan Mastery: Darkhide |QID|30184|PRE|30181|M|16.01,82.49|N|From Hemet Nesingwary|
+A Stag Mastery|QID|32038|M|15.90,82.24|N|From Matt "Lucky" Gotcher|
+A Mushan Mastery: Darkhide|QID|30184|PRE|30181|M|16.01,82.49|N|From Hemet Nesingwary|
 C Kill Stags|QID|32038|S|M|24.47,68.43|
 C Kill Foxes|QID|30182|S|M|24.47,68.43|N|The foxes move around stealthed.|
 K Darkhide|QID|30184|T|Darkhide|QO|1|M|26.7,69.6|N|Kill Darkhide and loot his head.|
 C Kill Foxes|QID|30182|US|M|24.47,68.43|
 C Kill Stags|QID|32038|US|M|24.47,68.43|
-T Mushan Mastery: Darkhide |QID|30184|M|16.01,82.49|N|To Hemet Nesingwary|
+T Mushan Mastery: Darkhide|QID|30184|M|16.01,82.49|N|To Hemet Nesingwary|
 T Fox Mastery|QID|30182|M|16.19,82.53|N|To Tani.|
-A Tortoise Mastery |QID|30185|PRE|30182&30184|M|16.07,82.61|N|From Hemet Nesingwary Jr.|
-T Stag Mastery |QID|32038|M|15.90,82.24|N|To Matt "Lucky" Gotcher|
+A Tortoise Mastery|QID|30185|PRE|30182&30184|M|16.07,82.61|N|From Hemet Nesingwary Jr.|
+T Stag Mastery|QID|32038|M|15.90,82.24|N|To Matt "Lucky" Gotcher|
 C Kill Tortoises|QID|30185|M|20.5,74.6|
-T Tortoise Mastery |QID|30185|M|19.91,75.66|N|To Hemet Nesingwary Jr, at the Torjari Pit edge.|
+T Tortoise Mastery|QID|30185|M|19.91,75.66|N|To Hemet Nesingwary Jr, at the Torjari Pit edge.|
 A Parental Mastery|QID|30186|PRE|30185|M|19.91,75.66|N|From Hemet Nesingwary Jr.|
 C Parental Mastery|QID|30186|M|24.59,74.27|N|Follow the Nesingwary's into the underwater cave.|
 T Parental Mastery|QID|30186|M|16.01,82.49|N|To Hemet Nesingwary back at the campsite.|
