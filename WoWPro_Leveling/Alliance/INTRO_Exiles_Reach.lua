@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('CagER0110', "Leveling", "Exile's Reach!Instance", 'Cagomei', 'Alliance')
 WoWPro:GuideLevels(guide,1,10)
-WoWPro:GuideNickname(guide, "Exiles Reach Alliance")
+WoWPro:GuideNickname(guide, "Exile's Reach")
 WoWPro:GuideName(guide,"Exile's Reach")
 WoWPro:GuideNextGuide(guide, 'BurnTedrazilSTrek')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Nightelf_Male","Interface\\Icons\\Achievement_Character_Nightelf_Female"))
@@ -259,12 +259,12 @@ C An Urgent Meeting|QID|58912|Z|Stormwind City|M|85.13,32.14|N|
 T An Urgent Meeting|QID|58912|Z|Stormwind City|M|85.27,32.30|N|Turn into Captain Garrick.|
 ;Possible cutoff
 A Tides of War|QID|58983|Z|Stormwind City|M|85.27,32.30|N|From Captain Garrick|PRE|58912|
-C Tides of War|QID|58983|Z|Stormwind City|M|85.27,32.30|N|
-T Tides of War|QID|58983|Z|Stormwind City|M|85.27,32.30|N|Turn into Anduin Wrynn|
-A The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|85.84,31.66|N|From Anduin Wrynn|PRE|58983|
-C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|85.30,32.01|QO|1|N|
-C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|77.79,39.16|QO|2|N|
-C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|22.78,24.82|QO|3|N|
-T The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|85.27,32.30|N|Turn into Lady Jaina Proudmoore|
+C Tides of War|QID|58983|Z|Stormwind City|M|85.27,32.30|NC|N|Listen to the council while they discuss their plans.|
+T Tides of War|QID|58983|Z|Stormwind City|M|85.91,31.55|N|Turn into Anduin Wrynn.|
+A The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|85.91,31.55|N|From Anduin Wrynn|PRE|58983|
+C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|85.30,32.01|QO|1|CHAT|N|Speak with Captain Garrick.|
+C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|77.79,39.16|QO|2|CHAT|N|Speak with Loretta Banks for a free ride to the Docks.|
+C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|22.78,24.82|QO|3|CHAT|N|Speak with Jaina to set sail.|
+T The Nation of Kul Tiras|QID|59641|Z|Boralus|M|65.59,50.72|N|Turn into Lady Jaina Proudmoore.|
 ]]
 end)

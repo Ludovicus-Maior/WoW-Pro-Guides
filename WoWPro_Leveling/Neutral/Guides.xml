@@ -18,6 +18,7 @@
 	<Script file="LEGION_Argus.lua"/>
 	<Script file="LEGION_Azsuna.lua"/>
 	<Script file="LEGION_Broken_Shore.lua"/>
+	<Script file="LEGION_Guide_Hub.lua"/>
 	<Script file="LEGION_Highmountain.lua"/>
 	<Script file="LEGION_Order_Hall_DH.lua"/>
 	<Script file="LEGION_Order_Hall_DK.lua"/>

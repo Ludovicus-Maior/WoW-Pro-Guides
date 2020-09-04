@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmValsharah', 'Leveling', "Val'sharah", 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
+WoWPro:GuideNickname(guide, "Val'sharah")
+WoWPro:GuideName(guide,"Val'sharah")
+WoWPro:GuideNextGuide(guide, 'Legion: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Starting in Dalaran|QID|39731|U|140192|N|This guide assumes you are starting in Dalaran. |
@@ -387,6 +389,9 @@ A Class Specific Quest|QID|44550^44087^42666^42516^42517^42481^42175^42186^42844
 ;42597 Warrior - Odyn's Summons
 C The Tears of Elune|QID|40890|M|49.36,47.34|Z|Dalaran!Dalaran!Dungeon|NC|N|Central Dalaran teleport used|
 T The Tears of Elune|QID|40890|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Tears of Elune" on the wall.|
+
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+
 A Pressing the Assault|QID|44545|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|40890|
 A Isle Hopping|QID|44547|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213&44545|
 A Scouring What Remains|QID|44548|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213&44547|

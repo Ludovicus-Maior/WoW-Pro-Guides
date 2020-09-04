@@ -1,8 +1,12 @@
 local guide = WoWPro:RegisterGuide('Ludo_Argus', 'Leveling', 'ArgusSurface', 'Ludo', 'Neutral')
 WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideNickname(guide, "Argus")
+WoWPro:GuideName(guide,"Argus")
+WoWPro:GuideNextGuide(guide, 'Legion: Guide Hub')
 WoWPro:GuideQuestTriggers(guide, 47221, 47835)
 WoWPro:GuideSteps(guide, function()
 return [[
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 ; Faction Specific Intro
 A The Hand of Fate|QID|47221|N|Accept from UI pop-up.|FACTION|Alliance|
 P The Hand of Fate|QID|47221|M|39.60,63.23|Z|Dalaran@Dalaran70|QO|1|NC|N|Take a portal to Stormwind.|FACTION|Alliance|

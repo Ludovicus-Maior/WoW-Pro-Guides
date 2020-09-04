@@ -2,8 +2,8 @@ local guide = WoWPro:RegisterGuide('LinksDHArtCH100100', 'Leveling', 'DemonHunte
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideName(guide, 'Demon Hunter: Order Hall')
 WoWPro:GuideNickname(guide, "Demon Hunter: Order Hall")
-
 WoWPro:GuideClassSpecific(guide,"DemonHunter")
+WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
 WoWPro:GuideSteps(guide, function()
 return [[
 C Onward to Adventure: Broken Isles|QID|60971|M|49.36,86.93|Z|Stormwind City|NC|N|You have the option to run to the Wizard Sanctum and take the portal to Azuna but recommend that you use your new Dalaran Hearthstone.|FACTION|Alliance|U|140192|
@@ -86,6 +86,9 @@ T Time is of the Essence|QID|41096^41067|M|58.65,57.95|Z|Upper Command Center!Ma
 A Direct Our Wrath|QID|41099^41069|M|58.65,57.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|41096^41067|
 C Direct Our Wrath|QID|41099^41069|QO|1|N|Select the first questing zone. Val'sharah is highly recommmended|
 T Direct Our Wrath|QID|41099^41069|M|58.65,57.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
+
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+
 ;Next Artifact quest
 A Rise, Champions|QID|42671|PRE|41069&40374|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
 A Rise, Champions|QID|42670|PRE|41099&40375|M|59.30,57.60|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kor'vas Bloodthorn.|
