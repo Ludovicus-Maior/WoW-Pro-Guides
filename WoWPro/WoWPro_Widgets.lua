@@ -129,8 +129,8 @@ function WoWPro:CreateJumpButton(parent, id)
     local jumpbutton = _G.CreateFrame("Button", "WoWPro_jumpbutton"..id, parent, "SecureActionButtonTemplate")
     jumpbutton:SetAttribute("type", "jump")
     jumpbutton:SetFrameStrata("LOW")
-    jumpbutton:SetHeight(32)
-    jumpbutton:SetWidth(32)
+    jumpbutton:SetHeight(24)
+    jumpbutton:SetWidth(24)
     if WoWProDB.profile.leftside then
         jumpbutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 10, -7)
     else
@@ -138,8 +138,8 @@ function WoWPro:CreateJumpButton(parent, id)
     end
 
     local jumpicon = jumpbutton:CreateTexture(nil, "ARTWORK")
-    jumpicon:SetWidth(36)
-    jumpicon:SetHeight(36)
+    jumpicon:SetWidth(24)
+    jumpicon:SetHeight(24)
     jumpicon:SetTexture("Interface\\Icons\\Inv_7xp_inscription_talenttome02")
     jumpicon:SetAllPoints(jumpbutton)
     jumpbutton:RegisterForClicks("anyUp")
