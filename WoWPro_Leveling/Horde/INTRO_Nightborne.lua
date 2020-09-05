@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("LudoNightborne", "Leveling", "Suramar", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideRaceSpecific(guide,"Nightborne")
 WoWPro:GuideNextGuide(guide, "JiySto2530")
 WoWPro:GuideSteps(guide, function()

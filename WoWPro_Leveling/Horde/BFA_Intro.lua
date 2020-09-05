@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('BurnTedrazilEmmaleah', 'Leveling', 'Darkshore', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideContent(guide, "Battle for Azeroth")
 WoWPro:GuideName(guide,'Battle for Azeroth Intro')
 WoWPro:GuideNextGuide(guide, 'EmmHWarCampaign')
 WoWPro:GuideSteps(guide, function()
