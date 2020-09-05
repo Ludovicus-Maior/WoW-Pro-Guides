@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("KulTiran", "Leveling", "Stormwind City", "Elidion", "Alliance")
 WoWPro:GuideLevels(guide,10,10)
+WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideNickname(guide, "Kul Tiran: Intro")
 WoWPro:GuideName(guide,"Kul Tiran: Intro")
 WoWPro:GuideRaceSpecific(guide,"KulTiran")
