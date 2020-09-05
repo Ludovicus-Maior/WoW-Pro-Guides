@@ -1,13 +1,16 @@
 local guide = WoWPro:RegisterGuide('AriUld8384', "Leveling", 'Uldum', 'Hezkezl', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'MagTwi8485|LiaTwi8485')
+WoWPro:GuideLevels(guide,30,50)
+WoWPro:GuideNickname(guide, "Uldum")
+WoWPro:GuideName(guide,"Uldum")
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-R Thistleshrub Valley |QID|27003|N|Welcome to Uldum. To start this guide, you need to head to Thistleshrub Valley which is at the south-western part of Tanaris.\n\nDepending on your current location, either fly to Gunstan's Dig in Tanaris, or use the Cavern of Times portal in Dalaran.  \n\nThere are breadcrumb quests for those who have worked through the quests in Deepholm, or a Hero's Call from any Alliance City.|FACTION|Alliance|M|30.52,65.58|Z|Tanaris|
-R Thistleshrub Valley |QID|27003|N|Welcome to Uldum. To start this guide, you need to head to Thistleshrub Valley which is at the south-western part of Tanaris.\n\nDepending on your current location, either fly to Dawnrise Expedition in the Valley of the Watchers, Tanaris, or use the Cavern of Times portal in Dalaran.  \n\nThere are breadcrumb quests for those who have worked through the quests in Deepholm, or a Warchief's Command from Orgrimmar, Thunder Bluff or Undercity.|FACTION|Horde|M|30.52,65.58|Z|Tanaris|
-T Hero's Call: Uldum! |QID|28558|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
-T Warchief's Command: Uldum! |QID|28557|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
-T Meetup with the Caravan |QID|28295^28296|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
+A Hero's Call: Uldum!|QID|28558|M|63,71.7|Z|Stormwind City|N|From the Hero's Call Board. Select Uldum.\n\nYou might have to accept others before it will display this one.|FACTION|Alliance|
+P Uldum|QID|28558|M|75.25,20.53|Z|Stormwind City|N|Take the Portal to Uldum.|FACTION|Alliance|
+T Hero's Call: Uldum!|QID|28558|M|30.52,65.58|Z|Tanaris|N|Mount up and fly to Tanaris to turn in to Adarrah.|
+
+T Warchief's Command: Uldum!|QID|28557|M|30.52,65.58|Z|Tanaris|N|To Adarrah.|O|
+
 A Easy Money|QID|27003|M|30.52,65.58|Z|Tanaris|N|From Adarrah.|
 C Easy Money|QID|27003|N|Click on the camel, Lady Humps, then sit back and watch the cinematic.|Z|Tanaris|NC|
 T Easy Money|QID|27003|M|59.70,71.82|N|To Adarrah.|

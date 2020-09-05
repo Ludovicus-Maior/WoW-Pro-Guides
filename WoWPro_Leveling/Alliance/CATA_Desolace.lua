@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('WkjDes3035', "Leveling", 'Desolace', 'Wkjezz', 'Alliance')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'WkjFer3540')
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 R Farwatcher's Glen|QID|25938^28531|N|This zone's quests start from Hierophant Malyk in Farwatcher's Glen, Stonetalon Mountains. It is a Direct continuation from the Stonetalon Mountains guide, or use the Hero's Call: Desolace! quest and take that that to Officer Jankie.|Z|Stonetalon Mountains|

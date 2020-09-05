@@ -7,6 +7,76 @@
 local Leveling = WoWPro.Leveling
 Leveling.GuideList = {}
 
+local defaultXpac = _G.LE_EXPANSION_CLASSIC
+local introZones = {
+    [1409] = true, -- Exile's Reach - New Players
+    [378] = true, -- The Wandering Isle - Pandaren
+
+    [427] = true, -- Coldridge Valley - Dwarf
+    [468] = true, -- Ammen Vale - Draenai
+    [460] = true, -- Shadowglen - Night Elf
+    [425] = true, -- Northshire - Human
+    [179] = true, -- Gilneas - Worgen
+    [469] = true, -- New Tinkertown - Gnome
+
+    [194] = true, -- Kezan - Goblin
+    [461] = true, -- Valley of Trials - Orc
+    [462] = true, -- Camp Narache - Tauren
+    [463] = true, -- Echo Isles - Troll
+    [465] = true, -- Deathknell - Undead
+    [467] = true, -- Sunstrider Isle - Blood Elf
+}
+local oddZones = {
+    [1355] = _G.LE_EXPANSION_BATTLE_FOR_AZEROTH -- Nazjatar
+}
+local continentToXpac = {
+    [12] = _G.LE_EXPANSION_CATACLYSM, -- Kalimdor
+    [13] = _G.LE_EXPANSION_CATACLYSM, -- Eastern Kingdoms
+    [948] = _G.LE_EXPANSION_CATACLYSM, -- The Maelstrom
+    [101] = _G.LE_EXPANSION_BURNING_CRUSADE, -- Outland
+    [113] = _G.LE_EXPANSION_WRATH_OF_THE_LICH_KING, -- Northrend
+    [424] = _G.LE_EXPANSION_MISTS_OF_PANDARIA, -- Pandaria
+    [572] = _G.LE_EXPANSION_WARLORDS_OF_DRAENOR, -- Draenor
+    [619] = _G.LE_EXPANSION_LEGION, -- Broken Shore
+    [905] = _G.LE_EXPANSION_LEGION, -- Argus
+    [875] = _G.LE_EXPANSION_BATTLE_FOR_AZEROTH, -- Zuldazar
+    [876] = _G.LE_EXPANSION_BATTLE_FOR_AZEROTH, -- Kul Tiras
+    [1550] = _G.LE_EXPANSION_SHADOWLANDS, -- The Shadowlands
+}
+
+-- /dump C_Map.GetMapInfo(1355)
+local function GetGuideContent(guide, mapID)
+    if not mapID then
+        Leveling:dbp("Invalid data for zone %s", guide.zone)
+        return defaultXpac
+    end
+
+    if introZones[mapID] or guide.isIntro then
+        return defaultXpac, "Intro"
+    end
+
+    if oddZones[mapID] then
+        return oddZones[mapID], _G["EXPANSION_NAME"..oddZones[mapID]]
+    end
+
+    if guide.expansion then
+        return guide.expansion, _G["EXPANSION_NAME"..guide.expansion]
+    else
+        local continent = _G.MapUtil.GetMapParentInfo(mapID, _G.Enum.UIMapType.Continent)
+        if continent then
+            if continentToXpac[continent.mapID] then
+                local xpac = continentToXpac[continent.mapID]
+                return xpac, _G["EXPANSION_NAME"..xpac]
+            else
+                Leveling:dbp("Xpac missing for continent %s (%d) from zone %s (%d)", continent.name, continent.mapID, guide.zone, mapID)
+                return defaultXpac, _G["EXPANSION_NAME"..defaultXpac]
+            end
+        end
+    end
+
+    Leveling:dbp("Can't resolve continent from zone %s (%d)", guide.zone, mapID)
+    return defaultXpac, _G["EXPANSION_NAME"..defaultXpac]
+end
 
 local rangeFormat = "%d - %d"
 local function GetGuides()
@@ -14,16 +84,25 @@ local function GetGuides()
     for guideID, guide in pairs(WoWPro.Guides) do
         if guide.guidetype == "Leveling" then
             WoWPro:ResolveIcon(guide)
-            tinsert(guides, {
+            local guideInfo = {
                 GID = guideID,
                 guide = guide,
                 Zone = WoWPro:GetGuideName(guideID),
                 Author = guide.author,
-                Range = rangeFormat:format(guide.startlevel, guide.endlevel),
                 level = guide.level
-            })
+            }
 
-            guides[#guides].progress, guides[#guides].Progress = WoWPro:GetGuideProgress(guideID)
+            if WoWPro.CLASSIC then
+                guideInfo.Content = rangeFormat:format(guide.startlevel, guide.endlevel)
+            else
+                local _, mapID = WoWPro:ValidZone(guide.zone)
+                guideInfo.xpac, guideInfo.Content = GetGuideContent(guide, mapID)
+                --print("xpac info", mapID, guideInfo.xpac, guideInfo.continent)
+            end
+            guideInfo.progress, guideInfo.Progress = WoWPro:GetGuideProgress(guideID)
+
+
+            tinsert(guides, guideInfo)
         end
     end
 
@@ -36,7 +115,7 @@ local function zoneSort(a, b)
 
     return a.Zone < b.Zone
 end
-local function rangeSort(a, b)
+local function levelSort(a, b)
     if a.level == b.level then
         if a.guide.startlevel ~= b.guide.startlevel then
             return a.guide.startlevel < b.guide.startlevel
@@ -48,6 +127,17 @@ local function rangeSort(a, b)
     end
 
     return a.level < b.level
+end
+local function contentSort(a, b)
+    if WoWPro.CLASSIC then
+        return levelSort(a, b)
+    else
+        if a.xpac == b.xpac then
+            return levelSort(a, b)
+        end
+
+        return a.xpac < b.xpac
+    end
 end
 local function authorSort(a, b)
     if a.Author == b.Author then return end
@@ -100,9 +190,9 @@ function Leveling:GetGuideListInfo()
         listInfo = {
             guides = GetGuides(),
             headerInfo = {
-                sorts = {zoneSort, rangeSort, authorSort, progressSort},
-                names = {"Zone", "Range", "Author", "Progress"},
-                size = {0.35, 0.15, 0.30, 0.20},
+                sorts = {zoneSort, contentSort, authorSort, progressSort},
+                names = {"Zone", "Content", "Author", "Progress"},
+                size = {0.35, 0.25, 0.30, 0.10},
             },
         }
     end

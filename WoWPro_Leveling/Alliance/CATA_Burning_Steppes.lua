@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('CraBur5052', "Leveling", 'Burning Steppes', 'Crackerhead22', 'Alliance')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'CraSwa5254')
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 H Iron Summit|QID|28514|N|Hearth back to Iron Summit, or fly if your hearth is on cooldown.|

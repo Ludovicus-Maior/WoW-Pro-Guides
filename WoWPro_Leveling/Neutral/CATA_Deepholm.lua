@@ -1,19 +1,20 @@
 local guide = WoWPro:RegisterGuide('AriDee8283', "Leveling", 'Deepholm', 'Arixan', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'AriUld8384|AriUld8384')
+WoWPro:GuideLevels(guide,30,50)
+WoWPro:GuideNickname(guide, "Deepholm")
+WoWPro:GuideName(guide,"Deepholm")
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N The Battle Is Won, The War Goes On|QID|27398|Z|Stormwind City|N|If you don't have this quest, check it off and continue to the next.|FACTION|Alliance|
-A Hero's Call: Deepholm!|QID|27727|LEAD|27203|M|63,71.7|Z|Stormwind City|N|If you don't have the first quest.|FACTION|Alliance|
-T The Battle Is Won, The War Goes On|QID|27398|M|74.5,19.3|Z|Stormwind City|N|If you have it. To Naraat the Earthspeaker.|FACTION|Alliance|
-T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|Stormwind City|N|If you have it. To Naraat the Earthspeaker.|O|FACTION|Alliance|
+A Hero's Call: Deepholm!|QID|27727|LEAD|27203|M|63,71.7|Z|Stormwind City|N|From the Hero's Call Board. Select Deepholm.\n\nYou might have to accept others before it will display this one.|FACTION|Alliance|
+T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|Stormwind City|N|If you have it. To Naraat the Earthspeaker.|FACTION|Alliance|
+P Deepholm|QID|26245|M|73.20,19.62|Z|Stormwind City|N|Take the Portal to Deepholm.|FACTION|Alliance|
 A Warchief's Command: Deepholm!|QID|27722|LEAD|27203|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|FACTION|Horde|
 T Warchief's Command: Deepholm!|QID|27722|M|50.30,38.24|Z|Orgrimmar|N|To Farseer Krogar.|FACTION|Horde|
-A The Maelstrom|QID|27203|Z|The Maelstrom|M|74.5,19.3|N|From Naraat the Earthspeaker.|
-T The Maelstrom|QID|27203|M|33.2,50.2|Z|The Maelstrom|N|Click on the portal that appears. Then turn the quest into Thrall.|
-A Deepholm, Realm of Earth|QID|27123|LEAD|26245|Z|The Maelstrom|PRE|27203|M|33.2,50.2|N|From Thrall.|
-C Deepholm, Realm of Earth|QID|27123|Z|The Maelstrom|M|33.2,50.2|N|Hop on the Wyvern behind you.|
-T Deepholm, Realm of Earth|QID|27123|Z|Deepholm|M|49.6,53|N|To Maruut Stonebinder.|
+;A The Maelstrom|QID|27203|Z|The Maelstrom|M|74.5,19.3|N|From Naraat the Earthspeaker.|
+;T The Maelstrom|QID|27203|M|33.2,50.2|Z|The Maelstrom|N|Click on the portal that appears. Then turn the quest into Thrall.|
+;A Deepholm, Realm of Earth|QID|27123|LEAD|26245|Z|The Maelstrom|PRE|27203|M|33.2,50.2|N|From Thrall.|
+;C Deepholm, Realm of Earth|QID|27123|Z|The Maelstrom|M|33.2,50.2|N|Hop on the Wyvern behind you.|
+;T Deepholm, Realm of Earth|QID|27123|Z|Deepholm|M|49.6,53|N|To Maruut Stonebinder.|
 A Gunship Down|QID|26245|M|49.6,53|N|From Maruut Stonebinder.|
 A Elemental Energy|QID|27136|M|49.7,53|N|From Seer Kormo.|
 A The Earth Claims All|QID|26244|M|49.7,53|N|From Seer Kormo.|

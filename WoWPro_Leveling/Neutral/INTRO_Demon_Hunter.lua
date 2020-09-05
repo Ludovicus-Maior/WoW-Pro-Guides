@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('LinksMardum098099', 'Leveling', 'MardumtheShatteredAbyss', 'Linkslegend5', 'Neutral')
 WoWPro:GuideLevels(guide,8,20)
+WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideNextGuide(guide, 'LinksVault099100')
 WoWPro:GuideName(guide, "Demon Hunter: Intro")
 WoWPro:GuideClassSpecific(guide,"DemonHunter")

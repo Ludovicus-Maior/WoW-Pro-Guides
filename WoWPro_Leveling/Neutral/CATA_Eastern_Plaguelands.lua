@@ -1,7 +1,6 @@
 local guide = WoWPro:RegisterGuide('CraEas4045', "Leveling", 'Eastern Plaguelands', 'Crackerhead22', 'Neutral')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'CraBad4548|LiaBad4548')
-WoWPro:GuideName(guide,"Eastern Plaguelands")
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Option 1 - Already got the Hero's Call/Warchief's Command in log

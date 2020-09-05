@@ -2155,43 +2155,38 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             if WoWPro.fly and WoWPro.fly[guideIndex] then
-                if WoWProCharDB.EnableFlight or stepAction == "R" then
+                if WoWProCharDB.EnableFlight or stepAction == "R" or stepAction == "N" then
                     local expansion = WoWPro.fly[guideIndex]
                     local spellName
                     local spellKnown
+					local canFly
                     local flyFlip = false
                     if (expansion:sub(1, 1) == "-") then
                         expansion = expansion:sub(2)
                         flyFlip = true
                     end
-                    if expansion == "BFA" then
+					local eSkill = _G.GetSpellInfo(34090)
+                    local mSkill = _G.GetSpellInfo(90265)
+					if _G.GetSpellInfo(eSkill) then
+                        canFly = true
+						spellName = eSkill
+                    elseif _G.GetSpellInfo(mSkill) then
+                        canFly = true
+						spellName = mSkill
+                    end
+					
+                    if expansion == "BFA" and canFly then
                         spellName = _G.GetSpellInfo(278833)
-                        local _, _, _, _, _, _, spellID = _G.GetSpellInfo(spellName)
-                        if (spellID == "278833") then
-                            spellKnown = true
-                        else
-                            spellKnown = false
-                        end
-                    elseif expansion == "LEGION" then
+						spellKnown = _G.GetSpellInfo(spellName)
+                    elseif expansion == "LEGION" and canFly then
                         spellName = _G.GetSpellInfo(233368)
                         spellKnown = _G.GetSpellInfo(spellName)
-                    elseif expansion == "WOD" then
-                        spellName = _G.GetSpellInfo(233368)
-                        spellKnown = _G.GetSpellInfo(spellName)
-                    elseif expansion == "OLD" then
-                        local eSkill = _G.GetSpellInfo(34090)
-                        local aSkill = _G.GetSpellInfo(34091)
-                        local mSkill = _G.GetSpellInfo(90265)
-                        if _G.GetSpellInfo(eSkill) then
-                            spellKnown = true
-                            spellName = eSkill
-                        elseif _G.GetSpellInfo(aSkill) then
-                            spellKnown = true
-                            spellName = aSkill
-                        elseif _G.GetSpellInfo(mSkill) then
-                            spellKnown = true
-                            spellName = mSkill
-                        end
+                    elseif expansion == "WOD" and canFly then
+						 local _, Name, _, Completed = _G.GetAchievementInfo(10018)
+                        spellName = Name
+                        spellKnown = Completed
+                    elseif expansion == "OLD" and canFly then
+                        spellKnown = true
                     end
                     if flyFlip then spellKnown = not spellKnown end
                     WoWPro:dbp("Checking fly step %s [%s] for %s: Nomen %s, Known %s",stepAction,step,WoWPro.fly[guideIndex],tostring(spellName),tostring(spellKnown))

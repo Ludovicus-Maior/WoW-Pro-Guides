@@ -686,6 +686,25 @@ function WoWPro:GuideNickname(guide, nickname)
     guide['nickname'] = nickname
 end
 
+local nameToID = {
+    ["Classic"] = _G.LE_EXPANSION_CLASSIC,
+    ["The Burning Crusade"] = _G.LE_EXPANSION_BURNING_CRUSADE,
+    ["Wrath of the Lich King"] = _G.LE_EXPANSION_WRATH_OF_THE_LICH_KING,
+    ["Cataclysm"] = _G.LE_EXPANSION_CATACLYSM,
+    ["Mists of Pandaria"] = _G.LE_EXPANSION_MISTS_OF_PANDARIA,
+    ["Warlords of Draenor"] = _G.LE_EXPANSION_WARLORDS_OF_DRAENOR,
+    ["Legion"] = _G.LE_EXPANSION_LEGION,
+    ["Battle for Azeroth"] = _G.LE_EXPANSION_BATTLE_FOR_AZEROTH,
+    ["Shadowlands"] = _G.LE_EXPANSION_SHADOWLANDS,
+}
+function WoWPro:GuideContent(guide, content)
+    if content == "Intro" then
+        guide.isIntro = true
+    else
+        guide.expansion = nameToID[content] or content
+    end
+end
+
 function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
     local playerLevel = WoWPro:PlayerLevel()
     -- Supply dynamic levels if not all the parameters are suppplied.

@@ -1,17 +1,13 @@
 local guide = WoWPro:RegisterGuide('AriVasA8082', "Leveling", "Vashj'ir", 'Arixan', 'Alliance')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'AriDee8283')
+WoWPro:GuideLevels(guide,30,50)
+WoWPro:GuideNickname(guide, "Vashj'ir")
+WoWPro:GuideName(guide,"Vashj'ir")
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 R Stormwind City|QID|28825|M|74.5,19.2|Z|Stormwind City|N|Head to Stormwind City by any means possible.|
-T A Personal Summons|QID|28825|M|74.5,19.2|Z|Stormwind City|N|This quest was auto-accepted for you when you entered Stormwind. Head to Naraat the Earthspeaker who's on an island to the north-east of the city.|
-A The Eye of the Storm|QID|28826|M|74.5,19.2|Z|Stormwind City|N|From Naraat the Earthspeaker.|
-C The Eye of the Storm|QID|28826|NC|M|74.4,19.6|Z|Stormwind City|N|Right click the water bowl behind you, then watch the cinematic!|
-T The Eye of the Storm|QID|28826|M|74.5,19.2|Z|Stormwind City|N|To Naraat the Earthspeaker.|
-A To the Depths|QID|28827|LEAD|14482|PRE|28826|M|74.5,19.2|Z|Stormwind City|N|From Naraat the Earthspeaker. Not available if you have in your log Into The Abyss or Hero's Call: Vashj'ir!|
-T Hero's Call: Vashj'ir!|QID|27724|M|27.4,24.3|Z|Stormwind City|N|To Recruiter Burns.|O|
-T Into The Abyss|QID|14481|M|27.4,24.3|Z|Stormwind City|N|To Recruiter Burns.|O|
-T To the Depths|QID|28827|PRE|14481&27724|M|27.4,24.3|Z|Stormwind City|N|To Recruiter Burns.|
+A Hero's Call: Vashj'ir!|QID|27724|M|62.9,71.7|Z|Stormwind City|N|From the Hero's Call Board. Select Mount Hyjal Vashj'ir.|
+T Hero's Call: Vashj'ir!|QID|27724|M|27.4,24.3|Z|Stormwind City|N|To Recruiter Burns.|
 A Call of Duty|QID|14482|M|27.39,24.16|Z|Stormwind City|N|From Recruiter Burns.|
 C Call of Duty|QID|14482|M|18.5,25.5|Z|Stormwind City|NC|N|Head to the end of the northern-most dock and board the ship. It will take 5 minutes for the ship to arrive, during which a small event will happen on the docks with soldiers talking about recent events. Once you board the ship, just sit back and watch the on-ship entertainment courtesy of Budd and Captain Taylor.|
 R The Briny Cutter|QID|14482|M|45.2,23.4|Z|Kelp'thar Forest|N|Just a little longer while the ship is attacked and you lose consiousness in the water. Patiently wait until you wake up in The Briny Cutter.|

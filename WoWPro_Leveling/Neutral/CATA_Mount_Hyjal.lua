@@ -1,18 +1,14 @@
 local guide = WoWPro:RegisterGuide('Arihyj8082', "Leveling", 'Mount Hyjal', 'Arixan', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'AriDee8283|AriDee8283')
+WoWPro:GuideLevels(guide,30,50)
+WoWPro:GuideNickname(guide, "Mount Hyjal")
+WoWPro:GuideName(guide,"Mount Hyjal")
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-F Flying Mount|QID|28825|BUFF|90267|Z|Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|FACTION|Alliance|
-F Flying Mount|QID|27721|BUFF|90267|Z|Orgrimmar|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|FACTION|Horde|
-A A Personal Summons|QID|28825|LEAD|28826|M|71.44,72.32|Z|Stormwind City|N|Should pop up automatically when you enter Stormwind and are level 80.|FACTION|Alliance|
-h Trade District|QID|28825|M|60.36,75.20|Z|Stormwind City|N|At Innkeeper Allison.|FACTION|Alliance|
-A Hero's Call: Mount Hyjal!|QID|27726|M|62.9,71.7|Z|Stormwind City|N|From the Hero's Call Board.|FACTION|Alliance|
-T A Personal Summons|QID|28825|M|74.58,18.94|Z|Stormwind City|N|To Naraat the Earthspeaker.|FACTION|Alliance|
-A The Eye of the Storm|QID|28826|M|74.58,18.94|Z|Stormwind City|N|From Naraat the Earthspeaker.|FACTION|Alliance|
-C The Eye of the Storm|QID|28826|M|74.43,19.25|Z|Stormwind City|N|Right click the water bowl behind you. Enjoy your first Cataclysm cinematic!|FACTION|Alliance|
-T The Eye of the Storm|QID|28826|M|74.56,19.18|Z|Stormwind City|N|To Naraat the Earthspeaker.|FACTION|Alliance|
-C Hero's Call: Mount Hyjal!|QID|27726|NC|M|82.7,28.36|Z|Stormwind City|N|Talk to Cenarion Emissary Jademoon to get to Moonglade.|FACTION|Alliance|
+N Flying Mount|QID|28825|FLY|OLD|Z|Stormwind City|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Stormwind.|FACTION|Alliance|
+N Flying Mount|QID|27721|FLY|OLD|Z|Orgrimmar|N|There are places in this guide you will need a flying mount so be sure you have trained flying before you leave Orgrimmar.|FACTION|Horde|
+A Hero's Call: Mount Hyjal!|QID|27726|M|62.9,71.7|Z|Stormwind City|N|From the Hero's Call Board. Select Mount Hyjal.|FACTION|Alliance|
+C Hero's Call: Mount Hyjal!|QID|27726|NC|M|82.69,29.60|Z|Stormwind City|CHAT|N|Talk to Cenarion Emissary Jademoon to get to Moonglade.|FACTION|Alliance|
 T Hero's Call: Mount Hyjal!|QID|27726|M|45.3,44.8|Z|Moonglade|N|To Emissary Windsong.|FACTION|Alliance|
 A Warchief's Command: Mount Hyjal!|QID|27721|M|49.7,76.7|Z|Orgrimmar|N|Get the quest from the Warchief's Command Board from Orgrimmar.|FACTION|Horde|
 C Warchief's Command: Mount Hyjal!|QID|27721|M|40.0,50.5|CHAT|Z|Orgrimmar|N|Speak to Cenarion Emissary Blackhoof in the Valley of Wisdom and ask "Could you please send me to Moonglade Emissary?".|FACTION|Horde|

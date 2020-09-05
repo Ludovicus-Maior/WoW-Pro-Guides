@@ -26,6 +26,7 @@
 	<Script file="CATA_Dustwallow_Marsh.lua"/>
 	<Script file="CATA_Felwood.lua"/>
 	<Script file="CATA_Feralas.lua"/>
+	<Script file="CATA_Guide_Hub.lua"/>
 	<Script file="CATA_Hinterlands.lua"/>
 	<Script file="CATA_Loch_Modan.lua"/>
 	<Script file="CATA_Northern_Stranglethorn.lua"/>

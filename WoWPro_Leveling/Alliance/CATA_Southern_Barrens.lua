@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('WkjSotBar3035', "Leveling", 'Southern Barrens', 'WKJezz', 'Alliance')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'WkjDus3540')
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 R Stonetalon Pass|QID|24862|N|Welcome to the Southern Barrens guide. This guide starts off where Stonetalon Mountains leaves off with the lead-up quest All's Clear. Alternatively, take the Hero's Call: Southern Barrens quest from Darnassus or Exodar. For both, head to Commander Walpole at Stonetalon Pass, and hand in the respective quest.|M|29.89,8.97|

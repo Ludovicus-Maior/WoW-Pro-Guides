@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('LudoAlliedDK', 'Leveling', 'Icecrown Citadel!Dungeon1602', 'Ludovicus', 'Neutral')
 WoWPro:GuideLevels(guide,10,10)
+WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideName(guide,"Death Knight: Allied Races")
 WoWPro:GuideNextGuide(guide, "ChromieTime|JiyBla5560")
 WoWPro:GuideClassSpecific(guide,"DeathKnight")
