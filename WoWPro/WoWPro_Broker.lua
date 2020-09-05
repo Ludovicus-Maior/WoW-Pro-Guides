@@ -2174,7 +2174,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         canFly = true
 						spellName = mSkill
                     end
-					
+
                     if expansion == "BFA" and canFly then
                         spellName = _G.GetSpellInfo(278833)
 						spellKnown = _G.GetSpellInfo(spellName)
@@ -3391,4 +3391,3 @@ function WoWPro:CarboniteProfileHack()
         end
     end
 end
-
