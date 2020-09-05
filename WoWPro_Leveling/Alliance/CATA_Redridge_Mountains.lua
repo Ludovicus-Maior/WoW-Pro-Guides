@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide("KurRed1520", "Leveling", "Redridge Mountains", "Kurich", "Alliance")
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, "TwiDus2025")
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 R Redridge Mountains|QID|26503|M|96.68,72.33|Z|Elwynn Forest|N|Head to Redridge Mountains, to the east of Elwynn Forest.  You can fly to Eastvale Logging Camp, then run east along the road.\n\nThe two breadcrumb quests to this zone are [Threat to the Kingdom] from Marshal Gryan Stoutmantle in Sentinel Hill for those who quested in Westfall, and [Hero's Call: Redridge Mountains!] available from both Hero's Callboards in Stormwind City, as well as from King Anduin Wrynn. |

@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('JiyWin5055', "Leveling", 'Winterspring', 'Jiyambi', 'Neutral')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'CraBla5458|JiyBla5560')
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 R Winterspring|QID|28521|M|21.04,46.22|N|Head through the Timbermaw tunnels to Winterspring.|

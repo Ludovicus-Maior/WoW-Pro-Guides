@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,10)
+WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideNickname(guide, "Gnome: Intro")
 WoWPro:GuideName(guide,"Gnome: Intro")
 WoWPro:GuideNextGuide(guide, 'Dwarf & Gnome: Intro (Part 2)')

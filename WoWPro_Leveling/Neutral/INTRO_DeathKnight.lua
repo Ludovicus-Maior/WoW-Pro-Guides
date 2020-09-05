@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("JamScar5558", "Leveling", "ScarletEnclave", "Jame", "Neutral")
 WoWPro:GuideLevels(guide,8,18)
+WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideName(guide,"Death Knight: Original Intro")
 WoWPro:GuideNextGuide(guide, "ChromieTime|JiyBla5560")
 WoWPro:GuideClassSpecific(guide,"DeathKnight")

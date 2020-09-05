@@ -1,10 +1,10 @@
 local guide = WoWPro:RegisterGuide('WkjWet2025', "Leveling", 'Wetlands', 'Wkjezz', 'Alliance')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'BitAra2025')
+WoWPro:GuideNickname(guide, "Wetlands")
+WoWPro:GuideName(guide,"Wetlands")
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-R Algaz Station|QID|26137|M|25.45,17.97|Z|Loch Modan|N|Start by heading to Algaz Station, located to the north-west of Loch Modan.\n\nIf you don't want the zone feeder quests, please change your Rank level.\nRank 2: Loch Modan and Dun Algaz\nRank 1: Wetlands Only|LEAD|27116|
-N Drop the Hero's Call: Wetlands! quest|QID|28565|Z|Loch Modan|N|Your Quest log includes Hero's Call: Wetlands! quest, but you have not completed the quest Checking on the Boys. The Hero's call earns you just 155 experience and 10 reputation with Ironforge. Checking with the boys offers you 780 experience, 75 reputation with Ironforge and 6 silver - for exactly the same quest.|LEAD|28565|RANK|2|ACTIVE|28565|
 A Checking on the Boys|QID|26137|M|25.45,17.97|Z|Loch Modan|N|From Mountaineer Stormpike.|LEAD|25395|
 T Checking on the Boys|QID|26137|M|49.96,79.24|N|To Mountaineer Rharen.|
 T Hero's Call: Wetlands!|QID|28565|M|49.96,79.24|N|To Mountaineer Rharen.|O|

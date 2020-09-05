@@ -1,7 +1,6 @@
 local guide = WoWPro:RegisterGuide('JiyUng5055', "Leveling", "Un'Goro Crater", 'Jiyambi', 'Neutral')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideName(guide,"Un'Goro Crater")
-WoWPro:GuideNextGuide(guide, 'JiySil5560|JiySil5560')
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Devilsaurs|QID|24720|N|Huge, elite, hostile dinosaurs patrol this zone, so always be aware of your surroundings! That said, this is one of prettiest and most fun zones, so don't be discouraged!|

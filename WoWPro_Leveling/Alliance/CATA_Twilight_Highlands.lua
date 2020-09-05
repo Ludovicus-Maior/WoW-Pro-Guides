@@ -1,11 +1,13 @@
 local guide = WoWPro:RegisterGuide('MagTwi8485', "Leveling", 'Twilight Highlands', 'Melliandra', 'Alliance')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideLevels(guide,30,50)
+WoWPro:GuideNickname(guide, "Twilight Highlands")
+WoWPro:GuideName(guide,"Twilight Highlands")
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-R Stormwind City |QID|28716|N|The questing will begin in Stormwind City.|
-A Hero's Call: Twilight Highlands!|QID|28716|LEAD|28238|M|62.90,71.78|N|From the Message boards at either end of town.|Z|Stormwind City|
+A Hero's Call: Twilight Highlands!|QID|28716|LEAD|28238|M|62.28,29.80|Z|Stormwind City|N|From the Hero's Call Board. Select Twilight Highlands.\n\nYou might have to accept others before it will display this one.|
 T Hero's Call: Twilight Highlands!|QID|28716|M|85.62,31.93|N|To King Anduin Wrynn.|Z|Stormwind City|
+;P Twilight Highlands|QID|28238|M|75.36,16.42|Z|Stormwind City|N|Take the Portal to Twilight Highlands.|
 A Twilight Shores|QID|28238|M|85.66,32.00|N|From King Anduin Wrynn.|Z|Stormwind City|
 T Twilight Shores|QID|28238|M|26.19,47.29|N|To Fargo Flintlocke in Stormwind Harbour.|Z|Stormwind City|
 A Twilight Shores|QID|28832|PRE|28238|M|26.19,47.29|N|From Fargo Flintlocke. Then hop in his boat.|Z|Stormwind City|

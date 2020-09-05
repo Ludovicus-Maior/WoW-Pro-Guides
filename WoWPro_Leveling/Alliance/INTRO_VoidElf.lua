@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide("LudoTelogrus", "Leveling", "Telogrus Rift!Instance971", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,10,10)
+WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideNickname(guide, "Void Elf: Intro")
 WoWPro:GuideName(guide,"Void Elf: Intro")
