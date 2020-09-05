@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('AriVasH8082', "Leveling", "Vash'jir", 'Arixan', 'Horde')
+local guide = WoWPro:RegisterGuide('AriVasH8082', "Leveling", "Vashj'ir", 'Arixan', 'Horde')
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'AriDee8283')
 WoWPro:GuideSteps(guide, function()
