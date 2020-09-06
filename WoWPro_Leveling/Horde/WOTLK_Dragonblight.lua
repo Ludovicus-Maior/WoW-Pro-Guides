@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide("JamDra7375", "Leveling", "Dragonblight", "Jame", "Horde")
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, "JamGriH7577")
+WoWPro:GuideNickname(guide, "Dragonblight")
+WoWPro:GuideName(guide,"Dragonblight")
+WoWPro:GuideNextGuide(guide, "Grizzly Hills")
 WoWPro:GuideSteps(guide, function()
 return [[
 A Into the Fold |QID|11978|PRE|11977^11979|M|12.8,48.5|N|From Emissary Brighthoof.|

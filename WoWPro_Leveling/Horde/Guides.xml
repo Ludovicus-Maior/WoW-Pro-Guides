@@ -6,6 +6,7 @@
 	<Script file="BC_Terokkar_Forest.lua"/>
 	<Script file="BC_Zangarmarsh.lua"/>
 	<Script file="BFA_Endgame_Story.lua"/>
+	<Script file="BFA_Guide_Hub.lua"/>
 	<Script file="BFA_Intro.lua"/>
 	<Script file="BFA_Nazjatar.lua"/>
 	<Script file="BFA_Nazmir.lua"/>
@@ -24,6 +25,7 @@
 	<Script file="CATA_Felwood.lua"/>
 	<Script file="CATA_Feralas.lua"/>
 	<Script file="CATA_Ghostlands.lua"/>
+	<Script file="CATA_Guide_Hub.lua"/>
 	<Script file="CATA_Hillsbrad_Foothills.lua"/>
 	<Script file="CATA_Hinterlands.lua"/>
 	<Script file="CATA_Northern_Barrens.lua"/>
@@ -38,14 +40,19 @@
 	<Script file="CATA_Vashjir.lua"/>
 	<Script file="CATA_Western_Plaguelands.lua"/>
 	<Script file="INTRO_Blood_Elf.lua"/>
+	<Script file="INTRO_Chromie_Time.lua"/>
 	<Script file="INTRO_Exiles_Reach.lua"/>
 	<Script file="INTRO_Forsaken.lua"/>
 	<Script file="INTRO_Goblin.lua"/>
 	<Script file="INTRO_Highmountain_Tauren.lua"/>
 	<Script file="INTRO_Nightborne.lua"/>
+	<Script file="INTRO_Maghar_Orc.lua"/>
+	<Script file="05_12_Bitsem_Durotar.lua"/>
 	<Script file="INTRO_Orc.lua"/>
 	<Script file="INTRO_Tauren.lua"/>
 	<Script file="INTRO_Troll.lua"/>
+	<Script file="INTRO_Vulpera.lua"/>
+	<Script file="INTRO_Zandalari_Troll.lua"/>
 	<Script file="LEGION_Legion_Intro.lua"/>
 	<Script file="LEGION_Stormheim.lua"/>
 	<Script file="MOP_JadeForest.lua"/>
@@ -59,6 +66,7 @@
 	<Script file="WOTLK_Grizzly_Hills.lua"/>
 	<Script file="WOTLK_Howling_Fjord.lua"/>
 	<Script file="WOTLK_Icecrown.lua"/>
+	<Script file="WOTLK_Intro.lua"/>
 	<Script file="WOTLK_The_Storm_Peaks.lua"/>
 </Ui>
 

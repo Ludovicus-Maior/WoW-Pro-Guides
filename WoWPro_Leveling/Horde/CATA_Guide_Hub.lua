@@ -1,12 +1,12 @@
-local guide = WoWPro:RegisterGuide('CataclysmGuideHub', 'Leveling', "Stormwind City", 'Elidion', 'Alliance')
+local guide = WoWPro:RegisterGuide('CataclysmGuideHubH', 'Leveling', "Orgrimmar", "Elidion", "Horde")
 WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNickname(guide, "Cataclysm: Guide Hub")
 WoWPro:GuideName(guide,"Cataclysm: Guide Hub")
 WoWPro:GuideSteps(guide, function()
 return [[
-A Onward to Adventure: Eastern Kingdoms|QID|60891|M|56.26,17.31|N|From Chromie after activating The Cataclysm timeline.|
-C Onward to Adventure: Eastern Kingdoms|QID|60891|M|62.25,29.93|N|Make your way to the nearest Hero's Call Board.|
-T Onward to Adventure: Eastern Kingdoms|QID|60891|M|62.65,30.91|N|To Chromie right by you.|
+A Onward to Adventure: Kalimdor|QID|60887|M|40.82,80.15|N|From Chromie after activating Cataclysm timeline.|
+C Onward to Adventure: Kalimdor|QID|60887|M|49.66,76.46|N|Make your way to the nearest Warchief's Command Board.|
+T Onward to Adventure: Kalimdor|QID|60887|M|49.03,76.49|N|To Chromie right by you.|
 
 N Mount Hyjal|QID|99999|M|PLAYER|JUMP|Mount Hyjal|S|N|Jump to the Mount Hyjal guide.|LVL|30|FLY|-OLD|
 N Vashj'ir|QID|99999|M|PLAYER|JUMP|Vashj'ir|S|N|Jump to the Vashj'ir guide.|LVL|30|FLY|-OLD|

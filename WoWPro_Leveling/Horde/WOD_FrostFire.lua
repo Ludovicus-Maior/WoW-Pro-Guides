@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmFrostfire', 'Leveling', 'Frostfire Ridge', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'EmmGorgrond')
+WoWPro:GuideNickname(guide, "Frostfire Ridge")
+WoWPro:GuideName(guide,"Frostfire Ridge")
+WoWPro:GuideNextGuide(guide, 'Gorgrond')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;i know you will still be 90 when you start this guide, but if i register it as 91, then it will sort after the Tanaan Jungle Intro guide

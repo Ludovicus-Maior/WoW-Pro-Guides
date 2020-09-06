@@ -1,7 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmVoldun', 'Leveling', "Vol'dun", 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'EmmHWarCampaign')
-WoWPro:GuideAutoSwitch(guide)
+WoWPro:GuideName(guide,"Vol'dun")
+WoWPro:GuideNickname(guide, "Vol'dun")
+WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N The Great Sea Scrolls|QID|53476|NA|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest on Kul Tiras and Zandalar. It might not drop from the first chest...but eventually it will. Reward is a spec appropriate helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|

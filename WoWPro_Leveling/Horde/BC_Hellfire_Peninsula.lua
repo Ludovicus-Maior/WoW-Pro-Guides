@@ -1,14 +1,15 @@
 local guide = WoWPro:RegisterGuide("JamHel6063", "Leveling", "Hellfire Peninsula", "Jame", "Horde")
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, "JamZan6365")
+WoWPro:GuideNickname(guide, "Hellfire Peninsula")
+WoWPro:GuideName(guide,"Hellfire Peninsula")
+WoWPro:GuideNextGuide(guide, "Zangarmarsh")
 WoWPro:GuideQuestTriggers(guide,9407,28705)
 WoWPro:GuideSteps(guide, function()
 return [[
-A Warchief's Command: Outland! |QID|28705|LEAD|10120|N|Any capital city Warchief's Command Board or your Adventure Guide.|
-R Hellfire Peninsula|AVAILABLE|10120|M|30.21,58.27|Z|Cleft of Shadow@Orgrimmar|N|Though the portal in the Cleft of Shadow in Orgrimmar.|
-; This quest is technically active, but unobtainable by any known means
-T Through the Dark Portal |QID|9407|M|87.36,49.80|N|From Lieutenant General Orion.|
-T Warchief's Command: Outland! |QID|28705|M|87.36,49.80|N|To Lieutenant General Orion.|
+A To Outland!|QID|60123|M|40.82,80.15|Z|Orgrimmar|N|From Chromie after activating Burning Crusade timeline.|
+R Blasted Lands|QID|60123|N|At the Thrallmar Mage in the Pathfinder's Den.|Z|Orgrimmar|M|56.93,88.31|
+C To Outland!|QID|60123|M|55.01,54.35|Z|Blasted Lands|N|Go through the portal to Hellfire Peninsula.|
+T To Outland!|QID|60123|M|PLAYER|N|Quest turn-in on quest tracker once you enter Hellfire Peninsula.|
 A Arrival in Outland |QID|10120|M|87.36,49.80|N|From Lieutenant General Orion.|
 T Arrival in Outland |QID|10120|M|87.33,48.17|N|To Vlagga Freyfeather.|
 A Journey to Thrallmar |QID|10289|PRE|10120|M|87.33,48.17|N|From Vlagga Freyfeather.|

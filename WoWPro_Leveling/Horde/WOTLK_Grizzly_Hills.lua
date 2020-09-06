@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide("JamGriH7577", "Leveling", "Grizzly Hills", "Jame", "Horde")
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, "ScoZul7778")
+WoWPro:GuideNickname(guide, "Grizzly Hills")
+WoWPro:GuideName(guide,"Grizzly Hills")
+WoWPro:GuideNextGuide(guide, "Zul'Drak")
 WoWPro:GuideSteps(guide, function()
 return [[
 F Conquest Hold|QID|12468|N|Fly to Conquest Hold.|M|43.85,16.93|Z|Dragonblight|

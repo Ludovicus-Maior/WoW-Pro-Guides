@@ -1,8 +1,12 @@
 local guide = WoWPro:RegisterGuide("JamBor7173", "Leveling", "Borean Tundra", "Jame", "Horde")
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, "JamDra7375")
+WoWPro:GuideNickname(guide, "Borean Tundra")
+WoWPro:GuideName(guide,"Borean Tundra")
+WoWPro:GuideNextGuide(guide, "Dragonblight")
 WoWPro:GuideSteps(guide, function()
 return [[
+b Borean Tundra|QID|11167|M|44.82,62.19|Z|Orgrimmar|N|Ride up the elevators and hop in the zeppelin to Borean Tundra.|
+t To Northrend!|QID|60097|M|PLAYER|N|Quest turn-in on quest tracker once you enter Howling Fjord.|
 A Hellscream's Vigil |QID|11585|M|41.6,54.0|N|From Warsong Recruitment Officer.|
 T Hellscream's Vigil |QID|11585|M|41.3,53.6|N|To Garrosh Hellscream.|
 A The Defense of Warsong Hold |QID|11596|PRE|11585|M|41.3,53.6|N|From High Overlord Saurfang.|

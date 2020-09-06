@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('AriVasH8082', "Leveling", "Vashj'ir", 'Arixan', 'Horde')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'AriDee8283')
+WoWPro:GuideLevels(guide,30,50)
+WoWPro:GuideNickname(guide, "Vashj'ir")
+WoWPro:GuideName(guide,"Vashj'ir")
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Warchief's Command: Vashj'ir!|QID|27718|LEAD|25924|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|

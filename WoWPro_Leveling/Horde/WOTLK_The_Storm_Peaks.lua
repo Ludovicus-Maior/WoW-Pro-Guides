@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide("ScoSto7980", "Leveling", "The Storm Peaks", "Scoot", "Horde")
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, "ScoIce8080")
+WoWPro:GuideNickname(guide, "Storm Peaks")
+WoWPro:GuideName(guide,"Storm Peaks")
+WoWPro:GuideNextGuide(guide, "Icecrown")
 WoWPro:GuideSteps(guide, function()
 return [[
 N Read Please |QID|12853|N|This guide will get you the Achievement The Summit of Storm Peaks. Set your Hearth anywhere you want. Sell/Repair/Restock when you think you need to. You need cold weather flying to do the zone|

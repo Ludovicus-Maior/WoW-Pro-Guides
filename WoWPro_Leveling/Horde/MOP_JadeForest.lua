@@ -1,14 +1,17 @@
 local guide = WoWPro:RegisterGuide('EmmJad8586', "Leveling", 'The Jade Forest', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'EmmVal8688')
+WoWPro:GuideNickname(guide, "Jade Forest")
+WoWPro:GuideName(guide,"The Jade Forest")
+WoWPro:GuideNextGuide(guide, 'Valley of the Four Winds')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Welcome to Pandaria|QID|29611^29612|N|Head to Orgrimmar. Don't forget to train your trade-skills before you leave Orgrimmar the new trainers are not available immediately upon arriving in Pandaria.\n\nCheck off this step to continue the guide.|
-A The Art of War|QID|29611^29612|N|Autogiven upon entering Orgrimmar.|
-C The Art of War|QID|29611^29612|M|49.93,75.65|Z|Orgrimmar|N|Head to Grommash Hold in The Valley of Strength. Then sit back, and watch the cinematic.|NC|
-T The Art of War|QID|29611^29612|M|48.56,70.62|Z|Orgrimmar|N|To General Nazgrim.|
+A To Pandaria!|QID|60126|M|40.82,80.15|Z|Orgrimmar|N|From Chromie after activating Mists of Pandaria timeline.|
+C To Pandaria!|QID|60126|M|49.79,75.27|Z|Orgrimmar|N|Head to Grommash Hold.|
+T To Pandaria!|QID|60126|M|48.67,70.38|Z|Orgrimmar|N|To General Nazgrim.|
 A All Aboard!|QID|31853|PRE|29611|M|48.56,70.62|Z|Orgrimmar|N|From General Nazgrim.|
-F Hellscream's Fist|QID|31853|M|37.89,95.73|Z|Azshara|N|Fly up to the Hellscream's Fist, which is flying above the skies east of Orgrimmar.|
+C All Aboard!|QID|31853|M|37.89,95.73|Z|Orgrimmar|QO|1|CHAT|N|Go up the elevator and get a ride from Doras the Wind Rider Master.|FLY|OLD|
+F Hellscream's Fist|QID|31853|M|37.89,95.73|Z|Azshara|N|Fly up to the Hellscream's Fist, which is flying above the skies east of Orgrimmar.|FLY|-OLD|
+C Hellscream's Fist|QID|31853|M|37.89,95.73|Z|Azshara|CHAT|N|Talk with General Nazgrim.|
 T All Aboard!|QID|31853|M|37.89,95.73|Z|Azshara|N|To General Nazgrim, who has relocated to the Hellscream's Fist.|
 A Into the Mists|QID|29690|PRE|31853|M|37.89,95.73|Z|Azshara|N|From General Nazgrim.|
 C Into the Mists|QID|29690|M|37.89,95.73|Z|Azshara|N|Speak to General Nazgrim and tell him "I'm ready to go, General". Then sit back, and watch the cinematic.|CHAT|

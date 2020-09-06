@@ -1,8 +1,11 @@
 local guide = WoWPro:RegisterGuide('BitDur0105', 'Leveling', 'Echo Isles (Troll)', 'Bitsem', 'Horde')
 WoWPro:GuideLevels(guide,1,10)
-WoWPro:GuideNextGuide(guide, 'BitDur0512')
+WoWPro:GuideNickname(guide, "Troll: Intro")
+WoWPro:GuideName(guide,"Troll: Intro")
+WoWPro:GuideNextGuide(guide, "Orc & Troll: Intro (Part 2)")
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
 D You silly Death Knight|QID|24764|C|DeathKnight|N|Do not bother with this zone.  There are no quests for YOU.|
 D You silly Palandin|QID|24764|C|Paladin|N|Do not bother with this zone.  There are no quests for YOU.|
 A The Rise of the Darkspear|QID|31159|C|Monk|M|42.82,53.44|N|From Jin'thala.|

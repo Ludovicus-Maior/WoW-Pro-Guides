@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide("JamBla6970", "Leveling", "Blade's Edge Mountains", "Jame", "Horde")
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, "JamHow7071")
+WoWPro:GuideNickname(guide, "Shadowmoon Valley BC")
+WoWPro:GuideName(guide,"Shadowmoon Valley")
+WoWPro:GuideNextGuide(guide, 'Netherstorm')
 WoWPro:GuideSteps(guide, function()
 return [[
 F Zabra'jin|QID|10928|N|Fly to Zabra'jin.|

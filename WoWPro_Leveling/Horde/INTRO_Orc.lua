@@ -1,8 +1,11 @@
 local guide = WoWPro:RegisterGuide('JiyDur0105', "Leveling", 'Valley of Trials (Orc)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,10)
-WoWPro:GuideNextGuide(guide, 'BitDur0512')
+WoWPro:GuideNickname(guide, "Orc: Intro")
+WoWPro:GuideName(guide,"Orc: Intro")
+WoWPro:GuideNextGuide(guide, "Orc & Troll: Intro (Part 2)")
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|S!US|N|Congratulations on hitting level 10.\n\nYou can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nYou're free to continue your current guide or you click the guide button next to this frame to direct you to Chromie!|
 A Your Place In The World|QID|25152|M|45.33,68.58|N|From Kaltunk.|
 T Your Place In The World|QID|25152|M|44.90,66.31|N|To Gornek.|
 A Cutting Teeth|QID|25126|M|44.94,66.43|N|From Gornek.|PRE|25152|

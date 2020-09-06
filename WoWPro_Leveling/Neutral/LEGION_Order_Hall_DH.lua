@@ -7,7 +7,11 @@ WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
 WoWPro:GuideSteps(guide, function()
 return [[
 C Onward to Adventure: Broken Isles|QID|60971|M|49.36,86.93|Z|Stormwind City|NC|N|You have the option to run to the Wizard Sanctum and take the portal to Azuna but recommend that you use your new Dalaran Hearthstone.|FACTION|Alliance|U|140192|
-T Onward to Adventure: Broken Isles|QID|60971|M|PLAYER|N|Quest turn-in on quest tracker once you enter a Broken Isles zone.|
+T Onward to Adventure: Broken Isles|QID|60971|M|PLAYER|N|Quest turn-in on quest tracker once you enter a Broken Isles zone.|FACTION|Alliance|
+
+A Onward to Adventure: Broken Isles|QID|60970|M|40.82,80.15|Z|Orgrimmar|N|From Chromie after activating Legion timeline.|FACTION|Horde|
+C Onward to Adventure: Broken Isles|QID|60970|M|58.88,89.54|Z|Orgrimmar|NC|N|You have the option to run to the Pathfinder's Den and take the portal to Azuna but recommend that you use your new Dalaran Hearthstone.|FACTION|Horde|U|140192|
+T Onward to Adventure: Broken Isles|QID|60970|M|PLAYER|N|Quest turn-in on quest tracker once you enter a Broken Isles zone.|FACTION|Horde|
 
 ; Dalaran in
 A Call of the Illidari|QID|39047^39261|M|PLAYER|Z|Dalaran!Dalaran!Dungeon|N|From Kor'vas Bloodthorn, wait around for a minute and she will pop up next to you.|
