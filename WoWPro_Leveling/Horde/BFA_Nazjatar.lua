@@ -1,7 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmNazj', 'Leveling', 'Nazjatar', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'Mechagon')
-WoWPro:GuideAutoSwitch(guide)
+WoWPro:GuideName(guide,'Nazjatar')
+WoWPro:GuideNickname(guide, "Nazjatar")
+WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Draft!|AVAILABLE|56030|N|This guide is under construction.  We apologize for any missing quests, fires, or other hazards.|

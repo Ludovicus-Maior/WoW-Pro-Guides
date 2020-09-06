@@ -27,5 +27,6 @@ C Defender of Azeroth|QID|58903|M|49.94,39.10|QO|3|N|Click on the Hero's Call Bo
 C Defender of Azeroth|QID|58903|M|49.66,76.46|Z|Orgrimmar|QO|4|N|1/1 Warchief's Command Board|FACTION|Horde|
 T Defender of Azeroth|QID|58903|M|49.66,76.46|Z|Orgrimmar|FACTION|Horde|
 N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|
+N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|
 ]]
 end)

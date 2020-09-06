@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmTalador', 'Leveling', 'Talador', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'EmmSoArak')
+WoWPro:GuideNickname(guide, "Talador")
+WoWPro:GuideName(guide,"Talador")
+WoWPro:GuideNextGuide(guide, 'Spires of Arak')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Rares and Treasure|QID|34681|N|The guide includes almost all the rares and treasure to be found in the zone (except in level 100 areas) if you set the completeness to rank 3. Items that are found where you are already questing for rank 1 or 2 have those ranks so you won't miss them. As always, anything you choose not to do you can manually check off and advance the guide.|

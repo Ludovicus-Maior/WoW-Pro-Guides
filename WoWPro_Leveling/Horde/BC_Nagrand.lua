@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide("JamNag6769", "Leveling", "Nagrand", "Jame", "Horde")
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, "JamBla6970")
+WoWPro:GuideNickname(guide, "Nagrand BC")
+WoWPro:GuideName(guide,"Nagrand")
+WoWPro:GuideNextGuide(guide, "Blade's Edge Mountains")
 WoWPro:GuideSteps(guide, function()
 return [[
 R Nagrand |QID|10109|N|Start from Shattrath City. Head out of the city, then ride south to Nagrand, the entrance is about .|Z|Terokkar Forest|M|20,56|

@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('LiaTwi8485', "Leveling", 'Twilight Highlands', 'Liavan', 'Horde')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideLevels(guide,30,50)
+WoWPro:GuideNickname(guide, "Twilight Highlands")
+WoWPro:GuideName(guide,"Twilight Highlands")
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 R Orgrimmar|QID|28717|Z|Orgrimmar|N|Make your way to Orgimmar.|

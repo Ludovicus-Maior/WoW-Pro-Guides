@@ -2,14 +2,15 @@ local guide = WoWPro:RegisterGuide('EmmFluc_DarkPortal', "Leveling", 'TanaanJung
 WoWPro:GuideName(guide, 'WOD: Dark Portal Intro')
 WoWPro:GuideNickname(guide, "WOD: Dark Portal Intro")
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'Shadowmoon Valley|EmmFrostfire')
+WoWPro:GuideNextGuide(guide, 'Shadowmoon Valley|Frostfire Ridge')
 WoWPro:GuideSteps(guide, function()
 return [[
 ;Quest numbers differ on source pick-up. From Stormwind or Orgrimmar Auto-Accept, it is 34398. From Archmage Khadgar at The Dark Portal it is 36881.
 A The Dark Portal|QID|34398|M|56.26,17.31|Z|Stormwind City|N|From Chromie after activating Warlords of Draenor timeline.|FACTION|Alliance|
 A The Dark Portal|QID|34398|Z|Orgrimmar|N|From Chromie after activating Warlords of Draenor timeline.|FACTION|Horde|
 C The Dark Portal|QID|34398|M|48.86,87.37|Z|Stormwind City|QO|1|CHAT|N|Speak with the Vanguard Battlemage in the Wizard Sanctum for a port to Blasted Lands.|FACTION|Alliance|
-C The Dark Portal|QID|34398^36881|Z|Blasted Lands|M|54.94,50.29|QO|2|CHAT|N|Speak with Archmage Khadgar at the foot of The Dark Portal in Blasted Lands.|FACTION|Alliance|
+C The Dark Portal|QID|34398|M|57.68,88.37|Z|Orgrimmar|QO|1|CHAT|N|At the Vanguard Battlemage in the Pathfinder's Den.|FACTION|Horde|
+C The Dark Portal|QID|34398^36881|Z|Blasted Lands|M|54.94,50.29|QO|2|CHAT|N|Speak with Archmage Khadgar at the foot of The Dark Portal in Blasted Lands.|
 C The Dark Portal|QID|34398^36881|Z|Blasted Lands|M|54.94,50.29|N|Speak with Archmage Khadgar at the foot of The Dark Portal in Blasted Lands. A portal to the Blasted Lands can be found in the in the Cleft of Shadows.|CHAT|FACTION|Horde|
 T The Dark Portal|QID|34398^36881|N|To Archmage Khadgar|M|54.79,48.27|Z|TanaanJungleIntro|
 A Azeroth's Last Stand|QID|35933|N|From Archmage Khadgar|M|54.79,48.27|PRE|34398^36881|Z|TanaanJungleIntro|

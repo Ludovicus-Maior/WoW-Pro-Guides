@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmGorgrond', 'Leveling', 'Gorgrond', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'EmmTalador')
+WoWPro:GuideNickname(guide, "Gorgrond")
+WoWPro:GuideName(guide,"Gorgrond")
+WoWPro:GuideNextGuide(guide, 'Talador')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Guide begins in Gorgrond|QID|35557|N|This guide begins as you are leaving Frostfire and riding into Gorgrond. If you aren't there, the nearest flight point is Thunder Pass.|

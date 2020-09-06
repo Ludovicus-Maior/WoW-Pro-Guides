@@ -268,6 +268,7 @@ C The Horde Way|QID|31013|M|49.00,73.08|N|Listen to Garrosh Hellscream|Z|Orgrimm
 T The Horde Way|QID|31013|M|70.61,31.47|N|To Garrosh Hellscream, who has moved to the Valley of Honor|Z|Orgrimmar|FACTION|Horde|
 ; [aldavor] this is not appearing.... coming up with "No guide loaded". TODO: check.
 N Faction Update|N|In order to load the correct guides for your new faction, we need you either log out and back in or use the "/reload" command.  Click this step when you are ready to go on!|
-N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10|N|Congratulations on hitting level 10.\n\nYou can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|
+N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|
 ]]
 end)

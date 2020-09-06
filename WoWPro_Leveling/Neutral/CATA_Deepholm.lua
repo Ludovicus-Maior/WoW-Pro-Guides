@@ -9,12 +9,13 @@ A Hero's Call: Deepholm!|QID|27727|LEAD|27203|M|63,71.7|Z|Stormwind City|N|From 
 T Hero's Call: Deepholm!|QID|27727|M|74.5,19.3|Z|Stormwind City|N|If you have it. To Naraat the Earthspeaker.|FACTION|Alliance|
 P Deepholm|QID|26245|M|73.20,19.62|Z|Stormwind City|N|Take the Portal to Deepholm.|FACTION|Alliance|
 A Warchief's Command: Deepholm!|QID|27722|LEAD|27203|M|49.67,76.45|Z|Orgrimmar|N|From Warchief's Command Board.|FACTION|Horde|
-T Warchief's Command: Deepholm!|QID|27722|M|50.30,38.24|Z|Orgrimmar|N|To Farseer Krogar.|FACTION|Horde|
-;A The Maelstrom|QID|27203|Z|The Maelstrom|M|74.5,19.3|N|From Naraat the Earthspeaker.|
-;T The Maelstrom|QID|27203|M|33.2,50.2|Z|The Maelstrom|N|Click on the portal that appears. Then turn the quest into Thrall.|
-;A Deepholm, Realm of Earth|QID|27123|LEAD|26245|Z|The Maelstrom|PRE|27203|M|33.2,50.2|N|From Thrall.|
-;C Deepholm, Realm of Earth|QID|27123|Z|The Maelstrom|M|33.2,50.2|N|Hop on the Wyvern behind you.|
-;T Deepholm, Realm of Earth|QID|27123|Z|Deepholm|M|49.6,53|N|To Maruut Stonebinder.|
+T Warchief's Command: Deepholm!|QID|27722|M|50.45,38.35|Z|Orgrimmar|N|To Farseer Krogar.|FACTION|Horde|
+A The Maelstrom|QID|27203|M|50.45,38.35|Z|Orgrimmar|N|From Farseer Krogar.|FACTION|Horde|
+P The Maelstrom|QID|27203|M|50.03,37.78|Z|Orgrimmar|N|Take the portal to the Maelstrom in the middle.|FACTION|Horde|
+T The Maelstrom|QID|27203|M|33.36,50.18|Z|The Maelstrom!The Maelstrom|N|Click on the portal that appears. Then turn the quest into Thrall.|
+A Deepholm, Realm of Earth|QID|27123|M|33.36,50.18|Z|The Maelstrom!The Maelstrom|PRE|27203|N|From Thrall.|
+F Deepholm|QID|27123|M|32.47,51.83|Z|The Maelstrom!The Maelstrom|V|N|Hop on the Wyvern behind you.|
+T Deepholm, Realm of Earth|QID|27123|M|49.62,52.94|N|To Maruut Stonebinder.|
 A Gunship Down|QID|26245|M|49.6,53|N|From Maruut Stonebinder.|
 A Elemental Energy|QID|27136|M|49.7,53|N|From Seer Kormo.|
 A The Earth Claims All|QID|26244|M|49.7,53|N|From Seer Kormo.|

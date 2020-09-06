@@ -1,5 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmNagrand', 'Leveling', 'Nagrand@Draenor', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideNickname(guide, "Nagrand WOD")
+WoWPro:GuideName(guide,"Nagrand")
+WoWPro:GuideNextGuide(guide, 'Chromie Time')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Beginnings|QID|34794|N|This guide begins at your garrison to take the free flight to Nagrand.|

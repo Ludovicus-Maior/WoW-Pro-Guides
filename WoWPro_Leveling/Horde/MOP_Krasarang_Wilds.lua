@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmKra8788', "Leveling", 'Krasarang Wilds', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'EmmKun8889')
+WoWPro:GuideNickname(guide, "Krasarang Wilds")
+WoWPro:GuideName(guide,"Krasarang Wilds")
+WoWPro:GuideNextGuide(guide, 'Kun-Lai Summit')
 WoWPro:GuideSteps(guide, function()
 return [[
 F Zhu's Watch|QID|30079|N|This guide starts at Zhu's watch. If you aren't there, fly or run there.|
