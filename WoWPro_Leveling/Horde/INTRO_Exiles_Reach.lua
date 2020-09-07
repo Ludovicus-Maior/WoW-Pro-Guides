@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('EliHordeExile', 'Leveling', "Exile's Reach!Instance", 'Elidion', 'Horde')
 WoWPro:GuideLevels(guide,1,10)
+WoWPro:NewGuideLevels(guide,1, 10, 1)
 WoWPro:GuideName(guide,"Exile's Reach")
 WoWPro:GuideNextGuide(guide, 'BurnTedrazilEmmaleah')
 WoWPro:GuideSteps(guide, function()

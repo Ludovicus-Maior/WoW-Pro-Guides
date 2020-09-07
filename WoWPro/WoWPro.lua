@@ -723,6 +723,7 @@ function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
     guide['startlevel'] = tonumber(lowerLevel)
     guide['endlevel'] = tonumber(upperLevel)
     guide['level'] = tonumber(meanLevel)
+	guide['sortlevel'] = tonumber(meanLevel)
 end
 
 -- This function should be called AFTER WoWPro:GuideLevels() to override the settings from WoWPro:GuideLevels()
@@ -734,7 +735,7 @@ function WoWPro:NewGuideLevels(guide, lowerLevel, upperLevel, sortLevel)
         guide['level_float'] = true
     end
     if not upperLevel then
-        upperLevel = min(playerLevel+1, 110)
+        upperLevel = min(playerLevel+1, 60) -- REVIEW after Patch 10 for level changes.
         guide['level_float'] = true
     end
 
@@ -755,6 +756,7 @@ function WoWPro:NewGuideLevels(guide, lowerLevel, upperLevel, sortLevel)
     guide['startlevel'] = tonumber(lowerLevel)
     guide['endlevel'] = tonumber(upperLevel)
     guide['level'] = tonumber(meanLevel)
+	guide['sortlevel'] = tonumber(sortLevel) or tonumber(meanLevel)
 end
 
 function WoWPro:GuideRaceSpecific(guide, race)
@@ -1054,6 +1056,10 @@ function WoWPro.LevelColor(guide)
         end
         if (playerLevel >  guide['endlevel']) then
             return {WoWPro:QuestColor(guide['endlevel'])}
+        end
+		--If there is greater than (or equal to) 20 level difference between guides, it's a scaling guide, sending player level. REVIEW after Patch 10 for scaling changes.
+		if ((guide['endlevel'] - guide['startlevel']) >= 20 ) then
+            return {WoWPro:QuestColor(playerLevel)}
         end
         if guide['level'] then
             return {WoWPro:QuestColor(guide['level'])}

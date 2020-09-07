@@ -47,7 +47,7 @@
 	<Script file="INTRO_Highmountain_Tauren.lua"/>
 	<Script file="INTRO_Nightborne.lua"/>
 	<Script file="INTRO_Maghar_Orc.lua"/>
-	<Script file="05_12_Bitsem_Durotar.lua"/>
+	<Script file="INTRO_Orc_Troll_Part2.lua"/>
 	<Script file="INTRO_Orc.lua"/>
 	<Script file="INTRO_Tauren.lua"/>
 	<Script file="INTRO_Troll.lua"/>

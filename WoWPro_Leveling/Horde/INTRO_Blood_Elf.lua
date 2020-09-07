@@ -1,6 +1,7 @@
 local guide = WoWPro:RegisterGuide('KraSunIsle', 'Leveling', 'Sunstrider Isle (Blood Elf)', 'Kraevac', 'Horde')
 WoWPro:GuideRaceSpecific(guide,"BloodElf")
 WoWPro:GuideLevels(guide,1,10)
+WoWPro:NewGuideLevels(guide,1, 10, 2)
 WoWPro:GuideNickname(guide, "Blood Elf: Intro")
 WoWPro:GuideName(guide,"Blood Elf: Intro")
 WoWPro:GuideNextGuide(guide, 'Chromie Time')
