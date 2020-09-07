@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("JamZan6365", "Leveling", "Zangarmarsh", "Jame", "Horde")
 WoWPro:GuideLevels(guide,10,50)
+WoWPro:NewGuideLevels(guide,10, 50, 2)
 WoWPro:GuideNickname(guide, "Zangarmarsh")
 WoWPro:GuideName(guide,"Zangarmarsh")
 WoWPro:GuideNextGuide(guide, "Terokkar Forest")

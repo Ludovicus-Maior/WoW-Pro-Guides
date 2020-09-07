@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('CraSha7070H', "Leveling", 'Shadowmoon Valley', 'Crackerhead22', 'Horde')
 WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'JamBor7173')
+WoWPro:NewGuideLevels(guide,10, 50, 6)
+WoWPro:GuideContent(guide, "The Burning Crusade")
+WoWPro:GuideNextGuide(guide, 'Netherstorm')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Kroghan's Report|QID|11048|LEAD|10595|M|55.37,37.47|Z|Nagrand|N|From Captain Kroghan in Nagrand.|

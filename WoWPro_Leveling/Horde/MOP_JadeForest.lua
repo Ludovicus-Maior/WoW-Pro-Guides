@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('EmmJad8586', "Leveling", 'The Jade Forest', 'Emmaleah', 'Horde')
 WoWPro:GuideLevels(guide,10,50)
+WoWPro:NewGuideLevels(guide,10, 50, 1)
 WoWPro:GuideNickname(guide, "Jade Forest")
 WoWPro:GuideName(guide,"The Jade Forest")
 WoWPro:GuideNextGuide(guide, 'Valley of the Four Winds')

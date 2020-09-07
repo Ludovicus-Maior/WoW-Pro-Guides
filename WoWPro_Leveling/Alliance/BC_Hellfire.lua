@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("JamHel6062", "Leveling", "Hellfire Peninsula", "Jame", "Alliance")
 WoWPro:GuideLevels(guide,10,50)
+WoWPro:NewGuideLevels(guide,10, 50, 1)
 WoWPro:GuideNickname(guide, "Hellfire Peninsula")
 WoWPro:GuideName(guide,"Hellfire Peninsula")
 WoWPro:GuideNextGuide(guide, "Zangarmarsh")

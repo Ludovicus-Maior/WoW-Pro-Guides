@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('JiyDk0105', "Leveling", 'Deathknell (Undead)', 'Jiyambi', 'Horde')
 WoWPro:GuideLevels(guide,1,10)
+WoWPro:NewGuideLevels(guide,1, 10, 3)
 WoWPro:GuideNickname(guide, "Forsaken: Intro")
 WoWPro:GuideName(guide,"Forsaken: Intro")
 WoWPro:GuideNextGuide(guide, "Chromie Time")

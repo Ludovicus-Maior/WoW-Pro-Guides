@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('GylNar0105', "Leveling", 'Camp Narache (Tauren)', 'Gylin', 'Horde')
 WoWPro:GuideLevels(guide,1,10)
+WoWPro:NewGuideLevels(guide,1, 10, 8)
 WoWPro:GuideNickname(guide, "Tauren: Intro")
 WoWPro:GuideName(guide,"Tauren: Intro")
 WoWPro:GuideNextGuide(guide, "Chromie Time")

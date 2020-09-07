@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('CraSha7070A', "Leveling", 'Shadowmoon Valley', 'Crackerhead22', 'Alliance')
 WoWPro:GuideLevels(guide,10,50)
+WoWPro:NewGuideLevels(guide,10, 50, 6)
 WoWPro:GuideNickname(guide, "Shadowmoon Valley BC")
 WoWPro:GuideName(guide,"Shadowmoon Valley")
 WoWPro:GuideNextGuide(guide, 'Netherstorm')

@@ -89,7 +89,8 @@ local function GetGuides()
                 guide = guide,
                 Zone = WoWPro:GetGuideName(guideID),
                 Author = guide.author,
-                level = guide.level
+                level = guide.level,
+				sortlevel = guide.sortlevel
             }
 
             if WoWPro.CLASSIC then
@@ -123,6 +124,10 @@ local function levelSort(a, b)
 
         if a.guide.endlevel ~= b.guide.endlevel then
             return a.guide.endlevel < b.guide.endlevel
+        end
+
+		if a.guide.sortlevel ~= b.guide.sortlevel then
+            return a.guide.sortlevel < b.guide.sortlevel
         end
     end
 
