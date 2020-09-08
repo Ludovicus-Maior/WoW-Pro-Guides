@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("wotlkintro", "Leveling", "Stormwind City", "Elidion", "Alliance")
-WoWPro:GuideLevels(guide,10,10)
+WoWPro:GuideLevels(guide, 10, 50, 10)
+WoWPro:GuideSort(guide, 1)
 WoWPro:GuideContent(guide, "Wrath of the Lich King")
 WoWPro:GuideNickname(guide, "WOTLK: Intro")
 WoWPro:GuideName(guide,"WOTLK: Intro")

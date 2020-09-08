@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('EmmFrostfire', 'Leveling', 'Frostfire Ridge', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Frostfire Ridge")
 WoWPro:GuideName(guide,"Frostfire Ridge")
 WoWPro:GuideNextGuide(guide, 'Gorgrond')

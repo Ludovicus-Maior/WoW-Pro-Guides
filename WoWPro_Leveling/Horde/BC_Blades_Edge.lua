@@ -1,6 +1,5 @@
 local guide = WoWPro:RegisterGuide("JamBla6970", "Leveling", "Blade's Edge Mountains", "Jame", "Horde")
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:NewGuideLevels(guide,10, 50, 5)
+WoWPro:GuideSort(guide, 5)
 WoWPro:GuideNickname(guide, "Blade's Edge Mountains")
 WoWPro:GuideName(guide,"Blade's Edge Mountains")
 WoWPro:GuideNextGuide(guide, 'Netherstorm')

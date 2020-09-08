@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide("TwiDus2025", "Leveling", "Duskwood", "Twists", "Alliance")
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideSort(guide, 16)
 WoWPro:GuideNickname(guide, "Duskwood")
 WoWPro:GuideName(guide,"Duskwood")
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')

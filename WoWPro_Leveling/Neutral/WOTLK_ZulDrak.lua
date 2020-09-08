@@ -1,6 +1,5 @@
 local guide = WoWPro:RegisterGuide("ScoZul7778", "Leveling", "Zul'Drak", "Scoot", "Neutral")
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:NewGuideLevels(guide,10, 50, 5)
+WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNickname(guide, "Zul'Drak")
 WoWPro:GuideName(guide,"Zul'Drak")
 WoWPro:GuideNextGuide(guide, "Sholazar Basin")

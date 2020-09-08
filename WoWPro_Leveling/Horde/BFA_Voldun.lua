@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('EmmVoldun', 'Leveling', "Vol'dun", 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideSort(guide, 4)
 WoWPro:GuideName(guide,"Vol'dun")
 WoWPro:GuideNickname(guide, "Vol'dun")
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')

@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('EmmHighmountain', 'Leveling', 'Highmountain', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideSort(guide, 5)
 WoWPro:GuideNickname(guide, "Highmountain")
 WoWPro:GuideName(guide,"Highmountain")
 WoWPro:GuideNextGuide(guide, 'Legion: Guide Hub')

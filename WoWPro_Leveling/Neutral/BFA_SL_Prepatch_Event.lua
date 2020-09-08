@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('EliSLPreEvent', 'Leveling', "Icecrown", 'Elidion', 'Neutral')
-WoWPro:GuideLevels(guide,50, 50)
+WoWPro:GuideLevels(guide, 50, 50, 50)
+WoWPro:GuideSort(guide, 1)
 WoWPro:GuideContent(guide, "Shadowlands")
 WoWPro:GuideName(guide,"Pre-Shadowlands Event")
 WoWPro:GuideSteps(guide, function()

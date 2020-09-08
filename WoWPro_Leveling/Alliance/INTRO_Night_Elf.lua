@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('BitSha0105', "Leveling", 'Shadowglen (NightElf)', 'Bitsem', 'Alliance')
-WoWPro:GuideLevels(guide,1,10)
+WoWPro:GuideLevels(guide, 1, 10)
+WoWPro:GuideSort(guide, 7)
 WoWPro:GuideNickname(guide, "Night Elf: Intro")
 WoWPro:GuideName(guide,"Night Elf: Intro")
 WoWPro:GuideNextGuide(guide, 'Chromie Time')

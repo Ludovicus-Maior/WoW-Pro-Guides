@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("KurNShire0105", "Leveling", "Northshire (Human)", "Kurich", "Alliance")
-WoWPro:GuideLevels(guide,1,10)
+WoWPro:GuideLevels(guide, 1, 10)
+WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNickname(guide, "Human: Intro")
 WoWPro:GuideName(guide,"Human: Intro")
 WoWPro:GuideNextGuide(guide, 'Chromie Time')

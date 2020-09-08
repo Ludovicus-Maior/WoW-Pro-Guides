@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('JiyWes3540', "Leveling", 'Western Plaguelands', 'Jiyambi', 'Horde')
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideSort(guide, 54)
 WoWPro:GuideNextGuide(guide, 'CraEas4045')
 WoWPro:GuideSteps(guide, function()
 return [[

@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("Mechagnome", "Leveling", "Stormwind City", "Elidion", "Alliance")
-WoWPro:GuideLevels(guide,10,10)
+WoWPro:GuideLevels(guide, 10, 10)
+WoWPro:GuideSort(guide, 13)
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideNickname(guide, "Mechagnome: Intro")
 WoWPro:GuideName(guide,"Mechagnome: Intro")

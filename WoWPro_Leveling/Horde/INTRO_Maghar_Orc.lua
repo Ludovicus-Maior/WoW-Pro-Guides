@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide("MagHarOrc", "Leveling", "Orgrimmar", "Elidion", "Horde")
-WoWPro:GuideLevels(guide,10,10)
-WoWPro:NewGuideLevels(guide,10, 10, 2)
+WoWPro:GuideLevels(guide, 10, 10)
+WoWPro:GuideSort(guide, 12)
 WoWPro:GuideNickname(guide, "Mag'Har Orc: Intro")
 WoWPro:GuideName(guide,"Mag'Har Orc: Intro")
 WoWPro:GuideContent(guide, "Intro")

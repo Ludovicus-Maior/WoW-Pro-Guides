@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide("Vulpera", "Leveling", "Orgrimmar", "Elidion", "Horde")
-WoWPro:GuideLevels(guide,10,10)
-WoWPro:NewGuideLevels(guide,10, 10, 4)
+WoWPro:GuideLevels(guide, 10, 10)
+WoWPro:GuideSort(guide, 14)
 WoWPro:GuideNickname(guide, "Vulpera: Intro")
 WoWPro:GuideName(guide,"Vulpera: Intro")
 WoWPro:GuideContent(guide, "Intro")

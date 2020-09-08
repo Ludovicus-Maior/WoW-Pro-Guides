@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide("LudoNightborne", "Leveling", "Suramar", "Ludovicus", "Horde")
-WoWPro:GuideLevels(guide,10,10)
-WoWPro:NewGuideLevels(guide,10, 10, 3)
+WoWPro:GuideLevels(guide, 10, 10)
+WoWPro:GuideSort(guide, 13)
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideNickname(guide, "Nightborne: Intro")
 WoWPro:GuideName(guide,"Nightborne: Intro")

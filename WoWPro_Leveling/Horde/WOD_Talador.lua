@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('EmmTalador', 'Leveling', 'Talador', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNickname(guide, "Talador")
 WoWPro:GuideName(guide,"Talador")
 WoWPro:GuideNextGuide(guide, 'Spires of Arak')

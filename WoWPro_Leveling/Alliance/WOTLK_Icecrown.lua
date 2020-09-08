@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide("EstIce7985", "Leveling", "Icecrown", "Estelyen", "Alliance")
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideSort(guide, 9)
 WoWPro:GuideNickname(guide, "Icecrown")
 WoWPro:GuideName(guide,"Icecrown")
 WoWPro:GuideNextGuide(guide, "Chromie Time")

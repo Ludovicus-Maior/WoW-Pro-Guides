@@ -444,8 +444,8 @@ function WoWPro.LoadGuideReal()
                 WoWPro:dbp("Guide %s was not registered, skipping.", tostring(GID))
                 GID = nil
             end
-
             -- Is the guide within 10 levels of us?
+			WoWPro.Leveling:GetGuideListInfo()
             if GID and WoWPro.Guides[GID].startlevel > (WoWPro:PlayerLevel() + 10) then
                 WoWPro:dbp("Guide %s is too high level.  Check next guide.", GID)
                 GID = nil

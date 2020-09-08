@@ -1,6 +1,5 @@
 local guide = WoWPro:RegisterGuide('EmmDre8990', "Leveling", 'Dread Wastes', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:NewGuideLevels(guide,10, 50, 6)
+WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNickname(guide, "Dread Wastes")
 WoWPro:GuideName(guide,"Dread Wastes")
 WoWPro:GuideNextGuide(guide, 'Chromie Time')

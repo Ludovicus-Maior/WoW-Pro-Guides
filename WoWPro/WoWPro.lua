@@ -705,29 +705,12 @@ function WoWPro:GuideContent(guide, content)
     end
 end
 
-function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
-    local playerLevel = WoWPro:PlayerLevel()
-    -- Supply dynamic levels if not all the parameters are suppplied.
-    if not lowerLevel then
-        lowerLevel = max(playerLevel-1, 1)
-        guide['level_float'] = true
-    end
-    if not upperLevel then
-        upperLevel = min(playerLevel+1, 110)
-        guide['level_float'] = true
-    end
-    if not meanLevel then
-        meanLevel = (lowerLevel*3.0 + upperLevel) / 4.0
-        guide['level_float'] = true
-    end
-    guide['startlevel'] = tonumber(lowerLevel)
-    guide['endlevel'] = tonumber(upperLevel)
-    guide['level'] = tonumber(meanLevel)
-	guide['sortlevel'] = tonumber(meanLevel)
+-- This function should be called AFTER WoWPro:GuideLevels() (if it's being used) to override the settings from WoWPro:GuideLevels()
+function WoWPro:GuideSort(guide,sortLevel)
+   guide['sortlevel'] = tonumber(sortLevel)
 end
 
--- This function should be called AFTER WoWPro:GuideLevels() to override the settings from WoWPro:GuideLevels()
-function WoWPro:NewGuideLevels(guide, lowerLevel, upperLevel, sortLevel)
+function WoWPro:GuideLevels(guide, lowerLevel, upperLevel, meanLevel)
     local playerLevel = WoWPro:PlayerLevel()
     -- Supply dynamic levels if not all the parameters are suppplied.
     if not lowerLevel then
@@ -739,24 +722,25 @@ function WoWPro:NewGuideLevels(guide, lowerLevel, upperLevel, sortLevel)
         guide['level_float'] = true
     end
 
-    local meanLevel
-    if upperLevel < playerLevel then
-        -- We are higher level than the guide
-        meanLevel = upperLevel
-    else
-        if lowerLevel <= playerLevel then
-            -- We are in the guide band
-            meanLevel = (playerLevel + lowerLevel) / 2.0
-        else
-            -- We are below the guide band
-            meanLevel = lowerLevel + 1.0
-        end
-    end
+    if not meanLevel then
+		if upperLevel < playerLevel then
+			-- We are higher level than the guide
+			meanLevel = upperLevel
+		else
+			if lowerLevel <= playerLevel then
+				-- We are in the guide band
+				meanLevel = (playerLevel + lowerLevel) / 2.0
+			else
+				-- We are below the guide band
+				meanLevel = lowerLevel + 1.0
+			end
+		end
+	end
 
     guide['startlevel'] = tonumber(lowerLevel)
     guide['endlevel'] = tonumber(upperLevel)
     guide['level'] = tonumber(meanLevel)
-	guide['sortlevel'] = tonumber(sortLevel) or tonumber(meanLevel)
+	guide['sortlevel'] = tonumber(meanLevel)
 end
 
 function WoWPro:GuideRaceSpecific(guide, race)
@@ -1057,10 +1041,7 @@ function WoWPro.LevelColor(guide)
         if (playerLevel >  guide['endlevel']) then
             return {WoWPro:QuestColor(guide['endlevel'])}
         end
-		--If there is greater than (or equal to) 20 level difference between guides, it's a scaling guide, sending player level. REVIEW after Patch 10 for scaling changes.
-		if ((guide['endlevel'] - guide['startlevel']) >= 20 ) then
-            return {WoWPro:QuestColor(playerLevel)}
-        end
+
         if guide['level'] then
             return {WoWPro:QuestColor(guide['level'])}
         else

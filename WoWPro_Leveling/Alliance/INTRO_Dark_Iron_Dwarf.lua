@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("DarkIronDwarf", "Leveling", "Stormwind City", "Elidion", "Alliance")
-WoWPro:GuideLevels(guide,10,10)
+WoWPro:GuideLevels(guide, 10, 10)
+WoWPro:GuideSort(guide, 10)
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideNickname(guide, "Dark Iron Dwarf: Intro")
 WoWPro:GuideName(guide,"Dark Iron Dwarf: Intro")
