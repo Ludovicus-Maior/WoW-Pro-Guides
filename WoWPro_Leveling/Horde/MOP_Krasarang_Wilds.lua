@@ -1,6 +1,5 @@
 local guide = WoWPro:RegisterGuide('EmmKra8788', "Leveling", 'Krasarang Wilds', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:NewGuideLevels(guide,10, 50, 3)
+WoWPro:GuideSort(guide, 3)
 WoWPro:GuideNickname(guide, "Krasarang Wilds")
 WoWPro:GuideName(guide,"Krasarang Wilds")
 WoWPro:GuideNextGuide(guide, 'Kun-Lai Summit')

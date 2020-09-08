@@ -1,7 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmLegionIntro_H', 'Leveling', 'Dalaran@Dalaran70', 'Emmaleah', 'Horde')
+WoWPro:GuideLevels(guide, 10, 50, 10)
+WoWPro:GuideSort(guide, 1)
 WoWPro:GuideName(guide, 'Legion: Intro')
 WoWPro:GuideNickname(guide, "Legion: Intro")
-WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, nil)
 WoWPro:GuideSteps(guide, function()
 return [[

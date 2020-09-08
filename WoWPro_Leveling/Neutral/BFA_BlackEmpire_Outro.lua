@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("BlackEmpire", "Leveling", "Azeroth", "Elidion", "Neutral")
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideLevels(guide, 50, 50, 50)
+WoWPro:GuideSort(guide, 10)
 WoWPro:GuideContent(guide, "Battle for Azeroth")
 WoWPro:GuideName(guide,"Black Empire Campaign")
 WoWPro:GuideNickname(guide, "Black Empire Campaign")

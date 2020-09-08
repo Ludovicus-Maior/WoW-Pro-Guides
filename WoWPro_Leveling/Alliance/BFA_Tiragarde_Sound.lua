@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('EmmTiragarde', 'Leveling', 'Tiragarde Sound', 'Emmaleah', 'Alliance')
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Tiragarde Sound")
 WoWPro:GuideName(guide,"Tiragarde Sound")
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')

@@ -27,12 +27,12 @@ WoWPro.Leveling.AlliedStartGuides = {
     LightforgedDraenei = "LudoLightforged",
     HighmountainTauren = "LudoHighTauren",
     Nightborne = "LudoNightborne",
-    KulTiran = nil ,
-    ZandalariTroll = nil,
-    DarkIronDwarf = nil,
-    MagharOrc = nil,
-    Vulpera = nil,
-    Mechagnome = nil,
+    KulTiran = "KulTiran",
+    ZandalariTroll = "ZandalariTroll",
+    DarkIronDwarf = "DarkIronDwarf",
+    MagharOrc = "MagHarOrc",
+    Vulpera = "Vulpera",
+    Mechagnome = "Mechagnome",
     Pandaren = "LudoAlliedDK", -- Yes, this is wrong, but it works!
 }
 WoWPro.Leveling.ClassicStartGuides = {
@@ -68,6 +68,7 @@ function WoWPro.Leveling:OnEnable()
         local _, engRace = _G.UnitRace("player")
         local currentLevel = _G.UnitLevel("player")
         local currentXP = _G.UnitXP("player")
+		
 
         -- New Level 1 Character --
         if currentLevel == 1 and currentXP < 100 then
@@ -75,22 +76,32 @@ function WoWPro.Leveling:OnEnable()
             if WoWPro.CLASSIC then
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicStartGuides[engRace]
             else
-                WoWProDB.char.currentguide = WoWPro.Leveling.StartGuides[engRace]
+				local mapID = C_Map.GetBestMapForUnit("player");
+				if mapID == 1727 then
+					local faction = _G.UnitFactionGroup("player")
+					if faction == "Horde" then
+						WoWProDB.char.currentguide = "EliHordeExile"
+					else
+						WoWProDB.char.currentguide = "CagER0110"
+					end
+				else 
+					WoWProDB.char.currentguide = WoWPro.Leveling.StartGuides[engRace]
+				end
             end
             WoWPro:LoadGuide(WoWProDB.char.currentguide)
         -- New Death Knight --
-        elseif currentLevel == 55 and currentXP < 2000 and engClass == "DEATHKNIGHT" then
+        elseif currentLevel == 8 and currentXP < 300 and engClass == "DEATHKNIGHT" then
             WoWPro.Leveling:dbp("Loading starter %s guide",locClass)
             WoWPro:LoadGuide("JamScar5558")
-        elseif currentLevel == 58 and currentXP < 2000 and engClass == "DEATHKNIGHT" and WoWPro.Leveling.AlliedStartGuides[engRace] then
+        elseif currentLevel == 10 and currentXP < 300 and engClass == "DEATHKNIGHT" and WoWPro.Leveling.AlliedStartGuides[engRace] then
             WoWPro.Leveling:dbp("Loading Allied DK starter %s guide",locClass)
             WoWProDB.char.currentguide = "LudoAlliedDK"
             WoWPro:LoadGuide(WoWProDB.char.currentguide)
-        elseif currentLevel == 98 and currentXP < 2000 and engClass == "DEMONHUNTER" then
+        elseif currentLevel == 8 and currentXP < 300 and engClass == "DEMONHUNTER" then
             WoWPro.Leveling:dbp("Loading DH starter %s guide",locClass)
             WoWProDB.char.currentguide =  "LinksMardum098099"
             WoWPro:LoadGuide(WoWProDB.char.currentguide)
-        elseif currentLevel == 20 and currentXP < 300 and WoWPro.Leveling.AlliedStartGuides[engRace] then
+        elseif currentLevel == 10 and currentXP < 300 and WoWPro.Leveling.AlliedStartGuides[engRace] then
             WoWPro.Leveling:dbp("Loading Allied starter %s guide",engRace)
             WoWProDB.char.currentguide = WoWPro.Leveling.AlliedStartGuides[engRace]
             WoWPro:LoadGuide(WoWProDB.char.currentguide)

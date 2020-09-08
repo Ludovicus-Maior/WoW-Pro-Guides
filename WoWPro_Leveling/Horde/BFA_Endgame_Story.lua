@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('EliEndgame', 'Leveling', 'Zandalar', 'Elidion', 'Horde')
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideLevels(guide, 50, 50, 50)
+WoWPro:GuideSort(guide, 7)
 WoWPro:GuideName(guide,'Endgame Storylines')
 WoWPro:GuideNextGuide(guide, 'TBD')
 WoWPro:GuideAutoSwitch(guide)

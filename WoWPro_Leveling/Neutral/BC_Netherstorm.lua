@@ -1,6 +1,5 @@
 local guide = WoWPro:RegisterGuide('CraNet6970', "Leveling", 'Netherstorm', 'Crackerhead22', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:NewGuideLevels(guide,10, 50, 7)
+WoWPro:GuideSort(guide, 7)
 WoWPro:GuideNickname(guide, "Netherstorm")
 WoWPro:GuideName(guide,"Netherstorm")
 WoWPro:GuideNextGuide(guide, 'Chromie Time')

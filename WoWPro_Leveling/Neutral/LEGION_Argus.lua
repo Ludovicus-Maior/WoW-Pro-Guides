@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('Ludo_Argus', 'Leveling', 'ArgusSurface', 'Ludo', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideSort(guide, 10)
 WoWPro:GuideNickname(guide, "Argus")
 WoWPro:GuideName(guide,"Argus")
 WoWPro:GuideNextGuide(guide, 'Legion: Guide Hub')

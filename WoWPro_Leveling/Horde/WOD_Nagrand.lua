@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('EmmNagrand', 'Leveling', 'Nagrand@Draenor', 'Emmaleah', 'Horde')
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideSort(guide, 6)
 WoWPro:GuideNickname(guide, "Nagrand WOD")
 WoWPro:GuideName(guide,"Nagrand")
 WoWPro:GuideNextGuide(guide, 'Chromie Time')

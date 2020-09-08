@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("RpoGil0113", "Leveling", "Gilneas (Worgen)", "Rpotor", "Alliance")
-WoWPro:GuideLevels(guide,1,10)
+WoWPro:GuideLevels(guide, 1, 10)
+WoWPro:GuideSort(guide, 9)
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideRaceSpecific(guide,"Worgen")
 WoWPro:GuideNickname(guide, "Worgen: Intro")

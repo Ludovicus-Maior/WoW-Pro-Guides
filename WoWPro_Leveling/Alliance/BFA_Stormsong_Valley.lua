@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong Valley', 'MateusFreitas', 'Alliance')
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNickname(guide, "Stormsong Valley")
 WoWPro:GuideName(guide,"Stormsong Valley")
 WoWPro:GuideNextGuide(guide, "Battle for Azeroth: Guide Hub")

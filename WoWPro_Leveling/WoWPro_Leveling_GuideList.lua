@@ -78,6 +78,19 @@ local function GetGuideContent(guide, mapID)
     return defaultXpac, _G["EXPANSION_NAME"..defaultXpac]
 end
 
+local function LevelRefresh(guide)
+	local _, mapID = WoWPro:ValidZone(guide.zone)
+	guide.startlevel, guide.endlevel = _G.C_Map.GetMapLevels(mapID)
+	local playerLevel = WoWPro:PlayerLevel()
+	if guide.endlevel < playerLevel then
+		return guide.endlevel
+	elseif guide.startlevel <= playerLevel then
+		return (playerLevel + guide.startlevel) / 2.0
+	else
+		return guide.startlevel + 1.0
+	end
+end
+
 local rangeFormat = "%d - %d"
 local function GetGuides()
     local guides = {}
@@ -97,12 +110,18 @@ local function GetGuides()
                 guideInfo.Content = rangeFormat:format(guide.startlevel, guide.endlevel)
             else
                 local _, mapID = WoWPro:ValidZone(guide.zone)
+				if not guide.level then
+					level = LevelRefresh(guide)
+					guide.level = level
+				end
+
+				if not guide.sortlevel then
+					sortlevel = guide.level
+					guide.sortlevel = guide.level
+				end
                 guideInfo.xpac, guideInfo.Content = GetGuideContent(guide, mapID)
-                --print("xpac info", mapID, guideInfo.xpac, guideInfo.continent)
             end
             guideInfo.progress, guideInfo.Progress = WoWPro:GetGuideProgress(guideID)
-
-
             tinsert(guides, guideInfo)
         end
     end
@@ -113,26 +132,24 @@ end
 -- Sorting Functions --
 local function zoneSort(a, b)
     if a.Zone == b.Zone then return end
-
     return a.Zone < b.Zone
 end
+
 local function levelSort(a, b)
-    if a.level == b.level then
-        if a.guide.startlevel ~= b.guide.startlevel then
+    if a.guide.level == b.guide.level then
+       	if a.sortlevel ~= b.sortlevel then
+            return a.guide.sortlevel < b.guide.sortlevel
+        end
+		if a.guide.startlevel ~= b.guide.startlevel then
             return a.guide.startlevel < b.guide.startlevel
         end
-
         if a.guide.endlevel ~= b.guide.endlevel then
             return a.guide.endlevel < b.guide.endlevel
         end
-
-		if a.guide.sortlevel ~= b.guide.sortlevel then
-            return a.guide.sortlevel < b.guide.sortlevel
-        end
     end
-
-    return a.level < b.level
+    return a.guide.level < b.guide.level
 end
+
 local function contentSort(a, b)
     if WoWPro.CLASSIC then
         return levelSort(a, b)
@@ -191,7 +208,7 @@ end
 
 local listInfo
 function Leveling:GetGuideListInfo()
-    if not listInfo then
+    if not listInfo or WoWPro.GuidelistReset then
         listInfo = {
             guides = GetGuides(),
             headerInfo = {
@@ -200,6 +217,7 @@ function Leveling:GetGuideListInfo()
                 size = {0.35, 0.25, 0.30, 0.10},
             },
         }
+		WoWPro.GuidelistReset = false
     end
     return listInfo
 end

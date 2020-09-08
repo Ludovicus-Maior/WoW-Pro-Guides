@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("LudoLightforged", "Leveling", "Upper Deck@The Vindicaar!Dungeon", "Ludovicus", "Alliance")
-WoWPro:GuideLevels(guide,10,10)
+WoWPro:GuideLevels(guide, 10, 10)
+WoWPro:GuideSort(guide, 12)
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideNickname(guide, "Lightforged Draenei: Intro")
 WoWPro:GuideName(guide,"Lightforged Draenei: Intro")

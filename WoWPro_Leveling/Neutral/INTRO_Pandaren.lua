@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('FlucloPanda', "Leveling", 'TheWanderingIsle', 'Fluclo', 'Neutral')
-WoWPro:GuideLevels(guide,1,10)
-WoWPro:NewGuideLevels(guide,1, 10, 7)
+WoWPro:GuideLevels(guide, 1, 10)
+WoWPro:GuideSort(guide, 8)
 WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideName(guide, 'Pandaren:Intro')
 WoWPro:GuideRaceSpecific(guide,"Pandaren")

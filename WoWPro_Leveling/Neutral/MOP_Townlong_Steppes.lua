@@ -1,6 +1,5 @@
 local guide = WoWPro:RegisterGuide('EmmTow8990', "Leveling", 'Townlong Steppes', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:NewGuideLevels(guide,10, 50, 5)
+WoWPro:GuideSort(guide, 5)
 WoWPro:GuideNickname(guide, "Townlong Steppes")
 WoWPro:GuideName(guide,"Townlong Steppes")
 WoWPro:GuideNextGuide(guide, 'Dread Wastes')

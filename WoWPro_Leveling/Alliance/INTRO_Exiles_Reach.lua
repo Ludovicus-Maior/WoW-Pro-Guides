@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide('CagER0110', "Leveling", "Exile's Reach!Instance", 'Cagomei', 'Alliance')
-WoWPro:GuideLevels(guide,1,10)
+WoWPro:GuideLevels(guide, 1, 10)
+WoWPro:GuideSort(guide, 1)
 WoWPro:GuideNickname(guide, "Exile's Reach")
 WoWPro:GuideName(guide,"Exile's Reach")
 WoWPro:GuideNextGuide(guide, 'BurnTedrazilSTrek')

@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide("JamDar1320", "Leveling", "Darkshore", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideSort(guide, 12)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[

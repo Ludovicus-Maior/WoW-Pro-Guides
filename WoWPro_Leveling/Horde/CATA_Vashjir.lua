@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('AriVasH8082', "Leveling", "Vashj'ir", 'Arixan', 'Horde')
-WoWPro:GuideLevels(guide,30,50)
+WoWPro:GuideSort(guide, 82)
 WoWPro:GuideNickname(guide, "Vashj'ir")
 WoWPro:GuideName(guide,"Vashj'ir")
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')

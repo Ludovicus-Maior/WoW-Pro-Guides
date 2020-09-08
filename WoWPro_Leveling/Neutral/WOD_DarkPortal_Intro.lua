@@ -1,7 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmFluc_DarkPortal', "Leveling", 'TanaanJungleIntro', 'Emm+Fluc', 'Neutral')
+WoWPro:GuideLevels(guide, 10, 50, 10)
+WoWPro:GuideSort(guide, 1)
 WoWPro:GuideName(guide, 'WOD: Dark Portal Intro')
 WoWPro:GuideNickname(guide, "WOD: Dark Portal Intro")
-WoWPro:GuideLevels(guide,10,50)
 WoWPro:GuideNextGuide(guide, 'Shadowmoon Valley|Frostfire Ridge')
 WoWPro:GuideSteps(guide, function()
 return [[

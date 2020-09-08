@@ -1,6 +1,5 @@
 local guide = WoWPro:RegisterGuide('EmmKun8889', "Leveling", 'Kun-Lai Summit', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:NewGuideLevels(guide,10, 50, 4)
+WoWPro:GuideSort(guide, 4)
 WoWPro:GuideNickname(guide, "Kun-Lai Summit")
 WoWPro:GuideName(guide,"Kun-Lai Summit")
 WoWPro:GuideNextGuide(guide, 'Townlong Steppes')

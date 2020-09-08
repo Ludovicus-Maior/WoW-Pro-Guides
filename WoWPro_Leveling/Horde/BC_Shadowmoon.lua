@@ -1,6 +1,5 @@
 local guide = WoWPro:RegisterGuide('CraSha7070H', "Leveling", 'Shadowmoon Valley', 'Crackerhead22', 'Horde')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:NewGuideLevels(guide,10, 50, 6)
+WoWPro:GuideSort(guide, 6)
 WoWPro:GuideContent(guide, "The Burning Crusade")
 WoWPro:GuideNextGuide(guide, 'Netherstorm')
 WoWPro:GuideSteps(guide, function()

@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideSort(guide, 8)
 WoWPro:GuideNickname(guide, "Suramar")
 WoWPro:GuideName(guide,"Suramar")
 WoWPro:GuideNextGuide(guide, 'Legion: Guide Hub')

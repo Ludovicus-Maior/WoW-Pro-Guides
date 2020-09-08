@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('FlucloGorgrond', 'Leveling', 'Gorgrond', 'Fluclo', 'Alliance')
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideSort(guide, 3)
 WoWPro:GuideNickname(guide, "Gorgrond")
 WoWPro:GuideName(guide,"Gorgrond")
 WoWPro:GuideNextGuide(guide, 'Talador')

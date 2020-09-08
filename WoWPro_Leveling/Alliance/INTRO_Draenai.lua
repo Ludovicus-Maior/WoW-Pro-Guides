@@ -1,5 +1,6 @@
 local guide = WoWPro:RegisterGuide("SnoAmmen0105", "Leveling", "Ammen Vale (Draenai)", "Snowflake", "Alliance")
-WoWPro:GuideLevels(guide,1,10)
+WoWPro:GuideLevels(guide, 1, 10)
+WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Draenai: Intro")
 WoWPro:GuideName(guide,"Draenai: Intro")
 WoWPro:GuideNextGuide(guide, 'Chromie Time')

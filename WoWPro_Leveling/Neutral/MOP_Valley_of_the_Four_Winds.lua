@@ -1,6 +1,5 @@
 local guide = WoWPro:RegisterGuide('EmmVal8688', "Leveling", 'Valley of the Four Winds', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:NewGuideLevels(guide,10, 50, 2)
+WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Valley of the Four Winds")
 WoWPro:GuideName(guide,"Valley of the Four Winds")
 WoWPro:GuideNextGuide(guide, 'Krasarang Wilds')

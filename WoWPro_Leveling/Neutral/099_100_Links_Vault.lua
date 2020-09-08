@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('LinksVault099100', 'Leveling', 'VaultOfTheWardensDH', 'Linkslegend5', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
+
 WoWPro:GuideName(guide, "Demon Hunter - Vault of the Wardens")
 WoWPro:GuideClassSpecific(guide,"DemonHunter")
 WoWPro:GuideNextGuide(guide, 'LinksDHArtCH100100')
