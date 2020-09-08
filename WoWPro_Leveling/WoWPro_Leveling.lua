@@ -68,7 +68,7 @@ function WoWPro.Leveling:OnEnable()
         local _, engRace = _G.UnitRace("player")
         local currentLevel = _G.UnitLevel("player")
         local currentXP = _G.UnitXP("player")
-		
+
 
         -- New Level 1 Character --
         if currentLevel == 1 and currentXP < 100 then
@@ -84,7 +84,7 @@ function WoWPro.Leveling:OnEnable()
 					else
 						WoWProDB.char.currentguide = "CagER0110"
 					end
-				else 
+				else
 					WoWProDB.char.currentguide = WoWPro.Leveling.StartGuides[engRace]
 				end
             end
@@ -136,4 +136,3 @@ function WoWPro.Leveling:OnDisable()
         WoWProDB.char.lastlevelingguide = WoWProDB.char.currentguide
     end
 end
-

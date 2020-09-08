@@ -137,7 +137,7 @@ end
 
 local function levelSort(a, b)
     if a.guide.level == b.guide.level then
-       	if a.sortlevel ~= b.sortlevel then
+		if a.sortlevel ~= b.sortlevel then
             return a.guide.sortlevel < b.guide.sortlevel
         end
 		if a.guide.startlevel ~= b.guide.startlevel then

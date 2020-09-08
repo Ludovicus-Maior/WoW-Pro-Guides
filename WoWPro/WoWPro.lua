@@ -736,7 +736,7 @@ function WoWPro:GuideLevels(guide, lowerLevel, upperLevel, meanLevel)
 			end
 		end
 	end
-	
+
     guide['startlevel'] = tonumber(lowerLevel)
     guide['endlevel'] = tonumber(upperLevel)
     guide['level'] = tonumber(meanLevel)
