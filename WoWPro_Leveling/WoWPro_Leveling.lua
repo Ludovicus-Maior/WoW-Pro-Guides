@@ -76,7 +76,7 @@ function WoWPro.Leveling:OnEnable()
             if WoWPro.CLASSIC then
                 WoWProDB.char.currentguide = WoWPro.Leveling.ClassicStartGuides[engRace]
             else
-				local mapID = C_Map.GetBestMapForUnit("player");
+				local mapID = _G.C_Map.GetBestMapForUnit("player");
 				if mapID == 1727 then
 					local faction = _G.UnitFactionGroup("player")
 					if faction == "Horde" then

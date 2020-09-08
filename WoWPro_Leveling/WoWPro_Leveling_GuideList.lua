@@ -111,12 +111,12 @@ local function GetGuides()
             else
                 local _, mapID = WoWPro:ValidZone(guide.zone)
 				if not guide.level then
-					level = LevelRefresh(guide)
-					guide.level = level
+					guideInfo.level = LevelRefresh(guide)
+					guide.level = guideInfo.level
 				end
 
 				if not guide.sortlevel then
-					sortlevel = guide.level
+					guideInfo.sortlevel = guide.level
 					guide.sortlevel = guide.level
 				end
                 guideInfo.xpac, guideInfo.Content = GetGuideContent(guide, mapID)
