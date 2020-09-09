@@ -1048,7 +1048,7 @@ function WoWPro:RowUpdate(offset)
             -- Ask the target button to place itself
             currentRow.targetbutton.Position(use)
 
-            if not targetkb and currentRow.targetbutton:IsVisible() and not InCombatLockdown() then
+            if not targetkb and currentRow.targetbutton:IsVisible() and not _G.InCombatLockdown() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
                 if key1 then
                     _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_targetbutton"..i..":LeftButton")
