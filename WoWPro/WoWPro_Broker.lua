@@ -771,7 +771,9 @@ function WoWPro:RowUpdate(offset)
     local itemkb = false
     local targetkb = false
     local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
-    _G.ClearOverrideBindings(WoWPro.MainFrame)
+	if not _G.InCombatLockdown() then
+		_G.ClearOverrideBindings(WoWPro.MainFrame)
+	end
     WoWPro.RowDropdownMenu = {}
 
     local step_limit = WoWProDB.profile.numsteps + 5
@@ -976,7 +978,7 @@ function WoWPro:RowUpdate(offset)
                 currentRow.cooldown:Show()
                 currentRow.cooldown:SetCooldown(start, duration)
             else currentRow.cooldown:Hide() end
-            if not itemkb and currentRow.itembutton:IsVisible() then
+            if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
                 if key1 then
                     _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembutton"..i..":LeftButton")
@@ -1046,7 +1048,7 @@ function WoWPro:RowUpdate(offset)
             -- Ask the target button to place itself
             currentRow.targetbutton.Position(use)
 
-            if not targetkb and currentRow.targetbutton:IsVisible() then
+            if not targetkb and currentRow.targetbutton:IsVisible() and not InCombatLockdown() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
                 if key1 then
                     _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_targetbutton"..i..":LeftButton")

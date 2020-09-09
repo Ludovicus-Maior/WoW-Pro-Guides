@@ -859,7 +859,7 @@ function WoWPro.ParseSteps(steps)
         if nguide then
             fini = ("D Onwards|N|This ends %s. %s is next.|GUIDE|%s|"):format(WoWPro:GetGuideName(GID), WoWPro:GetGuideName(nguide), nguide)
         else
-            fini = ("D Fini|N|This ends %s. There is no next guide, so you can pick the next from the control panel.|"):format(WoWPro:GetGuideName(GID))
+            fini = ("D Finished|N|This ends %s. There is no next guide, so you can pick the next from the control panel.|"):format(WoWPro:GetGuideName(GID))
         end
         WoWPro.ParseQuestLine(myFaction, zone, i, fini)
         WoWPro.stepcount = i
