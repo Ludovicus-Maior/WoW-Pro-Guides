@@ -99,7 +99,7 @@ function WoWPro:CreateTrack(parent, anchor1)
 end
 
 function WoWPro:CreateItemButton(parent, id)
-    local itembutton = _G.CreateFrame("Button", "WoWPro_itembutton"..id, parent, "SecureActionButtonTemplate")
+    local itembutton = _G.CreateFrame("Button", "WoWPro_itembutton"..id, parent, "InsecureActionButtonTemplate")
     itembutton:SetAttribute("type", "item")
     itembutton:SetFrameStrata("LOW")
     itembutton:SetHeight(32)
@@ -126,7 +126,7 @@ function WoWPro:CreateItemButton(parent, id)
 end
 
 function WoWPro:CreateJumpButton(parent, id)
-    local jumpbutton = _G.CreateFrame("Button", "WoWPro_jumpbutton"..id, parent, "SecureActionButtonTemplate")
+    local jumpbutton = _G.CreateFrame("Button", "WoWPro_jumpbutton"..id, parent, "InsecureActionButtonTemplate")
     jumpbutton:SetAttribute("type", "jump")
     jumpbutton:SetFrameStrata("LOW")
     jumpbutton:SetHeight(24)
@@ -149,7 +149,7 @@ function WoWPro:CreateJumpButton(parent, id)
 end
 
 function WoWPro:CreateTargetButton(parent, id)
-    local targetbutton = _G.CreateFrame("Button", "WoWPro_targetbutton"..id, parent, "SecureActionButtonTemplate")
+    local targetbutton = _G.CreateFrame("Button", "WoWPro_targetbutton"..id, parent, "InsecureActionButtonTemplate")
     targetbutton:SetAttribute("type", "macro")
     targetbutton:SetFrameStrata("LOW")
     targetbutton:SetHeight(32)
