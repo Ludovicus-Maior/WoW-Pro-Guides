@@ -264,8 +264,8 @@ C Dead-tooth Jack|QID|1667|C|Warrior|M|89.3,78.8|N|Clear the area, 'til you have
 T Dead-tooth Jack|QID|1667|C|Warrior|M|84,69|N|To Marshal Haggard.|
 
 R Westfall |QID|109|ACTIVE|109|M|61.95,17.80|Z|Westfall|N|Follow the road into Westfall|
-A Furlbrow's Deed|QID|184|U|1972|N|If you happened to have found Furlbrow's deed (random rare drop), while questing thru Elwyn, accept the quest and then turn it in to Farmer Furlbrow. Else, check this off manually if you don't have the item.|
-A Furlbrow's Deed|QID|184|M|59.95,19.36|Z|Westfall|N|To Farmer Furlbrow.|
+A Furlbrow's Deed|QID|184|U|1972|N|If you happened to have found Furlbrow's deed (random rare drop) while questing thru Elwynn, accept the quest and then turn it in to Farmer Furlbrow. Else, check this off manually if you don't have the item.|
+t Furlbrow's Deed|QID|184|M|59.95,19.36|Z|Westfall|N|To Farmer Furlbrow.|
 A The Forgotten Heirloom|QID|64|M|59.95,19.36|Z|Westfall|N|From Farmer Furlbrow.|
 A Westfall Stew |QID|36|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
 A Poor Old Blanchy|QID|151|M|59.92,19.41|Z|Westfall|N|From Verna Furlbrow.|
@@ -281,7 +281,7 @@ h Sentinel Hill|ACTIVE|6181|M|52.86,53.71|Z|Westfall|N|At Innkeeper Heather.|
 f Sentinel Hill |QID|1097|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
 T A Swift Message|QID|6181|M|56.55,52.65|Z|Westfall|N|To Thor.|
 A Continue to Stormwind|QID|6281|PRE|6181|M|56.55,52.65|Z|Westfall|N|From Thor.|
-F Stormwind City |QID|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|
+F Stormwind|QID|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|
 
 T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
 A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|Stormwind City|N|From Osric Strang.|PRE|6281|
