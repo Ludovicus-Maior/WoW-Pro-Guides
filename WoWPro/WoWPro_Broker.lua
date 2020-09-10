@@ -957,12 +957,42 @@ function WoWPro:RowUpdate(offset)
             currentRow.itembutton:SetScript("OnClick", function ()
                 WoWPro.TrashItem(use, k)
                 end)
+			if not _G.InCombatLockdown() then
+				currentRow.itembuttonSecured:Show()
+				currentRow.itembuttonSecured:SetAttribute("type1", "click1")
+				currentRow.itembuttonSecured:SetAttribute("click", "clickbutton")
+				currentRow.itembuttonSecured:SetScript("OnClick", function ()
+					WoWPro.TrashItem(use, k)
+                end)
+			end
+			if not _G.InCombatLockdown() then
+				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
+					local Tleft, Tbottom = currentRow.itembutton:GetRect()
+					currentRow.itembuttonSecured:SetAttribute("type1", "click1")
+					currentRow.itembuttonSecured:SetAttribute("click", "clickbutton")
+					currentRow.itembuttonSecured:SetScript("OnClick", function ()
+						WoWPro.TrashItem(use, k)
+					end)
+					currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
+				end
+			end
             WoWPro:dbp("RowUpdate: enabled trash: %s", use)
         elseif use and _G.GetItemInfo(use) then
             currentRow.itembutton:Show()
             currentRow.itemicon:SetTexture(_G.GetItemIcon(use))
             currentRow.itembutton:SetAttribute("type1", "item")
             currentRow.itembutton:SetAttribute("item1", "item:"..use)
+			if not _G.InCombatLockdown() then
+				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
+					local Tleft, Tbottom = currentRow.itembutton:GetRect()
+					currentRow.itembuttonSecured:Show()
+					currentRow.itembuttonSecured:SetAttribute("type1", "item")
+					currentRow.itembuttonSecured:SetAttribute("item1", "item:"..use)
+					currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
+				end
+			end
+
+
             WoWPro:dbp("RowUpdate: enabled use: %s", use)
             currentRow.cooldown:SetScript("OnUpdate", function()
                     local start, duration, enabled = _G.GetItemCooldown(use)
@@ -998,7 +1028,25 @@ function WoWPro:RowUpdate(offset)
                 _G.C_PetBattles.ChangePet(switch)
                 WoWPro.CompleteStep(kk, "Clicked pet switch")
             end
-        else currentRow.itembutton:Hide() end
+
+			if not _G.InCombatLockdown() then
+				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
+					local Tleft, Tbottom = currentRow.itembutton:GetRect()
+					currentRow.itembuttonSecured:Show()
+					currentRow.itembuttonSecured:SetAttribute("type", "SwitchPet")
+					currentRow.itembuttonSecured.SwitchPet = function ()
+					_G.C_PetBattles.ChangePet(switch)
+						WoWPro.CompleteStep(kk, "Clicked pet switch")
+					end
+					currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
+				end
+			end
+        else
+			currentRow.itembutton:Hide()
+			if not _G.InCombatLockdown() then
+				currentRow.itembuttonSecured:Hide()
+			end
+		end
 
         -- Loots Button --
         if item then
@@ -1048,6 +1096,14 @@ function WoWPro:RowUpdate(offset)
             -- Ask the target button to place itself
             currentRow.targetbutton.Position(use)
 
+			if not _G.InCombatLockdown() then
+				if currentRow.targetbutton:IsVisible() and currentRow.targetbutton:IsShown() then
+					local Tleft, Tbottom = currentRow.targetbutton:GetRect()
+					currentRow.targetbuttonSecured:Show()
+					currentRow.targetbuttonSecured:SetAttribute("macrotext", mtext)
+					currentRow.targetbuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
+				end
+			end
             if not targetkb and currentRow.targetbutton:IsVisible() and not _G.InCombatLockdown() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
                 if key1 then
@@ -1060,6 +1116,9 @@ function WoWPro:RowUpdate(offset)
             end
         else
             currentRow.targetbutton:Hide()
+			if not _G.InCombatLockdown() then
+				currentRow.targetbuttonSecured:Hide()
+			end
         end
 
         WoWPro.rows[i] = currentRow
@@ -1313,8 +1372,8 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Trash step
             if stepAction == "*" then
                 if WoWPro.use and WoWPro.use[guideIndex] then
-                    if _G.GetItemCount(WoWPro.use[guideIndex]) >= 1 then
                         skip = false -- If the trash step has a use item and it's in the bag, it's NOT skipped --
+                    if _G.GetItemCount(WoWPro.use[guideIndex]) >= 1 then
                         WoWPro.why[guideIndex] = "NextStep(): Trash steps with an item to use that is present is not skipped."
                     else
                         skip = true -- No item, skip!
