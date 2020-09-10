@@ -192,6 +192,26 @@ function WoWPro:CreateTargetButton(parent, id)
     return targetbutton, targeticon
 end
 
+function WoWPro:CreateTargetButtonSecured(id)
+    local targetbutton = _G.CreateFrame("Button", "WoWPro_targetbuttonSecure"..id, UIParent, "SecureActionButtonTemplate", UIPanelButtonTemplate)
+    targetbutton:SetAttribute("type", "macro")
+    targetbutton:SetFrameStrata("MEDIUM")
+    targetbutton:SetHeight(32)
+    targetbutton:SetWidth(32)
+    targetbutton:Hide()
+    return targetbutton
+end
+
+function WoWPro:CreateItemButtonSecured(id)
+    local itembutton = _G.CreateFrame("Button", "WoWPro_itembuttonSecure"..id, UIParent, "SecureActionButtonTemplate", UIPanelButtonTemplate)
+    itembutton:SetAttribute("type", "item")
+    itembutton:SetFrameStrata("MEDIUM")
+    itembutton:SetHeight(32)
+    itembutton:SetWidth(32)
+    itembutton:Hide()
+    return itembutton
+end
+
 function WoWPro:CreateLootsButton(parent, id)
     local lootsbutton = _G.CreateFrame("Button", "WoWPro_looticon"..id, parent)
     lootsbutton:SetFrameStrata("MEDIUM")
