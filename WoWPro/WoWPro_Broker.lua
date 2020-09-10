@@ -1028,9 +1028,7 @@ function WoWPro:RowUpdate(offset)
                 _G.C_PetBattles.ChangePet(switch)
                 WoWPro.CompleteStep(kk, "Clicked pet switch")
             end
-			if not _G.InCombatLockdown() then
 
-			end
 			if not _G.InCombatLockdown() then
 				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
 					local Tleft, Tbottom = currentRow.itembutton:GetRect()
