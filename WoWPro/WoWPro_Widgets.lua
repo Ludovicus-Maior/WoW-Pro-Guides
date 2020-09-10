@@ -193,7 +193,7 @@ function WoWPro:CreateTargetButton(parent, id)
 end
 
 function WoWPro:CreateTargetButtonSecured(id)
-    local targetbutton = _G.CreateFrame("Button", "WoWPro_targetbuttonSecure"..id, UIParent, "SecureActionButtonTemplate", UIPanelButtonTemplate)
+    local targetbutton = _G.CreateFrame("Button", "WoWPro_targetbuttonSecure"..id, _G.UIParent, "SecureActionButtonTemplate", UIPanelButtonTemplate)
     targetbutton:SetAttribute("type", "macro")
     targetbutton:SetFrameStrata("MEDIUM")
     targetbutton:SetHeight(32)
@@ -203,7 +203,7 @@ function WoWPro:CreateTargetButtonSecured(id)
 end
 
 function WoWPro:CreateItemButtonSecured(id)
-    local itembutton = _G.CreateFrame("Button", "WoWPro_itembuttonSecure"..id, UIParent, "SecureActionButtonTemplate", UIPanelButtonTemplate)
+    local itembutton = _G.CreateFrame("Button", "WoWPro_itembuttonSecure"..id, _G.UIParent, "SecureActionButtonTemplate", UIPanelButtonTemplate)
     itembutton:SetAttribute("type", "item")
     itembutton:SetFrameStrata("MEDIUM")
     itembutton:SetHeight(32)
