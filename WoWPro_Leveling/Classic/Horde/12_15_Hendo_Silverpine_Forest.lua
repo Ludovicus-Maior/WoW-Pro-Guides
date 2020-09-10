@@ -67,7 +67,6 @@ A Ride to the Undercity|QID|6323|R|Undead|M|45.62,42.60|N|From Karos Razok.|PRE|
 F Undercity|QID|447|M|45.62,42.60|N|Fly to Undercity.|
 
 T A Recipe For Death|QID|447|M|51.32,44.66;47.00,59.79;44.78,66.03;48.81,69.29|Z|Undercity|CC|N|To Master Apothecary Faranell in The Apothecarium area.|
-A A Recipe For Death|QID|450|M|48.81,69.29|Z|Undercity|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Master Apothecary Faranell.|PRE|447|
 T Zinge's Delivery|QID|1359|M|50.15,67.93|Z|Undercity|N|To Apothecary Zinge.|
 A Sample for Helbrim|QID|1358|M|50.15,67.93|Z|Undercity|N|From Apothecary Zinge.|PRE|1359|
 
