@@ -281,7 +281,7 @@ h Sentinel Hill|ACTIVE|6181|M|52.86,53.71|Z|Westfall|N|At Innkeeper Heather.|
 f Sentinel Hill |QID|1097|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
 T A Swift Message|QID|6181|M|56.55,52.65|Z|Westfall|N|To Thor.|
 A Continue to Stormwind|QID|6281|PRE|6181|M|56.55,52.65|Z|Westfall|N|From Thor.|
-F Stormwind City |QID|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|
+F Stormwind|QID|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|
 
 T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
 A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|Stormwind City|N|From Osric Strang.|PRE|6281|
