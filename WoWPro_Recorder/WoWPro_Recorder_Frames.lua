@@ -12,32 +12,40 @@ local dialog = _G.LibStub("AceConfigDialog-3.0")
 local initSpecs = {}
 
 -- [0] UI Name , [1] UI Desc, [2]UI Var, [3] guide Var, Register ordinal
-initSpecs["Leveling"] = {
-    { "GID:", "The ID for this guide.", "GID" , nil},
-    { "Author Name:", "The author of the original guide.", "Author" , "author"},
-    { "Next GID:", "The ID for the guide which will follow this one.", "NextGID", "nextGID"},
-    { "Zone Name:", "The zone where the guide takes place.", "Zone", "zone"},
-    { "Start Level:", "The starting level for the guide.", "StartLvl", "startlevel"},
-    { "End Level:", "The ending level for the guide.", "EndLvl", "endlevel"},
-    { "Faction:", "The Faction for the guide", "Faction", "faction"}
-}
-initSpecs["Dailies"] = {
-    { "GID:", "The ID for this guide.", "GID" , nil},
-    { "Author Name:", "The author of the original guide.", "Author" , "author"},
-    { "Next GID:", "The ID for the guide which will follow this one.", "NextGID", "nextGID"},
-    { "Zone Name:", "The zone where the guide takes place.", "Zone", "zone"},
-    { "Start Level:", "The starting level for the guide.", "StartLvl", "startlevel"},
-    { "End Level:", "The ending level for the guide.", "EndLvl", "endlevel"},
-    { "Faction:", "The Faction for the guide", "Faction", "faction"}
-}
-initSpecs["Achievements"] = {
-    { "GID:", "The ID for this guide.", "GID" , nil },
-    { "Author Name:", "The author of the original guide.", "Author" , "author" },
-    { "Name:", "The Name for this guide.", "Name" , "name" },
-    { "Zone Name:", "The zone where the guide takes place.", "Zone", "zone" },
-    { "Category:", "The Category for the guide.", "Category", "category" },
-    { "Subcategory:", "The subcategory for the guide.", "Subcategory"  , "sub" },
-}
+if WoWPro.Recorder.Advanced then
+	initSpecs["Leveling"] = {
+		{ "GID:", "The ID for this guide.", "GID" , nil},
+		{ "Author Name:", "The author of the original guide.", "Author" , "author"},
+		{ "Next GID:", "The ID for the guide which will follow this one.", "NextGID", "nextGID"},
+		{ "Zone Name:", "The zone where the guide takes place.", "Zone", "zone"},
+		{ "Start Level:", "The starting level for the guide.", "StartLvl", "startlevel"},
+		{ "End Level:", "The ending level for the guide.", "EndLvl", "endlevel"},
+		{ "Faction:", "The Faction for the guide", "Faction", "faction"}
+	}
+	initSpecs["Dailies"] = {
+		{ "GID:", "The ID for this guide.", "GID" , nil},
+		{ "Author Name:", "The author of the original guide.", "Author" , "author"},
+		{ "Next GID:", "The ID for the guide which will follow this one.", "NextGID", "nextGID"},
+		{ "Zone Name:", "The zone where the guide takes place.", "Zone", "zone"},
+		{ "Start Level:", "The starting level for the guide.", "StartLvl", "startlevel"},
+		{ "End Level:", "The ending level for the guide.", "EndLvl", "endlevel"},
+		{ "Faction:", "The Faction for the guide", "Faction", "faction"}
+	}
+	initSpecs["Achievements"] = {
+		{ "GID:", "The ID for this guide.", "GID" , nil },
+		{ "Author Name:", "The author of the original guide.", "Author" , "author" },
+		{ "Name:", "The Name for this guide.", "Name" , "name" },
+		{ "Zone Name:", "The zone where the guide takes place.", "Zone", "zone" },
+		{ "Category:", "The Category for the guide.", "Category", "category" },
+		{ "Subcategory:", "The subcategory for the guide.", "Subcategory"  , "sub" },
+	}
+else
+	initSpecs["Leveling"] = {{ "Guide Name:", "The name of your Guide.", "GID" , nil}}
+	initSpecs["Dailies"] = {{ "Guide Name:", "The name of your Guide.", "GID" , nil}}
+	initSpecs["Achievements"] = {{ "Guide Name:", "The name of your Guide.", "GID" , nil},
+		{ "Category:", "The Category for the guide.", "Category", "category" },
+		{ "Subcategory:", "The subcategory for the guide.", "Subcategory"  , "sub" }}
+end
 WoWPro.Recorder.initSpecs = initSpecs
 
 local function CreateInitSpecMenu(module)
@@ -108,6 +116,8 @@ local function CreateInitSpecMenu(module)
             if fail then return; end
 
             local optArgs = {}
+
+
             for idx,value in ipairs(initSpecs[module]) do
                 if value[4] then
                     optArgs[value[4]] = WoWPro.Recorder.CurrentGuide[value[3]]
@@ -116,6 +126,28 @@ local function CreateInitSpecMenu(module)
                     WoWPro.Recorder:Print("Skipped %s",value[3])
                 end
             end
+
+			if not WoWPro.Recorder.Advanced  then
+				local UnitFaction = UnitFactionGroup("player")
+				if UnitFaction == "Horde" then
+					WoWPro.Recorder.CurrentGuide["Zone"] = "Orgrimmar"
+					WoWPro.Recorder.CurrentGuide["Faction"] = "Horde"
+				else
+					WoWPro.Recorder.CurrentGuide["Zone"] = "Stormwind"
+					WoWPro.Recorder.CurrentGuide["Faction"] = "Alliance"
+				end
+				WoWPro.Recorder.CurrentGuide["Author"] = "Tester"
+				WoWPro.Recorder.CurrentGuide["NextGID"] = "ChromieTime"
+				WoWPro.Recorder.CurrentGuide["StartLvl"] = "1"
+				WoWPro.Recorder.CurrentGuide["EndLvl"] = "60"
+				optArgs["zone"] = WoWPro.Recorder.CurrentGuide["Zone"]
+				optArgs["author"] = WoWPro.Recorder.CurrentGuide["Author"]
+				optArgs["nextGID"] = WoWPro.Recorder.CurrentGuide["NextGID"]
+				optArgs["startlevel"] = WoWPro.Recorder.CurrentGuide["StartLvl"]
+				optArgs["endlevel"] = WoWPro.Recorder.CurrentGuide["EndLvl"]
+				optArgs["faction"] = WoWPro.Recorder.CurrentGuide["Faction"]
+			end
+
             WoWPro.Recorder:InitGuide(WoWPro.Recorder.CurrentGuide.GID,WoWPro.Recorder.CurrentGuide.Type, optArgs)
             WoWPro:LoadGuide(WoWPro.Recorder.CurrentGuide.GID);
             dialog:Close("WoWPro Recorder - New - "..module);
@@ -210,7 +242,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
 
     WoWPro.RecordButton = CreateButton("Record", "Click to record.", WoWPro.RecordText, "REC")
     WoWPro.StopButton = CreateButton("Stop", "Click to stop recording.", WoWPro.RecordButton, "STOP")
-
+	if WoWPro.Recorder.Advanced then
     WoWPro.AddButton = CreateButton("Add", "Click to insert a new step after the selected step.", WoWPro.StopButton)
         config:RegisterOptionsTable("WoWPro Recorder - Add", {
             name = "Add Step",
@@ -1140,7 +1172,12 @@ function WoWPro.Recorder:CreateRecorderFrame()
         })
         dialog:SetDefaultSize("WoWPro Recorder - Note", 400, 200)
 
-    WoWPro.NewButton = CreateButton("New", "Click to setup a new guide.", WoWPro.NoteButton)
+	end
+	if WoWPro.Recorder.Advanced then
+		WoWPro.NewButton = CreateButton("New", "Click to setup a new guide.", WoWPro.NoteButton)
+	else
+		WoWPro.NewButton = CreateButton("New", "Click to setup a new guide.",  WoWPro.StopButton)
+	end
         CreateInitSpecMenus()
         config:RegisterOptionsTable("WoWPro Recorder - New", {
             name = "Create New Guide",
@@ -1189,10 +1226,16 @@ function WoWPro.Recorder:CreateRecorderFrame()
                     values = function()
                             local infoTable = {}
                             for GID, guideInfo in pairs(WoWPro.Guides) do
-                                infoTable[GID] = GID .." "..guideInfo.zone.." by "..guideInfo.author
-                                if WoWPro_RecorderDB[GID] then
-                                    infoTable[GID] = "!" .. infoTable[GID]
-                                end
+								if WoWPro.Recorder.Advanced then
+									infoTable[GID] = GID .." "..guideInfo.zone.." by "..guideInfo.author
+									if WoWPro_RecorderDB[GID] then
+										infoTable[GID] = "!" .. infoTable[GID]
+									end
+								elseif WoWPro_RecorderDB[GID] then
+									if WoWPro_RecorderDB[GID] then
+										infoTable[GID] = GID
+									end
+								end
                             end
                             return infoTable
                         end,

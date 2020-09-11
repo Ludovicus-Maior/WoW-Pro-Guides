@@ -2196,6 +2196,20 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
+			if WoWPro.serverdate and WoWPro.serverdate[guideIndex] then
+                local epoch = C_DateAndTime.GetServerTimeLocal()
+				local timeMet
+                if tonumber(WoWPro.serverdate[guideIndex]) >= epoch then
+                    timeMet = true
+                end
+
+                if timeMet then
+                    WoWPro.CompleteStep(guideIndex, "NextStep(): Server time ["..epoch.."] is less than "..WoWPro.serverdate[guideIndex]..".")
+                    skip = true
+                else
+                    WoWPro.why[guideIndex] = "NextStep(): Date of ["..WoWPro.serverdate[guideIndex].."] hasn't happened yet."
+                end
+            end
             -- Skipping spells if known.
             -- Warning: not all spells are detectable by this method.  Blizzard is not consistent!
             -- This tests for Spells you can put on a button, essentially.
