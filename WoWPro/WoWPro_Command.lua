@@ -15,7 +15,7 @@ local function handler(msg, editbox)
 	if ltoken == "devcoords" then
 		if not WoWPro.DevCoords then
 			--Old Coord Copy and Paste Macro modified to work in wowpro.
-			local p,f="player",CreateFrame("EditBox","WoWProDevCoords",_G.UIParent,"InputBoxTemplate")
+			local p,f="player", _G.CreateFrame("EditBox","WoWProDevCoords",_G.UIParent,"InputBoxTemplate")
 			f:SetPoint("TOP",0,0)
 			f:SetSize(90, 40)
 			f:SetAutoFocus(false)
