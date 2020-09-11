@@ -94,7 +94,7 @@ WoWPro:Export("Warning")
 -- WoWPro error function, log and console --
 function WoWPro:Error(message, ...)
     if message ~= nil then
-	
+
         local msg = ("|cffff7d0a%s|r: "..message):format(self.name or "Wow-Pro", ...)
         WoWPro:Add2Log(0, msg)
         -- error(msg)

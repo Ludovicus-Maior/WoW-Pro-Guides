@@ -2197,7 +2197,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
 			if WoWPro.serverdate and WoWPro.serverdate[guideIndex] then
-                local epoch = C_DateAndTime.GetServerTimeLocal()
+                local epoch = _G.C_DateAndTime.GetServerTimeLocal()
 				local timeMet
                 if tonumber(WoWPro.serverdate[guideIndex]) >= epoch then
                     timeMet = true

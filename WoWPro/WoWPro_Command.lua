@@ -11,7 +11,7 @@ local function handler(msg, editbox)
 
     -- Lower the first token
     local ltoken = tokens[1] and tokens[1]:lower()
-	
+
 	if ltoken == "devcoords" then
 		if not WoWPro.DevCoords then
 			--Old Coord Copy and Paste Macro modified to work in wowpro.
