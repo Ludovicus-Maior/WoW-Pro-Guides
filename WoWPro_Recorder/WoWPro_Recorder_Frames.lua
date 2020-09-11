@@ -128,7 +128,7 @@ local function CreateInitSpecMenu(module)
             end
 
 			if not WoWPro.Recorder.Advanced  then
-				local UnitFaction = UnitFactionGroup("player")
+				local UnitFaction = _G.UnitFactionGroup("player")
 				if UnitFaction == "Horde" then
 					WoWPro.Recorder.CurrentGuide["Zone"] = "Orgrimmar"
 					WoWPro.Recorder.CurrentGuide["Faction"] = "Horde"

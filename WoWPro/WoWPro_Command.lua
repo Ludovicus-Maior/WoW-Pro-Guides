@@ -22,15 +22,15 @@ local function handler(msg, editbox)
 			f:SetScript("OnUpdate",function(s,e)
 				local x,y=_G.C_Map.GetPlayerMapPosition(_G.C_Map.GetBestMapForUnit(p),p):GetXY()
 				if not _G.MouseIsOver(f) then
-					f:SetText(format("%.2f,%.2f",x*100,y*100))
+					f:SetText(_G.format("%.2f,%.2f",x*100,y*100))
 				end
 			end)
 			WoWPro.DevCoords = true
 		else
-			if WoWProDevCoords:IsVisible() then
-				WoWProDevCoords:Hide()
+			if _G.WoWProDevCoords:IsVisible() then
+				_G.WoWProDevCoords:Hide()
 			else
-				WoWProDevCoords:Show()
+				_G.WoWProDevCoords:Show()
 			end
 		end
     elseif ltoken == "where" then
