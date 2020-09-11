@@ -277,7 +277,6 @@ DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = valu
 DefineTag("NOCACHE", "nocache","boolean",nil,nil)
 DefineTag("ELITE", "elite","boolean",nil,nil)
 
-
 -- Conditionals
 DefineTag("REP","rep","string",nil,nil)
 DefineTag("P","prof","string",nil,nil)
