@@ -1,5 +1,6 @@
 -- luacheck: globals date pairs type issecurevariable
 -- luacheck: globals tostring tinsert
+
 WoWPro.DevCoords = false
 _G.SLASH_WOWPRO1 = "/wp"
 _G.SLASH_WOWPRO2 = "/wow-pro"
