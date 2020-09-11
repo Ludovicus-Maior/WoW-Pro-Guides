@@ -280,6 +280,7 @@ DefineTag("ELITE", "elite","boolean",nil,nil)
 -- Conditionals
 DefineTag("REP","rep","string",nil,nil)
 DefineTag("P","prof","string",nil,nil)
+DefineTag("DATE", "serverdate","string",nil,nil)
 DefineTag("SPELL","spell","string",nil,nil)
 DefineTag("ILVL","ilvl","string",nil,nil)
 DefineTag("FLY","fly","string",nil,nil)

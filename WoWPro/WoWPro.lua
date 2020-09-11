@@ -94,6 +94,7 @@ WoWPro:Export("Warning")
 -- WoWPro error function, log and console --
 function WoWPro:Error(message, ...)
     if message ~= nil then
+
         local msg = ("|cffff7d0a%s|r: "..message):format(self.name or "Wow-Pro", ...)
         WoWPro:Add2Log(0, msg)
         -- error(msg)
@@ -806,7 +807,9 @@ local progressFormat = "%d/%d"
 function WoWPro:GetGuideProgress(guideID)
     local guideDB = WoWProCharDB.Guide[guideID]
     if guideDB and guideDB.progress and guideDB.total then
-        return guideDB.progress / guideDB.total, progressFormat:format(guideDB.progress, guideDB.total)
+		 if guideDB.total > 0 and guideDB.progress > 0 then -- They can exist but have a value of 0 (Recorder caused this issue if you reload or relog with empty new guide.)
+			return guideDB.progress / guideDB.total, progressFormat:format(guideDB.progress, guideDB.total)
+		end
     end
     return
 end

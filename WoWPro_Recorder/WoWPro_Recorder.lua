@@ -14,6 +14,7 @@ WoWPro.Recorder = WoWPro:NewModule("Recorder")
 WoWPro:Embed(WoWPro.Recorder)
 WoWPro.Recorder.stepInfo = {}
 WoWPro.Recorder.LoadingGuide = false
+WoWPro.Recorder.Advanced = false
 
 function WoWPro.Recorder:OnInitialize()
 -- Creating the config options --
@@ -573,6 +574,8 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
         ..WoWPro.Guides[GID].zone.."', '"
         ..WoWPro.Guides[GID].author.."', '"
         ..WoWPro.Guides[GID].faction.."')\n"
+		..'WoWPro:GuideName(guide,"'
+        ..GID..'")\n'
         .."WoWPro:GuideLevels(guide,"
         ..WoWPro.Guides[GID].startlevel..", "
         ..WoWPro.Guides[GID].endlevel..")\n"
