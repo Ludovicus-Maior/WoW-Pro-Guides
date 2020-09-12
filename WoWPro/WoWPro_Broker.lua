@@ -948,11 +948,18 @@ function WoWPro:RowUpdate(offset)
                     WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue","Hit escape to dismiss")
 					local LogBox = WoWPro.LogBox
 					local X, Y, mapId = WoWPro:GetPlayerZonePosition()
+					local text = "Step Info:\n"
+					local Sindex = WoWPro.rows[currentRow.num].index
+					if WoWPro.rows[currentRow.num]:IsVisible() then
+						local line = WoWPro.EmitStep(Sindex)
+						line = line:gsub("||", "¦")
+						text = text .. line .. "\n"
+					end
 					if (not X) or (not Y) then
-						local text = "\n" .. ("Player at ?/%s@%q aka %q aka %q"):format(tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText())
+						text = "\n" .. ("Player at ?/%s@%q aka %q aka %q"):format(tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText()) .. "\n\n" .. text
 						LogBox.Box:SetText(text)
 					else
-						local text = "\n" .. ("Player at %.2f,%.2f/%s@%q aka %q aka %q"):format(X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText()) .. "\n\nStep Info:\n" .. WoWPro.fullStep[currentRow.index]
+						text = "\n" .. ("Player at %.2f,%.2f/%s@%q aka %q aka %q"):format(X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText()) .. "\n\n" .. text
 						LogBox.Box:SetText(text)
 					end
 					LogBox:Show()
