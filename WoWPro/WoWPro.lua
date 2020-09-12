@@ -639,21 +639,26 @@ function WoWPro:Timeless()
 end
 
 
-function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, release)
+function WoWPro:RegisterGuide(GIDvalue, gtype, zone, authorname, faction, release)
     if not WoWPro[gtype] then
         WoWPro:Error("WoWPro:RegisterGuide(%s,%s,...) has bad gtype",GIDvalue,tostring(gtype))
     end
-    -- Check for funky zones line 'Shadowglen (NightElf)'
-    local trueZone = zonename:match("([^%(]+)"):trim()
-    local name = nil
-    if trueZone ~= zonename then
-        name = zonename -- the zonename is really the guide name
-        zonename = trueZone -- the real zone name is the unparenthesized portion
+
+    local name
+    if type(zone) == "number" then
+        name = WoWPro.HBD.mapData[zone].name
+    else
+        -- Check for funky zones line 'Shadowglen (NightElf)'
+        local trueZone = zone:match("([^%(]+)"):trim()
+        if trueZone ~= zone then
+            name = zone -- the zone is really the guide name
+            zone = trueZone -- the real zone name is the unparenthesized portion
+        end
     end
 
     local guide = {
         guidetype = gtype,
-        zone = zonename,
+        zone = zone,
         author = authorname,
         faction = faction,
         name = name,

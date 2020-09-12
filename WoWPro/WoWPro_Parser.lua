@@ -788,7 +788,7 @@ function WoWPro.ParseSteps(steps)
     local _, myclass = _G.UnitClass("player")
     local _, myrace = _G.UnitRace("player")
     local myFaction = WoWPro.Faction:upper()
-    local zone = (WoWPro.Guides[GID].zone or ""):match("([^%(]+)"):trim()
+    local zone = (WoWPro.Guides[GID].name or ""):match("([^%(]+)"):trim()
 
     if WoWPro.Recorder then
         i = 1 -- No extra steps for recorder guides

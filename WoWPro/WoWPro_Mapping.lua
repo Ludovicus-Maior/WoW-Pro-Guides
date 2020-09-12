@@ -449,7 +449,7 @@ function WoWPro:MapPoint(row)
     end
     local desc = WoWPro.step[stepIndex]
     local zone
-    zone = WoWPro.zone[stepIndex] or WoWPro.Guides[GID].zone:match("([^%(]+)"):trim()
+    zone = WoWPro.zone[stepIndex] or WoWPro.Guides[GID].name:match("([^%(]+)"):trim()
     autoarrival = WoWPro.waypcomplete[stepIndex]
 
     -- Loading Blizzard Coordinates for this objective, if coordinates aren't provided --
