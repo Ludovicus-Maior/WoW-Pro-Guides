@@ -411,7 +411,7 @@ C The Final Countdown|QID|60054|M|PLAYER|QO|3|Z|Bastion|NC|N|Click on the collos
 T The Final Countdown|QID|60054|M|38.96,55.24|Z|Bastion|N|To Thanikos.|
 A A Time for Courage|QID|60055|M|38.96,55.24|Z|Bastion|N|From Thanikos.|
 C A Time for Courage|QID|60055|M|38.96,55.24|CHAT|QO|1|Z|Bastion|N|Speak to Thanikos.|
-C A Time for Courage|QID|60055|M|34.41,55.34|QO|2|Z|Bastion|N|Kill the elite.| 
+C A Time for Courage|QID|60055|M|34.41,55.34|QO|2|Z|Bastion|N|Kill the elite.|
 C A Time for Courage|QID|60055|M|34.59,55.10|QO|3|Z|Bastion|NC|N|Click on Disciple Apolon.|
 T A Time for Courage|QID|60055|M|40.88,55.10|Z|Bastion|N|To Disciple Apolon.|
 A Follow the Path|QID|60056|M|40.88,55.10|Z|Bastion|N|From Disciple Apolon.|
@@ -425,108 +425,5 @@ T The Arbiter's Will|QID|61096|M|40.88,55.10|Z|1670|N|To Overseer Kah-Sher.|
 A A Land of Strife|QID|61107|M|61.03,36.71|Z|1670|N|From Tal-Inara.|
 C A Land of Strife|QID|61107|M|59.95,35.96|Z|1670|N|Clicky on the blue sword.|
 T A Land of Strife|QID|61107|M|61.03,36.71|Z|1670|N|To Tal-Inara.|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]]
 end)
