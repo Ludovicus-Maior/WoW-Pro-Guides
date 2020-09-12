@@ -38,6 +38,7 @@
 	<Script file="MOP_KunLai_Summit.lua"/>
 	<Script file="MOP_Townlong_Steppes.lua"/>
 	<Script file="MOP_Valley_of_the_Four_Winds.lua"/>
+	<Script file="SL_Bastion.lua"/>
 	<Script file="SL_Maw_Intro.lua"/>
 	<Script file="WOD_DarkPortal_Intro.lua"/>
 	<Script file="WOD_Spires_of_Arak.lua"/>

@@ -213,43 +213,43 @@ C License to Ride|QID|58909|Z|Stormwind City|M|77.26,67.70|N|Learn the Apprentic
 T License to Ride|QID|58909|Z|Stormwind City|M|77.36,67.06|N|Turn into Curly.|
 A What's Your Specialty?|QID|59594|Z|Stormwind City|M|77.36,67.06|C|Warrior|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.50|C|Warrior|QO|1|CHAT|N|Talk to Kualiang Thunderfist.|
-C What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.50|C|Warrior|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specilizarion and clicking activate.|
+C What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.50|C|Warrior|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.50|C|Warrior|N|Turn into Kualiang Thunderfist.|
 A What's Your Specialty?|QID|59586|Z|Stormwind City|M|77.36,67.06|C|Hunter|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|QO|1|CHAT|N|Talk to Dalgrun Steelpine.|
-C What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
+C What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|N|Turn into Dalgrun Steelpine.|
 A What's Your Specialty?|QID|59587|Z|Stormwind City|M|77.36,67.06|C|Mage|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.05,69.69|C|Mage|QO|1|CHAT|N|Talk to Frazzle Frostfingers he is upstairs.|
-C What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.05,69.69|C|Mage|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
+C What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.05,69.69|C|Mage|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.05,69.69|C|Mage|N|Turn into Frazzle Frostfingers.|
 A What's Your Specialty?|QID|59593|Z|Stormwind City|M|77.36,67.06|C|Warlock|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59593|Z|Stormwind City|M|80.23,70.19|C|Warlock|QO|1|CHAT|N|Talk to Laphandrus Voidheart he is upstairs.|
-C What's Your Specialty?|QID|59593|Z|Stormwind City|M|80.23,70.19|C|Warlock|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
+C What's Your Specialty?|QID|59593|Z|Stormwind City|M|80.23,70.19|C|Warlock|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|59593|Z|Stormwind City|M|80.23,70.19|C|Warlock|N|Turn into Laphandrus Voidheart.|
 A What's Your Specialty?|QID|59588|Z|Stormwind City|M|77.36,67.06|C|Monk|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59588|Z|Stormwind City|M|79.09,69.62|C|Monk|QO|1|CHAT|N|Talk to Juisheng Halfclaw he is downstairs.|
-C What's Your Specialty?|QID|59588|Z|Stormwind City|M|79.09,69.62|C|Monk|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
+C What's Your Specialty?|QID|59588|Z|Stormwind City|M|79.09,69.62|C|Monk|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|59588|Z|Stormwind City|M|79.09,69.62|C|Monk|N|Turn into Juisheng Halfclaw.|
 A What's Your Specialty?|QID|59589|Z|Stormwind City|M|77.36,67.06|C|Paladin|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|QO|1|CHAT|N|Talk to Ezul'aan.|
-C What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
+C What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|N|Turn into Ezul'aan.|
 A What's Your Specialty?|QID|59590|Z|Stormwind City|M|77.36,67.06|C|Priest|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59590|Z|Stormwind City|M|78.93,69.81|C|Priest|QO|1|CHAT|N|Talk to Patrice Lancaster.|
-C What's Your Specialty?|QID|59590|Z|Stormwind City|M|78.93,69.81|C|Priest|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
+C What's Your Specialty?|QID|59590|Z|Stormwind City|M|78.93,69.81|C|Priest|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|59590|Z|Stormwind City|M|78.93,69.81|C|Priest|N|Turn into Patrice Lancaster.|
 A What's Your Specialty?|QID|59591|Z|Stormwind City|M|77.36,67.06|C|Rogue|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59591|Z|Stormwind City|M|78.58,70.70|C|Rogue|QO|1|CHAT|N|Talk to Veruca Darkstream.|
-C What's Your Specialty?|QID|59591|Z|Stormwind City|M|78.58,70.70|C|Rogue|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
+C What's Your Specialty?|QID|59591|Z|Stormwind City|M|78.58,70.70|C|Rogue|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|59591|Z|Stormwind City|M|78.58,70.70|C|Rogue|N|Turn into Veruca Darkstream.|
 A What's Your Specialty?|QID|59592|Z|Stormwind City|M|77.36,67.06|C|Shaman|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59592|Z|Stormwind City|M|78.84,70.73|C|Shaman|QO|1|CHAT|N|Talk to Mulric Boldrock.|
-C What's Your Specialty?|QID|59592|Z|Stormwind City|M|78.84,70.73|C|Shaman|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
+C What's Your Specialty?|QID|59592|Z|Stormwind City|M|78.84,70.73|C|Shaman|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|59592|Z|Stormwind City|M|78.84,70.73|C|Shaman|N|Turn into Mulric Boldrock.|
 A What's Your Specialty?|QID|58910|Z|Stormwind City|M|77.36,67.06|C|Druid|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|58910|Z|Stormwind City|M|79.31,68.73|C|Druid|QO|1|CHAT|N|Talk to Mitholos Falconbriar he is upstairs.|
-C What's Your Specialty?|QID|58910|Z|Stormwind City|M|79.31,68.73|C|Druid|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
+C What's Your Specialty?|QID|58910|Z|Stormwind City|M|79.31,68.73|C|Druid|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|58910|Z|Stormwind City|M|79.31,68.73|C|Druid|N|Turn into Mitholos Falconbriar.|
 A Home Is Where the Hearth Is|QID|58911|Z|Stormwind City|M|PLAYER|N|From Lindie Springstock.|PRE|58909|
 h Pig and Whistle Tavern|QID|58911|Z|Stormwind City|M|75.59,54.18|QO|1|N|At the innkeeper.|
