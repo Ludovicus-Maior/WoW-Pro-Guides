@@ -435,8 +435,8 @@ function WoWPro:CreateErrorLog(title)
 
     ErrorLog.Title = ErrorLog:CreateFontString("", "OVERLAY", "GameFontNormal")
     ErrorLog.Title:SetJustifyH("CENTER")
-    ErrorLog.Title:SetPoint("TOPRIGHT",ErrorLog, "TOPRIGHT", -5, -5)
-    ErrorLog.Title:SetPoint("TOPLEFT", ErrorLog, "RIGHT", 5, -5)
+    ErrorLog.Title:SetPoint("TOPLEFT",ErrorLog, "TOPLEFT", -10, 0)
+    ErrorLog.Title:SetPoint("RIGHT", ErrorLog, "RIGHT", 15, 0)
     ErrorLog.Title:SetHeight(20)
     ErrorLog.Title:SetText(title)
 

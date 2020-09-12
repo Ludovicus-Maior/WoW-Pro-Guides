@@ -43,6 +43,7 @@ else
     WoWPro.actiontypes['P'] = "Interface\\MINIMAP\\Vehicle-HordeMagePortal"
 end
 
+WoWPro.fullStep = {}
 WoWPro.actionlabels = {
     A = "Accept",
     ["A ELITE"] = "Accept elite quest",
@@ -421,7 +422,7 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
         end
         return nil
     end
-
+	WoWPro.fullStep[i] = atext
     -- Split the line up on the pipes
     local tags = { ("|"):split(text) }
 

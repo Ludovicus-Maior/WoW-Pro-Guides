@@ -943,6 +943,21 @@ function WoWPro:RowUpdate(offset)
                     end}
                 )
             end
+            tinsert(dropdown,
+                {text = "Report issue", func = function()
+                    WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue","Hit escape to dismiss")
+					local LogBox = WoWPro.LogBox
+					local X, Y, mapId = WoWPro:GetPlayerZonePosition()
+					if (not X) or (not Y) then
+						local text = "\n" .. ("Player at ?/%s@%q aka %q aka %q"):format(tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText())
+						LogBox.Box:SetText(text)
+					else
+						local text = "\n" .. ("Player at %.2f,%.2f/%s@%q aka %q aka %q"):format(X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText()) .. "\n\nStep Info:\n" .. WoWPro.fullStep[currentRow.index]
+						LogBox.Box:SetText(text)
+					end
+					LogBox:Show()
+                end}
+            )
         end
         WoWPro.RowDropdownMenu[i] = dropdown
 
