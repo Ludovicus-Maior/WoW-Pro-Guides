@@ -4,7 +4,7 @@ WoWPro:GuideNextGuide(guide, "BitWes1020")
 WoWPro:GuideSteps(guide, function()
 return [[
 A Report to Goldshire|QID|54|M|48.22,42.03|N|From Marshal McBride in Northshire Valley|PRE|26390|RANK|2|
-A Rest and Relaxation|QID|37112|M|45.42,48.99|N|From Falkhaan Isenstrider (who is slightly beyond the main entrance in the forest).|ACTIVE|54|
+A Rest and Relaxation|QID|37112|M|45.42,48.99|Z|Elwynn Forest|N|From Falkhaan Isenstrider (who is slightly beyond the main entrance in the forest).|ACTIVE|54|
 ;f Goldshire|QID|37112|M|41.72,64.64|N|At Bartlett the Brave.|
 h Lion's Pride Inn|QID|37112|M|43.77,65.80|N|At Innkeeper Farley.|ACTIVE|37112|
 T Rest and Relaxation|QID|37112|M|43.77,65.80|N|To Innkeeper Farley.|
