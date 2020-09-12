@@ -50,7 +50,7 @@ C Forbidden Quilboar Necromancy|QID|59939|M|61.51,62.91|Z|Exile's Reach!Instance
 T Forbidden Quilboar Necromancy|QID|59939|M|56.26,59.17|Z|Exile's Reach!Instance|N|To Mithdran Dawntracker.|
 T Down with the Quilboar|QID|59938|M|56.16,59.13|Z|Exile's Reach!Instance|N|To Cork Fizzlepop.|
 A The Choppy Booster Mk 5|QID|59940|M|56.16,59.13|Z|Exile's Reach!Instance|N|From Cork Fizzlepop.|PRE|59938&59939|
-C The Choppy Booster Mk 5|QID|59940|M|55.04,54.20|Z|Exile's Reach!Instance|NC|N|Click the Choppy Booster Mk 5, sit back and watch the cutscene.|
+C The Choppy Booster Mk 5|QID|59940|M|56.06,58.79|Z|Exile's Reach!Instance|NC|N|Click the Choppy Booster Mk 5, sit back and watch the cutscene.|
 T The Choppy Booster Mk 5|QID|59940|M|56.17,59.13|Z|Exile's Reach!Instance|N|To Cork Fizzlepop.|
 A Re-sizing the Situation|QID|59941|M|56.17,59.13|Z|Exile's Reach!Instance|N|From Cork Fizzlepop.|PRE|59940|
 C Re-sizing the Situation|QID|59941|M|55.98,57.96|Z|Exile's Reach!Instance|U|178051|NC|N|Use the Re-Sizer v9.0.1 on Wandering Boars in the area.|
