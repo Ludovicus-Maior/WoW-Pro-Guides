@@ -3,7 +3,7 @@ WoWPro:GuideLevels(guide, 50, 60, 50)
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Shadowlands Intro - The Maw")
 WoWPro:GuideName(guide,"Shadowlands Intro - The Maw")
-WoWPro:GuideNextGuide(guide, 'Bastion')
+WoWPro:GuideNextGuide(guide, 'SL_Bastion')
 WoWPro:GuideSteps(guide, function()
 return [[
 A A Chilling Summons|QID|61874|Z|Orgrimmar|N|From Highlord Darion Mograine. Auto Accepted.|FACTION|Horde|
