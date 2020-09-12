@@ -1,7 +1,9 @@
 local guide = WoWPro:RegisterGuide('EliMawIntro', 'Leveling', "The Maw", 'Elidion', 'Neutral')
 WoWPro:GuideLevels(guide, 50, 60, 50)
 WoWPro:GuideSort(guide, 2)
+WoWPro:GuideNickname(guide, "Shadowlands Intro - The Maw")
 WoWPro:GuideName(guide,"Shadowlands Intro - The Maw")
+WoWPro:GuideNextGuide(guide, 'SL_Bastion')
 WoWPro:GuideSteps(guide, function()
 return [[
 A A Chilling Summons|QID|61874|Z|Orgrimmar|N|From Highlord Darion Mograine. Auto Accepted.|FACTION|Horde|
@@ -64,7 +66,7 @@ C The Lion's Cage|QID|59759|M|25.88,14.98|Z|The Maw!Instance|QO|3|CHAT|N|Speak t
 T The Lion's Cage|QID|59759|M|25.09,13.48|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A The Afflictor's Key|QID|59760|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin Wrynn.|PRE|59759|LVL|50|
 A An Undeserved Fate|QID|59761|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin Wrynn.|PRE|59759|LVL|50|
-C An Undeserved Fate|QID|59761|M|PLAYER|Z|The Maw!Instance|S|N|Collect Mawsworn Keys from Mawsworn forces in the Tremaculum and use them to free Shackled Souls.|
+C An Undeserved Fate|QID|59761|M|25.77,17.34|Z|The Maw!Instance|S|N|Collect Mawsworn Keys from Mawsworn forces in the Tremaculum and use them to free Shackled Souls.|
 C The Afflictor's Key 1|QID|59760|CS|M|28.18,18.89;27.52,14.50;28.02,11.06|Z|The Maw!Instance|QO|1|N|Kill the Afflictor to get the Key.|
 C An Undeserved Fate|QID|59761|M|PLAYER|Z|The Maw!Instance|US|N|Collect Mawsworn Keys from Mawsworn forces in the Tremaculum and use them to free Shackled Souls.|
 C The Afflictor's Key 2|QID|59760|CS|M|27.54,17.31;25.09,13.48|Z|The Maw!Instance|QO|2|N|Open Anduins Locks.|
@@ -97,49 +99,48 @@ T The Path to Salvation|QID|59767|M|42.47,42.18|Z|The Maw!Instance|N|To Anduin W
 A Stand as One|QID|59770|M|42.47,42.23|Z|The Maw!Instance|N|From Anduin Wrynn.|PRE|59767|LVL|50|
 C Stand as One 1|QID|59770|M|42.47,42.23|Z|The Maw!Instance|QO|1|NC|N|Touch the Eroded Waystone.|
 C Stand as One 2|QID|59770|M|42.38,42.18|Z|The Maw!Instance|QO|2|N|Survive the Jailer's Onslaught.|
-T Stand as One|QID|59770|M|42.67,42.18|Z|The Maw!Instance|N|To Eroded Waystone.
+T Stand as One|QID|59770|M|42.38,42.16|Z|The Maw!Instance|N|To Eroded Waystone.|
 A Stranger in an Even Stranger Land|QID|60129|M|19.25,50.31|Z|1670|N|Auto Accepted.|PRE|59770|
-C Stranger in an Even Stranger Land|QID|60129|M|23.42,49.80|Z|1670|QO|1|CHAT|N|Talk to Protector Captain
-C Stranger in an Even Stranger Land|QID|60129|M|39.85,65.52|Z|1670|QO|2|N|Follow Protector Captain
-C Stranger in an Even Stranger Land|QID|60129|M|39.88,66.44|Z|1670|QO|3|CHAT|N|Speak Overseer Kah-Delen
-T Stranger in an Even Stranger Land|QID|60129|M|39.88,66.44|Z|1670|N|Turn into Overseer Kah-Delen
-A No Place for the Living|QID|60148|M|39.85,65.52|Z|1670|N|From Overseer Kah-Delen|PRE|60129|
-C No Place for the Living|QID|60148|M|39.85,65.52|Z|1670|QO|1|CHAT|N|Talk to Overseer Kah-Delen|
-C No Place for the Living|QID|60148|M|39.85,65.52|Z|1670|QO|2|N|Listen to the Overseers|
-T No Place for the Living|QID|60148|M|40.81,65.76|Z|1670|N|Turn into Tal-Inara|
-A Audience with the Arbiter|QID|60149|M|40.81,65.76|Z|1670|N|From Tal-Inara|PRE|60148|
-C Audience with the Arbiter|QID|60149|M|40.81,65.76|Z|1670|QO|1|CHAT|N|Talk to Tal-Inara|
-C Audience with the Arbiter|QID|60149|M|48.73,48.73|Z|1670|QO|2|CHAT|N|Talk to Tal-Inara|
-C Audience with the Arbiter|QID|60149|M|48.73,48.73|Z|1670|QO|3|CHAT|N|Talk to Tal-Inara to return to the bottom level|
-T Audience with the Arbiter|QID|60149|M|39.87,66.29|Z|1670|N|To Overseer Kah-Delen|
-A Tether to Home|QID|60150|M|39.87,66.29|Z|1670|N|From Overseer Kah-Delen|PRE|60149|
-C Tether to Home|QID|60150|M|39.82,68.68|Z|1670|NC|N|Click the Shadowlands Map to affix the Helm of Domination|
-T Tether to Home|QID|60150|M|40.31,64.84|Z|1670|N|To Highlord Bolvar Fordragon|
-A A Doorway Through the Veil|QID|60151|M|40.23,65.14|Z|1670|N|From Tal-Inara|PRE|60150|
-C A Doorway Through the Veil|QID|60151|M|39.87,64.24|Z|1670|QO|1|CHAT|N|Speak to the Ebon Blade Acolyte|
+C Stranger in an Even Stranger Land|QID|60129|M|23.42,49.80|Z|1670|QO|1|CHAT|N|Talk to Protector Captain.|
+C Stranger in an Even Stranger Land|QID|60129|M|39.85,65.52|Z|1670|QO|2|N|Follow Protector Captain.|
+C Stranger in an Even Stranger Land|QID|60129|M|39.88,66.44|Z|1670|QO|3|CHAT|N|Speak Overseer Kah-Delen.|
+T Stranger in an Even Stranger Land|QID|60129|M|39.88,66.44|Z|1670|N|To Overseer Kah-Delen.|
+A No Place for the Living|QID|60148|M|39.85,65.52|Z|1670|N|From Overseer Kah-Delen.|PRE|60129|
+C No Place for the Living|QID|60148|M|39.85,65.52|Z|1670|QO|1|CHAT|N|Talk to Overseer Kah-Delen.|
+C No Place for the Living|QID|60148|M|39.85,65.52|Z|1670|QO|2|N|Listen to the Overseers.|
+T No Place for the Living|QID|60148|M|40.81,65.76|Z|1670|N|Turn into Tal-Inara.|
+A Audience with the Arbiter|QID|60149|M|40.81,65.76|Z|1670|N|From Tal-Inara.|PRE|60148|
+C Audience with the Arbiter|QID|60149|M|40.81,65.76|Z|1670|QO|1|CHAT|N|Talk to Tal-Inara.|
+C Audience with the Arbiter|QID|60149|M|PLAYER|Z|1670|QO|2|CHAT|N|Talk to Tal-Inara.|
+C Audience with the Arbiter|QID|60149|M|PLAYER|Z|1670|QO|3|CHAT|N|Talk to Tal-Inara to return to the bottom level.|
+T Audience with the Arbiter|QID|60149|M|39.87,66.29|Z|1670|N|To Overseer Kah-Delen.|
+A Tether to Home|QID|60150|M|39.87,66.29|Z|1670|N|From Overseer Kah-Delen.|PRE|60149|
+C Tether to Home|QID|60150|M|39.82,68.68|Z|1670|NC|N|Click the Shadowlands Map to affix the Helm of Domination.|
+T Tether to Home|QID|60150|M|40.31,64.84|Z|1670|N|To Highlord Bolvar Fordragon.|
+A A Doorway Through the Veil|QID|60151|M|40.23,65.14|Z|1670|N|From Tal-Inara.|PRE|60150|
+C A Doorway Through the Veil|QID|60151|M|39.87,64.24|Z|1670|QO|1|CHAT|N|Speak to the Ebon Blade Acolyte.|
 C A Doorway Through the Veil|QID|60151|M|21.65,50.53|Z|1670|QO|2|N|Head to the landing.|
-C A Doorway Through the Veil|QID|60151|M|21.65,50.53|Z|1670|QO|3|CHAT|N|Speak to the Ebon Blade Acolyte|
-T A Doorway Through the Veil|QID|60151|M|40.29,66.53|Z|1670|N|To Overseer Kah-Sher|
-A The Eternal City|QID|60152|M|40.28,66.22|Z|1670|N|From Tal-Inara|PRE|60151|
-C The Eternal City|QID|60152|M|64.17,68.09|Z|1670|QO|1|CHAT|N|Speak to Overseer Ta'readon|
-C The Eternal City|QID|60152|M|67.21,50.29|Z|1670|QO|5|CHAT|N|Speak to Host Ta'rela|
+C A Doorway Through the Veil|QID|60151|M|21.65,50.53|Z|1670|QO|3|CHAT|N|Speak to the Ebon Blade Acolyte.|
+T A Doorway Through the Veil|QID|60151|M|40.29,66.53|Z|1670|N|To Overseer Kah-Sher.|
+A The Eternal City|QID|60152|M|40.28,66.22|Z|1670|N|From Tal-Inara.|PRE|60151|
+C The Eternal City|QID|60152|M|64.17,68.09|Z|1670|QO|1|CHAT|N|Speak to Overseer Ta'readon.|
+C The Eternal City|QID|60152|M|67.21,50.29|Z|1670|QO|5|CHAT|N|Speak to Host Ta'rela.|
 C The Eternal City|QID|60152|M|78.93,49.16|Z|1670|QO|2|CHAT|N|Speak to the Fatescribe.|
-C The Eternal City|QID|60152|M|60.63,31.32|Z|1670|QO|4|CHAT|N|Speak to Caretaker Kah-Rahm|
-C The Eternal City|QID|60152|M|40.63,33.12|Z|1670|QO|3|CHAT|N|Speak to Foreman Au'brak|
-C The Eternal City|QID|60152|M|69.88,66.44|Z|1670|QO|6|CHAT|N|Return to the Enclave|
-T The Eternal City|QID|60152|M|39.88,66.40|Z|1670|N|To Overseer Kah-Delen|
-A Understanding the Shadowlands|QID|60154|M|40.30,65.39|Z|1670|N|From Highlord Bolvar Fordragon|PRE|60152|
-C Understanding the Shadowlands|QID|60154|M|40.59,66.13|Z|1670|QO|1|CHAT|N|Speak to Tal-Inara|
-C Understanding the Shadowlands|QID|60154|M|40.59,66.13|Z|1670|QO|2|CHAT|N|Speak to Kah-Sher|
-C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|1670|QO|3|NC|N|Take the Transport Pad to the Ring of Transference|
-T Understanding the Shadowlands|QID|60154|M|50.62,62.19|Z|1670|NC|N|To Overseer Kah-Sher|
-A The Path to Bastion|QID|60156|M|50.73,62.87|Z|1670|N|From Overseer Kah-Sher|PRE|60154|
-f Ring of Transference|ACTIVE|60156|M|60.41,68.00|Z|1670|N|At Mover Ta'kirig|
-C The Path to Bastion|QID|60156|M|40.59,66.13|Z|1670|QO|1|N|Follow Kah-Sher to the gate|
+C The Eternal City|QID|60152|M|60.63,31.32|Z|1670|QO|4|CHAT|N|Speak to Caretaker Kah-Rahm.|
+C The Eternal City|QID|60152|M|40.63,33.12|Z|1670|QO|3|CHAT|N|Speak to Foreman Au'brak.|
+C The Eternal City|QID|60152|M|39.88,66.44|Z|1670|QO|6|CHAT|N|Return to the Enclave.|
+T The Eternal City|QID|60152|M|39.88,66.40|Z|1670|N|To Overseer Kah-Delen.|
+A Understanding the Shadowlands|QID|60154|M|40.30,64.97|Z|1670|N|From Highlord Bolvar Fordragon.|PRE|60152|
+C Understanding the Shadowlands|QID|60154|M|40.59,66.13|Z|1670|QO|1|CHAT|N|Speak to Tal-Inara.|
+C Understanding the Shadowlands|QID|60154|M|40.59,66.13|Z|1670|QO|2|CHAT|N|Speak to Kah-Sher.|
+C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|1670|QO|3|NC|N|Take the Transport Pad to the Ring of Transference.|
+T Understanding the Shadowlands|QID|60154|M|50.59,62.23|Z|1670||N|To Overseer Kah-Sher.|
+A The Path to Bastion|QID|60156|M|50.73,62.87|Z|1670|N|From Overseer Kah-Sher.|PRE|60154|
+C The Path to Bastion|QID|60156|M|40.59,66.13|Z|1670|QO|1|N|Follow Kah-Sher to the gate.|
 C The Path to Bastion|QID|60156|M|64.11,51.57|Z|1670|QO|2|NC|N|Click the Blue Sword in front of you.|
-T The Path to Bastion|QID|60156|M|63.86,52.25|Z|1670|N|To Overseer Kah-Sher|
-A Seek the Ascended|QID|59773|M|63.47,52.16|Z|1671|N|From Overseer Kah-Sher|PRE|60156|
-C Seek the Ascended|QID|59773|M|66.69,51.59|Z|1671|NC|N|Click the big glowing portal in front of you
-T Seek the Ascended|QID|59773|M|37.47,76.44|Z|Bastion|N|To Kleia
+T The Path to Bastion|QID|60156|M|63.86,52.25|Z|1670|N|To Overseer Kah-Sher.|
+A Seek the Ascended|QID|59773|M|63.47,52.16|Z|1671|N|From Pathscribe Roh-Avonavi.|PRE|60156|
+C Seek the Ascended|QID|59773|M|64.20,49.88|Z|1671|CHAT|N|Talk to Pathscribe Roh-Avonavi.|
+T Seek the Ascended|QID|59773|M|37.47,76.44|Z|Bastion|N|To Kleia.|
 ]]
 end)
