@@ -37,7 +37,7 @@ WoWPro.actiontypes = {
     d = "Interface\\AddOns\\WoWPro\\Textures\\dead.tga",
     s = "Interface\\Icons\\Spell_Shadow_DeathScream",
 }
-if _G.UnitFactionGroup("player") == 'Alliance' then
+if WoWPro.Faction == 'Alliance' then
     WoWPro.actiontypes['P'] = "Interface\\MINIMAP\\Vehicle-AllianceMagePortal"
 else
     WoWPro.actiontypes['P'] = "Interface\\MINIMAP\\Vehicle-HordeMagePortal"
@@ -787,7 +787,7 @@ function WoWPro.ParseSteps(steps)
     local i = 2  -- Leave room the the L step
     local _, myclass = _G.UnitClass("player")
     local _, myrace = _G.UnitRace("player")
-    local myFaction = _G.UnitFactionGroup("player"):upper()
+    local myFaction = WoWPro.Faction:upper()
     local zone = (WoWPro.Guides[GID].zone or ""):match("([^%(]+)"):trim()
 
     if WoWPro.Recorder then

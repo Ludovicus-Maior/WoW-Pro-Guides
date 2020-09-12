@@ -221,9 +221,9 @@ function WoWPro:LogClear(where)
     WoWPro:Print("Log Reset from %s, WoWPro Version %s.", where, WoWPro.Version)
     WoWPro:print("Class: %s, Race: %s, Faction: %s, Level %d, XP %d",
                  _G.UnitClass("player"), _G.UnitRace("player"),
-                 _G.UnitFactionGroup("player"), _G.UnitLevel("player"), _G.UnitXP("player"))
+                 WoWPro.Faction, _G.UnitLevel("player"), _G.UnitXP("player"))
 end
-
+WoWPro.Faction = _G.UnitFactionGroup("player")
 WoWPro:LogClear("Addon Load")
 
 
@@ -665,7 +665,7 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
         WoWPro:NoCoordsOK(guide)
     end
 
-    if faction and faction ~= _G.UnitFactionGroup("player") and faction ~= "Neutral" then
+    if faction and faction ~= WoWPro.Faction and faction ~= "Neutral" then
         -- If the guide is not of the correct side, don't register it
         return guide
     end
@@ -1257,10 +1257,6 @@ end
 --- Release Function Compatability Section
 WoWPro.CLASSIC = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC
 WoWPro.RETAIL = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_MAINLINE
-
--- Any check for SHADOWLANDS should be changed to RETAIL once live
-local _, _, _, TOC = _G.GetBuildInfo()
-WoWPro.SHADOWLANDS = WoWPro.RETAIL and TOC >= 90001
 
 -- Change this to fake out a classic load on retail
 WoWPro.FakeClassic = false

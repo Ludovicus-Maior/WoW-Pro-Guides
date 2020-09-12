@@ -481,7 +481,7 @@ function WoWPro.LoadGuideReal()
 
     -- If the current guide can not be found, see if it was renamed.
     if not WoWPro.Guides[GID] then
-        local myUFG = _G.UnitFactionGroup("player"):sub(1,1)
+        local myUFG = WoWPro.Faction:sub(1,1)
         local name,levels = GID:match("([A-Za-z]+)([0-9]+)")
         levels = levels or ""
         name = name or ""
@@ -549,7 +549,7 @@ function WoWPro:GuideFormalName(GID)
 end
 
 function WoWPro:NextGuide(GID)
-    local myUFG = _G.UnitFactionGroup("player")
+    local myUFG = WoWPro.Faction
     local nextGID = WoWPro.Guides[GID].nextGID
     if not nextGID then
         -- If there is no next guide defined, see if we can pop something off the stack

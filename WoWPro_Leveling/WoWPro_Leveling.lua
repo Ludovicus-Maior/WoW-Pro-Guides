@@ -78,7 +78,7 @@ function WoWPro.Leveling:OnEnable()
             else
 				local mapID = _G.C_Map.GetBestMapForUnit("player");
 				if mapID == 1727 then
-					local faction = _G.UnitFactionGroup("player")
+					local faction = WoWPro.Faction
 					if faction == "Horde" then
 						WoWProDB.char.currentguide = "EliHordeExile"
 					else
