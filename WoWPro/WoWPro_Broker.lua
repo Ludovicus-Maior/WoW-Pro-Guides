@@ -952,7 +952,7 @@ function WoWPro:RowUpdate(offset)
 						local text = "\n" .. ("Player at ?/%s@%q aka %q aka %q"):format(tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText())
 						LogBox.Box:SetText(text)
 					else
-						local text = "\n" .. ("Player at %.2f,%.2f/%s@%q aka %q aka %q"):format(X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText()) .. "\n\nStep Info:\n" .. WoWPro.fullStep[currentRow.index]
+						local text = "\n" .. ("Player at %.2f,%.2f/%s@%q aka %q aka %q"):format(X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText()) .. "\n\n" .. WoWPro:GuideStatus()
 						LogBox.Box:SetText(text)
 					end
 					LogBox:Show()
