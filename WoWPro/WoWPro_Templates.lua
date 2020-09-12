@@ -142,7 +142,7 @@ local SortableScrollListMixin = _G.Mixin({}, ScrollListMixin)
 function SortableScrollListMixin:OnLoad()
     ScrollListMixin.OnLoad(self)
 
-    if WoWPro.SHADOWLANDS then
+    if not WoWPro.CLASSIC then
         _G.Mixin(self.titleRow, _G.BackdropTemplateMixin)
         self.titleRow:OnBackdropLoaded()
     end

@@ -42,7 +42,7 @@ frame:SetScript("OnShow", function()
         subtitle:SetText(L["The module for your current guide is not loaded."])
         return
     else
-        local faction = _G.UnitFactionGroup("player")
+        local faction = WoWPro.Faction
         local guide = WoWProDB.char.currentguide
         subtitle:SetText("Faction: "..faction.."\nGuide ID: "..guide)
     end
@@ -241,7 +241,7 @@ function WoWPro:GuideBugReport()
     local LogBox = WoWPro.LogBox
     local text
     local GID = WoWProDB.char.currentguide
-    text = ("Version: %s, Class: %s, Race: %s, Faction: %s, Guide: %s\n\n"):format(WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), _G.UnitFactionGroup("player"), tostring(GID))
+    text = ("Version: %s, Class: %s, Race: %s, Faction: %s, Guide: %s\n\n"):format(WoWPro.Version, _G.UnitClass("player"), _G.UnitRace("player"), WoWPro.Faction, tostring(GID))
     text = text .. WoWPro:QuestLogStatus() .. "\n"
     text = text .. WoWPro:GuideStatus() .. "\n"
     LogBox.Box:SetText(text)

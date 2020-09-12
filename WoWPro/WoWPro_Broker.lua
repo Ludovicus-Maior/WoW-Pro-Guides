@@ -481,7 +481,7 @@ function WoWPro.LoadGuideReal()
 
     -- If the current guide can not be found, see if it was renamed.
     if not WoWPro.Guides[GID] then
-        local myUFG = _G.UnitFactionGroup("player"):sub(1,1)
+        local myUFG = WoWPro.Faction:sub(1,1)
         local name,levels = GID:match("([A-Za-z]+)([0-9]+)")
         levels = levels or ""
         name = name or ""
@@ -549,7 +549,7 @@ function WoWPro:GuideFormalName(GID)
 end
 
 function WoWPro:NextGuide(GID)
-    local myUFG = _G.UnitFactionGroup("player")
+    local myUFG = WoWPro.Faction
     local nextGID = WoWPro.Guides[GID].nextGID
     if not nextGID then
         -- If there is no next guide defined, see if we can pop something off the stack
@@ -943,6 +943,21 @@ function WoWPro:RowUpdate(offset)
                     end}
                 )
             end
+            tinsert(dropdown,
+                {text = "Report issue", func = function()
+                    WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue","Hit escape to dismiss")
+					local LogBox = WoWPro.LogBox
+					local X, Y, mapId = WoWPro:GetPlayerZonePosition()
+					if (not X) or (not Y) then
+						local text = "\n" .. ("Player at ?/%s@%q aka %q aka %q"):format(tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText())
+						LogBox.Box:SetText(text)
+					else
+						local text = "\n" .. ("Player at %.2f,%.2f/%s@%q aka %q aka %q"):format(X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText()) .. "\n\nStep Info:\n" .. WoWPro.fullStep[currentRow.index]
+						LogBox.Box:SetText(text)
+					end
+					LogBox:Show()
+                end}
+            )
         end
         WoWPro.RowDropdownMenu[i] = dropdown
 
