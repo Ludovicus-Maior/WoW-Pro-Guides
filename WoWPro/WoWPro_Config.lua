@@ -35,589 +35,606 @@ local soundfiles = {
 
 
 local function CreateDisplayConfig()
-    return {
-        type = "group",
-        order = 2,
-        name = L["Guide Display"],
-        desc = L["Options that alter the way the guide frame looks"],
-        args = {
-            desc = {
-                order = 0,
-                type = "description",
-                name = L["On this page you can edit the way the guide frame looks."],
-            },
-            blank1 = {
-                order = 1,
-                type = "description",
-                name = " ",
-            },
-            drag = {
-                order = 2,
-                type = "toggle",
-                name = L["Enable Drag"],
-                desc = L["Enables the guide window to be moved by clicking anywhere on it and dragging"],
-                get = function(info) return WoWProDB.profile.drag end,
-                set = function(info,val) WoWProDB.profile.drag = val
-                    WoWPro.DragSet() end,
-            },
-            anchorpoint = {
-                order = 3,
-                type = "select",
-                name = L["Anchor Point"],
-                desc = L["Where the window will anchor, growing out from that point as it changes size."],
-                values = {
-                        AUTO = "Auto",
-                        TOPLEFT = "Top Left",
-                        TOP = "Top",
-                        TOPRIGHT = "Top Right",
-                        LEFT = "Left",
-                        CENTER = "Center",
-                        RIGHT = "Right",
-                        BOTTOMLEFT = "Bottom Left",
-                        BOTTOM = "Bottom",
-                        BOTTOMRIGHT = "Bottom Right"
-                    },
-                get = function(info) return WoWProDB.profile.anchorpoint end,
-                set = function(info,val) WoWProDB.profile.anchorpoint = val
-                    WoWPro.AnchorSet() end
-            },
-            padding = {
-                order = 4,
-                type = "range",
-                name = L["Padding"],
-                desc = L["The padding determines how much blank space is left between the guide text and the border of the guide frame."],
-                min = 0, max = 20, step = 1,
-                get = function(info) return WoWProDB.profile.pad end,
-                set = function(info,val) WoWProDB.profile.pad = val
-                    WoWPro.PaddingSet(); WoWPro.RowSizeSet() end
-            },
-            spacing = {
-                order = 5,
-                type = "range",
-                name = L["Spacing"],
-                desc = L["Spacing determines how much blank space is left between lines in the guide text. "],
-                min = 0, max = 10, step = 1,
-                get = function(info) return WoWProDB.profile.space end,
-                set = function(info,val) WoWProDB.profile.space = val
-                    WoWPro.RowSizeSet() end
-            },
-            hide = {
-                order = 6,
-                type = "toggle",
-                name = L["Enable Instance Hiding"],
-                desc = L["Enables/Disables hiding the active module when inside an instance (Dungeon, Arena ...), unless the guide wants you there!"],
-                get = function(info) return WoWProCharDB.AutoHideInsideInstances ; end,
-                set = function(info,val)
-                        if WoWProCharDB.AutoHideInsideInstances == true then WoWProCharDB.AutoHideInsideInstances=false; else WoWProCharDB.AutoHideInsideInstances=true; end
-                    end
-            },
-            combathide = {
-                order = 7,
-                type = "toggle",
-                name = L["Enable Combat Hiding"],
-                desc = L["Enables/Disables hiding the active module when you are in combat."],
-                get = function(info) return WoWProCharDB.AutoHideInCombat ; end,
-                set = function(info,val)
-                        if WoWProCharDB.AutoHideInCombat == true then WoWProCharDB.AutoHideInCombat=false; else WoWProCharDB.AutoHideInCombat=true; end
-                    end
-            },
-            noteshow = {
-                order = 8,
-                type = "toggle",
-                name = L["Mouseover Notes"],
-                desc = L["Show notes on mouseover instead of always displaying them."],
-                get = function(info) return WoWProDB.profile.mousenotes end,
-                set = function(info,val) WoWProDB.profile.mousenotes = val
-                    WoWPro.RowSizeSet() end
-            },
-            minimap = {
-                order = 9,
-                type = "toggle",
-                name = L["Minimap Button"],
-                desc = L["Show/hide WoW-Pro mini map button."],
-                get = function(info) return not WoWProDB.profile.minimap.hide end,
-                set = function(info,val) WoWProDB.profile.minimap.hide = not val
-                     WoWPro.MinimapSet() end
-            },
-            track = {
-                order = 10,
-                type = "toggle",
-                name = L["Quest Tracking"],
-                desc = L["Allows tracking of quests in the guide frame"],
-                get = function(info) return WoWProDB.profile.track end,
-                set = function(info,val) WoWProDB.profile.track = val
-                    WoWPro:UpdateGuide("Config: Quest Tracking") end
-            },
-            showcoords = {
-                order = 11,
-                type = "toggle",
-                name = L["Show Coordinates"],
-                desc = L["Shows the coordinates in the note text."],
-                get = function(info) return WoWProDB.profile.showcoords end,
-                set = function(info,val) WoWProDB.profile.showcoords = val
-                    WoWPro:UpdateGuide("Config: Show Coordinates") end
-            },
-            autoload = {
-                order = 12,
-                type = "toggle",
-                name = L["Auto-Load Guide"],
-                desc = L["Will automatically load the next guide when you complete one."],
-                get = function(info) return WoWProDB.profile.autoload end,
-                set = function(info,val) WoWProDB.profile.autoload = val end
-            },
-            blank2 = {
-                order = 20,
-                type = "description",
-                name = " ",
-            },
-            guidescroll = {
-                order = 21,
-                type = "toggle",
-                name = L["Scroll Mode"],
-                desc = L["Displays full, scrollable guide in guide frame, instead of need-to-know info."],
-                get = function(info) return WoWProDB.profile.guidescroll end,
-                set = function(info,val) WoWProDB.profile.guidescroll = val
-                    WoWPro:TitlebarSet()
-                    WoWPro:UpdateGuide("Config: Scroll Mode") end
-            },
-            checksoundfile = {
-                order = 22,
-                type = "select",
-                name = L["Step Completed Sound"],
-                desc = L["Sound played when a guide step is completed"],
-                values = function() local values = {}
-                    for k,v in pairs(soundfiles) do
-                        values[v] = k
-                    end
-                    return values end,
-                get = function(info)
-                    return WoWProDB.profile.checksoundfile end,
-                set = function(info,val) WoWProDB.profile.checksoundfile = val
-                    _G.PlaySoundFile(val) end,
-                disabled = function(...) return not WoWProDB.profile.checksound end,
-            },
-            checksound = {
-                order = 23,
-                type = "toggle",
-                name = L["Enable Sound"],
-                desc = L["Plays a check-off sound when a guide step is completed."],
-                get = function(info) return WoWProDB.profile.checksound end,
-                set = function(info,val) WoWProDB.profile.checksound = val end
-            },
-            lefty = {
-                order = 24,
-                type = "toggle",
-                name = L["Left Handed"],
-                desc = L["Put Use and Target Icons on the right side of the guide window."],
-                get = function(info) return WoWProDB.profile.leftside end,
-                set = function(info,val) WoWProDB.profile.leftside = val end
-            },
-            blank3 = {
-                order = 30,
-                type = "description",
-                name = " ",
-            },
-            resizeheading = {
-                order = 31,
-                type = "header",
-                name = L["Resize Settings"],
-            },
-            resize = {
-                order = 32,
-                type = "toggle",
-                name = L["Resize Handle"],
-                desc = L["Enables the guide window to be resized using the resize handle in the lower right corner. \nTurns off auto resizing."],
-                get = function(info) return WoWProDB.profile.resize end,
-                set = function(info,val) WoWProDB.profile.resize = val
-                    if val then WoWProDB.profile.autoresize = false end
-                    WoWPro.ResizeSet() end
-            },
-            autoresize = {
-                order = 33,
-                type = "toggle",
-                name = L["Auto Resize"],
-                desc = L["Guide will automatically resize to the set number of steps. \nManual resize recommended for advanced users only. \nHides drag handle."],
-                get = function(info) return WoWProDB.profile.autoresize end,
-                set = function(info,val) WoWProDB.profile.autoresize = val
-                    if val then WoWProDB.profile.resize = false end
-                    WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
-            },
-            numsteps = {
-                order = 34,
-                type = "range",
-                name = L["Auto Resize: Number of Steps"],
-                desc = L["Number of steps displayed in the guide window. \nThe window is automatically resized to show this number of steps. \nDoes not include sticky steps."],
-                min = 1, max = 15, step = 1,
-                get = function(info) return WoWProDB.profile.numsteps end,
-                set = function(info,val) WoWProDB.profile.numsteps = val
-                    WoWPro.RowSizeSet() end,
-                width = "double"
-            },
-            minresizeh = {
-                order = 35,
-                type = "range",
-                name = L["Min Resize - Horiz"],
-                desc = L["Minimum horizontal pixel size the guide window can be set to."],
-                min = 50, max = 1000, step = 10,
-                get = function(info) return WoWProDB.profile.hminresize end,
-                set = function(info,val) WoWProDB.profile.hminresize = val
-                    WoWPro:ResizeSet(); WoWPro.RowSizeSet() end
-            },
-            minresizev = {
-                order = 36,
-                type = "range",
-                name = L["Min Resize - Vert"],
-                desc = L["Minimum vertical pixel size the guide window can be set to."],
-                min = 50, max = 1000, step = 10,
-                get = function(info) return WoWProDB.profile.vminresize end,
-                set = function(info,val) WoWProDB.profile.vminresize = val
-                    WoWPro:ResizeSet(); WoWPro.RowSizeSet() end
-            },
-            blank4 = {
-                order = 40,
-                type = "description",
-                name = " ",
-            },
-            titleheading = {
-                order = 41,
-                type = "header",
-                name = L["Title Bar"],
-            },
-            titlebar = {
-                order = 42,
-                type = "toggle",
-                name = L["Enable Title Bar"],
-                desc = L["Enables/disables the title bar attached to the guide window."],
-                get = function(info) return WoWProDB.profile.titlebar end,
-                set = function(info,val) WoWProDB.profile.titlebar = val
-                    WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.RowSizeSet() end
-            },
-            titlecolor = {
-                order = 43,
-                type = "color",
-                name = L["Title Bar Color"],
-                desc = L["Background color for the title bar."],
-                hasAlpha = true,
-                get = function(info) return WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3] ,WoWProDB.profile.titlecolor[4] end,
-                set = function(info,r,g,b,a)
-                    WoWProDB.profile.titlecolor = {r,g,b,a}
-                    WoWPro.TitlebarSet() end
-            },
-            blank5 = {
-                order = 50,
-                type = "description",
-                name = " ",
-            },
-            bgheading = {
-                order = 51,
-                type = "header",
-                name = L["Backgrounds"],
-            },
-            bgtexture = {
-                order = 52,
-                type = "select",
-                name = L["Guide Window Background"],
-                desc = L["Texture used for the guide window background."],
-                values = function() local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("background")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("background")
-                    for i,handle in ipairs(list) do
-                        values[hashtable[handle]] = handle
-                    end
-                    return values end,
-                get = function(info)
-                    return WoWProDB.profile.bgtexture end,
-                set = function(info,val) WoWProDB.profile.bgtexture = val
-                    WoWPro.BackgroundSet() end
-            },
-            bgcolor = {
-                order = 53,
-                type = "color",
-                name = L["Guide Window Color"],
-                desc = L["Background color for the guide window"],
-                hasAlpha = true,
-                get = function(info) return WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3] ,WoWProDB.profile.bgcolor[4] end,
-                set = function(info,r,g,b,a)
-                    WoWProDB.profile.bgcolor = {r,g,b,a}
-                    WoWPro.BackgroundSet() end
-            },
-            bordertexture = {
-                order = 54,
-                type = "select",
-                name = L["Border Texture"],
-                desc = L["Texture used for the guide window border."],
-                values = function() local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("border")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("border")
-                    for i,handle in ipairs(list) do
-                        values[hashtable[handle]] = handle
-                    end
-                    return values end,
-                get = function(info)
-                    return WoWProDB.profile.bordertexture end,
-                set = function(info,val) WoWProDB.profile.bordertexture = val
-                    WoWPro.border = true
-                    WoWPro.BackgroundSet() end
-            },
-            border = {
-                order = 55,
-                type = "toggle",
-                name = L["Enable Border"],
-                desc = L["Enables/disables the border around the guide window."],
-                get = function(info) return WoWProDB.profile.border end,
-                set = function(info,val) WoWProDB.profile.border = val
-                    WoWPro.BackgroundSet() end
-            },
-            stickytexture = {
-                order = 56,
-                type = "select",
-                name = L["Sticky Background"],
-                desc = L["Texture used for sticky step background."],
-                values = function() local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("background")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("background")
-                    for i,handle in ipairs(list) do
-                        values[hashtable[handle]] = handle
-                    end
-                    return values end,
-                get = function(info)
-                    return WoWProDB.profile.stickytexture end,
-                set = function(info,val) WoWProDB.profile.stickytexture = val
-                    WoWPro.BackgroundSet(); WoWPro.RowColorSet() end
-            },
-            stickycolor = {
-                order = 57,
-                type = "color",
-                name = L["Sticky Step Color"],
-                desc = L["Background color for the sticky step frames."],
-                hasAlpha = true,
-                get = function(info) return WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3] ,WoWProDB.profile.stickycolor[4] end,
-                set = function(info,r,g,b,a)
-                    WoWProDB.profile.stickycolor = {r,g,b,a}
-                    WoWPro.BackgroundSet(); WoWPro.RowColorSet() end
-            },
-            blank6 = {
-                order = 60,
-                type = "description",
-                name = " ",
-            },
-            textheading = {
-                order = 61,
-                type = "header",
-                name = L["Text Formatting"],
-            },
-            stepfont = {
-                order = 62,
-                type = 'select',
-                dialogControl = 'LSM30_Font',
-                name = L["Step Font"],
-                desc = L["Font used for the main step text."],
-                values = _G.LibStub("LibSharedMedia-3.0"):HashTable("font"),
-                get = function(info) local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("font")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
-                    for i,handle in ipairs(list) do
-                        values[hashtable[handle]] = handle
-                    end
-                    local hash = values[WoWProDB.profile.stepfont]
-                    return hash end,
-                set = function(info,val)
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
-                    WoWProDB.profile.stepfont = hashtable[val]
-                    WoWPro.RowFontSet() end
-            },
-            steptextsize = {
-                order = 63,
-                type = "range",
-                name = L["Step Text Size"],
-                desc = L["Size of the main step text."],
-                min = 1, max = 30, step = 1,
-                get = function(info) return WoWProDB.profile.steptextsize end,
-                set = function(info,val) WoWProDB.profile.steptextsize = val
-                    WoWPro.RowFontSet()
-                    WoWPro.RowSizeSet() end
-            },
-            steptextcolor = {
-                order = 64,
-                type = "color",
-                name = L["Step Text Color"],
-                desc = L["Color of the main step text."],
-                width = "full",
-                get = function(info) return WoWProDB.profile.steptextcolor[1], WoWProDB.profile.steptextcolor[2], WoWProDB.profile.steptextcolor[3] end,
-                set = function(info,r,g,b)
-                    WoWProDB.profile.steptextcolor = {r,g,b}
-                    WoWPro.RowFontSet() end
-            },
-            notefont = {
-                order = 65,
-                type = 'select',
-                dialogControl = 'LSM30_Font',
-                name = L["Note Font"],
-                desc = L["Font used for the note text."],
-                values = _G.LibStub("LibSharedMedia-3.0"):HashTable("font"),
-                get = function(info) local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("font")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
-                    for i,handle in ipairs(list) do
-                        values[hashtable[handle]] = handle
-                    end
-                    local hash = values[WoWProDB.profile.notefont]
-                    return hash end,
-                set = function(info,val)
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
-                    WoWProDB.profile.notefont = hashtable[val]
-                    WoWPro.RowFontSet() end
-            },
-            notetextsize = {
-                order = 66,
-                type = "range",
-                name = L["Note Text Size"],
-                desc = L["Size of the note text."],
-                min = 1, max = 30, step = 1,
-                get = function(info) return WoWProDB.profile.notetextsize end,
-                set = function(info,val) WoWProDB.profile.notetextsize = val
-                    WoWPro.RowFontSet()
-                    WoWPro.RowSizeSet() end
-            },
-            notetextcolor = {
-                order = 67,
-                type = "color",
-                name = L["Note Text Color"],
-                desc = L["Color of the note text."],
-                width = "full",
-                get = function(info) return WoWProDB.profile.notetextcolor[1], WoWProDB.profile.notetextcolor[2], WoWProDB.profile.notetextcolor[3] end,
-                set = function(info,r,g,b)
-                    WoWProDB.profile.notetextcolor = {r,g,b}
-                    WoWPro.RowFontSet() end
-            },
-            trackfont = {
-                order = 68,
-                type = "select",
-                dialogControl = 'LSM30_Font',
-                name = L["Tracker Font"],
-                desc = L["Font used for the tracking text."],
-                values = _G.LibStub("LibSharedMedia-3.0"):HashTable("font"), -- pull in your font list from LSM
-                get = function(info) local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("font")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
-                    for i,handle in ipairs(list) do
-                        values[hashtable[handle]] = handle
-                    end
-                    local hash = values[WoWProDB.profile.trackfont]
-                    return hash end,
-                set = function(info,val)
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
-                    WoWProDB.profile.trackfont = hashtable[val]
-                    WoWPro.RowFontSet() end
-            },
-            tracktextsize = {
-                order = 69,
-                type = "range",
-                name = L["Tracker Text Size"],
-                desc = L["Size of the tracking text."],
-                min = 1, max = 30, step = 1,
-                get = function(info) return WoWProDB.profile.tracktextsize end,
-                set = function(info,val) WoWProDB.profile.tracktextsize = val
-                    WoWPro.RowFontSet()
-                    WoWPro.RowSizeSet() end
-            },
-            tracktextcolor = {
-                order = 70,
-                type = "color",
-                name = L["Tracker Text Color"],
-                desc = L["Color of the tracking text."],
-                width = "full",
-                get = function(info) return WoWProDB.profile.tracktextcolor[1], WoWProDB.profile.tracktextcolor[2], WoWProDB.profile.tracktextcolor[3] end,
-                set = function(info,r,g,b)
-                    WoWProDB.profile.tracktextcolor = {r,g,b}
-                    WoWPro.RowFontSet() end
-            },
-            titlefont = {
-                order = 71,
-                type = "select",
-                dialogControl = 'LSM30_Font',
-                name = L["Title Bar Font"],
-                desc = L["Font used on the title bar."],
-                values = _G.LibStub("LibSharedMedia-3.0"):HashTable("font"), -- pull in your font list from LSM
-                get = function(info) local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("font")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
-                    for i,handle in ipairs(list) do
-                        values[hashtable[handle]] = handle
-                    end
-                    local hash = values[WoWProDB.profile.titlefont]
-                    return hash end,
-                set = function(info,val)
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
-                    WoWProDB.profile.titlefont = hashtable[val]
-                    WoWPro:TitlebarSet() end
-            },
-            titletextsize = {
-                order = 72,
-                type = "range",
-                name = L["Title Bar Text Size"],
-                desc = L["Size of the title bar text."],
-                min = 1, max = 30, step = 1,
-                get = function(info) return WoWProDB.profile.titletextsize end,
-                set = function(info,val) WoWProDB.profile.titletextsize = val
-                    WoWPro:TitlebarSet() end
-            },
-            titletextcolor = {
-                order = 73,
-                type = "color",
-                name = L["Title Bar Text Color"],
-                desc = L["Color of the title bar text."],
-                width = "full",
-                get = function(info) return WoWProDB.profile.titletextcolor[1], WoWProDB.profile.titletextcolor[2], WoWProDB.profile.titletextcolor[3] end,
-                set = function(info,r,g,b)
-                    WoWProDB.profile.titletextcolor = {r,g,b}
-                    WoWPro:TitlebarSet() end
-            },
-            stickytitlefont = {
-                order = 74,
-                type = "select",
-                dialogControl = 'LSM30_Font',
-                name = L["'As you go:' Font"],
-                desc = L["Font used on the top of the sticky frame."],
-                values = _G.LibStub("LibSharedMedia-3.0"):HashTable("font"), -- pull in your font list from LSM
-                get = function(info) local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("font")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
-                    for i,handle in ipairs(list) do
-                        values[hashtable[handle]] = handle
-                    end
-                    local hash = values[WoWProDB.profile.stickytitlefont]
-                    return hash end,
-                set = function(info,val)
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
-                    WoWProDB.profile.stickytitlefont = hashtable[val]
-                    WoWPro.RowFontSet()
-                    WoWPro.RowSizeSet() end
-            },
-            stickytitletextsize = {
-                order = 75,
-                type = "range",
-                name = L["'As you go:' Text Size"],
-                desc = L["Size of the text on the top of the sticky frame."],
-                min = 1, max = 30, step = 1,
-                get = function(info) return WoWProDB.profile.stickytitletextsize end,
-                set = function(info,val) WoWProDB.profile.stickytitletextsize = val
-                    WoWPro.RowFontSet()
-                    WoWPro.RowSizeSet() end
-            },
-            stickytitletextcolor = {
-                order = 76,
-                type = "color",
-                name = L["'As you go:' Text Color"],
-                desc = L["Color of the text on the top of the sticky frame."],
-                width = "full",
-                get = function(info) return WoWProDB.profile.stickytitletextcolor[1], WoWProDB.profile.stickytitletextcolor[2], WoWProDB.profile.stickytitletextcolor[3] end,
-                set = function(info,r,g,b)
-                    WoWProDB.profile.stickytitletextcolor = {r,g,b}
-                    WoWPro.RowFontSet() end
-            },
-        }
-    }
+	local options = {
+		type = "group",
+		name = L["WoW-Pro Guides"],
+		args = {
+			display = {
+				type = "group",
+				order = 2,
+				name = L["Guide Display"],
+				desc = L["Options that alter the way the guide frame looks"],
+				args = {
+					desc = {
+						order = 0,
+						type = "description",
+						name = L["On this page you can edit the way the guide frame looks."],
+					},
+					blank1 = {
+						order = 1,
+						type = "description",
+						name = " ",
+					},
+					drag = {
+						order = 2,
+						type = "toggle",
+						name = L["Enable Drag"],
+						desc = L["Enables the guide window to be moved by clicking anywhere on it and dragging"],
+						get = function(info) return WoWProDB.profile.drag end,
+						set = function(info,val) WoWProDB.profile.drag = val 
+							WoWPro.DragSet() end,
+					},
+					anchorpoint = {
+						order = 3,
+						type = "select",
+						name = L["Anchor Point"],
+						desc = L["Where the window will anchor, growing out from that point as it changes size."],
+						values = {
+								AUTO = "Auto",
+								TOPLEFT = "Top Left",
+								TOP = "Top",
+								TOPRIGHT = "Top Right",
+								LEFT = "Left",
+								CENTER = "Center",
+								RIGHT = "Right",
+								BOTTOMLEFT = "Bottom Left",
+								BOTTOM = "Bottom",
+								BOTTOMRIGHT = "Bottom Right"
+							},
+						get = function(info) return WoWProDB.profile.anchorpoint end,
+						set = function(info,val) WoWProDB.profile.anchorpoint = val 
+							WoWPro.AnchorSet() end
+					},
+					padding = {
+						order = 4,
+						type = "range",
+						name = L["Padding"],
+						desc = L["The padding determines how much blank space is left between the guide text and the border of the guide frame."],
+						min = 0, max = 20, step = 1,
+						get = function(info) return WoWProDB.profile.pad end,
+						set = function(info,val) WoWProDB.profile.pad = val 
+							WoWPro.PaddingSet(); WoWPro.RowSizeSet() end
+					},
+					spacing = {
+						order = 5,
+						type = "range",
+						name = L["Spacing"],
+						desc = L["Spacing determines how much blank space is left between lines in the guide text. "],
+						min = 0, max = 10, step = 1,
+						get = function(info) return WoWProDB.profile.space end,
+						set = function(info,val) WoWProDB.profile.space = val
+							WoWPro.RowSizeSet() end
+					},
+					hide = {
+        				order = 6,
+        				type = "toggle",
+        				name = L["Enable Instance Hiding"],
+        				desc = L["Enables/Disables hiding the active module when inside an instance (Dungeon, Arena ...), unless the guide wants you there!"],
+        				get = function(info) return WoWProCharDB.AutoHideInsideInstances ; end,
+        				set = function(info,val)
+        						if WoWProCharDB.AutoHideInsideInstances == true then WoWProCharDB.AutoHideInsideInstances=false; else WoWProCharDB.AutoHideInsideInstances=true; end
+        					end
+        			},
+					combathide = {
+        				order = 7,
+        				type = "toggle",
+        				name = L["Enable Combat Hiding"],
+        				desc = L["Enables/Disables hiding the active module when you are in combat."],
+        				get = function(info) return WoWProCharDB.AutoHideInCombat ; end,
+        				set = function(info,val)
+        						if WoWProCharDB.AutoHideInCombat == true then WoWProCharDB.AutoHideInCombat=false; else WoWProCharDB.AutoHideInCombat=true; end
+        					end
+        			},
+					noteshow = {
+						order = 8,
+						type = "toggle",
+						name = L["Mouseover Notes"],
+						desc = L["Show notes on mouseover instead of always displaying them."],
+						get = function(info) return WoWProDB.profile.mousenotes end,
+						set = function(info,val) WoWProDB.profile.mousenotes = val 
+							WoWPro.RowSizeSet() end
+					},
+					minimap = {
+						order = 9,
+						type = "toggle",
+						name = L["Minimap Button"],
+						desc = L["Show/hide WoW-Pro mini map button."],
+						get = function(info) return not WoWProDB.profile.minimap.hide end,
+						set = function(info,val) WoWProDB.profile.minimap.hide = not val 
+							 WoWPro.MinimapSet() end
+					},
+					track = {
+						order = 10,
+						type = "toggle",
+						name = L["Quest Tracking"],
+						desc = L["Allows tracking of quests in the guide frame"],
+						get = function(info) return WoWProDB.profile.track end,
+						set = function(info,val) WoWProDB.profile.track = val 
+							WoWPro:UpdateGuide("Config: Quest Tracking") end
+					},
+					showcoords = {
+						order = 11,
+						type = "toggle",
+						name = L["Show Coordinates"],
+						desc = L["Shows the coordinates in the note text."],
+						get = function(info) return WoWProDB.profile.showcoords end,
+						set = function(info,val) WoWProDB.profile.showcoords = val 
+							WoWPro:UpdateGuide("Config: Show Coordinates") end
+					},
+					autoload = {
+						order = 12,
+						type = "toggle",
+						name = L["Auto-Load Guide"],
+						desc = L["Will automatically load the next guide when you complete one."],
+						get = function(info) return WoWProDB.profile.autoload end,
+						set = function(info,val) WoWProDB.profile.autoload = val end
+					},
+					nativearrow = {
+						order = 13,
+						type = "toggle",
+						name = L["Use Native Arrow"],
+						desc = L["Will use a simple, native arrow if other addons not available. /reload after changing value."],
+						get = function(info) return WoWProDB.profile.nativearrow end,
+						set = function(info,val) WoWProDB.profile.nativearrow = val end
+					},
+					blank2 = {
+						order = 20,
+						type = "description",
+						name = " ",
+					}, 
+					guidescroll = {
+						order = 21,
+						type = "toggle",
+						name = L["Scroll Mode"],
+						desc = L["Displays full, scrollable guide in guide frame, instead of need-to-know info."],
+						get = function(info) return WoWProDB.profile.guidescroll end,
+						set = function(info,val) WoWProDB.profile.guidescroll = val 
+							WoWPro:TitlebarSet() 
+							WoWPro:UpdateGuide("Config: Scroll Mode") end
+					},
+					checksoundfile = {
+						order = 22,
+						type = "select",
+						name = L["Step Completed Sound"],
+						desc = L["Sound played when a guide step is completed"],
+						values = function() local values = {}
+							for k,v in pairs(soundfiles) do
+								values[v] = k
+							end
+							return values end,
+						get = function(info)
+							return WoWProDB.profile.checksoundfile end,
+						set = function(info,val) WoWProDB.profile.checksoundfile = val
+							PlaySoundFile(val) end,
+						disabled = function(...) return not WoWProDB.profile.checksound end,
+					},
+					checksound = {
+						order = 23,
+						type = "toggle",
+						name = L["Enable Sound"],
+						desc = L["Plays a check-off sound when a guide step is completed."],
+						get = function(info) return WoWProDB.profile.checksound end,
+						set = function(info,val) WoWProDB.profile.checksound = val end
+					},
+					lefty = {
+						order = 24,
+						type = "toggle",
+						name = L["Left Handed"],
+						desc = L["Put Use and Target Icons on the right side of the guide window."],
+						get = function(info) return WoWProDB.profile.leftside end,
+						set = function(info,val) WoWProDB.profile.leftside = val end
+					},
+					blank3 = {
+						order = 30,
+						type = "description",
+						name = " ",
+					},  
+					resizeheading = {
+						order = 31,
+						type = "header",
+						name = L["Resize Settings"],
+					}, 
+					resize = {
+						order = 32,
+						type = "toggle",
+						name = L["Resize Handle"],
+						desc = L["Enables the guide window to be resized using the resize handle in the lower right corner. \nTurns off auto resizing."],
+						get = function(info) return WoWProDB.profile.resize end,
+						set = function(info,val) WoWProDB.profile.resize = val
+							if val then WoWProDB.profile.autoresize = false end
+							WoWPro.ResizeSet() end
+					},
+					autoresize = {
+						order = 33,
+						type = "toggle",
+						name = L["Auto Resize"],
+						desc = L["Guide will automatically resize to the set number of steps. \nManual resize recommended for advanced users only. \nHides drag handle."],
+						get = function(info) return WoWProDB.profile.autoresize end,
+						set = function(info,val) WoWProDB.profile.autoresize = val 
+							if val then WoWProDB.profile.resize = false end
+							WoWPro.ResizeSet(); WoWPro.RowSizeSet() end
+					},
+					numsteps = {
+						order = 34,
+						type = "range",
+						name = L["Auto Resize: Number of Steps"],
+						desc = L["Number of steps displayed in the guide window. \nThe window is automatically resized to show this number of steps. \nDoes not include sticky steps."],
+						min = 1, max = 15, step = 1,
+						get = function(info) return WoWProDB.profile.numsteps end,
+						set = function(info,val) WoWProDB.profile.numsteps = val
+							WoWPro.RowSizeSet() end,
+						width = "double"
+					}, 
+					minresizeh = {
+						order = 35,
+						type = "range",
+						name = L["Min Resize - Horiz"],
+						desc = L["Minimum horizontal pixel size the guide window can be set to."],
+						min = 50, max = 1000, step = 10,
+						get = function(info) return WoWProDB.profile.hminresize end,
+						set = function(info,val) WoWProDB.profile.hminresize = val
+							WoWPro:ResizeSet(); WoWPro.RowSizeSet() end
+					}, 
+					minresizev = {
+						order = 36,
+						type = "range",
+						name = L["Min Resize - Vert"],
+						desc = L["Minimum vertical pixel size the guide window can be set to."],
+						min = 50, max = 1000, step = 10,
+						get = function(info) return WoWProDB.profile.vminresize end,
+						set = function(info,val) WoWProDB.profile.vminresize = val
+							WoWPro:ResizeSet(); WoWPro.RowSizeSet() end
+					}, 
+					blank4 = {
+						order = 40,
+						type = "description",
+						name = " ",
+					},  
+					titleheading = {
+						order = 41,
+						type = "header",
+						name = L["Title Bar"],
+					},
+					titlebar = {
+						order = 42,
+						type = "toggle",
+						name = L["Enable Title Bar"],
+						desc = L["Enables/disables the title bar attached to the guide window."],
+						get = function(info) return WoWProDB.profile.titlebar end,
+						set = function(info,val) WoWProDB.profile.titlebar = val 
+							WoWPro.TitlebarSet(); WoWPro.PaddingSet(); WoWPro.RowSizeSet() end
+					},
+					titlecolor = {
+						order = 43,
+						type = "color",
+						name = L["Title Bar Color"],
+						desc = L["Background color for the title bar."],
+						hasAlpha = true,
+						get = function(info) return WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3] ,WoWProDB.profile.titlecolor[4] end,
+						set = function(info,r,g,b,a) 
+							WoWProDB.profile.titlecolor = {r,g,b,a}
+							WoWPro.TitlebarSet() end
+					},
+					blank5 = {
+						order = 50,
+						type = "description",
+						name = " ",
+					},  
+					bgheading = {
+						order = 51,
+						type = "header",
+						name = L["Backgrounds"],
+					},
+					bgtexture = {
+						order = 52,
+						type = "select",
+						name = L["Guide Window Background"],
+						desc = L["Texture used for the guide window background."],
+						values = function() local values = {}
+							local list = LibStub("LibSharedMedia-3.0"):List("background")
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("background")
+							for i,handle in ipairs(list) do
+								values[hashtable[handle]] = handle
+							end
+							return values end,
+						get = function(info) 
+							return WoWProDB.profile.bgtexture end,
+						set = function(info,val) WoWProDB.profile.bgtexture = val
+							WoWPro.BackgroundSet() end
+					},
+					bgcolor = {
+						order = 53,
+						type = "color",
+						name = L["Guide Window Color"],
+						desc = L["Background color for the guide window"],
+						hasAlpha = true,
+						get = function(info) return WoWProDB.profile.bgcolor[1], WoWProDB.profile.bgcolor[2], WoWProDB.profile.bgcolor[3] ,WoWProDB.profile.bgcolor[4] end,
+						set = function(info,r,g,b,a) 
+							WoWProDB.profile.bgcolor = {r,g,b,a}
+							WoWPro.BackgroundSet() end
+					},
+					bordertexture = {
+						order = 54,
+						type = "select",
+						name = L["Border Texture"],
+						desc = L["Texture used for the guide window border."],
+						values = function() local values = {}
+							local list = LibStub("LibSharedMedia-3.0"):List("border")
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("border")
+							for i,handle in ipairs(list) do
+								values[hashtable[handle]] = handle
+							end
+							return values end,
+						get = function(info) 
+							return WoWProDB.profile.bordertexture end,
+						set = function(info,val) WoWProDB.profile.bordertexture = val
+							WoWPro.border = true
+							WoWPro.BackgroundSet() end
+					},
+					border = {
+						order = 55,
+						type = "toggle",
+						name = L["Enable Border"],
+						desc = L["Enables/disables the border around the guide window."],
+						get = function(info) return WoWProDB.profile.border end,
+						set = function(info,val) WoWProDB.profile.border = val 
+							WoWPro.BackgroundSet() end
+					},
+					stickytexture = {
+						order = 56,
+						type = "select",
+						name = L["Sticky Background"],
+						desc = L["Texture used for sticky step background."],
+						values = function() local values = {}
+							local list = LibStub("LibSharedMedia-3.0"):List("background")
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("background")
+							for i,handle in ipairs(list) do
+								values[hashtable[handle]] = handle
+							end
+							return values end,
+						get = function(info) 
+							return WoWProDB.profile.stickytexture end,
+						set = function(info,val) WoWProDB.profile.stickytexture = val
+							WoWPro.BackgroundSet(); WoWPro.RowColorSet() end
+					},
+					stickycolor = {
+						order = 57,
+						type = "color",
+						name = L["Sticky Step Color"],
+						desc = L["Background color for the sticky step frames."],
+						hasAlpha = true,
+						get = function(info) return WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3] ,WoWProDB.profile.stickycolor[4] end,
+						set = function(info,r,g,b,a) 
+							WoWProDB.profile.stickycolor = {r,g,b,a}
+							WoWPro.BackgroundSet(); WoWPro.RowColorSet() end
+					},
+					blank6 = {
+						order = 60,
+						type = "description",
+						name = " ",
+					},  
+					textheading = {
+						order = 61,
+						type = "header",
+						name = L["Text Formatting"],
+					},
+					stepfont = {
+						order = 62,
+						type = 'select',
+						dialogControl = 'LSM30_Font',
+						name = L["Step Font"],
+						desc = L["Font used for the main step text."],
+						values = LibStub("LibSharedMedia-3.0"):HashTable("font"), 
+						get = function(info) local values = {}
+							local list = LibStub("LibSharedMedia-3.0"):List("font")
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							for i,handle in ipairs(list) do
+								values[hashtable[handle]] = handle
+							end
+							local hash = values[WoWProDB.profile.stepfont] 
+							return hash end,
+						set = function(info,val)
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							WoWProDB.profile.stepfont = hashtable[val]
+							WoWPro.RowFontSet() end
+					},
+					steptextsize = {
+						order = 63,
+						type = "range",
+						name = L["Step Text Size"],
+						desc = L["Size of the main step text."],
+						min = 1, max = 30, step = 1,
+						get = function(info) return WoWProDB.profile.steptextsize end,
+						set = function(info,val) WoWProDB.profile.steptextsize = val
+							WoWPro.RowFontSet()
+							WoWPro.RowSizeSet() end
+					},
+					steptextcolor = {
+						order = 64,
+						type = "color",
+						name = L["Step Text Color"],
+						desc = L["Color of the main step text."],
+						width = "full",
+						get = function(info) return WoWProDB.profile.steptextcolor[1], WoWProDB.profile.steptextcolor[2], WoWProDB.profile.steptextcolor[3] end,
+						set = function(info,r,g,b) 
+							WoWProDB.profile.steptextcolor = {r,g,b}
+							WoWPro.RowFontSet() end
+					},
+					notefont = {
+						order = 65,
+						type = 'select',
+						dialogControl = 'LSM30_Font',
+						name = L["Note Font"],
+						desc = L["Font used for the note text."],
+						values = LibStub("LibSharedMedia-3.0"):HashTable("font"),
+						get = function(info) local values = {}
+							local list = LibStub("LibSharedMedia-3.0"):List("font")
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							for i,handle in ipairs(list) do
+								values[hashtable[handle]] = handle
+							end
+							local hash = values[WoWProDB.profile.notefont] 
+							return hash end,
+						set = function(info,val)
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							WoWProDB.profile.notefont = hashtable[val]
+							WoWPro.RowFontSet() end
+					},
+					notetextsize = {
+						order = 66,
+						type = "range",
+						name = L["Note Text Size"],
+						desc = L["Size of the note text."],
+						min = 1, max = 30, step = 1,
+						get = function(info) return WoWProDB.profile.notetextsize end,
+						set = function(info,val) WoWProDB.profile.notetextsize = val
+							WoWPro.RowFontSet()
+							WoWPro.RowSizeSet() end
+					},
+					notetextcolor = {
+						order = 67,
+						type = "color",
+						name = L["Note Text Color"],
+						desc = L["Color of the note text."],
+						width = "full",
+						get = function(info) return WoWProDB.profile.notetextcolor[1], WoWProDB.profile.notetextcolor[2], WoWProDB.profile.notetextcolor[3] end,
+						set = function(info,r,g,b) 
+							WoWProDB.profile.notetextcolor = {r,g,b}
+							WoWPro.RowFontSet() end
+					},
+					trackfont = {
+						order = 68,
+						type = "select",
+						dialogControl = 'LSM30_Font',
+						name = L["Tracker Font"],
+						desc = L["Font used for the tracking text."],
+						values = LibStub("LibSharedMedia-3.0"):HashTable("font"), -- pull in your font list from LSM
+						get = function(info) local values = {}
+							local list = LibStub("LibSharedMedia-3.0"):List("font")
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							for i,handle in ipairs(list) do
+								values[hashtable[handle]] = handle
+							end
+							local hash = values[WoWProDB.profile.trackfont] 
+							return hash end,
+						set = function(info,val)
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							WoWProDB.profile.trackfont = hashtable[val]
+							WoWPro.RowFontSet() end
+					},
+					tracktextsize = {
+						order = 69,
+						type = "range",
+						name = L["Tracker Text Size"],
+						desc = L["Size of the tracking text."],
+						min = 1, max = 30, step = 1,
+						get = function(info) return WoWProDB.profile.tracktextsize end,
+						set = function(info,val) WoWProDB.profile.tracktextsize = val
+							WoWPro.RowFontSet()
+							WoWPro.RowSizeSet() end
+					},
+					tracktextcolor = {
+						order = 70,
+						type = "color",
+						name = L["Tracker Text Color"],
+						desc = L["Color of the tracking text."],
+						width = "full",
+						get = function(info) return WoWProDB.profile.tracktextcolor[1], WoWProDB.profile.tracktextcolor[2], WoWProDB.profile.tracktextcolor[3] end,
+						set = function(info,r,g,b) 
+							WoWProDB.profile.tracktextcolor = {r,g,b}
+							WoWPro.RowFontSet() end
+					},
+					titlefont = {
+						order = 71,
+						type = "select",
+						dialogControl = 'LSM30_Font',
+						name = L["Title Bar Font"],
+						desc = L["Font used on the title bar."],
+						values = LibStub("LibSharedMedia-3.0"):HashTable("font"), -- pull in your font list from LSM
+						get = function(info) local values = {}
+							local list = LibStub("LibSharedMedia-3.0"):List("font")
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							for i,handle in ipairs(list) do
+								values[hashtable[handle]] = handle
+							end
+							local hash = values[WoWProDB.profile.titlefont] 
+							return hash end,
+						set = function(info,val)
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							WoWProDB.profile.titlefont = hashtable[val]
+							WoWPro:TitlebarSet() end
+					},
+					titletextsize = {
+						order = 72,
+						type = "range",
+						name = L["Title Bar Text Size"],
+						desc = L["Size of the title bar text."],
+						min = 1, max = 30, step = 1,
+						get = function(info) return WoWProDB.profile.titletextsize end,
+						set = function(info,val) WoWProDB.profile.titletextsize = val
+							WoWPro:TitlebarSet() end
+					},
+					titletextcolor = {
+						order = 73,
+						type = "color",
+						name = L["Title Bar Text Color"],
+						desc = L["Color of the title bar text."],
+						width = "full",
+						get = function(info) return WoWProDB.profile.titletextcolor[1], WoWProDB.profile.titletextcolor[2], WoWProDB.profile.titletextcolor[3] end,
+						set = function(info,r,g,b) 
+							WoWProDB.profile.titletextcolor = {r,g,b}
+							WoWPro:TitlebarSet() end
+					},
+					stickytitlefont = {
+						order = 74,
+						type = "select",
+						dialogControl = 'LSM30_Font',
+						name = L["'As you go:' Font"],
+						desc = L["Font used on the top of the sticky frame."],
+						values = LibStub("LibSharedMedia-3.0"):HashTable("font"), -- pull in your font list from LSM
+						get = function(info) local values = {}
+							local list = LibStub("LibSharedMedia-3.0"):List("font")
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							for i,handle in ipairs(list) do
+								values[hashtable[handle]] = handle
+							end
+							local hash = values[WoWProDB.profile.stickytitlefont] 
+							return hash end,
+						set = function(info,val)
+							local hashtable = LibStub("LibSharedMedia-3.0"):HashTable("font")
+							WoWProDB.profile.stickytitlefont = hashtable[val]
+							WoWPro.RowFontSet()
+							WoWPro.RowSizeSet() end
+					},
+					stickytitletextsize = {
+						order = 75,
+						type = "range",
+						name = L["'As you go:' Text Size"],
+						desc = L["Size of the text on the top of the sticky frame."],
+						min = 1, max = 30, step = 1,
+						get = function(info) return WoWProDB.profile.stickytitletextsize end,
+						set = function(info,val) WoWProDB.profile.stickytitletextsize = val
+							WoWPro.RowFontSet()
+							WoWPro.RowSizeSet() end
+					},
+					stickytitletextcolor = {
+						order = 76,
+						type = "color",
+						name = L["'As you go:' Text Color"],
+						desc = L["Color of the text on the top of the sticky frame."],
+						width = "full",
+						get = function(info) return WoWProDB.profile.stickytitletextcolor[1], WoWProDB.profile.stickytitletextcolor[2], WoWProDB.profile.stickytitletextcolor[3] end,
+						set = function(info,r,g,b) 
+							WoWProDB.profile.stickytitletextcolor = {r,g,b}
+							WoWPro.RowFontSet() end
+					},
+				}
+			}
+
+		}
+	}
+
+	return options
 end
 
 local function createBlizzOptions()

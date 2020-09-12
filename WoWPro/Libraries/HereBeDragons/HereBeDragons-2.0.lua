@@ -20,7 +20,9 @@ local WoWClassic = select(4, GetBuildInfo()) < 20000
 -- Data Constants
 local COSMIC_MAP_ID = 946
 local WORLD_MAP_ID = 947
-
+if math.floor(select(4, GetBuildInfo() ) / 100) == 113 then
+    COSMIC_MAP_ID = 947
+end
 -- Lua upvalues
 local PI2 = math.pi * 2
 local atan2 = math.atan2

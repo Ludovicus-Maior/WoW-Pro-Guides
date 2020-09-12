@@ -510,32 +510,32 @@ function WoWPro:MapPoint(row)
     end
 
     if not zm then
-        zone, zm = WoWPro.GetZoneText()
-        WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id ["..zone.."] "..tostring(zm))
-    end
+	    zone, zm = WoWPro.GetZoneText()
+	    WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id ["..zone.."] "..tostring(zm))
+	end
 
-    if TomTom or Nx then
-        TomTom.db.profile.arrow.setclosest = true
-        OldCleardistance = TomTom.db.profile.persistence.cleardistance
+	if TomTom or Nx then
+		TomTom.db.profile.arrow.setclosest = true
+    		OldCleardistance = TomTom.db.profile.persistence.cleardistance
 
-        -- arrival distance, so TomTom can call our customized distance function when player
-        -- gets to the waypoints
-        local arrivaldistance
-        if (not OldCleardistance) or (OldCleardistance == 0) then
-            arrivaldistance = 10
-        else
-            arrivaldistance = OldCleardistance + 1
-        end
-        WoWProMapping_callbacks_tomtom.distance[arrivaldistance] = WoWProMapping_distance
+    		-- arrival distance, so TomTom can call our customized distance function when player
+    		-- gets to the waypoints
+    		local arrivaldistance
+    		if (not OldCleardistance) or (OldCleardistance == 0) then
+    			arrivaldistance = 10
+    		else
+    			arrivaldistance = OldCleardistance + 1
+    		end
+    		WoWProMapping_callbacks_tomtom.distance[arrivaldistance] = WoWProMapping_distance
 
-        -- prevents TomTom from clearing waypoints that are not final destination
-        if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
-        WoWPro:dbp("MapPoint: autoarrival = %s, arrivaldistance=%s, TomTom..cleardistance = %d, OldCleardistance == %d",
-                     tostring(autoarrival),tostring(arrivaldistance),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
+    		-- prevents TomTom from clearing waypoints that are not final destination
+    		if autoarrival == 2 then TomTom.db.profile.persistence.cleardistance = 0 end
+    		WoWPro:dbp("MapPoint: autoarrival = %s, arrivaldistance=%s, TomTom..cleardistance = %d, OldCleardistance == %d",
+    		             tostring(autoarrival),tostring(arrivaldistance),tostring(TomTom.db.profile.persistence.cleardistance), tostring(OldCleardistance))
 
-        -- Parsing and mapping coordinates --
-        WoWPro:print("WoWPro:MapPoint1(%d,%s@%s=%s)",stepIndex,coords,tostring(zone),tostring(zm))
-        local numcoords = select("#", (";"):split(coords))
+		-- Parsing and mapping coordinates --
+		WoWPro:print("WoWPro:MapPoint1(%d,%s@%s=%s)",i,coords,tostring(zone),tostring(zm))
+		local numcoords = select("#", string.split(";", coords))
         FinalCoord = nil
         for j=1,numcoords do
             local waypoint = {}
@@ -646,6 +646,10 @@ function WoWPro:MapPoint(row)
         TomTom.db.profile.persistence.cleardistance = OldCleardistance
     end
 
+	-- Native Simple Arrow Support for Classic
+	if WoWPro.SimpleArrow and WoWProDB.profile.nativearrow and (not TomTom) and (not Nx) and (math.floor(select(4, GetBuildInfo() ) / 100) == 113) then
+		WoWPro:SimpleArrowMapPoint(zone, zm, coords)
+	end
 end
 
 function WoWPro:RemoveMapPoint()

@@ -3339,39 +3339,44 @@ function WoWPro.LockdownHandler(self, elapsed)
         WoWPro:dbp("TrackerTimer: %03.3f, Position %02.2f %02.2f", WoWPro.TrackerTimer, x*100, y*100)
         return
     end
-    if WoWPro.LockdownTimer ~= nil then
-        WoWPro.LockdownTimer = WoWPro.LockdownTimer - elapsed
-        if WoWPro.LockdownTimer < 0 then
-            if TomTom and TomTom.AddWaypoint then
-                WoWPro:CarboniteProfileHack()
-            else
-                WoWPro:Warning("Waiting for TomTom or Carbonite to init...%s", tostring(WoWPro.LockdownCounter))
-                if WoWPro.LockdownCounter > 0 then
-                    WoWPro.LockdownCounter = WoWPro.LockdownCounter - 1
-                    WoWPro.LockdownTimer = 0.33
-                else
-                    -- Warning if the user is missing TomTom --
-                    WoWPro:Warning("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
-                        .."WoW-Pro's guides won't have their full functionality without it! "
-                        .."Download it for free from www.wowinterface.com or www.curse.com .")
 
-                    if TomTom then -- Fix when Carbonite`s TomTom emulation is OFF
-                        TomTom = nil
-                        WoWPro:Warning("If you have |cff33ff33Carbonite|r installed, "
-                            .."do not forget to enable Carbonite\'s TomTom emulation! (Tracking HUD section)")
-                    end
-                end
-            end
+	if WoWPro.LockdownTimer ~= nil then
+		WoWPro.LockdownTimer = WoWPro.LockdownTimer - elapsed
+		if WoWPro.LockdownTimer < 0 then
+			if TomTom and TomTom.AddWaypoint then
+				WoWPro:CarboniteProfileHack()
+			else 
+				WoWPro:Warning("Waiting for TomTom or Carbonite to init...%s", tostring(WoWPro.LockdownCounter))
+				if WoWPro.LockdownCounter > 0 then
+					WoWPro.LockdownCounter = WoWPro.LockdownCounter - 1
+					WoWPro.LockdownTimer = 0.33
+				else
+					if (not WoWPro.SimpleArrow) or (not WoWProDB.profile.nativearrow)  then
+						-- Warning if the user is missing TomTom --
+						WoWPro:Warning("It looks like you don't have |cff33ff33TomTom|r or |cff33ff33Carbonite|r installed. "
+							.."WoW-Pro's guides won't have their full functionality without it! "
+							.."Download it for free from www.wowinterface.com or www.curse.com or activate WoWPro native arrow.")
 
-            if WoWPro.LockdownTimer < 0 then
-                WoWPro:dbp("Lockdown Timer expired.  Return to normal")
-                WoWPro.LockdownCounter = nil
-                WoWPro.LockdownTimer = nil
-                WoWPro.InitLockdown = false
-                WoWPro:LoadGuide()          -- Loads Current Guide (if nil, loads NilGuide)
-            end
-        end
-    end
+						if TomTom then -- Fix when Carbonite`s TomTom emulation is OFF
+							TomTom = nil
+							WoWPro:Warning("If you have |cff33ff33Carbonite|r installed, "
+								.."do not forget to enable Carbonite\'s TomTom emulation! (Tracking HUD section)")
+						end
+					else
+						WoWPro:Warning("Did not find |cff33ff33TomTom|r or |cff33ff33Carbonite|r. Using WoWPro native arrow.")
+					end
+				end
+			end
+
+			if WoWPro.LockdownTimer < 0 then
+				WoWPro:dbp("Lockdown Timer expired.  Return to normal")
+				WoWPro.LockdownCounter = nil
+				WoWPro.LockdownTimer = nil
+				WoWPro.InitLockdown = false
+				WoWPro:LoadGuide()			-- Loads Current Guide (if nil, loads NilGuide)
+			end
+		end
+	end
 end
 
 -- Carbonite - TomTom profile hack Section
