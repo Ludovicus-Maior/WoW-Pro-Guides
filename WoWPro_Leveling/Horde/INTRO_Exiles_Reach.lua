@@ -207,43 +207,43 @@ C License to Ride|QID|60345|M|61.32,34.59|Z|Orgrimmar|N|Learn the Apprentice Rid
 T License to Ride|QID|60345|M|61.43,32.76|Z|Orgrimmar|N|To Rohaka Tuskmaul.|
 A What's Your Specialty?|QID|60346|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Druid|
 C What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|QO|1|CHAT|N|Speak with Telotha Pinegrove to learn about specializations.|C|Druid|
-C What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Druid|
+C What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Druid|
 T What's Your Specialty?|QID|60346|M|72.92,43.25|Z|Orgrimmar|N|To Telotha Pinegrove.|C|Druid|
 A What's Your Specialty?|QID|60347|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Hunter|
 C What's Your Specialty?|QID|60347|M|73.88,43.63|Z|Orgrimmar|QO|1|CHAT|N|Speak with Tamanji to learn about specializations.|C|Hunter|
-C What's Your Specialty?|QID|60347|M|73.88,43.63|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Hunter|
+C What's Your Specialty?|QID|60347|M|73.88,43.63|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Hunter|
 T What's Your Specialty?|QID|60347|M|73.89,43.62|Z|Orgrimmar|N|To Tamanji.|C|Hunter|
 A What's Your Specialty?|QID|60348|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Mage|
 C What's Your Specialty?|QID|60348|M|74.69,43.57|Z|Orgrimmar|QO|1|CHAT|N|Speak with Feenix Arcshine to learn about specializations.|C|Mage|
-C What's Your Specialty?|QID|60348|M|74.69,43.57|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Mage|
+C What's Your Specialty?|QID|60348|M|74.69,43.57|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Mage|
 T What's Your Specialty?|QID|60348|M|74.69,43.57|Z|Orgrimmar|N|To Feenix Arcshine.|C|Mage|
 A What's Your Specialty?|QID|60349|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Monk|
 C What's Your Specialty?|QID|60349|M|75.69,43.60|Z|Orgrimmar|QO|1|CHAT|N|Speak with Huinli Wingpaw to learn about specializations.|C|Monk|
-C What's Your Specialty?|QID|60349|M|75.69,43.60|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Monk|
+C What's Your Specialty?|QID|60349|M|75.69,43.60|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Monk|
 T What's Your Specialty?|QID|60349|M|75.69,43.60|Z|Orgrimmar|N|To Huinli Wingpaw.|C|Monk|
 A What's Your Specialty?|QID|60350|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Paladin|
 C What's Your Specialty?|QID|60350|M|73.18,47.40|Z|Orgrimmar|QO|1|CHAT|N|Speak with Avaros Dawnglaive to learn about specializations.|C|Paladin|
-C What's Your Specialty?|QID|60350|M|73.18,47.40|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Paladin|
+C What's Your Specialty?|QID|60350|M|73.18,47.40|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Paladin|
 T What's Your Specialty?|QID|60350|M|73.18,47.40|Z|Orgrimmar|N|To Avaros Dawnglaive.|C|Paladin|
 A What's Your Specialty?|QID|60351|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Priest|
 C What's Your Specialty?|QID|60351|M|72.63,46.93|Z|Orgrimmar|QO|1|CHAT|N|Speak with Martin Goodchilde to learn about specializations.|C|Priest|
-C What's Your Specialty?|QID|60351|M|72.63,46.93|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Priest|
+C What's Your Specialty?|QID|60351|M|72.63,46.93|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Priest|
 T What's Your Specialty?|QID|60351|M|72.63,46.93|Z|Orgrimmar|N|To Martin Goodchilde.|C|Priest|
 A What's Your Specialty?|QID|60352|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Rogue|
 C What's Your Specialty?|QID|60352|M|75.47,47.51|Z|Orgrimmar|QO|1|CHAT|N|Speak with Thega Graveblade to learn about specializations.|C|Rogue|
-C What's Your Specialty?|QID|60352|M|75.47,47.51|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Rogue|
+C What's Your Specialty?|QID|60352|M|75.47,47.51|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Rogue|
 T What's Your Specialty?|QID|60352|M|75.47,47.51|Z|Orgrimmar|N|To Thega Graveblade.|C|Rogue|
 A What's Your Specialty?|QID|60353|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Shaman|
 C What's Your Specialty?|QID|60353|M|73.41,43.12|Z|Orgrimmar|QO|1|CHAT|N|Speak with Hretar Riverspeaker to learn about specializations.|C|Shaman|
-C What's Your Specialty?|QID|60353|M|73.41,43.12|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Shaman|
+C What's Your Specialty?|QID|60353|M|73.41,43.12|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Shaman|
 T What's Your Specialty?|QID|60353|M|73.41,43.12|Z|Orgrimmar|N|To Hretar Riverspeaker.|C|Shaman|
 A What's Your Specialty?|QID|60355|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Warlock|
 C What's Your Specialty?|QID|60355|M|76.61,47.41|Z|Orgrimmar|QO|1|CHAT|N|Speak with Kazak Darkscream to learn about specializations.|C|Warlock|
-C What's Your Specialty?|QID|60355|M|76.61,47.41|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Warlock|
+C What's Your Specialty?|QID|60355|M|76.61,47.41|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Warlock|
 T What's Your Specialty?|QID|60355|M|76.61,47.41|Z|Orgrimmar|N|To Kazak Darkscream.|C|Warlock|
 A What's Your Specialty?|QID|60357|M|61.44,32.96|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|C|Warrior|
 C What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|QO|1|CHAT|N|Speak with Gormok Ogrefistto learn about specializations.|C|Warrior|
-C What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|QO|2|NC|N|Activate a combat specialization.|C|Warrior|
+C What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|C|Warrior|
 T What's Your Specialty?|QID|60357|M|73.76,47.1|Z|Orgrimmar|N|To Gormok Ogrefist.|C|Warrior|
 A Home Is Where the Hearth Is|QID|60359|M|73.38,45.22|Z|Orgrimmar|N|From Cork Fizzlepop.|PRE|60345|
 h The Wyvern's Tail|QID|60359|M|71.31,49.96|Z|Orgrimmar|QO|1|N|Make The Wyvern's Tail your home at Innkeeper Nufa.|
