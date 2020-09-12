@@ -619,3 +619,12 @@ function WoWPro.Functionalize(release)
     LogBox:Show()
     WoWPro:Print("WoWPro:Functionalize(): 2")
 end
+
+local _
+function WoWPro.ConvertZone(zone)
+    if type(zone) ~= "number" then
+        _, zone = WoWPro:ValidZone(zone)
+    end
+    return zone
+end
+

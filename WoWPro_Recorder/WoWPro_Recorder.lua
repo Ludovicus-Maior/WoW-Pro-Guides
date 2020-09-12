@@ -570,8 +570,8 @@ function WoWPro.Recorder:CheckpointCurrentGuide(why)
     end
     local header = "local guide = WoWPro:RegisterGuide('"
         ..GID.."', '"
-        ..WoWPro.Guides[GID].guidetype.."', '"
-        ..WoWPro.Guides[GID].zone.."', '"
+        ..WoWPro.Guides[GID].guidetype.."', "
+        ..WoWPro.ConvertZone(WoWPro.Guides[GID].zone)..", '"
         ..WoWPro.Guides[GID].author.."', '"
         ..WoWPro.Guides[GID].faction.."')\n"
 		..'WoWPro:GuideName(guide,"'
