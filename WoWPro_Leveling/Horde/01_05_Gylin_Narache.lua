@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_mulgore
+-- Date: 2019-06-28 23:12
+-- Who: spoony
+-- Log: A Rite of Courage|QID|14456|M|30.92,50.59|N|From Adana Thunderhorn.|;removed pre as it was causing step to skip
+
+-- URL: http://wow-pro.com/node/3203/revisions/30051/view
 -- Date: 2018-10-17 22:53
 -- Who: Ludovicus_Maior
 -- Log: And/Or
@@ -119,7 +124,7 @@
 -- Log: Added notes to quite a few steps;
 --	Fixed Fly to and Hearth To steps to auto-complete;
 --	Fixed War Dance steps to auto-complete;
---	Quest 26866 appears to no longer be in the game so has been removed; 
+--	Quest 26866 appears to no longer be in the game so has been removed;
 --	Removed Warchief's Command: Azshara! (this is in Azshara guide instead)
 
 -- URL: http://wow-pro.com/node/3203/revisions/25739/view
@@ -189,7 +194,7 @@
 -- Date: 2011-01-21 14:32
 -- Who: Ludovicus_Maior
 -- Log: This edit looks larger than it is.  There were some weird tabs and spaces in the original.
---	I added |R|Tauren,BloodElf| to various quests not available to goblins.  
+--	I added |R|Tauren,BloodElf| to various quests not available to goblins.
 --	Changes may not be compete, as I have gone off to level my professions.
 
 -- URL: http://wow-pro.com/node/3203/revisions/23661/view
@@ -231,7 +236,7 @@ T Our Tribe, Imprisoned|QID|24852|M|39.45,37.25|N|To Grull Hawkwind.|
 A Go to Adana|QID|14458|PRE|24852|M|39.45,37.25|N|From Grull Hawkwind.|
 
 T Go to Adana|QID|14458|M|30.92,50.59|N|To Adana Thunderhorn.|
-A Rite of Courage|QID|14456|PRE|14458|M|30.92,50.59|N|From Adana Thunderhorn.|
+A Rite of Courage|QID|14456|M|30.92,50.59|N|From Adana Thunderhorn.|;removed pre as it was causing step to skip
 A Stop the Thorncallers|QID|14455|PRE|14458|M|30.92,50.59|N|From Adana Thunderhorn.|
 C Rite of Courage|S|QID|14456|M|34.67,61.32|N|Kill Britlebark Gun Thiefs and loot the Stolen Rifles from them.|
 C Stop the Thorncallers|QID|14455|M|33.59,69.23|N|Kill Bristleback Thorncallers|
@@ -257,7 +262,7 @@ C Last Rites, First Rites|NC|QID|24861|M|27.79,28.75|U|50465|N|Use the Water Pit
 T Last Rites, First Rites|QID|24861|M|27.72,28.28|N|To Chief Hawkwind.|
 
 A Rites of the Earthmother|QID|23733|PRE|24861|M|27.72,28.28|N|From Chief Hawkwind.|
-R Fargaze Mesa|QID|23733|M|21.03,34.52;15.76,27.68|CS|N|Head up the path on the hill to Fargaze Mesa.|
+R Fargaze Mesa|ACTIVE|23733|M|21.03,34.52;15.76,27.68|CS|N|Head up the path on the hill to Fargaze Mesa.|
 T Rites of the Earthmother|QID|23733|M|15.62,30.28|N|To Dyami Windsoar.|
 
 A Rite of the Winds|QID|24215|PRE|23733|M|15.62,30.28|N|From Dyami Windsoar.|

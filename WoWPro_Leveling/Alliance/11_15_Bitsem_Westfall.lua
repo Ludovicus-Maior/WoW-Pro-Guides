@@ -21,7 +21,7 @@
 -- URL: http://wow-pro.com/node/3213/revisions/29159/view
 -- Date: 2018-02-24 20:39
 -- Who: Ludovicus_EditBot
--- Log:  Varian
+-- Log: LEVEL & Varian
 
 -- URL: http://wow-pro.com/node/3213/revisions/29147/view
 -- Date: 2018-02-24 17:49
@@ -46,11 +46,11 @@
 -- URL: http://wow-pro.com/node/3213/revisions/27665/view
 -- Date: 2016-08-31 19:06
 -- Who: Fluclo
--- Log: Added Rank 2 to the quests not needed for progression of the story. 
---	Removed Rank 2 tags from C and T entries. Added PRE tags to the quests that have pre-req quests. Added steps to get flight-paths. Corrected QO tags in Propaganda. Added Level step when quest levels increase. Removed Class Trainers (feature removed from the game) 
---	
---	To cater for the quest A Vision of the Past, added ACTIVE tag to Hearthstone set step to prevent it reappearing inappropriately. Removed Run steps to prevent it reappearing inappropriately. Added detail on how to get to Instance entrance as waypoint arrow stops working when your map changes to The Deadmines. Added a second set of entries for Evidence Collection to cater for those who loot one of the Defiance whilst head for A Vision of the Past. 
---	
+-- Log: Added Rank 2 to the quests not needed for progression of the story.
+--	Removed Rank 2 tags from C and T entries. Added PRE tags to the quests that have pre-req quests. Added steps to get flight-paths. Corrected QO tags in Propaganda. Added Level step when quest levels increase. Removed Class Trainers (feature removed from the game)
+--
+--	To cater for the quest A Vision of the Past, added ACTIVE tag to Hearthstone set step to prevent it reappearing inappropriately. Removed Run steps to prevent it reappearing inappropriately. Added detail on how to get to Instance entrance as waypoint arrow stops working when your map changes to The Deadmines. Added a second set of entries for Evidence Collection to cater for those who loot one of the Defiance whilst head for A Vision of the Past.
+--
 --	Removed PRE for The Coast Isn't Clear as it isn't needed. Changed the quests in that area to Rank 2 as they are not needed for story progression. Added Active tags to the flights and use hearthstone steps so they only display if appropriate.
 
 -- URL: http://wow-pro.com/node/3213/revisions/27639/view

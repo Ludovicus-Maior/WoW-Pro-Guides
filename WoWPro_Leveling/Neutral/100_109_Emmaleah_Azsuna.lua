@@ -11,7 +11,7 @@
 -- URL: http://wow-pro.com/node/3657/revisions/29852/view
 -- Date: 2018-09-28 20:48
 -- Who: elidion
--- Log:  f steps.
+-- Log: Reverted to old guide before RARE edits were made and went through manually adding RARE and FLY tags, cleaned up the ACTIVE/AVILABLE/PRE tags on N,R,H,h,P,F & f steps.
 
 -- URL: http://wow-pro.com/node/3657/revisions/29821/view
 -- Date: 2018-09-24 07:43
@@ -221,12 +221,12 @@
 -- URL: http://wow-pro.com/node/3657/revisions/27870/view
 -- Date: 2016-10-04 10:13
 -- Who: Emmaleah
--- Log: added |NA| to A Wrath of Azshara (I know, this isn't an autoswitching guide.. but just in case someone changes it) 
+-- Log: added |NA| to A Wrath of Azshara (I know, this isn't an autoswitching guide.. but just in case someone changes it)
 
 -- URL: http://wow-pro.com/node/3657/revisions/27866/view
 -- Date: 2016-10-04 03:15
 -- Who: Emmaleah
--- Log: 2nd C Minion! Kill Them!|QID|38232|M|62.01,50.10|S 
+-- Log: 2nd C Minion! Kill Them!|QID|38232|M|62.01,50.10|S
 
 -- URL: http://wow-pro.com/node/3657/revisions/27862/view
 -- Date: 2016-10-02 20:07
@@ -237,7 +237,7 @@
 -- URL: http://wow-pro.com/node/3657/revisions/27802/view
 -- Date: 2016-09-16 22:45
 -- Who: Emmaleah
--- Log: change registration levels to 100-109 and next guide to Blanc_Suramar 
+-- Log: change registration levels to 100-109 and next guide to Blanc_Suramar
 
 -- URL: http://wow-pro.com/node/3657/revisions/27771/view
 -- Date: 2016-09-14 09:47
@@ -464,10 +464,10 @@ C Hunger's End|QID|42756|QO|1|M|48.39,26.79|N|Orbyth slain|
 C Hunger's End|QID|42756|QO|2|M|48.39,26.79|N|Ael'Yith slain|
 T Hunger's End|QID|42756|M|47.86,26.12|N|To Senegos.|
 
-$ Marius&Tehd vs a Doomlord|QID|38352|M|46.71,28.20;43.15,28.20|CS|ITEM|129056|T|Kazrok|N|Silver - Continue assisting Marius and Tehd in thier adventurers by participating in killing this Doomlord. Kill and loot for treasure and resources.|RANK|3|
+$ Marius & Tehd vs a Doomlord|QID|38352|M|46.71,28.20;43.15,28.20|CS|ITEM|129056|T|Kazrok|N|Silver - Continue assisting Marius and Tehd in thier adventurers by participating in killing this Doomlord. Kill and loot for treasure and resources.|RANK|3|
 R Nor'Danil Wellspring|QID|42505|M|40.30,34.35|N|Another optional sidetrip for the completioinists amongst us.  WAY OUT OF THE WAY.|RANK|3|FLY|LEGION|
 K Kill Arcanist Shal'iman|QID|42505|QO|1|M|40.92,35.03;35.22,34.54|CS|ITEM|141868|T|Arcanist Shal'iman|N|Silver - He paths around this circle. Kill and loot for a bit of treasure and resources.|RANK|3|RARE|
-$ Marius&Tehd vs a Felbat|QID|42069|CS|M|40.9, 35.3; 40.08, 34.20; 38.79, 33.74; 39.63, 31.65; 36.84, 31.24; 37.40, 29.57; 39.08, 26.55; 40.23, 24.74; 41.63, 23.91; 42.31, 22.72; 43.43, 23.83|ITEM|129087|T|Felwing|N|Silver - Start up the path and wind around until you find Marius and Tehd (take stairs to the top of the tower). Talk to Tehd to assist in their adventures by participating in killing this demon. Kill and loot for treasure and resources.|RANK|3|
+$ Marius & Tehd vs a Felbat|QID|42069|CS|M|40.9, 35.3; 40.08, 34.20; 38.79, 33.74; 39.63, 31.65; 36.84, 31.24; 37.40, 29.57; 39.08, 26.55; 40.23, 24.74; 41.63, 23.91; 42.31, 22.72; 43.43, 23.83|ITEM|129087|T|Felwing|N|Silver - Start up the path and wind around until you find Marius and Tehd (take stairs to the top of the tower). Talk to Tehd to assist in their adventures by participating in killing this demon. Kill and loot for treasure and resources.|RANK|3|
 $ Glimmering Treasure Chest|QID|42297|M|43.37, 22.43|N|Guarded by two same level elite slow-running mobs.  Loot for a bit of treasure and resources.|RANK|3|
 
 R Llothien Highlands|QID|37690|M|49.32,29.27|N|Run to Llothien Highlands.|FLY|LEGION|
@@ -664,7 +664,7 @@ T Let's Make A Deal|QID|38460|M|62.91,51.45|N|To Daglop.|RANK|2|
 A Minion! Kill Them!|QID|38232|PRE|38460|M|62.91,51.45|N|From Daglop.|RANK|2|
 C Minion! Kill Them!|QID|38232|M|62.01,50.10|S|N|The olives are on the ground, the birds and cats drop the feathers and the shadowrunners drop the horns.|RANK|2|
 K Kill Treacherous Stallions|QID|44081|QO|1|M|60.25,46.14|ITEM|140685|T|Devious Sunrunner|N|Silver - Click on the Ley Portal to be transported to a treasure. Kill the Stallions, then loot the chest for a bit of treasure and resources.|RANK|3|RARE|
-$ Marius&Tehd vs a Fel Lord|QID|38212|M|60.50,48.56;59.17,46.44|CS|ITEM|129068|T|Brogozog|N|Follow this path to once again save Thed's hide. Chat with him to start the vignette. Kill and loot the demon for a bit of treasure and resources.|RANK|3|
+$ Marius & Tehd vs a Fel Lord|QID|38212|M|60.50,48.56;59.17,46.44|CS|ITEM|129068|T|Brogozog|N|Follow this path to once again save Thed's hide. Chat with him to start the vignette. Kill and loot the demon for a bit of treasure and resources.|RANK|3|
 C Minion! Kill Them!|QID|38232|M|62.01,50.10|US|N|Finish gathering the things Daglop wants.|RANK|2|
 T Minion! Kill Them!|QID|38232|RANK|2|N|To Daglop, on your shoulders.|
 A This IS In My Contract.|QID|38237|PRE|38232|RANK|2|N|From Daglop, on your shoulders.|
@@ -735,7 +735,7 @@ T A Favor for Mr. Shackle|QID|38857|M|56.59,59.60|N|To Mr. Shackle.|
 A Maritime Law|QID|37654|M|56.60,59.59|N|From Mr. Shackle.|
 A Making the World Safe for Profit|QID|37657|M|56.60,59.59|N|From Mr. Shackle.|
 A Shipwrecked Sailors|QID|42268^42220|M|57.66,58.07|N|From UI Alert.|
-C Making the World Safe for Profit|QID|37657|QO|1|M|60.15,61.97|S|N|Kill Gilblin&Makrura as you go about your other objectives.|
+C Making the World Safe for Profit|QID|37657|QO|1|M|60.15,61.97|S|N|Kill Gilblin & Makrura as you go about your other objectives.|
 C Shipwrecked Sailors|QID|42268|M|59.93,58.12|N|Rescue sailors as you go about your other objectives.|S|FACTION|Horde|
 C Shipwrecked Sailors|QID|42220|M|59.93,58.12|N|Kill sailors as you go about your other objectives.|S|FACTION|Alliance|
 $ Small Treasure Chest|QID|42272|M|59.54,61.99;59.88,63.20|CS|N|Path starts at first coord, treasure is on top of a rocky outcrop. Loot for a bit of treasure and resources.|RANK|2|
@@ -747,7 +747,7 @@ A The Captain's Foot Locker|QID|37659|PRE|37654|M|64.25,56.10|N|From Looper Alle
 K Kill Chief Bitterbrine|QID|42221|QO|1|ITEM|129073|T|Chief Bitterbrine|M|65.65,56.81|N|Silver - Kill and loot for a bit of treasure and resources.|RANK|2|RARE|
 T The Captain's Foot Locker|QID|37659|M|65.67,56.92|N|To the Captain's Foot Locker.|
 A Fate of the Queen's Reprisal|QID|42244^40794|PRE|37659|M|65.67,56.92|N|From the Captain's Foot Locker.|
-C Making the World Safe for Profit|QID|37657|QO|1|M|60.15,61.97|N|Finish killing Gilblin&Makrura.|US|
+C Making the World Safe for Profit|QID|37657|QO|1|M|60.15,61.97|N|Finish killing Gilblin & Makrura.|US|
 $ Disputed Treasure|QID|38365|M|55.87,56.87|N|Kill the npcs argueing over the treasure chest then you can loot it for a bit of treasure and resources.|RANK|2|
 C Shipwrecked Sailors|QID|42268^42220|QO|1|M|59.93,58.12|N|Finish up with the sailors.|US|
 T Shipwrecked Sailors|QID|42268^42220|M|59.93,58.12|N|To UI Alert.|

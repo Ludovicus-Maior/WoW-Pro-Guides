@@ -97,11 +97,11 @@
 -- Who: Liavan
 -- Log: Updated U and L tags to horde item Ids on:
 --	K Burning Blade Member|QID|14232|L|49010|N|Kill a burning blade member and loot their ear.|
---	
+--
 --	A Ears Are Burning|QID|14232|U|49010|M|53.32,33.19|N|Right-click the Burning Blade Ear to start the quest.|
---	
+--
 --	A Jugkar's Undoing|RANK|2|QID|14344|U|49200|N|From the Infernal Power Core.|
---	
+--
 --	Updated cords for:
 --	C Blubbergut|RANK|2|QID|14334|M|20.01,72.90|N|Blubbergut is a huge orca. He patrols the area.|
 

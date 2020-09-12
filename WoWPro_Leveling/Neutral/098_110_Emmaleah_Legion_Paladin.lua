@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3673
+-- Date: 2020-07-10 00:33
+-- Who: Ludovicus_Maior
+-- Log: Corrected Holy scenario zone and some obsolete cleanups.
+
+-- URL: http://wow-pro.com/node/3673/revisions/30091/view
 -- Date: 2018-10-24 20:02
 -- Who: Ludovicus_Maior
 -- Log: Update default zone
@@ -177,10 +182,10 @@ A A United Force|QID|38566|M|63.13,37.18|N|Lord Maxwell Tyrosus.|PRE|38576&42811
 C A United Force|QID|38566|NC|QO|1|M|74.54,20.33|N|Walk with Lord Maxwell Tyrosus|
 C A United Force|QID|38566|NC|QO|2;3|M|74.54,20.33|N|Inscribe your name in the Libram and then wait a minute for the dialog to finish.|
 T A United Force|QID|38566|M|73.83,19.61|N|To Lord Maxwell Tyrosus.|
-A Forging New Strength|QID|39722|M|73.83,19.61|N|From Lord Maxwell Tyrosus.|PRE|38566|
-C Forging New Strength|QID|39722|NC|M|72.63,23.58|N|Click on the alter and then on the icon in the articact window.|
-T Forging New Strength|QID|39722|M|73.79,19.70|N|To Lord Maxwell Tyrosus.|
-A Logistical Matters|QID|38933|M|73.79,19.70|N|From Lord Maxwell Tyrosus.|PRE|39722|
+; A Forging New Strength|QID|39722|M|73.83,19.61|N|From Lord Maxwell Tyrosus.|PRE|38566|
+; C Forging New Strength|QID|39722|NC|M|72.63,23.58|N|Click on the alter and then on the icon in the articact window.|
+; T Forging New Strength|QID|39722|M|73.79,19.70|N|To Lord Maxwell Tyrosus.|
+A Logistical Matters|QID|38933|M|73.79,19.70|N|From Lord Maxwell Tyrosus.|PRE|38566|
 T Logistical Matters|QID|38933|M|52.29,78.17|N|To Lord Grayson Shadowbreaker.|
 A A Sound Plan|QID|39756|M|52.29,78.17|N|From Lord Grayson Shadowbreaker. Choose which zone you want to do first.|PRE|38933|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|52.93,78.75|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|38933|
@@ -217,7 +222,7 @@ T Completing Your Arsenal|QID|44370|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
 T The Mysterious Paladin|QID|42231|M|71.99,49.23|Z|Dalaran@Dalaran70|N|To Travard at Krasus Landing.|
 A The Brother's Trail|QID|42377|M|71.99,49.23|Z|Dalaran@Dalaran70|N|From Travard.|PRE|42231|
 R Chamber of the Guardian|QID|42377|M|49.40,47.40|Z|Dalaran@Dalaran70|N|Into the Chamber of the Guardians, step on the teleport pad, (where the statue in the middle of Dalaran used to be).|ACTIVE|42377|
-C The Brother's Trail|QID|42377|QO|1|M|28.58,77.49|Z|Aegwynn's Gallery@Dalaran70|NC|N|Run straight forward, down the stairs to the Wyrmrest Temple portal.|
+C The Brother's Trail|QID|42377|QO|1|M|30.34,85.10|Z|Aegwynn's Gallery@Dalaran70|NC|N|Run straight forward, down the stairs to the Wyrmrest Temple portal.|
 C The Brother's Trail|QID|42377|QO|2|M|59.95,53.08|Z|Dragonblight|CHAT|N|Speak with Lanigosa.|
 C The Brother's Trail|QID|42377|QO|3|M|56.64,39.07;56.41,34.49;56.27,27.07|CS|Z|Dragonblight|N|Fly over towards Galakond's rest and click on the campfire for your first clue, continue following the waypoints and checking the clues until the step completes.|
 C The Brother's Trail|QID|42377|QO|4|M|61.10,37.66|Z|Dragonblight|NC|N|Fly over to the chasm on the Path of Giants.|
@@ -232,18 +237,18 @@ C The Silver Hand|QID|42120|QO|1|M|30.69,84.51|Z|Aegwynn's Gallery@Dalaran70|N|O
 C The Silver Hand|QID|42120|QO|2|M|14.94,56.70|Z|Tirisfal Glades|N|Go to the marked location in Tirisfal Glades|
 C Speak with Travard.|QID|42120|SO|1|M|13.45,56.69|Z|Tirisfal Glades|CHAT|N|Speak with Travard.|
 C Go to the tomb of Tyr with Travard.|QID|42120|SO|2|M|14.09,56.49;15.43,56.14;15.34,59.57|CS|Z|Tirisfal Glades|CHAT|N|Tell him you are ready and then swim down with Tavard to the underwater entrance of the tomb of Tyr.|
-C Tyr's Crypt cleared.|QID|42120|SO|3|M|37.43,54.94|Z|Tirisfal Glades/2|CHAT|N|Tell him you are ready and then clear the crazed aberrations from Tyr's crypt.|
-C Listen to Travard.|QID|42120|SO|4|M|37.17,55.10|Z|Tirisfal Glades/2|NC|N|Listen to Travard.|
-C Find the final piece to the ritual|QID|42120|SO|5|M|37.64,64.97;42.24,84.64;50.24,74.51|CS|Z|Tirisfal Glades/2|CHAT|N|Tell Tavard you are ready and then go find the final piece to the ritual.|
-C Kill the Horrific Aberration.|QID|42120|SO|6|M|58.80,75.16|Z|Tirisfal Glades/2|N|The giant aberration has the piece. Slay it and retrieve the piece.|
-C Withdraw back to Tyr's crypt.|QID|42120|SO|7|M|43.79,80.78|Z|Tirisfal Glades/2|NC|N|Withdraw back to Tyr's crypt.|
-C Heal the wounded paladins.|QID|42120|SO|8|M|42.73,83.96|Z|Tirisfal Glades/2|NC|N|Some of the paladins are wounded or covered in void magic. Free them by cleansing and healing them.|
-C Get up to the crypt.|QID|42120|SO|9|M|37.73,65.51|Z|Tirisfal Glades/2|NC|N|Get up to the crypt.|
-C Defend the crypt until the ritual is completed.|QID|42120|SO|10|M|37.38,57.16|Z|Tirisfal Glades/2|N|Defend the crypt until the ritual is completed.|
-C The Silver Hand|QID|42120|QO|3|M|37.43,55.14|Z|Tirisfal Glades/2|NC|N|Pick up the Silver Hand.|
+C Tyr's Crypt cleared.|QID|42120|SO|3|M|37.43,54.94|Z|Keeper's Rest|CHAT|N|Tell him you are ready and then clear the crazed aberrations from Tyr's crypt.|
+C Listen to Travard.|QID|42120|SO|4|M|37.17,55.10|Z|Keeper's Rest|NC|N|Listen to Travard.|
+C Find the final piece to the ritual|QID|42120|SO|5|M|37.64,64.97;42.24,84.64;50.24,74.51|CS|Z|Keeper's Rest|CHAT|N|Tell Tavard you are ready and then go find the final piece to the ritual.|
+C Kill the Horrific Aberration.|QID|42120|SO|6|M|58.80,75.16|Z|Keeper's Rest|N|The giant aberration has the piece. Slay it and retrieve the piece.|
+C Withdraw back to Tyr's crypt.|QID|42120|SO|7|M|43.79,80.78|Z|Keeper's Rest|NC|N|Withdraw back to Tyr's crypt.|
+C Heal the wounded paladins.|QID|42120|SO|8|M|42.73,83.96|Z|Keeper's Rest|NC|N|Some of the paladins are wounded or covered in void magic. Free them by cleansing and healing them.|
+C Get up to the crypt.|QID|42120|SO|9|M|37.73,65.51|Z|Keeper's Rest|NC|N|Get up to the crypt.|
+C Defend the crypt until the ritual is completed.|QID|42120|SO|10|M|37.38,57.16|Z|Keeper's Rest|N|Defend the crypt until the ritual is completed.|
+C The Silver Hand|QID|42120|QO|3|M|37.43,55.14|Z|Keeper's Rest|NC|N|Pick up the Silver Hand.|
 F Take provided Hippogryph|QID|42120|M|13.06,57.40|CS|Z|Tirisfal Glades|NC|N|The Hippogryph will return you to Dalaran.|ACTIVE|42120|
-C The Silver Hand|QID|42120|QO|4|M|71.82,45.03|Z|Dalaran@Dalaran70|N|Go see Maxwell Tyrosus at Krasus Landing.|
-T The Silver Hand|QID|42120|M|71.82,45.03|Z|Dalaran@Dalaran70|N|To Lord Maxwell Tyrosus.|
+P Sanctum of Light|ACTIVE|42120|M|32.68,69.85|Z|Dalaran@Dalaran70|N|Take the Portal to the Order Hall.|
+T The Silver Hand|QID|42120|M|49.64,72.35|N|To Lord Maxwell Tyrosus.|
 A We Meet at Light's Hope|QID|38576|M|71.82,45.03|Z|Dalaran@Dalaran70|N|From Lord Maxwell Tyrosus.|PRE|42120|
 C We Meet at Light's Hope|QID|38576|QO|1|M|43.75,40.05|Z|Dalaran@Dalaran70|N|(Optional) Take the Chamber of Guardians(Dalaran) portal to Dalaran Crater. It's still in the same place, WAY HIGH up in the air.|
 C We Meet at Light's Hope|QID|38576|QO|2|M|73.35,53.79|Z|Eastern Plaguelands|N|(Optional) Fly to Light's Hope Chapel.|
@@ -304,19 +309,19 @@ T The Light Reveals|QID|42773|M|52.11,83.19|Z|Western Plaguelands|N|To Lord Maxw
 A Hope Prevails|QID|42774|M|52.11,83.19|Z|Western Plaguelands|N|From Lord Maxwell Tyrosus.|PRE|42773|
 F Light's Hope Chapel|QID|42774|ACTIVE|42774|M|74.16,53.06|Z|Eastern Plaguelands|N|Make your way to Light's Hope Chapel.|
 T Hope Prevails|QID|42774|M|74.28,53.22|Z|Eastern Plaguelands|N|To Lord Maxwell Tyrosus.|
-A The Search for Highlord Tirion|QID|38376|PRE|42774|M|74.28,53.22|Z|Eastern Plaguelands|N|From Lord Maxwell Tyrosus.|
-C The Search for Highlord Tirion|QID|38376|QO|1|M|74.16,53.06|Z|Eastern Plaguelands|NC|N|Hop on the Argent Hippogryph to be flown into a scenario.|
-C Sounding the Charge|QID|38376|SO|1|M|15.34,50.43|Z|BrokenShorePaladin|N|Lead the paladins of the Argent Crusade into battle.|
-C Crusaders' March|QID|38376|SO|2|M|15.34,50.43|Z|BrokenShorePaladin|N|Destroy the demon army.|
-C Destroy Jailer Zerus|QID|38376|SO|3|M|19.95,61.73|Z|BrokenShorePaladin|N|Destroy Jailer Zerus.|
-C Wield the Ashbringer|QID|38376|SO|4|M|26.83,61.33|Z|BrokenShorePaladin|N|Fight you way deeper into the Tomb and find, then wield the Ashbringer|
-C One Final Blessing|QID|38376|SO|5|M|26.75,61.49|Z|BrokenShorePaladin|NC|N|Call upon the power of the Ashbringer to break free from Balnazzar's control. (use provided extra action button.)|
-C Balnazzar the Risen|QID|38376|SO|6|M|26.72,61.46|Z|BrokenShorePaladin|N|Defeat Balnazzar.|
-C Return to Tirion Fordring|QID|38376|SO|7|M|20.19,61.38|Z|BrokenShorePaladin|N|Return to Tirion Fordring.|
-T The Search for Highlord Tirion|QID|38376|M|20.43,61.55|Z|BrokenShorePaladin|
-A We Meet at Light's Hope|QID|42811|M|20.43,61.55|Z|BrokenShorePaladin|PRE|38376|
-C We Meet at Light's Hope|QID|42811|QO|1|M|19.74,60.59|Z|BrokenShorePaladin|N|Click on the Hippogryph for a ride to Light's Hope.|
-F Light's Hope Chapel|QID|99999|M|19.74,60.59|Z|BrokenShorePaladin|N|Click on the Hippogryph for a ride to Light's Hope.|PRE|38376&44063|ACTIVE|42811|
+A The Search for the Highlord|QID|38376|PRE|42774|M|74.28,53.22|Z|Eastern Plaguelands|N|From Lord Maxwell Tyrosus.|
+C The Search for the Highlord||QID|38376|QO|1|M|74.16,53.06|Z|Eastern Plaguelands|NC|N|Hop on the Argent Hippogryph to be flown into a scenario.|
+C Sounding the Charge|QID|38376|SO|1|M|15.34,50.43|Z|Broken Shore!Instance|N|Lead the paladins of the Argent Crusade into battle.|
+C Crusaders' March|QID|38376|SO|2|M|15.34,50.43|Z|Broken Shore!Instance|N|Destroy the demon army.|
+C Destroy Jailer Zerus|QID|38376|SO|3|M|19.95,61.73|Z|Broken Shore!Instance|N|Destroy Jailer Zerus.|
+C Wield the Ashbringer|QID|38376|SO|4|M|26.83,61.33|Z|Broken Shore!Instance|N|Fight you way deeper into the Tomb and find, then wield the Ashbringer|
+C One Final Blessing|QID|38376|SO|5|M|26.75,61.49|Z|Broken Shore!Instance|NC|N|Call upon the power of the Ashbringer to break free from Balnazzar's control. (use provided extra action button.)|
+C Balnazzar the Risen|QID|38376|SO|6|M|26.72,61.46|Z|Broken Shore!Instance|N|Defeat Balnazzar.|
+C Return to Tirion Fordring|QID|38376|SO|7|M|20.19,61.38|Z|Broken Shore!Instance|N|Return to Tirion Fordring.|
+T The Search for the Highlord||QID|38376|M|20.43,61.55|Z|Broken Shore!Instance|
+A We Meet at Light's Hope|QID|42811|M|20.43,61.55|Z|Broken Shore!Instance|PRE|38376|
+C We Meet at Light's Hope|QID|42811|QO|1|M|19.74,60.59|Z|Broken Shore!Instance|N|Click on the Hippogryph for a ride to Light's Hope.|
+F Light's Hope Chapel|QID|99999|M|19.74,60.59|Z|Broken Shore!Instance|N|Click on the Hippogryph for a ride to Light's Hope.|PRE|38376&44063|ACTIVE|42811|
 ;C We Meet at Light's Hope|QID|42811|QO|2|M|42.91,88.83|Z|Eastern Plaguelands|N|Click on the floor to open the secret door.|
 ;T We Meet at Light's Hope|QID|42811|M|63.13,37.18|Z|Eastern Plaguelands|N|To Lord Maxwell Tyrosus.|
 
@@ -583,9 +588,9 @@ C Menace on the Broken Shore|QID|45975|M|53.49,78.52|N|Use Command Board to send
 t Investigate the Broken Shore|QID|45975|M|52.26,78.14|N|To Lord Maxwell Tyrosus.|
 
 ;champions of legionfall
-A Judgement Awaits|QID|45143|M|50.22,74.05|N|From Lady Leadrin.|ACTIVE|47137|
-C Judgement Awaits|QID|45143|M|75.69,53.86|Z|Eastern Plaguelands|NC|N|Go outside (to Lights Hope Chapel, not Dalaran) and use the provided extra action button to judge the troops.|
-T Judgement Awaits|QID|45143|M|59.35,32.42|N|To Delas Moonfang back in your order hall.|
+A Judgment Awaits|QID|45143|M|50.22,74.05|N|From Lady Leadrin.|ACTIVE|47137|
+C Judgment Awaits|QID|45143|M|75.69,53.86|Z|Eastern Plaguelands|NC|N|Go outside (to Lights Hope Chapel, not Dalaran) and use the provided extra action button to judge the troops.|
+T Judgment Awaits|QID|45143|M|59.35,32.42|N|To Delas Moonfang back in your order hall.|
 A Ancestors and Enemies|QID|45890|M|59.35,32.42|N|From Delas Moonfang.|PRE|45143|
 P Dalaran|QID|45890|M|37.53,64.07|N|Take the Portal to Dalaran.|ACTIVE|45890|
 F Starsong Refuge|QID|45890|M|69.87,51.11|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45890|

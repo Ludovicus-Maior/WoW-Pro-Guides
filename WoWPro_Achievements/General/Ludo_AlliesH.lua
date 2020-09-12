@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/legion_allied_races_guides
+-- Date: 2020-08-14 15:32
+-- Who: Ludovicus_Maior
+-- Log: ThunderTotem/6 => Thunder Totem
+
+-- URL: http://wow-pro.com/node/3778/revisions/30383/view
+-- Date: 2019-08-25 17:02
+-- Who: Ludovicus_Maior
+-- Log: ThunderTotem update
+
+-- URL: http://wow-pro.com/node/3778/revisions/30071/view
 -- Date: 2018-10-23 21:54
 -- Who: Ludovicus_Maior
 -- Log: And/Or
@@ -45,8 +55,8 @@ C Dark Forces|QID|49756|M|40.58,60.76|Z|Thunder Bluff|QO|1|N|Qy'telek is on the 
 T Dark Forces|QID|49756|Z|Thunder Bluff|N|To Baine Bloodhoof, who is beside you.|
 A Return to Highmountain|QID|48079|PRE|49756|Z|Thunder Bluff|N|From Baine Bloodhoof, who is beside you.|
 F Thunder Totem|ACTIVE|48079|N|Make your way to the bottom floor of Thunder Totem, by the pool of vision.|
-T Return to Highmountain|QID|48079|M|68.79,71.14|Z|ThunderTotem/6|N|To Mayla Highmountain.|
-A Dark Tales|QID|41884|PRE|48079|M|68.42,72.91|Z|ThunderTotem/6|N|From Spiritwalker Graysky.|
+T Return to Highmountain|QID|48079|M|68.79,71.14|Z|ThunderTotem|N|To Mayla Highmountain.|
+A Dark Tales|QID|41884|PRE|48079|M|68.42,72.91|Z|ThunderTotem|N|From Spiritwalker Graysky.|
 F Riverbend|ACTIVE|41884|M|38.51,69.10|Z|Highmountain|N|Fly to Riverbend to meet up with Spiritwalker Graysky.|
 T Dark Tales|QID|41884|M|38.51,69.10|Z|Highmountain|N|To Spiritwalker Graysky, near Riverbend.|
 A Walking in Their Footsteps|QID|41764|PRE|41884|M|38.51,69.10|Z|Highmountain|N|From Spiritwalker Graysky.|
@@ -79,8 +89,8 @@ C Necrodark Defiler|QID|41800|M|52.28,66.43|Z|Highmountain|QO|2|N|Huln Slay!|US|
 T Servants of the Darkness|QID|41800|M|53.33,64.00|Z|Highmountain|N|To Spiritwalker Graysky.|
 A How Fares Ebonhorn?|QID|48434|PRE|41800|M|53.33,64.00|Z|Highmountain|N|From Spiritwalker Graysky.|
 F Thunder Totem|ACTIVE|48434|N|Make your way to the bottom floor of Thunder Totem, by the pool of vision.|
-T How Fares Ebonhorn?|QID|48434|M|67.65,71.41|Z|ThunderTotem/6|N|To Spiritwalker Ebonhorn.|
-A Curse of the Necrodark|QID|41815|PRE|48434|M|68.81,71.14|Z|ThunderTotem/6|N|From Mayla Highmountain.|
+T How Fares Ebonhorn?|QID|48434|M|67.65,71.41|Z|ThunderTotem|N|To Spiritwalker Ebonhorn.|
+A Curse of the Necrodark|QID|41815|PRE|48434|M|68.81,71.14|Z|ThunderTotem|N|From Mayla Highmountain.|
 F Highmountain Summit|ACTIVE|41815|M|56.49,89.24|Z|Highmountain|N|Fly off to Highmountain Summit to meet up with Baine Bloodhoof.|
 T Curse of the Necrodark|QID|41815|M|56.49,89.24|Z|Highmountain|N|To Baine Bloodhoof.|
 A Ice and Shadow|QID|41840|PRE|41815|M|56.49,89.24|Z|Highmountain|N|From Baine Bloodhoof.|

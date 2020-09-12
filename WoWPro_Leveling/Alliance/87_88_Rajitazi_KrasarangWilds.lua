@@ -140,7 +140,7 @@
 -- URL: http://wow-pro.com/node/3488/revisions/25079/view
 -- Date: 2012-09-24 22:34
 -- Who: Ludovicus_Maior
--- Log: Merged https://github.com/Emmaleah/WoW-Pro-Guides/blob/f25104bceccdf3d7adfe58ec2beaffdbabe4af07/WoWPro_Leveling/Alliance/87_88_Rajitazi_KrasarangWilds.lua 
+-- Log: Merged https://github.com/Emmaleah/WoW-Pro-Guides/blob/f25104bceccdf3d7adfe58ec2beaffdbabe4af07/WoWPro_Leveling/Alliance/87_88_Rajitazi_KrasarangWilds.lua
 
 -- URL: http://wow-pro.com/node/3488/revisions/25062/view
 -- Date: 2012-09-02 02:12
@@ -155,7 +155,7 @@
 -- URL: http://wow-pro.com/node/3488/revisions/25053/view
 -- Date: 2012-08-28 19:10
 -- Who: Ludovicus_Maior
--- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
+-- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07.
 
 local guide = WoWPro:RegisterGuide('RajKra8788', "Leveling", 'Krasarang Wilds', 'Rajitazi', 'Alliance')
 WoWPro:GuideLevels(guide,86,87,84.5738)

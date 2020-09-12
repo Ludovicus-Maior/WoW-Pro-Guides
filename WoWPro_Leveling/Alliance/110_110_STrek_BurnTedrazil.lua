@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/node/3776
+-- Date: 2019-10-01 15:48
+-- Who: Ludovicus_Maior
+-- Log: Avoid [ESC] as it is a markup code!
+
+-- URL: http://wow-pro.com/node/3776/revisions/30269/view
+-- Date: 2019-06-27 21:58
+-- Who: Ludovicus_Maior
+-- Log: 8.2 Z updates
+
+-- URL: http://wow-pro.com/node/3776/revisions/30123/view
 -- Date: 2018-11-12 10:06
 -- Who: Emmaleah
 -- Log: Added profession trainers. Archeology and Fishing do not autocomplete as I am unable to determine the correct Recipe ID (its not the one that the tool tip shows when you learn it).
@@ -36,7 +46,7 @@
 -- URL: http://wow-pro.com/node/3776/revisions/29524/view
 -- Date: 2018-08-15 03:09
 -- Who: Chromaflo
--- Log: Changed further map ids and coordinates, especially from "Tiragarde Sound" to "Boralus". This will fix the waypoints with |CC| or |CS| tags. 
+-- Log: Changed further map ids and coordinates, especially from "Tiragarde Sound" to "Boralus". This will fix the waypoints with |CC| or |CS| tags.
 
 -- URL: http://wow-pro.com/node/3776/revisions/29522/view
 -- Date: 2018-08-15 01:07
@@ -60,7 +70,7 @@
 -- URL: http://wow-pro.com/node/3776/revisions/29500/view
 -- Date: 2018-08-13 12:55
 -- Who: Ludovicus_Maior
--- Log:  "Chamber of Heart"
+-- Log: "Chamber Of Heart" => "Chamber of Heart"
 
 -- URL: http://wow-pro.com/node/3776/revisions/29488/view
 -- Date: 2018-08-08 21:31
@@ -231,15 +241,15 @@ C A Dying World|QID|52946|M|75.25,20.49|Z|Stormwind City|QO|1|N|Go to the Easter
 T A Dying World|QID|52946|M|42.26,44.26|Z|Silithus|N|To Magni Bronzebeard.|
 A The Heart of Azeroth|QID|51211|M|42.26,44.26|Z|Silithus|N|From Magni Bronzebeard.|PRE|52946^46931|
 C The Heart of Azeroth|QID|51211|QO|1|M|43.19,44.49|Z|Silithus|NC|N|Click on the Titan Translocator to teleport to the Chamber of the Heart.|
-C The Heart of Azeroth|QID|51211|M|50.30,54.05|Z|Chamber of Heart!Dungeon|QO|2|N|Use titan console (Video can be skipped [ESC])|
-C The Heart of Azeroth|QID|51211|QO|3|M|50.17,53.60|Z|Chamber of Heart!Dungeon|CHAT|N|Ask Magni what Azeroth wants.|
-T The Heart of Azeroth|QID|51211|M|50.17,53.60|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
-A Infusing the Heart|QID|52428|M|50.05,55.15|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|51211^51400|
-C Infusing the Heart|QID|52428|QO|1|M|52.32,58.14;55.48,60.73;54.70,69.61;48.32,73.66;45.13,62.64|CN|Z|Chamber of Heart!Dungeon|NC|N|Go to several of the Azerite Cracks around the room and use your special action button.|
-C Infusing the Heart|QID|52428|QO|3|M|49.98,64.74|Z|Chamber of Heart!Dungeon|NC|N|Move to the center of the room and use your special action button, wait until the bar fills.|
-T Infusing the Heart|QID|52428|M|50.23,53.83|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
-A The Speakers Imperative|QID|51403|M|50.23,53.83|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|52428|
-C The Speakers Imperative|QID|51403|M|50.10,30.39|Z|Chamber of Heart!Dungeon|NC|N|Use the provided portal to return to Stormwind.|
+C The Heart of Azeroth|QID|51211|M|50.30,54.05|Z|Chamber of Heart!Dungeon1021|QO|2|N|Use titan console (Video can be skipped)|
+C The Heart of Azeroth|QID|51211|QO|3|M|50.17,53.60|Z|Chamber of Heart!Dungeon1021|CHAT|N|Ask Magni what Azeroth wants.|
+T The Heart of Azeroth|QID|51211|M|50.17,53.60|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
+A Infusing the Heart|QID|52428|M|50.05,55.15|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|PRE|51211^51400|
+C Infusing the Heart|QID|52428|QO|1|M|52.32,58.14;55.48,60.73;54.70,69.61;48.32,73.66;45.13,62.64|CN|Z|Chamber of Heart!Dungeon1021|NC|N|Go to several of the Azerite Cracks around the room and use your special action button.|
+C Infusing the Heart|QID|52428|QO|3|M|49.98,64.74|Z|Chamber of Heart!Dungeon1021|NC|N|Move to the center of the room and use your special action button, wait until the bar fills.|
+T Infusing the Heart|QID|52428|M|50.23,53.83|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
+A The Speakers Imperative|QID|51403|M|50.23,53.83|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|PRE|52428|
+C The Speakers Imperative|QID|51403|M|50.10,30.39|Z|Chamber of Heart!Dungeon1021|NC|N|Use the provided portal to return to Stormwind.|
 T The Speakers Imperative|QID|51403|M|27.64,21.29|Z|Stormwind City|N|To Halford Wyrmbane.|
 A Tides of War|QID|46727|M|27.64,21.29|Z|Stormwind City|N|From Halford Wyrmbane.|PRE|51403&51795|
 C Tides of War|QID|46727|QO|1|M|83.47,29.62;85.14,32.52|CS|Z|Stormwind City|NC|N|Fly to Stormwind Keep and go to the Throneroom and listen to the council.|

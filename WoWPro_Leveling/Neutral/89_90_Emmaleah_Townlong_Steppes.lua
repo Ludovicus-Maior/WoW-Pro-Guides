@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_townlong_steppes_neutral
+-- Date: 2020-07-10 00:34
+-- Who: Ludovicus_Maior
+-- Log: Chao's Sword is not an item anymore.   Use the QO.
+
+-- URL: http://wow-pro.com/node/3492/revisions/30030/view
 -- Date: 2018-10-17 02:31
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -290,7 +295,7 @@ A In the Wrong Hands|QID|30897|PRE|30960|M|70.34,86.67|N|From Initiate Chao.|
 C Improvised Ammunition|QID|30895|S|M|67.70,87.52|N|These are on the ground as well as dropping from the mobs you kill.|
 C Thieves and Troublemakers|QID|30896|S|M|68.05,86.72|
 l Amber Encased Moth|QID|31426|M|65.82,86.06|L|86472|N|This is another one of those items to loot for gold and XP.|
-K Kill Needlebottom|QID|30897|T|Needlebottom|L|82783|M|62.64,87.23|N|Kill Needlebottom to get Chao's Sword.|
+K Kill Needlebottom|QID|30897|T|Needlebottom|QO|1|M|62.64,87.23|N|Kill Needlebottom to get Chao's Sword.|
 C Thieves and Troublemakers|QID|30896|US|M|68.05,86.72|
 C Improvised Ammunition|QID|30895|US|M|67.70,87.52|N|These are on the ground as well as dropping from the mobs you kill.|
 T Thieves and Troublemakers|QID|30896|M|70.45,86.37|N|To Initiate Feng.|

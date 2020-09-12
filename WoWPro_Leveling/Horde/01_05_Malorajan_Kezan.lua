@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_kezan_amp_lost_isles
+-- Date: 2019-07-29 15:35
+-- Who: Fluclo
+-- Log: Ace won't spawn for the quest Surrender or Else if you are mounted on your Chauffeur, so two lines to give a message if you are on your Chauffeur.
+
+-- URL: http://wow-pro.com/node/3212/revisions/30341/view
+-- Date: 2019-07-29 14:18
+-- Who: Fluclo
+-- Log: Added ACTIVE tag to Blastshadow the Brutemaster for it to only show when the quest is in your log
+
+-- URL: http://wow-pro.com/node/3212/revisions/30340/view
+-- Date: 2019-07-29 13:36
+-- Who: Fluclo
+-- Log: Path is to the north, not to the south.
+
+-- URL: http://wow-pro.com/node/3212/revisions/30220/view
 -- Date: 2019-02-12 00:00
 -- Who: Ludovicus_Maior
 -- Log: Correcting sexism in [Fourth and Goal] and bad coords for [Necessary Roughness].
@@ -231,10 +246,6 @@
 -- Date: 2010-12-03 07:20
 -- Who: Jiyambi
 
--- URL: http://wow-pro.com/node/3212/revisions/23292/view
--- Date: 2010-12-03 07:19
--- Who: Jiyambi
-
 local guide = WoWPro:RegisterGuide('MalKez0105', "Leveling", 'Kezan', 'Malorajan', 'Horde')
 WoWPro:GuideLevels(guide,01,02, 1.03704)
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Goblin_Male","Interface\\Icons\\Achievement_Character_Goblin_Female"))
@@ -264,7 +275,7 @@ T Megs in Marketing|QID|28349|M|58.22,76.61|N|To Megs Dreadshredder.|
 A Rolling with my Homies|QID|14071|M|58.22,76.61|N|From Megs Dreadshredder.|PRE|28349|
 C Rolling with my Homies |QID|14071|U|46856|N|You have access to a Hot Rod, which will allow you to move quicker in Kezan. Whilst mounted, you don't get hurt jumping down big drops, and can use the first keybind to go quicker for a short duration. The Key symbol to the left of this window will allow you to mount your Hot Rod, and will appear on all quests where boarding the Hot Rod is suitable. Use the key now to board your Hot Rod. If you need to dismount for any reason, right click the Hot Rod buff at the top right of your screen.|QO|1|NC|
 C Rolling with my Homies|QID|14071|U|46856|M|58.10,86.60|QO|2|NC|N|Go pick up Izzy by driving up to her (you can stay mounted on the Hot Rod). She is located in the beam of light on the other side of the swimming pool. The Hot Rod doesn't work on/in water.|
-C Rolling with my Homies|QID|14071|U|46856|M|60.76,50.35|QO|4|N|Go pick up Gobber. Just follow the path south from KTC Headquarters.|NC|
+C Rolling with my Homies|QID|14071|U|46856|M|60.76,50.35|QO|4|N|Go pick up Gobber. Just follow the path north from KTC Headquarters.|NC|
 C Rolling with my Homies|QID|14071|U|46856|M|47.80,37.40|QO|3|NC|N|Go pick up Ace. He's on the other side of the road bridge.|
 T Rolling with my Homies|QID|14071|M|58.24,76.01|N|To Megs Dreadshredder.|U|46856|
 

@@ -11,7 +11,7 @@
 -- URL: http://wow-pro.com/node/3677/revisions/29805/view
 -- Date: 2018-09-23 09:51
 -- Who: elidion
--- Log: A few more tweaks to make the flow better for boosted characters. 
+-- Log: A few more tweaks to make the flow better for boosted characters.
 
 -- URL: http://wow-pro.com/node/3677/revisions/29747/view
 -- Date: 2018-09-14 07:31
@@ -57,7 +57,7 @@
 -- URL: http://wow-pro.com/node/3677/revisions/28250/view
 -- Date: 2017-01-31 01:06
 -- Who: Blanckaert
--- Log: I dont know what I edited etc.. so I just replaced whole guide. 
+-- Log: I dont know what I edited etc.. so I just replaced whole guide.
 
 -- URL: http://wow-pro.com/node/3677/revisions/28236/view
 -- Date: 2017-01-10 21:27
@@ -87,7 +87,7 @@
 -- URL: http://wow-pro.com/node/3677/revisions/27913/view
 -- Date: 2016-10-14 03:24
 -- Who: Emmaleah
--- Log: lvl 101 quests (partial) per Blanckaert 
+-- Log: lvl 101 quests (partial) per Blanckaert
 
 -- URL: http://wow-pro.com/node/3677/revisions/27795/view
 -- Date: 2016-09-15 03:15

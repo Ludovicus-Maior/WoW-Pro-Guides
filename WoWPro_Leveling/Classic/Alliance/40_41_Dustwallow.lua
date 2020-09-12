@@ -5,7 +5,7 @@ R Mudsprocket|QID|11214|N|Go west then south on the path to Mudsprocket.|M|41.90
 T Mission to Mudsprocket|QID|11214|M|42.3,72.9|
 f Mudsprocket|QID|11143|N|Get the flight path.|M|42.80,72.50|
 F Theramore Isle|QID|11143|N|Fly to Theramore Isle.|
-T The Deserters (part 2)|QID|1287|M|68.2,48.6|
+T The Deserters |QID|1287|M|68.2,48.6|
 A A Grim Connection|QID|11143|M|68.2,48.6|
 N Check Auction House for these items|QID|714|N|Check the Auction House for the following items (you can do this on an alternate character): Frost Oil, Patterned Bronze Bracers, Gyrochronatom, and 2x Elixir of Fortitude (you may have one already).  You need these items for quests.|
 F Theramore Isle|QID|11143|N|Go to Theramore.|
@@ -17,7 +17,7 @@ C Confirming the Suspicion|N|Get 4 Grimtotem Notes and combine them to get the G
 T Confirming the Suspicion|QID|11144|M|46.6,24.6|
 T Arms of the Grimtotems|QID|11148|M|46.6,24.6|
 A Tabetha's Assistance|QID|11149|M|46.6,24.6|
-T Tabetha's Assistance|N||QID|11149|M|46.00,57.00|
+T Tabetha's Assistance|QID|11149|M|46.00,57.00|
 A Raze Direhorn Post!|QID|11150|M|46.1,57.2|
 A The Grimtotem Weapon|QID|11169|M|46.1,57.2|
 A The Reagent Thief|QID|11173|M|46.1,57.2|
@@ -37,7 +37,7 @@ A Delivery for Drazzit|QID|11208|M|53.6,56.9|
 C Direhorn Raiders|N|Go to a tauren camp called Direhorn Post, and kill 12 Grimtotems.  Look for Apothecary Cylla, and loot a Sealed Letter after killing her.  Also, burn the three tents at  (47.00, 46.00) and (47.00),47.00) while you are doing this. (46.60, 50.50)|QID|11156|M|46.00,45.00|
 N Sealed Letter|QID|11185|N|Look for Apothecary Cylla, and loot a Sealed Letter after killing her.  Right click the letter to accept the quest.   Also, burn the three tents at  (47.00, 46.00)  and (47.00, 47.00) while you are doing this.|L|33114 1|M|46.00,45.00|
 A The Apothecary's Letter|N|Right click the letter to accept the quest.|QID|11185|M|47.2,46.6|
-C Raze Direhorn Post!|N|Burn the three tents at -46, 45-  -47, 46-  and -47,47-.|QID|11150|M|47.4,47.6|
+C Raze Direhorn Post!|N|Burn the three tents at -46,45--47,46--47,47-.|QID|11150|M|47.4,47.6|
 T Raze Direhorn Post!|QID|11150|M|46.1,57.2|
 A Justice for the Hyals|QID|11151|M|46.1,57.2|
 T The Grimtotem Weapon|QID|11169|M|46.1,57.2|
@@ -53,7 +53,7 @@ T Peace at Last|QID|11152|M|68.2,48.6|
 F Mudsprocket|QID|11208|N|Fly to Mudsprocket.|M|67.50,51.30|
 T Delivery for Drazzit|QID|11208|M|42.3,72.9|
 A Bloodfen Feathers|QID|11158|M|41.9,74.0|
-A WANTED: Goreclaw the Ravenous|N||QID|11184|M|41.75,73.10|
+A WANTED: Goreclaw the Ravenous|QID|11184|M|41.75,73.10|
 A Catch a Dragon by the Tail|QID|11217|M|41.5,73.0|
 R Bloodfen Burrow|QID|11158|N|Kill Raptors while running northwest to The Bloodfen Burrow.|M|32.10,65.70|
 C WANTED: Goreclaw the Ravenous|N|Kill Goreclaw|QID|11184|M|32.10,65.70|

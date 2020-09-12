@@ -99,7 +99,7 @@ WoWPro:GuideIcon(guide,"ACH",4932)
 WoWPro:GuideSteps(guide, function()
 return [[
 A Warchief's Command: Feralas!|QID|28510|N|From Warchief's Command Board|
-;add zone&pre
+;add zone & pre
 A The Wilds of Feralas|QID|26589|LEAD|25210|PRE|14346&14394|M|73.2,73.0|N|From Khan Shodo.|Z|Desolace|
 
 F Camp Ataya|QID|25339|M|57.71,49.74|N|Fly to Camp Ataya in Feralas.|Z|Desolace|

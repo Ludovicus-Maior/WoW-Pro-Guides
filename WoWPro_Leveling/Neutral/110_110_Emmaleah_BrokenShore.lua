@@ -4,6 +4,12 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/broken_shore_armies_legionfall_guide
+-- Date: 2020-04-08 18:22
+-- Who: Ludovicus_Maior
+-- Log: 47067 [Seeking Lost Knowledge] is obsolete
+--	[Defending Broken Isles], [Take Out the Head...], [Cathedral of Eternal Night: Altar of the Aegis], [The Forgotten Heir], [The Gates Are Closed], [Cutting off the Heads], [The Matter Resolved... For Now...], [A Triumphant Report], [The Wisdom of the Council]
+
+-- URL: http://wow-pro.com/node/3724/revisions/30131/view
 -- Date: 2018-11-18 17:00
 -- Who: Ludovicus_Maior
 -- Log: Removed WoWPro.Achievements:GuideMisc()
@@ -91,7 +97,7 @@
 -- URL: http://wow-pro.com/node/3724/revisions/28625/view
 -- Date: 2017-03-29 17:57
 -- Who: Blanckaert
--- Log: updates... added C Steps for WQ (yes just replaced WHOLE guide... ;) 
+-- Log: updates... added C Steps for WQ (yes just replaced WHOLE guide... ;)
 
 -- URL: http://wow-pro.com/node/3724/revisions/28624/view
 -- Date: 2017-03-29 16:06
@@ -125,7 +131,8 @@ C Mephistroth slain|M|50.05,45.86|Z|AssaultonBrokenShoreScenario|SO|8|N|Start fi
 T Assault on Broken Shore|QID|46734|M|44.74,63.29|S|N|To Archmage Khadgar.|
 
 N World Quests, etc|QID|46940|N|This guide is still a rough draft.  It includes all the WQs I have seen, + a very few others. I have attempted to group them by area of the map.|
-A Seeking Lost Knowledge|QID|47067|PRE|46734|M|44.74,63.29|N|From Archmage Khadgar. If you havent gotten your Artifact Knowledge to 25, this will not be available.|
+; Obsolete?
+; A Seeking Lost Knowledge|QID|47067|PRE|46734|M|44.74,63.29|N|From Archmage Khadgar. If you havent gotten your Artifact Knowledge to 25, this will not be available.|
 A Legionfall Supplies|QID|46286|PRE|46734|M|44.56,63.15|N|From Commander Chambers.|
 A Aalgen Point|QID|46832|PRE|46734|M|44.56,63.15|N|From Commander Chambers.|
 A Greater Power for Greater Threats|QID|46744|M|44.74,63.28|N|From Archmage Khadgar. You will receive this quest if you have not unlocked all the traits on your artifact.|ACH|11144|
@@ -134,7 +141,7 @@ N The Broken Shore: Investigating the Legion|QID|46765|M|44.74,63.28|N|At some p
 N The Shadow of the Sentinax|QID|46935|M|61.52,48.29|N|At some point you will find a 'Broken Sentianax Beacon' when you fight under the Sentinax (location varies, marked on your map). Turning in this quests enables you to loot items that will open portals and allow more nethershard farming.|
 A The Mage Tower|QID|46772|M|44.54,63.15|N|From Commander Chambers. Available when the Mage tower is   built.|ACH|11546;3|
 A The Nether Disruptor|QID|46774|M|44.54,63.15|N|From Commander Chambers. Available when the Nether Disrupter is freshly built.|ACH|11546;3|
-A Defending the Broken Isles|QID|46247|M|44.54,63.55|N|From Maiev Shadowsong.|PRE|46205|
+A Defending Broken Isles|QID|46247|M|44.54,63.55|N|From Maiev Shadowsong.|PRE|46205|
 A Champions of Legionfall|QID|47137|M|44.54,63.55|N|From Maiev Shadowsong. The completion guide for this will be in your class guides.|ACH|10994|
 C The Mage Tower|QID|46772|M|45.03,62.48|N|Click on the scroll floating in front of the building.|
 A The Highlord's Return|QID|45416|M|45.69,62.04|N|Only available if the Mage Tower is built.|
@@ -155,9 +162,9 @@ t Intolerable Infestation|QID|46252|M|44.54,63.53|N|To Maiev Shadowsong.|
 A Relieved of Their Valuables|QID|46769|M|44.76,63.28|N|From Archmage Khadgar.|PRE|46252|
 C Relieved of Their Valuables|QID|46769|S|N|While out and about doing WQs on the island keep an eye out for treasures and go loot them.|
 t Relieved of Their Valuables|QID|46769|M|44.76,63.28|N|From Archmage Khadgar.|
-A Take Out the Head|QID|46250|M|44.54,63.53|N|From Maiev Shadowsong.|PRE|46769|
-C Take Out the Head|QID|46250|S|N|Be sure and kill some of the rare elite demons (marked with a demon head on map).|
-t Take Out the Head|QID|46250|M|44.54,63.53|N|To Maiev Shadowsong.|
+A Take Out the Head...|QID|46250|M|44.54,63.53|N|From Maiev Shadowsong.|PRE|46769|
+C Take Out the Head...|QID|46250|S|N|Be sure and kill some of the rare elite demons (marked with a demon head on map).|
+t Take Out the Head...|QID|46250|M|44.54,63.53|N|To Maiev Shadowsong.|
 
 A Spiders, Huh?|QID|46499|M|39.54,71.66|N|From Excavator Karla.|PRE|46245|
 A Grave Robbin'|QID|46501|M|39.54,71.66|N|From Excavator Karla. This quest has a delay and will show in the guide a day before it is actually available.|PRE|46499|
@@ -281,10 +288,11 @@ A Begin Construction|QID|46245|M|44.57,63.23|N|From Commander Chambers.|PRE|4628
 C Begin Construction|QID|46245|M|44.56,63.07|N|Click on the construction table to donate Legionfall Supplies to your choice of buildings.|
 T Begin Construction|QID|46245|M|44.56,63.07|N|To Commander Chambers.|
 T Seeking Lost Knowledge|QID|47067|M|44.73,63.29|N|To Archmage Khadgar.|
+; QID 47067 may be obsolete, [Delivering Lost Knowledge]x12 probably is too.
 A Delivering Lost Knowledge|QID|46809^47069^47070^47071^47072^47073^47074^47075^47076^47077^47078^47079|M|44.73,63.29|N|From Archmage Khadgar.|PRE|47067|
-A Altar of the Aegis|QID|46244|M|44.75,63.29|N|From Archmage Khadgar.|PRE|46286|
-t Altar of the Aegis|QID|46244|M|44.75,63.29|N|To Archmage Khadgar.|
-t Defending the Broken Isles|QID|46247|M|44.54,63.55|N|To Maiev Shadowsong.|
+A Cathedral of Eternal Night: Altar of the Aegis|QID|46244|M|44.75,63.29|N|From Archmage Khadgar.|PRE|46286|
+t Cathedral of Eternal Night: Altar of the Aegis|QID|46244|M|44.75,63.29|N|To Archmage Khadgar.|
+t Defending Broken Isles|QID|46247|M|44.54,63.55|N|To Maiev Shadowsong.|
 t The Nether Disruptor|QID|46774|M|44.56,63.07|N|To Commander Chambers.|
 t Mark of the Sentinax|QID|47139|M|44.76,63.29|N|To Lord Illidan Stormrage.|
 t Self-Fulfilling Prophecy|QID|46248|M|44.56,63.40|N|To Prophet Velen.|
@@ -292,8 +300,8 @@ C Intolerable Infestation|QID|46252|US|N|Go to Felsoul Hold in Suramar or Farona
 t Intolerable Infestation|QID|46252|M|44.54,63.53|N|To Maiev Shadowsong.|
 C Relieved of Their Valuables|QID|46769|US|N|While out and about doing WQs on the island keep an eye out for treasures and go loot them.|
 t Relieved of Their Valuables|QID|46769|M|44.76,63.28|N|From Archmage Khadgar.|
-C Take Out the Head|QID|46250|US|N|Be sure and kill some of the rare elite demons (marked with a demon head on map).|
-t Take Out the Head|QID|46250|M|44.54,63.53|N|To Maiev Shadowsong.|
+C Take Out the Head...|QID|46250|US|N|Be sure and kill some of the rare elite demons (marked with a demon head on map).|
+t Take Out the Head...|QID|46250|M|44.54,63.53|N|To Maiev Shadowsong.|
 
 ;each class turn in.
 T Delivering Lost Knowledge|QID|47070^47072^47073^47074^47076^47078^47079|M|61.4,74.6|Z|Upper Command Center@DemonHunterOrderHallTerrain|C|Demon Hunter|N|To Vahu the Weathered back in your order hall.|
@@ -437,15 +445,15 @@ T To Silence the Bonespeakers|QID|45522|M|73,42|Z|Stormheim|N|To Runespeaker Fal
 A To Tame the Drekirjar|QID|45523|M|73,42|Z|Stormheim|N|From Silgryn.|PRE|45522|
 C To Tame the Drekirjar|QID|45523|M|40,72|Z|Stormheim|N|And we are off to Hrydshal, She can almost take him alone, but you need to help a little. (i.e it won't complete if you don't hit him.)|
 T To Tame the Drekirjar|QID|45523|M|41.2,71.8|Z|Stormheim|N|To Jarl Velbrand.|
-A The Lost Heir|QID|45524|M|41.2,71.8|Z|Stormheim|N|From Silgryn.|PRE|45523|
-C The Lost Heir|QID|45524|M|73.70,86.07;74.2,84.8|CS|NC|QO|1|Z|Stormheim|N|Torvald can be found inside this cave near Vrekt.|
-C The Lost Heir|QID|45524|M|74.2,84.8|QO|2|Z|Stormheim|N|Not quite the happy reunion. Kill Torvald.|
-T The Lost Heir|QID|45524|M|59.6,50.8|Z|Stormheim|N|To Sigryn.|
+A The Forgotten Heir|QID|45524|M|41.2,71.8|Z|Stormheim|N|From Silgryn.|PRE|45523|
+C The Forgotten Heir|QID|45524|M|73.70,86.07;74.2,84.8|CS|NC|QO|1|Z|Stormheim|N|Torvald can be found inside this cave near Vrekt.|
+C The Forgotten Heir|QID|45524|M|74.2,84.8|QO|2|Z|Stormheim|N|Not quite the happy reunion. Kill Torvald.|
+T The Forgotten Heir|QID|45524|M|59.6,50.8|Z|Stormheim|N|To Sigryn.|
 A Unanswered Questions|QID|45525|M|59.6,50.8|Z|Stormheim|N|From Sigryn.|PRE|45525|
 T Unanswered Questions|QID|45525|M|62.5,68.09|Z|Stormheim|N|To Eyir. Turn in quickly, dont read the text, as she often bugs out, if she does, drop quest and go repick it up.|
-A The Gates are Closed|QID|46340|M|65,68|Z|Stormheim|N|From Eyir.|PRE|45525|
+A The Gates Are Closed|QID|46340|M|65,68|Z|Stormheim|N|From Eyir.|PRE|45525|
 P Dalaran|QID|46340|M|65,68|Z|Stormheim|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|46340|
-T The Gates are Closed|QID|46340|M|22.47,40.53|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+T The Gates Are Closed|QID|46340|M|22.47,40.53|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 
 ;Bradensbrook Investigation|QID|46078;47003;47004;47005;47006
 F Bradensbrook|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|46078^47003^47004^47005^47006|
@@ -455,7 +463,7 @@ C Aid on the Front Lines|QID|46079|M|42.4,59|Z|Val'sharah|NC|N|Use your healing 
 T Aid on the Front Lines|QID|46079|M|42.4,59|Z|Val'sharah|N|To Mayor Heathrow.|
 A Shadowsong's Return|QID|46082|M|42.4,59|Z|Val'sharah|N|From Mayor Heathrow.|PRE|46079|
 T Shadowsong's Return|QID|46082|M|39,58.2|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
-A Cutting off the Heads|QID|460|M|39,58.2|Z|Val'sharah|N|From Commander Jarod Shadowsong.|PRE|46082|
+A Cutting off the Heads|QID|46106|M|39,58.2|Z|Val'sharah|N|From Commander Jarod Shadowsong.|PRE|46082|
 A Quieting the Spirits|QID|46080|M|39,58.2|Z|Val'sharah|N|From Commander Jarod Shadowsong.|PRE|46082|
 C Quieting the Spirits|QID|46080|M|39,58.2|Z|Val'sharah|S|N|You may want to switch to your DPS spec (if possible) for this step. Otherwise just be careful and Jerod will help you to kill the Risen spirits.|
 C Cutting off the Heads|QID|46106|M|37.2,58.4|Z|Val'sharah|QO|2|N|Kill Nethos Starwalker.|T|Nethos Starwalker|
@@ -469,9 +477,9 @@ C Source of the Corruption|QID|46107|QO|1|N|Travel to Hero's Rest (outside of Bl
 C Source of the Corruption|QID|46107|QO|2|N|Jarod tries to reason with them. Kill the ones that can't be released.|
 C Source of the Corruption|QID|46107|QO|3|M|38.8,51.4|Z|Val'sharah|N|Kill Lorgos.|T|Lorgos the Resurrector|
 T Source of the Corruption|QID|46107|M|38.8,51.4|Z|Val'sharah|N|To Commander Jarod Shadowsong.|
-A The Matter Resolved...For Now...|QID|46200|M|38.8,51.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46107|
+A The Matter Resolved... For Now...|QID|46200|M|38.8,51.4|Z|Val'sharah|N|From Commander Jared Shadowsong.|PRE|46107|
 P Dalaran|QID|46200|M|38.8,51.4|Z|Val'sharah|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|46200|
-T The Matter Resolved...For Now...|QID|46200|M|22.47,40.53|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
+T The Matter Resolved... For Now...|QID|46200|M|22.47,40.53|Z|Dalaran@Dalaran70|N|To Archmage Khadgar.|
 
 ;Rumblings Near Feltotem|QID|45560;47018;47019;47020
 F Witchwood|QID|45560^47018^47019^470209|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45560^47018^47019^47020|
@@ -496,9 +504,9 @@ C Destroying the Nest|QID|45796|QO|2|M|34,31|Z|Highmountain|N|Kill Legion forces
 C Destroying the Nest|QID|45796|QO|3|M|34,34|Z|Highmountain|US|NC|N|Finish destoying eggs.|
 C Destroying the Nest|QID|45796|QO|4|M|34,34|Z|Highmountain|N|The Fel Broodmaster is to your right as you are leaving.|
 T Destroying the Nest|QID|45796|M|31.31,25.15|Z|Highmountain|N|To Navarrogg.|
-A Triumphant Report|QID|45841|M|31.31,25.15|Z|Highmountain|N|From Navarrogg.|PRE|45796|
+A A Triumphant Report|QID|45841|M|31.31,25.15|Z|Highmountain|N|From Navarrogg.|PRE|45796|
 P Dalaran|QID|45841|M|31.4,25|Z|Highmountain|N|Return to Dalaran and report your findings to the council.|U|140192|ACTIVE|45841|
-T Triumphant Report|QID|45841|M|28.8,48.8|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
+T A Triumphant Report|QID|45841|M|28.8,48.8|Z|Dalaran@Dalaran70|N|To Archmage Modera.|
 
 ;Folly of Levia Laurence|QID|45123;47055;47056;47057;47058;47059
 C Folly of Levia Laurence|QID|45123^47055^47056^47057^47058^47059|QO|1|M|41.27,37.02|CHAT|N|Ask Professor Pallin if he has seen Levia.|
@@ -535,8 +543,8 @@ T Message from the Shadows|QID|45185|M|49.40,39.77|Z|Dalaran@Dalaran70|N|To Kara
 A Secrets in the Underbelly|QID|45187|M|49.40,39.77|Z|Dalaran@Dalaran70|N|From Karam Magespear.|PRE|45185|
 C Secrets in the Underbelly|QID|45187|M|49,39|Z|Dalaran@Dalaran70|CHAT|N|Go down into Dalaran's Underbelly and Speak with (or kill) all the Nethersworn mobs until you get a 'Nethersworn Manifesto'. Hiring a body guard will make this go easier.|
 T Secrets in the Underbelly|QID|45187|M|49,39|Z|Dalaran@Dalaran70|N|To Karam Magespear.|
-A Wisdom of the Council|QID|45188|M|49,39|Z|Dalaran@Dalaran70|N|From Karam Magespear.|PRE|45187|
-T Wisdom of the Council|QID|45188|M|28.61,47.74|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
+A The Wisdom of the Council|QID|45188|M|49,39|Z|Dalaran@Dalaran70|N|From Karam Magespear.|PRE|45187|
+T The Wisdom of the Council|QID|45188|M|28.61,47.74|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|
 A Where it's Thinnest|QID|45190|M|28.61,47.74|Z|Dalaran@Dalaran70|N|To Archmage Karlain.|PRE|45188|
 F Vengeance Point|QID|45190|M|69.85,51.16|Z|Dalaran@Dalaran70|N|At Aladune Whitecloud.|ACTIVE|45190|
 T Where it's Thinnest|QID|45190|M|56.45,27.35|N|To Karam Magespear.|

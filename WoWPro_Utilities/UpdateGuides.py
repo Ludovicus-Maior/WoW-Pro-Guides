@@ -15,7 +15,8 @@
 #
 #   Questions:   Ask Ludovicus aka <LuisOrtiz@Verizon.NET>
 
-from HTMLParser import HTMLParser
+from __future__ import print_function
+from html.parser import HTMLParser
 import glob
 import logging
 import optparse
@@ -23,8 +24,10 @@ import os.path
 import os
 import re
 import string
-import urlparse
-import urllib
+import urllib.parse as urlparse
+import urllib.request as urllib
+from retry import retry
+
 
 FORMAT = '%(asctime)-15s %(levelname)s %(message)s'
 logging.basicConfig(format=FORMAT, level=logging.INFO)
@@ -38,16 +41,16 @@ if os.name == 'nt':
     elif os.access("D:\\World of Warcraft",os.F_OK):
         DEFAULT_ROOT="D:\\World of Warcraft\\Interface\\Addons"
     else:
-        print "! Warning, no default install of World of Warcraft detected, better use --root"
+        print("! Warning, no default install of World of Warcraft detected, better use --root")
         DEFAULT_ROOT="C:\temp"
 elif os.name == 'posix':
     if os.access("/Applications/World of Warcraft",os.F_OK):
         DEFAULT_ROOT="/Applications/World of Warcraft/Interface/Addons"
     else:
-        print "! Warning, no default install of World of Warcraft detected, better use --root"
+        print("! Warning, no default install of World of Warcraft detected, better use --root")
         DEFAULT_ROOT="/tmp"
 else:
-    print "! Warning, no default install of World of Warcraft detected, better use --root"
+    print("! Warning, no default install of World of Warcraft detected, better use --root")
     DEFAULT_ROOT="."
     
 
@@ -59,6 +62,11 @@ def ParseArgs():
     parser.add_option('-T',"--test",dest="test",action='store_true',default=False,help='Test updating one guide')
     (options,args) = parser.parse_args()
     return options
+
+
+@retry(IOError, tries=4, delay=3, backoff=2)
+def urlopen_with_retry(page):
+    return urllib.urlopen(page)
 
 class FindGuides(HTMLParser):
 
@@ -110,10 +118,10 @@ class FindGuides(HTMLParser):
 
     def GuidesList(self):
 #        print "## Reading URL"
-        self._lump = self._rootHandle.read()
+        self._lump = self._rootHandle.read().decode('utf-8')
         while( self._lump != ""):
             self.feed(self._lump)
-            self._lump = self._rootHandle.read()
+            self._lump = self._rootHandle.read().decode('utf-8')
         logging.info("URL yielded %d items" % len(self._list))
         logging.debug(", ".join(self._list))
         return self._list
@@ -134,11 +142,11 @@ class FindSource(HTMLParser):
         self._Done = False
         self._data = None
         try:
-            self._rootHandle =urllib.urlopen(self._page)
+            self._rootHandle =urlopen_with_retry(self._page)
             logging.info("Opened Source URL "+self._page)
         except IOError:
             logging.error("Failed to open Source URL: "+self._page)
-            pass
+            raise
 
 
     def handle_starttag(self, tag, attrs):
@@ -168,7 +176,7 @@ class FindSource(HTMLParser):
 
     def handle_data(self,data):
         if self._Done: return
-        data = string.strip(data)
+        data = data.strip()
         if not self._inGuide :
             mo = re.search("""WoWPro.[A-Z][A-Za-z]+:RegisterGuide\s*\(\s*["']([^"']+)["']""",data)
             if not mo:
@@ -179,7 +187,7 @@ class FindSource(HTMLParser):
                 self._sawBrackets = False
                 logging.info("Found Guide %s inside %s" % (self._guideID, self._page))
                 self._guideIDs.append(self._guideID)
-                if Guide2Web.has_key(self._guideID):
+                if self._guideID in Guide2Web:
                     logging.warning( "Web page %s and %s both reference %s" % (Guide2Web[self._guideID], self._page , self._guideID))
                     GuideDuplicates.append(self._guideID)
                 Guide2Web[self._guideID] = self._page
@@ -215,10 +223,10 @@ class FindSource(HTMLParser):
 
     def ReadGuide(self):
 #        print "## Reading URL"
-        self._lump = self._rootHandle.read()
+        self._lump = self._rootHandle.read().decode('utf-8')
         while( self._lump != ""):
             self.feed(self._lump)
-            self._lump = self._rootHandle.read()
+            self._lump = self._rootHandle.read().decode('utf-8')
         return self._guideIDs
 
 Web2Log = {}
@@ -228,9 +236,9 @@ class FindRevisions(HTMLParser):
     def __init__(self,Page, Test=False):
         HTMLParser.__init__(self)
         try:
-	    self._Page = Page
+            self._Page = Page
             Page = Page + "/revisions"
-            self._rootHandle =urllib.urlopen(Page)
+            self._rootHandle =urlopen_with_retry(Page)
             logging.info("Opened Revision URL "+Page)
             self._inTable = False
             self._inThead = False
@@ -242,19 +250,19 @@ class FindRevisions(HTMLParser):
             self._inSource = False
             self._inProfile = False
             self._inLog = False
-	    self._WebLog = []
-	    self._Test = Test
-	    self._RevisionHref = ""
+            self._WebLog = []
+            self._Test = Test
+            self._RevisionHref = ""
             self._RevisionDate = ""
             self._RevisionWho = ""
             self._RevisionLog = ""
         except IOError:
             logging.error("Failed to open Revision URL: "+Page) 
-            pass
+            raise
 
     def dprint(self,*args):
-	    if self._Test:
-		print args
+        if self._Test:
+            print(args)
 
     def handle_starttag(self, tag, attrs):
         if tag == "table":
@@ -273,7 +281,7 @@ class FindRevisions(HTMLParser):
             return
         if self._inRevisionTable and tag == "tbody":
             self._inTbody = True
-	    logging.debug("Found Revision log body")
+            logging.debug("Found Revision log body")
             return
         if self._inRevisionTable and self._inTbody and tag == "tr":
             self._inTr = True
@@ -309,8 +317,8 @@ class FindRevisions(HTMLParser):
             return
         if self._inRevisionTable and self._inTd and tag == "td" and self._RevisionHref != "":
             self._inTd = False
-	    self._WebLog.append({ 'URL': self._RevisionHref, 'Date': self._RevisionDate, 'Who': self._RevisionWho, 'Log':self._RevisionLog})
-	    self.dprint(str.format("URL: {0} Date: {1} Who: {2} Log: {3}",self._RevisionHref,self._RevisionDate,  self._RevisionWho , self._RevisionLog ))
+            self._WebLog.append({ 'URL': self._RevisionHref, 'Date': self._RevisionDate, 'Who': self._RevisionWho, 'Log':self._RevisionLog})
+            self.dprint(str.format("URL: {0} Date: {1} Who: {2} Log: {3}",self._RevisionHref,self._RevisionDate,  self._RevisionWho , self._RevisionLog ))
             self._RevisionHref = ""
             self._RevisionDate = ""
             self._RevisionWho = ""
@@ -336,18 +344,18 @@ class FindRevisions(HTMLParser):
         if self._inProfile:
             self._RevisionWho = data
         if self._inLog:
-            self._RevisionLog = data
+            self._RevisionLog = data.lstrip()
         who=re.search("by (.+)",data)
         if  self._RevisionDate != "" and self._RevisionWho == "" and who:
             self._RevisionWho = who.group(1)
  
     def ReadGuide(self):
 #        print "## Reading URL"
-        self._lump = self._rootHandle.read()
+        self._lump = self._rootHandle.read().decode('utf-8')
         while( self._lump != ""): 
             self.feed(self._lump)
-            self._lump = self._rootHandle.read()
-	Web2Log[self._Page] = self._WebLog
+            self._lump = self._rootHandle.read().decode('utf-8')
+        Web2Log[self._Page] = self._WebLog
         return self._WebLog
         
 def ScrapeGuideFromWoWPro(RootSourceNode):
@@ -394,7 +402,7 @@ def ScrapeWoWProLua(lua):
             mo = re.search("""WoWPro:RegisterGuide\s*\(\s*["']([^"']+)["']""",line)
         if mo:
             _guideID = mo.group(1)
-            if Guide2File.has_key(_guideID):
+            if _guideID in Guide2File:
                 logging.error("Duplicate guide ID discovered in %s and %s for %s " % (Guide2File[_guideID], lua, _guideID))
                 GuideDups.append(_guideID)
             Guide2File[_guideID] = lua
@@ -416,18 +424,18 @@ def ScrapeWoWProLeveling(RootDir):
 ValidGuides={}
 def CrossCheck():
     foundError = 0
-    _guides = Guide2File.keys()
+    _guides = list(Guide2File.keys())
     _guides.sort()
     for guide in _guides:
-        if not Guides.has_key(guide):
+        if guide not in Guides:
             logging.warning("Guide %s is inside file %s but is not in the web site" % ( guide, Guide2File[guide]))
             foundError = foundError + 1
         else:
             ValidGuides[guide] = 1
-    _guides = Guides.keys()
+    _guides = list(Guides.keys())
     _guides.sort()
     for guide in _guides:
-        if not Guide2File.has_key(guide):
+        if guide not in Guide2File:
             logging.warning("Guide %s in on the web in %s, but is not on the local disk" % ( guide, Guide2Web[guide]))
             foundError = foundError + 1
         else:     
@@ -448,33 +456,34 @@ def CrossCheck():
 
 def UpdateGuideFile(guide):
     logging.info("Updating guide %s in File %s from %s" % (guide, Guide2File[guide], Guide2Web[guide]))
-    file=open(Guide2File[guide],"wb")
     eol = GuideEOL[guide]
-    if not isinstance(eol,basestring):
-	eol = '\n'
+    if not isinstance(eol,str):
+        eol = '\n'
+    file=open(Guide2File[guide],"wt", newline=eol)
 
-    print >> file , ""
-    print >> file , "-- WoWPro Guides by \"The WoW-Pro Community\" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License."
-    print >> file , "-- Based on a work at github.com."
-    print >> file , "-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License."
-    print >> file , ""
+    print("", file=file)
+    print("-- WoWPro Guides by \"The WoW-Pro Community\" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.", file=file)
+    print("-- Based on a work at github.com.", file=file)
+    print("-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.", file=file)
+    print("", file=file)
 
 
     for logEntry in Web2Log[Guide2Web[guide]]:
-	print >> file , "-- URL: %s" % ("http://wow-pro.com"+logEntry['URL'])
-	print >> file , "-- Date: %s" % logEntry['Date'] 
-	print >> file , "-- Who: %s" % logEntry['Who'] 
-	if logEntry['Log'] != "":
-	     entry = "\n--\t".join(logEntry['Log'].splitlines())
-	     print >> file , "-- Log: %s" % entry
-	print >> file , "" 
+        print("-- URL: %s" % ("http://wow-pro.com"+logEntry['URL']), file=file)
+        print("-- Date: %s" % logEntry['Date'], file=file)
+        print("-- Who: %s" % logEntry['Who'], file=file)
+        if logEntry['Log'] != "":
+            entry = "\n--".join(["\t"+line.rstrip() if len(line.strip())>0 else "" for line in logEntry['Log'].splitlines()])
+            entry = entry.lstrip()
+            print("-- Log: %s" % entry, file=file)
+        print("", file=file)
     for line in Guides[guide]:
         file.write(line + eol)
     file.close()
 
     
 def UpdateFiles():
-    _guides = ValidGuides.keys()
+    _guides = list(ValidGuides.keys())
     _guides.sort()
     for guide in _guides:
         if ValidGuides[guide] == 2:
@@ -488,12 +497,12 @@ if __name__ == "__main__":
         logging.info("Able to access %s alright." % pa.root)
     if pa.test == True:
         logging.info("Running short test")
-        ScrapeWoWProLua("/Users/lfo/WoW/WoW-Pro-Guides_Master/WoWPro_Achievements/General/Emmaleah_Jani.lua")
-        fs=FindSource("http://wow-pro.com/node/3782")
+        ScrapeWoWProLua("/Users/lfo/WoW/WoW-Pro-Guides_Master/WoWPro_Achievements/Garrison_Alliance/Ludo_BuildA.lua")
+        fs=FindSource("http://wow-pro.com/node/3631")
         src=fs.ReadGuide()
-        fs=FindRevisions("http://wow-pro.com/node/3782",True)
+        fs=FindRevisions("http://wow-pro.com/node/3631",True)
         src=fs.ReadGuide()
-        UpdateGuideFile("Emm_Jani")
+        UpdateGuideFile("LudoBuildingsAlliance")
         exit(0)
     ScrapeWoWProLeveling(pa.root)
     ScrapeGuideFromWoWPro(pa.url)

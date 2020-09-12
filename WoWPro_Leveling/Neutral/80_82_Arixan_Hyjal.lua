@@ -210,7 +210,7 @@
 -- URL: http://wow-pro.com/node/3303/revisions/23720/view
 -- Date: 2010-12-09 15:46
 -- Who: Bitsem
--- Log: Fixed two small things. 
+-- Log: Fixed two small things.
 --	A From the Mouth of Madness is from Rio Duran, not Royce Duskwhisper.
 --	A Sweeping the Shelf is from Ian Duran, not Rio Duran.
 --	Great work as usual Magic! :)

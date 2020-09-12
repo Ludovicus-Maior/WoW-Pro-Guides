@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_borean_tundra_alliance
+-- Date: 2020-07-17 17:04
+-- Who: Ludovicus_Maior
+-- Log: Updated quest name [Hero's Call: Borean Tundra!] and added PRE to [Corastrasza]
+
+-- URL: http://wow-pro.com/node/3289/revisions/30213/view
 -- Date: 2019-01-31 19:43
 -- Who: Emmaleah
 -- Log: added quest Corastrasza and Aces High!
@@ -122,7 +127,7 @@
 -- URL: http://wow-pro.com/node/3289/revisions/24015/view
 -- Date: 2011-01-18 19:23
 -- Who: Fluclo
--- Log: Added NonCombat tag to quest Khu'nok Will Know 
+-- Log: Added NonCombat tag to quest Khu'nok Will Know
 
 -- URL: http://wow-pro.com/node/3289/revisions/24014/view
 -- Date: 2011-01-18 19:04
@@ -142,7 +147,7 @@
 -- URL: http://wow-pro.com/node/3289/revisions/23975/view
 -- Date: 2011-01-10 15:07
 -- Who: Crackerhead22
--- Log: ;
+-- Log: Fixed a few errors from when I condensed the code.  <_<;
 
 -- URL: http://wow-pro.com/node/3289/revisions/23946/view
 -- Date: 2011-01-07 22:46
@@ -171,10 +176,10 @@ return [[
 
 B Overcharged Capacitor |QID|11650|N|The quest Just a Few More Things... in Borean Tundra will require an Overcharged Capacitor.  The quest pays out 4g70s and 20k XP and leads to two further quests each worth the same (and one with a 2-3g green reward), so worth while looking for this item now in Auction House if you can't find an Engineer with 4 Cobalt Bars and 1 Crystallized Earth. You can leave it in your delivery box to save space, as the questgiver above is near a mailbox.|L|39682|M|62.9,71.7|Z|Stormwind City|
 N Cold Weather Flying|QID|11672|N|Purchase Cold Weather Flying from Bralla Cloudwing for 500 gold(faction discounts apply).|M|70.29,73.37|Z|Stormwind City|
-A Hero's Call: Northrend! |QID|28709|LEAD|11672|N|From the Hero's Callboard in Darnassus, Ironforge, or either Callboard in Stormwind City.  May not show if your level is too high.|M|62.9,71.7|Z|Stormwind City|
+A Hero's Call: Borean Tundra! |QID|28709|LEAD|11672|N|From the Hero's Callboard in Darnassus, Ironforge, or either Callboard in Stormwind City.  May not show if your level is too high.|M|62.9,71.7|Z|Stormwind City|
 R Stormwind Harbor |QID|11672|N|Go to Stormwind Harbor.|Z|Stormwind City|M|27.06,25.50|
 b Valiance Keep |QID|11672|N|Take the boat from the north dock to get to Valiance Keep.|Z|Stormwind City|M|18.01,25.48|
-T Hero's Call: Northrend!|QID|28709|N|To Recruitment Officer Blythe.|M|57.9,67.7|
+T Hero's Call: Borean Tundra!|QID|28709|N|To Recruitment Officer Blythe.|M|57.9,67.7|
 A Enlistment Day |QID|11672|M|57.8,67.7|N|From Recruitment Officer Blythe.|
 T Enlistment Day |QID|11672|N|Upstairs into the keep. Then turn the quest into General Arlos.|M|56.7,72.6|
 A A Time for Heroes |QID|11727|PRE|11672|M|56.7,72.6|N|From General Arlos.|
@@ -632,7 +637,7 @@ A Cracking the Code |QID|11931|PRE|11919|N|From Raelorasz.|M|33.31,34.53|
 N Drake Hunt |QID|12117|N|Drake Hunt is now a repeatable daily quest. You may pick it up again and if you wish and do it again after the next step.|
 C Cracking the Code |QID|11931|N|Kill Inquisitor Caleras to the north and loot the Azure Codex. Kill Coldarra Spellbinders around him until you get 3 Shimmering Runes.|M|32.77,27.84|
 T Cracking the Code |QID|11931|N|To Raelorasz.|M|33.31,34.53|
-A Corastrasza|QID|13412|N|From Librarian Serra|M|33.48,34.38|
+A Corastrasza|QID|13412|PRE|11919|N|From Librarian Serra|M|33.48,34.38|
 T Corastrasza|QID|13412|N|To Corastrasza on the next-to-uppermost shattered ring floating around The Nexus|M|29.48,24.81|
 A Aces High!|QID|13413|N|From Corastrasza|M|32.95,34.40|PRE|13412|
 C Aces High!|QID|13413|N|This is good practice for Eye of Eternity and the Occulus. Fly further up to find the Scalesworn elites and then control the Drake to kill them.You will want to keep Flame Shield and Revivify up on you constantly.|M|32.95,34.40|

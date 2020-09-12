@@ -63,5 +63,6 @@
   <Script file="110_120_Emmaleah_Nazmir.lua"/>
   <Script file="110_120_Emmaleah_WarCampaign.lua"/>
   <Script file="120_120_Elidion_EndgameStory.lua"/>
+  <Script file="120_120_Emmaleah_Nazjatar.lua" />
 </Ui>
 

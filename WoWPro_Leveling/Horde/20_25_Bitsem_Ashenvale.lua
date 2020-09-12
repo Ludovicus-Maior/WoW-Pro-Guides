@@ -31,7 +31,7 @@
 -- URL: http://wow-pro.com/node/3228/revisions/27344/view
 -- Date: 2015-07-20 00:50
 -- Who: Ludovicus_Maior
--- Log:  Vol'jin
+-- Log: Garrosh Hellscream => Vol'jin
 --	Then some Z tag corrections.
 
 -- URL: http://wow-pro.com/node/3228/revisions/27331/view
@@ -42,7 +42,7 @@
 -- URL: http://wow-pro.com/node/3228/revisions/26925/view
 -- Date: 2014-11-08 06:36
 -- Who: Emmaleah
--- Log:  A The Essence of Aku'Mai
+-- Log: Deleted 2 dup N tags T To the Rescue & A The Essence of Aku'Mai
 
 -- URL: http://wow-pro.com/node/3228/revisions/26426/view
 -- Date: 2014-06-02 13:22
@@ -72,7 +72,7 @@
 -- URL: http://wow-pro.com/node/3228/revisions/25826/view
 -- Date: 2013-12-01 00:06
 -- Who: Ludovicus_Maior
--- Log:  CS
+-- Log: CN -> CS
 
 -- URL: http://wow-pro.com/node/3228/revisions/25567/view
 -- Date: 2013-03-23 18:41

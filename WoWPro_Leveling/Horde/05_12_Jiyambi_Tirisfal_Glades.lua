@@ -91,12 +91,12 @@
 -- Date: 2014-11-09 10:57
 -- Who: Fluclo
 -- Log: Removed "You should be" levels, since you can continue the guide even if you're not those levels;
---	Added "You need to be" levels where quests are not given if you haven't reached that level; 
---	Added PRE tags throughout where the quest relies on a previous step being completed; 
---	Fixed QID on Scarlet Letter mobs; 
---	Changed QO to new number system; 
---	Made repair steps auto-complete; 
---	Added ACTIVE tags where the step is suitable only if you have that quest; 
+--	Added "You need to be" levels where quests are not given if you haven't reached that level;
+--	Added PRE tags throughout where the quest relies on a previous step being completed;
+--	Fixed QID on Scarlet Letter mobs;
+--	Changed QO to new number system;
+--	Made repair steps auto-complete;
+--	Added ACTIVE tags where the step is suitable only if you have that quest;
 
 -- URL: http://wow-pro.com/node/3205/revisions/26481/view
 -- Date: 2014-06-02 22:15
@@ -131,17 +131,17 @@
 -- Date: 2014-05-09 19:09
 -- Who: Hendo72
 -- Log: - Updated 'Shadow Grave' quest. Improved coordinates and notes.
---	
+--
 --	- Broke 'The Awakening' quest down into steps and moved quest acceptance down for better flow.
---	
+--
 --	- reworded 'Recruitment' C step note.
---	
+--
 --	- Added an r step at the first vendor you come to.
---	
+--
 --	- Improved 'Ever So Lonely' C step note.
---	
+--
 --	- Changed Bulwark R step to an F step as you can fly there and removed f step as you already have the FP.
---	
+--
 
 -- URL: http://wow-pro.com/node/3205/revisions/25854/view
 -- Date: 2013-12-26 21:16

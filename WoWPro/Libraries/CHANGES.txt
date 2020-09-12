@@ -1,128 +1,58 @@
 ------------------------------------------------------------------------
-r1199 | nevcairiel | 2019-01-24 08:55:21 +0000 (Thu, 24 Jan 2019) | 1 line
+r1223 | nevcairiel | 2019-08-01 12:51:41 +0000 (Thu, 01 Aug 2019) | 1 line
 Changed paths:
    M /trunk/changelog.txt
 
 Update changelog
 ------------------------------------------------------------------------
-r1198 | nevcairiel | 2019-01-21 23:46:52 +0000 (Mon, 21 Jan 2019) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
-
-AceGUI-3.0: ColorPicker: Store references to the background/checkers textures (Ticket #473)
-------------------------------------------------------------------------
-r1197 | nevcairiel | 2019-01-21 23:41:10 +0000 (Mon, 21 Jan 2019) | 1 line
+r1222 | funkydude | 2019-07-26 22:14:43 +0000 (Fri, 26 Jul 2019) | 1 line
 Changed paths:
    M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 
-AceConfigDialog-3.0: Allow custom controls for almost all option types (Ticket #475)
+AceConfigDialog-3.0: Make the popup not block keyboard input.
 ------------------------------------------------------------------------
-r1196 | nevcairiel | 2019-01-21 23:35:45 +0000 (Mon, 21 Jan 2019) | 1 line
+r1221 | nevcairiel | 2019-07-20 18:23:00 +0000 (Sat, 20 Jul 2019) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
+
+AceGUI-3.0: Clear the points before re-anchoring in Fill layout (Ticket #512)
+------------------------------------------------------------------------
+r1220 | funkydude | 2019-07-18 16:47:58 +0000 (Thu, 18 Jul 2019) | 1 line
 Changed paths:
    M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 
-AceConfigDialog-3.0: Factor custom control creation into its own function (part of #475)
+AceConfigDialog: Make sure to hide the popup after it's created
 ------------------------------------------------------------------------
-r1195 | nevcairiel | 2019-01-21 23:24:17 +0000 (Mon, 21 Jan 2019) | 1 line
-Changed paths:
-   M /trunk/Ace3.toc
-
-Update TOC
-------------------------------------------------------------------------
-r1194 | nevcairiel | 2018-08-25 07:59:05 +0000 (Sat, 25 Aug 2018) | 1 line
+r1219 | funkydude | 2019-07-18 14:35:16 +0000 (Thu, 18 Jul 2019) | 1 line
 Changed paths:
    M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
 
-AceConfigDialog-3.0: Remove unused GetSubOptions loop
+AceConfigDialog: Replace the StaticPopup with our own custom made popup.
 ------------------------------------------------------------------------
-r1193 | funkydude | 2018-08-02 12:24:37 +0000 (Thu, 02 Aug 2018) | 1 line
+r1218 | nevcairiel | 2019-07-15 08:29:52 +0000 (Mon, 15 Jul 2019) | 1 line
 Changed paths:
-   M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
-   M /trunk/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
+   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
+
+AceGUI-3.0: Hide the widget early in the release process, so that OnLeave callbacks have a chance to fire (Fixes #505)
+------------------------------------------------------------------------
+r1217 | funkydude | 2019-07-11 03:06:18 +0000 (Thu, 11 Jul 2019) | 1 line
+Changed paths:
    M /trunk/AceDB-3.0/AceDB-3.0.lua
-   M /trunk/AceDBOptions-3.0/AceDBOptions-3.0.lua
-   M /trunk/AceGUI-3.0/AceGUI-3.0.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-ScrollFrame.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TabGroup.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-InteractiveLabel.lua
 
-Remove some local references we don't use.
+AceDB-3.0: Improve errors to provide more information.
 ------------------------------------------------------------------------
-r1192 | funkydude | 2018-07-30 18:03:51 +0000 (Mon, 30 Jul 2018) | 1 line
+r1216 | funkydude | 2019-07-10 02:36:51 +0000 (Wed, 10 Jul 2019) | 1 line
 Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-Window.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-ColorPicker.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown-Items.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Heading.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Icon.lua
-   M /trunk/tests/AceGUITest/test.lua
-
-AceGUI-3.0: Convert various texture paths to texture ids.
-------------------------------------------------------------------------
-r1191 | funkydude | 2018-07-27 13:29:50 +0000 (Fri, 27 Jul 2018) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
-
-AceGUI-3.0/widgets/AceGUIWidget-Slider: Use the value passed to the OnValueChanged script, saves a call to frame:GetValue()
-------------------------------------------------------------------------
-r1190 | nevcairiel | 2018-07-27 07:46:34 +0000 (Fri, 27 Jul 2018) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
-
-AceGUI-3.0: Label: Avoid zero-height labels more directly
-------------------------------------------------------------------------
-r1189 | nevcairiel | 2018-07-27 07:33:48 +0000 (Fri, 27 Jul 2018) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
-
-AceGUI-3.0: Label: Fix computing a label height on empty labels
-------------------------------------------------------------------------
-r1188 | nevcairiel | 2018-07-25 20:26:35 +0000 (Wed, 25 Jul 2018) | 3 lines
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
-
-AceGUI-3.0: Prefer GetStringHeight over GetHeight for FontStrings, as this alleviates pressure on the anchor system and avoids glitches
-
-Recommended by TheDanW to help work-around anchoring issues.
-------------------------------------------------------------------------
-r1187 | nevcairiel | 2018-07-25 00:06:26 +0000 (Wed, 25 Jul 2018) | 1 line
-Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-ScrollFrame.lua
-
-AceGUI-3.0: ScrollFrame: Adjust content.width based on scroll bar visibility
-------------------------------------------------------------------------
-r1186 | nevcairiel | 2018-07-21 14:19:18 +0000 (Sat, 21 Jul 2018) | 1 line
-Changed paths:
-   M /trunk/CallbackHandler-1.0/CallbackHandler-1.0.lua
-
-Update CallbackHandler to the latest version
-------------------------------------------------------------------------
-r1185 | nevcairiel | 2018-07-21 14:15:16 +0000 (Sat, 21 Jul 2018) | 1 line
-Changed paths:
-   M /trunk/AceBucket-3.0/AceBucket-3.0.lua
-
-AceBucket-3.0: Fix bucket firing with events that use "false" as arg1
-------------------------------------------------------------------------
-r1184 | nevcairiel | 2018-07-21 14:13:14 +0000 (Sat, 21 Jul 2018) | 1 line
-Changed paths:
-   M /trunk/AceAddon-3.0/AceAddon-3.0.lua
-   M /trunk/AceBucket-3.0/AceBucket-3.0.lua
    M /trunk/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
    M /trunk/AceGUI-3.0/AceGUI-3.0.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
 
-Remove self-generating Dispatchers, and use xpcall, which now supports arguments
+Create our own tooltip instead of re-using the GameTooltip.
 ------------------------------------------------------------------------
-r1183 | nevcairiel | 2018-07-18 23:21:04 +0000 (Wed, 18 Jul 2018) | 1 line
+r1215 | funkydude | 2019-07-09 04:52:59 +0000 (Tue, 09 Jul 2019) | 1 line
 Changed paths:
-   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-ScrollFrame.lua
-   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+   M /trunk/AceGUI-3.0/widgets/AceGUIContainer-TreeGroup.lua
 
-AceGUI-3.0: Replace layout workaround with another one that hopefully works better
+AceGUI-3.0/widgets/AceGUIContainer-TreeGroup: Make sure to :ClearAllPoints() after changing the width using the drag handler.
 ------------------------------------------------------------------------
 

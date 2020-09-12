@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_teldrassil
+-- Date: 2019-08-06 18:54
+-- Who: Hendo72
+-- Log: My bad. Reverted and reapplied my changes properly.
+
+-- URL: http://wow-pro.com/node/3204/revisions/30355/view
+-- Date: 2019-08-06 18:51
+-- Who: Hendo72
+-- Log: .
+
+-- URL: http://wow-pro.com/node/3204/revisions/30352/view
+-- Date: 2019-08-06 10:33
+-- Who: Hendo72
+-- Log: Added |NC| tags where needed and switched r step from Freja to Andiss (He's closer)
+
+-- URL: http://wow-pro.com/node/3204/revisions/30049/view
 -- Date: 2018-10-17 22:46
 -- Who: Ludovicus_Maior
 -- Log: And/Or
@@ -46,7 +61,7 @@
 -- URL: http://wow-pro.com/node/3204/revisions/27504/view
 -- Date: 2016-07-31 01:11
 -- Who: tubera
--- Log:  Fell Moss Corruption. Fix note A Priestess of the Moon.
+-- Log: Remove class quests. Switch T Demonic Thieves & Fell Moss Corruption. Fix note A Priestess of the Moon.
 
 -- URL: http://wow-pro.com/node/3204/revisions/27447/view
 -- Date: 2016-06-25 22:13
@@ -236,7 +251,7 @@ A Priestess of the Moon|QID|28723|PRE|28714|N|From Ilthalaine.|R|Night Elf|
 T Priestess of the Moon|QID|28723|M|42.50,50.49|N|To Dentaria Silverglade. Go outside behind the tree, between the two pools.|R|Night Elf|
 
 A Iverron's Antidote|QID|28724|PRE|28723|M|42.50,50.49|N|From Dentaria Silverglade.|R|Night Elf|
-C Iverron's Antidote|QID|28724|M|43.34,51.71|N|Around the pools.|R|Night Elf|
+C Iverron's Antidote|QID|28724|M|43.34,51.71|N|Around the pools.|R|Night Elf|NC|
 T Iverron's Antidote|QID|28724|M|42.50,50.49|N|To Dentaria Silverglade.|R|Night Elf|
 
 R Shadowthread Cave|QID|28725|M|39.15,30.51|N|Walk inside the Cave until Tarindrella appears.|
@@ -256,7 +271,7 @@ A Signs of Things to Come|QID|28728|PRE|28727|NC|N|From Tarindrella. She'll tele
 T Signs of Things to Come|QID|28728|M|42.50,50.49|N|To Dentaria Silverglade.|R|Night Elf|
 
 A Teldrassil: Crown of Azeroth|QID|28729|PRE|28728|M|42.50,50.49|N|From Dentaria Silverglade.|R|Night Elf|
-C Teldrassil: Crown of Azeroth|QID|28729|U|5185|M|50.29,33.54|N|Use the Phial at the moonwell.|R|Night Elf|
+C Teldrassil: Crown of Azeroth|QID|28729|U|5185|M|50.29,33.54|N|Use the Phial at the moonwell.|R|Night Elf|NC|
 T Teldrassil: Crown of Azeroth|QID|28729|M|42.50,50.49|N|To Dentaria Silverglade.|R|Night Elf|
 
 A Precious Waters|QID|28730|PRE|28729|M|42.50,50.49|N|From Dentaria Silverglade.|R|Night Elf|
@@ -264,7 +279,7 @@ T Precious Waters|QID|28730|M|41.72,63.58;47.20,55.96|CS|N|Up the ramp to Tenaro
 
 A Teldrassil: Passing Awareness|QID|28731|PRE|28730|M|47.20,55.96|N|From Tenaron Stormgrip.|R|Night Elf|
 
-r Aldrassil|QID|28731|NC|M|49.06,60.39|N|Repair and Restock with Freja. Sell any unwanted items.|R|Night Elf|
+r Aldrassil|QID|28731|M|49.40,65.85|N|Repair, restock and sell unwanted items @ Andiss just inside Aldrassil.|R|Night Elf|
 
 A Dolanaar Delivery|QID|2159|M|54.56,84.72|N|From Porthannius.|
 

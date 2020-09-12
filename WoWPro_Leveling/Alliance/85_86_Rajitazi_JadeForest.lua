@@ -102,7 +102,7 @@
 -- URL: http://wow-pro.com/node/3486/revisions/25770/view
 -- Date: 2013-10-02 12:42
 -- Who: Ludovicus_Maior
--- Log: Removed glassfin village as per Blanckaert. 
+-- Log: Removed glassfin village as per Blanckaert.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25726/view
 -- Date: 2013-06-20 13:25
@@ -128,7 +128,7 @@
 -- Date: 2012-11-11 00:03
 -- Who: Emmaleah
 -- Log: 10 Nov 2012 - Emmaleah - added change log, header, rtn line, and most of the "one time" treasure items. (see comments in change log)
---	
+--
 
 -- URL: http://wow-pro.com/node/3486/revisions/25175/view
 -- Date: 2012-11-01 17:15
@@ -206,7 +206,7 @@
 -- URL: http://wow-pro.com/node/3486/revisions/25058/view
 -- Date: 2012-08-28 19:44
 -- Who: Ludovicus_Maior
--- Log: Laotseu 6 days ago Play testing the Alliance The Jade Forest guide. 
+-- Log: Laotseu 6 days ago Play testing the Alliance The Jade Forest guide.
 
 -- URL: http://wow-pro.com/node/3486/revisions/25050/view
 -- Date: 2012-08-28 19:03
@@ -216,7 +216,7 @@
 -- URL: http://wow-pro.com/node/3486/revisions/25049/view
 -- Date: 2012-08-28 19:00
 -- Who: Ludovicus_Maior
--- Log: Initial Version Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
+-- Log: Initial Version Submitted by Emmaleah on Sat, 2012-08-18 15:07.
 
 local guide = WoWPro:RegisterGuide('RajJad8586', "Leveling", 'The Jade Forest', 'Rajitazi', 'Alliance')
 WoWPro:GuideLevels(guide,85,86,85.0021)

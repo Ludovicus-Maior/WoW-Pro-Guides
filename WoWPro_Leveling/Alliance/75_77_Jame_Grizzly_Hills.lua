@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_grizzly_hills_alliance
+-- Date: 2019-10-15 23:55
+-- Who: Ludovicus_Maior
+-- Log: Avoid fake markup
+
+-- URL: http://wow-pro.com/node/3293/revisions/29947/view
 -- Date: 2018-10-17 02:25
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -11,7 +16,7 @@
 -- URL: http://wow-pro.com/node/3293/revisions/29501/view
 -- Date: 2018-08-13 12:59
 -- Who: Ludovicus_Maior
--- Log:  |NC|N|Blah
+-- Log: |N|NC|blah| => |NC|N|Blah
 
 -- URL: http://wow-pro.com/node/3293/revisions/29242/view
 -- Date: 2018-04-24 19:34
@@ -96,7 +101,7 @@
 -- URL: http://wow-pro.com/node/3293/revisions/25649/view
 -- Date: 2013-05-14 19:26
 -- Who: Ludovicus_Maior
--- Log: MIssing QID on T Fate and Coincidence 
+-- Log: MIssing QID on T Fate and Coincidence
 
 -- URL: http://wow-pro.com/node/3293/revisions/25620/view
 -- Date: 2013-05-14 11:45
@@ -372,7 +377,7 @@ A Smoke 'Em Out |QID|12323|N|From Sergeant Downey.|M|22.0,80.8|
 A Down With Captain Zorna! |QID|12314|N|From Baron Freeman.|M|22.2,81.2|
 
 C Keep Them at Bay! |QID|12316|N|Kill 10 Horde in Venture Bay, PC or NPC.|S|O|M|15.68,78.76|
-C Smoke 'Em Out |QID|12323|U|37621|O|N|In the buildings. Get all the Venture Co. Stragglers together and use the [Smoke Bomb].|M|18.09,79.63;16.43,76.62;14.56,76.38|CN|
+C Smoke 'Em Out |QID|12323|U|37621|O|N|In the buildings. Get all the Venture Co. Stragglers together and use the {Smoke Bomb}.|M|18.09,79.63;16.43,76.62;14.56,76.38|CN|
 C Down With Captain Zorna! |QID|12314|O|N|She stands under a canopy, on the docks next to the westernmost ship.|M|13.5,80.2|
 C Keep Them at Bay! |QID|12316|O|N|Kill 10 Horde in Venture Bay, PC or NPC.|US|M|15.68,78.76|
 C Seeking Solvent |QID|12443|O|N|Clear the way. Really. Then get the Element 115 in the middle ship.|M|16.5,80.3|
@@ -403,7 +408,7 @@ A Mounting Up |QID|12414|N|From Squire Percy.|M|59.13,26.63|
 
 f Westfall Brigade Encampment |QID|12414|N|Get the flight point at Samuel Clearbook.|M|59.8,26.6|
 l Get 5 Wild Carrots|QID|12414|L|37707 5|N|In the field south of the camp.|M|56.73,30.03|
-C Mounting Up |QID|12414|U|37708|N|Target an Highland Mustang, use the [Stick] and bring the Mustang back to Squire Percy.|M|59.13,26.63|
+C Mounting Up |QID|12414|U|37708|N|Target an Highland Mustang, use the {Stick} and bring the Mustang back to Squire Percy.|M|59.13,26.63|
 T Mounting Up |QID|12414|N|To Squire Percy.|M|59.13,26.63|
 N Reequip your weapon(s) |QID|12158|
 T Hollowstone Mine |QID|12158|N|To Petrov in Hollowstone Mine.|M|55.13,23.44|

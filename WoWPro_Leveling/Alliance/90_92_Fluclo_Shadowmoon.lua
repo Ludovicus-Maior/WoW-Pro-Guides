@@ -4,6 +4,17 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/alliance_shadowmoon_valley_draenor_source_code
+-- Date: 2020-07-17 18:47
+-- Who: Ludovicus_Maior
+-- Log: Added [Founded Garrison: 36797] to follower invite quests.  Did not add  [Vignette: Embaari Defense Crystal: 33038] to [Artificer Romuul:35614].
+--	[Shadows Awaken:34019] has to be left as is due to a bug, which I am not going to confirm still exists.
+
+-- URL: http://wow-pro.com/node/3604/revisions/30493/view
+-- Date: 2020-04-07 22:32
+-- Who: Ludovicus_Maior
+-- Log: Bunch of WANTED quests.
+
+-- URL: http://wow-pro.com/node/3604/revisions/30231/view
 -- Date: 2019-03-06 18:42
 -- Who: Emmaleah
 -- Log: updated comments for Escape from Shaz'gul
@@ -135,13 +146,13 @@
 -- Date: 2015-01-25 05:58
 -- Who: Ludovicus_Maior
 -- Log: Aldavor:  Incorrect QID; the line (615) in Shadowmoon levelling guide should be changed from:
---	
+--
 --	l Mushroom-Covered Chest |QID|33869|N|Mushroom-Covered Chest: Lootable object found at the bottom of the lake in Umbrafen.|M|52.87,24.85|RANK|3|
---	
+--
 --	to:
---	
+--
 --	l Mushroom-Covered Chest |QID|37254|N|Mushroom-Covered Chest: Lootable object found at the bottom of the lake in Umbrafen.|M|52.87,24.85|RANK|3|
---	
+--
 
 -- URL: http://wow-pro.com/node/3604/revisions/27117/view
 -- Date: 2015-01-04 23:31
@@ -209,7 +220,7 @@
 -- URL: http://wow-pro.com/node/3604/revisions/27036/view
 -- Date: 2014-11-22 19:20
 -- Who: Fluclo
--- Log:  Enchanting; Added another Rank 3 kill.
+-- Log: Reordered Enchanting quest for better flow for those with Tailoring & Enchanting; Added another Rank 3 kill.
 
 -- URL: http://wow-pro.com/node/3604/revisions/27003/view
 -- Date: 2014-11-15 23:01
@@ -242,16 +253,6 @@
 -- URL: http://wow-pro.com/node/3604/revisions/26982/view
 -- Date: 2014-11-14 11:47
 -- Who: Ludovicus_Maior
-
--- URL: http://wow-pro.com/node/3604/revisions/26978/view
--- Date: 2014-11-14 04:10
--- Who: Ludovicus_Maior
--- Log: Played through and tweaked as usual.
-
--- URL: http://wow-pro.com/node/3604/revisions/26973/view
--- Date: 2014-11-13 10:25
--- Who: Fluclo
--- Log: Added Bloodthorn Hill quest and lootable; added PRE tag to F Lunarfall after visit to Ashran; Added more Level 94 quests; Added placeholder for Level 100 quests.
 
 local guide = WoWPro:RegisterGuide('ShadowDraenor', "Leveling", 'Shadowmoon Valley@Draenor', 'Fluclo', 'Alliance')
 WoWPro:GuideLevels(guide,90,92,91)
@@ -294,6 +295,7 @@ C Establish Your Garrison|QID|34586|N|Speak to Baros Alexston and tell him you h
 f Lunarfall |QID|34586|N|With Dungar Longdrink.  If your Arrow disappeared, a /reload or a quick look at the map will fix things.|PRE|34585|M|47.8,49.8|Z|Lunarfall|
 l Pippers' Buried Supplies|QID|35382|N|Pippers' Burried Supplies: Lootable object for Garrison Resources. Behind Blacksmith Rachelle Black's stall next to the Gryphon master.|M|50.63,48.46|RANK|3|Z|Lunarfall|
 T Establish Your Garrison|QID|34586|N|To Baros Alexston|M|41.4,49.2|Z|Lunarfall|
+; This sets  [Founded Garrison: 36797] as completed
 
 A Keeping it Together |QID|35176|N|From Baros Alexston|PRE|34586|M|41.4,49.2|Z|Lunarfall|
 A Ship Salvage|QID|35166|N|From Baros Alexston|PRE|34586|M|41.4,49.2|Z|Lunarfall|
@@ -329,7 +331,7 @@ C Build Your Barracks |QID|34587|N|Go back to the Barracks construction site, an
 l Pippers' Buried Supplies|QID|35384|N|Pippers' Burried Supplies: Lootable object for Garrison Resources. Behind the two trees near the tent after you've rezoned ouside the garrison when completing the barracks.|M|49.13,76.86|RANK|3|Z|Lunarfall|
 T Build Your Barracks |QID|34587|N|To Vindicator Maraad.|M|44.10,53.35|Z|Lunarfall|
 
-A Qiana Moonshadow |QID|34646|N|From Vindicator Maraad.|PRE|34587|M|44.10,53.35|Z|Lunarfall|
+A Qiana Moonshadow |QID|34646|N|From Vindicator Maraad.|PRE|34587&36797|M|44.10,53.35|Z|Lunarfall|
 C Qiana Moonshadow |QID|34646|N|Head to Qiana Moonshadow in Moonflower Valley (south of your garrison) and speak to her.|CHAT|M|29.94,29.21|
 T Qiana Moonshadow |QID|34646|N|To Qiana Moonshadow (she's now at to your garrison)|M|40.5,53.9|Z|Lunarfall|
 
@@ -354,7 +356,7 @@ T Inspiring Ashran |QID|36629|N|To Lieutenant Howell|M|38.30,96.88|Z|Ashran|
 
 A A Surly Dwarf |QID|36630|N|From Lieutenant Howell|M|38.30,96.88|Z|Ashran|PRE|36629|
 T A Surly Dwarf |QID|36630|N|To Delvar Ironfist, inside Stormshield Barracks|M|41.05,86.93|Z|Ashran|
-A Delvar Ironfist |QID|36633|N|From Delvar Ironfist|M|41.05,86.93|Z|Ashran|PRE|36630|
+A Delvar Ironfist |QID|36633|N|From Delvar Ironfist|M|41.05,86.93|Z|Ashran|PRE|36630&36797|
 T Delvar Ironfist |QID|36633|N|To Delvar Ironfist|M|41.05,86.93|Z|Ashran|PRE|36630|
 F Lunarfall|AVAILABLE|34778|N|Fly back to Lunarfall (or hearthstone)|M|37.23,90.88|Z|Ashran|U|110560|PRE|36630|
 
@@ -363,11 +365,12 @@ C Migrant Workers |QID|34778|N|Speak with Zipfizzle and tell him to Move Out.|CH
 
 A A Hero's Welcome |QID|33075|N|From Yrel|PRE|34692|M|47.2,50.9|Z|Lunarfall|
 
-A Wanted: Kuu'rat's Tusks |QID|33833|N|From the notice board in Moonflower Valley. This is a 3-party group quest.|M|33.2,30.7|RANK|3|
-C Wanted: Kuu'rat's Tusks |QID|33833|N|Kill Kuu'rat, and loot the tusks. This is flagged as a 3-party group quest but can be solo'd by many. Don't forget to use your newly acquired Call to Arms to aid you in the battle.|M|34.6,26.9|
-T Wanted: Kuu'rat's Tusks |QID|33833|N|To Eremor in Embaari Village|M|45.5,37.7|
+A WANTED: Kuu'rat's Tusks |QID|33833|N|From the notice board in Moonflower Valley. This is a 3-party group quest.|M|33.2,30.7|RANK|3|
+C WANTED: Kuu'rat's Tusks |QID|33833|N|Kill Kuu'rat, and loot the tusks. This is flagged as a 3-party group quest but can be solo'd by many. Don't forget to use your newly acquired Call to Arms to aid you in the battle.|M|34.6,26.9|
+T WANTED: Kuu'rat's Tusks |QID|33833|N|To Eremor in Embaari Village|M|45.5,37.7|
 
-A Artificer Romuul|QID|35614|M|42.86,40.36|N|Speak to Romuul, offer to defend him, defeat three waves of wolves, including an elite at the end, and then accept him as a new follower.|RANK|2|
+; Grail adds [Vignette: Embaari Defense Crystal: 33038], naww
+A Artificer Romuul|QID|35614|PRE|36797|M|42.86,40.36|N|Speak to Romuul, offer to defend him, defeat three waves of wolves, including an elite at the end, and then accept him as a new follower.|RANK|2|
 T Artificer Romuul|QID|35614|M|42.86,40.36|
 
 f Embaari Village |QID|33075|N|With Eonor|M|45.68,38.86|
@@ -581,7 +584,7 @@ T The Southern Wilds |QID|35459|N|To Prelate Reenu, south along the road in Draa
 T The Southern Wilds |QID|35450|N|To Prelate Reenu, south along the road in Draakorium|M|56.95,57.49|ACTIVE|35450|
 
 A Crippled Caravan|QID|33786|LEAD|33787|M|56.95,57.49|N|From Prelate Reenu.|
-A Wanted: Maa'run's Hoof |QID|33836|N|From the Wanted Poster at The Draakorium. This is a 3-party group quest.|RANK|3|M|57.46,57.27|
+A WANTED: Maa'run's Hoof |QID|33836|N|From the Wanted Poster at The Draakorium. This is a 3-party group quest.|RANK|3|M|57.46,57.27|
 f The Draakorium |QID|33786|N|With Morfax|M|57.03,56.63|
 C Crippled Caravan|QID|33786|N|Head to Fiona's Caravan|M|53.60,57.27|NC|
 T Crippled Caravan|QID|33786|N|To Fiona|M|53.60,57.27|
@@ -589,7 +592,7 @@ T Crippled Caravan|QID|33786|N|To Fiona|M|53.60,57.27|
 A Fiona's Solution|QID|33787|M|53.60,57.27|N|From Fiona.|
 A Swamplighter Queen|QID|33808|M|53.60,57.27|N|From Fiona.|
 
-C Wanted: Maa'run's Hoof |QID|33836|N|Kill and loot Maa'run for her hoof. This is a 3-party group quest.|RANK|3|M|51.8,54.4|
+C WANTED: Maa'run's Hoof |QID|33836|N|Kill and loot Maa'run for her hoof. This is a 3-party group quest.|RANK|3|M|51.8,54.4|
 C Swamplighter Queen|QID|33808|N|Head into Swamplight Cave, then kill and loot Swamplighter Queen for her tail.|M|51.5,55.6|
 
 C Moonlit Herb|QID|33787|N|Pick up the Moonlit Herb from the ground of Swamplight Trail.|QO|4|M|51.8,58.5|NC|S|
@@ -646,10 +649,10 @@ T Forever Young|QID|34994|M|53.45,57.29|N|To Beezil Linkspanner.|
 T Botani Beatdown|QID|34995|M|53.68,57.24|N|To Tarenar Sunstrike.|
 T Poison Paralysis|QID|35006|M|53.60,57.29|N|To Fiona.|
 
-A Fiona |QID|35617|M|53.60,57.29|N|From Fiona.|PRE|35015|
+A Fiona |QID|35617|M|53.60,57.29|N|From Fiona.|PRE|35015&36797|
 T Fiona |QID|35617|M|53.60,57.29|N|To Fiona.|
 
-T Wanted: Maa'run's Hoof|QID|33836|M|58.04,57.64|N|To Orrin.|RANK|3|
+T WANTED: Maa'run's Hoof|QID|33836|M|58.04,57.64|N|To Orrin.|RANK|3|
 
 R Twilight Glade|QID|33072|N|Run to Twilight Glade.|ACTIVE|33072|M|40.53,54.91|
 f Twilight Glade |QID|33072|N|With Gotuun|M|40.73,55.28|
@@ -722,7 +725,7 @@ l Shadowmoon Exile Treasure |QID|33570|M|45.81,24.58|N|Shadowmoon Exile Treasure
 T Ancestor's Memory|QID|33082|M|45.84,25.57|N|Wait for the dialog to finish, then To Rulkan|
 
 A Darkest Night|QID|34043|M|45.84,25.58|N|From Rulkan.|PRE|33082|
-A Rulkan |QID|35631|M|45.84,25.58|N|Ask Rulkan to become your follower.|PRE|33082|
+A Rulkan |QID|35631|M|45.84,25.58|N|Ask Rulkan to become your follower.|PRE|33082& 36797 |
 
 R Mount Kra'gor |QID|35553|N|Head east outside of the cave, then head up the hill of Mount Kra'gor|M|47.26,23.43|RANK|3|
 K Rai'vosh |QID|35553|N|Kill Rai'vosh for a Rare piece to slow falling and some Garrison Resources. When you first reach him, you need to allow the dialog between Turog and Rai'vosh to play out before he is attackable.|M|48.81,22.64|RANK|3|
@@ -780,8 +783,8 @@ C Across the Stars|QID|33795|N|Finish picking up the Star Readings from the floo
 C The Clothes on Their Backs|QID|36266|N|Finish killing and loot the Shadowmoon Forces for their Ceremonial Shadowmoon Robes.|US|
 C On the Offensive|QID|33083|N|Finish killing the Shadowmoon Forces|US|
 
-A Wanted: Kliaa's Stinger|QID|33834|N|From the poster in Bloodthorn Hill. This is a 3-party group quest.|M|26.40,32.84|RANK|3|
-C Wanted: Kliaa's Stinger|QID|33834|N|Kill and loot Kliaa for her Massive Stinger|M|24.61,36.34|RANK|3|
+A WANTED: Kliaa's Stinger|QID|33834|N|From the poster in Bloodthorn Hill. This is a 3-party group quest.|M|26.40,32.84|RANK|3|
+C WANTED: Kliaa's Stinger|QID|33834|N|Kill and loot Kliaa for her Massive Stinger|M|24.61,36.34|RANK|3|
 
 R Bloodthorn Cave |QID|33419|N|Head to Bloodthorn Cave.|M|24.03,33.06|RANK|3|
 A A Matter of Life and Death|QID|33419|N|From Roona in the Bloodthorn Cave.|M|60.09,32.01|Z|Bloodthorn Cave|RANK|3|
@@ -809,7 +812,7 @@ T Across the Stars|QID|33795|M|46.37,38.68|N|To Prophet Velen|
 
 A Darkness Falls|QID|33837|N|From Prophet Velen.|M|46.37,38.68|PRE|34054&33083&33793&33795&33794|
 
-T Wanted: Kliaa's Stinger|QID|33834|N|To Dyuna|ACTIVE|33834|M|44.91,38.50|
+T WANTED: Kliaa's Stinger|QID|33834|N|To Dyuna|ACTIVE|33834|M|44.91,38.50|
 
 F Fey Landing |QID|36266|N|Fly to Fey Landing in Elodor.|ACTIVE|36266|
 T The Clothes on Their Backs|QID|36266|N|To Ameeka.|M|58.2,26.5|
@@ -844,7 +847,7 @@ A Lost Lumberjacks|QID|34820|PRE|33059|M|48.92,42.24|Z|Lunarfall|N|From Ken Logg
 A Gloomshade Game Hunter |QID|33461|PRE|33059|N|From the list of ingredients attached to the side of the cart.|M|48.44,41.00|Z|Lunarfall|
 
 T Fast Expansion|QID|33814|M|41.53,49.27|Z|Lunarfall|N|To Baros Alexston.|
-A Bigger is Better |QID|36592|M|41.53,49.27|Z|Lunarfall|N|From Baros Alexston.|
+A Bigger is Better |QID|36592|PRE|33814|M|41.53,49.27|Z|Lunarfall|N|From Baros Alexston.|
 C Bigger is Better |QID|36592|M|41.4,49.0|Z|Lunarfall|N|Select the Architect Table, and select "Upgrade" for the Town Hall.|NC|
 T Bigger is Better |QID|36592|M|31.66,31.16|Z|Lunarfall|N|To Baros Alexston.|
 T Supply Drop|QID|35905|M|31.8,31.2|Z|Lunarfall|N|To Baros Alexston.|
@@ -892,7 +895,7 @@ T Prune the Podlings|QID|34806|M|47.05,14.39|N|Auto-Complete|
 
 C Game of Thorns|QID|33271|N|Follow the path up to King Deathbloom, and kill him.|M|37.89,21.07;35.7,19.7|CN|
 T Game of Thorns|QID|33271|N|To Shelly Hamby|M|36.39,19.27|
-A Shelly Hamby |QID|35625|N|From Shelly Hamby|M|36.39,19.27|PRE|33271|
+A Shelly Hamby |QID|35625|N|From Shelly Hamby|M|36.39,19.27|PRE|33271&36797|
 T Shelly Hamby |QID|35625|N|From Shelly Hamby|M|36.39,19.27|
 
 T Gloomshade Game Hunter|QID|33461|M|37.92,63.49|Z|Lunarfall|N|To Arsenio Zerep just outside your Garrison. Use your Garrison Hearthstone to get you back to your garrison.|U|110560|

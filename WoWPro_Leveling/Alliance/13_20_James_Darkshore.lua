@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_darkshore
+-- Date: 2020-07-17 21:43
+-- Who: Ludovicus_Maior
+-- Log: Added PRE to [A Taste for Grouper:13537]
+
+-- URL: http://wow-pro.com/node/3218/revisions/29923/view
 -- Date: 2018-10-17 02:23
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -124,7 +129,7 @@
 -- URL: http://wow-pro.com/node/3218/revisions/23868/view
 -- Date: 2010-12-30 19:46
 -- Who: Fluclo
--- Log: Changed to K for Shatterspear Overseer, and the resulting Overseer's Orders 
+-- Log: Changed to K for Shatterspear Overseer, and the resulting Overseer's Orders
 
 -- URL: http://wow-pro.com/node/3218/revisions/23867/view
 -- Date: 2010-12-30 17:48
@@ -195,7 +200,7 @@ T The Last Wave of Survivors|QID|13518|M|51.75,18.05|N|To Dentaria Silverglade.|
 
 A The Boon of the Seas|QID|13520|PRE|13518&13522|M|51.75,18.05|N|From Serendia Oakwhisper.|
 A Buzzbox 413|QID|13521|PRE|13518&13522|M|51.17,19.61|N|From Wizbang Cranktoggle.|
-A A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing;356|N|From Johnathan Staats, will lead to you fishing.|
+A A Taste for Grouper |QID|13537|PRE|13518&13522|M|52.38,17.7|P|Fishing;356|N|From Johnathan Staats, will lead to you fishing.|
 C A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing;356|N|Catch 4 Grouper from the waters by fishing.|NC|
 T A Taste for Grouper |QID|13537|M|52.38,17.7|P|Fishing;356|N|To Johnathan Staats.|
 C The Boon of the Seas|QID|13520|M|49.56,18.48|N|Dive underwater and open Encrusted Clams.|S|NC|

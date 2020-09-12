@@ -31,12 +31,12 @@
 -- URL: http://wow-pro.com/node/3302/revisions/28219/view
 -- Date: 2017-01-10 20:19
 -- Who: Ludovicus_Maior
--- Log: Removed spurious '1s' 
+-- Log: Removed spurious '1s'
 
 -- URL: http://wow-pro.com/node/3302/revisions/28152/view
 -- Date: 2016-12-14 15:17
 -- Who: tubera
--- Log:  N tags;Guide should be closer to today's standard again.
+-- Log: Add: Group Quest chain from Koltira Deathweaver; Add lots of M & N tags;Guide should be closer to today's standard again.
 
 -- URL: http://wow-pro.com/node/3302/revisions/28151/view
 -- Date: 2016-12-14 05:59
@@ -46,7 +46,7 @@
 -- URL: http://wow-pro.com/node/3302/revisions/28088/view
 -- Date: 2016-12-02 23:16
 -- Who: tubera
--- Log:  overall cleanup.
+-- Log: Part 3: QO fixes;add S/US;Add/fix N/M/Z => overall cleanup.
 
 -- URL: http://wow-pro.com/node/3302/revisions/28056/view
 -- Date: 2016-11-27 14:57

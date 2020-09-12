@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/valsharah%20neutral
+-- Date: 2019-08-06 18:31
+-- Who: Fluclo
+-- Log: Added note that Whispering Bluffs is only needed for treasures; clarified step needed for Lunarwing Egg quest; Chieftain Graw wasn't showing, so changed ACTIVE to QID; clarified where Koda Steelclaw is; added more detail for Gravas the Desecrator; reordered hunter quests to be in flow of guide
+
+-- URL: http://wow-pro.com/node/3665/revisions/30015/view
 -- Date: 2018-10-17 02:30
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -16,7 +21,7 @@
 -- URL: http://wow-pro.com/node/3665/revisions/29853/view
 -- Date: 2018-09-28 20:52
 -- Who: elidion
--- Log:  f steps.
+-- Log: Reverted to old guide before RARE edits were made and went through manually adding RARE and FLY tags, cleaned up the ACTIVE/AVILABLE/PRE tags on N,R,H,h,P,F & f steps.
 
 -- URL: http://wow-pro.com/node/3665/revisions/29823/view
 -- Date: 2018-09-24 07:46
@@ -81,7 +86,7 @@
 -- URL: http://wow-pro.com/node/3665/revisions/28238/view
 -- Date: 2017-01-10 21:36
 -- Who: Blanckaert
--- Log: minor adjustments... 
+-- Log: minor adjustments...
 
 -- URL: http://wow-pro.com/node/3665/revisions/28186/view
 -- Date: 2016-12-28 23:56
@@ -163,7 +168,7 @@
 -- URL: http://wow-pro.com/node/3665/revisions/27805/view
 -- Date: 2016-09-16 22:38
 -- Who: Emmaleah
--- Log: change registration levels to 100-109 and next guide to Blanc_Suramar 
+-- Log: change registration levels to 100-109 and next guide to Blanc_Suramar
 
 -- URL: http://wow-pro.com/node/3665/revisions/27748/view
 -- Date: 2016-09-13 03:41
@@ -193,7 +198,7 @@
 -- URL: http://wow-pro.com/node/3665/revisions/27736/view
 -- Date: 2016-09-11 05:54
 -- Who: Blanckaert
--- Log:  stream
+-- Log: Speeling error - steam -> stream
 
 -- URL: http://wow-pro.com/node/3665/revisions/27733/view
 -- Date: 2016-09-10 04:51
@@ -321,7 +326,7 @@ T All Grell Broke Loose|QID|42883|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 T Grassroots Effort|QID|42884|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 T Moist Around the Hedges|QID|42857|M|66.68,77.28|N|To Old Grizzleback.|RANK|2|
 
-R Whispering Bluffs|QID|38900|M|64.69,81.13|N|Continuing on our way towards Steelclaw Vale.|RANK|2|FLY|LEGION|
+R Whispering Bluffs|QID|38900|M|64.69,81.13|N|Optional treasures in Whispering Bluffs as you make your way towards Steelclaw Vale.|RANK|2|FLY|LEGION|
 $ Antydas Nightcaller|QID|38903|M|64.36,84.67|CHAT|N|Upstairs, asleep on a bed, click to try to wake.  He won't wake up, but does mumble about where the treasure is (which is next treasure).This is for adventurer of Val'sharah achievement - no actual reward.|RANK|2|
 $ Treasure|QID|38900|M|64.55,85.46|N|Upstairs, under slanting roof. Loot for a bit of treasure and resources.|RANK|2|
 $ Treasure|QID|39089|M|61.01,79.17|N|Small alcove at the base of the cliff. Loot for a bit of treasure and resources.|RANK|3|
@@ -360,7 +365,9 @@ A Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|N|Auto accepted when you
 C Faerie Fracas-Bonus Objective|QID|38842|M|53.77,79.87|S|N|Kill the thistleleafs and otherwise work towards the objective.|RANK|2|
 A Thorny Dancing|QID|40220|M|53.75,79.82|N|From Saylanna Riverbreeze.|RANK|2|
 A Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|N|From Saylanna Riverbreeze.|RANK|2|
-A Thieving Thistleleaf|QID|38862|M|53.77,79.87|U|129966|N|Auto accepted from the lunarwing egg you just looted.|RANK|2|
+
+K Thistleleaf|QID|38862|M|53.77,79.87|N|Kill and loot a Lunarwing Egg from a Thistleleaf Ruffian or Thorndancer|RANK|2|ACTIVE|-38862|
+A Thieving Thistleleaf|QID|38862|M|53.77,79.87|U|129966|N|From Lunarwing Egg.|RANK|2|
 C A Needle Need|QID|38951|PRE|38950|M|53.75,79.82|P|Tailoring;197|S|QO|1|N|Kill and Loot Thistleleafs for Spritethorn|
 C Spread Your Lunarwings and Fly|QID|40221|M|53.75,79.82|S|N|As you search for Thorndancers, free Lunarwings by untangleing the roots, or fighting the ones in the air.|RANK|2|
 C Thieving Thistleleaf|QID|38862|M|53.77,79.87|S|N|As you search for Thorndancers, kill Thistleleaf Ruffians to reclaim the eggs.|RANK|2|
@@ -393,17 +400,18 @@ K Kill Bahagar|QID|43446|QO|1|M|45.61,88.84|ITEM|130135|N|Silver - Kill for loot
 $ Treasure|QID|44138|M|43.7,89.9;43.05,88.19|CS|N|In a cave with several unfriendly hydras.  Loot for a bit of treasure and resources.|RANK|3|;if we had such a rank... this would qualify for rank 4
 $ Treasure|QID|38387|M|44.87,79.23;44.35,82.58|CS|N|Run up this path and to a small cave behind and underneath the inn at Sabermaw Bluff for a bit of loot and treasure.|RANK|3|
 R Smolderhide Thicket|QID|38146|M|48.68,88.28|N|And... back to your questing.|RANK|3|FLY|LEGION|
-K Kill Chieftain Graw|ACTIVE|38146|M|48.68,88.28|L|128340|T|Chieftain Graw|
+
+K Kill Chieftain Graw|QID|38146|M|48.68,88.28|L|128340|T|Chieftain Graw|
 A The Chieftain's Beads|QID|38146|M|48.71,88.30|U|128340|N|Auto accepted from item you looted from the Cheiftain.|
-C Totemic Call|QID|38246|M|48.87,88.52|N|Destroy the Nightmare Totem behind the Cheiftain.|
+C Totemic Call|QID|38246|M|48.87,88.52|N|Destroy the Nightmare Totem behind the Cheiftain.|NC|
 C Frenzied Furbolgs|QID|38455|M|46.95,84.40|US|N|Finish killing the Smolderhide furbolg.|
 T Totemic Call|QID|38246|M|48.39,84.63|N|To Elder Sookh.|
 T The Chieftain's Beads|QID|38146|M|48.39,84.63|N|To Elder Sookh.|
 T Frenzied Furbolgs|QID|38455|M|49.09,82.36|N|To Rylissa Bearsong.|
 A Awakening the Archdruid|QID|38143|PRE|38146&38246&38455|M|49.09,82.36|N|From Rylissa Bearsong.|
 $ Treasure|QID|38886|M|49.44,85.21;48.99,86.14|CS|N|Loot for treasure and resources.|RANK|2|
-T Awakening the Archdruid|QID|38143|M|63.00,48.24;60.50,17.55|CS|Z|1018/14|N|To Koda Steelclaw.|
-A Out of the Dream|QID|38145|PRE|38143|M|60.50,17.55|Z|1018/14|N|From Koda Steelclaw.|
+T Awakening the Archdruid|QID|38143|M|63.00,48.24;60.50,17.55|CS|Z|1018/14|N|To Koda Steelclaw, inside Sleeper's Barrow.|
+A Out of the Dream|QID|38145|PRE|38143|M|60.50,17.55|Z|1018/14|N|From Koda Steelclaw, wait a few seconds for the quest to become available.|
 A The Demons Below|QID|38144|PRE|38143|M|60.50,17.55|Z|1018/14|N|From Koda Steelclaw.|
 C The Demons Below|QID|38144|M|48.99,69.91|Z|1018/14|S|N|Kill the Darkfiend Intruders.|
 C Out of the Dream|QID|38145|M|48.99,69.91|Z|1018/14|NC|N|Wake up the Druids.|
@@ -452,7 +460,7 @@ A Tears for Fears|QID|38662|PRE|38641|M|51.44,57.01|N|From Lyanis Moonfall.|
 A Root Cause|QID|38655|PRE|38641|M|51.48,56.83|N|From Isoraen Nightstar.|
 C Defend The Temple-Bonus Objective|QID|39029|M|51.44,57.01|S|N|Kill demons, chop down entangling roots as you go to complete the bonus objective.|RANK|2|
 C Root Cause|QID|38655|M|59.11,54.33|S|NC|N|Click on the highlighted plants to collect the corrupted root samples.|
-K Kill Gravax the Desecrator|QID|38656|M|56.40,55.58|T|Gravax|ITEM|124131|N|Group needed, unless you happen to have one of the druid artifacts that drop near Flight Point|RANK|2|RARE|
+K Kill Gravax the Desecrator|QID|38656|M|56.40,55.58|T|Gravax|ITEM|124131|N|Group needed. Note he can one-shot kill you, so you may want to seek the Moonkin artifact before attempting this.|RANK|3|RARE|
 A Mark of the Demon|QID|38656|ACTIVE|38656|M|56.40,55.58|U|124131|N|Auto Accepted from UI Alert|RANK|2|
 C Tears for Fears|QID|38662|M|59.19,54.03|NC|N|Listen to the dialog|
 C Root Cause|QID|38655|M|59.11,54.33|US|NC|N|Finish collecting any needed samples on your way back to the inner temple.|
@@ -486,9 +494,6 @@ A For the Corn!|QID|38647|PRE|38643^39149|M|38.89,61.44|N|From Granny Marl.|
 C For the Corn!|QID|38647|M|38.50,60.49|S|NC|N|Click on the barrels of corn to collect them.|
 C A Sight For Sore Eyes|QID|38646|M|38.47,60.58|T|Black Rook Falcon|NC|U|127030|N|Use the provided flares to mark the Black Rook Falcons.|
 C For the Corn!|QID|38647|M|38.50,60.49|US|NC|N|Click on the barrels of corn to collect them.|
-T Rising Troubles|QID|42386|M|41.69,60.00|N|To Hudson Crawford.|C|Hunter|
-T Assassin Entrapment|QID|42387|M|41.69,60.00|N|To Hudson Crawford.|C|Hunter|
-A Urgent Summons|QID|42388|M|41.68,59.97|N|From Snowfeather.|C|Hunter|
 T For the Corn!|QID|38647|M|38.88,61.43|N|To Granny Marl.|
 T A Sight For Sore Eyes|QID|38646|M|38.88,61.43|N|To Granny Marl.|
 C The Farmsteads|QID|38644|M|38.11,65.22|QO|1|CHAT|N|Click on the cellar door to enter. Chat with Penelope to get credit for checking the Heathrow house.|
@@ -504,7 +509,12 @@ C Shriek No More|QID|39117|M|35.84,57.34|N|Kill Rotbeak and loot his head.|T|Rot
 T Shriek No More|QID|39117|M|37.09,58.52|N|To Cecily Radcliffe.There is a treasure in the boat, but it doesnt appear during this phase if you should happen to want to come back some other time.|;per map should be a treasure here (on the fishing boat?) I dant find it.
 C Rising Troubles|QID|42386|M|40.87,58.75|S|N|Finish up the hounds.|C|Hunter|
 C Children of the Night|QID|38645|M|40.87,58.75|US|N|Finish killing the Black Rook enemies on your way back to Bradensbrook.|
-C The Farmsteads|QID|38644|M|42.35,59.10|QO|4|NC|N|Return to Bradensbrook|
+
+T Rising Troubles|QID|42386|M|41.69,60.00|N|To Hudson Crawford.|C|Hunter|
+T Assassin Entrapment|QID|42387|M|41.69,60.00|N|To Hudson Crawford.|C|Hunter|
+A Urgent Summons|QID|42388|M|41.68,59.97|N|From Snowfeather, allow her a few seconds to fly in.|C|Hunter|
+
+C The Farmsteads|QID|38644|M|42.35,59.10|QO|4|NC|N|Head back to the centre of Bradensbrook|
 T The Farmsteads|QID|38644|M|42.36,59.02|N|To Mayor Heathrow.|
 T Children of the Night|QID|38645|M|42.47,58.99|N|To Commander Jarod Shadowsong.|
 T The Warden's Signet|QID|38711|M|42.47,58.99|N|To Commander Jarod Shadowsong.|

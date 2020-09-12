@@ -151,7 +151,7 @@
 -- URL: http://wow-pro.com/node/3519/revisions/25223/view
 -- Date: 2012-12-01 14:22
 -- Who: Ludovicus_Maior
--- Log: Played the Ruins of Ogudei quests 
+-- Log: Played the Ruins of Ogudei quests
 
 -- URL: http://wow-pro.com/node/3519/revisions/25219/view
 -- Date: 2012-11-29 18:03

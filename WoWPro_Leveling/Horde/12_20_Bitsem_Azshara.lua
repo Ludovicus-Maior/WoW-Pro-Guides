@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_azshara
+-- Date: 2019-10-12 15:55
+-- Who: Ludovicus_Maior
+-- Log: Fix [Stone Cold] BUFF
+
+-- URL: http://wow-pro.com/node/3217/revisions/30343/view
+-- Date: 2019-07-31 20:24
+-- Who: Fluclo
+-- Log: Warchief's Command doesn't show when you've done a couple other quests, so added LEAD tag for those quest IDs; Warchief's Command turn-in shows even when you don't have it, therefore added ACTIVE tag; loot Scout's Order shouldn't show if you've already looted then accepted quest, so don't show if quest is active in your quest log; A Quota to Meet and Refleshification are non-combat quests; Added step to clarify Stone Cold requirements, auto-detecting the buff once you are carrying the goblin; Military Breakthrough is a two-part quest, therefore split into individual steps; Clarified Hand-me-downs requirements; Added the SFG quest item to In The Face!
+
+-- URL: http://wow-pro.com/node/3217/revisions/29963/view
 -- Date: 2018-10-17 02:26
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -142,8 +152,8 @@ return [[
 A Beyond Durotar|QID|25648|PRE|25206&25236|M|45.0,14.6|Z|Durotar|N|From Gor the Enforcer, just outside Orgrimmar's Southern Gates|
 T Beyond Durotar|QID|25648|M|26.84,77.00|N|To Ag'tor Bloodfist.|LEAD|25275^28496|
 
-A Warchief's Command: Azshara!|QID|28496|M|26.84,77.00|N|From the Warchief's Command Board.|LEAD|14129|
-T Warchief's Command: Azshara!|QID|28496|M|27.00,77.09|N|To Labor Captain Grabbit.|LEAD|25275^25648|
+A Warchief's Command: Azshara!|QID|28496|M|26.84,77.00|N|From the Warchief's Command Board.|LEAD|14129^25275^25648|
+T Warchief's Command: Azshara!|QID|28496|M|27.00,77.09|N|To Labor Captain Grabbit.|ACTIVE|28496|
 
 A Venison for the Troops|QID|14118|M|26.82,76.95|N|From Ag'tor Bloodfist.|
 A The Eyes of Ashenvale|QID|14117|M|26.82,76.95|N|From Ag'tor Bloodfist.|
@@ -166,7 +176,7 @@ T Defend the Gates!|QID|14146|M|26.91,77.02|N|(UI Alert)|
 
 A Arborcide|QID|14155|PRE|14146|M|26.91,77.02|N|(UI Alert)|
 C Arborcide|QID|14155|M|21.92,75.71|N|Use the shredder to destroy the Talrendis Ancient.|
-l Scout's Orders|QID|14127|RANK|2|M|29.95,74.40|L|47039|N|Kill and loot Talrendis Scouts until this drops.|
+l Scout's Orders|QID|14127|RANK|2|M|29.95,74.40|L|47039|N|Kill and loot Talrendis Scouts until this drops.|ACTIVE|-14127|
 A Return of the Highborne?|QID|14127|RANK|2|M|29.95,74.40|U|47039|N|From the Scout's Orders you looted.|
 C Venison for the Troops|QID|14118|US|M|27.08,72.91|N|Exit Shredder. Collect 15 Slabs of Venison from Weakened Mosshoof Stags.|
 C The Eyes of Ashenvale|QID|14117|US|M|29.80,74.71|N|Kill 8 Talrendis Scouts. |
@@ -183,9 +193,12 @@ T Report to Horzak|QID|14162|M|29.15,66.24|N|To Horzak Zignibble.|
 A Basilisk Bashin'|QID|14161|PRE|14162|M|29.15,66.24|N|From Horzak Zignibble.|
 A Stone Cold|QID|14165|M|29.15,66.24|N|From Horzak Zignibble.|
 A A Quota to Meet|QID|14197|M|29.21,66.44|N|From Foreman Fisk, who wanders.|
-C A Quota to Meet|QID|14197|S|M|23.20,67.44|N|Gather 20 ingots of Mountainfoot Iron.|
+C A Quota to Meet|QID|14197|S|M|23.20,67.44|N|Gather 20 ingots of Mountainfoot Iron.|NC|
+
 C Basilisk Bashin'|QID|14161|M|25.50,68.50|N|Kill Greystone Basilisks while you search for a stonified Mountainfoot Miner at the Mountainfoot Strip Mine.|
-N Stone Cold|QID|14165|NC|M|26.56,68.50|N|Make sure you get a stonified Mountainfoot Miner on your back.|
+N Stone Cold|QID|14165|NC|M|26.56,68.50|N|Seek out a Mountainfoot Miner.|BUFF|67032^91695^69619|
+C Stone Cold|QID|14165|NC|M|26.56,68.50|N|With the Goblin on your back, head back to Horzak Zignibble. \nNote: You will lose the goblin if you mount. |
+
 T Basilisk Bashin'|QID|14161|M|29.15,66.24|N|To Horzak Zignibble.|
 T Stone Cold|QID|14165|M|29.15,66.24|N|To Horzak Zignibble.|
 
@@ -197,7 +210,7 @@ T The Perfect Prism|QID|14190|M|20.29,70.31|N|To the Headquarters Radio.|
 A Prismbreak|QID|14192|PRE|14190|M|20.29,70.31|N|From the Headquarters Radio.|
 T Prismbreak|QID|14192|M|20.09,70.06|N|To the Weapons Cabinet.|
 A Refleshification|QID|14194|PRE|14192|M|20.09,70.06|N|From the Weapons Cabinet.|
-C Refleshification|QID|14194|U|48104|M|24.56,72.63|N|Use The Refleshifier to de-stonify eight Mountainfoot Miners.|
+C Refleshification|QID|14194|U|48104|M|24.56,72.63|N|Use The Refleshifier to de-stonify eight Mountainfoot Miners.|NC|
 T A Quota to Meet|QID|14197|M|29.15,66.27|N|To Foreman Fisk, who wanders.|
 T Refleshification|QID|14194|M|29.15,66.24|N|To Horzak Zignibble.|
 
@@ -205,21 +218,25 @@ A Another Warm Body|QID|14468|PRE|14194&14197&14161|M|29.52,66.84|RANK|2|N|From 
 T Another Warm Body|QID|14468|M|29.43,57.68|N|To Commander Molotov.|
 A Hand-me-downs|QID|14469|PRE|14468|RANK|2|M|29.43,57.68|N|From Commander Molotov.|
 A Military Breakthrough|QID|14470|PRE|14468|RANK|2|M|29.38,57.61|N|From Glix Grindlock.|
-A First Degree Mortar|QID|14471|PRE|14468|RANK|2|M|29.10,57.94|N|From Xiz "The Eye" Salvoblast.|
-C Hand-me-downs|QID|14469|S|M|27.75,54.06|N|Retrieve 12 Military Supply Packs from the central minefield.|
-C Military Breakthrough|QID|14470|M|27.63,51.91|N|Kill Warlord Krellen and recover the SFG.|
-C Hand-me-downs|QID|14469|US|M|27.75,54.06|N|Retrieve 12 Military Supply Packs from the central minefield.|
-C First Degree Mortar|QID|14471|M|31.10,57.63|N|Use a Goblin Mortar to slaughter 60 Spitelash Attackers.|
-T First Degree Mortar|QID|14471|M|29.10,57.94|N|To Xiz "The Eye" Salvoblast.|
+C Hand-me-downs|QID|14469|S|M|27.75,54.06|N|Loot the Military Supplies from the Dead Soldier corpses in the central minefield.|NC|
+K Warlord Krellian|QID|14470|QO|1|M|27.63,51.91|N|Kill Warlord Krellen|
+C Military Breakthrough|QID|14470|QO|2|M|27.63,51.91|N|Loot the SFG from the floor|NC|
+C Hand-me-downs|QID|14469|US|M|27.75,54.06|N|Loot the Military Supplies from the Dead Soldier corpses in the central minefield.|NC|
 T Military Breakthrough|QID|14470|M|29.38,57.61|N|To Glix Grindlock.|
 T Hand-me-downs|QID|14469|M|29.46,57.67|N|To Commander Molotov.|
 
+A First Degree Mortar|QID|14471|PRE|14468|RANK|2|M|29.10,57.94|N|From Xiz "The Eye" Salvoblast.|
+C First Degree Mortar|QID|14471|M|31.10,57.63|N|Use a Goblin Mortar to slaughter 60 Spitelash Attackers.|
+T First Degree Mortar|QID|14471|M|29.10,57.94|N|To Xiz "The Eye" Salvoblast.|
+
 A In The Face!|QID|14472|PRE|14469&14470&14471|RANK|2|M|29.38,57.61|N|From Glix Grindlock.|
-C In The Face!|QID|14472|M|31.44,60.75|N|Use an SFG to kill an Enslaved Son of Arkkoroc in the southern minefield.|
+C In The Face!|QID|14472|M|31.44,60.75|N|Use an SFG to kill an Enslaved Son of Arkkoroc in the southern minefield.|U|49700|
 T In The Face!|QID|14472|M|29.38,57.61|N|To Glix Grindlock.|
+
 A Profitability Scouting|QID|24452|PRE|14472|RANK|2|M|29.46,57.67|N|From Commander Molotov.|
 C Profitability Scouting|QID|24452|NC|U|49701|M|31.31,49.92|N|Use the stealth field generator to infiltrate the Ruins of Eldarath and identify the Heart of Arkkoroc.|
 T Profitability Scouting|QID|24452|M|29.46,57.67|N|To Commander Molotov.|
+
 A Private Chat|QID|24453|PRE|24452|RANK|2|M|29.46,57.67|N|From Commander Molotov.|
 T Private Chat|QID|24453|M|29.52,66.84|N|Back to the Orgrimmar Rocketway Exchange, to Private Worcester.|
 A A Thousand Stories in the Sand|QID|14201|PRE|24453|M|29.68,66.88|N|From Malynea Skyreaver.|

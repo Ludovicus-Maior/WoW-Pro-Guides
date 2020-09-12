@@ -4,6 +4,20 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/valley_four_winds_neutral
+-- Date: 2020-07-17 17:38
+-- Who: Ludovicus_Maior
+
+-- URL: http://wow-pro.com/node/3485/revisions/30295/view
+-- Date: 2019-06-30 22:29
+-- Who: Hendo72
+-- Log: Corrected a couple spelling typos (virmin and goind)
+
+-- URL: http://wow-pro.com/node/3485/revisions/30294/view
+-- Date: 2019-06-30 11:42
+-- Who: Emmaleah
+-- Log: Removed several instances of using |L| as step completion, now that items are not actually physically looted.
+
+-- URL: http://wow-pro.com/node/3485/revisions/30027/view
 -- Date: 2018-10-17 02:31
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -136,7 +150,7 @@
 -- URL: http://wow-pro.com/node/3485/revisions/25059/view
 -- Date: 2012-08-28 19:47
 -- Who: Ludovicus_Maior
--- Log: Test play by Laotseu on Sun, 2012-08-26 22:33. 
+-- Log: Test play by Laotseu on Sun, 2012-08-26 22:33.
 
 -- URL: http://wow-pro.com/node/3485/revisions/25048/view
 -- Date: 2012-08-28 18:26
@@ -189,6 +203,7 @@ T A Seemingly Endless Nuisance|QID|29908|M|83.69,21.01|N|To Pang Thunderfoot.|;*
 A Low Turnip Turnout|QID|29909|PRE|29877&29908|M|83.69,21.01|N|From Pang Thunderfoot.|;***
 A The Search for the Hidden Master|QID|30086|PRE|29877&29908|M|84.08,21.04|N|From Xiao.|;***
 T The Search for the Hidden Master|QID|30086|M|84.08,21.04|N|To Xiao.|
+; We ignore Grail dependency on 30087, which does not seem obtainable.
 A Ken-Ken|QID|29873|LEAD|30079|PRE|30086|M|84.08,21.04|N|From Xiao.|
 A Clever Ashyo|QID|29871|LEAD|29577|PRE|30086|M|84.08,21.04|N|From Xiao.|
 A Kang Bramblestaff|QID|29875|PRE|30086|M|84.08,21.04|FACTION|Horde|N|From Xiao.|
@@ -220,15 +235,14 @@ T The Fabulous Miss Fanny|QID|29912|M|75.22,24.05|N|To Liang Thunderfoot.|
 A The Meat They'll Eat|QID|29913|PRE|29912|M|75.22,24.05|N|From Liang Thunderfoot.|
 A Back to the Sty|QID|29914|PRE|29912|M|75.22,24.05|N|From Liang Thunderfoot.|
 
-C Adolescent Mushan Shoulder Steak |QID|29913|S|L|75275 4|M|72,29|N|The meat is NOT a 100% drop.|
-C Turtle Meat Scrap |QID|29913|S|L|75276 80|M|67.6,30.1|
-C Pick up Smelly |QID|29914|NC|T|Smelly|L|75273|M|70.5,29.5|
-C Pick up Ling |QID|29914|NC|T|Ling|L|75272|M|66.8,29.0|
-C Turtle Meat Scrap |QID|29913|US|L|75276 80|M|67.6,30.1|N|Kill turtles for the scraps.|
-C Pick up Jian |QID|29914|NC|T|Jian|L|75271|M|69.9,24.3|
+C Kill Mushan|QID|29913|QO|1|S|M|72,29|N|Kill Mushan and loot to collect Adolescent Mushan Shoulder Steak. The meat is NOT a 100% drop.|
+C Kill Turtles|QID|29913|QO|2|S|M|67.6,30.1|N|Kill turtles for Turtle Meat Scraps.|
+C Pick up Smelly |QID|29914|QO|3|NC|T|Smelly|M|70.5,29.5|
+C Pick up Ling |QID|29914|QO|2|NC|T|Ling|M|66.8,29.0|
+C Turtle Meat Scrap |QID|29913|QO|2|US|M|67.6,30.1|N|Finish collecting the turtle meat scraps.|
+C Pick up Jian |QID|29914|QO|1|NC|T|Jian|M|69.9,24.3|
 f Grassy Cline|M|70.8,24.2|N|From Kom of the Mountain Winds.|
-C Adolescent Mushan Shoulder Steak |QID|29913|US|L|75275 4|M|72,29|N|The meat is NOT a 100% drop.|
-
+C Kill Mushan|QID|29913|QO|1|US|M|72,29|N|Finish collecting the Adolescent Mushan Shoulder Steaks.|
 T The Meat They'll Eat|QID|29913|M|75.22,24.05|N|To Liang Thunderfoot.|
 T Back to the Sty|QID|29914|M|75.22,24.05|N|To Liang Thunderfoot.|
 A A Neighbor's Duty|QID|29915|PRE|29913&29914|M|75.22,24.05|N|From Liang Thunderfoot.|
@@ -249,11 +263,11 @@ C Great Minds Drink Alike|QID|29919|CHAT|M|68.68,43.23|N|You need to keep somewh
 T Great Minds Drink Alike|QID|29919|M|68.71,43.12|N|To Mudmug.|
 A Leaders Among Breeders|QID|29944|PRE|29919|M|68.88,43.15|N|From Chen Stormstout.|
 A Yellow and Red Make Orange|QID|29945|PRE|29919|M|68.89,43.31|N|From Li Li.|
-C Yellow and Red Make Orange|QID|29945|S|M|67.57,39.75; 69.39,47.08; 70.04,48.88|CN|N|Most of the animals (except virmin) in the area drop the blood you need. The marigolds spawn in the areas marked.|
+C Yellow and Red Make Orange|QID|29945|S|M|67.57,39.75; 69.39,47.08; 70.04,48.88|CN|N|Most of the animals (except virmen) in the area drop the blood you need. The marigolds spawn in the areas marked.|
 K Kill Frenzyhop|QID|29944|T|Frenzyhop|QO|3|M|64.64,40.66|; Frenzyhop slain: 1/1
 K Kill Jinanya the Clawblade|QID|29944|T|Jinanya the Clawblade|QO|2|M|68.72,38.29|; Jinanya the Clawblade slain: 1/1
 K Kill Aiyu the Skillet|QID|29944|T|Aiyu the Skillet|QO|1|M|68.25,37.03|; Aiyu the Skillet slain: 1/1
-C Yellow and Red Make Orange|QID|29945|US|M|67.57,39.75; 69.39,47.08; 70.04,48.88|CN|N|Most of the animals (except virmin) in the area drop the blood you need. The marigolds spawn in the areas marked.|
+C Yellow and Red Make Orange|QID|29945|US|M|67.57,39.75; 69.39,47.08; 70.04,48.88|CN|N|Most of the animals (except virmen) in the area drop the blood you need. The marigolds spawn in the areas marked.|
 T Yellow and Red Make Orange|QID|29945|M|68.89,43.31|N|To Li Li.|
 T Leaders Among Breeders|QID|29944|M|68.88,43.15|N|To Chen Stormstout.|
 A Crouching Carrot, Hidden Turnip|QID|29947|PRE|29945|M|68.89,43.31|N|From Li Li.|
@@ -327,7 +341,7 @@ A Hop Hunting|QID|30053|PRE|30046|M|55.89,49.44|N|From Chen Stormstout.|
 A Li Li and the Grain|QID|30048|PRE|30046|M|55.89,49.44|N|From Chen Stormstout.|
 A Doesn't Hold Water|QID|30049|PRE|30046|M|55.89,49.44|N|From Chen Stormstout.|
 A Children of the Water |QID|32045|M|55.13,47.38|N|From Stonecarver Mac, up on Halfhill|; Halfhill
-f Halfhill|QID|30049|M|53.81,50.92|N|From Wing Nga.If you want to this is a good time to do the fishing quest and cooking training.  Perhaps not the most efficient, but if you are goind to do it, may as well do it while you get XP.|
+f Halfhill|QID|30049|M|53.81,50.92|N|From Wing Nga.If you want to this is a good time to do the fishing quest and cooking training.  Perhaps not the most efficient. But, if you are going to do it, might as well do it while you get XP.|
 
 A A Helping Hand|QID|30252|M|52.02,48.13|N|From Farmer Yoon. This chain for The Tillers is optional, but it opens up the Quartermaster which gives you a place to repair. (Plus its quick and easy XP.)|
 C Remove the rocks|QID|30252|M|52.8,49.81|NC|N|Click on the unbudging rocks to dig them up.|
@@ -463,7 +477,7 @@ A Mushan Mastery: Darkhide |QID|30184|PRE|30181|M|16.01,82.49|N|From Hemet Nesin
 
 C Kill Stags|QID|32038|S|M|24.47,68.43|
 C Kill Foxes|QID|30182|S|M|24.47,68.43|N|The foxes move around stealthed.|
-K Darkhide|QID|30184|T|Darkhide|L|79058|M|26.7,69.6|N|Kill Darkhide and loot his head.|
+K Darkhide|QID|30184|T|Darkhide|QO|1|M|26.7,69.6|N|Kill Darkhide and loot his head.|
 C Kill Foxes|QID|30182|US|M|24.47,68.43|
 C Kill Stags|QID|32038|US|M|24.47,68.43|
 

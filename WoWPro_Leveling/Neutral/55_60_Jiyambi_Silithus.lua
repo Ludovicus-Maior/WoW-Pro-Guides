@@ -76,7 +76,7 @@
 -- URL: http://wow-pro.com/node/3270/revisions/24816/view
 -- Date: 2011-11-20 21:44
 -- Who: Ludovicus_Maior
--- Log: Rutgar Glyphshaper. not Frankal Stonebridge for QID 8314 
+-- Log: Rutgar Glyphshaper. not Frankal Stonebridge for QID 8314
 
 -- URL: http://wow-pro.com/node/3270/revisions/24572/view
 -- Date: 2011-06-21 20:30

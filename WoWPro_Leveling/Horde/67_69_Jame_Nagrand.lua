@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_nagrand_horde
+-- Date: 2020-04-08 18:29
+-- Who: Ludovicus_Maior
+-- Log: [WANTED: Giselda the Crone], [WANTED: Zorbo the Advisor], [WANTED: Durn the Hungerer].
+
+-- URL: http://wow-pro.com/node/3280/revisions/29984/view
 -- Date: 2018-10-17 02:27
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -130,8 +135,8 @@ A The Howling Wind |QID|9861|U|24504|M|64.0,45.0|N|Accept the quest from the How
 h Garadar|QID|9888|M|56.7,34.2|
 f Garadar|QID|9861|M|57.22,35.24|N|Get the flight point from Gursha|
 A The Impotent Leader |QID|9888|N|From Jorin Deadeye.|M|55.57,37.62|
-A Wanted: Giselda the Crone |QID|9935|N|From the Garadar Bulletin Board.|M|55.76,38.00|
-A Wanted: Zorbo the Advisor |QID|9939|N|From the Garadar Bulletin Board.|M|55.76,38.00|
+A WANTED: Giselda the Crone |QID|9935|N|From the Garadar Bulletin Board.|M|55.76,38.00|
+A WANTED: Zorbo the Advisor |QID|9939|N|From the Garadar Bulletin Board.|M|55.76,38.00|
 A The Throne of the Elements |QID|9870|N|From Elementalist Yal'hah, this NPC wanders around town.|M|55.0,39.0|T|Elementalist|
 A Vile Idolatry |QID|9863|N|From Farseer Kurkush.|M|54.78,39.41|
 A The Missing War Party |QID|9864|N|From Farseer Corhuk.|M|54.80,39.87|
@@ -279,7 +284,7 @@ A Armaments for Deception |QID|9928|M|74.0,62.5|N|From Lantresor of the Blade.|
 A Ruthless Cunning |QID|9927|M|74.0,62.5|N|From Lantresor of the Blade.|
 C Ruthless Cunning |QID|9927|N|Kill orcs you and plant the banners in their corpses.|U|25552|M|71.5,79.5|S|
 C Armaments for Deception |QID|9928|N|Gather armaments from the ground.|M|71.5,79.5|S|
-C Wanted: Giselda the Crone |QID|9935|N|Head to Kil'sorrow Fortress, to the southwest. Giselda is in the biggest building in the southern area of the fortress. Go in and kill Giselda while killing other orcs.|M|71.2,82.4|
+C WANTED: Giselda the Crone |QID|9935|N|Head to Kil'sorrow Fortress, to the southwest. Giselda is in the biggest building in the southern area of the fortress. Go in and kill Giselda while killing other orcs.|M|71.2,82.4|
 C Ruthless Cunning |QID|9927|N|Kill orcs you and plant the banners in their corpses.|U|25552|M|71.5,79.5|US|
 C Armaments for Deception |QID|9928|N|Gather armaments from the ground.|M|71.5,79.5|US|
 T Vision of the Dead |QID|10252|N|To Nitrin the Learned.|M|51.74,56.9|
@@ -309,7 +314,7 @@ T Windroc Mastery  |QID|9856|N|To Shado 'Fitz' Farstrider.|M|71.57,40.53|
 T Talbuk Mastery  |QID|9859|N|To Harold Lane.|M|71.4,40.63|
 T Clefthoof Mastery  |QID|9851|N|To Hemet Nesingwary.|M|71.52,40.79|
 A The Ultimate Bloodsport |QID|9852|PRE|9856&9859&9851|N|From Hemet Nesingwary.|M|71.52,40.79|
-T Wanted: Giselda the Crone |QID|9935|M|56.0,38.0|N|To Warden Bullrok.|
+T WANTED: Giselda the Crone |QID|9935|M|56.0,38.0|N|To Warden Bullrok.|
 T Murkblood Invaders |QID|9872|N|To Garrosh.|
 
 A He Called Himself Altruis... |QID|9983|M|55.2,36.2|N|From Matron Celestine.|
@@ -320,7 +325,7 @@ C Returning the Favor |QID|9931|U|25555|S|N|Kill the ogres and use the Kil'sorro
 C Body of Evidence |QID|9932|U|25658|N|Use the blanket at the Warmaut Pyre. Defend the ogres, use the banners on the hostile ogres' corpses.|M|46.5,24.5|
 C Zorbo the Advisor |QID|9939|QO|1|U|25555|N|He's in the northernmost cave, up in the hills.|M|46.5,18.2|T|Zorbo|
 C Returning the Favor |QID|9931|U|25555|US|N|Kill the ogres and use the Kil'sorrow Banner on their corpses.|M|46.5,24.5|
-C Wanted: Zorbo the Advisor |QID|9939|N|Kill any ogres you still need.|
+C WANTED: Zorbo the Advisor |QID|9939|N|Kill any ogres you still need.|
 
 l Warmaul Skull|QID|9853|M|27.00,23.00|N|Kill Warmaul Ogres until you get 7 skulls.|L|24502 7|S|
 C Finding the Survivors |QID|9948|N|Kill the Warmaul and use the keys they drop to open the cages. |M|27.00,23.00|S|
@@ -347,20 +352,20 @@ T The Master Planner|QID|10001|M|27.33,43.07|N|To Altruis the Sufferer.|
 A Patience and Understanding|QID|10004|PRE|10001|M|27.33,43.07|N|From Altruis the Sufferer.|RANK|3|
 ;N Altruis offers too much|QID|9932|N|The rest of the quests Altruis offers will be sone at the end of the guide for completion as they take you out of the zone.|
 
-T Wanted: Zorbo the Advisor |QID|9939|M|56.0,38.0|N|To Warden Bullrok.|
-A Wanted: Durn the Hungerer |QID|9937|N|From Warden Bullrok.|
+T WANTED: Zorbo the Advisor |QID|9939|M|56.0,38.0|N|To Warden Bullrok.|
+A WANTED: Durn the Hungerer |QID|9937|N|From Warden Bullrok.|
 T Gurok the Usurper |QID|9853|M|62.0,24.5|N|To Gordawg.|
 
 T Body of Evidence |QID|9932|M|73.8,62.6|N|To Lantresor of the Blade.|
 T Returning the Favor |QID|9931|M|73.8,62.6|N|To Lantresor of the Blade.|
 A Message to Garadar |QID|9934|M|73.8,62.6|N|From Lantresor of the Blade.|
-C Wanted: Durn the Hungerer |QID|9937|M|29.96,63.14|N|He patrols clockwise around Oshu'gun. He's very, very large. He spawns at the waypoint.|T|Durn|
+C WANTED: Durn the Hungerer |QID|9937|M|29.96,63.14|N|He patrols clockwise around Oshu'gun. He's very, very large. He spawns at the waypoint.|T|Durn|
 C The Ultimate Bloodsport |QID|9852|N|She's on top of a hill.|M|43,65|
 T The Ultimate Bloodsport |QID|9852|M|71.5,40.8|N|Go back too Hemet Nesingwary immediatly (don't forget your loot!), killing Tusker appears to cause Kirsten Dipswitch to spawn at his location.|
 ;N Kristen Dipswitch|QID|9897|M|71.42,40.6|N|Kill mobs in this area until Kristen Dipswitch shows up at the Nesingwary Safari (it may take a long time).  Kill the undead that spawns. |
 A I'm Saved! |QID|9897|N|From Kristen Dipswitch. Skip if it takes too long for her to show up.|M|71.42,40.6|
 T I'm Saved! |QID|9897|N|To Harold Lane.|M|71.42,40.6|O|
-T Wanted: Durn the Hungerer |QID|9937|M|55.8,37.9|N|To Warden Bullrok.|
+T WANTED: Durn the Hungerer |QID|9937|M|55.8,37.9|N|To Warden Bullrok.|
 T Message to Garadar |QID|9934|M|55.5,37.5|N|To Garrosh.|
 
 A The Ring of Blood: Brokentoe|QID|9962|M|42.78,20.73|N|From Gurgthock.  This questline can be soloed by the well geared at level 68, depending on class.  Groups of 2 or 3 are quite fine.|RANK|3|

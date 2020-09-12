@@ -4,9 +4,14 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_dun_morogh
+-- Date: 2019-08-05 08:53
+-- Who: Hendo72
+-- Log: - First aid is no longer a profession
+
+-- URL: http://wow-pro.com/node/3200/revisions/30170/view
 -- Date: 2018-12-27 01:50
 -- Who: Ludovicus_Maior
--- Log:  Frostmane Hovel
+-- Log: Coldridge Valley/9 => Frostmane Hovel
 
 -- URL: http://wow-pro.com/node/3200/revisions/30046/view
 -- Date: 2018-10-17 22:38
@@ -70,13 +75,13 @@
 -- URL: http://wow-pro.com/node/3200/revisions/27705/view
 -- Date: 2016-09-06 23:11
 -- Who: Fluclo
--- Log: As you are level 5 at the end of the guide, changed GuideLevels to finish at 5; What's Left Behind is not essential for zone progression so added Rank 2 to it; Changed coords for Dealing with the Fallout as the mobs there keep respawning when you kill them; Warlock can handle Finishin' the Job without the need to despawn the pet, so class steps removed. 
+-- Log: As you are level 5 at the end of the guide, changed GuideLevels to finish at 5; What's Left Behind is not essential for zone progression so added Rank 2 to it; Changed coords for Dealing with the Fallout as the mobs there keep respawning when you kill them; Warlock can handle Finishin' the Job without the need to despawn the pet, so class steps removed.
 
 -- URL: http://wow-pro.com/node/3200/revisions/27704/view
 -- Date: 2016-09-06 22:40
 -- Who: Fluclo
 -- Log: Added NC to See to the Survivors, Scrounging for Parts and A Job for the Multi-Bot. Changed New Tinkertown step from R to C since you must speak to Torben Zapblast for the quest. Added the pre-req quests for The Fight Continues, What's Left Behind, Dealing with the Fallout, Crushcog's Minions, No Tanks! and Staging in Brewnall. Added a C step for The Fight Continues. Added missing M coords for A Job for the Multi-Bot. Removed Level tags as you can continue without meeting these level requirements, whilst adding Level tag to the last quest (to handle skipping whilst still level 1) Clarified steps needed for Get Me Explosives Back! Tweaked notes on a few steps to clarify what's needed. Swapped order of sticky quests so non-combat ones are given priority. Changed Sell and Repair so that it only shows at right time, and auto-completes when next quest handed in.
---	
+--
 
 -- URL: http://wow-pro.com/node/3200/revisions/27693/view
 -- Date: 2016-09-06 01:46
@@ -96,7 +101,7 @@
 -- URL: http://wow-pro.com/node/3200/revisions/27507/view
 -- Date: 2016-07-31 16:09
 -- Who: tubera
--- Log:  Meet the High Tinker for hunter. Remove class ability training quests.
+-- Log: Add The Future of Gnomeregan & Meet the High Tinker for hunter. Remove class ability training quests.
 
 -- URL: http://wow-pro.com/node/3200/revisions/27503/view
 -- Date: 2016-07-31 00:10
@@ -243,11 +248,6 @@
 -- Date: 2013-05-14 18:52
 -- Who: Ludovicus_Maior
 -- Log: [A Triumph of Gnomish Ingenuity] not [Triumph of Gnomish Ingenuity]
-
--- URL: http://wow-pro.com/node/3200/revisions/25591/view
--- Date: 2013-03-23 20:23
--- Who: Ludovicus_Maior
--- Log: Name tweaks
 
 local guide = WoWPro:RegisterGuide("GylGno0105", "Leveling", "New Tinkertown (Gnome)", "Gylin - Gnome", "Alliance")
 WoWPro:GuideLevels(guide,1,4,1.81013)

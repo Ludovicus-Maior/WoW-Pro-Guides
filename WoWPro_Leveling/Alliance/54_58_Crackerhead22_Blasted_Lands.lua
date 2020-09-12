@@ -67,19 +67,19 @@
 -- Date: 2014-04-28 19:31
 -- Who: Hendo72
 -- Log: - Corrected unsticky for 'Eliminate the Okril'lon'
---	
+--
 --	- Removed extra coordinates from 'The First Step' (Not needed)
---	
+--
 --	- Added coordinates and a name for the repair steps.
---	
+--
 --	- Added a note about using the bloodstone to come and go from the cave.
---	
+--
 --	- Added 'The Future of the Rockpool' and shuffled part of the 'Neptool's Revenge' kill quest around to work with it. (This may need some tweaking as this was done after the fact and unable to test for 100% accuracy)
---	
+--
 --	- Commented out the step to set HS to Surwich. You do not use it once in this guide and one of the first steps in the next guide is to Hearth to Nethergarde, which is where it's currently set to.
---	
+--
 --	- You can collect the charred granite chips by clicking on them. Removed 'U' tag, as it is no longer required.
---	
+--
 --	- Reworded a few notes and changed a couple CN tags to CS.
 
 -- URL: http://wow-pro.com/node/3267/revisions/25433/view

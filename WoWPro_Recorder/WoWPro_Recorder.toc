@@ -1,9 +1,11 @@
-## Interface: 80100
+## Interface: 80300
+#classic ## Interface: 11305
 ## Title: |cffFF9900WoW-|r|cff46921APro|r Recorder
 ## Notes: Record and edit guides for use with the WoW-Pro Addon
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 8.1.5B
+## Version: 8.3.0-B4
+#classic ## Version: 1.13.4-B2
 ## SavedVariables: WoWPro_RecorderDB
 ## DefaultState: disabled
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.

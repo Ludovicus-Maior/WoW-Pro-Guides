@@ -1,8 +1,11 @@
+-- luacheck: globals tostring
+-- luacheck: globals tinsert sort pairs unpack
+
 ---------------------------------------------
 --      WoWPro_Achievements_GuideList.lua      --
 ---------------------------------------------
-WoWPro.Achievements.GuideList = {}
-WoWPro.Achievements.GuideList.Guides = {}
+local Achievements = WoWPro.Achievements
+Achievements.GuideList = {}
 
 local function AddInfo(guide)
     -- If name and cat are set, then assume all is well.
@@ -16,11 +19,11 @@ local function AddInfo(guide)
         guide.category = ""
         guide.sub = ""
         return
-    end        
+    end
     WoWPro.Achievements:dbp("Guide %s: ach %s",guide.GID,tostring(guide.ach))
     if not WoWProDB.global.Achievements.Achievement[guide.ach] then
         -- Not categorized?  Just make it misc
-        local id, name, points, completed, month, day, year, description, flags, icon, rewardText, isGuildAch, wasEarnedByMe, earnedBy = GetAchievementInfo(guide.ach)
+        local _, name, _, _, _, _, _, _, _, icon = _G.GetAchievementInfo(guide.ach)
         guide.name = name
         guide.category = name
         guide.sub = ""
@@ -41,104 +44,77 @@ local function AddInfo(guide)
     end
     WoWPro.Achievements:dbp("%s: [%s] [%s/%s]",guide.GID, guide.name, guide.category, guide.sub)
 end
-    
-    
--- Creating a Table of Guides for the Guide List and sorting based on level --
-local function Init()
-    guides = {}
+
+local function GetGuides()
+    local guides = {}
     if not WoWProDB.global.Achievements.Category then
         WoWPro.AchievementsScrape()
     end
-    
-    for guidID,guide in pairs(WoWPro.Guides) do
-    	if guide.guidetype == "Achievements" then
-    	    local function progress ()
-    	        if WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].progress and WoWProCharDB.Guide[guidID].total then
-    	            return WoWProCharDB.Guide[guidID].progress.."/"..WoWProCharDB.Guide[guidID].total
-    	        end
-    	        return ""
-    	    end
-    	    AddInfo(guide)
-    		table.insert(guides, {
-    			GID = guidID,
-    			guide = guide,
-    			Name = guide.name,
-    			Author = guide.author,
-    			Category = guide.category,
-    			Sub = guide.sub,
-    			Progress = progress, 
-    		})
-    	end
+
+    for guideID, guide in pairs(WoWPro.Guides) do
+        if guide.guidetype == "Achievements" then
+            AddInfo(guide)
+            tinsert(guides, {
+                GID = guideID,
+                guide = guide,
+                Name = guide.name,
+                Author = guide.author,
+                Category = guide.category,
+                Sub = guide.sub,
+            })
+
+            guides[#guides].progress, guides[#guides].Progress = WoWPro:GetGuideProgress(guideID)
+        end
     end
-    table.sort(guides, function(a,b) return a.Name < b.Name end)
-    WoWPro.Achievements.GuideList.Guides = guides
+
+    return guides
 end
+
 
 -- Sorting Functions --
-local sorttype = "Default"
-local function authorSort()
-	if sorttype == "AuthorAsc" then
-		table.sort(guides, function(a,b) return a.Author > b.Author end)
-		WoWPro.Achievements:UpdateGuideList()
-		sorttype = "AuthorDesc"
-	else
-		table.sort(guides, function(a,b) return a.Author < b.Author end)
-		WoWPro.Achievements:UpdateGuideList()
-		sorttype = "AuthorAsc"
-	end
+local function nameSort(a, b)
+    return a.Name < b.Name
 end
-local function nameSort()
-	if sorttype == "NameAsc" then
-		table.sort(guides, function(a,b) return a.Name > b.Name end)
-		WoWPro.Achievements:UpdateGuideList()
-		sorttype = "NameDesc"
-	else
-		table.sort(guides, function(a,b) return a.Name < b.Name end)
-		WoWPro.Achievements:UpdateGuideList()
-		sorttype = "NameAsc"
-	end
+local function categorySort(a, b)
+    return a.Category < b.Category
 end
-local function categorySort()
-	if sorttype == "CategoryAsc" then
-		table.sort(guides, function(a,b) return a.Category > b.Category end)
-		WoWPro.Achievements:UpdateGuideList()
-		sorttype = "CategoryDesc"
-	else
-		table.sort(guides, function(a,b) return a.Category < b.Category end)
-		WoWPro.Achievements:UpdateGuideList()
-		sorttype = "CategoryAsc"
-	end
+local function subSort(a, b)
+    return a.Sub < b.Sub
 end
-local function subSort()
-	if sorttype == "SubAsc" then
-		table.sort(guides, function(a,b) return a.Sub > b.Sub end)
-		WoWPro.Achievements:UpdateGuideList()
-		sorttype = "SubDesc"
-	else
-		table.sort(guides, function(a,b) return a.Sub < b.Sub end)
-		WoWPro.Achievements:UpdateGuideList()
-		sorttype = "SubAsc"
-	end
+local function authorSort(a, b)
+    return a.Author < b.Author
+end
+local function progressSort(a, b)
+    if a.progress == b.progress then return end
+
+    if a.progress and b.progress then
+        return a.progress < b.progress
+    end
+
+    return a.progress and true or false
 end
 
--- Fancy tooltip!
-function WoWPro.Achievements.GuideTooltipInfo(row, tooltip, guide)
-    GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
-    GameTooltip:AddLine(guide.name.."      ")
-    GameTooltip:AddLine("")
-    GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
-    GameTooltip:AddDoubleLine("SubCategory:",guide.sub,1,1,1,unpack(WoWPro.LevelColor(guide)))
-end
-    
 
--- Describe the table to the Core Module
-WoWPro.Achievements.GuideList.Format={{"Name",0.30,nameSort},{"Category",0.15,categorySort},{"Sub",0.25,subSort},{"Author",0.15,authorSort},{"Progress",0.15,nil}}
-WoWPro.Achievements.GuideList.Init = Init
-
-function WoWPro.Achievements:UpdateGuideScores()
-    WoWPro.Achievements:dbp("UpdateGuideScores()")
-    -- Setup the Icons
-    Init()
+function Achievements:SetTooltip(guide)
+    _G.GameTooltip:AddLine("")
+    _G.GameTooltip:AddDoubleLine("Category:",guide.category,1,1,1,unpack(WoWPro.LevelColor(guide)))
+    _G.GameTooltip:AddDoubleLine("SubCategory:",guide.sub,1,1,1,unpack(WoWPro.LevelColor(guide)))
 end
 
-WoWPro.Achievements:dbp("Guide Setup complete")
+local listInfo
+function Achievements:GetGuideListInfo()
+    if not listInfo then
+        listInfo = {
+            guides = GetGuides(),
+            headerInfo = {
+                sorts = {nameSort, categorySort, subSort, authorSort, progressSort},
+                names = {"Name", "Category", "Sub", "Author", "Progress"},
+                size = {0.30, 0.15, 0.25, 0.15, 0.15},
+            },
+        }
+    end
+    return listInfo
+end
+Achievements.sortIndex = 1
+
+Achievements:dbp("Guide Setup complete")

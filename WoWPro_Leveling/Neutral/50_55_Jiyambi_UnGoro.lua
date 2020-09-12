@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_un039goro_crater_neutral
+-- Date: 2020-07-17 21:45
+-- Who: Ludovicus_Maior
+-- Log: Removed PRE from [The Apes of Un'Goro:24717]
+
+-- URL: http://wow-pro.com/node/3262/revisions/30018/view
 -- Date: 2018-10-17 02:30
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -194,7 +199,7 @@ l Yellow Crystals|NC|US|QID|24720|M|44.79,17.53;37.04,29.06|CN|N|Loot 7 yellow c
 T Shizzle's Flyer|QID|24736|M|43.37,41.31|N|To Shizzle, back at Mossy Pile.|
 T Marshal's Refuse|QID|24701|M|43.23,41.68|N|To Doreen.|
 
-A The Apes of Un'Goro|QID|24717|PRE|24701|M|43.23,41.68|N|From Gremix.|
+A The Apes of Un'Goro|QID|24717|M|43.23,41.68|N|From Gremix.|
 T Super Sticky|QID|24737|M|43.23,41.68|N|To Tara.|
 A Gormashh the Glutinous|QID|24699|PRE|24737|M|43.23,41.68|N|From Tara.|
 T Hard to Harvest|QID|24700|M|43.23,41.68|N|To Tara.|

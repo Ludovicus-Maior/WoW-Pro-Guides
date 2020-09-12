@@ -66,7 +66,7 @@
 -- URL: http://wow-pro.com/node/3215/revisions/27516/view
 -- Date: 2016-08-02 17:21
 -- Who: tubera
--- Log: Fix QO tags. Added some notes, mainly to clear up where the Quest givers are hiding. 
+-- Log: Fix QO tags. Added some notes, mainly to clear up where the Quest givers are hiding.
 
 -- URL: http://wow-pro.com/node/3215/revisions/26809/view
 -- Date: 2014-11-06 13:08

@@ -53,7 +53,7 @@ R Borean Tundra 3|Z|Borean Tundra|M|80.80,48.20|CC|T|Unborn|
 R Dragonblight 1|Z|Dragonblight|M|26.80,54.00|CC|T|Unborn|
 R Dragonblight 2|Z|Dragonblight|M|65.40,35.60|CC|T|Unborn|
 R Dragonblight 3|Z|Dragonblight|M|82.20,65.80|CC|T|Unborn|
-R Grizzly Hills 1|N|We'll do a detour to Howling Fjord before doing Grizzly Hills 2&3 on our way back north|Z|Grizzly Hills|M|25.80,56.80|CC|T|Unborn|
+R Grizzly Hills 1|N|We'll do a detour to Howling Fjord before doing Grizzly Hills 2 & 3 on our way back north|Z|Grizzly Hills|M|25.80,56.80|CC|T|Unborn|
 R Howling Fjord 1|Z|Howling Fjord|M|45.80,43.00|CC|T|Unborn|
 R Howling Fjord 2|Z|Howling Fjord|M|68.20,67.60|CC|T|Unborn|
 R Howling Fjord 3|Z|Howling Fjord|M|71.80,43.00|CC|T|Unborn|

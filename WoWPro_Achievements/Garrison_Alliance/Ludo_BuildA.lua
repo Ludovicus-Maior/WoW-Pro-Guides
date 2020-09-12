@@ -36,7 +36,7 @@
 -- URL: http://wow-pro.com/node/3631/revisions/27434/view
 -- Date: 2016-03-22 20:39
 -- Who: Ludovicus_Maior
--- Log: Add Salvage Yard 
+-- Log: Add Salvage Yard
 
 -- URL: http://wow-pro.com/node/3631/revisions/27342/view
 -- Date: 2015-07-20 00:43

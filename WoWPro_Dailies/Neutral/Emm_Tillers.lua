@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/tillers_reputation
+-- Date: 2019-07-02 18:43
+-- Who: Hendo72
+-- Log: Added to Fish Fellreed note stating that she has 2 locations.
+
+-- URL: http://wow-pro.com/node/3508/revisions/29903/view
 -- Date: 2018-10-17 02:21
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -151,7 +156,7 @@
 -- Date: 2012-12-08 10:31
 -- Who: Emmaleah
 -- Log: corrected QID - Haohans Vote-mellons for felons
---	Divided Old Man thistle's treasure into two steps, 
+--	Divided Old Man thistle's treasure into two steps,
 --	Added Note about cooking and other minor changes to notes
 
 -- URL: http://wow-pro.com/node/3508/revisions/25241/view
@@ -162,8 +167,8 @@
 -- URL: http://wow-pro.com/node/3508/revisions/25239/view
 -- Date: 2012-12-06 11:45
 -- Who: Emmaleah
--- Log: RC2 - many changes from my Emma. Ludo. and Tepes playing thru RC1 12/1 to 12/5 
---	Moved food prep to the order in the cookbook. 
+-- Log: RC2 - many changes from my Emma. Ludo. and Tepes playing thru RC1 12/1 to 12/5
+--	Moved food prep to the order in the cookbook.
 --	Clarified some comments on the 15 min "timer-buff" for growing the farm.
 --	Clarified picking up quests in the market
 --	fixed many typos, etc.
@@ -551,10 +556,10 @@ U Grand Commendation|PRE|30516|REP|The Tillers;1272;revered;nobonus|U|93226|N|Cl
 
 ;REMOVE THE CART - 0 Revered
 A Growing the Farm II: The Broken Wagon|QID|30523|REP|The Tillers;1272;revered|M|52.20,48.86|N|From Farmer Yoon.|
-T Growing the Farm II: The Broken Wagon|QID|30523|M|41.6,30|N|To Fish Fellreed.|
-A Growing the Farm II: Knock on Wood|QID|30524|PRE|30523|M|41.6,30|N|From Fish Fellreed.|
+T Growing the Farm II: The Broken Wagon|QID|30523|M|41.6,30|N|To Fish Fellreed. If she is not here, she is at the market in Halfhill.|
+A Growing the Farm II: Knock on Wood|QID|30524|PRE|30523|M|41.6,30|N|From Fish Fellreed. If she is not here, she is at the market in Halfhill.|
 C Growing the Farm II: Knock on Wood|QID|30524|M|43,29|N|The planks of wood are in the water surrounded by agro crabs. Be careful.|
-T Growing the Farm II: Knock on Wood|QID|30524|M|41.6,30|N|To Fish Fellreed.|
+T Growing the Farm II: Knock on Wood|QID|30524|M|41.6,30|N|To Fish Fellreed. If she is not here, she is at the market in Halfhill.|
 N Growing the Farm II|AVAILABLE|30533|M|51.71,47.82|N|Check in with Fish at the farm to start a 15 minute timer (buff) for her to finish fixing the wagon, and then you can farm your new plots. After you check in, (i.e. enter phased area of Sunsong Ranch) you can leave the ranch, but new plots are not usuable till the buff counts down.|BUFF|114483|
 
 ;REMOVE THE ROCK - 0 Exalted

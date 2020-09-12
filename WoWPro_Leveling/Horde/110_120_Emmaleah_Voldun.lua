@@ -4,6 +4,33 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/vol039dun_horde
+-- Date: 2020-07-28 03:30
+-- Who: Blanckaert
+-- Log: fix transposed coord for 51093^51094 coord set 3  changed 46.66 to 64.66
+
+-- URL: http://wow-pro.com/node/3772/revisions/30575/view
+-- Date: 2020-07-14 23:04
+-- Who: Ludovicus_Maior
+-- Log: Correct location for Sandscout Vesarik quest.
+--	Terrace of the Devoted => Sanctuary of the Devoted
+
+-- URL: http://wow-pro.com/node/3772/revisions/30509/view
+-- Date: 2020-04-08 19:01
+-- Who: Ludovicus_Maior
+-- Log: Wrong QID on [Nature's Remedy].
+--	[Crabby Crew Stew], [The Captain's Cache], [WANTED: Za'roco]
+
+-- URL: http://wow-pro.com/node/3772/revisions/30484/view
+-- Date: 2020-04-05 20:55
+-- Who: Ludovicus_Maior
+-- Log: Cagome: Alpaca Hides wrong.  Hoping it was Y digit transposition.
+
+-- URL: http://wow-pro.com/node/3772/revisions/30453/view
+-- Date: 2019-12-13 01:27
+-- Who: Ludovicus_Maior
+-- Log: Cagomei: Missing zone tag
+
+-- URL: http://wow-pro.com/node/3772/revisions/30240/view
 -- Date: 2019-03-18 21:09
 -- Who: Emmaleah
 -- Log: Add |V| tags, reword rares and treasures intro steps
@@ -46,7 +73,7 @@
 -- URL: http://wow-pro.com/node/3772/revisions/29743/view
 -- Date: 2018-09-13 06:40
 -- Who: Emmaleah
--- Log:  $
+-- Log: Update for new functionality with RARE & $
 
 -- URL: http://wow-pro.com/node/3772/revisions/29681/view
 -- Date: 2018-09-05 11:08
@@ -136,7 +163,7 @@ C Discreet Discussions|QID|47313|M|52.20,37.54|Z|Dazar'alor|QO|1<2|NC|N|Continue
 C Discreet Discussions|QID|47313|M|54.26,35.85|Z|Dazar'alor|QO|1<3|NC|N|And down some more to find Enforcer Dakanji.|
 
 ;to open up Jani's mysterious trashpiles
-R The Zocalo|AVAILABLE|47441|M|42.58,27.97|N|A bit out of the way, but if you are into Achievements or pets, you want to get this quest done to open up "Get Hek'd".|RANK|3|
+R The Zocalo|AVAILABLE|47441|M|42.58,27.97|Z|Dazar'alor|N|A bit out of the way, but if you are into Achievements or pets, you want to get this quest done to open up "Get Hek'd".|RANK|3|
 A Pests|QID|47441|M|40.24,19.06|Z|Dazar'alor|N|From Nokano.|RANK|3|
 C Pests|QID|47441|M|40.58,18.88|Z|Dazar'alor|QO|1|N|Kill the little pests.|
 C Pests|QID|47441|M|35.36,7.63|Z|Dazar'alor|QO|2|NC|N|Follow the Big One.|
@@ -321,7 +348,7 @@ T Knowledge of the Past|QID|48896|M|47.69,82.13|N|To Warguard Rakera.|
 A Searching the Ruins|QID|47716|M|47.69,82.13|N|From Warguard Rakera.|PRE|48896|
 T Searching the Ruins|QID|47716|M|47.07,75.66|N|To Julwaba.|
 A Creeping Death|QID|48314|M|47.05,75.60|N|From Kiro.|PRE|47716|
-A Nature's Remedy|QID|48314|M|47.05,75.60|N|From Kiro.|PRE|47716|
+A Nature's Remedy|QID|48313|M|47.05,75.60|N|From Kiro.|PRE|47716|
 C Creeping Death|QID|48314|M|48.65,71.73|S|N|Kill Scorpashis and collect their Stingers as you go.|
 C Nature's Remedy|QID|48313|M|47.29,71.39|S|NC|N|Pluck the Prickly Plum Cactus from the ground as you go.|
 K Relic Hunter Hazaak|QID|50554^51126|M|49.03,72.15|QO|1|RARE|ITEM|160956|T|Relic Hunter Hazaak|N|Silver Elite to kill and loot for some artifact power and resources.|RANK|2|
@@ -417,7 +444,7 @@ A Stolen Goods|QID|48790|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48846|
 A Bandit Blades|QID|51602|M|43.39,75.36|N|From Razgari.|RANK|2|PRE|48846|
 C Bandit Blades|QID|51602|M|40.44,76.37|S|NC|N|Pick up the blades from the ground, they also can drop from the mobs in the area.|
 K Tongo|ACTIVE|48850|M|40.65,76.02|QO|1|T|Tongo|N|Kill Tongo and loot his head.|RANK|2|
-C Stolen Goods|QID|48790|M|40.74,47.76|QO|1<3|NC|N|You can find Alpaca Hides, Alpaca Butter, and Sezahjin's Meat Pies in this house.|
+C Stolen Goods|QID|48790|M|40.74,74.76|QO|1<3|NC|N|You can find Alpaca Hides, Alpaca Butter, and Sezahjin's Meat Pies in this house.|
 C Stolen Goods|QID|48790|M|40.42,75.29|QO|1<5|NC|N|Hyena Jerky and Medicinal Herbs can be found thru this underground entrance.|
 C Stolen Goods|QID|48790|M|40.02,75.67|QO|1<6|NC|N|Pick up the Fresh Water here (last of the stolen supplies).|
 C Bandit Blades|QID|51602|M|40.79,76.04|S|N|Finish collecting the blades.|
@@ -470,16 +497,16 @@ T Dead Men Tell No Tales|QID|47870|M|44.66,86.98|N|To Randall Redmond.|
 T Seafaring Necessities|QID|47871|M|44.66,86.98|N|To Randall Redmond.|
 A Captain Hartford|QID|51810|M|44.66,86.98|N|From First Mate Redmond.|RANK|2|
 A Gang Bustin'|QID|49262|M|44.79,87.57;44.61,88.24|CS|U|160735|N|From Dockmaster Herrington. Must be in Ashvane disguise.|RANK|2|PRE|47871&47870|
-A Crabby Crab Stew|QID|49261|M|44.61,88.24|N|From Dockmaster Herrington.|RANK|2|PRE|47871&47870|
-C Crabby Crab Stew|QID|49261|M|44.61,88.24|S|N|Kill Crabs and loot their meet as you travel towards the Siren's Call (ship at docks).|
+A Crabby Crew Stew|QID|49261|M|44.61,88.24|N|From Dockmaster Herrington.|RANK|2|PRE|47871&47870|
+C Crabby Crew Stew|QID|49261|M|44.61,88.24|S|N|Kill Crabs and loot their meet as you travel towards the Siren's Call (ship at docks).|
 C Gang Bustin'|QID|49262|M|44.61,88.24|S|U|160735|NC|N|Question the Shady Dockhands as you travel towards and while on the ship. Sometimes they become hostile. Must be in Ashvane disguise.|
 K Captain Hartford|ACTIVE|51810|QO|1|M|43.13,90.85|T|Captain Hartford|N|Captain Hartford can be found on The Siren's Call.|RANK|2|
 T Captain Hartford|QID|51810|M|43.20,90.90|N|To Captain Redmond who can be found one deck above you.|
-A The Captain's Lockbox|QID|47873|M|43.20,90.90|N|From Captain Redmond.|RANK|2|PRE|47939&47871&49227&47870|
-T The Captain's Lockbox|QID|47873|M|43.20,90.77|N|To Captain Hartford's Lockbox.|
+A The Captain's Cache|QID|47873|M|43.20,90.90|N|From Captain Redmond.|RANK|2|PRE|47939&47871&49227&47870|
+T The Captain's Cache|QID|47873|M|43.20,90.77|N|To Captain Hartford's Cache.|
 C Gang Bustin'|QID|49262|M|44.61,88.24|U|160735|US|NC|N|Finish questioning the Shady Dockhands as you return to Dockmaster Herrington. Must be in Ashvane disguise.|
-C Crabby Crab Stew|QID|49261|M|44.61,88.24|US|N|Finish Collecting the crab meat as you travel back towards Dockmaster Herrington.|
-T Crabby Crab Stew|QID|49261|M|44.61,88.24|U|160735|N|To Dockmaster Herrington. Must be in Ashvane disguise.|
+C Crabby Crew Stew|QID|49261|M|44.61,88.24|US|N|Finish Collecting the crab meat as you travel back towards Dockmaster Herrington.|
+T Crabby Crew Stew|QID|49261|M|44.61,88.24|U|160735|N|To Dockmaster Herrington. Must be in Ashvane disguise.|
 T Gang Bustin'|QID|49262|M|44.61,88.24|N|To Dockmaster Herrington.|
 $ Nez'ara|QID|50898|M|44.12,87.55;43.79,86.27|CS|QO|1|RARE|ITEM|161024|N|Cut the ropes to release the Ashvane's prisoner. She's rather ungreatful. Kill and loot for artifact power and resources.|RANK|2|
 
@@ -541,7 +568,7 @@ $ Deadwood Chest|QID|52994|M|38.84,82.90;40.57,85.74|CS|N|Follow this path to fi
 T WANTED: Taz'raka the Traitor|QID|51162|M|38.88,77.32|N|To Norah.|
 T Escaping Zem'lan|QID|51062|M|38.88,77.29|N|To Norah.|
 A A Strange Delivery|QID|48327|M|38.88,77.29|N|From Norah.|RANK|2|PRE|51062|
-T Za'roco|QID|51161|M|43.41,75.36|N|To Razgari.|
+T WANTED: Za'roco|QID|51161|M|43.41,75.36|N|To Razgari.|
 R Zul'Ahjin|ACTIVE|47324|M|46.73,71.85|N|Run back to Zul'Ahjin to take a ride to your next area.|RANK|2|
 
 ;The Three Keepers
@@ -550,7 +577,7 @@ T Unlikely Allies|QID|47324|M|27.22,53.94|N|To Serrik.|
 A A Powerful Prisoner|QID|49334|M|27.22,53.94|N|From Serrik.|PRE|47324|
 A Break Their Ranks|QID|50641|M|27.20,53.85|N|From Zissiah.|PRE|47324|
 A Push Them Back!|QID|49327|M|27.20,53.85|N|From Zissiah.|PRE|47324|
-A WANTED: Sandscout Vesarik|QID|51165|M|27.36,53.29|N|From Wanted Poster.|RANK|2|
+A WANTED: Sandscout Vesarik|QID|51165|M|26.98,52.71|N|From Wanted Poster.|RANK|2|
 C Break Their Ranks|QID|50641|M|29.78,52.02|S|N|Kill the Faithless as you go.|
 A A Lost Flute|QID|50818|M|27.40,53.95;28.97,54.65|CS|N|From a Desert Flute lying on the ground.|RANK|2|
 C Push Them Back!|QID|49327|M|28.87,51.41|QO|3|S|NC|N|Click the spires to shatter them.|
@@ -561,7 +588,7 @@ C A Powerful Prisoner|QID|49334|M|30.00,51.98|NC|N|Let Vorrik out of the cage.|
 C Push Them Back!|QID|49327|M|29.41,51.17|QO|1|US|NC|N|Finish burning Banners.|
 C Push Them Back!|QID|49327|M|28.87,51.41|QO|3|US|NC|N|Finish shattering spires.|
 C Break Their Ranks|QID|50641|M|29.78,52.02|US|N|Finish killing the Faithless.|
-f Terrace of the Devoted|ACTIVE|50641|M|27.65,50.33|N|At Vethiss.|
+f Sanctuary of the Devoted|ACTIVE|50641|M|27.65,50.33|N|At Vethiss.|
 T Break Their Ranks|QID|50641|M|27.20,53.85|N|To Zissiah.|
 T Push Them Back!|QID|49327|M|27.20,53.85|N|To Zissiah.|
 T A Powerful Prisoner|QID|49334|M|27.61,52.57|N|To Vorrik.|
@@ -898,7 +925,7 @@ $ Lost Offerings of Kimbul|QID|52992|M|58.05,10.87;56.75,10.06;57.04,11.19|CS|N|
 
 R Tortaka Refuge|ACTIVE|50703|M|57.25,13.83;57.64,16.74;59.91,20.26;61.10,21.02|CS|N|Remember that treasure at Atul'Aman. Time to go get it now.|RANK|3|
 F Goldtusk Inn|ACTIVE|50703|M|61.92,21.67|TZ|Whistlebloom Oasis|N|At Scroll of Flight.|RANK|3|
-$ Grayal's Last Offering|QID|51093^51094|M|43.58,62.11;48.25,61.81;49.16,46.66;48.20,64.69|CS|N|Up to the entrance of Atul'Aman, thru the doorway behind Grozztok is Grayal's Last Offering. Commune with the alter to cause the treasure to appear. Loot for artifact power and resources.|RANK|3|
+$ Grayal's Last Offering|QID|51093^51094|M|43.58,62.11;48.25,61.81;49.16,64.66;48.20,64.69|CS|N|Up to the entrance of Atul'Aman, thru the doorway behind Grozztok is Grayal's Last Offering. Commune with the alter to cause the treasure to appear. Loot for artifact power and resources.|RANK|3|
 H The Great Seal|ACTIVE|50703|N|Return to the Great Seal.|RANK|3|
 A Pick next zone|AVAILABLE|47512^47513^47514|M|41.94,69.67|Z|Hall of Croniclers!Dazar'alor|N|At scouting map.|
 

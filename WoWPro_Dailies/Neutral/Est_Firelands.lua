@@ -51,7 +51,7 @@
 -- URL: http://wow-pro.com/node/3469/revisions/25668/view
 -- Date: 2013-05-17 19:16
 -- Who: Ludovicus_Maior
--- Log:  [The Bigger They Are]
+-- Log: [The bigger they are] => [The Bigger They Are]
 
 -- URL: http://wow-pro.com/node/3469/revisions/25624/view
 -- Date: 2013-05-14 15:37
@@ -60,7 +60,7 @@
 -- URL: http://wow-pro.com/node/3469/revisions/25623/view
 -- Date: 2013-05-14 15:31
 -- Who: Ludovicus_Maior
--- Log:  MoltenFront
+-- Log: Molten Front => MoltenFront
 
 -- URL: http://wow-pro.com/node/3469/revisions/25363/view
 -- Date: 2013-01-12 18:46
@@ -126,7 +126,7 @@
 -- URL: http://wow-pro.com/node/3469/revisions/24950/view
 -- Date: 2012-02-13 10:50
 -- Who: Estelyen
--- Log: -Updated version (though still work in progress) 
+-- Log: -Updated version (though still work in progress)
 --	-Unrelated quests removed
 
 -- URL: http://wow-pro.com/node/3469/revisions/24948/view

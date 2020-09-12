@@ -6,6 +6,7 @@
   <Script file="50_55_Jiyambi_Winterspring.lua"/>
   <Script file="55_58_Jame_Scarlet_Enclave.lua"/>
   <Script file="55_60_Jiyambi_Silithus.lua"/>
+  <Script file="58_58_Ludovicus_Allied_DKs.lua"/>
   <Script file="69_70_Crackerhead22_Netherstorm.lua"/>
   <Script file="77_78_Scoot_ZulDrak.lua"/>
   <Script file="78_79_Scoot_Sholazar_Basin.lua"/>
@@ -38,4 +39,6 @@
   <Script file="110_110_Blanc_Suramar.lua"/>
   <Script file="110_110_Emmaleah_BrokenShore.lua"/>
   <Script file="110_110_Ludo_Argus.lua"/>
+  <Script file="120_120_OxyEmm_Mechagon.lua" />
+  <Script file="120_120_Elidion_BlackEmpire.lua" />
 </Ui>

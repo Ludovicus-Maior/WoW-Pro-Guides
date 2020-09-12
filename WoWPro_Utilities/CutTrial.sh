@@ -1,6 +1,6 @@
 #!/bin/sh
 
-MODULES="WowPro WoWPro_Leveling"
+MODULES="WoWPro WoWPro_Leveling"
 for dir in ${MODULES} ; do
     if [ ! -d ${dir} ] ; then
       echo "# This program must be run from a directory containing ${dir}"
@@ -14,4 +14,4 @@ crelease=`awk -F: '$1 == "## Version" {print $2}' < WoWPro/WoWPro.toc | tr -d ' 
 echo "# OK, the current version numbers are:"
 fgrep -H Version: */*.toc
 
-zip -r --include '*.lua' '*.toc' '*.tga' '*.xml' '*.html' @ "WoWPro L${crelease}.zip" ${MODULES}
+zip -r --include '*.lua' '*.toc' '*.tga' '*.blp' '*.xml' '*.html' @ "WoWPro L${crelease}.zip" ${MODULES}

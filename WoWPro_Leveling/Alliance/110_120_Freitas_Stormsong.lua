@@ -4,6 +4,21 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/stormsong_valley_alliance
+-- Date: 2020-05-01 20:50
+-- Who: Ludovicus_Maior
+-- Log: Fixed two K steps missing ACTIVE tags.
+
+-- URL: http://wow-pro.com/node/3767/revisions/30486/view
+-- Date: 2020-04-05 22:39
+-- Who: Ludovicus_Maior
+-- Log: Missing quotes
+
+-- URL: http://wow-pro.com/node/3767/revisions/30465/view
+-- Date: 2019-12-29 22:40
+-- Who: Ludovicus_Maior
+-- Log: Playthrough tweaks
+
+-- URL: http://wow-pro.com/node/3767/revisions/29918/view
 -- Date: 2018-10-17 02:22
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -41,7 +56,7 @@
 -- URL: http://wow-pro.com/node/3767/revisions/29774/view
 -- Date: 2018-09-20 18:50
 -- Who: Emmaleah
--- Log: rearranged a few quests, added RANKS, tested at Rank 1, tested thru battle of Brennadam on rank 2, added PREs, added all missing QIDs (but a few were gotten with lvl 120, so may not be correct) added all treasure - except Weathered treasure is commented out and doesn't have a QID as it is REALLY far out of the way and I was hoping to find a better place for it in the quide. 
+-- Log: rearranged a few quests, added RANKS, tested at Rank 1, tested thru battle of Brennadam on rank 2, added PREs, added all missing QIDs (but a few were gotten with lvl 120, so may not be correct) added all treasure - except Weathered treasure is commented out and doesn't have a QID as it is REALLY far out of the way and I was hoping to find a better place for it in the quide.
 
 -- URL: http://wow-pro.com/node/3767/revisions/29677/view
 -- Date: 2018-09-05 04:07
@@ -226,13 +241,13 @@
 --	Changed F step to H.
 --	Added |QO| and |T| tags to first several rare quests (although QO won't work until QIDs are corrected).
 --	Added |QO| tags to Detective Mildenhall quest steps to eliminate manual clicking.
---	
+--
 --	Still working on rest of the guide.
 
 -- URL: http://wow-pro.com/node/3767/revisions/29535/view
 -- Date: 2018-08-16 23:40
 -- Who: Ludovicus_Maior
--- Log: Shifted K [Wagga Snarltusk] till after turnin of [A Question of Quillpower] as per notcyf 
+-- Log: Shifted K [Wagga Snarltusk] till after turnin of [A Question of Quillpower] as per notcyf
 
 -- URL: http://wow-pro.com/node/3767/revisions/29530/view
 -- Date: 2018-08-15 21:58
@@ -244,25 +259,10 @@
 -- Who: Lemmer
 -- Log: Final playthrough on live including substantial edits to final 1/3 of guide.  Added hidden beta quests at end. Many optimizations.
 
--- URL: http://wow-pro.com/node/3767/revisions/29508/view
--- Date: 2018-08-13 22:29
--- Who: Lemmer
--- Log: Playtesting through middle 1/3rd of guide and bug fixes (up to step 405).
-
--- URL: http://wow-pro.com/node/3767/revisions/29502/view
--- Date: 2018-08-13 13:02
--- Who: Ludovicus_Maior
--- Log: Added missing CS tags
-
--- URL: http://wow-pro.com/node/3767/revisions/29499/view
--- Date: 2018-08-13 07:58
--- Who: Lemmer
--- Log: Final playtesting edits up to step 202 (A A Pocketful of Shells|QID|50041|...).  Should be very clean up to that point.
-
 local guide = WoWPro:RegisterGuide('Freitas_Stormsong', 'Leveling', 'Stormsong Valley', 'MateusFreitas', 'Alliance')
 WoWPro:NewGuideLevels(guide,110, 120, 111)
 WoWPro:GuideAutoSwitch(guide)
-WoWPro:GuideNextGuide(guide, EmmAWarCampaign)
+WoWPro:GuideNextGuide(guide, "EmmAWarCampaign")
 WoWPro:GuideIcon(guide,"ICON","Interface\\ICONS\\INV_Stormsongvalley")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -501,7 +501,7 @@ T Detective Mildenhall|QID|50070|M|70.79,69.61|N|To Ancel Mildenhall.|
 T Cleanup Duty|QID|50359|M|70.79,69.61|N|To Ancel Mildenhall.|
 A Don't Go in the Basement|QID|50064|M|70.79,69.61|N|From Ancel Mildenhall.|RANK|2|PRE|50070&50359|
 C Don't Go in the Basement|QID|50064|QO|1|M|70.75,69.15;70.81,69.08|CS|NC|N|Go down in the basement and click on the barrel.|
-K The Brue|QID|50064|M|70.79,69.61|QO|2|T|The Brue|N|Kill the Brue.|
+K The Brue|ACTIVE|50064|M|70.79,69.61|QO|2|T|The Brue|N|Kill the Brue.|
 T Don't Go in the Basement|QID|50064|M|71.04,69.25|N|To Ancel Mildenhall.|
 A Recovering Raimond|QID|50161|M|71.04,69.25|N|From Ancel Mildenhall.|RANK|2|PRE|50064|
 C Recovering Raimond|QID|50161|M|71.63,67.99|QO|1|NC|N|Back outside. Pick up the other boot.|
@@ -512,7 +512,7 @@ T Recovering Raimond|QID|50161|M|74.12,72.72|N|To Raimond Mildenhall in the cave
 A Royal Succession|QID|50168|M|74.12,72.72|N|From Raimond Mildenhall.|RANK|2|PRE|50161|
 A Sticky Situation|QID|50162|M|74.12,72.72|N|From Raimond Mildenhall.|RANK|2|PRE|50161|
 C Sticky Situation|QID|50162|M|73.29,72.30|S|N|Click on the hives and kill bees on your way.|
-K Hive Mother|QID|50168|QO|1|M|74.77,71.43|T|Hive Mother|N|Kill the Queen inside the cave.|
+K Hive Mother|ACTIVE|50168|QO|1|M|74.77,71.43|T|Hive Mother|N|Kill the Queen inside the cave.|
 C Sticky Situation|QID|50162|M|73.16,70.23|US|N|Finish up with the hives and bees.|
 T Royal Succession|QID|50168|M|74.12,72.72|N|To Raimond Mildenhall.|
 T Sticky Situation|QID|50162|M|74.12,72.72|N|To Raimond Mildenhall.|
@@ -631,8 +631,8 @@ R Deal Farmstead|ACTIVE|50622|M|45.37,62.71|N|Off to visit the neighbors in the 
 T Deal's Off|QID|50622|M|44.76,64.53|N|To Mayor Roz in the house.|
 A Look Out!|QID|50354|M|44.76,64.53|N|From Mayor Roz.|PRE|50622|
 A Boaring Company|QID|50353|M|44.73,64.61|N|From Sergeant Calvin.|PRE|50622|
-R Deadwash|M|44.25,59.60|ACTIVE|50354|N|Run over and grab this flightpoint while you are close and it will save time later.|
-f Deadwash|M|42.71,57.37|ACTIVE|50354|N|Pick up the flight point from Malorian Tailwind, then go pack and kill pigs.|
+R Deadwash|M|44.25,59.60|ACTIVE|50354|N|Run over and grab this flightpoint while you are close and it will save time later.|TAXI|-Deadwash|
+f Deadwash|M|42.71,57.37|ACTIVE|50354|N|Pick up the flight point from Malorian Tailwind, then go pack and kill pigs.|TAXI|-Deadwash|
 C Look Out!|QID|50354|M|42.50,67.69|S|U|156516|N|Kill Briarback Lookouts. You can use the dart to put them to sleep.|
 K Briarbacks|ACTIVE|50367|S|L|157849|M|42.50,67.69|N|Kill the various Briarbacks until you get Foul-Smelling Flask.|
 A Anger in a Bottle|QID|50367|M|42.50,67.69|N|Automatically accepts.|O|
@@ -688,7 +688,7 @@ T Undelivered Package|QID|51218|M|30.34,66.81|N|To Marie Davenport.|
 A Be A Dear|QID|51214|M|30.34,66.81|N|From Marie Davenport.|RANK|2|
 C Be A Dear|QID|51214|M|29.79,67.05|QO|3|NC|N|Grab some logs here.|
 A Gunpowder Plot|QID|51492|M|29.81,67.10|N|From Charles Davenport.|RANK|2|
-A Aww, Rats|QID|51205|M|29.81,67.10|N|From Charles Davenport.|RANK|2|
+A Aww, Rats!|QID|51205|M|29.81,67.10|N|From Charles Davenport.|RANK|2|
 A Basement Dwellers|QID|51251|M|29.81,67.10|N|From Charles Davenport.|RANK|2|
 A WANTED: Razorclaw Alpha|QID|51204|M|30.69,68.14|N|From the bulletin board.|RANK|2|
 A WANTED: Thundersnout|QID|49730|M|30.69,68.14|N|From the bulletin board.|RANK|2|
@@ -700,17 +700,17 @@ K Razorclaw Alpha|ACTIVE|51204|QO|1|M|27.30,76.28;28.01,78.07|CS|T|Razorclaw Alp
 C The Black Sheep|QID|51200|M|26.55,75.36|NC|N|Save Millie.|
 C Cry Wolf|QID|51203|M|30.20,72.21|US|N|Finish up.|
 C Basement Dwellers|QID|51251|M|28.64,71.17|S|N|Kill spiders around the area.|
-C Aww, Rats|QID|51205|M|28.37,66.74|U|159882|S|NC|N|Click on the small rats to collect them. You can use the item to stun them.|
+C Aww, Rats!|QID|51205|M|28.37,66.74|U|159882|S|NC|N|Click on the small rats to collect them. You can use the item to stun them.|
 C Gunpowder Plot|QID|51492|M|28.37,66.74|S|N|Kill the big rats for gunpowder.|
 C Be A Dear|QID|51214|M|29.27,69.65|QO|2|NC|N|Grab the flour here.|
 K Broodmother|QID|51298|QO|1|M|29.51,69.57|T|Broodmother|N|In the basement. Silver Elite to kill for loot and achievement.|RARE|ITEM|160470|RANK|2|
 C Basement Dwellers|QID|51251|M|28.64,71.17|US|N|Finish with spiders.|
-C Aww, Rats|QID|51205|M|28.37,66.74|U|159882|US|NC|N|Finish collecting small rats.|
+C Aww, Rats!|QID|51205|M|28.37,66.74|U|159882|US|NC|N|Finish collecting small rats.|
 C Gunpowder Plot|QID|51492|M|28.37,66.74|US|N|Finish killing Volatile Rats.|
 T The Black Sheep|QID|51200|M|31.85,69.52|N|To Shepherd Milbrooke|
 T Cry Wolf|QID|51203|M|31.85,69.52|N|To Shepherd Milbrooke.|
 t WANTED: Razorclaw Alpha|QID|51204|M|31.85,69.52|N|To Shepherd Milbrooke.|
-T Aww, Rats|QID|51205|M|29.81,67.10|N|To Charles Davenport.|
+T Aww, Rats!|QID|51205|M|29.81,67.10|N|To Charles Davenport.|
 T Basement Dwellers|QID|51251|M|29.81,67.10|N|To Charles Davenport.|
 T Be A Dear|QID|51214|M|30.34,66.81|N|To Marie Davenport.|
 T Gunpowder Plot|QID|51492|M|30.34,66.81|N|To Marie Davenport.|
@@ -843,7 +843,7 @@ C Deadliest Cache: Carpe Diem|QID|52130|M|26.26,54.57|QO|5|NC|N|Use your ability
 T Deadliest Cache: Carpe Diem|QID|52130|M|25.99,55.21|N|To Hook.|
 H The Golden Flagon|TZ|Brennadam|ACTIVE|49908|M|34.26,47.18|N|Hearth to Brennadam or run back to the flight point and fly there.|RANK|2|
 
-A Ruin Has Come|QID|50417|M|59.50,68.34|LVL|120|N|If you are level 120, you can pick up this quest from A Crumbled Letter inside the house if you want. It starts the Forgotten Cove storyline. This storyline has daily requirements and is not mentioned again in this guide.|RANK|2|ACTIVE|49908|
+A Ruin Has Come|QID|50417|M|59.50,68.34|LVL|120|N|If you are level 120, you can pick up this quest from A Crumbled Letter inside the house if you want. It starts the Forgotten Cove storyline. This storyline has daily requirements and is not mentioned again in this guide.|RANK|2|
 T Back to Brennadam|QID|49908|M|59.51,69.94|N|To Squire Augustus III|RANK|2|
 T A Question of Quillpower|QID|50640|M|58.63,70.44|N|To Mayor Roz.|RANK|2|
 t WANTED: Thundersnout|QID|49730|M|58.63,70.43|N|To Mayor Roz.|
@@ -875,7 +875,7 @@ C Make Loh Go|QID|53369|M|40.21,37.65|QO|1|NC|N|After you chat, you will control
 C Make Loh Go|QID|53369|M|40.21,37.65|QO|2|NC|N|Simple.  Up and over - dont hit the boxes on the ground.|
 C Make Loh Go|QID|53369|M|40.21,37.65|N|Top right is the finish line goal. |
 T Make Loh Go|QID|53369|M|40.21,37.65|N|Complete to UI turn in.|
-f Seekers' Vista|M|40.02,37.32|ACTIVE|51339|N|Pick up flight point.|RANK|2|
+f Seekers Vista|M|40.02,37.32|ACTIVE|51339|N|Pick up flight point.|RANK|2|
 t The Great Sea Scrolls|QID|53476|M|40.4,36.4|N|To Collector Koja.|
 T Cleaning Bills|QID|51339|M|40.42,36.96|N|To Scrollsage Nola.|
 T Swimming Lessons|QID|51343|M|40.42,36.96|N|To Scrollsage Nola.|
@@ -893,10 +893,10 @@ C Flavorable Offering|QID|51371|M|38.39,28.21|US|N|Finish up with mobs and plant
 T Flavorable Offering|QID|51371|M|37.14,32.55;35.68,31.24|CS|N|Back to the underwater cave. To Loroja.|
 T Response Required|QID|51221|M|35.68,31.24|N| To Loroja.|
 T Explosive Situation|QID|51540|M|35.68,31.24|N|To Loroja.|
-A I like Turtles|QID|51427|M|35.68,31.24|N|From Loroja.|PRE|51371&51221|
+A I Like Turtles|QID|51427|M|35.68,31.24|N|From Loroja.|PRE|51371&51221|
 A Breaker Bad|QID|51545|M|35.68,31.24|N|From Loroja.|PRE|51540|
-C I like Turtles|QID|51427|M|35.71,31.04|NC|N|Place on the seaweed right next to you.|
-T I like Turtles|QID|51427|M|35.68,31.23|N|To Loroja.|
+C I Like Turtles|QID|51427|M|35.71,31.04|NC|N|Place on the seaweed right next to you.|
+T I Like Turtles|QID|51427|M|35.68,31.23|N|To Loroja.|
 A Deep Sea Venture|QID|51220|M|35.68,31.23|N|From Loroja.|PRE|51427|
 A What's Yours is Mined|QID|51222|M|35.75,31.30|N|From Toki.|PRE|51427|
 C Breaker Bad|QID|51545|M|35.53,27.05|N|Use the bomb ability on the mech. Note this will kill most of the mobs around it too.|
@@ -906,9 +906,9 @@ $ Venture Co. Supply Chest|QID|52976|M|36.69,23.23|N|Use ladder to get on the sh
 C What's Yours is Mined|QID|51222|M|36.90,25.55|US|NC|N|Finish grabbing the underwater mines.|
 C Deep Sea Venture|QID|51220|M|36.90,25.55|US|N|Finish killing the goblins.|
 T Breaker Bad|QID|51545|M|35.68,31.25|N|Back to the cave one more time, to Loroja.|
+T Deep Sea Venture|QID|51220|M|35.68,31.25|N|To Loroja.|
 T What's Yours is Mined|QID|51222|M|34.35, 26.29|N|To Toki.|
 A Battle Victorious|QID|51386|M|34.35,26.29|N|From Toki.|PRE|51222|
-T Deep Sea Venture|QID|51220|M|34.35, 26.29|N|To Toki.|
 C Battle Victorious|QID|51386|M|34.35,26.29|QO|1|N|Hop on the turtle.|
 C Battle Victorious|QID|51386|M|34.35,26.29|QO|2|N|Revenge time. Use ability 1 on the mobs. |
 T Battle Victorious|QID|51386|M|40.19,37.63|N|To Toki.|
@@ -924,7 +924,7 @@ F Deadwash|M|40.00,37.33|AVAILABLE|50810|N|Fly to Deadwash.|RANK|2|
 T More Fodder|QID|52069|M|42.99,56.61|N|To Leo Shealds.|
 A Break 'Em Out|QID|50810|M|42.99,56.61|N|From Leo Shealds.|
 A Iron Low Tide|QID|50802|M|42.99,56.61|N|From Leo Shealds.|
-A Two Faced Pirate Scum|QID|50674|M|42.99,56.61|N|From Leo Shealds.|PRE|51554|
+A Two Faced Pirate Scum|QID|50674|M|42.99,56.61|N|From Leo Shealds.|
 C Iron Low Tide|QID|50802|M|44.14,56.07|S|N|Kill pirates in the area.|
 K Two Faced Tom|ACTIVE|50674|QO|1|M|41.15,57.08|T|Two Faced Tom|N|Kill Tommy.|
 C Break 'Em Out|QID|50810|M|44.47,58.22|NC|N|Click on the balls.|
@@ -994,7 +994,7 @@ T Walking-Around Money|QID|50956|M|43.02,56.53|N|To Small Coin Bag.|
 
 ; Cycle of Hatred
 R Beacon Hill|AVAILABLE|51711|M|43.17,50.56;46.14,47.24|CS|N|Next stop Beacon Hill, you can run a little farther if you prefer roads to cross country, but its an easy hike up the hill.|
-A Grizzled|QID|51752|M|46.88,47.68|N|From Felecia Gladstone.|PRE|52065|
+A Grizzled|QID|51752|M|46.88,47.68|N|From Felecia Gladstone.|; Leadin [Worse Than It Looks] 52065 not used
 A Having a Blast|QID|51711|M|46.88,47.68|N|From Felecia Gladstone.|
 A WANTED: War Gore|QID|52876|M|46.75,48.12|N|From the Wanted poster.|RANK|2|
 K Whirlwind|QID|52457|QO|1|M|47.82,40.65;47.14,42.09|CS|T|Whirlwind|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|158215|
@@ -1033,15 +1033,15 @@ H The Golden Flagon|TZ|Brennadam|ACTIVE|50733|M|46.69,47.97|N|Return to Brennada
 ; Eckhart Lodge
 F Tidecross|M|59.73,70.57|ACTIVE|49998|N|Fly to Tidecross|RANK|2|
 T Survivors|QID|52067|M|57.86,55.31|N|To Patrick Eckhart in the next area.|
-A Smells like Trouble|QID|50908|M|57.86,55.31|N|From Patrick Eckhart.|RANK|2|
+A Smells Like Trouble|QID|50908|M|57.86,55.31|N|From Patrick Eckhart.|RANK|2|
 A Dangerous Game|QID|50910|M|57.86,55.31|N|From Patrick Eckhart.|RANK|2|
 A Never Outgunned|QID|50909|M|57.95,55.58|N|From Lea Martinel.|RANK|2|
 A WANTED: Yarsel'ghun|QID|51217|M|57.84,55.83|N|From the poster.|RANK|2|
 C Never Outgunned|QID|50909|M|60.67,50.28|S|NC|N|Pick up weapons as you go.|
 C Dangerous Game|QID|50910|M|60.67,50.28|S|N|Kill the Keenblades.|
 K Taja the Tidehowler|QID|52123|QO|1|T|Taja the Tidehowler|M|60.00,46.00|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|154449|
-K Durmok Darkmane|ACTIVE|50908|M|59.76,50.13;59.09,48.60|CS|QO|2|U|159144|T|Durmok Darkmane|N|Up the hill to find Durmok. Toss the scent vile into the cave with Durmok for a little extra help with the fight.|
-K Ogarth Axefall|ACTIVE|50908|M|56.32,48.42;56.60,47.41|CS|QO|1|T|Ogarth Axefall|N|Continue on towards Ogarth and toss the scent vile in his cave too, then kill him.|
+K Durmok Darkmane|ACTIVE|50908|M|59.76,50.13;59.09,48.60|CS|QO|2|U|159144|T|Durmok Darkmane|N|Up the hill to find Durmok. Toss the scent vial into the cave with Durmok for a little extra help with the fight.|
+K Ogarth Axefall|ACTIVE|50908|M|56.32,48.42;56.60,47.41|CS|QO|1|U|159144|T|Ogarth Axefall|N|Continue on towards Ogarth and toss the scent vial in his cave too, then kill him.|
 K Yarsel'ghun|ACTIVE|51217|QO|1|M|55.63,39.95|T|Yarsel'ghun|N|Take the road directly above this cave to reach  Yarsel'ghun.|
 $ Ancient Tidesage Scroll|ACH|13051;5|M|56.05,38.48|N|Beside Yarsel'ghun. For the achievement "Legends of the Tidesages"|RANK|2|
 C Dangerous Game|QID|50910|M|60.67,50.28|US|N|Finish with Keenblades.|
@@ -1051,7 +1051,7 @@ C Bring out the Big Gun|QID|51159|M|57.94,55.43|NC|N|Click on it to drag the can
 T Bring out the Big Gun|QID|51159|M|57.94,55.52|N|To Lea Martinel.|
 T Never Outgunned|QID|50909|M|57.95,55.57|N|To Lea Martinel.|
 t WANTED: Yarsel'ghun|QID|51217|M|57.94,54.55|N|To Lea Martinel.|
-T Smells like Trouble|QID|50908|M|57.86,55.31|N|To Patrick Eckhart|
+T Smells Like Trouble|QID|50908|M|57.86,55.31|N|To Patrick Eckhart|
 T Dangerous Game|QID|50910|M|57.86,55.31|N|To Patrick Eckhart|
 F Tradewinds Market|ACTIVE|50733|M|65.57,48.01|TZ|Boralus Harbor|N|Take a flight to Boralas to turn in the final zone quest.|RANK|2|
 

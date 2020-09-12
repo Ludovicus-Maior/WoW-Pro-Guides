@@ -11,7 +11,7 @@
 -- URL: http://wow-pro.com/node/3506/revisions/26947/view
 -- Date: 2014-11-08 18:12
 -- Who: Emmaleah
--- Log: Deleted extraneous step for collecting from mailbox 
+-- Log: Deleted extraneous step for collecting from mailbox
 
 -- URL: http://wow-pro.com/node/3506/revisions/26876/view
 -- Date: 2014-11-08 00:01

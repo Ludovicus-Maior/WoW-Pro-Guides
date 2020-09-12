@@ -5,7 +5,7 @@ R Ironforge|QID|1457|
 T The Karnitol Shipwreck|QID|1457|
 N Train skills, sell junk, repair, restock.|QID|1302|N|Train skills, sell junk, repair, restock.|
 F Menethil Harbor|QID|1302|N|Fly to Menethil Harbor.|M|55.50,47.80|
-A James Hyal|N||QID|1302|M|8.40,61.75|
+A James Hyal|QID|1302|M|8.40,61.75|
 b Theramore Isle|QID|1302|N|Take the boat to Theramore|M|5.15,63.45|
 h Theramore Isle|QID|1302|N|Make Theramore your home location.|M|66.60,45.20|
 A Mudrock Soup and Bugs|QID|1204|M|66.3,45.5|
@@ -46,42 +46,42 @@ A The Hermit of Swamplight Manor|QID|11177|M|68.3,51.8|
 
 A Mission to Mudsprocket|QID|11214|M|65.1,47.1|
 A A Disturbing Development|QID|11136|M|65.1,47.1|
-T A Disturbing Development|N||QID|11136|M|60.00,40.00|
+T A Disturbing Development|QID|11136|M|60.00,40.00|
 A Defias in Dustwallow?|QID|11137|M|59.8,41.1|
 C Mudrock Soup and Bugs|N|Go east over the hills to the shore.  Kill Mudrocks to get the tongues needed for the quest.|QID|1204|M|62.80,34.70|
 C Defias in Dustwallow?|N|Kill Garn Mathers at this island and loot the item from him for the quest.|QID|11137|M|64.00,27.60|
 T The Hermit of Swamplight Manor|QID|11177|M|55.4,26.3|
 A Marsh Frog Legs|QID|1218|M|55.4,26.3|
-A The Orc Report|N||QID|1219|M|55.45,25.90|
+A The Orc Report|QID|1219|M|55.45,25.90|
 A What's Haunting Witch Hill?|QID|11180|M|55.4,26.3|
 C Marsh Frog Legs|N|Kill frogs in the area until you get 10 Frog Legs.|QID|1218|
 T Marsh Frog Legs|QID|1218|M|55.4,26.3|
 A Jarl Needs Eyes|QID|1206|M|55.4,26.3|
 A Raptor Captor|N|Get the quest at the tower from Sergeant Lukas.|QID|11146|M|46.7,23.1|
 C Jarl Needs Eyes|N|Kill spiders at this location to get the 20 Eyes needed for the quest.|QID|1206|M|35.00,24.00|
-A Hungry!|N||QID|1177|M|35.00,38.00|
+A Hungry!|QID|1177|M|35.00,38.00|
 T Inspecting the Ruins|N|Turn in your quest to Inspector Tarem.|QID|11123|M|29.7,47.6|
-A Suspicious Hoofprints|N||QID|1284|M|29.70,47.60|
-A Lieutenant Paval Reethe|N||QID|1252|M|29.80,48.20|
-A The Black Shield|N||QID|1253|M|29.60,48.60|
+A Suspicious Hoofprints|QID|1284|M|29.70,47.60|
+A Lieutenant Paval Reethe|QID|1252|M|29.80,48.20|
+A The Black Shield|QID|1253|M|29.60,48.60|
 H Theramore Isle|QID|1204|N|Hearth to Theramore.|
 T Mudrock Soup and Bugs|QID|1204|M|66.3,45.5|
 A ... and Bugs|QID|1258|
 T The Orc Report|QID|1219|M|65.1,47.1|
 A Captain Vimes|QID|1220|M|65.1,47.1|
 T The Black Shield|QID|1253|M|68.2,48.6|
-A The Black Shield (next)|QID|1319|M|68.2,48.6|
+A The Black Shield |QID|1319|M|68.2,48.6|
 T Lieutenant Paval Reethe|QID|1252|M|68.2,48.6|
-A Lieutenant Paval Reethe (next)|QID|1259|M|68.2,48.6|
+A Lieutenant Paval Reethe |QID|1259|M|68.2,48.6|
 T Suspicious Hoofprints|QID|1284|M|68.2,48.6|
 T Captain Vimes|QID|1220|M|68.2,48.6|
-T Lieutenant Paval Reethe (next)|QID|1259|M|68.0,48.1|
+T Lieutenant Paval Reethe |QID|1259|M|68.0,48.1|
 A Daelin's Men|QID|1285|M|68.0,48.1|
 T Daelin's Men|QID|1285|M|68.2,48.6|
 A The Deserters|QID|1286|M|68.2,48.6|
-T The Black Shield (part 2)|QID|1319|M|64.8,50.4|
-A The Black Shield (part 3)|QID|1320|M|64.8,50.4|
-T The Black Shield (part 3)|QID|1320|M|68.2,48.6|
+T The Black Shield |QID|1319|M|64.8,50.4|
+A The Black Shield |QID|1320|M|64.8,50.4|
+T The Black Shield |QID|1320|M|68.2,48.6|
 N Sell junk, repair, restock.|QID|11137|N|Sell junk, repair, restock.|
 T Defias in Dustwallow?|QID|11137|M|59.8,41.1|
 A Renn McGill|QID|11138|
@@ -107,7 +107,7 @@ T Prisoners of the Grimtotems|QID|11145|M|46.7,23.1|
 T Unleash the Raptors|QID|11147|M|46.7,23.1|
 C Jarl Needs a Blade|N|Kill Razorspine and get the loot for the quest.|QID|1203|M|57.90,18.30|
 T Renn McGill|QID|11138|
-A Secondhand Diving Gear|N||QID|11139|M|62.80,18.90|
+A Secondhand Diving Gear|QID|11139|M|62.80,18.90|
 C Secondhand Diving Gear|N|Clear the camp, loot the tools, and loot the damaged diving gear to complete the quest.|QID|11139|M|62.60,18.65|
 T Secondhand Diving Gear|QID|11139|
 A Recover the Cargo!|QID|11140|
@@ -126,9 +126,9 @@ T Survey Alcaz Island|N|Turn your quest in at Jaina when you get back to Theramo
 N Sell junk, repair, restock|QID|1177|N|Sell junk, repair, restock|
 T Hungry!|QID|1177|
 C The Deserters|N|Fight Balos Jacken at this location.|QID|1286|M|36.10,54.30|
-T The Deserters|QID|1286|A The Deserters (part 2)|QID|1287|M|36.1,54.3|
+T The Deserters|QID|1286|M|36.1,54.3|
+A The Deserters |QID|1287|
 T Tabetha's Farm|QID|11212|M|46.1,57.2|
 N Grind if needed|QID|11214|N|Grind if needed to become 3000 xp away from level 40.|
-
 ]]
 end)

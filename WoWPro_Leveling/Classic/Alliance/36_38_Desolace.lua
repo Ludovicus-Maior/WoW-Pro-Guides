@@ -12,27 +12,27 @@ f Nijel's Point|QID|1437|N|Get the flight path.|M|64.65,10.55|
 
 C Reagents for Reclaimers Inc.|N|Kill Satyrs until you get the items needed for this quest.|QID|1458|M|75.00,20.00|
 T Vahlarriel's Search|N|Loot the crate here and turn in the quest.|QID|1437|M|56.00,17.00|
-A Vahlarriel's Search (part 2)|N|Get the follow-up.|QID|1465|M|56.5,17.8|
-T Vahlarriel's Search (part 2)|QID|1465|M|66.4,11.8|
-A Vahlarriel's Search (part 3)|QID|1438|M|66.4,11.8|
+A Vahlarriel's Search |N|Get the follow-up.|QID|1465|M|56.5,17.8|
+T Vahlarriel's Search |QID|1465|M|66.4,11.8|
+A Vahlarriel's Search |QID|1438|M|66.4,11.8|
 T Reagents for Reclaimers Inc.|QID|1458|M|66.2,9.6|
 N Sell junk, repair, restock.|QID|1454|N|Sell junk, repair, restock.|
 A Sceptre of Light|QID|5741|M|38.9,27.2|
 T The Karnitol Shipwreck|N|Turn in your quest here.|QID|1454|M|36.00,30.00|
-A The Karnitol Shipwreck (follow-up)|QID|1455|M|36.1,30.4|
+A The Karnitol Shipwreck |QID|1455|M|36.1,30.4|
 A Claim Rackmore's Treasure!|N|Click the box right here to get this quest.|QID|6161|M|36.1,30.4|
 N Rackmore's Silver Key|QID|1438|N|Kill Drysnaps around the ship until you get a silver key.|L|15878 1|M|34.50,32.00|
 C Claim Rackmore's Treasure!|N|Go north and kill Nagas until you get a golden key.|QID|6161|M|34.4,31.3|
 C Sceptre of Light|N|Kill the Seer at the top of the guard tower in the fort to get the Sceptre of Light.|QID|5741|M|56.00,30.00|
-T Vahlarriel's Search (part 3)|N|Turn in your quest to Dalinda in the large building.|QID|1438|M|54.9,26.1|
+T Vahlarriel's Search |N|Turn in your quest to Dalinda in the large building.|QID|1438|M|54.9,26.1|
 A Search for Tyranis|QID|1439|M|54.9,26.1|
 C Search for Tyranis|N|Kill Tyranis in the other building and get the pendant.|QID|1439|M|52.80,28.80|
 T Search for Tyranis|QID|1439|M|54.9,26.1|
 A Return to Vahlarriel|N|Get the escort quest from Dalinda.  Clear the whole building first to make the escort easier.|QID|1440|M|54.9,26.1|
 C Return to Vahlarriel|N|Complete the escort quest, do not let the NPC die.|QID|1440|M|54.9,26.1|
 T Return to Vahlarriel|QID|1440|M|66.4,11.8|
-T The Karnitol Shipwreck (part 2)|QID|1455|M|66.2,9.6|
-A The Karnitol Shipwreck (part 3)|QID|1456|
+T The Karnitol Shipwreck |QID|1455|M|66.2,9.6|
+A The Karnitol Shipwreck |QID|1456|
 N Sell junk, repair, restock.|QID|5741|N|Sell junk, repair, restock.|
 A Bone Collector|N|Go south and accept this quest.|QID|5501|M|62.3,39.0|
 T Sceptre of Light|QID|5741|M|38.9,27.2|
@@ -50,12 +50,12 @@ C Centaur Bounty|N|Get 15 Centaur Ears if you haven't already for the quest.|QID
 C Down the Scarlet Path|N|Kill 30 Undead Ravagers near this location.|QID|261|M|63.40,91.40|
 T Strange Alliance|QID|1382|
 T Bone Collector|QID|5501|M|62.3,39.0|
-R Nijel's Point|QID|261|N|M|66.70,11.00|
+R Nijel's Point|QID|261|M|66.70,11.00|
 T Centaur Bounty|QID|1387|
 T The Karnitol Shipwreck|QID|1456|
-A The Karnitol Shipwreck (follow-up)|QID|1457|
+A The Karnitol Shipwreck |QID|1457|
 T Down the Scarlet Path|QID|261|
-A Down the Scarlet Path (follow-up)|QID|1052|
+A Down the Scarlet Path |QID|1052|
 H Ironforge|QID|1457|N|Hearth to Ironforge.|
 ]]
 end)

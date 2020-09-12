@@ -1,108 +1,113 @@
+-- luacheck: globals tinsert sort pairs unpack
+-- luacheck: globals tostring
+
 ---------------------------------------------
 --      WoWPro_Leveling_GuideList.lua      --
 ---------------------------------------------
-WoWPro.Leveling.GuideList = {}
+local Leveling = WoWPro.Leveling
+Leveling.GuideList = {}
 
--- Creating a Table of Guides for the Guide List and sorting based on level --
-local guides = {}
-for guidID,guide in pairs(WoWPro.Guides) do
-	if guide.guidetype == "Leveling" then
-	    local function progress ()
-	        if WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].progress and WoWProCharDB.Guide[guidID].total then
-	            return WoWProCharDB.Guide[guidID].progress.."/"..WoWProCharDB.Guide[guidID].total
-	        end
-	        return ""
-	    end
-	    WoWPro:ResolveIcon(guide)
-		table.insert(guides, {
-			GID = guidID,
-			guide = guide,
-			Zone = WoWPro:GetGuideName(guidID),
-			Author = guide.author,
-			Range = "("..tostring(guide.startlevel).."-"..tostring(guide.endlevel)..")",
-			Progress = progress, 
-			level = guide.sortlevel
-		})
-	end
+
+local rangeFormat = "%d - %d"
+local function GetGuides()
+    local guides = {}
+    for guideID, guide in pairs(WoWPro.Guides) do
+        if guide.guidetype == "Leveling" then
+            WoWPro:ResolveIcon(guide)
+            tinsert(guides, {
+                GID = guideID,
+                guide = guide,
+                Zone = WoWPro:GetGuideName(guideID),
+                Author = guide.author,
+                Range = rangeFormat:format(guide.startlevel, guide.endlevel),
+                level = guide.level
+            })
+
+            guides[#guides].progress, guides[#guides].Progress = WoWPro:GetGuideProgress(guideID)
+        end
+    end
+
+    return guides
 end
-WoWPro.Leveling.GuideList.Guides = guides
 
 -- Sorting Functions --
-local sorttype = "Default"
-local function authorSort()
-	if sorttype == "AuthorAsc" then
-		table.sort(guides, function(a,b) return a.Author > b.Author end)
-		WoWPro.Leveling:UpdateGuideList()
-		sorttype = "AuthorDesc"
-	else
-		table.sort(guides, function(a,b) return a.Author < b.Author end)
-		WoWPro.Leveling:UpdateGuideList()
-		sorttype = "AuthorAsc"
-	end
-end
-local function zoneSort()
-	if sorttype == "ZoneAsc" then
-		table.sort(guides, function(a,b) return a.Zone > b.Zone end)
-		WoWPro.Leveling:UpdateGuideList()
-		sorttype = "ZoneDesc"
-	else
-		table.sort(guides, function(a,b) return a.Zone < b.Zone end)
-		WoWPro.Leveling:UpdateGuideList()
-		sorttype = "ZoneAsc"
-	end
-end
-local function rangeSort()
-	if sorttype == "RangeAsc" then
-		table.sort(guides, function(a,b) return a.level > b.level end)
-		WoWPro.Leveling:UpdateGuideList()
-		sorttype = "RangeDesc"
-	else
-		table.sort(guides, function(a,b) return a.level < b.level end)
-		WoWPro.Leveling:UpdateGuideList()
-		sorttype = "RangeAsc"
-	end
-end
-rangeSort()             -- Sort by range
-sorttype = "Default"    -- and reset to Default
-		
--- Describe the table to the Core Module
-WoWPro.Leveling.GuideList.Format={{"Zone",0.35,zoneSort},{"Range",0.15,rangeSort},{"Author",0.30,authorSort},{"Progress",0.20,nil}}
+local function zoneSort(a, b)
+    if a.Zone == b.Zone then return end
 
--- Fancy tooltip!
-function WoWPro.Leveling.GuideTooltipInfo(row, tooltip, guide)
-    WoWPro:ResolveIcon(guide)
-    GameTooltip:SetOwner(row, "ANCHOR_TOPLEFT")
-    GameTooltip:AddLine(guide.zone)
-    if guide.icon then
-        GameTooltip:AddTexture(guide.icon,1,1,1,1)
-    else
-        GameTooltip:AddTexture("Interface\\PaperDollInfoFrame\\SpellSchoolIcon5")
+    return a.Zone < b.Zone
+end
+local function rangeSort(a, b)
+    if a.level == b.level then
+        if a.guide.startlevel ~= b.guide.startlevel then
+            return a.guide.startlevel < b.guide.startlevel
+        end
+
+        if a.guide.endlevel ~= b.guide.endlevel then
+            return a.guide.endlevel < b.guide.endlevel
+        end
     end
-    GameTooltip:AddDoubleLine("Start Level:",tostring(guide.startlevel),1,1,1,unpack(WoWPro.LevelColor(guide.startlevel)))
-    GameTooltip:AddDoubleLine("Mean Level:",string.format("%.2f",guide.level or 0),1,1,1,unpack(WoWPro.LevelColor(guide)))
-    GameTooltip:AddDoubleLine("End Level:",tostring(guide.endlevel),1,1,1,unpack(WoWPro.LevelColor(guide.endlevel)))
+
+    return a.level < b.level
+end
+local function authorSort(a, b)
+    if a.Author == b.Author then return end
+
+    return a.Author < b.Author
+end
+local function progressSort(a, b)
+    if a.progress == b.progress then return end
+
+    if a.progress and b.progress then
+        return a.progress < b.progress
+    end
+
+    return a.progress and true or false
 end
 
-function WoWPro.Leveling:UpdateGuideScores()
-    WoWPro.Leveling:dbp("UpdateGuideScores()")
+
+function Leveling:SetTooltip(guide)
+    _G.GameTooltip:AddDoubleLine("Start Level:", tostring(guide.startlevel), 1, 1, 1, unpack(WoWPro.LevelColor(guide.startlevel)))
+    _G.GameTooltip:AddDoubleLine("Avg. Level:", ("%.2f"):format(guide.level or 0), 1, 1, 1, unpack(WoWPro.LevelColor(guide)))
+    _G.GameTooltip:AddDoubleLine("End Level:", tostring(guide.endlevel), 1, 1, 1, unpack(WoWPro.LevelColor(guide.endlevel)))
+end
+
+function Leveling:UpdateGuideScores()
+    self:dbp("UpdateGuideScores()")
+    local currentLevel = _G.UnitLevel("player")
+
     for guidID,guide in pairs(WoWPro.Guides) do
-	    if guide.guidetype == "Leveling" then
-	        WoWPro:ResolveIcon(guide)
-	        if UnitLevel("player") < guide.startlevel then
-	            guide.score = 0
-	        elseif WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].done then
-	            guide.score = 0
-	        elseif UnitLevel("player") > guide.endlevel then
-	            guide.score = 100 * (guide.endlevel / UnitLevel("player"))
-	            WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; endlevel %f", guidID, guide.endlevel) 
-	        else
-	            guide.score = 100 * (guide.level / UnitLevel("player"))
-	            WoWPro.Leveling:dbp("UpdateGuideScores: Chose %s; level %f", guidID, guide.level)
-	        end
+        if guide.guidetype == "Leveling" then
+            WoWPro:ResolveIcon(guide)
+            if currentLevel < guide.startlevel then
+                guide.score = 0
+            elseif WoWProCharDB.Guide[guidID] and WoWProCharDB.Guide[guidID].done then
+                guide.score = 0
+            elseif currentLevel > guide.endlevel then
+                guide.score = 100 * (guide.endlevel / currentLevel)
+                self:dbp("UpdateGuideScores: Chose %s; endlevel %f", guidID, guide.endlevel)
+            else
+                guide.score = 100 * (guide.level / currentLevel)
+                self:dbp("UpdateGuideScores: Chose %s; level %f", guidID, guide.level)
+            end
         end
         guide.name = guide.name or guide.zone
-    end 
+    end
 end
 
+local listInfo
+function Leveling:GetGuideListInfo()
+    if not listInfo then
+        listInfo = {
+            guides = GetGuides(),
+            headerInfo = {
+                sorts = {zoneSort, rangeSort, authorSort, progressSort},
+                names = {"Zone", "Range", "Author", "Progress"},
+                size = {0.35, 0.15, 0.30, 0.20},
+            },
+        }
+    end
+    return listInfo
+end
+Leveling.sortIndex = 2
 
-WoWPro.Leveling:dbp("Guide Setup complete")
+Leveling:dbp("Guide Setup complete")

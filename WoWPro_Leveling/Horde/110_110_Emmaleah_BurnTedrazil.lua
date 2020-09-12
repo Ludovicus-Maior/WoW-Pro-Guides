@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/bfa_intro_horde
+-- Date: 2020-04-09 23:24
+-- Who: Ludovicus_Maior
+-- Log: Cagomei: [To Matters at Hand] is now obsolete
+
+-- URL: http://wow-pro.com/node/3770/revisions/30268/view
+-- Date: 2019-06-27 21:51
+-- Who: Ludovicus_Maior
+-- Log: 8.2 Z updates
+
+-- URL: http://wow-pro.com/node/3770/revisions/30221/view
 -- Date: 2019-02-12 00:08
 -- Who: Ludovicus_Maior
 -- Log: Start at [Hour of Reckoning] now for 8.1.0 .
@@ -182,15 +192,15 @@ R Silithus: The Wound|ACTIVE|53028|M|70.42,87.54|Z|Silithus|N|Fly towards Sargar
 T A Dying World|QID|53028|M|42.22,44.28|Z|Silithus|N|To Magni Brozebeard.|
 A The Heart of Azeroth|QID|51211|M|42.22,44.28|Z|Silithus|N|From Magni Bronzebeard.|PRE|53028|
 C The Heart of Azeroth|QID|51211|M|43.20,44.49|Z|Silithus|QO|1|NC|N|Click on the Titan Translocator to travel to the Chamber.|
-C The Heart of Azeroth|QID|51211|M|50.17,55.44|Z|Chamber of Heart!Dungeon|QO|2|NC|N|Optional: Click on the Tital Console to view a cutscene (or just skip straight to talking with Magni to view a different cutscene).|
-C The Heart of Azeroth|QID|51211|M|50.15,53.68|Z|Chamber of Heart!Dungeon|QO|3|CHAT|N|Speak to Magni within the Chamber of Heart and watch another cutscene.|
-T The Heart of Azeroth|QID|51211|M|50.15,53.68|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
-A Infusing the Heart|QID|52428|M|50.13,55.21|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|51211|
-C Infusing the Heart|QID|52428|M|55.26,58.45|QO|1|NC|N|Go to the 'wounds' and use your special action button, until this step completes (doesn't require all of the wounds to be healed at this time).|
-C Infusing the Heart|QID|52428|M|50.02,64.33|Z|Chamber of Heart!Dungeon|QO|2|NC|N|Use Special Action button while standing in the center of the room and wait for the bar to fill.|
-T Infusing the Heart|QID|52428|M|50.15,53.74|Z|Chamber of Heart!Dungeon|N|To Magni Bronzebeard.|
-A The Speaker's Imperative|QID|53031|M|50.15,53.74|Z|Chamber of Heart!Dungeon|N|From Magni Bronzebeard.|PRE|52428|
-C The Speaker's Imperative|QID|53031|M|50.17,30.46|Z|Chamber of Heart!Dungeon|NC|N|Teleporter pad used.|
+C The Heart of Azeroth|QID|51211|M|50.17,55.44|Z|Chamber of Heart!Dungeon1021|QO|2|NC|N|Optional: Click on the Tital Console to view a cutscene (or just skip straight to talking with Magni to view a different cutscene).|
+C The Heart of Azeroth|QID|51211|M|50.15,53.68|Z|Chamber of Heart!Dungeon1021|QO|3|CHAT|N|Speak to Magni within the Chamber of Heart and watch another cutscene.|
+T The Heart of Azeroth|QID|51211|M|50.15,53.68|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
+A Infusing the Heart|QID|52428|M|50.13,55.21|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|PRE|51211|
+C Infusing the Heart|QID|52428|M|55.26,58.45|Z|Chamber of Heart!Dungeon1021|QO|1|NC|N|Go to the 'wounds' and use your special action button, until this step completes (doesn't require all of the wounds to be healed at this time).|
+C Infusing the Heart|QID|52428|M|50.02,64.33|Z|Chamber of Heart!Dungeon1021|QO|2|NC|N|Use Special Action button while standing in the center of the room and wait for the bar to fill.|
+T Infusing the Heart|QID|52428|M|50.15,53.74|Z|Chamber of Heart!Dungeon1021|N|To Magni Bronzebeard.|
+A The Speaker's Imperative|QID|53031|M|50.15,53.74|Z|Chamber of Heart!Dungeon1021|N|From Magni Bronzebeard.|PRE|52428|
+C The Speaker's Imperative|QID|53031|M|50.17,30.46|Z|Chamber of Heart!Dungeon1021|NC|N|Teleporter pad used.|
 T The Speaker's Imperative|QID|53031|M|48.89,91.50|Z|Orgrimmar|N|To Nathanos Blightcaller, still on top of the Gates of Orgrimmar.|
 
 A Mission Statement|QID|51443|M|48.89,91.50|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE|53031|
@@ -229,13 +239,14 @@ C Speaker of the Horde|QID|46931|M|57.95,44.31|Z|Zuldazar|QO|3|NC|N|The Great Se
 C Speaker of the Horde|QID|46931|M|67.00,71.83|Z|The Great Seal!Dazar'alor|QO|4|NC|N|Hall of Ancient Paths explored.|
 C Speaker of the Horde|QID|46931|M|32.22,70.00|Z|The Great Seal!Dazar'alor|QO|5|CS|NC|N|Vault of the King explored.|
 T Speaker of the Horde|QID|46931|M|32.33,43.42|Z|The Great Seal!Dazar'alor|N|To Chronicler To'kini.|
-A To Matters at Hand|QID|52139|M|32.33,43.42|Z|The Great Seal!Dazar'alor|N|From Chronicler To'kini.|PRE|46931|;GRAIL SAYS NO PRE
+; To Matters at Hand is now obsolete
+; A To Matters at Hand|QID|52139|M|32.33,43.42|Z|The Great Seal!Dazar'alor|N|From Chronicler To'kini.|PRE|46931|;GRAIL SAYS NO PRE
 ; This NPC appears only after [Speaker of the Horde] is turned in
-h The Great Seal|ACTIVE|52139|M|48.50,71.75|Z|The Great Seal!Dazar'alor|N|Set your hearth stone with Brillin the Beauty, with the portals nearby, you probably won't want to change it.|
-T To Matters at Hand|QID|52139|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji, just up the stairs.|
-A We Need Each Other|QID|52131|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|PRE|52139|
-
-T We Need Each Other|QID|52131|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|;grail has diff PRE?(51344)
+h The Great Seal|AVAILABLE|52139|M|48.50,71.75|Z|The Great Seal!Dazar'alor|N|Set your hearth stone with Brillin the Beauty, with the portals nearby, you probably won't want to change it.|
+; T To Matters at Hand|QID|52139|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji, just up the stairs.|
+A We Need Each Other|QID|52131|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|From Princess Talanji.|
+; Cutscene
+T We Need Each Other|QID|52131|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
 A Area to Explore|QID|47512^47513^47514|M|41.77,69.35|Z|Hall of Croniclers!Dazar'alor|N|Pick which zone you want to adventure in first from Scouting Map.|PRE|52131|
 t Nazmir|QID|47512|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
 t Vol'dun|QID|47513|M|41.22,66.75|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|

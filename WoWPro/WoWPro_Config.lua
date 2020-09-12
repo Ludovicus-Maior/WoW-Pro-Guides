@@ -1,34 +1,36 @@
+-- luacheck: globals pairs ipairs
+
 -----------------------------
 --      WoWPro_Config      --
 -----------------------------
 
 local L = WoWPro_Locale
-local config = LibStub("AceConfig-3.0")
-local dialog = LibStub("AceConfigDialog-3.0")
+local config = _G.LibStub("AceConfig-3.0")
+local dialog = _G.LibStub("AceConfigDialog-3.0")
 
 function WoWPro:RefreshConfig()
-	WoWPro:LoadGuide()
-	WoWPro:CustomizeFrames()
+    WoWPro:LoadGuide()
+    WoWPro:CustomizeFrames()
 end
 
 function WoWPro:SetDefaults()
-	
-	-- MainFrame --
-	WoWPro.MainFrame:SetHeight(300)
-	WoWPro.MainFrame:SetWidth(200)
-	WoWPro.MainFrame:SetMinResize(150,40)
-	WoWPro.MainFrame:ClearAllPoints()
-	WoWPro.MainFrame:SetPoint("TOPLEFT", UIParent, "RIGHT", -210, 175)
-	
-	WoWPro:RefreshConfig()
+    -- MainFrame --
+    WoWPro.MainFrame:SetHeight(300)
+    WoWPro.MainFrame:SetWidth(200)
+    WoWPro.MainFrame:SetMinResize(150,40)
+    WoWPro.MainFrame:ClearAllPoints()
+    WoWPro.MainFrame:SetPoint("TOPLEFT", _G.UIParent, "RIGHT", -210, 175)
+
+    WoWPro:RefreshConfig()
 end
 
+-- Sounds looked up from https://wow.tools/files/#search=BoatDockedWarning&page=1&sort=0&desc=asc
 local soundfiles = {
-			["Window Close"] = [[Sound\Interface\AuctionWindowClose.ogg]],
-			["Window Open"] = [[Sound\Interface\AuctionWindowOpen.ogg]],
-			["Level Up"] = [[Sound\Interface\LevelUp.ogg]],
-			["Map Ping"] = [[Sound\Interface\MapPing.ogg]],
-			["Boat Docked"] = [[Sound\Doodad\BoatDockedWarning.ogg]],
+    ["Window Close"] = 567499,
+    ["Window Open"] = 567482,
+    ["Level Up"] = 567431,
+    ["Map Ping"] = 567416,
+    ["Boat Docked"] = 566652,
 }
 
 
@@ -636,386 +638,441 @@ local function CreateDisplayConfig()
 end
 
 local function createBlizzOptions()
-	local options = CreateDisplayConfig()
-
-	config:RegisterOptionsTable("WoWPro-Bliz", {
-		name = L["WoW-Pro Guides"],
-		type = "group",
-		args = {
-			version = {
-				order = 1,
-				type = "description",
-				name = L["Version"]..": "..WoWPro.Version,
-			},
-			help = {
-				order = 2,
-				type = "description",
-				name = L["Account wide settings for WoW-Pro's guide addon."],
-			},
-			header1 = {
-				order = 3,
-				type = "header",
-				name = "Addon Enable and Debugging",
-			},
-			enable = {
-				order = 10,
-				type = "toggle",
-				name = L["Enable Addon"],
-				desc = L["Enables/Disables showing the WoW-Pro guide addons."],
-				get = function(info) return WoWProCharDB.Enabled end,
-				set = function(info,val) 
-						if WoWProCharDB.Enabled then
-						    WoWProCharDB.Enabled = false
-						    WoWPro:Disable()
-						else
-						    WoWProCharDB.Enabled = true
-						    WoWPro:Enable()
-						end
-					end
-			},
-			enableDebug = {
-				order = 11,
-				type = "toggle",
-				name = L["Enable Debug"],
-				desc = L["Enables/Disables debug logging"],
-				get = function(info) return WoWPro.DebugLevel > 0 end,
-				set = function(info,val) 
-						if WoWPro.DebugLevel > 0 then
-						    WoWPro.DebugLevel = 0
-						else
-						    WoWPro.DebugLevel = 1
-						end
-						WoWProCharDB.DebugLevel = WoWPro.DebugLevel
-					end
-			},
-			header2 = {
-				order = 15,
-				type = "header",
-				name = "Automation",
-			},
-			autoSelect = {
-				order = 16,
-				type = "toggle",
-				name = L["Auto Select"],
-				desc = L["Enables/Disables automatically selecting quests/flights from NPCs"],
-				get = function(info) return WoWProCharDB.AutoSelect end,
-				set = function(info,val) 
-						if WoWProCharDB.AutoSelect == true then
-						    WoWProCharDB.AutoSelect = false
-						else
-						    WoWProCharDB.AutoSelect = true
-						end
-					end
-			},
-			autoAccept = {
-				order = 17,
-				type = "toggle",
-				name = L["Auto Accept"],
-				desc = L["Enables/Disables automatically accepting quests from NPCs"],
-				get = function(info) return WoWProCharDB.AutoAccept end,
-				set = function(info,val) 
-						if WoWProCharDB.AutoAccept == true then
-						    WoWProCharDB.AutoAccept = false
-						else
-						    WoWProCharDB.AutoAccept = true
-						end
-					end
-			},
-			autoTurnin = {
-				order = 18,
-				type = "toggle",
-				name = L["Auto Turnin"],
-				desc = L["Enables/Disables automatically turning in quests to NPCs"],
-				get = function(info) return WoWProCharDB.AutoTurnin end,
-				set = function(info,val) 
-						if WoWProCharDB.AutoTurnin == true then
-						    WoWProCharDB.AutoTurnin = false
-						else
-						    WoWProCharDB.AutoTurnin = true
-						end
-					end
-			},
-			header3 = {
-				order = 20,
-				type = "header",
-				name = "Guide Modifiers",
-			},
-			petBattles = {
-				order = 21,
-				type = "toggle",
-				name = L["Enable Pet Battles"],
-				desc = L["Enables/Disables automatic pet battle team selection in some guides"],
-				get = function(info) return WoWProCharDB.EnablePetBattles end,
-				set = function(info,val)
-						if WoWProCharDB.EnablePetBattles then
-						    WoWProCharDB.EnablePetBattles = false
-						else
-						    WoWProCharDB.EnablePetBattles = true
-						end
-					end
-			},
-			doRares = {
-				order = 22,
-				type = "toggle",
-				name = L["Enable Rares"],
-				desc = L["Enables/Disables killing optional Rares in guides."],
-				get = function(info) return WoWProCharDB.EnableRares end,
-				set = function(info,val)
-						if WoWProCharDB.EnableRares then
-						    WoWProCharDB.EnableRares = false
-						else
-						    WoWProCharDB.EnableRares = true
-						end
-					end
-			},
-			doTreasures = {
-				order = 23,
-				type = "toggle",
-				name = L["Enable Treasures"],
-				desc = L["Enables/Disables treasure hunting steps in guides."],
-				get = function(info) return WoWProCharDB.EnableTreasures end,
-				set = function(info,val)
-						if WoWProCharDB.EnableTreasures then
-						    WoWProCharDB.EnableTreasures = false
-						else
-						    WoWProCharDB.EnableTreasures = true
-						end
-					end
-			},
-			doFlight = {
-				order = 24,
-				type = "toggle",
-				name = L["Skip Flights"],
-				desc = L["Skips most flight steps when you have flying in that zone."],
-				get = function(info) return WoWProCharDB.EnableFlight end,
-				set = function(info,val)
-						if WoWProCharDB.EnableFlight then
-						    WoWProCharDB.EnableFlight = false
-						else
-						    WoWProCharDB.EnableFlight = true
-						end
-					end
-			},
-			arank = {
-				order = 25,
-				type = "range",
-				name = L["Global Rank (Difficulty/Completeness)"],
-				desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
-				min = 1, max = 3, step = 1,
-				get = function(info) return WoWProDB.profile.rank end,
-				set = function(info,val) WoWProDB.profile.rank = val
-				    if WoWProDB.char.currentguide and WoWProCharDB.Guide[WoWProDB.char.currentguide] then
+    config:RegisterOptionsTable("WoWPro-Bliz", {
+        name = L["WoW-Pro Guides"],
+        type = "group",
+        args = {
+            version = {
+                order = 1,
+                type = "description",
+                name = L["Version"]..": "..WoWPro.Version,
+            },
+            help = {
+                order = 2,
+                type = "description",
+                name = L["Account wide settings for WoW-Pro's guide addon."],
+            },
+            header1 = {
+                order = 3,
+                type = "header",
+                name = "Addon Enable and Debugging",
+            },
+            enable = {
+                order = 10,
+                type = "toggle",
+                name = L["Enable Addon"],
+                desc = L["Enables/Disables showing the WoW-Pro guide addons."],
+                get = function(info) return WoWProCharDB.Enabled end,
+                set = function(info,val)
+                        if WoWProCharDB.Enabled then
+                            WoWProCharDB.Enabled = false
+                            WoWPro:Disable()
+                        else
+                            WoWProCharDB.Enabled = true
+                            WoWPro:Enable()
+                        end
+                    end
+            },
+            enableDebug = {
+                order = 11,
+                type = "toggle",
+                name = L["Enable Debug"],
+                desc = L["Enables/Disables debug logging"],
+                get = function(info) return WoWPro.DebugLevel > 0 end,
+                set = function(info,val)
+                        if WoWPro.DebugLevel > 0 then
+                            WoWPro.DebugLevel = 0
+                        else
+                            WoWPro.DebugLevel = 1
+                        end
+                        WoWProCharDB.DebugLevel = WoWPro.DebugLevel
+                    end
+            },
+            header2 = {
+                order = 15,
+                type = "header",
+                name = "Automation",
+            },
+            autoSelect = {
+                order = 16,
+                type = "toggle",
+                name = L["Auto Select"],
+                desc = L["Enables/Disables automatically selecting quests/flights from NPCs"],
+                get = function(info) return WoWProCharDB.AutoSelect end,
+                set = function(info,val)
+                        if WoWProCharDB.AutoSelect == true then
+                            WoWProCharDB.AutoSelect = false
+                        else
+                            WoWProCharDB.AutoSelect = true
+                        end
+                    end
+            },
+            autoAccept = {
+                order = 17,
+                type = "toggle",
+                name = L["Auto Accept"],
+                desc = L["Enables/Disables automatically accepting quests from NPCs"],
+                get = function(info) return WoWProCharDB.AutoAccept end,
+                set = function(info,val)
+                        if WoWProCharDB.AutoAccept == true then
+                            WoWProCharDB.AutoAccept = false
+                        else
+                            WoWProCharDB.AutoAccept = true
+                        end
+                    end
+            },
+            autoTurnin = {
+                order = 18,
+                type = "toggle",
+                name = L["Auto Turnin"],
+                desc = L["Enables/Disables automatically turning in quests to NPCs"],
+                get = function(info) return WoWProCharDB.AutoTurnin end,
+                set = function(info,val)
+                        if WoWProCharDB.AutoTurnin == true then
+                            WoWProCharDB.AutoTurnin = false
+                        else
+                            WoWProCharDB.AutoTurnin = true
+                        end
+                    end
+            },
+            header3 = {
+                order = 20,
+                type = "header",
+                name = "Guide Modifiers",
+            },
+            petBattles = {
+                order = 21,
+                type = "toggle",
+                name = L["Enable Pet Battles"],
+                desc = L["Enables/Disables automatic pet battle team selection in some guides"],
+                get = function(info) return WoWProCharDB.EnablePetBattles end,
+                set = function(info,val)
+                        if WoWProCharDB.EnablePetBattles then
+                            WoWProCharDB.EnablePetBattles = false
+                        else
+                            WoWProCharDB.EnablePetBattles = true
+                        end
+                    end
+            },
+            doRares = {
+                order = 22,
+                type = "toggle",
+                name = L["Enable Rares"],
+                desc = L["Enables/Disables killing optional Rares in guides."],
+                get = function(info) return WoWProCharDB.EnableRares end,
+                set = function(info,val)
+                        if WoWProCharDB.EnableRares then
+                            WoWProCharDB.EnableRares = false
+                        else
+                            WoWProCharDB.EnableRares = true
+                        end
+                    end
+            },
+            doTreasures = {
+                order = 23,
+                type = "toggle",
+                name = L["Enable Treasures"],
+                desc = L["Enables/Disables treasure hunting steps in guides."],
+                get = function(info) return WoWProCharDB.EnableTreasures end,
+                set = function(info,val)
+                        if WoWProCharDB.EnableTreasures then
+                            WoWProCharDB.EnableTreasures = false
+                        else
+                            WoWProCharDB.EnableTreasures = true
+                        end
+                    end
+            },
+            doFlight = {
+                order = 24,
+                type = "toggle",
+                name = L["Skip Flights"],
+                desc = L["Skips most flight steps when you have flying in that zone."],
+                get = function(info) return WoWProCharDB.EnableFlight end,
+                set = function(info,val)
+                        if WoWProCharDB.EnableFlight then
+                            WoWProCharDB.EnableFlight = false
+                        else
+                            WoWProCharDB.EnableFlight = true
+                        end
+                    end
+            },
+            arank = {
+                order = 25,
+                type = "range",
+                name = L["Global Rank (Difficulty/Completeness)"],
+                desc = L["Governs how many steps will be skipped. Use 3 for the most completeness, 1 to skip all non-essential steps."],
+                min = 1, max = 3, step = 1,
+                get = function(info) return WoWProDB.profile.rank end,
+                set = function(info,val) WoWProDB.profile.rank = val
+                    if WoWProDB.char.currentguide and WoWProCharDB.Guide[WoWProDB.char.currentguide] then
                         WoWProCharDB.Guide[WoWProDB.char.currentguide].skipped = {}
                     end
                     WoWPro.UpdateGuide("Config: Rank") end,
-				width = "double"
-			},
-			header4 = {
-				order = 50,
-				type = "header",
-				name = "Master Addon Tools",
-			},
-			resetGuide = {
-			    order = 51,
-			    type = "execute",
-			    name = L["Reset WoWPro Addons"],
-			    desc = L["If a WoWPro addon is behaving oddly, this wipes all saved state across all characters. Log out and back in again to complete the reset."],
-			    image = "Interface\\Addons\\WoWPro\\Textures\\inv_misc_enggizmos_27",
-			    func =  function (info)
-			                WoWProDB = nil
-			                WoWProCharDB = nil
-			                WoWPro:OnInitialize()
-			                PlaySoundFile([[Sound\Interface\Lfg_Denied.Ogg]])
-			            end
-			},
-			resetLog = {
-			    order = 52,
-			    type = "execute",
-			    name = L["Clear the log"],
-			    desc = L["Wow-Pro's Debug Log"],
-			    image = "Interface\\RaidFrame\\ReadyCheck-NotReady",
-			    func =  function (info) WoWPro:LogClear("UI"); end
-			},
-			showLog = {
-			    order = 53,
-			    type = "execute",
-			    name = L["Show the log"],
-			    desc = L["Wow-Pro's Secret Debug Log"],
-			    image = "Interface\\RaidFrame\\ReadyCheck-Ready",
-			    func =  function (info) WoWPro:LogShow(); end
-			},
-			blank10 = {
-				order = 90,
-				type = "description",
-				name = " ",
-			},    
-			aboutheader = {
-				order = 91,
-				type = "header",
-				name = "About WoW-Pro",
-			}, 
-			blank11 = {
-				order = 92,
-				type = "description",
-				name = " ",
-			},  	
-			about10 = {
-				order = 93,
-				type = "description",
-				fontSize = "medium",
-				name = "WoW-Pro.com is a guide website by gamers, for gamers. "
-			}, 	
-			blank12 = {
-				order = 94,
-				type = "description",
-				name = " ",
-			},  
-			about11 = {
-				order = 95,
-				type = "description",
-				fontSize = "medium",
-				name = 
-					"The site hosts hundreds of free guides covering every facet of World of Warcraft. "
-			}, 	 	
-			blank13 = {
-				order = 96,
-				type = "description",
-				name = " ",
-			},  
-			about12 = {
-				order = 97,
-				type = "description",
-				fontSize = "medium",
-				name = 
-					"We are most famous for our leveling guides, especially those written by the site founder, Jame. "
-			}, 	 	
-			blank7 = {
-				order = 98,
-				type = "description",
-				name = " ",
-			},  
-			about14 = {
-				order = 99,
-				type = "description",
-				fontSize = "medium",
-				name = 
-					"Over the years WoW-Pro has grown into a huge, active community of gamers. "
-			},  	
-			blank18 = {
-				order = 100,
-				type = "description",
-				name = " ",
-			},  	
-			about15 = {
-				order = 101,
-				type = "description",
-				fontSize = "medium",
-				name = 
-					"The WoW-Pro addon will bring many of the guides we've built as a community into the game, "..
-					"but if you get the chance you should definitely stop by, leave a comment saying 'Hi!', and check out "..
-					"some of the guides on WoW-Pro.com!",
-			},
-		},
-	})
-
-	local expert = {
-		name = L["WoW-Pro Expert"],
-		type = "group",
-		args = {
-			version = {
-				order = 1,
-				type = "description",
-				name = L["Version"]..": "..WoWPro.Version,
-			},
-			help = {
-				order = 2,
-				type = "description",
-				name = L["Expert settings for WoW-Pro's addons."],
-			},
-			blank = {
-				order = 3,
-				type = "description",
-				name = " ",
-			},
-			debugClasses = {
-				order = 4,
-				type = "toggle",
-				name = L["Debug Classes"],
-				desc = L["Enables/Disables loading of all class guides"],
-				get = function(info) return (WoWPro.DebugLevel > 0) and WoWPro.DebugClasses end,
-				set = function(info,val)
-						if WoWPro.DebugClasses then
-						    WoWPro.DebugClasses = false
-						else
-						    WoWPro.DebugClasses = (WoWPro.DebugLevel > 0)
-						end
-						WoWProCharDB.DebugClasses = WoWPro.DebugClasses
-					end
-			},
-			enableGrail = {
-				order = 5,
-				type = "toggle",
-				name = L["Enable Grail"],
-				desc = L["Enables/Disables Grail Integration"],
-				get = function(info) return WoWPro.EnableGrail end,
-				set = function(info,val) 
-						if WoWPro.EnableGrail then
-						    WoWPro.EnableGrail = false
-						else
-						    WoWPro.EnableGrail = true
-						end
-						WoWProCharDB.EnableGrail = WoWPro.EnableGrail
-					end
-			},
-			checkGuides = {
-			    order = 6,
-			    type = "execute",
-			    name = L["Run the Guide Checker"],
-			    desc = L["Load every availible guide and check for errors."],
-			    image = "Interface\\RaidFrame\\ReadyCheck-Waiting",
-			    func =  function (info)
-			                WoWPro:LogClear("CheckGuides");
-    			            WoWPro:LoadAllGuides()
+                width = "double"
+            },
+            header4 = {
+                order = 50,
+                type = "header",
+                name = "Master Addon Tools",
+            },
+            resetGuide = {
+                order = 51,
+                type = "execute",
+                name = L["Reset WoWPro Addons"],
+                desc = L["If a WoWPro addon is behaving oddly, this wipes all saved state across all characters. Log out and back in again to complete the reset."],
+                image = "Interface\\Addons\\WoWPro\\Textures\\inv_misc_enggizmos_27",
+                func =  function (info)
+                            WoWPro:RESET()
+                            _G.PlaySound(1026) -- Rabitt death
                         end
-			},
-			QuestEngineDelay = {
-				order = 10,
-				type = "range",
-				name = L["Quest Engine Delay"],
-				desc = L["The amount of time to wait for the WoW client to update it's state."],
-				min = 0.1, max = 0.75, step = .05,
-				get = function(info) return WoWProDB.global.QuestEngineDelay end,
-				set = function(info,val) WoWProDB.global.QuestEngineDelay = val end
-			},
-		},
-	}
-	
-	profiles = LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB)
-	
-	dialog:SetDefaultSize("WoWPro-Bliz", 600, 400)
-	dialog:AddToBlizOptions("WoWPro-Bliz", "WoW-Pro")
+            },
+            resetLog = {
+                order = 52,
+                type = "execute",
+                name = L["Clear the log"],
+                desc = L["Wow-Pro's Debug Log"],
+                image = "Interface\\RaidFrame\\ReadyCheck-NotReady",
+                func =  function (info) WoWPro:LogClear("UI"); end
+            },
+            showLog = {
+                order = 53,
+                type = "execute",
+                name = L["Show the log"],
+                desc = L["Wow-Pro's Secret Debug Log"],
+                image = "Interface\\RaidFrame\\ReadyCheck-Ready",
+                func =  function (info) WoWPro:LogShow(); end
+            },
+            blank10 = {
+                order = 90,
+                type = "description",
+                name = " ",
+            },
+            aboutheader = {
+                order = 91,
+                type = "header",
+                name = "About WoW-Pro",
+            },
+            blank11 = {
+                order = 92,
+                type = "description",
+                name = " ",
+            },
+            about10 = {
+                order = 93,
+                type = "description",
+                fontSize = "medium",
+                name = "WoW-Pro.com is a guide website by gamers, for gamers. The site hosts hundreds of free guides covering every facet of World of Warcraft."
+            },
+            blank12 = {
+                order = 94,
+                type = "description",
+                name = " ",
+            },
+            about14 = {
+                order = 99,
+                type = "description",
+                fontSize = "medium",
+                name =
+                    "Over the years WoW-Pro has grown into a huge, active community of gamers. "
+            },
+            blank18 = {
+                order = 100,
+                type = "description",
+                name = " ",
+            },
+            about15 = {
+                order = 101,
+                type = "description",
+                fontSize = "medium",
+                name =
+                    "The WoW-Pro addon has brought many of the guides we've built as a community into the game, "..
+                    "and built on them since WoLK to BFA and now Classic. Drop by WoW-Pro.com or Discord and say hello!"
+            },
+            blank19 = {
+                order = 102,
+                type = "description",
+                name = "",
+                image = "Interface/AddOns/WoWPro/Textures/Discord",
+                imageWidth = 32,
+                imageHeight = 32,
+                width = "half"
+            },
+            about16 = {
+                order = 103,
+                type = "input",
+                name = "Discord",
+                get = function () return "https://discord.gg/aarduK7"; end,
+                set = function () return "https://discord.gg/aarduK7"; end,
+                icon = "Interface\\AddOns\\WoWPro\\Textures\\Discord",
+            },
+        },
+    })
 
-	-- Display Options
-	config:RegisterOptionsTable("WoWPro-Display", options.args.display)
-	dialog:AddToBlizOptions("WoWPro-Display", options.args.display.name, "WoW-Pro")
-	
+
+    dialog:SetDefaultSize("WoWPro-Bliz", 600, 400)
+    dialog:AddToBlizOptions("WoWPro-Bliz", "WoW-Pro")
+
+    -- Display Options
+    local display = CreateDisplayConfig()
+    config:RegisterOptionsTable("WoWPro-Display", display)
+    dialog:AddToBlizOptions("WoWPro-Display", display.name, "WoW-Pro")
+
     -- Selector Options
     config:RegisterOptionsTable("WoWPro-Selector", WoWPro:SelectorOptionsTable())
     dialog:AddToBlizOptions("WoWPro-Selector", "WoW-Pro Selector", "WoW-Pro")
-    
-	-- Profile Options
-	config:RegisterOptionsTable("WoWPro-Profile", profiles)
-	dialog:AddToBlizOptions("WoWPro-Profile", "WoW-Pro Profiles", "WoW-Pro")
+
+    -- Profile Options
+    config:RegisterOptionsTable("WoWPro-Profile", _G.LibStub("AceDBOptions-3.0"):GetOptionsTable(WoWProDB))
+    dialog:AddToBlizOptions("WoWPro-Profile", "WoW-Pro Profiles", "WoW-Pro")
 
     -- Expert Options
-    config:RegisterOptionsTable("WoWPro-Expert", expert)
-    dialog:AddToBlizOptions("WoWPro-Expert", "WoW-Pro Expert", "WoW-Pro")
+    local expert = {
+        name = L["WoW-Pro Expert"],
+        type = "group",
+        args = {
+            version = {
+                order = 1,
+                type = "description",
+                name = L["Version"]..": "..WoWPro.Version,
+            },
+            help = {
+                order = 2,
+                type = "description",
+                name = L["Expert settings for WoW-Pro's addons."],
+            },
+            blank = {
+                order = 3,
+                type = "description",
+                name = " ",
+            },
+            debugClasses = {
+                order = 4,
+                type = "toggle",
+                name = L["Debug Classes"],
+                desc = L["Enables/Disables loading of all class guides"],
+                get = function(info) return (WoWPro.DebugLevel > 0) and WoWPro.DebugClasses end,
+                set = function(info,val)
+                        if WoWPro.DebugClasses then
+                            WoWPro.DebugClasses = false
+                        else
+                            WoWPro.DebugClasses = (WoWPro.DebugLevel > 0)
+                        end
+                        WoWProCharDB.DebugClasses = WoWPro.DebugClasses
+                    end
+            },
+            EnableGrailQuestline = {
+                order = 5.0,
+                type = "toggle",
+                name = L["Grail Quest Lines"],
+                desc = L["Enables/Disables Grail Quest Line Integration"],
+                get = function(info) return WoWProCharDB.EnableGrailQuestline end,
+                set = function(info,val)
+                        if WoWProCharDB.EnableGrailQuestline then
+                            WoWProCharDB.EnableGrailQuestline = false
+                        else
+                            WoWProCharDB.EnableGrailQuestline = true
+                        end
+                    end
+            },
+            EnableGrailCheckPrereq = {
+                order = 5.1,
+                type = "toggle",
+                name = L["Grail Check PRE"],
+                desc = L["Enables/Disables Grail Quest Prerequistite Quest Checking"],
+                get = function(info) return WoWProCharDB.EnableGrailCheckPrereq end,
+                set = function(info,val)
+                        if WoWProCharDB.EnableGrailCheckPrereq then
+                            WoWProCharDB.EnableGrailCheckPrereq = false
+                        else
+                            WoWProCharDB.EnableGrailCheckPrereq = true
+                        end
+                    end
+            },
+            EnableGrailBreadcrumbs = {
+                order = 5.2,
+                type = "toggle",
+                name = L["Grail Check LEAD"],
+                desc = L["Enables/Disables Grail Quest Breadcrumb Quest Checking"],
+                get = function(info) return WoWProCharDB.EnableGrailBreadcrumbs end,
+                set = function(info,val)
+                        if WoWProCharDB.EnableGrailBreadcrumbs then
+                            WoWProCharDB.EnableGrailBreadcrumbs = false
+                        else
+                            WoWProCharDB.EnableGrailBreadcrumbs = true
+                        end
+                    end
+            },
+            EnableGrailQuestName = {
+                order = 5.3,
+                type = "toggle",
+                name = L["Grail Quest Name Check"],
+                desc = L["Enables/Disables Grail Quest Quest Name Checking"],
+                get = function(info) return WoWProCharDB.EnableGrailQuestName end,
+                set = function(info,val)
+                        if WoWProCharDB.EnableGrailQuestName then
+                            WoWProCharDB.EnableGrailQuestName = false
+                        else
+                            WoWProCharDB.EnableGrailQuestName = true
+                        end
+                    end
+            },
+            EnableGrailQuestLevel = {
+                order = 5.4,
+                type = "toggle",
+                name = L["Grail Quest Level Check"],
+                desc = L["Enables/Disables Grail Quest Quest Level Checking"],
+                get = function(info) return WoWProCharDB.EnableGrailQuestLevel end,
+                set = function(info,val)
+                        if WoWProCharDB.EnableGrailQuestLevel then
+                            WoWProCharDB.EnableGrailQuestLevel = false
+                        else
+                            WoWProCharDB.EnableGrailQuestLevel = true
+                        end
+                    end
+            },
+            EnableGrailQuestObsolete = {
+                order = 5.5,
+                type = "toggle",
+                name = L["Grail Obsolete Quest Check"],
+                desc = L["Enables/Disables Grail Quest Quest Obsolete Checking"],
+                get = function(info) return WoWProCharDB.EnableGrailQuestObsolete end,
+                set = function(info,val)
+                        if WoWProCharDB.EnableGrailQuestObsolete then
+                            WoWProCharDB.EnableGrailQuestObsolete = false
+                        else
+                            WoWProCharDB.EnableGrailQuestObsolete = true
+                        end
+                    end
+            },
 
-	return blizzPanel
+            checkGuides = {
+                order = 6,
+                type = "execute",
+                name = L["Run the Guide Checker"],
+                desc = L["Load every available guide and check for errors."],
+                image = "Interface\\RaidFrame\\ReadyCheck-Waiting",
+                func =  function (info)
+                            WoWPro:LogClear("CheckGuides");
+                            WoWPro:LoadAllGuides()
+                        end
+            },
+            QuestEngineDelay = {
+                order = 10,
+                type = "range",
+                name = L["Quest Engine Delay"],
+                desc = L["The amount of time to wait for the WoW client to update it's state."],
+                min = 0.1, max = 0.75, step = .05,
+                get = function(info) return WoWProDB.global.QuestEngineDelay end,
+                set = function(info,val) WoWProDB.global.QuestEngineDelay = val end
+            },
+        },
+    }
+    config:RegisterOptionsTable("WoWPro-Expert", expert)
+    dialog:AddToBlizOptions("WoWPro-Expert", expert.name, "WoW-Pro")
 end
 
 function WoWPro.CreateConfig()
-	blizzPanel = createBlizzOptions()
-	InterfaceOptions_AddCategory(WoWPro.GuideList)
-	InterfaceOptions_AddCategory(WoWPro.CurrentGuideFrame)
+    createBlizzOptions()
+    _G.InterfaceOptions_AddCategory(WoWPro.GuideList)
+    _G.InterfaceOptions_AddCategory(WoWPro.CurrentGuideFrame)
 end

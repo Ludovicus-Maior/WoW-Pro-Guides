@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/timeless_isle
+-- Date: 2019-10-16 00:01
+-- Who: Ludovicus_Maior
+-- Log: Avoid bad markup
+
+-- URL: http://wow-pro.com/node/3561/revisions/29911/view
 -- Date: 2018-10-17 02:22
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -123,7 +128,7 @@ C Croaking Hollow|QID|33161|M|67.6, 66.7|QO|2|
 C Cavern of Lost Spirits|QID|33161|M|43.36,40.59|QO|1|
 C Misty Strand|QID|33161|M|29.4,28.9|QO|4|
 N Huojin Landing|QID|33161|M|21.8,39.8|FACTION|Alliance|N|This is where the Horde NPCs live.  Get close so you know where it is and stay away. Click once you have memorized the danger zone.|
-N Albatross up High|QID|33161|M|33.88,55.22|ACTIVE|33161|N|Learn to ride a bird and where it goes. Target an Albatross, attack, and it will pick you up. Beat it down to near death and it will move on. If you use AOE abilities, you may get taken by another bird. When you get back to where you started, kill it. Slow falls, parachutes, etc. are helpful.\nFeral Druids: You must use [Might of Ursoc] or [Prowl] or [Dash] to force the shapeshift.|T|Highwind Albatross|
+N Albatross up High|QID|33161|M|33.88,55.22|ACTIVE|33161|N|Learn to ride a bird and where it goes. Target an Albatross, attack, and it will pick you up. Beat it down to near death and it will move on. If you use AOE abilities, you may get taken by another bird. When you get back to where you started, kill it. Slow falls, parachutes, etc. are helpful.\nFeral Druids: You must use {Might of Ursoc} or {Prowl} or {Dash} to force the shape-shift.|T|Highwind Albatross|
 R Inkeeper|QID|33161|M|36.59,46.83|N|Say hello to Graceful Swan, your Innkeeper.|T|Graceful Swan|
 R Mail-Grummie|QID|33161|M|36.91,46.83|N|Say hello to Hopswift, chat with him to get your mail.|T|Hopswift|
 T A Timeless Tour|QID|33161|M|34.54,53.63|N|To Kairoz.|

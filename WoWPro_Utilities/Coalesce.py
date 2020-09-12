@@ -17,16 +17,16 @@ def MeldPair(XYs, minDelta):
         for idx in range(IDX+1,len(XYs)):
             if idx == IDX: continue
             d = Delta(XYs[IDX],XYs[idx])
-#            print "# [%d,%d] %s -> %s delta %g" % (IDX,idx,XYs[IDX],XYs[idx],d)
+#            print("# [%d,%d] %s -> %s delta %g" % (IDX,idx,XYs[IDX],XYs[idx],d))
             if (d < delta):
-                print "Candidates to merge %s and %s with distance %g" % (XYs[IDX],XYs[idx],d)
+                print("Candidates to merge %s and %s with distance %g" % (XYs[IDX],XYs[idx],d))
                 lowIDX=IDX
                 highIDX=idx
                 delta = d
     if delta > minDelta:
         return XYs,1000
     
-    print "Merging %d and %d" % (lowIDX,highIDX)
+    print("Merging %d and %d" % (lowIDX,highIDX))
     XY1=XYs[lowIDX]
     XY2=XYs[highIDX]
     XYs.remove(XY1)
@@ -39,14 +39,16 @@ def MeldPair(XYs, minDelta):
 def Coalesce(minDelta,coords):
     # First split along the semi-colons
     CoordSet= coords.split(';')
-    print "Found %d Coordinates" % ( len(CoordSet))
+    print("Found %d Coordinates" % (len(CoordSet)))
     if len(CoordSet) == 1:
-        print "Assuming WoWHead format."
-        coords = string.replace(coords,"],[",";")
-        coords = string.replace(coords,"[","")
-        coords = string.replace(coords,"]","")
+        print("Assuming WoWHead format.")
+        coords = coords.replace("],",";")
+        coords = coords.replace("[","")
+        coords = coords.replace("]","")
+        print(coords)
         CoordSet= coords.split(';')
-        print "Found %d Coordinates" % ( len(CoordSet))
+        print(CoordSet)
+        print("Found %d Coordinates" % ( len(CoordSet)))
     
     
     # Now split along the commas and create the numeric form
@@ -54,7 +56,7 @@ def Coalesce(minDelta,coords):
     for coord in CoordSet:
         C=coord.split(',')
         if(len(C) != 2):
-            print "! Bad coord length [%s]" % (coord)
+            print("! Bad coord length [%s]" % (coord))
             return None
         xy=[]
         for xx in C:
@@ -64,7 +66,7 @@ def Coalesce(minDelta,coords):
             except:
                 x = -1
                 if( x < 0 or x > 100):
-                    print "! Bad coord value %s: [%s]" % (coord)
+                    print("! Bad coord value %s: [%s]" % (coord))
                     return None               
         
         XYs.append(xy)
@@ -72,7 +74,7 @@ def Coalesce(minDelta,coords):
     actualDelta = 0
     while actualDelta <= minDelta:
         XYs,actualDelta = MeldPair(XYs,minDelta)
-        print "List now has %d elements" % len(XYs)
+        print("List now has %d elements" % len(XYs))
     
     firstItem=True
     for xy in XYs:
@@ -80,7 +82,7 @@ def Coalesce(minDelta,coords):
             sys.stdout.write(";")
         firstItem = False
         sys.stdout.write("%2.2f,%2.2f" %(xy[0],xy[1]))
-    print 
+    print()
     return None
         
             
@@ -88,7 +90,7 @@ def Coalesce(minDelta,coords):
 if __name__ == "__main__":
     minDelta = 2.0
     for arg in sys.argv[1:]:
-        if string.find(arg,",") >= 0:
+        if arg.find(",") >= 0:
             Coalesce(minDelta,arg)
         else:
             minDelta = float(arg)

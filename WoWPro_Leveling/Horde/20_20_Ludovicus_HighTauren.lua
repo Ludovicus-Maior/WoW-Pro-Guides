@@ -4,6 +4,16 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/legion_allied_races_guides
+-- Date: 2020-08-14 15:32
+-- Who: Ludovicus_Maior
+-- Log: ThunderTotem/6 => Thunder Totem
+
+-- URL: http://wow-pro.com/node/3778/revisions/30383/view
+-- Date: 2019-08-25 17:02
+-- Who: Ludovicus_Maior
+-- Log: ThunderTotem update
+
+-- URL: http://wow-pro.com/node/3778/revisions/30071/view
 -- Date: 2018-10-23 21:54
 -- Who: Ludovicus_Maior
 -- Log: And/Or
@@ -13,7 +23,7 @@
 -- Who: Ludovicus_Maior
 -- Log: Legion Allied Races Guides
 
-local guide = WoWPro:RegisterGuide("LudoHighTauren", "Leveling", "ThunderTotem", "Ludovicus", "Horde")
+local guide = WoWPro:RegisterGuide("LudoHighTauren", "Leveling", "Thunder Totem", "Ludovicus", "Horde")
 WoWPro:GuideLevels(guide,20,20)
 WoWPro:GuideRaceSpecific(guide,"HighmountainTauren")
 WoWPro:GuideNextGuide(guide, "JiySto2530")
@@ -21,8 +31,8 @@ WoWPro:GuideIcon(guide,"ACH",12245)
 WoWPro:GuideSteps(guide, function()
 return
 [[
-A For the Horde|QID|49773|M|54.78,63.28|Z|ThunderTotem/6|N|From Mayla Highmountain.|
-P Orgrimmar|ACTIVE|49773|M|45.95, 63.79|Z|ThunderTotem/6|N|Click on the portal to go to Orgrimmar|
+A For the Horde|QID|49773|M|54.78,63.28|Z|Thunder Totem|N|From Mayla Highmountain.|
+P Orgrimmar|ACTIVE|49773|M|45.95, 63.79|Z|Thunder Totem|N|Click on the portal to go to Orgrimmar|
 T For the Horde|QID|49773|M|39.39,79.58|Z|Orgrimmar@Orgrimmar|N|To Ambassador Blackguard|
 A Stranger in a Strange Land|QID|50319|PRE|49773|M|39.39,79.58|Z|Orgrimmar@Orgrimmar|N|From Ambassador Blackguard|
 C Hero's Call board|QID|50319|M|49.66, 76.47|Z|Orgrimmar@Orgrimmar|N|Click on the Hero's Call board and select your next zone.\n By default, this guide will go to Stonetalon, if you don't choose anything.|

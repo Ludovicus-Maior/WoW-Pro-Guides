@@ -94,7 +94,7 @@
 -- URL: http://wow-pro.com/node/3490/revisions/25771/view
 -- Date: 2013-10-07 00:13
 -- Who: Fluclo
--- Log: Corrected the Edit link on page; Added NC to appropriate steps, changed valuable rare loots to Rank 3 steps, syncronised similar quests for each faction; made the steps for Fire Camp Ordo individual to help guide user to each spot needed; fixed faulty steps around At the Yak Wash; 
+-- Log: Corrected the Edit link on page; Added NC to appropriate steps, changed valuable rare loots to Rank 3 steps, syncronised similar quests for each faction; made the steps for Fire Camp Ordo individual to help guide user to each spot needed; fixed faulty steps around At the Yak Wash;
 
 -- URL: http://wow-pro.com/node/3490/revisions/25766/view
 -- Date: 2013-09-25 01:50
@@ -160,7 +160,7 @@
 -- URL: http://wow-pro.com/node/3490/revisions/25217/view
 -- Date: 2012-11-27 18:46
 -- Who: Emmaleah
--- Log:  added NC) Added to check off manually on the rare "lost" items.
+-- Log: changed looting grey items from l to C (& added NC) Added to check off manually on the rare "lost" items.
 
 -- URL: http://wow-pro.com/node/3490/revisions/25215/view
 -- Date: 2012-11-25 22:21
@@ -172,7 +172,7 @@
 -- Who: Emmaleah
 -- Log: 3 Nov 2012 - Emmaleah - changed coords/note for C Do a Barrel Roll, added change log.
 --	TO DO: I notice the loot grey items worth gold/xp arent autochecking off. (when there in no item (doh!) going to try adding CC tags. will update if that works.  Anyone else have any other ideas?
---	
+--
 
 -- URL: http://wow-pro.com/node/3490/revisions/25177/view
 -- Date: 2012-11-02 04:12
@@ -238,7 +238,7 @@
 -- URL: http://wow-pro.com/node/3490/revisions/25057/view
 -- Date: 2012-08-28 19:31
 -- Who: Ludovicus_Maior
--- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07. 
+-- Log: Submitted by Emmaleah on Sat, 2012-08-18 15:07.
 
 local guide = WoWPro:RegisterGuide('EmmKun8889', "Leveling", 'Kun-Lai Summit', 'Emmaleah', 'Neutral')
 WoWPro:GuideLevels(guide,87,89,87.007)
@@ -452,7 +452,7 @@ A Cho's Missive|QID|31459|FACTION|Horde|M|62.67,80.65|N|From Shademaster Kiryn.|
 A Muskpaw Ranch|QID|31457|LEAD|30488|PRE|30661^30663|FACTION|Horde|M|62.55,79.53|N|From Farmhand Ko.|
 A Temple of the White Tiger|QID|31393|LEAD|31395|FACTION|Horde|M|2.55,79.53|N|From Farmhand Ko.|
 
-R Lao&Son's Yakwash|QID|31456^31457|M|70.13,70.24|N|Head to Lao&Son's Yakwash, located north-east.|
+R Lao & Son's Yakwash|QID|31456^31457|M|70.13,70.24|N|Head to Lao & Son's Yakwash, located north-east.|
 T Muskpaw Ranch|QID|31456^31457|M|71.50,70.04|N|To Lao Muskpaw, he walkes back and forth between the two buildings.|
 A The Missing Muskpaw|QID|30488|M|71.50,70.04|N|From Lao Muskpaw.|
 A Fresh Needle Scent|QID|30489|M|71.50,70.04|N|From Lao Muskpaw.|
@@ -463,8 +463,8 @@ T The Missing Muskpaw|QID|30488|M|74.96,74.52|N|To Muskpaw Jr. He is in the back
 A At the Yak Wash|QID|30491|PRE|30488|M|74.96,74.52|N|From Muskpaw Jr. \nYou can ride Jr's Yak out of the cave and leave vehicle when you are out.|
 C Fresh Needle Scent|QID|30489|US|M|71.50,70.04|N|Finish killing and looting the Needle Sprite's|
 
-R Lao&Son's Yakwash|QID|30491|M|75.00,74.53|N|Head back to Lao&Son's Yakwash, you can jump onto Tuffi and have him ride you there if you're still at the back of the cave.|
-C At the Yak Wash|QID|30491|S|N|Locate an Escaped Yak, jump on, then ride it to Lao&Son's Yakwash. Repeat until all six are done.|
+R Lao & Son's Yakwash|QID|30491|M|75.00,74.53|N|Head back to Lao & Son's Yakwash, you can jump onto Tuffi and have him ride you there if you're still at the back of the cave.|
+C At the Yak Wash|QID|30491|S|N|Locate an Escaped Yak, jump on, then ride it to Lao & Son's Yakwash. Repeat until all six are done.|
 K Burilgi Despoiler|QID|30587|N|Kill and loot a Burilgi Despoiler to obtain a quest.|
 A Yakity Yak|QID|30587|PRE|30488|M|71.67,73.56|N|This quest is auto-accepted|
 A The Late Mrs. Muskpaw|QID|30582|U|80241|N|Click the bracelet to obtain this quest.|
@@ -473,7 +473,7 @@ A The Fearmaster|QID|30804|PRE|30582|M|71.30,69.68|N|From Lao Muskpaw.|
 T Fresh Needle Scent|QID|30489|M|71.42,69.75|N|To Lao Muskpaw.|
 C Yakity Yak|QID|30587|S|M|69.94,72.81|N|Kill the Burilgi Despoiler's|
 K The Fearmaster|T|The Fearmaster|QO|1|QID|30804|M|68.20,74.70|N|Kill The Fearmaster|
-C At the Yak Wash|QID|30491|US|M|71.39,69.05|N|Finish bringing the Escaped Yak to Lao&Son's Yakwash.|
+C At the Yak Wash|QID|30491|US|M|71.39,69.05|N|Finish bringing the Escaped Yak to Lao & Son's Yakwash.|
 C Yakity Yak|QID|30587|US|M|69.94,72.81|N|Finish killing the Burilgi Despoiler's|
 
 T Yakity Yak|QID|30587|M|71.42,69.75|N|To Lao Muskpaw.|

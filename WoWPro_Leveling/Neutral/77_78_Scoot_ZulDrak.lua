@@ -4,6 +4,17 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/source_code_zul039drak_neutral
+-- Date: 2020-07-17 22:10
+-- Who: Ludovicus_Maior
+-- Log: Quest 12954 is obsolete.
+--	But the P:X9977 tag in Grail is a mystery.  Ignore.
+
+-- URL: http://wow-pro.com/node/3295/revisions/30491/view
+-- Date: 2020-04-07 22:28
+-- Who: Ludovicus_Maior
+-- Log: corrected [WANTED: Ragemane's Flipper]
+
+-- URL: http://wow-pro.com/node/3295/revisions/30023/view
 -- Date: 2018-10-17 02:30
 -- Who: Ludovicus_EditBot
 -- Log: And/Or Edit
@@ -110,7 +121,7 @@
 -- URL: http://wow-pro.com/node/3295/revisions/24757/view
 -- Date: 2011-10-10 17:34
 -- Who: Crackerhead22
--- Log: Created neutral guide, credit to Gethe. 
+-- Log: Created neutral guide, credit to Gethe.
 
 -- URL: http://wow-pro.com/node/3295/revisions/24750/view
 -- Date: 2011-09-21 08:37
@@ -163,15 +174,15 @@ A This Just In: Fire Still Hot! |QID|12859|M|32.0,75.6|N|From Elder Shaman Moky.
 A Trolls Is Gone Crazy! |QID|12861|M|32.2,75.7|N|From Chief Rageclaw.|
 A In Search Of Answers |QID|12902|M|32.2,75.7|N|From Crusader Lord Lantinga.|
 
-A Wanted: Ragemane's Flipper |QID|12857|N|From Wanted!|M|32.26,75.67|
+A WANTED: Ragemane's Flipper |QID|12857|N|From Wanted!|M|32.26,75.67|
 C This Just In: Fire Still Hot! |QID|12859|S|N|Use the fire extinguisher on the burning huts. Each fire will take multiple hits.|U|41131|M|34.9,81.0|
 C Trolls Is Gone Crazy! |QID|12861|N|Kill and loot Drakuru Trolls to get "Lock Openers". Use the "Lock Openers" next to the chains to free the Captured Rageclaws.|U|41161|M|34.9,81.0|S|
 T In Search Of Answers |QID|12902|N|To Orders From Drakuru, the glowing blue scroll on the pedestal at Rageclaw Den.|M|34.92,83.84|
 A Orders From Drakuru |QID|12883|PRE|12902|M|34.9,83.9|N|From Orders From Drakuru.|
 C Trolls Is Gone Crazy! |QID|12861|N|Finish freeing the Captured Rageclaws.|U|41161|M|34.9,81.0|US|
 C This Just In: Fire Still Hot! |QID|12859|US|N|Use the fire extinguisher on the burning huts. Each fire will take multiple hits.|U|41131|M|34.9,81.0|
-C Wanted: Ragemane's Flipper |QID|12857|N|Head out into the middle of the pond and kill Ragemane and loot his flipper.|M|38.2,85.6|
-T Wanted: Ragemane's Flipper |QID|12857|N|To Chief Rageclaw.|M|32.2,75.7|
+C WANTED: Ragemane's Flipper |QID|12857|N|Head out into the middle of the pond and kill Ragemane and loot his flipper.|M|38.2,85.6|
+T WANTED: Ragemane's Flipper |QID|12857|N|To Chief Rageclaw.|M|32.2,75.7|
 
 T This Just In: Fire Still Hot! |QID|12859|N|To Elder Shaman Moky at Light's Breach.|M|32.0,75.6|
 T Trolls Is Gone Crazy! |QID|12861|M|32.2,75.7|N|To Chief Rageclaw.|
@@ -547,10 +558,11 @@ A Unfinished Business |QID|29833|N|From Har'koa. This quest is optional as it le
 N Amphitheater of Anguish |QID|12948|N|If you haven't gotten the achievement yet (and you know you want it), get a group up for the Amphitheater of Anguish. |
 
 t The Champion's Call! |QID|12974|N|To Gurgthock.|M|48.43,56.35|
-A The Amphitheater of Anguish: Yggdras!|QID|12932^12954|M|48.43,56.35|N|Welcome Champion of The Ring of Blood. From Gurgthock|
-C The Amphitheater of Anguish: Yggdras!|QID|12932^12954|M|48.00,57.00|N|L75 Worm.|
-T The Amphitheater of Anguish: Yggdras!|QID|12954^12932|M|48.48,56.42|N|To Wodin the Troll-Servant.|
-A The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.43,56.35|N|From Gurgthock.|PRE|12932^12954|
+; Grail has a  P:X9977 tag for 12932, and I dunno what it means.
+A The Amphitheater of Anguish: Yggdras!|QID|12932|M|48.43,56.35|N|Welcome Champion of The Ring of Blood. From Gurgthock|
+C The Amphitheater of Anguish: Yggdras!|QID|12932|M|48.00,57.00|N|L75 Worm.|
+T The Amphitheater of Anguish: Yggdras!|QID|12932|M|48.48,56.42|N|To Wodin the Troll-Servant.|
+A The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.43,56.35|N|From Gurgthock.|PRE|12932|
 C The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.00,57.00|N|L75 Stinky Magnataur.|
 T The Amphitheater of Anguish: Magnataur!|QID|12933|M|48.48,56.42|N|To Wodin the Troll-Servant.|
 A The Amphitheater of Anguish: From Beyond!|QID|12934|M|48.43,56.35|N|From Gurgthock.|PRE|12933|

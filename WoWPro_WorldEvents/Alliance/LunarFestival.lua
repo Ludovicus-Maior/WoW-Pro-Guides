@@ -178,7 +178,7 @@ F Gadgetzan|N|Fly to Gadgetzan.|QID|8684|M|40.04,77.55|Z|Tanaris|
 A Dreamseer the Elder|N|From Dreamseer the Elder.|QID|8684|M|51.40,28.80|Z|Tanaris|
 R Zul'Farrak|N|Run into Zul'Farrak.|QID|8676|M|39.23,21.21|Z|Tanaris|RANK|2|
 A Wildmane the Elder|N|From Wildmane the Elder.|QID|8676|M|34.49,39.36|Z|ZulFarrak|RANK|2|
-F Fizzle&Pozzik's Speedbarge|N|Fly to Fizzle&Pozzik's Speedbarge.|QID|8724|M|51.36,29.48|Z|Tanaris|
+F Fizzle & Pozzik's Speedbarge|N|Fly to Fizzle & Pozzik's Speedbarge.|QID|8724|M|51.36,29.48|Z|Tanaris|
 A Morningdew the Elder|N|From Morningdew the Elder.|QID|8724|M|77.08,75.61|Z|Thousand Needles|
 A Skyseer the Elder|N|From Skyseer the Elder.|QID|8682|M|46.34,51.01|Z|Thousand Needles|
 F Ratchet|N|Fly to Ratchet.|QID|8680|M|79.15,71.93|Z|Thousand Needles|

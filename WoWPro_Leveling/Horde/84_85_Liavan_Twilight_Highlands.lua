@@ -536,21 +536,21 @@ T Last of Her Kind|QID|28247|M|59.06,69.78|N|To Lirastrasza.|
 A Crushblow|QID|28249|PRE|28247|M|59.06,69.78|N|From Lirastrasza.|
 
 T Crushblow|QID|28249|M|45.32,75.42|N|To Warlord Zaela.|
-A Ogres&Ettins|QID|27493|PRE|28249|M|45.32,75.42|N|From Warlord Zaela.|
+A Ogres & Ettins|QID|27493|PRE|28249|M|45.32,75.42|N|From Warlord Zaela.|
 A Kor'kron Drop|QID|27491|PRE|28249|M|45.32,75.42|N|From Lady Cozwynn.|
 A Call in the Artillery|QID|27497|PRE|28249|M|45.32,75.42|N|From Lady Cozwynn.|
 f Crushblow|QID|27497|M|45.68,76.25|N|At Tokrog.|
 
 C Kor'kron Drop|QID|27491|M|45.72,76.02|QO|1|N|Talk to Jon-Jon right next to flight master.|
 C Kor'kron Drop|QID|27491|M|39.17,64.57|QO|2|N|Fly northwest. X on ground marks the spot.|
-C Ogres&Ettins|QID|27493|M|42.47,71.21|S|
+C Ogres & Ettins|QID|27493|M|42.47,71.21|S|
 C Northern building|QID|27497|U|61367|M|39.10,62.51|QO|1|; Northern building targeted: 1/1
 C Northeastern building|QID|27497|U|61367|M|40.93,64.18|QO|2|; Northeastern building targeted: 1/1
 C Southwestern building|QID|27497|U|61367|M|39.88,69.25|QO|3|; Southwestern building targeted: 1/1
 C Southern building|QID|27497|U|61367|M|41.25,72.70|QO|4|
-C Ogres&Ettins|QID|27493|M|42.47,71.21|US|
+C Ogres & Ettins|QID|27493|M|42.47,71.21|US|
 
-T Ogres&Ettins|QID|27493|M|45.26,75.42|N|To Warlord Zaela.|
+T Ogres & Ettins|QID|27493|M|45.26,75.42|N|To Warlord Zaela.|
 T Kor'kron Drop|QID|27491|M|45.26,75.42|N|To Lady Cozwynn.|
 T Call in the Artillery|QID|27497|M|45.26,75.42|N|To Lady Cozwynn.|
 A Move the Mountain|QID|27495|PRE|27491&27493&27497|M|45.26,75.42|N|From Warlord Zaela.|
