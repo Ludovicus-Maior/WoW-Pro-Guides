@@ -5,7 +5,7 @@
 -- Determine Next Active Step (Leveling Module Specific)--
 -- This function is called by the main NextStep function in the core broker --
 function WoWPro.Leveling:NextStep(k, skip)
-    local myFaction = _G.UnitFactionGroup("player"):upper()
+    local myFaction = WoWPro.Faction:upper()
 
     -- Skip Faction qualified steps
     if WoWPro.faction[k] then

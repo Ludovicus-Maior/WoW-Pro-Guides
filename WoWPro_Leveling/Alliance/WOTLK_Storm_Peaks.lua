@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide("CybSto7980", "Leveling", "The Storm Peaks", "Cyberlamb", "Alliance")
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, "EstIce7985")
+WoWPro:GuideSort(guide, 8)
+WoWPro:GuideNickname(guide, "Storm Peaks")
+WoWPro:GuideName(guide,"Storm Peaks")
+WoWPro:GuideNextGuide(guide, "Icecrown")
 WoWPro:GuideSteps(guide, function()
 return [[
 N READ THIS!|QID|12818|N|This guide picks up only non-group, non-instance quests.|
@@ -17,7 +19,7 @@ C Reclaimed Rations|QID|12827|N|Either click on the crates in the camps, or loot
 C Clean Up|QID|12818|N|Loot the Charred Wreckage from the ground in and around the smoldering crash site.|M|39,86|NC|
 C Expression of Gratitude|QID|12836|N|Kill Gnarlhide.|M|30.4,85.6|T|Gnarlhide|
 C Reclaimed Rations|QID|12827|N|Finish collecting the Dried Gnoll Rations from either the crates in the camps or by killing the gnolls.|US|L|40645 16|M|30.4,85.8;31.7,85.5;34.9,83.7;34.9,82.6|CN|
-F Sifreldar Village |QID|12844|N|Fly up to Sifreldar Village.|M|40.1,75.1|
+F Sifreldar Village|QID|12844|N|Fly up to Sifreldar Village.|M|40.1,75.1|
 C Equipment Recovery|QID|12844|N|Click on the boxes in this area and loot 8 K3 Equipment.|S|
 C They Took Our Men!|QID|12843|N|Kill Sifreldar mobs, loot cage keys and release 5 Goblin Prisoners.|M|40.7,72.6|
 C Equipment Recovery|QID|12844|N|Click on the boxes in this area and loot 8 K3 Equipment.|US|
@@ -120,15 +122,15 @@ T Making a Harness|QID|12900|N|To Astrid Bjornrittar.|M|49.7,71.7|
 A The Last of Her Kind|QID|12983|PRE|12900|N|From Astrid Bjornrittar.|M|49.7,71.7|
 A The Slithering Darkness|QID|12989|PRE|12900|N|From Astrid Bjornrittar.|M|49.7,71.7|
 A Aberrations|QID|12925|PRE|12841|N|From Thyra Kvinnshal.|M|48.4,72.1|
-A Off With Their Black Wings|QID|12942|PRE|12841|N|From Iva the Vengeful |M|48.3,72.1|
-A Yulda's Folly|QID|12968|PRE|12841|N|From Iva the Vengeful |M|48.3,72.1|
+A Off With Their Black Wings|QID|12942|PRE|12841|N|From Iva the Vengeful|M|48.3,72.1|
+A Yulda's Folly|QID|12968|PRE|12841|N|From Iva the Vengeful|M|48.3,72.1|
 C The Slithering Darkness|QID|12989|N|Enter the cave and kill 8 Ravenous Jormungar.|M|55.91,64.26|
 C The Last of Her Kind|QID|12983|N|Find the Injured Icemaw Matriarch toward the back of the cave, mount her and ride out.|M|54.75,60.25|U|42838|
 T The Last of Her Kind|QID|12983|N|To Astrid Bjornrittar.|M|49.7,71.7|
-A The Warm-Up |QID|12996|PRE|12983|N|To From Astrid Bjornrittar.|M|49.7,71.7|
+A The Warm-Up|QID|12996|PRE|12983|N|To From Astrid Bjornrittar.|M|49.7,71.7|
 T The Slithering Darkness|QID|12989|N|To Astrid Bjornrittar.|M|49.7,71.7|
-C The Warm-Up |QID|12996|N|Use the Reins of the Icemaw Matriarch to summon a bear and use the controls to defeat Kirgaraak.|M|50.6,67.6|U|42481|
-T The Warm-Up |QID|12996|N|To Astrid Bjornrittar.|M|49.7,71.7|
+C The Warm-Up|QID|12996|N|Use the Reins of the Icemaw Matriarch to summon a bear and use the controls to defeat Kirgaraak.|M|50.6,67.6|U|42481|
+T The Warm-Up|QID|12996|N|To Astrid Bjornrittar.|M|49.7,71.7|
 A Into the Pit|QID|12997|PRE|12996|N|From Astrid Bjornrittar.|M|49.7,71.7|
 C Into the Pit|QID|12997|N|Use the Reins of the Warbear Matriarch to summon a bear and use the controls to defeat 6 Hyldsmeet Warbear.|M|50,65|U|42499|
 T Into the Pit|QID|12997|N|To Astrid Bjornrittar.|M|49.7,71.7|
@@ -137,7 +139,7 @@ T Prepare for Glory|QID|13061|N|To Lok'lira the Crone.|M|47.4,69.0|
 A Lok'lira's Parting Gift|QID|13062|PRE|13061|N|From Lok'lira the Crone.|M|47.4,69.0|
 T Lok'lira's Parting Gift|QID|13062|N|To Gretta the Arbiter.|M|50.8,65.5|
 A The Drakkensryd|QID|12886|PRE|13062|N|From Gretta the Arbiter.|M|50.8,65.5|
-C The Drakkensryd|QID|12886|N|Use the Hyldnir Harpoon to jump from drake to drake and kill 10 Hyldsmeet Drake-Rider. Jump to Column Ornaments if you need to heal and when you complete the quest |U|41058|
+C The Drakkensryd|QID|12886|N|Use the Hyldnir Harpoon to jump from drake to drake and kill 10 Hyldsmeet Drake-Rider. Jump to Column Ornaments if you need to heal and when you complete the quest|U|41058|
 T The Drakkensryd|QID|12886|N|To Thorim.|M|33.4,58.0|
 A Sibling Rivalry|QID|13064|PRE|12886|N|From Thorim.|M|33.4,58.0|
 C Sibling Rivalry|QID|13064|N|Step through dialogue with Thorim.|M|33.4,58.0|
@@ -342,6 +344,6 @@ A The Iron Colossus|QID|13007|PRE|12998|N|From Bouldercrag the Rockshaper.|M|31.
 N The Iron Colossus|QID|13007|N|Click on a Jormunger Control orb.|M|26.30,35.72|
 C The Iron Colossus|QID|13007|N|Use the Tamed Jormungar to defeat the Iron Colossus. Use lots of acid. When he Ground Slams, go under and stafe left/right/behind.|M|28.2,47.4|
 T The Iron Colossus|QID|13007|N|To Bouldercrag the Rockshaper.|M|31.4,38.0|
-N The End |N|End of The Storm Peaks. Move on to Icecrown.|
+N The End|N|End of The Storm Peaks. Move on to Icecrown.|
 ]]
 end)

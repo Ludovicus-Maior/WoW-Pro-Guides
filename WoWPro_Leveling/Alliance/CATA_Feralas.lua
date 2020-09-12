@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide('WkjFer3540', "Leveling", 'Feralas', 'WKjezz', 'Alliance')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'WkjTho4045')
+WoWPro:GuideSort(guide, 24)
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 R Feralas|QID|14410|M|42.81,97.92|Z|Desolace|N|Run to Feralas.|

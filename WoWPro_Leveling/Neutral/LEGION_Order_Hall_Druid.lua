@@ -1,9 +1,10 @@
 local guide = WoWPro:RegisterGuide('EmmLegionDruid', 'Leveling', 'TheDreamgrove', 'Emmaleah', 'Neutral')
-WoWPro:GuideName(guide, 'Druid Order Hall')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, "Blanc_Suramar")
+WoWPro:GuideLevels(guide, 10, 50, 10)
+WoWPro:GuideSort(guide, 3)
+WoWPro:GuideName(guide, 'Druid: Order Hall')
+WoWPro:GuideNickname(guide, "Druid: Order Hall")
+WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
 WoWPro:GuideClassSpecific(guide,"Druid")
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
@@ -443,6 +444,9 @@ A Making Trails|QID|40653|M|52.57,51.45|N|From Skylord Omnuron. Choose which zon
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|ACTIVE|40653|
 T Making Trails|QID|40653|N|To Skylord Omnuron.|
 f The Dreamgrove|QID|42438|M|61.70,33.74|N|At Danise Stargazer.|
+
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+
 P Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|56.51,43.07|N|Take the portal to travel to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
 ;4th spec
 A Weapons of the Ancient|QID|44443|M|44.55,51.02|N|From Rensar Greathoof.|PRE|44431|ACH|11174;;true|

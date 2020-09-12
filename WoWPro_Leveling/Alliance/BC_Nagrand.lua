@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide("JamNag6668", "Leveling", "Nagrand", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, "JamBla6870")
+WoWPro:GuideSort(guide, 4)
+WoWPro:GuideNickname(guide, "Nagrand BC")
+WoWPro:GuideName(guide,"Nagrand")
+WoWPro:GuideNextGuide(guide, "Blade's Edge Mountains")
 WoWPro:GuideSteps(guide, function()
 return [[
 R Nagrand|QID|9792|N|Go to Nagrand.|M|20.30,55.60|

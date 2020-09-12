@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide("JamBla6870", "Leveling", "Blade's Edge Mountains", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, "JamBor6872")
+WoWPro:GuideSort(guide, 5)
+WoWPro:GuideNickname(guide, "Blade's Edge Mountains")
+WoWPro:GuideName(guide,"Blade's Edge Mountains")
+WoWPro:GuideNextGuide(guide, "Shadowmoon Valley BC")
 WoWPro:GuideSteps(guide, function()
 return [[
 H Shattrath City|QID|9794|N|Hearth to Shattrath City.|

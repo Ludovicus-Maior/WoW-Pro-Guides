@@ -1,6 +1,7 @@
 local guide = WoWPro:RegisterGuide('CagER0110', "Leveling", "Exile's Reach!Instance", 'Cagomei', 'Alliance')
-WoWPro:GuideLevels(guide,1,10)
-WoWPro:GuideNickname(guide, "Exiles Reach Alliance")
+WoWPro:GuideLevels(guide, 1, 10)
+WoWPro:GuideSort(guide, 1)
+WoWPro:GuideNickname(guide, "Exile's Reach")
 WoWPro:GuideName(guide,"Exile's Reach")
 WoWPro:GuideNextGuide(guide, 'BurnTedrazilSTrek')
 WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_Nightelf_Male","Interface\\Icons\\Achievement_Character_Nightelf_Female"))
@@ -110,8 +111,8 @@ T A Warrior's End|QID|58914|M|52.29,47.52|C|Warrior|N|Turn into Hjalmar the Undy
 A Hjalmar's Final Execution|QID|58915|M|52.29,47.52|C|Warrior|N|From Hjalmar the Undying.|PRE|58914|
 C Hjalmar's Final Execution|QID|58915|M|52.29,47.52|C|Warrior|N|Chat to trigger the fight with Hjalmar the Undying and finish him off with the Execute ability.|C|Warrior|
 C A Paladin's Service|QID|58923|M|57.56,52.13|C|Paladin|CHAT|N|Speak with the Ghost of Yorah.|C|Paladin|
-T A Paladin's Service|QID|58923|M|57.56,52.13|C|Paladin|N|Turn into Yorah|
-A The Divine's Shield|QID|58946|M|57.56,52.13|C|Paladin|N|From Yorah|PRE|58923|
+T A Paladin's Service|QID|58923|M|57.56,52.13|C|Paladin|N|Turn into Yorah.|
+A The Divine's Shield|QID|58946|M|57.56,52.13|C|Paladin|N|From Yorah.|PRE|58923|
 C The Divine's Shield|QID|58946|M|57.56,52.13|C|Paladin|QO|1|NC|N|Cast Divine Shield to cross the barrier and destroy the alter.|C|Paladin|
 C The Divine's Shield|QID|58946|M|57.56,52.13|C|Paladin|QO|2|NC|N|Destroy the Necrotic Alter.|C|Paladin|
 T The Divine's Shield|QID|58946|M|57.56,52.13|C|Paladin|N|Turn into Yorah.|
@@ -139,7 +140,7 @@ A Message to Base|QID|55882|M|56.84,46.29|N|From Henry Garrick.|PRE|55764&55881&
 T Message to Base|QID|55882|M|52.35,55.26|N|Turn into Captain Garrick.|
 T Hjalmar's Final Execution|QID|58915|M|52.29,47.52|C|Warrior|N|Turn into Private Cole.|
 T Message to Base|QID|55882|M|52.35,55.26|N|Turn into Captain Garrick.|
-A A Hunter's Trap|QID|59355|M|52.35,55.26|C|Hunter|N|From Austin Huxworth|PRE|55882|
+A A Hunter's Trap|QID|59355|M|52.35,55.26|C|Hunter|N|From Austin Huxworth.|PRE|55882|
 C A Hunter's Trap|QID|59355|M|52.35,55.26|CHAT|QO|1|N|Talk with Meredy Huntswell to get the Ice Mote.|C|Hunter|
 C A Hunter's Trap|QID|59355|M|52.22,53.16|NC|QO|2|N|Click the Rusted Chain.|C|Hunter|
 C A Hunter's Trap|QID|59355|M|51.82,51.72|NC|QO|3|N|Click Old Spring.|C|Hunter|
@@ -201,7 +202,6 @@ A An End to Beginnings|QID|55991|M|39.76,32.05|N|From Captain Garrik.|PRE|55992|
 C An End to Beginnings|QID|55991|M|40.28,32.57|N|Click on the gryphon to ride back to Stormwind.|
 T An End to Beginnings|QID|55991|Z|Stormwind City|M|73.83,91.51|N|Turn in to Captain Garrik.|
 A Welcome to Stormwind|QID|59583|Z|Stormwind City|M|39.76,32.05|N|From Captain Garrik.|PRE|55991|
-
 T Welcome to Stormwind|QID|59583|Z|Stormwind City|M|66.49,78.17|N|Turn into Lindie Springsstock.|
 A Finding Your Way|QID|58908|Z|Stormwind City|M|39.76,32.05|N|From Lindie Springsstock.|PRE|59583|
 C Finding Your Way|QID|58908|Z|Stormwind City|M|66.18,77.52|QO|1|CHAT|N|Ask a guard for directions to the Stable Master in Old Town.|
@@ -213,58 +213,58 @@ C License to Ride|QID|58909|Z|Stormwind City|M|77.26,67.70|N|Learn the Apprentic
 T License to Ride|QID|58909|Z|Stormwind City|M|77.36,67.06|N|Turn into Curly.|
 A What's Your Specialty?|QID|59594|Z|Stormwind City|M|77.36,67.06|C|Warrior|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.50|C|Warrior|QO|1|CHAT|N|Talk to Kualiang Thunderfist.|
-C What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.50|C|Warrior|QO|2|NC|N|Activate a specialization.|
+C What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.50|C|Warrior|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specilizarion and clicking activate.|
 T What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.50|C|Warrior|N|Turn into Kualiang Thunderfist.|
 A What's Your Specialty?|QID|59586|Z|Stormwind City|M|77.36,67.06|C|Hunter|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|QO|1|CHAT|N|Talk to Dalgrun Steelpine.|
-C What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|QO|2|NC|N|Activate a specialization.|
+C What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
 T What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|N|Turn into Dalgrun Steelpine.|
 A What's Your Specialty?|QID|59587|Z|Stormwind City|M|77.36,67.06|C|Mage|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.05,69.69|C|Mage|QO|1|CHAT|N|Talk to Frazzle Frostfingers he is upstairs.|
-C What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.05,69.69|C|Mage|QO|2|NC|N|Activate a specialization.|
+C What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.05,69.69|C|Mage|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
 T What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.05,69.69|C|Mage|N|Turn into Frazzle Frostfingers.|
 A What's Your Specialty?|QID|59593|Z|Stormwind City|M|77.36,67.06|C|Warlock|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59593|Z|Stormwind City|M|80.23,70.19|C|Warlock|QO|1|CHAT|N|Talk to Laphandrus Voidheart he is upstairs.|
-C What's Your Specialty?|QID|59593|Z|Stormwind City|M|80.23,70.19|C|Warlock|QO|2|NC|N|Activate a specialization.|
+C What's Your Specialty?|QID|59593|Z|Stormwind City|M|80.23,70.19|C|Warlock|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
 T What's Your Specialty?|QID|59593|Z|Stormwind City|M|80.23,70.19|C|Warlock|N|Turn into Laphandrus Voidheart.|
 A What's Your Specialty?|QID|59588|Z|Stormwind City|M|77.36,67.06|C|Monk|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59588|Z|Stormwind City|M|79.09,69.62|C|Monk|QO|1|CHAT|N|Talk to Juisheng Halfclaw he is downstairs.|
-C What's Your Specialty?|QID|59588|Z|Stormwind City|M|79.09,69.62|C|Monk|QO|2|NC|N|Activate a specialization.|
+C What's Your Specialty?|QID|59588|Z|Stormwind City|M|79.09,69.62|C|Monk|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
 T What's Your Specialty?|QID|59588|Z|Stormwind City|M|79.09,69.62|C|Monk|N|Turn into Juisheng Halfclaw.|
 A What's Your Specialty?|QID|59589|Z|Stormwind City|M|77.36,67.06|C|Paladin|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|QO|1|CHAT|N|Talk to Ezul'aan.|
-C What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|QO|2|NC|N|Activate a specialization.|
+C What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
 T What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|N|Turn into Ezul'aan.|
 A What's Your Specialty?|QID|59590|Z|Stormwind City|M|77.36,67.06|C|Priest|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59590|Z|Stormwind City|M|78.93,69.81|C|Priest|QO|1|CHAT|N|Talk to Patrice Lancaster.|
-C What's Your Specialty?|QID|59590|Z|Stormwind City|M|78.93,69.81|C|Priest|QO|2|NC|N|Activate a specialization.|
+C What's Your Specialty?|QID|59590|Z|Stormwind City|M|78.93,69.81|C|Priest|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
 T What's Your Specialty?|QID|59590|Z|Stormwind City|M|78.93,69.81|C|Priest|N|Turn into Patrice Lancaster.|
 A What's Your Specialty?|QID|59591|Z|Stormwind City|M|77.36,67.06|C|Rogue|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59591|Z|Stormwind City|M|78.58,70.70|C|Rogue|QO|1|CHAT|N|Talk to Veruca Darkstream.|
-C What's Your Specialty?|QID|59591|Z|Stormwind City|M|78.58,70.70|C|Rogue|QO|2|NC|N|Activate a specialization.|
+C What's Your Specialty?|QID|59591|Z|Stormwind City|M|78.58,70.70|C|Rogue|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
 T What's Your Specialty?|QID|59591|Z|Stormwind City|M|78.58,70.70|C|Rogue|N|Turn into Veruca Darkstream.|
 A What's Your Specialty?|QID|59592|Z|Stormwind City|M|77.36,67.06|C|Shaman|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59592|Z|Stormwind City|M|78.84,70.73|C|Shaman|QO|1|CHAT|N|Talk to Mulric Boldrock.|
-C What's Your Specialty?|QID|59592|Z|Stormwind City|M|78.84,70.73|C|Shaman|QO|2|NC|N|Activate a specialization.|
+C What's Your Specialty?|QID|59592|Z|Stormwind City|M|78.84,70.73|C|Shaman|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
 T What's Your Specialty?|QID|59592|Z|Stormwind City|M|78.84,70.73|C|Shaman|N|Turn into Mulric Boldrock.|
 A What's Your Specialty?|QID|58910|Z|Stormwind City|M|77.36,67.06|C|Druid|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|58910|Z|Stormwind City|M|79.31,68.73|C|Druid|QO|1|CHAT|N|Talk to Mitholos Falconbriar he is upstairs.|
-C What's Your Specialty?|QID|58910|Z|Stormwind City|M|79.31,68.73|C|Druid|QO|2|NC|N|Activate a specialization.|
+C What's Your Specialty?|QID|58910|Z|Stormwind City|M|79.31,68.73|C|Druid|QO|2|NC|N|Activate a specialization by hitting N on the Keyboard and selecting a specialization and clicking activate.|
 T What's Your Specialty?|QID|58910|Z|Stormwind City|M|79.31,68.73|C|Druid|N|Turn into Mitholos Falconbriar.|
 A Home Is Where the Hearth Is|QID|58911|Z|Stormwind City|M|PLAYER|N|From Lindie Springstock.|PRE|58909|
 h Pig and Whistle Tavern|QID|58911|Z|Stormwind City|M|75.59,54.18|QO|1|N|At the innkeeper.|
 T Home Is Where the Hearth Is|QID|58911|Z|Stormwind City|M|75.59,54.18|N|Turn into Maegan Tillman.|
-A An Urgent Meeting|QID|58912|Z|Stormwind City|M|75.59,54.18|N|From Lindie Springstock.|PRE|58911|
+A An Urgent Meeting|QID|58912|Z|Stormwind City|M|75.59,54.18|N|From Henry Garrick.|PRE|58911|
 C An Urgent Meeting|QID|58912|Z|Stormwind City|M|85.13,32.14|N|
 T An Urgent Meeting|QID|58912|Z|Stormwind City|M|85.27,32.30|N|Turn into Captain Garrick.|
 ;Possible cutoff
 A Tides of War|QID|58983|Z|Stormwind City|M|85.27,32.30|N|From Captain Garrick|PRE|58912|
-C Tides of War|QID|58983|Z|Stormwind City|M|85.27,32.30|N|
-T Tides of War|QID|58983|Z|Stormwind City|M|85.27,32.30|N|Turn into Anduin Wrynn|
-A The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|85.84,31.66|N|From Anduin Wrynn|PRE|58983|
-C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|85.30,32.01|QO|1|N|
-C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|77.79,39.16|QO|2|N|
-C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|22.78,24.82|QO|3|N|
-T The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|85.27,32.30|N|Turn into Lady Jaina Proudmoore|
+C Tides of War|QID|58983|Z|Stormwind City|M|85.27,32.30|NC|N|Listen to the council while they discuss their plans.|
+T Tides of War|QID|58983|Z|Stormwind City|M|85.91,31.55|N|Turn into Anduin Wrynn.|
+A The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|85.91,31.55|N|From Anduin Wrynn|PRE|58983|
+C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|85.30,32.01|QO|1|CHAT|N|Speak with Captain Garrick.|
+C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|77.79,39.16|QO|2|CHAT|N|Speak with Loretta Banks for a free ride to the Docks.|
+C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|22.78,24.82|QO|3|CHAT|N|Speak with Jaina to set sail.|
+T The Nation of Kul Tiras|QID|59641|Z|Boralus|M|65.59,50.72|N|Turn into Lady Jaina Proudmoore.|
 ]]
 end)

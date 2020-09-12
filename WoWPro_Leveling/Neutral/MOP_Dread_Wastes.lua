@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmDre8990', "Leveling", 'Dread Wastes', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'WayKlaxxi')
+WoWPro:GuideSort(guide, 6)
+WoWPro:GuideNickname(guide, "Dread Wastes")
+WoWPro:GuideName(guide,"Dread Wastes")
+WoWPro:GuideNextGuide(guide, 'Chromie Time')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Dread Wastes|QID|31847^31895^31000^31886^31390^31391^31656|N|There are many lead in quests, when you pick any of them up (except The Threat in the South) it also gives you the flightpath to Serpent's Spine in Vale of Eternal Blossoms (where Bowmistress Li is). This guide starts there.|
@@ -55,7 +57,7 @@ C Amber Arms|QID|31008|US|M|48.54,43.63|
 H Klaxxi'vess|QID|31661|;no dailies should be available yet (due to faction - I think)
 T The Dread Clutches|QID|31007|M|55.01,33.98|N|To Kil'ruk the Wind-Reaver.|
 T Not Fit to Swarm|QID|31660|M|55.01,33.99|N|To Kil'ruk the Wind-Reaver.|
-T In Her Clutch |QID|31010|M|54.9,34.1|N|To Malik the Unscathed|
+T In Her Clutch|QID|31010|M|54.9,34.1|N|To Malik the Unscathed|
 T Amber Arms|QID|31008|M|55.05,35.49|N|To Ambersmith Zikk.|
 T A Source of Terrifying Power|QID|31661|M|55.00,35.59|N|To Ambersmith Zikk.|
 A Concentrated Fear|QID|31108|PRE|31661|M|55.00,35.59|N|From Ambersmith Zikk.|
@@ -78,12 +80,12 @@ A Extending Our Coverage|QID|31087|PRE|31066|M|54.77,34.03|N|From Kor'ik.|
 A Amber Is Life|QID|31019|PRE|31066|M|55.03,35.77|N|From Kil'ruk the Wind-Reaver.|
 N First Daily may now be available.|QID|31267|N|The guide includes the "what to do" and turn in steps if you have the quest, but not the accept since the daily is random (all the accept/turn ins are in Klaxxi'vess), but if you are interested in Klaxxi faction you probably want to do it.|
 R Lake of Stars|QID|31023|M|67.91,60.19|
-C Amber Is Life |QID|31019|S|QO|1|M|62.3,57.7|; Mistblade Ripper slain: 7/7
+C Amber Is Life|QID|31019|S|QO|1|M|62.3,57.7|; Mistblade Ripper slain: 7/7
 C Mistblade Destruction|QID|31267|S|M|62.3,57.7|
 A Relics of the Swarm|QID|31023|M|67.91,60.19|U|82870|N|Accept from the 'Strange Relic' which drops from the Saurok around the lake.|
 C Relics of the Swarm|QID|31023|S|NC|M|65.65,64.13|N|These are small tablets around and in the lake.|
 C Mistblade Destruction|QID|31023|US|M|62.3,57.7|
-C Amber Is Life |QID|31019|US|QO|1|M|62.3,57.7|; Mistblade Ripper slain: 7/7
+C Amber Is Life|QID|31019|US|QO|1|M|62.3,57.7|; Mistblade Ripper slain: 7/7
 K Kill Mistblade Scale-Lord|QID|31019|T|Mistblade Scale-Lord|QO|2|M|66.74,63.89;66.5,66.0|CS|N|He is in the den, first coordinates are for the opening. Rarely a BoA tanking sword can be found stuck in the wall in this cave.|; Mistblade Scale-Lord slain: 1/1
 T Amber Is Life|QID|31019|M|66.82,65.35|N|To Ancient Amber Chunk.|
 A Feeding the Beast|QID|31020|PRE|31019|M|66.82,65.35|N|From Korven the Prime.|
@@ -334,13 +336,13 @@ A Fiery Wings|QID|31080|PRE|31075|M|38.19,17.12|N|From Olon.|
 A The Horror Comes A-Rising|QID|31079|PRE|31075|M|38.16,17.33|N|From Boggeo.|
 A Incantations Fae and Primal|QID|31081|PRE|31075|M|38.31,17.14|N|From Lya of Ten Songs.|
 A Great Vessel of Salvation|QID|31082|PRE|31075|M|38.65,17.24|N|From Chief Rikkitun.|
-C Fiery Wings|QID|31080|NC|S|M|37.29,23.96|N|Slap the butterflies (click on them) and follow them while the fairy (fiery) dust lands on you. |
-C The Horror Comes A-Rising|QID|31079|S|M|34.63,20.29|N|Kyparites erupt from the ground, so stand in a dust cloud to find them. |
+C Fiery Wings|QID|31080|NC|S|M|37.29,23.96|N|Slap the butterflies (click on them) and follow them while the fairy (fiery) dust lands on you.|
+C The Horror Comes A-Rising|QID|31079|S|M|34.63,20.29|N|Kyparites erupt from the ground, so stand in a dust cloud to find them.|
 C Great Vessel of Salvation|QID|31082|NC|U|84267|M|36.62,17.05|N|Use the bell to summon sprites who will carry the motherseed until you lead them to the pit.|
 K Kill Mygoness|QID|31081|T|Mygoness|QO|2|M|32.9,18.9|; Mygoness slain: 1/1
 C Incantations Fae and Primal|QID|31081|M|32.1,17.4|
-C The Horror Comes A-Rising|QID|31079|US|M|34.63,20.29|N|Kyparites erupt from the ground, so stand in a dust cloud to find them. |
-C Fiery Wings|QID|31080|NC|US|M|37.29,23.96|N|Slap the butterflies (click on them) and follow them while the fairy (fiery) dust lands on you. |
+C The Horror Comes A-Rising|QID|31079|US|M|34.63,20.29|N|Kyparites erupt from the ground, so stand in a dust cloud to find them.|
+C Fiery Wings|QID|31080|NC|US|M|37.29,23.96|N|Slap the butterflies (click on them) and follow them while the fairy (fiery) dust lands on you.|
 T Great Vessel of Salvation|QID|31082|M|38.65,17.24|N|To Chief Rikkitun.|
 T Incantations Fae and Primal|QID|31081|M|38.31,17.14|N|To Lya of Ten Songs.|
 T Fiery Wings|QID|31080|M|38.19,17.12|N|To Olon.|

@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmTow8990', "Leveling", 'Townlong Steppes', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'EmmDre8990|EmmDre8990')
+WoWPro:GuideSort(guide, 5)
+WoWPro:GuideNickname(guide, "Townlong Steppes")
+WoWPro:GuideName(guide,"Townlong Steppes")
+WoWPro:GuideNextGuide(guide, 'Dread Wastes')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Welcome to Townlong Steppes|QID|30814|N|This guide starts in Longying Outpost, You may have two lead in qusets to turn in here, if you don't have them, check off those steps and proceed.|
@@ -33,7 +35,7 @@ C Rescue Longying Rangers|QID|30774|S|QO|1|M|68.06,49.62|N|Kill Osul Marauders t
 A The Exile|QID|30775|PRE|30769&30770&30771|M|67.08,51.43|N|From Katak the Defeated.|
 K Kill Battat|QID|30775|T|Battat|QO|1|M|65.7,51.7|; Battat slain: 1/1
 K Kill Urang|QID|30775|T|Urang|QO|2|M|64.8,50.2|; Urang slain: 1/1
-C Ranger Rescue |QID|30774|NC|QO|2|M|66.6,49.2|N|No key needed for Lin...|; Free Lin Silentstrike: 1/1
+C Ranger Rescue|QID|30774|NC|QO|2|M|66.6,49.2|N|No key needed for Lin...|; Free Lin Silentstrike: 1/1
 K Kill Ku-Tong|QID|30775|T|Ku-Tong|QO|3|M|66.9,48.0|; Ku-Tong slain: 1/1
 C Rescue Longying Rangers|QID|30774|US|QO|1|M|68.06,49.62|N|Kill Osul Marauders to get the stone keys needed to unlock the cages.|; Longying Ranger rescued: 4/4
 C Pitching In|QID|30773|US|NC|U|81193|M|66.61,45.86|N|Use the item, aim with your mouse from range.|

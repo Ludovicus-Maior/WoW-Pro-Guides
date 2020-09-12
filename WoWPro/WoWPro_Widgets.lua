@@ -99,7 +99,7 @@ function WoWPro:CreateTrack(parent, anchor1)
 end
 
 function WoWPro:CreateItemButton(parent, id)
-    local itembutton = _G.CreateFrame("Button", "WoWPro_itembutton"..id, parent, "SecureActionButtonTemplate")
+    local itembutton = _G.CreateFrame("Button", "WoWPro_itembutton"..id, parent, "InsecureActionButtonTemplate")
     itembutton:SetAttribute("type", "item")
     itembutton:SetFrameStrata("LOW")
     itembutton:SetHeight(32)
@@ -126,11 +126,11 @@ function WoWPro:CreateItemButton(parent, id)
 end
 
 function WoWPro:CreateJumpButton(parent, id)
-    local jumpbutton = _G.CreateFrame("Button", "WoWPro_jumpbutton"..id, parent, "SecureActionButtonTemplate")
+    local jumpbutton = _G.CreateFrame("Button", "WoWPro_jumpbutton"..id, parent, "InsecureActionButtonTemplate")
     jumpbutton:SetAttribute("type", "jump")
     jumpbutton:SetFrameStrata("LOW")
-    jumpbutton:SetHeight(32)
-    jumpbutton:SetWidth(32)
+    jumpbutton:SetHeight(24)
+    jumpbutton:SetWidth(24)
     if WoWProDB.profile.leftside then
         jumpbutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 10, -7)
     else
@@ -138,8 +138,8 @@ function WoWPro:CreateJumpButton(parent, id)
     end
 
     local jumpicon = jumpbutton:CreateTexture(nil, "ARTWORK")
-    jumpicon:SetWidth(36)
-    jumpicon:SetHeight(36)
+    jumpicon:SetWidth(24)
+    jumpicon:SetHeight(24)
     jumpicon:SetTexture("Interface\\Icons\\Inv_7xp_inscription_talenttome02")
     jumpicon:SetAllPoints(jumpbutton)
     jumpbutton:RegisterForClicks("anyUp")
@@ -149,7 +149,7 @@ function WoWPro:CreateJumpButton(parent, id)
 end
 
 function WoWPro:CreateTargetButton(parent, id)
-    local targetbutton = _G.CreateFrame("Button", "WoWPro_targetbutton"..id, parent, "SecureActionButtonTemplate")
+    local targetbutton = _G.CreateFrame("Button", "WoWPro_targetbutton"..id, parent, "InsecureActionButtonTemplate")
     targetbutton:SetAttribute("type", "macro")
     targetbutton:SetFrameStrata("LOW")
     targetbutton:SetHeight(32)
@@ -190,6 +190,26 @@ function WoWPro:CreateTargetButton(parent, id)
     targetbutton:Hide()
 
     return targetbutton, targeticon
+end
+
+function WoWPro:CreateTargetButtonSecured(id)
+    local targetbutton = _G.CreateFrame("Button", "WoWPro_targetbuttonSecure"..id, _G.UIParent, "SecureActionButtonTemplate")
+    targetbutton:SetAttribute("type", "macro")
+    targetbutton:SetFrameStrata("MEDIUM")
+    targetbutton:SetHeight(32)
+    targetbutton:SetWidth(32)
+    targetbutton:Hide()
+    return targetbutton
+end
+
+function WoWPro:CreateItemButtonSecured(id)
+    local itembutton = _G.CreateFrame("Button", "WoWPro_itembuttonSecure"..id, _G.UIParent, "SecureActionButtonTemplate")
+    itembutton:SetAttribute("type", "item")
+    itembutton:SetFrameStrata("MEDIUM")
+    itembutton:SetHeight(32)
+    itembutton:SetWidth(32)
+    itembutton:Hide()
+    return itembutton
 end
 
 function WoWPro:CreateLootsButton(parent, id)
@@ -415,8 +435,8 @@ function WoWPro:CreateErrorLog(title)
 
     ErrorLog.Title = ErrorLog:CreateFontString("", "OVERLAY", "GameFontNormal")
     ErrorLog.Title:SetJustifyH("CENTER")
-    ErrorLog.Title:SetPoint("TOPRIGHT",ErrorLog, "TOPRIGHT", -5, -5)
-    ErrorLog.Title:SetPoint("TOPLEFT", ErrorLog, "RIGHT", 5, -5)
+    ErrorLog.Title:SetPoint("TOPLEFT",ErrorLog, "TOPLEFT", -10, 0)
+    ErrorLog.Title:SetPoint("RIGHT", ErrorLog, "RIGHT", 15, 0)
     ErrorLog.Title:SetHeight(20)
     ErrorLog.Title:SetText(title)
 

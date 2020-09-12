@@ -1,7 +1,9 @@
 local guide = WoWPro:RegisterGuide('LudoAlliedDK', 'Leveling', 'Icecrown Citadel!Dungeon1602', 'Ludovicus', 'Neutral')
-WoWPro:GuideLevels(guide,10,10)
+WoWPro:GuideLevels(guide, 10, 10)
+WoWPro:GuideSort(guide, 17)
+WoWPro:GuideContent(guide, "Intro")
 WoWPro:GuideName(guide,"Death Knight: Allied Races")
-WoWPro:GuideNextGuide(guide, "CraBla5458|JiyBla5560")
+WoWPro:GuideNextGuide(guide, "ChromieTime|JiyBla5560")
 WoWPro:GuideClassSpecific(guide,"DeathKnight")
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -25,6 +27,7 @@ h The Broken Tusk|QID|58903|M|49.94,39.10|N|At Highlord Darion Mograine.|FACTION
 C Defender of Azeroth|QID|58903|M|49.94,39.10|QO|3|N|Click on the Hero's Call Board.|FACTION|Horde|
 C Defender of Azeroth|QID|58903|M|49.66,76.46|Z|Orgrimmar|QO|4|N|1/1 Warchief's Command Board|FACTION|Horde|
 T Defender of Azeroth|QID|58903|M|49.66,76.46|Z|Orgrimmar|FACTION|Horde|
-N Thus ends the Allied Death Knight start.|N|Close this step to head start the Blasted Lands guide or use the Board to head elsewhere.|
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|
+N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|
 ]]
 end)

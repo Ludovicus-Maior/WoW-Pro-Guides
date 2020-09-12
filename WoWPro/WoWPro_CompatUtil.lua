@@ -9,7 +9,7 @@
 
 --[[ C_GossipInfo ]]--
 function WoWPro.GossipInfo_GetActiveQuests()
-    if WoWPro.SHADOWLANDS then
+    if not WoWPro.CLASSIC then
         return _G.C_GossipInfo.GetActiveQuests()
     else
         local result = {}
@@ -43,7 +43,7 @@ function WoWPro.GossipInfo_GetActiveQuests()
     end
 end
 function WoWPro.GossipInfo_GetAvailableQuests()
-    if WoWPro.SHADOWLANDS then
+    if not WoWPro.CLASSIC then
         return _G.C_GossipInfo.GetAvailableQuests()
     else
         local result = {}
@@ -77,35 +77,35 @@ function WoWPro.GossipInfo_GetAvailableQuests()
     end
 end
 function WoWPro.GossipInfo_GetNumActiveQuests()
-    if WoWPro.SHADOWLANDS then
+    if not WoWPro.CLASSIC then
         return _G.C_GossipInfo.GetNumActiveQuests()
     else
         return _G.GetNumGossipActiveQuests()
     end
 end
 function WoWPro.GossipInfo_GetNumAvailableQuests()
-    if WoWPro.SHADOWLANDS then
+    if not WoWPro.CLASSIC then
         return _G.C_GossipInfo.GetNumAvailableQuests()
     else
         return _G.GetNumGossipAvailableQuests()
     end
 end
 function WoWPro.GossipInfo_GetText()
-    if WoWPro.SHADOWLANDS then
+    if not WoWPro.CLASSIC then
         return _G.C_GossipInfo.GetText()
     else
         return _G.GetGossipText()
     end
 end
 function WoWPro.GossipInfo_SelectActiveQuest(index)
-    if WoWPro.SHADOWLANDS then
+    if not WoWPro.CLASSIC then
         return _G.C_GossipInfo.SelectActiveQuest(index)
     else
         return _G.SelectGossipActiveQuest(index)
     end
 end
 function WoWPro.GossipInfo_SelectAvailableQuest(index)
-    if WoWPro.SHADOWLANDS then
+    if not WoWPro.CLASSIC then
         return _G.C_GossipInfo.SelectAvailableQuest(index)
     else
         return _G.SelectGossipAvailableQuest(index)
@@ -115,7 +115,7 @@ end
 
 --[[ C_QuestLog ]]--
 function WoWPro.QuestLog_GetInfo(questLogIndex)
-    if WoWPro.SHADOWLANDS then
+    if not WoWPro.CLASSIC then
         return _G.C_QuestLog.GetInfo(questLogIndex)
     else
         local questTitle, level, suggestedGroup, isHeader, isCollapsed, _, frequency, questID, startEvent, _, isOnMap, hasLocalPOI, isTask, isBounty, isStory, isHidden, isScaling = _G.GetQuestLogTitle(questLogIndex)
@@ -147,21 +147,21 @@ function WoWPro.QuestLog_GetInfo(questLogIndex)
     end
 end
 function WoWPro.QuestLog_GetNumQuestLogEntries()
-    if WoWPro.SHADOWLANDS then
+    if not WoWPro.CLASSIC then
         return _G.C_QuestLog.GetNumQuestLogEntries()
     else
         return _G.GetNumQuestLogEntries()
     end
 end
 function WoWPro.QuestLog_IsComplete(questID)
-    if WoWPro.SHADOWLANDS then
+    if not WoWPro.CLASSIC then
         return _G.C_QuestLog.IsComplete(questID)
     else
         return select(6, _G.GetQuestLogTitle(_G.GetQuestLogIndexByID(questID)))
     end
 end
 function WoWPro.QuestLog_IsQuestFlaggedCompleted(questID)
-    if WoWPro.RETAIL then
+    if not WoWPro.CLASSIC then
         return _G.C_QuestLog.IsQuestFlaggedCompleted(questID)
     else
         return _G.IsQuestFlaggedCompleted(questID)
@@ -171,7 +171,7 @@ end
 
 --[[ C_SuperTrack ]]--
 function WoWPro.SuperTrack_SetSuperTrackedQuestID(questID)
-    if WoWPro.SHADOWLANDS then
+    if not WoWPro.CLASSIC then
         return _G.C_SuperTrack.SetSuperTrackedQuestID(questID)
     else
         return _G.SetSuperTrackedQuestID(questID)

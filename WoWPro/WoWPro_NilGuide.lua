@@ -5,6 +5,7 @@
 function WoWPro:LoadNilGuide()
     WoWPro.step = { "No Guide Loaded" }
     WoWPro.action = { "Interface\\Icons\\INV_Misc_Note_01" }
+	WoWPro.fullStep = { "No Guide Loaded" }
     WoWPro.stepcount = 1
 
     WoWPro.TitleText:SetText("No Guide Loaded")

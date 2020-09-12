@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('LinksMardum098099', 'Leveling', 'MardumtheShatteredAbyss', 'Linkslegend5', 'Neutral')
-WoWPro:GuideLevels(guide,8,20)
-WoWPro:GuideNextGuide(guide, 'LinksVault099100')
+WoWPro:GuideLevels(guide, 8, 20)
+WoWPro:GuideSort(guide, 18)
+WoWPro:GuideContent(guide, "Intro")
+WoWPro:GuideNextGuide(guide, 'Chromie Time')
 WoWPro:GuideName(guide, "Demon Hunter: Intro")
 WoWPro:GuideClassSpecific(guide,"DemonHunter")
 WoWPro:GuideSteps(guide, function()
@@ -179,5 +181,8 @@ C In the Blink of an Eye|QID|44663|M|49.83,48.28|Z|Dalaran!Deadwind Pass|QO|2|CH
 T In the Blink of an Eye|QID|44663|M|57.63,45.74|Z|Dalaran!Broken Isles|N|To Emissary Auldbridge.|
 P Stormwind City|QID|62567|M|39.55,63.23|Z|Dalaran!Broken Isles|N|Take the portal back to Stormwind to continue. Even if you plan on doing legion content we want to go back to activate chromie time.|FACTION|Alliance|
 P Orgrimmar|QID|62568|M|55.26,23.95|Z|Dalaran!Broken Isles|N|Take the portal back to Orgrimmar to continue. Even if you plan on doing legion content we want to go back to activate chromie time.|FACTION|Horde|
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|
+
+N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|
 ]]
 end)

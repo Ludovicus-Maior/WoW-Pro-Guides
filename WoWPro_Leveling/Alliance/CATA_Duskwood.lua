@@ -1,12 +1,13 @@
 local guide = WoWPro:RegisterGuide("TwiDus2025", "Leveling", "Duskwood", "Twists", "Alliance")
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, "SavNorStr2530")
+WoWPro:GuideSort(guide, 16)
+WoWPro:GuideNickname(guide, "Duskwood")
+WoWPro:GuideName(guide,"Duskwood")
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return
 [[
-R Duskwood |QID|26618|M|74.54,41.59|N|Duskwood is found to the south-west of Redridge Mountains, east of Westfall and south of Elwynn Forest.  \n\nThe bread-crumb quest are Hero's Call: Duskwood! which is obtainable from Bailiff Conacher in Redridge Mountains, or from the Hero's Callboard in Stormwind City.|
-T Hero's Call: Duskwood!|QID|28564|M|73.57,46.90|N|To Commander Althea Ebonlocke. Just follow the road all the way to Darkshire.|O|
-T Hero's Call: Duskwood!|QID|26728|M|73.57,46.90|N|To Commander Althea Ebonlocke. Just follow the road all the way to Darkshire.|O|
+A Hero's Call: Duskwood!|QID|28564|M|62.9,71.7|Z|Stormwind City|N|From the Hero's Call Board. Select Duskwood.|
+T Hero's Call: Duskwood!|QID|28564|M|73.57,46.90|N|To Commander Althea Ebonlocke. Just follow the road all the way to Darkshire.|
 A Wolves at Our Heels|QID|26618|M|73.72,46.89|N|To Commander Althea Ebonlocke.|
 h Darkshire|QID|26618|M|73.93,44.49|N|At Innkeeper Trelayne.|
 A Dusky Crab Cakes|QID|26623|M|73.80,43.61|N|From Chef Grual.|S|RANK|2|

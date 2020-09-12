@@ -1,9 +1,10 @@
 local guide = WoWPro:RegisterGuide('EmmLegionMonk', 'Leveling', 'MonkOrderHallTheWanderingIsle', 'Emmaleah', 'Neutral')
-WoWPro:GuideName(guide, 'Monk Order Hall')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
+WoWPro:GuideLevels(guide, 10, 50, 10)
+WoWPro:GuideSort(guide, 3)
+WoWPro:GuideName(guide, 'Monk: Order Hall')
+WoWPro:GuideNickname(guide, "Monk: Order Hall")
+WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
 WoWPro:GuideClassSpecific(guide, 'Monk')
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|PRE|44120^44473|
@@ -47,6 +48,9 @@ A Tianji of the Ox|QID|41945|M|52.75,59.79|N|From Master Hsu.|PRE|42187|
 C Tianji of the Ox|QID|41945|M|52.96,60.19|NC|N|Use the scouting map (missions tab) to send Chen on a mission. This first mission only takes 2 minutes. While you are waiting you can choose your next zone.|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|52.96,60.19|N|From the Scouting Map (scouting map tab). Choose which zone you want to do next|PRE|42186|;*|NPC|99041
 T Tianji of the Ox|QID|41945|M|52.75,59.79|N|To Master Hsu.|
+
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+
 A Building Our Troops|QID|41946|M|52.75,59.79|N|From Master Hsu.|PRE|41945|
 C Building Our Troops|QID|41946|M|53.35,59.75|NC|N|Give Tianji a work order to train an initiate, the first one is near instant.  After it is done, click on the banner to retrieve the initiate, then train the other two initiates which will take 30 minutes each.|
 T Building Our Troops|QID|41946|M|52.75,59.79|N|To Master Hsu.|

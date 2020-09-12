@@ -1,9 +1,14 @@
 local guide = WoWPro:RegisterGuide("BlackEmpire", "Leveling", "Azeroth", "Elidion", "Neutral")
-WoWPro:GuideLevels(guide,10,50)
+WoWPro:GuideLevels(guide, 50, 50, 50)
+WoWPro:GuideSort(guide, 10)
+WoWPro:GuideContent(guide, "Battle for Azeroth")
 WoWPro:GuideName(guide,"Black Empire Campaign")
+WoWPro:GuideNickname(guide, "Black Empire Campaign")
+WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return
 [[
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|S!US|N|Jump to the Guide Hub|
 ; Guide started by Elidion and neutralized and finished by Ludovicus
 ; Alliance Start
 A An Unwelcome Advisor|QID|58496|M|PLAYER|Z|Boralus|N|Lead in from Anduin Wrynn.|FACTION|Alliance|

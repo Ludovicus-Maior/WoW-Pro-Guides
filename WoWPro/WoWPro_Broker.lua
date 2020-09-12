@@ -444,8 +444,8 @@ function WoWPro.LoadGuideReal()
                 WoWPro:dbp("Guide %s was not registered, skipping.", tostring(GID))
                 GID = nil
             end
-
             -- Is the guide within 10 levels of us?
+			WoWPro.Leveling:GetGuideListInfo()
             if GID and WoWPro.Guides[GID].startlevel > (WoWPro:PlayerLevel() + 10) then
                 WoWPro:dbp("Guide %s is too high level.  Check next guide.", GID)
                 GID = nil
@@ -481,7 +481,7 @@ function WoWPro.LoadGuideReal()
 
     -- If the current guide can not be found, see if it was renamed.
     if not WoWPro.Guides[GID] then
-        local myUFG = _G.UnitFactionGroup("player"):sub(1,1)
+        local myUFG = WoWPro.Faction:sub(1,1)
         local name,levels = GID:match("([A-Za-z]+)([0-9]+)")
         levels = levels or ""
         name = name or ""
@@ -549,7 +549,7 @@ function WoWPro:GuideFormalName(GID)
 end
 
 function WoWPro:NextGuide(GID)
-    local myUFG = _G.UnitFactionGroup("player")
+    local myUFG = WoWPro.Faction
     local nextGID = WoWPro.Guides[GID].nextGID
     if not nextGID then
         -- If there is no next guide defined, see if we can pop something off the stack
@@ -771,7 +771,9 @@ function WoWPro:RowUpdate(offset)
     local itemkb = false
     local targetkb = false
     local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
-    _G.ClearOverrideBindings(WoWPro.MainFrame)
+	if not _G.InCombatLockdown() then
+		_G.ClearOverrideBindings(WoWPro.MainFrame)
+	end
     WoWPro.RowDropdownMenu = {}
 
     local step_limit = WoWProDB.profile.numsteps + 5
@@ -877,7 +879,10 @@ function WoWPro:RowUpdate(offset)
         elseif WoWPro.chat[k] then
             currentRow.action:SetTexture("Interface\\GossipFrame\\Gossipgossipicon")
             currentRow.action.tooltip.text:SetText("Chat")
-        elseif WoWPro.vehichle[k] then
+        elseif WoWPro.jump[k] then
+            currentRow.action:SetTexture("Interface\\Icons\\spell_arcane_teleportironforge")
+            currentRow.action.tooltip.text:SetText("Jump")
+		elseif WoWPro.vehichle[k] then
             -- Yeah, that is how blizzard spelled it!
             currentRow.action:SetTexture("Interface\\CURSOR\\vehichleCursor")
             currentRow.action.tooltip.text:SetText("Take Vehicle")
@@ -938,6 +943,21 @@ function WoWPro:RowUpdate(offset)
                     end}
                 )
             end
+            tinsert(dropdown,
+                {text = "Report issue", func = function()
+                    WoWPro.LogBox = WoWPro.LogBox or WoWPro:CreateErrorLog("Report an Issue","Hit escape to dismiss")
+					local LogBox = WoWPro.LogBox
+					local X, Y, mapId = WoWPro:GetPlayerZonePosition()
+					if (not X) or (not Y) then
+						local text = "\n" .. ("Player at ?/%s@%q aka %q aka %q"):format(tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText())
+						LogBox.Box:SetText(text)
+					else
+						local text = "\n" .. ("Player at %.2f,%.2f/%s@%q aka %q aka %q"):format(X*100, Y*100, tostring(mapId), WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText()) .. "\n\nStep Info:\n" .. WoWPro.fullStep[currentRow.index]
+						LogBox.Box:SetText(text)
+					end
+					LogBox:Show()
+                end}
+            )
         end
         WoWPro.RowDropdownMenu[i] = dropdown
 
@@ -952,12 +972,42 @@ function WoWPro:RowUpdate(offset)
             currentRow.itembutton:SetScript("OnClick", function ()
                 WoWPro.TrashItem(use, k)
                 end)
+			if not _G.InCombatLockdown() then
+				currentRow.itembuttonSecured:Show()
+				currentRow.itembuttonSecured:SetAttribute("type1", "click1")
+				currentRow.itembuttonSecured:SetAttribute("click", "clickbutton")
+				currentRow.itembuttonSecured:SetScript("OnClick", function ()
+					WoWPro.TrashItem(use, k)
+                end)
+			end
+			if not _G.InCombatLockdown() then
+				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
+					local Tleft, Tbottom = currentRow.itembutton:GetRect()
+					currentRow.itembuttonSecured:SetAttribute("type1", "click1")
+					currentRow.itembuttonSecured:SetAttribute("click", "clickbutton")
+					currentRow.itembuttonSecured:SetScript("OnClick", function ()
+						WoWPro.TrashItem(use, k)
+					end)
+					currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
+				end
+			end
             WoWPro:dbp("RowUpdate: enabled trash: %s", use)
         elseif use and _G.GetItemInfo(use) then
             currentRow.itembutton:Show()
             currentRow.itemicon:SetTexture(_G.GetItemIcon(use))
             currentRow.itembutton:SetAttribute("type1", "item")
             currentRow.itembutton:SetAttribute("item1", "item:"..use)
+			if not _G.InCombatLockdown() then
+				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
+					local Tleft, Tbottom = currentRow.itembutton:GetRect()
+					currentRow.itembuttonSecured:Show()
+					currentRow.itembuttonSecured:SetAttribute("type1", "item")
+					currentRow.itembuttonSecured:SetAttribute("item1", "item:"..use)
+					currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
+				end
+			end
+
+
             WoWPro:dbp("RowUpdate: enabled use: %s", use)
             currentRow.cooldown:SetScript("OnUpdate", function()
                     local start, duration, enabled = _G.GetItemCooldown(use)
@@ -973,7 +1023,7 @@ function WoWPro:RowUpdate(offset)
                 currentRow.cooldown:Show()
                 currentRow.cooldown:SetCooldown(start, duration)
             else currentRow.cooldown:Hide() end
-            if not itemkb and currentRow.itembutton:IsVisible() then
+            if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
                 if key1 then
                     _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_itembutton"..i..":LeftButton")
@@ -993,7 +1043,25 @@ function WoWPro:RowUpdate(offset)
                 _G.C_PetBattles.ChangePet(switch)
                 WoWPro.CompleteStep(kk, "Clicked pet switch")
             end
-        else currentRow.itembutton:Hide() end
+
+			if not _G.InCombatLockdown() then
+				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
+					local Tleft, Tbottom = currentRow.itembutton:GetRect()
+					currentRow.itembuttonSecured:Show()
+					currentRow.itembuttonSecured:SetAttribute("type", "SwitchPet")
+					currentRow.itembuttonSecured.SwitchPet = function ()
+					_G.C_PetBattles.ChangePet(switch)
+						WoWPro.CompleteStep(kk, "Clicked pet switch")
+					end
+					currentRow.itembuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
+				end
+			end
+        else
+			currentRow.itembutton:Hide()
+			if not _G.InCombatLockdown() then
+				currentRow.itembuttonSecured:Hide()
+			end
+		end
 
         -- Loots Button --
         if item then
@@ -1043,7 +1111,15 @@ function WoWPro:RowUpdate(offset)
             -- Ask the target button to place itself
             currentRow.targetbutton.Position(use)
 
-            if not targetkb and currentRow.targetbutton:IsVisible() then
+			if not _G.InCombatLockdown() then
+				if currentRow.targetbutton:IsVisible() and currentRow.targetbutton:IsShown() then
+					local Tleft, Tbottom = currentRow.targetbutton:GetRect()
+					currentRow.targetbuttonSecured:Show()
+					currentRow.targetbuttonSecured:SetAttribute("macrotext", mtext)
+					currentRow.targetbuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
+				end
+			end
+            if not targetkb and currentRow.targetbutton:IsVisible() and not _G.InCombatLockdown() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxTargetButton:LeftButton")
                 if key1 then
                     _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_targetbutton"..i..":LeftButton")
@@ -1055,6 +1131,9 @@ function WoWPro:RowUpdate(offset)
             end
         else
             currentRow.targetbutton:Hide()
+			if not _G.InCombatLockdown() then
+				currentRow.targetbuttonSecured:Hide()
+			end
         end
 
         WoWPro.rows[i] = currentRow
@@ -1308,8 +1387,8 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Trash step
             if stepAction == "*" then
                 if WoWPro.use and WoWPro.use[guideIndex] then
-                    if _G.GetItemCount(WoWPro.use[guideIndex]) >= 1 then
                         skip = false -- If the trash step has a use item and it's in the bag, it's NOT skipped --
+                    if _G.GetItemCount(WoWPro.use[guideIndex]) >= 1 then
                         WoWPro.why[guideIndex] = "NextStep(): Trash steps with an item to use that is present is not skipped."
                     else
                         skip = true -- No item, skip!
@@ -2132,6 +2211,20 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
+			if WoWPro.serverdate and WoWPro.serverdate[guideIndex] then
+                local epoch = _G.C_DateAndTime.GetServerTimeLocal()
+				local timeMet
+                if tonumber(WoWPro.serverdate[guideIndex]) >= epoch then
+                    timeMet = true
+                end
+
+                if timeMet then
+                    WoWPro.CompleteStep(guideIndex, "NextStep(): Server time ["..epoch.."] is less than "..WoWPro.serverdate[guideIndex]..".")
+                    skip = true
+                else
+                    WoWPro.why[guideIndex] = "NextStep(): Date of ["..WoWPro.serverdate[guideIndex].."] hasn't happened yet."
+                end
+            end
             -- Skipping spells if known.
             -- Warning: not all spells are detectable by this method.  Blizzard is not consistent!
             -- This tests for Spells you can put on a button, essentially.
@@ -2152,43 +2245,38 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             if WoWPro.fly and WoWPro.fly[guideIndex] then
-                if WoWProCharDB.EnableFlight or stepAction == "R" then
+                if WoWProCharDB.EnableFlight or stepAction == "R" or stepAction == "N" then
                     local expansion = WoWPro.fly[guideIndex]
                     local spellName
                     local spellKnown
+					local canFly
                     local flyFlip = false
                     if (expansion:sub(1, 1) == "-") then
                         expansion = expansion:sub(2)
                         flyFlip = true
                     end
-                    if expansion == "BFA" then
+					local eSkill = _G.GetSpellInfo(34090)
+                    local mSkill = _G.GetSpellInfo(90265)
+					if _G.GetSpellInfo(eSkill) then
+                        canFly = true
+						spellName = eSkill
+                    elseif _G.GetSpellInfo(mSkill) then
+                        canFly = true
+						spellName = mSkill
+                    end
+
+                    if expansion == "BFA" and canFly then
                         spellName = _G.GetSpellInfo(278833)
-                        local _, _, _, _, _, _, spellID = _G.GetSpellInfo(spellName)
-                        if (spellID == "278833") then
-                            spellKnown = true
-                        else
-                            spellKnown = false
-                        end
-                    elseif expansion == "LEGION" then
+						spellKnown = _G.GetSpellInfo(spellName)
+                    elseif expansion == "LEGION" and canFly then
                         spellName = _G.GetSpellInfo(233368)
                         spellKnown = _G.GetSpellInfo(spellName)
-                    elseif expansion == "WOD" then
-                        spellName = _G.GetSpellInfo(233368)
-                        spellKnown = _G.GetSpellInfo(spellName)
-                    elseif expansion == "OLD" then
-                        local eSkill = _G.GetSpellInfo(34090)
-                        local aSkill = _G.GetSpellInfo(34091)
-                        local mSkill = _G.GetSpellInfo(90265)
-                        if _G.GetSpellInfo(eSkill) then
-                            spellKnown = true
-                            spellName = eSkill
-                        elseif _G.GetSpellInfo(aSkill) then
-                            spellKnown = true
-                            spellName = aSkill
-                        elseif _G.GetSpellInfo(mSkill) then
-                            spellKnown = true
-                            spellName = mSkill
-                        end
+                    elseif expansion == "WOD" and canFly then
+						 local _, Name, _, Completed = _G.GetAchievementInfo(10018)
+                        spellName = Name
+                        spellKnown = Completed
+                    elseif expansion == "OLD" and canFly then
+                        spellKnown = true
                     end
                     if flyFlip then spellKnown = not spellKnown end
                     WoWPro:dbp("Checking fly step %s [%s] for %s: Nomen %s, Known %s",stepAction,step,WoWPro.fly[guideIndex],tostring(spellName),tostring(spellKnown))
@@ -3393,4 +3481,3 @@ function WoWPro:CarboniteProfileHack()
         end
     end
 end
-

@@ -6,11 +6,11 @@
 	<Script file="CATA_Deepholm.lua"/>
 	<Script file="CATA_Eastern_Plaguelands.lua"/>
 	<Script file="CATA_Mount_Hyjal.lua"/>
+	<Script file="CATA_Searing_Gorge.lua"/>
 	<Script file="CATA_Silithus.lua"/>
 	<Script file="CATA_Uldum.lua"/>
 	<Script file="CATA_UnGoro.lua"/>
-	<Script file="CATA__Searing_Gorge.lua"/>
-	<Script file="CATA__Winterspring.lua"/>
+	<Script file="CATA_Winterspring.lua"/>
 	<Script file="INTRO_DeathKnight.lua"/>
 	<Script file="INTRO_DeathKnight_Allied.lua"/>
 	<Script file="INTRO_Demon_Hunter.lua"/>
@@ -18,6 +18,7 @@
 	<Script file="LEGION_Argus.lua"/>
 	<Script file="LEGION_Azsuna.lua"/>
 	<Script file="LEGION_Broken_Shore.lua"/>
+	<Script file="LEGION_Guide_Hub.lua"/>
 	<Script file="LEGION_Highmountain.lua"/>
 	<Script file="LEGION_Order_Hall_DH.lua"/>
 	<Script file="LEGION_Order_Hall_DK.lua"/>

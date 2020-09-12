@@ -1,21 +1,23 @@
 local guide = WoWPro:RegisterGuide('LudoTalador', 'Leveling', 'Talador', 'Ludovicus', 'Alliance')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'EmmSoArak')
+WoWPro:GuideSort(guide, 4)
+WoWPro:GuideNickname(guide, "Talador")
+WoWPro:GuideName(guide,"Talador")
+WoWPro:GuideNextGuide(guide, 'Spires of Arak')
 WoWPro:GuideSteps(guide, function()
 return [[
-T News from Talador |QID|36495|N|To Bodrick Grey, in your Garrison.|M|38.33,36.74|Z|Lunarfall|O|
-A The Critical Path |QID|34676^37183|N|From Bodrick Grey|LEAD|34558|
-A The Critical Path |QID|34676^37183|N|Open your Adventure Guide and Start Quest for Talador.|LEAD|34558|
-A The Critical Path |QID|34676^37183|N|From Bodrick Grey|M|38.20,36.90|Z|Lunarfall|LEAD|34558|
-F Talador |QID|34676^37183|N|Speak to Dungar Longdrink and ask him to take you to your base in Talador.|M|48.01,49.83|Z|Lunarfall|CHAT|ACTIVE|34676^37183|
+T News from Talador|QID|36495|N|To Bodrick Grey, in your Garrison.|M|38.33,36.74|Z|Lunarfall|O|
+A The Critical Path|QID|34676^37183|N|From Bodrick Grey|LEAD|34558|
+A The Critical Path|QID|34676^37183|N|Open your Adventure Guide and Start Quest for Talador.|LEAD|34558|
+A The Critical Path|QID|34676^37183|N|From Bodrick Grey|M|38.20,36.90|Z|Lunarfall|LEAD|34558|
+F Talador|QID|34676^37183|N|Speak to Dungar Longdrink and ask him to take you to your base in Talador.|M|48.01,49.83|Z|Lunarfall|CHAT|ACTIVE|34676^37183|
 f Fort Wrynn|QID|34676^37183|N|To Skyguard Amelia|M|69.85,21.49|
-T The Critical Path |QID|34676^37183|N|To Foreman Eksos|M|69.88,20.81|
+T The Critical Path|QID|34676^37183|N|To Foreman Eksos|M|69.88,20.81|
 A At Your Command|QID|34558|M|69.88,20.81|N|From Foreman Eksos|
 C At Your Command|QID|34558|NC|M|69.79,20.70|N|Use the table and make your selection.|
 T At Your Command|QID|34558|M|69.88,20.81|N|To Foreman Eksos|
 ;Wrynn Arsenal: quest is The Quarry Quandary [QID 34563]
 ;Arcane Sanctum: quest is An Audience With The Archmage [QID 34631]
-A Next Quest |QID|34563^34631|PRE|34561&34560&34558|N|From Foreman Eksos.\n\nIf you built Wrynn Arsenal, accept The Quarry Quandary.\nIf you built Arcane Sanctum, accept An Audience With The Archmage.|M|69.88,20.81|
+A Next Quest|QID|34563^34631|PRE|34561&34560&34558|N|From Foreman Eksos.\n\nIf you built Wrynn Arsenal, accept The Quarry Quandary.\nIf you built Arcane Sanctum, accept An Audience With The Archmage.|M|69.88,20.81|
 h Fort Wrynn|QID|34563^34631|M|69.73,21.77|Z|Talador|N|With Olivia Abbington.|
 ; Artillery Tower
 C The Quarry Quandary|QID|34563|M|69.26,19.29|N|Head to Apprentice Mial, just outside the fort to the north.|NC|
@@ -94,7 +96,7 @@ T Aruumel's Rest|QID|33874|M|65.43,50.73|N|To Seer Malune.|
 A Clear!|QID|34761|M|62.86,50.32|N|From Torben Zapblast|RANK|2|
 C Clear!|QID|34761|M|61.39,44.41;72.54,53.57;66.89,59.55|CN|N|Kill and loot the Lakebottom Zappers in the lake.|S|
 ; 34185 is the tracking quest
-K Hammertooth |QID|34185|N|**Rare Kill**\nKill and loot Hammertooth, that patrols around the water.|RARE|M|61.50,45.50|
+K Hammertooth|QID|34185|N|**Rare Kill**\nKill and loot Hammertooth, that patrols around the water.|RARE|M|61.50,45.50|
 C Clear!|QID|34761|M|61.39,44.41;72.54,53.57;66.89,59.55|CN|N|Kill and loot the Lakebottom Zappers in the lake.|US|
 T Clear!|QID|34761|M|62.86,50.32|N|To Torben Zapblast|
 ; quest requires garrison (flag qid 36797)
@@ -135,7 +137,7 @@ C While We're in the Neighborhood|QID|34909|PRE|34908|M|66.10,80.70|N|From Gordu
 T While We're in the Neighborhood|QID|34909|M|0,0|N|To Magister Serena who is with you.|
 T Orbs of Power|QID|34911|M|0,0|N|To Magister Serena who is with you.|
 A The Final Step|QID|34912|PRE|34909&34910&34911|M|0,0|N|From Magister Serena who stands by your side whilst in Gordal Fortress.|
-$ Iron Box |QID|34251|ACTIVE|34912|M|64.58,79.20|N|**Rare Loot**\nLoot the Iron Box inside the hut to the right of the final steps|
+$ Iron Box|QID|34251|ACTIVE|34912|M|64.58,79.20|N|**Rare Loot**\nLoot the Iron Box inside the hut to the right of the final steps|
 C The Final Step|QID|34912|QO|1|M|64.00,81.75|N|Run to the top of the stairs, then attack Witch Lord Morkurk. Pay attention to the HUD alerts to use the Mass Teleportation scroll and to get into the dome shield.|
 C The Final Step|QID|34912|QO|2|M|64.25,81.79|N|Loot the Arcane Nexus|NC|
 T The Final Step|QID|34912|M|0,0|N|To Magister Serena who is with you.|

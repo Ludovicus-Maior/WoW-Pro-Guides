@@ -1,9 +1,10 @@
 local guide = WoWPro:RegisterGuide('EmmLegionWarlock', 'Leveling', 'WarlockClassShrine', 'Emmaleah', 'Neutral')
-WoWPro:GuideName(guide, 'Warlock Order Hall')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'EmmAzsuna')
+WoWPro:GuideLevels(guide, 10, 50, 10)
+WoWPro:GuideSort(guide, 3)
+WoWPro:GuideName(guide, 'Warlock: Order Hall')
+WoWPro:GuideNickname(guide, "Warlock: Order Hall")
+WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
 WoWPro:GuideClassSpecific(guide, 'Warlock')
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|PRE|44120^44473|
@@ -144,6 +145,9 @@ A The Path of the Dreadscar|QID|40824|M|30.92,58.31|Z|717|N|From Ritssyn Flamesc
 C The Path of the Dreadscar|QID|40824|M|66.25,46.99|Z|717|N|Choose which zone you want to quest in first.|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|66.1,47.01|Z|717|N|From Dreadscar Battle Plans. Choose which zone you want to do first. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40824|LEAD|38907|
 T The Path of the Dreadscar|QID|40824|M|65.69,47.86|Z|717|N|To Ritssyn Flamescowl.|
+
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+
 L Blocked till 101|QID|42608|N|The next quest in the class hall requires level 101.|
 A A Mutual Friend|QID|44099|N|From Black Harvest Acolyte.|
 T A Mutual Friend|QID|44099|M|56.4,64.6|Z|The Underbelly@Dalaran!Broken Isles|N|To Calydus.|

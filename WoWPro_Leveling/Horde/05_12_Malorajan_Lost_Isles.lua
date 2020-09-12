@@ -1,5 +1,5 @@
 local guide = WoWPro:RegisterGuide('MalLos0512', 'Leveling', 'The Lost Isles', 'Malorajan', 'Horde')
-WoWPro:GuideLevels(guide,10,50)
+
 WoWPro:GuideRaceSpecific(guide,"Goblin")
 WoWPro:GuideNextGuide(guide, 'BitAzs1220')
 WoWPro:GuideSteps(guide, function()

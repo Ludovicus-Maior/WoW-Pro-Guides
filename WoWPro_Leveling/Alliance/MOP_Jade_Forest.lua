@@ -1,14 +1,16 @@
 local guide = WoWPro:RegisterGuide('RajJad8586', "Leveling", 'The Jade Forest', 'Rajitazi', 'Alliance')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'EmmVal8688')
+WoWPro:GuideSort(guide, 1)
+WoWPro:GuideNickname(guide, "Jade Forest")
+WoWPro:GuideName(guide,"The Jade Forest")
+WoWPro:GuideNextGuide(guide, 'Valley of the Four Winds')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Welcome to Pandaria|QID|29547|N|Head to Stormwind. Don't forget to train your trade-skills before you leave Stormwind, the new trainers are not available immediately upon arriving in Pandaria.\n\nCheck off this step to continue the guide.|
-A The King's Command|QID|29547|N|Autogiven upon entering Stormwind City.|
-C The King's Command|QID|29547|M|80.82,37.61|Z|Stormwind City|N|Run into the keep.|NC|
-T The King's Command|QID|29547|M|78.70,40.08|Z|Stormwind City|N|To Rell Nightwind|
-A The Mission|QID|29548|PRE|29547|M|78.70,40.08|Z|Stormwind City|N|From Rell Nightwind.|
-C The Mission|QID|29548|M|41.47,70.19|Z|Eastern Kingdoms|N|Fly up to the north-west of the city, above the harbor.|NC|
+A To Pandaria!|QID|60125|M|56.26,17.31|N|From Chromie after activating Mists of Pandaria timeline.|
+R Stormwind Keep|QID|60125|M|81.03,37.38|Z|Stormwind City|N|Run into the keep to trigger the cinematic.|
+T To Pandaria!|QID|60125|M|78.95,39.83|Z|Stormwind City|N|To Rell Nightwind.|
+A The Mission|QID|29548|M|78.70,40.08|Z|Stormwind City|N|From Rell Nightwind.|
+C The Mission|QID|29548|M|77.69,39.26|Z|Stormwind City|QO|1|N|Use the Gryphon to fly up to the airship.|NC|
+C The Mission|QID|29548|M|41.47,70.19|Z|Eastern Kingdoms|QO|2|CHAT|N|Speak with Admiral Rogers.|NC|
 T The Mission|QID|29548|M|42.04,92.75|N|To Sky Admiral Rogers.|
 A Unleash Hell|QID|31732|PRE|29548|M|42.04,92.75|N|From Sky Admiral Rogers.|
 F Garrosh'ar Point|QID|31732|M|42.00,92.54|N|Board the Skyfire Gyrocopter located further along the deck.|
@@ -87,9 +89,9 @@ C Onward and Inward|QID|31745|NC|M|41.5,79.6|N|There is a chopper just outside t
 T Onward and Inward|QID|31745|M|48.0,88.4|N|To Sky Admiral Rogers.|
 A The White Pawn|QID|29555|PRE|31745|M|48.0,88.4|N|From Sky Admiral Rogers.|
 A Hozen Aren't Your Friends, Hozen Are Your Enemies|QID|29556|PRE|31745|M|48.0,88.4|N|From Sky Admiral Rogers.|
-C Hozen Aren't Your Friends, Hozen Are Your Enemies |QID|29556|S|M|50.5,89.6|; Wreck of the Vanguard
-C The White Pawn |QID|29555|T|Hozen Diver|M|50.0,90.3|N|The first clue is the guard on the bridge. The second and third clues are the banner and the journal underwater in the ship. You should also see a Hozen Diver inside the ship, you need to kill it to get the Encoded Captain's Log.|; Wreck of the Vanguard
-C Hozen Aren't Your Friends, Hozen Are Your Enemies |QID|29556|US|M|50.5,89.6|; Wreck of the Vanguard
+C Hozen Aren't Your Friends, Hozen Are Your Enemies|QID|29556|S|M|50.5,89.6|; Wreck of the Vanguard
+C The White Pawn|QID|29555|T|Hozen Diver|M|50.0,90.3|N|The first clue is the guard on the bridge. The second and third clues are the banner and the journal underwater in the ship. You should also see a Hozen Diver inside the ship, you need to kill it to get the Encoded Captain's Log.|; Wreck of the Vanguard
+C Hozen Aren't Your Friends, Hozen Are Your Enemies|QID|29556|US|M|50.5,89.6|; Wreck of the Vanguard
 T Hozen Aren't Your Friends, Hozen Are Your Enemies|QID|29556|M|50.42,88.20|N|To Nodd Codejack.|
 T The White Pawn|QID|29555|M|50.42,88.20|N|To Nodd Codejack.|
 A The Missing Admiral|QID|29553|PRE|29555&29556|M|50.42,88.20|N|From Nodd Codejack.|
@@ -97,11 +99,11 @@ T The Missing Admiral|QID|29553|M|54.21,82.43|N|To Admiral Taylor.|
 A The Path of War|QID|29558|PRE|29553|M|54.11,82.37|N|From Bold Karasshi.|
 A Freeing Our Brothers|QID|29559|PRE|29553|M|54.11,82.37|N|From Bold Karasshi.|
 A Ancient Power|QID|29560|PRE|29553|M|54.11,82.37|N|From Bold Karasshi.|
-C The Path of War |QID|29558|S|M|53.7,80.3|; Slingtail Pits
-C Ancient Power |QID|29560|S|NC|M|53.8,81.1|N|The skulls are lying on the ground in the village|; Slingtail Pits
-C Freeing Our Brothers |QID|29559|M|54.6,79.3|N|You need to kill Slingtail to get the keys that open the cages|; Slingtail Pits
-C Ancient Power |QID|29560|US|NC|M|53.8,81.1|N|The skulls are lying on the ground in the village|; Slingtail Pits
-C The Path of War |QID|29558|US|M|53.7,80.3|; Slingtail Pits
+C The Path of War|QID|29558|S|M|53.7,80.3|; Slingtail Pits
+C Ancient Power|QID|29560|S|NC|M|53.8,81.1|N|The skulls are lying on the ground in the village|; Slingtail Pits
+C Freeing Our Brothers|QID|29559|M|54.6,79.3|N|You need to kill Slingtail to get the keys that open the cages|; Slingtail Pits
+C Ancient Power|QID|29560|US|NC|M|53.8,81.1|N|The skulls are lying on the ground in the village|; Slingtail Pits
+C The Path of War|QID|29558|US|M|53.7,80.3|; Slingtail Pits
 T The Path of War|QID|29558|M|54.15,82.42|N|To Bold Karasshi.|
 T Freeing Our Brothers|QID|29559|M|54.15,82.42|N|To Bold Karasshi.|
 T Ancient Power|QID|29560|M|54.15,82.42|N|To Bold Karasshi.|
@@ -138,16 +140,16 @@ A SI:7 Report: Lost in the Woods|QID|29733|PRE|29894|M|58.98,81.82|N|From Rell N
 C SI:7 Report: Lost in the Woods|QID|29733|M|49.88,70.92|N|Use all three of Rell Nightwind's attacks to kill the elite Hozen and then General Rik-Rik. If you keep all abilities on cooldown, it is easy.  Hint, if you are about to die, exit the vehicle and it will take you back to the start without dying.|
 T SI:7 Report: Lost in the Woods|QID|29733|M|58.98,81.82|N|To Rell Nightwind.|
 A SI:7 Report: Fire From the Sky|QID|29725|PRE|29733|M|51.02,63.06|N|From Sully "The Pickle" McLeary, who is pacing. "See" his report as soon as you accept.|
-C Scout the southeastern shrine |QID|29725|QO|1|M|50.7,62.7|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Scout the southeastern shrine: 1/1
-C Scout the southwestern shrine |QID|29725|QO|2|M|46.4,62.0|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Scout the southwestern shrine: 1/1
-C Scout the northern shrine |QID|29725|QO|3|M|47.4,58.6|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Scout the northern shrine: 1/1
-C Return to camp |QID|29725|QO|4|M|50.9,63.0|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Return to camp: 1/1
+C Scout the southeastern shrine|QID|29725|QO|1|M|50.7,62.7|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Scout the southeastern shrine: 1/1
+C Scout the southwestern shrine|QID|29725|QO|2|M|46.4,62.0|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Scout the southwestern shrine: 1/1
+C Scout the northern shrine|QID|29725|QO|3|M|47.4,58.6|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Scout the northern shrine: 1/1
+C Return to camp|QID|29725|QO|4|M|50.9,63.0|N|Whenever you spot a tiger, use the Light Scope to have Amber Kearnen kill it for you.|; Return to camp: 1/1
 T SI:7 Report: Fire From the Sky|QID|29725|M|58.83,81.69|N|To Sully "The Pickle" McLeary.|
 A SI:7 Report: Hostile Natives|QID|29726|PRE|29725|M|59.1,81.9|N|From Little Lu. "See" his report as soon as you accept.|
-C Inspect sign |QID|29726|NC|QO|1|M|38.3,45.5|
-C Inspect Lifelike Jade Statue |QID|29726|NC|QO|2|M|38.85,46.19|
-C Inspect Suspicious Jade Statue |QID|29726|QO|3|M|38.95,46.36|
-C Speak with Widow Greenpaw |QID|29726|QO|4|CHAT|M|39.25,46.22|N|Talk to Widow Greenpaw and then walk away before she turns you to stone.|
+C Inspect sign|QID|29726|NC|QO|1|M|38.3,45.5|
+C Inspect Lifelike Jade Statue|QID|29726|NC|QO|2|M|38.85,46.19|
+C Inspect Suspicious Jade Statue|QID|29726|QO|3|M|38.95,46.36|
+C Speak with Widow Greenpaw|QID|29726|QO|4|CHAT|M|39.25,46.22|N|Talk to Widow Greenpaw and then walk away before she turns you to stone.|
 T SI:7 Report: Hostile Natives|QID|29726|M|59.04,81.90|N|To Little Lu.|
 A SI:7 Report: Take No Prisoners|QID|29727|PRE|29726|M|58.93,81.93|N|From Amber Kearnen. "See" her report as soon as you accept.|
 C SI:7 Report: Take No Prisoners|QID|29727|M|28.6,54.4|N|It's shooting time! Target the Hozen that have a yellow triangle over their head first.  Don't let anybody shoot at Amber when he runs off to the orcs! Only kill orcs, when all the Hozen are gone.|
@@ -204,7 +206,7 @@ C An Ancient Legend|QID|29900|T|Shade of Ling Heartfist|QO|1|M|66.8,80.2|N|Kill 
 C Sacred Waters|QID|29898|NC|QO|4|M|66.43,80.00|N|Behind Ling is the Waters of Restorative Heart|; Den of Sorrow
 C An Ancient Legend|QID|29900|NC|QO|2|M|66.5,80.5|N|Also behind Ling, click the banner to get the Song of the Vale|
 R Shortcut out of Den of Sorrow|QID|29898|M|66.68,81.05;66.34,82.16|CS|N|Jump down here and leave the den.|
-C Rest in Peace |QID|29899|US|M|67.8,81.7|N|Finish any needed tortured spirits as you leave the den.|
+C Rest in Peace|QID|29899|US|M|67.8,81.7|N|Finish any needed tortured spirits as you leave the den.|
 T Sacred Waters|QID|29898|M|65.98,79.38|N|To Lina Whitepaw.|
 T Rest in Peace|QID|29899|M|65.98,79.30|N|To Ren Whitepaw.|
 T An Ancient Legend|QID|29900|M|65.94,79.22|N|To Ren Whitepaw.|
@@ -282,7 +284,7 @@ C What's Mined Is Yours|QID|29930|M|46.3,29.35|N|Hop in Hao's cart.|
 T What's Mined Is Yours|QID|29930|M|50.94,27.03|N|To Foreman Mann.|
 T Calamity Jade|QID|29926|M|50.94,27.03|N|From Foreman Mann.|
 A The Serpent's Heart|QID|29931|PRE|29930|M|50.94,27.03|N|From Foreman Mann.|
-N If you are into exploring... |QID|29745|N|...this is as close to Sri-La Village as you are going to get in this guide. Skip the next step if you don't want to go there, no quests there except lvl 90 dailies. There is a treasure box in a cave on windward island, but unless you are a rogue, I wouldn't advise going to get it before you have the dailies in the area.|RANK|3|O|
+N If you are into exploring...|QID|29745|N|...this is as close to Sri-La Village as you are going to get in this guide. Skip the next step if you don't want to go there, no quests there except lvl 90 dailies. There is a treasure box in a cave on windward island, but unless you are a rogue, I wouldn't advise going to get it before you have the dailies in the area.|RANK|3|O|
 f Sri-La Village|QID|29745|M|55.44,23.73|N|At Gingo Alebottom.|RANK|3|
 R Wood of the Lost|QID|29745|M|48.64,24.91|CC|
 A The Sprites' Plight|QID|29745|M|48.64,24.91|N|From Outcast Sprite.|
@@ -307,7 +309,7 @@ C Vessels of the Spirit|QID|29750|S|M|40.69,14.85|N|Kill Shan'ze Spiritclaws for
 C Ritual Artifacts|QID|29751|QO|2|M|41.62,14.27|NC|N|Get the Chipped Ritual Bowl|
 C Ritual Artifacts|QID|29751|QO|1|M|42.63,15.74|NC|N|Get the Jade Cong|
 ; [aldavor] added rank 3 since it's achiev not quest.
-R Spirit Binders |QID|967540003|M|42.26, 17.47|ACH|6754;3|N|Exploration>The Dark Heart of the Mogu.|RANK|3|
+R Spirit Binders|QID|967540003|M|42.26, 17.47|ACH|6754;3|N|Exploration>The Dark Heart of the Mogu.|RANK|3|
 C Ritual Artifacts|QID|29751|QO|3|M|42.3,17.09|NC|N|Get the Pungent Ritual Candle|
 C Vessels of the Spirit|QID|29750|US|M|40.69,14.85|N|Kill Shan'ze Spiritclaws for Spirit Bottles.|
 C The Wayward Dead|QID|29752|US|U|74771|M|40.38,14.76|N|Use Pei-Zhi's staff to release the Wandering Spirits.|
@@ -329,7 +331,7 @@ A Pei-Back|QID|29755|PRE|29754|M|43.74,12.70|N|From UI Alert.|
 C Pei-Back|QID|29755|M|42.52,10.99|N|Two Phase fight. First kill Stonebound Colossus, to make Shan Jitong targetable. When you get separated from your body, you need to run back and click on it to rejoin it, then try to interrupt the Colossus healing. Second phase, run to Shan Jitong and kill him.|
 T Pei-Back|QID|29755|M|43.81,12.47|N|To Pei-Zhi.|
 R Tian Monastery|QID|29617|CS|M|42.13,12.67;37.21,14.23;36.93,18.50;37.98,18.40;38.26,24.32|N|Mount up and run along the edge of the mountains to get to the road in Waxwood and then head to the Monastery|
-T Tian Monastery |QID|29617|M|45.00,24.94|N|To Lin Tenderpaw.|
+T Tian Monastery|QID|29617|M|45.00,24.94|N|To Lin Tenderpaw.|
 A The High Elder|QID|29618|M|44.98,25.02|N|From Lin Tenderpaw.|
 T The High Elder|QID|29618|M|45.23,25.08|N|To High Elder Cloudfall, upstairs in the temple.|
 A A Courteous Guest|QID|29619|PRE|29618|M|45.01,24.93|N|From Lin Tenderpaw.|
@@ -399,7 +401,7 @@ R What Is Worth Fighting For|QID|29576|M|38.1,35.7;39.6,33.6;35.74,30.46|CC|ACH|
 R Xin Wo Yin the Broken Hearted|QID|29576|M|37.30, 30.12|ACH|7230;2|N|Exploration>Legend of the Brewfathers.|RANK|3|
 F Paw'don Village|QID|29576|M|43.52,24.55|CS|N|At Studious Chu.(or you can just ride straight to Nectarbreeze...or...if your hearthstone is set there, hearth to Paw'don)|
 R Nectarbreeze Orchard|QID|29576|M|43.54,75.91|CC|
-T An Air of Worry |QID|29576|N|To Shao the Defiant|M|43.5,75.9|
+T An Air of Worry|QID|29576|N|To Shao the Defiant|M|43.5,75.9|
 A Defiance|QID|29578|M|43.54,75.91|N|From Shao the Defiant.|
 A Rally the Survivors|QID|29579|M|43.54,75.91|N|From Shao the Defiant.|
 A Spitfire|QID|29585|M|43.28,75.77|N|From Gentle Mother Hanae.|
@@ -428,10 +430,10 @@ T Maul Gormal|QID|29670|M|41.02,73.97|N|To Shao the Defiant.|
 R Serpent's Heart|QID|29931|M|41.6,69.1;42.1,60.4;48.26,61.31|CC|N|It is significantly faster to run northeast cross country towards the arrow, than to follow the roads, if you want to follow the roads, look for signposts to Serpent's Heart. Also, the lost BoA treasure, 'Ancient Jinyu Staff' may be occasionally located in the river beside Serpent's Heart if you want to take the time swimming to look for it.|
 T The Serpent's Heart|QID|29931|M|48.31,61.35|N|To Foreman Raike.|
 A Love's Labor|QID|30495|PRE|29931|M|48.31,61.35|N|From Foreman Raike.|
-C Delivery to Kitemaster Shoku |QID|30495|NC|QO|3|M|48.18,60.02|
-C Delivery to Taskmaster Emi |QID|30495|NC|QO|4|M|47.6,60.7|N|Ask Shoku to get a lift to the top of the statue|
-C Delivery to Surveyor Sawa |QID|30495|NC|QO|2|M|47.45,60.51;46.94,60.35|CS|N|Talk to Kitemaster Inga to get a ride down|
-C Delivery to Historian Dinh |QID|30495|NC|QO|1|M|46.36,61.80|
+C Delivery to Kitemaster Shoku|QID|30495|NC|QO|3|M|48.18,60.02|
+C Delivery to Taskmaster Emi|QID|30495|NC|QO|4|M|47.6,60.7|N|Ask Shoku to get a lift to the top of the statue|
+C Delivery to Surveyor Sawa|QID|30495|NC|QO|2|M|47.45,60.51;46.94,60.35|CS|N|Talk to Kitemaster Inga to get a ride down|
+C Delivery to Historian Dinh|QID|30495|NC|QO|1|M|46.36,61.80|
 T Love's Labor|QID|30495|M|48.31,61.35|N|To Foreman Raike.|
 A The Temple of the Jade Serpent|QID|29932|PRE|30495|M|48.31,61.35|N|From Foreman Raike.|
 ; [aldavor] check this, not auto-closing.
@@ -443,19 +445,19 @@ A They Call Him... Stormstout|QID|32019|M|58.13,58.67|N|From Elder Sage Rain-Zhu
 A The Rider's Bind|QID|29999|PRE|29932|M|58.03,59.02|N|From Fei.|
 A Lighting Up the Sky|QID|30005|PRE|29932|M|58.0,59.0|N|From Fei.|
 C Lighting Up the Sky|QID|30005|S|NC|N|Set off the fireworks(sparkly barrels) scattered throughout.|
-C Find the Playful Crimson Serpent |QID|29999|NC|QO|2|M|58.2,61.4|N|Go up the stairs and follow the path.|
+C Find the Playful Crimson Serpent|QID|29999|NC|QO|2|M|58.2,61.4|N|Go up the stairs and follow the path.|
 T The Librarian's Quandary|QID|29998|M|56.29,60.46|N|To Lorewalker Stonestep.|
 A Moth-Ridden|QID|30001|PRE|29998|M|56.27,60.44|N|From Lorewalker Stonestep.|
 A Pages of History|QID|30002|PRE|29998|M|56.27,60.44|N|From Lorewalker Stonestep.|
 C Moth-Ridden|QID|30001|S|M|56.39,60.43|
 C Pages of History|QID|30002|S|M|55.70,59.95|N|Click on the books and the bookworms will spawn. It's faster (and more fun) to stomp on them then to kill them.|
-C Find the Playful Gold Serpent |QID|29999|NC|QO|4|M|56.0,60.4|
+C Find the Playful Gold Serpent|QID|29999|NC|QO|4|M|56.0,60.4|
 C Pages of History|QID|30002|US|M|55.70,59.95|N|Click on the books and the bookworms will spawn. It's faster (and more fun) to stomp on them then to kill them.|
 C Moth-Ridden|QID|30001|US|M|56.39,60.43|
 T Moth-Ridden|QID|30001|M|56.27,60.44|N|To Lorewalker Stonestep.|
 A Everything In Its Place|QID|30004|PRE|30001&30002|M|56.27,60.44|N|From Lorewalker Stonestep.|
 T Pages of History|QID|30002|M|56.27,60.44|N|To Lorewalker Stonestep.|
-C Find the Playful Emerald Serpent |QID|29999|NC|QO|3|M|56.5,58.4|N|Head outside the library back to the central plaza and out the main gate.|
+C Find the Playful Emerald Serpent|QID|29999|NC|QO|3|M|56.5,58.4|N|Head outside the library back to the central plaza and out the main gate.|
 C The Scryer's Dilemma|QID|29997|M|56.9,55.8|N|When you get in the Fountain of the Everseeing, kill Water Fiends until you get the staff.|
 T The Scryer's Dilemma|QID|29997|M|57.6,56.0|N|To Wise Mari.|
 A A New Vision|QID|30011|PRE|29997|M|57.6,56.0|N|From Wise Mari.|

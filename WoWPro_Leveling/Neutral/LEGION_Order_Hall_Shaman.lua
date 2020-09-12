@@ -1,9 +1,10 @@
 local guide = WoWPro:RegisterGuide('EmmLegionShaman', 'Leveling', 'MaelstromShaman', 'Emmaleah', 'Neutral')
-WoWPro:GuideName(guide, 'Shaman Order Hall')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'EmmAzsuna')
+WoWPro:GuideLevels(guide, 10, 50, 10)
+WoWPro:GuideSort(guide, 3)
+WoWPro:GuideName(guide, 'Shaman: Order Hall')
+WoWPro:GuideNickname(guide, "Shaman: Order Hall")
+WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
 WoWPro:GuideClassSpecific(guide, 'Shaman')
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 A In the Blink of an Eye|QID|44663^44184|M|53.12,57.43|Z|Orgrimmar|N|From Khadgar's Upgraded Servant.|FACTION|HORDE|
@@ -121,6 +122,9 @@ T A Ring Reforged|QID|40225|M|28.98,69.25|Z|The Maelstrom!Instance!Broken Isles|
 A Azeroth Needs You|QID|41510|M|28.99,69.17|Z|The Maelstrom!Instance!Broken Isles|N|From Farseer Nobundo.|PRE|40225|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|33.48,59.37|Z|The Maelstrom!Instance!Broken Isles|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40225|
 T Azeroth Needs You|QID|41510|M|30.34,51.57|Z|The Maelstrom!Instance!Broken Isles|N|To Farseer Nobundo.|
+
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+
 C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|29.92,52.01|Z|The Maelstrom!Instance!Broken Isles|N|Take the portal to Dalaran.|
 ; LVL 110 Quest - Obliterum Chain
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|44337^44338|

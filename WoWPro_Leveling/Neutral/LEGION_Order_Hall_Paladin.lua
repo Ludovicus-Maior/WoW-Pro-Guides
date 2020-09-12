@@ -1,9 +1,10 @@
 local guide = WoWPro:RegisterGuide('EmmLegionPaladin', 'Leveling', "Light's Hope Chapel", 'Emmaleah', 'Neutral')
-WoWPro:GuideName(guide, 'Paladin Order Hall')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideLevels(guide, 10, 50, 10)
+WoWPro:GuideSort(guide, 3)
+WoWPro:GuideName(guide, 'Paladin: Order Hall')
+WoWPro:GuideNickname(guide, "Paladin: Order Hall")
+WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
 WoWPro:GuideClassSpecific(guide, "Paladin")
-WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
 N Guide Progression|QID|44448|N|There are several quests in the class hall guide that will require time to complete (such as sending your followers on order hall missions, Do 20 world quests, etc). When you come across these steps, after starting the process, manually check it off (right click) so you can progress to other parts of the guide.  Next time you reload the guide it will come back to that step reminding you, continue clicking it off until the time based requirements are completed.|
@@ -37,6 +38,9 @@ T Logistical Matters|QID|38933|M|52.29,78.17|N|To Lord Grayson Shadowbreaker.|
 A A Sound Plan|QID|39756|M|52.29,78.17|N|From Lord Grayson Shadowbreaker. Choose which zone you want to do first.|PRE|38933|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|52.93,78.75|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|38933|
 T A Sound Plan|QID|39756|M|52.29,78.11|N|To Lord Grayson Shadowbreaker.|
+
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+
 P Dalaran|QID|39718^39864^39731^39733^39735^42866|M|38.11,63.38|NC|N|Click on the portal to Dalaran.|ACTIVE|39718^39864^39731^39733^39735|
 ;stuff that happens after you finish first zone here
 A Growing Power|QID|42844|M|61.08,44.61|Z|Dalaran@Dalaran70|N|From Justicar Julia Celeste.|PRE|39780&38743&43595&42244&40794|;need to add stormheim alliance ending QID.

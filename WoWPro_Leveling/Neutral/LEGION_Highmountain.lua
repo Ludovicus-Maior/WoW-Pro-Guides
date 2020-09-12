@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmHighmountain', 'Leveling', 'Highmountain', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
+WoWPro:GuideSort(guide, 5)
+WoWPro:GuideNickname(guide, "Highmountain")
+WoWPro:GuideName(guide,"Highmountain")
+WoWPro:GuideNextGuide(guide, 'Legion: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Starting in Dalaran|QID|39733|U|140192|N|This guide assumes you are starting in Dalaran. |
@@ -537,6 +539,9 @@ T Wolf Pack Attack|QID|39656|M|57.64,56.61|N|To Razik Gazbolt.|RANK|2|
 N End of Highmountain|QID|42454|U|140192|N|Return to your Dalaran and then Class Order Hall to pick your next zone and tend to your missions.|
 C Eye of Azshara: The Hammer of Khaz'goroth|QID|42454|M|49.36,47.34|Z|Dalaran!Dalaran!Dungeon|NC|N|Central Dalaran teleport used|
 T Eye of Azshara: The Hammer of Khaz'goroth|QID|42454|M|41.17,52.45|Z|Aegwynn's Gallery@Dalaran70|N|To the glowing "Hammer of Khaz'goroth" on the wall.|
+
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+
 A Pressing the Assault|QID|44545|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454|
 A Isle Hopping|QID|44547|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454&44545|
 A Scouring What Remains|QID|44548|M|45.85,64.56|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42454&44547|

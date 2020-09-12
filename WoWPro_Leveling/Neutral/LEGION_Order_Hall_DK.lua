@@ -1,8 +1,9 @@
 local guide = WoWPro:RegisterGuide('EmmLegionDK', 'Leveling', 'Hall of Command@BrokenShore', 'Emmaleah', 'Neutral')
-WoWPro:GuideName(guide, 'Death Knight Order Hall')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, nil)
-WoWPro:GuideAutoSwitch(guide)
+WoWPro:GuideLevels(guide, 10, 50, 10)
+WoWPro:GuideSort(guide, 3)
+WoWPro:GuideName(guide, 'Death Knight: Order Hall')
+WoWPro:GuideNickname(guide, "Death Knight: Order Hall")
+WoWPro:GuideNextGuide(guide, "Legion: Guide Hub")
 WoWPro:GuideClassSpecific(guide, 'DeathKnight')
 WoWPro:GuideSteps(guide, function()
 return [[
@@ -338,6 +339,9 @@ T Plans and Preparations|QID|39832|M|49.66,51.25|N|Back "downstairs" To Siouxsie
 A Our Next Move|QID|39799|M|49.66,51.25|N|From Siouxsie the Banshee.|PRE|39832|
 A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|49.66,51.25|N|From the Scouting Map. Choose which zone you want to do first. The Legion expansion is set up differently so all are viable first zones.|ACTIVE|39799|
 T Our Next Move|QID|39799|M|49.66,51.25|N|To Siouxsie the Banshee.|
+
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+
 A Return of the Four Horsemen|QID|42449|M|50.85,50.52|N|From Highlord Darion Mograine.(Wait a minute or so for dialog to finish and then this becomes available.)|
 f Acherus Hold|QID|42449|M|25.61,28.81|N|At Grimwing.|
 P Dalaran|QID|42449|M|24.67,33.69|N|The portal is out by the flightmaster.|ACTIVE|42449|

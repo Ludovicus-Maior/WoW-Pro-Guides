@@ -744,7 +744,14 @@ WoWPro.RegisterEventHandler("GOSSIP_CLOSED" ,function(event, ...)
     WoWPro.QuestDialogActive = nil
     WoWPro.UnregisterAllEvents()
     WoWPro:RegisterEvents()
+	WoWPro.GuidelistReset = true
     end)
+
+if not WoWPro.CLASSIC then
+	WoWPro.RegisterEventHandler("CHROMIE_TIME_CLOSE" ,function(event, ...)
+		WoWPro.GuidelistReset = true
+    end)
+end
 
 WoWPro.RegisterEventHandler("QUEST_GREETING", function(event, ...)
     WoWPro.QuestDialogActive = event

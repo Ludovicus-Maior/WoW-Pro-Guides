@@ -94,6 +94,7 @@ WoWPro:Export("Warning")
 -- WoWPro error function, log and console --
 function WoWPro:Error(message, ...)
     if message ~= nil then
+
         local msg = ("|cffff7d0a%s|r: "..message):format(self.name or "Wow-Pro", ...)
         WoWPro:Add2Log(0, msg)
         -- error(msg)
@@ -220,9 +221,9 @@ function WoWPro:LogClear(where)
     WoWPro:Print("Log Reset from %s, WoWPro Version %s.", where, WoWPro.Version)
     WoWPro:print("Class: %s, Race: %s, Faction: %s, Level %d, XP %d",
                  _G.UnitClass("player"), _G.UnitRace("player"),
-                 _G.UnitFactionGroup("player"), _G.UnitLevel("player"), _G.UnitXP("player"))
+                 WoWPro.Faction, _G.UnitLevel("player"), _G.UnitXP("player"))
 end
-
+WoWPro.Faction = _G.UnitFactionGroup("player")
 WoWPro:LogClear("Addon Load")
 
 
@@ -324,7 +325,7 @@ function WoWPro:OnInitialize()
     WoWProCharDB.skippedQIDs = WoWProCharDB.skippedQIDs or {}
     WoWProDB.global.QID2Guide = WoWProDB.global.QID2Guide  or {}
     WoWProDB.global.Guide2QIDs = WoWProDB.global.Guide2QIDs  or {}
-    WoWProDB.global.RecklessCombat = false
+    WoWProDB.global.RecklessCombat = true
     WoWProDB.global.Achievements = WoWProDB.global.Achievements or {}
     WoWProDB.global.NpcFauxQuests = WoWProDB.global.NpcFauxQuests or {}
     WoWProDB.global.QuestEngineDelay = WoWProDB.global.QuestEngineDelay or 0.25
@@ -399,9 +400,10 @@ WoWPro.EventTable = {}
 -- Called when the addon is enabled, and on log-in and /reload, after all addons have loaded. --
 function WoWPro:OnEnable()
     WoWPro:Print("|cff33ff33Enabled|r: Version %s", WoWPro.Version)
-    if  WoWProDB.global.RecklessCombat then
-        WoWPro:Warning("Achtung!  Beware! Peligro!  Reckless Combat mode enabled.  InCombat interlocks disabled!")
-    end
+    -- Shouldn't be necessary anymore but keeping just in case we need to revert back.
+	--if  WoWProDB.global.RecklessCombat then
+        --WoWPro:Warning("Achtung!  Beware! Peligro!  Reckless Combat mode enabled.  InCombat interlocks disabled!")
+    --end
     -- Loading Frames --
     if not WoWPro.FramesLoaded then --First time the addon has been enabled since UI Load
         WoWPro:CreateFrames()
@@ -663,7 +665,7 @@ function WoWPro:RegisterGuide(GIDvalue, gtype, zonename, authorname, faction, re
         WoWPro:NoCoordsOK(guide)
     end
 
-    if faction and faction ~= _G.UnitFactionGroup("player") and faction ~= "Neutral" then
+    if faction and faction ~= WoWPro.Faction and faction ~= "Neutral" then
         -- If the guide is not of the correct side, don't register it
         return guide
     end
@@ -686,28 +688,31 @@ function WoWPro:GuideNickname(guide, nickname)
     guide['nickname'] = nickname
 end
 
-function WoWPro:GuideLevels(guide,lowerLevel,upperLevel,meanLevel)
-    local playerLevel = WoWPro:PlayerLevel()
-    -- Supply dynamic levels if not all the parameters are suppplied.
-    if not lowerLevel then
-        lowerLevel = max(playerLevel-1, 1)
-        guide['level_float'] = true
+local nameToID = {
+    ["Classic"] = _G.LE_EXPANSION_CLASSIC,
+    ["The Burning Crusade"] = _G.LE_EXPANSION_BURNING_CRUSADE,
+    ["Wrath of the Lich King"] = _G.LE_EXPANSION_WRATH_OF_THE_LICH_KING,
+    ["Cataclysm"] = _G.LE_EXPANSION_CATACLYSM,
+    ["Mists of Pandaria"] = _G.LE_EXPANSION_MISTS_OF_PANDARIA,
+    ["Warlords of Draenor"] = _G.LE_EXPANSION_WARLORDS_OF_DRAENOR,
+    ["Legion"] = _G.LE_EXPANSION_LEGION,
+    ["Battle for Azeroth"] = _G.LE_EXPANSION_BATTLE_FOR_AZEROTH,
+    ["Shadowlands"] = _G.LE_EXPANSION_SHADOWLANDS,
+}
+function WoWPro:GuideContent(guide, content)
+    if content == "Intro" then
+        guide.isIntro = true
+    else
+        guide.expansion = nameToID[content] or content
     end
-    if not upperLevel then
-        upperLevel = min(playerLevel+1, 110)
-        guide['level_float'] = true
-    end
-    if not meanLevel then
-        meanLevel = (lowerLevel*3.0 + upperLevel) / 4.0
-        guide['level_float'] = true
-    end
-    guide['startlevel'] = tonumber(lowerLevel)
-    guide['endlevel'] = tonumber(upperLevel)
-    guide['level'] = tonumber(meanLevel)
 end
 
--- This function should be called AFTER WoWPro:GuideLevels() to override the settings from WoWPro:GuideLevels()
-function WoWPro:NewGuideLevels(guide, lowerLevel, upperLevel, sortLevel)
+-- This function should be called AFTER WoWPro:GuideLevels() (if it's being used) to override the settings from WoWPro:GuideLevels()
+function WoWPro:GuideSort(guide,sortLevel)
+   guide['sortlevel'] = tonumber(sortLevel)
+end
+
+function WoWPro:GuideLevels(guide, lowerLevel, upperLevel, meanLevel)
     local playerLevel = WoWPro:PlayerLevel()
     -- Supply dynamic levels if not all the parameters are suppplied.
     if not lowerLevel then
@@ -715,27 +720,29 @@ function WoWPro:NewGuideLevels(guide, lowerLevel, upperLevel, sortLevel)
         guide['level_float'] = true
     end
     if not upperLevel then
-        upperLevel = min(playerLevel+1, 110)
+        upperLevel = min(playerLevel+1, 60) -- REVIEW after Patch 10 for level changes.
         guide['level_float'] = true
     end
 
-    local meanLevel
-    if upperLevel < playerLevel then
-        -- We are higher level than the guide
-        meanLevel = upperLevel
-    else
-        if lowerLevel <= playerLevel then
-            -- We are in the guide band
-            meanLevel = (playerLevel + lowerLevel) / 2.0
-        else
-            -- We are below the guide band
-            meanLevel = lowerLevel + 1.0
-        end
-    end
+    if not meanLevel then
+		if upperLevel < playerLevel then
+			-- We are higher level than the guide
+			meanLevel = upperLevel
+		else
+			if lowerLevel <= playerLevel then
+				-- We are in the guide band
+				meanLevel = (playerLevel + lowerLevel) / 2.0
+			else
+				-- We are below the guide band
+				meanLevel = lowerLevel + 1.0
+			end
+		end
+	end
 
     guide['startlevel'] = tonumber(lowerLevel)
     guide['endlevel'] = tonumber(upperLevel)
     guide['level'] = tonumber(meanLevel)
+	guide['sortlevel'] = tonumber(meanLevel)
 end
 
 function WoWPro:GuideRaceSpecific(guide, race)
@@ -800,7 +807,9 @@ local progressFormat = "%d/%d"
 function WoWPro:GetGuideProgress(guideID)
     local guideDB = WoWProCharDB.Guide[guideID]
     if guideDB and guideDB.progress and guideDB.total then
-        return guideDB.progress / guideDB.total, progressFormat:format(guideDB.progress, guideDB.total)
+		 if guideDB.total > 0 and guideDB.progress > 0 then -- They can exist but have a value of 0 (Recorder caused this issue if you reload or relog with empty new guide.)
+			return guideDB.progress / guideDB.total, progressFormat:format(guideDB.progress, guideDB.total)
+		end
     end
     return
 end
@@ -1036,6 +1045,7 @@ function WoWPro.LevelColor(guide)
         if (playerLevel >  guide['endlevel']) then
             return {WoWPro:QuestColor(guide['endlevel'])}
         end
+
         if guide['level'] then
             return {WoWPro:QuestColor(guide['level'])}
         else
@@ -1247,10 +1257,6 @@ end
 --- Release Function Compatability Section
 WoWPro.CLASSIC = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_CLASSIC
 WoWPro.RETAIL = _G.WOW_PROJECT_ID == _G.WOW_PROJECT_MAINLINE
-
--- Any check for SHADOWLANDS should be changed to RETAIL once live
-local _, _, _, TOC = _G.GetBuildInfo()
-WoWPro.SHADOWLANDS = WoWPro.RETAIL and TOC >= 90001
 
 -- Change this to fake out a classic load on retail
 WoWPro.FakeClassic = false

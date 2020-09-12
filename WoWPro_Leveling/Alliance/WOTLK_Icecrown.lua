@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide("EstIce7985", "Leveling", "Icecrown", "Estelyen", "Alliance")
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, "Arihyj8082")
+WoWPro:GuideSort(guide, 9)
+WoWPro:GuideNickname(guide, "Icecrown")
+WoWPro:GuideName(guide,"Icecrown")
+WoWPro:GuideNextGuide(guide, "Chromie Time")
 WoWPro:GuideSteps(guide, function()
 return [[
 N How to use this Guide|QID|13418|N|This guide includes many 5-Man Quests. It is unlikely that you will find a random group for those since the release of Cataclysm, but you can easily solo most of them once your character wears Cataclysm-Gear. If you already have a full equipment from any of the Cataclysm zones, you can try to do them solo, if you don't, just skip those Quests.|
@@ -54,8 +56,8 @@ T The Restless Dead|QID|13110|N|To Father Gustav.|M|82.88,72.78|
 T The Purging Of Scourgeholme|QID|13118|N|To The Ebon Watcher.|M|83.00,72.80|
 T The Scourgestone|QID|13122|N|To The Ebon Watcher.|
 A The Air Stands Still|QID|13125|PRE|13118&13122|N|From The Ebon Watcher.|
-K Salranax the Flesh Render |QID|13125|QO|1|U|43206|N|Use the Horn to call for aid should you need it.|M|77.32,61.90|; Salranax the Flesh Render slain: 1/1
-K High Priest Yath'amon |QID|13125|QO|3|U|43206|N|Use the Horn to call for aid should you need it.|M|80.18,61.22|; High Priest Yath'amon slain: 1/1
+K Salranax the Flesh Render|QID|13125|QO|1|U|43206|N|Use the Horn to call for aid should you need it.|M|77.32,61.90|; Salranax the Flesh Render slain: 1/1
+K High Priest Yath'amon|QID|13125|QO|3|U|43206|N|Use the Horn to call for aid should you need it.|M|80.18,61.22|; High Priest Yath'amon slain: 1/1
 C The Air Stands Still|QID|13125|U|43206|N|Use the Horn to call for aid should you need it.|M|76.40,53.35|
 T The Air Stands Still|QID|13125|N|To The Ebon Watcher. If you called for aid, you can click on the portal he came out of to quickly get back to the Ebon Watcher.|M|83.00,72.80|
 A Into The Frozen Heart Of Northrend|QID|13139|PRE|13110&13124&13130&13135|N|From Father Gustav.|M|82.80,72.80|
@@ -82,7 +84,7 @@ T Time Yet Remains|QID|13076|N|To Highlord Tirion Fordring.|M|79.80,71.80|
 A The Touch of an Aspect|QID|13077|PRE|13076|N|From Highlord Tirion Fordring.|
 T The Touch of an Aspect|QID|13077|N|To Alextrasza the Life-Binder on top of Wyrmrest Temple in the Dragonblight.|Z|Dragonblight|M|59.80,54.60|
 A Dahlia's Tears|QID|13078|PRE|13077|N|From Alexstrasza.|
-C Dahlia's Tears |QID|13078|N|Fly to the place where the Red Dragonflight is fighting the Scourge coming out of the Ruby Dragonshrine. Wait a little for the Ruby Keeper to appear and blast the Scourge with fire, a flower will bloom at that place. Collect it.|Z|Dragonblight|M|50.67,52.43|
+C Dahlia's Tears|QID|13078|N|Fly to the place where the Red Dragonflight is fighting the Scourge coming out of the Ruby Dragonshrine. Wait a little for the Ruby Keeper to appear and blast the Scourge with fire, a flower will bloom at that place. Collect it.|Z|Dragonblight|M|50.67,52.43|
 T Dahlia's Tears|QID|13078|N|To Alextrasza the Life-Binder on top of Wyrmrest Temple.|Z|Dragonblight|M|59.80,54.60|
 A The Boon of Alexstrasza|QID|13079|PRE|13078|N|From Alexstrasza.|
 T The Boon of Alexstrasza|QID|13079|N|Return to Crusader Bridenbrad.|M|79.80,30.80|
@@ -172,7 +174,7 @@ N Need More Info|QID|13345|L|44461|N|Enter the building and loot the three Pages
 U Cult of the Damned Research|QID|13345|L|44462|U|44459|N|Combine the Pages.|
 K Enslaved Minions of Void Summoners|QID|13342|U|44433|L|44434 5|N|Get 5 Dark Matters by using the rod on the corpses of Enslaved Minions.|M|54.33,28.79|
 C Not a Bug|QID|13342|N|Head to the summoning stone and right click it.|M|53.80,33.60|
-T Retest Now |QID|13321|N|To Chief Engineer Boltwrench, he is located in the belly of the Skybreaker.|
+T Retest Now|QID|13321|N|To Chief Engineer Boltwrench, he is located in the belly of the Skybreaker.|
 T Not a Bug|QID|13342|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
 T Need More Info|QID|13345|N|To Thassarian.|
 A No Rest For The Wicked|QID|13346|PRE|13345|N|Another 5-Man quest. From Thassarian.|
@@ -199,7 +201,7 @@ K Converted Heroes|QID|13334|QO|2|N|Kill Converted Heroes.|M|43.40,50.40|US|
 K Scourge Converters|QID|13334|QO|3|N|Kill Scourge Converters, they are more to the northeast.|M|49.80,41.20|
 T Get the Message|QID|13314|N|To High Captain Justin Bartlett. He's inside the back/rear/stern/aft part of the Skybreaker, just walk straight in from the main deck.|
 T The Ironwall Rampart|QID|13337|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
-T Bloodspattered Banners |QID|13334|N|To Thassarian.|
+T Bloodspattered Banners|QID|13334|N|To Thassarian.|
 A Before the Gate of Horror|QID|13335|N|Another 5-Man quest. From Thassarian.|
 C Before the Gate of Horror|QID|13335|U|44653|N|Kill Skeletal Reavers and use the item on their bones once they don't move anymore.|M|46.40,60.80|
 T Before the Gate of Horror|QID|13335|N|To Thassarian, he's standing on the left "wing" of the Skybreaker.|
@@ -432,7 +434,7 @@ A The Vile Hold|QID|13145|PRE|13143|N|From Vereth the Cunning.|
 R Malykriss: The Vile Hold|QID|13145|N|Use the Eye of Dominion just up the road behind Vereth the Cunning, then move the Lithe Stalker east to Malykriss.|M|55.46,73.76|
 N Altar of Sacrifice explored|QID|13145|QO|1|N|Climb up the wall at the first waypoint using 'Leap' (ability #1). Then head to the second one to examine the Altar.|M|57.64,76.01;56.3,79.1|CS|; Altar of Sacrifice explored: 1/1
 N Icy Lookout explored|QID|13145|QO|3|N|Scout the Icy Lookout. Just walk down the road.|M|55.75,73.67;56.28,69.18;60.6,68.7|CS|; Icy Lookout explored: 1/1
-N Blood Forge explored|QID|13145|QO|2|N|Scout the Blood Forge. Leap down into Malykriss then head to the waypoint. |M|58.1,70.9|; Blood Forge explored: 1/1
+N Blood Forge explored|QID|13145|QO|2|N|Scout the Blood Forge. Leap down into Malykriss then head to the waypoint.|M|58.1,70.9|; Blood Forge explored: 1/1
 C The Vile Hold|QID|13145|N|Scout the Runeworks.|M|59.1,74.4|
 T The Vile Hold|QID|13145|N|To Vereth the Cunning.|M|54.00,71.00|
 A Generosity Abounds|QID|13146|N|From Vereth the Cunning.|

@@ -1,12 +1,14 @@
 local guide = WoWPro:RegisterGuide('EmmKun8889', "Leveling", 'Kun-Lai Summit', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'EmmTow8990|EmmTow8990')
+WoWPro:GuideSort(guide, 4)
+WoWPro:GuideNickname(guide, "Kun-Lai Summit")
+WoWPro:GuideName(guide,"Kun-Lai Summit")
+WoWPro:GuideNextGuide(guide, 'Townlong Steppes')
 WoWPro:GuideSteps(guide, function()
 return [[
-A The Road to Kun-Lai |QID|31254^31255|N|From Messenger Grummle at the foot of The Veiled Stair in Grassy Cline, Valley of the Four Winds.\n(Also available from other NPCs in Krasarang Wilds and Valley of the Four Winds)|M|70,23.57|Z|Valley of the Four Winds|RANK|2|
+A The Road to Kun-Lai|QID|31254^31255|N|From Messenger Grummle at the foot of The Veiled Stair in Grassy Cline, Valley of the Four Winds.\n(Also available from other NPCs in Krasarang Wilds and Valley of the Four Winds)|M|70,23.57|Z|Valley of the Four Winds|RANK|2|
 C Speak with the Highroad Grummle|QID|31254^31255|CHAT|QO|1|M|70.08,23.47|Z|Valley of the Four Winds|N|Speak with the Highroad Grummle|RANK|2|
-R Path of a Hundred Steps |QID|31286|N|Head on up the stairs to the Tavern in the Mists via the Path of a Hundred Steps.|M|53.79,87.25|RANK|2|
-R Tavern in the Mists |QID|31286|N|Keep heading up the stairs and path to the Tavern in the Mists|M|56.75,75.82|RANK|2|
+R Path of a Hundred Steps|QID|31286|N|Head on up the stairs to the Tavern in the Mists via the Path of a Hundred Steps.|M|53.79,87.25|RANK|2|
+R Tavern in the Mists|QID|31286|N|Keep heading up the stairs and path to the Tavern in the Mists|M|56.75,75.82|RANK|2|
 f Tavern in the Mists|QID|31286|M|56.75,75.82|Z|The Veiled Stair|N|At Shin the Weightless.|RANK|2|
 l The Hammer of Folly|QID|31286|L|86473|M|68.53,79.00;74.83,76.39|CS|Z|The Veiled Stair|N|*High Value Rare Loot*\nJust east of the Black Market Action House is an ancient grass covered stairway called the Stairs that lead to nowhere. At the top, known as Mason's Folly, you may find The Hammer of Folly.\nWorth 100 gold when sold to a vendor and a lot of XP when looted.|RANK|3|
 l Forgotten Lockbox|QID|31867|M|54.71,71.41|Z|The Veiled Stair|N|*High Value Rare Loot*\nUpstairs in the inn.\nWorth around 10 gold and a lot of XP when looted.|RANK|3|
@@ -120,7 +122,7 @@ K Mogujia Soul-Caller|QID|30619^30620|T|Mogujia Soul-Caller|QO|1|M|58.23,71.21|
 C Deanimate the Reanimated|QID|30593^30594|US|M|59.20,72.21|
 C Profiting off of the Past|QID|30595|NC|US|M|58.40,74.86|
 T Profiting off of the Past|QID|30595|M|59.58,78.27|N|To Bao Jian.|
-C Round 'Em Up|QID|30575^31256|S|NC|M|54.42,83.47|N|Locate and click on three Wild Plains Yaks. |
+C Round 'Em Up|QID|30575^31256|S|NC|M|54.42,83.47|N|Locate and click on three Wild Plains Yaks.|
 C Blue Dwarf Needs Food Badly|QID|30583|FACTION|Alliance|M|50.70,83.11|N|Birds and Mushan drop multiple meat each.|
 C Best Meals Anywhere!|QID|31251|FACTION|Horde|M|59.99,80.46|N|Birds and Mushan drop multiple meat each.|
 C Round 'Em Up|QID|30575|FACTION|Alliance|US|NC|M|54.42,83.47|N|Locate and click on three Wild Plains Yaks. When you have 3 yaks, head back to Westwind Rest, the quest complete message comes in the encampment.|
@@ -141,7 +143,7 @@ T Deanimate the Reanimated|QID|30594|FACTION|Horde|M|62.69,80.63|N|To Shademaste
 T Round 'Em Up|QID|31256|FACTION|Horde|M|62.92,80.22|N|To General Nazgrim.|
 A In Tents Channeling|QID|30657|PRE|30620&31253|FACTION|Horde|M|62.92,80.22|N|From General Nazgrim.|
 A Pandaren Prisoners|QID|30655|PRE|30620&31253|FACTION|Horde|M|62.36,79.64|N|From Elder Shiao.|
-R Fire Camp Ordo |QID|30657^30652|M|50.50,78.59|
+R Fire Camp Ordo|QID|30657^30652|M|50.50,78.59|
 C Pandaren Prisoners|QID|30655^30650|NC|S|M|49.67,80.36|N|Free the Pandaren Prisoners, they are located throughout Fire Camp Ordo.|
 C Eastern Oil Rig|QID|30656^30651|NC|U|80528|M|51.0,79.4|N|Locate and click on a Explosives Barrel, head to the Eastern Oil Rig and use the Explosives.|QO|1|
 C Southern Oil Rig|QID|30656^30651|S|NC|U|80528|M|49.62,80.99|N|Locate another Explosives Barrel.|QO|2|
@@ -223,10 +225,10 @@ T Temple of the White Tiger|QID|31392|FACTION|Alliance|M|68.74,43.07|N|To Anduin
 T Temple of the White Tiger|QID|31393|FACTION|Horde|M|68.74,43.07|N|To Sunwalker Dezco.|
 A A Celestial Experience|QID|31394|FACTION|Alliance|M|68.74,43.07|N|From Anduin Wrynn.|
 A A Celestial Experience|QID|31395|FACTION|Horde|M|68.74,43.07|N|From Sunwalker Dezco.|
-C A Celestial Experience |QID|31395^31394|N|Speak to Xuen.|CHAT|QO|1|
-C A Celestial Experience |QID|31395^31394|N|Complete the First Test. Wait a minute for the dialog to finish, until a Spirit of Violence appears. Kill it to pass the test.|QO|2|
-C A Celestial Experience |QID|31395^31394|N|Complete the Second Test. Again wait for the dialog to finish, until a Spirit of Anger appears. Kill it to pass the test.|QO|3|
-C A Celestial Experience |QID|31395^31394|N|Complete the Third Test. Again wait for the dialog to finish, until a Spirit of Hatred appears. Kill it to pass the test.|QO|4|
+C A Celestial Experience|QID|31395^31394|N|Speak to Xuen.|CHAT|QO|1|
+C A Celestial Experience|QID|31395^31394|N|Complete the First Test. Wait a minute for the dialog to finish, until a Spirit of Violence appears. Kill it to pass the test.|QO|2|
+C A Celestial Experience|QID|31395^31394|N|Complete the Second Test. Again wait for the dialog to finish, until a Spirit of Anger appears. Kill it to pass the test.|QO|3|
+C A Celestial Experience|QID|31395^31394|N|Complete the Third Test. Again wait for the dialog to finish, until a Spirit of Hatred appears. Kill it to pass the test.|QO|4|
 T A Celestial Experience|QID|31394|FACTION|Alliance|M|68.76,43.14|N|To Anduin Wrynn.|
 T A Celestial Experience|QID|31395|FACTION|Horde|M|68.76,43.14|N|To Sunwalker Dezco.|
 A A Witness to History|QID|31512|PRE|31394|FACTION|Alliance|M|68.76,43.14|N|From Anduin Wrynn.|
@@ -291,7 +293,7 @@ C The Tomb of Shadows|QID|30799|M|57.14,43.50|N|At the back of the tomb in the m
 C The Tomb of Shadows|QID|30799|M|57.07,45.04|N|At the back of the tomb to the right, click on the Qiang Dynasty to obtain a rubbing.|NC|QO|3|
 T The Tomb of Shadows|QID|30799|U|81712|M|55.14,46.47|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|
 A Breaking the Emperor's Shield|QID|30798|PRE|30799|M|55.14,46.47|N|From Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
-R Tomb of Secrets |QID|30798|M|53.32,49.32|N|Leave the Tomb of Shadows, then head up the stairs to the Tomb of Secrets.|
+R Tomb of Secrets|QID|30798|M|53.32,49.32|N|Leave the Tomb of Shadows, then head up the stairs to the Tomb of Secrets.|
 C Breaking the Emperor's Shield|QID|30798|M|53.02,51.35|N|Attempt to attack Nakk'rakas, and he will release a couple of Imperial Guards. Kill them, then finish off Nakk'rakas to interrupt the Spiritbinding Ritual.|
 T Breaking the Emperor's Shield|QID|30798|U|81712|M|52.94,50.85|N|To Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|
 A Stealing Their Thunder King|QID|30800|PRE|30798|M|52.94,50.85|N|From Image of Lorewalker Cho. \nUse The Tongue of Ba-Shon if he is not in-front of you.|U|81712|
@@ -423,7 +425,7 @@ T Grummle! Grummle! Grummle!|QID|30610|M|45.94,64.05|N|To Brother Yakshoe, who i
 T Unleash The Yeti!|QID|30611|M|45.91,64.06|N|To Brother Rabbitsfoot, who is now at The Dooker Dome.|
 A The Leader Hozen|QID|30612|PRE|30607&30608|M|45.91,64.06|N|From Brother Rabbitsfoot.|
 C The Leader Hozen|QID|30612|M|46.15,63.24|N|Enter into the ring, and engage Chomp Chomp.|QO|1|
-C The Leader Hozen|QID|30612|QO|2|M|46.15,63.24|N|Kill The Ook of Dook. Watch for the lightning bolts. |
+C The Leader Hozen|QID|30612|QO|2|M|46.15,63.24|N|Kill The Ook of Dook. Watch for the lightning bolts.|
 T The Leader Hozen|QID|30612|M|51.97,67.21|N|To Brother Rabbitsfoot, who has moved back to the Burlap Waystation.|
 A The Burlap Trail: To Kota Basecamp|QID|30692|PRE|30612|M|51.66,67.83|N|From Brother Trailscenter.|
 C The Burlap Trail: To Kota Basecamp|QID|30692|M|43.77,69.04|N|As before, press M to open your map and determine the current location of the Trail Packers, head to that location, then escort them to the Kota Basecamp. There will be many attacks, and the Packers will die if you don't help them. Only the guide will fend off the attacks, and can die. You need to get only one Packer alive to the Kota Basecamp to successfully complete the quest.|

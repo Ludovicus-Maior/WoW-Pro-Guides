@@ -1,6 +1,6 @@
 local guide = WoWPro:RegisterGuide("JamDar1320", "Leveling", "Darkshore", "Jame", "Alliance")
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, "WkjAsh2025")
+WoWPro:GuideSort(guide, 12)
+WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 R Lor'danel |QID|13518|N|This guide starts from Lor'danel, which can be reached by Flightpoint from Darnassus and Exodar.  The breadcrumb quest is Breaking Waves of Change from The Howling Oak in Darnassus, or Hero's Call: Darkshore! from Darnassus.|R|Worgen|

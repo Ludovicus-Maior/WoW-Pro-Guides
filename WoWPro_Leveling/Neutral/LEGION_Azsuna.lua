@@ -1,6 +1,8 @@
 local guide = WoWPro:RegisterGuide('EmmAzsuna', 'Leveling', 'Azsuna', 'Emmaleah', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideNextGuide(guide, 'Blanc_Suramar')
+WoWPro:GuideSort(guide, 4)
+WoWPro:GuideNickname(guide, "Azsuna")
+WoWPro:GuideName(guide,"Azsuna")
+WoWPro:GuideNextGuide(guide, 'Legion: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Starting in Dalaran|AVAILABLE|38834^44137|U|140192|N|This guide assumes you are starting in Dalaran. |
@@ -478,9 +480,13 @@ T Fate of the Queen's Reprisal|QID|42244|M|61.05,17.23|Z|Dalaran!Dalaran!Dungeon
 T Fate of the Queen's Reprisal|QID|40794|M|28.66,74.87|Z|Dalaran!Dalaran!Dungeon|N|To Lt. Surtees.|FACTION|Alliance|
 C Eye of Azshara: The Tidestone of Golganneth|QID|42213|M|49.07,48.02|Z|Dalaran!Dalaran!Dungeon|NC|N|Assuming you have completed the Eye of Azshara instance, you can run down and do the final turn in.  Into the Guardian's chamber and down to Aegwynn's Gallery.|
 T Eye of Azshara: The Tidestone of Golganneth|QID|42213|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|To Tidestone of Golganneth (glowing blob on the wall in the Portrait Room).|
+
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
+
 A Pressing the Assault|QID|44545|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert.|PRE|42213|
 A Isle Hopping|QID|44547|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert. This becomes available after turning in your 2nd pillar of creation (which the guide can't actually detect so may direct you to it early. Check off manually if that happens.)|PRE|42213&44545|
 A Scouring What Remains|QID|44548|M|39.87,58.36|Z|Aegwynn's Gallery@Dalaran70|N|From UI Alert. This becomes available after turning in your 3rd pillar of creation (which the guide can't actually detect so may direct you to it early. Check off manually if that happens.)|PRE|42213&44547|
+
 D On to Class Halls|N|This ends Azsuna and the Druid order hall guide will load.|C|Druid|GUIDE|EmmLegionDruid|
 D On to Class Halls|N|This ends Azsuna and the Death Knight order hall guide will load.|C|Death Knight|GUIDE|EmmLegionDK|
 D On to Class Halls|N|This ends Azsuna and the Demon Hunter order hall guide will load.|C|DemonHunter|GUIDE|LinksDHArtCH100100|

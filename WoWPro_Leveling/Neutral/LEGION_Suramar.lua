@@ -1,9 +1,11 @@
 local guide = WoWPro:RegisterGuide('Blanc_Suramar', 'Leveling', 'Suramar', 'Blanckaert', 'Neutral')
-WoWPro:GuideLevels(guide,10,50)
-WoWPro:GuideAutoSwitch(guide)
+WoWPro:GuideSort(guide, 8)
+WoWPro:GuideNickname(guide, "Suramar")
+WoWPro:GuideName(guide,"Suramar")
+WoWPro:GuideNextGuide(guide, 'Legion: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-L This guide (and the Suramar zone) requires level 110|
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 N Use of Ranks|QID|39987|N|If you would rather do the optional quests on your own, as you come across them on world quests set your quide to rank 2.|
 N Treasures and Rares|QID|39987|N|As with other guides all treasures and rares are set to rank 2 - or for the really out of the way ones, rank 3.|
 ; Quests either REQUIRE lvl 110, AND opening Suramar (QID#42229)
