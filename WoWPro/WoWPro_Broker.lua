@@ -1295,7 +1295,11 @@ function WoWPro.UpdateGuideReal(From)
     WoWProCharDB.Guide[GID].total = WoWPro.stepcount - WoWPro.stickycount - WoWPro.optionalcount
 
     -- TODO: make next lines module specific
-    WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone).."   ("..WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total..")")
+	if WoWPro.Recorder then
+		WoWPro.TitleText:SetText((GID or WoWPro.Guides[GID].zone).."   ("..WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total..")")
+	else
+		WoWPro.TitleText:SetText((WoWPro.Guides[GID].name or WoWPro.Guides[GID].zone).."   ("..WoWProCharDB.Guide[GID].progress.."/"..WoWProCharDB.Guide[GID].total..")")
+	end
 
     -- If the guide is complete, loading the next guide --
     if (WoWProCharDB.Guide[GID].progress == WoWProCharDB.Guide[GID].total or WoWProCharDB.Guide[GID].done)
@@ -2219,7 +2223,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 			if WoWPro.playerclass and WoWPro.playerclass[guideIndex] then
 				local _, myclass = _G.UnitClass("player")
-				if WoWPro.playerclass[guideIndex] ~= myclass and (stepAction == "A" or stepAction == "T") then
+				if WoWPro.playerclass[guideIndex]:gsub(" ", ""):upper() ~= myclass and (stepAction == "A" or stepAction == "T") then
 					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing a " .. WoWPro.playerclass[guideIndex] .. ".")
 					 skip = true
 				end
@@ -2227,7 +2231,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
 			if WoWPro.playerrace and WoWPro.playerrace[guideIndex] then
 				local _, myrace = _G.UnitRace("player")
-				if WoWPro.playerrace[guideIndex] ~= myrace and (stepAction == "A" or stepAction == "T") then
+				if WoWPro.playerrace[guideIndex]:gsub(" ", "") ~= myrace and (stepAction == "A" or stepAction == "T") then
 					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing a " .. WoWPro.playerrace[guideIndex] .. ".")
 					 skip = true
 				end

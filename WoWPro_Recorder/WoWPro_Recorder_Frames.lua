@@ -133,7 +133,7 @@ local function CreateInitSpecMenu(module)
 					WoWPro.Recorder.CurrentGuide["Zone"] = "Orgrimmar"
 					WoWPro.Recorder.CurrentGuide["Faction"] = "Horde"
 				else
-					WoWPro.Recorder.CurrentGuide["Zone"] = "Stormwind"
+					WoWPro.Recorder.CurrentGuide["Zone"] = "Stormwind City"
 					WoWPro.Recorder.CurrentGuide["Faction"] = "Alliance"
 				end
 				WoWPro.Recorder.CurrentGuide["Author"] = "Tester"
