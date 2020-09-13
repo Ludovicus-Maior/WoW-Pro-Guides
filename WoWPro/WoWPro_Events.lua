@@ -264,7 +264,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
     for i=1,#WoWPro.action do
         local action = WoWPro.action[i]
         local completion = WoWProCharDB.Guide[GID].completion[i]
-		if WoWPro.mygroupsteps[i]  and (action == "C" or action == K) then
+		if WoWPro.mygroupsteps[i]  and (action == "C" or action == "K") then
 			break
 		end
         if WoWPro.QID[i] then
@@ -659,19 +659,21 @@ WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
 -- WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
 
 WoWPro.RegisterEventHandler("GROUP_ROSTER_UPDATE", function(event, ...)
-    WoWPro:UpdateGuide(event)
-	WoWPro:SendGroupInfo()
+	if successfulRequest then
+		WoWPro:UpdateGuide(event)
+		WoWPro:SendGroupInfo()
+	end
 end)
 
 WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
-	local addon, prefix, text, channel, sender = event, ...
-	if prefix == "WoWPro" then
-		synctype, message = string.split(" ", text, 2)
-		gname, server = string.split("-", sender, 2)
+	local _, prefix, text, _, sender = event, ...
+	if successfulRequest and prefix == "WoWPro" then
+		local synctype, message = _G.string.split(" ", text, 2)
+		local gname, server = _G.string.split("-", sender, 2)
 		--WoWPro.playerGroup["Caylassa-Anasterian"]["track"][7]
 		if gname ~= _G.UnitName("Player") then
 			if synctype == "group" then
-				gclass, grace, ggender, gstep = string.split(" ", message, 4)
+				local gclass, grace, ggender, gstep = _G.string.split(" ", message, 4)
 				if WoWPro.playerGroup[sender] == nil then
 					WoWPro.playerGroup[sender] = {
 						pname = gname,
@@ -685,7 +687,7 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 				end
 			elseif synctype == "steps" then
 				if (WoWPro.playerGroup[sender] ~= nil) then
-					local tbl = {string.split(" ", message)}
+					local tbl = {_G.string.split(" ", message)}
 					WoWPro.playerGroup[sender]["step"] = {}
 					foreach(tbl, function(k,v)
 						if (v ~= "") then
@@ -704,7 +706,7 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 				WoWPro:UpdateGuide(event)
 			elseif synctype == "track" then
 				if (WoWPro.playerGroup[sender] ~= nil) then
-					gindex, gtrack = string.split(" ", message, 2)
+					gindex, gtrack = _G.string.split(" ", message, 2)
 					WoWPro.playerGroup[sender]["track"][tonumber(gindex)] = gtrack
 					WoWPro.myGroupTrack = {}
 					for index,gvalue in pairs(WoWPro.playerGroup) do
