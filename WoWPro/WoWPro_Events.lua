@@ -6,7 +6,7 @@
 --------------------------
 
 local L =  WoWPro_Locale
-
+local successfulRequest = _G.C_ChatInfo.RegisterAddonMessagePrefix("WoWPro")
 -- Are we ready to roll?
 function WoWPro.Ready(who)
     if not WoWProDB.char.currentguide then
@@ -264,7 +264,9 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
     for i=1,#WoWPro.action do
         local action = WoWPro.action[i]
         local completion = WoWProCharDB.Guide[GID].completion[i]
-
+		if WoWPro.mygroupsteps[i]  and (action == "C" or action == "K") then
+			break
+		end
         if WoWPro.QID[i] then
             local numQIDs = select("#", ("^&"):split(WoWPro.QID[i]))
             for j=1,numQIDs do
@@ -657,7 +659,69 @@ WoWPro.RegisterEventHandler("UPDATE_BINDINGS", WoWPro.PLAYER_REGEN_ENABLED)
 -- WoWPro.RegisterEventHandler("PARTY_MEMBERS_CHANGED", WoWPro.PLAYER_REGEN_ENABLED)
 
 WoWPro.RegisterEventHandler("GROUP_ROSTER_UPDATE", function(event, ...)
-    WoWPro:UpdateGuide(event)
+	if successfulRequest then
+		WoWPro:UpdateGuide(event)
+		WoWPro:SendGroupInfo()
+	end
+end)
+
+WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
+	local _, prefix, text, _, sender = event, ...
+	if successfulRequest and prefix == "WoWPro" then
+		local synctype, message = _G.string.split(" ", text, 2)
+		local gname = _G.string.split("-", sender, 2)
+		--WoWPro.playerGroup["Caylassa-Anasterian"]["track"][7]
+		if gname ~= _G.UnitName("Player") then
+			if synctype == "group" then
+				local gclass, grace, ggender, gstep = _G.string.split(" ", message, 4)
+				if WoWPro.playerGroup[sender] == nil then
+					WoWPro.playerGroup[sender] = {
+						pname = gname,
+						class = gclass,
+						race = grace,
+						gender = tonumber(ggender),
+						step = {[tonumber(gstep)] = true},
+						track = {}
+					}
+					WoWPro:LoadGuideStepsReal()
+				end
+			elseif synctype == "steps" then
+				if (WoWPro.playerGroup[sender] ~= nil) then
+					local tbl = {_G.string.split(" ", message)}
+					WoWPro.playerGroup[sender]["step"] = {}
+					_G.foreach(tbl, function(k,v)
+						if (v ~= "") then
+							WoWPro.playerGroup[sender]["step"][tonumber(v)] = true
+						end
+					end);
+					WoWPro.mygroupsteps = {}
+					for index,gvalue in _G.pairs(WoWPro.playerGroup) do
+						_G.foreach(gvalue["step"], function(gkey,gval)
+							WoWPro.mygroupsteps[tonumber(gkey)] = true
+						end);
+					end
+				else
+					_G.C_ChatInfo.SendAddonMessage("WoWPro", "NeedGroup NOW" , "PARTY")
+				end
+				WoWPro:UpdateGuide(event)
+			elseif synctype == "track" then
+				if (WoWPro.playerGroup[sender] ~= nil) then
+					local gindex, gtrack = _G.string.split(" ", message, 2)
+					WoWPro.playerGroup[sender]["track"][tonumber(gindex)] = gtrack
+					WoWPro.myGroupTrack = {}
+					for index,gvalue in _G.pairs(WoWPro.playerGroup) do
+						_G.foreach(gvalue["track"], function(gkey,gval)
+							WoWPro.myGroupTrack[tonumber(gkey)] = (WoWPro.myGroupTrack[tonumber(gkey)] or "") .. "\n" .. gval .. " - " .. gname
+						end);
+					end
+				else
+					_G.C_ChatInfo.SendAddonMessage("WoWPro", "NeedGroup NOW" , "PARTY")
+				end
+			elseif synctype == "NeedGroup" then
+				WoWPro:SendGroupInfo()
+			end
+		end
+	end
 end)
 
 -- Merchant?
