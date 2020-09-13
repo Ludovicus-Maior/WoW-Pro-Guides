@@ -669,7 +669,7 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 	local _, prefix, text, _, sender = event, ...
 	if successfulRequest and prefix == "WoWPro" then
 		local synctype, message = _G.string.split(" ", text, 2)
-		local gname, server = _G.string.split("-", sender, 2)
+		local gname = _G.string.split("-", sender, 2)
 		--WoWPro.playerGroup["Caylassa-Anasterian"]["track"][7]
 		if gname ~= _G.UnitName("Player") then
 			if synctype == "group" then
@@ -689,14 +689,14 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 				if (WoWPro.playerGroup[sender] ~= nil) then
 					local tbl = {_G.string.split(" ", message)}
 					WoWPro.playerGroup[sender]["step"] = {}
-					foreach(tbl, function(k,v)
+					_G.foreach(tbl, function(k,v)
 						if (v ~= "") then
 							WoWPro.playerGroup[sender]["step"][tonumber(v)] = true
 						end
 					end);
 					WoWPro.mygroupsteps = {}
-					for index,gvalue in pairs(WoWPro.playerGroup) do
-						foreach(gvalue["step"], function(gkey,gval)
+					for index,gvalue in _G.pairs(WoWPro.playerGroup) do
+						_G.foreach(gvalue["step"], function(gkey,gval)
 							WoWPro.mygroupsteps[tonumber(gkey)] = true
 						end);
 					end
@@ -706,10 +706,10 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 				WoWPro:UpdateGuide(event)
 			elseif synctype == "track" then
 				if (WoWPro.playerGroup[sender] ~= nil) then
-					gindex, gtrack = _G.string.split(" ", message, 2)
+					local gindex, gtrack = _G.string.split(" ", message, 2)
 					WoWPro.playerGroup[sender]["track"][tonumber(gindex)] = gtrack
 					WoWPro.myGroupTrack = {}
-					for index,gvalue in pairs(WoWPro.playerGroup) do
+					for index,gvalue in _G.pairs(WoWPro.playerGroup) do
 						foreach(gvalue["track"], function(gkey,gval)
 							WoWPro.myGroupTrack[tonumber(gkey)] = (WoWPro.myGroupTrack[tonumber(gkey)] or "") .. "\n" .. gval .. " - " .. gname
 						end);

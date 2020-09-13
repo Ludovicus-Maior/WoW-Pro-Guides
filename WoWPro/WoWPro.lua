@@ -995,10 +995,8 @@ end
 
 function WoWPro:SendGroupInfo()
 	--if WoWProCharDB.GroupSync then
-		mygroupsteps = {}
-		myGroupTrack = {}
-		local myclassL, myclass = _G.UnitClass("player")
-		local myraceL, myrace = _G.UnitRace("player")
+		local _, myclass = _G.UnitClass("player")
+		local _, myrace = _G.UnitRace("player")
 		local gender = _G.UnitSex("player")
 		local addonString = "group " .. myclass .. " " .. myrace .. " " .. gender .. " " .. WoWPro.ActiveStep
 		_G.C_ChatInfo.SendAddonMessage("WoWPro", addonString , "PARTY")
