@@ -80,12 +80,14 @@ t Drustvar|QID|47961|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 A The Vanishing Lord|QID|48622|M|73.84,25.09|Z|Tiragarde Sound|N|From Taelia.|PRE|47961|
 t Stormsong Valley|QID|47962|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 A The Missing Fleet|QID|47952|M|68.17,21.99|Z|Boralus|N|From Taelia.|PRE|47962|
-A The War Campaign|QID|52654|M|68.04,22.18|Z|Boralus|N|From Genn Greymane.|PRE|47189|
+; gone from PTR (or moved to later?)
+; A The War Campaign|QID|52654|M|68.04,22.18|Z|Boralus|N|From Genn Greymane.|PRE|47189|
 A The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|From Flynn Fairwind.|PRE|47960|
 C The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|Orient yourself towards the barrel (north) and use the special action button.|
 T The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|To Flynn Fairwind.|
 A The Ashvane Trading Company|QID|47485|M|73.80,25.07|Z|Tiragarde Sound|N|From Cyrus Crestfall.|PRE|47181|
-T The War Campaign|QID|52654|M|69.27,26.97|Z|Boralus|N|To Halford Wyrmbane.|
-A The War Cache|QID|52544|M|69.27,26.97|Z|Boralus|N|From Halford Wyrmbane.|NA|
+; gone from PTR
+; T The War Campaign|QID|52654|M|69.27,26.97|Z|Boralus|N|To Halford Wyrmbane.|
+; A The War Cache|QID|52544|M|69.27,26.97|Z|Boralus|N|From Halford Wyrmbane.|NA|
 ]]
 end)
