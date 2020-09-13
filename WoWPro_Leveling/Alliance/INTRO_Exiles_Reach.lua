@@ -173,7 +173,7 @@ A Right Beneath Their Eyes|QID|55981|M|48.98,49.23|N|From Captain Garrick.|PRE|5
 C Right Beneath Their Eyes|QID|55981|M|49.04,49.19|QO|1|CHAT|N|Ask Meredy to perform ogre transformation spell.|
 C Right Beneath Their Eyes|QID|55981|M|45.79,44.76|QO|2|N|Enter Darkmaul Citadel.|
 C Right Beneath Their Eyes|QID|55981|M|45.90,38.57|QO|3|N|Find the ogre cooking area.|
-C Right Beneath Their Eyes|QID|55981|M|45.68,37.54|QO|4|T|Gor'groth;wave|N|Use the wow-pro target button to target and wave at Gor'groth; then /dance afterward if you feel up to it.|
+C Right Beneath Their Eyes|QID|55981|M|45.68,37.54|QO|4|T|Gor'groth,wave|N|Use the wow-pro target button to target and wave at Gor'groth; then /dance afterward if you feel up to it.|
 C Right Beneath Their Eyes|QID|55981|M|40.98,32.90|QO|5|N|Reach the citadel entrance.|
 T Right Beneath Their Eyes|QID|55981|M|40.16,32.35|N|Turn into Captain Garrick.|
 A Controlling their Stones|QID|55990|M|40.16,32.35|N|From Captain Garrick.|PRE|55981|
@@ -221,14 +221,14 @@ A What's Your Specialty?|QID|59587|Z|Stormwind City|M|77.28,67.09|C|Mage|N|From 
 C What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.05,69.69|C|Mage|QO|1|CHAT|N|Talk to Frazzle Frostfingers he is upstairs.|
 C What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.05,69.69|C|Mage|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.05,69.69|C|Mage|N|Turn into Frazzle Frostfingers.|
-A What's Your Specialty?|QID|59593|Z|Stormwind City|M|777.28,67.09|C|Warlock|N|From Lindie Springstock.|PRE|58909|
+A What's Your Specialty?|QID|59593|Z|Stormwind City|M|77.28,67.09|C|Warlock|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59593|Z|Stormwind City|M|80.23,70.19|C|Warlock|QO|1|CHAT|N|Talk to Laphandrus Voidheart he is upstairs.|
 C What's Your Specialty?|QID|59593|Z|Stormwind City|M|80.23,70.19|C|Warlock|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|59593|Z|Stormwind City|M|80.23,70.19|C|Warlock|N|Turn into Laphandrus Voidheart.|
 A What's Your Specialty?|QID|59588|Z|Stormwind City|M|77.28,67.09|C|Monk|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59588|Z|Stormwind City|M|79.63,69.25;79.68,71.27;80.35,70.05|CS|C|Monk|QO|1|CHAT|N|Into the Training Hall and up the stairs to find and talk to Juisheng Halfclaw.|
 C What's Your Specialty?|QID|59588|Z|Stormwind City|M|80.35,70.05|C|Monk|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
-T What's Your Specialty?|QID|59588|Z|Stormwind City|M|780.35,70.05|C|Monk|N|Turn into Juisheng Halfclaw.|
+T What's Your Specialty?|QID|59588|Z|Stormwind City|M|80.35,70.05|C|Monk|N|Turn into Juisheng Halfclaw.|
 A What's Your Specialty?|QID|59589|Z|Stormwind City|M|77.28,67.09|C|Paladin|N|From Lindie Springstock.|PRE|58909|
 C What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|QO|1|CHAT|N|Talk to Ezul'aan.|
 C What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
