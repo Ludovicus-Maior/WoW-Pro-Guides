@@ -670,7 +670,6 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 	if successfulRequest and prefix == "WoWPro" then
 		local synctype, message = string.split(" ", text, 2)
 		local gname = string.split("-", sender, 2)
-		print(gname .. ": " .. message)
 		--WoWPro.playerGroup["Caylassa-Anasterian"]["track"][7]
 		if gname ~= _G.UnitName("Player") then
 			if synctype == "group" then
