@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('CagBastion', 'Leveling', "Bastion", 'Cagomei
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideNickname(guide, "Bastion")
 WoWPro:GuideName(guide,"Bastion")
-WoWPro:GuideNextGuide(guide, nil)
+WoWPro:GuideNextGuide(guide, 'Nil')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Welcome to Eternity|QID|59774|M|37.47,76.44|Z|Bastion|N|From Kleia|PRE|61874|
@@ -68,7 +68,7 @@ C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|2|Z|Bastion|
 C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|3|Z|Bastion|NC|N|Collect a Condensed Anima Mote from the Anima Extractor.|
 C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|Bastion|N|Slay Etherwyrms to collect 25 Glowing Viscera.|US|
 C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|Bastion|NC|N|Collect 6 Adrima's Lily.|US|
-C Suggested Reading|QID|57712|M|55.11,78.30|QO|3|Z|Bastion|N|Kill Ethtywyrms till "Bear Witness: The Watcher's Code" drops.|US|
+C Suggested Reading|QID|57712|M|55.11,78.30|QO|3|Z|Bastion|N|Kill Etherwyrms till "Bear Witness: The Watcher's Code" drops.|US|
 T Suggested Reading|QID|57712|M|55.35,83.40|Z|Bastion|N|To Clora.|
 T The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion|N|To Sika.|
 T The Cycle of Anima: Flower Power|QID|57267|M|52.71,82.61|Z|Bastion|N|To Sika.|
@@ -234,13 +234,11 @@ A Steward at Work|QID|59197|M|52.83,47.88|Z|Bastion|N|From Kalisthene.|PRE|59426
 C Steward at Work|QID|59197|M|PLAYER|Z|Bastion|QO|1|N|Use the new summon steward spell you just received.|
 C Steward at Work|QID|59197|M|PLAYER|Z|Bastion|QO|2|CHAT|N|Talk to the Steward you summoned and ask him to fix the beacon.|
 C Steward at Work|QID|59197|M|53.24,46.82|Z|Bastion|QO|3|NC|N|Click the beacon of invocation.|
-h Hero's Rest|QID|59197|M|53.15,46.88|Z|Bastion|N|At Inkiep|
+h Hero's Rest|QID|59197|M|53.15,46.88|Z|Bastion|N|At Inkiep.|
 f Hero's Rest|ACTIVE|59197|M|51.40,46.80|Z|Bastion|N|At Navarros.|
 T Steward at Work|QID|59197|M|52.86,45.66|Z|Bastion|N|To Polemarch Adrestes.|
 A A Friendly Rivalry|QID|59674|M|57.40,54.29|Z|Bastion|N|Take a teleportation pad down and grab this from Pelodis.|
-C A Friendly Rivalry|QID|59674|M|57.26,39.24|Z|Bastion|N|
-T A Friendly Rivalry|QID|59674|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-C More Than A Gift|QID|62715|CS|M|52.30,72.78;45.56,59.71|Z|Bastion|NC|N|Click the flower|
+C More Than A Gift|QID|62715|M|45.56,59.70|Z|Bastion|NC|N|Click on the flower.|
 C A Fine Journey|QID|59554|M|46.96,63.44|Z|Bastion|N|Run over to Keeper Mnemis.|
 T A Fine Journey|QID|59554|M|46.96,63.44|Z|Bastion|N|To Keeper Mnemis.|
 A In Agthia's Memory|QID|57549|M|46.96,63.44|Z|Bastion|N|From Keeper Mnemis.|PRE|59554|
@@ -253,7 +251,7 @@ C Agthia's Path|QID|57551|M|46.96,63.44|Z|Bastion|NC|N|Click the bell right next
 T Agthia's Path|QID|57551|M|46.59,63.37|Z|Bastion|N|To Agthia.|
 A Warriors of the Void|QID|57552|M|46.59,63.37|Z|Bastion|N|From Agthia.|PRE|57551|
 A Wicked Gateways|QID|57554|M|46.59,63.37|Z|Bastion|N|From Agthia.|PRE|57551|
-A On Wounded Wings|QID|57553|M|46.59,63.37|Z|Bastion|N|From Agthia.|PRE|57551|
+A On Wounded Wings|QID|57553|M|46.59,63.37|Z|Bastion|N|From Agthian Defender.|PRE|57551|
 C Warriors of the Void|QID|57552|M|46.59,63.37|Z|Bastion|N|Kill all the mobs.|S|
 C On Wounded Wings|QID|57553|M|46.59,63.37|Z|Bastion|NC|N|Click the Wounded Defenders to heal them.|S|
 C Wicked Gateways|QID|57554|M|46.59,63.37|Z|Bastion|NC|N|Click the void portals to close them.|
@@ -265,8 +263,7 @@ T Wicked Gateways|QID|57554|M|46.59,63.37|Z|Bastion|N|To Agthia.|
 A Shadow's Fall|QID|57555|M|46.96,63.44|Z|Bastion|N|From Keeper Mnemis.|PRE|57549|
 C Shadow's Fall|QID|57555|M|44.86,68.68|Z|Bastion|NC|N|Kill the big void guy.|
 T Shadow's Fall|QID|57555|M|46.59,63.37|Z|Bastion|N|To Agthia.|
-T More Than A Gift|QID|62715|M|53.87,73.95|Z|Bastion|N|To Acolyte Amalthina
-A Garden in Turmoil|QID|57529|M|52.34,61.38|Z|Bastion|N|From Tamesis.|
+A Garden in Turmoil|QID|57529|M|52.34,61.38|Z|Bastion|N|
 C Garden in Turmoil|QID|57529|M|51.34,59.57|Z|Bastion|N|
 T Garden in Turmoil|QID|57529|M|51.34,59.57|Z|Bastion|N|To Zosime.|
 A Disturbing the Peace|QID|57538|M|51.34,59.57|Z|Bastion|N|From Zosime.|
@@ -283,16 +280,15 @@ C A Test of Courage|QID|57547|M|51.84,54.69|QO|1|Z|Bastion|N|Hit that little bel
 C A Test of Courage|QID|57547|M|51.84,54.69|QO|2|Z|Bastion|N|
 T A Test of Courage|QID|57547|M|51.19,56.78|Z|Bastion|N|To Zosime.|
 A Tough Love|QID|57568|M|51.19,56.78|Z|Bastion|N|From Zosime.|
-C Tough Love|QID|57568|M|51.84,54.69|Z|Bastion|N|Beat down Kala.|
+C Tough Love|QID|57568|M|46.31,56.71|QO|1|Z|Bastion|N|Beat down Kala.|
+C Tough Love|QID|57568|M|46.31,56.71|QO|2|Z|Bastion|N|Grab the stick.|
 T Tough Love|QID|57568|M|51.33,59.57|Z|Bastion|N|To Zosime.|
+T More Than A Gift|QID|62715|M|53.87,73.95|Z|Bastion|N|To Acolyte Amalthina
 C WANTED:Darkwing|QID|60366|M|56.20,47.99|Z|Bastion|ELITE|N|Use the whistle at the nest.|U|178791|
 C WANTED: Gorgebeak|QID|60315|M|53.57,46.43|Z|Bastion|ELITE|N|From the scroll on the wall.|
 T WANTED: Gorgebeak|QID|60315|M|51.00,41.66|Z|Bastion|ELITE|N|From the scroll on the wall.|
-H Hero's Rest|QID|60366|U|6948
-T WANTED: Darkwing|QID|60366|M|52.43,48.00|Z|Bastion|ELITE|N|To Eumelia.|
-
-
-
+C A Friendly Rivalry|QID|59674|M|57.26,39.24|Z|Bastion|N|
+T A Friendly Rivalry|QID|59674|M|57.26,39.24|Z|Bastion|N|To Nemea.|
 A Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|N|From Nemea.|
 C Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|N|Click on the flying lions.|
 T Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|N|To Nemea.|
@@ -301,26 +297,26 @@ A All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|From Nemea.|
 A Phalynx Malfunction|QID|57931|M|54.81,41.19|Z|Bastion|N|From Pelodis.|
 A Resource Drain|QID|57932|M|54.81,41.19|Z|Bastion|N|From Hopo.|
 C All Natural Chews|QID|58038|M|56.17,45.56|Z|Bastion|N|Kill the cloudstriders in the area.|S|
-C Larion at Large|QID|58039|CS|M|56.00,44.18|QO|1|Z|Bastion|N|Follow Andria till she stops moving and then click on her to remve the thorn.|S|
-C Larion at Large|QID|58039|CS|M|56.00,44.18|QO|2|Z|Bastion|N|Bring Andira back.|S|
-C Resource Drain|QID|57932|M|56.17,45.56|Z|Bastion|N|Kill the cloudstriders in the area.|S|U|173691|
+C Larion at Large|QID|58039|CS|M|56.00,44.18|QO|1|Z|Bastion|NC|N|Follow Andria till she stops moving and then click on her to remve the thorn.|S|
+C Larion at Large|QID|58039|CS|M|57.18,39.40|QO|2|Z|Bastion|N|Bring Andira back.|S|
+C Resource Drain|QID|57932|M|56.17,45.56|Z|Bastion|N|Use the item provided on Gilded Cloudstrider.|S|U|173691|
 C Phalynx Malfunction|QID|57931|M|54.89,43.58|Z|Bastion|QO|1|N|Click on Gatamatos.|
 C Phalynx Malfunction|QID|57931|M|55.36,41.99|Z|Bastion|QO|2|N|Bring him to the pedistool.|
 C Larion at Large|QID|58039|CS|M|56.00,44.18|QO|1|Z|Bastion|N|Follow Andria till she stops moving and then click on her to remve the thorn.|US|
-C Larion at Large|QID|58039|CS|M|56.00,44.18|QO|2||Z|Bastion|N|Bring Andira back.|US|
+C Larion at Large|QID|58039|M|57.18,39.40|QO|2||Z|Bastion|N|Bring Andira back.|US|
 C All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|Kill the cloudstriders in the area.|US|
 C Resource Drain|QID|57932|M|56.17,45.56|Z|Bastion|N|Use the item on the deer.|US|U|173691|
-T Resource Drain|QID|57932|M|54.81,41.19|Z|Bastion|N|T Hopo.|
-T Phalynx Malfunction|QID|57931|M|54.81,41.19|Z|Bastion|N|To Pelodis.|
-C Larion at Large|QID|58039|CS|M|56.00,44.18|QO|2||Z|Bastion|N|Bring Andira back.|US|
+T Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion|N|To Nemea.|
 T All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|To Nemea.|
 T Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion|N|To Nemea.|
 A With Lance and Larion|QID|58040|M|57.26,39.24|Z|Bastion|N|From Pelodis.|
 A Providing for the Pack|QID|58041|M|57.26,39.24|Z|Bastion|N|From Pelodis.|
-A We Can Rebuild Him|QID|57933|M|54.81,41.19|Z|Bastion|N|From Pelodis.|
+T Resource Drain|QID|57932|M|54.81,41.19|Z|Bastion|N|T Hopo.|
+T Phalynx Malfunction|QID|57931|M|54.81,41.19|Z|Bastion|N|To Pelodis.|
+A We Can Rebuild Him|QID|57933|M|54.81,41.19|Z|Bastion|N|From Pelodis.|PRE|57932^57931|
 C We Can Rebuild Him|QID|57933|M|55.34,42.00|QO|1|Z|Bastion|NC|N|Click the kitty.|
 C We Can Rebuild Him|QID|57933|M|54.62,40.44|QO|2|Z|Bastion|NC|N|Click the platform.|
-C We Can Rebuild Him|QID|57933|CS|M|54.50,41.57;54.62,40.44|QO|3|Z|Bastion|NC|N|Click on the engineersand bring it back to the platform.|
+C We Can Rebuild Him|QID|57933|CS|M|54.50,41.57;54.62,40.44|QO|3|Z|Bastion|NC|N|Click on the engineers and bring it back to the platform.|
 C We Can Rebuild Him|QID|57933|CS|M|54.47,41.37;54.62,40.44|QO|4|Z|Bastion|NC|N|Click on the barrel and bring it back to the platform.|
 C We Can Rebuild Him|QID|57933|CS|M|54.39,41.01;54.49,41.66;54.88,40.15|QO|5|Z|Bastion|NC|N|Gather the armor pieces around the are.|
 C We Can Rebuild Him|QID|57933|M|54.49,40.38|QO|6|Z|Bastion|NC|N|Place all the armor scraps.|
@@ -328,7 +324,7 @@ C We Can Rebuild Him|QID|57933|M|54.71,40.40|QO|7|Z|Bastion|CHAT|N|Talk to Pelod
 T We Can Rebuild Him|QID|57933|M|54.81,41.19|Z|Bastion|N|To Pelodis.|
 A Combat Drills|QID|57934|M|54.81,41.19|Z|Bastion|N|From Pelodis.|
 A Laser Location|QID|57935|M|55.93,47.21|Z|Bastion|N|From Pelodis.|
-A Superior Programming|QID|57936|M|57.26,39.24|Z|Bastion|N|From Hopo.|
+A Superior Programming|QID|57936|M|54.82,41.19|Z|Bastion|N|From Hopo.|
 C Superior Programming|QID|57936|M|56.13,40.28|Z|Bastion|N|Kill Leonid.|S|
 C With Lance and Larion|QID|58040|M|57.26,39.24|Z|Bastion|N|Target Cloudfeather Greatwings and use the  lance.|S|T|Cloudfeather Greatwing|U|173692|
 C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion|N|Kill Juvinile Cloudfeathers.|S|
@@ -343,7 +339,7 @@ C With Lance and Larion|QID|58040|M|55.93,47.21|Z|Bastion|N|Target Cloudfeather 
 C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion|N|Kill Juvinile Cloudfeathers.|US|
 T Combat Drills|QID|57934|M|54.81,41.19|Z|Bastion|N|To Pelodis.|
 T Laser Location|QID|57935|M|54.81,41.19|Z|Bastion|N|To Pelodis.|
-T Superior Programming|QID|57936|M|57.26,39.24|Z|Bastion|N|To Hopo.|
+T Superior Programming|QID|57936|M|54.81,41.19|Z|Bastion|N|To Hopo.|
 A Tactical Formation|QID|57937|M|54.80,41.16|Z|Bastion|N|From Pelodis.|
 C Tactical Formation|QID|57937|M|55.37,42.01|QO|1|Z|Bastion|NC|N|Gatamatos retrieved.|
 C Tactical Formation|QID|57937|M|55.10,41.61|QO|2|Z|Bastion|NC|N|Click the Shadow.|
@@ -358,11 +354,14 @@ C On Larion Wings|QID|58042|M|56.87,39.28|Z|Bastion|QO|1|N|Mount Andira.|
 C On Larion Wings|QID|58042|M|56.87,39.28|Z|Bastion|QO|2|N|Ride through the rings.|
 T On Larion Wings|QID|58042|M|57.26,39.24|Z|Bastion|N|To Nemea.|
 A Pride or Unit|QID|60296|M|57.26,39.24|Z|Bastion|N|From Nemea.|
-C Pride or Unit|QID|60296|M|56.87,39.28|Z|Bastion|QO|1|CHAT|N|Meet with Pelodis and Nemea.|
-C Pride or Unit|QID|60296|M|56.87,39.28|Z|Bastion|QO|2|CHAT|N|Talk to Pelodis.|
-C Pride or Unit|QID|60296|M|56.87,39.28|Z|Bastion|QO|3|CHAT|N|Talk to Nemea.|
-C Pride or Unit|QID|60296|M|56.87,39.28|Z|Bastion|QO|4|CHAT|N|Choose Phalynx or Larion.|
-T Pride or Unit|QID|60296|M|57.26,39.24|Z|Bastion|N|To Nemea.|
+C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|1|CHAT|N|Meet with Pelodis and Nemea.|
+C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|2|CHAT|N|Talk to Pelodis.|
+C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|3|CHAT|N|Talk to Nemea.|
+C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|4|CHAT|N|Choose Phalynx or Larion.|
+T Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|N|To Nemea.|
+H Hero's Rest|QID|60366|U|6948
+T WANTED: Darkwing|QID|60366|M|52.43,48.00|Z|Bastion|ELITE|N|To Eumelia.|
+A On Swift Wings|QID|59198|M|52.86,45.66|Z|Bastion|CHAT|N|Speak to Polemarch Adrestes.|
 C On Swift Wings|QID|59198|M|52.86,45.66|Z|Bastion|CHAT|N|Speak to Polemarch Adrestes.|
 f Elysian Hold|ACTIVE|59198|M|51.30,48.52|Z|1707|N|At Cassius.|
 T On Swift Wings|QID|59198|M|55.49,42.17|Z|1707|N|To Polemarch Adrestes.|
@@ -370,28 +369,27 @@ A Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|N|From Polemarch Adres
 C Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|CHAT|N|Speak to Polemarch Adrestes.|
 T Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|N|To Polemarch Adrestes.|
 A The Wards of Bastion|QID|59200|M|55.49,42.17|Z|1707|N|From Polemarch Adrestes.|
-C The Wards of Bastion|QID|59200|M|52.11,78.70|Z|1707|QO|1|N|Ward of Purity checked.|
-C The Wards of Bastion|QID|59200|M|58.79,88.12|Z|1707|QO|2|N|Ward of Humility checked.|
-C The Wards of Bastion|QID|59200|M|59.38,89.15|Z|1707|QO|3|N|Ward of Wisdom checked.|
-C The Wards of Bastion|QID|59200|M|53.99,75.70|Z|1707|QO|4|N|Ward of Loyalty checked.|
-C The Wards of Bastion|QID|59200|M|61.03,85.90|Z|1707|QO|5|N|Ward of Courage checked.|
-T The Wards of Bastion|QID|59200|M|51.51,42.08|Z|1707|N|To Polemarch Adrestes. |
+C The Wards of Bastion|QID|59200|M|52.11,78.70|Z|1707|QO|1|NC|N|Ward of Purity checked.|
+C The Wards of Bastion|QID|59200|M|58.79,88.12|Z|1707|QO|2|NC|N|Ward of Humility checked.|
+C The Wards of Bastion|QID|59200|M|59.38,89.15|Z|1707|QO|3|NC|N|Ward of Wisdom checked.|
+C The Wards of Bastion|QID|59200|M|53.99,75.70|Z|1707|QO|4|NC|N|Ward of Loyalty checked.|
+C The Wards of Bastion|QID|59200|M|61.03,85.90|Z|1707|QO|5|NC|N|Ward of Courage checked.|
+T The Wards of Bastion|QID|59200|M|55.48,42.12|Z|1707|N|To Polemarch Adrestes. |
 A Imminent Danger|QID|60005|M|55.47,42.28|Z|1707|N|From Polemarch Adrestes.|
-C Imminent Danger|QID|60005|M|51.10,48.82|Z|1707|N|Speak to Cassius.|
-T Imminent Danger|QID|60005|M|46.98,63.44|Z|1707|N|To Thanikos.|
+C Imminent Danger|QID|60005|M|51.10,48.82|Z|1707|CHAT|N|Speak to Cassius.|
+T Imminent Danger|QID|60005|M|41.79,55.18|Z|Bastion|N|To Thanikos.|
 A Now or Never|QID|60006|M|41.77,55.18|Z|Bastion|N|From Thanikos.|
 C Now or Never|QID|60006|M|41.77,55.18|Z|Bastion|CHAT|QO|1|N|Speak to Thanikos.|
 C Now or Never|QID|60006|M|41.77,55.18|Z|Bastion|QO|2|N|Kill the mobs till you aquire Xandria's Vigil.|
 T Now or Never|QID|60006|M|40.61,55.20|Z|Bastion|N|To Thanikos.|
-
 A Rip and Tear|QID|60008|M|40.61,55.20|Z|Bastion|N|From Thanikos.|
 A Stay Scrappy|QID|60007|M|40.72,55.48|Z|Bastion|N|From Mikanikos.|
 A Fight Another Day|QID|60009|M|41.30,54.36|Z|Bastion|N|From Disciple Apolon.|
 C Fight Another Day|QID|60009|M|40.25,51.07|Z|Bastion|NC|N|Free the Acended.|S|
 C Rip and Tear|QID|60008|M|40.25,51.07|Z|Bastion|N|Kill all the hostile mobs.|S|
 C Stay Scrappy|QID|60007|M|40.76,52.21|QO|1|Z|Bastion|NC|N|Click on the Anima Conflux.|
-C Stay Scrappy|QID|60007|M|39.48,48.99|QO|2|Z|Bastion|NC|N|Click the Eternity Plating.|
 C Stay Scrappy|QID|60007|M|39.48,48.99|QO|3|Z|Bastion|NC|N|Click the Archonic Resonator.|
+C Stay Scrappy|QID|60007|M|39.69,52.66|QO|2|Z|Bastion|NC|N|Click the Eternity Plating.|
 C Rip and Tear|QID|60008|M|40.25,51.07|Z|Bastion|N|Kill all the hostile mobs.|US|
 C Fight Another Day|QID|60009|M|40.25,51.07|Z|Bastion|NC|N|Free the Acended.|US|
 T Rip and Tear|QID|60008|M|PLAYER|Z|Bastion|N|To Thanikos.|
@@ -401,7 +399,7 @@ A Clear as Crystal|QID|60053|M|40.72,55.48|Z|Bastion|N|From Mikanicos.|
 A Double Tap|QID|60052|M|PLAYER|Z|Bastion|N|From Thanikos.|
 C Double Tap|QID|60052|M|40.33,57.85|Z|Bastion|N|Use the crystal to burn the bodies.|S|U|178140
 C Clear as Crystal|QID|60053|M|40.33,57.85|Z|Bastion|NC|N|Click on the crystlas littered around.|
-C Double Tap|QID|60052|M|40.33,57.85|Z|Bastion|N|Kill the mobs then use the crystal to burn the bodies..|US|U|178140
+C Double Tap|QID|60052|M|40.33,57.85|Z|Bastion|N|Kill the mobs then use the crystal to burn the bodies..|US|U|178140|
 T Clear as Crystal|QID|60053|M|39.78,55.17|Z|Bastion|N|To Mikanicos|
 T Double Tap|QID|60052|M|39.48,55.25|Z|Bastion|N|To Thanikos.|
 A The Final Countdown|QID|60054|M|39.48,55.25|Z|Bastion|N|From Thanikos.|
@@ -416,12 +414,12 @@ C A Time for Courage|QID|60055|M|34.59,55.10|QO|3|Z|Bastion|NC|N|Click on Discip
 T A Time for Courage|QID|60055|M|40.88,55.10|Z|Bastion|N|To Disciple Apolon.|
 A Follow the Path|QID|60056|M|40.88,55.10|Z|Bastion|N|From Disciple Apolon.|
 H Hero's Rest|QID|60056|U|6948|M|PLAYER|
-F Oribos|QID|60056|
+F Oribos|QID|60056|M|51.40,46.80|
 C Follow the Path|QID|60056|CS|M|49.48,60.92;38.91,69.93|Z|Bastion|N|Click the teleporter, then run outside.|
-T Follow the Path|QID|60056|M|38.91,69.93|Z|Bastion|N|To Tal-Inara.|
+T Follow the Path|QID|60056|M|38.91,69.93|Z|1670|N|To Tal-Inara.|
 A The Arbiter's Will|QID|61096|M|38.91,69.93|Z|1670|N|From Tal-Inara.|
 C The Arbiter's Will|QID|61096|M|52.12,57.91|Z|1670|N|Use the Teleport Pad.|
-T The Arbiter's Will|QID|61096|M|40.88,55.10|Z|1670|N|To Overseer Kah-Sher.|
+T The Arbiter's Will|QID|61096|M|60.78,36.83|Z|1670|N|To Overseer Kah-Sher.|
 A A Land of Strife|QID|61107|M|61.03,36.71|Z|1670|N|From Tal-Inara.|
 C A Land of Strife|QID|61107|M|59.95,35.96|Z|1670|N|Clicky on the blue sword.|
 T A Land of Strife|QID|61107|M|61.03,36.71|Z|1670|N|To Tal-Inara.|

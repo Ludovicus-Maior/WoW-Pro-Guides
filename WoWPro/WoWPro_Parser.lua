@@ -320,9 +320,9 @@ DefineTag("S!US",nil,"boolean",nil, function (value,i)
 end)
 DefineTag("N","note","string",nil,nil)
 DefineTag("FACTION","faction","string",nil,nil)
-DefineTag("R",nil,"string",nil,function (value,i) end)  -- Swallow R Tags
-DefineTag("C",nil,"string",nil,function (value,i) end)  -- Swallow C tags
-DefineTag("GEN",nil,"string",nil,function (value,i) end)  -- Swallow Gen tags
+DefineTag("R","playerrace","string",nil,nil)
+DefineTag("C","playerclass","string",nil,nil)
+DefineTag("GEN","playergender","string",nil,nil)
 DefineTag("RANK","rank","number",nil,nil)
 
 local function addTagValue(line, tag, value)
@@ -391,6 +391,7 @@ function WoWPro.EmitStep(i)
                 line = addTag(line, tag)
             end
         elseif key then
+
             -- Everything else is a value
             if WoWPro[key][i] then
                 line = addTagValue(line, tag, WoWPro[key][i])
@@ -828,10 +829,24 @@ function WoWPro.ParseSteps(steps)
                     gender = 1
                 end
             end
+
             if faction then
                 -- deleting leading/trailing whitespace and then canonicalize the case
                 faction = faction:trim():upper()
             end
+
+			for index,value in pairs(WoWPro.playerGroup) do
+				if (tostring(value["class"]) == class) and (tostring(value["class"]) ~= myclass) then
+					class = nil
+				end
+				if (tostring(value["race"]) == race) and (tostring(value["race"]) ~= myrace) then
+					race = nil
+				end
+				if (value["gender"] == gender) and (value["gender"] ~= _G.UnitSex("player")) then
+					gender = nil
+				end
+			end
+
             if (class == nil or WoWPro.SemiMatch(class, myclass)) and
                (race == nil or WoWPro.SemiMatch(race, myrace))  and
                (gender == nil or gender == _G.UnitSex("player")) and

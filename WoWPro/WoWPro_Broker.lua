@@ -10,6 +10,9 @@
 -- Is nil when no scenario is active
 -- Is a table when a scenario is ongoing
 WoWPro.Scenario = nil
+WoWPro.mygroupsteps = {}
+WoWPro.myGroupTrack = {}
+WoWPro.playerGroup = {}
 
 local quids_debug = false
 
@@ -607,7 +610,6 @@ function WoWPro.UpdateQuestTrackerRow(row)
     if tonumber(lootqty) ~= nil then lootqty = tonumber(lootqty) else lootqty = 1 end
     -- Setting up quest tracker --
     row.trackcheck = false
-
     -- Clean up any leftovers
     row.track:SetText(track)
 
@@ -687,6 +689,17 @@ function WoWPro.UpdateQuestTrackerRow(row)
     if action then
         WoWPro:dbp("UQT: Track Text for %s [%s] to '%s'",tostring(action),tostring(step),track)
     end
+
+	if row.trackcheck then
+		local addonString = "track " .. index .. " " .. track
+		_G.C_ChatInfo.SendAddonMessage("WoWPro", addonString , "PARTY")
+	end
+	if WoWPro.mygroupsteps[index] ~= nil then
+		row.trackcheck = true
+		if WoWPro.myGroupTrack[index] then
+			track = track .. WoWPro.myGroupTrack[index]
+		end
+	end
     row.track:SetText(track)
 end
 
@@ -777,6 +790,9 @@ function WoWPro:RowUpdate(offset)
     WoWPro.RowDropdownMenu = {}
 
     local step_limit = WoWProDB.profile.numsteps + 5
+	local sendsteps = "steps "
+
+
     for i = 1, 15 do
         -- WoWPro:dbp("WoWPro:RowUpdate(i=%d)", i)
         -- Skipping any skipped steps, unsticky steps, and optional steps unless it's time for them to display --
@@ -784,12 +800,11 @@ function WoWPro:RowUpdate(offset)
             k = WoWPro.NextStep(k, i)
         end
 
-
         --Setup row--
         local currentRow = WoWPro.rows[i]
         currentRow.index = k
         currentRow.num = i
-
+		sendsteps = sendsteps .. k .. " "
         -- Run Module specific PreRowUpdate()
         if WoWPro[module:GetName()].PreRowUpdate then
             WoWPro[module:GetName()]:PreRowUpdate(currentRow)
@@ -826,6 +841,7 @@ function WoWPro:RowUpdate(offset)
         end
 
         if i > step_limit and WoWPro.ActiveStickyCount == 0 then
+			_G.C_ChatInfo.SendAddonMessage("WoWPro", sendsteps , "PARTY")
             return false
         end
 
@@ -1156,6 +1172,7 @@ function WoWPro:RowUpdate(offset)
         WoWPro.PaddingSet()
     end
 
+	_G.C_ChatInfo.SendAddonMessage("WoWPro", sendsteps , "PARTY")
     return reload
 end
 
@@ -1331,6 +1348,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             This is how you do a continue in LUA!  http://lua-users.org/lists/lua-l/2006-12/msg00444.html
         ]]
         repeat
+
             if guideIndex > WoWPro.stepcount then
                 WoWPro:print("WoWPro.NextStep=%d: > EOG",guideIndex)
                 return guideIndex
@@ -1713,10 +1731,13 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             if (stepAction == "C" or stepAction == "T") and QID then
                 -- WoWPro:Print("LFO: %s [%s/%s] step %s",stepAction,step,QID,guideIndex)
                 if not WoWPro:QIDsInTable(QID, WoWPro.QuestLog) then
-                    skip = true -- If the quest is not in the quest log, the step is skipped --
-                    WoWPro:dbp("Step %s [%s/%s] skipped as not in QuestLog",stepAction,step,tostring(QID))
-                    WoWPro.why[guideIndex] = "NextStep(): Skipping C/T step because quest is not in QuestLog."
-                    break
+					-- Check if a groupmate is working on it.
+					if not WoWPro.mygroupsteps[guideIndex]  or (WoWPro.mygroupsteps[guideIndex] and stepAction == "T") then
+						skip = true -- If the quest is not in the quest log, the step is skipped --
+						WoWPro:dbp("Step %s [%s/%s] skipped as not in QuestLog",stepAction,step,tostring(QID))
+						WoWPro.why[guideIndex] = "NextStep(): Skipping C/T step because quest is not in QuestLog."
+						break
+					end
                 elseif stepAction == "T" and QidMapReduce(QID,false,"^","&",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].leaderBoard end) then
                     -- For turnins, make sure we have completed the criteria
                     if WoWPro.conditional[guideIndex] and not QidMapReduce(QID,false,"^","&",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end) then
@@ -2196,6 +2217,37 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     WoWPro.why[guideIndex] = why
                 end
             end
+			if WoWPro.playerclass and WoWPro.playerclass[guideIndex] then
+				local _, myclass = _G.UnitClass("player")
+				if WoWPro.playerclass[guideIndex] ~= myclass and (stepAction == "A" or stepAction == "T") then
+					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing a " .. WoWPro.playerclass[guideIndex] .. ".")
+					 skip = true
+				end
+			end
+
+			if WoWPro.playerrace and WoWPro.playerrace[guideIndex] then
+				local _, myrace = _G.UnitRace("player")
+				if WoWPro.playerrace[guideIndex] ~= myrace and (stepAction == "A" or stepAction == "T") then
+					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing a " .. WoWPro.playerrace[guideIndex] .. ".")
+					 skip = true
+				end
+			end
+
+			if WoWPro.playergender and WoWPro.playergender[guideIndex] then
+				local gender = WoWPro.playergender[guideIndex]
+                gender = gender:trim():upper()
+                if gender == "FEMALE" then
+                    gender = 3
+                elseif gender == "MALE" then
+                    gender = 2
+                else
+                    gender = 1
+                end
+				if gender ~= _G.UnitSex("player") and (stepAction == "A" or stepAction == "T") then
+					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing a " .. WoWPro.playergender[guideIndex] .. " character.")
+					 skip = true
+				end
+			end
 
             if WoWPro.ilvl and WoWPro.ilvl[guideIndex] then
                 local ilvlID,ilvlFlip = (";"):split(WoWPro.ilvl[guideIndex])
@@ -2549,7 +2601,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             guideIndex = guideIndex + 1
         end
     end
-
     WoWPro.why[guideIndex] = "NextStep(): Step active."
     WoWPro:dbp("%s=WoWPro.NextStep()",tostring(guideIndex))
     return guideIndex
