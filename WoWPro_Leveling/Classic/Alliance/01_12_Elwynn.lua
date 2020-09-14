@@ -305,7 +305,39 @@ T Me Brother, Nipsy |QID|6662|N|To Nipsy at the Stormwind Tram Stop. After turni
 R Tinker Town|ACTIVE|353|N|Take the tunnel to your North to go inside Ironforge.|
 f Ironforge|ACTIVE|353|M|62.85,28.38;55.50,47.76|CS|Z|Ironforge|N|Discover Ironforge Flight Path with Gryph Thurden.|
 R Gates of Ironforge|ACTIVE|353|M|43.7,59.1;29.9,81.75;15.0,86.10|CS|Z|Ironforge|N|Head to the exit of Ironforge.|
-
+R Kharanos|QID|384|M|47.16,45.39|Z|Dun Morogh|N|Take the road down to the bottom of the hill and go south into Kharanos.|
+A Operation Recombobulation|QID|412|M|45.84,49.37|Z|Dun Morogh|N|From Razzle Sprysprocket.|
+A Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|Dun Morogh|N|From Ragnar Thunderbrew.|
+C Beer Basted Boar Ribs|QID|384|M|67,59.6|Z|Dun Morogh|L|2886 6|N|Crag Boar Rib.|S|
+A Stocking Jetsteam|QID|317|M|49.43,48.41|Z|Dun Morogh|N|From Pilot Bellowfiz.|
+C Stocking Jetsteam|QID|317|M|20.2,75.8|Z|Dun Morogh|L|769 4|N|Chunk of Boar Meat.|S|
+C Stocking Jetsteam|QID|317|M|67,59.6|Z|Dun Morogh|L|6952 2|N|Kill young black bears to loot Thick Bear Fur.|S|
+A The Grizzled Den|QID|313|M|49.62,48.61|Z|Dun Morogh|N|From Pilot Stonegear.|
+A Ammo for Rumbleshot|QID|5541|M|50.08,49.42|Z|Dun Morogh|N|From Loslor Rudge.|
+R The Grizzled Den Entrance|ACTIVE|313|M|42.59,54.78|Z|Dun Morogh|CC|N|Make your way to the cave entrance.|
+C The Grizzled Den|QID|313|L|2671 8|N|Kill the Wendigo to loot Wendigo Mane.|
+C Ammo for Rumbleshot|QID|5541|M|44.13,56.94|Z|Dun Morogh|L|13850|N|Exit the cave and run across the field to the camp just inside the tree line.|
+T Ammo for Rumbleshot|QID|5541|M|46.19,61.90;40.68,65.13|Z|Dun Morogh|CC|N|Head up the hill to the road and follow it to Hegnar Rumbleshot.|
+R Coldridge Pass|QID|412|M|36.20,61.79|Z|Dun Morogh|N|Follow the road westward towards Coldridge Pass.|
+R Brewnall Village|QID|412|M|33.69,57.13;30.84,51.46|Z|Dun Morogh|CC|N|Run down the hill and into the valley to the road leading into Brewnall Village.|
+A Bitter Rivals|QID|310|M|30.2,45.6|Z|Dun Morogh|N|From Marleth Barleybrew.|
+R Gnomeregan|ACTIVE|412|M|27.72,44.02|Z|Dun Morogh|CC|N|Head northeast to Gnomeregan.|
+C Operation Recombobulation|QID|412|L|3083 8|N|Kill gnomes to loot the Restabilization Cog.|S|
+C Operation Recombobulation|QID|412|L|3084 8|N|Kill gnomes to loot the Gyromechanic Gear.|
+C Operation Recombobulation|QID|412|L|3083 8|N|Kill gnomes to loot the Restabilization Cog.|US|
+C Beer Basted Boar Ribs|QID|384|M|67,59.6|Z|Dun Morogh|L|2886 6|N|finish collecting the Crag Boar Ribs.|US|
+L Level 12|QID|412|N|Grind out some XP until you are within 5 bubbles of level 12 before returning.|LVL|12;-2080|
+R Kharanos|QID|412|M|47.11,47.01|Z|Dun Morogh|CC|N|Make your way back to Kharanos.|
+T Operation Recombobulation|QID|412|M|45.84,49.37|Z|Dun Morogh|N|To Razzle Sprysprocket.|
+B Rhapsody Malt|ACTIVE|384|M|47.37,52.53|Z|Dun Morogh|L|2894|N|Go inside Thunderbrew Distillery and purchase a Rhapsody Malt from Innkeeper Belm.|
+B Thunder Ale|ACTIVE|310|M|47.37,52.53|Z|Dun Morogh|L|2686|N|Purchase a Thunder Ale before you go. You need this to turn in 'Bitter Rivals'.
+A Distracting Jarven|QID|308|ACTIVE|310|M|47.64,52.66|Z|Dun Morogh|N|Cut through the kitchen and make your way down the stairs to Jarven Thunderbrew in the basement.|
+T Bitter Rivals|QID|310|M|47.72,52.70|Z|Dun Morogh|N|Once Jarven leaves, right-click on the Unguarded Thunder Ale Barrel.\n[color=FF0000]NOTE: [/color]Do not pick up the follow-up quest.|
+T Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|Dun Morogh|N|To Ragnar Thunderbrew.|
+T Stocking Jetsteam|QID|317|M|49.43,48.41|Z|Dun Morogh|N|To Pilot Bellowfiz.|
+T The Grizzled Den|QID|313|M|49.62,48.61|Z|Dun Morogh|N|To Pilot Stonegear.|
+N Level 12 Training|AVAILABLE|314|N|Do your training before leaving the area.\nClose this step when you are done.|LVL|12|
+R Amberstill Ranch|AVAILABLE|314|M|62.17,53.10|Z|Dun Morogh|N|Follow the road east to Amberstill Ranch.\nYou can follow the road or run along the frozen river to make it quicker and do some grinding along the way.|
 A Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|From Rudra Amberstill.|
 C Protecting the Herd|QID|314|M|59.16,50.86;62.45,49.01|CS|Z|Dun Morogh|N|Kill Vagash, and loot Fang of Vagash.|
 T Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|To Rudra Amberstill.|
