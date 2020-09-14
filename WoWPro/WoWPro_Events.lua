@@ -264,8 +264,8 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
     for i=1,#WoWPro.action do
         local action = WoWPro.action[i]
         local completion = WoWProCharDB.Guide[GID].completion[i]
-		if WoWPro.mygroupsteps[i]  and (action == "C" or action == "K") then
-			return
+		if (WoWPro.mygroupsteps[i] and action == "C") then
+			--return
 		end
         if WoWPro.QID[i] then
             local numQIDs = select("#", ("^&"):split(WoWPro.QID[i]))
@@ -294,7 +294,11 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 
                 -- Quest AutoComplete --
                 if questComplete and (action == "A" or action == "C" or action == "T" or action == "N") and QID == questComplete then
-                    WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: AutoComplete")
+					if WoWPro.mygroupsteps[i] and action == "C" and not WoWPro.QID[i]:find("^",1,true) then
+						return
+					else
+						WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: AutoComplete")
+					end
                 end
                 -- Quest Accepts --
                 if WoWPro.newQuest == QID and action == "A" and not completion then
@@ -304,9 +308,13 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
 
                 -- Quest Completion via QuestLog--
                 if WoWPro.QuestLog[QID] and action == "C" and not completion and WoWPro.QuestLog[QID].complete then
-                    WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: via QuestLog")
-                    WoWPro.oldQuests[QID] = WoWPro.oldQuests[QID] or {}
-                    WoWPro.oldQuests[QID].complete = true -- We got it, dont let the recorder get it!
+					if WoWPro.mygroupsteps[i] and action == "C" and not WoWPro.QID[i]:find("^",1,true) then
+						return
+					else
+						WoWPro.CompleteStep(i, "AutoCompleteQuestUpdate: via QuestLog")
+						WoWPro.oldQuests[QID] = WoWPro.oldQuests[QID] or {}
+						WoWPro.oldQuests[QID].complete = true -- We got it, dont let the recorder get it!
+					end
                 end
 
                 -- Partial Completion --
