@@ -27,17 +27,18 @@ A Finding the Lost Expedition|QID|54952|M|61.84,82.86|N|From Captain Garrick.|PR
 C Finding the Lost Expedition|QID|54952|M|58.36,74.47|NC|N|Head toward the camp to search for Alaria.|
 T Finding the Lost Expedition|QID|54952|M|58.36,74.47|N|Turn into Alaria.|
 A Cooking Meat|QID|55174|M|58.35,74.67|N|From Captain Garrick.|PRE|54952|
-C Cooking Meat|QID|55174|QO|1|M|58.35,74.67|N|Kill animals around the area, be sure to loot the meat.|
+C Cooking Meat|QID|55174|QO|1|S|M|58.35,74.67|N|Kill animals around the area, be sure to loot the meat.|
+$ Abandonded Treasure Chest|QID|58882|M|57.05,68.40|Z|Exile's Reach!Instance|N|Loot the treasure chest.|
+C Cooking Meat|QID|55174|QO|1|US|M|58.35,74.67|N|Finish collecting the meat.|
 C Cooking Meat|QID|55174|QO|2|M|58.35,74.67|NC|N|Click on the fire.|
 T Cooking Meat|QID|55174|M|58.35,74.67|N|Turn into Alaria.|
 A Enhanced Combat Tactics|QID|59254|M|58.33,74.51|C|Warrior,Warlock,Mage,Rogue,Paladin,Priest,Druid,Shaman|N|From Captain Garrick.|PRE|55174|
-C Enhanced Combat Tactics|QID|59254|M|57.86,72.58|C|Warrior,Warlock,Mage,Warlock,Rogue,Paladin,Priest,Druid,Shaman|N|Spar with Captain Garrick to learn some basic rotations about your class.|
+C Enhanced Combat Tactics|QID|59254|M|57.86,72.58|C|Warrior,Warlock,Mage,Warlock,Rogue,Paladin,Priest,Druid,Shaman|N|Look around, to find Captain Garrick, then go spar with her to learn some basic rotations about your class.|
 T Enhanced Combat Tactics|QID|59254|M|58.33,74.51|C|Warrior,Warlock,Mage,Warlock,Rogue,Paladin,Priest,Druid,Shaman|N|Turn into Captain Garrick.|
 A Enhanced Combat Tactics|QID|59339|M|58.33,74.51|C|Monk|N|From Captain Garrick.|PRE|55174|
 C Enhanced Combat Tactics|QID|59339|M|58.96,72.71|C|Monk|N|Spar with Captain Garrick to learn some basic rotations about your class.|
 T Enhanced Combat Tactics|QID|59339|M|58.33,74.51|C|Monk|N|Turn into Captain Garrick.|
 A Northbound|QID|55173|M|58.37,74.47|N|From Alaria.|PRE|55174|
-$ Abandonded Treasure Chest|QID|58882|M|57.05,68.40|Z|Exile's Reach!Instance|N|Loot the treasure chest.|
 T Northbound|QID|55173|M|62.68,69.87|N|Turn into Austin Huxworth.|
 A Taming the Wilds|QID|59342|M|62.73,69.84|C|Hunter|N|From Captain Garrick.|PRE|55173|
 C Taming the Wilds|QID|59342|M|62.73,69.84|QO|2|C|Hunter|N|Tame a beast of your choice to be your pet. You can rename by right clicking on the pet's character portrait (below yours) and choosing rename from the menu options. Choose wisely as it isn't free to change it.|
@@ -97,9 +98,9 @@ T A Priest's End|QID|58953|M|56.06,53.72|C|Priest|N|Turn into Branven Hammerhear
 A Resurrecting the Recruits|QID|58960|M|56.06,53.72|C|Priest|N|From Branven Hammerheart.|PRE|58953|
 C Resurrecting the Recruits|QID|58960|M|56.06,53.72|C|Priest|T|First Expedition Recruit|N|Cast Resurrect on First Expedition Recruits.|C|Priest|
 T Resurrecting the Recruits|QID|58960|M|56.06,53.72|C|Priest|N|Turn into Branven Hammerheart.|
-A A Warlock's Bargain|QID|58962|M|52.11,55.25|C|Warlock|N|From Private Cole.|PRE|55194|
-A A Paladin's Service|QID|58923|M|52.11,55.25|C|Paladin|N|From Private Cole.|PRE|55194|
-A A Warrior's End|QID|58914|M|52.10,55.24|C|Warrior|N|From Private Cole.|PRE|55194|
+A A Warlock's Bargain|QID|58962|M|52.08,55.28|C|Warlock|N|From Private Cole.|PRE|55194|
+A A Paladin's Service|QID|58923|M|52.08,55.28|C|Paladin|N|From Private Cole.|PRE|55194|
+A A Warrior's End|QID|58914|M|52.08,55.28|C|Warrior|N|From Private Cole.|PRE|55194|
 A The Harpy Problem|QID|55196|M|53.49,52.39|N|From Henry Garrick.|PRE|55194|
 C A Warlock's Bargain|QID|58962|M|52.56,45.96|C|Warlock|QO|1|CHAT|N|Investigate the dead warlocks body.|C|Warlock|
 C A Warlock's Bargain|QID|58962|M|52.56,45.96|C|Warlock|QO|2|NC|N|Click on the book next to the body.|C|Warlock|
@@ -108,18 +109,18 @@ T A Warlock's Bargain|QID|58962|M|52.56,45.96|C|Warlock|N|Turn into Summoned Voi
 T A Warrior's End|QID|58914|M|52.29,47.52|C|Warrior|N|Turn into Hjalmar the Undying.|
 A Hjalmar's Final Execution|QID|58915|M|52.29,47.52|C|Warrior|N|From Hjalmar the Undying.|PRE|58914|
 C Hjalmar's Final Execution|QID|58915|M|52.29,47.52|C|Warrior|N|Chat to trigger the fight with Hjalmar the Undying and finish him off with the Execute ability.|C|Warrior|
-C A Paladin's Service|QID|58923|M|57.56,52.13|C|Paladin|CHAT|N|Speak with the Ghost of Yorah.|C|Paladin|
-T A Paladin's Service|QID|58923|M|57.56,52.13|C|Paladin|N|Turn into Yorah.|
-A The Divine's Shield|QID|58946|M|57.56,52.13|C|Paladin|N|From Yorah.|PRE|58923|
-C The Divine's Shield|QID|58946|M|57.56,52.13|C|Paladin|QO|1|NC|N|Cast Divine Shield to cross the barrier and destroy the alter.|C|Paladin|
-C The Divine's Shield|QID|58946|M|57.56,52.13|C|Paladin|QO|2|NC|N|Destroy the Necrotic Alter.|C|Paladin|
-T The Divine's Shield|QID|58946|M|57.56,52.13|C|Paladin|N|Turn into Yorah.|
 A Freeing the Light|QID|54933|M|55.29,47.98;58.20,50.22|CS|N|From Lightspawn.|
 C Freeing the Light|QID|54933|M|57.42,49.68|QO|1|NC|N|Click the first Ritual Pedestal to disperse the energy.|
 C Freeing the Light|QID|54933|M|58.49,49.15|QO|2|NC|N|Click the second Ritual Pedestal to disperse the energy.|
 C Freeing the Light|QID|54933|M|59.00,50.69|QO|3|NC|N|Click the third Ritual Pedestal to disperse the energy.|
 C Freeing the Light|QID|54933|M|57.82,51.19|QO|4|NC|N|Click the fourth Ritual Pedestal to disperse the energy.|
 T Freeing the Light|QID|54933|M|58.18,50.23|N|To Lightspawn.|
+C A Paladin's Service|QID|58923|M|57.57,52.21|C|Paladin|CHAT|N|Speak with the Ghost of Yorah.|
+T A Paladin's Service|QID|58923|M|57.57,52.21|C|Paladin|N|Turn into Yorah.|
+A The Divine's Shield|QID|58946|M|57.57,52.21|C|Paladin|N|From Yorah.|PRE|58923|
+C The Divine's Shield|QID|58946|M|57.57,52.213|C|Paladin|QO|1|NC|N|Cast Divine Shield to cross the barrier and destroy the alter.|C|Paladin|
+C The Divine's Shield|QID|58946|M|57.57,52.21|C|Paladin|QO|2|NC|N|Destroy the Necrotic Alter.|
+T The Divine's Shield|QID|58946|M|57.57,52.21|C|Paladin|N|Turn into Yorah.|
 T The Harpy Problem|QID|55196|M|56.83,46.18|N|Turn in to Henry Garrick.|
 A The Rescue of Meredy Huntswell|QID|55763|M|56.83,46.18|N|From Henry Garrick.|PRE|55196|
 A Purge the Totems|QID|55881|M|56.83,46.29|N|From Henry Garrick.|PRE|55196|
@@ -172,7 +173,7 @@ A Right Beneath Their Eyes|QID|55981|M|48.98,49.23|N|From Captain Garrick.|PRE|5
 C Right Beneath Their Eyes|QID|55981|M|49.04,49.19|QO|1|CHAT|N|Ask Meredy to perform ogre transformation spell.|
 C Right Beneath Their Eyes|QID|55981|M|45.79,44.76|QO|2|NC|N|Enter Darkmaul Citadel.|
 C Right Beneath Their Eyes|QID|55981|M|45.90,38.57|QO|3|NC|N|Find the ogre cooking area.|
-C Right Beneath Their Eyes|QID|55981|M|45.68,37.54|QO|4|T|Gor'groth,wave|N|Use the wow-pro target button to target and wave at Gor'groth; then /dance afterward if you feel up to it.|
+C Right Beneath Their Eyes|QID|55981|M|45.68,37.54|QO|4|NC|T|Gor'groth,wave|N|Use the wow-pro target button to target and wave at Gor'groth; then /dance afterward if you feel up to it.|
 C Right Beneath Their Eyes|QID|55981|M|40.98,32.90|QO|5|NC|N|Reach the citadel entrance.|
 T Right Beneath Their Eyes|QID|55981|M|40.16,32.35|N|Turn into Captain Garrick.|
 A Controlling their Stones|QID|55990|M|40.16,32.35|N|From Captain Garrick.|PRE|55981|
@@ -190,9 +191,10 @@ C Controlling their Stones|QID|55990|M|39.92,32.18|QO|4|NC|N|Click on the Ogre R
 T Catapult Destruction|QID|55989|M|40.27,32.32|N|Turn into Meredy Huntswell.|
 T Like Ogres to the Slaughter|QID|55988|M|40.22,32.34|N|Turn into Henry Garrick.|
 T Controlling their Stones|QID|55990|M|39.92,32.14|N|Turn into Captain Kelra.|
-A Dungeon: Darkmaul Citadel|QID|55992|M|39.92,32.14|N|From Captain Garrick.|PRE|55988&55989&55990|
-C Dungeon: Darkmaul Citadel|QID|55992|M|39.92,32.14|NC|QO|1|N|Use the Group Finder to enter the dungeon, "Darkmaul Citadel". This isn't group, it's basically a Scenerio.|
-C Dungeon: Darkmaul Citadel|QID|55992|M|46.14,55.25|QO|2|N|Follow Captain Garrick thru the room and up the stairs, killing ogres as you go. She waits for your signal (charging in) to fight Tunk. Continue deeper into the citadel to stop the ritual.|
+A Dungeon: Darkmaul Citadel|QID|55992|M|39.92,32.14|N|From Captain Kelra.|PRE|55988&55989&55990|
+C Dungeon: Darkmaul Citadel|QID|55992|M|39.92,32.14|NC|QO|1|N|Use the Group Finder to enter the dungeon, "Darkmaul Citadel". This isn't group, it's basically a Scenerio. (although you may not end up solo).|
+C Dungeon: Darkmaul Citadel|QID|55992|M|46.14,55.25|SO|1;1|N|Follow Captain Garrick thru the room and up the stairs, killing ogres as you go. She waits for your signal (charging in) to fight Tunk.|
+C Dungeon: Darkmaul Citadel|QID|55992|M|46.14,55.25|QO|2|N|Continue deeper into the citadel to stop the ritual.|
 C Dungeon: Darkmaul Citadel|QID|55992|M|46.14,55.25|QO|3|CHAT|N|Speak with Captain Garrick to leave Darkmaul Citadel.|
 T Dungeon: Darkmaul Citadel|QID|55992|M|39.66,31.99|N|Turn in to Captain Garrick.|
 A An End to Beginnings|QID|55991|M|39.66,31.99|N|From Captain Garrick.|PRE|55992|
@@ -229,7 +231,7 @@ C What's Your Specialty?|QID|59588|Z|Stormwind City|M|79.63,69.25;79.68,71.27;80
 C What's Your Specialty?|QID|59588|Z|Stormwind City|M|80.35,70.05|C|Monk|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|59588|Z|Stormwind City|M|80.35,70.05|C|Monk|N|Turn into Juisheng Halfclaw.|
 A What's Your Specialty?|QID|59589|Z|Stormwind City|M|77.28,67.09|C|Paladin|N|From Lindie Springstock.|PRE|58909|
-C What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|QO|1|CHAT|N|Talk to Ezul'aan.|
+C What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|QO|1|CHAT|N|Inside the Training Hall, and make a right and up a few steps to talk to Ezul'aan.|
 C What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|N|Turn into Ezul'aan.|
 A What's Your Specialty?|QID|59590|Z|Stormwind City|M|77.28,67.09|C|Priest|N|From Lindie Springstock.|PRE|58909|
