@@ -341,13 +341,15 @@ R Amberstill Ranch|AVAILABLE|314|M|62.17,53.10|Z|Dun Morogh|N|Follow the road ea
 A Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Rudra Amberstill.|
 C Protecting the Herd|QID|314|M|62.45,50.35;62.37,49.06;62.45,49.01|CS|Z|Dun Morogh|QO|1|N|Kill Vagash, and loot Fang of Vagash.\n[color=FF0000]NOTE: [/color]This is your first real challenge. Vagash ia a level 11 elite. Group up if you can.|
 T Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|To Rudra Amberstill.|
-A Those Blasted Troggs!|QID|432|M|69.08,56.33|Z|Dun Morogh|N|From Foreman Stonebrow.|
+R Gol'Bolar Quarry|QID|432|M|67.26,53.52|Z|Dun Morogh|N|Gol'Bolar Quarry is just SE of you.|
 A The Public Servant|QID|433|M|68.67,55.96|Z|Dun Morogh|N|From Senator Mehr Stonehollow.|
-C The Public Servant|QID|433|S|M|70.5,57.0|Z|Dun Morogh|N|Kill Rockjaw Bonesnappers and Skullthumpers.|
-C Those Blasted Troggs!|QID|432|M|70.0,57.0|Z|Dun Morogh|N|Kill Rockjaw Skullthumpers.|
-C The Public Servant|QID|433|US|M|70.5,57.0|Z|Dun Morogh|N|Kill Rockjaw Bonesnappers and Skullthumpers.|
-T The Public Servant|QID|433|M|67.70,57.94;68.67,55.96|CS|Z|Dun Morogh|N|Get out of the cave and turn in this quest to Senator Mehr Stonehollow.|
-T Those Blasted Troggs!|QID|432|M|69.08,56.33|Z|Dun Morogh|N|To Foreman Stonebrow.|
+A Those Blasted Troggs!|QID|432|M|69.08,56.33|Z|Dun Morogh|N|From Foreman Stonebrow.|
+R Enter the Cave|ACTIVE|432^433|M|70.10,55.81;70.32,56.56|Z|Dun Morogh|CC|N|Make your way to the cave entrance by climbing down the hill above it.|
+C Those Blasted Troggs!|QID|432|QO|1|N|Kill Rockjaw Skullthumpers.|S|
+C The Public Servant|QID|433|QO|1|N|Kill Rockjaw Bonesnappers.|
+C Those Blasted Troggs!|QID|432|QO|1|N|Kill Rockjaw Skullthumpers.|US|
+T Those Blasted Troggs!|QID|432|M|70.31,56.51;70.00,55.65;69.08,56.33|Z|Dun Morogh|CC|N|To Foreman Stonebrow. Exit the cave and climb out the same way you can in.|
+T The Public Servant|QID|433|M|68.67,55.96|Z|Dun Morogh|N|To Senator Mehr Stonehollow.|
 R North Gate Pass|ACTIVE|353|M|78.31,49.17|Z|Dun Morogh|N|Back to the road and continue thru North Gate Pass.|
 A The Lost Pilot|QID|419|M|83.88,39.19|Z|Dun Morogh|N|From Pilot Hammerfall.|
 T The Lost Pilot|QID|419|M|79.69,36.14|Z|Dun Morogh|N|To Dwarven Corpse.|
@@ -365,8 +367,8 @@ A Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|Mountianeer Kadrell patrols al
 A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|Inside the inn.|
 r Sell junk and repair|QID|418|M|34.0,46.60|Z|Loch Modan|N|At Morhan Coppertongue. Close this step when you're done.|
 f Thelsamar|ACTIVE|418|M|33.9,50.95|Z|Loch Modan|N|Discover Thelsamar Flight Path with Thorgrum Borrelson.|
-C Thelsamar Blood Sausages|QID|418|S|M|35.00,35.00|Z|Loch Modan|N|Kill Boars, Bears and Spiders.|
-C Rat Catching|QID|416|M|37.7,25.7|Z|Loch Modan|S|N|Kill any Tunnel Rats you see.|
+C Thelsamar Blood Sausages|QID|418|S|M|35.00,35.00|Z|Loch Modan|QO|1;2;3|N|Kill Boars, Bears and Spiders.|
+C Rat Catching|QID|416|M|37.7,25.7|Z|Loch Modan|L|3110 12|N|Kill any Tunnel Rats you see.|S|
 R Silver Stream Mine|ACTIVE|307|M|36.33,27.46|Z|Loch Modan|N|Continue killing Kobalds, Boars, Bears and Spiders as you go.|
 C Filthy Paws|QID|307|Z|Loch Modan|NC|N|Pick up the stacks of 'Miners' League Crates', exit the mine and continue on your way killing everything when you have the 4 crates.|
 T Filthy Paws|QID|307|M|24.77,18.39|Z|Loch Modan|N|To Mountaineer Stormpike.|
