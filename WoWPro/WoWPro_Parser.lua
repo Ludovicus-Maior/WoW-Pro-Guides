@@ -381,9 +381,10 @@ function WoWPro.EmitStep(i)
         elseif tag == "CS" or tag == "CN" then
             line = line
         elseif tag == "Z" then
+            local zone = WoWPro.zone[i]
             -- Suppress zone tags that are dupes of the master zone
-            if WoWPro.zone[i] and WoWPro.zone[i] ~= WoWPro.Guides[GID].zone then
-                line = addTagValue(line, tag, WoWPro.zone[i])
+            if zone and zone ~= WoWPro.Guides[GID].zone then
+                line = addTagValue(line, tag, WoWPro.ConvertZone(zone))
             end
         elseif tag and WoWPro.TagTable[tag].vtype == "boolean" then
             -- No value
@@ -789,7 +790,7 @@ function WoWPro.ParseSteps(steps)
     local _, myclass = _G.UnitClass("player")
     local _, myrace = _G.UnitRace("player")
     local myFaction = WoWPro.Faction:upper()
-    local zone = (WoWPro.Guides[GID].zone or ""):match("([^%(]+)"):trim()
+    local zone = (WoWPro.Guides[GID].name or ""):match("([^%(]+)"):trim()
 
     if WoWPro.Recorder then
         i = 1 -- No extra steps for recorder guides
