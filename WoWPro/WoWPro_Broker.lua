@@ -825,6 +825,19 @@ function WoWPro:RowUpdate(offset)
         local item = WoWPro.item[k]
         local completion = WoWProCharDB.Guide[GID].completion
 
+
+		 if coord then
+			if (coord == "PLAYER") then
+				local x, y = WoWPro:GetPlayerZonePosition()
+				if (x  and y) then
+					coord = ("%.2f"):format(x * 100) .. ',' .. ("%.2f"):format(y * 100)
+				else
+					coord = nil
+				end
+			else
+				WoWPro:ValidateMapCoords(GID,action,step,coord)
+			end
+		end
         -- Unstickying stickies --
         if unsticky and (not sticky) and i == WoWPro.ActiveStickyCount+1 then
             for n, row in ipairs(WoWPro.rows) do

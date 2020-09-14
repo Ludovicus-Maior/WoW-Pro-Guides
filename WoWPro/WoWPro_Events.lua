@@ -265,7 +265,7 @@ function WoWPro:AutoCompleteQuestUpdate(questComplete)
         local action = WoWPro.action[i]
         local completion = WoWProCharDB.Guide[GID].completion[i]
 		if WoWPro.mygroupsteps[i]  and (action == "C" or action == "K") then
-			break
+			return
 		end
         if WoWPro.QID[i] then
             local numQIDs = select("#", ("^&"):split(WoWPro.QID[i]))
