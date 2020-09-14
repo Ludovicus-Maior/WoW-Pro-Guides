@@ -448,17 +448,17 @@ function WoWPro:MapPoint(row)
         coords = nil
     end
 	if coords then
-			if (coords == "PLAYER") then
-				local x, y = WoWPro:GetPlayerZonePosition()
-				if (x  and y) then
-					coords = ("%.2f"):format(x * 100) .. ',' .. ("%.2f"):format(y * 100)
-				else
-					coords = nil
-				end
+		if (coords == "PLAYER") then
+			local x, y = WoWPro:GetPlayerZonePosition()
+			if (x  and y) then
+				coords = ("%.2f"):format(x * 100) .. ',' .. ("%.2f"):format(y * 100)
 			else
-				WoWPro:ValidateMapCoords(GID,WoWPro.action[stepIndex],stepIndex,coords)
+				coords = nil
 			end
+		else
+			WoWPro:ValidateMapCoords(GID,WoWPro.action[stepIndex],stepIndex,coords)
 		end
+	end
 
     local desc = WoWPro.step[stepIndex]
     local zone
