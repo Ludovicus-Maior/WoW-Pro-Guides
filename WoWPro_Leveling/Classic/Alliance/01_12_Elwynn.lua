@@ -336,10 +336,10 @@ T Bitter Rivals|QID|310|M|47.72,52.70|Z|Dun Morogh|N|Once Jarven leaves, right-c
 T Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|Dun Morogh|N|To Ragnar Thunderbrew.|
 T Stocking Jetsteam|QID|317|M|49.43,48.41|Z|Dun Morogh|N|To Pilot Bellowfiz.|
 T The Grizzled Den|QID|313|M|49.62,48.61|Z|Dun Morogh|N|To Pilot Stonegear.|
-N Level 12 Training|AVAILABLE|314|N|Do your training before leaving the area.\nClose this step when you are done.|LVL|12|
+N Level 12 Training|AVAILABLE|314|N|Do your training before leaving the area. If you have to go to Ironforge, come back down the hill to the Kharanos intersection.\nClose this step when you are done.|LVL|12|
 R Amberstill Ranch|AVAILABLE|314|M|62.17,53.10|Z|Dun Morogh|N|Follow the road east to Amberstill Ranch.\nYou can follow the road or run along the frozen river to make it quicker and do some grinding along the way.|
-A Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|From Rudra Amberstill.|
-C Protecting the Herd|QID|314|M|59.16,50.86;62.45,49.01|CS|Z|Dun Morogh|N|Kill Vagash, and loot Fang of Vagash.|
+A Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Rudra Amberstill.|
+C Protecting the Herd|QID|314|M|62.45,50.35;62.37,49.06;62.45,49.01|CS|Z|Dun Morogh|QO|1|N|Kill Vagash, and loot Fang of Vagash.\n[color=FF0000]NOTE: [/color]This is your first real challenge. Vagash ia a level 11 elite. Group up if you can.|
 T Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|To Rudra Amberstill.|
 A Those Blasted Troggs!|QID|432|M|69.08,56.33|Z|Dun Morogh|N|From Foreman Stonebrow.|
 A The Public Servant|QID|433|M|68.67,55.96|Z|Dun Morogh|N|From Senator Mehr Stonehollow.|
