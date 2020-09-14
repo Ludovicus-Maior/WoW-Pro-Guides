@@ -537,18 +537,6 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
     if WoWPro.action[i] == "h" then
         WoWPro.step[i] = L[WoWPro.step[i]]
     end
-    if WoWPro.map[i] then
-        if (WoWPro.map[i] == "PLAYER") then
-            local x, y = WoWPro:GetPlayerZonePosition()
-            if (x  and y) then
-                WoWPro.map[i]= ("%.2f"):format(x * 100) .. ',' .. ("%.2f"):format(y * 100)
-            else
-                WoWPro.map[i]= nil
-            end
-        else
-            WoWPro:ValidateMapCoords(GID,WoWPro.action[i],WoWPro.step[i],WoWPro.map[i])
-        end
-    end
     WoWPro.zone[i] = WoWPro.zone[i] or (WoWPro.map[i] and zone)
     if WoWPro.zone[i] and WoWPro.map[i] and not WoWPro:ValidZone(WoWPro.zone[i]) then
         WoWPro:Error("Step %s [%s] has a bad ¦Z¦%s¦ tag.",WoWPro.action[i],WoWPro.step[i],WoWPro.zone[i])
