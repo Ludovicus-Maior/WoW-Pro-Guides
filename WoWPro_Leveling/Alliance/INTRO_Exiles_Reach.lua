@@ -39,12 +39,11 @@ T Enhanced Combat Tactics|QID|59339|M|58.33,74.51|C|Monk|N|Turn into Captain Gar
 A Northbound|QID|55173|M|58.37,74.47|N|From Alaria.|PRE|55174|
 $ Abandonded Treasure Chest|QID|58882|M|57.05,68.40|Z|Exile's Reach!Instance|N|Loot the treasure chest.|
 T Northbound|QID|55173|M|62.68,69.87|N|Turn into Austin Huxworth.|
-A Taming the Wilds|QID|59342|M|62.68,69.87|C|Hunter|N|From Captain Garrick.|PRE|55173|
-C Taming the Wilds|QID|59342|M|62.68,69.87|QO|1|C|Hunter|N|Tamed Beast learned from Austin.|
-C Taming the Wilds|QID|59342|M|62.68,69.87|QO|2|C|Hunter|N|Tame a beast of your choice to be your pet.|
-T Taming the Wilds|QID|59342|M|62.68,69.87|C|Hunter|N|Turn into Captain Garrick.|
-A Down with the Quilboar|QID|55186|M|62.68,69.87|N|From Austin Huxworth.|PRE|55173|
-A Forbidden Quilboar Necromancy|QID|55184|M|62.68,69.87|N|From Austin Huxworth.|PRE|55173|
+A Taming the Wilds|QID|59342|M|62.73,69.84|C|Hunter|N|From Captain Garrick.|PRE|55173|
+C Taming the Wilds|QID|59342|M|62.73,69.84|QO|2|C|Hunter|N|Tame a beast of your choice to be your pet. You can rename by right clicking on the pet's character portrait (below yours) and choosing rename from the menu options. Choose wisely as it isn't free to change it.|
+T Taming the Wilds|QID|59342|M|62.73,69.84|C|Hunter|N|Turn into Captain Garrick.|
+A Down with the Quilboar|QID|55186|M|62.73,69.84|N|From Austin Huxworth.|PRE|55173|
+A Forbidden Quilboar Necromancy|QID|55184|M|62.73,69.84|N|From Austin Huxworth.|PRE|55173|
 C Forbidden Quilboar Necromancy|QID|55184|S|M|57.25,57.46|N|Kill Quilboar in the area.|
 K Ogre Overseer|QID|56051|M|60.52,59.86|Z|Exile's Reach!Instance|RARE|T|Ogre Overseer|N|Silver Elite to kill and loot.|
 C Down with the Quilboar|QID|55186|M|58.91,62.96|N|End Geolord Grek'og and rescue Lindie.|
@@ -121,7 +120,7 @@ C Freeing the Light|QID|54933|M|58.49,49.15|QO|2|NC|N|Click the second Ritual Pe
 C Freeing the Light|QID|54933|M|59.00,50.69|QO|3|NC|N|Click the third Ritual Pedestal to disperse the energy.|
 C Freeing the Light|QID|54933|M|57.82,51.19|QO|4|NC|N|Click the fourth Ritual Pedestal to disperse the energy.|
 T Freeing the Light|QID|54933|M|58.18,50.23|N|To Lightspawn.|
-T The Harpy Problem|QID|55196|M|56.10,48.77;56.83,46.18|CS|N|Turn in to Henry Garrick.|
+T The Harpy Problem|QID|55196|M|56.83,46.18|N|Turn in to Henry Garrick.|
 A The Rescue of Meredy Huntswell|QID|55763|M|56.83,46.18|N|From Henry Garrick.|PRE|55196|
 A Purge the Totems|QID|55881|M|56.83,46.29|N|From Henry Garrick.|PRE|55196|
 A Harpy Culling|QID|55764|M|56.92,46.26|N|From Kee-La.|PRE|55196|
@@ -138,19 +137,19 @@ T Purge the Totems|QID|55881|M|56.83,46.17|N|Turn into Henry Garrick.|
 A Message to Base|QID|55882|M|56.83,46.17|N|From Henry Garrick.|PRE|55764&55881&55763|
 T Message to Base|QID|55882|M|52.36,55.34|N|Turn into Captain Garrick.|
 T Hjalmar's Final Execution|QID|58915|M|52.29,47.52|C|Warrior|N|Turn into Private Cole.|
-A A Hunter's Trap|QID|59355|M|52.35,55.26|C|Hunter|N|From Austin Huxworth.|PRE|55882|
-C A Hunter's Trap|QID|59355|M|52.35,55.26|CHAT|QO|1|N|Talk with Meredy Huntswell to get the Ice Mote.|C|Hunter|
-C A Hunter's Trap|QID|59355|M|52.22,53.16|NC|QO|2|N|Click the Rusted Chain.|C|Hunter|
-C A Hunter's Trap|QID|59355|M|51.82,51.72|NC|QO|3|N|Click Old Spring.|C|Hunter|
-T A Hunter's Trap|QID|59355|M|52.35,55.26|C|Hunter|N|Turn into Austin Huxworth.|
-A Hunting the Stalker|QID|59356|M|52.35,55.26|C|Hunter|N|From Austin Huxworth.|PRE|59355|
-C Hunting the Stalker|QID|59356|M|52.35,55.26|NC|N|Drop your Freezing trap anywhere within Ogre Ruins.|C|Hunter|
-T Hunting the Stalker|QID|59356|M|52.35,55.26|C|Hunter|N|Turn in to Austin Huxworth.|
-A The Art of Taming|QID|60168|M|52.35,55.26|C|Hunter|N|From Austin Huxworth.|PRE|59356|
-C The Art of Taming|QID|60168|M|52.35,55.26|QO|1|NC|N|Use "Dismiss Pet" to temporarily dismiss your current pet.|C|Hunter|
-C The Art of Taming|QID|60168|M|52.35,55.26|QO|2|CHAT|N|Speak with Mithdran to summon the wolf for you to tame. Once it appears, target it and use Tame Beast.|C|Hunter|
-C The Art of Taming|QID|60168|M|52.35,55.26|QO|3|CHAT|N|Speak with Mithdran again to learn about pet stables.|C|Hunter|
-T The Art of Taming|QID|60168|M|52.35,55.26|C|Hunter|N|Turn in to Austin Huxworth.|
+A A Hunter's Trap|QID|59355|M|52.42,55.28|C|Hunter|N|From Austin Huxworth.|PRE|55882|
+C A Hunter's Trap|QID|59355|M|52.28,55.47|CHAT|QO|1|N|Talk with Meredy Huntswell to get the Ice Mote.|C|Hunter|
+C A Hunter's Trap|QID|59355|M|52.22,53.16|NC|QO|2|N|Click the Rusted Chain, by the left opening of the fence.|C|Hunter|
+C A Hunter's Trap|QID|59355|M|51.82,51.72|NC|QO|3|N|Click Old Spring over by fence along the water.|C|Hunter|
+T A Hunter's Trap|QID|59355|M|52.42,55.28|C|Hunter|N|Turn into Austin Huxworth.|
+A Hunting the Stalker|QID|59356|M|52.42,55.28|C|Hunter|N|From Austin Huxworth.|PRE|59355|
+C Hunting the Stalker|QID|59356|M|51.54,54.03|NC|N|Move away from the circle and drop your Freezing Trap within Ogre Ruins.|C|Hunter|
+T Hunting the Stalker|QID|59356|M|52.42,55.28|C|Hunter|N|Turn in to Austin Huxworth.|
+A The Art of Taming|QID|60168|M|52.42,55.28|C|Hunter|N|From Austin Huxworth.|PRE|59356|
+C The Art of Taming|QID|60168|M|52.42,55.28|QO|1|NC|N|Right Click on your pet's portrait and use "Dismiss Pet" to temporarily dismiss your current pet.|C|Hunter|
+C The Art of Taming|QID|60168|M|52.42,55.28|QO|2|CHAT|T|Dog|N|Speak with Mithdran to summon the wolf for you to tame. Once it appears, target it and use Tame Beast.|C|Hunter|
+C The Art of Taming|QID|60168|M|52.42,55.28|QO|3|CHAT|N|Speak with Mithdran again to learn about pet stables.|C|Hunter|
+T The Art of Taming|QID|60168|M|52.42,55.28|C|Hunter|N|Turn in to Austin Huxworth.|
 A A Mage's Knowledge|QID|59352|M|52.35,55.26|C|Mage|N|From Meredy Huntswell|PRE|55882|
 C A Mage's Knowledge|QID|59352|M|51.96,50.01|NC|N|Collect Meredy Huntswell's spellbook from the bottom of the lake.|C|Mage|
 T A Mage's Knowledge|QID|59352|M|52.35,55.26|C|Mage|N|Turn in to Meredy Huntswell.|
@@ -171,10 +170,10 @@ T Killclaw the Terrible|QID|56839|M|43.42,51.14|ELITE|N|Turn into Hidden Chest.|
 T To Darkmaul Citadel|QID|56344|M|48.98,49.23|N|Turn into Captain Garrick.|
 A Right Beneath Their Eyes|QID|55981|M|48.98,49.23|N|From Captain Garrick.|PRE|56344|
 C Right Beneath Their Eyes|QID|55981|M|49.04,49.19|QO|1|CHAT|N|Ask Meredy to perform ogre transformation spell.|
-C Right Beneath Their Eyes|QID|55981|M|45.79,44.76|QO|2|N|Enter Darkmaul Citadel.|
-C Right Beneath Their Eyes|QID|55981|M|45.90,38.57|QO|3|N|Find the ogre cooking area.|
+C Right Beneath Their Eyes|QID|55981|M|45.79,44.76|QO|2|NC|N|Enter Darkmaul Citadel.|
+C Right Beneath Their Eyes|QID|55981|M|45.90,38.57|QO|3|NC|N|Find the ogre cooking area.|
 C Right Beneath Their Eyes|QID|55981|M|45.68,37.54|QO|4|T|Gor'groth,wave|N|Use the wow-pro target button to target and wave at Gor'groth; then /dance afterward if you feel up to it.|
-C Right Beneath Their Eyes|QID|55981|M|40.98,32.90|QO|5|N|Reach the citadel entrance.|
+C Right Beneath Their Eyes|QID|55981|M|40.98,32.90|QO|5|NC|N|Reach the citadel entrance.|
 T Right Beneath Their Eyes|QID|55981|M|40.16,32.35|N|Turn into Captain Garrick.|
 A Controlling their Stones|QID|55990|M|40.16,32.35|N|From Captain Garrick.|PRE|55981|
 A Like Ogres to the Slaughter|QID|55988|M|40.22,32.36|N|From Henry Garrick.|PRE|55981|
@@ -182,15 +181,15 @@ A Catapult Destruction|QID|55989|M|40.26,32.34|N|From Meredy Huntswell.|PRE|5598
 C Like Ogres to the Slaughter|QID|55988|M|40.12,32.32|S|N|Kill Ogres.|
 C Catapult Destruction|QID|55989|M|40.12,32.32|S|NC|N|Click on Catapults to destroy them.|
 C Controlling their Stones|QID|55990|M|44.21,36.09|QO|2|T|Wug|N|Kill Wug and loot his ward stone.|
-C Controlling their Stones|QID|55990|M|47.06,35.13|QO|1|T|Jugnug|N|Kill Jugnug and loot his ward stone.|
-C Controlling their Stones|QID|55990|M|43.46,41.23|QO|3|T|Grunk|N|Kill Grunk and loot his ward stone.|
 $ Precious Ogre Stash|QID|56088|M|41.78,42.92|N|Loot the treasure chest.|L|169821|
+C Controlling their Stones|QID|55990|M|43.46,41.23|QO|3|T|Grunk|N|Kill Grunk and loot his ward stone.|
+C Controlling their Stones|QID|55990|M|47.06,35.13|QO|1|T|Jugnug|N|Kill Jugnug and loot his ward stone.|
 C Catapult Destruction|QID|55989|M|40.12,32.32|US|NC|N|Click on Catapults to destroy them.|
 C Like Ogres to the Slaughter|QID|55988|M|40.12,32.32|US|N|Kill Ogres.|
-C Controlling their Stones|QID|55990|M|39.92,32.18|QO|4|NC|N|Click on the wards to disable the runes holding Warlord Thunderwalker.|
+C Controlling their Stones|QID|55990|M|39.92,32.18|QO|4|NC|N|Click on the Ogre Runestones to disable the wards holding Captain Kelra.|
 T Catapult Destruction|QID|55989|M|40.27,32.32|N|Turn into Meredy Huntswell.|
 T Like Ogres to the Slaughter|QID|55988|M|40.22,32.34|N|Turn into Henry Garrick.|
-T Controlling their Stones|QID|55990|M|39.92,32.14|N|Turn into Captain Garrick.|
+T Controlling their Stones|QID|55990|M|39.92,32.14|N|Turn into Captain Kelra.|
 A Dungeon: Darkmaul Citadel|QID|55992|M|39.92,32.14|N|From Captain Garrick.|PRE|55988&55989&55990|
 C Dungeon: Darkmaul Citadel|QID|55992|M|39.92,32.14|NC|QO|1|N|Use the Group Finder to enter the dungeon, "Darkmaul Citadel". This isn't group, it's basically a Scenerio.|
 C Dungeon: Darkmaul Citadel|QID|55992|M|46.14,55.25|QO|2|N|Follow Captain Garrick thru the room and up the stairs, killing ogres as you go. She waits for your signal (charging in) to fight Tunk. Continue deeper into the citadel to stop the ritual.|
@@ -214,7 +213,7 @@ C What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.50|C|Warrior|QO|1
 C What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.50|C|Warrior|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.50|C|Warrior|N|Turn into Kualiang Thunderfist.|
 A What's Your Specialty?|QID|59586|Z|Stormwind City|M|77.28,67.09|C|Hunter|N|From Lindie Springstock.|PRE|58909|
-C What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|QO|1|CHAT|N|Talk to Dalgrun Steelpine.|
+C What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|QO|1|CHAT|N|Talk to Dalgrun Steelpine on the main floor of the Training Hall.|
 C What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
 T What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|N|Turn into Dalgrun Steelpine.|
 A What's Your Specialty?|QID|59587|Z|Stormwind City|M|77.28,67.09|C|Mage|N|From Lindie Springstock.|PRE|58909|
@@ -262,7 +261,7 @@ T Tides of War|QID|58983|Z|Stormwind City|M|85.91,31.56|N|Turn into Anduin Wrynn
 A The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|85.91,31.56|N|From Anduin Wrynn|PRE|58983|
 C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|85.30,32.01|QO|1|CHAT|N|Speak with Captain Garrick.|
 C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|77.68,39.26|QO|2|CHAT|N|Run out of the keep and you will find Loretta Banks for a free ride to the Docks.|
-C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|22.78,24.87|QO|3|CHAT|N|Speak with Jaina to set sail.|;this is QO|1 (due to the others being optional...)but not sure what the others are need to test more
+C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|22.78,24.87|QO|3|CHAT|N|Speak with Jaina to set sail.|
 T The Nation of Kul Tiras|QID|59641|Z|Boralus|M|65.59,50.72|N|Turn into Lady Jaina Proudmoore.|
 ]]
 end)
