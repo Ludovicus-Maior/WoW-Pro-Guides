@@ -33,10 +33,10 @@ C Cooking Meat|QID|55174|QO|1|US|M|58.35,74.67|N|Finish collecting the meat.|
 C Cooking Meat|QID|55174|QO|2|M|58.35,74.67|NC|N|Click on the fire.|
 T Cooking Meat|QID|55174|M|58.35,74.67|N|Turn into Alaria.|
 A Enhanced Combat Tactics|QID|59254|M|58.33,74.51|C|Warrior,Warlock,Mage,Rogue,Paladin,Priest,Druid,Shaman|N|From Captain Garrick.|PRE|55174|
-C Enhanced Combat Tactics|QID|59254|M|57.86,72.58|C|Warrior,Warlock,Mage,Warlock,Rogue,Paladin,Priest,Druid,Shaman|N|Look around, to find Captain Garrick, then go spar with her to learn some basic rotations about your class.|
-T Enhanced Combat Tactics|QID|59254|M|58.33,74.51|C|Warrior,Warlock,Mage,Warlock,Rogue,Paladin,Priest,Druid,Shaman|N|Turn into Captain Garrick.|
 A Enhanced Combat Tactics|QID|59339|M|58.33,74.51|C|Monk|N|From Captain Garrick.|PRE|55174|
+C Enhanced Combat Tactics|QID|59254|M|57.86,72.58|C|Warrior,Warlock,Mage,Warlock,Rogue,Paladin,Priest,Druid,Shaman|N|Look around, to find Captain Garrick, then go spar with her to learn some basic rotations about your class.|
 C Enhanced Combat Tactics|QID|59339|M|58.96,72.71|C|Monk|N|Spar with Captain Garrick to learn some basic rotations about your class.|
+T Enhanced Combat Tactics|QID|59254|M|58.33,74.51|C|Warrior,Warlock,Mage,Warlock,Rogue,Paladin,Priest,Druid,Shaman|N|Turn into Captain Garrick.|
 T Enhanced Combat Tactics|QID|59339|M|58.33,74.51|C|Monk|N|Turn into Captain Garrick.|
 A Northbound|QID|55173|M|58.37,74.47|N|From Alaria.|PRE|55174|
 T Northbound|QID|55173|M|62.68,69.87|N|Turn into Austin Huxworth.|
@@ -67,20 +67,20 @@ A Stocking Up on Supplies|QID|55194|M|52.34,55.34|N|From Captain Garrick.|PRE|55
 C Stocking Up on Supplies|QID|55194|M|52.29,55.29|NC|N|Buy and Sell an item from Quartermaster Richter.|
 T Stocking Up on Supplies|QID|55194|M|52.34,55.34|N|Turn into Captain Garrick.|
 A A Rogue's End|QID|58917|M|52.10,55.21|C|Rogue|N|From Private Cole.|PRE|55194|
-C A Rogue's End|QID|58917|QO|1|M|45.69,56.08|C|Rogue|CHAT|QO|1|N|Stealth and find Coulston Nereus.|
-C A Rogue's End|QID|58917|QO|2|M|45.69,56.08|C|Rogue|NC|QO|2|N|Collect Withering Hemlock.|
+A A Shaman's Duty|QID|59002|M|52.30,55.50|C|Shaman|N|From Ghost Wolf.|PRE|55194|
+C A Rogue's End|QID|58917|QO|1|M|45.69,56.08|C|Rogue|CHAT|N|Stealth and find Coulston Nereus.|
+C A Rogue's End|QID|58917|QO|2|M|45.69,56.08|C|Rogue|NC|N|Collect Withering Hemlock.|
 T A Rogue's End|QID|58917|M|52.10,55.21|C|Rogue|N|To Coulston Nereus.|
 A The Deadliest of Poisons|QID|58933|M|45.69,56.08|C|Rogue|N|From Coulston Nereus.|PRE|58917|
-C The Deadliest of Poisons|QID|58933|QO|1|M|45.69,56.08|C|Rogue|NC|QO|1|N|Cast instant poison before you go.|
-C The Deadliest of Poisons|QID|58933|QO|2|M|48.75,51.36|C|Rogue|QO|2|N|Kill Gutgruk the Tough.|
-T The Deadliest of Poisons|QID|58933|M|52.10,55.21|C|Rogue|N|From Private Cole.|
-A A Shaman's Duty|QID|59002|M|52.30,55.50|C|Shaman|N|From Ghost Wolf.|PRE|55194|
+C The Deadliest of Poisons|QID|58933|QO|1|M|45.69,56.08|C|Rogue|NC|N|Cast instant poison before you go.|
+C The Deadliest of Poisons|QID|58933|QO|2|M|48.75,51.36|C|Rogue|N|Kill Gutgruk the Tough.|
 C A Shaman's Duty|QID|59002|M|53.09,51.51|QO|1|NC|N|Collect Veil blossom.|C|Shaman|
 C A Shaman's Duty|QID|59002|M|52.23,55.43|QO|2|NC|N|Burn the blossoms on the campfire.|C|Shaman|
-C A Shaman's Duty|QID|59002|M|54.44,58.34;   55.17,52.82;    55.26,50.84|C|Shaman|N|Find the Ghost Wolves|
+C A Shaman's Duty|QID|59002|M|54.44,58.34;55.17,52.82;55.26,50.84|C|Shaman|N|Find the Ghost Wolves|
 C A Shaman's Duty|QID|59002|M|54.38,58.44|QO|3<1|NC|N|Free the captured ghost wolves.|C|Shaman|
 C A Shaman's Duty|QID|59002|M|55.27,52.79|QO|3<2|NC|N|Free the captured ghost wolves.|C|Shaman|
 C A Shaman's Duty|QID|59002|M|55.40,50.78|QO|3<3|NC|N|Free the captured ghost wolves.|C|Shaman|
+T The Deadliest of Poisons|QID|58933|M|52.10,55.21|C|Rogue|N|To Private Cole.|
 T A Shaman's Duty|QID|59002|M|52.30,55.50|C|Shaman|N|To Ghost Wolf.|
 A Westward Bound|QID|55965|M|53.02,55.05|N|From Bjorn Stouthands.|PRE|55194|
 T Westward Bound|QID|55965|M|51.18,59.60|N|Turn into Bjorn Stouthands.|
@@ -90,25 +90,24 @@ C Who Lurks in the Pit|QID|55639|QO|2|M|47.58,60.38|N|Kill Hrun the Exiled.|
 C Who Lurks in the Pit|QID|55639|QO|3|M|47.78,60.29|V|N|Click on Ralia for a ride out of the pit.|
 T Who Lurks in the Pit|QID|55639|M|52.36,55.34|N|Turn into Captain Garrick.|
 A A Druid's Form|QID|59350|M|52.29,55.41|C|Druid|N|From Ralia Dreamchaser.|PRE|55639|
-C A Druid's Form|QID|59350|M|45.37,49.24|C|Druid|NC|N|Click the stone to begin ritual.|
-T A Druid's Form|QID|59350|M|45.50,49.27|C|Druid|N|Turn into Ralia Dreamchaser.|
-A A Priest's End|QID|58953|M|52.11,55.25|C|Priest|N|From Private Cole.|PRE|55194|
-C A Priest's End|QID|58953|M|55.48,53.99|C|Priest|NC|N|Find the corpses of the first expedition.|C|Priest|
-T A Priest's End|QID|58953|M|56.06,53.72|C|Priest|N|Turn into Branven Hammerheart.|
-A Resurrecting the Recruits|QID|58960|M|56.06,53.72|C|Priest|N|From Branven Hammerheart.|PRE|58953|
-C Resurrecting the Recruits|QID|58960|M|56.06,53.72|C|Priest|T|First Expedition Recruit|N|Cast Resurrect on First Expedition Recruits.|C|Priest|
-T Resurrecting the Recruits|QID|58960|M|56.06,53.72|C|Priest|N|Turn into Branven Hammerheart.|
+A A Priest's End|QID|58953|M|52.08,55.28|C|Priest|N|From Private Cole.|PRE|55194|
 A A Warlock's Bargain|QID|58962|M|52.08,55.28|C|Warlock|N|From Private Cole.|PRE|55194|
 A A Paladin's Service|QID|58923|M|52.08,55.28|C|Paladin|N|From Private Cole.|PRE|55194|
 A A Warrior's End|QID|58914|M|52.08,55.28|C|Warrior|N|From Private Cole.|PRE|55194|
+C A Druid's Form|QID|59350|M|45.37,49.24|C|Druid|NC|N|Click the stone to begin ritual.|
+T A Druid's Form|QID|59350|M|45.50,49.27|C|Druid|N|Turn into Ralia Dreamchaser.|
+T A Priest's End|QID|58953|M|56.06,53.72|C|Priest|N|Turn into Branven Hammerheart, where you will find the corpses of the first expedition.|
+A Resurrecting the Recruits|QID|58960|M|56.06,53.72|C|Priest|N|From Branven Hammerheart.|PRE|58953|
+C Resurrecting the Recruits|QID|58960|M|56.06,53.72|C|Priest|T|First Expedition Recruit|N|Cast Resurrect on First Expedition Recruits.|
+T Resurrecting the Recruits|QID|58960|M|56.06,53.72|C|Priest|N|Turn into Branven Hammerheart.|
 A The Harpy Problem|QID|55196|M|53.49,52.39|N|From Henry Garrick.|PRE|55194|
-C A Warlock's Bargain|QID|58962|M|52.56,45.96|C|Warlock|QO|1|CHAT|N|Investigate the dead warlocks body.|C|Warlock|
-C A Warlock's Bargain|QID|58962|M|52.56,45.96|C|Warlock|QO|2|NC|N|Click on the book next to the body.|C|Warlock|
-C A Warlock's Bargain|QID|58962|M|52.56,45.96|C|Warlock|QO|3|NC|N|Summon a voidwalker with the Grimoire.|U|174947|C|Warlock|
+C A Warlock's Bargain|QID|58962|M|52.56,45.96|C|Warlock|QO|1|CHAT|N|Investigate the dead warlocks body.|
+C A Warlock's Bargain|QID|58962|M|52.56,45.96|C|Warlock|QO|2|NC|N|Click on the book next to the body.|
+C A Warlock's Bargain|QID|58962|M|52.56,45.96|C|Warlock|QO|3|NC|N|Summon a voidwalker with the Grimoire.|U|174947|
 T A Warlock's Bargain|QID|58962|M|52.56,45.96|C|Warlock|N|Turn into Summoned Voidwalker.|
 T A Warrior's End|QID|58914|M|52.29,47.52|C|Warrior|N|Turn into Hjalmar the Undying.|
 A Hjalmar's Final Execution|QID|58915|M|52.29,47.52|C|Warrior|N|From Hjalmar the Undying.|PRE|58914|
-C Hjalmar's Final Execution|QID|58915|M|52.29,47.52|C|Warrior|N|Chat to trigger the fight with Hjalmar the Undying and finish him off with the Execute ability.|C|Warrior|
+C Hjalmar's Final Execution|QID|58915|M|52.29,47.52|C|Warrior|N|Chat to trigger the fight with Hjalmar the Undying and finish him off with the Execute ability.|
 A Freeing the Light|QID|54933|M|55.29,47.98;58.20,50.22|CS|N|From Lightspawn.|
 C Freeing the Light|QID|54933|M|57.42,49.68|QO|1|NC|N|Click the first Ritual Pedestal to disperse the energy.|
 C Freeing the Light|QID|54933|M|58.49,49.15|QO|2|NC|N|Click the second Ritual Pedestal to disperse the energy.|
@@ -118,7 +117,7 @@ T Freeing the Light|QID|54933|M|58.18,50.23|N|To Lightspawn.|
 C A Paladin's Service|QID|58923|M|57.57,52.21|C|Paladin|CHAT|N|Speak with the Ghost of Yorah.|
 T A Paladin's Service|QID|58923|M|57.57,52.21|C|Paladin|N|Turn into Yorah.|
 A The Divine's Shield|QID|58946|M|57.57,52.21|C|Paladin|N|From Yorah.|PRE|58923|
-C The Divine's Shield|QID|58946|M|57.57,52.213|C|Paladin|QO|1|NC|N|Cast Divine Shield to cross the barrier and destroy the alter.|C|Paladin|
+C The Divine's Shield|QID|58946|M|57.57,52.213|C|Paladin|QO|1|NC|N|Cast Divine Shield to cross the barrier and destroy the alter.|
 C The Divine's Shield|QID|58946|M|57.57,52.21|C|Paladin|QO|2|NC|N|Destroy the Necrotic Alter.|
 T The Divine's Shield|QID|58946|M|57.57,52.21|C|Paladin|N|Turn into Yorah.|
 T The Harpy Problem|QID|55196|M|56.83,46.18|N|Turn in to Henry Garrick.|
@@ -139,6 +138,8 @@ A Message to Base|QID|55882|M|56.83,46.17|N|From Henry Garrick.|PRE|55764&55881&
 T Message to Base|QID|55882|M|52.36,55.34|N|Turn into Captain Garrick.|
 T Hjalmar's Final Execution|QID|58915|M|52.29,47.52|C|Warrior|N|Turn into Private Cole.|
 A A Hunter's Trap|QID|59355|M|52.42,55.28|C|Hunter|N|From Austin Huxworth.|PRE|55882|
+A A Mage's Knowledge|QID|59352|M|52.35,55.26|C|Mage|N|From Meredy Huntswell|PRE|55882|
+A A Monk's Focus|QID|59347|M|52.13,55.68|C|Monk|N|From Kee-La.|PRE|55882|
 C A Hunter's Trap|QID|59355|M|52.28,55.47|CHAT|QO|1|N|Talk with Meredy Huntswell to get the Ice Mote.|C|Hunter|
 C A Hunter's Trap|QID|59355|M|52.22,53.16|NC|QO|2|N|Click the Rusted Chain, by the left opening of the fence.|C|Hunter|
 C A Hunter's Trap|QID|59355|M|51.82,51.72|NC|QO|3|N|Click Old Spring over by fence along the water.|C|Hunter|
@@ -151,21 +152,19 @@ C The Art of Taming|QID|60168|M|52.42,55.28|QO|1|NC|N|Right Click on your pet's 
 C The Art of Taming|QID|60168|M|52.42,55.28|QO|2|CHAT|T|Dog|N|Speak with Mithdran to summon the wolf for you to tame. Once it appears, target it and use Tame Beast.|C|Hunter|
 C The Art of Taming|QID|60168|M|52.42,55.28|QO|3|CHAT|N|Speak with Mithdran again to learn about pet stables.|C|Hunter|
 T The Art of Taming|QID|60168|M|52.42,55.28|C|Hunter|N|Turn in to Austin Huxworth.|
-A A Mage's Knowledge|QID|59352|M|52.35,55.26|C|Mage|N|From Meredy Huntswell|PRE|55882|
 C A Mage's Knowledge|QID|59352|M|51.96,50.01|NC|N|Collect Meredy Huntswell's spellbook from the bottom of the lake.|C|Mage|
 T A Mage's Knowledge|QID|59352|M|52.35,55.26|C|Mage|N|Turn in to Meredy Huntswell.|
 A The Best Way to Use Sheep|QID|59354|M|52.35,55.26|C|Mage|N|From Meredy Huntswell.|PRE|59352|
 C The Best Way to Use Sheep|QID|59354|M|52.35,55.26|CHAT|QO|1|N|Speak with Meredy to practice Polymorph.|C|Mage|
 C The Best Way to Use Sheep|QID|59354|M|52.35,55.26|QO|2|N|Follow Herbert and Throg and then cast Polymorph on them.|C|Mage|
 T The Best Way to Use Sheep|QID|59354|M|52.35,55.26|C|Mage|N|Turn in to Meredy Huntswell.|
-A A Monk's Focus|QID|59347|M|52.13,55.68|C|Monk|N|From Kee-La.|PRE|55882|
 C A Monk's Focus|QID|59347|M|53.69,51.49;52.62,49.49|CS|C|Monk|CHAT|N|Follow Kee-La when she stops tell her you are ready.|
 T A Monk's Focus|QID|59347|M|52.62,49.49|C|Monk|N|Turn into Kee-La.|
 A One Last Spar|QID|59349|M|52.62,49.49|C|Monk|N|From Kee-La.|PRE|59347|
 C One Last Spar|QID|59349|M|53.50,49.58|C|Monk|N|Use Touch of Death on Kee-La.|
 T One Last Spar|QID|59349|M|52.35,55.35|C|Monk|N|Turn into Captain Garrick.|
 A To Darkmaul Citadel|QID|56344|M|52.35,55.35|N|From Captain Garrick.|PRE|55882|
-A Killclaw the Terrible|QID|56839|M|48.78,54.26|ELITE|N|From the sign off the road. Elite NPC.|
+A Killclaw the Terrible|QID|56839|M|48.78,54.26|ELITE|N|From the sign off the road. Elite NPC.|LVL|7|
 C Killclaw the Terrible|QID|56839|M|45.64,54.20|ELITE|N|Killclaw the Terrible slain.|
 T Killclaw the Terrible|QID|56839|M|43.42,51.14|ELITE|N|Turn into Hidden Chest.|
 T To Darkmaul Citadel|QID|56344|M|48.98,49.23|N|Turn into Captain Garrick.|
@@ -187,9 +186,9 @@ C Controlling their Stones|QID|55990|M|43.46,41.23|QO|3|T|Grunk|N|Kill Grunk and
 C Controlling their Stones|QID|55990|M|47.06,35.13|QO|1|T|Jugnug|N|Kill Jugnug and loot his ward stone.|
 C Catapult Destruction|QID|55989|M|40.12,32.32|US|NC|N|Click on Catapults to destroy them.|
 C Like Ogres to the Slaughter|QID|55988|M|40.12,32.32|US|N|Kill Ogres.|
-C Controlling their Stones|QID|55990|M|39.92,32.18|QO|4|NC|N|Click on the Ogre Runestones to disable the wards holding Captain Kelra.|
 T Catapult Destruction|QID|55989|M|40.27,32.32|N|Turn into Meredy Huntswell.|
 T Like Ogres to the Slaughter|QID|55988|M|40.22,32.34|N|Turn into Henry Garrick.|
+C Controlling their Stones|QID|55990|M|39.92,32.18|QO|4|NC|N|Click on the Ogre Runestones to disable the wards holding Captain Kelra.|
 T Controlling their Stones|QID|55990|M|39.92,32.14|N|Turn into Captain Kelra.|
 A Dungeon: Darkmaul Citadel|QID|55992|M|39.92,32.14|N|From Captain Kelra.|PRE|55988&55989&55990|
 C Dungeon: Darkmaul Citadel|QID|55992|M|39.92,32.14|NC|QO|1|N|Use the Group Finder to enter the dungeon, "Darkmaul Citadel". This isn't group, it's basically a Scenerio. (although you may not end up solo).|
@@ -210,46 +209,46 @@ T Finding Your Way|QID|58908|Z|Stormwind City|M|77.28,66.95|N|Turn into Curly.|
 A License to Ride|QID|58909|Z|Stormwind City|M|77.28,66.95|N|From Curly.|PRE|58908|
 C License to Ride|QID|58909|Z|Stormwind City|M|77.36,67.92|N|Learn the Apprentice Riding Skill from Darlene Stokx.|
 T License to Ride|QID|58909|Z|Stormwind City|M|77.28,66.95|N|Turn into Curly.|
-A What's Your Specialty?|QID|59594|Z|Stormwind City|M|77.28,67.09|C|Warrior|N|From Lindie Springstock.|PRE|58909|
-C What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.50|C|Warrior|QO|1|CHAT|N|Talk to Kualiang Thunderfist.|
-C What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.50|C|Warrior|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
-T What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.50|C|Warrior|N|Turn into Kualiang Thunderfist.|
-A What's Your Specialty?|QID|59586|Z|Stormwind City|M|77.28,67.09|C|Hunter|N|From Lindie Springstock.|PRE|58909|
-C What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|QO|1|CHAT|N|Talk to Dalgrun Steelpine on the main floor of the Training Hall.|
-C What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
-T What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|N|Turn into Dalgrun Steelpine.|
-A What's Your Specialty?|QID|59587|Z|Stormwind City|M|77.28,67.09|C|Mage|N|From Lindie Springstock.|PRE|58909|
-C What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.05,69.69|C|Mage|QO|1|CHAT|N|Talk to Frazzle Frostfingers he is upstairs.|
-C What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.05,69.69|C|Mage|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
-T What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.05,69.69|C|Mage|N|Turn into Frazzle Frostfingers.|
-A What's Your Specialty?|QID|59593|Z|Stormwind City|M|77.28,67.09|C|Warlock|N|From Lindie Springstock.|PRE|58909|
-C What's Your Specialty?|QID|59593|Z|Stormwind City|M|80.23,70.19|C|Warlock|QO|1|CHAT|N|Talk to Laphandrus Voidheart he is upstairs.|
-C What's Your Specialty?|QID|59593|Z|Stormwind City|M|80.23,70.19|C|Warlock|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
-T What's Your Specialty?|QID|59593|Z|Stormwind City|M|80.23,70.19|C|Warlock|N|Turn into Laphandrus Voidheart.|
-A What's Your Specialty?|QID|59588|Z|Stormwind City|M|77.28,67.09|C|Monk|N|From Lindie Springstock.|PRE|58909|
-C What's Your Specialty?|QID|59588|Z|Stormwind City|M|79.63,69.25;79.68,71.27;80.35,70.05|CS|C|Monk|QO|1|CHAT|N|Into the Training Hall and up the stairs to find and talk to Juisheng Halfclaw.|
-C What's Your Specialty?|QID|59588|Z|Stormwind City|M|80.35,70.05|C|Monk|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
-T What's Your Specialty?|QID|59588|Z|Stormwind City|M|80.35,70.05|C|Monk|N|Turn into Juisheng Halfclaw.|
-A What's Your Specialty?|QID|59589|Z|Stormwind City|M|77.28,67.09|C|Paladin|N|From Lindie Springstock.|PRE|58909|
-C What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|QO|1|CHAT|N|Inside the Training Hall, and make a right and up a few steps to talk to Ezul'aan.|
-C What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
-T What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|N|Turn into Ezul'aan.|
-A What's Your Specialty?|QID|59590|Z|Stormwind City|M|77.28,67.09|C|Priest|N|From Lindie Springstock.|PRE|58909|
-C What's Your Specialty?|QID|59590|Z|Stormwind City|M|78.93,69.81|C|Priest|QO|1|CHAT|N|Talk to Patrice Lancaster.|
-C What's Your Specialty?|QID|59590|Z|Stormwind City|M|78.93,69.81|C|Priest|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
-T What's Your Specialty?|QID|59590|Z|Stormwind City|M|78.93,69.81|C|Priest|N|Turn into Patrice Lancaster.|
-A What's Your Specialty?|QID|59591|Z|Stormwind City|M|77.28,67.09|C|Rogue|N|From Lindie Springstock.|PRE|58909|
-C What's Your Specialty?|QID|59591|Z|Stormwind City|M|78.58,70.70|C|Rogue|QO|1|CHAT|N|Talk to Veruca Darkstream.|
-C What's Your Specialty?|QID|59591|Z|Stormwind City|M|78.58,70.70|C|Rogue|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
-T What's Your Specialty?|QID|59591|Z|Stormwind City|M|78.58,70.70|C|Rogue|N|Turn into Veruca Darkstream.|
-A What's Your Specialty?|QID|59592|Z|Stormwind City|M|77.28,67.09|C|Shaman|N|From Lindie Springstock.|PRE|58909|
-C What's Your Specialty?|QID|59592|Z|Stormwind City|M|78.84,70.73|C|Shaman|QO|1|CHAT|N|Talk to Mulric Boldrock.|
-C What's Your Specialty?|QID|59592|Z|Stormwind City|M|78.84,70.73|C|Shaman|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
-T What's Your Specialty?|QID|59592|Z|Stormwind City|M|78.84,70.73|C|Shaman|N|Turn into Mulric Boldrock.|
 A What's Your Specialty?|QID|58910|Z|Stormwind City|M|77.28,67.09|C|Druid|N|From Lindie Springstock.|PRE|58909|
-C What's Your Specialty?|QID|58910|Z|Stormwind City|M|79.31,68.73|C|Druid|QO|1|CHAT|N|Talk to Mitholos Falconbriar he is upstairs.|
-C What's Your Specialty?|QID|58910|Z|Stormwind City|M|79.31,68.73|C|Druid|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
-T What's Your Specialty?|QID|58910|Z|Stormwind City|M|79.31,68.73|C|Druid|N|Turn into Mitholos Falconbriar.|
+A What's Your Specialty?|QID|59586|Z|Stormwind City|M|77.28,67.09|C|Hunter|N|From Lindie Springstock.|PRE|58909|
+A What's Your Specialty?|QID|59587|Z|Stormwind City|M|77.28,67.09|C|Mage|N|From Lindie Springstock.|PRE|58909|
+A What's Your Specialty?|QID|59588|Z|Stormwind City|M|77.28,67.09|C|Monk|N|From Lindie Springstock.|PRE|58909|
+A What's Your Specialty?|QID|59589|Z|Stormwind City|M|77.28,67.09|C|Paladin|N|From Lindie Springstock.|PRE|58909|
+A What's Your Specialty?|QID|59590|Z|Stormwind City|M|77.28,67.09|C|Priest|N|From Lindie Springstock.|PRE|58909|
+A What's Your Specialty?|QID|59591|Z|Stormwind City|M|77.28,67.09|C|Rogue|N|From Lindie Springstock.|PRE|58909|
+A What's Your Specialty?|QID|59592|Z|Stormwind City|M|77.28,67.09|C|Shaman|N|From Lindie Springstock.|PRE|58909|
+A What's Your Specialty?|QID|59593|Z|Stormwind City|M|77.28,67.09|C|Warlock|N|From Lindie Springstock.|PRE|58909|
+A What's Your Specialty?|QID|59594|Z|Stormwind City|M|77.28,67.09|C|Warrior|N|From Lindie Springstock.|PRE|58909|
+C What's Your Specialty?|QID|58910|Z|Stormwind City|M|79.63,69.25;79.68,71.27;79.19,68.68|CS|C|Druid|QO|1|CHAT|N|Talk to Mitholos Falconbriar he is upstairs in the Training Hall.|
+C What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|QO|1|CHAT|N|Talk to Dalgrun Steelpine on the main floor of the Training Hall.|
+C What's Your Specialty?|QID|59587|Z|Stormwind City|M|79.63,69.25;79.68,71.27;80.18,69.53|CS|C|Mage|QO|1|CHAT|N|Talk to Frazzle Frostfingers he is upstairs in the Training Hall.|
+C What's Your Specialty?|QID|59588|Z|Stormwind City|M|79.63,69.25;79.68,71.27;80.35,70.05|CS|C|Monk|QO|1|CHAT|N|Into the Training Hall and up the stairs to find and talk to Juisheng Halfclaw.|
+C What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|QO|1|CHAT|N|Inside the Training Hall, and make a right and up a few steps to talk to Ezul'aan.|
+C What's Your Specialty?|QID|59590|Z|Stormwind City|M|78.93,69.81|C|Priest|QO|1|CHAT|N|Inside the Training Hall, and make a right and up a few steps to talk to Patrice Lancaster.|
+C What's Your Specialty?|QID|59591|Z|Stormwind City|M|80.17,69.52;78.54,70.79|CS|C|Rogue|QO|1|CHAT|N|Enter the Training Hall and go down the stairs to talk to Veruca Darkstream.|
+C What's Your Specialty?|QID|59592|Z|Stormwind City|M|78.71,70.88|C|Shaman|QO|1|CHAT|N|Talk to Mulric Boldrock on the main floor of the Training Hall.|
+C What's Your Specialty?|QID|59593|Z|Stormwind City|M|80.17,69.52;78.97,69.62|CS|C|Warlock|QO|1|CHAT|N|Talk to Laphandrus Voidheart he is downstairs in the Training Hall.|
+C What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.70|C|Warrior|QO|1|CHAT|N|Talk to Kualiang Thunderfist on the main floor of the Training Hall.|
+C What's Your Specialty?|QID|58910|Z|Stormwind City|M|79.19,68.68|C|Druid|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
+C What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
+C What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.18,69.53|C|Mage|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
+C What's Your Specialty?|QID|59588|Z|Stormwind City|M|80.35,70.05|C|Monk|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
+C What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
+C What's Your Specialty?|QID|59590|Z|Stormwind City|M|78.93,69.81|C|Priest|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
+C What's Your Specialty?|QID|59591|Z|Stormwind City|M|78.54,70.79|C|Rogue|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
+C What's Your Specialty?|QID|59592|Z|Stormwind City|M|78.71,70.88|C|Shaman|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
+C What's Your Specialty?|QID|59593|Z|Stormwind City|M|78.97,69.62|C|Warlock|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
+C What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.70|C|Warrior|QO|2|NC|N|Activate a specialization by pressing 'N' on the Keyboard and selecting a specialization by clicking activate.|
+T What's Your Specialty?|QID|58910|Z|Stormwind City|M|79.19,68.68|C|Druid|N|Turn into Mitholos Falconbriar.|
+T What's Your Specialty?|QID|59586|Z|Stormwind City|M|79.15,71.25|C|Hunter|N|Turn into Dalgrun Steelpine.|
+T What's Your Specialty?|QID|59587|Z|Stormwind City|M|80.18,69.53|C|Mage|N|Turn into Frazzle Frostfingers.|
+T What's Your Specialty?|QID|59588|Z|Stormwind City|M|80.35,70.05|C|Monk|N|Turn into Juisheng Halfclaw.|
+T What's Your Specialty?|QID|59589|Z|Stormwind City|M|79.20,69.51|C|Paladin|N|Turn into Ezul'aan.|
+T What's Your Specialty?|QID|59590|Z|Stormwind City|M|78.93,69.81|C|Priest|N|Turn into Patrice Lancaster.|
+T What's Your Specialty?|QID|59591|Z|Stormwind City|M|78.54,70.79|C|Rogue|N|Turn into Veruca Darkstream.|
+T What's Your Specialty?|QID|59592|Z|Stormwind City|M|78.71,70.88|C|Shaman|N|Turn into Mulric Boldrock.|
+T What's Your Specialty?|QID|59593|Z|Stormwind City|M|78.97,69.62|C|Warlock|N|Turn into Laphandrus Voidheart.|
+T What's Your Specialty?|QID|59594|Z|Stormwind City|M|80.00,70.70|C|Warrior|N|Turn into Kualiang Thunderfist.|
 A Home Is Where the Hearth Is|QID|58911|Z|Stormwind City|M|PLAYER|N|From Lindie Springstock.|PRE|58909|
 h Pig and Whistle Tavern|QID|58911|Z|Stormwind City|M|75.68,54.10|QO|1|N|At the innkeeper.|
 T Home Is Where the Hearth Is|QID|58911|Z|Stormwind City|M|75.68,54.10|N|Turn into Maegan Tillman.|
