@@ -1,8 +1,9 @@
 local guide = WoWPro:RegisterGuide('CagBastion', 'Leveling', "Bastion", 'Cagomei', 'Neutral')
+
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideNickname(guide, "Bastion")
 WoWPro:GuideName(guide,"Bastion")
-WoWPro:GuideNextGuide(guide, 'Nil')
+WoWPro:GuideNextGuide(guide, "Maldraxxus")
 WoWPro:GuideSteps(guide, function()
 return [[
 A Welcome to Eternity|QID|59774|M|37.47,76.44|Z|Bastion|N|From Kleia|PRE|61874|
