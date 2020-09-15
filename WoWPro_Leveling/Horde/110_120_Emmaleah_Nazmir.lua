@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/nazmir_horde
+-- Date: 2020-09-15 02:58
+-- Who: Blanckaert
+-- Log: run through on Rank 1, minor adjustments, grammar, notes for some quests
+
+-- URL: http://wow-pro.com/node/3766/revisions/30524/view
 -- Date: 2020-05-01 20:29
 -- Who: Ludovicus_Maior
 -- Log: Corrected two K steps.
@@ -138,7 +143,7 @@ N The Great Sea Scrolls|QID|53476|NA|U|163852|N|From Ancient Pilgrimage Scrollca
 t The Great Sea Scrolls|QID|53476|M|71.50,30.36|S!US|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
 N Use of Ranks|N|Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done with the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
 N Rares (aka Silver Elite)|ACH|12942|N|Rares are not truely rare, they will respawn within a few minutes of being killed, so if it isn't there, stick around a minute or two and it will be. Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to. If you want the guide to not tell you about rares at all, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable rares box). |
-N Traesure|ACH|12771|N|The majority of the treasure chests in Nazmir are first come, respawning randomly.  There are a few one time treasures, If you want the guide to skip treasures, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable treasures box).
+N Treasure|ACH|12771|N|The majority of the treasure chests in Nazmir are first come, respawning randomly.  There are a few one time treasures, If you want the guide to skip treasures, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable treasures box).
 
 ;A Nazmir|QID|47512|N|From Scouting map
 T Nazmir|QID|47512|M|41.32,66.49|Z|Dazar'alor|N|To Princess Talanji.|
@@ -297,7 +302,7 @@ T Isolating Zalamar|QID|48801|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
 T How to Be a Blood Troll|QID|48890|M|33.35,45.77|N|To Bloodseeker Jo'chunga.|
 A Poisoning the Brood|QID|49078|M|33.35,45.77|N|From Bloodseeker Jo'chunga.|PRE|48801&48890|
 A Mark of the Bat|QID|48800|M|33.35,45.77|N|From Bloodseeker Jo'chunga.|PRE|48801&48890|
-A Zalamar Slaughter|QID|49406|M|33.35,45.77|N|Bonus Objective - Autoaccepted.|LVL|-120|
+A Zalamar Slaughter|QID|49406|M|33.35,45.77|N|Bonus Objective - Autoaccepted.|LVL|-120|   ;  only active once you get 49078 and 48800
 C Zalamar Slaughter|QID|49406|M|33.35,45.77|N|Bonus Objective.|S|
 C Poisoning the Brood|QID|49078|M|32.13,48.71|U|153012|NC|T|Tamed Warspawn|S|N|Target the Tamed Warspawn and use the poison.|
 K Vashera|ACTIVE|48800|M|30.99,45.12|QO|2|T|Vashera|N|Kill Vashera and loot her Talisman.|
@@ -328,7 +333,7 @@ T A Tribute for Death|QID|47880|M|39.49,24.62|N|To Bwonsamdi.|
 A Remnants of the Damned|QID|47491|M|39.49,24.62|N|From Bwonsamdi.|PRE|47880|
 A A Desecrated Temple|QID|49348|M|39.49,24.62|N|From Bwonsamdi.|PRE|47880|
 A That Which Haunts the Dead|QID|47247|M|39.49,24.62|N|From Bwonsamdi.|PRE|47880|
-A Mark of the Damned|QID|48934|M|39.57,25.41|LVL|-120|N|Bonus Objective - Auto-accepted.|
+A Mark of the Damned|QID|48934|M|39.57,25.41|LVL|-120|N|Bonus Objective - Auto-accepted.|  ;  only active once you get 47491, 49348, 47247
 C Mark of the Damned|QID|48934|M|39.57,25.41|S|N|Bonus Objective.|
 C A Desecrated Temple|QID|49348|M|43.95,30.05|S|NC|N|Click on the red blobs of Vile Desecration to destroy them.|
 $ Offering to Bwonsamdi|QID|49484|M|42.39,26.13;42.79,26.20|CS|N|Go up the tree trunk then onto the walls of the ruins and down inside to find this treasure.|RANK|2|
@@ -499,7 +504,7 @@ A Speaking with the Dead|QID|49120|M|56.63,26.54|N|From Bwonsamdi.|PRE|49080&490
 C Speaking with the Dead|QID|49120|M|56.63,26.54|CHAT|N|Ask, then listen to Torga's Wisdom.|
 T Speaking with the Dead|QID|49120|M|56.56,26.68|N|To Princess Talanji.|
 A Negative Blood|QID|49125|M|56.59,26.76|N|From Kisha.|PRE|49120|
-A Tortollan Rescue|QID|51689|M|56.59,26.76|LVL|-120|N|Bonus Objective - Autoaccepted.|
+A Tortollan Rescue|QID|51689|M|56.59,26.76|LVL|-120|N|Bonus Objective - Autoaccepted.| ; you get it after 49125 accepted, and a slight delay
 C Tortollan Rescue|QID|51689|M|56.59,26.76|S|N|Bonus Objective - Free the Tortollan's and kill the guards as you go.|
 C Negative Blood|QID|49125|M|62.82,23.14|QO|1|U|160559|NC|S|N|Target the Corrupted Loa Blood and use the scroll to destroy it.|
 C Negative Blood|QID|49125|M|62.27,24.56|QO|2|NC|N|Pick up Scroll of Fate's Hand lying on the ground.|
@@ -511,7 +516,7 @@ $ Shipwreaked Chest|QID|49483|M|67.81,16.80;66.78,17.33|CS|N|Starting at this wa
 T Negative Blood|QID|49125|M|65.72,17.97|N|To Kisha.|
 A Forcing Fate's Hand|QID|49126|M|65.72,17.97|N|From Kisha.|PRE|49125&49123&49124|
 C Forcing Fate's Hand|QID|49126|M|65.73,17.87|QO|1|NC|N|Use Extra Action button to summon Hand of Fate.|
-C Forcing Fate's Hand|QID|49126|M|63.30,15.31|QO|2|N|1 is a single target attack \n2 is an AE attack \n3 is a heal. \nGo forth and destroy the undead.|
+C Forcing Fate's Hand|QID|49126|M|63.30,15.31|QO|2|N|1 is a single target attack \n2 is an AOE attack \n3 is a heal. \nGo forth and destroy the undead.|
 T Forcing Fate's Hand|QID|49126|M|58.48,13.78|N|To Kisha.|
 
 A Loa-Free Diet|QID|49130|M|58.48,13.78|N|From Kisha.|PRE|49126|
@@ -528,7 +533,7 @@ T Crushing the Skullcrushers|QID|49132|M|56.51,26.67|N|To Lashk.|
 T Loa-Free Diet|QID|49130|M|56.60,26.78|N|To Kisha.|
 T Sanctifying Ground|QID|49131|M|56.56,26.66|N|To Princess Talanji.|
 A Jungo, Herald of G'huun|QID|49136|M|56.56,26.66|N|From Princess Talanji.|PRE|49131&49130&49132|
-K Jungo, Herald of G'huun|ACTIVE|49136|M|60.93,17.92|T|Jungo, Herald of G'huun|N|Hit him once with anything, then wait for the Princess to cancel his invulnerability and finally kill Jungo, Herald of G'huun.|
+K Jungo, Herald of G'huun|ACTIVE|49136|M|60.93,17.92|T|Jungo, Herald of G'huun|QO|1|N|Hit him once with anything, then wait for the Princess to cancel his invulnerability and finally kill Jungo, Herald of G'huun.|
 T Jungo, Herald of G'huun|QID|49136|M|56.57,26.68|N|To Princess Talanji.|
 A Torga's Eternal Return|QID|49160|M|56.51,26.64|N|From Lashk.|PRE|49136|
 C Torga's Eternal Return|QID|49160|M|56.51,26.64|U|153131|NC|N|Use the scroll to put Torga's spirit to rest.|
@@ -581,7 +586,7 @@ T Totemic Restoration|QID|47540|M|75.52,56.74|N|To Krag'wa the Huge.|
 A Krag'wa the Terrible|QID|47696|M|75.52,56.74|N|From Krag'wa the Huge.|PRE|47540|
 R The Frogmarsh|ACTIVE|47696|M|67.40,55.90|N|Run out of Krag'wa's pond and catch up to him in the Frogmarsh.|
 C Krag'wa the Terrible|QID|47696|M|67.40,55.90|QO|1|CHAT|N|Tell Krag'wa that you are ready to help him wreak vengeance.|
-C Krag'wa the Terrible|QID|47696|M|64.28,58.57|QO|2|NC|N|"1" lets you jump forward causing AE damage where you land. \n"2" does AE damage in a cone in front of you.|
+C Krag'wa the Terrible|QID|47696|M|64.28,58.57|QO|2|NC|N|"1" lets you jump forward causing AOE damage where you land. \n"2" does AOE damage in a cone in front of you.|
 C Krag'wa the Terrible|QID|47696|M|59.88,53.34|QO|3|NC|N|One final target.|
 T Krag'wa the Terrible|QID|47696|M|75.45,56.73|N|To Krag'wa the Huge.|
 A To Serve Krag'wa|QID|47918|M|75.45,56.73|N|From Krag'wa the Huge.|RANK|2|
@@ -644,7 +649,7 @@ R Wayward Shoals|ACTIVE|47631|M|73.57,54.13;68.94,44.62|CS|N|Run generally north
 T Rendezvous with the Libation|QID|47631|M|74.58,38.84|N|To Patch.|
 A No Goblin Left Behind|QID|47597|M|74.58,38.84|N|From Patch.|PRE|47631|
 A Revenge: Served Hot|QID|47599|M|74.78,39.04|N|From Tickler.|PRE|47631|
-A The Libation's Liberation|QID|47756|M|75.05,37.17|N|Bonus Objective - Autoaccepted.|LVL|-120|
+A The Libation's Liberation|QID|47756|M|75.05,37.17|N|Bonus Objective - Autoaccepted.|LVL|-120|  ; Comes available after accepting 47597 and 47599
 C The Libation's Liberation|QID|47756|M|75.05,37.17|S|N|Bonus Objective - Kill Naga and bandage injured soldiers to complete.|
 C Revenge: Served Hot|QID|47599|M|79.96,32.26|QO|1|U|151363|NC|S|N|Target a Vilescale Behemoth and use the provided Rocket Laucher as you go.|
 K Krubbs|QID|48052|M|75.85,36.22|QO|1|RARE|ITEM|161110|T|Krubbs|N|Silver Elite to kill for resources and artifact power.|RANK|2|
@@ -653,7 +658,7 @@ C No Goblin Left Behind|QID|47597|M|79.30,36.73|QO|2|NC|N|Click on the escape po
 C No Goblin Left Behind|QID|47597|M|79.97,32.35|QO|3|NC|N|Click on the cage to recuse Volt.|
 C No Goblin Left Behind|QID|47597|M|76.99,32.66|QO|1|NC|N|Kill his torturers, then click on Grit to rescue.|
 C Revenge: Served Hot|QID|47599|M|79.96,32.26|NC|U|151363|US|N|Target a Vileschale Behemoth and use the Rocket Launcher.|
-$ Cused Treasure Chest|QID|48057|M|81.78,30.53|QO|1|T|Captain Mu'kala|N|Attempting to open the chest summons Silver Elite, Captain Mu'kala, opon killing him, the chest can be opened. Loot it for resources and artifact power.|RARE|ITEM|161115|RANK|2|
+$ Cused Treasure Chest|QID|48057|M|81.78,30.53|QO|1|T|Captain Mu'kala|N|Attempting to open the chest summons Silver Elite, Captain Mu'kala, apon killing him, the chest can be opened. Loot it for resources and artifact power.|RARE|ITEM|161115|RANK|2|
 C The Libation's Liberation|QID|47756|M|78.37,30.34|US|N|Bonus Obective - Complete by killing Naga and Bandaging Sailors.|
 T The Libation's Liberation|QID|47756|M|78.37,30.34|N|Bonus Objective - Autocompleted.|
 f Forlorn Ruins|ACTIVE|47599|M|82.15,26.70|N|At Zibir the Wingmaster.|
