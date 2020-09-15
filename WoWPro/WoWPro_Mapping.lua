@@ -447,6 +447,19 @@ function WoWPro:MapPoint(row)
     else
         coords = nil
     end
+	if coords then
+		if (coords == "PLAYER") then
+			local x, y = WoWPro:GetPlayerZonePosition()
+			if (x  and y) then
+				coords = ("%.2f"):format(x * 100) .. ',' .. ("%.2f"):format(y * 100)
+			else
+				coords = nil
+			end
+		else
+			WoWPro:ValidateMapCoords(GID,WoWPro.action[stepIndex],stepIndex,coords)
+		end
+	end
+
     local desc = WoWPro.step[stepIndex]
     local zone
     zone = WoWPro.zone[stepIndex] or WoWPro.Guides[GID].zone:match("([^%(]+)"):trim()
@@ -695,4 +708,3 @@ function WoWPro:LogLocation()
         WoWPro:print("Player [%.2f,%.2f@%d] WPZone=%q, Zone=%q, SubZone=%q", x*100 , y*100, mapId, WoWPro.GetZoneText(), _G.GetZoneText(), _G.GetSubZoneText() )
     end
 end
-
