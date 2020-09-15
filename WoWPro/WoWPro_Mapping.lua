@@ -527,7 +527,6 @@ function WoWPro:MapPoint(row)
 		if x and x < 100 and y and y < 100 then
 			local uiMapPoint = _G.UiMapPoint.CreateFromCoordinates(zm, x, y);
 			if uiMapPoint then
-				print("hit")
 				_G.C_Map.SetUserWaypoint(uiMapPoint)
 				_G.C_SuperTrack.SetSuperTrackedUserWaypoint(true)
 			end
