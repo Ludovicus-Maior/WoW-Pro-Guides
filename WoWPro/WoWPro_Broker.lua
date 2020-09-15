@@ -416,6 +416,11 @@ function WoWPro:LoadGuide(guideID)
     WoWPro.GuideLoaded = false
     WoWPro.current_strategy = nil
     WoWPro:SendMessage("WoWPro_LoadGuide")
+	if WoWPro.GroupSync then
+		WoWPro.mygroupsteps = {}
+		WoWPro.myGroupTrack = {}
+		WoWPro.playerGroup = {}
+	end
 end
 
 function WoWPro.LoadGuideReal()

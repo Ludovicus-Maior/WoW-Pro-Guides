@@ -476,14 +476,6 @@ function WoWPro:MapPoint(row)
         if x and y then coords = tostring(x)..","..tostring(y) end
     end
 
-    -- Set working objective based on QID
-    if WoWPro.QID and WoWPro.QID[stepIndex] then
-        local qid = tonumber(WoWPro.QID[stepIndex])
-        if qid then
-            WoWPro.SuperTrack_SetSuperTrackedQuestID(qid)
-        end
-    end
-
     -- Using LightHeaded if the user has it and if there aren't coords from anything else --
     if LightHeaded and WoWPro.QID and WoWPro.QID[stepIndex] and not coords then
         if type(WoWPro.QID[stepIndex]) ~= "number" then return end
@@ -525,6 +517,26 @@ function WoWPro:MapPoint(row)
     if not zm then
         zone, zm = WoWPro.GetZoneText()
         WoWPro:Error("Zone ["..tostring(zone).."] not found. Using map id ["..zone.."] "..tostring(zm))
+    end
+
+	 -- SetSuperTrack Active Step
+	if zm and zm > 1 and coords and WoWPro.action[stepIndex ] ~= "C" and WoWPro.action[stepIndex ] ~= "T" and not WoWPro.CLASSIC then
+		local jcoord = select(1, (";"):split(coords))
+		local x = tonumber(jcoord:match("([^|]*),"))/100
+		local y = tonumber(jcoord:match(",([^|]*)"))/100
+		if x and x < 100 and y and y < 100 then
+			local uiMapPoint = _G.UiMapPoint.CreateFromCoordinates(zm, x, y);
+			if uiMapPoint then
+				print("hit")
+				_G.C_Map.SetUserWaypoint(uiMapPoint)
+				_G.C_SuperTrack.SetSuperTrackedUserWaypoint(true)
+			end
+		end
+	elseif WoWPro.QID and WoWPro.QID[stepIndex] then
+        local qid = tonumber(WoWPro.QID[stepIndex])
+        if qid then
+            WoWPro.SuperTrack_SetSuperTrackedQuestID(qid)
+        end
     end
 
     if TomTom or Nx then

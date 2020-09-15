@@ -7,7 +7,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 B Overcharged Capacitor|QID|11650|N|The quest Just a Few More Things... in Borean Tundra will require an Overcharged Capacitor.  The quest leads to two further quests, so worth while looking for this item now in Auction House if you can't find an Engineer with 4 Cobalt Bars and 1 Crystallized Earth. You can leave it in your delivery box to save space, as the questgiver above is near a mailbox.|L|39682|M|62.9,71.7|Z|Stormwind City|
 R Stormwind Harbor|QID|11672|N|Go to Stormwind Harbor.|Z|Stormwind City|M|27.06,25.50|
-b Valiance Keep|QID|11672|N|Take the boat from the north dock to get to Valiance Keep.|Z|Stormwind City|M|18.01,25.48|
+b Borean Tundra|QID|11672|N|Take the boat from the north dock to get to Valiance Keep.|Z|Stormwind City|M|18.01,25.48|
 T To Northrend!|QID|60096|M|PLAYER|N|Quest turn-in on quest tracker once you enter Borean Tundra.|
 A Enlistment Day|QID|11672|M|57.8,67.7|N|From Recruitment Officer Blythe.|
 T Enlistment Day|QID|11672|N|Upstairs into the keep. Then turn the quest into General Arlos.|M|56.7,72.6|

@@ -6,18 +6,18 @@ WoWPro:GuideName(guide,"Bastion")
 WoWPro:GuideNextGuide(guide, "Maldraxxus")
 WoWPro:GuideSteps(guide, function()
 return [[
-A Welcome to Eternity|QID|59774|M|37.47,76.44|Z|Bastion|N|From Kleia|PRE|61874|
+A Welcome to Eternity|QID|59774|M|37.47,76.44|Z|Bastion|N|From Kleia|PRE|59773|MS|
 C Welcome to Eternity|QID|59774|M|37.47,76.44|QO|1|Z|Bastion|CHAT|N|Speak to Kleia.|
 C Welcome to Eternity|QID|59774|M|42.06,78.22|QO|2|Z|Bastion|NC|N|Follow Kleia.|
 T Welcome to Eternity|QID|59774|M|42.09,78.30|Z|Bastion|N|To Kleia.|
-A Pardon Our Dust|QID|57102|M|42.06,78.22|Z|Bastion|N|From Kleia|PRE|59774.|
+A Pardon Our Dust|QID|57102|M|42.06,78.22|Z|Bastion|N|From Kleia.|PRE|59774|MS|
 C Pardon Our Dust|QID|57102|M|42.50,78.41|QO|1|Z|Bastion|NC|N|Pick up the Anima Canister.|
-C Pardon Our Dust|QID|57102|CS|M|42.67,78.04;42.74,78.51;42.51,78.84|QO|2|Z|Bastion|NC|N|Recover the Anima from centurions.|
+C Pardon Our Dust|QID|57102|CS|M|42.67,78.04;42.74,78.51;42.51,78.84|QO|2|Z|Bastion|NC|N|Recover the Anima by clicking on centurions in the area.|
 T Pardon Our Dust|QID|57102|M|42.16,78.27|Z|Bastion|N|To Greeter Mnemis.|
-A A Fate Most Noble|QID|57584|M|42.16,78.27|Z|Bastion|N|From Greeter Mnemis.|PRE|57102|
+A A Fate Most Noble|QID|57584|M|42.16,78.27|Z|Bastion|N|From Greeter Mnemis.|PRE|57102|MS|
 C A Fate Most Noble|QID|57584|M|42.16,78.27|QO|1|Z|Bastion|CHAT|N|Speak to Greeter Mnemis.|
 C A Fate Most Noble|QID|57584|M|41.87,76.50|QO|2|Z|Bastion|NC|N|Take a seat.|
-C A Fate Most Noble|QID|57584|M|43.39,77.02|QO|3|Z|Bastion|NC|N|Step into the pool and click the action button.|
+C A Fate Most Noble|QID|57584|M|43.39,77.02|QO|3|Z|Bastion|NC|N|Step into the pool and click the 'Ritual Cleansing' Special Action Button.|
 C A Fate Most Noble|QID|57584|M|42.49,80.26|QO|4|Z|Bastion|NC|N|Click a Scroll.|
 C A Fate Most Noble|QID|57584|M|41.30,79.61|QO|5|Z|Bastion|NC|N|Hit that little bell.|
 T A Fate Most Noble|QID|57584|M|42.06,78.22|Z|Bastion|N|To Kleia.|

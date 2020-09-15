@@ -139,7 +139,7 @@ A The Path to Bastion|QID|60156|M|50.73,62.87|Z|1670|N|From Overseer Kah-Sher.|P
 C The Path to Bastion|QID|60156|M|40.59,66.13|Z|1670|QO|1|N|Follow Kah-Sher to the gate.|
 C The Path to Bastion|QID|60156|M|64.11,51.57|Z|1670|QO|2|NC|N|Click the Blue Sword in front of you.|
 T The Path to Bastion|QID|60156|M|63.86,52.25|Z|1670|N|To Overseer Kah-Sher.|
-A Seek the Ascended|QID|59773|M|63.47,52.16|Z|1671|N|From Pathscribe Roh-Avonavi.|PRE|60156|
+A Seek the Ascended|QID|59773|M|63.47,52.16|Z|1671|N|From Pathscribe Roh-Avonavi.|PRE|60156|MS|
 C Seek the Ascended|QID|59773|M|64.20,49.88|Z|1671|CHAT|N|Talk to Pathscribe Roh-Avonavi.|
 T Seek the Ascended|QID|59773|M|37.47,76.44|Z|Bastion|N|To Kleia.|
 ]]
