@@ -305,17 +305,51 @@ T Me Brother, Nipsy |QID|6662|N|To Nipsy at the Stormwind Tram Stop. After turni
 R Tinker Town|ACTIVE|353|N|Take the tunnel to your North to go inside Ironforge.|
 f Ironforge|ACTIVE|353|M|62.85,28.38;55.50,47.76|CS|Z|Ironforge|N|Discover Ironforge Flight Path with Gryph Thurden.|
 R Gates of Ironforge|ACTIVE|353|M|43.7,59.1;29.9,81.75;15.0,86.10|CS|Z|Ironforge|N|Head to the exit of Ironforge.|
-
-A Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|From Rudra Amberstill.|
-C Protecting the Herd|QID|314|M|59.16,50.86;62.45,49.01|CS|Z|Dun Morogh|N|Kill Vagash, and loot Fang of Vagash.|
+R Kharanos|QID|384|M|47.16,45.39|Z|Dun Morogh|N|Take the road down to the bottom of the hill and go south into Kharanos.|
+A Operation Recombobulation|QID|412|M|45.84,49.37|Z|Dun Morogh|N|From Razzle Sprysprocket.|
+A Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|Dun Morogh|N|From Ragnar Thunderbrew.|
+C Beer Basted Boar Ribs|QID|384|M|67,59.6|Z|Dun Morogh|L|2886 6|N|Crag Boar Rib.|S|
+A Stocking Jetsteam|QID|317|M|49.43,48.41|Z|Dun Morogh|N|From Pilot Bellowfiz.|
+C Stocking Jetsteam|QID|317|M|20.2,75.8|Z|Dun Morogh|L|769 4|N|Chunk of Boar Meat.|S|
+C Stocking Jetsteam|QID|317|M|67,59.6|Z|Dun Morogh|L|6952 2|N|Kill young black bears to loot Thick Bear Fur.|S|
+A The Grizzled Den|QID|313|M|49.62,48.61|Z|Dun Morogh|N|From Pilot Stonegear.|
+A Ammo for Rumbleshot|QID|5541|M|50.08,49.42|Z|Dun Morogh|N|From Loslor Rudge.|
+R The Grizzled Den Entrance|ACTIVE|313|M|42.59,54.78|Z|Dun Morogh|CC|N|Make your way to the cave entrance.|
+C The Grizzled Den|QID|313|L|2671 8|N|Kill the Wendigo to loot Wendigo Mane.|
+C Ammo for Rumbleshot|QID|5541|M|44.13,56.94|Z|Dun Morogh|L|13850|N|Exit the cave and run across the field to the camp just inside the tree line.|
+T Ammo for Rumbleshot|QID|5541|M|46.19,61.90;40.68,65.13|Z|Dun Morogh|CC|N|Head up the hill to the road and follow it to Hegnar Rumbleshot.|
+R Coldridge Pass|QID|412|M|36.20,61.79|Z|Dun Morogh|N|Follow the road westward towards Coldridge Pass.|
+R Brewnall Village|QID|412|M|33.69,57.13;30.84,51.46|Z|Dun Morogh|CC|N|Run down the hill and into the valley to the road leading into Brewnall Village.|
+A Bitter Rivals|QID|310|M|30.2,45.6|Z|Dun Morogh|N|From Marleth Barleybrew.|
+R Gnomeregan|ACTIVE|412|M|27.72,44.02|Z|Dun Morogh|CC|N|Head northeast to Gnomeregan.|
+C Operation Recombobulation|QID|412|L|3083 8|N|Kill gnomes to loot the Restabilization Cog.|S|
+C Operation Recombobulation|QID|412|L|3084 8|N|Kill gnomes to loot the Gyromechanic Gear.|
+C Operation Recombobulation|QID|412|L|3083 8|N|Kill gnomes to loot the Restabilization Cog.|US|
+C Beer Basted Boar Ribs|QID|384|M|67,59.6|Z|Dun Morogh|L|2886 6|N|finish collecting the Crag Boar Ribs.|US|
+L Level 12|QID|412|N|Grind out some XP until you are within 5 bubbles of level 12 before returning.|LVL|12;-2080|
+R Kharanos|QID|412|M|47.11,47.01|Z|Dun Morogh|CC|N|Make your way back to Kharanos.|
+T Operation Recombobulation|QID|412|M|45.84,49.37|Z|Dun Morogh|N|To Razzle Sprysprocket.|
+B Rhapsody Malt|ACTIVE|384|M|47.37,52.53|Z|Dun Morogh|L|2894|N|Go inside Thunderbrew Distillery and purchase a Rhapsody Malt from Innkeeper Belm.|
+B Thunder Ale|ACTIVE|310|M|47.37,52.53|Z|Dun Morogh|L|2686|N|Purchase a Thunder Ale before you go. You need this to turn in 'Bitter Rivals'.
+A Distracting Jarven|QID|308|ACTIVE|310|M|47.64,52.66|Z|Dun Morogh|N|Cut through the kitchen and make your way down the stairs to Jarven Thunderbrew in the basement.|
+T Bitter Rivals|QID|310|M|47.72,52.70|Z|Dun Morogh|N|Once Jarven leaves, right-click on the Unguarded Thunder Ale Barrel.\n[color=FF0000]NOTE: [/color]Do not pick up the follow-up quest.|
+T Beer Basted Boar Ribs|QID|384|M|46.83,52.36|Z|Dun Morogh|N|To Ragnar Thunderbrew.|
+T Stocking Jetsteam|QID|317|M|49.43,48.41|Z|Dun Morogh|N|To Pilot Bellowfiz.|
+T The Grizzled Den|QID|313|M|49.62,48.61|Z|Dun Morogh|N|To Pilot Stonegear.|
+N Level 12 Training|AVAILABLE|314|N|Do your training before leaving the area. If you have to go to Ironforge, come back down the hill to the Kharanos intersection.\nClose this step when you are done.|LVL|12|
+R Amberstill Ranch|AVAILABLE|314|M|62.17,53.10|Z|Dun Morogh|N|Follow the road east to Amberstill Ranch.\nYou can follow the road or run along the frozen river to make it quicker and do some grinding along the way.|
+A Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Rudra Amberstill.|
+C Protecting the Herd|QID|314|M|62.45,50.35;62.37,49.06;62.45,49.01|CS|Z|Dun Morogh|QO|1|N|Kill Vagash, and loot Fang of Vagash.\n[color=FF0000]NOTE: [/color]This is your first real challenge. Vagash ia a level 11 elite. Group up if you can.|
 T Protecting the Herd|QID|314|M|63.08,49.85|Z|Dun Morogh|N|To Rudra Amberstill.|
-A Those Blasted Troggs!|QID|432|M|69.08,56.33|Z|Dun Morogh|N|From Foreman Stonebrow.|
+R Gol'Bolar Quarry|QID|432|M|67.26,53.52|Z|Dun Morogh|N|Gol'Bolar Quarry is just SE of you.|
 A The Public Servant|QID|433|M|68.67,55.96|Z|Dun Morogh|N|From Senator Mehr Stonehollow.|
-C The Public Servant|QID|433|S|M|70.5,57.0|Z|Dun Morogh|N|Kill Rockjaw Bonesnappers and Skullthumpers.|
-C Those Blasted Troggs!|QID|432|M|70.0,57.0|Z|Dun Morogh|N|Kill Rockjaw Skullthumpers.|
-C The Public Servant|QID|433|US|M|70.5,57.0|Z|Dun Morogh|N|Kill Rockjaw Bonesnappers and Skullthumpers.|
-T The Public Servant|QID|433|M|67.70,57.94;68.67,55.96|CS|Z|Dun Morogh|N|Get out of the cave and turn in this quest to Senator Mehr Stonehollow.|
-T Those Blasted Troggs!|QID|432|M|69.08,56.33|Z|Dun Morogh|N|To Foreman Stonebrow.|
+A Those Blasted Troggs!|QID|432|M|69.08,56.33|Z|Dun Morogh|N|From Foreman Stonebrow.|
+R Enter the Cave|ACTIVE|432^433|M|70.10,55.81;70.32,56.56|Z|Dun Morogh|CC|N|Make your way to the cave entrance by climbing down the hill above it.|
+C Those Blasted Troggs!|QID|432|QO|1|N|Kill Rockjaw Skullthumpers.|S|
+C The Public Servant|QID|433|QO|1|N|Kill Rockjaw Bonesnappers.|
+C Those Blasted Troggs!|QID|432|QO|1|N|Kill Rockjaw Skullthumpers.|US|
+T Those Blasted Troggs!|QID|432|M|70.31,56.51;70.00,55.65;69.08,56.33|Z|Dun Morogh|CC|N|To Foreman Stonebrow. Exit the cave and climb out the same way you can in.|
+T The Public Servant|QID|433|M|68.67,55.96|Z|Dun Morogh|N|To Senator Mehr Stonehollow.|
 R North Gate Pass|ACTIVE|353|M|78.31,49.17|Z|Dun Morogh|N|Back to the road and continue thru North Gate Pass.|
 A The Lost Pilot|QID|419|M|83.88,39.19|Z|Dun Morogh|N|From Pilot Hammerfall.|
 T The Lost Pilot|QID|419|M|79.69,36.14|Z|Dun Morogh|N|To Dwarven Corpse.|
@@ -333,8 +367,8 @@ A Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|Mountianeer Kadrell patrols al
 A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|Inside the inn.|
 r Sell junk and repair|QID|418|M|34.0,46.60|Z|Loch Modan|N|At Morhan Coppertongue. Close this step when you're done.|
 f Thelsamar|ACTIVE|418|M|33.9,50.95|Z|Loch Modan|N|Discover Thelsamar Flight Path with Thorgrum Borrelson.|
-C Thelsamar Blood Sausages|QID|418|S|M|35.00,35.00|Z|Loch Modan|N|Kill Boars, Bears and Spiders.|
-C Rat Catching|QID|416|M|37.7,25.7|Z|Loch Modan|S|N|Kill any Tunnel Rats you see.|
+C Thelsamar Blood Sausages|QID|418|S|M|35.00,35.00|Z|Loch Modan|QO|1;2;3|N|Kill Boars, Bears and Spiders.|
+C Rat Catching|QID|416|M|37.7,25.7|Z|Loch Modan|L|3110 12|N|Kill any Tunnel Rats you see.|S|
 R Silver Stream Mine|ACTIVE|307|M|36.33,27.46|Z|Loch Modan|N|Continue killing Kobalds, Boars, Bears and Spiders as you go.|
 C Filthy Paws|QID|307|Z|Loch Modan|NC|N|Pick up the stacks of 'Miners' League Crates', exit the mine and continue on your way killing everything when you have the 4 crates.|
 T Filthy Paws|QID|307|M|24.77,18.39|Z|Loch Modan|N|To Mountaineer Stormpike.|

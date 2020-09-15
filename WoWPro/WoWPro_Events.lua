@@ -688,6 +688,7 @@ WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 						step = {[tonumber(gstep)] = true},
 						track = {}
 					}
+					WoWPro.GroupSync = true
 					WoWPro:LoadGuideStepsReal()
 				end
 			elseif synctype == "steps" then

@@ -10,6 +10,7 @@
 -- Is nil when no scenario is active
 -- Is a table when a scenario is ongoing
 WoWPro.Scenario = nil
+WoWPro.GroupSync = false
 WoWPro.mygroupsteps = {}
 WoWPro.myGroupTrack = {}
 WoWPro.playerGroup = {}
@@ -415,6 +416,11 @@ function WoWPro:LoadGuide(guideID)
     WoWPro.GuideLoaded = false
     WoWPro.current_strategy = nil
     WoWPro:SendMessage("WoWPro_LoadGuide")
+	if WoWPro.GroupSync then
+		WoWPro.mygroupsteps = {}
+		WoWPro.myGroupTrack = {}
+		WoWPro.playerGroup = {}
+	end
 end
 
 function WoWPro.LoadGuideReal()
@@ -690,7 +696,7 @@ function WoWPro.UpdateQuestTrackerRow(row)
         WoWPro:dbp("UQT: Track Text for %s [%s] to '%s'",tostring(action),tostring(step),track)
     end
 
-	if row.trackcheck then
+	if row.trackcheck and WoWPro.GroupSync then
 		local addonString = "track " .. index .. " " .. track
 		_G.C_ChatInfo.SendAddonMessage("WoWPro", addonString , "PARTY")
 	end
@@ -853,7 +859,7 @@ function WoWPro:RowUpdate(offset)
             WoWPro.ActiveStickyCount = WoWPro.ActiveStickyCount+1
         end
 
-        if i > step_limit and WoWPro.ActiveStickyCount == 0 then
+        if i > step_limit and WoWPro.ActiveStickyCount == 0 and WoWPro.GroupSync then
 			_G.C_ChatInfo.SendAddonMessage("WoWPro", sendsteps , "PARTY")
             return false
         end
@@ -1184,8 +1190,9 @@ function WoWPro:RowUpdate(offset)
         WoWPro.RowSizeSet()
         WoWPro.PaddingSet()
     end
-
-	_G.C_ChatInfo.SendAddonMessage("WoWPro", sendsteps , "PARTY")
+	if WoWPro.GroupSync then
+		_G.C_ChatInfo.SendAddonMessage("WoWPro", sendsteps , "PARTY")
+	end
     return reload
 end
 
