@@ -789,6 +789,7 @@ function WoWPro:RowUpdate(offset)
     local k = offset or WoWPro.ActiveStep
     local itemkb = false
     local targetkb = false
+	local eakb = false
     local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
 	if not _G.InCombatLockdown() then
 		_G.ClearOverrideBindings(WoWPro.MainFrame)
@@ -826,7 +827,7 @@ function WoWPro:RowUpdate(offset)
         local unsticky = WoWPro.unsticky[k]
         local use = WoWPro.use[k]
         local zone = WoWPro.zone[k]
-
+		local eab = WoWPro.eab[k]
         local target = WoWPro.target[k]
         local item = WoWPro.item[k]
         local completion = WoWProCharDB.Guide[GID].completion
@@ -1128,6 +1129,39 @@ function WoWPro:RowUpdate(offset)
         else
             currentRow.jumpbutton:Hide()
         end
+
+		-- EA Button --
+		if eab then
+            local mtext = "/click ExtraActionButton1"
+            currentRow.eabutton:Show()
+            currentRow.eabutton:SetAttribute("macrotext", mtext)
+			currentRow.eaicon:SetTexture(_G.ExtraActionButton1Icon:GetTexture())
+			if not _G.InCombatLockdown() then
+				if currentRow.eabutton:IsVisible() and currentRow.eabutton:IsShown() then
+					local Tleft, Tbottom = currentRow.eabutton:GetRect()
+					currentRow.eabuttonSecured:Show()
+					currentRow.eabuttonSecured:SetAttribute("macrotext", mtext)
+					currentRow.eabuttonSecured:SetPoint("BOTTOMLEFT", _G.UIParent, "BOTTOMLEFT", Tleft, Tbottom);
+				end
+			end
+
+            if not eakb and currentRow.eabutton:IsVisible() and not _G.InCombatLockdown() then
+                local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxeaButton:LeftButton")
+                if key1 then
+                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_eabutton"..i..":LeftButton")
+                end
+                if key2 then
+                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_eabutton"..i..":LeftButton")
+                end
+                eakb = true
+            end
+        else
+            currentRow.eabutton:Hide()
+			if not _G.InCombatLockdown() then
+				currentRow.eabuttonSecured:Hide()
+			end
+        end
+
 
         -- Target Button --
         if target then

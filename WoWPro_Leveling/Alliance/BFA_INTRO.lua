@@ -71,7 +71,7 @@ T Sanctum of the Sages|QID|47186|M|68.17,21.99|Z|Boralus|N|To Taelia, who appare
 A A Nation Divided|QID|47189|M|68.17,21.99|Z|Boralus|N|From Taelia.|PRE|47186|
 C A Nation Divided|QID|47189|M|68.38,22.07|Z|Boralus|NC|N|Click on the scouting map, chose your first adventure.|
 A Choose next adventure|QID|47962^47961^47960|M|68.38,22.07|Z|Boralus|N|From the Scouting Map on the wall.|PRE|47189|
-;A Tiragarde Sound|QID|47960|M|68.17,21.99|Z|Boralus|N|To Taelia.|
+A Tiragarde Sound|QID|47960|M|68.17,21.99|Z|Boralus|N|From Scouting Map. Under Level 25 you can only choose Tiragarde Sound.|LVL|-25|
 ;A Drustvar|QID|47961|M|70.52,27.15|Z|Boralus|N|From Halford Wyrmbane.|
 ;A Stormsong Valley|QID|47962|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 T A Nation Divided|QID|47189|M|68.17,21.99|Z|Boralus|N|To Taelia.|
@@ -80,10 +80,9 @@ t Drustvar|QID|47961|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 A The Vanishing Lord|QID|48622|M|73.84,25.09|Z|Tiragarde Sound|N|From Taelia.|PRE|47961|
 t Stormsong Valley|QID|47962|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 A The Missing Fleet|QID|47952|M|68.17,21.99|Z|Boralus|N|From Taelia.|PRE|47962|
-; gone from PTR (or moved to later?)
-; A The War Campaign|QID|52654|M|68.04,22.18|Z|Boralus|N|From Genn Greymane.|PRE|47189|
+A The War Campaign|QID|52654|M|68.04,22.18|Z|Boralus|N|From Genn Greymane.|PRE|47189|LVL|35|
 A The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|From Flynn Fairwind.|PRE|47960|
-C The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|Orient yourself towards the barrel (north) and use the special action button.|
+C The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|Orient yourself towards the barrel (north) and use the "[color=40C7EB]Flynn's Pistol[/color]" Action Ability.|EAB|
 T The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|To Flynn Fairwind.|
 A The Ashvane Trading Company|QID|47485|M|73.80,25.07|Z|Tiragarde Sound|N|From Cyrus Crestfall.|PRE|47181|
 ; gone from PTR

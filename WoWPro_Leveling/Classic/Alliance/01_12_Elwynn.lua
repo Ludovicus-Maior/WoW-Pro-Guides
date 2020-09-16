@@ -362,24 +362,21 @@ R Algaz Station|ACTIVE|353|M|24.50,18.00|Z|Loch Modan|N|Continue along the road 
 T Stormpike's Delivery|QID|353|M|24.77,18.39|Z|Loch Modan|N|To Mountaineer Stormpike, on the top floor of the tower.|
 A Filthy Paws|QID|307|M|24.77,18.39|Z|Loch Modan|N|From Mountaineer Stormpike.|
 A Stormpike's Order|QID|1338|M|24.77,18.39|Z|Loch Modan|N|From Mountaineer Stormpike.|
-R Thelsamar|ACTIVE|1338|M|33.9,50.95|Z|Loch Modan|N|Follow the road north to Thelsamar, Killing and looting all spiders, bears and boars along the way.|
-A Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|Mountianeer Kadrell patrols all throughout Thelsamar.|
-A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|Inside the inn.|
+R Thelsamar|ACTIVE|1338|M|33.9,50.95|Z|Loch Modan|N|Follow the road south to Thelsamar.|
+A Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|Mountaineer Kadrell patrols all throughout Thelsamar.|
+A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|From Vidra Hearthstove inside the inn.|
 r Sell junk and repair|QID|418|M|34.0,46.60|Z|Loch Modan|N|At Morhan Coppertongue. Close this step when you're done.|
 f Thelsamar|ACTIVE|418|M|33.9,50.95|Z|Loch Modan|N|Discover Thelsamar Flight Path with Thorgrum Borrelson.|
 C Thelsamar Blood Sausages|QID|418|S|M|35.00,35.00|Z|Loch Modan|QO|1;2;3|N|Kill Boars, Bears and Spiders.|
 C Rat Catching|QID|416|M|37.7,25.7|Z|Loch Modan|L|3110 12|N|Kill any Tunnel Rats you see.|S|
-R Silver Stream Mine|ACTIVE|307|M|36.33,27.46|Z|Loch Modan|N|Continue killing Kobalds, Boars, Bears and Spiders as you go.|
-C Filthy Paws|QID|307|Z|Loch Modan|NC|N|Pick up the stacks of 'Miners' League Crates', exit the mine and continue on your way killing everything when you have the 4 crates.|
+R Silver Stream Mine|ACTIVE|307|M|36.70,41.79;39.43,29.10|Z|Loch Modan|CC|N|Exit Thelsamar at the east end and head north.|
+R Mine entrance|ACTIVE|307|M|35.53,18.71|Z|Loch Modan|CC|
+C Filthy Paws|QID|307|Z|Loch Modan|L|2640 4|N|Enter the mine and collect the crates of Miners' Gear.|
+C Rat Catching|QID|416|L|3110 12|N|Finish this quest now by killing Tunnel Rats around the mine entrance.|US|
 T Filthy Paws|QID|307|M|24.77,18.39|Z|Loch Modan|N|To Mountaineer Stormpike.|
-N Level 12|ACTIVE|416|N|Once you reach level 12, If you want to fly back to leave these quests for later (or never) feel free to manually check the next few steps off until the fly to Stormwind step.|
-R Follow the arrows|ACTIVE|418|M|32.28,31.08;25.68,35.92;26.19,42.99;37.71,38.18|CS|Z|Loch Modan|N|Go from one area to the next, killing Mountain Boars, Forest Lurkers, Elder Black Bears, and Tunnel Rats on the way.|
-C Rat Catching|QID|416|US|M|37.7,25.7|Z|Loch Modan|N|Finish this quest now, kill Tunnel Rats.|
-C Thelsamar Blood Sausages|QID|418|US|M|41.12,53.45|Z|Loch Modan|N|Finish this quest now. Kill Boars, Bears and Spiders.|
+C Thelsamar Blood Sausages|QID|418|M|32.28,31.08;25.68,35.92;37.71,38.18|Z|Loch Modan|CS|QO|1;2;3|N|Finish this quest now. Follow the arrows, going from one area to the next, killing Mountain Boars, Forest Lurkers, and Elder Black Bears on the way.|US|
 T Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|To Mountaineer Kadrell.|
 T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|To Vidra Hearthstove.|
-
-L Level 12|LVL|12|N|You should now be a couple of bars into level 12.|
 
 F Stormwind|QID|1338|ACTIVE|1338|M|33.9,50.95|Z|Loch Modan|N|Fly to Stormwind from Thelsamar.|
 T Dungar Longdrink|QID|6261|M|66.28,62.09|Z|Stormwind City|N|To Dungar Longdrink.|

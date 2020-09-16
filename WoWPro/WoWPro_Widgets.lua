@@ -192,6 +192,42 @@ function WoWPro:CreateTargetButton(parent, id)
     return targetbutton, targeticon
 end
 
+function WoWPro:CreateEAButton(parent, id)
+    local eabutton = _G.CreateFrame("Button", "WoWPro_eabutton"..id, parent, "InsecureActionButtonTemplate")
+    eabutton:SetAttribute("type", "ea")
+    eabutton:SetFrameStrata("LOW")
+    eabutton:SetHeight(32)
+    eabutton:SetWidth(32)
+    if WoWProDB.profile.leftside then
+        eabutton:SetPoint("TOPLEFT", parent, "TOPRIGHT", 10, -7)
+    else
+        eabutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -10, -7)
+    end
+
+    local cooldown = _G.CreateFrame("Cooldown", nil, eabutton, "CooldownFrameTemplate")
+    cooldown:SetAllPoints(eabutton)
+
+    local eaicon = eabutton:CreateTexture(nil, "ARTWORK")
+    eaicon:SetWidth(36)
+    eaicon:SetHeight(36)
+    eaicon:SetTexture("Interface\\Icons\\INV_Misc_Bag_08")
+    eaicon:SetAllPoints(eabutton)
+    eabutton:RegisterForClicks("anyUp")
+    eabutton:Hide()
+
+    return eabutton, eaicon, cooldown
+end
+
+function WoWPro:CreateEAButtonSecured(id)
+    local eabutton = _G.CreateFrame("Button", "WoWPro_eabuttonSecure"..id, _G.UIParent, "SecureActionButtonTemplate")
+    eabutton:SetAttribute("type", "macro")
+    eabutton:SetFrameStrata("MEDIUM")
+    eabutton:SetHeight(32)
+    eabutton:SetWidth(32)
+    eabutton:Hide()
+    return eabutton
+end
+
 function WoWPro:CreateTargetButtonSecured(id)
     local targetbutton = _G.CreateFrame("Button", "WoWPro_targetbuttonSecure"..id, _G.UIParent, "SecureActionButtonTemplate")
     targetbutton:SetAttribute("type", "macro")
