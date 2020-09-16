@@ -789,6 +789,7 @@ function WoWPro:RowUpdate(offset)
     local k = offset or WoWPro.ActiveStep
     local itemkb = false
     local targetkb = false
+	local eakb = false
     local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
 	if not _G.InCombatLockdown() then
 		_G.ClearOverrideBindings(WoWPro.MainFrame)
@@ -1134,7 +1135,7 @@ function WoWPro:RowUpdate(offset)
             local mtext = "/click ExtraActionButton1"
             currentRow.eabutton:Show()
             currentRow.eabutton:SetAttribute("macrotext", mtext)
-			currentRow.eaicon:SetTexture(ExtraActionButton1Icon:GetTexture())
+			currentRow.eaicon:SetTexture(_G.ExtraActionButton1Icon:GetTexture())
 			if not _G.InCombatLockdown() then
 				if currentRow.eabutton:IsVisible() and currentRow.eabutton:IsShown() then
 					local Tleft, Tbottom = currentRow.eabutton:GetRect()
