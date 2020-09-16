@@ -6,151 +6,158 @@ WoWPro:GuideName(guide,"Bastion")
 WoWPro:GuideNextGuide(guide, "Maldraxxus")
 WoWPro:GuideSteps(guide, function()
 return [[
+;Eternity's Call Storyline
 A Welcome to Eternity|QID|59774|M|37.47,76.44|Z|Bastion|N|From Kleia|PRE|59773|MS|
-C Welcome to Eternity|QID|59774|M|37.47,76.44|QO|1|Z|Bastion|CHAT|N|Speak to Kleia.|
-C Welcome to Eternity|QID|59774|M|42.06,78.22|QO|2|Z|Bastion|NC|N|Follow Kleia.|
-T Welcome to Eternity|QID|59774|M|42.09,78.30|Z|Bastion|N|To Kleia.|
+C Welcome to Eternity|QID|59774|M|37.47,76.44|QO|1|Z|Bastion|CHAT|N|Speak to Kleia.|MS|
+C Welcome to Eternity|QID|59774|M|42.06,78.22|QO|2|Z|Bastion|NC|N|Follow Kleia.|MS|
+T Welcome to Eternity|QID|59774|M|42.09,78.30|Z|Bastion|N|To Kleia.|MS|
 A Pardon Our Dust|QID|57102|M|42.06,78.22|Z|Bastion|N|From Kleia.|PRE|59774|MS|
-C Pardon Our Dust|QID|57102|M|42.50,78.41|QO|1|Z|Bastion|NC|N|Pick up the Anima Canister.|
-C Pardon Our Dust|QID|57102|CS|M|42.67,78.04;42.74,78.51;42.51,78.84|QO|2|Z|Bastion|NC|N|Recover the Anima by clicking on centurions in the area.|
-T Pardon Our Dust|QID|57102|M|42.16,78.27|Z|Bastion|N|To Greeter Mnemis.|
+C Pardon Our Dust|QID|57102|M|42.50,78.41|QO|1|Z|Bastion|NC|N|Pick up the Anima Canister.|MS|
+C Pardon Our Dust|QID|57102|CS|M|42.67,78.04;42.74,78.51;42.51,78.84|QO|2|Z|Bastion|NC|N|Recover the Anima by clicking on centurions in the area.|MS|
+T Pardon Our Dust|QID|57102|M|42.16,78.27|Z|Bastion|N|To Greeter Mnemis.|MS|
 A A Fate Most Noble|QID|57584|M|42.16,78.27|Z|Bastion|N|From Greeter Mnemis.|PRE|57102|MS|
-C A Fate Most Noble|QID|57584|M|42.16,78.27|QO|1|Z|Bastion|CHAT|N|Speak to Greeter Mnemis.|
-C A Fate Most Noble|QID|57584|M|41.87,76.50|QO|2|Z|Bastion|NC|N|Take a seat.|
-C A Fate Most Noble|QID|57584|M|43.39,77.02|QO|3|Z|Bastion|NC|N|Step into the pool and click the 'Ritual Cleansing' Special Action Button.|
-C A Fate Most Noble|QID|57584|M|42.49,80.26|QO|4|Z|Bastion|NC|N|Click a Scroll.|
-C A Fate Most Noble|QID|57584|M|41.30,79.61|QO|5|Z|Bastion|NC|N|Hit that little bell.|
-T A Fate Most Noble|QID|57584|M|42.06,78.22|Z|Bastion|N|To Kleia.|
-A Trouble in Paradise|QID|60735|M|42.05,78.30|Z|Bastion|N|From Kleia.|PRE|57584|
-C Trouble in Paradise|QID|60735|M|42.09,78.31|QO|1|Z|Bastion|CHAT|N|Speak to Kleia.|
-C Trouble in Paradise|QID|60735|M|42.50,78.41|QO|2|Z|Bastion|NC|N|Let Kleia handle this.|
-T Trouble in Paradise|QID|60735|M|42.26,78.31|Z|Bastion|N|To Kalisthene.|
-A Walk the Path, Aspirant|QID|57261|M|42.26,78.31|Z|Bastion|N|From Kalisthene.|PRE|60735|
-C Walk the Path, Aspirant|QID|57261|CS|M|41.68,78.13;42.66,79.66;44.11,79.06;46.05,79.31|QO|1|Z|Bastion|NC|N|Travel with Kleia.|
-C Walk the Path, Aspirant|QID|57261|M|46.31,79.00|QO|2|Z|Bastion|NC|N|Stand in blue circle and hit the action button.|
-C Walk the Path, Aspirant|QID|57261|CS|M|49.38,75.00;42.50,78.41|QO|1|Z|Bastion|NC|N|Travel to Aspirant's Rest.|
-T Walk the Path, Aspirant|QID|57261|M|48.23,72.65|Z|Bastion|N|To Kleia.|
-A The Things That Haunt Us|QID|57676|M|48.23,72.65|Z|Bastion|N|From Kleia.|PRE|57261|
-A A Soulbind In Need|QID|57677|M|48.23,72.65|Z|Bastion|N|From Kleia.|PRE|57261|
-C The Things That Haunt Us|QID|57676|M|23.92,58.62|Z|1690|N|Slay the memories.|S|
-C A Soulbind In Need|QID|57677|M|23.92,58.62|Z|1690|N|Find Pelagos.|
-C The Things That Haunt Us|QID|57676|M|23.92,58.62|Z|1690|N|Slay the memories.|US|
-T The Things That Haunt Us|QID|57676|M|48.17,72.53|Z|Bastion|N|Turn into Kleia.|
-T A Soulbind In Need|QID|57677|M|48.23,72.65|Z|Bastion|N|To Pelagos.|
-A The Old Ways|QID|60466|M|47.92,73.45|Z|Bastion|N|From Klystere.|PRE|57677^57676|
-C The Old Ways|QID|60466|M|48.07,73.00|QO|1|Z|Bastion|NC|N|Buy the thread from Caretaker Mirene.|
+C A Fate Most Noble|QID|57584|M|42.16,78.27|QO|1|Z|Bastion|CHAT|N|Speak to Greeter Mnemis and go through his series of conversation.|MS|
+C A Fate Most Noble|QID|57584|M|43.39,77.02|QO|3|Z|Bastion|NC|N|Step into the pool and click the "[color=40C7EB]Ritual Cleansing[/color]" Action Ability.|EAB|MS|
+C A Fate Most Noble|QID|57584|M|41.87,76.50|QO|2|Z|Bastion|NC|N|Click on a bench to take a seat.|MS|
+C A Fate Most Noble|QID|57584|M|41.30,79.61|QO|5|Z|Bastion|NC|N|Click the giant bell.|MS|
+C A Fate Most Noble|QID|57584|M|42.49,80.26|QO|4|Z|Bastion|NC|N|Click on one of the floating scrolls.|MS|
+T A Fate Most Noble|QID|57584|M|42.06,78.22|Z|Bastion|N|To Kleia.|MS|
+A Trouble in Paradise|QID|60735|M|42.05,78.30|Z|Bastion|N|From Kleia.|PRE|57584|MS|
+C Trouble in Paradise|QID|60735|M|42.09,78.31|QO|Z|Bastion|CHAT|N|Speak to Kleia and let her handle the situation.|MS|
+T Trouble in Paradise|QID|60735|M|42.26,78.31|Z|Bastion|N|To Kalisthene.|MS|
+A Walk the Path, Aspirant|QID|57261|M|42.26,78.31|Z|Bastion|N|From Kalisthene.|PRE|60735|MS|
+C Walk the Path, Aspirant|QID|57261|M|46.05,79.31|QO|1|Z|Bastion|NC|N|Travel with Kleia.|MS|
+C Walk the Path, Aspirant|QID|57261|M|46.31,79.00|QO|2|Z|Bastion|NC|N|Stand in blue circle and click the "[color=40C7EB]Kleia's Perspective[/color]" Action Ability.|EAB|MS|
+C Walk the Path, Aspirant|QID|57261|M|42.50,78.41|QO|3|Z|Bastion|NC|N|Travel to Aspirant's Rest.|MS|
+T Walk the Path, Aspirant|QID|57261|M|48.23,72.65|Z|Bastion|N|To Kleia.|MS|
+A The Things That Haunt Us|QID|57676|M|48.23,72.65|Z|Bastion|N|From Kleia.|PRE|57261|MS|
+A A Soulbind In Need|QID|57677|M|48.23,72.65|Z|Bastion|N|From Kleia.|PRE|57261|MS|
+C The Things That Haunt Us|QID|57676|M|23.92,58.62|Z|1690|N|Slay the Bitter and Clinging Memories.|S|MS|
+C A Soulbind In Need|QID|57677|M|23.92,58.62|Z|1690|N|Enter cave and rescue Pelagos from the Excruciating Memory.|MS|
+C The Things That Haunt Us|QID|57676|M|23.92,58.62|Z|1690|N|Slay the Bitter and Clinging Memories.|US|MS|
+T The Things That Haunt Us|QID|57676|M|48.17,72.53|Z|Bastion|N|Turn into Kleia.|MS|
+T A Soulbind In Need|QID|57677|M|48.23,72.65|Z|Bastion|N|To Pelagos.|MS|
+
+; The Aspirant's Crucible Storyline
+A The Aspirant's Crucible|QID|57709|M|48.23,72.65|Z|Bastion|N|From Overseer Kah-Sher.|PRE|57677^57676|MS|
+A The Old Ways|QID|60466|M|47.92,73.45|Z|Bastion|N|From Klystere.|LVL|50|
+B The Old Ways|QID|60466|M|48.07,73.00|QO|1|Z|Bastion|NC|N|Buy the thread from Caretaker Mirene.|
+h Aspirant's Rest|ACTIVE|60466|M|48.07,73.00|Z|Bastion|N|Set Hearthstone at Caretaker Mirene.|
+f Aspirant's Rest|ACTIVE|60466|M|48.13,74.16|Z|Bastion|N|At Rheus.|
 C The Old Ways|QID|60466|M|50.66,72.56|QO|2|Z|Bastion|N|Kill Cloudstrider Grazers for the pelt.|S|
 C The Old Ways|QID|60466|M|50.66,72.56|QO|3|Z|Bastion|N|Kill Larion Sires for the Plumes.|
 C The Old Ways|QID|60466|M|50.66,72.56|QO|2|Z|Bastion|N|Kill Cloudstrider Grazers for the pelt.|US|
 T The Old Ways|QID|60466|M|47.92,73.45|Z|Bastion|N|To Klystere.|
 A A Gift for An Acolyte|QID|62714|M|47.92,73.45|Z|Bastion|N|From Klystere.|PRE|60466|
-A The Aspirant's Crucible|QID|57709|M|48.23,72.65|Z|Bastion|N|From Overseer Kah-Sher.|PRE|57677^57676|
-f Aspirant's Rest|ACTIVE|57709|M|48.13,74.16|Z|Bastion|N|At Rheus.|
-C The Aspirant's Crucible|QID|57709|M|48.08,74.03|Z|Bastion|V|N|Click on the gryphon to take a ride.|
-T The Aspirant's Crucible|QID|57709|M|56.10,81.75|Z|Bastion|N|To Forgelite Sophone.|
-A A Life of Service|QID|57710|M|56.10,81.75|Z|Bastion|N|From Forgelite Sophone|PRE|57709|
-C A Life of Service|QID|57710|M|57.00,81.29|QO|1|Z|Bastion|NC|N|Click the big glowing fire in front of you.|
-C A Life of Service|QID|57710|M|57.00,81.29|QO|2|Z|Bastion|N|Click the fire after each set of mobs.|
-T A Life of Service|QID|57710|M|56.44,81.57|Z|Bastion|N|To Forgelite Sophone.|
-A A Forge Gone Cold|QID|57711|M|56.44,81.57|Z|Bastion|N|From Forgelite Sophone.|PRE|57710|
-C A Forge Gone Cold|QID|57711|M|52.79,82.58|Z|Bastion|CHAT|N|Speak to Sika.|
-T A Forge Gone Cold|QID|57711|M|52.79,82.58|Z|Bastion|N|To Sika.|
-A The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion|N|From Sika.|PRE|57711|
-A The Cycle of Anima: Flower Power|QID|57267|M|52.71,82.61|Z|Bastion|N|From Sika.|PRE|57711|
-A The Cycle of Anima: Drought Conditions|QID|57265|M|52.70,82.60|Z|Bastion|N|From Forgelite Sophone.|PRE|57711|
-A Suggested Reading|QID|57712|M|55.36,83.42|Z|Bastion|N|From Clora.|PRE|57711|
+C The Aspirant's Crucible|QID|57709|M|48.08,74.03|Z|Bastion|V|N|Click on Theonara the gryphon for a ride. This is not optional.|MS|
+T The Aspirant's Crucible|QID|57709|M|56.10,81.75|Z|Bastion|N|To Forgelite Sophone.|MS|
+A A Life of Service|QID|57710|M|56.10,81.75|Z|Bastion|N|From Forgelite Sophone|PRE|57709|MS|
+C A Life of Service|QID|57710|M|57.00,81.29|QO|1|Z|Bastion|NC|N|Click on the Eternal Flame, the big bowl of glowing blue fire in front of you.|MS|
+C A Life of Service|QID|57710|M|57.00,81.29|QO|2|Z|Bastion|N|Witness memories by killing the groups of mobs, click the flame to trigger a new memory.|MS|
+T A Life of Service|QID|57710|M|56.44,81.57|Z|Bastion|N|To Forgelite Sophone.|MS|
+A A Forge Gone Cold|QID|57711|M|56.44,81.57|Z|Bastion|N|From Forgelite Sophone.|PRE|57710|MS|
+C A Forge Gone Cold|QID|57711|M|52.79,82.58|Z|Bastion|CHAT|N|Speak to Sika.|MS|
+T A Forge Gone Cold|QID|57711|M|52.79,82.58|Z|Bastion|N|To Sika.|MS|
+A The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion|N|From Sika.|PRE|57711|MS|
+A The Cycle of Anima: Flower Power|QID|57267|M|52.71,82.61|Z|Bastion|N|From Sika.|PRE|57711|MS|
+A The Cycle of Anima: Drought Conditions|QID|57265|M|52.70,82.60|Z|Bastion|N|From Forgelite Sophone.|PRE|57711|MS|
+A Suggested Reading|QID|57712|M|55.36,83.42|Z|Bastion|N|From Clora.|LVL|51|
 C Suggested Reading|QID|57712|M|56.04,82.81|QO|2|Z|Bastion|CHAT|N|Talk to Aspirant Leda for "Worlds Beyond Counting".|
 C Suggested Reading|QID|57712|M|52.97,82.45|QO|1|Z|Bastion|CHAT|N|Talk to Aspirant Ikaran for "The Infinite Treatises".|
 C Suggested Reading|QID|57712|M|52.71,82.61|QO|3|Z|Bastion|N|Kill Ethtywyrms till "Bear Witness: The Watcher's Code" drops.|S|
-C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|Bastion|N|Slay Etherwyrms to collect Glowing Viscera.|S|
-C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|Bastion|NC|N|Collect Adrima's Lily.|S|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|1|Z|Bastion|NC|N|Click the Anima Extractor.|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|2|Z|Bastion|N|Defend the Anima Extractor.|
-C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|3|Z|Bastion|NC|N|Collect a Condensed Anima Mote from the Anima Extractor.|
-C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|Bastion|N|Slay Etherwyrms to collect 25 Glowing Viscera.|US|
-C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|Bastion|NC|N|Collect 6 Adrima's Lily.|US|
+C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|Bastion|N|Slay Etherwyrms to collect Glowing Viscera.|S|MS|
+C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|Bastion|NC|N|Collect Adrima's Lily.|S|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|1|Z|Bastion|NC|N|Click the Anima Extractor.|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|2|Z|Bastion|N|Defend the Anima Extractor.|MS|
+C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|3|Z|Bastion|NC|N|Collect a Condensed Anima Mote from the Anima Canister on the ground.|MS|
+C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|Bastion|NC|N|Collect 6 Adrima's Lily.|US|MS|
+C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|Bastion|N|Slay Etherwyrms to collect 25 Glowing Viscera.|US|MS|
 C Suggested Reading|QID|57712|M|55.11,78.30|QO|3|Z|Bastion|N|Kill Etherwyrms till "Bear Witness: The Watcher's Code" drops.|US|
-T Suggested Reading|QID|57712|M|55.35,83.40|Z|Bastion|N|To Clora.|
-T The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion|N|To Sika.|
-T The Cycle of Anima: Flower Power|QID|57267|M|52.71,82.61|Z|Bastion|N|To Sika.|
-T The Cycle of Anima: Drought Conditions|QID|57265|M|52.70,82.60|Z|Bastion|N|To Forgelite Sophone.|
-A Light the Forge, Forgelite|QID|59920|M|52.71,82.69|Z|Bastion|N|From Forgelite Sophone.|PRE|57265^57263^57267^57265|
-C Light the Forge, Forgelite|QID|59920|M|52.81,83.46|QO|1|Z|Bastion|NC|N|Place the Raw Materials in the basin.|
-C Light the Forge, Forgelite|QID|59920|M|52.78,83.39|QO|2|Z|Bastion|NC|N|Click the vents on eithe side of the forge.|
-C Light the Forge, Forgelite|QID|59920|M|52.78,83.39|QO|3|Z|Bastion|NC|N|Click the rubbish piles on the ground.|
-T Light the Forge, Forgelite|QID|59920|M|52.91,83.43|Z|Bastion|N|To Forgelite Sophone.|
-A The Work of One's Hands|QID|57713|M|52.91,83.43|Z|Bastion|N|From Forgelite Sophone.|PRE|59920|
-C The Work of One's Hands|QID|57713|M|52.80,83.38|QO|1|Z|Bastion|CHAT|N|Speak to Sika.|
-C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|2|Z|Bastion|NC|N|Add fuel to the forge.|
-C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|3|Z|Bastion|NC|N|Open a vent.|
-C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|4|Z|Bastion|NC|N|Keep bar in middle, if it goes left add coal, if it goes right vent.|
-C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|5|Z|Bastion|NC|N|Hold the armor steady.|
-T The Work of One's Hands|QID|57713|M|52.91,83.43|Z|Bastion|N|To Forgelite Sophone.|
-A The True Crucible Awaits|QID|57908|M|56.44,81.57|Z|Bastion|N|From Forgelite Sophone.|PRE|57713|
-C The True Crucible Awaits|QID|57908|M|52.79,82.58|Z|Bastion|CHAT|N|Speak to Kleia and Pelagos in Aspirant's Crucible.|
-T The True Crucible Awaits|QID|57908|M|51.76,81.07|Z|Bastion|N|To Kleia.|
-A Assessing Your Strength|QID|57288|M|51.76,81.07|Z|Bastion|N|From Kleia.|PRE|57908|
-A Assessing Your Stamina|QID|57909|M|51.76,81.07|Z|Bastion|N|From Pelagos.|PRE|57908|
-C Assessing Your Stamina|QID|57909|M|51.76,81.07|Z|Bastion|N|Talk to the ghosts and challenge them to a duel.|S|
-C Assessing Your Strength|QID|57288|M|50.55,82.12|QO|1|Z|Bastion|N|Archilon Defeated.|
-C Assessing Your Strength|QID|57288|M|50.34,80.52|QO|3|Z|Bastion|N|Straticus Defeated.|
-C Assessing Your Strength|QID|57288|M|50.63,79.10|QO|2|Z|Bastion|N|Epilon Defeated.|
-C Assessing Your Stamina|QID|57909|M|51.76,81.07|Z|Bastion|N|Complete the 8 meditations.|US|
-T Assessing Your Strength|QID|57288|M|51.63,80.95|Z|Bastion|N|To Kleia.|
-T Assessing Your Stamina|QID|57909|M|51.66,80.86|Z|Bastion|N|To Pelagos.|
-A Assessing Your Spirit|QID|57714|M|51.76,81.07|Z|Bastion|N|From Kleia.|PRE|57909|
-C Assessing Your Spirit|QID|57714|M|51.76,81.07|Z|Bastion|N|Challange Athanos.|
-T Assessing Your Spirit|QID|57714|M|51.76,81.07|Z|Bastion|N|To Kleia.|
-A The Chamber of First Reflection|QID|57291|M|51.76,81.07|Z|Bastion|N|From Forgelite Sophone.|PRE|57714|
-C The Chamber of First Reflection|QID|57291|M|55.95,86.46|Z|Bastion|N|Enter the Chamber of First Reflection.|
-T The Chamber of First Reflection|QID|57291|M|57.18,86.58|Z|Bastion|N|To Kleia.|
-A The First Cleansing|QID|57266|M|57.18,86.58|Z|Bastion|N|From Kleia.|PRE|57291|
-C The First Cleansing|QID|57266|M|58.04,85.70|QO|1|Z|Bastion|NC|N|Click the box.|
-C The First Cleansing|QID|57266|M|57.71,85.47|QO|2|Z|Bastion|NC|N|Stand in the water and click the button.|
-C The First Cleansing|QID|57266|M|58.03,85.38|QO|3|Z|Bastion|N|Ring the Vespers of Clarity.|
-C The First Cleansing|QID|57266|M|57.17,86.59|QO|4|Z|Bastion|CHAT|N|Speak to Kleia.|
-C The First Cleansing|QID|57266|M|58.81,88.15|QO|5|Z|Bastion|NC|N|Stand on the mirrors and click them.|
-C The First Cleansing|QID|57266|M|55.95,86.46|QO|6|Z|Bastion|N|First cleansing completed.|
-T The First Cleansing|QID|57266|M|55.67,86.40|Z|Bastion|N|To Kleia.|
-A The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^60225^60226^60229|M|55.67,86.40|Z|Bastion|N|From Kleia.|PRE|57266|
-C The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^60225^60226^60229|M|53.52,87.06|Z|Bastion|CHAT|QO|1|N|Talk to Kalisthene.|
-C The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^60225^60226^60229|M|53.51,87.12|Z|Bastion|NC|QO|2|N|Stand in the blue circle and click the button.|
-T The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^60225^60226^60229|M|53.52,87.06|Z|Bastion|N|To Kalisthene.|
-A All An Aspirant Can Do|QID|58174|M|53.50,87.27|Z|Bastion|N|From Kleia.|PRE|60229^60226^60225^60224^60223^60222^60221^60220^60219^60218^60217^57715|
-C All An Aspirant Can Do|QID|58174|CS|M|53.50,88.37;54.72,86.26;53.57,84.57;52.79,81.10;50.77,75.32|Z|Bastion|N|Run back to Aspirant's Rest.|
-T All An Aspirant Can Do|QID|58174|M|48.28,72.86|Z|Bastion|N|To Kleia.|
-A The Temple of Purity|QID|57270|M|48.36,72.80|Z|Bastion|N|From Disciple Kosmas|PRE|58174|
-A Hero's Rest|QID|62718|M|48.79,73.26|Z|Bastion|N|From the Scroll hanging on the wall.|PRE|58174|
-A WANTED: Altered Sentinel|QID|60316|M|49.13,72.82|Z|Bastion|N|From the scroll next to the tent.|PRE|58174|
-C WANTED: Altered Sentinel|QID|60316|M|51.15,75.24|Z|Bastion|N|This is a group quest, you might need help.|
+T Suggested Reading|QID|57712|M|55.35,83.40|Z|Bastion|N|To Clora.|MS|
+T The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion|N|To Sika.|MS|
+T The Cycle of Anima: Flower Power|QID|57267|M|52.71,82.61|Z|Bastion|N|To Sika.|MS|
+T The Cycle of Anima: Drought Conditions|QID|57265|M|52.70,82.60|Z|Bastion|N|To Forgelite Sophone.|MS|
+A Light the Forge, Forgelite|QID|59920|M|52.71,82.69|Z|Bastion|N|From Forgelite Sophone.|PRE|57265&57263&57267|MS|
+C Light the Forge, Forgelite|QID|59920|M|52.81,83.46|QO|1|Z|Bastion|NC|N|Before you go, click on the Raw Materials and then carry them to the basin.|MS|
+C Light the Forge, Forgelite|QID|59920|M|52.78,83.39|QO|2|Z|Bastion|NC|N|Click the vents on eithe side of the forge.|MS|
+C Light the Forge, Forgelite|QID|59920|M|52.78,83.39|QO|3|Z|Bastion|NC|N|Click the rubbish piles on the ground.|MS|
+T Light the Forge, Forgelite|QID|59920|M|52.91,83.43|Z|Bastion|N|To Forgelite Sophone.|MS|
+A The Work of One's Hands|QID|57713|M|52.91,83.43|Z|Bastion|N|From Forgelite Sophone.|PRE|59920|MS|
+C The Work of One's Hands|QID|57713|M|52.80,83.38|QO|1|Z|Bastion|CHAT|N|Speak to Sika.|MS|
+C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|2|Z|Bastion|NC|N|Add fuel to the forge.|MS|
+C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|3|Z|Bastion|NC|N|Open a vent.|MS|
+C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|4|Z|Bastion|NC|N|Keep bar in middle, if it goes left add coal, if it goes right vent.|MS|
+C The Work of One's Hands|QID|57713|M|52.91,83.43|QO|5|Z|Bastion|NC|N|Click on the armor that is resting atop the anvil.|MS|
+T The Work of One's Hands|QID|57713|M|52.91,83.43|Z|Bastion|N|To Forgelite Sophone.|MS|
+A The True Crucible Awaits|QID|57908|M|56.44,81.57|Z|Bastion|N|From Forgelite Sophone.|PRE|57713|MS|
+C The True Crucible Awaits|QID|57908|M|52.79,82.58|Z|Bastion|CHAT|N|Speak to Kleia and Pelagos in Aspirant's Crucible.|MS|
+T The True Crucible Awaits|QID|57908|M|51.76,81.07|Z|Bastion|N|To Kleia.|MS|
+A Assessing Your Strength|QID|57288|M|51.76,81.07|Z|Bastion|N|From Kleia.|PRE|57908|MS|
+A Assessing Your Stamina|QID|57909|M|51.76,81.07|Z|Bastion|N|From Pelagos.|PRE|57908|MS|
+C Assessing Your Stamina|QID|57909|M|51.76,81.07|Z|Bastion|N|Talk to the ghosts and challenge them to a duel.|S|MS|
+C Assessing Your Strength|QID|57288|M|50.55,82.12|QO|1|Z|Bastion|N|Archilon Defeated.|MS|
+C Assessing Your Strength|QID|57288|M|50.34,80.52|QO|3|Z|Bastion|N|Straticus Defeated.|MS|
+C Assessing Your Strength|QID|57288|M|50.63,79.10|QO|2|Z|Bastion|N|Epilon Defeated.|MS|
+C Assessing Your Stamina|QID|57909|M|51.76,81.07|Z|Bastion|N|Talk to the ghosts and challenge them to a duel.|US|MS|
+T Assessing Your Strength|QID|57288|M|51.63,80.95|Z|Bastion|N|To Kleia.|MS|
+T Assessing Your Stamina|QID|57909|M|51.66,80.86|Z|Bastion|N|To Pelagos.|MS|
+A Assessing Your Spirit|QID|57714|M|51.76,81.07|Z|Bastion|N|From Kleia.|PRE|57909&57288|MS|
+C Assessing Your Spirit|QID|57714|M|51.76,81.07|Z|Bastion|N|Fight Athanos and lose.|MS|
+T Assessing Your Spirit|QID|57714|M|51.76,81.07|Z|Bastion|N|To Kleia.|MS|
+A The Chamber of First Reflection|QID|57291|M|51.76,81.07|Z|Bastion|N|From Forgelite Sophone.|PRE|57714|MS|
+C The Chamber of First Reflection|QID|57291|M|55.95,86.46|Z|Bastion|NC|N|Enter the Chamber of First Reflection.|MS|
+T The Chamber of First Reflection|QID|57291|M|57.18,86.58|Z|Bastion|N|To Kleia.|MS|
+A The First Cleansing|QID|57266|M|57.18,86.58|Z|Bastion|N|From Kleia.|PRE|57291|MS|
+C The First Cleansing|QID|57266|M|58.04,85.70|QO|1|Z|Bastion|NC|N|Click the box.|MS|
+C The First Cleansing|QID|57266|M|57.71,85.47|QO|2|Z|Bastion|NC|N|Stand in the water and click the "[color=40C7EB]Bathe[/color]" Action Ability.|EAB|MS|
+C The First Cleansing|QID|57266|M|58.03,85.38|QO|3|Z|Bastion|NC|N|Click on the Vespers of Clarity.|MS|
+C The First Cleansing|QID|57266|M|57.17,86.59|QO|4|Z|Bastion|CHAT|N|Speak to Kleia.|MS|
+C The First Cleansing|QID|57266|M|58.81,88.15|QO|5|Z|Bastion|N|Stand on the mirrors and click them.|MS|
+C The First Cleansing|QID|57266|M|55.95,86.46|QO|6|Z|Bastion|N|Fight your Anguished Memory.|MS|
+T The First Cleansing|QID|57266|M|55.67,86.40|Z|Bastion|N|To Kleia.|MS|
+A The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^60225^60226^60229|M|55.67,86.40|Z|Bastion|N|From Kleia.|PRE|57266|MS|
+C The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^60225^60226^60229|M|53.52,87.06|Z|Bastion|CHAT|QO|1|N|Talk to Kalisthene.|MS|
+C The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^60225^60226^60229|M|53.51,87.12|Z|Bastion|NC|QO|2|N|Stand in the blue circle and click the "[color=40C7EB]Kalisthene's Grace[/color]" Action Ability.|EAB|MS|
+T The Archon's Answer|QID|57715^60217^60218^60219^60220^60221^60222^60223^60224^60225^60226^60229|M|53.52,87.06|Z|Bastion|N|To Kalisthene.|MS|
+A All An Aspirant Can Do|QID|58174|M|53.50,87.27|Z|Bastion|N|From Kleia.|PRE|60229^60226^60225^60224^60223^60222^60221^60220^60219^60218^60217^57715|MS|
+H Aspirant's Rest|ACTIVE|58174|N|Hearthstone back to Aspirant's Rest.|MS|
+C All An Aspirant Can Do|QID|58174|CS|M|53.50,88.37;54.72,86.26;53.57,84.57;52.79,81.10;50.77,75.32|Z|Bastion|N|Run back to Aspirant's Rest.|MS|
+T All An Aspirant Can Do|QID|58174|M|48.28,72.86|Z|Bastion|N|To Kleia.|MS|
+
+;The Temple of Purity Storyline
+A The Temple of Purity|QID|57270|M|48.36,72.80|Z|Bastion|N|From Disciple Kosmas|PRE|58174|MS|
+A Hero's Rest|QID|62718|M|48.79,73.26|Z|Bastion|N|From the Scroll hanging on the wall.|LVL|50|
+A WANTED: Altered Sentinel|QID|60316|M|49.13,72.82|Z|Bastion|ELITE|N|[color=ff8000]Elite: [/color]From the scroll next to the tent.|LVL|51|
+C WANTED: Altered Sentinel|QID|60316|M|51.15,75.24|Z|Bastion|N|[color=ff8000]Elite: [/color]Destroy the Altered Sentinel.|
 T WANTED: Altered Sentinel|QID|60316|M|48.95,72.34|Z|Bastion|N|To Forgehand Simo|
-C The Temple of Purity|QID|62714|M|53.87,73.95|Z|Bastion|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity.|
-C A Gift for An Acolyte|QID|62714|M|53.87,73.95|Z|Bastion|N|Run to the Temple of Purity.|
+C A Gift for An Acolyte|QID|62714|M|53.87,73.95|Z|Bastion|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity..|
 T A Gift for An Acolyte|QID|62714|M|53.87,73.95|Z|Bastion|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity.|
 A More Than A Gift|QID|62715|M|53.87,73.95|Z|Bastion|N|From Acolyte Amalthina.|PRE|62714|
-T The Temple of Purity|QID|57270|M|54.09,73.62|N|To Eridia.|
-A A Temple in Need|QID|57977|M|54.09,73.62|Z|Bastion|N|From Acolyte Amalthina.|PRE|57270|
-A On the Edge of a Revelation|QID|57264|M|56.68,74.41|Z|Bastion|N|From Desciple Kosmas.|PRE|57270|
-C On the Edge of a Revelation|QID|57264|M|57.89,73.48|Z|Bastion|N|Aspirants inspired to action.|S|
-C A Temple in Need|QID|57977|M|57.36,71.46|Z|Bastion|QO|1|N|Talk to Disciple Fotima, then kill mobs that spawn.|
-C A Temple in Need|QID|57977|M|57.95,75.87|Z|Bastion|QO|2|CHAT|N|Talk to Disciple Helene, then click the Tauren as they appear.|
-C A Temple in Need|QID|57977|M|60.01,73.66|Z|Bastion|QO|3|N|Talk to Disciple Lykaste, then kill the mob that spawns.|
-C On the Edge of a Revelation|QID|57264|M|56.68,74.41|Z|Bastion|N|Aspirants inspired to action.|US|
-T A Temple in Need|QID|57977|M|59.41,77.96|Z|Bastion|N|To Eridia.|
-T On the Edge of a Revelation|QID|57264|M|59.41,77.96|Z|Bastion|N|To Eridia.|
-A A Wayward Disciple?|QID|57716|M|59.41,77.96|Z|Bastion|N|From Eridia.|PRE|57977|
-C A Wayward Disciple?|QID|57716|M|59.94,69.12|Z|Bastion|QO|1|CHAT|N|Talk to Disciple Nikolon.|
-C A Wayward Disciple?|QID|57716|M|59.41,77.96|Z|Bastion|QO|2|N|Escort Disciple Nikolon to Eridia.|
-T A Wayward Disciple?|QID|57716|M|59.41,77.96|Z|Bastion|N|To Eridia.|
-A Step Back From That Ledge, My Friend|QID|57717|M|59.41,77.96|Z|Bastion|N|From Eridia.|PRE|57977|
-C Step Back From That Ledge, My Friend|QID|57717|M|60.15,78.03|Z|Bastion|QO|1|CHAT|N|Talk to Eridia and kill the mobs that spawn.|
-C Step Back From That Ledge, My Friend|QID|57717|M|60.04,77.90|Z|Bastion|QO|2|CHAT|N|Speak to Fallen Disciple Nikolon.|
-C Step Back From That Ledge, My Friend|QID|57717|M|60.15,79.03|Z|Bastion|QO|3|CHAT|N|Speak to Eridia.|
-T Step Back From That Ledge, My Friend|QID|57717|M|59.31,77.05|Z|Bastion|N|To Eridia.|
-A A Once Sweet Sound|QID|57037|M|59.31,77.06|Z|Bastion|N|From Eridia.|PRE|57717|
-A The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion|N|From Eridia.|PRE|57717|
-A Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion|N|From The Scroll on the side of the temple.|PRE|57717|
-A An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion|N|From Acolyte Galistos.|PRE|57717|
+C The Temple of Purity|QID|57270|M|54.09,73.62|Z|Bastion|NC|N|Find Erida in the Temple of Purity.|MS|
+T The Temple of Purity|QID|57270|M|54.09,73.62|N|To Eridia.|MS|
+A A Temple in Need|QID|57977|M|54.09,73.62|Z|Bastion|N|From Acolyte Amalthina.|PRE|57270|MS|
+A On the Edge of a Revelation|QID|57264|M|56.68,74.41|Z|Bastion|N|From Desciple Kosmas.|PRE|57270|MS|
+C On the Edge of a Revelation|QID|57264|M|57.89,73.48|Z|Bastion|CHAT|N|Aspirants inspired to action.|S|MS|
+C A Temple in Need|QID|57977|M|57.36,71.46|Z|Bastion|QO|1|N|Talk to Disciple Fotima, then kill mobs that spawn.|MS|
+C A Temple in Need|QID|57977|M|57.95,75.87|Z|Bastion|QO|2|NC|N|Talk to Disciple Helene, then click the Tauren as they appear.|MS|
+C A Temple in Need|QID|57977|M|60.01,73.66|Z|Bastion|QO|3|N|Talk to Disciple Lykaste, then kill the mob that spawns.|MS|
+C On the Edge of a Revelation|QID|57264|M|56.68,74.41|Z|Bastion|CHAT|N|Aspirants inspired to action.|US|MS|
+T A Temple in Need|QID|57977|M|59.41,77.96|Z|Bastion|N|To Eridia.|MS|
+T On the Edge of a Revelation|QID|57264|M|59.41,77.96|Z|Bastion|N|To Eridia.|MS|
+A A Wayward Disciple?|QID|57716|M|59.41,77.96|Z|Bastion|N|From Eridia.|PRE|57977&57264|MS|
+C A Wayward Disciple?|QID|57716|M|59.94,69.12|Z|Bastion|QO|1|CHAT|N|Talk to Disciple Nikolon.|MS|
+C A Wayward Disciple?|QID|57716|M|59.41,77.96|Z|Bastion|QO|2|N|Escort Disciple Nikolon to Eridia.|MS|
+T A Wayward Disciple?|QID|57716|M|59.41,77.96|Z|Bastion|N|To Eridia.|MS|
+A Step Back From That Ledge, My Friend|QID|57717|M|59.41,77.96|Z|Bastion|N|From Eridia.|PRE|57716|MS|
+C Step Back From That Ledge, My Friend|QID|57717|M|60.15,78.03|Z|Bastion|QO|1|N|Talk to Eridia and kill the mobs that spawn.|MS|
+C Step Back From That Ledge, My Friend|QID|57717|M|60.04,77.90|Z|Bastion|QO|2|CHAT|N|Speak to Fallen Disciple Nikolon.|MS|
+C Step Back From That Ledge, My Friend|QID|57717|M|60.15,79.03|Z|Bastion|QO|3|CHAT|N|Speak to Eridia.|MS|
+T Step Back From That Ledge, My Friend|QID|57717|M|59.31,77.05|Z|Bastion|N|To Eridia.|MS|
+A A Once Sweet Sound|QID|57037|M|59.31,77.06|Z|Bastion|N|From Eridia.|PRE|57717|MS|
+A The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion|N|From Eridia.|PRE|57717|MS|
+A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion|N|From The Scroll on the side of the temple.|PRE|57717|MS|
+A An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion|N|From Acolyte Galistos.|LVL|51|
+
 C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion|N|Kill all the hostile mobs till the bar fills up.|S|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion|N|Find the scrolls around the area.|S|
 C An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion|N|Throw the spear at the elites, wait till they are not elite then kill them.|S|

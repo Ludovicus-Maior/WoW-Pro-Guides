@@ -29,6 +29,9 @@ WoWPro.actiontypes = {
     r = "Interface\\Icons\\Ability_Repair",
     D = "Interface\\TAXIFRAME\\UI-Taxi-Icon-Green",
     J = "Interface\\TAXIFRAME\\UI-Taxi-Icon-Red",
+	["V TAG"] = "Interface\\CURSOR\\vehichleCursor",
+	["JUMP TAG"] = "Interface\\Icons\\spell_arcane_teleportironforge",
+	["CHAT TAG"] = "Interface\\GossipFrame\\Gossipgossipicon",
     ["!"] = "Interface\\GossipFrame\\DailyQuestIcon",
     ["$"] = "Interface\\Worldmap\\TreasureChest_64",
     ["="] = "Interface\\Icons\\Spell_lightning_lightningbolt01",
@@ -66,6 +69,9 @@ WoWPro.actionlabels = {
     D = "Done",
     J = "Jump",
     P = "Take portal",
+	["V TAG"] = "Use Vehicle",
+	["JUMP TAG"] = "Jump Button Available",
+	["CHAT TAG"] = "Interact and Chat",
     ["!"] = "Declare",
     ["$"] = "Treasure",
     ["="] = "Train",
@@ -267,6 +273,7 @@ DefineTag("QO","questtext","string",nil,nil)
 DefineTag("SO","sobjective","string",nil,nil)
 DefineTag("U","use","number",nil,nil)
 DefineTag("ITEM","item","string",nil,nil)
+DefineTag("EAB","eab","string",nil,nil)
 DefineTag("NC","noncombat","boolean",nil,nil)
 DefineTag("NA","noauto","boolean",nil,nil)
 DefineTag("CHAT","chat","boolean",nil,nil)
