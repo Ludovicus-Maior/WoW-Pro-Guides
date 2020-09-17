@@ -148,6 +148,15 @@ function WoWPro:RowColorSet()
         else
             row:SetBackdropColor(WoWProDB.profile.stickycolor[1], WoWProDB.profile.stickycolor[2], WoWProDB.profile.stickycolor[3], 0)
         end
+
+		-- Jump Override
+		if row.jumpbutton:IsShown() then
+			row:SetBackdrop( {
+                bgFile = "Interface\\AchievementFrame\\UI-GuildAchievement-Parchment-Horizontal",
+                tile = false
+            })
+			row:SetBackdropColor(0.2803921568627451, 0.411764705882353, 1, 0.9)
+		end
     end
 end
 function WoWPro.RowFontSet()
@@ -204,7 +213,7 @@ function WoWPro.RowSizeSet()
 
         -- Setting the note frame size correctly, setting up mouseover notes --
         local newh, noteh, trackh
-        if WoWProDB.profile.mousenotes and row.index and (WoWPro.note[row.index] or (WoWPro.map[row.index] and WoWProDB.profile.showcoords)) then
+        if row.jumpbutton:IsShown() or (WoWProDB.profile.mousenotes and row.index and (WoWPro.note[row.index] or (WoWPro.map[row.index] and WoWProDB.profile.showcoords))) then
             noteh = 1
             row.note:Hide()
             WoWPro.mousenotes[i].note:SetText(row.note:GetText())
