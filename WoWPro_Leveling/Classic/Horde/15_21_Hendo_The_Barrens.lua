@@ -592,6 +592,6 @@ N The Ashenvale Hunt|AVAILABLE|-6383|N|This quest unlocks 3 drop loot item quest
 ;C Sharptalon's Claw|QID|2|Z|Ashenvale|N|Kill the blue bird, Sharptalon, for its claw.|PRE|6383|
 ;C Ursangous's Paw|QID|23|Z|Ashenvale|N|Kill the grey bear, Ursangous, for its paw.|PRE|6383|
 
-F Sun Rock Retreat|M|73.25,61.67|Z|Ashenvale|N|Fly to Sun Rock Retreat.|
+F Sun Rock Retreat|QID|6421|M|73.25,61.67|Z|Ashenvale|N|Fly to Sun Rock Retreat.|
 ]]
 end)
