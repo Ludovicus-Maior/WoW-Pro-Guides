@@ -151,7 +151,6 @@ function WoWPro:RowColorSet()
 
 		-- Jump Override
 		if row.jumpbutton:IsShown() then
-			local w = row:GetWidth()
 			row:SetBackdrop( {
                 bgFile = "Interface\\AchievementFrame\\UI-GuildAchievement-Parchment-Horizontal",
                 tile = false
