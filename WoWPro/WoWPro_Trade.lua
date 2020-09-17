@@ -28,7 +28,7 @@ WoWPro.ProfessionSkillLines = {
         [2531] = { exp = 1, parent = 165, name = 'Outland Leatherworking' },
         [2532] = { exp = 0, parent = 165, name = 'Leatherworking' },
 
-    [171] = { name = 'Alchemy' },	
+    [171] = { name = 'Alchemy' },
 		[2750] = { exp = 8, parent = 171, name = 'Shadowlands Alchemy' },
         [2478] = { exp = 7, parent = 171, name = 'Battle for Azeroth Alchemy' },
         [2479] = { exp = 6, parent = 171, name = 'Legion Alchemy' },
