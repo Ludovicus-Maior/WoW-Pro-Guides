@@ -362,7 +362,7 @@ R Algaz Station|ACTIVE|353|M|24.50,18.00|Z|Loch Modan|N|Continue along the road 
 T Stormpike's Delivery|QID|353|M|24.77,18.39|Z|Loch Modan|N|To Mountaineer Stormpike, on the top floor of the tower.|
 A Filthy Paws|QID|307|M|24.77,18.39|Z|Loch Modan|N|From Mountaineer Stormpike.|
 A Stormpike's Order|QID|1338|M|24.77,18.39|Z|Loch Modan|N|From Mountaineer Stormpike.|
-R Thelsamar|ACTIVE|1338|M|33.9,50.95|Z|Loch Modan|N|Follow the road south to Thelsamar.|
+R Thelsamar|ACTIVE|1338|M|32.96,49.44|Z|Loch Modan|N|Follow the road south to Thelsamar.| 
 A Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|Mountaineer Kadrell patrols all throughout Thelsamar.|
 A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|From Vidra Hearthstove inside the inn.|
 r Sell junk and repair|QID|418|M|34.0,46.60|Z|Loch Modan|N|At Morhan Coppertongue. Close this step when you're done.|
@@ -371,38 +371,39 @@ C Thelsamar Blood Sausages|QID|418|S|M|35.00,35.00|Z|Loch Modan|QO|1;2;3|N|Kill 
 C Rat Catching|QID|416|M|37.7,25.7|Z|Loch Modan|L|3110 12|N|Kill any Tunnel Rats you see.|S|
 R Silver Stream Mine|ACTIVE|307|M|36.70,41.79;39.43,29.10|Z|Loch Modan|CC|N|Exit Thelsamar at the east end and head north.|
 R Mine entrance|ACTIVE|307|M|35.53,18.71|Z|Loch Modan|CC|
-C Filthy Paws|QID|307|Z|Loch Modan|L|2640 4|N|Enter the mine and collect the crates of Miners' Gear.|
+C Filthy Paws|QID|307|L|2640 4|N|Enter the mine and collect the crates of Miners' Gear.|
 C Rat Catching|QID|416|L|3110 12|N|Finish this quest now by killing Tunnel Rats around the mine entrance.|US|
 T Filthy Paws|QID|307|M|24.77,18.39|Z|Loch Modan|N|To Mountaineer Stormpike.|
-C Thelsamar Blood Sausages|QID|418|M|32.28,31.08;25.68,35.92;37.71,38.18|Z|Loch Modan|CS|QO|1;2;3|N|Finish this quest now. Follow the arrows, going from one area to the next, killing Mountain Boars, Forest Lurkers, and Elder Black Bears on the way.|US|
+C Thelsamar Blood Sausages|QID|418|M|32.28,31.08;25.68,35.92;37.71,38.18|Z|Loch Modan|CN|QO|1;2;3|N|Finish this quest now. Follow the arrows, going from one area to the next, killing Mountain Boars, Forest Lurkers, and Elder Black Bears on the way.|US|
 T Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|To Mountaineer Kadrell.|
-T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|To Vidra Hearthstove.|
+T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|To Vidra Hearthstove inside Stoutlager Inn.|
+F Ironforge|AVAILABLE|3681|M|33.94,50.95|Z|Loch Modan|C|Paladin|
+A Tome of Divinity|QID|3681|M|23.11,6.15|Z|Ironforge|N|From Brandur Ironhammer in the Mystic Ward.|LEAD|3682|C|Paladin|
+F Stormwind|ACTIVE|3681|M|55.54,47.75|Z|Ironforge|N|Fly to Stormwind.|C|Paladin|
+F Stormwind|ACTIVE|6261|M|33.94,50.95|Z|Loch Modan|N|Fly to Stormwind from Thelsamar.|C|-Paladin|
 
-F Stormwind|QID|1338|ACTIVE|1338|M|33.9,50.95|Z|Loch Modan|N|Fly to Stormwind from Thelsamar.|
 T Dungar Longdrink|QID|6261|M|66.28,62.09|Z|Stormwind City|N|To Dungar Longdrink.|
 A Return to Lewis|QID|6285|PRE|6261|M|66.28,62.09|Z|Stormwind City|N|From Dungar Longdrink.|
-; LFO:  Is this next QID right?
-A Tome of Divinity|QID|2998|M|49.21, 30.27|C|Paladin|R|Human|N|From Baros Alexston, in Cathedral Square.|Z|Stormwind City|
 A Humble Beginnings|QID|399|Z|Stormwind City|M|49.21, 30.27|N|From Baros Alexston, in Cathedral Square.|
 
-T Tome of Divinity|QID|2998|C|Paladin|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|
-A The Tome of Divinity|QID|1642|C|Paladin|M|39.80,29.78|Z|Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|PRE|1641|
-T The Tome of Divinity|QID|1642|C|Paladin|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|
-A The Tome of Divinity|QID|1643|C|Paladin|M|39.80,29.78|Z|Stormwind City|N|From Duthorian Rall.|PRE|1642|
-T The Tome of Divinity|QID|1643|C|Paladin|M|57.08,61.73|Z|Stormwind City|N|To Stephanie Turner in the Trade District.|
-A The Tome of Divinity|QID|1644|C|Paladin|M|57.08,61.73|Z|Stormwind City|N|From Stephanie Turner.|PRE|1643|
-C The Tome of Divinity|QID|1644|C|Paladin|M|57.08,61.73|Z|Stormwind City|N|Acquire 10 linen cloth if you don't have it.|
-T The Tome of Divinity|QID|1644|C|Paladin|M|57.08,61.73|Z|Stormwind City|N|To Stephanie Turner.|
-A The Tome of Divinity|QID|1780|C|Paladin|M|57.08,61.73|Z|Stormwind City|N|From Stephanie Turner.|PRE|1644|
-T The Tome of Divinity|QID|1780|C|Paladin|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|
-A The Tome of Divinity|QID|1781|C|Paladin|M|39.80,29.78|Z|Stormwind City|N|From Duthorian Rall.|PRE|1780|
-T The Tome of Divinity|QID|1781|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm, up at the alter.|
-A The Tome of Divinity|QID|1786|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|From Gazin Tenorm.|PRE|1781|
+T Tome of Divinity|QID|3681|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall, inside Cathedral of Light.|C|Paladin|
+A The Tome of Divinity|QID|1642|M|39.80,29.78|Z|Stormwind City|U|6775|N|From item given you by Duthorian Rall or randomly dropped.|C|Paladin|PRE|1641^3681|
+T The Tome of Divinity|QID|1642|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Tome of Divinity|QID|1643|M|39.80,29.78|Z|Stormwind City|N|From Duthorian Rall.|PRE|1642|C|Paladin|
+T The Tome of Divinity|QID|1643|M|57.08,61.73|Z|Stormwind City|N|To Stephanie Turner in the Trade District.|C|Paladin|
+A The Tome of Divinity|QID|1644|M|57.08,61.73|Z|Stormwind City|N|From Stephanie Turner.|PRE|1643|C|Paladin|
+C The Tome of Divinity|QID|1644|L|2589 10|N|Acquire 10 linen cloth if you don't have it.|C|Paladin|
+T The Tome of Divinity|QID|1644|M|57.08,61.73|Z|Stormwind City|N|To Stephanie Turner.|C|Paladin|
+A The Tome of Divinity|QID|1780|M|57.08,61.73|Z|Stormwind City|N|From Stephanie Turner.|PRE|1644|C|Paladin|
+T The Tome of Divinity|QID|1780|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|C|Paladin|
+A The Tome of Divinity|QID|1781|M|39.80,29.78|Z|Stormwind City|N|From Duthorian Rall.|PRE|1780|C|Paladin|
+T The Tome of Divinity|QID|1781|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm, up at the alter.|C|Paladin|
+A The Tome of Divinity|QID|1786|M|38.58,26.56|Z|Stormwind City|N|From Gazin Tenorm.|PRE|1781|C|Paladin|
 
-T Stormpike's Order|QID|1338|M|58.1,16.57|Z|Stormwind City|N|To Furen Longbeard, in the Dwarven District.|
-A Bounty on Murlocs|QID|46|M|74.0,72.2|N|From Guard Thomas.|PRE|39|
+T Stormpike's Order|QID|1338|M|58.10,16.57|Z|Stormwind City|N|To Furen Longbeard, in the Dwarven District.|
+A Bounty on Murlocs|QID|46|M|73.97,72.18|N|From Guard Thomas at the east Elwynn bridge.|PRE|39|
 
-R Stone Cairn Lake|ACTIVE|1786|M|67,58|N|Run to the island in the middle of Stone Cairn Lake.|
+R Stone Cairn Lake|ACTIVE|1786|M|74.45,56.74|N|Run to the island in the middle of Stone Cairn Lake.|
 C Bounty on Murlocs|QID|46|M|79,55|US|N|Kill murlocs until you collect the torn fins needed.|
 
 C The Tome of Divinity|QID|1786|C|Paladin|M|72.59,51.41|U|6866|NC|T|Henze Faulk|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|
@@ -410,7 +411,7 @@ T The Tome of Divinity|QID|1786|C|Paladin|M|72.59,51.41|N|To Henze Faulk.|
 A The Tome of Divinity|QID|1787|C|Paladin|M|72.59,51.41|N|From Henze Faulk.|PRE|1786|
 C The Tome of Divinity|QID|1787|C|Paladin|M|74.03,51.84|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|
 T Cloth and Leather Armor|QID|59|M|79.5,68.8|N|To Sara Timberlain in Eastvale Logging Camp.|
-T Bounty on Murlocs|QID|46|M|74.0,72.2|N|To Guard Thomas.|
+T Bounty on Murlocs|QID|46|M|73.97,72.18|N|To Guard Thomas.|
 
 K Morgan the Collector|ACTIVE|147|M|71,80|QO|1|T|Morgan the Collector|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which agro at the same time.|
 
