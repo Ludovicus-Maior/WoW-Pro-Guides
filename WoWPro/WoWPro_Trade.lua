@@ -7,6 +7,7 @@
 -- list of all available professions and their skillLine ID
 WoWPro.ProfessionSkillLines = {
     [164] = { name = 'Blacksmithing' },
+		[2751] = { exp = 8, parent = 164, name = 'Shadowlands Blacksmithing' },
         [2437] = { exp = 7, parent = 164, name = 'Battle for Azeroth Blacksmithing' },
         [2454] = { exp = 6, parent = 164, name = 'Legion Blacksmithing' },
         [2472] = { exp = 5, parent = 164, name = 'Draenor Blacksmithing' },
@@ -17,6 +18,7 @@ WoWPro.ProfessionSkillLines = {
         [2477] = { exp = 0, parent = 164, name = 'Blacksmithing' },
 
     [165] = { name = 'Leatherworking' },
+		[2758] = { exp = 8, parent = 165, name = 'Shadowlands Leatherworking' },
         [2525] = { exp = 7, parent = 165, name = 'Battle for Azeroth Leatherworking' },
         [2526] = { exp = 6, parent = 165, name = 'Legion Leatherworking' },
         [2527] = { exp = 5, parent = 165, name = 'Draenor Leatherworking' },
@@ -27,6 +29,7 @@ WoWPro.ProfessionSkillLines = {
         [2532] = { exp = 0, parent = 165, name = 'Leatherworking' },
 
     [171] = { name = 'Alchemy' },
+		[2750] = { exp = 8, parent = 171, name = 'Shadowlands Alchemy' },
         [2478] = { exp = 7, parent = 171, name = 'Battle for Azeroth Alchemy' },
         [2479] = { exp = 6, parent = 171, name = 'Legion Alchemy' },
         [2480] = { exp = 5, parent = 171, name = 'Draenor Alchemy' },
@@ -37,6 +40,7 @@ WoWPro.ProfessionSkillLines = {
         [2485] = { exp = 0, parent = 171, name = 'Alchemy' },
 
     [182] = { name = 'Herbalism' },
+		[2760] = { exp = 8, parent = 182, name = 'Shadowlands Herbalism' },
         [2549] = { exp = 7, parent = 182, name = 'Battle for Azeroth Herbalism' },
         [2550] = { exp = 6, parent = 182, name = 'Legion Herbalism' },
         [2551] = { exp = 5, parent = 182, name = 'Draenor Herbalism' },
@@ -48,6 +52,7 @@ WoWPro.ProfessionSkillLines = {
 
     -- Cooking is not included in GetTradeSkillLineInfoByID()
     [185] = { name = 'Cooking' },
+		[2752] = { exp = 8, parent = 185, name = 'Shadowlands Cooking' },
         [2541] = { exp = 7, parent = 185, name = 'Battle for Azeroth Cooking' },
         [2542] = { exp = 6, parent = 185, name = 'Legion Cooking' },
         [2543] = { exp = 5, parent = 185, name = 'Draenor Cooking' },
@@ -66,6 +71,7 @@ WoWPro.ProfessionSkillLines = {
 
 
     [186] = { name = 'Mining' },
+		[2761] = { exp = 8, parent = 186, name = 'Shadowlands Mining' },
         [2565] = { exp = 7, parent = 186, name = 'Battle for Azeroth Mining' },
         [2566] = { exp = 6, parent = 186, name = 'Legion Mining' },
         [2567] = { exp = 5, parent = 186, name = 'Draenor Mining' },
@@ -76,6 +82,7 @@ WoWPro.ProfessionSkillLines = {
         [2572] = { exp = 0, parent = 186, name = 'Mining' },
 
     [197] = { name = 'Tailoring' },
+		[2759] = { exp = 8, parent = 197, name = 'Shadowlands Tailoring' },
         [2533] = { exp = 7, parent = 197, name = 'Battle for Azeroth Tailoring' },
         [2534] = { exp = 6, parent = 197, name = 'Legion Tailoring' },
         [2535] = { exp = 5, parent = 197, name = 'Draenor Tailoring' },
@@ -86,6 +93,7 @@ WoWPro.ProfessionSkillLines = {
         [2540] = { exp = 0, parent = 197, name = 'Tailoring' },
 
     [202] = { name = 'Engineering' },
+		[2755] = { exp = 8, parent = 202, name = 'Shadowlands Engineering' },
         [2499] = { exp = 7, parent = 202, name = 'Battle for Azeroth Engineering' },
         [2500] = { exp = 6, parent = 202, name = 'Legion Engineering' },
         [2501] = { exp = 5, parent = 202, name = 'Draenor Engineering' },
@@ -96,6 +104,7 @@ WoWPro.ProfessionSkillLines = {
         [2506] = { exp = 0, parent = 202, name = 'Engineering' },
 
     [333] = { name = 'Enchanting' },
+		[2753] = { exp = 8, parent = 333, name = 'Shadowlands Enchanting' },
         [2486] = { exp = 7, parent = 333, name = 'Battle for Azeroth Enchanting' },
         [2487] = { exp = 6, parent = 333, name = 'Legion Enchanting' },
         [2488] = { exp = 5, parent = 333, name = 'Draenor Enchanting' },
@@ -107,6 +116,7 @@ WoWPro.ProfessionSkillLines = {
 
     -- Fishing is not included in GetTradeSkillLineInfoByID()
     [356] = { name = 'Fishing' },
+		[2754] = { exp = 8, parent = 356, name = 'Shadowlands Fishing' },
         [2585] = { exp = 8, parent = 356, name = 'Battle for Azeroth Fishing' },
         [2586] = { exp = 7, parent = 356, name = 'Legion Fishing' },
         [2587] = { exp = 5, parent = 356, name = 'Draenor Fishing' },
@@ -117,6 +127,7 @@ WoWPro.ProfessionSkillLines = {
         [2592] = { exp = 0, parent = 356, name = 'Fishing' },
 
     [393] = { name = 'Skinning' },
+		[2762] = { exp = 8, parent = 393, name = 'Shadowlands Skinning' },
         [2557] = { exp = 7, parent = 393, name = 'Battle for Azeroth Skinning' },
         [2558] = { exp = 6, parent = 393, name = 'Legion Skinning' },
         [2559] = { exp = 5, parent = 393, name = 'Draenor Skinning' },
@@ -127,6 +138,7 @@ WoWPro.ProfessionSkillLines = {
         [2564] = { exp = 0, parent = 393, name = 'Skinning' },
 
     [755] = { name = 'Jewelcrafting' },
+		[2757] = { exp = 8, parent = 755, name = 'Shadowlands Jewelcrafting' },
         [2517] = { exp = 7, parent = 755, name = 'Battle for Azeroth Jewelcrafting' },
         [2518] = { exp = 6, parent = 755, name = 'Legion Jewelcrafting' },
         [2519] = { exp = 5, parent = 755, name = 'Draenor Jewelcrafting' },
@@ -137,6 +149,7 @@ WoWPro.ProfessionSkillLines = {
         [2524] = { exp = 0, parent = 755, name = 'Jewelcrafting' },
 
     [773] = { name = 'Inscription' },
+		[2756] = { exp = 8, name = 'Shadowlands Inscription' },
         [2507] = { exp = 7, name = 'Battle for Azeroth Inscription' },
         [2508] = { exp = 6, name = 'Legion Inscription' },
         [2509] = { exp = 5, name = 'Draenor Inscription' },
@@ -153,38 +166,6 @@ WoWPro.ProfessionSkillLines = {
     [960] = { name = 'Runeforging' },
     [2720] = { name = 'Junkyard Tinkering'}
 }
-
--- mapping of profession categories to tradeskill lines we are interested in
-WoWPro.ProfessionCategories = {
-    -- Cooking Pandaria Specializations
-    [64] = 975,     -- Way of the Grill
-    [65] = 976,     -- Way of the Wok
-    [66] = 977,     -- Way of the Pot
-    [67] = 978,     -- Way of the Steamer
-    [68] = 979,     -- Way of the Oven
-    [69] = 980,     -- Way of the Brew
-
-    -- Cooking
-    [1016] = 2548,  -- Classic
-    [1017] = 2547,  -- Outland
-    [1018] = 2548,  -- Northrend
-    [1019] = 2545,  -- Cataclysm
-    [1015] = 2544,  -- Pandaria
-    [1013] = 2543,  -- Draenor
-    [1014] = 2542,  -- Legion
-    [1117] = 2541,  -- Battle for Azeroth
-
-    -- Fishing
-    [1099] = 2592,  -- Classic
-    [1101] = 2591,  -- Outland
-    [1103] = 2590,  -- Northrend
-    [1105] = 2589,  -- Cataclysm
-    [1107] = 2588,  -- Pandaria
-    [1109] = 2587,  -- Draenor
-    [1111] = 2586,  -- Legion
-    [1113] = 2585   -- Battle for Azeroth
-}
-
 
 -- special handling for Classic because of the reduced addon API
 if WoWPro.CLASSIC then
