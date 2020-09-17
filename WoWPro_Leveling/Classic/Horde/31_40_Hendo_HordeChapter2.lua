@@ -1,6 +1,10 @@
+-- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+-- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
+
 local guide = WoWPro:RegisterGuide('Classic-31-40-Hendo-HordeChapter2', 'Leveling', 'Thousand Needles', 'Hendo72', 'Horde',1)
-WoWPro:GuideLevels(guide,31, 40)
-WoWPro:GuideNextGuide(guide, 'Classic-41-50-Hendo-HordeChapter3')
+WoWPro:GuideName(guide, 'Horde Chapter 2')
+WoWPro:GuideLevels(guide,30, 40)
+WoWPro:GuideNextGuide(guide, 'Classic-40-50-Hendo-HordeChapter3')
 WoWPro:GuideSteps(guide, function()
 return [[
 
@@ -10,26 +14,33 @@ F Thunder Bluff|QID|1195|M|45.50,63.84|Z|Orgrimmar|
 T The Sacred Flame|QID|1195|M|54.74,51.41|Z|Thunder Bluff|N|To Zangen Stonehoof.|
 
 F Camp Taurajo|QID|5881|M|47.02,49.83|Z|Thunder Bluff|
-R The Great Lift|QID|5881|M|47.21,58.80;44.12,91.37|Z|The Barrens|CC|N|Leave Camp Taurajo through the east gate and follow the Southern Gold Road south to the bottom of The Barrens.|
+A A New Ore Sample|QID|1153|M|45.10,57.73|Z|The Barrens|N|From Tatternack Steelforge.|
+R The Great Lift|QID|5881|M|32.23,20.46|Z|Thousand Needles|N|Leave Camp Taurajo through the east gate and follow the Southern Gold Road south to the bottom of The Barrens.|
 T Calling in the Reserves|QID|5881|M|31.87,21.65|N|To Grish Longrunner.|
 A Message to Freewind Post|QID|4542|M|32.22,22.11|N|From Brave Moonhorn.|
-l A New Ore Sample|QID|1153|L|5842|N|Kill Gravelsnout Surveyors and Diggers until one drops an Unrefined Ore Sample. They are spread out over the east and west ends of Thousand Needles.|NC|S|
+C A New Ore Sample|QID|1153|L|5842|N|Kill Gravelsnout Surveyors and Diggers until one drops an Unrefined Ore Sample. They are spread out over the east and west ends of Thousand Needles.|S|
 R Freewind Post|QID|4542|M|31.26,25.99;29.32,34.17;46.84,47.18|CC|N|Take the lift down to the bottom. Follow the road to Freewind Post. Continue a little further down the road and take the lift up.|
 T Message to Freewind Post|QID|4542|M|45.69,50.72|N|To Cliffwatcher Longhorn.|
 A Pacify the Centaur|QID|4841|M|45.69,50.72|N|From Cliffwatcher Longhorn.|PRE|4542|
 A Wanted - Arnak Grimtotem|QID|5147|M|45.96,50.85|N|From the wanted poster in front of the Inn.|
 h Freewind Post|QID|4841|M|46.04,51.41|N|Go inside the Inn and talk to Innkeeper Abeqwa to set your hearth to Freewind Post.|
+T The Sacred Flame|QID|1196|M|46.11,51.64|N|To Rau Cliffrunner.|
+A The Sacred Flame|QID|1197|M|46.11,51.64|N|From Rau Cliffrunner.|PRE|1196|
 f Freewind Post|QID|4841|M|45.15,49.17|N|Get the flight path from Nyse.|
 A Wind Rider|QID|4767|M|44.94,49.02|N|From Elu.|
 A Alien Egg|QID|4821|M|44.69,50.25|N|From Hagar Lightninghoof.|
 C Pacify the Centaur|QID|4841|QO|1;2;3|N|Kill Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance and the Windchasers heal themselves 75%. The Wranglers range attack if you leave melee range.|S|
-l The Sacred Flame|QID|1197|M|43.98,37.49;42.00,31.55|CC|L|5869|N|Head inside Splithoof Hold and make your way to the Ancient Brazier. Right-click on it to use the Filled Etched Phial to douse the flame and loot the Cloven Hoof.\n[color=FF0000]NOTE: [/color]Do this quick because as you're clearing your way to it, the mobs are starting to respawn back at the beginning. The longer you take, the more you will have to fight.|NC|
-C Pacify the Centaur|QID|4841|QO|1;2;3|N|Finish killing Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance and the Windchasers heal themselves 75%. The Wranglers range attack if you leave melee range.|US|
-A Test of Faith|QID|1149|M|48.41,42.92;54.63,44.68;53.60,42.82|CC|N|From Dorn Plainstalker.|
-C Test of Faith|QID|1149|N|Simple... jump off the planks sticking out. You'll be teleported back to the cave as you fall.|NC|
-T Test of Faith|QID|1149|M|53.60,42.82|N|To Dorn Plainstalker.|
+R Splithoof Hold|ACTIVE|1197|M|43.98,37.49|N|Leave Freewind Post and make your way northwest to Splithoof Hold.|
+R Ancient Brazier|ACTIVE|1197|M|42.00,31.55|CC|N|Head inside Splithoof Hold and make your way to the Ancient Brazier.|
+C The Sacred Flame|QID|1197|L|5869|N|Right-click on it to use the Filled Etched Phial to douse the flame and loot the Cloven Hoof.\n[color=FF0000]NOTE: [/color]Do this quick because as you're clearing your way to it, the mobs are starting to respawn back at the beginning. The longer you take, the more you will have to fight.|
+C Pacify the Centaur|QID|4841|QO|1;2;3|N|Finish killing Galak Scouts, Wranglers, and Windchasers.\n[color=FF0000]NOTE: [/color]The scouts will try to stay at range distance.\nThe Windchasers heal themselves 75%.\nThe Wranglers range attack if you leave melee range.|US|
+R Windbreak Canyon|AVAILABLE|1149|M|52.31,43.13|N|Make your way east to Windbreak Canyon.|
+R The Weathered Nook|AVAILABLE|1149|M|54.63,44.68;53.67,42.74|CC|N|Climb up the ramp to the cave entrance.|
+A Test of Faith|QID|1149|M|53.94,41.49|N|From Dorn Plainstalker.|
+R Test of Faith|ACTIVE|1149|M|26.43,32.39|CC|N|Run and jump off the planks sticking out. You'll be teleported back to the cave as you fall.|
+T Test of Faith|QID|1149|M|53.94,41.49|N|To Dorn Plainstalker.|
 A Test of Endurance|QID|1150|M|53.60,42.82|ELITE|N|[color=00FFFF]Group suggested or level up to solo[/color]\nFrom Dorn Plainstalker.|
-l Alien Egg|ACTIVE|4821|M|52.35,55.22;56.34,50.39|CN|L|12467|N|Look for the Alien Egg on the ground at one of two locations. There is a rumor of a third location. They have a fairly long respawn timer.|
+C Alien Egg|ACTIVE|4821|M|52.35,55.22;56.34,50.39|CN|L|12467|N|Look for the Alien Egg on the ground at one of two locations. There is a rumor of a third location. They have a fairly long respawn timer.|
 R Freewind Post|QID|1197|M|46.84,47.18|N|Run back to Freewind and take the lift up.|
 T Alien Egg|QID|4821|M|44.69,50.27|N|To Hagar Lightninghoof.|
 A Serpent Wild|QID|4865|M|44.69,50.27|N|From Hagar Lightninghoof.|PRE|4821|
@@ -37,21 +48,21 @@ T Pacify the Centaur|QID|4841|M|45.69,50.68|N|To Cliffwatcher Longhorn.|
 ;L Level 31|QID|4841|LVL|31|N|You should be around level 31 by this point.|
 A Grimtotem Spying|QID|5064|M|45.69,50.68|N|From Cliffwatcher Longhorn.|PRE|4841|
 T The Sacred Flame|QID|1197|M|46.11,51.64|N|To Rau Cliffrunner.|
-R Sky path access|QID|5064|M|31.22,36.91|N|Run to the base of the ramp leading up to the sky path.|
-l Secret Note #1|QID|5064|M|33.20,35.43;31.96,31.38;33.21,28.46;34.91,31.79;33.25,36.28;31.80,32.60|CS|L|12765|N|Make your way to the chest, open it and loot the Secret Note #1.|
-l Secret Note #2|QID|5064|M|33.26,36.25;33.78,39.97|CS|L|12766|N|Make your way to the chest inside the tent and loot Secret Note #2.|
-l Secret Note #3|QID|5064|M|35.63,39.35;39.32,41.53|CS|L|12767|N|Make your way to the chest inside the tent and loot Secret Note #3.|
-K Wanted - Arnak Grimtotem|QID|5147|M|35.67,31.01;37.99,26.64;37.65,31.47|CS|QO|1|N|Slowly, pull one mob after another until you can pull Arnak. Kill him and loot Arnak's Hoof.|
-A Free at Last|QID|4904|M|31.00,37.13|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Lakota Windsong.\n[color=FF0000]NOTE: [/color]If she's not there, she's either dead or someone else is on the quest and you'll have to wait.|
-C Free at Last|QID|4904|M|31.18,36.96|QO|1|N|Escort Lakota Windsong across the sky path and out of Darkcloud Pinnacle to the ground below.\nAs you reach the end of each bridge, a group of two will spawn and attack you. They stop spawning when you reach the top of the downward path.|
+R Sky path access|ACTIVE|5064|M|31.22,36.91|CC|N|Take the elevator down and run to the base of the ramp leading up to the sky path.|
+C Grimtotem Spying|QID|5064|M|33.20,35.43;31.96,31.38;33.21,28.46;34.91,31.79;33.25,36.28;31.80,32.60|CS|L|12765|N|Make your way to the chest, open it and loot the Secret Note #1.|
+C Grimtotem Spying|QID|5064|M|33.26,36.25;33.78,39.97|CS|L|12766|N|Make your way to the chest inside the tent and loot Secret Note #2.|
+C Grimtotem Spying|QID|5064|M|35.63,39.35;39.32,41.53|CS|L|12768|N|Make your way to the chest inside the tent and loot Secret Note #3.|
+K Wanted - Arnak Grimtotem|ACTIVE|5147|M|35.67,31.01;37.99,26.64;37.65,31.47|CS|QO|1|N|Slowly, pull one mob after another until you can pull Arnak. Kill him and loot Arnak's Hoof.|
+A Free at Last|QID|4904|M|37.98,26.75|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Lakota Windsong.\n[color=FF0000]NOTE: [/color]If she's not there, she's either dead or someone else is on the quest and you'll have to wait.|
+C Free at Last|QID|4904|M|30.99,37.05|QO|1|N|Escort Lakota Windsong across the sky path and out of Darkcloud Pinnacle to the ground below.\nAs you reach each 'plateau', a group of two will spawn and attack you. They stop spawning when you reach the last plateau and begin the downward path.\n[color=FF0000]NOTE: [/color]Leaving all of the pulling of mobs to her. If you pull at the wrong time, you could end up fighting 5 or 6 at once.|
 R Whitereach Post|QID|4770|M|29.19,33.96;22.22,31.51|CC|
 T Serpent Wild|QID|4865|M|21.58,32.30|N|To Motega Firemane.|
 A Sacred Fire|QID|5062|M|21.58,32.30|N|From Motega Firemane.|PRE|4865|
 R Highperch|QID|4767|M|28.22,33.32;25.06,34.48;20.70,39.97;14.68,32.76|CC|N|Make your way to the ramp leading to High Perch.|
-l Wind Rider|QID|4767|L|12356|N|Collect Highperch Wyvern Eggs.|NC|S|
-A Homeward Bound|QID|4770|M|17.8,40.6|N|From Pao'ka Swiftmountain.|
-C Homeward Bound|QID|4770|M|15.15,32.61|N|Escort Pao'ka out of Highperch to the road below.\nAt one point, Pao'ka will stop to talk and a single Wyvern will spawn. The only time it will happen.|
-l Wind Rider|QID|4767|L|12356|N|Go back to Highperch and finish collecting the Highperch Wyvern Eggs.|US|
+C Wind Rider|QID|4767|L|12356 10|N|Collect Highperch Wyvern Eggs.|S|
+A Homeward Bound|QID|4770|M|12.17,36.30;17.8,40.6|CC|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Pao'ka Swiftmountain.|
+C Homeward Bound|QID|4770|M|15.15,32.61|QO|1|N|Escort Pao'ka out of Highperch to the road below.\nAt one point, Pao'ka will stop to talk and a single Wyvern will spawn. This is the only time it happens.|
+C Wind Rider|QID|4767|L|12356 10|N|Go back to Highperch and finish collecting the Highperch Wyvern Eggs.|US|
 R Whitereach Post|QID|4770|M|14.92,33.04;17.82,35.63;19.42,33.14|CC|
 T Homeward Bound|QID|4770|M|21.54,32.33|N|To Motega Firemane.|
 A Hypercapacitor Gizmo|QID|5151|M|21.47,32.48|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Wizlo Bearingshiner.\n[color=FF0000]NOTE: [/color]This quest is not easy for some classes, especially at this level. Feel free to accept this quest and do it later if you so wish.\nThe exp and reward make this quest worth doing, even in a couple levels.|
