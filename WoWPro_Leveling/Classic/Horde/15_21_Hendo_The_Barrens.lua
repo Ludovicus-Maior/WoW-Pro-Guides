@@ -7,8 +7,6 @@ WoWPro:GuideLevels(guide, 10, 17, 13)
 WoWPro:GuideNextGuide(guide, 'Classic-21-30-Hendo-HordeChapter1')
 WoWPro:GuideSteps(guide, function() return [[
 
-N Hey|QID|1358|N|This is a new written guide by TheRealHendo. This guide is dungeon-run free. Although, you will have the option to accept the quests if you so wish. If you find a problem, please report it on Discord in #classic-bug-reports .  Enjoy and thanks!|
-
 h The Crossroads|QID|1358|M|51.99,29.89|N|At Innkeeper Boorand Plainswood.|
 
 ; --- Druid 'Cure Poison' lv 14 class quest cont.
@@ -592,6 +590,6 @@ N The Ashenvale Hunt|AVAILABLE|-6383|N|This quest unlocks 3 drop loot item quest
 ;C Sharptalon's Claw|QID|2|Z|Ashenvale|N|Kill the blue bird, Sharptalon, for its claw.|PRE|6383|
 ;C Ursangous's Paw|QID|23|Z|Ashenvale|N|Kill the grey bear, Ursangous, for its paw.|PRE|6383|
 
-F Sun Rock Retreat|M|73.25,61.67|Z|Ashenvale|N|Fly to Sun Rock Retreat.|
+F Sun Rock Retreat|QID|6421|M|73.25,61.67|Z|Ashenvale|N|Fly to Sun Rock Retreat.|
 ]]
 end)
