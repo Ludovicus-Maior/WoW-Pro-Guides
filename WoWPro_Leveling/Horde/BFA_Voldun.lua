@@ -9,14 +9,14 @@ N The Great Sea Scrolls|QID|53476|NA|U|163852|N|From Ancient Pilgrimage Scrollca
 t The Great Sea Scrolls|QID|53476|S!US|M|71.50,30.36|Z|Zuldazar|N|When it's convenient, fly to Scaletrader Post and turn this in, reward is Spec appropriate helm, check this off manually to be reminded again next time.|
 N Use of Ranks|N|Rank 1 is everything needed for the zone achievement, Rank 2 includes the steps that are done alongside the ones in Rank 1 and other convenient but not required steps. Rank 3 covers all quests, exploration points, rares and treasures in the zone.|
 N Rares (aka Silver Elite)|ACH|12943|N|Rares are not truely rare, they will respawn within a few minutes of being killed, so if it isn't there, stick around a minute or two and it will be. Once you hit 120, the rares reset daily, which means that if you are using the guide for multiple days, it may direct you to kill them again. Check off manually if you choose not to. If you want the guide to not tell you about rares at all, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable rares box). |
-N Traesure|ACH|12849|N|The majority of the treasure chests in Vol'dun are first come, respawning randomly.  There are a few one time treasures, If you want the guide to skip treasures, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable treasures box).
+N Treasure|ACH|12849|N|The majority of the treasure chests in Vol'dun are first come, respawning randomly.  There are a few one time treasures, If you want the guide to skip treasures, there is an option in the interface to turn those steps off. (ESC>Interface>Addons>Wow-Pro. Third line of options, uncheck the enable treasures box).
 A Vol'dun|QID|47513|M|41.77,69.35|Z|Hall of Croniclers!Dazar'alor|N|Pick Vol'dun from Scouting Map.|PRE|52131|
 t Vol'dun|QID|47513|M|57.81,44.34|Z|Hall of Croniclers!Dazar'alor|N|To Princess Talanji.|
 A Discreet Discussions|QID|47313|M|57.80,44.31|Z|Zuldazar|N|From Princess Talanji.|PRE|47513|
 C Discreet Discussions|QID|47313|M|50.12,37.41|Z|Dazar'alor|QO|1<1|NC|N|Outside and down either long set of stairs to find first, Enforcer Sekal.|
 C Discreet Discussions|QID|47313|M|52.20,37.54|Z|Dazar'alor|QO|1<2|NC|N|Continue down to find the next Enforcer Gortok.|
 C Discreet Discussions|QID|47313|M|54.26,35.85|Z|Dazar'alor|QO|1<3|NC|N|And down some more to find Enforcer Dakanji.|
-;to open up Jani's mysterious trashpiles
+;  to open up Jani's mysterious trashpiles
 R The Zocalo|AVAILABLE|47441|M|42.58,27.97|Z|Dazar'alor|N|A bit out of the way, but if you are into Achievements or pets, you want to get this quest done to open up "Get Hek'd".|RANK|3|
 A Pests|QID|47441|M|40.24,19.06|Z|Dazar'alor|N|From Nokano.|RANK|3|
 C Pests|QID|47441|M|40.58,18.88|Z|Dazar'alor|QO|1|N|Kill the little pests.|
@@ -26,7 +26,7 @@ A Curse of Jani|QID|47442|M|35.36,7.63|Z|Dazar'alor|N|From Jani.|RANK|3|PRE|4744
 C Curse of Jani|QID|47442|M|38.57,17.70|Z|Dazar'alor|QO|1|NC|N|Run back to Nokano.|
 C Curse of Jani|QID|47442|M|40.10,19.30|Z|Dazar'alor|QO|2|NC|N|Bite Nokano.|
 T Curse of Jani|QID|47442|M|35.46,7.71|Z|Dazar'alor|N|To Jani. You have now opened up Jani's cursed treasure quests all over Zandalar.|
-;unlikely allies
+;  Unlikely Allies
 T Discreet Discussions|QID|47313|M|51.57,31.82|Z|Dazar'alor|N|To Bladeguard Kaja.|
 A Rumors of Exile|QID|47314|M|51.57,31.82|Z|Dazar'alor|N|From Bladeguard Kaja.|PRE|47313|
 T Rumors of Exile|QID|47314|M|51.17,29.59;49.90,31.63|CS|Z|Dazar'alor|N|To Bladeguard Kaja who went down the stairs and around the corner to your left.|
@@ -50,12 +50,12 @@ C Answering Their Attacks|QID|47327|M|60.87,32.60|US|N|Finish up the Sethrak.|
 T Answering Their Attacks|QID|47327|M|60.87,32.60|N|To Nisha.|
 A An Explosive Exit|QID|51364|M|60.87,32.60|N|From Nisha.|PRE|49677&47327|
 C An Explosive Exit|QID|51364|M|60.04,34.60|QO|2|V|N|Hop on Nisha's wagon.|
-C An Explosive Exit|QID|51364|M|59.15,37.06|QO|3|NC|N|Use Special action button to throw fire flasks and Defend Nisha's wagon.|
+C An Explosive Exit|QID|51364|M|59.15,37.06|QO|3|NC|N|Use Special action button to throw fire flasks and Defend Nisha's wagon.|EAB|
 T An Explosive Exit|QID|51364|M|56.79,50.53|N|To Kiro.|
 A Restorative Venom|QID|47319|M|56.79,50.53|N|From Kiro.|PRE|51364|
 A Freshly Squeezed|QID|51574|M|56.76,50.53|N|From Meerah.|PRE|51364|
 f Vulpera Hideaway|ACTIVE|51574|M|56.97,49.26|N|At Narishi.|
-;dangers in the desert
+;  Dangers in the Desert
 K Bloodwing Bonepicker|QID|51079|M|59.59,50.68;57.21,53.25;56.09,53.59|CS|QO|1|RARE|ITEM|161019|T|Bloodwing Bonepicker|N|Click on the Enormous Egg to summon the momma bird. Kill this Silver Elite for artifact power and resources.|RANK|3|
 K Gut-Gut the Glutton|QID|49270|M|61.98,47.61;62.70,47.29;63.95,48.10;64.03,47.60|CS|RARE|QO|1|T|Gut-Gut the Glutton|N|You have to be dedicated to getting adventurer of Vol'dun to run up and get this one. Up the side of the mountain, in the middle of nowhere lives this silver elite eating birds and foolish adventurers. Kill and loot for artifact power and resources (or just check off and move on.)|RANK|3|
 C Freshly Squeezed|QID|51574|M|53.73,49.02|NC|S|N|Collect Pricklevine Juice from the plants.|
@@ -103,7 +103,7 @@ A Stolen Satchels|QID|48550|M|52.97,66.54|N|From Jorak.|PRE|47959|
 C Stolen Satchels|QID|48550|M|50.30,65.05|S|N|Kill the Sandfury Assassins to collect the Weathered Satchels.|
 A Ranah's Wrench|QID|51829|M|50.69,64.67|N|From Ranah's wrench.|RANK|2|
 K Grozztok the Blackheart|ACTIVE|48549|QO|1|M|49.36,64.84|T|Grozztok the Blackheart|N|Kill Grozztok the Blackheart. FYI, behind that warded  doorway is a treasure we will come back for later.|
-C Stolen Satchels|QID|48550|M|50.30,65.05|US|N|Finish collecting the Weathered Satchels.|
+C Stolen Satchels|QID|48550|M|50.30,65.05|US|N|Finish collecting the Weathered Satchels by killing the Sandfury Assassins.|
 T Ranah's Wrench|QID|51829|M|53.89,69.39|N|To Ranah.|
 A We Can Salvage the Seeds|QID|48555|M|53.89,69.39|N|From Ranah.|RANK|2|PRE|51829|
 A Wither Without Water|QID|48551|M|53.89,69.39|N|From Ranah.|RANK|2|PRE|51829|
@@ -125,7 +125,7 @@ K Vathikur|QID|49674|QO|1|M|55.38,71.11;57.28,73.29|CS|RARE|ITEM|161097|T|Vathik
 T The Source of the Problem|QID|48554|M|53.88,69.40|N|To Ranah.|
 T Stolen Satchels|QID|48550|M|53.34,65.99|N|To Jorak.|
 T Grozztok the Blackheart|QID|48549|M|53.19,66.05|N|To Bladeguard Kaja.|
-;The Warguard's Fate
+;  The Warguard's Fate
 A On the Move|QID|48684|M|53.18,66.05|N|From Bladeguard Kaja.|PRE|48550&48549|
 $ Excavator's Greed|QID|51136|M|57.73,64.63|N|A short backtrack for some treasure, Inside the ruins you can find this item to loot for artifact power and resources.|RANK|3|
 C On the Move|QID|48684|M|53.22,66.03|CHAT|N|Tell Meerah you are ready to go.|
@@ -148,20 +148,20 @@ T Powerful Conductors|QID|48993|M|53.18,90.30|N|To Akunda the Exalted.|
 A Cleanse the Mind|QID|48887|M|53.18,90.30|N|From Akunda the Exalted.|PRE|48991&48992&48993|
 A It Springs Eternal|QID|48888|M|53.18,90.30|N|From Akunda the Exalted.|PRE|48991&48992&48993|
 C It Springs Eternal|QID|48888|M|51.26,85.00|S|N|Kill Scavengers or Howlers as you go.|
+K Redrock Scavenger|QID|50892|M|50.94,84.78|L|158916|N|Kill Redrock Scavengers and Howlers until the Sturdy Redrock Jaw drops.|PRE|47442|RANK|3|
+$ Mysterious Trashpile|QID|50892|M|49.35,84.41|ITEM|158916|N|Click on the mysterious trashpile to summon Jani, give Jani the shiny and he will give you treasure.|PRE|47442|RANK|2|
 C Cleanse the Mind|QID|48887|M|52.85,88.32;52.16,83.85;52.17,83.34|CS|NC|QO|1|N|Go inside the small cave and click the shrine to Meditate.|
 C Cleanse the Mind|QID|48887|M|52.17,83.36|QO|2|N|Kill your Inner Demon.|
 C It Springs Eternal|QID|48888|M|51.26,85.00|US|N|Finish killing Scavengers or Howlers as you go back to turn in.|
 T Cleanse the Mind|QID|48887|M|53.18,90.30|N|To Akunda the Exalted.|
 T It Springs Eternal|QID|48888|M|53.18,90.30|N|To Akunda the Exalted.|
 A Trial of Truth|QID|48894|M|53.18,90.30|N|From Akunda the Exalted.|PRE|48887&48888|
-C Trial of Truth|QID|48894|M|53.18,90.30|CHAT|N|Speak your true name to Akunda the Exalted. (I think any of the options work)|
+C Trial of Truth|QID|48894|M|53.18,90.30|CHAT|N|Speak your true name to Akunda the Exalted. (Any of the 3 "[color=40C7EB]Akunda[/color]" options will work)|
 T Trial of Truth|QID|48894|M|53.18,90.30|N|To Akunda the Exalted.|
 A Akunda Awaits|QID|48715|M|53.15,90.19|N|From Bladeguard Kaja.|PRE|48894|
 C Akunda Awaits|QID|48715|M|53.17,91.17|NC|N|Investigate the Temple of Akunda.|
 T Akunda Awaits|QID|48715|M|53.58,91.65|N|To Bladeguard Kaja.|
 A Valley of Sorrows|QID|48987|M|53.58,91.35|N|From Akunda the Sensible.|PRE|48715|
-K Redrock Scavenger|QID|50892|M|50.94,84.78|L|158916|N|Kill Redrock Scavengers and Howlers until the Sturdy Redrock Jaw drops.|PRE|47442|RANK|3|
-$ Mysterious Trashpile|QID|50892|M|49.35,84.41|ITEM|158916|N|Click on the mysterious trashpile to summon Jani, give Jani the shiny and he will give you treasure.|PRE|47442|RANK|2|
 R Valley of Sorrows|ACTIVE|48987|M|53.56,82.55|N|Make your way to the Valley of Sorrows.|
 T Valley of Sorrows|QID|48987|M|53.01,78.78|N|To Meijani.|
 A Memory Breach|QID|48988|M|53.01,78.78|N|From Meijani.|PRE|48987|
@@ -184,7 +184,7 @@ C Akunda's Blessing|QID|50913|M|53.18,92.15|NC|N|Click on the bottom of the Alta
 T Akunda's Blessing|QID|50913|M|53.18,91.71|N|To Akunda.|
 A Clearing the Fog|QID|47874|M|53.61,91.66|N|From Akunda.|PRE|50913|
 T Clearing the Fog|QID|47874|M|52.80,89.23|N|To Warguard Rakera after she walkes s.l.o.w.l.y out of the temple.|
-;A City of Secrets
+;  A City of Secrets
 A Knowledge of the Past|QID|48896|M|52.80,89.23|N|From Warguard Rakera.|PRE|47874|
 C Knowledge of the Past|QID|48896|M|52.70,89.28|QO|1|CHAT|N|Tell Meerah we are ready to go.|
 C Knowledge of the Past|QID|48896|M|47.67,82.18|QO|3|N|Kill Sandfury Assassins who attack you.|
@@ -213,8 +213,8 @@ T The Secrets of Zul'Ahjin|QID|50539|M|48.91,74.49|N|To the Crumbling Statue.|
 A Hollow, Empty Eyes|QID|48315|M|48.91,74.49|N|From the Crumbling Statue.|PRE|50539|
 A Exterminate the Vermin|QID|50596|M|49.76,75.90|N|From Foreman Jethek.|RANK|2|
 C Exterminate the Vermin|QID|50596|M|51.34,73.55|NC|S|N|Click on the ball to free the Excavators.(Note, must be in snake form)|
-C Hollow, Empty Eyes|QID|48315|QO|1>1|M|49.85,73.18|NC|N|Pick up the Glittering Sapphire on the ground, near the wall.|
-C Hollow, Empty Eyes|QID|48315|QO|1>2|M|51.05,72.34|NC|N|Find the other Glittering Sapphire on the rubble at the corner of the building.|
+C Hollow, Empty Eyes|QID|48315|QO|1>1|M|49.85,73.18|NC|N|Pick up the Glittering Sapphire on the ground, near the wall.|  ;  doesn't work after first toon
+C Hollow, Empty Eyes|QID|48315|QO|1>2|M|51.05,72.34|NC|N|Find the other Glittering Sapphire on the rubble at the corner of the building.|  ;  doesn't work after first toon
 C Exterminate the Vermin|QID|50596|M|51.34,73.55|NC|US|N|Click on the ball to free the Excavators.|
 T Hollow, Empty Eyes|QID|48315|M|48.90,74.49|N|To the Crumbling Statue.|
 A Sulthis' Stone|QID|50561|M|48.90,74.26|N|To Ancient Reliquary.|PRE|48315|
@@ -235,7 +235,7 @@ A Unlikely Allies|QID|47324|M|47.06,75.72|N|From Serrik.|PRE|50561|
 A Seeking Shelter|QID|50794|M|47.07,75.66|N|From Julwaba.|PRE|50561|RANK|2|
 T Seeking Shelter|QID|50794|M|43.39,75.37|N|To Razgaji.|
 ;
-A I've Got Your Back|QID|51573|M|43.39,75.37|N|From Razgaji.|RANK|2|PRE|50794|
+A I've Got Your Back|QID|51573|M|43.39,75.37|N|From Razgaji.|RANK|2|  ;  Pre not needed PRE|50794|
 C I've Got Your Back|QID|51573|M|43.39,75.37|CHAT|N|Tell Razgaji you are ready, then walk down with him, look menacing and listen to the dialog.|
 T I've Got Your Back|QID|51573|M|43.39,75.37|N|To Razgaji.|
 A Hungry Mouths To Feed|QID|48529|M|43.39,75.37|N|From Razgaji.|RANK|2|PRE|51573|
@@ -407,7 +407,7 @@ T Escaping Zem'lan|QID|51062|M|38.88,77.29|N|To Norah.|
 A A Strange Delivery|QID|48327|M|38.88,77.29|N|From Norah.|RANK|2|PRE|51062|
 T WANTED: Za'roco|QID|51161|M|43.41,75.36|N|To Razgari.|
 R Zul'Ahjin|ACTIVE|47324|M|46.73,71.85|N|Run back to Zul'Ahjin to take a ride to your next area.|RANK|2|
-;The Three Keepers
+;  The Three Keepers
 C Unlikely Allies|QID|47324|M|46.79,75.45|V|N|Hop on the Pterrordax and take a ride.|
 T Unlikely Allies|QID|47324|M|27.22,53.94|N|To Serrik.|
 A A Powerful Prisoner|QID|49334|M|27.22,53.94|N|From Serrik.|PRE|47324|
@@ -557,10 +557,10 @@ T An Army's Arsenal|QID|49139|M|45.36,46.15|N|To Omi.|
 A Zandalari Treasure Trove|QID|48330|M|45.36,46.15|N|From Omi.|RANK|2|PRE|48335&48331&49139|
 K Zak'rajan the Undying|ACTIVE|48330|QO|1|M|47.28,41.63|T|Zak'rajan the Undying|N|Kill Zak'rajan the Undying.|
 K Ranishu Ravager|QID|50883|M|45.90,47.68|L|158910|N|Kill the Ranishu mobs in the area to get a "Charged Ranishu Antennae."|PRE|47442|RANK|3|
-$ Mysterious Trashpile|QID|50883|M|46.98,46.55|ITEM|158910|N|Click on the mysterious trashpile to summon Jani, give Jani the shiny and he will give you treasure.|PRE|47442|
+$ Mysterious Trashpile|QID|50883|M|46.98,46.55|ITEM|158910|N|Click on the mysterious trashpile to summon Jani, give Jani the shiny and he will give you treasure.|PRE|47442|RANK|2|
 T Zandalari Treasure Trove|QID|48330|M|45.37,46.15|N|To Omi.|
 K Sandscout Vesarik|ACTIVE|51165|QO|1|M|43.23,45.90|T|Sandscout Vesarik|US|N|If you are going to do this quest, now is the time, because we are leaving this area.|
-;Storming the Spire
+;  Storming the Spire
 R Bwoljiin's Fall|ACTIVE|49662|M|29.52,50.50;40.20,44.79;42.95,37.32|CS|N|Follow the road thru the Forward Camp, Temple Incursion and Bonetrail Gulch to find Vorrik.|RANK|-1|
 R Bwoljiin's Fall|ACTIVE|49662|M|42.86,37.48|RANK|2|N|Follow the road to Vorrik.|
 T The Missing Key|QID|49662|M|42.92,35.77|N|To Vorrik.|
@@ -663,7 +663,7 @@ A Defeat Jakra'zet|QID|50702|M|55.64,36.33|Z|Atul'Aman|N|From Warguard Rakera.|P
 K General Jakra'zet|ACTIVE|50702|M|64.45,36.91|Z|Atul'Aman|T|General Jakra'zet|QO|1|N|After he becomes attackable, Kill Jakra'zet.|
 T Defeat Jakra'zet|QID|50702|M|27.09,52.64|N|To Warguard Rakera.|
 A Informing the Horde|QID|50703|M|27.09,52.64|N|From Warguard Rakera. Not technically part of the zone achievement but may as well get it in case it's tied to a future questline.|PRE|50702|
-A Temple of Sethraliss: Avatar of the Loa|QID|50551|M|27.09,52.56|NA|N|From Vorrik. this is a dungeon quest.|
+A Temple of Sethraliss: Avatar of the Loa|QID|50551|M|27.09,52.56|NA|N|From Vorrik. this is a dungeon quest.|PRE|50702|
 H The Great Seal|ACTIVE|50703|M|27.65,50.32|N|Hearth or take a flight to Zuldazar from Vethiss.|RANK|-1|
 R The Forgotten Marsh|ACTIVE|51772|M|27.10,50.51|N|If you wanna finish out the rest of the quests / rares/ treasures in the zone Head over to Vorrik's Sanctum for more adventure.|RANK|3|
 $ Abandaned Bobber|QID|53004^53005|M|26.49,45.35|N|Inspect the abandoned bobber, which pulls up the Sandsunken Treasure.|RANK|3|
