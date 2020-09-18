@@ -1,12 +1,11 @@
 local guide = WoWPro:RegisterGuide('CagBastion', 'Leveling', "Bastion", 'Cagomei', 'Neutral')
-
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideNickname(guide, "Bastion")
 WoWPro:GuideName(guide,"Bastion")
 WoWPro:GuideNextGuide(guide, "Maldraxxus")
 WoWPro:GuideSteps(guide, function()
 return [[
-;Eternity's Call Storyline
+; Eternity's Call Storyline
 A Welcome to Eternity|QID|59774|M|37.47,76.44|Z|Bastion|N|From Kleia|PRE|59773|MS|
 C Welcome to Eternity|QID|59774|M|37.47,76.44|QO|1|Z|Bastion|CHAT|N|Speak to Kleia.|MS|
 C Welcome to Eternity|QID|59774|M|42.06,78.22|QO|2|Z|Bastion|NC|N|Follow Kleia.|MS|
@@ -23,7 +22,7 @@ C A Fate Most Noble|QID|57584|M|41.30,79.61|QO|5|Z|Bastion|NC|N|Click the giant 
 C A Fate Most Noble|QID|57584|M|42.49,80.26|QO|4|Z|Bastion|NC|N|Click on one of the floating scrolls.|MS|
 T A Fate Most Noble|QID|57584|M|42.06,78.22|Z|Bastion|N|To Kleia.|MS|
 A Trouble in Paradise|QID|60735|M|42.05,78.30|Z|Bastion|N|From Kleia.|PRE|57584|MS|
-C Trouble in Paradise|QID|60735|M|42.09,78.31|QO|Z|Bastion|CHAT|N|Speak to Kleia and let her handle the situation.|MS|
+C Trouble in Paradise|QID|60735|M|42.09,78.31|Z|Bastion|CHAT|N|Speak to Kleia and let her handle the situation.|MS|
 T Trouble in Paradise|QID|60735|M|42.26,78.31|Z|Bastion|N|To Kalisthene.|MS|
 A Walk the Path, Aspirant|QID|57261|M|42.26,78.31|Z|Bastion|N|From Kalisthene.|PRE|60735|MS|
 C Walk the Path, Aspirant|QID|57261|M|46.05,79.31|QO|1|Z|Bastion|NC|N|Travel with Kleia.|MS|
@@ -124,7 +123,7 @@ H Aspirant's Rest|ACTIVE|58174|N|Hearthstone back to Aspirant's Rest.|MS|
 C All An Aspirant Can Do|QID|58174|CS|M|53.50,88.37;54.72,86.26;53.57,84.57;52.79,81.10;50.77,75.32|Z|Bastion|N|Run back to Aspirant's Rest.|MS|
 T All An Aspirant Can Do|QID|58174|M|48.28,72.86|Z|Bastion|N|To Kleia.|MS|
 
-;The Temple of Purity Storyline
+; The Temple of Purity Storyline
 A The Temple of Purity|QID|57270|M|48.36,72.80|Z|Bastion|N|From Disciple Kosmas|PRE|58174|MS|
 A Hero's Rest|QID|62718|M|48.79,73.26|Z|Bastion|N|From the Scroll hanging on the wall.|LVL|50|
 A WANTED: Altered Sentinel|QID|60316|M|49.13,72.82|Z|Bastion|ELITE|N|[color=ff8000]Elite: [/color]From the scroll next to the tent.|LVL|51|
@@ -155,96 +154,107 @@ C Step Back From That Ledge, My Friend|QID|57717|M|60.15,79.03|Z|Bastion|QO|3|CH
 T Step Back From That Ledge, My Friend|QID|57717|M|59.31,77.05|Z|Bastion|N|To Eridia.|MS|
 A A Once Sweet Sound|QID|57037|M|59.31,77.06|Z|Bastion|N|From Eridia.|PRE|57717|MS|
 A The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion|N|From Eridia.|PRE|57717|MS|
-A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion|N|From The Scroll on the side of the temple.|PRE|57717|MS|
+C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion|N|Kill all the hostile mobs till the bar fills up.|S|MS|
 A An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion|N|From Acolyte Galistos.|LVL|51|
-
-C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion|N|Kill all the hostile mobs till the bar fills up.|S|
-C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion|N|Find the scrolls around the area.|S|
-C An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion|N|Throw the spear at the elites, wait till they are not elite then kill them.|S|
-C A Once Sweet Sound|QID|57037|M|57.32,71.34|Z|Bastion|QO|1|N|Vesper of Purity cleansed.|
-C A Once Sweet Sound|QID|57037|M|60.08,73.49|Z|Bastion|QO|2|N|Vesper of Harmony cleansed.|
-C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion|N|Find the scrolls around the area.|US|
-C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion|N|Kill all the hostile mobs till the bar fills up.|US|
-C An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion|N|Throw the spear at the elites, wait till they are not elite then kill them..|US|
-T A Once Sweet Sound|QID|57037|M|61.27,74.37|Z|Bastion|N|To Eridia.|
-T The Hand of Purification|QID|59147|M|61.27,74.37|Z|Bastion|N|To Eridia.|
-T Dangerous Discourse|QID|57719|M|61.27,74.37|Z|Bastion|N|To Eridia.|
+C An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|S|
+C A Once Sweet Sound|QID|57037|M|57.32,71.34|Z|Bastion|QO|1|N|Vesper of Purity cleansed.|MS|
+A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion|N|From The Scroll on the side of the temple.|PRE|57717|MS|
+C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion|NC|N|Find the scrolls around the area.|S|MS|
+C A Once Sweet Sound|QID|57037|M|60.08,73.49|Z|Bastion|QO|2|N|Vesper of Harmony cleansed.|MS|
+C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion|NC|N|Find the scrolls around the area.|US|MS|
+C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion|N|Kill all the hostile mobs till the bar fills up.|US|MS|
+C An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|US|
+T A Once Sweet Sound|QID|57037|M|61.27,74.37|Z|Bastion|N|To Eridia.|MS|
+T The Hand of Purification|QID|59147|M|61.27,74.37|Z|Bastion|N|To Eridia.|MS|
+T Dangerous Discourse|QID|57719|M|61.27,74.37|Z|Bastion|N|To Eridia.|MS|
 T An Inspired Moral Inventory|QID|57444|M|61.15,74.40|Z|Bastion|N|To Acolyte Galistos.|
-A The Enemy You Know|QID|57446|M|61.27,74.37|Z|Bastion|N|From Kleia.|PRE|57037^59147^57719|
-C The Enemy You Know|QID|57446|M|63.71,72.18|QO|1|Z|Bastion|N|Follow Eridia.|
-C The Enemy You Know|QID|57446|M|63.50,72.06|Z|Bastion|CHAT|QO|2|N|Speak to Kosmas.|
-C The Enemy You Know|QID|57446|M|PLAYER|Z|Bastion|QO|3|N|Throw the hammer at the Vespers.|
-T The Enemy You Know|QID|57446|M|64.22,71.47|Z|Bastion|N|To Disciple Kosmas.|
-A The Hand of Doubt|QID|57269|M|64.22,71.47|Z|Bastion|N|From Disciple Kosmas.|PRE|57446|
-C The Hand of Doubt|QID|57269|M|64.22,71.47|Z|Bastion|CHAT|QO|1|N|Speak to Disciple Kosmas.|
-C The Hand of Doubt|QID|57269|M|64.52,71.18|Z|Bastion|QO|2|N|Defeat Lysonia.|
-C The Hand of Doubt|QID|57269|M|64.62,71.09|Z|Bastion|QO|3|N|Witness Lysonia's fate.|
-T The Hand of Doubt|QID|57269|M|64.62,71.09|Z|Bastion|N|To Vesiphone.|
-A Purity's Prerogative|QID|57447|M|64.62,71.09|Z|Bastion|N|From Vesiphone.|PRE|57446|
-C Purity's Prerogative|QID|57447|M|PLAYER|Z|Bastion|CHAT|N|Talk to Vesiphone.|
-T Purity's Prerogative|QID|57447|M|53.85,73.66|Z|Bastion|N|To Kleia.|
-A Chasing a Memory|QID|58976|M|53.85,73.66|Z|Bastion|N|From Vesiphone.|PRE|57447|
-C Chasing a Memory|QID|58976|M|53.85,73.66|Z|Bastion|CHAT|N|Travel to the Mnemonic Locus.|
-T Chasing a Memory|QID|58976|M|54.72,64.14|Z|Bastion|N|To Mikanikos.|
-A Directions Not Included|QID|58771|M|54.72,64.14|Z|Bastion|N|From Mikanikos.|PRE|58976|
-A The Prime's Directive|QID|58799|M|54.72,64.14|Z|Bastion|N|From Mikanikos.|PRE|58976|
-C The Prime's Directive|QID|58799|M|55.83,62.47|Z|Bastion|N|Kill mobs till you have all the cores.|S|
-C Directions Not Included|QID|58771|CS|M|55.97,64.05;55.19,62.24;55.84,62.08;55.37,60.75|Z|Bastion|NC|N|Click the papers till you find the manual.|
-C The Prime's Directive|QID|58799|M|55.83,62.47|Z|Bastion|N|Kill mobs till you have all the cores.|US|
-T Directions Not Included|QID|58771|M|57.17,61.66|Z|Bastion|N|To Mikanikos.|
-T The Prime's Directive|QID|58799|M|57.17,61.66|Z|Bastion|N|To Mikanikos.|
-A The Mnemonic Locus|QID|58800|M|57.17,61.66|Z|Bastion|N|From Mikanikos.|PRE|58799|
-C The Mnemonic Locus|QID|58800|M|57.37,61.76|Z|Bastion|N|Stand in blue circle next to Mikanikos and hit the button.|
-T The Mnemonic Locus|QID|58800|M|57.54,61.83|Z|Bastion|N|To Mikanikos.|
-A What's In a Memory?|QID|58977|M|57.54,61.83|Z|Bastion|N|From Mikanikos.|PRE|58800|
-C What's In a Memory?|QID|58977|M|57.54,61.83|QO|1|Z|Bastion|CHAT|N|Speak with Mikanicos.|
-C What's In a Memory?|QID|58977|M|PLAYER|QO|2|Z|Bastion|N|kill the hostiles to collect the memories.|
-C What's In a Memory?|QID|58977|M|57.61,61.70|QO|3|Z|Bastion|NC|N|Click the Fragment of Lysonia.|
-T What's In a Memory?|QID|58977|M|57.51,61.72|Z|Bastion|N|To Kleia.|
-A Lysonia's Truth|QID|58978|M|57.51,61.72|Z|Bastion|N|From Kleia.|PRE|58977|
-C Lysonia's Truth|QID|58978|M|58.09,64.43|QO|1|Z|Bastion|NC|N|Click the Soul Mirror.|
-C Lysonia's Truth|QID|58978|M|58.93,62.72|QO|2|Z|Bastion|N|Click the Soul Mirror.|
-C Lysonia's Truth|QID|58978|M|59.52,59.64|QO|3|Z|Bastion|N|Click the Soul Mirror.|
-C Lysonia's Truth|QID|58978|M|57.17,54.41|QO|4|Z|Bastion|N|Click the Soul Mirror.|
-T Lysonia's Truth|QID|58978|M|57.25,55.36|Z|Bastion|N|To Mikanikos.|
-A I MADE You!|QID|58979|M|57.25,55.36|Z|Bastion|N|From Mikanikos.|PRE|58978|
-C I MADE You!|QID|58979|M|57.25,55.36|QO|1|Z|Bastion|CHAT|N|Speak to Mikanikos.|
-C I MADE You!|QID|58979|M|57.22,54.95|QO|2|Z|Bastion|N|Locus-Keeper Mnemis defeated.|
-T I MADE You!|QID|58979|M|57.26,55.26|Z|Bastion|N|To Locus-Keeper Mnemis.|
-A Mnemis, At Your Service|QID|58980|M|57.26,55.26|Z|Bastion|N|From Locus-Keeper Mnemis.|PRE|58979|
-C Mnemis, At Your Service|QID|58980|M|59.90,58.18|QO|1|Z|Bastion|NC|N|Wait for Mikanikos to un ward the chest then collect it.|
-C Mnemis, At Your Service|QID|58980|M|60.59,61.89|QO|2|Z|Bastion|NC|N|Wait for Mikanikos to un ward the chest then collect it.|
-T Mnemis, At Your Service|QID|58980|M|58.87,65.25|Z|Bastion|N|To Locus-Keeper Mnemis.|
-A The Vault of the Archon|QID|58843|M|58.87,65.25|Z|Bastion|N|From Locus-Keeper Mnemis.|PRE|58980|
-C The Vault of the Archon|QID|58843|M|58.87,65.25|QO|1|Z|Bastion|NC|N|Click the two statues behind you.|
-C The Vault of the Archon|QID|58843|M|57.93,68.58|QO|2|Z|Bastion|CHAT|N|Talk to Mikanikos.|
-C The Vault of the Archon|QID|58843|M|57.70,67.16|QO|3|Z|Bastion|N|Help Kliea kill the hostiles.|
-C The Vault of the Archon|QID|58843|M|56.16,67.64|QO|4|Z|Bastion|N|Follow the path down.|
-T The Vault of the Archon|QID|58843|M|56.16,67.64|Z|Bastion|N|To Locus-Keeper Mnemis.|
-A A Paragon's Reflection|QID|60180|M|56.16,67.64|Z|Bastion|N|From Locus-Keeper Mnemis.|PRE|58843|
-C A Paragon's Reflection|QID|60180|M|PLAYER|QO|1|Z|Bastion|NC|N|Click the eyes around the room.|
-T A Paragon's Reflection|QID|60180|M|56.16,67.64|Z|Bastion|N|To Locus-Keeper Mnemis.|
-A Leave it to Mnemis|QID|60013|M|56.16,67.64|Z|Bastion|N|From Locus-Keeper Mnemis.|PRE|60180|
-C Leave it to Mnemis|QID|60013|M|57.70,67.17|Z|Bastion|N|Click the transport pad.|
-T Leave it to Mnemis|QID|60013|M|54.42,64.27|Z|Bastion|N|To Kleia.|
-A Go in Service|QID|59196|M|54.42,64.27|Z|Bastion|N|From Kleia.|PRE|60013|
-C Go in Service|QID|59196|M|55.97,52.75|Z|Bastion|NC|N|Click the transport pad.|
+A The Enemy You Know|QID|57446|M|61.27,74.37|Z|Bastion|N|From Kleia.|PRE|57037^59147^57719|MS|
+C The Enemy You Know|QID|57446|M|63.71,72.18|QO|1|Z|Bastion|NC|N|Follow Eridia.|MS|
+C The Enemy You Know|QID|57446|M|63.50,72.06|Z|Bastion|CHAT|QO|2|N|Speak to Kosmas.|MS|
+C The Enemy You Know|QID|57446|M|PLAYER|Z|Bastion|QO|3|NC|N|Press '1' to throw the hammer at the Vespers and cleanse them.|MS|
+T The Enemy You Know|QID|57446|M|64.22,71.47|Z|Bastion|N|To Disciple Kosmas.|MS|
+A The Hand of Doubt|QID|57269|M|64.22,71.47|Z|Bastion|N|From Disciple Kosmas.|PRE|57446|MS|
+C The Hand of Doubt|QID|57269|M|64.22,71.47|Z|Bastion|CHAT|QO|1|N|Speak to Disciple Kosmas.|MS|
+C The Hand of Doubt|QID|57269|M|64.52,71.18|Z|Bastion|QO|2|N|Defeat Lysonia.|MS|
+C The Hand of Doubt|QID|57269|M|64.62,71.09|Z|Bastion|QO|3|N|Witness Lysonia's fate.|MS|
+T The Hand of Doubt|QID|57269|M|64.62,71.09|Z|Bastion|N|To Vesiphone.|MS|
+A Purity's Prerogative|QID|57447|M|64.62,71.09|Z|Bastion|N|From Vesiphone.|PRE|57269|MS|
+C Purity's Prerogative|QID|57447|M|PLAYER|Z|Bastion|CHAT|N|Talk to Vesiphone who will fly you back down to Kleia.|MS|
+T Purity's Prerogative|QID|57447|M|53.85,73.66|Z|Bastion|N|To Kleia.|MS|
+
+; Chasing a Memory Storyline
+A Chasing a Memory|QID|58976|M|53.85,73.66|Z|Bastion|N|From Vesiphone.|PRE|57447|MS|
+C Chasing a Memory|QID|58976|M|53.85,73.66|Z|Bastion|NC|N|Travel to the Mnemonic Locus.|MS|
+T Chasing a Memory|QID|58976|M|54.72,64.14|Z|Bastion|N|To Mikanikos.|MS|
+A Directions Not Included|QID|58771|M|54.72,64.14|Z|Bastion|N|From Mikanikos.|PRE|58976|MS|
+A The Prime's Directive|QID|58799|M|54.72,64.14|Z|Bastion|N|From Mikanikos.|PRE|58976|MS|
+C The Prime's Directive|QID|58799|M|55.83,62.47|Z|Bastion|N|Kill mobs till you have all the cores.|S|MS|
+C Directions Not Included|QID|58771|CS|M|55.97,64.05;55.19,62.24;55.84,62.08;55.37,60.75|Z|Bastion|NC|N|Click the papers till you find the manual.|MS|
+C The Prime's Directive|QID|58799|M|55.83,62.47|Z|Bastion|N|Kill mobs till you have all the cores.|US|MS|
+T Directions Not Included|QID|58771|M|57.17,61.66|Z|Bastion|N|To Mikanikos.|MS|
+T The Prime's Directive|QID|58799|M|57.17,61.66|Z|Bastion|N|To Mikanikos.|MS|
+A The Mnemonic Locus|QID|58800|M|57.17,61.66|Z|Bastion|N|From Mikanikos.|PRE|58799&58771|MS|
+C The Mnemonic Locus|QID|58800|M|57.37,61.76|Z|Bastion|NC|N|Stand in blue circle next to Mikanikos and click the Anima Conduit.|MS|
+T The Mnemonic Locus|QID|58800|M|57.54,61.83|Z|Bastion|N|To Mikanikos.|MS|
+A What's In a Memory?|QID|58977|M|57.54,61.83|Z|Bastion|N|From Mikanikos.|PRE|58800|MS|
+C What's In a Memory?|QID|58977|M|57.54,61.83|QO|1|Z|Bastion|CHAT|N|Speak with Mikanicos.|MS|
+C What's In a Memory?|QID|58977|M|PLAYER|QO|2|Z|Bastion|N|kill the hostiles to collect the memories.|MS|
+C What's In a Memory?|QID|58977|M|57.61,61.70|QO|3|Z|Bastion|NC|N|Click the Fragment of Lysonia.|MS|
+T What's In a Memory?|QID|58977|M|57.51,61.72|Z|Bastion|N|To Kleia.|MS|
+A Lysonia's Truth|QID|58978|M|57.51,61.72|Z|Bastion|N|From Kleia.|PRE|58977|MS|
+A Hostile Recollection|QID|59015^62735|M|PLAYER|Z|Bastion|N|Bonus Objective - Autoaccepted.|
+C Hostile Recollection|QID|59015^62735|M|PLAYER|Z|Bastion|N|Kill enemies as you go, click on things laying around.|S|
+C Lysonia's Truth|QID|58978|M|58.09,64.43|QO|1|Z|Bastion|NC|N|Click the Soul Mirror.|MS|
+C Lysonia's Truth|QID|58978|M|58.93,62.72|QO|2|Z|Bastion|NC|N|Click the Soul Mirror.|MS|
+C Lysonia's Truth|QID|58978|M|59.52,59.64|QO|3|Z|Bastion|NC|N|Click the Soul Mirror.|MS|
+C Lysonia's Truth|QID|58978|M|57.17,54.41|QO|4|Z|Bastion|NC|N|Click the Soul Mirror.|MS|
+T Lysonia's Truth|QID|58978|M|57.25,55.36|Z|Bastion|N|To Mikanikos.|MS|
+A I MADE You!|QID|58979|M|57.25,55.36|Z|Bastion|N|From Mikanikos.|PRE|58978|MS|
+C I MADE You!|QID|58979|M|57.25,55.36|QO|1|Z|Bastion|CHAT|N|Speak to Mikanikos.|MS|
+C I MADE You!|QID|58979|M|57.22,54.95|QO|2|Z|Bastion|N|Locus-Keeper Mnemis defeated.|MS|
+T I MADE You!|QID|58979|M|57.26,55.26|Z|Bastion|N|To Locus-Keeper Mnemis.|MS|
+A Mnemis, At Your Service|QID|58980|M|57.26,55.26|Z|Bastion|N|From Locus-Keeper Mnemis.|PRE|58979|MS|
+A Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Bonus Objective - Autoaccepted.|
+C Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Kill enemies as you go, click on things laying around.|S|
+C Mnemis, At Your Service|QID|58980|M|59.90,58.18|QO|1|Z|Bastion|NC|N|Wait for Mikanikos to un ward the chest then collect it.|MS|
+C Mnemis, At Your Service|QID|58980|M|60.59,61.89|QO|2|Z|Bastion|NC|N|Wait for Mikanikos to un ward the chest then collect it.|MS|
+C Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Fishish repeling the threat before turning in the next quest if you like having Kleia tanking for you.|US|
+t Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Auto Turn-in.|
+T Mnemis, At Your Service|QID|58980|M|58.87,65.25|Z|Bastion|N|To Locus-Keeper Mnemis.|MS|
+A The Vault of the Archon|QID|58843|M|58.87,65.25|Z|Bastion|N|From Locus-Keeper Mnemis.|PRE|58980|MS|
+C The Vault of the Archon|QID|58843|M|58.87,65.25|QO|1|Z|Bastion|NC|N|Click the two Vault Guardian statues behind you to gain entry.|MS|
+C The Vault of the Archon|QID|58843|M|57.93,68.58|QO|2|Z|Bastion|CHAT|N|Run into the vault, talk with Mikanikos once you find him toward the back.|MS|
+C The Vault of the Archon|QID|58843|M|57.70,67.16|QO|3|Z|Bastion|N|Help Kliea kill the waves of enemies attacking her.|MS|
+C The Vault of the Archon|QID|58843|M|56.16,67.64|QO|4|Z|Bastion|N|Go down the tunnel into the inner vault.|MS|
+T The Vault of the Archon|QID|58843|M|56.16,67.64|Z|Bastion|N|To Locus-Keeper Mnemis.|MS|
+A A Paragon's Reflection|QID|60180|M|56.16,67.64|Z|Bastion|N|From Locus-Keeper Mnemis.|PRE|58843|MS|
+C A Paragon's Reflection|QID|60180|M|PLAYER|QO|1|Z|Bastion|NC|N|Click the eyes around the room.|MS|
+T A Paragon's Reflection|QID|60180|M|56.16,67.64|Z|Bastion|N|To Locus-Keeper Mnemis.|MS|
+A Leave it to Mnemis|QID|60013|M|56.16,67.64|Z|Bastion|N|From Locus-Keeper Mnemis.|PRE|60180|MS|
+C Leave it to Mnemis|QID|60013|M|57.70,67.17|Z|Bastion|NC|N|Click the transport pad.|MS|
+T Leave it to Mnemis|QID|60013|M|54.42,64.27|Z|Bastion|N|To Kleia.|MS|
+
+; Your Personal Assistant Storyline
+A Go in Service|QID|59196|M|54.42,64.27|Z|Bastion|N|From Kleia.|PRE|60013|MS|
+C Go in Service|QID|59196|M|55.97,52.75|Z|Bastion|NC|N|Click the transport pad.|MS|
 C Hero's Rest|QID|62718|M|55.97,52.75|Z|Bastion|NC|N|Click the transport pad.|
-T Go in Service|QID|59196|M|52.89,48.04|Z|Bastion|N|To Kleia.|
+T Go in Service|QID|59196|M|52.89,48.04|Z|Bastion|N|To Kleia.|MS|
 T Hero's Rest|QID|62718|M|52.83,47.88|Z|Bastion|N|To Kalisthene.|
-A Your Personal Assistant|QID|59426|M|52.83,47.88|Z|Bastion|N|From Kalisthene.|PRE|62718|
-C Your Personal Assistant|QID|59426|M|PLAYER|Z|Bastion|CHAT|N|Talk to one of the stewards to make it your freind.|
-T Your Personal Assistant|QID|59426|M|52.83,47.88|Z|Bastion|N|To Kalisthene.|
-A WANTED: Gorgebeak|QID|60315|M|53.57,46.43|Z|Bastion|ELITE|N|From the scroll on the wall.|PRE|62718|
-A WANTED: Darkwing|QID|60366|M|53.57,46.43|Z|Bastion|ELITE|N|From the scroll on the wall.|PRE|62718|
-A A Fine Journey|QID|59554|M|51.93,47.70|Z|Bastion|N|From the scroll on the wall.|PRE|62718|
-A Steward at Work|QID|59197|M|52.83,47.88|Z|Bastion|N|From Kalisthene.|PRE|59426|
-C Steward at Work|QID|59197|M|PLAYER|Z|Bastion|QO|1|N|Use the new summon steward spell you just received.|
-C Steward at Work|QID|59197|M|PLAYER|Z|Bastion|QO|2|CHAT|N|Talk to the Steward you summoned and ask him to fix the beacon.|
-C Steward at Work|QID|59197|M|53.24,46.82|Z|Bastion|QO|3|NC|N|Click the beacon of invocation.|
+A Your Personal Assistant|QID|59426|M|52.83,47.88|Z|Bastion|N|From Kalisthene.|PRE|59196|MS|
+C Your Personal Assistant|QID|59426|M|PLAYER|Z|Bastion|CHAT|N|Talk to one of the stewards to make it your freind.|MS|
+T Your Personal Assistant|QID|59426|M|52.83,47.88|Z|Bastion|N|To Kalisthene.|MS|
+A WANTED: Gorgebeak|QID|60315|M|53.57,46.43|Z|Bastion|ELITE|N|From the scroll on the wall.|LVL|51|
+A WANTED: Darkwing|QID|60366|M|53.57,46.43|Z|Bastion|ELITE|N|From the scroll on the wall.|LVL|52|
+A A Fine Journey|QID|59554|M|51.93,47.70|Z|Bastion|N|From the scroll on the wall.|PRE|62718|LVL|52|
+A Steward at Work|QID|59197|M|52.83,47.88|Z|Bastion|N|From Kalisthene.|PRE|59426|MS|
+C Steward at Work|QID|59197|M|PLAYER|Z|Bastion|QO|1|N|Use the new summon steward spell you just received.|MS|
+C Steward at Work|QID|59197|M|PLAYER|Z|Bastion|QO|2|CHAT|N|Talk to the Steward you summoned and ask him to fix the beacon.|MS|
+C Steward at Work|QID|59197|M|53.24,46.82|Z|Bastion|QO|3|NC|N|Click to activate the beacon of invocation.|MS|
 h Hero's Rest|QID|59197|M|53.15,46.88|Z|Bastion|N|At Inkiep.|
 f Hero's Rest|ACTIVE|59197|M|51.40,46.80|Z|Bastion|N|At Navarros.|
-T Steward at Work|QID|59197|M|52.86,45.66|Z|Bastion|N|To Polemarch Adrestes.|
+T Steward at Work|QID|59197|M|52.86,45.66|Z|Bastion|N|To Polemarch Adrestes.|MS|
+
+; Side Quest stuff
 A A Friendly Rivalry|QID|59674|M|57.40,54.29|Z|Bastion|N|Take a teleportation pad down and grab this from Pelodis.|
 C More Than A Gift|QID|62715|M|45.56,59.70|Z|Bastion|NC|N|Click on the flower.|
 C A Fine Journey|QID|59554|M|46.96,63.44|Z|Bastion|N|Run over to Keeper Mnemis.|
@@ -369,67 +379,71 @@ C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|4|CHAT|N|Choose Phalynx or 
 T Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|N|To Nemea.|
 H Hero's Rest|QID|60366|U|6948
 T WANTED: Darkwing|QID|60366|M|52.43,48.00|Z|Bastion|ELITE|N|To Eumelia.|
-A On Swift Wings|QID|59198|M|52.86,45.66|Z|Bastion|CHAT|N|Speak to Polemarch Adrestes.|
-C On Swift Wings|QID|59198|M|52.86,45.66|Z|Bastion|CHAT|N|Speak to Polemarch Adrestes.|
-f Elysian Hold|ACTIVE|59198|M|51.30,48.52|Z|1707|N|At Cassius.|
-T On Swift Wings|QID|59198|M|55.49,42.17|Z|1707|N|To Polemarch Adrestes.|
-A Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|N|From Polemarch Adrestes.|
-C Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|CHAT|N|Speak to Polemarch Adrestes.|
-T Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|N|To Polemarch Adrestes.|
-A The Wards of Bastion|QID|59200|M|55.49,42.17|Z|1707|N|From Polemarch Adrestes.|
-C The Wards of Bastion|QID|59200|M|52.11,78.70|Z|1707|QO|1|NC|N|Ward of Purity checked.|
-C The Wards of Bastion|QID|59200|M|58.79,88.12|Z|1707|QO|2|NC|N|Ward of Humility checked.|
-C The Wards of Bastion|QID|59200|M|59.38,89.15|Z|1707|QO|3|NC|N|Ward of Wisdom checked.|
-C The Wards of Bastion|QID|59200|M|53.99,75.70|Z|1707|QO|4|NC|N|Ward of Loyalty checked.|
-C The Wards of Bastion|QID|59200|M|61.03,85.90|Z|1707|QO|5|NC|N|Ward of Courage checked.|
-T The Wards of Bastion|QID|59200|M|55.48,42.12|Z|1707|N|To Polemarch Adrestes. |
-A Imminent Danger|QID|60005|M|55.47,42.28|Z|1707|N|From Polemarch Adrestes.|
-C Imminent Danger|QID|60005|M|51.10,48.82|Z|1707|CHAT|N|Speak to Cassius.|
-T Imminent Danger|QID|60005|M|41.79,55.18|Z|Bastion|N|To Thanikos.|
-A Now or Never|QID|60006|M|41.77,55.18|Z|Bastion|N|From Thanikos.|
-C Now or Never|QID|60006|M|41.77,55.18|Z|Bastion|CHAT|QO|1|N|Speak to Thanikos.|
-C Now or Never|QID|60006|M|41.77,55.18|Z|Bastion|QO|2|N|Kill the mobs till you aquire Xandria's Vigil.|
-T Now or Never|QID|60006|M|40.61,55.20|Z|Bastion|N|To Thanikos.|
-A Rip and Tear|QID|60008|M|40.61,55.20|Z|Bastion|N|From Thanikos.|
-A Stay Scrappy|QID|60007|M|40.72,55.48|Z|Bastion|N|From Mikanikos.|
-A Fight Another Day|QID|60009|M|41.30,54.36|Z|Bastion|N|From Disciple Apolon.|
-C Fight Another Day|QID|60009|M|40.25,51.07|Z|Bastion|NC|N|Free the Acended.|S|
-C Rip and Tear|QID|60008|M|40.25,51.07|Z|Bastion|N|Kill all the hostile mobs.|S|
-C Stay Scrappy|QID|60007|M|40.76,52.21|QO|1|Z|Bastion|NC|N|Click on the Anima Conflux.|
-C Stay Scrappy|QID|60007|M|39.48,48.99|QO|3|Z|Bastion|NC|N|Click the Archonic Resonator.|
-C Stay Scrappy|QID|60007|M|39.69,52.66|QO|2|Z|Bastion|NC|N|Click the Eternity Plating.|
-C Rip and Tear|QID|60008|M|40.25,51.07|Z|Bastion|N|Kill all the hostile mobs.|US|
-C Fight Another Day|QID|60009|M|40.25,51.07|Z|Bastion|NC|N|Free the Acended.|US|
-T Rip and Tear|QID|60008|M|PLAYER|Z|Bastion|N|To Thanikos.|
-T Fight Another Day|QID|60009|M|41.30,54.42|Z|Bastion|N|To Disciple Apolon.|
-T Stay Scrappy|QID|60007|M|40.72,55.48|Z|Bastion|N|To Mikanicos.|
-A Clear as Crystal|QID|60053|M|40.72,55.48|Z|Bastion|N|From Mikanicos.|
-A Double Tap|QID|60052|M|PLAYER|Z|Bastion|N|From Thanikos.|
-C Double Tap|QID|60052|M|40.33,57.85|Z|Bastion|N|Use the crystal to burn the bodies.|S|U|178140
-C Clear as Crystal|QID|60053|M|40.33,57.85|Z|Bastion|NC|N|Click on the crystlas littered around.|
-C Double Tap|QID|60052|M|40.33,57.85|Z|Bastion|N|Kill the mobs then use the crystal to burn the bodies..|US|U|178140|
-T Clear as Crystal|QID|60053|M|39.78,55.17|Z|Bastion|N|To Mikanicos|
-T Double Tap|QID|60052|M|39.48,55.25|Z|Bastion|N|To Thanikos.|
-A The Final Countdown|QID|60054|M|39.48,55.25|Z|Bastion|N|From Thanikos.|
-C The Final Countdown|QID|60054|M|39.48,55.25|CHAT|QO|1|Z|Bastion|N|Speak to Thanikos.|
-C The Final Countdown|QID|60054|M|39.48,55.25|QO|2|Z|Bastion|N|Fight the mobs.|
-C The Final Countdown|QID|60054|M|PLAYER|QO|3|Z|Bastion|NC|N|Click on the collossus and clear the blockage.|
-T The Final Countdown|QID|60054|M|38.96,55.24|Z|Bastion|N|To Thanikos.|
-A A Time for Courage|QID|60055|M|38.96,55.24|Z|Bastion|N|From Thanikos.|
-C A Time for Courage|QID|60055|M|38.96,55.24|CHAT|QO|1|Z|Bastion|N|Speak to Thanikos.|
-C A Time for Courage|QID|60055|M|34.41,55.34|QO|2|Z|Bastion|N|Kill the elite.|
-C A Time for Courage|QID|60055|M|34.59,55.10|QO|3|Z|Bastion|NC|N|Click on Disciple Apolon.|
-T A Time for Courage|QID|60055|M|40.88,55.10|Z|Bastion|N|To Disciple Apolon.|
-A Follow the Path|QID|60056|M|40.88,55.10|Z|Bastion|N|From Disciple Apolon.|
-H Hero's Rest|QID|60056|U|6948|M|PLAYER|
-F Oribos|QID|60056|M|51.40,46.80|
-C Follow the Path|QID|60056|CS|M|49.48,60.92;38.91,69.93|Z|Bastion|N|Click the teleporter, then run outside.|
-T Follow the Path|QID|60056|M|38.91,69.93|Z|1670|N|To Tal-Inara.|
-A The Arbiter's Will|QID|61096|M|38.91,69.93|Z|1670|N|From Tal-Inara.|
-C The Arbiter's Will|QID|61096|M|52.12,57.91|Z|1670|N|Use the Teleport Pad.|
-T The Arbiter's Will|QID|61096|M|60.78,36.83|Z|1670|N|To Overseer Kah-Sher.|
-A A Land of Strife|QID|61107|M|61.03,36.71|Z|1670|N|From Tal-Inara.|
-C A Land of Strife|QID|61107|M|59.95,35.96|Z|1670|N|Clicky on the blue sword.|
-T A Land of Strife|QID|61107|M|61.03,36.71|Z|1670|N|To Tal-Inara.|
+
+; Your Personal Assistant Storyline continues
+A On Swift Wings|QID|59198|M|52.86,45.66|Z|Bastion|CHAT|N|Speak to Polemarch Adrestes.|PRE|59197|MS|
+C On Swift Wings|QID|59198|M|52.86,45.66|Z|Bastion|CHAT|N|Speak to Polemarch Adrestes for a ride to Elysian Hold.|MS|
+T On Swift Wings|QID|59198|M|55.49,42.17|Z|1707|N|To Polemarch Adrestes.|MS|
+A Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|N|From Polemarch Adrestes.|PRE|59198|MS|
+C Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|CHAT|N|Speak to Polemarch Adrestes.|MS|
+T Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|N|To Polemarch Adrestes.|MS|
+A The Wards of Bastion|QID|59200|M|55.49,42.17|Z|1707|N|From Polemarch Adrestes.|PRE|59199|MS|
+C The Wards of Bastion|QID|59200|M|52.11,78.70|Z|1707|QO|1|NC|N|Ward of Purity checked.|MS|
+C The Wards of Bastion|QID|59200|M|53.99,75.70|Z|1707|QO|4|NC|N|Ward of Loyalty checked.|MS|
+C The Wards of Bastion|QID|59200|M|58.79,88.12|Z|1707|QO|2|NC|N|Ward of Humility checked.|MS|
+C The Wards of Bastion|QID|59200|M|59.38,89.15|Z|1707|QO|3|NC|N|Ward of Wisdom checked.|MS|
+C The Wards of Bastion|QID|59200|M|61.03,85.90|Z|1707|QO|5|NC|N|Ward of Courage checked.|MS|
+T The Wards of Bastion|QID|59200|M|55.48,42.12|Z|1707|N|To Polemarch Adrestes.|MS|
+
+; Time for Courage Storyline
+A Imminent Danger|QID|60005|M|55.47,42.28|Z|1707|N|From Polemarch Adrestes.|PRE|59200|MS|
+C Imminent Danger|QID|60005|M|51.10,48.82|Z|1707|CHAT|N|Speak to Cassius for a flight to the Temple of Courage.|MS|
+T Imminent Danger|QID|60005|M|41.79,55.18|Z|Bastion|N|To Thanikos.|MS|
+A Now or Never|QID|60006|M|41.77,55.18|Z|Bastion|N|From Thanikos.|PRE|60005|MS|
+C Now or Never|QID|60006|M|41.77,55.18|Z|Bastion|CHAT|QO|1|N|Speak to Thanikos.|MS|
+C Now or Never|QID|60006|M|41.77,55.18|Z|Bastion|QO|2|N|Kill the mobs till you aquire Xandria's Vigil.|MS|
+T Now or Never|QID|60006|M|40.61,55.20|Z|Bastion|N|To Thanikos.|MS|
+A Rip and Tear|QID|60008|M|40.61,55.20|Z|Bastion|N|From Thanikos.|PRE|60006|MS|
+C Rip and Tear|QID|60008|M|40.25,51.07|Z|Bastion|N|Kill all the hostile mobs.|S|MS|
+A Stay Scrappy|QID|60007|M|40.72,55.48|Z|Bastion|N|From Mikanikos.|PRE|60006|MS|
+A Fight Another Day|QID|60009|M|41.30,54.36|Z|Bastion|N|From Disciple Apolon.|PRE|60006|MS|
+C Fight Another Day|QID|60009|M|40.25,51.07|Z|Bastion|NC|N|Free the Acended.|S|MS|
+C Stay Scrappy|QID|60007|M|40.76,52.21|QO|1|Z|Bastion|NC|N|Click on the Anima Conflux.|MS|
+C Stay Scrappy|QID|60007|M|39.48,48.99|QO|3|Z|Bastion|NC|N|Click the Archonic Resonator.|MS|
+C Stay Scrappy|QID|60007|M|39.69,52.66|QO|2|Z|Bastion|NC|N|Click the Eternity Plating.|MS|
+C Fight Another Day|QID|60009|M|40.25,51.07|Z|Bastion|NC|N|Free the Acended.|US|MS|
+C Rip and Tear|QID|60008|M|40.25,51.07|Z|Bastion|N|Kill all the hostile mobs.|US|MS|
+T Rip and Tear|QID|60008|M|PLAYER|Z|Bastion|N|To Thanikos.|MS|
+T Fight Another Day|QID|60009|M|41.30,54.42|Z|Bastion|N|To Disciple Apolon.|MS|
+T Stay Scrappy|QID|60007|M|40.72,55.48|Z|Bastion|N|To Mikanicos.|MS|
+A Clear as Crystal|QID|60053|M|40.72,55.48|Z|Bastion|N|From Mikanicos.|PRE|60007&60008&60009|MS|
+A Double Tap|QID|60052|M|PLAYER|Z|Bastion|N|From Thanikos.|PRE|60007&60008&60009|MS|
+C Clear as Crystal|QID|60053|M|40.33,57.85|Z|Bastion|NC|N|Click on the crystlas littered around to empower the anima conflux.|S|MS|
+C Double Tap|QID|60052|M|40.33,57.85|Z|Bastion|N|Kill the mobs then use the crystal to burn the bodies.|U|178140|MS|
+T Clear as Crystal|QID|60053|M|39.78,55.17|Z|Bastion|N|To Mikanicos|MS|
+T Double Tap|QID|60052|M|39.48,55.25|Z|Bastion|N|To Thanikos.|MS|
+A The Final Countdown|QID|60054|M|39.48,55.25|Z|Bastion|N|From Thanikos.|PRE|60052|MS|
+C The Final Countdown|QID|60054|M|39.48,55.25|CHAT|QO|1|Z|Bastion|N|Speak to Thanikos.|MS|
+C The Final Countdown|QID|60054|M|39.48,55.25|QO|2|Z|Bastion|N|Fight 2 waves of mobs. Then kill Marrowmaw.|MS|
+C The Final Countdown|QID|60054|M|PLAYER|QO|3|Z|Bastion|V|N|Hop into the collossus and press the '2' key to clear the blockage.|MS|
+T The Final Countdown|QID|60054|M|38.96,55.24|Z|Bastion|N|To Thanikos.|MS|
+A A Time for Courage|QID|60055|M|38.96,55.24|Z|Bastion|N|From Thanikos.|PRE|60054|MS|
+C A Time for Courage|QID|60055|M|38.96,55.24|CHAT|QO|1|Z|Bastion|N|Speak to Thanikos.|MS|
+C A Time for Courage|QID|60055|M|34.41,55.34|QO|2|Z|Bastion|N|Kill the elite.|MS|
+C A Time for Courage|QID|60055|M|34.59,55.10|QO|3|Z|Bastion|V|N|Click on Disciple Apolon to escape the Necrotic Wake.|MS|
+T A Time for Courage|QID|60055|M|40.88,55.10|Z|Bastion|N|To Disciple Apolon.|MS|
+
+; Land of Strife Storyline
+A Follow the Path|QID|60056|M|40.88,55.10|Z|Bastion|N|From Disciple Apolon.|PRE|60055|MS|
+H Hero's Rest|QID|60056|U|6948|M|PLAYER|N|Hearth back to Hero's Rest.|MS|
+F Oribos|ACTIVE|60056|M|51.40,46.80|N|Fly back to Oribos|MS|;There is a portal at Vestibule of Eternity? Look into some rework.
+C Follow the Path|QID|60056|CS|M|49.48,60.92;38.91,69.93|Z|Bastion|N|Click the teleporter, then run outside.|MS|
+T Follow the Path|QID|60056|M|38.91,69.93|Z|1670|N|To Tal-Inara.|MS|
+A The Arbiter's Will|QID|61096|M|38.91,69.93|Z|1670|N|From Tal-Inara.|PRE|60056|MS|
+C The Arbiter's Will|QID|61096|M|52.12,57.91|Z|1670|NC|N|Use the Teleport Pad.|MS|
+T The Arbiter's Will|QID|61096|M|60.78,36.83|Z|1670|N|To Overseer Kah-Sher.|MS|
+A A Land of Strife|QID|61107|M|61.03,36.71|Z|1670|N|From Tal-Inara.|PRE|61096|MS|
+C A Land of Strife|QID|61107|M|59.95,35.96|Z|1670|N|Click on the blue sword.|MS|
+T A Land of Strife|QID|61107|M|61.03,36.71|Z|1670|N|To Tal-Inara.|MS|
 ]]
 end)
