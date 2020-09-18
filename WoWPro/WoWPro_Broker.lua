@@ -2820,7 +2820,10 @@ function WoWPro.PopulateQuestLog()
             end
 
             if WoWPro.RETAIL then
-                _, itemID = _G.GetQuestLogSpecialItemInfo(questLogIndex)
+                local itemLink = _G.GetQuestLogSpecialItemInfo(questLogIndex)
+                if itemLink then
+                    itemID = tonumber(itemLink:match("item:(%d+):"))
+                end
             end
             numLoggedQuests = numLoggedQuests + 1
 
