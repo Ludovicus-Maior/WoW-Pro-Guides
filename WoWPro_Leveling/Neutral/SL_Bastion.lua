@@ -254,12 +254,12 @@ h Hero's Rest|QID|59197|M|53.15,46.88|Z|Bastion|N|At Inkiep.|
 f Hero's Rest|ACTIVE|59197|M|51.40,46.80|Z|Bastion|N|At Navarros.|
 T Steward at Work|QID|59197|M|52.86,45.66|Z|Bastion|N|To Polemarch Adrestes.|MS|
 
-; Side Quest stuff
-A A Friendly Rivalry|QID|59674|M|57.40,54.29|Z|Bastion|N|Take a teleportation pad down and grab this from Pelodis.|
+; Side Quest stuff - In Agthia's Memory
+A A Friendly Rivalry|QID|59674|M|57.40,54.29|Z|Bastion|N|Take a teleportation pad down and grab this from Pelodis.|LVL|52|
 C More Than A Gift|QID|62715|M|45.56,59.70|Z|Bastion|NC|N|Click on the flower.|
 C A Fine Journey|QID|59554|M|46.96,63.44|Z|Bastion|N|Run over to Keeper Mnemis.|
 T A Fine Journey|QID|59554|M|46.96,63.44|Z|Bastion|N|To Keeper Mnemis.|
-A In Agthia's Memory|QID|57549|M|46.96,63.44|Z|Bastion|N|From Keeper Mnemis.|PRE|59554|
+A In Agthia's Memory|QID|57549|M|46.96,63.44|Z|Bastion|N|From Keeper Mnemis.|PRE|59554|LVL|52|
 C In Agthia's Memory|QID|57549|M|47.45,66.05|QO|1|Z|Bastion|NC|N|Click the scroll.|
 C In Agthia's Memory|QID|57549|M|44.84,68.75|QO|2|Z|Bastion|NC|N|Click the scroll.|
 C In Agthia's Memory|QID|57549|M|44.68,64.37|QO|3|Z|Bastion|NC|N|Click the scroll.|
@@ -278,14 +278,15 @@ C Warriors of the Void|QID|57552|M|46.59,63.37|Z|Bastion|N|Kill all the mobs.|US
 T Warriors of the Void|QID|57552|M|46.59,63.37|Z|Bastion|N|To Agthia.|
 T On Wounded Wings|QID|57553|M|46.59,63.37|Z|Bastion|N|To Agthia.|
 T Wicked Gateways|QID|57554|M|46.59,63.37|Z|Bastion|N|To Agthia.|
-A Shadow's Fall|QID|57555|M|46.96,63.44|Z|Bastion|N|From Keeper Mnemis.|PRE|57549|
-C Shadow's Fall|QID|57555|M|44.86,68.68|Z|Bastion|NC|N|Kill the big void guy.|
+A Shadow's Fall|QID|57555|M|46.96,63.44|Z|Bastion|N|From Keeper Mnemis.|PRE|57552&57553&57554|
+C Shadow's Fall|QID|57555|M|44.86,68.68|Z|Bastion|NC|N|Kill Tezulat the Annihilator, the big void guy.|
 T Shadow's Fall|QID|57555|M|46.59,63.37|Z|Bastion|N|To Agthia.|
-A Garden in Turmoil|QID|57529|M|52.34,61.38|Z|Bastion|N|
-C Garden in Turmoil|QID|57529|M|51.34,59.57|Z|Bastion|N|
+
+; Side Quest stuff - In the Garden of Respite
+A Garden in Turmoil|QID|57529|M|52.34,61.38|Z|Bastion|N|From Tamesis.|
 T Garden in Turmoil|QID|57529|M|51.34,59.57|Z|Bastion|N|To Zosime.|
-A Disturbing the Peace|QID|57538|M|51.34,59.57|Z|Bastion|N|From Zosime.|
-A Distractions for Kala|QID|57545|M|51.34,59.57|Z|Bastion|N|From Tamesis.|
+A Disturbing the Peace|QID|57538|M|51.34,59.57|Z|Bastion|N|From Zosime.|LVL|51|
+A Distractions for Kala|QID|57545|M|51.34,59.57|Z|Bastion|N|From Tamesis.|LVL|51|
 C Disturbing the Peace|QID|57538|M|49.86,58.84|Z|Bastion|N|Kill the Anima-Starved creatures in the area.|S|
 C Disctractions for Kala|QID|57545|M|49.62,60.00|QO|2|Z|Bastion|NC|N|Click the teddy bear on the ground.|
 C Disctractions for Kala|QID|57545|M|51.10,58.75|QO|1|Z|Bastion|NC|N|Click on the ball on the ground.|
@@ -293,43 +294,29 @@ C Disctractions for Kala|QID|57545|M|52.84,58.17|QO|3|Z|Bastion|NC|N|Click the p
 C Disturbing the Peace|QID|57538|M|49.86,58.84|Z|Bastion|N|Kill the Anima-Starved creatures in the area.|US|
 T Disturbing the Peace|QID|57538|M|51.33,59.56|Z|Bastion|N|To Zosime.|
 T Distractions for Kala|QID|57545|M|51.33,59.56|Z|Bastion|N|To Zosime.|
-A A Test of Courage|QID|57547|M|51.33,59.56|Z|Bastion|N|From Zosime.|
-C A Test of Courage|QID|57547|M|51.84,54.69|QO|1|Z|Bastion|N|Hit that little belllllll.|
-C A Test of Courage|QID|57547|M|51.84,54.69|QO|2|Z|Bastion|N|
+A A Test of Courage|QID|57547|M|51.33,59.56|Z|Bastion|N|From Zosime.|PRE|57538&57545|
+C A Test of Courage|QID|57547|M|51.84,54.69|QO|1|Z|Bastion|N|Hit that little bell.|
+C A Test of Courage|QID|57547|M|51.84,54.69|QO|2|Z|Bastion|N|Defend Zosime from waves of attackers.|
 T A Test of Courage|QID|57547|M|51.19,56.78|Z|Bastion|N|To Zosime.|
-A Tough Love|QID|57568|M|51.19,56.78|Z|Bastion|N|From Zosime.|
-C Tough Love|QID|57568|M|46.31,56.71|QO|1|Z|Bastion|N|Beat down Kala.|
+A Tough Love|QID|57568|M|51.19,56.78|Z|Bastion|N|From Zosime.|PRE|57547|
+C Tough Love|QID|57568|M|46.31,56.71|QO|1|Z|Bastion|N|Beat down Kala to 50% health.|
 C Tough Love|QID|57568|M|46.31,56.71|QO|2|Z|Bastion|N|Grab the stick.|
 T Tough Love|QID|57568|M|51.33,59.57|Z|Bastion|N|To Zosime.|
+
+; Side Quest stuff - Pride or Unit
 T More Than A Gift|QID|62715|M|53.87,73.95|Z|Bastion|N|To Acolyte Amalthina
 C WANTED:Darkwing|QID|60366|M|56.20,47.99|Z|Bastion|ELITE|N|Use the whistle at the nest.|U|178791|
 C WANTED: Gorgebeak|QID|60315|M|53.57,46.43|Z|Bastion|ELITE|N|From the scroll on the wall.|
 T WANTED: Gorgebeak|QID|60315|M|51.00,41.66|Z|Bastion|ELITE|N|From the scroll on the wall.|
-C A Friendly Rivalry|QID|59674|M|57.26,39.24|Z|Bastion|N|
 T A Friendly Rivalry|QID|59674|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-A Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|N|From Nemea.|
-C Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|N|Click on the flying lions.|
-T Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-A Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion|N|From Nemea.|
-A All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|From Nemea.|
-A Phalynx Malfunction|QID|57931|M|54.81,41.19|Z|Bastion|N|From Pelodis.|
-A Resource Drain|QID|57932|M|54.81,41.19|Z|Bastion|N|From Hopo.|
-C All Natural Chews|QID|58038|M|56.17,45.56|Z|Bastion|N|Kill the cloudstriders in the area.|S|
-C Larion at Large|QID|58039|CS|M|56.00,44.18|QO|1|Z|Bastion|NC|N|Follow Andria till she stops moving and then click on her to remve the thorn.|S|
-C Larion at Large|QID|58039|CS|M|57.18,39.40|QO|2|Z|Bastion|N|Bring Andira back.|S|
+
+A Phalynx Malfunction|QID|57931|M|54.81,41.19|Z|Bastion|N|From Pelodis.|PRE|59674|
+A Resource Drain|QID|57932|M|54.81,41.19|Z|Bastion|N|From Hopo.|PRE|59674|
 C Resource Drain|QID|57932|M|56.17,45.56|Z|Bastion|N|Use the item provided on Gilded Cloudstrider.|S|U|173691|
-C Phalynx Malfunction|QID|57931|M|54.89,43.58|Z|Bastion|QO|1|N|Click on Gatamatos.|
-C Phalynx Malfunction|QID|57931|M|55.36,41.99|Z|Bastion|QO|2|N|Bring him to the pedistool.|
-C Larion at Large|QID|58039|CS|M|56.00,44.18|QO|1|Z|Bastion|N|Follow Andria till she stops moving and then click on her to remve the thorn.|US|
-C Larion at Large|QID|58039|M|57.18,39.40|QO|2||Z|Bastion|N|Bring Andira back.|US|
-C All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|Kill the cloudstriders in the area.|US|
+C Phalynx Malfunction|QID|57931|M|54.89,43.58|Z|Bastion|QO|1|NC|N|Click on Gatamatos.|
 C Resource Drain|QID|57932|M|56.17,45.56|Z|Bastion|N|Use the item on the deer.|US|U|173691|
-T Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-T All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-T Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-A With Lance and Larion|QID|58040|M|57.26,39.24|Z|Bastion|N|From Pelodis.|
-A Providing for the Pack|QID|58041|M|57.26,39.24|Z|Bastion|N|From Pelodis.|
-T Resource Drain|QID|57932|M|54.81,41.19|Z|Bastion|N|T Hopo.|
+C Phalynx Malfunction|QID|57931|M|55.36,41.99|Z|Bastion|QO|2|NC|N|Bring Gatamatos to the pedistool.|
+T Resource Drain|QID|57932|M|54.81,41.19|Z|Bastion|N|To Hopo.|
 T Phalynx Malfunction|QID|57931|M|54.81,41.19|Z|Bastion|N|To Pelodis.|
 A We Can Rebuild Him|QID|57933|M|54.81,41.19|Z|Bastion|N|From Pelodis.|PRE|57932^57931|
 C We Can Rebuild Him|QID|57933|M|55.34,42.00|QO|1|Z|Bastion|NC|N|Click the kitty.|
@@ -340,38 +327,49 @@ C We Can Rebuild Him|QID|57933|CS|M|54.39,41.01;54.49,41.66;54.88,40.15|QO|5|Z|B
 C We Can Rebuild Him|QID|57933|M|54.49,40.38|QO|6|Z|Bastion|NC|N|Place all the armor scraps.|
 C We Can Rebuild Him|QID|57933|M|54.71,40.40|QO|7|Z|Bastion|CHAT|N|Talk to Pelodis.|
 T We Can Rebuild Him|QID|57933|M|54.81,41.19|Z|Bastion|N|To Pelodis.|
-A Combat Drills|QID|57934|M|54.81,41.19|Z|Bastion|N|From Pelodis.|
-A Laser Location|QID|57935|M|55.93,47.21|Z|Bastion|N|From Pelodis.|
-A Superior Programming|QID|57936|M|54.82,41.19|Z|Bastion|N|From Hopo.|
-C Superior Programming|QID|57936|M|56.13,40.28|Z|Bastion|N|Kill Leonid.|S|
-C With Lance and Larion|QID|58040|M|57.26,39.24|Z|Bastion|N|Target Cloudfeather Greatwings and use the  lance.|S|T|Cloudfeather Greatwing|U|173692|
-C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion|N|Kill Juvinile Cloudfeathers.|S|
-C Laser Location|QID|57935|M|55.35,42.02|QO|1|Z|Bastion|N|Click on Gatamatos.|S|
-C Laser Location|QID|57935|M|55.35,42.02|QO|2|Z|Bastion|N|Click the provided button as soon as it lights up.|S|
+A Combat Drills|QID|57934|M|54.81,41.19|Z|Bastion|N|From Pelodis.|PRE|57933|
+A Laser Location|QID|57935|M|55.93,47.21|Z|Bastion|N|From Pelodis.|PRE|57933|
+A Superior Programming|QID|57936|M|54.82,41.19|Z|Bastion|N|From Hopo.|PRE|57933|
 C Combat Drills|QID|57934|M|55.35,42.02|QO|1|Z|Bastion|N|Click on Gatamatos.|
-C Combat Drills|QID|57934|M|55.78,42.59|QO|2|Z|Bastion|N|.|
-C Laser Location|QID|57935|M|55.78,42.59|QO|1|Z|Bastion|N|Click on Gatamatos.|US|
-C Laser Location|QID|57935|M|55.78,42.59|QO|2|Z|Bastion|N|Click the provided button as soon as it lights up.|US|
-C Superior Programming|QID|57936|M|56.13,40.28|Z|Bastion|N|Kill Leonid.|US|
-C With Lance and Larion|QID|58040|M|55.93,47.21|Z|Bastion|N|Target Cloudfeather Greatwings and use the lance.|US|T|Cloudfeather Greatwing|U|173692|
-C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion|N|Kill Juvinile Cloudfeathers.|US|
+C Laser Location|QID|57935|M|55.78,42.59|QO|1|Z|Bastion|N|Click on Gatamatos.|
+C Combat Drills|QID|57934|M|55.78,42.59|QO|2|Z|Bastion|N|Kill the Etherwyrms with Gatamatos at your side.|S|
+R Hall of Beasts|ACTIVE|57935|M|56.13,40.28|Z|Bastion|N|Run into the Hall of Beasts.|
+C Laser Location|QID|57935|M|55.35,42.02|QO|2|Z|Bastion|N|Click the "[color=40C7EB]Order Search[/color]" Action Ability to have Gatamatos search for gems.|EAB|S|
+C Superior Programming|QID|57936|M|56.13,40.28|Z|Bastion|N|Kill Leonid.|
+C Laser Location|QID|57935|M|55.35,42.02|QO|2|Z|Bastion|N|Click the "[color=40C7EB]Order Search[/color]" Action Ability to have Gatamatos search for gems.|EAB|US|
+C Combat Drills|QID|57934|M|55.78,42.59|QO|2|Z|Bastion|N|Kill the Etherwyrms with Gatamatos at your side.|US|
 T Combat Drills|QID|57934|M|54.81,41.19|Z|Bastion|N|To Pelodis.|
 T Laser Location|QID|57935|M|54.81,41.19|Z|Bastion|N|To Pelodis.|
 T Superior Programming|QID|57936|M|54.81,41.19|Z|Bastion|N|To Hopo.|
-A Tactical Formation|QID|57937|M|54.80,41.16|Z|Bastion|N|From Pelodis.|
+A Tactical Formation|QID|57937|M|54.80,41.16|Z|Bastion|N|From Pelodis.|PRE|57934&57935&57936|
 C Tactical Formation|QID|57937|M|55.37,42.01|QO|1|Z|Bastion|NC|N|Gatamatos retrieved.|
-C Tactical Formation|QID|57937|M|55.10,41.61|QO|2|Z|Bastion|NC|N|Click the Shadow.|
-C Tactical Formation|QID|57937|M|55.08,41.71|QO|3|Z|Bastion|NC|N|Click the Shadow.|
-C Tactical Formation|QID|57937|M|55.24,41.60|QO|4|Z|Bastion|NC|N|Click the Shadow.|
-C Tactical Formation|QID|57937|M|55.37,42.01|QO|5|Z|Bastion|NC|N|Click the Shadow.|
+C Tactical Formation|QID|57937|M|55.10,41.61|Z|Bastion|NC|N|Click the Shadows as they appear.|
 T Tactical Formation|QID|57937|M|54.80,41.16|Z|Bastion|N|To Pelodis.|
+A Antiquated Methodology|QID|58184|M|54.80,41.16|Z|Bastion|N|From Pelodis.|AVAILABLE|58037|PRE|57937|
+t Antiquated Methodology|QID|58184|M|57.26,39.24|Z|Bastion|N|To Nemea.|
+A Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|59674|
+C Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|NC|N|Click on the flying lions.|
+T Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|N|To Nemea.|
+A Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58037|
+A All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58037|
+C All Natural Chews|QID|58038|M|56.17,45.56|Z|Bastion|N|Kill the cloudstriders in the area.|S|
+C Larion at Large|QID|58039|CS|M|56.00,44.18|QO|1|Z|Bastion|N|Follow Andria till she stops moving and then click on her to remve the thorn.|
+C All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|Kill the cloudstriders in the area.|US|
+C Larion at Large|QID|58039|M|57.18,39.40|QO|2||Z|Bastion|N|Bring Andira back.|
+T All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|To Nemea.|
+T Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion|N|To Nemea.|
+A With Lance and Larion|QID|58040|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58038&58039|
+A Providing for the Pack|QID|58041|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58038&58039|
+C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion|N|Kill Juvinile Cloudfeathers.|S|
+C With Lance and Larion|QID|58040|M|55.93,47.21|Z|Bastion|N|Target Cloudfeather Greatwings and use the lance.|T|Cloudfeather Greatwing|U|173692|
+C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion|N|Kill Juvinile Cloudfeathers.|US|
 T With Lance and Larion|QID|58040|M|57.26,39.24|Z|Bastion|N|To Nemea.|
 T Providing for the Pack|QID|58041|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-A On Larion Wings|QID|58042|M|57.26,39.24|Z|Bastion|N|From Nemea.|
-C On Larion Wings|QID|58042|M|56.87,39.28|Z|Bastion|QO|1|N|Mount Andira.|
-C On Larion Wings|QID|58042|M|56.87,39.28|Z|Bastion|QO|2|N|Ride through the rings.|
+A On Larion Wings|QID|58042|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58040&58041|
+C On Larion Wings|QID|58042|M|56.87,39.28|Z|Bastion|QO|1|V|N|Mount Andira.|
+C On Larion Wings|QID|58042|M|56.87,39.28|Z|Bastion|QO|2|NC|N|Ride through the rings.|
 T On Larion Wings|QID|58042|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-A Pride or Unit|QID|60296|M|57.26,39.24|Z|Bastion|N|From Nemea.|
+A Pride or Unit|QID|60296|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58042|
 C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|1|CHAT|N|Meet with Pelodis and Nemea.|
 C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|2|CHAT|N|Talk to Pelodis.|
 C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|3|CHAT|N|Talk to Nemea.|
