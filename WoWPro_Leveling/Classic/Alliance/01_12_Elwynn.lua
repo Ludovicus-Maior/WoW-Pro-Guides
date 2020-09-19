@@ -49,7 +49,7 @@ C The Stolen Tome|QID|1598|C|Warlock|R|Human|M|56.68,43.96|N|The Defias thugs ha
 C Brotherhood of Thieves|QID|18|M|54.6,41.9|QO|1|N|Kill and loot the Defias mobs for the Red Burlap Bandanas.|
 C The Stolen Tome|ACTIVE|1598|M|56.68,43.96|QO|1|N|The Defias thugs have the book at their camp. Find it and pick it up.\nThere are 3 Defias Thugs at the tent that you will pull. Wait until you're at least lv 4 to do this.|NC|US|
 
-T The Stolen Tome|QID|1598|M|49.97,42.65|N|To your class trainer, Drusilla La Salle. Don't forget to do your training as well.|
+T The Stolen Tome|QID|1598|M|49.97,42.65|N|To your class trainer, Drusilla La Salle. Don't forget to do your traing as well.|
 N Demon trainer|PRE|1598|SPELL|Blood Pact;6307|QID|3903|M|50.05,42.69|N|Now that you have a demon (imp), you can start training it as well. Go see Dane Winslow, beside Drusilla, to get started.\nDo note that you must summon your demon in order to train it.|
 
 T Brotherhood of Thieves|QID|18|M|48.15,42.95|N|To Deputy Willem.|
@@ -245,7 +245,7 @@ A Surena Caledon|QID|1688|C|Warlock|M|25.2,78.6|Z|Stormwind City|N|From Gakin th
 C Surena Caledon|QID|1688|C|Warlock|M|71,80|T|Surena Caladon|N|Find, kill and loot Surena Caladon.|
 T Surena Caledon|QID|1688|C|Warlock|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder.|
 A The Binding|QID|1689|C|Warlock|M|25.2,78.6|Z|Stormwind City|N|From Gakin the Darkbinder.|PRE|1688|
-C The Binding|QID|1689|C|Warlock|M|25.2,77.2|Z|Stormwind City|U|6928|N|Go down the stairs right behind Gakin.turn right at bottom, down more stairs. right again, down more stairs, left, down most of the way and left again, this last door is easy to miss. Stand on the purple rune summoning circle and use the provided choker to summon a voidwalker then kill it.|
+C The Binding|QID|1689|C|Warlock|M|25.2,77.2|Z|Stormwind City|U|6928|N|Go down the stairs right behind Gakin.turn right at bottom, down more stairs. right again, donwm more stairs, left, down most of the way and left again, this last door is easy to miss. Stand on the purple runed summoning circle and use the provided choker to summon a voidwalker then kill it.|
 T The Binding|QID|1689|C|Warlock|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder.|
 
 A A Warrior's Training|QID|1638|C|Warrior|M|41,65.8|N|From Lyria Du Lac, in Goldshire smithing shop.|
@@ -378,7 +378,7 @@ C Thelsamar Blood Sausages|QID|418|M|32.28,31.08;25.68,35.92;37.71,38.18|Z|Loch 
 T Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|To Mountaineer Kadrell.|
 T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|To Vidra Hearthstove inside Stoutlager Inn.|
 F Ironforge|AVAILABLE|3681|M|33.94,50.95|Z|Loch Modan|C|Paladin|
-A Tome of Divinity|QID|3681|M|23.11,6.15|Z|Ironforge|N|From Brandur Ironhammer in the Mystic Ward.|LEAD|1642|C|Paladin|
+A Tome of Divinity|QID|3681|M|23.11,6.15|Z|Ironforge|N|From Brandur Ironhammer in the Mystic Ward.|LEAD|3682|C|Paladin|
 F Stormwind|ACTIVE|3681|M|55.54,47.75|Z|Ironforge|N|Fly to Stormwind.|C|Paladin|
 F Stormwind|ACTIVE|6261|M|33.94,50.95|Z|Loch Modan|N|Fly to Stormwind from Thelsamar.|C|-Paladin|
 
@@ -403,15 +403,17 @@ A The Tome of Divinity|QID|1786|M|38.58,26.56|Z|Stormwind City|N|From Gazin Teno
 T Stormpike's Order|QID|1338|M|58.10,16.57|Z|Stormwind City|N|To Furen Longbeard, in the Dwarven District.|
 A Bounty on Murlocs|QID|46|M|73.97,72.18|N|From Guard Thomas at the east Elwynn bridge.|PRE|39|
 
-R Stone Cairn Lake|ACTIVE|46|M|74.75,61.98|N|Run north to Stone Cairn Lake.|
-T The Tome of Divinity|QID|1786|M|72.59,51.41|U|6866|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him. You can turn in the quest once he has revived.\n[color=FF0000]NOTE: [/color]The Symbol of Life is consumed upon use. If you do not turn in the quest before Henze resets, you will have to go back to Duthorian Rall in Stormwind to get another one.|C|Paladin|T|Henze Faulk|
-A The Tome of Divinity|QID|1787|M|72.59,51.41|N|From Henze Faulk.|PRE|1786|C|Paladin|
-C The Tome of Divinity|QID|1787|M|74.03,51.84|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|C|Paladin|
-C Bounty on Murlocs|QID|46|L|780 8|N|Kill murlocs until you collect the torn fins needed.|
+R Stone Cairn Lake|ACTIVE|1786|M|74.45,56.74|N|Run to the island in the middle of Stone Cairn Lake.|
+C Bounty on Murlocs|QID|46|M|79,55|US|N|Kill murlocs until you collect the torn fins needed.|
+
+C The Tome of Divinity|QID|1786|C|Paladin|M|72.59,51.41|U|6866|NC|T|Henze Faulk|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|
+T The Tome of Divinity|QID|1786|C|Paladin|M|72.59,51.41|N|To Henze Faulk.|
+A The Tome of Divinity|QID|1787|C|Paladin|M|72.59,51.41|N|From Henze Faulk.|PRE|1786|
+C The Tome of Divinity|QID|1787|C|Paladin|M|74.03,51.84|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|
 T Cloth and Leather Armor|QID|59|M|79.5,68.8|N|To Sara Timberlain in Eastvale Logging Camp.|
 T Bounty on Murlocs|QID|46|M|73.97,72.18|N|To Guard Thomas.|
 
-K Morgan the Collector|ACTIVE|147|M|71,80|QO|1|T|Morgan the Collector|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which aggro at the same time.|
+K Morgan the Collector|ACTIVE|147|M|70.97,80.49|QO|1|T|Morgan the Collector|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which agro at the same time.|
 
 R Redridge Mountains|QID|244|M|8.98,71.72|Z|Redridge Mountains|N|Go to Redridge Mountains.|
 A Encroaching Gnolls|QID|244|M|15.3,71.5|Z|Redridge Mountains|N|From Guard Parker.|
