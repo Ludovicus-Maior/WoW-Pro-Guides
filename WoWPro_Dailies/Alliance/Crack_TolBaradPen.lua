@@ -55,7 +55,7 @@
 -- URL: http://wow-pro.com/node/3414/revisions/25630/view
 -- Date: 2013-05-14 15:51
 -- Who: Ludovicus_Maior
--- Log:  Shackles
+-- Log: Shackels => Shackles
 
 -- URL: http://wow-pro.com/node/3414/revisions/25290/view
 -- Date: 2013-01-09 01:39

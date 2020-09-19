@@ -1,4 +1,4 @@
-TourGuide:RegisterGuide("JamWin5656", "Winterspring", "Jame", "56", "56", "JamFel5657", "Alliance", function() return [[
+TourGuide:RegisterGuide("JamWin5656", "Winterspring", "Jame", "56", "56", "JamWes5859", "Alliance", function() return [[
 R Winterspring|QID|980|N|Through the tunnel from Felwood (or Moonglade, if you're a druid.|
 A Winterfall Activity|QID|8464|M|27.75,34.50|
 T The New Springs|QID|980|M|31.3,45.2|
@@ -13,8 +13,8 @@ T Starfall|QID|5250|
 A The Ruins of Kel'Theril|QID|5244|M|52.1,30.4|
 T The Ruins of Kel'Theril|QID|5244|M|52.1,30.4|
 A Troubled Spirits of Kel'Theril|QID|5245|
-A Enraged Wildkin (part 1)|QID|4861|
-A Are We There, Yeti? (part 1)|QID|3783|M|60.9,37.6|
+A Enraged Wildkin |QID|4861|
+A Are We There, Yeti? |QID|3783|M|60.9,37.6|
 A Duke Nicholas Zverenhoff|QID|6030|M|61.3,39.0|
 A The Everlook Report|QID|6028|M|61.3,39.0|
 A Sister Pamela|QID|5601|M|61.3,39.0|

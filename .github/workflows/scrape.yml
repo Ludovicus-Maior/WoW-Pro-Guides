@@ -1,0 +1,23 @@
+name: Scrape Wow-Pro.com for guides stored in drupal
+
+on:
+  schedule:
+    - cron: '20 15 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2	
+      with:
+        ref: 'master'
+
+    - name: Install the python dependencies and do the scraping
+      run: |
+        python3 -V
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        sudo pip3 install -r WoWPro_Utilities/requirements.txt
+        bash -x WoWPro_Utilities/AutoUpdateGuides.sh

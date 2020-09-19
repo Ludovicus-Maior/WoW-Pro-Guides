@@ -8,7 +8,7 @@ return [[
 ; === guides/53_54_Burning_Steppes.lua ===
 F Kargath|
 T Vivian Lagrave|QID|4133|M|49.8,68.4|N|Apothecary Zinge|
-A Dreadmaul Rock|QID|3821|M|83.63,44.00|Z|Badlands|N|Thal'trak Proudtusk|
+A Dreadmaul Rock|QID|3821|M|3.37,48.14|Z|Badlands|N|Thal'trak Proudtusk|
 A The Rise of the Machines|QID|4061|M|25.95,44.87|N|Lotwil Veriatus|
 
 F Burning Steppes|

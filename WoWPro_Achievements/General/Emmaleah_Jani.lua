@@ -30,7 +30,7 @@
 local guide = WoWPro:RegisterGuide('Emm_Jani', 'Achievements', "Dazar'alor", 'Emmaleah', 'Neutral')
 WoWPro.Achievements:GuideMisc(guide, "Child of Jani", "Pet", "Battle for Azeroth")
 WoWPro:GuideIcon(guide,"ACH",12482)
-WoWPro:NewGuideLevels(guide,120, 120,120)
+WoWPro:GuideLevels(guide,50, 50)
 WoWPro:GuideSteps(guide, function()
 
 return [[

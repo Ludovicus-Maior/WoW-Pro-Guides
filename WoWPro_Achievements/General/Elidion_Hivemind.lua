@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('Eli_Hivemind', 'Achievements', "Dazar'alor", 'Elidion', 'Neutral')
 WoWPro.Achievements:GuideMisc(guide, "Hivemind", "Mount", "Battle for Azeroth")
 WoWPro:GuideIcon(guide,"ACH",12482)
-WoWPro:NewGuideLevels(guide,120, 120,120)
+WoWPro:GuideLevels(guide,50, 50)
 WoWPro:GuideSteps(guide, function()
 
 return [[
@@ -63,10 +63,10 @@ P Court of Stars|M|50.84,65.54|Z|Suramar|N|Now that the beam player has the dama
 N Manasaber Kittens|N|Near Lady Chaton, assign each player to a kitten to pet at the same time as the buff only lasts 15 seconds. The damage number should be 5 digits, if it is 4 then the first number is 0. 0 means do not pet. There is a coresponding buff on the kitten for each pet to help you keep track. With your 5 digit number, Mrs. Fluffy muffins is first number, and then sequentially, Shadow, Mew, Ash and the Bella. Click off once the cats run off and void orb appears.|
 N Jump Puzzle|N|Click on the void orb and it will port you to a jumping puzzle, you will need to coordinate well with your group to get across. Assign a player number to each player to help guide you through the puzzle. Skip to proceed.|
 N Player 1|N|Jump onto the platform from the center and forward once more. You will need to manually click off each step after it's been done.|
-N Player 2|N|Jump onto the platform from the center, then Left, then forward.|  
-N Player 1|N|Forward.|  
+N Player 2|N|Jump onto the platform from the center, then Left, then forward.|
+N Player 1|N|Forward.|
 N Player 3|N|Jump onto the platform from the original center, then forwars, then right, then right.|
-N Player 4|N|Jump onto the platform from the original center, then left.|    
+N Player 4|N|Jump onto the platform from the original center, then left.|
 N Player 5|N|Jump onto the platform from the original center.|
 N Player 2|N|Left.|
 N Player 4|N|Forward.|

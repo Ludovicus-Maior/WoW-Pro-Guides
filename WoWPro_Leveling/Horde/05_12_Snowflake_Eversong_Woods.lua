@@ -1,278 +1,15 @@
-
--- WoWPro Guides by "The WoW-Pro Community" are licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
--- Based on a work at github.com.
--- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
-
--- URL: http://wow-pro.com/wiki/source_code_eversong_woods
--- Date: 2019-02-02 21:57
--- Who: Emmaleah
--- Log: minor changes - first half of eversong woods. Moved fetch due to it is available earlier and the ! drives me nuts to run past :)
-
--- URL: http://wow-pro.com/node/3207/revisions/30216/view
--- Date: 2019-02-02 20:51
--- Who: Emmaleah
--- Log: monor tweaks
-
--- URL: http://wow-pro.com/node/3207/revisions/29723/view
--- Date: 2018-09-10 22:13
--- Who: Ludovicus_Maior
--- Log: Level tweaks and new Eversong guide.
-
--- URL: http://wow-pro.com/node/3207/revisions/29490/view
--- Date: 2018-08-09 23:05
--- Who: Ludovicus_Maior
--- Log: Correct caps on [WANTED: Thaelis the Hungerer]
-
--- URL: http://wow-pro.com/node/3207/revisions/29196/view
--- Date: 2018-02-27 17:39
--- Who: Ludovicus_EditBot
--- Log: Level Strip
-
--- URL: http://wow-pro.com/node/3207/revisions/29192/view
--- Date: 2018-02-27 00:05
--- Who: Ludovicus_EditBot
--- Log: Level strip - Sunstrider
-
--- URL: http://wow-pro.com/node/3207/revisions/29077/view
--- Date: 2018-02-20 01:57
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags - Eversong
-
--- URL: http://wow-pro.com/node/3207/revisions/29072/view
--- Date: 2018-02-20 01:50
--- Who: Ludovicus_Maior
--- Log: Upload Grail corrections to PRE/LEAD/QO tags - Suntrider
-
--- URL: http://wow-pro.com/node/3207/revisions/28904/view
--- Date: 2018-01-16 23:54
--- Who: Ludovicus
--- Log: New Levels
-
--- URL: http://wow-pro.com/node/3207/revisions/28416/view
--- Date: 2017-03-15 23:00
--- Who: Ludovicus_Maior
--- Log: Added PREs to SnoEve0512
-
--- URL: http://wow-pro.com/node/3207/revisions/28411/view
--- Date: 2017-03-15 22:54
--- Who: Ludovicus_Maior
--- Log: Added PREs to SnoSun0105
-
--- URL: http://wow-pro.com/node/3207/revisions/28239/view
--- Date: 2017-01-12 23:59
--- Who: Linkslegend5
--- Log: Removed the class training and related quests, as they were removed from the game.
-
--- URL: http://wow-pro.com/node/3207/revisions/27461/view
--- Date: 2016-07-01 04:43
--- Who: Linkslegend5
--- Log: *sigh* The actual updated guide, the last was incorrectly edited to the same guide as before. ~_~
-
--- URL: http://wow-pro.com/node/3207/revisions/27460/view
--- Date: 2016-07-01 04:41
--- Who: Linkslegend5
--- Log: Sunstrider Isle changes. Mostly rearranged steps, correcting (and updating) the class spells and steps.
-
--- URL: http://wow-pro.com/node/3207/revisions/27439/view
--- Date: 2016-03-23 01:35
--- Who: Ludovicus_Maior
--- Log: Fix bad coords on rogue quests
-
--- URL: http://wow-pro.com/node/3207/revisions/27293/view
--- Date: 2015-06-22 16:23
--- Who: Ludovicus_Maior
--- Log: Got rid of stuttttter.
-
--- URL: http://wow-pro.com/node/3207/revisions/27289/view
--- Date: 2015-06-20 14:29
--- Who: Ludovicus_Maior
--- Log: PLaythrough
-
--- URL: http://wow-pro.com/node/3207/revisions/27287/view
--- Date: 2015-06-19 21:46
--- Who: Ludovicus_Maior
--- Log: Sunstrider corrections
-
--- URL: http://wow-pro.com/node/3207/revisions/27231/view
--- Date: 2015-04-30 20:27
--- Who: Ludovicus_Maior
--- Log: remap
-
--- URL: http://wow-pro.com/node/3207/revisions/27214/view
--- Date: 2015-04-28 00:44
--- Who: Ludovicus_Maior
--- Log: Split
-
--- URL: http://wow-pro.com/node/3207/revisions/26931/view
--- Date: 2014-11-08 07:07
--- Who: Emmaleah
--- Log: fixed items per list o' errors
-
--- URL: http://wow-pro.com/node/3207/revisions/26482/view
--- Date: 2014-06-02 22:16
--- Who: Ludovicus_Maior
--- Log: Added BloodElf icons
-
--- URL: http://wow-pro.com/node/3207/revisions/26425/view
--- Date: 2014-06-02 13:20
--- Who: Ludovicus_Maior
--- Log: Set Levels
-
--- URL: http://wow-pro.com/node/3207/revisions/26211/view
--- Date: 2014-05-25 22:26
--- Who: Ludovicus_Maior
--- Log: Added guide type.
-
--- URL: http://wow-pro.com/node/3207/revisions/26134/view
--- Date: 2014-05-20 18:51
--- Who: Ludovicus_Maior
--- Log: Icon
-
--- URL: http://wow-pro.com/node/3207/revisions/26064/view
--- Date: 2014-05-18 20:24
--- Who: Hendo72
--- Log: - Removed all 'RANK|1|' tags. They are not required.
---	- Added Repair/sell steps where ever it's convenient.
---	- Added missing CS tag to 'T Fly to Silvermoon City|QID|9133'
---	- Changed CN tag to CC 'K Felendren the Banished|QID|8335|' and reduced the coordinates to bottom and top only.
---	- Reworded repair step into a sell step. You won't need to repair for a while yet.
---	- Added coords to 'Fairbreeze Village' turn in step.
---	- F Eversong Woods|QID|9133| - Incorrectly named. Should be Silvermoon City.
-
--- URL: http://wow-pro.com/node/3207/revisions/26040/view
--- Date: 2014-05-17 17:30
--- Who: Ludovicus_Maior
--- Log: New registration guide.
-
--- URL: http://wow-pro.com/node/3207/revisions/25845/view
--- Date: 2013-12-16 20:28
--- Who: Fluclo
--- Log: Priest training quest is now Learning the Word, not Healing the Wounded
-
--- URL: http://wow-pro.com/node/3207/revisions/25458/view
--- Date: 2013-01-13 18:54
--- Who: Ludovicus_Maior
--- Log: Added CC tag
-
--- URL: http://wow-pro.com/node/3207/revisions/25132/view
--- Date: 2012-10-08 23:44
--- Who: Ludovicus_Maior
--- Log: Corrected QID and coords for monk starter quests.
-
--- URL: http://wow-pro.com/node/3207/revisions/25061/view
--- Date: 2012-08-30 01:01
--- Who: Fluclo
--- Log: Monk training
-
--- URL: http://wow-pro.com/node/3207/revisions/24965/view
--- Date: 2012-02-22 10:03
--- Who: Crackerhead22
--- Log: Tweaks
-
--- URL: http://wow-pro.com/node/3207/revisions/24832/view
--- Date: 2011-12-03 00:03
--- Who: Fluclo
-
--- URL: http://wow-pro.com/node/3207/revisions/24831/view
--- Date: 2011-12-02 23:53
--- Who: Fluclo
-
--- URL: http://wow-pro.com/node/3207/revisions/24731/view
--- Date: 2011-08-13 22:39
--- Who: Jiyambi
--- Log: Updated Flendren the Banished quest note since those mobs are no longer hostile.
-
--- URL: http://wow-pro.com/node/3207/revisions/24703/view
--- Date: 2011-07-27 21:33
--- Who: Fluclo
--- Log: Soaked Pages is a Non-Combat quest
-
--- URL: http://wow-pro.com/node/3207/revisions/24702/view
--- Date: 2011-07-27 21:25
--- Who: Fluclo
--- Log: Flying to "Silvermoon City" doesn't auto-complete (it lands in Eversong Woods), added couple of steps to improve auto-handling in this area.
-
--- URL: http://wow-pro.com/node/3207/revisions/24701/view
--- Date: 2011-07-27 21:23
--- Who: Fluclo
--- Log: Added note to Dwarven Spy
-
--- URL: http://wow-pro.com/node/3207/revisions/24700/view
--- Date: 2011-07-27 21:22
--- Who: Fluclo
--- Log: Couple notes to level 6 quests, and added entry for profession training
-
--- URL: http://wow-pro.com/node/3207/revisions/24699/view
--- Date: 2011-07-27 12:58
--- Who: Fluclo
--- Log: Updated so that it makes sense and works for non Blood Elf races
-
--- URL: http://wow-pro.com/node/3207/revisions/24696/view
--- Date: 2011-07-27 12:02
--- Who: Fluclo
--- Log: Better described Felendren the Banished quests
-
--- URL: http://wow-pro.com/node/3207/revisions/24695/view
--- Date: 2011-07-27 11:20
--- Who: Fluclo
--- Log: Corrected coords of Scroll of Scourge Magic
-
--- URL: http://wow-pro.com/node/3207/revisions/24694/view
--- Date: 2011-07-27 11:15
--- Who: Fluclo
--- Log: Corrected coord of Solanian's Scrying Orb
-
--- URL: http://wow-pro.com/node/3207/revisions/24693/view
--- Date: 2011-07-27 11:12
--- Who: Fluclo
--- Log: Sync'd coords on the training steps to match that of the trainers
-
--- URL: http://wow-pro.com/node/3207/revisions/24692/view
--- Date: 2011-07-27 11:05
--- Who: Fluclo
--- Log: Moved the turn-in for A Fistful of Slivers to after it's been done.
-
--- URL: http://wow-pro.com/node/3207/revisions/24691/view
--- Date: 2011-07-27 10:57
--- Who: Fluclo
-
--- URL: http://wow-pro.com/node/3207/revisions/24664/view
--- Date: 2011-07-06 11:02
--- Who: Fluclo
--- Log: The days of grinding to level should be behind us, so rearranged a couple of quest turnins to make sure you're the right level for training.  Unfortunate Measures also drop collars from the Cubs, the Arcane Torrent quest can be done later with the Ferals to reduce grind killing, updated view of Solanian's Journals to not be notes, added loot tag to Solanian's Journals to help the program remember the quest has been done, added couple of stickies where quests can be done simultaneously.
-
--- URL: http://wow-pro.com/node/3207/revisions/24513/view
--- Date: 2011-06-07 10:58
--- Who: Ludovicus_Maior
--- Log: Added R|BloodElf| to steps not available to my Orc.
-
--- URL: http://wow-pro.com/node/3207/revisions/24428/view
--- Date: 2011-05-28 01:16
--- Who: Ludovicus_Maior
--- Log: Update Notes, Correct some coordinates that were WAAY off.
-
--- URL: http://wow-pro.com/node/3207/revisions/24317/view
--- Date: 2011-04-29 15:24
--- Who: Ludovicus_Maior
--- Log: Line 148 for step L has unknown tag [If not level 6 yet, kill stuffs.], Line 202 for step T has unknown tag [9130], Line 281 for step C has 1 M coords, Line 299 for step T has unknown tag [To Larianna Riverwind.]
-
 local guide = WoWPro:RegisterGuide("SnoEve0512", "Leveling", "Eversong Woods", "Snowflake", "Horde")
-WoWPro:GuideLevels(guide,5,10, 5.78882)
-WoWPro:NewGuideLevels(guide,5,20)
+
 WoWPro:GuideNextGuide(guide, "SnoGho1221")
-WoWPro:GuideIcon(guide,"Icon", WoWPro:GuidePickGender("Interface\\Icons\\Achievement_Character_BloodElf_Male","Interface\\Icons\\Achievement_Character_BloodElf_Female"))
 WoWPro:GuideSteps(guide, function()
 return [[
-
 R Eversong Woods|QID|9704|N|Head to to the Ruins of Silvermoon in Eversong Woods. From Thunderbluff, fly to Orgrimmar. From Orgrimmar, use the Zeppelin at the Eastern Tower to get to Tirisfal Glades. From Tirisfal Glades/Undercity, use the Orb of Translocation at the Ruins of Lordaeron (54.84,11.22 a room to the west as you enter Undercity from Tirisfal Glades). From Silvermoon City, head out of the city (head south-east/south, the exit is at the south end of the Walk of Elders)|M|56.95,49.60|Z|Eversong Woods|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
 A Slain by the Wretched |QID|9704|M|40.4,32.2|N|First quest after Sunstrider Isle starting zone is from Outrunner Alarion. Run north-west along the road (Dawning Lane). \n\nIf you want the achievement Explore Eversong Woods as well, run past Outrunner Alarion, cross the bridge into Sunstrider Isle, then head back to Outrunner Alarion once you've "discovered" Sunstrider Isle.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
-
 ;The guide continues at this point for all races
 F Falconwing Square|QID|9704|M|54.37,50.73|N|Head west to Skymistress Gloaming, then take a ride to Falconwing Square.|R|Goblin;Tauren;Orc;Troll;Forsaken;Pandaren|
 T Slain by the Wretched |QID|9704|N|To Slain Outrunner.|M|42.0,35.7|
 A Package Recovery |QID|9705|PRE|9704|N|From Slain Outrunner.|M|42.0,35.7|
 T Package Recovery |QID|9705|N|To Outrunner Alarion.|M|40.4,32.2|
-
 A Completing the Delivery |QID|8350|PRE|9705|N|From Outrunner Alarion.|M|40.4,32.2|
 f Falconwing Square|QID|9704|M|46.24,46.80|N|Get the flightpoint from Skymaster Skyles.|
 T Completing the Delivery |QID|8350|N|To Innkeeper Delaniel.|M|48.1,47.7|
@@ -287,7 +24,6 @@ K Thaelis the Hungerer|ACTIVE|8468|T|Thaelis the Hungerer|N|Kill and loot Thaeli
 C Unstable Mana Crystals |QID|8463|M|45.38,40.85|US|N|Look for light beams that come out of the boxes.|NC|
 C Major Malfunction |QID|8472|N|Finish killing and looting Arcane Patrollers for the Arcane Cores.|M|45,40.5|US|
 T Major Malfunction |QID|8472|N|To Magister Jaronis.|M|47.3,46.3|
-
 A Delivery to the North Sanctum |QID|8895|PRE|8472|N|From Magister Jaronis.|M|47.3,46.3|
 T WANTED: Thaelis the Hungerer |QID|8468|N|To Sergeant Kan'ren.|M|47.8,46.6|
 T Unstable Mana Crystals |QID|8463|N|To Aeldon Sunbrand.|M|48.2,46.0|
@@ -298,7 +34,6 @@ T Malfunction at the West Sanctum |QID|9119|N|To Ley-Keeper Velania.|M|36.7,57.4
 A Arcane Instability |QID|8486|PRE|9119|N|From Ley-Keeper Velania|M|36.7,57.4|
 C Arcane Instability |QID|8486|N|Kill the Manawraith and Mana Stalker located around the West Sanctum.|M|36,58|S|
 K Darnassian Scout |QID|9352|L|20765|N|Kill a Darnassian Scout and loot Incriminating Documents. |M|34.50,60.00|
-
 A Incriminating Documents |QID|8482|U|20765|N|Quest starts from the Incriminating Documents. Click the envelope.|M|33.9,58.4|
 C Arcane Instability |QID|8486|N|Finish killing the Manawraith and Mana Stalker located around the West Sanctum.|M|36,58|US|
 T Darnassian Intrusions |QID|9352|N|To Ley-Keeper Velania.|M|36.7,57.4|
@@ -311,7 +46,6 @@ T Fish Heads, Fish Heads... |QID|8884|N|To Hathvelion Sungaze.|M|29.89,58.52|
 A The Ring of Mmmrrrggglll |QID|8885|PRE|8884|N|From Hathvelion Sungaze.|M|29.89,58.52|
 H Falconwing Square|QID|8482|U|6948|N|Hearth to Falconwing Square.|
 T Incriminating Documents |QID|8482|N|To Aeldon Sunbrand.|M|48.2,46.0|
-
 A The Dwarven Spy |QID|8483|PRE|8482|N|From Aeldon Sunbrand.|M|48.2,46.0|
 C The Dwarven Spy |QID|8483|L|20764|CHAT|N|Speak to Prospector Anvilward. He will walk into the North Sanctum, when he is at the top, he will attack you. Be sure to be full health and buffed before you talk to him. Once you kill him, loot his head.|M|44.60,53.30|
 A Roadside Ambush |QID|9035|LEAD|9062|N|From Apprentice Ralen.|M|45.2,56.4|
@@ -321,7 +55,6 @@ C Soaked Pages |QID|9062|L|22414|N|Dive under the bridge just in front of you, t
 T Soaked Pages |QID|9062|N|To Apprentice Meledor.|M|44.9,61.0|
 A Taking the Fall |QID|9064|PRE|9062|N|From Apprentice Meledor.|M|44.9,61.0|
 T Taking the Fall |QID|9064|N|To Instructor Antheol.|M|55.7,54.5|
-
 A Swift Discipline |QID|9066|PRE|9064|N|From Instructor Antheol.|M|55.7,54.5|
 A Fetch!|QID|9402|N|From Instructor Antheol.|R|BloodElf|C|Mage|M|55.7,54.5|
 C Fetch!|QID|9402|N|Dive into the middle of the lake. The phial is on the bottom.|R|BloodElf|C|Mage|M|54.87,56.38|
@@ -335,7 +68,6 @@ T Swift Discipline |QID|9066|N|To Instructor Antheol.|M|55.7,54.5|
 F Falconwing Square|QID|8483|M|54.37,50.73|N|Fly to Falconwing Square.|
 T The Dwarven Spy |QID|8483|N|To Aeldon Sunbrand.|M|48.2,46.0|
 A Fairbreeze Village |QID|9256|LEAD|8892|PRE|8483|N|From Aeldon Sunbrand.|
-
 f Fairbreeze Village |QID|9256|M|43.94,69.98|N|Run to Fairbreeze Village and get the flight point from Skymaster Brightdawn.|
 A Pelt Collection |QID|8491|N|From Velan Brightoak.|M|44.7,69.6|
 A Saltheril's Haven |QID|9395|LEAD|9067|N|From Magistrix Landra Dawnstrider.|M|44.0,70.8|
@@ -348,7 +80,6 @@ A Goods from Silvermoon City|QID|9130|R|BloodElf|M|43.7,71.54|N|From Sathiel.|
 r Repair/Sell Junk|QID|9395|M|43.7,71.54|N|At Sathiel.\n\nRight click this step to continue.|
 C Pelt Collection |QID|8491|N|Kill springpaws.|M|46.00,67.00|S|
 T Saltheril's Haven |QID|9395|N|To Lord Saltheril.|M|38.1,73.6|
-
 A The Party Never Ends |QID|9067|N|From Lord Saltheril.|M|38.1,73.6|
 B Bundle of Fireworks |QID|9067|QO|3|N|Buy a Bundle of fireworks from Halis Dawnstrider at Fairbreeze Village.|M|44.10,70.40|
 T Goods from Silvermoon City|QID|9130|R|BloodElf|N|To Skymaster Brightdawn.|M|44,70|
@@ -359,7 +90,6 @@ T Fly to Silvermoon City|QID|9133|R|BloodElf|Z|Silvermoon City|N|To Sathren Azur
 A Skymistress Gloaming|QID|9134|PRE|9133|R|BloodElf|M|54,71|Z|Silvermoon City|N|From Sathren Azuredawn.|
 B Suntouched Special Reserve|QID|9067|QO|1|Z|Silvermoon City|N|Buy a bottle of Suntouched Special Reserve from Vinemaster Suntouched. Also, visit your trainer if you need to.|M|79.70,58.40|
 T Skymistress Gloaming|QID|9134|R|BloodElf|M|54.38,50.79|N|To Skymistress Gloaming.|
-
 A Return to Sathiel|QID|9135|PRE|9134|R|BloodElf|M|54.38,50.79|N|From Skymistress Gloaming.|
 F Fairbreeze Village|QID|9135|M|54.38,50.79|N|Fly to Fairbreeze Village, or just hearth.|
 T Return to Sathiel|QID|9135|R|BloodElf|M|43.69,71.51|N|To Sathiel.|
@@ -374,7 +104,6 @@ C Situation at Sunsail Anchorage |QID|8892|S|N|Kill Wretched Thugs and Hooligans
 C Lost Armaments |QID|8480|N|Run around the big white gazeebo looting the Weapon Containers.|M|31.0,69.0|NC|
 T Grimscale Pirates! |QID|8886|N|To Captain Kelisendra. At Sunsail Anchorage.|M|36.4,66.7|
 T Lost Armaments |QID|8480|N|To Velendris Whitemorn.|M|36.4,66.7|
-
 A Wretched Ringleader |QID|9076|PRE|8480|N|From Velendris Whitemorn.|M|36.4,66.7|
 K Aldaron |QID|9076|QO|1|N|Go back to the big white tower-like building and fight your way up. At the top you'll find Aldaron the Reckless with two guards. If you are careful you can probably pull the guards solo before you kill Aldras. |M|32.70,68.4|
 C Situation at Sunsail Anchorage |QID|8892|S|N|Finish killing the Wretched Thugs and Hooligans.|
@@ -385,7 +114,6 @@ T Situation at Sunsail Anchorage |QID|8892|N|To Ranger Degolien.|M|43.3,70.8|
 A Farstrider Retreat |QID|9359|LEAD|8476|PRE|8892|N|From Ranger Degolien.|M|43.3,70.8|
 r Repair/Sell Junk|QID|9358|M|43.7,71.54|N|At Sathiel.\n\nRight click this step to continue.|
 T Ranger Sareyn |QID|9358|N|To Ranger Sareyn.|M|46.9,71.8|
-
 A Defending Fairbreeze Village |QID|9252|N|From Ranger Sareyn.|M|46.9,71.8|
 C Defending Fairbreeze Village |QID|9252|N|4 of each: Rotlimb marauder, Darkwraith. Follow the road southeast until you hit the Dead Scar. Then head south. |M|50.00,75.00|
 T The Wayward Apprentice |QID|9254|N|To Apprentice Mirveda. Go north along the Dead Scar until you reach Mivenda.|M|54.3,71.0|
@@ -399,7 +127,6 @@ A Research Notes |QID|9255|PRE|8488|N|From Apprentice Mirveda.|M|54.3,71.0|
 T Farstrider Retreat |QID|9359|N|To Lieutenant Dawnrunner.|M|60.3,62.8|
 A Amani Encroachment |QID|8476|N|From Lieutenant Dawnrunner.|M|60.3,62.8|
 B Buy Springpaw Appetizers |QID|9067|QO|2|N|Buy Springpaw Appetizers from Zalene Firstlight at Farstrider Retreat.|M|60.40,62.46|
-
 A The Spearcrafter's Hammer |QID|8477|N|From Arathel Sunforge.|M|59.5,62.6|
 A The Magister's Apprentice |QID|8888|LEAD|8889|N|From Magister Duskwither. Up the right ramp.|M|60.3,61.4|
 A The Purest Water|QID|9403|PRE|9402|N|From Instructor Antheol.|R|BloodElf|C|Mage|M|55.7,54.5|
@@ -408,7 +135,6 @@ T The Magister's Apprentice |QID|8888|N|To Apprentice Loralthalis. Head out of t
 A Deactivating the Spire |QID|8889|N|From Apprentice Loralthalis.|M|67.8,56.5|
 A Where's Wyllithen? |QID|9394|LEAD|8894|N|From Apprentice Loralthalis.|M|67.8,56.5|
 T Where's Wyllithen? |QID|9394|N|To Groundskeeper Wyllithen.|M|68.7,46.9|
-
 A Cleaning up the Grounds |QID|8894|N|From Groundskeeper Wyllithen.|M|68.7,46.9|
 C Cleaning up the Grounds |QID|8894|N|Kill the Mana Serpent and Ether Fiends from around Duskwither Grounds.|S|
 R Azurebreeze Coast |QID|8894|N|If you want the explorer achievement, head to Azurebreeze Coast.\n\nIf you don't, just click this step.|M|72.00,43.00|
@@ -425,7 +151,6 @@ T Word from the Spire |QID|8890|N|To Magister Duskwither. Back at farstrider ret
 T Abandoned Investigations |QID|8891|N|To Magister Duskwither.|M|60.3,61.4|
 C Amani Encroachment|QID|8476|N|Kill trolls that you need for Amani Encroachment while doing the next quests.|S|
 K Spearcrafter Otembe|QID|8477|QO|1|N|Head to southeast to the trolls, toward Spearcrafter Otembe. Kill trolls that you need for Amani Encroachment while you go.|M|70,72|
-
 A Zul'Marosh |QID|8479|N|From Ven'jashi.|M|70.5,72.3|
 K Chieftain Zul'Marosh |QID|8479|L|23249|N|Head west across the water to the next troll camp. Zul'Marosh is in the big building on the top floor. Pull guards first. |M|61.60,79.60|
 A Amani Invasion |QID|9360|N|From the Amani Invasion Plans.|M|62.6,79.7|U|23249|
@@ -442,7 +167,6 @@ H Fairbreeze Village|QID|9255|U|6948|N|Hearth to Fairbreeze Village.|
 T Research Notes |QID|9255|N|To Magistrix Landra Dawnstrider.|M|44.03,70.76|
 T Warning Fairbreeze Village |QID|9363|N|To Ranger Degolien.|M|43.3,70.8|
 T Defending Fairbreeze Village |QID|9252|N|To Ranger Sareyn.|M|46.93,71.79|
-
 A The Scorched Grove|QID|9258|LEAD|8473|N|From Ardeyn Riverwind.|M|43.6,71.2|
 T The Party Never Ends |QID|9067|N|To Lord Saltheril.|M|38.1,73.6|
 T The Scorched Grove|QID|9258|M|34,80|N|To Larianna Riverwind. Find Larianna Riverwind near the Scorched Grove in the southwest of Eversong Woods.|
@@ -455,10 +179,6 @@ A Whitebark's Memory|QID|10166|PRE|8474|M|34,80|N|From Larianna Riverwind.|
 T Whitebark's Memory|QID|10166|M|37.58,86.14|N|To Whitebark's Spirit. Use the pendant, Whitebark will attack you. Get him down in health, then turn the quest in.|U|28209|
 C A Somber Task|QID|8473|M|35.7,85.2|N|Kill 10 Withered Green Keepers.|US|
 T A Somber Task|QID|8473|M|34,80|N|To Larianna Riverwind.|
-
 N End of Eversong Woods Guide |QID|9144|N|That's it from Eversong Woods. Don't worry about not yet having the Explore Eversong Woods Acheivement if you're missing just two (Runestone Falithas and Runestone Shan'dor) as you'll discover those places in the Ghostlands guide.  If you're not doing Ghostlands guide, then run to the two waypoints.  \n\nYou may also want to update your skills from Silvermoon City.\n\nClick here to continue to the Ghostlands Guide.|M|43,86;55,84|CC|
-
 ]]
 end)
-
-

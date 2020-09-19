@@ -23,7 +23,7 @@ T Caught!|QID|4449|M|65.5,62.3|
 A Suntara Stones|N|Accept this quest in the pit nearby.  If the npc is not there, he will respawn|QID|3367|M|63.9,61.0|
 C Suntara Stones|N|Escort Dorius.  He will eventually die at 74, 19 but the quest will be completed at this point.|QID|3367|
 T Suntara Stones|QID|3367|M|74.50,19.30|
-A Suntara Stones (part 2)|QID|3368|M|63.9,61.0|
+A Suntara Stones |QID|3368|M|63.9,61.0|
 R The Cauldron|QID|7727|N|Run to The Cauldron at this location.|M|63.00,38.00|
 N Run to a slope|QID|7727|N|Run to this location then checkbox this objective.|M|41.00,54.00|
 R The Slag Pit|QID|7727|N|Go here and enter the Slag Pit through the door.|M|41.00,54.00|
@@ -50,17 +50,17 @@ C Forging the Shaft|N|Kill dwarves until you get the Thorium Plated Daggers for 
 T Forging the Shaft|QID|3443|M|39.0,38.9|
 A The Flame's Casing|QID|3452|M|39.0,38.9|
 N Smithing Tuyere|QID|7728|N|Kill the dwarves here if you need the Smithing Tuyere.|L|18959 1|M|39.00,50.00|
-A Prayer to Elune (part 1)|N|Go to a pool of lava here and clear your way to this npc.  The path is to the west of the location.  When pulling the mobs, pull the idolators last, since they will not attack you unless you walk close to them.  Accept the quest.|QID|3377|M|27.00,26.00|
-C Prayer to Elune (part 1)|N|Talk to Zamael and go through the dialogue.|QID|3377|M|29.6,26.4|
-T Prayer to Elune (part 1)|QID|3377|M|29.6,26.4|
-A Prayer to Elune (part 2)|QID|3378|M|29.6,26.4|
-C Prayer to Elune (part 2)|N|Kill the twilight mobs around here until you get the Prayer to Elune.|QID|3378|M|29.6,26.4|
+A Prayer to Elune |N|Go to a pool of lava here and clear your way to this npc.  The path is to the west of the location.  When pulling the mobs, pull the idolators last, since they will not attack you unless you walk close to them.  Accept the quest.|QID|3377|M|27.00,26.00|
+C Prayer to Elune |N|Talk to Zamael and go through the dialogue.|QID|3377|M|29.6,26.4|
+T Prayer to Elune |QID|3377|M|29.6,26.4|
+A Prayer to Elune |QID|3378|M|29.6,26.4|
+C Prayer to Elune |N|Kill the twilight mobs around here until you get the Prayer to Elune.|QID|3378|M|29.6,26.4|
 C The Flame's Casing|N|Kill the twilight mobs around here until you get the Symbol of Ragnaros.|QID|3452|M|29.1,25.9|
 T The Flame's Casing|QID|3452|M|39.0,38.9|
-A The Torch of Retribution (part 1)|QID|3453|M|39.0,38.9|
-T The Torch of Retribution (part 1)|QID|3453|M|39.0,38.9|
-A The Torch of Retribution (part 2)|QID|3454|M|39.0,38.9|
-T The Torch of Retribution (part 2)|QID|3454|M|39.0,38.9|
+A The Torch of Retribution |QID|3453|M|39.0,38.9|
+T The Torch of Retribution |QID|3453|M|39.0,38.9|
+A The Torch of Retribution |QID|3454|M|39.0,38.9|
+T The Torch of Retribution |QID|3454|M|39.0,38.9|
 A Squire Maltrake|QID|3462|M|39.0,38.9|
 T Squire Maltrake|QID|3462|M|39.0,38.9|
 A Set Them Ablaze!|QID|3463|M|39.0,38.9|

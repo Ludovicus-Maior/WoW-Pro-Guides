@@ -1,27 +1,27 @@
 TourGuide:RegisterGuide("JamAzs5152", "Azshara", "Jame", "51", "52", "JamFel5253", "Alliance", function() return [[
 R Ironforge|QID|3368|
 N Sell junk, repair, restock|QID|3368|N|Sell junk, repair, restock|
-T Suntara Stones (part 2)|QID|3368|Z|Ironforge|M|67.8,8.3|
-A A Little Slime Goes a Long Way (part 1)|QID|4512|Z|Ironforge|M|75.8,23.4|
-A Passing the Burden|QID|3448|Z|Ironforge|M|77.5,11.8|
-T Passing the Burden|QID|3448|Z|Ironforge|M|31.0,4.8|
-A Arcane Runes|QID|3449|Z|Ironforge|M|31.0,4.8|
-A An Easy Pickup|QID|3450|Z|Ironforge|M|31.0,4.8|
-T An Easy Pickup|QID|3450|Z|Ironforge|M|70.9,94.6|
-A Signal for Pickup|QID|3451|Z|Ironforge|M|70.9,94.6|
-T Signal for Pickup|QID|3451|Z|Ironforge|M|70.9,94.6|
-F Stormwind|QID|4267|N|Fly to Stormwind.|Z|Ironforge|M|55.60,47.70|
+T Suntara Stones |QID|3368|Z|Ironforge|M|67.8,8.3|
+A A Little Slime Goes a Long Way |QID|4512|Z|Ironforge|M|75.8,23.4|
+A Passing the Burden|QID|3448|Z|Ironforge|M|77.5,11.8|N|From Historian Karnik in Hall of the Explorers.|
+T Passing the Burden|QID|3448|Z|Ironforge|M|31.0,4.8|N|To Tymor, in the Mystic Ward.|
+A Arcane Runes|QID|3449|Z|Ironforge|M|31.0,4.8|N|From Tymor.|PRE|3448|
+A An Easy Pickup|QID|3450|Z|Ironforge|M|31.0,4.8|N|From Tymor.|ACTIVE|3449|
+T An Easy Pickup|QID|3450|Z|Ironforge|M|70.9,94.6|N|To Xiggs Fuselighter.|
+A Signal for Pickup|QID|3451|Z|Ironforge|M|70.9,94.6|N|From Xiggs Fuselighter.|PRE|3450|
+T Signal for Pickup|QID|3451|Z|Ironforge|M|70.9,94.6|N|To Xiggs Fuselighter.|
+F Menithil Harbor|QID|4267|N|Fly to Menethil Harbor.|Z|Ironforge|M|55.60,47.70|
 b Auberdine|QID|4267|N|Take the boat to Auberdine.|
 F Rut'theran Village|QID|4267|N|Fly to Rut'theran Village|Z|Darkshore|M|36.30,45.60|
 R Darnassus|QID|4267|N|Go to Darnassus.|Z|Teldrassil|M|60.00,89.80|
-T Rise of the Silithid (final)|QID|4267|Z|Darnassus|M|41.8,85.6|
-A March of the Silithid|QID|4493|Z|Darnassus|M|41.8,85.6|
-T Prayer to Elune (part 2)|QID|3378|Z|Darnassus|M|38.3,80.9|
-R Rut'theran Village|QID|5536|N|Go to Rut'theran Village.|Z|Darnassus|M|30.50,41.40|
-F Forest Song|QID|5536|N|Fly to Forest Song, Ashenvale.|Z|Teldrassil|M|58.40,94.00|
-
-R Azshara|QID|5536|N|Go to Azshara.|Z|Ashenvale|M|95.40,48.40|
-f Talrendis Point|QID|5536|N|Get the flight path.|M|11.90,77.60|
+T Rise of the Silithid |QID|162|Z|Darnassus|M|41.8,85.6|N|To Gracina Spiritmight, 2nd floor, Temple of the Moon.|
+A March of the Silithid|QID|4493|Z|Darnassus|M|41.8,85.6|N|From Gracina Spiritmight.|
+T Prayer to Elune |QID|3378|Z|Darnassus|M|38.3,80.9|
+R Rut'theran Village|AVAILABLE|5536|N|Go to Rut'theran Village.|Z|Darnassus|M|30.50,41.40|
+F Talrendis Point|AVAILABLE|5536|M|58.4,94|Z|Darnassus|N|Fly to Azshara at Vesprystus.|TAXI|Talrendis Point|
+F Astranaar|AVAILABLE|5536|N|Fly to Astranaar, Ashenvale.|Z|Teldrassil|M|58.40,94.00|TAXI|-Talrendis Point|
+R Azshara|AVAILABLE|5536|N|Follow the road, generally west, to go to Azshara.|Z|Ashenvale|M|70,69;95.40,48.40|CS|TAXI|-Talrendis Point|
+f Talrendis Point|AVAILABLE|5536|N|Get the flight path.|M|11.90,77.60|TAXI|-Talrendis Point|
 A Spiritual Unrest|QID|5535|M|11.4,78.2|
 A A Land Filled with Hatred|QID|5536|M|11.4,78.2|
 C Spiritual Unrest|N|Kill the mobs needed for this quest.|QID|5535|M|16.90,69.20|
@@ -32,12 +32,13 @@ A Kim'jael Indeed!|QID|3601|M|53.5,21.8|
 C Kim'jael Indeed!|N|Look for Kim'jael's equipment at this location and loot the items until you finish this quest (wait for the crate to respawn). (58.50, 25.00)|QID|3601|M|58.5,25.0|
 T Kim'jael Indeed!|QID|3601|M|53.5,21.8|
 A Kim'jael's "Missing" Equipment|QID|5534|M|53.5,21.8|
+C Kim'jael's "Missing" Equipment|QID|5534|S|M|46,44|N|Kill naga sirens as you go to fine "some rune" randomly dropped.|
 N Rubbing: Rune of Jin'yael|QID|3449|N|Loot the rune at this location.|L|10564 1|M|39.55,50.20|
 N Rubbing: Rune of Beth'Amara|QID|3449|N|Loot the rune at this location.|L|10563 1|M|36.95,53.10|
 N Rubbing: Rune of Markri|QID|3449|N|Loot the rune at this location.|L|10565 1|M|39.35,55.50|
 N Rubbing: Rune of Sael'hai|QID|3449|N|Loot the rune at this location.|L|10566 1|M|42.35,64.15|
 C Arcane Runes|QID|3449|M|42.3,64.1|
-C Kim'jael's "Missing" Equipment|N|Kill Nagas here until you get the "Some Rune" for this quest.|QID|5534|M|46.00,44.00|
+C Kim'jael's "Missing" Equipment|US|N|Kill Nagas here until you get the "Some Rune" for this quest.|QID|5534|M|46.00,44.00|
 T Kim'jael's "Missing" Equipment|QID|5534|M|53.5,21.8|
 N Helipad|QID|3449|N|Use the Standard Issue Flare Gun from your inventory on the Helipad at this location.  It is better to run on a mount all the way around the water on land.  Swimming is a bad idea.|M|77.00,91.00|
 T Arcane Runes|QID|3449|M|77.8,91.3|
@@ -73,6 +74,6 @@ T Vulture's Vigor|QID|2603|Z|Blasted Lands|M|50.7,14.2|
 H Ironforge|QID|8460|N|Hearth to Ironforge.|
 N Sell junk, repair, restock|QID|8460|N|Sell junk, repair, restock.|
 
-F Stormwind|QID|8460|N|Fly to Menethil Harbor.|M|55.50,47.75|
+F Menethil Harbor|QID|8460|N|Fly to Menethil Harbor.|M|55.50,47.75|
 ]]
 end)

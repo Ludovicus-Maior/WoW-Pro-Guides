@@ -19,20 +19,16 @@ T Unfinished Business|QID|6004|
 A Unfinished Business|QID|6023|PRE|6004|
 
 C Unfinished Business|QID|6023|
-C The So-Called Mark of the Lightbringer|QID|9443|
 T Unfinished Business|QID|6023|
 A Unfinished Business|QID|6025|PRE|6023|
 C Unfinished Business|QID|6025|
 T Unfinished Business|QID|6025|
 T A Plague Upon Thee|QID|6390|
-T The So-Called Mark of the Lightbringer|QID|9443|
-A Defiling Uther's Tomb|QID|9444|PRE|9443|
 
 T Auntie Marlene|QID|5152|
 A A Strange Historian|QID|5153|PRE|5152|
 
 C A Strange Historian|QID|5153|
-C Defiling Uther's Tomb|QID|9444|N|You'll need to equip the quest item at the tomb.|
 
 T A Strange Historian|QID|5153|
 A The Annals of Darrowshire|QID|5154|PRE|5153|
@@ -57,7 +53,6 @@ T Zaeldarr the Outcast|QID|6021|
 T Brother Carlin|QID|5210|
 
 T Skeletal Fragments|QID|964|
-T Defiling Uther's Tomb|QID|9444|
 T All Along the Watchtowers|QID|5098|
 ]]
 end)

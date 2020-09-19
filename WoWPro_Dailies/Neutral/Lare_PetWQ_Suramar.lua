@@ -34,7 +34,7 @@ N Legion Pet Battle World Quests|N|To use this guide, look on your world map for
 ;TESTED once
 A Chopped|QID|41990|M|63.0, 60.6|Z|Suramar|N|Closest teleport location is the Twilight Vineyard.\nSpeak to Varenne to start the battle.|O|
 C Varenne|QID|41990|PET1|Soul of the Forge;84853;1+2+1|PET2|Leveling;;;|PET3|Jade Crane Chick;65314;2+2+2|STRATEGY|Hazel@YT|
-C Strat by Hazelnuttygames@Youtube|QID|41990|STRATEGY|Hazel@YT|N|1) Stoneskin\n2) Flamethrower\n3) Deep Burn x2\n4) Keep Stoneskin up and repeat steps 2&3 until Gusteau dies.|SELECT|1|DEAD|2,1|
+C Strat by Hazelnuttygames@Youtube|QID|41990|STRATEGY|Hazel@YT|N|1) Stoneskin\n2) Flamethrower\n3) Deep Burn x2\n4) Keep Stoneskin up and repeat steps 2 & 3 until Gusteau dies.|SELECT|1|DEAD|2,1|
 C Strat by Hazelnuttygames@Youtube|QID|41990|STRATEGY|Hazel@YT|N|1) Stoneskin when Remy comes out\n2) Continue with the Flamethrower - Deep Burn - Deep Burn attack routine until your Soul of the Forge dies\n3) Switch in your leveling pet|SELECT|1|SWITCH|2|
 C Strat by Hazelnuttygames@Youtube|QID|41990|STRATEGY|Hazel@YT|N|1) Switch in your Jade Crane Chick|SELECT|2|SWITCH|3|
 C Strat by Hazelnuttygames@Youtube|QID|41990|STRATEGY|Hazel@YT|N|1) If Remy has used Survival or it has more than 400 health, use Jadeskin\n2) Thrash until Remy dies|SELECT|3|DEAD|2,2|

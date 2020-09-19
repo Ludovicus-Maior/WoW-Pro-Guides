@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/midsummer_fire_festival_horde
+-- Date: 2020-06-23 07:16
+-- Who: Emmaleah
+-- Log: error in fly to retribution point
+
+-- URL: http://wow-pro.com/node/3407/revisions/30381/view
 -- Date: 2019-08-25 16:57
 -- Who: Ludovicus_Maior
 -- Log: Ghostlands fix.
@@ -16,7 +21,7 @@
 -- URL: http://wow-pro.com/node/3407/revisions/29440/view
 -- Date: 2018-07-19 15:32
 -- Who: Ludovicus_Maior
--- Log:  Durotar
+-- Log: Duratar -> Durotar
 
 -- URL: http://wow-pro.com/node/3407/revisions/28794/view
 -- Date: 2017-09-13 00:15
@@ -57,12 +62,12 @@
 -- URL: http://wow-pro.com/node/3407/revisions/27710/view
 -- Date: 2016-09-07 03:57
 -- Who: Emmaleah
--- Log: added guide name registration, changed the registered zone to Orgrimmar and deleted all instances of '|Z|Orgrimmar'.  
+-- Log: added guide name registration, changed the registered zone to Orgrimmar and deleted all instances of '|Z|Orgrimmar'.
 
 -- URL: http://wow-pro.com/node/3407/revisions/26847/view
 -- Date: 2014-11-07 20:33
 -- Who: Emmaleah
--- Log: deleted duplicate tags per Ludo's list o' errors 
+-- Log: deleted duplicate tags per Ludo's list o' errors
 
 -- URL: http://wow-pro.com/node/3407/revisions/26574/view
 -- Date: 2014-07-06 16:03
@@ -434,7 +439,7 @@ T Desecrate This Fire!|QID|44582|Z|Shadowmoon Valley@Draenor|M|42.65,35.96|N|To 
 F Veil Terokk|QID|44570|Z|Shadowmoon Valley@Draenor|M|45.57,25.40|N|At Wargra.|
 A Honor the Flame|QID|44570|Z|Spires of Arak|M|48.01,44.72|N|Spires of Arak Flame Guardian.|
 T Honor the Flame|QID|44570|Z|Spires of Arak|M|48.01,44.72|N|To Midsummer Bonfire.|
-F Retribution Point|QID|44571|Z|Talador|M|46.17,44.12|N|At Skytalon Meshaal.|
+F Retribution Point|QID|44571|Z|Spires of Arak|M|46.17,44.12|N|At Skytalon Meshaal.|
 A Honor the Flame|QID|44571|Z|Talador|M|43.50,71.81|N|Talador Flame Guardian.|
 T Honor the Flame|QID|44571|Z|Talador|M|43.50,71.81|N|To Midsummer Bonfire.|
 F The Ring of Trials|QID|44572|Z|Talador|M|42.10,76.79|N|At Beldos.|

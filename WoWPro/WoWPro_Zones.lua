@@ -1,3 +1,6 @@
+-- luacheck: globals table tinsert sort select pairs ipairs next
+-- luacheck: globals tonumber tostring type
+
 ----------------------------------
 --      WoWPro_Zones.lua      --
 ----------------------------------
@@ -7,6 +10,7 @@
 WoWPro.MapInfo = {}
 WoWPro.Zone2MapID = {}
 WoWPro.LegacyZone2MapID = {}
+local UIMapType = _G.Enum.UIMapType
 
 function WoWPro.DefineLegacyZone(legacy_zone, modern_mapId)
     WoWPro.LegacyZone2MapID[legacy_zone] = WoWPro.LegacyZone2MapID[legacy_zone] or {}
@@ -36,27 +40,27 @@ function WoWPro.DefineZone1(mapId, zone, mapType, parent_map, group_id, ... )
     WoWPro.Zone2MapID[zone] = mapId
 end
 
-function WoWPro.DefineZone8(mapId, zone, mapType, parent_map, group_id, ... )
+function WoWPro.DefineZone9(mapId, zone, mapType, parent_map, group_id, ... )
     if WoWPro.CLASSIC then return end
     if WoWPro.Zone2MapID[zone] then
-        WoWPro:dbp("DupCheck(): DefineZone1(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
+        WoWPro:dbp("DupCheck(): DefineZone9(%q) is overriding map %d", zone, WoWPro.Zone2MapID[zone])
     end
     WoWPro.MapInfo[mapId] = {mapID=mapId, name=zone, mapType=mapType, parent_map=parent_map, group_id=group_id, children={...}}
     WoWPro.Zone2MapID[zone] = mapId
 end
 
 function WoWPro.GetZoneText()
-    local x, y, mapId = WoWPro:GetPlayerZonePosition()
+    local _, _, mapId = WoWPro:GetPlayerZonePosition()
     if WoWPro.MapInfo[mapId] then
-        return string.format("%s",  WoWPro.MapInfo[mapId].name), mapId
+        return ("%s"):format(WoWPro.MapInfo[mapId].name), mapId
     else
         return tostring(mapId), mapId
     end
 end
 
 function WoWPro:ValidZone(zone)
-	if zone then
-	    if tonumber(zone) then
+    if zone then
+        if tonumber(zone) then
             -- Using a numeric zone ID
             if WoWPro.MapInfo[tonumber(zone)] then
                 return tostring(zone), tonumber(zone)
@@ -64,42 +68,42 @@ function WoWPro:ValidZone(zone)
                 WoWPro:Error("ValidZone: Numeric Zone [%s] is unknown.", zone)
                 return nil
             end
-	    elseif WoWPro.Zone2MapID[zone] then
-	        -- Zone found in DB
-	        return zone, WoWPro.Zone2MapID[zone]
-	    elseif WoWPro.LegacyZone2MapID[zone] then
-	        -- Zone is a legacy zone sans floor
-	        local mapId = WoWPro.LegacyZone2MapID[zone]["default"]
-	        if not WoWPro.MapInfo[mapId] then
-	            WoWPro:print("ValidZone: Legacy Zone [%s] with default floor is not registered.", zone)
-	            return nil
-	        end
-	        if not WoWPro.MapInfo[mapId].name then
-	            WoWPro:print("ValidZone: Legacy Zone [%s]/%d with default floor has no name!.", zone, mapId)
-	            return nil
-	        end
-	        return WoWPro.MapInfo[mapId].name, mapId
-	    elseif zone:match("/") then
-	        -- Zone is a legacy zone avec floor
-	        local nzone , floor = string.split("/",zone)
-	        floor = tonumber(floor)
-	        if not WoWPro.LegacyZone2MapID[nzone] then
-	            WoWPro:print("ValidZone: Legacy Zone [%s] is not registered.", zone)
-	            return nil
-	        end
-	        if not floor then
-	            WoWPro:print("ValidZone: Legacy Zone [%s] has a malformed floor", zone)
-	            return nil
-	        end
-	        if not WoWPro.LegacyZone2MapID[nzone][floor] then
-	            WoWPro:print("ValidZone: Legacy Zone [%s] has an unknown floor", zone)
-	            return nil
-	        end
-	        local mapId = WoWPro.LegacyZone2MapID[nzone][floor]
-	        return WoWPro.MapInfo[mapId].name, mapId
-	    else
-	        WoWPro:Error("ValidZone: Zone [%s] is unknown.", zone)
-	    end
+        elseif WoWPro.Zone2MapID[zone] then
+            -- Zone found in DB
+            return zone, WoWPro.Zone2MapID[zone]
+        elseif WoWPro.LegacyZone2MapID[zone] then
+            -- Zone is a legacy zone sans floor
+            local mapId = WoWPro.LegacyZone2MapID[zone]["default"]
+            if not WoWPro.MapInfo[mapId] then
+                WoWPro:print("ValidZone: Legacy Zone [%s] with default floor is not registered.", zone)
+                return nil
+            end
+            if not WoWPro.MapInfo[mapId].name then
+                WoWPro:print("ValidZone: Legacy Zone [%s]/%d with default floor has no name!.", zone, mapId)
+                return nil
+            end
+            return WoWPro.MapInfo[mapId].name, mapId
+        elseif zone:match("/") then
+            -- Zone is a legacy zone avec floor
+            local nzone , floor = ("/"):split(zone)
+            floor = tonumber(floor)
+            if not WoWPro.LegacyZone2MapID[nzone] then
+                WoWPro:print("ValidZone: Legacy Zone [%s] is not registered.", zone)
+                return nil
+            end
+            if not floor then
+                WoWPro:print("ValidZone: Legacy Zone [%s] has a malformed floor", zone)
+                return nil
+            end
+            if not WoWPro.LegacyZone2MapID[nzone][floor] then
+                WoWPro:print("ValidZone: Legacy Zone [%s] has an unknown floor", zone)
+                return nil
+            end
+            local mapId = WoWPro.LegacyZone2MapID[nzone][floor]
+            return WoWPro.MapInfo[mapId].name, mapId
+        else
+            WoWPro:Error("ValidZone: Zone [%s] is unknown.", zone)
+        end
     end
     return nil, nil
 end
@@ -107,62 +111,40 @@ end
 function WoWPro:IsInstanceZone(zone)
     local nzone, mapID  = WoWPro:ValidZone(zone)
     if not nzone then
-        WoWPro:Error("Zone [%s] is invalid.  Please report!",zone)
         return false
     end
-    return (WoWPro.MapInfo[mapID].mapType == Enum.UIMapType.Dungeon) or (WoWPro.MapInfo[mapID].mapType == Enum.UIMapType.Orphan)
+    return (WoWPro.MapInfo[mapID].mapType == UIMapType.Dungeon) or (WoWPro.MapInfo[mapID].mapType == UIMapType.Orphan)
 end
-
-local function pack_kv(...)
-    t = {}
-    for i=1, select("#", ...), 2 do
-        k = select(i, ...)
-        v = select(i+1, ...)
-        t[k] = v
-    end
-    return t
-end
-
-local function pack_v(...)
-    t = {}
-    for i=1, select("#", ...), 2 do
-        k = select(i, ...)
-        v = select(i+1, ...)
-        table.insert(t,v)
-    end
-    return t
-end
-
 
 local ptable_buf
 
 local function ptable_inner(item)
     local item_type =  type(item)
     if item_type == "number" then
-        table.insert(ptable_buf, tostring(item))
+        tinsert(ptable_buf, tostring(item))
         return
     end
     if item_type == "string" then
-        table.insert(ptable_buf, string.format("%q",item))
+        tinsert(ptable_buf, ("%q"):format(item))
         return
     end
     if item_type == "number" then
-        table.insert(ptable_buf, tostring(item))
+        tinsert(ptable_buf, tostring(item))
         return
     end
     if item_type == "boolean" then
-        table.insert(ptable_buf, tostring(item))
+        tinsert(ptable_buf, tostring(item))
         return
     end
     if item == nil then
-        table.insert(ptable_buf, "nil")
+        tinsert(ptable_buf, "nil")
         return
     end
     local last_i = 0
     if item_type == "table" then
-        table.insert(ptable_buf, "{")
+        tinsert(ptable_buf, "{")
         for i,v in ipairs(item) do
-            if i > 1 then table.insert(ptable_buf, ",") end
+            if i > 1 then tinsert(ptable_buf, ",") end
             ptable_inner(v)
             last_i  = i
         end
@@ -172,28 +154,28 @@ local function ptable_inner(item)
         for k,v in pairs(item) do
             local k_type = type(k)
             if k_type == "string" then
-                if comma_p then table.insert(ptable_buf, ",") end
+                if comma_p then tinsert(ptable_buf, ",") end
                 comma_p = true
-                if string.match(k, "^[%a_][%a%d_]*$") then
-                    table.insert(ptable_buf, k)
-                    table.insert(ptable_buf, "=")
+                if k:match("^[%a_][%a%d_]*$") then
+                    tinsert(ptable_buf, k)
+                    tinsert(ptable_buf, "=")
                 else
-                    table.insert(ptable_buf, string.format("[%q]=",k))
+                    tinsert(ptable_buf, ("[%q]="):format(k))
                 end
                 ptable_inner(v)
             else
                 --
                 if k_type ~= "number" or k >= last_i or k < 1 or ( k % 1 ~= 0) then
-                    if comma_p then table.insert(ptable_buf, ",") end
+                    if comma_p then tinsert(ptable_buf, ",") end
                     comma_p = true
-                    table.insert(ptable_buf, string.format("[%s]=",tostring(k)))
+                    tinsert(ptable_buf, ("[%s]="):format(tostring(k)))
                     ptable_inner(v)
                 end
             end
         end
-        table.insert(ptable_buf, "}")
+        tinsert(ptable_buf, "}")
     else
-        table.insert(ptable_buf, string.format("%q",tostring(t)))
+        tinsert(ptable_buf, ("%q"):format(tostring(item)))
         return
     end
 end
@@ -215,13 +197,13 @@ function WoWPro.DebugZones()
 end
 
 local MapType2Name = {
-    [Enum.UIMapType.Cosmic] = "Enum.UIMapType.Cosmic",
-    [Enum.UIMapType.World] = "Enum.UIMapType.World",
-    [Enum.UIMapType.Continent] = "Enum.UIMapType.Continent",
-    [Enum.UIMapType.Zone] = "Enum.UIMapType.Zone",
-    [Enum.UIMapType.Dungeon] = "Enum.UIMapType.Dungeon",
-    [Enum.UIMapType.Micro] = "Enum.UIMapType.Micro",
-    [Enum.UIMapType.Orphan] = "Enum.UIMapType.Orphan",
+    [UIMapType.Cosmic] = "Enum.UIMapType.Cosmic",
+    [UIMapType.World] = "Enum.UIMapType.World",
+    [UIMapType.Continent] = "Enum.UIMapType.Continent",
+    [UIMapType.Zone] = "Enum.UIMapType.Zone",
+    [UIMapType.Dungeon] = "Enum.UIMapType.Dungeon",
+    [UIMapType.Micro] = "Enum.UIMapType.Micro",
+    [UIMapType.Orphan] = "Enum.UIMapType.Orphan",
 }
 
 function WoWPro.EmitZones(release)
@@ -232,10 +214,10 @@ function WoWPro.EmitZones(release)
             WoWPro:Print("%s",ptable(info))
             local nomen = info.nick or info.name
             local mapType = MapType2Name[info.mapType] or tostring(info.mapType)
-            temp = string.format("DefineZone%d(%04d, %q, %s, %04d, %s", release, info.mapID, nomen, mapType, info.parentMapID, tostring(info.GroupID))
+            temp = ("DefineZone%d(%04d, %q, %s, %04d, %s"):format(release, info.mapID, nomen, mapType, info.parentMapID, tostring(info.GroupID))
             if info.children and #(info.children) > 0 then
                 for i = 1, #(info.children) do
-                    temp = temp .. string.format(", %04d",info.children[i])
+                    temp = temp .. (", %04d"):format(info.children[i])
                 end
             end
             temp = temp .. ")"
@@ -251,7 +233,7 @@ end
 
 
 function WoWPro.CollectMap(id)
-    local mapInfo = C_Map.GetMapInfo(id)
+    local mapInfo = _G.C_Map.GetMapInfo(id)
     if not mapInfo then return; end
     local w, h = WoWPro.HBD:GetZoneSize(id)
     if (w == 0) or (h == 0) then
@@ -265,9 +247,9 @@ function WoWPro.CollectMap(id)
     if wip_map_info[id].mapType == 6 then
         wip_map_info[id].name = wip_map_info[id].name .. "!Instance"
     end
-    wip_map_info[id].GroupID = C_Map.GetMapGroupID(id)
+    wip_map_info[id].GroupID = _G.C_Map.GetMapGroupID(id)
     if wip_map_info[id].GroupID then
-        wip_group_info[wip_map_info[id].GroupID] = C_Map.GetMapGroupMembersInfo(wip_map_info[id].GroupID)
+        wip_group_info[wip_map_info[id].GroupID] = _G.C_Map.GetMapGroupMembersInfo(wip_map_info[id].GroupID)
         -- Find the matching entry for us in the group member table
         for index, mapGroupMemberInfo in ipairs(wip_group_info[wip_map_info[id].GroupID]) do
             if id == mapGroupMemberInfo.mapID then
@@ -277,14 +259,14 @@ function WoWPro.CollectMap(id)
             end
         end
     end
-    local children = C_Map.GetMapChildrenInfo(id)
+    local children = _G.C_Map.GetMapChildrenInfo(id)
     wip_map_info[id].children = {}
     if children and #children > 0 then
         for i = 1, #children do
             wip_map_info[id].children[i] = children[i].mapID
         end
     end
-    table.sort(wip_map_info[id].children)
+    sort(wip_map_info[id].children)
 end
 
 function WoWPro.NameZones()
@@ -294,7 +276,7 @@ function WoWPro.NameZones()
         if not wip_name_info[nomen] then
             -- Whee the name is free!
             wip_name_info[nomen] = id
-        elseif wip_name_info[nomen] == id then
+        elseif wip_name_info[nomen] == id then -- luacheck: ignore
             -- Whew, our name is still unique
         else
             -- Collision! Tack on ancestors till we are unique.
@@ -355,7 +337,7 @@ local function unregister_name(name, mapID)
                 wip_name_info[name] = next(wip_name_info[name], nil)
             end
         else
-			if wip_name_info[name] == mapID then
+            if wip_name_info[name] == mapID then
                 wip_name_info[name] = nil
             end
         end
@@ -371,9 +353,9 @@ function WoWPro.InferGoodNicknames()
         if type(info) == "number" then
             -- A unique name
             if wip_map_info[info].nick then
-                WoWPro:dbp("InferGoodNicknames(%04d): Collision on %q and %q",id, wip_map_info[info].nick, name)
+                WoWPro:dbp("InferGoodNicknames(%04d): Collision on %q and %q", info, wip_map_info[info].nick, name)
                 --- Choose the shortest unique nickname
-                if string.len(name) < string.len(wip_map_info[info].nick) then
+                if name:len() < wip_map_info[info].nick:len() then
                     WoWPro:dbp("InferGoodNicknames(%04d): Choosing %q", info, name)
                     unregister_name(wip_map_info[info].nick, info)
                 else
@@ -386,14 +368,15 @@ function WoWPro.InferGoodNicknames()
             end
         elseif type(info) == "table" then
             -- Whoops!
-            WoWPro:dbp("InferGoodNicknames(%04d): Collision on %q in %s", id, name , ptable(info))
+            local id = 404
+            WoWPro:dbp("InferGoodNicknames(%04d): Collision on %q in %s", id, name, ptable(info))
         end
     end
 end
 
 function WoWPro.ProcessGroupMembers(id, map_info)
     if map_info.GroupID then
-        wip_group_info[map_info.GroupID] = wip_group_info[map_info.GroupID] or C_Map.GetMapGroupMembersInfo(map_info.GroupID)
+        wip_group_info[map_info.GroupID] = wip_group_info[map_info.GroupID] or _G.C_Map.GetMapGroupMembersInfo(map_info.GroupID)
         -- If all the group members have the name name, use the height as a suffix
         local clones = wip_group_info[map_info.GroupID].clones
         if clones == nil then
@@ -413,7 +396,7 @@ function WoWPro.ProcessGroupMembers(id, map_info)
             WoWPro:dbp("ProcessGroupMembers(%04d): group %d are clones",id, map_info.GroupID)
             for index, mapGroupMemberInfo in ipairs(wip_group_info[map_info.GroupID]) do
                 if id == mapGroupMemberInfo.mapID then
-                    nomen = mapGroupMemberInfo.name .. tostring(mapGroupMemberInfo.relativeHeightIndex)
+                    local nomen = mapGroupMemberInfo.name .. tostring(mapGroupMemberInfo.relativeHeightIndex)
                     WoWPro:dbp("ProcessGroupMembers(%04d): clone group %d map %d is now %q", id, map_info.GroupID, mapGroupMemberInfo.mapID, nomen)
                     register_name(nomen, id)
                     unregister_name(map_info.name, id)
@@ -426,7 +409,7 @@ function WoWPro.ProcessGroupMembers(id, map_info)
             for index, mapGroupMemberInfo in ipairs(wip_group_info[map_info.GroupID]) do
                 if id == mapGroupMemberInfo.mapID then
                     if mapGroupMemberInfo.name ~= map_info.name then
-                        nomen = mapGroupMemberInfo.name .. "@" .. map_info.name
+                        local nomen = mapGroupMemberInfo.name .. "@" .. map_info.name
                         WoWPro:dbp("ProcessGroupMembers(%04d): group %d %q => %q",id, map_info.GroupID, map_info.name, nomen)
                         register_name(nomen, id)
                         unregister_name(map_info.name, id)
@@ -438,29 +421,29 @@ function WoWPro.ProcessGroupMembers(id, map_info)
         end
     end
     return map_info.name
-end    
+end
 
 local overrides = {
-    [125] = {mapType = Enum.UIMapType.Zone}, -- Dalaran
-    [126] = {mapType = Enum.UIMapType.Micro},
+    [125] = {mapType = UIMapType.Zone}, -- Dalaran
+    [126] = {mapType = UIMapType.Micro},
     [195] = {suffix = "1"}, -- Kaja'mine
     [196] = {suffix = "2"}, -- Kaja'mine
     [197] = {suffix = "3"}, -- Kaja'mine
-    [501] = {mapType = Enum.UIMapType.Zone}, -- Dalaran
-    [502] = {mapType = Enum.UIMapType.Micro},
+    [501] = {mapType = UIMapType.Zone}, -- Dalaran
+    [502] = {mapType = UIMapType.Micro},
     [579] = {suffix = "1"}, -- Lunarfall Excavation
     [580] = {suffix = "2"}, -- Lunarfall Excavation
     [581] = {suffix = "3"}, -- Lunarfall Excavation
     [585] = {suffix = "1"}, -- Frostwall Mine
     [586] = {suffix = "2"}, -- Frostwall Mine
     [587] = {suffix = "3"}, -- Frostwall Mine
-    [625] = {mapType = Enum.UIMapType.Orphan}, -- Dalaran
-    [626] = {mapType = Enum.UIMapType.Micro}, -- Dalaran
-    [627] = {mapType = Enum.UIMapType.Zone},
-    [628] = {mapType = Enum.UIMapType.Micro},
-    [629] = {mapType = Enum.UIMapType.Micro},
-    [943] = {suffix = FACTION_HORDE}, -- Arathi Highlands
-    [1044] = {suffix = FACTION_ALLIANCE},
+    [625] = {mapType = UIMapType.Orphan}, -- Dalaran
+    [626] = {mapType = UIMapType.Micro}, -- Dalaran
+    [627] = {mapType = UIMapType.Zone},
+    [628] = {mapType = UIMapType.Micro},
+    [629] = {mapType = UIMapType.Micro},
+    [943] = {suffix = _G.FACTION_HORDE}, -- Arathi Highlands
+    [1044] = {suffix = _G.FACTION_ALLIANCE},
 }
 
 function WoWPro.ProcessMapAndKids(id, root)
@@ -468,7 +451,7 @@ function WoWPro.ProcessMapAndKids(id, root)
         -- WoWPro:Warning("ProcessMapAndKids(%d): map already processed.",id)
         return
     end
-    local map_info = C_Map.GetMapInfo(id)
+    local map_info = _G.C_Map.GetMapInfo(id)
     if not map_info then
         -- WoWPro:Warning("ProcessMapAndKids(%d): no map for you!", id)
         return
@@ -483,22 +466,22 @@ function WoWPro.ProcessMapAndKids(id, root)
 
     -- Default name
     local nomen = map_info.name
-    
+
     -- Do we have a suffix ?
     if map_info.suffix then
         nomen = map_info.name .. " " .. map_info.suffix
         map_info.name = nomen
     end
-    
+
     WoWPro:dbp("ProcessMapAndKids(%04d): %s",id, nomen)
     register_name(nomen, id)
 
     -- If we are in a group, first set the name according to the group rules.
-    map_info.GroupID = C_Map.GetMapGroupID(id)
+    map_info.GroupID = _G.C_Map.GetMapGroupID(id)
     if map_info.GroupID then
         WoWPro.ProcessGroupMembers(id, map_info)
     end
-    
+
     -- Now record a few standard aliases and see which will stick
 
     -- <zone>#<mapid> should always work
@@ -513,7 +496,7 @@ function WoWPro.ProcessMapAndKids(id, root)
     end
 
     -- <zone>!parent might work
-    if map_info.parentMapID > 0 and (map_info.mapType == Enum.UIMapType.Zone or map_info.mapType == Enum.UIMapType.Micro) then
+    if map_info.parentMapID > 0 and (map_info.mapType == UIMapType.Zone or map_info.mapType == UIMapType.Micro) then
         local daddy = wip_map_info[map_info.parentMapID]
         if daddy then
             nomen = map_info.name .. "!" .. daddy.name
@@ -524,13 +507,13 @@ function WoWPro.ProcessMapAndKids(id, root)
             if grandpa then
                 nomen = map_info.name .. "!" .. daddy.name .. "!" .. grandpa.name
                 WoWPro:dbp("ProcessMapAndKids(%04d): %s => %s",id, map_info.name, nomen)
-                register_name(nomen, id) 
+                register_name(nomen, id)
             end
         end
     end
-    
+
     -- <zone>!Dungeon or <zone>!Dungeon<mapid> might work
-    if map_info.mapType == Enum.UIMapType.Dungeon then
+    if map_info.mapType == UIMapType.Dungeon then
         -- Give up the name sans Dungeon
         unregister_name(map_info.name, id)
         nomen = map_info.name .. "!Dungeon"
@@ -543,7 +526,7 @@ function WoWPro.ProcessMapAndKids(id, root)
     end
 
     -- <zone>!Instance or <zone>!Instance<mapid> might work
-    if map_info.mapType == Enum.UIMapType.Orphan then
+    if map_info.mapType == UIMapType.Orphan then
         -- Give up the name sans Instance
         unregister_name(map_info.name, id)
         nomen = map_info.name .. "!Instance"
@@ -557,7 +540,7 @@ function WoWPro.ProcessMapAndKids(id, root)
 
     -- Now record the current map info and prepare to recurse
     wip_map_info[id] = map_info
-    local children = C_Map.GetMapChildrenInfo(id)
+    local children = _G.C_Map.GetMapChildrenInfo(id)
     map_info.children = {}
     if children and #children > 0 then
         for i = 1, #children do
@@ -565,7 +548,7 @@ function WoWPro.ProcessMapAndKids(id, root)
             register_name(children[i].name, children[i].mapID)
         end
     end
-    table.sort(map_info.children)
+    sort(map_info.children)
 
     for i = 1, #(map_info.children) do
         WoWPro.ProcessMapAndKids(map_info.children[i], root)

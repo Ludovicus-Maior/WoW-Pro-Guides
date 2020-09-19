@@ -21,7 +21,7 @@ A More Wastewander Justice|QID|1691|M|52.5,28.5|
 R Thousand Needles|QID|1137|N|Run north to Thousand Needles.|M|51.00,18.00|
 T News for Fizzle|QID|1137|M|78.1,77.1|
 T Parts for Kravel|QID|1112|M|77.8,77.3|
-T Goblin Sponsorship (part 5)|QID|1183|M|80.2,75.9|
+T Goblin Sponsorship |QID|1183|M|80.2,75.9|
 A Keeping Pace|QID|1190|M|80.2,75.9|
 C Keeping Pace|N|Talk to Zamek to get him to start moving.  Follow him until he sets up the explosives, then loot the Unguarded Plans when Rizzle is distracted.|QID|1190|M|79.80,77.00|
 T Keeping Pace|QID|1190|M|77.2,77.4|

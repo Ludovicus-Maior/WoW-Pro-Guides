@@ -70,18 +70,18 @@ A ... and Bugs|QID|1258|
 T The Orc Report|QID|1219|M|65.1,47.1|
 A Captain Vimes|QID|1220|M|65.1,47.1|
 T The Black Shield|QID|1253|M|68.2,48.6|
-A The Black Shield (next)|QID|1319|M|68.2,48.6|
+A The Black Shield |QID|1319|M|68.2,48.6|
 T Lieutenant Paval Reethe|QID|1252|M|68.2,48.6|
-A Lieutenant Paval Reethe (next)|QID|1259|M|68.2,48.6|
+A Lieutenant Paval Reethe |QID|1259|M|68.2,48.6|
 T Suspicious Hoofprints|QID|1284|M|68.2,48.6|
 T Captain Vimes|QID|1220|M|68.2,48.6|
-T Lieutenant Paval Reethe (next)|QID|1259|M|68.0,48.1|
+T Lieutenant Paval Reethe |QID|1259|M|68.0,48.1|
 A Daelin's Men|QID|1285|M|68.0,48.1|
 T Daelin's Men|QID|1285|M|68.2,48.6|
 A The Deserters|QID|1286|M|68.2,48.6|
-T The Black Shield (part 2)|QID|1319|M|64.8,50.4|
-A The Black Shield (part 3)|QID|1320|M|64.8,50.4|
-T The Black Shield (part 3)|QID|1320|M|68.2,48.6|
+T The Black Shield |QID|1319|M|64.8,50.4|
+A The Black Shield |QID|1320|M|64.8,50.4|
+T The Black Shield |QID|1320|M|68.2,48.6|
 N Sell junk, repair, restock.|QID|11137|N|Sell junk, repair, restock.|
 T Defias in Dustwallow?|QID|11137|M|59.8,41.1|
 A Renn McGill|QID|11138|
@@ -127,7 +127,7 @@ N Sell junk, repair, restock|QID|1177|N|Sell junk, repair, restock|
 T Hungry!|QID|1177|
 C The Deserters|N|Fight Balos Jacken at this location.|QID|1286|M|36.10,54.30|
 T The Deserters|QID|1286|M|36.1,54.3|
-A The Deserters (part 2)|QID|1287|
+A The Deserters |QID|1287|
 T Tabetha's Farm|QID|11212|M|46.1,57.2|
 N Grind if needed|QID|11214|N|Grind if needed to become 3000 xp away from level 40.|
 ]]

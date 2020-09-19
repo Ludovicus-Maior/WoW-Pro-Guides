@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/winter_veil_alliance_and_horde
+-- Date: 2020-07-17 20:59
+-- Who: Ludovicus_Maior
+-- Log: 29385 [A Winter Veil Gift] is obsolete
+
+-- URL: http://wow-pro.com/node/3458/revisions/30045/view
 -- Date: 2018-10-17 22:33
 -- Who: Ludovicus_Maior
 -- Log: And/Or
@@ -46,7 +51,7 @@
 -- URL: http://wow-pro.com/node/3458/revisions/25679/view
 -- Date: 2013-05-17 20:52
 -- Who: Ludovicus_Maior
--- Log:  [A Smokywood Pastures' Thank You!]
+-- Log: [Smokywood Pastures' Thank You!] => [A Smokywood Pastures' Thank You!]
 
 -- URL: http://wow-pro.com/node/3458/revisions/25642/view
 -- Date: 2013-05-14 19:07
@@ -119,7 +124,7 @@ T Winter's Presents|QID|8828|M|49.62,78.00|Z|Orgrimmar|N|To Great-father Winter.
 A A Gently Shaken Gift|QID|8767^8788|M|49.15,78.07|Z|Orgrimmar|N|Your first gift!|
 A A Carefully Wrapped Present|QID|8744|M|49.29,78.27|Z|Orgrimmar|N|Your second gift!|
 A A Festive Gift|QID|8803|LVL|10|M|49.55,77.79|Z|Orgrimmar|N|Your third gift!|
-A A Winter Veil Gift|QID|11528^13203^13966^28878^29385^32106|LVL|10|M|49.40,77.60|Z|Orgrimmar|N|Your fourth gift!|
+; A A Winter Veil Gift|QID|11528^13203^13966^28878^29385^32106|LVL|10|M|49.40,77.60|Z|Orgrimmar|N|Your fourth gift!|
 A A Gaily Wrapped Present|QID|8768|LVL|20|M|49.6,78.2|Z|Orgrimmar|N|Your fifth gift!|
 A A Ticking Present|QID|8769|LVL|40|M|49.19,77.76|Z|Orgrimmar|N|Your sixth gift!|
 

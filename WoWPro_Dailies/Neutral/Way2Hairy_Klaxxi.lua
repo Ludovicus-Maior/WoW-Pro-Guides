@@ -96,7 +96,7 @@
 -- URL: http://wow-pro.com/node/3504/revisions/25183/view
 -- Date: 2012-11-05 01:12
 -- Who: Emmaleah
--- Log: 4 Nov 2012 - 
+-- Log: 4 Nov 2012 -
 --	remade the changes I made just before I put the newest copy here. (quests The Warlords Ashes, The Matriarchs Maw and Kypa'rak's Core, fixed QID for Sonic Disruption, - changed some steps (but not all) to match the convention of |M| being the last thing in the step.- Added R step to clutches of shek'zeer.- Added change log.
 
 -- URL: http://wow-pro.com/node/3504/revisions/25182/view

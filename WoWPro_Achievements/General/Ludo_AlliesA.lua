@@ -4,6 +4,11 @@
 -- Permissions beyond the scope of this license may be available at http://www.wow-pro.com/License.
 
 -- URL: http://wow-pro.com/wiki/legion_allied_races_guides
+-- Date: 2020-08-14 15:32
+-- Who: Ludovicus_Maior
+-- Log: ThunderTotem/6 => Thunder Totem
+
+-- URL: http://wow-pro.com/node/3778/revisions/30383/view
 -- Date: 2019-08-25 17:02
 -- Who: Ludovicus_Maior
 -- Log: ThunderTotem update
