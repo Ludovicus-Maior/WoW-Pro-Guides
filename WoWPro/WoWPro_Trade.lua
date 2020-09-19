@@ -363,9 +363,8 @@ else
         local Trades = WoWProCharDB.Trades
         local recipes = 0
         local learned = 0
-        local recipeInfo = {}
         for _, recipeID in pairs(_G.C_TradeSkillUI.GetAllRecipeIDs()) do
-            _G.C_TradeSkillUI.GetRecipeInfo(recipeID, recipeInfo)
+            local recipeInfo = _G.C_TradeSkillUI.GetRecipeInfo(recipeID)
             if recipeInfo.type == 'recipe' and recipeInfo.learned then
                 local link = _G.C_TradeSkillUI.GetRecipeLink(recipeID)
                 local _, _, spellId = link:find("^|%x+|Henchant:(.+)|h%[.+%]")
