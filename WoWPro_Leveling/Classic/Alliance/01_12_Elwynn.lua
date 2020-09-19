@@ -409,7 +409,7 @@ C The Tome of Divinity|QID|1786|M|72.59,51.41|U|6866|NC|T|Henze Faulk|N|Target H
 T The Tome of Divinity|QID|1786|M|72.59,51.41|N|To Henze Faulk.|C|Paladin|
 A The Tome of Divinity|QID|1787|M|72.59,51.41|N|From Henze Faulk.|PRE|1786|C|Paladin|
 C The Tome of Divinity|QID|1787|M|74.03,51.84|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|C|Paladin|
-R Stone Cairn Lake|ACTIVE|46|75.95,59.58|N|Return to the shoreline of Stone Cairn Lake.|C|Paladin|
+R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|N|Return to the southern shoreline of Stone Cairn Lake.|C|Paladin|
 
 C Bounty on Murlocs|QID|46|L|780 8|N|Kill murlocs until you collect the torn fins needed.|
 T Cloth and Leather Armor|QID|59|M|79.46,68.79|N|To Sara Timberlain in Eastvale Logging Camp.|
