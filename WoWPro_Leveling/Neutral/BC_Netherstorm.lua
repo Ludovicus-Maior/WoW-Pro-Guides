@@ -101,8 +101,8 @@ C Essence for the Engines|QID|10224|M|36.57,59.05;32.41,58.4|CN|N|Go between the
 T Recharging the Batteries|QID|10190|M|31.53,56.66|N|To Bot-Specialist Alley.|
 T Essence for the Engines|QID|10224|M|32.43,66.67|N|To Chief Engineer Trep.|
 A Elemental Power Extraction|QID|10226|PRE|10224|M|32.42,66.66|N|From Chief Engineer Trep.|
-l B'naar Access Crystal|QID|10299^10329|M|23.81,70.47|N|Loot the B'naar Access Crystal off of Overseer Theredis' corpse.|L|29366|
-C Shutting Down Manaforge B'naar|QID|10329|QO|2|ACTIVE|10329|M|23.19,68.16|N|Even though the quest comes up complete on the UI, you need to defend the Manaforge while it shuts down. To finish it, click on the B'naar Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears.|
+C B'naar Access Crystal|QID|10299^10329|M|23.81,70.47|QO|2|N|Loot the B'naar Access Crystal off of Overseer Theredis' corpse.|L|29366|
+C Shutting Down Manaforge B'naar|QID|10299^10329|QO|1|M|23.19,68.16|N|Defend the Manaforge while it shuts down. To finish it, click on the B'naar Control Console and Begin emergency shutdown. Then wait two minutes and kill any Technician that appears.|
 C Elemental Power Extraction|QID|10226|U|28547|M|21.24,78.04|N|Use the Elemental Power Extractor on a living Sundered Rumbler or Warp Aberration. Kill it then loot the blue crystal floating above the corpse.|
 C Warp-Raider Nesaad|QID|10205|M|27.98,78.96|N|Kill Warp-Raider Nesaad.|
 U Multi-Spectrum Terrain Analyzer|QID|10203|QO|3|M|40.25,72.88|N|Click on the Multi-Spectrum Terrain Analyzer.|; Multi-Spectrum Terrain Analyzer retrieved: 1/1
