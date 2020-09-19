@@ -181,12 +181,12 @@ C A Bundle of Trouble|QID|5545|M|84.1,61.6|N|Loot the Bundles of Wood, found at 
 r Sell and Repair|QID|5545|S|M|83.3,66.1|ACTIVE|5545|N|Sell and Repair at Rallic Finn.|
 T A Bundle of Trouble|QID|5545|M|81.4,66.1|N|To Supervisor Raelen.|
 
-A Red Linen Goods|QID|83|M|79.5,68.8|N|From Sara Timberlain.|
+A Red Linen Goods|QID|83|M|79.46,68.79|N|From Sara Timberlain.|
 C Red Linen Goods|QID|83|S|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|
 C Princess Must Die!|QID|88|M|69.4,79.3|N|Kill and loot Princess for the Brass Collar.|T|Princess|
 C Red Linen Goods|QID|83|US|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|
 
-T Red Linen Goods|QID|83|US|M|79.5,68.8|N|To Sara Timberlain.|
+T Red Linen Goods|QID|83|US|M|79.46,68.79|N|To Sara Timberlain.|
 
 ; Since murlocs are level 10, this is not suitable earlier in the guide.
 N Prowlers|QID|52|US|ACTIVE|37|M|87,70|QO|1|N|The wolves in this area are Gray Forest Wolves, and not the ones required for the quest Protect the Frontier.|
@@ -403,14 +403,16 @@ A The Tome of Divinity|QID|1786|M|38.58,26.56|Z|Stormwind City|N|From Gazin Teno
 T Stormpike's Order|QID|1338|M|58.10,16.57|Z|Stormwind City|N|To Furen Longbeard, in the Dwarven District.|
 A Bounty on Murlocs|QID|46|M|73.97,72.18|N|From Guard Thomas at the east Elwynn bridge.|PRE|39|
 
-R Stone Cairn Lake|ACTIVE|1786|M|74.45,56.74|N|Run to the island in the middle of Stone Cairn Lake.|
-C Bounty on Murlocs|QID|46|M|79,55|US|N|Kill murlocs until you collect the torn fins needed.|
+R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|N|Run north to the island in the middle of Stone Cairn Lake.|
+R Heroes' Vigil|ACTIVE|1786|M|74.45,56.74|N|Head to hills on the west side of the island in the middle of Stone Cairn Lake.|C|Paladin|
+C The Tome of Divinity|QID|1786|M|72.59,51.41|U|6866|NC|T|Henze Faulk|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|C|Paladin|
+T The Tome of Divinity|QID|1786|M|72.59,51.41|N|To Henze Faulk.|C|Paladin|
+A The Tome of Divinity|QID|1787|M|72.59,51.41|N|From Henze Faulk.|PRE|1786|C|Paladin|
+C The Tome of Divinity|QID|1787|M|74.03,51.84|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|C|Paladin|
+R Stone Cairn Lake|ACTIVE|46|75.95,59.58|N|Return to the shoreline of Stone Cairn Lake.|C|Paladin|
 
-C The Tome of Divinity|QID|1786|C|Paladin|M|72.59,51.41|U|6866|NC|T|Henze Faulk|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|
-T The Tome of Divinity|QID|1786|C|Paladin|M|72.59,51.41|N|To Henze Faulk.|
-A The Tome of Divinity|QID|1787|C|Paladin|M|72.59,51.41|N|From Henze Faulk.|PRE|1786|
-C The Tome of Divinity|QID|1787|C|Paladin|M|74.03,51.84|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|
-T Cloth and Leather Armor|QID|59|M|79.5,68.8|N|To Sara Timberlain in Eastvale Logging Camp.|
+C Bounty on Murlocs|QID|46|L|780 8|N|Kill murlocs until you collect the torn fins needed.|
+T Cloth and Leather Armor|QID|59|M|79.46,68.79|N|To Sara Timberlain in Eastvale Logging Camp.|
 T Bounty on Murlocs|QID|46|M|73.97,72.18|N|To Guard Thomas.|
 
 K Morgan the Collector|ACTIVE|147|M|70.97,80.49|QO|1|T|Morgan the Collector|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which aggro at the same time.|
