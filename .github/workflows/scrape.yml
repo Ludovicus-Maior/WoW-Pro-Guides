@@ -1,8 +1,8 @@
 name: Scrape Wow-Pro.com for guides stored in drupal
 
 on:
-  schedule:
-    - cron: '20 15 * * *'
+#  schedule:
+#    - cron: '20 15 * * *'
   workflow_dispatch:
 
 jobs:
