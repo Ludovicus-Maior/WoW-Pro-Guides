@@ -161,8 +161,8 @@ C One Last Spar|QID|59957|M|53.48,49.92|Z|Exile's Reach!Instance|N|Spar with Bo 
 T One Last Spar|QID|59957|M|52.17,55.33|Z|Exile's Reach!Instance|N|To Warlord Breka Grimaxe.|C|Monk|
 T Hjalmar's Final Execution|QID|59972|M|52.03,55.45|Z|Exile's Reach!Instance|N|To Grunt Throg.|C|Warrior|
 A To Darkmaul Citadel|QID|59975|M|52.18,55.35|Z|Exile's Reach!Instance|N|From Warlord Breka Grimaxe.|PRE|60162|
-A Killclaw the Terrible|QID|56839|M|48.74,54.24|Z|Exile's Reach!Instance|N|From the sign off the road. Elite NPC.|
-C Killclaw the Terrible|QID|56839|M|46.12,54.81|Z|Exile's Reach!Instance|N|Killclaw the Terrible slain.|
+A Killclaw the Terrible|QID|56839|M|48.74,54.24|Z|Exile's Reach!Instance|ELITE|N|[color=ff8000]Elite: [/color]From the sign off the road.|
+C Killclaw the Terrible|QID|56839|M|46.12,54.81|Z|Exile's Reach!Instance|N|[color=ff8000]Elite: [/color]Killclaw the Terrible slain.|
 T Killclaw the Terrible|QID|56839|M|43.42,51.13|Z|Exile's Reach!Instance|N|At the Treasure Chest.|
 T To Darkmaul Citadel|QID|59975|M|48.95,49.33|Z|Exile's Reach!Instance|N|To Warlord Breka Grimaxe.|
 A Right Beneath Their Eyes|QID|59978|M|48.95,49.33|Z|Exile's Reach!Instance|N|From Warlord Breka Grimaxe.|PRE|59975|

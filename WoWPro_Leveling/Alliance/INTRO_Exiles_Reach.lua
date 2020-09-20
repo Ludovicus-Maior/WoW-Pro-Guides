@@ -164,9 +164,9 @@ A One Last Spar|QID|59349|M|52.62,49.49|C|Monk|N|From Kee-La.|PRE|59347|
 C One Last Spar|QID|59349|M|53.50,49.58|C|Monk|N|Use Touch of Death on Kee-La.|
 T One Last Spar|QID|59349|M|52.35,55.35|C|Monk|N|Turn into Captain Garrick.|
 A To Darkmaul Citadel|QID|56344|M|52.35,55.35|N|From Captain Garrick.|PRE|55882|
-A Killclaw the Terrible|QID|56839|M|48.78,54.26|ELITE|N|From the sign off the road. Elite NPC.|LVL|7|
-C Killclaw the Terrible|QID|56839|M|45.64,54.20|ELITE|N|Killclaw the Terrible slain.|
-T Killclaw the Terrible|QID|56839|M|43.42,51.14|ELITE|N|Turn into Hidden Chest.|
+A Killclaw the Terrible|QID|56839|M|48.78,54.26|ELITE|N|[color=ff8000]Elite: [/color]From the sign off the road.|
+C Killclaw the Terrible|QID|56839|M|46.12,54.81|Z|Exile's Reach!Instance|N|[color=ff8000]Elite: [/color]Killclaw the Terrible slain.|
+T Killclaw the Terrible|QID|56839|M|43.42,51.14|N|Turn into Hidden Chest.|
 T To Darkmaul Citadel|QID|56344|M|48.98,49.23|N|Turn into Captain Garrick.|
 A Right Beneath Their Eyes|QID|55981|M|48.98,49.23|N|From Captain Garrick.|PRE|56344|
 C Right Beneath Their Eyes|QID|55981|M|49.04,49.19|QO|1|CHAT|N|Ask Meredy to perform ogre transformation spell.|

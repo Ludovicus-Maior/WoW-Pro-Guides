@@ -16,7 +16,7 @@ N Treasure Maps|N|There are four treasure maps that will drop randomly when figh
 A Tiragarde Sound|QID|47960|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 t Tiragarde Sound|QID|47960|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 A The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|From Flynn Fairwind.|PRE|47960|
-C The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|Orient yourself towards the barrel (north) and use the special action button.|
+C The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|Orient yourself towards the barrel (north) and use the "[color=40C7EB]Flynn's Pistol[/color]" Action Ability.|EAB|
 T The Smoking Gun|QID|47181|M|73.69,25.15|Z|Tiragarde Sound|N|To Flynn Fairwind.|
 A The Ashvane Trading Company|QID|47485|M|73.80,25.07|Z|Tiragarde Sound|N|From Cyrus Crestfall.|PRE|47181|
 R Tradewinds Market|ACTIVE|47485|M|75.29,25.76|CC|N|Run to the Ferry Stop in Tradewind Market (optional)|
@@ -27,7 +27,7 @@ T The Ashvane Trading Company|QID|47485|M|76.83,43.43|N|To Cagney.|
 A Suspicious Shipments|QID|47486|M|76.83,43.43|N|From Cagney.|PRE|47485|
 A Labor Dispute|QID|47487|M|76.83,43.43|N|From Cagney.|PRE|47485|
 A Small Haulers|QID|47488|M|76.82,43.49|N|From Olive.|PRE|47485|
-C Labor Dispute|QID|47487|M|78.77,78.92|S|N|Kill the mobs that attack you as you go about the other objectives (as if you had a choice.)|
+C Labor Dispute|QID|47487|M|78.77,78.92|S|N|Kill the mobs that attack you as you go about the other objectives (as if you had a choice.)|EAB|
 A Message from the Management|QID|50573|M|79.02,45.77|N|from the posted notice.|PRE|47485|
 C Suspicious Shipments|QID|47486|M|78.77,78.92|NC|S|N|Click on the glowing boxes to inspect them.|
 C Small Haulers|QID|47488|M|78.77,78.92|CHAT|S|N|Tell the urchins they are free to go.|

@@ -1135,9 +1135,27 @@ function WoWPro:RowUpdate(offset)
             local mtext = "/click ExtraActionButton1"
             currentRow.eabutton:Show()
             currentRow.eabutton:SetAttribute("macrotext", mtext)
-			currentRow.eaicon:SetTexture(_G.ExtraActionButton1Icon:GetTexture())
+			currentRow.eaicon.EAB1_IsVisible = nil
+			currentRow.eaicon.currentTexture = nil
+			currentRow.eabutton:SetScript("OnUpdate", function()
+				local eabtexture = _G.ExtraActionButton1Icon:GetTexture()
+				if _G.ExtraActionButton1Icon:IsVisible() ~= currentRow.eaicon.EAB1_IsVisible then
+					currentRow.eaicon.EAB1_IsVisible =  _G.ExtraActionButton1Icon:IsVisible()
+					if currentRow.eaicon.EAB1_IsVisible then
+						currentRow.eaicon:SetTexture(eabtexture)
+						currentRow.eaicon.currentTexture = eabtexture
+					else
+						currentRow.eaicon:SetTexture()
+						currentRow.eaicon.currentTexture = nil
+					end
+				elseif eabtexture ~= currentRow.eaicon.currentTexture and _G.ExtraActionButton1Icon:IsVisible() and currentRow.eaicon.EAB1_IsVisible then
+					currentRow.eaicon.currentTexture = eabtexture
+					currentRow.eaicon:SetTexture(eabtexture)
+				end
+			end)
+
 			if not _G.InCombatLockdown() then
-				if currentRow.eabutton:IsVisible() and currentRow.eabutton:IsShown() then
+				if currentRow.eabutton:IsShown() then
 					local Tleft, Tbottom = currentRow.eabutton:GetRect()
 					currentRow.eabuttonSecured:Show()
 					currentRow.eabuttonSecured:SetAttribute("macrotext", mtext)

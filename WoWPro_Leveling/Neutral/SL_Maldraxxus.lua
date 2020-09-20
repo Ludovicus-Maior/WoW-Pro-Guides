@@ -5,156 +5,166 @@ WoWPro:GuideName(guide,"Maldraxxus")
 WoWPro:GuideNextGuide(guide, "Ardenweald")
 WoWPro:GuideSteps(guide, function()
 return [[
+;  Champion of Pain Storyline
 A If You Want Peace...|QID|57386|M|60.95,36.18|Z|Ring of Transference@Oribos_Portals!Dungeon|N|From Overseer Kah-Sher.|PRE|61107|MS|
 C If You Want Peace...|QID|57386|M|59.51,34.39|Z|Ring of Transference@Oribos_Portals!Dungeon|CHAT|N|Speak to Roh-Avonavi to Travel to Maldraxxus.|MS|
 T If You Want Peace...|QID|57386|M|50.24,41.33|Z|Maldraxxus|N|To Grandmaster Vole.|MS|
-A To Die By the Sword|QID|57390|M|50.24,41.33|Z|Maldraxxus|N|From Grandmaster Vole.|
-C To Die By the Sword|QID|57390|M|50.79,47.08|Z|Maldraxxus|N|Competitors defeated|
-T To Die By the Sword|QID|57390|M|50.36,44.33|Z|Maldraxxus|N|To Grandmaster Vole.|
-A An Opportunistic Strike|QID|60020|M|50.36,44.33|Z|Maldraxxus|N|From Grandmaster Vole.|
-C An Opportunistic Strike|QID|60020|M|50.19,47.42|Z|Maldraxxus|N|Elite combatants defeated|
-T An Opportunistic Strike|QID|60020|M|50.36,44.32|Z|Maldraxxus|N|To Grandmaster Vole.|
-A Champion the Cause|QID|60021|M|50.36,44.32|Z|Maldraxxus|N|From Grandmaster Vole.|
-C Champion the Cause|QID|60021|M|51.16,46.81|Z|Maldraxxus|QO|2|N|Champion Rin'mar slain|
-C Champion the Cause|QID|60021|M|48.52,47.87|Z|Maldraxxus|QO|1|N|Champion Gutrend slain|
-T Champion the Cause|QID|60021|M|50.35,44.37|Z|Maldraxxus|N|To Grandmaster Vole.|
-A Land of Opportunity|QID|57425|M|50.35,44.37|Z|Maldraxxus|N|From Grandmaster Vole.|
-C Land of Opportunity|QID|57425|M|51.07,47.09|Z|Maldraxxus|QO|1|N|High Champion Meskal slain|
-T Land of Opportunity|QID|57425|M|48.36,57.18|Z|Maldraxxus|N|To Baroness Draka.|
-A Arms for the Poor|QID|57511|M|48.36,57.18|Z|Maldraxxus|N|From Unknown.|
-A Walk Among Death|QID|57512|M|48.35,57.25|Z|Maldraxxus|N|From Baroness Draka.|
-A Memory of Honor|QID|60179|M|48.36,57.78|Z|Maldraxxus|N|From Baroness Draka.|
-C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Unbound Deathwalker slain|S|
-C Arms for the Poor|QID|57511|M|45.61,59.89|Z|Maldraxxus|U|172020|N|Displaced Scavengers armed|S|
-C Memory of Honor|QID|60179|M|45.87,61.72|Z|Maldraxxus|N|Faded Epitaphs read|
-C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Unbound Deathwalker slain|US|
-C Arms for the Poor|QID|57511|M|45.61,59.89|Z|Maldraxxus|U|172020|N|Displaced Scavengers armed|US|
-T Arms for the Poor|QID|57511|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|
-T Walk Among Death|QID|57512|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|
-T Memory of Honor|QID|60179|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|
-A Trench Warfare|QID|60181|M|47.28,62.05|Z|Maldraxxus|N|From Baroness Draka.|
-C Trench Warfare|QID|60181|M|45.72,61.54|Z|Maldraxxus|U|178496|N|Malifis slain|
-T Trench Warfare|QID|60181|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|
-A The House of the Chosen|QID|57515|M|45.72,61.54|Z|Maldraxxus|N|From Baroness Draka.|
-C The House of the Chosen|QID|57515|M|40.46,62.09|Z|Maldraxxus|QO|1|CHAT|N|Enter the House of the Chosen|
-C The House of the Chosen|QID|57515|M|38.86,65.28|Z|Maldraxxus|QO|2|N|Speak with Draka|
-T The House of the Chosen|QID|57515|M|38.86,65.28|Z|Maldraxxus|N|To Baroness Draka.|
-A The First Act of War|QID|57514|M|38.86,65.28|Z|Maldraxxus|N|From Baroness Draka.|
-C The First Act of War|QID|57514|M|36.33,60.30|Z|Maldraxxus|CHAT|N|Report to Baron Vyraz|
-T The First Act of War|QID|57514|M|36.33,60.28|Z|Maldraxxus|N|To Baron Vyraz.|
-A The Hills Have Eyes|QID|58351|M|36.33,60.28|Z|Maldraxxus|N|From Baron Vyraz.|
-A Maintaining Order|QID|58617|M|36.33,60.28|Z|Maldraxxus|N|From Baron Vyraz.|
-C The Hills Have Eyes|QID|58351|M|39.85,71.37|Z|Maldraxxus|QO|1|N|Masked Infiltrator slain|S|
-C Maintaining Order|QID|58617|M|32.63,67.10|Z|Maldraxxus|QO|1|CHAT|N|Head Summoner Perex|
-C Maintaining Order|QID|58617|M|36.74,75.88|Z|Maldraxxus|QO|2|CHAT|N|Drill Sergeant Telice|
-C Maintaining Order|QID|58617|M|40.83,70.89|Z|Maldraxxus|QO|3|CHAT|N|Secutor Mevix|
-C The Hills Have Eyes|QID|58351|M|39.85,71.37|Z|Maldraxxus|QO|1|N|Masked Infiltrator slain|US|
-T The Hills Have Eyes|QID|58351|M|36.32,60.21|Z|Maldraxxus|N|To Baron Vyraz.|
-T Maintaining Order|QID|58617|M|36.32,60.21|Z|Maldraxxus|N|To Baron Vyraz.|
-A Never Enough|QID|60451|M|36.32,60.21|Z|Maldraxxus|N|From Baron Vyraz.|
-T Never Enough|QID|60451|M|38.87,65.15|Z|Maldraxxus|N|To Baroness Draka.|
-A Through the Fire and Flames|QID|57516|M|38.87,65.15|Z|Maldraxxus|N|From Baroness Draka.|
-C Through the Fire and Flames|QID|57516|M|37.18,68.40|Z|Maldraxxus|QO|1|NC|N|Standing Stone|
-C Through the Fire and Flames|QID|57516|M|37.13,68.49|Z|Maldraxxus|QO|2|NC|N|Unfinished Blade|
-T Through the Fire and Flames|QID|57516|M|38.20,66.55|Z|Maldraxxus|N|To Baroness Draka.|
-A Forging a Champion|QID|58616|M|38.20,66.55|Z|Maldraxxus|N|From Baroness Draka.|
-C Forging a Champion|QID|58616|M|36.36,70.52|Z|Maldraxxus|QO|1|CHAT|N|Speak with Bonesmith Heirmir about your runeblade|
-C Forging a Champion|QID|58616|M|36.39,70.39|Z|Maldraxxus|QO|2|NC|N|Convince Bonesmith Heirmir to speak with you|
-T Forging a Champion|QID|58616|M|36.30,71.05|Z|Maldraxxus|N|To Bonesmith Heirmir.|
-A Ossein Enchantment|QID|58618|M|36.30,71.05|Z|Maldraxxus|N|From Bonesmith Heirmir.|
-A Thick Skin|QID|58726|M|36.30,71.05|Z|Maldraxxus|N|From Bonesmith Heirmir.|
-C Thick Skin|QID|58726|M|38.25,72.09|Z|Maldraxxus|QO|1|N|Pulsating Hide Scraps|S|
-C Ossein Enchantment|QID|58618|M|41.53,67.30|Z|Maldraxxus|QO|1|N|Empowered Bones|
-C Thick Skin|QID|58726|M|38.25,72.09|Z|Maldraxxus|QO|1|N|Pulsating Hide Scraps|US|
-T Thick Skin|QID|58726|M|36.23,71.09|Z|Maldraxxus|N|To Bonesmith Heirmir.|
-T Ossein Enchantment|QID|58618|M|36.28,71.07|Z|Maldraxxus|N|To Bonesmith Heirmir.|
-A The Blade of the Primus|QID|60428|M|36.25,71.05|Z|Maldraxxus|N|From Bonesmith Heirmir.|
-C The Blade of the Primus|QID|60428|M|36.26,71.05|Z|Maldraxxus|QO|1|CHAT|N|Speak with Bonesmith Heirmir|
-C The Blade of the Primus|QID|60428|M|36.16,71.26|Z|Maldraxxus|QO|2|N|Protect Heirmir|
-C The Blade of the Primus|QID|60428|M|36.32,70.61|Z|Maldraxxus|QO|3|NC|N|Glowing Runeblade|
-T The Blade of the Primus|QID|60428|M|36.28,71.10|Z|Maldraxxus|N|To Bonesmith Heirmir.|
-A The Path to Glory|QID|60453|M|36.28,71.10|Z|Maldraxxus|N|From Bonesmith Heirmir.|
-T The Path to Glory|QID|60453|M|38.93,65.18|Z|Maldraxxus|N|To Baroness Draka.|
-A Meet the Margrave|QID|60461|M|38.93,65.18|Z|Maldraxxus|N|From Baroness Draka.|
-T Meet the Margrave|QID|60461|M|36.96,68.30|Z|Maldraxxus|N|To Margrave Krexus.|
-A The Seat of the Primus|QID|60886|M|36.96,68.30|Z|Maldraxxus|N|From Margrave Krexus.|
-C The Seat of the Primus|QID|60886|M|50.38,67.56|Z|Maldraxxus|QO|1|CHAT|N|Fly with Draka to the Seat of the Primus|
-C The Seat of the Primus|QID|60886|M|50.39,67.75|Z|Maldraxxus|QO|2|N|Empower the Rune of Ambition|
-T The Seat of the Primus|QID|60886|M|50.39,67.75|Z|Maldraxxus|N|To Baroness Draka.|
-A A Common Peril|QID|58751|M|50.39,67.75|Z|Maldraxxus|N|From Baroness Draka.|
-A The House of Plagues|QID|59130|M|50.39,67.75|Z|Maldraxxus|N|From Baroness Draka.|
-A Baron of the Chosen|QID|57912|M|50.39,67.75|Z|Maldraxxus|N|From Baroness Draka.|
-f Bleak Redoubt|QID|57912|M|52.46,67.74|Z|Maldraxxus|N|At Wing Guard Buurkin.|
-T Baron of the Chosen|QID|57912|M|39.32,55.91|Z|Maldraxxus|N|To Baron Vyraz.|
-A Lead By Example|QID|57976|M|39.32,55.91|Z|Maldraxxus|N|From Baron Vyraz.|
-A First Time? You Have to Fight!|QID|60557|M|39.32,55.91|Z|Maldraxxus|N|From Baron Vyraz.|
-A Take the High Ground|QID|58268|M|39.44,55.61|Z|Maldraxxus|N|From Unknown.|
-f The Spearhead|QID|58268|M|39.10,55.21|Z|Maldraxxus|N|At Wing Guard Aela.|
-C Lead By Example|QID|57976|M|35.85,47.87|Z|Maldraxxus|QO|1|N|Steelskin constructs slain|S|
-C First Time? You Have to Fight!|QID|60557|M|36.86,50.55|Z|Maldraxxus|QO|1|U|179923|N|Hesitant Soldiers rallied|S|
-C Take the High Ground|QID|58268|M|35.74,50.34|Z|Maldraxxus|QO|1|NC|N|First Charge placed|
-C Take the High Ground|QID|58268|M|35.68,50.64|Z|Maldraxxus|QO|2|N|First Charge detonated|
-C Take the High Ground|QID|58268|M|36.05,48.43|Z|Maldraxxus|QO|3|NC|N|econd Charge placed|
-C Take the High Ground|QID|58268|M|35.87,48.48|Z|Maldraxxus|QO|4|N|Second Charge detonated|
-C Take the High Ground|QID|58268|M|36.08,46.51|Z|Maldraxxus|QO|5|NC|N|Third Charge placed|
-C Take the High Ground|QID|58268|M|35.91,46.78|Z|Maldraxxus|QO|6|N|Third Charge detonated|
-C Lead By Example|QID|57976|M|35.85,47.87|Z|Maldraxxus||N|Steelskin constructs slain|US|
-C First Time? You Have to Fight!|QID|60557|M|36.86,50.55|Z|Maldraxxus|QO|1|U|179923|N|Hesitant Soldiers rallied|US|
-T Take the High Ground|QID|58268|M|39.43,46.73|Z|Maldraxxus|N|To Secutor Mevix.|
-T First Time? You Have to Fight!|QID|60557|M|39.43,46.73|Z|Maldraxxus|N|To Secutor Mevix.|
-T Lead By Example|QID|57976|M|39.43,46.73|Z|Maldraxxus|N|To Secutor Mevix.|
-A Offensive Behavior|QID|57979|M|39.43,46.73|Z|Maldraxxus|N|From Secutor Mevix.|
-C Offensive Behavior|QID|57979|M|37.68,43.83|Z|Maldraxxus|U|179923|N|General Alver slain|
-T Offensive Behavior|QID|57979|M|39.44,46.69|Z|Maldraxxus|N|To Secutor Mevix.|
-A Army of One|QID|59616|M|39.78,46.71|Z|Maldraxxus|N|From Baron Vyraz.|
-C Army of One|QID|59616|M|36.03,34.96|Z|Maldraxxus|QO|1|NC|N|Meet Secutor Mevix at the House of Constructs|
-C Army of One|QID|59616|M|33.85,31.41|Z|Maldraxxus|QO|2|NC|N|Escape the corpse pile|
-T Army of One|QID|59616|M|33.88,31.10|Z|Maldraxxus|N|To Aspirant Thales.|
-A Archon Save Us|QID|57983|M|33.88,31.10|Z|Maldraxxus|N|From Aspirant Thales.|
-C Archon Save Us|QID|57983|M|34.95,30.67|Z|Maldraxxus|QO|2|N|Hipokos saved|
-C Archon Save Us|QID|57983|M|36.17,30.61|Z|Maldraxxus|QO|1|N|Kou and Koa saved|
-C Archon Save Us|QID|57983|M|35.29,28.96|Z|Maldraxxus|QO|3|N|Kynthia saved|
-C Archon Save Us|QID|57983|M|35.56,28.14|Z|Maldraxxus|QO|4|N|Secutor Mevix saved|
-T Archon Save Us|QID|57983|M|PLAYER|Z|Maldraxxus|N|To Aspirant Thales.|
-A The Ones in Charge|QID|57984|M|35.56,28.14|Z|Maldraxxus|N|From Aspirant Thales.|
-C The Ones in Charge|QID|57984|M|35.36,23.13|Z|Maldraxxus|QO|2|N|Tabulator Hymeris slain|
-C The Ones in Charge|QID|57984|M|33.50,22.50|Z|Maldraxxus|QO|1|N|Doctor Hivvil slain|
-C The Ones in Charge|QID|57984|M|32.52,22.75|Z|Maldraxxus|QO|3|N|Leacher Cvan slain|
-T The Ones in Charge|QID|57984|M|32.00,27.31|Z|Maldraxxus|N|To Secutor Mevix.|
-A Give Them a Hand|QID|57985|M|32.00,27.31|Z|Maldraxxus|N|From Secutor Mevix.|
-A A Deadly Distraction|QID|57987|M|32.00,27.31|Z|Maldraxxus|N|From Secutor Mevix.|
-A A Burden Worth Bearing|QID|57986|M|32.08,27.43|Z|Maldraxxus|N|From Aspirant Thales.|
-C Give Them a Hand|QID|57985|M|30.08,27.80|Z|Maldraxxus|QO|1|U|180120|N|Vestigial Animate destroyed|S|
-C A Deadly Distraction|QID|57987|M|31.04,25.95|Z|Maldraxxus|QO|1|N|Warstitched forces slain|S|
-C A Burden Worth Bearing|QID|57986|M|28.67,28.21|Z|Maldraxxus|QO|2|N|Lost Kyrian recovered|
-C A Burden Worth Bearing|QID|57986|M|30.17,23.84|Z|Maldraxxus|QO|3|N|Bring Kou and Koa to Thales|
-C A Burden Worth Bearing|QID|57986|M|32.78,28.13|Z|Maldraxxus|QO|1|N|Locate Kyrian equipment|
-C Give Them a Hand|QID|57985|M|30.08,27.80|Z|Maldraxxus|QO|1|U|180120|N|Vestigial Animate destroyed|US|
-C A Deadly Distraction|QID|57987|M|31.04,25.95|Z|Maldraxxus|QO|1|N|Warstitched forces slain|US|
-T Give Them a Hand|QID|57985|M|30.21,23.84|Z|Maldraxxus|N|To Secutor Mevix.|
-T A Deadly Distraction|QID|57987|M|30.21,23.84|Z|Maldraxxus|N|To Secutor Mevix.|
-T A Burden Worth Bearing|QID|57986|M|30.12,24.02|Z|Maldraxxus|N|To Aspirant Thales.|
-A Breaking Down Barriers|QID|57982|M|30.17,23.84|Z|Maldraxxus|N|From Secutor Mevix.|
-C Breaking Down Barriers|QID|57982|M|30.12,23.97|Z|Maldraxxus|QO|1|CHAT|N|Speak with Thales|
-C Breaking Down Barriers|QID|57982|M|30.12,23.97|Z|Maldraxxus|QO|2|CHAT|N|Salvaged Praetor directed|
-C Breaking Down Barriers|QID|57982|M|29.94,23.50|Z|Maldraxxus|QO|3|NC|N|Bile Spewer disabled|
-C Breaking Down Barriers|QID|57982|M|29.46,23.14|Z|Maldraxxus|QO|4|NC|N|Shielding Lattice disabled|
-T Breaking Down Barriers|QID|57982|M|30.18,23.81|Z|Maldraxxus|N|To Secutor Mevix.|
-A Two of Them, Two of Us|QID|57993|M|30.18,23.81|Z|Maldraxxus|N|From Unknown.|
-C Two of Them, Two of Us|QID|57993|M|29.31,22.61|Z|Maldraxxus|QO|2|N|First Apprentice Malkrex slain|
-C Two of Them, Two of Us|QID|57993|M|29.31,22.61|Z|Maldraxxus|QO|1|N|Sharrex the Fleshcrafter slain|
-C Two of Them, Two of Us|QID|57993|M|28.90,21.97|Z|Maldraxxus|QO|3|NC|N|Soulfused Construct examined|
-T Two of Them, Two of Us|QID|57993|M|28.95,22.15|Z|Maldraxxus|N|To Aspirant Thales.|
-A In The Flesh|QID|57994|M|28.95,22.15|Z|Maldraxxus|N|From Aspirant Thales.|
-C In The Flesh|QID|57994|M|28.86,21.93|Z|Maldraxxus|QO|1|NC|N|Take control of the Soulfused Construct|
-C In The Flesh|QID|57994|M|31.71,30.79|Z|Maldraxxus|QO|2|N|Construct House Forces destroyed|S|
-C In The Flesh|QID|57994|M|31.21,29.42|Z|Maldraxxus|QO|3|N|Baron Halis slain|
-C In The Flesh|QID|57994|M|31.71,30.79|Z|Maldraxxus|QO|2|N|Construct House Forces destroyed|US|
-C In The Flesh|QID|57994|M|34.31,34.03|Z|Maldraxxus|QO|4|N|House of Constructs escaped|
-f Spider's Watch|QID|57994|M|37.57,29.24|Z|Maldraxxus|N|At Flight Master Nudolva.|
-C In The Flesh|QID|57994|M|37.65,29.22|Z|Maldraxxus|QO|5|N|Rune of Might|
-T In The Flesh|QID|57994|M|37.61,29.09|Z|Maldraxxus|N|To Aspirant Thales.|
-A Front and Center|QID|60733|M|37.66,29.11|Z|Maldraxxus|N|From Secutor Mevix.|
+A To Die By the Sword|QID|57390|M|50.24,41.33|Z|Maldraxxus|N|From Grandmaster Vole.|PRE|57386|MS|
+C To Die By the Sword|QID|57390|M|50.79,47.08|Z|Maldraxxus|N|Kill normal Competitors and use the random "[color=40C7EB]Action Ability[/color]" that occasionally pops up.|EAB|MS|
+T To Die By the Sword|QID|57390|M|50.36,44.33|Z|Maldraxxus|N|To Grandmaster Vole.|MS|
+A An Opportunistic Strike|QID|60020|M|50.36,44.33|Z|Maldraxxus|N|From Grandmaster Vole.|PRE|57390|MS|
+C An Opportunistic Strike|QID|60020|M|50.19,47.42|Z|Maldraxxus|N|Kill Elite combatants and use the random "[color=40C7EB]Action Ability[/color]" that occasionally pops up.|EAB|MS|
+T An Opportunistic Strike|QID|60020|M|50.36,44.32|Z|Maldraxxus|N|To Grandmaster Vole.|MS|
+A Champion the Cause|QID|60021|M|50.36,44.32|Z|Maldraxxus|N|From Grandmaster Vole.|PRE|60020|MS|
+C Champion the Cause|QID|60021|M|51.16,46.81|Z|Maldraxxus|QO|2|N|Kill Champion Rin'mar.|MS|
+C Champion the Cause|QID|60021|M|48.52,47.87|Z|Maldraxxus|QO|1|N|Kill Champion Gutrend.|MS|
+T Champion the Cause|QID|60021|M|50.35,44.37|Z|Maldraxxus|N|To Grandmaster Vole.|MS|
+A Land of Opportunity|QID|57425|M|50.35,44.37|Z|Maldraxxus|N|From Grandmaster Vole.|PRE|60021|MS|
+C Land of Opportunity|QID|57425|M|51.07,47.09|Z|Maldraxxus|N|High Champion Meskal slain|MS|
+T Land of Opportunity|QID|57425|M|48.36,57.18|Z|Maldraxxus|N|To Baroness Draka.|MS|
+A Arms for the Poor|QID|57511|M|48.36,57.18|Z|Maldraxxus|N|From Unknown.|PRE|57425|MS|
+A Walk Among Death|QID|57512|M|48.35,57.25|Z|Maldraxxus|N|From Baroness Draka.|PRE|57425|MS|
+A Memory of Honor|QID|60179|M|48.36,57.78|Z|Maldraxxus|N|From Baroness Draka.|PRE|57425|MS|
+C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Kill the Unbound Deathwalkers.|S|MS|
+C Arms for the Poor|QID|57511|M|45.61,59.89|Z|Maldraxxus|U|172020|NC|N|Click on weapons on the ground and give them to the Displaced Scavengers.|S|MS|
+C Memory of Honor|QID|60179|M|44.80 58.33|Z|Maldraxxus|QO|1<1|NC|N|Read the Faded Epitaphs off the headstones.|MS|
+C Memory of Honor|QID|60179|M|44.01 61.50|Z|Maldraxxus|QO|1<2|NC|N|Read the Faded Epitaphs off the headstones.|MS|
+C Memory of Honor|QID|60179|M|45.87 61.75|Z|Maldraxxus|QO|1<3|NC|N|Read the Faded Epitaphs off the headstones.|MS|
+C Arms for the Poor|QID|57511|M|45.61,59.89|Z|Maldraxxus|U|172020|NC|N|Click on weapons on the ground and give them to the Displaced Scavengers.|US|MS|
+C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Kill the Unbound Deathwalkers.|US|MS|
+T Arms for the Poor|QID|57511|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
+T Walk Among Death|QID|57512|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
+T Memory of Honor|QID|60179|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
+A Trench Warfare|QID|60181|M|PLAYER|Z|Maldraxxus|N|From Baroness Draka.|PRE|57511|MS|
+C Trench Warfare|QID|60181|M|45.72,61.54|Z|Maldraxxus|U|178496|N|Kill Malifis, be sure to use your Warhorn if you want assistance.|MS|
+T Trench Warfare|QID|60181|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
+A The House of the Chosen|QID|57515|M|PLAYER|Z|Maldraxxus|N|From Baroness Draka.|PRE|60181|MS|
+C The House of the Chosen|QID|57515|M|40.46,62.09|Z|Maldraxxus|QO|1|N|Enter the House of the Chosen.|MS|
+C The House of the Chosen|QID|57515|M|38.86,65.28|Z|Maldraxxus|QO|2|CHAT|N|Speak with Draka after the dialog ends.|MS|
+T The House of the Chosen|QID|57515|M|38.86,65.28|Z|Maldraxxus|N|To Baroness Draka.|MS|
+
+; House of the Chosen Storyline
+A The First Act of War|QID|57514|M|38.86,65.28|Z|Maldraxxus|N|From Baroness Draka.|PRE|57515|MS|
+C The First Act of War|QID|57514|M|36.33,60.30|Z|Maldraxxus|CHAT|N|Report to Baron Vyraz|MS|
+T The First Act of War|QID|57514|M|36.33,60.28|Z|Maldraxxus|N|To Baron Vyraz.|MS|
+A The Hills Have Eyes|QID|58351|M|36.33,60.28|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57514|MS|
+A Maintaining Order|QID|58617|M|36.33,60.28|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57514|MS|
+C The Hills Have Eyes|QID|58351|M|39.85,71.37|Z|Maldraxxus|N|Chat with the Chosen Protectors and kill those that are infiltrators.|S|MS|
+C Maintaining Order|QID|58617|M|32.63,67.10|Z|Maldraxxus|QO|1|CHAT|N|Deliver orders to Head Summoner Perex.|MS|
+C Maintaining Order|QID|58617|M|36.74,75.88|Z|Maldraxxus|QO|2|CHAT|N|Deliver orders to Drill Sergeant Telice.|MS|
+C Maintaining Order|QID|58617|M|40.83,70.89|Z|Maldraxxus|QO|3|CHAT|N|Deliver orders to Secutor Mevix.|MS|
+C The Hills Have Eyes|QID|58351|M|39.85,71.37|Z|Maldraxxus|N|Chat with the Chosen Protectors and kill those that are infiltrators.|US|MS|
+T The Hills Have Eyes|QID|58351|M|36.32,60.21|Z|Maldraxxus|N|To Baron Vyraz.|MS|
+T Maintaining Order|QID|58617|M|36.32,60.21|Z|Maldraxxus|N|To Baron Vyraz.|MS|
+A Never Enough|QID|60451|M|36.32,60.21|Z|Maldraxxus|N|From Baron Vyraz.|PRE|58351&58617|MS|
+T Never Enough|QID|60451|M|38.87,65.15|Z|Maldraxxus|N|To Baroness Draka.|MS|
+A Through the Fire and Flames|QID|57516|M|38.87,65.15|Z|Maldraxxus|N|From Baroness Draka.|PRE|60451|MS|
+C Through the Fire and Flames|QID|57516|M|37.18,68.40|Z|Maldraxxus|QO|1|NC|N|Swim through the love to get to and click the Standing Stone.|MS|
+C Through the Fire and Flames|QID|57516|M|37.13,68.49|Z|Maldraxxus|QO|2|NC|N|After the dialog, grab the Unfinished Blade.|MS|
+T Through the Fire and Flames|QID|57516|M|38.20,66.55|Z|Maldraxxus|N|To Baroness Draka.|MS|
+A Forging a Champion|QID|58616|M|38.20,66.55|Z|Maldraxxus|N|From Baroness Draka.|PRE|57516|MS|
+C Forging a Champion|QID|58616|M|36.36,70.52|Z|Maldraxxus|QO|1|CHAT|N|Speak with Bonesmith Heirmir about your runeblade.|MS|
+C Forging a Champion|QID|58616|M|36.39,70.39|Z|Maldraxxus|QO|2|NC|N|Convince Bonesmith Heirmir to speak with you.|MS|
+T Forging a Champion|QID|58616|M|36.30,71.05|Z|Maldraxxus|N|To Bonesmith Heirmir.|MS|
+A Ossein Enchantment|QID|58618|M|36.30,71.05|Z|Maldraxxus|N|From Bonesmith Heirmir.|PRE|58616|MS|
+A Thick Skin|QID|58726|M|36.30,71.05|Z|Maldraxxus|N|From Bonesmith Heirmir.|PRE|58616|MS|
+C Thick Skin|QID|58726|M|38.25,72.09|Z|Maldraxxus|N|Click on the Overgrown Mass, kill the Animated Flesh and loot thier Pulsating Hide Scraps.|S|MS|
+C Ossein Enchantment|QID|58618|M|41.53,67.30|Z|Maldraxxus|N|Kill Marrowjaw and loot its corpse to collect the Empowered Bones.|MS|
+C Thick Skin|QID|58726|M|38.25,72.09|Z|Maldraxxus|N|Click on the Overgrown Mass, kill the Animated Flesh and loot thier Pulsating Hide Scraps.|US|MS|
+T Thick Skin|QID|58726|M|36.23,71.09|Z|Maldraxxus|N|To Bonesmith Heirmir.|MS|
+T Ossein Enchantment|QID|58618|M|36.28,71.07|Z|Maldraxxus|N|To Bonesmith Heirmir.|MS|
+A The Blade of the Primus|QID|60428|M|36.25,71.05|Z|Maldraxxus|N|From Bonesmith Heirmir.|PRE|58726&58618|MS|
+C The Blade of the Primus|QID|60428|M|36.26,71.05|Z|Maldraxxus|QO|1|CHAT|N|Speak with Bonesmith Heirmir.|MS|
+C The Blade of the Primus|QID|60428|M|36.16,71.26|Z|Maldraxxus|QO|2|N|Protect Heirmir from the waves of ghosts.|MS|
+C The Blade of the Primus|QID|60428|M|36.32,70.61|Z|Maldraxxus|QO|3|NC|N|Click on the Glowing Runeblade flloating above the altar.|MS|
+T The Blade of the Primus|QID|60428|M|36.28,71.10|Z|Maldraxxus|N|To Bonesmith Heirmir.|MS|
+A The Path to Glory|QID|60453|M|36.28,71.10|Z|Maldraxxus|N|From Bonesmith Heirmir.|PRE|60428|MS|
+T The Path to Glory|QID|60453|M|38.93,65.18|Z|Maldraxxus|N|To Baroness Draka.|MS|
+A Meet the Margrave|QID|60461|M|38.93,65.18|Z|Maldraxxus|N|From Baroness Draka.|PRE|60453|MS|
+P Vortrexxis|ACTIVE|60461|M|38.20,66.52|Z|Maldraxxus|N|Click on the Necropolis Teleporter up to Vortrexxis.|MS|
+T Meet the Margrave|QID|60461|M|36.96,68.30|Z|Maldraxxus|N|To Margrave Krexus.|MS|
+A The Seat of the Primus|QID|60886|M|36.96,68.30|Z|Maldraxxus|N|From Margrave Krexus.|PRE|60461|MS|
+C The Seat of the Primus|QID|60886|M|50.38,67.56|Z|Maldraxxus|QO|1|CHAT|N|Speak with Draka to fly up to the Seat of the Primus.|MS|
+C The Seat of the Primus|QID|60886|M|50.39,67.75|Z|Maldraxxus|QO|2|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Ambition.|EAB|MS|
+T The Seat of the Primus|QID|60886|M|50.39,67.75|Z|Maldraxxus|N|To Baroness Draka.|MS|
+
+; House of Constructs Storyline
+A A Common Peril|QID|58751|M|50.39,67.75|Z|Maldraxxus|N|From Baroness Draka.|PRE|60886|MS|
+A The House of Plagues|QID|59130|M|50.39,67.75|Z|Maldraxxus|N|From Baroness Draka.|PRE|60886|MS|
+A Baron of the Chosen|QID|57912|M|50.39,67.75|Z|Maldraxxus|N|From Baroness Draka.|PRE|60886|MS|
+f Bleak Redoubt|ACTIVE|57912|M|52.46,67.74|Z|Maldraxxus|N|At Wing Guard Buurkin.|MS|
+T Baron of the Chosen|QID|57912|M|39.32,55.91|Z|Maldraxxus|N|To Baron Vyraz.|MS|
+A Lead By Example|QID|57976|M|39.32,55.91|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57912|MS|
+A First Time? You Have to Fight!|QID|60557|M|39.32,55.91|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57912|MS|
+A Take the High Ground|QID|58268|M|39.44,55.61|Z|Maldraxxus|N|From Secutor Mevix.|MS|
+f The Spearhead|ACTIVE|58268|M|39.10,55.21|Z|Maldraxxus|N|At Wing Guard Aela.|MS|
+C Lead By Example|QID|57976|M|35.85,47.87|Z|Maldraxxus|N|Kill the Steelskin constructs around the area.|S|MS|
+C First Time? You Have to Fight!|QID|60557|M|36.86,50.55|Z|Maldraxxus|U|179923|N|Use the Attack Battlehorn near Hesitant Soldiers to rally them.|S|MS|; This looks like an EAB??
+C Take the High Ground|QID|58268|M|35.74,50.34|Z|Maldraxxus|QO|1|NC|N|Click on the outlined mine to place the First Charge.|MS|
+C Take the High Ground|QID|58268|M|35.68,50.64|Z|Maldraxxus|QO|2|N|Protect Mevix while he detonates the First Charge.|MS|
+C Take the High Ground|QID|58268|M|36.05,48.43|Z|Maldraxxus|QO|3|NC|N|Click on the outlined mine to place the Second Charge.|MS|
+C Take the High Ground|QID|58268|M|35.87,48.48|Z|Maldraxxus|QO|4|N|Protect Mevix while he detonates the Second Charge.|MS|
+C Take the High Ground|QID|58268|M|36.08,46.51|Z|Maldraxxus|QO|5|NC|N|Click on the outlined mine to place the Third Charge.|MS|
+C Take the High Ground|QID|58268|M|35.91,46.78|Z|Maldraxxus|QO|6|N|Protect Mevix while he detonates the Third Charge.|MS|
+C First Time? You Have to Fight!|QID|60557|M|36.86,50.55|Z|Maldraxxus|U|179923|N|Use the Attack Battlehorn near Hesitant Soldiers to rally them.|US|MS|; This looks like an EAB??
+C Lead By Example|QID|57976|M|35.85,47.87|Z|Maldraxxus|N|Kill the Steelskin constructs around the area.|US|MS|
+T Take the High Ground|QID|58268|M|39.43,46.73|Z|Maldraxxus|N|To Secutor Mevix.|MS|
+T First Time? You Have to Fight!|QID|60557|M|39.43,46.73|Z|Maldraxxus|N|To Secutor Mevix.|MS|
+T Lead By Example|QID|57976|M|39.43,46.73|Z|Maldraxxus|N|To Secutor Mevix.|MS|
+A Offensive Behavior|QID|57979|M|39.43,46.73|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57976&60557&58268|MS|
+C Offensive Behavior|QID|57979|M|37.68,43.83|Z|Maldraxxus|U|179923|N|Use the Attack Battlehorn to rally troops to assist you in killing General Alver.|MS|; EAB?
+T Offensive Behavior|QID|57979|M|39.44,46.69|Z|Maldraxxus|N|To Secutor Mevix.|MS|
+A Army of One|QID|59616|M|39.78,46.71|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57979|MS|
+C Army of One|QID|59616|M|36.03,34.96|Z|Maldraxxus|QO|1|NC|N|Meet Secutor Mevix at the House of Constructs. Click on him to continue.|MS|
+C Army of One|QID|59616|M|33.85,31.41|Z|Maldraxxus|QO|2|NC|N|Click on the corpse piles to free yourself.|MS|
+T Army of One|QID|59616|M|33.88,31.10|Z|Maldraxxus|N|To Aspirant Thales.|MS|
+A Archon Save Us|QID|57983|M|33.88,31.10|Z|Maldraxxus|N|From Aspirant Thales.|PRE|59616|MS|
+C Archon Save Us|QID|57983|M|34.95,30.67|Z|Maldraxxus|QO|2|N|Kill Fleshwardens and loot the Prison keys to free Hipokos.|MS|
+C Archon Save Us|QID|57983|M|36.17,30.61|Z|Maldraxxus|QO|1|N|Kill Fleshwardens and loot the Prison keys to free Kou and Koa.|MS|
+C Archon Save Us|QID|57983|M|35.29,28.96|Z|Maldraxxus|QO|3|N|Kill Fleshwardens and loot the Prison keys to free Kynthia.|MS|
+C Archon Save Us|QID|57983|M|35.56,28.14|Z|Maldraxxus|QO|4|N|Kill Fleshwardens and loot the Prison keys to free Secutor Mevix.|MS|
+T Archon Save Us|QID|57983|M|PLAYER|Z|Maldraxxus|N|To Aspirant Thales.|MS|
+A The Ones in Charge|QID|57984|M|PLAYER|Z|Maldraxxus|N|From Aspirant Thales.|PRE|57983|MS|
+C The Ones in Charge|QID|57984|M|35.36,23.13|Z|Maldraxxus|QO|2|N|Kill Tabulator Hymeris.|MS|
+C The Ones in Charge|QID|57984|M|33.50,22.50|Z|Maldraxxus|QO|1|N|Kill Doctor Hivvil.|MS|
+C The Ones in Charge|QID|57984|M|32.52,22.75|Z|Maldraxxus|QO|3|N|Kill Leacher Cvan.|MS|
+T The Ones in Charge|QID|57984|M|32.00,27.31|Z|Maldraxxus|N|To Secutor Mevix.|MS|
+A Give Them a Hand|QID|57985|M|32.00,27.31|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57984|MS|
+A A Deadly Distraction|QID|57987|M|32.00,27.31|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57984|MS|
+A A Burden Worth Bearing|QID|57986|M|32.08,27.43|Z|Maldraxxus|N|From Aspirant Thales.|PRE|57984|MS|
+C A Deadly Distraction|QID|57987|M|31.04,25.95|Z|Maldraxxus|N|Kill Warstitched forces.|S|MS|
+C Give Them a Hand|QID|57985|M|30.08,27.80|Z|Maldraxxus|U|180120|N|Click on the Vestigial Animate to uproot and kill them.|S|MS|; looks like U not needed
+C A Burden Worth Bearing|QID|57986|M|32.78,28.13|Z|Maldraxxus|QO|1|N|Click the Gurney to get Kyrian Equipment.|MS|
+C A Burden Worth Bearing|QID|57986|M|28.67,28.21|Z|Maldraxxus|QO|2|N|Click on the Lost Kyrian's around the area.|MS|
+C A Burden Worth Bearing|QID|57986|M|30.17,23.84|Z|Maldraxxus|QO|3|N|Bring Kou and Koa to Thales.|MS|
+C Give Them a Hand|QID|57985|M|30.08,27.80|Z|Maldraxxus|U|180120|N|Click on the Vestigial Animate to uproot and kill them.|US|MS|; looks like U not needed
+C A Deadly Distraction|QID|57987|M|31.04,25.95|Z|Maldraxxus|N|Kill Warstitched forces.|US|MS|
+T Give Them a Hand|QID|57985|M|30.21,23.84|Z|Maldraxxus|N|To Secutor Mevix.|MS|
+T A Deadly Distraction|QID|57987|M|30.21,23.84|Z|Maldraxxus|N|To Secutor Mevix.|MS|
+T A Burden Worth Bearing|QID|57986|M|30.12,24.02|Z|Maldraxxus|N|To Aspirant Thales.|MS|
+A Breaking Down Barriers|QID|57982|M|30.17,23.84|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57985&57987&57986|MS|
+C Breaking Down Barriers|QID|57982|M|30.12,23.97|Z|Maldraxxus|QO|1|CHAT|N|Speak with Thales.|MS|
+C Breaking Down Barriers|QID|57982|M|30.12,23.97|Z|Maldraxxus|QO|2|CHAT|N|Speak with the Salvaged Praetorto to control it.|MS|
+C Breaking Down Barriers|QID|57982|M|29.94,23.50|Z|Maldraxxus|QO|3|NC|N|Press the '1' Key to activate the Impervious Shield and walk through the acid to reach and click the Spewer Valves.\n\nThis has a short duration, so use the ability right before you walk through it.|MS|
+C Breaking Down Barriers|QID|57982|M|29.46,23.14|Z|Maldraxxus|QO|4|NC|N|Click on the Shielding Lattice to disable it.|MS|
+T Breaking Down Barriers|QID|57982|M|30.18,23.81|Z|Maldraxxus|N|To Secutor Mevix.|MS|
+A Two of Them , Two of Us|QID|57993|M|30.18,23.81|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57982|MS|
+C Two of Them, Two of Us|QID|57993|M|29.31,22.61|Z|Maldraxxus|QO|2|N|Kill First Apprentice Malkrex and Sharrex the Fleshcrafter.|MS|; Double is intentional
+C Two of Them, Two of Us|QID|57993|M|29.31,22.61|Z|Maldraxxus|QO|1|N|Kill First Apprentice Malkrex and Sharrex the Fleshcrafter.|MS|; Double is intentional
+C Two of Them, Two of Us|QID|57993|M|28.90,21.97|Z|Maldraxxus|QO|3|NC|N|Click on the Soulfused Construct to examine it.|MS|
+T Two of Them, Two of Us|QID|57993|M|28.95,22.15|Z|Maldraxxus|N|To Aspirant Thales.|MS|
+A In The Flesh|QID|57994|M|28.95,22.15|Z|Maldraxxus|N|From Aspirant Thales.|PRE|57993|MS|
+C In The Flesh|QID|57994|M|28.86,21.93|Z|Maldraxxus|QO|1|NC|N|Click on the Soulfused Construct to take control of it.|MS|
+C In The Flesh|QID|57994|M|31.71,30.79|Z|Maldraxxus|QO|2|N|Destroy the Construct House Forces.\n\n1: Single Target Damage.\n\n2: Cone Damage.\n\n3: Heal Over Time.|S|MS|
+C In The Flesh|QID|57994|M|31.21,29.42|Z|Maldraxxus|QO|3|N|Seek out and kill Baron Halis.|MS|
+C In The Flesh|QID|57994|M|31.71,30.79|Z|Maldraxxus|QO|2|N|Destroy the Construct House Forces.\n\n1: Single Target Damage.\n\n2: Cone Damage.\n\n3: Heal Over Time.|US|MS|
+C In The Flesh|QID|57994|M|34.31,34.03|Z|Maldraxxus|QO|4|N|Escape the House of Constructs.|MS|
+f Spider's Watch|ACTIVE|57994|M|37.57,29.24|Z|Maldraxxus|N|At Flight Master Nudolva.|MS|
+C In The Flesh|QID|57994|M|37.65,29.22|Z|Maldraxxus|QO|5|N|Click on the Rune of Banded Strength.|MS|
+T In The Flesh|QID|57994|M|37.61,29.09|Z|Maldraxxus|N|To Aspirant Thales.|MS|
+
+; Side Quest Story - Archival Protection
+A Front and Center|QID|60733|M|37.66,29.11|Z|Maldraxxus|N|From Secutor Mevix.|LVL|53|
 A Read Between the Lines|QID|58619|M|40.69,33.08|Z|Maldraxxus|N|From Ta'eran.|
 C Read Between the Lines|QID|58619|M|40.69,33.08|QO|1|Z|Maldraxxus|CHAT|N|Talk to Ta'ern.|
 C Read Between the Lines|QID|58619|M|40.69,33.08|QO|2|Z|Maldraxxus|CHAT|N|Walk with Ta'ern.|
