@@ -181,12 +181,12 @@ C A Bundle of Trouble|QID|5545|M|84.1,61.6|N|Loot the Bundles of Wood, found at 
 r Sell and Repair|QID|5545|S|M|83.3,66.1|ACTIVE|5545|N|Sell and Repair at Rallic Finn.|
 T A Bundle of Trouble|QID|5545|M|81.4,66.1|N|To Supervisor Raelen.|
 
-A Red Linen Goods|QID|83|M|79.5,68.8|N|From Sara Timberlain.|
+A Red Linen Goods|QID|83|M|79.46,68.79|N|From Sara Timberlain.|
 C Red Linen Goods|QID|83|S|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|
 C Princess Must Die!|QID|88|M|69.4,79.3|N|Kill and loot Princess for the Brass Collar.|T|Princess|
 C Red Linen Goods|QID|83|US|M|70.6,76.3|N|Kill and loot the Defias Bandits for the Red Linen Bandanas.|
 
-T Red Linen Goods|QID|83|US|M|79.5,68.8|N|To Sara Timberlain.|
+T Red Linen Goods|QID|83|US|M|79.46,68.79|N|To Sara Timberlain.|
 
 ; Since murlocs are level 10, this is not suitable earlier in the guide.
 N Prowlers|QID|52|US|ACTIVE|37|M|87,70|QO|1|N|The wolves in this area are Gray Forest Wolves, and not the ones required for the quest Protect the Frontier.|
@@ -245,7 +245,7 @@ A Surena Caledon|QID|1688|C|Warlock|M|25.2,78.6|Z|Stormwind City|N|From Gakin th
 C Surena Caledon|QID|1688|C|Warlock|M|71,80|T|Surena Caladon|N|Find, kill and loot Surena Caladon.|
 T Surena Caledon|QID|1688|C|Warlock|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder.|
 A The Binding|QID|1689|C|Warlock|M|25.2,78.6|Z|Stormwind City|N|From Gakin the Darkbinder.|PRE|1688|
-C The Binding|QID|1689|C|Warlock|M|25.2,77.2|Z|Stormwind City|U|6928|N|Go down the stairs right behind Gakin.turn right at bottom, down more stairs. right again, down more stairs, left, down most of the way and left again, this last door is easy to miss. Stand on the purple rune summoning circle and use the provided choker to summon a voidwalker then kill it.|
+C The Binding|QID|1689|C|Warlock|M|25.2,77.2|Z|Stormwind City|U|6928|N|Go down the stairs right behind Gakin.turn right at bottom, down more stairs. right again, down more stairs, left, down most of the way and left again, this last door is easy to miss. Stand on the purple runed summoning circle and use the provided choker to summon a voidwalker then kill it.|
 T The Binding|QID|1689|C|Warlock|M|25.2,78.6|Z|Stormwind City|N|To Gakin the Darkbinder.|
 
 A A Warrior's Training|QID|1638|C|Warrior|M|41,65.8|N|From Lyria Du Lac, in Goldshire smithing shop.|
@@ -378,7 +378,7 @@ C Thelsamar Blood Sausages|QID|418|M|32.28,31.08;25.68,35.92;37.71,38.18|Z|Loch 
 T Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|To Mountaineer Kadrell.|
 T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|To Vidra Hearthstove inside Stoutlager Inn.|
 F Ironforge|AVAILABLE|3681|M|33.94,50.95|Z|Loch Modan|C|Paladin|
-A Tome of Divinity|QID|3681|M|23.11,6.15|Z|Ironforge|N|From Brandur Ironhammer in the Mystic Ward.|LEAD|1642|C|Paladin|
+A Tome of Divinity|QID|3681|M|23.11,6.15|Z|Ironforge|N|From Brandur Ironhammer in the Mystic Ward.|LEAD|3682|C|Paladin|
 F Stormwind|ACTIVE|3681|M|55.54,47.75|Z|Ironforge|N|Fly to Stormwind.|C|Paladin|
 F Stormwind|ACTIVE|6261|M|33.94,50.95|Z|Loch Modan|N|Fly to Stormwind from Thelsamar.|C|-Paladin|
 
@@ -403,20 +403,24 @@ A The Tome of Divinity|QID|1786|M|38.58,26.56|Z|Stormwind City|N|From Gazin Teno
 T Stormpike's Order|QID|1338|M|58.10,16.57|Z|Stormwind City|N|To Furen Longbeard, in the Dwarven District.|
 A Bounty on Murlocs|QID|46|M|73.97,72.18|N|From Guard Thomas at the east Elwynn bridge.|PRE|39|
 
-R Stone Cairn Lake|ACTIVE|46|M|74.75,61.98|N|Run north to Stone Cairn Lake.|
-T The Tome of Divinity|QID|1786|M|72.59,51.41|U|6866|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him. You can turn in the quest once he has revived.\n[color=FF0000]NOTE: [/color]The Symbol of Life is consumed upon use. If you do not turn in the quest before Henze resets, you will have to go back to Duthorian Rall in Stormwind to get another one.|C|Paladin|T|Henze Faulk|
+R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|N|Run north to the island in the middle of Stone Cairn Lake.|
+R Heroes' Vigil|ACTIVE|1786|M|74.45,56.74|N|Head to hills on the west side of the island in the middle of Stone Cairn Lake.|C|Paladin|
+C The Tome of Divinity|QID|1786|M|72.59,51.41|U|6866|NC|T|Henze Faulk|N|Target Henze, who is on a mound of dirt, and use the holy symbol on him.|C|Paladin|
+T The Tome of Divinity|QID|1786|M|72.59,51.41|N|To Henze Faulk.|C|Paladin|
 A The Tome of Divinity|QID|1787|M|72.59,51.41|N|From Henze Faulk.|PRE|1786|C|Paladin|
 C The Tome of Divinity|QID|1787|M|74.03,51.84|N|Kill the wizards on the isle with you. The notes should drop pretty quickly.|C|Paladin|
+R Stone Cairn Lake|ACTIVE|46|M|75.95,59.58|N|Return to the southern shoreline of Stone Cairn Lake.|C|Paladin|
+
 C Bounty on Murlocs|QID|46|L|780 8|N|Kill murlocs until you collect the torn fins needed.|
-T Cloth and Leather Armor|QID|59|M|79.5,68.8|N|To Sara Timberlain in Eastvale Logging Camp.|
+T Cloth and Leather Armor|QID|59|M|79.46,68.79|N|To Sara Timberlain in Eastvale Logging Camp.|
 T Bounty on Murlocs|QID|46|M|73.97,72.18|N|To Guard Thomas.|
 
-K Morgan the Collector|ACTIVE|147|M|71,80|QO|1|T|Morgan the Collector|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which aggro at the same time.|
+K Morgan the Collector|ACTIVE|147|M|70.97,80.49|QO|1|T|Morgan the Collector|N|Kill and loot Morgan the Collector. You will find him inside the small house. He is accompanied by two other NPCs which aggro at the same time.|
 
 R Redridge Mountains|QID|244|M|8.98,71.72|Z|Redridge Mountains|N|Go to Redridge Mountains.|
-A Encroaching Gnolls|QID|244|M|15.3,71.5|Z|Redridge Mountains|N|From Guard Parker.|
-T Encroaching Gnolls|QID|244|M|30.7,60.0|Z|Redridge Mountains|N|To Deputy Feldon.|
-A Assessing the Threat|QID|246|PRE|244|M|30.7,60.0|Z|Redridge Mountains|N|From Deputy Feldon.|
+A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|Redridge Mountains|N|From Guard Parker.|
+T Encroaching Gnolls|QID|244|M|30.74,60.00|Z|Redridge Mountains|N|To Deputy Feldon.|
+A Assessing the Threat|QID|246|PRE|244|M|30.74,60.00|Z|Redridge Mountains|N|From Deputy Feldon.|
 f Lakeshire|QID|65|M|30.60,59.40|Z|Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
 
 F Stormwind|ACTIVE|147^1787|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
@@ -424,8 +428,8 @@ F Stormwind|ACTIVE|147^1787|TZ|Stormwind City|N|Back to Stormwind to turn in a c
 T The Tome of Divinity|QID|1787|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
 A The Tome of Divinity|QID|1788|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm.|PRE|1787|
 T The Tome of Divinity|QID|1788|C|Paladin|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|
-
-T Manhunt|QID|147|M|42.1,65.9|N|To Marshall Dughan.|
+R Goldshire|ACTIVE|147|M|41.32,63.47|N|Exit Stormwind City and follow the road to Goldshire.|
+T Manhunt|QID|147|M|42.1,65.9|N|To Marshall Dughan in Goldshire.|
 
 H Sentinel Hill|ACTIVE|6285|N|If your hearthstone isn't available or set there, you can always fly.|
 ]]
