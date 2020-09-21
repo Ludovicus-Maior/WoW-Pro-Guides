@@ -1845,7 +1845,13 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             if WoWPro.inzone[guideIndex] then
                 local zonetext, subzonetext = _G.GetZoneText(), _G.GetSubZoneText():trim()
                 local inzone = WoWPro.inzone[guideIndex]
-                if (inzone == zonetext) or (inzone == subzonetext) then
+				local inzoneFlip = false
+				if (inzone:sub(1, 1) == "-") then
+                    inzone = inzone:sub(2)
+                    inzoneFlip = true
+                end
+
+                if (((inzone == zonetext) or (inzone == subzonetext)) and not inzoneFlip) or (((inzone ~= zonetext) and (inzone ~= subzonetext)) and inzoneFlip) then
                     WoWPro:dbp("Step %s [%s/%s] not skipped as InZone %s/%s",stepAction,step,tostring(QID), zonetext, subzonetext)
                 else
                     WoWPro:dbp("Step %s [%s/%s] skipped as not InZone %s/%s",stepAction,step,tostring(QID), zonetext, subzonetext)
@@ -2441,8 +2447,15 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
             -- This tests for spells that are cast on you and show up as buffs
             if WoWPro.buff and WoWPro.buff[guideIndex] then
-                local buffy = WoWPro:CheckPlayerForBuffs(WoWPro.buff[guideIndex])
-                if buffy then
+				local mybuff = WoWPro.buff[guideIndex]
+				local mybuffFlip = mybuff
+				if (mybuff:sub(1, 1) == "-") then
+                    mybuff = mybuff:sub(2)
+                    mybuffFlip = nil
+                end
+                local buffy = WoWPro:CheckPlayerForBuffs(mybuff)
+
+                if (buffy == mybuffFlip) then
                     skip = true
                     local why = ("Skipping because buff #%d"):format(buffy)
                     WoWPro.why[guideIndex] = why

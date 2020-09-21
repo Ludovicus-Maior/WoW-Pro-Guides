@@ -162,188 +162,203 @@ C In The Flesh|QID|57994|M|34.31,34.03|Z|Maldraxxus|QO|4|N|Escape the House of C
 f Spider's Watch|ACTIVE|57994|M|37.57,29.24|Z|Maldraxxus|N|At Flight Master Nudolva.|MS|
 C In The Flesh|QID|57994|M|37.65,29.22|Z|Maldraxxus|QO|5|N|Click on the Rune of Banded Strength.|MS|
 T In The Flesh|QID|57994|M|37.61,29.09|Z|Maldraxxus|N|To Aspirant Thales.|MS|
+A Front and Center|QID|60733|M|37.66,29.11|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57994|
 
 ; Side Quest Story - Archival Protection
-A Front and Center|QID|60733|M|37.66,29.11|Z|Maldraxxus|N|From Secutor Mevix.|LVL|53|
-A Read Between the Lines|QID|58619|M|40.69,33.08|Z|Maldraxxus|N|From Ta'eran.|
+A Read Between the Lines|QID|58619|M|40.69,33.08|Z|Maldraxxus|N|From Ta'eran.|LVL|53|
 C Read Between the Lines|QID|58619|M|40.69,33.08|QO|1|Z|Maldraxxus|CHAT|N|Talk to Ta'ern.|
-C Read Between the Lines|QID|58619|M|40.69,33.08|QO|2|Z|Maldraxxus|CHAT|N|Walk with Ta'ern.|
+C Read Between the Lines|QID|58619|M|40.69,33.08|QO|2|Z|Maldraxxus|NC|N|Walk with Ta'ern.|
 T Read Between the Lines|QID|58619|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|
-A Repeat After Me|QID|58621|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|
-A Kill Them Of Course|QID|59917|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|
-C Kill Them Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Enraged Glutton slain.|S|
-C Repeat After Me|QID|58621|M|41.18,27.93|QO|4|Z|Maldraxxus|N|Target the Runestone of Rituals and /kneel|T|Runestone of Rituals,kneel|
-C Repeat After Me|QID|58621|M|40.70,31.11|QO|3|Z|Maldraxxus|N|Target the Runestone of Plagues and /bleed|T|Runestone of Plague,bleed|
-C Repeat After Me|QID|58621|M|44.11,35.42|QO|1|Z|Maldraxxus|N|Target the Runestone of Chosen and /salute|T|Runestone of Chosen,salute|
-C Repeat After Me|QID|58621|M|47.25,35.66|QO|5|Z|Maldraxxus|N|Target the Runestone of Constructs and /flex|T|Runestone of Constructs,flex|
-C Repeat After Me|QID|58621|M|46.22,28.69|QO|2|Z|Maldraxxus|N|Target the Runestone of Eyes and /sneak|T|Runestone of Eyes,sneak|
-C Kill Them Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Enraged Glutton slain.|US|
+A Repeat After Me|QID|58621|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|
+A Kill Them Of Course|QID|59917|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|
+C Kill Them Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|S|
+C Repeat After Me|QID|58621|M|41.18,27.93|QO|4|Z|Maldraxxus|N|Target the Runestone of Rituals and /kneel\n\nKill Echo of the Magus.|T|Runestone of Rituals,kneel|
+C Repeat After Me|QID|58621|M|40.70,31.11|QO|3|Z|Maldraxxus|N|Target the Runestone of Plagues and /bleed\n\nKill Echo of the Chemist.|T|Runestone of Plague,bleed|
+C Repeat After Me|QID|58621|M|44.11,35.42|QO|1|Z|Maldraxxus|N|Target the Runestone of Chosen and /salute\n\nKill Echo of the Hero.|T|Runestone of Chosen,salute|
+C Repeat After Me|QID|58621|M|47.25,35.66|QO|5|Z|Maldraxxus|N|Target the Runestone of Constructs and /flex\n\nKill Echo of the Crafter|T|Runestone of Constructs,flex|
+C Repeat After Me|QID|58621|M|46.22,28.69|QO|2|Z|Maldraxxus|N|Target the Runestone of Eyes and /sneak\n\nKill Echo of the Spy|T|Runestone of Eyes,sneak|
+C Kill Them Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|US|
 T Repeat After Me|QID|58621|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
 T Kill Them Of Course|QID|59917|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
-A Slaylines|QID|58620|M|43.07,25.12|Z|Maldraxxus|N|From Ta'eran.|
-C Slaylines|QID|58620|M|42.13,31.01|QO|1|Z|Maldraxxus|NC|N|Locate the East Power Crystal.|
+A Slaylines|QID|58620|M|43.07,25.12|Z|Maldraxxus|N|From Ta'eran.|PRE|58621&59917|
+N Arrange the Beams|ACTIVE|58620|M|43.07,25.12|Z|Maldraxxus|N|[color=ff8000]West:[/color]\n\nBe sure to click the West Power Crystal only [color=ff8000]1[/color] time so the beam goes into the crystal behind you.\n\nThat crystal behind you should be clicked [color=ff8000]1[/color] time and the beam should go NE refecting off something which directs it to the crystal North of you.\n\nThat crystal to the north should be clicked [color=ff8000]1[/color] time to finally direct it to the West Obelisk.\n\n[color=ff8000]East:[/color]\n\nBe sure to click the East Power Crystal [color=ff8000]2[/color] times so the beam goes into the crystal behind you.\n\nThat crystal behind you should be clicked [color=ff8000]1[/color] time and the beam should go north refecting off something onto the mountain and to the crystal to your NW that should already be pointed to the East Obelisk.|S!US|
 C Slaylines|QID|58620|M|45.87,29.88|QO|2|Z|Maldraxxus|NC|N|Locate the West Power Crystal.|
-C Slaylines|QID|58620|M|42.81,27.16|QO|3|Z|Maldraxxus|NC|N|Active the East Obelisk.|
-C Slaylines|QID|58620|M|43.40,26.89|QO|4|Z|Maldraxxus|NC|N|Active the West Obelisk.|
+C Slaylines|QID|58620|M|42.13,31.01|QO|1|Z|Maldraxxus|NC|N|Locate the East Power Crystal.|
+C Slaylines|QID|58620|M|42.81,27.16|QO|3|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the East Obelisk, run back to it and click to activate.|
+C Slaylines|QID|58620|M|43.40,26.89|QO|4|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the West Obelisk, run back to it and click to activate.|
 T Slaylines|QID|58620|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|
-A Secrets Among the Shelves|QID|58622|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|
-C Secrets Among the Shelves|QID|58622|M|PLAYER|Z|Maldraxxus|NC|N|Enter and climb the tower collecting books are you go.|
+A Secrets Among the Shelves|QID|58622|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58620|
+C Secrets Among the Shelves|QID|58622|M|PLAYER|Z|Maldraxxus|NC|N|Enter and climb the tower avoiding the floating books while collecting the highlighted tomes from the ground and bookshelves.|
 T Secrets Among the Shelves|QID|58622|M|41.83,23.61|Z|Maldraxxus|N|To Ta'ern.|
-A Archival Protection|QID|60900|M|41.83,23.61|Z|Maldraxxus|N|From Ta'eran.|
-C Archival Protection|QID|60900|M|42.26,24.11|Z|Maldraxxus|NC|N|Demonitize The Archivist.|
+A Archival Protection|QID|60900|M|41.83,23.61|Z|Maldraxxus|N|From Ta'eran.|PRE|58622|
+C Archival Protection|QID|60900|M|42.26,24.11|Z|Maldraxxus|NC|N|Continue up the stairs to find and kill The Archivist.|
 T Archival Protection|QID|60900|M|PLAYER|Z|Maldraxxus|N|To Ta'ern.|
-A Trust Fall|QID|59994|M|PLAYER|Z|Maldraxxus|N|From Ta'eran.|
-C Trust Fall|QID|59994|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Jump off the tower.|
-C Trust Fall|QID|59994|M|45.49,32.09|QO|2|Z|Maldraxxus|NC|N|Click the book.|
+A Trust Fall|QID|59994|M|PLAYER|Z|Maldraxxus|N|From Ta'eran.|PRE|60900|
+C Trust Fall|QID|59994|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Jump out of the tower.|
+C Trust Fall|QID|59994|M|45.49,32.09|QO|2|Z|Maldraxxus|NC|N|Click the floating book behind you.|
 T Trust Fall|QID|59994|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|
-A A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|From Ta'eran.|
-C A Complete Set|QID|58623|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Click on the books in the shelves.|
+A A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|From Ta'eran.|PRE|59994|
+C A Complete Set|QID|58623|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Click on the books around in the shelves.|
 C A Complete Set|QID|58623|M|42.14,23.30|QO|2|Z|Maldraxxus|NC|N|Click on the pages flying around the room.|
 T A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|
-F Bleak Redoubt|QID|60733|M|37.56,29.21|
-C Front and Center|QID|60733|M|50.38,67.74|Z|Maldraxxus|QO|1|N|Empower the Rune of Might|
-T Front and Center|QID|60733|M|50.38,67.74|Z|Maldraxxus|N|To Baroness Draka.|
-A The House of Plagues|QID|59130|M|54.22,66.04|Z|Maldraxxus|
-T The House of Plagues|QID|59130|M|56.43,57.31|Z|Maldraxxus|N|To Plague Deviser Marileth.|
 
-A Bug Bites|QID|58011|M|56.43,57.31|Z|Maldraxxus|N|From Plague Deviser Marileth.|
-A Spores Galore|QID|58016|M|56.43,57.31|Z|Maldraxxus|N|From Plague Deviser Marileth.|
-C Spores Galore|QID|58016|M|53.65,56.87|Z|Maldraxxus|NC|N|Stringy Spore|S|
-C Bug Bites|QID|58011|M|52.39,59.79|Z|Maldraxxus|N|Bloated Venom Sac|
-C Spores Galore|QID|58016|M|53.65,56.87|Z|Maldraxxus|NC|N|Stringy Spore|US|
-T Bug Bites|QID|58011|M|56.42,57.29|Z|Maldraxxus|N|To Plague Deviser Marileth.|
-T Spores Galore|QID|58016|M|56.42,57.29|Z|Maldraxxus|N|To Plague Deviser Marileth.|
-
-A Slime, Anyone?|QID|58027|M|56.42,57.29|Z|Maldraxxus|N|From Plague Deviser Marileth.|
-C Slime, Anyone?|QID|58027|M|56.42,57.20|Z|Maldraxxus|QO|3|NC|N|Cauldron stirred|
-C Slime, Anyone?|QID|58027|M|56.51,57.19|Z|Maldraxxus|QO|2|NC|N|Venom imbued|
-C Slime, Anyone?|QID|58027|M|56.51,57.10|Z|Maldraxxus|QO|1|NC|N|Spores incorporated|
-C Slime, Anyone?|QID|58027|M|56.45,57.15|Z|Maldraxxus|QO|4|NC|N|Concoction mixed|
-T Slime, Anyone?|QID|58027|M|56.41,57.25|Z|Maldraxxus|N|To Plague Deviser Marileth.|
-A Hazardous Waste Collection|QID|58036|M|56.41,57.25|Z|Maldraxxus|N|From Plague Deviser Marileth.|
-A Plague is Thicker Than Water|QID|58045|M|56.41,57.25|Z|Maldraxxus|N|From Plague Deviser Marileth.|
-A Applied Science|QID|58031|M|56.52,57.18|Z|Maldraxxus|N|From Plague Deviser Marileth.|
-C Hazardous Waste Collection|QID|58036|M|57.19,60.67|Z|Maldraxxus|QO|1|NC|N|Laboratory Equipment|S|
-C Plague is Thicker Than Water|QID|58045|M|61.96,62.32|Z|Maldraxxus|QO|1|N|Korrim the Cunning slain|S|
-C Applied Science|QID|58031|M|57.12,59.51|Z|Maldraxxus|QO|1|N|Marileth's Journal - Page One found|
-C Applied Science|QID|58031|M|57.12,59.76|Z|Maldraxxus|QO|2|N|Marileth's Journal - Page Two found|
-C Applied Science|QID|58031|M|57.03,60.29|Z|Maldraxxus|QO|3|N|Marileth's Journal - Page Three found|
-C Applied Science|QID|58031|M|57.03,60.44|Z|Maldraxxus|QO|4|N|Marileth's Journal - Page Four found|
-C Hazardous Waste Collection|QID|58036|M|57.19,60.67|Z|Maldraxxus|QO|1|N|Laboratory Equipment|US|
-C Plague is Thicker Than Water|QID|58045|M|61.96,62.32|Z|Maldraxxus|QO|1|N|Korrim the Cunning slain|US|
-T Hazardous Waste Collection|QID|58036|M|58.29,71.59|Z|Maldraxxus|N|To Plague Deviser Marileth.|
-T Plague is Thicker Than Water|QID|58045|M|58.29,71.59|Z|Maldraxxus|N|To Plague Deviser Marileth.|
-T Applied Science|QID|58031|M|58.29,71.59|Z|Maldraxxus|N|To Plague Deviser Marileth.|
-A By Any Other Name|QID|59223|M|58.29,71.59|Z|Maldraxxus|N|From Plague Deviser Marileth.|
-A A Plague On Your House|QID|59430|M|58.08,72.03|Z|Maldraxxus|N|From Judas Sneap.|
-f Plague Watch|QID|59430|M|58.17,72.38|Z|Maldraxxus|N|At Vradira Livid.|
-C A Plague On Your House|QID|59430|M|59.39,72.95|Z|Maldraxxus|QO|1|CHAT|N|Speak with Vial Master Lurgy|
-C A Plague On Your House|QID|59430|M|58.58,73.47|Z|Maldraxxus|QO|2|CHAT|N|Speak with Foul-Tongue Cyrlix|
-C A Plague On Your House|QID|59430|M|59.04,73.86|Z|Maldraxxus|QO|3|CHAT|N|Speak with Boil Master Yetch|
+; The House of Plagues Storyline and Mixing Monstrosities Sidestory
+F Bleak Redoubt|ACTIVE|60733|M|37.56,29.21|N|Fly back to Bleak Redoubt.|MS|
+C Front and Center|QID|60733|M|50.38,67.74|Z|Maldraxxus|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Might.|EAB|MS|
+T Front and Center|QID|60733|M|50.38,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
+A The House of Plagues|QID|59130|M|54.22,66.04|Z|Maldraxxus|N|From Baroness Draka.|PRE|60733|MS|
+T The House of Plagues|QID|59130|M|56.43,57.31|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
+A Bug Bites|QID|58011|M|56.43,57.31|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|59130|MS|
+A Spores Galore|QID|58016|M|56.43,57.31|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|59130|MS|
+C Spores Galore|QID|58016|M|53.65,56.87|Z|Maldraxxus|NC|N|Click the Stringy Spores and walk away to uproot them.|S|MS|
+C Bug Bites|QID|58011|M|52.39,59.79|Z|Maldraxxus|N|Kill the Virulent Pests and loot their Bloated Venom Sacs.|MS|
+C Spores Galore|QID|58016|M|53.65,56.87|Z|Maldraxxus|NC|N|Click the Stringy Spores and walk away to uproot them.|US|MS|
+T Bug Bites|QID|58011|M|56.42,57.29|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
+T Spores Galore|QID|58016|M|56.42,57.29|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
+A Slime, Anyone?|QID|58027|M|56.42,57.29|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|58011&58016|MS|
+C Slime, Anyone?|QID|58027|M|56.42,57.20|Z|Maldraxxus|QO|3|NC|N|Click on the Cauldron of Creation to stir.|MS|
+C Slime, Anyone?|QID|58027|M|56.51,57.19|Z|Maldraxxus|QO|2|NC|N|Click the Jar of Venom to imbue your brew. It looks like a lantern on the table.|MS|
+C Slime, Anyone?|QID|58027|M|56.51,57.10|Z|Maldraxxus|QO|1|NC|N|Click on the Pile of Spores to incorporate it into your brew.|MS|
+C Slime, Anyone?|QID|58027|M|56.45,57.15|Z|Maldraxxus|QO|4|NC|N|Click the Cauldron once more to mix up that Concoction.|MS|
+T Slime, Anyone?|QID|58027|M|56.41,57.25|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
+A Hazardous Waste Collection|QID|58036|M|56.41,57.25|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|58027|MS|
+A Plague is Thicker Than Water|QID|58045|M|56.41,57.25|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|58027|MS|
+A Applied Science|QID|58031|M|56.52,57.18|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|58027|MS|
+C Applied Science|QID|58031|M|57.12,59.51|Z|Maldraxxus|N|Kill the remnants roaming around and loot them for a chance to find your missing pages.|S|MS|
+C Hazardous Waste Collection|QID|58036|M|57.19,60.67|Z|Maldraxxus|NC|N|Click on the Plague Refuse blobs on the ground to send your Plagueborn Slime to find Laboratory Equipment. Once it has collected them, you need to click on the Plagueborn slime to collect it|S|MS|
+C Plague is Thicker Than Water|QID|58045|M|61.96,62.32|Z|Maldraxxus|N|Kill Korrim the Cunning.|T|Korrim the Cunning.|MS|
+C Hazardous Waste Collection|QID|58036|M|57.19,60.67|Z|Maldraxxus|N|Click on the Plague Refuse blobs on the ground to send your Plagueborn Slime to find Laboratory Equipment. Once it has collected them, you need to click on the Plagueborn slime to collect it.|US|MS|
+C Applied Science|QID|58031|M|57.12,59.51|Z|Maldraxxus|N|Kill the remnants roaming around and loot them for a chance to find your missing pages.|US|MS|
+T Hazardous Waste Collection|QID|58036|M|58.29,71.59|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
+T Plague is Thicker Than Water|QID|58045|M|58.29,71.59|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
+T Applied Science|QID|58031|M|58.29,71.59|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
+A By Any Other Name|QID|59223|M|58.29,71.59|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|58031&58045&58036|MS|
+A A Plague On Your House|QID|59430|M|58.08,72.03|Z|Maldraxxus|N|From Judas Sneap.|LVL|53|
+f Plague Watch|ACTIVE|59430|M|58.17,72.38|Z|Maldraxxus|N|At Vradira Livid.|
+C A Plague On Your House|QID|59430|M|59.39,72.95|Z|Maldraxxus|QO|1|CHAT|N|Chat with Vial Master Lurgy.|
+C A Plague On Your House|QID|59430|M|58.58,73.47|Z|Maldraxxus|QO|2|CHAT|N|Chat with Foul-Tongue Cyrlix.|
+C A Plague On Your House|QID|59430|M|59.04,73.86|Z|Maldraxxus|QO|3|CHAT|N|Chat with Boil Master Yetch.|
 T A Plague On Your House|QID|59430|M|59.04,73.86|Z|Maldraxxus|N|To Boil Master Yetch.|
-A Pool of Potions|QID|58431|M|59.04,73.86|Z|Maldraxxus|N|From Boil Master Yetch.|
-C By Any Other Name|QID|59223|M|57.96,80.41|Z|Maldraxxus|QO|1|N|Dreadshade Extract|S|
-C Pool of Potions|QID|58431|M|58.96,74.13|Z|Maldraxxus|QO|1|N|Viscous Oil delivered to Pool of Potions|
+A Pool of Potions|QID|58431|M|59.04,73.86|Z|Maldraxxus|N|From Boil Master Yetch.|PRE|58430|
+K Burning Extract|ACTIVE|58431|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
+C Pool of Potions|QID|58431|M|59.03,74.19|Z|Maldraxxus|QO|1<1|N|Return the Viscous Oil to the Pool of Potions.|
+K Burning Extract|ACTIVE|58431|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
+C Pool of Potions|QID|58431|M|59.03,74.19|Z|Maldraxxus|QO|1<2|N|Return the Viscous Oil to the Pool of Potions.|
+K Burning Extract|ACTIVE|58431|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
+C Pool of Potions|QID|58431|M|59.03,74.19|Z|Maldraxxus|QO|1<3|N|Return the Viscous Oil to the Pool of Potions.|
 T Pool of Potions|QID|58431|M|59.05,73.82|Z|Maldraxxus|N|To Boil Master Yetch.|
-A Callous Concoctions|QID|57301|M|58.52,73.53|Z|Maldraxxus|N|From Foul-Tongue Cyrlix.|
-C Callous Concoctions|QID|57301|M|58.41,74.31|Z|Maldraxxus|QO|1|N|Viscous Oil, Mephitic Goo or Miscible Ooze delivered to the Pool|
-C By Any Other Name|QID|59223|M|57.96,80.41|Z|Maldraxxus|QO|1|N|Dreadshade Extract|US|
+A Callous Concoctions|QID|57301|M|58.52,73.53|Z|Maldraxxus|N|From Foul-Tongue Cyrlix.|PRE|58431|
+K Burning Extract|ACTIVE|57301|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
+C Callous Concoctions|QID|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<1|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
+K Burning Extract|ACTIVE|57301|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
+C Callous Concoctions|QID|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<2|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
+K Burning Extract|ACTIVE|57301|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
+C By Any Other Name|QID|59223|M|57.96,80.41|Z|Maldraxxus|QO|1|N|Kill the Blossoming Dreadshade and loot its Extract.|
+C Callous Concoctions|QID|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<3|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
 T Callous Concoctions|QID|57301|M|58.54,73.53|Z|Maldraxxus|N|To Foul-Tongue Cyrlix.|
-T By Any Other Name|QID|59223|M|60.44,71.64|Z|Maldraxxus|N|To Plague Deviser Marileth.|
-A Fit For a Margrave|QID|60831|M|60.44,71.64|Z|Maldraxxus|N|From Plague Deviser Marileth.|
-C Fit For a Margrave|QID|60831|M|60.55,71.76|Z|Maldraxxus|QO|1|N|Anima catalyzed|
-C Fit For a Margrave|QID|60831|M|60.65,71.39|Z|Maldraxxus|QO|2|N|Potion formed|
-C Fit For a Margrave|QID|60831|M|60.65,71.39|Z|Maldraxxus|QO|3|N|Rune of Insight|
-T Fit For a Margrave|QID|60831|M|60.50,71.60|Z|Maldraxxus|N|To Plague Deviser Marileth.|
-A Fathomless Power|QID|59231|M|60.50,71.60|Z|Maldraxxus|N|From Plague Deviser Marileth.|
+A Plaguefall: Knee Deep In It|QID|59520|M|59.39,72.95|Z|Maldraxxus|ELITE|N|[color=e6cc80]Dungeon: Plaguefall[/color]\nFrom Vial Master Lurgy. This quest is optional and out of scope for this guide.|
+T By Any Other Name|QID|59223|M|60.44,71.64|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
+A Fit For a Margrave|QID|60831|M|60.44,71.64|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|59223|MS|
+C Fit For a Margrave|QID|60831|M|60.55,71.76|Z|Maldraxxus|QO|1|N|Click the Anima Catalysts to the left and right of you.|MS|
+C Fit For a Margrave|QID|60831|M|60.65,71.39|Z|Maldraxxus|QO|2|N|Click on the Potion Chamber to complete it.|MS|
+C Fit For a Margrave|QID|60831|M|60.65,71.39|Z|Maldraxxus|QO|3|N|Click on the glowing Rune of Insight near you.|MS|
+T Fit For a Margrave|QID|60831|M|60.50,71.60|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
+A Fathomless Power|QID|59231|M|60.50,71.60|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|60831|MS|
 F Bleak Redoubt|QID|59231|M|58.02,72.37|
-C Fathomless Power|QID|59231|M|50.40,67.75|Z|Maldraxxus|QO|1|NC|N|Empower Rune of Insight|
-T Fathomless Power|QID|59231|M|50.36,67.74|Z|Maldraxxus|N|To Baroness Draka.|
+C Fathomless Power|QID|59231|M|50.40,67.75|Z|Maldraxxus|NC|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Inisght.|EAB|MS|
+T Fathomless Power|QID|59231|M|50.36,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
+
+; Matron of Spies Storyline
 f Theater of Pain|QID|59520|M|49.93,53.20|Z|Maldraxxus|N|At Wing Guard Alamar.|
 f Renounced Bastille|QID|59520|M|67.90,45.83|Z|Maldraxxus|N|At Felsen Wingclip.|
-C A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|CHAT|N|Deliver the summons to the lost baroness|
-T A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|N|To Baroness Vashj.|
-A Glorious Pursuits|QID|58821|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|
-A Prey Upon Them|QID|59171|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|
-C Prey Upon Them|QID|59171|M|61.97,51.91|Z|Maldraxxus|QO|1|N|Anima-charged Maldracite|S|
-C Glorious Pursuits|QID|58821|M|62.75,52.52|Z|Maldraxxus|QO|1|U|178940|N|Mephiles the Loyal captured|
-C Prey Upon Them|QID|59171|M|61.97,51.91|Z|Maldraxxus|QO|1|N|Anima-charged Maldracite|US|
-C Glorious Pursuits|QID|58821|M|62.25,48.15|Z|Maldraxxus|QO|2|N|Morbid Disciple slain|
-C Glorious Pursuits|QID|58821|M|67.66,45.92|Z|Maldraxxus|QO|3|N|Mephiles returned|
-T Prey Upon Them|QID|59171|M|67.61,45.92|Z|Maldraxxus|N|To Baroness Vashj.|
-T Glorious Pursuits|QID|58821|M|67.67,45.92|Z|Maldraxxus|N|To Baroness Vashj.|
-A War is Deception|QID|59172|M|67.67,45.92|Z|Maldraxxus|N|From Baroness Vashj.|
-C War is Deception|QID|59172|M|67.46,45.97|Z|Maldraxxus|QO|1|NC|N|Anima-charged Crystals planted|
-C War is Deception|QID|59172|M|67.62,45.88|Z|Maldraxxus|QO|2|CHAT|N|Ritual triggered|
-C War is Deception|QID|59172|M|67.86,46.13|Z|Maldraxxus|QO|3|N|Ritual witnessed|
-T War is Deception|QID|59172|M|67.73,45.98|Z|Maldraxxus|N|To Baroness Vashj.|
-A Entangling Web|QID|59185|M|67.73,45.98|Z|Maldraxxus|N|From Baroness Vashj.|
-A Tainted Cores|QID|59210|M|67.73,45.98|Z|Maldraxxus|N|From Baroness Vashj.|
-A Vaunted Vengeance|QID|59188|M|67.68,45.69|Z|Maldraxxus|N|From Khaliiq.|
-C Tainted Cores|QID|59210|M|67.46,45.99|Z|Maldraxxus|QO|1|NC|N|Depleted Crystal fractured|
-C Entangling Web|QID|59185|M|71.07,53.23|Z|Maldraxxus|QO|1|N|Maldracite Dust|S|
-C Tainted Cores|QID|59210|M|72.18,49.92|Z|Maldraxxus|QO|2|U|175409|N|Anima drained from corpses|S|
-C Vaunted Vengeance|QID|59188|M|72.58,48.50|Z|Maldraxxus|QO|1|N|Xeeli's Ritual Drafts|
-C Vaunted Vengeance|QID|59188|M|72.77,52.60|Z|Maldraxxus|QO|3|N|Lye's Ritual Drafts|
-C Vaunted Vengeance|QID|59188|M|69.53,52.50|Z|Maldraxxus|QO|2|N|Halen's Ritual Drafts|
-C Entangling Web|QID|59185|M|71.07,53.23|Z|Maldraxxus|QO|1|N|Maldracite Dust|US|
-C Tainted Cores|QID|59210|M|72.18,49.92|Z|Maldraxxus|QO|2|U|175409|N|Anima drained from corpses|US|
-T Entangling Web|QID|59185|M|73.59,44.60|Z|Maldraxxus|N|To Baroness Vashj.|
-T Tainted Cores|QID|59210|M|73.59,44.60|Z|Maldraxxus|N|To Baroness Vashj.|
-T Vaunted Vengeance|QID|59188|M|73.42,44.52|Z|Maldraxxus|N|To Khaliiq.|
-A Seek Your Mark|QID|59190|M|73.47,44.53|Z|Maldraxxus|N|From Baroness Vashj.|
-C Seek Your Mark|QID|59190|M|74.44,43.82|Z|Maldraxxus|QO|1|NC|N|Fractured Crystal placed|
-C Seek Your Mark|QID|59190|M|73.83,43.83|Z|Maldraxxus|QO|2|NC|N|Binding Sigil drawn|
-T Seek Your Mark|QID|59190|M|73.61,44.49|Z|Maldraxxus|N|To Baroness Vashj.|
-A Straight to the Heart|QID|59025|M|73.61,44.49|Z|Maldraxxus|N|From Baroness Vashj.|
-C Straight to the Heart|QID|59025|M|73.59,44.56|Z|Maldraxxus|QO|1|NC|N|Ritual triggered|
-C Straight to the Heart|QID|59025|M|73.63,44.59|Z|Maldraxxus|QO|2|N|Mor'Bitan slain|
-C Straight to the Heart|QID|59025|M|73.72,44.16|Z|Maldraxxus|QO|3|NC|N|Rune of Guile|
-T Straight to the Heart|QID|59025|M|73.57,44.46|Z|Maldraxxus|N|To Baroness Vashj.|
-A Her Rightful Place|QID|59009|M|73.57,44.46|Z|Maldraxxus|
-F Bleak Redoubt|QID|59009|M|67.90,45.86|
-C Her Rightful Place|QID|59009|M|50.39,67.75|Z|Maldraxxus|QO|1|N|Empower the Rune of Guile|EAB|
-T Her Rightful Place|QID|59009|M|50.33,67.75|Z|Maldraxxus|N|To Baroness Draka.|
-A Among the Chosen|QID|59202|M|50.33,67.75|Z|Maldraxxus|N|From Baroness Draka.|
-C Among the Chosen|QID|59202|M|40.57,62.00|Z|Maldraxxus|QO|1|N|Return to the House of the Chosen|
-C Among the Chosen|QID|59202|M|38.42,66.15|Z|Maldraxxus|QO|2|N|Find Krexus|
-T Among the Chosen|QID|59202|M|38.14,66.65|Z|Maldraxxus|N|To Baron Vyraz.|
-A The Maw|QID|59874|M|38.14,66.65|Z|Maldraxxus|N|From Baron Vyraz.|
-F Oribos|QID|59874|M|39.06,55.21|
-T The Maw|QID|59874|M|40.05,68.46|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|
-A Seeking the Baron|QID|59897|M|40.05,68.46|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|
-C Seeking the Baron|QID|59897|M|47.16,55.30|Z|Ring of Fates@Oribos|N|Jump into the pillar of souls in the middle of Oribos.|
-T Seeking the Baron|QID|59897|M|47.16,55.30|Z|Ring of Fates@Oribos|N|To the pop up.|
-A The Hunt for the Baron|QID|60972|M|39.50,39.66|Z|The Maw|N|From the pop up|
-C The Hunt for the Baron|QID|60972|M|39.50,39.66|Z|The Maw|N|Ebon Blade Amulet charged|
-T The Hunt for the Baron|QID|60972|M|39.50,39.66|Z|The Maw|N|Pop Up|
-A A Cooling Trail|QID|59960|M|39.52,39.61|Z|The Maw|N|From Pop up.|
-C A Cooling Trail|QID|59960|M|37.72,48.92|Z|The Maw|U|181174|N|Find Darion Mograine|
-T A Cooling Trail|QID|59960|M|38.35,48.44|Z|The Maw|N|To Mawsworn Shackler.|
-A The Brand Holds the Key|QID|59959|M|38.35,48.44|Z|The Maw|N|From Mawsworn Shackler.|
-C The Brand Holds the Key|QID|59959|M|35.32,43.98|Z|The Maw|QO|1|N|Find "the Brand" and Claim the Key|
-C The Brand Holds the Key|QID|59959|M|38.35,48.58|Z|The Maw|QO|2|NC|N|Free Darion Mograine|
-T The Brand Holds the Key|QID|59959|M|36.59,50.72|Z|The Maw|N|To Ve'nari.|
-A Hope Never Dies|QID|59962|M|36.59,50.72|Z|The Maw|N|From Ve'nari.|
-C Hope Never Dies|QID|59962|M|36.59,50.72|Z|The Maw|NC|N|Orb of Teleportation|
-T Hope Never Dies|QID|59962|M|36.28,55.63|Z|The Maw|N|To Ve'nari.|
-A Delving Deeper|QID|59966|M|36.28,55.63|Z|The Maw|N|From Ve'nari.|
-C Delving Deeper|QID|59966|M|36.28,55.63|Z|The Maw|QO|1|CHAT|N|Speak with Ve'nari|
-C Delving Deeper|QID|59966|M|34.74,66.78|Z|The Maw|QO|2|N|Follow Ve'nari|
-T Delving Deeper|QID|59966|M|32.92,66.49|Z|The Maw|N|To Highlord Darion Mograine.|
-A A Bond Beyond Death|QID|59973|M|32.92,66.49|Z|The Maw|N|From Highlord Darion Mograine.|
-C A Bond Beyond Death|QID|59973|M|32.92,66.49|Z|The Maw|QO|1|NC|N|Aid Alexandros|
-C A Bond Beyond Death|QID|59973|M|33.10,66.63|Z|The Maw|QO|2|N|Area secured|
-C A Bond Beyond Death|QID|59973|M|33.03,66.54|Z|The Maw|QO|3|N|Deslan the Torturer slain|
-T A Bond Beyond Death|QID|59973|M|32.98,66.47|Z|The Maw|N|To Highlord Darion Mograine.|
-A Wake of Ashes|QID|61190|M|32.98,66.47|Z|The Maw|N|From Highlord Darion Mograine.|
-C Wake of Ashes|QID|61190|M|47.51,40.76|Z|The Maw|NC|N|Ve'nari's Portal|
-T Wake of Ashes|QID|61190|M|46.88,41.65|Z|The Maw|N|To Ve'nari.|
-A Maw Walker|QID|62654|M|46.88,41.65|Z|The Maw|N|From Ve'nari.|
-C Maw Walker|QID|62654|M|42.38,42.17|Z|The Maw|QO|1|NC|N|Attune to Alexandros and Darion at the waygate|
-C Maw Walker|QID|62654|M|42.38,42.17|Z|The Maw|QO|2|NC|N|Escape the Maw|
-T Maw Walker|QID|62654|M|40.08,68.41|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|
-A A Soul Saved|QID|59974|M|39.60,68.00|Z|Ring of Fates@Oribos|N|From Baroness Draka.|
+C A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|CHAT|N|Deliver the summons to Baroness Vashj.|MS|
+T A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|N|To Baroness Vashj.|MS|
+A Glorious Pursuits|QID|58821|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|
+A Prey Upon Them|QID|59171|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|MS|
+C Glorious Pursuits|QID|58821|M|62.75,52.52|Z|Maldraxxus|QO|1|U|178940|N|Attack Mephiles the Loyal until it's under 50% then use Vashj's Signal to capture it.|MS|
+C Glorious Pursuits|QID|58821|M|62.25,48.15|Z|Maldraxxus|QO|2|N|Morbid Disciple slain|S|MS|
+C Prey Upon Them|QID|59171|M|61.97,51.91|Z|Maldraxxus|NC|N|Click on the Anima-charged Maldracite to collect it.|MS|
+C Glorious Pursuits|QID|58821|M|62.25,48.15|Z|Maldraxxus|QO|2|N|Morbid Disciple slain|US|MS|
+C Glorious Pursuits|QID|58821|M|67.66,45.92|Z|Maldraxxus|QO|3|N|Mephiles returned|MS|
+T Prey Upon Them|QID|59171|M|67.61,45.92|Z|Maldraxxus|N|To Baroness Vashj.|MS|
+T Glorious Pursuits|QID|58821|M|67.67,45.92|Z|Maldraxxus|N|To Baroness Vashj.|MS|
+A War is Deception|QID|59172|M|67.67,45.92|Z|Maldraxxus|N|From Baroness Vashj.|PRE|59171&58821|MS|
+C War is Deception|QID|59172|M|67.46,45.97|Z|Maldraxxus|QO|1|NC|N|Click the outlines around you to plant the Anima-charged Crystals.|MS|
+C War is Deception|QID|59172|M|67.62,45.88|Z|Maldraxxus|QO|2|CHAT|N|Talk with Vashj to start the ritual.|MS|
+C War is Deception|QID|59172|M|67.86,46.13|Z|Maldraxxus|QO|3|NC|N|Sit back and witness the Ritual.|MS|
+T War is Deception|QID|59172|M|67.73,45.98|Z|Maldraxxus|N|To Baroness Vashj.|MS|
+A Entangling Web|QID|59185|M|67.73,45.98|Z|Maldraxxus|N|From Baroness Vashj.|PRE|59172|MS|
+A Tainted Cores|QID|59210|M|67.73,45.98|Z|Maldraxxus|N|From Baroness Vashj.|PRE|59172|MS|
+A Vaunted Vengeance|QID|59188|M|67.68,45.69|Z|Maldraxxus|N|From Khaliiq.|PRE|59172|MS|
+C Tainted Cores|QID|59210|M|67.46,45.99|Z|Maldraxxus|QO|1|NC|N|Click on the Depleted Crystals around you to fracture them.|MS|
+C Entangling Web|QID|59185|M|71.07,53.23|Z|Maldraxxus|QO|1|N|Click the Jars of Ground Maldracite that are scatterd around to collect the dust.|S|MS|
+C Tainted Cores|QID|59210|M|72.18,49.92|Z|Maldraxxus|QO|2|U|175409|N|Kill Ritualists and then use the Fractured Anima Crystal to drain their Anima.|S|MS|
+C Vaunted Vengeance|QID|59188|M|72.58,48.50|Z|Maldraxxus|QO|1|N|Kill Architect Xeeli and loot its Ritual Drafts.|MS|
+C Vaunted Vengeance|QID|59188|M|72.77,52.60|Z|Maldraxxus|QO|3|N|Kill Architect Lye and loot its Ritual Drafts.|MS|
+C Vaunted Vengeance|QID|59188|M|69.53,52.50|Z|Maldraxxus|QO|2|N|Kill Architect Halen and loot its Ritual Drafts.|MS|
+C Tainted Cores|QID|59210|M|72.18,49.92|Z|Maldraxxus|QO|2|U|175409|N|Kill Ritualists and then use the Fractured Anima Crystal to drain their Anima.|US|MS|
+C Entangling Web|QID|59185|M|71.07,53.23|Z|Maldraxxus|QO|1|N|Click the Jars of Ground Maldracite that are scatterd around to collect the dust.|US|MS|
+T Vaunted Vengeance|QID|59188|M|73.42,44.52|Z|Maldraxxus|N|To Khaliiq.|MS|
+T Entangling Web|QID|59185|M|73.59,44.60|Z|Maldraxxus|N|To Baroness Vashj.|MS|
+T Tainted Cores|QID|59210|M|73.59,44.60|Z|Maldraxxus|N|To Baroness Vashj.|MS|
+A Seek Your Mark|QID|59190|M|73.47,44.53|Z|Maldraxxus|N|From Baroness Vashj.|PRE|59185&59210&59188|MS|
+C Seek Your Mark|QID|59190|M|74.44,43.82|Z|Maldraxxus|QO|1|NC|N|Click to place the Fractured Crystal at the 3 points around the obelisk.|MS|
+C Seek Your Mark|QID|59190|M|73.83,43.83|Z|Maldraxxus|QO|2|NC|N|Click on the obelisk to draw your Binding Sigil.|MS|
+T Seek Your Mark|QID|59190|M|73.61,44.49|Z|Maldraxxus|N|To Baroness Vashj.|MS|
+A Straight to the Heart|QID|59025|M|73.61,44.49|Z|Maldraxxus|N|From Baroness Vashj.|PRE|59190|MS|
+C Straight to the Heart|QID|59025|M|73.59,44.56|Z|Maldraxxus|QO|1|NC|N|Click on the obelisk to trigger the Ritual.|MS|
+C Straight to the Heart|QID|59025|M|73.63,44.59|Z|Maldraxxus|QO|2|N|Kill Mor'Bitan.|MS|
+C Straight to the Heart|QID|59025|M|73.72,44.16|Z|Maldraxxus|QO|3|NC|N|Click on the floating Rune of Guile near you.|MS|
+T Straight to the Heart|QID|59025|M|73.57,44.46|Z|Maldraxxus|N|To Baroness Vashj.|MS|
+A Her Rightful Place|QID|59009|M|73.57,44.46|Z|Maldraxxus|PRE|59025|MS|
+F Bleak Redoubt|QID|59009|M|67.90,45.86|MS|
+C Her Rightful Place|QID|59009|M|50.39,67.75|Z|Maldraxxus|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Guile.|EAB|MS|
+T Her Rightful Place|QID|59009|M|50.33,67.75|Z|Maldraxxus|N|To Baroness Draka.|MS|
+
+; Ritual for the Damned Storyline
+A Among the Chosen|QID|59202|M|50.33,67.75|Z|Maldraxxus|N|From Baroness Draka.|PRE|59009|PRE|59009|MS|
+C Among the Chosen|QID|59202|M|40.57,62.00|Z|Maldraxxus|QO|1|NC|N|Return to the House of the Chosen.|MS|
+C Among the Chosen|QID|59202|M|38.42,66.15|Z|Maldraxxus|QO|2|N|Seek out Krexus.|MS|
+T Among the Chosen|QID|59202|M|38.14,66.65|Z|Maldraxxus|N|To Baron Vyraz.|MS|
+A The Maw|QID|59874|M|38.14,66.65|Z|Maldraxxus|N|From Baron Vyraz.|MS|
+F Oribos|ACTIVE|59874|M|39.06,55.21|Z|Maldraxxus|N|Fly back to Oribos from Wing Guard Aela.|MS|
+; NEED COORDS - P Ring of Fates|ACTIVE|59874|M|PLAYER|Z|Ring of Fates@Oribos|N|Take the Teleporation Pad up to the Ring of Fates.|MS|
+T The Maw|QID|59874|M|40.05,68.46|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
+A Seeking the Baron|QID|59897|M|40.05,68.46|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|59874|MS|
+C Seeking the Baron|QID|59897|M|47.16,55.30|Z|Ring of Fates@Oribos|N|Jump into the pillar of souls in the middle of Oribos.|MS|
+T Seeking the Baron|QID|59897|M|47.16,55.30|Z|Ring of Fates@Oribos|N|To the pop up.|MS|
+A The Hunt for the Baron|QID|60972|M|39.50,39.66|Z|The Maw|N|From the pop up.|PRE|59897|MS|
+C The Hunt for the Baron|QID|60972|M|39.50,39.66|Z|The Maw|N|Kill stuff in the area to charge the Ebon Blade Amulet.|MS|
+T The Hunt for the Baron|QID|60972|M|39.50,39.66|Z|The Maw|N|To the Pop Up.|MS|
+A A Cooling Trail|QID|59960|M|39.52,39.61|Z|The Maw|N|From Pop up.|PRE|60972|MS|
+C A Cooling Trail|QID|59960|M|37.72,48.92|Z|The Maw|U|181174|N|Use the Amulet of the Horsemen to help you find Darion Mograine.|MS|
+T A Cooling Trail|QID|59960|M|38.35,48.44|Z|The Maw|N|To Mawsworn Shackler.|MS|
+A The Brand Holds the Key|QID|59959|M|38.35,48.44|Z|The Maw|N|From Mawsworn Shackler.|PRE|59960|MS|
+C The Brand Holds the Key|QID|59959|M|35.32,43.98|Z|The Maw|QO|1|N|Kill Brethlun the Brand and loot the Key.|MS|
+C The Brand Holds the Key|QID|59959|M|38.35,48.58|Z|The Maw|QO|2|NC|N|Go back and click on the cage to free Darion Mograine|MS|
+T The Brand Holds the Key|QID|59959|M|36.59,50.72|Z|The Maw|N|To Ve'nari.|MS|
+A Hope Never Dies|QID|59962|M|36.59,50.72|Z|The Maw|N|From Ve'nari.|PRE|59959|MS|
+C Hope Never Dies|QID|59962|M|36.59,50.72|Z|The Maw|NC|N|Click on the Orb of Teleportation to bring you to the Face of Oblivion.|MS|
+T Hope Never Dies|QID|59962|M|36.28,55.63|Z|The Maw|N|To Ve'nari.|MS|
+A Delving Deeper|QID|59966|M|36.28,55.63|Z|The Maw|N|From Ve'nari.|PRE|59962|MS|
+C Delving Deeper|QID|59966|M|36.28,55.63|Z|The Maw|QO|1|CHAT|N|Speak with Ve'nari to get going.|MS|
+C Delving Deeper|QID|59966|M|34.74,66.78|Z|The Maw|QO|2|N|Follow Ve'nari while staying in the stealth field and avoiding enemies.|MS|
+T Delving Deeper|QID|59966|M|32.92,66.49|Z|The Maw|N|To Highlord Darion Mograine.|MS|
+A A Bond Beyond Death|QID|59973|M|32.92,66.49|Z|The Maw|N|From Highlord Darion Mograine.|PRE|59966|MS|
+C A Bond Beyond Death|QID|59973|M|32.92,66.49|Z|The Maw|QO|1|NC|N|Click on Alexandros to free him.|MS|
+C A Bond Beyond Death|QID|59973|M|33.10,66.63|Z|The Maw|QO|2|N|Defend them against the 2 waves of enemies.|MS|
+C A Bond Beyond Death|QID|59973|M|33.03,66.54|Z|The Maw|QO|3|N|Kill Deslan the Torturer.|MS|
+T A Bond Beyond Death|QID|59973|M|32.98,66.47|Z|The Maw|N|To Highlord Darion Mograine.|MS|
+A Wake of Ashes|QID|61190|M|32.98,66.47|Z|The Maw|N|From Highlord Darion Mograine.|PRE|59973|MS|
+C Wake of Ashes|QID|61190|M|47.51,40.76|Z|The Maw|NC|N|Take Ve'nari's Portal near you.|MS|
+T Wake of Ashes|QID|61190|M|46.88,41.65|Z|The Maw|N|To Ve'nari.|MS|
+A Maw Walker|QID|62654|M|46.88,41.65|Z|The Maw|N|From Ve'nari.|PRE|61190|MS|
+C Maw Walker|QID|62654|M|42.38,42.17|Z|The Maw|QO|1|NC|N|Attune to Alexandros and Darion at by clicking the blue thing near the waygate.|MS| ; new quest, not sure what the "thing" is.
+C Maw Walker|QID|62654|M|42.38,42.17|Z|The Maw|QO|2|NC|N|Click the waygate to escape the Maw and get teleported back to Oribos.|MS|
+T Maw Walker|QID|62654|M|40.08,68.41|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
+A A Soul Saved|QID|59974|M|39.60,68.00|Z|Ring of Fates@Oribos|N|From Baroness Draka.|PRE|62654|MS|
+
+; Theater of Pain Sidequest
 F Theater of Pain|QID|59974|M|60.58,68.12|Z|Ring of Fates@Oribos|
 A I Could Be A Contender|QID|62785|M|50.57,51.69|Z|Maldraxxus|N|From Anzio The Infallible.|
 T I Could Be A Contender|QID|62785|M|54.44,48.65|Z|Maldraxxus|N|To Louison.|
@@ -395,6 +410,8 @@ T A Sure Bet|QID|58900|M|50.53,51.67|Z|Maldraxxus|N|To Anzio The Infallible.|
 A The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|GROUP|5|N|From Anzio The Infallible.|
 C The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|N|From Anzio The Infallible.|
 T The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|N|From Anzio The Infallible.|
+
+; The Empty Throne Storyline
 F The Spearhead|QID|59974|M|49.92,53.20|Z|Maldraxxus|N|Wing Guard Alamar|
 T A Soul Saved|QID|59974|M|41.31,60.63|Z|Maldraxxus|N|To Alexandros Mograine.|
 A In Death We Are Truly Tested|QID|59011|M|41.33,60.62|Z|Maldraxxus|N|To Alexandros Mograine.|

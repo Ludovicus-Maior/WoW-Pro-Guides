@@ -58,6 +58,7 @@ N Leatherworking|ACTIVE|47099|M|75.46,12.62|Z|Boralus|N|Train BfA Leatherworking
 N Skinning|ACTIVE|47099|M|75.65,13.38|Z|Boralus|N|Train BfA skinning at Camilla Darksky.|P|Skinning;393|RECIPE|257152|;
 C Go to Snug Harbor Inn|QID|47099|QO|3|M|74.11,12.65|Z|Boralus|CHAT|N|The inn is back on the main walkway. Set your hearthstone here. (there is a portal to Stormwind nearby).|
 C Go to the Flightmaster|QID|47099|QO|4|M|70.36,16.71;66.96,14.99|CS|Z|Boralus|NC|N|Around the corner from the inn. Pick up the flight point.|
+f Tradewinds Market|QID|47099|M|70.36,16.71;66.96,14.99|CS|Z|Boralus|N|Grab the1 the flight point.|
 T Get Your Bearings|QID|47099|M|66.96,14.99|Z|Boralus|N|To Taelia. who is right beside you.|
 A The Old Knight|QID|46729|M|66.96,14.99|Z|Boralus|N|From Taelia.|PRE|47099|
 C The Old Knight|QID|46729|QO|1|M|68.01,21.91|CS|Z|Boralus|NC|N|Head down the stairs to the Harbor.|
