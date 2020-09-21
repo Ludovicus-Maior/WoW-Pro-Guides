@@ -305,11 +305,9 @@ T Tough Love|QID|57568|M|51.33,59.57|Z|Bastion|N|To Zosime.|
 
 ; Side Quest stuff - Pride or Unit
 T More Than A Gift|QID|62715|M|53.87,73.95|Z|Bastion|N|To Acolyte Amalthina
-C WANTED:Darkwing|QID|60366|M|56.20,47.99|Z|Bastion|N|[color=ff8000]Elite: [/color]Use the whistle at the nest.|U|178791|
 C WANTED: Gorgebeak|QID|60315|M|53.57,46.43|Z|Bastion|N|[color=ff8000]Elite: [/color]Kill Gorgebeak.|
 T WANTED: Gorgebeak|QID|60315|M|51.00,41.66|Z|Bastion|ELITE|N|To Gerdus.|
 T A Friendly Rivalry|QID|59674|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-
 A Phalynx Malfunction|QID|57931|M|54.81,41.19|Z|Bastion|N|From Pelodis.|PRE|59674|
 A Resource Drain|QID|57932|M|54.81,41.19|Z|Bastion|N|From Hopo.|PRE|59674|
 C Resource Drain|QID|57932|M|56.17,45.56|Z|Bastion|N|Use the item provided on Gilded Cloudstrider.|S|U|173691|
@@ -361,7 +359,9 @@ T Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion|N|To Nemea.|
 A With Lance and Larion|QID|58040|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58038&58039|
 A Providing for the Pack|QID|58041|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58038&58039|
 C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion|N|Kill Juvinile Cloudfeathers.|S|
+C WANTED:Darkwing|QID|60366|M|56.20,47.99|Z|Bastion|N|[color=ff8000]Elite: [/color]Use the whistle at the nest.|U|178791|S|
 C With Lance and Larion|QID|58040|M|55.93,47.21|Z|Bastion|N|Target Cloudfeather Greatwings and use the lance.|T|Cloudfeather Greatwing|U|173692|
+C WANTED:Darkwing|QID|60366|M|56.20,47.99|Z|Bastion|N|[color=ff8000]Elite: [/color]Use the whistle at the nest.|U|178791|US|
 C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion|N|Kill Juvinile Cloudfeathers.|US|
 T With Lance and Larion|QID|58040|M|57.26,39.24|Z|Bastion|N|To Nemea.|
 T Providing for the Pack|QID|58041|M|57.26,39.24|Z|Bastion|N|To Nemea.|
@@ -379,8 +379,9 @@ H Hero's Rest|QID|60366|U|6948
 T WANTED: Darkwing|QID|60366|M|52.43,48.00|Z|Bastion|ELITE|N|To Eumelia.|
 
 ; Your Personal Assistant Storyline continues
-A On Swift Wings|QID|59198|M|52.86,45.66|Z|Bastion|CHAT|N|Speak to Polemarch Adrestes.|PRE|59197|MS|
+A On Swift Wings|QID|59198|M|52.86,45.66|Z|Bastion|N|From Polemarch Adrestes.|PRE|59197|MS|
 C On Swift Wings|QID|59198|M|52.86,45.66|Z|Bastion|CHAT|N|Speak to Polemarch Adrestes for a ride to Elysian Hold.|MS|
+f Elysian Hold|ACTIVE|59198|M|51.16,74.78|Z|1707|N|At Cassius.|
 T On Swift Wings|QID|59198|M|55.49,42.17|Z|1707|N|To Polemarch Adrestes.|MS|
 A Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|N|From Polemarch Adrestes.|PRE|59198|MS|
 C Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|CHAT|N|Speak to Polemarch Adrestes.|MS|
@@ -442,6 +443,6 @@ C The Arbiter's Will|QID|61096|M|52.12,57.91|Z|1670|NC|N|Use the Teleport Pad.|M
 T The Arbiter's Will|QID|61096|M|60.78,36.83|Z|1670|N|To Overseer Kah-Sher.|MS|
 A A Land of Strife|QID|61107|M|61.03,36.71|Z|1670|N|From Tal-Inara.|PRE|61096|MS|
 C A Land of Strife|QID|61107|M|59.95,35.96|Z|1670|N|Click on the blue sword.|MS|
-T A Land of Strife|QID|61107|M|61.03,36.71|Z|1670|N|To Tal-Inara.|MS|
+T A Land of Strife|QID|61107|M|61.03,36.71|Z|1670|N|To Overseer Kah-Sher.|MS|
 ]]
 end)
