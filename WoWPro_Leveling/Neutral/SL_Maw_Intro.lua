@@ -134,6 +134,7 @@ A Understanding the Shadowlands|QID|60154|M|40.30,64.97|Z|1670|N|From Highlord B
 C Understanding the Shadowlands|QID|60154|M|40.59,66.13|Z|1670|QO|1|CHAT|N|Speak to Tal-Inara.|
 C Understanding the Shadowlands|QID|60154|M|40.59,66.13|Z|1670|QO|2|CHAT|N|Speak to Kah-Sher.|
 C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|1670|QO|3|NC|N|Take the Transport Pad to the Ring of Transference.|
+f Oribos|QID|60154|M|60.56,68.19|N|From Pathscribe Roh-Avonavi.|
 T Understanding the Shadowlands|QID|60154|M|50.59,62.23|Z|1670||N|To Overseer Kah-Sher.|
 A The Path to Bastion|QID|60156|M|50.73,62.87|Z|1670|N|From Overseer Kah-Sher.|PRE|60154|
 C The Path to Bastion|QID|60156|M|40.59,66.13|Z|1670|QO|1|N|Follow Kah-Sher to the gate.|
