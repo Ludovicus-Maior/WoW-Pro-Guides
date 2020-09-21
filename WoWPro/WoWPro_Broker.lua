@@ -1434,12 +1434,13 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 elseif WoWPro.prereq[guideIndex]:find("^",1,true) then
                     -- Any prereq met is OK, skip only if none are met
                     local numprereqs = select("#", ("^"):split(WoWPro.prereq[guideIndex]))
+                    -- WoWPro:dbp("NextStep:PRE^: %d on %s", numprereqs, WoWPro.prereq[guideIndex])
                     local totalFailure = true
                     for j=1,numprereqs do
                         local jprereq = select(numprereqs-j+1, ("^"):split(WoWPro.prereq[guideIndex]))
                         if WoWPro:IsQuestFlaggedCompleted(jprereq, true) then
                             totalFailure = false -- If one of the prereqs is complete, step is not skipped.
-                            WoWPro:dbp("NextStep:PRE(%d): QID is completed, not skipping",guideIndex, jprereq)
+                            WoWPro:dbp("NextStep:PRE^(%d): QID is completed, not skipping",guideIndex, jprereq)
                         end
                     end
                     if totalFailure then
@@ -1448,12 +1449,13 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     end
                 else
                     -- All prereq met must be met
-                    local numprereqs = select("#", ("&"):split(WoWPro.prereq[guideIndex],1,true))
+                    local numprereqs = select("#", ("&"):split(WoWPro.prereq[guideIndex]))
+                    -- WoWPro:dbp("NextStep:PRE&: %d on %s", numprereqs, WoWPro.prereq[guideIndex])
                     for j=1,numprereqs do
                         local jprereq = select(numprereqs-j+1, ("&"):split(WoWPro.prereq[guideIndex]))
                         if not WoWPro:IsQuestFlaggedCompleted(jprereq, true) then
                             skip = true -- If one of the prereqs is NOT complete, step is skipped.
-                            WoWPro.why[guideIndex] = ("NextStep:PRE(%d): A mandatory prereq was not met: %s"):format(guideIndex, tostring(jprereq))
+                            WoWPro.why[guideIndex] = ("NextStep:PRE&(%d): A mandatory prereq was not met: %s"):format(guideIndex, tostring(jprereq))
                             WoWPro:dbp(WoWPro.why[guideIndex])
                             break
                         end
