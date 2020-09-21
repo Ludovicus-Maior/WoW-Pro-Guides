@@ -173,16 +173,13 @@ l Krasus' Compendium - Chapter 1|QID|10192|QO|1|M|58.62,89.18|N|Enter the house 
 l Krasus' Compendium - Chapter 3|QID|10192|QO|3|M|58.84,87.90|N|Enter the house and get the Krasus' Compendium - Chapter 3 off the broken table.|
 T Krasus' Compendium|QID|10192|U|28455|M|58.85,87.89|N|To Image of Archmage Vargoth.|
 A Unlocking the Compendium|QID|10301|PRE|10192|U|28455|M|58.85,87.89|N|From Image of Archmage Vargoth.|
-l Cohlien's Cap|QID|10307|QO|1|T|Cohlien Frostweaver|M|59.82,87.44|N|Find and kill Cohlien Frostweaver, then loot his cap.|
+l Cohlien's Cap|AVAILABLE|10307|L|29236|T|Cohlien Frostweaver|M|59.82,87.44|N|Find and kill Cohlien Frostweaver, then loot his cap.|
 A Cohlien Frostweaver|QID|10307|U|29236|M|59.82,87.44|N|From Cohlien's Cap.|
-l Dathric's Blade|QID|10182|QO|1|M|60.47,87.8|N|Head inside, kill and loot Battle-Mage Dathric.|
-A Battle-Mage Dathric|QID|10182|U|29233|M|60.47,87.80|N|From Dathric's Blade.|
-l Luminrath's Mantle|QID|10306|QO|1|T|Conjurer Luminrath|M|59.96,85.41|N|Find Conjurer Luminrath, kill then loot his mantle.|
+l Luminrath's Mantle|AVAILABLE|10306|L|29235|T|Conjurer Luminrath|M|59.96,85.41|N|Find Conjurer Luminrath, kill then loot his mantle.|
 A Conjurer Luminrath|QID|10306|M|59.96,85.41|N|From Luminrath's Mantle.|U|29235|
 C Indispensable Tools|QID|10331|M|61.02,85.04|N|Kill Kirin'Var Apprentices until the Smithing Hammer drops.|
 U Activate Eastern Rune|QID|10240|U|28725|QO|1|M|59.23,85.35|N|Use the Rune Activation Device at the Eastern Kirin'Var Rune.|; Activate Eastern Rune: 1/1
 C Malevolent Remnants|QID|10184|US|M|59.76,85.15|N|Kill Severed Spirits and Defenders until you complete this quest.|
-C Battle-Mage Dathric|QID|10182|U|28351|M|56.87,86.84|N|Go inside the house and use Dathric's Blade next to the weapons rack.|
 C Conjurer Luminrath|QID|10306|U|28352|M|56.37,87.75|N|Stand next to the dresser and use Luminrath's Mantle.|
 C Cohlien Frostweaver|QID|10307|U|28353|M|55.10,87.55|N|Stand next to the footlocker and use Cohlien's Cap.|
 U Activate Western Rune|QID|10240|U|28725|QO|3|M|54.29,86.08|N|Use the Rune Activation Device at the Western Kirin'Var Rune.|; Activate Western Rune: 1/1
@@ -193,13 +190,16 @@ T Malevolent Remnants|QID|10184|M|57.53,86.27|N|To Custodian Dieworth.|
 A The Annals of Kirin'Var|QID|10312|PRE|10184|M|57.53,86.27|N|From Custodian Dieworth.|
 T Cohlien Frostweaver|QID|10307|M|57.53,86.27|N|To Custodian Dieworth.|
 T Conjurer Luminrath|QID|10306|M|57.53,86.27|N|To Custodian Dieworth.|
-T Battle-Mage Dathric|QID|10182|M|57.53,86.27|N|To Custodian Dieworth.|
 T Building a Perimeter|QID|10240|M|57.53,86.27|N|To Lieutenant-Sorcerer Morran.|
 A Torching Sunfury Hold|QID|10233|M|57.56,86.30|N|From Lieutenant-Sorcerer Morran.|
 C The Annals of Kirin'Var|QID|10312|M|60.56,87.62|N|Head inside the building, kill and loot Battle-Mage Dathric.|
+l Dathric's Blade|AVAILABLE|10182|L|29233|M|60.47,87.8|N|Head inside, kill and loot Battle-Mage Dathric.|
+A Battle-Mage Dathric|QID|10182|U|29233|M|60.47,87.80|N|From Dathric's Blade.|
 C Master Smith Rhonsus|QID|10332|M|61.24,85.02|N|Head to the forge area and kill Rhonsus.|
+C Battle-Mage Dathric|QID|10182|U|28351|M|56.87,86.84|N|Go inside the house and use Dathric's Blade next to the weapons rack.|
 T Master Smith Rhonsus|QID|10332|M|57.66,85.17|N|To Apprentice Andrethan.|
 T The Annals of Kirin'Var|QID|10312|M|57.53,86.26|N|To Custodian Dieworth.|
+T Battle-Mage Dathric|QID|10182|M|57.53,86.27|N|To Custodian Dieworth.|
 A Searching for Evidence|QID|10316|PRE|10312|M|57.53,86.26|N|From Custodian Dieworth.|
 C The Sunfury Garrison|QID|10222|S|M|55.95,79.71|N|Kill any Sunfury Archer you see.|
 l Flaming Torch|QID|10233|L|28550|M|55.97,80.21|N|Find a Sunfury Flamekeeper, kill it and loot the Flaming Torch off of it. Usually wanders around the tent building, or there is one inside of it.|
