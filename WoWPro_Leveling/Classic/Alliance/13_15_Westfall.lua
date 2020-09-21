@@ -13,49 +13,45 @@ N This may be a tough solo|AVAILABLE|36|N|If your having difficulties, you may w
 A The Forgotten Heirloom|QID|64|M|56.04,31.24|N|From Farmer Furlbrow.|
 A Westfall Stew |QID|36|M|59.92,19.41|N|From Verna Furlbrow.|
 A Poor Old Blanchy|QID|151|M|59.92,19.41|N|From Verna Furlbrow.|
-C Poor Old Blanchy|ACTIVE|151|L|1528 8|N|From now on, loot any Sacks of Oats from the ground|S!US|
+C Poor Old Blanchy|ACTIVE|151|L|1528 8|N|From now on, loot any Sacks of Oats from the ground|S|
 R Saldean's Farm|AVAILABLE|9|ACTIVE|36|N|Run to Saldean's Farm.|
-A The Killing Fields|QID|9|M|56.0,31.2|N|From Farmer Saldean. Note, he is also a vendor.|
-T Westfall Stew |QID|36|M|56.4,30.5|N|To Salma Saldean.|
-A Westfall Stew |QID|38|PRE|36|M|56.4,30.5|N|From Salma Saldean.|
-A Goretusk Liver Pie|QID|22|M|56.4,30.5|N|From Salma Saldean.|
+A The Killing Fields|QID|9|M|56.04,31.23|N|From Farmer Saldean. Note, he is also a vendor.|
+T Westfall Stew |QID|36|M|56.41,30.52|N|To Salma Saldean.|
+A Westfall Stew |QID|38|M|56.41,30.52|N|From Salma Saldean.|PRE|36|
+A Goretusk Liver Pie|QID|22|M|56.41,30.52|N|From Salma Saldean.|
 C Goretusk Liver Pie|QID|22|L|723 8|N|From now on, kill Goretusks.|S!US|
-C Westfall Stew |QID|38|QO|1;3;4|N|Kill Vultures, Harvest Watchers, and Goretusks.|S!US|
+C Westfall Stew |QID|38|QO|1;3;4|N|Kill Vultures, Harvest Watchers/Golems, and Goretusks.|S!US|
 C The Killing Fields|QID|9|M|55.00,33.20|QO|1|N|Kill Harvest Watchers until you finish this quest.|S|
-C Flask of Oil|AVAILABLE|103|L|814 5|N|Kill Harvest Watchers to collect Flask of Oil. Save the oil for later.|S!US|
+C Flask of Oil|AVAILABLE|103|L|814 5|N|Kill Harvest Watchers or Rusty Harvest Golems to collect 3 Flasks of Oil. Save the oil for later.|S!US|
 C Hops|AVAILABLE|117|L|1274 5|N|Kill Harvest Watchers to collect Hops. Save the hops for later.|S!US|
 ;--------------------new content---------------------------
+N Bag space|ACTIVE|22^38|N|There are a number of collection quests in this zone. You will need a minimum of 9 empty spaces to carry everything.|
 A Red Leather Bandanas|QID|153|M|53.98,52.99|N|From Scout Galiaan.|
-C Red Leather Bandanas|QID|153|M|44.00,25.00|QO|1<8|N|Kill defias mobs until you get half the items for this quest.|S|
+C Red Leather Bandanas|QID|153|M|44.00,25.00|QO|1<8|N|Kill defias mobs until you get half the items for this quest.|S!US|
+T Report to Gryan Stoutmantle|QID|109|M|56.33,47.52|N|To Gryan Stoutmantle.|
+A The People's Militia |QID|12|M|56.33,47.52|N|From Gryan Stoutmantle.|
+C The People's Militia|QID|12|QO|1;2|N|Kill defias mobs until you finish this quest.|S!US|
+A Patrolling Westfall|QID|102|M|56.42,47.61|N|From Captain Danuvin.|
+C Patrolling Westfall|QID|102|M|36.00,29.00|L|725 8|N|Kill Gnolls until you get the items for this quest.|S|
 T Return to Lewis|QID|6285|M|57.02,47.16|N|To Quartermaster Lewis.|
 
 C The Forgotten Heirloom|QID|64|M|49.00,19.00|L|841|N|Loot the watch from the cupboard in the house.|
-C Poor Old Blanchy|QID|151|L|1528 8|N|Loot the rest of the oats for this quest. They may be far from this point in neighboring farms.|
+C Poor Old Blanchy|QID|151|L|1528 8|N|Loot the rest of the oats for this quest. They may be far from this point in neighboring farms.|US|
 T Poor Old Blanchy|QID|151|M|59.92,19.41|N|To Verna Furlbrow.|
 T The Forgotten Heirloom|QID|64|M|59.92,19.41|N|To Farmer Furlbrow.|
-C The Killing Fields|QID|9|M|55.00,33.20|N|Kill Harvest Watchers until you finish this quest.|US|
+C The Killing Fields|QID|9|M|52.89,21.41;52.69,29.19;47.70,34.92;39.02,47.01|Z|Westfall|CC|QO|1|N|Finish killing the Harvest Watchers. There should be a group of them at each coordinate.|US|
+R Patrolling Westfall|ACTIVE|102|M|40.26,31.51|CC|N|Make your way to this area.|
+C Patrolling Westfall|QID|102|L|725 8|N|Finish collecting your Gnoll paws.|US|
 
-T Report to Gryan Stoutmantle|QID|109|M|56.3,47.5|N|To Gryan Stoutmantle.|
-A The People's Militia |QID|12|M|56.3,47.5|N|From Gryan Stoutmantle.|
 
-A Patrolling Westfall|QID|102|M|56.4,47.6|N|From Captain Danuvin.|
-
-C Patrolling Westfall|QID|102|N|Add Gnolls to your kill list.|S!US|
-C The People's Militia|QID|12|M|44.00,25.00;47,40;49,47|CN|N|Kill defias mobs until you finish this quest.|
-C Red Leather Bandanas|QID|153|M|44.00,25.00|QO|1>8|N|Kill defias mobs until you get half the items for this quest.|
-C Murloc Eye|QID|38|M|34.00,21.00|QO|2|N|Kill murlocs until you get 3 Murloc Eyes.|
-C Patrolling Westfall|QID|102|M|36.00,29.00|N|Kill Gnolls until you get the items for this quest.|
-
-T The Killing Fields|QID|9|M|56.0,31.2|N|To Farmer Saldean.|
-T Westfall Stew |QID|38|M|56.4,30.5|N|To Salma Saldean.|
-T Goretusk Liver Pie|QID|22|M|56.4,30.5|N|To Salma Saldean.|
-
-T The People's Militia |QID|12|M|56.3,47.5|N|To Gryan Stoutmantle.|
-A The People's Militia |QID|13|PRE|12|M|56.3,47.5|N|From Gryan Stoutmantle.|
-
-T Patrolling Westfall|QID|102|M|56.4,47.6|N|To Captain Danuvin.|
+T The Killing Fields|QID|9|M|56.04,31.23|N|To Farmer Saldean.|
+T Westfall Stew |QID|38|M|56.41,30.52|N|To Salma Saldean.|
+T Goretusk Liver Pie|QID|22|M|56.41,30.52|N|To Salma Saldean.|
+T The People's Militia |QID|12|M|56.33,47.52|N|To Gryan Stoutmantle.|
+A The People's Militia |QID|13|PRE|12|M|56.33,47.52|N|From Gryan Stoutmantle.|
+T Patrolling Westfall|QID|102|M|56.42,47.61|N|To Captain Danuvin.|
 L Level Check|ACTIVE|15|LVL|15|N|You should be level 15 by this time, grind on the Defias mobs until you are.|
-A The Defias Brotherhood |QID|65|M|56.3,47.5|N|From Gryan Stoutmantle.|
+A The Defias Brotherhood |QID|65|M|56.33,47.52|N|From Gryan Stoutmantle.|
 F Lakeshire|ACTIVE|65|M|56.55,52.65|N|Fly to Lakeshire at Thor.|TAXI|Lakeshire|
 F Stormwind|ACTIVE|65|M|56.55,52.65|TZ|Stormwind City|N|Fly to Stormwind City at Thor.|TAXI|-Lakeshire|
 
