@@ -32,7 +32,7 @@ N Treasure Map|L|1357|S!US|ACTIVE|152|N|Kill murlocs as you head north up the co
 C The Coast Isn't Clear|QID|152|QO|3|M|35.8,85.8|Z|Westfall|N|Tidehunters are near Murk-Eye, watch out for his re-spawn.|
 C The Coast Isn't Clear|QID|152|QO|4|M|27.6,74.4|Z|Westfall|N|Oracles are north of Murk-Eye, watch out for his re-spawn.|
 C The Coast Isn't Clear|QID|152|QO|2|M|29.8,31.8|Z|Westfall|N|Warriors are on the west coast of Westfall.|
-C The Coast Isn't Clear|QID|152|QO|1|mM|48.0,10.0|Z|Westfall|N|Coastrunners are north of Jangolode mine.|
+C The Coast Isn't Clear|QID|152|QO|1|M|48.0,10.0|Z|Westfall|N|Coastrunners are north of Jangolode mine.|
 
 A Captain Sander's Hidden Treasure|QID|136|U|1357|N|Start the quest from the map you looted.|
 T Captain Sander's Hidden Treasure|M|25.91,47.77|QID|136|N|To Captain Sander's Foot Locker, on the beach guarded by murlocs.|
