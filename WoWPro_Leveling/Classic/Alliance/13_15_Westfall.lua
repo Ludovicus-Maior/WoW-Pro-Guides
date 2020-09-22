@@ -46,20 +46,19 @@ R Jangolode Mine|ACTIVE|12|M|43.55,27.13|N|Head to the Jangolode Mine entrance.|
 C The People's Militia|QID|12|QO|1;2|N|Finish killing Defias Trappers and Smugglers until you're finished.\nWatch out for the runners.|US|
 C Goretusk Liver Pie|QID|22|L|723 8|N|Finish collecting your Goretusk Livers.|US|
 
+L Level 15|ACTIVE|15|N|You should be level 15 by this time, grind until you are.|LVL|14;-3850|
 T The Killing Fields|QID|9|M|56.04,31.23|N|To Farmer Saldean.|
 t Westfall Stew |QID|38|M|56.41,30.52|N|To Salma Saldean.|
 T Goretusk Liver Pie|QID|22|M|56.41,30.52|N|To Salma Saldean.|
 T The People's Militia |QID|12|M|56.33,47.52|N|To Gryan Stoutmantle.|
-A The People's Militia |QID|13|PRE|12|M|56.33,47.52|N|From Gryan Stoutmantle.|
-T Patrolling Westfall|QID|102|M|56.42,47.61|N|To Captain Danuvin.|
-L Level Check|ACTIVE|15|LVL|15|N|You should be level 15 by this time, grind on the Defias mobs until you are.|
+A The People's Militia |QID|13|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|12|
 A The Defias Brotherhood |QID|65|M|56.33,47.52|N|From Gryan Stoutmantle.|
+T Patrolling Westfall|QID|102|M|56.42,47.61|N|To Captain Danuvin.|
+t Red Leather Bandanas|QID|153|M|53.98,52.99|N|To Scout Galiaan.|
 F Lakeshire|ACTIVE|65|M|56.55,52.65|N|Fly to Lakeshire at Thor.|TAXI|Lakeshire|
 F Stormwind|ACTIVE|65|M|56.55,52.65|TZ|Stormwind City|N|Fly to Stormwind City at Thor.|TAXI|-Lakeshire|
 
-r Sell, repair, restock, train skills|N|Sell junk, repair, restock, train skills|
-
-;remainder only applies if coming from 1-12 dunMorough/13-14 Loch Modan
+; The following only applies if coming from 1-12 Dun Morogh or 13-14 Loch Modan
 T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
 A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|Stormwind City|N|From Osric Strang.|PRE|6281|
 R Goldshire|AVAILABLE|244|M|32.00,49.25;41.2,62.0|CS|N|Head back to Goldshire in Elwynn Forest. You can jump down from the flight point into the water.|
