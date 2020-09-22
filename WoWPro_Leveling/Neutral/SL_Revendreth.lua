@@ -35,7 +35,7 @@ T Bottom Feeders|QID|56829|M|65.2,66.2|Z|Revendreth|N|To Rendle.|
 A The Greatest Duelist|QID|57381|M|65.6,64.6|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|
 C The Greatest Duelist|QID|57381|M|64.2,65|Z|Revendreth|N|Release Nadjia the Mistblade.|
 C The Greatest Duelist 1|QID|57381|M|64.2,65|Z|Revendreth|QO|1|N|Release Nadjia the Mistblade.|
-C The Greatest Duelist 2|QID|57381|M|66.2,62.2|Z|Revendreth|QO|2|N|<span>Pique Nadjia's Interest.|
+C The Greatest Duelist 2|QID|57381|M|66.2,62.2|Z|Revendreth|QO|2|N|Pique Nadjia's Interest.|
 C The Greatest Duelist 3|QID|57381|M|65.4,59|Z|Revendreth|QO|3|N|Devourer Mite slain.|
 C The Greatest Duelist 4|QID|57381|M|65.4,59.2|Z|Revendreth|QO|4|N|Dread Gorger slain.|
 C The Greatest Duelist 5|QID|57381|M|63.8,66|Z|Revendreth|QO|5|N|Manifestation of Rage slain.|
@@ -52,7 +52,7 @@ T On The Road Again|QID|56942|M|69,81.8|Z|Revendreth|N|To Lord Chamberlain.|
 
 A Rebels on the Road|QID|56955|M|69,81.8|Z|Revendreth|N|From Lord Chamberlain.|LVL|57|PRE|56942|
 C Rebels on the Road|QID|56955|M|66.4,64.4|Z|Revendreth|N|Unknown.|
-C Rebels on the Road 1|QID|56955|M|66.4,64.4|Z|Revendreth|QO|1|N|<table class="iconlist"> <tr><th><ul><li><var></var></li></ul></th><td>Stoneborn Rebel.|
+C Rebels on the Road 1|QID|56955|M|66.4,64.4|Z|Revendreth|QO|1|N|Stoneborn Rebel.|
 C Rebels on the Road 2|QID|56955|M|67.4,65|Z|Revendreth|QO|2|N|Stoneborn Rebel.|
 T Rebels on the Road|QID|56955|M|69,81.8|Z|Revendreth|N|To Lord Chamberlain.|
 
@@ -104,8 +104,8 @@ T The Authority of Revendreth|QID|57179|M|57.4,49.6|Z|Revendreth|N|To Sire Denat
 ; The Accuser Storyline
 A I Don't Get My Hands Dirty|QID|57161|M|58,49.4|Z|Revendreth|N|From Lord Chamberlain.|LVL|57|
 C I Don't Get My Hands Dirty|QID|57161|M|61.8,49.4|Z|Revendreth|N|Unknown.|
-C I Don't Get My Hands Dirty 1|QID|57161|M|61.8,49.4|Z|Revendreth|QO|1|N|<span>Clear Penance Bridge.|
-C I Don't Get My Hands Dirty 2|QID|57161|M|58.8,48.4|Z|Revendreth|QO|2|N|<table class="iconlist"> <tr><th><ul><li><var></var></li></ul></th><td>Kill Credit: Normal Monster.|
+C I Don't Get My Hands Dirty 1|QID|57161|M|61.8,49.4|Z|Revendreth|QO|1|N|Clear Penance Bridge.|
+C I Don't Get My Hands Dirty 2|QID|57161|M|58.8,48.4|Z|Revendreth|QO|2|N|Kill Credit: Normal Monster.|
 C I Don't Get My Hands Dirty 3|QID|57161|M|59.2,50.6|Z|Revendreth|QO|3|N|Avowed Tormentor.|
 C I Don't Get My Hands Dirty 4|QID|57161|M|58.8,53.8|Z|Revendreth|QO|4|N|Avowed Absolutist.|
 T I Don't Get My Hands Dirty|QID|57161|M|64.6,50|Z|Revendreth|N|To Echelon.|
@@ -230,7 +230,7 @@ T The Penitent Hunt|QID|57136|N|Unknown.|
 
 A Devour This|QID|57164|M|47.8,70|Z|Revendreth|N|From The Fearstalker.|LVL|58|
 C Devour This|QID|57164|M|42.8,68.2|Z|Revendreth|N|Unknown.|
-C Devour This 1|QID|57164|M|42.8,68.2|Z|Revendreth|QO|1|N|<table class="iconlist"> <tr><th><ul><li><var></var></li></ul></th><td>Ravenous Thirstlurker.|
+C Devour This 1|QID|57164|M|42.8,68.2|Z|Revendreth|QO|1|N|Ravenous Thirstlurker.|
 C Devour This 2|QID|57164|Z|Revendreth|QO|2|N|Ruinous Worldeater.|
 C Devour This 3|QID|57164|Z|Revendreth|QO|3|N|Disturbed Mite.|
 T Devour This|QID|57164|N|Unknown.|
@@ -241,14 +241,14 @@ C The Accuser 1|QID|60506|QO|1|N|[HIDDEN] Mirror Impact.|
 C The Accuser 2|QID|60506|QO|2|N|[HIDDEN] Door of Shadows Received.|
 C The Accuser 3|QID|60506|QO|3|N|The Accuser hunted.|
 C The Accuser 4|QID|60506|QO|4|N|The Accuser confronted.|
-C The Accuser 5|QID|60506|QO|5|N|<span>Cast Door of Shadows to cross the barrier.|
+C The Accuser 5|QID|60506|QO|5|N|Cast Door of Shadows to cross the barrier.|
 T The Accuser|QID|60506|M|51.6,59.2|Z|Revendreth|N|To The Accuser.|
 
 A A Reflection of Truth|QID|57159|M|51.6,59.2|Z|Revendreth|N|From The Accuser.|LVL|58|
 C A Reflection of Truth|QID|57159|Z|Revendreth|N|Follow the Accuser through the mirror and witness the truth of Revendreth.|
 C A Reflection of Truth 1|QID|57159|Z|Revendreth|QO|1|N|Mirror entered.|
 C A Reflection of Truth 2|QID|57159|Z|Revendreth|QO|2|N|Truth witnessed.|
-C A Reflection of Truth 3|QID|57159|Z|Revendreth|QO|3|N|<span>The Accuser protected.|
+C A Reflection of Truth 3|QID|57159|Z|Revendreth|QO|3|N|The Accuser protected.|
 C A Reflection of Truth 4|QID|57159|Z|Revendreth|QO|4|N|Crimson Protector slain.|
 C A Reflection of Truth 5|QID|57159|Z|Revendreth|QO|5|N|Crimson Assassin slain.|
 C A Reflection of Truth 6|QID|57159|Z|Revendreth|QO|6|N|Crimson Animafiend slain.|
@@ -317,7 +317,7 @@ T My Terrible Morning|QID|57426|N|Unknown.|
 
 A Unbearable Light|QID|57427|M|38,60.6|Z|Revendreth|N|From Theotar.|LVL|58|
 C Unbearable Light|QID|57427|M|22.2,53.4|Z|Revendreth|N|Unknown.|
-C Unbearable Light 1|QID|57427|M|22.2,53.4|Z|Revendreth|QO|1|N|<table class="iconlist"> <tr><th><ul><li><var></var></li></ul></th><td>Blistering Ash Ghoul.|
+C Unbearable Light 1|QID|57427|M|22.2,53.4|Z|Revendreth|QO|1|N|Blistering Ash Ghoul.|
 C Unbearable Light 2|QID|57427|M|33.6,55.4|Z|Revendreth|QO|2|N|Kill Credit: Desiccation Ash Ghoul.|
 C Unbearable Light 3|QID|57427|M|30.4,56.2|Z|Revendreth|QO|3|N|Blistering Ash Ghoul.|
 T Unbearable Light|QID|57427|N|Unknown.|
@@ -360,8 +360,8 @@ T Into the Light|QID|60566|M|30.4,45.6|Z|Revendreth|N|To Breakfist.|
 
 A Securing Sinfall|QID|57724|M|30.4,45.6|Z|Revendreth|N|From Breakfist.|LVL|58|
 C Securing Sinfall|QID|57724|M|29,42.8|Z|Revendreth|N|Unknown.|
-C Securing Sinfall 1|QID|57724|M|29,42.8|Z|Revendreth|QO|1|N|<span>Sinfall cleared out.|
-C Securing Sinfall 2|QID|57724|M|28,41.4|Z|Revendreth|QO|2|N|<table class="iconlist"> <tr><th><ul><li><var></var></li></ul></th><td>Lingering Monitor.|
+C Securing Sinfall 1|QID|57724|M|29,42.8|Z|Revendreth|QO|1|N|Sinfall cleared out.|
+C Securing Sinfall 2|QID|57724|M|28,41.4|Z|Revendreth|QO|2|N|Lingering Monitor.|
 C Securing Sinfall 3|QID|57724|M|27.8,43.6|Z|Revendreth|QO|3|N|Lingering Monitor.|
 C Securing Sinfall 4|QID|57724|M|27.6,41.2|Z|Revendreth|QO|4|N|Kill Credit: Monster Minus.|
 T Securing Sinfall|QID|57724|M|29.8,42.4|Z|Revendreth|N|To Theotar.|
@@ -483,7 +483,7 @@ T Comfortably Numb|QID|59716|M|60,69|Z|Revendreth|N|To Nadjia the Mistblade.|
 
 A The Field of Honor|QID|59724|M|60,69|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|
 C The Field of Honor|QID|59724|M|60,79.4|Z|Revendreth|N|Unknown.|
-C The Field of Honor 1|QID|59724|M|60,79.4|Z|Revendreth|QO|1|N|<table class="iconlist"> <tr><th><ul><li><var></var></li></ul></th><td>Bladewing Guard.|
+C The Field of Honor 1|QID|59724|M|60,79.4|Z|Revendreth|QO|1|N|Bladewing Guard.|
 C The Field of Honor 2|QID|59724|M|57.4,74.2|Z|Revendreth|QO|2|N|Briarbane Footman.|
 C The Field of Honor 3|QID|59724|M|57.2,74.8|Z|Revendreth|QO|3|N|Briarbane Arbalest.|
 T The Field of Honor|QID|59724|M|60.2,78.6|Z|Revendreth|N|To Nadjia the Mistblade.|
@@ -516,7 +516,7 @@ T Offer of Freedom|QID|59868|M|60.2,78.6|Z|Revendreth|N|To Nadjia the Mistblade.
 ; Sidequest Storyline -Tithes of Darkhaven
 A Bring Out Your Tithe|QID|60176|M|61.4,63.8|Z|Revendreth|N|From Mistress Mihaela.|LVL|57|
 C Bring Out Your Tithe|QID|60176|Z|Revendreth|N|Unknown.|
-C Bring Out Your Tithe 1|QID|60176|Z|Revendreth|QO|1|N|<span>Tithe anima collected.|
+C Bring Out Your Tithe 1|QID|60176|Z|Revendreth|QO|1|N|Tithe anima collected.|
 C Bring Out Your Tithe 2|QID|60176|Z|Revendreth|QO|2|N|Gossip Drains Soul.|
 C Bring Out Your Tithe 3|QID|60176|Z|Revendreth|QO|3|N|Gossip Donates.|
 C Bring Out Your Tithe 4|QID|60176|Z|Revendreth|QO|4|N|Gossip Double Interaction.|
@@ -565,7 +565,7 @@ T We're Gonna Need a Bigger Dredger|QID|57477|M|72.8,73.8|Z|Revendreth|N|To Boot
 A Running a Muck|QID|57481|M|72.8,73.8|Z|Revendreth|N|From Bootus.|LVL|57|
 C Running a Muck|QID|57481|M|72.8,73.8|Z|Revendreth|N|Unknown.|
 C Running a Muck 1|QID|57481|M|72.8,73.8|Z|Revendreth|QO|1|N|Bootus boarded.|
-C Running a Muck 2|QID|57481|M|75.4,77.2|Z|Revendreth|QO|2|N|<table class="iconlist"> <tr><th><ul><li><var></var></li></ul></th><td>Rampaging Devourer.|
+C Running a Muck 2|QID|57481|M|75.4,77.2|Z|Revendreth|QO|2|N|Rampaging Devourer.|
 C Running a Muck 3|QID|57481|M|72.4,74.8|Z|Revendreth|QO|3|N|Rampaging Mite.|
 T Running a Muck|QID|57481|M|72.6,73.2|Z|Revendreth|N|To Rendle.|
 
@@ -634,7 +634,7 @@ T Hunting an Inquisitor|QID|57929|M|73,52|Z|Revendreth|N|To Archivist Fane.|
 A Halls of Atonement: Your Absolution|QID|58092|M|73,52|Z|Revendreth|ELITE|N|[color=e6cc80]Dungeon: [/color]\nFrom Archivist Fane.|LVL|57|
 C Halls of Atonement: Your Absolution|QID|58092|M|14.2,48.7|Z|Halls of Atonement|N|Unknown.|
 C Halls of Atonement: Your Absolution 1|QID|58092|M|14.2,48.7|Z|Halls of Atonement|QO|1|N|Lord Chamberlain slain.|
-C Halls of Atonement: Your Absolution 2|QID|58092|Z|Halls of Atonement|QO|2|N|<span>Suggested players: 5.|
+C Halls of Atonement: Your Absolution 2|QID|58092|Z|Halls of Atonement|QO|2|N|Suggested players: 5.|
 T Halls of Atonement: Your Absolution|QID|58092|M|71.8,40.4|Z|Revendreth|N|To Gresit.|
 
 A Missing Stone Fiend|QID|60127|M|73,52|Z|Revendreth|N|From Archivist Fane.|LVL|57|
@@ -681,7 +681,7 @@ T Light Punishment|QID|57533|M|24.2,49.4|Z|Revendreth|N|To Simone.|
 
 A When Only Ash Remains|QID|57534|M|24.2,49.4|Z|Revendreth|N|From Laurent.|LVL|58|
 C When Only Ash Remains|QID|57534|M|21.2,48|Z|Revendreth|N|Unknown.|
-C When Only Ash Remains 1|QID|57534|M|21.2,48|Z|Revendreth|QO|1|N|<table class="iconlist"> <tr><th><ul><li><var></var></li></ul></th><td>Ashen Ravager.|
+C When Only Ash Remains 1|QID|57534|M|21.2,48|Z|Revendreth|QO|1|N|Ashen Ravager.|
 C When Only Ash Remains 2|QID|57534|M|21.4,49.2|Z|Revendreth|QO|2|N|Ashen Ravager.|
 T When Only Ash Remains|QID|57534|M|24.2,49.4|Z|Revendreth|N|To Laurent.|
 
@@ -694,7 +694,7 @@ A Mirror Making, Not Breaking|QID|57536|M|24.2,49.4|Z|Revendreth|N|From Laurent.
 C Mirror Making, Not Breaking|QID|57536|M|24.6,50.4|Z|Revendreth|N|Unknown.|
 C Mirror Making, Not Breaking 1|QID|57536|M|24.6,50.4|Z|Revendreth|QO|1|N|Follow Laurent and Simone.|
 C Mirror Making, Not Breaking 2|QID|57536|M|24.6,50.4|Z|Revendreth|QO|2|N|Speak to Laurent.|
-C Mirror Making, Not Breaking 3|QID|57536|M|24.2,49.4|Z|Revendreth|QO|3|N|<span>Laurent and Simone defended.|
+C Mirror Making, Not Breaking 3|QID|57536|M|24.2,49.4|Z|Revendreth|QO|3|N|Laurent and Simone defended.|
 C Mirror Making, Not Breaking 4|QID|57536|Z|Revendreth|QO|4|N|Fiendish Minion slain.|
 C Mirror Making, Not Breaking 5|QID|57536|Z|Revendreth|QO|5|N|Stone Legion Enforcer slain.|
 T Mirror Making, Not Breaking|QID|57536|M|24.8,50.2|Z|Revendreth|N|To Laurent.|
@@ -707,7 +707,7 @@ T Moving Mirrors|QID|57571|M|24.2,49.4|Z|Revendreth|N|To Simone.|
 
 A We Need More Power|QID|59427|M|24.2,49.4|Z|Revendreth|N|From Simone.|LVL|58|
 C We Need More Power|QID|59427|M|21.1,53.7|Z|Revendreth|N|Unknown.|
-C We Need More Power 1|QID|59427|M|21.1,53.7|Z|Revendreth|QO|1|N|<span>Anima collected.|
+C We Need More Power 1|QID|59427|M|21.1,53.7|Z|Revendreth|QO|1|N|Anima collected.|
 C We Need More Power 2|QID|59427|Z|Revendreth|QO|2|N|Anima Stores.|
 C We Need More Power 3|QID|59427|Z|Revendreth|QO|3|N|Anima Stores.|
 T We Need More Power|QID|59427|M|24.2,49.4|Z|Revendreth|N|To Simone.|
