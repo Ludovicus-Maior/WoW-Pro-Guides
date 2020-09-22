@@ -776,6 +776,38 @@ function WoWPro.TrashItem(use, step)
     end
 end
 
+-- Select a fashionable Hearthstone
+local Stones = {
+    [6948] = "Hearthstone",
+    [142298] = "Astonishingly Scarlet Slippers",
+    [28585] = "Ruby Slippers",
+    [166747] = "Brewfest Reveler's Hearthstone",
+    [93672] = "Dark Portal",
+    [172179] = "Eternal Traveler's Hearthstone",
+    [54452] = "Ethereal Portal",
+    [166746] = "Fire Eater's Hearthstone",
+    [162973] = "Greatfather Winter's Hearthstone",
+    [163045] = "Headless Horseman's Hearthstone",
+    [168907] = "Holographic Digitalization Hearthstone",
+    [165669] = "Lunar Elder's Hearthstone",
+    [182773] = "Necrolord Hearthstone",
+    [180290] = "Night Fae Hearthstone",
+    [165802] = "Noble Gardener's Hearthstone",
+    [165670] = "Peddlefeet's Lovely Hearthstone",
+    [64488] = "The Innkeeper's Daughter",
+    [183716] = "Venthyr Sinstone"
+}
+
+function WoWPro.SelectHearthstone()
+    local have={}
+    for id, nomen in pairs(Stones) do
+        if  _G.GetItemCount(id) > 0 then
+            tinsert(have, id)
+        end
+    end
+    return have[_G.math.random(#have)] or 6948
+end
+
 -- Row Content Update --
 function WoWPro:RowUpdate(offset)
     local GID = WoWProDB.char.currentguide
@@ -1005,7 +1037,7 @@ function WoWPro:RowUpdate(offset)
         WoWPro.RowDropdownMenu[i] = dropdown
 
         -- Item Button --
-        if action == "H" and not use then use = 6948 end
+        if action == "H" and not use then use = WoWPro.SelectHearthstone() end
 
         if action == "*" and use and _G.GetItemInfo(use) then
             currentRow.itembutton:Show()
