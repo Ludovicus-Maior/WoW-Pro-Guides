@@ -24,12 +24,12 @@ C Land of Opportunity|QID|57425|M|51.07,47.09|Z|Maldraxxus|N|High Champion Meska
 T Land of Opportunity|QID|57425|M|48.36,57.18|Z|Maldraxxus|N|To Baroness Draka.|MS|
 A Arms for the Poor|QID|57511|M|48.36,57.18|Z|Maldraxxus|N|From Unknown.|PRE|57425|MS|
 A Walk Among Death|QID|57512|M|48.35,57.25|Z|Maldraxxus|N|From Baroness Draka.|PRE|57425|MS|
-A Memory of Honor|QID|60179|M|48.36,57.78|Z|Maldraxxus|N|From Baroness Draka.|PRE|57425|MS|
+A Memory of Honor|QID|60179|M|48.36,57.78|Z|Maldraxxus|N|From Faded Epitaph.|PRE|57425|MS|
 C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Kill the Unbound Deathwalkers.|S|MS|
 C Arms for the Poor|QID|57511|M|45.61,59.89|Z|Maldraxxus|U|172020|NC|N|Click on weapons on the ground and give them to the Displaced Scavengers.|S|MS|
-C Memory of Honor|QID|60179|M|44.80 58.33|Z|Maldraxxus|QO|1<1|NC|N|Read the Faded Epitaphs off the headstones.|MS|
-C Memory of Honor|QID|60179|M|44.01 61.50|Z|Maldraxxus|QO|1<2|NC|N|Read the Faded Epitaphs off the headstones.|MS|
-C Memory of Honor|QID|60179|M|45.87 61.75|Z|Maldraxxus|QO|1<3|NC|N|Read the Faded Epitaphs off the headstones.|MS|
+C Memory of Honor|QID|60179|M|44.80,58.33|Z|Maldraxxus|QO|1<1|NC|N|Read the Faded Epitaphs off the headstones.|MS|
+C Memory of Honor|QID|60179|M|44.01,61.50|Z|Maldraxxus|QO|1<2|NC|N|Read the Faded Epitaphs off the headstones.|MS|
+C Memory of Honor|QID|60179|M|45.87,61.75|Z|Maldraxxus|QO|1<3|NC|N|Read the Faded Epitaphs off the headstones.|MS|
 C Arms for the Poor|QID|57511|M|45.61,59.89|Z|Maldraxxus|U|172020|NC|N|Click on weapons on the ground and give them to the Displaced Scavengers.|US|MS|
 C Walk Among Death|QID|57512|M|46.28,57.95|Z|Maldraxxus|N|Kill the Unbound Deathwalkers.|US|MS|
 T Arms for the Poor|QID|57511|M|PLAYER|Z|Maldraxxus|N|To Baroness Draka.|MS|
@@ -59,7 +59,7 @@ T Maintaining Order|QID|58617|M|36.32,60.21|Z|Maldraxxus|N|To Baron Vyraz.|MS|
 A Never Enough|QID|60451|M|36.32,60.21|Z|Maldraxxus|N|From Baron Vyraz.|PRE|58351&58617|MS|
 T Never Enough|QID|60451|M|38.87,65.15|Z|Maldraxxus|N|To Baroness Draka.|MS|
 A Through the Fire and Flames|QID|57516|M|38.87,65.15|Z|Maldraxxus|N|From Baroness Draka.|PRE|60451|MS|
-C Through the Fire and Flames|QID|57516|M|37.18,68.40|Z|Maldraxxus|QO|1|NC|N|Swim through the love to get to and click the Standing Stone.|MS|
+C Through the Fire and Flames|QID|57516|M|37.18,68.40|Z|Maldraxxus|QO|1|NC|N|Swim through the lava to get to and click the Standing Stone.|MS|
 C Through the Fire and Flames|QID|57516|M|37.13,68.49|Z|Maldraxxus|QO|2|NC|N|After the dialog, grab the Unfinished Blade.|MS|
 T Through the Fire and Flames|QID|57516|M|38.20,66.55|Z|Maldraxxus|N|To Baroness Draka.|MS|
 A Forging a Champion|QID|58616|M|38.20,66.55|Z|Maldraxxus|N|From Baroness Draka.|PRE|57516|MS|
@@ -148,7 +148,7 @@ C Breaking Down Barriers|QID|57982|M|30.12,23.97|Z|Maldraxxus|QO|2|CHAT|N|Speak 
 C Breaking Down Barriers|QID|57982|M|29.94,23.50|Z|Maldraxxus|QO|3|NC|N|Press the '1' Key to activate the Impervious Shield and walk through the acid to reach and click the Spewer Valves.\n\nThis has a short duration, so use the ability right before you walk through it.|MS|
 C Breaking Down Barriers|QID|57982|M|29.46,23.14|Z|Maldraxxus|QO|4|NC|N|Click on the Shielding Lattice to disable it.|MS|
 T Breaking Down Barriers|QID|57982|M|30.18,23.81|Z|Maldraxxus|N|To Secutor Mevix.|MS|
-A Two of Them , Two of Us|QID|57993|M|30.18,23.81|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57982|MS|
+A Two of Them, Two of Us|QID|57993|M|30.18,23.81|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57982|MS|
 C Two of Them, Two of Us|QID|57993|M|29.31,22.61|Z|Maldraxxus|QO|2|N|Kill First Apprentice Malkrex and Sharrex the Fleshcrafter.|MS|; Double is intentional
 C Two of Them, Two of Us|QID|57993|M|29.31,22.61|Z|Maldraxxus|QO|1|N|Kill First Apprentice Malkrex and Sharrex the Fleshcrafter.|MS|; Double is intentional
 C Two of Them, Two of Us|QID|57993|M|28.90,21.97|Z|Maldraxxus|QO|3|NC|N|Click on the Soulfused Construct to examine it.|MS|
@@ -165,6 +165,9 @@ T In The Flesh|QID|57994|M|37.61,29.09|Z|Maldraxxus|N|To Aspirant Thales.|MS|
 A Front and Center|QID|60733|M|37.66,29.11|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57994|
 
 ; Side Quest Story - Archival Protection
+A Broker Business|QID|62605|M|38.20,31.29|Z|Maldraxxus|N|From Forgotten Supplies.|LVL|53|
+C Broker Business|QID|62605|M|38.20,31.29|Z|Maldraxxus|
+T Broker Business|QID|62605|M|40.69,33.08|Z|Maldraxxus|N|To Ta'eran.|
 A Read Between the Lines|QID|58619|M|40.69,33.08|Z|Maldraxxus|N|From Ta'eran.|LVL|53|
 C Read Between the Lines|QID|58619|M|40.69,33.08|QO|1|Z|Maldraxxus|CHAT|N|Talk to Ta'ern.|
 C Read Between the Lines|QID|58619|M|40.69,33.08|QO|2|Z|Maldraxxus|NC|N|Walk with Ta'ern.|
@@ -201,11 +204,74 @@ A A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|From Ta'eran.|PRE|59994|
 C A Complete Set|QID|58623|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Click on the books around in the shelves.|
 C A Complete Set|QID|58623|M|42.14,23.30|QO|2|Z|Maldraxxus|NC|N|Click on the pages flying around the room.|
 T A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|
-
-; The House of Plagues Storyline and Mixing Monstrosities Sidestory
 F Bleak Redoubt|ACTIVE|60733|M|37.56,29.21|N|Fly back to Bleak Redoubt.|MS|
 C Front and Center|QID|60733|M|50.38,67.74|Z|Maldraxxus|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Might.|EAB|MS|
 T Front and Center|QID|60733|M|50.38,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
+
+; Theater of Pain & Wasteland Work Sidequests
+A I Could Be A Contender|QID|62785|M|50.57,51.69|Z|Maldraxxus|N|From Anzio The Infallible.|
+f Theater of Pain|QID|62785|M|49.93,53.20|Z|Maldraxxus|N|At Wing Guard Alamar.|
+T I Could Be A Contender|QID|62785|M|54.44,48.65|Z|Maldraxxus|N|To Louison.|
+A How To Get A Head|QID|59750|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|
+A The Last Guy|QID|59781|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|
+A ...Even The Most Ridiculous Request!|QID|58068|M|54.09,51.30|Z|Maldraxxus|N|From Overseer Kalvaros.|
+C ...Even The Most Ridiculous Request!|QID|58068|M|53.83,51.21|Z|Maldraxxus|CHAT|QO|1|N|Speak with Gunn Gorgebone|
+C ...Even The Most Ridiculous Request!|QID|58068|M|54.01,51.19|Z|Maldraxxus|QO|2|N|Watch the Gunn show|
+C ...Even The Most Ridiculous Request!|QID|58068|M|53.85,50.54|Z|Maldraxxus|CHAT|QO|3|N|Speak with Scrapper Minoire|
+C ...Even The Most Ridiculous Request!|QID|58068|M|54.08,51.67|Z|Maldraxxus|CHAT|QO|4|N|Speak with Rencissa the Dynamo|
+C ...Even The Most Ridiculous Request!|QID|58068|M|54.08,51.66|Z|Maldraxxus|QO|5|NC|N|Bring Rencissa the biggest rock you can find|
+T ...Even The Most Ridiculous Request!|QID|58068|M|54.10,51.39|Z|Maldraxxus|N|To Overseer Kalvaros.|
+A Juicing Up|QID|58088|M|53.86,50.61|Z|Maldraxxus|N|From Scrapper Minoire.|
+T Juicing Up|QID|58088|M|53.72,47.85|Z|Maldraxxus|N|To So'narynar.|
+A Side Effects|QID|58090|M|53.72,47.85|Z|Maldraxxus|N|From So'narynar.|
+C Side Effects|QID|58090|M|53.70,47.88|Z|Maldraxxus|QO|1|N|Necessary Enchancers purchased from Au'larrynar|
+C Side Effects|QID|58090|M|53.87,50.53|Z|Maldraxxus|QO|2|N|Deliver the Enhancers to Scrapper Minoire|
+T Side Effects|QID|58090|M|54.08,51.27|Z|Maldraxxus|N|To Overseer Kalvaros.|
+C How To Get A Head|QID|59750|M|57.26,53.31|Z|Maldraxxus|QO|1|U|177835|N|Bloodtusk Skull|
+C How To Get A Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|N|Deliver skulls to Marcel Mullby|
+C The Last Guy|QID|59781|M|55.04,33.08|Z|Maldraxxus|QO|1|N|Dead Newcomer located|
+C The Last Guy|QID|59781|M|55.52,33.29|Z|Maldraxxus|QO|2|N|Deadeye slain|
+T How To Get A Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|
+T The Last Guy|QID|59781|M|54.47,48.69|Z|Maldraxxus|N|To Louison.|
+A Stuff We All Get|QID|58575|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|
+A Team Spirit|QID|59800|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|
+C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|N|Arena Challengers splashed with Flask of Team Spirit|S|
+C Stuff We All Get|QID|58575|M|49.87,48.07|Z|Maldraxxus|NC|N|Weapons of the Fallen|
+C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|N|Arena Challengers splashed with Flask of Team Spirit|US|
+T Stuff We All Get|QID|58575|M|54.50,48.57|Z|Maldraxxus|N|To Louison.|
+T Team Spirit|QID|59800|M|54.50,48.57|Z|Maldraxxus|N|To Louison.|
+A Test Your Mettle|QID|58947|M|54.50,48.57|Z|Maldraxxus|N|From Louison.|
+C Test Your Mettle|QID|58947|M|54.04,48.38|Z|Maldraxxus|QO|1|N|Valuator Malus defeated|
+C Test Your Mettle|QID|58947|M|55.35,46.91|Z|Maldraxxus|QO|2|N|Tester Saharri defeated|
+T Test Your Mettle|QID|58947|M|54.49,48.62|Z|Maldraxxus|N|To Louison.|
+A This Thing Of Ours|QID|59879|M|54.49,48.62|Z|Maldraxxus|N|From Louison.|
+T This Thing Of Ours|QID|59879|M|53.66,47.50|Z|Maldraxxus|N|To Au'narim.|
+A Leave Me a Loan|QID|59203|M|53.66,47.50|Z|Maldraxxus|N|From Au'narim.|
+C Leave Me a Loan|QID|59203|M|53.90,49.37|Z|Maldraxxus|CHAT|N|Anima Vial|
+T Leave Me a Loan|QID|59203|M|53.62,47.56|Z|Maldraxxus|N|To Au'narim.|
+A Working For The Living|QID|59837|M|53.62,47.56|Z|Maldraxxus|N|From Au'narim.|
+C Working For The Living|QID|59837|M|53.70,47.29|Z|Maldraxxus|QO|1|NC|N|Broker Portal used|
+C Working For The Living|QID|59837|M|39.14,40.18|Z|Shattered Grove!Instance|QO|2|N|Shattered Grove secured|
+C Working For The Living|QID|59837|M|60.72,64.42|Z|Shattered Grove!Instance|QO|3|N|Khogov The Expunger slain|
+C Working For The Living|QID|59837|M|15.03,39.39|Z|Shattered Grove!Instance|QO|4|NC|N|Broker Portal used|
+T Working For The Living|QID|59837|M|53.62,47.50|Z|Maldraxxus|N|To Au'narim.|
+A A Sure Bet|QID|58900|M|54.44,48.59|Z|Maldraxxus|N|From Louison.|
+T A Sure Bet|QID|58900|M|50.53,51.67|Z|Maldraxxus|N|To Anzio The Infallible.|
+A The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|GROUP|5|N|From Anzio The Infallible.|
+C The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|N|From Anzio The Infallible.|
+T The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|N|From Anzio The Infallible.|
+A Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|From Caleesy.|
+A Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|From Dundae.|
+C Take The Bull By The Horns|QID|58750|M|43.90,50.15|Z|Maldraxxus|N|Kill the birds till you get the message on the screen then grab them.|S|
+C Smack And Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|From Caleesy.|
+C Take The Bull By The Horns|QID|58750|M|43.90,50.15|Z|Maldraxxus|N|Kill the birds till you get the message on the screen then grab them.|US|
+T Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|To Caleesy.|
+T Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|To Dundae.|
+A Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|From Dundae.|
+C Stabbing Wasteward|QID|58794|M|42.40,48.40|Z|Maldraxxus|N|Satiated Sawtooth slain.|
+T Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|To Dundae.|
+
+; The House of Plagues Storyline and Mixing Monstrosities Sidestory
 A The House of Plagues|QID|59130|M|54.22,66.04|Z|Maldraxxus|N|From Baroness Draka.|PRE|60733|MS|
 T The House of Plagues|QID|59130|M|56.43,57.31|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
 A Bug Bites|QID|58011|M|56.43,57.31|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|59130|MS|
@@ -269,7 +335,6 @@ C Fathomless Power|QID|59231|M|50.40,67.75|Z|Maldraxxus|NC|N|Step into the pool 
 T Fathomless Power|QID|59231|M|50.36,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
 
 ; Matron of Spies Storyline
-f Theater of Pain|QID|59520|M|49.93,53.20|Z|Maldraxxus|N|At Wing Guard Alamar.|
 f Renounced Bastille|QID|59520|M|67.90,45.83|Z|Maldraxxus|N|At Felsen Wingclip.|
 C A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|CHAT|N|Deliver the summons to Baroness Vashj.|MS|
 T A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|N|To Baroness Vashj.|MS|
@@ -316,7 +381,7 @@ C Her Rightful Place|QID|59009|M|50.39,67.75|Z|Maldraxxus|N|Step into the pool a
 T Her Rightful Place|QID|59009|M|50.33,67.75|Z|Maldraxxus|N|To Baroness Draka.|MS|
 
 ; Ritual for the Damned Storyline
-A Among the Chosen|QID|59202|M|50.33,67.75|Z|Maldraxxus|N|From Baroness Draka.|PRE|59009|PRE|59009|MS|
+A Among the Chosen|QID|59202|M|50.33,67.75|Z|Maldraxxus|N|From Baroness Draka.|PRE|59009|MS|
 C Among the Chosen|QID|59202|M|40.57,62.00|Z|Maldraxxus|QO|1|NC|N|Return to the House of the Chosen.|MS|
 C Among the Chosen|QID|59202|M|38.42,66.15|Z|Maldraxxus|QO|2|N|Seek out Krexus.|MS|
 T Among the Chosen|QID|59202|M|38.14,66.65|Z|Maldraxxus|N|To Baron Vyraz.|MS|
@@ -357,59 +422,6 @@ C Maw Walker|QID|62654|M|42.38,42.17|Z|The Maw|QO|1|NC|N|Attune to Alexandros an
 C Maw Walker|QID|62654|M|42.38,42.17|Z|The Maw|QO|2|NC|N|Click the waygate to escape the Maw and get teleported back to Oribos.|MS|
 T Maw Walker|QID|62654|M|40.08,68.41|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
 A A Soul Saved|QID|59974|M|39.60,68.00|Z|Ring of Fates@Oribos|N|From Baroness Draka.|PRE|62654|MS|
-
-; Theater of Pain Sidequest
-F Theater of Pain|QID|59974|M|60.58,68.12|Z|Ring of Fates@Oribos|
-A I Could Be A Contender|QID|62785|M|50.57,51.69|Z|Maldraxxus|N|From Anzio The Infallible.|
-T I Could Be A Contender|QID|62785|M|54.44,48.65|Z|Maldraxxus|N|To Louison.|
-A How To Get A Head|QID|59750|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|
-A The Last Guy|QID|59781|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|
-A ...Even The Most Ridiculous Request!|QID|58068|M|54.09,51.30|Z|Maldraxxus|N|From Overseer Kalvaros.|
-C ...Even The Most Ridiculous Request!|QID|58068|M|53.83,51.21|Z|Maldraxxus|CHAT|QO|1|N|Speak with Gunn Gorgebone|
-C ...Even The Most Ridiculous Request!|QID|58068|M|54.01,51.19|Z|Maldraxxus|QO|2|N|Watch the Gunn show|
-C ...Even The Most Ridiculous Request!|QID|58068|M|53.85,50.54|Z|Maldraxxus|CHAT|QO|3|N|Speak with Scrapper Minoire|
-C ...Even The Most Ridiculous Request!|QID|58068|M|54.08,51.67|Z|Maldraxxus|CHAT|QO|4|N|Speak with Rencissa the Dynamo|
-C ...Even The Most Ridiculous Request!|QID|58068|M|54.08,51.66|Z|Maldraxxus|QO|5|NC|N|Bring Rencissa the biggest rock you can find|
-T ...Even The Most Ridiculous Request!|QID|58068|M|54.10,51.39|Z|Maldraxxus|N|To Overseer Kalvaros.|
-A Juicing Up|QID|58088|M|53.86,50.61|Z|Maldraxxus|N|From Scrapper Minoire.|
-T Juicing Up|QID|58088|M|53.72,47.85|Z|Maldraxxus|N|To So'narynar.|
-A Side Effects|QID|58090|M|53.72,47.85|Z|Maldraxxus|N|From So'narynar.|
-C Side Effects|QID|58090|M|53.70,47.88|Z|Maldraxxus|QO|1|N|Necessary Enchancers purchased from Au'larrynar|
-C Side Effects|QID|58090|M|53.87,50.53|Z|Maldraxxus|QO|2|N|Deliver the Enhancers to Scrapper Minoire|
-T Side Effects|QID|58090|M|54.08,51.27|Z|Maldraxxus|N|To Overseer Kalvaros.|
-C How To Get A Head|QID|59750|M|57.26,53.31|Z|Maldraxxus|QO|1|U|177835|N|Bloodtusk Skull|
-C How To Get A Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|N|Deliver skulls to Marcel Mullby|
-T How To Get A Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|
-C The Last Guy|QID|59781|M|55.04,33.08|Z|Maldraxxus|QO|1|N|Dead Newcomer located|
-C The Last Guy|QID|59781|M|55.52,33.29|Z|Maldraxxus|QO|2|N|Deadeye slain|
-T The Last Guy|QID|59781|M|54.47,48.69|Z|Maldraxxus|N|To Louison.|
-A Stuff We All Get|QID|58575|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|
-A Team Spirit|QID|59800|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|
-C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|N|Arena Challengers splashed with Flask of Team Spirit|S|
-C Stuff We All Get|QID|58575|M|49.87,48.07|Z|Maldraxxus|NC|N|Weapons of the Fallen|
-C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|N|Arena Challengers splashed with Flask of Team Spirit|US|
-T Stuff We All Get|QID|58575|M|54.50,48.57|Z|Maldraxxus|N|To Louison.|
-T Team Spirit|QID|59800|M|54.50,48.57|Z|Maldraxxus|N|To Louison.|
-A Test Your Mettle|QID|58947|M|54.50,48.57|Z|Maldraxxus|N|From Louison.|
-C Test Your Mettle|QID|58947|M|54.04,48.38|Z|Maldraxxus|QO|1|N|Valuator Malus defeated|
-C Test Your Mettle|QID|58947|M|55.35,46.91|Z|Maldraxxus|QO|2|N|Tester Saharri defeated|
-T Test Your Mettle|QID|58947|M|54.49,48.62|Z|Maldraxxus|N|To Louison.|
-A This Thing Of Ours|QID|59879|M|54.49,48.62|Z|Maldraxxus|N|From Louison.|
-T This Thing Of Ours|QID|59879|M|53.66,47.50|Z|Maldraxxus|N|To Au'narim.|
-A Leave Me a Loan|QID|59203|M|53.66,47.50|Z|Maldraxxus|N|From Au'narim.|
-C Leave Me a Loan|QID|59203|M|53.90,49.37|Z|Maldraxxus|CHAT|N|Anima Vial|
-T Leave Me a Loan|QID|59203|M|53.62,47.56|Z|Maldraxxus|N|To Au'narim.|
-A Working For The Living|QID|59837|M|53.62,47.56|Z|Maldraxxus|N|From Au'narim.|
-C Working For The Living|QID|59837|M|53.70,47.29|Z|Maldraxxus|QO|1|NC|N|Broker Portal used|
-C Working For The Living|QID|59837|M|39.14,40.18|Z|Shattered Grove!Instance|QO|2|N|Shattered Grove secured|
-C Working For The Living|QID|59837|M|60.72,64.42|Z|Shattered Grove!Instance|QO|3|N|Khogov The Expunger slain|
-C Working For The Living|QID|59837|M|15.03,39.39|Z|Shattered Grove!Instance|QO|4|NC|N|Broker Portal used|
-T Working For The Living|QID|59837|M|53.62,47.50|Z|Maldraxxus|N|To Au'narim.|
-A A Sure Bet|QID|58900|M|54.44,48.59|Z|Maldraxxus|N|From Louison.|
-T A Sure Bet|QID|58900|M|50.53,51.67|Z|Maldraxxus|N|To Anzio The Infallible.|
-A The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|GROUP|5|N|From Anzio The Infallible.|
-C The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|N|From Anzio The Infallible.|
-T The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|N|From Anzio The Infallible.|
 
 ; The Empty Throne Storyline
 F The Spearhead|QID|59974|M|49.92,53.20|Z|Maldraxxus|N|Wing Guard Alamar|
