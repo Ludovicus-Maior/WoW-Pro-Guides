@@ -10,12 +10,14 @@ WoWPro:GuideSteps(guide, function () return [[
 ;-------------------------- incorporated into Elywnn guide-----------------------------------------
 N Half Pendant of Aquatic Agility|ACTIVE|272|C|Druid|L|15883|N|You will need the first half of the pendant. Grab it before you leave SW.|
 
-R Elwynn Forest|QID|244|N|Go to Elwynn Forest|Z|Stormwind City|M|76.00,94.00|
+; --- Travel to Westfall from SW
+R Westfall|AVAILABLE|244|M|32.11,49.18;20.24,80.38|Z|Elwynn Forest|CC|N|Exit Stormwind and make your way south to Westfall.|TAXI|-Sentinel Hill|
+F Sentinel Hill|AVAILABLE|244|M|66.29,62.13|Z|Stormwind City|N|Fly to Sentinel Hill|TAXI|Sentinel Hill|
 
 A The Defias Brotherhood|QID|65|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle. This is a bit out of the way but required if you want the deadmines quests. Plus you will fly here a lot.|
 f Sentinel Hill|QID|118|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
 
-; Completion of Druid swim form quest chain.
+; --- Completion of Druid swim form quest chain.
 N Trial of the Sea Lion (Part 2)|ACTIVE|272|C|Druid|N|At this point, you're now going to finish up your swim form quest chain.|
 R Longshore|ACTIVE|272|C|Druid|M|26.90,40.00|Z|Westfall|N|Run to the shoreline.|
 l Trial of the Sea Lion (Part 2)|ACTIVE|272|C|Druid|M|17.91,33.10|Z|Westfall|L|15882|N|Once you have reached the location, dive under the water and open the chest. There is an air fissure beside it. You will not drown.|
@@ -27,24 +29,25 @@ F Rut'theran Village|ACTIVE|5061|C|Druid|M|44.15,45.22|Z|Moonglade|N|Fly back us
 R Darnassus|ACTIVE|5061|C|Druid|M|55.86,89.45|Z|Darnassus|N|Walk into the portal back to Darnassus.|
 T Aquatic Form|QID|5061|C|Druid|M|35.36,08.39|Z|Darnassus|N|To Mathrengyl Bearwalker.|
 N Aquatic Form|AVAILABLE|-5061|C|Druid|N|This completes your Druid class quests. You can now rejoin the guide where you left off.|
-R Rut'theran Village|QID|244|C|Druid|M|30.05,41.31|Z|Darnassus|N|Run to Rut'theran Village through the portal.|
-F Auberdine|QID|244|C|Druid|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
-b Wetlands|QID|244|C|Druid|M|32.42,43.74|Z|Darkshore|N|Get on the boat to Menethil (read the sign post).|
-F Sentinel Hill|QID|244|M|56.55,52.65|Z|Westfall|N|Fly to Sentinel Hill and pick up where you left.|
+R Rut'theran Village|AVAILABLE|244|C|Druid|M|30.05,41.31|Z|Darnassus|N|Run to Rut'theran Village through the portal.|
+F Auberdine|AVAILABLE|244|C|Druid|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
+b Wetlands|AVAILABLE|244|C|Druid|M|32.42,43.74|Z|Darkshore|N|Get on the boat to Menethil (read the sign post).|
+F Sentinel Hill|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Fly to Sentinel Hill and pick up where you left.|C|Druid|
+; ---
 
-R Redridge Mountains|QID|244|M|93.00,72.00|Z|Elwynn Forest|N|Go to Redridge Mountains|
+; --- Making sure quest log is current to Redridge
+R Redridge Mountains|AVAILABLE|244|M|93.00,72.00|Z|Elwynn Forest|N|Follow the road east to Redridge Mountains.|
+
 A Encroaching Gnolls|QID|244|M|15.3,71.5|N|From Guard Parker.|
 T Encroaching Gnolls|QID|244|M|30.7,60.0|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|M|30.7,60.0|N|From Deputy Feldon.|PRE|244|
 f Lakeshire|AVAILABLE|118|M|30.60,59.40|N|Get the flight path from Ariena Stormfeather.|
-A The Price of Shoes|QID|118|M|31.0,47.3|N|From Verner Osgood.|
-A Elmore's Task|QID|1097|M|31.00,47.30|N|From Verner Osgood.|
-;------------------end duplicated content (Westfall ends with flight to  Lakeshire )----------------
+; ---
 
 A The Lost Tools|QID|125|M|32.14,48.64|N|From Foreman Oslow.|
 A The Price of Shoes|QID|118|M|31.0,47.3|N|From Verner Osgood.|;if coming from gnome/dwarf starter guide
 T Return to Verner|QID|119|M|31.00,47.30|N|To Verner Osgood.|ACTIVE|125|;if coming from human starter guide
-A Underbelly Scales|QID|122|M|31.00,47.30|N|From Verner Osgood. (dont get his other quest right now)|PRE|119|
+A Underbelly Scales|QID|122|M|31.00,47.30|N|From Verner Osgood. (don't get his other quest right now)|PRE|119|
 A Messenger to Stormwind|QID|120|M|29.99,44.44|N|From Magistrate Solomon, in the town hall.|
 A A Free Lunch|QID|129|M|26.9,44.53|N|From Darcy, in the inn.|
 A Dry Times|QID|116|M|26.49,43.95|N|From Barkeep Daniels.|
