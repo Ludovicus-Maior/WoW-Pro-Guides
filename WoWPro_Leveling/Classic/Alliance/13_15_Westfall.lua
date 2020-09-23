@@ -56,17 +56,11 @@ A The Defias Brotherhood |QID|65|M|56.33,47.52|N|From Gryan Stoutmantle.|
 T Patrolling Westfall|QID|102|M|56.42,47.61|N|To Captain Danuvin.|
 t Red Leather Bandanas|QID|153|M|53.98,52.99|N|To Scout Galiaan.|
 F Lakeshire|ACTIVE|65|M|56.55,52.65|N|Fly to Lakeshire at Thor.|TAXI|Lakeshire|
-F Stormwind|ACTIVE|65|M|56.55,52.65|TZ|Stormwind City|N|Fly to Stormwind City at Thor.|TAXI|-Lakeshire|
+F Stormwind|ACTIVE|65|M|56.55,52.65|N|Fly to Stormwind City at Thor.|TAXI|-Lakeshire|
 
 ; The following only applies if coming from 1-12 Dun Morogh or 13-14 Loch Modan
 T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
 A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|Stormwind City|N|From Osric Strang.|PRE|6281|
-R Goldshire|AVAILABLE|244|M|32.00,49.25;41.2,62.0|CS|N|Head back to Goldshire in Elwynn Forest. You can jump down from the flight point into the water.|
-R Redridge Mountains|AVAILABLE|244|M|8.98,71.72|Z|Redridge Mountains|N|Go to Redridge Mountains|
-A Encroaching Gnolls|QID|244|M|15.3,71.5|Z|Redridge Mountains|N|From Guard Parker.|
-T Encroaching Gnolls|QID|244|M|30.7,60.0|Z|Redridge Mountains|N|To Deputy Feldon.|
-A Assessing the Threat|QID|246|PRE|244|M|30.7,60.0|Z|Redridge Mountains|N|From Deputy Feldon.|
-f Lakeshire|AVAILABLE|118|ACTIVE|65|M|30.60,59.40|Z|Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
 
 ]]
 end)
