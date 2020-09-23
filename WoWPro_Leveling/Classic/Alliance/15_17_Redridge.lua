@@ -16,7 +16,7 @@ F Sentinel Hill|AVAILABLE|244|M|66.29,62.13|Z|Stormwind City|N|Fly to Sentinel H
 
 A The Defias Brotherhood|QID|65|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle. This is a bit out of the way but required if you want the deadmines quests. Plus you will fly here a lot.|
 f Sentinel Hill|QID|118|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
-h 
+
 ; --- Completion of Druid swim form quest chain.
 N Trial of the Sea Lion (Part 2)|ACTIVE|272|C|Druid|N|At this point, you're now going to finish up your swim form quest chain.|
 R Longshore|ACTIVE|272|C|Druid|M|26.90,40.00|Z|Westfall|N|Run to the shoreline.|
