@@ -16,7 +16,7 @@ F Sentinel Hill|AVAILABLE|244|M|66.29,62.13|Z|Stormwind City|N|Fly to Sentinel H
 
 A The Defias Brotherhood|QID|65|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle. This is a bit out of the way but required if you want the deadmines quests. Plus you will fly here a lot.|
 f Sentinel Hill|QID|118|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
-
+h 
 ; --- Completion of Druid swim form quest chain.
 N Trial of the Sea Lion (Part 2)|ACTIVE|272|C|Druid|N|At this point, you're now going to finish up your swim form quest chain.|
 R Longshore|ACTIVE|272|C|Druid|M|26.90,40.00|Z|Westfall|N|Run to the shoreline.|
@@ -38,16 +38,19 @@ F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Fly to Sentinel Hill and pi
 ; --- Making sure quest log is current to Redridge
 R Redridge Mountains|AVAILABLE|244|M|93.00,72.00|Z|Elwynn Forest|N|Follow the road east to Redridge Mountains.|
 
-A Encroaching Gnolls|QID|244|M|15.3,71.5|N|From Guard Parker.|
-T Encroaching Gnolls|QID|244|M|30.7,60.0|N|To Deputy Feldon.|
-A Assessing the Threat|QID|246|M|30.7,60.0|N|From Deputy Feldon.|PRE|244|
-f Lakeshire|AVAILABLE|118|M|30.60,59.40|N|Get the flight path from Ariena Stormfeather.|
+A Encroaching Gnolls|QID|244|M|15.28,71.46|N|From Guard Parker. If he's not standing there, he's pathing around the 'triangle' and easy to find.|
+T Encroaching Gnolls|QID|244|M|30.74,59.99|N|To Deputy Feldon.|
+A Assessing the Threat|QID|246|M|30.74,59.99|N|From Deputy Feldon.|PRE|244|
+f Lakeshire|AVAILABLE|125|M|30.60,59.40|N|Get the flight path from Ariena Stormfeather.|
 ; ---
 
 A The Lost Tools|QID|125|M|32.14,48.64|N|From Foreman Oslow.|
-A The Price of Shoes|QID|118|M|31.0,47.3|N|From Verner Osgood.|;if coming from gnome/dwarf starter guide
-T Return to Verner|QID|119|M|31.00,47.30|N|To Verner Osgood.|ACTIVE|125|;if coming from human starter guide
-A Underbelly Scales|QID|122|M|31.00,47.30|N|From Verner Osgood. (don't get his other quest right now)|PRE|119|
+A The Price of Shoes|QID|118|M|30.98,47.28|N|From Verner Osgood.|
+
+; This is the follow up quest to 'The Price of Shoes'. You cannot turn it in yet.
+;T Return to Verner|QID|119|ACTIVE|125|M|30.98,47.28|N|To Verner Osgood.|
+
+A Underbelly Scales|QID|122|M|30.98,47.28|N|From Verner Osgood. (don't get his other quest right now)|PRE|119|
 A Messenger to Stormwind|QID|120|M|29.99,44.44|N|From Magistrate Solomon, in the town hall.|
 A A Free Lunch|QID|129|M|26.9,44.53|N|From Darcy, in the inn.|
 A Dry Times|QID|116|M|26.49,43.95|N|From Barkeep Daniels.|
@@ -77,12 +80,17 @@ R Duskwood|ACTIVE|116|N|Go to Duskwood|M|6.42,91.32|
 B Bottle of Moonshine|ACTIVE|116|M|73.70,44.10|Z|Duskwood|QO|3|NC|N|Buy a Bottle of Moonshine from Barkeep Hann.|
 f Darkshire|ACTIVE|116|M|77.50,44.30|Z|Duskwood|N|Get the flight path from Felicia Maline.|
 
-H Sentinel Hill|ACTIVE|132|N|Hearth back to Sentinel Hill.|
+; No step to reassign Hearthstone yet. Only Humans will have it set to there. Easier just to fly there.
+; H Sentinel Hill|ACTIVE|132|N|Hearth back to Sentinel Hill.|
+F Sentinel Hill|ACTIVE|132|M|77.50,44.30|Z|Duskwood|N|Fly to Sentinel Hill.|
+
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|PRE|132|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle.|
 
 F Stormwind|ACTIVE|116|N|And back to Stormwind, they like giving you the run around.|TZ|Stormwind City|
 B Skin of Sweet Rum|ACTIVE|116|M|44.00,65.70|Z|Elwynn Forest|QO|4|NC|N|Buy a Skin of Sweet Rum from Barkeep Dobbins.|
+
+; FYI... This quest doesn't get picked up in the Elwynn guide.
 T The Price of Shoes|QID|118|M|41.71,65.55|Z|Elwynn Forest|N|To Smith Argus.|;if you didnt do elwyn guide
 A Return to Verner|QID|119|M|41.71,65.55|Z|Elwynn Forest|N|From Smith Argus.|PRE|118|
 R Stormwind City|ACTIVE|116|M|70.82,88.48|Z|Stormwind City|N|Run into Stormwind.|
@@ -90,7 +98,7 @@ T Messenger to Stormwind|QID|120|M|64.01,75.38|Z|Stormwind City|N|To General Mar
 A Messenger to Stormwind |QID|121|M|64.01,75.38|Z|Stormwind City|N|From General Marcus Jonathan.|PRE|120|
 B Cask of Merlot|ACTIVE|116|M|52.15,67.87|Z|Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
 T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|CS|Z|Stormwind City|N|To Master Mathias Shaw.|
-A The Defias Brotherhood|QID|141|PRE|135|M|75.79,59.85|Z|Westfall|N|From Master Mathias Shaw.|
+A The Defias Brotherhood|QID|141|PRE|135|M|75.79,59.85|Z|Stormwind City|N|From Master Mathias Shaw.|
 ;removing to end of 18-20westfall guide, so to keep questlog managable-A Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
 ;removing to end of 18-20westfall guide, so to keep questlog managable-A Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
 ;removing to end of 18-20westfall guide, so to keep questlog managable-A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
