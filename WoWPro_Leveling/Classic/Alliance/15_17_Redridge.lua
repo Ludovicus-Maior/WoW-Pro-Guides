@@ -32,7 +32,7 @@ N Aquatic Form|AVAILABLE|-5061|C|Druid|N|This completes your Druid class quests.
 R Rut'theran Village|AVAILABLE|244|C|Druid|M|30.05,41.31|Z|Darnassus|N|Run to Rut'theran Village through the portal.|
 F Auberdine|AVAILABLE|244|C|Druid|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
 b Wetlands|AVAILABLE|244|C|Druid|M|32.42,43.74|Z|Darkshore|N|Get on the boat to Menethil (read the sign post).|
-F Sentinel Hill|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Fly to Sentinel Hill and pick up where you left.|C|Druid|
+F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Fly to Sentinel Hill and pick up where you left.|C|Druid|
 ; ---
 
 ; --- Making sure quest log is current to Redridge
