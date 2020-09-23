@@ -938,7 +938,7 @@ function WoWPro:RowUpdate(offset)
         currentRow.note:SetText(note)
         currentRow.action:SetTexture(WoWPro.actiontypes[action])
         currentRow.action.tooltip.text:SetText(WoWPro.actionlabels[action])
-        if WoWPro.noncombat[k] and WoWPro.action[k] == "C" then
+        if WoWPro.noncombat[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
             currentRow.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
             currentRow.action.tooltip.text:SetText("No Combat")
         elseif WoWPro.lootitem[k] and WoWPro.action[k] == "C" then

@@ -208,67 +208,81 @@ F Bleak Redoubt|ACTIVE|60733|M|37.56,29.21|N|Fly back to Bleak Redoubt.|MS|
 C Front and Center|QID|60733|M|50.38,67.74|Z|Maldraxxus|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Might.|EAB|MS|
 T Front and Center|QID|60733|M|50.38,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
 
-; Theater of Pain & Wasteland Work Sidequests
-A I Could Be A Contender|QID|62785|M|50.57,51.69|Z|Maldraxxus|N|From Anzio The Infallible.|
+; Theater of Pain Sidequest Story
+A I Could Be A Contender|QID|62785|LEAD|59750|M|50.57,51.69|Z|Maldraxxus|N|From Anzio The Infallible.|LVL|53|
 f Theater of Pain|QID|62785|M|49.93,53.20|Z|Maldraxxus|N|At Wing Guard Alamar.|
 T I Could Be A Contender|QID|62785|M|54.44,48.65|Z|Maldraxxus|N|To Louison.|
-A How To Get A Head|QID|59750|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|
-A The Last Guy|QID|59781|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|
-A ...Even The Most Ridiculous Request!|QID|58068|M|54.09,51.30|Z|Maldraxxus|N|From Overseer Kalvaros.|
-C ...Even The Most Ridiculous Request!|QID|58068|M|53.83,51.21|Z|Maldraxxus|CHAT|QO|1|N|Speak with Gunn Gorgebone|
-C ...Even The Most Ridiculous Request!|QID|58068|M|54.01,51.19|Z|Maldraxxus|QO|2|N|Watch the Gunn show|
-C ...Even The Most Ridiculous Request!|QID|58068|M|53.85,50.54|Z|Maldraxxus|CHAT|QO|3|N|Speak with Scrapper Minoire|
-C ...Even The Most Ridiculous Request!|QID|58068|M|54.08,51.67|Z|Maldraxxus|CHAT|QO|4|N|Speak with Rencissa the Dynamo|
-C ...Even The Most Ridiculous Request!|QID|58068|M|54.08,51.66|Z|Maldraxxus|QO|5|NC|N|Bring Rencissa the biggest rock you can find|
+A How To Get A Head|QID|59750|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|LVL|53|
+A The Last Guy|QID|59781|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|LVL|53|
+A ...Even The Most Ridiculous Request!|QID|58068|M|54.09,51.30|Z|Maldraxxus|N|From Overseer Kalvaros.|LVL|53|
+C ...Even The Most Ridiculous Request!|QID|58068|M|53.83,51.21|Z|Maldraxxus|CHAT|QO|1|N|Speak with Gunn Gorgebone.|
+C ...Even The Most Ridiculous Request!|QID|58068|M|54.01,51.19|Z|Maldraxxus|QO|2|NC|N|Sit back and watch the Gunn show.|
+C ...Even The Most Ridiculous Request!|QID|58068|M|53.85,50.54|Z|Maldraxxus|CHAT|QO|3|N|Speak with Scrapper Minoire.|
+C ...Even The Most Ridiculous Request!|QID|58068|M|54.08,51.67|Z|Maldraxxus|CHAT|QO|4|N|Speak with Rencissa the Dynamo.|
+C ...Even The Most Ridiculous Request!|QID|58068|M|54.08,51.66|Z|Maldraxxus|QO|5|NC|N|Click on the rock right behind you.|
 T ...Even The Most Ridiculous Request!|QID|58068|M|54.10,51.39|Z|Maldraxxus|N|To Overseer Kalvaros.|
-A Juicing Up|QID|58088|M|53.86,50.61|Z|Maldraxxus|N|From Scrapper Minoire.|
+A Juicing Up|QID|58088|M|53.86,50.61|Z|Maldraxxus|N|From Scrapper Minoire.|PRE|58068|
 T Juicing Up|QID|58088|M|53.72,47.85|Z|Maldraxxus|N|To So'narynar.|
-A Side Effects|QID|58090|M|53.72,47.85|Z|Maldraxxus|N|From So'narynar.|
-C Side Effects|QID|58090|M|53.70,47.88|Z|Maldraxxus|QO|1|N|Necessary Enchancers purchased from Au'larrynar|
-C Side Effects|QID|58090|M|53.87,50.53|Z|Maldraxxus|QO|2|N|Deliver the Enhancers to Scrapper Minoire|
+A Side Effects|QID|58090|M|53.72,47.85|Z|Maldraxxus|N|From So'narynar.|PRE|58088|
+C Side Effects|QID|58090|M|53.70,47.88|Z|Maldraxxus|QO|1|N|Buy the Necessary Enchancers from Au'larrynar.|
+C Side Effects|QID|58090|M|53.87,50.53|Z|Maldraxxus|QO|2|CHAT|N|Deliver the Enhancers to Scrapper Minoire.|
 T Side Effects|QID|58090|M|54.08,51.27|Z|Maldraxxus|N|To Overseer Kalvaros.|
-C How To Get A Head|QID|59750|M|57.26,53.31|Z|Maldraxxus|QO|1|U|177835|N|Bloodtusk Skull|
-C How To Get A Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|N|Deliver skulls to Marcel Mullby|
-C The Last Guy|QID|59781|M|55.04,33.08|Z|Maldraxxus|QO|1|N|Dead Newcomer located|
-C The Last Guy|QID|59781|M|55.52,33.29|Z|Maldraxxus|QO|2|N|Deadeye slain|
+C How To Get A Head|QID|59750|M|57.26,53.31|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|S|
+C The Last Guy|QID|59781|M|55.04,33.08|Z|Maldraxxus|QO|1|N|Click to examine the Dead Newcomers.|S|
+C The Last Guy|QID|59781|M|55.52,33.29|Z|Maldraxxus|QO|2|N|Kill Deadeye the giant Bloodtusk.|
+C The Last Guy|QID|59781|M|55.04,33.08|Z|Maldraxxus|QO|1|N|Click to examine the Dead Newcomers.|US|
+C How To Get A Head|QID|59750|M|57.26,53.31|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|US|
+C How To Get A Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|CHAT|N|Deliver the skulls to Marcel Mullby.|
 T How To Get A Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|
 T The Last Guy|QID|59781|M|54.47,48.69|Z|Maldraxxus|N|To Louison.|
-A Stuff We All Get|QID|58575|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|
+A Stuff We All Get|QID|58575|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|PRE|59750&59781|
 A Team Spirit|QID|59800|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|
-C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|N|Arena Challengers splashed with Flask of Team Spirit|S|
-C Stuff We All Get|QID|58575|M|49.87,48.07|Z|Maldraxxus|NC|N|Weapons of the Fallen|
-C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|N|Arena Challengers splashed with Flask of Team Spirit|US|
+C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|N|Use the item provided to splash Arena Challengers.|S|
+C Stuff We All Get|QID|58575|M|49.87,48.07|Z|Maldraxxus|NC|N|Click on the glowing Weapons scattered around on the floor.|
+C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|N|Use the item provided to splash Arena Challengers.|US|
 T Stuff We All Get|QID|58575|M|54.50,48.57|Z|Maldraxxus|N|To Louison.|
 T Team Spirit|QID|59800|M|54.50,48.57|Z|Maldraxxus|N|To Louison.|
-A Test Your Mettle|QID|58947|M|54.50,48.57|Z|Maldraxxus|N|From Louison.|
-C Test Your Mettle|QID|58947|M|54.04,48.38|Z|Maldraxxus|QO|1|N|Valuator Malus defeated|
-C Test Your Mettle|QID|58947|M|55.35,46.91|Z|Maldraxxus|QO|2|N|Tester Saharri defeated|
+A Test Your Mettle|QID|58947|M|54.50,48.57|Z|Maldraxxus|N|From Louison.|PRE|58575&59800|
+C Test Your Mettle|QID|58947|M|54.04,48.38|Z|Maldraxxus|QO|1|N|Kill Valuator Malus.|
+C Test Your Mettle|QID|58947|M|55.35,46.91|Z|Maldraxxus|QO|2|N|Kill Tester Saharri.|
 T Test Your Mettle|QID|58947|M|54.49,48.62|Z|Maldraxxus|N|To Louison.|
-A This Thing Of Ours|QID|59879|M|54.49,48.62|Z|Maldraxxus|N|From Louison.|
+A This Thing Of Ours|QID|59879|M|54.49,48.62|Z|Maldraxxus|N|From Louison.|PRE|58947|
 T This Thing Of Ours|QID|59879|M|53.66,47.50|Z|Maldraxxus|N|To Au'narim.|
-A Leave Me a Loan|QID|59203|M|53.66,47.50|Z|Maldraxxus|N|From Au'narim.|
-C Leave Me a Loan|QID|59203|M|53.90,49.37|Z|Maldraxxus|CHAT|N|Anima Vial|
+A Leave Me a Loan|QID|59203|M|53.66,47.50|Z|Maldraxxus|N|From Au'narim.|PRE|59879|
+C Leave Me a Loan|QID|59203|M|53.90,49.37|Z|Maldraxxus|CHAT|N|ASpeak with Arena Spectators to ask for their Anima Vial, some will attack you.|
 T Leave Me a Loan|QID|59203|M|53.62,47.56|Z|Maldraxxus|N|To Au'narim.|
-A Working For The Living|QID|59837|M|53.62,47.56|Z|Maldraxxus|N|From Au'narim.|
-C Working For The Living|QID|59837|M|53.70,47.29|Z|Maldraxxus|QO|1|NC|N|Broker Portal used|
-C Working For The Living|QID|59837|M|39.14,40.18|Z|Shattered Grove!Instance|QO|2|N|Shattered Grove secured|
-C Working For The Living|QID|59837|M|60.72,64.42|Z|Shattered Grove!Instance|QO|3|N|Khogov The Expunger slain|
-C Working For The Living|QID|59837|M|15.03,39.39|Z|Shattered Grove!Instance|QO|4|NC|N|Broker Portal used|
+A Working For The Living|QID|59837|M|53.62,47.56|Z|Maldraxxus|N|From Au'narim.|PRE|59203|
+C Working For The Living|QID|59837|M|53.70,47.29|Z|Maldraxxus|QO|1|NC|N|Click on the Broker Portal to get transported to the Shattered Grove.|
+C Working For The Living|QID|59837|M|39.14,40.18|Z|Shattered Grove!Instance|QO|2|N|Kill and interact with everything around|S|
+C Working For The Living|QID|59837|M|60.72,64.42|Z|Shattered Grove!Instance|QO|3|N|Kill Khogov The Expunger.
+C Working For The Living|QID|59837|M|39.14,40.18|Z|Shattered Grove!Instance|QO|2|N|Kill and interact with everything around|US|
+C Working For The Living|QID|59837|M|15.03,39.39|Z|Shattered Grove!Instance|QO|4|NC|N|CLick the Broker Portal to return.|
 T Working For The Living|QID|59837|M|53.62,47.50|Z|Maldraxxus|N|To Au'narim.|
-A A Sure Bet|QID|58900|M|54.44,48.59|Z|Maldraxxus|N|From Louison.|
+A A Sure Bet|QID|58900|M|54.44,48.59|Z|Maldraxxus|N|From Louison.|PRE|59837|
 T A Sure Bet|QID|58900|M|50.53,51.67|Z|Maldraxxus|N|To Anzio The Infallible.|
-A The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|GROUP|5|N|From Anzio The Infallible.|
-C The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|N|From Anzio The Infallible.|
+A The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|ELITE|N|[color=ff8000]Elite:[/color] From Anzio The Infallible.|PRE|58900|
+C The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|N|Kill the 3 elites that spawn in the center of the theater. Don't worry Arena Challengers will come to assist you. Should be soloable by most players.|
 T The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|N|From Anzio The Infallible.|
+
+; Wasteland Work Sidequest Story
 A Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|From Caleesy.|
 A Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|From Dundae.|
-C Take The Bull By The Horns|QID|58750|M|43.90,50.15|Z|Maldraxxus|N|Kill the birds till you get the message on the screen then grab them.|S|
-C Smack And Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|From Caleesy.|
-C Take The Bull By The Horns|QID|58750|M|43.90,50.15|Z|Maldraxxus|N|Kill the birds till you get the message on the screen then grab them.|US|
+C Smack And Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|S|
+N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
+C Take The Bull By The Horns|QID|58750|M|43.90,50.15|Z|Maldraxxus|QO|1<1|N|Ride the Tauralus back to Dundae.|
+N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
+C Take The Bull By The Horns|QID|58750|M|43.90,50.15|Z|Maldraxxus|QO|1<2|N|Ride the Tauralus back to Dundae.|
+N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
+C Take The Bull By The Horns|QID|58750|M|43.90,50.15|Z|Maldraxxus|QO|1<3|N|Ride the Tauralus back to Dundae.|
+N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
+C Take The Bull By The Horns|QID|58750|M|43.90,50.15|Z|Maldraxxus|QO|1<4|N|Ride the Tauralus back to Dundae.|
+C Smack And Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|US|
+N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
+C Take The Bull By The Horns|QID|58750|M|43.90,50.15|Z|Maldraxxus|QO|1<5|N|Ride the Tauralus back to Dundae.|
 T Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|To Caleesy.|
 T Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|To Dundae.|
-A Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|From Dundae.|
-C Stabbing Wasteward|QID|58794|M|42.40,48.40|Z|Maldraxxus|N|Satiated Sawtooth slain.|
+A Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|From Dundae.|PRE|58750&58785|
+C Stabbing Wasteward|QID|58794|M|42.40,48.40|Z|Maldraxxus|N|Kill the Satiated Sawtooth.|
 T Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|To Dundae.|
 
 ; The House of Plagues Storyline and Mixing Monstrosities Sidestory
@@ -424,24 +438,23 @@ T Maw Walker|QID|62654|M|40.08,68.41|Z|Ring of Fates@Oribos|N|To Highlord Bolvar
 A A Soul Saved|QID|59974|M|39.60,68.00|Z|Ring of Fates@Oribos|N|From Baroness Draka.|PRE|62654|MS|
 
 ; The Empty Throne Storyline
-F The Spearhead|QID|59974|M|49.92,53.20|Z|Maldraxxus|N|Wing Guard Alamar|
-T A Soul Saved|QID|59974|M|41.31,60.63|Z|Maldraxxus|N|To Alexandros Mograine.|
-A In Death We Are Truly Tested|QID|59011|M|41.33,60.62|Z|Maldraxxus|N|To Alexandros Mograine.|
-C In Death We Are Truly Tested|QID|59011|M|41.33,60.62|Z|Maldraxxus|N|Fight Vyraz.|
-T In Death We Are Truly Tested|QID|59011|M|50.49,67.83|Z|Maldraxxus|N|To Baroness Draka.|
-A The Door to the Unknown|QID|60737|M|50.49,67.83|Z|Maldraxxus|N|From Baroness Draka.|
-C The Door to the Unknown|QID|60737|M|50.40,67.41|Z|Maldraxxus|N|Open the door to the Seat of the Primus|
-T The Door to the Unknown|QID|60737|M|49.67,54.47|Z|Seat of the Primus!Dungeon|
-A Words of the Primus|QID|59206|M|49.73,49.19|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|
-F Oribos|QID|59206|M|52.49,67.71|Z|Maldraxxus|N|Wing Guard Buurkin|
-T Words of the Primus|QID|59206|M|54.67,54.62|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen|
-A Request of the Highlord|QID|61715|M|54.67,54.62|Z|Ring of Fates@Oribos|N|From Overseer Kah-Delen|
-C Request of the Highlord|QID|61715|M|49.73,49.19|Z|Seat of the Primus!Dungeon|
-T Request of the Highlord|QID|61715|M|40.40,68.51|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|
-A A Glimpse into Darkness|QID|61716|M|40.40,68.51|Z|Ring of Fates@Oribos|N|From Baroness Draka.|
-C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|1|Z|Ring of Fates@Oribos|NC|N|Focus on the Helm of Domination
-C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|2|Z|Ring of Fates@Oribos|N|Behold Bolvar's Vision
-C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|3|Z|Ring of Fates@Oribos|N|Discuss the Vision
-T A Glimpse into Darkness|QID|61716|M|54.67,54.62|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen|
+F The Spearhead|QID|59974|M|49.92,53.20|Z|Maldraxxus|N|Wing Guard Alamar|MS|
+T A Soul Saved|QID|59974|M|41.31,60.63|Z|Maldraxxus|N|To Alexandros Mograine.|MS|
+A In Death We Are Truly Tested|QID|59011|M|41.33,60.62|Z|Maldraxxus|N|To Alexandros Mograine.|PRE|59974|MS|
+C In Death We Are Truly Tested|QID|59011|M|41.33,60.62|Z|Maldraxxus|N|After the dialog, Fight Vyraz to about 40% health.|MS|
+T In Death We Are Truly Tested|QID|59011|M|50.49,67.83|Z|Maldraxxus|N|To Baroness Draka.|MS|
+A The Door to the Unknown|QID|60737|M|50.49,67.83|Z|Maldraxxus|N|From Baroness Draka.|PRE|59011|MS|
+C The Door to the Unknown|QID|60737|M|50.40,67.41|Z|Maldraxxus|N|Step near the ledge opposite the door and use "[color=40C7EB]Unlock Door[/color]" Action Ability to access the Seat of the Primus.|EAB|MS|
+T The Door to the Unknown|QID|60737|M|49.67,54.47|Z|Seat of the Primus!Dungeon|N|To the Stone Altar.|MS|
+A Words of the Primus|QID|59206|M|49.73,49.19|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|PRE|60737|MS|
+F Oribos|QID|59206|M|52.49,67.71|Z|Maldraxxus|N|At Wing Guard Buurkin.|MS|
+T Words of the Primus|QID|59206|M|54.67,54.62|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
+A Request of the Highlord|QID|61715|M|54.67,54.62|Z|Ring of Fates@Oribos|N|From Overseer Kah-Delen.|PRE|59206|
+T Request of the Highlord|QID|61715|M|40.40,68.51|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
+A A Glimpse into Darkness|QID|61716|M|40.40,68.51|Z|Ring of Fates@Oribos|N|From Baroness Draka.|PRE|61715|MS|
+C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|1|Z|Ring of Fates@Oribos|NC|N|Click on the Helm of Domination.|MS|
+C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|2|Z|Ring of Fates@Oribos|NC|N|Watch cinematic.|MS|
+C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|3|Z|Ring of Fates@Oribos|NC|Sit back while everyone discusses the vision.|MS|
+T A Glimpse into Darkness|QID|61716|M|54.67,54.62|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen|MS|
 ]]
 end)
