@@ -428,9 +428,11 @@ F Stormwind|ACTIVE|147^1787|TZ|Stormwind City|N|Back to Stormwind to turn in a c
 T The Tome of Divinity|QID|1787|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
 A The Tome of Divinity|QID|1788|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm.|PRE|1787|
 T The Tome of Divinity|QID|1788|C|Paladin|M|39.80,29.78|Z|Stormwind City|N|To Duthorian Rall.|
-R Goldshire|ACTIVE|147|M|41.32,63.47|N|Exit Stormwind City and follow the road to Goldshire.|
+R Elwynn Forest|ACTIVE|147|M|32.03,49.18|N|Make your way to the front gate.|
 T Manhunt|QID|147|M|42.1,65.9|N|To Marshall Dughan in Goldshire.|
 
 H Sentinel Hill|ACTIVE|6285|N|If your hearthstone isn't available or set there, you can always fly.|
+; --- Guide ends in Sentinel Hill, Westfall
+
 ]]
 end)

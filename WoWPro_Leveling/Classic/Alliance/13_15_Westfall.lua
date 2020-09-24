@@ -8,8 +8,10 @@ WoWPro:GuideLevels(guide, 13, 15, 13)
 WoWPro:GuideNextGuide(guide, 'ClassicRedridge1517')
 WoWPro:GuideSteps(guide, function () return [[
 
-N This may be a tough solo|AVAILABLE|36|N|If your having difficulties, you may want to go to Loch Modan first (or instead).|
-;---------quests you should have if you did the Elwynn guide------------
+; --- This guide begins in northern Westfall and catches up with the Elwynn and Loch Modan guides
+
+N This may be a tough solo|AVAILABLE|36|N|If you're having difficulties, you may want to go to Loch Modan first (or instead).|
+; --- For anyone that is not coming from the Elwynn or Loch Modan guides
 A The Forgotten Heirloom|QID|64|M|56.04,31.24|N|From Farmer Furlbrow.|
 A Westfall Stew |QID|36|M|59.92,19.41|N|From Verna Furlbrow.|
 A Poor Old Blanchy|QID|151|M|59.92,19.41|N|From Verna Furlbrow.|
@@ -58,9 +60,10 @@ t Red Leather Bandanas|QID|153|M|53.98,52.99|N|To Scout Galiaan.|
 F Lakeshire|ACTIVE|65|M|56.55,52.65|N|Fly to Lakeshire at Thor.|TAXI|Lakeshire|
 F Stormwind|ACTIVE|65|M|56.55,52.65|N|Fly to Stormwind City at Thor.|TAXI|-Lakeshire|
 
-; The following only applies if coming from 1-12 Dun Morogh or 13-14 Loch Modan
+; The following only applies if coming from 1-12 Dun Morogh or 12-14 Loch Modan
 T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
 A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|Stormwind City|N|From Osric Strang.|PRE|6281|
+; --- This guide ends in either Stormwind City or Lakeshire (if you have the FP)
 
 ]]
 end)

@@ -211,7 +211,7 @@ A Training the Beast|QID|6086|PRE|6085|M|45.81,53.04|C|Hunter|R|Dwarf|N|From Gri
 T Training the Beast|QID|6086|C|Hunter|R|Dwarf|M|70.6,85.4|Z|Ironforge|N|To Belia Thundergranite, in Ironforge|
 
 A Speak with Bink|QID|1879|C|Mage|R|Gnome|
-T Speak with Bink|QID|1879|C|Mage|R|Gnome|N|This turn-in is at your Irongforge trainer.|
+T Speak with Bink|QID|1879|C|Mage|R|Gnome|N|This turn-in is at your Ironforge trainer.|
 A Mage-tastic Gizmonitor|QID|1880|PRE|1879|C|Mage|R|Gnome|
 C Mage-tastic Gizmonitor|QID|1880|C|Mage|R|Gnome|M|27.7,36.5|N|The Gizmonitor is in a toolbox at the waypoint.|
 T Mage-tastic Gizmonitor|QID|1880|C|Mage|R|Gnome|
@@ -284,6 +284,7 @@ R Valley of Kings|QID|414|ACTIVE|414|M|21.55,66.25|Z|Loch Modan|N|Continue throu
 R Thelsamar|QID|414|ACTIVE|414|M|33.90,51.00|Z|Loch Modan|N|Follow the road north to Thelsamar.|
 f Thelsamar|QID|414|ACTIVE|414|M|33.90,51.00|Z|Loch Modan|N|Discover Thelsamar Flightpoint with Thorgrum Borrelson|
 T Stout to Kadrell|QID|414|M|32.5,50.0;37,43|CS|Z|Loch Modan|N|To Mountaineer Kadrell, who patrols the length of Thelsamar.|
+; -- This guide ends in Thelsamar, Loch Modan
 
 ]]
 end)
