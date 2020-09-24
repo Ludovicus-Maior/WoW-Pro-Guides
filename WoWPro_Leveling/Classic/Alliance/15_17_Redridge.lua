@@ -37,7 +37,7 @@ R Rut'theran Village|AVAILABLE|244|C|Druid|M|30.05,41.31|Z|Darnassus|N|Run to Ru
 F Auberdine|AVAILABLE|244|C|Druid|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
 b Wetlands|AVAILABLE|244|C|Druid|M|32.42,43.74|Z|Darkshore|N|Get on the boat to Menethil (read the sign post).|
 F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City and rejoin the guide.|C|Druid|
-; --- 
+; ---
 
 F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City.|TAXI|-Lakeshire|R|Night Elf|C|-Druid|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|N|Make your way to the front gate.|TAXI|-Lakeshire|
