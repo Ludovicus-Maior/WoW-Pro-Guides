@@ -37,7 +37,7 @@ R Rut'theran Village|AVAILABLE|244|C|Druid|M|30.05,41.31|Z|Darnassus|N|Run to Ru
 F Auberdine|AVAILABLE|244|C|Druid|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
 b Wetlands|AVAILABLE|244|C|Druid|M|32.42,43.74|Z|Darkshore|N|Get on the boat to Menethil (read the sign post).|
 F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City and rejoin the guide.|C|Druid|
-; --- 
+; ---
 
 F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City.|TAXI|-Lakeshire|R|Night Elf|C|-Druid|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|N|Make your way to the front gate.|TAXI|-Lakeshire|
@@ -52,7 +52,7 @@ f Lakeshire|AVAILABLE|125|M|30.60,59.40|N|Get the flight path from Ariena Stormf
 A The Lost Tools|QID|125|M|32.14,48.64|N|From Foreman Oslow.|
 A The Price of Shoes|QID|118|M|30.98,47.28|N|From Verner Osgood.|
 
-;A Underbelly Scales|QID|122|M|30.98,47.28|N|From Verner Osgood. (don't get his other quest right now)|PRE|119| --- This quest is not available yet 
+;A Underbelly Scales|QID|122|M|30.98,47.28|N|From Verner Osgood. (don't get his other quest right now)|PRE|119| --- This quest is not available yet
 A Messenger to Stormwind|QID|120|M|29.99,44.44|N|From Magistrate Solomon, in the town hall.|
 A A Free Lunch|QID|129|M|26.9,44.53|N|From Darcy, in the inn.|
 A Dry Times|QID|116|M|26.49,43.95|N|From Barkeep Daniels.|
