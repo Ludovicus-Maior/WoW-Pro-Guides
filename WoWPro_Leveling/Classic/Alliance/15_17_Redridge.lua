@@ -71,8 +71,8 @@ T Return to Verner|QID|119|M|30.98,47.28|Z|Redridge Mountains|N|To Verner Osgood
 A Underbelly Scales|QID|122|M|30.98,47.28|N|From Verner Osgood.|PRE|119|
 
 C Goretusks|ACTIVE|92|L|2296 5|N|Kill Goretusks to loot Great Goretusk Snout.|S|
-C Condors|ACTIVE|92|L|1080 5|N|Kill Condors to loot 5 Tough Condor Meat.|T|Dire Condor|S|
 C Spiders|ACTIVE|92|L|1081 5|N|Kill spiders to loot Crisp Spider Meat.|S|
+C Condors|ACTIVE|92|L|1080 5|N|Kill Condors to loot 5 Tough Condor Meat.|T|Dire Condor|S|
 C Black Dragon Whelps|QID|122|L|1221 6|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|S|
 T A Free Lunch|QID|129|M|15.28,71.46|N|To Guard Parker. He roams the fork in the road up ahead.|
 A Visit the Herbalist|QID|130|M|15.28,71.46|N|To Guard Parker. He roams the fork in the road.|PRE|129|
@@ -80,8 +80,8 @@ A Visit the Herbalist|QID|130|M|15.28,71.46|N|To Guard Parker. He roams the fork
 R Lakeridge Highway|ACTIVE|246|M|24.39,76.09|N|Follow the road east.|
 C Assessing the Threat|QID|246|QO|1;2|N|Kill any Redridge Poachers and Mongrels in the area until you finish this quest.|
 C Goretusks|ACTIVE|92|L|2296 5|N|Kill Goretusks to loot Great Goretusk Snout.|US|
-C Condors|ACTIVE|92|L|1080 5|N|Kill Condors to loot 5 Tough Condor Meat.|T|Dire Condor|US|
 C Spiders|ACTIVE|92|L|1081 5|N|Kill the spiders to loot Crisp Spider Meat.|US|
+C Condors|ACTIVE|92|L|1080 5|N|Kill Condors to loot 5 Tough Condor Meat.|T|Dire Condor|US|
 C Black Dragon Whelps|QID|122|M|18,72.6|N|Kill the Black Dragon Whelps to loot Underbelly Whelp Scales.|US|
 T Assessing the Threat|QID|246|M|30.74,59.99|N|To Deputy Feldon.|
 C The Lost Tools|QID|125|M|41.60,54.70|L|1309|N|Loot the tools from the chest at the bottom of the lake.|
