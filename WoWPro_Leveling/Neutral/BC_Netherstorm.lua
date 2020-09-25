@@ -305,10 +305,11 @@ r Repair/Restock|QID|10237|M|32.40,64.43|N|At Blazzle.|
 T Warn Area 52!|QID|10237|M|32.64,64.48|N|To Rocket-Chief Fuselage.|
 A Doctor Vomisa, Ph.T.|QID|10247|PRE|10237|M|32.64,64.48|N|From Rocket-Chief Fuselage.|
 T In A Scrap With The Legion|QID|10232|M|32.94,64.68|N|To Papa Wheeler.|
-T Doctor Vomisa, Ph.T.|QID|10247|M|37.34,63.84|N|To Doctor Vomisa, Ph.T..|
-A You, Robot|QID|10248|PRE|10247|M|37.34,63.84|N|From Doctor Vomisa, Ph.T..|
-C You, Robot|QID|10248|U|28634|M|40.36,62.08|N|You will most likely need help with this quest. Use the Scrap Reaver X6000 Controller. Kill Negatron. You can not leave The Proving Grounds.|
-A Back to the Chief!|QID|10249|PRE|10248|M|37.3,63.74|N|From Doctor Vomisa, Ph.T..|
+T Doctor Vomisa, Ph.T.|QID|10247|M|37.34,63.84|N|To Doctor Vomisa, Ph.T.|
+A You, Robot|QID|10248|PRE|10247|M|37.34,63.84|ELITE|N|[color=ff8000]Elite:[/color]From Doctor Vomisa, Ph.T.|
+C You, Robot|QID|10248|U|28634|M|PLAYER|N|You will most likely need help with this quest. Use the Scrap Reaver X6000 Controller. Kill Negatron. You can not leave The Proving Grounds.|
+T You, Robot|QID|10248|M|37.34,63.84|N|To Doctor Vomisa, Ph.T.|
+A Back to the Chief!|QID|10249|PRE|10248|M|37.3,63.74|N|From Doctor Vomisa, Ph.T.|
 T Rightful Repossession|QID|10267|M|46.63,56.95|N|To Gahruj.|
 A An Audience with the Prince|QID|10268|PRE|10267|M|46.63,56.95|N|From Gahruj.|
 T To the Stormspire|QID|10423|M|43.50,35.06|N|To Ghabar.|
