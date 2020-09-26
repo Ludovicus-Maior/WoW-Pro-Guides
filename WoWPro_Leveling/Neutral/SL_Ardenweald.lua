@@ -53,7 +53,7 @@ f Tirna Vaal|QID|50599|M|63.42,37.52|Z|Ardenweald!The Shadowlands|N|At Lanra.|MS
 ; Aiding Tirna Vaal Storyline
 A Spirits of the Glen|QID|57947|M|63.47,36.37|Z|Ardenweald!The Shadowlands|N|From Droman Tashmur.|PRE|57787|MS|
 A Dreamweaver|QID|57816|M|63.47,36.37|Z|Ardenweald!The Shadowlands|N|From Droman Tashmur.|PRE|57787|MS|
-T Spirits of the Glen|QID|57947|M|67.09,32.18|Z|Ardenweald!The Shadowlands|N|To Choofa.|
+T Spirits of the Glen|QID|57947|M|67.09,32.18|Z|Ardenweald!The Shadowlands|N|To Choofa.|RANK|2|
 A They Need to Calm Down|QID|57949|M|67.09,32.18|Z|Ardenweald!The Shadowlands|N|From Choofa.|PRE|57947|MS|
 A Nothing Left to Give|QID|57948|M|67.09,32.18|Z|Ardenweald!The Shadowlands|N|From Choofa.|PRE|57947|MS|
 C Nothing Left to Give|QID|57948|M|66.97,34.24|Z|Ardenweald!The Shadowlands|QO|2|N|Rury restored.|MS|
@@ -125,79 +125,79 @@ C Audience with the Winter Queen|QID|60519|M|63.51,36.09|Z|Ardenweald!The Shadow
 T Audience with the Winter Queen|QID|60519|M|63.60,36.23|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|MS|
 
 ; Sidequest Storyline - When a Gorm Eats a God
-A Call of the Hunt|QID|60521|M|63.60,36.23|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|
-A In Need of Gorm Gris|QID|57952|M|62.68,36.09|Z|Ardenweald!The Shadowlands|N|From Guardian Kota.|LVL|55|
-T In Need of Gorm Gris|QID|57952|M|64.88,38.93|Z|Ardenweald!The Shadowlands|N|To Master Sha'lor.|
-A Nothing Goes to Waste|QID|57818|M|64.88,38.93|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|PRE|57952|
-C Nothing Goes to Waste|QID|57818|M|64.97,38.94|Z|Ardenweald!The Shadowlands|QO|1|N|Depleted Wildseed collected.|
-C Nothing Goes to Waste|QID|57818|M|65.40,38.99|Z|Ardenweald!The Shadowlands|QO|2|N|Depleted Wildseed placed.|
-C Nothing Goes to Waste|QID|57818|M|65.40,39.06|Z|Ardenweald!The Shadowlands|QO|3|N|Gormlings Coaxed to Wildseed.|
-T Nothing Goes to Waste|QID|57818|M|64.88,38.91|Z|Ardenweald!The Shadowlands|N|To Master Sha'lor.|
-A Collection Day|QID|57824|M|64.88,38.91|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|PRE|57818|
-C Collection Day|QID|57824|M|64.82,38.82|Z|Ardenweald!The Shadowlands|QO|1|U|172955|N|Gormherd Branch used on Gloober.|
-C Collection Day|QID|57824|M|65.64,37.75|Z|Ardenweald!The Shadowlands|QO|3|U|172955|N|Gormherd Branch tested on Gorged Gormlings.|
-C Collection Day|QID|57824|M|64.90,38.83|Z|Ardenweald!The Shadowlands|QO|2|U|172955|N|Fresh Gorm Gris collected.|
-T Collection Day|QID|57824|M|64.86,38.89|Z|Ardenweald!The Shadowlands|N|To Master Sha'lor.|
-A Delivery for Guardian Kota|QID|57825|M|64.86,38.89|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|PRE|57824|
-T Delivery for Guardian Kota|QID|57825|M|62.63,36.08|Z|Ardenweald!The Shadowlands|N|To Guardian Kota.|
-A The Absent-Minded Artisan|QID|61051|M|62.63,36.08|Z|Ardenweald!The Shadowlands|N|From Guardian Kota.|PRE|57825|
-A Forest Disappearances|QID|58161|M|64.34,35.14|Z|Ardenweald!The Shadowlands|N|From Brigdin.|LVL|55|
-C The Absent-Minded Artisan|QID|61051|M|63.02,33.80|Z|Ardenweald!The Shadowlands|QO|1|N|Autumnal Rise investigated.|
-T The Absent-Minded Artisan|QID|61051|M|62.92,32.17|Z|Ardenweald!The Shadowlands|N|To Guardian Kota.|
-A Finish What He Started|QID|58022|M|62.92,32.17|Z|Ardenweald!The Shadowlands|N|From Guardian Kota.|PRE|61051|
-A One Big Problem|QID|58023|M|62.92,32.17|Z|Ardenweald!The Shadowlands|N|From Guardian Kota.|PRE|61051|
-C One Big Problem|QID|58023|M|63.23,30.81|Z|Ardenweald!The Shadowlands|QO|1|U|173534|N|Gloober found.|
-A Burrows Away|QID|58024|M|62.20,30.01|Z|Ardenweald!The Shadowlands|N|From Gorm Burrow.|PRE|61051|
-C One Big Problem|QID|58023|M|62.31,28.17|Z|Ardenweald!The Shadowlands|QO|2|U|173534|N|Gorm Matriarch confronted.|
-C Finish What He Started|QID|58022|M|61.20,31.93|Z|Ardenweald!The Shadowlands|QO|1|U|173534|N|Wild Gorm Gris.|
-C Burrows Away|QID|58024|M|60.52,32.57|Z|Ardenweald!The Shadowlands|QO|1|N|Gorm Burrow collapsed.|
-C One Big Problem|QID|58023|M|61.90,33.56|Z|Ardenweald!The Shadowlands|QO|3|U|173534|N|Gorm Matriarch confronted.|
-C One Big Problem|QID|58023|M|61.39,71.61|QO|4|U|173534|N|Gorm Matriarch's Den located.|
-T Finish What He Started|QID|58022|M|59.46,45.41|N|To Guardian Kota.|
-T One Big Problem|QID|58023|M|59.46,45.41|N|To Guardian Kota.|
-T Burrows Away|QID|58024|M|59.46,45.41|N|To Guardian Kota.|
-A Queen of the Underground|QID|58025|M|59.46,45.41|N|From Guardian Kota.|PRE|58022&58023&58024|
-C Queen of the Underground|QID|58025|M|45.08,51.51|QO|1|U|173534|N|Gorm Matriarch slain.|
-T Queen of the Underground|QID|58025|M|59.65,45.27|N|To Guardian Kota.|
-A When a Gorm Eats a God|QID|58026|M|59.65,45.27|N|From Guardian Kota.|PRE|58025|
-T When a Gorm Eats a God|QID|58026|M|63.47,36.30|Z|Ardenweald!The Shadowlands|N|To Droman Tashmur.|
+A Call of the Hunt|QID|60521|M|63.60,36.23|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|RANK|2|
+A In Need of Gorm Gris|QID|57952|M|62.68,36.09|Z|Ardenweald!The Shadowlands|N|From Guardian Kota.|LVL|55|RANK|2|
+T In Need of Gorm Gris|QID|57952|M|64.88,38.93|Z|Ardenweald!The Shadowlands|N|To Master Sha'lor.|RANK|2|
+A Nothing Goes to Waste|QID|57818|M|64.88,38.93|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|PRE|57952|RANK|2|
+C Nothing Goes to Waste|QID|57818|M|64.97,38.94|Z|Ardenweald!The Shadowlands|QO|1|N|Depleted Wildseed collected.|RANK|2|
+C Nothing Goes to Waste|QID|57818|M|65.40,38.99|Z|Ardenweald!The Shadowlands|QO|2|N|Depleted Wildseed placed.|RANK|2|
+C Nothing Goes to Waste|QID|57818|M|65.40,39.06|Z|Ardenweald!The Shadowlands|QO|3|N|Gormlings Coaxed to Wildseed.|RANK|2|
+T Nothing Goes to Waste|QID|57818|M|64.88,38.91|Z|Ardenweald!The Shadowlands|N|To Master Sha'lor.|RANK|2|
+A Collection Day|QID|57824|M|64.88,38.91|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|PRE|57818|RANK|2|
+C Collection Day|QID|57824|M|64.82,38.82|Z|Ardenweald!The Shadowlands|QO|1|U|172955|N|Gormherd Branch used on Gloober.|RANK|2|
+C Collection Day|QID|57824|M|65.64,37.75|Z|Ardenweald!The Shadowlands|QO|3|U|172955|N|Gormherd Branch tested on Gorged Gormlings.|RANK|2|
+C Collection Day|QID|57824|M|64.90,38.83|Z|Ardenweald!The Shadowlands|QO|2|U|172955|N|Fresh Gorm Gris collected.|RANK|2|
+T Collection Day|QID|57824|M|64.86,38.89|Z|Ardenweald!The Shadowlands|N|To Master Sha'lor.|RANK|2|
+A Delivery for Guardian Kota|QID|57825|M|64.86,38.89|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|PRE|57824|RANK|2|
+T Delivery for Guardian Kota|QID|57825|M|62.63,36.08|Z|Ardenweald!The Shadowlands|N|To Guardian Kota.|RANK|2|
+A The Absent-Minded Artisan|QID|61051|M|62.63,36.08|Z|Ardenweald!The Shadowlands|N|From Guardian Kota.|PRE|57825|RANK|2|
+A Forest Disappearances|QID|58161|M|64.34,35.14|Z|Ardenweald!The Shadowlands|N|From Brigdin.|LVL|55|RANK|2|
+C The Absent-Minded Artisan|QID|61051|M|63.02,33.80|Z|Ardenweald!The Shadowlands|QO|1|N|Autumnal Rise investigated.|RANK|2|
+T The Absent-Minded Artisan|QID|61051|M|62.92,32.17|Z|Ardenweald!The Shadowlands|N|To Guardian Kota.|RANK|2|
+A Finish What He Started|QID|58022|M|62.92,32.17|Z|Ardenweald!The Shadowlands|N|From Guardian Kota.|PRE|61051|RANK|2|
+A One Big Problem|QID|58023|M|62.92,32.17|Z|Ardenweald!The Shadowlands|N|From Guardian Kota.|PRE|61051|RANK|2|
+C One Big Problem|QID|58023|M|63.23,30.81|Z|Ardenweald!The Shadowlands|QO|1|U|173534|N|Gloober found.|RANK|2|
+A Burrows Away|QID|58024|M|62.20,30.01|Z|Ardenweald!The Shadowlands|N|From Gorm Burrow.|PRE|61051|RANK|2|
+C One Big Problem|QID|58023|M|62.31,28.17|Z|Ardenweald!The Shadowlands|QO|2|U|173534|N|Gorm Matriarch confronted.|RANK|2|
+C Finish What He Started|QID|58022|M|61.20,31.93|Z|Ardenweald!The Shadowlands|QO|1|U|173534|N|Wild Gorm Gris.|RANK|2|
+C Burrows Away|QID|58024|M|60.52,32.57|Z|Ardenweald!The Shadowlands|QO|1|N|Gorm Burrow collapsed.|RANK|2|
+C One Big Problem|QID|58023|M|61.90,33.56|Z|Ardenweald!The Shadowlands|QO|3|U|173534|N|Gorm Matriarch confronted.|RANK|2|
+C One Big Problem|QID|58023|M|61.39,71.61|QO|4|U|173534|N|Gorm Matriarch's Den located.|RANK|2|
+T Finish What He Started|QID|58022|M|59.46,45.41|N|To Guardian Kota.|RANK|2|
+T One Big Problem|QID|58023|M|59.46,45.41|N|To Guardian Kota.|RANK|2|
+T Burrows Away|QID|58024|M|59.46,45.41|N|To Guardian Kota.|RANK|2|
+A Queen of the Underground|QID|58025|M|59.46,45.41|N|From Guardian Kota.|PRE|58022&58023&58024|RANK|2|
+C Queen of the Underground|QID|58025|M|45.08,51.51|QO|1|U|173534|N|Gorm Matriarch slain.|RANK|2|
+T Queen of the Underground|QID|58025|M|59.65,45.27|N|To Guardian Kota.|RANK|2|
+A When a Gorm Eats a God|QID|58026|M|59.65,45.27|N|From Guardian Kota.|PRE|58025|RANK|2|
+T When a Gorm Eats a God|QID|58026|M|63.47,36.30|Z|Ardenweald!The Shadowlands|N|To Droman Tashmur.|RANK|2|
 
 ; Sidequest Storyline - An Ominous Stone
-A The Grove of Creation|QID|57660|M|62.88,36.22|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|
-T Forest Disappearances|QID|58161|M|70.36,32.59|Z|Ardenweald!The Shadowlands|N|To Partik.|
-A Cult of Personality|QID|58164|M|70.36,32.59|Z|Ardenweald!The Shadowlands|N|From Partik.|PRE|58161|
-A Mysterious Masks|QID|58162|M|70.36,32.59|Z|Ardenweald!The Shadowlands|N|From Partik.|PRE|58161|
-A A Desperate Solution|QID|58163|M|72.15,33.87|Z|Ardenweald!The Shadowlands|N|From Masked Sylvar.|PRE|58161|
-C A Desperate Solution|QID|58163|M|73.48,34.26|Z|Ardenweald!The Shadowlands|QO|1|N|Stained Journal Page.|
-C A Desperate Solution|QID|58163|M|73.44,33.81|Z|Ardenweald!The Shadowlands|QO|3|N|Torn Journal Page.|
-C Mysterious Masks|QID|58162|M|73.49,35.61|Z|Ardenweald!The Shadowlands|QO|1|N|Featureless Mask.|
-C A Desperate Solution|QID|58163|M|71.84,38.16|Z|Ardenweald!The Shadowlands|QO|2|N|Crumpled Journal Page.|
-C Cult of Personality|QID|58164|M|71.96,38.57|Z|Ardenweald!The Shadowlands|QO|1|N|Captives freed.|
-T Cult of Personality|QID|58164|M|70.34,32.59|Z|Ardenweald!The Shadowlands|N|To Partik.|
-T Mysterious Masks|QID|58162|M|70.34,32.59|Z|Ardenweald!The Shadowlands|N|To Partik.|
-T A Desperate Solution|QID|58163|M|70.34,32.59|Z|Ardenweald!The Shadowlands|N|To Partik.|
-A The Crumbling Village|QID|59802|M|70.34,32.59|Z|Ardenweald!The Shadowlands|N|From Partik.|PRE|58162&58163&58164|
-T The Crumbling Village|QID|59802|M|74.27,32.36|Z|Ardenweald!The Shadowlands|N|To Partik.|
-A Cut the Roots|QID|58165|M|74.27,32.36|Z|Ardenweald!The Shadowlands|N|From Partik.|PRE|59802|
-A Take the Power|QID|59801|M|74.27,32.36|Z|Ardenweald!The Shadowlands|N|From Partik.|PRE|59802|
-C Cut the Roots|QID|58165|M|74.08,30.69|Z|Ardenweald!The Shadowlands|QO|2|N|Bitterfly slain.|
-C Cut the Roots|QID|58165|M|76.41,30.96|Z|Ardenweald!The Shadowlands|QO|3|N|Wildtwister Lewor slain.|
-A Swollen Anima Seed|QID|62186|M|76.65,29.76|Z|Ardenweald!The Shadowlands.|
-C Cut the Roots|QID|58165|M|75.55,33.76|Z|Ardenweald!The Shadowlands|QO|1|N|Fiona Bleakthorn slain.|
-C Take the Power|QID|59801|M|75.61,34.18|Z|Ardenweald!The Shadowlands|QO|1|N|Animacone.|
-T Cut the Roots|QID|58165|M|74.29,32.34|Z|Ardenweald!The Shadowlands|N|To Partik.|
-T Take the Power|QID|59801|M|74.29,32.34|Z|Ardenweald!The Shadowlands|N|To Partik.|
-A Unknown Assailants|QID|58166|M|74.29,32.34|Z|Ardenweald!The Shadowlands|N|From Partik.|PRE|58165&59801|
-T Unknown Assailants|QID|58166|M|63.52,36.21|Z|Ardenweald!The Shadowlands|N|To Droman Tashmur.|
-T Swollen Anima Seed|QID|62186|M|63.52,36.21|Z|Ardenweald!The Shadowlands|N|To Droman Tashmur.|
-T The Grove of Creation|QID|57660|M|51.10,33.82|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|
+A The Grove of Creation|QID|57660|M|62.88,36.22|Z|Ardenweald!The Shadowlands|N|From Master Sha'lor.|RANK|2|
+T Forest Disappearances|QID|58161|M|70.36,32.59|Z|Ardenweald!The Shadowlands|N|To Partik.|RANK|2|
+A Cult of Personality|QID|58164|M|70.36,32.59|Z|Ardenweald!The Shadowlands|N|From Partik.|PRE|58161|RANK|2|
+A Mysterious Masks|QID|58162|M|70.36,32.59|Z|Ardenweald!The Shadowlands|N|From Partik.|PRE|58161|RANK|2|
+A A Desperate Solution|QID|58163|M|72.15,33.87|Z|Ardenweald!The Shadowlands|N|From Masked Sylvar.|PRE|58161|RANK|2|
+C A Desperate Solution|QID|58163|M|73.48,34.26|Z|Ardenweald!The Shadowlands|QO|1|N|Stained Journal Page.|RANK|2|
+C A Desperate Solution|QID|58163|M|73.44,33.81|Z|Ardenweald!The Shadowlands|QO|3|N|Torn Journal Page.|RANK|2|
+C Mysterious Masks|QID|58162|M|73.49,35.61|Z|Ardenweald!The Shadowlands|QO|1|N|Featureless Mask.|RANK|2|
+C A Desperate Solution|QID|58163|M|71.84,38.16|Z|Ardenweald!The Shadowlands|QO|2|N|Crumpled Journal Page.|RANK|2|
+C Cult of Personality|QID|58164|M|71.96,38.57|Z|Ardenweald!The Shadowlands|QO|1|N|Captives freed.|RANK|2|
+T Cult of Personality|QID|58164|M|70.34,32.59|Z|Ardenweald!The Shadowlands|N|To Partik.|RANK|2|
+T Mysterious Masks|QID|58162|M|70.34,32.59|Z|Ardenweald!The Shadowlands|N|To Partik.|RANK|2|
+T A Desperate Solution|QID|58163|M|70.34,32.59|Z|Ardenweald!The Shadowlands|N|To Partik.|RANK|2|
+A The Crumbling Village|QID|59802|M|70.34,32.59|Z|Ardenweald!The Shadowlands|N|From Partik.|PRE|58162&58163&58164|RANK|2|
+T The Crumbling Village|QID|59802|M|74.27,32.36|Z|Ardenweald!The Shadowlands|N|To Partik.|RANK|2|
+A Cut the Roots|QID|58165|M|74.27,32.36|Z|Ardenweald!The Shadowlands|N|From Partik.|PRE|59802|RANK|2|
+A Take the Power|QID|59801|M|74.27,32.36|Z|Ardenweald!The Shadowlands|N|From Partik.|PRE|59802|RANK|2|
+C Cut the Roots|QID|58165|M|74.08,30.69|Z|Ardenweald!The Shadowlands|QO|2|N|Bitterfly slain.|RANK|2|
+C Cut the Roots|QID|58165|M|76.41,30.96|Z|Ardenweald!The Shadowlands|QO|3|N|Wildtwister Lewor slain.|RANK|2|
+A Swollen Anima Seed|QID|62186|M|76.65,29.76|Z|Ardenweald!The Shadowlands|RANK|2|
+C Cut the Roots|QID|58165|M|75.55,33.76|Z|Ardenweald!The Shadowlands|QO|1|N|Fiona Bleakthorn slain.|RANK|2|
+C Take the Power|QID|59801|M|75.61,34.18|Z|Ardenweald!The Shadowlands|QO|1|N|Animacone.|RANK|2|
+T Cut the Roots|QID|58165|M|74.29,32.34|Z|Ardenweald!The Shadowlands|N|To Partik.|RANK|2|
+T Take the Power|QID|59801|M|74.29,32.34|Z|Ardenweald!The Shadowlands|N|To Partik.|RANK|2|
+A Unknown Assailants|QID|58166|M|74.29,32.34|Z|Ardenweald!The Shadowlands|N|From Partik.|PRE|58165&59801|RANK|2|
+T Unknown Assailants|QID|58166|M|63.52,36.21|Z|Ardenweald!The Shadowlands|N|To Droman Tashmur.|RANK|2|
+T Swollen Anima Seed|QID|62186|M|63.52,36.21|Z|Ardenweald!The Shadowlands|N|To Droman Tashmur.|RANK|2|
+T The Grove of Creation|QID|57660|M|51.10,33.82|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
 
 ; Glitterfall Heights Storyline
 T Call of the Hunt|QID|60521|M|51.27,34.00|Z|Ardenweald!The Shadowlands|N|To Hunt-Captain Korayn.|MS|
 A The Missing Hunters|QID|60628|M|51.27,34.00|Z|Ardenweald!The Shadowlands|N|From Hunt-Captain Korayn.|PRE|60521|MS|
 A Extreme Recycling|QID|60629|M|51.27,34.00|Z|Ardenweald!The Shadowlands|N|From Hunt-Captain Korayn.|PRE|60521|MS|
 f Glitterfall Basin|ACTIVE|60629|M|51.41,34.46|Z|Ardenweald!The Shadowlands|N|At Dwyl'ir.|MS|
-A Trouble in the Banks|QID|57651|M|51.14,33.84|Z|Ardenweald!The Shadowlands|N|From Lady of the Falls.|
+A Trouble in the Banks|QID|57651|M|51.14,33.84|Z|Ardenweald!The Shadowlands|N|From Lady of the Falls.|RANK|2|
 C The Missing Hunters|QID|60628|M|53.65,32.67|Z|Ardenweald!The Shadowlands|QO|3|N|Rondar found.|MS|
 C Extreme Recycling|QID|60629|M|54.49,32.84|Z|Ardenweald!The Shadowlands|QO|1|N|Fae Weapons collected.|MS|
 C The Missing Hunters|QID|60628|M|55.92,33.86|Z|Ardenweald!The Shadowlands|QO|2|N|Serinkei found.|MS|
@@ -218,61 +218,61 @@ T I Know Your Face|QID|60632|M|51.28,33.96|Z|Ardenweald!The Shadowlands|N|To Ara
 A Return to Tirna Vaal|QID|60522|M|51.28,33.96|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60632|MS|
 
 ; Sidequest Storyline - Trouble at the Gormling Corral & Supplies Needed
-T Trouble in the Banks|QID|57651|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
-A Breaking A Few Eggs|QID|59621|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|57651|
-A Tending to the Tenders|QID|59622|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|57651|
-A Supplies Needed: Amber Grease|QID|57652|M|46.90,27.73|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|LVL|56|
-C Tending to the Tenders|QID|59622|M|45.88,25.38|Z|Ardenweald!The Shadowlands|QO|1|N|Egg-Tender Tiom slain.|
-C Tending to the Tenders|QID|59622|M|45.44,23.22|Z|Ardenweald!The Shadowlands|QO|2|N|Egg-Tender Bloome slain.|
-C Supplies Needed: Amber Grease|QID|57652|M|46.25,22.09|Z|Ardenweald!The Shadowlands|QO|1|N|Giant Gorm Gris.|
-C Tending to the Tenders|QID|59622|M|44.82,24.40|Z|Ardenweald!The Shadowlands|QO|3|N|Egg-Tender Erys slain.|
-C Breaking A Few Eggs|QID|59621|M|45.54,25.50|Z|Ardenweald!The Shadowlands|QO|1|N|Gorm eggs destroyed.|
-T Breaking A Few Eggs|QID|59621|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
-T Tending to the Tenders|QID|59622|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
-A Unsafe Workplace|QID|57653|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|59621|
-A Gifts of the Forest|QID|57656|M|48.06,24.38|Z|Ardenweald!The Shadowlands|N|From Fluttercatch.|PRE|59621|
-C Unsafe Workplace|QID|57653|M|47.40,22.51|Z|Ardenweald!The Shadowlands|QO|1|U|172950|N|Wounded fae healed.|
-A Supplies Needed: More Husks!|QID|57655|M|47.49,26.37|Z|Ardenweald!The Shadowlands|N|From Gorm Harrier.|LVL|56|
-C Supplies Needed: More Husks!|QID|57655|M|49.37,22.96|Z|Ardenweald!The Shadowlands|QO|1|U|172517|N|Treated Gorm Husk.|
-C Gifts of the Forest|QID|57656|M|49.02,26.74|Z|Ardenweald!The Shadowlands|QO|1|U|172517|N|Culexwood Branch.|
-T Gifts of the Forest|QID|57656|M|48.05,24.39|Z|Ardenweald!The Shadowlands|N|To Fluttercatch.|
-A Tied Totem Toter|QID|57657|M|48.02,24.39|Z|Ardenweald!The Shadowlands|N|From Fluttercatch.|PRE|57656|
-C Tied Totem Toter|QID|57657|M|47.99,24.28|Z|Ardenweald!The Shadowlands|QO|1|N|Take the Gormling Lure.|
-C Tied Totem Toter|QID|57657|M|47.02,28.55|Z|Ardenweald!The Shadowlands|QO|2|N|Deliver gormlings to southern wrangler.|
-T Unsafe Workplace|QID|57653|M|46.65,29.31|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
-T Tied Totem Toter|QID|57657|M|46.65,29.31|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|
-A Well, Tell the Lady|QID|59656|M|46.65,29.31|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|57653&57657|
-T Well, Tell the Lady|QID|59656|M|51.07,33.79|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|
-T Supplies Needed: Amber Grease|QID|57652|M|51.51,33.99|Z|Ardenweald!The Shadowlands|N|To Gormsmith Cavina.|
-T Supplies Needed: More Husks!|QID|57655|M|51.51,33.99|Z|Ardenweald!The Shadowlands|N|To Gormsmith Cavina.|
-A What a Buzzkill|QID|59623|M|51.51,33.99|Z|Ardenweald!The Shadowlands|N|From Gormsmith Cavina.|PRE|57652&57655|
-C What a Buzzkill|QID|59623|M|49.87,27.17|Z|Ardenweald!The Shadowlands|QO|1|N|Buzzkill's Stinger.|
-T What a Buzzkill|QID|59623|M|51.54,33.97|Z|Ardenweald!The Shadowlands|N|To Gormsmith Cavina.|
+T Trouble in the Banks|QID|57651|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|RANK|2|
+A Breaking A Few Eggs|QID|59621|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|57651|RANK|2|
+A Tending to the Tenders|QID|59622|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|57651|RANK|2|
+A Supplies Needed: Amber Grease|QID|57652|M|46.90,27.73|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|LVL|56|RANK|2|
+C Tending to the Tenders|QID|59622|M|45.88,25.38|Z|Ardenweald!The Shadowlands|QO|1|N|Egg-Tender Tiom slain.|RANK|2|
+C Tending to the Tenders|QID|59622|M|45.44,23.22|Z|Ardenweald!The Shadowlands|QO|2|N|Egg-Tender Bloome slain.|RANK|2|
+C Supplies Needed: Amber Grease|QID|57652|M|46.25,22.09|Z|Ardenweald!The Shadowlands|QO|1|N|Giant Gorm Gris.|RANK|2|
+C Tending to the Tenders|QID|59622|M|44.82,24.40|Z|Ardenweald!The Shadowlands|QO|3|N|Egg-Tender Erys slain.|RANK|2|
+C Breaking A Few Eggs|QID|59621|M|45.54,25.50|Z|Ardenweald!The Shadowlands|QO|1|N|Gorm eggs destroyed.|RANK|2|
+T Breaking A Few Eggs|QID|59621|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|RANK|2|
+T Tending to the Tenders|QID|59622|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|RANK|2|
+A Unsafe Workplace|QID|57653|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|59621|RANK|2|
+A Gifts of the Forest|QID|57656|M|48.06,24.38|Z|Ardenweald!The Shadowlands|N|From Fluttercatch.|PRE|59621|RANK|2|
+C Unsafe Workplace|QID|57653|M|47.40,22.51|Z|Ardenweald!The Shadowlands|QO|1|U|172950|N|Wounded fae healed.|RANK|2|
+A Supplies Needed: More Husks!|QID|57655|M|47.49,26.37|Z|Ardenweald!The Shadowlands|N|From Gorm Harrier.|LVL|56|RANK|2|
+C Supplies Needed: More Husks!|QID|57655|M|49.37,22.96|Z|Ardenweald!The Shadowlands|QO|1|U|172517|N|Treated Gorm Husk.|RANK|2|
+C Gifts of the Forest|QID|57656|M|49.02,26.74|Z|Ardenweald!The Shadowlands|QO|1|U|172517|N|Culexwood Branch.|RANK|2|
+T Gifts of the Forest|QID|57656|M|48.05,24.39|Z|Ardenweald!The Shadowlands|N|To Fluttercatch.|RANK|2|
+A Tied Totem Toter|QID|57657|M|48.02,24.39|Z|Ardenweald!The Shadowlands|N|From Fluttercatch.|PRE|57656|RANK|2|
+C Tied Totem Toter|QID|57657|M|47.99,24.28|Z|Ardenweald!The Shadowlands|QO|1|N|Take the Gormling Lure.|RANK|2|
+C Tied Totem Toter|QID|57657|M|47.02,28.55|Z|Ardenweald!The Shadowlands|QO|2|N|Deliver gormlings to southern wrangler.|RANK|2|
+T Unsafe Workplace|QID|57653|M|46.65,29.31|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|RANK|2|
+T Tied Totem Toter|QID|57657|M|46.65,29.31|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|RANK|2|
+A Well, Tell the Lady|QID|59656|M|46.65,29.31|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|57653&57657|RANK|2|
+T Well, Tell the Lady|QID|59656|M|51.07,33.79|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
+T Supplies Needed: Amber Grease|QID|57652|M|51.51,33.99|Z|Ardenweald!The Shadowlands|N|To Gormsmith Cavina.|RANK|2|
+T Supplies Needed: More Husks!|QID|57655|M|51.51,33.99|Z|Ardenweald!The Shadowlands|N|To Gormsmith Cavina.|RANK|2|
+A What a Buzzkill|QID|59623|M|51.51,33.99|Z|Ardenweald!The Shadowlands|N|From Gormsmith Cavina.|PRE|57652&57655|RANK|2|
+C What a Buzzkill|QID|59623|M|49.87,27.17|Z|Ardenweald!The Shadowlands|QO|1|N|Buzzkill's Stinger.|RANK|2|
+T What a Buzzkill|QID|59623|M|51.54,33.97|Z|Ardenweald!The Shadowlands|N|To Gormsmith Cavina.|RANK|2|
 
 ; Sidequest Storyline - Tricky Spriggans
-A Ages-Echoing Wisdom|QID|57865|M|51.07,33.79|Z|Ardenweald!The Shadowlands|N|From Lady of the Falls.|LVL|56|
-A Idle Hands|QID|57866|M|51.07,33.79|Z|Ardenweald!The Shadowlands|N|From Lady of the Falls.|LVL|56|
-A Spirit-Gathering Labor|QID|57869|M|56.42,29.25|Z|Ardenweald!The Shadowlands|N|From Groonoomcrooek.|LVL|56|
-A The Sweat of Our Brow|QID|57867|M|55.51,29.89|Z|Ardenweald!The Shadowlands|N|From Helpful Faerie.|LVL|56|
-C Ages-Echoing Wisdom|QID|57865|M|56.43,29.25|Z|Ardenweald!The Shadowlands|QO|1|N|Groonoomcrooek found.|
-A The Games We Play|QID|57870|M|59.05,24.38|Z|Ardenweald!The Shadowlands|N|From Elder Gwenna.|LVL|56|
-C The Games We Play|QID|57870|M|58.42,27.38|Z|Ardenweald!The Shadowlands|QO|1|N|Secret discovered.|
-C Spirit-Gathering Labor|QID|57869|M|56.85,28.23|Z|Ardenweald!The Shadowlands|QO|1|N|River Sediment.|
-A Craftsman Needs No Tools|QID|57868|M|55.83,23.47|Z|Ardenweald!The Shadowlands|N|From Elder Finnan.|LVL|56|
-C Idle Hands|QID|57866|M|55.01,24.53|Z|Ardenweald!The Shadowlands|QO|1|N|Brittlebark invaders slain.|
-C Ages-Echoing Wisdom|QID|57865|M|55.79,23.50|Z|Ardenweald!The Shadowlands|QO|2|N|Elder Finnan found.|
-C Craftsman Needs No Tools|QID|57868|M|56.74,23.88|Z|Ardenweald!The Shadowlands|QO|1|N|Finnan's Lucky Mallet.|
-C The Sweat of Our Brow|QID|57867|M|56.84,23.40|Z|Ardenweald!The Shadowlands|QO|1|N|Booby trapped tools disarmed.|
-T Craftsman Needs No Tools|QID|57868|M|55.82,23.50|Z|Ardenweald!The Shadowlands|N|To Elder Finnan.|
-T The Games We Play|QID|57870|M|59.06,24.36|Z|Ardenweald!The Shadowlands|N|To Elder Gwenna.|
-C Ages-Echoing Wisdom|QID|57865|M|59.06,24.36|Z|Ardenweald!The Shadowlands|QO|3|N|Elder Gwenna found.|
-A Outplayed|QID|57871|M|59.06,24.36|Z|Ardenweald!The Shadowlands|N|From Elder Gwenna.|PRE|57870|
-C Outplayed|QID|57871|M|56.78,25.96|Z|Ardenweald!The Shadowlands|QO|1|U|173355|N|Wicked Wort slain.|
-T Spirit-Gathering Labor|QID|57869|M|56.39,29.24|Z|Ardenweald!The Shadowlands|N|To Groonoomcrooek.|
-T Ages-Echoing Wisdom|QID|57865|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|
-T Idle Hands|QID|57866|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|
-T The Sweat of Our Brow|QID|57867|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|
-T Outplayed|QID|57871|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|
+A Ages-Echoing Wisdom|QID|57865|M|51.07,33.79|Z|Ardenweald!The Shadowlands|N|From Lady of the Falls.|LVL|56|RANK|2|
+A Idle Hands|QID|57866|M|51.07,33.79|Z|Ardenweald!The Shadowlands|N|From Lady of the Falls.|LVL|56|RANK|2|
+A Spirit-Gathering Labor|QID|57869|M|56.42,29.25|Z|Ardenweald!The Shadowlands|N|From Groonoomcrooek.|LVL|56|RANK|2|
+A The Sweat of Our Brow|QID|57867|M|55.51,29.89|Z|Ardenweald!The Shadowlands|N|From Helpful Faerie.|LVL|56|RANK|2|
+C Ages-Echoing Wisdom|QID|57865|M|56.43,29.25|Z|Ardenweald!The Shadowlands|QO|1|N|Groonoomcrooek found.|RANK|2|
+A The Games We Play|QID|57870|M|59.05,24.38|Z|Ardenweald!The Shadowlands|N|From Elder Gwenna.|LVL|56|RANK|2|
+C The Games We Play|QID|57870|M|58.42,27.38|Z|Ardenweald!The Shadowlands|QO|1|N|Secret discovered.|RANK|2|
+C Spirit-Gathering Labor|QID|57869|M|56.85,28.23|Z|Ardenweald!The Shadowlands|QO|1|N|River Sediment.|RANK|2|
+A Craftsman Needs No Tools|QID|57868|M|55.83,23.47|Z|Ardenweald!The Shadowlands|N|From Elder Finnan.|LVL|56|RANK|2|
+C Idle Hands|QID|57866|M|55.01,24.53|Z|Ardenweald!The Shadowlands|QO|1|N|Brittlebark invaders slain.|RANK|2|
+C Ages-Echoing Wisdom|QID|57865|M|55.79,23.50|Z|Ardenweald!The Shadowlands|QO|2|N|Elder Finnan found.|RANK|2|
+C Craftsman Needs No Tools|QID|57868|M|56.74,23.88|Z|Ardenweald!The Shadowlands|QO|1|N|Finnan's Lucky Mallet.|RANK|2|
+C The Sweat of Our Brow|QID|57867|M|56.84,23.40|Z|Ardenweald!The Shadowlands|QO|1|N|Booby trapped tools disarmed.|RANK|2|
+T Craftsman Needs No Tools|QID|57868|M|55.82,23.50|Z|Ardenweald!The Shadowlands|N|To Elder Finnan.|RANK|2|
+T The Games We Play|QID|57870|M|59.06,24.36|Z|Ardenweald!The Shadowlands|N|To Elder Gwenna.|RANK|2|
+C Ages-Echoing Wisdom|QID|57865|M|59.06,24.36|Z|Ardenweald!The Shadowlands|QO|3|N|Elder Gwenna found.|RANK|2|
+A Outplayed|QID|57871|M|59.06,24.36|Z|Ardenweald!The Shadowlands|N|From Elder Gwenna.|PRE|57870|RANK|2|
+C Outplayed|QID|57871|M|56.78,25.96|Z|Ardenweald!The Shadowlands|QO|1|U|173355|N|Wicked Wort slain.|RANK|2|
+T Spirit-Gathering Labor|QID|57869|M|56.39,29.24|Z|Ardenweald!The Shadowlands|N|To Groonoomcrooek.|RANK|2|
+T Ages-Echoing Wisdom|QID|57865|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
+T Idle Hands|QID|57866|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
+T The Sweat of Our Brow|QID|57867|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
+T Outplayed|QID|57871|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
 
 ; Glitterfall Heights Storyline Continued
 C Return to Tirna Vaal|QID|60522|M|63.39,37.51|Z|Ardenweald!The Shadowlands|QO|1|N|Return to Tirna Vaal.|MS|
@@ -292,7 +292,7 @@ C Soothing Song|QID|60764|M|62.34,45.48|Z|Ardenweald!The Shadowlands|QO|2|N|Wild
 T Soothing Song|QID|60764|M|62.34,45.48|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 A Remnants of the Wild Hunt|QID|60839|M|62.34,45.48|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60764|MS|
 A Wild Hunt Offensive|QID|60840|M|62.55,45.86|Z|Ardenweald!The Shadowlands|N|From Possessed Charger.|PRE|60764|MS|
-T Wild Hunt Offensive|QID|60840|M|64.90,47.51|Z|Ardenweald!The Shadowlands.|MS|
+T Wild Hunt Offensive|QID|60840|M|64.90,47.51|Z|Ardenweald!The Shadowlands|MS|
 C Remnants of the Wild Hunt|QID|60839|M|63.58,46.95|Z|Ardenweald!The Shadowlands|QO|1|N|Wounded Defender rescued.|MS|
 T Remnants of the Wild Hunt|QID|60839|M|64.26,49.98|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 A Toppling the Brute|QID|60856|M|64.26,49.98|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60839|MS|
@@ -312,21 +312,21 @@ T Infusing the Wildseed|QID|60905|M|60.15,52.85|Z|Ardenweald!The Shadowlands|N|T
 
 ; Sidequest Storyline - Wicked Plan
 A Echoes of Tirna Noch|QID|58473|M|60.15,52.85|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60905|MS|
-A Forest Refugees|QID|62807|M|60.11,53.75|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|LVL|57|
+A Forest Refugees|QID|62807|M|60.11,53.75|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|LVL|57|RANK|2|
 C Echoes of Tirna Noch|QID|58473|M|60.15,52.86|Z|Ardenweald!The Shadowlands|QO|1|N|Listen to Ara'lon's tale.|MS|
-A Blooming Villains|QID|58265|M|60.64,51.40|Z|Ardenweald!The Shadowlands|N|From Guardian Molan.|LVL|57|
-A Break It Down|QID|58266|M|53.47,58.72|Z|Ardenweald!The Shadowlands|N|From Primrose.|LVL|57|
-A Wake Up, Get Up, Get Out There|QID|58264|M|53.47,58.72|Z|Ardenweald!The Shadowlands|N|From Primrose.|LVL|57|
-C Blooming Villains|QID|58265|M|51.55,56.67|Z|Ardenweald!The Shadowlands|QO|1|N|Ritualists slain.|
-C Wake Up, Get Up, Get Out There|QID|58264|M|51.48,56.23|Z|Ardenweald!The Shadowlands|QO|1|N|Subdued Faeries aided.|
-C Break It Down|QID|58266|M|53.77,61.54|Z|Ardenweald!The Shadowlands|QO|1|N|Runed Altar destroyed.|
-T Wake Up, Get Up, Get Out There|QID|58264|M|53.72,61.45|Z|Ardenweald!The Shadowlands|N|To Primrose.|
-T Break It Down|QID|58266|M|53.72,61.45|Z|Ardenweald!The Shadowlands|N|To Primrose.|
-A Beneath the Mask|QID|58267|M|53.72,61.45|Z|Ardenweald!The Shadowlands|N|From Primrose.|PRE|58264&58266|
-C Beneath the Mask|QID|58267|M|54.42,61.52|Z|Ardenweald!The Shadowlands|QO|1|N|Ingra Drif confronted.|
-C Beneath the Mask|QID|58267|M|54.50,61.42|Z|Ardenweald!The Shadowlands|QO|2|N|Mindwarped Faerie slain.|
-T Beneath the Mask|QID|58267|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
-T Blooming Villains|QID|58265|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|
+A Blooming Villains|QID|58265|M|60.64,51.40|Z|Ardenweald!The Shadowlands|N|From Guardian Molan.|LVL|57|RANK|2|
+A Break It Down|QID|58266|M|53.47,58.72|Z|Ardenweald!The Shadowlands|N|From Primrose.|LVL|57|RANK|2|
+A Wake Up, Get Up, Get Out There|QID|58264|M|53.47,58.72|Z|Ardenweald!The Shadowlands|N|From Primrose.|LVL|57|RANK|2|
+C Blooming Villains|QID|58265|M|51.55,56.67|Z|Ardenweald!The Shadowlands|QO|1|N|Ritualists slain.|RANK|2|
+C Wake Up, Get Up, Get Out There|QID|58264|M|51.48,56.23|Z|Ardenweald!The Shadowlands|QO|1|N|Subdued Faeries aided.|RANK|2|
+C Break It Down|QID|58266|M|53.77,61.54|Z|Ardenweald!The Shadowlands|QO|1|N|Runed Altar destroyed.|RANK|2|
+T Wake Up, Get Up, Get Out There|QID|58264|M|53.72,61.45|Z|Ardenweald!The Shadowlands|N|To Primrose.|RANK|2|
+T Break It Down|QID|58266|M|53.72,61.45|Z|Ardenweald!The Shadowlands|N|To Primrose.|RANK|2|
+A Beneath the Mask|QID|58267|M|53.72,61.45|Z|Ardenweald!The Shadowlands|N|From Primrose.|PRE|58264&58266|RANK|2|
+C Beneath the Mask|QID|58267|M|54.42,61.52|Z|Ardenweald!The Shadowlands|QO|1|N|Ingra Drif confronted.|RANK|2|
+C Beneath the Mask|QID|58267|M|54.50,61.42|Z|Ardenweald!The Shadowlands|QO|2|N|Mindwarped Faerie slain.|RANK|2|
+T Beneath the Mask|QID|58267|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|RANK|2|
+T Blooming Villains|QID|58265|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|RANK|2|
 
 ; The Fallen Tree Storyline
 T Echoes of Tirna Noch|QID|58473|M|68.47,57.47|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
@@ -410,21 +410,20 @@ A Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|N|From Lady 
 C Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|QO|1|N|Speak with Moonberry.|MS|
 C Dying Dreams|QID|60661|M|48.22,54.30|Z|Ardenweald!The Shadowlands|QO|2|N|Ysera's wildseed escorted.|MS|
 T Dying Dreams|QID|60661|M|47.94,53.85|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|MS|
-A Awaken the Dreamer|QID|58721|M|48,53.8|Z|Ardenweald|N|From Lord Herne.|PRE|60661|
-C Awaken the Dreamer|QID|58721|M|47.4,32.6|Z|Heart of the Forest|N|Travel to the Grove of Awakening.|
-T Awaken the Dreamer|QID|58721|M|45.2,63|Z|Ardenweald|N|To Winter Queen.|MS|
-A The Court of Winter|QID|58723|M|45.2,63|Z|Ardenweald|N|From Winter Queen.|PRE|58721|MS|
-C The Court of Winter|QID|58723|M|47.4,32.6|Z|Heart of the Forest|QO|1|N|Primus's Message delivered.|MS|
-C The Court of Winter|QID|58723|M|47.4,32.6|Z|Heart of the Forest|QO|2|N|Travel to the Heart of the Forest.|MS|
-C The Court of Winter|QID|58723|Z|Heart of the Forest|QO|3|N|Speak with Winter Queen.|MS|
-T The Court of Winter|QID|58723|M|45.2,63|Z|Ardenweald|N|To Winter Queen.|MS|
-A The Queen's Request|QID|58724|M|45.2,63|Z|Ardenweald|N|From Winter Queen.|PRE|58723|MS|
-C The Queen's Request|QID|58724|Z|Ardenweald|N|Unknown.|MS|
-T The Queen's Request|QID|58724|M|49,35.2|Z|Heart of the Forest|N|To Winter Queen.|MS|
+A Awaken the Dreamer|QID|58721|M|48,53.8|Z|Ardenweald!The Shadowlands|N|From Lord Herne.|PRE|60661|RANK|2|
+C Awaken the Dreamer|QID|58721|M|47.4,32.6|Z|Ardenweald!The Shadowlands|N|Travel to the Grove of Awakening.|RANK|2|
+T Awaken the Dreamer|QID|58721|M|45.2,63|Z|Ardenweald!The Shadowlands|N|To Winter Queen.|MS|
+A The Court of Winter|QID|58723|M|45.2,63|Z|Ardenweald!The Shadowlands|N|From Winter Queen.|PRE|58721|MS|
+C The Court of Winter|QID|58723|M|47.4,32.6|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|N|Primus's Message delivered.|MS|
+C The Court of Winter|QID|58723|M|47.4,32.6|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|N|Travel to the Heart of the Forest.|MS|
+C The Court of Winter|QID|58723|Z|The Trunk@Heart of the Forest!Dungeon|QO|3|N|Speak with Winter Queen.|MS|
+T The Court of Winter|QID|58723|M|45.2,63|Z|The Trunk@Heart of the Forest!Dungeon|N|To Winter Queen.|MS|
+A The Queen's Request|QID|58724|M|45.2,63|Z|The Trunk@Heart of the Forest!Dungeon|N|From Winter Queen.|PRE|58723|MS|
+T The Queen's Request|QID|58724|M|49,35.2|Z|Ardenweald!The Shadowlands|N|To Tal-Inara.|MS|
 
-A Tirna Scithe: A Warning Silence|QID|62371|M|48.40,50.51|Z|Ardenweald!The Shadowlands|N|From Flwngyrr.|
-T Forest Refugees|QID|62807|M|48.40,50.51|Z|Ardenweald!The Shadowlands|N|To Flwngyrr.|
-f Heart of the Forest|QID|62371|M|49.31,51.84|Z|Ardenweald!The Shadowlands|N|At Derwynnthlmn.|
-f Dreamsong Fenn|QID|53436|M|36.82,36.75|Z|Ardenweald!The Shadowlands|N|At Crysta Flutterwing.|
+A Tirna Scithe: A Warning Silence|QID|62371|M|48.40,50.51|Z|Ardenweald!The Shadowlands|N|From Flwngyrr.|RANK|2|
+T Forest Refugees|QID|62807|M|48.40,50.51|Z|Ardenweald!The Shadowlands|N|To Flwngyrr.|RANK|2|
+f Heart of the Forest|QID|62371|M|49.31,51.84|Z|Ardenweald!The Shadowlands|N|At Derwynnthlmn.|RANK|2|
+f Dreamsong Fenn|QID|53436|M|36.82,36.75|Z|Ardenweald!The Shadowlands|N|At Crysta Flutterwing.|RANK|2|
 ]]
 end)
