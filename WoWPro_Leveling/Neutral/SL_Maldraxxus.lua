@@ -236,7 +236,7 @@ C How To Get A Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|CHAT|N|Deliver the
 T How To Get A Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|
 T The Last Guy|QID|59781|M|54.47,48.69|Z|Maldraxxus|N|To Louison.|
 A Stuff We All Get|QID|58575|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|PRE|59750&59781|
-A Team Spirit|QID|59800|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|
+A Team Spirit|QID|59800|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|PRE|59750&59781|
 C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|N|Use the item provided to splash Arena Challengers.|S|
 C Stuff We All Get|QID|58575|M|49.87,48.07|Z|Maldraxxus|NC|N|Click on the glowing Weapons scattered around on the floor.|
 C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|N|Use the item provided to splash Arena Challengers.|US|
@@ -269,18 +269,18 @@ A Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|From Caleesy.|
 A Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|From Dundae.|
 C Smack And Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|S|
 N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
-C Take The Bull By The Horns|QID|58750|M|43.90,50.15|Z|Maldraxxus|QO|1<1|N|Ride the Tauralus back to Dundae.|
+C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<1|N|Ride the Tauralus back to Dundae.|
 N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
-C Take The Bull By The Horns|QID|58750|M|43.90,50.15|Z|Maldraxxus|QO|1<2|N|Ride the Tauralus back to Dundae.|
+C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<2|N|Ride the Tauralus back to Dundae.|
 N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
-C Take The Bull By The Horns|QID|58750|M|43.90,50.15|Z|Maldraxxus|QO|1<3|N|Ride the Tauralus back to Dundae.|
+C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<3|N|Ride the Tauralus back to Dundae.|
 N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
-C Take The Bull By The Horns|QID|58750|M|43.90,50.15|Z|Maldraxxus|QO|1<4|N|Ride the Tauralus back to Dundae.|
+C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<4|N|Ride the Tauralus back to Dundae.|
 C Smack And Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|US|
 N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
-C Take The Bull By The Horns|QID|58750|M|43.90,50.15|Z|Maldraxxus|QO|1<5|N|Ride the Tauralus back to Dundae.|
-T Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|To Caleesy.|
+C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<5|N|Ride the Tauralus back to Dundae.|
 T Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|To Dundae.|
+T Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|To Caleesy.|
 A Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|From Dundae.|PRE|58750&58785|
 C Stabbing Wasteward|QID|58794|M|42.40,48.40|Z|Maldraxxus|N|Kill the Satiated Sawtooth.|
 T Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|To Dundae.|
@@ -319,7 +319,7 @@ C A Plague On Your House|QID|59430|M|59.39,72.95|Z|Maldraxxus|QO|1|CHAT|N|Chat w
 C A Plague On Your House|QID|59430|M|58.58,73.47|Z|Maldraxxus|QO|2|CHAT|N|Chat with Foul-Tongue Cyrlix.|
 C A Plague On Your House|QID|59430|M|59.04,73.86|Z|Maldraxxus|QO|3|CHAT|N|Chat with Boil Master Yetch.|
 T A Plague On Your House|QID|59430|M|59.04,73.86|Z|Maldraxxus|N|To Boil Master Yetch.|
-A Pool of Potions|QID|58431|M|59.04,73.86|Z|Maldraxxus|N|From Boil Master Yetch.|PRE|58430|
+A Pool of Potions|QID|58431|M|59.04,73.86|Z|Maldraxxus|N|From Boil Master Yetch.|PRE|59430|
 K Burning Extract|ACTIVE|58431|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
 C Pool of Potions|QID|58431|M|59.03,74.19|Z|Maldraxxus|QO|1<1|N|Return the Viscous Oil to the Pool of Potions.|
 K Burning Extract|ACTIVE|58431|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
@@ -336,7 +336,6 @@ K Burning Extract|ACTIVE|57301|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Ext
 C By Any Other Name|QID|59223|M|57.96,80.41|Z|Maldraxxus|QO|1|N|Kill the Blossoming Dreadshade and loot its Extract.|
 C Callous Concoctions|QID|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<3|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
 T Callous Concoctions|QID|57301|M|58.54,73.53|Z|Maldraxxus|N|To Foul-Tongue Cyrlix.|
-A Plaguefall: Knee Deep In It|QID|59520|M|59.39,72.95|Z|Maldraxxus|ELITE|N|[color=e6cc80]Dungeon: Plaguefall[/color]\nFrom Vial Master Lurgy. This quest is optional and out of scope for this guide.|
 T By Any Other Name|QID|59223|M|60.44,71.64|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
 A Fit For a Margrave|QID|60831|M|60.44,71.64|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|59223|MS|
 C Fit For a Margrave|QID|60831|M|60.55,71.76|Z|Maldraxxus|QO|1|N|Click the Anima Catalysts to the left and right of you.|MS|
@@ -344,6 +343,7 @@ C Fit For a Margrave|QID|60831|M|60.65,71.39|Z|Maldraxxus|QO|2|N|Click on the Po
 C Fit For a Margrave|QID|60831|M|60.65,71.39|Z|Maldraxxus|QO|3|N|Click on the glowing Rune of Insight near you.|MS|
 T Fit For a Margrave|QID|60831|M|60.50,71.60|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
 A Fathomless Power|QID|59231|M|60.50,71.60|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|60831|MS|
+A Plaguefall: Knee Deep In It|QID|59520|M|59.39,72.95|Z|Maldraxxus|ELITE|N|[color=e6cc80]Dungeon: Plaguefall[/color]\nFrom Vial Master Lurgy. This quest is optional and out of scope for this guide.|
 F Bleak Redoubt|QID|59231|M|58.02,72.37|
 C Fathomless Power|QID|59231|M|50.40,67.75|Z|Maldraxxus|NC|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Inisght.|EAB|MS|
 T Fathomless Power|QID|59231|M|50.36,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
@@ -356,7 +356,9 @@ A Glorious Pursuits|QID|58821|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|
 A Prey Upon Them|QID|59171|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|MS|
 C Glorious Pursuits|QID|58821|M|62.75,52.52|Z|Maldraxxus|QO|1|U|178940|N|Attack Mephiles the Loyal until it's under 50% then use Vashj's Signal to capture it.|MS|
 C Glorious Pursuits|QID|58821|M|62.25,48.15|Z|Maldraxxus|QO|2|N|Morbid Disciple slain|S|MS|
-C Prey Upon Them|QID|59171|M|61.97,51.91|Z|Maldraxxus|NC|N|Click on the Anima-charged Maldracite to collect it.|MS|
+C Prey Upon Them|QID|59171|M|61.97,51.91|Z|Maldraxxus|NC|QO|1<1|N|Click on the Anima-charged Maldracite to collect it.|MS|
+C Prey Upon Them|QID|59171|M|63.30,52.65|Z|Maldraxxus|NC|QO|1<2|N|Click on the Anima-charged Maldracite to collect it.|MS|
+C Prey Upon Them|QID|59171|M|64.42,52.34|Z|Maldraxxus|NC|QO|1<3|N|Click on the Anima-charged Maldracite to collect it.|MS|
 C Glorious Pursuits|QID|58821|M|62.25,48.15|Z|Maldraxxus|QO|2|N|Morbid Disciple slain|US|MS|
 C Glorious Pursuits|QID|58821|M|67.66,45.92|Z|Maldraxxus|QO|3|N|Mephiles returned|MS|
 T Prey Upon Them|QID|59171|M|67.61,45.92|Z|Maldraxxus|N|To Baroness Vashj.|MS|
@@ -385,7 +387,7 @@ C Seek Your Mark|QID|59190|M|74.44,43.82|Z|Maldraxxus|QO|1|NC|N|Click to place t
 C Seek Your Mark|QID|59190|M|73.83,43.83|Z|Maldraxxus|QO|2|NC|N|Click on the obelisk to draw your Binding Sigil.|MS|
 T Seek Your Mark|QID|59190|M|73.61,44.49|Z|Maldraxxus|N|To Baroness Vashj.|MS|
 A Straight to the Heart|QID|59025|M|73.61,44.49|Z|Maldraxxus|N|From Baroness Vashj.|PRE|59190|MS|
-C Straight to the Heart|QID|59025|M|73.59,44.56|Z|Maldraxxus|QO|1|NC|N|Click on the obelisk to trigger the Ritual.|MS|
+C Straight to the Heart|QID|59025|M|73.78,43.97|Z|Maldraxxus|QO|1|NC|N|Click on the obelisk to trigger the Ritual.|MS|
 C Straight to the Heart|QID|59025|M|73.63,44.59|Z|Maldraxxus|QO|2|N|Kill Mor'Bitan.|MS|
 C Straight to the Heart|QID|59025|M|73.72,44.16|Z|Maldraxxus|QO|3|NC|N|Click on the floating Rune of Guile near you.|MS|
 T Straight to the Heart|QID|59025|M|73.57,44.46|Z|Maldraxxus|N|To Baroness Vashj.|MS|
@@ -401,7 +403,7 @@ C Among the Chosen|QID|59202|M|38.42,66.15|Z|Maldraxxus|QO|2|N|Seek out Krexus.|
 T Among the Chosen|QID|59202|M|38.14,66.65|Z|Maldraxxus|N|To Baron Vyraz.|MS|
 A The Maw|QID|59874|M|38.14,66.65|Z|Maldraxxus|N|From Baron Vyraz.|MS|
 F Oribos|ACTIVE|59874|M|39.06,55.21|Z|Maldraxxus|N|Fly back to Oribos from Wing Guard Aela.|MS|
-; NEED COORDS - P Ring of Fates|ACTIVE|59874|M|PLAYER|Z|Ring of Fates@Oribos|N|Take the Teleporation Pad up to the Ring of Fates.|MS|
+P Ring of Fates|ACTIVE|59874|M|49.55,60.83|Z|Ring of Fates@Oribos|N|Take the Teleporation Pad down to the Ring of Fates.|MS|
 T The Maw|QID|59874|M|40.05,68.46|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
 A Seeking the Baron|QID|59897|M|40.05,68.46|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|59874|MS|
 C Seeking the Baron|QID|59897|M|47.16,55.30|Z|Ring of Fates@Oribos|N|Jump into the pillar of souls in the middle of Oribos.|MS|
@@ -436,9 +438,10 @@ C Maw Walker|QID|62654|M|42.38,42.17|Z|The Maw|QO|1|NC|N|Attune to Alexandros an
 C Maw Walker|QID|62654|M|42.38,42.17|Z|The Maw|QO|2|NC|N|Click the waygate to escape the Maw and get teleported back to Oribos.|MS|
 T Maw Walker|QID|62654|M|40.08,68.41|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
 A A Soul Saved|QID|59974|M|39.60,68.00|Z|Ring of Fates@Oribos|N|From Baroness Draka.|PRE|62654|MS|
+P Ring of Transference|ACTIVE|59974|M|49.55,60.83|Z|Ring of Transference@Oribos_Portals!Dungeon|N|Take the Teleporation Pad up to the Ring of Transference.|MS|
+F The Spearhead|QID|59974|M|60.72,68.52|Z|Ring of Transference@Oribos_Portals!Dungeon|N|Pathscribe Roh-Avonavi|MS|
 
 ; The Empty Throne Storyline
-F The Spearhead|QID|59974|M|49.92,53.20|Z|Maldraxxus|N|Wing Guard Alamar|MS|
 T A Soul Saved|QID|59974|M|41.31,60.63|Z|Maldraxxus|N|To Alexandros Mograine.|MS|
 A In Death We Are Truly Tested|QID|59011|M|41.33,60.62|Z|Maldraxxus|N|To Alexandros Mograine.|PRE|59974|MS|
 C In Death We Are Truly Tested|QID|59011|M|41.33,60.62|Z|Maldraxxus|N|After the dialog, Fight Vyraz to about 40% health.|MS|
@@ -448,13 +451,14 @@ C The Door to the Unknown|QID|60737|M|50.40,67.41|Z|Maldraxxus|N|Step near the l
 T The Door to the Unknown|QID|60737|M|49.67,54.47|Z|Seat of the Primus!Dungeon|N|To the Stone Altar.|MS|
 A Words of the Primus|QID|59206|M|49.73,49.19|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|PRE|60737|MS|
 F Oribos|QID|59206|M|52.49,67.71|Z|Maldraxxus|N|At Wing Guard Buurkin.|MS|
+P Ring of Fates|ACTIVE|59206|M|49.55,60.83|Z|Ring of Fates@Oribos|N|Take the Teleporation Pad down to the Ring of Fates.|MS|
 T Words of the Primus|QID|59206|M|54.67,54.62|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
 A Request of the Highlord|QID|61715|M|54.67,54.62|Z|Ring of Fates@Oribos|N|From Overseer Kah-Delen.|PRE|59206|
 T Request of the Highlord|QID|61715|M|40.40,68.51|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
 A A Glimpse into Darkness|QID|61716|M|40.40,68.51|Z|Ring of Fates@Oribos|N|From Baroness Draka.|PRE|61715|MS|
 C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|1|Z|Ring of Fates@Oribos|NC|N|Click on the Helm of Domination.|MS|
 C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|2|Z|Ring of Fates@Oribos|NC|N|Watch cinematic.|MS|
-C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|3|Z|Ring of Fates@Oribos|NC|Sit back while everyone discusses the vision.|MS|
-T A Glimpse into Darkness|QID|61716|M|54.67,54.62|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen|MS|
+C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|3|Z|Ring of Fates@Oribos|NC|N|Sit back while everyone discusses the vision.|MS|
+T A Glimpse into Darkness|QID|61716|M|54.67,54.62|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon|MS|
 ]]
 end)
