@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('CagBastion', 'Leveling', "Bastion", 'Cagomei', 'Neutral')
+local guide = WoWPro:RegisterGuide('CagBastion', 'Leveling', "Bastion!The Shadowlands", 'Cagomei', 'Neutral')
 WoWPro:GuideSort(guide, 3)
 WoWPro:GuideNickname(guide, "Bastion")
 WoWPro:GuideName(guide,"Bastion")

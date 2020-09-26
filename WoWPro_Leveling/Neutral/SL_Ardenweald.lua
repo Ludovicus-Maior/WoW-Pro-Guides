@@ -7,8 +7,8 @@ WoWPro:GuideSteps(guide, function()
 return [[
 ;  Welcome to Ardenweald Storyline
 A Journey to Ardenweald|QID|60338|M|39.36,69.40|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|61716|MS|
-C Journey to Ardenweald|QID|60338|M|49.49,72.96|Z|Ring of Transference@Oribos_Portals!Dungeon|QO|1|N|Activate the Gateway to Ardenweald.|MS|
-C Journey to Ardenweald|QID|60338|M|50.36,74.30|Z|Ring of Transference@Oribos_Portals!Dungeon|QO|2|N|Speak to Roh-Avonavi.|MS|
+C Journey to Ardenweald|QID|60338|M|49.49,72.96|Z|Ring of Transference@Oribos|QO|1|N|Activate the Gateway to Ardenweald.|MS|
+C Journey to Ardenweald|QID|60338|M|50.36,74.30|Z|Ring of Transference@Oribos|QO|2|N|Speak to Roh-Avonavi.|MS|
 T Journey to Ardenweald|QID|60338|M|68.27,18.36|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|MS|
 A I Moustache You to Lend a Hand|QID|60763|M|68.27,18.36|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|60338|MS|
 C I Moustache You to Lend a Hand|QID|60763|M|67.42,19.95|Z|Ardenweald!The Shadowlands|QO|1|N|Night Lily collected.|MS|

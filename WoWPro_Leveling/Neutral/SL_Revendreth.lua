@@ -454,9 +454,9 @@ C Hunting an Inquisitor|QID|57929|M|76,51.8|Z|Revendreth|QO|1|N|Inquisitor Traia
 T Hunting an Inquisitor|QID|57929|M|73,52|Z|Revendreth|N|To Archivist Fane.|RANK|2|
 
 A Halls of Atonement: Your Absolution|QID|58092|M|73,52|Z|Revendreth|ELITE|N|[color=e6cc80]Dungeon: [/color]\nFrom Archivist Fane.|LVL|57|RANK|2|
-C Halls of Atonement: Your Absolution|QID|58092|M|14.2,48.7|Z|Exterior <TEMP>@Halls of Atonement!Dungeon|N|Unknown.|RANK|2|
-C Halls of Atonement: Your Absolution|QID|58092|M|14.2,48.7|Z|Exterior <TEMP>@Halls of Atonement!Dungeon|QO|1|N|Lord Chamberlain slain.|RANK|2|
-C Halls of Atonement: Your Absolution|QID|58092|Z|Exterior <TEMP>@Halls of Atonement!Dungeon|QO|2|N|Suggested players: 5.|RANK|2|
+C Halls of Atonement: Your Absolution|QID|58092|M|14.2,48.7|Z|Halls of Atonement!Dungeon|N|Unknown.|RANK|2|
+C Halls of Atonement: Your Absolution|QID|58092|M|14.2,48.7|Z|Halls of Atonement!Dungeon|QO|1|N|Lord Chamberlain slain.|RANK|2|
+C Halls of Atonement: Your Absolution|QID|58092|Z|Halls of Atonement!Dungeon|QO|2|N|Suggested players: 5.|RANK|2|
 T Halls of Atonement: Your Absolution|QID|58092|M|71.8,40.4|Z|Revendreth|N|To Gresit.|RANK|2|
 
 A Missing Stone Fiend|QID|60127|M|73,52|Z|Revendreth|N|From Archivist Fane.|LVL|57|RANK|2|
