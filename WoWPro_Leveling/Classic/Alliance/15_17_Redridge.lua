@@ -36,10 +36,10 @@ N Aquatic Form|AVAILABLE|-5061|C|Druid|N|This completes your Druid class quests.
 R Rut'theran Village|AVAILABLE|244|C|Druid|M|30.05,41.31|Z|Darnassus|N|Run to Rut'theran Village through the portal.|
 F Auberdine|AVAILABLE|244|C|Druid|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back to Auberdine.|
 b Wetlands|AVAILABLE|244|C|Druid|M|32.42,43.74|Z|Darkshore|N|Get on the boat to Menethil (read the sign post).|
-F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City and rejoin the guide.|C|Druid|
+F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City and rejoin the guide.|C|Druid|TZ|Stormwind City|
 ; ---
 
-F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City.|TAXI|-Lakeshire|R|Night Elf|C|-Druid|
+F Stormwind|AVAILABLE|244|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City.|TAXI|-Lakeshire|R|Night Elf|C|-Druid|TZ|Stormwind City|
 R Elwynn Forest|AVAILABLE|244|M|32.03,49.18|Z|Elwynn Forest|N|Jump into the water and make your way to the front gate.|TAXI|-Lakeshire|
 R Redridge Mountains|AVAILABLE|244|M|93.00,72.00|Z|Elwynn Forest|N|Follow the road east to Redridge Mountains.|
 
@@ -57,11 +57,11 @@ A A Free Lunch|QID|129|M|26.9,44.53|N|From Darcy, in the inn.|
 A Dry Times|QID|116|M|26.49,43.95|N|From Barkeep Daniels.|
 T The Defias Brotherhood|QID|65|M|26.5,45.3|N|To Wiley the Black upstairs.|
 A The Defias Brotherhood|QID|132|M|26.5,45.3|N|From Wiley the Black.|PRE|65|
-A Redridge Goulash|QID|92|M|22.7,43.8|N|From Chef Breanna.|
+A Redridge Goulash|QID|92|M|22.68,43.83|N|From Chef Breanna.|
 A Hilary's Necklace|QID|3741|M|29.3,53.6|N|From Shawn, at the end of the dock.|
 
 C Hilary's Necklace|QID|3741|M|31.00,54.30;24.09,54.70|CN|L|10958|N|Loot the necklace from the Glinting Mud on the ground in the water.|
-F Stormwind|ACTIVE|118|M|30.59,59.41|N|Fly to Stormwind City. We're finishing the Verner Osgood quest chain now so we're not wasting time killing whelps when they attacks us.|
+F Stormwind|ACTIVE|118|M|30.59,59.41|N|Fly to Stormwind City. We're finishing the Verner Osgood quest chain now so we're not wasting time killing whelps when they attacks us.|TZ|Stormwind City|
 R Elwynn Forest|ACTIVE|118|M|32.03,49.18|Z|Elwynn Forest|N|Jump into the water and make your way to the front gate.|
 T The Price of Shoes|QID|118|M|41.71,65.55|Z|Elwynn Forest|N|To Smith Argus in Goldshire.|
 A Return to Verner|QID|119|M|41.71,65.55|Z|Elwynn Forest|N|From Smith Argus.|PRE|118|
@@ -70,45 +70,48 @@ F Lakeshire|ACTIVE|119|M|66.29,62.13|Z|Stormwind City|N|Fly back to Redridge.|
 T Return to Verner|QID|119|M|30.98,47.28|Z|Redridge Mountains|N|To Verner Osgood.|
 A Underbelly Scales|QID|122|M|30.98,47.28|N|From Verner Osgood.|PRE|119|
 
-C Goretusks|ACTIVE|92|L|2296 5|N|Kill Goretusks to loot Great Goretusk Snout.|S|
-C Spiders|ACTIVE|92|L|1081 5|N|Kill spiders to loot Crisp Spider Meat.|S|
-C Condors|ACTIVE|92|L|1080 5|N|Kill Condors to loot 5 Tough Condor Meat.|T|Dire Condor|S|
-C Black Dragon Whelps|QID|122|L|1221 6|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|S|
+C Goretusks|ACTIVE|92|L|2296 5|N|Kill Goretusks to loot Great Goretusk Snout.|S!US|
+C Spiders|ACTIVE|92|L|1081 5|N|Kill spiders to loot Crisp Spider Meat.|S!US|
+C Condors|ACTIVE|92|L|1080 5|N|Kill Condors to loot 5 Tough Condor Meat.|T|Dire Condor|S!US|
+C Black Dragon Whelps|QID|122|L|1221 6|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|S!US|
 T A Free Lunch|QID|129|M|15.28,71.46|N|To Guard Parker. He roams the fork in the road up ahead.|
 A Visit the Herbalist|QID|130|M|15.28,71.46|N|To Guard Parker. He roams the fork in the road.|PRE|129|
 
 R Lakeridge Highway|ACTIVE|246|M|24.39,76.09|N|Follow the road east.|
 C Assessing the Threat|QID|246|QO|1;2|N|Kill any Redridge Poachers and Mongrels in the area until you finish this quest.|
-C Goretusks|ACTIVE|92|L|2296 5|N|Kill Goretusks to loot Great Goretusk Snout.|US|
-C Spiders|ACTIVE|92|L|1081 5|N|Kill the spiders to loot Crisp Spider Meat.|US|
-C Condors|ACTIVE|92|L|1080 5|N|Kill Condors to loot 5 Tough Condor Meat.|T|Dire Condor|US|
-C Black Dragon Whelps|QID|122|M|18,72.6|N|Kill the Black Dragon Whelps to loot Underbelly Whelp Scales.|US|
+; --- Don't need these US steps yet. Will remove when a more appropriate spot is found.
+;C Goretusks|ACTIVE|92|L|2296 5|N|Kill Goretusks to loot Great Goretusk Snout.|US|
+;C Spiders|ACTIVE|92|L|1081 5|N|Kill the spiders to loot Crisp Spider Meat.|US|
+;C Condors|ACTIVE|92|L|1080 5|N|Kill Condors to loot 5 Tough Condor Meat.|T|Dire Condor|US|
+;C Black Dragon Whelps|QID|122|M|18,72.6|N|Kill the Black Dragon Whelps to loot Underbelly Whelp Scales.|US|
 T Assessing the Threat|QID|246|M|30.74,59.99|N|To Deputy Feldon.|
 C The Lost Tools|QID|125|M|41.60,54.70|L|1309|N|Loot the tools from the chest at the bottom of the lake.|
 T The Lost Tools|QID|125|M|32.1,48.6|N|To Foreman Oslow.|
 t Underbelly Scales|QID|122|M|31.00,47.30|N|To Verner Osgood.|
 T Hilary's Necklace|QID|3741|M|29.24,53.62|N|To Hilary.|
-T Redridge Goulash|QID|92|M|22.7,43.8|N|To Chef Breanna.|
-T Visit the Herbalist|QID|130|M|21.9,46.3|N|To Martie Jainrose.|
-A Delivering Daffodils|QID|131|M|21.9,46.3|N|From Martie Jainrose.|PRE|130|
-T Delivering Daffodils|QID|131|M|26.9,44.53|N|To Darcy.|
+t Redridge Goulash|QID|92|M|22.68,43.83|N|To Chef Breanna.|
+T Visit the Herbalist|QID|130|M|21.85,46.32|N|To Martie Jainrose.|
+A Delivering Daffodils|QID|131|M|21.85,46.32|N|From Martie Jainrose.|PRE|130|
+T Delivering Daffodils|QID|131|M|26.9,44.53|N|To Darcy. She wanders around a bit.|
 
 R Duskwood|ACTIVE|116|M|6.42,91.32|N|Go to Duskwood|
-B Bottle of Moonshine|ACTIVE|116|M|73.70,44.10|Z|Duskwood|QO|3|NC|N|Buy a Bottle of Moonshine from Barkeep Hann.|
+R Darkshire|ACTIVE|116|M|72.40,37.99|Z|Duskwood|N|COntinue follow the road south into Darkshire.|
+B Bottle of Moonshine|ACTIVE|116|M|73.70,44.10|Z|Duskwood|L|1942|N|Buy a Bottle of Moonshine from Barkeep Hann.|
 f Darkshire|QID|116|M|77.50,44.30|Z|Duskwood|N|Get the flight path from Felicia Maline.|
 F Sentinel Hill|ACTIVE|132|M|77.50,44.30|Z|Duskwood|N|Fly to Sentinel Hill.|
 
 T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle.|PRE|132|
 
-F Stormwind|ACTIVE|116|N|And back to Stormwind, they like giving you the run around.|TZ|Stormwind City|
-B Skin of Sweet Rum|ACTIVE|116|M|44.00,65.70|Z|Elwynn Forest|QO|4|NC|N|Buy a Skin of Sweet Rum from Barkeep Dobbins.|
-R Elwynn Forest|ACTIVE|118|M|32.03,49.18|N|Make your way to the front gate.|
-T The Price of Shoes|QID|118|M|41.71,65.55|Z|Elwynn Forest|N|To Smith Argus.|
-A Return to Verner|QID|119|M|41.71,65.55|Z|Elwynn Forest|N|From Smith Argus.|PRE|118|
-R Stormwind City|ACTIVE|120|M|70.82,88.48|Z|Stormwind City|N|Return to Stormwind City.|
-T Messenger to Stormwind|QID|120|M|64.01,75.38|Z|Stormwind City|N|To General Marcus Jonathan.|
-A Messenger to Stormwind |QID|121|M|64.01,75.38|Z|Stormwind City|N|From General Marcus Jonathan.|PRE|120|
+F Stormwind|ACTIVE|116|M|56.56,52.65|Z|Westfall|N|On to Stormwind City.|TZ|Stormwind City|
+B Skin of Sweet Rum|ACTIVE|116|M|44.00,65.70|Z|Elwynn Forest|QO|4|NC|N|Buy a Skin of Sweet Rum from Barkeep Dobbins inside the Inn.|
+; This was moved to earlier in the guide.
+;R Elwynn Forest|ACTIVE|118|M|32.03,49.18|N|Make your way to the front gate.|
+;T The Price of Shoes|QID|118|M|41.71,65.55|Z|Elwynn Forest|N|To Smith Argus.|
+;A Return to Verner|QID|119|M|41.71,65.55|Z|Elwynn Forest|N|From Smith Argus.|PRE|118|
+;R Stormwind City|ACTIVE|120|M|70.82,88.48|Z|Stormwind City|N|Return to Stormwind City.|
+T Messenger to Stormwind|QID|120|M|64.01,75.38|Z|Stormwind City|N|To General Marcus Jonathan in Old Town. You'll find him on the 2nd floor inside SI:7.|
+A Messenger to Stormwind|QID|121|M|64.01,75.38|Z|Stormwind City|N|From General Marcus Jonathan.|PRE|120|
 B Cask of Merlot|ACTIVE|116|M|52.15,67.87|Z|Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
 T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|CS|Z|Stormwind City|N|To Master Mathias Shaw.|
 A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|135|
@@ -117,7 +120,7 @@ A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|Stormwind City|N|From Master Ma
 ;removing to end of 18-20westfall guide, so to keep questlog managable-A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
 A Humble Beginnings|QID|399|M|49.19,30.27|Z|Stormwind City|N|From Baros Alexston.|
 T Elmore's Task|QID|1097|M|51.74,12.13|Z|Stormwind City|N|To Grimand Elmore. (skip followup -- unless you are inclined to take a trip to Loch Modan on your own.)|
-H Sentinel Hill|ACTIVE|116|M|71.00,72.50|Z|Stormwind City|N|Hearth (or fly )to Westfall|
+H Sentinel Hill|ACTIVE|116||M|71.00,72.50|Z|Stormwind City|N|Hearth (or fly) to Westfall.|
 ; --- This guide ends in Sentinel Hill, Westfall
 
 ]]
