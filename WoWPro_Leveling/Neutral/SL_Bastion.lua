@@ -39,15 +39,15 @@ T A Soulbind In Need|QID|57677|M|48.23,72.65|Z|Bastion|N|To Pelagos.|MS|
 
 ; The Aspirant's Crucible Storyline
 A The Aspirant's Crucible|QID|57709|M|48.23,72.65|Z|Bastion|N|From Overseer Kah-Sher.|PRE|57677^57676|MS|
-A The Old Ways|QID|60466|M|47.92,73.45|Z|Bastion|N|From Klystere.|LVL|50|
-B The Old Ways|QID|60466|M|48.07,73.00|QO|1|Z|Bastion|NC|N|Buy the thread from Caretaker Mirene.|
-h Aspirant's Rest|ACTIVE|60466|M|48.07,73.00|Z|Bastion|N|Set Hearthstone at Caretaker Mirene.|
-f Aspirant's Rest|ACTIVE|60466|M|48.13,74.16|Z|Bastion|N|At Rheus.|
-C The Old Ways|QID|60466|M|50.66,72.56|QO|2|Z|Bastion|N|Kill Cloudstrider Grazers for the pelt.|S|
-C The Old Ways|QID|60466|M|50.66,72.56|QO|3|Z|Bastion|N|Kill Larion Sires for the Plumes.|
-C The Old Ways|QID|60466|M|50.66,72.56|QO|2|Z|Bastion|N|Kill Cloudstrider Grazers for the pelt.|US|
-T The Old Ways|QID|60466|M|47.92,73.45|Z|Bastion|N|To Klystere.|
-A A Gift for An Acolyte|QID|62714|M|47.92,73.45|Z|Bastion|N|From Klystere.|PRE|60466|
+A The Old Ways|QID|60466|M|47.92,73.45|Z|Bastion|N|From Klystere.|LVL|50|RANK|2|
+B The Old Ways|QID|60466|M|48.07,73.00|QO|1|Z|Bastion|NC|N|Buy the thread from Caretaker Mirene.|RANK|2|
+h Aspirant's Rest|ACTIVE|60466|M|48.07,73.00|Z|Bastion|N|Set Hearthstone at Caretaker Mirene.|RANK|2|
+f Aspirant's Rest|ACTIVE|60466|M|48.13,74.16|Z|Bastion|N|At Rheus.|RANK|2|
+C The Old Ways|QID|60466|M|50.66,72.56|QO|2|Z|Bastion|N|Kill Cloudstrider Grazers for the pelt.|S|RANK|2|
+C The Old Ways|QID|60466|M|50.66,72.56|QO|3|Z|Bastion|N|Kill Larion Sires for the Plumes.|RANK|2|
+C The Old Ways|QID|60466|M|50.66,72.56|QO|2|Z|Bastion|N|Kill Cloudstrider Grazers for the pelt.|US|RANK|2|
+T The Old Ways|QID|60466|M|47.92,73.45|Z|Bastion|N|To Klystere.|RANK|2|
+A A Gift for An Acolyte|QID|62714|M|47.92,73.45|Z|Bastion|N|From Klystere.|PRE|60466|RANK|2|
 C The Aspirant's Crucible|QID|57709|M|48.08,74.03|Z|Bastion|V|N|Click on Theonara the gryphon for a ride. This is not optional.|MS|
 T The Aspirant's Crucible|QID|57709|M|56.10,81.75|Z|Bastion|N|To Forgelite Sophone.|MS|
 A A Life of Service|QID|57710|M|56.10,81.75|Z|Bastion|N|From Forgelite Sophone|PRE|57709|MS|
@@ -60,10 +60,10 @@ T A Forge Gone Cold|QID|57711|M|52.79,82.58|Z|Bastion|N|To Sika.|MS|
 A The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion|N|From Sika.|PRE|57711|MS|
 A The Cycle of Anima: Flower Power|QID|57267|M|52.71,82.61|Z|Bastion|N|From Sika.|PRE|57711|MS|
 A The Cycle of Anima: Drought Conditions|QID|57265|M|52.70,82.60|Z|Bastion|N|From Forgelite Sophone.|PRE|57711|MS|
-A Suggested Reading|QID|57712|M|55.36,83.42|Z|Bastion|N|From Clora.|LVL|51|
-C Suggested Reading|QID|57712|M|56.04,82.81|QO|2|Z|Bastion|CHAT|N|Talk to Aspirant Leda for "Worlds Beyond Counting".|
-C Suggested Reading|QID|57712|M|52.97,82.45|QO|1|Z|Bastion|CHAT|N|Talk to Aspirant Ikaran for "The Infinite Treatises".|
-C Suggested Reading|QID|57712|M|52.71,82.61|QO|3|Z|Bastion|N|Kill Ethtywyrms till "Bear Witness: The Watcher's Code" drops.|S|
+A Suggested Reading|QID|57712|M|55.36,83.42|Z|Bastion|N|From Clora.|LVL|51|RANK|2|
+C Suggested Reading|QID|57712|M|56.04,82.81|QO|2|Z|Bastion|CHAT|N|Talk to Aspirant Leda for "Worlds Beyond Counting".|RANK|2|
+C Suggested Reading|QID|57712|M|52.97,82.45|QO|1|Z|Bastion|CHAT|N|Talk to Aspirant Ikaran for "The Infinite Treatises".|RANK|2|
+C Suggested Reading|QID|57712|M|52.71,82.61|QO|3|Z|Bastion|N|Kill Ethtywyrms till "Bear Witness: The Watcher's Code" drops.|S|RANK|2|
 C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|Bastion|N|Slay Etherwyrms to collect Glowing Viscera.|S|MS|
 C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|Bastion|NC|N|Collect Adrima's Lily.|S|MS|
 C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|1|Z|Bastion|NC|N|Click the Anima Extractor.|MS|
@@ -71,7 +71,7 @@ C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|2|Z|Bastion|
 C The Cycle of Anima: Drought Conditions|QID|57265|M|54.80,79.69|QO|3|Z|Bastion|NC|N|Collect a Condensed Anima Mote from the Anima Canister on the ground.|MS|
 C The Cycle of Anima: Flower Power|QID|57267|M|55.11,78.30|Z|Bastion|NC|N|Collect 6 Adrima's Lily.|US|MS|
 C The Cycle of Anima: Etherwyrms|QID|57263|M|55.11,78.30|Z|Bastion|N|Slay Etherwyrms to collect 25 Glowing Viscera.|US|MS|
-C Suggested Reading|QID|57712|M|55.11,78.30|QO|3|Z|Bastion|N|Kill Etherwyrms till "Bear Witness: The Watcher's Code" drops.|US|
+C Suggested Reading|QID|57712|M|55.11,78.30|QO|3|Z|Bastion|N|Kill Etherwyrms till "Bear Witness: The Watcher's Code" drops.|US|RANK|2|
 T Suggested Reading|QID|57712|M|55.35,83.40|Z|Bastion|N|To Clora.|MS|
 T The Cycle of Anima: Etherwyrms|QID|57263|M|52.71,82.61|Z|Bastion|N|To Sika.|MS|
 T The Cycle of Anima: Flower Power|QID|57267|M|52.71,82.61|Z|Bastion|N|To Sika.|MS|
@@ -125,13 +125,13 @@ T All An Aspirant Can Do|QID|58174|M|48.28,72.86|Z|Bastion|N|To Kleia.|MS|
 
 ; The Temple of Purity Storyline
 A The Temple of Purity|QID|57270|M|48.36,72.80|Z|Bastion|N|From Disciple Kosmas|PRE|58174|MS|
-A Hero's Rest|QID|62718|M|48.79,73.26|Z|Bastion|N|From the Scroll hanging on the wall.|LVL|50|
-A WANTED: Altered Sentinel|QID|60316|M|49.13,72.82|Z|Bastion|ELITE|N|[color=ff8000]Elite: [/color]From the scroll next to the tent.|LVL|51|
-C WANTED: Altered Sentinel|QID|60316|M|51.15,75.24|Z|Bastion|N|[color=ff8000]Elite: [/color]Destroy the Altered Sentinel.|
-T WANTED: Altered Sentinel|QID|60316|M|48.95,72.34|Z|Bastion|N|To Forgehand Simo|
-C A Gift for An Acolyte|QID|62714|M|53.87,73.95|Z|Bastion|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity..|
-T A Gift for An Acolyte|QID|62714|M|53.87,73.95|Z|Bastion|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity.|
-A More Than A Gift|QID|62715|M|53.87,73.95|Z|Bastion|N|From Acolyte Amalthina.|PRE|62714|
+A Hero's Rest|QID|62718|M|48.79,73.26|Z|Bastion|N|From the Scroll hanging on the wall.|LVL|50|RANK|2|
+A WANTED: Altered Sentinel|QID|60316|M|49.13,72.82|Z|Bastion|ELITE|N|[color=ff8000]Elite: [/color]From the scroll next to the tent.|LVL|51|RANK|2|
+C WANTED: Altered Sentinel|QID|60316|M|51.15,75.24|Z|Bastion|N|[color=ff8000]Elite: [/color]Destroy the Altered Sentinel.|RANK|2|
+T WANTED: Altered Sentinel|QID|60316|M|48.95,72.34|Z|Bastion|N|To Forgehand Simo|RANK|2|
+C A Gift for An Acolyte|QID|62714|M|53.87,73.95|Z|Bastion|NC|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity..|RANK|2|
+T A Gift for An Acolyte|QID|62714|M|53.87,73.95|Z|Bastion|N|Deliver Klystere's Gift to Acolyte Amalthina in the Temple of Purity.|RANK|2|
+A More Than A Gift|QID|62715|M|53.87,73.95|Z|Bastion|N|From Acolyte Amalthina.|PRE|62714|RANK|2|
 C The Temple of Purity|QID|57270|M|54.09,73.62|Z|Bastion|NC|N|Find Erida in the Temple of Purity.|MS|
 T The Temple of Purity|QID|57270|M|54.09,73.62|N|To Eridia.|MS|
 A A Temple in Need|QID|57977|M|54.09,73.62|Z|Bastion|N|From Acolyte Amalthina.|PRE|57270|MS|
@@ -155,19 +155,19 @@ T Step Back From That Ledge, My Friend|QID|57717|M|59.31,77.05|Z|Bastion|N|To Er
 A A Once Sweet Sound|QID|57037|M|59.31,77.06|Z|Bastion|N|From Eridia.|PRE|57717|MS|
 A The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion|N|From Eridia.|PRE|57717|MS|
 C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion|N|Kill all the hostile mobs till the bar fills up.|S|MS|
-A An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion|N|From Acolyte Galistos.|LVL|51|
-C An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|S|
+A An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion|N|From Acolyte Galistos.|LVL|51|RANK|2|
+C An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|S|RANK|2|
 C A Once Sweet Sound|QID|57037|M|57.32,71.34|Z|Bastion|QO|1|N|Vesper of Purity cleansed.|MS|
 A Dangerous Discourse|QID|57719^60292|M|60.09,73.72|Z|Bastion|N|From The Scroll on the side of the temple.|PRE|57717|MS|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion|NC|N|Find the scrolls around the area.|S|MS|
 C A Once Sweet Sound|QID|57037|M|60.08,73.49|Z|Bastion|QO|2|N|Vesper of Harmony cleansed.|MS|
 C Dangerous Discourse|QID|57719|M|60.09,73.72|Z|Bastion|NC|N|Find the scrolls around the area.|US|MS|
 C The Hand of Purification|QID|59147|M|59.31,77.06|Z|Bastion|N|Kill all the hostile mobs till the bar fills up.|US|MS|
-C An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|US|
+C An Inspired Moral Inventory|QID|57444|M|58.00,75.85|Z|Bastion|N|Click the "[color=40C7EB]Introspection[/color]" Action Ability to throw a spear at the Elites to make them Non-Elite and kill them.|EAB|US|RANK|2|
 T A Once Sweet Sound|QID|57037|M|61.27,74.37|Z|Bastion|N|To Eridia.|MS|
 T The Hand of Purification|QID|59147|M|61.27,74.37|Z|Bastion|N|To Eridia.|MS|
 T Dangerous Discourse|QID|57719|M|61.27,74.37|Z|Bastion|N|To Eridia.|MS|
-T An Inspired Moral Inventory|QID|57444|M|61.15,74.40|Z|Bastion|N|To Acolyte Galistos.|
+T An Inspired Moral Inventory|QID|57444|M|61.15,74.40|Z|Bastion|N|To Acolyte Galistos.|RANK|2|
 A The Enemy You Know|QID|57446|M|61.27,74.37|Z|Bastion|N|From Kleia.|PRE|57037^59147^57719|MS|
 C The Enemy You Know|QID|57446|M|63.71,72.18|QO|1|Z|Bastion|NC|N|Follow Eridia.|MS|
 C The Enemy You Know|QID|57446|M|63.50,72.06|Z|Bastion|CHAT|QO|2|N|Speak to Kosmas.|MS|
@@ -202,8 +202,8 @@ C What's In a Memory?|QID|58977|M|PLAYER|QO|2|Z|Bastion|N|kill the hostiles to c
 C What's In a Memory?|QID|58977|M|57.61,61.70|QO|3|Z|Bastion|NC|N|Click the Fragment of Lysonia.|MS|
 T What's In a Memory?|QID|58977|M|57.51,61.72|Z|Bastion|N|To Kleia.|MS|
 A Lysonia's Truth|QID|58978|M|57.51,61.72|Z|Bastion|N|From Kleia.|PRE|58977|MS|
-A Hostile Recollection|QID|59015^62735|M|PLAYER|Z|Bastion|N|Bonus Objective - Autoaccepted.|
-C Hostile Recollection|QID|59015^62735|M|PLAYER|Z|Bastion|N|Kill enemies as you go, click on things laying around.|S|
+A Hostile Recollection|QID|59015^62735|M|PLAYER|Z|Bastion|N|Bonus Objective - Autoaccepted.|RANK|2|
+C Hostile Recollection|QID|59015^62735|M|PLAYER|Z|Bastion|N|Kill enemies as you go, click on things laying around.|S|RANK|2|
 C Lysonia's Truth|QID|58978|M|58.09,64.43|QO|1|Z|Bastion|NC|N|Click the Soul Mirror.|MS|
 C Lysonia's Truth|QID|58978|M|58.93,62.72|QO|2|Z|Bastion|NC|N|Click the Soul Mirror.|MS|
 C Lysonia's Truth|QID|58978|M|59.52,59.64|QO|3|Z|Bastion|NC|N|Click the Soul Mirror.|MS|
@@ -214,12 +214,12 @@ C I MADE You!|QID|58979|M|57.25,55.36|QO|1|Z|Bastion|CHAT|N|Speak to Mikanikos.|
 C I MADE You!|QID|58979|M|57.22,54.95|QO|2|Z|Bastion|N|Locus-Keeper Mnemis defeated.|MS|
 T I MADE You!|QID|58979|M|57.26,55.26|Z|Bastion|N|To Locus-Keeper Mnemis.|MS|
 A Mnemis, At Your Service|QID|58980|M|57.26,55.26|Z|Bastion|N|From Locus-Keeper Mnemis.|PRE|58979|MS|
-A Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Bonus Objective - Autoaccepted.|
-C Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Kill enemies as you go, click on things laying around.|S|
+A Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Bonus Objective - Autoaccepted.|RANK|2|
+C Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Kill enemies as you go, click on things laying around.|S|RANK|2|
 C Mnemis, At Your Service|QID|58980|M|59.90,58.18|QO|1|Z|Bastion|NC|N|Wait for Mikanikos to un ward the chest then collect it.|MS|
 C Mnemis, At Your Service|QID|58980|M|60.59,61.89|QO|2|Z|Bastion|NC|N|Wait for Mikanikos to un ward the chest then collect it.|MS|
-C Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Fishish repeling the threat before turning in the next quest if you like having Kleia tanking for you.|US|
-t Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Auto Turn-in.|
+C Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Fishish repeling the threat before turning in the next quest if you like having Kleia tanking for you.|US|RANK|2|
+t Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Auto Turn-in.|RANK|2|
 T Mnemis, At Your Service|QID|58980|M|58.87,65.25|Z|Bastion|N|To Locus-Keeper Mnemis.|MS|
 A The Vault of the Archon|QID|58843|M|58.87,65.25|Z|Bastion|N|From Locus-Keeper Mnemis.|PRE|58980|MS|
 C The Vault of the Archon|QID|58843|M|58.87,65.25|QO|1|Z|Bastion|NC|N|Click the two Vault Guardian statues behind you to gain entry.|MS|
@@ -237,151 +237,151 @@ T Leave it to Mnemis|QID|60013|M|54.42,64.27|Z|Bastion|N|To Kleia.|MS|
 ; Your Personal Assistant Storyline
 A Go in Service|QID|59196|M|54.42,64.27|Z|Bastion|N|From Kleia.|PRE|60013|MS|
 C Go in Service|QID|59196|M|55.97,52.75|Z|Bastion|NC|N|Click the transport pad.|MS|
-C Hero's Rest|QID|62718|M|55.97,52.75|Z|Bastion|NC|N|Click the transport pad.|
+C Hero's Rest|QID|62718|M|55.97,52.75|Z|Bastion|NC|N|Click the transport pad.|RANK|2|
 T Go in Service|QID|59196|M|52.89,48.04|Z|Bastion|N|To Kleia.|MS|
-T Hero's Rest|QID|62718|M|52.83,47.88|Z|Bastion|N|To Kalisthene.|
+T Hero's Rest|QID|62718|M|52.83,47.88|Z|Bastion|N|To Kalisthene.|RANK|2|
 A Your Personal Assistant|QID|59426|M|52.83,47.88|Z|Bastion|N|From Kalisthene.|PRE|59196|MS|
 C Your Personal Assistant|QID|59426|M|PLAYER|Z|Bastion|CHAT|N|Talk to one of the stewards to make it your freind.|MS|
 T Your Personal Assistant|QID|59426|M|52.83,47.88|Z|Bastion|N|To Kalisthene.|MS|
-A WANTED: Gorgebeak|QID|60315|M|53.57,46.43|Z|Bastion|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|LVL|51|
-A WANTED: Darkwing|QID|60366|M|53.57,46.43|Z|Bastion|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|LVL|52|
-A A Fine Journey|QID|59554|M|51.93,47.70|Z|Bastion|N|From the scroll on the wall.|PRE|62718|LVL|52|
+A WANTED: Gorgebeak|QID|60315|M|53.57,46.43|Z|Bastion|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|LVL|51|RANK|2|
+A WANTED: Darkwing|QID|60366|M|53.57,46.43|Z|Bastion|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|LVL|52|RANK|2|
+A A Fine Journey|QID|59554|M|51.93,47.70|Z|Bastion|N|From the scroll on the wall.|PRE|62718|LVL|52|RANK|2|
 A Steward at Work|QID|59197|M|52.83,47.88|Z|Bastion|N|From Kalisthene.|PRE|59426|MS|
 C Steward at Work|QID|59197|M|PLAYER|Z|Bastion|QO|1|N|Use the new summon steward spell you just received.|MS|
 C Steward at Work|QID|59197|M|PLAYER|Z|Bastion|QO|2|CHAT|N|Talk to the Steward you summoned and ask him to fix the beacon.|MS|
 C Steward at Work|QID|59197|M|53.24,46.82|Z|Bastion|QO|3|NC|N|Click to activate the beacon of invocation.|MS|
-h Hero's Rest|QID|59197|M|53.15,46.88|Z|Bastion|N|At Inkiep.|
-f Hero's Rest|ACTIVE|59197|M|51.40,46.80|Z|Bastion|N|At Navarros.|
+h Hero's Rest|QID|59197|M|53.15,46.88|Z|Bastion|N|At Inkiep.|RANK|2|
+f Hero's Rest|ACTIVE|59197|M|51.40,46.80|Z|Bastion|N|At Navarros.|RANK|2|
 T Steward at Work|QID|59197|M|52.86,45.66|Z|Bastion|N|To Polemarch Adrestes.|MS|
 
 ; Side Quest stuff - In Agthia's Memory
-A A Friendly Rivalry|QID|59674|M|57.40,54.29|Z|Bastion|N|Take a teleportation pad down and grab this from Pelodis.|LVL|52|
-C More Than A Gift|QID|62715|M|45.56,59.70|Z|Bastion|NC|N|Click on the flower.|
-C A Fine Journey|QID|59554|M|46.96,63.44|Z|Bastion|N|Run over to Keeper Mnemis.|
-T A Fine Journey|QID|59554|M|46.96,63.44|Z|Bastion|N|To Keeper Mnemis.|
-A In Agthia's Memory|QID|57549|M|46.96,63.44|Z|Bastion|N|From Keeper Mnemis.|PRE|59554|LVL|52|
-C In Agthia's Memory|QID|57549|M|47.45,66.05|QO|1|Z|Bastion|NC|N|Click the scroll.|
-C In Agthia's Memory|QID|57549|M|44.84,68.75|QO|2|Z|Bastion|NC|N|Click the scroll.|
-C In Agthia's Memory|QID|57549|M|44.68,64.37|QO|3|Z|Bastion|NC|N|Click the scroll.|
-T In Agthia's Memory|QID|57549|M|46.96,63.44|Z|Bastion|N|To Keeper Mnemis.|
-A Agthia's Path|QID|57551|M|46.96,63.44|Z|Bastion|N|From Keeper Mnemis.|PRE|57549|
-C Agthia's Path|QID|57551|M|46.96,63.44|Z|Bastion|NC|N|Click the bell right next to you.|
-T Agthia's Path|QID|57551|M|46.59,63.37|Z|Bastion|N|To Agthia.|
-A Warriors of the Void|QID|57552|M|46.59,63.37|Z|Bastion|N|From Agthia.|PRE|57551|
-A Wicked Gateways|QID|57554|M|46.59,63.37|Z|Bastion|N|From Agthia.|PRE|57551|
-A On Wounded Wings|QID|57553|M|46.59,63.37|Z|Bastion|N|From Agthian Defender.|PRE|57551|
-C Warriors of the Void|QID|57552|M|46.59,63.37|Z|Bastion|N|Kill all the mobs.|S|
-C On Wounded Wings|QID|57553|M|46.59,63.37|Z|Bastion|NC|N|Click the Wounded Defenders to heal them.|S|
-C Wicked Gateways|QID|57554|M|46.59,63.37|Z|Bastion|NC|N|Click the void portals to close them.|
-C On Wounded Wings|QID|57553|M|46.59,63.37|Z|Bastion|NC|N|Click the Wounded Defenders to heal them.|US|
-C Warriors of the Void|QID|57552|M|46.59,63.37|Z|Bastion|N|Kill all the mobs.|US|
-T Warriors of the Void|QID|57552|M|46.59,63.37|Z|Bastion|N|To Agthia.|
-T On Wounded Wings|QID|57553|M|46.59,63.37|Z|Bastion|N|To Agthia.|
-T Wicked Gateways|QID|57554|M|46.59,63.37|Z|Bastion|N|To Agthia.|
-A Shadow's Fall|QID|57555|M|46.96,63.44|Z|Bastion|N|From Keeper Mnemis.|PRE|57552&57553&57554|
-C Shadow's Fall|QID|57555|M|44.86,68.68|Z|Bastion|NC|N|Kill Tezulat the Annihilator, the big void guy.|
-T Shadow's Fall|QID|57555|M|46.59,63.37|Z|Bastion|N|To Agthia.|
+A A Friendly Rivalry|QID|59674|M|57.40,54.29|Z|Bastion|N|Take a teleportation pad down and grab this from Pelodis.|LVL|52|RANK|2|
+C More Than A Gift|QID|62715|M|45.56,59.70|Z|Bastion|NC|N|Click on the flower.|RANK|2|
+C A Fine Journey|QID|59554|M|46.96,63.44|Z|Bastion|N|Run over to Keeper Mnemis.|RANK|2|
+T A Fine Journey|QID|59554|M|46.96,63.44|Z|Bastion|N|To Keeper Mnemis.|RANK|2|
+A In Agthia's Memory|QID|57549|M|46.96,63.44|Z|Bastion|N|From Keeper Mnemis.|PRE|59554|LVL|52|RANK|2|
+C In Agthia's Memory|QID|57549|M|47.45,66.05|QO|1|Z|Bastion|NC|N|Click the scroll.|RANK|2|
+C In Agthia's Memory|QID|57549|M|44.84,68.75|QO|2|Z|Bastion|NC|N|Click the scroll.|RANK|2|
+C In Agthia's Memory|QID|57549|M|44.68,64.37|QO|3|Z|Bastion|NC|N|Click the scroll.|RANK|2|
+T In Agthia's Memory|QID|57549|M|46.96,63.44|Z|Bastion|N|To Keeper Mnemis.|RANK|2|
+A Agthia's Path|QID|57551|M|46.96,63.44|Z|Bastion|N|From Keeper Mnemis.|PRE|57549|RANK|2|
+C Agthia's Path|QID|57551|M|46.96,63.44|Z|Bastion|NC|N|Click the bell right next to you.|RANK|2|
+T Agthia's Path|QID|57551|M|46.59,63.37|Z|Bastion|N|To Agthia.|RANK|2|
+A Warriors of the Void|QID|57552|M|46.59,63.37|Z|Bastion|N|From Agthia.|PRE|57551|RANK|2|
+A Wicked Gateways|QID|57554|M|46.59,63.37|Z|Bastion|N|From Agthia.|PRE|57551|RANK|2|
+A On Wounded Wings|QID|57553|M|46.59,63.37|Z|Bastion|N|From Agthian Defender.|PRE|57551|RANK|2|
+C Warriors of the Void|QID|57552|M|46.59,63.37|Z|Bastion|N|Kill all the mobs.|S|RANK|2|
+C On Wounded Wings|QID|57553|M|46.59,63.37|Z|Bastion|NC|N|Click the Wounded Defenders to heal them.|S|RANK|2|
+C Wicked Gateways|QID|57554|M|46.59,63.37|Z|Bastion|NC|N|Click the void portals to close them.|RANK|2|
+C On Wounded Wings|QID|57553|M|46.59,63.37|Z|Bastion|NC|N|Click the Wounded Defenders to heal them.|US|RANK|2|
+C Warriors of the Void|QID|57552|M|46.59,63.37|Z|Bastion|N|Kill all the mobs.|US|RANK|2|
+T Warriors of the Void|QID|57552|M|46.59,63.37|Z|Bastion|N|To Agthia.|RANK|2|
+T On Wounded Wings|QID|57553|M|46.59,63.37|Z|Bastion|N|To Agthia.|RANK|2|
+T Wicked Gateways|QID|57554|M|46.59,63.37|Z|Bastion|N|To Agthia.|RANK|2|
+A Shadow's Fall|QID|57555|M|46.96,63.44|Z|Bastion|N|From Keeper Mnemis.|PRE|57552&57553&57554|RANK|2|
+C Shadow's Fall|QID|57555|M|44.86,68.68|Z|Bastion|NC|N|Kill Tezulat the Annihilator, the big void guy.|RANK|2|
+T Shadow's Fall|QID|57555|M|46.59,63.37|Z|Bastion|N|To Agthia.|RANK|2|
 
 ; Side Quest stuff - In the Garden of Respite
-A Garden in Turmoil|QID|57529|M|52.34,61.38|Z|Bastion|N|From Tamesis.|
-T Garden in Turmoil|QID|57529|M|51.34,59.57|Z|Bastion|N|To Zosime.|
-A Disturbing the Peace|QID|57538|M|51.34,59.57|Z|Bastion|N|From Zosime.|LVL|51|
-A Distractions for Kala|QID|57545|M|51.34,59.57|Z|Bastion|N|From Tamesis.|LVL|51|
-C Disturbing the Peace|QID|57538|M|49.86,58.84|Z|Bastion|N|Kill the Anima-Starved creatures in the area.|S|
-C Disctractions for Kala|QID|57545|M|49.62,60.00|QO|2|Z|Bastion|NC|N|Click the teddy bear on the ground.|
-C Disctractions for Kala|QID|57545|M|51.10,58.75|QO|1|Z|Bastion|NC|N|Click on the ball on the ground.|
-C Disctractions for Kala|QID|57545|M|52.84,58.17|QO|3|Z|Bastion|NC|N|Click the pillow on the ground.|
-C Disturbing the Peace|QID|57538|M|49.86,58.84|Z|Bastion|N|Kill the Anima-Starved creatures in the area.|US|
-T Disturbing the Peace|QID|57538|M|51.33,59.56|Z|Bastion|N|To Zosime.|
-T Distractions for Kala|QID|57545|M|51.33,59.56|Z|Bastion|N|To Zosime.|
-A A Test of Courage|QID|57547|M|51.33,59.56|Z|Bastion|N|From Zosime.|PRE|57538&57545|
-C A Test of Courage|QID|57547|M|51.84,54.69|QO|1|Z|Bastion|N|Hit that little bell.|
-C A Test of Courage|QID|57547|M|51.84,54.69|QO|2|Z|Bastion|N|Defend Zosime from waves of attackers.|
-T A Test of Courage|QID|57547|M|51.19,56.78|Z|Bastion|N|To Zosime.|
-A Tough Love|QID|57568|M|51.19,56.78|Z|Bastion|N|From Zosime.|PRE|57547|
-C Tough Love|QID|57568|M|46.31,56.71|QO|1|Z|Bastion|N|Beat down Kala to 50% health.|
-C Tough Love|QID|57568|M|46.31,56.71|QO|2|Z|Bastion|N|Grab the stick.|
-T Tough Love|QID|57568|M|51.33,59.57|Z|Bastion|N|To Zosime.|
+A Garden in Turmoil|QID|57529|M|52.34,61.38|Z|Bastion|N|From Tamesis.|RANK|2|
+T Garden in Turmoil|QID|57529|M|51.34,59.57|Z|Bastion|N|To Zosime.|RANK|2|
+A Disturbing the Peace|QID|57538|M|51.34,59.57|Z|Bastion|N|From Zosime.|LVL|51|RANK|2|
+A Distractions for Kala|QID|57545|M|51.34,59.57|Z|Bastion|N|From Tamesis.|LVL|51|RANK|2|
+C Disturbing the Peace|QID|57538|M|49.86,58.84|Z|Bastion|N|Kill the Anima-Starved creatures in the area.|S|RANK|2|
+C Disctractions for Kala|QID|57545|M|49.62,60.00|QO|2|Z|Bastion|NC|N|Click the teddy bear on the ground.|RANK|2|
+C Disctractions for Kala|QID|57545|M|51.10,58.75|QO|1|Z|Bastion|NC|N|Click on the ball on the ground.|RANK|2|
+C Disctractions for Kala|QID|57545|M|52.84,58.17|QO|3|Z|Bastion|NC|N|Click the pillow on the ground.|RANK|2|
+C Disturbing the Peace|QID|57538|M|49.86,58.84|Z|Bastion|N|Kill the Anima-Starved creatures in the area.|US|RANK|2|
+T Disturbing the Peace|QID|57538|M|51.33,59.56|Z|Bastion|N|To Zosime.|RANK|2|
+T Distractions for Kala|QID|57545|M|51.33,59.56|Z|Bastion|N|To Zosime.|RANK|2|
+A A Test of Courage|QID|57547|M|51.33,59.56|Z|Bastion|N|From Zosime.|PRE|57538&57545|RANK|2|
+C A Test of Courage|QID|57547|M|51.84,54.69|QO|1|Z|Bastion|N|Hit that little bell.|RANK|2|
+C A Test of Courage|QID|57547|M|51.84,54.69|QO|2|Z|Bastion|N|Defend Zosime from waves of attackers.|RANK|2|
+T A Test of Courage|QID|57547|M|51.19,56.78|Z|Bastion|N|To Zosime.|RANK|2|
+A Tough Love|QID|57568|M|51.19,56.78|Z|Bastion|N|From Zosime.|PRE|57547|RANK|2|
+C Tough Love|QID|57568|M|46.31,56.71|QO|1|Z|Bastion|N|Beat down Kala to 50% health.|RANK|2|
+C Tough Love|QID|57568|M|46.31,56.71|QO|2|Z|Bastion|N|Grab the stick.|RANK|2|
+T Tough Love|QID|57568|M|51.33,59.57|Z|Bastion|N|To Zosime.|RANK|2|
 
 ; Side Quest stuff - Pride or Unit
 T More Than A Gift|QID|62715|M|53.87,73.95|Z|Bastion|N|To Acolyte Amalthina
-C WANTED: Gorgebeak|QID|60315|M|53.57,46.43|Z|Bastion|N|[color=ff8000]Elite: [/color]Kill Gorgebeak.|
-T WANTED: Gorgebeak|QID|60315|M|51.00,41.66|Z|Bastion|ELITE|N|To Gerdus.|
-T A Friendly Rivalry|QID|59674|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-A Phalynx Malfunction|QID|57931|M|54.81,41.19|Z|Bastion|N|From Pelodis.|PRE|59674|
-A Resource Drain|QID|57932|M|54.81,41.19|Z|Bastion|N|From Hopo.|PRE|59674|
-C Resource Drain|QID|57932|M|56.17,45.56|Z|Bastion|N|Use the item provided on Gilded Cloudstrider.|S|U|173691|
-C Phalynx Malfunction|QID|57931|M|54.89,43.58|Z|Bastion|QO|1|NC|N|Click on Gatamatos.|
-C Resource Drain|QID|57932|M|56.17,45.56|Z|Bastion|N|Use the item on the deer.|US|U|173691|
-C Phalynx Malfunction|QID|57931|M|55.36,41.99|Z|Bastion|QO|2|NC|N|Bring Gatamatos to the pedistool.|
-T Resource Drain|QID|57932|M|54.81,41.19|Z|Bastion|N|To Hopo.|
-T Phalynx Malfunction|QID|57931|M|54.81,41.19|Z|Bastion|N|To Pelodis.|
-A We Can Rebuild Him|QID|57933|M|54.81,41.19|Z|Bastion|N|From Pelodis.|PRE|57932^57931|
-C We Can Rebuild Him|QID|57933|M|55.34,42.00|QO|1|Z|Bastion|NC|N|Click the kitty.|
-C We Can Rebuild Him|QID|57933|M|54.62,40.44|QO|2|Z|Bastion|NC|N|Click the platform.|
-C We Can Rebuild Him|QID|57933|CS|M|54.50,41.57;54.62,40.44|QO|3|Z|Bastion|NC|N|Click on the engineers and bring it back to the platform.|
-C We Can Rebuild Him|QID|57933|CS|M|54.47,41.37;54.62,40.44|QO|4|Z|Bastion|NC|N|Click on the barrel and bring it back to the platform.|
-C We Can Rebuild Him|QID|57933|CS|M|54.39,41.01;54.49,41.66;54.88,40.15|QO|5|Z|Bastion|NC|N|Gather the armor pieces around the are.|
-C We Can Rebuild Him|QID|57933|M|54.49,40.38|QO|6|Z|Bastion|NC|N|Place all the armor scraps.|
-C We Can Rebuild Him|QID|57933|M|54.71,40.40|QO|7|Z|Bastion|CHAT|N|Talk to Pelodis.|
-T We Can Rebuild Him|QID|57933|M|54.81,41.19|Z|Bastion|N|To Pelodis.|
-A Combat Drills|QID|57934|M|54.81,41.19|Z|Bastion|N|From Pelodis.|PRE|57933|
-A Laser Location|QID|57935|M|55.93,47.21|Z|Bastion|N|From Pelodis.|PRE|57933|
-A Superior Programming|QID|57936|M|54.82,41.19|Z|Bastion|N|From Hopo.|PRE|57933|
-C Combat Drills|QID|57934|M|55.35,42.02|QO|1|Z|Bastion|N|Click on Gatamatos.|
-C Laser Location|QID|57935|M|55.78,42.59|QO|1|Z|Bastion|N|Click on Gatamatos.|
-C Combat Drills|QID|57934|M|55.78,42.59|QO|2|Z|Bastion|N|Kill the Etherwyrms with Gatamatos at your side.|S|
-R Hall of Beasts|ACTIVE|57935|M|56.13,40.28|Z|Bastion|N|Run into the Hall of Beasts.|
-C Laser Location|QID|57935|M|55.35,42.02|QO|2|Z|Bastion|N|Click the "[color=40C7EB]Order Search[/color]" Action Ability to have Gatamatos search for gems.|EAB|S|
-C Superior Programming|QID|57936|M|56.13,40.28|Z|Bastion|N|Kill Leonid.|
-C Laser Location|QID|57935|M|55.35,42.02|QO|2|Z|Bastion|N|Click the "[color=40C7EB]Order Search[/color]" Action Ability to have Gatamatos search for gems.|EAB|US|
-C Combat Drills|QID|57934|M|55.78,42.59|QO|2|Z|Bastion|N|Kill the Etherwyrms with Gatamatos at your side.|US|
-T Combat Drills|QID|57934|M|54.81,41.19|Z|Bastion|N|To Pelodis.|
-T Laser Location|QID|57935|M|54.81,41.19|Z|Bastion|N|To Pelodis.|
-T Superior Programming|QID|57936|M|54.81,41.19|Z|Bastion|N|To Hopo.|
-A Tactical Formation|QID|57937|M|54.80,41.16|Z|Bastion|N|From Pelodis.|PRE|57934&57935&57936|
-C Tactical Formation|QID|57937|M|55.37,42.01|QO|1|Z|Bastion|NC|N|Gatamatos retrieved.|
-C Tactical Formation|QID|57937|M|55.10,41.61|Z|Bastion|NC|N|Click the Shadows as they appear.|
-T Tactical Formation|QID|57937|M|54.80,41.16|Z|Bastion|N|To Pelodis.|
-A Antiquated Methodology|QID|58184|M|54.80,41.16|Z|Bastion|N|From Pelodis.|AVAILABLE|58037|PRE|57937|
-t Antiquated Methodology|QID|58184|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-A Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|59674|
-C Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|NC|N|Click on the flying lions.|
-T Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-A Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58037|
-A All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58037|
-C All Natural Chews|QID|58038|M|56.17,45.56|Z|Bastion|N|Kill the cloudstriders in the area.|S|
-C Larion at Large|QID|58039|CS|M|56.00,44.18|QO|1|Z|Bastion|N|Follow Andria till she stops moving and then click on her to remve the thorn.|
-C All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|Kill the cloudstriders in the area.|US|
-C Larion at Large|QID|58039|M|57.18,39.40|QO|2||Z|Bastion|N|Bring Andira back.|
-T All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-T Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-A With Lance and Larion|QID|58040|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58038&58039|
-A Providing for the Pack|QID|58041|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58038&58039|
-C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion|N|Kill Juvinile Cloudfeathers.|S|
-C WANTED:Darkwing|QID|60366|M|56.20,47.99|Z|Bastion|N|[color=ff8000]Elite: [/color]Use the whistle at the nest.|U|178791|S|
-C With Lance and Larion|QID|58040|M|55.93,47.21|Z|Bastion|N|Target Cloudfeather Greatwings and use the lance.|T|Cloudfeather Greatwing|U|173692|
-C WANTED:Darkwing|QID|60366|M|56.20,47.99|Z|Bastion|N|[color=ff8000]Elite: [/color]Use the whistle at the nest.|U|178791|US|
-C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion|N|Kill Juvinile Cloudfeathers.|US|
-T With Lance and Larion|QID|58040|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-T Providing for the Pack|QID|58041|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-A On Larion Wings|QID|58042|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58040&58041|
-C On Larion Wings|QID|58042|M|56.87,39.28|Z|Bastion|QO|1|V|N|Mount Andira.|
-C On Larion Wings|QID|58042|M|56.87,39.28|Z|Bastion|QO|2|NC|N|Ride through the rings.|
-T On Larion Wings|QID|58042|M|57.26,39.24|Z|Bastion|N|To Nemea.|
-A Pride or Unit|QID|60296|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58042|
-C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|1|CHAT|N|Meet with Pelodis and Nemea.|
-C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|2|CHAT|N|Talk to Pelodis.|
-C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|3|CHAT|N|Talk to Nemea.|
-C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|4|CHAT|N|Choose Phalynx or Larion.|
-T Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|N|To Nemea.|
-H Hero's Rest|QID|60366|U|6948
-T WANTED: Darkwing|QID|60366|M|52.43,48.00|Z|Bastion|ELITE|N|To Eumelia.|
+C WANTED: Gorgebeak|QID|60315|M|53.57,46.43|Z|Bastion|N|[color=ff8000]Elite: [/color]Kill Gorgebeak.|RANK|2|
+T WANTED: Gorgebeak|QID|60315|M|51.00,41.66|Z|Bastion|ELITE|N|To Gerdus.|RANK|2|
+T A Friendly Rivalry|QID|59674|M|57.26,39.24|Z|Bastion|N|To Nemea.|RANK|2|
+A Phalynx Malfunction|QID|57931|M|54.81,41.19|Z|Bastion|N|From Pelodis.|PRE|59674|RANK|2|
+A Resource Drain|QID|57932|M|54.81,41.19|Z|Bastion|N|From Hopo.|PRE|59674|RANK|2|
+C Resource Drain|QID|57932|M|56.17,45.56|Z|Bastion|N|Use the item provided on Gilded Cloudstrider.|S|U|173691|RANK|2|
+C Phalynx Malfunction|QID|57931|M|54.89,43.58|Z|Bastion|QO|1|NC|N|Click on Gatamatos.|RANK|2|
+C Resource Drain|QID|57932|M|56.17,45.56|Z|Bastion|N|Use the item on the deer.|US|U|173691|RANK|2|
+C Phalynx Malfunction|QID|57931|M|55.36,41.99|Z|Bastion|QO|2|NC|N|Bring Gatamatos to the pedistool.|RANK|2|
+T Resource Drain|QID|57932|M|54.81,41.19|Z|Bastion|N|To Hopo.|RANK|2|
+T Phalynx Malfunction|QID|57931|M|54.81,41.19|Z|Bastion|N|To Pelodis.|RANK|2|
+A We Can Rebuild Him|QID|57933|M|54.81,41.19|Z|Bastion|N|From Pelodis.|PRE|57932^57931|RANK|2|
+C We Can Rebuild Him|QID|57933|M|55.34,42.00|QO|1|Z|Bastion|NC|N|Click the kitty.|RANK|2|
+C We Can Rebuild Him|QID|57933|M|54.62,40.44|QO|2|Z|Bastion|NC|N|Click the platform.|RANK|2|
+C We Can Rebuild Him|QID|57933|CS|M|54.50,41.57;54.62,40.44|QO|3|Z|Bastion|NC|N|Click on the engineers and bring it back to the platform.|RANK|2|
+C We Can Rebuild Him|QID|57933|CS|M|54.47,41.37;54.62,40.44|QO|4|Z|Bastion|NC|N|Click on the barrel and bring it back to the platform.|RANK|2|
+C We Can Rebuild Him|QID|57933|CS|M|54.39,41.01;54.49,41.66;54.88,40.15|QO|5|Z|Bastion|NC|N|Gather the armor pieces around the are.|RANK|2|
+C We Can Rebuild Him|QID|57933|M|54.49,40.38|QO|6|Z|Bastion|NC|N|Place all the armor scraps.|RANK|2|
+C We Can Rebuild Him|QID|57933|M|54.71,40.40|QO|7|Z|Bastion|CHAT|N|Talk to Pelodis.|RANK|2|
+T We Can Rebuild Him|QID|57933|M|54.81,41.19|Z|Bastion|N|To Pelodis.|RANK|2|
+A Combat Drills|QID|57934|M|54.81,41.19|Z|Bastion|N|From Pelodis.|PRE|57933|RANK|2|
+A Laser Location|QID|57935|M|55.93,47.21|Z|Bastion|N|From Pelodis.|PRE|57933|RANK|2|
+A Superior Programming|QID|57936|M|54.82,41.19|Z|Bastion|N|From Hopo.|PRE|57933|RANK|2|
+C Combat Drills|QID|57934|M|55.35,42.02|QO|1|Z|Bastion|N|Click on Gatamatos.|RANK|2|
+C Laser Location|QID|57935|M|55.78,42.59|QO|1|Z|Bastion|N|Click on Gatamatos.|RANK|2|
+C Combat Drills|QID|57934|M|55.78,42.59|QO|2|Z|Bastion|N|Kill the Etherwyrms with Gatamatos at your side.|S|RANK|2|
+R Hall of Beasts|ACTIVE|57935|M|56.13,40.28|Z|Bastion|N|Run into the Hall of Beasts.|RANK|2|
+C Laser Location|QID|57935|M|55.35,42.02|QO|2|Z|Bastion|N|Click the "[color=40C7EB]Order Search[/color]" Action Ability to have Gatamatos search for gems.|EAB|S|RANK|2|
+C Superior Programming|QID|57936|M|56.13,40.28|Z|Bastion|N|Kill Leonid.|RANK|2|
+C Laser Location|QID|57935|M|55.35,42.02|QO|2|Z|Bastion|N|Click the "[color=40C7EB]Order Search[/color]" Action Ability to have Gatamatos search for gems.|EAB|US|RANK|2|
+C Combat Drills|QID|57934|M|55.78,42.59|QO|2|Z|Bastion|N|Kill the Etherwyrms with Gatamatos at your side.|US|RANK|2|
+T Combat Drills|QID|57934|M|54.81,41.19|Z|Bastion|N|To Pelodis.|RANK|2|
+T Laser Location|QID|57935|M|54.81,41.19|Z|Bastion|N|To Pelodis.|RANK|2|
+T Superior Programming|QID|57936|M|54.81,41.19|Z|Bastion|N|To Hopo.|RANK|2|
+A Tactical Formation|QID|57937|M|54.80,41.16|Z|Bastion|N|From Pelodis.|PRE|57934&57935&57936|RANK|2|
+C Tactical Formation|QID|57937|M|55.37,42.01|QO|1|Z|Bastion|NC|N|Gatamatos retrieved.|RANK|2|
+C Tactical Formation|QID|57937|M|55.10,41.61|Z|Bastion|NC|N|Click the Shadows as they appear.|RANK|2|
+T Tactical Formation|QID|57937|M|54.80,41.16|Z|Bastion|N|To Pelodis.|RANK|2|
+A Antiquated Methodology|QID|58184|M|54.80,41.16|Z|Bastion|N|From Pelodis.|AVAILABLE|58037|PRE|57937|RANK|2|
+t Antiquated Methodology|QID|58184|M|57.26,39.24|Z|Bastion|N|To Nemea.|RANK|2|
+A Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|59674|RANK|2|
+C Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|NC|N|Click on the flying lions.|RANK|2|
+T Part of the Pride|QID|58037|M|57.26,39.24|Z|Bastion|N|To Nemea.|RANK|2|
+A Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58037|RANK|2|
+A All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58037|RANK|2|
+C All Natural Chews|QID|58038|M|56.17,45.56|Z|Bastion|N|Kill the cloudstriders in the area.|S|RANK|2|
+C Larion at Large|QID|58039|CS|M|56.00,44.18|QO|1|Z|Bastion|N|Follow Andria till she stops moving and then click on her to remve the thorn.|RANK|2|
+C All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|Kill the cloudstriders in the area.|US|RANK|2|
+C Larion at Large|QID|58039|M|57.18,39.40|QO|2||Z|Bastion|N|Bring Andira back.|RANK|2|
+T All Natural Chews|QID|58038|M|57.26,39.24|Z|Bastion|N|To Nemea.|RANK|2|
+T Larion at Large|QID|58039|M|57.26,39.24|Z|Bastion|N|To Nemea.|RANK|2|
+A With Lance and Larion|QID|58040|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58038&58039|RANK|2|
+A Providing for the Pack|QID|58041|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58038&58039|RANK|2|
+C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion|N|Kill Juvinile Cloudfeathers.|S|RANK|2|
+C WANTED:Darkwing|QID|60366|M|56.20,47.99|Z|Bastion|N|[color=ff8000]Elite: [/color]Use the whistle at the nest.|U|178791|S|RANK|2|
+C With Lance and Larion|QID|58040|M|55.93,47.21|Z|Bastion|N|Target Cloudfeather Greatwings and use the lance.|T|Cloudfeather Greatwing|U|173692|RANK|2|
+C WANTED:Darkwing|QID|60366|M|56.20,47.99|Z|Bastion|N|[color=ff8000]Elite: [/color]Use the whistle at the nest.|U|178791|US|RANK|2|
+C Providing for the Pack|QID|58041|M|55.93,47.21|Z|Bastion|N|Kill Juvinile Cloudfeathers.|US|RANK|2|
+T With Lance and Larion|QID|58040|M|57.26,39.24|Z|Bastion|N|To Nemea.|RANK|2|
+T Providing for the Pack|QID|58041|M|57.26,39.24|Z|Bastion|N|To Nemea.|RANK|2|
+A On Larion Wings|QID|58042|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58040&58041|RANK|2|
+C On Larion Wings|QID|58042|M|56.87,39.28|Z|Bastion|QO|1|V|N|Mount Andira.|RANK|2|
+C On Larion Wings|QID|58042|M|56.87,39.28|Z|Bastion|QO|2|NC|N|Ride through the rings.|RANK|2|
+T On Larion Wings|QID|58042|M|57.26,39.24|Z|Bastion|N|To Nemea.|RANK|2|
+A Pride or Unit|QID|60296|M|57.26,39.24|Z|Bastion|N|From Nemea.|PRE|58042|RANK|2|
+C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|1|CHAT|N|Meet with Pelodis and Nemea.|RANK|2|
+C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|2|CHAT|N|Talk to Pelodis.|RANK|2|
+C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|3|CHAT|N|Talk to Nemea.|RANK|2|
+C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|4|CHAT|N|Choose Phalynx or Larion.|RANK|2|
+T Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|N|To Nemea.|RANK|2|
+H Hero's Rest|QID|60366|M|PLAYER|Z|Bastion|N|Hearth or otherwise make your way back to Hero's Rest.|
+T WANTED: Darkwing|QID|60366|M|52.43,48.00|Z|Bastion|ELITE|N|To Eumelia.|RANK|2|
 
 ; Your Personal Assistant Storyline continues
 A On Swift Wings|QID|59198|M|52.86,45.66|Z|Bastion|N|From Polemarch Adrestes.|PRE|59197|MS|
 C On Swift Wings|QID|59198|M|52.86,45.66|Z|Bastion|CHAT|N|Speak to Polemarch Adrestes for a ride to Elysian Hold.|MS|
-f Elysian Hold|ACTIVE|59198|M|51.16,74.78|Z|1707|N|At Cassius.|
+f Elysian Hold|ACTIVE|59198|M|51.16,74.78|Z|1707|N|At Cassius.|MS|
 T On Swift Wings|QID|59198|M|55.49,42.17|Z|1707|N|To Polemarch Adrestes.|MS|
 A Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|N|From Polemarch Adrestes.|PRE|59198|MS|
 C Kyrestia, the Firstborne|QID|59199|M|55.49,42.17|Z|1707|CHAT|N|Speak to Polemarch Adrestes.|MS|
