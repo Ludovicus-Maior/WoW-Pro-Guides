@@ -58,7 +58,7 @@ A The Defias Brotherhood |QID|65|M|56.33,47.52|N|From Gryan Stoutmantle.|
 T Patrolling Westfall|QID|102|M|56.42,47.61|N|To Captain Danuvin.|
 t Red Leather Bandanas|QID|153|M|53.98,52.99|N|To Scout Galiaan.|
 F Lakeshire|ACTIVE|65|M|56.55,52.65|N|Fly to Lakeshire at Thor.|TAXI|Lakeshire|
-F Stormwind|ACTIVE|65|M|56.55,52.65|N|Fly to Stormwind City at Thor.|TAXI|-Lakeshire|
+F Stormwind|ACTIVE|65|M|56.55,52.65|N|Fly to Stormwind City at Thor.|TAXI|-Lakeshire|TZ|Stormwind City|
 
 ; The following only applies if coming from 1-12 Dun Morogh or 12-14 Loch Modan
 T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|

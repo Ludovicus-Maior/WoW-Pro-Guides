@@ -281,7 +281,7 @@ h Sentinel Hill|ACTIVE|6181|M|52.86,53.71|Z|Westfall|N|At Innkeeper Heather.|
 f Sentinel Hill |QID|1097|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
 T A Swift Message|QID|6181|M|56.55,52.65|Z|Westfall|N|To Thor.|
 A Continue to Stormwind|QID|6281|PRE|6181|M|56.55,52.65|Z|Westfall|N|From Thor.|
-F Stormwind|QID|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|
+F Stormwind|QID|1097|M|56.55,52.65|Z|Westfall|N|Fly to Stormwind City|TZ|Stormwind City|
 
 T Continue to Stormwind|QID|6281|M|74.32,47.24|Z|Stormwind City|N|To Osric Strang, in Limited Immunity Shop in Old Town.|
 A Dungar Longdrink|QID|6261|M|74.32,47.24|Z|Stormwind City|N|From Osric Strang.|PRE|6281|
@@ -379,8 +379,8 @@ T Rat Catching|QID|416|M|34.8,47.1|Z|Loch Modan|N|To Mountaineer Kadrell.|
 T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|Z|Loch Modan|N|To Vidra Hearthstove inside Stoutlager Inn.|
 F Ironforge|AVAILABLE|3681|M|33.94,50.95|Z|Loch Modan|C|Paladin|
 A Tome of Divinity|QID|3681|M|23.11,6.15|Z|Ironforge|N|From Brandur Ironhammer in the Mystic Ward.|LEAD|3682|C|Paladin|
-F Stormwind|ACTIVE|3681|M|55.54,47.75|Z|Ironforge|N|Fly to Stormwind.|C|Paladin|
-F Stormwind|ACTIVE|6261|M|33.94,50.95|Z|Loch Modan|N|Fly to Stormwind from Thelsamar.|C|-Paladin|
+F Stormwind|ACTIVE|3681|M|55.54,47.75|Z|Ironforge|TZ|Stormwind City|N|Fly to Stormwind.|C|Paladin|
+F Stormwind|ACTIVE|6261|M|33.94,50.95|Z|Loch Modan|TZ|Stormwind City|N|Fly to Stormwind from Thelsamar.|C|-Paladin|
 
 T Dungar Longdrink|QID|6261|M|66.28,62.09|Z|Stormwind City|N|To Dungar Longdrink.|
 A Return to Lewis|QID|6285|PRE|6261|M|66.28,62.09|Z|Stormwind City|N|From Dungar Longdrink.|
@@ -422,8 +422,7 @@ A Encroaching Gnolls|QID|244|M|15.28,71.46|Z|Redridge Mountains|N|From Guard Par
 T Encroaching Gnolls|QID|244|M|30.74,60.00|Z|Redridge Mountains|N|To Deputy Feldon.|
 A Assessing the Threat|QID|246|PRE|244|M|30.74,60.00|Z|Redridge Mountains|N|From Deputy Feldon.|
 f Lakeshire|QID|65|M|30.60,59.40|Z|Redridge Mountains|N|Get the flight path at Ariena Stormfeather.|
-
-F Stormwind|ACTIVE|147^1787|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
+F Stormwind|ACTIVE|147^1787|M|30.60,59.40|Z|Redridge Mountains|TZ|Stormwind City|N|Back to Stormwind to turn in a couple of quests, then on to Westfall.|
 
 T The Tome of Divinity|QID|1787|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm, back in Stormwind.|
 A The Tome of Divinity|QID|1788|C|Paladin|M|38.58,26.56|Z|Stormwind City|N|To Gazin Tenorm.|PRE|1787|
