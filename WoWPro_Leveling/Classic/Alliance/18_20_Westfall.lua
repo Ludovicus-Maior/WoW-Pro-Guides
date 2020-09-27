@@ -7,7 +7,7 @@ WoWPro:GuideLevels(guide, 18, 20, 19)
 WoWPro:GuideNextGuide(guide, 'ClassicRedridge2021')
 WoWPro:GuideSteps(guide, function() return [[
 
-t The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|
+T The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|142|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|141|
 l Flask of Oil|QID|103|M|38,51|S|N|Kill Harvest Watchers to collect Flask of Oil|L|814 5|
 l Hops|AVAILABLE|117|M|38,51|N|Kill Harvest Watchers to collect Hops.|L|1274 5|
