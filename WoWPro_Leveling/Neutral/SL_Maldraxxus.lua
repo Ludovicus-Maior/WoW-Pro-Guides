@@ -6,8 +6,8 @@ WoWPro:GuideNextGuide(guide, "Ardenweald")
 WoWPro:GuideSteps(guide, function()
 return [[
 ;  Champion of Pain Storyline
-A If You Want Peace...|QID|57386|M|60.95,36.18|Z|Ring of Transference@Oribos_Portals!Dungeon|N|From Overseer Kah-Sher.|PRE|61107|MS|
-C If You Want Peace...|QID|57386|M|59.51,34.39|Z|Ring of Transference@Oribos_Portals!Dungeon|CHAT|N|Speak to Roh-Avonavi to Travel to Maldraxxus.|MS|
+A If You Want Peace...|QID|57386|M|60.95,36.18|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61107|MS|
+C If You Want Peace...|QID|57386|M|59.51,34.39|Z|Ring of Transference@Oribos|CHAT|N|Speak to Roh-Avonavi to Travel to Maldraxxus.|MS|
 T If You Want Peace...|QID|57386|M|50.24,41.33|Z|Maldraxxus|N|To Grandmaster Vole.|MS|
 A To Die By the Sword|QID|57390|M|50.24,41.33|Z|Maldraxxus|N|From Grandmaster Vole.|PRE|57386|MS|
 C To Die By the Sword|QID|57390|M|50.79,47.08|Z|Maldraxxus|N|Kill normal Competitors and use the random "[color=40C7EB]Action Ability[/color]" that occasionally pops up.|EAB|MS|
@@ -162,128 +162,128 @@ C In The Flesh|QID|57994|M|34.31,34.03|Z|Maldraxxus|QO|4|N|Escape the House of C
 f Spider's Watch|ACTIVE|57994|M|37.57,29.24|Z|Maldraxxus|N|At Flight Master Nudolva.|MS|
 C In The Flesh|QID|57994|M|37.65,29.22|Z|Maldraxxus|QO|5|N|Click on the Rune of Banded Strength.|MS|
 T In The Flesh|QID|57994|M|37.61,29.09|Z|Maldraxxus|N|To Aspirant Thales.|MS|
-A Front and Center|QID|60733|M|37.66,29.11|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57994|
+A Front and Center|QID|60733|M|37.66,29.11|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57994|RANK|2|
 
 ; Side Quest Story - Archival Protection
-A Broker Business|QID|62605|M|38.20,31.29|Z|Maldraxxus|N|From Forgotten Supplies.|LVL|53|
-C Broker Business|QID|62605|M|38.20,31.29|Z|Maldraxxus|
-T Broker Business|QID|62605|M|40.69,33.08|Z|Maldraxxus|N|To Ta'eran.|
-A Read Between the Lines|QID|58619|M|40.69,33.08|Z|Maldraxxus|N|From Ta'eran.|LVL|53|
-C Read Between the Lines|QID|58619|M|40.69,33.08|QO|1|Z|Maldraxxus|CHAT|N|Talk to Ta'ern.|
-C Read Between the Lines|QID|58619|M|40.69,33.08|QO|2|Z|Maldraxxus|NC|N|Walk with Ta'ern.|
-T Read Between the Lines|QID|58619|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|
-A Repeat After Me|QID|58621|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|
-A Kill Them Of Course|QID|59917|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|
-C Kill Them Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|S|
-C Repeat After Me|QID|58621|M|41.18,27.93|QO|4|Z|Maldraxxus|N|Target the Runestone of Rituals and /kneel\n\nKill Echo of the Magus.|T|Runestone of Rituals,kneel|
-C Repeat After Me|QID|58621|M|40.70,31.11|QO|3|Z|Maldraxxus|N|Target the Runestone of Plagues and /bleed\n\nKill Echo of the Chemist.|T|Runestone of Plague,bleed|
-C Repeat After Me|QID|58621|M|44.11,35.42|QO|1|Z|Maldraxxus|N|Target the Runestone of Chosen and /salute\n\nKill Echo of the Hero.|T|Runestone of Chosen,salute|
-C Repeat After Me|QID|58621|M|47.25,35.66|QO|5|Z|Maldraxxus|N|Target the Runestone of Constructs and /flex\n\nKill Echo of the Crafter|T|Runestone of Constructs,flex|
-C Repeat After Me|QID|58621|M|46.22,28.69|QO|2|Z|Maldraxxus|N|Target the Runestone of Eyes and /sneak\n\nKill Echo of the Spy|T|Runestone of Eyes,sneak|
-C Kill Them Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|US|
-T Repeat After Me|QID|58621|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
-T Kill Them Of Course|QID|59917|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|
-A Slaylines|QID|58620|M|43.07,25.12|Z|Maldraxxus|N|From Ta'eran.|PRE|58621&59917|
-N Arrange the Beams|ACTIVE|58620|M|43.07,25.12|Z|Maldraxxus|N|[color=ff8000]West:[/color]\n\nBe sure to click the West Power Crystal only [color=ff8000]1[/color] time so the beam goes into the crystal behind you.\n\nThat crystal behind you should be clicked [color=ff8000]1[/color] time and the beam should go NE refecting off something which directs it to the crystal North of you.\n\nThat crystal to the north should be clicked [color=ff8000]1[/color] time to finally direct it to the West Obelisk.\n\n[color=ff8000]East:[/color]\n\nBe sure to click the East Power Crystal [color=ff8000]2[/color] times so the beam goes into the crystal behind you.\n\nThat crystal behind you should be clicked [color=ff8000]1[/color] time and the beam should go north refecting off something onto the mountain and to the crystal to your NW that should already be pointed to the East Obelisk.|S!US|
-C Slaylines|QID|58620|M|45.87,29.88|QO|2|Z|Maldraxxus|NC|N|Locate the West Power Crystal.|
-C Slaylines|QID|58620|M|42.13,31.01|QO|1|Z|Maldraxxus|NC|N|Locate the East Power Crystal.|
-C Slaylines|QID|58620|M|42.81,27.16|QO|3|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the East Obelisk, run back to it and click to activate.|
-C Slaylines|QID|58620|M|43.40,26.89|QO|4|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the West Obelisk, run back to it and click to activate.|
-T Slaylines|QID|58620|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|
-A Secrets Among the Shelves|QID|58622|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58620|
-C Secrets Among the Shelves|QID|58622|M|PLAYER|Z|Maldraxxus|NC|N|Enter and climb the tower avoiding the floating books while collecting the highlighted tomes from the ground and bookshelves.|
-T Secrets Among the Shelves|QID|58622|M|41.83,23.61|Z|Maldraxxus|N|To Ta'ern.|
-A Archival Protection|QID|60900|M|41.83,23.61|Z|Maldraxxus|N|From Ta'eran.|PRE|58622|
-C Archival Protection|QID|60900|M|42.26,24.11|Z|Maldraxxus|NC|N|Continue up the stairs to find and kill The Archivist.|
-T Archival Protection|QID|60900|M|PLAYER|Z|Maldraxxus|N|To Ta'ern.|
-A Trust Fall|QID|59994|M|PLAYER|Z|Maldraxxus|N|From Ta'eran.|PRE|60900|
-C Trust Fall|QID|59994|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Jump out of the tower.|
-C Trust Fall|QID|59994|M|45.49,32.09|QO|2|Z|Maldraxxus|NC|N|Click the floating book behind you.|
-T Trust Fall|QID|59994|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|
-A A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|From Ta'eran.|PRE|59994|
-C A Complete Set|QID|58623|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Click on the books around in the shelves.|
-C A Complete Set|QID|58623|M|42.14,23.30|QO|2|Z|Maldraxxus|NC|N|Click on the pages flying around the room.|
-T A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|
+A Broker Business|QID|62605|M|38.20,31.29|Z|Maldraxxus|N|From Forgotten Supplies.|LVL|53|RANK|2|
+C Broker Business|QID|62605|M|38.20,31.29|Z|Maldraxxus|RANK|2|
+T Broker Business|QID|62605|M|40.69,33.08|Z|Maldraxxus|N|To Ta'eran.|RANK|2|
+A Read Between the Lines|QID|58619|M|40.69,33.08|Z|Maldraxxus|N|From Ta'eran.|LVL|53|RANK|2|
+C Read Between the Lines|QID|58619|M|40.69,33.08|QO|1|Z|Maldraxxus|CHAT|N|Talk to Ta'ern.|RANK|2|
+C Read Between the Lines|QID|58619|M|40.69,33.08|QO|2|Z|Maldraxxus|NC|N|Walk with Ta'ern.|RANK|2|
+T Read Between the Lines|QID|58619|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|RANK|2|
+A Repeat After Me|QID|58621|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|RANK|2|
+A Kill Them Of Course|QID|59917|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58619|RANK|2|
+C Kill Them Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|S|RANK|2|
+C Repeat After Me|QID|58621|M|41.18,27.93|QO|4|Z|Maldraxxus|N|Target the Runestone of Rituals and /kneel\n\nKill Echo of the Magus.|T|Runestone of Rituals,kneel|RANK|2|
+C Repeat After Me|QID|58621|M|40.70,31.11|QO|3|Z|Maldraxxus|N|Target the Runestone of Plagues and /bleed\n\nKill Echo of the Chemist.|T|Runestone of Plague,bleed|RANK|2|
+C Repeat After Me|QID|58621|M|44.11,35.42|QO|1|Z|Maldraxxus|N|Target the Runestone of Chosen and /salute\n\nKill Echo of the Hero.|T|Runestone of Chosen,salute|RANK|2|
+C Repeat After Me|QID|58621|M|47.25,35.66|QO|5|Z|Maldraxxus|N|Target the Runestone of Constructs and /flex\n\nKill Echo of the Crafter|T|Runestone of Constructs,flex|RANK|2|
+C Repeat After Me|QID|58621|M|46.22,28.69|QO|2|Z|Maldraxxus|N|Target the Runestone of Eyes and /sneak\n\nKill Echo of the Spy|T|Runestone of Eyes,sneak|RANK|2|
+C Kill Them Of Course|QID|59917|M|43.65,30.07|Z|Maldraxxus|N|Kill the Enraged Gluttons.|US|RANK|2|
+T Repeat After Me|QID|58621|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|RANK|2|
+T Kill Them Of Course|QID|59917|M|43.07,25.12|Z|Maldraxxus|N|To Ta'ern.|RANK|2|
+A Slaylines|QID|58620|M|43.07,25.12|Z|Maldraxxus|N|From Ta'eran.|PRE|58621&59917|RANK|2|
+N Arrange the Beams|ACTIVE|58620|M|43.07,25.12|Z|Maldraxxus|N|[color=ff8000]West:[/color]\n\nBe sure to click the West Power Crystal only [color=ff8000]1[/color] time so the beam goes into the crystal behind you.\n\nThat crystal behind you should be clicked [color=ff8000]1[/color] time and the beam should go NE refecting off something which directs it to the crystal North of you.\n\nThat crystal to the north should be clicked [color=ff8000]1[/color] time to finally direct it to the West Obelisk.\n\n[color=ff8000]East:[/color]\n\nBe sure to click the East Power Crystal [color=ff8000]2[/color] times so the beam goes into the crystal behind you.\n\nThat crystal behind you should be clicked [color=ff8000]1[/color] time and the beam should go north refecting off something onto the mountain and to the crystal to your NW that should already be pointed to the East Obelisk.|S!US|RANK|2|
+C Slaylines|QID|58620|M|45.87,29.88|QO|2|Z|Maldraxxus|NC|N|Locate the West Power Crystal.|RANK|2|
+C Slaylines|QID|58620|M|42.13,31.01|QO|1|Z|Maldraxxus|NC|N|Locate the East Power Crystal.|RANK|2|
+C Slaylines|QID|58620|M|42.81,27.16|QO|3|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the East Obelisk, run back to it and click to activate.|RANK|2|
+C Slaylines|QID|58620|M|43.40,26.89|QO|4|Z|Maldraxxus|NC|N|Once you get the energy beams flowing to the West Obelisk, run back to it and click to activate.|RANK|2|
+T Slaylines|QID|58620|M|43.07,25.13|Z|Maldraxxus|N|To Ta'ern.|RANK|2|
+A Secrets Among the Shelves|QID|58622|M|43.07,25.13|Z|Maldraxxus|N|From Ta'eran.|PRE|58620|RANK|2|
+C Secrets Among the Shelves|QID|58622|M|PLAYER|Z|Maldraxxus|NC|N|Enter and climb the tower avoiding the floating books while collecting the highlighted tomes from the ground and bookshelves.|RANK|2|
+T Secrets Among the Shelves|QID|58622|M|41.83,23.61|Z|Maldraxxus|N|To Ta'ern.|RANK|2|
+A Archival Protection|QID|60900|M|41.83,23.61|Z|Maldraxxus|N|From Ta'eran.|PRE|58622|RANK|2|
+C Archival Protection|QID|60900|M|42.26,24.11|Z|Maldraxxus|NC|N|Continue up the stairs to find and kill The Archivist.|RANK|2|
+T Archival Protection|QID|60900|M|PLAYER|Z|Maldraxxus|N|To Ta'ern.|RANK|2|
+A Trust Fall|QID|59994|M|PLAYER|Z|Maldraxxus|N|From Ta'eran.|PRE|60900|RANK|2|
+C Trust Fall|QID|59994|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Jump out of the tower.|RANK|2|
+C Trust Fall|QID|59994|M|45.49,32.09|QO|2|Z|Maldraxxus|NC|N|Click the floating book behind you.|RANK|2|
+T Trust Fall|QID|59994|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|RANK|2|
+A A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|From Ta'eran.|PRE|59994|RANK|2|
+C A Complete Set|QID|58623|M|42.14,23.30|QO|1|Z|Maldraxxus|NC|N|Click on the books around in the shelves.|RANK|2|
+C A Complete Set|QID|58623|M|42.14,23.30|QO|2|Z|Maldraxxus|NC|N|Click on the pages flying around the room.|RANK|2|
+T A Complete Set|QID|58623|M|45.18,32.11|Z|Maldraxxus|N|To Ta'ern.|RANK|2|
 F Bleak Redoubt|ACTIVE|60733|M|37.56,29.21|N|Fly back to Bleak Redoubt.|MS|
 C Front and Center|QID|60733|M|50.38,67.74|Z|Maldraxxus|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Might.|EAB|MS|
 T Front and Center|QID|60733|M|50.38,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
 
 ; Theater of Pain Sidequest Story
-A I Could Be A Contender|QID|62785|LEAD|59750|M|50.57,51.69|Z|Maldraxxus|N|From Anzio The Infallible.|LVL|53|
-f Theater of Pain|QID|62785|M|49.93,53.20|Z|Maldraxxus|N|At Wing Guard Alamar.|
-T I Could Be A Contender|QID|62785|M|54.44,48.65|Z|Maldraxxus|N|To Louison.|
-A How To Get A Head|QID|59750|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|LVL|53|
-A The Last Guy|QID|59781|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|LVL|53|
-A ...Even The Most Ridiculous Request!|QID|58068|M|54.09,51.30|Z|Maldraxxus|N|From Overseer Kalvaros.|LVL|53|
-C ...Even The Most Ridiculous Request!|QID|58068|M|53.83,51.21|Z|Maldraxxus|CHAT|QO|1|N|Speak with Gunn Gorgebone.|
-C ...Even The Most Ridiculous Request!|QID|58068|M|54.01,51.19|Z|Maldraxxus|QO|2|NC|N|Sit back and watch the Gunn show.|
-C ...Even The Most Ridiculous Request!|QID|58068|M|53.85,50.54|Z|Maldraxxus|CHAT|QO|3|N|Speak with Scrapper Minoire.|
-C ...Even The Most Ridiculous Request!|QID|58068|M|54.08,51.67|Z|Maldraxxus|CHAT|QO|4|N|Speak with Rencissa the Dynamo.|
-C ...Even The Most Ridiculous Request!|QID|58068|M|54.08,51.66|Z|Maldraxxus|QO|5|NC|N|Click on the rock right behind you.|
-T ...Even The Most Ridiculous Request!|QID|58068|M|54.10,51.39|Z|Maldraxxus|N|To Overseer Kalvaros.|
-A Juicing Up|QID|58088|M|53.86,50.61|Z|Maldraxxus|N|From Scrapper Minoire.|PRE|58068|
-T Juicing Up|QID|58088|M|53.72,47.85|Z|Maldraxxus|N|To So'narynar.|
-A Side Effects|QID|58090|M|53.72,47.85|Z|Maldraxxus|N|From So'narynar.|PRE|58088|
-C Side Effects|QID|58090|M|53.70,47.88|Z|Maldraxxus|QO|1|N|Buy the Necessary Enchancers from Au'larrynar.|
-C Side Effects|QID|58090|M|53.87,50.53|Z|Maldraxxus|QO|2|CHAT|N|Deliver the Enhancers to Scrapper Minoire.|
-T Side Effects|QID|58090|M|54.08,51.27|Z|Maldraxxus|N|To Overseer Kalvaros.|
-C How To Get A Head|QID|59750|M|57.26,53.31|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|S|
-C The Last Guy|QID|59781|M|55.04,33.08|Z|Maldraxxus|QO|1|N|Click to examine the Dead Newcomers.|S|
-C The Last Guy|QID|59781|M|55.52,33.29|Z|Maldraxxus|QO|2|N|Kill Deadeye the giant Bloodtusk.|
-C The Last Guy|QID|59781|M|55.04,33.08|Z|Maldraxxus|QO|1|N|Click to examine the Dead Newcomers.|US|
-C How To Get A Head|QID|59750|M|57.26,53.31|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|US|
-C How To Get A Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|CHAT|N|Deliver the skulls to Marcel Mullby.|
-T How To Get A Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|
-T The Last Guy|QID|59781|M|54.47,48.69|Z|Maldraxxus|N|To Louison.|
-A Stuff We All Get|QID|58575|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|PRE|59750&59781|
-A Team Spirit|QID|59800|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|PRE|59750&59781|
-C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|N|Use the item provided to splash Arena Challengers.|S|
-C Stuff We All Get|QID|58575|M|49.87,48.07|Z|Maldraxxus|NC|N|Click on the glowing Weapons scattered around on the floor.|
-C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|N|Use the item provided to splash Arena Challengers.|US|
-T Stuff We All Get|QID|58575|M|54.50,48.57|Z|Maldraxxus|N|To Louison.|
-T Team Spirit|QID|59800|M|54.50,48.57|Z|Maldraxxus|N|To Louison.|
-A Test Your Mettle|QID|58947|M|54.50,48.57|Z|Maldraxxus|N|From Louison.|PRE|58575&59800|
-C Test Your Mettle|QID|58947|M|54.04,48.38|Z|Maldraxxus|QO|1|N|Kill Valuator Malus.|
-C Test Your Mettle|QID|58947|M|55.35,46.91|Z|Maldraxxus|QO|2|N|Kill Tester Saharri.|
-T Test Your Mettle|QID|58947|M|54.49,48.62|Z|Maldraxxus|N|To Louison.|
-A This Thing Of Ours|QID|59879|M|54.49,48.62|Z|Maldraxxus|N|From Louison.|PRE|58947|
-T This Thing Of Ours|QID|59879|M|53.66,47.50|Z|Maldraxxus|N|To Au'narim.|
-A Leave Me a Loan|QID|59203|M|53.66,47.50|Z|Maldraxxus|N|From Au'narim.|PRE|59879|
-C Leave Me a Loan|QID|59203|M|53.90,49.37|Z|Maldraxxus|CHAT|N|ASpeak with Arena Spectators to ask for their Anima Vial, some will attack you.|
-T Leave Me a Loan|QID|59203|M|53.62,47.56|Z|Maldraxxus|N|To Au'narim.|
-A Working For The Living|QID|59837|M|53.62,47.56|Z|Maldraxxus|N|From Au'narim.|PRE|59203|
-C Working For The Living|QID|59837|M|53.70,47.29|Z|Maldraxxus|QO|1|NC|N|Click on the Broker Portal to get transported to the Shattered Grove.|
-C Working For The Living|QID|59837|M|39.14,40.18|Z|Shattered Grove!Instance|QO|2|N|Kill and interact with everything around|S|
+A I Could Be A Contender|QID|62785|LEAD|59750|M|50.57,51.69|Z|Maldraxxus|N|From Anzio The Infallible.|LVL|53|RANK|2|
+f Theater of Pain|QID|62785|M|49.93,53.20|Z|Maldraxxus|N|At Wing Guard Alamar.|RANK|2|
+T I Could Be A Contender|QID|62785|M|54.44,48.65|Z|Maldraxxus|N|To Louison.|RANK|2|
+A How To Get A Head|QID|59750|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|LVL|53|RANK|2|
+A The Last Guy|QID|59781|M|54.44,48.65|Z|Maldraxxus|N|From Louison.|LVL|53|RANK|2|
+A ...Even The Most Ridiculous Request!|QID|58068|M|54.09,51.30|Z|Maldraxxus|N|From Overseer Kalvaros.|LVL|53|RANK|2|
+C ...Even The Most Ridiculous Request!|QID|58068|M|53.83,51.21|Z|Maldraxxus|CHAT|QO|1|N|Speak with Gunn Gorgebone.|RANK|2|
+C ...Even The Most Ridiculous Request!|QID|58068|M|54.01,51.19|Z|Maldraxxus|QO|2|NC|N|Sit back and watch the Gunn show.|RANK|2|
+C ...Even The Most Ridiculous Request!|QID|58068|M|53.85,50.54|Z|Maldraxxus|CHAT|QO|3|N|Speak with Scrapper Minoire.|RANK|2|
+C ...Even The Most Ridiculous Request!|QID|58068|M|54.08,51.67|Z|Maldraxxus|CHAT|QO|4|N|Speak with Rencissa the Dynamo.|RANK|2|
+C ...Even The Most Ridiculous Request!|QID|58068|M|54.08,51.66|Z|Maldraxxus|QO|5|NC|N|Click on the rock right behind you.|RANK|2|
+T ...Even The Most Ridiculous Request!|QID|58068|M|54.10,51.39|Z|Maldraxxus|N|To Overseer Kalvaros.|RANK|2|
+A Juicing Up|QID|58088|M|53.86,50.61|Z|Maldraxxus|N|From Scrapper Minoire.|PRE|58068|RANK|2|
+T Juicing Up|QID|58088|M|53.72,47.85|Z|Maldraxxus|N|To So'narynar.|RANK|2|
+A Side Effects|QID|58090|M|53.72,47.85|Z|Maldraxxus|N|From So'narynar.|PRE|58088|RANK|2|
+C Side Effects|QID|58090|M|53.70,47.88|Z|Maldraxxus|QO|1|N|Buy the Necessary Enchancers from Au'larrynar.|RANK|2|
+C Side Effects|QID|58090|M|53.87,50.53|Z|Maldraxxus|QO|2|CHAT|N|Deliver the Enhancers to Scrapper Minoire.|RANK|2|
+T Side Effects|QID|58090|M|54.08,51.27|Z|Maldraxxus|N|To Overseer Kalvaros.|RANK|2|
+C How To Get A Head|QID|59750|M|57.26,53.31|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|S|RANK|2|
+C The Last Guy|QID|59781|M|55.04,33.08|Z|Maldraxxus|QO|1|N|Click to examine the Dead Newcomers.|S|RANK|2|
+C The Last Guy|QID|59781|M|55.52,33.29|Z|Maldraxxus|QO|2|N|Kill Deadeye the giant Bloodtusk.|RANK|2|
+C The Last Guy|QID|59781|M|55.04,33.08|Z|Maldraxxus|QO|1|N|Click to examine the Dead Newcomers.|US|RANK|2|
+C How To Get A Head|QID|59750|M|57.26,53.31|Z|Maldraxxus|QO|1|U|177835|N|Kill Bloodtusks and then use the item to collect the skull.|US|RANK|2|
+C How To Get A Head|QID|59750|M|54.50,49.48|Z|Maldraxxus|QO|2|CHAT|N|Deliver the skulls to Marcel Mullby.|RANK|2|
+T How To Get A Head|QID|59750|M|54.48,48.68|Z|Maldraxxus|N|To Louison.|RANK|2|
+T The Last Guy|QID|59781|M|54.47,48.69|Z|Maldraxxus|N|To Louison.|RANK|2|
+A Stuff We All Get|QID|58575|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|PRE|59750&59781|RANK|2|
+A Team Spirit|QID|59800|M|54.47,48.69|Z|Maldraxxus|N|From Louison.|PRE|59750&59781|RANK|2|
+C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|N|Use the item provided to splash Arena Challengers.|S|RANK|2|
+C Stuff We All Get|QID|58575|M|49.87,48.07|Z|Maldraxxus|NC|N|Click on the glowing Weapons scattered around on the floor.|RANK|2|
+C Team Spirit|QID|59800|M|50.07,47.89|Z|Maldraxxus|U|177877|N|Use the item provided to splash Arena Challengers.|US|RANK|2|
+T Stuff We All Get|QID|58575|M|54.50,48.57|Z|Maldraxxus|N|To Louison.|RANK|2|
+T Team Spirit|QID|59800|M|54.50,48.57|Z|Maldraxxus|N|To Louison.|RANK|2|
+A Test Your Mettle|QID|58947|M|54.50,48.57|Z|Maldraxxus|N|From Louison.|PRE|58575&59800|RANK|2|
+C Test Your Mettle|QID|58947|M|54.04,48.38|Z|Maldraxxus|QO|1|N|Kill Valuator Malus.|RANK|2|
+C Test Your Mettle|QID|58947|M|55.35,46.91|Z|Maldraxxus|QO|2|N|Kill Tester Saharri.|RANK|2|
+T Test Your Mettle|QID|58947|M|54.49,48.62|Z|Maldraxxus|N|To Louison.|RANK|2|
+A This Thing Of Ours|QID|59879|M|54.49,48.62|Z|Maldraxxus|N|From Louison.|PRE|58947|RANK|2|
+T This Thing Of Ours|QID|59879|M|53.66,47.50|Z|Maldraxxus|N|To Au'narim.|RANK|2|
+A Leave Me a Loan|QID|59203|M|53.66,47.50|Z|Maldraxxus|N|From Au'narim.|PRE|59879|RANK|2|
+C Leave Me a Loan|QID|59203|M|53.90,49.37|Z|Maldraxxus|CHAT|N|ASpeak with Arena Spectators to ask for their Anima Vial, some will attack you.|RANK|2|
+T Leave Me a Loan|QID|59203|M|53.62,47.56|Z|Maldraxxus|N|To Au'narim.|RANK|2|
+A Working For The Living|QID|59837|M|53.62,47.56|Z|Maldraxxus|N|From Au'narim.|PRE|59203|RANK|2|
+C Working For The Living|QID|59837|M|53.70,47.29|Z|Maldraxxus|QO|1|NC|N|Click on the Broker Portal to get transported to the Shattered Grove.|RANK|2|
+C Working For The Living|QID|59837|M|39.14,40.18|Z|Shattered Grove!Instance|QO|2|N|Kill and interact with everything around|S|RANK|2|
 C Working For The Living|QID|59837|M|60.72,64.42|Z|Shattered Grove!Instance|QO|3|N|Kill Khogov The Expunger.
-C Working For The Living|QID|59837|M|39.14,40.18|Z|Shattered Grove!Instance|QO|2|N|Kill and interact with everything around|US|
-C Working For The Living|QID|59837|M|15.03,39.39|Z|Shattered Grove!Instance|QO|4|NC|N|CLick the Broker Portal to return.|
-T Working For The Living|QID|59837|M|53.62,47.50|Z|Maldraxxus|N|To Au'narim.|
-A A Sure Bet|QID|58900|M|54.44,48.59|Z|Maldraxxus|N|From Louison.|PRE|59837|
-T A Sure Bet|QID|58900|M|50.53,51.67|Z|Maldraxxus|N|To Anzio The Infallible.|
-A The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|ELITE|N|[color=ff8000]Elite:[/color] From Anzio The Infallible.|PRE|58900|
-C The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|N|Kill the 3 elites that spawn in the center of the theater. Don't worry Arena Challengers will come to assist you. Should be soloable by most players.|
-T The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|N|From Anzio The Infallible.|
+C Working For The Living|QID|59837|M|39.14,40.18|Z|Shattered Grove!Instance|QO|2|N|Kill and interact with everything around|US|RANK|2|
+C Working For The Living|QID|59837|M|15.03,39.39|Z|Shattered Grove!Instance|QO|4|NC|N|CLick the Broker Portal to return.|RANK|2|
+T Working For The Living|QID|59837|M|53.62,47.50|Z|Maldraxxus|N|To Au'narim.|RANK|2|
+A A Sure Bet|QID|58900|M|54.44,48.59|Z|Maldraxxus|N|From Louison.|PRE|59837|RANK|2|
+T A Sure Bet|QID|58900|M|50.53,51.67|Z|Maldraxxus|N|To Anzio The Infallible.|RANK|2|
+A The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|ELITE|N|[color=ff8000]Elite:[/color] From Anzio The Infallible.|PRE|58900|RANK|2|
+C The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|N|Kill the 3 elites that spawn in the center of the theater. Don't worry Arena Challengers will come to assist you. Should be soloable by most players.|RANK|2|
+T The Ladder|QID|57316|M|50.53,51.67|Z|Maldraxxus|N|From Anzio The Infallible.|RANK|2|
 
 ; Wasteland Work Sidequest Story
-A Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|From Caleesy.|
-A Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|From Dundae.|
-C Smack And Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|S|
-N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
-C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<1|N|Ride the Tauralus back to Dundae.|
-N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
-C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<2|N|Ride the Tauralus back to Dundae.|
-N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
-C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<3|N|Ride the Tauralus back to Dundae.|
-N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
-C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<4|N|Ride the Tauralus back to Dundae.|
-C Smack And Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|US|
-N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|
-C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<5|N|Ride the Tauralus back to Dundae.|
-T Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|To Dundae.|
-T Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|To Caleesy.|
-A Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|From Dundae.|PRE|58750&58785|
-C Stabbing Wasteward|QID|58794|M|42.40,48.40|Z|Maldraxxus|N|Kill the Satiated Sawtooth.|
-T Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|To Dundae.|
+A Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|From Caleesy.|RANK|2|
+A Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|From Dundae.|RANK|2|
+C Smack And Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|S|RANK|2|
+N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|RANK|2|
+C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<1|N|Ride the Tauralus back to Dundae.|RANK|2|
+N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|RANK|2|
+C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<2|N|Ride the Tauralus back to Dundae.|RANK|2|
+N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|RANK|2|
+C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<3|N|Ride the Tauralus back to Dundae.|RANK|2|
+N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|RANK|2|
+C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<4|N|Ride the Tauralus back to Dundae.|RANK|2|
+C Smack And Grab|QID|58785|M|43.90,50.15|Z|Maldraxxus|N|Attack the birds until they're stunned, then click to capture.|US|RANK|2|
+N Take The Bull By The Horns|ACTIVE|58750|M|43.90,50.15|Z|Maldraxxus|NC|N|Click on Juciy Nibblers on the ground. Use the item item to bait and dangle it near a Blookskin Tauralus.|U|174749|BUFF|316323|RANK|2|
+C Take The Bull By The Horns|QID|58750|M|46.86,48.73|Z|Maldraxxus|QO|1<5|N|Ride the Tauralus back to Dundae.|RANK|2|
+T Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|To Dundae.|RANK|2|
+T Smack And Grab|QID|58785|M|46.99,49.05|Z|Maldraxxus|N|To Caleesy.|RANK|2|
+A Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|From Dundae.|PRE|58750&58785|RANK|2|
+C Stabbing Wasteward|QID|58794|M|42.40,48.40|Z|Maldraxxus|N|Kill the Satiated Sawtooth.|RANK|2|
+T Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|To Dundae.|RANK|2|
 
 ; The House of Plagues Storyline and Mixing Monstrosities Sidestory
 A The House of Plagues|QID|59130|M|54.22,66.04|Z|Maldraxxus|N|From Baroness Draka.|PRE|60733|MS|
@@ -313,29 +313,29 @@ T Hazardous Waste Collection|QID|58036|M|58.29,71.59|Z|Maldraxxus|N|To Plague De
 T Plague is Thicker Than Water|QID|58045|M|58.29,71.59|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
 T Applied Science|QID|58031|M|58.29,71.59|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
 A By Any Other Name|QID|59223|M|58.29,71.59|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|58031&58045&58036|MS|
-A A Plague On Your House|QID|59430|M|58.08,72.03|Z|Maldraxxus|N|From Judas Sneap.|LVL|53|
-f Plague Watch|ACTIVE|59430|M|58.17,72.38|Z|Maldraxxus|N|At Vradira Livid.|
-C A Plague On Your House|QID|59430|M|59.39,72.95|Z|Maldraxxus|QO|1|CHAT|N|Chat with Vial Master Lurgy.|
-C A Plague On Your House|QID|59430|M|58.58,73.47|Z|Maldraxxus|QO|2|CHAT|N|Chat with Foul-Tongue Cyrlix.|
-C A Plague On Your House|QID|59430|M|59.04,73.86|Z|Maldraxxus|QO|3|CHAT|N|Chat with Boil Master Yetch.|
-T A Plague On Your House|QID|59430|M|59.04,73.86|Z|Maldraxxus|N|To Boil Master Yetch.|
-A Pool of Potions|QID|58431|M|59.04,73.86|Z|Maldraxxus|N|From Boil Master Yetch.|PRE|59430|
-K Burning Extract|ACTIVE|58431|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
-C Pool of Potions|QID|58431|M|59.03,74.19|Z|Maldraxxus|QO|1<1|N|Return the Viscous Oil to the Pool of Potions.|
-K Burning Extract|ACTIVE|58431|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
-C Pool of Potions|QID|58431|M|59.03,74.19|Z|Maldraxxus|QO|1<2|N|Return the Viscous Oil to the Pool of Potions.|
-K Burning Extract|ACTIVE|58431|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
-C Pool of Potions|QID|58431|M|59.03,74.19|Z|Maldraxxus|QO|1<3|N|Return the Viscous Oil to the Pool of Potions.|
-T Pool of Potions|QID|58431|M|59.05,73.82|Z|Maldraxxus|N|To Boil Master Yetch.|
-A Callous Concoctions|QID|57301|M|58.52,73.53|Z|Maldraxxus|N|From Foul-Tongue Cyrlix.|PRE|58431|
-K Burning Extract|ACTIVE|57301|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
-C Callous Concoctions|QID|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<1|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
-K Burning Extract|ACTIVE|57301|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
-C Callous Concoctions|QID|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<2|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
-K Burning Extract|ACTIVE|57301|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|
-C By Any Other Name|QID|59223|M|57.96,80.41|Z|Maldraxxus|QO|1|N|Kill the Blossoming Dreadshade and loot its Extract.|
-C Callous Concoctions|QID|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<3|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|
-T Callous Concoctions|QID|57301|M|58.54,73.53|Z|Maldraxxus|N|To Foul-Tongue Cyrlix.|
+A A Plague On Your House|QID|59430|M|58.08,72.03|Z|Maldraxxus|N|From Judas Sneap.|LVL|53|RANK|2|
+f Plague Watch|ACTIVE|59430|M|58.17,72.38|Z|Maldraxxus|N|At Vradira Livid.|RANK|2|
+C A Plague On Your House|QID|59430|M|59.39,72.95|Z|Maldraxxus|QO|1|CHAT|N|Chat with Vial Master Lurgy.|RANK|2|
+C A Plague On Your House|QID|59430|M|58.58,73.47|Z|Maldraxxus|QO|2|CHAT|N|Chat with Foul-Tongue Cyrlix.|RANK|2|
+C A Plague On Your House|QID|59430|M|59.04,73.86|Z|Maldraxxus|QO|3|CHAT|N|Chat with Boil Master Yetch.|RANK|2|
+T A Plague On Your House|QID|59430|M|59.04,73.86|Z|Maldraxxus|N|To Boil Master Yetch.|RANK|2|
+A Pool of Potions|QID|58431|M|59.04,73.86|Z|Maldraxxus|N|From Boil Master Yetch.|PRE|59430|RANK|2|
+K Burning Extract|ACTIVE|58431|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|RANK|2|
+C Pool of Potions|QID|58431|M|59.03,74.19|Z|Maldraxxus|QO|1<1|N|Return the Viscous Oil to the Pool of Potions.|RANK|2|
+K Burning Extract|ACTIVE|58431|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|RANK|2|
+C Pool of Potions|QID|58431|M|59.03,74.19|Z|Maldraxxus|QO|1<2|N|Return the Viscous Oil to the Pool of Potions.|RANK|2|
+K Burning Extract|ACTIVE|58431|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|RANK|2|
+C Pool of Potions|QID|58431|M|59.03,74.19|Z|Maldraxxus|QO|1<3|N|Return the Viscous Oil to the Pool of Potions.|RANK|2|
+T Pool of Potions|QID|58431|M|59.05,73.82|Z|Maldraxxus|N|To Boil Master Yetch.|RANK|2|
+A Callous Concoctions|QID|57301|M|58.52,73.53|Z|Maldraxxus|N|From Foul-Tongue Cyrlix.|PRE|58431|RANK|2|
+K Burning Extract|ACTIVE|57301|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|RANK|2|
+C Callous Concoctions|QID|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<1|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|RANK|2|
+K Burning Extract|ACTIVE|57301|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|RANK|2|
+C Callous Concoctions|QID|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<2|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|RANK|2|
+K Burning Extract|ACTIVE|57301|M|58.96,74.13|Z|Maldraxxus|N|Kill the Burning Extract, once it dies there will sometimes be a 2nd corpse, that you click on to collect the Viscous Oil.|BUFF|306636|RANK|2|
+C By Any Other Name|QID|59223|M|57.96,80.41|Z|Maldraxxus|QO|1|N|Kill the Blossoming Dreadshade and loot its Extract.|RANK|2|
+C Callous Concoctions|QID|57301|M|58.29,74.23|Z|Maldraxxus|QO|1<3|N|Return Viscous Oil, Mephitic Goo or Miscible Ooze the Pool of Mixed Monstrosities.|RANK|2|
+T Callous Concoctions|QID|57301|M|58.54,73.53|Z|Maldraxxus|N|To Foul-Tongue Cyrlix.|RANK|2|
 T By Any Other Name|QID|59223|M|60.44,71.64|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
 A Fit For a Margrave|QID|60831|M|60.44,71.64|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|59223|MS|
 C Fit For a Margrave|QID|60831|M|60.55,71.76|Z|Maldraxxus|QO|1|N|Click the Anima Catalysts to the left and right of you.|MS|
@@ -343,17 +343,17 @@ C Fit For a Margrave|QID|60831|M|60.65,71.39|Z|Maldraxxus|QO|2|N|Click on the Po
 C Fit For a Margrave|QID|60831|M|60.65,71.39|Z|Maldraxxus|QO|3|N|Click on the glowing Rune of Insight near you.|MS|
 T Fit For a Margrave|QID|60831|M|60.50,71.60|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
 A Fathomless Power|QID|59231|M|60.50,71.60|Z|Maldraxxus|N|From Plague Deviser Marileth.|PRE|60831|MS|
-A Plaguefall: Knee Deep In It|QID|59520|M|59.39,72.95|Z|Maldraxxus|ELITE|N|[color=e6cc80]Dungeon: Plaguefall[/color]\nFrom Vial Master Lurgy. This quest is optional and out of scope for this guide.|
-F Bleak Redoubt|QID|59231|M|58.02,72.37|
+A Plaguefall: Knee Deep In It|QID|59520|M|59.39,72.95|Z|Maldraxxus|ELITE|N|[color=e6cc80]Dungeon: Plaguefall[/color]\nFrom Vial Master Lurgy. This quest is optional and out of scope for this guide.|RANK|2|
+F Bleak Redoubt|QID|59231|M|58.02,72.37|RANK|2|
 C Fathomless Power|QID|59231|M|50.40,67.75|Z|Maldraxxus|NC|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Inisght.|EAB|MS|
 T Fathomless Power|QID|59231|M|50.36,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
 
 ; Matron of Spies Storyline
-f Renounced Bastille|QID|59520|M|67.90,45.83|Z|Maldraxxus|N|At Felsen Wingclip.|
+f Renounced Bastille|QID|59520|M|67.90,45.83|Z|Maldraxxus|N|At Felsen Wingclip.|RANK|2|
 C A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|CHAT|N|Deliver the summons to Baroness Vashj.|MS|
 T A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|N|To Baroness Vashj.|MS|
 A Glorious Pursuits|QID|58821|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|
-A Prey Upon Them|QID|59171|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|MS|
+A Prey Upon Them|QID|59171|M|67.75,45.87|Z|Maldraxxus|N|From Baroness Vashj.|PRE|58751|MS|
 C Glorious Pursuits|QID|58821|M|62.75,52.52|Z|Maldraxxus|QO|1|U|178940|N|Attack Mephiles the Loyal until it's under 50% then use Vashj's Signal to capture it.|MS|
 C Glorious Pursuits|QID|58821|M|62.25,48.15|Z|Maldraxxus|QO|2|N|Morbid Disciple slain|S|MS|
 C Prey Upon Them|QID|59171|M|61.97,51.91|Z|Maldraxxus|NC|QO|1<1|N|Click on the Anima-charged Maldracite to collect it.|MS|
@@ -438,8 +438,8 @@ C Maw Walker|QID|62654|M|42.38,42.17|Z|The Maw|QO|1|NC|N|Attune to Alexandros an
 C Maw Walker|QID|62654|M|42.38,42.17|Z|The Maw|QO|2|NC|N|Click the waygate to escape the Maw and get teleported back to Oribos.|MS|
 T Maw Walker|QID|62654|M|40.08,68.41|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
 A A Soul Saved|QID|59974|M|39.60,68.00|Z|Ring of Fates@Oribos|N|From Baroness Draka.|PRE|62654|MS|
-P Ring of Transference|ACTIVE|59974|M|49.55,60.83|Z|Ring of Transference@Oribos_Portals!Dungeon|N|Take the Teleporation Pad up to the Ring of Transference.|MS|
-F The Spearhead|QID|59974|M|60.72,68.52|Z|Ring of Transference@Oribos_Portals!Dungeon|N|Pathscribe Roh-Avonavi|MS|
+P Ring of Transference|ACTIVE|59974|M|49.55,60.83|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Transference.|MS|
+F The Spearhead|QID|59974|M|60.72,68.52|Z|Ring of Transference@Oribos|N|Pathscribe Roh-Avonavi|MS|
 
 ; The Empty Throne Storyline
 T A Soul Saved|QID|59974|M|41.31,60.63|Z|Maldraxxus|N|To Alexandros Mograine.|MS|
@@ -453,7 +453,7 @@ A Words of the Primus|QID|59206|M|49.73,49.19|Z|Seat of the Primus!Dungeon|N|Fro
 F Oribos|QID|59206|M|52.49,67.71|Z|Maldraxxus|N|At Wing Guard Buurkin.|MS|
 P Ring of Fates|ACTIVE|59206|M|49.55,60.83|Z|Ring of Fates@Oribos|N|Take the Teleporation Pad down to the Ring of Fates.|MS|
 T Words of the Primus|QID|59206|M|54.67,54.62|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
-A Request of the Highlord|QID|61715|M|54.67,54.62|Z|Ring of Fates@Oribos|N|From Overseer Kah-Delen.|PRE|59206|
+A Request of the Highlord|QID|61715|M|54.67,54.62|Z|Ring of Fates@Oribos|N|From Overseer Kah-Delen.|PRE|59206|RANK|2|
 T Request of the Highlord|QID|61715|M|40.40,68.51|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
 A A Glimpse into Darkness|QID|61716|M|40.40,68.51|Z|Ring of Fates@Oribos|N|From Baroness Draka.|PRE|61715|MS|
 C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|1|Z|Ring of Fates@Oribos|NC|N|Click on the Helm of Domination.|MS|
