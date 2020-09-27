@@ -10,13 +10,13 @@ A Akiris by the Bundle|QID|26487|R|-Goblin|M|34.76,29.54|N|From Sassy Hardwrench
 A If They're Just Going to Leave Them Lying Around...|QID|26450|M|34.81,29.58|N|From Sassy Hardwrench.|
 A The Holy Water of Clarity|QID|26433^26590|M|33.73,29.16|N|From Flem Gizzix.|
 h Hardwrench Hideaway|QID|26433|M|35.07,27.20|N|At Innkeeper Draxle.|
-C It's You!!|QID|26489|R|Goblin|S|QO|Akiris Reed: 0/6|
-C Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead,Pandaren|S|
+C It's You!!|QID|26489|R|Goblin|S|N|Kill Naga Explorers and loot their Akiris Reed.|
+C Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead,Pandaren|S|N|Kill Naga Explorers and loot their Akiris Reed.|
 C If They're Just Going to Leave Them Lying Around...|QID|26450|S|
 C The Holy Water of Clarity|QID|26433^26590|M|43.84,49.10|N|Work your way up the winding paths of the naga hills.|
 C If They're Just Going to Leave Them Lying Around...|QID|26450|US|M|42.56,50.32|
-C It's You!!|QID|26489|R|Goblin|US|M|39.18,48.93|
-C Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead,Pandaren|US|M|39.18,48.93|
+C It's You!!|QID|26489|R|Goblin|US|M|39.18,48.93|N|Kill Naga Explorers and loot their Akiris Reed.|
+C Akiris by the Bundle|QID|26487|R|Blood Elf,Orc,Tauren,Troll,Undead,Pandaren|US|M|39.18,48.93|N|Kill Naga Explorers and loot their Akiris Reed.|
 t It's You!!|QID|26489|R|Goblin|M|34.76,29.54|N|To Sassy Hardwrench.|
 t Akiris by the Bundle|QID|26487|M|34.65,29.48|N|To Sassy Hardwrench.|
 T If They're Just Going to Leave Them Lying Around...|QID|26450|M|34.65,29.48|N|To Sassy Hardwrench.|
