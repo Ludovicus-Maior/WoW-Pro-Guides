@@ -45,18 +45,29 @@ C To Darkhaven|QID|56978|M|66.87,64.72|Z|Revendreth|QO|1|CHAT|N|Speak with the L
 C To Darkhaven|QID|56978|M|63.4,62.2|Z|Revendreth|QO|2|N|Walk with Lord Chamberlain into Darkhaven while defending yourself from attackers.|MS|
 T To Darkhaven|QID|56978|M|63.27,62.13|Z|Revendreth|N|To Lord Chamberlain.|MS|
 
-; The Master Storyline - Darkhaven Tithe
+; The Master Storyline - Tithes of Darkhaven Sidequest Storyline
+
 A The Stoneborn|QID|57174|M|63.27,62.13|Z|Revendreth|N|From Lord Chamberlain.|LVL|57|MS|
 C The Stoneborn|QID|57174|M|63.25,62.12|Z|Revendreth|QO|1|NC|N|Click on the Anima Cage at Lord Chamberlain feet.|MS|
 A Bring Out Your Tithe|QID|60176|M|61.34,63.8|Z|Revendreth|N|From Mistress Mihaela.|LVL|57|RANK|2|
+A Reason for the Treason|QID|60177|M|62.26,61.33|Z|Revendreth|N|From Lajos.|LVL|57|RANK|2|
 C The Stoneborn|QID|57174|Z|Revendreth|QO|2|NC|N|Click on the Stoneborn Guardians sprawled around the town.|S|MS|
 C Bring Out Your Tithe|QID|60176|M|61.04,60.57|Z|Revendreth|N|Collect the tithes of anima by interacting with villagers, and clicking on dropplets on the ground.|S|RANK|2|
-f Darkhaven|ACTIVE|57174|M|60.55,60.65|Z|Revendreth|N|Get flightpath from Courier Rokalai.|MS|
+f Darkhaven|ACTIVE|60177|M|60.55,60.65|Z|Revendreth|N|Get flightpath from Courier Rokalai.|
+C Reason for the Treason|QID|60177|M|60.4,60.6|Z|Revendreth|QO|1|CHAT|N|Talk with Courier Rokalai for the clue.|RANK|2|
+C Reason for the Treason|QID|60177|M|63.34,60.89|Z|Revendreth|QO|2|CHAT|N|Talk to Globknob and then follow him to the Rubbish pile.|RANK|2|
+C Reason for the Treason|QID|60177|M|62.60,64.78|Z|Revendreth|QO|3|CHAT|N|Talk with the Soul of Keltesh and then kill the attackers.|RANK|2|
+T Reason for the Treason|QID|60177|M|62.26,61.33|Z|Revendreth|N|To Lajos.|RANK|2|
+A And Then There Were None|QID|60178|M|62.26,61.33|Z|Revendreth|N|From Lajos.|LVL|57|PRE|60177|RANK|2|
+C And Then There Were None|QID|60178|M|63.21,60.35|Z|Revendreth|QO|2|CHAT|N|Speak with Ilka to invite her to the Crypt.|RANK|2|
 C Bring Out Your Tithe|QID|60176|M|61.04,60.57|Z|Revendreth|N|Collect the tithes of anima by interacting with villagers, and clicking on dropplets on the ground.|US|RANK|2|
 C The Stoneborn|QID|57174|M|61.04,60.57|Z|Revendreth|QO|2|NC|N|Click on the Stoneborn Guardians sprawled around the town.|US|MS|
 T The Stoneborn|QID|57174|M|61.34,63.8|Z|Revendreth|N|To Mistress Mihaela.|MS|
 T Bring Out Your Tithe|QID|60176|M|61.34,63.8|Z|Revendreth|N|To Mistress Mihaela.|RANK|2|
 A A Plea to the Harvesters|QID|58654|M|61.34,63.8|Z|Revendreth|N|From Mistress Mihaela.|LVL|57|PRE|57174|MS|
+C And Then There Were None|QID|60178|M|63.21,60.35|Z|Revendreth|QO|1|CHAT|N|Speak with Samu to invite him to the Crypt.|RANK|2|
+C And Then There Were None|QID|60178|M|61.23,59.45|Z|Revendreth|QO|3|N|Run to the Crypt and make your way down.|RANK|2|
+T And Then There Were None|QID|60178|M|61.28,59.77|Z|Revendreth|N|To Rahel.|RANK|2|
 T A Plea to the Harvesters|QID|58654|M|60.68,60.86|Z|Revendreth|N|To Lord Chamberlain.|MS|
 A The Master Awaits|QID|57178|M|60.49,60.91|Z|Revendreth|N|From General Kaal.|LVL|57|PRE|58654|MS|
 C The Master Awaits|QID|57178|M|60.27,60.8|Z|Revendreth|QO|1|V|N|Hop onto Myskia and go for a ride.|MS|
@@ -278,100 +289,58 @@ C Choosing Your Purpose|QID|62000|M|43.07,73.81|Z|Ring of Fates@Oribos|QO|4|CHAT
 C Choosing Your Purpose|QID|62000|M|39.95,68.68|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Make your choice.|RANK|2|
 T Choosing Your Purpose|QID|62000|M|39.29,69.61|Z|Ring of Fates@Oribos|N|To Tal-Inara.|RANK|2|
 
-; Sidequest Storyline -Tithes of Darkhaven
-A Reason for the Treason|QID|60177|M|62.2,61.2|Z|Revendreth|N|From Lajos.|LVL|57|RANK|2|
-C Reason for the Treason|QID|60177|M|60.4,60.6|Z|Revendreth|QO|1|N|Courier Rokalai clue found.|RANK|2|
-C Reason for the Treason|QID|60177|M|62.6,64.6|Z|Revendreth|QO|2|N|Talk to Globknob.|RANK|2|
-C Reason for the Treason|QID|60177|M|63.2,60.8|Z|Revendreth|QO|3|N|Suspicious Message.|RANK|2|
-C Reason for the Treason|QID|60177|Z|Revendreth|QO|4|N|Manifestation killed.|RANK|2|
-C Reason for the Treason|QID|60177|Z|Revendreth|QO|5|N|Soul of Keltesh clue found.|RANK|2|
-T Reason for the Treason|QID|60177|M|62.2,61.2|Z|Revendreth|N|To Lajos.|RANK|2|
-
-A And Then There Were None|QID|60178|M|62.2,61.2|Z|Revendreth|N|From Lajos.|LVL|57|RANK|2|
-C And Then There Were None|QID|60178|M|61.2,59.8|Z|Revendreth|QO|1|N|Samu invited.|RANK|2|
-C And Then There Were None|QID|60178|M|61.2,59.8|Z|Revendreth|QO|2|N|Ilka invited.|RANK|2|
-C And Then There Were None|QID|60178|Z|Revendreth|QO|3|N|Roleplay Done.|RANK|2|
-C And Then There Were None|QID|60178|Z|Revendreth|QO|4|N|Traitor confronted.|RANK|2|
-T And Then There Were None|QID|60178|M|61.2,59.6|Z|Revendreth|N|To Rahel.|RANK|2|
-
-
 ; Sidequest Story -  The Duelist's Debt
-A A Curious Invitation|QID|59710|M|60.8,62.4|Z|Revendreth|N|From Dimwiddle.|LVL|57|RANK|2|
-C A Curious Invitation|QID|59710|M|59.4,66.6|Z|Revendreth|N|Unknown.|RANK|2|
-C A Curious Invitation|QID|59710|M|59.4,66.6|Z|Revendreth|QO|1|N|Elevator used.|RANK|2|
-C A Curious Invitation|QID|59710|Z|Revendreth|QO|2|N|Courier Araak found.|RANK|2|
-T A Curious Invitation|QID|59710|M|59.4,66.6|Z|Revendreth|N|To Courier Araak.|RANK|2|
-
-A The Lay of the Land|QID|59712|M|59.4,66.6|Z|Revendreth|N|From Courier Araak.|LVL|57|RANK|2|
-C The Lay of the Land|QID|59712|M|60,69|Z|Revendreth|N|Unknown.|RANK|2|
-C The Lay of the Land|QID|59712|M|60,69|Z|Revendreth|QO|1|N|Nadjia checked.|RANK|2|
-C The Lay of the Land|QID|59712|M|58.7,69.3|Z|Revendreth|QO|2|N|Ruminations on True Names.|RANK|2|
-T The Lay of the Land|QID|59712|M|60.2,69.2|Z|Revendreth|N|To Courier Araak.|RANK|2|
-
-A Active Ingredients|QID|59713|M|60,69|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|RANK|2|
-C Active Ingredients|QID|59713|M|61.2,71.4|Z|Revendreth|N|Unknown.|RANK|2|
-C Active Ingredients|QID|59713|M|61.2,71.4|Z|Revendreth|QO|1|N|Pristine Venom Gland.|RANK|2|
-C Active Ingredients|QID|59713|M|62,71|Z|Revendreth|QO|2|N|Scythe Bloom Pollen.|RANK|2|
-T Active Ingredients|QID|59713|M|60,69|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
-
-A A Fine Vintage|QID|59714|M|60,69|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|RANK|2|
-C A Fine Vintage|QID|59714|M|63.6,73|Z|Revendreth|N|Unknown.|RANK|2|
-C A Fine Vintage|QID|59714|M|63.6,73|Z|Revendreth|QO|1|N|Witherfall Special Reserve.|RANK|2|
-T A Fine Vintage|QID|59714|M|60,69|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
-
-A Message for Matyas|QID|59715|M|60,69|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|RANK|2|
-C Message for Matyas|QID|59715|Z|Revendreth|N|Unknown.|RANK|2|
-C Message for Matyas|QID|59715|Z|Revendreth|QO|1|N|Nadjia has hidden.|RANK|2|
-C Message for Matyas|QID|59715|Z|Revendreth|QO|2|N|Courier message sent.|RANK|2|
-C Message for Matyas|QID|59715|Z|Revendreth|QO|3|N|Bottle poisoned.|RANK|2|
-T Message for Matyas|QID|59715|M|60.2,69.4|Z|Revendreth|N|To Taskmaster Matyas.|RANK|2|
-
-A Comfortably Numb|QID|59716|M|60.2,69.4|Z|Revendreth|N|From Taskmaster Matyas.|LVL|57|RANK|2|
-C Comfortably Numb|QID|59716|Z|Revendreth|N|Unknown.|RANK|2|
-C Comfortably Numb|QID|59716|Z|Revendreth|QO|1|N|Matyas poisoned.|RANK|2|
-C Comfortably Numb|QID|59716|Z|Revendreth|QO|2|N|Nadjia's Sinstone.|RANK|2|
-T Comfortably Numb|QID|59716|M|60,69|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
-
-A The Field of Honor|QID|59724|M|60,69|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|RANK|2|
-C The Field of Honor|QID|59724|M|60,79.4|Z|Revendreth|N|Unknown.|RANK|2|
-C The Field of Honor|QID|59724|M|60,79.4|Z|Revendreth|QO|1|N|Bladewing Guard.|RANK|2|
-C The Field of Honor|QID|59724|M|57.4,74.2|Z|Revendreth|QO|2|N|Briarbane Footman.|RANK|2|
-C The Field of Honor|QID|59724|M|57.2,74.8|Z|Revendreth|QO|3|N|Briarbane Arbalest.|RANK|2|
-T The Field of Honor|QID|59724|M|60.2,78.6|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
-
-A It's a Trap|QID|59726|M|60.2,78.6|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|RANK|2|
-C It's a Trap|QID|59726|M|60,76.8|Z|Revendreth|N|Unknown.|RANK|2|
-C It's a Trap|QID|59726|M|60,76.8|Z|Revendreth|QO|1|N|Nadjia's duel completed.|RANK|2|
-T It's a Trap|QID|59726|M|60.2,78.6|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
-
-A Finders-Keepers, Sinners-Weepers|QID|59846|M|60,69|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|RANK|2|
-C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.2,68.4|Z|Revendreth|N|Discover the secrets of Taskmaster Matyas's efforts in Feeder's Thicket.|RANK|2|
-C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.2,68.4|Z|Revendreth|QO|1|N|Dredgers questioned.|RANK|2|
-C Finders-Keepers, Sinners-Weepers|QID|59846|M|61.2,68|Z|Revendreth|QO|2|N|Cobwobble questioned.|RANK|2|
-C Finders-Keepers, Sinners-Weepers|QID|59846|M|60,69.4|Z|Revendreth|QO|3|N|Dobwobble questioned.|RANK|2|
-C Finders-Keepers, Sinners-Weepers|QID|59846|M|61,67.6|Z|Revendreth|QO|4|N|Slobwobble questioned.|RANK|2|
-C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.4,69.9|Z|Revendreth|QO|5|N|Sinstones collected.|RANK|2|
-C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.8,72.1|Z|Revendreth|QO|6|N|Worn Sinstone.|RANK|2|
-C Finders-Keepers, Sinners-Weepers|QID|59846|Z|Revendreth|QO|7|N|Cracked Sinstone.|RANK|2|
-C Finders-Keepers, Sinners-Weepers|QID|59846|Z|Revendreth|QO|8|N|Chipped Sinstone.|RANK|2|
-T Finders-Keepers, Sinners-Weepers|QID|59846|M|60,69|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
-
-A Offer of Freedom|QID|59868|M|60,69|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|RANK|2|
-C Offer of Freedom|QID|59868|Z|Revendreth|N|Unknown.|RANK|2|
-C Offer of Freedom|QID|59868|Z|Revendreth|QO|1|N|Compelled venthyr freed.|RANK|2|
-T Offer of Freedom|QID|59868|M|60.2,78.6|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
-
-
-
+A A Curious Invitation|QID|59710|M|60.75,62.46|Z|Revendreth|N|From Dimwiddle.|LVL|57|RANK|2|
+C A Curious Invitation|QID|59710|M|58.40,64.19|Z|Revendreth|QO|1|NC|N|Ride up the Elevator.|RANK|2|
+C A Curious Invitation|QID|59710|M|59.49,66.80|Z|Revendreth|QO|2|NC|N|Courier Araak found.|RANK|2|
+T A Curious Invitation|QID|59710|M|59.49,66.80|Z|Revendreth|N|To Courier Araak.|RANK|2|
+A The Lay of the Land|QID|59712|M|59.49,66.80|Z|Revendreth|N|From Courier Araak.|LVL|57|PRE|59710|RANK|2|
+C The Lay of the Land|QID|59712|M|59.91,68.83|Z|Revendreth|QO|1|NC|N|Click on Nadjia.|RANK|2|
+C The Lay of the Land|QID|59712|M|58.65,69.34|Z|Revendreth|QO|2|N|Click the Ruminations on True Names.|RANK|2|
+T The Lay of the Land|QID|59712|M|60.31,69.19|Z|Revendreth|N|To Courier Araak.|RANK|2|
+A Finders-Keepers, Sinners-Weepers|QID|59846|M|59.86,68.91|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|PRE|59712|RANK|2|
+C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.23,68.51|Z|Revendreth|QO|1|CHAT|N|Cobwobble questioned.|RANK|2|
+C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.05,69.60|Z|Revendreth|QO|2|CHAT|N|Dobwobble questioned.|RANK|2|
+C Finders-Keepers, Sinners-Weepers|QID|59846|M|61.33,68.01|Z|Revendreth|QO|3|CHAT|N|Slobwobble questioned.|RANK|2|
+C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.99,67.63|Z|Revendreth|QO|4<1|NC|N|Click on the Sinstone Fragments to collect the Worn Sinstone.|RANK|2|
+C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.41,69.88|Z|Revendreth|QO|4<2|NC|N|Click on the Sinstone Fragments to collect the Cracked Sinstone.|RANK|2|
+C Finders-Keepers, Sinners-Weepers|QID|59846|M|60.80,72.10|Z|Revendreth|QO|4<3|NC|N|Click on the Sinstone Fragments to collect the Chipped Sinstone.|RANK|2|
+T Finders-Keepers, Sinners-Weepers|QID|59846|M|59.86,68.91|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
+A Active Ingredients|QID|59713|M|59.86,68.91|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|PRE|59846|RANK|2|
+A A Fine Vintage|QID|59714|M|59.86,68.91|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|PRE|59846|RANK|2|
+C Active Ingredients|QID|59713|M|63.10,67.96|Z|Revendreth|QO|1|N|Kill Spiders until you find the Pristine Venom Gland.|RANK|2|S|
+C Active Ingredients|QID|59713|M|63.10,67.96|Z|Revendreth|QO|2|NC|N|Click on Scythe Bloom to collect the Pollen.|RANK|2|S|
+R The Sneak Hole|ACTIVE|59714|M|63.62,74.37|Z|Revendreth|N|Make your way to the Sneak Hole.|RANK|2|
+C A Fine Vintage|QID|59714|M|63.6,73|Z|Revendreth|N|Go down the Sneak Hole Witherfall Special Reserve and click on one of the kegs.\n\nUse your Action Ability "[color=40C7EB]Hazy Brew[/color]" on Mucksquint to weaken him. Kill and then loot the drank!|EAB|RANK|2|
+C Active Ingredients|QID|59713|M|63.10,67.96|Z|Revendreth|QO|2|NC|N|Click on Scythe Bloom to collect the Pollen.|RANK|2|US|
+C Active Ingredients|QID|59713|M|63.10,67.96|Z|Revendreth|QO|1|N|Kill Spiders until you find the Pristine Venom Gland.|RANK|2|US|
+T A Fine Vintage|QID|59714|M|59.86,68.91|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
+T Active Ingredients|QID|59713|M|59.86,68.91|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
+A Message for Matyas|QID|59715|M|59.86,68.91|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|PRE|59713&59714|RANK|2|
+C Message for Matyas|QID|59715|M|60.31,69.19|Z|Revendreth|QO|1|NC|N|Click on Courier Araak to send the message.|RANK|2|
+C Message for Matyas|QID|59715|M|60.28,69.13|Z|Revendreth|QO|2|NC|N|Click the Bottle to poison it.|RANK|2|
+T Message for Matyas|QID|59715|M|60.16,69.39|Z|Revendreth|N|To Taskmaster Matyas.|RANK|2|
+A Comfortably Numb|QID|59716|M|60.2,69.4|Z|Revendreth|N|From Taskmaster Matyas.|LVL|57|PRE|59715|RANK|2|
+C Comfortably Numb|QID|59716|Z|Revendreth|QO|1|NC|N|Click on the goblet to pour the poisoned wine..|RANK|2|
+C Comfortably Numb|QID|59716|Z|Revendreth|QO|2|NC|N|Once he's knocked out, click on him to pickpocket Nadjia's Sinstone.|RANK|2|
+T Comfortably Numb|QID|59716|M|60.20,69.23|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
+A The Field of Honor|QID|59724|M|59.86,68.91|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|PRE|59716|RANK|2|
+A Offer of Freedom|QID|59868|M|60,69|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|PRE|59716|RANK|2|
+C The Field of Honor|QID|59724|M|60,79.4|Z|Revendreth|N|Kill Briarbane enemies.|RANK|2|S|
+C Offer of Freedom|QID|59868|M|59.97,76.78|Z|Revendreth|N|Use the item on wounded Briarbane to free them of their compulsion.|RANK|2|
+C The Field of Honor|QID|59724|M|60,79.4|Z|Revendreth|N|Kill Briarbane enemies.|RANK|2|US|
+T Offer of Freedom|QID|59868|M|60.25,78.69|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
+T The Field of Honor|QID|59724|M|60.25,78.69|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
+A It's a Trap|QID|59726|M|60.25,78.69|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|PRE|59868&59724|RANK|2|
+C It's a Trap|QID|59726|M|60.15,75.50|Z|Revendreth|QO|1|N|Click the gate behind you to open it and fight Taskmaster Matyas with Nadjia.|RANK|2|
+T It's a Trap|QID|59726|M|60.19,78.59|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
 
 ; Sidequest Storyline - Dirty Jobs
-A It's a Dirty Job|QID|62190|N|Unknown.|LVL|60|RANK|2|
-C It's a Dirty Job|QID|62190|N|Unknown.|RANK|2|
-C It's a Dirty Job|QID|62190|QO|1|N|Filthy Rubble thrown.|RANK|2|
-T It's a Dirty Job|QID|62190|N|Unknown.|RANK|2|
+A It's a Dirty Job|QID|62190|M|72.61,73.20|Z|Revendreth|N|From Rendle.|LVL|60|RANK|2|
+C It's a Dirty Job|QID|62190|M|74.28,74.52|Z|Revendreth|NC|N|Click the Filthy Rubble to throw them in the pond.|RANK|2|
+T It's a Dirty Job|QID|62190|M|72.61,73.20|Z|Revendreth|N|To Rendle.|RANK|2|
+A Dredger Duty|QID|57474|M|72.61,73.20|Z|Revendreth|N|From Rendle.|LVL|57|PRE|62190|RANK|2|
 
-A Dredger Duty|QID|57474|M|72.6,73.2|Z|Revendreth|N|From Rendle.|LVL|57|RANK|2|
-C Dredger Duty|QID|57474|M|74,73|Z|Revendreth|N|Unknown.|RANK|2|
 C Dredger Duty|QID|57474|M|74,73|Z|Revendreth|QO|1|N|Dredger dredged.|RANK|2|
 C Dredger Duty|QID|57474|M|72.4,73.6|Z|Revendreth|QO|2|N|Dredger thrown at the rubble pile.|RANK|2|
 C Dredger Duty|QID|57474|M|74.2,73|Z|Revendreth|QO|3|N|Dredger defended.|RANK|2|
@@ -379,13 +348,11 @@ C Dredger Duty|QID|57474|Z|Revendreth|QO|4|N|Gem of Binding.|RANK|2|
 T Dredger Duty|QID|57474|M|72.6,73.2|Z|Revendreth|N|To Rendle.|RANK|2|
 
 A We're Gonna Need a Bigger Dredger|QID|57477|M|72.6,73.2|Z|Revendreth|N|From Rendle.|LVL|57|RANK|2|
-C We're Gonna Need a Bigger Dredger|QID|57477|Z|Revendreth|N|Unknown.|RANK|2|
 C We're Gonna Need a Bigger Dredger|QID|57477|Z|Revendreth|QO|1|N| Channeling Complete.|RANK|2|
 C We're Gonna Need a Bigger Dredger|QID|57477|Z|Revendreth|QO|2|N|Witness the ritual.|RANK|2|
 T We're Gonna Need a Bigger Dredger|QID|57477|M|72.8,73.8|Z|Revendreth|N|To Bootus.|RANK|2|
 
 A Running a Muck|QID|57481|M|72.8,73.8|Z|Revendreth|N|From Bootus.|LVL|57|RANK|2|
-C Running a Muck|QID|57481|M|72.8,73.8|Z|Revendreth|N|Unknown.|RANK|2|
 C Running a Muck|QID|57481|M|72.8,73.8|Z|Revendreth|QO|1|N|Bootus boarded.|RANK|2|
 C Running a Muck|QID|57481|M|75.4,77.2|Z|Revendreth|QO|2|N|Rampaging Devourer.|RANK|2|
 C Running a Muck|QID|57481|M|72.4,74.8|Z|Revendreth|QO|3|N|Rampaging Mite.|RANK|2|
@@ -394,82 +361,67 @@ T Running a Muck|QID|57481|M|72.6,73.2|Z|Revendreth|N|To Rendle.|RANK|2|
 
 ; Sidequest Storyline -  The Final Atonement
 A An Abuse of Power|QID|57919|M|71.8,40.4|Z|Revendreth|N|From The Accuser.|LVL|57|PRE|57918|RANK|2|
-C An Abuse of Power|QID|57919|M|71.4,40.6|Z|Revendreth|N|Unknown.|RANK|2|
 C An Abuse of Power|QID|57919|M|71.4,40.6|Z|Revendreth|QO|1|N|Abused Soul subjugated.|RANK|2|
 C An Abuse of Power|QID|57919|Z|Revendreth|QO|2|N|Shattered Soul slain.|RANK|2|
 T An Abuse of Power|QID|57919|M|71.8,40.4|Z|Revendreth|N|To The Accuser.|RANK|2|
 
 A The Proper Souls|QID|57920|M|71.8,40.4|Z|Revendreth|N|From The Accuser.|LVL|57|RANK|2|
-C The Proper Souls|QID|57920|Z|Revendreth|N|Unknown.|RANK|2|
-C The Proper Souls|QID|57920|Z|Revendreth|QO|1|N|Fugitive Souls subjugated.|RANK|2|
+C The Proper Souls|QID|57920|Z|Revendreth|N|Fugitive Souls subjugated.|RANK|2|
 T The Proper Souls|QID|57920|M|70.6,46.8|Z|Revendreth|N|To The Accuser.|RANK|2|
 
 A The Proper Tools|QID|57921|M|71.8,40.4|Z|Revendreth|N|From The Accuser.|LVL|57|RANK|2|
-C The Proper Tools|QID|57921|M|65.2,43.6|Z|Revendreth|N|Unknown.|RANK|2|
 C The Proper Tools|QID|57921|M|65.2,43.6|Z|Revendreth|QO|1|N|Venthyr Ritual Robes.|RANK|2|
 C The Proper Tools|QID|57921|M|65,43.4|Z|Revendreth|QO|2|N|Venthyr Ritual Dagger.|RANK|2|
 C The Proper Tools|QID|57921|M|66.4,43.6|Z|Revendreth|QO|3|N|Venthyr Ritual Tome.|RANK|2|
 T The Proper Tools|QID|57921|M|70.6,46.8|Z|Revendreth|N|To The Accuser.|RANK|2|
 
 A The Proper Punishment|QID|57922|M|71.8,40.4|Z|Revendreth|N|From The Accuser.|LVL|57|RANK|2|
-C The Proper Punishment|QID|57922|M|65.2,43.6|Z|Revendreth|N|Unknown.|RANK|2|
-C The Proper Punishment|QID|57922|M|65.2,43.6|Z|Revendreth|QO|1|N|Fata the Soulflayer slain.|RANK|2|
+C The Proper Punishment|QID|57922|M|65.2,43.6|Z|Revendreth|N|Fata the Soulflayer slain.|RANK|2|
 T The Proper Punishment|QID|57922|M|70.6,46.8|Z|Revendreth|N|To The Accuser.|RANK|2|
 
 A Ritual of Absolution|QID|62125|N|Unknown.|LVL|60|RANK|2|
-C Ritual of Absolution|QID|62125|N|Unknown.|RANK|2|
-C Ritual of Absolution|QID|62125|QO|1|N|Toast: Amenities - Entertainment 1.|RANK|2|
+C Ritual of Absolution|QID|62125|N|Toast: Amenities - Entertainment 1.|RANK|2|
 T Ritual of Absolution|QID|62125|N|Unknown.|RANK|2|
 
 A Ritual of Judgment|QID|57924|M|72,46.2|Z|Revendreth|N|From The Accuser.|LVL|57|RANK|2|
-C Ritual of Judgment|QID|57924|Z|Revendreth|N|Unknown.|RANK|2|
 C Ritual of Judgment|QID|57924|Z|Revendreth|QO|1|N|Join the Ritual of Judgment.|RANK|2|
 C Ritual of Judgment|QID|57924|Z|Revendreth|QO|2|N|Soul judged.|RANK|2|
 T Ritual of Judgment|QID|57924|M|74.2,49.6|Z|Revendreth|N|To The Accuser.|RANK|2|
 
 A Archivist Fane|QID|57925|M|74.2,49.6|Z|Revendreth|N|From The Accuser.|LVL|57|RANK|2|
-C Archivist Fane|QID|57925|Z|Revendreth|N|Unknown.|RANK|2|
 T Archivist Fane|QID|57925|M|73,52|Z|Revendreth|N|To Archivist Fane.|RANK|2|
 
 A The Sinstone Archive|QID|57926|M|73,52|Z|Revendreth|N|From Archivist Fane.|LVL|57|RANK|2|
-C The Sinstone Archive|QID|57926|Z|Revendreth|N|Unknown.|RANK|2|
-C The Sinstone Archive|QID|57926|Z|Revendreth|QO|1|N|Sinstone Records.|RANK|2|
+C The Sinstone Archive|QID|57926|Z|Revendreth|N|Sinstone Records.|RANK|2|
 T The Sinstone Archive|QID|57926|M|73,52|Z|Revendreth|N|To Archivist Fane.|RANK|2|
 
 A Rebuilding Temel|QID|57927|M|70.2,56.2|Z|Revendreth|N|From Cryptkeeper Kassir.|LVL|57|RANK|2|
-C Rebuilding Temel|QID|57927|M|69,53.4|Z|Revendreth|N|Unknown.|RANK|2|
 C Rebuilding Temel|QID|57927|M|69,53.4|Z|Revendreth|QO|1|N|Temel's Body.|RANK|2|
 C Rebuilding Temel|QID|57927|M|66.2,53.1|Z|Revendreth|QO|2|N|Temel's Wings.|RANK|2|
 C Rebuilding Temel|QID|57927|M|70.3,53.9|Z|Revendreth|QO|3|N|Temel's Head.|RANK|2|
 T Rebuilding Temel|QID|57927|M|70.2,56.2|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
 
 A Atonement Crypt Key|QID|57928|N|Unknown.|LVL|57|RANK|2|
-C Atonement Crypt Key|QID|57928|N|Unknown.|RANK|2|
-C Atonement Crypt Key|QID|57928|QO|1|N|Atonement Crypt opened.|RANK|2|
+C Atonement Crypt Key|QID|57928|N|Atonement Crypt opened.|RANK|2|
 T Atonement Crypt Key|QID|57928|M|70.2,56.2|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
 
 A Hunting an Inquisitor|QID|57929|M|73,52|Z|Revendreth|N|From Archivist Fane.|LVL|57|RANK|2|
-C Hunting an Inquisitor|QID|57929|M|76,51.8|Z|Revendreth|N|Unknown.|RANK|2|
-C Hunting an Inquisitor|QID|57929|M|76,51.8|Z|Revendreth|QO|1|N|Inquisitor Traian slain.|RANK|2|
+C Hunting an Inquisitor|QID|57929|M|76,51.8|Z|Revendreth|N|Inquisitor Traian slain.|RANK|2|
 T Hunting an Inquisitor|QID|57929|M|73,52|Z|Revendreth|N|To Archivist Fane.|RANK|2|
 
 A Halls of Atonement: Your Absolution|QID|58092|M|73,52|Z|Revendreth|ELITE|N|[color=e6cc80]Dungeon: [/color]\nFrom Archivist Fane.|LVL|57|RANK|2|
-C Halls of Atonement: Your Absolution|QID|58092|M|14.2,48.7|Z|Halls of Atonement!Dungeon|N|Unknown.|RANK|2|
 C Halls of Atonement: Your Absolution|QID|58092|M|14.2,48.7|Z|Halls of Atonement!Dungeon|QO|1|N|Lord Chamberlain slain.|RANK|2|
 C Halls of Atonement: Your Absolution|QID|58092|Z|Halls of Atonement!Dungeon|QO|2|N|Suggested players: 5.|RANK|2|
 T Halls of Atonement: Your Absolution|QID|58092|M|71.8,40.4|Z|Revendreth|N|To Gresit.|RANK|2|
 
 A Missing Stone Fiend|QID|60127|M|73,52|Z|Revendreth|N|From Archivist Fane.|LVL|57|RANK|2|
-C Missing Stone Fiend|QID|60127|Z|Revendreth|N|Unknown.|RANK|2|
 T Missing Stone Fiend|QID|60127|M|70.2,56.2|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
 
 A Ready to Serve|QID|60128|M|70.2,56.2|Z|Revendreth|N|From Cryptkeeper Kassir.|LVL|57|RANK|2|
-C Ready to Serve|QID|60128|Z|Revendreth|N|Unknown.|RANK|2|
 T Ready to Serve|QID|60128|M|73,52|Z|Revendreth|N|To Archivist Fane.|RANK|2|
 
 A It Used to Be Quiet Here|QID|60487|M|69.4,53.4|Z|Revendreth|N|From Chiselgrump.|LVL|57|RANK|2|
-C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|N|Unknown.|RANK|2|
-C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|QO|1|N|Dredger Chisel.|RANK|2|
+C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|N|Dredger Chisel.|RANK|2|
 T It Used to Be Quiet Here|QID|60487|M|69.4,53.4|Z|Revendreth|N|To Chiselgrump.|RANK|2|
 
 
@@ -477,12 +429,10 @@ T It Used to Be Quiet Here|QID|60487|M|69.4,53.4|Z|Revendreth|N|To Chiselgrump.|
 
 ; Sidequest Storyline - Mirror Maker of the Master
 A An Unfortunate Situation|QID|57531|M|26.4,49|Z|Revendreth|N|From Laurent.|LVL|58|PRE|60051|RANK|2|
-C An Unfortunate Situation|QID|57531|M|29.6,48.6|Z|Revendreth|N|Unknown.|RANK|2|
-C An Unfortunate Situation|QID|57531|M|29.6,48.6|Z|Revendreth|QO|1|N|Laurent's Belongings.|RANK|2|
+C An Unfortunate Situation|QID|57531|M|29.6,48.6|Z|Revendreth|N|Laurent's Belongings.|RANK|2|
 T An Unfortunate Situation|QID|57531|M|26.4,49|Z|Revendreth|N|To Laurent.|RANK|2|
 
 A Foraging for Fragments|QID|57532|M|26.4,49|Z|Revendreth|N|From Laurent.|LVL|58|RANK|2|
-C Foraging for Fragments|QID|57532|M|25.7,48.6|Z|Revendreth|N|Unknown.|RANK|2|
 C Foraging for Fragments|QID|57532|M|25.7,48.6|Z|Revendreth|QO|1|N|Follow Laurent.|RANK|2|
 C Foraging for Fragments|QID|57532|M|25.5,47.3|Z|Revendreth|QO|2|N|Mirror Fragment.|RANK|2|
 C Foraging for Fragments|QID|57532|M|25,48|Z|Revendreth|QO|3|N|Follow Laurent.|RANK|2|
@@ -492,7 +442,6 @@ C Foraging for Fragments|QID|57532|Z|Revendreth|QO|6|N|Mirror Fragment.|RANK|2|
 T Foraging for Fragments|QID|57532|M|24.2,49.4|Z|Revendreth|N|To Laurent.|RANK|2|
 
 A Light Punishment|QID|57533|M|24.2,49.4|Z|Revendreth|N|From Simone.|LVL|58|RANK|2|
-C Light Punishment|QID|57533|Z|Revendreth|N|Unknown.|RANK|2|
 C Light Punishment|QID|57533|Z|Revendreth|QO|1|N|Blistering Outcasts freed.|RANK|2|
 C Light Punishment|QID|57533|Z|Revendreth|QO|2|N|Mirror Fragment A.|RANK|2|
 C Light Punishment|QID|57533|Z|Revendreth|QO|3|N|Mirror Fragment B.|RANK|2|
@@ -502,18 +451,15 @@ C Light Punishment|QID|57533|Z|Revendreth|QO|6|N|Mirror Fragment E.|RANK|2|
 T Light Punishment|QID|57533|M|24.2,49.4|Z|Revendreth|N|To Simone.|RANK|2|
 
 A When Only Ash Remains|QID|57534|M|24.2,49.4|Z|Revendreth|N|From Laurent.|LVL|58|RANK|2|
-C When Only Ash Remains|QID|57534|M|21.2,48|Z|Revendreth|N|Unknown.|RANK|2|
 C When Only Ash Remains|QID|57534|M|21.2,48|Z|Revendreth|QO|1|N|Ashen Ravager.|RANK|2|
 C When Only Ash Remains|QID|57534|M|21.4,49.2|Z|Revendreth|QO|2|N|Ashen Ravager.|RANK|2|
 T When Only Ash Remains|QID|57534|M|24.2,49.4|Z|Revendreth|N|To Laurent.|RANK|2|
 
 A Escaping the Master|QID|57535|M|24.2,49.4|Z|Revendreth|N|From Laurent.|LVL|58|RANK|2|
-C Escaping the Master|QID|57535|Z|Revendreth|N|Unknown.|RANK|2|
-C Escaping the Master|QID|57535|Z|Revendreth|QO|1|N|Mirror Fragment.|RANK|2|
+C Escaping the Master|QID|57535|Z|Revendreth|N|Mirror Fragment.|RANK|2|
 T Escaping the Master|QID|57535|M|24.2,49.4|Z|Revendreth|N|To Laurent.|RANK|2|
 
 A Mirror Making, Not Breaking|QID|57536|M|24.2,49.4|Z|Revendreth|N|From Laurent.|LVL|58|RANK|2|
-C Mirror Making, Not Breaking|QID|57536|M|24.6,50.4|Z|Revendreth|N|Unknown.|RANK|2|
 C Mirror Making, Not Breaking|QID|57536|M|24.6,50.4|Z|Revendreth|QO|1|N|Follow Laurent and Simone.|RANK|2|
 C Mirror Making, Not Breaking|QID|57536|M|24.6,50.4|Z|Revendreth|QO|2|N|Speak to Laurent.|RANK|2|
 C Mirror Making, Not Breaking|QID|57536|M|24.2,49.4|Z|Revendreth|QO|3|N|Laurent and Simone defended.|RANK|2|
@@ -522,13 +468,11 @@ C Mirror Making, Not Breaking|QID|57536|Z|Revendreth|QO|5|N|Stone Legion Enforce
 T Mirror Making, Not Breaking|QID|57536|M|24.8,50.2|Z|Revendreth|N|To Laurent.|RANK|2|
 
 A Moving Mirrors|QID|57571|M|24.2,49.4|Z|Revendreth|N|From Laurent.|LVL|58|RANK|2|
-C Moving Mirrors|QID|57571|M|21.8,50.4|Z|Revendreth|N|Unknown.|RANK|2|
 C Moving Mirrors|QID|57571|M|21.8,50.4|Z|Revendreth|QO|1|N|Simone freed.|RANK|2|
 C Moving Mirrors|QID|57571|Z|Revendreth|QO|2|N|Mirror Trap.|RANK|2|
 T Moving Mirrors|QID|57571|M|24.2,49.4|Z|Revendreth|N|To Simone.|RANK|2|
 
 A We Need More Power|QID|59427|M|24.2,49.4|Z|Revendreth|N|From Simone.|LVL|58|RANK|2|
-C We Need More Power|QID|59427|M|21.1,53.7|Z|Revendreth|N|Unknown.|RANK|2|
 C We Need More Power|QID|59427|M|21.1,53.7|Z|Revendreth|QO|1|N|Anima collected.|RANK|2|
 C We Need More Power|QID|59427|Z|Revendreth|QO|2|N|Anima Stores.|RANK|2|
 C We Need More Power|QID|59427|Z|Revendreth|QO|3|N|Anima Stores.|RANK|2|
@@ -536,20 +480,15 @@ T We Need More Power|QID|59427|M|24.2,49.4|Z|Revendreth|N|To Simone.|RANK|2|
 
 
 ; Sidequest Storyline - Revelations of the Light
-
-
 A A Rousing Aroma|QID|60467|M|35,53.8|Z|Revendreth|N|From Sabina.|LVL|58|RANK|2|
-C A Rousing Aroma|QID|60467|M|25.8,46.4|Z|Revendreth|N|Unknown.|RANK|2|
-C A Rousing Aroma|QID|60467|M|25.8,46.4|Z|Revendreth|QO|1|N|Pungent Swarmer Toxin.|RANK|2|
+C A Rousing Aroma|QID|60467|M|25.8,46.4|Z|Revendreth|N|Pungent Swarmer Toxin.|RANK|2|
 T A Rousing Aroma|QID|60467|M|35,53.8|Z|Revendreth|N|To Sabina.|RANK|2|
 
 A Rubble Rummaging|QID|60468|M|35,53.8|Z|Revendreth|N|From Sabina.|LVL|58|RANK|2|
-C Rubble Rummaging|QID|60468|Z|Revendreth|N|Unknown.|RANK|2|
-C Rubble Rummaging|QID|60468|Z|Revendreth|QO|1|N|Shackle Key.|RANK|2|
+C Rubble Rummaging|QID|60468|Z|Revendreth|N|Shackle Key.|RANK|2|
 T Rubble Rummaging|QID|60468|M|35,53.8|Z|Revendreth|N|To Sabina.|RANK|2|
 
 A Safe in the Shadows|QID|60469|M|35,53.8|Z|Revendreth|N|From Sabina.|LVL|58|RANK|2|
-C Safe in the Shadows|QID|60469|M|37.7,53.7|Z|Revendreth|N|Unknown.|RANK|2|
 C Safe in the Shadows|QID|60469|M|37.7,53.7|Z|Revendreth|QO|1|N|Find Sabina's companions.|RANK|2|
 C Safe in the Shadows|QID|60469|M|37.7,53.5|Z|Revendreth|QO|2|N|Search for clues.|RANK|2|
 C Safe in the Shadows|QID|60469|M|37.9,53.5|Z|Revendreth|QO|3|N|Tattered Journal.|RANK|2|
@@ -557,7 +496,6 @@ C Safe in the Shadows|QID|60469|Z|Revendreth|QO|4|N|Stained Dagger.|RANK|2|
 T Safe in the Shadows|QID|60469|M|35,53.8|Z|Revendreth|N|To Sabina.|RANK|2|
 
 A Setting Sabina Free|QID|60470|M|35,53.8|Z|Revendreth|N|From Sabina.|LVL|58|RANK|2|
-C Setting Sabina Free|QID|60470|Z|Revendreth|N|Unknown.|RANK|2|
 C Setting Sabina Free|QID|60470|Z|Revendreth|QO|1|N|Release Sabina.|RANK|2|
 C Setting Sabina Free|QID|60470|Z|Revendreth|QO|2|N|Sabina slain.|RANK|2|
 T Setting Sabina Free|QID|60470|N|Unknown.|RANK|2|
