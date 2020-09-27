@@ -41,19 +41,16 @@ T Gathering Idols|QID|297|M|64.90,66.66|N|To Magmar Fellhew.|
 R The Farstrider Lodge|QID|11111|M|80.78,59.47|N|Run to the Farstrider Lodge. There is a hunter trainer here as well as vendors and repairs.|
 A Crocolisk Hunting|QID|385|M|81.76,61.67|N|From Marek Ironheart.|
 A A Hunter's Boast|QID|257|M|83.48,65.44|N|From Daryl the Youngling.|
-C A Hunter's Boast|QID|257|M|76.82,58.78|N|This is a TIMED quest, find and kill Mountain Buzzards.|
+C A Hunter's Boast|QID|257|QO|1|N|[color=FF0000]NOTE: [/color]This is a TIMED Quest. The timer doesn't stop until the quest is turned in.\nWithin 15 minutes, find and kill 6 Mountain Buzzards around Farstrider Lodge.|
 T A Hunter's Boast|QID|257|M|83.48,65.42|N|To Daryl the Youngling.|
 A A Hunter's Challenge|QID|258|M|83.48,65.42|N|From Daryl the Youngling.|PRE|257|
-C A Hunter's Challenge|QID|258|M|60.80,38.47|N|This is a TIMED Quest, but harder as the mountain boars are in short supply. Kill Elder Mountain Boars. If you can't find enough boars, abandon it and go on to the Crocolisks.|
-t A Hunter's Challenge|QID|258|M|83.51,65.53|N|To Daryl the Youngling.|
-T Find Bingles|QID|2039|M|63.59,47.96|N|To Bingles Blastenheimer.|
-A Bingles' Missing Supplies|QID|2038|M|63.55,47.93|N|From Bingles Blastenheimer.|
-C Crocolisk Hunting|QID|385|M|55.49,53.27|N|Kill and loot crocolisks for their skin and meat.|
-T Crocolisk Hunting|QID|385|M|81.75,61.65|N|To Marek Ironheart.|
-A A Hunter's Challenge|QID|258|PRE|257|M|83.48,65.42|N|From Daryl the Youngling. Try this as many times as you want, till you find the 5 boars within the time limit. (or abandon it for good.)|
-C A Hunter's Challenge|QID|258|M|60.80,38.47|N|This is a TIMED Quest. Kill Elder Mountain Boars. |
+C A Hunter's Challenge|QID|258|M|60.80,38.47|QO|1|N|[color=FF0000]NOTE: [/color]This is a TIMED Quest. The timer doesn't stop until the quest is turned in.\nKill 5 Elder Mountain Boars within 12 minutes. You\ll find them in the open fields just past the hills northwest of Farstrider Lodge. Be careful as they mixed amongst the bears.|
 T A Hunter's Challenge|QID|258|M|83.51,65.53|N|To Daryl the Youngling.|
 A Vyrin's Revenge|QID|271|M|81.72,64.16|N|From Vyrin Swiftwind.|PRE|258|
+T Find Bingles|QID|2039|M|63.56,47.92|N|To Bingles Blastenheimer.|
+A Bingles' Missing Supplies|QID|2038|M|63.56,47.92|N|From Bingles Blastenheimer.|PRE|2039|
+C Crocolisk Hunting|QID|385|QO|1;2|N|Kill and loot crocolisks for their skin and meat. You'll find them in the Loch and along the shoreline.|
+T Crocolisk Hunting|QID|385|M|81.75,61.65|N|To Marek Ironheart.|
 
 R Mo'grosh Stronghold|M|74,35|ACTIVE|255|N|I recommend a group for this even at level 20, you still will really benefit from at least 2 of you.|
 C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|S|N|Mo'grosh Ogres and Enforcers are found outside the cave.|

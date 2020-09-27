@@ -2926,7 +2926,7 @@ function WoWPro.PopulateQuestLog()
                 complete = WoWPro.QuestLog_IsComplete(questInfo.questID),
                 ocompleted = ocompleted,
                 ncompleted = ncompleted,
-                daily = questInfo.frequency == _G.Enum.QuestFrequency.Daily,
+                daily = questInfo.frequency == _G.LE_QUEST_FREQUENCY_DAILY,
                 leaderBoard = leaderBoard,
                 header = currentHeader,
                 use = itemID,
