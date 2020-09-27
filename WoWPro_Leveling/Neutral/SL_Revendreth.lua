@@ -46,7 +46,6 @@ C To Darkhaven|QID|56978|M|63.4,62.2|Z|Revendreth|QO|2|N|Walk with Lord Chamberl
 T To Darkhaven|QID|56978|M|63.27,62.13|Z|Revendreth|N|To Lord Chamberlain.|MS|
 
 ; The Master Storyline - Tithes of Darkhaven Sidequest Storyline
-
 A The Stoneborn|QID|57174|M|63.27,62.13|Z|Revendreth|N|From Lord Chamberlain.|LVL|57|MS|
 C The Stoneborn|QID|57174|M|63.25,62.12|Z|Revendreth|QO|1|NC|N|Click on the Anima Cage at Lord Chamberlain feet.|MS|
 A Bring Out Your Tithe|QID|60176|M|61.34,63.8|Z|Revendreth|N|From Mistress Mihaela.|LVL|57|RANK|2|
@@ -274,6 +273,7 @@ A The Master of Lies|QID|58086|M|32,41.4|Z|Revendreth|N|From Projection of Princ
 C The Master of Lies|QID|58086|M|32,41.4|Z|Revendreth|QO|1|CHAT|N|Speak with the Projection of Prince Renathal to queue for the scenario.|MS|
 C The Master of Lies|QID|58086|M|50.4,24.2|Z|Revendreth|QO|2|N|Assault the Menagerie of the Master.|MS| ; Should probably load recorder to build up scenario steps
 T The Master of Lies|QID|58086|M|50.2,28.4|Z|Revendreth|N|To Prince Renathal.|MS| ; Achievement here?
+A A Master of Their Craft|QID|60051|LEAD|57531|M|50.2,28.4|Z|Revendreth|N|From Prince Renathal.|LVL|60|RANK|2|
 A The End of the Beginning|QID|57876|M|50.2,28.4|Z|Revendreth|N|From Prince Renathal.|LVL|60|PRE|58086|MS|
 C The End of the Beginning|QID|57876|M|38.4,68.4|Z|Revendreth|QO|1|NC|N|Speak to Draven for a ride.|MS|
 C The End of the Beginning|QID|57876|M|44.2,68.4|Z|Revendreth|QO|2|NC|N|Fly with Draven to Oribos.|MS|
@@ -281,13 +281,13 @@ T The End of the Beginning|QID|57876|M|39.2,69.4|Z|Ring of Fates@Oribos|N|To Tal
 A The Looming Dark|QID|57877|M|39.2,69.4|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|60|PRE|57876|MS|
 C The Looming Dark|QID|57877|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Listen to Tal-Inara.|MS|
 T The Looming Dark|QID|57877|M|39.29,69.61|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
-A Choosing Your Purpose|QID|62000|M|39.29,69.61|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|50|PRE|62716^57877|RANK|2|
-C Choosing Your Purpose|QID|62000|M|36.32,64.22|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak with the Polemarch Adrestes.|RANK|2|
-C Choosing Your Purpose|QID|62000|M|39.55,61.10|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak with the Lady Moonberry.|RANK|2|
-C Choosing Your Purpose|QID|62000|M|44.59,68.74|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak with the General Draven.|RANK|2|
-C Choosing Your Purpose|QID|62000|M|43.07,73.81|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak with the Draka.|RANK|2|
-C Choosing Your Purpose|QID|62000|M|39.95,68.68|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Make your choice.|RANK|2|
-T Choosing Your Purpose|QID|62000|M|39.29,69.61|Z|Ring of Fates@Oribos|N|To Tal-Inara.|RANK|2|
+A Choosing Your Purpose|QID|62000^57878|M|39.29,69.61|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|50|PRE|62716^57877|RANK|2|
+C Choosing Your Purpose|QID|62000^57878|M|36.32,64.22|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak with the Polemarch Adrestes.|RANK|2|
+C Choosing Your Purpose|QID|62000^57878|M|39.55,61.10|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak with the Lady Moonberry.|RANK|2|
+C Choosing Your Purpose|QID|62000^57878|M|44.59,68.74|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak with the General Draven.|RANK|2|
+C Choosing Your Purpose|QID|62000^57878|M|43.07,73.81|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak with the Draka.|RANK|2|
+C Choosing Your Purpose|QID|62000^57878|M|39.95,68.68|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Make your choice.|RANK|2|
+T Choosing Your Purpose|QID|62000^57878|M|39.29,69.61|Z|Ring of Fates@Oribos|N|To Tal-Inara.|RANK|2|
 
 ; Sidequest Story -  The Duelist's Debt
 A A Curious Invitation|QID|59710|M|60.75,62.46|Z|Revendreth|N|From Dimwiddle.|LVL|57|RANK|2|
@@ -336,168 +336,130 @@ C It's a Trap|QID|59726|M|60.15,75.50|Z|Revendreth|QO|1|N|Click the gate behind 
 T It's a Trap|QID|59726|M|60.19,78.59|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
 
 ; Sidequest Storyline - Dirty Jobs
-A It's a Dirty Job|QID|62190|M|72.61,73.20|Z|Revendreth|N|From Rendle.|LVL|60|RANK|2|
-C It's a Dirty Job|QID|62190|M|74.28,74.52|Z|Revendreth|NC|N|Click the Filthy Rubble to throw them in the pond.|RANK|2|
-T It's a Dirty Job|QID|62190|M|72.61,73.20|Z|Revendreth|N|To Rendle.|RANK|2|
-A Dredger Duty|QID|57474|M|72.61,73.20|Z|Revendreth|N|From Rendle.|LVL|57|PRE|62190|RANK|2|
-
-C Dredger Duty|QID|57474|M|74,73|Z|Revendreth|QO|1|N|Dredger dredged.|RANK|2|
-C Dredger Duty|QID|57474|M|72.4,73.6|Z|Revendreth|QO|2|N|Dredger thrown at the rubble pile.|RANK|2|
-C Dredger Duty|QID|57474|M|74.2,73|Z|Revendreth|QO|3|N|Dredger defended.|RANK|2|
-C Dredger Duty|QID|57474|Z|Revendreth|QO|4|N|Gem of Binding.|RANK|2|
-T Dredger Duty|QID|57474|M|72.6,73.2|Z|Revendreth|N|To Rendle.|RANK|2|
-
-A We're Gonna Need a Bigger Dredger|QID|57477|M|72.6,73.2|Z|Revendreth|N|From Rendle.|LVL|57|RANK|2|
-C We're Gonna Need a Bigger Dredger|QID|57477|Z|Revendreth|QO|1|N| Channeling Complete.|RANK|2|
-C We're Gonna Need a Bigger Dredger|QID|57477|Z|Revendreth|QO|2|N|Witness the ritual.|RANK|2|
-T We're Gonna Need a Bigger Dredger|QID|57477|M|72.8,73.8|Z|Revendreth|N|To Bootus.|RANK|2|
-
-A Running a Muck|QID|57481|M|72.8,73.8|Z|Revendreth|N|From Bootus.|LVL|57|RANK|2|
-C Running a Muck|QID|57481|M|72.8,73.8|Z|Revendreth|QO|1|N|Bootus boarded.|RANK|2|
-C Running a Muck|QID|57481|M|75.4,77.2|Z|Revendreth|QO|2|N|Rampaging Devourer.|RANK|2|
-C Running a Muck|QID|57481|M|72.4,74.8|Z|Revendreth|QO|3|N|Rampaging Mite.|RANK|2|
-T Running a Muck|QID|57481|M|72.6,73.2|Z|Revendreth|N|To Rendle.|RANK|2|
-
+A It's a Dirty Job|QID|57471|M|72.61,73.20|Z|Revendreth|N|From Rendle.|LVL|60|RANK|2|
+C It's a Dirty Job|QID|57471|M|74.28,74.52|Z|Revendreth|NC|N|Click the Filthy Rubble to throw them in the pond.|RANK|2|
+T It's a Dirty Job|QID|57471|M|72.61,73.20|Z|Revendreth|N|To Rendle.|RANK|2|
+A Dredger Duty|QID|57474|M|72.53,73.20|Z|Revendreth|N|From Rendle.|LVL|57|PRE|57471|RANK|2|
+C Dredger Duty|QID|57474|M|72.49,73.62|Z|Revendreth|QO|1|NC|N|Click on the Ripened Dredger near the water.|RANK|2|
+C Dredger Duty|QID|57474|M|73.96,72.93|Z|Revendreth|QO|2|NC|N|Use the Action Ability "[color=40C7EB]Throw Dredger[/color]" to throw it at the rubble pile.|EAB|RANK|2|
+C Dredger Duty|QID|57474|M|74.07,72.92|Z|Revendreth|QO|3|N|Kill the enemies that attack the dredger while he's digging.|RANK|2|
+C Dredger Duty|QID|57474|M|74.18,73.02|Z|Revendreth|QO|4|NC|N|Click on the Sack of Supplies to find the Gem of Binding.|RANK|2|
+T Dredger Duty|QID|57474|M|72.53,73.20|Z|Revendreth|N|To Rendle.|RANK|2|
+A We're Gonna Need a Bigger Dredger|QID|57477|M|72.53,73.20|Z|Revendreth|N|From Rendle.|LVL|57|PRE|57474|RANK|2|
+C We're Gonna Need a Bigger Dredger|QID|57477|M|72.69,73.66|Z|Revendreth|NC|N|Sit back and wait for the Ritual to Complete.|RANK|2|
+T We're Gonna Need a Bigger Dredger|QID|57477|M|72.84,73.88|Z|Revendreth|N|To Bootus.|RANK|2|
+A Running a Muck|QID|57481|M|72.84,73.88|Z|Revendreth|N|From Bootus.|LVL|57|PRE|57477|RANK|2|
+C Running a Muck|QID|57481|M|72.84,73.88|Z|Revendreth|QO|1|V|N|Hop onto Bootus.|RANK|2|
+C Running a Muck|QID|57481|M|75.4,77.2|Z|Revendreth|QO|2|N|Kill Devourers and Mites.|S|RANK|2|
+C Running a Muck|QID|57481|M|75.4,77.2|Z|Revendreth|QO|3|N|Kill Riftkeepers to close rifts.\n\n1: Cone Damage\n\n2: AoE and Stun.\n\n3:Speed increase w/Damage.\n\n4: Heal.|RANK|2|
+C Running a Muck|QID|57481|M|75.4,77.2|Z|Revendreth|QO|2|N|Kill Devourers and Mites.\n\n1: Cone Damage\n\n2: AoE and Stun.\n\n3:Speed increase w/Damage.\n\n4: Heal.|US|RANK|2|
+C Running a Muck|QID|57481|M|75.50,76.28|Z|Revendreth|QO|4|N|Kill Charthox.\n\n1: Cone Damage\n\n2: AoE and Stun.\n\n3:Speed increase w/Damage.\n\n4: Heal.|RANK|2|
+T Running a Muck|QID|57481|M|72.53,73.20|Z|Revendreth|N|To Rendle.|RANK|2|
 
 ; Sidequest Storyline -  The Final Atonement
-A An Abuse of Power|QID|57919|M|71.8,40.4|Z|Revendreth|N|From The Accuser.|LVL|57|PRE|57918|RANK|2|
-C An Abuse of Power|QID|57919|M|71.4,40.6|Z|Revendreth|QO|1|N|Abused Soul subjugated.|RANK|2|
-C An Abuse of Power|QID|57919|Z|Revendreth|QO|2|N|Shattered Soul slain.|RANK|2|
-T An Abuse of Power|QID|57919|M|71.8,40.4|Z|Revendreth|N|To The Accuser.|RANK|2|
-
-A The Proper Souls|QID|57920|M|71.8,40.4|Z|Revendreth|N|From The Accuser.|LVL|57|RANK|2|
-C The Proper Souls|QID|57920|Z|Revendreth|N|Fugitive Souls subjugated.|RANK|2|
-T The Proper Souls|QID|57920|M|70.6,46.8|Z|Revendreth|N|To The Accuser.|RANK|2|
-
-A The Proper Tools|QID|57921|M|71.8,40.4|Z|Revendreth|N|From The Accuser.|LVL|57|RANK|2|
-C The Proper Tools|QID|57921|M|65.2,43.6|Z|Revendreth|QO|1|N|Venthyr Ritual Robes.|RANK|2|
-C The Proper Tools|QID|57921|M|65,43.4|Z|Revendreth|QO|2|N|Venthyr Ritual Dagger.|RANK|2|
-C The Proper Tools|QID|57921|M|66.4,43.6|Z|Revendreth|QO|3|N|Venthyr Ritual Tome.|RANK|2|
-T The Proper Tools|QID|57921|M|70.6,46.8|Z|Revendreth|N|To The Accuser.|RANK|2|
-
-A The Proper Punishment|QID|57922|M|71.8,40.4|Z|Revendreth|N|From The Accuser.|LVL|57|RANK|2|
-C The Proper Punishment|QID|57922|M|65.2,43.6|Z|Revendreth|N|Fata the Soulflayer slain.|RANK|2|
-T The Proper Punishment|QID|57922|M|70.6,46.8|Z|Revendreth|N|To The Accuser.|RANK|2|
-
-A Ritual of Absolution|QID|62125|N|Unknown.|LVL|60|RANK|2|
-C Ritual of Absolution|QID|62125|N|Toast: Amenities - Entertainment 1.|RANK|2|
-T Ritual of Absolution|QID|62125|N|Unknown.|RANK|2|
-
-A Ritual of Judgment|QID|57924|M|72,46.2|Z|Revendreth|N|From The Accuser.|LVL|57|RANK|2|
-C Ritual of Judgment|QID|57924|Z|Revendreth|QO|1|N|Join the Ritual of Judgment.|RANK|2|
-C Ritual of Judgment|QID|57924|Z|Revendreth|QO|2|N|Soul judged.|RANK|2|
-T Ritual of Judgment|QID|57924|M|74.2,49.6|Z|Revendreth|N|To The Accuser.|RANK|2|
-
-A Archivist Fane|QID|57925|M|74.2,49.6|Z|Revendreth|N|From The Accuser.|LVL|57|RANK|2|
-T Archivist Fane|QID|57925|M|73,52|Z|Revendreth|N|To Archivist Fane.|RANK|2|
-
-A The Sinstone Archive|QID|57926|M|73,52|Z|Revendreth|N|From Archivist Fane.|LVL|57|RANK|2|
-C The Sinstone Archive|QID|57926|Z|Revendreth|N|Sinstone Records.|RANK|2|
-T The Sinstone Archive|QID|57926|M|73,52|Z|Revendreth|N|To Archivist Fane.|RANK|2|
-
-A Rebuilding Temel|QID|57927|M|70.2,56.2|Z|Revendreth|N|From Cryptkeeper Kassir.|LVL|57|RANK|2|
-C Rebuilding Temel|QID|57927|M|69,53.4|Z|Revendreth|QO|1|N|Temel's Body.|RANK|2|
-C Rebuilding Temel|QID|57927|M|66.2,53.1|Z|Revendreth|QO|2|N|Temel's Wings.|RANK|2|
-C Rebuilding Temel|QID|57927|M|70.3,53.9|Z|Revendreth|QO|3|N|Temel's Head.|RANK|2|
-T Rebuilding Temel|QID|57927|M|70.2,56.2|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
-
-A Atonement Crypt Key|QID|57928|N|Unknown.|LVL|57|RANK|2|
-C Atonement Crypt Key|QID|57928|N|Atonement Crypt opened.|RANK|2|
-T Atonement Crypt Key|QID|57928|M|70.2,56.2|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
-
-A Hunting an Inquisitor|QID|57929|M|73,52|Z|Revendreth|N|From Archivist Fane.|LVL|57|RANK|2|
-C Hunting an Inquisitor|QID|57929|M|76,51.8|Z|Revendreth|N|Inquisitor Traian slain.|RANK|2|
-T Hunting an Inquisitor|QID|57929|M|73,52|Z|Revendreth|N|To Archivist Fane.|RANK|2|
-
-A Halls of Atonement: Your Absolution|QID|58092|M|73,52|Z|Revendreth|ELITE|N|[color=e6cc80]Dungeon: [/color]\nFrom Archivist Fane.|LVL|57|RANK|2|
-C Halls of Atonement: Your Absolution|QID|58092|M|14.2,48.7|Z|Halls of Atonement!Dungeon|QO|1|N|Lord Chamberlain slain.|RANK|2|
-C Halls of Atonement: Your Absolution|QID|58092|Z|Halls of Atonement!Dungeon|QO|2|N|Suggested players: 5.|RANK|2|
-T Halls of Atonement: Your Absolution|QID|58092|M|71.8,40.4|Z|Revendreth|N|To Gresit.|RANK|2|
-
-A Missing Stone Fiend|QID|60127|M|73,52|Z|Revendreth|N|From Archivist Fane.|LVL|57|RANK|2|
-T Missing Stone Fiend|QID|60127|M|70.2,56.2|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
-
-A Ready to Serve|QID|60128|M|70.2,56.2|Z|Revendreth|N|From Cryptkeeper Kassir.|LVL|57|RANK|2|
-T Ready to Serve|QID|60128|M|73,52|Z|Revendreth|N|To Archivist Fane.|RANK|2|
-
-A It Used to Be Quiet Here|QID|60487|M|69.4,53.4|Z|Revendreth|N|From Chiselgrump.|LVL|57|RANK|2|
-C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|N|Dredger Chisel.|RANK|2|
-T It Used to Be Quiet Here|QID|60487|M|69.4,53.4|Z|Revendreth|N|To Chiselgrump.|RANK|2|
-
-
-
+A An Abuse of Power|QID|57919|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|LVL|57|PRE|57918|RANK|2|
+C An Abuse of Power|QID|57919|M|71.49,40.70|Z|Revendreth|QO|1|NC|N|Click to subjugate the Abused Soul.|RANK|2|
+C An Abuse of Power|QID|57919|M|71.49,40.70|Z|Revendreth|QO|2|N|Kill the Shattered Soul.|RANK|2|
+T An Abuse of Power|QID|57919|M|71.79,40.41|Z|Revendreth|N|To The Accuser.|RANK|2|
+A The Proper Souls|QID|57920|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|LVL|57|PRE|57919|RANK|2|
+A The Proper Tools|QID|57921|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|LVL|57|PRE|57919|RANK|2|
+A The Proper Punishment|QID|57922|M|71.79,40.41|Z|Revendreth|N|From The Accuser.|LVL|57|PRE|57919|RANK|2|
+C The Proper Tools|QID|57921|M|65.2,43.6|Z|Revendreth|N|Kill enemies around to collect your Venthyr Ritual items.|S|RANK|2|
+C The Proper Souls|QID|57920|M|68.10,42.01|Z|Revendreth|NC|N|Click on the Fugitive Souls to subjugate them.|S|RANK|2|
+C The Proper Punishment|QID|57922|M|65.2,43.6|Z|Revendreth|N|Kill Fata the Soulflayer.|RANK|2|
+C The Proper Souls|QID|57920|M|68.10,42.01|Z|Revendreth|NC|N|Click on the Fugitive Souls to subjugate them.|US|RANK|2|
+C The Proper Tools|QID|57921|M|65.2,43.6|Z|Revendreth|N|Kill enemies around to collect your Venthyr Ritual items.|US|RANK|2|
+T The Proper Souls|QID|57920|M|70.69,46.95|Z|Revendreth|N|To The Accuser.|RANK|2|
+T The Proper Tools|QID|57921|M|70.69,46.95|Z|Revendreth|N|To The Accuser.|RANK|2|
+T The Proper Punishment|QID|57922|M|70.69,46.95|Z|Revendreth|N|To The Accuser.|RANK|2|
+A Ritual of Absolution|QID|57923|M|70.69,46.95|Z|Revendreth|N|From The Accuser.|LVL|60|PRE|57920&57921&57922|RANK|2|
+C Ritual of Absolution|QID|57923|M|71.98,46.26|Z|Revendreth|QO|1|CHAT|N|Speak with The Accuser to begin the ritual.|RANK|2|
+C Ritual of Absolution|QID|57923|M|71.98,46.26|Z|Revendreth|QO|2|CHAT|N|Defend The Accuser from attacking enemies.|RANK|2|
+T Ritual of Absolution|QID|57923|M|71.98,46.26|Z|Revendreth|N|To The Accuser.|RANK|2|
+A Ritual of Judgment|QID|57924|M|71.98,46.26|Z|Revendreth|N|From The Accuser.|LVL|57|PRE|57923|RANK|2|
+C Ritual of Judgment|QID|57924|M|74.11,49.69|Z|Revendreth|QO|1|CHAT|N|Speak with The Accuser to join the Ritual of Judgment.|RANK|2|
+C Ritual of Judgment|QID|57924|M|74.11,49.69|Z|Revendreth|QO|2|NC|N|Sit back and wait for the dialog to finish.|RANK|2|
+T Ritual of Judgment|QID|57924|M|74.25,49.68|Z|Revendreth|N|To The Accuser.|RANK|2|
+A Archivist Fane|QID|57925|M|74.25,49.68|Z|Revendreth|N|From The Accuser.|LVL|57|PRE|57924|RANK|2|
+T Archivist Fane|QID|57925|M|72.97,52.03|Z|Revendreth|N|To Archivist Fane.|RANK|2|
+A The Sinstone Archive|QID|57926|M|72.97,52.03|Z|Revendreth|N|From Archivist Fane.|LVL|57|PRE|57925|RANK|2|
+A Missing Stone Fiend|QID|60127|M|72.97,52.03|Z|Revendreth|N|From Archivist Fane.|LVL|57|PRE|57925|RANK|2|
+l Atonement Crypt Key|AVAILABLE|57928|L|173735|M|70.60,55.80|Z|Revendreth|N|Kill Depraved enemies until they drop the Atonement Crypt Key.|S|RANK|2|
+A Atonement Crypt Key|QID|57928|M|PLAYER|Z|Revendreth|U|173735|N|From Atonement Crypt Key.|LVL|57|RANK|2|
+C The Sinstone Archive|QID|57926|M|72.53,54.79|Z|Revendreth|N|Kill Depraved enemies and loot the Sinstone Records.|S|RANK|2|
+T Missing Stone Fiend|QID|60127|M|70.15,56.22|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
+A Rebuilding Temel|QID|57927|M|70.15,56.22|Z|Revendreth|N|From Cryptkeeper Kassir.|LVL|57|PRE|60127|RANK|2|
+C Rebuilding Temel|QID|57927|M|70.26,53.84|Z|Revendreth|QO|3|NC|N|Click Temel's Head on the ground.|RANK|2|
+A It Used to Be Quiet Here|QID|60487|M|69.51,53.43|Z|Revendreth|N|From Chiselgrump.|LVL|57|RANK|2|
+C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|NC|N|Click on the Dredger Chisel's around on the ground.|S|RANK|2|
+C Rebuilding Temel|QID|57927|M|68.91,53.33|Z|Revendreth|QO|1|NC|N|Click on Temel's Body in the rubble.|RANK|2|
+C Rebuilding Temel|QID|57927|M|66.14,53.11|Z|Revendreth|QO|2|NC|N|Click on Temel's Wings in front of the statue.|RANK|2|
+l Atonement Crypt Key|AVAILABLE|57928|L|173735|M|70.60,55.80|Z|Revendreth|N|Kill Depraved enemies until they drop the Atonement Crypt Key.|US|RANK|2|
+C Atonement Crypt Key|QID|57928|M|70.88,54.89|Z|Revendreth|NC|N|Click on a Crypt to open it.|RANK|2|
+C It Used to Be Quiet Here|QID|60487|M|65.9,53.4|Z|Revendreth|NC|N|Click on the Dredger Chisel's around on the ground.|US|RANK|2|
+T It Used to Be Quiet Here|QID|60487|M|69.51,53.43|Z|Revendreth|N|To Chiselgrump.|RANK|2|
+T Atonement Crypt Key|QID|57928|M|70.15,56.22|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
+T Rebuilding Temel|QID|57927|M|70.15,56.22|Z|Revendreth|N|To Cryptkeeper Kassir.|RANK|2|
+A Ready to Serve|QID|60128|M|70.2,56.2|Z|Revendreth|N|From Cryptkeeper Kassir.|LVL|57|PRE|57927|RANK|2|
+C The Sinstone Archive|QID|57926|M|72.53,54.79|Z|Revendreth|N|Kill Depraved enemies and loot the Sinstone Records.|US|RANK|2|
+T Ready to Serve|QID|60128|M|72.98,51.98|Z|Revendreth|N|To Archivist Fane.|RANK|2|
+T The Sinstone Archive|QID|57926|M|72.97,52.03|Z|Revendreth|N|To Archivist Fane.|RANK|2|
+A Hunting an Inquisitor|QID|57929|M|72.98,51.98|Z|Revendreth|N|From Archivist Fane.|LVL|57|PRE|60128|RANK|2|
+C Hunting an Inquisitor|QID|57929|M|76,51.8|Z|Revendreth|N|Use the Action Ability "[color=40C7EB]Read Inquisitor Traian's Sinstone[/color]" to lower the shield and kill Inquisitor Traian.|EAB|RANK|2|
+T Hunting an Inquisitor|QID|57929|M|72.98,51.98|Z|Revendreth|N|To Archivist Fane.|RANK|2|
+A Halls of Atonement: Your Absolution|QID|58092|M|72.98,51.98|Z|Revendreth|ELITE|N|[color=e6cc80]Dungeon: [/color]\nFrom Archivist Fane. This quest is optional and out of scope for this guide.|LVL|57|PRE|57929|RANK|2|
 
 ; Sidequest Storyline - Mirror Maker of the Master
-A An Unfortunate Situation|QID|57531|M|26.4,49|Z|Revendreth|N|From Laurent.|LVL|58|PRE|60051|RANK|2|
-C An Unfortunate Situation|QID|57531|M|29.6,48.6|Z|Revendreth|N|Laurent's Belongings.|RANK|2|
-T An Unfortunate Situation|QID|57531|M|26.4,49|Z|Revendreth|N|To Laurent.|RANK|2|
-
-A Foraging for Fragments|QID|57532|M|26.4,49|Z|Revendreth|N|From Laurent.|LVL|58|RANK|2|
-C Foraging for Fragments|QID|57532|M|25.7,48.6|Z|Revendreth|QO|1|N|Follow Laurent.|RANK|2|
-C Foraging for Fragments|QID|57532|M|25.5,47.3|Z|Revendreth|QO|2|N|Mirror Fragment.|RANK|2|
-C Foraging for Fragments|QID|57532|M|25,48|Z|Revendreth|QO|3|N|Follow Laurent.|RANK|2|
-C Foraging for Fragments|QID|57532|Z|Revendreth|QO|4|N|Mirror Fragment.|RANK|2|
-C Foraging for Fragments|QID|57532|Z|Revendreth|QO|5|N|Follow Laurent.|RANK|2|
-C Foraging for Fragments|QID|57532|Z|Revendreth|QO|6|N|Mirror Fragment.|RANK|2|
-T Foraging for Fragments|QID|57532|M|24.2,49.4|Z|Revendreth|N|To Laurent.|RANK|2|
-
-A Light Punishment|QID|57533|M|24.2,49.4|Z|Revendreth|N|From Simone.|LVL|58|RANK|2|
-C Light Punishment|QID|57533|Z|Revendreth|QO|1|N|Blistering Outcasts freed.|RANK|2|
-C Light Punishment|QID|57533|Z|Revendreth|QO|2|N|Mirror Fragment A.|RANK|2|
-C Light Punishment|QID|57533|Z|Revendreth|QO|3|N|Mirror Fragment B.|RANK|2|
-C Light Punishment|QID|57533|Z|Revendreth|QO|4|N|Mirror Fragment C.|RANK|2|
-C Light Punishment|QID|57533|Z|Revendreth|QO|5|N|Mirror Fragment D.|RANK|2|
-C Light Punishment|QID|57533|Z|Revendreth|QO|6|N|Mirror Fragment E.|RANK|2|
-T Light Punishment|QID|57533|M|24.2,49.4|Z|Revendreth|N|To Simone.|RANK|2|
-
-A When Only Ash Remains|QID|57534|M|24.2,49.4|Z|Revendreth|N|From Laurent.|LVL|58|RANK|2|
-C When Only Ash Remains|QID|57534|M|21.2,48|Z|Revendreth|QO|1|N|Ashen Ravager.|RANK|2|
-C When Only Ash Remains|QID|57534|M|21.4,49.2|Z|Revendreth|QO|2|N|Ashen Ravager.|RANK|2|
-T When Only Ash Remains|QID|57534|M|24.2,49.4|Z|Revendreth|N|To Laurent.|RANK|2|
-
-A Escaping the Master|QID|57535|M|24.2,49.4|Z|Revendreth|N|From Laurent.|LVL|58|RANK|2|
-C Escaping the Master|QID|57535|Z|Revendreth|N|Mirror Fragment.|RANK|2|
-T Escaping the Master|QID|57535|M|24.2,49.4|Z|Revendreth|N|To Laurent.|RANK|2|
-
-A Mirror Making, Not Breaking|QID|57536|M|24.2,49.4|Z|Revendreth|N|From Laurent.|LVL|58|RANK|2|
-C Mirror Making, Not Breaking|QID|57536|M|24.6,50.4|Z|Revendreth|QO|1|N|Follow Laurent and Simone.|RANK|2|
-C Mirror Making, Not Breaking|QID|57536|M|24.6,50.4|Z|Revendreth|QO|2|N|Speak to Laurent.|RANK|2|
-C Mirror Making, Not Breaking|QID|57536|M|24.2,49.4|Z|Revendreth|QO|3|N|Laurent and Simone defended.|RANK|2|
-C Mirror Making, Not Breaking|QID|57536|Z|Revendreth|QO|4|N|Fiendish Minion slain.|RANK|2|
-C Mirror Making, Not Breaking|QID|57536|Z|Revendreth|QO|5|N|Stone Legion Enforcer slain.|RANK|2|
-T Mirror Making, Not Breaking|QID|57536|M|24.8,50.2|Z|Revendreth|N|To Laurent.|RANK|2|
-
-A Moving Mirrors|QID|57571|M|24.2,49.4|Z|Revendreth|N|From Laurent.|LVL|58|RANK|2|
-C Moving Mirrors|QID|57571|M|21.8,50.4|Z|Revendreth|QO|1|N|Simone freed.|RANK|2|
-C Moving Mirrors|QID|57571|Z|Revendreth|QO|2|N|Mirror Trap.|RANK|2|
-T Moving Mirrors|QID|57571|M|24.2,49.4|Z|Revendreth|N|To Simone.|RANK|2|
-
-A We Need More Power|QID|59427|M|24.2,49.4|Z|Revendreth|N|From Simone.|LVL|58|RANK|2|
-C We Need More Power|QID|59427|M|21.1,53.7|Z|Revendreth|QO|1|N|Anima collected.|RANK|2|
-C We Need More Power|QID|59427|Z|Revendreth|QO|2|N|Anima Stores.|RANK|2|
-C We Need More Power|QID|59427|Z|Revendreth|QO|3|N|Anima Stores.|RANK|2|
-T We Need More Power|QID|59427|M|24.2,49.4|Z|Revendreth|N|To Simone.|RANK|2|
-
+t A Master of Their Craft|QID|60051|M|26.41,49.01|Z|Revendreth|N|To Laurent.|RANK|2|
+A An Unfortunate Situation|QID|57531|M|26.41,49.01|Z|Revendreth|N|From Laurent.|LVL|58|RANK|2|
+C An Unfortunate Situation|QID|57531|M|29.48,48.67|Z|Revendreth|N|Kill the 3 named enemies in the hideout, loot them to collect Laurent's Belongings.|RANK|2|
+T An Unfortunate Situation|QID|57531|M|26.41,49.01|Z|Revendreth|N|To Laurent.|RANK|2|
+A Foraging for Fragments|QID|57532|M|26.41,49.01|Z|Revendreth|N|From Laurent.|LVL|58|PRE|57531|RANK|2|
+C Foraging for Fragments|QID|57532|M|25.71,48.54|Z|Revendreth|QO|1|N|Follow Laurent and defend him against attackers.|RANK|2|
+C Foraging for Fragments|QID|57532|M|25.71,48.54|Z|Revendreth|QO|2|NC|N|Click on the Mirror Fragment laying on the ground.|RANK|2|
+C Foraging for Fragments|QID|57532|M|25.53,47.37|Z|Revendreth|QO|3|N|Follow Laurent and defend him against attackers.|RANK|2|
+C Foraging for Fragments|QID|57532|M|25.53,47.37|Z|Revendreth|QO|4|NC|N|Click on the Mirror Fragment laying on the ground.|RANK|2|
+C Foraging for Fragments|QID|57532|M|24.97,48.00|Z|Revendreth|QO|5|N|Follow Laurent and defend him against attackers.|RANK|2|
+C Foraging for Fragments|QID|57532|M|24.97,48.00|Z|Revendreth|QO|6|NC|N|Click on the Mirror Fragment laying on the ground.|RANK|2|
+T Foraging for Fragments|QID|57532|M|24.26,49.40|Z|Revendreth|N|To Laurent.|RANK|2|
+A Moving Mirrors|QID|57571|M|24.26,49.40|Z|Revendreth|N|From Laurent.|LVL|58|PRE|57532|RANK|2|
+C Moving Mirrors|QID|57571|M|24.09,49.68|Z|Revendreth|QO|1|NC|N|Click on the mirrors to free Simone.|RANK|2|
+T Moving Mirrors|QID|57571|M|24.19,49.46|Z|Revendreth|N|To Simone.|RANK|2|
+A Light Punishment|QID|57533|M|24.19,49.46|Z|Revendreth|N|From Simone.|LVL|58|PRE|57571|RANK|2|
+A When Only Ash Remains|QID|57534|M|24.26,49.40|Z|Revendreth|N|From Laurent.|LVL|58|PRE|57571|RANK|2|
+C When Only Ash Remains|QID|57534|M|22.48,52.16|Z|Revendreth|N|Kill Ashen enemies.|S|RANK|2|
+C Light Punishment|QID|57533|M|22.48,52.16|Z|Revendreth|NC|N|Click on the mirrors around Blistering Outcasts to free them.|RANK|2|
+C When Only Ash Remains|QID|57534|M|22.48,52.16|Z|Revendreth|N|Kill Ashen enemies.|US|RANK|2|
+T When Only Ash Remains|QID|57534|M|24.26,49.40|Z|Revendreth|N|To Laurent.|RANK|2|
+T Light Punishment|QID|57533|M|24.19,49.46|Z|Revendreth|N|To Simone.|RANK|2|
+A We Need More Power|QID|59427|M|24.19,49.46|Z|Revendreth|N|From Simone.|LVL|58|PRE|57533&57534|RANK|2|
+A Escaping the Master|QID|57535|M|24.26,49.40|Z|Revendreth|N|From Laurent.|LVL|58|PRE|57533&57534|RANK|2|
+C We Need More Power|QID|59427|M|21.71,55.15|Z|Revendreth|N|Kill enemies and interact with objects to collect the Anima.|RANK|2|S|
+C Escaping the Master|QID|57535|M|25.24,52.81|Z|Revendreth|N|Mirror Fragment.|RANK|2|
+C We Need More Power|QID|59427|M|21.71,55.15|Z|Revendreth|N|Kill enemies and interact with objects to collect the Anima.|RANK|2|US|
+T We Need More Power|QID|59427|M|24.19,49.46|Z|Revendreth|N|To Simone.|RANK|2|
+T Escaping the Master|QID|57535|M|24.26,49.40|Z|Revendreth|N|To Laurent.|RANK|2|
+A Mirror Making, Not Breaking|QID|57536|M|24.26,49.40|Z|Revendreth|N|From Laurent.|LVL|58|PRE|59427&57535|RANK|2|
+C Mirror Making, Not Breaking|QID|57536|M|24.76,50.28|Z|Revendreth|QO|1|NC|N|Follow Laurent and Simone to the mirror.|RANK|2|
+C Mirror Making, Not Breaking|QID|57536|M|24.76,50.28|Z|Revendreth|QO|2|CHAT|N|Speak to Laurent to let him begin.|RANK|2|
+C Mirror Making, Not Breaking|QID|57536|M|24.76,50.28|Z|Revendreth|QO|3|N|Kill waves of enemies, defending Laurent and Simone.|RANK|2|
+T Mirror Making, Not Breaking|QID|57536|M|24.26,49.40|Z|Revendreth|N|To Laurent.|RANK|2|
 
 ; Sidequest Storyline - Revelations of the Light
-A A Rousing Aroma|QID|60467|M|35,53.8|Z|Revendreth|N|From Sabina.|LVL|58|RANK|2|
-C A Rousing Aroma|QID|60467|M|25.8,46.4|Z|Revendreth|N|Pungent Swarmer Toxin.|RANK|2|
-T A Rousing Aroma|QID|60467|M|35,53.8|Z|Revendreth|N|To Sabina.|RANK|2|
-
-A Rubble Rummaging|QID|60468|M|35,53.8|Z|Revendreth|N|From Sabina.|LVL|58|RANK|2|
-C Rubble Rummaging|QID|60468|Z|Revendreth|N|Shackle Key.|RANK|2|
-T Rubble Rummaging|QID|60468|M|35,53.8|Z|Revendreth|N|To Sabina.|RANK|2|
-
-A Safe in the Shadows|QID|60469|M|35,53.8|Z|Revendreth|N|From Sabina.|LVL|58|RANK|2|
-C Safe in the Shadows|QID|60469|M|37.7,53.7|Z|Revendreth|QO|1|N|Find Sabina's companions.|RANK|2|
-C Safe in the Shadows|QID|60469|M|37.7,53.5|Z|Revendreth|QO|2|N|Search for clues.|RANK|2|
-C Safe in the Shadows|QID|60469|M|37.9,53.5|Z|Revendreth|QO|3|N|Tattered Journal.|RANK|2|
-C Safe in the Shadows|QID|60469|Z|Revendreth|QO|4|N|Stained Dagger.|RANK|2|
-T Safe in the Shadows|QID|60469|M|35,53.8|Z|Revendreth|N|To Sabina.|RANK|2|
-
-A Setting Sabina Free|QID|60470|M|35,53.8|Z|Revendreth|N|From Sabina.|LVL|58|RANK|2|
-C Setting Sabina Free|QID|60470|Z|Revendreth|QO|1|N|Release Sabina.|RANK|2|
-C Setting Sabina Free|QID|60470|Z|Revendreth|QO|2|N|Sabina slain.|RANK|2|
-T Setting Sabina Free|QID|60470|N|Unknown.|RANK|2|
+A A Rousing Aroma|QID|60467|M|35.04,53.91|Z|Revendreth|N|From Sabina.|LVL|58|RANK|2|
+C A Rousing Aroma|QID|60467|M|35.48,48.85|Z|Revendreth|N|Kill Ravenous Swarms and loot the Pungent Swarmer Toxin.|RANK|2|
+T A Rousing Aroma|QID|60467|M|35.04,53.91|Z|Revendreth|N|To Sabina.|RANK|2|
+A Safe in the Shadows|QID|60469|M|35.04,53.91|Z|Revendreth|N|From Sabina.|LVL|58|PRE|60467|RANK|2|
+A Rubble Rummaging|QID|60468|M|35.04,53.91|Z|Revendreth|N|From Sabina.|LVL|58|PRE|60467|RANK|2|
+C Rubble Rummaging|QID|60468|M|38.84,53.46|Z|Revendreth|NC|N|Click on the glowing rubble piles scattered around until you find the Shackle Key.|S|RANK|2|
+C Safe in the Shadows|QID|60469|M|37.90,53.51|Z|Revendreth|QO|1|NC|N|Find Sabina's companions.|RANK|2|
+C Safe in the Shadows|QID|60469|M|37.90,53.51|Z|Revendreth|QO|2|NC|N|Click on the Light Satchel, Tattered Journal and Stained Dagger to inspect for clues.|RANK|2|
+C Rubble Rummaging|QID|60468|M|38.84,53.46|Z|Revendreth|NC|N|Click on the glowing rubble piles scattered around until you find the Shackle Key.|US|RANK|2|
+T Safe in the Shadows|QID|60469|M|35.04,53.91|Z|Revendreth|N|To Sabina.|RANK|2|
+T Rubble Rummaging|QID|60468|M|35.04,53.91|Z|Revendreth|N|To Sabina.|RANK|2|
+A Setting Sabina Free|QID|60470|M|35.04,53.91|Z|Revendreth|N|From Sabina.|LVL|58|PRE|60468&60469|RANK|2|
+C Setting Sabina Free|QID|60470|M|35.04,53.91|Z|Revendreth|QO|1|NC|N|Click on the shackles to release Sabina.|RANK|2|
+C Setting Sabina Free|QID|60470|M|35.04,53.91|Z|Revendreth|QO|2|N|Kill Sabina.|RANK|2|
+T Setting Sabina Free|QID|60470|M|PLAYER|Z|Revendreth|N|Click Pop-Up Quest to complete.|RANK|2|
 ]]
 end)
