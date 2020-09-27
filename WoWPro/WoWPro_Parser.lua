@@ -331,6 +331,7 @@ DefineTag("R","playerrace","string",nil,nil)
 DefineTag("C","playerclass","string",nil,nil)
 DefineTag("GEN","playergender","string",nil,nil)
 DefineTag("RANK","rank","number",nil,nil)
+DefineTag("COV","covenant","string",nil,nil)
 DefineTag("MS",nil,"string",nil,function (value,i) end)  -- Swallow MS Tags
 
 local function addTagValue(line, tag, value)
@@ -803,12 +804,17 @@ function WoWPro.ParseSteps(steps)
         local text = steps[j]
         text = text:trim()
         if text ~= "" then
-            local class, race  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?")
-            local gender, faction = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?")
+            local tof = false
+			local class, race  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?")
+            local gender, faction, ms = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|")
             if class then
                 -- deleting whitespaces and capitalizing, to compare with Blizzard's class tokens
                 class = class:gsub(" ", ""):upper()
             end
+			-- If Threads of Fate is completed, you don't see |MS| tagged steps
+			if ms and _G.C_QuestLog.IsQuestFlaggedCompleted(62704) then
+				tof = true
+			end
             if race then
                 -- deleting whitespaces to compare with Blizzard's race tokens
                 race = race:gsub(" ", "")
@@ -846,7 +852,7 @@ function WoWPro.ParseSteps(steps)
             if (class == nil or WoWPro.SemiMatch(class, myclass)) and
                (race == nil or WoWPro.SemiMatch(race, myrace))  and
                (gender == nil or gender == _G.UnitSex("player")) and
-               (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
+               (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) and not tof then
                 if WoWPro.ParseQuestLine(faction, zone, i, text) then
                     WoWPro.RecordStuff(i)
                     i = i + 1
