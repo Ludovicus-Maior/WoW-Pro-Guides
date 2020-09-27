@@ -2366,9 +2366,9 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 					 skip = true
 				end
 			end
-			
+
 			if WoWPro.covenant and WoWPro.covenant[guideIndex] then
-				local covenant = WoWPro.covenant[guideIndex]:gsub(" ", "") 
+				local covenant = WoWPro.covenant[guideIndex]:gsub(" ", "")
                 if covenant == "Kyrian" then
                     covenant = 1
                 elseif covenant == "Venthyr" then
@@ -2380,7 +2380,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 else
                     covenant = 0
                 end
-				
+
 				if WoWPro.GroupSync and covenant ~= _G.C_Covenants.GetActiveCovenantID() and (stepAction == "A" or stepAction == "T") then
 					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not in the  " .. WoWPro.covenant[guideIndex] .. " covenant.")
 					skip = true
