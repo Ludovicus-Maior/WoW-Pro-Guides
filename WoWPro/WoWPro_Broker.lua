@@ -2881,7 +2881,7 @@ function WoWPro.PopulateQuestLog()
     local delta = 0
     WoWPro:dbp("PopulateQuestLog: Entries %d, Quests %d.", numEntries, numQuests)
 
-    local leaderBoard, ocompleted, ncompleted, itemID, _
+    local leaderBoard, ocompleted, ncompleted, itemID, qfrequency, _
 
     -- numEntries may vary depending on collapsed headers, so we need to itereate th whole list.
     local numLoggedQuests, questLogIndex = 0, 0
@@ -2914,6 +2914,9 @@ function WoWPro.PopulateQuestLog()
                 if itemLink then
                     itemID = tonumber(itemLink:match("item:(%d+):"))
                 end
+				qfrequency = questInfo.frequency == _G.Enum.QuestFrequency.Daily
+			else
+				qfrequency = questInfo.frequency == _G.LE_QUEST_FREQUENCY_DAILY
             end
             numLoggedQuests = numLoggedQuests + 1
 
@@ -2926,7 +2929,7 @@ function WoWPro.PopulateQuestLog()
                 complete = WoWPro.QuestLog_IsComplete(questInfo.questID),
                 ocompleted = ocompleted,
                 ncompleted = ncompleted,
-                daily = questInfo.frequency == _G.LE_QUEST_FREQUENCY_DAILY,
+                daily = qfrequency,
                 leaderBoard = leaderBoard,
                 header = currentHeader,
                 use = itemID,
