@@ -21,3 +21,5 @@
 * Fixed bug in PLAYER coordinates that caused it to use a previous steps coordinates sometimes.
 * Fixed a bug that could throw an error if you load a guide with no steps (which can happen in recorder)
 * Added new and missing old icons to the WoWPro-Leveling list in the settings.
+* Updated addon to use the new backdrop system that changed in 9.0.
+* Updated addon to use the new Enum table that changed in 9.0.
