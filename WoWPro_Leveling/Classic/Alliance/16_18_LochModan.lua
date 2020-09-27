@@ -3,13 +3,17 @@ WoWPro:GuideLevels(guide,15, 18)
 WoWPro:GuideNextGuide(guide, 'ClassicWestfall1820')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Level Range|N|This guide is meant to be done at any point you want to do something besides grind between level 15 and 20. It starts with picking up a quest in Ironforge, then takes place in Loch Modan.|
+N Level Range|AVAILABLE|2039|N|This guide is meant to be done at any point you want to do something besides grind between level 15 and 20. It starts with picking up a quest in Ironforge, then takes place in Loch Modan.|
+F Ironforge|AVAILABLE|2039|M|66.29,62.13|Z|Stormwind City|N|Fly to Ironforge to start this guide.|IZ|-Ironforge|
 A Find Bingles|QID|2039|LEAD|2038|M|69.14,50.60|Z|Ironforge|N|From Gnoarn.|
 F Thelsamar|ACTIVE|2039|M|55.49,47.75|Z|Ironforge|N|Fly to Thelsamar at Gryth Thurden.|
-A Report to Mountaineer Rockgar|QID|468|LEAD|455|M|37.33,45.30|N|From Mountaineer Kadrell who patrols thru Thelsamar.|
+
+; --- This quest requires Level 19 to pick it up.
+A Report to Mountaineer Rockgar|QID|468|LEAD|455|M|37.33,45.30|N|From Mountaineer Kadrell who patrols thru Thelsamar.|LVL|19|
+
 A Ironband's Excavation|QID|436|M|37.24,47.39|N|From Jern Hornhelm, inside the house, down the stairs.|
 A WANTED: Chok'sul|QID|256|M|37.29,46.50|N|From Wanted Poster, you will probably want a group to kill this.|RANK|3|
-A Mercenaries|QID|255|M|34.69,43.18|N|From Magistrate Bluntnose, inside, down the stairs. This is an Elite Quest.|RANK|3|
+A Mercenaries|QID|255|M|34.69,43.18|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Magistrate Bluntnose, inside, down the stairs.|RANK|3|
 R Valley of Kings|AVAILABLE|224|M|25.33,67.67|N|Take the road south out of Thelsamar.|LVL|-17|
 A The Trogg Threat|QID|267|M|23.24,73.67|N|From Captain Ruglefuss, inside the Bunker.|LVL|-17|
 A In Defense of the King's Lands|QID|224|M|22.07,73.13|N|From Mountaineer Cobbleflint, outside, along the path.|LVL|-17|
@@ -31,7 +35,7 @@ R Ironband's Excavation Site|QID|436|M|60.37,65.11|N|Run to Ironband's Excavatio
 T Ironband's Excavation|QID|436|M|64.89,66.66|N|To Magmar Fellhew.|
 A Gathering Idols|QID|297|M|64.89,66.66|N|From Magmar Fellhew.|
 A Excavation Progress Report|QID|298|M|65.94,65.62|N|From Prospector Ironband.|
-C Gathering Idols|QID|297|M|72.68,62.15|N|Kill and loot troggs to collect the idols.|
+C Gathering Idols|QID|297|L|2636 8|N|Kill and loot troggs to collect the idols.|
 T Gathering Idols|QID|297|M|64.90,66.66|N|To Magmar Fellhew.|
 
 R The Farstrider Lodge|QID|11111|M|80.78,59.47|N|Run to the Farstrider Lodge. There is a hunter trainer here as well as vendors and repairs.|
@@ -40,7 +44,7 @@ A A Hunter's Boast|QID|257|M|83.48,65.44|N|From Daryl the Youngling.|
 C A Hunter's Boast|QID|257|M|76.82,58.78|N|This is a TIMED quest, find and kill Mountain Buzzards.|
 T A Hunter's Boast|QID|257|M|83.48,65.42|N|To Daryl the Youngling.|
 A A Hunter's Challenge|QID|258|M|83.48,65.42|N|From Daryl the Youngling.|PRE|257|
-C A Hunter's Challenge|QID|258|M|60.80,38.47|N|This is a TIMED Quest, but harder as the mountain boars are in short supply. Kill Elder Mountain Boars. If you can't find enough boars, abandon it and go on to the crockolisks.|
+C A Hunter's Challenge|QID|258|M|60.80,38.47|N|This is a TIMED Quest, but harder as the mountain boars are in short supply. Kill Elder Mountain Boars. If you can't find enough boars, abandon it and go on to the Crocolisks.|
 t A Hunter's Challenge|QID|258|M|83.51,65.53|N|To Daryl the Youngling.|
 T Find Bingles|QID|2039|M|63.59,47.96|N|To Bingles Blastenheimer.|
 A Bingles' Missing Supplies|QID|2038|M|63.55,47.93|N|From Bingles Blastenheimer.|
@@ -51,12 +55,12 @@ C A Hunter's Challenge|QID|258|M|60.80,38.47|N|This is a TIMED Quest. Kill Elder
 T A Hunter's Challenge|QID|258|M|83.51,65.53|N|To Daryl the Youngling.|
 A Vyrin's Revenge|QID|271|M|81.72,64.16|N|From Vyrin Swiftwind.|PRE|258|
 
-R Mo'grosh Stronghold|M|74,35|ACTIVE|255|N|I recomend a group for this even at level 20, you still will really benefit from at least 2 of you.|
+R Mo'grosh Stronghold|M|74,35|ACTIVE|255|N|I recommend a group for this even at level 20, you still will really benefit from at least 2 of you.|
 C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|S|N|Mo'grosh Ogres and Enforcers are found outside the cave.|
 C Mercenaries|QID|255|M|76.75,14.38|QO|2|S|N|Mo'grosh Brutes are found inside the cave.|
 K Chok'sul|ACTIVE|256|M|79.49,15.55|QO|1|T|Chok'sul|N|Chok'sul is found all the way to the back of the cave. Kill and take his head as proof.|
 C Mercenaries|QID|255|M|76.75,14.38|QO|2|US|N|Mo'grosh Brutea are found inside the cave.|
-C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|US|N|Mo'grosh Ogrea and Enforcers are found outside the cave.|
+C Mercenaries|QID|255|M|73.06,27.18|QO|1;3|US|N|Mo'grosh Ogres and Enforcers are found outside the cave.|
 
 R Northern Island|ACTIVE|2038|M|56,28|CC|N|Run/Swim to the Northernmost Island in the middle of The Loch.|
 C Bingles' Missing Supplies|QID|2038|M|54.22,26.61|QO|4|N|Clear camp of troggs and Bingles' Blastencapper is here.|

@@ -63,17 +63,27 @@ A Hilary's Necklace|QID|3741|M|29.3,53.6|N|From Shawn, at the end of the dock.|
 C Hilary's Necklace|QID|3741|M|31.00,54.30;24.09,54.70|CN|L|10958|N|Loot the necklace from the Glinting Mud on the ground in the water.|
 F Stormwind|ACTIVE|118|M|30.59,59.41|N|Fly to Stormwind City. We're finishing the Verner Osgood quest chain now so we're not wasting time killing whelps when they attacks us.|TZ|Stormwind City|
 R Elwynn Forest|ACTIVE|118|M|32.03,49.18|Z|Elwynn Forest|N|Jump into the water and make your way to the front gate.|
+B Skin of Sweet Rum|ACTIVE|116|M|44.00,65.70|Z|Elwynn Forest|L|1939|N|Buy a Skin of Sweet Rum from Barkeep Dobbins inside the Inn.|
 T The Price of Shoes|QID|118|M|41.71,65.55|Z|Elwynn Forest|N|To Smith Argus in Goldshire.|
 A Return to Verner|QID|119|M|41.71,65.55|Z|Elwynn Forest|N|From Smith Argus.|PRE|118|
 R Stormwind City|ACTIVE|120|M|70.82,88.48|Z|Stormwind City|N|Return to Stormwind City.|
+T Messenger to Stormwind|QID|120|M|64.01,75.38|Z|Stormwind City|N|To General Marcus Jonathan in Old Town. You'll find him on the 2nd floor inside SI:7.|
+A Messenger to Stormwind|QID|121|M|64.01,75.38|Z|Stormwind City|N|From General Marcus Jonathan.|PRE|120|
+B Cask of Merlot|ACTIVE|116|M|52.15,67.87|Z|Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
+T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|CS|Z|Stormwind City|N|To Master Mathias Shaw.|
+A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|135|
 F Lakeshire|ACTIVE|119|M|66.29,62.13|Z|Stormwind City|N|Fly back to Redridge.|
 T Return to Verner|QID|119|M|30.98,47.28|Z|Redridge Mountains|N|To Verner Osgood.|
 A Underbelly Scales|QID|122|M|30.98,47.28|N|From Verner Osgood.|PRE|119|
 
-C Goretusks|ACTIVE|92|L|2296 5|N|Kill Goretusks to loot Great Goretusk Snout.|S!US|
-C Spiders|ACTIVE|92|L|1081 5|N|Kill spiders to loot Crisp Spider Meat.|S!US|
-C Condors|ACTIVE|92|L|1080 5|N|Kill Condors to loot 5 Tough Condor Meat.|T|Dire Condor|S!US|
-C Black Dragon Whelps|QID|122|L|1221 6|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|S!US|
+;C Goretusks|ACTIVE|92|L|2296 5|N|Kill Goretusks to loot Great Goretusk Snout.|S!US|
+;C Spiders|ACTIVE|92|L|1081 5|N|Kill spiders to loot Crisp Spider Meat.|S!US|
+;C Condors|ACTIVE|92|L|1080 5|N|Kill Condors to loot 5 Tough Condor Meat.|T|Dire Condor|S!US|
+;C Black Dragon Whelps|ACTIVE|122|L|1221 6|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|S!US|
+K Kill Spiders|ACTIVE|92|M|11.94,77.5|QO|3|N|Make sure you have 5 Crisp Spider Meat from the Tarantulas|S!US|
+K Kill Goretusks|ACTIVE|92|M|34.00,71.00|QO|1|N|Kill Goretusks until you get 5 Great Goretusk Snout.|S!US|
+K Kill Condors|ACTIVE|92|M|46.00,76.00|QO|2|N|Kill Condors until you get 5 Tough Condor Meat|T|Dire Condor|S!US|
+K Black Dragon Whelps|ACTIVE|122|QO|1|N|Kill Black Dragon Whelps to loot Underbelly Whelp Scales.|S!US|
 T A Free Lunch|QID|129|M|15.28,71.46|N|To Guard Parker. He roams the fork in the road up ahead.|
 A Visit the Herbalist|QID|130|M|15.28,71.46|N|To Guard Parker. He roams the fork in the road.|PRE|129|
 
@@ -104,24 +114,31 @@ T The Defias Brotherhood|QID|132|M|56.3,47.5|Z|Westfall|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|135|M|56.3,47.5|Z|Westfall|N|From Gryan Stoutmantle.|PRE|132|
 
 F Stormwind|ACTIVE|116|M|56.56,52.65|Z|Westfall|N|On to Stormwind City.|TZ|Stormwind City|
-B Skin of Sweet Rum|ACTIVE|116|M|44.00,65.70|Z|Elwynn Forest|QO|4|NC|N|Buy a Skin of Sweet Rum from Barkeep Dobbins inside the Inn.|
+
 ; This was moved to earlier in the guide.
+;B Skin of Sweet Rum|ACTIVE|116|M|44.00,65.70|Z|Elwynn Forest|QO|4|NC|N|Buy a Skin of Sweet Rum from Barkeep Dobbins inside the Inn.|
 ;R Elwynn Forest|ACTIVE|118|M|32.03,49.18|N|Make your way to the front gate.|
 ;T The Price of Shoes|QID|118|M|41.71,65.55|Z|Elwynn Forest|N|To Smith Argus.|
 ;A Return to Verner|QID|119|M|41.71,65.55|Z|Elwynn Forest|N|From Smith Argus.|PRE|118|
 ;R Stormwind City|ACTIVE|120|M|70.82,88.48|Z|Stormwind City|N|Return to Stormwind City.|
-T Messenger to Stormwind|QID|120|M|64.01,75.38|Z|Stormwind City|N|To General Marcus Jonathan in Old Town. You'll find him on the 2nd floor inside SI:7.|
-A Messenger to Stormwind|QID|121|M|64.01,75.38|Z|Stormwind City|N|From General Marcus Jonathan.|PRE|120|
-B Cask of Merlot|ACTIVE|116|M|52.15,67.87|Z|Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
+;T Messenger to Stormwind|QID|120|M|64.01,75.38|Z|Stormwind City|N|To General Marcus Jonathan in Old Town. You'll find him on the 2nd floor inside SI:7.|
+;A Messenger to Stormwind|QID|121|M|64.01,75.38|Z|Stormwind City|N|From General Marcus Jonathan.|PRE|120|
+;B Cask of Merlot|ACTIVE|116|M|52.15,67.87|Z|Stormwind City|QO|2|NC|N|Buy a Cask of Merlot from Roberto Pupellyverbos in Gallina Winery located on the Canal (back to back with the bank)|
 T The Defias Brotherhood|QID|135|M|74.70,53.60;75.79,59.85|CS|Z|Stormwind City|N|To Master Mathias Shaw.|
 A The Defias Brotherhood|QID|141|M|75.79,59.85|Z|Stormwind City|N|From Master Mathias Shaw.|PRE|135|
 ;removing to end of 18-20westfall guide, so to keep questlog managable-A Oh Brother. . .|QID|167|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
 ;removing to end of 18-20westfall guide, so to keep questlog managable-A Collecting Memories|QID|168|M|65.44,21.18|Z|Stormwind City|N|From Wilder Thistlenettle. Dungeon quest for Deadmines, skip if you're not interested.|
 ;removing to end of 18-20westfall guide, so to keep questlog managable-A Underground Assault|QID|2040|M|55.52,12.52|Z|Stormwind City|N|From Shoni the Shilent. Dungeon quest for Deadmines, skip if you're not interested.|
+N Redridge Goulash/Underbelly Scales|ACTIVE|92&122|N|Left-click the sticky steps above and skip them. You will be returning to Redridge at the end of the next guide.\n[color=FF0000]NOTE: [/color]I suggest putting your quest items in the bank. No point taking up precious bag space.|
+N Redridge Goulash|ACTIVE|92|AVAILABLE|-122|N|Left-click the sticky steps above and skip them. You will be returning to Redridge at the end of the next guide.\n[color=FF0000]NOTE: [/color]I suggest putting your quest items in the bank. No point taking up precious bag space.|
+N Underbelly Scales|ACTIVE|122|AVAILABLE|-92|N|Left-click the sticky step above and skip it. You will be returning to Redridge at the end of the next guide.\n[color=FF0000]NOTE: [/color]I suggest putting the quest item in the bank. No point taking up precious bag space.|
+
 A Humble Beginnings|QID|399|M|49.19,30.27|Z|Stormwind City|N|From Baros Alexston.|
 T Elmore's Task|QID|1097|M|51.74,12.13|Z|Stormwind City|N|To Grimand Elmore. (skip followup -- unless you are inclined to take a trip to Loch Modan on your own.)|
+N Level 18|AVAILABLE|142|N|You have to be Level 18 to start the next guide.\nIf you are close, you can grind it out until you are.\nOtherwise I suggest doing the 16-18 Loch Modan Guide. You can manually select the guide from the Guide List.|LVL|-18|
+
 H Sentinel Hill|ACTIVE|116||M|71.00,72.50|Z|Stormwind City|N|Hearth (or fly) to Westfall.|
-; --- This guide ends in Sentinel Hill, Westfall
+; --- This guide ends in Sentinel Hill, Westfall.
 
 ]]
 end)
