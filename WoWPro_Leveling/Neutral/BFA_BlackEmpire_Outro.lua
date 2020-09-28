@@ -106,7 +106,7 @@ C The Strongest Among Them|QID|58423|M|51.86,41.36|S!US|Z|1530|N|Kill Rare N'Zot
 C Corruption Manifest|QID|58465|M|85.05,39.15|S!US|Z|1530|N|Kill Putrid Ichor.|;daily
 C Torment From Beyond|QID|58466|M|42.54,68.34|S!US|Z|1530|N|Release Ancient Pandaren Spirits|;daily
 C Tomes of Ancient Madness|QID|58461|M|76.92,49.92|S!US|Z|1530|N|Tome of Ancient Madness are dropped by Drowned Zeolots and Tidal Corruptors.|
-C Proof of Tenacity|QID|56540|ACTIVE|56064|M|12.36,72.40|Z|1530|QO|1|N|Entrance to underground vault where Vil'raxx can be found... and killed.|
+C Proof of Tenacity|QID|56540|ACTIVE|56064|M|57.42,39.38|Z|1530|QO|1|N|Entrance to underground vault where Vil'raxx can be found... and killed. Make sure to complete Assault: The Black Empire BEFORE going to kill.|
 C Proof of Tenacity|QID|56540|ACTIVE|57728|M|13.48,55.77|Z|1530|QO|1|N|Kri'vin can be found in front of the Gate of the Setting Sun.|
 T Assault: The Endless Swarm|QID|57728|M|37.22,79.26|Z|1530|N|To Taoshi.|
 T Halting Production|QID|58763|M|37.22,79.26|Z|1530|N|To Taoshi.|
