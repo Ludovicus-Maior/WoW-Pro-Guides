@@ -248,23 +248,29 @@ T Trouble in the Banks|QID|57651|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|To
 A Breaking A Few Eggs|QID|59621|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|57651|RANK|2|
 A Tending to the Tenders|QID|59622|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|57651|RANK|2|
 A Supplies Needed: Amber Grease|QID|57652|M|46.90,27.73|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|LVL|56|RANK|2|
+C Supplies Needed: Amber Grease|QID|57652|M|46.25,22.09|Z|Ardenweald!The Shadowlands|N|Giant Gorm Gris.|S|RANK|2|
+C Breaking A Few Eggs|QID|59621|M|45.54,25.50|Z|Ardenweald!The Shadowlands|NC|N|Gorm eggs destroyed.|S|RANK|2|
 C Tending to the Tenders|QID|59622|M|45.88,25.38|Z|Ardenweald!The Shadowlands|QO|1|N|Egg-Tender Tiom slain.|RANK|2|
 C Tending to the Tenders|QID|59622|M|45.44,23.22|Z|Ardenweald!The Shadowlands|QO|2|N|Egg-Tender Bloome slain.|RANK|2|
-C Supplies Needed: Amber Grease|QID|57652|M|46.25,22.09|Z|Ardenweald!The Shadowlands|QO|1|N|Giant Gorm Gris.|RANK|2|
 C Tending to the Tenders|QID|59622|M|44.82,24.40|Z|Ardenweald!The Shadowlands|QO|3|N|Egg-Tender Erys slain.|RANK|2|
-C Breaking A Few Eggs|QID|59621|M|45.54,25.50|Z|Ardenweald!The Shadowlands|QO|1|N|Gorm eggs destroyed.|RANK|2|
+C Supplies Needed: Amber Grease|QID|57652|M|46.25,22.09|Z|Ardenweald!The Shadowlands|N|Giant Gorm Gris.|US|RANK|2|
+C Breaking A Few Eggs|QID|59621|M|45.54,25.50|Z|Ardenweald!The Shadowlands|NC|N|Gorm eggs destroyed.|US|RANK|2|
 T Breaking A Few Eggs|QID|59621|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|RANK|2|
 T Tending to the Tenders|QID|59622|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|RANK|2|
 A Unsafe Workplace|QID|57653|M|46.63,29.40|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|59621|RANK|2|
-A Gifts of the Forest|QID|57656|M|48.06,24.38|Z|Ardenweald!The Shadowlands|N|From Fluttercatch.|PRE|59621|RANK|2|
-C Unsafe Workplace|QID|57653|M|47.40,22.51|Z|Ardenweald!The Shadowlands|QO|1|U|172950|N|Wounded fae healed.|RANK|2|
 A Supplies Needed: More Husks!|QID|57655|M|47.49,26.37|Z|Ardenweald!The Shadowlands|N|From Gorm Harrier.|LVL|56|RANK|2|
-C Supplies Needed: More Husks!|QID|57655|M|49.37,22.96|Z|Ardenweald!The Shadowlands|QO|1|U|172517|N|Treated Gorm Husk.|RANK|2|
-C Gifts of the Forest|QID|57656|M|49.02,26.74|Z|Ardenweald!The Shadowlands|QO|1|U|172517|N|Culexwood Branch.|RANK|2|
+C Unsafe Workplace|QID|57653|M|47.40,22.51|Z|Ardenweald!The Shadowlands|QO|1|U|172950|N|Wounded fae healed.|S|RANK|2|
+C Supplies Needed: More Husks!|QID|57655|M|49.37,22.96|Z|Ardenweald!The Shadowlands|NC|N|Treated Gorm Husk.|S|RANK|2|
+A Gifts of the Forest|QID|57656|M|48.06,24.38|Z|Ardenweald!The Shadowlands|N|From Fluttercatch.|PRE|59621|RANK|2|
+C Gifts of the Forest|QID|57656|M|49.09,22.71|Z|Ardenweald!The Shadowlands|U|172517|QO|1<1|N|Culexwood Branch.|RANK|2|
+C Gifts of the Forest|QID|57656|M|48.05,21.72|Z|Ardenweald!The Shadowlands|U|172517|QO|1<2|N|Culexwood Branch.|RANK|2|
+C Gifts of the Forest|QID|57656|M|49.02,26.74|Z|Ardenweald!The Shadowlands|U|172517|QO|1<3|N|Culexwood Branch.|RANK|2|
 T Gifts of the Forest|QID|57656|M|48.05,24.39|Z|Ardenweald!The Shadowlands|N|To Fluttercatch.|RANK|2|
 A Tied Totem Toter|QID|57657|M|48.02,24.39|Z|Ardenweald!The Shadowlands|N|From Fluttercatch.|PRE|57656|RANK|2|
-C Tied Totem Toter|QID|57657|M|47.99,24.28|Z|Ardenweald!The Shadowlands|QO|1|N|Take the Gormling Lure.|RANK|2|
+C Tied Totem Toter|QID|57657|M|47.99,24.28|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Take the Gormling Lure.|RANK|2|
 C Tied Totem Toter|QID|57657|M|47.02,28.55|Z|Ardenweald!The Shadowlands|QO|2|N|Deliver gormlings to southern wrangler.|RANK|2|
+C Supplies Needed: More Husks!|QID|57655|M|49.37,22.96|Z|Ardenweald!The Shadowlands|NC|N|Treated Gorm Husk.|US|RANK|2|
+C Unsafe Workplace|QID|57653|M|47.40,22.51|Z|Ardenweald!The Shadowlands|QO|1|U|172950|N|Wounded fae healed.|US|RANK|2|
 T Unsafe Workplace|QID|57653|M|46.65,29.31|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|RANK|2|
 T Tied Totem Toter|QID|57657|M|46.65,29.31|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|RANK|2|
 A Well, Tell the Lady|QID|59656|M|46.65,29.31|Z|Ardenweald!The Shadowlands|N|From Foreman Thorodir.|PRE|57653&57657|RANK|2|
@@ -274,7 +280,31 @@ T Supplies Needed: More Husks!|QID|57655|M|51.51,33.99|Z|Ardenweald!The Shadowla
 A What a Buzzkill|QID|59623|M|51.51,33.99|Z|Ardenweald!The Shadowlands|N|From Gormsmith Cavina.|PRE|57652&57655|RANK|2|
 C What a Buzzkill|QID|59623|M|49.87,27.17|Z|Ardenweald!The Shadowlands|QO|1|N|Buzzkill's Stinger.|RANK|2|
 T What a Buzzkill|QID|59623|M|51.54,33.97|Z|Ardenweald!The Shadowlands|N|To Gormsmith Cavina.|RANK|2|
-f Tirna Vaal|QID|50599|M|63.42,37.52|Z|Ardenweald!The Shadowlands|N|At Lanra.|MS|
+
+; Sidequest Storyline - Tricky Spriggans
+A Ages-Echoing Wisdom|QID|57865|M|51.07,33.79|Z|Ardenweald!The Shadowlands|N|From Lady of the Falls.|LVL|56|RANK|2|
+A Idle Hands|QID|57866|M|51.07,33.79|Z|Ardenweald!The Shadowlands|N|From Lady of the Falls.|LVL|56|RANK|2|
+A Spirit-Gathering Labor|QID|57869|M|56.42,29.25|Z|Ardenweald!The Shadowlands|N|From Groonoomcrooek.|LVL|56|RANK|2|
+A The Sweat of Our Brow|QID|57867|M|55.51,29.89|Z|Ardenweald!The Shadowlands|N|From Helpful Faerie.|LVL|56|RANK|2|
+C Ages-Echoing Wisdom|QID|57865|M|56.43,29.25|Z|Ardenweald!The Shadowlands|QO|1|N|Groonoomcrooek found.|RANK|2|
+A The Games We Play|QID|57870|M|59.05,24.38|Z|Ardenweald!The Shadowlands|N|From Elder Gwenna.|LVL|56|RANK|2|
+C The Games We Play|QID|57870|M|58.42,27.38|Z|Ardenweald!The Shadowlands|QO|1|N|Secret discovered.|RANK|2|
+C Spirit-Gathering Labor|QID|57869|M|56.85,28.23|Z|Ardenweald!The Shadowlands|QO|1|N|River Sediment.|RANK|2|
+A Craftsman Needs No Tools|QID|57868|M|55.83,23.47|Z|Ardenweald!The Shadowlands|N|From Elder Finnan.|LVL|56|RANK|2|
+C Idle Hands|QID|57866|M|55.01,24.53|Z|Ardenweald!The Shadowlands|QO|1|N|Brittlebark invaders slain.|RANK|2|
+C Ages-Echoing Wisdom|QID|57865|M|55.79,23.50|Z|Ardenweald!The Shadowlands|QO|2|N|Elder Finnan found.|RANK|2|
+C Craftsman Needs No Tools|QID|57868|M|56.74,23.88|Z|Ardenweald!The Shadowlands|QO|1|N|Finnan's Lucky Mallet.|RANK|2|
+C The Sweat of Our Brow|QID|57867|M|56.84,23.40|Z|Ardenweald!The Shadowlands|QO|1|N|Booby trapped tools disarmed.|RANK|2|
+T Craftsman Needs No Tools|QID|57868|M|55.82,23.50|Z|Ardenweald!The Shadowlands|N|To Elder Finnan.|RANK|2|
+T The Games We Play|QID|57870|M|59.06,24.36|Z|Ardenweald!The Shadowlands|N|To Elder Gwenna.|RANK|2|
+C Ages-Echoing Wisdom|QID|57865|M|59.06,24.36|Z|Ardenweald!The Shadowlands|QO|3|N|Elder Gwenna found.|RANK|2|
+A Outplayed|QID|57871|M|59.06,24.36|Z|Ardenweald!The Shadowlands|N|From Elder Gwenna.|PRE|57870|RANK|2|
+C Outplayed|QID|57871|M|56.78,25.96|Z|Ardenweald!The Shadowlands|QO|1|U|173355|N|Wicked Wort slain.|RANK|2|
+T Spirit-Gathering Labor|QID|57869|M|56.39,29.24|Z|Ardenweald!The Shadowlands|N|To Groonoomcrooek.|RANK|2|
+T Ages-Echoing Wisdom|QID|57865|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
+T Idle Hands|QID|57866|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
+T The Sweat of Our Brow|QID|57867|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
+T Outplayed|QID|57871|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
 
 ; This is the Way Storyline
 A The Way to Hibernal Hollow|QID|60738|M|50.02,48.76|Z|Ardenweald_Micro_C|N|From Dreamweaver.|PRE|60520|MS|
@@ -305,33 +335,6 @@ A Infusing the Wildseed|QID|60905|M|60.12,53.80|Z|Ardenweald!The Shadowlands|N|F
 C Infusing the Wildseed|QID|60905|M|59.99,53.99|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Anima recovered from Proglo while in soulshape.|MS|
 C Infusing the Wildseed|QID|60905|M|60.03,53.00|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak with Dreamweaver to perform ritual.|MS|
 T Infusing the Wildseed|QID|60905|M|60.15,52.85|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
-
-
-; Sidequest Storyline - Tricky Spriggans
-A Ages-Echoing Wisdom|QID|57865|M|51.07,33.79|Z|Ardenweald!The Shadowlands|N|From Lady of the Falls.|LVL|56|RANK|2|
-A Idle Hands|QID|57866|M|51.07,33.79|Z|Ardenweald!The Shadowlands|N|From Lady of the Falls.|LVL|56|RANK|2|
-A Spirit-Gathering Labor|QID|57869|M|56.42,29.25|Z|Ardenweald!The Shadowlands|N|From Groonoomcrooek.|LVL|56|RANK|2|
-A The Sweat of Our Brow|QID|57867|M|55.51,29.89|Z|Ardenweald!The Shadowlands|N|From Helpful Faerie.|LVL|56|RANK|2|
-C Ages-Echoing Wisdom|QID|57865|M|56.43,29.25|Z|Ardenweald!The Shadowlands|QO|1|N|Groonoomcrooek found.|RANK|2|
-A The Games We Play|QID|57870|M|59.05,24.38|Z|Ardenweald!The Shadowlands|N|From Elder Gwenna.|LVL|56|RANK|2|
-C The Games We Play|QID|57870|M|58.42,27.38|Z|Ardenweald!The Shadowlands|QO|1|N|Secret discovered.|RANK|2|
-C Spirit-Gathering Labor|QID|57869|M|56.85,28.23|Z|Ardenweald!The Shadowlands|QO|1|N|River Sediment.|RANK|2|
-A Craftsman Needs No Tools|QID|57868|M|55.83,23.47|Z|Ardenweald!The Shadowlands|N|From Elder Finnan.|LVL|56|RANK|2|
-C Idle Hands|QID|57866|M|55.01,24.53|Z|Ardenweald!The Shadowlands|QO|1|N|Brittlebark invaders slain.|RANK|2|
-C Ages-Echoing Wisdom|QID|57865|M|55.79,23.50|Z|Ardenweald!The Shadowlands|QO|2|N|Elder Finnan found.|RANK|2|
-C Craftsman Needs No Tools|QID|57868|M|56.74,23.88|Z|Ardenweald!The Shadowlands|QO|1|N|Finnan's Lucky Mallet.|RANK|2|
-C The Sweat of Our Brow|QID|57867|M|56.84,23.40|Z|Ardenweald!The Shadowlands|QO|1|N|Booby trapped tools disarmed.|RANK|2|
-T Craftsman Needs No Tools|QID|57868|M|55.82,23.50|Z|Ardenweald!The Shadowlands|N|To Elder Finnan.|RANK|2|
-T The Games We Play|QID|57870|M|59.06,24.36|Z|Ardenweald!The Shadowlands|N|To Elder Gwenna.|RANK|2|
-C Ages-Echoing Wisdom|QID|57865|M|59.06,24.36|Z|Ardenweald!The Shadowlands|QO|3|N|Elder Gwenna found.|RANK|2|
-A Outplayed|QID|57871|M|59.06,24.36|Z|Ardenweald!The Shadowlands|N|From Elder Gwenna.|PRE|57870|RANK|2|
-C Outplayed|QID|57871|M|56.78,25.96|Z|Ardenweald!The Shadowlands|QO|1|U|173355|N|Wicked Wort slain.|RANK|2|
-T Spirit-Gathering Labor|QID|57869|M|56.39,29.24|Z|Ardenweald!The Shadowlands|N|To Groonoomcrooek.|RANK|2|
-T Ages-Echoing Wisdom|QID|57865|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
-T Idle Hands|QID|57866|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
-T The Sweat of Our Brow|QID|57867|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
-T Outplayed|QID|57871|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
-
 
 ; Sidequest Storyline - Wicked Plan
 A Echoes of Tirna Noch|QID|58473|M|60.15,52.85|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60905|MS|
