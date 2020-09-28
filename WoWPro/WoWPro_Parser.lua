@@ -832,7 +832,7 @@ function WoWPro.ParseSteps(steps)
                 end
             end
 			if covenant then
-				local covenant = covenant:gsub(" ", "")
+				covenant = covenant:gsub(" ", "")
                 if covenant == "Kyrian" then
                     covenant = 1
                 elseif covenant == "Venthyr" then
