@@ -24,7 +24,7 @@ T Damned Intruders|QID|60759|M|49.36,59.33|Z|Northern Barrens|N|To Lieutenant Al
 A Return of the Scourge|QID|60761|M|49.36,59.33|Z|Northern Barrens|N|From Lieutenant Althera.|PRE|60759|FACTION|Horde|
 T Return of the Scourge|QID|60761|M|53.00,77.39|Z|Orgrimmar|N|To Commander Throgg.|FACTION|Horde|
 A A Message from Icecrown|QID|60727|M|53.00,77.39|Z|Orgrimmar|N|From Commander Throgg.|PRE|60761|FACTION|Horde|DATE|1602579600|
-A The Banshee's Champion|QID|61488|M|53.02,77.00|Z|Orgrimmar|N|[color=ff8000]WQ Raid: [/color]From Light's Hope Messenger.|PRE|60761|FACTION|Horde|
+A The Banshee's Champion|QID|61488|M|53.02,77.00|Z|Orgrimmar|ELITE|N|[color=ff8000]WQ Raid: [/color]From Light's Hope Messenger.|PRE|60761|FACTION|Horde|
 R Pathfinder's Den|QID|60727|M|53.57,90.43|Z|Orgrimmar|N|Run or fly to the Pathfinder's Den.|FACTION|Horde|DATE|1602579600|
 P Dalaran|QID|60727|M|56.21,91.76|Z|Orgrimmar|N|Run in to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Horde|DATE|1602579600|
 
@@ -46,7 +46,7 @@ T Damned Intruders|QID|60766|M|73.49,47.21|Z|Duskwood|N|To Lieutenant Vernon.|FA
 A Return of the Scourge|QID|60767|M|73.49,47.21|Z|Duskwood|N|From Lieutenant Vernon.|PRE|60766|FACTION|Alliance|
 T Return of the Scourge|QID|60767|M|65.70,77.06|Z|Stormwind City|N|To Commander Gregor.|FACTION|Alliance|
 A A Message from Icecrown|QID|59877|M|65.70,77.06|Z|Stormwind City|N|From Commander Gregor.|PRE|60767|FACTION|Alliance|DATE|1602579600|
-A The Banshee's Champion|QID|61486|M|65.54,76.99|Z|Stormwind City|N|[color=ff8000]WQ Raid: [/color]From Commander Gregor.|PRE|60767|FACTION|Alliance|
+A The Banshee's Champion|QID|61486|M|65.54,76.99|Z|Stormwind City|ELITE|N|[color=ff8000]WQ Raid: [/color]From Commander Gregor.|PRE|60767|FACTION|Alliance|
 R Wizard's Sanctum|QID|59877|M|49.36,86.93|Z|Stormwind City|N|Fly to the Wizard Sanctum.|FACTION|Alliance|DATE|1602579600|
 P Dalaran|QID|59877|M|44.38,88.69|Z|Stormwind City|N|Run up the Wizard sanctum to the portal room and go through the Crystalsong Forest Dalaran portal.|FACTION|Alliance|DATE|1602579600|
 
