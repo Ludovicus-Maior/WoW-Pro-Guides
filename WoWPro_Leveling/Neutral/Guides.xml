@@ -40,6 +40,7 @@
 	<Script file="MOP_Valley_of_the_Four_Winds.lua"/>
 	<Script file="SL_Ardenweald.lua"/>
 	<Script file="SL_Bastion.lua"/>
+	<Script file="SL_Covenant.lua"/>
 	<Script file="SL_Maldraxxus.lua"/>
 	<Script file="SL_Maw_Intro.lua"/>
 	<Script file="SL_Maw.lua"/>

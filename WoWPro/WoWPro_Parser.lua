@@ -805,7 +805,7 @@ function WoWPro.ParseSteps(steps)
         text = text:trim()
         if text ~= "" then
             local tof = false
-			local class, race  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?")
+			local class, race, covenant  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|COV|([^|]*)|?")
             local gender, faction, ms = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|")
             if class then
                 -- deleting whitespaces and capitalizing, to compare with Blizzard's class tokens
@@ -831,6 +831,20 @@ function WoWPro.ParseSteps(steps)
                     gender = 1
                 end
             end
+			if covenant then
+				local covenant = covenant:gsub(" ", "")
+                if covenant == "Kyrian" then
+                    covenant = 1
+                elseif covenant == "Venthyr" then
+                    covenant = 2
+				elseif covenant == "NightFae" then
+                    covenant = 3
+				elseif covenant == "Necrolord" then
+                    covenant = 4
+                else
+                    covenant = 0
+                end
+			end
 
             if faction then
                 -- deleting leading/trailing whitespace and then canonicalize the case
@@ -851,6 +865,7 @@ function WoWPro.ParseSteps(steps)
 
             if (class == nil or WoWPro.SemiMatch(class, myclass)) and
                (race == nil or WoWPro.SemiMatch(race, myrace))  and
+			   (covenant == nil or covenant == _G.C_Covenants.GetActiveCovenantID()) and
                (gender == nil or gender == _G.UnitSex("player")) and
                (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) and not tof then
                 if WoWPro.ParseQuestLine(faction, zone, i, text) then
