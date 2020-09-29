@@ -5,11 +5,11 @@ WoWPro:GuideName(guide,"Tiragarde Sound")
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|S!US|N|Jump to the Guide Hub|
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|35|S!US|N|Jump to the Guide Hub|
 t The War Cache|QID|52544|N|To UI Alert.|
 A Time for War|QID|53332|PRE|52544|N|From UI Alert.|
 N The Great Sea Scrolls|ACTIVE|53476|U|163852|NOCACHE|NA|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
-t The Great Sea Scrolls|QID|53476|M|40.4,36.4|Z|Stormsong Valley|N|To Collector Kojo. This results in a ilvl295 helm from at least lvl 113 and on, so go turn it in.|
+t The Great Sea Scrolls|QID|53476|M|40.4,36.4|Z|Stormsong Valley|N|To Collector Kojo.|
 N Small Treasure Chests|QID|47485|N|In this expansion, small treasure chests are found in different places each time rather than fixed spawn points. To get these, watch for the symbols on your minimap. Fixed treasures are named in this guide if you have treasures enabled.|
 N Use of Ranks|QID|47485|N|Set guide to rank 1 if you want to do the minimum to get the zone achievement. Set guide to Rank 2 to also do the quests, treasures, and rares that are conveniently located. Set the guide to Rank 3 to get all the quests, rares, and named treasures in the zone. To get rares and treasures, you need to enable those options.|
 N Treasure Maps|N|There are four treasure maps that will drop randomly when fighting pirates in Tiragarde Sound and a few other places. *Singed, Soggy, Yellowed and Fading.  Once you have those, their related treasure becomes lootable.|AVAILABLE|52854^52859^52860|;missing QID for Soggy
@@ -29,13 +29,13 @@ A Labor Dispute|QID|47487|M|76.83,43.43|N|From Cagney.|PRE|47485|
 A Small Haulers|QID|47488|M|76.82,43.49|N|From Olive.|PRE|47485|
 C Labor Dispute|QID|47487|M|78.77,78.92|S|N|Kill the mobs that attack you as you go about the other objectives (as if you had a choice.)|EAB|
 A Message from the Management|QID|50573|M|79.02,45.77|N|from the posted notice.|PRE|47485|
-C Suspicious Shipments|QID|47486|M|78.77,78.92|NC|S|N|Click on the glowing boxes to inspect them.|
+C Suspicious Shipments|QID|47486|M|80.76,48.86|NC|S|N|Click on the glowing boxes to inspect them.|
 C Small Haulers|QID|47488|M|78.77,78.92|CHAT|S|N|Tell the urchins they are free to go.|
 K Taskmaster Williams|ACTIVE|50573|M|79.18,46.69|QO|2|T|Taskmaster Williams|N|Kill and loot Taskmaster Williams inside this warehouse.|
 K Forgemaster Farthing|ACTIVE|50573|M|82.19,48.66|QO|1|T|Forgemaster Farthing|N|Kill and loot Forgemaster Farthing.|
-C Small Haulers|QID|47488|M|78.77,78.92|CHAT|US|N|Finish freeing the Urchin Workers.|
-C Suspicious Shipments|QID|47486|M|78.77,78.92|US|NC|N|Finish inspecting the Marked Goods.|
-C Labor Dispute|QID|47487|M|78.77,78.92|US|N|Finish killing the Ashvane Company guards.|
+C Small Haulers|QID|47488|M|80.76,48.86|CHAT|US|N|Finish freeing the Urchin Workers.|
+C Suspicious Shipments|QID|47486|M|80.76,48.86|US|NC|N|Finish inspecting the Marked Goods.|
+C Labor Dispute|QID|47487|M|80.76,48.86|US|N|Finish killing the Ashvane Company guards.|
 T Labor Dispute|QID|47487|M|78.10,47.85|N|To Cagney.|
 T Suspicious Shipments|QID|47486|M|78.10,47.94|N|To Flynn Fairwind.|
 T Small Haulers|QID|47488|M|78.10,47.94|N|To Flynn Fairwind.|
@@ -52,7 +52,7 @@ A An Overrun Mine|QID|50349|M|75.69,50.61|N|From Junior Miner Joe.|RANK|2|
 A The Hunters of Kennings Lodge|QID|50544|M|75.55,49.94|N|From Help Wanted Poster.|LEAD|48873^48874^48879|RANK|2|
 T Sampling the Goods|QID|53041|M|75.85,49.14|N|To Flynn Fairwind.|
 A Stow and Go|QID|47489|M|75.85,49.14|N|From Flynn Fairwind.|PRE|53041|
-R Old Drust Road|ACTIVE|51149|M|76.52,48.97;77.27,49.52;76.02,50.02;73.60,48.91|CS|N|Back up to get to the overhead road to Old Drust Road.|RANK|2|
+R Old Drust Road|ACTIVE|51149|M|76.52,48.97;77.27,49.52;76.02,50.02;73.60,48.91|CC|N|Back up to get to the overhead road to Old Drust Road.|RANK|2|
 R Southwind Station|ACTIVE|51149|M|66.58,51.26|N|Continue down the road until you see Southwind Station on your right.|RANK|2|
 A An Explosive Opportunity|QID|50542|LEAD|49531|M|66.69,50.03|N|From Lead Guide Zipwrench.|RANK|2|
 T Left at the Port|QID|51149|M|65.84,50.10|N|To Dockmaster Tyndall.|
@@ -62,9 +62,9 @@ K Teres|QID|49942|QO|1|M|63.55,50.44|Z|Tiragarde Sound|T|Teres|N|Kill this Silve
 K Maison the Portable|QID|51880|QO|1|M|58.09,48.70|Z|Tiragarde Sound|T|Maison the Portable|N|Kill this Silver Elite and loot for Azerite Power and resources.|RARE|ITEM|154458|RANK|3|
 $ Hay Covered Chest|QID|49963|M|61.51,52.33; 67.37,51.68|Z|Tiragarde Sound|CS|N|Hop of the Guardian of the Spring and then you have 40 seconds to ride him to Roan Berthold at Southwind Station. If you arrive in time, treasure will be waiting.|RANK|3|
 A Making Mysteries|QID|49897|M|67.50,55.81|N|From Wulferd Fizzbracket.|RANK|2|
-A Spring Cleaning|QID|49529|M|67.50,55.81|N|Bonus Objective - Autoaccepted.|RANK|2|LVL|-120|
 T An Explosive Opportunity|QID|50542|M|67.50,55.81|N|To Wulferd Fizzbracket.|
 A The Beauty of Marketing|QID|49531|M|67.50,55.81|N|From Wulferd Fizzbracket.|RANK|2|
+A Spring Cleaning|QID|49529|M|67.15,56.12|N|Bonus Objective - Autoaccepted.|RANK|2|
 C Spring Cleaning|QID|49529|M|67.5,55.81|S|N|Pop bubbles, pick up debris and kill random stuff you can't avoid. This should get finished (or nearly so) as you go about the other objectives.|
 C Making Mysteries|QID|49897|M|68.39,59.74|S|NC|N|Click on the chickens running around.|
 C The Beauty of Marketing|QID|49531|M|67.15,56.97|NC|U|155009|QO|2|N|Use Camera, then the 1 key to take a selfie of you and the Geyser.|
@@ -102,12 +102,12 @@ C Pinch of Azerite|QID|50352|M|75.59,58.44|QO|1|US|N|Finish up collecting the ne
 T Miner Operation|QID|50351|M|75.56,59.36|N|To Ordnance Handler Prim.|
 T Pinch of Azerite|QID|50352|M|75.56,59.37|N|To Ordnance Handler Prim.|
 A Rock Meet Dynamite|QID|50356|M|75.53,59.29|N|From Civil Technician Alena.|RANK|2|PRE|50352&50351|
-C Rock Meet Dynamite|QID|50356|M|75.14,60.07|N|Go down into the mine, use your special action button to blow up the Enraged Nibblers.  When you get to the bottom of the mine, kill Earthshaper Brugaw.|T|Earthshaper Brugaw|
+C Rock Meet Dynamite|QID|50356|M|75.14,60.07|N|Go down into the mine, Use the "[color=40C7EB]Azerite-Infused Dynamite[/color]" Action Ability to blow up the Enraged Nibblers.  When you get to the bottom of the mine, kill Earthshaper Brugaw.|T|Earthshaper Brugaw|EAB|
 T Rock Meet Dynamite|QID|50356|M|78.14,55.93|N|To Chief Miner Theock.|
 R Kennings Lodge|ACTIVE|50544|M|78.63,56.03;77.83,61.67|CS|N|Run up the hill to Kennings Lodge.|RANK|2|
 f Kennings Lodge|ACTIVE|50544|M|76.68,65.42|N|At Finnia Hawkshot.|RANK|2|
 A A Sweater for Rupert|QID|49028|M|76.13,65.52|RANK|2|N|From Weathered Job List.|
-A WANTED: Ol' Frostclaw|QID|49069|M|76.13,65.52|RANK|2|N|From Weathered Job List.|
+A WANTED: Ol' Frostclaw|QID|49069|M|76.13,65.52|RANK|2|ELITE|N|[color=ff8000]Elite: [/color]From Weathered Job List.|
 T The Hunters of Kennings Lodge|QID|50544|M|75.84,65.87|N|To Alanna Holton.|
 A Pardon Our Rust|QID|48874|M|75.84,65.87|N|From Alanna Holton.|RANK|2|
 A A Grizzly End|QID|48873|M|75.82,65.79|N|From Lord Kennings.|RANK|2|
@@ -218,7 +218,7 @@ K Squacks|QID|50160|QO|1|T|Squacks|M|80.81,82.55|N|Silver Elite to kill for loot
 T Papers, Please|QID|48773|M|80.36,81.47|N|To Flynn Fairwind.|
 T The Irontide Crew|QID|48558|M|80.36,81.47|N|To Flynn Fairwind.|
 A Dress to Impress|QID|49239|M|80.36,81.47|N|From Flynn Fairwind.|PRE|48558&48773|
-N Put the hat on|ACTIVE|49239|M|80.36,81.47|BUFF|254873|N|Use your extra action button to wear the hat. Don't forget to reapply the hat if you lose the buff (like dieing).|
+N Put the hat on|ACTIVE|49239|M|80.36,81.47|BUFF|254873|NC|N|Use your extra action button [color=40C7EB]Irontide Recruit[/color] to wear the hat. Don't forget to reapply the hat if you lose the buff (like dieing).|EAB|
 A Aged to Perfection|QID|49290|M|79.70,81.86|N|From Roko.|PRE|48558&48773|RANK|2|
 C Dress to Impress|QID|49239|M|79.79,82.62|QO|1|CHAT|N|Speak with the Irontide Recruiter|
 C Dress to Impress|QID|49239|QO|2|M|77.33,84.15|NC|N|Enter the Dead Man's Tale|
@@ -303,7 +303,7 @@ C Hands Off My Booty!|QID|49738|M|56.12,64.44|NC|N|Use the Cannon to fire on the
 T Hands Off My Booty!|QID|49738|M|56.67,61.16|N|To Lieutenant Tarenfold.|
 A For Kul Tiras!|QID|49736|M|56.67,61.16|N|From Lieutenant Tarenfold.|PRE|49738|
 A Cease Fire!|QID|49740|M|56.67,61.16|N|From Lieutenant Tarenfold.|PRE|49738|
-A Righteous Retribution|QID|49741|M|56.48,61.72|N|From Taelia.|PRE|49738&49741|
+A Righteous Retribution|QID|49741|M|56.48,61.72|N|From Taelia.|PRE|49738|
 A Cat on a Hot Copper Roof|QID|49757|M|58.60,61.52|N|From Meredith.|PRE|49869|RANK|2|
 C Cat on a Hot Copper Roof|QID|49757|M|58.84,61.32|QO|1|N|Start at the lowest ring (if you are a short race you will have to jump to reach it). Work your way around the house from ring to ring, till you get to the upstairs porch where Scratchy is.|
 T Cat on a Hot Copper Roof|QID|49757|M|58.60,61.52|N|To Meredith.|
@@ -312,10 +312,10 @@ C Enemies at the Gate|QID|49739|M|58.44,64.74|S|N|Bonus Objective - This will mo
 C For Kul Tiras!|QID|49736|S|U|156520|N|Use the banner to inspire the Vigil Hill defenders.|
 C Cease Fire!|QID|49740|S|N|Click on the Captured Cannons to destroy them.|
 C Righteous Retribution|QID|49741|M|58.01,63.25;55.40,67.84|CS|QO|1|N|Steal the Azerite Bombs from the ship's deck.|
-C Righteous Retribution|QID|49741|M|55.87,67.59|QO|2|N|Use Special action button to bomb The Plunder Runner. The bomb doesnt hit unless you are pretty much, right at the dot.|
-C Righteous Retribution|QID|49741|M|59.03,66.60|QO|3|NC|N|Board the Landing Boat boarded|
-C Righteous Retribution|QID|49741|M|59.34,68.26|QO|4|NC|N|Use your special action button to bomb The Bloodwake.|;coords a little off, do it when the boat stops.
-C Righteous Retribution|QID|49741|M|57.57,71.54|QO|5|NC|N|Hop on Galeheart's back for a mini bombing run.|
+C Righteous Retribution|QID|49741|M|55.87,67.59|QO|2|N|Use Special action button "[color=40C7EB]Azerite Bomb[/color]" to bomb The Plunder Runner. The bomb doesnt hit unless you are pretty much, right at the dot.|EAB|
+C Righteous Retribution|QID|49741|M|59.03,66.60|QO|3|NC|N|Board the Landing Boat boarded.|
+C Righteous Retribution|QID|49741|M|59.34,68.26|QO|4|NC|N|Use your special action button "[color=40C7EB]Azerite Bomb[/color]" to bomb The Bloodwake.|EAB|;coords a little off, do it when the boat stops.
+C Righteous Retribution|QID|49741|M|57.57,71.54|QO|5|V|N|Hop on Galeheart's back for a mini bombing run.|
 C Righteous Retribution|QID|49741|M|56.84,74.30|QO|6|NC|N|Drop bombs on the Powder Barrels.|
 K Black-Eyed Bart|QID|50096|M|56.34,69.92|QO|1|T|Black-Eyed Bart|RARE|ITEM|158650|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
 C Cease Fire!|QID|49740|US|N|Finish destroying the Captured Cannons.|
@@ -326,13 +326,13 @@ l Soggy Treasure Map|QID|52853|M|74.03,84.16|Z|Tiragarde Sound|L|162571|N|Keep k
 l Yellowed Treasure Map|QID|52859|M|74.03,84.16|Z|Tiragarde Sound|L|162581|N|Keep killing pirates until you loot  the Yellowed Treasure Map, or give up, check this off and move on.|RANK|3|
 l Fading Treasure Map|QID|52854|M|74.03,84.16|Z|Tiragarde Sound|L|162580|N|Keep killing pirates until you loot the Fading Treasure Map, or give up, check this off and move on.|RANK|3|
 l Singed Treasure Map|QID|52860|M|74.03,84.16|Z|Tiragarde Sound|L|162584|N|Keep killing pirates until you loot the Singed Treasure Map, or give up, check this off and move on.|RANK|3|
-A Freehold: A Pirate's End|QID|52148|M|56.50,61.72|NA|N|From Flynn Fairwind. This is a dungeon quest.|RANK|2|
+A Freehold: A Pirate's End|QID|52148|M|56.50,61.72|ELITE|N|[color=e6cc80]Dungeon: Freehold[/color]\nFrom Flynn Fairwind. This is optional and beyond the scope of this guide.|RANK|2|
 T Cease Fire!|QID|49740|M|56.68,61.17|N|To Lieutenant Tarenfold.|
 T For Kul Tiras!|QID|49736|M|56.68,61.17|N|To Lieutenant Tarenfold.|
 T Righteous Retribution|QID|49741|M|56.51,61.27|N|To Taelia.|
 A Bearers of Bad News|QID|50110|M|56.51,61.27|N|From Taelia.|PRE|49741&49740&49736|
 ; Enemies Within Arc
-C Bearers of Bad News|QID|50110|M|56.51,61.27|NC|N|Hop on Galeheart for a ride back to Boralus.|
+C Bearers of Bad News|QID|50110|M|56.51,61.27|V|N|Hop on Galeheart for a ride back to Boralus.|
 T Bearers of Bad News|QID|50110|M|49.10,75.74|Z|1161|N|To Taelia.|
 A Prepare for Trouble|QID|50795|M|49.10,75.74|Z|1161|N|From Taelia.|PRE|50110|
 C Prepare for Trouble|QID|50795|M|47.46,81.46|Z|1161|CHAT|N|Rally the Proudmoore Guards standing around in the Square.|
@@ -357,9 +357,9 @@ F Tradewinds Market|ACTIVE|50972|M|47.70,65.40|Z|1161|N|At Jessica Clarke.|
 $ Scrimshaw Cache|QID|52870|Z|Boralus|M|64.79,12.39;62.85,11.84;61.72,10.61|CS|N|Down the stairs and over the wall into a little cave for some Azerite Power and resources. You can return the same way you came.|RANK|2|
 A A Bundle of Furs|QID|51144|M|74.81,23.65|N|From "Risky" Liz Seminario.|RANK|2|
 A Trouble at Greystone Keep|QID|49715|M|74.12,22.55|N|From Courier Gerald.|LEAD|49733^51226|RANK|3|
-T A Bad Deal|QID|49523|M|75.47,22.18|N|To Roko. This has a followup to come back for at 120.|
+T A Bad Deal|QID|49523|M|75.47,22.18|N|To Roko. Patrols the area.|
 T Proudmoore's Parley|QID|50972|M|73.81,25.12|N|To Genn Greymane.|
-A Tol Dagor: The Ashvane Overseer|QID|52800|PRE|50972|M|73.80,25.08|NA|N|From Cyrus Crestfall. This is a dungeon quest.|RANK|2|
+; A Tol Dagor: The Ashvane Overseer|QID|52800|PRE|50972|M|73.80,25.08|NA|N|From Cyrus Crestfall. This is a dungeon quest.|RANK|2| ;Not showing up for me
 N What follows|ACTIVE|49715|N|The quest you just finished has a zone finale feel to it, but not to worry the guide does not end here. This is a good spot to take a break for war campaign if you want, but there are 2 more areas for the zone achievement and a LOT of quests not part of the achievement on the other side of the bay. If you want you can set guide to rank 3 to get "everything".|
 b Eastpoint Station|ACTIVE|49715|M|75.29,25.77|N|Take the ferry to Eastpoint Station.|
 R Greystone Relief|ACTIVE|49715|M|74.85,43.88;77.88,43.28;79.08,42.18|CS|N|Run East towards Greystone Keep.|
@@ -585,7 +585,7 @@ R Fogcliff Strand|ACTIVE|50026|M|49.46,33.42|N|Down to the beach to find the shi
 T Save Our Shipmates|QID|50026|M|50.31,37.23|N|To Henry Hardwick.|
 A Captured and Enraptured|QID|47755|M|50.31,37.24|N|From Henry Hardwick.|PRE|50026|RANK|2|
 A A Very Precious Cargo|QID|50002|M|50.31,37.24|N|From Henry Hardwick.|PRE|50026|RANK|2|
-A Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|N|Bonus Objective - Autoaccepted.|LVL|-120|PRE|50026|RANK|2|
+A Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|N|Bonus Objective - Autoaccepted.|LVL|-50|PRE|50026|RANK|2|
 C Shipwreck Recovery Crew|QID|50009|M|49.05,36.15|S|N|Bonus Objective - Pick up shipwrecked supplies, kill sirens and saurolisks, you know the drill.|
 C Captured and Enraptured|QID|47755|M|54.13,35.01|U|151135|S|NC|N|Target an Entralled Sailer and use the Grog to break the enchantment - can be done at ranged distances.|
 A Can't Hear A Thing|QID|50059|M|51.08,35.79|N|From Earless Joe.|PRE|50026|RANK|2|
@@ -725,7 +725,7 @@ T Possessive Headgear|QID|48356|M|39.50,26.67|N|To Brother Therold.|
 A Paddle to Safety|QID|48366|M|39.55,26.70|N|From Brannon Stormsong.|PRE|48009&48356&48365|
 C Paddle to Safety|QID|48366|M|39.61,27.02|NC|N|Hop in the Rowboat.|
 T Paddle to Safety|QID|48366|M|35.20,24.20|N|To Brannon Stormsong.|
-A Creature Corruption|QID|49300|M|35.20,24.20|N|Bonus Objective - Autoaccepted.|LVL|-120|PRE|48366|RANK|2|
+A Creature Corruption|QID|49300|M|35.20,24.20|N|Bonus Objective - Autoaccepted.|LVL|-50|PRE|48366|RANK|2|
 A Eldritch Invocations|QID|48372|M|35.20,24.20|N|From Brannon Stormsong.|PRE|48366|
 A Death in the Depths|QID|48370|M|35.25,24.18|N|From Keegan Alby.|PRE|48366|
 A Deep Sea Defilement|QID|48368|M|35.24,24.27|N|From Brother Therold.|PRE|48366|
