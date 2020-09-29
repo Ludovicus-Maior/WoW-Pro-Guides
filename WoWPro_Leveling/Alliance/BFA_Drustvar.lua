@@ -12,12 +12,11 @@ N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasin
 N Small Treasure Chests|QID|48622|N|In this expansion, small treasure chests are found in differant places each time rather than fixed spawn points. Blizzard puts a treasure map symbol on your minimap automatically. The fixed treasures are named in this guide.|
 N Use of Ranks|QID|48622|N|Set guide to rank 1 if you want to do the minimum to get the zone achievement. Set guide to Rank 2 to also do the quests, treasures and rares that are conveniently located to the places you travel for Rank 1 steps. Set the guide to Rank 3 to get all the quests, rares and named treasures in the zone.|
 ; possibly not needed because choice is already made in intro guide-never hurts to have it tho
-A Drustvar|QID|47961|M|73.89,25.10|Z|Tiragarde Sound|N|From the scouting map. Choose the zone quest Drustvar.|
-T Drustvar|QID|47961|M|73.81,25.07|Z|Tiragarde Sound|N|To Taelia.|
-A The Vanishing Lord|QID|48622|M|73.81,25.07|Z|Tiragarde Sound|N|From Taelia.|PRE|47961|
-R Tradewinds Market|ACTIVE|48622|M|75.29,25.76|CC|Z|Tiragarde Sound|N|Run to the Ferry Stop in Tradewind Market (optional)|FLY|BFA|
-C The Vanishing Lord|QID|48622|M|74.16,24.80|Z|Tiragarde Sound|QO|1|NC|N|Take the ferry to Drustvar - chat option.|FLY|BFA|
-R Tradewinds Market|ACTIVE|48622|M|75.29,25.76|CC|Z|Tiragarde Sound|N|Run to the Ferry Stop in Tradewind Market (optional)|FLY|BFA|
+A Drustvar|QID|47961|M|68.38,22.09|Z|Boralus|N|From the scouting map. Choose the zone quest Drustvar.|
+T Drustvar|QID|47961|M|68.17,21.99|Z|Boralus|N|To Taelia.|
+A The Vanishing Lord|QID|48622|M|68.17,21.99|Z|Boralus|N|From Taelia.|PRE|47961|
+R Tradewinds Market|ACTIVE|48622|M|74.17,24.83|Z|Boralus|N|Run to the Ferry Stop in Tradewind Market (optional)|FLY|BFA|
+C The Vanishing Lord|QID|48622|M|74.17,24.83|Z|Boralus|QO|1|CHAT|N|Take the ferry to Drustvar - chat option.|FLY|BFA|
 ; Fallhaven
 R Fallhaven|ACTIVE|48622|M|56.18,35.30|N|You can still optionally take the boat to Fallhaven, or simply fly straight there.|FLY|-BFA|
 C The Vanishing Lord|QID|48622|QO|2|M|56.18,35.30|NC|N|Meet with Cyril White - magnify glass option|

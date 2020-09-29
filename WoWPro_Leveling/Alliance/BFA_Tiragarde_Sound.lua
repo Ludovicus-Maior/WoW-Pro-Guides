@@ -5,7 +5,8 @@ WoWPro:GuideName(guide,"Tiragarde Sound")
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|35|S!US|N|Jump to the Guide Hub|
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
+N Drustvar Available|AVAILABLE|47961|M|PLAYER|LVL|25|S!US|N|Now that you have reached level 25, you can now continue your journey in [color=00FF96]Drustvar[/color]. \n\nYou now have access to the guide hub to help you navigate between guides.|
 t The War Cache|QID|52544|N|To UI Alert.|
 A Time for War|QID|53332|PRE|52544|N|From UI Alert.|
 N The Great Sea Scrolls|ACTIVE|53476|U|163852|NOCACHE|NA|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
@@ -485,10 +486,10 @@ C Bolas and Birds|QID|48616|M|58.26,26.98|U|152643|S|T|Hollowbeak Falcon|N|Use t
 A Settle the Score|QID|48965|M|58.29,25.40|N|From Caleb Batharen.|RANK|2|
 K Foxhollow Skyterror|QID|50137|QO|1|M|60.11,22.17|T|Foxhollow Skyterror|RARE|ITEM|160454|N|Silver Elite to kill for Azerite Power and resources.|RANK|2|
 C Settle the Score|QID|48965|M|61.19,22.08;61.92,23.18|CS|N|Kill Chartusk.|
+T Settle the Score|QID|48965|M|58.29,25.39|N|To Caleb Batharen.|
 C Bolas and Birds|QID|48616|M|58.26,26.98|U|152643|US|T|Hollowbeak Falcon|N|Finish shooting down Falcons.|
 C An Element of Danger|QID|48080|M|58.26,26.61|US|N|Finish collecting boar tusks.|
 C The Stoat Hunt|QID|48077|M|58.12,23.69|US|N|Finish collecting stoat pelts.|
-T Settle the Score|QID|48965|M|58.29,25.39|N|To Caleb Batharen.|
 T The Stoat Hunt|QID|48077|M|55.45,24.67|N|To Abbey Watkins.|
 T An Element of Danger|QID|48080|M|55.52,24.58|N|To Harold Beckett.|
 T Bolas and Birds|QID|48616|M|55.52,24.58|N|To Harold Beckett.|
@@ -558,16 +559,16 @@ T The Perfect Horse, of Course|QID|48903|M|51.83,26.31|N|To Joma.|
 t WANTED: Raging Earthguard|QID|51367|M|51.57,27.21|N|To Lord Aldrius Norwington.|
 T Be Our Guest|QID|48005|M|51.57,27.24|N|To Lord Aldrius Norwington.|
 A Beginner Equitation|QID|48004|M|51.57,27.24|N|From Lord Aldrius Norwington.|PRE|48005|
-C Beginner Equitation|QID|48004|M|51.65,26.20|QO|1|NC|N|Mount Cooper|
+C Beginner Equitation|QID|48004|M|51.65,26.20|QO|1|V|N|Mount Cooper.|
 C Beginner Equitation|QID|48004|M|50.88,26.54|QO|2|NC|N|Jab Gnoll targets. 1 key to charge, 2 key to jab, if you are charging (and jab) you will always kill, but you don't have to charge.|
 C Beginner Equitation|QID|48004|M|50.99,26.14|QO|3|NC|N|Shoot down Paper Zeppelins, use the 3 key.|
 C Beginner Equitation|QID|48004|M|51.32,27.02|QO|4|NC|N|Jump Fences (space bar). Note, it gives you a stacking buff, which multiplies the points earned from Jabbing and bringing down Zeps.|
 T Beginner Equitation|QID|48004|M|51.57,27.27|N|To Lord Aldrius Norwington.|
 A Show Me What You've Got|QID|48939|M|51.57,27.27|N|From Lord Aldrius Norwington.|PRE|48004|
-C Show Me What You've Got|QID|48939|M|50.92,27.46|QO|2|NC|N|Mount Cooper (if you aren't already). Score 150 Points, \n Hint: Jumping fences while waiting for zeps and while approaching them, gets you a higher score|T|Paper|
+C Show Me What You've Got|QID|48939|M|50.92,27.46|QO|2|V|N|Mount Cooper (if you aren't already). Score 150 Points, \n Hint: Jumping fences while waiting for zeps and while approaching them, gets you a higher score|T|Paper|
 T Show Me What You've Got|QID|48939|M|51.56,27.24|N|To Lord Aldrius Norwington.|
 A Equine Retrieval|QID|48087|M|51.56,27.24|N|From Lord Aldrius Norwington.|PRE|48939|
-C Equine Retrieval|QID|48087|M|53.16,30.70|QO|1|NC|N|Mount Rose.|
+C Equine Retrieval|QID|48087|M|53.16,30.70|QO|1|V|N|Mount Rose.|
 C Equine Retrieval|QID|48087|M|52.50,28.79|QO|2|NC|N|Bring Rose back to Lord Norwington.|
 T Equine Retrieval|QID|48087|M|52.53,28.48|N|To Lord Aldrius Norwington.|
 A No Party Like a Trogg Party|QID|48088|M|52.53,28.48|N|From Lord Aldrius Norwington.|PRE|48087|
@@ -577,7 +578,7 @@ C Mountain Sounds|QID|48089|M|52.74,27.23|NC|U|153357|N|Blow the horn to rally t
 C No Party Like a Trogg Party|QID|48088|M|51.44,25.82|US|N|Finish off the Grimestone intruders.|
 T Mountain Sounds|QID|48089|M|52.49,28.53|N|To Gora Layton.|
 T No Party Like a Trogg Party|QID|48088|M|52.53,28.49|N|To Lord Aldrius Norwington.|
-A Best In Show|QID|49036|M|51.57,27.28|N|From Lord Aldrius Norwington.|PRE|48088&48089|RANK|2|
+A Best In Show|QID|49036|M|51.57,27.28|N|From Lord Aldrius Norwington. Might need to wait a minute for them to phase in.|PRE|48088&48089|RANK|2|
 C Best In Show|QID|49036|M|52.79,28.39|NC|N|And do it again, Mount Cooper (if you aren't already). This time goal is 300 points and you absolutely must have the multiplier from fence jumping.|T|Paper|
 T Best In Show|QID|49036|M|51.57,27.28|N|To Lord Aldrius Norwington.|
 A Save Our Shipmates|QID|50026|M|49.15,29.77;49.45,31.77|CS|N|From Thomas Pinker.|RANK|2|
