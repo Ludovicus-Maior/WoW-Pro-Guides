@@ -12,14 +12,14 @@ A The Defias Brotherhood|QID|142|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|141|
 l Flask of Oil|QID|103|M|38,51|S|N|Kill Harvest Watchers to collect Flask of Oil|L|814 5|
 l Hops|AVAILABLE|117|M|38,51|N|Kill Harvest Watchers to collect Hops.|L|1274 5|
 l Flask of Oil|QID|103|M|38,51|US|N|Kill Harvest Watchers to collect Flask of Oil|L|814 5|
-C Humble Beginnings|QID|399|M|36.25,54.50|Z|Westfall|NC|N|Loot the Compass from the chest at this location.|
-C The People's Militia|QID|13|Z|Westfall|M|38.20,57.00;34.61,43.38|CN|N|Kill Defias Looters and Pillagers until you finish this quest. Move to the Quarry if this area is overcamped.|
+C Humble Beginnings|QID|399|M|36.25,54.50|Z|Westfall|L|2998|N|Loot the Compass from the chest at this location.|
+C The People's Militia|QID|13|Z|Westfall|M|38.20,57.00;34.61,43.38|CN|QO|1;2|N|Kill Defias Looters and Pillagers until you finish this quest. Move to the Quarry if this area is overcamped.|
 T The People's Militia|QID|13|M|56.3,47.5|N|To Gryan Stoutmantle.|
 A The People's Militia|QID|14|M|56.3,47.5|N|From Gryan Stoutmantle.|PRE|13|
 R Moonbrook|ACTIVE|14|M|43,69|N|Run to Moonbrook to find the next set of Defias mobs.|
 C The People's Militia|QID|14|M|37,81.87|S|N|Kill Defias mobs until you finish this quest|
 A Thunderbrew|QID|117|M|44.61,74.46;44.63,80.26|CS|N|From Grimbooze Thunderbrew, path up into The Dagger Hills starts behind Moonbrook.|ACTIVE|116|
-C Thunderbrew|QID|117|M|38,51|N|If you skipped it earlier, Kill Harvest Watchers to collect Hops.|
+C Thunderbrew|QID|117|M|38,51|N|If you skipped it earlier, kill Harvest Watchers to collect Hops.|
 T Thunderbrew|QID|117|M|44.63,80.26|N|To Grimbooze Thunderbrew. Save this for the Barkeep in Westfall.|
 C The People's Militia|QID|14|M|37,81.87|US|N|Kill Defias mobs until you finish this quest|
 C Red Leather Bandanas|QID|153|M|37,81.87|N|Continue killing defias mobs until you finish your bandana collection.|

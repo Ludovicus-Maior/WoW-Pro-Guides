@@ -46,9 +46,9 @@ C A Hunter's Boast|QID|257|QO|1|N|Within 15 minutes, find and kill 6 Mountain Bu
 T A Hunter's Boast|QID|257|M|83.48,65.42|N|To Daryl the Youngling.|
 A A Hunter's Challenge|QID|258|M|83.48,65.42|N|[color=FF0000]NOTE: [/color]This is a TIMED Quest. The timer doesn't stop until the quest is turned in.\nFrom Daryl the Youngling.|PRE|257|
 A A Hunter's Challenge|QID|258|M|83.48,65.42|N|[color=CC00FF]QUEST FAILED [/color]\nGo back and reaccept the quest from Daryl the Youngling.|PRE|257|FAIL|
-C A Hunter's Challenge|QID|258|M|60.80,38.47|QO|1|N|Kill 5 Elder Mountain Boars within 12 minutes. You\ll find them in the open fields just past the hills northwest of Farstrider Lodge. Be careful as they mixed amongst the bears.|
+C A Hunter's Challenge|QID|258|M|60.80,38.47|QO|1|N|Kill 5 Elder Mountain Boars within 12 minutes. You'll find them in the open fields just past the hills northwest of Farstrider Lodge. Be careful as they mixed amongst the bears.|
 T A Hunter's Challenge|QID|258|M|83.51,65.53|N|To Daryl the Youngling.|
-A Vyrin's Revenge|QID|271|M|81.72,64.16|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Vyrin Swiftwind.\nOl' Sooty is an Elite lv 20 Bear.|PRE|258|O|
+A Vyrin's Revenge|QID|271|M|81.72,64.16|ELITE|N|[color=FF8000]Elite: [/color]\nFrom Vyrin Swiftwind.\nOl' Sooty is an Elite lv 20 Bear.\n[color=FF0000]NOTE: [/color]Do not accept this quest if you plan on leaving at level 18.|PRE|258|O|
 T Find Bingles|QID|2039|M|63.56,47.92|N|To Bingles Blastenheimer.|
 A Bingles' Missing Supplies|QID|2038|M|63.56,47.92|N|From Bingles Blastenheimer.|PRE|2039|
 C Crocolisk Hunting|QID|385|QO|1;2|N|Kill and loot crocolisks for their skin and meat. You'll find them in the Loch, on the islands and along the shoreline.|
@@ -81,6 +81,7 @@ T Mercenaries|QID|255|M|34.69,43.19|N|To Magistrate Bluntnose.|
 T WANTED: Chok'sul|QID|256|M|34.69,43.18|N|To Magistrate Bluntnose.|
 F Ironforge|ACTIVE|301|M|33.94,50.95|N|Fly to Ironforge at Thorgrum Borrelson.|
 = Train|ACTIVE|301^302|N|Stop by the Trainer, AH, whatever other town stuff you need to do.|
+N Collection Items|AVAILABLE|103^117|ACTIVE|38|N|Make sure you grab the hops, flasks of oil and Westfall Stew items from your bank if you dropped them off.|
 T Report to Ironforge|QID|301|M|74.66,11.74|Z|Ironforge|N|To Prospector Stormpike.|
 A Powder to Ironband|QID|302|PRE|301|M|74.66,11.74|Z|Ironforge|N|From Prospector Stormpike.|
 
@@ -89,17 +90,18 @@ T Powder to Ironband|QID|302|M|37.24,47.38|N|To Jern Hornhelm.|
 A Resupplying the Excavation|QID|273|PRE|302|M|37.24,47.38|N|From Jern Hornhelm.|
 R Grizzlepaw Ridge|ACTIVE|271|M|41.31,65.82|
 K Ol' Sooty|ACTIVE|271|M|40.21,66.95;36.81,61.23|CS|T|Ol' Sooty|N|Go up this path to find Ol' Sooty in a cave and take his head.|
-C Resupplying the Excavation|QID|273|M|50.77,69.03|QO|1|N|Find Huldar, Miran, and Saean|
+C Resupplying the Excavation|QID|273|M|50.77,69.03|QO|1|N|Find Huldar, Miran, and Saean.|
 T Resupplying the Excavation|QID|273|M|52.20,69.35|N|To Huldar.|
-A After the Ambush|QID|454|PRE|273|M|52.20,69.35|N|From Huldar.|
+A After the Ambush|QID|454|M|52.20,69.35|N|From Huldar.|PRE|273|
 T After the Ambush|QID|454|M|52.22,69.44|N|To Miran.|
-A Protecting the Shipment|QID|309|PRE|454|M|52.22,69.44|N|From Miran.|
+A Protecting the Shipment|QID|309|M|52.22,69.44|ELITE|N|[color=80FF00]Escort Quest:[/color]\nFrom Miran.|PRE|454|
+C Protecting the Shipment|QID|309|M|63.02,66.08;65.19,65.94|CC|N|Escort Miran to Ironband's Excavation Site. You will get ambushed by 2 Dark Iron mobs just before you get there. Dispatch them and continue to the camp.|
 T Protecting the Shipment|QID|309|M|65.96,65.62|N|To Prospector Ironband.|
+T Bingles' Missing Supplies|QID|2038|M|63.54,47.90|N|To Bingles Blastenheimer.|
 T Vyrin's Revenge|QID|271|M|83.51,65.44|N|To Daryl the Youngling.|
 A Vyrin's Revenge|QID|531|PRE|271|M|83.51,65.44|N|From Daryl the Youngling.|
 T Vyrin's Revenge|QID|531|M|81.72,64.14|N|To Vyrin Swiftwind.|
 T Crocolisk Hunting|QID|385|M|81.75,61.65|N|To Marek Ironheart.|
-T Bingles' Missing Supplies|QID|2038|M|63.54,47.90|N|To Bingles Blastenheimer.|
-H Hearth|N|Return to your previous activities.|
+H Hearth|N|Return to your previous activities.\nManually close this step to complete the guide.|
 ]]
 end)
