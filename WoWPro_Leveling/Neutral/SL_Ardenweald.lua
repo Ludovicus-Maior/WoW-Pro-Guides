@@ -234,14 +234,6 @@ A I Know Your Face|QID|60632|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Hunt-C
 C I Know Your Face|QID|60632|M|48.49,36.84|Z|Ardenweald!The Shadowlands|QO|1|N|Lorkron the Hunter slain.|MS|
 C I Know Your Face|QID|60632|M|48.94,35.73|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak to Korayn.|MS|
 T I Know Your Face|QID|60632|M|51.28,33.96|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
-A Return to Tirna Vaal|QID|60522|M|51.28,33.96|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60632|MS|
-F Tirna Vaal|ACTIVE|60522|M|51.41,34.48|Z|Ardenweald!The Shadowlands|N|Fly back to Tirna Vaal.|MS|
-C Return to Tirna Vaal|QID|60522|M|63.39,37.51|Z|Ardenweald!The Shadowlands|QO|1|N|Return to Tirna Vaal.|MS|
-T Return to Tirna Vaal|QID|60522|M|50.19,46.65|Z|Ardenweald_Micro_C|N|To Dreamweaver.|MS|
-A Nightmares Manifest|QID|60520|M|50.19,46.65|Z|Ardenweald_Micro_C|N|From Dreamweaver.|PRE|60522|MS|
-C Nightmares Manifest|QID|60520|M|62.94,35.88|Z|Ardenweald!The Shadowlands|QO|1|N|Nightmares confronted.|MS|
-C Nightmares Manifest|QID|60520|M|49.55,51.28|Z|Ardenweald_Micro_C|QO|2|NC|N|Wildseed soothed.|MS|
-T Nightmares Manifest|QID|60520|M|50.02,48.76|Z|Ardenweald_Micro_C|N|To Dreamweaver.|MS|
 
 ; Sidequest Storyline - Trouble at the Gormling Corral & Supplies Needed
 T Trouble in the Banks|QID|57651|M|46.64,29.47|Z|Ardenweald!The Shadowlands|N|To Foreman Thorodir.|RANK|2|
@@ -284,27 +276,40 @@ T What a Buzzkill|QID|59623|M|51.54,33.97|Z|Ardenweald!The Shadowlands|N|To Gorm
 ; Sidequest Storyline - Tricky Spriggans
 A Ages-Echoing Wisdom|QID|57865|M|51.07,33.79|Z|Ardenweald!The Shadowlands|N|From Lady of the Falls.|LVL|56|RANK|2|
 A Idle Hands|QID|57866|M|51.07,33.79|Z|Ardenweald!The Shadowlands|N|From Lady of the Falls.|LVL|56|RANK|2|
-A Spirit-Gathering Labor|QID|57869|M|56.42,29.25|Z|Ardenweald!The Shadowlands|N|From Groonoomcrooek.|LVL|56|RANK|2|
 A The Sweat of Our Brow|QID|57867|M|55.51,29.89|Z|Ardenweald!The Shadowlands|N|From Helpful Faerie.|LVL|56|RANK|2|
-C Ages-Echoing Wisdom|QID|57865|M|56.43,29.25|Z|Ardenweald!The Shadowlands|QO|1|N|Groonoomcrooek found.|RANK|2|
+C Idle Hands|QID|57866|M|55.01,24.53|Z|Ardenweald!The Shadowlands|QO|1|N|Brittlebark invaders slain.|S|RANK|2|
+C The Sweat of Our Brow|QID|57867|M|56.84,23.40|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Booby trapped tools disarmed.|S|RANK|2|
+A Spirit-Gathering Labor|QID|57869|M|56.42,29.25|Z|Ardenweald!The Shadowlands|N|From Groonoomcrooek.|LVL|56|RANK|2|
+C Spirit-Gathering Labor|QID|57869|M|56.85,28.23|Z|Ardenweald!The Shadowlands|QO|1|NC|N|River Sediment.|S|RANK|2|
+C Ages-Echoing Wisdom|QID|57865|M|56.43,29.25|Z|Ardenweald!The Shadowlands|QO|1|N|Groonoomcrooek found.|CHAT|RANK|2|
 A The Games We Play|QID|57870|M|59.05,24.38|Z|Ardenweald!The Shadowlands|N|From Elder Gwenna.|LVL|56|RANK|2|
-C The Games We Play|QID|57870|M|58.42,27.38|Z|Ardenweald!The Shadowlands|QO|1|N|Secret discovered.|RANK|2|
-C Spirit-Gathering Labor|QID|57869|M|56.85,28.23|Z|Ardenweald!The Shadowlands|QO|1|N|River Sediment.|RANK|2|
+C Ages-Echoing Wisdom|QID|57865|M|59.06,24.36|Z|Ardenweald!The Shadowlands|QO|3|CHAT|N|Elder Gwenna found.|RANK|2|
+C The Games We Play|QID|57870|M|58.42,27.38|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Secret discovered.|S|RANK|2|
 A Craftsman Needs No Tools|QID|57868|M|55.83,23.47|Z|Ardenweald!The Shadowlands|N|From Elder Finnan.|LVL|56|RANK|2|
-C Idle Hands|QID|57866|M|55.01,24.53|Z|Ardenweald!The Shadowlands|QO|1|N|Brittlebark invaders slain.|RANK|2|
-C Ages-Echoing Wisdom|QID|57865|M|55.79,23.50|Z|Ardenweald!The Shadowlands|QO|2|N|Elder Finnan found.|RANK|2|
-C Craftsman Needs No Tools|QID|57868|M|56.74,23.88|Z|Ardenweald!The Shadowlands|QO|1|N|Finnan's Lucky Mallet.|RANK|2|
-C The Sweat of Our Brow|QID|57867|M|56.84,23.40|Z|Ardenweald!The Shadowlands|QO|1|N|Booby trapped tools disarmed.|RANK|2|
-T Craftsman Needs No Tools|QID|57868|M|55.82,23.50|Z|Ardenweald!The Shadowlands|N|To Elder Finnan.|RANK|2|
+C Ages-Echoing Wisdom|QID|57865|M|55.79,23.50|Z|Ardenweald!The Shadowlands|QO|2|N|Elder Finnan found.|CHAT|RANK|2|
+C Craftsman Needs No Tools|QID|57868|M|56.74,23.88|Z|Ardenweald!The Shadowlands|QO|1|N|Finnan's Lucky Mallet.|S|RANK|2|
+C The Games We Play|QID|57870|M|58.42,27.38|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Secret discovered.|US|RANK|2|
 T The Games We Play|QID|57870|M|59.06,24.36|Z|Ardenweald!The Shadowlands|N|To Elder Gwenna.|RANK|2|
-C Ages-Echoing Wisdom|QID|57865|M|59.06,24.36|Z|Ardenweald!The Shadowlands|QO|3|N|Elder Gwenna found.|RANK|2|
 A Outplayed|QID|57871|M|59.06,24.36|Z|Ardenweald!The Shadowlands|N|From Elder Gwenna.|PRE|57870|RANK|2|
 C Outplayed|QID|57871|M|56.78,25.96|Z|Ardenweald!The Shadowlands|QO|1|U|173355|N|Wicked Wort slain.|RANK|2|
+C Idle Hands|QID|57866|M|55.01,24.53|Z|Ardenweald!The Shadowlands|QO|1|N|Brittlebark invaders slain.|US|RANK|2|
+C The Sweat of Our Brow|QID|57867|M|56.84,23.40|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Booby trapped tools disarmed.|US|RANK|2|
+C Spirit-Gathering Labor|QID|57869|M|56.85,28.23|Z|Ardenweald!The Shadowlands|QO|1|NC|N|River Sediment.|US|RANK|2|
+C Craftsman Needs No Tools|QID|57868|M|56.74,23.88|Z|Ardenweald!The Shadowlands|QO|1|N|Finnan's Lucky Mallet.|US|RANK|2|
+T Craftsman Needs No Tools|QID|57868|M|55.82,23.50|Z|Ardenweald!The Shadowlands|N|To Elder Finnan.|RANK|2|
 T Spirit-Gathering Labor|QID|57869|M|56.39,29.24|Z|Ardenweald!The Shadowlands|N|To Groonoomcrooek.|RANK|2|
 T Ages-Echoing Wisdom|QID|57865|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
 T Idle Hands|QID|57866|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
 T The Sweat of Our Brow|QID|57867|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
 T Outplayed|QID|57871|M|51.08,33.78|Z|Ardenweald!The Shadowlands|N|To Lady of the Falls.|RANK|2|
+A Return to Tirna Vaal|QID|60522|M|51.28,33.96|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60632|MS|
+F Tirna Vaal|ACTIVE|60522|M|51.41,34.48|Z|Ardenweald!The Shadowlands|N|Fly back to Tirna Vaal.|MS|
+C Return to Tirna Vaal|QID|60522|M|63.39,37.51|Z|Ardenweald!The Shadowlands|QO|1|N|Return to Tirna Vaal.|MS|
+T Return to Tirna Vaal|QID|60522|M|50.19,46.65|Z|Ardenweald_Micro_C|N|To Dreamweaver.|MS|
+A Nightmares Manifest|QID|60520|M|50.19,46.65|Z|Ardenweald_Micro_C|N|From Dreamweaver.|PRE|60522|MS|
+C Nightmares Manifest|QID|60520|M|62.94,35.88|Z|Ardenweald!The Shadowlands|QO|1|N|Nightmares confronted.|MS|
+C Nightmares Manifest|QID|60520|M|49.55,51.28|Z|Ardenweald_Micro_C|QO|2|NC|N|Wildseed soothed.|MS|
+T Nightmares Manifest|QID|60520|M|50.02,48.76|Z|Ardenweald_Micro_C|N|To Dreamweaver.|MS|
 
 ; This is the Way Storyline
 A The Way to Hibernal Hollow|QID|60738|M|50.02,48.76|Z|Ardenweald_Micro_C|N|From Dreamweaver.|PRE|60520|MS|
@@ -336,48 +341,53 @@ C Infusing the Wildseed|QID|60905|M|59.99,53.99|Z|Ardenweald!The Shadowlands|QO|
 C Infusing the Wildseed|QID|60905|M|60.03,53.00|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak with Dreamweaver to perform ritual.|MS|
 T Infusing the Wildseed|QID|60905|M|60.15,52.85|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 
-; Sidequest Storyline - Wicked Plan
-A Echoes of Tirna Noch|QID|58473|M|60.15,52.85|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60905|MS|
-A Forest Refugees|QID|62807|M|60.11,53.75|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|LVL|57|RANK|2|
-C Echoes of Tirna Noch|QID|58473|M|60.15,52.86|Z|Ardenweald!The Shadowlands|QO|1|N|Listen to Ara'lon's tale.|MS|
-A Blooming Villains|QID|58265|M|60.64,51.40|Z|Ardenweald!The Shadowlands|N|From Guardian Molan.|LVL|57|RANK|2|
-A Break It Down|QID|58266|M|53.47,58.72|Z|Ardenweald!The Shadowlands|N|From Primrose.|LVL|57|RANK|2|
-A Wake Up, Get Up, Get Out There|QID|58264|M|53.47,58.72|Z|Ardenweald!The Shadowlands|N|From Primrose.|LVL|57|RANK|2|
-C Blooming Villains|QID|58265|M|51.55,56.67|Z|Ardenweald!The Shadowlands|QO|1|N|Ritualists slain.|RANK|2|
-C Wake Up, Get Up, Get Out There|QID|58264|M|51.48,56.23|Z|Ardenweald!The Shadowlands|QO|1|N|Subdued Faeries aided.|RANK|2|
-C Break It Down|QID|58266|M|53.77,61.54|Z|Ardenweald!The Shadowlands|QO|1|N|Runed Altar destroyed.|RANK|2|
-T Wake Up, Get Up, Get Out There|QID|58264|M|53.72,61.45|Z|Ardenweald!The Shadowlands|N|To Primrose.|RANK|2|
-T Break It Down|QID|58266|M|53.72,61.45|Z|Ardenweald!The Shadowlands|N|To Primrose.|RANK|2|
-A Beneath the Mask|QID|58267|M|53.72,61.45|Z|Ardenweald!The Shadowlands|N|From Primrose.|PRE|58264&58266|RANK|2|
-C Beneath the Mask|QID|58267|M|54.42,61.52|Z|Ardenweald!The Shadowlands|QO|1|N|Ingra Drif confronted.|RANK|2|
-C Beneath the Mask|QID|58267|M|54.50,61.42|Z|Ardenweald!The Shadowlands|QO|2|N|Mindwarped Faerie slain.|RANK|2|
-T Beneath the Mask|QID|58267|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|RANK|2|
-T Blooming Villains|QID|58265|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|RANK|2|
 
 ; The Fallen Tree Storyline
+A Echoes of Tirna Noch|QID|58473|M|60.15,52.85|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|60905|MS|
+C Echoes of Tirna Noch|QID|58473|M|60.15,52.86|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Listen to Ara'lon's tale.|MS|
 T Echoes of Tirna Noch|QID|58473|M|68.47,57.47|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 A Take What You Can|QID|58484|M|68.47,57.47|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|58473|MS|
 A Read the Roots|QID|58480|M|68.47,57.47|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|58473|MS|
 A Mementos|QID|58483|M|68.47,57.47|Z|Ardenweald!The Shadowlands|N|From Niya.|PRE|58473|MS|
-C Read the Roots|QID|58480|M|68.98,53.03|Z|Ardenweald!The Shadowlands|QO|2|N|Northwest investigated.|MS|
-C Read the Roots|QID|58480|M|70.46,53.51|Z|Ardenweald!The Shadowlands|QO|3|N|Northeast investigated.|MS|
-C Take What You Can|QID|58484|M|70.01,54.07|Z|Ardenweald!The Shadowlands|QO|1|N|Plundered Anima taken.|MS|
-C Mementos|QID|58483|M|70.43,54.66|Z|Ardenweald!The Shadowlands|QO|1|N|Stolen Mementos recovered.|MS|
-T Take What You Can|QID|58484|M|69.96,53.74|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
-T Mementos|QID|58483|M|70.72,55.27|Z|Ardenweald!The Shadowlands|N|To Niya.|MS|
-C Read the Roots|QID|58480|M|70.90,57.05|Z|Ardenweald!The Shadowlands|QO|1|N|South investigated.|MS|
-T Read the Roots|QID|58480|M|70.90,57.05|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
+C Take What You Can|QID|58484|M|70.01,54.07|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Plundered Anima taken.|S|MS|
+C Mementos|QID|58483|M|70.43,54.66|Z|Ardenweald!The Shadowlands|QO|1|N|Stolen Mementos recovered.|S|MS|
+C Read the Roots|QID|58480|M|68.98,53.03|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Northwest investigated.|MS|
+C Read the Roots|QID|58480|M|70.46,53.51|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Northeast investigated.|MS|
+C Read the Roots|QID|58480|M|70.90,57.05|Z|Ardenweald!The Shadowlands|QO|1|NC|N|South investigated.|MS|
+C Take What You Can|QID|58484|M|70.01,54.07|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Plundered Anima taken.|US|MS|
+C Mementos|QID|58483|M|70.43,54.66|Z|Ardenweald!The Shadowlands|QO|1|N|Stolen Mementos recovered.|US|MS|
+T Take What You Can|QID|58484|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
+T Mementos|QID|58483|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Niya.|MS|
+T Read the Roots|QID|58480|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 A He's Drust in the Way|QID|58486|M|70.90,57.05|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|58484&58483&58480|MS|
 C He's Drust in the Way|QID|58486|M|70.38,54.10|Z|Ardenweald!The Shadowlands|QO|1|N|Vroth, Bulwark of Thros slain.|MS|
 T He's Drust in the Way|QID|58486|M|71.43,54.54|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 A Go for the Heart|QID|58488|M|71.43,54.54|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|PRE|58486|MS|
 C Go for the Heart|QID|58488|M|71.68,54.67|Z|Ardenweald!The Shadowlands|QO|1|N|Barrier Destroyed.|MS|
-C Go for the Heart|QID|58488|M|71.75,54.69|Z|Ardenweald!The Shadowlands|QO|2|N|Heart of Tirna Noch collected.|MS|
+C Go for the Heart|QID|58488|M|71.75,54.69|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Heart of Tirna Noch collected.|MS|
 T Go for the Heart|QID|58488|M|71.48,54.58|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|MS|
 A Sparkles Rain from Above|QID|58524|M|71.52,54.67|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|58488|MS|
-C Sparkles Rain from Above|QID|58524|M|71.52,54.67|Z|Ardenweald!The Shadowlands|QO|1|N|Speak with Lady Moonberry.|MS|
+C Sparkles Rain from Above|QID|58524|M|71.52,54.67|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Lady Moonberry.|MS|
 C Sparkles Rain from Above|QID|58524|M|70.71,55.92|Z|Ardenweald!The Shadowlands|QO|2|N|Invaders slain.|MS|
 T Sparkles Rain from Above|QID|58524|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
+
+; Sidequest Storyline - Wicked Plan
+A Forest Refugees|QID|62807|M|60.11,53.75|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|LVL|57|RANK|2|
+A Blooming Villains|QID|58265|M|60.64,51.40|Z|Ardenweald!The Shadowlands|N|From Guardian Molan.|LVL|57|RANK|2|
+A Wake Up, Get Up, Get Out There|QID|58264|M|53.47,58.72|Z|Ardenweald!The Shadowlands|N|From Primrose.|LVL|57|RANK|2|
+A Break It Down|QID|58266|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Primrose.|LVL|57|RANK|2|
+C Blooming Villains|QID|58265|M|51.55,56.67|Z|Ardenweald!The Shadowlands|N|Ritualists slain.|S|RANK|2|
+C Wake Up, Get Up, Get Out There|QID|58264|M|51.48,56.23|Z|Ardenweald!The Shadowlands|NC|N|Subdued Faeries aided.|S|RANK|2|
+C Break It Down|QID|58266|M|53.77,61.54|Z|Ardenweald!The Shadowlands|U|174078|N|Runed Altar destroyed.|RANK|2|
+C Blooming Villains|QID|58265|M|51.55,56.67|Z|Ardenweald!The Shadowlands|N|Ritualists slain.|US|RANK|2|
+C Wake Up, Get Up, Get Out There|QID|58264|M|51.48,56.23|Z|Ardenweald!The Shadowlands|NC|N|Subdued Faeries aided.|US|RANK|2|
+T Wake Up, Get Up, Get Out There|QID|58264|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Primrose.|RANK|2|
+T Break It Down|QID|58266|M|PLAYER|Z|Ardenweald!The Shadowlands|N|To Primrose.|RANK|2|
+A Beneath the Mask|QID|58267|M|PLAYER|Z|Ardenweald!The Shadowlands|N|From Primrose.|PRE|58264&58266|RANK|2|
+C Beneath the Mask|QID|58267|M|54.42,61.52|Z|Ardenweald!The Shadowlands|QO|1|N|Ingra Drif confronted.|RANK|2|
+C Beneath the Mask|QID|58267|M|54.50,61.42|Z|Ardenweald!The Shadowlands|QO|2|N|Mindwarped Faerie slain.|RANK|2|
+T Beneath the Mask|QID|58267|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|RANK|2|
+T Blooming Villains|QID|58265|M|60.63,51.40|Z|Ardenweald!The Shadowlands|N|To Guardian Molan.|RANK|2|
 
 ; Visions of the Dreamer Storyline
 A For the Sake of Spirit|QID|60572|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|PRE|58524|MS|
@@ -385,31 +395,34 @@ A Despoilers|QID|58591|M|60.10,53.90|Z|Ardenweald!The Shadowlands|N|From Droman 
 T For the Sake of Spirit|QID|60572|M|60.06,53.02|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
 A The Restless Dreamer|QID|58589|M|60.06,53.02|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|60572|MS|
 A Caring for the Caretakers|QID|58592|M|60.06,53.02|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|60572|MS|
-C The Restless Dreamer|QID|58589|M|57.87,49.93|Z|Ardenweald!The Shadowlands|QO|2|N|North Dreamshrine attuned.|MS|
-C Despoilers|QID|58591|M|60.81,56.49|Z|Ardenweald!The Shadowlands|QO|1|N|Witherscorn or Blighted slain.|MS|
-C The Restless Dreamer|QID|58589|M|61.14,56.63|Z|Ardenweald!The Shadowlands|QO|1|N|South Dreamshrine attuned.|MS|
-C The Restless Dreamer|QID|58589|M|60.00,53.00|Z|Ardenweald!The Shadowlands|QO|3|N|Heart Bound to Dreamer's Wildseed.|MS|
+C Despoilers|QID|58591|M|60.81,56.49|Z|Ardenweald!The Shadowlands|S|QO|1|N|Witherscorn or Blighted slain.|MS|
+C Caring for the Caretakers|QID|58592|M|61.32,50.77|Z|Ardenweald!The Shadowlands|S|NC|N|Trapped Spirit Tenders freed.|MS|
+C The Restless Dreamer|QID|58589|M|57.87,49.93|Z|Ardenweald!The Shadowlands|QO|2|NC|N|North Dreamshrine attuned.|MS|
+C The Restless Dreamer|QID|58589|M|61.14,56.63|Z|Ardenweald!The Shadowlands|QO|1|NC|N|South Dreamshrine attuned.|MS|
+C The Restless Dreamer|QID|58589|M|60.00,53.00|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Heart Bound to Dreamer's Wildseed.|MS|
+C Despoilers|QID|58591|M|60.81,56.49|Z|Ardenweald!The Shadowlands|QO|1|US|N|Witherscorn or Blighted slain.|MS|
+C Caring for the Caretakers|QID|58592|M|61.32,50.77|Z|Ardenweald!The Shadowlands|US|NC|N|Trapped Spirit Tenders freed.|MS|
+C Despoilers|QID|58591|M|60.81,56.49|Z|Ardenweald!The Shadowlands|QO|2|N|Witherscorn or Blighted slain.|MS|
 T The Restless Dreamer|QID|58589|M|60.00,53.00|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
-C Despoilers|QID|58591|M|60.82,49.26|Z|Ardenweald!The Shadowlands|QO|2|N|Skell the Despoiler slain.|MS|
-C Caring for the Caretakers|QID|58592|M|61.32,50.77|Z|Ardenweald!The Shadowlands|QO|1|N|Trapped Spirit Tenders freed.|MS|
-T Despoilers|QID|58591|M|60.11,53.78|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 T Caring for the Caretakers|QID|58592|M|60.09,52.94|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
+T Despoilers|QID|58591|M|60.11,53.78|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 A Visions of the Dreamer: Origins|QID|58590|M|60.07,53.04|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|58591&58592&58589|MS|
 A Visions of the Dreamer: The Betrayal|QID|60578|M|60.07,53.04|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|58591&58592&58589|MS|
-C Visions of the Dreamer: Origins|QID|58590|M|57.92,50.13|Z|Ardenweald!The Shadowlands|QO|1|N|Enter the spirit's dream.|MS|
-C Visions of the Dreamer: The Betrayal|QID|60578|M|57.92,50.13|Z|Ardenweald!The Shadowlands|QO|1|N|Enter the spirit's dream.|MS|
-C Visions of the Dreamer: The Betrayal|QID|60578|M|58.20,49.72|Z|Ardenweald!The Shadowlands|QO|2|N|Worldbreaker defeated.|MS|
-C Visions of the Dreamer: Origins|QID|58590|M|61.56,56.43|Z|Ardenweald!The Shadowlands|QO|2|N|Nightmares slain.|MS|
-C Visions of the Dreamer: Origins|QID|58590|M|61.07,48.43|Z|Ardenweald!The Shadowlands|QO|3|N|Abandoned Whelps comforted.|MS|
+C Visions of the Dreamer: Origins|QID|58590|M|57.92,50.13|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Enter the spirit's dream.|MS|
+C Visions of the Dreamer: The Betrayal|QID|60578|M|57.92,50.13|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Enter the spirit's dream.|MS|
+C Visions of the Dreamer: The Betrayal|QID|60578|M|58.20,49.72|Z|Ardenweald!The Shadowlands|QO|2|S|N|Worldbreaker defeated.|MS|
+C Visions of the Dreamer: Origins|QID|58590|M|61.56,56.43|Z|Ardenweald!The Shadowlands|QO|2|S|N|Nightmares slain.|MS|
+C Visions of the Dreamer: Origins|QID|58590|M|61.07,48.43|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Abandoned Whelps comforted.|MS|
+C Visions of the Dreamer: The Betrayal|QID|60578|M|58.20,49.72|Z|Ardenweald!The Shadowlands|QO|2|US|N|Worldbreaker defeated.|MS|
+C Visions of the Dreamer: Origins|QID|58590|M|61.56,56.43|Z|Ardenweald!The Shadowlands|QO|2|US|N|Nightmares slain.|MS|
 T Visions of the Dreamer: The Betrayal|QID|60578|M|60.02,52.99|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
 T Visions of the Dreamer: Origins|QID|58590|M|60.08,52.92|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
 A End of the Dream|QID|58593|M|60.08,52.92|Z|Ardenweald!The Shadowlands|N|From Dreamweaver.|PRE|60578&58590|MS|
-C End of the Dream|QID|58593|M|60.08,52.92|Z|Ardenweald!The Shadowlands|QO|1|N|Speak to Dreamweaver.|MS|
+C End of the Dream|QID|58593|M|60.08,52.92|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak to Dreamweaver.|MS|
 C Temple of Elune|ACTIVE|58593|Z|Temple of Elune|SO|1|S|N|Begin the attack on the Temple of Elune.|MS|
 C Attack the Temple of Elune|ACTIVE|58593|M|34.28,34.64|Z|Broken Isles|SO|1;1|N|Attack the Temple of Elune.|MS|
 C Temple of Elune|ACTIVE|58593|Z|Temple of Elune|SO|1|US|N|Begin the attack on the Temple of Elune.|MS|
 C Fall of Ysera|ACTIVE|58593|Z|Temple of Elune|SO|2|S|N|Kill the defenders of the Temple of Elune.|MS|
-C Fall of Ysera|ACTIVE|58593|Z|Temple of Elune|SO|2|US|N|nil.|MS|
 C Destroy the Temple of Elune|ACTIVE|58593|M|34.28,34.68|Z|Broken Isles|SO|2;1|N|Destroy the Temple of Elune.|MS|
 C End of the Dream|QID|58593|M|34.28,34.68|Z|Broken Isles|QO|2|N|Witness the end of the spirit's life.|MS|
 T End of the Dream|QID|58593|M|60.06,53.04|Z|Ardenweald!The Shadowlands|N|To Dreamweaver.|MS|
@@ -417,10 +430,10 @@ T End of the Dream|QID|58593|M|60.06,53.04|Z|Ardenweald!The Shadowlands|N|To Dre
 ; Awaken the Dreamer Storyline
 A The Forest Has Eyes|QID|58714|M|60.02,53.05|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|58593|MS|
 A The Droman's Call|QID|58719|M|60.11,53.83|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|PRE|58593|MS|
+C The Forest Has Eyes|QID|58714|M|59.46,53.87|Z|Ardenweald!The Shadowlands|QO|1|N|Possessed Spy slain.|MS|
 C The Droman's Call|QID|58719|M|58.03,55.38|Z|Ardenweald!The Shadowlands|QO|3|U|174864|N|Horn Sounded at West Road.|MS|
 C The Droman's Call|QID|58719|M|62.20,55.50|Z|Ardenweald!The Shadowlands|QO|1|U|174864|N|Horn Sounded at East Road.|MS|
 C The Droman's Call|QID|58719|M|60.05,48.94|Z|Ardenweald!The Shadowlands|QO|2|U|174864|N|Horn Sounded at North Road.|MS|
-C The Forest Has Eyes|QID|58714|M|59.46,53.87|Z|Ardenweald!The Shadowlands|QO|1|N|Possessed Spy slain.|MS|
 T The Droman's Call|QID|58719|M|60.13,53.75|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 T The Forest Has Eyes|QID|58714|M|60.07,53.79|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 A Missing!|QID|58720|M|60.07,53.79|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|PRE|58719&58714|MS|
@@ -429,27 +442,26 @@ A Enemies at the Gates|QID|60621|M|55.99,57.67|Z|Ardenweald!The Shadowlands|N|Fr
 T Enemies at the Gates|QID|60621|M|59.81,53.16|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 A Battle for Hibernal Hollow|QID|58869|M|59.81,53.16|Z|Ardenweald!The Shadowlands|N|From Droman Aliothe.|PRE|60621|MS|
 C Battle for Hibernal Hollow|QID|58869|M|59.78,52.05|Z|Ardenweald!The Shadowlands|QO|1|N|Attackers slain.|MS|
-C Battle for Hibernal Hollow|QID|58869|M|59.84,53.09|Z|Ardenweald!The Shadowlands|QO|2|N|Speak to Droman Aliothe.|MS|
+C Battle for Hibernal Hollow|QID|58869|M|59.84,53.09|Z|Ardenweald!The Shadowlands|QO|2|CHAT|N|Speak to Droman Aliothe.|MS|
 C Battle for Hibernal Hollow|QID|58869|M|60.03,53.09|Z|Ardenweald!The Shadowlands|QO|3|N|Lorkron and Fulyar the Destroyer defeated.|MS|
 T Battle for Hibernal Hollow|QID|58869|M|59.92,53.09|Z|Ardenweald!The Shadowlands|N|To Droman Aliothe.|MS|
 A Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|PRE|58869|MS|
-C Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|QO|1|N|Speak with Moonberry.|MS|
+C Dying Dreams|QID|60661|M|59.94,52.97|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Speak with Moonberry.|MS|
 C Dying Dreams|QID|60661|M|48.22,54.30|Z|Ardenweald!The Shadowlands|QO|2|N|Ysera's wildseed escorted.|MS|
 T Dying Dreams|QID|60661|M|47.94,53.85|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|MS|
 A Awaken the Dreamer|QID|58721|M|48,53.8|Z|Ardenweald!The Shadowlands|N|From Lord Herne.|PRE|60661|RANK|2|
 C Awaken the Dreamer|QID|58721|M|47.4,32.6|Z|Ardenweald!The Shadowlands|N|Travel to the Grove of Awakening.|RANK|2|
 T Awaken the Dreamer|QID|58721|M|45.2,63|Z|Ardenweald!The Shadowlands|N|To Winter Queen.|MS|
-A The Court of Winter|QID|58723|M|45.2,63|Z|Ardenweald!The Shadowlands|N|From Winter Queen.|PRE|58721|MS|
-C The Court of Winter|QID|58723|M|47.4,32.6|Z|Ardenweald!The Shadowlands|QO|1|N|Primus's Message delivered.|MS|
+A The Court of Winter|QID|58723|M|45.27,63.14|Z|Ardenweald!The Shadowlands|N|From Winter Queen.|PRE|58721|MS|
+C The Court of Winter|QID|58723|M|45.27,63.14|Z|Ardenweald!The Shadowlands|QO|1|CHAT|N|Primus's Message delivered.|MS|
+f Heart of the Forest|QID|62371|M|49.31,51.84|Z|Ardenweald!The Shadowlands|N|At Derwynnthlmn.|RANK|2|
+T Forest Refugees|QID|62807|M|48.40,50.51|Z|Ardenweald!The Shadowlands|N|To Flwngyrr.|RANK|2|
 C The Court of Winter|QID|58723|M|47.4,32.6|Z|Ardenweald!The Shadowlands|QO|2|N|Travel to the Heart of the Forest.|MS|
-C The Court of Winter|QID|58723|Z|Ardenweald!The Shadowlands|QO|3|N|Speak with Winter Queen.|MS|
+C The Court of Winter|QID|58723|M|48.66,34.74|Z|1701|QO|3|CHAT|N|Speak with Winter Queen.|MS|
 T The Court of Winter|QID|58723|M|45.2,63|Z|Ardenweald!The Shadowlands|N|To Winter Queen.|MS|
 A The Queen's Request|QID|58724|M|45.2,63|Z|Ardenweald!The Shadowlands|N|From Winter Queen.|PRE|58723|MS|
-C The Queen's Request|QID|58724|Z|Ardenweald!The Shadowlands|N|Unknown.|MS|
+C The Queen's Request|QID|58724|Z|Ardenweald!The Shadowlands|N|MS|
+F Oribos|ACTIVE|58724|M|49.32,51.90|Z|Ardenweald!The Shadowlands|MS|
 T The Queen's Request|QID|58724|M|49,35.2|Z|Ardenweald!The Shadowlands|N|To Winter Queen.|MS|
-A Tirna Scithe: A Warning Silence|QID|62371|M|48.40,50.51|Z|Ardenweald!The Shadowlands|N|From Flwngyrr.|RANK|2|
-T Forest Refugees|QID|62807|M|48.40,50.51|Z|Ardenweald!The Shadowlands|N|To Flwngyrr.|RANK|2|
-f Heart of the Forest|QID|62371|M|49.31,51.84|Z|Ardenweald!The Shadowlands|N|At Derwynnthlmn.|RANK|2|
-f Dreamsong Fenn|QID|53436|M|36.82,36.75|Z|Ardenweald!The Shadowlands|N|At Crysta Flutterwing.|RANK|2|
 ]]
 end)
