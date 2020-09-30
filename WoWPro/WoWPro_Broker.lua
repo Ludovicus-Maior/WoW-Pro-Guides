@@ -1,6 +1,6 @@
 -- luacheck: globals Grail TomTom Nx
 -- luacheck: globals select ipairs pairs next tremove tinsert
--- luacheck: globals tostring tonumber type abs max floor ceil
+-- luacheck: globals tostring tonumber type abs max floor ceil date
 -- luacheck: globals debugstack
 
 -----------------------------
@@ -2410,7 +2410,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     WoWPro.why[guideIndex] = "NextStep(): Item Level ["..ilvlID.."] not met."
                 end
             end
-			
+
 			if WoWPro.MID and WoWPro.MID[guideIndex] then
 				local onMission
 				local MID = WoWPro.MID[guideIndex]
@@ -2425,7 +2425,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     WoWPro.why[guideIndex] = "NextStep(): Mission ["..MID.."] isn't active."
                 end
 			end
-			
+
 			if WoWPro.serverdate and WoWPro.serverdate[guideIndex] then
 				local serverdate = WoWPro.serverdate[guideIndex]
 				local epoch = _G.C_DateAndTime.GetServerTimeLocal()
