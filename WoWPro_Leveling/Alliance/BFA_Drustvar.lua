@@ -5,9 +5,8 @@ WoWPro:GuideName(guide,"Drustvar")
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|S!US|N|Jump to the Guide Hub|
-t The War Cache|QID|52544|N|To UI Alert.|
-A Time for War|QID|53332|N|From UI Alert.|PRE|52544|
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
+N Stormsong Valley Available|AVAILABLE|47962|M|PLAYER|LVL|35|S!US|N|Now that you have reached level 35, you can now continue your journey in [color=00FF96]Stormsong Valley[/color] and the [color=ff8000]War Campaign[/color] . \n\nYou can use the guide hub to help you navigate between all accessible guides.|
 N The Great Sea Scrolls|QID|53476|U|163852|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 N Small Treasure Chests|QID|48622|N|In this expansion, small treasure chests are found in differant places each time rather than fixed spawn points. Blizzard puts a treasure map symbol on your minimap automatically. The fixed treasures are named in this guide.|
 N Use of Ranks|QID|48622|N|Set guide to rank 1 if you want to do the minimum to get the zone achievement. Set guide to Rank 2 to also do the quests, treasures and rares that are conveniently located to the places you travel for Rank 1 steps. Set the guide to Rank 3 to get all the quests, rares and named treasures in the zone.|
@@ -63,14 +62,12 @@ K Rindlewoe|ACTIVE|51547|QO|1|M|52.28,26.66|N|Rindlewoe slain - He is found at t
 T The North Pass Caverns|QID|48948|M|53.92,26.99|N|To Thaddeus "Gramps" Rifthold is i the woods. There is a path up the hill that goes from the field where you found the farmer's journal at the back off Fallhaven.|
 A The Adventurer's Society|QID|48793|M|53.92,26.99|N|From Thaddeus "Gramps" Rifthold.|RANK|2|
 A Menace to Society|QID|48792|M|53.92,26.99|N|From Thaddeus "Gramps" Rifthold.|RANK|2|
-K Kill Bonegnasher Troggs|ACTIVE|48792|QO|1|N|Kill the Bonegnasher troggs as you go.|S|RANK|2|
+K Kill Bonegnasher Troggs|ACTIVE|48792|M|PLAYER|QO|1|N|Kill the Bonegnasher troggs as you go.|S|RANK|2|
 C Backpack |QID|48793|QO|1|M|53.36,25.80|NC|N|There is a backpack lying on the ground. Click on it and investigate.|
 l Scroll "Beginner's guide to Archeology"|QID|48793|QO|2|M|53.52,23.24|L|152677|N|In first cave lying on box.|RANK|2|
 l Book "Is it a rock? How to identify relics" |QID|48793|QO|3|M|53.05,22.43|L|152685|N|in second cave on the ground.|RANK|2|
 l Book "Half eaten journal" |QID|48793|M|51.80,24.13|QO|4|L|152676|N|In damaged crate before the pond.|RANK|2|
-K Kill Bonegnasher Troggs|ACTIVE|48792|QO|1|M|51.80,24.13|N|Finish killing Bonegnasher troggs.|US|
 T The Adventurer's Society|QID|48793|M|51.36,23.26|N|To Marcus Howlingdale at the bridge.|
-T Menace to Society|QID|48792|M|51.36,23.26|N|To Marcus Howlingdale.|
 A Mistakes Were Made|QID|48804|M|51.39,23.31|N|From Marcus Howlingdale.|PRE|48793|RANK|2|
 A Research Recovery|QID|48805|M|51.81,22.80|N|From evacuation inventory on the ground on other side of the route.|PRE|48793|RANK|2|
 C Mistakes Were Made|QID|48804|QO|1|M|52.68,20.97|NC|N|Jonathan Presterby saved - he is in the cave to the right.|
@@ -82,9 +79,11 @@ l "Relic of the Makers"|QID|48805|QO|1|M|50.75,20.22|L|152704|N|On higher ground
 K Grozgore|QID|49388|QO|1|M|50.29,20.74|N|Silver Elite to loot for azerite power and resources.|RARE|ITEM|160457|RANK|2|T|Grozgore|
 T Mistakes Were Made|QID|48804|M|50.63,24.31|N|To Marcus Howlingdale acrros the bridge.|
 T Research Recovery|QID|48805|M|50.63,24.31|N|To Marcus Howlingdale.|
-A Terminal Degree|QID|48853|M|50.63,24.31|N|From Marcus Howlingdale.|PRE|48792&48804|RANK|2|
+A Terminal Degree|QID|48853|M|50.63,24.31|N|From Marcus Howlingdale.|PRE|48804|RANK|2|
 K Kill Cragg the Stoneshaker|ACTIVE|48853|QO|1|M|49.70,23.49|N|He is in the cave behind you.|T|Cragg the Stoneshaker|RANK|2|
 C Terminal Degree|QID|48853|QO|2|M|49.40,23.37|NC|N|Free Nigel Rifthold from above the fire, little bit further in the cave.|
+K Kill Bonegnasher Troggs|ACTIVE|48792|QO|1|M|51.60,22.40|N|Finish killing Bonegnasher troggs.|US|
+T Menace to Society|QID|48792|M|51.36,23.26|N|To Marcus Howlingdale.|
 T Terminal Degree|QID|48853|M|50.59,24.43|N|To Thaddeus "Gramps" Rifthold who is with the rest of the children now.|
 H The Swine's Larder|ACTIVE|51547|M|55.50,34.26|U|6948|N|Use your hearthstone to go back to Fallhaven.|
 t WANTED: Rindlewoe|QID|51547|M|55.87,35.13|N|To Mayor Cyril White.|
@@ -762,6 +761,5 @@ T Everburning|QID|52149|M|36.05,51.18|N|To Lucille Waycrest.|
 A House Waycrest|QID|53109|M|36.05,51.18|N|From Lucille Waycrest.|PRE|52149|RANK|2|;not spurious
 F Tradewinds Market|ACTIVE|53109|M|38.14,52.50|N|Take flypoint to Tradewind market (Boralus Harbor).|RANK|2|FLY|BFA|
 T House Waycrest|QID|53109|M|73.81,25.10|Z|Tiragarde Sound|N|To Taelia.|RANK|2|
-D End of Drustvar
 ]]
 end)

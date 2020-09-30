@@ -2410,19 +2410,41 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     WoWPro.why[guideIndex] = "NextStep(): Item Level ["..ilvlID.."] not met."
                 end
             end
-
+			
+			if WoWPro.MID and WoWPro.MID[guideIndex] then
+				local onMission
+				local MID = WoWPro.MID[guideIndex]
+				local missionCheck = _G.C_Garrison.GetNumFollowersOnMission(MID)
+				if  missionCheck and missionCheck > 0 then
+					onMission = true
+				end
+				if onMission then
+                    WoWPro.CompleteStep(guideIndex, "NextStep(): Mission ["..MID.."] is currently active.")
+                    skip = true
+                else
+                    WoWPro.why[guideIndex] = "NextStep(): Mission ["..MID.."] isn't active."
+                end
+			end
+			
 			if WoWPro.serverdate and WoWPro.serverdate[guideIndex] then
-                local epoch = _G.C_DateAndTime.GetServerTimeLocal()
+				local serverdate = WoWPro.serverdate[guideIndex]
+				local epoch = _G.C_DateAndTime.GetServerTimeLocal()
+				local dateFlip
 				local timeMet
-                if tonumber(WoWPro.serverdate[guideIndex]) >= epoch then
+				if (serverdate:sub(1, 1) == "-") then
+                        serverdate = serverdate:sub(2)
+                        dateFlip = true
+                 end
+
+                if tonumber(serverdate) >= epoch then
                     timeMet = true
                 end
 
-                if timeMet then
-                    WoWPro.CompleteStep(guideIndex, "NextStep(): Server time ["..epoch.."] is less than "..WoWPro.serverdate[guideIndex]..".")
+                if timeMet ~= dateFlip then
+                    WoWPro.CompleteStep(guideIndex, "NextStep(): Server time ["..date("%m/%d/%y %H:%M", epoch).."] is less than "..date("%m/%d/%y %H:%M", serverdate)..".")
                     skip = true
                 else
-                    WoWPro.why[guideIndex] = "NextStep(): Date of ["..WoWPro.serverdate[guideIndex].."] hasn't happened yet."
+                    WoWPro.why[guideIndex] = "NextStep(): Date of ["..date("%m/%d/%y %H:%M", serverdate).."] hasn't happened yet."
                 end
             end
             -- Skipping spells if known.

@@ -237,6 +237,7 @@ end
 
 -- QID Tags first
 DefineTag("QID","QID","string",validate_andor_list_of_ints,nil)
+DefineTag("MID","MID","string",validate_andor_list_of_ints,nil)
 DefineTag("PRE","prereq","string",validate_andor_list_of_ints,nil)
 DefineTag("AVAILABLE","available","string",validate_andor_list_of_ints,function (value, i) WoWPro.available[i] = value end)
 DefineTag("O","optional","boolean",nil,function (text,i)
