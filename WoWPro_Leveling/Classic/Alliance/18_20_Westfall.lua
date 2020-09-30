@@ -9,6 +9,7 @@ WoWPro:GuideSteps(guide, function() return [[
 
 T The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|142|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|141|
+
 C Flask of Oil|AVAILABLE|103|L|814 5|N|Kill Harvest Watchers or Rusty Harvest Golems to collect 3 Flasks of Oil.|S|
 C Hops|AVAILABLE|117|ACTIVE|116|L|1274 5|N|Kill Harvest Watchers to collect Hops.|S|
 C The Defias Brotherhood|ACTIVE|142|L|1381|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave, and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|S|

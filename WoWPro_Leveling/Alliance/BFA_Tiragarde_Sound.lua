@@ -7,9 +7,7 @@ WoWPro:GuideSteps(guide, function()
 return [[
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
 N Drustvar Available|AVAILABLE|47961|M|PLAYER|LVL|25|S!US|N|Now that you have reached level 25, you can now continue your journey in [color=00FF96]Drustvar[/color]. \n\nYou now have access to the guide hub to help you navigate between guides.|
-t The War Cache|QID|52544|N|To UI Alert.|
-A Time for War|QID|53332|PRE|52544|N|From UI Alert.|
-N The Great Sea Scrolls|ACTIVE|53476|U|163852|NOCACHE|NA|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
+N The Great Sea Scrolls|ACTIVE|53476|U|163852|NA|N|From Ancient Pilgrimage Scrollcasing looted from a random small treasure chest. It might not drop from the first chest...but eventually it will. Reward is a helm with Azorite Traits, requires collecting 12 genuine scrolls from treasure chests. Click the Tortollan Pilgrimage Scroll you get out of treasure chests to discover it if is a duplicate or if it counts towards the quest.|
 t The Great Sea Scrolls|QID|53476|M|40.4,36.4|Z|Stormsong Valley|N|To Collector Kojo.|
 N Small Treasure Chests|QID|47485|N|In this expansion, small treasure chests are found in different places each time rather than fixed spawn points. To get these, watch for the symbols on your minimap. Fixed treasures are named in this guide if you have treasures enabled.|
 N Use of Ranks|QID|47485|N|Set guide to rank 1 if you want to do the minimum to get the zone achievement. Set guide to Rank 2 to also do the quests, treasures, and rares that are conveniently located. Set the guide to Rank 3 to get all the quests, rares, and named treasures in the zone. To get rares and treasures, you need to enable those options.|
@@ -356,11 +354,11 @@ A Proudmoore's Parley|QID|50972|PRE|50790|M|48.44,80.93|Z|1161|N|From Katherine 
 f Proudmoore Keep|ACTIVE|50972|M|47.65,65.42|Z|1161|N|At Jessica Clarke.|
 F Tradewinds Market|ACTIVE|50972|M|47.70,65.40|Z|1161|N|At Jessica Clarke.|
 $ Scrimshaw Cache|QID|52870|Z|Boralus|M|64.79,12.39;62.85,11.84;61.72,10.61|CS|N|Down the stairs and over the wall into a little cave for some Azerite Power and resources. You can return the same way you came.|RANK|2|
-A A Bundle of Furs|QID|51144|M|74.81,23.65|N|From "Risky" Liz Seminario.|RANK|2|
+A A Bundle of Furs|QID|51144|M|74.81,23.65|N|From "Risky" Liz Seminario.|RANK|3|
 A Trouble at Greystone Keep|QID|49715|M|74.12,22.55|N|From Courier Gerald.|LEAD|49733^51226|RANK|3|
 T A Bad Deal|QID|49523|M|75.47,22.18|N|To Roko. Patrols the area.|
 T Proudmoore's Parley|QID|50972|M|73.81,25.12|N|To Genn Greymane.|
-; A Tol Dagor: The Ashvane Overseer|QID|52800|PRE|50972|M|73.80,25.08|NA|N|From Cyrus Crestfall. This is a dungeon quest.|RANK|2| ;Not showing up for me
+A Tol Dagor: The Ashvane Overseer|QID|52800|PRE|50972|M|73.80,25.08|ELITE|N|[color=e6cc80]Dungeon: Tol Dagor[/color]\nFrom Cyrus Crestfall. This is optional and out of scope of this guide.|LVL|30|RANK|2| ;Not showing up for me
 N What follows|ACTIVE|49715|N|The quest you just finished has a zone finale feel to it, but not to worry the guide does not end here. This is a good spot to take a break for war campaign if you want, but there are 2 more areas for the zone achievement and a LOT of quests not part of the achievement on the other side of the bay. If you want you can set guide to rank 3 to get "everything".|
 b Eastpoint Station|ACTIVE|49715|M|75.29,25.77|N|Take the ferry to Eastpoint Station.|
 R Greystone Relief|ACTIVE|49715|M|74.85,43.88;77.88,43.28;79.08,42.18|CS|N|Run East towards Greystone Keep.|
@@ -613,9 +611,9 @@ T The Roughnecks|QID|49393|M|42.36,22.27|N|To Tagart.|
 A Hold Still|QID|49394|M|42.36,22.27|N|From Tagart.|PRE|49393|RANK|2|
 A The Bears and the Bees|QID|49395|M|42.36,22.27|N|From Tagart.|PRE|49393|RANK|2|
 f Roughneck Camp|ACTIVE|49395|M|42.50,23.03|N|At Dagin.|
-A WANTED: The Hornet|QID|51368|M|42.15,22.99|N|From Wanted Poster.|RANK|3|
-C The Bears and the Bees|QID|49395|M|48.73,17.44|QO|1|NC|S|N|Pick up the Honeycombs.|
-C The Bears and the Bees|QID|49395|M|47.36,19.39|QO|2|S|N|Kill Scruffhide Bears.|
+A WANTED: The Hornet|QID|51368|M|42.15,22.99|ELITE|N|[color=ff8000]Elite:[/color]From Wanted Poster.|RANK|2|
+C The Bears and the Bees|QID|49395|M|48.73,17.44|QO|1|NC|N|Pick up the Honeycombs.|S|
+C The Bears and the Bees|QID|49395|M|47.36,19.39|QO|2|N|Kill Scruffhide Bears.|S|
 C Hold Still|QID|49394|M|48.19,19.79|U|153596|S|N|Use the shears to collect Goat Fur, they don't like it much, must be done before killing them.|
 K Totes|QID|50095|QO|1|M|46.87,20.60|T|Totes|RARE|ITEM|160452|N|Silver Elite inside small cave to kill for Azerite Power and resources.|RANK|2|
 K The Hornet|ACTIVE|51368|M|47.37,18.18;47.48,18.01|CS|QO|1|T|The Hornet|N|Kill The Hornet in this small cave.|RANK|3|
@@ -623,8 +621,10 @@ A Helping Henry|QID|49412|M|47.71,17.63|N|From "Helpless" Henry.|RANK|2|
 C Helping Henry|QID|49412|M|48.71,18.01|N|Kill Brawr.|
 T Helping Henry|QID|49412|M|47.75,17.61|N|To "Helpless" Henry.|
 C Hold Still|QID|49394|M|48.19,19.79|US|U|153596|N|Finish collecting the Goat Fur.|
-C The Bears and the Bees|QID|49395|M|47.36,19.39|US|QO|2|N|Finish killing the Scruffhide Bears.|
-C The Bears and the Bees|QID|49395|M|47.36,19.39|US|QO|1|N|Finish collecting the honeycombs.|
+C The Bears and the Bees|QID|49395|M|47.36,19.39|QO|2|N|Finish killing the Scruffhide Bears.|US|
+C The Bears and the Bees|QID|49395|M|47.36,19.39|QO|1|N|Finish collecting the honeycombs.|US|
+
+
 T Hold Still|QID|49394|M|42.36,22.28|N|To Tagart.|
 T The Bears and the Bees|QID|49395|M|42.36,22.28|N|To Tagart.|
 t WANTED: The Hornet|QID|51368|M|42.36,22.28|N|To Tagart.|
@@ -668,7 +668,7 @@ T Wendies|QID|49433|M|40.42,13.75|N|To Boss Tak.|
 A Getting Paid|QID|49719|M|40.42,13.75|N|From Boss Tak.|RANK|2|PRE|49439&49433|
 T Getting Paid|QID|49719|M|42.39,22.28|N|To Tagart.|
 $ Smuggler's Cache|QID|50097|M|38.8,22.0;38.47,20.77|CC|N|Inside a cave. Click on the Smuggler's Cache to start short vignette - Ends with Captain Wintersail - Silver Elite to kill and loot for reasources and treasure.|RARE|ITEM|155422|RANK|3|
-R Anglepoint Wharf|ACTIVE|48347|M|40.94,24.41;42.30,27.25|CS|N|Take the footpath down the hill to Anglepoint Wharf.|
+R Anglepoint Wharf|ACTIVE|48347|M|40.94,24.41;42.30,27.25|CS|N|Take the footpath down the hill to Anglepoint Wharf.|FLY|BFA|
 $ Buried Treasure-Soggy Treasure Map|QID|52807|M|54.99,46.08|Z|Tiragarde Sound|N|If you have looted the Soggy Treasure Map, this treasure can be found on the ocean floor.|PRE|52853|RANK|3|
 K Bashmu|QID|50094|QO|1|M|34.01,30.29|Z|Tiragarde Sound|T|Bashmu|RARE|ITEM|160467|N|Hop over the wall to find this Silver Elite and kill for Azerite Power and resources.|RANK|3|
 A WANTED: Quartermaster Ssylis|QID|51384|M|42.30,27.25|N|From Wanted Poster.|RANK|3|
@@ -701,7 +701,7 @@ T Pulse of the Wharf|QID|48353|M|41.29,27.01|N|To Brother Therold.|
 A Evacuate the Premises|QID|48355|M|41.29,27.01|N|From Brother Therold.|PRE|49292&48353|
 A Tainted Shipments|QID|48354|M|41.29,27.01|N|From Brother Therold.|PRE|49292&48353|
 C Tainted Shipments|QID|48354|M|39.96,27.08|S|NC|N|Check the Barrels of Fish as you go. This will spawn 1-3 Infections brainworms.|
-C Evacuate the Premises|QID|48355|M|40.20,27.05|NC|N|Use your special action button while standing near to a Anglepoint Fishpacker to evacuate them.|
+C Evacuate the Premises|QID|48355|M|40.20,27.05|NC|N|Use your special action button "[color=40C7EB]Evacuate![/color]" while standing near to a Anglepoint Fishpacker to evacuate them.|EAB
 C Tainted Shipments|QID|48354|M|39.96,27.08|US|NC|N|Finish checking the Barrels of Fish.|
 T Evacuate the Premises|QID|48355|M|39.50,26.68|N|To Brother Therold.|
 T Tainted Shipments|QID|48354|M|39.50,26.68|N|To Brother Therold.|
@@ -724,7 +724,7 @@ T The Young Lord Stormsong|QID|48365|M|39.51,26.75|N|To Keegan Alby.|
 T Betrayal of the Guard|QID|48009|M|39.51,26.75|N|To Keegan Alby.|
 T Possessive Headgear|QID|48356|M|39.50,26.67|N|To Brother Therold.|
 A Paddle to Safety|QID|48366|M|39.55,26.70|N|From Brannon Stormsong.|PRE|48009&48356&48365|
-C Paddle to Safety|QID|48366|M|39.61,27.02|NC|N|Hop in the Rowboat.|
+C Paddle to Safety|QID|48366|M|39.61,27.02|V|N|Hop in the Rowboat.|
 T Paddle to Safety|QID|48366|M|35.20,24.20|N|To Brannon Stormsong.|
 A Creature Corruption|QID|49300|M|35.20,24.20|N|Bonus Objective - Autoaccepted.|LVL|-50|PRE|48366|RANK|2|
 A Eldritch Invocations|QID|48372|M|35.20,24.20|N|From Brannon Stormsong.|PRE|48366|
@@ -732,7 +732,7 @@ A Death in the Depths|QID|48370|M|35.25,24.18|N|From Keegan Alby.|PRE|48366|
 A Deep Sea Defilement|QID|48368|M|35.24,24.27|N|From Brother Therold.|PRE|48366|
 A Those Aren't Fish Eggs|QID|48367|M|34.95,24.21|N|From Rosaline Madison.|PRE|48366|
 f Outrigger Post|ACTIVE|49300|M|35.55,24.92|N|At Gregory Mussler.|
-R Krakenbane Cove|ACTIVE|49300|M|33.74,23.48|N|Run out to sea to find the eggs and corrupting pylons.|
+R Krakenbane Cove|ACTIVE|49300|M|33.74,23.48|N|Run out to sea to find the eggs and corrupting pylons.|FLY|BFA|
 C Creature Corruption|QID|49300|M|35.20,24.20|S|N|Bonus Objective - Kill stuff as you go along (like you have a choice).|
 C Those Aren't Fish Eggs|QID|48367|M|32.25,27.34|S|N|Attack the eggs.|
 C Death in the Depths|QID|48370|M|33.01,26.19|S|N|Kill Deepwarden Followers.|
@@ -753,15 +753,14 @@ T Deep Sea Defilement|QID|48368|M|35.24,24.27|N|To Brother Therold.|
 T WANTED: Quartermaster Ssylis|QID|51384|M|35.25,24.18;42.44,29.30|CN|N|To Keegan Alby. One of two locations.  Sorry!|RANK|3|
 A The Deadliest Catch|QID|49302|M|34.94,24.21|N|From Rosaline Madison.|PRE|48370&48372&48368&48367|
 C The Deadliest Catch|QID|49302|M|35.29,24.57|QO|1|CHAT|N|Speak to Okri for a ride.|
-C The Deadliest Catch|QID|49302|M|36.33,29.82|QO|2|NC|N|Hop on the Outrigger Cannon.|
+C The Deadliest Catch|QID|49302|M|36.33,29.82|QO|2|V|N|Hop on the Outrigger Cannon.|
 C The Deadliest Catch|QID|49302|M|36.32,29.82|QO|3|NC|N|Shoot down the Erupting Darkness.|
 C The Deadliest Catch|QID|49302|M|36.37,29.45|QO|4|CHAT|N|Tell the Outrigger Engineer to fire!.|
-C The Deadliest Catch|QID|49302|M|36.77,29.71|QO|5|NC|N|Hop on the Outrigger Gryphon for a ride to town.|
+C The Deadliest Catch|QID|49302|M|36.77,29.71|QO|5|V|N|Hop on the Outrigger Gryphon for a ride to town.|
 T The Deadliest Catch|QID|49302|M|42.46,29.34|N|To Brannon Stormsong.|
 H Tradewinds Market|TZ|Snug Harbor Inn|N|Hearth or take the nearby ferry back to Boralus.|
 A The Long Con|QID|49223|M|75.47,22.18|Z|Boralus|N|From Roko.|RANK|3|PRE|49523|
 K Carentan|ACTIVE|49223|QO|1|M|61.44,39.10|Z|Boralus|T|Carentan|N|Kill Carentan.|RANK|3|
 T The Long Con|QID|49223|M|75.47,22.18|Z|Boralus|N|To Roko.|RANK|3|
-D This ends the Tiragarde Sound Guide.|
 ]]
 end)

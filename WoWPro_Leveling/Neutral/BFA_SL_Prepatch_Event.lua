@@ -106,5 +106,6 @@ P Undercity|QID|61488|M|50.73,55.58|Z|Orgrimmar|N|[color=ff8000]WQ Raid: [/color
 C The Banshee's Champion|QID|61486^61488|M|23.17,68.46|Z|Eastern Plaguelands!Eastern Kingdoms|N|[color=ff8000]WQ Raid: [/color]Make your way to Eastern Kingdoms to finally put an end to Nathanos Blightcaller. Currently it is easily puggable with everyone trying to complete the quest.|
 T The Banshee's Champion|QID|61486|M|39.44,64.14|Z|Stormwind City|N|To Genn Greymane.|FACTION|Alliance|
 T The Banshee's Champion|QID|61488|M|49.24,73.71|Z|Orgrimmar|N|To Lor'themar Theron.|FACTION|Horde|
+N Continued October 13th|QID|60871|M|PLAYER|Z|Stormwind City|N|That concludes this weeks story events. Come back next week to get the next chapter of "Return of the Scourge".|DATE|-1602579600|
 ]]
 end)
