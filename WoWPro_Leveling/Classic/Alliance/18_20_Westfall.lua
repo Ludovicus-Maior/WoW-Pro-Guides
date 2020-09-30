@@ -9,17 +9,19 @@ WoWPro:GuideSteps(guide, function() return [[
 
 T The Defias Brotherhood|QID|141|M|56.3,47.5|N|To Gryan Stoutmantle.|
 A The Defias Brotherhood|QID|142|M|56.3,47.5|N|From Gryan Stoutmantle|PRE|141|
-l Flask of Oil|QID|103|M|38,51|S|N|Kill Harvest Watchers to collect Flask of Oil|L|814 5|
-l Hops|AVAILABLE|117|M|38,51|N|Kill Harvest Watchers to collect Hops.|L|1274 5|
-l Flask of Oil|QID|103|M|38,51|US|N|Kill Harvest Watchers to collect Flask of Oil|L|814 5|
+C Flask of Oil|AVAILABLE|103|L|814 5|N|Kill Harvest Watchers or Rusty Harvest Golems to collect 3 Flasks of Oil.|S|
+C Hops|AVAILABLE|117|ACTIVE|116|L|1274 5|N|Kill Harvest Watchers to collect Hops.|S|
+C The Defias Brotherhood|ACTIVE|142|L|1381|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave, and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|S|
 C Humble Beginnings|QID|399|M|36.25,54.50|Z|Westfall|L|2998|N|Loot the Compass from the chest at this location.|
-C The People's Militia|QID|13|Z|Westfall|M|38.20,57.00;34.61,43.38|CN|QO|1;2|N|Kill Defias Looters and Pillagers until you finish this quest. Move to the Quarry if this area is overcamped.|
-T The People's Militia|QID|13|M|56.3,47.5|N|To Gryan Stoutmantle.|
-A The People's Militia|QID|14|M|56.3,47.5|N|From Gryan Stoutmantle.|PRE|13|
-R Moonbrook|ACTIVE|14|M|43,69|N|Run to Moonbrook to find the next set of Defias mobs.|
-C The People's Militia|QID|14|M|37,81.87|S|N|Kill Defias mobs until you finish this quest|
-A Thunderbrew|QID|117|M|44.61,74.46;44.63,80.26|CS|N|From Grimbooze Thunderbrew, path up into The Dagger Hills starts behind Moonbrook.|ACTIVE|116|
-C Thunderbrew|QID|117|M|38,51|N|If you skipped it earlier, kill Harvest Watchers to collect Hops.|
+C The People's Militia|QID|13|Z|Westfall|M|38.20,57.00;34.61,43.38|CN|QO|1;2|N|Kill Defias Looters and Pillagers until you finish this quest. If this area is overcamped, move to the Quarry or Moonbrook.|
+T The People's Militia|QID|13|M|56.33,47.52|N|To Gryan Stoutmantle.|
+A The People's Militia|QID|14|M|56.33,47.52|N|From Gryan Stoutmantle.|PRE|13|
+R Moonbrook|ACTIVE|14^116|M|45.62,65.75|N|Run to Moonbrook.|
+C Hops|AVAILABLE|117|ACTIVE|116|L|1274 5|N|Finish collecting the hops from the Watchers in the field beside Moonbrook.|US|
+C Flask of Oil|AVAILABLE|103|L|814 5|N|Finish collecting the Flasks of Oil.|US|
+C The People's Militia|QID|14|QO|1;2;3|N|Kill Defias Highwaymen, Pathstalkers and Knuckledusters.|S|
+R The Dagger Hill|AVAILABLE|117|M|44.61,74.46;44.43,75.75|CS|N|Take the path up into The Dagger Hills. The path starts behind the buildings on the south side of the road.|
+A Thunderbrew|QID|117|ACTIVE|116|M|44.63,80.26|N|From Grimbooze Thunderbrew.|
 T Thunderbrew|QID|117|M|44.63,80.26|N|To Grimbooze Thunderbrew. Save this for the Barkeep in Westfall.|
 C The People's Militia|QID|14|M|37,81.87|US|N|Kill Defias mobs until you finish this quest|
 C Red Leather Bandanas|QID|153|M|37,81.87|N|Continue killing defias mobs until you finish your bandana collection.|
@@ -45,7 +47,7 @@ T Captain Sander's Hidden Treasure|M|25.97,16.92|QID|140|N|To Captain Sander's L
 C The Coast Isn't Clear|QID|152|M|35.00,86.00|Z|Westfall|N|Go further south and kill the rest of the murlocs for this quest.|
 T The Coast Isn't Clear|QID|152|M|30.01,86.02|N|To Captain Grayson.|
 T The Coastal Menace|QID|104|M|30.01,86.02|N|To Captain Grayson.|
-C The Defias Brotherhood|QID|142|M|45,69|N|Find and kill the Defias Messenger, loot his message. He paths following the road from Moonbrook into the Quarry, back out and then continues following the road north.|
+C The Defias Brotherhood|ACTIVE|142|L|1381|M|44.48,69.70|N|Find and kill the Defias Messenger to loot the message.\n[color=FF0000]NOTE: [/color]He pathes from Moonbrook, north into the Gold Coast Quarry cave entrance and then continues north into the Jangolode Mine. He will always respawn (5 minute timer) at this location.\nYou can go find him or just wait him out. You could be waiting a while, depending on where he is in the loop (30 minutes one way).|
 
 R Sentinel Hill|M|56.3,47.5|N|Run back to Sentinel Hill. You can hearth if you are going to log out right now, but if not, using it to return from Redridge is much better.|
 T Red Leather Bandanas|QID|153|M|53.99,52.98|N|To Scout Gillian.|
