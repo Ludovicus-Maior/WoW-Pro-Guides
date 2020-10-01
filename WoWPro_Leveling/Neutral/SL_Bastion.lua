@@ -214,8 +214,6 @@ C I MADE You!|QID|58979|M|57.25,55.36|QO|1|Z|Bastion|CHAT|N|Speak to Mikanikos.|
 C I MADE You!|QID|58979|M|57.22,54.95|QO|2|Z|Bastion|N|Locus-Keeper Mnemis defeated.|MS|
 T I MADE You!|QID|58979|M|57.26,55.26|Z|Bastion|N|To Locus-Keeper Mnemis.|MS|
 A Mnemis, At Your Service|QID|58980|M|57.26,55.26|Z|Bastion|N|From Locus-Keeper Mnemis.|PRE|58979|MS|
-A Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Bonus Objective - Autoaccepted.|RANK|2|
-C Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Kill enemies as you go, click on things laying around.|S|RANK|2|
 C Mnemis, At Your Service|QID|58980|M|59.90,58.18|QO|1|Z|Bastion|NC|N|Wait for Mikanikos to un ward the chest then collect it.|MS|
 C Mnemis, At Your Service|QID|58980|M|60.59,61.89|QO|2|Z|Bastion|NC|N|Wait for Mikanikos to un ward the chest then collect it.|MS|
 C Hostile Recollection|QID|59015^62735|M|59.90,58.18|Z|Bastion|N|Fishish repeling the threat before turning in the next quest if you like having Kleia tanking for you.|US|RANK|2|
