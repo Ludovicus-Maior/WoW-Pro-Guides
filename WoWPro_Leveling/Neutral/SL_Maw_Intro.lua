@@ -16,14 +16,14 @@ C A Chilling Summons|QID|60545^61874|Z|1681|QO|3|NC|N|Run toward Icecrown Citade
 T A Chilling Summons|QID|60545^61874|M|50.88,53.86|Z|1360|N|To Highlord Bolvar Fordragon.|
 A Through the Shattered Sky|QID|59751|M|50.88,53.86|Z|1360|N|From Highlord Bolvar Fordragon.|PRE|60545^61874|LVL|50|
 C Through the Shattered Sky|QID|59751|CS|M|50.78,51.61|Z|1360|QO|1|N|Hear Bolvar's instructions.|
-C Through the Shattered Sky|QID|59751|CS|M|50.78,51.61;54.87,44.81|Z|1360|QO|2|N|First shard placed.|
-C Through the Shattered Sky|QID|59751|CS|M|50.78,51.61;54.80,59.59|Z|1360|QO|3|N|Second shard placed.|
-C Through the Shattered Sky|QID|59751|CS|M|50.78,51.61;45.19,59.38|Z|1360|QO|4|N|Third shard placed.|
-C Through the Shattered Sky|QID|59751|CS|M|50.78,51.61;45.05,45.11|Z|1360|QO|5|N|Fourth shard placed.|
-C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|1360|QO|6|N|Grab the final shard from the middle and stand still to complete the ritual.|
+C Through the Shattered Sky|QID|59751|CS|M|50.78,51.61;54.87,44.81|Z|1360|QO|2|NC|N|First shard placed.|
+C Through the Shattered Sky|QID|59751|CS|M|50.78,51.61;54.80,59.59|Z|1360|QO|3|NC|N|Second shard placed.|
+C Through the Shattered Sky|QID|59751|CS|M|50.78,51.61;45.19,59.38|Z|1360|QO|4|NC|N|Third shard placed.|
+C Through the Shattered Sky|QID|59751|CS|M|50.78,51.61;45.05,45.11|Z|1360|QO|5|NC|N|Fourth shard placed.|
+C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|1360|QO|6|NC|N|Grab the final shard from the middle and stand still to complete the ritual.|
 T Through the Shattered Sky|QID|59751|M|19.31,57.22|Z|1648|N|To Highlord Darion Mograine.|
-A A Fractured Blade|QID|59752|M|19.31,57.22|Z|The Maw!Instance|N|From Highlord Darion Mograine.|PRE|59751|LVL|50|
 A Mawsworn Menace|QID|59907|M|19.31,57.22|Z|The Maw!Instance|N|From Highlord Darion Mograine.|PRE|59751|LVL|50|
+A A Fractured Blade|QID|59752|M|PLAYER|Z|The Maw!Instance|N|From Highlord Darion Mograine.|PRE|59751|LVL|50|
 C A Fractured Blade|QID|59752|M|22.57,49.31|Z|The Maw!Instance|NC|S|N|Rally the Knights of the Ebon Blade.|
 C Mawsworn Menace|QID|59907|M|22.57,49.31|Z|The Maw!Instance|S|N|Kill the Mawsworn forces in the area.|
 C Ruiner's End|QID|59753|M|19.35,46.24|Z|The Maw!Instance|QO|1|N|Ruiner Maroth slain.|
@@ -55,7 +55,7 @@ A Field Seance|QID|59757|M|24.55,36.05|Z|The Maw!Instance|N|From Highlord Darion
 C Field Seance|QID|59757|M|29.99,31.59|Z|The Maw!Instance|N|Attack the Malice of Shadows until they stop attacking, then use the Shattered Helm of Domination on them.|U|178495|
 T Field Seance|QID|59757|M|PLAYER|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
 A Speaking to the Dead|QID|59758|M|PLAYER|Z|The Maw!Instance|N|From Highlord Darion Mograine.|PRE|59757|LVL|50|
-C Speaking to the Dead|QID|59758|M|27.70,30.95|Z|The Maw!Instance|N|Just like last time, attack the Tormented Amalgamation until you can use the shattered helm on it.|U|178495|
+C Speaking to the Dead|QID|59758|M|27.70,30.95|Z|The Maw!Instance|N|Just like last time, attack the Tormented Amalgamation until you can use the shattered helm on it.|U|184313|
 T Speaking to the Dead|QID|59758|M|PLAYER|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
 A Soul in Hand|QID|59915|M|PLAYER|Z|The Maw!Instance|N|From Highlord Darion Mograine.|PRE|59758|LVL|50|
 T Soul in Hand|QID|59915|M|24.47,36.20|Z|The Maw!Instance|N|To Lady Jaina Proudmoore.|
@@ -69,19 +69,19 @@ A An Undeserved Fate|QID|59761|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin Wr
 C An Undeserved Fate|QID|59761|M|25.77,17.34|Z|The Maw!Instance|S|N|Collect Mawsworn Keys from Mawsworn forces in the Tremaculum and use them to free Shackled Souls.|
 C The Afflictor's Key 1|QID|59760|CS|M|28.18,18.89;27.52,14.50;28.02,11.06|Z|The Maw!Instance|QO|1|N|Kill the Afflictor to get the Key.|
 C An Undeserved Fate|QID|59761|M|PLAYER|Z|The Maw!Instance|US|N|Collect Mawsworn Keys from Mawsworn forces in the Tremaculum and use them to free Shackled Souls.|
-C The Afflictor's Key 2|QID|59760|CS|M|27.54,17.31;25.09,13.48|Z|The Maw!Instance|QO|2|N|Open Anduins Locks.|
+C The Afflictor's Key 2|QID|59760|CS|M|27.54,17.31;25.09,13.48|Z|The Maw!Instance|QO|2|NC|N|Open Anduins Locks.|
 T The Afflictor's Key|QID|59760|M|25.08,13.49|Z|The Maw!Instance|N|To Anduin Wrynn.|
 T An Undeserved Fate|QID|59761|M|25.35,13.93|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A From the Mouths of Madness|QID|59776|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin.|PRE|59760&59761|LVL|50|
-C From the Mouths of Madness|QID|59776|M|25.35,13.93|Z|The Maw!Instance|QO|1|N|Take the portal to Forlorn Respite.|
+C From the Mouths of Madness|QID|59776|M|25.35,13.93|Z|The Maw!Instance|QO|1|NC|N|Take the portal to Forlorn Respite.|
 C From the Mouths of Madness|QID|59776|M|24.34,37.13|Z|The Maw!Instance|QO|2|CHAT|N|Speak to Darion Mograine.|
 T From the Mouths of Madness|QID|59776|M|24.34,37.13|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
 A By and Down the River|QID|59762|M|24.29,37.12|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|59776|LVL|50|
 C By and Down the River 1|QID|59762|CS|M|24.42,35.00;25.59,32.50;29.78,36.50|Z|The Maw!Instance|QO|1|N|Cross the River of Souls.|
 C By and Down the River 3|QID|59762|M|29.56,43.86|Z|The Maw!Instance|QO|2|N|Escape the River.|
 T By and Down the River|QID|59762|M|29.73,42.39|Z|The Maw!Instance|N|To Lady Jaina Proudmoore.|
-A Wounds Beyond Flesh|QID|59765|M|29.56,43.86|Z|The Maw!Instance|N|From Thrall.|PRE|59762|LVL|50|
 A A Good Axe|QID|59766|M|29.56,43.86|Z|The Maw!Instance|N|From Thrall.|PRE|59762|LVL|50|
+A Wounds Beyond Flesh|QID|59765|M|PLAYER|Z|The Maw!Instance|N|From Thrall.|PRE|59762|LVL|50|
 C Wounds Beyond Flesh|QID|59765|Z|The Maw!Instance|S|N|Kill Mawsworn Soulrender until you get the Wither Blade.|
 C A Good Axe 1|QID|59766|Z|The Maw!Instance|QO|1|NC|N|Click on the racks around for a suitable weapon.|
 C A Good Axe 2|QID|59766|M|PLAYER|Z|The Maw!Instance|QO|2|N|Mawsworn Armaments.|
@@ -110,9 +110,9 @@ C No Place for the Living|QID|60148|M|39.85,65.52|Z|1670|QO|1|CHAT|N|Talk to Ove
 C No Place for the Living|QID|60148|M|39.85,65.52|Z|1670|QO|2|N|Listen to the Overseers.|
 T No Place for the Living|QID|60148|M|40.81,65.76|Z|1670|N|Turn into Tal-Inara.|
 A Audience with the Arbiter|QID|60149|M|40.81,65.76|Z|1670|N|From Tal-Inara.|PRE|60148|
-C Audience with the Arbiter|QID|60149|M|40.81,65.76|Z|1670|QO|1|CHAT|N|Talk to Tal-Inara.|
-C Audience with the Arbiter|QID|60149|M|PLAYER|Z|1670|QO|2|CHAT|N|Talk to Tal-Inara.|
-C Audience with the Arbiter|QID|60149|M|PLAYER|Z|1670|QO|3|CHAT|N|Talk to Tal-Inara to return to the bottom level.|
+C Audience with the Arbiter|QID|60149|M|PLAYER|Z|1673|QO|1|CHAT|N|Talk to Tal-Inara.|
+C Audience with the Arbiter|QID|60149|M|PLAYER|Z|1673|QO|2|CHAT|N|Talk to Tal-Inara.|
+C Audience with the Arbiter|QID|60149|M|PLAYER|Z|1673|QO|3|CHAT|N|Talk to Tal-Inara to return to the bottom level.|
 T Audience with the Arbiter|QID|60149|M|39.87,66.29|Z|1670|N|To Overseer Kah-Delen.|
 A Tether to Home|QID|60150|M|39.87,66.29|Z|1670|N|From Overseer Kah-Delen.|PRE|60149|
 C Tether to Home|QID|60150|M|39.82,68.68|Z|1670|NC|N|Click the Shadowlands Map to affix the Helm of Domination.|
@@ -134,13 +134,13 @@ A Understanding the Shadowlands|QID|60154|M|40.30,64.97|Z|1670|N|From Highlord B
 C Understanding the Shadowlands|QID|60154|M|40.59,66.13|Z|1670|QO|1|CHAT|N|Speak to Tal-Inara.|
 C Understanding the Shadowlands|QID|60154|M|40.59,66.13|Z|1670|QO|2|CHAT|N|Speak to Kah-Sher.|
 C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|1670|QO|3|NC|N|Take the Transport Pad to the Ring of Transference.|
-f Oribos|QID|60154|M|60.56,68.19|N|From Pathscribe Roh-Avonavi.|
-T Understanding the Shadowlands|QID|60154|M|50.59,62.23|Z|1670||N|To Overseer Kah-Sher.|
+T Understanding the Shadowlands|QID|60154|M|50.52,62.14|Z|1671||N|To Overseer Kah-Sher.|
 A The Path to Bastion|QID|60156|M|50.73,62.87|Z|1670|N|From Overseer Kah-Sher.|PRE|60154|
-C The Path to Bastion|QID|60156|M|40.59,66.13|Z|1670|QO|1|N|Follow Kah-Sher to the gate.|
-C The Path to Bastion|QID|60156|M|64.11,51.57|Z|1670|QO|2|NC|N|Click the Blue Sword in front of you.|
-T The Path to Bastion|QID|60156|M|63.86,52.25|Z|1670|N|To Overseer Kah-Sher.|
-A Seek the Ascended|QID|59773|M|63.47,52.16|Z|1671|N|From Pathscribe Roh-Avonavi.|PRE|60156|MS|
+C The Path to Bastion|QID|60156|M|40.59,66.13|Z|1671|QO|1|N|Follow Kah-Sher to the gate.|
+C The Path to Bastion|QID|60156|M|64.11,51.57|Z|1671|QO|2|NC|N|Click the Blue Sword in front of you.|
+T The Path to Bastion|QID|60156|M|63.86,52.25|Z|1671|N|To Overseer Kah-Sher.|
+A Seek the Ascended|QID|59773|M|63.47,52.16|Z|1671|N|From Pathscribe Roh-Avonavi.|PRE|60156|
+f Oribos|ACTIVE|59773|M|60.75,68.47|Z|1671|N|From Pathscribe Roh-Avonavi.|
 C Seek the Ascended|QID|59773|M|64.20,49.88|Z|1671|CHAT|N|Talk to Pathscribe Roh-Avonavi.|
 T Seek the Ascended|QID|59773|M|37.47,76.44|Z|Bastion|N|To Kleia.|
 ]]
