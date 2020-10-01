@@ -24,18 +24,19 @@ C The People's Militia|QID|14|QO|1;2;3|N|Kill Defias Highwaymen, Pathstalkers an
 R The Dagger Hill|AVAILABLE|117|M|44.61,74.46;44.43,75.75|CS|N|Take the path up into The Dagger Hills. The path starts behind the buildings on the south side of the road.|
 A Thunderbrew|QID|117|ACTIVE|116|M|44.63,80.26|N|From Grimbooze Thunderbrew.|
 T Thunderbrew|QID|117|M|44.63,80.26|N|To Grimbooze Thunderbrew. Save this for the Barkeep in Westfall.|
-C The People's Militia|QID|14|M|37,81.87|US|N|Kill Defias mobs until you finish this quest|
+R Demont's Place|ACTIVE|14|M|36.62,77.04|N|Make your way down the hill to the open field below.|
+C The People's Militia|QID|14|QO|1;2;3|N|Finish killing Defias Highwaymen, Pathstalkers and Knuckledusters. \n[color=FF0000]NOTE: [/color]Once you've cleared the groups in this area, head back up the hill to clear the ones on the other side of Dagger Hill. Path back and forth between the two areas until you are done.|US|
 C Red Leather Bandanas|QID|153|M|37,81.87|N|Continue killing defias mobs until you finish your bandana collection.|
 A Keeper of the Flame|QID|103|M|30.01,86.02|N|From Captain Grayson.|
 A The Coast Isn't Clear|QID|152|M|30.01,86.02|N|From Captain Grayson.|
 A The Coastal Menace|QID|104|M|30.01,86.02|N|From Captain Grayson.|
 T Keeper of the Flame|QID|103|M|30.01,86.02|N|To Captain Grayson.|
-C The Coastal Menace|QID|104|M|35.00,86.00|Z|Westfall|N|Kill murlocs here until you find Old Murk-Eye. Kill him and loot the scale.|
-N Treasure Map|L|1357|S!US|ACTIVE|152|N|Kill murlocs as you head north up the coast. If you find a treasure map, take the quest right away, remember to destroy the treasure maps after you're done to save precious bag space. Check off manually if you don't find it and want to move on.|
-C The Coast Isn't Clear|QID|152|QO|3|M|35.8,85.8|Z|Westfall|N|Tidehunters are near Murk-Eye, watch out for his re-spawn.|
-C The Coast Isn't Clear|QID|152|QO|4|M|27.6,74.4|Z|Westfall|N|Oracles are north of Murk-Eye, watch out for his re-spawn.|
-C The Coast Isn't Clear|QID|152|QO|2|M|29.8,31.8|Z|Westfall|N|Warriors are on the west coast of Westfall.|
-C The Coast Isn't Clear|QID|152|QO|1|M|48.0,10.0|Z|Westfall|N|Coastrunners are north of Jangolode mine.|
+C The Coastal Menace|QID|104|M|35.23,85.47;26.34,66.12|Z|Westfall|CN|QO|1|N|Old Murk-Eye pathes between the two points.|
+N Treasure Map|L|1357|S!US|ACTIVE|152|N|If you find a treasure map, take the quest right away, remember to destroy the treasure maps after you're done to save precious bag space. Check off manually if you don't find it and want to move on.|
+C The Coast Isn't Clear|QID|152|QO|3|N|The Tidehunters are at the south end of Longshore. Keep an eye out for Old Murk-Eye to prevent him sneaking up on you.|
+C The Coast Isn't Clear|QID|152|QO|4|N|The Oracles are mixed with the Tidehunters and spread out as you head north towards the Quarry. Be aware that this in Old Murk-Eye's path and he could sneak up on you.|
+C The Coast Isn't Clear|QID|152|QO|2|N|The Warriors are found along the coast between The Quarry and north to Jangolode Mine.|
+C The Coast Isn't Clear|QID|152|QO|1|N|Coastrunners are found at the north end of Longshore.|
 
 A Captain Sander's Hidden Treasure|QID|136|U|1357|N|Start the quest from the map you looted.|
 T Captain Sander's Hidden Treasure|M|25.91,47.77|QID|136|N|To Captain Sander's Foot Locker, on the beach guarded by murlocs.|
