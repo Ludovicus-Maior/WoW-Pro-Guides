@@ -813,7 +813,7 @@ function WoWPro.ParseSteps(steps)
                 class = class:gsub(" ", ""):upper()
             end
 			-- If Threads of Fate is completed, you don't see |MS| tagged steps
-			if ms and _G.C_QuestLog.IsQuestFlaggedCompleted(62704) then
+			if ms and _G.C_QuestLog.IsQuestFlaggedCompleted(62716) then
 				tof = true
 			end
             if race then

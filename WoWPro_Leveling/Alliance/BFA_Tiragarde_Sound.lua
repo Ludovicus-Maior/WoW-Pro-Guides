@@ -235,9 +235,9 @@ A The Big Job|QID|49399|M|77.33,83.97|N|From Flynn Fairwind.|PRE|49398&49401|
 A Recruiting Efforts|QID|49400|M|77.35,83.92|N|From Venrik.|PRE|49398&49401|RANK|2|
 C Flew the Coop|QID|49402|S|U|154878|N|Toss the food when a Runaway Macaw is in range.|
 C Recruiting Efforts|QID|49400|M|77.35,83.92|S|N|If you get seen taking down a recruiting poster, you will be attacked and lose the disguise. Don't forget to reapply it.|
-C The Big Job|QID|49399|QO|1|S|N|Kill Bilge Rat mobs until you get the Bilge Rat Orders.|
+C Kill Bilge Rats|QID|49399|QO|1|S|N|Kill Bilge Rat mobs until you get the Bilge Rat Orders.|
 C The Big Job|QID|49399|QO|2|S|N|Kill Cutwater type mobs until you get the Cutwater Corsair Orders.|
-C The Big Job|QID|49399|QO|3|S|N|Kill Blacktooth Bruisers until you get their orders.|
+C Kill Blacktooth Bruisers|QID|49399|QO|3|S|N|Kill Blacktooth Bruisers until you get their orders.|
 A Missing Treasure!|QID|49409|M|77.19,84.85|N|From Sternly Worded Letter.|PRE|49401|RANK|2|
 T Aged to Perfection|QID|49290|M|76.90,85.97|N|To Carentan.|
 A Trixie Business|QID|49407|M|76.90,85.97|N|From Carentan.|PRE|49290|RANK|2|
@@ -255,9 +255,9 @@ C Missing Treasure!|QID|49409|QO|4|M|75.64,80.56|NC|N|Inspect the Sandy Seaweed-
 C Missing Treasure!|QID|49409|QO|5|M|76.31,80.80|NC|N|Pick up the missing treasure.|
 T Missing Treasure!|QID|49409|M|76.31,80.80|N|To UI Alert.|
 K Carla Smirk|QID|51809|M|72.45,81.01|QO|1|T|Carla Smirk|RARE|ITEM|155271|N|You need to remove your disguise to attack her. Silver Elite to kill for Azerite Power and resources.|RANK|2|
-C The Big Job|QID|49399|QO|3|US|N|Keep killing Blacktooth Bruisers until you have their Orders.|
+C Kill Blacktooth Bruisers|QID|49399|QO|3|US|N|Keep killing Blacktooth Bruisers until you have their Orders.|
 C The Big Job|QID|49399|QO|2|US|N|Keep killing Cutwater Corsairs until you have their Orders.|
-C The Big Job|QID|49399|QO|1|US|N|Keep killing Bilge Rats until you have their Orders.|
+C Kill Bilge Rats|QID|49399|QO|1|US|N|Keep killing Bilge Rats until you have their Orders.|
 C Recruiting Efforts|QID|49400|US|N|Finish tearing down Irontide Recruiting Posters.|
 C Flew the Coop|QID|49402|US|U|154878|N|Finish feeding the Runaway Macaws.|
 T The Big Job|QID|49399|M|77.35,83.92|N|To Venrik.|
@@ -501,8 +501,8 @@ C Following Eddie's Trail|QID|48196|M|56.04,17.98|QO|1|NC|N|Find Hotshot.|
 A Stone Soup|QID|48778|M|56.14,17.96|N|From Recipe Stone.|RANK|2|
 C Saurolisk Escape|QID|48597|M|56.03,18.80|S|NC|N|Click on the post to free the Trapped Saurolisks.|
 C Stone Soup|QID|48778|M|57.83,14.46|QO|3|S|N|Saurolisk Scale drops from the Saurolisk's being ridden by Grimstone Handlers around the area.|
-C Stone Soup|QID|48778|M|58.34,16.41|QO|2|S|N|Unidentifiable Meat drops from the Grimstone Chefs.|
-C Stone Soup|QID|48778|M|58.42,16.69|QO|1|S|NC|N|Soup Stones can be picked up all around the Grimstones' camp.|
+C Kill Grimstone Chefs|QID|48778|M|58.34,16.41|QO|2|S|N|Unidentifiable Meat drops from the Grimstone Chefs.|
+C Soup Stones|QID|48778|M|58.42,16.69|QO|1|S|NC|N|Soup Stones can be picked up all around the Grimstones' camp.|
 $ Suspicious Pile of Meat|QID|50301|M|60.54,17.54|N|Click on the meat to start a vignette, ends with you killing Tempestria-Silver Elite.|RARE|ITEM|160466|T|Tempestria.|RANK|2|
 C Stone Soup|QID|48778|M|58.12,14.67|QO|4|NC|N|The Stirring Bone is just lying here on the ground.|
 K Mugg|QID|48806|M|58.12,14.67|QO|1|T|Mugg|RARE|ITEM|154416|N|Silver Elite to kill and loot for Azerite Power and resources.|RANK|2|
@@ -510,8 +510,8 @@ C Following Eddie's Trail|QID|48196|M|56.20,16.20|QO|2|N|Pick up the Bag of Hors
 C Following Eddie's Trail|QID|48196|M|55.70,14.40|QO|3|N|Kill Boneface and take his "Key"|T|Boneface the Giant|
 C Following Eddie's Trail|QID|48196|M|55.65,14.70|QO|4|N|Click on Eddie's cage.|
 T Following Eddie's Trail|QID|48196|M|55.63,14.72|N|To Eddie Norwington.|
-C Stone Soup|QID|48778|M|58.42,16.69|QO|1|US|NC|N|Finish collecting Soup Stones.|
-C Stone Soup|QID|48778|M|58.34,16.41|QO|2|US|N|Finish collecting Unidentifiable Meat (drops from the Grimstone Chefs).|
+C Soup Stones|QID|48778|M|58.42,16.69|QO|1|US|NC|N|Finish collecting Soup Stones.|
+C Kill Grimstone Chefs|QID|48778|M|58.34,16.41|QO|2|US|N|Finish collecting Unidentifiable Meat (drops from the Grimstone Chefs).|
 C Stone Soup|QID|48778|M|57.83,14.46|QO|3|US|N|Keep killing Saurolisks and Handlers until the Scale drops.|
 T Stone Soup|QID|48778|M|56.55,15.58|N|Bubbling Cauldren.|
 C Saurolisk Escape|QID|48597|M|56.03,18.80|US|NC|N|Finish freeing the Trapped Saurolisks.|
@@ -612,7 +612,7 @@ A Hold Still|QID|49394|M|42.36,22.27|N|From Tagart.|PRE|49393|RANK|2|
 A The Bears and the Bees|QID|49395|M|42.36,22.27|N|From Tagart.|PRE|49393|RANK|2|
 f Roughneck Camp|ACTIVE|49395|M|42.50,23.03|N|At Dagin.|
 A WANTED: The Hornet|QID|51368|M|42.15,22.99|ELITE|N|[color=ff8000]Elite:[/color]From Wanted Poster.|RANK|2|
-C The Bears and the Bees|QID|49395|M|48.73,17.44|QO|1|NC|N|Pick up the Honeycombs.|S|
+C Collect Honeycomb|QID|49395|M|48.73,17.44|QO|1|NC|N|Pick up the Honeycombs.|S|
 C The Bears and the Bees|QID|49395|M|47.36,19.39|QO|2|N|Kill Scruffhide Bears.|S|
 C Hold Still|QID|49394|M|48.19,19.79|U|153596|S|N|Use the shears to collect Goat Fur, they don't like it much, must be done before killing them.|
 K Totes|QID|50095|QO|1|M|46.87,20.60|T|Totes|RARE|ITEM|160452|N|Silver Elite inside small cave to kill for Azerite Power and resources.|RANK|2|
@@ -622,9 +622,7 @@ C Helping Henry|QID|49412|M|48.71,18.01|N|Kill Brawr.|
 T Helping Henry|QID|49412|M|47.75,17.61|N|To "Helpless" Henry.|
 C Hold Still|QID|49394|M|48.19,19.79|US|U|153596|N|Finish collecting the Goat Fur.|
 C The Bears and the Bees|QID|49395|M|47.36,19.39|QO|2|N|Finish killing the Scruffhide Bears.|US|
-C The Bears and the Bees|QID|49395|M|47.36,19.39|QO|1|N|Finish collecting the honeycombs.|US|
-
-
+C Collect Honeycomb|QID|49395|M|47.36,19.39|QO|1|N|Finish collecting the honeycombs.|US|
 T Hold Still|QID|49394|M|42.36,22.28|N|To Tagart.|
 T The Bears and the Bees|QID|49395|M|42.36,22.28|N|To Tagart.|
 t WANTED: The Hornet|QID|51368|M|42.36,22.28|N|To Tagart.|
