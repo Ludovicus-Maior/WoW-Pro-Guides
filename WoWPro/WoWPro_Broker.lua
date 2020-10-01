@@ -2955,7 +2955,6 @@ function WoWPro.PopulateQuestLog()
                 complete = WoWPro.QuestLog_IsComplete(questInfo.questID),
                 ocompleted = ocompleted,
                 ncompleted = ncompleted,
-				otype = otype,
                 daily = qfrequency,
                 leaderBoard = leaderBoard,
                 header = currentHeader,
