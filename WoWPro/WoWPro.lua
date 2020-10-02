@@ -535,9 +535,15 @@ function WoWPro:DevCoords()
 		f:SetSize(90, 40)
 		f:SetAutoFocus(false)
 		f:SetScript("OnUpdate",function(s,e)
-			local x,y=_G.C_Map.GetPlayerMapPosition(_G.C_Map.GetBestMapForUnit(p),p):GetXY()
-			if not _G.MouseIsOver(f) then
-				f:SetText(_G.format("%.2f,%.2f",x*100,y*100))
+			local map = _G.C_Map.GetBestMapForUnit(p)
+			if map then 
+				local playerpos = _G.C_Map.GetPlayerMapPosition(map,p)
+				if playerpos then
+					local x,y=playerpos:GetXY()
+					if not _G.MouseIsOver(f) then
+						f:SetText(_G.format("%.2f,%.2f",x*100,y*100))
+					end
+				end
 			end
 		end)
 		f:Hide()
