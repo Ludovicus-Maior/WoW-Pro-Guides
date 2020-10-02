@@ -643,17 +643,23 @@ function WoWPro.UpdateQuestTrackerRow(row)
                 end
 
             elseif questtext then
+
                 --Partial completion steps only track pertinent objectives.
                 WoWPro:dbp("UQT: QID %d active and QO tag of [%s]", qid, questtext)
                 local numquesttext = select("#", (";"):split(questtext))
                 for l=1,numquesttext do
                     local lquesttext = select(numquesttext-l+1, (";"):split(questtext))
                     if WoWPro.ValidObjective(lquesttext) then
-                        local _, status = WoWPro.QuestObjectiveStatus(qid, lquesttext)
-                        if l > 1 then
-                            track = track.."\n"
-                        end
-                        track = track.."- " .. status
+						if select(2, _G.GetQuestLogLeaderBoard(lquesttext , j)) == "progressbar" then
+							track = "\n- ".._G.GetQuestProgressBarPercent(qid).."% out of 100% Complete. "
+						else
+							local _, status = WoWPro.QuestObjectiveStatus(qid, lquesttext)
+							if l > 1 then
+								track = track.."\n"
+							end
+							track = track.."- " .. status
+
+						end
                     else
                         WoWPro:dbp("UQT: Not a valid quest objective %q [%s]", QID, questtext)
                         track =  track.." ???"
