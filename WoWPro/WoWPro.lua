@@ -536,7 +536,7 @@ function WoWPro:DevCoords()
 		f:SetAutoFocus(false)
 		f:SetScript("OnUpdate",function(s,e)
 			local map = _G.C_Map.GetBestMapForUnit(p)
-			if map then 
+			if map then
 				local playerpos = _G.C_Map.GetPlayerMapPosition(map,p)
 				if playerpos then
 					local x,y=playerpos:GetXY()
