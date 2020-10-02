@@ -491,6 +491,11 @@ function WoWPro:OnEnable()
         WoWPro:Disable()
         return
     end
+
+	if WoWProCharDB.DevCoords then
+		WoWPro:DevCoords()
+		_G.WoWProDevCoords:Show()
+	end
 end
 
 -- Called when the addon is disabled --
@@ -521,6 +526,22 @@ function WoWPro:RegisterTags(tagtable)
     for i=1,#tagtable do
         WoWPro.Tags[tagtable[i]]=true -- Insert each tag from the table supplied into the WoWPro.Tags table.
     end
+end
+
+function WoWPro:DevCoords()
+	if not _G.WoWProDevCoords then
+		local p,f="player", _G.CreateFrame("EditBox","WoWProDevCoords",_G.UIParent,"InputBoxTemplate")
+		f:SetPoint("TOP",0,0)
+		f:SetSize(90, 40)
+		f:SetAutoFocus(false)
+		f:SetScript("OnUpdate",function(s,e)
+			local x,y=_G.C_Map.GetPlayerMapPosition(_G.C_Map.GetBestMapForUnit(p),p):GetXY()
+			if not _G.MouseIsOver(f) then
+				f:SetText(_G.format("%.2f,%.2f",x*100,y*100))
+			end
+		end)
+		f:Hide()
+	end
 end
 
 -- Event Registration Function --
