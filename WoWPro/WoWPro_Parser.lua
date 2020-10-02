@@ -333,7 +333,7 @@ DefineTag("C","playerclass","string",nil,nil)
 DefineTag("GEN","playergender","string",nil,nil)
 DefineTag("RANK","rank","number",nil,nil)
 DefineTag("COV","covenant","string",nil,nil)
-DefineTag("MS",nil,"string",nil,function (value,i) end)  -- Swallow MS Tags
+DefineTag("MS",nil,"boolean",nil,function (value,i) end)  -- Swallow MS Tags
 
 local function addTagValue(line, tag, value)
     line = line..tag.."||"
