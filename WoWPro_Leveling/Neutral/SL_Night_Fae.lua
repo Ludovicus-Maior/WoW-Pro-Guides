@@ -4,6 +4,7 @@ WoWPro:GuideLevels(guide,60, 60)
 WoWPro:GuideNextGuide(guide, 'Covenant')
 WoWPro:GuideSteps(guide, function()
 return [[
+;Night Fae Campaign
 A The Heart of the Forest|QID|61475|M|39.50,61.58|Z|Ring of Fates@Oribos|N|From Lady Moonberry.|COV|Night Fae|PRE|57878|
 P Ring of Transference|ACTIVE|61475|M|49.55,60.83|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Transference.|COV|Night Fae|
 F Refugee Camp|QID|61475|M|60.59,68.98|Z|Ring of Transference@Oribos|N|Pathscribe Roh-Avonavi.|COV|Night Fae|
@@ -110,64 +111,6 @@ C A Conduit for Growth|QID|62900|M|33.31,46.06|Z|The Trunk@Heart of the Forest!D
 T A Conduit for Growth|QID|62900|M|33.73,44.44|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|COV|Night Fae|
 A The Endless Forest|QID|62899|M|33.73,44.44|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|COV|Night Fae|
 T The Endless Forest|QID|62899|M|46.59,36.60|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
-A Who Shapes the Forest|QID|62884|M|40.56,56.03|Z|The Roots@Heart of the Forest!Dungeon|N|From Zayhad, The Builder.|
-C Who Shapes the Forest|QID|62884|M|40.56,56.03|Z|The Roots@Heart of the Forest!Dungeon|QO|1|N|1/1 Renown examined|
-T Who Shapes the Forest|QID|62884|M|40.56,56.03|Z|The Roots@Heart of the Forest!Dungeon|N|To Zayhad, The Builder.|
-A A Call to Service|QID|62697|M|40.56,56.03|Z|The Roots@Heart of the Forest!Dungeon|N|From Zayhad, The Builder.|
-T A Call to Service|QID|62697|M|53.73,6.55|Z|The Trunk@Heart of the Forest!Dungeon|N|To Blodwyn.|
-A A Calling in Ardenweald|QID|62693|M|53.73,6.55|Z|The Trunk@Heart of the Forest!Dungeon|N|From Blodwyn.|S|Three dailies off ya go!|
-T A Calling in Ardenweald|QID|62693|M|53.77,6.52|Z|The Trunk@Heart of the Forest!Dungeon|N|To Blodwyn.|
-A The Life-blood of the Forest|QID|62890|M|53.77,6.52|Z|The Trunk@Heart of the Forest!Dungeon|N|From Blodwyn.|
-T The Life-blood of the Forest|QID|62890|M|39.91,55.63|Z|The Roots@Heart of the Forest!Dungeon|N|To Zayhad, The Builder.|
-A Into the Reservoir|QID|62891|M|39.91,55.63|Z|The Roots@Heart of the Forest!Dungeon|N|From Zayhad, The Builder.|
-C Into the Reservoir|QID|62891|M|38.00,40.23|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|N|1/1 Bounty of the Grove Wardens opened (Optional)|
-C Into the Reservoir|QID|62891|M|40.03,56.78|Z|The Roots@Heart of the Forest!Dungeon|QO|2|N|1000/500 Reservoir Anima|
-T Into the Reservoir|QID|62891|M|40.03,56.78|Z|The Roots@Heart of the Forest!Dungeon|N|To Zayhad, The Builder.|
-A Recover the Lost|QID|62892|M|40.03,56.78|Z|The Roots@Heart of the Forest!Dungeon|N|From Zayhad, The Builder.|
-T Recover the Lost|QID|62892|M|34.40,43.73|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|
-A Do What We Cannot|QID|62893|M|34.40,43.73|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|
-T Do What We Cannot|QID|62893|M|46.81,41.62|Z|The Maw|N|To Ve'nari.|
-A Setting the Ground Rules|QID|62882|M|46.81,41.62|Z|The Maw|N|From Ve'nari.|
-C Setting the Ground Rules|QID|62882|M|46.67,41.53|Z|The Maw|QO|1|N|1/1 Ground rules set with Ve'nari|
-T Setting the Ground Rules|QID|62882|M|46.83,41.77|Z|The Maw|N|To Ve'nari.|
-A Rule 1: Have an Escape Plan|QID|60287|M|46.83,41.77|Z|The Maw|N|From Ve'nari.|
-A Soulsmith Yol-Mattar|QID|59441|M|36.47,39.10|Z|The Maw|
-C Rule 1: Have an Escape Plan|QID|60287|M|34.45,36.26|Z|The Maw|QO|2|N|25/25 Stygia|
-C Rule 1: Have an Escape Plan|QID|60287|M|35.83,38.93|Z|The Maw|QO|1|N|5/5 Souls taken into the Soulkeeper|
-C Rule 1: Have an Escape Plan|QID|60287|M|35.83,38.93|Z|The Maw|QO|3|N|More Stygia can be found from powerful foes|
-C Rule 1: Have an Escape Plan|QID|60287|M|46.82,41.67|Z|The Maw|QO|4|N|1/1 Purchase a Cypher of Relocation|
-T Rule 1: Have an Escape Plan|QID|60287|M|46.82,41.67|Z|The Maw|N|To Ve'nari.|
-A Rule 2: Keep a Low Profile|QID|61355|M|46.82,41.67|Z|The Maw|N|From Ve'nari.|
-C Rule 2: Keep a Low Profile|QID|61355|M|47.23,43.03|Z|The Maw|QO|1|U|184314|N|4/4 Soul Ward reinforced|
-T Rule 2: Keep a Low Profile|QID|61355|M|46.83,41.74|Z|The Maw|N|To Ve'nari.|
-A Rule 3: Trust is Earned|QID|60289|M|46.83,41.74|Z|The Maw|N|From Ve'nari.|
-C Rule 3: Trust is Earned|QID|60289|M|35.03,47.70|Z|The Maw|QO|1|N|1/1 Signaling Beacon Placed|
-C Rule 3: Trust is Earned|QID|60289|M|33.52,49.17|Z|The Maw|QO|2|N|1/1 Bloodhoof Warmace|
-C Rule 3: Trust is Earned|QID|60289|M|33.68,48.91|Z|The Maw|QO|3|N|1/1 Tower Inquisitor slain|
-T Rule 3: Trust is Earned|QID|60289|M|46.80,41.69|Z|The Maw|N|To Ve'nari.|
-A Hopeful News|QID|62837|M|46.80,41.69|Z|The Maw|N|From Ve'nari.|
-T Hopeful News|QID|62837|M|40.31,68.69|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|
-A Flutterback|QID|62894|M|40.31,68.69|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|
-T Flutterback|QID|62894|M|34.14,43.99|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|
-A Recovered Souls|QID|62897|M|34.14,43.99|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|
-T Recovered Souls|QID|62897|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeon|N|To Zayhad, The Builder.|
-A The First New Growth|QID|62898|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeon|N|From Zayhad, The Builder.|
-C The First New Growth|QID|62898|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeon|QO|1|N|1/1 Sanctum Upgrade started|
-T The First New Growth|QID|62898|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeon|N|To Zayhad, The Builder.|
-A The Forge of Bonds|QID|61541|M|39.84,55.64|Z|The Roots@Heart of the Forest!Dungeon|N|From Zayhad, The Builder.|
-T The Forge of Bonds|QID|61541|M|34.56,43.56|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|
-A The Boon of Binding|QID|61542|M|34.56,43.56|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|
-C The Boon of Binding|QID|61542|M|33.75,47.63|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|N|1/1 Soulbind with Niya|
-T The Boon of Binding|QID|61542|M|33.90,45.76|Z|The Trunk@Heart of the Forest!Dungeon|N|To Niya.|
-A Strengthening the Bond|QID|61550|M|33.90,45.76|Z|The Trunk@Heart of the Forest!Dungeon|N|From Niya.|
-C Strengthening the Bond|QID|61550|M|33.20,46.56|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|N|1/1 Soulbind power activated|
-T Strengthening the Bond|QID|61550|M|33.31,46.06|Z|The Trunk@Heart of the Forest!Dungeon|N|To Niya.|
-A A Conduit for Growth|QID|62900|M|33.31,46.06|Z|The Trunk@Heart of the Forest!Dungeon|N|From Niya.|
-C A Conduit for Growth|QID|62900|M|33.31,46.06|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|N|Conduit used to add to Forge of Bonds|
-C A Conduit for Growth|QID|62900|M|33.31,46.06|Z|The Trunk@Heart of the Forest!Dungeon|QO|2|N|Conduit applied to Niya|
-T A Conduit for Growth|QID|62900|M|33.73,44.44|Z|The Trunk@Heart of the Forest!Dungeon|N|To Flutterby.|
-A The Endless Forest|QID|62899|M|33.73,44.44|Z|The Trunk@Heart of the Forest!Dungeon|N|From Flutterby.|
-T The Endless Forest|QID|62899|M|46.59,36.60|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|
 A Daughter of the Night Warrior|QID|59179|M|44.22,39.33|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|
 A Troubles at Home|QID|60419|M|59.76,31.83|Z|The Trunk@Heart of the Forest!Dungeon|N|From Featherlight.|
 C Daughter of the Night Warrior|QID|59179|M|43.23,64.00|Z|Ring of Fates@Oribos|QO|1|N|Shandris Feathermoon found in Oribos|
@@ -373,6 +316,6 @@ A A Night in the Woods|QID|60899|M|30.01,55.19|Z|Ardenweald!The Shadowlands|
 T Witch's Satchel|QID|61709|M|46.17,56.42|Z|Ardenweald!The Shadowlands|N|To Kivarr.|
 T The Broken Spear|QID|61710|M|46.18,56.67|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|
 A Ritual of Purification|QID|61711|M|46.16,56.51|Z|Ardenweald!The Shadowlands|N|From Kivarr.|
-;All fun and games untill phasing stops you dead in ya tracks, hopfully blizz will fix soon
+;unable to continue till blizzard fixed phasing issue
 ]]
 end)
