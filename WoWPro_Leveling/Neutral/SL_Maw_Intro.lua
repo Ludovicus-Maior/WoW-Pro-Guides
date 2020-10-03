@@ -10,40 +10,44 @@ A A Chilling Summons|QID|61874|Z|Orgrimmar|N|From Highlord Darion Mograine. Auto
 C A Chilling Summons|QID|61874|M|50.38,76.58|Z|Orgrimmar|QO|1|CHAT|N|Speak with Nazgrim outside Grommash Hold and he will open a gate.|FACTION|Horde|
 C A Chilling Summons|QID|61874|M|49.16,78.13|Z|Orgrimmar|QO|2|NC|N|Enter the Death gate to Acherus.|FACTION|Horde|
 A A Chilling Summons|QID|60545|M|76.57,42.73|Z|Stormwind City|N|From Highlord Darion Mograine. Auto Accepted.|FACTION|Alliance|
-C A Chilling Summons|QID|60545|M|76.57,42.73|Z|Stormwind City|QO|1|CHAT|N|Speak with High Inquisitor Whitemane and she will open a gate.|FACTION|Alliance|
+C A Chilling Summons|QID|60545|M|76.72,42.74|Z|Stormwind City|QO|1|CHAT|N|Speak with High Inquisitor Whitemane and she will open a gate.|FACTION|Alliance|
 C A Chilling Summons|QID|60545|M|77.07,42.10|Z|Stormwind City|QO|2|NC|N|Enter the Death gate to Acherus.|FACTION|Alliance|
-C A Chilling Summons|QID|60545^61874|Z|1681|QO|3|NC|N|Run toward Icecrown Citadel and click on the teleporter to the Frozen Throne.|
-T A Chilling Summons|QID|60545^61874|M|50.88,53.86|Z|1360|N|To Highlord Bolvar Fordragon.|
-A Through the Shattered Sky|QID|59751|M|50.88,53.86|Z|1360|N|From Highlord Bolvar Fordragon.|PRE|60545^61874|LVL|50|
-C Through the Shattered Sky|QID|59751|CS|M|50.78,51.61|Z|1360|QO|1|N|Hear Bolvar's instructions.|
-C Through the Shattered Sky|QID|59751|CS|M|50.78,51.61;54.87,44.81|Z|1360|QO|2|NC|N|Click on a shard of the shattered helm and place it above the rune.|
-C Through the Shattered Sky|QID|59751|CS|M|50.78,51.61;54.80,59.59|Z|1360|QO|3|NC|N|Click on the next shard of the shattered helm and place it.|
-C Through the Shattered Sky|QID|59751|CS|M|50.78,51.61;45.19,59.38|Z|1360|QO|4|NC|N|Click on third shard of the shattered helm and place it.|
-C Through the Shattered Sky|QID|59751|CS|M|50.78,51.61;45.05,45.11|Z|1360|QO|5|NC|N|Click on forth shard of the shattered helm and place it.|
-C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|1360|QO|6|N|Grab the final shard from the middle and stand still to complete the ritual.|
+C A Chilling Summons|QID|60545^61874|M|59.78,19.86|Z|Lower Acherus@Icecrown Citadel!Dungeon1681|QO|3|NC|N|Run toward Icecrown Citadel and click on the teleporter to the Frozen Throne.|
+T A Chilling Summons|QID|60545^61874|M|50.85,53.86|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|N|To Highlord Bolvar Fordragon.|
+A Through the Shattered Sky|QID|59751|M|50.88,53.86|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|N|From Highlord Bolvar Fordragon.|PRE|60545^61874|LVL|50|
+C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|1|N|Hear Bolvar's instructions.|
+N First Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|2|NC|N|Click on the First Shard of Domination.|BUFF|329185|
+C Through the Shattered Sky|QID|59751|M|54.87,44.81|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|2|NC|N|Place the shard above the rune.|
+N Second Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|3|NC|N|Click on the Second Shard of Domination.|BUFF|329254|
+C Through the Shattered Sky|QID|59751|M|54.80,59.59|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|3|NC|N|Place the shard above the rune.|
+N Third Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|4|NC|N|Click on the Third Shard of Domination.|BUFF|329255|
+C Through the Shattered Sky|QID|59751|M|45.19,59.38|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|4|NC|N|Place the shard above the rune.|
+N Fourth Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|5|NC|N|Click on the Fourth Shard of Domination.|BUFF|329257|
+C Through the Shattered Sky|QID|59751|M|45.05,45.11|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|5|NC|N|Place the shard above the rune.|
+C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|6|N|Grab the final shard from the middle and stand still to complete the ritual.|
 T Through the Shattered Sky|QID|59751|M|19.31,57.22|Z|1648|N|To Highlord Darion Mograine.|
-A Mawsworn Menace|QID|59907|M|19.31,57.22|Z|The Maw!Instance|N|From Highlord Darion Mograine.|PRE|59751|LVL|50|
 A A Fractured Blade|QID|59752|M|PLAYER|Z|The Maw!Instance|N|From Highlord Darion Mograine.|PRE|59751|LVL|50|
+A Mawsworn Menace|QID|59907|M|19.31,57.22|Z|The Maw!Instance|N|From Highlord Darion Mograine.|PRE|59751|LVL|50|
 C A Fractured Blade|QID|59752|M|22.57,49.31|Z|The Maw!Instance|NC|S|N|Rally the Knights of the Ebon Blade.|
 C Mawsworn Menace|QID|59907|M|22.57,49.31|Z|The Maw!Instance|S|N|Kill the Mawsworn forces in the area.|
-C Ruiner's End|QID|59753|M|19.35,46.24|Z|The Maw!Instance|QO|1|N|Ruiner Maroth slain.|
 A Ruiner's End|QID|59753|M|22.96,51.99|Z|The Maw!Instance|N|From Wilona Thorne.|PRE|59751|LVL|50|
-C Mawsworn Menace|QID|59907|M|22.57,49.31|Z|The Maw!Instance|US|N|Kill the Mawsworn forces in the area.|
 C A Fractured Blade|QID|59752|M|22.57,49.31|Z|The Maw!Instance|NC|US|N|Rally the Knights of the Ebon Blade.|
+C Ruiner's End|QID|59753|M|19.35,46.24|Z|The Maw!Instance|QO|1|N|Ruiner Maroth slain.|
+C Mawsworn Menace|QID|59907|M|22.57,49.31|Z|The Maw!Instance|US|N|Kill the Mawsworn forces in the area.|
 C Ruiner's End|QID|59753|M|21.54,41.94|Z|The Maw!Instance|QO|2|N|Regroup with Mograine.|
-T A Fractured Blade|QID|59752|M|PLAYER|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
-T Mawsworn Menace|QID|59907|M|PLAYER|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
-T Ruiner's End|QID|59753|M|21.54,41.94|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
-A Fear to Tread|QID|59914|M|21.54,41.94|Z|The Maw!Instance|N|From Highlord Darion Mograine.|PRE|59753&59752|LVL|50|
-C Fear to Tread|QID|59914|M|22.22,42.96|Z|The Maw!Instance|QO|1|NC|N|First clue found.|
-C Fear to Tread|QID|59914|M|20.95,38.77|Z|The Maw!Instance|QO|2|NC|N|Second clue found.|
-C Fear to Tread|QID|59914|M|21.57,35.83|Z|The Maw!Instance|QO|3|NC|N|Third clue found.|
-C Fear to Tread|QID|59914|M|22.25,33.00|Z|The Maw!Instance|QO|4|NC|N|Jaina found.|
-T Fear to Tread|QID|59914|M|22.25,33.00|Z|The Maw!Instance|N|To Lady Jaina Proudmoore.|
-A On Blackened Wings|QID|59754|M|22.25,33.00|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|59914|LVL|50|
-C On Blackened Wings|QID|59754|M|22.25,33.00|Z|The Maw!Instance|N|Assist Jaina in fighting off the Mawsworn.|
-T On Blackened Wings|QID|59754|M|23.20,31.61|Z|The Maw!Instance|N|To Lady Jaina Proudmoore.|
-A A Flight from Darkness|QID|59755|M|23.20,31.61|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|59754|LVL|50|
+T A Fractured Blade|QID|59752|M|21.50,41.98|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
+T Mawsworn Menace|QID|59907|M|21.50,41.98|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
+T Ruiner's End|QID|59753|M|21.50,41.98|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
+A Fear to Tread|QID|59914|M|21.50,41.98|Z|The Maw!Instance|N|From Highlord Darion Mograine.|PRE|59753&59752|LVL|50|
+C Fear to Tread|QID|59914|M|22.20,43.12|Z|The Maw!Instance|QO|1|NC|N|First clue found.|
+C Fear to Tread|QID|59914|M|20.87,38.92|Z|The Maw!Instance|QO|2|NC|N|Second clue found.|
+C Fear to Tread|QID|59914|M|21.81,35.64|Z|The Maw!Instance|QO|3|NC|N|Third clue found.|
+C Fear to Tread|QID|59914|M|22.30,32.95|Z|The Maw!Instance|QO|4|NC|N|Jaina found.|
+T Fear to Tread|QID|59914|M|22.30,32.95|Z|The Maw!Instance|N|To Lady Jaina Proudmoore.|
+A On Blackened Wings|QID|59754|M|22.30,32.95|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|59914|LVL|50|
+C On Blackened Wings|QID|59754|M|22.30,32.95|Z|The Maw!Instance|N|Assist Jaina in fighting off the Mawsworn.|
+T On Blackened Wings|QID|59754|M|23.17,31.70|Z|The Maw!Instance|N|To Lady Jaina Proudmoore.|
+A A Flight from Darkness|QID|59755|M|23.17,31.70|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|59754|LVL|50|
 C A Flight from Darkness|QID|59755|M|24.58,35.81|CHAT|Z|The Maw!Instance|N|Talk to Jaina and then escort the assembled forces from Calcis to Forlorn Respite. You must stay near her or she will wait for you. Expect to fight along the way.|
 T A Flight from Darkness|QID|59755|M|24.47,36.20|Z|The Maw!Instance|N|To Lady Jaina Proudmoore.|
 A A Moment's Respite|QID|59756|M|24.47,36.20|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|59755|LVL|50|
@@ -60,16 +64,18 @@ T Speaking to the Dead|QID|59758|M|PLAYER|Z|The Maw!Instance|N|To Highlord Dario
 A Soul in Hand|QID|59915|M|PLAYER|Z|The Maw!Instance|N|From Highlord Darion Mograine.|PRE|59758|LVL|50|
 T Soul in Hand|QID|59915|M|24.47,36.20|Z|The Maw!Instance|N|To Lady Jaina Proudmoore.|
 A The Lion's Cage|QID|59759|M|24.47,36.20|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|59915|LVL|50|
-C The Lion's Cage|QID|59759|CS|M|24.43,35.00;25.75,32.47;26.35,30.88;24.03,25.86;27.52,17.47|Z|The Maw!Instance|QO|1|NC|N|Follow the path. The last step is a teleport pad you need to walk on to reach the Upper Tremaculum.|
+R Calcis|ACTIVE|59759|CS|M|25.51,29.83|Z|The Maw!Instance|N|Run out the cave and up the road to your left.|
+R Ruin's Cradle|ACTIVE|59759|CS|M|24.27,25.01|Z|The Maw!Instance|N|Make your way to the bridge.|
+C The Lion's Cage|QID|59759|CS|M|27.52,17.47|Z|The Maw!Instance|QO|1|NC|N|Take the teleport pad on to reach the Upper Tremaculum.|
 C The Lion's Cage|QID|59759|M|25.88,14.98|Z|The Maw!Instance|QO|2|NC|N|Find Anduin.|
 C The Lion's Cage|QID|59759|M|25.88,14.98|Z|The Maw!Instance|QO|3|CHAT|N|Speak to Jaina.|
 T The Lion's Cage|QID|59759|M|25.09,13.48|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A The Afflictor's Key|QID|59760|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin Wrynn.|PRE|59759|LVL|50|
 A An Undeserved Fate|QID|59761|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin Wrynn.|PRE|59759|LVL|50|
 C An Undeserved Fate|QID|59761|M|25.77,17.34|Z|The Maw!Instance|S|N|Back over the teleport pad and down below to collect Mawsworn Keys from Mawsworn forces in the Tremaculum and use them to free Shackled Souls.|
-C The Afflictor's Key 1|QID|59760|CS|M|28.18,18.89;27.52,14.50;28.02,11.06|Z|The Maw!Instance|QO|1|N|Up the broad spiral ramp to find and kill the Afflictor to get the Key.|T|Phael the Afflictor|
+C The Afflictor's Key|QID|59760|CS|M|28.18,18.89;27.52,14.50;28.02,11.06|Z|The Maw!Instance|QO|1|N|Up the broad spiral ramp to find and kill the Afflictor to get the Key.|T|Phael the Afflictor|
 C An Undeserved Fate|QID|59761|M|PLAYER|Z|The Maw!Instance|US|N|Finish collecting Mawsworn Keys and freeing the Shackled Souls.|
-C The Afflictor's Key 2|QID|59760|CS|M|27.54,17.31;25.09,13.48|Z|The Maw!Instance|NC|QO|2|N|Open Anduins Locks.|
+C The Afflictor's Key|QID|59760|CS|M|27.54,17.31;25.09,13.48|Z|The Maw!Instance|NC|QO|2|N|Open Anduins Locks.|
 T The Afflictor's Key|QID|59760|M|25.08,13.49|Z|The Maw!Instance|N|To Anduin Wrynn.|
 T An Undeserved Fate|QID|59761|M|25.35,13.93|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A From the Mouths of Madness|QID|59776|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin.|PRE|59760&59761|LVL|50|
@@ -77,23 +83,23 @@ C From the Mouths of Madness|QID|59776|M|25.35,13.93|Z|The Maw!Instance|QO|1|NC|
 C From the Mouths of Madness|QID|59776|M|24.34,37.13|Z|The Maw!Instance|QO|2|CHAT|N|Ask Darion to make it talk.|
 T From the Mouths of Madness|QID|59776|M|24.34,37.13|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
 A By and Down the River|QID|59762|M|24.29,37.12|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|59776|LVL|50|
-C By and Down the River 1|QID|59762|CS|M|24.42,35.00;25.59,32.50;29.78,36.50|Z|The Maw!Instance|QO|1|N|Cross the River of Souls.|
-C By and Down the River 3|QID|59762|M|29.56,43.86|Z|The Maw!Instance|QO|2|N|Escape the River.|
-T By and Down the River|QID|59762|M|29.73,42.39|Z|The Maw!Instance|N|To Lady Jaina Proudmoore.|
-A A Good Axe|QID|59766|M|29.56,43.86|Z|The Maw!Instance|N|From Thrall.|PRE|59762|LVL|50|
+C By and Down the River|QID|59762|CS|M|24.42,35.00;25.59,32.50;29.78,42.45|Z|The Maw!Instance|QO|1|N|Cross the River of Souls.|
+C By and Down the River|QID|59762|M|29.78,42.45|Z|The Maw!Instance|QO|2|N|Escape the River.|
+T By and Down the River|QID|59762|M|29.78,42.45|Z|The Maw!Instance|N|To Lady Jaina Proudmoore.|
 A Wounds Beyond Flesh|QID|59765|M|29.56,43.86|Z|The Maw!Instance|N|From Thrall.|PRE|59762|LVL|50|
-C Wounds Beyond Flesh|QID|59765|Z|The Maw!Instance|S|N|Kill Mawsworn Soulrender until you get the Wither Blade.|
-C A Good Axe|QID|59766|Z|The Maw!Instance|NC|N|Click on the racks around for a suitable weapon.|
-C Wounds Beyond Flesh|QID|59765|M|PLAYER|Z|The Maw!Instance|US|N|Kill Mawsworn Soulrenders until you get the Wither Blade.|
+A A Good Axe|QID|59766|M|29.56,43.86|Z|The Maw!Instance|N|From Thrall.|PRE|59762|LVL|50|
+C Wounds Beyond Flesh|QID|59765|M|31.59,42.67|Z|The Maw!Instance|S|N|Kill Mawsworn Soulrender until you get the Wither Blade.|
+C A Good Axe|QID|59766|M|31.59,42.67|Z|The Maw!Instance|NC|N|Click on the racks around for a suitable weapon.|
+C Wounds Beyond Flesh|QID|59765|M|31.59,42.67|Z|The Maw!Instance|US|N|Kill Mawsworn Soulrenders until you get the Wither Blade.|
 T Wounds Beyond Flesh|QID|59765|M|PLAYER|Z|The Maw!Instance|N|To Thrall.|
 T A Good Axe|QID|59766|M|PLAYER|Z|The Maw!Instance|N|To Thrall.|
 A Draw Out the Darkness|QID|60644|M|PLAYER|Z|The Maw!Instance|N|From Thrall.|PRE|59765&59766|LVL|50|
 C Draw Out the Darkness|QID|60644|M|29.56,43.86|Z|The Maw!Instance|N|Draw out and defeat the Withering Presence.|
 T Draw Out the Darkness|QID|60644|M|29.56,43.86|Z|The Maw!Instance|N|To Baine Bloodhoof.|
 A The Path to Salvation|QID|59767|M|29.56,43.86|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|60644|LVL|50|
-C The Path to Salvation 1|QID|59767|M|31.80,44.35|Z|The Maw!Instance|QO|1|CHAT|N|Speak to Jaina.|
-C The Path to Salvation 2|QID|59767|M|42.67,42.18|Z|The Maw!Instance|QO|2|NC|N|Stay cloas to Jaina and avoid the Jailer's Forces while in stealth.|
-C The Path to Salvation 3|QID|59767|M|42.16,42.14|Z|The Maw!Instance|QO|3|NC|N|Reach the Eroded Waygate.|
+C The Path to Salvation|QID|59767|M|31.80,44.35|Z|The Maw!Instance|QO|1|CHAT|N|Speak to Jaina.|
+C The Path to Salvation|QID|59767|M|42.67,42.18|Z|The Maw!Instance|QO|2|NC|N|Stay cloas to Jaina and avoid the Jailer's Forces while in stealth.|
+C The Path to Salvation|QID|59767|M|42.16,42.14|Z|The Maw!Instance|QO|3|NC|N|Reach the Eroded Waygate.|
 T The Path to Salvation|QID|59767|M|42.47,42.18|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A Stand as One|QID|59770|M|42.47,42.23|Z|The Maw!Instance|N|From Anduin Wrynn.|PRE|59767|LVL|50|
 C Stand as One 1|QID|59770|M|42.47,42.23|Z|The Maw!Instance|QO|1|NC|N|Touch the Eroded Waystone.|
