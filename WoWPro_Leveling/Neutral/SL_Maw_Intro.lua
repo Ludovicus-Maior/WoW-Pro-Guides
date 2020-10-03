@@ -106,52 +106,52 @@ C Stand as One 1|QID|59770|M|42.47,42.23|Z|The Maw!Instance|QO|1|NC|N|Touch the 
 C Stand as One 2|QID|59770|M|42.38,42.18|Z|The Maw!Instance|QO|2|N|Survive the Jailer's Onslaught.|
 T Stand as One|QID|59770|M|42.38,42.16|Z|The Maw!Instance|N|To Eroded Waystone.|
 ;don't know about this... but I couldnt progress -- or even move until i did this, but that may be a beta only/first char only?
-A The Threads of Fate|QID|62704|M|20.41,50.31|Z|1670|N|From Fatescribe Roh-Tahl.|PRE|62939&59770|
-C The Threads of Fate|QID|62704|M|20.41,50.31|Z|1670|N|Choose whether you want to move thru the main story line and delay picking a covenant or skip the main storyline and pick a covenant sooner.|
-T The Threads of Fate|QID|62704|M|20.41,50.31|Z|1670|N|To Fatescribe Roh-Tahl.|
-A Stranger in an Even Stranger Land|QID|60129|M|19.25,50.31|Z|1670|N|Auto Accepted.|PRE|59770|;pre for threads of fate too?
-C Stranger in an Even Stranger Land|QID|60129|M|23.42,49.80|Z|1670|QO|1|CHAT|N|Talk to Protector Captain.|
-C Stranger in an Even Stranger Land|QID|60129|M|39.85,65.52|Z|1670|QO|2|NC|N|Follow Protector Captain.|
-C Stranger in an Even Stranger Land|QID|60129|M|39.88,66.44|Z|1670|QO|3|CHAT|N|Speak Overseer Kah-Delen.|
-T Stranger in an Even Stranger Land|QID|60129|M|39.88,66.44|Z|1670|N|To Overseer Kah-Delen.|
-A No Place for the Living|QID|60148|M|39.85,65.52|Z|1670|N|From Overseer Kah-Delen.|PRE|60129|
-C No Place for the Living|QID|60148|M|39.85,65.52|Z|1670|QO|1|CHAT|N|Talk to Overseer Kah-Delen.|
-C No Place for the Living|QID|60148|M|39.85,65.52|Z|1670|QO|2|NC|N|Listen to the Overseers.|
-T No Place for the Living|QID|60148|M|40.81,65.76|Z|1670|N|Turn into Tal-Inara.|
-A Audience with the Arbiter|QID|60149|M|40.81,65.76|Z|1670|N|From Tal-Inara.|PRE|60148|
-C Audience with the Arbiter|QID|60149|M|40.81,65.76|Z|1670|QO|1|CHAT|N|Tell Tal-Inara you will accompany him.|
-C Audience with the Arbiter|QID|60149|M|50.79,52.45|Z|1670|QO|2|CHAT|N|Ask Tal-Inara where you are.|
-C Audience with the Arbiter|QID|60149|M|PLAYER|Z|1670|QO|3|CHAT|N|Wait and Listen.|
-C Audience with the Arbiter|QID|60149|M|PLAYER|Z|1670|QO|4|CHAT|N|Ask Tal-Inara to return to the bottom level.|
-T Audience with the Arbiter|QID|60149|M|39.87,66.29|Z|1670|N|To Overseer Kah-Delen.|
-A Tether to Home|QID|60150|M|39.87,66.29|Z|1670|N|From Overseer Kah-Delen.|PRE|60149|
-C Tether to Home|QID|60150|M|39.82,68.68|Z|1670|NC|N|Click the Shadowlands Map to affix the Helm of Domination.|
-T Tether to Home|QID|60150|M|40.31,64.84|Z|1670|N|To Highlord Bolvar Fordragon.|
-A A Doorway Through the Veil|QID|60151|M|40.23,65.14|Z|1670|N|From Highlord Bolvar Fordragon.|PRE|60150|
-C A Doorway Through the Veil|QID|60151|M|39.87,64.24|Z|1670|QO|1|CHAT|N|Speak to the Ebon Blade Acolyte.|
-C A Doorway Through the Veil|QID|60151|M|21.65,50.53|Z|1670|QO|2|NC|N|Follow the Acolytes back to the landing.|
-C A Doorway Through the Veil|QID|60151|M|21.65,50.53|Z|1670|QO|3|CHAT|N|Speak to the Ebon Blade Acolyte.|
-T A Doorway Through the Veil|QID|60151|M|40.29,66.53|Z|1670|N|To Overseer Kah-Sher.|
-A The Eternal City|QID|60152|M|40.28,66.22|Z|1670|N|From Tal-Inara.|PRE|60151|
-C The Eternal City|QID|60152|M|64.17,68.09|Z|1670|QO|1|CHAT|N|Speak to Overseer Ta'readon.|
-C The Eternal City|QID|60152|M|67.21,50.29|Z|1670|QO|5|CHAT|N|Speak to Host Ta'rela.|
-C The Eternal City|QID|60152|M|78.93,49.16|Z|1670|QO|2|CHAT|N|Speak to the Fatescribe.|
-C The Eternal City|QID|60152|M|60.63,31.32|Z|1670|QO|4|CHAT|N|Speak to Caretaker Kah-Rahm.|
-C The Eternal City|QID|60152|M|40.63,33.12|Z|1670|QO|3|CHAT|N|Speak to Foreman Au'brak.|
-C The Eternal City|QID|60152|M|39.88,66.44|Z|1670|QO|6|CHAT|N|Return to the Enclave.|
-T The Eternal City|QID|60152|M|39.88,66.40|Z|1670|N|To Overseer Kah-Delen.|
-A Understanding the Shadowlands|QID|60154|M|40.30,64.97|Z|1670|N|From Highlord Bolvar Fordragon.|PRE|60152|
-C Understanding the Shadowlands|QID|60154|M|40.59,66.13|Z|1670|QO|1|CHAT|N|Speak to Tal-Inara.|
-C Understanding the Shadowlands|QID|60154|M|40.59,66.13|Z|1670|QO|2|CHAT|N|Speak to Kah-Sher.|
-C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|1670|QO|3|NC|N|Take the Transport Pad to the Ring of Transference.|
-T Understanding the Shadowlands|QID|60154|M|50.50,61.98|Z|1670||N|To Overseer Kah-Sher.|
-A The Path to Bastion|QID|60156|M|50.50,61.98|Z|1670|N|From Overseer Kah-Sher.|PRE|60154|
-C The Path to Bastion|QID|60156|M|64.56,53.54|Z|1670|QO|1|N|Follow Kah-Sher to the gate.|
-C The Path to Bastion|QID|60156|M|63.83,51.97|Z|1670|QO|2|NC|N|Click the Blue Sword in front of you.|
-T The Path to Bastion|QID|60156|M|63.86,52.25|Z|1670|N|To Overseer Kah-Sher.|
-f Oribos|QID|60154|M|60.89,68.52|N|From Pathscribe Roh-Avonavi.|
-A Seek the Ascended|QID|59773|M|63.47,52.16|Z|1671|N|From Pathscribe Roh-Avonavi.|PRE|60156|MS|;error with MS. WoWPRO update 9/30/20 8pm should fix
-C Seek the Ascended|QID|59773|M|64.20,49.88|Z|1671|CHAT|N|Talk to Pathscribe Roh-Avonavi.|
-T Seek the Ascended|QID|59773|M|37.47,76.44|Z|Bastion|N|To Kleia.|
+;A The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|From Fatescribe Roh-Tahl.|PRE|62939&59770|
+;C The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|Choose whether you want to move thru the main story line and delay picking a covenant or skip the main storyline and pick a covenant sooner.|
+;T The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|To Fatescribe Roh-Tahl.|
+A Stranger in an Even Stranger Land|QID|60129|M|19.25,50.31|Z|Ring of Fates@Oribos|N|Auto Accepted.|PRE|59770|;pre for threads of fate too?
+C Stranger in an Even Stranger Land|QID|60129|M|23.82,49.71|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Talk to Protector Captain.|MS|
+C Stranger in an Even Stranger Land|QID|60129|M|39.89,66.46|Z|Ring of Fates@Oribos|QO|2|NC|N|Follow Protector Captain.|MS|
+C Stranger in an Even Stranger Land|QID|60129|M|39.89,66.46|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak Overseer Kah-Delen.|MS|
+T Stranger in an Even Stranger Land|QID|60129|M|39.89,66.46|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
+A No Place for the Living|QID|60148|M|39.89,66.46|Z|Ring of Fates@Oribos|N|From Overseer Kah-Delen.|PRE|60129|MS|
+C No Place for the Living|QID|60148|M|39.89,66.46|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Talk to Overseer Kah-Delen.|MS|
+C No Place for the Living|QID|60148|M|39.89,66.46|Z|Ring of Fates@Oribos|QO|2|NC|N|Listen to the Overseers.|MS|
+T No Place for the Living|QID|60148|M|40.81,65.79|Z|Ring of Fates@Oribos|N|Turn into Tal-Inara.|MS|
+A Audience with the Arbiter|QID|60149|M|40.81,65.79|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|60148|MS|
+C Audience with the Arbiter|QID|60149|M|40.81,65.79|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Tell Tal-Inara you will accompany him.|MS|
+C Audience with the Arbiter|QID|60149|M|50.78,51.54|Z|The Crucible@Oribos!Dungeon|QO|2|CHAT|N|Ask Tal-Inara where you are.|MS|
+C Audience with the Arbiter|QID|60149|M|50.78,51.54|Z|The Crucible@Oribos!Dungeon|QO|3|CHAT|N|Wait and Listen.|MS|
+C Audience with the Arbiter|QID|60149|M|50.78,51.54|Z|The Crucible@Oribos!Dungeon|QO|4|CHAT|N|Ask Tal-Inara to return to the bottom level.|MS|
+T Audience with the Arbiter|QID|60149|M|39.87,66.29|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
+A Tether to Home|QID|60150|M|39.87,66.29|Z|Ring of Fates@Oribos|N|From Overseer Kah-Delen.|PRE|60149|MS|
+C Tether to Home|QID|60150|M|39.46,69.28|Z|Ring of Fates@Oribos|NC|N|Click the Shadowlands Map to affix the Helm of Domination.|MS|
+T Tether to Home|QID|60150|M|40.31,64.84|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|MS|
+A A Doorway Through the Veil|QID|60151|M|40.23,65.14|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|60150|MS|
+C A Doorway Through the Veil|QID|60151|M|40.00,63.93|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to the Ebon Blade Acolyte.|MS|
+C A Doorway Through the Veil|QID|60151|M|21.65,50.53|Z|Ring of Fates@Oribos|QO|2|NC|N|Follow the Acolytes back to the landing.|MS|
+C A Doorway Through the Veil|QID|60151|M|21.65,50.53|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak to the Ebon Blade Acolyte.|MS|
+T A Doorway Through the Veil|QID|60151|M|40.29,66.53|Z|Ring of Fates@Oribos|N|To Overseer Kah-Sher.|MS|
+A The Eternal City|QID|60152|M|40.29,66.53|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|60151|MS|
+C The Eternal City|QID|60152|M|64.39,68.31|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to Overseer Ta'readon.|MS|
+C The Eternal City|QID|60152|M|67.21,50.29|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Speak to Host Ta'rela.|MS|
+C The Eternal City|QID|60152|M|78.93,49.16|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak to the Fatescribe.|MS|
+C The Eternal City|QID|60152|M|60.63,31.32|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak to Caretaker Kah-Rahm.|MS|
+C The Eternal City|QID|60152|M|40.33,32.63|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak to Foreman Au'brak.|MS|
+C The Eternal City|QID|60152|M|39.88,66.44|Z|Ring of Fates@Oribos|QO|6|CHAT|N|Return to the Enclave.|MS|
+T The Eternal City|QID|60152|M|39.88,66.40|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
+A Understanding the Shadowlands|QID|60154|M|40.30,64.97|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|60152|MS|
+C Understanding the Shadowlands|QID|60154|M|40.81,65.88|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to Tal-Inara.|MS|
+C Understanding the Shadowlands|QID|60154|M|40.34,66.61|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak to Kah-Sher.|MS|
+C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|Ring of Fates@Oribos|QO|3|NC|N|Take the Transport Pad to the Ring of Transference.|MS|
+T Understanding the Shadowlands|QID|60154|M|50.50,61.98|Z|Ring of Transference@Oribos||N|To Overseer Kah-Sher.|MS|
+A The Path to Bastion|QID|60156|M|50.50,61.98|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|60154|MS|
+C The Path to Bastion|QID|60156|M|64.56,53.54|Z|Ring of Transference@Oribos|QO|1|N|Follow Kah-Sher to the gate.|MS|
+C The Path to Bastion|QID|60156|M|63.86,51.55|Z|Ring of Transference@Oribos|QO|2|NC|N|Click the Blue Sword in front of you.|MS|
+T The Path to Bastion|QID|60156|M|64.49,53.52|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
+f Oribos|ACTIVE|60154|M|64.21,49.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|MS|
+A Seek the Ascended|QID|59773|M|64.21,49.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|PRE|60156|MS|
+C Seek the Ascended|QID|59773|M|64.21,49.63|Z|Ring of Transference@Oribos|CHAT|N|Talk to Pathscribe Roh-Avonavi.|MS|
+T Seek the Ascended|QID|59773|M|37.52,76.44|Z|Bastion|N|To Kleia.|MS|
 ]]
 end)
