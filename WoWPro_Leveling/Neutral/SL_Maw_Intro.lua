@@ -104,10 +104,10 @@ A Stand as One|QID|59770|M|42.47,42.23|Z|The Maw!Instance|N|From Anduin Wrynn.|P
 C Stand as One 1|QID|59770|M|42.47,42.23|Z|The Maw!Instance|QO|1|NC|N|Touch the Eroded Waystone.|
 C Stand as One 2|QID|59770|M|42.38,42.18|Z|The Maw!Instance|QO|2|N|Survive the Jailer's Onslaught.|
 T Stand as One|QID|59770|M|42.38,42.16|Z|The Maw!Instance|N|To Eroded Waystone.|
-; STOP UNCOMMENTING THIS OUT - ToF detection needs to be coded into the addon, this won't apply to new players in retail. Don't want this accidently going live.
-;A The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|From Fatescribe Roh-Tahl.|PRE|62939&59770|
-;C The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|Choose whether you want to move thru the main story line and delay picking a covenant or skip the main storyline and pick a covenant sooner.|
-;T The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|To Fatescribe Roh-Tahl.|
+; This should only show if you have completed Achievement "Choosing Your Purpose" ID:(14627) on any character.
+A The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|From Fatescribe Roh-Tahl.|PRE|59770|ACH|14627;;true;true|
+C The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|Choose whether you want to move thru the main story line and delay picking a covenant or skip the main storyline and pick a covenant sooner.|ACH|14627;;true;true|
+T The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|To Fatescribe Roh-Tahl.|ACH|14627;;true;true|
 A Stranger in an Even Stranger Land|QID|60129|M|19.25,50.31|Z|Ring of Fates@Oribos|N|Auto Accepted.|PRE|59770|;pre for threads of fate too?
 C Stranger in an Even Stranger Land|QID|60129|M|23.82,49.71|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Talk to Protector Captain.|MS|
 C Stranger in an Even Stranger Land|QID|60129|M|39.89,66.46|Z|Ring of Fates@Oribos|QO|2|NC|N|Follow Protector Captain.|MS|
