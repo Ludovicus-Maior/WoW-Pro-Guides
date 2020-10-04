@@ -381,6 +381,58 @@ function WoWPro:OnInitialize()
         WoWProDB.profile.checksoundfile = 567416 -- MapPing
     end
     WoWPro.inhibit_oldQuests_update = false
+
+	WoWProDB.profiles["Eli-Theme"] = {
+		["bgcolor"] = {
+			0.01568627450980392, -- [1]
+			0.01568627450980392, -- [2]
+			0.01568627450980392, -- [3]
+			0.8205126523971558, -- [4]
+		},
+		["space"] = 6,
+		["titlecolor"] = {
+			0.5019607843137255, -- [1]
+			0.5019607843137255, -- [2]
+			0.5019607843137255, -- [3]
+			0, -- [4]
+		},
+		["bordertexture"] = "Interface\\AddOns\\WoWPro\\Textures\\Eli-Edge.tga",
+		["stickytitletextsize"] = 14,
+		["stepfont"] = "Fonts\\MORPHEUS_CYR.TTF",
+		["stickycolor"] = {
+			1, -- [1]
+			1, -- [2]
+			1, -- [3]
+			0.162651002407074, -- [4]
+		},
+		["tracktextcolor"] = {
+			0.9882352941176471, -- [1]
+			[3] = 0.4666666666666667,
+		},
+		["Selector"] = {
+			["QuestHard"] = 0,
+		},
+		["notetextcolor"] = {
+			[3] = 0.984313725490196,
+		},
+		["steptextcolor"] = {
+			nil, -- [1]
+			0.9568627450980391, -- [2]
+			0.03529411764705882, -- [3]
+		},
+		["pad"] = 14,
+		["steptextsize"] = 16,
+		["titletextcolor"] = {
+			0.5529411764705883, -- [1]
+			0.3607843137254902, -- [2]
+		},
+		["titletextsize"] = 16,
+		["hminresize"] = 340,
+		["stickytitletextcolor"] = {
+			0.3843137254901961, -- [1]
+			0.4156862745098039, -- [2]
+		}
+}
 end
 
 function WoWPro:RESET()
