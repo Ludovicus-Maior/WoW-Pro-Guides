@@ -29,7 +29,7 @@ T The Zandalar Campaign|QID|51569|M|69.25,27.00|Z|Boralus|N|To Halford Wyrmbane.
 A Mission from the King|QID|51714|M|69.73,27.80|Z|Boralus|N|From Falstad Wildhammer.|PRE|53332|
 T Mission from the King|QID|51714|M|70.70,27.10|Z|Boralus|N|To Master Mathias Shaw.|
 A War of Shadows|QID|51715|M|70.70,27.10|Z|Boralus|N|From Master Mathias Shaw.|PRE|51714|
-N War of Shadows|QID|51715|M|70.55,27.19|Z|Boralus|NC|N|Send Falstad on "The Shadow War" mission, and come back in 2 hours. Check off this step manually if you want to begin the Zandalar campaign.|MID|1877|
+N War of Shadows|QID|51715|M|70.55,27.19|Z|Boralus|NC|N|Send Falstad on "The Shadow War" mission, and come back in 2 hours.|MID|1877|
 t War of Shadows|QID|51715|M|70.70,27.10|Z|Boralus|N|To Master Mathias Shaw.|
 A Reinforcements|QID|53074|M|70.70,27.10|Z|Boralus|N|From Master Mathias Shaw.|PRE|51715|
 C Reinforcements|QID|53074|M|70.70,27.10|Z|Boralus|N|Place a work order (or 4) for reinforcements with Master Mathias Shaw.|
@@ -126,7 +126,7 @@ C The Troll's Tale|QID|51201|M|77.51,54.60|Z|Zuldazar|CHAT|N|Talk to the Capture
 T The Troll's Tale|QID|51201|M|77.54,54.58|Z|Zuldazar|N|To Brigadier Thom.|
 A Granting a Reprieve|QID|51190|M|77.54,54.58|Z|Zuldazar|N|From Brigadier Thom.|PRE|51201|
 A Disarming the Cannons|QID|51544|M|77.54,54.58|Z|Zuldazar|N|From Brigadier Thom.|PRE|51201|
-f Castaway Encampment|ACTIVE|51191|M|77.66,54.44|Z|Zuldazar|N|At Kaolin.|
+f Castaway Encampment|ACTIVE|51544|M|77.66,54.44|Z|Zuldazar|N|At Kaolin.|
 A A Lack of Surplus|QID|51192|M|77.14,55.58|Z|Zuldazar|N|From Degdod.|PRE|51201|
 A That One's Mine|QID|51193|M|77.14,55.58|Z|Zuldazar|N|From Degdod.|PRE|51201|
 A Save Them All|QID|51191|M|77.13,55.55|Z|Zuldazar|N|From Medic Feorea.|PRE|51201|
@@ -175,7 +175,7 @@ A Blood of Hir'eek|QID|51167|M|31.15,46.70|Z|Nazmir|N|From Brann Bronzebeard.|PR
 A Honoring the Fallen|QID|51150|M|31.15,46.70|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51129|
 C Honoring the Fallen|QID|51150|M|31.12,47.11|Z|Nazmir|S|NC|N|Click on the alliance corpses to retrieve their dog tags.|
 K Blood Witch Pakkala|ACTIVE|51167|QO|1|M|29.13,46.54|Z|Nazmir|T|Blood Witch Pakkala|N|Kill Blood Witch Pakkala.|
-C Honoring the Fallen|QID|51150|M|31.12,47.11|Z|Nazmir|S|NC|N|Finish recovering dog tags.|
+C Honoring the Fallen|QID|51150|M|31.12,47.11|Z|Nazmir|US|NC|N|Finish recovering dog tags.|
 T Blood of Hir'eek|QID|51167|M|31.15,46.71|Z|Nazmir|N|To Brann Bronzebeard.|
 T Honoring the Fallen|QID|51150|M|31.15,46.71|Z|Nazmir|N|To Brann Bronzebeard.|
 A Zealots of Zalamar|QID|51168|M|31.15,46.71|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51167&51150|
@@ -186,7 +186,7 @@ C Flight from the Fall|QID|51169|M|31.11,47.90|Z|Nazmir|V|N|Hop on a bat to be f
 T Flight from the Fall|QID|51169|M|62.03,41.60|Z|Nazmir|N|To Brann Bronzebeard.|
 A Zul'Nazman|QID|51281|M|62.03,41.60|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51169|
 h Fort Victory|ACTIVE|51281|M|61.96,40.77|Z|Nazmir|N|Unless you like long runs thru troll infested swamps, setting your hearthstone is recomended at Priestess Islara.|
-R Koramar|ACTIVE|51281|M|58.12,45.31;55.01,46.48;53.70,49.79;50.27,49.56|Z|Nazmir|CS|N|Brann could at least run with you and help you find the way, but no.|
+R Koramar|ACTIVE|51281|M|58.12,45.31;55.01,46.48;53.70,49.79;50.27,49.56|Z|Nazmir|CS|N|Brann could at least run with you and help you find the way, but no.|FLY|BFA|
 T Zul'Nazman|QID|51281|M|49.97,50.92|Z|Nazmir|N|To Brann Bronzebeard.|
 A Nazmani Cultists|QID|51279|M|49.97,50.92|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51281|
 A Offerings to G'huun|QID|51280|M|49.97,50.92|Z|Nazmir|N|From Brann Bronzebeard.|PRE|51281|
@@ -207,66 +207,9 @@ T Champion: John J. Keeshan|QID|52013|M|61.78,41.33|Z|Nazmir|N|To John Keeshan.|
 A Return to Boralus|QID|51967|M|62.03,41.59|Z|Nazmir|N|From Brann Bronzebeard.|PRE|52013| ; Grail says 52013, not |51177|
 C Return to Boralus|QID|51967|M|61.40,51.11|Z|Kul Tiras|CHAT|N|Tell Desha you want to return to Boralas.|
 T Return to Boralus|QID|51967|M|69.27,27.02|Z|Boralus|N|To Halford Wyrmbane. Don't forget to reset your hearthstone to Boralus.|
-;lvl 120
-A A Mission of Unity|QID|53063|N|Autoaccepted when you hit 120|O|
-T A Mission of Unity|QID|53063|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-A Uniting Kul Tiras|QID|51918^52450|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|53063|  ; Grail says need PRE
-C Uniting Kul Tiras|QID|51918^52450|S|N|This requires earning friendly reputation with Proudmoore Admirity (Tiragarde Sound), Order of Embers (Drustvar) and Storm's Wake (Stormsong Valley).|
-;Warfronts
-A The Warfront Looms|QID|53175|N|Autoaccepted after turning level 120|O|
-T The Warfront Looms|QID|53175|M|65.90,26.10|Z|Boralus|N|To Ralston Karn.|
-A To the Front|QID|53194|M|65.90,26.10|Z|Boralus|N|From Ralston Karn.|LVL|50|
-A Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|N|From Ralston Karn.|LVL|50|  ; Grail says PRE|53175| is Spurious
-P Arathi Highlands|ACTIVE|53194|M|66.23,24.77|Z|Boralus|CHAT|N|Talk to Yvera Dawnwing for a port to Arathi Highlands.|
-T To the Front|QID|53194|M|19.25,61.94|Z|Arathi Highlands|N|To Captain Roderick Brewston.|
-A Touring the Front|QID|53197|M|19.25,61.94|Z|Arathi Highlands|PRE|53194|
-C Touring the Front|QID|53197|M|18.26,67.94|Z|Arathi Highlands|QO|3|CHAT|N|View the battleground with Grayson Bell.|
-C Touring the Front|QID|53197|M|12.01,52.12|Z|Arathi Highlands|QO|2|CHAT|N|Check on Lumbering Leo.|
-C Touring the Front|QID|53197|M|27.55,57.01|Z|Arathi Highlands|QO|1|CHAT|N|Enter the mine and run below to check on Foreman Tully.|
-T Touring the Front|QID|53197|M|19.24,61.94|Z|Arathi Highlands|N|To Captain Roderick Brewston.|
-A Back to Boralus|QID|53198|M|19.24,61.94|Z|Arathi Highlands|N|From Captain Roderick Brewston.|PRE|53197|
-P Boralus Harbor|ACTIVE|53198|M|21.71,64.88|Z|Arathi Highlands|CHAT|N|Talk to Yvera Dawnwing for a port back to Boralus.|
-T Back to Boralus|QID|53198|M|65.90,26.10|Z|Boralus|N|To Ralston Karn.|
-C Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|QO|1|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g.|
-T Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|N|To Ralston Karn and enjoy Warfronts!|
-; Warfront Scenerio
-A Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|N|From Ralston Karn.|O|
-C Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|QO|1|NC|N|View the War Table and join the queue to defeat the Horde at the Battle for Stromgarde.|
-A Iron Stores|QID|52439|ACTIVE|53414|M|61.05,67.17|Z|1044|N|From Foreman Tully. After taking the mines by killing Overseer Krix.|
-C Iron Stores|QID|52439|M|47.28,74.06|Z|1044|QO|1|NC|N|Back at the base, access your Iron Stores.|
-T Iron Stores|QID|52439|M|47.13,74.18|Z|1044|N|To Henrik.|
-A Cutting Out the Competition|QID|52118|ACTIVE|53414|M|36.37,59.61|Z|1044|N|From Lumbering Leo. after taking the Lumber Mill.|; Grail says PRE|52439| is Spurious
-C Cutting Out the Competition|QID|52118|M|36.71,59.43|Z|1044|QO|1|NC|N|Grab the Sturdy Axe.|
-C Cutting Out the Competition|QID|52118|M|36.35,58.17|Z|1044|QO|2|NC|N|Chop down the Sapling.|
-C Cutting Out the Competition|QID|52118|M|36.35,58.17|Z|1044|QO|3|NC|N|Pick up the Freshly-Chopped Wood around the tree you just chopped.|
-T Cutting Out the Competition|QID|52118|M|36.65,59.78|Z|1044|N|To Lumbering Leo.|
-A Ready for Battle|QID|53672|ACTIVE|53414|M|46.04,73.30|Z|1044|N|From Sergeant Matthew Walker.| ; Grail says PRE|52439| is Spurious
-C Ready for Battle|QID|53672|M|44.40,73.70|Z|1044|QO|1|NC|N|Recruit a troop from the Barracks, 20 Iron minimum.|
-T Ready for Battle|QID|53672|M|46.04,73.29|Z|1044|N|To Sergeant Matthew Walker.|
-A Armor Up!|QID|53673|ACTIVE|53414|M|49.60,76.61|Z|1044|N|From Balinda Darkstone.|  ; Grail says PRE|52439| is Spurious
-C Armor Up!|QID|53673|M|51.28,74.18|Z|1044|QO|1|NC|N|See what the Armory has to offer.|
-T Armor Up!|QID|53673|M|48.02,80.01|Z|1044|N|To Captain Roderick Brewston.|
-A The Altar's Power|QID|53674|ACTIVE|53414|M|48.02,80.01|Z|1044|N|From Captain Roderick Brewston.|  ; Grail says PRE|52439| is Spurious
-C The Altar's Power|QID|53674|M|51.42,81.06|Z|1044|QO|1|NC|N|See what the Altar has to offer at Alterite Jesse Taylor.|
-T The Altar's Power|QID|53674|M|48.01,79.96|Z|1044|N|To Captain Roderick Brewston.|
-A Welcome to the Workshop|QID|53675|ACTIVE|53414|M|50.73,72.17|Z|1044|N|From Genny.|  ; Grail says PRE|52439| is Spurious
-C Welcome to the Workshop|QID|53675|M|49.93,72.26|Z|1044|QO|1|NC|N|See what the Workshop has to offer.|
-T Welcome to the Workshop|QID|53675|M|50.72,72.17|Z|1044|N|To Genny.|
-A Establishing a Connection|QID|53678|ACTIVE|53414|M|51.11,47.09|Z|1044|N|From Grayson Bell.| ; Grail says PRE|52439| is Spurious
-C Establishing a Connection|QID|53678|M|51.11,47.09|Z|1044|CHAT|N|Fly back to Stromgarde Keep to get your flightmaster whistle upgrade.|
-T Establishing a Connection|QID|53678|M|47.49,75.40|Z|1044|N|To Danath Trollbane.|
-A Beasts of Newstead|QID|53677|ACTIVE|53414|M|42.31,39.61|Z|1044|N|From Huntmaster Theodore after capturing Newstead.| ; Grail says PRE|52439| is Spurious
-C Beasts of Newstead|QID|53677|M|41.50,40.54|Z|1044|QO|1|NC|N|See what Vindicator Banra has to offer.|
-T Beasts of Newstead|QID|53677|M|42.33,39.66|Z|1044|N|To Huntmaster Theodore.|
-A The Circle's Power|QID|53676|ACTIVE|53414|M|69.62,47.69|Z|1044|N|From High Sorceress Marala after capturing the Circle of Elements.| ; Grail says PRE|52439| is Spurious
-C The Circle's Power|QID|53676|M|67.16,47.39|Z|1044|QO|1|NC|N|See what Justine Frost has to offer.|
-T The Circle's Power|QID|53676|M|69.64,47.68|Z|1044|N|To High Sorceress Marala.|
-t Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|N|To Ralston Karn.|
-; End Warfront Scenerio
-C Uniting Kul Tiras|QID|51918^52450|US|N|This requires earning friendly reputation with Proudmoore Admirity (Tiragarde Sound), Order of Embers (Drustvar) and Storm's Wake (Stormsong Valley).|
-T Uniting Kul Tiras|QID|51918^52450|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
+
 ;First Assault
-A Overseas Assassination|QID|52026|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|51918^52450|   ; 52450 per wowhead comments, that this is the 'alt' verison when main is at Friendly REPs, so leaving for now, ignoring Grail
+A Overseas Assassination|QID|52026|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|LVL|50|
 C Overseas Assassination|QID|52026|M|67.95,26.72|Z|Boralus|CHAT|N|If you are ready to travel to Vol'dun|
 T Overseas Assassination|QID|52026|M|37.70,35.95|Z|Vol'dun|N|To Halford Wyrmbane.|
 A The Vol'dun Plan|QID|52027|M|37.70,35.95|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52026|
@@ -329,84 +272,10 @@ A Blood on the Sand|QID|52146|M|39.65,83.91|Z|Vol'dun|N|From Halford Wyrmbane.|P
 C Blood on the Sand|QID|52146|M|39.65,83.91|Z|Vol'dun|QO|2|NC|N|Wait for Kelsey Steelspark to return.|
 C Blood on the Sand|QID|52146|M|38.68,83.02|Z|Vol'dun|QO|1|NC|N|Click on 7th Legion Spyglass and watch cinematic.|
 T Blood on the Sand|QID|52146|M|39.65,83.91|Z|Vol'dun|N|To Halford Wyrmbane.|
+F Shatterstone Harbor|AVAILABLE|52147|M|39.79,83.81|Z|Vol'dun|N|Fly back to Shatterstone Harbor.|PRE|52146|
+P Wind's Redemption|AVAILABLE|52147|M|36.68,34.28|Z|Vol'dun|N|Talk with Barnard to take you back to Boralus.|PRE|52146|
 
-; Heart of Azeroth questline - Level 54
-A In Darkness, I Dream|QID|55390|N|From Kalecgos, in the Chamber of the Heart after HoA 54.|O|
-P Dalaran|ACTIVE|55390|N|Use your Dalaran hearthstone.|
-F Garden of the Moon|ACTIVE|55390|N|Now fly to Val'sharah|
-T In Darkness, I Dream|QID|55390|M|51.62,57.22|Z|Val'sharah|N|To Merithra of the Dream, at the Temple of Elune.|
-A Enter the Dreamway|QID|55392|M|51.62,57.22|Z|Val'sharah|N|From Merithra of the Dream|PRE|55390|
-C Merithra of the Dream|QID|55392|M|51.62,57.22|Z|Val'sharah|NC|CHAT|N|Ask Merithra to go to the Dreamway.|
-T Enter the Dreamway|QID|55392|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream|
-A Shards of Emerald|QID|55394|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream|PRE|55392|
-A Null the Void|QID|55393|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream|PRE|55392|
-A Don't Close Your Eyes|QID|55395|M|27.10,55.94|Z|Emerald Dreamway!Instance1471|N|From Valithria Dreamwalker|PRE|55392|
-K Void invaders|ACTIVE|55393|QO|1|M|38.6,37.0|Z|Emerald Dreamway!Instance1471|N|Kill anything voidy.|S!US|
-C Emerald Shards|QID|55394|QO|1|M|37.5,60.0;63.2,33.8|CN|N|The Emerald Shards are one the ground next to the dragons bodies.|S|
-C Karkarius|QID|55395|QO|3|M|70.6,45.6|Z|Emerald Dreamway!Instance1471|NC|CHAT|N|Wakey waykey!|
-C Verdisa|QID|55395|QO|2|M|44.81,50.43|Z|Emerald Dreamway!Instance1471|NC|CHAT|N|Wakey waykey!|
-C Thessera|QID|55395|QO|1|M|28.55,75.89|Z|Emerald Dreamway!Instance1471|NC|CHAT|N|Wakey waykey!|
-C Emerald Shards|QID|55394|QO|1|M|37.5,60.0;63.2,33.8|CN|N|The Emerald Shards are one the ground next to the dragons bodies.|US|
-T Shards of Emerald|QID|55394|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream|
-T Null the Void|QID|55393|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream|
-T Don't Close Your Eyes|QID|55395|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream|
-A We Must Go Deeper|QID|55465|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream|PRE|55393&55394&55395|
-C Merithra of the Dream|QID|55465|M|44.04,30.672|Z|Emerald Dreamway!Instance1471|NC|CHAT|N|Ask to go to the Emerald Dream.|
-T We Must Go Deeper|QID|55465|M|46.57,39.66|Z|The Emerald Dream!Instance|N|To Merithra of the Dream|
-A Before I Wake|QID|55397|M|46.57,39.66|Z|The Emerald Dream!Instance|N|From Merithra of the Dream|PRE|55465|
-C Void Horror|QID|55397|QO|1|M|58.78,47.15;55.08,72.85;42.33,62.31|CN|Z|The Emerald Dream!Instance|
-C Grip of Horror|QID|55397|QO|2|M|51.62,55.66|Z|The Emerald Dream!Instance|
-T Before I Wake|QID|55397|M|46.57,39.66|Z|The Emerald Dream!Instance|N|To Merithra of the Dream|
-A The Stuff Dreams Are Made Of|QID|55396|M|46.57,39.66|Z|The Emerald Dream!Instance|N|From Merithra of the Dream|PRE|55397|
-U Emerald Shards|QID|55396|QO|1|M|54.44,52.28|Z|The Emerald Dream!Instance|U|167831|N|Use the shards in the lake.|
-C Reforged Dreamglow Dragonscale|QID|55396|QO|3|M|50.35,49.41|Z|The Emerald Dream!Instance|N|Click on the Dragonscale.|
-T The Stuff Dreams Are Made Of|QID|55396|M|46.57,39.66|Z|The Emerald Dream!Instance|N|To Merithra of the Dream|
-A The Long Awake|QID|55398|M|46.57,39.66|Z|The Emerald Dream!Instance|N|From Merithra of the Dream|PRE|55396|  ; need prev quest, per Grail
-P Chamber of Heart|ACTIVE|55398|M|46.57,39.66|Z|The Emerald Dream!Instance|NC|CHAT|N|Ask Merithra to leave the Emerald Dream to Val'sharah or get to the Chamber of Heart however.|
-N Afterwards|ACTIVE|55398|N|Merithra will make a speech and leave you with a Scale.  Open the Heart Forge and then click on the scale to upgrade to rank 2|
-T The Long Awake|QID|55398|M|53.85,62.11|Z|Chamber of Heart!Dungeon1473|N|To Merithra of the Dream|
-; Heart of Azeroth questline - Level 60
-A Investigating the Highlands|QID|56167|M|52.54,69.95|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos.\n\nHeart needs to be level 60.|O|PRE|55398|  ; Heart needs to be lvl 60, but 55398 is part of prev chain, so leaving, but noting lvl 60
-P Twilight Highlands|ACTIVE|56167|N|Get thee to Twilight Highlands|
-T Investigating the Highlands|QID|56167|M|35.95,50.49|Z|Twilight Highlands|N|To Kalecgos.|
-A In the Shadow of Crimson Wings|QID|55657|M|35.95,50.49|Z|Twilight Highlands|N|From Kalecgos.|PRE|56167|
-C In the Shadow of Crimson Wings|QID|55657|M|35.95,50.49|Z|Twilight Highlands|QO|1|NC|CHAT|N|Speak with Kalecgos to start the scenario.|
-C Enemy threat reduced|M|59.93,23.38|Z|Twilight Highlands!Instance|SO|1;1|N|Kill the Void-Twisted attackers till threat reduced to 100%.|
-C Meet Alexstrasza atop the Vermillion Redoubt|M|64.16,29.93|Z|Twilight Highlands!Instance|SO|2;1|NC|CHAT|N|Meet Alexstrasza atop the Vermillion Redoubt and chat with her to start the next phase.|
-C Stemming the Corruption|Z|Twilight Highlands|SO|3|S|N|Free the corrupted drakes atop the Vermillion Redoubt.|
-C In the Shadow of Crimson Wings|QID|55657|M|64.16,29.93|Z|Twilight Highlands!Instance|QO|2|N|1/1 Alexstrasza reached|
-C In the Shadow of Crimson Wings|QID|55657|M|67.03,35.23|Z|Twilight Highlands!Instance|QO|3|N|1/1 Threat discovered|
-C Vermillion Sentinels rescued|M|66.97,40.22|Z|Twilight Highlands!Instance|SO|3;1|N|Vermillion Sentinels rescued|
-C Stemming the Corruption|Z|Twilight Highlands|SO|3|US|N|Free the corrupted drakes atop the Vermillion Redoubt.|
-C Take to the Skies!|Z|Twilight Highlands|SO|4|S|N|Mount Kalecgos atop the ridge at the Vermillion Redoubt.|
-C Kalecgos mounted|M|62.81,44.06|Z|Twilight Highlands!Instance|SO|4;1|N|Kalecgos mounted|
-C Take to the Skies!|Z|Twilight Highlands|SO|4|US|N|Mount Kalecgos atop the ridge at the Vermillion Redoubt.|
-C From the Shadows|Z|Twilight Highlands|SO|5|S|N|Confront Vexiona outside of Grim Batol.|
-C In the Shadow of Crimson Wings|QID|55657|M|47.06,86.16|Z|Twilight Highlands!Instance|QO|4|N|1/1 Vexiona confronted|
-C Vexiona confronted|M|47.06,86.16|Z|Twilight Highlands!Instance|SO|5;1|N|Vexiona confronted|
-C From the Shadows|Z|Twilight Highlands|SO|5|US|N|nil|
-C nil|Z|Twilight Highlands|SO|0|S|N|nil|
-C In the Shadow of Crimson Wings|QID|55657|M|45.78,86.30|Z|Twilight Highlands!Instance|QO|5|N|Loot the Lost Scale of the Scarlet Broodmother|
-C In the Shadow of Crimson Wings|QID|55657|M|46.44,86.44|Z|Twilight Highlands!Instance|QO|6|N|Ride Corastrasza to Silithus|
-N Afterwards|ACTIVE|55657|N|Alexstrasza will make a speech and leave you with a Scale.  Open the Heart Forge and then click on the scale to upgrade to rank 3|
-T In the Shadow of Crimson Wings|QID|55657|M|54.18,65.96|Z|Chamber of Heart!Dungeon1473|N|To Alexstrasza the Life-Binder.|
-; Heart of Azeroth questline - Level 65
-A Back to the Chamber|QID|56262|M|75.05,14.97|Z|Boralus|N|From Earthen Guardian.|LEAD|55732|LVL|50|
-T Supplies Needed: Shimmerscale|QID|51032|M|41.41,45.19|Z|Silithus|
-T Back to the Chamber|QID|56262|M|50.12,59.17|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
-A An Old Scar|QID|55732|M|50.12,59.17|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|LVL|50|
-C An Old Scar|QID|55732|M|48.18,72.28|Z|Chamber of Heart!Dungeon1473|CHAT|QO|1|N|Speak to MOTHER to Travel to the Maelstrom.|
-T An Old Scar|QID|55732|M|33.72,54.58|Z|The Maelstrom - Heart of Azeroth!Instance|N|To Magni Bronzebeard.|
-A Defending the Maelstrom|QID|55735|M|33.72,54.58|Z|The Maelstrom - Heart of Azeroth!Instance|N|From Magni Bronzebeard.|PRE|55732|  ; well it's assumed you'd do the prev quest, but to make Grail happy.
-C Defending the Maelstrom|QID|55735|M|30.80,53.44|Z|The Maelstrom - Heart of Azeroth!Instance|QO|2|N|1/1 Azerite Giant slain|
-C Defending the Maelstrom|QID|55735|M|28.39,29.36|Z|The Maelstrom - Heart of Azeroth!Instance|QO|1|N|Defend the Maelstrom by defeating enemies and healing wounds|
-T Defending the Maelstrom|QID|55735|M|33.74,54.55|Z|The Maelstrom - Heart of Azeroth!Instance|N|To Magni Bronzebeard.|
-A At the Azerite Time|QID|55737|M|33.74,54.55|Z|The Maelstrom - Heart of Azeroth!Instance|N|From Magni Bronzebeard.|PRE|55735|  ; well it's assumed you'd do the prev quest, but to make Grail happy.
-T At the Azerite Time|QID|55737|M|48.11,72.24|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
-; 4.5k Friendly with The 7th Legion
-A Operation: Blood Arrow|QID|53069|M|69.28,27.00|Z|Boralus|N|Autoaccepted.|O|REP|7th Legion;2159;friendly;4500|PRE|52146|LEAD|52147|  ; Technically you need 52146 done AND REP for this quest to popup, REP gate NOT removed from this quest (and also subsquent LEAD quests.)
-T Operation: Blood Arrow|QID|53069|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-A Crippling the Horde|QID|52147|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|52146|  ;  Rep Gate REP|7th Legion;2159;friendly;4500| removed.  PRE|53069| - NOT needed, tested Horde side.
+A Crippling the Horde|QID|52147|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|52146|
 C Crippling the Horde|QID|52147|M|67.94,26.70|Z|Boralus|CHAT|N|Speak with Grand Admiral Jes-Tereth to sail for Nazmir.|
 T Crippling the Horde|QID|52147|M|61.96,41.22|Z|Nazmir|N|To Shandris Feathermoon.|
 A How to Kill a Dark Ranger|QID|52150|M|61.96,41.22|Z|Nazmir|N|From Shandris Feathermoon.|PRE|52147|
@@ -442,36 +311,9 @@ A Target: Blood Prince Dreven|QID|52219|M|42.13,39.74|Z|Nazmir|N|From Shandris F
 C Target: Blood Prince Dreven|QID|52219|M|20.15,60.76|Z|Nazmir|QO|1|CHAT|N|Meet John J. Keeshan and tell him you're ready.|
 K Blood Prince Dreven|ACTIVE|52219|M|20.18,60.76|Z|Nazmir|QO|2|T|Blood Prince Dreven|N|Kill Blood Prince Dreven and his cohorts.|
 T Target: Blood Prince Dreven|QID|52219|M|61.97,41.24|Z|Nazmir|N|To Shandris Feathermoon - Flightmaster Whistle can be useful here if you don't want to run back.|U|141605|
-; The Honored Repuation Mission Report: Veiled Grotto
-A Mission Report: Veiled Grotto|QID|52801|M|70.46,27.13|Z|Boralus|PRE|53747|O|  ;  Grail says Spurious, but I'm not sure
-T Mission Report: Veiled Grotto|QID|52801|M|69.28,26.99|Z|Boralus|N|To Halford Wyrmbane.|
-A Veiled Grotto|QID|52802|M|69.28,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|52801|
-; The Honored Repuation Mission Report: Grimwatt's Crash
-A Mission Report: Grimwatt's Crash|QID|53006|M|70.45,27.18|Z|Boralus|PRE|53751|O|  ;  Grail says Spurious, but I'm not sure
-T Mission Report: Grimwatt's Crash|QID|53006|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-A Grimwatt's Crash|QID|53007|M|69.28,27.00|Z|Boralus|PRE|53006|N|From Halford Wyrmbane.|
-; The Honored Repuation Mission Report: Veiled Grotto,part2
-R Zuldazar|ACTIVE|52802|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
-R The Golden Road|ACTIVE|52802|M|49.21,35.86;48.36,39.71;44.48,36.69|CS|Z|Zuldazar|N|Make your way to the outpost by following the road generally north thru Rastari passage, until you get to Temple of the Prophet, right wall thru the temple, up multiple steps of stairs and then continue up The Golden Road.|FLY|BFA|
-C Veiled Grotto|QID|52802|M|44.48,36.69|Z|Zuldazar|QO|1|NC|N|Click the banner claim the outpost for the Alliance.|
-f Veiled Grotto|ACTIVE|52802|M|44.43,36.84|Z|Zuldazar|N|Get the flightpoint from Isaac "Lefteye" Bentham.|
-T Veiled Grotto|QID|52802|M|44.25,36.49|Z|Zuldazar|N|To Kolton Garrick.|
-;there is no upgrade for this outpost (unlike all the others)
-; The Honored Repuation Mission Report: Grimwatt's Crash,part2
-R Nazmir|ACTIVE|53007|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Nazmir or get there through other means.|
-R Terrace of Sorrows|ACTIVE|53007|M|37.19,48.47;37.84,60.53|CS|Z|Nazmir|N|Make your way to the outpost by following the road generally west until the crossroads at Kazai, turn left (south) and continue on down the road. Turn right (west)off the road at Terrace of Sorrows to find the Crash site.|FLY|BFA|
-C Grimwatt's Crash|QID|53007|M|34.16,63.42|Z|Nazmir|QO|1|NC|N|Click the banner claim the outpost for the Alliance.|
-f Grimwatt's Crash|ACTIVE|53007|M|34.31,63.20|Z|Nazmir|N|Get the flightpoint from Noella Davenport.|
-T Grimwatt's Crash|QID|53007|M|33.88,63.22|Z|Nazmir|N|To Fellyia Wildsong.|
-A Mission Report: Ambush at Grimwatt's Crash|QID|53186|M|70.42,27.19|Z|Boralus|PRE|53007|O|  ;  Grail says Spurious, but I'm not sure
-T Mission Report: Ambush at Grimwatt's Crash|QID|53186|M|69.28,27.01|Z|Boralus|N|To Halford Wyrmbane.|
-A An Unexpected Guest|QID|53187|M|69.28,27.01|Z|Boralus|PRE|53186|N|From Halford Wyrmbane.|
-R Nazmir|ACTIVE|53187|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Nazmir or get there through other means.|
-T An Unexpected Guest|QID|53187|M|34.31,63.20|Z|Nazmir|N|Fly to Grimwatt's Crash and turn in to Noella Davenport.|
-; 3k Honored with The 7th Legion
-A Operation: Cutpurse|QID|53070|M|69.28,27.00|Z|Boralus|N|Autoaccepted|O|REP|7th Legion;2159;honored;3000|PRE|52219|LEAD|52154| ; Technically you need 52219 done AND REP for this quest to popup, REP gate NOT removed from this quest (and also subsquent LEAD quests.)
-T Operation: Cutpurse|QID|53070|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-A Our Next Target|QID|52154|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane|PRE|52219|  ; Rep Gate removed REP|7th Legion;2159;honored;3000|
+P Wind's Redemption|AVAILABLE|52154|M|62.06,40.08|Z|Nazmir|N|Talk with Desha to take you back to Boralus.|PRE|52219|
+
+A Our Next Target|QID|52154|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane|PRE|52219|
 C Our Next Target|QID|52154|M|69.28,27.00|Z|Boralus|NC|N|Wait for conversation to end.|
 T Our Next Target|QID|52154|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A The Void Elves Stand Ready|QID|52173|M|69.35,26.57|Z|Boralus|N|From Magister Umbric|PRE|52154|
@@ -483,7 +325,7 @@ A The Void Solution|QID|52204|M|40.59,70.68|Z|Zuldazar|N|From Magister Umbric.|P
 A Find the Paper Trail|QID|52203|M|40.59,70.68|Z|Zuldazar|N|From Magister Umbric.|PRE|52173|
 C Bilgewater Bonanza Go Boom|QID|52205|M|40.59,70.68|Z|Zuldazar|S|N|Kill 12 goblins and open void tears if you need extra assistance.|
 C The Void Solution|QID|52204|M|35.48,68.42|Z|Zuldazar|S|N|Destroy 4 Bilgewater Frackers using the Void Shard.|U|161422|
-K Boss Blastmouth|ACTIVE|52203|QO|1|M|38.62,72.24;35.28,66.66|CS|Z|Zuldazar|T|Boss Blastmouth|N|Kill Boss Blastmouth to loot the Orders from Gallywix.|
+K Boss Blastmouth|ACTIVE|52203|QO|1|M|35.27,66.71|Z|Zuldazar|T|Boss Blastmouth|N|Kill Boss Blastmouth to loot the Orders from Gallywix.|
 C The Void Solution|QID|52204|M|35.48,68.42|Z|Zuldazar|US|N|Destroy 4 Bilgewater Frackers using the Void Shard.|U|161422|
 C Bilgewater Bonanza Go Boom|QID|52205|M|40.59,70.68|Z|Zuldazar|US|N|Kill 12 goblins and open void tears if you need extra assistance.|
 T Bilgewater Bonanza Go Boom|QID|52205|M|40.59,70.68|Z|Zuldazar|N|To Magister Umbric.|
@@ -496,66 +338,61 @@ T A Greedy Goblin's Paradise|QID|52241|M|40.33,39.71|Z|Zuldazar|N|To Magister Um
 A Chasing Gallywix|QID|52247|M|40.33,39.71|Z|Zuldazar|N|From Magister Umbric.|PRE|52241|
 C Chasing Gallywix|QID|52247|M|40.35,44.00|Z|Zuldazar|QO|1|NC|N|Avoid the fire traps and run up the stairs to find Gallywix.|
 C Chasing Gallywix|QID|52247|M|40.41,44.28|Z|Zuldazar|QO|2|NC|N|Step onto Gallywix's personal teleporter.|
-T Chasing Gallywix|QID|52247|M|21.60,52.55|Z|Azshara|N|To Magister Umbric.|
-A I Take No Pleasure In This|QID|52259|M|21.60,52.55|Z|Azshara|N|From Magister Umbric.|PRE|52247|
+T Chasing Gallywix|QID|52247|M|PLAYER|Z|Azshara|N|To Magister Umbric.|
+A I Take No Pleasure In This|QID|52259|M|PLAYER|Z|Azshara|N|From Magister Umbric.|PRE|52247|
 C I Take No Pleasure In This|QID|52259|M|20.97,57.85|Z|Azshara|N|Crash the party! Kill all guests and blow stuff up.|
-T I Take No Pleasure In This|QID|52259|M|20.97,57.85|Z|Azshara|N|Turn in to Magister Umbric wherever you're standing.|
-A We Have Him Cornered|QID|52260|M|20.97,57.85|Z|Azshara|N|From Magister Umbric.|PRE|52259|
+T I Take No Pleasure In This|QID|52259|M|PLAYER|Z|Azshara|N|Turn in to Magister Umbric wherever you're standing.|
+A We Have Him Cornered|QID|52260|M|PLAYER|Z|Azshara|N|From Magister Umbric.|PRE|52259|
 C We Have Him Cornered|QID|52260|M|21.07,60.66|Z|Azshara|N|Kill Prince Gallywix.|
-T We Have Him Cornered|QID|52260|M|20.94,60.48|Z|Azshara|N|To Magister Umbric.|
-A Gallywix Got Away|QID|52261|M|20.94,60.48|Z|Azshara|N|From Magister Umbric.|PRE|52260|
+T We Have Him Cornered|QID|52260|M|PLAYER|Z|Azshara|N|To Magister Umbric.|
+A Gallywix Got Away|QID|52261|M|PLAYER|Z|Azshara|N|From Magister Umbric.|PRE|52260|
 P Wind's Redemption|ACTIVE|52261|M|20.94,60.48|Z|Azshara|N|Use the void portal to return to your ship.|
 T Gallywix Got Away|QID|52261|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-; 7.5k Honored with The 7th Legion
-A Operation: Gryphon's Claw|QID|53071|M|69.28,27.00|Z|Boralus|N|Autoaccepted.|O|REP|7th Legion;2159;honored;7500|LEAD|52308|  ; rep gate not removed from LEAD
-T Operation: Gryphon's Claw|QID|53071|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-A Intercepted Orders|QID|52308|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|52261|  ;  Rep Gate removed REP|7th Legion;2159;honored;7500|  ignoring Grail, but you do need 52261 before you'd get this one.
+
+A Intercepted Orders|QID|52308|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|52261|
 C Intercepted Orders|QID|52308|M|69.28,27.00|Z|Boralus|NC|N|Wait for conversation to end.|
 T Intercepted Orders|QID|52308|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Hunting Blood Prince Dreven|QID|52489|M|69.28,27.00|Z|Boralus|N|From Shandris Feathermoon.|PRE|52308|
 C Hunting Blood Prince Dreven|QID|52489|M|69.28,27.00|Z|Boralus|QO|1|NC|N|Mount Swiftwing.|
-C Hunting Blood Prince Dreven|QID|52489|M|37.42,43.30|Z|1156|QO|2|NC|N|Locate Horde ships.|
-T Hunting Blood Prince Dreven|QID|52489|M|37.42,43.30|Z|1156|N|Turn in Shandris Feathermoon on the Griffin next to you.|
-A Behind Enemy Boats|QID|52490|M|37.42,43.30|Z|1156|N|From Shandris Feathermoon.|PRE|52489|
-C Behind Enemy Boats|QID|52490|M|36.57,52.15|Z|1156|QO|1|NC|N|Use the "1" key to signal Halford to drop you off and then, climb in the Banshee's Wail gunport.|
-C Kill the Sailors|QID|52490|M|36.59,53.08|Z|1156|QO|2|S|N|Kill 10 sailors.|
-A Broadside Bedlam|QID|52491|M|36.93,52.42|Z|1156|N|From a cannon across from you.|PRE|52489|
-C Broadside Bedlam|QID|52491|M|36.96,52.04|Z|1156|QO|1|NC|N|Collect the Cannonballs.|
-C Broadside Bedlam|QID|52491|M|36.79,52.78|Z|1156|QO|2|NC|N|Collect the Gunpowder.|
-C Broadside Bedlam|QID|52491|M|36.62,53.31|Z|1156|QO|3|NC|N|Collect the torch.|
-C Broadside Bedlam|QID|52491|M|36.62,53.31|Z|1156|QO|4|NC|N|Fire the 3 cannons.|
-C Kill the Sailors|QID|52490|M|36.59,53.08|Z|1156|QO|2|US|N|Finish killing your 10 sailors.|
-C Behind Enemy Boats|QID|52490|M|36.59,53.08|Z|1156|QO|3|NC|N|Open the Battlechest of the Horde located on the main deck.|
-T Behind Enemy Boats|QID|52490|M|40.89,47.68|Z|1156|N|Wait a bit for Falstad to pick you up and then when available, turn in to Falstad Wildhammer on the Griffin with you.|
-T Broadside Bedlam|QID|52491|M|40.89,47.68|Z|1156|N|To Falstad Wildhammer.|
-A The Wildhammer Specialty|QID|52492|M|40.89,47.68|Z|1156|N|From Falstad Wildhammer.|PRE|52490&52491|
-C The Wildhammer Specialty|QID|52492|M|40.67,49.81|Z|1156|QO|1|NC|N|Use "1" key to order Falstad to start the attack.|
-C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|S|QO|2|N|Use the "1" key to bomb sailors, "2" key is a heal.|
-C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|S|QO|3|N|Use the "1" key to bomb rowboats, "2" key is a heal.|
-C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|4|N|Use the "1" key to burn the deck of The Banshee's Wail.|
-C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|QO|5|N|Use the "1" key to burn the sails of The Crimson Squall.|
-C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|US|QO|3|N|Finish up bombing the rowboats.|
-C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|1156|US|QO|2|N|Finish up killing the sailors.|
-T The Wildhammer Specialty|QID|52492|M|41.72,57.01|Z|1156|N|Turn in to Shandris Feathermoon.|
-A An Unnatural Crew|QID|52493|M|41.72,57.01|Z|1156|N|From Shandris Feathermoon.|PRE|52492|
-A Foul Crystals for Foul People|QID|52494|M|41.72,57.01|Z|1156|N|From Shandris Feathermoon.|PRE|52492|
-C An Unnatural Crew|QID|52493|M|41.66,55.77|Z|1156|S|N|Kill 12 Horde on the ship.|
-C Foul Crystals for Foul People|QID|52494|M|41.66,55.77|Z|1156|NC|N|Destroy 5 San'layn Crystals |
-C An Unnatural Crew|QID|52493|M|41.66,55.77|Z|1156|US|N|Continue to kill Horde on the ship.|
-T An Unnatural Crew|QID|52493|M|41.67,55.38|Z|1156|N|To Shandris Feathermoon below deck.|
-T Foul Crystals for Foul People|QID|52494|M|41.67,55.38|Z|1156|N|To Shandris Feathermoon below deck.|
-A Ending the San'layn Threat|QID|52495|M|41.67,55.38|Z|1156|N|From Shandris Feathermoon.|PRE|52493&52494|
-C Ending the San'layn Threat|QID|52495|M|41.53,55.66|Z|1156|QO|1|N|Destroy the door and then kill Blood Prince Dreven.|
-C Ending the San'layn Threat|QID|52495|M|42.40,55.90|Z|1156|QO|2|NC|N|Escape the ship and when a bit away from the ship, the special action button will appear. Use it to signal Falstad.|
-T Ending the San'layn Threat|QID|52495|M|41.44,48.20|Z|1156|N|To Shandris Feathermoon, when she appears on a Griffin next to you.|
-A A Clean Escape|QID|52496|M|41.44,48.20|Z|1156|N|From Shandris Feathermoon.|PRE|52495|
-P Wind's Redemption|ACTIVE|52496|M|40.57,41.06|Z|1156|N|Let griffin portal you at edge of zone.|
+C Hunting Blood Prince Dreven|QID|52489|M|37.42,43.30|Z|The Great Sea!Instance1156|QO|2|NC|N|Locate Horde ships.|
+T Hunting Blood Prince Dreven|QID|52489|M|PLAYER|Z|The Great Sea!Instance1156|N|Turn in Shandris Feathermoon on the Griffin next to you.|
+A Behind Enemy Boats|QID|52490|M|PLAYER|Z|The Great Sea!Instance1156|N|From Shandris Feathermoon.|PRE|52489|
+C Behind Enemy Boats|QID|52490|M|36.57,52.15|Z|The Great Sea!Instance1156|QO|1|NC|N|Use the "1" key to signal Falstad to drop you off and then, climb in the Banshee's Wail gunport.|
+C Kill the Sailors|QID|52490|M|36.59,53.08|Z|The Great Sea!Instance1156|QO|2|S|N|Kill 10 sailors.|
+A Broadside Bedlam|QID|52491|M|36.93,52.42|Z|The Great Sea!Instance1156|N|From a cannon across from you.|PRE|52489|
+C Broadside Bedlam|QID|52491|M|36.96,52.04|Z|The Great Sea!Instance1156|QO|1|NC|N|Collect the Cannonballs.|
+C Broadside Bedlam|QID|52491|M|36.79,52.78|Z|The Great Sea!Instance1156|QO|2|NC|N|Collect the Gunpowder.|
+C Broadside Bedlam|QID|52491|M|36.62,53.31|Z|The Great Sea!Instance1156|QO|3|NC|N|Collect the torch.|
+C Broadside Bedlam|QID|52491|M|36.62,53.31|Z|The Great Sea!Instance1156|QO|4|NC|N|Fire the 3 cannons.|
+C Kill the Sailors|QID|52490|M|36.59,53.08|Z|The Great Sea!Instance1156|QO|2|US|N|Finish killing your 10 sailors.|
+C Behind Enemy Boats|QID|52490|M|36.59,53.08|Z|The Great Sea!Instance1156|QO|3|NC|N|Open the Battlechest of the Horde located on the main deck.|
+T Behind Enemy Boats|QID|52490|M|40.89,47.68|Z|The Great Sea!Instance1156|N|Wait a bit for Falstad to pick you up and then when available, turn in to Falstad Wildhammer on the Griffin with you.|
+T Broadside Bedlam|QID|52491|M|PLAYER|Z|The Great Sea!Instance1156|N|To Falstad Wildhammer.|
+A The Wildhammer Specialty|QID|52492|M|PLAYER|Z|The Great Sea!Instance1156|N|From Falstad Wildhammer.|PRE|52490&52491|
+C The Wildhammer Specialty|QID|52492|M|40.67,49.81|Z|The Great Sea!Instance1156|QO|1|NC|N|Use "1" key to order Falstad to start the attack.|
+C Kill Sailors|QID|52492|M|39.27,55.11|Z|The Great Sea!Instance1156|S|QO|2|N|Kill Sailors.|
+C Destroy Rowboats|QID|52492|M|39.27,55.11|Z|The Great Sea!Instance1156|S|QO|3|N|Destroy Rowboats.|
+C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|The Great Sea!Instance1156|QO|4|N|Use the "1" key to bomb sailors\n\n Use the "2" key to heal.|
+C The Wildhammer Specialty|QID|52492|M|39.27,55.11|Z|The Great Sea!Instance1156|QO|5|N|Use the "1" key to bomb sailors\n\n Use the "2" key to heal.\n\nBurn the sails of The Crimson Squall.|
+C Destroy Rowboats|QID|52492|M|39.27,55.11|Z|The Great Sea!Instance1156|US|QO|3|N|Finish up bombing the rowboats.|
+C Kill Sailors|QID|52492|M|39.27,55.11|Z|The Great Sea!Instance1156|US|QO|2|N|Finish up killing the sailors.|
+T The Wildhammer Specialty|QID|52492|M|41.72,57.01|Z|The Great Sea!Instance1156|N|Turn in to Shandris Feathermoon.|
+A An Unnatural Crew|QID|52493|M|41.72,57.01|Z|The Great Sea!Instance1156|N|From Shandris Feathermoon.|PRE|52492|
+A Foul Crystals for Foul People|QID|52494|M|41.72,57.01|Z|The Great Sea!Instance1156|N|From Shandris Feathermoon.|PRE|52492|
+C An Unnatural Crew|QID|52493|M|41.66,55.77|Z|The Great Sea!Instance1156|S|N|Kill 12 Horde on the ship.|
+C Foul Crystals for Foul People|QID|52494|M|41.66,55.77|Z|The Great Sea!Instance1156|NC|N|Destroy 5 San'layn Crystals |
+C An Unnatural Crew|QID|52493|M|41.66,55.77|Z|The Great Sea!Instance1156|US|N|Continue to kill Horde on the ship.|
+T An Unnatural Crew|QID|52493|M|41.67,55.38|Z|The Great Sea!Instance1156|N|To Shandris Feathermoon below deck.|
+T Foul Crystals for Foul People|QID|52494|M|41.67,55.38|Z|The Great Sea!Instance1156|N|To Shandris Feathermoon below deck.|
+A Ending the San'layn Threat|QID|52495|M|41.67,55.38|Z|The Great Sea!Instance1156|N|From Shandris Feathermoon.|PRE|52493&52494|
+C Ending the San'layn Threat|QID|52495|M|41.53,55.66|Z|The Great Sea!Instance1156|QO|1|N|Destroy the door and then kill Blood Prince Dreven.|
+C Ending the San'layn Threat|QID|52495|M|42.40,55.90|Z|The Great Sea!Instance1156|QO|2|NC|N|Escape the ship and when a bit away from the ship, the special action button will appear. Use it to signal Falstad.|
+T Ending the San'layn Threat|QID|52495|M|41.44,48.20|Z|The Great Sea!Instance1156|N|To Shandris Feathermoon, when she appears on a Griffin next to you.|
+A A Clean Escape|QID|52496|M|41.44,48.20|Z|The Great Sea!Instance1156|N|From Shandris Feathermoon.|PRE|52495|
+P Wind's Redemption|ACTIVE|52496|M|40.57,41.06|Z|The Great Sea!Instance1156|N|Let griffin portal you at edge of zone.|
 T A Clean Escape|QID|52496|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-; Revered with The 7th Legion
-B Vindicator Jaelaana|QID|53746^53747^53748^53749^53750^53751|M|69.33,24.96|Z|Boralus|S|N|Now that you're Revered you can purchase and use four more Scouting Reports. The sooner you start those missions, the sooner you will have more flightpoints in Zandalar.|REP|7th Legion;2159;revered-exalted|AVAILABLE|53746^53748^53749^53751|
-A Operation: Heartstrike|QID|53072|M|69.28,27.00|Z|Boralus|N|Autoaccepted|O|LEAD|52473|REP|7th Legion;2159;revered;0|  ; Rep not removed from LEAD quest.
-T Operation: Heartstrike|QID|53072|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
-A Bringing Down the Fleet|QID|52473|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane|PRE|52496|  ; REP|7th Legion;2159;revered;0|  ; Grail is wrong on needing 53072
+
+A Bringing Down the Fleet|QID|52473|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane|PRE|52496|
 C Bringing Down the Fleet|QID|52473|M|67.94,26.70|Z|Boralus|CHAT|N|Speak with Grand Admiral Jes-Tereth to sail for Zuldazar|
 T Bringing Down the Fleet|QID|52473|M|40.77,70.85|Z|Zuldazar|N|To Halford Wyrmbane.|
 A How to Sink a Zandalari Battleship|QID|52282|M|40.76,70.85|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52473|
@@ -596,22 +433,24 @@ C Victory Was Assured|QID|52291|M|40.52,71.34|Z|Zuldazar|QO|1|V|N|Ride Swiftwing
 T Victory Was Assured|QID|52291|M|35.13,77.32|Z|Zuldazar|N|To Halford Wyrmbane.|
 A Leave None Alive|QID|52788|M|35.13,77.32|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52291|
 C Leave None Alive|QID|52788|M|34.65,76.42|Z|Zuldazar|N|Kill the Zandalari as you head below decks.|
-T Leave None Alive|QID|52788|M|34.28,75.70|Z|Zuldazar|N|To Halford Wyrmbane, who is with you and won't be ready to accept the turn in until he is out of combat.|
-A Silencing the Advisor|QID|52789|M|34.28,75.70|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52788|
+T Leave None Alive|QID|52788|M|PLAYER|Z|Zuldazar|N|To Halford Wyrmbane, who is with you and won't be ready to accept the turn in until he is out of combat.|
+A Silencing the Advisor|QID|52789|M|PLAYER|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52788|
 C Silencing the Advisor|QID|52789|M|34.98,77.04|Z|Zuldazar|T|Advisor Ko'jan|N|Advisor Ko'jan slain. All the way down at the bottom level of the boat.|
-T Silencing the Advisor|QID|52789|M|34.98,77.02|Z|Zuldazar|N|To Halford Wyrmbane.|
-A An End to the Killing|QID|52790|M|34.98,77.02|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52789|
+T Silencing the Advisor|QID|52789|M|PLAYER|Z|Zuldazar|N|To Halford Wyrmbane.|
+A An End to the Killing|QID|52790|M|PLAYER|Z|Zuldazar|N|From Halford Wyrmbane.|PRE|52789|
 C An End to the Killing|QID|52790|M|34.83,76.33|Z|Zuldazar|QO|2|N|Go back up to the deck and ask Shandris Feathermoon for a status report. Listen to the RP.|CHAT|
 C An End to the Killing|QID|52790|M|34.84,76.41|Z|Zuldazar|QO|3|N|Tell Halford to blow up the ship.|CHAT|
+P Wind's Redemption|ACTIVE|52790|M|40.47,71.05|Z|Zuldazar|N|Tell Daria you are ready to return to Boralus.|C|-Mage|
+P Stormwind City|ACTIVE|52790|M|PLAYER|Z|Zuldazar|N|Teleport to Stormwind.|C|Mage|
+P Stormwind City|ACTIVE|52790|M|70.12,16.81|Z|Boralus|N|Take the portal to Stormwind.|C|Mage|
 T An End to the Killing|QID|52790|M|85.89,31.64|Z|Stormwind City|N|Take your best route to Stormwind and turn in this quest to Anduin Wrynn and complete the War Campaign.|
 A Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|PRE|52790|
 T Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|
-; Patch 8.1 quests
-; War Marches On
-A Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|From Vindicator Jaelaana.|PRE|52790|REP|7th Legion;2159;revered-exalted|  ;  Rep not removed from LEAD (tested horde side)
+
+A Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|From Vindicator Jaelaana.|PRE|52790|
 t Expanding our Influence|QID|54495|M|68.95,24.73|Z|Boralus|N|To Vindicator Jaelaana.|
 A The Calm Before|QID|53986|M|70.71,27.07|Z|Boralus|N|From Master Mathias Shaw.|PRE|53098|  ; Grail is wrong, need PRE|53098|, Rep Gate removed from this quest.
-F Proudmoore Keep|ACTIVE|53986|M|67.0,15.0|Z|Boralus|N|At Joan Weber. Take a flight or run over to Proudmoore Keep to meet up with Jaina.|
+F Proudmoore Keep|ACTIVE|53986|M|67.0,15.0|Z|Boralus|N|At Joan Weber. Take a flight or run over to Proudmoore Keep to meet up with Jaina.|FLY|BFA|
 C The Calm Before|QID|53986|M|67.26,36.23|Z|Tiragarde Sound|CHAT|QO|1|N|Take the report to Jaina.|
 C The Calm Before|QID|53986|M|67.04,36.22|Z|Tiragarde Sound|NC|QO|2|N|Wait for the conversation to finish.|
 T The Calm Before|QID|53986|M|66.99,36.23|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
@@ -628,8 +467,8 @@ A Repel the Horde!|QID|53910|M|42.13,29.82|Z|Tiragarde Sound|N|From Lady Jaina P
 A Squad Goals|QID|54519|M|42.13,29.88|Z|Tiragarde Sound|N|From Taelia Fordragon.|PRE|53896|
 A Zero Zeppelins|QID|54518|M|42.16,29.78|Z|Tiragarde Sound|N|From Okri Putterwrench.|PRE|53896|
 C Zero Zeppelins|QID|54518|M|41.69,29.79|Z|Tiragarde Sound|CHAT|QO|1|N|Talk with Okri to get a Jury-Rigged Hand Cannon.|
-C Zero Zeppelins|QID|54518|M|41.69,29.80|Z|Tiragarde Sound|NC|QO|2|N|Use the special action button and target the frozen Horde Bombardier.|
-C Zero Zeppelins|QID|54518|M|42.83,26.54|Z|Tiragarde Sound|NC|S|QO|3|N|Use the special action button to destroy 4 Horde Bombardiers.|
+C Zero Zeppelins|QID|54518|M|41.69,29.80|Z|Tiragarde Sound|NC|QO|2|N|Use the "[color=40C7EB]Jury-Rigged Hand Cannon[/color]" action button and target the frozen Horde Bombardier.|EAB|
+C Zero Zeppelins|QID|54518|M|42.83,26.54|Z|Tiragarde Sound|NC|S|QO|3|N|Use the "[color=40C7EB]Jury-Rigged Hand Cannon[/color]" action button to destroy 4 Horde Bombardiers.|EAB|
 C Repel the Horde!|QID|53910|M|41.83,27.38|Z|Tiragarde Sound|S|QO|1|N|Defeat Axe Throwers and Berserkers.|
 C Squad Goals|QID|54519|M|43.40,27.88|Z|Tiragarde Sound|NC|QO|1|N|Click on Carter Riptide (lying on the ground).|
 C Squad Goals|QID|54519|M|43.00,27.01|Z|Tiragarde Sound|NC|QO|3|N|Tamara Barrie found.|
@@ -646,7 +485,7 @@ T Outrigger Outfitters|QID|53916|M|41.52,27.03|Z|Tiragarde Sound|N|To Rosaline M
 T Zero Zeppelins|QID|54518|M|41.53,27.08|Z|Tiragarde Sound|N|To Okri Putterwrench.|
 A Gunpowder Plots|QID|53978|M|41.52,27.03|Z|Tiragarde Sound|N|From Rosaline Madison.|PRE|53916|
 A Masking For a Friend|QID|54787|M|41.52,27.03|Z|Tiragarde Sound|N|From Rosaline Madison.|PRE|53916|
-A Free Plumeria!|QID|54559|M|41.53,27.08|Z|Tiragarde Sound|N|From Okri Putterwrench.|PRE|53916&54518|  ; ignoring Grail.
+A Free Plumeria!|QID|54559|M|41.53,27.08|Z|Tiragarde Sound|N|From Okri Putterwrench.|PRE|53916&54518|
 C Gunpowder Plots|QID|53978|M|38.46,25.68|Z|Tiragarde Sound|NC|S|QO|1|N|Collect 6 Gunpowder Kegs.|
 C Masking For a Friend|QID|54787|M|38.78,25.38|Z|Tiragarde Sound|S|QO|1|N|Kill Invading Blight Specialists to collect 4 of their masks.|
 K Maurizio Deaththrill|ACTIVE|54559|M|40.11,26.38|Z|Tiragarde Sound|QO|1|T|Maurizio Deaththrill|N|Kill Maurizio Deaththrill.|
@@ -656,7 +495,7 @@ C Gunpowder Plots|QID|53978|M|38.46,25.68|Z|Tiragarde Sound|NC|US|QO|1|N|Collect
 T Free Plumeria!|QID|54559|M|37.47,24.98|Z|Tiragarde Sound|N|To Okri Putterwrench.|
 T Gunpowder Plots|QID|53978|M|37.50,24.90|Z|Tiragarde Sound|N|To Invading Blight Specialist.|
 T Masking For a Friend|QID|54787|M|37.50,24.90|Z|Tiragarde Sound|N|To Rosaline Madison.|
-A Shots Fired|QID|53919|M|37.50,24.90|Z|Tiragarde Sound|N|From Rosaline Madison.|PRE|54559&53978&54787|  ; Needs testing, I think grail wrong as this is part of a chain.
+A Shots Fired|QID|53919|M|37.50,24.90|Z|Tiragarde Sound|N|From Rosaline Madison.|PRE|54559&53978&54787|
 C Shots Fired|QID|53919|M|37.45,24.87|Z|Tiragarde Sound|QO|1|V|N|Click on the cannon and sink 10 Horde Motorboats.|
 C Shots Fired|QID|53919|M|37.40,24.93|Z|Tiragarde Sound|CHAT|QO|2|N|Speak with Jaina.|
 T Shots Fired|QID|53919|M|37.40,24.93|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
@@ -666,71 +505,72 @@ K Nebbik Megafuel|ACTIVE|53936|M|34.45,29.89|Z|Tiragarde Sound|QO|1|N|Kill Nebbi
 C Stopping the Sappers|QID|53936|M|36.43,28.42|Z|Tiragarde Sound|NC|US|QO|2|N|Collect 40 Large Azerite Bombs placed around the seagate walls.|
 C Stopping the Sappers|QID|53936|M|35.81,28.06|Z|Tiragarde Sound|NC|QO|3|N|Use Arcane Teleport Beacon.|
 T Stopping the Sappers|QID|53936|M|36.26,29.81|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
-A Express Delivery|QID|54703|M|36.26,29.81|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|53936| ;  Think grail wrong, part of chain.
+A Express Delivery|QID|54703|M|36.26,29.81|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|53936|
 C Express Delivery|QID|54703|M|36.31,29.78|Z|Tiragarde Sound|NC|QO|1|V|N|Click the harpoon gun and fire at the 3 Ships to mark them.|
 T Express Delivery|QID|54703|M|36.42,30.78|Z|Tiragarde Sound|N|To Lady Jaina Proudmoore.|
-A War Marches On|QID|53887|M|36.42,30.78|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|54703|  ;  Think grail wrong, part of chain.
-H Boralus|ACTIVE|53887|M|36.42,30.78|Z|Tiragarde Sound|TZ|Snug Harbor Inn|N|Hearth or otherwise return to Boralus and Halford Wyrmband.|
+A War Marches On|QID|53887|M|36.42,30.78|Z|Tiragarde Sound|N|From Lady Jaina Proudmoore.|PRE|54703|
+H Snug Harbor Inn|ACTIVE|53887|M|36.42,30.78|Z|Tiragarde Sound|N|Hearth or otherwise return to Boralus and Halford Wyrmband.|C|-Mage|
 T War Marches On|QID|53887|M|69.29,26.97|Z|Boralus|N|To Halford Wyrmbane.|
+
 ; The Sleeper Agent
-A Changing Course|QID|54191|M|69.29,27.01|Z|Boralus|N|From Halford Wyrmbane.|LEAD|54192|REP|7th Legion;2159;revered;7000|   ;  From testing on Horde side, these LEADs didn't have rep gate removed.
-T Changing Course|QID|54191|M|69.29,27.01|Z|Boralus|N|To Halford Wyrmbane.|
-A Sensitive Intel|QID|54192|M|69.29,27.01|Z|Boralus|N|From Halford Wyrmbane.|PRE|53887|  ; REP|7th Legion;2159;revered;7000|  Grail probably wrong, need 53887 as part of larger chain.
+A Sensitive Intel|QID|54192|M|69.29,27.01|Z|Boralus|N|From Halford Wyrmbane.|PRE|53887|
 C Sensitive Intel|QID|54192|M|67.94,26.70|Z|Boralus|CHAT|QO|1|N|Speak to Grand Admiral Jes-Tereth to sail to Zuldazar.|
 T Sensitive Intel|QID|54192|M|41.08,70.66|Z|Zuldazar|N|To Kelsey Steelspark.|
-A This is Huge!|QID|54193|M|41.08,70.66|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|54192|  ;  Think grail wrong, part of chain.
+A This is Huge!|QID|54193|M|41.08,70.66|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|54192|
 C This is Huge!|QID|54193|M|41.10,70.61|Z|Zuldazar|CHAT|QO|1|N|Listen to Megs and Morton's plan.|
 T This is Huge!|QID|54193|M|41.08,70.66|Z|Zuldazar|N|To Kelsey Steelspark.|
-A Real Big Power|QID|54194|M|41.10,70.60|Z|Zuldazar|N|From Megs.|PRE|54193|  ;  Think grail wrong, part of chain.
-C Real Big Power|QID|54194|M|41.19,70.58|Z|Zuldazar|QO|1|NC|N|Click on a nearby chicken and use the special action button to test the Embiggifier.|
+A Real Big Power|QID|54194|M|41.10,70.60|Z|Zuldazar|N|From Megs.|PRE|54193|
+C Real Big Power|QID|54194|M|41.19,70.58|Z|Zuldazar|QO|1|NC|N|Click on a nearby chicken and use the special action button to test the Embiggifier.|U|165723|
 C Real Big Power|QID|54194|M|41.19,70.58|Z|Zuldazar|QO|2|N|Kill the Kul Tiran Clucker.|
 T Real Big Power|QID|54194|M|41.10,70.60|Z|Zuldazar|N|To Megs.|
-A A Beast with Brains|QID|54195|M|41.10,70.60|Z|Zuldazar|N|From Megs.|PRE|54194|  ;  Think grail wrong, part of chain.
+A A Beast with Brains|QID|54195|M|41.10,70.60|Z|Zuldazar|N|From Megs.|PRE|54194|
 T A Beast with Brains|QID|54195|M|48.18,55.51|Z|Zuldazar|N|To Grong.|
-A Out of Options|QID|54196|M|48.18,55.51|Z|Zuldazar|N|From Grong.|PRE|54195|  ;  Think grail wrong, part of chain.
-A Freedom for the Da'kani|QID|54197|M|48.18,55.51|Z|Zuldazar|N|From Grong.|PRE|54195|  ;  Think grail wrong, part of chain.
+A Out of Options|QID|54196|M|48.18,55.51|Z|Zuldazar|N|From Grong.|PRE|54195|
+A Freedom for the Da'kani|QID|54197|M|48.18,55.51|Z|Zuldazar|N|From Grong.|PRE|54195|
 C Out of Options|QID|54196|M|48.53,53.19|Z|Zuldazar|S|QO|1|N|Kill Bilgewater Poachers.|
 C Freedom for the Da'kani|QID|54197|M|48.93,53.30|Z|Zuldazar|NC|QO|1|N|8 Da'kani Highbrow freed from their cages.|
 C Out of Options|QID|54196|M|48.53,53.19|Z|Zuldazar|US|QO|1|N|Kill Bilgewater Poachers.|
-T Out of Options|QID|54196|M|46.80,50.50|Z|Zuldazar|N|To Grong.|
-T Freedom for the Da'kani|QID|54197|M|46.80,50.50|Z|Zuldazar|N|To Grong.|
-A Bittersweet Goodbyes|QID|54198|M|46.80,50.50|Z|Zuldazar|N|From Grong.|PRE|54197|  ;  Think grail wrong, part of chain.
+T Out of Options|QID|54196|M|PLAYER|Z|Zuldazar|N|To Grong.|
+T Freedom for the Da'kani|QID|54197|M|PLAYER|Z|Zuldazar|N|To Grong.|
+A Bittersweet Goodbyes|QID|54198|M|PLAYER|Z|Zuldazar|N|From Grong.|PRE|54197|
 T Bittersweet Goodbyes|QID|54198|M|46.80,50.50|Z|Zuldazar|N|To Grong.|
-A The Needs of the Many|QID|54199|M|46.80,50.50|Z|Zuldazar|N|From Grong.|PRE|54198|  ;  Think grail wrong, part of chain.
+A The Needs of the Many|QID|54199|M|46.80,50.50|Z|Zuldazar|N|From Grong.|PRE|54198|
 C The Needs of the Many|QID|54199|M|41.20,70.54|Z|Zuldazar|V|QO|1|N|Click on Grong to ride him back to Xibala.|
 T The Needs of the Many|QID|54199|M|41.07,70.61|Z|Zuldazar|N|To Morton Cogswald.|
-A Bring the Base|QID|54200|M|41.07,70.61|Z|Zuldazar|N|From Morton Cogswald.|PRE|54199|  ;  Think grail wrong, part of chain.
+A Bring the Base|QID|54200|M|41.07,70.61|Z|Zuldazar|N|From Morton Cogswald.|PRE|54199|
 C Bring the Base|QID|54200|M|41.21,70.54|Z|Zuldazar|CHAT|QO|1|N|Speak to Morton Cogswalt to let him know you're ready.|
 C Bring the Base|QID|54200|M|41.88,73.64|Z|Zuldazar|NC|QO|2|N|Run to the marker.|
 C Bring the Base|QID|54200|M|41.88,73.64|Z|Zuldazar|NC|QO|3|N|Use the "4" key to speak to Grong.|
 C Bring the Base|QID|54200|M|42.54,73.82|Z|Zuldazar|QO|4|N|Use the "1" key to jump to, and then "2" and "3" to kill a nearby Xibalan Ravasaur.|
 T Bring the Base|QID|54200|M|41.07,70.61|Z|Zuldazar|N|To Morton Cogswald.|
-A Fit for Grong|QID|54201|M|41.07,70.61|Z|Zuldazar|N|From Morton Cogswald.|PRE|54200|  ;  Think grail wrong, part of chain.
-A Calibrate the Core|QID|54202|M|41.10,70.60|Z|Zuldazar|N|From Megs.|PRE|54200|  ;  Think grail wrong, part of chain.
+A Fit for Grong|QID|54201|M|41.07,70.61|Z|Zuldazar|N|From Morton Cogswald.|PRE|54200|
+A Calibrate the Core|QID|54202|M|41.10,70.60|Z|Zuldazar|N|From Megs.|PRE|54200|
 C Fit for Grong|QID|54201|M|35.52,70.01|Z|Zuldazar|NC|S|QO|1|N|Pick up Azerite Infused Ore scattered around the sand and sometimes in crates.|
 C Calibrate the Core|QID|54202|M|35.09,71.92|Z|Zuldazar|QO|1|N|Kill goblins and crabs and use the Embiggifier Core on them.|U|165762|
 C Fit for Grong|QID|54201|M|35.52,70.01|Z|Zuldazar|NC|US|QO|1|N|Pick up Azerite Infused Ore scattered around the sand and sometimes in crates.|
 T Fit for Grong|QID|54201|M|41.07,70.62|Z|Zuldazar|N|To Morton Cogswald.|
 T Calibrate the Core|QID|54202|M|41.10,70.61|Z|Zuldazar|N|To Megs.|
-A The Embiggining|QID|54203|M|41.10,70.61|Z|Zuldazar|N|From Megs.|PRE|54201&54202|  ;  Think grail wrong, part of chain.
+A The Embiggining|QID|54203|M|41.10,70.61|Z|Zuldazar|N|From Megs.|PRE|54201&54202|
 C The Embiggining|QID|54203|M|41.21,70.53|Z|Zuldazar|CHAT|QO|1|N|Speak to Megs.|
 C The Embiggining|QID|54203|M|41.21,70.53|Z|Zuldazar|NC|QO|2|N|Use the "5" key to embiggify Grong.|
 C The Embiggining|QID|54203|M|41.88,73.57|Z|Zuldazar|NC|QO|3|N|Reach the marker.|
 C The Embiggining|QID|54203|M|41.88,73.57|Z|Zuldazar|NC|QO|4|N|Use the "4" key to speak to Grong.|
 C The Embiggining|QID|54203|M|41.91,73.60|Z|Zuldazar|NC|QO|5|N|Use the "5" key to embiggify Grong more.|
 T The Embiggining|QID|54203|M|41.10,70.60|Z|Zuldazar|N|To Megs.|
-A Total Temple Destruction|QID|54204|M|41.10,70.60|Z|Zuldazar|N|From Megs.|PRE|54203|  ;  Think grail wrong, part of chain.
-C Total Temple Destruction|QID|54204|M|49.13,41.74|Z|Zuldazar|NC|QO|1|N|Click on Umbric's portal.|
+A Total Temple Destruction|QID|54204|M|41.10,70.60|Z|Zuldazar|N|From Megs.|PRE|54203|
+C Total Temple Destruction|QID|54204|M|41.19,70.72|Z|Zuldazar|NC|QO|1|N|Click on Umbric's portal.|
 C Total Temple Destruction|QID|54204|M|49.67,38.81|Z|Zuldazar|QO|2|N|Use the vehicle UI buttons to destroy the Temple forces.|
 T Total Temple Destruction|QID|54204|M|41.15,70.68|Z|Zuldazar|N|To Kelsey Steelspark.|
-A A Nice Nap|QID|54205|M|41.15,70.68|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|54204|  ;  Think grail wrong, part of chain.
-C A Nice Nap|QID|54205|M|41.15,70.68|Z|Zuldazar|NC|T|Grong|N|Use special action button to shoot the tranquilizer dart at Grong.|
+A A Nice Nap|QID|54205|M|41.15,70.68|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|54204|
+C A Nice Nap|QID|54205|M|41.15,70.68|Z|Zuldazar|NC|T|Grong|N|Use special action button to shoot the tranquilizer dart at Grong.|U|165815|
 T A Nice Nap|QID|54205|M|41.15,70.68|Z|Zuldazar|N|To Kelsey Steelspark.|
 A The Sleeper Agent|QID|54206|M|41.15,70.68|Z|Zuldazar|N|From Kelsey Steelspark.|PRE|54205|
-H Boralus|ACTIVE|54206|M|41.15,70.68|Z|Zuldazar|N|Use your hearthstone or otherwise return to Boralus and Halford Wyrmbane.|
+P Wind's Redemption|ACTIVE|54206|M|40.47,71.05|Z|Zuldazar|N|Tell Daria you are ready to return to Boralus.|
 T The Sleeper Agent|QID|54206|M|69.29,26.99|Z|Boralus|N|To Halford Wyrmbane.|
+
 ; Mischief Managed
-A The Abyssal Scepter|QID|54171|M|69.29,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54206|  ;  REP|7th Legion;2159;revered;14000|  removed in 8.2.5
+A The Abyssal Scepter|QID|54171|M|69.29,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54206|
+P Xibala|ACTIVE|54171|M|67.94,26.70|Z|Boralus|CHAT|N|Speak to Grand Admiral Jes-Tereth to sail to Zuldazar.|
 T The Abyssal Scepter|QID|54171|M|40.60,70.70|Z|Zuldazar|N|To Lady Jaina Proudmoore.|
 A The Treasury Heist|QID|54169|M|40.60,70.70|Z|Zuldazar|N|From Lady Jaina Proudmoore.|PRE|54171|
 C The Treasury Heist|QID|54169|M|40.60,70.70|Z|Zuldazar|CHAT|QO|1|N|Speak with Jaina Proudmoore and then click on the void portal when it appears to enter the scenario.|
@@ -747,21 +587,22 @@ C Protection Detail|ACTIVE|54169|M|63.45,53.32|Z|Zandalari Treasury!Dungeon|SO|9
 C Make the Swap|ACTIVE|54169|M|61.99,52.32|Z|Zandalari Treasury!Dungeon|CHAT|SO|10;1|N|Speak with Mathias Shaw.|
 T The Treasury Heist|QID|54169|M|40.56,70.70|Z|Zuldazar|N|To Lady Jaina Proudmoore.|
 A Mischief Managed|QID|54510|M|40.56,70.70|Z|Zuldazar|N|From Lady Jaina Proudmoore.|PRE|54169|
-H Boralus|ACTIVE|54510|M|40.56,70.70|Z|Zuldazar|N|Hearth or otherwise make your way back to Boralus and Halford Wyrmbane.|
+P Wind's Redemption|ACTIVE|54510|M|40.47,71.05|Z|Zuldazar|N|Tell Daria you are ready to return to Boralus.|
 T Mischief Managed|QID|54510|M|69.30,27.00|Z|Boralus|N|To Halford Wyrmbane.|
+
 ; He who walks in the Light
-A The Fall of Zuldazar|QID|54302|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|54510|  ; removed dated note, need Previous chapters done before this, Grail wrong.
-F Proudmoore Keep|ACTIVE|54302|M|66.98,15.02|Z|Boralus|N|Fly or Run over to Proudmoore Keep.|
+A The Fall of Zuldazar|QID|54302|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|54169|
+F Proudmoore Keep|ACTIVE|54302|M|66.98,15.02|Z|Boralus|N|Fly or Run over to Proudmoore Keep.|FLY|BFA|
 C The Fall of Zuldazar|QID|54302|M|39.16,77.38|Z|Boralus|CHAT|N|Discuss the plans to attack Zuldazar with Mathias Shaw in the center of the garden maze near Proudmoore Keep.|
 T The Fall of Zuldazar|QID|54302|M|38.99,77.17|Z|Boralus|N|To Halford Wyrmbane.|
 A The March to Nazmir|QID|54303|M|38.97,76.92|Z|Boralus|N|From Blademaster Telaamon.|PRE|54302|
-F Tradewinds Market|ACTIVE|54303|M|47.75,65.43|Z|Boralus|TZ|Boralus Harbor|N|Fly back to Tradewinds Market at Jessica Clarke.|
+F Tradewinds Market|ACTIVE|54303|M|47.75,65.43|Z|Boralus|TZ|Boralus Harbor|N|Fly back to Tradewinds Market at Jessica Clarke.|FLY|BFA|
 P Nazmir|ACTIVE|54303|M|67.95,26.70|Z|Boralus|CHAT|N|Ask Grand Admiral Jes-Tereth for a ride to Nazmir (Optional)|
-R The Far Reach|ACTIVE|54303|M|36.15,43.04;34.11,37.01|Z|Nazmir|CS|
+R The Far Reach|ACTIVE|54303|M|36.15,43.04;34.11,37.01|Z|Nazmir|CS|FLY|BFA|
 T The March to Nazmir|QID|54303|M|31.04,29.48|Z|Nazmir|N|To Lady Jaina Proudmoore.|
 A Repurposing Their Village|QID|54310|M|31.04,29.48|Z|Nazmir|N|From Lady Jaina Proudmoore.|PRE|54303|
 A Dark Iron Machinations|QID|54404|M|30.96,29.44|Z|Nazmir|N|From Master Mathias Shaw.|PRE|54303|
-R Zalamar|ACTIVE|54310|M|31.64,42.29|Z|Nazmir|
+R Zalamar|ACTIVE|54310|M|31.64,42.29|Z|Nazmir|FLY|BFA|
 C Repurposing Their Village|QID|54310|M|32.89,47.52|Z|Nazmir|S|N|Defeat blood trolls within Zalamar.|
 C Dark Iron Machinations|QID|52785|M|32.58,44.50|Z|Nazmir|QO|1<1|NC|N|Click on the translucent mole machine.|
 C Dark Iron Machinations|QID|52785|M|32.89,47.52|Z|Nazmir|QO|1<2|NC|N|Click on the translucent mole machine.|
@@ -773,7 +614,6 @@ A Fog of War|QID|54312|M|33.35,45.92|Z|Nazmir|N|From Blademaster Telaamon.|PRE|5
 C Fog of War|QID|54312|M|33.67,47.70|Z|Nazmir|CHAT|N|Ask Brother Pike use the Abyssal Scepter.|
 T Fog of War|QID|54312|M|33.67,47.70|Z|Nazmir|N|To Lady Jaina Proudmoore.|
 A Lurking in the Swamp|QID|54407|M|33.64,47.65|Z|Nazmir|N|From Lady Jaina Proudmoore.|PRE|54312|
-R Grimwatt's Crash|ACTIVE|54407|M|34.22,63.18|Z|Nazmir|U|141605|N|You can use your flightmaster's whistle for a small shortcut.|
 T Lurking in the Swamp|QID|54407|M|35.78,68.25|Z|Nazmir|N|To Lady Jaina Proudmoore.|
 A Zul'jan Deluge|QID|54412|M|35.78,68.25|Z|Nazmir|N|From Lady Jaina Proudmoore.|PRE|54407|
 C Zul'jan Deluge|QID|54412|M|35.77,68.07|Z|Nazmir|QO|1|V|N|Hop on Jaina's Water Elemental.|
@@ -797,15 +637,70 @@ T Taking the Blood Gate|QID|54441|M|50.44,84.23|Z|Nazmir|N|To Master Mathias Sha
 A He Who Walks in the Light|QID|54459|M|50.36,84.17|Z|Nazmir|N|From Lady Jaina Proudmoore.|PRE|54441|
 P Sanctum of the Sages|ACTIVE|54459|M|50.37,84.08|Z|Nazmir|N|Use the portal that Jaina has provided you.|
 T He Who Walks in the Light|QID|54459|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
-A Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane. This is a raid quest.|NA|PRE|54459|
+
+A Loose Ends|QID|55118|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane. The other 2 are raid quests you can grab later.|PRE|54459|
+F Kennings Lodge|ACTIVE|55118|M|80.0,75.0|N|Fly or run over to Kennings Lodge.|FLY|BFA|
+T Loose Ends|QID|55118|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark.|
+A Ashes to Ashvane|QID|55033|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark.|PRE|55118|
+A Correspondence Conundrum|QID|55117|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark.|PRE|55118|
+K Loyalists|ACTIVE|55033|QO|1|M|78.6,77.8;77.8,76.4;79.0,78.8;78.2,78.8|CN|Z|Tiragarde Sound|N|Get rid of those loyalists.|S!US|
+C Correspondence|QID|55117|M|77.5,77.4|Z|Tiragarde Sound|N|Look on your minimap for the random locations of the correspondence.|
+T Ashes to Ashvane|QID|55033|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark.|
+T Correspondence Conundrum|QID|55117|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark.|
+A Getting a Clue|QID|55116|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark.|PRE|55117&55033|
+C Haughton Francis|QID|55116|M|76.91,75.60|Z|Tiragarde Sound|
+T Getting a Clue|QID|55116|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark|
+A Reporting In!|QID|55119|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark|PRE|55116|
+F Tradewinds Market|ACTIVE|55119|M|76.67,65.42|Z|Tiragarde Sound|TZ|Boralus Harbor|N|Fly back to Tradewinds Market at Finnia Hawkshot.|
+C Halford Wyrmbane|QID|55119|M|69.28,26.98|Z|Boralus|NC|CHAT|N|Report in!|
+T Reporting In!|QID|55119|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane|
+A Don't Shoot the Messenger|QID|55044|M|69.43,27.19|Z|Boralus|N|From Master Mathias Shaw|PRE|55119|
+C Valeera Sanguinar|QID|55044|M|69.47,26.79|Z|Boralus|NC|CHAT|N|Listen to her message.|
+T Don't Shoot the Messenger|QID|55044|M|69.33,27.14|Z|Boralus|N|To Lady Jaina Proudmoore|
+A My Brother's Keeper|QID|55045|M|69.33,27.14|Z|Boralus|N|From Lady Jaina Proudmoore|PRE|55044|
+C Master Mathias Shaw|QID|55045|QO|1|M|69.43,27.19|Z|Boralus|NC|CHAT|N|Ask Shaw to set sail to Theramore.|
+C Lady Jaina Proudmoore|QID|55045|QO|2|M|70.07,41.75|Z|Dustwallow Marsh|N|Tell Jaina the horde ship is there.|
+P Wind's Redemption|QID|55045|M|70.2,41.39|Z|Dustwallow Marsh|NC|CHAT|N|Ask Shaw to set sail to Boralus.|
+T My Brother's Keeper|QID|55045|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane|
+
+A Spy Versus Spy|QID|55171|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane|PRE|55045|
+N War of Shadows|QID|55171|M|70.55,27.19|Z|Boralus|NC|N|Send Falstad on "Spy on Warfang Hold" mission, and come back in 1 hour.|MID|2123|
+T Spy Versus Spy|QID|55171|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane|
+A The Gathering Storm|QID|55087|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane|PRE|55171|
+T The Gathering Storm|QID|55087|M|45.22,62.61|Z|Boralus|N|To Lady Jaina Proudmoore|
+A Retaliation Coordination|QID|55179|M|45.22,62.61|Z|Boralus|N|From Lady Jaina Proudmoore|PRE|55087|
+F Deadwash|ACTIVE|55179|M|47.75,65.3|Z|Boralus|N|Fly up to Deadwash.|FLY|BFA|
+T Retaliation Coordination|QID|55179|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steelspark|
+A Lost in the Field|QID|55088|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55179|
+A Reassembly Required|QID|55182|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55179|
+C Salvaged Parts|QID|55182|S!US|N|Things in Saltstone Mine.|
+C Injured Operative|QID|55088|M|48.50,37.21|Z|Stormsong Valley|N|Look for Injured Operative in the area.|
+T Lost in the Field|QID|55088|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steelspark|
+T Reassembly Required|QID|55182|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steelspark|
+A Seeking Higher Ground|QID|55183|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55182&55088|
+T Seeking Higher Ground|QID|55183|M|52.13,39.26|Z|Stormsong Valley|N|To Kelsey Steelspark|
+A Listen Up!|QID|55185|M|52.13,39.26|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55183|
+C Goblin Shredder|QID|55185|M|52.2,39.2|Z|Stormsong Valley|
+T Listen Up!|QID|55185|M|52.13,39.26|Z|Stormsong Valley|N|To Kelsey Steelspark|
+A Shaw's Shank Redemption|QID|55089|M|52.13,39.26|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55185|
+R Screaming Pit|ACTIVE|55089|M|44.60,38.20;46.58,35.40;48.48,33.17|CS|Z|Stormsong Valley|N|Run along the ridge to get to the pit ABOVE Warsong Hold.|FLY|BFA|
+K Giles Deathstrike|ACTIVE|55089|QO|2|M|47.66,33.82|Z|Stormsong Valley|NC|N|Kill Giles|
+T Shaw's Shank Redemption|QID|55089|M|48.84,32.75|Z|Stormsong Valley|N|To Master Mathias Shaw|
+A A Gathering of Foes|QID|55090|M|48.84,32.75|Z|Stormsong Valley|N|From Master Mathias Shaw|PRE|55089|
+C Horde gathering witnessed|QID|55090|M|48.85,32.70|Z|Stormsong Valley|NC|N|Use the telescope next to Shaw|
+T A Gathering of Foes|QID|55090|M|69.33,27.15|Z|Boralus|N|To Lady Jaina Proudmoore|
+
+; Raid
+A Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|ELITE|N|[color=e6cc80]Raid: Siege of Dazar'alor[/color] From Halford Wyrmbane.|NA|PRE|54459|
 t Battle of Dazar'alor|QID|54485|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane.|
-A As the Dust Settles|QID|54163|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane. This is a raid quest.|PRE|54485|  ;  Per Grail 54485, had 54459 - buthttps://www.wowhead.com/alliance-war-campaignsays this is part of the 'aftermath'
+A As the Dust Settles|QID|54163|M|69.28,26.98|Z|Boralus|ELITE|N|[color=e6cc80]Raid: Siege of Dazar'alor[/color] From Halford Wyrmbane.|PRE|54459|
 t As the Dust Settles|QID|54163|M|49.32,85.51|Z|Boralus|N|Fly to Proudmoore Keep and meet Anduin in Unity Square.|
-A Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|N|From Anduin in Unity Square.|PRE|54163|
+A Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|N|From Anduin in Unity Square.|PRE|54163&54485|
 C Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|CHAT|N|Talk with Anduin and attend the meeting.|
 T Dead Reckoning|QID|54183|M|49.32,85.51|Z|Boralus|N|To Anduin.|
+
 ; Feathers Before the Storm , after he who walks in the light
-A Whatever Happened to Saffy Flivvers?|QID|53815|M|67.93,26.28|Z|Boralus|N|From Kelsey Steelspark, belowdeck Wind's Redemption.|PRE|54183|  ; wowhead comments say need War Campaign 8.01 and 8.1 done, leaving PRE
+A Whatever Happened to Saffy Flivvers?|QID|53815|M|67.93,26.28|Z|Boralus|N|From Kelsey Steelspark, belowdeck Wind's Redemption.|PRE|55090|
 F Tanaris|ACTIVE|53815|N|Make your way near the Caverns of Time.|
 T Whatever Happened to Saffy Flivvers?|QID|53815|M|62.18,45.33|Z|Tanaris|N|To Feathers|
 A Some Reassembly Required|QID|53816|M|62.18,45.33|Z|Tanaris|N|From Feathers|PRE|53815|
@@ -821,72 +716,106 @@ A She's in a Happier Place|QID|53820|M|27.13,60.07|Z|Tanaris|N|From Sapphronetta
 F Boralus|ACTIVE|53820|N|Make your way back to Boralus to meet Kelsey.|
 T She's in a Happier Place|QID|53820|M|67.93,26.28|Z|Boralus|N|To Kelsey Steelspark|
 B More upgrade missions|QID|54292&54293&543305|M|68.97,24.73|Z|Boralus|S!US|N|Three more missions to upgrade your outposts purchased from the Vindicator Jaelaana. Unlike the previous missions, these need to be purchased (and done) by each character who wants the upgrade.|REP|7th Legion;2159;Exalted;0|
-; 8.1.5 War Campaign
-A Loose Ends|QID|55118|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane|PRE|54183|  ; Grail says no PRE, but since you need the other War Campaigns done, leaving.
-F Kennings Lodge|ACTIVE|55118|M|80.0,75.0|N|Fly or run over to Kennings Lodge.|
-T Loose Ends|QID|55118|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark|
-A Ashes to Ashvane|QID|55033|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark|PRE|55118|
-A Correspondence Conundrum|QID|55117|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark|PRE|55118|
-K Loyalists|ACTIVE|55033|QO|1|M|78.6,77.8;77.8,76.4;79.0,78.8;78.2,78.8|CN|Z|Tiragarde Sound|N|Get rid of those loyalists.|S!US|
-C Correspondence|QID|55117|M|77.5,77.4|Z|Tiragarde Sound|N|Look on your minimap for the random locations of the correspondence.|
-T Ashes to Ashvane|QID|55033|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark|
-T Correspondence Conundrum|QID|55117|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark|
-A Getting a Clue|QID|55116|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark|PRE|55117&55033|
-C Haughton Francis|QID|55116|M|76.91,75.60|Z|Tiragarde Sound|
-T Getting a Clue|QID|55116|M|80.12,75.05|Z|Tiragarde Sound|N|To Kelsey Steelspark|
-A Reporting In!|QID|55119|M|80.12,75.05|Z|Tiragarde Sound|N|From Kelsey Steelspark|PRE|55116|
-F Tradewinds Market|ACTIVE|55119|M|76.67,65.42|Z|Tiragarde Sound|TZ|Boralus Harbor|N|Fly back to Tradewinds Market at Finnia Hawkshot.|
-C Halford Wyrmbane|QID|55119|M|69.28,26.98|Z|Boralus|NC|CHAT|N|Report in!|
-T Reporting In!|QID|55119|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane|
-A Don't Shoot the Messenger|QID|55044|M|69.43,27.19|Z|Boralus|N|From Master Mathias Shaw|PRE|55119|
-C Valeera Sanguinar|QID|55044|M|69.47,26.79|Z|Boralus|NC|CHAT|N|Listen to her message.|
-T Don't Shoot the Messenger|QID|55044|M|69.33,27.14|Z|Boralus|N|To Lady Jaina Proudmoore|
-A My Brother's Keeper|QID|55045|M|69.33,27.14|Z|Boralus|N|From Lady Jaina Proudmoore|PRE|55044|
-C Master Mathias Shaw|QID|55045|QO|1|M|69.43,27.19|Z|Boralus|NC|CHAT|N|Ask Shaw to set sail to Theramore.|
-C Lady Jaina Proudmoore|QID|55045|QO|2|M|70.07,41.75|Z|Dustwallow Marsh|N|Tell Jaina the horde ship is there.|
-C Master Mathias Shaw|QID|55045|QO|4|M|70.2,41.39|Z|Dustwallow Marsh|NC|CHAT|N|Ask Shaw to set sail to Boralus.|
-T My Brother's Keeper|QID|55045|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane|
-A Spy Versus Spy|QID|55171|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane|PRE|55045|
-T Spy Versus Spy|QID|55171|M|69.28,26.98|Z|Boralus|N|To Halford Wyrmbane|
-A The Gathering Storm|QID|55087|M|69.28,26.98|Z|Boralus|N|From Halford Wyrmbane|PRE|55171|
-T The Gathering Storm|QID|55087|M|45.22,62.61|Z|Boralus|N|To Lady Jaina Proudmoore|
-A Retaliation Coordination|QID|55179|M|45.22,62.61|Z|Boralus|N|From Lady Jaina Proudmoore|PRE|55087|
-F Deadwash|ACTIVE|55179|M|47.75,65.3|Z|Boralus|N|Fly up to Deadwash.|
-T Retaliation Coordination|QID|55179|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steelspark|
-A Lost in the Field|QID|55088|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55179|
-A Reassembly Required|QID|55182|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55179|
-C Salvaged Parts|QID|55182|S!US|N|Things in Saltstone Mine.|
-C Injured Operative|QID|55088|M|48.50,37.21|Z|Stormsong Valley|N|Look for Injured Operative in the area.|
-T Lost in the Field|QID|55088|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steelspark|
-T Reassembly Required|QID|55182|M|48.2,41.4|Z|Stormsong Valley|N|To Kelsey Steelspark|
-A Seeking Higher Ground|QID|55183|M|48.2,41.4|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55182&55088|
-T Seeking Higher Ground|QID|55183|M|52.13,39.26|Z|Stormsong Valley|N|To Kelsey Steelspark|
-A Listen Up!|QID|55185|M|52.13,39.26|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55183|
-C Goblin Shredder|QID|55185|M|52.2,39.2|Z|Stormsong Valley|
-T Listen Up!|QID|55185|M|52.13,39.26|Z|Stormsong Valley|N|To Kelsey Steelspark|
-A Shaw's Shank Redemption|QID|55089|M|52.13,39.26|Z|Stormsong Valley|N|From Kelsey Steelspark|PRE|55185|
-R Screaming Pit|ACTIVE|55089|M|44.60,38.20;46.58,35.40;48.48,33.17|CS|Z|Stormsong Valley|N|Run along the ridge to get to the pit ABOVE Warsong Hold.|
-K Giles Deathstrike|ACTIVE|55089|QO|2|M|47.66,33.82|Z|Stormsong Valley|NC|N|Kill Giles|
-T Shaw's Shank Redemption|QID|55089|M|48.84,32.75|Z|Stormsong Valley|N|To Master Mathias Shaw|
-A A Gathering of Foes|QID|55090|M|48.84,32.75|Z|Stormsong Valley|N|From Master Mathias Shaw|PRE|55089|
-C Horde gathering witnessed|QID|55090|M|48.85,32.70|Z|Stormsong Valley|NC|N|Use the telescope next to Shaw|
-T A Gathering of Foes|QID|55090|M|69.33,27.15|Z|Boralus|N|To Lady Jaina Proudmoore|
-; 8.2.0 War Campaign
+
+;lvl 50
+;Warfronts
+A Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|N|From Ralston Karn.|LVL|50|
+A To the Front|QID|53194|M|65.90,26.10|Z|Boralus|N|From Ralston Karn.|LVL|50|
+P Arathi Highlands|ACTIVE|53194|M|66.23,24.77|Z|Boralus|CHAT|N|Talk to Yvera Dawnwing for a port to Arathi Highlands.|
+T To the Front|QID|53194|M|19.25,61.94|Z|Arathi Highlands|N|To Captain Roderick Brewston.|
+A Touring the Front|QID|53197|M|19.25,61.94|Z|Arathi Highlands|PRE|53194|
+C Touring the Front|QID|53197|M|18.26,67.94|Z|Arathi Highlands|QO|3|CHAT|N|View the battleground with Grayson Bell.|
+C Touring the Front|QID|53197|M|12.01,52.12|Z|Arathi Highlands|QO|2|CHAT|N|Check on Lumbering Leo.|
+C Touring the Front|QID|53197|M|27.55,57.01|Z|Arathi Highlands|QO|1|CHAT|N|Enter the mine and run below to check on Foreman Tully.|
+T Touring the Front|QID|53197|M|19.24,61.94|Z|Arathi Highlands|N|To Captain Roderick Brewston.|
+A Back to Boralus|QID|53198|M|19.24,61.94|Z|Arathi Highlands|N|From Captain Roderick Brewston.|PRE|53197|
+P Boralus Harbor|ACTIVE|53198|M|21.71,64.88|Z|Arathi Highlands|CHAT|N|Talk to Yvera Dawnwing for a port back to Boralus.|
+T Back to Boralus|QID|53198|M|65.90,26.10|Z|Boralus|N|To Ralston Karn.|
+C Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|QO|1|N|Make a donation to the war effort, if crafting supplies are sparse, you can donate 100g.|
+T Warfront Contribution|QID|53185|M|65.90,26.10|Z|Boralus|N|To Ralston Karn and enjoy Warfronts!|
+; Warfront Scenerio
+A Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|N|From Ralston Karn.|O|
+C Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|QO|1|NC|N|View the War Table and join the queue to defeat the Horde at the Battle for Stromgarde.|
+A Iron Stores|QID|52439|ACTIVE|53414|M|61.05,67.17|Z|1044|N|From Foreman Tully. After taking the mines by killing Overseer Krix.|
+C Iron Stores|QID|52439|M|47.28,74.06|Z|1044|QO|1|NC|N|Back at the base, access your Iron Stores.|
+T Iron Stores|QID|52439|M|47.13,74.18|Z|1044|N|To Henrik.|
+A Cutting Out the Competition|QID|52118|ACTIVE|53414|M|36.37,59.61|Z|1044|N|From Lumbering Leo. after taking the Lumber Mill.|; Grail says PRE|52439| is Spurious
+C Cutting Out the Competition|QID|52118|M|36.71,59.43|Z|1044|QO|1|NC|N|Grab the Sturdy Axe.|
+C Cutting Out the Competition|QID|52118|M|36.35,58.17|Z|1044|QO|2|NC|N|Chop down the Sapling.|
+C Cutting Out the Competition|QID|52118|M|36.35,58.17|Z|1044|QO|3|NC|N|Pick up the Freshly-Chopped Wood around the tree you just chopped.|
+T Cutting Out the Competition|QID|52118|M|36.65,59.78|Z|1044|N|To Lumbering Leo.|
+A Ready for Battle|QID|53672|ACTIVE|53414|M|46.04,73.30|Z|1044|N|From Sergeant Matthew Walker.| ; Grail says PRE|52439| is Spurious
+C Ready for Battle|QID|53672|M|44.40,73.70|Z|1044|QO|1|NC|N|Recruit a troop from the Barracks, 20 Iron minimum.|
+T Ready for Battle|QID|53672|M|46.04,73.29|Z|1044|N|To Sergeant Matthew Walker.|
+A Armor Up!|QID|53673|ACTIVE|53414|M|49.60,76.61|Z|1044|N|From Balinda Darkstone.|  ; Grail says PRE|52439| is Spurious
+C Armor Up!|QID|53673|M|51.28,74.18|Z|1044|QO|1|NC|N|See what the Armory has to offer.|
+T Armor Up!|QID|53673|M|48.02,80.01|Z|1044|N|To Captain Roderick Brewston.|
+A The Altar's Power|QID|53674|ACTIVE|53414|M|48.02,80.01|Z|1044|N|From Captain Roderick Brewston.|  ; Grail says PRE|52439| is Spurious
+C The Altar's Power|QID|53674|M|51.42,81.06|Z|1044|QO|1|NC|N|See what the Altar has to offer at Alterite Jesse Taylor.|
+T The Altar's Power|QID|53674|M|48.01,79.96|Z|1044|N|To Captain Roderick Brewston.|
+A Welcome to the Workshop|QID|53675|ACTIVE|53414|M|50.73,72.17|Z|1044|N|From Genny.|  ; Grail says PRE|52439| is Spurious
+C Welcome to the Workshop|QID|53675|M|49.93,72.26|Z|1044|QO|1|NC|N|See what the Workshop has to offer.|
+T Welcome to the Workshop|QID|53675|M|50.72,72.17|Z|1044|N|To Genny.|
+A Establishing a Connection|QID|53678|ACTIVE|53414|M|51.11,47.09|Z|1044|N|From Grayson Bell.| ; Grail says PRE|52439| is Spurious
+C Establishing a Connection|QID|53678|M|51.11,47.09|Z|1044|CHAT|N|Fly back to Stromgarde Keep to get your flightmaster whistle upgrade.|
+T Establishing a Connection|QID|53678|M|47.49,75.40|Z|1044|N|To Danath Trollbane.|
+A Beasts of Newstead|QID|53677|ACTIVE|53414|M|42.31,39.61|Z|1044|N|From Huntmaster Theodore after capturing Newstead.| ; Grail says PRE|52439| is Spurious
+C Beasts of Newstead|QID|53677|M|41.50,40.54|Z|1044|QO|1|NC|N|See what Vindicator Banra has to offer.|
+T Beasts of Newstead|QID|53677|M|42.33,39.66|Z|1044|N|To Huntmaster Theodore.|
+A The Circle's Power|QID|53676|ACTIVE|53414|M|69.62,47.69|Z|1044|N|From High Sorceress Marala after capturing the Circle of Elements.| ; Grail says PRE|52439| is Spurious
+C The Circle's Power|QID|53676|M|67.16,47.39|Z|1044|QO|1|NC|N|See what Justine Frost has to offer.|
+T The Circle's Power|QID|53676|M|69.64,47.68|Z|1044|N|To High Sorceress Marala.|
+t Warfront: The Battle for Stromgarde|QID|53414|M|65.87,26.04|Z|Boralus|N|To Ralston Karn.|
+; End Warfront Scenerio
+
+; The Honored Repuation Mission Report: Veiled Grotto
+A Mission Report: Veiled Grotto|QID|52801|M|70.46,27.13|Z|Boralus|PRE|53747|O|  ;  Grail says Spurious, but I'm not sure
+T Mission Report: Veiled Grotto|QID|52801|M|69.28,26.99|Z|Boralus|N|To Halford Wyrmbane.|
+A Veiled Grotto|QID|52802|M|69.28,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|52801|
+
+; The Honored Repuation Mission Report: Grimwatt's Crash
+A Mission Report: Grimwatt's Crash|QID|53006|M|70.45,27.18|Z|Boralus|PRE|53751|O|  ;  Grail says Spurious, but I'm not sure
+T Mission Report: Grimwatt's Crash|QID|53006|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
+A Grimwatt's Crash|QID|53007|M|69.28,27.00|Z|Boralus|PRE|53006|N|From Halford Wyrmbane.|
+
+; The Honored Repuation Mission Report: Veiled Grotto,part2
+R Zuldazar|ACTIVE|52802|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
+R The Golden Road|ACTIVE|52802|M|49.21,35.86;48.36,39.71;44.48,36.69|CS|Z|Zuldazar|N|Make your way to the outpost by following the road generally north thru Rastari passage, until you get to Temple of the Prophet, right wall thru the temple, up multiple steps of stairs and then continue up The Golden Road.|FLY|BFA|
+C Veiled Grotto|QID|52802|M|44.48,36.69|Z|Zuldazar|QO|1|NC|N|Click the banner claim the outpost for the Alliance.|
+f Veiled Grotto|ACTIVE|52802|M|44.43,36.84|Z|Zuldazar|N|Get the flightpoint from Isaac "Lefteye" Bentham.|
+T Veiled Grotto|QID|52802|M|44.25,36.49|Z|Zuldazar|N|To Kolton Garrick.|
+
+; The Honored Repuation Mission Report: Grimwatt's Crash,part2
+R Nazmir|ACTIVE|53007|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Nazmir or get there through other means.|
+R Terrace of Sorrows|ACTIVE|53007|M|37.19,48.47;37.84,60.53|CS|Z|Nazmir|N|Make your way to the outpost by following the road generally west until the crossroads at Kazai, turn left (south) and continue on down the road. Turn right (west)off the road at Terrace of Sorrows to find the Crash site.|FLY|BFA|
+C Grimwatt's Crash|QID|53007|M|34.16,63.42|Z|Nazmir|QO|1|NC|N|Click the banner claim the outpost for the Alliance.|
+f Grimwatt's Crash|ACTIVE|53007|M|34.31,63.20|Z|Nazmir|N|Get the flightpoint from Noella Davenport.|
+T Grimwatt's Crash|QID|53007|M|33.88,63.22|Z|Nazmir|N|To Fellyia Wildsong.|
+
+A Mission Report: Ambush at Grimwatt's Crash|QID|53186|M|70.42,27.19|Z|Boralus|PRE|53007|O|  ;  Grail says Spurious, but I'm not sure
+T Mission Report: Ambush at Grimwatt's Crash|QID|53186|M|69.28,27.01|Z|Boralus|N|To Halford Wyrmbane.|
+A An Unexpected Guest|QID|53187|M|69.28,27.01|Z|Boralus|PRE|53186|N|From Halford Wyrmbane.|
+R Nazmir|ACTIVE|53187|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Nazmir or get there through other means.|
+T An Unexpected Guest|QID|53187|M|34.31,63.20|Z|Nazmir|N|Fly to Grimwatt's Crash and turn in to Noella Davenport.|
+
 ;exalted upgrade mission Brennadan
 A Mission Report: Brennadam|QID|54262|M|70.51,27.20|Z|Boralus|N|From UI Alert.|PRE|54292|   ; incomplete PRE, just guessed, based on 54293 needed below.  Disagree with Grail
 T Mission Report: Brennadam|QID|54262|M|69.27,26.99|Z|Boralus|N|To Halford Wyrmbane.|
 A Outpost Upgrade: Brennadam|QID|54263|M|69.27,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54262|
 T Outpost Upgrade: Brennadam|QID|54263|M|58.73,69.40|Z|Stormsong Valley|N|To Hank Harrison.|
+
 ;exalted upgrade mission Arom's Stand
 A Mission Report: Arom's Stand|QID|54306|M|70.52,27.18|Z|Boralus|N|From UI Alert.|PRE|54305|  ;  Disagree with Grail
 T Mission Report: Arom's Stand|QID|54306|M|69.26,26.99|Z|Boralus|N|To Halford Wyrmbane.|
 A Outpost Upgrade: Arom's Stand|QID|54307|M|69.26,26.99|Z|Boralus|N|From Halford Wyrmbane.|PRE|54306|
 T Outpost Upgrade: Arom's Stand|QID|54307|M|37.92,49.27|Z|Drustvar|N|To Cleric Loriette.|
+
 ;exalted upgrade mission Castaway Point
 A Mission Report: Castaway Point|QID|54284|M|70.42,27.12|Z|Boralus|N|From UI Alert.|PRE|54293| ; Disagree with Grail
 T Mission Report: Castaway Point|QID|54284|M|69.27,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Outpost Upgrade: Castaway Point|QID|54288|M|69.27,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|54284|
 T Outpost Upgrade: Castaway Point|QID|54288|M|86.31,81.29|Z|Tiragarde Sound|N|To Dynamite Jack.|
+
 ; Darkshore pre-warfront questline.
 A On Whispered Winds|QID|53847|M|70.73,26.81|Z|Boralus|N|From Dori'thur.|LVL|50|
 T On Whispered Winds|QID|53847|M|86.63,35.73|Z|Stormwind City|N|To Maiev Shadowsong.|
@@ -930,6 +859,7 @@ C Eyes of the Forest|ACTIVE|53990|M|19.47,73.26|Z|Darkshore!Instance1338|CHAT|SO
 T In Darkest Night|QID|53990|M|69.54,26.84|Z|Boralus|N|To Shandris Feathermoon.|
 A We Are Coming|QID|54871|M|69.54,26.84|Z|Boralus|N|From Shandris Feathermoon.|PRE|53990|
 T We Are Coming|QID|54871|M|65.89,26.05|Z|Boralus|N|To Ralston Karn.|
+
 ; Darkshore Warfront
 A Warfront: The Battle for Darkshore|QID|53992|M|65.89,26.05|Z|Boralus|N|From Ralston Karn.|O|PRE|54871|  ; Grail reports needing PRE
 C Warfront: The Battle for Darkshore|QID|53992|M|66.05,25.99|Z|Boralus|NC|QO|1|N|View the War Table in Boralus|
@@ -964,18 +894,22 @@ A Flying at Night|QID|53975|M|49.39,34.54|Z|Darkshore!Instance1203|N|From Archma
 C Flying at Night|QID|53975|M|48.53,34.58|Z|Darkshore!Instance1203|NC|QO|1|N|Fly to Bashal'Aran|
 T Flying at Night|QID|53975|M|51.14,56.58|Z|Darkshore!Instance1203|N|To Maiev Shadowsong.|
 T Warfront: The Battle for Darkshore|QID|53992|M|65.87,26.03|Z|Boralus|N|To Ralston Karn.|
+
 ; The Revered Reputation Mission Report: Vulture's Nest
 A Mission Report: Vulture's Nest|QID|53043|M|70.56,27.20|Z|Boralus|PRE|53750|O|   ; Grail says No PRE, no info on wowhead, leaving as you had to 'buy' the mission.
 T Mission Report: Vulture's Nest|QID|53043|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Vulture's Nest|QID|53044|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|53043|
+
 ; The Revered Reputation Mission Report: Mugamba Overlook
 A Mission Report: Mugamba Overlook|QID|52851|M|70.57,27.17|Z|Boralus|PRE|53748|O|  ; Grail says No PRE, no info on wowhead, leaving as you had to 'buy' the mission.
 T Mission Report: Mugamba Overlook|QID|52851|M|69.27,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Mugamba Overlook|QID|52852|M|69.27,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|52851|
+
 ; The Revered Reputation Mission Report: Verdant Hollow
 A Mission Report: Verdant Hollow|QID|52886|M|70.52,27.19|Z|Boralus|PRE|53746|O|  ; Grail says No PRE, no info on wowhead, leaving as you had to 'buy' the mission.
 T Mission Report: Verdant Hollow|QID|52886|M|69.29,27.02|Z|Boralus|N|To Halford Wyrmbane.|
 A Verdant Hollow|QID|52888|M|69.29,27.02|Z|Boralus|N|From Halford Wyrmbane.|PRE|52886|
+
 ; The Revered Reputation Mission Report: Mistvine Ledge
 A Mission Report: Mistvine Ledge|QID|52962|M|70.55,27.17|Z|Boralus|PRE|53749|O|  ; Grail says No PRE, no info on wowhead, leaving as you had to 'buy' the mission.
 T Mission Report: Mistvine Ledge|QID|52962|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
@@ -984,11 +918,13 @@ R Vol'dun|ACTIVE|53044|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take yo
 R Vulture's Nest|ACTIVE|53044|M|53.76,37.79|Z|Vol'dun|N|Make your way to the outpost and claim it for the Alliance.|
 f Vulture's Nest|ACTIVE|53044|M|53.60,37.68|Z|Vol'dun|N|Get the flightpoint from Buzz Crankchug.|
 T Vulture's Nest|QID|53044|M|53.71,37.72|Z|Vol'dun|N|To Hilda Hammerfast.|
+
 A Mission Report: Missing Supplies|QID|53221|M|70.56,27.19|Z|Boralus|O|
 T Mission Report: Missing Supplies|QID|53221|M|69.26,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 A Necessary Supplies|QID|53222|M|69.26,27.00|Z|Boralus|N|From Halford Wyrmbane.|PRE|53221|
 R Vol'dun|ACTIVE|53222|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Vol'dun or get there through other means.|
 T Necessary Supplies|QID|53222|M|53.60,37.67|Z|Vol'dun|N|Fly to Vulture's Nest and turn in to Buzz Crankchug.|
+
 P Zuldazar|ACTIVE|52852^52888^52963|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|;not sure this is needed... not sure it hurts anything either.
 P Zuldazar|ACTIVE|52852|M|67.94,26.70|Z|Boralus|CHAT|N|Tell Jes-Tereth to take you to Zuldazar or get there through other means.|
 R Mount Mugamba|ACTIVE|52852|M|45.47,28.70|Z|Zuldazar|N|Make your way to the outpost. If you run there from Veiled Grotto, go back down to the Old Merchant Road, then follow it up the hill, until you see a small path to your left across a pool of water. Run up that path to find the overlook.|
@@ -1080,8 +1016,101 @@ t WANTED: Ayame|QID|52480|M|61.89,41.47|Z|Nazmir|N|To Garrick Blacksteel.|
 ; Rep Gated Notes
 
 N Come back at level 40|QID|52443|M|PLAYER|LVL|-40|N|The last foothold can be completed when you're level 40.|PRE|51961|
+N Come back at level 50|QID|52443|M|PLAYER|LVL|-50|N|The War Campaign story continues at level 50.|PRE|51967&51968&51969|
+N Nazjatar|AVAILABLE|56378|M|PLAYER|JUMP|Nazjatar|N|Now you can continue on to Nazjatar.|
+
+; Elidion - Not sure about a lot of this, pasting what seems to be removed, will do another pass on live.
+
+; Heart of Azeroth questline - Level 54
+A In Darkness, I Dream|QID|55390|N|From Kalecgos, in the Chamber of the Heart after HoA 54.|O|
+P Dalaran|ACTIVE|55390|N|Use your Dalaran hearthstone.|
+F Garden of the Moon|ACTIVE|55390|N|Now fly to Val'sharah|
+T In Darkness, I Dream|QID|55390|M|51.62,57.22|Z|Val'sharah|N|To Merithra of the Dream, at the Temple of Elune.|
+A Enter the Dreamway|QID|55392|M|51.62,57.22|Z|Val'sharah|N|From Merithra of the Dream|PRE|55390|
+C Merithra of the Dream|QID|55392|M|51.62,57.22|Z|Val'sharah|NC|CHAT|N|Ask Merithra to go to the Dreamway.|
+T Enter the Dreamway|QID|55392|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream|
+A Shards of Emerald|QID|55394|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream|PRE|55392|
+A Null the Void|QID|55393|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream|PRE|55392|
+A Don't Close Your Eyes|QID|55395|M|27.10,55.94|Z|Emerald Dreamway!Instance1471|N|From Valithria Dreamwalker|PRE|55392|
+K Void invaders|ACTIVE|55393|QO|1|M|38.6,37.0|Z|Emerald Dreamway!Instance1471|N|Kill anything voidy.|S!US|
+C Emerald Shards|QID|55394|QO|1|M|37.5,60.0;63.2,33.8|CN|N|The Emerald Shards are one the ground next to the dragons bodies.|S|
+C Karkarius|QID|55395|QO|3|M|70.6,45.6|Z|Emerald Dreamway!Instance1471|NC|CHAT|N|Wakey waykey!|
+C Verdisa|QID|55395|QO|2|M|44.81,50.43|Z|Emerald Dreamway!Instance1471|NC|CHAT|N|Wakey waykey!|
+C Thessera|QID|55395|QO|1|M|28.55,75.89|Z|Emerald Dreamway!Instance1471|NC|CHAT|N|Wakey waykey!|
+C Emerald Shards|QID|55394|QO|1|M|37.5,60.0;63.2,33.8|CN|N|The Emerald Shards are one the ground next to the dragons bodies.|US|
+T Shards of Emerald|QID|55394|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream|
+T Null the Void|QID|55393|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream|
+T Don't Close Your Eyes|QID|55395|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|To Merithra of the Dream|
+A We Must Go Deeper|QID|55465|M|44.04,30.67|Z|Emerald Dreamway!Instance1471|N|From Merithra of the Dream|PRE|55393&55394&55395|
+C Merithra of the Dream|QID|55465|M|44.04,30.672|Z|Emerald Dreamway!Instance1471|NC|CHAT|N|Ask to go to the Emerald Dream.|
+T We Must Go Deeper|QID|55465|M|46.57,39.66|Z|The Emerald Dream!Instance|N|To Merithra of the Dream|
+A Before I Wake|QID|55397|M|46.57,39.66|Z|The Emerald Dream!Instance|N|From Merithra of the Dream|PRE|55465|
+C Void Horror|QID|55397|QO|1|M|58.78,47.15;55.08,72.85;42.33,62.31|CN|Z|The Emerald Dream!Instance|
+C Grip of Horror|QID|55397|QO|2|M|51.62,55.66|Z|The Emerald Dream!Instance|
+T Before I Wake|QID|55397|M|46.57,39.66|Z|The Emerald Dream!Instance|N|To Merithra of the Dream|
+A The Stuff Dreams Are Made Of|QID|55396|M|46.57,39.66|Z|The Emerald Dream!Instance|N|From Merithra of the Dream|PRE|55397|
+U Emerald Shards|QID|55396|QO|1|M|54.44,52.28|Z|The Emerald Dream!Instance|U|167831|N|Use the shards in the lake.|
+C Reforged Dreamglow Dragonscale|QID|55396|QO|3|M|50.35,49.41|Z|The Emerald Dream!Instance|N|Click on the Dragonscale.|
+T The Stuff Dreams Are Made Of|QID|55396|M|46.57,39.66|Z|The Emerald Dream!Instance|N|To Merithra of the Dream|
+A The Long Awake|QID|55398|M|46.57,39.66|Z|The Emerald Dream!Instance|N|From Merithra of the Dream|PRE|55396|  ; need prev quest, per Grail
+P Chamber of Heart|ACTIVE|55398|M|46.57,39.66|Z|The Emerald Dream!Instance|NC|CHAT|N|Ask Merithra to leave the Emerald Dream to Val'sharah or get to the Chamber of Heart however.|
+N Afterwards|ACTIVE|55398|N|Merithra will make a speech and leave you with a Scale.  Open the Heart Forge and then click on the scale to upgrade to rank 2|
+T The Long Awake|QID|55398|M|53.85,62.11|Z|Chamber of Heart!Dungeon1473|N|To Merithra of the Dream|
+; Heart of Azeroth questline - Level 60
+A Investigating the Highlands|QID|56167|M|52.54,69.95|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos.\n\nHeart needs to be level 60.|O|PRE|55398|  ; Heart needs to be lvl 60, but 55398 is part of prev chain, so leaving, but noting lvl 60
+P Twilight Highlands|ACTIVE|56167|N|Get thee to Twilight Highlands|
+T Investigating the Highlands|QID|56167|M|35.95,50.49|Z|Twilight Highlands|N|To Kalecgos.|
+A In the Shadow of Crimson Wings|QID|55657|M|35.95,50.49|Z|Twilight Highlands|N|From Kalecgos.|PRE|56167|
+C In the Shadow of Crimson Wings|QID|55657|M|35.95,50.49|Z|Twilight Highlands|QO|1|NC|CHAT|N|Speak with Kalecgos to start the scenario.|
+C Enemy threat reduced|M|59.93,23.38|Z|Twilight Highlands!Instance|SO|1;1|N|Kill the Void-Twisted attackers till threat reduced to 100%.|
+C Meet Alexstrasza atop the Vermillion Redoubt|M|64.16,29.93|Z|Twilight Highlands!Instance|SO|2;1|NC|CHAT|N|Meet Alexstrasza atop the Vermillion Redoubt and chat with her to start the next phase.|
+C Stemming the Corruption|Z|Twilight Highlands|SO|3|S|N|Free the corrupted drakes atop the Vermillion Redoubt.|
+C In the Shadow of Crimson Wings|QID|55657|M|64.16,29.93|Z|Twilight Highlands!Instance|QO|2|N|1/1 Alexstrasza reached|
+C In the Shadow of Crimson Wings|QID|55657|M|67.03,35.23|Z|Twilight Highlands!Instance|QO|3|N|1/1 Threat discovered|
+C Vermillion Sentinels rescued|M|66.97,40.22|Z|Twilight Highlands!Instance|SO|3;1|N|Vermillion Sentinels rescued|
+C Stemming the Corruption|Z|Twilight Highlands|SO|3|US|N|Free the corrupted drakes atop the Vermillion Redoubt.|
+C Take to the Skies!|Z|Twilight Highlands|SO|4|S|N|Mount Kalecgos atop the ridge at the Vermillion Redoubt.|
+C Kalecgos mounted|M|62.81,44.06|Z|Twilight Highlands!Instance|SO|4;1|N|Kalecgos mounted|
+C Take to the Skies!|Z|Twilight Highlands|SO|4|US|N|Mount Kalecgos atop the ridge at the Vermillion Redoubt.|
+C From the Shadows|Z|Twilight Highlands|SO|5|S|N|Confront Vexiona outside of Grim Batol.|
+C In the Shadow of Crimson Wings|QID|55657|M|47.06,86.16|Z|Twilight Highlands!Instance|QO|4|N|1/1 Vexiona confronted|
+C Vexiona confronted|M|47.06,86.16|Z|Twilight Highlands!Instance|SO|5;1|N|Vexiona confronted|
+C From the Shadows|Z|Twilight Highlands|SO|5|US|N|nil|
+C nil|Z|Twilight Highlands|SO|0|S|N|nil|
+C In the Shadow of Crimson Wings|QID|55657|M|45.78,86.30|Z|Twilight Highlands!Instance|QO|5|N|Loot the Lost Scale of the Scarlet Broodmother|
+C In the Shadow of Crimson Wings|QID|55657|M|46.44,86.44|Z|Twilight Highlands!Instance|QO|6|N|Ride Corastrasza to Silithus|
+N Afterwards|ACTIVE|55657|N|Alexstrasza will make a speech and leave you with a Scale.  Open the Heart Forge and then click on the scale to upgrade to rank 3|
+T In the Shadow of Crimson Wings|QID|55657|M|54.18,65.96|Z|Chamber of Heart!Dungeon1473|N|To Alexstrasza the Life-Binder.|
+; Heart of Azeroth questline - Level 65
+A Back to the Chamber|QID|56262|M|75.05,14.97|Z|Boralus|N|From Earthen Guardian.|LEAD|55732|LVL|50|
+T Supplies Needed: Shimmerscale|QID|51032|M|41.41,45.19|Z|Silithus|
+T Back to the Chamber|QID|56262|M|50.12,59.17|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard.|
+A An Old Scar|QID|55732|M|50.12,59.17|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|LVL|50|
+C An Old Scar|QID|55732|M|48.18,72.28|Z|Chamber of Heart!Dungeon1473|CHAT|QO|1|N|Speak to MOTHER to Travel to the Maelstrom.|
+T An Old Scar|QID|55732|M|33.72,54.58|Z|The Maelstrom - Heart of Azeroth!Instance|N|To Magni Bronzebeard.|
+A Defending the Maelstrom|QID|55735|M|33.72,54.58|Z|The Maelstrom - Heart of Azeroth!Instance|N|From Magni Bronzebeard.|PRE|55732|  ; well it's assumed you'd do the prev quest, but to make Grail happy.
+C Defending the Maelstrom|QID|55735|M|30.80,53.44|Z|The Maelstrom - Heart of Azeroth!Instance|QO|2|N|1/1 Azerite Giant slain|
+C Defending the Maelstrom|QID|55735|M|28.39,29.36|Z|The Maelstrom - Heart of Azeroth!Instance|QO|1|N|Defend the Maelstrom by defeating enemies and healing wounds|
+T Defending the Maelstrom|QID|55735|M|33.74,54.55|Z|The Maelstrom - Heart of Azeroth!Instance|N|To Magni Bronzebeard.|
+A At the Azerite Time|QID|55737|M|33.74,54.55|Z|The Maelstrom - Heart of Azeroth!Instance|N|From Magni Bronzebeard.|PRE|55735|  ; well it's assumed you'd do the prev quest, but to make Grail happy.
+T At the Azerite Time|QID|55737|M|48.11,72.24|Z|Chamber of Heart!Dungeon1473|N|To MOTHER.|
+; 4.5k Friendly with The 7th Legion
+A Operation: Blood Arrow|QID|53069|M|69.28,27.00|Z|Boralus|N|Autoaccepted.|O|REP|7th Legion;2159;friendly;4500|PRE|52146|LEAD|52147|  ; Technically you need 52146 done AND REP for this quest to popup, REP gate NOT removed from this quest (and also subsquent LEAD quests.)
+T Operation: Blood Arrow|QID|53069|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 
 
+
+
+
+
+; 3k Honored with The 7th Legion
+A Operation: Cutpurse|QID|53070|M|69.28,27.00|Z|Boralus|N|Autoaccepted|O|REP|7th Legion;2159;honored;3000|PRE|52219|LEAD|52154| ; Technically you need 52219 done AND REP for this quest to popup, REP gate NOT removed from this quest (and also subsquent LEAD quests.)
+T Operation: Cutpurse|QID|53070|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
+
+; Revered with The 7th Legion
+B Vindicator Jaelaana|QID|53746^53747^53748^53749^53750^53751|M|69.33,24.96|Z|Boralus|S|N|Now that you're Revered you can purchase and use four more Scouting Reports. The sooner you start those missions, the sooner you will have more flightpoints in Zandalar.|REP|7th Legion;2159;revered-exalted|AVAILABLE|53746^53748^53749^53751|
+A Operation: Heartstrike|QID|53072|M|69.28,27.00|Z|Boralus|N|Autoaccepted|O|LEAD|52473|REP|7th Legion;2159;revered;0|  ; Rep not removed from LEAD quest.
+T Operation: Heartstrike|QID|53072|M|69.28,27.00|Z|Boralus|N|To Halford Wyrmbane.|
 N Rep Gated until 4.5K into Friendly|QID|52147|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Faction. Next segment is available at 4.5K into friendly.|PRE|52146|REP|7th Legion;2159;friendly;4500;true|
 B Scouting Missions|AVAILABLE|53751^53747|M|69.33,24.96|Z|Boralus|N|Now that you're Honored you can purchase 2 Scouting Reports from Vindicator Jaelaana (the Emissary)that become available at Honored. Use the Scouting Reports to cause a mission to be available at your table. Complete the table missions to start quest chains that unlock outposts (additional flight paths!).|PRE|52219|REP|7th Legion;2159;honored-exalted|
 N Rep Gated until 3K into Honored|QID|52154|N|So, go out Contribute to the Warfront and do WQs that give 7th Legion Reputation. The next segment is available at 3K into honored. If you are lost in Fort Victory, with your heartstone down, Desha Stormwalllow, will give you a ride home in her rowboat, right outside the Fort.|PRE|52219|REP|7th Legion;2159;honored;3000;true|

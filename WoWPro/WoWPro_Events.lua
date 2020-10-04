@@ -670,6 +670,12 @@ WoWPro.RegisterEventHandler("GROUP_ROSTER_UPDATE", function(event, ...)
 	end
 end)
 
+WoWPro.RegisterEventHandler("NEW_WMO_CHUNK", function(event, ...)
+	if successfulRequest then
+		WoWPro:UpdateGuide(event)
+	end
+end)
+
 WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 	local _, prefix, text, _, sender = event, ...
 	if successfulRequest and prefix == "WoWPro" then

@@ -286,8 +286,8 @@ C Choosing Your Purpose|QID|62000^57878|M|36.32,64.22|Z|Ring of Fates@Oribos|QO|
 C Choosing Your Purpose|QID|62000^57878|M|39.55,61.10|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak with the Lady Moonberry.|RANK|2|
 C Choosing Your Purpose|QID|62000^57878|M|44.59,68.74|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak with the General Draven.|RANK|2|
 C Choosing Your Purpose|QID|62000^57878|M|43.07,73.81|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak with the Draka.|RANK|2|
-C Choosing Your Purpose|QID|62000^57878|M|39.95,68.68|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Make your choice.|RANK|2|
-T Choosing Your Purpose|QID|62000^57878|M|39.29,69.61|Z|Ring of Fates@Oribos|N|To Tal-Inara.|RANK|2|
+C Choosing Your Purpose|QID|62000^57878|M|39.49,69.27|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Make your choice.|RANK|2|
+T Choosing Your Purpose|QID|62000^57878|M|38.88,70.02|Z|Ring of Fates@Oribos|N|To Tal-Inara.|RANK|2|
 
 ; Sidequest Story -  The Duelist's Debt
 A A Curious Invitation|QID|59710|M|60.75,62.46|Z|Revendreth|N|From Dimwiddle.|LVL|57|RANK|2|
@@ -309,10 +309,10 @@ T Finders-Keepers, Sinners-Weepers|QID|59846|M|59.86,68.91|Z|Revendreth|N|To Nad
 A Active Ingredients|QID|59713|M|59.86,68.91|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|PRE|59846|RANK|2|
 A A Fine Vintage|QID|59714|M|59.86,68.91|Z|Revendreth|N|From Nadjia the Mistblade.|LVL|57|PRE|59846|RANK|2|
 C Active Ingredients|QID|59713|M|63.10,67.96|Z|Revendreth|QO|1|N|Kill Spiders until you find the Pristine Venom Gland.|RANK|2|S|
-C Active Ingredients|QID|59713|M|63.10,67.96|Z|Revendreth|QO|2|NC|N|Click on Scythe Bloom to collect the Pollen.|RANK|2|S|
+C Scythe Bloom|QID|59713|M|63.10,67.96|Z|Revendreth|QO|2|NC|N|Click on Scythe Bloom to collect the Pollen.|RANK|2|S|
 R The Sneak Hole|ACTIVE|59714|M|63.62,74.37|Z|Revendreth|N|Make your way to the Sneak Hole.|RANK|2|
 C A Fine Vintage|QID|59714|M|63.6,73|Z|Revendreth|N|Go down the Sneak Hole Witherfall Special Reserve and click on one of the kegs.\n\nUse your Action Ability "[color=40C7EB]Hazy Brew[/color]" on Mucksquint to weaken him. Kill and then loot the drank!|EAB|RANK|2|
-C Active Ingredients|QID|59713|M|63.10,67.96|Z|Revendreth|QO|2|NC|N|Click on Scythe Bloom to collect the Pollen.|RANK|2|US|
+C Scythe Bloom|QID|59713|M|63.10,67.96|Z|Revendreth|QO|2|NC|N|Click on Scythe Bloom to collect the Pollen.|RANK|2|US|
 C Active Ingredients|QID|59713|M|63.10,67.96|Z|Revendreth|QO|1|N|Kill Spiders until you find the Pristine Venom Gland.|RANK|2|US|
 T A Fine Vintage|QID|59714|M|59.86,68.91|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|
 T Active Ingredients|QID|59713|M|59.86,68.91|Z|Revendreth|N|To Nadjia the Mistblade.|RANK|2|

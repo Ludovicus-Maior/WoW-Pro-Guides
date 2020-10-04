@@ -1257,6 +1257,7 @@ function WoWPro.Recorder:CreateRecorderFrame()
             WoWPro.Recorder:SaveGuide(true)
         end
     end)
+	dialog:SetDefaultSize("WoWPro Recorder - Save", 300, 125)
 
     WoWPro.DeleteButton = CreateButton("Delete", "Click to delete the current guide.", WoWPro.SaveButton)
         config:RegisterOptionsTable("WoWPro Recorder - Delete", {
@@ -1298,6 +1299,14 @@ function WoWPro.Recorder:CreateRecorderFrame()
             },
         })
         dialog:SetDefaultSize("WoWPro Recorder - Delete", 350, 250)
+
+		WoWPro.RunButton = CreateButton("Run", "Click to create a run step to your current location.", WoWPro.DeleteButton)
+		WoWPro.RunButton:SetScript("OnMouseUp", function(this, button)
+		if button == "LeftButton" then
+			WoWPro.Recorder.RunStep()
+        end
+    end)
+	dialog:SetDefaultSize("WoWPro Recorder - Run", 300, 125)
 end
 
 -- Customizing Recorder Frame --
