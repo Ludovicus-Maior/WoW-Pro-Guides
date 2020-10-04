@@ -9,12 +9,13 @@
 local L = WoWPro_Locale
 local config = _G.LibStub("AceConfig-3.0")
 local dialog = _G.LibStub("AceConfigDialog-3.0")
-
 WoWPro.Recorder = WoWPro:NewModule("Recorder")
 WoWPro:Embed(WoWPro.Recorder)
 WoWPro.Recorder.stepInfo = {}
 WoWPro.Recorder.LoadingGuide = false
 WoWPro.Recorder.Advanced = false
+WoWPro.Recorder.PREquest = nil
+WoWPro.Recorder.PrevStep = nil
 
 function WoWPro.Recorder:OnInitialize()
 -- Creating the config options --
@@ -166,8 +167,10 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                 QID = WoWPro.newQuest,
                 map = mapxy,
                 zone = zonetag,
-                class = checkClassQuest(WoWPro.newQuest,WoWPro.QuestLog)
+                class = checkClassQuest(WoWPro.newQuest,WoWPro.QuestLog),
+				prereq = WoWPro.Recorder.PREquest
             }
+			WoWPro.Recorder.PrevStep = "A"
             if targetName then stepInfo.note = "From "..targetName.."." end
             WoWPro.Recorder.lastStep = WoWPro.newQuest
             WoWPro.Recorder:dbp("Adding new quest "..WoWPro.newQuest)
@@ -184,6 +187,12 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                 zone = zonetag,
                 class = checkClassQuest(WoWPro.missingQuest,WoWPro.oldQuests)
             }
+			if WoWPro.Recorder.PREquest and WoWPro.Recorder.PrevStep == "T" then
+				WoWPro.Recorder.PREquest = WoWPro.Recorder.PREquest .. "&" .. WoWPro.missingQuest
+			else
+				WoWPro.Recorder.PREquest = WoWPro.missingQuest
+			end
+			WoWPro.Recorder.PrevStep = "T"
             if targetName then stepInfo.note = "To "..targetName.."." end
             WoWPro.Recorder:dbp("Turning in quest "..stepInfo.QID)
             WoWPro.Recorder.AddStep(stepInfo)
@@ -203,9 +212,9 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                                     QID = QID,
                                     map = mapxy,
                                     zone = zonetag,
-                                    noncombat = WoWPro.QuestLog[QID].nc, -- TODO: Does this actually exist?
+                                    noncombat = WoWPro.Recorder.FindText(WoWPro.QuestLog[QID].leaderBoard[idx]),
                                     use = WoWPro.QuestLog[QID].use,
-                                    note = WoWPro.QuestLog[QID].leaderBoard[idx],
+                                    note = WoWPro.QuestLog[QID].leaderBoard[idx]:match("[^/%d%s].+")..".",
                                     questtext = tostring(idx),
                                     class = checkClassQuest(QID,WoWPro.QuestLog)
                                 }
@@ -220,6 +229,52 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
         end
     end
 end
+
+function WoWPro.Recorder.FindText(objectiveText)
+	objectiveText = objectiveText:lower()
+	if objectiveText:find("consulted", 1, true) then
+		return "CHAT|"
+	elseif objectiveText:find("speak", 1, true) then
+		return "CHAT|"
+	elseif objectiveText:find("slain", 1, true) then
+		return
+	elseif objectiveText:find("defeat", 1, true) then
+		return
+	else
+		return "NC|"
+	end
+end
+
+function WoWPro.Recorder.RunStep()
+    local GID = WoWProDB.char.currentguide
+    if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
+    WoWPro.Recorder:dbp("Run Step Requested.")
+	local x, y = WoWPro:GetPlayerZonePosition()
+    local zonetag = WoWPro.GetZoneText()
+	local subzone = _G.GetSubZoneText()
+    if zonetag == WoWPro.Guides[GID].zone then
+        zonetag = nil
+    end
+	if subzone:len() < 2 then
+		subzone = _G.GetZoneText()
+	end
+    local mapxy = nil
+    if x and y then
+        mapxy = ("%.2f,%.2f"):format(x * 100, y * 100)
+    end
+
+    local stepInfo = {
+        action = "R",
+        step = subzone,
+        active = WoWPro.Recorder.lastStep,
+        map = mapxy,
+        zone = zonetag,
+		note = "Make your way to the "..subzone.."."
+    }
+     WoWPro.Recorder:dbp("Adding R step location")
+     WoWPro.Recorder.AddStep(stepInfo)
+end
+
 
 function WoWPro.Recorder.PostQuestLogUpdate()
     if not WoWPro.GuideLoaded then
