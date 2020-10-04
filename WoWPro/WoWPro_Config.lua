@@ -7,6 +7,10 @@
 local L = WoWPro_Locale
 local config = _G.LibStub("AceConfig-3.0")
 local dialog = _G.LibStub("AceConfigDialog-3.0")
+local LSM = _G.LibStub("LibSharedMedia-3.0")
+
+local MediaType_BORDER = LSM.MediaType.BORDER
+LSM:Register(MediaType_BORDER, "Eli Border", [[Interface\AddOns\WoWPro\Textures\Eli-Edge.tga]])
 
 function WoWPro:RefreshConfig()
     WoWPro:LoadGuide()
@@ -319,8 +323,8 @@ local function CreateDisplayConfig()
                 name = L["Guide Window Background"],
                 desc = L["Texture used for the guide window background."],
                 values = function() local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("background")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("background")
+                    local list = LSM:List("background")
+                    local hashtable = LSM:HashTable("background")
                     for i,handle in ipairs(list) do
                         values[hashtable[handle]] = handle
                     end
@@ -347,8 +351,8 @@ local function CreateDisplayConfig()
                 name = L["Border Texture"],
                 desc = L["Texture used for the guide window border."],
                 values = function() local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("border")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("border")
+                    local list = LSM:List("border")
+                    local hashtable = LSM:HashTable("border")
                     for i,handle in ipairs(list) do
                         values[hashtable[handle]] = handle
                     end
@@ -374,8 +378,8 @@ local function CreateDisplayConfig()
                 name = L["Sticky Background"],
                 desc = L["Texture used for sticky step background."],
                 values = function() local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("background")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("background")
+                    local list = LSM:List("background")
+                    local hashtable = LSM:HashTable("background")
                     for i,handle in ipairs(list) do
                         values[hashtable[handle]] = handle
                     end
@@ -412,17 +416,17 @@ local function CreateDisplayConfig()
                 dialogControl = 'LSM30_Font',
                 name = L["Step Font"],
                 desc = L["Font used for the main step text."],
-                values = _G.LibStub("LibSharedMedia-3.0"):HashTable("font"),
+                values = LSM:HashTable("font"),
                 get = function(info) local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("font")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
+                    local list = LSM:List("font")
+                    local hashtable = LSM:HashTable("font")
                     for i,handle in ipairs(list) do
                         values[hashtable[handle]] = handle
                     end
                     local hash = values[WoWProDB.profile.stepfont]
                     return hash end,
                 set = function(info,val)
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
+                    local hashtable = LSM:HashTable("font")
                     WoWProDB.profile.stepfont = hashtable[val]
                     WoWPro.RowFontSet() end
             },
@@ -454,17 +458,17 @@ local function CreateDisplayConfig()
                 dialogControl = 'LSM30_Font',
                 name = L["Note Font"],
                 desc = L["Font used for the note text."],
-                values = _G.LibStub("LibSharedMedia-3.0"):HashTable("font"),
+                values = LSM:HashTable("font"),
                 get = function(info) local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("font")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
+                    local list = LSM:List("font")
+                    local hashtable = LSM:HashTable("font")
                     for i,handle in ipairs(list) do
                         values[hashtable[handle]] = handle
                     end
                     local hash = values[WoWProDB.profile.notefont]
                     return hash end,
                 set = function(info,val)
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
+                    local hashtable = LSM:HashTable("font")
                     WoWProDB.profile.notefont = hashtable[val]
                     WoWPro.RowFontSet() end
             },
@@ -496,17 +500,17 @@ local function CreateDisplayConfig()
                 dialogControl = 'LSM30_Font',
                 name = L["Tracker Font"],
                 desc = L["Font used for the tracking text."],
-                values = _G.LibStub("LibSharedMedia-3.0"):HashTable("font"), -- pull in your font list from LSM
+                values = LSM:HashTable("font"), -- pull in your font list from LSM
                 get = function(info) local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("font")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
+                    local list = LSM:List("font")
+                    local hashtable = LSM:HashTable("font")
                     for i,handle in ipairs(list) do
                         values[hashtable[handle]] = handle
                     end
                     local hash = values[WoWProDB.profile.trackfont]
                     return hash end,
                 set = function(info,val)
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
+                    local hashtable = LSM:HashTable("font")
                     WoWProDB.profile.trackfont = hashtable[val]
                     WoWPro.RowFontSet() end
             },
@@ -538,17 +542,17 @@ local function CreateDisplayConfig()
                 dialogControl = 'LSM30_Font',
                 name = L["Title Bar Font"],
                 desc = L["Font used on the title bar."],
-                values = _G.LibStub("LibSharedMedia-3.0"):HashTable("font"), -- pull in your font list from LSM
+                values = LSM:HashTable("font"), -- pull in your font list from LSM
                 get = function(info) local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("font")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
+                    local list = LSM:List("font")
+                    local hashtable = LSM:HashTable("font")
                     for i,handle in ipairs(list) do
                         values[hashtable[handle]] = handle
                     end
                     local hash = values[WoWProDB.profile.titlefont]
                     return hash end,
                 set = function(info,val)
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
+                    local hashtable = LSM:HashTable("font")
                     WoWProDB.profile.titlefont = hashtable[val]
                     WoWPro:TitlebarSet() end
             },
@@ -579,17 +583,17 @@ local function CreateDisplayConfig()
                 dialogControl = 'LSM30_Font',
                 name = L["'As you go:' Font"],
                 desc = L["Font used on the top of the sticky frame."],
-                values = _G.LibStub("LibSharedMedia-3.0"):HashTable("font"), -- pull in your font list from LSM
+                values = LSM:HashTable("font"), -- pull in your font list from LSM
                 get = function(info) local values = {}
-                    local list = _G.LibStub("LibSharedMedia-3.0"):List("font")
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
+                    local list = LSM:List("font")
+                    local hashtable = LSM:HashTable("font")
                     for i,handle in ipairs(list) do
                         values[hashtable[handle]] = handle
                     end
                     local hash = values[WoWProDB.profile.stickytitlefont]
                     return hash end,
                 set = function(info,val)
-                    local hashtable = _G.LibStub("LibSharedMedia-3.0"):HashTable("font")
+                    local hashtable = LSM:HashTable("font")
                     WoWProDB.profile.stickytitlefont = hashtable[val]
                     WoWPro.RowFontSet()
                     WoWPro.RowSizeSet() end

@@ -834,6 +834,7 @@ function WoWPro:RowUpdate(offset)
     local itemkb = false
     local targetkb = false
 	local eakb = false
+	local jumpkb = false
     local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
 	if not _G.InCombatLockdown() then
 		_G.ClearOverrideBindings(WoWPro.MainFrame)
@@ -1170,6 +1171,16 @@ function WoWPro:RowUpdate(offset)
 				WoWPro:dbp("WoWPro.CompleteStep: jumping from %s to %s.",WoWProDB.char.currentguide, newguide)
 				WoWPro:LoadGuide(newguide)
 			end)
+			  if not jumpkb and currentRow.targetbutton:IsVisible() and not _G.InCombatLockdown() then
+                local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxJumpButton:LeftButton")
+                if key1 then
+                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_jumpbutton"..i..":LeftButton")
+                end
+                if key2 then
+                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_jumpbutton"..i..":LeftButton")
+                end
+                jumpkb = true
+            end
         else
             currentRow.jumpbutton:Hide()
         end
@@ -1208,7 +1219,7 @@ function WoWPro:RowUpdate(offset)
 			end
 
             if not eakb and currentRow.eabutton:IsVisible() and not _G.InCombatLockdown() then
-                local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxeaButton:LeftButton")
+                local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxEAButton:LeftButton")
                 if key1 then
                     _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_eabutton"..i..":LeftButton")
                 end

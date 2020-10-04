@@ -31,7 +31,7 @@ T The Court's Bounty|QID|62857|M|55.71,25.98|Z|Sinfall Reaches@Sinfall!Dungeon|N
 A A Call to Service|QID|62695|M|55.71,25.98|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Foreman Flatfinger.|PRE|62857|
 C A Call to Service|QID|62695|M|36.73,48.08|Z|Sinfall Reaches@Sinfall!Dungeon|NC|N|Use the Sinfall Mirror to teleport to the sanctum's lower level|
 T A Call to Service|QID|62695|M|62.48,76.56|Z|Sinfall Depths@Sinfall!Dungeon|N|To Rendle.|
-A A Calling in Revendreth|QID|62691|M|62.48,76.56|Z|Sinfall Depths@Sinfall!Dungeon|N|From Rendle. This is flagged as a daily but must be completed to proceed.|PRE|62695|
+A A Calling in Revendreth|QID|62691|AVAILABLE|62902|M|62.48,76.56|Z|Sinfall Depths@Sinfall!Dungeon|N|From Rendle. This is flagged as a daily but must be completed to proceed.|PRE|62695|
 C A Calling in Revendreth|QID|62691|M|62.54,76.69|Z|Sinfall Depths@Sinfall!Dungeon|N|Go out and do 3 world quests.|
 T A Calling in Revendreth|QID|62691|M|62.54,76.69|Z|Sinfall Depths@Sinfall!Dungeon|N|To Rendle.|
 A Anima is Power|QID|62902|M|62.54,76.69|Z|Sinfall Depths@Sinfall!Dungeon|N|From Rendle.|PRE|62695|
@@ -208,6 +208,82 @@ T Neither Enemy nor Ally|QID|57893|M|51.78,37.44|Z|Sinfall Reaches@Sinfall!Dunge
 A Medallion of Avarice|QID|60935|M|54.88,31.04|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|PRE|57893|
 T Medallion of Avarice|QID|60935|M|51.83,37.52|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|
 A The Curator|QID|58842|M|51.83,37.52|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|PRE|60935|
+F Halls of Atonement|ACTIVE|58842|M|67.27,21.51|Z|Sinfall Reaches@Sinfall!Dungeon|N|Fly to the Halls of Atonement.|
+C The Curator|QID|58842|M|72.74,37.64|Z|Revendreth|CHAT|N|Speak to the Curator.|
+T The Curator|QID|58842|M|72.73,37.64|Z|Revendreth|N|To The Curator.|
+A Watcher Emil|QID|58325|M|72.74,37.64|Z|Revendreth|N|From The Curator.|PRE|58842|
+A Break Out|QID|58337|M|65.92,32.29|Z|Revendreth|N|From Guard Captain Elizabeta.|PRE|58842|
+A Combing the Catacombs|QID|58326|M|65.92,32.29|Z|Revendreth|N|From Guard Captain Elizabeta.|PRE|58842|
+C Watcher Emil|QID|58325|M|65.92,32.29|Z|Revendreth|QO|1|NC|N|Catacombs Officer consulted.|
+A Combing the Catacombs|QID|58326|M|65.92,32.29|Z|Revendreth|N|From Guard Captain Elizabeta.|
+C Combing the Catacombs|QID|58326|M|65.85,29.80|Z|Revendreth|QO|1|N|Kill the Manifestations.|S|
+C Sinstone Rampagers|QID|58326|M|64.77,27.80|Z|Revendreth|QO|2|N|Kill the Sinstone Rampagers.|S|
+C Break Out|QID|58337|M|65.16,26.81|Z|Revendreth|U|174040|NC|N|Use your chains of regret to capture Escaped Captives.\n\nYou can have more than 1 but each one gives 10% reduction in speed.\n\nReturn them to their cells located around the area.|S|
+C Watcher Emil|QID|58325|M|65.06,26.85|Z|Revendreth|QO|2|U|174040|NC|N|Down in the catacomb. Click the tome on the ground.|
+C Break Out|QID|58337|M|65.16,26.81|Z|Revendreth|U|174040|NC|N|Use your chains of regret to capture Escaped Captives.\n\nYou can have more than 1 but each one gives 10% reduction in speed.\n\nReturn them to their cells located around the area.|US|
+C Sinstone Rampagers|QID|58326|M|64.77,27.80|Z|Revendreth|QO|2|N|Kill the Sinstone Rampagers.|US|
+C Watcher Emil|QID|58325|M|65.94,29.56|Z|Revendreth|QO|3|U|174040|NC|N|Watcher Emil found.|
+T Watcher Emil|QID|58325|M|65.93,28.85|Z|Revendreth|N|To Watcher Emil.|
+A Lead the Way|QID|58372|PRE|58325|M|65.93,28.85|Z|Revendreth|N|From Watcher Emil.|
+C Lead the Way|QID|58372|M|65.93,28.85|Z|Revendreth|QO|1|NC|N|1/1 Speak to Watcher Emil.|
+C Lead the Way|QID|58372|M|65.45,34.10|Z|Revendreth|QO|2|NC|N|1/1 Watcher Emil escorted.|
+C Combing the Catacombs|QID|58326|M|65.85,29.80|Z|Revendreth|QO|1|N|Kill the Manifestations.|US|
+T Break Out|QID|58337|M|65.92,32.29|Z|Revendreth|N|To Guard Captain Elizabeta.|
+T Combing the Catacombs|QID|58326|M|65.92,32.29|Z|Revendreth|N|To Guard Captain Elizabeta.|
+T Lead the Way|QID|58372|M|72.73,37.65|Z|Revendreth|N|To The Curator.|
+A Special Access|QID|58421|PRE|58372&58326&58337|M|72.73,37.65|Z|Revendreth|N|From The Curator.|
+A Crypt Crashers|QID|58428|PRE|58372&58326&58337|M|72.73,37.65|Z|Revendreth|N|From The Curator.|
+A An Eye for an Amulet|QID|58424|PRE|58372&58326&58337|M|72.60,37.55|Z|Revendreth|N|From Watcher Emil.|
+C An Eye for an Amulet|QID|58424|M|78.08,34.39|Z|Revendreth|N|Kill Archivam Intruders and Excavation Enforcer.|S|
+C Crypt Crashers|QID|58428|M|78.40,33.87|Z|Revendreth|U|174100|NC|N|Find Stonebreaker Mallets spread around on the ground. Use them to bash open doors of tombs until you find the Death Lotus Powder.|S|
+C Special Access|QID|58421|M|77.42,32.78|Z|Revendreth|QO|3|N|Kill Ionata to collect her fangs.|
+C Special Access|QID|58421|M|80.04,37.25|Z|Revendreth|QO|2|N|Kill Boian to collect his fangs.|
+C Special Access|QID|58421|M|80.72,39.97|Z|Revendreth|QO|1|N|Kill Daciana to collect her fangs.|
+T Special Access|QID|58421|M|77.58,39.28|Z|Revendreth|N|To Nourman.|
+A The Traitor|QID|60673|PRE|58421|M|77.58,39.28|Z|Revendreth|N|From Nourman.|
+C The Traitor|QID|60673|M|78.47,39.32|Z|Revendreth|N|Kill Mateo and loot his Mirror Shard.|
+C Crypt Crashers|QID|58428|M|78.40,33.87|Z|Revendreth|U|174100|NC|N|Find Stonebreaker Mallets spread around on the ground. Use them to bash open doors of tombs until you find the Death Lotus Powder.|US|
+C An Eye for an Amulet|QID|58424|M|78.08,34.39|Z|Revendreth|N|Kill Archivam Intruders and Excavation Enforcer.|US|
+T The Traitor|QID|60673|M|72.73,37.65|Z|Revendreth|N|To The Curator.|
+T Crypt Crashers|QID|58428|M|72.73,37.65|Z|Revendreth|N|To The Curator.|
+T An Eye for an Amulet|QID|58424|M|72.60,37.55|Z|Revendreth|N|To Watcher Emil.|
+A Mirror, Mirror...|QID|58440|PRE|60673&58428&58424|M|72.73,37.65|Z|Revendreth|N|From The Curator.|
+C Mirror, Mirror...|QID|58440|M|72.66,37.63|Z|Revendreth|QO|1|NC|N|Wait for the Curator to complete the mirror.|
+C Mirror, Mirror...|QID|58440|M|72.78,37.30|Z|Revendreth|QO|2|U|174179|NC|N|Use the Death Lotus Powder to allow you to walk through the mirror.|
+C Mirror, Mirror...|QID|58440|M|72.78,37.30|Z|Revendreth|QO|3|NC|N|Walk through the mirror.|
+C Mirror, Mirror...|QID|58440|M|78.47,39.09|Z|Revendreth|QO|4|NC|N|Use your Door of Shadows ability to cross the barrier and loot the Medallion of Avarice from the chest.|
+P Crypt of the Forgotten|ACTIVE|58440|M|77.81,38.42|Z|Revendreth|N|Run back through the mirror.|
+T Mirror, Mirror...|QID|58440|M|72.73,37.64|Z|Revendreth|N|To The Curator.|
+A Return to Sinfall|QID|58444|PRE|58440|M|72.73,37.64|Z|Revendreth|N|From The Curator.|
+F Sinfall|ACTIVE|58444|M|71.58,40.05|Z|Revendreth|N|Fly back to Sinfall.|
+T Return to Sinfall|QID|58444|M|51.72,37.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|
+
+; Chapter 5
+A How to Wear Seven Medallions|QID|61050|PRE|58444|M|51.77,37.58|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|
+T How to Wear Seven Medallions|QID|61050|M|44.43,46.59|Z|Sinfall Reaches@Sinfall!Dungeon|N|To General Draven.|
+A Hidden Mirror|QID|58530|PRE|61050|M|44.43,46.59|Z|Sinfall Reaches@Sinfall!Dungeon|N|From General Draven.|
+F Hero's Rest|ACTIVE|58530|M|67.27,21.51|Z|Sinfall Reaches@Sinfall!Dungeon|N|Fly to the Hero's Rest in Bastion.|
+P Firstborne's Bounty|ACTIVE|58530|M|53.30,44.90|Z|Bastion|N|Unless you can Glide or slow fall down, take the Anima Gateway.|
+R Veiled Enclave|ACTIVE|58530|M|51.43,31.67|Z|Bastion!The Shadowlands|N|Make your way to the Veiled Enclave.|
+C Hidden Mirror|QID|58530|M|49.54,30.31|Z|Bastion!The Shadowlands|U|180356|NC|N|Run near the red pool and use Laurent's Compact Looking Glass to reveal the Hidden Mirror.|
+T Hidden Mirror|QID|58530|M|49.66,30.16|Z|Bastion!The Shadowlands|N|To General Draven.|
+A A Tense Reunion|QID|58555|PRE|58530|M|49.66,30.16|Z|Bastion!The Shadowlands|N|From General Draven.|PRE|58530|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

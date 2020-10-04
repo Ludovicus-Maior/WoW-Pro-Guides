@@ -96,7 +96,23 @@ function WoWPro:TitlebarSet()
     WoWPro:dbp("WoWPro:TitlebarSet()")
 -- Titlebar enable/disable --
     WoWPro:TitlebarShow()
-
+	if WoWProDB.profile.bordertexture == "Interface\\AddOns\\WoWPro\\Textures\\Eli-Edge.tga" then
+		WoWPro.Titlebar:SetBackdrop( {
+			bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+			tile = true, tileSize = 16,
+			insets = { left = 17,  right = 17,  top = 16,  bottom = -6 }
+		})
+		WoWPro.TitleText:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", 0, -6)
+		WoWPro.TitleText:SetPoint("BOTTOMLEFT", WoWPro.Titlebar, "BOTTOMLEFT", 0, -6)
+	else
+		WoWPro.Titlebar:SetBackdrop( {
+			bgFile = [[Interface\Tooltips\UI-Tooltip-Background]],
+			tile = true, tileSize = 16,
+			insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
+		})
+		WoWPro.TitleText:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", 0, 5)
+		WoWPro.TitleText:SetPoint("BOTTOMLEFT", WoWPro.Titlebar, "BOTTOMLEFT", 0, 5)
+	end
 -- Colors --
     WoWPro.Titlebar:SetBackdropColor(WoWProDB.profile.titlecolor[1], WoWProDB.profile.titlecolor[2], WoWProDB.profile.titlecolor[3], WoWProDB.profile.titlecolor[4])
 
@@ -114,12 +130,22 @@ end
 function WoWPro:BackgroundSet()
     WoWPro:dbp("WoWPro:BackgroundSet()")
 -- Textures and Borders --
-    WoWPro.MainFrame:SetBackdrop( {
-        bgFile = WoWProDB.profile.bgtexture,
-        edgeFile = WoWProDB.profile.bordertexture,
-        tile = true, tileSize = 16, edgeSize = 16,
-        insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
-    })
+	if WoWProDB.profile.bordertexture == "Interface\\AddOns\\WoWPro\\Textures\\Eli-Edge.tga" then
+		WoWProDB.profile.pad = 14
+		WoWPro.MainFrame:SetBackdrop( {
+			bgFile = WoWProDB.profile.bgtexture,
+			edgeFile = WoWProDB.profile.bordertexture,
+			tile = true, tileSize = 16, edgeSize = 16,
+			insets = { left = 16,  right = 16,  top = 16,  bottom = 16 }
+		})
+	else
+		WoWPro.MainFrame:SetBackdrop( {
+			bgFile = WoWProDB.profile.bgtexture,
+			edgeFile = WoWProDB.profile.bordertexture,
+			tile = true, tileSize = 16, edgeSize = 16,
+			insets = { left = 4,  right = 3,  top = 4,  bottom = 3 }
+		})
+	end
     WoWPro.StickyFrame:SetBackdrop( {
         bgFile = WoWProDB.profile.stickytexture,
         tile = true, tileSize = 16
@@ -495,8 +521,8 @@ function WoWPro:CreateTitleBar()
     WoWPro.Titlebar = titlebar
     -- Text --
     local titletext = WoWPro.Titlebar:CreateFontString()
-    titletext:SetPoint("TOPRIGHT", WoWPro.Titlebar, "TOPRIGHT", -5, -7)
-    titletext:SetPoint("TOPLEFT", WoWPro.Titlebar, "TOPLEFT", 5, -7)
+    titletext:SetPoint("BOTTOMRIGHT", WoWPro.Titlebar, "BOTTOMRIGHT", 0, 5)
+    titletext:SetPoint("BOTTOMLEFT", WoWPro.Titlebar, "BOTTOMLEFT", 0, 5)
     titletext:SetFontObject(_G.GameFontNormal)
     titletext:SetText("WoW-Pro Guides")
     titletext:SetTextColor(1, 1, 1)
