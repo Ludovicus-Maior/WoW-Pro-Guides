@@ -381,6 +381,61 @@ function WoWPro:OnInitialize()
         WoWProDB.profile.checksoundfile = 567416 -- MapPing
     end
     WoWPro.inhibit_oldQuests_update = false
+
+	WoWProDB.profiles["Eli-Theme"] = {
+		["bgcolor"] = {
+			0.01568627450980392, -- [1]
+			0.01568627450980392, -- [2]
+			0.01568627450980392, -- [3]
+			0.8205126523971558, -- [4]
+		},
+		["space"] = 6,
+		["titlecolor"] = {
+			0.5019607843137255, -- [1]
+			0.5019607843137255, -- [2]
+			0.5019607843137255, -- [3]
+			0, -- [4]
+		},
+		["bordertexture"] = "Interface\\AddOns\\WoWPro\\Textures\\Eli-Edge.tga",
+		["stickytitletextsize"] = 14,
+		["stepfont"] = "Fonts\\MORPHEUS_CYR.TTF",
+		["stickycolor"] = {
+			1, -- [1]
+			1, -- [2]
+			1, -- [3]
+			0.162651002407074, -- [4]
+		},
+		["tracktextcolor"] = {
+			0.9882352941176471, -- [1]
+			[3] = 0.4666666666666667,
+		},
+		["notetextcolor"] = {
+			0.8666666666666667, -- [1]
+			0.8666666666666667, -- [2]
+			0.8549019607843137, -- [3]
+		},
+		["titletextsize"] = 16,
+		["hminresize"] = 340,
+		["stickytitletextcolor"] = {
+			0.3843137254901961, -- [1]
+			0.4156862745098039, -- [2]
+		},
+		["steptextsize"] = 16,
+		["Selector"] = {
+			["QuestHard"] = 0,
+		},
+		["pad"] = 14,
+		["steptextcolor"] = {
+			nil, -- [1]
+			0.8392156862745098, -- [2]
+			0, -- [3]
+		},
+		["titletextcolor"] = {
+			nil, -- [1]
+			0.407843137254902, -- [2]
+			0, -- [3]
+		},
+	}
 end
 
 function WoWPro:RESET()
@@ -491,6 +546,11 @@ function WoWPro:OnEnable()
         WoWPro:Disable()
         return
     end
+
+	if WoWProCharDB.DevCoords then
+		WoWPro:DevCoords()
+		_G.WoWProDevCoords:Show()
+	end
 end
 
 -- Called when the addon is disabled --
@@ -521,6 +581,28 @@ function WoWPro:RegisterTags(tagtable)
     for i=1,#tagtable do
         WoWPro.Tags[tagtable[i]]=true -- Insert each tag from the table supplied into the WoWPro.Tags table.
     end
+end
+
+function WoWPro:DevCoords()
+	if not _G.WoWProDevCoords then
+		local p,f="player", _G.CreateFrame("EditBox","WoWProDevCoords",_G.UIParent,"InputBoxTemplate")
+		f:SetPoint("TOP",0,0)
+		f:SetSize(90, 40)
+		f:SetAutoFocus(false)
+		f:SetScript("OnUpdate",function(s,e)
+			local map = _G.C_Map.GetBestMapForUnit(p)
+			if map then
+				local playerpos = _G.C_Map.GetPlayerMapPosition(map,p)
+				if playerpos then
+					local x,y=playerpos:GetXY()
+					if not _G.MouseIsOver(f) then
+						f:SetText(_G.format("%.2f,%.2f",x*100,y*100))
+					end
+				end
+			end
+		end)
+		f:Hide()
+	end
 end
 
 -- Event Registration Function --

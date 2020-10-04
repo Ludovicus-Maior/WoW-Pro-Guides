@@ -1,7 +1,6 @@
 -- luacheck: globals date pairs type issecurevariable
 -- luacheck: globals tostring tinsert
 
-WoWPro.DevCoords = false
 _G.SLASH_WOWPRO1 = "/wp"
 _G.SLASH_WOWPRO2 = "/wow-pro"
 
@@ -14,25 +13,13 @@ local function handler(msg, editbox)
     local ltoken = tokens[1] and tokens[1]:lower()
 
 	if ltoken == "devcoords" then
-		if not WoWPro.DevCoords then
-			--Old Coord Copy and Paste Macro modified to work in wowpro.
-			local p,f="player", _G.CreateFrame("EditBox","WoWProDevCoords",_G.UIParent,"InputBoxTemplate")
-			f:SetPoint("TOP",0,0)
-			f:SetSize(90, 40)
-			f:SetAutoFocus(false)
-			f:SetScript("OnUpdate",function(s,e)
-				local x,y=_G.C_Map.GetPlayerMapPosition(_G.C_Map.GetBestMapForUnit(p),p):GetXY()
-				if not _G.MouseIsOver(f) then
-					f:SetText(_G.format("%.2f,%.2f",x*100,y*100))
-				end
-			end)
-			WoWPro.DevCoords = true
+		WoWPro:DevCoords()
+		if _G.WoWProDevCoords:IsVisible() then
+			_G.WoWProDevCoords:Hide()
+			WoWProCharDB.DevCoords = false
 		else
-			if _G.WoWProDevCoords:IsVisible() then
-				_G.WoWProDevCoords:Hide()
-			else
-				_G.WoWProDevCoords:Show()
-			end
+			_G.WoWProDevCoords:Show()
+			WoWProCharDB.DevCoords = true
 		end
     elseif ltoken == "where" then
         local X, Y, mapId = WoWPro:GetPlayerZonePosition()

@@ -6,7 +6,7 @@ WoWPro:GuideNextGuide(guide, "Icecrown")
 WoWPro:GuideSteps(guide, function()
 return [[
 N READ THIS!|QID|12818|N|This guide picks up only non-group, non-instance quests.|
-A Luxurious Getaway!|QID|12853|N|Before heading to Storm Peaks, travel into Dalaran and accept "Luxurious Getaway" from Rin Duoctane. He can be found at "Cantrips & Crows" down in the sewers.|Z|4395|M|31.23,49.63|T|Rin Duoctane|
+A Luxurious Getaway!|QID|12853|N|Before heading to Storm Peaks, travel into Dalaran and accept "Luxurious Getaway" from Rin Duoctane. He can be found at "Cantrips & Crows" down in the sewers.|Z|Dalaran City@Dalaran!Crystalsong Forest|M|31.23,49.63|T|Rin Duoctane|
 R The Storm Peaks|QID|12818|N|Head on over to The Storm Peaks.|M|40.5,85.6|
 T Luxurious Getaway!|QID|12853|N|To Jeer Sparksocket.|M|41.0,86.4|
 A Clean Up|QID|12818|N|From Jeer Sparksocket.|M|41.0,86.4|

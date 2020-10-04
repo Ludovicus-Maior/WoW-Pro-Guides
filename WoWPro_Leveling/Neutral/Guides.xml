@@ -40,9 +40,14 @@
 	<Script file="MOP_Valley_of_the_Four_Winds.lua"/>
 	<Script file="SL_Ardenweald.lua"/>
 	<Script file="SL_Bastion.lua"/>
+	<Script file="SL_Covenant.lua"/>
 	<Script file="SL_Maldraxxus.lua"/>
 	<Script file="SL_Maw_Intro.lua"/>
 	<Script file="SL_Maw.lua"/>
+	<Script file="SL_Night_Fae.lua"/>
+	<Script file="SL_Kyrian.lua"/>
+	<Script file="SL_Venthyr.lua"/>
+	<Script file="SL_Necrolord.lua"/>
 	<Script file="SL_Revendreth.lua"/>
 	<Script file="WOD_DarkPortal_Intro.lua"/>
 	<Script file="WOD_Spires_of_Arak.lua"/>

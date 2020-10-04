@@ -237,6 +237,7 @@ end
 
 -- QID Tags first
 DefineTag("QID","QID","string",validate_andor_list_of_ints,nil)
+DefineTag("MID","MID","string",validate_andor_list_of_ints,nil)
 DefineTag("PRE","prereq","string",validate_andor_list_of_ints,nil)
 DefineTag("AVAILABLE","available","string",validate_andor_list_of_ints,function (value, i) WoWPro.available[i] = value end)
 DefineTag("O","optional","boolean",nil,function (text,i)
@@ -331,7 +332,8 @@ DefineTag("R","playerrace","string",nil,nil)
 DefineTag("C","playerclass","string",nil,nil)
 DefineTag("GEN","playergender","string",nil,nil)
 DefineTag("RANK","rank","number",nil,nil)
-DefineTag("MS",nil,"string",nil,function (value,i) end)  -- Swallow MS Tags
+DefineTag("COV","covenant","string",nil,nil)
+DefineTag("MS",nil,"boolean",nil,function (value,i) end)  -- Swallow MS Tags
 
 local function addTagValue(line, tag, value)
     line = line..tag.."||"
@@ -803,12 +805,17 @@ function WoWPro.ParseSteps(steps)
         local text = steps[j]
         text = text:trim()
         if text ~= "" then
-            local class, race  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?")
-            local gender, faction = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?")
+            local tof = false
+			local class, race, covenant  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|COV|([^|]*)|?")
+            local gender, faction, ms = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|")
             if class then
                 -- deleting whitespaces and capitalizing, to compare with Blizzard's class tokens
                 class = class:gsub(" ", ""):upper()
             end
+			-- If Threads of Fate is completed, you don't see |MS| tagged steps
+			if ms and _G.C_QuestLog.IsQuestFlaggedCompleted(62716) then
+				tof = true
+			end
             if race then
                 -- deleting whitespaces to compare with Blizzard's race tokens
                 race = race:gsub(" ", "")
@@ -825,6 +832,20 @@ function WoWPro.ParseSteps(steps)
                     gender = 1
                 end
             end
+			if covenant then
+				covenant = covenant:gsub(" ", "")
+                if covenant == "Kyrian" then
+                    covenant = 1
+                elseif covenant == "Venthyr" then
+                    covenant = 2
+				elseif covenant == "NightFae" then
+                    covenant = 3
+				elseif covenant == "Necrolord" then
+                    covenant = 4
+                else
+                    covenant = 0
+                end
+			end
 
             if faction then
                 -- deleting leading/trailing whitespace and then canonicalize the case
@@ -845,8 +866,9 @@ function WoWPro.ParseSteps(steps)
 
             if (class == nil or WoWPro.SemiMatch(class, myclass)) and
                (race == nil or WoWPro.SemiMatch(race, myrace))  and
+			   (covenant == nil or covenant == _G.C_Covenants.GetActiveCovenantID()) and
                (gender == nil or gender == _G.UnitSex("player")) and
-               (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
+               (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) and not tof then
                 if WoWPro.ParseQuestLine(faction, zone, i, text) then
                     WoWPro.RecordStuff(i)
                     i = i + 1

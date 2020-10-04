@@ -1,6 +1,6 @@
 -- luacheck: globals Grail TomTom Nx
 -- luacheck: globals select ipairs pairs next tremove tinsert
--- luacheck: globals tostring tonumber type abs max floor ceil
+-- luacheck: globals tostring tonumber type abs max floor ceil date
 -- luacheck: globals debugstack
 
 -----------------------------
@@ -633,23 +633,33 @@ function WoWPro.UpdateQuestTrackerRow(row)
                 for l=1,#WoWPro.QuestLog[qid].leaderBoard do
                     if WoWPro.QuestLog[qid].leaderBoard[l] then
                         track = track.."\n- "..WoWPro.QuestLog[qid].leaderBoard[l]
-                        if select(3, _G.GetQuestLogLeaderBoard(l, j)) then
+						if select(2, _G.GetQuestLogLeaderBoard(l, j)) == "progressbar" then
+							track = "\n- ".._G.GetQuestProgressBarPercent(qid).."% out of 100% Complete. "
+						end
+						if select(3, _G.GetQuestLogLeaderBoard(l, j)) then
                             track =  track.." (C)"
                         end
                     end
                 end
+
             elseif questtext then
+
                 --Partial completion steps only track pertinent objectives.
                 WoWPro:dbp("UQT: QID %d active and QO tag of [%s]", qid, questtext)
                 local numquesttext = select("#", (";"):split(questtext))
                 for l=1,numquesttext do
                     local lquesttext = select(numquesttext-l+1, (";"):split(questtext))
                     if WoWPro.ValidObjective(lquesttext) then
-                        local _, status = WoWPro.QuestObjectiveStatus(qid, lquesttext)
-                        if l > 1 then
-                            track = track.."\n"
-                        end
-                        track = track.."- " .. status
+						if select(2, _G.GetQuestLogLeaderBoard(lquesttext , j)) == "progressbar" then
+							track = "\n- ".._G.GetQuestProgressBarPercent(qid).."% out of 100% Complete. "
+						else
+							local _, status = WoWPro.QuestObjectiveStatus(qid, lquesttext)
+							if l > 1 then
+								track = track.."\n"
+							end
+							track = track.."- " .. status
+
+						end
                     else
                         WoWPro:dbp("UQT: Not a valid quest objective %q [%s]", QID, questtext)
                         track =  track.." ???"
@@ -805,7 +815,9 @@ function WoWPro.SelectHearthstone()
             tinsert(have, id)
         end
     end
-    return have[_G.math.random(#have)] or 6948
+	if #have > 0 then
+		return have[_G.math.random(#have)] or 6948
+	end
 end
 
 -- Row Content Update --
@@ -822,6 +834,7 @@ function WoWPro:RowUpdate(offset)
     local itemkb = false
     local targetkb = false
 	local eakb = false
+	local jumpkb = false
     local module = WoWPro:GetModule(WoWPro.Guides[GID].guidetype)
 	if not _G.InCombatLockdown() then
 		_G.ClearOverrideBindings(WoWPro.MainFrame)
@@ -938,7 +951,7 @@ function WoWPro:RowUpdate(offset)
         currentRow.note:SetText(note)
         currentRow.action:SetTexture(WoWPro.actiontypes[action])
         currentRow.action.tooltip.text:SetText(WoWPro.actionlabels[action])
-        if WoWPro.noncombat[k] and WoWPro.action[k] == "C" then
+        if WoWPro.noncombat[k] and (WoWPro.action[k] == "C" or WoWPro.action[k] == "N") then
             currentRow.action:SetTexture("Interface\\AddOns\\WoWPro\\Textures\\Config.tga")
             currentRow.action.tooltip.text:SetText("No Combat")
         elseif WoWPro.lootitem[k] and WoWPro.action[k] == "C" then
@@ -1158,6 +1171,16 @@ function WoWPro:RowUpdate(offset)
 				WoWPro:dbp("WoWPro.CompleteStep: jumping from %s to %s.",WoWProDB.char.currentguide, newguide)
 				WoWPro:LoadGuide(newguide)
 			end)
+			  if not jumpkb and currentRow.targetbutton:IsVisible() and not _G.InCombatLockdown() then
+                local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxJumpButton:LeftButton")
+                if key1 then
+                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_jumpbutton"..i..":LeftButton")
+                end
+                if key2 then
+                    _G.SetOverrideBinding(WoWPro.MainFrame, false, key2, "CLICK WoWPro_jumpbutton"..i..":LeftButton")
+                end
+                jumpkb = true
+            end
         else
             currentRow.jumpbutton:Hide()
         end
@@ -1196,7 +1219,7 @@ function WoWPro:RowUpdate(offset)
 			end
 
             if not eakb and currentRow.eabutton:IsVisible() and not _G.InCombatLockdown() then
-                local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxeaButton:LeftButton")
+                local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxEAButton:LeftButton")
                 if key1 then
                     _G.SetOverrideBinding(WoWPro.MainFrame, false, key1, "CLICK WoWPro_eabutton"..i..":LeftButton")
                 end
@@ -1884,7 +1907,11 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     inzone = inzone:sub(2)
                     inzoneFlip = true
                 end
-
+				if tonumber(inzone) then
+					local _, mapID = WoWPro.GetZoneText()
+					zonetext = mapID
+					inzone = tonumber(inzone)
+				end
                 if (((inzone == zonetext) or (inzone == subzonetext)) and not inzoneFlip) or (((inzone ~= zonetext) and (inzone ~= subzonetext)) and inzoneFlip) then
                     WoWPro:dbp("Step %s [%s/%s] not skipped as InZone %s/%s",stepAction,step,tostring(QID), zonetext, subzonetext)
                 else
@@ -2365,6 +2392,29 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 				end
 			end
 
+			if WoWPro.covenant and WoWPro.covenant[guideIndex] then
+				local covenant = WoWPro.covenant[guideIndex]:gsub(" ", "")
+                if covenant == "Kyrian" then
+                    covenant = 1
+                elseif covenant == "Venthyr" then
+                    covenant = 2
+				elseif covenant == "NightFae" then
+                    covenant = 3
+				elseif covenant == "Necrolord" then
+                    covenant = 4
+                else
+                    covenant = 0
+                end
+
+				if WoWPro.GroupSync and covenant ~= _G.C_Covenants.GetActiveCovenantID() and (stepAction == "A" or stepAction == "T") then
+					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not in the  " .. WoWPro.covenant[guideIndex] .. " covenant.")
+					skip = true
+				elseif covenant ~= _G.C_Covenants.GetActiveCovenantID() then
+					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not in the  " .. WoWPro.covenant[guideIndex] .. " covenant.")
+					skip = true
+				end
+			end
+
             if WoWPro.ilvl and WoWPro.ilvl[guideIndex] then
                 local ilvlID,ilvlFlip = (";"):split(WoWPro.ilvl[guideIndex])
                 local avgIlvl = _G.GetAverageItemLevel()
@@ -2386,18 +2436,40 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
+			if WoWPro.MID and WoWPro.MID[guideIndex] then
+				local onMission
+				local MID = WoWPro.MID[guideIndex]
+				local missionCheck = _G.C_Garrison.GetNumFollowersOnMission(MID)
+				if  missionCheck and missionCheck > 0 then
+					onMission = true
+				end
+				if onMission then
+                    WoWPro.CompleteStep(guideIndex, "NextStep(): Mission ["..MID.."] is currently active.")
+                    skip = true
+                else
+                    WoWPro.why[guideIndex] = "NextStep(): Mission ["..MID.."] isn't active."
+                end
+			end
+
 			if WoWPro.serverdate and WoWPro.serverdate[guideIndex] then
-                local epoch = _G.C_DateAndTime.GetServerTimeLocal()
+				local serverdate = WoWPro.serverdate[guideIndex]
+				local epoch = _G.C_DateAndTime.GetServerTimeLocal()
+				local dateFlip
 				local timeMet
-                if tonumber(WoWPro.serverdate[guideIndex]) >= epoch then
+				if (serverdate:sub(1, 1) == "-") then
+                        serverdate = serverdate:sub(2)
+                        dateFlip = true
+                 end
+
+                if tonumber(serverdate) >= epoch then
                     timeMet = true
                 end
 
-                if timeMet then
-                    WoWPro.CompleteStep(guideIndex, "NextStep(): Server time ["..epoch.."] is less than "..WoWPro.serverdate[guideIndex]..".")
+                if timeMet ~= dateFlip then
+                    WoWPro.CompleteStep(guideIndex, "NextStep(): Server time ["..date("%m/%d/%y %H:%M", epoch).."] is less than "..date("%m/%d/%y %H:%M", serverdate)..".")
                     skip = true
                 else
-                    WoWPro.why[guideIndex] = "NextStep(): Date of ["..WoWPro.serverdate[guideIndex].."] hasn't happened yet."
+                    WoWPro.why[guideIndex] = "NextStep(): Date of ["..date("%m/%d/%y %H:%M", serverdate).."] hasn't happened yet."
                 end
             end
             -- Skipping spells if known.
@@ -2525,7 +2597,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
                 Name = Name:lower()
                 if Name == "townhall" then
-                    local level, _, townHallX, townHallY = _G.C_Garrison.GetGarrisonInfo(_G.LE_GARRISON_TYPE_6_0)
+                    local level, _, townHallX, townHallY = _G.C_Garrison.GetGarrisonInfo(_G.Enum.GarrisonType.Type_6_0)
                     if ( not level or not townHallX or not townHallY ) then
                         -- if no garrison yet, then stop.
                         skip = true
@@ -2536,7 +2608,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         WoWPro.why[guideIndex] = "NextStep(): TownHall not right level"
                     end
                 elseif  Name == "townhallonly" then
-                    local buildings = _G.C_Garrison.GetBuildings(_G.LE_GARRISON_TYPE_6_0);
+                    local buildings = _G.C_Garrison.GetBuildings(_G.Enum.GarrisonType.Type_6_0);
                     if #buildings > 0 then
                         WoWPro.why[guideIndex] = "NextStep(): Buildings owned already."
                         skip = true
@@ -2553,7 +2625,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         end
                         idHash[bid] = true
                     end
-                    local buildings = _G.C_Garrison.GetBuildings(_G.LE_GARRISON_TYPE_6_0);
+                    local buildings = _G.C_Garrison.GetBuildings(_G.Enum.GarrisonType.Type_6_0);
                     WoWPro.why[guideIndex] = "NextStep(): Building not owned."
                     local owned = false
                     for i = 1, #buildings do
@@ -2856,7 +2928,7 @@ function WoWPro.PopulateQuestLog()
     local delta = 0
     WoWPro:dbp("PopulateQuestLog: Entries %d, Quests %d.", numEntries, numQuests)
 
-    local leaderBoard, ocompleted, ncompleted, itemID, _
+    local leaderBoard, ocompleted, ncompleted, itemID, qfrequency, _
 
     -- numEntries may vary depending on collapsed headers, so we need to itereate th whole list.
     local numLoggedQuests, questLogIndex = 0, 0
@@ -2889,6 +2961,9 @@ function WoWPro.PopulateQuestLog()
                 if itemLink then
                     itemID = tonumber(itemLink:match("item:(%d+):"))
                 end
+				qfrequency = questInfo.frequency == _G.Enum.QuestFrequency.Daily
+			else
+				qfrequency = questInfo.frequency == _G.LE_QUEST_FREQUENCY_DAILY
             end
             numLoggedQuests = numLoggedQuests + 1
 
@@ -2901,7 +2976,7 @@ function WoWPro.PopulateQuestLog()
                 complete = WoWPro.QuestLog_IsComplete(questInfo.questID),
                 ocompleted = ocompleted,
                 ncompleted = ncompleted,
-                daily = questInfo.frequency == _G.LE_QUEST_FREQUENCY_DAILY,
+                daily = qfrequency,
                 leaderBoard = leaderBoard,
                 header = currentHeader,
                 use = itemID,
@@ -2958,7 +3033,7 @@ function WoWPro.PopulateQuestLog()
     for QID, oldQuestInfo in pairs(WoWPro.oldQuests) do
         if WoWPro.QuestLog[QID] then
             local questInfo = WoWPro.QuestLog[QID]
-            -- WoWPro:print("Quest %s: [%s]",tostring(QID),WoWPro.QuestLog[QID].title)
+            --WoWPro:print("Quest %s: [%s]",tostring(QID),WoWPro.QuestLog[QID].title)
             if oldQuestInfo.leaderBoard and questInfo.leaderBoard then
                 if oldQuestInfo.complete ~= questInfo.complete then
                     WoWPro:print("Quest Completion: %d [%s] %s => %s",QID, tostring(oldQuestInfo.title),
@@ -2968,6 +3043,10 @@ function WoWPro.PopulateQuestLog()
                 for idx, status in pairs(questInfo.leaderBoard) do
                     -- Same Objective
                     -- WoWPro:dbp("idx %d, status %s",idx,status)
+					if select(2, _G.GetQuestLogLeaderBoard(idx, WoWPro.QuestLog[QID].index)) == "progressbar" then
+					WoWPro:print("Progress Bar objective updated on #%d (%s) on quest [%s]", idx, questInfo.leaderBoard[idx], questInfo.title)
+						delta = delta + 1
+					end
                     if (not oldQuestInfo.ocompleted[idx]) and questInfo.ocompleted[idx] then
                         WoWPro:print("Completed objective #%d (%s) on quest [%s]", idx, questInfo.leaderBoard[idx], questInfo.title)
                         delta = delta + 1

@@ -8,6 +8,7 @@ WoWPro:GuideName(guide, 'Teldrassil')
 WoWPro:GuideLevels(guide, 1, 12, 2)
 WoWPro:GuideNextGuide(guide, 'ClassicDarkshore1220')
 WoWPro:GuideSteps(guide, function() return [[
+
 A The Balance of Nature|QID|456|M|58.69,44.27|N|From Conservator Ilthalaine in front of you.|
 C The Balance of Nature|QID|456|N|Kill Young Nightsabers and Young Thistle Boars.|
 r Sell and Repair|QID|456|S|M|59.31,41.09|ACTIVE|456|N|Sell and Repair with Keina in Aldrassil.|
@@ -47,7 +48,7 @@ T A Friend in Need|QID|3519|M|60.90,41.97|N|To Dirania Silvershine.|
 
 A Iverron's Antidote|QID|3521|PRE|3519|M|60.90,41.96|N|From Dirania Silvershine.|
 C Hyacinth Mushrooms|QID|3521|M|62.20,38.60;59.40,35.55;57.90,33.40;56.48,34.88;55.02,44.17;55.33,38.86;61.80,35.15|CN|S!US|QO|1|N|Pick up Hyacinth Mushrooms along the way. They are purple brown and are found at the base of the trees. Or you can kill Grells.|
-C The Balanche of Nature|QID|457|US|M|62.38,38.36|N|Kill Mangy Nightsabers and Thistle Boars.|
+C The Balance of Nature|QID|457|US|M|62.38,38.36|N|Kill Mangy Nightsabers and Thistle Boars.|
 C Webwood Ichor|QID|3521|M|56.55,30.85;57.03,26.01;56.16,28.43;57.30,33.19|CN|QO|3|N|Kill Spiders until you get the Webwood Ichor.|
 C Moonpetal Lilies|QID|3521|M|57.69,37.59|QO|2|N|You should find plenty of Moonpetal Lilies at the lake.|
 
@@ -187,7 +188,7 @@ C Black Feather Quill|QID|483|M|43.73,61.23|QO|2|L|3406|N|Back across the bridge
 
 A The Sleeping Druid|QID|2541|M|44.95,61.59|N|Jump down the lower floor, turn left to the chamber then across bridge. From Oben Rageclaw.|
 C The Sleeping Druid|QID|2541|S|L|8363|N|Kill Gnarlpine Shamans until one of them drops a Shaman Voodoo Charm. This may take a long time.|
-C Sapphire of Sky|QID|483|M|44.69,62.45|QO|3|N|Back across bridge, turn right, then right again. The chest ison floor next to Greenpaw. Note, Greenpaw is a Level 10 and hits hard.|
+C Sapphire of Sky|QID|483|M|44.69,62.45|QO|3|N|Back across bridge, turn right, then right again. The chest is on floor next to Greenpaw. Note, Greenpaw is a Level 10 and hits hard.|
 R Up the ramp|QID|483|M|45.39,58.00;46.15,58.37|CC|L|3405|N|On the opposite side of the second chamber. Watch out for Ravenclaw who patrols around the lower level.|
 C Raven Claw Talisman|QID|483|M|45.65,57.45|QO|1|N|Further on the passageway, when it gets to the cavern, go left up the ramp, then right across the bridge. The chest is on the balcony.|
 C The Sleeping Druid|QID|2541|US|L|8363|N|Kill Gnarlpine Shamans until one of them drops a Shaman Voodoo Charm. This may take a long time.|
@@ -343,7 +344,9 @@ T Teldrassil|QID|940|M|34.91,08.82|Z|Darnassus|N|To Arch Druid Fandral Staghelm.
 A Grove of the Ancients|QID|952|PRE|940|M|34.91,08.82|Z|Darnassus|N|From Arch Druid Fandral Staghelm. This quest turn-in is in southern Darkshore and has the turn-in on the Darkshore guide.|
 T Tears of the Moon|QID|2518|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora, upstairs in the Temple of Moon.|
 A Sathrah's Sacrifice|QID|2520|PRE|2518|M|36.63,85.94|Z|Darnassus|N|From Priestess A'moora.|
-C Sathrah's Sacrifice|QID|2520|NC|M|38.24,85.73|Z|Darnassus|U|8155|N|Use Sathra's Sacrifice in the fountain down below.|
+C Sathrah's Sacrifice|QID|2520|NC|M|38.24,85.73|Z|Darnassus|U|8155|N|Use Sathrah's Sacrifice in the fountain down below.|
 T Sathrah's Sacrifice|QID|2520|M|36.63,85.94|Z|Darnassus|N|To Priestess A'moora.|
+; --- Guide ends in Darnassus.
+
 ]]
 end)

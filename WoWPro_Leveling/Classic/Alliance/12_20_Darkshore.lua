@@ -6,6 +6,9 @@ WoWPro:GuideName(guide, 'Darkshore 12-20')
 WoWPro:GuideLevels(guide, 11, 20, 13)
 WoWPro:GuideNextGuide(guide, 'ClassicRedridge1517')
 WoWPro:GuideSteps(guide, function() return [[
+
+; --- This guide begins in Darnassus
+
 R Rut'theran Village|QID|952|AVAILABLE|3524|M|28.82,41.50|Z|Darnassus|N|Walk into the portal down to Rut'theran.|
 F Auberdine|QID|952|AVAILABLE|3524|M|58.40,94.01|Z|Teldrassil|N|At Vesprystus.|
 A Washed Ashore|QID|3524|M|36.6,45.6|N|From Gwennyth Bly'Leggonde.|
@@ -91,7 +94,7 @@ C Deep Ocean, Vast Sea|QID|982|M|39.6,27.4|QO|2|N|Swim to the far end of the shi
 T Buzzbox 411|QID|1001|M|42,28.7|N|To Buzzbox 411.|
 A Buzzbox 323|QID|1002|PRE|1001|M|42,28.7|N|From Buzzbox 411.|
 A Beached Sea Creature|QID|4723|PRE|4681|M|42.1, 31.9|N|Stand near the base of the neck to able to click and get the quest. If you stand too far up, you won't be able to click on it.|
-A Beached Sea Turtle|QID|4725|PRE|4681|M|44.24,20.67|N|On the beach, a few level 15 Murlocks around.|
+A Beached Sea Turtle|QID|4725|PRE|4681|M|44.24,20.67|N|On the beach, a few level 15 Murlocs around.|
 C Buzzbox 323|QID|1002|S|N|Drop rate is low, so be ready for a grind.|
 C The Cliffspring River|QID|4762|M|51,25|U|12350|N|Use your Empty Sampling Tube.|
 T The Tower of Althalaxx|QID|965|M|54.9, 24.9|N|To Balthule Shadowstrike.|
@@ -99,7 +102,7 @@ A The Tower of Althalaxx|QID|966|M|54.9, 24.9|N|From Balthule Shadowstrike.|PRE|
 A Beached Sea Turtle|QID|4727|PRE|4681|M|53.12,18.17|N|On the beach, no enemies around.|
 C The Principal Source|QID|6122|C|Druid|M|54.9, 33.3|U|15844|N|Left of the waterfall, take the path to the top.|NC|
 C How Big a Threat?|QID|985|M|39,53|N|Bit of a run back down south but you can also get other quests done on the way|
-A Beached Sea Turtle|QID|4722|PRE|4681|M|37.15,62.19|N|On Beach with level 13 Murlocks around.|
+A Beached Sea Turtle|QID|4722|PRE|4681|M|37.15,62.19|N|On Beach with level 13 Murlocs around.|
 C Cleansing of the Infected|QID|2138|US|N|Finish killing the Rabid Thistle Bears that spawn around the area.|
 C Buzzbox 323|QID|1002|US|N|Finish collecting fangs.|
 C Easy Strider Living|QID|2178|US|N|Finish collecting Strider meat.|
@@ -123,7 +126,7 @@ A The Blackwood Corrupted|QID|4763|PRE|4762|M|37.4,40.2|N|From Thundris Windweav
 U The Blackwood Corrupted|QID|4763|ACTIVE|4763|U|12346|L|12347|M|37.76,44.02|N|Clean the bowl in the moonwell.|
 A Gathering the Cure|QID|6123|C|Druid|M|37.67,40.70|N|From Alanndarian Nightsong.|PRE|6122|
 
-N Visit Darnassus|QID|1002|N|Take this ooportunity to go visit your trainers, the bank, AH, etc.|
+N Visit Darnassus|QID|1002|N|Take this opportunity to go visit your trainers, the bank, AH, etc.|
 
 C Gathering the Cure|QID|6123|C|Druid|M|43,45;46,45;45,50|CS|QO|1;2|N|Found in the moonkin caves. Earthroot requires Herbalism or buy from AH or vendors.|NC|
 T Buzzbox 323|QID|1002|M|51.28,24.58|N|Long run back up north to Buzzbox 323.|
@@ -172,7 +175,7 @@ F Auberdine|QID|272|M|58.40,94.01|Z|Teldrassil|N|Talk to Vesprystus and fly back
 A Fruit of the Sea|QID|1138|M|36.1,44.9|N|From Gubber Blump.|
 C Buzzbox 525|QID|1003|M|41,80|S|N|Now that we're heading south you will find Grizzled Thistle Bears to kill.|
 C A Lost Master|QID|986|M|42,92|S|N|Slay all Moonstalker Sires and Moonstalker Matriarchs on sight.|
-A Beached Sea Creature|QID|4728|PRE|4681|M|36.08,70.92|N|Surrounded by level 15 Murlocks.|
+A Beached Sea Creature|QID|4728|PRE|4681|M|36.08,70.92|N|Surrounded by level 15 Murlocs.|
 C WANTED: Murkdeep!|QID|4740|M|36.3,76.5|N|Before you start clearing here is whats going to happen. After you clear the camp out you will stand near the bonfire. The first wave of murlocs will be 3 level 12 coastrunners, no big deal. The second wave will be do level 15 warriors, no big deal. The third and hardest wave is level 19 Murkdeep and a level 16 hunter. Once you drink up, stand near the bonfire and complete the event. Group up if you can.|
 T Grove of the Ancients|QID|952|M|43.5, 76.3|N|To Onu.|
 T Onu|QID|948|M|43.5,76.3|N|To Onu.|
@@ -188,13 +191,13 @@ T Return to Onu|QID|950|M|43.5, 76.3|N|To Onu.|
 A Mathystra Relics|QID|951|PRE|950|M|43.5,76.5|N|From Onu.|
 T The Absent Minded Prospector|QID|729|M|35.69,83.63|N|This will most likely require a group unless you're really overleveled and strong. It opens up a chain that will benefit you later so I recommend you doing it if possible. DON'T accept next quest until all of your group has turned this in. Warn your group as well, so you can all start the escort together.|
 N Escort may need group|QID|731|GROUP|2|N|This next quest is an escort quest, and is almost impossible to solo for any class. I suggest asking in general chat for people interested in doing it, or looking for people who are doing it already in the camp but are having trouble. While your waiting move on to the next step.|
-A The Absent Minded Prospector|QID|731|M|35.69,83.63|N|Remember you should have a group for this, he will pull lots of agro and won't stop to help like most escorts. You can move to next quest while waiting for a group.|PRE|729|
+A The Absent Minded Prospector|QID|731|M|35.69,83.63|N|Remember you should have a group for this, he will pull lots of aggro and won't stop to help like most escorts. You can move to next quest while waiting for a group.|PRE|729|
 C The Absent Minded Prospector|QID|731|M|35.69,83.63|N|Protect him as he digs up stuff.|
 C Fruit of the Sea|QID|1138|S|N|Kill Reef Crawlers and Encrusted Tide Crawlers until you have 6 Fine Crab Chunks.|
-A Beached Sea Creature|QID|4730|PRE|4681|M|32.73,80.75|N|Surrounded by level 15 Murlocks|
-A Beached Sea Turtle|QID|4731|PRE|4681|M|31.68,83.63|N|Surrounded by level 20 Murlocks.|
-A Beached Sea Turtle|QID|4732|PRE|4681|M|31.27,85.54|N|Surrounded by level 20 Murlocks.|
-A Beached Sea Creature|QID|4733|PRE|4681|M|31.29,87.35|N|Surrounded by level 20 Murlocks.|
+A Beached Sea Creature|QID|4730|PRE|4681|M|32.73,80.75|N|Surrounded by level 15 Murlocs|
+A Beached Sea Turtle|QID|4731|PRE|4681|M|31.68,83.63|N|Surrounded by level 20 Murlocs.|
+A Beached Sea Turtle|QID|4732|PRE|4681|M|31.27,85.54|N|Surrounded by level 20 Murlocs.|
+A Beached Sea Creature|QID|4733|PRE|4681|M|31.29,87.35|N|Surrounded by level 20 Murlocs.|
 C Fruit of the Sea|QID|1138|US|N|Kill Reef Crawlers and Encrusted Tide Crawlers until you have 6 Fine Crab Chunks.|
 C A Lost Master|QID|986|M|43.5, 76.3|US|N|Finish up with your Pelts.|
 C Buzzbox 525|QID|1003|M|41,80|US|N|Finish up with your scalps.|
@@ -263,26 +266,28 @@ A One Shot.  One Kill.|QID|5713|M|45.94,90.29|N|From Sentinel Aynasha.|
 C One Shot.  One Kill.|QID|5713|M|45.94,90.29|N|Three waves of attacks... 1st wave has 2 enemies, 2nd has 3, 3rd has a single level 16. After killing all 3 waves, a short period of time will pass and the quest will complete.|
 T One Shot.  One Kill.|QID|5713|M|26.60,36.72|Z|Ashenvale|N|From Sentinel Onaeya at Maestra's Post.|
 T Therylune's Escape|QID|945|M|22.65,51.92|Z|Ashenvale|N|To Therysil at the Shrine of Aessina.|
-N Pretty much done|QID|942|N|At this point you should be done with every quest in the zone. Ideally you would be higher level and move on to Ashenvale next, but chances are you are only 18 or 19 now. So you can continue on to Ashevnvale from here but it will be difficult, or go back to Auberdine, to sail to wetlands and follow through with the prospector and book of power quests, getting the Ironforge flightpath which will be useful in the Ashenvale questline anyway. The rest of this guide will assume you're going to wetlands.|
+N Pretty much done|QID|942|N|At this point, you should be done with every quest in the zone. Ideally, you would be higher level and move on to Ashenvale next. But, chances are, you're only 18 or 19 right now. So, you can continue on to Ashenvale from here (but, it will be difficult), or go back to Auberdine, to sail to Wetlands and follow through with the prospector and book of power quests, getting the Ironforge flightpath which will be useful in the Ashenvale questline anyway. The rest of this guide will assume you're going to Wetlands.|
 
 H Auberdine|ACTIVE|942|N|Hearth back to Auberdine or run to Astranaar and fly back to Auberdine.|
-b Wetlands|QID|942|M|32.42,43.74|N|Get on the boat to Menethil (read the sign post).|
+b Wetlands|QID|942|M|32.42,43.74|N|Get on the boat to Menethil Harbor (read the sign post).|
 f Menethil Harbor|QID|942|M|9.48,59.68|Z|Wetlands|N|Grab the flightpath.|TAXI|-Menethil Harbor|
 T The Absent Minded Prospector|QID|942|M|10.84,60.43|Z|Wetlands|N|To Archaeologist Flagongut, on the 2nd floor of the Deepwater Tavern. Don't take follow up, too high level for now.|
 
-N Put on your running shoes|N|You have a long run ahead of you. You will be travelling from here to Ironforge and on to Stormwind City.\nPart of this run is to turn in a quest (if you found the book). The other part is to get a couple required FPs along the way.|
-R Dun Algaz|QID|244|M|53.89,70.32|Z|Wetlands|N|Run to Loch Modan. Stick to the road.|
-R Loch Modan|QID|244|M|55.64,84.75|Z|Wetlands|N|Run to Loch Modan. Go through tunnel and stick to the road.|
-R Thelsamar|QID|244|M|33.92,50.95|Z|Loch Modan|N|Run to Thelsmar. Go through tunnel and stick to the road.|
-f Thelsamar|QID|244|M|33.92,50.95|Z|Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.|
-R Dun Morogh|QID|244|M|16.40,58.43|Z|Loch Modan|N|Run to Dun Morogh. Stick to the road, follow the signs.|
-R Gates of Ironforge|QID|244|M|51.03,40.35|Z|Dun Morogh|N|Run to Dun Ironforge. Stick to the road, follow the signs.|
-R Ironforge|QID|244|M|53.46,34.96|Z|Dun Morogh|N|Keep running up.|
-f Ironforge|QID|244|M|55.49,47.72|Z|Ironforge|N|Grab the flightpath from Gryth Thurden.|
+N Put on your running shoes|QID|968|N|You have a long run ahead of you. You will be travelling from here to Ironforge and on to Stormwind City.\nPart of this run is to turn in a quest (if you found the book). The other part is to get a couple required FPs along the way.|
+R Dun Algaz|QID|968|M|53.89,70.32|Z|Wetlands|N|Run to Loch Modan. Stick to the road.|
+R Loch Modan|QID|968|M|55.64,84.75|Z|Wetlands|N|Run to Loch Modan. Go through tunnel and stick to the road.|
+R Thelsamar|QID|968|M|33.92,50.95|Z|Loch Modan|N|Run to Thelsamar. Go through tunnel and stick to the road.|
+f Thelsamar|QID|968|M|33.92,50.95|Z|Loch Modan|N|Grab the flightpoint from Thorgrum Borrelson.|TAXI|-Thelsamar|
+R Dun Morogh|QID|968|M|16.40,58.43|Z|Loch Modan|N|Run to Dun Morogh. Stick to the road, follow the signs.|
+R Gates of Ironforge|QID|968|M|51.03,40.35|Z|Dun Morogh|N|Run to Dun Ironforge. Stick to the road, follow the signs.|
+R Ironforge|QID|968|M|53.46,34.96|Z|Dun Morogh|N|Keep running up.|
+f Ironforge|QID|968|M|55.49,47.72|Z|Ironforge|N|Grab the flightpath from Gryth Thurden.|TAXI|-Ironforge|
 T The Powers Below|QID|968|M|50.82,5.66|Z|Ironforge|N|To Gerrig Bonegrip.|
-A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|N|Another quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
-R Deeprun Tram|QID|244|M|76.83,51.28|Z|Ironforge|N|Goto Tinker Town and zone into the Deeprun Tram.|
+A Knowledge in the Deeps|QID|971|M|50.82,5.66|Z|Ironforge|ELITE|N|[color=E6CC80]Dungeon: 'BFD'[/color]\nAnother quest for BFD dungeon. Hold onto it until level 23-24 when you can attempt BFD. If you don't plan on running a dungeon go ahead and skip, but it doesn't hurt, just in case someone talks you into going.|
+R Deeprun Tram|QID|244|M|76.83,51.28|Z|Ironforge|N|Go to Tinker Town and zone into the Deeprun Tram.|
 R Stormwind City|QID|244|N|Take the tram ride and then run into Stormwind.|
-f Stormwind City|QID|244|M|66.28,62.12|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|R|-Human|
+f Stormwind|QID|244|M|66.28,62.12|Z|Stormwind City|N|Discover Stormwind Flightpoint with Dungar Longdrink.|TAXI|-Stormwind|
+; --- This guide ends in Stormwind City
+
 ]]
 end)

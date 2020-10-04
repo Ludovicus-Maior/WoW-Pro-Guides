@@ -106,7 +106,7 @@ C The Strongest Among Them|QID|58423|M|51.86,41.36|S!US|Z|1530|N|Kill Rare N'Zot
 C Corruption Manifest|QID|58465|M|85.05,39.15|S!US|Z|1530|N|Kill Putrid Ichor.|;daily
 C Torment From Beyond|QID|58466|M|42.54,68.34|S!US|Z|1530|N|Release Ancient Pandaren Spirits|;daily
 C Tomes of Ancient Madness|QID|58461|M|76.92,49.92|S!US|Z|1530|N|Tome of Ancient Madness are dropped by Drowned Zeolots and Tidal Corruptors.|
-C Proof of Tenacity|QID|56540|ACTIVE|56064|M|12.36,72.40|Z|1530|QO|1|N|Entrance to underground vault where Vil'raxx can be found... and killed.|
+C Proof of Tenacity|QID|56540|ACTIVE|56064|M|57.42,39.38|Z|1530|QO|1|N|Entrance to underground vault where Vil'raxx can be found... and killed. Make sure to complete Assault: The Black Empire BEFORE going to kill.|
 C Proof of Tenacity|QID|56540|ACTIVE|57728|M|13.48,55.77|Z|1530|QO|1|N|Kri'vin can be found in front of the Gate of the Setting Sun.|
 T Assault: The Endless Swarm|QID|57728|M|37.22,79.26|Z|1530|N|To Taoshi.|
 T Halting Production|QID|58763|M|37.22,79.26|Z|1530|N|To Taoshi.|
@@ -121,15 +121,15 @@ T Tomes of Ancient Madness|QID|58461|M|83.81,27.19|Z|1530|N|To Lorewalker Cho.|
 ; Thanks Sipder2 @ WhowHead! zone name is incomplete and needs a run-through.
 A The Engine of Nalak'sha|QID|56541|M|45.14,74.43|Z|1530|N|From Ra-Den|PRE|56540|
 R Mogu'shan Palace|ACTIVE|56541|M|80.83,30.76|Z|1530|N|Go to the Mogu'shan Palace to start the instance. It will take about 20 minutes.|
-C A Way Down|ACTIVE|56541|SO|1|M|40.51,59.30|Z|The Crimson Assembly Hall@Mogu'Shan Palace!Dungeon|N|Kill 4 Animated Guardians to open the first door and four more to open the second door.\nJump over rows of runed tiles to avoid traps.|
-C Watch Your Step|ACTIVE|56541|SO|2|M|40.30,70.80|Z|The Crimson Assembly Hall@Mogu'Shan Palace!Dungeon|N|Make your way to the Ancient Lever. The runes form a maze. When you step on one, the next step will be one without a visual effect. You may have to backtrack.|
-C A Weighty Problem|ACTIVE|56541|SO|3|M|48.71,74.88|Z|Vaults of Kings Past@Mogu'Shan Palace!Dungeon|N|Take the stairwell down, killing as you go.\nWhen you reach a glowing Mogu statue, you need to move it to the empty concrete block on the floor and then the door will open.|
-C The Long Walk|ACTIVE|56541|SO|4|M|44.65,46.81|Z|The Repository@Mogu'Shan Vaults!Dungeon|N|Go upstairs and enter the secret door to kill Depthcaller Xith'el.|
-C Madness Manifest|ACTIVE|56541|SO|5|M|42.54,52.53|Z|The Repository@Mogu'Shan Vaults!Dungeon|N|Destroy the manifestations of N'Zoth until the progress bar reaches 100%.|
-C The Hall of the Shapers|ACTIVE|56541|SO|6|M|33.30,50.93|Z|Forge of the Endless@Mogu'Shan Vaults!Dungeon|N|Go down the now unlocked stairs and follow the corridor until you reach the Swarmguard Kzaz, your next target.|
-C The Final Summoning|ACTIVE|56541|SO|7|M|27.88,51.52|Z|Forge of the Endless@Mogu'Shan Vaults!Dungeon|N|Defeat Yox'ith. Killing the tentacles around can help.|
-C Reviving the Engine|ACTIVE|56541|SO|8|M|27.04,51.46|Z|Forge of the Endless@Mogu'Shan Vaults!Dungeon|N|Click on the console to link the Engine of Nalak'sha to the Chamber of Heart.|
-P Vale of Eternal Blossoms|ACTIVE|56541|M|14.52,51.34|Z|Forge of the Endless@Mogu'Shan Vaults!Dungeon|N|Take the portal to the start of the instance and then exit.|
+C A Way Down|ACTIVE|56541|SO|1|M|40.51,59.30|Z|The Crimson Assembly Hall@Mogu'shan Palace!Dungeon|N|Kill 4 Animated Guardians to open the first door and four more to open the second door.\nJump over rows of runed tiles to avoid traps.|
+C Watch Your Step|ACTIVE|56541|SO|2|M|40.30,70.80|Z|The Crimson Assembly Hall@Mogu'shan Palace!Dungeon|N|Make your way to the Ancient Lever. The runes form a maze. When you step on one, the next step will be one without a visual effect. You may have to backtrack.|
+C A Weighty Problem|ACTIVE|56541|SO|3|M|48.71,74.88|Z|Vaults of Kings Past@Mogu'shan Palace!Dungeon|N|Take the stairwell down, killing as you go.\nWhen you reach a glowing Mogu statue, you need to move it to the empty concrete block on the floor and then the door will open.|
+C The Long Walk|ACTIVE|56541|SO|4|M|44.65,46.81|Z|The Repository@Mogu'shan Vaults!Dungeon|N|Go upstairs and enter the secret door to kill Depthcaller Xith'el.|
+C Madness Manifest|ACTIVE|56541|SO|5|M|42.54,52.53|Z|The Repository@Mogu'shan Vaults!Dungeon|N|Destroy the manifestations of N'Zoth until the progress bar reaches 100%.|
+C The Hall of the Shapers|ACTIVE|56541|SO|6|M|33.30,50.93|Z|Forge of the Endless@Mogu'shan Vaults!Dungeon|N|Go down the now unlocked stairs and follow the corridor until you reach the Swarmguard Kzaz, your next target.|
+C The Final Summoning|ACTIVE|56541|SO|7|M|27.88,51.52|Z|Forge of the Endless@Mogu'shan Vaults!Dungeon|N|Defeat Yox'ith. Killing the tentacles around can help.|
+C Reviving the Engine|ACTIVE|56541|SO|8|M|27.04,51.46|Z|Forge of the Endless@Mogu'shan Vaults!Dungeon|N|Click on the console to link the Engine of Nalak'sha to the Chamber of Heart.|
+P Vale of Eternal Blossoms|ACTIVE|56541|M|14.52,51.34|Z|Forge of the Endless@Mogu'shan Vaults!Dungeon|N|Take the portal to the start of the instance and then exit.|
 T The Engine of Nalak'sha|QID|56541|M|45.14,74.43|Z|1530|N|To Ra-Den|
 A Restored Hope|QID|56542|M|45.14,74.43|Z|1530|N|From Ra-Den|PRE|56541|
 C Chamber of Heart|QID|56542|QO|1|M|45.14,74.43|Z|1530|CHAT|N|Ask Ra-Den for transport to the Chamber of Heart.|

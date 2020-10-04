@@ -3,6 +3,7 @@
 
 * Group Sync! - See the quest progress of your party when they also have WoWPro running.
 * Combat Update - WoWPro should now update its frames while in combat.
+* Hearthstones - We now support all the different hearthstones for the Hearth steps, no longer need to keep the default HS if you don't want to.
 * Extra Action Button - We can now attach the Extra Action Button to the WoWPro frame. (Requires guides to be updated to use this new EAB tag).
 * SuperTrack - Take advantage of the UI's new SuperTrack Waypoint markers introduced in 9.0, it will always mirror WoWPro's active step.
 * Guide Hubs - With Chromie Time and Level squish we put control into the users hands with guide hubs to help you jump between guides at your discretion. (For Guide Authors, new JUMP tag)
@@ -20,3 +21,5 @@
 * Fixed bug in PLAYER coordinates that caused it to use a previous steps coordinates sometimes.
 * Fixed a bug that could throw an error if you load a guide with no steps (which can happen in recorder)
 * Added new and missing old icons to the WoWPro-Leveling list in the settings.
+* Updated addon to use the new backdrop system that changed in 9.0.
+* Updated addon to use the new Enum table that changed in 9.0.

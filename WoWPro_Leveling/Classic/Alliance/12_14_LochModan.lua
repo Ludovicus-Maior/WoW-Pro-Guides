@@ -7,11 +7,13 @@ WoWPro:GuideLevels(guide, 12, 13, 13)
 WoWPro:GuideNextGuide(guide, 'ClassicWestfall1315')
 WoWPro:GuideSteps(guide, function () return [[
 
-N Guide starts in Thelsamar|N|If you can't fly there, you get there by running out of Ironforge, thru Dun Morogh, and then thru either of the passes into Loch Modan.|
-h Stoutlager Inn|QID|1339|N|Set your hearthstone to Thelsamar|M|35.55,48.40|
+; --- This guide begins in Thelsamar, Loch Modan
+
+N Guide starts in Thelsamar|AVAILABLE|418|N|If you can't fly there, you get there by running out of Ironforge, thru Dun Morogh, and then thru either of the passes into Loch Modan.|
+h Stoutlager Inn|QID|1339|M|35.55,48.40|N|Set your hearthstone to Thelsamar|
 A Thelsamar Blood Sausages|QID|418|M|34.8,49.3|N|From Vidra Hearthstove.|
-A Rat Catching|QID|416|M|34.8,47.1|N|From Mountianeer Kadrell patrols all throughout Thelsamar.|
-A Mountaineer Stormpike's Task|QID|1339|M|34.8,47.1|N|From Mountianeer Kadrell patrols all throughout Thelsamar.|
+A Rat Catching|QID|416|M|34.8,47.1|N|From Mountaineer Kadrell patrols all throughout Thelsamar.|
+A Mountaineer Stormpike's Task|QID|1339|M|34.8,47.1|N|From Mountaineer Kadrell patrols all throughout Thelsamar.|
 A Honor Students|QID|6387|M|37.02,47.81|N|From Brock Stoneseeker.|R|Gnome,Dwarf|
 T Honor Students|QID|6387|M|33.8,50.8|N|To Thorgrum Borrelson.|
 A Ride to Ironforge|QID|6391|M|33.8,50.8|N|From Thorgrum Borrelson.|PRE|6387|
@@ -43,17 +45,17 @@ C In Defense of the King's Lands|QID|217|M|35,83;34,90|CS|N|Take the path to the
 T In Defense of the King's Lands|QID|217|M|23.24,73.67|N|To Captain Ruglefuss.|
 
 H Thelsamar|ACTIVE|416|N|Hearth back to Thelsamar and turn quests in.|
-T Rat Catching|QID|416|M|34.8,47.1|N|To Mountianeer Kadrell.|
+T Rat Catching|QID|416|M|34.8,47.1|N|To Mountaineer Kadrell.|
 T Thelsamar Blood Sausages|QID|418|M|34.8,49.3|N|From Vidra Hearthstove.|
-F Ironforge|QID|6661|N|Fly to Ironforge|M|33.90,50.95|
+F Ironforge|QID|6661|M|33.90,50.95|N|Fly to Ironforge|
 N Sell junk, repair, restock, train skills|QID|6661|N|Sell junk, repair, restock, train skills.|
 T Ride to Ironforge|QID|6391|M|51,26.2|Z|Ironforge|N|To Golnir Bouldertoe.|
 A Gryth Thurden|QID|6388|M|51,26.2|Z|Ironforge|N|From Golnir Bouldertoe.|PRE|6391|
 T Gryth Thurden|QID|6388|M|55.49,47.76|Z|Ironforge|N|To Gryth Thurden, inside the Deep Mountain Mining Guild building, in The Great Forge.|
-A Return to Brock|QID|6392|M|55.49,47.76|Z|Ironforge|N|From Gryth Thurden. Its worth 1050XP to fly to Thelsemar and back, but it has to be done soon, as it goes grey at level 16.|PRE|6388|
+A Return to Brock|QID|6392|M|55.49,47.76|Z|Ironforge|N|From Gryth Thurden. Its worth 1050XP to fly to Thelsamar and back, but it has to be done soon, as it goes grey at level 16.|PRE|6388|
 F Thelsamar|ACTIVE|6392|M|55.49,47.76|Z|Ironforge|N|At Gryth Thurden.|
 T Return to Brock|QID|6392|M|37.02,47.81|N|To Brock Stoneseeker, inside the building.|
-F Ironforge|ACTIVE|1338|M|33.8,50.8|N|At Thorgrum Borrelson.|
+F Ironforge|ACTIVE|1338|M|33.90,50.95|N|At Thorgrum Borrelson.|
 R Deeprun Tram|QID|6661|N|Go to the Deeprun Tram|Z|Ironforge|M|76.50,51.10|
 A Deeprun Rat Roundup|QID|6661|N|Get this quest from Monty in the Tram.|
 C Deeprun Rat Roundup|QID|6661|U|17117|T|Deeprun Rat|N|Use the flute to catch five Deeprun Rats.|
@@ -97,6 +99,7 @@ h Sentinel Hill|ACTIVE|64|M|52.86,53.71|Z|Westfall|N|At Innkeeper Heather.|
 f Sentinel Hill|ACTIVE|64|M|56.55,52.65|Z|Westfall|N|Discover Sentinel Hill Flight Path with Thor.|
 T A Swift Message|QID|6181|M|56.55,52.65|Z|Westfall|N|To Thor.|
 A Continue to Stormwind|QID|6281|M|56.55,52.65|Z|Westfall|N|From Thor.|PRE|6181|
+; --- Guide ends in Sentinel Hill, Westfall
 
 ]]
 end)

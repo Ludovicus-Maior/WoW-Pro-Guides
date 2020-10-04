@@ -678,7 +678,7 @@ A The Day is Won|QID|53981|M|47.41,21.82|Z|Tiragarde Sound|N|From Rexxar.|PRE|53
 H Zuldazar|ACTIVE|53981|M|47.41,21.82|Z|Tiragarde Sound|TZ|The Great Seal|N|Hearth or otherwise return to The Banshee's Wail in the Port of Zandalar.|
 T The Day is Won|QID|53981|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 ; mekkatorque's battle plans
-A A Mech for a Goblin|QID|53941|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53981|REP|The Honorbound;2157;revered;7000|
+A A Mech for a Goblin|QID|53941|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|53981|  ;  Rep Gate Removed REP|The Honorbound;2157;revered;7000|
 F Xibala|ACTIVE|53941|M|52.10,90.16|Z|Dazar'alor|N|Xibala is as close as you can fly, then you have to run the rest of the way.|
 T A Mech for a Goblin|QID|53941|M|36.30,72.02|Z|Zuldazar|N|To Trade Prince Gallywix.|
 A It Belongs in My Mech!|QID|54123|M|36.30,72.02|Z|Zuldazar|N|From Trade Prince Gallywix.|PRE|53941|
@@ -724,10 +724,10 @@ C Mech versus Airship|QID|54028|M|68.04,84.09|Z|Tiragarde Sound|QO|3|CHAT|N|Spea
 C Mech versus Airship|QID|54028|M|67.91,84.21|Z|Tiragarde Sound|QO|4|N|Confront Mekkatorque.|
 T Mech versus Airship|QID|54028|M|87.65,53.48|Z|Tiragarde Sound|N|To G.M.O.D.|
 A A Goblin's Definition of Success|QID|54094|M|87.65,53.48|Z|Tiragarde Sound|N|From G.M.O.D.|PRE|54028|
-R Port of Zuldazar|ACTIVE|54094|M|87.85,51.17|Z|Tiragarde Sound|CHAT|N|Ask Erul Dawnbrook for a ride or otherwise return to Zuldazar and the Banshee's Wail.|
+R Port of Zuldazar|ACTIVE|54094|M|87.85,51.17|Z|Tiragarde Sound|TZ|The Banshee's Wail|CHAT|N|Ask Erul Dawnbrook for a ride or otherwise return to Zuldazar and the Banshee's Wail.|
 T A Goblin's Definition of Success|QID|54094|M|58.44,62.67|Z|Zuldazar|N|To Nathanos Blightcaller.|
 ; Through the front door
-A Breaking Out Ashvane|QID|54121|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|54094|REP|The Honorbound;2157;revered;14000|
+A Breaking Out Ashvane|QID|54121|M|58.44,62.67|Z|Zuldazar|N|From Nathanos Blightcaller.|PRE|54094|  ;  Rep Gate Removed  REP|The Honorbound;2157;revered;14000|
 P Tiragarde Sound|ACTIVE|54121|Z|Zuldazar|TZ|Plunder Harbor|CHAT|N|Speak with Dread-Admiral Tattersail to sail to Tiragarde Sound (Optional).|
 R Ashvane Foundry|ACTIVE|54121|M|86.93,51.72;83.25,49.74|Z|Tiragarde Sound|CS|N|Up the hill and over to the Ashvane Foundry to meet up with Arcanist Valtrois.|
 T Breaking Out Ashvane|QID|54121|M|82.94,49.54|Z|Tiragarde Sound|N|To Arcanist Valtrois.|
@@ -910,12 +910,14 @@ T For the Queen|QID|54754|M|48.34,71.16|Z|Orgrimmar|N|To Lady Sylvanas Windrunne
 ; possibly missing some steps here...
 A Battle of Dazar'alor|QID|54282|M|58.44,62.68|Z|Zuldazar|N|From Nathanos Blightcaller.|NA|PRE|54280|  ; Offered by Princess Talanji not Nathanos, listed already in guide, added PRE from that line.
 C Battle of Dazar'alor|QID|54282|N|You need to defeat Jaina at the Battle of Dazar'alor to continue with the war campaign.|
+
 A Return to the Heart|QID|55522|M|50.98,88.86|Z|Dazar'alor|N|From Earthen Guardian, after getting your necklace to 55.|PRE|56161|LEAD|55519|  ; pre is Back out to Sea--from Najzatar guide
-P Silithus|ACTIVE|55522|M|73.80,85.65|Z|The Great Seal!Dazar'alor|N|Take the portal to Silithus.|
+P Silithus|ACTIVE|55522|M|73.80,85.65|Z|The Great Seal!Dazar'alor|TZ|Magni's Encampment|N|Take the portal to Silithus.|
 T Return to the Heart|QID|55522|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|To Magni Bronzebeard, inside the Chamber of Heart.|
-A A Fresh Trauma|QID|55519|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|55522| ; dont think you have to have 55522 done, as I did this one, but not 55522, which I can't get anymore
-A In Darkness, I Dream|QID|55390|M|52.55,70.05|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos, after getting your necklace to 54.|PRE|56161|;pre is Back out to Sea--from Najzatar guide
-P Orgrimmar|ACTIVE|55390|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Return to Zuldazar, and then take Portal to Orgrimmar.|
+A A Fresh Trauma|QID|55519|M|50.17,59.20|Z|Chamber of Heart!Dungeon1473|N|From Magni Bronzebeard.|PRE|56161| ; removed 55522, changed to 56161 - unconfirmed PRE, but 55522 is not needed.
+A In Darkness, I Dream|QID|55390|M|52.55,70.05|Z|Chamber of Heart!Dungeon1473|N|From Kalecgos, after getting your necklace to 54.|PRE|56161|  ; pre is Back out to Sea--from Najzatar guide
+P Zuldazar|ACTIVE|55390|M|41.60,45.19|Z|Silithus|TZ|Dazar'alor|N|Return to Zuldazar.|
+P Orgrimmar|ACTIVE|55390|M|73.85,69.81|Z|The Great Seal!Dazar'alor|N|Take Portal to Orgrimmar.|
 P Azsuna|ACTIVE|55390|M|58.87,89.54|Z|Orgrimmar|N|Take the Portal to Azsuna.|
 F Garden of the Moon|ACTIVE|55390|M|44.60,43.86|Z|Azsuna|N|At Izal Whitemoon.|
 T In Darkness, I Dream|QID|55390|M|51.61,57.22|Z|Val'sharah|N|To Merithra of the Dream, in the Temple of Elune, in Val'Sharah.|

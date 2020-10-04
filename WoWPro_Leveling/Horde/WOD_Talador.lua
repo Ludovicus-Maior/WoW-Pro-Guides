@@ -165,7 +165,7 @@ T Pyrophobia|QID|33578|M|77.75,43.96|N|To Raksi.|RANK|2|
 A What the Draenei Found|QID|33579|PRE|33578|M|77.75,43.96|N|From Raksi.|RANK|2|
 C Pieces of Us|QID|33734|NC|QO|2|M|77.92,42.97|RANK|2|N|Pick up Melani's Doll.|
 C Pieces of Us|QID|33734|NC|QO|1|M|77.53,41.24|N|After you find this follow the mine cart tracks to the cave to see what the draenei found.|RANK|2|
-l Iron Scout|QID|33649|CHAT|M|75.06,36.08|L|$824|ITEM|$824|N|Before you go into the cave (because you will be teleported out), there is a scout lying on the ground over here that you can rifle the body for some garrison resources.|RANK|2|
+l Iron Scout|QID|33649|CHAT|M|75.06,36.08|L|$824|N|Before you go into the cave (because you will be teleported out), there is a scout lying on the ground over here that you can rifle the body for some garrison resources.|RANK|2|
 C Burning Sky|QID|33740|M|78.13,36.50|US|RANK|2|N|Finishing killing what you need.|
 C Barum's Notes|QID|33761|NC|US|M|78.13,36.50|RANK|2|N|Finish finding the crystals if you haven;t already.|
 l Aruuna Mining Cart|QID|34260|L|109118|ITEM|109118|M|81.22,37.57;81.9,35|CS|N|Into the cave and thru the first small room.  Go to the right in the larger room and then drop down (or run down the fallen stone "ramp") to find the mining cart to loot for a bit of blackrock ore.|RANK|2|
