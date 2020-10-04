@@ -72,12 +72,12 @@ A The Plaguebringer's Request|QID|12716|PRE|12714|N|From Noth the Plaguebringer.
 T The Crypt of Remembrance|QID|12715|N|To Prince Keleseth.|M|54.3,57.3|
 A Nowhere To Run And Nowhere To Hide|QID|12719|PRE|12715|M|54.3,57.3|N|From Prince Keleseth.|
 A Lambs To The Slaughter|QID|12722|PRE|12715|N|From Baron Rivendare.|M|54.7,57.4|
-C Lambs To The Slaughter|QID|12722|N|Kill Scarlet Crusade Soldiers and Citazens of New Avalon until you are done.|S|
+C Lambs To The Slaughter|QID|12722|N|Kill Scarlet Crusade Soldiers and Citizens of New Avalon until you are done.|S|
 l Get the Empty Cauldron|QID|12716|QO|1|N|Get out of the crypt and go southeast to New Avalon. On your left-hand side you will see the New Avalon Inn. The Empty Cauldron is in the basement.|M|57.80,61.86|
 l Get the Iron Chain|QID|12716|QO|2|N|Northeast of the inn you'll find the New Avalon Forge.|M|61.99,60.24|
 C Nowhere To Run And Nowhere To Hide|QID|12719|N|Mount up and ride southwest to the New Avalon Town Hall. Go inside, Kill Mayor Quimby and loot the [New Avalon Registry].|M|52.50,72.03|
 C The Plaguebringer's Request|QID|12716|QO|3|N|You can get the [Crusader Skull]'s from any New Avalon resident you kill.|M|57.8,61.8|
-C Lambs To The Slaughter|QID|12722|N|Kill Scarlet Crusade Soldiers and Citazens of New Avalon until you are done.|US|
+C Lambs To The Slaughter|QID|12722|N|Kill Scarlet Crusade Soldiers and Citizens of New Avalon until you are done.|US|
 T The Plaguebringer's Request|QID|12716|N|To Noth the Plaguebringer in Havenshire Farms.|M|55.9,52.4|
 A Noth's Special Brew|QID|12717|PRE|12716|M|55.9,52.4|N|From Noth the Plaguebringer.|
 T Noth's Special Brew|QID|12717|N|To the Plague Cauldron.|M|56.1,52.1|
@@ -100,18 +100,18 @@ T Bloody Breakout|QID|12727|M|56.3,80.2|N|To Thassarian.|
 A A Cry For Vengeance!|QID|12738|PRE|12727|M|56.3,80.2|N|From Thassarian.|
 T A Cry For Vengeance!|QID|12738|N|To the east in the Chapel of the Crimson Flame. Turn the quest into Knight Commander Plaguefist.|M|52.9,81.5|
 A A Special Surprise|QID|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|PRE|12738|N|From Put your ghoul on passive mode (if you have one), if you have one.|M|52.9,81.5|
-C A Special Surprise|QID|12742|R|Human|N|Put your ghoul on passive mode (if you have one), listen to Ellen Stanbridge's speach and kill her.|M|54.6,83.7|
-C A Special Surprise|QID|12743|R|Night Elf|N|Put your ghoul on passive mode (if you have one), listen to Yazmina Oakenthorn's speach and kill her.|M|54.3,83.8|
-C A Special Surprise|QID|12744|R|Dwarf|N|Put your ghoul on passive mode (if you have one), listen to Donovan Pulfrost's speach and kill him.|M|54.1,83.5|
-C A Special Surprise|QID|12745|R|Gnome|N|Put your ghoul on passive mode (if you have one), listen to Goby Blastenheimer's speach and kill him.|M|54.9,83.7|
-C A Special Surprise|QID|12746|R|Draenei|N|Put your ghoul on passive mode (if you have one), listen to Valok the Righteous' speach and kill him.|M|54.5,83.5|
-C A Special Surprise|QID|28649|R|Worgen|N|Put your ghoul on passive mode (if you have one), listen to Lord Haraford's speach and kill him.|M|54.5,83.4|
+C A Special Surprise|QID|12742|R|Human|N|Put your ghoul on passive mode (if you have one), listen to Ellen Stanbridge's speech and kill her.|M|54.6,83.7|
+C A Special Surprise|QID|12743|R|Night Elf|N|Put your ghoul on passive mode (if you have one), listen to Yazmina Oakenthorn's speech and kill her.|M|54.3,83.8|
+C A Special Surprise|QID|12744|R|Dwarf|N|Put your ghoul on passive mode (if you have one), listen to Donovan Pulfrost's speech and kill him.|M|54.1,83.5|
+C A Special Surprise|QID|12745|R|Gnome|N|Put your ghoul on passive mode (if you have one), listen to Goby Blastenheimer's speech and kill him.|M|54.9,83.7|
+C A Special Surprise|QID|12746|R|Draenei|N|Put your ghoul on passive mode (if you have one), listen to Valok the Righteous' speech and kill him.|M|54.5,83.5|
+C A Special Surprise|QID|28649|R|Worgen|N|Put your ghoul on passive mode (if you have one), listen to Lord Haraford's speech and kill him.|M|54.5,83.4|
 C A Special Surprise|QID|12739|R|Tauren|N|Put your ghoul on passive mode (if you have one), listen to Malar Bravehorn's speech and kill him.|M|54.51,83.86|
 C A Special Surprise|QID|12747|R|Blood Elf|N|Put your ghoul on passive mode (if you have one), listen to Lady Eonys' speech and kill her.|M|54.28,83.31|
 C A Special Surprise|QID|12748|R|Orc|N|Put your ghoul on passive mode (if you have one), listen to Kug Ironjaw's speech and kill him.|M|53.77,83.28|
 C A Special Surprise|QID|12749|R|Troll|N|Put your ghoul on passive mode (if you have one), listen to Iggy Darktusk's speech and kill him.|M|53.81,83.75|
 C A Special Surprise|QID|12750|R|Undead|N|Put your ghoul on passive mode (if you have one), listen to Antoine Brack's speech and kill him.|M|53.54,83.31|
-C A Special Surprise|QID|28650|R|Goblin|N|Put your ghoul on passive mode (if you have one), listen toGally Lumpstain's speech and kill her.|M|53.54,83.6|
+C A Special Surprise|QID|28650|R|Goblin|N|Put your ghoul on passive mode (if you have one), listen to Gally Lumpstain's speech and kill her.|M|53.54,83.6|
 T A Special Surprise|QID|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|N|To Knight Commander Plaguefist.|M|52.9,81.5|
 A A Sort Of Homecoming|QID|12751|PRE|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|M|52.9,81.5|N|From Knight Commander Plaguefist.|
 T A Sort Of Homecoming|QID|12751|N|To Thassarian.|M|56.3,80.2|
@@ -145,7 +145,7 @@ T Where Kings Walk|QID|13188|Z|Stormwind City|M|85.6,31.8|N|To King Anduin Wrynn
 A Saurfang's Blessing|QID|13189|PRE|13166|FACTION|Horde|M|83.4,49.4|N|From Highlord Darion Mograine.|
 P Durotar|QID|13189|M|84.58,50.49|Z|Eastern Plaguelands|N|Click on the portal to go to Orgrimmar.|FACTION|Horde|
 T Saurfang's Blessing|QID|13189|Z|Orgrimmar|M|48.14,70.56|N|To High Overlord Saurfang.|FACTION|Horde|
-N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|
-N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|
+N It's Chromie Time!|QID|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Alliance|
+N It's Chromie Time!|QID|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|LVL|10|N|You can now accept Chromie's Call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in.\n\nClick the guide button next to this frame to direct you to Chromie!|FACTION|Horde|
 ]]
 end)
