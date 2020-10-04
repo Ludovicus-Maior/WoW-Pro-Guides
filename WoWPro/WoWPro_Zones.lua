@@ -197,13 +197,13 @@ function WoWPro.DebugZones()
 end
 
 local MapType2Name = {
-    [UIMapType.Cosmic] = "Enum.UIMapType.Cosmic",
-    [UIMapType.World] = "Enum.UIMapType.World",
-    [UIMapType.Continent] = "Enum.UIMapType.Continent",
-    [UIMapType.Zone] = "Enum.UIMapType.Zone",
-    [UIMapType.Dungeon] = "Enum.UIMapType.Dungeon",
-    [UIMapType.Micro] = "Enum.UIMapType.Micro",
-    [UIMapType.Orphan] = "Enum.UIMapType.Orphan",
+    [UIMapType.Cosmic] = "UIMapType.Cosmic",
+    [UIMapType.World] = "UIMapType.World",
+    [UIMapType.Continent] = "UIMapType.Continent",
+    [UIMapType.Zone] = "UIMapType.Zone",
+    [UIMapType.Dungeon] = "UIMapType.Dungeon",
+    [UIMapType.Micro] = "IMapType.Micro",
+    [UIMapType.Orphan] = "UIMapType.Orphan",
 }
 
 function WoWPro.EmitZones(release)
