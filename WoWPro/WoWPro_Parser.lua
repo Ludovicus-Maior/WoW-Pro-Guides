@@ -334,6 +334,7 @@ DefineTag("GEN","playergender","string",nil,nil)
 DefineTag("RANK","rank","number",nil,nil)
 DefineTag("COV","covenant","string",nil,nil)
 DefineTag("MS",nil,"boolean",nil,function (value,i) end)  -- Swallow MS Tags
+DefineTag("CT","chromie","boolean",nil,nil)
 
 local function addTagValue(line, tag, value)
     line = line..tag.."||"
@@ -805,7 +806,6 @@ function WoWPro.ParseSteps(steps)
         local text = steps[j]
         text = text:trim()
         if text ~= "" then
-            local tof = false
 			local class, race, covenant  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|COV|([^|]*)|?")
             local gender, faction, ms = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|")
             if class then
@@ -813,9 +813,10 @@ function WoWPro.ParseSteps(steps)
                 class = class:gsub(" ", ""):upper()
             end
 			-- If Threads of Fate is completed, you don't see |MS| tagged steps
-			if ms and _G.C_QuestLog.IsQuestFlaggedCompleted(62716) then
-				tof = true
+			if ms and not _G.C_QuestLog.IsQuestFlaggedCompleted(62716) then
+				ms = false
 			end
+
             if race then
                 -- deleting whitespaces to compare with Blizzard's race tokens
                 race = race:gsub(" ", "")
@@ -868,7 +869,7 @@ function WoWPro.ParseSteps(steps)
                (race == nil or WoWPro.SemiMatch(race, myrace))  and
 			   (covenant == nil or covenant == _G.C_Covenants.GetActiveCovenantID()) and
                (gender == nil or gender == _G.UnitSex("player")) and
-               (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) and not tof then
+               (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) and not ms then
                 if WoWPro.ParseQuestLine(faction, zone, i, text) then
                     WoWPro.RecordStuff(i)
                     i = i + 1

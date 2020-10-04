@@ -202,7 +202,7 @@ local MapType2Name = {
     [UIMapType.Continent] = "UIMapType.Continent",
     [UIMapType.Zone] = "UIMapType.Zone",
     [UIMapType.Dungeon] = "UIMapType.Dungeon",
-    [UIMapType.Micro] = "IMapType.Micro",
+    [UIMapType.Micro] = "UIMapType.Micro",
     [UIMapType.Orphan] = "UIMapType.Orphan",
 }
 

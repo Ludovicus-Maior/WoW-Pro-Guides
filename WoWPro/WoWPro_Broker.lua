@@ -2491,6 +2491,17 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
+			if WoWPro.chromie and WoWPro.chromie[guideIndex] then
+				if _G.C_PlayerInfo.CanPlayerEnterChromieTime() then
+					WoWPro:dbp("Player can enter Chromie Time")
+                else
+                    local why = ("Skipping because character can't enter chromie time")
+                    WoWPro.CompleteStep(guideIndex, why)
+                    skip = true
+                    WoWPro:dbp(why)
+                end
+            end
+
             if WoWPro.fly and WoWPro.fly[guideIndex] then
                 if WoWProCharDB.EnableFlight or stepAction == "R" or stepAction == "N" then
                     local expansion = WoWPro.fly[guideIndex]
