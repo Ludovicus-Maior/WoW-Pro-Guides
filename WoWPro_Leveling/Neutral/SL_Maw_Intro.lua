@@ -15,7 +15,7 @@ C A Chilling Summons|QID|60545|M|77.07,42.10|Z|Stormwind City|QO|2|NC|N|Enter th
 C A Chilling Summons|QID|60545^61874|M|59.78,19.86|Z|Lower Acherus@Icecrown Citadel!Dungeon1681|QO|3|NC|N|Run toward Icecrown Citadel and click on the teleporter to the Frozen Throne.|
 T A Chilling Summons|QID|60545^61874|M|50.85,53.86|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|N|To Highlord Bolvar Fordragon.|
 A Through the Shattered Sky|QID|59751|M|50.88,53.86|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|N|From Highlord Bolvar Fordragon.|PRE|60545^61874|LVL|50|
-C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|1|N|Hear Bolvar's instructions.|
+C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|1|NC|N|Hear Bolvar's instructions.|
 N First Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|2|NC|N|Click on the First Shard of Domination.|BUFF|329185|
 C Through the Shattered Sky|QID|59751|M|54.87,44.81|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|2|NC|N|Place the shard above the rune.|
 N Second Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|3|NC|N|Click on the Second Shard of Domination.|BUFF|329254|
@@ -24,7 +24,7 @@ N Third Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecr
 C Through the Shattered Sky|QID|59751|M|45.19,59.38|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|4|NC|N|Place the shard above the rune.|
 N Fourth Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|5|NC|N|Click on the Fourth Shard of Domination.|BUFF|329257|
 C Through the Shattered Sky|QID|59751|M|45.05,45.11|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|5|NC|N|Place the shard above the rune.|
-C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|6|N|Grab the final shard from the middle and stand still to complete the ritual.|
+C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|6|NC|N|Grab the final shard from the middle and stand still to complete the ritual.|
 T Through the Shattered Sky|QID|59751|M|19.31,57.22|Z|1648|N|To Highlord Darion Mograine.|
 A A Fractured Blade|QID|59752|M|PLAYER|Z|The Maw!Instance|N|From Highlord Darion Mograine.|PRE|59751|LVL|50|
 A Mawsworn Menace|QID|59907|M|19.31,57.22|Z|The Maw!Instance|N|From Highlord Darion Mograine.|PRE|59751|LVL|50|
@@ -34,7 +34,6 @@ A Ruiner's End|QID|59753|M|22.96,51.99|Z|The Maw!Instance|N|From Wilona Thorne.|
 C A Fractured Blade|QID|59752|M|22.57,49.31|Z|The Maw!Instance|NC|US|N|Rally the Knights of the Ebon Blade.|
 C Ruiner's End|QID|59753|M|19.35,46.24|Z|The Maw!Instance|QO|1|N|Ruiner Maroth slain.|
 C Mawsworn Menace|QID|59907|M|22.57,49.31|Z|The Maw!Instance|US|N|Kill the Mawsworn forces in the area.|
-C Ruiner's End|QID|59753|M|21.54,41.94|Z|The Maw!Instance|QO|2|N|Regroup with Mograine.|
 T A Fractured Blade|QID|59752|M|21.50,41.98|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
 T Mawsworn Menace|QID|59907|M|21.50,41.98|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
 T Ruiner's End|QID|59753|M|21.50,41.98|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
@@ -67,7 +66,7 @@ A The Lion's Cage|QID|59759|M|24.47,36.20|Z|The Maw!Instance|N|From Lady Jaina P
 R Calcis|ACTIVE|59759|CS|M|25.51,29.83|Z|The Maw!Instance|N|Run out the cave and up the road to your left.|
 R Ruin's Cradle|ACTIVE|59759|CS|M|24.27,25.01|Z|The Maw!Instance|N|Make your way to the bridge.|
 C The Lion's Cage|QID|59759|CS|M|27.52,17.47|Z|The Maw!Instance|QO|1|NC|N|Take the teleport pad on to reach the Upper Tremaculum.|
-C The Lion's Cage|QID|59759|M|25.88,14.98|Z|The Maw!Instance|QO|2|NC|N|Find Anduin.|
+C The Lion's Cage|QID|59759|M|25.88,14.98|Z|The Maw!Instance|QO|2|NC|N|Pause a moment behind the 3 cages, for the update that you have found Anduin.|
 C The Lion's Cage|QID|59759|M|25.88,14.98|Z|The Maw!Instance|QO|3|CHAT|N|Speak to Jaina.|
 T The Lion's Cage|QID|59759|M|25.09,13.48|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A The Afflictor's Key|QID|59760|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin Wrynn.|PRE|59759|LVL|50|
@@ -98,7 +97,7 @@ C Draw Out the Darkness|QID|60644|M|29.56,43.86|Z|The Maw!Instance|N|Draw out an
 T Draw Out the Darkness|QID|60644|M|29.56,43.86|Z|The Maw!Instance|N|To Baine Bloodhoof.|
 A The Path to Salvation|QID|59767|M|29.56,43.86|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|60644|LVL|50|
 C The Path to Salvation|QID|59767|M|31.80,44.35|Z|The Maw!Instance|QO|1|CHAT|N|Speak to Jaina.|
-C The Path to Salvation|QID|59767|M|42.67,42.18|Z|The Maw!Instance|QO|2|NC|N|Stay cloas to Jaina and avoid the Jailer's Forces while in stealth.|
+C The Path to Salvation|QID|59767|M|42.67,42.18|Z|The Maw!Instance|QO|2|NC|N|Stay close to Jaina and avoid the Jailer's forces while in stealth.|
 C The Path to Salvation|QID|59767|M|42.16,42.14|Z|The Maw!Instance|QO|3|NC|N|Reach the Eroded Waygate.|
 T The Path to Salvation|QID|59767|M|42.47,42.18|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A Stand as One|QID|59770|M|42.47,42.23|Z|The Maw!Instance|N|From Anduin Wrynn.|PRE|59767|LVL|50|
@@ -106,9 +105,9 @@ C Stand as One 1|QID|59770|M|42.47,42.23|Z|The Maw!Instance|QO|1|NC|N|Touch the 
 C Stand as One 2|QID|59770|M|42.38,42.18|Z|The Maw!Instance|QO|2|N|Survive the Jailer's Onslaught.|
 T Stand as One|QID|59770|M|42.38,42.16|Z|The Maw!Instance|N|To Eroded Waystone.|
 ;don't know about this... but I couldnt progress -- or even move until i did this, but that may be a beta only/first char only?
-;A The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|From Fatescribe Roh-Tahl.|PRE|62939&59770|
-;C The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|Choose whether you want to move thru the main story line and delay picking a covenant or skip the main storyline and pick a covenant sooner.|
-;T The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|To Fatescribe Roh-Tahl.|
+A The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|From Fatescribe Roh-Tahl.|PRE|62939&59770|
+C The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|Choose whether you want to move thru the main story line and delay picking a covenant or skip the main storyline and pick a covenant sooner.|
+T The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|To Fatescribe Roh-Tahl.|
 A Stranger in an Even Stranger Land|QID|60129|M|19.25,50.31|Z|Ring of Fates@Oribos|N|Auto Accepted.|PRE|59770|;pre for threads of fate too?
 C Stranger in an Even Stranger Land|QID|60129|M|23.82,49.71|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Talk to Protector Captain.|MS|
 C Stranger in an Even Stranger Land|QID|60129|M|39.89,66.46|Z|Ring of Fates@Oribos|QO|2|NC|N|Follow Protector Captain.|MS|
@@ -133,20 +132,20 @@ C A Doorway Through the Veil|QID|60151|M|21.65,50.53|Z|Ring of Fates@Oribos|QO|2
 C A Doorway Through the Veil|QID|60151|M|21.65,50.53|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak to the Ebon Blade Acolyte.|MS|
 T A Doorway Through the Veil|QID|60151|M|40.29,66.53|Z|Ring of Fates@Oribos|N|To Overseer Kah-Sher.|MS|
 A The Eternal City|QID|60152|M|40.29,66.53|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|60151|MS|
-C The Eternal City|QID|60152|M|64.39,68.31|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to Overseer Ta'readon.|MS|
-C The Eternal City|QID|60152|M|67.21,50.29|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Speak to Host Ta'rela.|MS|
-C The Eternal City|QID|60152|M|78.93,49.16|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak to the Fatescribe.|MS|
-C The Eternal City|QID|60152|M|60.63,31.32|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak to Caretaker Kah-Rahm.|MS|
-C The Eternal City|QID|60152|M|40.33,32.63|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak to Foreman Au'brak.|MS|
+C Overseer Ta'readon|QID|60152|M|64.39,68.31|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to Overseer Ta'readon.|MS|
+C Host Ta'rela|QID|60152|M|67.21,50.29|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Speak to Host Ta'rela, the innkeeper.|MS|
+C Fatescribe Roh-Tahl|QID|60152|M|78.93,49.16|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak to the Fatescribe.|MS|
+C Caretaker Kah-Rahm|QID|60152|M|60.63,31.32|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak to Caretaker Kah-Rahm at the bank.|MS|
+C Foreman Au'brak|QID|60152|M|40.33,32.63|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak to Foreman Au'brak in the tradeskill area.|MS|
 C The Eternal City|QID|60152|M|39.88,66.44|Z|Ring of Fates@Oribos|QO|6|CHAT|N|Return to the Enclave.|MS|
 T The Eternal City|QID|60152|M|39.88,66.40|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
 A Understanding the Shadowlands|QID|60154|M|40.30,64.97|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|PRE|60152|MS|
 C Understanding the Shadowlands|QID|60154|M|40.81,65.88|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to Tal-Inara.|MS|
-C Understanding the Shadowlands|QID|60154|M|40.34,66.61|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak to Kah-Sher.|MS|
+C Understanding the Shadowlands|QID|60154|M|40.34,66.61|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Tell Kah-Sher you will go.|MS|
 C Understanding the Shadowlands|QID|60154|M|52.08,57.89|Z|Ring of Fates@Oribos|QO|3|NC|N|Take the Transport Pad to the Ring of Transference.|MS|
 T Understanding the Shadowlands|QID|60154|M|50.50,61.98|Z|Ring of Transference@Oribos||N|To Overseer Kah-Sher.|MS|
 A The Path to Bastion|QID|60156|M|50.50,61.98|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|60154|MS|
-C The Path to Bastion|QID|60156|M|64.56,53.54|Z|Ring of Transference@Oribos|QO|1|N|Follow Kah-Sher to the gate.|MS|
+C The Path to Bastion|QID|60156|M|64.56,53.54|Z|Ring of Transference@Oribos|QO|1|NC|N|Follow Kah-Sher to the gate.|MS|
 C The Path to Bastion|QID|60156|M|63.86,51.55|Z|Ring of Transference@Oribos|QO|2|NC|N|Click the Blue Sword in front of you.|MS|
 T The Path to Bastion|QID|60156|M|64.49,53.52|Z|Ring of Transference@Oribos|N|To Overseer Kah-Sher.|MS|
 f Oribos|ACTIVE|60154|M|64.21,49.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|MS|
