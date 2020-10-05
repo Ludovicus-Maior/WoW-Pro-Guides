@@ -268,22 +268,68 @@ R Veiled Enclave|ACTIVE|58530|M|51.43,31.67|Z|Bastion!The Shadowlands|N|Make you
 C Hidden Mirror|QID|58530|M|49.54,30.31|Z|Bastion!The Shadowlands|U|180356|NC|N|Run near the red pool and use Laurent's Compact Looking Glass to reveal the Hidden Mirror.|
 T Hidden Mirror|QID|58530|M|49.66,30.16|Z|Bastion!The Shadowlands|N|To General Draven.|
 A A Tense Reunion|QID|58555|PRE|58530|M|49.66,30.16|Z|Bastion!The Shadowlands|N|From General Draven.|PRE|58530|
+C A Tense Reunion|QID|58555|M|50.38,22.53|Z|Bastion!The Shadowlands|NC|N|Run toward The Eternal Forge.|
+T A Tense Reunion|QID|58555|M|50.09,20.71|Z|Bastion!The Shadowlands|N|To General Draven.|
+A Right our Wrongs|QID|58584|PRE|58555|M|50.09,20.71|Z|Bastion!The Shadowlands|N|From General Draven.|
+A No Friend of Mine|QID|58585|PRE|58555|M|50.11,20.54|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+A The Right Stuff|QID|58586|PRE|58555|M|50.11,20.54|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+C Right our Wrongs|QID|58584|M|50.13,20.34|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Speak to Theotar.|
+C Right our Wrongs|QID|58584|M|51.63,17.91|Z|Bastion!The Shadowlands|U|174465|QO|2|NC|N|Look for red pools around, Theotar will disenchant them to allow you to click and destroy the Anima Siphons.|S|
+C The Right Stuff|QID|58586|M|51.99,18.39|Z|Bastion!The Shadowlands|N|Kill enemies around the are to get them to drop Tainted Centurion Component. Once you have it, use it to smelt the bodies right there and collect the metal.|S|
+C No Friend of Mine|QID|58585|M|52.95,15.27|Z|Bastion!The Shadowlands|N|Kill Famos and loot Mikanikos's Tool Chest.|T|Famos|
+C The Right Stuff|QID|58586|M|51.99,18.39|Z|Bastion!The Shadowlands|N|Kill enemies around the are to get them to drop Tainted Centurion Component. Once you have it, use it to smelt the bodies right there and collect the metal.|US|
+C Right our Wrongs|QID|58584|M|51.63,17.91|Z|Bastion!The Shadowlands|U|174465|QO|2|NC|N|Look for red pools around, Theotar will disenchant them to allow you to click and destroy the Anima Siphons.|US|
+T Right our Wrongs|QID|58584|M|50.09,20.71|Z|Bastion!The Shadowlands|N|To General Draven.|
+T No Friend of Mine|QID|58585|M|50.11,20.54|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+T The Right Stuff|QID|58586|M|50.11,20.54|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+A A Perfect Circle|QID|58600|PRE|58585&58586&58584|M|50.13,20.48|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+A Phaestus, Genesis of Aeons|QID|58603|PRE|58585&58586&58584|M|50.13,20.48|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+C Phaestus, Genesis of Aeons|QID|58603|M|49.00,15.56|Z|Bastion!The Shadowlands|N|Kill Overseer Atticus and loot Phaestus, Genesis of Aeons.|
+C A Perfect Circle|QID|58600|M|50.07,15.06|Z|Bastion!The Shadowlands|NC|N|Click on chests in the room until you find the Perfected Circlet Mold.| ; not sure if this changes, coords is at the chest I found it in.
+T A Perfect Circle|QID|58600|M|50.13,20.48|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+T Phaestus, Genesis of Aeons|QID|58603|M|50.13,20.48|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+A Crown of the Harvesters|QID|58630|PRE|58600&58603|M|50.13,20.48|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+C Crown of the Harvesters|QID|58630|M|51.46,18.46|Z|Bastion!The Shadowlands|QO|1|NC|N|Click the forge to begin the Forging process.|
+C Crown of the Harvesters|QID|58630|M|51.45,18.48|Z|Bastion!The Shadowlands|QO|2|NC|N|Wait for the Crown of the Harvesters to be created.|
+T Crown of the Harvesters|QID|58630|M|51.43,18.45|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+A Heavy is the Head...|QID|58656|PRE|58630|M|51.43,18.45|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+C Heavy is the Head...|QID|58656|M|51.46,18.45|Z|Bastion!The Shadowlands|QO|1|NC|N|Click on the Crown of the Harvesters sitting atop the anvil.|
+C Testing the Crown|QID|58656|M|52.08,14.35|Z|Bastion!The Shadowlands|QO|2|NC|N|Kill enemies around with your new abilities.\n\n1: Cone Damage\n\n2:Damage over Time\n\n3:Dash, Speed & Trample damage.|S|
+C Heavy is the Head...|QID|58656|M|53.14,16.70|Z|Bastion!The Shadowlands|QO|3|N|Kill the Eastern Colossus.|
+C Heavy is the Head...|QID|58656|M|51.07,15.41|Z|Bastion!The Shadowlands|QO|4|N|Kill the Northern Colossus.|
+C Heavy is the Head...|QID|58656|M|49.11,15.49|Z|Bastion!The Shadowlands|QO|5|N|Kill the Western Colossus.|
+C Testing the Crown|QID|58656|M|52.08,14.35|Z|Bastion!The Shadowlands|QO|2|NC|N|Kill enemies around with your new abilities.\n\n1: Cone Damage\n\n2:Damage over Time\n\n3:Dash, Speed & Trample damage.|US|
+T Heavy is the Head...|QID|58656|M|50.09,20.71|Z|Bastion!The Shadowlands|N|To General Draven.|
+A Citadel of Loyalty|QID|60993|PRE|58656|M|50.11,20.54|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+C Citadel of Loyalty|QID|60993|M|24.36,29.91|Z|Bastion!The Shadowlands|QO|1|NC|N|Make your way to the Citadel of Loyalty. It's a long run but pretty direct, just stay on the road.|
+T Citadel of Loyalty|QID|60993|M|24.42,29.86|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+A Lowering Their Defenses|QID|60994|PRE|60993|M|24.42,29.86|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+A Disloyalty|QID|60995|PRE|60993|M|24.29,29.87|Z|Bastion!The Shadowlands|N|From General Draven.|
+C Disloyalty|QID|60995|M|24.49,24.18|Z|Bastion!The Shadowlands|N|Kill Citadel Forsworn enemies.|S|
+C Lowering Their Defenses|QID|60994|M|22.69,24.92|Z|Bastion!The Shadowlands|QO|1|NC|N|Drain the Southern Barrier Source.|
+C Lowering Their Defenses|QID|60994|M|24.42,24.01|Z|Bastion!The Shadowlands|QO|2|NC|N|Drain the Northern Barrier Source.|
+C Lowering Their Defenses|QID|60994|M|24.78,23.20|Z|Bastion!The Shadowlands|QO|3|NC|N|Drain the Eastern Barrier Source.|
+T Lowering Their Defenses|QID|60994|M|24.41,29.87|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+T Disloyalty|QID|60995|M|24.41,29.87|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+A Face Your Fears|QID|60996|PRE|60994&60995|M|24.28,29.68|Z|Bastion!The Shadowlands|N|From General Draven.|
+C Face Your Fears|QID|60996|M|21.07,22.87|Z|Bastion!The Shadowlands|QO|1|Chat|N|Speak with Draven for a lift up to the Temple of Loyalty.|
+C Face Your Fears|QID|60996|M|20.38,22.89|Z|Bastion!The Shadowlands|QO|2|NC|N|Step into the blue pool and use the Action Button "[color=40C7EB]Blessing of Loyalty[/color]" to purify the Crown of the Harvesters.|EAB|
+C Face Your Fears|QID|60996|M|20.48,22.88|Z|Bastion!The Shadowlands|QO|3|N|Kill the Echo of Denathrius.|
+T Face Your Fears|QID|60996|M|21.11,22.86|Z|Bastion!The Shadowlands|N|To General Draven.|
+A The Prince's New Crown|QID|59233|PRE|60996|M|21.11,22.86|Z|Bastion!The Shadowlands|N|From General Draven.|
+H Sinfall|ACTIVE|59233|M|PLAYER|Z|Bastion!The Shadowlands|N|Hearth back to Sinfall or get back there by any other means you have.|
+C The Prince's New Crown|QID|59233|M|21.12,22.87|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Speak to General Draven for a ride back down.|IZ|Bastion|
+F Sinfall|ACTIVE|59233|M|44.07,32.45|Z|Bastion!The Shadowlands|N|Head to the flightmaster and take a flight to Sinfall.|IZ|Bastion|
+T The Prince's New Crown|QID|59233|M|51.82,37.71|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+; Chapter 6
+A Confronting Sin|QID|61077|PRE|59233|M|51.77,37.55|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|
+P Sinfall|ACTIVE|61077|M|36.71,48.01|Z|Sinfall Reaches@Sinfall!Dungeon|N|Take the portal to Sinfall.|
+T Confronting Sin|QID|61077|M|56.09,78.57|Z|Sinfall Depths@Sinfall!Dungeon|N|To The Accuser.|
+A Someone Worth Saving|QID|58382|PRE|61077|M|56.09,78.57|Z|Sinfall Depths@Sinfall!Dungeon|N|From The Accuser.|
+C Someone Worth Saving|QID|58382|M|48.17,24.73|Z|Sinfall Depths@Sinfall!Dungeon|CHAT|N|Speak to the Sinfal Executors on both sides of Kael'thas Sunstrider to have him released.|
+T Someone Worth Saving|QID|58382|M|46.41,32.26|Z|Sinfall Depths@Sinfall!Dungeon|N|To The Accuser.|
+A The Many Sins of Kael'thas Sunstrider|QID|58383|PRE|58382|M|46.41,32.26|Z|Sinfall Depths@Sinfall!Dungeon|N|From Sinfall Executor.|
 
 
 

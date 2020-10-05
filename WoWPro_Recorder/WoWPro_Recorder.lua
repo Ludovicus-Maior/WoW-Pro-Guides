@@ -259,7 +259,8 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                                     QID = QID,
                                     map = mapxy,
                                     zone = zonetag,
-                                    noncombat = WoWPro.Recorder.FindText(WoWPro.QuestLog[QID].leaderBoard[idx]),
+									chat = WoWPro.Recorder.FindText("chat", WoWPro.QuestLog[QID].leaderBoard[idx]),
+                                    noncombat = WoWPro.Recorder.FindText("nc", WoWPro.QuestLog[QID].leaderBoard[idx]),
                                     use = WoWPro.QuestLog[QID].use,
                                     note = WoWPro.QuestLog[QID].leaderBoard[idx]:match("[^/%d%s].+")..".",
                                     questtext = tostring(idx),
@@ -277,18 +278,18 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
     end
 end
 
-function WoWPro.Recorder.FindText(objectiveText)
+function WoWPro.Recorder.FindText(otype, objectiveText)
 	objectiveText = objectiveText:lower()
 	if objectiveText:find("consulted", 1, true) then
-		return "CHAT|"
+		if otype == "chat" then return true end
 	elseif objectiveText:find("speak", 1, true) then
-		return "CHAT|"
+		if otype == "chat" then return true end
 	elseif objectiveText:find("slain", 1, true) then
 		return
 	elseif objectiveText:find("defeat", 1, true) then
 		return
-	else
-		return "NC|"
+	elseif otype == "nc" then
+		return true
 	end
 end
 
