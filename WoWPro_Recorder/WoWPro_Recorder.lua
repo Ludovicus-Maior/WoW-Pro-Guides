@@ -17,8 +17,8 @@ WoWPro.Recorder.Advanced = false
 WoWPro.Recorder.PREquest = nil
 WoWPro.Recorder.PrevStep = nil
 
-SLASH_WPR1 = "/wpr";
-function SlashCmdList.WPR(msg)
+_G.SLASH_WPR1 = "/wpr";
+function _G.SlashCmdList.WPR(msg)
 	WoWPro.Recorder:ToggleAdvanced()
 end
 
@@ -61,7 +61,7 @@ function WoWPro.Recorder:ToggleAdvanced()
 	else
 		WoWProCharDB.Advanced = true
 	end
-	ReloadUI();
+	_G.ReloadUI();
 end
 
 function WoWPro.Recorder:RegisterSavedGuides()
