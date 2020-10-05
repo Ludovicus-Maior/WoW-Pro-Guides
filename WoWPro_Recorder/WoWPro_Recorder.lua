@@ -16,6 +16,8 @@ WoWPro.Recorder.LoadingGuide = false
 WoWPro.Recorder.Advanced = false
 WoWPro.Recorder.PREquest = nil
 WoWPro.Recorder.PrevStep = nil
+WoWPro.Recorder.Flights = nil
+WoWPro.Recorder.Portals = nil
 
 _G.SLASH_WPR1 = "/wpr";
 function _G.SlashCmdList.WPR(msg)
@@ -139,7 +141,36 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
             WoWPro.Recorder.AddStep(stepInfo)
         end
         WoWPro:AutoCompleteSetHearth(event, ...)
-
+	elseif event == "PLAYER_CONTROL_GAINED" then
+		if WoWPro.Recorder.Flights  then
+			local subzone = _G.GetSubZoneText() or zonetag
+			local stepInfo = {
+				action = "F",
+				step = subzone,
+				active = WoWPro.Recorder.lastStep,
+				map = WoWPro.Recorder.Flights.map,
+				zone = WoWPro.Recorder.Flights.zone,
+				note = "Head to the flightmaster and take a flight to "..subzone.."."
+			}
+			WoWPro.Recorder:dbp("Adding F step location")
+			WoWPro.Recorder.AddStep(stepInfo)
+			WoWPro.Recorder.Flights = nil
+		end
+	elseif event == "NEW_WMO_CHUNK" then
+		if WoWPro.Recorder.Portals  then
+			local subzone = _G.GetSubZoneText() or zonetag
+			local stepInfo = {
+				action = "P",
+				step = subzone,
+				active = WoWPro.Recorder.lastStep,
+				map = WoWPro.Recorder.Portals.map,
+				zone = WoWPro.Recorder.Portals.zone,
+				note = "Take the portal to "..subzone.."."
+			}
+			WoWPro.Recorder:dbp("Adding P step location")
+			WoWPro.Recorder.AddStep(stepInfo)
+			WoWPro.Recorder.Portals = nil
+		end
     elseif event == "PLAYER_LEVEL_UP" then
         WoWPro.Recorder:dbp("PLAYER_LEVEL_UP detected.")
         local newLevel = ...
@@ -289,6 +320,48 @@ function WoWPro.Recorder.RunStep()
     }
      WoWPro.Recorder:dbp("Adding R step location")
      WoWPro.Recorder.AddStep(stepInfo)
+end
+
+function WoWPro.Recorder.FlightStep()
+    local GID = WoWProDB.char.currentguide
+    if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
+    WoWPro.Recorder:dbp("Flight Step Requested.")
+	local x, y = WoWPro:GetPlayerZonePosition()
+    local zonetag = WoWPro.GetZoneText()
+    if zonetag == WoWPro.Guides[GID].zone then
+        zonetag = nil
+    end
+    local mapxy = nil
+    if x and y then
+        mapxy = ("%.2f,%.2f"):format(x * 100, y * 100)
+    end
+
+    WoWPro.Recorder.Flights = {
+        map = mapxy,
+        zone = zonetag,
+    }
+     WoWPro.Recorder:dbp("Adding F step location")
+end
+
+function WoWPro.Recorder.PortalStep()
+    local GID = WoWProDB.char.currentguide
+    if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
+    WoWPro.Recorder:dbp("Portal Step Requested.")
+	local x, y = WoWPro:GetPlayerZonePosition()
+    local zonetag = WoWPro.GetZoneText()
+    if zonetag == WoWPro.Guides[GID].zone then
+        zonetag = nil
+    end
+    local mapxy = nil
+    if x and y then
+        mapxy = ("%.2f,%.2f"):format(x * 100, y * 100)
+    end
+
+    WoWPro.Recorder.Portals = {
+        map = mapxy,
+        zone = zonetag,
+    }
+     WoWPro.Recorder:dbp("Adding P step location")
 end
 
 
@@ -464,7 +537,7 @@ end
 
 
 function WoWPro.Recorder:RegisterEvents()
-    WoWPro.Recorder.events = {"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP"}
+    WoWPro.Recorder.events = {"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP", "PLAYER_CONTROL_GAINED", "NEW_WMO_CHUNK"}
 
     for _, event in pairs(WoWPro.Recorder.events) do
         WoWPro.RecorderFrame:RegisterEvent(event)

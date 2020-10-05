@@ -1300,13 +1300,29 @@ function WoWPro.Recorder:CreateRecorderFrame()
         })
         dialog:SetDefaultSize("WoWPro Recorder - Delete", 350, 250)
 
-		WoWPro.RunButton = CreateButton("Run", "Click to create a run step to your current location.", WoWPro.DeleteButton)
-		WoWPro.RunButton:SetScript("OnMouseUp", function(this, button)
+	WoWPro.RunButton = CreateButton("Run", "Click to create a run step to your current location.", WoWPro.DeleteButton)
+	WoWPro.RunButton:SetScript("OnMouseUp", function(this, button)
 		if button == "LeftButton" then
 			WoWPro.Recorder.RunStep()
         end
     end)
 	dialog:SetDefaultSize("WoWPro Recorder - Run", 300, 125)
+
+	WoWPro.FlightButton = CreateButton("Flight", "Click to create a Flight step at your flightmaster location. Step will finish processing after your flight is complete. ", WoWPro.RunButton)
+	WoWPro.FlightButton:SetScript("OnMouseUp", function(this, button)
+		if button == "LeftButton" then
+			WoWPro.Recorder.FlightStep()
+        end
+    end)
+	dialog:SetDefaultSize("WoWPro Recorder - Flight", 300, 125)
+
+	WoWPro.PortalButton = CreateButton("Portal", "Click to create a Portal step at your current location. Step will finish processing after you use your portal. ", WoWPro.FlightButton)
+	WoWPro.PortalButton:SetScript("OnMouseUp", function(this, button)
+		if button == "LeftButton" then
+			WoWPro.Recorder.PortalStep()
+        end
+    end)
+	dialog:SetDefaultSize("WoWPro Recorder - Portal", 300, 125)
 end
 
 -- Customizing Recorder Frame --
