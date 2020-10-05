@@ -334,6 +334,7 @@ DefineTag("GEN","playergender","string",nil,nil)
 DefineTag("RANK","rank","number",nil,nil)
 DefineTag("COV","covenant","string",nil,nil)
 DefineTag("MS",nil,"boolean",nil,function (value,i) end)  -- Swallow MS Tags
+DefineTag("TOF",nil,"boolean",nil,function (value,i) end)  -- Swallow MS Tags
 DefineTag("CT","chromie","boolean",nil,nil)
 
 local function addTagValue(line, tag, value)
@@ -807,7 +808,7 @@ function WoWPro.ParseSteps(steps)
         text = text:trim()
         if text ~= "" then
 			local class, race, covenant  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|COV|([^|]*)|?")
-            local gender, faction, ms = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|")
+            local gender, faction, ms, tof = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|"), text:find("|TOF|")
             if class then
                 -- deleting whitespaces and capitalizing, to compare with Blizzard's class tokens
                 class = class:gsub(" ", ""):upper()
@@ -815,6 +816,10 @@ function WoWPro.ParseSteps(steps)
 			-- If Threads of Fate is completed, you don't see |MS| tagged steps
 			if ms and not _G.C_QuestLog.IsQuestFlaggedCompleted(62716) then
 				ms = false
+			end
+
+			if tof and  _G.C_QuestLog.IsQuestFlaggedCompleted(62716) then
+				tof = false
 			end
 
             if race then
@@ -869,7 +874,7 @@ function WoWPro.ParseSteps(steps)
                (race == nil or WoWPro.SemiMatch(race, myrace))  and
 			   (covenant == nil or covenant == _G.C_Covenants.GetActiveCovenantID()) and
                (gender == nil or gender == _G.UnitSex("player")) and
-               (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) and not ms then
+               (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) and not ms and not tof then
                 if WoWPro.ParseQuestLine(faction, zone, i, text) then
                     WoWPro.RecordStuff(i)
                     i = i + 1

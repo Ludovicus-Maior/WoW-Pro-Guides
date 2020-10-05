@@ -17,12 +17,20 @@ WoWPro.Recorder.Advanced = false
 WoWPro.Recorder.PREquest = nil
 WoWPro.Recorder.PrevStep = nil
 
+_G.SLASH_WPR1 = "/wpr";
+function _G.SlashCmdList.WPR(msg)
+	WoWPro.Recorder:ToggleAdvanced()
+end
+
 function WoWPro.Recorder:OnInitialize()
 -- Creating the config options --
 --  WoWPro.Recorder:CreateConfig()
 end
 
 function WoWPro.Recorder:OnEnable()
+	if WoWProCharDB then
+		WoWPro.Recorder.Advanced = WoWProCharDB.Advanced or false
+	end
     --Loading Frames--
     if not WoWPro.Recorder.FramesLoaded then --First time the addon has been enabled since UI Load
         WoWPro.Recorder:CreateRecorderFrame()
@@ -33,7 +41,6 @@ function WoWPro.Recorder:OnEnable()
     -- Creating empty user settings if none exist
     WoWPro_RecorderDB = WoWPro_RecorderDB or {}
     WoWPro.Recorder.CurrentGuide = WoWPro.Recorder.CurrentGuide or {}
-
     WoWPro.Recorder:CustomizeFrames()
     WoWPro.Recorder:RegisterEvents()
     WoWPro.Recorder:RegisterSavedGuides()
@@ -46,6 +53,15 @@ function WoWPro.Recorder:OnDisable()
     for _, event in ipairs(events) do
         WoWPro.GuideFrame:UnregisterEvent(event)
     end
+end
+
+function WoWPro.Recorder:ToggleAdvanced()
+	if WoWProCharDB.Advanced then
+		WoWProCharDB.Advanced = false
+	else
+		WoWProCharDB.Advanced = true
+	end
+	_G.ReloadUI();
 end
 
 function WoWPro.Recorder:RegisterSavedGuides()
