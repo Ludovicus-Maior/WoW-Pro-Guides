@@ -356,8 +356,8 @@ function WoWPro.DistanceBetweenSteps(i,j)
     local iy = tonumber(icoord:match(",([^|]*)"))/100
     local jx = tonumber(jcoord:match("([^|]*),"))/100
     local jy = tonumber(jcoord:match(",([^|]*)"))/100
-    local im = WoWPro:ValidZone(WoWPro.zone[i])
-    local jm = WoWPro:ValidZone(WoWPro.zone[j])
+    local _, im = WoWPro:ValidZone(WoWPro.zone[i])
+    local _, jm = WoWPro:ValidZone(WoWPro.zone[j])
 
     local distance = WoWPro.HBD:GetZoneDistance(im,ix,iy, jm,jx,jy) or 1e198
     WoWPro:dbp("Dx %s(%2.2f,%2.2f,%d) and %s(%2.2f,%2.2f,%d) -> %g",WoWPro.step[i],ix*100,iy*100,im, WoWPro.step[j],jx*100,jy*100,jm,distance)
@@ -373,10 +373,9 @@ function WoWPro.DistanceToStep(i)
 --    WoWPro:Print("Step %d is at %s/%s",i,tostring(icoord),tostring(WoWPro.zone[i]))
     local ix = select(1, (","):split(icoord))
     local iy = select(2, (","):split(icoord))
-    local im
     ix = tonumber(ix) / 100
     iy = tonumber(iy) / 100
-    im = WoWPro:ValidZone(WoWPro.zone[i])
+    local _, im = WoWPro:ValidZone(WoWPro.zone[i])
 --    WoWPro:Print("Zone %s mapped to %d",WoWPro.zone[i],im)
     local x, y, m = WoWPro:GetPlayerZonePosition()
     if (not x) or (not y) then
