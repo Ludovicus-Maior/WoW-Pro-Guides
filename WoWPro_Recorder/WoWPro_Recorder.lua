@@ -336,7 +336,7 @@ function WoWPro.Recorder.FlightStep()
     if x and y then
         mapxy = ("%.2f,%.2f"):format(x * 100, y * 100)
     end
-	print("WoWPro Recorder: Flight is primed, take your flight.")
+	_G.print("WoWPro Recorder: Flight is primed, take your flight.")
     WoWPro.Recorder.Flights = {
         map = mapxy,
         zone = zonetag,
@@ -357,7 +357,7 @@ function WoWPro.Recorder.PortalStep()
     if x and y then
         mapxy = ("%.2f,%.2f"):format(x * 100, y * 100)
     end
-	print("WoWPro Recorder: Portal is primed, Step through the portal.")
+	_G.print("WoWPro Recorder: Portal is primed, Step through the portal.")
     WoWPro.Recorder.Portals = {
         map = mapxy,
         zone = zonetag,
