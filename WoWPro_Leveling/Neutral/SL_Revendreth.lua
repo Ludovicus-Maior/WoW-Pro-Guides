@@ -410,11 +410,11 @@ T Hunting an Inquisitor|QID|57929|M|72.98,51.98|Z|Revendreth|N|To Archivist Fane
 A Halls of Atonement: Your Absolution|QID|58092|M|72.98,51.98|Z|Revendreth|ELITE|N|[color=e6cc80]Dungeon: [/color]\nFrom Archivist Fane. This quest is optional and out of scope for this guide.|LVL|57|PRE|57929|RANK|2|
 
 ; Sidequest Storyline - Mirror Maker of the Master
-t A Master of Their Craft|QID|60051|M|26.41,49.01|Z|Revendreth|N|To Laurent.|RANK|2|
-A An Unfortunate Situation|QID|57531|M|26.41,49.01|Z|Revendreth|N|From Laurent.|LVL|58|RANK|2|
-C An Unfortunate Situation|QID|57531|M|29.48,48.67|Z|Revendreth|N|Kill the 3 named enemies in the hideout, loot them to collect Laurent's Belongings.|RANK|2|
-T An Unfortunate Situation|QID|57531|M|26.41,49.01|Z|Revendreth|N|To Laurent.|RANK|2|
-A Foraging for Fragments|QID|57532|M|26.41,49.01|Z|Revendreth|N|From Laurent.|LVL|58|PRE|57531|RANK|2|
+t A Master of Their Craft|QID|60051|M|26.43,48.95|Z|Revendreth|N|To Laurent.|RANK|2|
+A An Unfortunate Situation|QID|57531|M|26.43,48.95|Z|Revendreth|N|From Laurent.|LVL|58|RANK|2|
+C An Unfortunate Situation|QID|57531|M|29.81,48.63|Z|Revendreth|N|Kill the Costel and his 2 friends in the hideout, loot him to collect Laurent's Belongings.|RANK|2|
+T An Unfortunate Situation|QID|57531|M|26.43,48.95|Z|Revendreth|N|To Laurent.|RANK|2|
+A Foraging for Fragments|QID|57532|M|26.43,48.95|Z|Revendreth|N|From Laurent.|LVL|58|PRE|57531|RANK|2|
 C Foraging for Fragments|QID|57532|M|25.71,48.54|Z|Revendreth|QO|1|N|Follow Laurent and defend him against attackers.|RANK|2|
 C Foraging for Fragments|QID|57532|M|25.71,48.54|Z|Revendreth|QO|2|NC|N|Click on the Mirror Fragment laying on the ground.|RANK|2|
 C Foraging for Fragments|QID|57532|M|25.53,47.37|Z|Revendreth|QO|3|N|Follow Laurent and defend him against attackers.|RANK|2|
@@ -434,16 +434,16 @@ T When Only Ash Remains|QID|57534|M|24.26,49.40|Z|Revendreth|N|To Laurent.|RANK|
 T Light Punishment|QID|57533|M|24.19,49.46|Z|Revendreth|N|To Simone.|RANK|2|
 A We Need More Power|QID|59427|M|24.19,49.46|Z|Revendreth|N|From Simone.|LVL|58|PRE|57533&57534|RANK|2|
 A Escaping the Master|QID|57535|M|24.26,49.40|Z|Revendreth|N|From Laurent.|LVL|58|PRE|57533&57534|RANK|2|
-C We Need More Power|QID|59427|M|21.71,55.15|Z|Revendreth|N|Kill enemies and interact with objects to collect the Anima.|RANK|2|S|
-C Escaping the Master|QID|57535|M|25.24,52.81|Z|Revendreth|N|Mirror Fragment.|RANK|2|
-C We Need More Power|QID|59427|M|21.71,55.15|Z|Revendreth|N|Kill enemies and interact with objects to collect the Anima.|RANK|2|US|
+C We Need More Power|QID|59427|M|24.79,53.51|Z|Revendreth|N|Click on Anima canisters laying around the area.|RANK|2|S|
+C Escaping the Master|QID|57535|M|24.79,53.51|Z|Revendreth|N|Kill enemies and loot their Mirror Fragments.|RANK|2|
+C We Need More Power|QID|59427|M|24.79,53.51|Z|Revendreth|N|Click on Anima canisters laying around the area.|RANK|2|US|
 T We Need More Power|QID|59427|M|24.19,49.46|Z|Revendreth|N|To Simone.|RANK|2|
 T Escaping the Master|QID|57535|M|24.26,49.40|Z|Revendreth|N|To Laurent.|RANK|2|
 A Mirror Making, Not Breaking|QID|57536|M|24.26,49.40|Z|Revendreth|N|From Laurent.|LVL|58|PRE|59427&57535|RANK|2|
-C Mirror Making, Not Breaking|QID|57536|M|24.76,50.28|Z|Revendreth|QO|1|NC|N|Follow Laurent and Simone to the mirror.|RANK|2|
-C Mirror Making, Not Breaking|QID|57536|M|24.76,50.28|Z|Revendreth|QO|2|CHAT|N|Speak to Laurent to let him begin.|RANK|2|
-C Mirror Making, Not Breaking|QID|57536|M|24.76,50.28|Z|Revendreth|QO|3|N|Kill waves of enemies, defending Laurent and Simone.|RANK|2|
-T Mirror Making, Not Breaking|QID|57536|M|24.26,49.40|Z|Revendreth|N|To Laurent.|RANK|2|
+C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|1|NC|N|Follow Laurent and Simone to the mirror.|RANK|2|
+C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|2|CHAT|N|Speak to Laurent to let him begin.|RANK|2|
+C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|3|N|Kill waves of enemies, defending Laurent and Simone.|RANK|2|
+T Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|N|To Laurent.|RANK|2|
 
 ; Sidequest Storyline - Revelations of the Light
 A A Rousing Aroma|QID|60467|M|35.04,53.91|Z|Revendreth|N|From Sabina.|LVL|58|RANK|2|
