@@ -15,7 +15,7 @@ C A Chilling Summons|QID|60545|M|77.07,42.10|Z|Stormwind City|QO|2|NC|N|Enter th
 C A Chilling Summons|QID|60545^61874|M|59.78,19.86|Z|Lower Acherus@Icecrown Citadel!Dungeon1681|QO|3|NC|N|Run toward Icecrown Citadel and click on the teleporter to the Frozen Throne.|
 T A Chilling Summons|QID|60545^61874|M|50.85,53.86|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|N|To Highlord Bolvar Fordragon.|
 A Through the Shattered Sky|QID|59751|M|50.88,53.86|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|N|From Highlord Bolvar Fordragon.|PRE|60545^61874|LVL|50|
-C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|1|NC|N|Hear Bolvar's instructions.|
+C Through the Shattered Sky|QID|59751|M|50.78,51.61|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|1|NC|N|Listen to them squabble and wait for Bolvar to have the last word.|
 N First Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|2|NC|N|Click on the First Shard of Domination.|BUFF|329185|
 C Through the Shattered Sky|QID|59751|M|54.87,44.81|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|2|NC|N|Place the shard above the rune.|
 N Second Shard of Domination|ACTIVE|59751|M|49.86,51.66|Z|The Frozen Throne@Icecrown Citadel!Dungeon1360|QO|3|NC|N|Click on the Second Shard of Domination.|BUFF|329254|
@@ -74,7 +74,7 @@ A An Undeserved Fate|QID|59761|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin Wr
 C An Undeserved Fate|QID|59761|M|25.77,17.34|Z|The Maw!Instance|S|N|Back over the teleport pad and down below to collect Mawsworn Keys from Mawsworn forces in the Tremaculum and use them to free Shackled Souls.|
 C The Afflictor's Key|QID|59760|CS|M|28.18,18.89;27.52,14.50;28.02,11.06|Z|The Maw!Instance|QO|1|N|Up the broad spiral ramp to find and kill the Afflictor to get the Key.|T|Phael the Afflictor|
 C An Undeserved Fate|QID|59761|M|PLAYER|Z|The Maw!Instance|US|N|Finish collecting Mawsworn Keys and freeing the Shackled Souls.|
-C The Afflictor's Key|QID|59760|CS|M|27.54,17.31;25.09,13.48|Z|The Maw!Instance|NC|QO|2|N|Open Anduins Locks.|
+C The Afflictor's Key|QID|59760|CS|M|27.54,17.31;25.09,13.48|Z|The Maw!Instance|NC|QO|2|N|Open Anduin's Locks.|
 T The Afflictor's Key|QID|59760|M|25.08,13.49|Z|The Maw!Instance|N|To Anduin Wrynn.|
 T An Undeserved Fate|QID|59761|M|25.35,13.93|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A From the Mouths of Madness|QID|59776|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin.|PRE|59760&59761|LVL|50|
@@ -82,7 +82,7 @@ C From the Mouths of Madness|QID|59776|M|25.35,13.93|Z|The Maw!Instance|QO|1|NC|
 C From the Mouths of Madness|QID|59776|M|24.34,37.13|Z|The Maw!Instance|QO|2|CHAT|N|Ask Darion to make it talk.|
 T From the Mouths of Madness|QID|59776|M|24.34,37.13|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
 A By and Down the River|QID|59762|M|24.29,37.12|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|59776|LVL|50|
-C By and Down the River|QID|59762|CS|M|24.42,35.00;25.59,32.50;29.78,42.45|Z|The Maw!Instance|QO|1|N|Cross the River of Souls.|
+C By and Down the River|QID|59762|CS|M|24.42,35.00;25.59,32.50;29.90,36.53;29.78,42.45|Z|The Maw!Instance|QO|1|N|Cross the River of Souls.|
 C By and Down the River|QID|59762|M|29.78,42.45|Z|The Maw!Instance|QO|2|N|Escape the River.|
 T By and Down the River|QID|59762|M|29.78,42.45|Z|The Maw!Instance|N|To Lady Jaina Proudmoore.|
 A Wounds Beyond Flesh|QID|59765|M|29.56,43.86|Z|The Maw!Instance|N|From Thrall.|PRE|59762|LVL|50|
@@ -104,7 +104,7 @@ A Stand as One|QID|59770|M|42.47,42.23|Z|The Maw!Instance|N|From Anduin Wrynn.|P
 C Stand as One 1|QID|59770|M|42.47,42.23|Z|The Maw!Instance|QO|1|NC|N|Touch the Eroded Waystone.|
 C Stand as One 2|QID|59770|M|42.38,42.18|Z|The Maw!Instance|QO|2|N|Survive the Jailer's Onslaught.|
 T Stand as One|QID|59770|M|42.38,42.16|Z|The Maw!Instance|N|To Eroded Waystone.|
-; This should only show if you have completed Achievement "Choosing Your Purpose" ID:(14627) on any character.
+; This should only show if you have completed Achievement "Choosing Your Purpose" ID:(14627) on any character account-wide (currently in beta flag seems to be yes without the ach)
 A The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|From Fatescribe Roh-Tahl.|PRE|59770|ACH|14627;;true;true|
 C The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|Choose whether you want to move thru the main story line and delay picking a covenant or skip the main storyline and pick a covenant sooner.|ACH|14627;;true;true|
 T The Threads of Fate|QID|62704|M|20.41,50.31|Z|Ring of Fates@Oribos|N|To Fatescribe Roh-Tahl.|ACH|14627;;true;true|
@@ -152,5 +152,60 @@ f Oribos|ACTIVE|60154|M|64.21,49.63|Z|Ring of Transference@Oribos|N|From Pathscr
 A Seek the Ascended|QID|59773|M|64.21,49.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|PRE|60156|MS|
 C Seek the Ascended|QID|59773|M|64.21,49.63|Z|Ring of Transference@Oribos|CHAT|N|Talk to Pathscribe Roh-Avonavi.|MS|
 T Seek the Ascended|QID|59773|M|37.52,76.44|Z|Bastion|N|To Kleia.|MS|
+
+;right after tof decision
+A Re-Introductions|QID|62716|M|20.41,50.31|Z|Ring of Fates@Oribos|N|From Fatescribe Roh-Thal.|PRE|58086|
+A Observing Battle|QID|62284|PRE|58086|M|34.23,55.86|Z|Ring of Fates@Oribos|N|If you plan to do [color=ff0000]PVP[/color], grab these two quests from Strategist Zo'rak, if not, just check them off manually.|
+A Observing Conflict|QID|62289|PRE|58086|M|34.23,55.86|Z|Ring of Fates@Oribos|N|From Strategist Zo'rak.|
+A Trading Favors|QID|60274|PRE|58086|M|67.44,50.33|Z|Ring of Fates@Oribos|N|If you plan to do [color=efcc80]dungeons[/color], grab this quest (and it's follow ups) from Host Ta'rela. Otherwise, just check this step off manually.|
+R Through this doorway|ACTIVE|60274|M|70.39,59.89|CC|Z|Ring of Fates@Oribos|N|starting here, follow the stairs down and make your way to the The Broker's Den.|
+R The Broker's Den|ACTIVE|60274|M|42.21,70.64|Z|The Broker's Den@Oribos!Dungeon|N|And you have arrived to the basement den of the broker's.|
+T Trading Favors|QID|60274|M|52.60,54.77|Z|The Broker's Den@Oribos!Dungeon|N|To Finder Ta'sul.|
+A Trading Favors: Spires of Ascension|QID|60249|PRE|60274|M|52.60,54.77|Z|The Broker's Den@Oribos!Dungeon|N|From Finder Ta'sul.|
+A Trading Favors: The Other Side|QID|60245|PRE|60274|M|52.60,54.77|Z|The Broker's Den@Oribos!Dungeon|N|From Finder Ta'sul.|
+A A Valuable Find: Spires of Ascension|QID|60252|PRE|60274|M|51.19,43.79|Z|The Broker's Den@Oribos!Dungeon|N|From Ta'lan the Antiquary.|
+A A Valuable Find: The Other Side|QID|60255|PRE|60274|M|51.38,42.95|Z|The Broker's Den@Oribos!Dungeon|N|From Ta'lan the Antiquary.|
+T Re-Introductions|QID|62716|M|38.90,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
+A Choosing Your Purpose|QID|62000|PRE|62716|M|38.90,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
+C Choosing Your Purpose|QID|62000|M|36.17,64.15|Z|Ring of Fates@Oribos|QO|2|NC|N|Speak with the Kyrian (Optional). You don't have to talk to any of them, you can go directly to selecting the covenent on the Covenant Map in front of Tal-Inara.|
+C Choosing Your Purpose|QID|62000|M|39.75,60.86|Z|Ring of Fates@Oribos|QO|4|NC|N|Speak with the Night Fae (Optional).|
+C Choosing Your Purpose|QID|62000|M|44.86,68.78|Z|Ring of Fates@Oribos|QO|3|NC|N|Speak with the Venthyr (Optional).|
+C Choosing Your Purpose|QID|62000|M|42.99,74.01|Z|Ring of Fates@Oribos|QO|5|NC|N|Speak with the Necrolords (Optional).|
+C Choosing Your Purpose|QID|62000|M|39.71,68.56|Z|Ring of Fates@Oribos|QO|1|NC|N|Make your choice on the Shadowlands Covenant Map in front of Tal-Inara.|
+T Choosing Your Purpose|QID|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
+A Aiding the Shadowlands|QID|62159|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
+C Choose your starting zone|QID|62159|M|38.93,69.97|Z|Ring of Fates@Oribos|N|Choose your preferred starting zone from Tal-Inara's Shadowlands Map.|
+;there is no "T Aiding the Shadowlands"
+
+N Choose Bastion|PRE|62275|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|
+N Choose Revendreth|PRE|62279|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|
+N Choose Maldraxxus|PRE|62278|S!UD|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|
+N Choose Ardenweald|PRE|62277|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|
+
+;the items that follow need moved into their individual guides.
+;A Revendreth|QID|62279|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
+;t Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+;A Dark Aspirations|QID|62740|PRE|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
+;R Ring of Transference|ACTIVE|62740|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
+;F Dark Haven|ACTIVE|62740|M|60.87,68.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
+;T Dark Aspirations|QID|62740|M|61.4,60.4|Z|Revendreth|N|To Prince Renathal.|TOF|
+;A Reinforcing Revendreth|QID|62778|PRE|62740|M|61.4,60.4|Z|Revendreth|N|To Prince Renathal. This is not tracked in the guide because literally everything you do in Revendreth counts towards it.|TOF|
+
+;A Maldraxxus|QID|62278|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
+;t Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+;A A Fresh Blade|QID|62738|PRE|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
+;R Ring of Transference|ACTIVE|62738|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
+;F Bleak Redoubt|ACTIVE|62738|M|60.87,68.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
+;T A Fresh Blade|QID|62738|N|To Secutor Mevix.|TOF|
+;A Rallying Maldraxxus|QID|62748|PRE|62738|N|From Secutor Menvix.|TOF|
+
+;A Ardenweald|QID|62277|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
+;T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+;A Restoring Balance|QID|62739|PRE|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
+;R Ring of Transference|ACTIVE|62739|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
+;F Refuge Camp|ACTIVE|62739|M|60.87,68.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
+;T Restoring Balance|QID|62739|TOF|
+;A Support the Court|QID|62763|PRE|62739|TOF|
+
 ]]
 end)

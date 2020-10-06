@@ -16,6 +16,13 @@ WoWPro.Recorder.LoadingGuide = false
 WoWPro.Recorder.Advanced = false
 WoWPro.Recorder.PREquest = nil
 WoWPro.Recorder.PrevStep = nil
+WoWPro.Recorder.Flights = nil
+WoWPro.Recorder.Portals = nil
+
+_G.SLASH_WPR1 = "/wpr";
+function _G.SlashCmdList.WPR(msg)
+	WoWPro.Recorder:ToggleAdvanced()
+end
 
 function WoWPro.Recorder:OnInitialize()
 -- Creating the config options --
@@ -23,6 +30,9 @@ function WoWPro.Recorder:OnInitialize()
 end
 
 function WoWPro.Recorder:OnEnable()
+	if WoWProCharDB then
+		WoWPro.Recorder.Advanced = WoWProCharDB.Advanced or false
+	end
     --Loading Frames--
     if not WoWPro.Recorder.FramesLoaded then --First time the addon has been enabled since UI Load
         WoWPro.Recorder:CreateRecorderFrame()
@@ -33,7 +43,6 @@ function WoWPro.Recorder:OnEnable()
     -- Creating empty user settings if none exist
     WoWPro_RecorderDB = WoWPro_RecorderDB or {}
     WoWPro.Recorder.CurrentGuide = WoWPro.Recorder.CurrentGuide or {}
-
     WoWPro.Recorder:CustomizeFrames()
     WoWPro.Recorder:RegisterEvents()
     WoWPro.Recorder:RegisterSavedGuides()
@@ -46,6 +55,15 @@ function WoWPro.Recorder:OnDisable()
     for _, event in ipairs(events) do
         WoWPro.GuideFrame:UnregisterEvent(event)
     end
+end
+
+function WoWPro.Recorder:ToggleAdvanced()
+	if WoWProCharDB.Advanced then
+		WoWProCharDB.Advanced = false
+	else
+		WoWProCharDB.Advanced = true
+	end
+	_G.ReloadUI();
 end
 
 function WoWPro.Recorder:RegisterSavedGuides()
@@ -123,7 +141,36 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
             WoWPro.Recorder.AddStep(stepInfo)
         end
         WoWPro:AutoCompleteSetHearth(event, ...)
-
+	elseif event == "PLAYER_CONTROL_GAINED" then
+		if WoWPro.Recorder.Flights  then
+			local subzone = _G.GetSubZoneText() or zonetag
+			local stepInfo = {
+				action = "F",
+				step = subzone,
+				active = WoWPro.Recorder.lastStep,
+				map = WoWPro.Recorder.Flights.map,
+				zone = WoWPro.Recorder.Flights.zone,
+				note = "Head to the flightmaster and take a flight to "..subzone.."."
+			}
+			WoWPro.Recorder:dbp("Adding F step location")
+			WoWPro.Recorder.AddStep(stepInfo)
+			WoWPro.Recorder.Flights = nil
+		end
+	elseif event == "AREA_POIS_UPDATED" then
+		if WoWPro.Recorder.Portals  then
+			local subzone = _G.GetSubZoneText() or zonetag
+			local stepInfo = {
+				action = "P",
+				step = subzone,
+				active = WoWPro.Recorder.lastStep,
+				map = WoWPro.Recorder.Portals.map,
+				zone = WoWPro.Recorder.Portals.zone,
+				note = "Take the portal to "..subzone.."."
+			}
+			WoWPro.Recorder:dbp("Adding P step location")
+			WoWPro.Recorder.AddStep(stepInfo)
+			WoWPro.Recorder.Portals = nil
+		end
     elseif event == "PLAYER_LEVEL_UP" then
         WoWPro.Recorder:dbp("PLAYER_LEVEL_UP detected.")
         local newLevel = ...
@@ -212,7 +259,8 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
                                     QID = QID,
                                     map = mapxy,
                                     zone = zonetag,
-                                    noncombat = WoWPro.Recorder.FindText(WoWPro.QuestLog[QID].leaderBoard[idx]),
+									chat = WoWPro.Recorder.FindText("chat", WoWPro.QuestLog[QID].leaderBoard[idx]),
+                                    noncombat = WoWPro.Recorder.FindText("nc", WoWPro.QuestLog[QID].leaderBoard[idx]),
                                     use = WoWPro.QuestLog[QID].use,
                                     note = WoWPro.QuestLog[QID].leaderBoard[idx]:match("[^/%d%s].+")..".",
                                     questtext = tostring(idx),
@@ -230,18 +278,18 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
     end
 end
 
-function WoWPro.Recorder.FindText(objectiveText)
+function WoWPro.Recorder.FindText(otype, objectiveText)
 	objectiveText = objectiveText:lower()
 	if objectiveText:find("consulted", 1, true) then
-		return "CHAT|"
+		if otype == "chat" then return true end
 	elseif objectiveText:find("speak", 1, true) then
-		return "CHAT|"
+		if otype == "chat" then return true end
 	elseif objectiveText:find("slain", 1, true) then
 		return
 	elseif objectiveText:find("defeat", 1, true) then
 		return
-	else
-		return "NC|"
+	elseif otype == "nc" then
+		return true
 	end
 end
 
@@ -273,6 +321,48 @@ function WoWPro.Recorder.RunStep()
     }
      WoWPro.Recorder:dbp("Adding R step location")
      WoWPro.Recorder.AddStep(stepInfo)
+end
+
+function WoWPro.Recorder.FlightStep()
+    local GID = WoWProDB.char.currentguide
+    if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
+    WoWPro.Recorder:dbp("Flight Step Requested.")
+	local x, y = WoWPro:GetPlayerZonePosition()
+    local zonetag = WoWPro.GetZoneText()
+    if zonetag == WoWPro.Guides[GID].zone then
+        zonetag = nil
+    end
+    local mapxy = nil
+    if x and y then
+        mapxy = ("%.2f,%.2f"):format(x * 100, y * 100)
+    end
+	_G.print("WoWPro Recorder: Flight is primed, take your flight.")
+    WoWPro.Recorder.Flights = {
+        map = mapxy,
+        zone = zonetag,
+    }
+     WoWPro.Recorder:dbp("Adding F step location")
+end
+
+function WoWPro.Recorder.PortalStep()
+    local GID = WoWProDB.char.currentguide
+    if WoWPro.Recorder.status == "STOP" or not WoWPro.Guides[GID] then return end
+    WoWPro.Recorder:dbp("Portal Step Requested.")
+	local x, y = WoWPro:GetPlayerZonePosition()
+    local zonetag = WoWPro.GetZoneText()
+    if zonetag == WoWPro.Guides[GID].zone then
+        zonetag = nil
+    end
+    local mapxy = nil
+    if x and y then
+        mapxy = ("%.2f,%.2f"):format(x * 100, y * 100)
+    end
+	_G.print("WoWPro Recorder: Portal is primed, Step through the portal.")
+    WoWPro.Recorder.Portals = {
+        map = mapxy,
+        zone = zonetag,
+    }
+     WoWPro.Recorder:dbp("Adding P step location")
 end
 
 
@@ -448,7 +538,7 @@ end
 
 
 function WoWPro.Recorder:RegisterEvents()
-    WoWPro.Recorder.events = {"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP"}
+    WoWPro.Recorder.events = {"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP", "PLAYER_CONTROL_GAINED", "AREA_POIS_UPDATED"}
 
     for _, event in pairs(WoWPro.Recorder.events) do
         WoWPro.RecorderFrame:RegisterEvent(event)

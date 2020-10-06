@@ -272,47 +272,51 @@ DefineTag("L","lootitem","string",nil,function(text,i)
 end)
 DefineTag("QO","questtext","string",nil,nil)
 DefineTag("SO","sobjective","string",nil,nil)
-DefineTag("U","use","number",nil,nil)
-DefineTag("ITEM","item","string",nil,nil)
+
+DefineTag("CHAT","chat","boolean",nil,nil)
 DefineTag("EAB","eab","boolean",nil,nil)
+DefineTag("ELITE", "elite","boolean",nil,nil)
+DefineTag("ITEM","item","string",nil,nil)
 DefineTag("NC","noncombat","boolean",nil,nil)
 DefineTag("NA","noauto","boolean",nil,nil)
-DefineTag("CHAT","chat","boolean",nil,nil)
-DefineTag("V","vehichle","boolean",nil,nil) -- Yeah, that is how blizzard spelled it!
-DefineTag("LVL","level","string",validate_old_list_of_ints,nil)
-DefineTag("T","target","string",nil,nil)
-DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = value:upper() end)
 DefineTag("NOCACHE", "nocache","boolean",nil,nil)
-DefineTag("ELITE", "elite","boolean",nil,nil)
+DefineTag("QG","gossip","string",nil, function (value,i) WoWPro.gossip[i] = value:upper() end)
+DefineTag("RARE","rare","boolean",nil,nil)
+DefineTag("T","target","string",nil,nil)
+DefineTag("U","use","number",nil,nil)
+DefineTag("V","vehichle","boolean",nil,nil) -- Yeah, that is how blizzard spelled it!
 
 -- Conditionals
-DefineTag("REP","rep","string",nil,nil)
-DefineTag("P","prof","string",nil,nil)
-DefineTag("DATE", "serverdate","string",nil,nil)
-DefineTag("SPELL","spell","string",nil,nil)
-DefineTag("ILVL","ilvl","string",nil,nil)
-DefineTag("FLY","fly","string",nil,nil)
 DefineTag("ACH","ach","string",nil,nil)
 DefineTag("BUFF","buff","string",validate_andor_list_of_ints,nil)
-DefineTag("RECIPE","recipe","number",nil,nil)
-DefineTag("PET","pet","string",nil,nil)
 DefineTag("BUILDING","building","string",nil,nil)
-DefineTag("GUIDE","guide","string",nil,nil)
-DefineTag("JUMP","jump","string",nil,nil)
-DefineTag("GROUP","group","number",nil,nil)
-DefineTag("RARE","rare","boolean",nil,nil)
+DefineTag("COV","covenant","string",nil,nil)
+DefineTag("DATE", "serverdate","string",nil,nil)
 DefineTag("EX","expansion","string",validate_old_list_of_ints,nil)
-DefineTag("TAXI","taxi","string",nil,nil)
 DefineTag("FAIL","fail","boolean",nil,nil)
+DefineTag("FLY","fly","string",nil,nil)
+DefineTag("GROUP","group","number",nil,nil)
+DefineTag("GUIDE","guide","string",nil,nil)
+DefineTag("ILVL","ilvl","string",nil,nil)
+DefineTag("JUMP","jump","string",nil,nil)
+DefineTag("LVL","level","string",validate_old_list_of_ints,nil)
+DefineTag("P","prof","string",nil,nil)
+DefineTag("PET","pet","string",nil,nil)
+DefineTag("REN","renown","string",nil,nil)
+DefineTag("REP","rep","string",nil,nil)
+DefineTag("RECIPE","recipe","number",nil,nil)
+DefineTag("SPELL","spell","string",nil,nil)
+DefineTag("TAXI","taxi","string",nil,nil)
 
 -- Pet Stuff
+DefineTag("DEAD","dead","string",nil,nil)
 DefineTag("PET1","pet1","string",nil,nil)
 DefineTag("PET2","pet2","string",nil,nil)
 DefineTag("PET3","pet3","string",nil,nil)
-DefineTag("STRATEGY","strategy","string",nil,nil)
 DefineTag("SELECT","select","number",nil,nil)
+DefineTag("STRATEGY","strategy","string",nil,nil)
 DefineTag("SWITCH","switch","number",nil,nil)
-DefineTag("DEAD","dead","string",nil,nil)
+
 
 
 -- Stuff at the end
@@ -326,14 +330,16 @@ DefineTag("S!US",nil,"boolean",nil, function (value,i)
     WoWPro.unsticky[i] = true;
     WoWPro.stickycount = WoWPro.stickycount + 1;
 end)
-DefineTag("N","note","string",nil,nil)
-DefineTag("FACTION","faction","string",nil,nil)
-DefineTag("R","playerrace","string",nil,nil)
 DefineTag("C","playerclass","string",nil,nil)
+DefineTag("CT","chromie","boolean",nil,nil)
+DefineTag("FACTION","faction","string",nil,nil)
 DefineTag("GEN","playergender","string",nil,nil)
-DefineTag("RANK","rank","number",nil,nil)
-DefineTag("COV","covenant","string",nil,nil)
 DefineTag("MS",nil,"boolean",nil,function (value,i) end)  -- Swallow MS Tags
+DefineTag("N","note","string",nil,nil)
+DefineTag("R","playerrace","string",nil,nil)
+DefineTag("RANK","rank","number",nil,nil)
+DefineTag("TOF",nil,"boolean",nil,function (value,i) end)  -- Swallow MS Tags
+
 
 local function addTagValue(line, tag, value)
     line = line..tag.."||"
@@ -805,17 +811,21 @@ function WoWPro.ParseSteps(steps)
         local text = steps[j]
         text = text:trim()
         if text ~= "" then
-            local tof = false
 			local class, race, covenant  = text:match("|C|([^|]*)|?"), text:match("|R|([^|]*)|?"), text:match("|COV|([^|]*)|?")
-            local gender, faction, ms = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|")
+            local gender, faction, ms, tof = text:match("|GEN|([^|]*)|?"), text:match("|FACTION|([^|]*)|?"), text:find("|MS|"), text:find("|TOF|")
             if class then
                 -- deleting whitespaces and capitalizing, to compare with Blizzard's class tokens
                 class = class:gsub(" ", ""):upper()
             end
 			-- If Threads of Fate is completed, you don't see |MS| tagged steps
-			if ms and _G.C_QuestLog.IsQuestFlaggedCompleted(62716) then
-				tof = true
+			if ms and not _G.C_QuestLog.IsQuestFlaggedCompleted(62716) then
+				ms = false
 			end
+
+			if tof and  _G.C_QuestLog.IsQuestFlaggedCompleted(62716) then
+				tof = false
+			end
+
             if race then
                 -- deleting whitespaces to compare with Blizzard's race tokens
                 race = race:gsub(" ", "")
@@ -868,7 +878,7 @@ function WoWPro.ParseSteps(steps)
                (race == nil or WoWPro.SemiMatch(race, myrace))  and
 			   (covenant == nil or covenant == _G.C_Covenants.GetActiveCovenantID()) and
                (gender == nil or gender == _G.UnitSex("player")) and
-               (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) and not tof then
+               (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) and not ms and not tof then
                 if WoWPro.ParseQuestLine(faction, zone, i, text) then
                     WoWPro.RecordStuff(i)
                     i = i + 1

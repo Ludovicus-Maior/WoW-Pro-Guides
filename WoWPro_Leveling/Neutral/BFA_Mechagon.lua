@@ -300,9 +300,9 @@ C Waste Not|QID|56508|M|42.72,33.32|S|NC|N|Pick up the Useful Bits and Pieces.|
 C Taking The Air Out|QID|56501|S!US|U|169681|N|Use the Boom-Tastic 3000 to shoot down the Venture Co. hot air balloons.|
 K Pummeller Red|ACTIVE|56471|M|43.54,46.76|QO|2|T|Pummeller Red|N|Kill Pummeller Red.|
 K Share Stealer Wonka|ACTIVE|56493|LEAD|56508|M|45.56,47.21|L|168682|T|Share Stealer Wonka|N|Counts towardsd Direct Approach and gives a chance at a drop to start another quest if [Waste Not] isn't available today. Check off manually after killing if box does not drop.|
-K Pummeller Orange|ACTIVE|56471|M|43.54,46.76|QO|3|T|Pummeller Orange|N|Kill Pummeller Orange.|
 K Profit Maker Grifa|ACTIVE|56493|LEAD|56508|M|46.79,38.20|L|168682|T|Profit Maker Grifa|N|Counts towardsd Direct Approach and gives a chance at a drop to start another quest if [Waste Not] isn't available today. Check off manually after killing if box does not drop.|
 A A Gulper Ate The Rolly|QID|56373|PRE|55736|M|37.05,47.16|N|From Danielle Anglers.|O|
+K Pummeller Orange|ACTIVE|56471|M|39.95,38.10|QO|3|T|Pummeller Orange|N|Kill Pummeller Orange.|
 K Pummeller Grey|ACTIVE|56471|M|41.29,31.88|QO|1|T|Pummeller Grey|N|Kill Pummeller Grey.|
 K Problem Solver Skitz|ACTIVE|56493|LEAD|56508|M|39.82,31.51|L|168682|T|Problem Solver Skitz|N|Counts towardsd Direct Approach and gives a chance at a drop to start another quest if [Waste Not] isn't available today. Check off manually after killing if box does not drop.|
 K Rolly Gulper|ACTIVE|56373|M|47.29,28.26|QO|1|T|Rolly Gulper|N|Kill Rolly Gulper.|

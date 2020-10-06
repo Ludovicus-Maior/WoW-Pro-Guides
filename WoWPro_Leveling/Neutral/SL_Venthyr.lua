@@ -1,7 +1,7 @@
 local guide = WoWPro:RegisterGuide('Venthyr', 'Leveling', 'Ring of Fates@Oribos', 'Tester', 'Alliance')
 WoWPro:GuideName(guide,"Covenant: Venthyr")
 WoWPro:GuideLevels(guide,60, 60)
-WoWPro:GuideNextGuide(guide, 'Covenant')
+--WoWPro:GuideNextGuide(guide, 'Covenant')
 WoWPro:GuideSteps(guide, function()
 return [[
 ; Chapter 1
@@ -267,29 +267,209 @@ P Firstborne's Bounty|ACTIVE|58530|M|53.30,44.90|Z|Bastion|N|Unless you can Glid
 R Veiled Enclave|ACTIVE|58530|M|51.43,31.67|Z|Bastion!The Shadowlands|N|Make your way to the Veiled Enclave.|
 C Hidden Mirror|QID|58530|M|49.54,30.31|Z|Bastion!The Shadowlands|U|180356|NC|N|Run near the red pool and use Laurent's Compact Looking Glass to reveal the Hidden Mirror.|
 T Hidden Mirror|QID|58530|M|49.66,30.16|Z|Bastion!The Shadowlands|N|To General Draven.|
-A A Tense Reunion|QID|58555|PRE|58530|M|49.66,30.16|Z|Bastion!The Shadowlands|N|From General Draven.|PRE|58530|
+A A Tense Reunion|QID|58555|M|49.66,30.16|Z|Bastion!The Shadowlands|N|From General Draven.|PRE|58530|
+C A Tense Reunion|QID|58555|M|50.38,22.53|Z|Bastion!The Shadowlands|NC|N|Run toward The Eternal Forge.|
+T A Tense Reunion|QID|58555|M|50.09,20.71|Z|Bastion!The Shadowlands|N|To General Draven.|
+A Right our Wrongs|QID|58584|PRE|58555|M|50.09,20.71|Z|Bastion!The Shadowlands|N|From General Draven.|
+A No Friend of Mine|QID|58585|PRE|58555|M|50.11,20.54|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+A The Right Stuff|QID|58586|PRE|58555|M|50.11,20.54|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+C Right our Wrongs|QID|58584|M|50.13,20.34|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Speak to Theotar.|
+C Right our Wrongs|QID|58584|M|51.63,17.91|Z|Bastion!The Shadowlands|U|174465|QO|2|NC|N|Look for red pools around, Theotar will disenchant them to allow you to click and destroy the Anima Siphons.|S|
+C The Right Stuff|QID|58586|M|51.99,18.39|Z|Bastion!The Shadowlands|N|Kill enemies around the are to get them to drop Tainted Centurion Component. Once you have it, use it to smelt the bodies right there and collect the metal.|S|
+C No Friend of Mine|QID|58585|M|52.95,15.27|Z|Bastion!The Shadowlands|N|Kill Famos and loot Mikanikos's Tool Chest.|T|Famos|
+C The Right Stuff|QID|58586|M|51.99,18.39|Z|Bastion!The Shadowlands|N|Kill enemies around the are to get them to drop Tainted Centurion Component. Once you have it, use it to smelt the bodies right there and collect the metal.|US|
+C Right our Wrongs|QID|58584|M|51.63,17.91|Z|Bastion!The Shadowlands|U|174465|QO|2|NC|N|Look for red pools around, Theotar will disenchant them to allow you to click and destroy the Anima Siphons.|US|
+T Right our Wrongs|QID|58584|M|50.09,20.71|Z|Bastion!The Shadowlands|N|To General Draven.|
+T No Friend of Mine|QID|58585|M|50.11,20.54|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+T The Right Stuff|QID|58586|M|50.11,20.54|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+A A Perfect Circle|QID|58600|PRE|58585&58586&58584|M|50.13,20.48|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+A Phaestus, Genesis of Aeons|QID|58603|PRE|58585&58586&58584|M|50.13,20.48|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+C Phaestus, Genesis of Aeons|QID|58603|M|49.00,15.56|Z|Bastion!The Shadowlands|N|Kill Overseer Atticus and loot Phaestus, Genesis of Aeons.|
+C A Perfect Circle|QID|58600|M|50.07,15.06|Z|Bastion!The Shadowlands|NC|N|Click on chests in the room until you find the Perfected Circlet Mold.| ; not sure if this changes, coords is at the chest I found it in.
+T A Perfect Circle|QID|58600|M|50.13,20.48|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+T Phaestus, Genesis of Aeons|QID|58603|M|50.13,20.48|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+A Crown of the Harvesters|QID|58630|PRE|58600&58603|M|50.13,20.48|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+C Crown of the Harvesters|QID|58630|M|51.46,18.46|Z|Bastion!The Shadowlands|QO|1|NC|N|Click the forge to begin the Forging process.|
+C Crown of the Harvesters|QID|58630|M|51.45,18.48|Z|Bastion!The Shadowlands|QO|2|NC|N|Wait for the Crown of the Harvesters to be created.|
+T Crown of the Harvesters|QID|58630|M|51.43,18.45|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+A Heavy is the Head...|QID|58656|PRE|58630|M|51.43,18.45|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+C Heavy is the Head...|QID|58656|M|51.46,18.45|Z|Bastion!The Shadowlands|QO|1|NC|N|Click on the Crown of the Harvesters sitting atop the anvil.|
+C Testing the Crown|QID|58656|M|52.08,14.35|Z|Bastion!The Shadowlands|QO|2|NC|N|Kill enemies around with your new abilities.\n\n1: Cone Damage\n\n2:Damage over Time\n\n3:Dash, Speed & Trample damage.|S|
+C Heavy is the Head...|QID|58656|M|53.14,16.70|Z|Bastion!The Shadowlands|QO|3|N|Kill the Eastern Colossus.|
+C Heavy is the Head...|QID|58656|M|51.07,15.41|Z|Bastion!The Shadowlands|QO|4|N|Kill the Northern Colossus.|
+C Heavy is the Head...|QID|58656|M|49.11,15.49|Z|Bastion!The Shadowlands|QO|5|N|Kill the Western Colossus.|
+C Testing the Crown|QID|58656|M|52.08,14.35|Z|Bastion!The Shadowlands|QO|2|NC|N|Kill enemies around with your new abilities.\n\n1: Cone Damage\n\n2:Damage over Time\n\n3:Dash, Speed & Trample damage.|US|
+T Heavy is the Head...|QID|58656|M|50.09,20.71|Z|Bastion!The Shadowlands|N|To General Draven.|
+A Citadel of Loyalty|QID|60993|PRE|58656|M|50.11,20.54|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+C Citadel of Loyalty|QID|60993|M|24.36,29.91|Z|Bastion!The Shadowlands|QO|1|NC|N|Make your way to the Citadel of Loyalty. It's a long run but pretty direct, just stay on the road.|
+T Citadel of Loyalty|QID|60993|M|24.42,29.86|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+A Lowering Their Defenses|QID|60994|PRE|60993|M|24.42,29.86|Z|Bastion!The Shadowlands|N|From Mikanikos.|
+A Disloyalty|QID|60995|PRE|60993|M|24.29,29.87|Z|Bastion!The Shadowlands|N|From General Draven.|
+C Disloyalty|QID|60995|M|24.49,24.18|Z|Bastion!The Shadowlands|N|Kill Citadel Forsworn enemies.|S|
+C Lowering Their Defenses|QID|60994|M|22.69,24.92|Z|Bastion!The Shadowlands|QO|1|NC|N|Drain the Southern Barrier Source.|
+C Lowering Their Defenses|QID|60994|M|24.42,24.01|Z|Bastion!The Shadowlands|QO|2|NC|N|Drain the Northern Barrier Source.|
+C Lowering Their Defenses|QID|60994|M|24.78,23.20|Z|Bastion!The Shadowlands|QO|3|NC|N|Drain the Eastern Barrier Source.|
+T Lowering Their Defenses|QID|60994|M|24.41,29.87|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+T Disloyalty|QID|60995|M|24.41,29.87|Z|Bastion!The Shadowlands|N|To Mikanikos.|
+A Face Your Fears|QID|60996|PRE|60994&60995|M|24.28,29.68|Z|Bastion!The Shadowlands|N|From General Draven.|
+C Face Your Fears|QID|60996|M|21.07,22.87|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Speak with Draven for a lift up to the Temple of Loyalty.|
+C Face Your Fears|QID|60996|M|20.38,22.89|Z|Bastion!The Shadowlands|QO|2|NC|N|Step into the blue pool and use the Action Button "[color=40C7EB]Blessing of Loyalty[/color]" to purify the Crown of the Harvesters.|EAB|
+C Face Your Fears|QID|60996|M|20.48,22.88|Z|Bastion!The Shadowlands|QO|3|N|Kill the Echo of Denathrius.|
+T Face Your Fears|QID|60996|M|21.11,22.86|Z|Bastion!The Shadowlands|N|To General Draven.|
+A The Prince's New Crown|QID|59233|PRE|60996|M|21.11,22.86|Z|Bastion!The Shadowlands|N|From General Draven.|
+H Sinfall|ACTIVE|59233|M|PLAYER|Z|Bastion!The Shadowlands|N|Hearth back to Sinfall or get back there by any other means you have.|
+C The Prince's New Crown|QID|59233|M|21.12,22.87|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Speak to General Draven for a ride back down.|IZ|Bastion|
+F Sinfall|ACTIVE|59233|M|44.07,32.45|Z|Bastion!The Shadowlands|N|Head to the flightmaster and take a flight to Sinfall.|IZ|Bastion|
+T The Prince's New Crown|QID|59233|M|51.82,37.71|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|
 
+; Chapter 6
+A Confronting Sin|QID|61077|PRE|59233|M|51.77,37.55|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|
+P Confronting Sin|ACTIVE|61077|M|36.71,48.01|Z|Sinfall Reaches@Sinfall!Dungeon|N|Take the portal to Sinfall.|IZ|1699|
+T Confronting Sin|QID|61077|M|56.09,78.57|Z|Sinfall Depths@Sinfall!Dungeon|N|To The Accuser.|
+A Someone Worth Saving|QID|58382|PRE|61077|M|56.09,78.57|Z|Sinfall Depths@Sinfall!Dungeon|N|From The Accuser.|
+C Someone Worth Saving|QID|58382|M|48.17,24.73|Z|Sinfall Depths@Sinfall!Dungeon|CHAT|N|Speak to the Sinfal Executors on both sides of Kael'thas Sunstrider to have him released.|
+T Someone Worth Saving|QID|58382|M|46.41,32.26|Z|Sinfall Depths@Sinfall!Dungeon|N|To The Accuser.|
+A The Many Sins of Kael'thas Sunstrider|QID|58383|PRE|58382|M|46.41,32.26|Z|Sinfall Depths@Sinfall!Dungeon|N|From Sinfall Executor.|
+C The Many Sins of Kael'thas Sunstrider|QID|58383|M|46.45,32.13|Z|Sinfall Depths@Sinfall!Dungeon|QO|1|CHAT|N|Talk with the Accuser to begin the ritual of absolution.|
+C The Many Sins of Kael'thas Sunstrider|QID|58383|M|39.54,36.80|Z|Sinfall Depths@Sinfall!Dungeon|QO|2<1|NC|N|Click on Kael'thas: Arrogance.|
+C The Many Sins of Kael'thas Sunstrider|QID|58383|M|39.54,36.80|Z|Sinfall Depths@Sinfall!Dungeon|QO|2<2|NC|N|Click on Kael'thas: Burning Legion.|
+C The Many Sins of Kael'thas Sunstrider|QID|58383|M|39.54,36.80|Z|Sinfall Depths@Sinfall!Dungeon|QO|2<5|NC|N|Click on any of them, he is guilty of all 3.|
+T The Many Sins of Kael'thas Sunstrider|QID|58383|M|46.44,32.15|Z|Sinfall Depths@Sinfall!Dungeon|N|To The Accuser.|
+A In the Shadow of our Failures|QID|58426|PRE|58383|M|46.44,32.15|Z|Sinfall Depths@Sinfall!Dungeon|N|From The Accuser.|
+P In the Shadow of our Failures|ACTIVE|58426|M|70.41,38.48|Z|Sinfall Depths@Sinfall!Dungeon|N|Take the portal to Sinfall.|IZ|1700|
+F Charred Ramparts|ACTIVE|58426|M|67.30,21.45|Z|Sinfall Reaches@Sinfall!Dungeon|N|Head to the flightmaster and take a flight to Charred Ramparts.|
+T In the Shadow of our Failures|QID|58426|M|42.30,47.56|Z|Revendreth|N|To The Accuser.|
+A Dredgers Left Behind|QID|58384|PRE|58426|M|42.30,47.56|Z|Revendreth|N|From The Accuser.|
+A Learning to Sacrifice|QID|58385|PRE|58426|M|42.30,47.56|Z|Revendreth|N|From The Accuser.|
+A Use My Strengths|QID|58386|PRE|58426|M|PLAYER|Z|Revendreth|N|From Kael'thas Sunstrider.|
+C Dredgers Left Behind|QID|58384|M|42.16,53.41|Z|Revendreth|NC|N|Run near Darkwall Captives or attack their captors to give them the courage to escape.|S|
+C Learning to Sacrifice|QID|58385|M|44.85,48.75|Z|Revendreth|QO|1|NC|N|Click on one of the Legionnaires to animate them.|
+C Learning to Sacrifice|QID|58385|M|43.36,53.82|Z|Revendreth|QO|3|NC|N|Click on Vrednic to it.|
+C Learning to Sacrifice|QID|58385|M|41.69,52.39|Z|Revendreth|QO|2|NC|N|Once you enter the tower stay to the right and go up the stairs. Click on one of the Messengers animate them.|
+C Use My Strengths|QID|58386|M|41.04,54.77|Z|Revendreth|N|Go back down through the tower and out the back. Defeat Usurper Simona.|
+C Dredgers Left Behind|QID|58384|M|42.16,53.41|Z|Revendreth|NC|N|Run near Darkwall Captives or attack their captors to give them the courage to escape.|US|
+T Dredgers Left Behind|QID|58384|M|43.87,51.40|Z|Revendreth|N|To The Accuser.|
+T Learning to Sacrifice|QID|58385|M|43.87,51.40|Z|Revendreth|N|To The Accuser.|
+T Use My Strengths|QID|58386|M|43.87,51.40|Z|Revendreth|N|To The Accuser.|
+A We Each Must Carry Our Own Sins|QID|58387|PRE|58384&58385&58386|M|43.87,51.40|Z|Revendreth|N|From The Accuser.|
+C We Each Must Carry Our Own Sins|QID|58387|M|43.87,51.40|Z|Revendreth|QO|1|CHAT|N|Speak with the Accuser to begin the ritual.|
+C We Each Must Carry Our Own Sins|QID|58387|M|43.87,51.40|Z|Revendreth|QO|2|NC|N|Sit back while the Accuser completes the Ritual of extraction.|
+T We Each Must Carry Our Own Sins|QID|58387|M|43.86,51.40|Z|Revendreth|N|To The Accuser.|
+A Continued Care of Kael'thas|QID|58443|PRE|58387|M|43.86,51.40|Z|Revendreth|N|From The Accuser.|
+T Continued Care of Kael'thas|QID|58443|M|46.45,51.49|Z|Revendreth|N|To The Accuser.|
+A Blackbale Betrayers|QID|58388|PRE|58443|M|46.45,51.49|Z|Revendreth|N|From The Accuser.|
+L Suspicious Weapon|AVAILABLE|58389|M|48.37,51.70|Z|Revendreth|L|174212|N|Kill Blackbale enemies until you find the suspicious weapon.|PRE|58443|
+A Maldraxxian Weapons|QID|58389|PRE|58443|M|48.37,51.70|Z|Revendreth|U|174212|N|Click the Suspicious Weapon to get the quest
+A There's Always a Paper Trail|QID|58518|ACTIVE|58389|PRE|58443|M|PLAYER|Z|Revendreth|N|From Kael'thas Sunstrider.|
+C Maldraxxian Weapons|QID|58389|M|50.16,55.65|Z|Revendreth|N|Kill Blackbale enemies and loot their Maldraxxian Weapons.|S|
+C Blackbale Betrayers|QID|58388|M|50.16,55.65|Z|Revendreth|N|Kill Blackbale Overseers.|S|
+C There's Always a Paper Trail|QID|58518|M|51.17,55.63|Z|Revendreth|N|Kill Lord Blackbale and loot his Orders from the Tithelord.|
+C Blackbale Betrayers|QID|58388|M|50.16,55.65|Z|Revendreth|N|Kill Blackbale Overseers.|US|
+C Maldraxxian Weapons|QID|58389|M|50.16,55.65|Z|Revendreth|N|Kill Blackbale enemies and loot their Maldraxxian Weapons.|US|
+T Blackbale Betrayers|QID|58388|M|46.45,51.49|Z|Revendreth|N|To The Accuser.|
+T Maldraxxian Weapons|QID|58389|M|46.45,51.49|Z|Revendreth|N|To The Accuser.|
+T There's Always a Paper Trail|QID|58518|M|46.45,51.49|Z|Revendreth|N|To The Accuser.|
+A Reconnaissance... for my, uh, Recovery|QID|58391|PRE|58388&58389&58518|M|46.48,51.61|Z|Revendreth|N|From Kael'thas Sunstrider.|
+F Darkhaven|QID|58391|ACTIVE|58391|M|38.95,49.33|Z|Revendreth|N|Head to the flightmaster and take a flight to Darkhaven.|
+R Catacombs|ACTIVE|58391|M|61.29,59.72|Z|Revendreth|CC|N|Make your way to the Catacombs in Darkhaven.|
+C Reconnaissance... for my, uh, Recovery|QID|58391|M|61.19,60.40|Z|Revendreth|QO|1|NC|N|Run down the stairs and then click on the door.|
+C Reconnaissance... for my, uh, Recovery|QID|58391|M|61.52,60.15|Z|Revendreth|QO|2|V|N|Click on the carriage to hide and go for a ride.|
+C Reconnaissance... for my, uh, Recovery|QID|58391|M|69.94,60.20|Z|Revendreth|QO|3|NC|N|Enjoy the ride and listen for the Tithelord to disclose his plan.|
+T Reconnaissance... for my, uh, Recovery|QID|58391|M|69.89,59.96|Z|Revendreth|N|To Kael'thas Sunstrider.|
+A Death's End Destruction|QID|58392|PRE|58391|M|69.89,59.96|Z|Revendreth|N|From Kael'thas Sunstrider.|
+A Strategic Executions|QID|58393|PRE|58391|M|69.89,59.96|Z|Revendreth|N|From Kael'thas Sunstrider.|
+C Death's End Destruction|QID|58392|M|80.29,58.02|Z|Revendreth|N|Kill enemies and interact with objects to disrupt the Maldraxxus camp.|S|
+C Strategic Executions|QID|58393|M|77.25,61.11|Z|Revendreth|QO|1|N|Kill Heftor.|
+C Strategic Executions|QID|58393|M|80.80,57.63|Z|Revendreth|QO|3|N|Kill Big Shiny.|
+C Strategic Executions|QID|58393|M|80.43,64.45|Z|Revendreth|QO|2|N|Kill Stacka.|
+C Death's End Destruction|QID|58392|M|80.43,64.45|Z|Revendreth|N|Kill enemies and interact with objects to disrupt the Maldraxxus camp.|US|
+T Death's End Destruction|QID|58392|M|79.81,58.06|Z|Revendreth|N|To Kael'thas Sunstrider.|
+T Strategic Executions|QID|58393|M|79.81,58.06|Z|Revendreth|N|To Kael'thas Sunstrider.|
+A Lady Ouix'Ara|QID|58394|PRE|58392&58393|M|79.81,58.06|Z|Revendreth|N|From Kael'thas Sunstrider.|
+C Lady Ouix'Ara|QID|58394|M|78.81,62.85|Z|Revendreth|N|Kill Lady Ouix'Ara.|
+T Lady Ouix'Ara|QID|58394|M|PLAYER|Z|Revendreth|N|To Kael'thas Sunstrider.|
+A Enough Vengeance For One Day|QID|58395|PRE|58394|M|PLAYER|Z|Revendreth|N|From Kael'thas Sunstrider.|
+H Sinfall|ACTIVE|58395|M|PLAYER|Z|Revendreth|N|Hearth back or otherwise make your way to Sinfall.|
+T Enough Vengeance For One Day|QID|58395|M|51.78,37.53|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|
 
+; Chapter 7
+A Stonevigil Unrest|QID|57727|PRE|58395|M|51.78,37.53|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|
+F Darkhaven|ACTIVE|57727|M|67.31,21.48|Z|Sinfall Reaches@Sinfall!Dungeon|N|Head to the flightmaster and take a flight to Darkhaven.|
+T Stonevigil Unrest|QID|57727|M|56.32,66.71|Z|Revendreth|N|To Prince Renathal.|
+A Fangs and Minds|QID|57772|PRE|57727|M|56.32,66.71|Z|Revendreth|N|From Prince Renathal.|
+A An Unwelcome Incursion|QID|57771|PRE|57727|M|56.33,66.59|Z|Revendreth|N|From Baroness Draka.|
+A Third Talon Vartox|QID|60145|PRE|57727|M|56.33,66.59|Z|Revendreth|N|From Baroness Draka.|
+N Anima Collector|ACTIVE|57771|M|56.89,69.16|Z|Revendreth|BUFF|327012|NC|N|Look for an Anima Collector laying around the ground and click it to wear it.|
+L Supply Chain Memo|AVAILABLE|60265|M|56.89,69.16|Z|Revendreth|L|178557|N|Kill Stonevigil enemies until you find the Supply Chain Memo.|PRE|60145|
+A Disrupting the Chain|QID|60265|PRE|57727|M|56.89,69.16|Z|Revendreth|U|178557|N|Click on the memo to get the quest.|
+C Fangs and Minds|QID|57772|M|57.96,68.08|Z|Revendreth|NC|U|178213|N|Use Prince Renathal's Decree to inspire Stonevigil Citizens.|S|
+C An Unwelcome Incursion|QID|57771|M|57.45,68.22|Z|Revendreth|QO|1|N|Kill Stoneborn enemies and collect their anima.|S|
+C Third Talon Vartox|QID|60145|M|56.57,68.90|Z|Revendreth|N|Kill Third Talon Vartox.|
+C Disrupting the Chain|QID|60265|M|56.70,71.23|Z|Revendreth|QO|2|NC|N|Destroy the Manor Carriage.|
+C Disrupting the Chain|QID|60265|M|58.50,68.57|Z|Revendreth|QO|1|NC|N|Destroy the Darkhaven Carriage.|
+C An Unwelcome Incursion|QID|57771|M|57.45,68.22|Z|Revendreth|QO|1|N|Kill Stoneborn enemies and collect their anima.|US|
+C An Unwelcome Incursion|QID|57771|M|58.24,69.17|Z|Revendreth|QO|2|NC|N|Depleted Anima Well filled.|
+C Fangs and Minds|QID|57772|M|57.96,68.08|Z|Revendreth|NC|U|178213|N|Use Prince Renathal's Decree to inspire Stonevigil Citizens.|US|
+T Fangs and Minds|QID|57772|M|56.32,66.72|Z|Revendreth|N|To Prince Renathal.|
+T Disrupting the Chain|QID|60265|M|56.32,66.72|Z|Revendreth|N|To Prince Renathal.|
+T An Unwelcome Incursion|QID|57771|M|56.34,66.59|Z|Revendreth|N|To Baroness Draka.|
+T Third Talon Vartox|QID|60145|M|56.34,66.59|Z|Revendreth|N|To Baroness Draka.|
+A After Them!|QID|60183|PRE|57771&60145&57772&60265|M|56.35,66.58|Z|Revendreth|N|From Baroness Draka.|
+C After Them!|QID|60183|M|56.35,66.58|Z|Revendreth|QO|1|V|N|Hop onto Deathfang to chase the Carriage.|
+C After Them!|QID|60183|M|61.79,69.29|Z|Revendreth|QO|2|N|Kill Provisioner Kraus.|
+T After Them!|QID|60183|M|61.60,69.65|Z|Revendreth|N|To Prince Renathal.|
+A To the Estate|QID|57729|PRE|60183|M|61.60,69.65|Z|Revendreth|N|From Prince Renathal.|
+T To the Estate|QID|57729|M|71.93,68.86|Z|Revendreth|N|To Prince Renathal.|
+A The Tithelord|QID|57646|PRE|57729|M|71.93,68.86|Z|Revendreth|N|From Prince Renathal.|
+C The Tithelord|QID|57646|M|77.79,70.18|Z|Revendreth|QO|1|N|Fight the Tithelord, this is a 3 phase battle.\n\nRoughly every 1/3 of his health he will shield and run the toward his manor.\n\nOnce he's been killed, look the Medallion of Envy.|
+C The Tithelord|QID|57646|M|77.79,70.18|Z|Revendreth|QO|2|V|N|Hop on Clemency Enforcer Traal for a free ride back to Sinfall.|
+T The Tithelord|QID|57646|M|51.87,37.70|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|
 
+; Sidequest Storyline - Mirror Maker of the Master - From Revendreth guide (this is a PRE for chapter 8 and is available to everyone regardless of covenant.)
+t A Master of Their Craft|QID|60051|M|26.43,48.95|Z|Revendreth|N|To Laurent.|
+A An Unfortunate Situation|QID|57531|M|26.43,48.95|Z|Revendreth|N|From Laurent.|LVL|58|
+C An Unfortunate Situation|QID|57531|M|29.81,48.63|Z|Revendreth|N|Kill the Costel and his 2 friends in the hideout, loot him to collect Laurent's Belongings.|
+T An Unfortunate Situation|QID|57531|M|26.43,48.95|Z|Revendreth|N|To Laurent.|
+A Foraging for Fragments|QID|57532|M|26.43,48.95|Z|Revendreth|N|From Laurent.|LVL|58|PRE|57531|
+C Foraging for Fragments|QID|57532|M|25.71,48.54|Z|Revendreth|QO|1|N|Follow Laurent and defend him against attackers.|
+C Foraging for Fragments|QID|57532|M|25.71,48.54|Z|Revendreth|QO|2|NC|N|Click on the Mirror Fragment laying on the ground.|
+C Foraging for Fragments|QID|57532|M|25.53,47.37|Z|Revendreth|QO|3|N|Follow Laurent and defend him against attackers.|
+C Foraging for Fragments|QID|57532|M|25.53,47.37|Z|Revendreth|QO|4|NC|N|Click on the Mirror Fragment laying on the ground.|
+C Foraging for Fragments|QID|57532|M|24.97,48.00|Z|Revendreth|QO|5|N|Follow Laurent and defend him against attackers.|
+C Foraging for Fragments|QID|57532|M|24.97,48.00|Z|Revendreth|QO|6|NC|N|Click on the Mirror Fragment laying on the ground.|
+T Foraging for Fragments|QID|57532|M|24.26,49.40|Z|Revendreth|N|To Laurent.|
+A Moving Mirrors|QID|57571|M|24.26,49.40|Z|Revendreth|N|From Laurent.|LVL|58|PRE|57532|
+C Moving Mirrors|QID|57571|M|24.09,49.68|Z|Revendreth|QO|1|NC|N|Click on the mirrors to free Simone.|
+T Moving Mirrors|QID|57571|M|24.19,49.46|Z|Revendreth|N|To Simone.|
+A Light Punishment|QID|57533|M|24.19,49.46|Z|Revendreth|N|From Simone.|LVL|58|PRE|57571|
+A When Only Ash Remains|QID|57534|M|24.26,49.40|Z|Revendreth|N|From Laurent.|LVL|58|PRE|57571|
+C When Only Ash Remains|QID|57534|M|22.48,52.16|Z|Revendreth|N|Kill Ashen enemies.|S|
+C Light Punishment|QID|57533|M|22.48,52.16|Z|Revendreth|NC|N|Click on the mirrors around Blistering Outcasts to free them.|
+C When Only Ash Remains|QID|57534|M|22.48,52.16|Z|Revendreth|N|Kill Ashen enemies.|US|
+T When Only Ash Remains|QID|57534|M|24.26,49.40|Z|Revendreth|N|To Laurent.|
+T Light Punishment|QID|57533|M|24.19,49.46|Z|Revendreth|N|To Simone.|
+A We Need More Power|QID|59427|M|24.19,49.46|Z|Revendreth|N|From Simone.|LVL|58|PRE|57533&57534|
+A Escaping the Master|QID|57535|M|24.26,49.40|Z|Revendreth|N|From Laurent.|LVL|58|PRE|57533&57534|
+C We Need More Power|QID|59427|M|24.79,53.51|Z|Revendreth|N|Click on Anima canisters laying around the area.|S|
+C Escaping the Master|QID|57535|M|24.79,53.51|Z|Revendreth|N|Kill enemies and loot their Mirror Fragments.|
+C We Need More Power|QID|59427|M|24.79,53.51|Z|Revendreth|N|Click on Anima canisters laying around the area.|US|
+T We Need More Power|QID|59427|M|24.19,49.46|Z|Revendreth|N|To Simone.|
+T Escaping the Master|QID|57535|M|24.26,49.40|Z|Revendreth|N|To Laurent.|
+A Mirror Making, Not Breaking|QID|57536|M|24.26,49.40|Z|Revendreth|N|From Laurent.|LVL|58|PRE|59427&57535|
+C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|1|NC|N|Follow Laurent and Simone to the mirror.|
+C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|2|CHAT|N|Speak to Laurent to let him begin.|
+C Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|QO|3|N|Kill waves of enemies, defending Laurent and Simone.|
+T Mirror Making, Not Breaking|QID|57536|M|24.80,50.27|Z|Revendreth|N|To Laurent.|
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-N Safety|QID|99999|N|Safety Net.|
+; Chapter 8
+A Mirror to Maldraxxus|QID|58406|M|51.73,37.59|Z|Sinfall Reaches@Sinfall!Dungeon|N|From Prince Renathal.|PRE|57536|
+T Mirror to Maldraxxus|QID|58406|M|27.27,40.39|Z|Revendreth|N|Take the ramp and portal outside to the surface and make your way to Laurent.|
+A The Medallion of Dominion|QID|58407|PRE|58406|M|27.42,40.34|Z|Revendreth|N|From General Draven.|
+C Taking the Necropolis|ACTIVE|58407|Z|Maldraxxus|SO|1|N|Kill Necromancers until one discloses the location of Kel'Thuzad.|
+C To the Skies!|ACTIVE|58407|M|PLAYER|Z|Maldraxxus|SO|2|N|Hop onto General Draven to assist him in clearing the skies of enemies.|
+C Reanimating Your Allies|ACTIVE|58407|Z|Maldraxxus|SO|4|NC|N|Click on the giant crystals to reanimate your allies.|
+C United in Battle|ACTIVE|58407|Z|Maldraxxus|SO|5|N|Use Action Ability "[color=40C7EB]Call General Draven[/color]" to help kill Maw Infernous.|EAB|
+C The Medallion of Dominion|ACTIVE|58407|M|73.93,33.24|Z|Maldraxxus!Instance1689|SO|6|S|N|Recover the Medallion of Dominion from Kel'Thuzad.|
+T The Medallion of Dominion|QID|58407|M|51.69,37.47|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|
 ]]
 end)

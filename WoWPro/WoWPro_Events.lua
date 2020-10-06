@@ -670,7 +670,7 @@ WoWPro.RegisterEventHandler("GROUP_ROSTER_UPDATE", function(event, ...)
 	end
 end)
 
-WoWPro.RegisterEventHandler("NEW_WMO_CHUNK", function(event, ...)
+WoWPro.RegisterEventHandler("AREA_POIS_UPDATED", function(event, ...)
 	if successfulRequest then
 		WoWPro:UpdateGuide(event)
 	end
