@@ -156,7 +156,7 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 			WoWPro.Recorder.AddStep(stepInfo)
 			WoWPro.Recorder.Flights = nil
 		end
-	elseif event == "NEW_WMO_CHUNK" then
+	elseif event == "AREA_POIS_UPDATED" then
 		if WoWPro.Recorder.Portals  then
 			local subzone = _G.GetSubZoneText() or zonetag
 			local stepInfo = {
@@ -336,7 +336,7 @@ function WoWPro.Recorder.FlightStep()
     if x and y then
         mapxy = ("%.2f,%.2f"):format(x * 100, y * 100)
     end
-
+	_G.print("WoWPro Recorder: Flight is primed, take your flight.")
     WoWPro.Recorder.Flights = {
         map = mapxy,
         zone = zonetag,
@@ -357,7 +357,7 @@ function WoWPro.Recorder.PortalStep()
     if x and y then
         mapxy = ("%.2f,%.2f"):format(x * 100, y * 100)
     end
-
+	_G.print("WoWPro Recorder: Portal is primed, Step through the portal.")
     WoWPro.Recorder.Portals = {
         map = mapxy,
         zone = zonetag,
@@ -538,7 +538,7 @@ end
 
 
 function WoWPro.Recorder:RegisterEvents()
-    WoWPro.Recorder.events = {"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP", "PLAYER_CONTROL_GAINED", "NEW_WMO_CHUNK"}
+    WoWPro.Recorder.events = {"UI_INFO_MESSAGE", "CHAT_MSG_SYSTEM", "PLAYER_LEVEL_UP", "PLAYER_CONTROL_GAINED", "AREA_POIS_UPDATED"}
 
     for _, event in pairs(WoWPro.Recorder.events) do
         WoWPro.RecorderFrame:RegisterEvent(event)

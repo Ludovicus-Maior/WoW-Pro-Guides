@@ -1165,10 +1165,13 @@ function WoWPro:RowUpdate(offset)
 
 		--Guide Jump Button
 		if WoWPro.jump[k] then
-			local newguide = WoWPro.jump[k]
+			local newguide, ctID = (";"):split(WoWPro.jump[k])
 			currentRow.jumpbutton:Show()
 			currentRow.jumpbutton:SetScript("OnClick", function()
 				WoWPro:dbp("WoWPro.CompleteStep: jumping from %s to %s.",WoWProDB.char.currentguide, newguide)
+				if ctID then
+					_G.C_ChromieTime.SelectChromieTimeOption(ctID)
+				end
 				WoWPro:LoadGuide(newguide)
 			end)
 			  if not jumpkb and currentRow.targetbutton:IsVisible() and not _G.InCombatLockdown() then
@@ -2415,11 +2418,40 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 				end
 			end
 
+            if WoWPro.renown and WoWPro.renown[guideIndex] then
+				local renownID = WoWPro.renown[guideIndex]
+				local renownFlip
+                local renownMatch
+                local renown = _G.C_CovenantSanctumUI.GetRenownLevel()
+				if (renownID:sub(1, 1) == "-") then
+                    renownID = renownID:sub(2)
+                    renownFlip = true
+                end
+                if tonumber(renownID) >= renown then
+                    renownMatch = true
+                end
+                if renownFlip then
+                    renownMatch = not renownMatch
+                end
+                if renownMatch then
+                    if not renownFlip then
+                        WoWPro.CompleteStep(guideIndex, "NextStep(): Renown Level ["..renown.."] is less than "..renownID..".")
+                    end
+                    skip = true
+                else
+                    WoWPro.why[guideIndex] = "NextStep(): Renown Level ["..renownID.."] not met."
+                end
+            end
+
             if WoWPro.ilvl and WoWPro.ilvl[guideIndex] then
-                local ilvlID,ilvlFlip = (";"):split(WoWPro.ilvl[guideIndex])
-                local avgIlvl = _G.GetAverageItemLevel()
+				local ilvlID = WoWPro.ilvl[guideIndex]
+				local ilvlFlip
                 local ilvlMatch
-                ilvlFlip = WoWPro.toboolean(ilvlFlip)
+                local avgIlvl = _G.GetAverageItemLevel()
+				if (ilvlID:sub(1, 1) == "-") then
+                    ilvlID = ilvlID:sub(2)
+                    ilvlFlip = true
+                end
                 if tonumber(ilvlID) >= avgIlvl then
                     ilvlMatch = true
                 end
