@@ -1267,7 +1267,7 @@ local function TestGuideLoad(guidID)
     WoWPro:LoadGuideStepsReal()
     local nextG = WoWPro:NextGuide(guidID)
     if WoWPro.Guides[guidID].zone then
-        local zed = WoWPro.Guides[guidID].zone:match("([^%(%-]+)" ):trim()
+        local zed = WoWPro.Guides[guidID].zone
         if not WoWPro:ValidZone(zed) then
             WoWPro:Warning("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
         end
