@@ -1169,7 +1169,7 @@ function WoWPro:RowUpdate(offset)
 			currentRow.jumpbutton:Show()
 			currentRow.jumpbutton:SetScript("OnClick", function()
 				WoWPro:dbp("WoWPro.CompleteStep: jumping from %s to %s.",WoWProDB.char.currentguide, newguide)
-				if ctID then
+				if ctID and not WoWPro.CLASSIC then
 					_G.C_ChromieTime.SelectChromieTimeOption(ctID)
 				end
 				WoWPro:LoadGuide(newguide)
@@ -2395,7 +2395,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 				end
 			end
 
-			if WoWPro.covenant and WoWPro.covenant[guideIndex] then
+			if WoWPro.covenant and WoWPro.covenant[guideIndex] and not WoWPro.CLASSIC then
 				local covenant = WoWPro.covenant[guideIndex]:gsub(" ", "")
                 if covenant == "Kyrian" then
                     covenant = 1
@@ -2418,7 +2418,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 				end
 			end
 
-            if WoWPro.renown and WoWPro.renown[guideIndex] then
+            if WoWPro.renown and WoWPro.renown[guideIndex] and not WoWPro.CLASSIC then
 				local renownID = WoWPro.renown[guideIndex]
 				local renownFlip
                 local renownMatch
@@ -2523,7 +2523,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
-			if WoWPro.chromie and WoWPro.chromie[guideIndex] then
+			if WoWPro.chromie and WoWPro.chromie[guideIndex] and not WoWPro.CLASSIC then
 				if _G.C_PlayerInfo.CanPlayerEnterChromieTime() then
 					WoWPro:dbp("Player can enter Chromie Time")
                 else
@@ -2534,7 +2534,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
-            if WoWPro.fly and WoWPro.fly[guideIndex] then
+            if WoWPro.fly and WoWPro.fly[guideIndex] and not WoWPro.CLASSIC then
                 if WoWProCharDB.EnableFlight or stepAction == "R" or stepAction == "N" then
                     local expansion = WoWPro.fly[guideIndex]
                     local spellName
@@ -2632,7 +2632,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             -- Test for buildings, default is to skip if we dont have any of the named ones if all other conditions satisfied.
-            if WoWPro.building and WoWPro.building[guideIndex] and not skip then
+            if WoWPro.building and WoWPro.building[guideIndex] and not skip and not WoWPro.CLASSIC then
                 local Name,ids  = (";"):split(WoWPro.building[guideIndex],2)
                 local numList = 0
                 if ids then
@@ -2754,7 +2754,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- If the STRATEGY is already set, then this step is skipped
             -- Example:
             --     C Iron Starlette/Darkmoon Zepplin|QID|85561.1|PET1|Iron Starlette;77221;1+1+1|PET2|Darkmoon Zepplin;85561;1+1+2|PET3|Leveling;;;L>20|STRATEGY|IS/DZ|
-            if (WoWPro.pet1[guideIndex] or WoWPro.pet2[guideIndex] or WoWPro.pet3[guideIndex]) and WoWPro.strategy[guideIndex] then
+            if (WoWPro.pet1[guideIndex] or WoWPro.pet2[guideIndex] or WoWPro.pet3[guideIndex]) and WoWPro.strategy[guideIndex]  and not WoWPro.CLASSIC then
                 if not WoWProCharDB.EnablePetBattles then
                     WoWPro.why[guideIndex] = "NextStep(): Pet battles disabled."
                     skip = true
@@ -2787,7 +2787,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- Pet Strategy steps guide the user in the use of the pets.
             -- Skip over inactive strategy steps
-            if WoWPro.strategy[guideIndex] and WoWPro.current_strategy then
+            if WoWPro.strategy[guideIndex] and WoWPro.current_strategy and not WoWPro.CLASSIC then
                 if WoWPro.strategy[guideIndex] ~= WoWPro.current_strategy then
                     -- Step is for strategy not active
                     WoWPro.why[guideIndex] = "NextStep(): not active strategy " ..  WoWPro.current_strategy
@@ -2796,13 +2796,13 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
             -- If we have an active strategy, skip over any N steps for now.
-            if WoWPro.current_strategy and stepAction == "N" then
+            if WoWPro.current_strategy and stepAction == "N" and not WoWPro.CLASSIC then
                 WoWPro.why[guideIndex] = "NextStep(): active strategy " ..  WoWPro.current_strategy .. ". Skip note."
                 skip = true
                 break
             end
             -- So we are in an active strategy step
-            if WoWPro.PetBattleActive and WoWPro.strategy[guideIndex] and WoWPro.current_strategy and WoWPro.strategy[guideIndex] == WoWPro.current_strategy then
+            if WoWPro.PetBattleActive and WoWPro.strategy[guideIndex] and WoWPro.current_strategy and WoWPro.strategy[guideIndex] == WoWPro.current_strategy  and not WoWPro.CLASSIC then
                 if WoWPro.select[guideIndex] then
                     -- make sure this pet is active
                     WoWPro.PetSelect(WoWPro.select[guideIndex])
