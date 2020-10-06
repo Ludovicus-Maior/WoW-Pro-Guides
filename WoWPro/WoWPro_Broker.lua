@@ -1170,7 +1170,7 @@ function WoWPro:RowUpdate(offset)
 			currentRow.jumpbutton:SetScript("OnClick", function()
 				WoWPro:dbp("WoWPro.CompleteStep: jumping from %s to %s.",WoWProDB.char.currentguide, newguide)
 				if ctID then
-					C_ChromieTime.SelectChromieTimeOption(ctID)
+					_G.C_ChromieTime.SelectChromieTimeOption(ctID)
 				end
 				WoWPro:LoadGuide(newguide)
 			end)
