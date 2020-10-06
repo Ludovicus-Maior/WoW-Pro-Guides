@@ -71,7 +71,7 @@ C Eternal Vigil|QID|42869|QO|1|M|94.25,63.07|Z|Dalaran!Dalaran!Dungeon|N|Glide t
 T Eternal Vigil|QID|42869|M|95.15,66.03|Z|Dalaran!Dalaran!Dungeon|N|To Jace Darkweaver.|
 A Securing the Way|QID|42872|M|95.15,66.03|Z|Dalaran!Dalaran!Dungeon|N|From Jace Darkweaver.|PRE|42869|
 C Securing the Way|QID|42872|QO|1|M|96.47,66.29|Z|Dalaran!Dalaran!Dungeon|N|Click the extra action button to remove the souls of the captives.|
-C Securing the Way|QID|42872|QO|2|M|97.72,68.79|Z|Dalaran!Dalaran!Dungeon|N|Click on the Illidary Gateway.|
+C Securing the Way|QID|42872|QO|2|M|97.72,68.79|Z|Dalaran!Dalaran!Dungeon|N|Click on the Illidari Gateway.|
 T Securing the Way|QID|42872|M|95.17,66.00|Z|Dalaran!Dalaran!Dungeon|N|To Jace Darkweaver.|
 A Return to Mardum|QID|41033^41221|M|95.02,66.10|Z|Dalaran!Dalaran!Dungeon|N|From Matron Mother Malevolence.|PRE|42872|
 R The Fel Hammer|ACTIVE|41033^41221|M|97.72,68.79|Z|Dalaran!Dalaran!Dungeon|N|Run and click into the Gateway.|
@@ -89,7 +89,7 @@ T The Hunter's Gaze|QID|41066|M|59.39,51.34|Z|Lower Command Center!Mardum, the S
 A Time is of the Essence|QID|41096^41067|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Allari the Souleater.|PRE|41066|
 T Time is of the Essence|QID|41096^41067|M|58.65,57.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury back up top.|
 A Direct Our Wrath|QID|41099^41069|M|58.65,57.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Kayn Sunfury or Altruis the Sufferer.|PRE|41096^41067|
-C Direct Our Wrath|QID|41099^41069|QO|1|N|Select the first questing zone. Val'sharah is highly recommmended|
+C Direct Our Wrath|QID|41099^41069|QO|1|N|Select the first questing zone. Val'sharah is highly recommended|
 T Direct Our Wrath|QID|41099^41069|M|58.65,57.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer or Kayn Sunfury.|
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
@@ -124,7 +124,7 @@ A Artifact specific quest|QID|41120^40819^40247^41803|M|58.63,57.85|Z|Upper Comm
 ;light's heart intro questline
 A A Falling Star|QID|44009|M|28.44,48.35|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar in The Violet Citadel.|PRE|44379^44383|
 C A Falling Star|QID|44009|QO|1|M|69.69,51.34|Z|Dalaran!Dalaran!Dungeon|CHAT|N|Tell Flightmaster Aludane Whitecloud 'I'm ready to go to Suramar'.|
-C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to sea and then straight down to invistigate the site on the ocean floor.|
+C A Falling Star|QID|44009|QO|2|M|91.96,61.20|Z|Suramar|NC|N|Swim out to sea and then straight down to investigate the site on the ocean floor.|
 C A Falling Star|QID|44009|QO|3|M|94.79,64.01;94.32,66.43|CS|Z|Suramar|NC|N|Swim down and investigate the underwater cave.|
 C A Falling Star|QID|44009|QO|4|M|94.36,67.17|Z|Suramar|T|Yorg Murkmouth|N|Kill Yorg and take the object.|
 P Dalaran|ACTIVE|44009|M|94.36,67.17|Z|Suramar|U|140192|N|Use your Dalaran Hearthstone or otherwise return to Dalaran.|
@@ -207,7 +207,7 @@ t Securing Mardum|QID|42802|M|57.59,52.31|Z|Upper Command Center!Mardum, the Sha
 C Working With the Wardens|QID|42731|M|58.12,54.02|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Use Scouting Map to complete WWtW Missions listed.|
 t Working With the Wardens|QID|42731|M|57.59,52.31|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Belath Dawnblade.|
 A Green Adepts|QID|42808|PRE|42802|M|57.59,52.31|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Belath Dawnblade.|
-C Green Adepts|QID|42808|M|57.59,52.31|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|CHAT|N|Talk to Ariana Fireheart.|
+C Green Adepts|QID|42808|M|58.65,38.95|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|CHAT|N|Talk to Ariana Fireheart.|
 T Green Adepts|QID|42808|M|57.59,52.31|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Belath Dawnblade.|
 ; LVL 110 Quests, or part thereof...
 A Goddess Watch Over You|QID|44337^44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|
