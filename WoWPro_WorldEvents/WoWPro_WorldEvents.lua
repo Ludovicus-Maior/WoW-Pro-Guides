@@ -75,7 +75,7 @@ function WoWPro.WorldEvents:LoadAllGuides()
         if WoWPro.Guides[guidID].guidetype == "WorldEvents" then
             self:Print("Test Loading " .. guidID)
             WoWPro:LoadGuide(guidID)
-            zed = WoWPro.Guides[guidID].zone:match("([^%(%-]+)" ):trim()
+            zed = WoWPro.Guides[guidID].zone
             if not WoWPro:ValidZone(zed) then
                 WoWPro:Error("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
             end
@@ -86,4 +86,3 @@ function WoWPro.WorldEvents:LoadAllGuides()
     end
     self:Print(("Done! %d A, %d N, %d H guides present"):format(aCount, nCount, hCount))
 end
-

@@ -67,7 +67,7 @@ function WoWPro.Profession:LoadAllGuides()
             self:Print("Test Loading " .. guidID)
             WoWPro:LoadGuide(guidID)
 
-            zed = WoWPro.Guides[guidID].zone:match("([^%(%-]+)" ):trim()
+            zed = WoWPro.Guides[guidID].zone
             if not WoWPro:ValidZone(zed) then
                 WoWPro:Error("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
             end

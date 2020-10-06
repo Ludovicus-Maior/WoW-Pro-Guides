@@ -68,7 +68,7 @@ function WoWPro.Achievements:LoadAllGuides()
         if WoWPro.Guides[guidID].guidetype == "Achievements" then
             self:Print("Test Loading " .. guidID)
             WoWPro:LoadGuide(guidID)
-            zed = WoWPro.Guides[guidID].zone:match("([^%(%-]+)" ):trim()
+            zed = WoWPro.Guides[guidID].zone
             if not WoWPro:ValidZone(zed) then
                 self:Error("Invalid guide zone:"..(WoWPro.Guides[guidID].zone))
             end
