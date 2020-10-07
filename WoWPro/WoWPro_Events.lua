@@ -130,20 +130,42 @@ function WoWPro:AutoCompleteGetFP(...)
     end
 end
 
-function WoWPro:CheckPlayerForBuffs(buffs)
+function WoWPro:CheckAnimaPowers()
+	local numBuffs = 0
+	for i=1, 44 do
+		local _, _, count, _, _, _, _, _, _, spellID = UnitAura("player", i, "MAW")
+		if spellID then
+			numBuffs = numBuffs + 1
+		end
+	end
+	return numBuffs
+end
+
+function WoWPro:CheckPlayerForBuffs(mybuff, mycount)
+	local buffs, bcount= ("<"):split(mybuff)
+	mycount = tonumber(mycount) or nil
+	if not bcount and mycount then
+		bcount = tonumber(mycount)
+	end
     local buffies = {}
     -- Build table of all active buffs
     local BuffIndex = 1
     local BuffString = ""
-    local BuffName, _, _, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,"HARMFUL|HELPFUL")
-    while BuffName do
-        buffies[BuffSpellId] = true
+    local BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,"HARMFUL|HELPFUL")
+	while BuffName do
+		if bcount and BuffSpellId == tonumber(buffs) then
+			if tonumber(bcount) <= BuffCount then
+				buffies[BuffSpellId] = true
+			end
+		else
+			buffies[BuffSpellId] = true
+		end
         if BuffIndex > 1 then
             BuffString = BuffString .. ","
         end
         BuffString = BuffString .. ("%s(%d)"):format(BuffName, BuffSpellId)
         BuffIndex = BuffIndex + 1
-        BuffName, _, _, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,"HARMFUL|HELPFUL")
+        BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,"HARMFUL|HELPFUL")
     end
     WoWPro:dbp("CheckPlayerForBuffs(%s): %s", buffs, BuffString)
     return WoWPro:QIDInTable(buffs, buffies)
@@ -675,6 +697,18 @@ WoWPro.RegisterEventHandler("AREA_POIS_UPDATED", function(event, ...)
 		WoWPro:UpdateGuide(event)
 	end
 end)
+
+if not WoWPro.CLASSIC then
+	WoWPro.RegisterEventHandler("PLAYER_CHOICE_CLOSE", function(event, ...)
+		if successfulRequest then
+			if _G.IsInJailersTower() and not _G.C_PlayerChoice.IsWaitingForPlayerChoiceResponse() then
+				print("update choice")
+				WoWPro.AnimaPowers = WoWPro.AnimaPowers + 1
+				WoWPro:UpdateGuide(event)
+			end
+		end
+	end)
+end
 
 WoWPro.RegisterEventHandler("CHAT_MSG_ADDON", function (event,...)
 	local _, prefix, text, _, sender = event, ...

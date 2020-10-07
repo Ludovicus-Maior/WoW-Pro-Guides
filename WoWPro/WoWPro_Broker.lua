@@ -10,6 +10,8 @@
 -- Is nil when no scenario is active
 -- Is a table when a scenario is ongoing
 WoWPro.Scenario = nil
+WoWPro.AnimaPowers = 0
+WoWPro.LastAP = 0
 WoWPro.GroupSync = false
 WoWPro.mygroupsteps = {}
 WoWPro.myGroupTrack = {}
@@ -2596,15 +2598,14 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
             -- This tests for spells that are cast on you and show up as buffs
             if WoWPro.buff and WoWPro.buff[guideIndex] then
-				local mybuff = WoWPro.buff[guideIndex]
+				local mybuff,buffCount= ("<"):split(WoWPro.buff[guideIndex])
 				local mybuffFlip = mybuff
 				if (mybuff:sub(1, 1) == "-") then
                     mybuff = mybuff:sub(2)
                     mybuffFlip = nil
                 end
-                local buffy = WoWPro:CheckPlayerForBuffs(mybuff)
-
-                if (buffy == mybuffFlip) then
+                local buffy = WoWPro:CheckPlayerForBuffs(mybuff, buffCount)
+                if (tonumber(buffy) == tonumber(mybuffFlip)) then
                     skip = true
                     local why = ("Skipping because buff #%d"):format(buffy)
                     WoWPro.why[guideIndex] = why
@@ -2613,6 +2614,23 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                 end
             end
 
+			if WoWPro.animapower and WoWPro.animapower[guideIndex] and not WoWPro.CLASSIC then
+				local numBuffs = WoWPro:CheckAnimaPowers()
+				if not numBuffs then
+					WoWPro.AnimaPowers = 0
+				elseif numBuffs == 0  then
+					WoWPro.AnimaPowers = 0
+				end
+				if  WoWPro.AnimaPowers > WoWPro.LastAP then
+					WoWPro.LastAP = WoWPro.AnimaPowers
+                    skip = true
+                    local why = ("Skipping because you gained Anima Power: #%d"):format(numBuffs)
+                    WoWPro.why[guideIndex] = why
+                    WoWPro:dbp(why);
+					WoWPro.CompleteStep(guideIndex, why)
+                    break
+                end
+            end
             -- Test for pets
             if WoWPro.pet and WoWPro.pet[guideIndex] then
                 local petID,petCount,petFlip = (";"):split(WoWPro.pet[guideIndex])
