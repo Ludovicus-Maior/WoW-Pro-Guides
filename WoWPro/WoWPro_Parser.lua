@@ -288,7 +288,8 @@ DefineTag("V","vehichle","boolean",nil,nil) -- Yeah, that is how blizzard spelle
 
 -- Conditionals
 DefineTag("ACH","ach","string",nil,nil)
-DefineTag("BUFF","buff","string",validate_andor_list_of_ints,nil)
+DefineTag("AP","animapower","boolean",nil,nil)
+DefineTag("BUFF","buff","string",nil,nil)
 DefineTag("BUILDING","building","string",nil,nil)
 DefineTag("COV","covenant","string",nil,nil)
 DefineTag("DATE", "serverdate","string",nil,nil)
