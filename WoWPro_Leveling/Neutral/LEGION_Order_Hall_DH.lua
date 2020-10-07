@@ -212,13 +212,15 @@ T Green Adepts|QID|42808|M|57.59,52.31|Z|Upper Command Center!Mardum, the Shatte
 ; LVL 110 Quests, or part thereof...
 A Goddess Watch Over You|QID|44337^44338|M|49.75,55.89|NC|N|From Archmage Khadgar (or more accurately his head in a purple floating sphere).|
 C Goddess Watch Over You|QID|44338^44338|N|You need to do the main Val'sharah quest line to complete this quest.|
-t Goddess Watch over You|QID|44337^44338|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar.|
+t Goddess Watch Over You|QID|44337^44338|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Khadgar inside The Violet Citadel in Dalaran.|
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|40890|
-R Death Gate|QID|44448|M|28.43,40.38|Z|Dalaran!Dalaran!Dungeon|N|Return to your order hall.|ACTIVE|44448|
+R Illidari Gateway|ACTIVE|44448|M|97.18,68.28|Z|Dalaran!Dalaran!Dungeon|N|Return to your order hall.|
 C In the House of Light and Shadow|QID|44448|M|54.22,74.67|N|Before you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran.|
 A Firing Up the Forge|QID|41778|M|42.71,28.43|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Karlain.|
-C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran!Dalaran!Dungeon|QO|1|N|1/1 Handful of Obliterum Ash|
+C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran!Dalaran!Dungeon|QO|1|N|Right-click on the Obliterum Forge and drag Archmage Karlain's Imbued Silkweave Robe from your bags to the window that opens. Click on 'Obliterate' to collect the ashes.|NC||
 T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Karlain.|
+R Illidari Gateway|AVAILABLE|44213|M|97.18,68.28|Z|Dalaran!Dalaran!Dungeon|TZ|The Fel Hammer|N|Return to your order hall.|
+C Working With the Wardens|QID|42731|M|58.12,54.02|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Use Scouting Map to complete WWtW Missions listed.\n[color=FF0000]NOTE: [/color]You must finish this before going any further.|US|
 A You Will Be Prepared!|QID|44213|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Belath Dawnblade.|
 T You Will Be Prepared!|QID|44213|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Belath Dawnblade.|
 A Deal With It Personally|QID|42787|PRE|44213|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Belath Dawnblade.|
@@ -250,8 +252,8 @@ C Sargerite Keystone|QID|42752^42753|N|This is a Dungeon Quest in "Vault of the 
 T Vault of the Wardens: Vault Break-In|QID|42752^42753|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Belath Dawnblade.|
 A The Crux of the Plan|QID|42775|PRE|42752^42753|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Belath Dawnblade.|
 C Sargerite Keystone|QID|42775|QO|1|M|58.12,54.02|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Go the command table and click on the key above.|
-T The Crux of the Plan|QID|42775|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer / Kayn Sunfury.\nUse Spectal Sight if they are hiding.|
-A Two Worthies|QID|42776|PRE|42775|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer / Kayn Sunfury.\nUse Spectal Sight if they are hiding.|
+T The Crux of the Plan|QID|42775|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Altruis the Sufferer / Kayn Sunfury.\nUse Spectral Sight if they are hiding.|
+A Two Worthies|QID|42776|PRE|42775|M|58.63,57.85|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Altruis the Sufferer / Kayn Sunfury.\nUse Spectral Sight if they are hiding.|
 C Belath Dawnblade|QID|42776|QO|1|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|CHAT|N|Recruit Belath Dawnblade.|
 C Malevolence|QID|42776|QO|2|M|59.90,48.92|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|CHAT|N|Recruit Matron Mother Malevolence.|
 T Two Worthies|QID|42776|M|59.39,51.34|Z|Lower Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Allari the Souleater, downstairs.|
