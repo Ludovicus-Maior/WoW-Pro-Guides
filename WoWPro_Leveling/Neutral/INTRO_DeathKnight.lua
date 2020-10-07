@@ -111,7 +111,7 @@ C A Special Surprise|QID|12747|R|Blood Elf|N|Put your ghoul on passive mode (if 
 C A Special Surprise|QID|12748|R|Orc|N|Put your ghoul on passive mode (if you have one), listen to Kug Ironjaw's speech and kill him.|M|53.77,83.28|
 C A Special Surprise|QID|12749|R|Troll|N|Put your ghoul on passive mode (if you have one), listen to Iggy Darktusk's speech and kill him.|M|53.81,83.75|
 C A Special Surprise|QID|12750|R|Undead|N|Put your ghoul on passive mode (if you have one), listen to Antoine Brack's speech and kill him.|M|53.54,83.31|
-C A Special Surprise|QID|28650|R|Goblin|N|Put your ghoul on passive mode (if you have one), listen toGally Lumpstain's speech and kill her.|M|53.54,83.6|
+C A Special Surprise|QID|28650|R|Goblin|N|Put your ghoul on passive mode (if you have one), listen to Gally Lumpstain's speech and kill her.|M|53.54,83.6|
 T A Special Surprise|QID|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|N|To Knight Commander Plaguefist.|M|52.9,81.5|
 A A Sort Of Homecoming|QID|12751|PRE|12739^12742^12743^12744^12745^12746^12747^12748^12749^12750^28649^28650|M|52.9,81.5|N|From Knight Commander Plaguefist.|
 T A Sort Of Homecoming|QID|12751|N|To Thassarian.|M|56.3,80.2|
