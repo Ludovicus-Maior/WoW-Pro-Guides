@@ -133,7 +133,7 @@ end
 function WoWPro:CheckAnimaPowers()
 	local numBuffs = 0
 	for i=1, 44 do
-		local _, _, count, _, _, _, _, _, _, spellID = UnitAura("player", i, "MAW")
+		local _, _, _, _, _, _, _, _, _, spellID = _G.UnitAura("player", i, "MAW")
 		if spellID then
 			numBuffs = numBuffs + 1
 		end
@@ -702,7 +702,6 @@ if not WoWPro.CLASSIC then
 	WoWPro.RegisterEventHandler("PLAYER_CHOICE_CLOSE", function(event, ...)
 		if successfulRequest then
 			if _G.IsInJailersTower() and not _G.C_PlayerChoice.IsWaitingForPlayerChoiceResponse() then
-				print("update choice")
 				WoWPro.AnimaPowers = WoWPro.AnimaPowers + 1
 				WoWPro:UpdateGuide(event)
 			end
