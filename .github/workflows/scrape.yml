@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2	
       with:
-        ref: 'master'
+        ref: 'main'
 
     - name: Install the python dependencies and do the scraping
       run: |
