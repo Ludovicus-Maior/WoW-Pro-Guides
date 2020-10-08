@@ -288,7 +288,7 @@ C Tough Love|QID|57568|M|46.31,56.71|QO|1|Z|Bastion|N|Head over to Kala's Den an
 C Tough Love|QID|57568|M|46.31,56.71|QO|2|Z|Bastion|N|Grab the stick.|RANK|2|
 T Tough Love|QID|57568|M|51.33,59.57|Z|Bastion|N|To Zosime.|RANK|2|
 
-C More Than A Gift|QID|62715|M|45.56,59.70|Z|Bastion|NC|N|Click on the flower.|TOF|
+C More Than A Gift|QID|62715|CS|M|46.86,49.16;45.56,59.70|Z|Bastion|NC|N|Click on the flower.|RANK|2|
 R Hero's Rest|ACTIVE|62715|M|46.86,49.10|Z|Bastion|N|Run up the hill and take the anima gateway into Hero's Rest.|TOF|
 t Bolstering Bastion|QID|62723|M|51.12,46.80|Z|Bastion|N|To Kalisthene. /nIf you are in Hero's Rest, turn in this quest. If not, check it off manually and get it next time you are there if you are still having fun in Bastion. Go turn in now if you want to move on to another zone.|
 A Return to Oribos|QID|62729|M|51.12,46.80|Z|Bastion|N|From Kalisthene.|PRE|62723|TOF|
@@ -317,9 +317,10 @@ R West Anima Gateway|ACTIVE|59554|M|46.88,48.98|Z|Bastion|CC|N|Note, there are t
 R Firstborne's Bounty|ACTIVE|60315|M|48.77,47.19|Z|Bastion|N|Run down in the valley to find Gorgebeak.|RANK|2|
 C WANTED: Gorgebeak|QID|60315|M|53.57,46.43|Z|Bastion|N|[color=ff8000]Elite: [/color]Kill Gorgebeak.|RANK|2|
 T WANTED: Gorgebeak|QID|60315|M|51.00,41.66|Z|Bastion|ELITE|N|To Gerdus.|RANK|2|
+
 H Hero's Rest|ACTIVE|62715|M|PLAYER|N|Hearth or otherwise travel down to Aspirant's Rest.|RANK|2|
 T More Than A Gift|QID|62715|M|53.87,73.95|Z|Bastion|N|To Acolyte Amalthina|RANK|2|
-C More Than A Gift|QID|62715|CS|M|46.86,49.16;45.56,59.70|Z|Bastion|NC|N|Click on the flower.|RANK|2|
+
 
 ; Side Quest stuff - In Agthia's Memory
 R Agthia's Repose|ACTIVE|59554|M|46.96,63.44|Z|Bastion|N|Follow the road generally Northward to Agthia's Repose.|
