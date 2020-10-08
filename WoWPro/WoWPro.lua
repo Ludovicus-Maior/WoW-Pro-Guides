@@ -11,6 +11,7 @@
 WoWPro = _G.LibStub("AceAddon-3.0"):NewAddon("WoWPro","AceEvent-3.0", "AceBucket-3.0")
 WoWPro.Version = _G.GetAddOnMetadata("WoWPro", "Version")
 WoWPro.DebugLevel = 0
+WoWPro.CombatLock = false
 WoWPro.Guides = {}
 WoWPro.InitLockdown = false  -- Set when the addon is loaded
 WoWPro.Log = {}
@@ -1144,6 +1145,20 @@ function WoWPro.LevelColor(guide)
         end
     end
 
+end
+
+function WoWPro.ShowFrame(enabled, msg, event)
+	if enabled then
+		WoWPro:Print(msg)
+		WoWPro.MainFrame:Hide()
+		WoWPro.Titlebar:Hide()
+		WoWPro.Hidden = event
+	else
+		WoWPro:Print(msg)
+        WoWPro.MainFrame:Show()
+        WoWPro:TitlebarShow()
+        WoWPro.Hidden = nil
+	end
 end
 
 -- Creating a Table of Guides for the Guide List and sorting based on level --
