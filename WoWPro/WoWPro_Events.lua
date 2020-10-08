@@ -544,18 +544,14 @@ WoWPro.RegisterEventHandler("ZONE_CHANGED", function(event, ...)
             WoWProCharDB.AutoHideWorldEventsInsideInstances = false
             return
         end
-        if _G.IsInInstance() then
-            WoWPro:Print("|cff33ff33Instance Auto Hide|r: %s Module",guidetype)
-            WoWPro.MainFrame:Hide()
-            WoWPro.Titlebar:Hide()
-            WoWPro.Hidden = event
+        if _G.IsInInstance() and not WoWPro.MaybeCombatLockdown() then
+            WoWPro.ShowFrame(true, "|cff33ff33Instance Auto Hide|r: WoWPro Module", event)
             return
-        elseif WoWPro.Hidden == true then
-            WoWPro:Print("|cff33ff33Instance Exit Auto Show|r: %s Module",guidetype)
-            WoWPro.MainFrame:Show()
-            WoWPro:TitlebarShow()
-            WoWPro.Hidden = nil
-        end
+        elseif WoWPro.Hidden == true and not WoWPro.MaybeCombatLockdown() then
+            WoWPro.ShowFrame(false, "|cff33ff33Instance Exit Auto Show|r: WoWPro Module", event)
+		elseif WoWPro.Hidden == true or _G.IsInInstance() then
+			WoWPro.CombatLock = true
+		end
     end
     if WoWPro.Ready(event) then
         WoWPro.AutoCompleteZone(...)
@@ -674,7 +670,14 @@ WoWPro.RegisterEventHandler("PLAYER_REGEN_DISABLED", function(event, ...)
 
 WoWPro.RegisterEventHandler("PLAYER_REGEN_ENABLED", function(event, ...)
     -- Combat lockdown ends before this event fires
-    if WoWPro.Hidden then
+	if WoWPro.CombatLock then
+		if _G.IsInInstance() then
+            WoWPro.ShowFrame(true, "|cff33ff33Punted Instance Auto Hide|r: WoWPro Module", event)
+        elseif WoWPro.Hidden == true then
+            WoWPro.ShowFrame(false, "|cff33ff33Punted Instance Exit Auto Show|r: WoWPro Module", event)
+		end
+		WoWPro.CombatLock = false
+	elseif WoWPro.Hidden then
         WoWPro.MainFrame:Show()
         WoWPro:TitlebarShow()
     end
