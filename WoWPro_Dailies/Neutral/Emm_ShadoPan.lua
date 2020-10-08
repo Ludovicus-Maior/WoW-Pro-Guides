@@ -155,7 +155,7 @@ C The Enemy of My Enemy...Is Still My Enemy!|QID|31119|M|58,50|U|84762|N|Whilst 
 T The Enemy of My Enemy... Is Still My Enemy!|QID|31119|M|49.5,70.5|N|You can turn this in straight away with your Shado-pan companion, or wait until you return to Master Snowdrift.|S|
 
 ;I was NOT offered this quest at this point, even though I had both 31113 and 31119 completed
-;A Cheng Bo!|QID|31120|PRE|31113;31119|M|49.5,70.5|N|From Master Snowdrift (or UI alert if you turned the previous quests in at a companion).|
+;A Cheng Bo!|QID|31120|PRE|31113^31119|M|49.5,70.5|N|From Master Snowdrift (or UI alert if you turned the previous quests in at a companion).|
 C Cheng Bo!|QID|31120|T|Cheng Bo|M|60.8,42|N|You will get credit for the kill, even if another player attacked him first.|
 
 C Assault Deadtalker's Plateau|QID|31114|M|51,53|S|N|You'll need to kill just one of the elite Crushers and eight of the Corpsedefiler whilst working on the Defiled Spirits.|

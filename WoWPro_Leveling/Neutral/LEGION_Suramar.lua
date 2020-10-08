@@ -999,8 +999,8 @@ H Shal'Aran|ACTIVE|44053|M|47.75,81.38|N|Use your Hearthstone (If set to Shal'Ar
 T Friends With Benefits|QID|44053|M|36.56,46.77|N|To First Arcanist Thalyssra.|
 ;Mythic Dungeon Quests now available
 ; N Opening the Arcway|QID|42490|PRE|44053|M|36.56,46.77|NA|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest* \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.||
-; N Beware the Fury of a Patient Elf|QID|43314|PRE|44053;43313|M|36.56,46.77|NA|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest* \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.||
-; N Long Buried Knowledge|QID|42491|PRE|44053;43313|M|37.02,46.21|NA|N|From Arcanist Valtrois. *Mythic Dungeon Quest* \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.||
+; N Beware the Fury of a Patient Elf|QID|43314|PRE|44053^43313|M|36.56,46.77|NA|N|From First Arcanist Thalyssra. *Mythic Dungeon Quest* \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.||
+; N Long Buried Knowledge|QID|42491|PRE|44053^43313|M|37.02,46.21|NA|N|From Arcanist Valtrois. *Mythic Dungeon Quest* \n\nWith 7.2 this was added to the Heroic Dungeon rotation, you might get credit as a Heroic now.||
 ; Good Suramaritan - A Growing Crisis Story Arc
 t Growing Strong|QID|44562|M|36.54,46.77|N|To Valewalker Farodin.|
 A Redemption for the Fallen|QID|44563|PRE|44562|M|36.54,46.77|N|From Valewalker Farodin.|
