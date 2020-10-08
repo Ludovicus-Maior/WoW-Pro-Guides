@@ -282,8 +282,8 @@ R West Anima Gateway|ACTIVE|59554|M|46.88,48.98|Z|Bastion|CC|N|Note, there are t
 R Firstborne's Bounty|ACTIVE|60315|M|48.77,47.19|Z|Bastion|N|Run down in the valley to find Gorgebeak.|RANK|2|
 C WANTED: Gorgebeak|QID|60315|M|53.57,46.43|Z|Bastion|N|[color=ff8000]Elite: [/color]Kill Gorgebeak.|RANK|2|
 T WANTED: Gorgebeak|QID|60315|M|51.00,41.66|Z|Bastion|ELITE|N|To Gerdus.|RANK|2|
-H Hero's Rest|ACTIVE|59554|M|PLAYER|N|Hearth or otherwise travel back to the Hero's Rest West Portal.|RANK|2|
-C More Than A Gift|QID|62715|M|46.86,49.16;45.56,59.70|CS|Z|Bastion|NC|N|Click on the flower.|RANK|2|
+H Hero's Rest|ACTIVE|60315^60366|M|PLAYER|N|Hearth or otherwise travel back to the Hero's Rest West Portal.|RANK|2|
+C More Than A Gift|QID|62715|CS|M|46.86,49.16;45.56,59.70|Z|Bastion|NC|N|Click on the flower.|RANK|2|
 
 ; Side Quest stuff - In Agthia's Memory
 T A Fine Journey|QID|59554|M|46.96,63.44|Z|Bastion|N|To Keeper Mnemis.|RANK|2|
@@ -341,7 +341,7 @@ A Superior Programming|QID|57936|M|54.78,41.25|Z|Bastion|N|From Hopo.|PRE|57933|
 C Combat Drills|QID|57934|M|55.35,42.02|QO|1|Z|Bastion|NC|N|Click on Gatamatos.|RANK|2|
 C Laser Location|QID|57935|M|55.78,42.59|QO|1|Z|Bastion|NC|N|Click on Gatamatos.|RANK|2|
 C Combat Drills|QID|57934|M|55.78,42.59|QO|2|Z|Bastion|N|Kill the Etherwyrms with Gatamatos at your side.|S|RANK|2|
-R Hall of Beasts|ACTIVE|57935|M|56.71,42.68;56.13,40.28|CS|Z|Bastion|N|Run into the Hall of Beasts.|RANK|2|
+R Hall of Beasts|ACTIVE|57935|CS|M|56.71,42.68;56.13,40.28|Z|Bastion|N|Run into the Hall of Beasts.|RANK|2|
 C Laser Location|QID|57935|M|55.35,42.02|QO|2|Z|Bastion|N|Click the "[color=40C7EB]Order Search[/color]" Action Ability to have Gatamatos search for gems.|EAB|S|RANK|2|
 C Superior Programming|QID|57936|M|56.13,40.28|Z|Bastion|N|Kill Leonid.|RANK|2|T|Leonid|
 $ Larion Tamer's Harness|QID|61049|M|58.23,39.97|N|Treasure for your enjoyment.|
