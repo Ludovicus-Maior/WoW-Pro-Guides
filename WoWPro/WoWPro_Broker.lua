@@ -127,7 +127,19 @@ function WoWPro.stack(level)
     end
 end
 
--- See if any of the list of QIDs are in the indicated table.
+-- See if any of the list of QIDs are in the indicated table, respecting logical separators
+function WoWPro:QIDsInTableLogical(QIDs,tabla, abs_quid, debug, why)
+    if debug or quids_debug then
+        WoWPro:dbp("WoWPro:QIDsInTableLogical(%s,%s)",tostring(QIDs),tostring(tabla))
+    end
+    local value = QidMapReduce(QIDs,false,"^","&",function (qid) return tabla[qid] end, why or "QIDsInTableLogical", debug or quids_debug, abs_quid)
+    if debug or quids_debug then
+        WoWPro:dbp("WoWPro:QIDsInTableLogical(%s) return %s",tostring(QIDs),tostring(value))
+    end
+    return value
+end
+
+-- See if any of the list of QIDs are in the indicated table, ignoring logical separators
 function WoWPro:QIDsInTable(QIDs,tabla, abs_quid, debug, why)
     if debug or quids_debug then
         WoWPro:dbp("WoWPro:QIDsInTable(%s,%s)",tostring(QIDs),tostring(tabla))
@@ -1578,7 +1590,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             -- A/$ Steps --
-            if (stepAction == "A" or stepAction == "$") and WoWPro:QIDsInTable(QID, WoWPro.QuestLog) then
+            if (stepAction == "A" or stepAction == "$") and WoWPro:QIDsInTableLogical(QID, WoWPro.QuestLog) then
                 if WoWPro.fail[guideIndex] then
                     if WoWPro:QuestFailed(QID) then
                         -- Time to turn this on!
@@ -1634,7 +1646,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
             -- Check for must be active quests
             if WoWPro.active and WoWPro.active[guideIndex] then
-                if not WoWPro:QIDsInTable(WoWPro.active[guideIndex],WoWPro.QuestLog) then
+                if not WoWPro:QIDsInTableLogical(WoWPro.active[guideIndex],WoWPro.QuestLog) then
                     skip = true -- If the quest is not in the quest log, the step is skipped --
                     WoWPro.why[guideIndex] = "NextStep(): Skipping step necessary ACTIVE quest is not in QuestLog."
                     break
@@ -1651,7 +1663,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     break
                 end
                 -- Ready to Jump or be Done
-                if QID and not WoWPro:QIDsInTable(QID,WoWPro.QuestLog) then
+                if QID and not WoWPro:QIDsInTableLogical(QID,WoWPro.QuestLog) then
                     -- Our QID is not active, we must skip.
                     skip = true
                     WoWPro.why[guideIndex] = "NextStep(): QID not in QuestLog"
@@ -1791,7 +1803,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             -- C step implicit completion
-            if (stepAction == "C") and WoWPro:QIDsInTable(QID,WoWPro.QuestLog) and (not WoWPro.questtext[guideIndex]) then
+            if (stepAction == "C") and WoWPro:QIDsInTableLogical(QID,WoWPro.QuestLog) and (not WoWPro.questtext[guideIndex]) then
                 if QidMapReduce(QID,false,"&","^",function (qid) return WoWPro.QuestLog[qid] and WoWPro.QuestLog[qid].complete end) then
                     WoWPro.CompleteStep(guideIndex,"Implicit criteria met")
                 end
@@ -1868,7 +1880,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- Skip C or T steps if not in QuestLog
             if (stepAction == "C" or stepAction == "T") and QID then
                 -- WoWPro:Print("LFO: %s [%s/%s] step %s",stepAction,step,QID,guideIndex)
-                if not WoWPro:QIDsInTable(QID, WoWPro.QuestLog) then
+                if not WoWPro:QIDsInTableLogical(QID, WoWPro.QuestLog) then
 					-- Check if a groupmate is working on it.
 					if not WoWPro.mygroupsteps[guideIndex]  or (WoWPro.mygroupsteps[guideIndex] and stepAction == "T") then
 						skip = true -- If the quest is not in the quest log, the step is skipped --
