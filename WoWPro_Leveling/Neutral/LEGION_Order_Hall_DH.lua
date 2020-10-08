@@ -221,24 +221,44 @@ C Firing Up the Forge|QID|41778|M|42.70,26.70|Z|Dalaran!Dalaran!Dungeon|QO|1|N|R
 T Firing Up the Forge|QID|41778|M|42.62,28.39|Z|Dalaran!Dalaran!Dungeon|N|To Archmage Karlain.|
 R Illidari Gateway|AVAILABLE|44213|M|97.18,68.28|Z|Dalaran!Dalaran!Dungeon|TZ|The Fel Hammer|N|Return to your order hall.|
 C Working With the Wardens|QID|42731|M|58.12,54.02|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|Use Scouting Map to complete WWtW Missions listed.\n[color=FF0000]NOTE: [/color]You must finish this before going any further.|US|
-A You Will Be Prepared!|QID|44213|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Belath Dawnblade.|
-T You Will Be Prepared!|QID|44213|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Belath Dawnblade.|
-A Deal With It Personally|QID|42787|PRE|44213|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Belath Dawnblade.|
-K Devouring Darkness|ACTIVE|42787|QO|1|M|54.4,41.2|Z|Highmountain|N|Extinguish the flames of the kobold candles to summon forth the Devouring Darkness.|T|Devouring|
-K Hertha Grimdottir|ACTIVE|42787|QO|2|M|61.4,39.6|Z|Suramar|T|Hertha|
-K Theryssia|ACTIVE|42787|QO|3|M|38.0,52.8|Z|Val'sharah|T|Theryssia|
+A You Will Be Prepared!|QID|44213|LVL|110|M|57.80,43.56|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Falara Nightsong.|
+T You Will Be Prepared!|QID|44213|M|57.80,43.56|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Falara Nightsong.|
+A Deal With It Personally|QID|42787|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Belath Dawnblade.|
+P Illidari Gateway|ACTIVE|42787|M|59.23,91.53|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|TZ|Krasus' Landing|N|Take the Portal back to Dalaran.|
+F Skyhorn|ACTIVE|42787|N|Fly to Skyhorn|TAXI|Skyhorn|
+F Thunder Totem|ACTIVE|42787|N|Fly to Thunder Totem.|TAXI|-Skyhorn|
+R Skyhorn|ACTIVE|42787|M|55.50,50.79|N|Follow the signs to Skyhorn.|TAXI|-Skyhorn|
+f Skyhorn|ACTIVE|42787|M|52.58,45.21|Z|Highmountain|N|Make your way closer to the village and get the Skyhorn FP from Farah Skybeak.|TAXI|-Skyhorn|
+R Candle Rock|ACTIVE|42787|M|55.16,44.37|Z|Highmountain|N|Make your way down to the cave entrance and go inside.|
+K Devouring Darkness|ACTIVE|42787|QO|1|M|54.4,41.2|Z|Highmountain|N|Extinguish the flames of all of the kobold candles to summon forth the Devouring Darkness.|
+F Lorna's Watch|ACTIVE|42787|M|52.58,45.21|Z|Highmountain|N|Make your way out and back to Skyhorn. Fly to Lorna's Watch.|
+K Hertha Grimdottir|ACTIVE|42787|QO|2|M|61.4,39.6|Z|Suramar|
+F Bradensbrook|ACTIVE|42787|M|37.40,63.99|Z|Stormheim|N|Head back to Lorna's Watch and fly to Bradensbrook.|
+R Heroes' Rest|ACTIVE|42787|M|38.31,57.09|Z|Val'sharah|N|Follow the road to Heroes' Rest.
+K Theryssia|ACTIVE|42787|QO|3|M|38.0,52.8|Z|Val'sharah|N|Make your way up the hill to the cemetary and click on the tombstone to summon Theryssia.|
+H Dalaran|ACTIVE|42787|U|140192|N|Hearth back to Dalaran.|
+R Illidari Gateway|ACTIVE|42787|M|97.18,68.28|Z|Dalaran!Dalaran!Dungeon|TZ|The Fel Hammer|N|Return to your order hall.|
+
 T Deal With It Personally|QID|42787|PRE|44213|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Belath Dawnblade.|
 A Malace in Vrykul Land|QID|42735|PRE|42787|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|From Belath Dawnblade.|
-F Valdisdall|ACTIVE|42735|M|72.8,45.6|Z|Dalaran!Dalaran!Dungeon|N|Take the quick flight to Valdisdal or take the scenic route from Aludane Whitecloud in Dalaran|
-T Malace in Vrykul Land|QID|42735|M|64.8,59.0|Z|Stormheim|N|To Malace Shade|
-A Rune Ruination|QID|42736|PRE|42735|M|64.8,59.0|Z|Stormheim|N|From Malace Shade|
-A Rune Ruination: Runeskeld Rollo|QID|42737|ACTIVE|42736|M|64.9,59.1|Z|Stormheim|N|From Rollo's Runestone|
-A Rune Ruination: Runelord Ragnar|QID|42738|ACTIVE|42736|M|64.9,59.0|Z|Stormheim|N|From Ragnar's Runestone|
-A Rune Ruination: Runesage Floki|QID|42739|ACTIVE|42736|M|65.0,59.0|Z|Stormheim|N|From Floki's Runestone|
-R Rollo's Hideout|ACTIVE|42737|QO|1|M|71.4,39.0|Z|Stormheim|N|Mount up and head to the entrance to Rollo's chamber.|
+P Illidari Gateway|ACTIVE|42735|M|59.23,91.53|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|TZ|Krasus' Landing|N|Take the Portal back to Dalaran.|
+
+F Valdisdall|ACTIVE|42735|M|69.85,51.15|Z|Dalaran!Dalaran!Dungeon|N|Take the quick flight to Valdisdal or take the optional scenic route from Aludane Whitecloud in Dalaran.\n[color=FF0000]NOTE: [/color]Selecting the chat option is a free ride to Valdisdall. Ths flight takes about 3 minutes to complete.|TAXI|Valdisdall|
+C Aludane Whitecloud|ACTIVE|42735|M|69.85,51.15|Z|Dalaran!Dalaran!Dungeon|CHAT|QO|1|N|Speak with Aludane Whitecloud in Dalaran to get a free ride to Valdisdall.|TAXI|-Valdisdall|
+f Valdisdall|ACTIVE|42735|M|60.73,50.86|Z|Stormheim|N|Get the flightpath from Garhal the Scalekeeper.|TAXI|-Valdisdall|
+C Malace Shade|QID|42735|M|64.94,59.02|Z|Stormheim|QO|2|N|Locate Malace Shade in Felskorn Warcamp.|NC|
+T Malace in Vrykul Land|QID|42735|M|64.94,59.02|Z|Stormheim|N|To Malace Shade|
+A Rune Ruination|QID|42736|M|64.94,59.02|Z|Stormheim|N|From Malace Shade|PRE|42735|
+A Rune Ruination: Runeskeld Rollo|QID|42737|ACTIVE|42736|M|64.92,59.12|Z|Stormheim|N|From Rollo's Runestone|
+A Rune Ruination: Runelord Ragnar|QID|42738|ACTIVE|42736|M|64.82,58.92|Z|Stormheim|N|From Ragnar's Runestone|
+A Rune Ruination: Runesage Floki|QID|42739|ACTIVE|42736|M|65.00,58.90|Z|Stormheim|N|From Floki's Runestone|
+R Rollo's Hideout|ACTIVE|42737|QO|1|M|71.37,39.00|Z|Stormheim|CS|N|Mount up and head to the entrance to Rollo's chamber.\n[color=FF0000]NOTE: [/color]Go around the camp instead of cutting through it. Unless, you really want a good fight.|
 K Runeskeld Rollo|ACTIVE|42737|QO|1|M|71.2,38.2|Z|Stormheim|N|Take his rune.|T|Runeskeld Rollo|
-K Runesage Floki|ACTIVE|42739|QO|1|M|60.8,46.0|Z|Stormheim|N|Mount up and head to Floki's House.\nLoot his rune.|T|Runesage Floki|
-K Runelord Ragnar|ACTIVE|42738|QO|1|M|45.6,69.2|Z|Stormheim|N|Mount up and head to Floki's place in Hrydshal.\nLoot his rune.|T|Runelord Ragnar|
+R Tideskorn Harbor|ACTIVE|42737|M|63.19,48.89|Z|Stormheim|N|Mount up and head to Floki's House.
+K Runesage Floki|ACTIVE|42739|QO|1|M|60.8,46.0|Z|Stormheim|N|Kill Floki and loot his rune.|T|Runesage Floki|
+F Lorna's Watch|ACTIVE|42738|M|60.73,50.86|Z|Stormheim|N|Make your way to Valdisdall and fly to Lorna's Watch.|
+K Runelord Ragnar|ACTIVE|42738|QO|2|M|45.6,69.2|Z|Stormheim|N|Make your way to Ragnar's place in Hrydshal.Kill him and loot his rune.\n[color=FF0000]NOTE: [/color]Use the Grappling Hooks to move around the city easier.|T|Runelord Ragnar|
+F Valdisdall|ACTIVE|42736|M|37.40,63.99|Z|Stormheim|N|Head back to Lorna's Watch and fly to Valdisdall.|
 T Rune Ruination: Runeskeld Rollo|QID|42737|M|64.9,59.1|Z|Stormheim|N|From Rollo's Runestone|
 T Rune Ruination: Runelord Ragnar|QID|42738|M|64.9,59.0|Z|Stormheim|N|From Ragnar's Runestone|
 T Rune Ruination: Runesage Floki|QID|42739|M|65.0,59.0|Z|Stormheim|N|From Floki's Runestone|
