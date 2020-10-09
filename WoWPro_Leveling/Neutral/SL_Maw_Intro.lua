@@ -66,7 +66,7 @@ A The Lion's Cage|QID|59759|M|24.47,36.20|Z|The Maw!Instance|N|From Lady Jaina P
 R Calcis|ACTIVE|59759|CS|M|25.51,29.83|Z|The Maw!Instance|N|Run out the cave and up the road to your left.|
 R Ruin's Cradle|ACTIVE|59759|CS|M|24.27,25.01|Z|The Maw!Instance|N|Make your way to the bridge.|
 C The Lion's Cage|QID|59759|CS|M|27.52,17.47|Z|The Maw!Instance|QO|1|NC|N|Take the teleport pad on to reach the Upper Tremaculum.|
-C The Lion's Cage|QID|59759|M|25.88,14.98|Z|The Maw!Instance|QO|2|NC|N|Pause a moment behind the 3 cages, for the update that you have found Anduin.|
+C The Lion's Cage|QID|59759|M|25.88,14.98|Z|The Maw!Instance|QO|2|NC|N|Pause a moment, behind the 3 cages, for the update that you have found Anduin.|
 C The Lion's Cage|QID|59759|M|25.88,14.98|Z|The Maw!Instance|QO|3|CHAT|N|Speak to Jaina.|
 T The Lion's Cage|QID|59759|M|25.09,13.48|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A The Afflictor's Key|QID|59760|M|25.10,13.50|Z|The Maw!Instance|N|From Anduin Wrynn.|PRE|59759|LVL|50|
@@ -88,7 +88,7 @@ T By and Down the River|QID|59762|M|29.78,42.45|Z|The Maw!Instance|N|To Lady Jai
 A Wounds Beyond Flesh|QID|59765|M|29.56,43.86|Z|The Maw!Instance|N|From Thrall.|PRE|59762|LVL|50|
 A A Good Axe|QID|59766|M|29.56,43.86|Z|The Maw!Instance|N|From Thrall.|PRE|59762|LVL|50|
 C Wounds Beyond Flesh|QID|59765|M|31.59,42.67|Z|The Maw!Instance|S|N|Kill Mawsworn Soulrender until you get the Wither Blade.|
-C A Good Axe|QID|59766|M|31.59,42.67|Z|The Maw!Instance|NC|N|Click on the racks around for a suitable weapon.|
+C A Good Axe|QID|59766|M|31.59,42.67|Z|The Maw!Instance|NC|N|Click on the weapon racks until Thrall finds a suitable weapon.|
 C Wounds Beyond Flesh|QID|59765|M|31.59,42.67|Z|The Maw!Instance|US|N|Kill Mawsworn Soulrenders until you get the Wither Blade.|
 T Wounds Beyond Flesh|QID|59765|M|PLAYER|Z|The Maw!Instance|N|To Thrall.|
 T A Good Axe|QID|59766|M|PLAYER|Z|The Maw!Instance|N|To Thrall.|
@@ -97,7 +97,7 @@ C Draw Out the Darkness|QID|60644|M|29.56,43.86|Z|The Maw!Instance|N|Draw out an
 T Draw Out the Darkness|QID|60644|M|29.56,43.86|Z|The Maw!Instance|N|To Baine Bloodhoof.|
 A The Path to Salvation|QID|59767|M|29.56,43.86|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|60644|LVL|50|
 C The Path to Salvation|QID|59767|M|31.80,44.35|Z|The Maw!Instance|QO|1|CHAT|N|Speak to Jaina.|
-C The Path to Salvation|QID|59767|M|42.67,42.18|Z|The Maw!Instance|QO|2|NC|N|Stay close to Jaina and avoid the Jailer's forces while in stealth.|
+C The Path to Salvation|QID|59767|M|42.67,42.18|Z|The Maw!Instance|QO|2|NC|N|Stay close to Jaina and avoid the Jailer's forces, especially the ones who see thru her stealth.|
 C The Path to Salvation|QID|59767|M|42.16,42.14|Z|The Maw!Instance|QO|3|NC|N|Reach the Eroded Waygate.|
 T The Path to Salvation|QID|59767|M|42.47,42.18|Z|The Maw!Instance|N|To Anduin Wrynn.|
 A Stand as One|QID|59770|M|42.47,42.23|Z|The Maw!Instance|N|From Anduin Wrynn.|PRE|59767|LVL|50|
@@ -135,7 +135,7 @@ A The Eternal City|QID|60152|M|40.29,66.53|Z|Ring of Fates@Oribos|N|From Tal-Ina
 C Overseer Ta'readon|QID|60152|M|64.39,68.31|Z|Ring of Fates@Oribos|QO|1|CHAT|N|Speak to Overseer Ta'readon.|MS|
 C Host Ta'rela|QID|60152|M|67.21,50.29|Z|Ring of Fates@Oribos|QO|5|CHAT|N|Speak to Host Ta'rela, the innkeeper.|MS|
 C Fatescribe Roh-Tahl|QID|60152|M|78.93,49.16|Z|Ring of Fates@Oribos|QO|2|CHAT|N|Speak to the Fatescribe.|MS|
-C Caretaker Kah-Rahm|QID|60152|M|60.63,31.32|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak to Caretaker Kah-Rahm at the bank.|MS|
+C Caretaker Kah-Rahm|QID|60152|CS|M|62.88,50.37;60.63,31.32|Z|Ring of Fates@Oribos|QO|4|CHAT|N|Speak to Caretaker Kah-Rahm at the bank.|MS|
 C Foreman Au'brak|QID|60152|M|40.33,32.63|Z|Ring of Fates@Oribos|QO|3|CHAT|N|Speak to Foreman Au'brak in the tradeskill area.|MS|
 C The Eternal City|QID|60152|M|39.88,66.44|Z|Ring of Fates@Oribos|QO|6|CHAT|N|Return to the Enclave.|MS|
 T The Eternal City|QID|60152|M|39.88,66.40|Z|Ring of Fates@Oribos|N|To Overseer Kah-Delen.|MS|
@@ -155,16 +155,13 @@ T Seek the Ascended|QID|59773|M|37.52,76.44|Z|Bastion|N|To Kleia.|MS|
 
 ;right after tof decision
 A Re-Introductions|QID|62716|M|20.41,50.31|Z|Ring of Fates@Oribos|N|From Fatescribe Roh-Thal.|PRE|58086|
-A Observing Battle|QID|62284|PRE|58086|M|34.23,55.86|Z|Ring of Fates@Oribos|N|If you plan to do [color=ff0000]PVP[/color], grab these two quests from Strategist Zo'rak, if not, just check them off manually.|
-A Observing Conflict|QID|62289|PRE|58086|M|34.23,55.86|Z|Ring of Fates@Oribos|N|From Strategist Zo'rak.|
-A Trading Favors|QID|60274|PRE|58086|M|67.44,50.33|Z|Ring of Fates@Oribos|N|If you plan to do [color=efcc80]dungeons[/color], grab this quest (and it's follow ups) from Host Ta'rela. Otherwise, just check this step off manually.|
+A Observing [color=ff0000]PVP[/color]|QID|62284^62285^62286^62287^62288^62289|PRE|58086|M|34.23,55.86|Z|Ring of Fates@Oribos|N|If you plan to do [color=ff0000]PVP[/color], grab these two weekly quests from Strategist Zo'rak, if not, just check off manually.|
+A Trading Favors|QID|60274|PRE|58086|M|67.44,50.33|Z|Ring of Fates@Oribos|N|If you plan to do [color=efcc80]dungeons[/color], grab this quest (and it's follow ups) from Host Ta'rela. Otherwise, just check this step off manually. There are new weekly dungeon quests available with the Tuesday reset.|
 R Through this doorway|ACTIVE|60274|M|70.39,59.89|CC|Z|Ring of Fates@Oribos|N|starting here, follow the stairs down and make your way to the The Broker's Den.|
 R The Broker's Den|ACTIVE|60274|M|42.21,70.64|Z|The Broker's Den@Oribos!Dungeon|N|And you have arrived to the basement den of the broker's.|
 T Trading Favors|QID|60274|M|52.60,54.77|Z|The Broker's Den@Oribos!Dungeon|N|To Finder Ta'sul.|
-A Trading Favors: Spires of Ascension|QID|60249|PRE|60274|M|52.60,54.77|Z|The Broker's Den@Oribos!Dungeon|N|From Finder Ta'sul.|
-A Trading Favors: The Other Side|QID|60245|PRE|60274|M|52.60,54.77|Z|The Broker's Den@Oribos!Dungeon|N|From Finder Ta'sul.|
-A A Valuable Find: Spires of Ascension|QID|60252|PRE|60274|M|51.19,43.79|Z|The Broker's Den@Oribos!Dungeon|N|From Ta'lan the Antiquary.|
-A A Valuable Find: The Other Side|QID|60255|PRE|60274|M|51.38,42.95|Z|The Broker's Den@Oribos!Dungeon|N|From Ta'lan the Antiquary.|
+A Trading Favors: [color=efcc80]dungeons[/color]|QID|60242^60243^60244^60245^60246^60247^60248^60249|PRE|60274|M|52.60,54.77|Z|The Broker's Den@Oribos!Dungeon|N|From Finder Ta'sul. Get both quests.|
+;A A Valuable Find: [color=efcc80]dungeons[/color]|QID|60250^60251^60252^60253^60254^60255^60256^60257|PRE|60274|M|51.19,43.79|Z|The Broker's Den@Oribos!Dungeon|ELITE|N|Get both Ta'lan the Antiquary's quests if you are up for Heroic dungeons.|;per wowhead lvl 60. but being offered it at lvl 50 in beta?
 T Re-Introductions|QID|62716|M|38.90,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
 A Choosing Your Purpose|QID|62000|PRE|62716|M|38.90,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
 C Choosing Your Purpose|QID|62000|M|36.17,64.15|Z|Ring of Fates@Oribos|QO|2|NC|N|Speak with the Kyrian (Optional). You don't have to talk to any of them, you can go directly to selecting the covenent on the Covenant Map in front of Tal-Inara.|
