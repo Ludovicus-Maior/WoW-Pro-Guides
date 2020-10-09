@@ -257,16 +257,16 @@ K Runeskeld Rollo|ACTIVE|42737|QO|1|M|71.2,38.2|Z|Stormheim|N|Take his rune.|T|R
 R Tideskorn Harbor|ACTIVE|42737|M|63.19,48.89|Z|Stormheim|N|Mount up and head to Floki's House.
 K Runesage Floki|ACTIVE|42739|QO|1|M|60.8,46.0|Z|Stormheim|N|Kill Floki and loot his rune.|T|Runesage Floki|
 F Lorna's Watch|ACTIVE|42738|M|60.73,50.86|Z|Stormheim|N|Make your way to Valdisdall and fly to Lorna's Watch.|
-K Runelord Ragnar|ACTIVE|42738|QO|2|M|45.6,69.2|Z|Stormheim|N|Make your way to Ragnar's place in Hrydshal.Kill him and loot his rune.\n[color=FF0000]NOTE: [/color]Use the Grappling Hooks to move around the city easier.|T|Runelord Ragnar|
+K Runelord Ragnar|ACTIVE|42738|QO|2|M|45.6,69.2|Z|Stormheim|N|Make your way to Ragnar's place in Hrydshal. Kill him and loot his rune.\n[color=FF0000]NOTE: [/color]Use the Grappling Hooks to move around the city easier.|T|Runelord Ragnar|
 F Valdisdall|ACTIVE|42736|M|37.40,63.99|Z|Stormheim|N|Head back to Lorna's Watch and fly to Valdisdall.|
-T Rune Ruination: Runeskeld Rollo|QID|42737|M|64.9,59.1|Z|Stormheim|N|From Rollo's Runestone|
-T Rune Ruination: Runelord Ragnar|QID|42738|M|64.9,59.0|Z|Stormheim|N|From Ragnar's Runestone|
-T Rune Ruination: Runesage Floki|QID|42739|M|65.0,59.0|Z|Stormheim|N|From Floki's Runestone|
-T Rune Ruination|QID|42736|M|64.8,59.0|Z|Stormheim|N|From Malace Shade|
+T Rune Ruination: Runeskeld Rollo|QID|42737|M|64.92,59.12|Z|Stormheim|N|From Rollo's Runestone|
+T Rune Ruination: Runelord Ragnar|QID|42738|M|64.82,58.92|Z|Stormheim|N|From Ragnar's Runestone|
+T Rune Ruination: Runesage Floki|QID|42739|M|65.00,58.90|Z|Stormheim|N|From Floki's Runestone|
+T Rune Ruination|QID|42736|M|64.88,58.96|Z|Stormheim|N|From Malace Shade|
 A Strange Bedfellows|QID|42749|PRE|42736|M|64.8,59.0|Z|Stormheim|N|From Malace Shade|
-C Malace Shade|QID|42749|QO|1|M|66.4,63.7|Z|Stormheim|NC|CHAT|N|Meet Malace at the end of the bridge to the Halls of Valor.\nAsk her to Taunt Lochaber|
+C Malace Shade|QID|42749|QO|1|M|66.4,63.7|Z|Stormheim|CHAT|N|Meet Malace at the end of the bridge to the Halls of Valor.\nAsk her to Taunt Lochaber|
 K Lochaber|ACTIVE|42749|QO|2|M|66.4,63.8|Z|Stormheim|N|Slay Lochaber|
-T Strange Bedfellows|QID|42749|N|Turn in quest to UI|
+T Strange Bedfellows|QID|42749|N|\n[color=FF0000]NOTE: [/color]You have to manually turn in this quest through your quest log book.|
 A Vault of the Wardens: Vault Break-In|QID|42752^42753|PRE|42749|N|From the UI.|
 C Sargerite Keystone|QID|42752^42753|N|This is a Dungeon Quest in "Vault of the Wardens".\nThe drop is from the last boss.|
 T Vault of the Wardens: Vault Break-In|QID|42752^42753|M|57.60,52.21|Z|Upper Command Center!Mardum, the Shattered Abyss!Dungeon!Mardum, the Shattered Abyss!Mardum, the Shattered Abyss!Dungeon|N|To Belath Dawnblade.|
