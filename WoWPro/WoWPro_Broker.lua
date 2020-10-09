@@ -664,7 +664,7 @@ function WoWPro.UpdateQuestTrackerRow(row)
                 for l=1,numquesttext do
                     local lquesttext = select(numquesttext-l+1, (";"):split(questtext))
                     if WoWPro.ValidObjective(lquesttext) then
-						if select(2, _G.GetQuestLogLeaderBoard(lquesttext , j)) == "progressbar" then
+						if select(2, _G.GetQuestLogLeaderBoard(lquesttext:sub(1, 1) , j)) == "progressbar" then
 							track = "\n- ".._G.GetQuestProgressBarPercent(qid).."% out of 100% Complete. "
 						else
 							local _, status = WoWPro.QuestObjectiveStatus(qid, lquesttext)
