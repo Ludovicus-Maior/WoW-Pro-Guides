@@ -1109,7 +1109,7 @@ function WoWPro:RowUpdate(offset)
 				elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.GetItemCount(use) > 0 and currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon:SetTexture(itemtexture)
 					currentRow.itemicon.currentTexture = itemtexture
-				elseif _G.GetItemCount(use) > 0 then
+				elseif _G.GetItemCount(use) > 0 then do end
 				else
 					currentRow.itemicon.item_IsVisible = false
 					currentRow.itemicon:SetTexture()
