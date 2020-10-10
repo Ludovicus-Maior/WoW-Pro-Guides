@@ -82,7 +82,7 @@ C From the Mouths of Madness|QID|59776|M|25.35,13.93|Z|The Maw!Instance|QO|1|NC|
 C From the Mouths of Madness|QID|59776|M|24.34,37.13|Z|The Maw!Instance|QO|2|CHAT|N|Ask Darion to make it talk.|
 T From the Mouths of Madness|QID|59776|M|24.34,37.13|Z|The Maw!Instance|N|To Highlord Darion Mograine.|
 A By and Down the River|QID|59762|M|24.29,37.12|Z|The Maw!Instance|N|From Lady Jaina Proudmoore.|PRE|59776|LVL|50|
-C By and Down the River|QID|59762|CS|M|24.42,35.00;25.59,32.50;29.90,36.53;29.78,42.45|Z|The Maw!Instance|QO|1|N|Cross the River of Souls.|
+C By and Down the River|QID|59762|CS|M|24.42,35.00;25.59,32.50;29.90,36.53;29.78,42.45|Z|The Maw!Instance|QO|1|N|Cross the bridge over the River of Souls.|
 C By and Down the River|QID|59762|M|29.78,42.45|Z|The Maw!Instance|QO|2|N|Escape the River.|
 T By and Down the River|QID|59762|M|29.78,42.45|Z|The Maw!Instance|N|To Lady Jaina Proudmoore.|
 A Wounds Beyond Flesh|QID|59765|M|29.56,43.86|Z|The Maw!Instance|N|From Thrall.|PRE|59762|LVL|50|
