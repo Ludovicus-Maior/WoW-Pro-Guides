@@ -1095,10 +1095,30 @@ function WoWPro:RowUpdate(offset)
 			end
             WoWPro:dbp("RowUpdate: enabled trash: %s", use)
         elseif use and _G.GetItemInfo(use) then
+			currentRow.itemicon.item_IsVisible = nil
             currentRow.itembutton:Show()
-            currentRow.itemicon:SetTexture(_G.GetItemIcon(use))
+			currentRow.itemicon.currentTexture = nil
             currentRow.itembutton:SetAttribute("type1", "item")
             currentRow.itembutton:SetAttribute("item1", "item:"..use)
+			currentRow.itembutton:SetScript("OnUpdate", function()
+				local itemtexture = _G.GetItemIcon(use)
+				if _G.GetItemCount(use) > 0 and not currentRow.itemicon.item_IsVisible then
+					currentRow.itemicon.item_IsVisible = true
+					currentRow.itemicon:SetTexture(itemtexture)
+					currentRow.itemicon.currentTexture = itemtexture
+				elseif itemtexture ~= currentRow.itemicon.currentTexture and _G.GetItemCount(use) > 0 and currentRow.itemicon.item_IsVisible then
+					currentRow.itemicon:SetTexture(itemtexture)
+					currentRow.itemicon.currentTexture = itemtexture
+				elseif _G.GetItemCount(use) > 0 then
+				else
+					currentRow.itemicon.item_IsVisible = false
+					currentRow.itemicon:SetTexture()
+					currentRow.itemicon.currentTexture = nil
+				end
+			end)
+
+
+
 			if not _G.InCombatLockdown() then
 				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
 					local Tleft, Tbottom = currentRow.itembutton:GetRect()
@@ -1211,8 +1231,8 @@ function WoWPro:RowUpdate(offset)
 			currentRow.eaicon.currentTexture = nil
 			currentRow.eabutton:SetScript("OnUpdate", function()
 				local eabtexture = _G.ExtraActionButton1Icon:GetTexture()
-				if _G.ExtraActionButton1Icon:IsVisible() ~= currentRow.eaicon.EAB1_IsVisible then
-					currentRow.eaicon.EAB1_IsVisible =  _G.ExtraActionButton1Icon:IsVisible()
+				if _G.HasExtraActionBar() ~= currentRow.eaicon.EAB1_IsVisible then
+					currentRow.eaicon.EAB1_IsVisible =  _G.HasExtraActionBar()
 					if currentRow.eaicon.EAB1_IsVisible then
 						currentRow.eaicon:SetTexture(eabtexture)
 						currentRow.eaicon.currentTexture = eabtexture
@@ -1220,7 +1240,7 @@ function WoWPro:RowUpdate(offset)
 						currentRow.eaicon:SetTexture()
 						currentRow.eaicon.currentTexture = nil
 					end
-				elseif eabtexture ~= currentRow.eaicon.currentTexture and _G.ExtraActionButton1Icon:IsVisible() and currentRow.eaicon.EAB1_IsVisible then
+				elseif eabtexture ~= currentRow.eaicon.currentTexture and _G.HasExtraActionBar() and currentRow.eaicon.EAB1_IsVisible then
 					currentRow.eaicon.currentTexture = eabtexture
 					currentRow.eaicon:SetTexture(eabtexture)
 				end

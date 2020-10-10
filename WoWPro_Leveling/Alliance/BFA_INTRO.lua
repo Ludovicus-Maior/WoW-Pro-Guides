@@ -11,17 +11,10 @@ A Tides of War|QID|46727|M|62.82,71.75|Z|Stormwind City|N|From Hero's Herald sta
 C Tides of War|QID|46727|M|85.27,32.30|Z|Stormwind City|QO|1|NC|N|Listen to the council while they discuss their plans.|ACH|14222;;false|
 C Tides of War|QID|46727|M|85.07,32.60|Z|Stormwind City|QO|2|NC|N|Click on the portal to watch the sailors vision.|ACH|14222;;false|
 T Tides of War|QID|46727|M|85.28,32.28|Z|Stormwind City|N|To Anduin Wrynn.|ACH|14222;;false|
-A The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|85.91,31.55|N|From Anduin Wrynn|PRE|46727|ACH|14222;;false|
-C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|85.30,32.01|QO|1|CHAT|N|Speak with Captain Garrick.|ACH|14222;;false|
-C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|77.79,39.16|QO|2|CHAT|N|Speak with Loretta Banks for a free ride to the Docks.|ACH|14222;;false|
-C The Nation of Kul Tiras|QID|59641|Z|Stormwind City|M|22.78,24.82|QO|3|CHAT|N|Speak with Jaina to set sail.|ACH|14222;;false|
-T The Nation of Kul Tiras|QID|59641|Z|Boralus|M|65.59,50.72|N|Turn into Lady Jaina Proudmoore.|ACH|14222;;false|
-
-;Gone from PTR but might be mistake, this awards you the exiles reach achievement on completion so it probably needs this old QID.
-;A The Nation of Kul Tiras|QID|46728|M|85.28,32.26|Z|Stormwind City|N|From Anduin Wrynn.|PRE|46727|ACH|14222;;false|
-;R Stormwind Harbor|ACTIVE|46728|M|22.15,24.32|Z|Stormwind City|N|Fly back down to the docks.|ACH|14222;;false|
-;C The Nation of Kul Tiras|QID|46728|M|22.15,24.32|Z|Stormwind City|CHAT|N|Tell Jaina you are ready to go.|ACH|14222;;false|
-;T The Nation of Kul Tiras|QID|46728|M|65.59,50.75|Z|Boralus|N|To Lady Jaina Proudmoore.|ACH|14222;;false|
+A The Nation of Kul Tiras|QID|46728|M|85.28,32.26|Z|Stormwind City|N|From Anduin Wrynn.|PRE|46727|ACH|14222;;false|
+R Stormwind Harbor|ACTIVE|46728|M|22.15,24.32|Z|Stormwind City|N|Run of fly back down to the docks.|ACH|14222;;false|
+C The Nation of Kul Tiras|QID|46728|M|22.15,24.32|Z|Stormwind City|CHAT|N|Tell Jaina you are ready to go.|ACH|14222;;false|
+T The Nation of Kul Tiras|QID|46728|M|65.59,50.75|Z|Boralus|N|To Lady Jaina Proudmoore.|ACH|14222;;false|
 
 A Daughter of the Sea|QID|51341|M|65.59,50.75|Z|Boralus|N|From Lady Jaina Proudmoore.|PRE|46728|
 T Daughter of the Sea|QID|51341|M|78.11,61.04|Z|Kul Tiras|N|To Flynn Fairwind.|
@@ -57,12 +50,13 @@ N Enchanting|ACTIVE|47099|M|74.02,11.57|Z|Boralus|N|Train BfA Enchanting at Emil
 N Leatherworking|ACTIVE|47099|M|75.46,12.62|Z|Boralus|N|Train BfA Leatherworking at Cassandra Brennor.|P|Leatherworking;165|RECIPE|256756|;264592
 N Skinning|ACTIVE|47099|M|75.65,13.38|Z|Boralus|N|Train BfA skinning at Camilla Darksky.|P|Skinning;393|RECIPE|257152|;
 C Go to Snug Harbor Inn|QID|47099|QO|3|M|74.11,12.65|Z|Boralus|CHAT|N|The inn is back on the main walkway. Set your hearthstone here. (there is a portal to Stormwind nearby).|
-C Go to the Flightmaster|QID|47099|QO|4|M|70.36,16.71;66.96,14.99|CS|Z|Boralus|NC|N|Around the corner from the inn. Pick up the flight point.|
-f Tradewinds Market|QID|47099|M|70.36,16.71;66.96,14.99|CS|Z|Boralus|N|Grab the1 the flight point.|
+f Tradewinds Market|QID|47099|M|66.96,14.99|Z|Boralus|N|Grab the1 the flight point.|
+C Go to the Flightmaster|QID|47099|QO|4|M|66.96,14.99|Z|Boralus|NC|N|Around the corner from the inn. Pick up the flight point.|
 T Get Your Bearings|QID|47099|M|66.96,14.99|Z|Boralus|N|To Taelia. who is right beside you.|
 A The Old Knight|QID|46729|M|66.96,14.99|Z|Boralus|N|From Taelia.|PRE|47099|
-C The Old Knight|QID|46729|QO|1|M|68.01,21.91|CS|Z|Boralus|NC|N|Head down the stairs to the Harbor.|
-C The Old Knight|QID|46729|QO|2|M|68.01,21.91|Z|Boralus|CHAT|N|Back into his office talk to Cyrus and then listen to his story.|
+C The Old Knight|QID|46729|QO|1|M|67.13,23.17|CS|Z|Boralus|NC|N|Head down the stairs to the Harbormasters office.|
+C The Old Knight|QID|46729|QO|2|M|67.13,23.17|CS|Z|Boralus|CHAT|N|Shake Cyrus's hand.|
+C The Old Knight|QID|46729|QO|3|M|68.01,21.91|Z|Boralus|CHAT|N|Sit back and listen to his story.|
 T The Old Knight|QID|46729|M|68.17,21.99|Z|Boralus|N|To Taelia.|
 A Sanctum of the Sages|QID|47186|M|68.17,21.99|Z|Boralus|N|From Taelia.|PRE|46729|
 A Ferry Pass|QID|52128|M|68.01,21.91|Z|Boralus|N|From Cyrus Crestfall.|PRE|46729|
