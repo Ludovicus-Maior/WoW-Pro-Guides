@@ -10,7 +10,7 @@ return [[
 A In Service Of The Lich King|QID|12593|N|From The Lich King.|M|51.3,35.2|
 T In Service Of The Lich King|QID|12593|N|To Instructor Razuvious.|M|48.0,28.5|
 A The Emblazoned Runeblade|QID|12619|PRE|12593|M|48.0,28.5|N|From Instructor Razuvious.|
-l Get a Battle-worn Sword|QID|12619|L|38607|N|Get a [Battle-worn Sword] from one of the glowing weapon racks.|
+l Get a Battle-worn Sword|QID|12619|M|47.51,31.34|L|38607|N|Get a [Battle-worn Sword] from one of the glowing weapon racks.|
 C The Emblazoned Runeblade|QID|12619|U|38607|N|Use the [Battle-worn Sword] near a runeforge.|M|47.4,31.0|
 T The Emblazoned Runeblade|QID|12619|N|To Instructor Razuvious.|M|48.0,28.5|
 A Runeforging: Preparation For Battle|QID|12842|PRE|12619|M|48.0,28.5|N|From Instructor Razuvious.|
