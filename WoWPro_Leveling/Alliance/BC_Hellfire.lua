@@ -58,34 +58,33 @@ A Expedition Point|QID|10143|PRE|10142|M|61.7,60.8|N|From Sergeant Altumus.|
 T Laying Waste to the Unwanted|QID|10078|M|51.2,60.0|N|To Dumphry.|
 A Ravager Egg Roundup|QID|9349|M|49.2,74.8|N|From Legassi.|
 A In Case of Emergency...|QID|10161|M|49.2,74.8|N|From "Screaming" Screed Luckheed.|
-C Ravager Egg Roundup|N|Get 12 Ravager eggs from the ground and the Ravagers.|QID|9349|M|42.00,83.00|QO|1|
+C Zeppelin Debris|QID|10161|QO|1|N|Loot Zeppelin Debris from the ground.|S|NC|
+C Ravager Egg Roundup|QID|9349|M|42.00,83.00|QO|1|N|Get 12 Ravager eggs from the ground and the Ravagers.|
 T Ravager Egg Roundup|QID|9349|M|49.2,74.8|N|To Legassi.|
 A Helboar, the Other White Meat|QID|9361|PRE|9349|M|49.2,74.8|N|From Legassi.|
+l Helboar, the Other White Meat|QID|9361|M|50.58,74.27|L|23270 8|N|Kill Helboars around the quest giver and loot them.|
 C Helboar, the Other White Meat|QID|9361|M|50.58,74.27|N|Kill Helboars around the quest giver and loot them. Use Purification Mixture on the Tainted Helboar Meat.|U|23268|
 T Helboar, the Other White Meat|QID|9361|M|49.2,74.8|N|To Legassi.|
 A Smooth as Butter|QID|9356|PRE|9361|M|49.2,74.8|N|From Legassi.|
-l Zeppelin Debris|QID|10161|N|Loot Zeppelin Debris from the ground.|S|L|28116 30|
-C Smooth as Butter |N|Kill Buzzards until you get the wings for this quest.|QID|9356|M|56.00,73.00|
-C Ill Omens |N|Kill orcs until you get a Cursed Talisman for this quest.|QID|10483|M|63.00,78.00|
-l Zeppelin Debris|QID|10161|N|Gather the rest of the Zeplin debris you need.|L|28116 30|M|62.42,70.70|US|
+C Ill Omens|QID|10483|M|63.00,78.00|N|Kill orcs until you get a Cursed Talisman for this quest.|
 T Ill Omens|QID|10483|M|71.0,63.4|N|To Corporal Ironridge.|
-A Cursed Talismans|QID|10484|PRE|10483|M|71.0,63.4|N|From Corparal Ironridge.|
+A Cursed Talismans |QID|10484|PRE|10483|M|71.0,63.4|N|From Corporal Ironridge.|
 r Sell junk, repair|ACTIVE|10143|M|70.95,63.25|N|At Supply Officer Shandria.|
 T Expedition Point|QID|10143|M|71.3,62.8|N|To Forward Commander Kingston.|
 A Disrupt Their Reinforcements|QID|10144|PRE|10143|M|71.3,62.8|N|From Forward Commander Kingston.|
 A Zeth'Gor Must Burn!|QID|10895|M|71.3,62.8|N|From Wing Commander Dabir'ee.|
-C Cursed Talismans |N|Kill Orcs until you get the talismans for this quest.|QID|10484|M|64.2,71.8|S|
+C Cursed Talismans|QID|10484|M|64.2,71.8|QO|1|N|Kill Orcs until you get the talismans for this quest.|S|
 C Northern Tower|QID|10895|N|Use the Smoke Beacon here.|QO|1|U|31739|M|68.00,67.10|
 C Forge Tower|QID|10895|N|Use the Smoke Beacon here.|QO|3|U|31739|M|70.20,69.20|
 C Foothill Tower|QID|10895|N|Use the Smoke Beacon here.|QO|4|U|31739|M|70.93,71.40|
 C Zeth'Gor Must Burn! |N|Use the Smoke Beacon here.|QO|2|QID|10895|U|31739|M|66.45,76.35|
 C Cursed Talismans |N|Kill Orcs until you get the talismans for this quest.|QID|10484|M|64.2,71.8|US|
-T Cursed Talismans|QID|10484|M|71.0,63.4|N|To Corpral Ironridge.|
-A Warlord of the Bleeding Hollow|QID|10485|PRE|10484|M|71.0,63.4|N|From Corparal Ironridge.|
+T Cursed Talismans|QID|10484|M|71.0,63.4|N|To Corporal Ironridge.|
+A Warlord of the Bleeding Hollow|QID|10485|PRE|10484|M|71.0,63.4|N|From Corporal Ironridge.|
 T Zeth'Gor Must Burn!|QID|10895|M|71.3,62.8|N|To Wing Commander Dabir'ee.|
 C Warlord of the Bleeding Hollow |N|Kill Warlord Morkh and take his armor.|QID|10485|M|70.15,76.90|
 T Warlord of the Bleeding Hollow|QID|10485|M|71.0,63.4|N|To Corporal Ironridge.|
-A Return to Honor Hold|QID|10903|PRE|10485|M|71.0,63.4|N|From Corparal Ironridge.|
+A Return to Honor Hold|QID|10903|PRE|10485|M|71.0,63.4|N|From Corporal Ironridge.|
 r Sell junk, repair|ACTIVE|10144|M|70.95,63.25|N|At Supply Officer Shandria.|
 l Demonic Rune Stone|QID|10144|N|Kill Demons until you have 4 Demonic Rune Stones.|L|28513 4|M|71.20,58.75|
 C Portal Kaalez|QID|10144|N|Disrupt the portal here by clicking on it when inside.|QO|2|M|72.70,58.95|
@@ -93,18 +92,19 @@ l Demonic Rune Stones|QID|10144|N|Kill Demons until you have 4 Demonic Rune Ston
 C Disrupt Their Reinforcements |N|Disrupt the portal here.|QO|1|QID|10144|M|71.50,55.15|
 T Disrupt Their Reinforcements|QID|10144|M|71.3,62.8|N|To Forward Commander Kingston.|
 A Mission: The Murketh and Shaadraz Gateways|QID|10146|PRE|10144|M|71.3,62.8|N|Forward Commander Kingston.|
-N Seaforium PU-36 Explosive Nether Modulator|QID|10146|N|Hotkey this item, then right-click the box to continue.|M|71.40,62.50|
-C Mission: The Murketh and Shaadraz Gateways |N|Talk to Wing Commander Dabir'ee to begin flying and then use the hotkeyed bomb to destroy the gateways.|QID|10146|M|71.40,62.50|
+; N step not needed if you added |U| step to C step
+;N Seaforium PU-36 Explosive Nether Modulator|QID|10146|N|Hotkey this item, then right-click the box to continue.|M|71.40,62.50|
+C Mission: The Murketh and Shaadraz Gateways |QID|10146|M|71.40,62.50|QO|1;2|N|Talk to Wing Commander Dabir'ee to begin flying and use the Seaforium PU-36 Explosive Nether Modulator bomb to destroy the gateways.|U|28038|
 T Mission: The Murketh and Shaadraz Gateways|QID|10146|M|71.4,62.7|N|To Forward Commander Kingston.|
-A Shatter Point|QID|10340|PRE|10146|M|71.4,62.7|N|Foward Commander Kingston.|
+A Shatter Point|QID|10340|PRE|10146|M|71.4,62.7|N|Forward Commander Kingston.|
 F Shatter Point|QID|10340|N|Talk to Wing Commander Dabir'ee and have him send you to Shatter Point. |M|71.40,62.50|
 f Shatter Point|QID|10340|N|Get the flight-path.|M|78.4,34.9|
 T Shatter Point|QID|10340|M|78.4,34.9|N|To Runetog Wildhammer.|
 A Wing Commander Gryphongar|QID|10344|PRE|10340|M|78.4,34.9|N|From Runetog Wildhammer.|
 T Wing Commander Gryphongar|QID|10344|M|79.3,33.9|N|To Wing Commander Gryphongar.|
 A Mission: The Abyssal Shelf|QID|10163|PRE|10344|M|79.3,33.9|N|From Wing Commander Gryphongar.|
-N Area 52 Special|QID|10163|N|Hotkey this item, then right-click the box to continue.|M|79.3,33.9|
-C Mission: The Abyssal Shelf |N|Talk to Gryphoneer Windbellow and begin flying, then bomb the mobs needed for this quest. |QID|10163|M|78.35,34.36|
+; ** This step not required ** N Area 52 Special|QID|10163|N|Hotkey this item, then right-click the box to continue.|M|79.3,33.9|
+C Mission: The Abyssal Shelf |QID|10163|M|78.35,34.36|QO|1;2;3|N|Talk to Gryphoneer Windbellow and ask to go to the Abyssal Shelf. Use the Area 52 Special bomb to kill the mobs needed for this quest.|U|28132|
 T Mission: The Abyssal Shelf|QID|10163|M|79.3,33.9|N|To Wing Commander Gryphongar.|
 A Go to the Front|QID|10382|PRE|10163|M|79.3,33.9|N|From Wing Commander Gryphongar.|
 T Go to the Front|QID|10382|M|78.35,34.36;68.3,28.6|CS|N|Talk to Gryphoneer Windbellow and get sent to Honor Point. Then turn the quest into Field Marshal Brock.|
@@ -115,9 +115,10 @@ A Enemy of my Enemy...|QID|10396|PRE|10394|N|From Field Marshal Brock.|M|68.3,28
 C Enemy of my Enemy... |N|Kill three cannons here.|QID|10396|M|65.00,31.00|
 T Enemy of my Enemy...|QID|10396|N|To Field Marshal Brock.|M|68.3,28.6|
 A Invasion Point: Annihilator|QID|10397|PRE|10396|N|From Field Marshal Brock.|M|68.3,28.6|
-K Warbringer Arix'Amal|QID|10397|L|29795|N|The Warbringer is at the waypoint. Kill him and loot the key.|M|53.08,26.4|
+K Warbringer Arix'Amal|QID|10397|M|53.08,26.4|L|29795|N|The Warbringer is at the waypoint. Kill him and loot the key.|
 C Invasion Point: Annihilator |N|Use the key on the gate.|QID|10397|U|29795|M|53.06,27.62|
-A The Dark Missive |N|Right-click the missive to start this quest.|QID|10395|U|29588|
+l Burning Legion Missive|AVAILABLE|10395|L|29588|N|Continue killing demons in this area until one drops it.|
+A The Dark Missive |QID|10395|N|Accept the quest from the UI or use the item.|U|29588|O|
 T Invasion Point: Annihilator|QID|10397|N|To Field Marshal Brock.|M|68.3,28.6|
 H Honor Hold|QID|10903|N|Hearth to Honor Hold. |U|6948|M|54.50,63.60|
 A An Old Gift|QID|10058|PRE|10143^10483|M|54.3,63.4|N|From Father Malgor Devidicus.|
@@ -125,11 +126,12 @@ A The Longbeards|QID|9558|LEAD|9417|PRE|10143^10483|M|54.3,63.4|N|From Sid Limba
 T Return to Honor Hold|QID|10903|M|54.3,63.6|N|Upstairs to Assistant Klatu.|
 A Fel Spirits|QID|10909|PRE|10903|M|54.3,63.6|N|From Assistant Klatu.|
 A Digging for Prayer Beads|QID|10916|PRE|10903|M|54.3,63.6|N|From Assistant Klatu.|
-B Silken Thread|QID|10916|M|54.63,63.71|N|Head into the next room and buy a Silken Thread from Hama.|L|4291|
-B Fei Fei Doggy Treat|QID|10916|M|56.34,62.85|N|Buy a treat from Warrant Officer Tracy Proudwell.|L|31799|
-l Draenei Prayer Beads|QID|10916|M|54.16,63.32|N|Give the treat to Fei Fei, then follow the dog. Loot Fei Fei's Cache (glittering dirt pile) once she stops at the waypoint.|L|31795|
+B Silken Thread|AVAILABLE|10916|M|54.63,63.71|N|Head into the next room and buy a Silken Thread from Hama.|L|4291|
+B Fei Fei Doggy Treat|AVAILABLE|10916|M|56.39,62.92|N|Buy a treat from Warrant Officer Tracy Proudwell.|L|31799|
+T Fei Fei's Treat|AVAILABLE|10916|M|56.40,62.94|N|Give the doggy treat to Fei Fei to continue the quest chain.|LEAD|10916|
+C Draenei Prayer Beads|QID|10916|M|54.16,63.32|QO|1|N|Give the treat to Fei Fei, then follow the dog. Loot Fei Fei's Cache (glittering dirt pile) once she stops at the waypoint.|
 r Sell junk, repair, restock |N|Sell junk, repair, restock  |M|54.65,63.53|QID|10916|
-A Hellfire Fortifications|QID|10106|PRE|13408^13410|M|56.34,62.78|N|From Warrant Officer Tracy Proudwell. This is optional as it is a PvP quest, so skip if you don't wish to do it.|
+A Hellfire Fortifications|QID|10106|PRE|13408^13410|M|56.34,62.78|N|From Warrant Officer Tracy Proudwell. This is optional as it is a PvP quest, so skip if you don't wish to do it.|O|
 T The Dark Missive|QID|10395|N|Head to Warp-Scryer Kryv.|M|56.69,66.52|
 A The Heart of Darkness|QID|10399|PRE|10395|N|From Warp-Scryer Kryv.|M|56.69,66.52|
 A The Path of Glory|QID|10047|PRE|10143^10483|N|From Warp-Scryer Kryv.|M|56.69,66.52|
@@ -140,7 +142,9 @@ A When This Mine's a-Rockin'|QID|10079|PRE|10143^10483|M|52.0,62.6|N|From Forema
 C A Job for an Intelligent Man |N|Kill the sandworms needed for this quest.|QID|9355|M|46.00,64.00|
 l Eroded Leather Case|QID|9373|N|Kill worms until you get an Eroded Leather Case.|L|23338|M|46.00,64.00|
 A Missing Missive |N|Right-click the case to accept the quest.|QID|9373|U|23338|M|47.8,65.8|
-C Fel Spirits |N|Use the Anchorite Relic in your inventory when you are near some orcs.  Kill the orcs while near the relic, then kill the Fel Spirits that spawn until you finish this quest.|QID|10909|M|46.00,74.00|
+C Fel Spirits |QID|10909|M|46.00,74.00|N|Use the Anchorite Relic in your inventory when you are near some orcs. Kill the orcs while near the relic, then kill the Fel Spirits that spawn until you finish this quest.|U|31772|
+C Smooth as Butter|QID|9356|M|56.00,73.00|QO|1|N|Kill Buzzards until you get the wings for this quest.|
+C Zeppelin Debris|QID|10161|M|62.42,70.70|QO|1|N|Gather the rest of the Zeppelin debris you need.|US|NC|
 T In Case of Emergency...|QID|10161|M|49.2,74.8|N|To "Screaming" Screed Luckheed.|
 A Voidwalkers Gone Wild|QID|9351|PRE|10161|M|49.2,74.8|N|From "Screaming" Screed Luckheed.|
 T Smooth as Butter|QID|9356|M|49.2,74.8|N|To Legassi.|
@@ -205,7 +209,7 @@ C The Arakkoa Threat |N|Kill Haal'eshi Windwalkers and Talonguards until you fin
 C The Finest Down |N|Kill and loot Kaliri birds until you finish this quest. You can click on nests to spawn another one.|QID|9420|M|25.6,70.3|US|
 T The Finest Down|QID|9420|M|24.0,72.1|N|To Mirren Longbeard.|
 T The Arakkoa Threat|QID|9417|M|24.0,72.1|N|To Gremni Longbeard.|
-C Rampaging Ravagers |N|Kill the Quillfang Ravangers (Skitterers count as well) needed for this quest.|QID|9385|M|22.00,67.00|
+C Rampaging Ravagers |N|Kill the Quillfang Ravagers (Skitterers count as well) needed for this quest.|QID|9385|M|22.00,67.00|
 T Rampaging Ravagers|QID|9385|M|24.0,72.1|N|To Gremni Longbeard.|
 C Deadly Predators |S|N|Kill the Stonescythe Alphas and Whelps needed for this quest.|QID|9398|M|32.00,61.00|
 C The Rock Flayer Matriarch|N|Kill and loot Blacktalon in this cave.|QID|9490|M|34.00,64.00|
@@ -244,7 +248,7 @@ A Outland Sucks!|QID|10236|N|From Foreman Razelcraz.|M|51.31,30.5|
 C Outland Sucks!|N|Loot wooden crates in the shallow valley until you finish this quest.|QID|10236|M|48.26,40.81|
 T Outland Sucks!|QID|10236|N|To Foreman Razelcraz.|M|51.31,30.5|
 A How to Serve Goblins|QID|10238|PRE|10236|N|From Foreman Razelcraz.|M|51.31,30.5|
-N Manni's Cage |N|Free Manni from his cage.|QID|10238|QO|1|M|45.10,41.10|; Manni Saved: 1/1
+N Manni's Cage |N|Free Manni from his cage.|QID|10238|QO|1|M|45.10,41.10|; Mani Saved: 1/1
 N Moh's Cage |N|Free Moh from his cage.|QID|10238|QO|2|M|46.41,45.09|; Moh Saved: 1/1
 C How to Serve Goblins |N|Free Jakk from his cage.|QID|10238|M|47.50,46.70|
 T How to Serve Goblins|QID|10238|N|To Foreman Razelcraz.|M|51.31,30.5|
