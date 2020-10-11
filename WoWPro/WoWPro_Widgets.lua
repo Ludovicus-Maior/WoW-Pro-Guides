@@ -110,8 +110,8 @@ function WoWPro:CreateItemButton(parent, id)
         itembutton:SetPoint("TOPRIGHT", parent, "TOPLEFT", -10, -7)
     end
 
-    local cooldown = _G.CreateFrame("Cooldown", nil, itembutton, "CooldownFrameTemplate")
-    cooldown:SetAllPoints(itembutton)
+    local itemcooldown = _G.CreateFrame("Cooldown", nil, itembutton, "CooldownFrameTemplate")
+    itemcooldown:SetAllPoints(itembutton)
 
     local itemicon = itembutton:CreateTexture(nil, "ARTWORK")
     itemicon:SetWidth(36)
@@ -122,7 +122,7 @@ function WoWPro:CreateItemButton(parent, id)
     itembutton:RegisterForClicks("anyUp")
     itembutton:Hide()
 
-    return itembutton, itemicon, cooldown
+    return itembutton, itemicon, itemcooldown
 end
 
 function WoWPro:CreateJumpButton(parent, id)

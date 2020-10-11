@@ -1,4 +1,4 @@
-local guide = WoWPro:RegisterGuide('Venthyr', 'Leveling', 'Ring of Fates@Oribos', 'Tester', 'Alliance')
+local guide = WoWPro:RegisterGuide('Venthyr', 'Leveling', 'Ring of Fates@Oribos', 'Elidion', 'Neutral')
 WoWPro:GuideName(guide,"Covenant: Venthyr")
 WoWPro:GuideLevels(guide,60, 60)
 --WoWPro:GuideNextGuide(guide, 'Covenant')
@@ -69,6 +69,7 @@ C Rule 3: Trust is Earned|QID|60289|M|33.17,48.20|Z|The Maw|QO|3|N|Kill the Towe
 C Rule 3: Trust is Earned|QID|60289|M|PLAYER||Z|The Maw|NC|N|Use your Cypher of Relocation back to camp.|U|180817|
 T Rule 3: Trust is Earned|QID|60289|M|46.91,41.69|Z|The Maw|N|To Ve'nari.|
 A Hopeful News|QID|62837|M|46.91,41.69|Z|The Maw|N|From Ve'nari.|PRE|60289|
+P Oribos|ACTIVE|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|
 C Hopeful News|QID|62837|M|42.37,42.15|Z|The Maw|NC|N|Take the Waygate back to Oribos.|
 T Hopeful News|QID|62837|M|39.94,68.61|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon.|
 A Souls for Sinfall|QID|62870|M|39.94,68.61|Z|Ring of Fates@Oribos|N|From Highlord Bolvar Fordragon.|
@@ -88,8 +89,8 @@ A Strengthening the Bond|QID|62919|M|43.73,17.51|Z|Sinfall Reaches@Sinfall!Dunge
 C Strengthening the Bond|QID|62919|M|42.72,18.14|Z|Sinfall Reaches@Sinfall!Dungeon|NC|N|Click the Forge of Bonds and select the power you want. Click Activate once you have made your choice.|
 T Strengthening the Bond|QID|62919|M|43.76,17.53|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Nadjia the Mistblade.|
 A A Conduit For Change|QID|62920|M|45.34,20.88|Z|Sinfall Reaches@Sinfall!Dungeon|N|From The Accuser.|PRE|62919|
-C A Conduit For Change|QID|62920|M|42.73,18.12|Z|Sinfall Reaches@Sinfall!Dungeon|QO|1|U|182331|NC|N|Use the Empowered Release you got a reward from previous quest.|
-C A Conduit For Change|QID|62920|M|42.73,18.12|Z|Sinfall Reaches@Sinfall!Dungeon|QO|2|NC|N|Click on the Forge of Bonds.\n\nApply the Conduit to a potency Slot.\n\nClick Apply Conduits and Activate.|
+C A Conduit For Change|QID|62920|M|42.73,18.12|Z|Sinfall Reaches@Sinfall!Dungeon|QO|1|NC|N|Use the Conduit you got as a reward from the previous quest.|
+C A Conduit For Change|QID|62920|M|42.73,18.12|Z|Sinfall Reaches@Sinfall!Dungeon|QO|2|NC|N|Click on the Forge of Bonds.\n\nPut your Conduit at where you it makes the mose sense.\n\nClick Apply Conduits and Activate.|
 T A Conduit For Change|QID|62920|M|45.47,20.98|Z|Sinfall Reaches@Sinfall!Dungeon|N|To The Accuser.|
 A Our True Purpose|QID|62921|M|45.47,20.98|Z|Sinfall Reaches@Sinfall!Dungeon|N|From The Accuser.|PRE|62920|
 T Our True Purpose|QID|62921|M|51.77,37.49|Z|Sinfall Reaches@Sinfall!Dungeon|N|To Prince Renathal.|

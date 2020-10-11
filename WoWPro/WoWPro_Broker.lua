@@ -32,6 +32,7 @@ local function QidMapReduce(list, default, or_string, and_string, func, why, deb
         end
         return default
     end
+	list = tostring(list)
     local split_string
     local do_or, do_and
     if or_string and and_string then
@@ -1096,12 +1097,14 @@ function WoWPro:RowUpdate(offset)
             WoWPro:dbp("RowUpdate: enabled trash: %s", use)
         elseif use and _G.GetItemInfo(use) then
 			currentRow.itemicon.item_IsVisible = nil
+			currentRow.itemcooldown.OnCooldown = nil
             currentRow.itembutton:Show()
 			currentRow.itemicon.currentTexture = nil
             currentRow.itembutton:SetAttribute("type1", "item")
             currentRow.itembutton:SetAttribute("item1", "item:"..use)
 			currentRow.itembutton:SetScript("OnUpdate", function()
 				local itemtexture = _G.GetItemIcon(use)
+				local start, duration, enabled = _G.GetItemCooldown(use)
 				if _G.GetItemCount(use) > 0 and not currentRow.itemicon.item_IsVisible then
 					currentRow.itemicon.item_IsVisible = true
 					currentRow.itemicon:SetTexture(itemtexture)
@@ -1114,9 +1117,15 @@ function WoWPro:RowUpdate(offset)
 					currentRow.itemicon:SetTexture()
 					currentRow.itemicon.currentTexture = nil
 				end
+				if enabled and duration > 0 and not currentRow.itemcooldown.OnCooldown then
+                    currentRow.itemcooldown:Show()
+                    currentRow.itemcooldown:SetCooldown(start, duration)
+					currentRow.itemcooldown.OnCooldown = true
+                elseif currentRow.itemcooldown.OnCooldown and duration == 0 then
+                    currentRow.itemcooldown:Hide()
+					currentRow.itemcooldown.OnCooldown = false
+                end
 			end)
-
-
 
 			if not _G.InCombatLockdown() then
 				if currentRow.itembutton:IsVisible() and currentRow.itembutton:IsShown() then
@@ -1128,22 +1137,7 @@ function WoWPro:RowUpdate(offset)
 				end
 			end
 
-
             WoWPro:dbp("RowUpdate: enabled use: %s", use)
-            currentRow.cooldown:SetScript("OnUpdate", function()
-                    local start, duration, enabled = _G.GetItemCooldown(use)
-                    if enabled then
-                        currentRow.cooldown:Show()
-                        currentRow.cooldown:SetCooldown(start, duration)
-                    else
-                        currentRow.cooldown:Hide()
-                    end
-                end)
-            local start, duration, enabled = _G.GetItemCooldown(use)
-            if enabled then
-                currentRow.cooldown:Show()
-                currentRow.cooldown:SetCooldown(start, duration)
-            else currentRow.cooldown:Hide() end
             if not itemkb and currentRow.itembutton:IsVisible() and not _G.InCombatLockdown() then
                 local key1, key2 = _G.GetBindingKey("CLICK WoWPro_FauxItemButton:LeftButton")
                 if key1 then
@@ -1696,16 +1690,18 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             -- WoWPro:dbp("Checkpoint Aleph for step %d",guideIndex)
 
             -- Checking Prerequisites --
-            if WoWPro.prereq[guideIndex] then
-                if WoWPro.prereq[guideIndex] == "" then
+			local pre = WoWPro.prereq[guideIndex]
+            if pre then
+				pre = tostring(pre)
+                if pre == "" then
                     WoWPro.why[guideIndex] = "NextStep(): Empty PRE tag!"
-                elseif WoWPro.prereq[guideIndex]:find("^",1,true) then
+                elseif pre:find("^",1,true) then
                     -- Any prereq met is OK, skip only if none are met
-                    local numprereqs = select("#", ("^"):split(WoWPro.prereq[guideIndex]))
-                    -- WoWPro:dbp("NextStep:PRE^: %d on %s", numprereqs, WoWPro.prereq[guideIndex])
+                    local numprereqs = select("#", ("^"):split(pre))
+                    -- WoWPro:dbp("NextStep:PRE^: %d on %s", numprereqs, pre)
                     local totalFailure = true
                     for j=1,numprereqs do
-                        local jprereq = select(numprereqs-j+1, ("^"):split(WoWPro.prereq[guideIndex]))
+                        local jprereq = select(numprereqs-j+1, ("^"):split(pre))
                         if WoWPro:IsQuestFlaggedCompleted(jprereq, true) then
                             totalFailure = false -- If one of the prereqs is complete, step is not skipped.
                             WoWPro:dbp("NextStep:PRE^(%d): QID is completed, not skipping",guideIndex, jprereq)
@@ -1717,10 +1713,10 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                     end
                 else
                     -- All prereq met must be met
-                    local numprereqs = select("#", ("&"):split(WoWPro.prereq[guideIndex]))
-                    -- WoWPro:dbp("NextStep:PRE&: %d on %s", numprereqs, WoWPro.prereq[guideIndex])
+                    local numprereqs = select("#", ("&"):split(pre))
+                    -- WoWPro:dbp("NextStep:PRE&: %d on %s", numprereqs, pre)
                     for j=1,numprereqs do
-                        local jprereq = select(numprereqs-j+1, ("&"):split(WoWPro.prereq[guideIndex]))
+                        local jprereq = select(numprereqs-j+1, ("&"):split(pre))
                         if not WoWPro:IsQuestFlaggedCompleted(jprereq, true) then
                             skip = true -- If one of the prereqs is NOT complete, step is skipped.
                             WoWPro.why[guideIndex] = ("NextStep:PRE&(%d): A mandatory prereq was not met: %s"):format(guideIndex, tostring(jprereq))
@@ -1749,12 +1745,12 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 
             -- Skipping quests with prerequisites if their prerequisite was skipped --
-            if WoWPro.prereq[guideIndex]
+            if pre
             and not guide.skipped[guideIndex]
             and not WoWPro:QIDsInTable(QID,WoWProCharDB.skippedQIDs) then
-                local numprereqs = select("#", ("&"):split(WoWPro.prereq[guideIndex]))
+                local numprereqs = select("#", ("&"):split(pre))
                 for j=1,numprereqs do
-                    local jprereq = select(numprereqs-j+1, ("&"):split(WoWPro.prereq[guideIndex]))
+                    local jprereq = select(numprereqs-j+1, ("&"):split(pre))
                     if WoWProCharDB.skippedQIDs[tonumber(jprereq)] then
                         skip = true
                         WoWPro.why[guideIndex] = "NextStep(): Skipping step with skipped prerequisite."
@@ -2592,12 +2588,9 @@ function WoWPro.NextStep(guideIndex, rowIndex)
                         spellName = _G.GetSpellInfo(278833)
 						spellKnown = _G.GetSpellInfo(spellName)
                     elseif expansion == "LEGION" and canFly then
-                        spellName = _G.GetSpellInfo(233368)
-                        spellKnown = _G.GetSpellInfo(spellName)
+                        spellKnown = true
                     elseif expansion == "WOD" and canFly then
-						 local _, Name, _, Completed = _G.GetAchievementInfo(10018)
-                        spellName = Name
-                        spellKnown = Completed
+						spellKnown = true
                     elseif expansion == "OLD" and canFly then
                         spellKnown = true
                     end

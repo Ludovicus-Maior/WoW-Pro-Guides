@@ -143,7 +143,10 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
         WoWPro:AutoCompleteSetHearth(event, ...)
 	elseif event == "PLAYER_CONTROL_GAINED" then
 		if WoWPro.Recorder.Flights  then
-			local subzone = _G.GetSubZoneText() or zonetag
+			local subzone = _G.GetSubZoneText()
+			if subzone:len() < 2 then
+				subzone = _G.GetZoneText() --Other way wasn't working right since it wasn't nil
+			end
 			local stepInfo = {
 				action = "F",
 				step = subzone,
@@ -158,7 +161,10 @@ function WoWPro.Recorder.eventHandler(frame, event, ...)
 		end
 	elseif event == "AREA_POIS_UPDATED" then
 		if WoWPro.Recorder.Portals  then
-			local subzone = _G.GetSubZoneText() or zonetag
+			local subzone = _G.GetSubZoneText()
+			if subzone:len() < 2 then
+				subzone = _G.GetZoneText() --Other way wasn't working right since it wasn't nil
+			end
 			local stepInfo = {
 				action = "P",
 				step = subzone,
