@@ -155,12 +155,12 @@ T Seek the Ascended|QID|59773|M|37.52,76.44|Z|Bastion|N|To Kleia.|MS|
 
 ;right after tof decision
 A Re-Introductions|QID|62716|M|20.41,50.31|Z|Ring of Fates@Oribos|N|From Fatescribe Roh-Thal.|PRE|58086|
-A Observing [color=ff0000]PVP[/color]|QID|62284^62285^62286^62287^62288^62289|PRE|58086|M|34.23,55.86|Z|Ring of Fates@Oribos|N|If you plan to do [color=ff0000]PVP[/color], grab these two weekly quests from Strategist Zo'rak, if not, just check off manually.|
-A Trading Favors|QID|60274|PRE|58086|M|67.44,50.33|Z|Ring of Fates@Oribos|N|If you plan to do [color=efcc80]dungeons[/color], grab this quest (and it's follow ups) from Host Ta'rela. Otherwise, just check this step off manually. There are new weekly dungeon quests available with the Tuesday reset.|
+A Observing ...(PVP)|QID|62284^62285^62286^62287^62288^62289|PRE|58086|M|34.23,55.86|Z|Ring of Fates@Oribos|N|If you plan to do [color=ff0000]PVP[/color], grab these two weekly quests from Strategist Zo'rak, if not, just check off manually.|RANK|2|
+A Trading Favors|QID|60274|PRE|58086|M|67.44,50.33|Z|Ring of Fates@Oribos|N|If you plan to do [color=efcc80]dungeons[/color], grab this quest (and it's follow ups) from Host Ta'rela. Otherwise, just check this step off manually. There are new weekly dungeon quests available with the Tuesday reset.|RANK|2|
 R Through this doorway|ACTIVE|60274|M|70.39,59.89|CC|Z|Ring of Fates@Oribos|N|starting here, follow the stairs down and make your way to the The Broker's Den.|
 R The Broker's Den|ACTIVE|60274|M|42.21,70.64|Z|The Broker's Den@Oribos!Dungeon|N|And you have arrived to the basement den of the broker's.|
 T Trading Favors|QID|60274|M|52.60,54.77|Z|The Broker's Den@Oribos!Dungeon|N|To Finder Ta'sul.|
-A Trading Favors: [color=efcc80]dungeons[/color]|QID|60242^60243^60244^60245^60246^60247^60248^60249|PRE|60274|M|52.60,54.77|Z|The Broker's Den@Oribos!Dungeon|N|From Finder Ta'sul. Get both quests.|
+A Trading Favors: dungeons|QID|60242^60243^60244^60245^60246^60247^60248^60249|PRE|60274|M|52.60,54.77|Z|The Broker's Den@Oribos!Dungeon|N|From Finder Ta'sul. Get both quests.|
 ;A A Valuable Find: [color=efcc80]dungeons[/color]|QID|60250^60251^60252^60253^60254^60255^60256^60257|PRE|60274|M|51.19,43.79|Z|The Broker's Den@Oribos!Dungeon|ELITE|N|Get both Ta'lan the Antiquary's quests if you are up for Heroic dungeons.|;per wowhead lvl 60. but being offered it at lvl 50 in beta?
 T Re-Introductions|QID|62716|M|38.90,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
 A Choosing Your Purpose|QID|62000|PRE|62716|M|38.90,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|
@@ -174,6 +174,12 @@ A Aiding the Shadowlands|QID|62159|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribo
 C Choose your starting zone|QID|62159|M|38.93,69.97|Z|Ring of Fates@Oribos|N|Choose your preferred starting zone from Tal-Inara's Shadowlands Map.|
 ;there is no "T Aiding the Shadowlands"
 
+T Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+T Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+T Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+
+
 N Choose Bastion|PRE|62275|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|
 N Choose Revendreth|PRE|62279|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|
 N Choose Maldraxxus|PRE|62278|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|
@@ -183,7 +189,7 @@ N Choose Ardenweald|PRE|62277|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ard
 ;A Revendreth|QID|62279|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 ;t Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 ;A Dark Aspirations|QID|62740|PRE|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
-;R Ring of Transference|ACTIVE|62740|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
+;R Ring of Transference|ACTIVE|62740|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
 ;F Dark Haven|ACTIVE|62740|M|60.87,68.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
 ;T Dark Aspirations|QID|62740|M|61.4,60.4|Z|Revendreth|N|To Prince Renathal.|TOF|
 ;A Reinforcing Revendreth|QID|62778|PRE|62740|M|61.4,60.4|Z|Revendreth|N|To Prince Renathal. This is not tracked in the guide because literally everything you do in Revendreth counts towards it.|TOF|
@@ -191,7 +197,7 @@ N Choose Ardenweald|PRE|62277|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ard
 ;A Maldraxxus|QID|62278|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 ;t Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 ;A A Fresh Blade|QID|62738|PRE|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
-;R Ring of Transference|ACTIVE|62738|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
+;R Ring of Transference|ACTIVE|62738|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
 ;F Bleak Redoubt|ACTIVE|62738|M|60.87,68.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
 ;T A Fresh Blade|QID|62738|N|To Secutor Mevix.|TOF|
 ;A Rallying Maldraxxus|QID|62748|PRE|62738|N|From Secutor Menvix.|TOF|
@@ -199,7 +205,7 @@ N Choose Ardenweald|PRE|62277|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ard
 ;A Ardenweald|QID|62277|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 ;T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 ;A Restoring Balance|QID|62739|PRE|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
-;R Ring of Transference|ACTIVE|62739|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
+;R Ring of Transference|ACTIVE|62739|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
 ;F Refuge Camp|ACTIVE|62739|M|60.87,68.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
 ;T Restoring Balance|QID|62739|TOF|
 ;A Support the Court|QID|62763|PRE|62739|TOF|
