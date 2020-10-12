@@ -32,13 +32,16 @@ A Get Your Bearings|QID|47099|M|75.66,25.47|Z|Tiragarde Sound|N|From Taelia.|PRE
 C Go to the Ferry Dock|QID|47099|QO|1|M|75.27,25.81|Z|Tiragarde Sound|NC|N|Pick up the Ferry "flight" point.|
 C Go to the Bank|QID|47099|QO|2|M|73.76,21.74;75.83,22.85;75.49,17.66|CS|Z|Boralus|NC|N|Just up the stairs and you will find the bank.|
 ; professions
-A A Load of Scrap|QID|52462|M|75.55,18.80;75.42,17.68;77.18,16.44|CS|Z|Boralus|N|Up the stairs and to your right, from Crenzo Sparkshatter.|
+A A Load of Scrap|QID|52462|M|75.55,18.80;75.42,17.68;77.18,16.44|CS|Z|Boralus|N|Up the stairs and to your right, from Crenzo Sparkshatter.|PRE|47098|
 C A Load of Scrap|QID|52462|M|77.13,16.30|Z|Boralus|NC|N|Click on Crenzo's creation (behind him) and then drag the pants he gave you into that UI window that opens. This can be done with all crafted items to recover some mats.|
 T A Load of Scrap|QID|52462|M|77.18,16.44|Z|Boralus|N|To Crenzo Sparkshatter.|
 N Engineering|ACTIVE|47099|M|77.64,14.33|Z|Boralus|N|Train BfA Engineering at Layla Evenkeel.|P|Engineering;202|RECIPE|255392|;264492
+N Skinning|ACTIVE|47099|M|75.65,13.38|Z|Boralus|N|Train BfA skinning at Camilla Darksky.|P|Skinning;393|RECIPE|257152|;
+N Leatherworking|ACTIVE|47099|M|75.46,12.62|Z|Boralus|N|Train BfA Leatherworking at Cassandra Brennor.|P|Leatherworking;165|RECIPE|256756|;264592
 N Tailoring|ACTIVE|47099|M|76.94,11.13|Z|Boralus|N|Train BfA Tailoring at Daniel Brineweaver.|P|Tailoring;197|RECIPE|257103|;264630
 N Jewelcrafting|ACTIVE|47099|M|75.20,9.82|Z|Boralus|N|Train BfA Jewelcrafting at Samuel D. Colton III.|P|Jewelcrafting;755|RECIPE|256689|;264548
 N Fishing|ACTIVE|47099|M|75.83,9.19;74.19,5.51|CS|Z|Boralus|N|Up the stairs to find Alan Goyle, BfA Fishing Trainer. Check off manually when done.|P|Fishing;356|RECIPE|271675|;need to find correct spell id to autocomplete
+N Enchanting|ACTIVE|47099|M|74.02,11.57|Z|Boralus|N|Train BfA Enchanting at Emily Fairweather.|P|Enchanting;333|RECIPE|255074|;264473
 N Mining|ACTIVE|47099|M|75.23,7.53|Z|Boralus|N|Train BfA Mining at Myra Cabot.|P|Mining;186|RECIPE|253333|;
 N Alchemy|ACTIVE|47099|M|74.19,6.52|Z|Boralus|N|Train BfA Alchemy at Elric Whalgrene.|P|Alchemy;171|RECIPE|252382|;264255
 N Inscription|ACTIVE|47099|M|73.39,6.32|Z|Boralus|N|Train BfA Inscription at Zooey Inksprocket.|P|Inscription;773|RECIPE|264777|;264508
@@ -46,9 +49,6 @@ N Blacksmithing|ACTIVE|47099|M|73.46,8.49|Z|Boralus|N|Train BfA Blacksmithing at
 N Herbalism|ACTIVE|47099|M|71.42,4.63|Z|Boralus|N|Train BfA Herbalism at Declan Senal.|P|Herbalism;182|RECIPE|252411|;
 N Archaeology|ACTIVE|47099|M|68.34,8.49|Z|Boralus|N|Train BfA Archaeology at Jane Hudsun, inside the Hudsun Archaeological Building. Check off manually when done.|P|Archaeology;794|RECIPE|278910|;need to determine correct spell ID to autocomplete
 N Cooking|ACTIVE|47099|M|71.22,10.66|Z|Boralus|N|Train BfA Cooking at "Cap'n" Byron Mehlsack.|P|Cooking;185|RECIPE|259430|;
-N Enchanting|ACTIVE|47099|M|74.02,11.57|Z|Boralus|N|Train BfA Enchanting at Emily Fairweather.|P|Enchanting;333|RECIPE|255074|;264473
-N Leatherworking|ACTIVE|47099|M|75.46,12.62|Z|Boralus|N|Train BfA Leatherworking at Cassandra Brennor.|P|Leatherworking;165|RECIPE|256756|;264592
-N Skinning|ACTIVE|47099|M|75.65,13.38|Z|Boralus|N|Train BfA skinning at Camilla Darksky.|P|Skinning;393|RECIPE|257152|;
 C Go to Snug Harbor Inn|QID|47099|QO|3|M|74.11,12.65|Z|Boralus|CHAT|N|The inn is back on the main walkway. Set your hearthstone here. (there is a portal to Stormwind nearby).|
 f Tradewinds Market|QID|47099|M|66.96,14.99|Z|Boralus|N|Grab the1 the flight point.|
 C Go to the Flightmaster|QID|47099|QO|4|M|66.96,14.99|Z|Boralus|NC|N|Around the corner from the inn. Pick up the flight point.|
