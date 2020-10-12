@@ -98,6 +98,156 @@ T No Rest For the Dead|QID|59609|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To
 A Securing the House|QID|62448|PRE|59609|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|
 T Securing the House|QID|62448|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|
 A Enemy at the Door|QID|59555|PRE|62448|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|
+C Enemy at the Door|QID|59555|M|52.84,67.68|Z|Maldraxxus|QO|1|V|N|Hop onto Ragewing.|
+C Enemy at the Door|QID|59555|M|48.20,65.47|Z|Maldraxxus|N|Kill enemies and destroy Siege Ballista.\n\n1:Targetable Area attack\n\n2:Auto Area attack.|
+T Enemy at the Door|QID|59555|M|49.76,50.79|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|
+A Eyes on the Problem|QID|58007|PRE|59555|M|49.76,50.79|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|
+C Eyes on the Problem|QID|58007|M|50.45,51.59|Z|Seat of the Primus!Dungeon|QO|1|CHAT|N|Speak with Vashj.|
+F Keres' Rest|ACTIVE|58007|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|
+A Web of Information|QID|58601|PRE|59555|M|54.46,27.52|Z|Maldraxxus|N|From Wasp Hunter.|
+T Eyes on the Problem|QID|58007|M|50.82,24.48|Z|Maldraxxus|N|To Baroness Vashj.|
+A Whisper of Hope|QID|57649|PRE|58007|M|50.82,24.48|Z|Maldraxxus|N|From Baroness Vashj.|
+A Prying Eyes|QID|59265|PRE|58007|M|50.82,24.48|Z|Maldraxxus|N|From Baroness Vashj.|
+C Prying Eyes|QID|59265|M|50.75,20.71|Z|Maldraxxus|N|Kill Bonfused enemies to collect the Betrayer's Eyes.|S|
+C Whisper of Hope|QID|57649|M|50.75,20.71|Z|Maldraxxus|NC|U|172371|N|Use the Mark of Vashj to Rally the survivors.|
+C Prying Eyes|QID|59265|M|50.75,20.71|Z|Maldraxxus|N|Kill Bonfused enemies to collect the Betrayer's Eyes.|US|
+T Whisper of Hope|QID|57649|M|49.73,17.85|Z|Maldraxxus|N|To Whisperer Vyn.|
+T Prying Eyes|QID|59265|M|49.73,17.85|Z|Maldraxxus|N|To Whisperer Vyn.|
+A Extra Limbs|QID|61226|PRE|57649&59265|M|49.73,17.85|Z|Maldraxxus|N|From Whisperer Vyn.|
+A The Other Foot|QID|61227|PRE|57649&59265|M|49.91,17.86|Z|Maldraxxus|N|From Baroness Vashj.|
+A Outside Influence|QID|61230|PRE|57649&59265|M|50.02,17.92|Z|Maldraxxus|N|From Khaliiq.|
+T Extra Limbs|QID|61226|M|52.02,16.96|Z|Maldraxxus|N|To Navigator Xennir.|
+A No Friend Left Behind|QID|57644|PRE|61226|M|52.02,16.96|Z|Maldraxxus|N|From Navigator Xennir.|
+T Outside Influence|QID|61230|M|54.22,16.28|Z|Maldraxxus|N|To Khaliiq.|
+A Call In a Favor|QID|61252|PRE|61230|M|54.22,16.28|Z|Maldraxxus|N|From Khaliiq.|
+C Call In a Favor|QID|61252|M|54.22,16.28|Z|Maldraxxus|QO|1|NC|U|181162|N|Summon Helmsman Caliroux.|
+C Call In a Favor|QID|61252|M|53.91,15.90|Z|Maldraxxus|QO|2|N|Defeat Helmsman Caliroux.|
+C No Friend Left Behind|QID|57644|M|55.10,21.42|Z|Maldraxxus|QO|1|NC|N|Kill spiders to collect their Venomous Solvent.|
+C No Friend Left Behind|QID|57644|M|56.82,20.01|Z|Maldraxxus|QO|2|NC|U|183118|N|Click on Twigin to rescue it.|
+C No Friend Left Behind|QID|57644|M|52.02,16.95|Z|Maldraxxus|QO|3|CHAT|N|Speak with Xennir to get its aid.|
+T The Other Foot|QID|61227|M|48.62,18.54|Z|Maldraxxus|N|To Ansid the Mechanic.|
+A Rage Against the Cage|QID|61335|PRE|61227|M|48.62,18.54|Z|Maldraxxus|N|From Ansid the Mechanic.|
+C Rage Against the Cage|QID|61335|M|48.52,19.17|Z|Maldraxxus|QO|1|N|Kill Toc the Incessant and loot the Key.|
+C Rage Against the Cage|QID|61335|M|48.61,18.55|Z|Maldraxxus|QO|2|NC|N|Click on the cage to release Ansid.|
+T Rage Against the Cage|QID|61335|M|49.63,18.10|Z|Maldraxxus|N|To Ansid the Mechanic.|
+T No Friend Left Behind|QID|57644|M|49.99,18.06|Z|Maldraxxus|N|To Navigator Xennir.|
+T Call In a Favor|QID|61252|M|50.02,17.92|Z|Maldraxxus|N|To Khaliiq.|
+A See What You've Done|QID|61323|PRE|61335&57644&61252|M|49.73,17.84|Z|Maldraxxus|N|From Whisperer Vyn.|
+C See What You've Done|QID|61323|M|50.37,15.69|Z|Maldraxxus|N|Kill Gorgantus the Gutter.|
+T See What You've Done|QID|61323|M|50.20,15.56|Z|Maldraxxus|N|To Baroness Vashj.|
+A The Impossible Plan|QID|57648|PRE|61323|M|50.72,15.57|Z|Maldraxxus|N|From Whisperer Vyn.|
+H Seat of the Primus|QID|57648|ACTIVE|57648|M|50.72,15.57|Z|Maldraxxus|N|Hearth back or otherwise make your way to the Seat of the Primus.|
+T The Impossible Plan|QID|57648|M|49.74,50.75|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|
+
+; Chapter 3
+A Eyes to the Sky|QID|62169|PRE|57648|M|49.74,50.75|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|
+T Eyes to the Sky|QID|62169|M|49.74,50.75|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|
+A The Maldraxxian Job|QID|57778|PRE|62169|M|49.74,50.75|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|
+F Keres' Rest|ACTIVE|57778|M|52.47,67.65|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Keres' Rest.|
+R High Stand|ACTIVE|57778|M|54.45,27.27|Z|Maldraxxus|N|Make your way to the High Stand.|
+R Bony Spindles|ACTIVE|57778|M|53.59,22.01|Z|Maldraxxus|N|Make your way to the Bony Spindles.|
+R Nurakkir|ACTIVE|57778|M|52.10,15.20|Z|Maldraxxus|N|Make your way to the Nurakkir.|
+T The Maldraxxian Job|QID|57778|M|50.72,15.58|Z|Maldraxxus|N|To Whisperer Vyn.|
+A I'll Only Say This Once|QID|61485|PRE|57778|M|50.72,15.58|Z|Maldraxxus|N|From Whisperer Vyn.|
+C I'll Only Say This Once|QID|61485|M|50.72,15.58|Z|Maldraxxus|QO|1|CHAT|N|Speak with Whisperer Vyn to review the plan.|
+C I'll Only Say This Once|QID|61485|M|50.87,15.30|Z|Maldraxxus|QO|2|CHAT|N|Let Twigin know you are ready to fly.|
+T I'll Only Say This Once|QID|61485|M|31.19,49.39|Z|Maldraxxus|N|To Navigator Xennir.|
+A Follow Me|QID|61518|PRE|61485|M|31.19,49.39|Z|Maldraxxus|N|From Navigator Xennir.|
+C Follow Me|QID|61518|M|31.19,49.39|Z|Maldraxxus|QO|1|CHAT|N|Talk with Navigator Xennir.|
+C Follow Me|QID|61518|M|31.84,40.22|Z|Maldraxxus|QO|2|NC|N|Follow Navigator Xennir, there will be one ambush toward the end.|
+T Follow Me|QID|61518|M|31.84,40.22|Z|Maldraxxus|N|To Navigator Xennir.|
+A Cut to the Bone|QID|60112|PRE|61518|M|31.84,40.22|Z|Maldraxxus|N|From Navigator Xennir.|
+C Cut to the Bone|QID|60112|M|30.91,45.94|Z|Maldraxxus|N|Kill Ossien Workers and Violent Animate.|
+T Cut to the Bone|QID|60112|M|26.96,45.09|Z|Maldraxxus|N|To Navigator Xennir.|
+A Set Me Free|QID|61548|PRE|60112|M|27.24,45.21|Z|Maldraxxus|N|From Khaliiq.|
+C Set Me Free|QID|61548|M|26.34,48.00|Z|Maldraxxus|QO|1|N|Kill the Strongarms until you loot the Ossein Key.|
+C Set Me Free|QID|61548|M|28.56,48.02|Z|Maldraxxus|QO|2|NC|N|Free Ansid.|
+T Set Me Free|QID|61548|M|28.55,47.71|Z|Maldraxxus|N|To Khaliiq.|
+A Crush 'Em All|QID|61551|PRE|61548|M|28.55,47.71|Z|Maldraxxus|N|From Khaliiq.|
+C Crush 'Em All|QID|61551|M|29.78,44.38|Z|Maldraxxus|N|Use Action Ability "[color=40C7EB]Throw[/color]" to damage and ultimately kill Enforcer Borgulla.|EAB|
+T Crush 'Em All|QID|61551|M|30.05,43.54|Z|Maldraxxus|N|To Khaliiq.|
+A Keys the Ruin|QID|61569|PRE|61551|M|30.16,43.65|Z|Maldraxxus|N|From Whisperer Vyn.|
+C Keys the Ruin|QID|61569|M|30.36,43.75|Z|Maldraxxus|QO|1|CHAT|N|Speak with Twigin so it can fly you to the Necropolis.|
+C Keys the Ruin|QID|61569|M|29.52,44.40|Z|Maldraxxus|QO|2|NC|N|Click the altar to place the Runic Keystone.|
+C Keys the Ruin|QID|61569|M|29.46,44.48|Z|Maldraxxus|QO|3|N|Kill Vo'treus the Keyguard.|
+T Keys the Ruin|QID|61569|M|29.62,43.97|Z|Maldraxxus|N|To Khaliiq.|
+A This Way Out|QID|61594|PRE|61569|M|29.62,43.97|Z|Maldraxxus|N|From Khaliiq.|
+C This Way Out|QID|61594|M|29.58,43.90|Z|Maldraxxus|QO|1|CHAT|N|Speak with Twigin so it can fly you to the Zerekriss.|
+T This Way Out|QID|61594|M|36.32,52.67|Z|Maldraxxus|N|To Whisperer Vyn.|
+A Grand Theft Necropolis|QID|59722|PRE|61594|M|38.82,56.52|Z|Maldraxxus|N|From Whisperer Vyn. \n\n Note: Necropolis is moving so coordinates are impossible while in here.|
+A Search the Place|QID|61869|PRE|61594|Z|Maldraxxus|N|From Whisperer Vyn.|
+C Search the Place|QID|61869|Z|Maldraxxus|QO|2|NC|N|Use Transport Pad: Zerekriss Upper Floor.|
+C Search the Place|QID|61869|Z|Maldraxxus|QO|1|NC|N|Click on the chest to loot the Bindings of Fleshcrafting.|
+C Grand Theft Necropolis|QID|59722|Z|Maldraxxus|NC|N|Take the gate to travel to the Seat of the Primus.|
+T Grand Theft Necropolis|QID|59722|M|61.27,32.90|Z|Seat of the Primus!Dungeon|N|To Khaliiq.|
+T Search the Place|QID|61869|M|49.81,50.66|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|
+A Bindings of Fleshcrafting|QID|58820|PRE|59722&61869|M|49.81,50.66|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|
+C Bindings of Fleshcrafting|QID|58820|M|49.62,54.47|Z|Seat of the Primus!Dungeon|QO|1|NC|N|Click on the Bindings to return them to the Primus statue.|
+T Bindings of Fleshcrafting|QID|58820|M|49.76,50.69|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|
+
+; Chapter 4
+A The Only Cure|QID|59625|PRE|58820|M|49.01,51.59|Z|Seat of the Primus!Dungeon|N|From Alexandros Mograine.|
+F Hero's Rest|ACTIVE|59625|M|52.47,67.64|Z|Maldraxxus|N|Head to the flightmaster and take a flight to Hero's Rest.|
+P Firstborne's Bounty|ACTIVE|59625|M|50.55,46.79|Z|Bastion!The Shadowlands|N|Take the portal to Firstborne's Bounty.|
+A Peace by Piece|QID|59648|PRE|59625|M|40.69,55.04|Z|Bastion!The Shadowlands|N|From Xandria.|
+A No Hesitation, No Surrender|QID|59650|PRE|59625|M|40.69,55.04|Z|Bastion!The Shadowlands|N|From Xandria.|
+A Death Rains|QID|59645|PRE|59625|M|PLAYER|Z|Bastion!The Shadowlands|N|From Alexandros Mograine.|
+C Death Rains|QID|59645|M|40.96,53.12|Z|Bastion!The Shadowlands|N|Kill Maldraxxi enemies, but don't go out of your way, you will most likely naturally complete this.|S|
+C Peace by Piece|QID|59648|M|39.16,59.63|Z|Bastion!The Shadowlands|QO|1|NC|N|Head down toward the Southern Bulwark.|
+C Peace by Piece|QID|59648|M|38.84,60.43|Z|Bastion!The Shadowlands|QO|2|NC|N|Use Action Ability "[color=40C7EB]Xandria's Wrath[/color]" to help you kill the Elite.\n\nOnce the Elite is dead, click on the 2 Anima Batteries.|EAB|
+C Peace by Piece|QID|59648|M|38.44,60.62|Z|Bastion!The Shadowlands|QO|3|NC|N|Click the Necrotic Bulwark to destroy it.|
+C No Hesitation, No Surrender|QID|59650|M|39.74,50.21|Z|Bastion!The Shadowlands|QO|1|NC|N|Head back up toward the Northern Bulwark.|
+C No Hesitation, No Surrender|QID|59650|M|39.68,49.14|Z|Bastion!The Shadowlands|QO|2|NC|N|Click the bulwark to examine it, be prepared for an ambush.|
+C No Hesitation, No Surrender|QID|59650|M|39.58,49.58|Z|Bastion!The Shadowlands|QO|3|N|Use Action Ability "[color=40C7EB]Xandria's Wrath[/color]" to help you kill the Elite. Once it dies the Bulwark will be destroyed.|EAB|
+C Death Rains|QID|59645|M|40.96,53.12|Z|Bastion!The Shadowlands|N|Finish up any final Maldraxxi renegades, feel free to use your Action Ability to hurry this up.|US|EAB|
+T Death Rains|QID|59645|M|PLAYER|Z|Bastion!The Shadowlands|N|To Alexandros Mograine.|
+T Peace by Piece|QID|59648|M|38.87,55.23|Z|Bastion!The Shadowlands|N|To Xandria.|
+T No Hesitation, No Surrender|QID|59650|M|38.87,55.23|Z|Bastion!The Shadowlands|N|To Xandria.|
+A Don't Cross Courage|QID|59653|PRE|59645&59648&59650|M|38.87,55.23|Z|Bastion!The Shadowlands|N|From Xandria.|
+C Don't Cross Courage|QID|59653|M|38.87,55.23|Z|Bastion!The Shadowlands|QO|1|NC|N|Cross the breach with Xandria.|
+T Don't Cross Courage|QID|59653|M|35.96,55.33|Z|Bastion!The Shadowlands|N|To Xandria.|
+A Aerial Absolution|QID|59659|PRE|59653|M|35.96,55.33|Z|Bastion!The Shadowlands|N|From Xandria.|
+A Sustain, In Vain|QID|59678|PRE|59653|M|PLAYER|Z|Bastion!The Shadowlands|N|From Alexandros Mograine.|
+C Sustain, In Vain|QID|59678|M|33.60,58.15|Z|Bastion!The Shadowlands|NC|N|Click on the Necrotic Portals to disable them.|S|
+C Aerial Absolution|QID|59659|M|33.31,55.38|Z|Bastion!The Shadowlands|QO|1|N|Befouler Naux slain.|
+C Aerial Absolution|QID|59659|M|32.50,59.37|Z|Bastion!The Shadowlands|QO|2|N|Befouler Ahnqat slain.|
+C Aerial Absolution|QID|59659|M|31.95,55.19|Z|Bastion!The Shadowlands|QO|3|N|Befouler Ghorout slain.|
+C Sustain, In Vain|QID|59678|M|33.60,58.15|Z|Bastion!The Shadowlands|NC|N|Click on the Necrotic Portals to disable them.|US|
+T Sustain, In Vain|QID|59678|M|PLAYER|Z|Bastion!The Shadowlands|N|To Alexandros Mograine.|
+T Aerial Absolution|QID|59659|M|29.98,55.20|Z|Bastion!The Shadowlands|N|To Xandria.|
+A Wipe the Slate Clean|QID|59698|PRE|59678&59659|M|29.98,55.20|Z|Bastion!The Shadowlands|N|From Xandria.|
+C Wipe the Slate Clean|QID|59698|M|35.40,55.14|Z|Bastion!The Shadowlands|N|Hop onto Xandria and target the ground for an area attack.|
+T Wipe the Slate Clean|QID|59698|M|29.97,55.20|Z|Bastion!The Shadowlands|N|To Xandria.|
+A The Last Labor|QID|59700|PRE|59698|M|29.97,55.20|Z|Bastion!The Shadowlands|N|From Xandria.|
+C The Last Labor|QID|59700|M|29.81,52.86|Z|Bastion!The Shadowlands|QO|1|CHAT|N|Speak with Xandria to fly up the the Necropolis.|
+C The Last Labor|QID|59700|M|29.37,52.55|Z|Bastion!The Shadowlands|QO|2|N|Kill Baroness Antolyt.|
+T The Last Labor|QID|59700|M|29.69,53.14|Z|Bastion!The Shadowlands|N|To Xandria.|
+A Afterlife Goes On|QID|59709|PRE|59700|M|29.69,53.14|Z|Bastion!The Shadowlands|N|From Xandria.|
+C Afterlife Goes On|QID|59709|M|41.65,55.18|Z|Bastion!The Shadowlands|QO|1|NC|N|Click on Xandria to fly with her to the Temple of Courage.|
+T Afterlife Goes On|QID|59709|M|41.64,55.30|Z|Bastion!The Shadowlands|N|To Xandria.|
+A No Peace In Death|QID|59748|PRE|59709|M|41.63,55.10|Z|Bastion!The Shadowlands|N|From Alexandros Mograine.|
+C No Peace In Death|QID|59748|M|41.64,55.30|Z|Bastion!The Shadowlands|QO|1|Chat|N|Talk with Xandria.|
+C No Peace In Death|QID|59748|M|46.58,62.15|Z|Bastion!The Shadowlands|QO|2|NC|N|Walk with Xandria and Alexandros to Agitha's Repose.|
+T No Peace In Death|QID|59748|M|46.48,62.93|Z|Bastion!The Shadowlands|N|To Xandria.|
+A All I Ever Will Be|QID|59921|PRE|59748|M|46.48,62.93|Z|Bastion!The Shadowlands|N|From Xandria.|
+C All I Ever Will Be|QID|59921|M|47.44,65.81|Z|Bastion!The Shadowlands|QO|1|NC|N|Use Action Ability "[color=40C7EB]Reflect[/color]" to Meditate on the Scroll of Remembrance.|EAB|
+C All I Ever Will Be|QID|59921|M|44.92,68.71|Z|Bastion!The Shadowlands|QO|2|NC|N|Use Action Ability "[color=40C7EB]Reflect[/color]" to Meditate on the Scroll of Remembrance.|EAB|
+C All I Ever Will Be|QID|59921|M|44.73,64.44|Z|Bastion!The Shadowlands|QO|3|NC|N|Use Action Ability "[color=40C7EB]Reflect[/color]" to Meditate on the Scroll of Remembrance.|EAB|
+C All I Ever Will Be|QID|59921|M|44.73,64.43|Z|Bastion!The Shadowlands|QO|4|N|Destroy Alexandros's Burden.|
+T All I Ever Will Be|QID|59921|M|46.47,62.94|Z|Bastion!The Shadowlands|N|To Xandria.|
+A Do Not Forget|QID|59922|PRE|59921|M|46.47,62.94|Z|Bastion!The Shadowlands|N|From Xandria.|
+H Seat of the Primus|QID|59922|ACTIVE|59922|M|46.47,62.94|Z|Bastion!The Shadowlands|N|Hearth back or otherwise make your way to the Seat of the Primus.|
+T Do Not Forget|QID|59922|M|49.78,50.72|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|
+A The Golden Dawn|QID|59894|PRE|59922|M|48.97,51.67|Z|Seat of the Primus!Dungeon|N|From Alexandros Mograine.|
+P Bleak Redoubt|ACTIVE|59894|M|58.83,23.03|Z|Seat of the Primus!Dungeon|N|Take the gate to Bleak Redoubt.|
+C The Golden Dawn|QID|59894|M|50.39,70.56|Z|Maldraxxus|NC|N|Meet with Draka.|
+T The Golden Dawn|QID|59894|M|50.39,70.56|Z|Maldraxxus|N|To Baroness Draka.|
+
+; Chapter 5
+A Machinations of War|QID|61586|PRE|59894|M|50.39,70.56|Z|Maldraxxus|N|From Baroness Draka.|
+P Seat of the Primus|ACTIVE|61586|M|50.39,73.99|Z|Maldraxxus|N|Take the gate to Seat of the Primus.|
+T Machinations of War|QID|61586|M|49.73,50.70|Z|Seat of the Primus!Dungeon|N|To Baroness Draka.|
+A Take The Fight To Them|QID|61145|PRE|61586|M|49.73,50.70|Z|Seat of the Primus!Dungeon|N|From Baroness Draka.|
 
 
 
@@ -111,22 +261,6 @@ A Enemy at the Door|QID|59555|PRE|62448|M|49.78,50.72|Z|Seat of the Primus!Dunge
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-; "[color=40C7EB]Power of the Primus[/color]" to swear your oath to the Accuser.|EAB|
+; Use Action Ability "[color=40C7EB]Reflect[/color]"
 ]]
 end)
