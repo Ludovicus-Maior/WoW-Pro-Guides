@@ -323,6 +323,76 @@ A A Night in the Woods|QID|60899|M|30.01,55.19|Z|Ardenweald!The Shadowlands|COV|
 T Witch's Satchel|QID|61709|M|46.17,56.42|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
 T The Broken Spear|QID|61710|M|46.18,56.67|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|COV|Night Fae|
 A Ritual of Purification|QID|61711|M|46.16,56.51|Z|Ardenweald!The Shadowlands|N|From Kivarr.|COV|Night Fae|
-;All fun and games untill phasing stops you dead in ya tracks, hopfully blizz will fix soon
+C Ritual of Purification|QID|61711|M|46.18,56.56|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Purification Fetish used.|
+C Ritual of Purification|QID|61711|M|46.19,56.56|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Ritual of Purification.|
+T Ritual of Purification|QID|61711|M|46.17,56.48|Z|Ardenweald!The Shadowlands|N|To Kivarr.|
+A Unbroken Bonds|QID|61171|PRE|61711|M|46.20,56.64|Z|Ardenweald!The Shadowlands|N|From Lord Herne.|
+T Unbroken Bonds|QID|61171|M|50.63,30.29|Z|The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen.|
+;The Horned Hunter
+A Containing the Night|QID|58445|PRE|61171|M|44.89,39.34|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|
+C Containing the Night|QID|58445|M|43.99,38.76|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|NC|N|Plan heard.|
+T Containing the Night|QID|58445|M|43.99,38.76|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|
+A Tracker Tracking|QID|58446|PRE|58445|M|43.99,38.76|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|
+C Tracker Tracking|QID|58446|M|39.40,70.07|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|NC|N|Speak with Lord Herne.|
+T Tracker Tracking|QID|58446|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|To Reldorn.|
+A Home of the Tirnenn|QID|59258|PRE|58446|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|From Reldorn.|
+A Who Devours the Devourers?|QID|60609|PRE|58446|M|32.81,46.81|Z|Ardenweald!The Shadowlands|N|From Reldorn.|
+C Home of the Tirnenn|QID|59258|M|32.46,46.65|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Approach Tirna Scithe.|
+C Home of the Tirnenn|QID|59258|M|31.46,46.38|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Southern portal closed.|
+C Home of the Tirnenn|QID|59258|M|31.50,45.90|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Northern portal closed.|
+C Home of the Tirnenn|QID|59258|M|30.03,45.06|Z|Ardenweald!The Shadowlands|QO|4|NC|N|Horned Hunter located.|
+T Home of the Tirnenn|QID|59258|M|30.01,44.94|Z|Ardenweald!The Shadowlands|N|To Huln Highmountain.|
+A Dressing the Kill|QID|58706|PRE|59258|M|30.01,44.94|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|
+C Dressing the Kill|QID|58706|M|29.97,44.90|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Carve the kill.|
+T Dressing the Kill|QID|58706|M|29.97,44.83|Z|Ardenweald!The Shadowlands|N|To Huln Highmountain.|
+A Monster Hunting|QID|58447|PRE|58706|M|29.97,44.83|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|
+C Who Devours the Devourers?|QID|60609|M|28.61,45.93|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Resonating Anima Core created from motes (Optional).|
+C Monster Hunting|QID|58447|M|27.76,50.62|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Search for traces of the worldeater.|
+C Monster Hunting|QID|58447|M|25.14,48.34|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Follow the trail.|
+C Monster Hunting|QID|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Ambush Voras.|
+T Monster Hunting|QID|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|To Huln Highmountain.|
+A Acid Reflux|QID|58449|PRE|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|
+A Anima Instincts|QID|58450|PRE|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|
+C Acid Reflux|QID|58449|M|51.28,71.19|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Fly to Claw's Edge (Optional).|
+C Anima Instincts|QID|58450|M|51.28,71.19|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Fly to Claw's Edge (Optional).|
+C Anima Instincts|QID|58450|M|51.28,78.93|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Life-Hardened Anima.|
+C Acid Reflux|QID|58449|M|51.70,79.18|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Bulging Digestive Sac.|
+T Acid Reflux|QID|58449|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|To Reldorn.|
+T Anima Instincts|QID|58450|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|To Reldorn.|
+A Becoming the Hunt|QID|59721|PRE|58449&58450|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|From Reldorn.|
+T Becoming the Hunt|QID|59721|M|24.56,48.93|Z|Ardenweald!The Shadowlands|N|To Huln Highmountain.|
+A Voras, The Realm Eater|QID|58451|PRE|59721|M|24.56,48.93|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|
+C Voras, The Realm Eater|QID|58451|M|24.56,48.93|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Speak with Huln.|
+C Voras, The Realm Eater|QID|58451|M|24.32,48.98|Z|Ardenweald!The Shadowlands|QO|2|N|Voras slain.|
+T Voras, The Realm Eater|QID|58451|M|24.51,48.94|Z|Ardenweald!The Shadowlands|N|To Huln Highmountain.|
+A Tracking the Shadows|QID|58452|PRE|58451|M|24.51,48.94|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|
+T Tracking the Shadows|QID|58452|M|44.81,38.33|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|
+;Deal for a Loa
+A An Expected Guest|QID|59731|PRE|58452|M|44.08,38.81|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|
+T An Expected Guest|QID|59731|M|48.33,52.53|Z|Ardenweald!The Shadowlands|N|To Bwonsamdi.|
+A Something Extra for the Winter Queen|QID|59732|PRE|59731|M|48.33,52.53|Z|Ardenweald!The Shadowlands|N|From Bwonsamdi.|
+C Something Extra for the Winter Queen|QID|59732|M|50.54,45.51|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Entrance to Bwonsamdi's Necropolis found.|
+C Something Extra for the Winter Queen|QID|59732|M|50.58,44.60|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Portal taken to the Necropolis.|
+T Something Extra for the Winter Queen|QID|59732|M|39.57,24.72|Z|Nazmir|N|To Bwonsamdi.|
+A The Problem with Containing a Death Loa|QID|59739|PRE|59732|M|39.57,24.72|Z|Nazmir|N|From Bwonsamdi.|
+A Dark Mojo for a Dark Loa|QID|59741|PRE|59732|M|39.55,24.78|Z|Nazmir|N|From Hanzabu.|
+A Delaying the Other Side|QID|59742|PRE|59732|M|39.55,24.78|Z|Nazmir|N|From Hanzabu.|
+C The Problem with Containing a Death Loa|QID|59739|M|39.56,36.38|Z|Nazmir|QO|1|U|177817|NC|N|Zel'han's Broken Armor.|
+C Delaying the Other Side|QID|59742|M|40.86,31.93|Z|Nazmir|QO|1|U|177817|NC|N|Injured worshiper rescued.|
+C Dark Mojo for a Dark Loa|QID|59741|M|37.85,30.12|Z|Nazmir|QO|1|NC|N|Dark Mojo.|
+T Dark Mojo for a Dark Loa|QID|59741|M|39.57,24.73|Z|Nazmir|N|To Bwonsamdi.|
+T Delaying the Other Side|QID|59742|M|39.57,24.73|Z|Nazmir|N|To Bwonsamdi.|
+T The Problem with Containing a Death Loa|QID|59739|M|39.57,24.73|Z|Nazmir|N|To Mueh'zala.|
+A One Little Whisper|QID|59749|PRE|59741&59742&59739|M|39.57,24.73|Z|Nazmir|N|From Bwonsamdi.|
+C One Little Whisper|QID|59749|M|39.19,25.18|Z|Nazmir|QO|1|NC|N|Special friend summoned.|
+C One Little Whisper|QID|59749|M|39.57,24.73|Z|Nazmir|QO|2|NC|N|Speak with Bwonsamdi to begin the ritual.|
+C One Little Whisper|QID|59749|M|39.57,24.73|Z|Nazmir|QO|3|NC|N|Ritual completed.|
+T One Little Whisper|QID|59749|M|39.57,24.69|Z|Nazmir|N|To Bwonsamdi.|
+A Maw Manifested|QID|59805|PRE|59749|M|39.57,24.69|Z|Nazmir|N|From Bwonsamdi.|
+C Maw Manifested|QID|59805|M|39.57,24.69|Z|Nazmir|QO|1|NC|N|Speak with Vol'jin.|
+C Maw Manifested|QID|59805|M|44.95,40.99|Z|The Maw|QO|2|NC|N|Travel to the Maw.|
+T Maw Manifested|QID|59805|M|44.85,41.02|Z|The Maw|N|To Spirit of Vol'jin.|
+A Tracking a Wild God|QID|59822|PRE|59805|M|44.85,41.02|Z|The Maw|N|From Unknown.|
+; First clue bugged, according to the only comment on wowhead has been since the 26/08.
 ]]
 end)
