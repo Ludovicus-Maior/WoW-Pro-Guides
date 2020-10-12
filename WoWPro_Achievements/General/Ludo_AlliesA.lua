@@ -31,20 +31,20 @@ WoWPro:GuideSteps(guide, function()
 return [[
 
 A The Call for Allies|QID|49929|N|Autoaccept when you buy Battle for Azeroth|
-T The Call for Allies|QID|49929|M|52.07,13.41|N|To Anduin Wrynn, in the new embassy.|
-A A Choice of Allies|QID|50239|PRE|49929|M|52.07,13.41|N|From Anduin Wrynn|
+T The Call for Allies|QID|49929|M|52.07,13.41|N|To Aysa Cloudsinger, in the new embassy.|
+A A Choice of Allies|QID|50239|PRE|49929|M|52.07,13.41|N|From Aysa Cloudsinger.|
 N Allied Races: Void Elf|ACTIVE|50239|ACH|12447;|N|No Void Elf for you!\nYou need to be Exalted with Argussian Reach and completed [You Are Now Prepared!]\nComplete with right click.|
 N Allied Races: Lightforged Draenei|ACTIVE|50239|ACH|12448;|N|No Lightforged Draenei for you!\nYou need to be Exalted with Army of the Light  and completed [You Are Now Prepared!]\nComplete with right click.|
-T A Choice of Allies|QID|50239|M|52.07,13.41|N|To Anduin Wrynn|
+T A Choice of Allies|QID|50239|M|52.07,13.41|N|To Aysa Cloudsinger.|
 
 N You have chosen|AVAILABLE|49787^49698|N|Get the next quest from Alleria Windrunner or High Exarch Turalyon|
 
 A The Ghostlands|QID|49787|PRE|50239|M|52.25,13.50|N|From Alleria Windrunner|O|
-P Ghostlands|ACTIVE|49787|M|52.30,13.33|N|Take the rift to the Ghostlands.|
-C Sanctum of the Moon|QID|49787|M|33.62,34.47|Z|Ghostlands|QO|1|N|Find Umbric's Notes on tables|
-C Andilien Estate|QID|49787|M|46.87,54.97|Z|Ghostlands|QO|2|N|Find Umbric's Notes on tables|
+P Ghostlands|ACTIVE|49787|M|52.30,13.33|N|Take the rift to the Ghostlands.|QO|1|
+C Sanctum of the Moon|QID|49787|M|33.62,34.47|Z|Ghostlands|QO|2|N|Find Umbric's Notes on tables|
+C Andilien Estate|QID|49787|M|46.87,54.97|Z|Ghostlands|QO|3|N|Find Umbric's Notes on tables|
 R Dawnstar Spire|ACTIVE|49787|M|78.77,19.82|Z|Ghostlands|N|Mount up and head to Dawnstar Spire|
-C Dawnstar Spire|QID|49787|M|79.63, 19.68|Z|Ghostlands|QO|3|N|Find the spire and take the path up. Use the console on balcony, then take the path up again to the top of spire.|
+C Dawnstar Spire|QID|49787|M|79.63, 19.68|Z|Ghostlands|QO|4|N|Find the spire and take the path up. Use the console on balcony, then take the path up again to the top of spire.|
 T The Ghostlands|QID|49787|M|79.70, 19.72|Z|Ghostlands|N|To High Elf Ranger|
 A Telogrus Rift|QID|48962|PRE|49787|M|79.70, 19.72|Z|Ghostlands|N|From High Elf Ranger.  This starts a scenario.|
 C Telogrus Rift|QID|48962|Z|Telogrus Rift|SO|1|S|N|Speak with Umbric.|
@@ -59,10 +59,10 @@ C Use the void portal.|QID|48962|M|28.87,38.27|Z|VoidElfScenario|SO|8;1|N|Use th
 C Voidforges shut down|QID|48962|M|29.00,27.77;28.51,21.76;26.21,24.47|Z|VoidElfScenario|CN|SO|9;1|N|Voidforges shut down by clicking on them.|
 K Nether-Prince |QID|48962|M|27.78,24.13|Z|VoidElfScenario|SO|10;1|N|Nether-Walker defeated|
 R Stormwind City|QID|48962|M|27.93, 24.45|Z|VoidElfScenario|N|Use the 5th void portal to get home.|
-T Telogrus Rift|QID|48962|M|52.07,13.41|N|To Anduin Wrynn|
+T Telogrus Rift|QID|48962|M|52.07,13.41|N|To Aysa Cloudsinger.|
 
 A The Lightforged|QID|49698|M|52.11,13.72|N|From High Exarch Turalyon|O|
-P The Vindicaar|QID|49698|M|54.44,14.44|QO|1|N|Use the beacon outside to the Vindicaar.|
+P The Vindicaar|ACTIVE|49698|M|54.44,14.44|QO|1|N|Use the beacon outside to the Vindicaar.|
 T The Lightforged|QID|49698|M|43.89,26.87|Z|Upper Deck@LightforgedVindicaar|N|To Captain Fareeya.|
 A Forge of Aeons|QID|49266|PRE|49698|M|43.89,26.87|Z|Upper Deck@LightforgedVindicaar|N|From Captain Fareeya.|
 P Forge of Aeons|ACTIVE|49266|M|49.95,46.34|QO|1|Z|Upper Deck@LightforgedVindicaar|N|Take the beacon in the middle to the scenario.|
@@ -94,7 +94,7 @@ P The Vindicaar|ACTIVE|49266|M|71.67,95.41|Z|LightforgedDraeneiSwamp|N|Use the B
 T Forge of Aeons|QID|49266|M|48.39,39.45|Z|Upper Deck@LightforgedVindicaar|N|To Captain Fareeya.|
 A For the Light!|QID|50071|PRE|49266|M|47.42,40.13|Z|Upper Deck@LightforgedVindicaar|N|From High Exarch Turalyon.|
 P Stormwind City|ACTIVE|50071|M|43.25,25.02|Z|Lower Deck@LightforgedVindicaar|N|Take the portal in the lower deck to Stormwind (it usually goes to Dalaran).|
-T For the Light!|QID|50071|M|52.07,13.41|N|To Anduin Wrynn|
+T For the Light!|QID|50071|M|52.07,13.41|N|To Aysa Cloudsinger.|
 
 A A Second Ally For the Cause|QID|50248|PRE|48962|M|52.06,13.41|N|From Anduin Wrynn.|
 C A Second Ally For the Cause|QID|50248|QO|1|N|Choose another ally to pursue|
