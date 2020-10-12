@@ -10,21 +10,24 @@ return [[
 A Bastion|QID|62275|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 t Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
 A The Elysian Fields|QID|62707|PRE|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
-R Ring of Transference|ACTIVE|62707|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
+R Ring of Transference|ACTIVE|62707|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
 F Hero's Rest|ACTIVE|62707|M|60.87,68.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
 T The Elysian Fields|QID|62707|M|51.12,46.80|Z|Bastion|N|To Kalisthene.|TOF|
-A Bolstering Bastion|QID|62723|PRE|60707|M|51.12,46.80|Z|Bastion|N|From Kalisthene. This is not tracked in the guide because literally everything you do in Bastion counts towards it.|TOF|
+A Bolstering Bastion|QID|62723|PRE|62707|M|51.12,46.80|Z|Bastion|N|From Kalisthene.|TOF|
+C Bolstering Bastion|QID|62723|M|51.12,46.80|Z|Bastion|S!US|N|Literally everything you do in Bastion counts towards this quest.|TOF|
 N World Quests|QID|62723|N|WQs are available since you have chosen the Threads of Fate option. They are however not included in the guide and there is no way to predict which one is available on any given day. So, I recomend you do them, but you are on your own as to how and where.|TOF|
-A Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion|N|From Sika.|TOF|
+N Use of Ranks|QID|62723|N|Set the guide to Rank 2 for optimum experience. It directs you to all the side quests and bonus objectives. Rank 1, basically leaves you explore on your own when you accept a quest it will jump to there and give you directions on completion and turn in.|TOF|
+A Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion|N|From Sika.|TOF|COV|Kyrian|
 C Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion|CHAT|N|Pick one of the stewards (outlined as quest mobs) to be your personal steward.|TOF|
 T Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion|N|To Sika.|TOF
-A A Friendly Rivalry|QID|59674|M|57.40,54.29|Z|Bastion|N|Take the south anima gateway out of Hero's Rest to find Pelodis.|TOF|
-R Aspirant's Rest|ACTIVE|62723|CS|M|56.13,52.91;52.66,64.30;51.31,73.64;49.08,74.31|Z|Bastion|N|Follow the road generally south to get to Aspirant's Rest.|TOF|
-f Aspirant's Rest|ACTIVE|60466|M|48.13,74.16|Z|Bastion|N|At Rheus.|TOF|
-A Aspirant For a Day|QID|62737|M|48.13,74.16|Z|Bastion|N|Bonus Objective, autoaccepted as you come into Aspirant's Rest.|TOF|
-C Aspirant For a Day|QID|62737|M|48.13,74.16|Z|Bastion|S!US|N|Bonus Objective, In addition to the normal ways of finishing bonus objectives (quests in the area and killing mobs) you can also pick up Adrima's lilys (blue flower) and Lost Library Scrolls. The lost scrolls are delivered to Scrollminder Vesi for 3% progress each.|TOF|
+A A Friendly Rivalry|QID|59674|M|57.40,54.29|Z|Bastion|N|Take the south anima gateway out of Hero's Rest to find Pelodis.|TOF|RANK|2|
+R Aspirant's Rest|ACTIVE|62723|CS|M|56.13,52.91;52.66,64.30;51.31,73.64;49.08,74.31|Z|Bastion|N|Follow the road generally south to get to Aspirant's Rest.|TOF|RANK|2|
+f Aspirant's Rest|ACTIVE|60466|M|48.13,74.16|Z|Bastion|N|At Rheus.|TOF|RANK|2|
+A Aspirant For a Day|QID|62737|M|48.13,74.16|Z|Bastion|N|Bonus Objective, autoaccepted as you come into Aspirant's Rest.|TOF|RANK|2|
+C Aspirant For a Day|QID|62737|M|48.13,74.16|Z|Bastion|S!US|N|Bonus Objective, In addition to the normal ways of finishing bonus objectives (quests in the area and killing mobs) you can also pick up Adrima's lilys (blue flower) and Lost Library Scrolls. The lost scrolls are delivered to Scrollminder Vesi for 3% progress each.|TOF|RANK|2|
 
 ; Eternity's Call Storyline
+N Use of Ranks|QID|59774|N|Setting the guide will direct you to all main story line quests. It will not direct you to optional quests, however, if you pick one up it will direct you where to complete and turn in. Rank 2 takes you to all the side quests, There is nothing set to Rank 3 in this guide.|MS|
 A Welcome to Eternity|QID|59774|M|37.47,76.44|Z|Bastion|N|From Kleia|PRE|59773|MS|
 C Welcome to Eternity|QID|59774|M|37.47,76.44|QO|1|Z|Bastion|CHAT|N|Speak to Kleia.|MS|
 C Welcome to Eternity|QID|59774|M|42.06,78.22|QO|2|Z|Bastion|NC|N|Follow Kleia.|MS|
@@ -60,7 +63,7 @@ T The Things That Haunt Us|QID|57676|M|48.17,72.53|Z|Bastion|N|To Kleia.|MS|
 A The Aspirant's Crucible|QID|57709|M|48.23,72.65|Z|Bastion|N|From Kleia.|PRE|57677^57676|MS|
 A The Old Ways|QID|60466|M|47.92,73.45|Z|Bastion|N|From Klystere.|LVL|50|RANK|2|
 B The Old Ways|ACTIVE|60466|M|48.07,73.00|QO|1|Z|Bastion|NC|N|Buy the thread from Caretaker Mirene.|
-h Aspirant's Rest|ACTIVE|60466|M|48.07,73.00|Z|Bastion|N|Set Hearthstone at Caretaker Mirene.|
+h Aspirant's Rest|ACTIVE|60466|M|48.07,73.00|Z|Bastion|N|Set Hearthstone at Caretaker Mirene.|RANK|2|
 f Aspirant's Rest|ACTIVE|60466|M|48.13,74.16|Z|Bastion|N|At Rheus.|
 C The Old Ways|QID|60466|M|50.66,72.56|QO|2|Z|Bastion|N|Kill Cloudstrider Grazers for the pelts.|S|
 ;$ Sophia's Gift|QID|58319|M|51.75,68.84|Z|Bastion|N|Treasure for your enjoyment.| commenting out, because this appears to reset.  leaving it here incase that is wrong and we want to add it back)
@@ -142,7 +145,7 @@ A All An Aspirant Can Do|QID|58174|M|53.50,87.27|Z|Bastion|N|From Kleia.|PRE|602
 $ Purifying Draught|QID|58329|M|52.04,86.08|Z|Bastion|N|One of the treasures of Bastion.|ITEM|174007|
 C Aspirant For a Day|QID|62737|M|55.67,84.05|Z|Bastion|N|Don't forget to deliver those lost scrolls to Scrollminder Vasi. Finish the bonus objective before you hearth.|TOF|
 t Aspirant For a Day|QID|62737|M|55.67,84.05|Z|Bastion|N|Autocompleted.|TOF|
-H Aspirant's Rest|ACTIVE|58174^62723|N|Hearthstone back to Aspirant's Rest.|
+H Aspirant's Rest|QID|1|ACTIVE|58174^62723|N|Hearthstone back to Aspirant's Rest.|
 C All An Aspirant Can Do|QID|58174|CS|M|53.50,88.37;54.72,86.26;53.57,84.57;52.79,81.10;50.77,75.32|Z|Bastion|N|Run back to Aspirant's Rest.|MS|
 T All An Aspirant Can Do|QID|58174|M|48.28,72.86|Z|Bastion|N|To Kleia.|MS|
 
@@ -156,7 +159,7 @@ T A Gift for An Acolyte|QID|62714|M|53.87,73.95|Z|Bastion|N|To Acolyte Amalthina
 A More Than A Gift|QID|62715|M|53.87,73.95|Z|Bastion|N|From Acolyte Amalthina.|PRE|62714|RANK|2|
 C The Temple of Purity|QID|57270|M|54.09,73.62|Z|Bastion|NC|N|Find Erida in the Temple of Purity.|MS|
 T The Temple of Purity|QID|57270|M|54.09,73.62|N|To Eridia.|MS|
-A Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|Bastion|N|Autoaccepted as you enter the temple grounds.|TOF|
+A Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|Bastion|N|Autoaccepted as you enter the temple grounds.|TOF|RANK|2|
 C Scour the Temple-Bonus Objective|QID|62705|M|55.29,73.57|Z|Bastion|S!US|N|Kill stuff, rescue terrified stewards, destroy scrolls, do quests.|TOF|
 A A Temple in Need|QID|57977|M|54.09,73.62|Z|Bastion|N|From Acolyte Amalthina.|PRE|57270|MS|
 A On the Edge of a Revelation|QID|57264|M|56.68,74.41|Z|Bastion|N|From Desciple Kosmas.|PRE|57270|MS|
@@ -210,8 +213,8 @@ C Purity's Prerogative|QID|57447|M|PLAYER|Z|Bastion|CHAT|N|Talk to Vesiphone who
 T Purity's Prerogative|QID|57447|M|53.85,73.66|Z|Bastion|N|To Kleia.|MS|
 
 ; Chasing a Memory Storyline
-R The Mnemonic Locus|QID|62732|M|54.72,64.14|N|Follow the road running generally north and east over to the Mnemonic Locus for more fun and games.|TOF|
-A Locus Focus-Bonus Objective|QID|62732|M|54.72,64.14|N|Autoaccepted when you come into the area.|TOF|
+R The Mnemonic Locus|ACTIVE|62732|M|54.72,64.14|N|Follow the road running generally north and east over to the Mnemonic Locus for more fun and games.|TOF|
+A Locus Focus-Bonus Objective|QID|62732|M|54.72,64.14|N|Autoaccepted when you come into the area.|TOF|RANK|2|
 C Locus Focus-Bonus Objective|QID|62732|M|54.72,64.14|S!US|N|Kill Hostiles, Dismiss Orphan Memories and repair the soul mirrors to complete this bonus objective.|TOF|
 A Chasing a Memory|QID|58976|M|53.85,73.66|Z|Bastion|N|From Kleia.|PRE|57447|MS|
 T Chasing a Memory|QID|58976|M|54.72,64.14|Z|Bastion|N|Travel to the Mnemonic Locus and turn in to Mikanikos.|MS|
@@ -328,8 +331,8 @@ T Your Personal Assistant|QID|59426|M|52.83,47.88|Z|Bastion|N|To Kalisthene.|MS|
 A Steward at Work|QID|59197|M|52.83,47.88|Z|Bastion|N|From Kalisthene.|PRE|59426|MS|
 C Steward at Work|QID|59197|M|PLAYER|Z|Bastion|QO|1|NC|N|Use the new summon steward spell you just received.|MS|
 C Steward at Work|QID|59197|M|PLAYER|Z|Bastion|QO|2|CHAT|N|Talk to the Steward you summoned and ask him to fix the beacon.|MS|
-h Hero's Rest|ACTIVE|59197^62723^62729|M|53.15,46.88|Z|Bastion|N|To shorten the run later, set your Hearth at Inkiep.|
-T You'll Never Walk Alone|QID|62170|M|53.15,46.88|Z|Bastion|N|To Inkiep|
+h Hero's Rest|QID|1|ACTIVE|59197^62723^62729|M|53.15,46.88|Z|Bastion|N|To shorten the run later, set your Hearth at Inkiep.|
+T You'll Never Walk Alone|QID|62170|M|53.15,46.88|Z|Bastion|N|To Inkiep|IZ|Hero's Rest|
 C Steward at Work|QID|59197|M|53.24,46.82|Z|Bastion|QO|3|NC|N|Click to activate the Beacon of Invocation.|MS|
 
 t Bolstering Bastion|QID|62723|M|51.12,46.80|Z|Bastion|IZ|Hero's Rest|N|To Kalisthene.|
@@ -339,10 +342,10 @@ A Return to Oribos|QID|62729|M|51.12,46.80|Z|Bastion|N|From Kalisthene.|PRE|6272
 A WANTED: Gorgebeak|QID|60315|M|53.57,46.43|Z|Bastion|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
 A WANTED: Darkwing|QID|60366|M|53.57,46.43|Z|Bastion|ELITE|N|[color=ff8000]Elite: [/color]From the scroll on the wall.|RANK|2|
 f Hero's Rest|ACTIVE|59197|M|51.40,46.80|Z|Bastion|N|At Navarros.|
-F Aspirant's Rest|ACTIVE|62715^60316|M|51.40,46.80|Z|Bastion|N|At Navarros.|
+F Aspirant's Rest|QID|1|ACTIVE|62715^60316|M|51.40,46.80|Z|Bastion|N|At Navarros.|
 T WANTED: Altered Sentinel|QID|60316|M|48.95,72.34|Z|Bastion|N|To Forgehand Simo|
 T More Than A Gift|QID|62715|M|53.87,73.95|Z|Bastion|N|To Acolyte Amalthina|
-H Hero's Rest|ACTIVE|59197^59198|M|48.13,74.16|Z|Bastion|N|Hearth, or run back to Rheus and Fly back to Hero's Rest.|
+H Hero's Rest|QID|1|ACTIVE|59197^59198|M|48.13,74.16|Z|Bastion|N|Hearth, or run back to Rheus and Fly back to Hero's Rest.|
 
 ; Your Personal Assistant Storyline continues
 T Steward at Work|QID|59197|M|52.86,45.66|Z|Bastion|N|To Polemarch Adrestes.|MS|
@@ -365,9 +368,9 @@ T The Wards of Bastion|QID|59200|M|55.48,42.12|Z|1707|N|To Polemarch Adrestes.|M
 A Imminent Danger|QID|60005|M|55.47,42.28|Z|1707|N|From Polemarch Adrestes.|PRE|59200|MS|
 C Imminent Danger|QID|60005|M|51.10,48.82|Z|1707|CHAT|N|Speak to Cassius for a flight to the Temple of Courage.|MS|
 T Imminent Danger|QID|60005|M|41.79,55.18|Z|Bastion|N|To Thanikos.|MS|
-R Xandria's Vigil|QID|62736|M|41.79,55.19|Z|Bastion|N|Take the west exit out of Bastion and run generally west towards Xandria's Vigil.|TOF|
-A Maldraxxi Eviction Notice-Bonus Objective|QID|62736|M|41.79,55.19|N|Autoaccepted when you enter the area.|TOF|
-C Maldraxxi Eviction Notice-Bonus Objective|QID|62736|M|41.79,55.19|S!US|N|Kill hostiles, destroy barrels and bone spikes, burn flags, you know, the usual.|TOF|
+R Xandria's Vigil|ACTIVE|62736|M|41.79,55.19|Z|Bastion|N|Take the west exit out of Bastion and run generally west towards Xandria's Vigil.|TOF|
+A Maldraxxi Eviction Notice-Bonus Objective|QID|62736|M|41.79,55.19|N|Autoaccepted when you enter the area.|TOF|RANK|2|
+C Maldraxxi Eviction Notice-Bonus Objective|QID|62736|M|41.79,55.19|S!US|N|Kill hostiles, destroy barrels and bone spikes, burn flags, you know, the usual.|TOF|RANK|2|
 A Now or Never|QID|60006|M|41.77,55.18|Z|Bastion|N|From Thanikos.|PRE|60005|MS|
 C Now or Never|QID|60006|M|41.77,55.18|Z|Bastion|CHAT|QO|1|N|Speak to Thanikos.|MS|
 C Now or Never|QID|60006|M|41.77,55.18|Z|Bastion|QO|2|N|Kill the mobs till you control Xandria's Vigil.|MS|
@@ -403,11 +406,11 @@ C A Time for Courage|QID|60055|M|34.41,55.34|QO|2|Z|Bastion|N|Kill the elite.|MS
 C A Time for Courage|QID|60055|M|34.59,55.10|QO|3|Z|Bastion|V|N|Click on Disciple Apolon to escape the Necrotic Wake.|MS|
 T A Time for Courage|QID|60055|M|40.88,55.10|Z|Bastion|N|To Disciple Apolon.|MS|
 A Follow the Path|QID|60056|M|40.88,55.10|Z|Bastion|N|From Disciple Apolon.|PRE|60055|MS|
-A Necrotic Wake: A Paragon's Plight|QID|60057|M|40.93,55.34|Z|Bastion|ELITE|N|From Disciple Artemede. This is a [color=e6cc80]Dungeon[/color]\n quest.|
-H Hero's Rest|ACTIVE|60056^62723^60729|U|6948|M|PLAYER|N|Hearth back to Hero's Rest.|
+A Necrotic Wake: A Paragon's Plight|QID|60057|M|40.93,55.34|Z|Bastion|ELITE|N|From Disciple Artemede. This is a [color=e6cc80]Dungeon[/color]\n quest.|RANK|2|
+H Hero's Rest|QID|1|ACTIVE|60056^62723^60729|U|6948|M|PLAYER|N|Hearth back to Hero's Rest.|
 
 ; Side Quest stuff - Pride or Unit & Elite Quests
-R West Anima Gateway|ACTIVE|60315|M|46.88,48.98|Z|Bastion|TZ|Firstborne's Bounty|N|Note, there are three anima gateway portals(roughly North, South and West) out of Hero's Rest.|
+R West Anima Gateway|ACTIVE|60315|M|46.88,48.98|Z|Bastion|TZ|Firstborne's Bounty|N|Note, there are three anima gateway portals(roughly North, South and West) out of Hero's Rest.|RANK|2|
 C WANTED: Gorgebeak|QID|60315|M|53.57,46.43|Z|Bastion|N|[color=ff8000]Elite: [/color]Run down in the valley to find and kill Gorgebeak.|
 T WANTED: Gorgebeak|QID|60315|M|51.00,41.66|Z|Bastion|ELITE|N|To Gerdus.|
 R Forgefire Outpost|ACTIVE|59674|PRE|60315|CS|M|53.45,41.28;55.47,39.12|Z|Bastion|N|Up the hill and out the other side of the Valley of Firstborne's Bounty.|
@@ -482,14 +485,12 @@ C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|2|CHAT|N|Talk to Pelodis.|
 C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|3|CHAT|N|Talk to Nemea.|
 C Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|QO|4|CHAT|N|Choose Phalynx or Larion.|
 T Pride or Unit|QID|60296|M|55.79,39.49|Z|Bastion|N|To Nemea.|
-H Hero's Rest|ACTIVE|60056^60723^62729|M|52.99,37.84|Z|Bastion|N|Hearth or otherwise make your way back to Hero's Rest.|
+H Hero's Rest|QID|1|ACTIVE|60056^60723^62729|M|52.99,37.84|Z|Bastion|N|Hearth or otherwise make your way back to Hero's Rest.|
 T WANTED: Darkwing|QID|60366|M|52.43,48.00|Z|Bastion|ELITE|N|To Eumelia.|
 
-T Bolstering Bastion|QID|62723|M|51.12,46.80|Z|Bastion|N|To Kalisthene.|
-A Return to Oribos|QID|62729|M|51.12,46.80|Z|Bastion|N|From Kalisthene.|PRE|62723|TOF|
 ; Land of Strife Storyline
-F Oribos|ACTIVE|60056^62729|M|51.40,46.80|N|Fly back to Oribos|;There is a portal at Vestibule of Eternity? Look into some rework.;or logic not working so not active for TOF
-R Ring of Fates|ACTIVE|60056^62729|M|49.52,60.92|Z|Ring of Transference@Oribos|N|Click the teleporter.|;or logic not working so not active for TOF
+F Oribos|QID|1|ACTIVE|60056^62729|M|51.40,46.80|N|Fly back to Oribos|;There is a portal at Vestibule of Eternity? Look into some rework.;or logic not working so not active for TOF
+R Ring of Fates|QID|1|ACTIVE|60056^62729|M|49.52,60.92|Z|Ring of Transference@Oribos|N|Click the teleporter.|;or logic not working so not active for TOF
 T Return to Oribos|QID|62729|M|38.91,69.93|Z|Ring of Fates@Oribos|N|To Tal-Inara.|
 T Follow the Path|QID|60056|M|38.91,69.93|Z|Ring of Fates@Oribos|N|To Tal-Inara.|MS|
 A The Arbiter's Will|QID|61096|M|38.91,69.93|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|60056|MS|
@@ -499,7 +500,7 @@ A A Land of Strife|QID|61107|M|61.03,36.71|Z|Ring of Fates@Oribos|N|From Tal-Ina
 C A Land of Strife|QID|61107|M|59.95,35.96|Z|Ring of Fates@Oribos|NC|N|Click on the blue sword.|MS|
 T A Land of Strife|QID|61107|M|61.03,36.71|Z|Ring of Fates@Oribos|N|To Overseer Kah-Sher.|MS|
 
-N Tal-Inara|N|Talk to Tal-Inara to choose your next zone.|TOF|
+N Tal-Inara|QID|62277^62278^62279|N|Talk to Tal-Inara to choose your next zone.|TOF|
 N Choose Revendreth|PRE|62279|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|TOF|
 N Choose Maldraxxus|PRE|62278|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|TOF|
 N Choose Ardenweald|PRE|62277|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|TOF|
