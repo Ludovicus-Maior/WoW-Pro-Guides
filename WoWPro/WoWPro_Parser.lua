@@ -875,11 +875,19 @@ function WoWPro.ParseSteps(steps)
 				end
 			end
 
-            if (class == nil or WoWPro.SemiMatch(class, myclass)) and
+            if not WoWPro.CLASSIC and (class == nil or WoWPro.SemiMatch(class, myclass)) and
                (race == nil or WoWPro.SemiMatch(race, myrace))  and
 			   (_G.C_Covenants and (covenant == nil or covenant == _G.C_Covenants.GetActiveCovenantID())) and
                (gender == nil or gender == _G.UnitSex("player")) and
                (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) and not ms and not tof then
+                if WoWPro.ParseQuestLine(faction, zone, i, text) then
+                    WoWPro.RecordStuff(i)
+                    i = i + 1
+                end
+			elseif WoWPro.CLASSIC and (class == nil or WoWPro.SemiMatch(class, myclass)) and
+               (race == nil or WoWPro.SemiMatch(race, myrace))  and
+               (gender == nil or gender == _G.UnitSex("player")) and
+               (faction == nil or myFaction == "NEUTRAL" or faction == "NEUTRAL" or faction == myFaction) then
                 if WoWPro.ParseQuestLine(faction, zone, i, text) then
                     WoWPro.RecordStuff(i)
                     i = i + 1

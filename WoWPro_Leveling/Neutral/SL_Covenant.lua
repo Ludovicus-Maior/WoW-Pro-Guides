@@ -264,13 +264,10 @@ A A Secret Never Spoken|QID|59068|M|44.30,37.02|Z|The Trunk@Heart of the Forest!
 A A Sacrifice of Anima|QID|59070|M|44.30,37.02|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lady Moonberry.|COV|Night Fae|
 A A Token of Lost Love|QID|59069|M|44.54,37.82|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|Night Fae|
 C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|1|N|1/1 Ask Watcher Vesperbloom for a Secret|COV|Night Fae|
-A Pest Removal|QID|58975|M|54.62,48.78|Z|Ardenweald!The Shadowlands|COV|Night Fae|
 C A Secret Never Spoken|QID|59068|M|54.35,46.13|Z|Ardenweald!The Shadowlands|QO|2|N|1/1 Book of Secrets Obtained|COV|Night Fae|
 C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|3|N|1/1 Speak with Watcher Vesperbloom|COV|Night Fae|
 C A Secret Never Spoken|QID|59068|M|44.68,56.26|Z|Ardenweald!The Shadowlands|QO|4|N|1/1 Secret Never Spoken obtained|COV|Night Fae|
 T A Secret Never Spoken|QID|59068|M|44.02,37.33|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
-A Who Devours the Devourers?|QID|60609|M|33.91,50.53|Z|Ardenweald!The Shadowlands|N|From Oakheart Drust-Taken.|COV|Night Fae|
-A A Night in the Woods|QID|60899|M|28.64,51.98|Z|Ardenweald!The Shadowlands|COV|Night Fae|
 C A Sacrifice of Anima|QID|59070|M|27.62,53.74|Z|Ardenweald!The Shadowlands|QO|1|N|60/60 Mischief-touched Anima collected|COV|Night Fae|
 T A Sacrifice of Anima|QID|59070|M|43.94,36.71|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lady Moonberry.|COV|Night Fae|
 A I Believe You Can Fly|QID|32675|M|46.37,90.28|COV|Night Fae|
@@ -294,12 +291,10 @@ C Blackthorn Captives|QID|60928|M|42.49,32.28|Z|Ardenweald!The Shadowlands|QO|2|
 C Blackthorn Captives|QID|60928|M|41.06,31.55|Z|Ardenweald!The Shadowlands|QO|4|U|180523|N|1/1 Gweyir found|COV|Night Fae|
 T Blackthorn Captives|QID|60928|M|41.08,31.57|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|COV|Night Fae|
 A Report to Lord Herne|QID|60934|M|41.08,31.57|Z|Ardenweald!The Shadowlands|N|From Ara'lon.|COV|Night Fae|
-A Tough Crowd|QID|60739|M|44.17,45.35|Z|Ardenweald!The Shadowlands|COV|Night Fae|
 T Report to Lord Herne|QID|60934|M|53.70,77.59|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lord Herne.|COV|Night Fae|
 A Ulfar's Guidance|QID|61061|M|53.70,77.59|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|COV|Night Fae|
 A I Believe You Can Fly|QID|32675|M|46.37,90.28|COV|Night Fae|
 T I Believe You Can Fly|QID|32675|M|70.25,73.83|N|To Bralla Cloudwing.|COV|Night Fae|
-A Supplies Needed: Sea Stalk|QID|51027|M|70.47,17.29|Z|Boralus|COV|Night Fae|
 T Ulfar's Guidance|QID|61061|M|45.26,45.81|Z|Drustvar|N|To Ulfar.|COV|Night Fae|
 A Into the Flame|QID|61076|M|45.26,45.81|Z|Drustvar|N|From Ulfar.|COV|Night Fae|
 C Into the Flame|QID|61076|M|27.53,58.96|Z|Drustvar|QO|1|N|1/1 Fetish placed|COV|Night Fae|
@@ -309,33 +304,34 @@ T Into the Flame|QID|61076|M|45.25,45.80|Z|Drustvar|N|To Ulfar.|COV|Night Fae|
 A Kivarr the Thornspeaker|QID|61102|M|45.25,45.80|Z|Drustvar|N|From Ulfar.|COV|Night Fae|
 T Kivarr the Thornspeaker|QID|61102|M|51.09,80.63|Z|The Trunk@Heart of the Forest!Dungeon|N|To Lord Herne.|COV|Night Fae|
 A Kivarr's Den|QID|61113|M|51.09,80.63|Z|The Trunk@Heart of the Forest!Dungeon|N|From Lord Herne.|COV|Night Fae|
+F Claw's Edge|QID|62893|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
 C Kivarr's Den|QID|61113|M|46.04,56.67|Z|Ardenweald!The Shadowlands|QO|1|N|1/1 Speak with Ara'lon|COV|Night Fae|
-A A Thorn In Their Side|QID|60649|M|43.91,68.92|Z|Ardenweald!The Shadowlands|COV|Night Fae|
 C Kivarr's Den|QID|61113|M|43.60,69.20|Z|Ardenweald!The Shadowlands|QO|2|N|1/1 Meet Ara'lon at Eventide Grove|COV|Night Fae|
 T Kivarr's Den|QID|61113|M|43.68,69.04|Z|Ardenweald!The Shadowlands|N|To Ara'lon.|COV|Night Fae|
 A Searching the Grove|QID|61701|M|43.68,69.04|Z|Ardenweald!The Shadowlands|N|From Unknown.|COV|Night Fae|
 C Searching the Grove|QID|61701|M|46.53,72.97|Z|Ardenweald!The Shadowlands|QO|1|N|1/1 Kivarr located|COV|Night Fae|
 T Searching the Grove|QID|61701|M|46.62,73.07|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
 A The Thornspeaker Captive|QID|58773|M|46.62,73.07|Z|Ardenweald!The Shadowlands|N|From Kivarr.|COV|Night Fae|
+C The Thornspeaker Captive|QID|58773|M|45.82,75.08|Z|Ardenweald!The Shadowlands|QO|3|N|1/1 Lustrous Silver Key|COV|Night Fae|
 C The Thornspeaker Captive|QID|58773|M|45.60,72.93|Z|Ardenweald!The Shadowlands|QO|1|N|1/1 Thros-Forged Key|COV|Night Fae|
 C The Thornspeaker Captive|QID|58773|M|44.05,71.41|Z|Ardenweald!The Shadowlands|QO|2|N|1/1 Gilded Skull Key|COV|Night Fae|
-C The Thornspeaker Captive|QID|58773|M|45.82,75.08|Z|Ardenweald!The Shadowlands|QO|3|N|1/1 Lustrous Silver Key|COV|Night Fae|
 T The Thornspeaker Captive|QID|58773|M|46.58,73.06|Z|Ardenweald!The Shadowlands|N|To Nika.|COV|Night Fae|
 A A Swift Intervention|QID|61702|M|46.58,73.06|Z|Ardenweald!The Shadowlands|N|From Unknown.|COV|Night Fae|
-C A Swift Intervention|QID|61702|M|41.57,74.59|Z|Ardenweald!The Shadowlands|QO|1|N|1/1 Kivarr located|COV|Night Fae|
+C A Swift Intervention|QID|61702|M|41.57,74.59|Z|Ardenweald!The Shadowlands|QO|1|N|1/1 Kivarr located, Hange out with Nika (the Squirrel) until it completes|COV|Night Fae|
 C A Swift Intervention|QID|61702|M|41.55,74.57|Z|Ardenweald!The Shadowlands|QO|2|N|1/1 Thulsketha the Binder slain|COV|Night Fae|
 T A Swift Intervention|QID|61702|M|41.37,74.36|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
 A Return to the Den|QID|61143|M|41.37,74.36|Z|Ardenweald!The Shadowlands|N|From Kivarr.|COV|Night Fae|
 C Return to the Den|QID|61143|M|43.60,69.25|Z|Ardenweald!The Shadowlands|QO|1|N|1/1 Travel to Kivarr's Den|COV|Night Fae|
 T Return to the Den|QID|61143|M|43.65,69.11|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
 A Nox Root|QID|61703|M|43.65,69.11|Z|Ardenweald!The Shadowlands|N|From Kivarr.|COV|Night Fae|
-C Nox Root|QID|61703|M|39.20,69.74|Z|Ardenweald!The Shadowlands|QO|1|N|12/12 Nox Root|COV|Night Fae|
-A Lurking In The Shadows|QID|61947|M|39.45,64.06|Z|Ardenweald!The Shadowlands|COV|Night Fae|
+C Nox Root|QID|61703|M|39.20,69.74|Z|Ardenweald!The Shadowlands|QO|1|N|12/12 Nox Root, Looks like Mushrooms located all around this area|COV|Night Fae|
+H Heart of the Forest|ACTIVE|61703|M|PLAYER|Z|Ardenweald!The Shadowlands|N|Use your hearth or otherwise make your back to Heart of the Forest.|COV|Night Fae|
 T Nox Root|QID|61703|M|46.18,56.37|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
 A Witch's Satchel|QID|61709|M|46.17,56.38|Z|Ardenweald!The Shadowlands|N|From Kivarr.|COV|Night Fae|
-A The Broken Spear|QID|61710|M|33.88,54.59|Z|Ardenweald!The Shadowlands|COV|Night Fae|
-C Witch's Satchel|QID|61709|M|32.03,53.56|Z|Ardenweald!The Shadowlands|QO|1|N|1/1 Witch's Satchel|COV|Night Fae|
-A A Night in the Woods|QID|60899|M|30.01,55.19|Z|Ardenweald!The Shadowlands|COV|Night Fae|
+F Root-Home|QID|62893|M|51.76,08.61|Z|The Trunk@Heart of the Forest!Dungeon|N|Ceridwyn.|COV|Night Fae|
+A The Broken Spear|QID|61710|M|33.88,54.59|Z|Ardenweald!The Shadowlands|N|On the ground with a big ? over it. Be aware this Area is full of elites.|COV|Night Fae|
+C Witch's Satchel|QID|61709|M|32.03,53.56|Z|Ardenweald!The Shadowlands|QO|1|N|1/1 Witch's Satchel, Drops from Oakheart NightScreamer this Mob is elite.|COV|Night Fae|
+H Heart of the Forest|ACTIVE|61709|M|PLAYER|Z|Ardenweald!The Shadowlands|N|Use your hearth or otherwise make your back to the Heart of the Forest, there is a flight master at Root-Home aswell.|COV|Night Fae|
 T Witch's Satchel|QID|61709|M|46.17,56.42|Z|Ardenweald!The Shadowlands|N|To Kivarr.|COV|Night Fae|
 T The Broken Spear|QID|61710|M|46.18,56.67|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|COV|Night Fae|
 A Ritual of Purification|QID|61711|M|46.16,56.51|Z|Ardenweald!The Shadowlands|N|From Kivarr.|COV|Night Fae|
@@ -352,7 +348,6 @@ A Tracker Tracking|QID|58446|PRE|58445|M|43.99,38.76|Z|The Trunk@Heart of the Fo
 C Tracker Tracking|QID|58446|M|39.40,70.07|Z|The Trunk@Heart of the Forest!Dungeon|QO|1|NC|N|Speak with Lord Herne.|COV|Night Fae|
 T Tracker Tracking|QID|58446|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|To Reldorn.|COV|Night Fae|
 A Home of the Tirnenn|QID|59258|PRE|58446|M|35.29,51.19|Z|Ardenweald!The Shadowlands|N|From Reldorn.|COV|Night Fae|
-A Who Devours the Devourers?|QID|60609|PRE|58446|M|32.81,46.81|Z|Ardenweald!The Shadowlands|N|From Reldorn.|COV|Night Fae|
 C Home of the Tirnenn|QID|59258|M|32.46,46.65|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Approach Tirna Scithe.|COV|Night Fae|
 C Home of the Tirnenn|QID|59258|M|31.46,46.38|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Southern portal closed.|COV|Night Fae|
 C Home of the Tirnenn|QID|59258|M|31.50,45.90|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Northern portal closed.|COV|Night Fae|
@@ -362,7 +357,6 @@ A Dressing the Kill|QID|58706|PRE|59258|M|30.01,44.94|Z|Ardenweald!The Shadowlan
 C Dressing the Kill|QID|58706|M|29.97,44.90|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Carve the kill.|COV|Night Fae|
 T Dressing the Kill|QID|58706|M|29.97,44.83|Z|Ardenweald!The Shadowlands|N|To Huln Highmountain.|COV|Night Fae|
 A Monster Hunting|QID|58447|PRE|58706|M|29.97,44.83|Z|Ardenweald!The Shadowlands|N|From Huln Highmountain.|COV|Night Fae|
-C Who Devours the Devourers?|QID|60609|M|28.61,45.93|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Resonating Anima Core created from motes (Optional).|COV|Night Fae|
 C Monster Hunting|QID|58447|M|27.76,50.62|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Search for traces of the worldeater.|COV|Night Fae|
 C Monster Hunting|QID|58447|M|25.14,48.34|Z|Ardenweald!The Shadowlands|QO|2|NC|N|Follow the trail.|COV|Night Fae|
 C Monster Hunting|QID|58447|M|35.26,51.28|Z|Ardenweald!The Shadowlands|QO|3|NC|N|Ambush Voras.|COV|Night Fae|
