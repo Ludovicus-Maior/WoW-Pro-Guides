@@ -5,6 +5,7 @@ WoWPro:GuideName(guide,"Ardenweald")
 WoWPro:GuideNextGuide(guide, "Revendreth")
 WoWPro:GuideSteps(guide, function()
 return [[
+N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
 ;  Welcome to Ardenweald Storyline
 A Journey to Ardenweald|QID|60338|M|39.36,69.40|Z|Ring of Fates@Oribos|N|From Tal-Inara.|PRE|61716|MS|
 P Ring of Transference|ACTIVE|60338|M|49.55,60.83|Z|Ring of Transference@Oribos|N|Take the Teleporation Pad up to the Ring of Transference.|MS|

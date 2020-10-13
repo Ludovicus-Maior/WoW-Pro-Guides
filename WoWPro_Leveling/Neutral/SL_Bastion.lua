@@ -5,7 +5,7 @@ WoWPro:GuideName(guide,"Bastion")
 WoWPro:GuideNextGuide(guide, "Maldraxxus")
 WoWPro:GuideSteps(guide, function()
 return [[
-
+N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
 ;TOF
 A Bastion|QID|62275|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 t Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|

@@ -5,8 +5,7 @@ WoWPro:GuideName(guide,"Revendreth")
 WoWPro:GuideNextGuide(guide, "The Maw")
 WoWPro:GuideSteps(guide, function()
 return [[
-N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.|
-
+N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
 ; Welcome to Revendreth Storyline
 A A Plea to Revendreth|QID|57025|M|48.82,60.04|Z|Ring of Fates@Oribos|N|From Tal-Inara.|LVL|57|PRE|58724|MS|
 C A Plea to Revendreth|QID|57025|M|35.19,51.95|Z|Ring of Fates@Oribos|QO|1|NC|N|Click on the Ancient Focus to activate the gateway to Revendreth.|MS|
