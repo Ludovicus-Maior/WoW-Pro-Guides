@@ -1,4 +1,4 @@
-# Release Notes - v9.0.0
+# Release Notes - v9.0.1
 ## Features
 
 * Group Sync! - See the quest progress of your party when they also have WoWPro running.
@@ -12,6 +12,7 @@
 * Improved Guide List – With level squish and scaling the list was a mess with everything being basically the same level ranges, guide list was reworked and now sorted by Expansion.
 * Intro Guides – A lot of previous starter zone guides were consolidated into 1 single guide. This also includes intro guides for all the allied races, even though they are short, with guide hubs it helps with the flow without having to go and manually selecting a guide right off the bat.
 * Updated Guides – With Level squish every single guide needed to be touched in one way or another. A lot of prerequisite and breadcrumb quests have changed. At a basic level, these are all converted with level adjustments and some minor massaging into the new system but these will be a work in progress for some time.
+* Guides now give status of progress bar objectives.
 * Shadowlands Guides – Obviously new guides for shadowlands zones, this is still a work in progress and will be continuously updated throughout the expansion.
 * Recorder Basic Mode – Recorder now defaults to a simple easy to use mode for those interested in helping write guides and recording their questing journey. /wpm Slash command was added to toggle between basic and Advanced mode.
 * New Recorder Features - Recorder updated to detect CHAT, NC and kill objectives, fixed punctuation issues and added buttons to easily create R, F and P steps.
@@ -27,7 +28,11 @@
 ### Fixes
 * Fixed issue with flight detection, BFA and WOD were broken, now detected, also with artisan riding removed adjustments had to be made to the detection code regardless.
 * Fixed bug in PLAYER coordinates that caused it to use a previous steps coordinates sometimes.
+* Fixed bug that prevented Quest Item Use button from displaying the cooldown.
 * Fixed a bug that could throw an error if you load a guide with no steps (which can happen in recorder)
+* Fixed secure frame bug that could happen when zoning while in combat
+* Fixed but with PRE tags not looking after an ampersand
+* Removed the regex search remnants from zone names that would cause zones like "Kun-Lai Summit" from registering properly
 * Added new and missing old icons to the WoWPro-Leveling list in the settings.
 * Updated addon to use the new backdrop system that changed in 9.0.
 * Updated addon to use the new Enum table that changed in 9.0.

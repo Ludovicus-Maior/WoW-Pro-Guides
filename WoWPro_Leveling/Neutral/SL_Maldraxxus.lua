@@ -5,6 +5,7 @@ WoWPro:GuideName(guide,"Maldraxxus")
 WoWPro:GuideNextGuide(guide, "Ardenweald")
 WoWPro:GuideSteps(guide, function()
 return [[
+N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe sure to update the addon after Shadowlands Expansion releases to make sure you have the latest revisions.|
 ;  Champion of Pain Storyline
 A If You Want Peace...|QID|57386|M|60.95,36.18|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61107|MS|
 C If You Want Peace...|QID|57386|M|59.51,34.39|Z|Ring of Transference@Oribos|CHAT|N|Speak to Roh-Avonavi to Travel to Maldraxxus.|MS|
