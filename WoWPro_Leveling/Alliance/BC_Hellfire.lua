@@ -43,15 +43,15 @@ C Burn Catapult 3|QID|10078|N|Burn the third thrower here with the Flaming Torch
 C Laying Waste to the Unwanted|N|Burn the last thrower here.|QO|4|QID|10078|U|26002|M|52.80,47.20|
 R Temple of Telhamat|AVAILABLE|9390|M|46.05,44.13;34.11,45.87;28.72,45.55;23.23,40.64|CC|N|Run to the Temple of Telhamat.|
 A Deadly Predators|QID|9398|M|23.4,39.7|N|From Scout Vanura.|
-A In Search of Sedai|QID|9390|M|23.1,40.3|N|From Anchorite Obadei.|
-A Cruel Taskmasters|QID|9399|M|23.1,40.3|N|From Ikan.|
-A The Rock Flayer Matriarch|QID|9490|M|23.1,40.3|N|From Ikan.|
+A In Search of Sedai|QID|9390|M|23.01,40.37|N|From Anchorite Obadei.|
+A Cruel Taskmasters|QID|9399|M|23.09,40.22|N|From Ikan.|
+A The Rock Flayer Matriarch|QID|9490|M|23.09,40.22|N|From Ikan.|
 A The Pools of Aggonar|QID|9426|M|23.42,36.55|N|From Amaan the Wise.|
 f Temple of Telhamat|QID|9390|N|Get the flight path.|M|25.20,37.20|
 T In Search of Sedai|QID|9390|M|26.89,37.42|N|To Sedai's Corpse.|
 A Return to Obadei|QID|9423|PRE|9390|M|26.89,37.42|N|From Sedai's Corpse.|
-T Return to Obadei|QID|9423|M|23.1,40.3|N|To Anchorite Obadei.|
-A Makuru's Vengeance|QID|9424|PRE|9423|M|23.1,40.3|N|From Makuru.|
+T Return to Obadei|QID|9423|M|23.01,40.37|N|To Anchorite Obadei.|
+A Makuru's Vengeance|QID|9424|PRE|9423|M|23.14,40.17|N|From Makuru.|
 F Honor Hold|QID|10142|N|Fly to Honor Hold.|M|25.20,37.20|
 T The Path of Anguish|QID|10142|M|61.7,60.8|N|To Sergeant Altumus.|
 A Expedition Point|QID|10143|PRE|10142|M|61.7,60.8|N|From Sergeant Altumus.|
@@ -173,7 +173,7 @@ C The Path of Glory|QID|10047|QO|1|N|Click Skeletal Remains on the ground around
 T Drill the Drillmaster|QID|10937|N|To Force Commander Danath Trollbane.|M|56.61,66.64|
 T The Path of Glory|QID|10047|M|56.69,66.52|N|To Warp-Scryer Kryv.|
 A The Temple of Telhamat|QID|10093|PRE|10047|M|56.69,66.52|N|From Warp-Scryer Kryv.|
-F Temple of Telhamat|QID|ACTIVE|M|54.68,62.35|N|Fly to The Temple of Telhamat.|
+F Temple of Telhamat|QID|1|ACTIVE|10093^9373|M|54.68,62.35|N|Fly to The Temple of Telhamat.|
 T The Temple of Telhamat|QID|10093|M|23.42,36.55|N|To Amaan the Wise.|
 A Helping the Cenarion Post|QID|10443|LEAD|9372|M|23.42,36.55|N|From Amaan the Wise.|
 A An Ambitious Plan|QID|9383|M|23.21,36.67|N|From Elsaana.|
@@ -225,19 +225,19 @@ R Honor Hold|ACTIVE|10058|M|54.3,63.4|N|Hearth or run to Honor Hold.|U|6948|
 T An Old Gift|QID|10058|M|54.29,63.58|N|To Father Malgor Devidicus.|
 T Hellfire Fortifications|QID|10106|M|56.34,62.78|N|To Warrant Officer Tracy Proudwell.|O|
 T Looking to the Leadership|QID|10057|M|50.87,60.35|N|To Honor Guard Wesilow.|
-F Temple of Telhamat|ACTIVE|9383|M|54.68,62.35|N|Fly to the Temple of Telhamat|
+F Temple of Telhamat|QID|1|ACTIVE|9383|M|54.68,62.35|N|Fly to the Temple of Telhamat|
 T An Ambitious Plan|QID|9383|M|23.21,36.67|N|To Elsaana.|
 T Deadly Predators|QID|9398|M|23.38,38.70|N|To Scout Vanura.|
 r Sell junk, repair, restock|ACTIVE|9490|M|23.32,39.94|N|At Talaara.|
 T The Rock Flayer Matriarch|QID|9490|M|23.09,40.22|N|To Ikan.|
+C The Heart of Darkness|QID|10399|QO|1|N|Kill Terrorfiends.|S|
+C The Pools of Aggonar|QID|9426|QO|1;2|N|Kill Oozes and Terrorfiends.|S|
 C Makuru's Vengeance|QID|9424|M|35.00,35.00|QO|1|N|Kill Mag'har Grunts to loot the Ancestral Beads for this quest.|
-C The Heart of Darkness|N|QID|10399||Kill Terrorfiends.|S|
-C The Pools of Aggonar|QID|9426|N|Kill Oozes and Terrorfiends.|S|
 C Overlord|QID|10400|M|43.3,31|N|Kill Arazzius the Cruel.|
-C The Pools of Aggonar|N|Kill Oozes and Terrorfiends.|QID|9426|M|40.34,32.72|US|
-C The Heart of Darkness|N|Finish killing Terrorfiends.|QID|10399|M|40.34,32.72|US|
-T Makuru's Vengeance|QID|9424|M|23.1,40.3|N|To Makuru.|
-A Atonement|QID|9543|PRE|9424|M|23.1,40.3|N|From Anchorite Obadei.|
+C The Pools of Aggonar|QID|9426|M|40.34,32.72|N|Kill Oozes and Terrorfiends.|US|
+C The Heart of Darkness|QID|10399|M|40.34,32.72|N|Finish killing Terrorfiends.|US|
+T Makuru's Vengeance|QID|9424|M|23.14,40.17|N|To Makuru.|
+A Atonement|QID|9543|PRE|9424|M|23.01,40.37|N|From Anchorite Obadei.|
 r Sell junk, repair, restock|ACTIVE|9426|M|23.32,39.94|N|At Talaara.|
 T The Pools of Aggonar|QID|9426|M|23.42,36.55|N|To Amaan the Wise.|
 A Cleansing the Waters|QID|9427|PRE|9426|M|23.42,36.55|N|From Amaan the Wise.|
@@ -284,10 +284,10 @@ A Arzeth's Demise|QID|10369|PRE|10368|M|16.3,65.1|N|From Naladu.|
 C Arzeth's Demise|N|Use the Staff of the Dreghood Elders on Azreth to turn him into a non-elite, then kill him.|QID|10369|M|14.25,61.50|
 T Arzeth's Demise|QID|10369|M|16.3,65.1|N|To Naladu.|
 l Sha'naar Relics|N|Grab the 10 relics needed for this quest.|QID|9430|M|15.1,55.7|US|L|23642 10|
-C Cruel Taskmasters|N|Kill the 10 Taskmasters needed for this quest.|QID|9399|M|15.1,55.7|US|
+C Cruel Taskmasters|QID|9399|M|15.1,55.7|N|Kill the 10 Taskmasters needed for this quest.|US|
 C Keep Thornfang Hill Clear!|N|Kill the Ravagers and Venomspitters for this quest.|QID|10159|M|10.00,52.00|
 T Keep Thornfang Hill Clear!|QID|10159|M|15.95,52.19|N|To Mahuram Stouthoof.|
-T Cruel Taskmasters|QID|9399|M|23.1,40.3|N|To Ikan.|
+T Cruel Taskmasters|QID|9399|M|23.09,40.22|N|To Ikan.|
 T Sha'naar Relics|QID|9430|M|23.42,36.55|N|To Amaan the Wise.|
 A The Seer's Relic|QID|9545|PRE|9430|M|23.42,36.55|N|From Amaan the Wise.|
 C The Seer's Relic|QID|9545|M|26.90,37.40|N|Go here and use the Seer's Relic and wait for the quest completion.|U|23645|
