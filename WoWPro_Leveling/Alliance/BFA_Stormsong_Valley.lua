@@ -41,7 +41,7 @@ T Carry On|QID|51401|M|59.16,69.48|N|To Taelia.|
 A A Risky Ploy|QID|49725|M|59.18,69.45|N|From Taelia.|PRE|51401|
 h The Golden Flagon|ACTIVE|51401|M|58.6,70.3|N|Set your hearth in Brennadam.|
 C A Risky Ploy|QID|49725|M|59.13,69.06|U|155859|NC|N|Blow the whistle in the crowd.|
-C A Risky Ploy|QID|49725|M|59.13,69.06|QO|2|N|"Subdue" the citizen who refuses to go peacably.|
+C A Risky Ploy|QID|49725|M|59.13,69.06|QO|2|N|"Subdue" the citizen who refuses to go peacably. \n[color=FF0000]NOTE: [/color] Do not let him run off, if you do Abandon and re-do Quest.|
 T A Risky Ploy|QID|49725|M|59.23,68.63|N|To Brother Pike on the stairs.|
 A House Stormsong|QID|49703|M|59.23,68.63|N|From Brother Pike.|PRE|49725|
 A Circle the Wagons|QID|52793|M|60.17,70.51|N|From Marilyn Hood.|RANK|2|
@@ -132,7 +132,7 @@ C No Quarter|QID|50595|M|66.30,47.11|S|N|Kill skeletons and Tidesage Callers as 
 C Beneath the Veil|QID|50594|M|67.42,44.38|NC|QO|1|U|158211|N|Use the item on the tentacle.|
 A A Bloody Mess|QID|50593|M|66.21,43.59|N|Kill mobs for No Quarter until they drop a Frothing Vial. Accept quest from item.|
 C A Bloody Mess|QID|50593|M|66.21,43.59|S|N|Loot Tideblood from barrels and by killing tideblood mobs.|
-$ Sunken Strongbox|QID|50734|M|67.23,43.19|N|Underneath the ship. Loot rare chest.|
+$ Sunken Strongbox|QID|50734|M|67.23,43.19|N|Underneath the ship. Loot rare chest.|RANK|2|
 C Beneath the Veil|QID|50594|M|67.76,42.37|QO|3|U|158211|NC|N|Come up on other side of ship for this. Use the item on the tentacle.|
 C Beneath the Veil|QID|50594|M|65.85,42.27;66.00,41.81|CS|NC|QO|2|U|158211|N|Last one up the stairs.|
 K Dagrus the Scorned|QID|50731|QO|1|M|68.30,39.58|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|160476|RANK|2|
@@ -146,7 +146,7 @@ A Gathering Storm|QID|50610|M|66.17,47.45|N|From Brother Pike.|PRE|50595&50594&5
 A From the Maw of Madness|QID|50609|M|66.32,47.08|N|From Taelia.|PRE|50595&50594&50593|
 C Forbidden Rites|QID|50608|M|66.17,47.45|S|U|158465|N|Kill mobs and disrupt the rituals with the item - the rituals are the Fanatical Acolytes kneeling in the purple circles.|
 C Gathering Storm|QID|50610|QO|1<1|M|66.27,43.53|NC|N|Click on the rod on the very top deck of the ship.|
-K Brother Halsey|ACTIVE|50609|QO|1|M|66.32,47.08|T|Brother Halsey|N|Find them on deck immediately below the rod used in the last step (2nd from top). Kill Brother Halsey standing in the doorway.|
+K Brother Halsey|ACTIVE|50609|QO|1|M|66.52,43.48|T|Brother Halsey|N|Find them on deck immediately below the rod used in the last step (2nd from top). Kill Brother Halsey standing in the doorway.|
 C Rescue Samuel Williams|QID|50609|QO|3|M|66.32,47.08|T|Samuel Williams|N|Then fight Samuel Williams until he can break free.|
 C Gathering Storm|QID|50610|QO|1<2|NC|M|67.95,43.19|N|On the top deck of the other side of the ship.|
 C Gathering Storm|QID|50610|M|62.85,44.55;35.21,60.18|CS|Z|Upper Deck!Abyssal Melody|NC|N|Two more below decks. |
@@ -168,7 +168,7 @@ C A Clean Slate|QID|50779|M|63.01,40.64|S|N|Kill mobs and click stuff as you run
 C The Storm Awakens|QID|50777|M|61.32,41.46|S|NC|N|Click on doors and friendly mobs as you go.|
 A Oathbound|QID|50780|M|60.89,41.37|N|From Tideguard Victoria.|
 K Bound Tempest|ACTIVE|50778|QO|1|T|Bound Tempest|M|59.91,41.38|N|Kill the priests who have him bound and then kill the Tempest.|
-$ Hidden Scholar's Chest|QID|50937|M|59.03,41.50;59.91,39.06|CS|N|Run up the stairs and onto the roof of the library to pick up this chest.|
+$ Hidden Scholar's Chest|QID|50937|M|59.03,41.50;59.91,39.06|CS|N|Run up the stairs and onto the roof of the library to pick up this chest.|RANK|2|
 C Oathbound|QID|50780|M|59.14,38.71|NC|N|Jump down into the couryard and loot the Rod of Tides from the fountain. Kill the mobs that spawn, then loot again.|
 K Enthralled Tidefury|ACTIVE|50778|QO|2|T|Enthralled Tidefury|M|61.77,38.09|N|Kill the priests who have him entralled and then kill the Tidefury.|
 C A Clean Slate|QID|50779|M|61.32,41.46|US|N|Finish up bonus objective.|
@@ -204,11 +204,12 @@ C The Final Ascent|QID|51319|M|75.60,27.05|U|160056|N|Open the gate with the Rin
 T The Final Ascent|QID|51319|M|74.78,29.52;73.95,24.90;75.61,27.02|CS|N|To Brother Pike.|
 A Storm's End|QID|50824|M|75.61,27.02|N|From Brother Pike.|PRE|51319|
 K Azshj'thul the Drowned|ACTIVE|50824|QO|1|M|75.61,27.02|T|Azshj'thul the Drowned|N|Watch the cutscene and then kill the big baddie.|
-$ Legends of the Tidesages|ACH|13051;8|M|75.07,31.13|N|SW from Shrine of the Storm entrance. Must have finished At the edge of Madness quest|
+$ Legends of the Tidesages|ACH|13051;8|M|75.07,31.13|N|SW from Shrine of the Storm entrance. Must have finished At the edge of Madness quest|RANK|2|
 T Storm's End|QID|50824|M|78.32,28.85|N|To Brother Pike after he runs up.|
 A Shrine of the Storm: Whispers Below|QID|50825|M|78.32,28.85|N|This is a dungeon quest, take or not as you choose.|NA|
 A A New Dawn|QID|50733|M|78.32,28.85|N|From Taelia.|PRE|50824|
 f Shrine of the Storm|ACTIVE|50733|M|78.32,28.85|N|From Galeheart.|
+F Brennadam|TZ|Brennadam|ACTIVE|51552|M|78.32,29.02|N|Fly back to Brennadam, at Galeheart.|RANK|1|
 ; sidequest Mildenhall Meadery
 F Mildenhall Meadery|ACTIVE|51582|M|78.32,28.85|N|Fly back to Mildenhall.|RANK|2|
 T Make it Mildenhall|QID|51582|M|68.88,65.16|N|To Ancel Mildenhall.|
@@ -264,7 +265,7 @@ T The Bee Team|QID|50165|N|To Raimond Mildenhall.|
 T Wendigo Away|QID|50534|O|N|To Raimond Mildenhall.|
 A Back to the Lab|QID|50553|N|From Raimond Mildenhall, who should still be next to you.|RANK|2|PRE|50534&50264&50165&50493|
 T Back to the Lab|QID|50553|M|70.75,69.18|N|Back to the basement "lab".|
-H The Golden Flagon|TZ|Brennadam|ACTIVE|51552|M|68.55,65.00|N|Hearth or fly back to Brennadam.\n\nGive Wrex a pat if you want. It doesn't do anything, but it makes you feel good.|
+H The Golden Flagon|TZ|Brennadam|ACTIVE|51552|M|68.55,65.00|N|Hearth or fly back to Brennadam.\n\nGive Wrex a pat if you want. It doesn't do anything, but it makes you feel good.|RANK|2|
 ; Briarback Kraul
 T The Days Are Just Packed|QID|51552|M|57.60,66.38|N|To Sergeant Calvin.|
 A Bombs, Away|QID|49744|M|57.60,66.38|N|From Sergeant Calvin.|PRE|51552|
