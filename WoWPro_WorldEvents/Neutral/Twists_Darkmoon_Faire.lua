@@ -376,7 +376,7 @@ A Tan My Hide|QID|29519|M|55.00,70.7|N|From Chronos.|P|Skinning;393;75|
 
 C Collect 6 Darkblossom|QID|29514|QO|1|S|NC|
 C Tan My Hide|QID|29519|NC|N|Found throughout the Island.|S|
-N Collect 5 Bits of Glass|QID|29516|N|Green sparkling Gems.|L|72052 5|S|
+l Collect 5 Bits of Glass|ACTIVE|29516|N|Green sparkling Gems.|L|72052 5|S|
 
 C Collect 6 Darkblossom|QID|29514|QO|1|US|NC|
 T Herbs for Healing|QID|29514|M|55.00,70.76|N|To Chronos.|
@@ -406,7 +406,7 @@ N Sayge's Dark Fortune of Armor|QID|99023735|M|53.24,75.83|BUFF|23735^23736^2373
 N Sayge's Dark Fortune of Damage|QID|99023735|M|53.24,75.83|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Slay the man, Execute your friend painfully|RANK|3|
 N Sayge's Dark Fortune of Resistance|QID|99023735|M|53.24,75.83|BUFF|23735^23736^23737^23738^23766^23767^23768^23769|N|Turn him over to liege, Remain quiet|RANK|3|
 
-N Collect 6 Discarded Weapon|QID|29510|N|Around the faire|L|72018 6|S|
+l Collect 6 Discarded Weapon|ACTIVE|29510|N|Around the faire|L|72018 6|S|
 
 A Target: Turtle|QID|29455|M|51.51,77.70|N|Jessica Rogers.|RANK|2|
 N Triumphant Turtle Tossing|ACTIVE|29455|ACH|9894|N|Successfully toss 10 rings onto Dubenko the Darkmoon Turtle in one session of the Ring Toss.|ITEM|122123|S|
