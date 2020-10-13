@@ -1,4 +1,4 @@
--- luacheck: globals select tonumber tostring type max
+-- luacheck: globals select tonumber tostring type max math
 
 --------------------------------------
 --      WoWPro_Profession_Parser      --
@@ -50,10 +50,10 @@ function WoWPro.Profession:PreRowUpdate(row)
 
     -- Break down the current step and re-create
     if prof then
-        local _, profnum, proflvl, profflip, profmaxlvl = (";"):split(prof)
+        local _, profnum, proflvl, _, profmaxlvl = (";"):split(prof)
         if proflvl == '*' then proflvl = 301 end -- Set to the maximum level obtainable in the expansion plus 1
-		local _, proflvl = ("+"):split(proflvl)
-        proflvl = tonumber(proflvl) or 1
+		local _, proflvls = ("+"):split(proflvl)
+        proflvl = tonumber(proflvls) or 1
         profmaxlvl = tonumber(profmaxlvl) or 0
         if (k == WoWPro.rows[WoWPro.ActiveStickyCount+1].index) then
             local profs = {}
@@ -97,7 +97,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 					end
 				end
 			elseif WoWPro.CLASSIC then
-				for p = 1, GetNumSkillLines() do
+				for p = 1, _G.GetNumSkillLines() do
 						local skillName, _, _, skillRank, _, rankModifier = _G.GetSkillLineInfo(p)
 						local skillnum = WoWPro.ProfessionNameToSkillLine[skillName]
 						if (tonumber(skillnum) == tonumber(profnum)) then
