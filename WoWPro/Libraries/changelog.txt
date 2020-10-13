@@ -1,3 +1,11 @@
+Ace3 Release - Revision r1241 (October 13th, 2020)
+--------------------------------------------------
+- AceAddon-3.0: Suppress more Blizzard addon load events from activating Ace3 addons "too early", causing loading issues.
+- AceGUI-3.0: Updated for Backdrop changes in WoW 9.0
+- AceGUI-3.0: Re-structured widget releasing to avoid recursive release in some circumstances
+- AceGUI-3.0: Label: Anchors are being refreshed when the font is changed (Ticket #540)
+- AceGUI-3.0: Dropdown: Initialize the widget with an empty list so that AddItem can be used on a fresh dropdown (Ticket #542)
+
 Ace3 Release - Revision r1227 (August 12th, 2019)
 -------------------------------------------------
 - AceConfigDialog-3.0: Fixed an issue with a missing template on WoW Classic (Ticket #517)
@@ -205,7 +213,7 @@ Ace3 Release - Revision r900 (December 8th, 2009)
 - AceGUI-3.0: TreeGroup: Allow iconCoords to be passed for the tree elements. (Ticket #59)
 - AceGUI-3.0: Slider: Add a more visible backdrop/border around the manual input area (Ticket #98, #46)
 - AceGUI-3.0: Allow displaying a image in front of the checkbox label. (Ticket #82)
-- AceConfig-3.0: Added an experimental "descStyle" member to all option table nodes that allows you to control the way the description is presented. 
+- AceConfig-3.0: Added an experimental "descStyle" member to all option table nodes that allows you to control the way the description is presented.
                  Supported values are "tooltip" for the old behaviour, and "inline" for a inline display of the description, pending support in AceGUI-3.0 widgets.
 - AceConfigCmd-3.0: Properly parse functions and methods supplied for the "hidden" option table member. (Ticket #96)
 - AceConfigDialog-3.0: Fix the unpacking of the basepath arguments when internally calling :Open (Ticket #90)

@@ -1,4 +1,17 @@
 ------------------------------------------------------------------------
+r1240 | nevcairiel | 2020-10-13 07:59:32 +0000 (Tue, 13 Oct 2020) | 1 line
+Changed paths:
+   M /trunk/Ace3.toc
+   M /trunk/changelog.txt
+
+Update changelog and TOC
+------------------------------------------------------------------------
+r1239 | nevcairiel | 2020-09-20 10:22:02 +0000 (Sun, 20 Sep 2020) | 1 line
+Changed paths:
+   M /trunk/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
+
+AceGUI-3.0: DropDown: Anchor all items to the dropdown frame instead of chaining anchors, fixes anchoring on WoW 9.0 with many items
+------------------------------------------------------------------------
 r1238 | nevcairiel | 2020-08-28 16:18:42 +0000 (Fri, 28 Aug 2020) | 3 lines
 Changed paths:
    M /trunk/AceAddon-3.0/AceAddon-3.0.lua
