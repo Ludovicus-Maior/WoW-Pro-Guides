@@ -73,8 +73,9 @@ function WoWPro.Profession:PreRowUpdate(row)
 							local numMATs = select("#", (":"):split(mat))
 							local m = {}
 							m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = (":"):split(mat)
-							WoWPro.note[k] = 'Materials: '
+							WoWPro.note[k] = ""
 							for j=1,tonumber(numMATs) do
+								WoWPro.note[k] = WoWPro.note[k]..'Materials: '
 								local numItem = select("#", (";"):split(m[j]))
 								if numItem > 1 then
 									local Qty, Item, Mats, Tot = (";"):split(m[j])
@@ -88,7 +89,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 										WoWPro.step[k] = craft..': Craft these from '.. skillRank .. ' to '.. proflvl
 										WoWPro.target[k] = craft..';1;'..((profmaxlvl - skillRank)/skillpoints)
 									end
-									WoWPro.note[k] = WoWPro.note[k]..Qty..' '..Item..'\n\nYou will need about ('..Mats..') more '..Item
+									WoWPro.note[k] = WoWPro.note[k]..Qty..' '..Item..'\nYou will need about ('..Mats..') more '..Item..'\n\n'
 								else
 									WoWPro.note[k] = WoWPro.note[k]..m[j]
 								end
@@ -111,8 +112,9 @@ function WoWPro.Profession:PreRowUpdate(row)
 							local numMATs = select("#", (":"):split(mat))
 							local m = {}
 							m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10] = (":"):split(mat)
-							WoWPro.note[k] = 'Materials: '
+							WoWPro.note[k] = ""
 							for j=1,tonumber(numMATs) do
+								WoWPro.note[k] = WoWPro.note[k]..'Materials: '
 								local numItem = select("#", (";"):split(m[j]))
 								if numItem > 1 then
 									local Qty, Item, Mats, Tot = (";"):split(m[j])
@@ -126,7 +128,7 @@ function WoWPro.Profession:PreRowUpdate(row)
 										WoWPro.step[k] = craft..': Craft these from '.. skillRank .. ' to '.. proflvl
 										WoWPro.target[k] = craft..';1;'..((profmaxlvl - skillRank)/skillpoints)
 									end
-									WoWPro.note[k] = WoWPro.note[k]..Qty..' '..Item..'\n\nYou will need about ('..Mats..') more '..Item
+									WoWPro.note[k] = WoWPro.note[k]..Qty..' '..Item..'\nYou will need about ('..Mats..') more '..Item..'\n\n'
 								else
 									WoWPro.note[k] = WoWPro.note[k]..m[j]
 								end
