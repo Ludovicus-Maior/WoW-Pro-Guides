@@ -418,16 +418,17 @@ C Pieces of History|QID|48184|QO|3|M|39.27,61.14|NC|N|Examine Third Stone.|
 C Pieces of History|QID|48184|QO|4|M|37.84,64.67|NC|N|Examine Fourth Stone.|
 C Pieces of History|QID|48184|QO|5|M|36.53,61.26|NC|N|Examine Fifth Stone.|
 C Honorable Discharge|QID|48517|US|NC|M|37.30,61.99|N|Finish releasing the weary spirits.|
-T Pieces of History|QID|48184|M|37.30,61.99|N|To Inquisitor Cleardawn, who is following you around.|
-T Honorable Discharge|QID|48517|M|37.30,61.99|N|To Inquisitor Cleardawn.|
-A Drustfall|QID|49890|M|36.63,61.32|N|From Inquisitor Cleardawn.|
+T Pieces of History|QID|48184|M|PLAYER|N|To Inquisitor Cleardawn, who is following you around.|
+T Honorable Discharge|QID|48517|M|PLAYER|N|To Inquisitor Cleardawn.|
+A Drustfall|QID|49890|M|36.63,61.32|N|From Inquisitor Cleardawn.|PRE|48184&48517|
 C Drustfall|QID|49890|QO|1|M|40.59,62.67|NC|N|Click on the stone to investigate the cave.|
 C Drustfall|QID|49890|QO|2|M|40.43,62.62|N|Slay Runekeeper Construct.|
 T Drustfall|QID|49890|M|40.50,62.58|N|To Inquisitor Cleardawn, who is still with you.|
 A To Falconhurst!|QID|49896|M|40.50,62.58|N|From Inquisitor Cleardawn.|
 C Clear Victory|QID|49898|US|M|37.30,61.99|N|Finish off the needed Drust Skeletons.|
 T Clear Victory|QID|49898|M|39.68,58.03|N|To Captain Lilian Nottley, back up at the top of the battlefield.|
-R Iceveil Glacier|AVAILABLE|51543|M|38.06,66.60;37.42,68.74|CS|N|Take this path out the back of the battlefield to Iceveil Glacier.|PRE|49898|
+R Crimson Coast|ACTIVE|49896|M|38.06,66.60;37.42,68.74;32.43,67.85;29.45,62.41|CS|N|Take this path out the back of the battlefield to the Crimson Coast.|RANK|-1|FLY|BFA|
+R Iceveil Glacier|AVAILABLE|51543|M|38.06,66.60;37.42,68.74|CS|N|Take this path out the back of the battlefield to Iceveil Glacier.|PRE|49898|RANK|3|
 K Arvon the Betrayed|QID|51383|QO|1|M|34.83,69.14|T|Arvon the Betrayed|N|Silver Elite to kill for azerite power and resources.|RARE|ITEM|160449|RANK|3|
 A Saplings in the Snow|QID|51543|M|33.45,65.09|N|From Adalyn Forestwatcher.|RANK|3|
 C Saplings in the Snow|QID|51543|M|33.73,69.54|S|NC|N|Grab hold of the Mountain Sapling and then run away with the roots trailing behind you to uproot.|
@@ -640,7 +641,7 @@ C An Improvised Arsenal|QID|50253|M|31.72,29.55|QO|1|CHAT|N|Speak with Angus Bal
 C An Improvised Arsenal|QID|50253|M|31.90,29.72|QO|2|NC|N|Click on the scrapheap to search for the Battered Hand Cannon.|
 C An Improvised Arsenal|QID|50253|M|31.64,29.53|QO|3|NC|N|Place Hand cannon on the anvil and then wait a bit for Angus to be done.|
 T An Improvised Arsenal|QID|50253|M|31.73,29.56|N|To Angus Ballaster.|
-A Reclaiming Corlain|QID|50448|M|31.73,29.56|N|Bonus Objective - Autoaccepted.|LVL|-120|RANK|2|
+A Reclaiming Corlain|QID|50448|M|31.73,29.56|N|Bonus Objective - Autoaccepted.|LVL|-120|RANK|2|PRE|50253|  ; doesn't come up till you do 50253
 C Reclaiming Corlain|QID|50448|M|31.73,29.56|S|N|Bonus Objective - Kill stuff, destroy stuff, the usual.|
 A Witchrending|QID|50446|M|31.43,30.26|N|From Lucille Waycrest.|PRE|50253|;not spurious
 A To Have Loved and Lost|QID|50754|M|31.43,30.26|N|From Lucille Waycrest.|PRE|50253|RANK|2|;not spurious
