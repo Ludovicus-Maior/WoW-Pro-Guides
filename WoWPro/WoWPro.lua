@@ -1206,7 +1206,7 @@ function WoWPro:ResolveIcon(guide)
         end
         return
     end
-    if guide['pro'] then
+    if guide['pro'] and not WoWPro.CLASSIC then
         -- prof1, prof2, archaeology, fishing, cooking, firstAid
         local profs = {_G.GetProfessions()}
         for index = 1,#profs do
