@@ -22,7 +22,7 @@ C The Vanishing Lord|QID|48622|QO|2|M|56.18,35.30|NC|N|Meet with Cyril White - m
 C The Vanishing Lord|QID|48622|QO|3|M|55.87,35.08|NC|N|Destroy the effigy.|
 T The Vanishing Lord|QID|48622|M|55.91,35.14|N|To Cursed Effigy.|
 A Signs and Portents|QID|47968|M|56.13,35.26|N|From Mayor's Bulletin.|PRE|48622|
-A Fallhaven's Curse|QID|47969|M|56.13,35.26|N|Bonus Objective - Autoaccepted.|LVL|-120|
+A Fallhaven's Curse|QID|47969|M|56.13,35.26|N|Bonus Objective - Autoaccepted.|LVL|-50|
 C Fallhaven's Curse|QID|47969|M|56.13,35.26|S|N|Bonus Objective: attack everything related to the curse.|
 C Signs and Portents|QID|47968|QO|2|M|57.96,35.70|NC|N|Find Rancher's Letter lying on the ground.|
 K Betsy|QID|47884|QO|1|M|58.46,33.16|N|Silver Elite to kill and loot for azerite power and resources.|T|Betsy|RARE|ITEM|160463|RANK|2|
@@ -118,7 +118,7 @@ A Questionable Offerings|QID|48678|M|59.50,21.97|N|From Lord Autumnvale.|PRE|486
 C Questionable Offerings|QID|48678|QO|1|M|59.89,21.99;59.38,21.91|CN|NC|N|You find things to offer to the rocks behind you. Take "bundle of wicker", "Entrails" and the "Bones" to the offering table. You have to do it one at a time.|
 C Questionable Offerings|QID|48678|QO|2|M|59.38,21.91|NC|N|Witness Autumnvale's Ritual|
 T Questionable Offerings|QID|48678|M|59.44,21.91|N|To Lord Autumnvale.|
-A Not the Bees!|QID|48680|M|59.44,21.96|N|Bonus Objective - Autoaccepted.|PRE|48678|LVL|-120|RANK|2|
+A Not the Bees!|QID|48680|M|59.44,21.96|N|Bonus Objective - Autoaccepted.|PRE|48678|LVL|-50|RANK|2|
 A Mind the Hives|QID|48679|M|59.44,21.96|N|From Lord Autumnvale.|PRE|48678|RANK|2|
 C Not the Bees!|QID|48680|M|59.44,21.96|S|N|Bonus Objective - Knock down the hives, kill the bees and burn the effigies.|
 K Barbthorn Queen|QID|48842|QO|1|M|58.89,18.62|T|Barbthorn Queen|N|Silver Elite to kill and loot for azerite power and resources.|RARE|ITEM|155425|RANK|2|
@@ -142,7 +142,7 @@ C Teddies and Tea|QID|47289|QO|3|NC|M|56.29,38.15|N|On the porchrail by the thir
 T Teddies and Tea|QID|47289|M|56.26,38.21|N|To Abby Lewis standing right beside you.|
 A Kitty?|QID|47428|M|56.26,38.21|N|From Abby Lewis.|PRE|47289|RANK|2|
 T Kitty?|QID|47428|M|55.60,41.19|N|To Smoochums sitting on a rock with a backpack.|
-A The Accursed Thicket|QID|45972|M|55.60,41.19|N|Bonus Objective - Autoaccepted.|PRE|47428|LVL|-120|RANK|2|
+A The Accursed Thicket|QID|45972|M|55.60,41.19|N|Bonus Objective - Autoaccepted.|PRE|47428|LVL|-50|RANK|2|
 A The Village of Glenbrook|QID|45079|M|55.60,41.19|N|From Glenbook Register.|PRE|47428|RANK|2|
 C The Accursed Thicket|QID|45972|M|55.60,41.19|S|N|Burn charms, destroy fetishes and kill the accursed wildlife to complete the bonus objective.|
 K Gorehorn|QID|49480|QO|1|M|57.23,44.18|T|Gorehorn|N|Silver Elite to kill and loot for azerite power and resources.|RARE|ITEM|158710|RANK|2|
@@ -162,7 +162,7 @@ t The Accursed Thicket|QID|45972|M|58.18,47.91|N|Bonus Objective - Autocompleted
 K Longfang/Henry Breakwater|QID|48981|QO|1|M|56.5,50.5;59.36,55.40|CS|RARE|ITEM|160468|N|Decide which of them to help and talk to them to offer your help. Silver Elite to kill for azerite power and resources.|RANK|3|
 ; Seeing Spirits (optional)
 A Seeing Spirits|QID|48475|M|62.61,42.99|N|From Caretaker Allen.|RANK|3|
-A Crypt Keepers|QID|48474|M|62.61,42.99|N|Bonus Objective - Autoaccepted.|LVL|-120|RANK|3|
+A Crypt Keepers|QID|48474|M|62.61,42.99|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|3|
 C Crypt Keepers|QID|48474|M|62.61,42.99|S|N|Kill the enraged spirits and other wildlife, clean up the neglected gravestones and destroy corrupting circles to cleanse the cemetery for this bonus objective.|
 C Seeing Spirits|QID|48475|QO|1|M|60.39,45.89|S|NC|N|Collect Graveblooma.|
 K Nevermore|QID|49601|QO|1|M|59.96,45.52|T|Nevermore|N|Silver Elite to kill and loot for azerite power and resources.|RARE|ITEM|160456|RANK|3|
@@ -256,7 +256,7 @@ T Clear-Cutting|QID|49295|M|70.07,60.27|N|To Evelyn Pare.|
 A Hope They Can't Swim|QID|48519|M|70.07,60.27|N|From Evelyn Pare.|PRE|48518&49295|
 C Hope They Can't Swim|QID|48519|M|69.41,60.35|N|Hold the beach so the villagers can escape in the rowboat. Kill the Grotesque Butcher to complete the quest.|
 T Hope They Can't Swim|QID|48519|M|70.07,60.27|N|To Evelyn Pare.|
-A Break Them to Splinters|QID|48525|M|70.07,60.27|N|Bonus Objective - Autoaccepted.|PRE|48519|LVL|-120|
+A Break Them to Splinters|QID|48525|M|70.07,60.27|N|Bonus Objective - Autoaccepted.|PRE|48519|LVL|-50|
 A The Three Sisters|QID|48520|M|70.07,60.27|N|From Evelyn Pare.|PRE|48519|
 C Break Them to Splinters|QID|48525|M|70.07,60.27|S|N|Kill stuff, pick up other stuff...eventually the bonus objective gets done.|
 A Charming the Lifeless|QID|48521|M|70.04,62.94|N|From a Bladed Charm, lying on some bales.|PRE|48519|
@@ -294,7 +294,7 @@ A A Slight Detour|QID|48941|M|69.67,43.27|N|From Lucille Waycrest.|PRE|49259|
 ; Gol Koval
 A Gol Koval|QID|48947|M|69.52,43.71|N|From Auntie Amanda Hale.|PRE|59259|LEAD|52074|RANK|2|
 R Wayward Thicket|ACTIVE|48947|M|68.01,48.88|N|Take this small path to the right after you cross the bridge|RANK|2|FLY|BFA|
-A Nooooope|QID|48181|M|68.01,48.88|N|Bonus Objective - Autoaccepted.|LVL|-120|RANK|2|
+A Nooooope|QID|48181|M|68.01,48.88|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|2|
 C Nooooope|QID|48181|M|68.01,48.88|S|N|Trample spiderlings, break open egg sacs and kill the bigger spiders to clean up the thicket.|
 K Bonesquall|QID|48978|QO|1|M|66.72,51.10|T|Bonesquall|N|Silver Elite to kill and loot for azerite power and resources.|RARE|ITEM|154376|RANK|2|
 T Gol Koval|QID|48947|M|64.66,54.77|N|To Rebecca Hale.|
@@ -464,7 +464,7 @@ A So Long, Sister|QID|49939|M|25.77,70.27|N|From Inquisitor Cleardawn.|PRE|50177
 K Sister Noella Briarwood|ACTIVE|49939|QO|1|M|25.01,71.83|N|Slay Sister Noella Briarwood inside the house.|T|Sister Noella Briarwood|
 f Falconhurst|ACTIVE|49939|M|27.05,72.36|N|At Viviana Swailes.|
 T So Long, Sister|QID|49939|M|26.64,72.17|N|To Leandro Royston.|
-A Village Repair|QID|50091|M|25.77,70.27|N|Bonus Objective - Autoaccepted.|PRE|49939|LVL|-120|RANK|2|;not spurious
+A Village Repair|QID|50091|M|25.77,70.27|N|Bonus Objective - Autoaccepted.|PRE|49939|LVL|-50|RANK|2|;not spurious
 A WANTED: The Crimson Cutthroats|QID|51390|M|26.42,72.16|N|From Wanted Poster.|RANK|3|
 A Bramblethorn|QID|50238|M|26.99,71.39|N|From Lynn Sweet.|RANK|2|
 A A Missing Master|QID|50903|M|25.54,70.10|N|From Marten Webb.|
@@ -641,7 +641,7 @@ C An Improvised Arsenal|QID|50253|M|31.72,29.55|QO|1|CHAT|N|Speak with Angus Bal
 C An Improvised Arsenal|QID|50253|M|31.90,29.72|QO|2|NC|N|Click on the scrapheap to search for the Battered Hand Cannon.|
 C An Improvised Arsenal|QID|50253|M|31.64,29.53|QO|3|NC|N|Place Hand cannon on the anvil and then wait a bit for Angus to be done.|
 T An Improvised Arsenal|QID|50253|M|31.73,29.56|N|To Angus Ballaster.|
-A Reclaiming Corlain|QID|50448|M|31.73,29.56|N|Bonus Objective - Autoaccepted.|LVL|-120|RANK|2|PRE|50253|  ; doesn't come up till you do 50253
+A Reclaiming Corlain|QID|50448|M|31.73,29.56|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|2|PRE|50253|  ; doesn't come up till you do 50253
 C Reclaiming Corlain|QID|50448|M|31.73,29.56|S|N|Bonus Objective - Kill stuff, destroy stuff, the usual.|
 A Witchrending|QID|50446|M|31.43,30.26|N|From Lucille Waycrest.|PRE|50253|;not spurious
 A To Have Loved and Lost|QID|50754|M|31.43,30.26|N|From Lucille Waycrest.|PRE|50253|RANK|2|;not spurious
