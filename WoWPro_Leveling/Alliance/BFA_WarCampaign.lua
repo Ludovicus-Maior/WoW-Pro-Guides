@@ -6,7 +6,7 @@ WoWPro:GuideNickname(guide, "War Campaign")
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|S!US|N|Jump to the Guide Hub|
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
 ;starter notes
 N Ranks.|AVAILABLE|53332|N|Rank 1 includes the steps needed for the War Campaign Achievement required for Pathfinder It also includes Warfronts and the quests that follow the purchased Table Missions to open up more outposts. \n\nRank 2 adds the Wanted Posters on Zandalar which are worth 250 faction each. \n\nRank 3 adds other quests on Zandalar. If you want to change ranks mid-guide. You should also reset the guide (from guide title bar) or else you may miss things.|
 N Wind's Redemption|AVAILABLE|53332|N|All of these quest arcs start on Wind's Redemption, a ship in Boralus' harbor. It can be reached going thru the Harbormaster's office or just jumping the railing at the south end of Tradewinds Market.|

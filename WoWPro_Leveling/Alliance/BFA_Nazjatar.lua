@@ -7,9 +7,7 @@ WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
-N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|S!US|N|Jump to the Guide Hub|
-N Draft!|ACTIVE|55851|N|This guide is under construction.  We apologize for any missing quests, fires, or other hazards.|
-N Dailies|N|Since there is no way to predict which dailies and follower quests will be available, the accept steps are not in the guide. Pick up any you see (blue !) and if they are in the guide, the completion steps and turn in steps will show up.|
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
 ;quest chain when you first get rank 3 with follower
 t A Brief Respite|QID|54975|M|40.32,55.26|N|To Lady Jaina Proudmoore.|
 A Insight into Our Enemies|QID|55593|M|40.32,55.26|N|From Lady Jaina Proudmoore.|PRE|54975|

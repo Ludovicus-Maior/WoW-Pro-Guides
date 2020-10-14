@@ -8,7 +8,7 @@ WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return
 [[
-N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|S!US|N|Jump to the Guide Hub|
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
 ; Guide started by Elidion and neutralized and finished by Ludovicus
 ; Alliance Start
 A An Unwelcome Advisor|QID|58496|M|PLAYER|Z|Boralus|N|Lead in from Anduin Wrynn.|FACTION|Alliance|

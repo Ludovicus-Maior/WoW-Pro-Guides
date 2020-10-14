@@ -7,8 +7,7 @@ WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
-N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|S!US|N|Jump to the Guide Hub|
-N Draft!|ACTIVE|57009|N|This guide is under construction. We apologize for any missing quests, fires, or other hazards.|
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
 N Nazjatar First|AVAILABLE|55646&54088|N|You must have done Nazjatar thru opening up world quests before you can begin Mechagon.  You can travel there before then, but the flight path and quests won't be available.|
 T Rumors of Mechagon|QID|57024|M|53.09,43.27|Z|Dazar'alor|N|To Gazlowe.|FACTION|Horde|
 A The Legend of Mechagon|QID|55646|PRE|55500|M|53.09,43.27|Z|Dazar'alor|N|From Gazlowe.|FACTION|Horde|
