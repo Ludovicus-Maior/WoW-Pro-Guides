@@ -6,8 +6,7 @@ WoWPro:GuideNickname(guide, "Nazjatar")
 WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
-N Draft!|AVAILABLE|56030|N|This guide is under construction.  We apologize for any missing quests, fires, or other hazards.|
-N Dailies|N|Since there is no way to predict which dailies and follower quests will be available, the accept steps are not in the guide. Pick up any you see (blue and yellow !) and if they are in the guide, the completion steps and turn in steps will show up.|
+N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
 ;quest chain upon getting follower to level 3
 t Down Into Nazjatar|QID|56235|M|48.50,62.17|N|To Lor'themar Theron.|
 A Insight into Our Enemies|QID|55862|M|48.50,62.17|N|From Lor'themar Theron.|PRE|56235|
