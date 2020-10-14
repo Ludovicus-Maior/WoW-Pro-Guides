@@ -319,7 +319,7 @@ C Big Hunter Mon|QID|50332|M|67.70,17.71|QO|3|NC|N|Wait for Nesingwary to trigge
 C Big Hunter Mon|QID|50332|M|67.49,17.68|QO|4|NC|N|Click on Nesingwary to steal his Boot.|
 C Big Hunter Mon|QID|50332|M|66.23,16.77|QO|5|NC|N|Bring the Boot to Jani. (avoiding the Eye of Yazma mobs).|
 T Big Hunter Mon|QID|50332|M|66.23,16.67|N|To Jani.|
-A Trouble in the Rootway|QID|50178|M|65.88,19.97|N|Bonus Objective. Autoaccepted.|LVL|-120|RANK|2|
+A Trouble in the Rootway|QID|50178|M|65.88,19.97|N|Bonus Objective. Autoaccepted.|LVL|-50|RANK|2|
 C Trouble in the Rootway|QID|50178|M|65.88,19.97|S|N|Bonus Objective - Kill the invasive animals in the area.|
 $ Witch Doctor's Stash|QID|50259|M|65.57,22.51;64.72,21.70|CS|N|Follow this path to get up to the Treasure.|RANK|2|
 C Hunting the Hunter|QID|47586|M|62.46,19.25|QO|1|NC|N|Inspect Nesingwary's campfire.|
@@ -413,7 +413,7 @@ T Raal|QID|47518|M|43.63,7.34|Z|Dazar'alor|N|To Hexlord Raal.|
 A Midnight in the Garden of the Loa|QID|47521|M|42.52,9.51|Z|Dazar'alor|N|From Hexlord Raal.|PRE|47520&47518|
 C Midnight in the Garden of the Loa|QID|47521|M|42.51,10.04|V|N|Ride Ata the Winglord|
 T Midnight in the Garden of the Loa|QID|47521|M|50.70,29.66|N|To Wardruid Loti.|
-A Rituals of Heresy|QID|47527|M|50.70,29.66|N|Bonus Objective. Autoaccepted.|LVL|-120|PRE|47521|
+A Rituals of Heresy|QID|47527|M|50.70,29.66|N|Bonus Objective. Autoaccepted.|LVL|-50|PRE|47521|
 A The Hunter|QID|47522|M|50.70,29.66|N|From Wardruid Loti.|PRE|47521|
 A The Ancient One|QID|47963|M|50.69,29.56|N|From Hexlord Raal.|PRE|47521|
 C Rituals of Heresy|QID|47527|M|50.70,29.66|S|N|Bonus Objective. Disrupt the blood rituals as you go.|
@@ -442,7 +442,7 @@ t WANTED: Prime Thumpknuckle|QID|51072|M|51.65,50.54|N|To Shaz'ki.|
 t WANTED: Sabertusk Empress|QID|51071|M|51.65,50.54|N|To Shaz'ki.|
 K Syrawon the Dominus|QID|51080|M|53.43,48.20;53.93,44.84;53.42,44.67|CS|QO|1|RARE|ITEM|161047|T|Syrawon the Dominus|N|Follow the footpath up the Kingsmouth River to assist our good friends Tehd and Marius with a Silver Elite demon. Kill her for azerite power and resources.|RANK|3|
 R Gorilla Gorge|ACTIVE|49919|M|52.47,51.84;51.36,53.83|CS|N|A little farther down the road and around the corner.|
-A Gorilla Gorge|QID|49918|M|51.54,52.97|N|Bonus Objective. Autoaccepted.|LVL|-120|RANK|2|
+A Gorilla Gorge|QID|49918|M|51.54,52.97|N|Bonus Objective. Autoaccepted.|LVL|-50|RANK|2|
 C Gorilla Gorge|QID|49918|M|51.54,52.97|S|N|Bonus Objective. Kill Gorillas as you go.|
 C Kaja'mite Ore Bust|QID|49919|M|48.03,52.68|NC|S|N|Click on the Kaja'mite Steam Vents to scan.|
 A Gorilla Warfare|QID|49920|M|50.20,54.57|N|From Tsunga.|RANK|2|
@@ -499,7 +499,7 @@ f Seeker's Outpost|ACTIVE|49283|M|70.42,65.32|N|At Scroll of Flight.|RANK|2|
 T Who Seeks the Seekers?|QID|49283|M|70.49,65.21|N|To Batu.|
 A Perfect Tidings|QID|49284|M|70.49,65.21|N|From Batu.|RANK|2|PRE|49283|
 A Tiny Treasures|QID|49285|M|70.31,65.06|N|From Koba.|RANK|2|PRE|49283|
-A Dreadpearl Collusion|QID|49315|M|80.83,58.94|O|LVL|-120|N|Bonus Objective - Autoaccepted.|RANK|2|
+A Dreadpearl Collusion|QID|49315|M|80.83,58.94|O|LVL|-50|N|Bonus Objective - Autoaccepted.|RANK|2|
 C Dreadpearl Collusion|QID|49315|M|80.83,58.94|S|N|Bonus Objective. Kill Naga and murlocks to complete the objective.|
 C Perfect Tidings|QID|49284|M|71.21,64.57|QO|1|U|154704|NC|N|Use the scroll to locate clues. Click the tortollan pack to find it.|
 C Tiny Treasures|QID|49285|M|71.68,64.14|QO|1|NC|N|Click on the Amphibious Lab Enclosure.|
@@ -645,7 +645,7 @@ R The Preserve|ACTIVE|47737|M|73.72,20.79|N|Run up the hill to meet King Rastakh
 T The Temple of Rezan|QID|47737|M|72.03,21.03|N|To King Rastakhan.|
 A House of the King|QID|47740|M|72.03,21.03|N|From King Rastakhan.|PRE|47737|
 A Heads Will Roll|QID|47736|M|72.09,21.20|N|From Zolani.|PRE|47737|
-A Occupation Hazard|QID|47797|M|71.97,23.88|LVL|-120|N|Bonus Objective - Autoaccepted.|
+A Occupation Hazard|QID|47797|M|71.97,23.88|LVL|-50|N|Bonus Objective - Autoaccepted.|
 C Occupation Hazard|QID|47797|M|71.97,23.88|S|N|Bonus Objective - Kill the zandalari infesting the temple and otherwise liberate the temple.|
 C Heads Will Roll|QID|47736|M|74.04,23.94|S|N|Kill Zandalari and loot their heads.|
 C House of the King|QID|47740|M|72.31,23.96|QO|1|NC|N|Click on the corrupting totems to cleanse Rezan the Hunter.|
