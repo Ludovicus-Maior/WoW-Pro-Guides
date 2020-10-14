@@ -4,7 +4,7 @@ WoWPro:GuideName(guide, 'Western Plaguelands (57-59)')
 WoWPro:GuideLevels(guide, 57, 59, 58)
 WoWPro:GuideSteps(guide, function()
 return [[
-
+; just testing 
 ; === guides/57_59_Western_Plaguelands.lua ===
 T A Plague Upon Thee|QID|5901|
 A A Plague Upon Thee|QID|5902|PRE|5901|
