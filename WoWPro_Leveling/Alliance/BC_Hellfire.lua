@@ -233,31 +233,31 @@ T The Rock Flayer Matriarch|QID|9490|M|23.09,40.22|N|To Ikan.|
 C The Heart of Darkness|QID|10399|QO|1|N|Kill Terrorfiends.|S|
 C The Pools of Aggonar|QID|9426|QO|1;2|N|Kill Oozes and Terrorfiends.|S|
 C Makuru's Vengeance|QID|9424|M|35.00,35.00|QO|1|N|Kill Mag'har Grunts to loot the Ancestral Beads for this quest.|
-C Overlord|QID|10400|M|43.3,31|N|Kill Arazzius the Cruel.|
-C The Pools of Aggonar|QID|9426|M|40.34,32.72|N|Kill Oozes and Terrorfiends.|US|
-C The Heart of Darkness|QID|10399|M|40.34,32.72|N|Finish killing Terrorfiends.|US|
+C Overlord|QID|10400|M|43.3,31|QO|1|N|Kill Arazzius the Cruel.\n[color=FF0000]NOTE: [/color]From the ramp, pull each Mistress of Doom separately before attacking him.|
+C The Pools of Aggonar|QID|9426|QO|1;2|N|Kill Oozes and Terrorfiends.|US|
+C The Heart of Darkness|QID|10399|QO|1|N|Finish killing Terrorfiends.|US|
 T Makuru's Vengeance|QID|9424|M|23.14,40.17|N|To Makuru.|
-A Atonement|QID|9543|PRE|9424|M|23.01,40.37|N|From Anchorite Obadei.|
+A Atonement|QID|9543|PRE|9424|M|23.01,40.37|N|From Anchorite Obadei. You have to wait a moment for him to appear there.|
 r Sell junk, repair, restock|ACTIVE|9426|M|23.32,39.94|N|At Talaara.|
 T The Pools of Aggonar|QID|9426|M|23.42,36.55|N|To Amaan the Wise.|
 A Cleansing the Waters|QID|9427|PRE|9426|M|23.42,36.55|N|From Amaan the Wise.|
 T Atonement|QID|9543|M|23.42,36.55|N|To Amaan the Wise.|
 A Sha'naar Relics|QID|9430|PRE|9543|M|23.42,36.55|N|From Amaan the Wise.|
-C Cleansing the Waters|N|Go here and use the Cleansing Vial, then kill Aggonis.|QID|9427|M|40.00,31.20|
-A Outland Sucks!|QID|10236|N|From Foreman Razelcraz.|M|51.31,30.5|
-C Outland Sucks!|N|Loot wooden crates in the shallow valley until you finish this quest.|QID|10236|M|48.26,40.81|
-T Outland Sucks!|QID|10236|N|To Foreman Razelcraz.|M|51.31,30.5|
-A How to Serve Goblins|QID|10238|PRE|10236|N|From Foreman Razelcraz.|M|51.31,30.5|
-N Manni's Cage|N|Free Manni from his cage.|QID|10238|QO|1|M|45.10,41.10|; Mani Saved: 1/1
-N Moh's Cage|N|Free Moh from his cage.|QID|10238|QO|2|M|46.41,45.09|; Moh Saved: 1/1
-C How to Serve Goblins|N|Free Jakk from his cage.|QID|10238|M|47.50,46.70|
-T How to Serve Goblins|QID|10238|N|To Foreman Razelcraz.|M|51.31,30.5|
-A Shizz Work|QID|10629|PRE|10238|N|From Foreman Razelcraz.|M|51.31,30.5|
-C Shizz Work|N|Use the Felhound Whistle to summon the Fel Guard Hound.  Kill boars to the west and then right-click on the Felhound Poo as it appears.  Do this until you get the key.|QID|10629|M|50.31,28.08|
-T Shizz Work|QID|10629|N|To Foreman Razelcraz.|M|51.31,30.5|
-A Beneath Thrallmar|QID|10630|PRE|10629|N|From Foreman Razelcraz.|M|51.31,30.5|
-C Beneath Thrallmar|N|Go in the cave and kill Urga'zz.|QID|10630|M|53.90,31.70|
-T Beneath Thrallmar|QID|10630|N|To Foreman Razelcraz.|M|51.31,30.5|
+C Cleansing the Waters|QID|9427|M|40.00,31.20|QO|1|N|Go here and use the Cleansing Vial, then kill Aggonis.|U|23361|
+A Outland Sucks!|QID|10236|M|51.37,30.52|N|From Foreman Razelcraz.|
+C Outland Sucks!|QID|10236|M|48.26,40.81|L|28554 6|N|Loot wooden crates in the shallow valley until you finish this quest.|
+T Outland Sucks!|QID|10236|N|To Foreman Razelcraz.|
+A How to Serve Goblins|QID|10238|PRE|10236|M|51.37,30.52|N|From Foreman Razelcraz.|
+C Manni's Cage|QID|10238|M|45.10,41.10|QO|1|N|Free Manni from his cage.|NC|
+C Moh's Cage|QID|10238|M|46.41,45.09|QO|2|N|Free Moh from his cage.|NC|
+C Jakk's Cage|QID|10238|M|47.50,46.70|QO|3|N|Free Jakk from his cage.|NC|
+T How to Serve Goblins|QID|10238|M|51.37,30.52|N|To Foreman Razelcraz.|
+A Shizz Work|QID|10629|PRE|10238|M|51.37,30.52|N|From Foreman Razelcraz.|
+C Shizz Work|QID|10629|M|50.31,28.08|QO|1|N|Use the Felhound Whistle to summon the Fel Guard Hound.\nKill boars to the west and right-click on the Felhound Poo as it appears. Do this until you get the key.\n[color=FF0000]NOTE: [/color]You can only use the whistle at Razelcraz's camp.|U|30803|
+T Shizz Work|QID|10629|M|51.37,30.52|N|To Foreman Razelcraz.|
+A Beneath Thrallmar|QID|10630|PRE|10629|M|51.37,30.52|N|From Foreman Razelcraz.|
+C Beneath Thrallmar|QID|10630|M|53.90,31.70|QO|1|N|Go in the cave and kill Urga'zz.|
+T Beneath Thrallmar|QID|10630|M|51.37,30.52|N|To Foreman Razelcraz.|
 H Honor Hold|QID|10400|N|Hearth to Honor Hold.|U|6948|M|55.00,86.80|
 T The Heart of Darkness|QID|10399|M|56.69,66.52|N|To Warp-Scryer Kryv|
 T Overlord|QID|10400|N|To Force Commander Danath Trollbane.|M|56.63,66.64|
