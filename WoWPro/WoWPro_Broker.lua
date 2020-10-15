@@ -2394,7 +2394,6 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 			if WoWPro.playerclass and WoWPro.playerclass[guideIndex] then
 				local _, myclass = _G.UnitClass("player")
-
 				if not WoWPro.SemiMatch(WoWPro.playerclass[guideIndex]:gsub(" ", ""):upper(),myclass) and (stepAction == "A" or stepAction == "T") then
 					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing a " .. WoWPro.playerclass[guideIndex] .. ".")
 					 skip = true
@@ -2403,7 +2402,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
 
 			if WoWPro.playerrace and WoWPro.playerrace[guideIndex] then
 				local _, myrace = _G.UnitRace("player")
-				if WoWPro.playerrace[guideIndex]:gsub(" ", "") ~= myrace and (stepAction == "A" or stepAction == "T") then
+				if not WoWPro.SemiMatch(WoWPro.playerrace[guideIndex]:gsub(" ", ""),myrace)   and (stepAction == "A" or stepAction == "T") then
 					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing a " .. WoWPro.playerrace[guideIndex] .. ".")
 					 skip = true
 				end

@@ -867,7 +867,7 @@ function WoWPro.ParseSteps(steps)
 				if (WoWPro.SemiMatch(class, tostring(value["class"]))) and (tostring(value["class"]) ~= myclass) then
 					class = nil
 				end
-				if (tostring(value["race"]) == race) and (tostring(value["race"]) ~= myrace) then
+				if (WoWPro.SemiMatch(race, tostring(value["race"]))) and (tostring(value["race"]) ~= myrace) then
 					race = nil
 				end
 				if (value["gender"] == gender) and (value["gender"] ~= _G.UnitSex("player")) then
