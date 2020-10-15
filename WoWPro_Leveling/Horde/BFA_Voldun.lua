@@ -351,7 +351,7 @@ T The Day the Port Fell|QID|51053|M|35.44,83.82|N|To First Mate Jamboya.|
 A Overdue Mutiny|QID|51054|M|35.44,83.82|N|From First Mate Jamboya.|RANK|2|PRE|51053|
 C Overdue Mutiny|QID|51054|M|35.44,83.82|NC|N|Free First Mate Jamboya.|
 T Overdue Mutiny|QID|51054|M|35.31,83.20|N|To First Mate Jamboya.|
-A Monsters of Zem'lan|QID|47647|M|35.31,83.20|N|Bonus Objective - Autoaccepted.|LVL|-120|PRE|51054|
+A Monsters of Zem'lan|QID|47647|M|35.31,83.20|N|Bonus Objective - Autoaccepted.|LVL|-50|PRE|51054|
 C Monsters of Zem'lan|QID|47647|M|35.31,83.20|S|N|Bonus Objective.|
 A The Yard Arm of the Law|QID|51055|M|35.31,83.20|N|From First Mate Jamboya.|RANK|2|PRE|51054|
 A My Last Day Alive|QID|51056|M|35.31,83.20|N|From First Mate Jamboya.|RANK|2|PRE|51054|
@@ -617,7 +617,7 @@ K Emperor Korthek|ACTIVE|50550|M|52.04,27.33|QO|2|T|Emperor Korthek|N|Kill Emper
 T The Fall of Emperor Korthek|QID|50550|M|51.99,27.72|N|To Vorrik.|
 ;
 A Sanctuary Under Siege|QID|50751|M|51.99,27.72|N|From Vorrik.|PRE|50550|
-A Bonus Objective: Skycaller Shutdown|QID|50805|M|52.03,27.85|LVL|-120|N|Autoaccepted.|RANK|2|
+A Bonus Objective: Skycaller Shutdown|QID|50805|M|52.03,27.85|LVL|-50|N|Autoaccepted.|RANK|2|
 C Bonus Objective: Skycaller Shutdown|QID|50805|M|52.03,27.85|N|Kill Faithless and pickup focus items as you work your way out of Skycaller's Spire. Note you get a special action button (once you pick up a staff) that will do damage to the faithless.|
 t Skycaller Shutdown|QID|50805|M|54.39,25.26|N|Autocompleted.|
 K Warmother Captive|QID|50658|M|51.50,31.50;50.80,30.97|CS|QO|1|RARE|ITEM|161103|T|Warmother Captive|N|Silver Elite to kill for artifact power and resources.|RANK|2|
