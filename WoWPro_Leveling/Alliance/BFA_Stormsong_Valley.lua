@@ -160,7 +160,7 @@ R Tidebreak Foothills|ACTIVE|50612|M|64.75,46.56|N|Run up the hill to find Broth
 T A House Divided|QID|50612|M|63.16,43.15|N|To Brother Pike.|
 A The Storm Awakens|QID|50777|M|63.16,43.15|N|From Brother Pike.|PRE|50612|
 A Twisted Intentions|QID|50778|M|63.11,43.16|N|From Samuel Williams.|PRE|50612|
-A A Clean Slate|QID|50779|M|63.01,40.64|LVL|-120|N|Bonus objective - autoaccepted.|
+A A Clean Slate|QID|50779|M|63.01,40.64|LVL|-50|N|Bonus objective - autoaccepted.|
 C A Clean Slate|QID|50779|M|63.01,40.64|S|N|Kill mobs and click stuff as you run around to complete this bonus objective.|
 C The Storm Awakens|QID|50777|M|61.32,41.46|S|NC|N|Click on doors and friendly mobs as you go.|
 A Oathbound|QID|50780|M|60.89,41.37|N|From Tideguard Victoria.|
@@ -268,7 +268,7 @@ T The Days Are Just Packed|QID|51552|M|57.60,66.38|N|To Sergeant Calvin.|
 A Bombs, Away|QID|49744|M|57.60,66.38|N|From Sergeant Calvin.|PRE|51552|
 A You Have Their Orders|QID|49745|M|57.64,66.47|N|From Mayor Roz.|
 A Dousing the Flames|QID|49746|M|57.64,66.47|N|From Mayor Roz.|
-A The Battle for Brennadam|QID|51534|LVL|-120|M|57.55,66.32|N|Bonus objective-Autoaccepted.|RANK|2|
+A The Battle for Brennadam|QID|51534|LVL|-50|M|57.55,66.32|N|Bonus objective-Autoaccepted.|RANK|2|
 C The Battle for Brennadam|QID|51534|M|57.55,66.32|S|N|Complete the bonus objectives while here.|
 C Dousing the Flames|QID|49746|M|57.60,66.38|S|NC|N|Click on the buckets of water around the area, then use extra action button on fires. You can sometimes do 2 at once.|
 C Bombs, Away|QID|49744|M|55.17,63.41|QO|1|S|NC|N|Click on the big red bombs around, mostly next to walls. If you're fast, you can also disarm the ones which are thrown from the blimps.|
@@ -305,7 +305,7 @@ $ Strange Mushroom Ring|QID|50024|M|53.69,72.00;53.07,69.38|CS|N|At the very bot
 K Jakala the Cruel|QID|52323|QO|1|M|53.41,64.50|T|Jakala the Cruel|N|Go into the cellar. Speak with Doc Marrtens to start the event. Silver Elite to kill for loot and achievement.|RARE|ITEM|159179|RANK|2|
 R Burton Farmstead|ACTIVE|50158|M|58.16,67.69;52.27,69.64;51.78,66.25|CS|N|And we are off to check out the collapse.|RANK|-1|
 T Checking Out the Collapse|QID|50158|M|51.59,65.97|N|To Farmer Burton|
-A Weed Whacking|QID|50133|M|51.59,65.97|N|Bonus Objective - Autoaccepted.|LVL|-120|RANK|2|
+A Weed Whacking|QID|50133|M|51.59,65.97|N|Bonus Objective - Autoaccepted.|LVL|-50|RANK|2|
 A Gadgets and Gizmos Aplenty|QID|50134|M|51.59,65.97|N|From Farmer Burton.|PRE|50158|
 A Stop Vining!|QID|50135|M|51.59,65.97|N|From Farmer Burton.|PRE|50158|
 C Weed Whacking|QID|50133|M|51.59,65.97|S|N|Complete the bonus objective while here.|
