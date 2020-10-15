@@ -862,9 +862,9 @@ function WoWPro.ParseSteps(steps)
                 -- deleting leading/trailing whitespace and then canonicalize the case
                 faction = faction:trim():upper()
             end
-
+			
 			for index,value in pairs(WoWPro.playerGroup) do
-				if (tostring(value["class"]) == class) and (tostring(value["class"]) ~= myclass) then
+				if (WoWPro.SemiMatch(class, tostring(value["class"]))) and (tostring(value["class"]) ~= myclass) then
 					class = nil
 				end
 				if (tostring(value["race"]) == race) and (tostring(value["race"]) ~= myrace) then
