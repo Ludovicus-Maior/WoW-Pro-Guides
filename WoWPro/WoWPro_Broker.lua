@@ -2394,7 +2394,7 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
 			if WoWPro.playerclass and WoWPro.playerclass[guideIndex] then
 				local _, myclass = _G.UnitClass("player")
-				
+
 				if not WoWPro.SemiMatch(WoWPro.playerclass[guideIndex]:gsub(" ", ""):upper(),myclass) and (stepAction == "A" or stepAction == "T") then
 					WoWPro.CompleteStep(guideIndex, "NextStep(): You are not playing a " .. WoWPro.playerclass[guideIndex] .. ".")
 					 skip = true
