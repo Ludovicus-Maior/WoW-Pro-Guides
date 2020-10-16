@@ -3,6 +3,7 @@ WoWPro:GuideSort(guide, 28)
 WoWPro:GuideNextGuide(guide, 'JiyAra2530')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 R Southpoint Gate |QID|28096|N|Head to Southpoint Gate in Hillsbrad Foothills. This is on the road east of Silverpine Forest.|M|29.23,63.35|
 f Southpoint Gate|QID|28096|N|Get the flightpoint with Pamela Stutzka|M|29.14,64.42|
 T Empire of Dirt|QID|27746|M|29.23,63.35|N|To High Executor Darthalia.|O|

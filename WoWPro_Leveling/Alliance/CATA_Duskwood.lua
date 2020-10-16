@@ -6,6 +6,7 @@ WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return
 [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 A Hero's Call: Duskwood!|QID|28564|M|62.9,71.7|Z|Stormwind City|N|From the Hero's Call Board. Select Duskwood.|
 T Hero's Call: Duskwood!|QID|28564|M|73.57,46.90|N|To Commander Althea Ebonlocke. Just follow the road all the way to Darkshire.|
 A Wolves at Our Heels|QID|26618|M|73.72,46.89|N|To Commander Althea Ebonlocke.|

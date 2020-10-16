@@ -3,6 +3,7 @@ WoWPro:GuideSort(guide, 42)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 R Stardust Spire |QID|13979|N|You start off Stonetalon Mountains from Stardust Spire, Ashenvale.  This is south of Astranaar.\n\nThere is a breadcrumb Hero's Call from The Exodar and Darnassus, otherwise this guide comes off the Ashenvale guide (there are four quests overlap that should be picked up by the guide).\n\nYou will be performing a few quests in Astranaar before heading to Stonetalon Mountains, this is the only way to get a lot of the Stonetalon Quests.|M|35.25,71.50|Z|Ashenvale|
 A The Goblin Braintrust|QID|13979|M|35.07,71.55|N|From Huntress Jalin.|S|Z|Ashenvale|
 A They Took Our Gnomes|QID|13913|M|35.13,71.69|N|From Huntress Jalin.|S|Z|Ashenvale|

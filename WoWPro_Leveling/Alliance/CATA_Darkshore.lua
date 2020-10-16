@@ -3,6 +3,7 @@ WoWPro:GuideSort(guide, 12)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 R Lor'danel |QID|13518|N|This guide starts from Lor'danel, which can be reached by Flightpoint from Darnassus and Exodar.  The breadcrumb quest is Breaking Waves of Change from The Howling Oak in Darnassus, or Hero's Call: Darkshore! from Darnassus.|R|Worgen|
 R Lor'danel |QID|13518|N|This guide starts from Lor'danel, which can be reached by Flightpoint from Darnassus and Exodar.  The breadcrumb quest is Breaking Waves of Change from The Temple of the Moon in Darnassus, or Hero's Call: Darkshore! from Darnassus.|R|Human,Gnome,Draenei,Dwarf,Night Elf|
 T Breaking Waves of Change |QID|26385|M|51.80,18.10|N|To Dentaria Silverglade.|O|R|Worgen|

@@ -5,6 +5,8 @@ WoWPro:GuideName(guide,"Netherstorm")
 WoWPro:GuideNextGuide(guide, 'Chromie Time')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|FACTION|Alliance|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|FACTION|Horde|
 A Assist Exarch Orelis|QID|11038|LEAD|10241|M|47.44,26.61|Z|Shattrath City|N|From Vindicator Aeus.|REP|Aldor;932|
 A Report to Spymaster Thalodien|QID|11039|LEAD|10189|M|44.77,76.29|Z|Shattrath City|N|From Arcanist Savan.|REP|Scryers;934|
 F Evergrove|QID|10265|M|63.98,41.12|Z|Shattrath City|N|Fly to Evergrove, or the closest flightpoint to Netherstorm you have.|

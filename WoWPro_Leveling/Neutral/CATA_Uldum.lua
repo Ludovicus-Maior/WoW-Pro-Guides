@@ -5,6 +5,8 @@ WoWPro:GuideName(guide,"Uldum")
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|FACTION|Alliance|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|FACTION|Horde|
 A Hero's Call: Uldum!|QID|28558|M|63,71.7|Z|Stormwind City|N|From the Hero's Call Board. Select Uldum.\n\nYou might have to accept others before it will display this one.|FACTION|Alliance|
 P Uldum|QID|28558|M|75.25,20.53|Z|Stormwind City|N|Take the Portal to Uldum.|FACTION|Alliance|
 T Hero's Call: Uldum!|QID|28558|M|30.52,65.58|Z|Tanaris|N|Mount up and fly to Tanaris to turn in to Adarrah.|

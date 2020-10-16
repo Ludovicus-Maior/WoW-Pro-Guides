@@ -5,6 +5,7 @@ WoWPro:GuideName(guide,"Nagrand")
 WoWPro:GuideNextGuide(guide, "Blade's Edge Mountains")
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 R Nagrand |QID|10109|N|Start from Shattrath City. Head out of the city, then ride south to Nagrand, the entrance is about .|Z|Terokkar Forest|M|20,56|
 N Mag'har Reputation|QID|9410|N|You MUST have completed the quest chain of "The Assassin" in Hellfire Peninsula, up until the quest A Spirit Guide before starting this guide.|
 N A Head Full of Ivory |QID|9914|N|Kill and loot only "Wild Elekks". Keep any Pairs of Ivory Tusks you find.|L|25463 3|S|REP|The Consortium;933;Neutral|T|Wild Elekk|

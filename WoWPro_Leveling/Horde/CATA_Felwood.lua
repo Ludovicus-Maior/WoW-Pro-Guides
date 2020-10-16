@@ -3,6 +3,7 @@ WoWPro:GuideSort(guide, 22)
 WoWPro:GuideNextGuide(guide, 'JiyWin5055')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 R Emerald Sanctuary|QID|27997|M|51.1,80.5|N|In Felwood.|
 T Warchief's Command: Felwood!|QID|28542|O|M|51.1,80.5|N|To Tenell Leafrunner.|
 A The Corruption of the Jadefire|QID|27997|M|51.12,80.51|N|From Tenell Leafrunner.|

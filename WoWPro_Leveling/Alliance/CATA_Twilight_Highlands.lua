@@ -5,6 +5,7 @@ WoWPro:GuideName(guide,"Twilight Highlands")
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 A Hero's Call: Twilight Highlands!|QID|28716|LEAD|28238|M|62.28,29.80|Z|Stormwind City|N|From the Hero's Call Board. Select Twilight Highlands.\n\nYou might have to accept others before it will display this one.|
 T Hero's Call: Twilight Highlands!|QID|28716|M|85.62,31.93|N|To King Anduin Wrynn.|Z|Stormwind City|
 ;P Twilight Highlands|QID|28238|M|75.36,16.42|Z|Stormwind City|N|Take the Portal to Twilight Highlands.|

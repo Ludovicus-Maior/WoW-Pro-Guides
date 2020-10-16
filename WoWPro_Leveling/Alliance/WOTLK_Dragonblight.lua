@@ -5,6 +5,7 @@ WoWPro:GuideName(guide,"Dragonblight")
 WoWPro:GuideNextGuide(guide, "Grizzly Hills")
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 N Note|QID|12174^12298|N|If you followed my previous guides, you should be in Wintergarde Keep, Dragonblight and have the following quest: High Commander Halford Wyrmbane If you don't have it, just ignore this quest, it's not a big deal, you can get the follow up anyway. Let's get started!|
 N Warning!|QID|12174^12298|N|Throughout this whole chapter, do NOT get the quest [The Hills Have Us]. If you take it, this will fly you to Grizzly Hills and will make you waste a lot of time.|
 T High Commander Halford Wyrmbane|QID|12174^12298|LEAD|12235|N|To High Commander Halford Wyrmbane.|M|78.58,48.26|

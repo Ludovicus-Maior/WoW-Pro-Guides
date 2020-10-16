@@ -5,6 +5,8 @@ WoWPro:GuideName(guide,"Zul'Drak")
 WoWPro:GuideNextGuide(guide, "Sholazar Basin")
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|FACTION|Alliance|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|FACTION|Horde|
 N READ THIS!|QID|12902|N|If you followed Jame's Dragonblight guide you have the quest Into the Breach!, which will be the first quest in the Achievement, but you will have to make your own way to Light's Breach.|
 N READ THIS 2!|QID|12902|N|Otherwise you can do the optional quest that starts at Westfall Brigade Encampment in Grizzly Hills, it will fly you there, but doesn't count toward the Achievement.|FACTION|Alliance|
 N READ THIS 3!|QID|12902|N|To do the optional quest abandon Into the Breach! and get Reallocating Resources from Captain Gryan Stoutmantle.|FACTION|Alliance|
