@@ -3,6 +3,7 @@ WoWPro:GuideSort(guide, 8)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 H Iron Summit|QID|28514|N|Hearth back to Iron Summit, or fly if your hearth is on cooldown.|
 R Blackrock Mountain|QID|28514|M|33.49,74.91|Z|Searing Gorge|N|Run to the waypoint.|
 R Burning Steppes|QID|28514|M|19.61,24.26;17.42,29.28;19.74,34.51|CS|N|Run through Blackrock Mountain to Burning Steppes.|

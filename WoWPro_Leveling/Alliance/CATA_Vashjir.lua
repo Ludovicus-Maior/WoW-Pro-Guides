@@ -5,6 +5,7 @@ WoWPro:GuideName(guide,"Vashj'ir")
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 R Stormwind City|QID|28825|M|74.5,19.2|Z|Stormwind City|N|Head to Stormwind City by any means possible.|
 A Hero's Call: Vashj'ir!|QID|27724|M|62.9,71.7|Z|Stormwind City|N|From the Hero's Call Board. Select Mount Hyjal Vashj'ir.|
 T Hero's Call: Vashj'ir!|QID|27724|M|27.4,24.3|Z|Stormwind City|N|To Recruiter Burns.|

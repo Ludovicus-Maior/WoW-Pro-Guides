@@ -6,6 +6,7 @@ WoWPro:GuideNextGuide(guide, "Zangarmarsh")
 WoWPro:GuideQuestTriggers(guide,10119,28708)
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 A To Outland!|QID|60120|M|56.26,17.31|Z|Stormwind City|N|From Chromie after activating Burning Crusade timeline.|
 R Blasted Lands|QID|60120|N|At the Honor Hold Mage in the Wizard's Sanctum.|Z|Stormwind City|M|49.12,87.34|
 B Nethergarde Bitter|AVAILABLE|9563|L|23848 1|N|Buy a Nethergarde Bitter from Bernie Heisten in Nethergarde Keep. Yeah, I know, it is annoying to get now.\n\nIf you don't care skipping the 2 quests that this affects or don't mind coming back here later, go ahead and skip this now.|M|59.40,14.89|Z|Blasted Lands|

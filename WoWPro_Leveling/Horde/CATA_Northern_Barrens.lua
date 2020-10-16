@@ -3,6 +3,7 @@ WoWPro:GuideSort(guide, 32)
 WoWPro:GuideNextGuide(guide, 'BitAsh2025')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 N The Northern Barrens|QID|844|N|There are two lead in quests: "Warchief's Command" from the bulliten board in any capital city or "Conscript of the Horde" from Razor Hill.|
 A Plainstrider Menace|QID|844|M|67.41,38.77|RANK|1|N|From Halga Bloodeye.|
 T Warchief's Command: Northern Barrens!|QID|28494|M|67.67,39.39|O|N|To Kargal Battlescar.|

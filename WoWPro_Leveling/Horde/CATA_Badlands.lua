@@ -3,6 +3,7 @@ WoWPro:GuideSort(guide, 8)
 WoWPro:GuideNextGuide(guide, 'CraSea4850')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 A To Fuselight Proper|QID|27763|LEAD|27774|M|92.77,38.90|N|From Eddie Flofizzle.|
 T To Fuselight Proper|QID|27763|M|88.37,32.67;65.11,38.29|CC|N|To Dolph Blastus.|
 A Easily Swayed|QID|27774|M|65.11,38.29|N|From Dolph Blastus.|

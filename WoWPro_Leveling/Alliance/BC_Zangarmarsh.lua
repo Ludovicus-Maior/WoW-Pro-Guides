@@ -5,6 +5,7 @@ WoWPro:GuideName(guide,"Zangarmarsh")
 WoWPro:GuideNextGuide(guide, "Terokkar Forest")
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 R Zangarmarsh|AVAILABLE|9777|N|Go to Zangarmarsh.|M|82.9,65.08|
 N README 1|AVAILABLE|9777|N|Fertile Spores/nSporebats, Greater Sporebats, Marsh Walkers and Fen Striders drop Fertile Spores, these will open up daily Sporreggar reputation quests so don't sell them.|
 N README 2|AVAILABLE|9777|N|Bog Lord Tendrils/nBog Lords and Withered Giants will drop Bog Lord Tendrils that'll open up more Sporreggar reputation dailies, so don't sell these either.|

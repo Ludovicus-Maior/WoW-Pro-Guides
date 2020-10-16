@@ -3,6 +3,7 @@ WoWPro:GuideSort(guide, 44)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 A Maliciously Delicious|QID|27587|M|73.07,14.74|N|From Trade Baron Silversnap.|
 f Bogpaddle|QID|27587|M|72.09,12.05|N|At Skeezie.|
 h Bogpaddle|QID|27587|M|71.75,13.98|N|At Cap'n Geech.|

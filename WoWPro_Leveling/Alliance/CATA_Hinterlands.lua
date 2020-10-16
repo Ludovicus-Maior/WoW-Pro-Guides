@@ -3,6 +3,7 @@ WoWPro:GuideSort(guide, 26)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 R The Hinterlands|QID|26546|M|43.36,45.18;36.71,31.15;38.45,22.89;39.32,19.03|Z|Arathi Highlands|CN|N|Follow the waypoints to The Hinterlands.\n\nFor players up to level 33 only, there is a bread-crumb quest from Ironforge Hero's Callboard or from Captain Nials in Aerie Peak.|
 R Aerie Peak|QID|26546|M|26.29,69.07;26.21,55.04;20.13,53.66;14.17,48.03|CN|N|Follow the waypoints to Aerie Peak.|
 f Aerie Peak|QID|26546|M|12.9,48.3;11.36,49.09;12.17,47.29;11.17,46.06|CN|N|At Guthrum Thunderfist.|

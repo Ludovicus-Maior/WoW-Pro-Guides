@@ -3,6 +3,7 @@ WoWPro:GuideSort(guide, 22)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 N Note|AVAILABLE|28100|N|This guide starts in Darnassus. If you want to skip this step feel free to do so.|
 A Hero's Call: Felwood!|QID|28543|LEAD|27997|M|45.19,50.01|Z|Darnassus|N|From the Hero's Call Board. Will not appear if your level is too high.|
 F Forrest Song|QID|28100|N|in Ashenvale. If you should happen to have Emerald Sanctuary go there instead and skip this and the next step.|

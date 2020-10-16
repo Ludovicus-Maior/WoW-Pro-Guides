@@ -6,6 +6,7 @@ WoWPro:GuideNextGuide(guide, "Zangarmarsh")
 WoWPro:GuideQuestTriggers(guide,9407,28705)
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 A To Outland!|QID|60123|M|40.82,80.15|Z|Orgrimmar|N|From Chromie after activating Burning Crusade timeline.|
 R Blasted Lands|QID|60123|N|At the Thrallmar Mage in the Pathfinder's Den.|Z|Orgrimmar|M|56.93,88.31|
 C To Outland!|QID|60123|M|55.01,54.35|Z|Blasted Lands|N|Go through the portal to Hellfire Peninsula.|
