@@ -283,7 +283,9 @@ function WoWPro:CreateLootsButton(parent, id)
         self.ID = ID
         local name, texture, _
         if ID and ID:len() > 1 and ID:sub(1,1) == "$" then
-            name, _, texture = _G.GetCurrencyInfo(tonumber(ID:sub(2)))
+            local result = _G.C_CurrencyInfo.GetCurrencyInfo(tonumber(ID:sub(2)))
+            name = result['name']
+            texture = result['iconFileID']
         elseif tonumber(ID) then
             name, _, _, _, _, _, _, _, _, texture = _G.GetItemInfo(tonumber(ID))
         end
