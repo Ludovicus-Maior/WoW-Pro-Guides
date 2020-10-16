@@ -332,12 +332,12 @@ function WoWPro:OnInitialize()
     WoWProDB.global.QuestEngineDelay = WoWProDB.global.QuestEngineDelay or 0.25
 
     WoWProCharDB.EnableGrail = nil
-    WoWProCharDB.EnableGrailQuestline = WoWProCharDB.EnableGrailQuestline or true
+    WoWProCharDB.EnableGrailQuestline = WoWProCharDB.EnableGrailQuestline or false
     WoWProCharDB.EnableGrailCheckPrereq = WoWProCharDB.EnableGrailCheckPrereq or false
     WoWProCharDB.EnableGrailBreadcrumbs = WoWProCharDB.EnableGrailBreadcrumbs or false
     WoWProCharDB.EnableGrailQuestName = WoWProCharDB.EnableGrailQuestName or false
     WoWProCharDB.EnableGrailQuestLevel = WoWProCharDB.EnableGrailQuestLevel or false
-    WoWProCharDB.EnableGrailQuestObsolete = WoWProCharDB.EnableGrailQuestObsolete or true
+    WoWProCharDB.EnableGrailQuestObsolete = WoWProCharDB.EnableGrailQuestObsolete or false
 
     WoWProCharDB.Trades  = WoWProCharDB.Trades or {}
     WoWProCharDB.GuideStack  = WoWProCharDB.GuideStack or {}
