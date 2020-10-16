@@ -5,6 +5,7 @@ WoWPro:GuideName(guide,"Gorgrond")
 WoWPro:GuideNextGuide(guide, 'Talador')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 F Wildwood Wash|QID|33533|N|Fly to Wildwood Wash in Gorgrond.|ACTIVE|33533|M|48.10,49.80|Z|Lunarfall|
 T The Secrets of Gorgrond|QID|33533|N|To Yrel|O|ACTIVE|33533|M|63.99,57.19|
 F Wildwood Wash|QID|36632|N|Fly to Wildwood Wash in Gorgrond.|ACTIVE|36632|M|48.10,49.80|Z|Lunarfall|

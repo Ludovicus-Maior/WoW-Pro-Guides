@@ -7,6 +7,8 @@ WoWPro:GuideNextGuide(guide, "ChromieTime|JiyBla5560")
 WoWPro:GuideClassSpecific(guide,"DeathKnight")
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|FACTION|Alliance|
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|FACTION|Horde|
 ; Neutral Fealty
 A Death's Power Grows|QID|58877|M|49.57,90.71|N|From The Lich King.|
 C Death's Power Grows|QID|58877|M|49.34,90.72|QO|1|N|Use the "[color=40C7EB]Swear Fealty[/color]" button, to swear allegiance.|EAB|

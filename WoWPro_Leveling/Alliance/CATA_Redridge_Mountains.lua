@@ -3,6 +3,7 @@ WoWPro:GuideSort(guide, 32)
 WoWPro:GuideNextGuide(guide, 'Cataclysm: Guide Hub')
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 R Redridge Mountains|QID|26503|M|96.68,72.33|Z|Elwynn Forest|N|Head to Redridge Mountains, to the east of Elwynn Forest.  You can fly to Eastvale Logging Camp, then run east along the road.\n\nThe two breadcrumb quests to this zone are [Threat to the Kingdom] from Marshal Gryan Stoutmantle in Sentinel Hill for those who quested in Westfall, and [Hero's Call: Redridge Mountains!] available from both Hero's Callboards in Stormwind City, as well as from King Anduin Wrynn. |
 A WANTED: Redridge Gnolls|QID|26504|M|16.15,64.54|N|From the Wanted Poster board.|RANK|2|
 A Franks and Beans|QID|26506|M|15.67,65.28|N|From Darcy Parker.|RANK|2|

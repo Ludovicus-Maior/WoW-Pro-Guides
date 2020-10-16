@@ -3,6 +3,7 @@ WoWPro:GuideSort(guide, 26)
 WoWPro:GuideNextGuide(guide, "AyaHil2025")
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 ;This step will not show if you have completed A Somber Task as part of the Eversong Woods guide
 ;as you'll be closer to quest ender, and will already be carrying the two quests.
 N Fair Warning|N|This guide is out of date with current changes in Ghostlands and needs serious work. Use at your own risk.|

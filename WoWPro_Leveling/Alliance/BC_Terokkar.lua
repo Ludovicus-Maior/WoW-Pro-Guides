@@ -5,6 +5,7 @@ WoWPro:GuideName(guide,"Terokkar Forest")
 WoWPro:GuideNextGuide(guide, "Nagrand BC")
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|
 F Shattrath City|QID|10211|N|Fly to Shattrath City.|M|41.28,28.98|Z|Zangarmarsh|
 A A'dal|Z|Shattrath City|QID|10210|M|59.70,41.45|N|From Haggard War Veteran.|
 T A'dal|Z|Shattrath City|QID|10210|M|54.0,44.8|N|To A'dal.|

@@ -5,6 +5,7 @@ WoWPro:GuideName(guide,"Zangarmarsh")
 WoWPro:GuideNextGuide(guide, "Terokkar Forest")
 WoWPro:GuideSteps(guide, function()
 return [[
+N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|
 F Swamprat Post|QID|9770|N|Fly to Swamprat Post.|
 N Things to do: Zangarmarsh |QID|9770|N|Being in melee range of sporebats when they die gives you a 5 minute +30 to all stats buff. Keep your Fertile Spores and Unidentified Plant Parts, they'll be part of a hand-in.|
 A Uncatalogued Species|QID|9875|O|N|(UI Alert?)|
