@@ -272,7 +272,7 @@ A The Battle for Brennadam|QID|51534|LVL|-50|M|57.55,66.32|N|Bonus objective-Aut
 C The Battle for Brennadam|QID|51534|M|57.55,66.32|S|N|Complete the bonus objectives while here.|
 C Dousing the Flames|QID|49746|M|57.60,66.38|S|NC|N|Click on the buckets of water around the area, then use extra action button on fires. You can sometimes do 2 at once.|
 C Bombs, Away|QID|49744|M|55.17,63.41|QO|1|S|NC|N|Click on the big red bombs around, mostly next to walls. If you're fast, you can also disarm the ones which are thrown from the blimps.|
-$ Disgarded Lunchbox|QID|52326|M|58.21,63.68|N|Inside the building, reached by jumping up the boxes and barrels onto the ledge. (Yes, even a gnome can do it.) The box goes into your bags. Open it for the treasure.|
+$ Disgarded Lunchbox|QID|52326|M|58.21,63.68|N|Inside the building, reached by jumping up the boxes and barrels onto the ledge. (Yes, even a gnome can do it.) The box goes into your bags. Open it for the treasure.|RANK|2|
 K Champion Lockjaw|ACTIVE|49745|M|54.38,61.23|QO|1|T|Champion Lockjaw|N|Kill and loot the Champion.|
 C Bombs, Away|QID|49744|M|55.17,63.41|QO|1|US|NC|N|Click on the big red bombs around, mostly next to walls. If you're fast, you can also disarm the ones which are thrown from the blimps.|
 C Dousing the Flames|QID|49746|M|57.60,66.38|US|NC|N|Finish up the fires.|
@@ -283,7 +283,7 @@ T Bombs, Away|QID|49744|M|57.60,66.38|N|To Sergeant Calvin.|
 T You Have Their Orders|QID|49745|M|57.64,66.47|N|To Mayor Roz.|
 T Dousing the Flames|QID|49746|M|57.64,66.47|N|To Mayor Roz.|
 A Heavy Artillery|QID|49755|M|57.63,66.48|N|From Mayor Roz.|PRE|49745&49746&49744|
-$ Legends of the Tidesages|ACH|13051;2|M|59.02,59.54|N|Run up the hill to find another Tidesage scroll before you beat on the engineers.|
+$ Legends of the Tidesages|ACH|13051;2|M|59.02,59.54|N|Run up the hill to find another Tidesage scroll before you beat on the engineers.|RANK|2|
 C Heavy Artillery|QID|49755|M|57.73,61.41;56.12,58.37|CS|QO|1|N|Up the hill. Kill the Engineers, and Wormwood hops out of the tank. Kill him, too.|
 C Heavy Artillery|QID|49755|M|56.12,58.37|QO|2|N|Destroy the forces with your 1st ability.  DO NOT use ability 4 until you finish with horde forces.|
 C Heavy Artillery|QID|49755|M|56.12,58.37|N|NOW you can use ability #4.  You can steer your parachute and land close to Mayor Roz. |
@@ -349,7 +349,7 @@ C Golden Fields Forever|QID|50088|M|51.59,75.17|NC|N|Pick carnations here, on th
 T Golden Fields Forever|QID|50088|M|50.67,77.03|N|To Goldfield by the grave.|
 A Deal's Off|QID|50622|M|50.67,77.03|N|From Farmer Goldfield. Get this quest right away. If you DC or wait too long Farmer Goldfield may disappear and you will have to ride to Farmer Burton to pick up this quest.|PRE|50088|
 K The Lichen King|QID|50974|QO|1|M|51.78,79.05|T|The Lichen King|RARE|ITEM|155222|N|Silver Elite to kill for loot and achievement.|RANK|2|
-$ Legends of the Tidesages|ACH|13051;1|M|47.47,79.97;49.51,80.90|CS|N|SW of Brennadam, Near the next-to-top level of waterfalls.|RANK|3|
+$ Legends of the Tidesages|ACH|13051;1|M|47.47,79.97;49.51,80.90|CS|N|SW of Brennadam, Near the next-to-top level of waterfalls.|RANK|2|
 $ Frosty Treasure Chest|QID|50526|M|47.47,79.97;48.98,84.10|CS|N|location of chest is said to be not always exactly the same, but all agree around this small lake. Top level of mountain waterfalls.|RANK|3|
 R Deal Farmstead|ACTIVE|50622|M|45.37,62.71|N|Off to visit the neighbors in the next farm over.|
 T Deal's Off|QID|50622|M|44.76,64.53|N|To Mayor Roz in the house.|
@@ -585,7 +585,7 @@ C Swimming Lessons|QID|51343|M|38.71,39.34|QO|1|NC|N|Inside the cave.|
 K Seabreaker Skoloth|QID|51759^51757|QO|1|M|33.64,37.93|T|Seabreaker Skoloth|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|160477|RANK|2|;I think there's a time later in the guide when you're standing right next to this guy, anyway. It would be more efficient to kill him then.
 C Swimming Lessons|QID|51343|M|34.35,36.41|QO|2|NC|N|On the island.|
 K Sabertron|QID|51978^51956|QO|1|M|34.91,32.58|T|Sabertron|N|Inside the cave. Silver Elite to kill for loot and achievement.|RARE|ITEM|154664|RANK|2|
-$ Legends of the Tidesages|ACH|13051;4|M|35.46,32.52;33.81,33.23|CS|N|Run up above Sabertron's cave.|
+$ Legends of the Tidesages|ACH|13051;4|M|35.46,32.52;33.81,33.23|CS|N|Run up above Sabertron's cave.|RANK|2|
 C Don't Play with Matches|QID|51352|M|39.69,41.30|US|N|Finish up with mobs.|
 C Cleaning Bills|QID|51339|M|39.69,41.30|US|NC|N|Finish up with the birds.|
 T Don't Play with Matches|QID|51352|M|40.21,37.65|N|To Toki.|
