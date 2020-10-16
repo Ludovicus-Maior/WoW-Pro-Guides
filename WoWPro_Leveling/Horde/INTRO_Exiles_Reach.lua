@@ -14,7 +14,7 @@ T Stand Your Ground|QID|59927|Z|The North Sea#1727!Instance|N|To Grunt Throg.|
 A Brace for Impact|QID|59928|Z|The North Sea#1727!Instance|N|From Grunt Throg.|PRE|59927|
 T Brace for Impact|QID|59928|Z|The North Sea#1727!Instance|N|To Warlord Breka Grimaxe.|
 A Murloc Mania|QID|59929|M|61.87,82.89|N|From Warlord Breka Grimaxe.|PRE|59928|
-C Murloc Mania|QID|59929|M|59.98,79.91|N|Kill Murlocks in the area and loot First Aid Kits from their corpses.|
+C Murloc Mania|QID|59929|M|59.98,79.91|N|Kill Murlocs in the area and loot First Aid Kits from their corpses.|
 T Murloc Mania|QID|59929|M|61.87,82.88|N|To Warlord Breka Grimaxe.|
 A Emergency First Aid|QID|59930|M|61.87,82.88|N|From Warlord Breka Grimaxe.|PRE|59929|
 C Emergency First Aid|QID|59930|M|61.73,83.46|NC|QO|2|N|Target Bo and apply the First Aid Kit.|U|168410|
@@ -29,12 +29,12 @@ C Cooking Meat|QID|59932|M|58.33,74.59|NC|QO|2|N|Click on the campfire to cook t
 T Cooking Meat|QID|59932|M|58.36,74.48|N|To Won'sa.|
 A Enhanced Combat Tactics|QID|59933|M|58.38,74.64|N|From Warlord Breka Grimaxe.|PRE|59932|C|Warrior,Shaman,Warlock,Paladin,Druid,Mage,Priest,Rogue|
 A Enhanced Combat Tactics|QID|59934|M|58.38,74.64|N|From Warlord Breka Grimaxe.|PRE|59932|C|Monk|
-C Enhanced Combat Tactics|QID|59933|M|58.38,74.64|N|Spar with Warlord Breka Grimaxe.|
-C Enhanced Combat Tactics|QID|59934|M|58.38,74.64|N|Spar with Warlord Breka Grimaxe.|
+C Enhanced Combat Tactics|QID|59933|M|58.19,72.95|QO|1|N|Spar with Warlord Breka Grimaxe. Breka will tell you which ability to use.|
+C Enhanced Combat Tactics|QID|59934|M|58.19,72.95|QO|1|N|Spar with Warlord Breka Grimaxe. Breka will tell you which ability to use.|
 T Enhanced Combat Tactics|QID|59933|M|58.38,74.64|N|To Warlord Breka Grimaxe.|
 T Enhanced Combat Tactics|QID|59934|M|58.38,74.64|N|To Warlord Breka Grimaxe.|
 A Northbound|QID|59935|M|58.36,74.48|N|From Won'sa.|PRE|59932|
-$ Abandonded Treasure Chest|QID|58882|M|57.05,68.40|N|Loot the treasure chest.|
+$ Abandoned Treasure Chest|QID|58882|M|57.05,68.40|N|Loot the treasure chest.|
 T Northbound|QID|59935|M|62.72,69.85|N|To Mithdran Dawntracker.|
 A Taming the Wilds|QID|59937|M|62.72,69.85|N|From Mithdran Dawntracker.|PRE|59935|C|Hunter|
 C Taming the Wilds|QID|59937|M|62.72,69.85|NC|QO|1|N|Wait a second to learn Tame Beast from Mithdran.|
@@ -42,26 +42,26 @@ C Taming the Wilds|QID|59937|M|62.93,68.49|QO|2|N|Pick an animal to tame for you
 T Taming the Wilds|QID|59937|M|62.71,69.86|N|To Mithdran Dawntracker.|
 A Down with the Quilboar|QID|59938|M|62.71,69.86|N|From Mithdran Dawntracker.|PRE|59935|
 A Forbidden Quilboar Necromancy|QID|59939|M|62.71,69.86|N|From Mithdran Dawntracker.|PRE|59935|
-C Forbidden Quilboar Necromancy|QID|59939|M|61.51,62.91|N|Kill Quilboar in the area.|S|
+C Forbidden Quilboar Necromancy|QID|59939|M|61.51,62.91|QO|1|N|Kill Quilboar in the area.|S|
 K Ogre Overseer|QID|56051|M|60.52,59.86|RARE|T|Ogre Overseer|N|Silver Elite to kill and loot.|
-C Down with the Quilboar|QID|59938|M|58.86,63.03|N|Kill Geolord Grek'og.|
+C Down with the Quilboar|QID|59938|M|58.86,63.03|QO|1|N|Kill Geolord Grek'og.|
 $ Quilboar Treasures|QID|56579|M|58.52,59.30|N|Loot the treasure chest.|
-C Forbidden Quilboar Necromancy|QID|59939|M|61.51,62.91|N|Wrap up the Quilboar massacre.|US|
+C Forbidden Quilboar Necromancy|QID|59939|M|61.51,62.91|QO|1|N|Wrap up the Quilboar massacre.|US|
 T Forbidden Quilboar Necromancy|QID|59939|M|56.26,59.17|N|To Mithdran Dawntracker.|
 T Down with the Quilboar|QID|59938|M|56.16,59.13|N|To Cork Fizzlepop.|
-A The Choppy Booster Mk 5|QID|59940|M|56.16,59.13|N|From Cork Fizzlepop.|PRE|59938&59939|
-C The Choppy Booster Mk 5|QID|59940|M|56.06,58.79|NC|N|Click the Choppy Booster Mk 5, sit back and watch the cutscene.|
-T The Choppy Booster Mk 5|QID|59940|M|56.17,59.13|N|To Cork Fizzlepop.|
+A The Choppy Booster Mk. 5|QID|59940|M|56.16,59.13|N|From Cork Fizzlepop.|PRE|59938&59939|
+C The Choppy Booster Mk. 5|QID|59940|M|56.06,58.79|QO|1|N|Click the Choppy Booster Mk. 5, sit back and watch the cutscene.|NC|
+T The Choppy Booster Mk. 5|QID|59940|M|56.17,59.13|N|To Cork Fizzlepop.|
 A Re-sizing the Situation|QID|59941|M|56.17,59.13|N|From Cork Fizzlepop.|PRE|59940|
-C Re-sizing the Situation|QID|59941|M|55.98,57.96|U|178051|NC|N|Use the Re-Sizer v9.0.1 on Wandering Boars in the area.|
+C Re-sizing the Situation|QID|59941|M|55.98,57.96|QO|1|N|Use the Re-Sizer v9.0.1 on Wandering Boars in the area.|U|178051|NC|
 T Re-sizing the Situation|QID|59941|M|56.25,59.03|N|To Warlord Breka Grimaxe.|
 A The Re-Deather|QID|59942|M|56.17,59.13|N|From Cork Fizzlepop.|PRE|59941|
-C The Re-Deather|QID|59942|M|56.03,58.78|QO|1|NC|N|Click on the Choppy Booster Mk 5 to go for a ride.|
+C The Re-Deather|QID|59942|M|56.03,58.78|QO|1|N|Click on the Choppy Booster MK. 5 to go for a ride.|NC|
 C The Re-Deather|QID|59942|M|56.03,58.78|QO|2|N|Use action key '1' and target the Monstrous Cadavers.|
 C The Re-Deather|QID|59942|M|50.95,52.78|QO|3|N|Go put an end to Torgok's life.|
 T The Re-Deather|QID|59942|M|52.60,53.34|N|To Shuja Grimaxe.|
 A Stocking Up on Supplies|QID|59950|M|52.17,55.34|N|From Warlord Breka Grimaxe.|PRE|59942|
-C Stocking Up on Supplies|QID|59950|M|52.44,55.65|NC|N|You need to buy and sell at least 1 item from/to Provisioner Jin'hake.|
+C Stocking Up on Supplies|QID|59950|M|52.44,55.65|N|You need to buy and sell at least 1 item from and to Provisioner Jin'hake.|NC|
 T Stocking Up on Supplies|QID|59950|M|52.17,55.34|N|To Warlord Breka Grimaxe.|
 A A Rogue's End|QID|59967|M|52.03,55.45|N|From Grunt Throg.|PRE|59950|C|Rogue|
 C A Rogue's End|QID|59967|M|45.65,56.13|CHAT|QO|1|N|Stealth and find Drizza Sidestabber.|C|Rogue|
