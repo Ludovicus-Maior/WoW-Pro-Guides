@@ -804,6 +804,7 @@ end
 -- Select a fashionable Hearthstone
 local Stones = {
     [6948] = "Hearthstone",
+	[40582] = "Scourgestone",
     [142298] = "Astonishingly Scarlet Slippers",
     [28585] = "Ruby Slippers",
     [166747] = "Brewfest Reveler's Hearthstone",
@@ -1098,6 +1099,7 @@ function WoWPro:RowUpdate(offset)
         elseif use and _G.GetItemInfo(use) then
 			currentRow.itemicon.item_IsVisible = nil
 			currentRow.itemcooldown.OnCooldown = nil
+			currentRow.itemcooldown.ActiveItem = nil
             currentRow.itembutton:Show()
 			currentRow.itemicon.currentTexture = nil
             currentRow.itembutton:SetAttribute("type1", "item")
@@ -1121,9 +1123,14 @@ function WoWPro:RowUpdate(offset)
                     currentRow.itemcooldown:Show()
                     currentRow.itemcooldown:SetCooldown(start, duration)
 					currentRow.itemcooldown.OnCooldown = true
+					currentRow.itemcooldown.ActiveItem = use
                 elseif currentRow.itemcooldown.OnCooldown and duration == 0 then
                     currentRow.itemcooldown:Hide()
 					currentRow.itemcooldown.OnCooldown = false
+				elseif currentRow.itemcooldown.ActiveItem ~= use then
+					currentRow.itemcooldown.OnCooldown = false
+					currentRow.itemcooldown:SetCooldown(start, duration)
+					currentRow.itemcooldown.ActiveItem = use
                 end
 			end)
 

@@ -7,8 +7,6 @@ WoWPro:GuideName(guide, "Demon Hunter: Intro")
 WoWPro:GuideClassSpecific(guide,"DemonHunter")
 WoWPro:GuideSteps(guide, function()
 return [[
-N It's Chromie Time!|AVAILABLE|62567|M|62.25,29.93|Z|Stormwind City|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Hero's Call board in Stormwind. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in Stormwind!|LVL|-50|CT|FACTION|Alliance|
-N It's Chromie Time!|AVAILABLE|62568|M|40.82,80.13|Z|Orgrimmar|JUMP|Chromie Time|S!US|N|You can now accept Chromies call at the Warchief's Command Board in Orgrimmar. This will allow you to choose which expansion you want to level in and scale the content to your level.\n\nYou're free to continue your current guide by skipping this and continuing on, but it won't continue to scale. If you want to enable Chromie Time, click the guide button next to this frame to direct you to Chromie in  Orgrimmar!|LVL|-50|CT|FACTION|Horde|
 A The Invasion Begins|QID|40077|M|22.09,55.82|N|From Kayn Sunfury.|
 C The Invasion Begins|QID|40077|QO|1|M|27.48,63.43|N|Slay your 15 Demons.|
 C The Invasion Begins|QID|40077|QO|2|M|28.67,62.91|NC|N|Change the Legion banner by clicking on it.|
