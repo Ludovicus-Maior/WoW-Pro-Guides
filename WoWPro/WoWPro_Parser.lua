@@ -558,6 +558,10 @@ function WoWPro.ParseQuestLine(faction, zone, i, text)
         WoWPro:Error("Step %s [%s] has a bad ¦Z¦%s¦ tag.",WoWPro.action[i],WoWPro.step[i],WoWPro.zone[i])
         WoWPro.zone[i] = nil
     end
+    if WoWPro.active[i] and  WoWPro.questtext[i] and (not WoWPro.QID[i]) then
+        -- ACTIVE steps with a QO get an implicit QID
+        WoWPro.QID[i] = WoWPro.active[i]
+    end
 
     if WoWProCharDB.EnableGrailCheckPrereq and (not WoWPro.prereq[i]) and WoWPro.action[i] == "A" then
         local new_prereq = WoWPro.GrailQuestPrereq(WoWPro.QID[i])
