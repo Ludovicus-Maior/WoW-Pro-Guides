@@ -402,7 +402,80 @@ C Maw Manifested|QID|59805|M|39.57,24.69|Z|Nazmir|QO|1|NC|N|Speak with Vol'jin.|
 C Maw Manifested|QID|59805|M|44.95,40.99|Z|The Maw|QO|2|NC|N|Travel to the Maw.|COV|Night Fae|
 T Maw Manifested|QID|59805|M|44.85,41.02|Z|The Maw|N|To Spirit of Vol'jin.|COV|Night Fae|
 A Tracking a Wild God|QID|59822|PRE|59805|M|44.85,41.02|Z|The Maw|N|From Unknown.|COV|Night Fae|
-; First clue bugged, according to the only comment on wowhead has been since the 26/08.
+C Tracking a Wild God|QID|59822|M|42.71,43.87|Z|The Maw|QO|1|NC|N|First clue found.|
+C Tracking a Wild God|QID|59822|M|35.63,55.95|Z|The Maw|QO|2|NC|N|Second clue found.|
+C Tracking a Wild God|QID|59822|M|37.34,66.55|Z|The Maw|QO|3|NC|N|Wild god rescued.|
+R Face of Oblivion|QID|50601|ACTIVE|50601|M|40.85,64.33|Z|The Maw|N|Make your way to the Face of Oblivion.|
+C Tracking a Wild God|QID|59822|M|40.86,64.40|Z|The Maw|QO|4|NC|N|Ashamane absorbed into the soulkeeper crystal.|
+T Tracking a Wild God|QID|59822|M|40.89,64.32|Z|The Maw|N|To Spirit of Vol'jin.|
+A Loa Rescue|QID|59824|PRE|59822|M|40.89,64.32|Z|The Maw|N|From Unknown.|
+C Loa Rescue|QID|59824|M|47.70,72.34|Z|The Maw|QO|1|NC|N|First loa rescued.|
+C Loa Rescue|QID|59824|M|46.08,82.77|Z|The Maw|QO|2|NC|N|Second loa rescued.|
+C Loa Rescue|QID|59824|M|45.67,84.54|Z|The Maw|QO|3|NC|N|Third loa rescued.|
+T Loa Rescue|QID|59824|M|45.88,85.06|Z|The Maw|N|To Spirit of Vol'jin.|
+A Rezan, Loa of Kings|QID|59856|PRE|59824|M|45.88,85.06|Z|The Maw|N|From Spirit of Vol'jin.|
+C Rezan, Loa of Kings|QID|59856|M|45.88,85.13|Z|The Maw|QO|1|NC|N|Vol'jin's anima received.|
+C Rezan, Loa of Kings|QID|59856|M|46.84,85.93|Z|The Maw|QO|2|NC|N|Rezan saved.|
+T Rezan, Loa of Kings|QID|59856|M|45.86,85.08|Z|The Maw|N|To Spirit of Vol'jin.|
+A Parting Ways|QID|59866|PRE|59856|M|45.86,85.08|Z|The Maw|N|From Spirit of Vol'jin.|
+P Ring of Transference|ACTIVE|59866|M|52.07,57.86|Z|Ring of Fates@Oribos|N|Take the portal to Ring of Transference.|
+F Heart of the Forest|ACTIVE|59866|M|60.23,68.72|Z|Ring of Transference@Oribos|N|Head to the flightmaster and take a flight to Heart of the Forest.|
+P Heart of the Forest|ACTIVE|59866|M|53.96,38.73|Z|The Trunk@Heart of the Forest!Dungeon|N|Talk to Sparkledew to go see the Queen.|
+C Parting Ways|QID|59866|M|51.04,30.60|Z|The Canopy@Heart of the Forest!Dungeon|QO|1|NC|N|Loa delivered to the Winter Queen.|
+P Heart of the Forest|ACTIVE|59866|M|43.05,51.44|Z|The Canopy@Heart of the Forest!Dungeon|N|Talk to Shimmerwing to return to teh main foyer.|
+T Parting Ways|QID|59866|M|44.65,38.58|Z|The Trunk@Heart of the Forest!Dungeon|N|To Ysera.|
+;Drust and Ashes
+A We Strike Now|QID|60189|PRE|59866|M|44.54,38.87|Z|The Trunk@Heart of the Forest!Dungeon|N|From Ysera.|
+T We Strike Now|QID|60189|M|39.09,63.74|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|
+A Assault on Darkreach|QID|60190|PRE|60189|M|39.07,63.71|Z|Ardenweald!The Shadowlands|N|From Lord Herne.|
+A Their Last Line of Defense|QID|60192|PRE|60189|M|39.04,63.69|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|
+A Ingra Drif|QID|60191|PRE|60189|M|39.02,63.68|Z|Ardenweald!The Shadowlands|N|From Kivarr.|
+C Ingra Drif|QID|60191|M|36.43,67.54|Z|Ardenweald!The Shadowlands|QO|1|N|Ingra Drif slain.|
+C Their Last Line of Defense|QID|60192|M|36.92,70.91|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Shielding Runes destroyed.|
+C Assault on Darkreach|QID|60190|M|37.70,66.73|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Darkreach assaulted.|
+T Their Last Line of Defense|QID|60192|M|35.13,72.38|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|
+T Ingra Drif|QID|60191|M|35.13,72.38|Z|Ardenweald!The Shadowlands|N|To Kivarr.|
+T Assault on Darkreach|QID|60190|M|35.13,72.38|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|
+A Unmasked|QID|60193|PRE|60192&60191&60190|M|35.13,72.38|Z|Ardenweald!The Shadowlands|N|From Unknown.|
+C Unmasked|QID|60193|M|35.82,70.64|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Drust Barrier destroyed.|
+C Unmasked|QID|60193|M|36.25,69.44|Z|Ardenweald!The Shadowlands|QO|2|N|Gorak Zhar slain.|
+T Unmasked|QID|60193|M|36.18,69.57|Z|Ardenweald!The Shadowlands|N|To Lady Moonberry.|
+A The Call of the Hunt|QID|60194|PRE|60193|M|36.18,69.57|Z|Ardenweald!The Shadowlands|N|From Lady Moonberry.|
+C The Call of the Hunt|QID|60194|M|36.18,69.58|Z|Ardenweald!The Shadowlands|QO|1|NC|N|Fly out with Lady Moonberry.|
+T The Call of the Hunt|QID|60194|M|38.98,63.46|Z|Ardenweald!The Shadowlands|N|To Lord Herne.|
+A Drust and Ashes|QID|60108|PRE|60194|M|38.98,63.46|Z|Ardenweald!The Shadowlands|N|From Lord Herne.|
+C Clear the Way|Z|Ardenweald|SO|1|S|N|Direct Ysera to Destroy Drust Forces.|
+C Drust put to sleep|M|31.03,76.99|Z|Ardenweald!Instance1709|SO|1;2|N|Drust put to sleep|
+C Fly to the Heart of the Forest|M|31.03,76.99|Z|Ardenweald!Instance1709|SO|1;3|N|Fly to the Heart of the Forest|
+C Clear the Way|Z|Ardenweald|SO|1|US|N|Direct Ysera to Destroy Drust Forces.|
+C Report to the Winter Queen|Z|Ardenweald|SO|2|S|N|Tell the Winter Queen what transpired at Darkreach.|
+C Report to the Queen|M|55.16,23.44|Z|Ardenweald!Instance1709|SO|2;1|N|Report to the Queen|
+C Report to the Winter Queen|Z|Ardenweald|SO|2|US|N|Tell the Winter Queen what transpired at Darkreach.|
+C Recieve the Queen's Blessing|Z|Ardenweald|SO|3|S|N|Recieve the Queen's Blessing|
+C Recieve the Queen's Blessing|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|3;1|N|Recieve the Queen's Blessing|
+C Recieve the Queen's Blessing|Z|Ardenweald|SO|3|US|N|Recieve the Queen's Blessing|
+C Lead the Charge!|Z|Ardenweald|SO|4|S|N|Lead the Wild Hunt to the Grove of Awakening|
+C Sound the Horn of the Wild Hunt|M|55.47,23.07|Z|Ardenweald!Instance1709|SO|4;1|N|Sound the Horn of the Wild Hunt|
+C Slay Drust Forces|M|55.62,47.71|Z|Ardenweald!Instance1709|SO|4;2|N|Slay Drust Forces|
+C Reach the Grove of Awakening|M|63.22,62.72|Z|Ardenweald!Instance1709|SO|4;3|N|Reach the Grove of Awakening|
+C Lead the Charge!|Z|Ardenweald|SO|4|US|N|Lead the Wild Hunt to the Grove of Awakening|
+C Orders from the Queen|Z|Ardenweald|SO|5|S|N|Speak with the Queen|
+C Speak with Winter Queen|M|59.74,65.78|Z|Ardenweald!Instance1709|SO|5;1|N|Speak with Winter Queen|
+C Orders from the Queen|Z|Ardenweald|SO|5|US|N|Speak with the Queen|
+C Reverse the power|Z|Ardenweald|SO|6|S|N|Help the Court regain control of the Grove of Awakening.|
+C Assist Aliothe|M|65.91,72.78|Z|Ardenweald!Instance1709|SO|6;3|N|Assist Aliothe|
+C Assist Zayhad|M|65.75,80.28|Z|Ardenweald!Instance1709|SO|6;4|N|Assist Zayhad|
+C Assist Herne|M|54.37,71.90|Z|Ardenweald!Instance1709|SO|6;2|N|Assist Herne|
+C Assist Moonberry|M|53.75,81.36|Z|Ardenweald!Instance1709|SO|6;1|N|Assist Moonberry|
+C Reverse the power|Z|Ardenweald|SO|6|US|N|Help the Court regain control of the Grove of Awakening.|
+C For Queen and Grove|Z|Ardenweald|SO|7|S|N|The power of the Grove of Awakening is ours once more! Return to the Winterqueen then vanquish Gorak Zhar!|
+C Return to Winter Queen|M|60.24,76.08|Z|Ardenweald!Instance1709|SO|7;1|N|Return to Winter Queen|
+C Destroy Anchoring Runes|M|58.61,86.27|Z|Ardenweald!Instance1709|SO|7;2|N|Destroy Anchoring Runes|
+C Defeat Gorak Zhar|M|58.82,87.12|Z|Ardenweald!Instance1709|SO|7;3|N|Defeat Gorak Zhar|
+C For Queen and Grove|Z|Ardenweald|SO|7|US|N|The power of the Grove of Awakening is ours once more! Return to the Winterqueen then vanquish Gorak Zhar!|
+C The Return to Calm|Z|Ardenweald|SO|8|S|N|Speak with the Winter Queen to depart|
+C Drust and Ashes|QID|60108|M|58.82,87.12|Z|Ardenweald!Instance1709|QO|1|N|Gorak Zhar defeated.|
+T Drust and Ashes|QID|60108|M|50.62,30.89|Z|The Canopy@Heart of the Forest!Dungeon|N|To Winter Queen.|
 
 ;N Kyrian Campaign|QID|99999|M|PLAYER|N|Guide is currently in development.|COV|Kyrian|
 A Among the Kyrian|QID|60491|PRE|57878|M|36.50,64.50|Z|Ring of Fates@Oribos|N|From Polemarch Adrestes.|COV|Kyrian|
