@@ -519,7 +519,7 @@ A Clearing the Delta|QID|50706|M|34.58,47.12|N|From Specialist Wembley.|PRE|5067
 C Clearing the Delta|QID|50706|M|34.58,47.12|S|N|Kill the Zeth'jir. Note that murlocs along the shore are much easier kills.|
 K Binder Ser'less|ACTIVE|50705|M|32.63,53.97|QO|2|T|Binder Ser'less|U|158332|N|Use item to make the Binder vulnerable. Kill Ser'less.|
 K Lady Rash'iss|ACTIVE|50705|M|32.14,55.03|QO|1|T|Lady Rash'iss|U|158332|N|Use item to make the Binder vulnerable. Kill Rash'iss.|
-K Binder Nalasj|ACTIVE|50705|M|32.68,55.97|QO|3|T|Binder Nalasj|U|158332|N|Use item to make the Binder vulnerable. Kill Nalashj.|
+K Binder Nalashj|ACTIVE|50705|M|32.68,55.97|QO|3|T|Binder Nalashj|U|158332|N|Use item to make the Binder vulnerable. Kill Nalashj.|
 C Clearing the Delta|QID|50706|M|29.89,52.37|US|N|Finish killing Zeth'jir.|
 T A Snake with Three Heads|QID|50705|M|34.11,54.88|N|To Commander Kellam.|
 T Clearing the Delta|QID|50706|M|34.11,54.88|N|To Commander Kellam.|
@@ -563,7 +563,7 @@ C Deadliest Cache: Carpe Diem|QID|52130|M|26.26,54.57|QO|4|NC|N|Use the spyglass
 C Deadliest Cache: Carpe Diem|QID|52130|M|26.26,54.57|QO|5|NC|N|Use your ability when the whale gets to you. Let the naga beat on you if necesary, you can no longer damage them.|
 T Deadliest Cache: Carpe Diem|QID|52130|M|25.99,55.21|N|To Hook.|
 H The Golden Flagon|TZ|Brennadam|ACTIVE|49908|M|34.26,47.18|N|Hearth to Brennadam or run back to the flight point and fly there.|RANK|2|
-A Ruin Has Come|QID|50417|M|59.50,68.34|N|If you are level 120, you can pick up this quest from A Crumbled Letter inside the house if you want. It starts the Forgotten Cove storyline. This storyline has daily requirements and is not mentioned again in this guide.|RANK|2|
+A Ruin Has Come|QID|50417|M|59.50,68.34|N|If you are level 50, you can pick up this quest from A Crumbled Letter inside the house if you want. It starts the Forgotten Cove storyline. This storyline has daily requirements and is not mentioned again in this guide.|RANK|2|
 T Back to Brennadam|QID|49908|M|59.51,69.94|N|To Squire Augustus III|RANK|2|
 T A Question of Quillpower|QID|50640|M|58.63,70.44|N|To Mayor Roz.|RANK|2|
 t WANTED: Thundersnout|QID|49730|M|58.63,70.43|N|To Mayor Roz.|
@@ -656,7 +656,7 @@ A Not On Our Payroll|QID|50691|M|44.48,55.52|N|From Nedly Grinner.|PRE|50675|
 A Fun With Magnets|QID|50696|M|44.47,55.58|N|From Moxie Lockspinner.|PRE|50675|
 A Bomb Beats Rock|QID|50697|M|44.48,55.54|N|From Moxie Lockspinner.|PRE|50675|
 C Anchors Aweigh Too Much|QID|50704|M|48.01,56.82|S|NC|N|Gather ship parts on the ground.|
-C Not On Our Payroll|QID|50691|M|48.01,56.82|S|N|Kill the big rock dudes (but not the really big elite rock dudes).|
+C Not On Our Payroll|QID|50691|M|48.01,56.82|S|T|Restless Stone|N|Kill the big rock dudes (but not the really big elite rock dudes).|
 C Fun With Magnets|QID|50696|M|44.42,55.51|U|158226|S|NC|N|Areas are marked with a glowing sign (and on your map).  Use the Metal Collector 3 or 4 times in each area.|
 C Bomb Beats Rock|QID|50697|M|48.72,56.57|QO|2|N|Click on the pile of bombs.|
 K Crushtacean|QID|51901^52466|QO|1|M|51.72,55.32|T|Crushtacean|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|154857|RANK|2|
@@ -665,7 +665,7 @@ C Bomb Beats Rock|QID|50697|M|50.88,58.20|QO|1|NC|N|Click on these bombs too.|
 T Bomb Beats Rock|QID|50697|M|50.88,58.26|N|To Moxie Lockspinner right beside you.|
 A Share the Wealth|QID|51140|M|50.86,56.71|N|Pick up inside the Eastern Cave from treasure pile.|
 C Anchors Aweigh Too Much|QID|50704|M|48.01,56.82|NC|US|N|Finish gathering ship parts.|
-C Not On Our Payroll|QID|50691|M|48.01,56.82|US|N|Finish killing Restless Stone.|
+C Not On Our Payroll|QID|50691|M|48.01,56.82|US|T|Restless Stone|N|Finish killing Restless Stone.|
 C Fun With Magnets|QID|50696|M|50.88,58.53|NC|US|U|158226|N|Finish up with coins.|
 T Fun With Magnets|QID|50696|M|50.88,58.53|N|To Moxie Lockspinner.|
 T Share the Wealth|QID|51140|M|42.98,56.60|N|To Leo Shealds.|
