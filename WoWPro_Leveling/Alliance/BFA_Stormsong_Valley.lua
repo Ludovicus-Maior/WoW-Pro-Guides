@@ -403,7 +403,7 @@ A A Question of Quillpower|QID|50640|M|71.22,52.33|Z|Thornheart!Dungeon|N|From S
 C A Question of Quillpower|QID|50640|M|50.75,70.21|NC|N|Hop on the boar and ride out of the cave.|
 F Deadwash|ACTIVE|49818|M|50.75,70.22|N|At Karla Fairweather.|
 ; sidequests Millstone Hamlet
-K Osca the Bloodied|QID|52461|QO|1|M|42.12,63.13|T|Osca the Bloodied|N|Back on the road, silver Elite to kill for loot and achievement.|RARE|ITEM|159169|RANK|2|
+K Osca the Bloodied|QID|52461|QO|1|M|42.12,63.13|T|Osca the Bloodied|N|Back on the road, Silver Elite to kill for loot and achievement.|RARE|ITEM|159169|RANK|2|
 A Undelivered Package|QID|51218|M|38.43,62.99|N|Pick up from Marie's Package on the road.|RANK|2|
 K Poacher Zane|QID|52469|QO|1|M|34.64,67.98|T|Poacher Zane|RARE|ITEM|163036|N|Silver Elite to kill for loot and achievement.|RANK|2|
 f Millstone Hamlet|M|30.80,66.60|ACTIVE|51218|N|Pick up the flight point from Alexa Davenport.|
@@ -713,7 +713,7 @@ R Beacon Hill|AVAILABLE|51711|M|43.17,50.56;46.14,47.24|CS|N|Next stop Beacon Hi
 A Grizzled|QID|51752|M|46.88,47.68|N|From Felecia Gladstone.|; Leadin [Worse Than It Looks] 52065 not used
 A Having a Blast|QID|51711|M|46.88,47.68|N|From Felecia Gladstone.|
 A WANTED: War Gore|QID|52876|M|46.75,48.12|N|From the Wanted poster.|RANK|2|
-K Whirlwind|QID|52457|QO|1|M|47.82,40.65;47.14,42.09|CS|T|Whirlwind|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|158215|
+K Whirlwind|QID|52457|QO|1|M|47.82,40.65;47.14,42.09|CS|T|Whirlwind|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|158215|RANK|2|
 C Having a Blast|QID|51711|M|47.66,38.35|QO|1|NC|N|Grab the dynamite.|
 K War Gore|ACTIVE|52876|QO|1|M|47.31,35.51;48.52,33.12|CS|T|War Gore|N|Climb the hill and head to the cave opening beside a small mountain lake.|
 $ Legends of the Tidesages|ACH|13051;6|M|45.54,37.79;48.16,42.54;44.18,36.60|CS|N|Up on top of the mountain West of Warfang Hold. near base of tree.|RANK|2|
@@ -754,7 +754,7 @@ A Never Outgunned|QID|50909|M|57.95,55.58|N|From Lea Martinel.|RANK|2|
 A WANTED: Yarsel'ghun|QID|51217|M|57.84,55.83|N|From the poster.|RANK|2|
 C Never Outgunned|QID|50909|M|60.67,50.28|S|NC|N|Pick up weapons as you go.|
 C Dangerous Game|QID|50910|M|60.67,50.28|S|N|Kill the Keenblades.|
-K Taja the Tidehowler|QID|52123|QO|1|T|Taja the Tidehowler|M|60.00,46.00|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|154449|
+K Taja the Tidehowler|QID|52123|QO|1|T|Taja the Tidehowler|M|60.00,46.00|N|Silver Elite to kill for loot and achievement.|RARE|ITEM|154449|RANK|2|
 K Durmok Darkmane|ACTIVE|50908|M|59.76,50.13;59.09,48.60|CS|QO|2|U|159144|T|Durmok Darkmane|N|Up the hill to find Durmok. Toss the scent vial into the cave with Durmok for a little extra help with the fight.|
 K Ogarth Axefall|ACTIVE|50908|M|56.32,48.42;56.60,47.41|CS|QO|1|U|159144|T|Ogarth Axefall|N|Continue on towards Ogarth and toss the scent vial in his cave too, then kill him.|
 K Yarsel'ghun|ACTIVE|51217|QO|1|M|55.63,39.95|T|Yarsel'ghun|N|Take the road directly above this cave to reach  Yarsel'ghun.|
