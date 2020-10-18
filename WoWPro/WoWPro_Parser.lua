@@ -245,7 +245,7 @@ DefineTag("O","optional","boolean",nil,function (text,i)
     WoWPro.optionalcount = WoWPro.optionalcount + 1;
 end)
 DefineTag("LEAD","leadin","string",validate_andor_list_of_ints,nil)
-DefineTag("ACTIVE","active","string",validate_andor_list_of_ints,function (value, i) WoWPro.active[i] = value; WoWPro.QID[i] = WoWPro.QID[i] or value; end)
+DefineTag("ACTIVE","active","string",validate_andor_list_of_ints,function (value, i) WoWPro.active[i] = value; end)
 DefineTag("NPC","NPC","string",validate_old_list_of_ints,nil)
 
 -- Mapping Tags
