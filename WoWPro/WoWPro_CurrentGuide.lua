@@ -96,7 +96,11 @@ frame:SetScript("OnShow", function()
             if row.index and WoWPro.why and WoWPro.why[row.index] then
                 tooltip:SetPoint("TOPLEFT", row, "BOTTOMLEFT", -10, 10)
                 tooltiptext:SetHeight(125)
-                tooltiptext:SetText(("Step %d/QID %s: %s"):format(row.index, tostring(WoWPro.QID[row.index]), WoWPro.why[row.index]))
+                if WoWPro.active[row.index] and not WoWPro.QID[row.index] then
+                    tooltiptext:SetText(("Step %d/ACTIVE %s: %s"):format(row.index, tostring(WoWPro.active[row.index]), WoWPro.why[row.index]))
+                else
+                    tooltiptext:SetText(("Step %d/QID %s: %s"):format(row.index, tostring(WoWPro.QID[row.index]), WoWPro.why[row.index]))
+                end
                 tooltiptext:SetHeight(tooltiptext:GetStringHeight())
                 tooltip:SetHeight(tooltiptext:GetStringHeight()+20)
                 tooltip:Show()
