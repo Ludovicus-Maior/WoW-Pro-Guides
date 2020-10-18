@@ -2629,19 +2629,16 @@ function WoWPro.NextStep(guideIndex, rowIndex)
             end
             -- This tests for spells that are cast on you and show up as buffs
             if WoWPro.buff and WoWPro.buff[guideIndex] then
-				local mybuff,buffCount= ("<"):split(WoWPro.buff[guideIndex])
-				local mybuffFlip = mybuff
-				if (mybuff:sub(1, 1) == "-") then
-                    mybuff = mybuff:sub(2)
-                    mybuffFlip = nil
-                end
-                local buffy = WoWPro:CheckPlayerForBuffs(mybuff, buffCount)
-                if (tonumber(buffy) == tonumber(mybuffFlip)) then
+                local buff = WoWPro.buff[guideIndex]
+                local buffy = WoWPro:CheckPlayerForBuffs(buff)
+                if buffy then
                     skip = true
-                    local why = ("Skipping because buff #%d"):format(buffy)
+                    local why = ("Skipping because buff #%s of %s"):format(tostring(buffy), buff)
                     WoWPro.why[guideIndex] = why
-                    WoWPro:dbp(why);
+                    WoWPro:dbp(why)
                     break
+                else
+                    WoWPro:dbp("BUFF %s failed.", buff)
                 end
             end
 

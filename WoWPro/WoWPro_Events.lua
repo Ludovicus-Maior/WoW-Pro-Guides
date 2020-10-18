@@ -141,31 +141,40 @@ function WoWPro:CheckAnimaPowers()
 	return numBuffs
 end
 
-function WoWPro:CheckPlayerForBuffs(mybuff, mycount)
-	local buffs, bcount= ("<"):split(mybuff)
-	mycount = tonumber(mycount) or nil
-	if not bcount and mycount then
-		bcount = tonumber(mycount)
-	end
+function WoWPro:CheckPlayerForBuffs(buffs)
+    -- Check for buff count syntax
+    local buff, bcount= ("<"):split(buffs)
+    bcount = tonumber(bcount)
+    buff = tonumber(buff)
+    local bflip = true
+    if bcount and (buff < 0) then
+        buff = -buff
+        bflip = false
+    end
     local buffies = {}
     -- Build table of all active buffs
     local BuffIndex = 1
     local BuffString = ""
     local BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,"HARMFUL|HELPFUL")
-	while BuffName do
-		if bcount and BuffSpellId == tonumber(buffs) then
-			if tonumber(bcount) <= BuffCount then
-				buffies[BuffSpellId] = true
-			end
-		else
-			buffies[BuffSpellId] = true
-		end
+    while BuffName do
+    if bcount and BuffSpellId == buff then
+            if tonumber(bcount) <= BuffCount then
+                WoWPro:dbp("CheckPlayerForBuffs(%s): <=%s", buffs, bcount)
+                return bflip and BuffSpellId
+            end
+    else
+            buffies[BuffSpellId] = true
+        end
         if BuffIndex > 1 then
             BuffString = BuffString .. ","
         end
         BuffString = BuffString .. ("%s(%d)"):format(BuffName, BuffSpellId)
         BuffIndex = BuffIndex + 1
         BuffName, _, BuffCount, _, _, _, _, _, _, BuffSpellId = _G.UnitAura("player",BuffIndex,"HARMFUL|HELPFUL")
+    end
+    if bcount then
+        WoWPro:dbp("CheckPlayerForBuffs(%s): Fail <=%s", buffs, bcount)
+        return false == bflip
     end
     WoWPro:dbp("CheckPlayerForBuffs(%s): %s", buffs, BuffString)
     return WoWPro:QIDInTable(buffs, buffies)
