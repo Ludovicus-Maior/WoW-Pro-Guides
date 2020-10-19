@@ -100,7 +100,7 @@ C Burn the Flags|QID|51394|M|29.41,51.18|Z|Vol'dun|QO|1|US|NC|N|Finish burning t
 C Crush the Cannons|QID|51394|M|29.56,51.39|Z|Vol'dun|QO|2|US|NC|N|Finish crushing the cannons.|
 C Defang the Faithless|QID|51391|M|29.02,51.32|Z|Vol'dun|US|N|Finish killing the Faithless.|
 C Shatter Spires|QID|51394|M|28.86,51.47|Z|Vol'dun|QO|3|NC|N|Click on the spire to shatter it.|
-f Terrace of the Devoted|QID|51389|M|27.66,50.34|Z|Vol'dun|N|At Vethiss.|ACTIVE|51391|
+f Sanctuary of the Devoted|QID|51389|M|27.66,50.34|Z|Vol'dun|N|At Vethiss.|ACTIVE|51391|
 T Breaking Free|QID|51389|M|27.56,52.62|Z|Vol'dun|N|To Private James.|
 T Defang the Faithless|QID|51391|M|27.62,52.57|Z|Vol'dun|N|To Vorrik.|
 T Break the Siege|QID|51394|M|27.62,52.57|Z|Vol'dun|N|To Vorrik.|
@@ -209,7 +209,7 @@ C Return to Boralus|QID|51967|M|61.40,51.11|Z|Kul Tiras|CHAT|N|Tell Desha you wa
 T Return to Boralus|QID|51967|M|69.27,27.02|Z|Boralus|N|To Halford Wyrmbane. Don't forget to reset your hearthstone to Boralus.|
 
 ;First Assault
-A Overseas Assassination|QID|52026|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|LVL|50|
+A Overseas Assassination|QID|52026|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|LVL|50|PRE|51967&51968&51969|
 C Overseas Assassination|QID|52026|M|67.95,26.72|Z|Boralus|CHAT|N|If you are ready to travel to Vol'dun|
 T Overseas Assassination|QID|52026|M|37.70,35.95|Z|Vol'dun|N|To Halford Wyrmbane.|
 A The Vol'dun Plan|QID|52027|M|37.70,35.95|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52026|
