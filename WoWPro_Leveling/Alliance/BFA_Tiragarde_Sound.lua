@@ -228,7 +228,7 @@ C Raise a Glass!|QID|49398|M|77.35,83.92|QO|1|CHAT|N|Pick a drink from Venriks o
 C Raise a Glass!|QID|49398|M|77.35,83.92|QO|2|U|153599|NC|N|Drink your drink|
 T Raise a Glass!|QID|49398|M|77.35,83.92|N|To Venrik.|
 f Freehold|AVAILABLE|49402|M|77.04,82.89|N|At Rodrigo.|
-A Flew the Coop|QID|49402|M|77.04,82.89|N|From Rodrigo.|PRE|49398&49401|RANK|2|
+A Flew the Coop|QID|49402|M|77.04,82.89|N|From Rodrigo.|PRE|49398|RANK|2|  ;  &49401 Not needed, quest avail without turn in
 C Rodrigo's Roost|QID|49401|M|77.03,82.90|QO|1|CHAT|N|Ask Rodrigo to send the letter to Taelia.|
 T Rodrigo's Roost|QID|49401|M|77.33,83.97|N|To Flynn Fairwind.|
 A The Big Job|QID|49399|M|77.33,83.97|N|From Flynn Fairwind.|PRE|49398&49401|
