@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('EmmZuldazar', 'Leveling', 'Zuldazar', 'Emmal
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideName(guide,'Zuldazar')
 WoWPro:GuideNickname(guide, "Zuldazar")
-WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
+WoWPro:GuideNextGuide(guide, 'Nazmir')
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
