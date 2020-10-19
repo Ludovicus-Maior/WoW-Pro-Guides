@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('EmmTiragarde', 'Leveling', 'Tiragarde Sound'
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Tiragarde Sound")
 WoWPro:GuideName(guide,"Tiragarde Sound")
-WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
+WoWPro:GuideNextGuide(guide, 'Drustvar')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
