@@ -115,19 +115,19 @@ C Ask Grash to destroy the ice wall.|SO|5;1|M|50.61,54.08|Z|Throne of Neptulon@A
 C Slay Lady Zithreen.|SO|5;2|M|49.84,41.98|Z|Throne of Neptulon@AbyssalMawShamanAcquisition|N|Slay Lady Zithreen.|QID|40341|
 C Azshara's Power|QID|40341|QO|3|M|50.47,42.97|Z|Throne of Neptulon@AbyssalMawShamanAcquisition|N|Pick up Sharas'dal.|
 C Azshara's Power|QID|40341|QO|4|M|50.60,42.92|Z|Throne of Neptulon@AbyssalMawShamanAcquisition|N|Click on the bubble to return to the Maelstrom.|
-T Azshara's Power|QID|40341|M|34.05,76.78|Z|The Maelstrom!Instance!Broken Isles|N|To Stormcaller Mylra.|
+T Azshara's Power|QID|40341|M|34.05,76.78|Z|The Maelstrom!Instance726|N|To Stormcaller Mylra.|
 ;Shaman Class Hall
-A A Ring Reforged|QID|40225|M|34.02,76.78|Z|The Maelstrom!Instance!Broken Isles|N|From Stormcaller Mylra.|PRE|39771^40224^40341|
-C A Ring Reforged|QID|40225|QO|1|M|30.20,77.47|Z|The Maelstrom!Instance!Broken Isles|N|Speak to Nobundo|
-C A Ring Reforged|QID|40225|QO|2|M|29.23,69.57|Z|The Maelstrom!Instance!Broken Isles|N|Unearth the Heart of Azeroth|
-T A Ring Reforged|QID|40225|M|28.98,69.25|Z|The Maelstrom!Instance!Broken Isles|N|To Farseer Nobundo.|
-A Azeroth Needs You|QID|41510|M|28.99,69.17|Z|The Maelstrom!Instance!Broken Isles|N|From Farseer Nobundo.|PRE|40225|
-A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|33.48,59.37|Z|The Maelstrom!Instance!Broken Isles|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40225|
-T Azeroth Needs You|QID|41510|M|30.34,51.57|Z|The Maelstrom!Instance!Broken Isles|N|To Farseer Nobundo.|
+A A Ring Reforged|QID|40225|M|34.02,76.78|Z|The Maelstrom!Instance726|N|From Stormcaller Mylra.|PRE|39771^40224^40341|
+C A Ring Reforged|QID|40225|QO|1|M|30.20,77.47|Z|The Maelstrom!Instance726|N|Speak to Nobundo|
+C A Ring Reforged|QID|40225|QO|2|M|29.23,69.57|Z|The Maelstrom!Instance726|N|Unearth the Heart of Azeroth|
+T A Ring Reforged|QID|40225|M|28.98,69.25|Z|The Maelstrom!Instance726|N|To Farseer Nobundo.|
+A Azeroth Needs You|QID|41510|M|28.99,69.17|Z|The Maelstrom!Instance726|N|From Farseer Nobundo.|PRE|40225|
+A Zone Lead-in Quest|QID|39718^39864^39731^39733^39735|M|33.48,59.37|Z|The Maelstrom!Instance726|N|From the Scouting Map. Choose which zone you want to do first.  The Legion expansion is set up differently so all are viable first zones.|PRE|40225|
+T Azeroth Needs You|QID|41510|M|30.34,51.57|Z|The Maelstrom!Instance726|N|To Farseer Nobundo.|
 
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Legion: Guide Hub|S!US|N|Jump to the Guide Hub.|
 
-C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|29.92,52.01|Z|The Maelstrom!Instance!Broken Isles|N|Take the portal to Dalaran.|
+C Travel to Dalaran|QID|39718^39864^39731^39733^39735|M|29.92,52.01|Z|The Maelstrom!Instance726|N|Take the portal to Dalaran.|
 ; LVL 110 Quest - Obliterum Chain
 A In the House of Light and Shadow|QID|44448|M|28.43,48.38|Z|Dalaran!Dalaran!Dungeon|N|From Archmage Khadgar.|PRE|44337^44338|
 C In the House of Light and Shadow|QID|44448|N|Location NOT included at this time.\nBefore you take the Tears of Elune to Light's Heart, Do anything else you need to do in your order hall, because the cut scene ends with you in Dalaran. Right Click this off manually if you dont want to do it now. (it will show next time you load the guide)|
