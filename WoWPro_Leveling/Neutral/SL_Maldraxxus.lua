@@ -10,27 +10,29 @@ N Work in Progress|QID|99999|M|PLAYER|N|Guide is currently in development.\n\nBe
 ; TOF
 A Maldraxxus|QID|62278|PRE|62000|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
 t Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-A A Fresh Blade|QID|63035|PRE|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
-R Ring of Transference|ACTIVE|63035|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
-F Bleak Redoubt|ACTIVE|63035|M|60.87,68.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
-T A Fresh Blade|QID|63035|N|To Secutor Mevix.|TOF|
-A Rallying Maldraxxus|QID|62748|PRE|63035|N|From Secutor Menvix.|TOF|
+A A Fresh Blade|QID|62738|PRE|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|From Tal-Inara.|TOF|
+R Ring of Transference|ACTIVE|62738|M|52.00,57.94|Z|Ring of Fates@Oribos|N|Once you are done with whatever sightseeing or maintenance tasks you want to do in Oribos, Make your way to the transport pad to the Ring of Transference and click to go up.|TOF|
+F Bleak Redoubt|ACTIVE|62738|M|60.87,68.63|Z|Ring of Transference@Oribos|N|From Pathscribe Roh-Avonavi.|TOF|
+T A Fresh Blade|QID|62738|N|To Secutor Mevix.|TOF|
+A Rallying Maldraxxus|QID|62748|PRE|62738|N|From Secutor Menvix.|TOF|
 C Rallying Maldraxxus|QID|62748|S!US|N|Literally everything you do in Maldraxxus counts towards this quest. You may return to Bleak Redoubt to turn in and be done with the zone anytime after this finishes.|TOF|
 t Rallying Maldraxxus|QID|62748|IZ|Bleak Redoubt|M|52.85,68.28|Z|Maldraxxus|N|To Secutor Mevix.|TOF|
 A Return to Oribos|QID|62761|M|52.85,68.28|Z|Maldraxxus|N|From Secutor Mevix.|PRE|62748|TOF|
 t Return to Oribos|QID|62761|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|IZ|Oribos|TOF|
 A Tal-Inara|QID|62277^62275^62279|M|38.93,69.97|Z|Ring of Fates@Oribos|PRE|62761|N|Talk to Tal-Inara to choose your next zone and then turn that quest back into her.|IZ|Oribos|TOF|
-t Tal-Inara|QID|62277^62275^62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-N Choose Bastion|PRE|622751|LEAD|62723|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|
+T Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+T Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+N Choose Bastion|PRE|62275|LEAD|62723|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|
 N Choose Revendreth|PRE|62279|LEAD|62778|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|
 N Choose Ardenweald|PRE|62277|LEAD|62763|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|
-
 N World Quests|QID|62748|N|WQs are available since you have chosen the Threads of Fate option. They are however not included in the guide and there is no way to predict which one is available on any given day. So, I recomend you do them, but you are on your own as to how and where.|TOF|
-N Use of Ranks|QID|62748|N|Set the guide to Rank 2 for optimum experience. It directs you to all the side quests and bonus objectives. Rank 1, basically leaves you explore on your own when you accept a quest it will jump to there and give you directions on completion and turn in.|TOF|
-N Spectre of War: Visectus|QID|62748|N|This is a weekly quest, that you can NOT do at this time, because you can not create the anima bound wraps until you open up the Necrolord Abommination Factory, so, ignore this quest. (just wanted you to know why)|TOF|
+N Use of Ranks|QID|62748|N|Set the guide to Rank 2 for optimum experience. It directs you to all the side quests and bonus objectives.|TOF|
+N Spectre of War: Visectus|QID|62748|N|This is a weekly quest, that you can NOT do at this time, because you can not create the anima bound wraps until you open up the Necrolord Abommination Factory, so, ignore this quest. (just wanted you to know why)|TOF|COV|Necrolord|
 
 ; Champion of Pain Storyline
 N Use of Ranks|QID|57386|N|Setting the guide to Rank 1 will direct you to all main story line quests. It will not direct you to optional quests, however, if you pick one up it will direct you where to complete and turn in. Rank 2 takes you to all the side quests, There is nothing set to Rank 3 in this guide.|MS|
+N Rank 1|ACTIVE|62748|N|Since you have chosen rank 1, the zone is yours to explore. When you find and accept a quest, the directions on how to do it and where to turn in will appear. Only travel steps directly related to quests you are on will show in the guide.|RANK|-1|
 A If You Want Peace...|QID|57386|M|60.95,36.18|Z|Ring of Transference@Oribos|N|From Overseer Kah-Sher.|PRE|61107|MS|
 C If You Want Peace...|QID|57386|M|59.51,34.39|Z|Ring of Transference@Oribos|CHAT|N|Speak to Roh-Avonavi to Travel to Maldraxxus.|MS|
 T If You Want Peace...|QID|57386|M|50.24,41.33|Z|Maldraxxus|N|To Grandmaster Vole.|MS|
@@ -204,7 +206,7 @@ T Take The Bull By The Horns|QID|58750|M|46.87,48.59|Z|Maldraxxus|N|To Dundae.|
 A Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|From Dundae.|PRE|58750&58785|RANK|2|
 C Stabbing Wasteward|QID|58794|M|42.40,48.40|Z|Maldraxxus|N|Kill the Satiated Sawtooth.|
 f Keres' Rest|ACTIVE|58794|M|53.81,30.71|Z|Maldraxxus|N|At Fly-eyed Eliera.|
-A WANTED: The Key of Eyes|QID|62462|M|53.08,41.41|Z|Maldraxxus|N|From Wanted Poster.|TOF|
+A WANTED: The Key of Eyes|QID|62462|M|53.08,41.41|Z|Maldraxxus|N|From Wanted Poster.|RANK|2|TOF|
 T Stabbing Wasteward|QID|58794|M|50.53,51.67|Z|Maldraxxus|N|To Dundae.|
 
 ; House of Constructs Storyline
@@ -215,7 +217,7 @@ A Lead By Example|QID|57976|M|39.32,55.91|Z|Maldraxxus|N|From Baron Vyraz.|PRE|5
 A First Time? You Have to Fight!|QID|60557|M|39.32,55.91|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57912|MS|
 A Take the High Ground|QID|58268|M|39.44,55.61|Z|Maldraxxus|N|From Secutor Mevix.|MS|
 f The Spearhead|QID|62712|ACTIVE|58268^59867|M|39.10,55.21|Z|Maldraxxus|N|At Wing Guard Aela.|MS|
-A War of Attrition|QID|62712|M|39.10,55.21|Z|Maldraxxus|N|Bonus Objective-Autoaccepted.|TOF|
+A War of Attrition|QID|62712|M|39.10,55.21|Z|Maldraxxus|N|Bonus Objective-Autoaccepted.|RANK|2|TOF|
 C War of Attrition|QID|62712|M|39.10,55.21|Z|Maldraxxus|S!US|N|Kill Hostiles, destroy supplies, bandage the injured, in general wear down enemy forces.|TOF|
 C Lead By Example|QID|57976|M|35.85,47.87|Z|Maldraxxus|N|Kill the Steelskin constructs around the area.|S|MS|
 C First Time? You Have to Fight!|QID|60557|M|36.86,50.55|Z|Maldraxxus|U|179923|N|Use the Attack Battlehorn near Hesitant Soldiers to rally them.|S|MS|; This looks like an EAB??
@@ -235,9 +237,9 @@ A Offensive Behavior|QID|57979|M|39.43,46.73|Z|Maldraxxus|N|From Secutor Mevix.|
 C Offensive Behavior|QID|57979|M|37.68,43.83|Z|Maldraxxus|U|179923|N|Use the Attack Battlehorn to rally troops to assist you in killing General Alver.|MS|; EAB?
 T Offensive Behavior|QID|57979|M|39.44,46.69|Z|Maldraxxus|N|To Secutor Mevix.|MS|
 T War of Attrition|QID|62712|M|39.10,55.21|Z|Maldraxxus|N|Bonus Objective-Autocompleted.|TOF|
-R Spider's Watch|QID|62721|CS|M|40.22,40.71;37.57,29.24|Z|Maldraxxus|N|Head east to get to the road, then follow it north to Spider's Watch.|TOF|
-f Spider's Watch|QID|62721|M|37.57,29.24|Z|Maldraxxus|N|At Flight Master Nudolva.|TOF|
-R Hall of Chains|QID|62721|M|36.60,30.91|Z|Maldraxxus|N|Run down the hill to the Hall of Chains.|TOF|
+R Spider's Watch|QID|62721|CS|M|40.22,40.71;37.57,29.24|Z|Maldraxxus|N|Head east to get to the road, then follow it north to Spider's Watch.|RANK|2|TOF|
+f Spider's Watch|QID|62721|M|37.57,29.24|Z|Maldraxxus|N|At Flight Master Nudolva.|RANK|2|TOF|
+R Hall of Chains|QID|62721|M|36.60,30.91|Z|Maldraxxus|N|Run down the hill to the Hall of Chains.|RANK|2|TOF|
 A Deconstructing the Problem|QID|62721|M|36.60,30.91|Z|Maldraxxus|N|Bonus Objective - Autoaccepted.|TOF|O|U|-183987|
 C Deconstructing the Problem|QID|62721|M|36.60,30.91|Z|Maldraxxus|S!US|N|Don't just kill in one area, keep moving towards the other objectives, this one gets done as you travel through.\n\nKill Hostiles, fleshwardens drop keys, open cages and otherwise disrupt operations.|TOF|
 A Army of One|QID|59616|M|39.78,46.71|Z|Maldraxxus|N|From Baron Vyraz.|PRE|57979|MS|
@@ -291,8 +293,8 @@ f Spider's Watch|ACTIVE|57994|M|37.57,29.24|Z|Maldraxxus|N|At Flight Master Nudo
 C In The Flesh|QID|57994|M|37.65,29.22|Z|Maldraxxus|QO|5|N|Click on the Rune of Might.|MS|
 T In The Flesh|QID|57994|M|37.61,29.09|Z|Maldraxxus|N|To Aspirant Thales.|MS|
 A Front and Center|QID|60733|M|37.66,29.11|Z|Maldraxxus|N|From Secutor Mevix.|PRE|57994|MS|
-R The Stitchyard|QID|57245|M|25.75,40.61|Z|Maldraxxus|N|We are leaving the Bonus Objective Area briefly for 3 quests, if you aren't finished, don't worry, we will be back.|TOF|
-A Ani-Matter Animator|QID|57245|M|26.29,42.67|Z|Maldraxxus|N|From Snyder Sixfold.|TOF|
+R The Stitchyard|QID|57245|M|25.75,40.61|Z|Maldraxxus|N|We are leaving the Bonus Objective Area briefly for 3 quests, if you aren't finished, don't worry, we will be back.|RANK|2|TOF|
+A Ani-Matter Animator|QID|57245|M|26.29,42.67|Z|Maldraxxus|N|From Snyder Sixfold.|RANK|2|TOF|
 C Ani-Matter Animator|QID|57245|M|25.87,45.94|Z|Maldraxxus|U|175827|S!US|N|Use the provided orb to animate the piles of bone remains scattered around the Ossein Foundry. You will find 4 types:\nLoyal-will fight with along beside you for about a minute.\nRecruitable - Chat with them to recruit them.\nStubborn - will offer 2 quests.\nEnraged - you have to kill them.|TOF|
 A Blade of Blades|QID|57284|M|PLAYER|Z|Maldraxxus|IZ|Ossein Foundry|N|From Stubborn Animate.|ACTIVE|57245|
 A Bring Me Their Heads|QID|57278|M|PLAYER|Z|Maldraxxus|IZ|Ossein Foundry|N|From Stubborn Animate. Don't worry if you didn't have time to accept both quests, you will get another chance on the next Stubborn Animate you find.|ACTIVE|57245|TOF|
@@ -347,10 +349,10 @@ R Spider's Watch|QID|1|ACTIVE|60733|CS|M|40.51,32.84;37.56,29.21|Z|Maldraxxus|N|
 F Bleak Redoubt|ACTIVE|60733|M|37.56,29.21|Z|Maldraxxus|N|Fly back to Bleak Redoubt.|MS|
 
 R High Stand|ACTIVE|59867|M|52.12,24.18|Z|Maldraxxus|N|Click on the teleporter to leave the library and then run to High Stand, be careful you are attempting to bypass some lvl 60/61 mobs.|TOF|
-K Appraiser Vix|QID|59867|QO|1|M|52.52,24.22|Z|Maldraxxus|T|Appraiser Vix|N|Kill Appraiser Vix.|TOF|
+K Appraiser Vix|ACTIVE|59867|QO|1|M|52.52,24.22|Z|Maldraxxus|T|Appraiser Vix|N|Kill Appraiser Vix.|TOF|
 R House of Eyes|ACTIVE|62462|M|56,12|Z|Maldraxxus|N|Run north to the House of Eyes You are still surrounded by level 60/61 mobs.|TOF|
-P Scroll of Teleportation|QID|62462|QO|1|M|59.96,12.22|Z|Maldraxxus|N|Use Scroll of Teleportation to get to the Key of Eyes. You land right beside the key, pick it up.|TOF|
-K Chelicera|QID|62462|QO|2|M|56,12|Z|Maldraxxus|T|Chelicera|N|Kill Chelicera.|TOF|
+P Scroll of Teleportation|ACTIVE|62462|QO|1|M|59.96,12.22|Z|Maldraxxus|N|Use Scroll of Teleportation to get to the Key of Eyes. You land right beside the key, pick it up.|TOF|
+K Chelicera|ACTIVE|62462|QO|2|M|56,12|Z|Maldraxxus|T|Chelicera|N|Kill Chelicera.|TOF|
 R Keres' Rest|ACTIVE|62462|M|53.81,30.71|Z|Maldraxxus|N|There is another scroll of teleportaion of Chelicera's balcony. Return to ground level then run to Keres' Rest, being aware of the hostile NPC's most likely higher level than you.|TOF|
 F Theater of Pain|ACTIVE|62462|M|53.81,30.71|Z|Maldraxxus|N|At Fly-eyed Eliera.|TOF|
 T Wanted: Appraiser Vix|QID|59867|M|53.58,47.49|Z|Maldraxxus|N|To Au'narim|TOF|;perhaps wait to turn this in when we get the one from the treasure too?
@@ -361,7 +363,7 @@ T Front and Center|QID|60733|M|50.38,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
 
 ; The House of Plagues Storyline and Mixing Monstrosities Sidestory
 R Blighted Scar|QID|59130^62742|M|54.22,66.04|Z|Maldraxxus|N|Follow the road east around the outside of the Theater of Pain to find the Blighted Scar.|
-A Avoid 'Em Like the Plague|QID|62742|M|55.74,60.94|Z|Maldraxxus|N|Bonus Objective - Autoaccepted.|TOF|
+A Avoid 'Em Like the Plague|QID|62742|M|55.74,60.94|Z|Maldraxxus|N|Bonus Objective - Autoaccepted.|RANK|2|TOF|
 C Avoid 'Em Like the Plague|QID|62742|M|55.74,60.94|Z|Maldraxxus|N|Pick up potions around the area to clease the survivors. Interact with the green puddles and kill hostiles|EAB|TOF|
 A The House of Plagues|QID|59130|M|54.22,66.04|Z|Maldraxxus|N|From Baroness Draka.|PRE|60733|MS|
 T The House of Plagues|QID|59130|M|56.43,57.31|Z|Maldraxxus|N|To Plague Deviser Marileth.|MS|
@@ -435,8 +437,8 @@ T Fathomless Power|QID|59231|M|50.36,67.74|Z|Maldraxxus|N|To Baroness Draka.|MS|
 
 ; Matron of Spies Storyline
 R Renounced Bastille|ACTIVE|58751|CS|M|54.79,65.53;59.70,60.58;67.90,51.58|Z|Maldraxxus|N|Through Bleak Redoubt, Blighted Scar and Glutharn's Decay, following roads generally northwest.|
-R Glutharn's Decay|AVAILABLE|62743|CS|M|54.79,65.53;59.70,60.58;67.90,51.58|Z|Maldraxxus|N|Through Bleak Redoubt, Blighted Scar and Glutharn's Decay, following roads generally northwest.|TOF|
-A Decaying Situation|QID|62743|M|65.62,48.32|Z|Maldraxxus|N|Bonus Objective-Autoaccepted.|TOF|
+R Glutharn's Decay|AVAILABLE|62743|CS|M|54.79,65.53;59.70,60.58;67.90,51.58|Z|Maldraxxus|N|Through Bleak Redoubt, Blighted Scar and Glutharn's Decay, following roads generally northwest.|RANK|2|TOF|
+A Decaying Situation|QID|62743|M|65.62,48.32|Z|Maldraxxus|N|Bonus Objective-Autoaccepted.|RANK|2|TOF|
 C Decaying Situation|QID|62743|M|65.62,48.32|Z|Maldraxxus|S!US|N|Bonus Objective-Kill Hostiles, destrpu the Bone Stakes tethering the Necroray's.|TOF|
 f Renounced Bastille|ACTIVE|58751|M|67.90,45.83|Z|Maldraxxus|N|At Felsen Wingclip.|
 C A Common Peril|QID|58751|M|67.75,45.87|Z|Maldraxxus|CHAT|N|Deliver the summons to Baroness Vashj.|MS|
@@ -484,8 +486,8 @@ C Straight to the Heart|QID|59025|M|73.72,44.16|Z|Maldraxxus|QO|3|NC|N|Click on 
 T Straight to the Heart|QID|59025|M|73.57,44.46|Z|Maldraxxus|N|To Baroness Vashj.|MS|
 A Her Rightful Place|QID|59009|M|73.57,44.46|Z|Maldraxxus|N|From Baroness Vashj.|PRE|59025|MS|
 T Decaying Situation|QID|62743|M|67.75,45.87|Z|Maldraxxus|N|Time to finish up this bonus objective as you head back to Renounced Bastile.|TOF|
-f Renounced Bastille|ACTIVE|62748^62761|M|67.90,45.83|Z|Maldraxxus|N|At Felsen Wingclip.|TOF|
-F Theater of Pain|ACTIVE|62085|M|67.90,45.83|Z|Maldraxxus|N|At Felsen Wingclip.|TOF|
+f Renounced Bastille|ACTIVE|62748^62761|M|67.90,45.83|Z|Maldraxxus|N|At Felsen Wingclip.|RANK|2|TOF|
+F Theater of Pain|ACTIVE|62085|M|67.90,45.83|Z|Maldraxxus|N|At Felsen Wingclip.|RANK|2|TOF|
 R Renounced Bastille|ACTIVE|59009|CS|M|71.23,43.55;67.9,45.86|Z|Maldraxxus|N|Head back to the Renounced Bastille for a flight back to Bleak Redoubt.|MS|
 F Bleak Redoubt|ACTIVE|59009|M|67.90,45.86|N|At Felsen Wingclip.|MS|
 C Her Rightful Place|QID|59009|M|50.39,67.75|Z|Maldraxxus|NC|N|Step into the pool and click the "[color=40C7EB]Resonate[/color]" Action Ability to empower the Rune of Guile.|EAB|MS|
@@ -548,11 +550,11 @@ A Words of the Primus|QID|59206|M|49.73,49.19|Z|Seat of the Primus!Dungeon|N|Fro
 F Theater of Pain|ACTIVE|62085|M|49.73,49.19|Z|Maldraxxus|N|At Wing Guard Buurkin.|
 R Challenger's Promenade|ACTIVE|62085|M|54.02,50.86|Z|Maldraxxus|N|Run over to Challenger's Promenade.|
 T ...Why Me?|QID|62085|M|54.02,50.86|Z|Maldraxxus|N|To Overseer Kalvaros.|
-F The Spearhead|AVAILABLE|62741|M|49.93,53.20|Z|Maldraxxus|N|At Wing Guard Alamar.|TOF|
-R House of the Chosen|AVAILABLE|62741|M|42.01,58.91|Z|Maldraxxus|N|Up to the House of the Chosen for the last bonus objective.|TOF|
-A Choice of Action|QID|62741|M|42.01,58.91|Z|Maldraxxus|N|TOF|
-C Choice of Action|QID|62741|M|42.01,58.91|Z|Maldraxxus|N|TOF|
-T Choice of Action|QID|62741|M|42.01,58.91|Z|Maldraxxus|N|TOF|
+F The Spearhead|AVAILABLE|62741|M|49.93,53.20|Z|Maldraxxus|N|At Wing Guard Alamar.|RANK|2|TOF|
+R House of the Chosen|AVAILABLE|62741|M|42.01,58.91|Z|Maldraxxus|N|Up to the House of the Chosen for the last bonus objective.|RANK|2|TOF|
+A Choice of Action|QID|62741|M|42.01,58.91|Z|Maldraxxus|N|Bonus Objective-Autoaccepted|RANK|2|TOF|
+C Choice of Action|QID|62741|M|42.01,58.91|Z|Maldraxxus|N|Basically kill hostiles, there is a small increase from burning banners, but I wouldnt go out of my way for it.|RANK|2|TOF|
+T Choice of Action|QID|62741|M|42.01,58.91|Z|Maldraxxus|N|Bonus Objective-Autocompleted|RANK|2|TOF|
 F Oribos|ACTIVE|59206|M|49.86,53.30|Z|Maldraxxus|N|At Wing Guard Alamar.|PRE|62085|;pre to make this step show up only if you went over to turn that quest in
 F Oribos|ACTIVE|62761|N|When you are ready to move on, go to the nearest flightmaster and ask for a ride back to Oribos.|TOF|
 F Oribos|ACTIVE|59206|M|52.49,67.71|Z|Maldraxxus|N|At Wing Guard Buurkin.|MS|
@@ -565,14 +567,6 @@ C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|1|Z|Ring of Fates@Oribos|NC
 C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|2|Z|Ring of Fates@Oribos|NC|N|Watch cinematic.|MS|
 C A Glimpse into Darkness|QID|61716|M|39.85,68.72|QO|3|Z|Ring of Fates@Oribos|NC|N|Sit back while everyone discusses the vision.|MS|
 T A Glimpse into Darkness|QID|61716|M|39.93,68.61|Z|Ring of Fates@Oribos|N|To Highlord Bolvar Fordragon|MS|
-
-A Tal-Inara|QID|62275^62277^62279|M|61.03,36.71|Z|Ring of Fates@Oribos|N|Talk to Tal-Inara to choose your next zone.|TOF|
-T Bastion|QID|62275|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-T Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
-N Choose Bastion|PRE|62275|LEAD|62723|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Bastion|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Bastion.|
-N Choose Revendreth|PRE|62279|LEAD|62778|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|
-N Choose Ardenweald|PRE|62277|LEAD|62763|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|
 
 ]]
 end)
