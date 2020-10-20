@@ -19,7 +19,7 @@ N World Quests|QID|62723|N|WQs are available since you have chosen the Threads o
 N Use of Ranks|QID|62723|N|Set the guide to Rank 2 for optimum experience. It directs you to all the side quests and bonus objectives. Rank 1, basically leaves you explore on your own when you accept a quest it will jump to there and give you directions on completion and turn in.|TOF|
 A Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion|N|From Sika.|TOF|COV|Kyrian|
 C Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion|CHAT|N|Pick one of the stewards (outlined as quest mobs) to be your personal steward.|TOF|
-T Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion|N|To Sika. This is a weekly quest, so you need to choose a new servent every week if you want one.|TOF
+T Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion|N|To Sika. This is a weekly quest, so you need to choose a new steward every week if you want one.|TOF
 A A Friendly Rivalry|QID|59674|M|57.40,54.29|Z|Bastion|N|Take the south anima gateway out of Hero's Rest to find Pelodis.|TOF|RANK|2|
 R Aspirant's Rest|ACTIVE|62723|CS|M|56.13,52.91;52.66,64.30;51.31,73.64;49.08,74.31|Z|Bastion|N|Follow the road generally south to get to Aspirant's Rest.|TOF|RANK|2|
 f Aspirant's Rest|ACTIVE|60466|M|48.13,74.16|Z|Bastion|N|At Rheus.|TOF|RANK|2|
