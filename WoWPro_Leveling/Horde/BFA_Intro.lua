@@ -3,15 +3,16 @@ WoWPro:GuideLevels(guide, 10, 50, 10)
 WoWPro:GuideSort(guide, 1)
 WoWPro:GuideContent(guide, "Battle for Azeroth")
 WoWPro:GuideName(guide,'Battle for Azeroth Intro')
-WoWPro:GuideNextGuide(guide, 'EmmHWarCampaign')
+WoWPro:GuideNextGuide(guide, 'Zuldazar')
 WoWPro:GuideSteps(guide, function()
 WoWPro:GuideQuestTriggers(guide, 53372, 53028)
 return [[
 
-A Battle for Azeroth: Mission Statement|QID|51443|M|49.40,76.58|Z|Orgrimmar|N|From Warchief's Herald next to the Warchief's Command Board.|ACH|14222;;false|
-C Battle for Azeroth: Mission Statement|QID|51443|M|48.55,71.49|Z|Orgrimmar|QO|1|CHAT|N|Speak to Warchief Sylvanas Windrunner|ACH|14222;;false|
-C Battle for Azeroth: Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|QO|2|NC|N|Go to the Broken Tusk Inn and meet your team|ACH|14222;;false|
-T Battle for Azeroth: Mission Statement|QID|51443|M|54.45,78.42|Z|Orgrimmar|N|To Nathanos Blightcaller.|ACH|14222;;false|
+A Mission Statement|QID|51443|M|49.40,76.58|Z|Orgrimmar|N|From Warchief's Herald next to the Warchief's Command Board.|ACH|14222;;false|
+C Mission Statement|QID|51443|M|48.55,71.49|Z|Orgrimmar|QO|1|CHAT|N|Speak to Warchief Sylvanas Windrunner|ACH|14222;;false|
+C Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|QO|2|NC|N|Go to the Broken Tusk Inn and meet your team|ACH|14222;;false|
+T Mission Statement|QID|51443|M|54.45,78.42|Z|Orgrimmar|N|To Nathanos Blightcaller.|ACH|14222;;false|
+
 A The Stormwind Extraction|QID|50769|M|54.45,78.42|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE|51443|ACH|14222;;false|
 C The Stormwind Extraction|QID|50769|M|54.55,78.37|Z|Orgrimmar|QO|1|NC|N|Take a potion. Don't use it!|ACH|14222;;false|
 C The Stormwind Extraction|QID|50769|M|48.95,93.84|Z|Orgrimmar|QO|2|V|N|Fly up to the ramparts and hop on an eagle. This will enter you into the next scenario, (Stockades/Stormwind).|ACH|14222;;false|
@@ -29,7 +30,6 @@ C No Diplomatic Solution|QID|50769|M|39.67,41.04|Z|Stormwind City!Stormwind City
 C Reach Talanji's ship|QID|50769|M|20.59,25.79|Z|Stormwind City!Stormwind City!Instance|SO|9;1|N|Continue on with your buddies, killing those pesky Alliance trying to stop you from reaching Talanji's ship|ACH|14222;;false|
 C Escape Stormwind Harbor|QID|50769|M|20.63,28.92|Z|Stormwind City!Stormwind City!Instance|SO|10;1|CHAT|N|Talk to Talanji on the bridge of her ship.|ACH|14222;;false|
 T The Stormwind Extraction|QID|50769|M|57.96,62.77|Z|Zuldazar|N|To Nathanos Blightcaller.|ACH|14222;;false|
-
 
 A Welcome to Zuldazar|QID|46957|M|57.95,62.46|Z|Zuldazar|N|From Princess Talanji|PRE|50769|
 C Welcome to Zuldazar|QID|46957|M|57.94,56.59|Z|Zuldazar|NC|N|Follow Princess Talanji|

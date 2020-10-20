@@ -5,7 +5,6 @@ WoWPro:GuideNickname(guide, "Battle for Azeroth: Guide Hub")
 WoWPro:GuideName(guide,"BFA: Guide Hub")
 WoWPro:GuideSteps(guide, function()
 return [[
-
 N War Campaign|QID|99999|M|PLAYER|JUMP|War Campaign|S|N|Jump to the War Campaign guide.|NOCACHE|LVL|35|
 N Tiragarde Sound|QID|99999|M|PLAYER|JUMP|Tiragarde Sound|S|N|Jump to the Tiragarde Sound guide.|NOCACHE|
 N Drustvar|QID|99999|M|PLAYER|JUMP|Drustvar|S|N|Jump to the Drustvar guide.|NOCACHE|LVL|25|

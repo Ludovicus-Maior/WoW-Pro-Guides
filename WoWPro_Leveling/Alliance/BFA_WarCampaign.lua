@@ -100,7 +100,7 @@ C Burn the Flags|QID|51394|M|29.41,51.18|Z|Vol'dun|QO|1|US|NC|N|Finish burning t
 C Crush the Cannons|QID|51394|M|29.56,51.39|Z|Vol'dun|QO|2|US|NC|N|Finish crushing the cannons.|
 C Defang the Faithless|QID|51391|M|29.02,51.32|Z|Vol'dun|US|N|Finish killing the Faithless.|
 C Shatter Spires|QID|51394|M|28.86,51.47|Z|Vol'dun|QO|3|NC|N|Click on the spire to shatter it.|
-f Terrace of the Devoted|QID|51389|M|27.66,50.34|Z|Vol'dun|N|At Vethiss.|ACTIVE|51391|
+f Sanctuary of the Devoted|QID|51389|M|27.66,50.34|Z|Vol'dun|N|At Vethiss.|ACTIVE|51391|
 T Breaking Free|QID|51389|M|27.56,52.62|Z|Vol'dun|N|To Private James.|
 T Defang the Faithless|QID|51391|M|27.62,52.57|Z|Vol'dun|N|To Vorrik.|
 T Break the Siege|QID|51394|M|27.62,52.57|Z|Vol'dun|N|To Vorrik.|
@@ -209,7 +209,7 @@ C Return to Boralus|QID|51967|M|61.40,51.11|Z|Kul Tiras|CHAT|N|Tell Desha you wa
 T Return to Boralus|QID|51967|M|69.27,27.02|Z|Boralus|N|To Halford Wyrmbane. Don't forget to reset your hearthstone to Boralus.|
 
 ;First Assault
-A Overseas Assassination|QID|52026|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|LVL|50|
+A Overseas Assassination|QID|52026|M|69.28,27.00|Z|Boralus|N|From Halford Wyrmbane.|LVL|50|PRE|51967&51968&51969|
 C Overseas Assassination|QID|52026|M|67.95,26.72|Z|Boralus|CHAT|N|If you are ready to travel to Vol'dun|
 T Overseas Assassination|QID|52026|M|37.70,35.95|Z|Vol'dun|N|To Halford Wyrmbane.|
 A The Vol'dun Plan|QID|52027|M|37.70,35.95|Z|Vol'dun|N|From Halford Wyrmbane.|PRE|52026|
@@ -417,11 +417,11 @@ T My Enemy's Enemy is My Disguise|QID|52290|M|48.89,68.56|Z|Zuldazar|N|To Shandr
 A Right Beneath Their Nose|QID|52286|M|48.89,68.56|Z|Zuldazar|N|From Shandris Feathermoon.|PRE|52290|
 A Intelligence Denial|QID|52287|M|48.89,68.56|Z|Zuldazar|N|From Shandris Feathermoon.|PRE|52290|
 A Void Vacation|QID|52288|M|48.90,68.58|Z|Zuldazar|N|From Magister Umbric.|PRE|52290|
-C Void Vacation|QID|52288|M|48.03,63.02|Z|Zuldazar|NC|S|N|Use your extra action button to stealth, and watch for dogs. Throw Horde emissaries into a void rift. This action doesn't break stealth.|U|162450|
+C Void Vacation|QID|52288|M|48.03,63.02|Z|Zuldazar|NC|S|T|Horde Emissary|N|Use your extra action button to stealth, and watch for dogs. Throw Horde emissaries into a void rift. This action doesn't break stealth.|U|162450|
 K Spymaster Stormhorn|ACTIVE|52287|M|47.48,66.86|Z|Zuldazar|QO|1|T|Spymaster Stormhorn|N|Your first target, Spymaster Stormhorn, is up the stairs nearest where you picked up the quest.|
 K Spymaster Bloodsnarl|ACTIVE|52287|M|46.80,62.56;45.85,62.12|CS|Z|Zuldazar|QO|2|T|Spymaster Bloodsnarl|N|The get to the next target, Spymaster Bloodsnarl, go back down to the main terrace and accross it to the waypoint and up to find him inside.
 K Spymaster Bilespreader|ACTIVE|52287|M|46.33,59.95|Z|Zuldazar|QO|3|T|Spymaster Bilespreader|N|Up one more level of stairs to find your last target, Spymaster Bilespreader.|
-C Void Vacation|QID|52288|M|50.34,65.80|Z|Zuldazar|NC|US|N|Finish throwing Horde emissaries into the void as you work your way to the ship to plant bombs.|U|162450|
+C Void Vacation|QID|52288|M|50.34,65.80|Z|Zuldazar|NC|US|T|Horde Emissary|N|Finish throwing Horde emissaries into the void as you work your way to the ship to plant bombs.|U|162450|
 C Right Beneath Their Nose|QID|52286|M|50.34,65.80|Z|Zuldazar|NC|N|Back into the water to plant deathbombs.|
 T Void Vacation|QID|52288|M|48.90,68.58|Z|Zuldazar|N|To Magister Umbric.|
 T Right Beneath Their Nose|QID|52286|M|48.89,68.56|Z|Zuldazar|N|To Shandris Feathermoon.|
@@ -442,7 +442,7 @@ C An End to the Killing|QID|52790|M|34.83,76.33|Z|Zuldazar|QO|2|N|Go back up to 
 C An End to the Killing|QID|52790|M|34.84,76.41|Z|Zuldazar|QO|3|N|Tell Halford to blow up the ship.|CHAT|
 P Wind's Redemption|ACTIVE|52790|M|40.47,71.05|Z|Zuldazar|N|Tell Daria you are ready to return to Boralus.|C|-Mage|
 P Stormwind City|ACTIVE|52790|M|PLAYER|Z|Zuldazar|N|Teleport to Stormwind.|C|Mage|
-P Stormwind City|ACTIVE|52790|M|70.12,16.81|Z|Boralus|N|Take the portal to Stormwind.|C|Mage|
+P Stormwind City|ACTIVE|52790|M|70.12,16.81|Z|Boralus|N|Take the portal to Stormwind.|C|-Mage|
 T An End to the Killing|QID|52790|M|85.89,31.64|Z|Stormwind City|N|Take your best route to Stormwind and turn in this quest to Anduin Wrynn and complete the War Campaign.|
 A Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|PRE|52790|
 T Champion: Shandris Feathermoon|QID|53098|M|85.52,31.88|Z|Stormwind City|N|Speak to Shandris to add her to your champions.|

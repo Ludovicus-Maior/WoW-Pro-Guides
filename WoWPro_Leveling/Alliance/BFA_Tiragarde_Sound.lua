@@ -2,7 +2,7 @@ local guide = WoWPro:RegisterGuide('EmmTiragarde', 'Leveling', 'Tiragarde Sound'
 WoWPro:GuideSort(guide, 2)
 WoWPro:GuideNickname(guide, "Tiragarde Sound")
 WoWPro:GuideName(guide,"Tiragarde Sound")
-WoWPro:GuideNextGuide(guide, 'Battle for Azeroth: Guide Hub')
+WoWPro:GuideNextGuide(guide, 'Drustvar')
 WoWPro:GuideSteps(guide, function()
 return [[
 N Guide Hub|QID|99999|M|PLAYER|JUMP|Battle for Azeroth: Guide Hub|LVL|25|S!US|N|Jump to the Guide Hub|NOCACHE|
@@ -228,7 +228,7 @@ C Raise a Glass!|QID|49398|M|77.35,83.92|QO|1|CHAT|N|Pick a drink from Venriks o
 C Raise a Glass!|QID|49398|M|77.35,83.92|QO|2|U|153599|NC|N|Drink your drink|
 T Raise a Glass!|QID|49398|M|77.35,83.92|N|To Venrik.|
 f Freehold|AVAILABLE|49402|M|77.04,82.89|N|At Rodrigo.|
-A Flew the Coop|QID|49402|M|77.04,82.89|N|From Rodrigo.|PRE|49398&49401|RANK|2|
+A Flew the Coop|QID|49402|M|77.04,82.89|N|From Rodrigo.|PRE|49398|RANK|2|  ;  &49401 Not needed, quest avail without turn in
 C Rodrigo's Roost|QID|49401|M|77.03,82.90|QO|1|CHAT|N|Ask Rodrigo to send the letter to Taelia.|
 T Rodrigo's Roost|QID|49401|M|77.33,83.97|N|To Flynn Fairwind.|
 A The Big Job|QID|49399|M|77.33,83.97|N|From Flynn Fairwind.|PRE|49398&49401|
@@ -565,7 +565,7 @@ T Beginner Equitation|QID|48004|M|51.57,27.27|N|To Lord Aldrius Norwington.|
 A Show Me What You've Got|QID|48939|M|51.57,27.27|N|From Lord Aldrius Norwington.|PRE|48004|
 C Show Me What You've Got|QID|48939|M|50.92,27.46|QO|2|V|N|Mount Cooper (if you aren't already). Score 150 Points, \n Hint: Jumping fences while waiting for zeps and while approaching them, gets you a higher score|T|Paper|
 T Show Me What You've Got|QID|48939|M|51.56,27.24|N|To Lord Aldrius Norwington.|
-A Equine Retrieval|QID|48087|M|51.56,27.24|N|From Lord Aldrius Norwington.|PRE|48939|
+A Equine Retrieval|QID|48087|M|51.56,27.24|N|From Lord Aldrius Norwington.|PRE|48004| ; wrong PRE|48939| quest shows up after 48004
 C Equine Retrieval|QID|48087|M|53.16,30.70|QO|1|V|N|Mount Rose.|
 C Equine Retrieval|QID|48087|M|52.50,28.79|QO|2|NC|N|Bring Rose back to Lord Norwington.|
 T Equine Retrieval|QID|48087|M|52.53,28.48|N|To Lord Aldrius Norwington.|
@@ -662,8 +662,7 @@ T Boss' Revenge|QID|49439|M|39.35,12.59|N|To Boss Tak.|
 K Pack Leader Asenya|QID|49923|QO|1|M|39.89,14.89;38.86,15.29|CS|T|Pack Leader Asenya|RARE|ITEM|160263|N|In her underground den, you will find a Silver Elite to kill for Azerite Power and resources.|RANK|2|
 C Wendies|QID|49433|M|39.82,13.11|US|N|Finish kill Wendigos.|
 T Wendies|QID|49433|M|40.42,13.75|N|To Boss Tak.|
-; Grail claims only 49439 is needed.
-A Getting Paid|QID|49719|M|40.42,13.75|N|From Boss Tak.|RANK|2|PRE|49439&49433|
+A Getting Paid|QID|49719|M|40.42,13.75|N|From Boss Tak.|RANK|2|PRE|49439&49433| ; Grail claims only 49439 is needed.
 T Getting Paid|QID|49719|M|42.39,22.28|N|To Tagart.|
 $ Smuggler's Cache|QID|50097|M|38.8,22.0;38.47,20.77|CC|N|Inside a cave. Click on the Smuggler's Cache to start short vignette - Ends with Captain Wintersail - Silver Elite to kill and loot for reasources and treasure.|RARE|ITEM|155422|RANK|3|
 R Anglepoint Wharf|ACTIVE|48347|M|40.94,24.41;42.30,27.25|CS|N|Take the footpath down the hill to Anglepoint Wharf.|FLY|BFA|
@@ -679,11 +678,11 @@ T Aiding the Wharf|QID|48540|M|42.26,29.31|N|To Brother Therold.|
 A A Cure from the Sea|QID|48352|M|42.26,29.31|N|From Brother Therold.|PRE|48540|
 A Sharks in the Water|QID|49268|M|42.26,29.31|N|From Brother Therold.|PRE|48540|
 A Stinging Barbs|QID|48348|M|42.19,29.31|N|From Okri Putterwrench.|PRE|48540|
-C Sharks in the Water|QID|49268|M|40.82,29.58|S|N|Kill Invading Dreadmaws as you go.|
+C Sharks in the Water|QID|49268|M|40.82,29.58|T|Invading Dreadmaw|S|N|Kill Invading Dreadmaws as you go.|
 C A Cure from the Sea|QID|48352|M|40.82,29.58|S|NC|N|Pick up Bunches of Seaweed from the bottom of the bay.|
-C Stinging Barbs|QID|48348|M|40.82,29.58|N|Kill Barbtail Stingrays for their 'Intact Venomous Barbs'.|
+C Stinging Barbs|QID|48348|M|40.82,29.58|T|Barbtail Stingray|N|Kill Barbtail Stingrays for their 'Intact Venomous Barbs'.|
 C A Cure from the Sea|QID|48352|M|40.82,29.58|US|NC|N|Finish collecting the Seaweed.|
-C Sharks in the Water|QID|49268|M|41.40,31.31|US|N|Finish killing the Invading Dreadmaw.|
+C Sharks in the Water|QID|49268|M|41.40,31.31|T|Invading Dreadmaw|US|N|Finish killing the Invading Dreadmaw.|
 T Stinging Barbs|QID|48348|M|42.19,29.31|N|To Okri Putterwrench.|
 T A Cure from the Sea|QID|48352|M|42.28,29.31|N|To Brother Therold.|
 T Sharks in the Water|QID|49268|M|42.28,29.31|N|To Brother Therold.|
