@@ -6,15 +6,15 @@ WoWPro:GuideNextGuide(guide, 'BurnTedrazilEmmaleah')
 WoWPro:GuideSteps(guide, function()
 return [[
 A Warming Up|QID|59926|Z|The North Sea#1727!Instance|N|From Warlord Breka Grimaxe.|
-C Warming Up|QID|59926|Z|The North Sea#1727!Instance|QO|1|N|Destroy a Target Dummy.|
+C Warming Up|QID|59926|Z|The North Sea#1727!Instance|N|Destroy a Target Dummy.|
 T Warming Up|QID|59926|Z|The North Sea#1727!Instance|N|To Warlord Breka Grimaxe.|
 A Stand Your Ground|QID|59927|Z|The North Sea#1727!Instance|N|From Grunt Throg.|PRE|59926|
-C Stand Your Ground|QID|59927|Z|The North Sea#1727!Instance|QO|1|N|Spar with Grunt Throg.|
+C Stand Your Ground|QID|59927|Z|The North Sea#1727!Instance|N|Spar with Grunt Throg.|
 T Stand Your Ground|QID|59927|Z|The North Sea#1727!Instance|N|To Grunt Throg.|
 A Brace for Impact|QID|59928|Z|The North Sea#1727!Instance|N|From Grunt Throg.|PRE|59927|
 T Brace for Impact|QID|59928|Z|The North Sea#1727!Instance|N|To Warlord Breka Grimaxe.|
 A Murloc Mania|QID|59929|M|61.87,82.89|N|From Warlord Breka Grimaxe.|PRE|59928|
-C Murloc Mania|QID|59929|M|59.98,79.91|QO|1|N|Kill Murlocs in the area and loot First Aid Kits from their corpses.|
+C Murloc Mania|QID|59929|M|59.98,79.91|N|Kill Murlocs in the area and loot First Aid Kits from their corpses.|
 T Murloc Mania|QID|59929|M|61.87,82.88|N|To Warlord Breka Grimaxe.|
 A Emergency First Aid|QID|59930|M|61.87,82.88|N|From Warlord Breka Grimaxe.|PRE|59929|
 C Emergency First Aid|QID|59930|M|61.73,83.46|NC|QO|2|N|Target Bo and apply the First Aid Kit.|T|Bo|U|168410|
@@ -29,10 +29,10 @@ C Cooking Meat|QID|59932|M|58.33,74.59|NC|QO|2|N|Click on the campfire to cook t
 T Cooking Meat|QID|59932|M|58.36,74.48|N|To Won'sa.|
 A Enhanced Combat Tactics|QID|59933|M|58.38,74.64|N|From Warlord Breka Grimaxe.|PRE|59932|C|-Monk,-Hunter|
 A Enhanced Combat Tactics|QID|59934|M|58.38,74.64|N|From Warlord Breka Grimaxe.|PRE|59932|C|Monk|
-C Enhanced Combat Tactics|QID|59933|QO|1|N|Follow Warlord Breka Grimaxe and spar with her. Breka will tell you which ability to use.\n[color=FF0000]NOTE: [/color]The requirements will vary depending upon your class.|
-C Enhanced Combat Tactics|QID|59934|M|57.96,72.64|QO|1;2|N|Follow Warlord Breka Grimaxe and spar with her. Use Tiger Palm 6 times and Blackout Kick 3 times to complete the quest.|
-T Enhanced Combat Tactics|QID|59933|M|58.38,74.64|N|To Warlord Breka Grimaxe.|
-T Enhanced Combat Tactics|QID|59934|M|58.38,74.64|N|To Warlord Breka Grimaxe.|
+C Enhanced Combat Tactics|QID|59933|N|Follow Warlord Breka Grimaxe and spar with her. Breka will tell you which ability to use.\n[color=FF0000]NOTE: [/color]The requirements will vary depending upon your class.|C|-Monk,-Hunter|
+C Enhanced Combat Tactics|QID|59934|M|57.96,72.64|QO|1;2|N|Follow Warlord Breka Grimaxe and spar with her. Use Tiger Palm 6 times and Blackout Kick 3 times to complete the quest.|C|Monk|
+T Enhanced Combat Tactics|QID|59933|M|58.38,74.64|N|To Warlord Breka Grimaxe.|C|-Monk,-Hunter|
+T Enhanced Combat Tactics|QID|59934|M|58.38,74.64|N|To Warlord Breka Grimaxe.|C|Monk|
 A Northbound|QID|59935|M|58.36,74.48|N|From Won'sa.|PRE|59933^59934|
 A Northbound|QID|59935|M|58.36,74.48|N|From Won'sa.|PRE|59932|C|Hunter|
 $ Abandoned Treasure Chest|QID|58882|M|57.05,68.40|N|Loot the treasure chest.|
@@ -43,19 +43,19 @@ C Taming the Wilds|QID|59937|M|62.93,68.49|QO|2|N|Pick an animal to tame for you
 T Taming the Wilds|QID|59937|M|62.71,69.86|N|To Mithdran Dawntracker.|
 A Down with the Quilboar|QID|59938|M|62.71,69.86|N|From Mithdran Dawntracker.|PRE|59935|
 A Forbidden Quilboar Necromancy|QID|59939|M|62.71,69.86|N|From Mithdran Dawntracker.|PRE|59935|
-C Forbidden Quilboar Necromancy|QID|59939|M|61.51,62.91|QO|1|N|Kill Quilboar in the area.|S|
+C Forbidden Quilboar Necromancy|QID|59939|M|61.51,62.91|N|Kill Quilboar in the area.|S|
 K Ogre Overseer|QID|56051|M|60.52,59.86|RARE|T|Ogre Overseer|N|Silver Elite to kill and loot.|
-C Down with the Quilboar|QID|59938|M|58.86,63.03|QO|1|N|Kill Geolord Grek'og.|
-C Forbidden Quilboar Necromancy|QID|59939|M|61.51,62.91|QO|1|N|Wrap up the Quilboar massacre.|US|
+C Down with the Quilboar|QID|59938|M|58.86,63.03|N|Kill Geolord Grek'og.|
+C Forbidden Quilboar Necromancy|QID|59939|M|61.51,62.91|N|Wrap up the Quilboar massacre.|US|
 ; Moved down... Finish quest before getting treasure -- Hendo72
 $ Quilboar Treasures|QID|56579|M|58.52,59.30|N|Loot the treasure chest.|
 T Forbidden Quilboar Necromancy|QID|59939|M|56.26,59.17|N|To Mithdran Dawntracker.|
 T Down with the Quilboar|QID|59938|M|56.16,59.13|N|To Cork Fizzlepop.|
 A The Choppy Booster Mk. 5|QID|59940|M|56.16,59.13|N|From Cork Fizzlepop.|PRE|59938&59939|
-C The Choppy Booster Mk. 5|QID|59940|M|56.06,58.79|QO|1|N|Click the Choppy Booster Mk. 5, sit back and watch the cutscene.|NC|
+C The Choppy Booster Mk. 5|QID|59940|M|56.06,58.79|N|Click the Choppy Booster Mk. 5, sit back and watch the cutscene.|NC|
 T The Choppy Booster Mk. 5|QID|59940|M|56.17,59.13|N|To Cork Fizzlepop.|
 A Re-sizing the Situation|QID|59941|M|56.17,59.13|N|From Cork Fizzlepop.|PRE|59940|
-C Re-sizing the Situation|QID|59941|M|55.98,57.96|QO|1|NC|N|Use the Re-Sizer v9.0.1 on Wandering Boars in the area.|T|Wandering Boar|U|178051|
+C Re-sizing the Situation|QID|59941|M|55.98,57.96|NC|N|Use the Re-Sizer v9.0.1 on Wandering Boars in the area.|T|Wandering Boar|U|178051|
 T Re-sizing the Situation|QID|59941|M|56.25,59.03|N|To Warlord Breka Grimaxe.|
 A The Re-Deather|QID|59942|M|56.17,59.13|N|From Cork Fizzlepop.|PRE|59941|
 C The Re-Deather|QID|59942|M|56.03,58.78|QO|1|N|Click on the Choppy Booster MK. 5 to go for a ride.|NC|
@@ -63,7 +63,7 @@ C The Re-Deather|QID|59942|M|56.03,58.78|QO|2|N|Use action key '1' and target th
 C The Re-Deather|QID|59942|M|50.95,52.78|QO|3|N|Go put an end to Torgok's life.|
 T The Re-Deather|QID|59942|M|52.60,53.34|N|To Shuja Grimaxe.\nOnce they shut up. lol|
 A Stocking Up on Supplies|QID|59950|M|52.17,55.34|N|From Warlord Breka Grimaxe.|PRE|59942|
-C Stocking Up on Supplies|QID|59950|M|52.44,55.65|N|Simply, sell something from your bags to Provisioner Jin'hake and then buy it back. Any item will do.|NC|
+C Stocking Up on Supplies|QID|59950|M|52.44,55.65|NC|N|Simply, sell something from your bags to Provisioner Jin'hake and then buy it back. Any item will do.|
 T Stocking Up on Supplies|QID|59950|M|52.17,55.34|N|To Warlord Breka Grimaxe.|
 A A Rogue's End|QID|59967|M|52.03,55.45|N|From Grunt Throg.|PRE|59950|C|Rogue|
 C A Rogue's End|QID|59967|M|45.65,56.13|CHAT|QO|1|N|Stealth and find Drizza Sidestabber.|C|Rogue|
@@ -156,22 +156,22 @@ C The Best Way to Use Sheep|QID|59955|M|52.16,55.48|CHAT|QO|1|N|Speak with Herbe
 C The Best Way to Use Sheep|QID|59955|M|53.46,55.09|QO|2|N|Follow Herbert and Throg and then cast Polymorph on them.|C|Mage|
 T The Best Way to Use Sheep|QID|59955|M|52.16,55.48|N|To Herbert Gloomburst.|C|Mage|
 A A Monk's Focus|QID|59956|M|52.03,55.21|N|From Bo.|PRE|59947|C|Monk|
-C A Monk's Focus|QID|59956|M|52.62,49.47|CHAT|QO|1|N|Meditate with Bo.|C|Monk|
+C A Monk's Focus|QID|59956|M|52.62,49.47|CHAT|N|Meditate with Bo.|C|Monk|
 T A Monk's Focus|QID|59956|M|52.62,49.47|N|To Bo.|C|Monk|
 A One Last Spar|QID|59957|M|52.62,49.47|N|From Bo.|PRE|59956|C|Monk|
-C One Last Spar|QID|59957|M|53.48,49.92|QO|1|N|Spar with Bo and use Touch of Death on him.|C|Monk|
+C One Last Spar|QID|59957|M|53.48,49.92|N|Spar with Bo and use Touch of Death on him.|C|Monk|
 T One Last Spar|QID|59957|M|52.17,55.33|N|To Warlord Breka Grimaxe.|C|Monk|
 T Hjalmar's Final Execution|QID|59972|M|52.03,55.45|N|To Grunt Throg.|C|Warrior|
 A To Darkmaul Citadel|QID|59975|M|52.18,55.35|N|From Warlord Breka Grimaxe.|PRE|59947|
 A Killclaw the Terrible|QID|56839|M|48.74,54.24|ELITE|N|[color=ff8000]Elite: [/color]From the sign off the road.|
-C Killclaw the Terrible|QID|56839|M|46.12,54.81|QO|1|N|[color=ff8000]Elite: [/color]Killclaw the Terrible slain.|
+C Killclaw the Terrible|QID|56839|M|46.12,54.81|N|[color=ff8000]Elite: [/color]Killclaw the Terrible slain.|
 T Killclaw the Terrible|QID|56839|M|43.42,51.13|N|At the Treasure Chest.|
 T To Darkmaul Citadel|QID|59975|M|48.95,49.33|N|To Warlord Breka Grimaxe.|
 A Right Beneath Their Eyes|QID|59978|M|48.95,49.33|N|From Warlord Breka Grimaxe.|PRE|59975|
 C Right Beneath Their Eyes|QID|59978|M|48.93,49.46|QO|1|CHAT|N|Speak with Herbert to get transformed into an Ogre.|
 C Right Beneath Their Eyes|QID|59978|M|45.70,44.70|QO|2|NC|N|Enter the Darkmaul Citadel.|
 C Right Beneath Their Eyes|QID|59978|M|45.61,38.49|QO|3|NC|N|Run over to the cooking area.|
-C Right Beneath Their Eyes|QID|59978|M|45.70,37.58|QO|4|NC|N|Target Gor'groth and type /wave and then /dance afterward if you feel up to it.|
+C Right Beneath Their Eyes|QID|59978|M|45.70,37.58|QO|4|NC|T|Gor'groth,Wave|N|Target Gor'groth and type /wave and then /dance afterward if you feel up to it.|
 C Right Beneath Their Eyes|QID|59978|M|39.89,32.12|QO|6|N|Reach the citadel entrance.|
 T Right Beneath Their Eyes|QID|59978|M|40.29,32.45|N|To Warlord Breka Grimaxe.|
 A Controlling their Stones|QID|59981|M|40.29,32.45|N|From Warlord Breka Grimaxe.|PRE|59978|
@@ -253,10 +253,10 @@ h The Wyvern's Tail|QID|60359|M|71.31,49.96|Z|Orgrimmar|QO|1|N|Make The Wyvern's
 T Home Is Where the Hearth Is|QID|60359|M|71.31,49.96|Z|Orgrimmar|N|To Innkeeper Nufa.|
 A An Urgent Meeting|QID|60360|M|70.86,49.53|Z|Orgrimmar|N|From Shuja Grimaxe.|PRE|60359|
 T An Urgent Meeting|QID|60360|M|48.26,71.38|Z|Orgrimmar|N|To Warlord Breka Grimaxe at Grommash Hold. You can say bye to Cork if you like.|
-A Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|N|From Warlord Breka Grimaxe.|PRE|60360|
-C Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|QO|1|N|Meet with Warchief Sylvanas Windrunner.|
-C Mission Statement|QID|60361|M|48.52,71.20|Z|Orgrimmar|QO|2|CHAT|N|Speak with Nathanos Blightcaller.|
-C Mission Statement|QID|60361|M|51.31,77.41|Z|Orgrimmar|QO|4|NC|N|Click on the Wyvern for a ride to Princess Talanji's boat.|
-T Mission Statement|QID|60361|M|57.96,62.76|Z|Zuldazar|N|To Nathanos Blightcaller.|
+A Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|N|From Warlord Breka Grimaxe.|PRE|60360|
+C Battle for Azeroth: Mission Statement|QID|60361|M|48.26,71.38|Z|Orgrimmar|QO|1|N|Wait for their conversation to end to complete this step. You literally just stand there and do nothing.|
+C Battle for Azeroth: Mission Statement|QID|60361|M|48.52,71.20|Z|Orgrimmar|QO|2|CHAT|N|Speak with Nathanos Blightcaller.|
+C Battle for Azeroth: Mission Statement|QID|60361|M|51.31,77.41|Z|Orgrimmar|QO|4|NC|N|Click on the Wyvern for a ride to Princess Talanji's boat.|
+T Battle for Azeroth: Mission Statement|QID|60361|M|57.96,62.76|Z|Zuldazar|N|To Nathanos Blightcaller.|
 ]]
 end)

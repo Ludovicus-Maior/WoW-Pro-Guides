@@ -7,10 +7,12 @@ WoWPro:GuideNextGuide(guide, 'Zuldazar')
 WoWPro:GuideSteps(guide, function()
 WoWPro:GuideQuestTriggers(guide, 53372, 53028)
 return [[
+
 A Mission Statement|QID|51443|M|49.40,76.58|Z|Orgrimmar|N|From Warchief's Herald next to the Warchief's Command Board.|ACH|14222;;false|
 C Mission Statement|QID|51443|M|48.55,71.49|Z|Orgrimmar|QO|1|CHAT|N|Speak to Warchief Sylvanas Windrunner|ACH|14222;;false|
 C Mission Statement|QID|51443|M|54.62,78.34|Z|Orgrimmar|QO|2|NC|N|Go to the Broken Tusk Inn and meet your team|ACH|14222;;false|
 T Mission Statement|QID|51443|M|54.45,78.42|Z|Orgrimmar|N|To Nathanos Blightcaller.|ACH|14222;;false|
+
 A The Stormwind Extraction|QID|50769|M|54.45,78.42|Z|Orgrimmar|N|From Nathanos Blightcaller.|PRE|51443|ACH|14222;;false|
 C The Stormwind Extraction|QID|50769|M|54.55,78.37|Z|Orgrimmar|QO|1|NC|N|Take a potion. Don't use it!|ACH|14222;;false|
 C The Stormwind Extraction|QID|50769|M|48.95,93.84|Z|Orgrimmar|QO|2|V|N|Fly up to the ramparts and hop on an eagle. This will enter you into the next scenario, (Stockades/Stormwind).|ACH|14222;;false|
