@@ -4,7 +4,7 @@
 ## Notes: Daily quest guides created by the WoW-Pro Community
 ## Author: Jiyambi
 ## Dependencies: WoWPro
-## Version: 9.0.1-A1
+## Version: 9.0.1-A2
 #classic ## Version: 1.13.5-A1
 ## X-Category: Quest
 ## X-License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
