@@ -19,7 +19,7 @@ N World Quests|QID|62723|N|WQs are available since you have chosen the Threads o
 N Use of Ranks|QID|62723|N|Set the guide to Rank 2 for optimum experience. It directs you to all the side quests and bonus objectives. Rank 1, basically leaves you explore on your own when you accept a quest it will jump to there and give you directions on completion and turn in.|TOF|
 A Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion|N|From Sika.|TOF|COV|Kyrian|
 C Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion|CHAT|N|Pick one of the stewards (outlined as quest mobs) to be your personal steward.|TOF|
-T Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion|N|To Sika.|TOF
+T Your Next Best Friend|QID|62916|M|52.97,47.55|Z|Bastion|N|To Sika. This is a weekly quest, so you need to choose a new steward every week if you want one.|TOF
 A A Friendly Rivalry|QID|59674|M|57.40,54.29|Z|Bastion|N|Take the south anima gateway out of Hero's Rest to find Pelodis.|TOF|RANK|2|
 R Aspirant's Rest|ACTIVE|62723|CS|M|56.13,52.91;52.66,64.30;51.31,73.64;49.08,74.31|Z|Bastion|N|Follow the road generally south to get to Aspirant's Rest.|TOF|RANK|2|
 f Aspirant's Rest|ACTIVE|60466|M|48.13,74.16|Z|Bastion|N|At Rheus.|TOF|RANK|2|
@@ -500,9 +500,12 @@ A A Land of Strife|QID|61107|M|61.03,36.71|Z|Ring of Fates@Oribos|N|From Tal-Ina
 C A Land of Strife|QID|61107|M|59.95,35.96|Z|Ring of Fates@Oribos|NC|N|Click on the blue sword.|MS|
 T A Land of Strife|QID|61107|M|61.03,36.71|Z|Ring of Fates@Oribos|N|To Overseer Kah-Sher.|MS|
 
-N Tal-Inara|QID|62277^62278^62279|N|Talk to Tal-Inara to choose your next zone.|TOF|
-N Choose Revendreth|PRE|62279|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|TOF|
-N Choose Maldraxxus|PRE|62278|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|TOF|
-N Choose Ardenweald|PRE|62277|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|TOF|
+A Tal-Inara|QID|62277^62278^62279|M|61.03,36.71|Z|Ring of Fates@Oribos|N|Talk to Tal-Inara to choose your next zone.|TOF|
+T Ardenweald|QID|62277|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+T Maldraxxus|QID|62278|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+T Revendreth|QID|62279|M|38.93,69.97|Z|Ring of Fates@Oribos|N|To Tal-Inara.|TOF|
+N Choose Revendreth|PRE|62279|LEAD|62778|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Revendreth|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in  Revendreth.|
+N Choose Maldraxxus|PRE|62278|LEAD|62748|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Maldraxxus|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Maldraxxus.|
+N Choose Ardenweald|PRE|62277|LEAD|62763|S!US|M|38.93,69.97|Z|Ring of Fates@Oribos|JUMP|Ardenweald|N|Finish your business in Oribos and when you are ready, click on the book icon to load the next guide and begin your adventures in Ardenweald.|
 ]]
 end)
