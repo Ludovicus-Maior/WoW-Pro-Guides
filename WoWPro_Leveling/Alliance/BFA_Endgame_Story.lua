@@ -6,7 +6,7 @@ WoWPro:GuideNextGuide(guide, 'TBD')
 WoWPro:GuideAutoSwitch(guide)
 WoWPro:GuideSteps(guide, function()
 return [[
-N About|M|67.99,22.01|Z|Boralus|N|You must be level 120 and have the Kul Tourist achievement to start this guide. This guide is for the Jaina Proudmoore storyline in Kul'tiras. It earns the Pride of Kul'tiras achievement and unlocks the Siege of Boralus mythic-only instance.|AVAILABLE|52194|
+N About|M|67.99,22.01|Z|Boralus|N|You must be level 50 and have the Kul Tourist achievement to start this guide. This guide is for the Jaina Proudmoore storyline in Kul'tiras. It earns the Pride of Kul'tiras achievement and unlocks the Siege of Boralus mythic-only instance.|AVAILABLE|52194|
 ; In Boralus
 A What You May Regret|QID|52194|M|67.99,22.01|Z|Boralus|N|From Cyrus Crestfall in the Harbormaster's Office.|
 F Proudmoore Keep|ACTIVE|52194|M|66.97,15.00|Z|Boralus|N|Fly to Proudmoore Keep.|
@@ -18,7 +18,7 @@ C Lost Shipment|QID|52246|M|53.39,34.93|Z|Boralus|QO|2|N|Emery Camden slain|
 C Lost Shipment|QID|52246|M|66.97,36.21|Z|Tiragarde Sound|QO|3|CHAT|N|Speak to Katherine Proudmoore.|
 T Lost Shipment|QID|52246|M|66.97,36.21|Z|Tiragarde Sound|N|To Katherine Proudmoore.|
 A A Local Guide|QID|52762|M|66.96,36.19|Z|Tiragarde Sound|N|From Genn Greymane.|PRE|52246|
-F Boralus Harbor|ACTIVE|52762|M|47.75,65.43|Z|Boralus|N|Fly to Tradewinds Market.|
+F Tradewinds Market|ACTIVE|52762|M|47.75,65.43|Z|Boralus|N|Fly to Tradewinds Market.|
 C A Local Guide|QID|52762|M|67.63,22.12|Z|Boralus|QO|1|NC|N|Make your way to the Harbormast's Office and show Flynn the Contract.|
 T A Local Guide|QID|52762|M|67.63,22.12|Z|Boralus|N|To Flynn Fairwind.|
 A An Explosive Entrance|QID|52252|M|67.63,22.12|Z|Boralus|N|From Flynn Fairwind.|PRE|52762|
@@ -31,12 +31,12 @@ A The Keys to Success in Freehold|QID|52253|M|76.96,82.84|Z|Tiragarde Sound|N|Fr
 C The Keys to Success in Freehold|QID|52253|M|77.99,80.56|Z|Tiragarde Sound|QO|2|N|Kill Beckett 'Salty Dog' Ogden and collect his key.|
 C The Keys to Success in Freehold|QID|52253|M|75.19,84.54|Z|Tiragarde Sound|QO|3|N|Kill Luna 'Stabby' Roscoe and collect her key.|
 C The Keys to Success in Freehold|QID|52253|M|73.47,84.11|Z|Tiragarde Sound|QO|1|N|Kill Reed 'The Flirt' Fisc and collect his key|
-T The Keys to Success in Freehold|QID|52253|M|73.46,84.12|Z|Tiragarde Sound|N|To Flynn Fairwind.|
+T The Keys to Success in Freehold|QID|52253|M|PLAYER|Z|Tiragarde Sound|N|To Flynn Fairwind.|
 A Sweete's Strongbox|QID|52311|M|73.46,84.12|Z|Tiragarde Sound|N|From Flynn Fairwind.|PRE|52253|
 C Sweete's Strongbox|QID|52311|M|74.65,78.53|Z|Tiragarde Sound|QO|1|NC|N|Find the strongbox|
 C Sweete's Strongbox|QID|52311|M|74.53,78.59|Z|Tiragarde Sound|QO|2|NC|N|Open Sweete's Strongbox|
 C Sweete's Strongbox|QID|52311|M|74.53,78.59|Z|Tiragarde Sound|QO|3|CHAT|N|Talk to Flynn|
-C Sweete's Strongbox|QID|52311|M|75.28,48.91|Z|Tiragarde Sound|QO|4|NC|N|Make a daring escape. Jump off cliff. The bird will catch you.|;Waypoint is off here, forgot to update it.
+C Sweete's Strongbox|QID|52311|M|75.04,77.55|Z|Tiragarde Sound|QO|4|NC|N|Make a daring escape. Jump off cliff. The bird will catch you.|  ; Waypoint is off here, forgot to update it. Adjusted 10/18/2020
 T Sweete's Strongbox|QID|52311|M|75.35,48.85|Z|Tiragarde Sound|N|To Flynn Fairwind.|
 ; Tol Dagor
 A Tol Dagor: The Fourth Key|QID|52445|M|75.35,48.85|Z|Tiragarde Sound|N|From Flynn Fairwind.|PRE|52311|
